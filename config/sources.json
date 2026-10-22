@@ -1,0 +1,28 @@
+{
+  "countries": {"US": "en", "JP": "ja", "KR": "ko"},
+  "charts": [
+    {"category": "all_apps", "chart": "top_free", "limit": 100, "kind": "app", "apple_genre": null, "google_category": "APPLICATION"},
+    {"category": "all_apps", "chart": "top_paid", "limit": 30, "kind": "app", "apple_genre": null, "google_category": "APPLICATION"},
+    {"category": "app_lifestyle", "chart": "top_free", "limit": 30, "kind": "app", "apple_genre": 6012, "google_category": "LIFESTYLE"},
+    {"category": "app_productivity", "chart": "top_free", "limit": 30, "kind": "app", "apple_genre": 6007, "google_category": "PRODUCTIVITY"},
+    {"category": "app_tools", "chart": "top_free", "limit": 30, "kind": "app", "apple_genre": 6002, "google_category": "TOOLS"},
+    {"category": "app_health_fitness", "chart": "top_free", "limit": 30, "kind": "app", "apple_genre": 6013, "google_category": "HEALTH_AND_FITNESS"},
+    {"category": "all_games", "chart": "top_free", "limit": 100, "kind": "game", "apple_genre": 6014, "google_category": "GAME"},
+    {"category": "all_games", "chart": "top_paid", "limit": 30, "kind": "game", "apple_genre": 6014, "google_category": "GAME"},
+    {"category": "game_puzzle", "chart": "top_free", "limit": 30, "kind": "game", "apple_genre": 7012, "google_category": "GAME_PUZZLE"},
+    {"category": "game_casual", "chart": "top_free", "limit": 30, "kind": "game", "apple_genre": 7003, "google_category": "GAME_CASUAL"},
+    {"category": "game_arcade", "chart": "top_free", "limit": 30, "kind": "game", "apple_genre": null, "google_category": "GAME_ARCADE"},
+    {"category": "game_card", "chart": "top_free", "limit": 30, "kind": "game", "apple_genre": 7005, "google_category": "GAME_CARD"},
+    {"category": "game_board", "chart": "top_free", "limit": 30, "kind": "game", "apple_genre": 7004, "google_category": "GAME_BOARD"},
+    {"category": "game_simulation", "chart": "top_free", "limit": 30, "kind": "game", "apple_genre": 7015, "google_category": "GAME_SIMULATION"},
+    {"category": "game_strategy", "chart": "top_free", "limit": 30, "kind": "game", "apple_genre": 7017, "google_category": "GAME_STRATEGY"},
+    {"category": "game_rpg", "chart": "top_free", "limit": 30, "kind": "game", "apple_genre": 7014, "google_category": "GAME_ROLE_PLAYING"},
+    {"category": "game_action", "chart": "top_free", "limit": 30, "kind": "game", "apple_genre": 7001, "google_category": "GAME_ACTION"}
+  ],
+  "itch_feeds": {
+    "featured": "https://itch.io/feed/featured.xml",
+    "new": "https://itch.io/feed/new.xml",
+    "puzzle": "https://itch.io/games/genre-puzzle.xml",
+    "idle": "https://itch.io/games/tag-idle.xml"
+  }
+}

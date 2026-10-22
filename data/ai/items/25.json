@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "items": {
+    "google:com.farlightgames.warline.gp.global": {
+      "app_key": "google:com.farlightgames.warline.gp.global",
+      "name": "Warline: Sniper Strike",
+      "source": "google",
+      "country": "US",
+      "category": "game_strategy",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.farlightgames.warline.gp.global&hl=en&gl=US",
+      "data_date": "2026-10-22",
+      "analysed_at": "2026-10-22T21:54:51+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Fight on the front line as an elite sniper while commanding the battle on a larger scale. Experience a seamless blend of intense tactical shooting and real-time strategy. 🎯 One Shot to Turn the Tide • High-Stakes Sniping: Eliminate key targets to break through enemy defenses. One perfect shot can shift the momentum of an entire battle. • Heavy Ordnance: Master more than just sniper rifles. Command machine guns, rocket launchers, and even tanks to blast your way to victory. • Immersive Gunplay: Fluid controls and visceral slow-mo kill cams. Feel the recoil and impact of every trigger pull.\" 🏙️ Take Back the City - Urban Combat: Take on intense shooter missions. Clear out hostiles block by block and reclaim occupied districts. - Secure Your Base: Restore captured facilities to establish your foothold, turning tactical victories into the foundation of a military empire. - Rise to Command: What starts as a solo infiltration turns into a massive strike. That first shot is only the beginning of your rise to ultimate command.\" 🎖️ Assemble Your Elite Force • Draft Your Roster: Build a squad of specialized operatives. From seasoned combat vets to covert agents, put together a team that fits your playstyle. • Combined Arms: Deploy fighter jets, main battle tanks, and drones to gain the upper hand across the battlefield. • Forge an Elite Army: Train your soldiers, upgrade your officers, and unleash devastating tactical synergies on anyone standing in your way. \" 🌍 Command the Global Front • Fortify Your Stronghold: Expand your base, research cutting-edge tech, and prepare your forces for all-out global conflict. • Forge Powerful Alliances: Team up with players across the globe. Coordinate massive strikes, share resources, and crush any force that opposes you. • Tactical Supremacy: Push the frontlines, outsmart your rivals, and carve your name into history as a true legend. Official Website: https://warline.powerfantasygames.com/",
+      "analysis": {
+        "app_key": "google:com.farlightgames.warline.gp.global",
+        "summary_ko": "Warline: Sniper Strike는 정밀한 저격 임무와 대규모 실시간 전략 전투가 결합된 밀리터리 게임입니다. 플레이어는 저격수로 전장에 투입되어 핵심 목표를 제거하는 동시에, 탱크와 드론 등 중화기를 지휘하여 전술적 승리를 이끌어냅니다. 도시를 탈환하고 기지를 강화하며 전 세계 플레이어와 동맹을 맺어 군사 제국을 건설하는 경험을 제공합니다.",
+        "features_ko": [
+          "저격 소총을 이용한 정밀 타격과 슬로우 모션 킬 캠을 제공합니다.",
+          "탱크, 로켓 발사기, 전투기 등 다양한 중화기를 지휘합니다.",
+          "도시 구역을 점령하고 기지를 복구하여 군사 거점을 확보합니다.",
+          "특수 요원들로 구성된 분대를 편성하고 육성합니다.",
+          "전 세계 플레이어와 동맹을 맺고 자원을 공유하며 대규모 전투를 수행합니다."
+        ],
+        "noteworthy_ko": "저격이라는 1인칭 슈팅 요소와 기지 건설 및 부대 지휘라는 전략 요소를 결합한 하이브리드 장르입니다. 두 장르의 전환이 얼마나 매끄럽게 이루어지는지가 게임의 핵심 재미 요소로 추정됩니다.",
+        "development_ko": "슈팅 물리 엔진과 전략 시뮬레이션 시스템을 동시에 구현해야 하므로 개발 난도가 높습니다. 다양한 유닛의 AI와 전투 밸런스 조정, 그리고 멀티플레이어 서버 동기화가 콘텐츠 제작의 핵심 부담입니다.",
+        "idea_ko": "저격 미션 성공 시 얻는 자원으로 기지를 강화하는 '저격-전략 순환 구조'를 핵심으로 삼는 것이 좋습니다.",
+        "highlights_ko": [
+          "정밀한 저격과 대규모 전략 전투를 하나의 게임 안에서 경험할 수 있습니다.",
+          "기지 강화와 기술 연구를 통해 지속적인 성장의 재미를 제공합니다."
+        ],
+        "systems_ko": [
+          "1인칭 슈팅 물리 및 타격 판정 시스템",
+          "실시간 전략 유닛 지휘 및 이동 시스템",
+          "기지 건설 및 자원 관리 시스템",
+          "멀티플레이어 동맹 및 채팅 시스템",
+          "유닛 성장 및 업그레이드 밸런스 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "슈팅과 전략이라는 두 가지 장르를 동시에 구현하고 최적화하는 것은 1인 개발자에게 매우 큰 도전입니다. 특히 멀티플레이어 동기화와 복잡한 유닛 AI 구현은 상당한 기술적 숙련도를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "저격 사격 메커니즘",
+            "기본적인 유닛 배치 및 전투 시스템",
+            "기지 건물 건설 기능"
+          ],
+          "defer": [
+            "멀티플레이어 동맹 시스템",
+            "복잡한 기술 연구 트리",
+            "전투기 및 드론 등 고도화된 유닛"
+          ],
+          "risks": [
+            "슈팅과 전략 시스템 간의 밸런스 붕괴",
+            "모바일 기기에서의 최적화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "저격수와 정찰 드론",
+            "concept": "저격수는 고정된 위치에서 적을 저격하고, 드론을 조종하여 적의 위치를 파악하는 2인 1조 전술 게임입니다.",
+            "first_step": "저격 사격 시스템과 드론의 시야 전환 기능을 구현합니다."
+          },
+          {
+            "title": "타워 디펜스 저격수",
+            "concept": "몰려오는 적을 저격으로 막아내며, 얻은 자원으로 방어 타워를 설치하는 디펜스 게임입니다.",
+            "first_step": "적의 이동 경로와 저격 사격 판정을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "슈팅과 전략 장르를 결합하는 기획 방식을 배울 수 있습니다. 다만, 1인 개발 시에는 범위를 좁혀 한 가지 메커니즘에 집중하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 물리 엔진 정보, 멀티플레이어 서버 구조, 수익 모델에 대한 상세 정보가 없습니다. 실제 게임의 밸런스나 기술적 구현 방식은 확인되지 않았습니다.",
+        "name": "Warline: Sniper Strike",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.farlightgames.warline.gp.global&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": null,
+        "reasons": [],
+        "best_rank": null,
+        "countries": []
+      },
+      "origin": "imported_v2",
+      "ai_generated": true
+    }
+  }
+}

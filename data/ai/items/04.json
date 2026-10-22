@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "items": {
+    "google:com.scannerreader.qrcode.creatorfree": {
+      "app_key": "google:com.scannerreader.qrcode.creatorfree",
+      "name": "QR 스캐너",
+      "source": "google",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.scannerreader.qrcode.creatorfree&hl=ko&gl=KR",
+      "data_date": "2026-10-22",
+      "analysed_at": "2026-10-22T21:54:51+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "모든 Android 기기에 꼭 필요한 QR 스캐너입니다. 사용이 매우 간편하여 버튼을 누르거나 확대/축소 비율을 조정할 필요 없이 전원을 켜고 QR 코드를 가리키기만 하면 자동으로 QR 코드를 인식하고 스캔합니다. QR 스캐너 기능: QR 코드 스캔 – 모든 일반적인 QR 코드 형식을 읽습니다. URL, 텍스트, 연락처, Wi-Fi 등 다양한 형식의 QR 코드를 스캔할 수 있습니다. QR 코드 생성 – 텍스트, 링크 또는 데이터를 입력하여 즉시 QR 코드를 생성하세요. 필요에 따라 저장하거나 공유할 수 있습니다. 기록 – 스캔하거나 생성한 모든 QR 코드 기록을 자동으로 저장합니다. 언제든지 이전 기록을 확인할 수 있습니다. 바코드 지원 – 제품 바코드를 스캔하여 제품 정보를 표시합니다. 바코드가 손상된 경우 수동으로 번호를 입력할 수도 있습니다. 신분증/여권 스캔 – 신분증 및 여권의 판독 가능 영역을 읽어 주요 정보를 추출하여 수동으로 입력하는 번거로움을 덜어줍니다. QR 스캐너는 모든 Android 모바일 장치에 꼭 필요한 QR 코드 스캐너입니다.",
+      "analysis": {
+        "app_key": "google:com.scannerreader.qrcode.creatorfree",
+        "summary_ko": "QR 스캐너는 QR 코드와 바코드를 빠르고 간편하게 인식하고 생성할 수 있는 도구 앱입니다. URL, 텍스트, Wi-Fi 정보 등 다양한 형식의 QR 코드를 스캔하며, 필요한 데이터를 입력하여 즉시 QR 코드를 생성할 수 있습니다. 또한 스캔 및 생성 기록을 자동으로 저장하여 관리할 수 있습니다.",
+        "features_ko": [
+          "카메라를 통해 다양한 형식의 QR 코드를 자동으로 인식합니다.",
+          "텍스트, 링크 등 데이터를 입력하여 QR 코드를 생성합니다.",
+          "스캔 및 생성한 모든 기록을 자동으로 저장하고 관리합니다.",
+          "제품 바코드를 스캔하여 관련 정보를 확인합니다.",
+          "신분증 및 여권의 판독 가능 영역을 읽어 정보를 추출합니다."
+        ],
+        "noteworthy_ko": "카메라 라이브러리와 이미지 처리 기술을 활용한 실용적인 유틸리티 앱입니다. 신분증/여권 인식과 같은 특화 기능이 일반 QR 스캐너와 차별화되는 지점입니다.",
+        "development_ko": "카메라 API 활용과 이미지 내 텍스트/코드 인식 기술(OCR 등)이 핵심입니다. 사용자 편의를 위한 빠른 인식 속도와 직관적인 UI 설계가 중요하며, 기록 저장을 위한 로컬 데이터베이스 관리가 필요합니다.",
+        "idea_ko": "스캔한 QR 코드의 내용을 카테고리별로 분류하여 저장하는 기능이 유용할 것입니다.",
+        "highlights_ko": [
+          "별도의 조작 없이 카메라를 대기만 하면 자동으로 인식되는 간편함을 제공합니다.",
+          "QR 코드뿐만 아니라 바코드와 신분증 정보까지 처리하는 범용성을 갖췄습니다."
+        ],
+        "systems_ko": [
+          "카메라 실시간 영상 처리 시스템",
+          "QR/바코드 인식 및 디코딩 엔진",
+          "OCR(광학 문자 인식) 시스템",
+          "로컬 데이터베이스 저장 시스템",
+          "사용자 인터페이스(UI) 및 설정 관리"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "이미 검증된 오픈소스 라이브러리(ZXing 등)를 활용하면 핵심 기능을 빠르게 구현할 수 있습니다. 복잡한 서버 연동 없이 로컬 앱으로 완성할 수 있어 개인 개발자에게 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카메라 스캔 기능",
+            "QR 코드 생성 기능",
+            "기록 저장 기능"
+          ],
+          "defer": [
+            "신분증/여권 스캔 기능",
+            "클라우드 동기화 기능"
+          ],
+          "risks": [
+            "카메라 권한 및 보안 이슈",
+            "다양한 기기에서의 카메라 호환성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스마트 명함 관리기",
+            "concept": "명함의 QR 코드를 스캔하여 연락처 앱에 자동으로 저장하고, 내 명함을 QR로 생성하는 앱입니다.",
+            "first_step": "연락처 데이터 파싱과 QR 생성 기능을 구현합니다."
+          },
+          {
+            "title": "와이파이 공유기",
+            "concept": "현재 연결된 Wi-Fi 정보를 QR 코드로 생성하여 친구에게 쉽게 공유하는 앱입니다.",
+            "first_step": "시스템 Wi-Fi 정보 읽기 및 QR 생성 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "카메라 API와 데이터 처리의 기초를 배우기에 최적의 프로젝트입니다. 유틸리티 앱 개발의 기본기를 다지고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 사용된 인식 라이브러리, 보안 처리 방식, 신분증 인식의 정확도에 대한 정보가 없습니다. 실제 구현 시 개인정보 보호법 준수가 필수적입니다.",
+        "name": "QR 스캐너",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.scannerreader.qrcode.creatorfree&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": null,
+        "reasons": [],
+        "best_rank": null,
+        "countries": []
+      },
+      "origin": "imported_v2",
+      "ai_generated": true
+    }
+  }
+}

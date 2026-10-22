@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "items": {
+    "itch:3e4ef3a24d55d90d8630": {
+      "app_key": "itch:3e4ef3a24d55d90d8630",
+      "name": "Von Neumann [Free] [Simulation] [Windows] [macOS] [Linux] [Android]",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://veltes.itch.io/von-neumann",
+      "data_date": "2026-10-22",
+      "analysed_at": "2026-10-22T22:21:02+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A game about self-replicating space probes",
+      "analysis": {
+        "app_key": "itch:3e4ef3a24d55d90d8630",
+        "summary_ko": "Von Neumann은 스스로 복제하는 우주 탐사선을 주제로 한 방치형 시뮬레이션 게임입니다. 사용자는 자원을 수집하고 탐사선을 복제하여 우주로 확장해 나가는 과정을 관리합니다. 복잡한 조작 없이 시스템의 성장을 지켜보는 경험을 제공합니다.",
+        "features_ko": [
+          "자원을 수집하여 스스로 복제하는 우주 탐사선을 제작할 수 있습니다.",
+          "탐사선의 복제 속도와 효율을 업그레이드할 수 있습니다.",
+          "우주로 확장해 나가는 과정을 시뮬레이션할 수 있습니다.",
+          "방치형 게임으로서 사용자가 직접 조작하지 않아도 시스템이 자동으로 동작합니다."
+        ],
+        "noteworthy_ko": "폰 노이만 탐사선이라는 과학적 개념을 게임의 핵심 메커니즘으로 가져온 점이 매우 흥미롭습니다. 지수 함수적으로 증가하는 복제 시스템은 방치형 게임에서 사용자에게 강력한 성장 쾌감을 제공하는 좋은 소재입니다.",
+        "development_ko": "지수 성장 모델을 관리하는 수치 설계와 이를 시각화하는 UI가 핵심입니다. 자원 수집과 복제 로직을 효율적으로 처리하는 시스템이 필요하며, 방치형 게임 특성상 오프라인 상태에서의 자원 계산 로직이 중요합니다. 시스템의 성장이 막히지 않도록 밸런스를 세밀하게 조정해야 합니다.",
+        "idea_ko": "복제된 탐사선들이 서로 다른 행성에서 자원을 수집하여 가져오는 '우주 물류 시스템'을 추가하여 전략성을 높이는 것이 좋습니다.",
+        "highlights_ko": [
+          "자기 복제 개념을 활용한 독특한 방치형 성장 시스템.",
+          "우주 확장이라는 거시적인 목표를 통한 성취감."
+        ],
+        "systems_ko": [
+          "자원 수집 및 관리 시스템",
+          "지수 성장 계산 엔진",
+          "업그레이드 및 연구 시스템",
+          "오프라인 자원 계산 로직",
+          "데이터 저장 및 로드 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "방치형 게임은 조작이 단순하고 시스템의 핵심 로직이 명확하여 개인 개발자가 구현하기에 가장 적합한 장르 중 하나입니다. 물리 엔진이나 복잡한 그래픽이 필요하지 않아 개발 부담이 적습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "자원 수집 로직",
+            "탐사선 복제 및 업그레이드 시스템",
+            "기본적인 진행 상황 표시 UI"
+          ],
+          "defer": [
+            "복잡한 우주 지도 시각화",
+            "다양한 행성별 특수 이벤트",
+            "온라인 멀티플레이어 기능"
+          ],
+          "risks": [
+            "성장 곡선 설계 실패로 인한 지루함",
+            "수치 인플레이션 관리의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "나노봇 군단",
+            "concept": "우주가 아닌 미세한 나노봇이 되어 신체 내부를 정화하는 방치형 게임입니다. 복제된 나노봇들이 질병을 치료하는 과정을 시각화합니다.",
+            "first_step": "나노봇의 복제 속도와 치료 효율을 관리하는 기본 로직 구현."
+          },
+          {
+            "title": "행성 테라포밍",
+            "concept": "복제된 탐사선들이 행성을 개조하여 생명체가 살 수 있게 만드는 게임입니다. 환경 수치를 변화시키는 과정에 집중합니다.",
+            "first_step": "행성 환경 수치(온도, 산소 등)를 변화시키는 업그레이드 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 핵심인 수치 밸런스와 성장 곡선 설계법을 배우기에 최적입니다. 시스템 중심의 게임을 만들고 싶은 개인 개발자에게 강력히 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 게임 규칙이나 업그레이드 항목, 자원 종류 등은 확인되지 않습니다. 또한, 게임의 시각적 표현 방식이나 구체적인 목표 설정은 추정입니다.",
+        "name": "Von Neumann [Free] [Simulation] [Windows] [macOS] [Linux] [Android]",
+        "source": "itch",
+        "detail_url": "https://veltes.itch.io/von-neumann",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 375,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true
+    }
+  }
+}

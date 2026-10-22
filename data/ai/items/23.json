@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "items": {
+    "google:com.mergegames.gossipharbor": {
+      "app_key": "google:com.mergegames.gossipharbor",
+      "name": "Gossip Harbor: Merge & Story",
+      "source": "google",
+      "country": "US",
+      "category": "game_puzzle",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.mergegames.gossipharbor&hl=ko&gl=KR",
+      "data_date": "2026-10-22",
+      "analysed_at": "2026-10-22T21:20:00+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "",
+      "analysis": {
+        "app_key": "google:com.mergegames.gossipharbor",
+        "summary_ko": "주인공 퀸 카스티요가 섬에서 겪는 이혼과 음모, 가족의 비밀을 파헤치는 머지 퍼즐 게임입니다. 플레이어는 다양한 요리를 합쳐 손님에게 제공하고, 낡은 레스토랑을 복구하며 스토리를 진행합니다. 레스토랑의 인테리어를 직접 선택하고 주민들과 관계를 맺으며 섬의 숨겨진 진실을 밝혀내는 경험을 제공합니다.",
+        "features_ko": [
+          "두 개의 아이템을 합쳐 상위 단계의 요리를 만드는 머지 메커니즘을 제공합니다.",
+          "커피, 샌드위치, 해산물 등 다양한 요리를 주문에 맞춰 손님에게 서빙합니다.",
+          "레스토랑의 바닥재, 벽지, 가구 등을 선택하여 공간을 취향대로 꾸밀 수 있습니다.",
+          "주민들과 대화하고 관계를 형성하며 게임 내 미스터리 스토리를 전개합니다."
+        ],
+        "noteworthy_ko": "머지 퍼즐과 인테리어 꾸미기, 그리고 미스터리 서사를 결합한 전형적인 캐주얼 장르의 구조를 갖추고 있습니다. 개발 관점에서는 아이템 생성기(Generator)와 보드 상태 관리, 그리고 스토리 챕터별 보상 로직의 연동이 핵심적인 흥미 요소로 보입니다.",
+        "development_ko": "핵심 기술은 2D 그리드 기반의 머지 로직과 인벤토리 시스템입니다. 콘텐츠 제작 측면에서는 수많은 아이템 에셋과 스토리 텍스트, 인테리어 리소스가 지속적으로 필요하여 운영 부담이 큽니다. 밸런스 측면에서는 아이템 생성 속도와 에너지 소모량 간의 조절이 플레이 타임 유지에 결정적입니다.",
+        "idea_ko": "특정 장소의 과거와 현재를 오가며 머지 아이템으로 기억을 복원하는 '기억 복원 머지' 게임을 제안합니다.",
+        "highlights_ko": [
+          "머지 퍼즐과 레스토랑 경영 시뮬레이션의 결합.",
+          "스토리 진행에 따른 공간 복구 및 인테리어 커스터마이징."
+        ],
+        "systems_ko": [
+          "머지 보드 로직(아이템 합성 및 생성)",
+          "에너지 시스템(행동 제한)",
+          "퀘스트 및 스토리 진행 관리",
+          "인벤토리 및 아이템 데이터베이스",
+          "UI/UX(상점 및 대화창)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "머지 로직 자체는 구현이 어렵지 않으나, 방대한 양의 아이템 데이터와 스토리 연출을 관리하는 시스템 설계가 필요합니다. 1인 개발 시 콘텐츠의 양을 적절히 제한한다면 충분히 구현 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 머지 보드 및 합성 로직",
+            "아이템 생성기(Generator)",
+            "간단한 퀘스트 시스템"
+          ],
+          "defer": [
+            "복잡한 인테리어 커스터마이징",
+            "실시간 서버 연동",
+            "소셜 기능"
+          ],
+          "risks": [
+            "아이템 데이터 관리의 복잡성",
+            "반복적인 플레이로 인한 지루함 발생"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "기억의 조각 머지",
+            "concept": "주인공이 잃어버린 기억을 머지 아이템으로 복원합니다. 아이템을 합칠 때마다 과거의 단편적인 대화가 해금됩니다.",
+            "first_step": "두 개의 아이템을 합쳐 새로운 아이템을 생성하고 텍스트를 출력하는 프로토타입 제작."
+          },
+          {
+            "title": "식물원 가꾸기 머지",
+            "concept": "요리 대신 식물을 키우고 교배하여 희귀 식물을 수집합니다. 수집한 식물로 정원을 꾸미는 힐링 게임입니다.",
+            "first_step": "식물 성장 단계별 스프라이트 교체 로직 구현."
+          }
+        ],
+        "recommendation_ko": "캐주얼 게임의 데이터 구조화와 UI 흐름을 배우기에 좋습니다. 다만, 방대한 콘텐츠 제작이 필요하므로 처음부터 너무 큰 규모로 시작하지 않는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 에너지 시스템의 수치나 서버 통신 방식, 결제 연동 로직에 대한 정보가 없습니다. 실제 게임의 내부 데이터 구조나 밸런스 수치는 확인되지 않았습니다.",
+        "name": "Gossip Harbor: Merge & Story",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.mergegames.gossipharbor&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": null,
+        "reasons": [],
+        "best_rank": null,
+        "countries": []
+      },
+      "origin": "imported_v2",
+      "ai_generated": true
+    }
+  }
+}

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="한국·미국·일본의 앱과 게임 인기 흐름, 새로운 아이디어를 살펴보는 개인용 트렌드 웹">
+  <title>앱·게임 트렌드</title>
+  <link rel="stylesheet" href="./web/css/main.css">
+</head>
+<body>
+  <div id="app">
+    <header class="app-header">
+      <div class="wrap header-content">
+        <a class="brand" href="#/home" aria-label="앱·게임 트렌드 홈"><span class="brand-logo">↗</span><span>앱·게임 <strong>트렌드</strong></span></a>
+        <div class="header-search"><label class="sr-only" for="global-search">앱·게임 검색</label><span aria-hidden="true">⌕</span><input id="global-search" type="search" placeholder="수집된 앱·게임 검색" autocomplete="off"><span class="key-hint">/</span></div>
+        <button id="csv-button" class="button ghost small" type="button">↧ <span>CSV 내보내기</span></button>
+        <button id="status-button" class="status-trigger" type="button"><span class="status-dot"></span><span id="status-label">데이터 확인 중</span>⌄</button>
+      </div>
+      <nav class="main-nav wrap" aria-label="메인 메뉴">
+        <a data-page="home" href="#/home">홈</a>
+        <a data-page="apps" href="#/apps">앱 탐색</a>
+        <a data-page="games" href="#/games">게임 탐색</a>
+        <a data-page="indie" href="#/indie">인디 발견</a>
+        <a data-page="favorites" href="#/favorites">관심 목록</a>
+      </nav>
+    </header>
+    <main id="main" class="wrap main-area" tabindex="-1" aria-live="polite">
+      <div class="center-loading"><span class="loading-spinner"></span><p>수집한 앱·게임을 불러오고 있습니다.</p></div>
+    </main>
+    <footer class="wrap footer"><span>앱·게임 트렌드</span><span>Apple App Store · Google Play · itch.io 공개 정보 기반</span><span id="footer-date"></span></footer>
+  </div>
+  <div id="overlay" class="overlay is-hidden" aria-hidden="true"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="./web/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "items": {
+    "apple:1094591345": {
+      "app_key": "apple:1094591345",
+      "name": "Pokémon GO",
+      "source": "apple",
+      "country": "US",
+      "category": "game_rpg",
+      "detail_url": "https://apps.apple.com/kr/app/pok%C3%A9mon-go/id1094591345?uo=2",
+      "data_date": "2026-10-22",
+      "analysed_at": "2026-10-22T22:21:02+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Join Trainers across the globe who are discovering Pokémon as they explore the world around them. Pokémon GO is the global gaming sensation that has been downloaded over 1 billion times and named “Best Mobile Game” by the Game Developers Choice Awards and “Best App of the Year” by TechCrunch. _______________ UNCOVER THE WORLD OF POKÉMON: Explore and discover Pokémon wherever you are! CATCH more Pokémon to complete your Pokédex! JOURNEY alongside your Buddy Pokémon to help make your Pokémon stronger and earn rewards! COMPETE in epic Gym battles and... TEAM UP and UNITE with other Trainers to catch powerful Pokémon during Raid Battles! It’s time to get moving—your real-life adventures await! Let’s GO! _______________ With the player’s permission, Adventure Sync uses the Health app to enable the player to earn walking distance when the app is closed. Notes: - This app is free-to-play and offers in-game purchases. It is optimized for smartphones, not tablets. - It is recommended to play while connected to a network in order to obtain accurate location information. - Compatibility is not guaranteed for devices without GPS capabilities or devices that are connected only to Wi-Fi networks. - Compatibility information may be changed at any time. - Information current as of July 11, 2019. - Compatible with iPhone® 5s / SE / 6 / 6s / 6 Plus / 6s Plus / 7 / 7 Plus / 8 / 8 Plus / X devices with iOS Version 9 or later installed. - Not compatible with 5th generation iPod Touch devices or iPhone 5c or earlier iPhone devices. - Please visit PokemonGO.com for additional compatibility information. - Compatibility is not guaranteed for all devices. - Continued use of GPS running in the background can dramatically reduce battery life.",
+      "analysis": {
+        "app_key": "apple:1094591345",
+        "summary_ko": "Pokémon GO는 현실 세계를 탐험하며 포켓몬을 발견하고 수집하는 위치 기반 증강 현실 게임입니다. 사용자는 실제 거리를 걸으며 포켓몬을 포획하고, 체육관 전투나 레이드 배틀에 참여하여 다른 트레이너들과 협력합니다. 건강 앱과 연동하여 이동 거리를 측정하는 등 현실 활동과 게임 플레이를 결합한 경험을 제공합니다.",
+        "features_ko": [
+          "GPS를 활용하여 실제 위치 주변에서 포켓몬을 발견하고 포획할 수 있습니다.",
+          "포켓몬을 동료로 설정하여 함께 여행하며 보상을 얻고 강화할 수 있습니다.",
+          "체육관 전투를 통해 다른 트레이너와 경쟁할 수 있습니다.",
+          "레이드 배틀 시스템을 통해 다른 플레이어들과 협력하여 강력한 포켓몬을 잡을 수 있습니다.",
+          "Adventure Sync 기능을 통해 앱이 닫혀 있어도 이동 거리를 기록할 수 있습니다."
+        ],
+        "noteworthy_ko": "위치 기반 서비스(LBS)와 증강 현실(AR)을 결합하여 사용자의 실제 이동을 게임의 핵심 동력으로 삼은 점이 매우 흥미롭습니다. 특히 건강 앱과의 연동을 통해 게임 외부의 활동을 게임 내 보상으로 치환하는 설계는 사용자 유지율을 높이는 강력한 전략으로 보입니다.",
+        "development_ko": "핵심 기술로는 GPS 좌표 처리, 실시간 서버 통신, 그리고 AR 렌더링이 필요합니다. 방대한 양의 포켓몬 데이터와 맵 데이터를 관리하는 서버 인프라 구축이 가장 큰 부담이 될 것입니다. 또한, 위치 데이터의 부정확성이나 GPS 조작 방지 등 보안 및 밸런스 테스트에 상당한 노력이 요구됩니다.",
+        "idea_ko": "특정 지역의 역사적 사실이나 장소 정보를 포켓몬 도감처럼 수집하는 '지역 탐험 기록형' 게임으로 변주하는 것이 개인 개발자에게 적합합니다.",
+        "highlights_ko": [
+          "현실 세계의 지리 정보를 게임 맵으로 활용하는 위치 기반 시스템.",
+          "걷기 활동을 게임 내 보상으로 연결하는 건강 앱 연동 기능."
+        ],
+        "systems_ko": [
+          "GPS 위치 추적 및 맵 데이터 처리 시스템",
+          "실시간 서버-클라이언트 동기화 시스템",
+          "사용자 데이터 및 인벤토리 관리 시스템",
+          "AR 카메라 렌더링 엔진",
+          "이벤트 및 퀘스트 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "단순한 게임 로직을 넘어 GPS 데이터의 정밀한 처리와 대규모 실시간 서버 운영이 필수적입니다. 또한, 현실 세계의 지리 정보를 기반으로 한 콘텐츠 배치는 개인 개발자가 감당하기에 매우 방대한 규모입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "GPS 기반 위치 인식 기능",
+            "간단한 포켓몬 포획 로직",
+            "로컬 데이터 저장소"
+          ],
+          "defer": [
+            "레이드 배틀 시스템",
+            "실시간 멀티플레이어 동기화",
+            "AR 카메라 기능"
+          ],
+          "risks": [
+            "GPS 신호 불안정으로 인한 플레이 경험 저하",
+            "서버 비용 및 데이터 관리의 복잡성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "우리 동네 식물 도감",
+            "concept": "특정 장소에서 식물을 촬영하면 해당 식물의 정보를 수집하는 도감형 게임입니다. 포켓몬 대신 실제 자연물을 수집하는 교육적 가치를 더합니다.",
+            "first_step": "카메라로 촬영한 이미지를 분석하여 특정 식물군을 식별하는 간단한 프로토타입 제작."
+          },
+          {
+            "title": "동네 미션 레이스",
+            "concept": "특정 위치에 도달하면 간단한 퀴즈나 미션이 활성화되는 위치 기반 퀘스트 게임입니다. 친구들과 함께 특정 경로를 완주하는 재미를 강조합니다.",
+            "first_step": "특정 GPS 좌표에 도달했을 때 텍스트 메시지를 띄우는 기본 기능 구현."
+          }
+        ],
+        "recommendation_ko": "위치 기반 서비스의 기초적인 구현 원리를 배우기에 좋습니다. 다만, 대규모 서버 인프라가 필요한 서비스이므로 개인 개발 시에는 소규모 지역 한정 서비스로 범위를 좁히는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 서버 아키텍처나 AR 구현 방식, 결제 시스템의 상세 로직은 명시되어 있지 않습니다. 또한, 건강 앱 연동 외의 외부 API 활용 여부는 확인되지 않습니다.",
+        "name": "Pokémon GO",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/pok%C3%A9mon-go/id1094591345?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 430,
+        "reasons": [
+          "multi_country",
+          "newly_seen",
+          "overseas_interest"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "JP",
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true
+    }
+  }
+}

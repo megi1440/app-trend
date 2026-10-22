@@ -1,0 +1,9 @@
+{
+  "name": "app-trend-collector",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Google Play collector dependency for app-trend",
+  "engines": {"node": ">=22.12.0"},
+  "dependencies": {"@mradex77/google-play-scraper": "1.4.0"}
+}

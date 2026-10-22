@@ -1,0 +1,83 @@
+name: 앱·게임 트렌드 AI 일일 분석
+
+on:
+  # 수집이 끝나고 최신 순위 데이터가 GitHub에 저장된 뒤 분석한다.
+  workflow_run:
+    workflows: ['앱·게임 트렌드 일일 수집']
+    types: [completed]
+  # Actions 탭에서 필요할 때 수동 실행할 수도 있다.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# 수집과 분석이 동시에 main에 데이터를 푸시하지 않도록 공통 잠금을 사용한다.
+concurrency:
+  group: app-trend-daily-collector
+  cancel-in-progress: false
+
+jobs:
+  analyse:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: 최신 main 체크아웃
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+
+      - name: Python 3.12 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Node.js 24 설정
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - name: Google Play 상세정보 수집기 설치
+        run: npm ci --no-audit --no-fund
+
+      - name: 단위 테스트
+        run: python -m unittest discover -s tests -q
+
+      - name: Gemini API 시크릿 확인
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo '::error::Settings > Secrets and variables > Actions에 GEMINI_API_KEY를 등록해야 합니다.'
+            exit 1
+          fi
+
+      - name: 미분석 앱 자동 분석 (하루 최대 60개)
+        id: ai
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python -u collector/ai_daily.py --run --limit 60 --batch-size 5
+
+      # 503 등으로 뒷부분이 중단되더라도 먼저 성공한 배치는 보존한다.
+      - name: AI 누적 데이터 커밋 및 푸시
+        shell: bash
+        run: |
+          git add -A -- data/ai/items/ data/ai/failures.json
+          if git diff --cached --quiet; then
+            echo 'AI 분석 결과 변경 없음'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "$(TZ=Asia/Seoul date +%F) AI 앱·게임 상세 분석 누적"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: AI 분석 중단 보고 (성공 결과 커밋 이후)
+        if: steps.ai.outcome == 'failure'
+        run: |
+          echo '::error::AI 분석이 중단됐습니다. 앞서 저장한 결과의 Git 커밋은 완료됐으며 미분석 앱은 다음 실행에 재시도합니다.'
+          exit 1
