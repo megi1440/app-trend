@@ -93,6 +93,442 @@
       },
       "origin": "daily_v3",
       "ai_generated": true
+    },
+    "itch:8094000fc48fbd9611ac": {
+      "app_key": "itch:8094000fc48fbd9611ac",
+      "name": "ANIMAL BAR TYCOON [Free] [Simulation] [Windows]",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://caffeinetrip.itch.io/animal-bar",
+      "data_date": "2026-10-23",
+      "analysed_at": "2026-10-23T11:00:48+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Get animals drunk and make the numbers go up",
+      "analysis": {
+        "app_key": "itch:8094000fc48fbd9611ac",
+        "summary_ko": "동물들에게 술을 마시게 하여 수익을 올리는 방치형 시뮬레이션 게임입니다. 숫자가 올라가는 것을 보며 바를 운영하는 경영 요소가 포함되어 있습니다.",
+        "features_ko": [
+          "동물 손님에게 음료를 제공하는 상호작용을 수행합니다.",
+          "시간 경과에 따라 자동으로 수익이 발생하는 방치형 시스템을 갖추고 있습니다."
+        ],
+        "noteworthy_ko": "동물이라는 친숙한 캐릭터와 술이라는 다소 독특한 소재를 결합한 점이 흥미롭습니다. 수치 상승을 시각화하여 플레이어에게 성취감을 주는 방치형 게임의 전형적인 구조를 따릅니다.",
+        "development_ko": "데이터 기반의 수익 계산 로직과 UI 업데이트가 핵심입니다. 동물 캐릭터의 애니메이션과 바 내부의 배치 시스템을 구현해야 하며, 방치형 게임 특유의 밸런스 조정이 중요합니다.",
+        "idea_ko": "동물별로 선호하는 음료를 다르게 설정하여 수집과 경영의 재미를 동시에 잡는 방식이 좋습니다.",
+        "highlights_ko": [
+          "방치형 게임 특유의 수치 성장 재미를 강조합니다.",
+          "동물 캐릭터를 활용한 독특한 테마를 가지고 있습니다."
+        ],
+        "systems_ko": [
+          "데이터 관리(수익, 레벨)",
+          "자동 수익 생성 시스템",
+          "UI/UX(상점, 통계)",
+          "캐릭터 상호작용 로직"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "방치형 게임의 로직은 단순하지만, 다양한 캐릭터와 업그레이드 요소를 관리하는 데이터 구조 설계가 필요하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "수익 자동 생성 로직",
+            "업그레이드 버튼",
+            "기본 UI"
+          ],
+          "defer": [
+            "복잡한 애니메이션",
+            "다양한 동물 캐릭터 추가"
+          ],
+          "risks": [
+            "콘텐츠 부족으로 인한 빠른 지루함 유발"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "동물 취향 도감",
+            "concept": "각 동물이 좋아하는 음료를 찾아내어 도감을 채우는 수집 요소를 추가합니다.",
+            "first_step": "동물별 선호도 데이터를 담은 배열을 만들고 UI에 표시하기."
+          },
+          {
+            "title": "바 인테리어 경영",
+            "concept": "수익으로 바의 가구를 업그레이드하여 더 많은 손님을 수용하는 경영 시뮬레이션 요소입니다.",
+            "first_step": "가구 구매 시 수익 배율이 증가하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 핵심인 데이터 관리와 UI 연동을 배우기에 적합합니다. 게임의 성장 곡선을 설계하는 연습을 하기에 좋습니다.",
+        "source_limitations_ko": "게임의 구체적인 수익 모델, 동물 캐릭터의 종류, 바 운영의 세부 규칙 등은 설명에 명시되어 있지 않습니다.",
+        "name": "ANIMAL BAR TYCOON [Free] [Simulation] [Windows]",
+        "source": "itch",
+        "detail_url": "https://caffeinetrip.itch.io/animal-bar",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 356,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 8,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-23"
+    },
+    "itch:8d60ac01324ed251d168": {
+      "app_key": "itch:8d60ac01324ed251d168",
+      "name": "ShortsDrama — Free Demo v0.1.1 [Free] [Visual Novel] [Windows]",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://monsterlay.itch.io/shortsdrama",
+      "data_date": "2026-10-23",
+      "analysed_at": "2026-10-23T11:01:16+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Over 1 hour of animation. Free adult visual novel demo with male and female character options.",
+      "analysis": {
+        "app_key": "itch:8d60ac01324ed251d168",
+        "summary_ko": "ShortsDrama는 1시간 이상의 애니메이션이 포함된 성인용 비주얼 노벨 데모입니다. 남녀 캐릭터 선택지를 제공하여 플레이어의 취향에 맞는 서사를 경험할 수 있습니다.",
+        "features_ko": [
+          "1시간 이상의 애니메이션 분량을 제공합니다.",
+          "남성 및 여성 캐릭터 선택 옵션을 지원합니다.",
+          "비주얼 노벨 형식으로 스토리가 전개됩니다."
+        ],
+        "noteworthy_ko": "비주얼 노벨에서 애니메이션 비중을 높여 몰입감을 극대화한 점이 특징입니다. 캐릭터 선택에 따른 서사 분기 처리가 개발의 핵심이 될 것으로 보입니다.",
+        "development_ko": "핵심 구현 기술은 비주얼 노벨 엔진의 스크립트 관리와 애니메이션 재생 제어입니다. 콘텐츠 제작은 방대한 애니메이션 리소스 제작에 큰 부담이 따릅니다. 테스트는 선택지에 따른 분기점의 정상 작동 여부를 확인하는 데 집중해야 합니다.",
+        "idea_ko": "캐릭터 선택에 따라 완전히 다른 애니메이션 연출을 보여주는 분기형 서사 구조가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "1시간 분량의 데모를 통해 충분한 콘텐츠를 제공합니다.",
+          "캐릭터 선택을 통한 플레이어의 서사 참여를 유도합니다."
+        ],
+        "systems_ko": [
+          "비주얼 노벨 대화 시스템",
+          "애니메이션 재생 및 제어",
+          "선택지 분기 관리",
+          "세이브/로드 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "애니메이션 리소스 제작 부담이 매우 크며, 비주얼 노벨의 서사 구조를 설계하고 구현하는 데 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "대화창 UI",
+            "이미지/애니메이션 출력 로직",
+            "선택지 분기 시스템"
+          ],
+          "defer": [
+            "복잡한 인벤토리 시스템",
+            "다국어 지원"
+          ],
+          "risks": [
+            "애니메이션 제작 리소스 부족",
+            "스토리 분기 설계의 복잡성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "애니메이션 인터랙티브 노벨",
+            "concept": "선택지가 대화뿐만 아니라 특정 애니메이션 장면에서 직접적인 상호작용으로 이어지는 방식입니다.",
+            "first_step": "특정 애니메이션 구간에서 클릭 이벤트를 발생시키는 로직 구현."
+          },
+          {
+            "title": "캐릭터 시점 전환",
+            "concept": "남녀 캐릭터의 시점을 자유롭게 전환하며 같은 사건을 다르게 해석하는 서사입니다.",
+            "first_step": "두 캐릭터의 스크립트를 관리하는 데이터 구조 설계."
+          }
+        ],
+        "recommendation_ko": "비주얼 노벨 엔진 활용법과 리소스 관리 능력을 기르기에 좋습니다. 다만 애니메이션 제작 부담이 크므로 리소스 확보 계획이 필수적입니다.",
+        "source_limitations_ko": "성인용 콘텐츠의 구체적인 수위나 상호작용 방식, 엔진 정보는 확인되지 않습니다.",
+        "name": "ShortsDrama — Free Demo v0.1.1 [Free] [Visual Novel] [Windows]",
+        "source": "itch",
+        "detail_url": "https://monsterlay.itch.io/shortsdrama",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 338,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 14,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-23"
+    },
+    "apple:329218549": {
+      "app_key": "apple:329218549",
+      "name": "체스 · 플레이 및 배우기 온라인",
+      "source": "apple",
+      "country": "US",
+      "category": "game_strategy",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%B2%B4%EC%8A%A4-%ED%94%8C%EB%A0%88%EC%9D%B4-%EB%B0%8F-%EB%B0%B0%EC%9A%B0%EA%B8%B0-%EC%98%A8%EB%9D%BC%EC%9D%B8/id329218549?uo=2",
+      "data_date": "2026-10-23",
+      "analysed_at": "2026-10-23T11:01:33+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Play chess lessons online with over 265 million players from around the world! Chess is known as the best strategy board game in the world! Enjoy unlimited 3D offline pocket chess games and improve your chess rating with 500,000+ puzzles, more than 20 million chess games a day, lessons, and over 100 powerful bot opponents. Unlock your inner chess master today! PLAY CHESS ONLINE: - 2 Player online chess mode is entirely free to enjoy with your friends. - Join tournaments with players online or friends and become a master. - Play games in real-time from one minute per game to 30 minutes or longer with friends. - Review your strategy and game lessons and lay out daily correspondence in online chess. - Play exciting chess variants in our app: chess960 (Fischer-Random), blitz chess, puzzle rush, bullet chess, puzzle battle, or blindfold. CHESS PUZZLES: - Enjoy 500,000 + unique puzzles. - Rated mode automatically adjusts to your skill level to help you improve. - Race the clock with a timer to beat your high score in Puzzle Rush. - Practice puzzles with specific themes in this strategy board game (checkmate in 1, in 2, in 3, blindfold, endgames, fork, skewer, sacrifice, timer, etc.) CHESS LESSONS: - Hundreds of quality chess lessons and online videos made by masters (Learn and practice your skills with chess problems) - Interactive puzzles tutorials with tips and game recommendations. - Learn all the chess rules and strategies in a step-by-step lesson plan (opening, endgame...) CHESS COACHING: - Learn from helpful and immersive visual chess coach lessons. - Review your games with the coach and learn the strategy of the board game for every move. - Play games with the coach, who will guide you through the fundamentals move by move and provide helpful hints as you play. PLAY CHESS ONLINE AGAINST THE COMPUTER: - Choose the level of computer opponent you want to play and set a timer. - Analyze your chess games offline and learn to see where you went wrong and how you can improve. CHESS COMMUNITY: - Join a community of more than 200M online chess players. Find friends! - More than 20M games played each day. - Compete to get your own rating and try to join the best player online chess leaderboards against other players. - Watch the most popular superstars: Hikaru, GothamChess, or Magnus! ... and MUCH MORE: - Play chess games offline against the computer and the clock with a timer. - Articles by the best coaches and masters. - Explore openings like Queen´s Gambit or Sicilian Defense. - Challenge and play with your friends in an online chess game. - Choose from 20+ board themes and 3D pieces. - Get in-depth performance stats about your games, puzzles, and lessons. Playing pocket chess online has never been so easy! Chess.com is the place to play chess games online with your friends and other players! Share your suggestions and comments. Our support team is happy to help you 24 hours a day, 365 days a year! ABOUT CHESS.COM: Chess.com was created by chess players and people who love chess! Team: http://www.chess.com/about",
+      "analysis": {
+        "app_key": "apple:329218549",
+        "summary_ko": "전 세계 사용자와 온라인으로 체스를 즐기고 배울 수 있는 종합 체스 플랫폼입니다. 50만 개 이상의 퍼즐, 마스터들의 레슨, 봇 대전 등 다양한 학습 및 실전 기능을 제공합니다. 초보자부터 숙련자까지 체스 실력을 향상할 수 있도록 돕는 도구들을 갖추고 있습니다.",
+        "features_ko": [
+          "전 세계 플레이어와 실시간 온라인 대국을 지원합니다.",
+          "50만 개 이상의 체스 퍼즐을 통해 전술을 연습할 수 있습니다.",
+          "마스터들이 제작한 체스 레슨과 영상 강의를 제공합니다.",
+          "실력에 따라 난이도가 조절되는 봇과 대국할 수 있습니다.",
+          "체스960, 블리츠 등 다양한 체스 변형 규칙을 지원합니다.",
+          "대국 후 분석 기능을 통해 실수를 검토하고 전략을 개선할 수 있습니다."
+        ],
+        "noteworthy_ko": "방대한 데이터베이스와 실시간 매칭 시스템이 결합된 대규모 서비스입니다. 개인 개발자가 구현하기에는 서버 인프라와 체스 엔진 알고리즘의 복잡도가 매우 높습니다.",
+        "development_ko": "체스 규칙을 검증하는 엔진 구현과 실시간 대국을 위한 네트워크 동기화가 핵심입니다. 퍼즐 데이터 관리와 사용자 통계 분석 시스템 구축에 상당한 리소스가 소요됩니다.",
+        "idea_ko": "특정 체스 오프닝만을 집중적으로 연습할 수 있는 미니멀한 학습 도구를 만드는 것을 제안합니다.",
+        "highlights_ko": [
+          "온라인 매칭과 학습 콘텐츠가 결합된 체스 생태계입니다.",
+          "실시간 분석과 봇 대전을 통한 체계적인 실력 향상을 지원합니다."
+        ],
+        "systems_ko": [
+          "체스 규칙 엔진(FEN/PGN 처리)",
+          "실시간 멀티플레이어 네트워크",
+          "퍼즐 데이터베이스 관리",
+          "사용자 레이팅 시스템",
+          "대국 분석 알고리즘"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "체스 엔진의 정확한 구현과 실시간 네트워크 동기화는 1인 개발자가 완성하기에 매우 높은 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "체스 보드 및 기물 이동 로직",
+            "기본적인 규칙 검증(체크/체크메이트)"
+          ],
+          "defer": [
+            "온라인 멀티플레이어",
+            "복잡한 분석 엔진",
+            "수십만 개의 퍼즐 데이터"
+          ],
+          "risks": [
+            "규칙 구현의 오류 가능성",
+            "서버 비용 및 네트워크 지연 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "오프닝 마스터",
+            "concept": "특정 오프닝 수순을 반복 학습하여 몸에 익히는 훈련 도구입니다.",
+            "first_step": "특정 오프닝 수순을 저장하고 플레이어의 입력과 비교하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "체스 엔진의 기본 로직을 공부하기에는 좋으나, 전체 서비스를 복제하려 하기보다는 특정 기능(퍼즐, 오프닝)에 집중하는 것을 추천합니다.",
+        "source_limitations_ko": "사용된 체스 엔진의 상세 알고리즘이나 서버 아키텍처는 공개되지 않았습니다.",
+        "name": "체스 · 플레이 및 배우기 온라인",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%B2%B4%EC%8A%A4-%ED%94%8C%EB%A0%88%EC%9D%B4-%EB%B0%8F-%EB%B0%B0%EC%9A%B0%EA%B8%B0-%EC%98%A8%EB%9D%BC%EC%9D%B8/id329218549?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 295,
+        "reasons": [
+          "multi_country",
+          "overseas_interest"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-23"
+    },
+    "itch:6727fd591f45543d1652": {
+      "app_key": "itch:6727fd591f45543d1652",
+      "name": "Toss Office [Free] [Other] [Windows] [Linux]",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://ravenous-den.itch.io/toss-office",
+      "data_date": "2026-10-23",
+      "analysed_at": "2026-10-23T11:02:12+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Shred some paper. Toss the rest in a bin.",
+      "analysis": {
+        "app_key": "itch:6727fd591f45543d1652",
+        "summary_ko": "Toss Office는 사무실에서 종이를 파쇄하고 쓰레기통에 던지는 방치형 게임입니다. 사용자는 반복적인 작업을 통해 게임을 진행합니다.",
+        "features_ko": [
+          "종이를 파쇄하는 작업을 수행합니다.",
+          "파쇄된 종이를 쓰레기통에 던져 넣습니다."
+        ],
+        "noteworthy_ko": "매우 단순한 반복 작업을 게임화한 사례입니다. 1인 개발 시 물리 엔진을 활용한 던지기 메커니즘 구현이 핵심 재미 요소가 될 것으로 추정됩니다.",
+        "development_ko": "물리 엔진을 활용한 오브젝트 투척 구현이 핵심입니다. 콘텐츠 제작 부담은 낮으나, 반복적인 작업이 지루하지 않도록 하는 보상 시스템 설계가 중요합니다.",
+        "idea_ko": "종이를 던져 넣는 정확도에 따라 점수를 부여하고 콤보 시스템을 추가하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "사무실 환경의 단순 반복 작업 게임화.",
+          "물리 기반의 투척 메커니즘."
+        ],
+        "systems_ko": [
+          "물리 엔진 기반 투척 시스템",
+          "오브젝트 생성 및 관리 시스템",
+          "점수 및 보상 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 매우 단순하여 구현 난이도가 낮습니다. 다만, 반복적인 플레이를 지속하게 만드는 동기 부여 요소 설계가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "종이 파쇄 및 투척 기능",
+            "쓰레기통 충돌 판정",
+            "점수 기록 시스템"
+          ],
+          "defer": [
+            "다양한 사무실 환경",
+            "업그레이드 시스템"
+          ],
+          "risks": [
+            "플레이의 단순함으로 인한 빠른 지루함",
+            "물리 엔진의 불안정성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "콤보 투척 시스템",
+            "concept": "연속으로 쓰레기통에 종이를 넣으면 콤보 점수를 부여합니다. 정확한 조준을 유도하여 재미를 높입니다.",
+            "first_step": "연속 성공 횟수를 카운트하고 점수에 반영하는 로직 구현."
+          },
+          {
+            "title": "움직이는 쓰레기통",
+            "concept": "쓰레기통이 좌우로 움직여 난이도를 높입니다. 조준의 중요성을 강조합니다.",
+            "first_step": "쓰레기통 객체에 좌우 이동 애니메이션을 추가."
+          }
+        ],
+        "recommendation_ko": "물리 엔진을 활용한 간단한 게임을 만들고 싶은 개발자에게 추천합니다. 게임의 핵심 재미를 찾는 연습에 좋습니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 게임의 구체적인 시스템이나 확장성을 확인할 수 없습니다. 외부 서비스 연동이나 결제 기능에 대한 언급은 없습니다.",
+        "name": "Toss Office [Free] [Other] [Windows] [Linux]",
+        "source": "itch",
+        "detail_url": "https://ravenous-den.itch.io/toss-office",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 287,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 31,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-23"
+    },
+    "google:io.supercent.bulldozermasters": {
+      "app_key": "google:io.supercent.bulldozermasters",
+      "name": "Bulldozer Master: 砕き、そして掘れ",
+      "source": "google",
+      "country": "JP",
+      "category": "game_arcade",
+      "detail_url": "https://play.google.com/store/apps/details?id=io.supercent.bulldozermasters&hl=ko&gl=KR",
+      "data_date": "2026-10-23",
+      "analysed_at": "2026-10-23T11:04:16+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "強力なブルドーザーのハンドルを握り、ツルハシを手に取り、採掘帝国へと掘り進もう！ Bulldozer Masterでは、豊かな採掘ゾーンを探索し、鉱石を砕き、希少な資源を集め、小さな採掘場ひとつを、オフライン中でも稼ぎ続ける採掘帝国へと育てよう。 すべての採掘ゾーンを掘り尽くせ 強力なマシンを操り、クリックで石を砕き、地中深くに眠る鉱石、金、宝石、希少資源を掘り出そう。掘るたびに、発見すべき新しい何かが現れる。 資源を売ってお金を稼げ 採掘した資源を現金に換え、その資金を再投資して、より大きな報酬のあるより大きなゾーンを解放しよう。 すべてをアップグレード ブルドーザーをアップグレードし、ツールをアップグレードし、クルーをアップグレードして、より速く掘ろう。賢いアップグレード戦略が、遅い採掘場を資源マシンへと変える。そのアップグレードのループこそ、すべての放置タイクーンファンが愛する要素だ。 オフラインでも放置進行 あなたが離れている間も、鉱山は働き続ける。戻ってきてオフラインの現金、資源、放置報酬を受け取り、好きなときに手動アクションへ飛び込もう。真の放置採掘、プレッシャーはゼロ。 採掘タイクーン帝国を築け 作業員を管理し、新しい施設を建て、本物の採掘タイクーンのように各ゾーンを管理しよう。放置タイクーンシミュレーション、アーケードアクション、タイクーン帝国建設がひとつのゲームに。 探索して発見せよ 宝探しの冒険で新たな地域を探索し、希少な鉱脈を発見し、追加報酬のためのチャレンジ目標に挑もう。 放置ゲームが好きでも、タイクーンシミュレーションが好きでも、岩を砕く爽快な手応えが好きでも — Bulldozer Masterは純粋な楽しさを届ける。どのプレイヤーもブルドーザーひとつと採掘場ひとつから始まる。あなたの採掘帝国は、どこまで大きくなる？ 今すぐ掘り始めて、究極のBulldozer Masterになろう！",
+      "analysis": {
+        "app_key": "google:io.supercent.bulldozermasters",
+        "summary_ko": "Bulldozer Master는 강력한 불도저를 조종하여 자원을 채굴하고 제국을 건설하는 아케이드 시뮬레이션 게임입니다. 광산을 탐험하며 자원을 채굴하고, 이를 판매하여 장비와 인력을 업그레이드합니다. 오프라인 상태에서도 자원이 생산되는 방치형 요소가 포함되어 있습니다.",
+        "features_ko": [
+          "불도저를 조종하여 광석, 금, 보석 등 다양한 자원을 채굴합니다.",
+          "채굴한 자원을 판매하여 수익을 창출하고 광산을 확장합니다.",
+          "불도저, 도구, 작업원을 업그레이드하여 채굴 효율을 높입니다.",
+          "오프라인 상태에서도 자원이 생산되는 방치형 시스템을 지원합니다.",
+          "새로운 채굴 구역을 탐험하고 도전 목표를 달성합니다."
+        ],
+        "noteworthy_ko": "아케이드 액션과 방치형 타이쿤 요소를 결합한 점이 특징입니다. 사용자가 직접 조작하는 재미와 방치했을 때의 보상을 적절히 섞어 플레이 시간을 늘리는 설계가 개발 관점에서 매우 효과적입니다.",
+        "development_ko": "핵심 기술은 자원 생성 및 관리 시스템, 업그레이드 로직, 오프라인 보상 계산 알고리즘입니다. 콘텐츠 제작 부담은 광산 맵과 자원 종류를 늘리는 데 있으며, 밸런스 조정이 게임의 수명을 결정합니다.",
+        "idea_ko": "채굴한 자원을 사용하여 나만의 광산 기지를 꾸미고 자동화 생산 라인을 구축하는 시뮬레이션을 제안합니다.",
+        "highlights_ko": [
+          "복합 장르: 아케이드의 손맛과 방치형의 편의성을 동시에 제공합니다.",
+          "성장 체감: 업그레이드를 통해 채굴 속도가 빨라지는 시각적/수치적 피드백이 확실합니다."
+        ],
+        "systems_ko": [
+          "자원 채굴 및 수집 시스템",
+          "재화 및 업그레이드 관리 시스템",
+          "오프라인 보상 계산 로직",
+          "광산 구역 및 시설 관리 시스템",
+          "UI/UX(채굴 및 업그레이드)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "게임의 핵심 루프는 단순하지만, 방치형 보상 계산과 다양한 업그레이드 항목을 관리하는 데이터 구조가 필요합니다. 1인 개발자가 구현하기에 적당한 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "불도저 이동 및 채굴 로직",
+            "자원 판매 및 재화 시스템",
+            "기본 업그레이드 기능"
+          ],
+          "defer": [
+            "복잡한 작업원 관리 시스템",
+            "다양한 광산 구역 확장",
+            "오프라인 보상 상세 계산"
+          ],
+          "risks": [
+            "업그레이드 효율 밸런스 조절 실패",
+            "단순 반복 작업으로 인한 피로감"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "자동화 채굴 공장",
+            "concept": "채굴한 자원을 컨베이어 벨트로 옮겨 가공하고 최종 제품으로 판매하는 공장 경영 시뮬레이션입니다.",
+            "first_step": "자원 이동 및 가공 시간 관리 시스템을 구현합니다."
+          },
+          {
+            "title": "탐험가 불도저",
+            "concept": "광산 깊은 곳에서 고대 유물을 발견하고 이를 수집하여 박물관을 운영하는 요소를 추가합니다.",
+            "first_step": "유물 수집 및 전시 시스템을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 데이터 관리와 성장 곡선 설계를 배우기에 최적입니다. 아케이드와 경영 시뮬레이션을 결합하는 기획력을 키우고 싶은 분께 추천합니다.",
+        "source_limitations_ko": "오프라인 보상 계산의 구체적인 로직이나, 작업원 관리 시스템의 상세 규칙은 확인되지 않습니다.",
+        "name": "Bulldozer Master: 砕き、そして掘れ",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=io.supercent.bulldozermasters&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 250,
+        "reasons": [
+          "multi_country"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "JP",
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-23"
     }
   }
 }

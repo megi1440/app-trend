@@ -84,6 +84,92 @@
       },
       "origin": "imported_v2",
       "ai_generated": true
+    },
+    "itch:9e6af792a160342dc833": {
+      "app_key": "itch:9e6af792a160342dc833",
+      "name": "DEAD LUCKY [Free] [Strategy]",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://crusaderinc.itch.io/dead-lucky",
+      "data_date": "2026-10-23",
+      "analysed_at": "2026-10-23T11:02:31+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Rig a haunted slot machine, pay three debts, and escape before the house claims you.",
+      "analysis": {
+        "app_key": "itch:9e6af792a160342dc833",
+        "summary_ko": "DEAD LUCKY는 유령이 나오는 슬롯머신을 조작하여 빚을 갚고 탈출하는 전략 게임입니다. 제한된 시간 내에 슬롯머신을 조작하여 생존해야 하는 긴박한 경험을 제공합니다.",
+        "features_ko": [
+          "슬롯머신을 조작하여 결과를 제어합니다.",
+          "세 가지 빚을 갚아야 하는 목표가 존재합니다.",
+          "시간 제한 내에 탈출해야 하는 긴박한 게임 규칙을 가집니다."
+        ],
+        "noteworthy_ko": "슬롯머신이라는 운 기반의 요소를 전략적으로 조작한다는 설정이 흥미롭습니다. 운과 실력의 비중을 어떻게 조절하느냐가 게임의 재미를 결정합니다.",
+        "development_ko": "슬롯머신 결과의 확률 제어 시스템과 시간 제한 로직 구현이 핵심입니다. 긴박감을 주기 위한 UI 연출과 사운드 디자인이 중요합니다.",
+        "idea_ko": "슬롯머신 조작을 퍼즐 요소로 활용한 게임 개발이 적합합니다.",
+        "highlights_ko": [
+          "슬롯머신 조작 메커니즘.",
+          "시간 제한 탈출 전략."
+        ],
+        "systems_ko": [
+          "슬롯머신 확률 엔진",
+          "시간 관리 시스템",
+          "자원 관리 시스템",
+          "UI/UX 연출"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "핵심 메커니즘이 명확하여 구현 범위가 좁습니다. 다만 슬롯머신 결과의 공정성과 재미 사이의 밸런스를 맞추는 것이 중요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "슬롯머신 기본 로직",
+            "빚 상환 시스템"
+          ],
+          "defer": [
+            "화려한 그래픽 효과",
+            "다양한 슬롯머신 테마"
+          ],
+          "risks": [
+            "단순한 게임 플레이의 반복",
+            "운 요소에 대한 사용자 불만"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "해킹 슬롯머신",
+            "concept": "슬롯머신을 해킹하여 원하는 결과를 얻는 퍼즐 게임입니다.",
+            "first_step": "슬롯머신 릴을 멈추는 타이밍 퍼즐 구현."
+          },
+          {
+            "title": "운명 조작 카드 게임",
+            "concept": "슬롯머신 대신 카드를 사용하여 미래의 사건을 조작하는 게임입니다.",
+            "first_step": "카드 조합에 따라 다음 이벤트가 결정되는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "작은 규모의 게임에서 핵심 재미를 극대화하는 방법을 배우기에 좋은 프로젝트입니다.",
+        "source_limitations_ko": "슬롯머신 조작의 구체적인 방식이나 게임의 승리 조건에 대한 상세 정보는 없습니다.",
+        "name": "DEAD LUCKY [Free] [Strategy]",
+        "source": "itch",
+        "detail_url": "https://crusaderinc.itch.io/dead-lucky",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 275,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 36,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-23"
     }
   }
 }

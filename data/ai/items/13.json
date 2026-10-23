@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "items": {
+    "itch:c5527350ad0ef89c9ab1": {
+      "app_key": "itch:c5527350ad0ef89c9ab1",
+      "name": "Hell, Lost & Found [Free] [Puzzle]",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://jenomzaki.itch.io/hell-lost-found",
+      "data_date": "2026-10-23",
+      "analysed_at": "2026-10-23T11:02:12+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Run Hell's Lost & Found. Judge souls' claims, return the right item, survive Lucifer's contract.",
+      "analysis": {
+        "app_key": "itch:c5527350ad0ef89c9ab1",
+        "summary_ko": "Hell, Lost & Found는 지옥의 분실물 센터를 운영하며 영혼들의 요청을 처리하는 퍼즐 게임입니다. 사용자는 영혼의 주장을 판단하여 올바른 물건을 돌려주고 루시퍼와의 계약을 유지해야 합니다.",
+        "features_ko": [
+          "영혼들의 분실물 요청을 접수하고 진위 여부를 판단합니다.",
+          "올바른 물건을 찾아 영혼에게 전달하는 퍼즐을 수행합니다.",
+          "루시퍼와의 계약 조건을 준수하며 게임을 진행합니다."
+        ],
+        "noteworthy_ko": "판단과 선택이라는 서사적 요소를 퍼즐에 결합한 점이 흥미롭습니다. 1인 개발 시 영혼들의 대사와 물건 데이터를 관리하는 텍스트 기반 시스템 구현이 핵심일 것으로 추정됩니다.",
+        "development_ko": "대화 시스템과 아이템 데이터베이스 구축이 핵심입니다. 콘텐츠 제작은 영혼들의 다양한 요청 시나리오를 작성하는 데 많은 시간이 소요되며, 선택에 따른 결과 분기 처리가 중요합니다.",
+        "idea_ko": "영혼의 거짓말을 간파하기 위해 물건의 상태를 조사하는 탐정 요소를 추가하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "지옥이라는 독특한 배경 설정.",
+          "판단과 계약이라는 서사적 퍼즐 구조."
+        ],
+        "systems_ko": [
+          "대화 및 선택지 시스템",
+          "아이템 데이터베이스 및 인벤토리 관리",
+          "판단 결과에 따른 상태 변화 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기술적인 구현보다는 시나리오와 데이터 구조 설계가 중심이 되는 게임입니다. 1인 개발 시 방대한 텍스트와 분기 처리를 관리하는 것이 도전 과제입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 대화 시스템",
+            "아이템 매칭 로직",
+            "계약 상태 표시 UI"
+          ],
+          "defer": [
+            "복잡한 애니메이션",
+            "다양한 엔딩 분기"
+          ],
+          "risks": [
+            "시나리오 작성의 높은 부담",
+            "반복적인 게임 플레이의 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "물건 감정 시스템",
+            "concept": "영혼이 가져온 물건이 진짜인지 가짜인지 감정하는 미니게임을 추가합니다. 물건의 세부 사항을 확인하여 판단합니다.",
+            "first_step": "물건의 속성(색상, 모양 등)을 비교하는 간단한 감정 UI 제작."
+          },
+          {
+            "title": "영혼의 기억 읽기",
+            "concept": "영혼의 기억 조각을 모아 물건의 주인을 추리하는 방식을 도입합니다. 퍼즐에 탐색 요소를 강화합니다.",
+            "first_step": "기억 조각 아이템을 수집하고 대화에 활용하는 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "서사 중심의 퍼즐 게임을 만들고 싶은 개발자에게 추천합니다. 대화 시스템과 데이터 관리 능력을 키우기에 좋습니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 게임 규칙이나 시스템의 깊이를 확인할 수 없습니다. 외부 서비스 연동이나 결제 기능에 대한 언급은 없습니다.",
+        "name": "Hell, Lost & Found [Free] [Puzzle]",
+        "source": "itch",
+        "detail_url": "https://jenomzaki.itch.io/hell-lost-found",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 293,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-23"
+    }
+  }
+}

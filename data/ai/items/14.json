@@ -89,6 +89,92 @@
       },
       "origin": "daily_v3",
       "ai_generated": true
+    },
+    "itch:506ffcb6ef47f26d6a9c": {
+      "app_key": "itch:506ffcb6ef47f26d6a9c",
+      "name": "King in the Mountain [Free] [Simulation] [Windows] [Linux]",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://milopanta.itch.io/king-in-the-mountain",
+      "data_date": "2026-10-23",
+      "analysed_at": "2026-10-23T11:00:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Dig deep, fill the treasury, and bring a fallen kingdom back to life, a mining incremental.",
+      "analysis": {
+        "app_key": "itch:506ffcb6ef47f26d6a9c",
+        "summary_ko": "광산을 깊게 파서 자원을 채굴하고 왕국을 재건하는 방치형 시뮬레이션 게임입니다.",
+        "features_ko": [
+          "광산을 깊게 파내려가며 다양한 자원을 획득합니다.",
+          "획득한 자원으로 왕국의 시설을 복구합니다.",
+          "시간이 지남에 따라 자동으로 자원이 생산되는 방치형 시스템을 갖추고 있습니다."
+        ],
+        "noteworthy_ko": "채굴과 왕국 재건이라는 두 가지 테마를 결합하여 방치형 게임의 성취감을 극대화했습니다. 자원 관리와 업그레이드 루프가 잘 설계되어 있다면 플레이어의 지속적인 참여를 유도하기 좋습니다.",
+        "development_ko": "방치형 게임의 핵심인 데이터 관리와 시간 흐름에 따른 자원 계산 로직이 중요합니다. UI를 통해 왕국이 발전하는 모습을 시각적으로 보여주는 것이 중요하며, 밸런스 조정이 게임의 수명을 결정합니다.",
+        "idea_ko": "채굴 중 발견한 유물을 통해 왕국의 특수 능력을 해금하는 시스템을 추가하면 단순 반복을 줄일 수 있습니다.",
+        "highlights_ko": [
+          "채굴과 왕국 재건이라는 명확한 목표를 제시합니다.",
+          "방치형 게임 특유의 지속적인 성장 재미를 제공합니다."
+        ],
+        "systems_ko": [
+          "자원 생산 및 관리 시스템",
+          "업그레이드 및 해금 로직",
+          "데이터 저장 및 로드 시스템",
+          "UI 기반 왕국 시각화"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "방치형 게임은 복잡한 실시간 조작이 필요 없으며, 데이터 관리와 UI 구현이 중심이므로 1인 개발자가 구현하기에 가장 난이도가 낮습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 채굴 및 자원 획득 로직",
+            "왕국 복구 업그레이드 버튼",
+            "자원 수치 표시 UI"
+          ],
+          "defer": [
+            "복잡한 그래픽 연출",
+            "다양한 광산 테마"
+          ],
+          "risks": [
+            "게임 루프가 단조로워질 경우 플레이어 이탈 발생"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지하 왕국 탐험",
+            "concept": "채굴을 통해 발견한 지하 공간에 새로운 왕국을 건설하는 게임입니다.",
+            "first_step": "채굴 깊이에 따라 새로운 건물을 건설하는 시스템 구현."
+          },
+          {
+            "title": "자원 교환 시장",
+            "concept": "채굴한 자원을 다른 자원으로 교환하거나 시장에 팔아 왕국을 발전시키는 경제 시스템 중심의 게임입니다.",
+            "first_step": "자원 간 환율을 적용한 교환 로직 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 데이터 구조와 밸런스 설계를 배우기에 최적입니다. 간단한 시스템으로 시작하여 점진적으로 기능을 확장하는 개발 방식을 연습하기 좋습니다.",
+        "source_limitations_ko": "게임의 구체적인 자원 종류나 왕국 재건의 단계, 업그레이드 항목에 대한 정보가 없습니다.",
+        "name": "King in the Mountain [Free] [Simulation] [Windows] [Linux]",
+        "source": "itch",
+        "detail_url": "https://milopanta.itch.io/king-in-the-mountain",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 371,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 3,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-23"
     }
   }
 }

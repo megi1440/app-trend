@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "items": {
+    "itch:559abe05c0d447ebef04": {
+      "app_key": "itch:559abe05c0d447ebef04",
+      "name": "Raining Money [Free] [Other]",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://soros001.itch.io/raining-money",
+      "data_date": "2026-10-23",
+      "analysed_at": "2026-10-23T11:00:48+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Catch every coin. Spend smart. Survive the storm.",
+      "analysis": {
+        "app_key": "itch:559abe05c0d447ebef04",
+        "summary_ko": "하늘에서 떨어지는 동전을 받아내는 단순한 형태의 아케이드 게임입니다. 동전을 모아 현명하게 소비하며 폭풍 속에서 살아남는 것을 목표로 합니다. 짧은 플레이 타임을 가진 캐주얼한 경험을 제공합니다.",
+        "features_ko": [
+          "하늘에서 떨어지는 동전을 캐릭터로 받아내는 수집 메커니즘을 제공합니다.",
+          "수집한 동전을 소비하여 생존을 유지하는 자원 관리 요소를 포함합니다."
+        ],
+        "noteworthy_ko": "단순한 낙하물 수집 게임에 생존이라는 목적을 부여한 점이 흥미롭습니다. 동전의 가치와 소비처에 따라 게임의 난이도가 어떻게 변하는지가 핵심 설계 포인트로 추정됩니다.",
+        "development_ko": "낙하하는 오브젝트의 생성과 충돌 판정이 핵심 기술입니다. 자원 소비에 따른 상태 변화 로직이 필요하며, 밸런스 조정을 위해 동전 낙하 속도와 생존 난이도를 반복 테스트해야 합니다.",
+        "idea_ko": "동전의 종류에 따라 다른 효과를 부여하여 수집의 우선순위를 고민하게 만드는 방식이 적합합니다.",
+        "highlights_ko": [
+          "동전 수집과 생존이라는 직관적인 게임 루프를 가지고 있습니다.",
+          "폭풍이라는 환경적 요소를 통해 긴장감을 조성합니다."
+        ],
+        "systems_ko": [
+          "오브젝트 생성 및 낙하 시스템",
+          "충돌 판정 및 점수/자원 관리",
+          "게임 상태 관리(생존/게임 오버)",
+          "UI 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 단순하고 구현해야 할 상태 값이 적어 1인 개발자가 단기간에 완성하기에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "동전 낙하 및 수집 기능",
+            "자원 카운터 UI",
+            "생존 실패 판정"
+          ],
+          "defer": [
+            "상점 시스템",
+            "다양한 배경 효과"
+          ],
+          "risks": [
+            "단조로운 게임 플레이로 인한 짧은 리플레이 가치"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "속성 동전 수집",
+            "concept": "특정 색상의 동전은 생존 시간을 늘리고, 다른 색상은 이동 속도를 늦추는 등 전략적 선택을 유도합니다.",
+            "first_step": "두 가지 색상의 동전을 생성하고 각각 다른 변수를 적용하는 프로토타입 제작."
+          },
+          {
+            "title": "폭풍 회피 모드",
+            "concept": "동전뿐만 아니라 장애물도 함께 떨어져 이를 피하면서 동전을 모아야 하는 긴박한 모드입니다.",
+            "first_step": "장애물 오브젝트를 추가하고 캐릭터와 충돌 시 게임 오버 처리 구현."
+          }
+        ],
+        "recommendation_ko": "기초적인 충돌 판정과 상태 관리 로직을 익히기에 좋습니다. 단순한 게임 루프를 어떻게 확장할지 고민하는 연습용으로 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 조작 방식, 동전 소비의 구체적 메커니즘, 게임의 시각적 스타일 등을 확인할 수 없습니다.",
+        "name": "Raining Money [Free] [Other]",
+        "source": "itch",
+        "detail_url": "https://soros001.itch.io/raining-money",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 362,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 6,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-23"
+    },
+    "apple:6448311069": {
+      "app_key": "apple:6448311069",
+      "name": "ChatGPT",
+      "source": "apple",
+      "country": "JP",
+      "category": "app_productivity",
+      "detail_url": "https://apps.apple.com/kr/app/chatgpt/id6448311069?uo=2",
+      "data_date": "2026-10-23",
+      "analysed_at": "2026-10-23T11:01:53+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "iOS 版 ChatGPT のご紹介: OpenAI の最新技術をあなたの手元に。 この公式アプリは無料で、ユーザーの履歴をデバイス間で同期し、画像生成機能を含む OpenAI の最新機能を提供します。 いつでも使える ChatGPT があれば、次のことができます。 · 画像生成 – 説明文からオリジナル画像を生成したり、既存の画像をいくつかの単語で変換したりできます。 · 高度な音声モード – 音声アイコンをタップして、移動中でもリアルタイムで会話が可能。食事の場での議論を解決したり、新しい言語を練習したりできます。 · 写真のアップロード – 写真を撮影またはアップロードして、手書きのレシピを書き起こしたり、観光地に関する情報を入手したりできます。 · 創造的なインスピレーション – 誕生日のプレゼントアイデアを探したり、パーソナライズされたグリーティングカードを作成したりできます。 · 個別アドバイス – 難しい状況について話し合ったり、詳細な旅行プランを依頼したり、完璧な返信の作成をサポートしてもらえます。 · パーソナライズされた学習 – 恐竜好きの子どもに電気について説明したり、歴史的な出来事を簡単に復習したりできます。 · 専門的なサポート – マーケティング用のコピーをブレインストーミングしたり、ビジネスプランを立てたりできます。 · 即時回答 – 少ない材料で作れるレシピを提案してもらうことができます。 世界中で何億人ものユーザーが利用するこのアプリをぜひ体験してください。今すぐChatGPTをダウンロード。 利用規約とプライバシーポリシー: https://openai.com/policies/terms-of-use https://openai.com/policies/privacy-policy",
+      "analysis": {
+        "app_key": "apple:6448311069",
+        "summary_ko": "ChatGPT는 OpenAI의 인공지능 기술을 활용한 대화형 서비스로, 텍스트 및 이미지 생성, 음성 대화, 사진 분석 기능을 제공합니다. 사용자는 일상적인 질문부터 복잡한 업무 지원까지 다양한 분야에서 AI의 도움을 받을 수 있습니다. 기기 간 대화 기록 동기화를 통해 연속성 있는 사용자 경험을 지원합니다.",
+        "features_ko": [
+          "설명문을 바탕으로 새로운 이미지를 생성하거나 기존 이미지를 변환합니다.",
+          "음성 모드를 통해 실시간으로 AI와 대화하며 언어 연습이나 토론이 가능합니다.",
+          "사진을 업로드하여 문서 내용을 인식하거나 장소 정보를 얻을 수 있습니다.",
+          "개인화된 학습 지원, 창의적인 아이디어 제안, 전문적인 업무 보조 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "멀티모달(텍스트, 이미지, 음성) 인터페이스를 하나의 앱에서 통합적으로 제공하는 점이 흥미롭습니다. 사용자의 맥락을 이해하고 맞춤형 답변을 생성하는 대화형 엔진이 핵심이며, 이는 고도의 자연어 처리 기술이 뒷받침되어야 합니다.",
+        "development_ko": "대규모 언어 모델(LLM)을 활용하기 위한 API 연동이 핵심입니다. 음성 인식 및 이미지 생성 모델과의 통합을 위한 복잡한 파이프라인 설계가 필요하며, 사용자 경험을 저해하지 않는 빠른 응답 속도 확보가 중요합니다.",
+        "idea_ko": "특정 도메인(예: 요리, 역사)에 특화된 지식을 학습시킨 '전문가 페르소나 챗봇'을 만드는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "텍스트, 이미지, 음성을 아우르는 다각적인 AI 상호작용을 제공합니다.",
+          "기기 간 동기화를 통해 언제 어디서나 대화를 이어갈 수 있습니다."
+        ],
+        "systems_ko": [
+          "LLM API 연동 및 프롬프트 관리 시스템",
+          "음성-텍스트 변환(STT) 및 텍스트-음성 변환(TTS) 엔진",
+          "이미지 생성 및 처리 파이프라인",
+          "사용자 대화 기록 데이터베이스",
+          "멀티모달 인터페이스 UI"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "AI 모델 자체를 직접 개발하는 것은 불가능에 가까우며, 기존 API를 활용하더라도 멀티모달 인터페이스의 복잡성과 실시간 데이터 처리의 난이도가 매우 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "텍스트 기반 대화 인터페이스",
+            "OpenAI API 연동",
+            "대화 기록 저장 기능"
+          ],
+          "defer": [
+            "고급 음성 모드",
+            "이미지 생성 및 업로드 기능",
+            "기기 간 실시간 동기화"
+          ],
+          "risks": [
+            "API 사용 비용 관리",
+            "AI 답변의 정확성 및 윤리적 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "나만의 맞춤형 학습 튜터",
+            "concept": "사용자가 입력한 학습 자료를 바탕으로 퀴즈를 내거나 개념을 쉽게 설명해주는 교육용 챗봇입니다.",
+            "first_step": "텍스트 파일을 입력받아 요약하고 퀴즈를 생성하는 간단한 챗봇 구현."
+          },
+          {
+            "title": "상황별 대화 연습기",
+            "concept": "면접, 외국어 회화 등 특정 상황을 설정하고 AI와 모의 대화를 나누며 피드백을 받는 서비스입니다.",
+            "first_step": "특정 시나리오를 고정하고 AI의 답변을 제한하는 프롬프트 엔지니어링 적용."
+          }
+        ],
+        "recommendation_ko": "AI API를 활용한 서비스 기획과 프롬프트 엔지니어링을 배우기에 최적입니다. 다만, AI 모델의 성능에 의존하므로 서비스의 차별점을 AI 활용 방식에서 찾아야 합니다.",
+        "source_limitations_ko": "소개문에 언급된 기술의 구체적인 모델명이나 내부 알고리즘은 공개되지 않았습니다. 결제 및 개인정보 처리의 상세 로직은 확인이 불가능합니다.",
+        "name": "ChatGPT",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/chatgpt/id6448311069?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 295,
+        "reasons": [
+          "multi_country",
+          "overseas_interest"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "JP",
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-23"
+    },
+    "apple:6754464806": {
+      "app_key": "apple:6754464806",
+      "name": "Car Evolve",
+      "source": "apple",
+      "country": "US",
+      "category": "game_simulation",
+      "detail_url": "https://apps.apple.com/kr/app/car-evolve/id6754464806?uo=2",
+      "data_date": "2026-10-23",
+      "analysed_at": "2026-10-23T11:01:53+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Build a better car with every run. Earn cash, upgrade parts, and push your distance record with satisfying, simple gameplay and strategic upgrading decisions.",
+      "analysis": {
+        "app_key": "apple:6754464806",
+        "summary_ko": "Car Evolve는 자동차를 업그레이드하며 더 먼 거리를 주행하는 시뮬레이션 게임입니다. 사용자는 주행을 통해 얻은 수익으로 부품을 업그레이드하고, 전략적인 선택을 통해 자신의 주행 기록을 경신합니다. 단순하면서도 만족감 높은 게임 플레이를 제공합니다.",
+        "features_ko": [
+          "주행을 통해 얻은 수익으로 자동차 부품을 업그레이드합니다.",
+          "매번 더 나은 성능의 자동차를 구축하여 주행 거리를 늘립니다.",
+          "전략적인 업그레이드 결정을 통해 효율적인 성장을 도모합니다.",
+          "단순하고 만족감 높은 조작 방식을 제공합니다."
+        ],
+        "noteworthy_ko": "성장과 보상이라는 게임의 핵심 루프를 자동차 업그레이드라는 직관적인 테마로 잘 풀어냈습니다. 사용자가 자신의 선택이 결과(주행 거리)로 바로 이어지는 것을 체감하게 하여 몰입감을 높이는 구조가 흥미롭습니다.",
+        "development_ko": "자동차의 물리 엔진과 업그레이드에 따른 성능 변화를 수치화하는 밸런스 설계가 핵심입니다. 주행 거리와 수익 간의 경제 시스템을 구축하고, 이를 시각적으로 보여주는 UI 구현이 필요합니다.",
+        "idea_ko": "자동차 대신 로켓이나 비행기를 소재로 하여 우주 탐사 테마의 업그레이드 게임을 만드는 것이 좋습니다.",
+        "highlights_ko": [
+          "업그레이드와 주행 기록 경신이라는 명확한 목표를 제시합니다.",
+          "단순한 조작으로도 성장의 재미를 느낄 수 있는 구조입니다."
+        ],
+        "systems_ko": [
+          "자동차 물리 및 주행 시스템",
+          "부품 업그레이드 및 성능 계산 시스템",
+          "게임 내 경제(수익) 시스템",
+          "주행 거리 기록 및 저장 시스템",
+          "업그레이드 선택 UI 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진 구현이 다소 까다로울 수 있으나, 2D 기반의 단순한 물리 법칙을 적용한다면 1인 개발로 충분히 구현 가능한 수준입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 주행 및 거리 측정 로직",
+            "수익 획득 및 업그레이드 메뉴",
+            "성능 수치 반영 시스템"
+          ],
+          "defer": [
+            "복잡한 물리 효과",
+            "다양한 자동차 모델링",
+            "온라인 리더보드"
+          ],
+          "risks": [
+            "업그레이드 밸런스 붕괴",
+            "반복적인 플레이에 따른 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "우주선 진화 시뮬레이터",
+            "concept": "지구에서 시작해 점점 더 먼 행성으로 나아가는 우주선 업그레이드 게임입니다.",
+            "first_step": "연료와 속도 수치를 기반으로 한 간단한 주행 거리 계산 로직 구현."
+          },
+          {
+            "title": "배달 오토바이 성장기",
+            "concept": "배달을 통해 돈을 벌고 오토바이를 업그레이드하여 더 먼 지역까지 배달하는 게임입니다.",
+            "first_step": "배달 성공 시 수익을 얻고 속도를 높이는 업그레이드 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "게임의 핵심 루프(성장-보상-도전)를 설계하고 밸런스를 맞추는 연습을 하기에 매우 좋습니다. 단순한 메커니즘으로 시작하여 점진적으로 기능을 확장하는 방식을 추천합니다.",
+        "source_limitations_ko": "소개문에 명시된 '만족감 높은 게임 플레이'의 구체적인 연출 방식은 확인되지 않습니다. 수익 모델이나 구체적인 업그레이드 항목의 종류는 알 수 없습니다.",
+        "name": "Car Evolve",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/car-evolve/id6754464806?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 295,
+        "reasons": [
+          "multi_country",
+          "overseas_interest"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "JP",
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-23"
+    },
+    "google:com.tracerofficial": {
+      "app_key": "google:com.tracerofficial",
+      "name": "에이헬스 - 구 머니워크, 돈이 되는 건강 습관",
+      "source": "google",
+      "country": "US",
+      "category": "app_health_fitness",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.tracerofficial&hl=ko&gl=KR",
+      "data_date": "2026-10-23",
+      "analysed_at": "2026-10-23T11:04:16+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Moneywalk, the global app with 8 million downloads worldwide, is now AHEALTH. AHEALTH stands for All for your Health We help you build healthy habits, and reward you for keeping them. ■ The more you use the app, the younger you get every day Have you ever imagined getting younger each day? Keep up with the healthy habits AHEALTH recommends for you. AHEALTH will help you enjoy a healthy, happy life for years to come. ■ Find out your bio age Your calendar age is just a number. Your bio age tells the real story. AHEALTH looks at how you walk, eat, and sleep, then turns those everyday habits into your bio age. You'll get guidance made just for you, so you can drop the habits holding you back, and do more of the ones that help. ■ The healthier you get, the more points you earn Walk enough. Eat well. Sleep deeply. Have a healthy day and watch the points pile up. Unlike other step counters, 5,000 steps is all it takes to earn 200 points or more. Take your vitamins, drink some water, smile wide even just take a deep breath. It all adds up, every single day. ■ Turn your points into gift cards The points you earn on AHEALTH become real gift cards from popular brands and major retailers. Available rewards vary by country. ■ Walking, sleep, meals one app for all of it Log today's meals like you would in any food diary, and the points are yours. Check how long you slept, and that alone earns you a reward. Every habit you build turns into points. That's what AHEALTH is. ■ Smile, have fun, and look after your mind Start small. Hear a kind word, share a big smile. Then listen to music, grow a plant, play a game that pays. Let the stress go. ■ AHEALTH is made for... Anyone who wants to stay healthy and feel good for years to come Anyone who can't make it to the gym but still want to move Anyone who likes making their apps pay them back [App Permissions] AHEALTH only asks for the permissions the service needs,and we're upfront about every one of them.",
+      "analysis": {
+        "app_key": "google:com.tracerofficial",
+        "summary_ko": "에이헬스는 사용자의 건강한 습관 형성을 돕고 이를 보상으로 연결하는 건강 관리 앱입니다. 걷기, 식사, 수면 등 일상적인 활동을 기록하여 생체 나이를 측정하고 맞춤형 가이드를 제공합니다. 건강한 활동을 수행할 때마다 포인트를 적립하며, 이를 다양한 브랜드의 기프트 카드로 교환할 수 있습니다.",
+        "features_ko": [
+          "걷기, 식사, 수면 등 일상 습관을 기록하여 생체 나이를 분석합니다.",
+          "일일 5,000보 달성 등 건강한 활동을 수행하면 포인트를 지급합니다.",
+          "적립된 포인트는 제휴 브랜드의 기프트 카드로 교환 가능합니다.",
+          "식단 일기 및 수면 시간 기록 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "건강 관리와 보상형 광고 모델을 결합한 전형적인 M2E(Move-to-Earn) 구조입니다. 사용자의 일상 데이터를 포인트로 환산하는 로직이 핵심이며, 지속적인 앱 사용을 유도하는 게임화 요소가 개발 관점에서 흥미롭습니다.",
+        "development_ko": "핵심 기술로는 만보기 센서 연동, 데이터 시각화, 포인트 적립 및 보상 교환 시스템이 필요합니다. 건강 데이터의 정확한 측정과 서버 동기화가 중요하며, 보상 시스템의 부정 방지 로직 구현이 큰 부담이 될 것입니다.",
+        "idea_ko": "사용자의 건강 데이터를 기반으로 한 '가상 정원 가꾸기' 게임을 제안합니다.",
+        "highlights_ko": [
+          "생체 나이 측정: 일상 데이터를 기반으로 사용자의 건강 상태를 수치화하여 시각적으로 보여줍니다.",
+          "보상형 건강 관리: 단순 기록을 넘어 포인트 보상을 통해 사용자의 지속적인 참여를 유도합니다."
+        ],
+        "systems_ko": [
+          "센서 데이터 수집 및 처리 시스템",
+          "사용자 활동 데이터베이스",
+          "포인트 적립 및 보상 관리 시스템",
+          "사용자 프로필 및 통계 UI",
+          "푸시 알림 및 리마인더 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "단순한 앱 구현을 넘어 포인트 보상 시스템과 외부 제휴사 연동 등 백엔드 인프라 구축이 매우 복잡합니다. 데이터 보안 및 부정 사용 방지 로직이 필수적이라 1인 개발자에게는 운영 부담이 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "만보기 센서 연동",
+            "활동 기록 저장 기능",
+            "기본 포인트 적립 로직"
+          ],
+          "defer": [
+            "외부 기프트 카드 교환 시스템",
+            "소셜 커뮤니티 기능",
+            "정교한 생체 나이 분석 알고리즘"
+          ],
+          "risks": [
+            "데이터 조작 및 부정 포인트 적립",
+            "서버 비용 및 유지보수 부담"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "건강 퀘스트 RPG",
+            "concept": "걷기나 물 마시기 등 건강 목표를 달성하면 캐릭터의 레벨이 오르는 RPG입니다. 건강한 습관이 캐릭터의 성장에 직접적인 영향을 줍니다.",
+            "first_step": "만보기 데이터와 캐릭터 경험치 연동 기능을 구현합니다."
+          },
+          {
+            "title": "습관 공유 챌린지",
+            "concept": "특정 건강 목표를 가진 사람들이 모여 서로의 기록을 공유하고 응원하는 소셜 플랫폼입니다.",
+            "first_step": "사용자 간 기록 공유 및 댓글 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "데이터 연동과 보상 시스템의 기초를 배우기에 적합합니다. 다만, 실제 보상 서비스 운영은 법적/기술적 난이도가 높으므로 학습용으로만 접근하는 것을 추천합니다.",
+        "source_limitations_ko": "외부 제휴사 연동 방식, 포인트 환전 로직, 생체 나이 계산 알고리즘의 구체적인 근거는 확인되지 않습니다.",
+        "name": "에이헬스 - 구 머니워크, 돈이 되는 건강 습관",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.tracerofficial&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 250,
+        "reasons": [
+          "multi_country"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-23"
+    }
+  }
+}

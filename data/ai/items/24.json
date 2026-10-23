@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "items": {
+    "apple:932747118": {
+      "app_key": "apple:932747118",
+      "name": "Shadowrocket",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/jp/app/shadowrocket/id932747118",
+      "data_date": "2026-10-23",
+      "analysed_at": "2026-10-23T11:02:54+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Rule based proxy utility client for iPhone/iPad. - Capture all HTTP/HTTPS/TCP traffic from any applications on your device, and redirect to the proxy server. - Record and display HTTP, HTTPS, DNS requests from your iOS devices. - Configure rules using domain match, domain suffix, domain keyword, CIDR IP range, and/or GeoIP lookup. - Measure traffic usage and network speed on WiFi, cellular, direct and proxy connections. - Import rule files from URL or iCloud Drive. - Block ads by domain, user agent rules. - Local DNS Mapping. - Work on cellular networks. - Decrypt HTTPS traffic. - Perform URL rewrite. - Fully IPv6 supports. - Script filter supports. - Multi-level forward proxy. - Support kcptun, cloak, gost, v2ray plugins. - Support DNS over HTTPS, DNS over TLS, DNS over QUIC.",
+      "analysis": {
+        "app_key": "apple:932747118",
+        "summary_ko": "Shadowrocket은 네트워크 트래픽을 제어하고 프록시 서버로 리다이렉트하는 규칙 기반의 네트워크 유틸리티입니다. HTTP/HTTPS/TCP 트래픽을 캡처하고 분석하며, 도메인이나 IP 범위에 따른 세밀한 규칙 설정이 가능합니다. 네트워크 속도 측정 및 광고 차단 기능을 제공합니다.",
+        "features_ko": [
+          "기기의 모든 네트워크 트래픽을 캡처하고 프록시 서버로 리다이렉트합니다.",
+          "도메인, 키워드, CIDR 범위 등을 기반으로 세밀한 네트워크 규칙을 설정합니다.",
+          "HTTP, HTTPS, DNS 요청을 기록하고 시각적으로 표시합니다.",
+          "도메인 및 사용자 에이전트 규칙을 통해 광고를 차단합니다.",
+          "다양한 프록시 프로토콜 및 플러그인을 지원합니다."
+        ],
+        "noteworthy_ko": "네트워크 패킷 처리와 시스템 수준의 트래픽 제어는 매우 높은 기술적 이해도를 요구합니다. 개발 관점에서는 iOS의 네트워크 확장 기능(Network Extension) 활용이 핵심입니다.",
+        "development_ko": "핵심 기술은 iOS의 Network Extension 프레임워크와 패킷 캡처 기술입니다. 네트워크 프로토콜에 대한 깊은 이해가 필요하며, 트래픽 처리 시 성능 저하를 최소화하는 최적화가 필수적입니다. 보안과 관련된 기능을 다루므로 엄격한 테스트와 안정성 확보가 중요합니다.",
+        "idea_ko": "특정 앱의 데이터 사용량을 실시간으로 모니터링하고, 데이터 절약을 위해 특정 앱의 백그라운드 통신을 차단하는 개인용 네트워크 관리 도구를 제안합니다.",
+        "highlights_ko": [
+          "시스템 수준의 네트워크 트래픽 캡처 및 제어 기능.",
+          "유연한 규칙 설정을 통한 네트워크 환경 최적화."
+        ],
+        "systems_ko": [
+          "Network Extension 기반 트래픽 캡처 시스템",
+          "규칙 엔진 및 필터링 시스템",
+          "DNS 매핑 및 처리 시스템",
+          "네트워크 통계 및 로깅 시스템",
+          "설정 파일(URL/iCloud) 가져오기 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "iOS 시스템 프레임워크에 대한 깊은 이해가 필요하며, 네트워크 프로토콜 구현은 매우 복잡합니다. 보안 관련 앱이므로 오류 발생 시 사용자 기기에 큰 영향을 줄 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 네트워크 트래픽 캡처 기능",
+            "간단한 도메인 기반 차단 규칙 설정",
+            "트래픽 로그 표시 UI"
+          ],
+          "defer": [
+            "고급 프록시 프로토콜 지원",
+            "복잡한 스크립트 필터링",
+            "IPv6 및 DNS over QUIC 지원"
+          ],
+          "risks": [
+            "iOS 정책 변경으로 인한 기능 제한",
+            "네트워크 처리 시 발생하는 보안 취약점"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "앱별 데이터 차단기",
+            "concept": "사용자가 선택한 앱의 네트워크 통신을 즉시 차단하여 데이터 사용을 방지하는 간단한 유틸리티입니다.",
+            "first_step": "특정 앱의 트래픽을 감지하고 차단하는 기본 로직을 구현합니다."
+          },
+          {
+            "title": "네트워크 분석기",
+            "concept": "어떤 앱이 어떤 서버와 통신하는지 실시간으로 보여주어 개인정보 유출을 감시하는 도구입니다.",
+            "first_step": "네트워크 요청의 도메인 정보를 추출하여 리스트로 보여주는 기능을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "네트워크 프로그래밍과 iOS 시스템 프레임워크를 깊이 있게 공부하고 싶은 개발자에게 추천합니다. 다만, 보안 앱인 만큼 책임감 있는 개발이 필요합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 구현 방식이나 보안 정책이 명시되지 않았습니다. 실제 개발 시 Apple의 앱 스토어 심사 가이드라인과 네트워크 관련 API 제한 사항을 반드시 확인해야 합니다.",
+        "name": "Shadowrocket",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/shadowrocket/id932747118",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 250,
+        "reasons": [
+          "multi_country"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "JP",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-23"
+    },
+    "google:stepcounter.pedometer.stepstracker": {
+      "app_key": "google:stepcounter.pedometer.stepstracker",
+      "name": "歩数計 - 万歩計",
+      "source": "google",
+      "country": "JP",
+      "category": "app_health_fitness",
+      "detail_url": "https://play.google.com/store/apps/details?id=stepcounter.pedometer.stepstracker&hl=ko&gl=KR",
+      "data_date": "2026-10-23",
+      "analysed_at": "2026-10-23T11:04:36+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "毎日の歩数を自動的に記録できる無料で正確な歩数計アプリをお探しですか？このすべてのAndroidデバイスで利用可能な最高の歩数計をぜひお試しください。100％プライベート！ 「ステップカウンター」は高性能のエクササイズトラッカーが内臓されており、毎日の歩数、カロリー、歩いた距離と時間を正確に自動追跡します。 GPSトラッキングなし、バッテリーを大幅に節約できます。Wi-Fi不要、オフラインでウォーキングを追跡します。 ❤️ 最高の100%無料歩数計アプリ - 100％プライベートで使いやすい - 歩数を自動追跡 - 心拍数測定 - 血圧記録 - 体重追跡 - 毎日の水分摂取リマインダー - 実績 - 健康データに素早くアクセスできるウィジェット - オフラインモード対応 - 正確、節電 - ウェアラブルは一切不要 - すべてのAndroidデバイスで動作可能 あなたの健康維持と減量を助ける、必要な歩数追跡機能と健康管理機能がすべて揃った最良のウォーキングトラッカーです。 🚶 使いやすく省エネな歩数計 「スタート」ボタンをタップするだけで、この正確な歩数計が自動的に歩数を追跡します。スマホが手に持たれていても、ポケットに入れていても、画面がロックされていても問題ありません。低消費電力で動作し、必要ないときは「ストップ」ボタンを押してバッテリーを節約できます。 ⭐️ 心拍数＆血圧トラッカー この健康トラッカーは、スマホのカメラを使用して心拍数を測定し、心拍数、HRV（心拍変動）、ストレスレベル、エネルギーに関する詳細なインサイトを提供します。日々の血圧も簡単に記録でき、血圧ゾーンの自動計算が行われます。 🔔 体重変化＆水分摂取リマインダー 体重と日々の水分摂取の目標を設定し、歩数計がダイエット目標達成と健康的なライフスタイル維持のために毎日リマインダーを送信します。 🔐 100%無料でプライベート あらゆる年齢の方に最適な完全無料の歩数計アプリです！ログインなしで全機能にアクセスができ、あなたのデータは100％安全、いかなるサードパーティにもデータが開示されることは決してありません。 🏆 高性能な歩数計 ステップカウンターはすべてのウォーキングデータ（歩数、カロリー、時間、距離、速度）を追跡し、チャートで表示します。日、週、月、年のデータを表示して、運動の傾向を確認することができます。 👊🏻 1万歩を達成 ウォーキングは心身の健康を向上させて、気分を良くすることができます。ウォーキングトラッカーでもある無料の「ステップカウンター」を使うことが、より良い健康のために1日の目標歩数の1万歩を達成する最良の方法です。 📤 バックアップと復元 データをクラウドにバックアップして、いつでも復元できます。機種変更をしてもデータを失う心配はありません。 🇯🇵 日本語対応 すべての機能を日本語で利用できます。分かりやすく使いやすいインターフェースで、混乱することなく簡単にすべての機能にアクセスできます。 次のような方はこの歩数計をぜひお試しください - 無料で正確な歩数計アプリが欲しい方 - 毎日の運動データを記録したい方 - 体重を減らして健康を維持したい方 - 1日の目標の1万歩を達成したい方 - 血圧と心拍数を追跡したい方 - 水分摂取のリマインダーを受け取りたい方 注意 - ウォーキングの距離とカロリーの計算に影響が出ますので、歩数を正確に追跡するため、設定には必ず実際の情報を入力してください。 - 感度を調整して歩数カウントの精度を改善することができます。 - システムによる制限により、一部のデバイスでは画面ロック中に歩数のカウントが停止する場合があります。大変申し訳ありませんが、この問題は弊社が対応できる範囲を超えているため修正することができません。 この強力でありながらシンプルな無料歩数計アプリ＆健康トラッカーを試して、1日10,000歩の目標を達成し、健康を維持しましょう！ アプリ使用中に問題が発生したり、フィードバックがある場合は、気軽にhealthpartnerfeedback@gmail.comまでご連絡ください。お手伝いさせていただきます！",
+      "analysis": {
+        "app_key": "google:stepcounter.pedometer.stepstracker",
+        "summary_ko": "이 앱은 스마트폰의 센서를 활용하여 사용자의 일일 걸음 수, 칼로리, 이동 거리 등을 자동으로 기록하는 건강 관리 도구입니다. GPS를 사용하지 않아 배터리 소모를 최소화하며 오프라인에서도 작동합니다. 심박수 측정, 혈압 기록, 수분 섭취 리마인더 등 종합적인 건강 관리 기능을 제공합니다.",
+        "features_ko": [
+          "스마트폰 센서를 이용해 걸음 수를 자동으로 추적합니다.",
+          "카메라를 활용하여 심박수와 스트레스 수준을 측정합니다.",
+          "일일 수분 섭취량과 체중 변화를 기록하고 리마인더를 제공합니다.",
+          "수집된 데이터를 일, 주, 월 단위의 차트로 시각화합니다.",
+          "데이터를 클라우드에 백업하고 복원할 수 있습니다."
+        ],
+        "noteworthy_ko": "GPS를 사용하지 않고 기기 내 센서만으로 활동을 추적하여 배터리 효율을 높인 점이 기술적으로 돋보입니다. 건강 데이터(심박수, 혈압)를 카메라와 같은 일반적인 하드웨어로 측정하려는 시도는 사용자 접근성을 높이는 좋은 사례입니다. 다만, 의료 기기가 아닌 만큼 데이터의 정확도에 대한 사용자 신뢰 확보가 중요합니다.",
+        "development_ko": "안드로이드의 센서 API 활용 능력이 핵심입니다. 건강 데이터의 시각화를 위한 차트 라이브러리 구현과 로컬 데이터베이스(SQLite 등) 관리가 필요합니다. 카메라를 이용한 심박수 측정은 영상 처리 알고리즘에 대한 이해가 요구되며, 정확도 테스트가 매우 중요합니다.",
+        "idea_ko": "특정 장소에 방문할 때마다 가상의 배지를 획득하는 '걷기 여행 퀘스트' 아이디어가 개인 개발자에게 적합합니다.",
+        "highlights_ko": [
+          "GPS 없이 센서만 사용하여 배터리 효율을 극대화한 활동 추적 기능.",
+          "심박수, 혈압, 수분 섭취 등 다각적인 건강 관리 기능 통합."
+        ],
+        "systems_ko": [
+          "안드로이드 센서 데이터 수집 및 처리 시스템",
+          "로컬 데이터 저장 및 관리 시스템",
+          "데이터 시각화(차트) UI 시스템",
+          "알림(리마인더) 스케줄러",
+          "카메라 기반 영상 처리 모듈"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "센서 데이터 처리와 로컬 저장소 구현은 표준 API를 통해 비교적 쉽게 접근할 수 있습니다. 다만, 카메라를 이용한 심박수 측정은 정밀한 알고리즘이 필요하여 난이도가 있을 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "걸음 수 자동 추적 기능",
+            "일일 통계 차트",
+            "데이터 로컬 저장"
+          ],
+          "defer": [
+            "카메라 기반 심박수 측정",
+            "클라우드 백업 시스템",
+            "혈압 기록 기능"
+          ],
+          "risks": [
+            "기기별 센서 정확도 차이",
+            "백그라운드 프로세스 종료 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "걷기 여행 퀘스트",
+            "concept": "특정 걸음 수를 달성하면 가상의 지도에서 다음 장소로 이동하는 게임형 건강 앱입니다.",
+            "first_step": "걸음 수 데이터를 기반으로 가상의 거리(km)를 계산하는 로직 구현."
+          },
+          {
+            "title": "반려 식물 키우기",
+            "concept": "사용자가 걸은 만큼 물을 주어 가상의 식물을 키우는 앱입니다. 걷지 않으면 식물이 시듭니다.",
+            "first_step": "걸음 수와 식물 성장 상태를 연결하는 간단한 상태 관리 구현."
+          }
+        ],
+        "recommendation_ko": "기기 하드웨어 제어와 데이터 시각화 기술을 익히기에 매우 좋은 프로젝트입니다. 실생활에 밀접한 앱을 만들고 싶은 개발자에게 추천하며, 복잡한 기능보다는 정확한 센서 데이터 처리에 집중하는 것이 좋습니다.",
+        "source_limitations_ko": "심박수 및 혈압 측정의 정확도 보증 여부, 데이터 보안을 위한 암호화 방식, 외부 서버와의 통신 여부는 소개문에서 확인할 수 없습니다.",
+        "name": "歩数計 - 万歩計",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=stepcounter.pedometer.stepstracker&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 250,
+        "reasons": [
+          "multi_country"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "JP",
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-23"
+    }
+  }
+}

@@ -84,6 +84,256 @@
       },
       "origin": "imported_v2",
       "ai_generated": true
+    },
+    "itch:0129ab2966d00f40383b": {
+      "app_key": "itch:0129ab2966d00f40383b",
+      "name": "Troll the King [Free] [Windows] [macOS] [Linux]",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "puzzle",
+      "detail_url": "https://sheepolution.itch.io/troll-the-king",
+      "data_date": "2026-10-23",
+      "analysed_at": "2026-10-23T11:00:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Screw with letters from carrier pigeons to annoy the kings",
+      "analysis": {
+        "app_key": "itch:0129ab2966d00f40383b",
+        "summary_ko": "전서구로부터 온 편지를 조작하여 왕들을 골탕 먹이는 퍼즐 게임입니다.",
+        "features_ko": [
+          "전서구가 전달하는 편지의 내용을 수정하거나 조작합니다.",
+          "편지 내용을 통해 왕들의 반응을 유도하는 퍼즐을 해결합니다."
+        ],
+        "noteworthy_ko": "텍스트 기반의 퍼즐 게임으로, 플레이어의 선택이 게임 내 인물에게 어떤 영향을 미치는지 보여주는 방식이 흥미롭습니다. 텍스트 조작이라는 간단한 메커니즘으로 큰 재미를 유도하는 점이 개발 관점에서 매력적입니다.",
+        "development_ko": "텍스트 파싱 및 이벤트 트리거 시스템이 핵심입니다. 왕들의 다양한 반응을 위한 대화 데이터베이스 구축이 필요하며, 텍스트 조작에 따른 분기 처리가 중요합니다.",
+        "idea_ko": "편지 조작뿐만 아니라, 왕의 주변 인물들을 포섭하여 정보를 왜곡하는 시스템을 추가하면 더 깊이 있는 퍼즐이 될 것입니다.",
+        "highlights_ko": [
+          "편지 조작이라는 독특한 퍼즐 메커니즘을 사용합니다.",
+          "왕을 골탕 먹인다는 유머러스한 테마를 가지고 있습니다."
+        ],
+        "systems_ko": [
+          "텍스트 입력 및 수정 UI",
+          "이벤트 분기 관리 시스템",
+          "NPC 반응 데이터베이스"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "복잡한 물리 엔진이나 그래픽보다는 텍스트 기반의 로직과 분기 처리가 중심이므로 1인 개발자가 구현하기에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "편지 내용 수정 UI",
+            "수정된 내용에 따른 결과 출력 시스템"
+          ],
+          "defer": [
+            "복잡한 애니메이션",
+            "다양한 왕 캐릭터 디자인"
+          ],
+          "risks": [
+            "텍스트 조작의 자유도가 낮을 경우 퍼즐의 재미가 반감될 위험"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "가짜 뉴스 제조기",
+            "concept": "신문 기사를 조작하여 도시의 여론을 바꾸는 게임입니다. 기사 내용에 따라 시민들의 행동이 변화합니다.",
+            "first_step": "기사 텍스트를 수정하면 특정 변수(여론)가 변하는 시스템 구현."
+          },
+          {
+            "title": "외교관의 거짓말",
+            "concept": "두 나라 사이의 외교 문서를 조작하여 전쟁을 막거나 유도하는 퍼즐 게임입니다.",
+            "first_step": "문서의 키워드를 바꾸면 결과가 달라지는 분기점 구현."
+          }
+        ],
+        "recommendation_ko": "텍스트 기반 게임의 분기 처리와 데이터 관리를 배우기에 좋습니다. 간단한 아이디어로도 충분히 재미있는 게임을 만들 수 있다는 점을 배울 수 있습니다.",
+        "source_limitations_ko": "게임의 구체적인 퍼즐 방식이나 조작 범위가 명시되지 않아, 텍스트 조작의 기술적 구현 수준을 파악하기 어렵습니다.",
+        "name": "Troll the King [Free] [Windows] [macOS] [Linux]",
+        "source": "itch",
+        "detail_url": "https://sheepolution.itch.io/troll-the-king",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 375,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-23"
+    },
+    "itch:395ebfcbc9ea6423cdb9": {
+      "app_key": "itch:395ebfcbc9ea6423cdb9",
+      "name": "Average Night [Free] [Windows] [macOS]",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://janjigangi.itch.io/average-night",
+      "data_date": "2026-10-23",
+      "analysed_at": "2026-10-23T11:01:33+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Live an average night of Jikki the Flubble on planet Flobumbus",
+      "analysis": {
+        "app_key": "itch:395ebfcbc9ea6423cdb9",
+        "summary_ko": "Flobumbus 행성에 사는 Jikki the Flubble의 평범한 밤을 경험하는 게임입니다. 구체적인 게임 플레이 방식은 설명에 명시되어 있지 않습니다.",
+        "features_ko": [
+          "외계 행성을 배경으로 한 일상적인 경험을 제공합니다."
+        ],
+        "noteworthy_ko": "일상적인 경험을 게임화하는 시도가 흥미롭습니다. 개발 관점에서는 서사적인 연출과 환경 상호작용이 게임의 몰입도를 결정할 것으로 추정됩니다.",
+        "development_ko": "환경 디자인과 캐릭터의 일상적인 동작을 구현하는 애니메이션 작업이 중요합니다. 복잡한 시스템보다는 분위기 전달에 집중하는 개발이 필요합니다.",
+        "idea_ko": "일상적인 밤의 소리를 수집하여 음악을 만드는 리듬 게임 요소를 결합하는 것을 제안합니다.",
+        "highlights_ko": [
+          "독특한 행성 배경의 일상물 컨셉입니다.",
+          "캐릭터 중심의 서사적 경험을 강조합니다."
+        ],
+        "systems_ko": [
+          "캐릭터 이동 및 상호작용",
+          "환경 사운드 관리",
+          "이벤트 트리거 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "복잡한 규칙보다는 분위기 위주의 게임으로, 구현 범위가 상대적으로 작습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동",
+            "상호작용 가능한 오브젝트"
+          ],
+          "defer": [
+            "복잡한 퀘스트 시스템",
+            "다양한 캐릭터 커스터마이징"
+          ],
+          "risks": [
+            "플레이어에게 동기부여를 제공하기 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "밤의 소리 수집가",
+            "concept": "행성의 밤에 들리는 소리를 채집하여 나만의 밤 음악을 완성하는 게임입니다.",
+            "first_step": "특정 위치에서 소리가 재생되는 상호작용 구현."
+          }
+        ],
+        "recommendation_ko": "분위기 중심의 게임을 만들고 싶을 때 참고하기 좋으며, 연출력을 기르는 데 도움이 됩니다.",
+        "source_limitations_ko": "게임의 목표나 플레이어가 수행해야 할 구체적인 행동이 전혀 설명되어 있지 않습니다.",
+        "name": "Average Night [Free] [Windows] [macOS]",
+        "source": "itch",
+        "detail_url": "https://janjigangi.itch.io/average-night",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 296,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-23"
+    },
+    "google:com.starutopia.global": {
+      "app_key": "google:com.starutopia.global",
+      "name": "ブレードウォー三国",
+      "source": "google",
+      "country": "KR",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.starutopia.global&hl=ko&gl=KR",
+      "data_date": "2026-10-23",
+      "analysed_at": "2026-10-23T11:03:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "◈ 혹한이 삼국 전역을 뒤덮었습니다. 이제, 새로운 이야기를 당신의 손으로 시작할 차례입니다. 인의를 품은 영주가 되어 떠도는 난민을 맞이하고, 무료 SSR 무장 초선을 만나 보세요. 희망의 불씨를 피우고 얼어붙은 옛 변경에서 따뜻하고 번영하는 성을 완성하세요! ◊ 난민 정착: 온기를 나누고 성을 키우세요 ▸ 난민들은 눈보라 속에서 새로운 보금자리를 찾아 헤매고 있습니다. ▸ 그들을 맞이하고 모닥불을 피워 안식처를 마련하세요! ▸ 새로 합류한 이들은 저마다 뛰어난 재능을 지니고 있습니다. ▸ 각자에게 맞는 일을 맡겨 ▸ 얼어붙은 작은 마을을 따뜻하고 번영하는 성으로 키워 보세요! ◊ 오프라인 보상: 접속하지 않아도 보상이 쌓입니다 ▸ 주민들에게 벌목과 도구 제작, 물자 비축을 한 번에 지시하세요. ▸ 다시 접속하면 풍성한 보상을 획득하고 ▸ 부담 없이 다음 성 확장을 준비할 수 있습니다. ◊ 경작과 건설: 얼어붙은 황무지에서 따뜻한 보금자리로 ▸ 눈을 치우고 얼어붙은 땅을 일궈 첫 작물을 심으세요! ▸ 갓 수확한 작물로 주민들을 먹여 살리고, ▸ 목재와 석재를 모아 따뜻한 집과 활기찬 공방, 웅장한 전당을 세우세요. ▸ 씨앗 한 알, 지붕 한 채가 더해질 때마다 ▸ 당신의 성에는 새로운 활력이 깃듭니다! ◊ 무장 편성: 자유롭게 조합하고 부담 없이 성장하세요 ▸ 모든 무장이 레벨을 공유하므로 ▸ 무장을 바꿔도 처음부터 다시 키울 필요가 없습니다. ▸ 무장 스킬을 자유롭게 조합해 강력한 콤보를 완성하고 ▸ 혹한과 모든 위협으로부터 주민들을 지켜 내세요! ◊ 동맹과 함께: 힘을 모아 함께 성장하세요 ▸ 동맹에 가입해 물자를 나누고 ▸ 위기의 순간 서로를 도우며 함께 강해지세요. ▸ 서로 지키고 함께 버텨낼 때 ▸ 혹한도 더는 두렵지 않습니다. ▸ 이것이 함께 번영하는 힘입니다!",
+      "analysis": {
+        "app_key": "google:com.starutopia.global",
+        "summary_ko": "혹한의 삼국지를 배경으로 난민을 구제하고 성을 건설하는 시뮬레이션 게임입니다. 사용자는 영주가 되어 자원을 관리하고 무장을 편성하여 성을 번영시킵니다. 오프라인 보상 시스템을 통해 접속하지 않아도 성장이 가능한 구조를 갖추고 있습니다.",
+        "features_ko": [
+          "난민을 수용하고 성의 시설을 건설하여 마을을 확장합니다.",
+          "접속하지 않아도 자원이 쌓이는 오프라인 보상 시스템을 제공합니다.",
+          "얼어붙은 땅을 개간하고 작물을 수확하여 주민을 부양합니다.",
+          "무장 레벨 공유 시스템을 통해 자유로운 조합과 성장이 가능합니다.",
+          "동맹 시스템을 통해 다른 사용자와 협력할 수 있습니다."
+        ],
+        "noteworthy_ko": "혹한이라는 환경적 제약을 성장의 동기로 활용한 점이 흥미롭습니다. 오프라인 보상 시스템은 모바일 게임의 리텐션을 유지하는 핵심 기제로, 1인 개발 시 구현 난이도 대비 효과가 큰 요소로 추정됩니다.",
+        "development_ko": "자원 관리 및 건설 시뮬레이션 로직 구현이 핵심입니다. 무장 편성 및 레벨 공유 시스템을 위한 데이터 구조 설계가 필요하며, 밸런스 조정을 위해 지속적인 테스트가 요구됩니다. 그래픽 리소스 제작 부담이 클 것으로 예상됩니다.",
+        "idea_ko": "혹한 대신 '우주 정거장'이나 '심해 기지'를 배경으로 한 생존 건설 시뮬레이션이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "혹한기라는 독특한 테마를 활용한 시뮬레이션 게임입니다.",
+          "오프라인 보상 시스템으로 사용자 편의성을 높였습니다."
+        ],
+        "systems_ko": [
+          "자원 생산 및 소비 관리 시스템",
+          "건물 건설 및 업그레이드 로직",
+          "무장 데이터 관리 및 밸런스 시스템",
+          "오프라인 보상 계산 엔진",
+          "동맹 및 커뮤니티 데이터 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "핵심 메커니즘인 자원 관리와 건설은 1인 개발로 충분히 구현 가능합니다. 다만, 방대한 콘텐츠 양을 조절하는 밸런스 작업에 시간이 소요될 것입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "자원 수집 및 건물 건설 기능",
+            "기본적인 무장 편성 시스템",
+            "오프라인 보상 로직"
+          ],
+          "defer": [
+            "동맹 시스템",
+            "복잡한 이벤트 및 퀘스트 시스템"
+          ],
+          "risks": [
+            "콘텐츠 부족으로 인한 빠른 이탈",
+            "밸런스 붕괴로 인한 게임 재미 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "우주 정거장 생존기",
+            "concept": "산소가 부족한 우주 정거장에서 시설을 수리하고 생존하는 게임입니다. 자원 관리와 시설 배치가 핵심입니다.",
+            "first_step": "자원 생산 건물과 산소 수치 관리 로직 구현."
+          },
+          {
+            "title": "심해 기지 건설",
+            "concept": "수압을 견디며 심해 기지를 확장하는 게임입니다. 환경적 제약을 극복하는 재미를 강조합니다.",
+            "first_step": "기지 타일 배치 및 수압 시스템 프로토타입 제작."
+          }
+        ],
+        "recommendation_ko": "시뮬레이션 게임의 데이터 구조와 밸런스 설계 방식을 배우기에 적합합니다. 1인 개발 시 콘텐츠의 양을 적절히 조절하는 연습을 하기에 좋은 모델입니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 동맹 시스템의 구체적인 통신 방식, 결제 시스템, 서버 동기화 로직은 확인되지 않았습니다. 실제 개발 시 네트워크 보안과 데이터 동기화에 주의해야 합니다.",
+        "name": "ブレードウォー三国",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.starutopia.global&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 250,
+        "reasons": [
+          "multi_country"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "JP",
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-23"
     }
   }
 }
