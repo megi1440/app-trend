@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  pages: write
 
 # 수집과 분석이 동시에 main에 데이터를 푸시하지 않도록 공통 잠금을 사용한다.
 concurrency:
@@ -88,6 +89,10 @@ jobs:
         if: steps.daily_gate.outputs.run == 'true'
         run: python -m unittest discover -s tests -q
 
+      - name: 아이디어 연구실 화면·내보내기 스모크 테스트
+        if: steps.daily_gate.outputs.run == 'true'
+        run: node tests/test_lab_frontend.mjs
+
       - name: Gemini API 시크릿 확인
         if: steps.daily_gate.outputs.run == 'true'
         env:
@@ -107,11 +112,16 @@ jobs:
         run: python -u collector/ai_daily.py --run --limit 60 --batch-size 5
 
       # 503 등으로 뒷부분이 중단되더라도 먼저 성공한 배치는 보존한다.
+      - name: AI 결과를 연구실 요약 인덱스에 반영
+        if: steps.daily_gate.outputs.run == 'true'
+        run: python collector/build_lab.py
+
       - name: AI 누적 데이터 커밋 및 푸시
         if: steps.daily_gate.outputs.run == 'true'
+        id: upload
         shell: bash
         run: |
-          git add -A -- data/ai/items/ data/ai/failures.json
+          git add -A -- data/ai/items/ data/ai/failures.json data/lab/
           if git diff --cached --quiet; then
             echo 'AI 분석 결과 변경 없음'
             exit 0
@@ -121,6 +131,18 @@ jobs:
           git commit -m "$(TZ=Asia/Seoul date +%F) AI 앱·게임 상세 분석 누적"
           git pull --rebase origin main
           git push origin HEAD:main
+          echo 'changed=true' >> "$GITHUB_OUTPUT"
+
+      - name: Gemini 후 Pages 웹사이트 갱신 요청
+        if: steps.daily_gate.outputs.run == 'true' && steps.upload.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds" >/dev/null; then
+            echo 'Pages 빌드 요청 완료'
+          else
+            echo '::warning::Pages 갱신 요청 실패. AI 데이터는 저장됐습니다.'
+          fi
 
       - name: AI 분석 중단 보고 (성공 결과 커밋 이후)
         if: steps.daily_gate.outputs.run == 'true' && steps.ai.outcome == 'failure'

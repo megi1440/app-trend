@@ -3,6 +3,7 @@ import { store, loadSnapshot, loadHistory, loadExportManifest, esc, attr, format
 import { renderHome, renderExplore, renderIndie, renderFavorites, renderDetail, renderHistory,
          empty, icon } from './views.js';
 import { toggleFavorite, getFavorites, hasFavorite, updateFavorite, exportFavorites, importFavorites } from './favorites.js';
+import { renderLab, initLabHandlers, labAction, labChange, labInput } from './lab.js';
 
 const main=document.getElementById('main');
 const overlay=document.getElementById('overlay');
@@ -24,6 +25,7 @@ function route(){
     let key='';try{key=decodeURIComponent(parts.slice(1).join('/'));}catch{}
     return {page:'detail',key,query:new URLSearchParams(qs||'')};
   }
+  if(parts[0]==='lab')return {page:'lab', tab:parts[1]||'radar', query:new URLSearchParams(qs||'')};
   return {page: ['home','apps','games','indie','favorites','search'].includes(parts[0])?parts[0]:'home'};
 }
 function updateStatus(){
@@ -65,7 +67,7 @@ function render(){
     ui.detailContext=Object.fromEntries(['source','country','category','chart'].map(x=>[x,r.query.get(x)||'']));
   }
   main.innerHTML= r.page==='home'?renderHome(ui):r.page==='apps'?renderExplore('app',ui):r.page==='games'?renderExplore('game',ui):
-    r.page==='indie'?renderIndie(ui):r.page==='favorites'?renderFavorites():r.page==='detail'?renderDetail(r.key,ui):renderSearch();
+    r.page==='indie'?renderIndie(ui):r.page==='favorites'?renderFavorites():r.page==='lab'?renderLab(r.tab,r.query):r.page==='detail'?renderDetail(r.key,ui):renderSearch();
   if(r.page==='detail' && r.key.startsWith('itch:')===false)loadChart(stamp,r.key);
   if(r.page!=='search' && document.activeElement!==searchInput){ /* preserve typed search text for later */ }
   persistFilters();
@@ -98,8 +100,10 @@ async function copyAppInfo(key){
   catch {modal('앱 정보 복사',`<p>자동 복사가 차단되었습니다. 아래 내용을 선택해 복사하세요.</p><textarea readonly class="note-box" style="height:230px;width:100%">${esc(lines.join('\n'))}</textarea>`);}
 }
 
+initLabHandlers(render,notify);
 document.addEventListener('click',async e=>{
   const target=e.target.closest('button, a');if(!target)return;
+  if(target.matches('[data-lab-action]')){e.preventDefault();await labAction(target);return;}
   if(target.matches('[data-fav]')){
     const key=target.dataset.fav,item=store.appMap.get(key)||getFavorites().find(x=>x.app_key===key);
     if(item){const added=toggleFavorite(item);notify(added?'관심 목록에 추가했습니다.':'관심 목록에서 제외했습니다.');render();}
@@ -124,6 +128,7 @@ document.addEventListener('click',async e=>{
   else if(target.id==='copy-app')await copyAppInfo(route().key);
 });
 document.addEventListener('change',async e=>{
+  if(labChange(e.target))return;
   if(e.target.matches('[data-filter]')){
     ui[e.target.dataset.filter]=e.target.value;ui.limit=30;render();
   }else if(e.target.id==='detail-context'){
@@ -134,6 +139,7 @@ document.addEventListener('change',async e=>{
     catch(err){notify('가져오기 실패: '+err.message);}e.target.value='';
   }
 });
+document.addEventListener('input',e=>{labInput(e.target);});
 searchInput.addEventListener('input',()=>{
   ui.query=searchInput.value.trim();
   if(ui.query && route().page!=='search')location.hash='#/search';

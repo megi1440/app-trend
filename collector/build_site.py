@@ -94,11 +94,23 @@ def build(root: Path = ROOT) -> dict:
                                                       'bytes': source.stat().st_size}
     (dest_export / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding='utf-8')
 
+    # The research index and itch observations are already public under data/lab/.
+    # Copy a preview to web/data/ for the editable site without touching the AI shards.
+    lab_dir = data / 'lab'
+    if (lab_dir / 'index.json').is_file():
+        preview_lab = dest_data / 'lab'
+        preview_lab.mkdir(parents=True, exist_ok=True)
+        for name in ('index.json', 'indie_history.json'):
+            if (lab_dir / name).is_file():
+                json.loads((lab_dir / name).read_text(encoding='utf-8'))
+                shutil.copyfile(lab_dir / name, preview_lab / name)
+
     # Deploy from a branch supports only main/(root) or main/docs. Keep all
     # documentation out of Git and publish the actual site from main/(root).
     # The editable site stays under web/. No Pages Actions are needed.
     html = (web / 'index.html').read_text(encoding='utf-8')
     html = html.replace('href="./css/main.css"', 'href="./web/css/main.css"')
+    html = html.replace('href="./css/lab.css"', 'href="./web/css/lab.css"')
     html = html.replace('src="./js/app.js"', 'src="./web/js/app.js"')
     (root / 'index.html').write_text(html, encoding='utf-8')
 

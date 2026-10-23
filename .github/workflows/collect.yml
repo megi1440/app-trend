@@ -93,6 +93,10 @@ jobs:
         if: steps.daily_gate.outputs.run == 'true'
         run: python -m unittest discover -s tests -v
 
+      - name: 아이디어 연구실 화면·내보내기 스모크 테스트
+        if: steps.daily_gate.outputs.run == 'true'
+        run: node tests/test_lab_frontend.mjs
+
       - name: 세 수집원 일일 수집 및 CSV 저장
         if: steps.daily_gate.outputs.run == 'true'
         run: python -u collector/run_collect.py --mode full --persist
@@ -100,6 +104,10 @@ jobs:
       - name: 저장 결과 검증
         if: steps.daily_gate.outputs.run == 'true'
         run: python collector/check_output.py
+
+      - name: 아이디어 연구실 인덱스 생성
+        if: steps.daily_gate.outputs.run == 'true'
+        run: python collector/build_lab.py
 
       - name: Pages 공개용 파일 생성 (main 루트)
         if: steps.daily_gate.outputs.run == 'true'
