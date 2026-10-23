@@ -28,24 +28,68 @@ jobs:
           ref: main
           persist-credentials: true
 
+      # A successful 'collect' workflow can also mean that the 08:17
+      # fallback found today's data and skipped all collection steps.
+      # Do not let that no-op trigger an additional Gemini batch.
+      - name: 실제 신규 수집 실행 확인
+        id: daily_gate
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          COLLECT_RUN_STARTED: ${{ github.event.workflow_run.run_started_at }}
+        run: |
+          if [ "$EVENT_NAME" != 'workflow_run' ]; then
+            echo 'run=true' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          python3 - <<'PYCODE'
+          import datetime as dt
+          import json
+          import os
+          from pathlib import Path
+
+          collected = False
+          try:
+              status = json.loads(Path('data/web/status.json').read_text(encoding='utf-8'))
+              finished = dt.datetime.fromisoformat(status['finished_at'].replace('Z', '+00:00'))
+              started = dt.datetime.fromisoformat(os.environ['COLLECT_RUN_STARTED'].replace('Z', '+00:00'))
+              collected = (
+                  finished.tzinfo is not None
+                  and started.tzinfo is not None
+                  and finished >= started
+                  and status.get('accepted_groups', 0) > 0
+                  and status.get('overall_status') in ('success', 'partial')
+              )
+          except (FileNotFoundError, KeyError, TypeError, ValueError, json.JSONDecodeError):
+              pass
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as output:
+              output.write('run=true\n' if collected else 'run=false\n')
+          print('정상 수집 완료: AI 분석 진행' if collected else '새로운 수집 없음: Gemini 분석 생략')
+          PYCODE
+
       - name: Python 3.12 설정
+        if: steps.daily_gate.outputs.run == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
       - name: Node.js 24 설정
+        if: steps.daily_gate.outputs.run == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: '24'
           cache: npm
 
       - name: Google Play 상세정보 수집기 설치
+        if: steps.daily_gate.outputs.run == 'true'
         run: npm ci --no-audit --no-fund
 
       - name: 단위 테스트
+        if: steps.daily_gate.outputs.run == 'true'
         run: python -m unittest discover -s tests -q
 
       - name: Gemini API 시크릿 확인
+        if: steps.daily_gate.outputs.run == 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
@@ -55,6 +99,7 @@ jobs:
           fi
 
       - name: 미분석 앱 자동 분석 (하루 최대 60개)
+        if: steps.daily_gate.outputs.run == 'true'
         id: ai
         continue-on-error: true
         env:
@@ -63,6 +108,7 @@ jobs:
 
       # 503 등으로 뒷부분이 중단되더라도 먼저 성공한 배치는 보존한다.
       - name: AI 누적 데이터 커밋 및 푸시
+        if: steps.daily_gate.outputs.run == 'true'
         shell: bash
         run: |
           git add -A -- data/ai/items/ data/ai/failures.json
@@ -77,7 +123,7 @@ jobs:
           git push origin HEAD:main
 
       - name: AI 분석 중단 보고 (성공 결과 커밋 이후)
-        if: steps.ai.outcome == 'failure'
+        if: steps.daily_gate.outputs.run == 'true' && steps.ai.outcome == 'failure'
         run: |
           echo '::error::AI 분석이 중단됐습니다. 앞서 저장한 결과의 Git 커밋은 완료됐으며 미분석 앱은 다음 실행에 재시도합니다.'
           exit 1

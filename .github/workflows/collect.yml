@@ -1,9 +1,13 @@
 name: 앱·게임 트렌드 일일 수집
 
 on:
-  # GitHub Actions cron uses UTC. 00:17 UTC = 09:17 Asia/Seoul.
+  # Korean local time: 04:17 primary, 08:17 fallback (never hourly polling).
+  # GitHub may delay or drop scheduled triggers; neither run is guaranteed.
   schedule:
-    - cron: '17 0 * * *'
+    - cron: '17 4 * * *'
+      timezone: 'Asia/Seoul'
+    - cron: '17 8 * * *'
+      timezone: 'Asia/Seoul'
   # Actions tab > this workflow > Run workflow.
   workflow_dispatch:
 
@@ -25,33 +29,84 @@ jobs:
         with:
           persist-credentials: true
 
+      # If the 04:17 run (or a manual run) already collected data today,
+      # the 08:17 scheduled fallback must not scrape the stores again.
+      # Manual dispatch always runs, so it remains useful for troubleshooting.
+      - name: 오늘 수집 완료 여부 확인 (예약 실행만)
+        id: daily_gate
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT_NAME" != 'schedule' ]; then
+            echo 'run=true' >> "$GITHUB_OUTPUT"
+            echo '수동 실행: 날짜 검사와 관계없이 수집 진행'
+            exit 0
+          fi
+          python3 - <<'PYCODE'
+          import datetime as dt
+          import json
+          import os
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+
+          kst = ZoneInfo('Asia/Seoul')
+          today = dt.datetime.now(kst).date()
+          completed = False
+          try:
+              status = json.loads(Path('data/web/status.json').read_text(encoding='utf-8'))
+              finished = dt.datetime.fromisoformat(status['finished_at'].replace('Z', '+00:00'))
+              completed = (
+                  finished.tzinfo is not None
+                  and finished.astimezone(kst).date() == today
+                  and status.get('overall_status') in ('success', 'partial')
+                  and status.get('accepted_groups', 0) > 0
+              )
+          except (FileNotFoundError, KeyError, TypeError, ValueError, json.JSONDecodeError):
+              pass
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as output:
+              output.write('run=false\n' if completed else 'run=true\n')
+          if completed:
+              print(f'[SKIP] {today} 수집 결과 이미 저장됨. 두 번째 예약에서는 수집하지 않습니다.')
+          else:
+              print(f'[RUN] {today} 정상 수집 기록 없음. 수집을 시작합니다.')
+          PYCODE
+
       - name: Python 3.12 설정
+        if: steps.daily_gate.outputs.run == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
       - name: Node.js 24 설정
+        if: steps.daily_gate.outputs.run == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: '24'
           cache: npm
 
       - name: Google Play 수집기 설치
+        if: steps.daily_gate.outputs.run == 'true'
         run: npm ci --no-audit --no-fund
 
       - name: 저장 처리 단위 테스트
+        if: steps.daily_gate.outputs.run == 'true'
         run: python -m unittest discover -s tests -v
 
       - name: 세 수집원 일일 수집 및 CSV 저장
+        if: steps.daily_gate.outputs.run == 'true'
         run: python -u collector/run_collect.py --mode full --persist
 
       - name: 저장 결과 검증
+        if: steps.daily_gate.outputs.run == 'true'
         run: python collector/check_output.py
 
       - name: Pages 공개용 파일 생성 (main 루트)
+        if: steps.daily_gate.outputs.run == 'true'
         run: python collector/build_site.py
 
       - name: 수집 데이터 및 웹사이트 자동 커밋 및 푸시
+        if: steps.daily_gate.outputs.run == 'true'
         id: upload
         shell: bash
         run: |
@@ -71,7 +126,7 @@ jobs:
       # The official Pages build API can rebuild main/(root) without any
       # custom Pages deployment workflow or additional user secret.
       - name: GitHub Pages 웹사이트 갱신 요청
-        if: steps.upload.outputs.changed == 'true'
+        if: steps.daily_gate.outputs.run == 'true' && steps.upload.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
