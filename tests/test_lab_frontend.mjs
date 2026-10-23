@@ -387,4 +387,84 @@ assert(exportPrompt.includes('Gemini 분석 보유:'),'ChatGPT prompt states ava
 assert(exportPrompt.includes('원작의 검증된 정보처럼 단정하지 마세요'),'prompt does not invent AI analysis for unanalysed apps');
 assert(exportPrompt.includes('Gemini 분석 보유 (나머지는 미분석)'),'export preview makes AI coverage visible');
 await lab.labAction({dataset:{labAction:'clear-export-manual'}});
+// State-sensitive signal filtering must not mix different countries or charts.
+const synthetic={first_seen:'2026-10-22',observations:[
+ {source:'google',country:'US',chart:'top_free',category:'game_puzzle',date:data.data_date,stale:false},
+ {source:'google',country:'JP',chart:'top_free',category:'game_puzzle',date:data.data_date,stale:false}],
+ signals:[{reason_code:'rising_7d',source_data_dates:['2026-10-22',data.data_date],
+  evidence:{source:'google',country:'JP',chart:'top_free',category:'game_puzzle',before_date:'2026-10-22',after_date:data.data_date}}]};
+const filterCountry=country=>({country,source:'google',category:'game_puzzle',price:'top_free',period:30});
+assert.equal(lab.matchingSignals(synthetic,filterCountry('US')).length,0,'JP rise must not leak into US chart filter');
+assert.equal(lab.matchingSignals(synthetic,filterCountry('JP')).length,1,'JP rise belongs to JP chart');
+assert.equal(lab.matchingSignals(synthetic,{...filterCountry('JP'),category:'game_casual'}).length,0,'different category cannot borrow evidence');
+// Comparing candidates is independent from previously selected radar filters.
+await lab.labAction({dataset:{labAction:'clear-compare'}});
+const compareKeys=data.items.filter(x=>x.observations?.length).slice(0,2);
+for(const item of compareKeys)await lab.labAction({dataset:{labAction:'toggle-compare',key:item.app_key}});
+location.hash='#/lab/compare';
+let comparison=lab.renderLab('compare');
+assert(comparison.includes('기능 공통점')&&comparison.includes('후보별 기능 차이'),'overall view shows both');
+await lab.labAction({dataset:{labAction:'compare-mode',value:'common'}});
+comparison=lab.renderLab('compare');
+assert(comparison.includes('기능 공통점')&&!comparison.includes('<h3>후보별 기능 차이</h3>'),'common view hides differences');
+assert(!comparison.includes('lab-compare-table'),'common view hides the differing metrics table');
+await lab.labAction({dataset:{labAction:'compare-mode',value:'diff'}});
+comparison=lab.renderLab('compare');
+assert(!comparison.includes('<h3>기능 공통점</h3>')&&comparison.includes('후보별 기능 차이'),'differences view hides common summary');
+// No dependency on radar selected country: the comparison still shows raw observations.
+const first=compareKeys[0];
+const firstName=first.name;
+assert(comparison.includes(firstName),'the comparison retains candidates after filter operations');
+await lab.labAction({dataset:{labAction:'clear-compare'}});
 console.log(`[lab frontend] 5 views, OR-union feature tags, co-occurrence drilldown, scroll-stable analysis, bulk exports, real evidence and CSV escaping V1.10 collapsible feature families and related insights, export coverage and scroll-stable clearing OK`);
+
+// V1.12: Apple confirmed release is never conflated with first_seen or an
+// unverified Google/itch date. This uses the actual generated lab index.
+location.hash='#/lab/radar';
+const setFilter=(key,value)=>lab.labChange({matches:s=>s==='[data-lab-filter]',dataset:{labFilter:key},value:String(value)});
+for(const [field,value] of [['source','all'],['country','ALL'],['kind','all'],['price','all'],['category','all'],['ai','all'],['period',90]])setFilter(field,value);
+await lab.labAction({dataset:{labAction:'signal',value:'all'}});
+const isoStart=days=>new Date(Date.parse(`${data.data_date}T00:00:00Z`)-(days-1)*86400000).toISOString().slice(0,10);
+const observedIn90=item=>item.observations?.some(o=>o.date>=isoStart(90)&&o.date<=data.data_date);
+const releaseCandidates=days=>data.items.filter(i=>i.source==='apple'&&i.release_date&&i.release_date>=isoStart(days)&&i.release_date<=data.data_date&&observedIn90(i));
+for(const [field,days] of [['apple30',30],['apple90',90]]){
+  setFilter('release',field);
+  const rendered=lab.renderLab('radar');
+  assert(rendered.includes(`${releaseCandidates(days).length}개 후보`),`actual Apple ${days}-day release count`);
+  assert(rendered.includes('Apple 출시'),'Apple release labels on matching cards');
+  assert(!releaseCandidates(days).some(i=>i.source!=='apple'),'only Apple release metadata admitted');
+}
+setFilter('release','unknown');
+assert(lab.renderLab('radar').includes('실제 출시일 미확인'),'unknown date filter visible');
+assert(data.items.every(i=>i.source==='apple'||!i.release_date),'non-Apple release dates remain unknown');
+setFilter('release','all');
+
+// V1.12: the current feature-filter UNION (not just the paginated cards) can
+// be carried to the same explicit manual export basket, without touching comparison.
+location.hash='#/lab/features';
+await lab.labAction({dataset:{labAction:'clear-feature-tags'}});
+await lab.labAction({dataset:{labAction:'clear-export-manual'}});
+const sourceFamily=Object.values(data.tag_groups).find(v=>v==='퍼즐·규칙·카드')||Object.values(data.tag_groups)[0];
+await lab.labAction({dataset:{labAction:'toggle-feature-family',value:sourceFamily}});
+const familyTags=new Set(Object.entries(data.tag_groups).filter(([,group])=>group===sourceFamily).map(([tag])=>tag));
+const featureExportCandidates=data.items.filter(i=>i.has_ai&&i.tags?.some(t=>familyTags.has(t)));
+assert(featureExportCandidates.length>0,'a real feature family has candidates');
+assert(featureHtml().includes('data-lab-action="feature-export-add"'),'feature result export action rendered');
+const compBeforeBulk=JSON.parse(storage.getItem('app-trend:lab-compare:v1')||'[]');
+await lab.labAction({dataset:{labAction:'feature-export-add'}});
+const exportedFeatureKeys=JSON.parse(storage.getItem('app-trend:lab-export:v1'));
+assert.deepEqual(new Set(exportedFeatureKeys),new Set(featureExportCandidates.slice(0,100).map(i=>i.app_key)),'complete filtered family selection into manual basket');
+assert.deepEqual(JSON.parse(storage.getItem('app-trend:lab-compare:v1')),compBeforeBulk,'bulk feature export does not alter three-item comparison');
+location.hash='#/lab/export';
+const featureExport=await lab.buildExport();
+assert.equal(featureExport.items.length,exportedFeatureKeys.length,'export JSON uses exact selected family candidate keys');
+assert(featureExport.items.every(i=>'release_date' in i.app),'export keeps explicit confirmed/unknown release field');
+assert(featureExport.items.every(i=>i.app.source==='apple'||i.app.release_date===null),'non-Apple exports cannot invent a release');
+assert(lab.csvExport(featureExport).includes('"release_date"'),'CSV has release date and attribution fields');
+assert(lab.renderLab('export').includes('실제 출시일 확인'),'export preview reports actual Apple date coverage');
+location.hash='#/lab/features';
+await lab.labAction({dataset:{labAction:'clear-feature-tags'}});
+await lab.labAction({dataset:{labAction:'clear-export-manual'}});
+assert(capturedAiDetail.includes('lab-ai-quick-grid'),'Gemini detail has three source-backed summary columns');
+assert(capturedAiDetail.includes('혼자 만드는 첫 MVP'),'MVP priority shown before detailed source content');
+console.log('[lab V1.12] Apple release filter, unknown release handling, feature-to-export, coverage CSV, AI quick summary OK');

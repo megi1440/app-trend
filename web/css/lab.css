@@ -282,3 +282,21 @@ button.lab-feature-tag:not(.is-selected) .lab-feature-count{color:var(--lab-tone
 .lab-feature-insights-body{padding:0 20px 18px;border-top:1px solid #e8eef6}
 .lab-feature-insights-head{margin-top:14px}
 @media(max-width:600px){.lab-feature-insights-toggle{padding:14px;align-items:flex-start;flex-wrap:wrap}.lab-feature-insights-body{padding:0 14px 14px}.lab-feature-family-header .lab-feature-families-toggle{min-width:0}}
+
+/* V1.12 — make the existing research workflow useful before adding new sources. */
+.lab-feature-export-toolbar{display:flex;align-items:center;flex-wrap:wrap;gap:10px;padding:15px 17px;margin:4px 0 20px}
+.lab-feature-export-toolbar>div{flex:1 1 280px;min-width:0}
+.lab-feature-export-toolbar strong{font-size:13px;color:#294969}
+.lab-feature-export-toolbar p{margin:6px 0 0;line-height:1.65}
+.lab-feature-export-toolbar .button{flex:0 0 auto}
+.lab-ai-quick{margin:18px 0 8px;padding:16px 18px;background:#f5faff;border:1px solid #d9e9f8;border-radius:12px}
+.lab-ai-quick-title{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px 15px;margin-bottom:14px}
+.lab-ai-quick-title h3{font-size:15px;color:#245578;margin:0}
+.lab-ai-quick-title span{font-size:11px;color:#6786a2}
+.lab-ai-quick-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.lab-ai-quick-grid>div{padding:13px;background:#fff;border:1px solid #dce9f4;border-radius:9px;min-width:0}
+.lab-ai-quick-grid h4{font-size:12px;color:#33628a;margin:0 0 9px}
+.lab-ai-quick-grid .lab-ai-list{font-size:12px;line-height:1.65}
+.lab-ai-quick-grid .lab-ai-list li+li{margin-top:4px}
+.lab-ai-quick-grid .lab-ai-paragraph{font-size:12px;line-height:1.6}
+@media(max-width:760px){.lab-ai-quick-grid{grid-template-columns:1fr}.lab-feature-export-toolbar .button{flex:1 1 auto}}

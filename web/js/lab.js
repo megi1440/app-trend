@@ -17,7 +17,7 @@ const EXPORT_SELECT_KEY='app-trend:lab-export:v1';
 let index=null,loadPromise=null,loadError=null,indiePromise=null;
 let chosen=[];
 try {const raw=JSON.parse(sessionStorage.getItem(SELECT_KEY)||'[]');if(Array.isArray(raw))chosen=[...new Set(raw.filter(x=>typeof x==='string'))].slice(0,3);}catch{}
-const ui={signal:'all',country:'ALL',source:'all',kind:'all',category:'all',price:'all',ai:'all',period:30,sort:'signals',view:'cards',radarLimit:24,featureTags:[],featureGroups:[],featureExcludedTags:[],featureFamiliesOpen:true,featureInsightsOpen:false,featureLimit:60,featureRelatedTag:'',featureRelatedExpanded:false,featureQuery:'',tagQuery:'',featureOpenGroups:[],featureExpandedGroups:[],analysisQuery:'',analysisSource:'all',analysisKind:'all',analysisDifficulty:'all',analysisTag:'all',analysisLimit:28,analysisKey:'',comparisonMode:'all',exportPreset:'full',exportPeriod:30,exportKeys:[],exportManualInitialized:false,exportMode:'manual',exportQuery:'',exportSignal:'rising_7d',exportKind:'all',exportSource:'all',exportCategory:'all',exportDifficulty:'all',exportAI:'all',exportCount:30,exportBrowseOpen:false,exportBrowseKind:'all',exportBrowseSource:'all',exportBrowseCategory:'all',exportBrowseAI:'all',exportBrowseLimit:24};
+const ui={signal:'all',country:'ALL',source:'all',kind:'all',category:'all',price:'all',ai:'all',release:'all',period:30,sort:'signals',view:'cards',radarLimit:24,featureTags:[],featureGroups:[],featureExcludedTags:[],featureFamiliesOpen:true,featureInsightsOpen:false,featureLimit:60,featureRelatedTag:'',featureRelatedExpanded:false,featureQuery:'',tagQuery:'',featureOpenGroups:[],featureExpandedGroups:[],analysisQuery:'',analysisSource:'all',analysisKind:'all',analysisDifficulty:'all',analysisTag:'all',analysisLimit:28,analysisKey:'',comparisonMode:'all',exportPreset:'full',exportPeriod:30,exportKeys:[],exportManualInitialized:false,exportMode:'manual',exportQuery:'',exportSignal:'rising_7d',exportKind:'all',exportSource:'all',exportCategory:'all',exportDifficulty:'all',exportAI:'all',exportCount:30,exportBrowseOpen:false,exportBrowseKind:'all',exportBrowseSource:'all',exportBrowseCategory:'all',exportBrowseAI:'all',exportBrowseLimit:24};
 let refreshPage=()=>{},flash=()=>{};
 // Manually selected export candidates stay independent of 3-item comparisons.
 try {
@@ -50,8 +50,10 @@ function loadAI(key){
     AI_RESULT.set(key,record);
     return record;
   });
-  AI_CACHE.set(key,task);
-  return task;
+  // A transient or partially published shard must be retryable later.
+  const retryable=task.catch(error=>{AI_CACHE.delete(key);AI_SHARD_CACHE.delete(item.ai_shard);throw error;});
+  AI_CACHE.set(key,retryable);
+  return retryable;
 }
 const names=(arr)=>arr.map(x=>x.name);
 const labelSource=s=>SOURCE_LABEL[s]||s||'출처 없음';
@@ -64,12 +66,55 @@ const periodStart=period=>{
   return new Date(Date.UTC(y,m-1,d)-(period-1)*86400000).toISOString().slice(0,10);
 };
 const eLabel=(obs)=>`${labelSource(obs.source)} · ${labelCountry(obs.country)} · ${obs.source==='itch'?`인디 ${labelCategory(obs.feed)}`:`${labelCategory(obs.category)} · ${obs.chart==='top_paid'?'유료':'무료'}`}`;
-const recentObs=(item)=> (item.observations||[]).filter(o=>o.date>=periodStart(ui.period));
-const currentObs=(item)=>recentObs(item).filter(o=>!o.stale);
-const bestObs=(item)=>currentObs(item)[0]||recentObs(item)[0]||null;
-const selectedObs=item=>item.observations.filter(o=>(ui.country==='ALL'||o.country===ui.country)&&
+// A confirmed Apple release is distinct from a first chart observation.
+const confirmedRelease=item=>item.source==='apple'&&/^\d{4}-\d{2}-\d{2}$/.test(item.release_date||'')&&item.release_date<=index.data_date?item.release_date:'';
+const releaseMatches=item=>{
+ if(ui.release==='all')return true;
+ const released=confirmedRelease(item);
+ if(ui.release==='unknown')return !released;
+ const days=ui.release==='apple30'?30:ui.release==='apple90'?90:0;
+ return days>0&&Boolean(released)&&released>=periodStart(days);
+};
+const recentObs=(item)=> (item.observations||[]).filter(o=>o.date>=periodStart(ui.period)&&o.date<=index.data_date);
+const selectedObs=item=>(item.observations||[]).filter(o=>(ui.country==='ALL'||o.country===ui.country)&&
       (ui.source==='all'||o.source===ui.source)&&(ui.category==='all'||o.category===ui.category||o.feed===ui.category)&&
       (ui.price==='all'||o.chart===ui.price));
+const scopedObs=item=>selectedObs(item).filter(o=>o.date>=periodStart(ui.period)&&o.date<=index.data_date);
+const currentObs=(item)=>scopedObs(item).filter(o=>!o.stale && !o.historical);
+const bestObs=(item)=>currentObs(item)[0]||scopedObs(item)[0]||null;
+// A signal belongs only to its documented chart/country/date. Do not leak a
+// Japanese rise into a US-only view or use failed/stale chart data as fresh.
+export function matchingSignals(item, filters=null){
+ const f=filters||ui;
+ const period=periodStart(f.period||ui.period);
+ const observations=(item.observations||[]).filter(o=>o.date>=period&&o.date<=index.data_date&&
+  (f.country==='ALL'||o.country===f.country)&&
+  (f.source==='all'||o.source===f.source)&&
+  (f.category==='all'||o.category===f.category||o.feed===f.category)&&
+  (f.price==='all'||o.chart===f.price));
+ return (item.signals||[]).filter(signal=>{
+  const e=signal.evidence||{},days=signal.source_data_dates||[];
+  if(!days.some(d=>d>=period&&d<=index.data_date))return false;
+  if(f.source!=='all' && e.source && e.source!==f.source)return false;
+  if(f.country!=='ALL'){
+   if(e.country&&e.country!==f.country)return false;
+   if(Array.isArray(e.countries)&&!e.countries.includes(f.country))return false;
+  }
+  if(f.category!=='all'&&e.category&&e.category!==f.category)return false;
+  if(f.category!=='all'&&e.feed&&e.feed!==f.category)return false;
+  if(f.price!=='all'&&e.chart&&e.chart!==f.price)return false;
+  if(signal.reason_code==='newly_seen'&&(e.first_seen||item.first_seen||'')<period)return false;
+  if(signal.reason_code==='rising_7d'&&!(e.after_date>=period))return false;
+  const supporting=observations.some(o=>
+   (!e.source||o.source===e.source)&&(!e.country||o.country===e.country)&&
+   (!e.category||o.category===e.category)&&(!e.chart||o.chart===e.chart)&&
+   (!e.feed||o.feed===e.feed)&&
+   (signal.reason_code==='rising_7d'?o.date===e.after_date:days.includes(o.date))&&
+   !o.stale&&!o.historical);
+  // For multi-country signals, the selected country must have a supporting observation.
+  return supporting;
+ });
+}
 const sigLabel=code=>SIGNALS.find(x=>x[0]===code)?.[1]||REASON_LABEL[code]||code;
 function signalText(s){
   const e=s.evidence||{};
@@ -85,10 +130,8 @@ function signalText(s){
   }
 }
 function reason(item){
-  const active=(item.signals||[]).filter(s=>!(s.reason_code==='rising_7d'||s.reason_code==='newly_seen')||currentObs(item).length);
   const priority=['rising_7d','multi_country','consistent_30d','overseas_interest','newly_seen','indie_discovery'];
-  active.sort((a,b)=>priority.indexOf(a.reason_code)-priority.indexOf(b.reason_code));
-  return active[0]||null;
+  return matchingSignals(item).sort((a,b)=>priority.indexOf(a.reason_code)-priority.indexOf(b.reason_code))[0]||null;
 }
 const badge=(text,cls='')=>`<span class="info-tag ${cls}">${esc(text)}</span>`;
 // Names come from the live index, not a fixed list. Generate a deterministic,
@@ -132,21 +175,23 @@ const isExportSelected=key=>manualExportKeys().includes(key);
 function exportToggle(key){const selected=isExportSelected(key);
   return `<button type="button" class="button small lab-export-toggle ${selected?'is-selected':''}" data-lab-action="toggle-export" data-key="${attr(key)}" aria-pressed="${selected}" title="${selected?'내보내기 목록에서 빼기':'내보내기 목록에 담기'}">${selected?'✓ 내보내기 담김':'+ 내보내기 담기'}</button>`;
 }
-function miniObs(item){
-  const observations=selectedObs(item).slice(0,3);
-  return observations.length?observations.map(o=>`<div class="lab-observation"><span>${esc(eLabel(o))}</span><strong>${o.source==='itch'?'피드 관측':o.rank?`${o.rank}위`:'순위 미확인'}</strong><small>${o.stale?'이전 기록 · ':''}${formatDate(o.date)}</small></div>`).join(''):'<p class="small-copy">현재 선택한 차트의 관측 기록이 없습니다.</p>';
+function miniObs(item, radarContext=false){
+  // Comparisons must never inherit unrelated radar filters.
+  const observations=(radarContext?scopedObs(item):(item.observations||[])).slice(0,3);
+  return observations.length?observations.map(o=>`<div class="lab-observation"><span>${esc(eLabel(o))}</span><strong>${o.source==='itch'?'피드 관측':o.rank?`${o.rank}위`:'순위 미확인'}</strong><small>${o.stale?'이전 데이터 · ':o.historical?'과거 관측 · ':''}${formatDate(o.date)}</small></div>`).join(''):'<p class="small-copy">현재 선택한 차트의 관측 기록이 없습니다.</p>';
 }
 function actions(item,analysis=true){
   const key=attr(item.app_key),fav=hasFavorite(item.app_key);
   return `<div class="lab-actions"><a class="button ghost small" href="${attr(detailsHref(item.app_key))}">상세</a>${analysis&&item.has_ai?`<a class="button ghost small" href="#/lab/analysis?app=${encodeURIComponent(item.app_key)}">개발 분석</a>`:''}<button class="button outline-blue small" data-lab-action="toggle-compare" data-key="${key}">${chosen.includes(item.app_key)?'✓ 비교 선택됨':'+ 비교'}</button><button class="button ghost small" data-lab-action="favorite" data-key="${key}" aria-label="관심 목록 ${fav?'해제':'추가'}">${fav?'★':'☆'} 관심</button></div>`;
 }
 function card(item){
-  const observations=selectedObs(item),o=observations.find(x=>!x.stale)||observations[0];
+  const observations=scopedObs(item),o=observations.find(x=>!x.stale&&!x.historical)||observations[0];
   const s=reason(item);
   const descriptor=item.description||item.summary||'';
-  return `<article class="panel lab-card"><div class="lab-card-head">${icon(item)}<div class="lab-card-id"><a class="lab-name" href="${attr(detailsHref(item.app_key))}">${esc(item.name||item.app_key)}</a><div class="small-copy">${esc(labelSource(item.source))} · ${esc(item.category||item.kind||'분류 정보 없음')}</div></div>${badge(item.has_ai?'AI 분석 있음':'미분석',item.has_ai?'green':'')}</div>
-    <div class="lab-observations">${miniObs(item)}</div>
-    ${s?`<p class="lab-reason"><strong>${esc(sigLabel(s.reason_code))}</strong> · ${esc(signalText(s))}</p>`:`<p class="lab-reason muted">${o?'현재 확인된 차트 관측 기록입니다.':'최근 관측 정보가 부족합니다.'}</p>`}
+  const released=confirmedRelease(item);
+  return `<article class="panel lab-card"><div class="lab-card-head">${icon(item)}<div class="lab-card-id"><a class="lab-name" href="${attr(detailsHref(item.app_key))}">${esc(item.name||item.app_key)}</a><div class="small-copy">${esc(labelSource(item.source))} · ${esc(item.category||item.kind||'분류 정보 없음')}</div></div>${badge(item.has_ai?'AI 분석 있음':'미분석',item.has_ai?'green':'')}${released?badge(`Apple 출시 ${formatDate(released)}`,'blue'):''}</div>
+    <div class="lab-observations">${miniObs(item,true)}</div>
+    ${s?`<p class="lab-reason"><strong>${esc(sigLabel(s.reason_code))}</strong> · ${esc(signalText(s))}</p>`:`<p class="lab-reason muted">${o?.historical?'선택 기간의 과거 관측 기록입니다. 현재 순위를 뜻하지 않습니다.':o?.stale?'마지막 정상 수집 기록입니다. 최신 순위로 표시하지 않습니다.':o?'현재 확인된 차트 관측 기록입니다.':'최근 관측 정보가 부족합니다.'}</p>`}
     ${descriptor?`<p class="lab-summary">${esc(descriptor.slice(0,175))}${descriptor.length>175?'…':''}</p>`:''}
     ${item.tags?.length?`<div class="lab-tag-row">${item.tags.slice(0,4).map(tag=>`<a class="lab-feature-badge lab-feature-link" style="${featureTone(tag)}"${evidenceTitle(tag,item)} href="#/lab/features?tag=${encodeURIComponent(tag)}">${esc(tag)}</a>`).join('')}</div>`:''}
     ${actions(item)}</article>`;
@@ -164,6 +209,7 @@ function radarCategoryChoices(){
    if(ui.source!=='all' && o.source!==ui.source)continue;
    if(ui.country!=='ALL' && o.country!==ui.country)continue;
    if(ui.price!=='all' && o.chart!==ui.price)continue;
+   if(o.date<periodStart(ui.period)||o.date>index.data_date)continue;
    const code=o.source==='itch'?o.feed:o.category;
    if(code)available.add(code);
   }
@@ -177,6 +223,9 @@ function categorySelect(){
   ['게임',GAME_CATEGORIES],
   ['인디 게임 · itch.io 피드',Object.keys(FEED_LABEL)],
  ];
+ // Newly configured collector categories must never disappear from the filter.
+ const recognized=new Set(groups.flatMap(([,codes])=>codes));
+ groups.push(['추가 수집 분류',[...available].filter(code=>!recognized.has(code)).sort()]);
  const allLabel=ui.source==='itch'?'인디 피드 전체':ui.kind==='app'?'앱 카테고리 전체':ui.kind==='game'?'게임 카테고리·피드 전체':'카테고리·피드 전체';
  const html=[`<option value="all" ${ui.category==='all'?'selected':''}>${esc(allLabel)}</option>`];
  for(const [heading,codes] of groups){
@@ -187,15 +236,13 @@ function categorySelect(){
  return `<label class="lab-field"><span>카테고리·피드</span><select data-lab-filter="category" class="field-select lab-category-select" aria-label="카테고리·피드">${html.join('')}</select></label>`;
 }
 function radarRows(){
- const base=index.items.filter(item=>item.observations.length && selectedObs(item).some(x=>x.date>=periodStart(ui.period)));
- const matched=base.filter(item=>(ui.kind==='all'||item.kind===ui.kind)&&
+ const base=index.items.filter(item=>item.observations.length && scopedObs(item).length);
+ const matched=base.filter(item=>releaseMatches(item)&&(ui.kind==='all'||item.kind===ui.kind)&&
     (ui.ai==='all'||item.has_ai===(ui.ai==='yes'))&&
-    (ui.signal==='all'||item.signals.some(s=>s.reason_code===ui.signal &&
-      (ui.signal!=='newly_seen'||((s.evidence?.first_seen||item.first_seen)>=periodStart(ui.period)))&&
-      (ui.signal!=='rising_7d'||currentObs(item).length))));
+    (ui.signal==='all'||matchingSignals(item).some(s=>s.reason_code===ui.signal)));
  matched.sort((a,b)=>{
    if(ui.sort==='recent')return (bestObs(b)?.date||'').localeCompare(bestObs(a)?.date||'')||a.name.localeCompare(b.name,'ko');
-   if(ui.sort==='rank'&&ui.source!=='all'&&ui.country!=='ALL'&&ui.category!=='all'&&ui.price!=='all')return (selectedObs(a).find(x=>!x.stale)?.rank||9999)-(selectedObs(b).find(x=>!x.stale)?.rank||9999);
+   if(ui.sort==='rank'&&ui.source!=='all'&&ui.country!=='ALL'&&ui.category!=='all'&&ui.price!=='all')return (scopedObs(a).find(x=>!x.stale)?.rank||9999)-(scopedObs(b).find(x=>!x.stale)?.rank||9999);
    if(ui.sort==='rise')return Number(Boolean(reason(b)?.reason_code==='rising_7d'))-Number(Boolean(reason(a)?.reason_code==='rising_7d'))||a.name.localeCompare(b.name,'ko');
    const weight=x=>({rising_7d:0,multi_country:1,consistent_30d:2,overseas_interest:3,newly_seen:4,indie_discovery:5})[reason(x)?.reason_code]??6;
    return weight(a)-weight(b)||(bestObs(b)?.date||'').localeCompare(bestObs(a)?.date||'')||a.name.localeCompare(b.name,'ko');
@@ -219,12 +266,13 @@ function radar(){
  <div class="lab-filters">${select('country',[['ALL','국가 전체'],['US','미국'],['JP','일본'],['KR','한국'],['GLOBAL','인디 GLOBAL']],ui.country,'국가')}${select('source',[['all','스토어 전체'],['apple','App Store'],['google','Google Play'],['itch','itch.io']],ui.source,'스토어')}
  ${select('kind',[['all','앱·게임 전체'],['app','앱'],['game','게임']],ui.kind,'유형')}${categorySelect()}
  ${select('price',[['all','무료·유료 전체'],['top_free','무료'],['top_paid','유료']],ui.price,'차트')}${select('ai',[['all','AI 분석 전체'],['yes','AI 분석 있음'],['no','미분석']],ui.ai,'분석 상태')}
+ ${select('release',[['all','출시일 전체'],['apple30','최근 30일 실제 출시 (Apple)'],['apple90','최근 90일 실제 출시 (Apple)'],['unknown','실제 출시일 미확인']],ui.release,'실제 출시일')}
  ${select('period',[[7,'최근 7일'],[30,'최근 30일'],[90,'최근 90일']],ui.period,'기간')}
  ${select('sort',[['signals','관측 신호 우선'],['recent','최근 관측'],['rise','순위 상승 신호'],['rank','같은 차트에서 순위']],ui.sort,'정렬')}</div></div>
  ${chosen.length?`<div class="lab-selection-bar" role="status"><strong>비교 후보 ${chosen.length}/3</strong><span>선택한 앱·게임을 나란히 살펴볼 수 있습니다.</span><a class="button outline-blue small" href="#/lab/compare">후보 비교하기 →</a><button class="button ghost small" data-lab-action="clear-compare">모두 해제</button></div>`:''}
  <div class="lab-result-tools"><p class="small-copy">${ui.sort==='rank'?'순위 정렬은 단일 국가·스토어·카테고리·차트 선택 시에만 적용됩니다.':'차트가 다른 순위를 합산하지 않으며 전체 신호는 스토어별로 번갈아 표시합니다.'} · 실제 관측 날짜만 표시</p><div class="chips"><button class="chip ${ui.view==='cards'?'selected':''}" data-lab-action="view" data-value="cards">카드</button><button class="chip ${ui.view==='list'?'selected':''}" data-lab-action="view" data-value="list">목록</button></div></div>
  ${rows.length?`<div class="${ui.view==='list'?'lab-list':'lab-card-grid'}">${rows.slice(0,ui.radarLimit).map(card).join('')}</div>${rows.length>ui.radarLimit?`<div class="lab-more"><button class="button ghost" data-lab-action="more-radar">더 보기 (${rows.length-ui.radarLimit}개 남음)</button></div>`:''}`:empty('선택한 조건의 관측 후보가 없습니다.','다른 국가·기간·스토어로 바꾸거나 추가 수집 이후 확인해 주세요.')}
- <p class="lab-disclaimer">※ '처음 관측'은 신규 출시가 아니며, itch.io 피드 순서는 인기 순위가 아닙니다. 수집 실패·관측 누락을 순위권 이탈로 보지 않습니다.</p>`;
+ <p class="lab-disclaimer">※ Apple 실제 출시일은 수집된 release_date만 사용합니다. Google Play·itch.io는 출시일 미확인입니다. '처음 관측'은 신규 출시가 아니며, itch.io 피드 순서는 인기 순위가 아닙니다. 수집 실패·관측 누락을 순위권 이탈로 보지 않습니다.</p>`;
 }
 function tagCounts(){const counts=new Map();for(const item of index.items.filter(i=>i.has_ai))for(const tag of item.tags||[])counts.set(tag,(counts.get(tag)||0)+1);return [...counts].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0],'ko'));}
 // Select a whole broad family with one click; optional detail mode can exclude
@@ -330,6 +378,7 @@ function features(){
   <p class="small-copy lab-feature-source-note">태그는 Gemini의 기능·시스템 분석에서 생성한 참고 분류입니다. 원작에 실제 구현됐는지 검증된 사실은 아닙니다.</p>
  </div>
  ${featureInsights(baseRows,selected)}
+ <div class="lab-feature-export-toolbar panel"><div><strong>찾은 후보를 다음 분석으로 연결</strong><p class="small-copy">현재 기능·검색·연관 필터로 찾은 ${rows.length}개 후보. 화면의 60개 표시 제한과 관계없이, 미선택 후보를 최대 ${EXPORT_MAX}개까지 담습니다.</p></div><button type="button" class="button outline-blue small" data-lab-action="feature-export-add" ${rows.length?'':'disabled'}>현재 후보 내보내기에 담기 (${Math.min(rows.length,EXPORT_MAX)}개까지)</button><a class="button ghost small" href="#/lab/export">내보내기 확인 →</a></div>
  <div class="lab-section-heading"><div><h3>찾은 개발 참고 후보</h3><p>${esc(matchedText)}${related?` · 그중 ${esc(related)} 관련 ${rows.length}개를 살펴보는 중`:''}</p></div>${related?`<button type="button" class="lab-feature-reset" data-lab-action="clear-feature-related">연관 기능 보기 해제</button>`:''}</div>
  ${rows.length?`<div class="lab-card-grid">${rows.slice(0,ui.featureLimit).map(item=>`<article class="panel lab-feature-card"><div class="lab-card-head">${icon(item)}<div class="lab-card-id"><a class="lab-name" href="#/lab/analysis?app=${encodeURIComponent(item.app_key)}">${esc(item.name)}</a><div class="small-copy">${esc(labelSource(item.source))} · ${esc(item.category||'분류 없음')}</div></div></div><p class="lab-summary">${esc(item.summary||'분석에 포함된 기능 태그를 확인해 주세요.')}</p><div class="lab-tag-row">${item.tags.map(t=>featureBadge(t,item)).join('')}</div><div class="small-copy">AI 분석 기반${item.difficulty?` · 참고 난이도: ${esc(item.difficulty)}`:''}</div>${actions(item)}</article>`).join('')}</div>${rows.length>ui.featureLimit?`<div class="lab-more"><button type="button" class="button ghost" data-lab-action="more-features">후보 더 보기 (${rows.length-ui.featureLimit}개 남음)</button></div>`:''}`:empty('해당 기능과 함께 나타난 후보가 없습니다.','분류 선택이나 제외한 세부 태그를 확인해 주세요.')}`;
 }
@@ -340,6 +389,7 @@ function aiDetail(item,record){
  if(!record)return `<div class="panel lab-ai-detail">${empty('AI 원본을 확인 중입니다.','기존 Gemini 분석 파일을 읽고 있습니다.')}</div>`;
  const a=record.analysis||{},level=a.difficulty_ko||{},mvp=a.solo_mvp_ko||{},ideas=a.ideas_ko||[];
  const source=record.source_description;
+ const quick=`<section class="lab-ai-quick" aria-label="개발 관점 핵심 요약"><div class="lab-ai-quick-title"><h3>개발 관점 핵심 요약</h3><span>Gemini V2 참고 · 자세한 내용은 아래 원문 분석에서 확인</span></div><div class="lab-ai-quick-grid"><div><h4>핵심 기능</h4>${list((a.features_ko||[]).slice(0,2))||'<p class="small-copy">정리된 핵심 기능 없음</p>'}</div><div><h4>혼자 만드는 첫 MVP</h4>${list((mvp.must_have||[]).slice(0,3))||'<p class="small-copy">MVP 제안 없음</p>'}</div><div><h4>개발 부담·위험</h4>${level.level?difficultyBadge(level.level):''}${list((mvp.risks||[]).slice(0,2))||para(level.reason)||'<p class="small-copy">위험 분석 없음</p>'}</div></div></section>`
  const sect=[sectionHTML('한국어 개요',para(a.summary_ko)),sectionHTML('소개에서 정리한 핵심 기능',list(a.features_ko),'원본 소개를 바탕으로 한 AI 정리입니다.'),
  sectionHTML('눈여겨볼 특징',para(a.noteworthy_ko)+list(a.highlights_ko)),sectionHTML('개발 관점',para(a.development_ko)),
  sectionHTML('필요한 구현 시스템',list(a.systems_ko),'원작의 내부 아키텍처가 확인된 사실은 아닙니다.'),
@@ -349,7 +399,7 @@ function aiDetail(item,record){
  sectionHTML('종합 조언',para(a.recommendation_ko)),sectionHTML('원본에서 확인하기 어려운 부분',para(a.source_limitations_ko)),
  sectionHTML('원본 스토어 소개',source?para(source):'<p class="small-copy">원본 소개 미보관 · AI 분석 기록은 그대로 유지합니다.</p>','수집·보관된 공개 설명이며, 다른 국가의 설명으로 대체하지 않습니다.')];
  return `<div class="panel lab-ai-detail"><div class="lab-ai-top"><div class="lab-card-head">${icon(item)}<div class="lab-card-id"><h2>${esc(item.name)}</h2><p class="small-copy">${esc(labelSource(record.source))} · ${esc(record.country||'국가 미확인')} · AI 분석 ${formatDate(record.analysed_at)} · ${esc(record.model||'모델 미기록')} / ${esc(record.prompt_version||'버전 미기록')}</p></div></div><div class="lab-actions">${safeUrl(record.detail_url)?`<a class="button ghost small" target="_blank" rel="noopener noreferrer" href="${attr(safeUrl(record.detail_url))}">원본 스토어 ↗</a>`:''}<button class="button outline-blue small" data-lab-action="toggle-compare" data-key="${attr(item.app_key)}">${chosen.includes(item.app_key)?'✓ 비교 선택됨':'+ 비교'}</button>${exportToggle(item.app_key)}</div></div><div class="lab-callout">구분 안내: <strong>스토어에서 보관된 내용</strong>과 <strong>Gemini가 정리·해석·제안한 내용</strong>은 다릅니다. 실제 게임 플레이나 내부 기술 구현을 검증한 결과가 아닙니다.</div>
-  <div class="lab-ai-feature-strip"><strong>기능 태그 <small>Gemini 분석 기반 · 태그에 마우스를 올리면 추출 근거 표시</small></strong><div class="lab-tag-row">${item.tags?.length?item.tags.map(t=>featureBadge(t,item)).join(''):'<span class="small-copy">추출된 기능 태그가 없습니다.</span>'}</div>${Object.keys(item.tag_evidence||{}).length?`<details class="lab-tag-evidence"><summary>태그의 근거 문장 보기 (${Object.keys(item.tag_evidence).length}개)</summary><ul>${Object.entries(item.tag_evidence).map(([tag,entries])=>`<li><strong>${esc(tag)}</strong><span>${entries.map(e=>`${e.field==='systems_ko'?'구현 시스템 제안':'핵심 기능'}: ${esc(e.text)}`).join('<br>')}</span></li>`).join('')}</ul></details>`:''}</div>${sect.join('')}</div>`;
+  ${quick}<div class="lab-ai-feature-strip"><strong>기능 태그 <small>Gemini 분석 기반 · 태그에 마우스를 올리면 추출 근거 표시</small></strong><div class="lab-tag-row">${item.tags?.length?item.tags.map(t=>featureBadge(t,item)).join(''):'<span class="small-copy">추출된 기능 태그가 없습니다.</span>'}</div>${Object.keys(item.tag_evidence||{}).length?`<details class="lab-tag-evidence"><summary>태그의 근거 문장 보기 (${Object.keys(item.tag_evidence).length}개)</summary><ul>${Object.entries(item.tag_evidence).map(([tag,entries])=>`<li><strong>${esc(tag)}</strong><span>${entries.map(e=>`${e.field==='systems_ko'?'구현 시스템 제안':'핵심 기능'}: ${esc(e.text)}`).join('<br>')}</span></li>`).join('')}</ul></details>`:''}</div>${sect.join('')}</div>`;
 }
 function analysisFeatureSelect(){
  const grouped=groupedTags(tagCounts());
@@ -452,12 +502,16 @@ function compare(){
   }],
   ['자료 공백',i=>`<div class="small-copy">${[!i.has_ai&&'AI 미분석',i.has_ai&&!AI_RESULT.has(i.app_key)&&'분석을 불러오는 중',!i.observations.length&&'최신 관측 기록 없음',!(i.description)&&'최신 원본 소개 미보관'].filter(Boolean).join(' · ')||'표시된 자료 범위에서 별도 공백 없음'}</div>`],
  ];
+ const differenceRows=rows.filter(([title,fn])=>{
+   const values=items.map(i=>fn(i).replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim());
+   return new Set(values).size>1;
+ });
  return `<div class="lab-section-heading"><div><h2>후보 비교</h2><p>최대 3개를 나란히 살펴봅니다. 후보 선정과 관심 목록은 별개로 유지됩니다.</p></div><div class="lab-compare-controls">${badge(`${items.length}/3 선택`,'blue')}${items.length?`<button class="button ghost small lab-clear-compare" data-lab-action="clear-compare">비교 전체 초기화</button>`:''}</div></div>
  ${items.length?`<div class="lab-compare-board"><div class="lab-compare-head">${items.map(i=>`<article class="panel lab-compare-title">${icon(i)}<strong>${esc(i.name)}</strong><p class="small-copy">${esc(labelSource(i.source))} · ${esc(i.category||'분류 없음')}</p><button class="button ghost small" data-lab-action="remove-compare" data-key="${attr(i.app_key)}">제거 / 교체</button></article>`).join('')}</div>
  <div class="lab-compare-tabs">${[['all','전체 보기'],['common','공통점만'],['diff','차이점만']].map(([value,label])=>`<button class="chip ${ui.comparisonMode===value?'selected':''}" data-lab-action="compare-mode" data-value="${value}">${label}</button>`).join('')}</div>
- <section class="panel lab-compare-summary"><h3>기능 공통점</h3>${shared.length?`<div class="lab-tag-row">${shared.map(featureBadge).join('')}</div>`:'<p class="small-copy">두 개 이상에서 공통으로 추출된 기능 태그가 없습니다.</p>'}<p class="small-copy">공통점은 같은 정규화 태그가 둘 이상에 등장했을 때만 표시합니다. AI 분석 문장에 근거합니다.</p></section>
- ${ui.comparisonMode!=='common'?`<div class="lab-compare-table">${rows.map(([title,fn])=>`<section class="panel lab-compare-feature"><h3>${esc(title)}</h3>${cells(fn)}</section>`).join('')}</div>`:''}
- ${ui.comparisonMode!=='diff'?`<div class="panel lab-compare-feature"><h3>후보별 기능 차이</h3>${cells(i=>`<div class="lab-tag-row">${i.tags.filter(tag=>!shared.includes(tag)).map(tag=>badge(tag)).join('')||'<span class="small-copy">단독 태그 없음</span>'}</div>`)}</div>`:''}
+ ${ui.comparisonMode!=='diff'?`<section class="panel lab-compare-summary"><h3>기능 공통점</h3>${shared.length?`<div class="lab-tag-row">${shared.map(featureBadge).join('')}</div>`:'<p class="small-copy">두 개 이상에서 공통으로 추출된 기능 태그가 없습니다.</p>'}<p class="small-copy">공통점은 같은 정규화 태그가 둘 이상에 등장했을 때만 표시합니다. AI 분석 문장에 근거합니다.</p></section>`:''}
+ ${ui.comparisonMode!=='common'?`<div class="lab-compare-table">${(ui.comparisonMode==='diff'?differenceRows:rows).map(([title,fn])=>`<section class="panel lab-compare-feature"><h3>${esc(title)}</h3>${cells(fn)}</section>`).join('')}</div>`:''}
+ ${ui.comparisonMode!=='common'?`<div class="panel lab-compare-feature"><h3>후보별 기능 차이</h3>${cells(i=>`<div class="lab-tag-row">${i.tags.filter(tag=>!shared.includes(tag)).map(tag=>badge(tag)).join('')||'<span class="small-copy">단독 태그 없음</span>'}</div>`)}</div>`:''}
  <div class="lab-actions" style="margin-top:20px"><a class="button" href="#/lab/export">이 후보로 자료 내보내기 →</a><a class="button ghost" href="#/lab/radar">다른 후보 찾기</a></div></div>`:empty('비교할 후보를 추가해 주세요.','발견 레이더·기능 탐색·개발 분석에서 + 비교 버튼으로 최대 3개를 선택할 수 있습니다.')}`;
 }
 const EXPORT_MAX=100;
@@ -481,6 +535,8 @@ function categoryOptions(items,kind,source,selected,field){
   ['게임',allowGames?GAME_CATEGORIES:[]],
   ['인디 게임 · itch.io 피드',allowIndie?['featured','new','puzzle','idle']:[]]
  ];
+ const known=new Set([...APP_CATEGORIES,...GAME_CATEGORIES,...Object.keys(FEED_LABEL)]);
+ groups.push(['추가 수집 분류',[...available].filter(code=>!known.has(code)).sort()]);
  const html=[`<option value="all" ${selected==='all'?'selected':''}>모든 분류</option>`];
  for(const [label,codes] of groups){
   const offered=codes.filter(code=>available.has(code));
@@ -489,11 +545,11 @@ function categoryOptions(items,kind,source,selected,field){
  return `<label class="lab-field"><span>실제 차트·피드 분류</span><select data-lab-filter="${field}" class="field-select lab-category-select">${html.join('')}</select></label>`;
 }
 function matchesRecommendation(i,depth=6){
- if(!(i.observations||[]).some(o=>!o.stale))return false;
- if(depth>=1&&ui.exportSignal!=='all'&&!(i.signals||[]).some(s=>s.reason_code===ui.exportSignal))return false;
+ if(!(i.observations||[]).some(o=>!o.stale&&o.date>=periodStartFor(ui.exportPeriod)&&o.date<=index.data_date))return false;
+ if(depth>=1&&ui.exportSignal!=='all'&&!matchingSignals(i,{period:ui.exportPeriod,country:'ALL',source:ui.exportSource,category:ui.exportCategory,price:'all'}).some(s=>s.reason_code===ui.exportSignal))return false;
  if(depth>=2&&ui.exportKind!=='all'&&i.kind!==ui.exportKind)return false;
  if(depth>=3&&ui.exportSource!=='all'&&i.source!==ui.exportSource)return false;
- if(depth>=4&&ui.exportCategory!=='all'&&!(i.observations||[]).some(o=>!o.stale&&(o.category===ui.exportCategory||o.feed===ui.exportCategory)))return false;
+ if(depth>=4&&ui.exportCategory!=='all'&&!(i.observations||[]).some(o=>!o.stale&&o.date>=periodStartFor(ui.exportPeriod)&&(o.category===ui.exportCategory||o.feed===ui.exportCategory)))return false;
  if(depth>=5&&ui.exportDifficulty!=='all'&&i.difficulty!==ui.exportDifficulty)return false;
  if(depth>=6&&ui.exportAI!=='all'&&Boolean(i.has_ai)!==(ui.exportAI==='yes'))return false;
  return true;
@@ -575,7 +631,7 @@ function exportSelection(){
 function recommendationBasis(item){
  const parts=[];
  if(ui.exportSignal!=='all'){
-  const signal=item.signals.find(s=>s.reason_code===ui.exportSignal);
+  const signal=matchingSignals(item,{period:ui.exportPeriod,country:'ALL',source:ui.exportSource,category:ui.exportCategory,price:'all'}).find(s=>s.reason_code===ui.exportSignal);
   if(signal)parts.push(`${recSignalLabel(ui.exportSignal)}: ${signalText(signal)}`);
  }
  if(ui.exportCategory!=='all')parts.push(`실제 관측 분류: ${labelCategory(ui.exportCategory)}`);
@@ -604,7 +660,8 @@ function exportView(){
  <h3>3. 분석 목적</h3>${[['market','시장 변화'],['features','기능·개발 아이디어'],['compare','후보 비교'],['full','전체 심층 분석']].map(([key,name])=>`<label class="lab-radio"><input type="radio" name="lab-export-preset" value="${key}" data-lab-preset ${ui.exportPreset===key?'checked':''}><span><strong>${name}</strong><small>${key==='market'?'국가·실제 차트별 관측 날짜와 순위':key==='features'?'원본 소개 및 AI 기능·MVP·아이디어':key==='compare'?'여러 후보의 주요 항목을 ChatGPT에서 비교':'원본 정보·관측 근거·AI 전체 결과'}</small></span></label>`).join('')}</section>
  <aside class="panel lab-export-summary"><p class="eyebrow">EXPORT PREVIEW</p><h3>ChatGPT 분석 자료</h3>
  <div class="lab-export-stat"><strong>${selectedItems.length}개</strong><span>${manual?'직접 선택한 후보':'조건에 맞춰 자동 구성한 후보'}</span></div>
- <div class="lab-export-stat"><strong>${selectedItems.filter(i=>i.has_ai).length}/${selectedItems.length}개</strong><span>Gemini 분석 보유 (나머지는 미분석)</span></div>
+ <div class="lab-export-stat"><strong>${selectedItems.filter(i=>i.has_ai).length}/${selectedItems.length}개</strong><span>Gemini 분석 보유${ui.exportPreset==='market'?' · 시장 변화 파일에는 원문 미포함':''} (나머지는 미분석)</span></div>
+ <div class="lab-export-stat"><strong>${selectedItems.filter(i=>confirmedRelease(i)).length}/${selectedItems.length}개</strong><span>실제 출시일 확인 (현재 Apple 수집만 지원)</span></div>
  <div class="lab-export-stat"><strong>${ui.exportPeriod}일</strong><span>요청 범위 (실제 관측일만 기록)</span></div>
  <div class="lab-export-stat"><strong>${formatDate(index.data_date)}</strong><span>수집 자료 기준일</span></div>
  <div class="lab-callout">앱스토어의 서로 다른 차트를 합산하지 않습니다. AI 분석은 실제 내부 구현이나 성공 가능성을 보증하지 않습니다.</div>
@@ -616,16 +673,19 @@ function promptText(keys){
  const titles=keys.slice(0,15).map(k=>index?.map.get(k)?.name||k);
  const extra=keys.length>15?` 외 ${keys.length-15}개`:'';
  const preset={market:'시장 관측 변화와 나라·차트별 차이',features:'핵심 기능과 1인 개발 MVP',compare:'후보의 공통점·차이점과 우선 검토할 개발 방향',full:'시장 기록·기능·개발 부담·MVP·차별화 아이디어'}[ui.exportPreset];
- const coverage=keys.filter(k=>index?.map.get(k)?.has_ai).length;
+ const coverage=ui.exportPreset==='market'?0:keys.filter(k=>index?.map.get(k)?.has_ai).length;
  const kinds={all:'앱·게임 전체',app:'앱',game:'게임'},sources={all:'모든 스토어',apple:'App Store',google:'Google Play',itch:'itch.io'};
  const criteria=ui.exportMode==='recommended'?`후보 구성: 수집 신호 ${recSignalLabel(ui.exportSignal)}, 유형 ${kinds[ui.exportKind]||ui.exportKind}, 스토어 ${sources[ui.exportSource]||ui.exportSource}, 실제 분류 ${labelCategory(ui.exportCategory)}, AI 참고 난이도 ${ui.exportDifficulty==='all'?'전체':ui.exportDifficulty}, 분석 보유 ${ui.exportAI==='all'?'전체':ui.exportAI==='yes'?'분석 있음':'미분석'}.\n`:'';
- return `첨부한 app-trend 아이디어 연구실 자료를 기준으로 ${preset}를 분석해 주세요.\n후보 ${keys.length}개: ${titles.join(', ')}${extra}\n${criteria}범위: 최근 ${ui.exportPeriod}일 중 실제 수집된 날짜만.\nGemini 분석 보유: ${coverage}/${keys.length}개. AI가 없는 후보는 원본 설명·실제 관측에 근거한 사실과 새 개발 아이디어 제안을 반드시 구분해 주세요. 첨부 파일에서 확인되지 않는 MVP·난이도는 원작의 검증된 정보처럼 단정하지 마세요.\n실제 스토어 관측 사실과 Gemini AI의 제안·추론을 구분하고, 서로 다른 국가·스토어·차트의 순위를 합산하지 마세요. itch.io 피드의 position은 인기 순위가 아닙니다. 데이터가 없는 부분은 미확인으로 표시해 주세요.\n혼자 구현할 최소 MVP, 개발 부담과 위험, 원작과 다르게 만들 아이디어, 첫 구현 단계를 구체적으로 비교해 주세요.`;
+ return `첨부한 app-trend 아이디어 연구실 자료를 기준으로 ${preset}를 분석해 주세요.\n후보 ${keys.length}개: ${titles.join(', ')}${extra}\n${criteria}범위: 최근 ${ui.exportPeriod}일 중 실제 수집된 날짜만. Apple 출시일은 확인된 release_date만 사용하고, Google Play·itch.io 출시일은 미확인으로 취급해 주세요. 첫 관측일은 출시일이 아닙니다.\n${ui.exportPreset==='market'?'이번 시장 변화 파일에는 AI 분석 원문이 포함되지 않습니다.':`Gemini 분석 보유: ${coverage}/${keys.length}개.`} AI가 없는 후보는 원본 설명·실제 관측에 근거한 사실과 새 개발 아이디어 제안을 반드시 구분해 주세요. 첨부 파일에서 확인되지 않는 MVP·난이도는 원작의 검증된 정보처럼 단정하지 마세요.\n실제 스토어 관측 사실과 Gemini AI의 제안·추론을 구분하고, 서로 다른 국가·스토어·차트의 순위를 합산하지 마세요. itch.io 피드의 position은 인기 순위가 아닙니다. 데이터가 없는 부분은 미확인으로 표시해 주세요.\n혼자 구현할 최소 MVP, 개발 부담과 위험, 원작과 다르게 만들 아이디어, 첫 구현 단계를 구체적으로 비교해 주세요.`;
 }
 function getExportKeys(){return exportSelection();}
-async function loadIndieHistory(){return indiePromise??(indiePromise=readJSON('./data/lab/indie_history.json').catch(()=>({})));}
+async function loadIndieHistory(){
+ if(!indiePromise)indiePromise=readJSON('./data/lab/indie_history.json').catch(error=>{indiePromise=null;throw Error(`인디 이력 파일을 읽지 못했습니다: ${error.message}`);});
+ return indiePromise;
+}
 async function loadExportHistory(key){
  const bucket=Array.from(new TextEncoder().encode(key)).reduce((a,b)=>a+b,0)%16;
- if(!EXPORT_HISTORY_CACHE.has(bucket))EXPORT_HISTORY_CACHE.set(bucket,readJSON(`./data/history/${bucket}.json`).then(data=>({data})).catch(error=>({error})));
+ if(!EXPORT_HISTORY_CACHE.has(bucket))EXPORT_HISTORY_CACHE.set(bucket,readJSON(`./data/history/${bucket}.json`).then(data=>({data})).catch(error=>{EXPORT_HISTORY_CACHE.delete(bucket);return {error};}));
  const result=await EXPORT_HISTORY_CACHE.get(bucket);
  return {rows:result.data?.[key]||[],error:!!result.error};
 }
@@ -642,6 +702,7 @@ export async function buildExport(){
    const item=index.map.get(key);
    const [history,ai]=await Promise.all([key.startsWith('itch:')?Promise.resolve({rows:indie[key]||[],error:false}):loadExportHistory(key),
                 item.has_ai&&ui.exportPreset!=='market'?loadAI(key).catch(()=>null):Promise.resolve(null)]);
+   if(history.error)throw Error(`${item.name}의 순위 이력 파일을 읽지 못했습니다. 정상 이력 확인 후 다시 시도해 주세요.`);
    const observations=sliceObservations(history.rows||[],ui.exportPeriod);
    const limitations=['실제로 수집된 날짜만 포함하며, 미관측일을 0위 또는 순위권 밖으로 해석하지 않음'];
    if(item.has_ai&&!ai&&ui.exportPreset!=='market')limitations.push('AI 상세 JSON을 가져오지 못함');
@@ -650,7 +711,8 @@ export async function buildExport(){
    if(!observations.length)limitations.push('선택한 기간의 개별 관측 기록이 없음');
    if(!ai?.source_description)limitations.push('AI 분석 당시 원본 소개 미보관 또는 AI 미분석 · 현재 스냅샷 설명과 구분됨');
    return {app_key:key,app:{name:item.name,source:item.source,kind:item.kind,category:item.category,
-       detail_url:item.detail_url,first_seen:item.first_seen},observations,
+       detail_url:item.detail_url,first_seen:item.first_seen,
+       release_date:confirmedRelease(item)||null,release_date_source:confirmedRelease(item)?'apple_collected_release_date':null},observations,
        discovery_signals:item.signals.filter(s=>(s.source_data_dates||[]).some(d=>d>=periodStartFor(ui.exportPeriod)&&d<=index.data_date)),
        ...(ui.exportPreset==='market'?{}:{source_description:ai?.source_description||null,
           snapshot_description:item.description||null,
@@ -668,11 +730,12 @@ export async function buildExport(){
 }
 const csvSafe=v=>{const raw=plain(v);const value=/^\s*[=+\-@]/.test(raw)?`'${raw}`:raw;return `"${value.replaceAll('"','""')}"`;};
 export function csvExport(payload){
- const cols=['selection_basis','app_key','name','source','country','chart','category','feed','date','rank','position','observed_source','ai_analysed_at','ai_difficulty','ai_features','ai_systems','mvp_must_have','mvp_defer','mvp_risks','ai_ideas','detail_url','limitations'];
+ const cols=['selection_basis','app_key','name','source','release_date','release_date_source','country','chart','category','feed','date','rank','position','observed_source','ai_analysed_at','ai_difficulty','ai_features','ai_systems','mvp_must_have','mvp_defer','mvp_risks','ai_ideas','detail_url','limitations'];
  const data=[];
  for(const item of payload.items){
   const a=item.ai_analysis?.analysis||{};
   const base={selection_basis:(item.selection_basis||[]).join(' / '),app_key:item.app_key,name:item.app.name,source:item.app.source,
+   release_date:item.app.release_date||'',release_date_source:item.app.release_date_source||'',
    observed_source:item.observations.length?'수집 데이터':'관측 기록 없음',
    ai_analysed_at:item.ai_analysis?.analysed_at||'',ai_difficulty:a.difficulty_ko?.level||'',
    ai_features:(a.features_ko||[]).join('\n'),ai_systems:(a.systems_ko||[]).join('\n'),
@@ -726,9 +789,19 @@ export async function labAction(button){
  case 'toggle-feature-families':ui.featureFamiliesOpen=!ui.featureFamiliesOpen;break;
  case 'toggle-feature-insights':ui.featureInsightsOpen=!ui.featureInsightsOpen;break;
  case 'more-features':ui.featureLimit+=60;break;
+ case 'feature-export-add':{
+   const base=featureRows(),related=ui.featureRelatedTag;
+   const visible=related?base.filter(i=>i.tags.includes(related)):base;
+   const keys=manualExportKeys(),free=EXPORT_MAX-keys.length;
+   const additions=visible.map(i=>i.app_key).filter(k=>!keys.includes(k)).slice(0,free);
+   if(!additions.length){flash(keys.length>=EXPORT_MAX?`최대 ${EXPORT_MAX}개가 이미 담겼습니다.`:'현재 후보가 이미 모두 담겨 있습니다.');return;}
+   ui.exportKeys=[...keys,...additions];ui.exportManualInitialized=true;ui.exportMode='manual';saveExportKeys();
+   flash(`${additions.length}개 추가했습니다. 내보내기 총 ${ui.exportKeys.length}개 (후보 ${visible.length}개 중).`);
+   break;
+ }
  case 'feature-related':{
    const tag=button.dataset.value;
-   if(featureRelatedCounts(featureRows(),ui.featureTags).some(([name])=>name===tag))
+   if(featureRelatedCounts(featureRows(),activeFeatureTags()).some(([name])=>name===tag))
      ui.featureRelatedTag=ui.featureRelatedTag===tag?'':tag;
    break;
  }
@@ -804,7 +877,7 @@ export function labChange(target){
   if(recPos!==-1){for(const subsequent of EXPORT_REC_FIELDS.slice(recPos+1))ui[subsequent]='all';}
   if(browsePos!==-1){for(const subsequent of EXPORT_BROWSE_FIELDS.slice(browsePos+1))ui[subsequent]='all';ui.exportQuery='';ui.exportBrowseLimit=24;}
   if(['country','source','kind','price'].includes(key) && ui.category!=='all' && !radarCategoryChoices().has(ui.category))ui.category='all';
-  if(['signal','country','source','kind','category','price','ai','period','sort'].includes(key))ui.radarLimit=24;
+  if(['signal','country','source','kind','category','price','ai','release','period','sort'].includes(key))ui.radarLimit=24;
   if(key.startsWith('analysis'))ui.analysisLimit=28;
   if(key==='featureQuery')ui.featureLimit=60;
   refreshPage();return true;
@@ -841,7 +914,7 @@ export function renderLab(tab='radar',query=new URLSearchParams()){
    lastFeatureRoute=featureRoute;
  }else lastFeatureRoute='';
  if(!TABS.some(x=>x[0]===tab))tab='radar';
- const active=index.items.filter(i=>i.observations.length).length;
+ const active=index.items.filter(i=>i.observations?.some(o=>!o.historical)).length;
  const updatedGroups=(store.groups||[]).filter(g=>g.is_stale).length;
  const body={radar,features,analysis:()=>analysis(query),compare,export:exportView}[tab]();
  return `<section class="lab-hero"><div><p class="eyebrow">IDEA LAB / RESEARCH WORKSPACE</p><h1>아이디어 연구실</h1><p>수집한 시장 기록과 개발 분석을 연결해, 다음에 만들 앱·게임 후보를 찾아보세요.</p><div class="lab-hero-status">${badge(`수집 자료 ${formatDate(index.data_date)}`,'blue')}${updatedGroups?badge(`이전 데이터 ${updatedGroups}개 그룹`,'warn'):badge('최신 수집 자료','green')}</div></div><div class="lab-hero-stats"><div><strong>${active.toLocaleString('ko-KR')}</strong><span>관측 후보</span></div><div><strong>${index.ai_count.toLocaleString('ko-KR')}</strong><span>AI 분석 누적</span></div><div><strong>${chosen.length} / 3</strong><span>비교 후보</span></div></div></section>

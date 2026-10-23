@@ -47,7 +47,7 @@ COMPILED_ALIASES = [(label, re.compile(pattern, re.I)) for label, pattern in TAG
 # Users open a family to browse its actual tags, instead of scanning hundreds
 # of individual chips. Family assignment never changes the AI source text.
 FEATURE_FAMILIES = (
-    ('퍼즐·규칙·카드', r'퍼즐|그리드|블록|타일|머지|합성|턴|솔리테어|카드|덱|점수|레벨|난이도|보드|판정|확률|슬롯|룰|규칙|대국|미니게임|힌트|실수|줄 완성'),
+    ('퍼즐·규칙·카드', r'퍼즐|그리드|블록|(?<![가-힣])타일(?![가-힣])|머지|합성|턴|솔리테어|카드|덱|점수|레벨|난이도|보드|판정|확률|슬롯|룰|규칙|대국|미니게임|힌트|실수|줄 완성'),
     ('전투·액션·물리', r'전투|사격|공격|배틀|발사|물리|충돌|파괴|주행|캐릭터 제어|이동|생존|타워 디펜스|지형|전략|서바이벌|슬로우 모션|속도|오브젝트|영웅 육성'),
     ('수집·성장·경제', r'수집|인벤토리|재화|자원|아이템|업그레이드|강화|보상|업적|성장|채굴|포인트|경제|해금|획득|생산|재고'),
     ('건설·제작·꾸미기', r'건설|건물|시설|제작|꾸미|조립|농작물|농장|동물|마을|크리에이티브|배치|광산'),
@@ -130,6 +130,10 @@ def _dynamic_name(text: str) -> str:
         return ''
     if re.search(r'(?:없는|미지원|불필요|제외|구현하지|지원하지)', label):
         return ''
+    # A verb phrase taken from a Gemini sentence is not a usable feature name.
+    # E.g. '웹사이트 전체를 클릭 한 번으로 번역하는' or '곡명을 찾는'.
+    if re.search(r'(?:하는|되는|찾는|주는|있는|없는|하는 것|할 수 있는|을 수 있는|를 수 있는)$', label):
+        return ''
     return label
 
 
@@ -189,6 +193,16 @@ def json_read(file: Path) -> dict:
     return json.loads(file.read_text(encoding='utf-8'))
 
 
+def verified_apple_release(source: str, value: str, as_of: str) -> str:
+    """Only retain a real Apple release date stored by the collector."""
+    if source != 'apple' or not isinstance(value, str) or not re.fullmatch(r'\d{4}-\d{2}-\d{2}', value):
+        return ''
+    try:
+        return value if dt.date(1990, 1, 1) <= dt.date.fromisoformat(value) <= dt.date.fromisoformat(as_of) else ''
+    except ValueError:
+        return ''
+
+
 def history_days(day: str, days: int = 90) -> tuple[str, str]:
     end = dt.date.fromisoformat(day)
     return (end - dt.timedelta(days=days - 1)).isoformat(), day
@@ -209,7 +223,7 @@ def build(root: Path = ROOT) -> dict:
                 continue
             record = records.setdefault(key, {'app_key': key, 'name': '', 'source': source, 'kind': '',
                 'developer': '', 'category': '', 'icon_url': '', 'detail_url': '', 'description': '',
-                'first_seen': '', 'observations': [], 'signals': [], 'tags': [], 'has_ai': False,
+                'first_seen': '', 'release_date': '', 'observations': [], 'signals': [], 'tags': [], 'has_ai': False,
                 'ai_shard': None, 'difficulty': '', 'summary': '', 'analysed_at': ''})
             for source_field, target_field in [('name','name'),('kind','kind'),('developer','developer'),
                                                 ('primary_category','category'),('icon_url','icon_url'),
@@ -217,12 +231,89 @@ def build(root: Path = ROOT) -> dict:
                                                 ('first_seen','first_seen')]:
                 if row.get(source_field) and not record[target_field]:
                     record[target_field] = row[source_field]
+            # The Apple RSS date is already on the collected row. Never treat
+            # Google/itch first_seen or an update date as the original release.
+            if not record['release_date']:
+                record['release_date'] = verified_apple_release(source, row.get('release_date'), day)
             record['observations'].append({
                 'source': source, 'country': group.get('country'), 'chart': group.get('chart'),
                 'category': group.get('category'), 'feed': group.get('feed'),
                 'date': group.get('data_date'), 'stale': bool(group.get('is_stale')),
                 'rank': row.get('rank'), 'position': row.get('position'),
             })
+
+    # A 30/90-day filter must include apps that left the latest chart. Keep only
+    # the final actual observation for each archived app/group, not synthetic
+    # missing-day ranks. Metadata comes from our stored canonical CSV.
+    latest_keys = set(records)
+    historical_groups: dict[tuple, dict] = {}
+    for file in sorted((data / 'rankings').glob('*/*/*.csv')):
+        if not earliest <= file.stem <= day:
+            continue
+        with file.open(encoding='utf-8-sig', newline='') as stream:
+            for row in csv.DictReader(stream):
+                key = row.get('app_key')
+                if not key or key in latest_keys or not row.get('date'):
+                    continue
+                try:
+                    rank = int(row['rank'])
+                except (ValueError, TypeError, KeyError):
+                    continue
+                group_key = (key, row.get('source'), row.get('country'), row.get('chart'), row.get('category'))
+                if group_key not in historical_groups or historical_groups[group_key]['date'] < row['date']:
+                    historical_groups[group_key] = {'source':row.get('source'), 'country':row.get('country'),
+                        'chart':row.get('chart'), 'category':row.get('category'), 'feed':None,
+                        'date':row['date'], 'stale':False, 'historical':True,
+                        'rank':rank, 'position':None}
+    for file in sorted((data / 'discoveries').glob('*/*/*.csv')):
+        if not earliest <= file.stem <= day:
+            continue
+        with file.open(encoding='utf-8-sig', newline='') as stream:
+            for row in csv.DictReader(stream):
+                key = row.get('app_key')
+                if not key or key in latest_keys or not row.get('date'):
+                    continue
+                try:
+                    position = int(row['position'])
+                except (ValueError, TypeError, KeyError):
+                    continue
+                group_key=(key, 'itch', 'GLOBAL', None, row.get('feed'))
+                if group_key not in historical_groups or historical_groups[group_key]['date'] < row['date']:
+                    historical_groups[group_key]={'source':'itch','country':'GLOBAL','chart':None,
+                        'category':None,'feed':row.get('feed'),'date':row['date'],
+                        'stale':False,'historical':True,'rank':None,'position':position}
+
+    archive_keys = {key[0] for key in historical_groups}
+    metadata = {}
+    apps_file = data / 'apps.csv'
+    if archive_keys and apps_file.exists():
+        with apps_file.open(encoding='utf-8-sig', newline='') as stream:
+            for row in csv.DictReader(stream):
+                if row.get('app_key') in archive_keys:
+                    metadata[row['app_key']] = row
+    localized = {}
+    locales_file = data / 'app_locales.csv'
+    if archive_keys and locales_file.exists():
+        with locales_file.open(encoding='utf-8-sig', newline='') as stream:
+            for row in csv.DictReader(stream):
+                if row.get('app_key') in archive_keys and row.get('name'):
+                    localized.setdefault(row['app_key'], row)
+    for (key, source, *_), observation in historical_groups.items():
+        row = metadata.get(key, {})
+        locale = localized.get(key, {})
+        rec = records.setdefault(key, {'app_key':key,
+            'name':locale.get('name') or key, 'source':source,
+            'kind':row.get('kind') or ('game' if source=='itch' else ''),
+            'developer':row.get('developer') or '',
+            'category':row.get('primary_category') or '',
+            'icon_url':row.get('icon_url') or '',
+            'detail_url':row.get('detail_url') or '',
+            'description':locale.get('description') or '',
+            'first_seen':row.get('first_seen') or '',
+            'release_date':verified_apple_release(source, row.get('release_date'), day), 'observations':[],
+            'signals':[], 'tags':[], 'has_ai':False,'ai_shard':None,
+            'difficulty':'','summary':'','analysed_at':''})
+        rec['observations'].append(observation)
 
     # Candidate evidence was derived by the collector. Never manufacture scores.
     for c in trends.get('candidates', []):
@@ -293,11 +384,13 @@ def build(root: Path = ROOT) -> dict:
 
     ai_total = 0
     newest_ai = ''
+    bad_shards = []
     for file in sorted((data / 'ai/items').glob('*.json')):
         try:
             obj = json_read(file)
         except (ValueError, OSError) as exc:
-            print(f'[lab] 경고: AI 샤드 {file.name}을 읽지 못했습니다: {exc}')
+            bad_shards.append(file.name)
+            print(f'[lab] 오류: AI 샤드 {file.name}을 읽지 못했습니다: {exc}')
             continue
         for key, ai in (obj.get('items') or {}).items():
             if not isinstance(ai, dict) or not isinstance(ai.get('analysis'), dict):
@@ -306,7 +399,7 @@ def build(root: Path = ROOT) -> dict:
             newest_ai = max(newest_ai, str(ai.get('analysed_at') or ''))
             record = records.setdefault(key, {'app_key': key, 'name': '', 'source': ai.get('source', key.split(':')[0]),
                 'kind': 'game' if ai.get('source') == 'itch' else '', 'developer': '', 'category': '',
-                'icon_url': '', 'detail_url': '', 'description': '', 'first_seen': '',
+                'icon_url': '', 'detail_url': '', 'description': '', 'first_seen': '', 'release_date': '',
                 'observations': [], 'signals': [], 'tags': [], 'has_ai': False,
                 'ai_shard': None, 'difficulty': '', 'summary': '', 'analysed_at': ''})
             a = ai['analysis']
@@ -320,6 +413,32 @@ def build(root: Path = ROOT) -> dict:
             record['difficulty'] = str((a.get('difficulty_ko') or {}).get('level') or '')
             record['summary'] = str(a.get('summary_ko') or '')[:240]
             record['analysed_at'] = ai.get('analysed_at') or ''
+
+    if bad_shards:
+        raise RuntimeError(f'AI 샤드 읽기 실패: {", ".join(bad_shards)}. 기존 연구실 JSON 보존.')
+    previous_index = data / 'lab/index.json'
+    if previous_index.exists():
+        try:
+            prior = json_read(previous_index)
+            previous_ai_count = int(prior.get('ai_count') or 0)
+            old_keys={r.get('app_key') for r in prior.get('items',[]) if r.get('has_ai')}
+        except (OSError, ValueError, TypeError):
+            previous_ai_count = 0
+            old_keys = set()
+        missing_keys=old_keys-{r['app_key'] for r in records.values() if r['has_ai']}
+        if missing_keys:
+            raise RuntimeError(f'이전 AI 분석 {len(missing_keys)}건 누락: 샤드 또는 데이터 무결성을 확인하세요. 기존 JSON 보존.')
+        if ai_total < previous_ai_count:
+            raise RuntimeError(f'AI 레코드 {previous_ai_count}→{ai_total} 감소: 샤드 누락/손상을 확인하세요. 이전 연구실 JSON 보존.')
+
+    # Canonical Apple metadata can fill historical/AI-only entries too. This is
+    # read-only and only accepts Apple release_date previously collected.
+    if apps_file.exists():
+        with apps_file.open(encoding='utf-8-sig', newline='') as stream:
+            for row in csv.DictReader(stream):
+                rec = records.get(row.get('app_key'))
+                if rec is not None and not rec.get('release_date'):
+                    rec['release_date'] = verified_apple_release(rec['source'], row.get('release_date'), day)
 
     # Itch feeds are not ranked charts: retain observation date, feed and position verbatim.
     indie_history: dict[str, list[dict]] = defaultdict(list)
@@ -348,8 +467,11 @@ def build(root: Path = ROOT) -> dict:
                'items': sorted(records.values(), key=lambda r: (not bool(r['observations']), r['name'].casefold(), r['app_key']))}
     lab_dir = data / 'lab'
     lab_dir.mkdir(exist_ok=True)
-    (lab_dir / 'index.json').write_text(json.dumps(results, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
-    (lab_dir / 'indie_history.json').write_text(json.dumps(indie_history, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    # Replace only fully written files; interrupted builds must not truncate live JSON.
+    for filename, payload in [('index.json', results), ('indie_history.json', indie_history)]:
+        temporary = lab_dir / (filename + '.tmp')
+        temporary.write_text(json.dumps(payload, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+        temporary.replace(lab_dir / filename)
     print(f'[lab] {day} / entries {len(records)} / AI {ai_total} / indie history {len(indie_history)}')
     return {'entries': len(records), 'ai_count': ai_total, 'indie_history': len(indie_history)}
 

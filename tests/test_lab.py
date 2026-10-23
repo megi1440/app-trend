@@ -142,5 +142,96 @@ class LabIndexTests(unittest.TestCase):
             indie=json.loads((root/'data/lab/indie_history.json').read_text('utf-8'))
             self.assertEqual(indie['itch:game'][0]['position'],2)
 
+    def test_previous_chart_departures_remain_real_90_day_candidates(self):
+        with tempfile.TemporaryDirectory() as path:
+            root=Path(path)
+            put_json(root/'data/web/latest.json', {'data_date':'2026-10-23','groups':[
+              {'source':'google','country':'US','chart':'top_free','category':'game_puzzle',
+               'data_date':'2026-10-23','is_stale':False,'items':[
+                {'app_key':'google:current','name':'Current','kind':'game','rank':2}]}]})
+            put_json(root/'data/web/trends.json', {'candidates':[]})
+            put_csv(root/'data/apps.csv', ['app_key','source','kind','detail_url','first_seen','primary_category'],[
+              {'app_key':'google:old','source':'google','kind':'game','detail_url':'https://example.org/old',
+               'first_seen':'2026-10-01','primary_category':'게임'}])
+            put_csv(root/'data/app_locales.csv',['app_key','country','name'],[
+              {'app_key':'google:old','country':'JP','name':'지난달 게임'}])
+            columns=['date','source','country','chart','category','rank','app_key']
+            put_csv(root/'data/rankings/2026/10/2026-10-10.csv',columns,[
+              {'date':'2026-10-10','source':'google','country':'JP','chart':'top_free',
+               'category':'game_puzzle','rank':9,'app_key':'google:old'}])
+            # Data outside 90 days is not treated as a current candidate.
+            put_csv(root/'data/rankings/2026/06/2026-06-01.csv',columns,[
+              {'date':'2026-06-01','source':'google','country':'JP','chart':'top_free',
+               'category':'game_puzzle','rank':1,'app_key':'google:too-old'}])
+            mod.build(root)
+            data=json.loads((root/'data/lab/index.json').read_text(encoding='utf-8'))
+            by_key={x['app_key']:x for x in data['items']}
+            self.assertEqual(by_key['google:old']['name'],'지난달 게임')
+            self.assertTrue(by_key['google:old']['observations'][0]['historical'])
+            self.assertEqual(by_key['google:old']['observations'][0]['date'],'2026-10-10')
+            self.assertEqual(by_key['google:old']['observations'][0]['rank'],9)
+            self.assertNotIn('google:too-old',by_key)
+            self.assertNotIn('historical',by_key['google:current']['observations'][0])
+
+    def test_tag_classification_does_not_match_style_as_tile(self):
+        self.assertNotEqual(mod.feature_family('스타일별 상품 추천'),'퍼즐·규칙·카드')
+        self.assertEqual(mod.feature_family('타일 배치'),'퍼즐·규칙·카드')
+
+    def test_ai_shard_loss_preserves_last_published_index(self):
+        with tempfile.TemporaryDirectory() as path:
+            root=Path(path)
+            put_json(root/'data/web/latest.json', {'data_date':'2026-10-23','groups':[]})
+            put_json(root/'data/web/trends.json',{'candidates':[]})
+            original={'schema_version':1,'ai_count':5,'items':[]}
+            put_json(root/'data/lab/index.json',original)
+            put_json(root/'data/ai/items/00.json',{'items':{}})
+            with self.assertRaisesRegex(RuntimeError,'AI 레코드'):
+                mod.build(root)
+            self.assertEqual(json.loads((root/'data/lab/index.json').read_text('utf-8')),original)
+
+    def test_only_verified_apple_release_is_publishable(self):
+        self.assertEqual(mod.verified_apple_release('apple','2026-10-01','2026-10-23'),'2026-10-01')
+        self.assertEqual(mod.verified_apple_release('google','2026-10-01','2026-10-23'),'')
+        self.assertEqual(mod.verified_apple_release('itch','2026-10-01','2026-10-23'),'')
+        for value in ('', '2026-13-01', '2026-10-24', '2026-10-01T00:00:00Z', '2026-10-01 (업데이트)'):
+            self.assertEqual(mod.verified_apple_release('apple',value,'2026-10-23'),'')
+
+    def test_release_dates_are_forwarded_only_for_apple_and_historical_apple(self):
+        with tempfile.TemporaryDirectory() as path:
+            root=Path(path)
+            put_json(root/'data/web/latest.json',{'data_date':'2026-10-23','groups':[
+                {'source':'apple','country':'KR','chart':'top_free','category':'all_apps','data_date':'2026-10-23','items':[
+                    {'app_key':'apple:latest','name':'Apple Latest','release_date':'2026-10-03','rank':4,'kind':'app'}]},
+                {'source':'google','country':'US','chart':'top_free','category':'game_puzzle','data_date':'2026-10-23','items':[
+                    {'app_key':'google:com.fake','name':'Google','release_date':'2026-10-05','rank':2,'kind':'game'}]},
+                {'source':'itch','country':'GLOBAL','feed':'new','data_date':'2026-10-23','items':[
+                    {'app_key':'itch:fake','name':'itch','release_date':'2026-10-10','position':1,'kind':'game'}]}
+            ]})
+            put_json(root/'data/web/trends.json',{'candidates':[]})
+            put_csv(root/'data/apps.csv',['app_key','source','kind','first_seen','release_date'],[
+                {'app_key':'apple:latest','source':'apple','kind':'app','release_date':'2026-10-03'},
+                {'app_key':'apple:old','source':'apple','kind':'game','release_date':'2026-09-10'},
+                {'app_key':'google:com.fake','source':'google','kind':'game','release_date':'2026-10-05'}])
+            put_csv(root/'data/rankings/2026/10/2026-10-10.csv',
+                    ['date','source','country','chart','category','rank','app_key'],[
+                {'date':'2026-10-10','source':'apple','country':'KR','chart':'top_free','category':'all_games',
+                 'rank':18,'app_key':'apple:old'}])
+            mod.build(root)
+            rows={i['app_key']:i for i in json.loads((root/'data/lab/index.json').read_text('utf-8'))['items']}
+            self.assertEqual(rows['apple:latest']['release_date'],'2026-10-03')
+            self.assertEqual(rows['apple:old']['release_date'],'2026-09-10')
+            self.assertEqual(rows['google:com.fake']['release_date'],'')
+            self.assertEqual(rows['itch:fake']['release_date'],'')
+
+    def test_sentence_fragments_are_not_feature_names(self):
+        candidate=mod.features_to_tags({'features_ko':[
+            '웹사이트 전체를 클릭 한 번으로 번역하는 기능을 제공합니다.',
+            '음성으로 노래를 흥얼거려 곡명을 찾는 기능을 제공합니다.']})
+        self.assertNotIn('웹사이트 전체를 클릭 한 번으로 번역하는',candidate)
+        self.assertNotIn('음성으로 노래를 흥얼거려 곡명을 찾는',candidate)
+        # Concrete emerging systems remain searchable without fixed allow-list.
+        self.assertIn('신규 홀로그램 장치 구성',mod.features_to_tags({'systems_ko':['신규 홀로그램 장치 구성 시스템']}))
+
+
 if __name__ == '__main__':
     unittest.main()
