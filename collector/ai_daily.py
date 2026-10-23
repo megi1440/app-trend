@@ -11,8 +11,10 @@ import datetime as dt
 import hashlib
 import json
 import math
+import re
 import sys
 import time
+import traceback
 from pathlib import Path
 
 import ai_probe
@@ -34,6 +36,25 @@ MAX_DAY_APPS = 60
 MAX_BATCH_SIZE = 5
 MIN_DESCRIPTION = 40
 KST = dt.timezone(dt.timedelta(hours=9))
+
+
+def safe_error_diagnostic(exc: Exception, api_key: str = '') -> str:
+    """Log the failure reason and Python location, without raw Gemini data/secrets."""
+    message = str(exc) or '(오류 메시지 없음)'
+    if api_key:
+        message = message.replace(api_key, '[REDACTED]')
+    message = re.sub(r'AIza[0-9A-Za-z_-]{15,}', '[REDACTED]', message)
+    message = re.sub(r'(?i)\b(?:api[_-]?key|key|token|authorization)\s*[=:]\s*[^\s&]+',
+                     'credential=[REDACTED]', message)
+    message = re.sub(r'(?i)https?://\S+', '[URL]', message)
+    message = ' '.join(message.split())[:240]
+    frames = traceback.extract_tb(exc.__traceback__)
+    if frames:
+        origin = frames[-1]
+        location = f'{Path(origin.filename).name}:{origin.lineno} {origin.name}()'
+    else:
+        location = '위치 정보 없음'
+    return f'{type(exc).__name__}: {message} | 위치: {location}'
 
 
 def analysed_on_day(existing: dict, day: str) -> int:
@@ -424,6 +445,8 @@ def run(root: Path, *, snapshot: dict, trends: dict, api_key: str = '',
             result['stopped_by_error'] = code[:100]
             result['failures'].append({'reason': code[:100], 'batch_size': len(selected)})
             print(f'[AI] 실패: {code}. 이전 성공 결과는 보존합니다.')
+            print(f'[AI] 오류 상세: {safe_error_diagnostic(exc, api_key)}',
+                  file=sys.stderr, flush=True)
             return False
 
     for row in queue:
@@ -495,8 +518,8 @@ def main() -> int:
                 return 2
         return 0
     except Exception as exc:
-        # Never print API key or raw external text in errors.
-        print(f'[ERROR] {type(exc).__name__}', file=sys.stderr)
+        # Never print API keys or raw external response bodies in logs.
+        print(f'[ERROR] {safe_error_diagnostic(exc)}', file=sys.stderr, flush=True)
         return 2
 
 

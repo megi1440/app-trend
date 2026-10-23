@@ -1,4 +1,6 @@
 """Offline V3 tests: no API, no real store network, and no real repo data writes."""
+from contextlib import redirect_stderr
+from io import StringIO
 import json
 import sys
 import unittest
@@ -250,6 +252,41 @@ class DailyTests(unittest.TestCase):
             self.assertEqual(report['analysed'], 0)
             self.assertEqual(report['stopped_by_error'], 'ValueError')
             self.assertEqual(len(ai_daily.load_records(home)), 0)
+
+    def test_batch_diagnostic_identifies_actual_validation_reason_and_location(self):
+        with TemporaryDirectory() as td:
+            log = StringIO()
+            def mismatched(payload, key):
+                return {'items': [sample_detailed_result('google:wrong')]}, {}
+            with redirect_stderr(log):
+                report = ai_daily.run(Path(td), snapshot=snapshot(), trends={},
+                                      api_key='FAKE_SECRET', live=True, limit=5,
+                                      fetch=lambda i:'Long enough store description. '*2,
+                                      invoke=mismatched, pause=lambda sec:None)
+            output = log.getvalue()
+            self.assertEqual(report['stopped_by_error'], 'ValueError')
+            self.assertIn('ValueError: AI_RESPONSE_MISMATCHED_ID', output)
+            self.assertIn('ai_probe.py:', output)
+            self.assertIn('verify_result()', output)
+            self.assertNotIn('FAKE_SECRET', output)
+            self.assertEqual(len(ai_daily.load_records(Path(td))), 0)
+
+    def test_batch_diagnostic_masks_api_key_without_persisting_raw_error(self):
+        with TemporaryDirectory() as td:
+            log = StringIO()
+            def invalid(payload, key):
+                raise ValueError('TEST_FAILURE key=abc123 FAKE_SECRET')
+            with redirect_stderr(log):
+                report = ai_daily.run(Path(td), snapshot=snapshot(), trends={},
+                                      api_key='FAKE_SECRET', live=True, limit=5,
+                                      fetch=lambda i:'Long enough store description. '*2,
+                                      invoke=invalid, pause=lambda sec:None)
+            self.assertIn('TEST_FAILURE', log.getvalue())
+            self.assertIn('credential=[REDACTED]', log.getvalue())
+            self.assertNotIn('FAKE_SECRET', log.getvalue())
+            self.assertNotIn('abc123', log.getvalue())
+            self.assertEqual(report['failures'][0]['reason'], 'ValueError')
+            self.assertEqual(len(ai_daily.load_records(Path(td))), 0)
 
     def test_later_batch_error_keeps_earlier_batch(self):
         with TemporaryDirectory() as td:
