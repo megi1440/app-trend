@@ -22,10 +22,18 @@ class SiteBuildTests(unittest.TestCase):
             (root/'web').mkdir()
             (root/'web/index.html').write_text('<link href="./css/main.css"><script src="./js/app.js"></script>', encoding='utf-8')
             (root/'data/web').mkdir(parents=True)
-            for file, obj in {'latest.json':{'data_date':'2026-10-22','groups':[]},'trends.json':{'candidates':[]},'status.json':{'groups':[]}}.items():
+            for file, obj in {'latest.json':{'data_date':'2026-10-22','groups':[{'source':'google','country':'US','chart':'top_free','category':'game_puzzle','data_date':'2026-10-22','is_stale':False,'items':[{'app_key':'google:xyz','rank':9}]}]},'trends.json':{'candidates':[]},'status.json':{'groups':[]}}.items():
                 (root/'data/web'/file).write_text(json.dumps(obj), encoding='utf-8')
+            # Only same-store/country/chart/category adjacent observations are comparable.
+            previous = root/'data/rankings/2026/10/2026-10-21.csv'
+            previous.parent.mkdir(parents=True)
+            with previous.open('w', encoding='utf-8-sig', newline='') as out:
+                writer = csv.DictWriter(out, fieldnames=['date','source','country','chart','category','rank','app_key'])
+                writer.writeheader()
+                writer.writerow({'date':'2026-10-21','source':'google','country':'US','chart':'top_free','category':'game_puzzle','rank':14,'app_key':'google:xyz'})
+                writer.writerow({'date':'2026-10-21','source':'google','country':'JP','chart':'top_free','category':'game_puzzle','rank':2,'app_key':'google:xyz'})
             file = root/'data/rankings/2026/10/2026-10-22.csv'
-            file.parent.mkdir(parents=True)
+            file.parent.mkdir(parents=True, exist_ok=True)
             with file.open('w',encoding='utf-8-sig',newline='') as out:
                 writer=csv.DictWriter(out,fieldnames=['date','source','country','chart','category','rank','app_key']);writer.writeheader()
                 writer.writerow({'date':'2026-10-22','source':'google','country':'US','chart':'top_free','category':'game_puzzle','rank':9,'app_key':'google:xyz'})
@@ -36,15 +44,24 @@ class SiteBuildTests(unittest.TestCase):
             manifest=json.loads((root/'web/exports/manifest.json').read_text('utf-8'))
             self.assertIn('app_trends_7d',manifest['files'])
             hist=json.loads((root/'web/data/history'/f'{mod.shard_for_key("google:xyz")}.json').read_text('utf-8'))
-            self.assertEqual(hist['google:xyz'][0]['rank'],9)
+            self.assertEqual(hist['google:xyz'][-1]['rank'],9)
             self.assertFalse((root/'web/docs').exists())
             # The branch-based Pages root opens directly at /app-trend/.
             home=(root/'index.html').read_text('utf-8')
             self.assertIn('href="./web/css/main.css"', home)
             self.assertIn('src="./web/js/app.js"', home)
             self.assertEqual(json.loads((root/'data/latest.json').read_text('utf-8'))['data_date'], '2026-10-22')
-            self.assertEqual(json.loads((root/'data/history'/f'{mod.shard_for_key("google:xyz")}.json').read_text('utf-8'))['google:xyz'][0]['rank'],9)
+            self.assertEqual(json.loads((root/'data/history'/f'{mod.shard_for_key("google:xyz")}.json').read_text('utf-8'))['google:xyz'][-1]['rank'],9)
             self.assertTrue((root/'exports/app_trends_7d.csv').is_file())
+            movements=json.loads((root/'data/movements.json').read_text('utf-8'))
+            self.assertEqual(movements['schema_version'], 1)
+            self.assertEqual(movements['data_date'], '2026-10-22')
+            exact=movements['movements']['google:xyz|google|US|top_free|game_puzzle']
+            self.assertEqual(exact['before_rank'], 14)
+            self.assertEqual(exact['after_rank'], 9)
+            self.assertEqual(exact['change'], 5)
+            self.assertEqual(exact['gap_days'], 1)
+            self.assertEqual(json.loads((root/'web/data/movements.json').read_text('utf-8')), movements)
             self.assertTrue((root/'exports/manifest.json').is_file())
             self.assertTrue((root/'.nojekyll').is_file())
 

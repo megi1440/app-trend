@@ -300,3 +300,54 @@ button.lab-feature-tag:not(.is-selected) .lab-feature-count{color:var(--lab-tone
 .lab-ai-quick-grid .lab-ai-list li+li{margin-top:4px}
 .lab-ai-quick-grid .lab-ai-paragraph{font-size:12px;line-height:1.6}
 @media(max-width:760px){.lab-ai-quick-grid{grid-template-columns:1fr}.lab-feature-export-toolbar .button{flex:1 1 auto}}
+
+/* Final UI pass — common controls and safe wrapping at narrow widths. */
+.lab-tabs a{display:inline-flex;align-items:center;min-height:44px}
+.lab-filter-panel,.lab-feature-tools,.lab-feature-export-toolbar,.lab-analysis-toolbar,.lab-export-options,.lab-export-summary{min-width:0}
+.lab-field .field-select,.lab-analysis-toolbar input,.lab-analysis-toolbar select{min-width:0;width:100%}
+.lab-card,.lab-ai-detail,.lab-feature-card,.lab-export-item,.lab-compare-title{overflow-wrap:anywhere}
+.lab-actions .button,.lab-feature-family-more,.lab-feature-families-toggle,.lab-tag,.lab-export-browse-toggle{min-height:36px}
+.lab-feature-family-pick,.lab-feature-family-row .lab-feature-family-toggle{min-height:48px}
+.lab-observation{min-width:0}
+.lab-feature-insights-toggle,.lab-feature-families-toggle{min-width:0}
+.lab-ai-paragraph,.lab-ai-list,.lab-reason,.lab-disclaimer{overflow-wrap:anywhere}
+@media(max-width:850px){
+  .lab-analysis-list{max-height:290px}
+  .lab-compare-row{grid-template-columns:1fr}
+}
+@media(max-width:600px){
+  .lab-hero{padding:18px}
+  .lab-hero h1{font-size:23px}
+  .lab-hero-stats{min-width:0}
+  .lab-hero-stats>div{min-width:0;padding:10px 4px}
+  .lab-hero-stats strong{font-size:16px}
+  .lab-hero-stats span{font-size:10px;overflow-wrap:anywhere}
+  .lab-tabs{margin-bottom:18px;scroll-snap-type:x proximity}
+  .lab-tabs a{scroll-snap-align:start;min-height:44px;padding:10px 13px}
+  .lab-filter-panel,.lab-feature-tools,.lab-analysis-toolbar,.lab-export-options,.lab-export-summary,.lab-ai-detail{padding:14px}
+  .lab-analysis-toolbar{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+  .lab-analysis-toolbar .lab-search-label{grid-column:1/-1}
+  .lab-analysis-layout{grid-template-columns:minmax(0,1fr)}
+  .lab-card-grid,.lab-feature-families,.lab-export-layout{grid-template-columns:minmax(0,1fr)}
+  .lab-card{padding:14px}
+  .lab-actions{gap:7px}
+  .lab-actions .button{white-space:normal;text-align:center}
+  .lab-observation{gap:6px;flex-wrap:wrap}
+  .lab-observation span{white-space:normal;min-width:0}
+  .lab-feature-family-row{min-width:0}
+  .lab-feature-family-pick strong{overflow-wrap:anywhere}
+  .lab-family-count{white-space:normal}
+  .lab-feature-family-row .lab-feature-family-toggle{min-width:66px;padding:8px}
+  .lab-feature-insights-toggle{min-height:64px}
+  .lab-export-buttons{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .lab-export-buttons .button{white-space:normal;overflow-wrap:anywhere}
+  .lab-export-tray-content{max-width:calc(100vw - 30px)}
+  .lab-export-browse-row{min-width:0}
+}
+@media(max-width:370px){
+  .lab-analysis-toolbar{grid-template-columns:minmax(0,1fr)}
+  .lab-analysis-toolbar .lab-search-label{grid-column:auto}
+  .lab-feature-family-row .lab-feature-family-toggle{min-width:62px}
+  .lab-export-buttons{grid-template-columns:minmax(0,1fr)}
+  .lab-export-buttons .button:last-child{grid-column:auto}
+}

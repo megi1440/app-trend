@@ -22,7 +22,7 @@ async function readJSON(url) {
   if (!response.ok) throw new Error(`${url} 요청 실패 (${response.status})`);
   return response.json();
 }
-export const store = { latest:null, trends:null, status:null, groups:[], appMap:new Map(), refs:new Map(), candidates:new Map() };
+export const store = { latest:null, trends:null, status:null, groups:[], appMap:new Map(), refs:new Map(), candidates:new Map(), movements:null };
 export async function loadSnapshot() {
   const [latest, trends, status] = await Promise.all([
     readJSON('./data/latest.json'), readJSON('./data/trends.json'), readJSON('./data/status.json')
@@ -30,7 +30,14 @@ export async function loadSnapshot() {
   assertSchema('latest', latest, 'groups');
   assertSchema('trends', trends, 'candidates');
   assertSchema('status', status, 'groups');
-  Object.assign(store, {latest, trends, status, groups:latest.groups, appMap:new Map(), refs:new Map(), candidates:new Map()});
+  // An older deployment may not have the derived file yet. Use the existing
+  // trend evidence as a fallback until the next normal site build publishes it.
+  let movements=null;
+  try {
+    const loaded=await readJSON('./data/movements.json');
+    if(loaded?.schema_version===1 && loaded.data_date===latest.data_date && loaded.movements && typeof loaded.movements==='object' && !Array.isArray(loaded.movements)) movements=loaded.movements;
+  } catch {} // Optional generated index; never block core ranking tables.
+  Object.assign(store, {latest, trends, status, groups:latest.groups, appMap:new Map(), refs:new Map(), candidates:new Map(), movements});
   for (const group of latest.groups) {
     for (const item of (group.items || [])) {
       if (!store.appMap.has(item.app_key) || (!store.appMap.get(item.app_key).description && item.description)) {
@@ -68,19 +75,33 @@ export function formatDate(s) {
 }
 export function detailsHref(key, context={}) {
   const params=new URLSearchParams();
-  for(const k of ['country','source','category','chart']) if (context[k]) params.set(k,context[k]);
+  for(const k of ['country','source','category','chart','from','labtab']) if (context[k]) params.set(k,context[k]);
   return `#/detail/${encodeURIComponent(key)}${String(params)?'?'+params:''}`;
 }
 export function candidateFor(key, group) {
   const list=store.candidates.get(key)||[];
-  return list.find(c => c.reason_code==='rising_7d' && (!group || (c.evidence?.source===group.source && c.evidence?.country===group.country && c.evidence?.chart===group.chart && c.evidence?.category===group.category))) ||
-         list.find(c=>c.reason_code==='multi_country') || list.find(c=>c.reason_code==='overseas_interest') || list[0] || null;
+  const e=c=>c.evidence||{};
+  const matching=c=>!group || (
+    (!e(c).source||e(c).source===group.source) &&
+    (!e(c).chart||e(c).chart===group.chart) &&
+    (!e(c).category||e(c).category===group.category) &&
+    (!e(c).country||e(c).country===group.country) &&
+    (!Array.isArray(e(c).countries)||e(c).countries.includes(group.country)) &&
+    (!e(c).feed||e(c).feed===group.feed)
+  );
+  // Avoid attributing a JP/game rank change to a KR/app detail page.
+  return list.find(c=>c.reason_code==='rising_7d' && matching(c)) ||
+         list.find(c=>c.reason_code==='multi_country' && matching(c)) ||
+         list.find(c=>c.reason_code==='consistent_30d' && matching(c)) ||
+         list.find(c=>c.reason_code==='overseas_interest' && matching(c)) ||
+         list.find(c=>c.reason_code==='indie_discovery' && matching(c)) ||
+         list.find(c=>c.reason_code==='newly_seen') || null;
 }
 export function candidateSentence(c) {
   if (!c) return '원본 페이지에서 기능과 특징을 살펴볼 수 있습니다.';
   const e = c.evidence || {};
   switch(c.reason_code) {
-    case 'rising_7d': return `${COUNTRY_LABEL[e.country]||e.country} ${SOURCE_LABEL[e.source]||e.source} · ${CATEGORY_LABEL[e.category]||e.category} 차트에서 7일간 ${e.before_rank}위 → ${e.after_rank}위로 상승했습니다.`;
+    case 'rising_7d': return `${COUNTRY_LABEL[e.country]||e.country} ${SOURCE_LABEL[e.source]||e.source} · ${CATEGORY_LABEL[e.category]||e.category} 차트에서 ${formatDate(e.before_date)} ${e.before_rank}위 → ${formatDate(e.after_date)} ${e.after_rank}위로 상승한 것이 관측됐습니다.`;
     case 'multi_country': return `같은 스토어·차트에서 ${(e.countries||[]).map(k=>COUNTRY_LABEL[k]||k).join(', ')}에 등장했습니다.`;
     case 'consistent_30d': return `최근 30일 중 실제 수집된 ${e.observed_days}일 동안 차트에 등장했습니다.`;
     case 'overseas_interest': return `${COUNTRY_LABEL[e.country]||e.country} ${SOURCE_LABEL[e.source]||e.source} · ${CATEGORY_LABEL[e.category]||e.category} ${e.rank}위에서 발견했습니다.`;
@@ -91,7 +112,8 @@ export function candidateSentence(c) {
 }
 export async function loadHistory(key) {
   const bucket = Array.from(new TextEncoder().encode(key)).reduce((a,v)=>a+v,0)%16;
-  try { return (await readJSON(`./data/history/${bucket}.json`))[key] || []; }
-  catch { return []; }
+  const history=await readJSON(`./data/history/${bucket}.json`);
+  if(!history || typeof history!=='object' || Array.isArray(history))throw new Error('순위 기록 JSON 형식 오류');
+  return Array.isArray(history[key]) ? history[key] : [];
 }
 export async function loadExportManifest() { return readJSON('./exports/manifest.json'); }

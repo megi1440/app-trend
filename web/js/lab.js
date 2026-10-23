@@ -56,6 +56,10 @@ function loadAI(key){
   return retryable;
 }
 const names=(arr)=>arr.map(x=>x.name);
+function labDetailHref(key){
+ const tab=(typeof location!=='undefined'?location.hash.match(/^#\/lab\/(radar|features|analysis|compare|export)/)?.[1]:null)||'radar';
+ return detailsHref(key,{from:'lab',labtab:tab});
+}
 const labelSource=s=>SOURCE_LABEL[s]||s||'출처 없음';
 const labelCountry=s=>COUNTRY_LABEL[s]||s||'국가 없음';
 const labelCategory=s=>CATEGORY_LABEL[s]||FEED_LABEL[s]||s||'전체';
@@ -182,14 +186,14 @@ function miniObs(item, radarContext=false){
 }
 function actions(item,analysis=true){
   const key=attr(item.app_key),fav=hasFavorite(item.app_key);
-  return `<div class="lab-actions"><a class="button ghost small" href="${attr(detailsHref(item.app_key))}">상세</a>${analysis&&item.has_ai?`<a class="button ghost small" href="#/lab/analysis?app=${encodeURIComponent(item.app_key)}">개발 분석</a>`:''}<button class="button outline-blue small" data-lab-action="toggle-compare" data-key="${key}">${chosen.includes(item.app_key)?'✓ 비교 선택됨':'+ 비교'}</button><button class="button ghost small" data-lab-action="favorite" data-key="${key}" aria-label="관심 목록 ${fav?'해제':'추가'}">${fav?'★':'☆'} 관심</button></div>`;
+  return `<div class="lab-actions"><a class="button ghost small" href="${attr(labDetailHref(item.app_key))}">상세</a>${analysis&&item.has_ai?`<a class="button ghost small" href="#/lab/analysis?app=${encodeURIComponent(item.app_key)}">개발 분석</a>`:''}<button class="button outline-blue small" data-lab-action="toggle-compare" data-key="${key}">${chosen.includes(item.app_key)?'✓ 비교 선택됨':'+ 비교'}</button><button class="button ghost small" data-lab-action="favorite" data-key="${key}" aria-label="관심 목록 ${fav?'해제':'추가'}">${fav?'★':'☆'} 관심</button></div>`;
 }
 function card(item){
   const observations=scopedObs(item),o=observations.find(x=>!x.stale&&!x.historical)||observations[0];
   const s=reason(item);
   const descriptor=item.description||item.summary||'';
   const released=confirmedRelease(item);
-  return `<article class="panel lab-card"><div class="lab-card-head">${icon(item)}<div class="lab-card-id"><a class="lab-name" href="${attr(detailsHref(item.app_key))}">${esc(item.name||item.app_key)}</a><div class="small-copy">${esc(labelSource(item.source))} · ${esc(item.category||item.kind||'분류 정보 없음')}</div></div>${badge(item.has_ai?'AI 분석 있음':'미분석',item.has_ai?'green':'')}${released?badge(`Apple 출시 ${formatDate(released)}`,'blue'):''}</div>
+  return `<article class="panel lab-card"><div class="lab-card-head">${icon(item)}<div class="lab-card-id"><a class="lab-name" href="${attr(labDetailHref(item.app_key))}">${esc(item.name||item.app_key)}</a><div class="small-copy">${esc(labelSource(item.source))} · ${esc(item.category||item.kind||'분류 정보 없음')}</div></div>${badge(item.has_ai?'AI 분석 있음':'미분석',item.has_ai?'green':'')}${released?badge(`Apple 출시 ${formatDate(released)}`,'blue'):''}</div>
     <div class="lab-observations">${miniObs(item,true)}</div>
     ${s?`<p class="lab-reason"><strong>${esc(sigLabel(s.reason_code))}</strong> · ${esc(signalText(s))}</p>`:`<p class="lab-reason muted">${o?.historical?'선택 기간의 과거 관측 기록입니다. 현재 순위를 뜻하지 않습니다.':o?.stale?'마지막 정상 수집 기록입니다. 최신 순위로 표시하지 않습니다.':o?'현재 확인된 차트 관측 기록입니다.':'최근 관측 정보가 부족합니다.'}</p>`}
     ${descriptor?`<p class="lab-summary">${esc(descriptor.slice(0,175))}${descriptor.length>175?'…':''}</p>`:''}
@@ -414,7 +418,7 @@ function exportTrayContents(){
  const keys=manualExportKeys();
  return `${keys.length?`<div class="lab-export-tray-list" role="list">${keys.map(key=>{
   const item=index.map.get(key);
-  return `<div class="lab-export-tray-item" role="listitem"><a href="${item.has_ai?`#/lab/analysis?app=${encodeURIComponent(key)}`:attr(detailsHref(key))}" title="${attr(item.name||key)} 상세 보기">${icon(item)}<span>${esc(item.name||key)}<small>${esc(labelSource(item.source))}${item.has_ai?' · AI 분석 있음':' · 미분석'}</small></span></a><button type="button" data-lab-action="toggle-export" data-key="${attr(key)}" aria-label="${attr(item.name||key)} 내보내기 해제">×</button></div>`;
+  return `<div class="lab-export-tray-item" role="listitem"><a href="${item.has_ai?`#/lab/analysis?app=${encodeURIComponent(key)}`:attr(labDetailHref(key))}" title="${attr(item.name||key)} 상세 보기">${icon(item)}<span>${esc(item.name||key)}<small>${esc(labelSource(item.source))}${item.has_ai?' · AI 분석 있음':' · 미분석'}</small></span></a><button type="button" data-lab-action="toggle-export" data-key="${attr(key)}" aria-label="${attr(item.name||key)} 내보내기 해제">×</button></div>`;
  }).join('')}</div>`:'<p class="small-copy">담은 후보가 없습니다. 분석 상세의 「+ 내보내기 담기」를 눌러 주세요.</p>'}
  <div class="lab-export-tray-footer"><button type="button" class="button ghost small lab-export-clear" data-lab-action="clear-export-manual" ${keys.length?'':'disabled'}>담은 후보 전체 비우기</button><a class="button outline-blue small" href="#/lab/export">자료 내보내기로 이동 →</a></div>`;
 }
@@ -463,7 +467,7 @@ function analysis(tabQuery){
  const rows=analysisRows();const queryKey=tabQuery.get('app');let key=(queryKey&&index.map.get(queryKey)?.has_ai)?queryKey:ui.analysisKey;
  if(queryKey && index.map.has(queryKey) && !index.map.get(queryKey).has_ai){
    const entry=index.map.get(queryKey);
-   return `<div class="lab-section-heading"><div><h2>개발 분석</h2><p>아직 Gemini 분석이 누적되지 않은 후보입니다.</p></div></div><div class="panel lab-ai-detail"><div class="lab-card-head">${icon(entry)}<div class="lab-card-id"><h2>${esc(entry.name)}</h2><p class="small-copy">${esc(labelSource(entry.source))}</p></div></div>${empty('AI 분석 준비 전','이 앱의 분석 데이터가 아직 없습니다. 순위·수집 관측이 앱의 가치를 판단하는 점수는 아닙니다.')}<div class="lab-actions"><a class="button ghost" href="${attr(detailsHref(entry.app_key))}">수집 상세</a><a class="button outline-blue" href="#/lab/radar">발견 레이더</a></div></div>`;
+   return `<div class="lab-section-heading"><div><h2>개발 분석</h2><p>아직 Gemini 분석이 누적되지 않은 후보입니다.</p></div></div><div class="panel lab-ai-detail"><div class="lab-card-head">${icon(entry)}<div class="lab-card-id"><h2>${esc(entry.name)}</h2><p class="small-copy">${esc(labelSource(entry.source))}</p></div></div>${empty('AI 분석 준비 전','이 앱의 분석 데이터가 아직 없습니다. 순위·수집 관측이 앱의 가치를 판단하는 점수는 아닙니다.')}<div class="lab-actions"><a class="button ghost" href="${attr(labDetailHref(entry.app_key))}">수집 상세</a><a class="button outline-blue" href="#/lab/radar">발견 레이더</a></div></div>`;
  }
  if(!index.map.get(key)?.has_ai)key=rows[0]?.app_key||'';
  if(key&&!AI_CACHE.has(key))loadAI(key).catch(()=>{}); // Detail resolves in place, never jump the page after asynchronous AI loading.
@@ -840,7 +844,7 @@ export async function labAction(button){
  case 'remove-export':ui.exportKeys=manualExportKeys().filter(k=>k!==button.dataset.key);ui.exportManualInitialized=true;saveExportKeys();if(syncAnalysisExportUI())return;break;
  case 'clear-export-manual':ui.exportKeys=[];ui.exportManualInitialized=true;ui.exportMode='manual';saveExportKeys();flash('내보내기 목록을 모두 비웠습니다.');if(syncAnalysisExportUI())return;break;
  case 'toggle-compare':{
-   const key=button.dataset.key;if(!index.map.has(key))return;
+   const key=button.dataset.key;if(!index.map.has(key)){flash('현재 연구실에 없는 후보라 비교할 수 없습니다. 저장된 관심 기록은 유지됩니다.');return;}
    if(chosen.includes(key))chosen=chosen.filter(k=>k!==key);
    else if(chosen.length>=3){flash('후보 비교는 최대 3개까지 가능합니다.');return;}
    else chosen.push(key);

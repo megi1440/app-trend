@@ -1,7 +1,7 @@
 import { store, esc, attr, safeUrl, formatDate, SOURCE_LABEL, COUNTRY_LABEL, CATEGORY_LABEL,
          APP_CATEGORIES, GAME_CATEGORIES, FEED_LABEL, REASON_LABEL,
          groupsFor, detailsHref, candidateSentence, candidateFor } from './data.js';
-import { getFavorites, hasFavorite, getFavorite } from './favorites.js';
+import { getFavorites, hasFavorite, getFavorite, filterFavorites, FAVORITE_STATUSES } from './favorites.js';
 
 export const countryButtons = (selected, showAll=true) => `<div class="country-bar"><span class="tiny-label">국가</span><div class="chips">${[
     ['US','🇺🇸 미국'],['JP','🇯🇵 일본'],['KR','🇰🇷 한국'],...(showAll?[['ALL','3개국 비교']]:[])
@@ -14,104 +14,355 @@ const sourceTag=(source)=>`<span class="info-tag blue">${esc(SOURCE_LABEL[source
 const staleTag=(g)=>g.is_stale?`<span class="info-tag warn">이전 데이터 · ${formatDate(g.data_date)}</span>`:'';
 const description=(item,max=135)=>item?.description?esc(item.description.slice(0,max))+(item.description.length>max?'…':''):'원본 페이지에서 게임·앱 소개를 확인할 수 있습니다.';
 
-export function renderHome(ui) {
-  const latest=store.latest;
-  const candidates=store.trends?.candidates||[];
-  const picked=[], used=new Set();
-  // Diversify recommendation source/type; never fabricate a reason from a rank alone.
-  for (const kind of ['rising_7d','multi_country','overseas_interest','newly_seen','indie_discovery','consistent_30d']) {
-    for (const c of candidates.filter(c=>c.reason_code===kind)) {
-      if(used.has(c.app_key))continue;
-      const refs=store.refs.get(c.app_key)||[];
-      const hit=refs.find(({group})=>!group.is_stale)||refs[0];
-      if(!hit)continue;
-      picked.push({candidate:c,...hit});used.add(c.app_key);
-      if(picked.length>=6)break;
-      if(picked.filter(x=>x.candidate.reason_code===kind).length>= (kind==='overseas_interest'?3:2))break;
-    }
-    if(picked.length>=6)break;
-  }
-  const cards=picked.map(({candidate,group,item})=>`<article class="panel discovery-card">
-    <div class="card-topline"><span class="info-tag ${candidate.reason_code==='rising_7d'?'green':'blue'}">${esc(REASON_LABEL[candidate.reason_code]||'아이디어 추천')}</span>${star(item)}</div>
-    <a class="card-content" href="${attr(detailsHref(item.app_key, group))}">${icon(item)}<div style="min-width:0"><div class="card-title">${esc(item.name)}</div><div class="card-meta">${esc(SOURCE_LABEL[group.source]||group.source)} · ${esc(CATEGORY_LABEL[group.category]||FEED_LABEL[group.feed]||'게임')}</div></div></a>
-    <p class="card-note">${esc(candidateSentence(candidate))}</p><div class="card-bottom"><span class="small-copy">${group.country==='GLOBAL'?'인디':esc(COUNTRY_LABEL[group.country]||'')} · ${formatDate(group.data_date)}</span><a class="text-link" href="${attr(detailsHref(item.app_key,group))}">자세히 보기 →</a></div>
-  </article>`).join('');
-  const mini=(kind,cat)=>{
-    const country = ui.country==='ALL'?'US':ui.country;
-    const g=groupsFor({kind,country,source:'google',category:cat})[0]||groupsFor({kind,country,source:'apple',category:cat})[0];
-    if(!g || !g.items.length)return empty('표시할 순위가 없습니다.','수집 실패 또는 자료 부족일 수 있습니다.');
-    return `<div class="panel mini-list">${g.items.slice(0,6).map(item=>`<div class="mini-row"><span class="rank-number">${item.rank}</span>${icon(item)}<a title="${attr(item.name)}" href="${attr(detailsHref(item.app_key,g))}">${esc(item.name)}</a><span class="meta-side">${esc(SOURCE_LABEL[g.source])}</span></div>`).join('')}<div class="small-copy" style="padding:8px">${staleTag(g)} 데이터 ${formatDate(g.data_date)}</div></div>`;
+// App/Google chart groups are intentionally never mixed into one ranking.
+// A missing or stale collection is surfaced with its original evidence date.
+function groupCollectionStatus(group) {
+  return (store.status?.groups||[]).find(s=>s.source===group.source && s.country===group.country && s.category===group.category && s.chart===group.chart && (s.feed||null)===(group.feed||null));
+}
+function groupAvailability(group) {
+  const status=groupCollectionStatus(group);
+  if(status?.status==='skipped')return 'unsupported';
+  if(status?.status==='failed' && !(group.items||[]).length)return 'failed';
+  if(group.is_stale && (group.items||[]).length)return 'previous';
+  if(!(group.items||[]).length)return 'empty';
+  return 'current';
+}
+const availabilityMessage=(state)=>state==='unsupported'?'수집 설정상 미지원':state==='failed'?'최근 요청 실패':state==='previous'?'이전 정상 기록':state==='empty'?'관측 자료 없음':'최신 관측';
+
+// Home highlights are based on independently verified observations, never a
+// combined popularity score. Each rank change belongs to one exact chart.
+export function homeCandidates(kind, country='US') {
+  const chosen=[], used=new Set();
+  const matchesKind=g=>g.source!=='itch' && (kind==='game'?g.category==='all_games':g.category==='all_apps');
+  const relevant=store.groups.filter(g=>matchesKind(g) && g.chart==='top_free' &&
+    (country==='ALL'||g.country===country) && !g.is_stale && g.data_date===store.latest?.data_date);
+  const add=(row)=>{
+    if(!row || used.has(row.item.app_key))return false;
+    used.add(row.item.app_key);chosen.push(row);return true;
   };
-  const indie=(store.groups.find(g=>g.source==='itch' && g.feed==='featured')||{items:[]}).items.slice(0,4);
-  return `<section class="hero"><div><p class="eyebrow">YOUR IDEA SPOT</p><h1>요즘 눈여겨볼 앱과 게임</h1><p class="subtext">미국·일본·한국의 인기 흐름을 살펴보고, 다음에 만들 아이디어를 찾아보세요.<br>기록은 매일 자동으로 쌓입니다. 현재 기준 ${formatDate(latest?.data_date)}.</p></div><div class="hero-decor" aria-hidden="true">✧</div></section>
-    <div class="section-heading"><div><h2>✨ 아이디어 추천</h2><p>실제로 수집된 순위와 발견 기록을 기반으로 골랐습니다.</p></div></div>
-    <section class="three-cards">${cards||empty('추천 데이터가 아직 없습니다.','수집된 앱·게임이 늘어나면 이곳에 표시합니다.')}</section>
-    <div class="section-heading"><div><h2>🔎 인기 순위 빠르게 보기</h2><p>국가를 바꾸면 아래 목록도 함께 바뀝니다.</p></div>${countryButtons(ui.country)}</div>
-    <section class="home-two"><div><div class="section-heading"><h2>📱 인기 앱</h2><a class="text-link" href="#/apps">앱 탐색 →</a></div>${mini('app','all_apps')}</div><div><div class="section-heading"><h2>🎮 인기 게임</h2><a class="text-link" href="#/games">게임 탐색 →</a></div>${mini('game','all_games')}</div></section>
-    <div class="section-heading"><div><h2>💡 인디에서 발견</h2><p>인기 차트와는 별개로, 새로운 게임 아이디어를 살펴보세요.</p></div><a class="text-link" href="#/indie">인디 더 보기 →</a></div>
-    <section class="indie-grid">${indie.map(item=>indieCard(item,'featured')).join('')||empty()}</section>
-    <p class="small-copy" style="margin-top:25px">※ '처음 발견'은 이 사이트가 수집한 최초 날짜이며 신규 출시를 의미하지 않습니다. 순위만으로 인기 원인이나 개발 난이도를 판단하지 않습니다.</p>`;
+  // Use actual before/after ranks from the derived movement index. One app
+  // shown in two countries is still only one home candidate.
+  const rising=[];
+  for(const group of relevant)for(const item of (group.items||[])){
+    const evidence=chartMovementEvidence(item,group);
+    if(!evidence || Number(evidence.change)<=0)continue;
+    rising.push({item,group,candidate:{app_key:item.app_key,reason_code:'rising_7d',evidence}});
+  }
+  rising.sort((a,b)=>Number(b.candidate.evidence.change)-Number(a.candidate.evidence.change)||
+    Number(a.item.rank)-Number(b.item.rank)||a.item.app_key.localeCompare(b.item.app_key));
+  // Prefer showing both platforms when records exist, rather than repeating
+  // a single store. All rank changes remain explicitly chart-local.
+  if(rising.length){
+    add(rising[0]);
+    add(rising.find(x=>x.group.source!==chosen[0].group.source && !used.has(x.item.app_key))||
+      rising.find(x=>!used.has(x.item.app_key)));
+  }
+  // Reserve room for an actually first-observed app when one exists. "First
+  // observed" must not be presented as a verified store release date.
+  const newly=[];
+  for(const group of relevant)for(const item of (group.items||[])){
+    if(item.first_seen===store.latest?.data_date && !used.has(item.app_key))
+      newly.push({group,item,candidate:{app_key:item.app_key,reason_code:'newly_seen',evidence:{first_seen:item.first_seen}}});
+  }
+  newly.sort((a,b)=>Number(a.item.rank)-Number(b.item.rank)||a.item.app_key.localeCompare(b.item.app_key));
+  if(newly.length && chosen.length<3)add(newly[0]);
+  if(chosen.length>=3)return chosen.slice(0,3);
+  // If fewer real rises or new observations exist, use other recorded signals.
+  const reasons=['multi_country','consistent_30d','overseas_interest','newly_seen'];
+  for(const reason of reasons)for(const c of (store.trends?.candidates||[])){
+    if(chosen.length>=3)break;
+    if(c.reason_code!==reason || used.has(c.app_key))continue;
+    const ev=c.evidence||{};
+    const matching=relevant.find(g=> (g.items||[]).some(x=>x.app_key===c.app_key) &&
+      (!ev.source||g.source===ev.source) && (!ev.country||g.country===ev.country) &&
+      (!ev.chart||g.chart===ev.chart) && (!ev.category||g.category===ev.category) &&
+      (!ev.countries||ev.countries.includes(g.country)));
+    if(!matching)continue;
+    const item=matching.items.find(x=>x.app_key===c.app_key);
+    add({candidate:c,group:matching,item});
+  }
+  return chosen.slice(0,3);
+}
+function homeCandidateCard({candidate,group,item}) {
+  // The movements index stores before/after ranks, not chart coordinates.
+  // Add the observed chart context only to the display sentence; do not
+  // mutate the original movement evidence or infer missing dates.
+  const displayCandidate=candidate.reason_code==='rising_7d'
+    ? {...candidate,evidence:{...candidate.evidence,source:group.source,country:group.country,chart:group.chart,category:group.category}}
+    : candidate;
+  return `<article class="panel discovery-card home-candidate">
+    <div class="card-topline"><span class="info-tag ${candidate.reason_code==='rising_7d'?'green':'blue'}">${esc(candidate.reason_code==='rising_7d'?'실제 순위 상승':REASON_LABEL[candidate.reason_code]||'관측 기록')}</span>${star(item)}</div>
+    <a class="card-content" href="${attr(detailsHref(item.app_key,group))}">${icon(item)}<div style="min-width:0"><div class="card-title">${esc(item.name)}</div><div class="card-meta">${esc(SOURCE_LABEL[group.source]||group.source)} · ${esc(CATEGORY_LABEL[group.category]||'')}</div></div></a>
+    <p class="card-note">${esc(candidateSentence(displayCandidate))}</p><div class="card-bottom"><span class="small-copy">${esc(COUNTRY_LABEL[group.country]||'')} · ${formatDate(group.data_date)}</span><a class="text-link" href="${attr(detailsHref(item.app_key,group))}">자세히 →</a></div>
+  </article>`;
+}
+function homeMini(kind,source,country,limit) {
+  const cat=kind==='app'?'all_apps':'all_games';
+  const g=groupsFor({kind,country,source,category:cat,chart:'top_free'})[0];
+  if(!g)return `<section class="panel home-mini"><div class="home-mini-head"><strong>${esc(SOURCE_LABEL[source])}</strong><span class="info-tag warn">자료 없음</span></div>${empty('순위표 없음','수집된 차트가 없습니다.')}</section>`;
+  const av=groupAvailability(g);
+  const rows=(g.items||[]).slice(0,limit).map(item=>`<div class="mini-row"><span class="rank-number">${esc(item.rank)}</span>${icon(item)}<a title="${attr(item.name)}" href="${attr(detailsHref(item.app_key,g))}">${esc(item.name)}</a></div>`).join('');
+  return `<section class="panel home-mini"><div class="home-mini-head"><strong>${esc(SOURCE_LABEL[source])}</strong><span class="info-tag ${av==='previous'?'warn':av==='unsupported'||av==='failed'?'red':''}">${esc(availabilityMessage(av))}</span></div>
+    ${rows||empty(av==='unsupported'?'수집 미지원':av==='failed'?'수집 실패':'관측 자료 없음',av==='unsupported'?'이 차트는 수집 설정에서 제외되어 있습니다.':av==='failed'?'이전 정상 기록도 없습니다.':'이 차트에는 기록된 앱·게임이 없습니다.')}
+    <div class="home-mini-foot">관측일 ${formatDate(g.data_date)} ${av==='previous'?'· 현재 요청 실패, 이전 자료 표시':''}</div></section>`;
+}
+export function renderHome(ui) {
+  const latest=store.latest||{};
+  const statuses=store.status?.groups||[];
+  const success=statuses.filter(x=>x.status==='success').length;
+  const failed=statuses.filter(x=>x.status==='failed').length;
+  const skipped=statuses.filter(x=>x.status==='skipped').length;
+  const previous=store.groups.filter(g=>g.is_stale && (g.items||[]).length).length;
+  const statusView=`<section class="panel home-coverage" aria-label="수집 자료 상태"><div class="home-coverage-head"><div><strong>수집 자료 현황</strong><p class="small-copy">전체 그룹 ${statuses.length}개 · 최신 자료 기준 ${formatDate(latest.data_date)}</p></div><button class="button ghost small" type="button" id="home-status-button">상세 확인 →</button></div><div class="home-coverage-stats"><span><b>${success}</b> 정상 수집</span><span><b>${failed}</b> 요청 실패</span><span><b>${previous}</b> 이전 기록 사용</span><span><b>${skipped}</b> 수집 미지원</span></div>${failed||skipped?`<p class="small-copy home-coverage-note">요청 실패와 수집 미지원은 별개입니다. 이전 데이터가 있으면 날짜를 표시하고 유지합니다.</p>`:''}</section>`;
+  const countries=ui.country==='ALL'?['US','JP','KR']:[ui.country];
+  const sections=countries.map(country=>`<div class="home-country-section"><div class="home-country-label">${esc(COUNTRY_LABEL[country]||country)} · 무료 인기 차트</div><div class="home-chart-kinds">${[['app','📱 앱','apps'],['game','🎮 게임','games']].map(([kind,label,href])=>`<section class="home-chart-kind"><div class="home-chart-title"><strong>${label}</strong><a class="text-link" href="#/${href}">전체 보기 →</a></div><div class="home-source-grid">${homeMini(kind,'apple',country,ui.country==='ALL'?3:5)}${homeMini(kind,'google',country,ui.country==='ALL'?3:5)}</div></section>`).join('')}</div></div>`).join('');
+  const indie=store.groups.find(g=>g.source==='itch'&&g.feed==='featured');
+  return `<section class="hero"><div><p class="eyebrow">APP & GAME OBSERVATIONS</p><h1>오늘의 앱·게임 흐름</h1><p class="subtext">관측된 순위와 발견 기록으로 눈여겨볼 앱과 게임을 찾아보세요. 국가·스토어별 순위는 따로 표시합니다.</p></div><div class="hero-decor" aria-hidden="true">✧</div></section>
+    ${statusView}
+    <div class="section-heading"><div><h2>✨ 눈여겨볼 앱과 게임</h2><p>실제 관측 근거가 있는 후보만 표시합니다. 순위 상승과 처음 관측은 신규 출시를 의미하지 않습니다.</p></div><a class="text-link" href="#/lab/radar">연구실에서 더 찾기 →</a></div>
+    <div class="home-discovery-columns">${[['app','📱 앱에서 발견','apps'],['game','🎮 게임에서 발견','games']].map(([kind,label,href])=>`<section class="home-discovery-column"><div class="home-discovery-head"><h3>${label}</h3><a class="text-link" href="#/${href}">탐색하기 →</a></div><div class="home-discovery-list">${homeCandidates(kind,ui.country).map(homeCandidateCard).join('')||empty('해당 유형에 발견 근거가 없습니다.','다음 수집 결과를 확인해 주세요.')}</div></section>`).join('')}</div>
+    <div class="section-heading"><div><h2>🔎 인기 순위 빠르게 보기</h2><p>같은 국가에서도 App Store와 Google Play의 순위를 합산하지 않습니다.</p></div>${countryButtons(ui.country)}</div>
+    <div class="home-chart-groups">${sections}</div>
+    <div class="section-heading"><div><h2>💡 인디에서 발견</h2><p>itch.io 추천 피드의 실제 수집 목록입니다. 피드 위치는 인기 순위가 아닙니다.</p></div><a class="text-link" href="#/indie">인디 더 보기 →</a></div>
+    <section class="indie-grid">${(indie?.items||[]).slice(0,4).map(item=>indieCard(item,'featured')).join('')||empty('인디 추천 피드 자료가 없습니다.','다음 수집 결과를 확인해 주세요.')}</section>
+    <p class="small-copy" style="margin-top:25px">※ '처음 발견'은 이 사이트의 첫 수집일입니다. 순위만으로 인기 원인·다운로드·개발 난이도를 단정하지 않습니다.</p>`;
 }
 
+// Every chart has its own pagination state, including its store and country.
+export const exploreGroupKey=g=>[g.source,g.country,g.chart,g.category].join('|');
+export const exploreGroupLimit=(ui,g)=>Math.max(30,Number(ui.groupLimits?.[exploreGroupKey(g)])||30);
 function select(name, options, value){return `<select class="field-select" data-filter="${name}" aria-label="${name}">${options.map(([key,label])=>`<option value="${attr(key)}" ${key===value?'selected':''}>${esc(label)}</option>`).join('')}</select>`;}
-function groupListRows(group,ui) {
-  const items = [...(group.items||[])];
-  if(ui.query) {
-    const query=ui.query.toLocaleLowerCase();
-    for(let i=items.length-1;i>=0;i--)if(!`${items[i].name} ${items[i].developer} ${items[i].primary_category}`.toLocaleLowerCase().includes(query)) items.splice(i,1);
+// Only offer categories for combinations present in the collected snapshot.
+// Unsupported skipped-only groups (e.g. Apple Arcade) are not selectable.
+export function availableExploreCategories(kind,ui) {
+  const all=kind==='game'?'all_games':'all_apps';
+  if(ui.price==='top_paid')return [all];
+  const known=kind==='game'?GAME_CATEGORIES:APP_CATEGORIES;
+  const prefix=kind==='game'?'game_':'app_';
+  const found=store.groups.filter(g=>g.source!=='itch' && g.chart===ui.price && (ui.country==='ALL'||g.country===ui.country) && (ui.source==='all'||g.source===ui.source) && (g.category===all||g.category?.startsWith(prefix)) && groupAvailability(g)!=='unsupported');
+  const names=new Set(found.map(g=>g.category));
+  return [...known.filter(c=>names.has(c)),...[...names].filter(c=>!known.includes(c)).sort()];
+}
+export function normalizeExploreCategory(kind,ui) {
+  const all=kind==='game'?'all_games':'all_apps';
+  const choices=availableExploreCategories(kind,ui);
+  if(ui.price==='top_paid' || !choices.includes(ui.category))ui.category=choices.includes(all)?all:choices[0]||all;
+  return ui.category;
+}
+// A chart movement is shown only when the recorded evidence belongs to exactly
+// the same store, country, chart and category. Absence is NOT a flat rank.
+export function chartRiseEvidence(item, group) {
+  return (store.candidates.get(item.app_key)||[]).find(c=>
+    c.reason_code==='rising_7d' && Number(c.evidence?.change)>0 &&
+    c.evidence?.source===group.source && c.evidence?.country===group.country &&
+    c.evidence?.chart===group.chart && c.evidence?.category===group.category &&
+    c.evidence?.after_date===group.data_date && !group.is_stale
+  )||null;
+}
+function movementKey(item,group) {
+  return [item.app_key,group.source,group.country,group.chart,group.category].join('|');
+}
+export function chartMovementEvidence(item,group) {
+  if(group.is_stale)return null;
+  if(store.movements!==null){
+    const movement=store.movements[movementKey(item,group)];
+    return movement && movement.after_date===group.data_date && Number(movement.after_rank)===Number(item.rank)?movement:null;
   }
-  const trend=(item)=> (store.candidates.get(item.app_key)||[]).find(c=>c.reason_code==='rising_7d' && c.evidence.source===group.source && c.evidence.country===group.country && c.evidence.category===group.category && c.evidence.chart===group.chart);
-  if(ui.sort==='rising') {const only=items.filter(trend);only.sort((a,b)=>(trend(b)?.evidence.change||0)-(trend(a)?.evidence.change||0));return only;}
-  if(ui.sort==='new') return items.filter(item=>item.first_seen===store.latest.data_date).sort((a,b)=>a.rank-b.rank);
-  if(ui.sort==='consistent')return items.filter(item=>(store.candidates.get(item.app_key)||[]).some(c=>c.reason_code==='consistent_30d')).sort((a,b)=>a.rank-b.rank);
+  // Historical builds without movements.json: only verified rising trend signals.
+  const candidate=chartRiseEvidence(item,group);
+  return candidate?candidate.evidence:null;
+}
+function rankMovement(item,group) {
+  const e=chartMovementEvidence(item,group);
+  if(!e)return '<span class="rank-unverified" title="이 조건에서 비교할 두 관측일이 없습니다. 순위가 같거나 하락했다는 뜻이 아닙니다.">비교 기록 부족</span>';
+  const change=Number(e.change);
+  const direction=change>0?'rank-rise':change<0?'rank-fall':'rank-flat';
+  const words=change>0?`↑ ${change}계단`:change<0?`↓ ${Math.abs(change)}계단`:'순위 유지';
+  const before=Number(e.before_rank);
+  const after=Number(e.after_rank);
+  const label=`${formatDate(e.before_date)} ${before}위 → ${formatDate(e.after_date)} ${after}위`;
+  return `<span class="${direction}" title="${attr(label)}"><b>${esc(words)}</b><small>${esc(formatDate(e.before_date))} 대비${e.gap_days>1?` · ${esc(e.gap_days)}일 간격`:''}</small></span>`;
+}
+function chartRow(item,g) {
+  const rating=Number(item.rating);
+  const ratingText=item.rating!==null && item.rating!==undefined && Number.isFinite(rating)?`★ ${rating.toFixed(1)}`:'미확인';
+  const first=item.first_seen===g.data_date&&!g.is_stale?'<span class="rank-first-seen" title="이 사이트의 최초 관측이며 실제 출시일이 아닙니다">첫 관측</span>':'';
+  return `<tr><td class="rank-cell"><span class="rank-position ${Number(item.rank)<=3?'top-rank':''}">${esc(item.rank)}</span></td>
+    <td class="item-col"><a class="item-name-link" href="${attr(detailsHref(item.app_key,g))}">${icon(item)}<span class="item-text"><span class="item-primary">${esc(item.name)}</span><span class="item-secondary">${esc(item.developer||'개발사 미확인')}</span></span></a>${first}</td>
+    <td class="category-col"><span class="small-copy">${esc(item.primary_category||CATEGORY_LABEL[g.category]||'미확인')}</span></td>
+    <td class="rating-cell"><span class="rating-value ${item.rating==null?'muted':''}">${ratingText}</span></td>
+    <td class="movement-cell">${rankMovement(item,g)}</td><td class="save-cell">${star(item)}</td></tr>`;
+}
+function groupListRows(group,ui) {
+  const items=[...(group.items||[])];
+  const signals=item=>store.candidates.get(item.app_key)||[];
+  const sameChart=c=>c.evidence?.source===group.source && c.evidence?.country===group.country && c.evidence?.category===group.category && c.evidence?.chart===group.chart;
+  const rising=item=>chartMovementEvidence(item,group)?.change>0?chartMovementEvidence(item,group):null;
+  if(ui.sort==='rising')return items.filter(rising).sort((a,b)=>(rising(b)?.change||0)-(rising(a)?.change||0)||a.rank-b.rank);
+  if(ui.sort==='new')return items.filter(item=>item.first_seen===store.latest.data_date && !group.is_stale).sort((a,b)=>a.rank-b.rank);
+  if(ui.sort==='consistent')return items.filter(item=>signals(item).some(c=>c.reason_code==='consistent_30d'&&sameChart(c))).sort((a,b)=>a.rank-b.rank);
   return items.sort((a,b)=>a.rank-b.rank);
 }
 export function renderExplore(kind,ui) {
-  const isGame=kind==='game', categoryList=isGame?GAME_CATEGORIES:APP_CATEGORIES, activeCat=categoryList.includes(ui.category)?ui.category:categoryList[0];
+  const isGame=kind==='game';
+  const categoryList=availableExploreCategories(kind,ui);
+  const activeCat=categoryList.includes(ui.category)?ui.category:categoryList[0]||(isGame?'all_games':'all_apps');
   const results=groupsFor({kind,country:ui.country,source:ui.source,category:activeCat,chart:ui.price});
-  const renderG=(g)=>{
-    const items=groupListRows(g,ui);const displayed=items.slice(0,ui.limit);
-    return `<section class="store-section"><div class="store-head"><h3>${esc(COUNTRY_LABEL[g.country])} · ${esc(SOURCE_LABEL[g.source])} · ${esc(CATEGORY_LABEL[g.category])}</h3><div class="chips">${staleTag(g)} <span class="info-tag">${formatDate(g.data_date)}</span></div></div>
-    <div class="panel results-panel"><div class="results-header"><div><strong>${esc(CATEGORY_LABEL[g.category])} ${g.chart==='top_paid'?'유료':'무료'} 인기</strong><p class="subtext">${esc(SOURCE_LABEL[g.source])} · ${items.length}개 표시 가능 · ${formatDate(g.data_date)}</p></div></div>
-    ${items.length ? `<div class="table-scroll"><table class="rank-table"><thead><tr><th>순위</th><th>앱·게임</th><th>카테고리</th><th>평점</th><th>변화</th><th>관심</th></tr></thead><tbody>${displayed.map(item=>{
-      const recent=(store.candidates.get(item.app_key)||[]).find(c=>c.reason_code==='rising_7d' && c.evidence.source===g.source && c.evidence.country===g.country && c.evidence.chart===g.chart && c.evidence.category===g.category);
-      const trendLabel=recent?`<span class="info-tag green">▲ ${recent.evidence.change}</span>`:`<span class="muted" title="비교 가능한 관측 기록이 아직 없습니다">—</span>`;
-      return `<tr><td class="rank-cell">${item.rank}</td><td class="item-col"><a class="item-name-link" href="${attr(detailsHref(item.app_key,g))}">${icon(item)}<span class="item-text"><span class="item-primary">${esc(item.name)}</span><br><span class="item-secondary">${esc(item.developer||'개발사 정보 없음')}</span></span></a></td><td class="category-col"><span class="small-copy">${esc(item.primary_category||CATEGORY_LABEL[g.category])}</span></td><td>${item.rating!=null?Number(item.rating).toFixed(1):'—'}</td><td>${trendLabel}</td><td>${star(item)}</td></tr>`;
-    }).join('')}</tbody></table></div>${items.length>displayed.length?`<div class="table-foot"><button class="button ghost small" data-more="true">더 보기 (${items.length-displayed.length}개 남음)</button></div>`:''}` : empty(ui.sort==='rising'?'7일 상승 기록이 없습니다.':ui.sort==='new'?'이번에 새로 발견한 항목이 없습니다.':'선택한 조건에 자료가 없습니다.', ui.sort!=='popular'?'비교할 날짜가 더 쌓이면 새로운 결과를 확인할 수 있습니다.':'수집 실패 또는 아직 수집되지 않은 조합일 수 있습니다.')}
-    </div></section>`;
+  const renderG=g=>{
+    const items=groupListRows(g,ui), displayed=items.slice(0,exploreGroupLimit(ui,g)), state=groupAvailability(g);
+    const notice=state==='previous'?`<p class="source-notice warn">최근 수집이 실패해 ${formatDate(g.data_date)}의 마지막 정상 순위를 표시합니다. 오늘 순위로 해석하지 마세요.</p>`:state==='failed'?'<p class="source-notice error">최근 수집 요청이 실패했고, 보존된 순위도 없습니다.</p>':state==='unsupported'?'<p class="source-notice">이 스토어·장르 조합은 수집 설정상 미지원입니다.</p>':'';
+    return `<section class="store-section"><div class="store-head"><h3>${esc(COUNTRY_LABEL[g.country]||g.country)} · ${esc(SOURCE_LABEL[g.source]||g.source)} · ${esc(CATEGORY_LABEL[g.category]||g.category)}</h3><div class="chips"><span class="info-tag ${state==='previous'?'warn':state==='failed'||state==='unsupported'?'red':''}">${esc(availabilityMessage(state))}</span><span class="info-tag">관측 ${formatDate(g.data_date)}</span></div></div>
+      <div class="panel results-panel"><div class="results-header"><div><strong>${esc(CATEGORY_LABEL[g.category]||g.category)} ${g.chart==='top_paid'?'유료':'무료'} 순위</strong><p class="subtext">${esc(SOURCE_LABEL[g.source]||g.source)} · 이 차트 ${items.length}개 · ${g.chart==='top_paid'?'유료':'무료'} · ${formatDate(g.data_date)} 기준</p></div></div>${notice}
+      ${items.length?`<div class="table-scroll"><table class="rank-table"><thead><tr><th scope="col">순위</th><th scope="col">앱·게임</th><th scope="col">분류</th><th scope="col">평점</th><th scope="col">순위 변화</th><th scope="col">저장</th></tr></thead><tbody>${displayed.map(item=>chartRow(item,g)).join('')}</tbody></table></div>${items.length>displayed.length?`<div class="table-foot"><button class="button ghost small" data-more="true" data-group="${attr(exploreGroupKey(g))}">더 보기 (${items.length-displayed.length}개 남음)</button></div>`:''}`:empty(state==='unsupported'?'수집 미지원':state==='failed'?'수집 실패':ui.sort==='rising'?'이 차트에 확인된 순위 상승이 없습니다.':ui.sort==='new'?'이번 수집일에 처음 발견된 항목이 없습니다.':ui.sort==='consistent'?'확인된 꾸준한 관측 기록이 없습니다.':'선택한 조건에 관측 자료가 없습니다.', state==='unsupported'?'이 차트는 현재 수집 대상이 아닙니다.':state==='failed'?'데이터 수집 상태에서 실패 내용을 확인할 수 있습니다.':ui.sort!=='popular'?'선택한 국가·스토어·차트 안에서 근거가 확인된 항목만 표시합니다.':'이 차트의 수집 기록이 없습니다.')}
+      <div class="rank-method-note">순위 변화는 같은 국가·스토어·차트·분류의 실제 관측일만 비교합니다. 중간 수집일이 빠졌다면 관측일 간격을 표시하고, 기록이 없으면 추정하지 않습니다.</div>
+      </div></section>`;
   };
-  return `${heading('APP & GAME CHARTS',isGame?'게임 탐색':'앱 탐색',isGame?'퍼즐부터 RPG까지 장르별 인기 게임과 순위 변화를 살펴보세요.':'생활·생산성·도구 등 다양한 앱을 국가와 스토어별로 확인하세요.',`<button class="button ghost filter-toggle" data-toggle-filters="true">☷ 조건 선택</button>`)}
+  const countryOptions=[['US','🇺🇸 미국'],['JP','🇯🇵 일본'],['KR','🇰🇷 한국'],['ALL','🌏 3개국 비교']];
+  return `${heading('APP & GAME CHARTS',isGame?'게임 탐색':'앱 탐색',isGame?'장르별 실제 관측 순위와 변화를 국가·스토어별로 살펴보세요.':'카테고리별 실제 관측 순위를 국가·스토어별로 살펴보세요.',`<button class="button ghost filter-toggle" data-toggle-filters="true" aria-controls="filter-panel" aria-expanded="${Boolean(ui.filtersOpen)}">☷ 조건 선택</button>`)}
     <div class="explore-layout"><aside class="panel filters ${ui.filtersOpen?'mobile-open':''}" id="filter-panel"><h2>조건 선택</h2>
-      <div class="filter-group"><label class="filter-label">국가</label>${select('country',[['US','🇺🇸 미국'],['JP','🇯🇵 일본'],['KR','🇰🇷 한국'],['ALL','🌏 3개국 비교']],ui.country)}</div>
+      <div class="filter-group"><label class="filter-label">국가</label>${select('country',countryOptions,ui.country)}</div>
       <div class="filter-group"><label class="filter-label">스토어</label>${select('source',[['google','Google Play'],['apple','App Store'],['all','전체 스토어 (각각 표시)']],ui.source)}</div>
       <div class="filter-group"><label class="filter-label">종류</label><div class="segmented"><button data-price="top_free" class="${ui.price==='top_free'?'selected':''}" aria-pressed="${ui.price==='top_free'}">무료</button><button data-price="top_paid" class="${ui.price==='top_paid'?'selected':''}" aria-pressed="${ui.price==='top_paid'}">유료</button></div></div>
-      <div class="filter-group"><label class="filter-label">${isGame?'게임 장르':'앱 카테고리'}</label>${select('category',categoryList.map(x=>[x,CATEGORY_LABEL[x]]),activeCat)}</div>
-      <div class="filter-group"><label class="filter-label">탐색 방식</label>${select('sort',[['popular','인기순'],['rising','7일 순위 상승'],['new','처음 발견'],['consistent','꾸준한 인기']],ui.sort)}</div>
-      <p class="filter-help">유료 차트는 전체 앱·전체 게임 기준입니다. 일부 카테고리와 날짜는 자료가 없을 수 있습니다.</p>
-    </aside><div style="min-width:0">${results.length?results.map(renderG).join(''):empty('이 조건의 순위표가 없습니다.','스토어에서 제공하지 않거나 현재 수집 설정에 포함되지 않은 차트입니다.')}<p class="small-copy">※ Apple과 Google Play의 순위는 합산하지 않습니다. 7일 상승은 같은 국가·스토어·차트에서 비교 가능한 날짜가 있을 때만 표시됩니다.</p></div></div>`;
+      <div class="filter-group"><label class="filter-label">${isGame?'게임 장르':'앱 카테고리'}</label>${select('category',(categoryList.length?categoryList:[activeCat]).map(x=>[x,CATEGORY_LABEL[x]||x]),activeCat)}</div>
+      <div class="filter-group"><label class="filter-label">탐색 방식</label>${select('sort',[['popular','인기순'],['rising','확인된 순위 상승'],['new','이번에 처음 관측'],['consistent','꾸준한 관측']],ui.sort)}</div>
+      <p class="filter-help">선택 가능한 카테고리는 실제 수집 차트 기준입니다. 유료 차트는 전체 앱·전체 게임만 지원합니다.</p>
+    </aside><div style="min-width:0">${results.length?results.map(renderG).join(''):empty('수집된 순위표가 없습니다.','현재 국가·스토어·종류에서 제공하는 차트가 없습니다. 조건을 변경해 주세요.')}<p class="small-copy">※ 스토어·국가·차트별 순위는 합산하지 않습니다. 비교 가능한 같은 차트의 관측 근거만 변화로 표시합니다.</p></div></div>`;
 }
 
 export function indieCard(item,feed) {
-  return `<article class="panel indie-card"><a href="${attr(detailsHref(item.app_key))}">${safeUrl(item.icon_url)?`<img class="indie-cover" src="${attr(safeUrl(item.icon_url))}" alt="" loading="lazy" referrerpolicy="no-referrer">`:`<div class="indie-cover-placeholder">✧</div>`}</a>
-      <div class="indie-body"><a href="${attr(detailsHref(item.app_key))}"><div class="card-title">${esc(item.name)}</div></a><div class="card-meta">itch.io · ${esc(FEED_LABEL[feed]||'인디 게임')}</div><div class="card-bottom"><a class="text-link" href="${attr(detailsHref(item.app_key))}">살펴보기 →</a>${star(item)}</div></div></article>`;
+  const url=detailsHref(item.app_key)+'?from=home';
+  return `<article class="panel indie-card"><a href="${attr(url)}">${safeUrl(item.icon_url)?`<img class="indie-cover" src="${attr(safeUrl(item.icon_url))}" alt="" loading="lazy" referrerpolicy="no-referrer">`:`<div class="indie-cover-placeholder">✧</div>`}</a>
+      <div class="indie-body"><a href="${attr(url)}"><div class="card-title">${esc(item.name)}</div></a><div class="card-meta">itch.io · ${esc(FEED_LABEL[feed]||'인디 게임')}</div><div class="card-bottom"><a class="text-link" href="${attr(url)}">살펴보기 →</a>${star(item)}</div></div></article>`;
+}
+// Indie discovery is an observed itch.io feed catalog, not a popularity chart.
+// Merge overlapping feed entries by app_key; preserve each original feed label.
+const INDIE_FEED_ORDER={featured:0,new:1,puzzle:2,idle:3};
+export function availableIndieFeeds(){
+  return [...new Set(store.groups.filter(g=>g.source==='itch').map(g=>g.feed).filter(Boolean))].sort((a,b)=>(INDIE_FEED_ORDER[a]??999)-(INDIE_FEED_ORDER[b]??999)||a.localeCompare(b));
+}
+const INDIE_TAGS=/\s+\[([^\]\n]+)\]/g;
+export function indieDisplayName(name) {
+  const raw=String(name||'');
+  const chunks=raw.match(/(?:\s+\[[^\]\n]+\])+$/);
+  if(!chunks)return {name:raw,metadata:[]};
+  const tags=[...chunks[0].matchAll(INDIE_TAGS)].map(m=>m[1].trim()).filter(Boolean);
+  // Remove suffix metadata only if it resembles the known itch.io RSS title suffix.
+  // Unknown bracketed parts may be part of the actual game title.
+  const known=t=>/^(?:free|\$[\d,.]+|\d+% off|windows|macos|linux|android|web|html5|other|puzzle|action|adventure|strategy|simulation|platformer|visual novel|role playing|rpg|survival|horror|educational|interactive fiction|racing|sports|shooter|rhythm|card game|board game|casual|fighting|soundtrack|tool|physical game)$/i.test(t);
+  if(!tags.length||!tags.some(known)||!tags.every(known))return {name:raw,metadata:[]};
+  return {name:raw.slice(0,-chunks[0].length),metadata:tags};
+}
+export function indieCatalog(ui) {
+  const feeds=availableIndieFeeds();
+  const chosen=[...feeds,'all'].includes(ui.feed)?ui.feed:'all';
+  const selected=chosen==='all'?feeds:[chosen];
+  const entries=new Map();
+  for(const feed of selected){
+    const group=store.groups.find(g=>g.source==='itch'&&g.feed===feed);
+    for(const item of (group?.items||[])){
+      if(!entries.has(item.app_key))entries.set(item.app_key,{item,feeds:[],groups:[]});
+      const row=entries.get(item.app_key);
+      if(!row.feeds.includes(feed))row.feeds.push(feed);
+      row.groups.push(group);
+      // Prefer a usable description or thumbnail from any observed feed.
+      if((!row.item.description&&item.description)||(!row.item.icon_url&&item.icon_url))row.item=item;
+    }
+  }
+  const query=String(ui.indieQuery||'').trim().toLocaleLowerCase();
+  const rows=[...entries.values()].filter(row=>{
+    if(!query)return true;
+    const x=row.item;
+    return [x.name,x.description,...row.feeds.map(f=>FEED_LABEL[f]||f)].join(' ').toLocaleLowerCase().includes(query);
+  });
+  const sort=ui.indieSort||'feed';
+  if(sort==='recent')rows.sort((a,b)=>String(b.item.first_seen||'').localeCompare(String(a.item.first_seen||''))||indieDisplayName(a.item.name).name.localeCompare(indieDisplayName(b.item.name).name,'ko'));
+  else if(sort==='name')rows.sort((a,b)=>indieDisplayName(a.item.name).name.localeCompare(indieDisplayName(b.item.name).name,'ko'));
+  // Feed order is stable, original RSS order; neither is an app popularity rank.
+  return {rows,total:entries.size,chosen};
+}
+function indieListRow({item,feeds,groups}) {
+  const url=detailsHref(item.app_key)+'?from=indie',img=safeUrl(item.icon_url);
+  const display=indieDisplayName(item.name);
+  const title=esc(display.name||item.name);
+  const meta=display.metadata.slice(0,3).map(tag=>`<span class="indie-meta-tag">${esc(tag==='Free'?'무료':tag)}</span>`).join('');
+  const stale=groups.every(g=>g?.is_stale);
+  return `<article class="indie-list-row">
+    <a class="indie-list-image" href="${attr(url)}" aria-label="${attr(display.name||item.name)} 상세 보기">${img?`<img src="${attr(img)}" alt="" loading="lazy" referrerpolicy="no-referrer">`:'<span aria-hidden="true">✧</span>'}</a>
+    <div class="indie-list-info">
+      <a class="indie-list-title" href="${attr(url)}" title="${attr(item.name)}">${title}</a>
+      <p class="indie-list-summary">${item.description?esc(item.description):'<span class="indie-no-summary">원본 소개 미수집</span>'}</p>
+      <div class="indie-list-tags">${feeds.map(feed=>`<span class="indie-feed-tag">${esc(FEED_LABEL[feed]||feed)}</span>`).join('')}${meta}</div>
+    </div>
+    <div class="indie-list-end"><span class="indie-list-first">첫 관측 <strong>${formatDate(item.first_seen)}</strong></span>${stale?'<span class="info-tag warn">이전 기록</span>':''}<div class="indie-list-actions"><a class="text-link" href="${attr(url)}">살펴보기 →</a>${star(item)}</div></div>
+  </article>`;
+}
+export function renderIndieResults(ui){
+  const {rows,total,chosen}=indieCatalog(ui);
+  const shown=rows.slice(0,Math.max(1,Number(ui.indieLimit)||30));
+  const groups=store.groups.filter(g=>g.source==='itch'&&(chosen==='all'||g.feed===chosen));
+  const dates=[...new Set(groups.map(g=>g.data_date).filter(Boolean))].sort();
+  const state=groups.some(g=>g.is_stale)?' · 일부 이전 기록 포함':'';
+  const headingDate=dates.length===1?formatDate(dates[0]):dates.length?`${formatDate(dates[0])}~${formatDate(dates.at(-1))}`:'관측일 없음';
+  const title=chosen==='all'?'전체 인디':FEED_LABEL[chosen]||chosen;
+  return `<section class="panel indie-results-panel"><div class="indie-results-head"><div><h2>${esc(title)} <span class="indie-count">${rows.length}개</span></h2><p class="small-copy">${chosen==='all'?`${groups.length}개 피드에서 중복을 제거한 ${total}개 게임`:`해당 피드 ${total}개 게임`} · 관측 ${headingDate}${state}</p></div><span class="indie-view-mode">☷ 목록 보기</span></div>
+    ${rows.length?`<div class="indie-list" aria-label="인디 게임 목록">${shown.map(indieListRow).join('')}</div>${shown.length<rows.length?`<div class="indie-list-more"><button type="button" class="button ghost small" data-indie-more="true">더 보기 (${rows.length-shown.length}개 남음)</button></div>`:''}`:empty('해당하는 인디 게임이 없습니다.','검색어나 피드 조건을 바꾸어 확인해 주세요.')}</section>`;
 }
 export function renderIndie(ui) {
-  const feeds=['featured','new','puzzle','idle'];const current=feeds.includes(ui.feed)?ui.feed:'featured';
-  const group=store.groups.find(g=>g.source==='itch'&&g.feed===current);
-  const items=(group?.items||[]).filter(x=>!ui.query||`${x.name} ${x.developer}`.toLocaleLowerCase().includes(ui.query.toLocaleLowerCase()));
-  return `${heading('INDIE DISCOVERIES','인디 발견','작은 팀과 개인 개발자의 독특한 게임을 가볍게 살펴보세요.')}
-    <div class="chips" style="margin-bottom:17px">${feeds.map(f=>`<button class="chip ${current===f?'selected':''}" data-feed="${f}">${FEED_LABEL[f]}</button>`).join('')}</div>
-    <div class="small-copy" style="margin-bottom:16px">출처: itch.io · ${group?.data_date?'마지막 기록 '+formatDate(group.data_date):'자료 없음'} ${group?.is_stale?'<span class="info-tag warn">이전 데이터</span>':''} · 표시 순서는 인기 순위와 다릅니다.</div>
-    ${items.length?`<div class="indie-grid">${items.map(item=>indieCard(item,current)).join('')}</div>`:empty('인디 게임 자료가 없습니다.','다음 RSS 수집 결과를 확인해 주세요.')}`;
+  const feeds=availableIndieFeeds();
+  const active=[...feeds,'all'].includes(ui.feed)?ui.feed:'all';
+  return `${heading('INDIE DISCOVERIES','인디 발견','itch.io에서 실제 수집된 인디 게임을 작은 목록으로 빠르게 살펴보세요.')}
+    <section class="panel indie-tools" aria-label="인디 탐색 조건">
+      <div class="indie-tools-top"><strong>게임 찾기</strong><span class="small-copy">피드 출처는 인기 순위가 아닙니다.</span></div>
+      <div class="chips indie-feed-tabs" role="group" aria-label="수집 피드 선택">${[['all','전체 인디'],...feeds.map(f=>[f,FEED_LABEL[f]||f])].map(([f,label])=>`<button type="button" class="chip ${active===f?'selected':''}" data-feed="${f}" aria-pressed="${active===f}">${esc(label)}</button>`).join('')}</div>
+      <div class="indie-tools-bottom"><label class="indie-query-label">게임 이름·소개 검색<input type="search" data-indie-query="true" value="${attr(ui.indieQuery||'')}" placeholder="예: 퍼즐, 요리, 호러" autocomplete="off"></label>
+        <label class="indie-sort-label">정렬<select data-indie-sort="true"><option value="feed" ${(ui.indieSort||'feed')==='feed'?'selected':''}>수집 피드 순서</option><option value="recent" ${ui.indieSort==='recent'?'selected':''}>최근 첫 관측</option><option value="name" ${ui.indieSort==='name'?'selected':''}>이름순</option></select></label></div>
+    </section><div id="indie-results">${renderIndieResults(ui)}</div>
+    <p class="small-copy indie-disclaimer">※ 첫 관측일은 우리 사이트가 처음 수집한 날짜이며 실제 출시일이 아닙니다. itch.io 피드 표시 위치는 인기 순위·매출·다운로드 순위가 아닙니다.</p>`;
 }
-export function renderFavorites() {
-  const rows=getFavorites();
-  return `${heading('YOUR IDEAS','관심 목록','눈에 띄는 앱과 게임, 떠오른 아이디어를 모아두는 공간입니다.')}
-    <div class="fav-toolbar"><button class="button ghost" id="favorites-import">↥ 가져오기 (JSON)</button><button class="button outline-blue" id="favorites-export">↧ 내보내기 (JSON)</button><input id="favorites-file" class="sr-only" type="file" accept="application/json,.json"></div>
-    <div class="panel">${rows.length?rows.map(row=>{
-      const item=store.appMap.get(row.app_key)||row;
-      return `<div class="fav-row">${icon(item)}<div class="fav-details"><a class="item-primary" href="${attr(detailsHref(row.app_key))}">${esc(item.name||row.name)}</a><div class="fav-note">${esc(row.note||'아직 작성한 아이디어 노트가 없습니다.')}</div><div class="small-copy">${esc(SOURCE_LABEL[row.source]||row.source)} · ${formatDate(row.added_at)} · ${esc(row.status)}</div></div><div class="fav-controls"><a class="button ghost small" href="${attr(detailsHref(row.app_key))}">메모 보기</a><a class="button outline-blue small" href="#/lab/analysis?app=${encodeURIComponent(row.app_key)}">연구실에서 보기</a><button class="button ghost small" data-lab-action="toggle-compare" data-key="${attr(row.app_key)}">+ 비교</button>${star(item)}</div></div>`;
-    }).join(''):empty('아직 저장한 앱·게임이 없습니다.','앱 탐색·게임 탐색·인디 발견에서 ☆ 버튼을 눌러 보세요.')}</div><p class="small-copy" style="margin-top:13px">※ 관심 목록과 아이디어 노트는 이 브라우저에만 저장됩니다. 다른 PC에서 사용하려면 JSON 백업·가져오기를 이용하세요.</p>`;
+// A saved candidate can outlive the 90-day research index. Never imply that
+// comparing it is supported until the actual index has been checked.
+function labLinks(key,ui,{detail=false}={}){
+  const status=ui.labAvailability?.status;
+  const cls=detail?'button ghost':'text-link';
+  if(status==='loading'||status==='idle')return '<span class="lab-link-state">연구실 후보 확인 중…</span>';
+  if(status==='error')return '<span class="lab-link-state lab-link-error">연구실 연결 확인 실패</span>'+(detail?'<button type="button" class="text-link" data-retry-lab-availability="true">다시 확인</button>':'');
+  if(status==='ready'&&!ui.labAvailability.keys?.has(key))return '<span class="lab-link-state" title="현재 연구실 인덱스에 없는 후보입니다. 저장된 원본과 메모는 유지됩니다.">연구실 자료 없음 · 비교 불가</span>';
+  const href=`#/lab/analysis?app=${encodeURIComponent(key)}`;
+  return `<a class="${cls}" href="${attr(href)}">${detail?'연구실에서 보기':'연구실 보기'}</a><button type="button" class="${cls}" data-lab-action="toggle-compare" data-key="${attr(key)}">+ 비교</button>`;
+}
+export function renderFavorites(ui={}) {
+  const saved=getFavorites();
+  const status=ui.favoriteStatus||'all',sort=ui.favoriteSort||'recent',query=ui.favoriteQuery||'';
+  const rows=filterFavorites(saved,{status,sort,query});
+  const visible=rows.slice(0,ui.favoriteLimit||30);
+  const available=new Map(saved.map(r=>[r.app_key,!!store.appMap.has(r.app_key)]));
+  const statusButtons=[['all','전체',saved.length],...FAVORITE_STATUSES.map(s=>[s,s,saved.filter(x=>x.status===s).length])];
+  const toolbar=`<section class="panel favorites-tools" aria-label="관심 목록 필터">
+    <div class="favorites-toolbar-top"><label class="fav-search-label">저장한 후보 검색<input type="search" data-favorite-query="true" value="${attr(query)}" placeholder="앱 이름, 메모, 개발사 검색" autocomplete="off"></label>
+      <label class="fav-sort-label">정렬<select class="field-select" data-favorite-sort="true"><option value="recent" ${sort==='recent'?'selected':''}>최근 저장순</option><option value="oldest" ${sort==='oldest'?'selected':''}>오래된 저장순</option><option value="name" ${sort==='name'?'selected':''}>이름순</option><option value="status" ${sort==='status'?'selected':''}>검토 상태순</option></select></label></div>
+    <div class="fav-status-tabs" aria-label="검토 상태 필터">${statusButtons.map(([key,label,count])=>`<button type="button" class="fav-status-tab ${status===key?'selected':''}" data-favorite-filter="${attr(key)}" aria-pressed="${status===key}">${esc(label)} <span>${count}</span></button>`).join('')}</div>
+  </section>`;
+  const list=visible.map(row=>{
+    const current=store.appMap.get(row.app_key);
+    // Prefer today's collected record, but use the private snapshot when absent.
+    const item={...row,...current,app_key:row.app_key,detail_url:current?.detail_url||row.detail_url,icon_url:current?.icon_url||row.icon_url,name:current?.name||row.name};
+    const missing=!available.get(row.app_key);
+    const external=safeUrl(item.detail_url);
+    return `<article class="fav-list-row">
+      <div class="fav-list-icon">${icon(item)}</div>
+      <div class="fav-list-body">
+        <div class="fav-list-titleline"><a class="item-primary" href="${attr(detailsHref(row.app_key,{from:'favorites'}))}">${esc(item.name||row.name)}</a>${missing?'<span class="info-tag warn">최신 목록 밖</span>':''}</div>
+        <div class="fav-list-meta">${esc(SOURCE_LABEL[row.source]||row.source)}${item.developer?` · ${esc(item.developer)}`:''} · 저장 ${formatDate(row.added_at)}${row.first_seen?` · 첫 관측 ${formatDate(row.first_seen)}`:''}</div>
+        ${row.note?`<p class="fav-list-note">${esc(row.note)}</p>`:`<p class="fav-list-note fav-placeholder">아직 아이디어 메모가 없습니다.</p>`}
+        <div class="fav-list-links"><a class="text-link" href="${attr(detailsHref(row.app_key,{from:'favorites'}))}">상세·메모</a>${external?`<a class="text-link" href="${attr(external)}" target="_blank" rel="noopener noreferrer">원본 페이지 ↗</a>`:''}${labLinks(row.app_key,ui)}</div>
+      </div>
+      <div class="fav-list-manage"><label>검토 상태<select class="field-select" data-favorite-status="${attr(row.app_key)}">${FAVORITE_STATUSES.map(s=>`<option value="${attr(s)}" ${row.status===s?'selected':''}>${esc(s)}</option>`).join('')}</select></label><button class="icon-button saved" type="button" data-fav="${attr(row.app_key)}" title="관심 목록에서 제외" aria-label="${attr(item.name||row.name)} 관심 목록에서 제외">★</button></div>
+    </article>`;
+  }).join('');
+  return `${heading('YOUR IDEAS','관심 목록','눈에 띈 후보를 저장하고 검토 상태·아이디어 메모를 이어서 관리합니다.')}
+    <div class="fav-toolbar"><span class="small-copy">${saved.length}개 저장됨 · 이 브라우저에만 보관</span><div><button class="button ghost small" id="favorites-import">↥ JSON 가져오기</button><button class="button outline-blue small" id="favorites-export">↧ JSON 백업</button></div><input id="favorites-file" class="sr-only" type="file" accept="application/json,.json"></div>
+    ${saved.length?`${toolbar}<section class="panel fav-list-panel"><div class="fav-list-head"><strong>검토 후보 ${rows.length}개</strong><span class="small-copy">상태는 목록에서 변경하고, 아이디어 노트는 상세에서 편집할 수 있습니다.${ui.labAvailability?.status==='error'?' <button type="button" class="text-link" data-retry-lab-availability="true">연구실 연결 다시 확인</button>':''}</span></div>${list||empty('조건에 맞는 저장 후보가 없습니다.','검색어나 검토 상태를 변경해 보세요.')} ${visible.length<rows.length?`<div class="fav-more"><button type="button" class="button ghost" data-favorite-more="true">더 보기 (${visible.length}/${rows.length})</button></div>`:''}</section>`:empty('아직 저장한 앱·게임이 없습니다.','앱 탐색·게임 탐색·인디 발견에서 ☆ 버튼을 눌러 보세요.')}
+    <p class="small-copy fav-storage-note">※ 메모·상태는 공개 서버에 업로드하지 않습니다. 다른 PC로 옮기려면 JSON 백업을 이용하세요. ‘최신 목록 밖’은 수집 목록에서 보이지 않는다는 뜻이며 앱 삭제·서비스 종료를 의미하지 않습니다.</p>`;
 }
 export function renderDetail(key,ui) {
   const item=store.appMap.get(key)||getFavorite(key);
@@ -120,20 +371,51 @@ export function renderDetail(key,ui) {
   const preferred=refs.find(({group})=> group.country===ui.detailContext.country && group.source===ui.detailContext.source && group.category===ui.detailContext.category && group.chart===ui.detailContext.chart) || refs[0];
   const g=preferred?.group||{};
   const fav=getFavorite(key);
-  const countryBoxes=['US','JP','KR'].map(c=>{
-    const candidates=refs.filter(x=>x.group.country===c && x.group.source===g.source && x.group.chart===g.chart && x.group.category===g.category);
-    const result=candidates[0];
-    return `<div><span>${esc(COUNTRY_LABEL[c])}</span><strong>${result?.item?.rank?`${result.item.rank}위`:'기록 없음'}</strong><span>${result?.group?.data_date?formatDate(result.group.data_date):'해당 차트 관측 없음'}</span></div>`;
-  }).join('');
-  const contextOptions=refs.filter(x=>x.item.rank).slice().sort((a,b)=> (a.group.source+a.group.country+a.group.category).localeCompare(b.group.source+b.group.country+b.group.category)).map(({group,item})=>`<option value="${attr([group.country,group.source,group.chart,group.category].join('|'))}" ${g.country===group.country&&g.source===group.source&&g.category===group.category&&g.chart===group.chart?'selected':''}>${esc(`${COUNTRY_LABEL[group.country]||group.country} · ${SOURCE_LABEL[group.source]} · ${CATEGORY_LABEL[group.category]||FEED_LABEL[group.feed]} · ${item.rank||item.position}${item.rank?'위':'번째'}`)}</option>`).join('');
+  const isIndie=key.startsWith('itch:');
+  const source=key.split(':')[0];
   const external=safeUrl(item.detail_url);
-  return `<div style="margin-bottom:15px"><a class="text-link" href="#/${item.kind==='game'?'games':'apps'}">← 목록으로 돌아가기</a></div><section class="panel detail-hero">
-    ${icon(item,'large')}<div class="detail-hero-main"><div class="eyebrow">APP & GAME DETAIL</div><h1>${esc(item.name)}</h1><div class="subtext">${esc(item.developer||'개발사 정보 없음')}</div><div class="detail-info">${sourceTag(key.split(':')[0])}<span class="info-tag">${esc(item.primary_category||'카테고리 정보 없음')}</span>${item.rating!=null?`<span class="info-tag">★ ${Number(item.rating).toFixed(1)}</span>`:''}</div></div>
-    <div class="detail-actions">${external?`<a class="button ghost" href="${attr(external)}" target="_blank" rel="noopener noreferrer">원본 스토어 ↗</a>`:''}<button class="button outline-blue" id="copy-app">앱 정보 복사</button><a class="button ghost" href="#/lab/analysis?app=${encodeURIComponent(key)}">연구실에서 보기</a><button class="button ghost" data-lab-action="toggle-compare" data-key="${attr(key)}">+ 비교</button>${star(item)}</div>
-    </section><div class="detail-grid"><div><section class="panel detail-section"><h2>앱·게임 소개</h2><p>${description(item,1600)}</p>${!item.description&&external?`<a class="text-link" href="${attr(external)}" target="_blank" rel="noopener noreferrer">자세한 설명은 원본에서 확인 →</a>`:''}</section>
-    ${key.startsWith('itch:')?`<section class="panel detail-section"><h2>인디에서 발견</h2><p>itch.io의 공개 피드에 나타난 게임입니다. 피드 노출 순서는 판매량이나 인기 순위가 아닙니다.</p></section>`:`<section class="panel detail-section"><h2>국가별 순위</h2><p class="small-copy">같은 스토어·차트·카테고리 기준으로 표시합니다. 국가별 순위 자체의 크기를 시장 규모로 해석하지 마세요.</p><select class="field-select" id="detail-context" aria-label="순위 차트 선택">${contextOptions}</select><div class="ranks-inline" style="margin:18px 0">${countryBoxes}</div>${g.is_stale?staleTag(g):''}<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-top:24px"><h2 style="margin:0">순위 흐름</h2><div class="chips">${[7,30,90].map(n=>`<button class="chip ${ui.range===n?'selected':''}" data-range="${n}">${n}일</button>`).join('')}</div></div><div id="detail-history" class="empty-state" style="padding:24px">순위 기록을 확인하고 있습니다.</div></section>`}
-    </div><aside><section class="panel detail-section"><h2>✨ 눈여겨볼 점</h2><p>${esc(candidateSentence(candidateFor(key,g)))}</p><p class="small-copy">인기 이유나 게임 방식에 대한 추측 대신, 확인 가능한 수집 사실만 표시합니다.</p></section>
-    <section class="panel detail-section"><h2>⭐ 내 아이디어 노트</h2>${!fav?`<p>관심 목록에 추가하면 여기에서 메모를 남길 수 있습니다.</p><button class="button outline-blue" id="add-detail-favorite" data-key="${attr(key)}">☆ 관심 목록에 추가</button>`:`<label class="sr-only" for="idea-note">아이디어 노트</label><textarea id="idea-note" class="note-box" maxlength="3000" placeholder="눈에 띄는 기능, 생각난 아이디어 등을 적어보세요.">${esc(fav.note)}</textarea><div class="note-actions"><select id="idea-status" class="field-select">${['관심','살펴보는 중','개발 후보'].map(x=>`<option ${fav.status===x?'selected':''}>${x}</option>`).join('')}</select><button id="save-note" class="button small">메모 저장</button></div>`}</section></aside></div>`;
+  const release=source==='apple' && /^\d{4}-\d{2}-\d{2}$/.test(String(item.release_date||'').slice(0,10))?item.release_date:'';
+  const contextOptions=refs.filter(x=>Number.isFinite(Number(x.item.rank))&&x.item.rank!=null).slice()
+    .sort((a,b)=>(a.group.source+a.group.country+a.group.category).localeCompare(b.group.source+b.group.country+b.group.category))
+    .map(({group,item:entry})=>`<option value="${attr([group.country,group.source,group.chart,group.category].join('|'))}" ${g.country===group.country&&g.source===group.source&&g.category===group.category&&g.chart===group.chart?'selected':''}>${esc(`${COUNTRY_LABEL[group.country]||group.country} · ${SOURCE_LABEL[group.source]} · ${CATEGORY_LABEL[group.category]||group.category} · ${group.chart==='top_paid'?'유료':'무료'} · ${entry.rank}위`)}</option>`).join('');
+  const countryBoxes=['US','JP','KR'].map(c=>{
+    const result=refs.find(x=>x.group.country===c && x.group.source===g.source && x.group.chart===g.chart && x.group.category===g.category);
+    const state=result?groupAvailability(result.group):'empty';
+    return `<div class="detail-country ${state==='previous'?'is-previous':''}"><span>${esc(COUNTRY_LABEL[c])}</span><strong>${result?.item?.rank?`${esc(result.item.rank)}위`:'관측 없음'}</strong><span>${result?.group?.data_date?`${state==='previous'?'이전 기록 · ':''}${formatDate(result.group.data_date)}`:'선택한 차트 기준'}</span></div>`;
+  }).join('');
+  const chartName= !isIndie && g.source?`${COUNTRY_LABEL[g.country]||g.country} · ${SOURCE_LABEL[g.source]||g.source} · ${CATEGORY_LABEL[g.category]||g.category} · ${g.chart==='top_paid'?'유료':'무료'}`:'';
+  const first=item.first_seen?formatDate(item.first_seen):'미확인';
+  const discoveryStatus=g.data_date?`${g.is_stale?'이전 기록 · ':''}${formatDate(g.data_date)}`:'현재 차트에 없음';
+  const observedContext=!isIndie && g.source?`<span class="detail-evidence-context">현재 선택한 관측: ${esc(chartName)}</span>`:
+    isIndie?'<span class="detail-evidence-context">itch.io 피드 관측 · 인기 순위가 아닙니다.</span>':'<span class="detail-evidence-context">현재 차트의 관측 기록이 없습니다.</span>';
+  const statCells=[
+    ['우리 사이트 첫 관측',first,'실제 출시일과 다릅니다'],
+    ['선택된 차트 관측일',discoveryStatus,g.is_stale?'이전 정상 자료':'실제 수집 기록 기준'],
+    ...(release?[['App Store 출시일',formatDate(release),'스토어 제공 날짜']]:[]),
+    ['수집 목록 발견',`${refs.length}곳`,'국가·분류·피드를 합산한 노출 수']
+  ];
+  const sourceOverview=`<section class="panel detail-section detail-observation" aria-label="수집 관측 정보"><div class="detail-section-head"><h2>수집 관측 정보</h2><span class="info-tag blue">실제 수집 자료</span></div>${observedContext}<div class="detail-facts">${statCells.map(([label,value,help])=>`<div class="detail-fact"><span>${esc(label)}</span><strong>${esc(value)}</strong><small>${esc(help)}</small></div>`).join('')}</div>
+    ${!release?'<p class="small-copy detail-limitation">실제 출시일은 이 자료에 포함되어 있지 않습니다. 첫 관측일을 출시일로 표시하지 않습니다.</p>':''}</section>`;
+  const indieFeeds=[...new Set(refs.map(x=>x.group.feed).filter(Boolean))];
+  const indieEvidence=`<section class="panel detail-section"><h2>인디 피드 발견 기록</h2><p class="small-copy">피드 내 위치는 인기 순위·다운로드·판매량이 아닙니다.</p><div class="detail-indie-feeds">${indieFeeds.map(feed=>{
+    const found=refs.find(x=>x.group.feed===feed);
+    return `<div><strong>${esc(FEED_LABEL[feed]||feed)}</strong><span>${found?.item?.position?`피드 ${esc(found.item.position)}번째 · `:''}${formatDate(found?.group?.data_date)}${found?.group?.is_stale?' · 이전 기록':''}</span></div>`;
+  }).join('')||'<p>최신 피드 관측 자료 없음</p>'}</div></section>`;
+  const ranks=`<section class="panel detail-section"><div class="detail-section-head"><h2>국가별 순위·이력</h2>${g.is_stale?staleTag(g):''}</div>
+    ${contextOptions?`<p class="small-copy">같은 스토어·차트·분류에서만 국가를 비교합니다. 서로 다른 순위를 합산하지 않습니다.</p>
+    <label for="detail-context" class="detail-field-label">관측 차트 선택</label><select class="field-select" id="detail-context">${contextOptions}</select>
+    <div class="ranks-inline detail-ranks">${countryBoxes}</div><div class="detail-history-top"><div><h3>순위 흐름</h3><p class="small-copy">${esc(chartName)} · ${formatDate(g.data_date)} 기준</p></div><div class="chips">${[7,30,90].map(n=>`<button class="chip ${ui.range===n?'selected':''}" data-range="${n}" aria-pressed="${ui.range===n}">${n}일</button>`).join('')}</div></div>
+    <div id="detail-history" class="detail-history-box">순위 기록을 확인하고 있습니다.</div>`:'<p class="small-copy">현재 표시 가능한 순위 기록이 없습니다.</p>'}</section>`;
+  const descriptionPanel=`<section class="panel detail-section detail-description"><h2>앱·게임 소개</h2>${item.description?`<p>${esc(item.description)}</p>`:`<p class="small-copy">수집된 소개 문구가 없습니다. 기능·게임 방식을 추정하지 않으며, 제공된 경우 원본 페이지에서 확인할 수 있습니다.</p>`}${external?`<a class="text-link" href="${attr(external)}" target="_blank" rel="noopener noreferrer">원본 페이지에서 살펴보기 ↗</a>`:''}</section>`;
+  const returnPage=ui.detailFrom==='favorites'?'favorites':ui.detailFrom==='lab'?'lab':ui.detailFrom==='indie'?'indie':ui.detailFrom==='home'?'home':isIndie?'indie':item.kind==='game'?'games':'apps';
+  const returnHref=returnPage==='lab'?`#/lab/${['radar','features','analysis','compare','export'].includes(ui.detailLabTab)?ui.detailLabTab:'radar'}`:`#/${returnPage}`;
+  const returnLabel=returnPage==='favorites'?'관심 목록으로':returnPage==='lab'?'아이디어 연구실로':returnPage==='indie'?'인디 발견으로':returnPage==='home'?'홈으로':returnPage==='games'?'게임 탐색으로':'앱 탐색으로';
+  return `<div style="margin-bottom:15px"><a class="text-link" href="${attr(returnHref)}">← ${returnLabel} 돌아가기</a></div><section class="panel detail-hero">
+    ${icon(item,'large')}<div class="detail-hero-main"><div class="eyebrow">APP & GAME DETAIL</div><h1>${esc(item.name)}</h1><div class="subtext">${esc(item.developer||'개발사 정보 없음')}</div><div class="detail-info">${sourceTag(source)}<span class="info-tag">${esc(item.primary_category||CATEGORY_LABEL[g.category]||'분류 미확인')}</span>${item.rating!=null&&Number.isFinite(Number(item.rating))?`<span class="info-tag">★ ${Number(item.rating).toFixed(1)}</span>`:''}</div></div>
+    <div class="detail-actions">${external?`<a class="button ghost" href="${attr(external)}" target="_blank" rel="noopener noreferrer">원본 스토어 ↗</a>`:''}<button class="button outline-blue" id="copy-app">앱 정보 복사</button>${labLinks(key,ui,{detail:true})}${star(item)}</div>
+    </section><div class="detail-grid"><div>${sourceOverview}${isIndie?indieEvidence:ranks}${descriptionPanel}</div>
+    <aside><section class="panel detail-section"><h2>✨ 눈여겨볼 점</h2><p>${esc(candidateSentence(candidateFor(key,g.source?g:null)))}</p><p class="small-copy">순위 관측은 확인할 수 있지만, 인기 원인과 실제 구현 방식까지 증명하지는 않습니다.</p></section>
+    <section class="panel detail-section"><h2>⭐ 내 아이디어 노트</h2>${!fav?`<p>관심 목록에 추가하면 여기에서 메모를 남길 수 있습니다.</p><button class="button outline-blue" id="add-detail-favorite" data-key="${attr(key)}">☆ 관심 목록에 추가</button>`:`<label class="sr-only" for="idea-note">아이디어 노트</label><textarea id="idea-note" class="note-box" maxlength="3000" placeholder="눈에 띄는 기능, 생각난 아이디어 등을 적어보세요.">${esc(fav.note)}</textarea><div class="note-actions"><select id="idea-status" class="field-select">${FAVORITE_STATUSES.map(x=>`<option ${fav.status===x?'selected':''}>${x}</option>`).join('')}</select><button id="save-note" class="button small">메모 저장</button></div>`}</section></aside></div>`;
 }
 
 export function renderHistory(points, g, range, lastDay) {
@@ -142,7 +424,7 @@ export function renderHistory(points, g, range, lastDay) {
   if (Number.isNaN(end.getTime())) return empty('기록이 없습니다.');
   const start=new Date(end.getTime()-(range-1)*86400000);
   const vals=points.filter(p=> p.source===g.source&&p.country===g.country&&p.chart===g.chart&&p.category===g.category && new Date(`${p.date}T00:00:00Z`)>=start&&new Date(`${p.date}T00:00:00Z`)<=end).sort((a,b)=>a.date.localeCompare(b.date));
-  if(vals.length<2)return `<div class="empty-state" style="padding:34px 10px"><strong>비교할 기록이 아직 부족합니다.</strong><p>현재 확인 가능한 관측일 ${vals.length}일. 수집이 쌓이면 날짜별 순위 흐름을 보여줍니다.</p></div>`;
+  if(vals.length<2)return `<div class="empty-state" style="padding:26px 10px"><strong>${vals.length===1?`${formatDate(vals[0].date)} · ${esc(vals[0].rank)}위 관측`:'이 기간에 확인된 순위 기록이 없습니다.'}</strong><p>${vals.length===1?'관측일이 하루라 순위 상승·하락을 판단할 수 없습니다.':'해당 국가·스토어·차트·분류에서 관측된 기록이 없습니다.'}</p></div>`;
   const max=Math.max(10,...vals.map(x=>x.rank));
   const w=720,h=230,left=46,right=16,top=25,bottom=37;
   const x=d=>left+(Date.parse(`${d}T00:00:00Z`)-start.getTime())/((range-1)*86400000)*(w-left-right);
@@ -157,5 +439,5 @@ export function renderHistory(points, g, range, lastDay) {
     ${t.map(r=>`<line x1="${left}" x2="${w-right}" y1="${y(r)}" y2="${y(r)}" stroke="#e8eef5"/><text x="${left-10}" y="${y(r)+4}" text-anchor="end" font-size="12" fill="#8190a2">${r}위</text>`).join('')}
     ${seg.join('')}${vals.map(v=>`<circle cx="${x(v.date).toFixed(1)}" cy="${y(v.rank).toFixed(1)}" r="4.1" fill="#3378d6"><title>${v.date}: ${v.rank}위</title></circle>`).join('')}
     <text x="${left}" y="${h-9}" font-size="12" fill="#8190a2">${formatDate(start.toISOString())}</text><text x="${w-right}" y="${h-9}" text-anchor="end" font-size="12" fill="#8190a2">${formatDate(lastDay)}</text>
-  </svg><p class="small-copy">실제로 수집한 ${vals.length}일의 순위만 표시하며, 누락된 날짜 사이의 선은 연결하지 않습니다.</p>`;
+  </svg><div class="history-summary"><span>관측 <b>${vals.length}일</b></span><span>첫 기록 <b>${formatDate(vals[0].date)} · ${esc(vals[0].rank)}위</b></span><span>마지막 기록 <b>${formatDate(vals[vals.length-1].date)} · ${esc(vals[vals.length-1].rank)}위</b></span></div><p class="small-copy">수집한 날짜만 표시합니다. 빠진 날짜의 순위는 추정하지 않고 선을 연결하지 않습니다.</p>`;
 }

@@ -75,6 +75,47 @@ def build(root: Path = ROOT) -> dict:
         (hdir / f'{index}.json').write_text(json.dumps(by_app, ensure_ascii=False, separators=(',', ':')),
                                                 encoding='utf-8')
 
+    # Tiny daily movement index, derived only from already collected ranking CSVs.
+    # No cross-store/country/category comparisons, no missing-day assumptions.
+    movements: dict[str, dict] = {}
+    for group in latest['groups']:
+        if group.get('source') == 'itch' or group.get('is_stale'):
+            continue
+        source = group.get('source')
+        country = group.get('country')
+        category = group.get('category')
+        chart = group.get('chart')
+        after_date = group.get('data_date')
+        if not (source and country and category and chart and after_date):
+            continue
+        for item in group.get('items', []):
+            key = item.get('app_key')
+            if not key:
+                continue
+            observations = [point for point in buckets.get(shard_for_key(key), {}).get(key, [])
+                            if point['source'] == source and point['country'] == country
+                            and point['chart'] == chart and point['category'] == category
+                            and point['date'] <= after_date]
+            by_day = {point['date']: point for point in observations}
+            current = by_day.get(after_date)
+            previous_dates = [day for day in by_day if day < after_date]
+            if not current or not previous_dates:
+                continue
+            before_date = max(previous_dates)
+            gap = (dt.date.fromisoformat(after_date) - dt.date.fromisoformat(before_date)).days
+            if not (1 <= gap <= 7) or current['rank'] != item.get('rank'):
+                continue
+            key_parts = (key, source, country, chart, category)
+            movement_key = '|'.join(key_parts)
+            movements[movement_key] = {
+                'before_date': before_date, 'after_date': after_date,
+                'before_rank': by_day[before_date]['rank'], 'after_rank': current['rank'],
+                'change': by_day[before_date]['rank'] - current['rank'], 'gap_days': gap,
+            }
+    movement_doc = {'schema_version': 1, 'data_date': day, 'movements': movements}
+    (dest_data / 'movements.json').write_text(
+        json.dumps(movement_doc, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+
     # Publish stable download names (only the latest generated export for each period).
     dest_export.mkdir(parents=True, exist_ok=True)
     for prev in dest_export.glob('*.csv'):
@@ -116,7 +157,7 @@ def build(root: Path = ROOT) -> dict:
 
     # All JS data URLs are document-relative (./data, ./exports). Publish
     # these snapshots to their real URLs, leaving data/web/ as the authority.
-    for name in ('latest.json', 'trends.json', 'status.json'):
+    for name in ('latest.json', 'trends.json', 'status.json', 'movements.json'):
         shutil.copyfile(dest_data / name, data / name)
     public_history = data / 'history'
     public_history.mkdir(parents=True, exist_ok=True)
