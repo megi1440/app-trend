@@ -40,6 +40,17 @@ def analysed_on_day(existing: dict, day: str) -> int:
     """Count completed analyses by Korean calendar date, including imported V2 work."""
     count = 0
     for record in existing.values():
+        # Daily batches belong to the KST day on which their run started.
+        # An API response may arrive after midnight; preserve that day's quota.
+        quota_day = record.get('quota_day')
+        if isinstance(quota_day, str):
+            try:
+                dt.date.fromisoformat(quota_day)
+            except ValueError:
+                pass
+            else:
+                count += quota_day == day
+                continue
         stamp = record.get('analysed_at', '')
         try:
             parsed = dt.datetime.fromisoformat(stamp.replace('Z', '+00:00'))
@@ -250,8 +261,8 @@ def choose_candidates(snapshot: dict, trends: dict, existing: dict, failures: di
 
 
 def _save_entry(row: dict, analysis: dict, model: str, generated_at: str, *,
-                description: str, origin: str) -> dict:
-    return {
+                description: str, origin: str, quota_day: str = '') -> dict:
+    record = {
         'app_key': row['app_key'], 'name': row.get('name', ''),
         'source': row.get('source', ''), 'country': row.get('country', ''),
         'category': row.get('category', ''), 'detail_url': row.get('detail_url', ''),
@@ -266,6 +277,9 @@ def _save_entry(row: dict, analysis: dict, model: str, generated_at: str, *,
         },
         'origin': origin, 'ai_generated': True,
     }
+    if quota_day:
+        record['quota_day'] = quota_day
+    return record
 
 
 def _load_json(path: Path, *, optional: bool = False) -> dict:
@@ -390,7 +404,7 @@ def run(root: Path, *, snapshot: dict, trends: dict, api_key: str = '',
             records = [
                 _save_entry(row, by_analysis[row['app_key']], report['model'],
                             report['generated_at'], description=row['description'],
-                            origin='daily_v3')
+                            origin='daily_v3', quota_day=run_day)
                 for row in selected
             ]
             added = write_records(root, records, existing)

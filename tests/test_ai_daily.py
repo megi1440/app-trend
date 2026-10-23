@@ -94,6 +94,15 @@ class DailyTests(unittest.TestCase):
         }
         self.assertEqual(ai_daily.analysed_on_day(data, '2026-10-22'), 2)
         self.assertEqual(ai_daily.analysed_on_day(data, '2026-10-23'), 1)
+        # A batch started on the 22nd may finish after midnight.
+        # Its original KST run day, not response time, consumes the quota.
+        data['cross_midnight'] = {
+            'quota_day': '2026-10-22',
+            'analysed_at': '2026-10-23T00:05:00+09:00',
+            'data_date': '2026-10-22',
+        }
+        self.assertEqual(ai_daily.analysed_on_day(data, '2026-10-22'), 3)
+        self.assertEqual(ai_daily.analysed_on_day(data, '2026-10-23'), 1)
 
     def test_daily_cap_applies_across_multiple_runs_and_preview(self):
         with TemporaryDirectory() as td:
@@ -124,6 +133,8 @@ class DailyTests(unittest.TestCase):
             self.assertEqual(result['remaining_today'], 0)
             self.assertEqual(len(ai_daily.load_records(home)), 60)
             self.assertEqual(api.call_count, 1)
+            self.assertEqual({entry['quota_day'] for entry in ai_daily.load_records(home).values()
+                              if entry.get('origin') == 'daily_v3'}, {'2026-10-22'})
 
             fetch.reset_mock()
             again = ai_daily.run(home, snapshot=snapshot(), trends=trends(),
