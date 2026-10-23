@@ -85,6 +85,88 @@
       },
       "origin": "imported_v2",
       "ai_generated": true
+    },
+    "itch:7e131ff07af027a77906": {
+      "app_key": "itch:7e131ff07af027a77906",
+      "name": "The Song Festival [Free] [Other]",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://terenty.itch.io/the-song-festival",
+      "data_date": "2026-10-24",
+      "analysed_at": "2026-10-24T07:11:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Invite your neighbors to The Song Festival!",
+      "analysis": {
+        "app_key": "itch:7e131ff07af027a77906",
+        "summary_ko": "이웃들을 노래 축제에 초대하는 게임입니다. 구체적인 게임 플레이 방식이나 장르는 소개문에 명시되어 있지 않아 확인이 어렵습니다.",
+        "features_ko": [
+          "이웃을 초대하는 상호작용이 포함되어 있을 것으로 추정됩니다."
+        ],
+        "noteworthy_ko": "소개문이 매우 짧아 게임의 핵심 메커니즘을 파악하기 어렵습니다. 개발 관점에서는 최소한의 컨셉으로 시작하는 단계로 보입니다.",
+        "development_ko": "정보가 부족하여 핵심 기술을 특정하기 어렵습니다. 기본적인 캐릭터 상호작용 시스템과 이벤트 트리거 구현이 필요할 것으로 보입니다.",
+        "idea_ko": "이웃들의 취향에 맞는 노래를 선택하여 축제 분위기를 고조시키는 리듬 매칭 게임으로 확장할 수 있습니다.",
+        "highlights_ko": [
+          "노래 축제라는 명확한 테마를 가지고 있습니다.",
+          "이웃 초대라는 사회적 상호작용을 핵심 요소로 삼고 있습니다."
+        ],
+        "systems_ko": [
+          "캐릭터 대화 시스템",
+          "이벤트 관리 시스템",
+          "UI 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "판단 어려움",
+          "reason": "게임의 구체적인 규칙이나 장르에 대한 정보가 전혀 없어 난이도를 산정할 수 없습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "이웃 캐릭터 배치",
+            "초대 상호작용"
+          ],
+          "defer": [
+            "복잡한 퀘스트 라인",
+            "멀티플레이 기능"
+          ],
+          "risks": [
+            "게임의 목표가 불분명함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "이웃 취향 맞춤형 초대",
+            "concept": "이웃마다 선호하는 음악 장르를 파악하여 축제에 초대하는 전략 게임입니다. 올바른 초대장을 보낼수록 축제 성공도가 올라갑니다.",
+            "first_step": "이웃 캐릭터 3명과 초대장 선택지 UI를 구현합니다."
+          },
+          {
+            "title": "축제 준비 시뮬레이션",
+            "concept": "축제 장소를 꾸미고 노래 목록을 관리하는 경영 시뮬레이션입니다. 이웃들이 만족할 만한 환경을 조성해야 합니다.",
+            "first_step": "장소 배치 시스템과 만족도 수치 표시 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "정보가 부족하여 추천하기 어렵습니다. 게임의 핵심 재미 요소가 무엇인지 먼저 정의하는 과정이 필요합니다.",
+        "source_limitations_ko": "게임의 장르, 플랫폼, 핵심 규칙 등 모든 정보가 부족합니다. 실제 구현된 기능은 알 수 없습니다.",
+        "name": "The Song Festival [Free] [Other]",
+        "source": "itch",
+        "detail_url": "https://terenty.itch.io/the-song-festival",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 341,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 13,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-24"
     }
   }
 }

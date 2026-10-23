@@ -359,6 +359,183 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-23"
+    },
+    "itch:79961cae930cc7e80972": {
+      "app_key": "itch:79961cae930cc7e80972",
+      "name": "Frostbell Market [Free] [Strategy]",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://trumpifyprints.itch.io/frostbell-market",
+      "data_date": "2026-10-24",
+      "analysed_at": "2026-10-24T07:11:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A cosy property-trading board game for 2 to 4 players on one device. Free in your browser.",
+      "analysis": {
+        "app_key": "itch:79961cae930cc7e80972",
+        "summary_ko": "2~4명의 플레이어가 하나의 기기에서 즐길 수 있는 부동산 거래 보드게임입니다. 아늑한 분위기 속에서 자산을 거래하며 승부를 겨룹니다. 웹 브라우저에서 무료로 플레이 가능합니다.",
+        "features_ko": [
+          "2~4인용 로컬 멀티플레이를 지원합니다.",
+          "부동산 거래를 중심으로 한 보드게임 규칙을 따릅니다."
+        ],
+        "noteworthy_ko": "로컬 멀티플레이 환경에서의 턴제 시스템 구현이 핵심입니다. 여러 플레이어의 상태를 관리하고 동기화하는 로직이 중요합니다.",
+        "development_ko": "턴제 보드게임 엔진과 UI 구현이 핵심입니다. 플레이어 간의 자산 데이터 관리와 보드판 이동 로직이 필요합니다. 밸런스 조정은 테스트를 통해 반복적으로 수행해야 합니다.",
+        "idea_ko": "부동산 거래에 '날씨'나 '사건' 카드를 추가하여 변수를 만드는 시스템을 도입하는 것이 좋습니다.",
+        "highlights_ko": [
+          "하나의 기기에서 즐기는 로컬 멀티플레이.",
+          "부동산 거래 중심의 전략적 요소."
+        ],
+        "systems_ko": [
+          "턴제 게임 상태 관리",
+          "보드판 이동 로직",
+          "자산 및 화폐 관리 시스템",
+          "UI 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "턴제 로직과 멀티플레이어 상태 관리는 구현 난이도가 적당하며, 보드게임의 규칙을 코드로 옮기는 과정에서 논리적 사고를 기를 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "턴제 시스템",
+            "부동산 구매 및 판매 로직",
+            "플레이어 자산 관리"
+          ],
+          "defer": [
+            "복잡한 그래픽 효과",
+            "온라인 멀티플레이 기능"
+          ],
+          "risks": [
+            "플레이어 간 밸런스 불균형",
+            "로컬 플레이 시의 UI 가독성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "우주 정거장 거래 게임",
+            "concept": "부동산 대신 우주 정거장의 구역을 거래하는 보드게임입니다. 각 구역의 자원 생산 효율이 다릅니다.",
+            "first_step": "보드판의 각 칸에 자원 생산 값을 부여하고 플레이어가 구매하는 로직 구현."
+          },
+          {
+            "title": "카드 기반 부동산 게임",
+            "concept": "보드판 없이 카드 조합만으로 부동산을 운영하는 전략 게임입니다.",
+            "first_step": "부동산 카드와 화폐 카드를 사용하여 자산을 늘리는 기본 규칙 구현."
+          }
+        ],
+        "recommendation_ko": "턴제 게임의 상태 관리와 로컬 멀티플레이 구현을 배우기에 좋습니다. 보드게임 개발에 관심 있는 개발자에게 추천합니다.",
+        "source_limitations_ko": "구체적인 보드게임 규칙, 승리 조건, 자산 거래의 세부 로직 등에 대한 정보가 부족합니다.",
+        "name": "Frostbell Market [Free] [Strategy]",
+        "source": "itch",
+        "detail_url": "https://trumpifyprints.itch.io/frostbell-market",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 359,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 7,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-24"
+    },
+    "apple:6813841355": {
+      "app_key": "apple:6813841355",
+      "name": "Toastie: grilled cheese game",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/kr/app/toastie-grilled-cheese-game/id6813841355?uo=2",
+      "data_date": "2026-10-24",
+      "analysed_at": "2026-10-24T07:11:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Toastie turns your iPhone into a toaster. Make a grilled cheese sandwich from scratch: butter the bread, lay on the cheese and fillings, and put it in the toaster. Close the lid and it starts toasting in real time. Open it too early and the cheese hasn't melted; leave it too long and it burns. Take it out at the right moment and you get a perfect toastie. HOW IT WORKS • Butter the bread with your finger: cover the slice, on the right side. • Drag the cheese and fillings onto the bread and spread them out. • Hurry: customers are waiting. You have 15 seconds to build each order. • Press GRILL, close the lid, and wait for the sizzle. • Open it to check, or trust your timing, then serve. • Every sandwich gets a score card: recipe, plating, toasting and prep time. Five stars turn it gold. • Four stars unlock the next recipe. 10 RECIPES From a Classic Grilled Cheese and Cheese & Tomato to Brie & Cranberry, Kimchi, Mushroom & Taleggio, Pesto, Tomato & Gruyère and The Works. White sandwich loaf, sourdough and brioche, 14 real ingredients, each with its own recipe card. MADE FOR IPHONE DUO Toastie plays on any iPhone and iPad. On iPhone Duo, the phone itself becomes the toaster: fold it shut to close the lid, and open it to see how your sandwich is doing. ALSO • Share your toastie to Instagram Stories or X. • Your progress syncs with iCloud across your devices. • Game Center leaderboard and achievements. • No ads, no tracking, no in-app purchases. Pay once. The world's most expensive toaster.",
+      "analysis": {
+        "app_key": "apple:6813841355",
+        "summary_ko": "Toastie는 아이폰을 토스터로 활용하여 샌드위치를 만드는 요리 시뮬레이션 게임입니다. 재료를 준비하고 토스터에 넣어 적절한 타이밍에 꺼내는 것이 핵심입니다. 15초라는 제한 시간 내에 완벽한 샌드위치를 만들어 점수를 획득합니다.",
+        "features_ko": [
+          "손가락으로 빵에 버터를 바르는 상호작용을 제공합니다.",
+          "다양한 재료를 드래그하여 빵 위에 배치할 수 있습니다.",
+          "15초의 제한 시간 내에 주문을 완료해야 합니다.",
+          "기기를 닫거나 열어 토스팅 상태를 실시간으로 확인합니다.",
+          "완성된 샌드위치에 대해 레시피, 플레이팅, 시간 등을 평가합니다."
+        ],
+        "noteworthy_ko": "기기의 물리적 형태(폴더블 등)를 게임 플레이와 연결한 점이 매우 흥미롭습니다. 타이밍 기반의 조리 메커니즘은 단순하지만 높은 몰입감을 줄 것으로 추정됩니다.",
+        "development_ko": "터치 드래그 앤 드롭 구현과 타이머 기반의 상태 관리(굽기 정도)가 핵심입니다. 물리적 기기 상태 감지 기능이 포함되어 있어 하드웨어 연동 테스트가 중요합니다.",
+        "idea_ko": "기기의 센서를 활용하여 굽기 정도를 조절하는 타이밍 기반의 요리 시뮬레이션입니다.",
+        "highlights_ko": [
+          "기기 자체를 토스터로 활용하는 독창적인 인터페이스를 갖췄습니다.",
+          "14가지 실제 재료와 다양한 레시피를 통해 수집 요소를 제공합니다."
+        ],
+        "systems_ko": [
+          "드래그 앤 드롭 입력 시스템",
+          "시간 기반 상태 관리 시스템",
+          "점수 평가 알고리즘",
+          "데이터 저장(iCloud) 시스템",
+          "UI/UX 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "핵심 메커니즘은 단순하지만, 재료 배치와 타이밍 판정의 밸런스를 맞추는 과정에서 세밀한 조정이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "재료 배치 시스템",
+            "토스팅 타이머 로직",
+            "결과 평가 시스템"
+          ],
+          "defer": [
+            "리더보드",
+            "소셜 미디어 공유 기능"
+          ],
+          "risks": [
+            "타이밍 판정의 직관성 부족",
+            "재료 배치 시의 터치 정확도 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "커스텀 샌드위치 챌린지",
+            "concept": "제한된 재료로 고객의 까다로운 주문을 맞추는 모드입니다. 창의적인 조합으로 높은 점수를 얻는 것이 목표입니다.",
+            "first_step": "재료 조합에 따른 점수 계산 로직을 구현합니다."
+          },
+          {
+            "title": "토스터 수리점",
+            "concept": "고장 난 토스터를 고치고 샌드위치를 굽는 경영 시뮬레이션입니다. 기기 상태에 따라 굽기 난이도가 달라집니다.",
+            "first_step": "토스터 상태 변수와 굽기 결과의 상관관계를 설정합니다."
+          }
+        ],
+        "recommendation_ko": "단순한 메커니즘을 어떻게 시각적·상호작용적으로 풍성하게 만드는지 배울 수 있는 좋은 사례입니다. 물리적 기기 활용 아이디어를 얻기에 적합합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 외부 결제나 광고 기능은 없으며, 실제 코드 구조나 물리 엔진 사용 여부는 알 수 없습니다.",
+        "name": "Toastie: grilled cheese game",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/toastie-grilled-cheese-game/id6813841355?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 339,
+        "reasons": [
+          "multi_country",
+          "newly_seen"
+        ],
+        "best_rank": 17,
+        "countries": [
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-24"
     }
   }
 }

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "items": {
+    "itch:86925af21343382a11d9": {
+      "app_key": "itch:86925af21343382a11d9",
+      "name": "Element Mix: Discover & Combine [Free] [Puzzle]",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://piyushkalra.itch.io/element-mix",
+      "data_date": "2026-10-24",
+      "analysed_at": "2026-10-24T07:11:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Mix water, fire, earth and air to discover 75 things, from steam to dragons. Calm, free, plays in your browser.",
+      "analysis": {
+        "app_key": "itch:86925af21343382a11d9",
+        "summary_ko": "물, 불, 땅, 공기 등 기본 요소를 조합하여 새로운 사물을 발견하는 퍼즐 게임입니다. 스팀부터 드래곤까지 총 75가지의 요소를 발견할 수 있습니다. 웹 브라우저에서 차분하게 즐길 수 있는 무료 게임입니다.",
+        "features_ko": [
+          "4가지 기본 요소를 조합하여 새로운 결과물을 생성합니다.",
+          "총 75가지의 발견 가능한 사물 리스트를 제공합니다."
+        ],
+        "noteworthy_ko": "조합 시스템을 기반으로 한 단순하고 명확한 게임 루프가 특징입니다. 개발 관점에서는 요소 간의 조합 규칙을 관리하는 데이터베이스 설계가 핵심입니다.",
+        "development_ko": "조합 결과를 저장하는 데이터 구조와 UI 구현이 핵심입니다. 75가지의 조합 규칙을 관리하는 로직은 비교적 단순하지만, 확장성을 고려한 설계가 필요합니다. 콘텐츠 제작 부담은 적은 편입니다.",
+        "idea_ko": "조합 결과에 따라 스토리가 분기되는 '연금술사 이야기' 형태의 게임으로 확장하는 것이 좋습니다.",
+        "highlights_ko": [
+          "직관적인 조합 규칙을 통한 퍼즐 경험.",
+          "웹 브라우저 기반의 접근성."
+        ],
+        "systems_ko": [
+          "요소 조합 로직",
+          "발견 도감 시스템",
+          "UI/UX 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 단순하고 구현해야 할 데이터 양이 적어 1인 개발자가 시도하기에 매우 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "요소 선택 및 조합 로직",
+            "결과물 표시 UI"
+          ],
+          "defer": [
+            "복잡한 애니메이션 효과",
+            "저장 및 불러오기 기능"
+          ],
+          "risks": [
+            "조합 규칙의 단순함으로 인한 짧은 플레이 타임"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "감정 조합 퍼즐",
+            "concept": "기본 감정들을 조합하여 복합적인 심리 상태를 발견하는 퍼즐 게임입니다. 각 감정의 조합이 캐릭터의 대사에 영향을 줍니다.",
+            "first_step": "두 가지 감정을 조합하여 새로운 감정 아이콘을 출력하는 프로토타입 제작."
+          },
+          {
+            "title": "생태계 조합 시뮬레이터",
+            "concept": "생물과 환경 요소를 조합하여 자신만의 작은 생태계를 구성하는 게임입니다.",
+            "first_step": "생물과 환경을 조합하여 새로운 개체를 생성하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 기본 로직과 데이터 기반 시스템을 학습하기에 매우 좋습니다. 가볍게 시작할 수 있는 프로젝트로 추천합니다.",
+        "source_limitations_ko": "조합 규칙의 구체적인 데이터 구조나 게임의 전체적인 흐름, 승리 조건 등에 대한 정보가 부족합니다.",
+        "name": "Element Mix: Discover & Combine [Free] [Puzzle]",
+        "source": "itch",
+        "detail_url": "https://piyushkalra.itch.io/element-mix",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 365,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 5,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-24"
+    }
+  }
+}

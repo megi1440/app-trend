@@ -166,6 +166,93 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-23"
+    },
+    "itch:6424faa211b3c258877a": {
+      "app_key": "itch:6424faa211b3c258877a",
+      "name": "Snack Hole [Free] [Action]",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://samadipour.itch.io/snack-hole",
+      "data_date": "2026-10-24",
+      "analysed_at": "2026-10-24T07:11:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Start as a pothole. End as a black hole.",
+      "analysis": {
+        "app_key": "itch:6424faa211b3c258877a",
+        "summary_ko": "작은 구멍에서 시작하여 블랙홀로 성장하는 방치형 게임입니다. 주변 사물을 흡수하며 점점 커지는 성장 과정을 다룹니다.",
+        "features_ko": [
+          "작은 구멍에서 시작하여 점진적으로 성장합니다.",
+          "주변 사물을 흡수하는 메커니즘을 포함합니다.",
+          "최종적으로 블랙홀이 되는 목표를 가집니다."
+        ],
+        "noteworthy_ko": "성장이라는 단순한 목표를 방치형 장르와 결합하여 중독성을 유도합니다. 흡수 대상의 크기 제한과 성장 곡선 설계가 핵심일 것으로 추정됩니다.",
+        "development_ko": "객체 흡수 판정 시스템과 크기 증가 로직이 핵심입니다. 방치형 게임 특성상 재화나 점수 획득에 대한 밸런스 조정이 중요합니다.",
+        "idea_ko": "흡수한 사물의 종류에 따라 블랙홀의 속성이나 색상이 변하는 성장 시뮬레이션입니다.",
+        "highlights_ko": [
+          "성장이라는 명확한 루프를 가지고 있습니다.",
+          "구멍에서 블랙홀로 이어지는 직관적인 컨셉입니다."
+        ],
+        "systems_ko": [
+          "충돌 판정 시스템",
+          "객체 생성 및 관리 시스템",
+          "성장 수치 관리 시스템",
+          "UI 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 단순하고 방치형 장르 특성상 구현 범위가 명확하여 1인 개발에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "흡수 메커니즘",
+            "크기 증가 로직",
+            "기본 사물 생성"
+          ],
+          "defer": [
+            "다양한 블랙홀 스킨",
+            "복잡한 업그레이드 트리"
+          ],
+          "risks": [
+            "단조로운 플레이 루프",
+            "성장 속도 밸런스 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "속성 블랙홀",
+            "concept": "흡수하는 사물의 색상에 따라 블랙홀의 능력이 변합니다. 특정 색상을 모으면 특수 효과가 발동합니다.",
+            "first_step": "색상별 흡수 카운트 시스템을 구현합니다."
+          },
+          {
+            "title": "우주 청소부",
+            "concept": "우주 쓰레기를 흡수하여 행성을 정화하는 게임입니다. 쓰레기 종류에 따라 점수가 다릅니다.",
+            "first_step": "다양한 객체 생성 및 점수 합산 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 기본 루프를 구현해보고 싶은 개발자에게 추천합니다. 성장 곡선 설계와 객체 관리의 기초를 배우기 좋습니다.",
+        "source_limitations_ko": "구체적인 흡수 방식이나 레벨 디자인에 대한 정보는 없습니다.",
+        "name": "Snack Hole [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://samadipour.itch.io/snack-hole",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 329,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 17,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-24"
     }
   }
 }
