@@ -451,6 +451,98 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-23"
+    },
+    "apple:6483539426": {
+      "app_key": "apple:6483539426",
+      "name": "フォートナイト",
+      "source": "apple",
+      "country": "US",
+      "category": "game_action",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%83%95%E3%82%A9%E3%83%BC%E3%83%88%E3%83%8A%E3%82%A4%E3%83%88/id6483539426?uo=2",
+      "data_date": "2026-10-24",
+      "analysed_at": "2026-10-24T09:00:55+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Play and battle with friends in Fortnite. Be the last player standing in Battle Royale, Zero Build, Blitz and OG, carry your squad to victory in fast-paced Reload, build your own adventures in LEGO® Fortnite, or headline a concert in Fortnite Festival — it's all here. Play thousands of free developer-made islands with your friends, including tycoons, deathruns, zombie survival, and more. DISCLAIMER: Fortnite can be played on iPhone 11 and newer, iPhone XS and newer, iPhone 12 Mini and newer, iPhone SE 3 and newer, iPad Pro 10.5\" and newer, iPad Air 4th Gen and newer, iPad 10th Gen and newer, iPad Mini 6th Gen and newer.",
+      "analysis": {
+        "app_key": "apple:6483539426",
+        "summary_ko": "배틀로얄, 건설, 음악 페스티벌 등 다양한 모드를 즐길 수 있는 멀티플레이어 게임입니다. 친구와 함께 팀을 이루어 생존하거나, 사용자 제작 섬에서 새로운 모험을 즐길 수 있습니다. 다양한 플랫폼에서 플레이 가능한 대규모 온라인 게임 경험을 제공합니다.",
+        "features_ko": [
+          "배틀로얄, 제로 빌드, 리로드 등 다양한 게임 모드를 지원합니다.",
+          "LEGO® Fortnite 등 건설 및 모험 모드를 제공합니다.",
+          "Fortnite Festival을 통해 음악 공연 콘텐츠를 즐길 수 있습니다.",
+          "사용자가 직접 만든 수천 개의 섬에서 다양한 게임을 플레이합니다.",
+          "친구와 함께 팀을 이루어 승리를 목표로 하는 협동 플레이가 가능합니다.",
+          "다양한 모바일 기기에서 플레이할 수 있도록 최적화되었습니다."
+        ],
+        "noteworthy_ko": "단일 게임을 넘어 플랫폼화된 구조가 매우 인상적입니다. 배틀로얄이라는 핵심 장르 위에 건설, 음악 등 다양한 장르를 얹어 사용자 제작 콘텐츠(UGC) 생태계를 구축한 점은 개발 관점에서 매우 흥미로운 모델입니다.",
+        "development_ko": "크로스 플랫폼 지원을 위한 엔진 최적화와 대규모 서버 인프라가 필수입니다. 사용자 제작 콘텐츠를 위한 샌드박스 툴킷 개발이 핵심이며, 지속적인 업데이트를 위한 콘텐츠 파이프라인 구축이 필요합니다. 1인 개발로는 구현이 불가능한 규모입니다.",
+        "idea_ko": "1인 개발자라면 특정 모드(예: 간단한 건설 생존)에 집중하여, 사용자가 자신만의 작은 섬을 꾸미고 공유하는 샌드박스 게임을 만드는 것이 현실적입니다.",
+        "highlights_ko": [
+          "배틀로얄부터 음악 공연까지 아우르는 방대한 콘텐츠 플랫폼.",
+          "사용자 제작 콘텐츠(UGC)를 통한 무한한 확장성."
+        ],
+        "systems_ko": [
+          "샌드박스 건설 시스템",
+          "멀티플레이어 네트워크 동기화",
+          "사용자 제작 콘텐츠(UGC) 에디터",
+          "게임 모드 전환 및 관리 시스템",
+          "크로스 플랫폼 데이터 동기화"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "플랫폼 수준의 게임은 1인 개발이 불가능합니다. 핵심 메커니즘인 건설이나 생존 중 하나를 선택하여 축소 구현하는 것조차 높은 기술적 이해도를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 캐릭터 이동 및 상호작용",
+            "간단한 건설 시스템(블록 배치)",
+            "로컬 멀티플레이어 테스트"
+          ],
+          "defer": [
+            "배틀로얄 모드",
+            "음악 페스티벌 모드",
+            "사용자 제작 섬 공유 시스템"
+          ],
+          "risks": [
+            "복잡한 시스템 구현으로 인한 개발 지연",
+            "네트워크 동기화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "미니 건설 섬",
+            "concept": "제한된 공간에서 블록을 쌓아 나만의 집을 짓고 친구를 초대하는 소규모 샌드박스입니다.",
+            "first_step": "3D 공간에 블록을 배치하고 저장하는 기능 구현."
+          },
+          {
+            "title": "생존 일기",
+            "concept": "섬에서 자원을 채집하고 도구를 만들어 생존하는 간단한 1인용 생존 게임입니다.",
+            "first_step": "채집 및 인벤토리 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "플랫폼형 게임이 어떻게 다양한 모드를 통합하는지 구조를 파악하기 좋습니다. 1인 개발자는 이 거대한 게임의 일부분인 '건설 시스템'이나 '아이템 조합' 같은 핵심 메커니즘을 벤치마킹하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 서버 운영 방식, UGC 툴킷의 구체적인 구현 기술, 결제 및 보안 시스템에 대한 정보는 없습니다.",
+        "name": "フォートナイト",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%83%95%E3%82%A9%E3%83%BC%E3%83%88%E3%83%8A%E3%82%A4%E3%83%88/id6483539426?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 243,
+        "reasons": [
+          "multi_country"
+        ],
+        "best_rank": 4,
+        "countries": [
+          "JP",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-24"
     }
   }
 }

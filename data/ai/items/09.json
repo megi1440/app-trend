@@ -253,6 +253,365 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-24"
+    },
+    "itch:11848136f215995fe592": {
+      "app_key": "itch:11848136f215995fe592",
+      "name": "The North Line's DEAD AIR [Free] [Simulation] [Windows]",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://thenorthline.itch.io/dead-air",
+      "data_date": "2026-10-24",
+      "analysed_at": "2026-10-24T08:57:46+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "An atmospheric radio mystery incremental. Tune the signal. Keep every original.",
+      "analysis": {
+        "app_key": "itch:11848136f215995fe592",
+        "summary_ko": "라디오 주파수를 맞추며 미스터리를 풀어나가는 분위기 중심의 인크리멘탈 게임입니다. 플레이어는 신호를 조정하며 숨겨진 이야기를 발견하는 독특한 경험을 하게 됩니다.",
+        "features_ko": [
+          "라디오 주파수를 수동으로 조정하여 신호를 포착합니다.",
+          "인크리멘탈 방식을 통해 점진적으로 게임 내 상황이 변화합니다."
+        ],
+        "noteworthy_ko": "단순한 인터페이스로 몰입감을 극대화하는 연출 방식이 흥미롭습니다. 라디오라는 매체를 통해 서사를 전달하는 구조는 개인 개발자가 시각적 리소스 부담을 줄이면서도 분위기를 조성하기에 좋은 사례입니다.",
+        "development_ko": "오디오 처리 및 주파수 매칭 로직 구현이 핵심입니다. 콘텐츠 제작은 텍스트와 사운드 위주로 진행되므로 그래픽 리소스 부담은 적으나, 분위기를 유지하는 사운드 디자인의 비중이 매우 높습니다.",
+        "idea_ko": "특정 주파수에서만 들리는 단서들을 조합하여 사건의 진상을 파악하는 추리 게임으로 확장하는 것이 좋습니다.",
+        "highlights_ko": [
+          "분위기 중심의 미스터리 서사.",
+          "라디오 주파수 조정이라는 직관적인 상호작용."
+        ],
+        "systems_ko": [
+          "오디오 신호 처리 시스템",
+          "상태 관리(주파수, 발견한 단서)",
+          "UI/UX 인터페이스",
+          "이벤트 트리거 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기술적으로는 오디오 제어와 상태 관리가 핵심이며, 복잡한 물리 엔진이 필요하지 않습니다. 다만, 플레이어에게 전달되는 미스터리의 서사적 완성도가 게임의 재미를 결정짓는 중요한 요소입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "주파수 튜닝 인터페이스",
+            "오디오 재생 및 필터링 로직",
+            "텍스트 기반 서사 시스템"
+          ],
+          "defer": [
+            "복잡한 그래픽 애니메이션",
+            "다국어 지원"
+          ],
+          "risks": [
+            "오디오 리소스의 저작권 문제",
+            "플레이어의 지루함을 유발할 수 있는 반복적인 조작"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "주파수 탐정",
+            "concept": "과거의 라디오 방송을 수신하여 미래에 일어날 사건을 예방하는 게임입니다. 특정 시간대에만 들리는 신호를 찾아야 합니다.",
+            "first_step": "주파수 다이얼을 돌려 특정 주파수에서 사운드가 출력되는 프로토타입 제작."
+          },
+          {
+            "title": "심야의 구조 신호",
+            "concept": "고립된 지역에서 라디오를 통해 구조 요청을 보내는 사람들과 소통합니다. 선택지에 따라 구조 성공 여부가 결정됩니다.",
+            "first_step": "텍스트 선택지 시스템과 사운드 재생을 연동한 기본 흐름 구현."
+          }
+        ],
+        "recommendation_ko": "최소한의 리소스로 분위기를 조성하는 법을 배우기에 적합합니다. 사운드 디자인과 서사적 연출에 집중하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 게임 규칙, 승리 조건, 데이터 저장 방식 등은 확인되지 않습니다.",
+        "name": "The North Line's DEAD AIR [Free] [Simulation] [Windows]",
+        "source": "itch",
+        "detail_url": "https://thenorthline.itch.io/dead-air",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 302,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-24"
+    },
+    "apple:1035105027": {
+      "app_key": "apple:1035105027",
+      "name": "Unni(カンナムオンニ)No.1美容クリニック予約アプリ",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/kr/app/%EA%B0%95%EB%82%A8%EC%96%B8%EB%8B%88-1%EB%93%B1-%ED%94%BC%EB%B6%80-%EC%84%B1%ED%98%95-%EB%B3%91%EC%9B%90-%EB%AF%B8%EC%9A%A9-%EB%B7%B0%ED%8B%B0-%EC%98%88%EC%95%BD/id1035105027?uo=2",
+      "data_date": "2026-10-24",
+      "analysed_at": "2026-10-24T08:58:20+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "강남언니에서는 나에게 맞는 조건으로 피부 시술, 성형 수술 정보를 검색하고, 검증된 후기를 통해 더 나은 선택을 할 수 있어요. ◼ 950만 유저의 진짜 후기, 안심하고 살펴볼 수 있어요 - 영수증 인증 절차 등 신뢰할 수 있는 후기를 확인해요 - 강남언니 내 모든 병원은 후기 작성 강요 및 대리 작성 시 페널티를 받아요 ◼ 충분히 비교하고 결정할 수 있어요 - 4,900개 병원이 선택한 강남언니! 관심 있는 병원과 상담을 통해 필요한 정보를 찾을 수 있어요. - 피부관리, 쌍꺼풀 수술, 코 수술, 슈링크, 인모드, 울쎄라, 리프팅 등 다양한 정보를 한 곳에서 꼼꼼히 살펴보고 결정할 수 있어요. ◼ 필요한 정보만 필터링해, 탐색 시간이 줄어들어요 - 지역 필터를 통해 원하는 지역의 피부과, 성형외과 후기와 정보를 바로 살펴볼 수 있어요. - 샷 수, 사용 기기, 횟수 등 상세한 시술 조건에 따른 가격 정보를 한 눈에 비교할 수 있어요. - 아쉬운 점 필터를 활용해 후기를 다각도로 살펴볼 수 있어요. ◼ 고민 상담부터 예약까지, 여기저기 헤맬 필요 없어요 - 의사가 직접 답해드려요. 시술/성형에 대한 고민과 궁금증, 커뮤니티 수다방에 질문해 보세요. -비슷한 고민을 가진 유저들과 소통해요. “쌍꺼풀 수술 고민” “피부시술 인모드? 울쎄라? 그게 뭐야?” “웨딩 관리, 예신 관리, 결혼 준비 시술 어떤 게 좋지?” 등 다양한 고민을 나누어 보세요. - 앱에서 상담 신청과 예약을 할 수 있어요. ◼ 이벤트와 포인트 등 다양한 혜택을 누려요 - 매 월 쏟아지는 피부과&성형외과 이벤트로 합리적인 가격으로 시술을 받아보세요. -앱 결제 시 최대 1만 포인트를 드리며, 영수증 인증 후기를 남기면 추가 포인트를 드려요. 다양한 프로모션을 통해 쌓은 포인트는 앱 결제 시 원하는 병원에서 사용할 수 있어요. *선택 접근권한 안내 - 사진 : 사진 읽기 및 쓰기 - 카메라 : 후기/수다방 등에 사진 업로드 - 위치 : 네이버맵 사용시 선택 접근권한은 동의하지 않아도 앱을 사용하실 수 있습니다. [휴대전화설정 > 강남언니 > 강남언니 접근 허용] 메뉴에서 동의 및 철회가 가능합니다. *앱관련 문의사항 앱 사용 중에 궁금하신 점 또는 문제가 발생한 경우, 고객센터로 문의 부탁드립니다. (http://gangnamunni.channel.io) *리뷰로 문의를 주실 경우 문제에 대한 정확한 확인 및 답변이 어렵습니다. *개발자 연락처 강남언니(주식회사 힐링페이퍼) | 대표자: 홍승일 사업자등록번호: 117-81-81256 통신판매업신고: 제 2015-서울서초-1147호 TEL: +8234438854 카카오톡채널:@gangnamsister 이메일: cs@healingpaper.com",
+      "analysis": {
+        "app_key": "apple:1035105027",
+        "summary_ko": "강남언니는 피부 시술 및 성형 수술 정보를 검색하고 병원을 예약할 수 있는 뷰티 플랫폼입니다. 사용자 후기, 가격 정보, 병원 이벤트를 비교하여 합리적인 선택을 돕습니다. 커뮤니티 기능을 통해 고민 상담과 정보 공유가 가능합니다.",
+        "features_ko": [
+          "피부 시술 및 성형 수술 관련 정보와 가격을 검색합니다.",
+          "영수증 인증을 거친 신뢰도 높은 사용자 후기를 제공합니다.",
+          "지역 및 시술 조건별로 병원과 가격을 필터링하여 비교합니다.",
+          "커뮤니티를 통해 시술 고민을 나누고 의사의 답변을 받습니다.",
+          "앱 내에서 상담 신청 및 예약 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "정보 비대칭이 심한 의료/미용 시장을 플랫폼화하여 신뢰도를 구축한 사례입니다. 후기 검증 시스템과 병원 예약 시스템의 연동이 플랫폼의 핵심 가치입니다.",
+        "development_ko": "방대한 병원 및 시술 데이터베이스 구축과 검색/필터링 시스템이 핵심입니다. 사용자 후기 검증을 위한 이미지/영수증 처리 기술과 병원과의 예약 연동 시스템이 필요합니다. 의료법 준수 및 개인정보 보호가 매우 중요합니다.",
+        "idea_ko": "특정 시술 후 경과를 기록하고 관리하는 '시술 다이어리' 기능을 강화하여 사용자 리텐션을 높이는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "영수증 인증을 통해 후기의 신뢰성을 확보했습니다.",
+          "상담부터 예약까지 원스톱으로 해결하는 플랫폼 구조입니다."
+        ],
+        "systems_ko": [
+          "검색 및 필터링 시스템",
+          "사용자 후기 및 인증 관리 시스템",
+          "병원 예약 및 상담 관리 시스템",
+          "커뮤니티 게시판 및 알림 시스템",
+          "사용자 포인트 및 프로모션 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "플랫폼 서비스는 데이터 관리, 병원과의 연동, 법적 규제 준수 등 고려할 요소가 많아 1인 개발로 전체 기능을 구현하기에는 매우 복잡합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "병원 정보 리스트 및 상세 페이지",
+            "사용자 후기 작성 및 조회 기능",
+            "기본 예약 신청 폼"
+          ],
+          "defer": [
+            "포인트 및 결제 시스템",
+            "실시간 채팅 상담",
+            "고도화된 필터링 알고리즘"
+          ],
+          "risks": [
+            "의료법 위반 가능성",
+            "데이터 신뢰성 확보의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "시술 경과 기록장",
+            "concept": "시술 후 날짜별로 변화를 사진으로 기록하고 관리하는 개인용 다이어리입니다.",
+            "first_step": "날짜별 사진 업로드 및 메모 기능을 구현합니다."
+          },
+          {
+            "title": "동네 뷰티 정보 공유",
+            "concept": "특정 지역의 작은 뷰티 샵 정보를 공유하고 후기를 남기는 커뮤니티입니다.",
+            "first_step": "지역 기반의 게시판과 후기 작성 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "플랫폼 서비스의 데이터 구조와 사용자 경험 설계 방식을 배우기에 좋습니다. 다만, 의료/미용 관련 서비스는 법적 규제가 엄격하므로 주의가 필요합니다.",
+        "source_limitations_ko": "소개문에는 병원과의 예약 연동 방식, 포인트 결제 시스템의 상세 구현, 의료법 준수를 위한 내부 검증 로직은 명시되어 있지 않습니다.",
+        "name": "Unni(カンナムオンニ)No.1美容クリニック予約アプリ",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EA%B0%95%EB%82%A8%EC%96%B8%EB%8B%88-1%EB%93%B1-%ED%94%BC%EB%B6%80-%EC%84%B1%ED%98%95-%EB%B3%91%EC%9B%90-%EB%AF%B8%EC%9A%A9-%EB%B7%B0%ED%8B%B0-%EC%98%88%EC%95%BD/id1035105027?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 249,
+        "reasons": [
+          "multi_country"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "JP",
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-24"
+    },
+    "google:com.nebula.mahjongtile": {
+      "app_key": "google:com.nebula.mahjongtile",
+      "name": "麻雀ブラスト (Mahjong Blast)",
+      "source": "google",
+      "country": "JP",
+      "category": "game_board",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.nebula.mahjongtile&hl=ko&gl=KR",
+      "data_date": "2026-10-24",
+      "analysed_at": "2026-10-24T08:59:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "☕️ 無料パズルゲームとして楽しめる麻雀ソリティア、Mahjong Blast。麻雀タイルを合わせて消していくシンプルなタイルマッチゲームで、落ち着いた時間を過ごせるオフライン対応パズルゲームです。難しい操作や時間制限はなく、自分のペースで楽しめる無料パズルゲームとして、毎日のリラックスタイムにおすすめです。 通勤中、休憩時間、寝る前など、好きなタイミングでプレイ可能。インターネット接続なしでも遊べるオフラインゲームで、同じタイルを見つけて組み合わせ、少しずつステージをクリアしていく心地よいゲーム体験を楽しめます。 🧩 パズルゲーム：麻雀タイルを合わせるタイルマッチ体験 Mahjong Blastは、クラシックな麻雀ソリティアをベースにしたパズルゲームです。同じ麻雀タイルを探してペアにし、盤面を整理していく分かりやすいルール。 簡単に始められる一方で、どのタイルを先に消すか考える楽しさがあり、観察力や集中力を自然に使うことができます。パズルゲームが好きな方や、落ち着いて遊べる無料パズルゲームを探している方にぴったりです。 🀄 麻雀ソリティア：クラシックなタイルマッチパズル 伝統的な麻雀タイルを使ったソリティア形式のゲームプレイを楽しめます。空いている同じタイルを2つ選んで消していくシンプルなルールで、初心者でもすぐに遊べます。 見やすいタイルデザインと快適な操作性により、大人からシニア世代まで楽しめるボードゲーム感覚のパズル体験を提供します。 🎮 タイルマッチ・パズルゲームを自分のペースで楽しむ ステージごとに異なるレイアウトを用意し、毎回新しいパズルチャレンジを楽しめます。ヒント、シャッフル、やり直し機能も搭載しているため、初めての方でも安心。 時間制限に追われることなく、じっくり考えながら進められるため、ストレスなく続けられるパズルゲームとして毎日気軽に楽しめます。 📴 オフライン対応：いつでも遊べる無料ゲーム Mahjong Blastはオフライン対応のパズルゲームです。Wi-Fiやインターネット接続がない場所でも、いつでも麻雀タイルパズルを楽しめます。 旅行中、移動中、電波が弱い場所でも安心してプレイ可能。通信環境を気にせず遊べるオフラインゲームとして、好きな時間に楽しめます。 🎲 ボードゲーム好きにもおすすめ 麻雀ソリティアの戦略性とタイルマッチパズルの楽しさを組み合わせた、スマホで遊べるボードゲーム体験。 将棋やチェスのように、自分のペースで考えながら進められるため、落ち着いたゲームが好きな方にもおすすめです。 🧠 リラックスしながら楽しめる脳トレパズル シンプルな操作ながら、タイルの選択や組み合わせを考えることで集中力や観察力を刺激します。難しすぎず、ストレスなく続けられるため、毎日の気分転換やリラックスタイムにも最適です。 ❓ FAQ ❓ Q：無料で遊べるパズルゲームですか？ はい。Mahjong Blastは無料で楽しめるパズルゲームで、麻雀タイルを使ったタイルマッチ体験を提供します。 Q：オフラインでも遊べますか？ はい。オフライン対応ゲームなので、インターネット接続なしでもプレイできます。 Q：どんなゲームですか？ 麻雀ソリティアをベースにしたタイルマッチパズルゲームです。同じタイルを合わせて盤面をクリアしていきます。 Q：ボードゲームが好きな人にも向いていますか？ はい。じっくり考えながら遊べるため、ボードゲームが好きな方にもおすすめです。 今すぐ無料でダウンロードして、麻雀ソリティアとタイルマッチを組み合わせたオフライン対応パズルゲームを楽しみましょう。",
+      "analysis": {
+        "app_key": "google:com.nebula.mahjongtile",
+        "summary_ko": "마작 타일을 맞춰 제거하는 마작 솔리테어 방식의 퍼즐 게임입니다. 시간 제한 없이 자신의 속도에 맞춰 즐길 수 있는 오프라인 게임입니다. 힌트와 셔플 기능을 제공하여 누구나 쉽게 접근할 수 있습니다.",
+        "features_ko": [
+          "같은 모양의 마작 타일을 찾아 쌍을 이루어 제거하는 규칙입니다.",
+          "인터넷 연결 없이 플레이 가능한 오프라인 모드를 지원합니다.",
+          "스테이지마다 다른 타일 레이아웃을 제공하여 다양한 도전을 제공합니다.",
+          "힌트, 셔플, 되돌리기 기능을 통해 퍼즐 해결을 돕습니다."
+        ],
+        "noteworthy_ko": "전통적인 마작 솔리테어 규칙을 모바일 환경에 맞춰 단순화한 점이 특징입니다. 시간 제한을 없애고 오프라인 환경을 강조하여 휴식용 게임으로서의 정체성을 명확히 했습니다.",
+        "development_ko": "타일 배치 알고리즘과 해결 가능 여부를 판별하는 로직이 핵심입니다. 2D UI 배치와 터치 입력 처리는 비교적 단순하나, 다양한 스테이지 레이아웃을 생성하는 데이터 구조가 필요합니다. 1인 개발 시에는 미리 정의된 맵 데이터를 활용하는 것이 효율적입니다.",
+        "idea_ko": "특정 테마의 타일을 수집하거나 맵을 직접 제작하는 커스텀 마작 퍼즐.",
+        "highlights_ko": [
+          "시간 제한 없는 여유로운 게임 플레이 환경.",
+          "오프라인 지원으로 장소 제약 없는 접근성."
+        ],
+        "systems_ko": [
+          "타일 배치 및 맵 데이터 관리 시스템",
+          "타일 매칭 판정 로직",
+          "힌트 및 셔플 알고리즘",
+          "스테이지 진행 상태 저장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "게임 규칙이 정형화되어 있고 물리 엔진이나 복잡한 AI가 필요하지 않습니다. 2D 퍼즐 게임의 표준적인 구조를 따르므로 1인 개발에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 타일 매칭 로직",
+            "스테이지 맵 데이터 로더",
+            "기본 UI 및 터치 입력"
+          ],
+          "defer": [
+            "다양한 테마 및 스킨",
+            "온라인 리더보드",
+            "복잡한 애니메이션 효과"
+          ],
+          "risks": [
+            "스테이지 구성의 단조로움",
+            "해결 불가능한 맵 생성 방지 로직의 부재"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "테마별 타일 매칭",
+            "concept": "마작 타일 대신 음식, 동물 등 친숙한 아이콘을 사용하여 대중성을 높입니다. 특정 테마를 완성하면 보상을 얻습니다.",
+            "first_step": "기존 마작 타일 이미지를 대체할 에셋 교체 및 테스트."
+          },
+          {
+            "title": "타일 맵 에디터",
+            "concept": "사용자가 직접 타일을 배치하여 스테이지를 만들고 공유하는 기능입니다. 창의적인 퍼즐 구성을 유도합니다.",
+            "first_step": "드래그 앤 드롭 방식의 맵 배치 에디터 구현."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 기본 로직과 데이터 관리 방식을 배우기에 매우 적합합니다. 단순한 규칙을 가진 게임을 완성도 있게 다듬는 과정을 경험하기 좋습니다.",
+        "source_limitations_ko": "소개문에는 스테이지 생성 방식(절차적 생성 여부), 데이터 저장 방식, 수익 모델에 대한 정보가 없습니다. 외부 광고 연동이나 결제 기능은 명시되지 않았습니다.",
+        "name": "麻雀ブラスト (Mahjong Blast)",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.nebula.mahjongtile&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 249,
+        "reasons": [
+          "multi_country"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "JP",
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-24"
+    },
+    "google:com.playstack.balatro.android": {
+      "app_key": "google:com.playstack.balatro.android",
+      "name": "Balatro",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.playstack.balatro.android&hl=ko&gl=KR",
+      "data_date": "2026-10-24",
+      "analysed_at": "2026-10-24T08:59:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Welcome to the official Balatro game! Your goal is to beat Boss Blinds by making strong poker hands. Find new Jokers that change the game and create awesome and exciting combos! Take on challenging bosses, discover wild poker hands and unlock new decks as you play. You’ll need all the help you can get to beat the big boss, win the final challenge, and win the game. Features: * Remastered controls for touch screen devices; now even more satisfying! * Each run is different: every pick-up, discard and joker can dramatically alter the course of your run. * Multiple game items: discover over 150 Jokers, each with special powers. Use them with different decks,upgrade cards and vouchers to boost your scores. * Different Game modes: Campaign mode and challenge mode for you to play. * Beautiful Pixel Art: Immerse yourself in the CRT fuzz and enjoy detailed, hand-crafted pixel art.",
+      "analysis": {
+        "app_key": "google:com.playstack.balatro.android",
+        "summary_ko": "포커 핸드를 조합하여 보스를 공략하는 로그라이크 게임입니다. 조커 카드를 활용해 게임의 규칙을 바꾸고 강력한 콤보를 만들어 점수를 획득합니다. 다양한 덱과 도전 모드를 통해 매번 새로운 전략을 시도할 수 있습니다.",
+        "features_ko": [
+          "포커 핸드를 구성하여 점수를 획득하고 보스 블라인드를 돌파합니다.",
+          "150개 이상의 조커 카드를 수집하여 고유한 능력과 콤보를 활용합니다.",
+          "다양한 덱과 업그레이드 카드를 사용하여 전략적인 빌드를 구축합니다.",
+          "캠페인 모드와 챌린지 모드를 통해 다양한 게임 경험을 제공합니다.",
+          "터치스크린에 최적화된 조작 방식을 지원합니다."
+        ],
+        "noteworthy_ko": "포커라는 익숙한 규칙에 로그라이크 요소를 결합하여 매번 다른 전략을 요구하는 점이 매우 독창적입니다. 조커 카드가 게임의 규칙을 변형시키는 방식은 시스템 설계 측면에서 매우 높은 완성도를 보여줍니다.",
+        "development_ko": "카드 조합 판정 로직과 조커 카드의 효과를 적용하는 유연한 시스템 설계가 핵심입니다. 로그라이크 특성상 밸런스 조정이 매우 중요하며, 데이터 기반의 카드 효과 관리가 필요합니다. 1인 개발 시에는 카드 간의 상호작용을 관리하는 시스템 구조를 먼저 견고하게 구축해야 합니다.",
+        "idea_ko": "포커가 아닌 다른 카드 게임 규칙을 활용한 로그라이크 빌드업 게임.",
+        "highlights_ko": [
+          "조커 카드를 통한 규칙 변형으로 매번 새로운 플레이 경험 제공.",
+          "픽셀 아트 스타일과 CRT 효과를 활용한 독특한 시각적 몰입감."
+        ],
+        "systems_ko": [
+          "카드 조합 판정 엔진",
+          "조커 카드 효과 적용 시스템",
+          "로그라이크 런(Run) 관리 및 상태 저장",
+          "점수 계산 및 밸런스 엔진",
+          "UI/UX 카드 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "카드 조합의 경우의 수가 많고, 수많은 조커 카드의 효과가 서로 충돌하지 않게 설계하는 것은 고도의 프로그래밍 능력을 요구합니다. 1인 개발 시에는 카드 종류를 대폭 줄여야 구현이 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "포커 핸드 판정 로직",
+            "기본 카드 덱 시스템",
+            "점수 계산 및 보스전 로직"
+          ],
+          "defer": [
+            "150개 이상의 조커 카드",
+            "복잡한 챌린지 모드",
+            "고급 시각 효과"
+          ],
+          "risks": [
+            "카드 간 상호작용으로 인한 버그 발생",
+            "밸런스 조절 실패로 인한 게임성 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "블랙잭 로그라이크",
+            "concept": "블랙잭 규칙을 기반으로 카드를 뽑아 보스를 이기는 게임입니다. 특정 카드를 사용해 딜러의 카드를 조작합니다.",
+            "first_step": "블랙잭 기본 판정 로직 및 카드 뽑기 시스템 구현."
+          },
+          {
+            "title": "카드 덱 빌딩 퍼즐",
+            "concept": "카드를 조합해 특정 점수를 만드는 퍼즐 게임입니다. 조커 대신 아이템 카드를 사용하여 점수를 증폭시킵니다.",
+            "first_step": "카드 조합에 따른 점수 계산 알고리즘 프로토타입."
+          }
+        ],
+        "recommendation_ko": "로그라이크 게임의 시스템 설계와 데이터 기반 게임 로직을 배우기에 최고의 사례입니다. 다만, 복잡도가 매우 높으므로 작은 규모의 카드 게임부터 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 카드 효과 구현 방식, 밸런스 데이터 관리, 수익 모델에 대한 정보가 없습니다. 외부 결제나 보안 기능은 명시되지 않았습니다.",
+        "name": "Balatro",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.playstack.balatro.android&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 249,
+        "reasons": [
+          "multi_country"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "JP",
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-24"
     }
   }
 }

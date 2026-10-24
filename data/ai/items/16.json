@@ -442,6 +442,97 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-24"
+    },
+    "google:com.google.android.apps.authenticator2": {
+      "app_key": "google:com.google.android.apps.authenticator2",
+      "name": "Google 認証システム",
+      "source": "google",
+      "country": "JP",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=ko&gl=KR",
+      "data_date": "2026-10-24",
+      "analysed_at": "2026-10-24T08:59:17+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Google 認証システムを利用すると、ログイン時に 2 つ目の確認手順が追加されるため、オンライン アカウントのセキュリティをより一層強化できます。パスワードに加えて、スマートフォンの Google 認証システム アプリで生成されるコードも入力する必要があります。確認コードは、ネットワークやモバイルデータに接続していなくても、スマートフォンの Google 認証システム アプリで生成できます。 * 認証システムのコードを複数のデバイス間で Google アカウントに同期。これにより、スマートフォンを紛失した場合でも常にコードを利用できます。 * QR コードによる認証システム アカウントの自動セットアップ。すばやく簡単な操作で、コードを正しくセットアップできます。 * 複数のアカウントに対応。認証システム アプリを使用すると複数のアカウントを管理できるため、ログインのたびにアプリを切り替える必要がなくなります。 * 時間ベースとカウンタベースのコード生成に対応。ニーズに最適なコード生成方法を選択できます。 * QR コードによるデバイス間のアカウント移行。アカウントを新しいデバイスに手軽に移行できます。 * Google で Google 認証システムを使用するには、お使いの Google アカウントで 2 段階認証プロセスを有効にする必要があります。有効にするには、http://www.google.com/2step にアクセスしてください 権限に関するお知らせ: カメラ: QR コードを使用してアカウントを追加する際に必要です",
+      "analysis": {
+        "app_key": "google:com.google.android.apps.authenticator2",
+        "summary_ko": "Google 2단계 인증을 위한 보안 앱으로, 시간 기반 또는 카운터 기반의 일회용 비밀번호를 생성합니다. 여러 기기 간의 계정 동기화와 QR 코드를 통한 간편한 설정을 지원합니다. 네트워크 연결 없이도 보안 코드를 생성하여 계정 보호를 강화합니다.",
+        "features_ko": [
+          "시간 기반 및 카운터 기반의 일회용 인증 코드를 생성합니다.",
+          "Google 계정을 통해 여러 기기 간에 인증 데이터를 동기화합니다.",
+          "QR 코드를 스캔하여 계정을 자동으로 설정할 수 있습니다.",
+          "네트워크 연결 없이도 오프라인에서 인증 코드를 생성합니다.",
+          "여러 계정을 하나의 앱에서 관리할 수 있습니다."
+        ],
+        "noteworthy_ko": "보안 앱은 사용자 신뢰도가 가장 중요하며, 오프라인 환경에서도 동작하는 알고리즘의 정확성이 핵심입니다. 기기 간 동기화 시 데이터 암호화 처리가 개발 관점에서 매우 중요합니다.",
+        "development_ko": "핵심 기술은 TOTP(Time-based One-Time Password) 알고리즘 구현입니다. 보안이 최우선이므로 데이터 저장 시 강력한 암호화가 필수적이며, UI는 매우 단순하고 직관적이어야 합니다. 테스트 시 다양한 기기 환경에서의 시간 동기화 오차를 검증하는 것이 중요합니다.",
+        "idea_ko": "개인 개발자가 보안 앱을 직접 만드는 것은 보안 사고 위험이 크므로, 학습용으로 TOTP 알고리즘을 구현해보는 정도를 추천합니다.",
+        "highlights_ko": [
+          "네트워크 없이도 동작하는 오프라인 보안 코드 생성 기능.",
+          "QR 코드를 활용한 사용자 친화적인 계정 등록 프로세스."
+        ],
+        "systems_ko": [
+          "TOTP 알고리즘 엔진",
+          "로컬 데이터 암호화 저장소",
+          "QR 코드 스캔 및 파싱 모듈",
+          "기기 간 데이터 동기화 관리자"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "보안 앱은 작은 실수로도 사용자 계정 접근이 불가능해질 수 있으며, 암호화 및 보안 표준 준수가 필수적이므로 개인 개발자가 상용 수준으로 구현하기엔 위험 부담이 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "TOTP 코드 생성 로직",
+            "로컬 데이터 암호화 저장",
+            "QR 코드 스캔 기능"
+          ],
+          "defer": [
+            "클라우드 동기화",
+            "생체 인증 연동",
+            "다중 기기 관리"
+          ],
+          "risks": [
+            "암호화 키 관리 실패로 인한 데이터 손실",
+            "보안 취약점으로 인한 인증 코드 탈취"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "학습용 TOTP 생성기",
+            "concept": "TOTP 알고리즘이 어떻게 작동하는지 시각적으로 보여주는 교육용 앱입니다.",
+            "first_step": "RFC 6238 표준을 참고하여 특정 시드값으로 코드를 생성하는 간단한 콘솔 프로그램 작성."
+          },
+          {
+            "title": "로컬 비밀번호 관리자",
+            "concept": "인증 코드가 아닌, 로컬에만 저장되는 간단한 텍스트 메모 암호화 관리 앱입니다.",
+            "first_step": "AES 암호화를 사용하여 텍스트를 저장하고 불러오는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "보안 알고리즘과 데이터 암호화의 기초를 배우기에 좋습니다. 하지만 실제 서비스용 보안 앱을 개발하는 것은 권장하지 않으며, 학습 목적으로만 접근하세요.",
+        "source_limitations_ko": "소개문에는 구체적인 암호화 라이브러리나 서버 통신 방식이 명시되어 있지 않습니다. 보안 기능은 전문적인 검증이 필요하므로 소개문만으로 구현해서는 안 됩니다.",
+        "name": "Google 認証システム",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 249,
+        "reasons": [
+          "multi_country"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "JP",
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-24"
     }
   }
 }

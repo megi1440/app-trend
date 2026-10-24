@@ -536,6 +536,92 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-24"
+    },
+    "itch:71f32ff217404cf43c35": {
+      "app_key": "itch:71f32ff217404cf43c35",
+      "name": "Eloquent Countenance [Free] [Role Playing] [Windows] [macOS]",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "puzzle",
+      "detail_url": "https://racheldrawsthis.itch.io/eloquent-countenance",
+      "data_date": "2026-10-24",
+      "analysed_at": "2026-10-24T08:57:46+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A short RPG horror/story game about nosebleeds, guardian angels and a funeral",
+      "analysis": {
+        "app_key": "itch:71f32ff217404cf43c35",
+        "summary_ko": "코피, 수호천사, 장례식이라는 소재를 다루는 짧은 RPG 형식의 호러 스토리 게임입니다. 플레이어는 서사를 따라가며 기묘한 분위기를 경험하게 됩니다.",
+        "features_ko": [
+          "RPG 형식을 빌린 스토리 중심의 게임입니다.",
+          "호러 요소가 포함된 서사를 제공합니다."
+        ],
+        "noteworthy_ko": "일상적인 소재를 호러와 결합하여 독특한 분위기를 자아내는 점이 흥미롭습니다. 짧은 분량의 서사 게임은 개인 개발자가 스토리텔링 역량을 집중하기에 좋은 형태입니다.",
+        "development_ko": "대화 시스템과 이벤트 트리거 구현이 핵심입니다. 그래픽 리소스는 분위기를 살리는 방향으로 제작해야 하며, 스토리의 흐름을 제어하는 스크립트 엔진이 필요합니다.",
+        "idea_ko": "플레이어의 선택에 따라 장례식의 결말이 바뀌는 멀티 엔딩 시스템을 도입하면 서사의 깊이를 더할 수 있습니다.",
+        "highlights_ko": [
+          "호러와 서사의 결합.",
+          "짧고 강렬한 스토리텔링."
+        ],
+        "systems_ko": [
+          "대화 및 텍스트 시스템",
+          "이벤트 트리거 시스템",
+          "씬 전환 시스템",
+          "데이터 관리(선택지 저장)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기술적인 난이도는 낮으나, 호러 분위기를 조성하기 위한 연출과 스토리의 완성도가 중요합니다. 1인 개발 시 시나리오 작성에 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "대화창 및 텍스트 출력 시스템",
+            "선택지 시스템",
+            "기본적인 씬 전환"
+          ],
+          "defer": [
+            "복잡한 전투 시스템",
+            "오픈 월드 맵"
+          ],
+          "risks": [
+            "스토리의 개연성 부족",
+            "호러 연출의 강도 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "기억의 장례식",
+            "concept": "장례식장에 방문하여 고인과 관련된 기억의 조각을 수집합니다. 모든 조각을 모으면 숨겨진 진실이 드러납니다.",
+            "first_step": "아이템을 클릭하여 텍스트를 출력하는 간단한 포인트 앤 클릭 시스템 구현."
+          },
+          {
+            "title": "천사의 속삭임",
+            "concept": "수호천사의 목소리를 들으며 위기를 극복하는 게임입니다. 천사의 조언이 항상 옳은 것은 아닙니다.",
+            "first_step": "선택지에 따라 다른 결과가 출력되는 분기 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "스토리텔링과 분위기 연출을 배우기에 적합합니다. 짧은 호흡의 서사 게임을 만들고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문이 짧아 구체적인 게임 플레이 방식, 퍼즐 요소의 유무, 엔딩의 개수 등은 확인되지 않습니다.",
+        "name": "Eloquent Countenance [Free] [Role Playing] [Windows] [macOS]",
+        "source": "itch",
+        "detail_url": "https://racheldrawsthis.itch.io/eloquent-countenance",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 296,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-24"
     }
   }
 }

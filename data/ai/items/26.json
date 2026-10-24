@@ -87,6 +87,179 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-23"
+    },
+    "itch:3603d059a23b6979ab08": {
+      "app_key": "itch:3603d059a23b6979ab08",
+      "name": "When The World Went Pale [Free] [Survival]",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://lerton.itch.io/when-the-world-went-pale",
+      "data_date": "2026-10-24",
+      "analysed_at": "2026-10-24T08:57:26+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "My first horror game ever, also my first submission to a game jam",
+      "analysis": {
+        "app_key": "itch:3603d059a23b6979ab08",
+        "summary_ko": "이 게임은 공포 장르의 생존 게임으로, 게임 잼 제출을 위해 제작된 개발자의 첫 공포 게임입니다.",
+        "features_ko": [
+          "공포 분위기를 조성하는 생존 게임 플레이를 제공합니다."
+        ],
+        "noteworthy_ko": "게임 잼 출품작이라는 점에서 짧은 시간 내에 핵심 재미를 구현하는 방식을 엿볼 수 있습니다. 공포 장르 특유의 분위기 연출이 개발의 핵심일 것으로 추정됩니다.",
+        "development_ko": "공포 분위기를 위한 조명과 사운드 연출이 핵심입니다. 1인 개발 시 에셋 스토어의 리소스를 활용하여 제작 부담을 줄이는 것이 좋습니다. 테스트 시에는 공포 요소의 강도를 조절하는 것이 중요합니다.",
+        "idea_ko": "특정 환경에서만 생존할 수 있는 제한적인 자원 관리 시스템을 도입하는 것이 좋습니다.",
+        "highlights_ko": [
+          "게임 잼을 위해 제작된 짧고 강렬한 공포 경험을 제공합니다."
+        ],
+        "systems_ko": [
+          "플레이어 이동 제어",
+          "환경 상호작용",
+          "공포 연출 트리거"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "공포 게임은 연출이 중요하므로 기술적 난이도보다는 기획과 분위기 조성 능력이 더 크게 작용합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이동 및 시점 제어",
+            "공포 이벤트 트리거",
+            "종료 조건"
+          ],
+          "defer": [
+            "복잡한 인벤토리 시스템",
+            "다양한 적 AI"
+          ],
+          "risks": [
+            "공포 연출의 의도 전달 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "소리 기반 추적",
+            "concept": "시각적 정보 대신 소리를 듣고 적의 위치를 파악해야 합니다.",
+            "first_step": "3D 오디오 소스 배치 및 거리별 볼륨 조절 구현."
+          },
+          {
+            "title": "정신력 관리",
+            "concept": "어둠 속에 오래 있으면 환각이 보이는 시스템을 추가합니다.",
+            "first_step": "화면 왜곡 효과(Post-processing) 제어 로직 구현."
+          }
+        ],
+        "recommendation_ko": "공포 게임의 기초적인 연출과 분위기 조성 방법을 배우기에 적합합니다. 게임 잼 출품작을 분석하여 핵심 기능 위주의 개발 방식을 익히는 것을 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 규칙, 조작법, 공포 요소의 상세 내용이 전혀 명시되어 있지 않습니다.",
+        "name": "When The World Went Pale [Free] [Survival]",
+        "source": "itch",
+        "detail_url": "https://lerton.itch.io/when-the-world-went-pale",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 317,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-24"
+    },
+    "google:com.sled.surfers.game": {
+      "app_key": "google:com.sled.surfers.game",
+      "name": "Sled Surfers - ズ - 坂冒険",
+      "source": "google",
+      "country": "JP",
+      "category": "game_arcade",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.sled.surfers.game&hl=ko&gl=KR",
+      "data_date": "2026-10-24",
+      "analysed_at": "2026-10-24T08:59:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "冬の究極の冒険に飛び込もう！スノーサーフ・ゲーム「スレッドサーファーズ」で本物のスノーライダーになりましょう。氷の斜面を滑り、障害物を避けながら、アクション満載の魔法のような霜の世界を駆け抜けます。ソリに乗り、雪をサーフし、楽しくシンプルな予測不可能性に触発されたスピーディなチャレンジを楽しみましょう。 雪道をレースし、タイトなターンをマスターし、凍った森、氷の崖、滑りやすい下り坂のトラックを探索する中でクールな冬の装備をアンロックしましょう。スノーレースのスリルを追求するもよし、冬の滑りをリラックスして楽しむもよし、どのランも興奮に満ちています。 さらに、ウォーターパークやウォータースライドゲームの夏の混沌が好きな方なら、同じなめらかで中毒性のある流れを、ただし冷たい捻りを加えて楽しめます！ ❄️ 主な特徴 🏂 究極のスノーライダーに 雪をサーフし、ソリをコントロールし、滑りやすい冬のトラックを滑る 🔥 速くて楽しいスノーレースのゲームプレイ 凍った道を走り、スピードが上がるにつれて障害物を避ける 🌨️ 魔法のような霜の世界を探索 凍った森、氷の洞窟、息をのむ冬の風景を発見 🎁 ソリ、キャラクター、ギアをアンロック コインを集めて乗り物をアップグレードし、雪の冒険をカスタマイズ ⚡より速く滑るためのパワーアップ 空中でバックフリップやフロントフリップでスピードアップ 🎮 スムーズな操作性 遊ぶのは簡単で楽しく、驚きに満ちたチャレンジが詰まっている。 🛷 雪をサーフする準備はできましたか？ ソリを持って、雪の斜面へ出かけ、今日から冬の冒険を始めましょう！スリル、挑戦、または霜の世界の居心地の良さを求めているなら、スレッドサーファーズは終わりのない雪の楽しさを提供します。",
+      "analysis": {
+        "app_key": "google:com.sled.surfers.game",
+        "summary_ko": "눈 덮인 슬로프를 내려가는 스노우 서핑 게임입니다. 장애물을 피하며 코인을 모으고, 캐릭터와 장비를 업그레이드할 수 있습니다. 속도감 있는 레이스와 겨울 풍경을 즐기는 아케이드 게임입니다.",
+        "features_ko": [
+          "눈 덮인 슬로프를 내려가는 스피디한 레이싱 게임입니다.",
+          "장애물을 피하며 코인을 수집하고 장비를 업그레이드합니다.",
+          "공중에서 백플립이나 프론트플립을 통해 속도를 높일 수 있습니다.",
+          "다양한 겨울 환경과 캐릭터, 소리를 커스터마이징할 수 있습니다."
+        ],
+        "noteworthy_ko": "러닝 게임의 문법을 스노우 서핑이라는 테마로 재해석했습니다. 공중 기술을 통한 속도 보너스 시스템은 단순한 회피 게임에 기술적 재미를 더한 좋은 사례입니다.",
+        "development_ko": "지형 생성 알고리즘과 캐릭터의 물리 이동 처리가 핵심입니다. 장애물 배치와 속도감 조절을 위한 밸런스 작업이 필요하며, 1인 개발 시에는 무한 맵 생성 방식을 채택하는 것이 효율적입니다. 조작감 개선을 위해 물리 엔진의 마찰력 설정이 중요합니다.",
+        "idea_ko": "지형을 직접 그리는 스노우 서핑 맵 에디터 게임.",
+        "highlights_ko": [
+          "공중 기술을 활용한 속도 보너스 시스템.",
+          "다양한 겨울 환경과 장비 커스터마이징."
+        ],
+        "systems_ko": [
+          "캐릭터 물리 이동 및 제어 시스템",
+          "무한 지형 생성 알고리즘",
+          "장애물 배치 및 충돌 판정",
+          "코인 수집 및 업그레이드 시스템",
+          "기술(트릭) 판정 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "러닝 게임은 구현 난이도가 낮으나, 만족스러운 조작감을 만드는 물리 튜닝에는 시간이 걸립니다. 1인 개발 시에는 맵 생성 로직을 단순화하여 시작할 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 캐릭터 이동 및 회피",
+            "장애물 생성 로직",
+            "기본 점수 및 코인 시스템"
+          ],
+          "defer": [
+            "복잡한 트릭 시스템",
+            "다양한 캐릭터 커스터마이징",
+            "고급 그래픽 환경"
+          ],
+          "risks": [
+            "조작감의 이질감",
+            "맵 생성의 단조로움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "슬로프 빌더",
+            "concept": "사용자가 직접 슬로프의 경사와 장애물을 배치하여 친구와 기록을 겨루는 게임입니다.",
+            "first_step": "슬로프 경사도 조절 및 장애물 배치 에디터 구현."
+          },
+          {
+            "title": "스노우 서핑 챌린지",
+            "concept": "특정 시간 내에 목표 지점에 도달하거나 트릭 점수를 달성하는 미션 중심의 게임입니다.",
+            "first_step": "미션 달성 판정 로직 및 타이머 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "러닝 게임의 기본 구조와 물리 기반 조작을 배우기에 적합합니다. 조작감에 집중하여 게임의 재미를 극대화하는 연습을 하기에 좋습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 지형 생성 방식, 물리 엔진 설정, 수익 모델에 대한 정보가 없습니다. 외부 결제나 보안 기능은 명시되지 않았습니다.",
+        "name": "Sled Surfers - ズ - 坂冒険",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.sled.surfers.game&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 249,
+        "reasons": [
+          "multi_country"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "JP",
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-24"
     }
   }
 }

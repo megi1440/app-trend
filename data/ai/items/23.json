@@ -255,6 +255,96 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-24"
+    },
+    "apple:6499209744": {
+      "app_key": "apple:6499209744",
+      "name": "マジックソート (Magic Sort!)",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/kr/app/%EB%A7%88%EB%B2%95%EC%9D%98-%EC%A0%95%EB%A0%AC-magic-sort/id6499209744?uo=2",
+      "data_date": "2026-10-24",
+      "analysed_at": "2026-10-24T09:00:35+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Discover Magic Sort! Mix colors in a world where every splash of water is a step into mystery. This isn’t just a game; it’s a journey through puzzles that sparkle with charm, inviting you to sort, match, and puzzle your way through. Quick Play Guide - Start Simple: Tap a bottle to pick it up, and another to pour the water. Organize the water so each bottle has only one color. - Think Ahead: Pour water only if it matches the top color of the destination bottle and there’s room. Plan to avoid dead ends and strategically sort the colors. - Embrace Complexity: With each level, sorting and matching require more thought. Every move is crucial. - Utilize Magic Tools: Stuck? Use 'Undo' to reverse moves, or 'Shuffle' to rearrange the bottles anew, making sorting a breeze. Cool Features - Spellbinding Levels: Each stage brings a fresh challenge of color sorting and magical fun. - Wizard’s Gear: Magic tools make your quest of water sorting smoother and way more fun. - Vivid Splashes: A riot of colors makes every move a delight, turning sorting into a visual feast. - Unique Twists: Classic puzzles get a magical makeover for extra thrill, blending color, water, and puzzle elements seamlessly. - Boosts & Surprises: Stir up boosts in the cauldron to power through puzzles, adding a layer of strategy to your color sorting. - Mystical Ingredients: Gather ingredients to brew stronger magic, enhancing your water sort adventures. Why Play Magic Sort? - Sharpen Your Brain: Each puzzle is a fun test of wits, blending elements of color, water, and sorting into each challenge. - Chill Vibes: Dive into a soothing, colorful escape, where water and color sorting provide a tranquil experience. - Magic at Every Turn: New potions and surprises make every level an adventure in water, color, and puzzle-solving. Get Ready to Cast Some Color! Download Magic Sort now and start your magical, colorful journey. The world of mystical puzzles, where water, sorting, and color converge, awaits!",
+      "analysis": {
+        "app_key": "apple:6499209744",
+        "summary_ko": "병에 담긴 색깔별 물을 분류하여 각 병을 한 가지 색으로 채우는 퍼즐 게임입니다. 논리적인 순서로 물을 옮겨 모든 병을 정리하는 것이 목표입니다. 마법 도구를 사용하여 막힌 구간을 해결할 수 있습니다.",
+        "features_ko": [
+          "병을 탭하여 물을 다른 병으로 옮기는 직관적인 조작을 제공합니다.",
+          "같은 색상의 물 위에만 물을 부을 수 있는 규칙이 적용됩니다.",
+          "실수를 되돌리는 'Undo'와 병을 섞는 'Shuffle' 도구를 사용할 수 있습니다.",
+          "레벨이 올라갈수록 분류해야 할 색상과 병의 수가 늘어납니다."
+        ],
+        "noteworthy_ko": "단순한 규칙 속에 논리적 사고를 요구하는 퍼즐의 전형입니다. 사용자가 막히지 않도록 돕는 마법 도구 시스템은 난이도 조절과 사용자 경험 측면에서 매우 효과적인 장치로 보입니다.",
+        "development_ko": "핵심은 병의 상태를 관리하는 데이터 구조와 물 이동 규칙의 유효성 검사입니다. 콘텐츠 제작은 레벨 디자인에 집중되며, 난이도별로 병의 배치와 색상 조합을 설계하는 것이 중요합니다.",
+        "idea_ko": "물 대신 액체의 점성이나 흐르는 속도를 다르게 하여 퍼즐의 변수를 늘리는 방식이 적합합니다.",
+        "highlights_ko": [
+          "색깔별로 물을 분류하는 시각적 만족감이 높습니다.",
+          "마법 도구를 통해 퍼즐의 난이도를 유연하게 조절할 수 있습니다."
+        ],
+        "systems_ko": [
+          "병 데이터 관리 시스템",
+          "물 이동 규칙 검증 로직",
+          "레벨 데이터 관리",
+          "Undo/Shuffle 상태 저장 시스템",
+          "UI 인터랙션"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "규칙이 명확하고 데이터 구조가 단순하여 1인 개발로 핵심 메커니즘을 구현하기에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "병 선택 및 물 이동 로직",
+            "색상 일치 확인 규칙",
+            "레벨 클리어 판정"
+          ],
+          "defer": [
+            "마법 도구의 시각 효과",
+            "재료 수집 및 브루잉 시스템"
+          ],
+          "risks": [
+            "풀 수 없는 레벨이 생성될 가능성",
+            "단조로운 게임 플레이로 인한 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "온도 변화 퍼즐",
+            "concept": "물이 특정 온도에 도달하면 색이 변하거나 얼어붙어 이동이 불가능해지는 규칙을 추가합니다.",
+            "first_step": "병의 상태에 온도 속성을 추가하고 색상 변경 로직 구현."
+          },
+          {
+            "title": "혼합 색상 퍼즐",
+            "concept": "두 가지 색을 섞어 새로운 색을 만들어야만 다음 단계로 넘어갈 수 있는 퍼즐입니다.",
+            "first_step": "색상 조합 테이블을 만들고 병의 색상 합산 로직 구현."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 기본인 상태 관리와 규칙 검증을 배우기에 최적입니다. 단순한 메커니즘에서 시작해 점진적으로 복잡도를 높이는 개발 과정을 경험하기 좋습니다.",
+        "source_limitations_ko": "소개문에 언급된 '재료 수집'이나 '브루잉' 시스템의 구체적인 작동 방식은 명시되지 않았습니다. 외부 서비스 연동 여부는 확인되지 않았습니다.",
+        "name": "マジックソート (Magic Sort!)",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EB%A7%88%EB%B2%95%EC%9D%98-%EC%A0%95%EB%A0%AC-magic-sort/id6499209744?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 246,
+        "reasons": [
+          "multi_country"
+        ],
+        "best_rank": 3,
+        "countries": [
+          "JP",
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-24"
     }
   }
 }

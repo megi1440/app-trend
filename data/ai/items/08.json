@@ -172,6 +172,275 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-23"
+    },
+    "itch:5229b5c352a9805b93c0": {
+      "app_key": "itch:5229b5c352a9805b93c0",
+      "name": "Scritchy Scratchy [$6.99] [Simulation]",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://funday-games.itch.io/scritchy-scratchy",
+      "data_date": "2026-10-24",
+      "analysed_at": "2026-10-24T08:58:20+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A super-satisfying scratch card incremental game",
+      "analysis": {
+        "app_key": "itch:5229b5c352a9805b93c0",
+        "summary_ko": "Scritchy Scratchy는 복권 긁기 방식을 차용한 만족감 중심의 방치형 게임입니다. 사용자는 화면을 긁어 보상을 얻고 점진적으로 성장하는 경험을 하게 됩니다. 단순하고 직관적인 메커니즘을 통해 짧은 시간 동안 성취감을 느끼도록 설계되었습니다.",
+        "features_ko": [
+          "화면을 문질러 복권이나 카드를 긁는 인터랙션을 제공합니다.",
+          "클릭이나 긁기를 통해 재화를 획득하는 점진적 성장 시스템이 포함됩니다."
+        ],
+        "noteworthy_ko": "단순한 긁기 동작에 시각적, 청각적 피드백을 결합하여 만족감을 극대화하는 것이 핵심입니다. 개발 관점에서는 긁기 영역의 마스킹 처리와 보상 확률 로직의 밸런스가 게임의 재미를 결정할 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 텍스처 마스킹을 이용한 긁기 효과 구현입니다. 콘텐츠 제작은 다양한 카드 디자인과 보상 테이블 구성에 집중됩니다. 밸런스 측면에서는 보상 획득 속도와 사용자의 피로도를 조절하는 것이 중요합니다.",
+        "idea_ko": "긁기 결과에 따라 수집 가능한 도감 시스템을 추가하여 단순 반복을 넘어선 수집의 재미를 제공하는 것이 가장 적합합니다.",
+        "highlights_ko": [
+          "복권 긁기라는 익숙한 행위를 게임화하여 즉각적인 보상을 제공합니다.",
+          "방치형 장르 특유의 점진적 성장 구조를 결합했습니다."
+        ],
+        "systems_ko": [
+          "입력 판정 및 마스킹 처리 시스템",
+          "재화 및 보상 데이터 관리 시스템",
+          "UI 상태 관리",
+          "확률 기반 보상 생성 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 단일 인터랙션에 집중되어 있어 구현 범위가 좁습니다. 복잡한 물리 엔진이나 네트워크 통신 없이도 단일 앱으로 완성이 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "긁기 인터랙션 구현",
+            "재화 획득 및 저장 시스템",
+            "기본 UI 구성"
+          ],
+          "defer": [
+            "복잡한 애니메이션 효과",
+            "클라우드 저장 기능",
+            "소셜 공유 기능"
+          ],
+          "risks": [
+            "단순 반복으로 인한 빠른 콘텐츠 소모",
+            "긁기 피드백의 만족도 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "수집형 스크래치 도감",
+            "concept": "긁어서 나온 결과물로 도감을 채우는 게임입니다. 희귀한 결과물을 얻을 확률을 조정하여 수집 욕구를 자극합니다.",
+            "first_step": "기본 긁기 기능에 3종류의 결과물을 랜덤하게 출력하는 로직을 구현합니다."
+          },
+          {
+            "title": "시간 제한 긁기 챌린지",
+            "concept": "제한 시간 내에 최대한 많은 영역을 긁어 점수를 얻는 방식입니다. 콤보 시스템을 도입하여 연속적인 긁기의 재미를 강화합니다.",
+            "first_step": "타이머 UI와 긁기 영역의 퍼센트 계산 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "단순한 인터랙션이 사용자 경험에 미치는 영향을 연구하기 좋습니다. 게임의 핵심 재미를 최소한의 기능으로 구현하는 MVP 개발 연습에 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 보상 체계, 그래픽 스타일, 사운드 효과의 유무를 확인할 수 없습니다. 실제 게임의 깊이와 콘텐츠 양은 알 수 없습니다.",
+        "name": "Scritchy Scratchy [$6.99] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://funday-games.itch.io/scritchy-scratchy",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 275,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 36,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-24"
+    },
+    "google:com.devsisters.ck": {
+      "app_key": "google:com.devsisters.ck",
+      "name": "쿠키런: 킹덤",
+      "source": "google",
+      "country": "US",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.devsisters.ck&hl=ko&gl=KR",
+      "data_date": "2026-10-24",
+      "analysed_at": "2026-10-24T08:58:20+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "◼︎ EVERYONE'S FAVORITE TINY HEROES: THE COOKIES Meet our Cookies, all voiced by an amazing cast of voice actors Witness their epic skills, fall in love with their voices, and dress them into new chic costumes. Join the Cookies in CookieRun: Kingdom! ◼︎ EMBARK ON AN EPIC JOURNEY AROUND EARTHBREAD The secrets of the ancient Cookies and their kingdoms are waiting to be unraveled. Join GingerBrave and his friends against Dark Enchantress Cookie and her dark legion. The chronicles of CookieRun: Kingdom have just begun! ◼︎ BUILD A DELICIOUSLY SWEET KINGDOM Choose from a great variety of unique decors to design the Kingdom of your dreams. Produce materials, craft items, arrange all sorts of activities—the vibrant kingdom life awaits! ◼︎ BATTLE YOUR WAY TO VICTORY Create the ultimate Cookie team with endless combinations of Treasures and Toppings Prove your battle skill in the Kingdom Arena, Cookie Alliance, Super Mayhem, and Guild Battles! Come up with different strategies to emerge victorious! ■ BRING GLORY TO YOUR GUILD Reach the top of the ranking table with your fellow guildmates. Expand your guild's Domain and collect Guild Relics to become the strongest guild there is! [Required Access] For Android 10 devices or older: Storage: allows the app to install the game and save game data • READ_EXTERNAL_STORAGE • WRITE_EXTERNAL_STORAGE For Android 11 devices or newer: ※ If you play the game as a guest, your game data will be deleted upon deleting the app. [Denying Access] Select Allow or Deny in Settings, Privacy, or the selected permission",
+      "analysis": {
+        "app_key": "google:com.devsisters.ck",
+        "summary_ko": "쿠키런: 킹덤은 다양한 쿠키 캐릭터를 수집하고 육성하여 왕국을 건설하는 RPG 게임입니다. 플레이어는 캐릭터의 스킬과 조합을 활용해 전투를 수행하며 스토리를 진행합니다. 왕국 꾸미기, 길드 활동 등 다양한 콘텐츠를 통해 성장의 재미를 제공합니다.",
+        "features_ko": [
+          "다양한 개성을 가진 쿠키 캐릭터를 수집하고 육성합니다.",
+          "건물과 장식을 배치하여 자신만의 왕국을 디자인합니다.",
+          "쿠키 조합과 보물, 토핑을 활용한 전략적 전투를 수행합니다.",
+          "길드원과 협력하여 길드 콘텐츠를 즐기고 랭킹을 경쟁합니다."
+        ],
+        "noteworthy_ko": "캐릭터 수집형 RPG와 왕국 건설 시뮬레이션이 결합된 하이브리드 장르입니다. 전투와 경영이라는 두 가지 핵심 루프가 어떻게 유기적으로 연결되는지가 개발 관점에서 매우 흥미로운 지점입니다.",
+        "development_ko": "캐릭터별 스킬 데이터와 전투 밸런스 설계가 핵심입니다. 왕국 건설을 위한 리소스 관리 시스템과 서버 기반의 길드 데이터 동기화가 필요합니다. 대규모 캐릭터 업데이트에 따른 지속적인 밸런스 테스트 부담이 큽니다.",
+        "idea_ko": "특정 테마의 왕국을 꾸미고 공유하는 '왕국 전시회' 모드를 통해 소셜 기능을 강화하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "캐릭터마다 고유한 보이스와 스킬을 부여하여 몰입감을 높였습니다.",
+          "전투, 경영, 길드 등 다채로운 게임 모드를 제공합니다."
+        ],
+        "systems_ko": [
+          "캐릭터 수집 및 육성 시스템",
+          "왕국 건설 및 생산 관리 시스템",
+          "전투 엔진 및 스킬 연출 시스템",
+          "길드 및 소셜 데이터 관리 시스템",
+          "재화 및 인벤토리 밸런스 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 시스템이 복합적으로 얽혀 있어 1인 개발로 전체를 구현하기에는 규모가 매우 큽니다. 특히 전투 밸런스와 서버 데이터 관리는 고도의 기술적 숙련도를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 캐릭터 수집 및 배치 시스템",
+            "간단한 턴제 또는 실시간 전투 로직",
+            "기본 왕국 건설 UI"
+          ],
+          "defer": [
+            "길드 시스템",
+            "복잡한 서버 동기화",
+            "다양한 이벤트 모드"
+          ],
+          "risks": [
+            "캐릭터 밸런스 붕괴",
+            "복잡한 시스템 구현으로 인한 개발 지연"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "쿠키 왕국 사진관",
+            "concept": "자신이 꾸민 왕국을 특정 테마에 맞춰 사진으로 찍어 공유하고 평가받는 모드입니다. 전투 없이 꾸미기 요소에 집중합니다.",
+            "first_step": "왕국 배치 데이터를 이미지로 저장하는 기능을 구현합니다."
+          },
+          {
+            "title": "쿠키 탐험대 로그라이크",
+            "concept": "선택한 쿠키들로 던전을 탐험하며 무작위 스킬을 획득하는 로그라이크 모드입니다. 기존 캐릭터 데이터를 활용한 새로운 재미를 제공합니다.",
+            "first_step": "캐릭터 스킬을 무작위로 선택하는 카드 시스템을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "복합 장르 게임의 시스템 설계와 데이터 구조를 공부하기에 좋습니다. 다만, 1인 개발 시에는 범위를 대폭 축소하여 핵심 루프 하나에 집중하는 것을 권장합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 전투 메커니즘의 상세 수치나 서버 아키텍처, 결제 시스템의 상세 구현 방식은 명시되어 있지 않습니다.",
+        "name": "쿠키런: 킹덤",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.devsisters.ck&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 250,
+        "reasons": [
+          "multi_country"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-24"
+    },
+    "google:com.metax.obby.escape.run": {
+      "app_key": "google:com.metax.obby.escape.run",
+      "name": "Keyboard Escape: +1 Speed ASMR",
+      "source": "google",
+      "country": "US",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.metax.obby.escape.run&hl=ko&gl=KR",
+      "data_date": "2026-10-24",
+      "analysed_at": "2026-10-24T08:59:17+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Get ready for the ultimate keyboard escape! ⌨️⚡️ Welcome to Keyboard Escape: +1 Speed ASMR, a fast-paced keyboard adventure where you run across giant keyboards, dodge tricky obstacles, and gain speed as you push your limits! Run, jump, escape, and keep moving through exciting keyboard parkour challenges. Every step brings satisfying keyboard ASMR sounds and a chance to become faster. ⌨️ KEYBOARD ESCAPE Enter a giant keyboard world and start your escape! Run across massive keyboard platforms, jump between keys, avoid obstacles, and race through challenging courses. Your goal is simple: keep running and escape the keyboard! Every keyboard escape brings new challenges to test your timing, reflexes, and speed. ⚡️ GET +1 SPEED Keep moving to become faster! Build your speed as you run through the keyboard world. The faster you become, the more exciting each escape gets. Run faster, react quicker, and see how far you can go! 🎧 SATISFYING KEYBOARD ASMR Love keyboard sounds? Enjoy satisfying ASMR typing sounds throughout your run. Every movement across the keyboard creates satisfying sounds that make the gameplay feel even more immersive. ⌨️ Tap the keys. 🎧 Hear the ASMR. ⚡️ Gain speed. 🏃 Keep running. 🏃 RUN, JUMP & ESCAPE The keyboard isn't as easy to cross as it looks! Jump over obstacles, dodge traps, avoid dangerous paths, and keep your momentum going. Each parkour section challenges your reflexes and timing. One missed jump can slow you down, so stay focused and keep running! 🎮 FAST-PACED PARKOUR FUN Keyboard Escape: +1 Speed ASMR combines keyboard gameplay, parkour challenges, and satisfying ASMR into a fun casual experience. • Keyboard-themed parkour courses • Exciting keyboard escape gameplay • +1 speed progression • Satisfying keyboard ASMR sounds • Fast-paced running challenges • Tricky obstacles and traps • Jumping and dodging challenges • Smooth and simple controls • Fun courses to explore • Reflex-based gameplay 🔥 HOW FAR CAN YOU ESCAPE? Start your keyboard escape and see how fast you can become! Run across giant keyboards, overcome obstacles, gain +1 speed, and challenge yourself to reach the end of each course. Whether you enjoy keyboard games, ASMR games, parkour games, obby challenges, or fast-paced running games, there is always another keyboard escape waiting for you. ⌨️ RUN ACROSS THE KEYBOARD ⚡️ GAIN +1 SPEED 🎧 ENJOY KEYBOARD ASMR 🏃 ESCAPE THE OBSTACLES Are you fast enough to escape the keyboard? Download Keyboard Escape: +1 Speed ASMR and start your keyboard escape adventure today!",
+      "analysis": {
+        "app_key": "google:com.metax.obby.escape.run",
+        "summary_ko": "거대한 키보드 위를 달리는 파쿠르 게임으로, 장애물을 피하며 속도를 높여 끝까지 탈출하는 것이 목표입니다. 키보드를 밟을 때마다 발생하는 ASMR 사운드가 특징이며, 속도감 있는 진행을 통해 반사 신경을 테스트합니다. 단순한 조작으로 누구나 쉽게 즐길 수 있는 캐주얼 게임입니다.",
+        "features_ko": [
+          "키보드 테마의 파쿠르 코스를 달리고 장애물을 피하는 게임 플레이를 제공합니다.",
+          "달릴 때마다 키보드 타이핑 ASMR 사운드가 재생되어 몰입감을 높입니다.",
+          "장애물을 통과할 때마다 속도가 +1씩 증가하는 성장 시스템이 있습니다.",
+          "점프와 회피를 활용한 단순하고 직관적인 조작 방식을 지원합니다.",
+          "다양한 난이도의 코스를 탐험하며 자신의 최고 기록에 도전할 수 있습니다."
+        ],
+        "noteworthy_ko": "키보드라는 일상적인 소재를 파쿠르 게임과 결합하고, ASMR 사운드를 핵심 재미 요소로 활용한 점이 매우 창의적입니다. 시각적 정보와 청각적 피드백을 일치시켜 플레이어에게 만족감을 주는 설계가 돋보입니다.",
+        "development_ko": "핵심 구현 기술은 캐릭터의 이동 로직과 장애물 충돌 판정입니다. ASMR 사운드와 캐릭터의 동작을 동기화하는 것이 구현의 핵심입니다. 1인 개발 시에는 코스 디자인의 다양성보다는 조작감과 사운드 피드백의 질을 높이는 데 집중하는 것이 좋습니다.",
+        "idea_ko": "키보드 키마다 다른 소리와 효과를 부여하여, 플레이어가 달리는 경로에 따라 음악이 연주되는 '리듬 파쿠르' 게임으로 발전시키는 것을 추천합니다.",
+        "highlights_ko": [
+          "키보드 타이핑 소리를 활용한 독특한 ASMR 청각 피드백.",
+          "속도가 점진적으로 빨라지는 직관적인 성장 시스템."
+        ],
+        "systems_ko": [
+          "캐릭터 이동 및 파쿠르 물리 엔진",
+          "장애물 충돌 판정 시스템",
+          "ASMR 사운드 트리거 및 관리자",
+          "속도 증가 및 난이도 관리 시스템",
+          "코스 생성 및 레벨 관리자"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "게임의 메커니즘이 단순하고 물리 엔진을 활용한 파쿠르 게임은 1인 개발자가 프로토타입을 만들고 완성하기에 가장 적합한 장르입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 점프 로직",
+            "키보드 타일 충돌 및 사운드 재생",
+            "속도 증가 시스템"
+          ],
+          "defer": [
+            "다양한 코스 테마",
+            "캐릭터 커스터마이징",
+            "글로벌 랭킹 시스템"
+          ],
+          "risks": [
+            "조작감의 미세한 차이로 인한 플레이 피로도",
+            "단순한 반복 플레이로 인한 금방 질리는 게임성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "리듬 키보드 런",
+            "concept": "배경 음악의 비트에 맞춰 키보드를 밟아야 속도가 유지되는 리듬 파쿠르 게임입니다.",
+            "first_step": "음악의 비트 정보를 읽어와 캐릭터의 점프 타이밍과 동기화하는 로직 구현."
+          },
+          {
+            "title": "오피스 탈출기",
+            "concept": "키보드뿐만 아니라 마우스, 모니터 등 사무용품을 활용한 장애물을 피하는 코믹한 파쿠르 게임입니다.",
+            "first_step": "다양한 사무용품 오브젝트를 배치한 간단한 장애물 코스 제작."
+          }
+        ],
+        "recommendation_ko": "물리 기반의 캐릭터 이동과 사운드 피드백을 결합하는 법을 배우기에 최적입니다. 캐주얼 게임의 핵심인 '조작의 재미'를 구현하는 연습으로 강력 추천합니다.",
+        "source_limitations_ko": "소개문에는 물리 엔진의 종류, 사운드 처리 방식, 코스 생성 알고리즘에 대한 정보가 없습니다. 결제나 외부 서비스 연동 기능은 언급되지 않았으므로 구현하지 마세요.",
+        "name": "Keyboard Escape: +1 Speed ASMR",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.metax.obby.escape.run&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 249,
+        "reasons": [
+          "multi_country"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "JP",
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-24"
     }
   }
 }

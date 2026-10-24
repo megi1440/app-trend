@@ -334,6 +334,97 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-23"
+    },
+    "google:com.google.android.apps.bard": {
+      "app_key": "google:com.google.android.apps.bard",
+      "name": "Google Gemini",
+      "source": "google",
+      "country": "JP",
+      "category": "app_productivity",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.bard&hl=ko&gl=KR",
+      "data_date": "2026-10-24",
+      "analysed_at": "2026-10-24T08:59:17+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "朝の通勤から物事に対する深夜の研究まで、Google Gemini はパワフルなパーソナル AI アシスタントとして、能動的にユーザーをサポートします。 Gemini の魅力 • Google の最新モデルである Gemini 3.6 Flash と Gemini Omni が、生産性と創造性の新境地を切り開きます。 • Gemini Live に相談: リアルタイムでブレインストーミングしたり、画面やカメラを共有して目の前のものについて話し合ったりすることができます。 • テキストの羅列ではなく、画像、タイムライン、インタラクティブなビジュアルを織り交ぜて綿密に作成された回答が得られます。 • Gmail、カレンダー、Google フォト、YouTube、検索など、お気に入りの Google アプリと連携させることで、よりパーソナライズされたサポートを受けられます。 • ドキュメント、スプレッドシート、写真、動画などをアップロードすれば、そのコンテンツに関する回答や要約、インサイトが得られます。 クリエイティブなアイデアを形にしましょう • Nano Banana 2 で写真を生成、編集: カメラと照明のコントロールを適用したり、複数の画像を組み合わせてモックアップを作成したり、鮮明なテキストのポスターをデザインしたり、簡単に図を描いたり。必要に応じてサイズの変更も行えます。 • Google AI Plus、Pro、Ultra、Workspace をご利用の場合は、Gemini Omni を使用してアイデアを映画のような動画に変換できます。 • Lyria 3 を使用して、あらゆる場面にぴったりのカスタム サウンドトラックを作成できます。 仕事を効率化 • NotebookLM を調査に活用: ノートブック内のソースに基づいた、より詳細で関連性の高い回答が得られます。 • 学習サポートと試験対策が簡単に: 授業のノートをアップロードして、カスタムの練習問題やインタラクティブなビジュアルを生成できます。 • 簡単なプロンプトからプロトタイプを作成: ウェブページ、ゲーム、ダッシュボードを構築できます。ファイルの内容をポッドキャスト形式の概要に変換して、移動中に聴くこともできます。 アップグレードでさらに多くの機能にアクセス Google AI Plus、Pro、Ultra プランにアップグレードして、Gemini アプリ エクスペリエンスを向上させましょう。より複雑なタスクやプロジェクトに取り組む際に役立ちます。 Gemini アプリのプライバシーに関するお知らせ（g.co/gemini/privacynotice）をご確認ください。 Gemini アプリを有効にすると、Google アシスタントに代わって Gemini がスマートフォンのメイン アシスタントになります。Google アシスタントの一部の音声機能は、現在 Gemini アプリでは利用できません。Google アシスタントに戻したい場合は、設定で切り替えることができます。",
+      "analysis": {
+        "app_key": "google:com.google.android.apps.bard",
+        "summary_ko": "Google Gemini는 사용자의 생산성과 창의성을 돕는 AI 어시스턴트입니다. 실시간 대화, 이미지 생성, 문서 요약 및 다양한 Google 앱과의 연동 기능을 제공합니다. 사용자의 질문에 대해 텍스트뿐만 아니라 시각적 자료를 포함한 답변을 생성합니다.",
+        "features_ko": [
+          "실시간 대화 및 브레인스토밍을 지원하는 Gemini Live 기능을 제공합니다.",
+          "Gmail, 캘린더, YouTube 등 Google 앱과 연동하여 개인화된 정보를 제공합니다.",
+          "문서나 사진을 업로드하여 요약하거나 관련 인사이트를 얻을 수 있습니다.",
+          "텍스트 프롬프트를 통해 이미지 생성 및 편집이 가능합니다.",
+          "학습 노트를 기반으로 연습 문제나 시각 자료를 생성할 수 있습니다."
+        ],
+        "noteworthy_ko": "AI 모델을 활용하여 사용자의 일상 업무를 자동화하고 생산성을 높이는 방식이 흥미롭습니다. 다양한 멀티모달(텍스트, 이미지, 영상) 데이터를 통합 처리하는 구조가 개발 관점에서 매우 복잡하고 정교합니다.",
+        "development_ko": "핵심 기술은 대규모 언어 모델(LLM) API 연동과 프롬프트 엔지니어링입니다. 사용자의 데이터를 안전하게 처리하기 위한 개인정보 보호 아키텍처가 필수적입니다. 다양한 외부 API와의 연동을 위한 데이터 파이프라인 구축이 큰 부담이 될 것입니다.",
+        "idea_ko": "특정 도메인(예: 개인 학습 기록)에 특화된 AI 어시스턴트를 만드는 것이 개인 개발자에게는 더 실현 가능합니다.",
+        "highlights_ko": [
+          "다양한 Google 서비스와 연동되는 강력한 생산성 도구.",
+          "텍스트, 이미지, 영상 등 멀티모달 데이터를 처리하는 AI 어시스턴트."
+        ],
+        "systems_ko": [
+          "LLM API 연동 인터페이스",
+          "사용자 데이터 처리 및 프롬프트 관리자",
+          "멀티모달 데이터 파싱 모듈",
+          "외부 서비스 연동 API 관리자"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "AI 모델 자체를 개발하는 것은 불가능에 가까우며, API를 활용하더라도 복잡한 데이터 처리와 사용자 경험 설계, 보안 이슈 해결은 1인 개발자가 감당하기 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "LLM API 연동 기본 인터페이스",
+            "사용자 입력 및 AI 응답 UI",
+            "기본적인 대화 기록 저장"
+          ],
+          "defer": [
+            "멀티모달(이미지/영상) 처리",
+            "외부 앱 연동",
+            "실시간 음성 대화"
+          ],
+          "risks": [
+            "API 호출 비용 관리 실패",
+            "AI의 잘못된 정보 제공(환각 현상)에 대한 책임"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "개인 학습 요약기",
+            "concept": "사용자가 입력한 학습 노트를 AI가 요약하고 퀴즈를 만들어주는 학습 보조 도구입니다.",
+            "first_step": "OpenAI API 등을 사용하여 텍스트를 요약하는 간단한 웹 페이지 구현."
+          },
+          {
+            "title": "일기 기반 감정 분석기",
+            "concept": "작성한 일기를 분석하여 사용자의 감정 변화를 그래프로 보여주는 도구입니다.",
+            "first_step": "AI를 통해 텍스트에서 감정 키워드를 추출하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "AI API를 활용한 서비스 개발의 기초를 익히기에 좋습니다. 다만, AI 서비스는 비용과 보안 문제가 크므로 작은 규모의 도구부터 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 사용된 AI 모델의 상세 사양이나 데이터 처리 방식이 명시되어 있지 않습니다. AI 서비스는 윤리적, 법적 책임이 따르므로 소개문만으로 실제 서비스를 구현해서는 안 됩니다.",
+        "name": "Google Gemini",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.bard&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 249,
+        "reasons": [
+          "multi_country"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "JP",
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-24"
     }
   }
 }
