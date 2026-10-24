@@ -11,6 +11,9 @@ const getArg = (name, fallback) => { const i = args.indexOf(name); return i >= 0
 const mode = getArg('--mode', 'smoke');
 const countryArg = getArg('--country', 'all');
 const maxGroupsArg = getArg('--max-groups', '');
+const onlyGroupsArg = getArg('--only-groups', '');
+const onlyGroups = onlyGroupsArg ? new Set(JSON.parse(readFileSync(onlyGroupsArg, 'utf8')).groups
+  .filter(g => g.source === 'google').map(g => `${g.country}:${g.chart}:${g.category}`)) : null;
 const maxGroups = maxGroupsArg === '' ? Infinity : Number(maxGroupsArg);
 if (!['smoke', 'full'].includes(mode) || !['US', 'JP', 'KR', 'all'].includes(countryArg) || !Number.isFinite(maxGroups) && maxGroups !== Infinity) {
   console.error('Invalid mode, country, or max-groups'); process.exit(2);
@@ -45,6 +48,7 @@ async function run() {
     const charts = mode === 'full' ? cfg.charts : cfg.charts.filter(row =>
       ['all_apps:top_free', 'all_apps:top_paid', 'game_puzzle:top_free'].includes(`${row.category}:${row.chart}`));
     for (const row of charts) {
+      if (onlyGroups && !onlyGroups.has(`${country}:${row.chart}:${row.category}`)) continue;
       if (groups.length >= maxGroups) break outer;
       const cat = categories[row.google_category];
       if (!cat) {

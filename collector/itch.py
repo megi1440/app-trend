@@ -1,6 +1,8 @@
 """Read itch.io public RSS; no account or API key."""
 import argparse
 import hashlib
+import json
+from pathlib import Path
 import html
 import re
 import time
@@ -79,10 +81,15 @@ def main():
     p = argparse.ArgumentParser(description="itch.io public RSS collection (staging only)")
     p.add_argument("--mode", choices=["smoke", "full"], default="smoke")
     p.add_argument("--feed", choices=["all", "featured", "new", "puzzle", "idle"], default="all")
+    p.add_argument("--only-groups", default="")
     args = p.parse_args()
     feeds = config()["itch_feeds"]
     if args.feed != "all":
         feeds = {args.feed: feeds[args.feed]}
+    if args.only_groups:
+        targets = json.loads(Path(args.only_groups).read_text(encoding='utf-8'))['groups']
+        permitted = {r['feed'] for r in targets if r['source'] == 'itch'}
+        feeds = {name: url for name, url in feeds.items() if name in permitted}
     results = collect(feeds)
     path = STAGING / "itch.json"
     atomic_json(path, {"schema_version": 1, "source": "itch", "mode": args.mode, "generated_at": timestamp(), "groups": results})

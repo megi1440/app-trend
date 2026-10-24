@@ -112,7 +112,7 @@ class DailyTests(unittest.TestCase):
             prior = [
                 {'app_key': f'imported:{i}', 'analysed_at': '2026-10-22T12:00:00+09:00',
                  'data_date': '2026-10-22', 'origin': 'imported_v2'}
-                for i in range(58)
+                for i in range(ai_daily.MAX_DAY_APPS - 2)
             ]
             ai_daily.write_records(home, prior, {})
             api = Mock(side_effect=responder)
@@ -120,7 +120,7 @@ class DailyTests(unittest.TestCase):
             preview = ai_daily.run(home, snapshot=snapshot(), trends=trends(),
                                    live=False, limit=5, run_day='2026-10-22',
                                    fetch=fetch, invoke=api)
-            self.assertEqual(preview['analysed_today'], 58)
+            self.assertEqual(preview['analysed_today'], ai_daily.MAX_DAY_APPS - 2)
             self.assertEqual(preview['remaining_today'], 2)
             self.assertEqual(preview['effective_limit'], 2)
             self.assertEqual(len(preview['candidates']), 2)
@@ -133,7 +133,7 @@ class DailyTests(unittest.TestCase):
                                   fetch=fetch, invoke=api, pause=lambda _: None)
             self.assertEqual(result['analysed'], 2)
             self.assertEqual(result['remaining_today'], 0)
-            self.assertEqual(len(ai_daily.load_records(home)), 60)
+            self.assertEqual(len(ai_daily.load_records(home)), ai_daily.MAX_DAY_APPS)
             self.assertEqual(api.call_count, 1)
             self.assertEqual({entry['quota_day'] for entry in ai_daily.load_records(home).values()
                               if entry.get('origin') == 'daily_v3'}, {'2026-10-22'})
@@ -250,7 +250,8 @@ class DailyTests(unittest.TestCase):
                                   fetch=lambda i:'Long enough store description. '*2,
                                   invoke=mismatched, pause=lambda sec:None)
             self.assertEqual(report['analysed'], 0)
-            self.assertEqual(report['stopped_by_error'], 'ValueError')
+            self.assertEqual(report['stopped_by_error'], '')
+            self.assertEqual(report['requests'], 9)
             self.assertEqual(len(ai_daily.load_records(home)), 0)
 
     def test_batch_diagnostic_identifies_actual_validation_reason_and_location(self):
@@ -264,7 +265,8 @@ class DailyTests(unittest.TestCase):
                                       fetch=lambda i:'Long enough store description. '*2,
                                       invoke=mismatched, pause=lambda sec:None)
             output = log.getvalue()
-            self.assertEqual(report['stopped_by_error'], 'ValueError')
+            self.assertEqual(report['stopped_by_error'], '')
+            self.assertEqual(report['requests'], 9)
             self.assertIn('ValueError: AI_RESPONSE_MISMATCHED_ID', output)
             self.assertIn('ai_probe.py:', output)
             self.assertIn('verify_result()', output)
@@ -303,7 +305,40 @@ class DailyTests(unittest.TestCase):
                                   invoke=fn, pause=lambda sec:None)
             self.assertEqual(report['analysed'], 2)
             self.assertEqual(len(ai_daily.load_records(home)), 2)
-            self.assertEqual(report['stopped_by_error'], 'GEMINI_HTTP_503')
+            self.assertEqual(report['stopped_by_error'], '')
+            self.assertGreaterEqual(report['requests'], 4)
+
+    def test_failed_batch_three_times_does_not_block_later_good_batch(self):
+        with TemporaryDirectory() as td:
+            root = Path(td)
+            requests = []
+            def fake(payload, key):
+                requests.append(1)
+                if len(requests) <= 3:
+                    return {'items': [sample_detailed_result('google:wrong')]}, {}
+                return responder(payload, key)
+            result = ai_daily.run(root, snapshot=snapshot(), trends={}, api_key='FAKE_SECRET',
+                                  live=True, limit=10, batch_size=5,
+                                  fetch=lambda row: 'Long enough store description. '*3,
+                                  invoke=fake, pause=lambda _: None)
+            self.assertEqual(result['requests'], 5)
+            self.assertEqual(result['analysed'], 10)
+            self.assertEqual(result['stopped_by_error'], '')
+            self.assertEqual(len(result['failures']), 1)
+            self.assertEqual(len(ai_daily.load_records(root)), 10)
+            self.assertEqual(len(ai_daily.read_failures(root)), 5)
+
+    def test_quota_error_stops_without_repeated_requests(self):
+        with TemporaryDirectory() as td:
+            root = Path(td)
+            fn = Mock(side_effect=RuntimeError('GEMINI_HTTP_429'))
+            result = ai_daily.run(root, snapshot=snapshot(), trends={}, api_key='FAKE_SECRET',
+                                  live=True, limit=10, batch_size=5,
+                                  fetch=lambda row: 'Long enough store description. '*3,
+                                  invoke=fn, pause=lambda _: None)
+            self.assertEqual(result['requests'], 1)
+            self.assertEqual(fn.call_count, 1)
+            self.assertEqual(result['stopped_by_error'], 'GEMINI_HTTP_429')
 
     def test_corrupted_shard_refuses_to_overwrite(self):
         with TemporaryDirectory() as td:

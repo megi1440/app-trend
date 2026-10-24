@@ -21,7 +21,7 @@ jobs:
   analyse:
     if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 360
     steps:
       - name: 최신 main 체크아웃
         uses: actions/checkout@v4
@@ -29,7 +29,7 @@ jobs:
           ref: main
           persist-credentials: true
 
-      # A successful 'collect' workflow can also mean that the 08:17
+      # A successful 'collect' workflow can also mean that a scheduled
       # fallback found today's data and skipped all collection steps.
       # Do not let that no-op trigger an additional Gemini batch.
       - name: 실제 신규 수집 실행 확인
@@ -103,18 +103,26 @@ jobs:
             exit 1
           fi
 
-      - name: 미분석 앱 자동 분석 (하루 최대 60개)
+      - name: 미분석 앱 자동 분석 (배치 5개 · API 사용량 보호)
         if: steps.daily_gate.outputs.run == 'true'
         id: ai
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python -u collector/ai_daily.py --run --limit 60 --batch-size 5
+        run: python -u collector/ai_daily.py --run --limit 2250 --batch-size 5
 
       # 503 등으로 뒷부분이 중단되더라도 먼저 성공한 배치는 보존한다.
       - name: AI 결과를 연구실 요약 인덱스에 반영
         if: steps.daily_gate.outputs.run == 'true'
         run: python collector/build_lab.py
+
+      - name: Gemini 3.5 개발 후보 검토 및 상세 설계 (검토 30 · 설계 5)
+        if: steps.daily_gate.outputs.run == 'true'
+        id: development
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python -u collector/develop_daily.py --run --brief-limit 30 --plan-limit 5
 
       - name: AI 누적 데이터 커밋 및 푸시
         if: steps.daily_gate.outputs.run == 'true'
@@ -122,6 +130,12 @@ jobs:
         shell: bash
         run: |
           git add -A -- data/ai/items/ data/ai/failures.json data/lab/
+          if [ -f data/ai/request_usage.json ]; then
+            git add -- data/ai/request_usage.json
+          fi
+          if [ -d data/development ] && [ -n "$(find data/development -type f -print -quit)" ]; then
+            git add -A -- data/development/
+          fi
           if git diff --cached --quiet; then
             echo 'AI 분석 결과 변경 없음'
             exit 0
@@ -145,7 +159,7 @@ jobs:
           fi
 
       - name: AI 분석 중단 보고 (성공 결과 커밋 이후)
-        if: steps.daily_gate.outputs.run == 'true' && steps.ai.outcome == 'failure'
+        if: steps.daily_gate.outputs.run == 'true' && (steps.ai.outcome == 'failure' || steps.development.outcome == 'failure')
         run: |
-          echo '::error::AI 분석이 중단됐습니다. 앞서 저장한 결과의 Git 커밋은 완료됐으며 미분석 앱은 다음 실행에 재시도합니다.'
+          echo '::error::AI 3.1 또는 3.5 분석이 중단됐습니다. 성공 결과는 커밋했으며 미완료 항목은 다음 실행에 재시도합니다.'
           exit 1

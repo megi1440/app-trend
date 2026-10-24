@@ -37,7 +37,7 @@ def web_record(app_key, country, apps, locales):
     }
 
 
-def keep_status_across_partial_runs(root, run_date, current_statuses):
+def keep_status_across_partial_runs(root, run_date, current_statuses, *, retry_only=False):
     """Preserve unrelated source statuses on manual per-source runs.
 
     Count a failure at most once per KST collection date. Unsupported/skipped
@@ -68,6 +68,10 @@ def keep_status_across_partial_runs(root, run_date, current_statuses):
             continue
 
         row = dict(current[key])
+        # A retry must never erase a chart that already succeeded earlier today.
+        if retry_only and old.get('accepted') and old.get('last_checked_date') == run_date and not row.get('accepted'):
+            merged.append(dict(old))
+            continue
         was_ok = bool(row.get('accepted'))
         failed = not was_ok and row.get('status') in ('failed', 'partial')
         if failed:
@@ -297,10 +301,10 @@ def build_exports(root, run_date, apps, locales):
     return output
 
 
-def build(root, run_date, statuses):
+def build(root, run_date, statuses, *, retry_only=False):
     apps = {r['app_key']: r for r in read_csv(root / 'data/apps.csv', APP_FIELDS)}
     locales = {(r['app_key'], r['country']): r for r in read_csv(root / 'data/app_locales.csv', LOCALE_FIELDS)}
-    preserved_statuses = keep_status_across_partial_runs(root, run_date, statuses)
+    preserved_statuses = keep_status_across_partial_runs(root, run_date, statuses, retry_only=retry_only)
     latest = make_latest(root, run_date, preserved_statuses, apps, locales)
     status = make_status(run_date, preserved_statuses, latest)
     trends = make_trends(root, run_date, latest, apps)

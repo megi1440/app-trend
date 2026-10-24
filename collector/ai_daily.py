@@ -1,7 +1,7 @@
-"""V3: select valuable unanalysed apps, persist V2 analyses, resume safely.
+"""V3: daily first-pass AI analysis with persistent shards and safe request caps.
 
-Local-only for now. Does not change collectors, rank CSVs, static website, or GitHub Actions.
-API key: environment or external TXT, same as ai_probe.py. No secrets are persisted.
+Store observations remain unmodified. An API key is read from the environment or
+an external local secret file; raw keys are never persisted or logged.
 """
 from __future__ import annotations
 
@@ -17,6 +17,7 @@ import time
 import traceback
 import unicodedata
 from pathlib import Path
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 import ai_probe
 from common import ROOT, atomic_json, kst_now, timestamp
@@ -33,10 +34,56 @@ REASONS = {
     'indie_discovery': 140,
     'overseas_interest': 45,
 }
-MAX_DAY_APPS = 60
+MAX_DAY_APPS = 2250  # Safety headroom: 450 batches * 5 apps.
+MAX_DAY_REQUESTS = 450  # User free tier currently shows 500 RPD, do not use all.
+REQUEST_USAGE = Path('data/ai/request_usage.json')
 MAX_BATCH_SIZE = 5
 MIN_DESCRIPTION = 40
 KST = dt.timezone(dt.timedelta(hours=9))
+
+
+def pacific_day() -> str:
+    # Gemini RPD resets at midnight Pacific, independently of the KST run day.
+    now = dt.datetime.now(dt.timezone.utc)
+    try:
+        return now.astimezone(ZoneInfo('America/Los_Angeles')).date().isoformat()
+    except ZoneInfoNotFoundError:
+        # Stock Windows Python may have no system IANA timezone database.
+        # US Pacific DST: second Sunday in March at 10:00 UTC, first Sunday
+        # in November at 09:00 UTC. Avoid requiring another Python package.
+        year = now.year
+        march = dt.date(year, 3, 1)
+        second_sunday = 1 + (6 - march.weekday()) % 7 + 7
+        november = dt.date(year, 11, 1)
+        first_sunday = 1 + (6 - november.weekday()) % 7
+        start = dt.datetime(year, 3, second_sunday, 10, tzinfo=dt.timezone.utc)
+        end = dt.datetime(year, 11, first_sunday, 9, tzinfo=dt.timezone.utc)
+        offset = -7 if start <= now < end else -8
+        return (now + dt.timedelta(hours=offset)).date().isoformat()
+
+
+def read_request_usage(root: Path, model: str, day: str) -> int:
+    path = root / REQUEST_USAGE
+    if not path.exists():
+        return 0
+    doc = json.loads(path.read_text(encoding='utf-8'))
+    if doc.get('schema_version') != 1 or not isinstance(doc.get('days'), dict):
+        raise ValueError('AI_REQUEST_USAGE_INVALID')
+    return int(doc['days'].get(day, {}).get(model, 0))
+
+
+def use_request(root: Path, model: str, day: str) -> None:
+    path = root / REQUEST_USAGE
+    doc = json.loads(path.read_text(encoding='utf-8')) if path.exists() else {'schema_version': 1, 'days': {}}
+    if doc.get('schema_version') != 1 or not isinstance(doc.get('days'), dict):
+        raise ValueError('AI_REQUEST_USAGE_INVALID')
+    count = int(doc['days'].get(day, {}).get(model, 0))
+    if count >= MAX_DAY_REQUESTS:
+        raise RuntimeError('GEMINI_LOCAL_REQUEST_LIMIT')
+    doc['days'].setdefault(day, {})[model] = count + 1
+    # Keep limited history and count unsuccessful API calls too.
+    doc['days'] = {k: doc['days'][k] for k in sorted(doc['days'])[-12:]}
+    atomic_json(path, doc)
 
 
 def safe_error_diagnostic(exc: Exception, api_key: str = '') -> str:
@@ -306,6 +353,45 @@ def choose_candidates(snapshot: dict, trends: dict, existing: dict, failures: di
         and (failures.get(row['app_key'], {}).get('retry_on', '') <= today)
         and row['priority_score'] >= 60
     ]
+    # Fresh store charts always take priority, but an app that disappeared
+    # yesterday must not be permanently stranded as an unanalysed historical
+    # research item. Use its real latest observation, never invent freshness.
+    eligible_keys = {row['app_key'] for row in eligible}
+    backlog = []
+    for item in historical_items:
+        if not isinstance(item, dict):
+            continue
+        key, source = item.get('app_key'), item.get('source')
+        if (source not in ('apple', 'google', 'itch') or not isinstance(key, str)
+                or not key.startswith(source + ':') or key in existing or key in eligible_keys
+                or failures.get(key, {}).get('retry_on', '') > today
+                or not str(item.get('name') or '').strip()
+                or not str(item.get('detail_url') or '').startswith('https://')):
+            continue
+        observations = [o for o in item.get('observations', []) if isinstance(o, dict)
+                        and isinstance(o.get('date'), str) and o.get('date') <= today]
+        if not observations:
+            continue
+        last = max(observations, key=lambda o: (o['date'], not o.get('historical', False)))
+        if source != 'itch' and last.get('country') not in ('KR', 'JP', 'US'):
+            # A guessed market must never become a genuine store observation.
+            continue
+        best_rank = min((_ranking(o) for o in observations), default=10000)
+        backlog.append({
+            'app_key': key, 'source_id': key.split(':', 1)[1], 'source': source,
+            'country': ('GLOBAL' if source == 'itch' else last['country']),
+            'chart': last.get('chart'), 'category': last.get('category') or item.get('category'),
+            'kind': item.get('kind') or ('game' if source == 'itch' else 'app'),
+            'name': item.get('name'), 'developer': item.get('developer') or '',
+            'detail_url': item.get('detail_url'), 'description': item.get('description') or '',
+            'data_date': last['date'], 'best_rank': best_rank,
+            'countries': sorted({o.get('country') for o in observations if o.get('country')}),
+            'first_seen_today': False, 'priority_reasons': ['previously_observed'],
+            'priority_score': 60,
+        })
+    backlog.sort(key=lambda x: (x['best_rank'], x['app_key']))
+    backlog.sort(key=lambda x: x['data_date'], reverse=True)
+    eligible += backlog
     # Both store versions count as one app for new analysis. A previously
     # analysed counterpart must not consume the next day's Gemini allowance.
     pairs = cross_store_pairs(snapshot, [*historical_items, *existing.values()])
@@ -431,16 +517,31 @@ def import_existing(root: Path) -> dict:
     return {'imported': count, 'total': len(persisted)}
 
 
-def _invoke_with_retry(payload: dict, key: str, invoke, pause) -> tuple[dict, dict]:
-    """One bounded retry on transient overload only; no retries for quota/bad requests."""
-    for attempt in range(2):
+RETRYABLE_GEMINI_ERRORS = frozenset({
+    'GEMINI_HTTP_502', 'GEMINI_HTTP_503', 'GEMINI_HTTP_504', 'GEMINI_NETWORK_ERROR',
+})
+
+
+def retryable_analysis_error(exc: Exception) -> bool:
+    """Malformed model output and transient outages merit a bounded retry.
+
+    Quota exhaustion, authentication, permissions, and invalid requests must
+    NEVER continue to drain requests in a loop.
+    """
+    return isinstance(exc, ValueError) or (
+        isinstance(exc, RuntimeError) and str(exc) in RETRYABLE_GEMINI_ERRORS
+    )
+
+
+def analyze_with_retries(selected: list[dict], api_key: str, tracked_invoke, pause) -> dict:
+    """Retry the *whole* 5-app response validation (not just the HTTP call)."""
+    for attempt in range(3):
         try:
-            return invoke(payload, key)
-        except RuntimeError as exc:
-            if str(exc) not in ('GEMINI_HTTP_503', 'GEMINI_HTTP_502', 'GEMINI_HTTP_504',
-                                'GEMINI_NETWORK_ERROR') or attempt:
+            return ai_probe.analyze(selected, [], api_key, tracked_invoke)
+        except Exception as exc:
+            if not retryable_analysis_error(exc) or attempt == 2:
                 raise
-            print('[Gemini] 일시적인 서버 오류, 제한적으로 한 번 재시도합니다.')
+            print(f'[Gemini] 배치 응답/일시적 오류, {attempt + 2}/3번째 시도', flush=True)
             pause(4)
 
 
@@ -458,7 +559,9 @@ def run(root: Path, *, snapshot: dict, trends: dict, api_key: str = '',
     dt.date.fromisoformat(run_day)
     today_done = analysed_on_day(existing, run_day)
     remaining = max(0, MAX_DAY_APPS - today_done)
-    effective_limit = min(limit, remaining)
+    # Requests per Pacific day may be exhausted independently of Korean app count.
+    available_requests = max(0, MAX_DAY_REQUESTS - read_request_usage(root, ai_probe.MODEL, pacific_day()))
+    effective_limit = min(limit, remaining, available_requests * batch_size)
     queue = (choose_candidates(snapshot, trends, existing, failed, effective_limit,
                                historical_items=load_historical_identities(root))
              if effective_limit else [])
@@ -466,7 +569,7 @@ def run(root: Path, *, snapshot: dict, trends: dict, api_key: str = '',
         return {
             'mode': 'preview', 'data_date': today, 'run_day': run_day,
             'already_analysed': len(existing), 'analysed_today': today_done,
-            'remaining_today': remaining, 'effective_limit': effective_limit,
+            'remaining_today': remaining, 'effective_limit': effective_limit, 'available_requests': available_requests,
             'candidates': queue[:effective_limit], 'eligible_in_queue': len(queue),
         }
     if not api_key:
@@ -490,12 +593,12 @@ def run(root: Path, *, snapshot: dict, trends: dict, api_key: str = '',
         batch = []
         result['batches'] += 1
         def tracked_invoke(payload, key):
+            use_request(root, ai_probe.MODEL, pacific_day())
             result['requests'] += 1
             return invoke(payload, key)
         try:
             # Full batch is validated as a unit; never save a partial/mismatched response.
-            report = ai_probe.analyze(selected, [], api_key,
-                                      lambda payload, secret: _invoke_with_retry(payload, secret, tracked_invoke, pause))
+            report = analyze_with_retries(selected, api_key, tracked_invoke, pause)
             # Verify app ID correspondence regardless of JSON ordering.
             by_analysis = {r['app_key']: r for r in report['items']}
             records = [
@@ -518,11 +621,19 @@ def run(root: Path, *, snapshot: dict, trends: dict, api_key: str = '',
         except Exception as exc:
             # No API key or exception body appears in persisted failure entries.
             code = str(exc) if isinstance(exc, RuntimeError) and str(exc).startswith('GEMINI_') else type(exc).__name__
-            result['stopped_by_error'] = code[:100]
+            recoverable = retryable_analysis_error(exc)
             result['failures'].append({'reason': code[:100], 'batch_size': len(selected)})
-            print(f'[AI] 실패: {code}. 이전 성공 결과는 보존합니다.')
             print(f'[AI] 오류 상세: {safe_error_diagnostic(exc, api_key)}',
                   file=sys.stderr, flush=True)
+            if recoverable:
+                # Avoid trying these exact apps again in today's manual retry.
+                for row in selected:
+                    record_failure(failed, row['app_key'], run_day, code[:100], 1)
+                save_failures(root, failed)
+                print(f'[AI] 배치 {len(selected)}건 3회 실패 · 다음 배치 계속 진행', flush=True)
+                return True
+            result['stopped_by_error'] = code[:100]
+            print(f'[AI] 한도/설정 등 복구 불가 오류: {code} · 성공 결과 보존', flush=True)
             return False
 
     for row in queue:

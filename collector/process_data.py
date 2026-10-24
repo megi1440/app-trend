@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 
 from common import ROOT, kst_now
-from merge import RANK_FIELDS, merge, read_csv, write_csv
+from merge import RANK_FIELDS, merge, read_csv, write_csv, group_key
 from build_web import build
 
 
@@ -41,7 +41,7 @@ def repair_apple_7003_history(root):
     return changed
 
 
-def process(root, run_date, sources=('apple', 'google', 'itch')):
+def process(root, run_date, sources=('apple', 'google', 'itch'), only_groups=None):
     staging = root / 'data/staging'
     snapshots = {}
     for source in sources:
@@ -49,9 +49,12 @@ def process(root, run_date, sources=('apple', 'google', 'itch')):
         snapshots[source] = json.loads(path.read_text(encoding='utf-8')) if path.exists() else None
     # Stage files produced by smoke mode, or from previous dates, MUST NOT become CSV.
     statuses = merge(root, run_date, snapshots, sources)
+    if only_groups is not None:
+        permitted = {group_key(row) for row in only_groups}
+        statuses = [row for row in statuses if group_key(row) in permitted]
     # Re-label the old 7003 data before generating web JSON/CSV exports.
     repair_apple_7003_history(root)
-    summary = build(root, run_date, statuses)
+    summary = build(root, run_date, statuses, retry_only=only_groups is not None)
     summary['accepted'] = sum(g['accepted'] for g in statuses)
     summary['failed'] = sum(g['status'] == 'failed' for g in statuses)
     return summary
@@ -61,9 +64,11 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument('--date', default=kst_now().date().isoformat())
     p.add_argument('--source', choices=['all', 'apple', 'google', 'itch'], default='all')
+    p.add_argument('--only-groups', default='')
     args = p.parse_args()
     sources = ('apple', 'google', 'itch') if args.source == 'all' else (args.source,)
-    summary = process(ROOT, args.date, sources)
+    only = json.loads(Path(args.only_groups).read_text(encoding='utf-8'))['groups'] if args.only_groups else None
+    summary = process(ROOT, args.date, sources, only_groups=only)
     print('[data] date={0} accepted={1} failed={2} groups={3} candidates={4} status={5}'.format(
         args.date, summary['accepted'], summary['failed'], summary['groups'],
         summary['candidates'], summary['status']), flush=True)

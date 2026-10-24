@@ -1,12 +1,14 @@
 name: 앱·게임 트렌드 일일 수집
 
 on:
-  # Korean local time: 04:17 primary, 08:17 fallback (never hourly polling).
+  # Korean local time: 00:27 primary, 03:47 and 06:48 fallback (max three scheduled opportunities).
   # GitHub may delay or drop scheduled triggers; neither run is guaranteed.
   schedule:
-    - cron: '17 4 * * *'
+    - cron: '27 0 * * *'
       timezone: 'Asia/Seoul'
-    - cron: '17 8 * * *'
+    - cron: '47 3 * * *'
+      timezone: 'Asia/Seoul'
+    - cron: '48 6 * * *'
       timezone: 'Asia/Seoul'
   # Actions tab > this workflow > Run workflow.
   workflow_dispatch:
@@ -29,8 +31,8 @@ jobs:
         with:
           persist-credentials: true
 
-      # If the 04:17 run (or a manual run) already collected data today,
-      # the 08:17 scheduled fallback must not scrape the stores again.
+      # If the 00:27 run (or a manual run) already collected data today,
+      # subsequent scheduled fallbacks skip successful groups and retry only incomplete ones.
       # Manual dispatch always runs, so it remains useful for troubleshooting.
       - name: 오늘 수집 완료 여부 확인 (예약 실행만)
         id: daily_gate
@@ -40,6 +42,7 @@ jobs:
         run: |
           if [ "$EVENT_NAME" != 'schedule' ]; then
             echo 'run=true' >> "$GITHUB_OUTPUT"
+            echo 'retry_failed=false' >> "$GITHUB_OUTPUT"
             echo '수동 실행: 날짜 검사와 관계없이 수집 진행'
             exit 0
           fi
@@ -53,23 +56,34 @@ jobs:
           kst = ZoneInfo('Asia/Seoul')
           today = dt.datetime.now(kst).date()
           completed = False
+          partial = False
           try:
               status = json.loads(Path('data/web/status.json').read_text(encoding='utf-8'))
               finished = dt.datetime.fromisoformat(status['finished_at'].replace('Z', '+00:00'))
               completed = (
                   finished.tzinfo is not None
                   and finished.astimezone(kst).date() == today
-                  and status.get('overall_status') in ('success', 'partial')
+                  and status.get('overall_status') == 'success'
                   and status.get('accepted_groups', 0) > 0
+              )
+              partial = (
+                  finished.tzinfo is not None
+                  and finished.astimezone(kst).date() == today
+                  and status.get('overall_status') == 'partial'
+                  and status.get('accepted_groups', 0) > 0
+                  and any(g.get('status') in ('failed', 'partial') for g in status.get('groups', []))
               )
           except (FileNotFoundError, KeyError, TypeError, ValueError, json.JSONDecodeError):
               pass
           with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as output:
               output.write('run=false\n' if completed else 'run=true\n')
+              output.write('retry_failed=true\n' if partial else 'retry_failed=false\n')
           if completed:
-              print(f'[SKIP] {today} 수집 결과 이미 저장됨. 두 번째 예약에서는 수집하지 않습니다.')
+              print(f'[SKIP] {today} 모든 수집 그룹 완료. 예약 실행 생략')
+          elif partial:
+              print(f'[RETRY] {today} 일부 실패 그룹만 재수집')
           else:
-              print(f'[RUN] {today} 정상 수집 기록 없음. 수집을 시작합니다.')
+              print(f'[RUN] {today} 정상 수집 기록 없음. 전체 수집')
           PYCODE
 
       - name: Python 3.12 설정
@@ -99,7 +113,15 @@ jobs:
 
       - name: 세 수집원 일일 수집 및 CSV 저장
         if: steps.daily_gate.outputs.run == 'true'
-        run: python -u collector/run_collect.py --mode full --persist
+        shell: bash
+        env:
+          RETRY_FAILED: ${{ steps.daily_gate.outputs.retry_failed }}
+        run: |
+          if [ "$RETRY_FAILED" = 'true' ]; then
+            python -u collector/run_collect.py --mode full --persist --retry-failed
+          else
+            python -u collector/run_collect.py --mode full --persist
+          fi
 
       - name: 저장 결과 검증
         if: steps.daily_gate.outputs.run == 'true'

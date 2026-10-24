@@ -4,6 +4,8 @@ import { renderHome, renderExplore, normalizeExploreCategory, renderIndie, rende
          empty, icon } from './views.js';
 import { toggleFavorite, getFavorites, hasFavorite, updateFavorite, exportFavorites, importFavorites, refreshFavoriteSnapshots } from './favorites.js';
 import { renderLab, initLabHandlers, labAction, labChange, labInput, loadLab } from './lab.js';
+import {labIsUnlocked, renderLabGate, unlockLab} from './lab_lock.js';
+import {initDevelopmentHandlers, developmentAction} from './development.js';
 
 const main=document.getElementById('main');
 const overlay=document.getElementById('overlay');
@@ -114,7 +116,7 @@ function render(){
     ui.detailLabTab=r.query.get('labtab')||'radar';
   }
   main.innerHTML= r.page==='home'?renderHome(ui):r.page==='apps'?renderExplore('app',ui):r.page==='games'?renderExplore('game',ui):
-    r.page==='indie'?renderIndie(ui):r.page==='favorites'?renderFavorites(ui):r.page==='lab'?renderLab(r.tab,r.query):r.page==='detail'?renderDetail(r.key,ui):renderSearch();
+    r.page==='indie'?renderIndie(ui):r.page==='favorites'?renderFavorites(ui):r.page==='lab'?(labIsUnlocked()?renderLab(r.tab,r.query):renderLabGate()):r.page==='detail'?renderDetail(r.key,ui):renderSearch();
   if(r.page==='detail' && r.key.startsWith('itch:')===false)loadChart(stamp,r.key);
   persistFilters();
   if(r.page==='detail'||r.page==='search'||(r.page==='favorites'&&getFavorites().length))ensureLabAvailability();
@@ -149,8 +151,10 @@ async function copyAppInfo(key){
 }
 
 initLabHandlers(render,notify);
+initDevelopmentHandlers(render,notify);
 document.addEventListener('click',async e=>{
   const target=e.target.closest('button, a');if(!target)return;
+  if(target.matches('[data-dev-action]:not(input)')){e.preventDefault();await developmentAction(target);return;}
   if(target.matches('[data-lab-action]')){e.preventDefault();await labAction(target);return;}
   if(target.matches('[data-fav]')){
     const key=target.dataset.fav,item=store.appMap.get(key)||getFavorites().find(x=>x.app_key===key);
@@ -180,6 +184,7 @@ document.addEventListener('click',async e=>{
   else if(target.id==='copy-app')await copyAppInfo(route().key);
 });
 document.addEventListener('change',async e=>{
+  if(e.target.matches('input[data-dev-action="compare"]')){await developmentAction(e.target);return;}
   if(labChange(e.target))return;
   if(e.target.matches('[data-favorite-sort]')){ui.favoriteSort=e.target.value;ui.favoriteLimit=30;render();}
   else if(e.target.matches('[data-favorite-status]')){
@@ -195,6 +200,14 @@ document.addEventListener('change',async e=>{
     try{const count=await importFavorites(e.target.files?.[0]);notify(`${count}개 항목으로 관심 목록을 갱신했습니다.`);render();}
     catch(err){notify('가져오기 실패: '+err.message);}e.target.value='';
   }
+});
+document.addEventListener('submit',async e=>{
+  if(e.target.id!=='lab-lock-form')return;
+  e.preventDefault();
+  const password=e.target.querySelector('input')?.value||'';
+  const message=document.getElementById('lab-lock-error');
+  try{if(await unlockLab(password)){render();return;}if(message)message.textContent='비밀번호가 일치하지 않습니다.';}
+  catch{if(message)message.textContent='인증을 확인할 수 없습니다. HTTPS 또는 localhost에서 접속해 주세요.';}
 });
 document.addEventListener('input',e=>{
   if(e.target.matches('[data-favorite-query]')){

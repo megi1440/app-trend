@@ -4,8 +4,9 @@ import {esc, attr, safeUrl, formatDate, detailsHref, SOURCE_LABEL, COUNTRY_LABEL
         CATEGORY_LABEL, APP_CATEGORIES, GAME_CATEGORIES, FEED_LABEL, REASON_LABEL, loadHistory, store} from './data.js';
 import {hasFavorite, getFavorites, setFavoriteAliases} from './favorites.js';
 import {icon, empty} from './views.js';
+import {renderDevelopment} from './development.js';
 
-const TABS=[['radar','발견 레이더'],['features','기능 탐색'],['analysis','개발 분석'],['compare','후보 비교'],['export','자료 내보내기']];
+const TABS=[['radar','발견 레이더'],['features','기능 탐색'],['analysis','개발 분석'],['compare','후보 비교'],['export','자료 내보내기'],['development','개발 설계실']];
 const SIGNALS=[['all','전체'],['rising_7d','순위 상승'],['newly_seen','처음 관측'],['multi_country','여러 국가'],['consistent_30d','꾸준히 관측'],['overseas_interest','해외에서 관측'],['indie_discovery','인디 발견']];
 const SECTIONS=['summary_ko','features_ko','noteworthy_ko','highlights_ko','development_ko','systems_ko','difficulty_ko','solo_mvp_ko','ideas_ko','idea_ko','recommendation_ko','source_limitations_ko'];
 const AI_CACHE=new Map();
@@ -990,7 +991,7 @@ export function renderLab(tab='radar',query=new URLSearchParams()){
  const total=index.items.filter(i=>i.observations?.length).length;
  const active=index.items.filter(i=>i.observations?.some(o=>!o.historical)).length;
  const updatedGroups=(store.groups||[]).filter(g=>g.is_stale).length;
- const body={radar,features,analysis:()=>analysis(query),compare,export:exportView}[tab]();
+ const body={radar,features,analysis:()=>analysis(query),compare,export:exportView,development:renderDevelopment}[tab]();
  return `<section class="lab-hero"><div><p class="eyebrow">IDEA LAB / RESEARCH WORKSPACE</p><h1>아이디어 연구실</h1><p>수집한 시장 기록과 개발 분석을 연결해, 다음에 만들 앱·게임 후보를 찾아보세요.</p><div class="lab-hero-status">${badge(`수집 자료 ${formatDate(index.data_date)}`,'blue')}${updatedGroups?badge(`이전 데이터 ${updatedGroups}개 그룹`,'warn'):badge('최신 수집 자료','green')}</div></div><div class="lab-hero-stats"><div><strong>${total.toLocaleString('ko-KR')}</strong><span>전체 관측 후보</span><small class="lab-hero-secondary">최근 수집 목록 ${active.toLocaleString('ko-KR')}개</small></div><div><strong>${index.ai_count.toLocaleString('ko-KR')}</strong><span>AI 분석 누적</span></div><div><strong>${chosen.length} / 3</strong><span>비교 후보</span></div></div></section>
  <nav class="lab-tabs" aria-label="아이디어 연구실 소메뉴">${TABS.map(([key,name])=>`<a href="#/lab/${key}" ${key===tab?'aria-current="page"':''} class="${key===tab?'active':''}">${esc(name)}${key==='compare'&&chosen.length?` <em>${chosen.length}</em>`:''}</a>`).join('')}</nav>
  <section class="lab-content">${body}</section>`;

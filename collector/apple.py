@@ -1,6 +1,7 @@
 """Apple official modern RSS for overall apps; legacy RSS for category charts."""
 import argparse
 import json
+from pathlib import Path
 import time
 from urllib.parse import urlencode
 
@@ -75,7 +76,7 @@ def lookup_detail(country, source_id):
             "release_date": app.get("releaseDate", "")[:10]}
 
 
-def collect(countries, mode, max_groups=None, sleep_sec=0.7):
+def collect(countries, mode, max_groups=None, sleep_sec=0.7, only_groups=None):
     results = []
     cfg = config()
     for country in countries:
@@ -85,6 +86,8 @@ def collect(countries, mode, max_groups=None, sleep_sec=0.7):
             if max_groups is not None and len(results) >= max_groups:
                 return results
             category, chart_type, limit = chart["category"], chart["chart"], chart["limit"]
+            if only_groups is not None and (country, chart_type, category) not in only_groups:
+                continue
             if mode == "smoke":
                 limit = 5
             kind = chart["kind"]
@@ -130,9 +133,14 @@ def main():
     p.add_argument("--mode", choices=["smoke", "full"], default="smoke")
     p.add_argument("--country", choices=["US", "JP", "KR", "all"], default="all")
     p.add_argument("--max-groups", type=int, default=None)
+    p.add_argument("--only-groups", default="")
     args = p.parse_args()
     countries = list(config()["countries"]) if args.country == "all" else [args.country]
-    groups = collect(countries, args.mode, args.max_groups)
+    only = None
+    if args.only_groups:
+        targets = json.loads(Path(args.only_groups).read_text(encoding='utf-8'))['groups']
+        only = {(r['country'], r['chart'], r['category']) for r in targets if r['source'] == 'apple'}
+    groups = collect(countries, args.mode, args.max_groups, only_groups=only)
     out = {"schema_version": 1, "source": "apple", "mode": args.mode, "generated_at": timestamp(), "groups": groups}
     path = STAGING / "apple.json"
     atomic_json(path, out)
