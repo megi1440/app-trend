@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "items": {
+    "itch:e2472dad13e2d3bf3dc7": {
+      "app_key": "itch:e2472dad13e2d3bf3dc7",
+      "name": "Pack Ripper [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "kind": "",
+      "detail_url": "https://bigbonkstudio.itch.io/pack-ripper",
+      "model": "gemini-3.5-flash-lite",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:e2472dad13e2d3bf3dc7",
+        "reason_to_study_ko": "'찢기-분류-판매'라는 직관적인 행위 반복은 단기간에 중독성 있는 루프를 만들 수 있는 좋은 구조입니다.",
+        "core_experience_ko": "물리적인 동작이나 간단한 입력을 통해 아이템을 처리하고 보상을 얻는 반복 성장의 즐거움.",
+        "originality_direction_ko": "일반적인 포장지 대신 '디지털 문서 파기 및 기밀 정보 수집'이라는 콘셉트를 적용해, 분류 과정에서 특수 문서가 발견되는 수집형 시뮬레이션으로 차별화합니다.",
+        "solo_feasibility_ko": "그래픽 리소스와 UI 상호작용 중심으로 1인 개발자가 구현하기에 규모가 매우 작고 명확합니다. (추정: 1~2주 내외)",
+        "mvp_features_ko": [
+          "클릭 혹은 드래그로 아이템을 해체하는 입력 판정",
+          "획득한 아이템 품목별 분류 창고",
+          "판매 및 재화 획득 시스템"
+        ],
+        "technical_risks_ko": [
+          "단조로운 루프로 인한 빠른 플레이어 이탈",
+          "아이템 종류 부족으로 인한 콘텐츠 한계"
+        ],
+        "verify_before_build_ko": [
+          "플레이어에게 제공할 시각적 타격감 및 피드백 요소(사운드, 이펙트)",
+          "자동화 시스템 도입 시점의 밸런스 설계"
+        ]
+      },
+      "brief_at": "2026-10-24T14:03:13+09:00",
+      "brief_quota_day": "2026-10-24"
+    }
+  }
+}

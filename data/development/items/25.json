@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "items": {
+    "itch:e2e860eaa70c34813231": {
+      "app_key": "itch:e2e860eaa70c34813231",
+      "name": "Just One More Pack... [Free] [Card Game] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "kind": "",
+      "detail_url": "https://ishywishy004.itch.io/just-one-more-pack",
+      "model": "gemini-3.5-flash-lite",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:e2e860eaa70c34813231",
+        "reason_to_study_ko": "그래픽 리소스 없이 텍스트와 터미널 환경만으로 중독성 있는 게임 루프를 구성하는 아이디어를 연구할 수 있습니다.",
+        "core_experience_ko": "콘솔 창 안에서 텍스트와 명령어를 통해 카드를 뽑고 조합하는 몰입감을 제공합니다.",
+        "originality_direction_ko": "단순 카드 게임 규칙에 실제 커맨드 라인 명령어 입력 요소를 결합하여 해킹이나 시스템 복구 시뮬레이션 감성을 주는 텍스트 기반 로그라이크로 발전시킵니다.",
+        "solo_feasibility_ko": "텍스트 기반이라 아트 리소스가 불필요해 1인 개발 속도가 매우 빠르나, CLI 인터페이스 구현의 숙련도가 개발 기간에 영향을 줍니다. 이는 추정치입니다.",
+        "mvp_features_ko": [
+          "터미널 스타일의 입출력 인터페이스",
+          "카드 덱 무작위 배분 및 셔플 알고리즘",
+          "명령어 기반 카드 사용 입력 처리",
+          "현재 상태 및 점수 출력 로그 창"
+        ],
+        "technical_risks_ko": [
+          "텍스트 인터페이스 특유의 낮은 직관성과 지루함",
+          "크로스플랫폼 터미널 폰트 및 레이아웃 깨짐 현상"
+        ],
+        "verify_before_build_ko": [
+          "사용 중인 게임 엔진 또는 프레임워크의 텍스트 콘솔 에뮬레이션 용이성",
+          "키보드 입력 이벤트 처리 구조 설계"
+        ]
+      },
+      "brief_at": "2026-10-24T14:02:31+09:00",
+      "brief_quota_day": "2026-10-24"
+    },
+    "itch:38047157f0bd3d5523d2": {
+      "app_key": "itch:38047157f0bd3d5523d2",
+      "name": "Physician Simulator (Demo) [Free] [Simulation] [Windows] [macOS] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "kind": "",
+      "detail_url": "https://shishkin-blog.itch.io/poliklinika",
+      "model": "gemini-3.5-flash-lite",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:38047157f0bd3d5523d2",
+        "reason_to_study_ko": "제한된 시간과 압박 속에서 업무를 처리하는 서사형 시뮬레이션은 독특한 분위기와 몰입감을 전달하기 좋습니다.",
+        "core_experience_ko": "몰려드는 업무와 촉박한 시간 속에서 우선순위를 정해 위기를 모면하는 블랙코미디적 시뮬레이션 경험.",
+        "originality_direction_ko": "의사 대신 '우주 정거장 허가증 심사관' 콘셉트를 채택하여, 외계인들의 서류 오류를 찾아내는 퍼즐형 서류 심사 시뮬레이션으로 차별화합니다.",
+        "solo_feasibility_ko": "대화창, 타이머, 선택지 위주의 구조로 1인 개발자가 그래픽 부담 없이 구현할 수 있습니다. (추정: 2~4주 내외)",
+        "mvp_features_ko": [
+          "시간 제한 내에 서류/증상을 확인하는 판정 로직",
+          "업무 성과 및 실패 게이지(해고 위험) 관리 시스템",
+          "간단한 분기별 이벤트 대화창"
+        ],
+        "technical_risks_ko": [
+          "반복되는 패턴으로 인해 후반부 피로도가 급증할 위험",
+          "텍스트 양에 비해 개발 공수가 커질 가능성"
+        ],
+        "verify_before_build_ko": [
+          "핵심 미니게임의 조작 난이도와 시간 압박의 균형",
+          "핵심 루프를 지루하지 않게 만드는 무작위 이벤트 등장 주기"
+        ]
+      },
+      "brief_at": "2026-10-24T14:03:13+09:00",
+      "brief_quota_day": "2026-10-24"
+    }
+  }
+}

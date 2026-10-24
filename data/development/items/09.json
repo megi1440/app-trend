@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "items": {
+    "itch:6424faa211b3c258877a": {
+      "app_key": "itch:6424faa211b3c258877a",
+      "name": "Snack Hole [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "kind": "",
+      "detail_url": "https://samadipour.itch.io/snack-hole",
+      "model": "gemini-3.5-flash-lite",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:6424faa211b3c258877a",
+        "reason_to_study_ko": "방치형 성장 메커니즘과 크기 변화에 따른 시각적 피드백 구조를 빠르게 벤치마킹할 수 있으며, 1인 개발 시 과도한 오브젝트 생성으로 인한 성능 저하를 제한적으로 검토해야 합니다.",
+        "core_experience_ko": "작은 점에서 출발해 화면 내 요소를 집어삼키며 규모가 커지는 확장과 성취의 경험을 제공합니다.",
+        "originality_direction_ko": "단순히 물체를 먹는 방식에서 벗어나, 흡수한 사물의 물리적 특성이나 성질이 블랙홀의 지형이나 파열 주기에 영향을 주는 조합형 성장 퍼즐로 차별화합니다.",
+        "solo_feasibility_ko": "2D 렌더링과 원형 충돌 판정 위주의 소규모 프로젝트로 구현 난이도는 낮으나, 동시 다발적 객체 생성 시 메모리 관리가 한계가 될 수 있습니다. 이는 추정치입니다.",
+        "mvp_features_ko": [
+          "마우스 또는 터치 위치를 따르는 이동 구멍 객체",
+          "지정 크기 이상일 때 대상 사물을 흡수하는 판정 로직",
+          "흡수량에 따른 단계별 크기 및 흡수 반경 확장",
+          "기본 점수 및 UI 표시계"
+        ],
+        "technical_risks_ko": [
+          "화면 내 오브젝트가 많아질 경우 발생하는 프레임 드랍",
+          "물리 충돌 연산 오버헤드"
+        ],
+        "verify_before_build_ko": [
+          "오브젝트 풀링(Object Pooling) 기법의 효율성 테스트",
+          "2D 원형 오버랩 쿼리 성능 확인"
+        ]
+      },
+      "brief_at": "2026-10-24T14:02:31+09:00",
+      "brief_quota_day": "2026-10-24"
+    },
+    "itch:b51e427cd099ec1f100b": {
+      "app_key": "itch:b51e427cd099ec1f100b",
+      "name": "Idle Breakout [Free] [Other] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "kind": "",
+      "detail_url": "https://kodiqi.itch.io/idle-breakout",
+      "model": "gemini-3.5-flash-lite",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:b51e427cd099ec1f100b",
+        "reason_to_study_ko": "확인된 스토어 설명에 기반한 방치형 벽돌 깨기 메커니즘을 참고하되, 개인 개발자가 감당할 수 있는 범위 내에서 구현하기 위한 소규모 설계가 필요합니다.",
+        "core_experience_ko": "다양한 공의 잠금 해제 및 업그레이드를 통해 점진적으로 벽돌을 파괴하는 단순하고 반복적인 성장의 재미.",
+        "originality_direction_ko": "기존의 무한 반복 벽돌 깨기에서 벗어나, 특정 자원을 소모해 공의 궤적이나 특수 효과를 일시적으로 제어하는 능동적 개입 요소를 더한 신규 게임 방향.",
+        "solo_feasibility_ko": "2D 물리 엔진을 활용하면 1인 개발이 가능하나, 후반부 수치 밸런스와 물리 버그 처리는 제한 요소가 될 수 있음 (추정).",
+        "mvp_features_ko": [
+          "기본 2D 물리 반사 및 벽돌 파괴 로직",
+          "재화 획득 및 기본 공 업그레이드 메뉴",
+          "자동 게임 상태 저장 기능"
+        ],
+        "technical_risks_ko": [
+          "고속 이동하는 공으로 인한 물리 충돌 오류(끼임 현상)",
+          "후반부 수치 팽창에 따른 밸런스 붕괴"
+        ],
+        "verify_before_build_ko": [
+          "사용 중인 엔진의 2D 물리 충돌 정확도 테스트",
+          "재화 증가 및 업그레이드 공식의 시뮬레이션 검증"
+        ]
+      },
+      "brief_at": "2026-10-24T14:03:02+09:00",
+      "brief_quota_day": "2026-10-24"
+    }
+  }
+}

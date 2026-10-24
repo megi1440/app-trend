@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "items": {
+    "apple:1658469469": {
+      "app_key": "apple:1658469469",
+      "name": "歩数計あるくん〜シンプルなウォーキングアプリ",
+      "developer": "Karadanote Inc.",
+      "source": "apple",
+      "kind": "",
+      "detail_url": "https://apps.apple.com/jp/app/%E6%AD%A9%E6%95%B0%E8%A8%88%E3%81%82%E3%82%8B%E3%81%8F%E3%82%93-%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%AA%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%97%E3%83%AA/id1658469469?uo=2",
+      "model": "gemini-3.5-flash-lite",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:1658469469",
+        "reason_to_study_ko": "사용자의 일상 행동(걸음 수)을 건강 지표나 게이미피케이션 요소와 결합하는 구조는 개발 난이도가 낮으면서도 높은 유틸리티성을 제공합니다.",
+        "core_experience_ko": "스마트폰을 지니고 걷는 것만으로 일상적인 운동량이 자동으로 기록되고 시각화되는 편리함.",
+        "originality_direction_ko": "단순 수치 표기를 넘어, 걸음 수에 따라 실시간으로 변화하는 나만의 정원이나 가상 생태계를 키우는 소셜 육성 앱으로 확장합니다.",
+        "solo_feasibility_ko": "HealthKit/Google Fit 연동 및 기본 그래프 UI 구현 수준이므로 기술적 규모는 작습니다. 단, OS 권한 정책 변경에 대응해야 하는 유지보수 한계가 있습니다.",
+        "mvp_features_ko": [
+          "디바이스 건강 데이터(걸음 수) 연동",
+          "일일 걸음 수 및 거리 수치 대시보드 UI",
+          "걸음 수 연동형 캐릭터 성장 시각화"
+        ],
+        "technical_risks_ko": [
+          "OS별 백그라운드 데이터 동기화 제한 및 권한 거부 문제",
+          "사용자의 지속적인 앱 실행 동기부여 부족"
+        ],
+        "verify_before_build_ko": [
+          "각 OS(iOS/Android)의 최신 건강 데이터 API 연동 정책 확인",
+          "백그라운드 상태에서의 데이터 갱신 안정성 테스트 계획"
+        ]
+      },
+      "brief_at": "2026-10-24T14:02:52+09:00",
+      "brief_quota_day": "2026-10-24"
+    },
+    "itch:34ca1515caa05a543424": {
+      "app_key": "itch:34ca1515caa05a543424",
+      "name": "Prerolled [Free] [Strategy] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "kind": "",
+      "detail_url": "https://red-sauce.itch.io/prerolled",
+      "model": "gemini-3.5-flash-lite",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:34ca1515caa05a543424",
+        "reason_to_study_ko": "상점 운영과 특정 아이템(주사위) 판매라는 제한된 소재를 결합한 경영 전략 구조를 참고할 수 있습니다.",
+        "core_experience_ko": "주사위를 관리하고 판매하여 재화를 벌어들이는 아기자기한 상점 경영 경험.",
+        "originality_direction_ko": "단순한 판매를 넘어, 손님의 성향에 따라 주사위를 조합해 맞춤형 상품을 제작·제안하는 제작 경영 융합 방향.",
+        "solo_feasibility_ko": "텍스트와 UI 중심이라 1인 구현 난이도가 낮으나, 경제 밸런스 조정에 한계가 있음 (추정).",
+        "mvp_features_ko": [
+          "아이템 재고 및 판매 가격 관리 시스템",
+          "재화 획득 및 상점 인터페이스",
+          "기본 저장/불러오기 기능"
+        ],
+        "technical_risks_ko": [
+          "콘텐츠 부족으로 인한 플레이 지속성 저하",
+          "경제 시스템 루프의 조기 파탄"
+        ],
+        "verify_before_build_ko": [
+          "상점 UI 레이아웃 및 터치/클릭 반응 검증",
+          "아이템 가격 변동 데이터 모델링"
+        ]
+      },
+      "brief_at": "2026-10-24T14:03:02+09:00",
+      "brief_quota_day": "2026-10-24"
+    }
+  }
+}

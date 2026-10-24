@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "items": {
+    "itch:03fe2a1f811c6849f260": {
+      "app_key": "itch:03fe2a1f811c6849f260",
+      "name": "Combo Pool [Free] [Puzzle] [Windows] [macOS] [Linux] [Android]",
+      "developer": "",
+      "source": "itch",
+      "kind": "",
+      "detail_url": "https://nusan.itch.io/combo-pool",
+      "model": "gemini-3.5-flash-lite",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:03fe2a1f811c6849f260",
+        "reason_to_study_ko": "수직 낙하 및 충돌 합치기 메커니즘을 적용한 퍼즐 장르로, 구현 범위가 명확하여 1인 개발 학습용으로 유용합니다.",
+        "core_experience_ko": "공들을 충돌시켜 더 큰 형태로 합쳐 나가는 직관적인 물리 퍼즐 경험.",
+        "originality_direction_ko": "단순 병합을 탈피해, 자석이나 중력 반전 같은 물리적 기프트를 추가한 전략적 퍼즐 게임으로 확장.",
+        "solo_feasibility_ko": "물리 엔진 기본 기능을 사용하므로 네트워크나 복잡한 AI 없이 혼자서 충분히 구현 가능한 규모로 추정됩니다.",
+        "mvp_features_ko": [
+          "오브젝트 생성 및 물리 기반 이동",
+          "동일 오브젝트 충돌 시 합쳐지는 로직",
+          "용량 초과 시 게임 오버 판정 조건"
+        ],
+        "technical_risks_ko": [
+          "비결정론적 물리 연산으로 인한 버그 발생 가능성",
+          "오브젝트 증가 시 프레임 저하"
+        ],
+        "verify_before_build_ko": [
+          "사용 중인 엔진의 2D/3D 물리 충돌 이벤트 처리 안정성 점검",
+          "중독성을 부여할 고득점 브레이크 포인트 설계"
+        ]
+      },
+      "brief_at": "2026-10-24T14:02:41+09:00",
+      "brief_quota_day": "2026-10-24"
+    },
+    "google:com.chirpysort.game.android": {
+      "app_key": "google:com.chirpysort.game.android",
+      "name": "Chirpy Sort: Bird Color Puzzle",
+      "developer": "AIM TOP GAME TECHNOLOGY LIMITED - Bird",
+      "source": "google",
+      "kind": "",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.chirpysort.game.android&hl=ko&gl=KR",
+      "model": "gemini-3.5-flash-lite",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.chirpysort.game.android",
+        "reason_to_study_ko": "비밀스러운 조작이나 복잡한 물리 엔진 없이, 시청각적 안정감(ASMR)과 간단한 분류 규칙만으로 높은 몰입감을 주는 캐주얼 장르의 전형입니다.",
+        "core_experience_ko": "귀여운 새들을 색상별로 정리하면서 느끼는 시각적 질서감과 편안한 지저귐 소리의 조화.",
+        "originality_direction_ko": "분류를 마친 새들이 모여 고유한 화음이나 멜로디를 완성하는 음악 연계형 퍼즐로 규칙에 깊이를 더합니다.",
+        "solo_feasibility_ko": "2D 스프라이트 애니메이션과 사운드 제어 위주이므로 1인 개발 범위 내에서 충분히 완성도 있게 구현 가능합니다.",
+        "mvp_features_ko": [
+          "새 오브젝트 터치 및 이동(스왑) 로직",
+          "동일 색상 정렬 완료 판정 시스템",
+          "오디오 재생 및 사운드 효과 관리"
+        ],
+        "technical_risks_ko": [
+          "단조로운 플레이 루프로 인한 낮은 리플레이 밸류",
+          "다양한 오디오 리소스 로딩에 따른 메모리 최적화 필요성"
+        ],
+        "verify_before_build_ko": [
+          "효과음과 배경음이 겹칠 때의 오디오 지연(Latency) 발생 여부",
+          "모바일 화면 비율별 스프라이트 UI 정렬 방식 정의"
+        ]
+      },
+      "brief_at": "2026-10-24T14:02:52+09:00",
+      "brief_quota_day": "2026-10-24"
+    }
+  }
+}

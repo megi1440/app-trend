@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "items": {
+    "itch:28a11342654b87edeaa6": {
+      "app_key": "itch:28a11342654b87edeaa6",
+      "name": "Pocket Bird - Portable Desktop Pet [Free] [Other] [Windows] [macOS] [Linux] [Android]",
+      "developer": "",
+      "source": "itch",
+      "kind": "",
+      "detail_url": "https://idreesinc.itch.io/pocket-bird",
+      "model": "gemini-3.5-flash-lite",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:28a11342654b87edeaa6",
+        "reason_to_study_ko": "데스크톱/브라우저 환경에서 가볍게 상호작용하는 펫 형태는 가벼운 몰입감을 주지만, 플랫폼별 권한 제약이 까다로울 수 있어 사전 조사가 필수적입니다.",
+        "core_experience_ko": "작은 캐릭터가 화면 위를 돌아다니며 사용자의 시선에서 소소한 시각적 재미를 주는 경험.",
+        "originality_direction_ko": "단순히 화면을 날아다니는 동물을 넘어, 사용자의 키보드 입력 속도나 활성 창 상태에 따라 감정이 변하는 '생산성 동반자 펫'으로 차별화합니다.",
+        "solo_feasibility_ko": "오버레이 윈도우 투명화 및 애니메이션 처리에 기술적 제약이 있을 수 있으며 1인 개발 시 플랫폼별(Windows/macOS) 테스트에 상당한 시간이 소요될 수 있습니다. (추정: 수주 내외)",
+        "mvp_features_ko": [
+          "투명 배경의 오버레이 창 생성",
+          "캐릭터 스프라이트 애니메이션 및 화면 내 무작위 이동",
+          "마우스 클릭 시 간단한 반응 대사 출력"
+        ],
+        "technical_risks_ko": [
+          "운영체제별 투명 윈도우 및 마우스 클릭 투과 권한 이슈",
+          "멀티모니터 환경에서의 좌표 오작동"
+        ],
+        "verify_before_build_ko": [
+          "사용 중인 기술 스택(예: Electron, Tauri 등)의 윈도우 오버레이 성능",
+          "운영체제별 창 관리 정책 및 권한 제약 사항"
+        ]
+      },
+      "brief_at": "2026-10-24T14:03:13+09:00",
+      "brief_quota_day": "2026-10-24"
+    }
+  }
+}

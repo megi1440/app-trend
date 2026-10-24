@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "items": {
+    "itch:5229b5c352a9805b93c0": {
+      "app_key": "itch:5229b5c352a9805b93c0",
+      "name": "Scritchy Scratchy [$6.99] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "kind": "",
+      "detail_url": "https://funday-games.itch.io/scritchy-scratchy",
+      "model": "gemini-3.5-flash-lite",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:5229b5c352a9805b93c0",
+        "reason_to_study_ko": "단일 인터랙션(긁기)을 통해 즉각적인 만족감과 보상을 제공하는 방치형·클커 장르의 교본으로 참고할 가치가 있습니다.",
+        "core_experience_ko": "화면을 긁어 숨겨진 보상을 확인하고 재화를 모으는 즉각적인 성취감.",
+        "originality_direction_ko": "단순 복권 긁기를 넘어, 유물 발굴 현장을 긁어 도감을 채우는 역사 탐험 테마의 수집형 게임으로 차별화.",
+        "solo_feasibility_ko": "마스킹 처리와 터치 입력 판정만 구현하면 되므로 1인 개발자가 단기간에 완성할 수 있는 소규모 프로젝트로 추정됩니다.",
+        "mvp_features_ko": [
+          "터치 및 드래그에 따른 마스크 제거(긁기) 효과",
+          "확률 기반 보상 지급 및 재화 저장소",
+          "수집 도감 및 기본 UI 레이아웃"
+        ],
+        "technical_risks_ko": [
+          "긁기 인터랙션 구현 시 렌더링 성능 저하",
+          "콘텐츠 부족으로 인한 빠른 플레이어 이탈"
+        ],
+        "verify_before_build_ko": [
+          "모바일 터치 좌표에 따른 실시간 텍스처 마스킹 구현 방법 조사",
+          "반복 플레이를 유지할 수집 요소 설계"
+        ]
+      },
+      "brief_at": "2026-10-24T14:02:41+09:00",
+      "brief_quota_day": "2026-10-24"
+    },
+    "itch:c8e2f71a2658ce10d19c": {
+      "app_key": "itch:c8e2f71a2658ce10d19c",
+      "name": "Plaguebound [Free] [Strategy]",
+      "developer": "",
+      "source": "itch",
+      "kind": "",
+      "detail_url": "https://ostsergey.itch.io/plaguebound",
+      "model": "gemini-3.5-flash-lite",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:c8e2f71a2658ce10d19c",
+        "reason_to_study_ko": "점진적 자동 전투 장르는 1인 개발자가 수치 데이터 관리와 기본 UI만으로 프로토타입을 빠르게 검증할 수 있는 구조입니다. 다만 원작 정보가 매우 제한적이므로 복제보다는 독자적인 테마 확장이 필요합니다.",
+        "core_experience_ko": "자원을 모아 유닛을 강화하고, 별도의 조작 없이 유닛들이 스스로 전투를 수행하며 수치가 성장하는 것을 지켜보는 경험.",
+        "originality_direction_ko": "쥐 왕 테마 대신 '세균 배양 및 면역 회피'라는 생물학적 테마를 도입해, 감염 확산에 따라 특수 능력이 해제되는 로그라이크형 방치 게임으로 차별화합니다.",
+        "solo_feasibility_ko": "수치 계산 로직과 텍스트·스프라이트 기반 UI 위주이므로 1인 개발로 충분히 구현 가능합니다. (추정: 프로토타입 기준 수주 내외)",
+        "mvp_features_ko": [
+          "기본 자원 자동 획득 및 소비 루프",
+          "유닛 자동 전투 및 체력 계산 로직",
+          "단계별 특수 능력 해제 업그레이드 버튼"
+        ],
+        "technical_risks_ko": [
+          "오프라인 진행 시 자원 계산 및 시간 동기화 오차",
+          "후반부 수치 인플레이션으로 인한 오버플로우 문제"
+        ],
+        "verify_before_build_ko": [
+          "지속적인 수치 성장을 지루하지 않게 만드는 최소 업그레이드 주기 설계",
+          "로컬 저장소(LocalStorage)를 이용한 데이터 무결성 유지 방법"
+        ]
+      },
+      "brief_at": "2026-10-24T14:03:13+09:00",
+      "brief_quota_day": "2026-10-24"
+    }
+  }
+}

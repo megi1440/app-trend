@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "items": {
+    "itch:ff099241f0333b0e2921": {
+      "app_key": "itch:ff099241f0333b0e2921",
+      "name": "The Annual Ghost Town Pumpkin Festival [Free] [Simulation] [Windows] [macOS] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "kind": "",
+      "detail_url": "https://adamgryu.itch.io/pumpkin-carver",
+      "model": "gemini-3.5-flash-lite",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:ff099241f0333b0e2921",
+        "reason_to_study_ko": "단일 대상을 커스텀하고 시각화하는 마이크로 시뮬레이션은 명확한 테마와 가벼운 인터랙션만으로도 인디 게임 시장에서 독창성을 인정받을 수 있습니다.",
+        "core_experience_ko": "제한된 캔버스(호박 표면) 위에서 자유롭게 조각하고 나만의 창작물을 만드는 소소한 즐거움.",
+        "originality_direction_ko": "단발성 조각에 그치지 않고, 완성된 작품들을 가상의 야간 축제 공간에 전시하고 타인의 작품을 구경하는 비동기 공유 구조를 결합합니다.",
+        "solo_feasibility_ko": "2D 텍스처 조작 또는 간단한 3D 메시 브러시 기능 구현이 필요하여 그래픽 처리 관련 학습 곡선이 존재합니다. 1인 개발 시 범위 조절이 중요합니다.",
+        "mvp_features_ko": [
+          "오브젝트 표면 드로잉(조각) 브러시 시스템",
+          "조각된 결과물 로컬 저장 기능",
+          "완성된 이미지 캡처 또는 내보내기 인터페이스"
+        ],
+        "technical_risks_ko": [
+          "자유도 높은 조각 툴 구현 시 성능 저하 및 드로잉 정밀도 한계",
+          "서버 부재 시 작품 공유 및 확장성의 제약"
+        ],
+        "verify_before_build_ko": [
+          "웹 또는 모바일 환경에서 텍스처 실시간 수정(Pixel Manipulation) 구현 가능 여부",
+          "핵심 조각 도구의 직관적인 조작감 테스트 계획"
+        ]
+      },
+      "brief_at": "2026-10-24T14:02:52+09:00",
+      "brief_quota_day": "2026-10-24"
+    }
+  }
+}

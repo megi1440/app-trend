@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "items": {
+    "itch:395ebfcbc9ea6423cdb9": {
+      "app_key": "itch:395ebfcbc9ea6423cdb9",
+      "name": "Average Night [Free] [Windows] [macOS]",
+      "developer": "",
+      "source": "itch",
+      "kind": "",
+      "detail_url": "https://janjigangi.itch.io/average-night",
+      "model": "gemini-3.5-flash-lite",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:395ebfcbc9ea6423cdb9",
+        "reason_to_study_ko": "독특한 외계 세계관과 분위기 중심의 소규모 감성 탐색 게임 기획 방향성을 살펴볼 수 있습니다.",
+        "core_experience_ko": "외계 행성의 밤 환경을 돌아보며 소소한 일상을 체감하는 정서적 경험을 줍니다.",
+        "originality_direction_ko": "정형화된 퀘스트 대신 사운드와 시각 효과의 조합을 통해 밤마다 무작위로 발생하는 소음을 채집하여 악기를 완성하는 수집형 ASMR 게임으로 구체화합니다.",
+        "solo_feasibility_ko": "방대함 없이 단일 공간과 단순 상호작용에 집중하므로 1인 개발 범위 내에 완성이 가능하나, 명확한 목표 부재로 기획이 길어질 수 있습니다. 이는 추정치입니다.",
+        "mvp_features_ko": [
+          "탑뷰 또는 사이드뷰 캐릭터 이동 및 환경 탐색",
+          "특정 지점 접근 시 사운드 트리거 작동",
+          "오브젝트 상호작용을 통한 사운드 채집 인벤토리",
+          "채집물 재생 플레이어 UI"
+        ],
+        "technical_risks_ko": [
+          "플레이어에게 지속적인 동기를 부여할 뚜렷한 목표의 부재",
+          "오디오 리소스 관리 및 재생 동기화 오류"
+        ],
+        "verify_before_build_ko": [
+          "핵심 루프가 짧더라도 반복 플레이가 성립하는지 여부",
+          "배경음악 및 효과음 믹싱 구조 검토"
+        ]
+      },
+      "brief_at": "2026-10-24T14:02:31+09:00",
+      "brief_quota_day": "2026-10-24"
+    }
+  }
+}

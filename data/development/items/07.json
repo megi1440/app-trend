@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "items": {
+    "apple:6755509102": {
+      "app_key": "apple:6755509102",
+      "name": "단어 연상 - 단어잇기 낱말 퀴즈 퍼즐게임",
+      "developer": "Astrasen Global",
+      "source": "apple",
+      "kind": "",
+      "detail_url": "https://apps.apple.com/kr/app/%EB%8B%A8%EC%96%B4-%EC%97%B0%EC%83%81-%EB%8B%A8%EC%96%B4%EC%9E%87%EA%B8%B0-%EB%82%B1%EB%A7%90-%ED%80%B4%EC%A6%88-%ED%8D%BC%EC%A6%90%EA%B2%8C%EC%9E%84/id6755509102?uo=2",
+      "model": "gemini-3.5-flash-lite",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:6755509102",
+        "reason_to_study_ko": "단순 드래그 앤 드롭과 제약 조건(이동 횟수)을 결합하여 짧은 시간 안에 두뇌를 자극하는 캐주얼 퀴즈 구조를 참고할 수 있습니다.",
+        "core_experience_ko": "제한된 횟수 내에 단어를 정확한 카테고리로 분류하여 레벨을 돌파하는 전략적 성취감.",
+        "originality_direction_ko": "단순 분류를 넘어, 연쇄적으로 카테고리를 맞추면 보너스 효과가 발생하는 '연상 콤보 시스템'을 도입하여 속도감을 높입니다.",
+        "solo_feasibility_ko": "텍스트 데이터 파싱과 드래그 앤 드롭 UI 구현으로 1인 개발에 매우 적합합니다. 다만 다국어 확장 시 번역 및 단어 데이터베이스 구축에 공수가 듭니다.",
+        "mvp_features_ko": [
+          "단어 아이템 드래그 앤 드롭 입력 제어",
+          "카테고리 영역별 정답 판정 로직",
+          "이동 횟수 제한 및 게임 오버/클리어 상태 관리"
+        ],
+        "technical_risks_ko": [
+          "텍스트 폰트 렌더링 및 다양한 화면 크기에서의 텍스트 잘림 현상",
+          "단어 데이터 양이 부족할 경우 빠르게 소모되는 콘텐츠 한계"
+        ],
+        "verify_before_build_ko": [
+          "외부 JSON 파일 기반의 대규모 퀴즈 데이터 구조 설계 방안",
+          "터치 드래그 중 터치 유실(Touch Cancellation) 예외 처리 방식"
+        ]
+      },
+      "brief_at": "2026-10-24T14:02:52+09:00",
+      "brief_quota_day": "2026-10-24"
+    }
+  }
+}

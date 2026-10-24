@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "items": {
+    "itch:b12f907d3dadf4a86cbb": {
+      "app_key": "itch:b12f907d3dadf4a86cbb",
+      "name": "Claim your FREE BitBuddy™ TODAY! [Free] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "kind": "",
+      "detail_url": "https://dmullinsgames.itch.io/special-offer-claim-your-free-bitbuddy",
+      "model": "gemini-3.5-flash-lite",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:b12f907d3dadf4a86cbb",
+        "reason_to_study_ko": "시간 경과에 따른 상태 변화와 방치형 타이머 구조의 최소 구현 방식을 참고할 수 있습니다.",
+        "core_experience_ko": "가상의 동반자를 방치하고 수시로 확인하며 상태를 돌보는 잔잔한 상호작용 경험을 제공합니다.",
+        "originality_direction_ko": "단순한 수치 관리에서 벗어나 PC의 실제 시스템 정보(CPU 사용량, 남은 용량 등)와 연동해 캐릭터의 대사나 외형이 변하는 환경 반응형 디지털 펫으로 기획합니다.",
+        "solo_feasibility_ko": "복잡한 물리나 네트워크 연동 없이 내부 타이머와 변수 관리만으로 구현 가능하여 1인 개발에 최적이나, 콘텐츠 소모가 빨라 한계가 있습니다. 이는 추정치입니다.",
+        "mvp_features_ko": [
+          "시간 흐름에 따른 상태 수치(배고픔, 피로도 등) 감소 로직",
+          "상태에 따른 애니메이션 또는 이미지 전환",
+          "사용자 클릭 상호작용 시 수치 회복 기능",
+          "기본 상태 표시 HUD"
+        ],
+        "technical_risks_ko": [
+          "게임이 꺼져 있는 동안의 시간 경과 계산 오차(타임스탬프 처리)",
+          "플레이 동기부여 부족으로 인한 이탈"
+        ],
+        "verify_before_build_ko": [
+          "앱 백그라운드 진입 및 종료 시 시계 데이터 동기화 방식",
+          "최소한의 흥미를 유발할 무작위 이벤트 주기 설계"
+        ]
+      },
+      "brief_at": "2026-10-24T14:02:31+09:00",
+      "brief_quota_day": "2026-10-24"
+    },
+    "apple:6770345898": {
+      "app_key": "apple:6770345898",
+      "name": "Yondo Todoリストをロック画面に。シンプルタスク管理",
+      "developer": "Ryunosuke Nagase",
+      "source": "apple",
+      "kind": "",
+      "detail_url": "https://apps.apple.com/jp/app/yondo-todo%E3%83%AA%E3%82%B9%E3%83%88%E3%82%92%E3%83%AD%E3%83%83%E3%82%AF%E7%94%BB%E9%9D%A2%E3%81%AB-%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%82%BF%E3%82%B9%E3%82%AF%E7%AE%A1%E7%90%86/id6770345898?uo=2",
+      "model": "gemini-3.5-flash-lite",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:6770345898",
+        "reason_to_study_ko": "잠금 화면 활용과 미니멀한 UI로 사용자의 일상 진입 장벽을 낮춘 생산성 앱의 대표적 사례입니다.",
+        "core_experience_ko": "잠금 화면 위젯을 통해 앱 구동 없이 실시간으로 할 일을 확인하고 처리하는 경험.",
+        "originality_direction_ko": "단순 분류를 넘어, 위치 기반 혹은 타이머 연동으로 현재 상황에 맞는 단 하나의 태스크만 강조하는 집중형 투두 앱.",
+        "solo_feasibility_ko": "로컬 데이터베이스와 OS 위젯 API 연동만 필요하여 외주 없이 혼자서 완수할 수 있는 규모로 추정됩니다.",
+        "mvp_features_ko": [
+          "태스크 추가, 수정, 삭제 및 로컬 저장",
+          "우선순위 기반 4분면 정렬 뷰",
+          "잠금 화면 위젯 데이터 연동 기능"
+        ],
+        "technical_risks_ko": [
+          "OS별 위젯 업데이트 주기 제한으로 인한 실시간 반영 한계"
+        ],
+        "verify_before_build_ko": [
+          "대상 플랫폼의 최신 위젯 API 정책 및 구현 제약 사항 확인",
+          "로컬 데이터 백업 및 복원 방안 수립"
+        ]
+      },
+      "brief_at": "2026-10-24T14:02:41+09:00",
+      "brief_quota_day": "2026-10-24"
+    },
+    "itch:39ea30fa2f199448b440": {
+      "app_key": "itch:39ea30fa2f199448b440",
+      "name": "Silver Thread : Episode I [Free] [Visual Novel] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "kind": "",
+      "detail_url": "https://spicaze.itch.io/silver-thread",
+      "model": "gemini-3.5-flash-lite",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:39ea30fa2f199448b440",
+        "reason_to_study_ko": "텍스트와 이미지를 중심으로 한 미스터리 서사 전달 방식을 참고하여 텍스트 기반 스토리 게임의 최소 구조를 파악할 수 있습니다.",
+        "core_experience_ko": "퇴마사라는 독특한 캐릭터와 기묘한 만남을 텍스트와 연출을 통해 따라가는 서사 중심 경험.",
+        "originality_direction_ko": "일방향 텍스트 독서를 넘어, 단서를 직접 조합하거나 대화 중 미니 상호작용을 수행하는 인터랙티브 노벨 방향.",
+        "solo_feasibility_ko": "엔진의 기본 UI 기능만으로 구현 가능해 규모가 매우 작으나, 시나리오 작성과 리소스 제작에 많은 시간이 소요됨 (추정).",
+        "mvp_features_ko": [
+          "텍스트 대화 출력 및 타이핑 효과",
+          "이미지 및 배경 전환 관리",
+          "기본 선택지 분기 시스템"
+        ],
+        "technical_risks_ko": [
+          "반복적인 연출로 인한 몰입감 저하",
+          "시나리오 분기 관리에 따른 스크립트 복잡도 증가"
+        ],
+        "verify_before_build_ko": [
+          "JSON 기반 대화 데이터 파싱 구조 설계",
+          "화면 전환 및 레이어 배치 테스트"
+        ]
+      },
+      "brief_at": "2026-10-24T14:03:02+09:00",
+      "brief_quota_day": "2026-10-24"
+    },
+    "itch:33fcf856f505155afdcd": {
+      "app_key": "itch:33fcf856f505155afdcd",
+      "name": "Increvolve [Free] [Simulation] [Windows] [macOS] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "kind": "",
+      "detail_url": "https://dunbaps-games.itch.io/increvolve",
+      "model": "gemini-3.5-flash-lite",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:33fcf856f505155afdcd",
+        "reason_to_study_ko": "무에서 시작해 감각과 신체를 발전시키는 서사적 진화 구조는 방치형 게임에 동기부여를 부여하는 훌륭한 참고 모델입니다.",
+        "core_experience_ko": "최소한의 자원으로 시작해 점진적으로 형태와 기능이 확장되는 원초적 성장의 재미.",
+        "originality_direction_ko": "생물 진화 대신 '우주 탐사선 AI의 자가 수리 및 기능 복구' 콘셉트로 변경하여, 하드웨어 부품을 조립하고 우주 환경에 적응하는 형태의 진화 시뮬레이션으로 차별화합니다.",
+        "solo_feasibility_ko": "복잡한 3D 엔진 없이 2D 트리 구조와 텍스트 UI로 구현 가능하여 1인 개발에 적합합니다. (추정: 2~3주 내외)",
+        "mvp_features_ko": [
+          "초기 자원(에너지) 획득 클릭 버튼",
+          "진화/부품 업그레이드 트리 인터페이스",
+          "상태 변화에 따른 텍스트 및 일러스트 갱신"
+        ],
+        "technical_risks_ko": [
+          "진화 루트가 단조로울 경우 플레이어 선택의 의미가 퇴색됨",
+          "데이터 구조 설계 미비로 인한 확장성 저하"
+        ],
+        "verify_before_build_ko": [
+          "진화 단계별 해금 조건과 보상 주기의 적절성",
+          "플레이어에게 다음 목표를 직관적으로 보여주는 UI 레이아웃"
+        ]
+      },
+      "brief_at": "2026-10-24T14:03:13+09:00",
+      "brief_quota_day": "2026-10-24"
+    }
+  }
+}

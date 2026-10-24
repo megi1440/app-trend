@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "items": {
+    "itch:6727fd591f45543d1652": {
+      "app_key": "itch:6727fd591f45543d1652",
+      "name": "Toss Office [Free] [Other] [Windows] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "kind": "",
+      "detail_url": "https://ravenous-den.itch.io/toss-office",
+      "model": "gemini-3.5-flash-lite",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:6727fd591f45543d1652",
+        "reason_to_study_ko": "1인 개발자가 단일 기믹 중심의 소형 방치·캐주얼 게임을 프로토타이핑할 때 참고하기 좋은 구조이나, 콘텐츠 밀도가 낮아 조기에 지루해질 수 있는 한계가 있습니다.",
+        "core_experience_ko": "문서 파쇄 및 쓰레기통 투척이라는 반복적인 물리 인터랙션을 통한 가벼운 해소감.",
+        "originality_direction_ko": "단순 투척을 넘어, '서류 분류 및 파쇄'에 타임어택과 퍼즐 요소를 결합한 오피스 생존 타이쿤 게임으로 차별화.",
+        "solo_feasibility_ko": "2D/3D 물리 엔진을 활용하는 소규모 프로젝트로 추정되며, 그래픽 리소스가 적어 1인 개발자가 단기간에 구현하기 적합합니다.",
+        "mvp_features_ko": [
+          "서류 드래그 앤 드롭 및 파쇄 애니메이션",
+          "종이 재질별 분류 및 쓰레기통 투척 판정",
+          "연속 성공 콤보 및 점수 기록 시스템"
+        ],
+        "technical_risks_ko": [
+          "물리 엔진 충돌 판정의 불안정성",
+          "단조로운 플레이 루프로 인한 낮은 리플레이성"
+        ],
+        "verify_before_build_ko": [
+          "모바일 또는 웹 환경에서의 물리 연산 최적화 수준 확인",
+          "반복 플레이를 유지시킬 메인 동기 부여 요소 검토"
+        ]
+      },
+      "brief_at": "2026-10-24T14:02:41+09:00",
+      "brief_quota_day": "2026-10-24"
+    },
+    "google:com.arrow.flow.puzzle.escape.brain": {
+      "app_key": "google:com.arrow.flow.puzzle.escape.brain",
+      "name": "Arrow GO! Arrow Flow Puzzle",
+      "developer": "DrDe",
+      "source": "google",
+      "kind": "",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.arrow.flow.puzzle.escape.brain&hl=ja&gl=JP",
+      "model": "gemini-3.5-flash-lite",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.arrow.flow.puzzle.escape.brain",
+        "reason_to_study_ko": "그리드 기반의 캐주얼 퍼즐 게임은 개발 리소스가 적고 반복적인 플레이 구조를 검증하기에 적합합니다. 다만 단조로운 레벨 설계는 유저 이탈을 빠르게 유발하므로 기획적 차별화가 필수적입니다.",
+        "core_experience_ko": "화살표의 방향을 관찰하고 순서대로 눌러 막힘 없이 퍼즐을 클리어하는 직관적인 공간 지각 만족감.",
+        "originality_direction_ko": "단순 화살표 순서 맞추기를 넘어, 화살표들이 서로 충돌하거나 교차할 때 물리적 경로가 변형되는 미로 탈출형 두뇌 퍼즐로 차별화합니다.",
+        "solo_feasibility_ko": "1인 개발 시 2D 그리드와 터치 입력 제어 중심으로 구현 규모가 작습니다. 단, 레벨 에디터나 대량의 레벨 수급이 수작업일 경우 일정이 지연될 수 있습니다.",
+        "mvp_features_ko": [
+          "2D 그리드 맵 렌더링 및 화살표 배치",
+          "방향성 터치 입력 및 이동 판정 로직",
+          "클리어 및 실패(교착 상태) 조건 판정"
+        ],
+        "technical_risks_ko": [
+          "복잡한 레벨 디자인 시 교착 상태 검증 로직의 오류 발생 가능성",
+          "반복 플레이로 인한 빠른 콘텐츠 소모와 지루함"
+        ],
+        "verify_before_build_ko": [
+          "절차적 레벨 생성(Procedural Generation) 알고리즘의 구현 난이도 검토",
+          "타겟 장르의 플레이타임 및 레벨당 적정 플레이 시간 조사"
+        ]
+      },
+      "brief_at": "2026-10-24T14:02:52+09:00",
+      "brief_quota_day": "2026-10-24"
+    }
+  }
+}

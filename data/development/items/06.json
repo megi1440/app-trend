@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "items": {
+    "itch:6af59067a4fa89aeebfc": {
+      "app_key": "itch:6af59067a4fa89aeebfc",
+      "name": "Hamburger Hungry [Free] [Visual Novel] [Windows] [macOS]",
+      "developer": "",
+      "source": "itch",
+      "kind": "",
+      "detail_url": "https://ninigiku.itch.io/hamburger-hungry",
+      "model": "gemini-3.5-flash-lite",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:6af59067a4fa89aeebfc",
+        "reason_to_study_ko": "스토리와 텍스트 연출 중심의 비주얼 노벨 구조로, 프로그래밍 부담을 줄이고 서사에 집중할 수 있는 장점이 있습니다.",
+        "core_experience_ko": "음식을 매개로 인물 간의 감정을 나누는 일상적이고 따뜻한 내러티브 감상.",
+        "originality_direction_ko": "단순 대화 선택지를 넘어, 요리 레시피 수집과 대화 결과에 따른 호감도 분기 시스템을 가미한 비주얼 노벨.",
+        "solo_feasibility_ko": "스크립트 엔진만 활용하면 기술적 난이도는 낮으나, 일러스트와 시나리오 작성에 많은 시간이 소요되는 규모로 추정됩니다.",
+        "mvp_features_ko": [
+          "대화창 UI 및 텍스트 출력 시스템",
+          "캐릭터 스프라이트 전환 연출",
+          "분기 결정을 위한 선택지 인터페이스"
+        ],
+        "technical_risks_ko": [
+          "시나리오 분기 관리의 복잡성",
+          "그래픽 및 에셋 제작 리소스 과부하"
+        ],
+        "verify_before_build_ko": [
+          "오픈소스 비주얼 노벨 엔진 활용 가능 여부 조사",
+          "전체 시나리오 분량 및 리소스 제작 계획 수립"
+        ]
+      },
+      "brief_at": "2026-10-24T14:02:41+09:00",
+      "brief_quota_day": "2026-10-24"
+    }
+  }
+}

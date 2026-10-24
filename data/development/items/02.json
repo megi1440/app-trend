@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "items": {
+    "itch:857427c751587cb0d3c2": {
+      "app_key": "itch:857427c751587cb0d3c2",
+      "name": "VEOX(DEMO) [Free] [Visual Novel]",
+      "developer": "",
+      "source": "itch",
+      "kind": "",
+      "detail_url": "https://echo6777.itch.io/veox",
+      "model": "gemini-3.5-flash-lite",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:857427c751587cb0d3c2",
+        "reason_to_study_ko": "미스터리 요소와 비주얼 노벨 장르의 기본 스크립트 분기 구조 설계를 검토할 수 있습니다.",
+        "core_experience_ko": "다크웹이라는 특수한 소재 속에서 일어나는 인물들의 변화를 추적하는 긴장감 있는 스토리 읽기 경험을 제공합니다.",
+        "originality_direction_ko": "일방적인 대사 진행을 넘어 가상의 웹 브라우저 인터페이스를 화면에 구현해 플레이어가 직접 로그나 링크를 뒤져 단서를 조합하는 인터랙티브 추리물로 차별화합니다.",
+        "solo_feasibility_ko": "엔진의 내장 대사 출력 기능을 활용해 기술적 구현은 매우 수월하지만, 시나리오와 일러스트 제작 공수가 절대적으로 커지는 한계가 있습니다. 이는 추정치입니다.",
+        "mvp_features_ko": [
+          "텍스트 대사 창 및 로그 출력 시스템",
+          "선택지에 따른 분기 및 변수 저장 로직",
+          "가상의 웹사이트/노트 형태 UI 화면",
+          "캐릭터 일러스트 및 배경 전환 기능"
+        ],
+        "technical_risks_ko": [
+          "방대한 분량의 시나리오 및 아트 에셋 관리 부담",
+          "단조로운 플레이 방식에 따른 리플레이 가치 저하"
+        ],
+        "verify_before_build_ko": [
+          "비주얼 노벨 엔진(Ren'Py 또는 Unity 기반 에셋)의 커스텀 UI 확장성",
+          "제작 가능한 총 분량의 현실적 산정"
+        ]
+      },
+      "brief_at": "2026-10-24T14:02:31+09:00",
+      "brief_quota_day": "2026-10-24"
+    }
+  }
+}
