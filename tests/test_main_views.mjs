@@ -47,10 +47,12 @@ markup=renderExplore('app',ui);
 assert.ok(markup.includes('전체 앱 유료 순위'));
 assert.ok(!markup.includes('<option value="app_lifestyle"'));
 // Failed collection retains a dated previous successful chart, and never labels it current.
-ui={...base(),country:'KR',source:'apple',price:'top_paid',category:'all_apps'};
+const failedGroup=store.groups.find(g=>g.source==='apple'&&g.category==='all_apps'&&g.chart==='top_paid'&&g.is_stale);
+assert(failedGroup,'at least one failed source uses a previous snapshot in test data');
+ui={...base(),country:failedGroup.country,source:'apple',price:'top_paid',category:'all_apps'};
 markup=renderExplore('app',ui);
 assert.ok(markup.includes('이전 정상 기록'));
-assert.ok(markup.includes('2026.10.22'));
+assert.ok(markup.includes(failedGroup.data_date.replaceAll('-','.')));
 assert.ok(markup.includes('최근 수집이 실패'));
 // Apple arcade is skipped by configuration; omit unavailable category from Apple-only dropdown.
 ui={...base(),country:'KR',source:'apple',category:'all_games'};

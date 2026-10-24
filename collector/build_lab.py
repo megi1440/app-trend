@@ -431,13 +431,22 @@ def build(root: Path = ROOT) -> dict:
         if ai_total < previous_ai_count:
             raise RuntimeError(f'AI 레코드 {previous_ai_count}→{ai_total} 감소: 샤드 누락/손상을 확인하세요. 이전 연구실 JSON 보존.')
 
-    # Canonical Apple metadata can fill historical/AI-only entries too. This is
-    # read-only and only accepts Apple release_date previously collected.
+    # The current discovery/RSS snapshot may omit an image even though our
+    # canonical app record already has one (notably itch.io RSS entries).
+    # Fill only *missing* metadata from the stored source: never overwrite
+    # actual observations, AI prose, country-specific data or good newer values.
     if apps_file.exists():
         with apps_file.open(encoding='utf-8-sig', newline='') as stream:
             for row in csv.DictReader(stream):
                 rec = records.get(row.get('app_key'))
-                if rec is not None and not rec.get('release_date'):
+                if rec is None:
+                    continue
+                for field in ('kind', 'developer', 'icon_url', 'detail_url', 'first_seen'):
+                    if not rec.get(field) and row.get(field):
+                        rec[field] = row[field]
+                if not rec.get('category') and row.get('primary_category'):
+                    rec['category'] = row['primary_category']
+                if not rec.get('release_date'):
                     rec['release_date'] = verified_apple_release(rec['source'], row.get('release_date'), day)
 
     # Itch feeds are not ranked charts: retain observation date, feed and position verbatim.

@@ -7,6 +7,15 @@ on:
     types: [completed]
   # Actions 탭에서 필요할 때 수동 실행할 수도 있다.
   workflow_dispatch:
+    inputs:
+      run_mode:
+        description: "실행 대상 (오늘 수동은 3.5만)"
+        required: false
+        default: all
+        type: choice
+        options:
+          - all
+          - development_only
 
 permissions:
   contents: write
@@ -103,8 +112,8 @@ jobs:
             exit 1
           fi
 
-      - name: 미분석 앱 자동 분석 (배치 5개 · API 사용량 보호)
-        if: steps.daily_gate.outputs.run == 'true'
+      - name: 미분석 앱 자동 분석 (기존 Gemini 3.1 · 변경 없음)
+        if: steps.daily_gate.outputs.run == 'true' && (github.event_name != 'workflow_dispatch' || inputs.run_mode != 'development_only')
         id: ai
         continue-on-error: true
         env:
@@ -113,16 +122,16 @@ jobs:
 
       # 503 등으로 뒷부분이 중단되더라도 먼저 성공한 배치는 보존한다.
       - name: AI 결과를 연구실 요약 인덱스에 반영
-        if: steps.daily_gate.outputs.run == 'true'
+        if: steps.daily_gate.outputs.run == 'true' && (github.event_name != 'workflow_dispatch' || inputs.run_mode != 'development_only')
         run: python collector/build_lab.py
 
-      - name: Gemini 3.5 개발 후보 검토 및 상세 설계 (검토 30 · 설계 5)
+      - name: Gemini 3.5 High 개발 검토서 및 설계 초안 (500회까지)
         if: steps.daily_gate.outputs.run == 'true'
         id: development
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python -u collector/develop_daily.py --run --brief-limit 30 --plan-limit 5
+        run: python -u collector/develop_daily.py --run
 
       - name: AI 누적 데이터 커밋 및 푸시
         if: steps.daily_gate.outputs.run == 'true'

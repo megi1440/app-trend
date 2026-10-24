@@ -72,13 +72,13 @@ def read_request_usage(root: Path, model: str, day: str) -> int:
     return int(doc['days'].get(day, {}).get(model, 0))
 
 
-def use_request(root: Path, model: str, day: str) -> None:
+def use_request(root: Path, model: str, day: str, *, max_requests: int = MAX_DAY_REQUESTS) -> None:
     path = root / REQUEST_USAGE
     doc = json.loads(path.read_text(encoding='utf-8')) if path.exists() else {'schema_version': 1, 'days': {}}
     if doc.get('schema_version') != 1 or not isinstance(doc.get('days'), dict):
         raise ValueError('AI_REQUEST_USAGE_INVALID')
     count = int(doc['days'].get(day, {}).get(model, 0))
-    if count >= MAX_DAY_REQUESTS:
+    if count >= max_requests:
         raise RuntimeError('GEMINI_LOCAL_REQUEST_LIMIT')
     doc['days'].setdefault(day, {})[model] = count + 1
     # Keep limited history and count unsuccessful API calls too.

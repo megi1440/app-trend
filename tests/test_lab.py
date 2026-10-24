@@ -75,6 +75,33 @@ class LabIndexTests(unittest.TestCase):
         self.assertEqual(tags, ['개인화 추천'])
         self.assertEqual(len(proof['개인화 추천']), 2)
 
+    def test_canonical_icon_fallback_when_itch_feed_omits_it(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            key = 'itch:has-an-image'
+            put_json(root/'data/web/latest.json', {'data_date':'2026-10-24', 'groups':[
+                {'source':'itch', 'country':'GLOBAL', 'feed':'new', 'data_date':'2026-10-24',
+                 'is_stale':False, 'items':[{'app_key':key, 'name':'Illustrated Game', 'kind':'game',
+                    'icon_url':'', 'position':1}]}]})
+            put_json(root/'data/web/trends.json', {'candidates':[]})
+            put_csv(root/'data/apps.csv', ['app_key', 'kind', 'icon_url', 'developer', 'detail_url'],
+                    [{'app_key':key, 'kind':'game', 'developer':'Source Author',
+                      'icon_url':'https://img.itch.zone/real-cover.png',
+                      'detail_url':'https://example.itch.io/illustrated-game'}])
+            mod.build(root)
+            index = json.loads((root/'data/lab/index.json').read_text(encoding='utf-8'))
+            item = next(i for i in index['items'] if i['app_key'] == key)
+            self.assertEqual(item['icon_url'], 'https://img.itch.zone/real-cover.png')
+            self.assertEqual(item['developer'], 'Source Author')
+            self.assertEqual(item['kind'], 'game')
+            # A newer image from a chart is preferred to the archived icon.
+            latest = json.loads((root/'data/web/latest.json').read_text(encoding='utf-8'))
+            latest['groups'][0]['items'][0]['icon_url'] = 'https://example.com/new-cover.png'
+            put_json(root/'data/web/latest.json', latest)
+            mod.build(root)
+            newer = json.loads((root/'data/lab/index.json').read_text(encoding='utf-8'))
+            self.assertEqual(newer['items'][0]['icon_url'], 'https://example.com/new-cover.png')
+
     def test_generated_index_contains_new_tags_without_fake_source(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

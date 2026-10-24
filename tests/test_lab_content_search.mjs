@@ -11,8 +11,8 @@ const sample=[
 ];
 const responses={
  './data/ai/items/03.json':{schema_version:1,items:{'google:7':{app_key:'google:7',analysis:{features_ko:['클라우드 동기화'],solo_mvp_ko:{must_have:['오프라인 동기화 대기열']}}}}},
- './data/development/index.json':{schema_version:1,items:[{app_key:'google:7',shard:'1'}]},
- './data/development/items/1.json':{schema_version:1,items:{'google:7':{app_key:'google:7',brief:{mvp_features_ko:['스티커 합성']},plan:{architecture_ko:['이벤트 기반 렌더링']}}}}
+ './data/development/index.json':{schema_version:2,items:[{app_key:'google:7',shard:'1'}]},
+ './data/development/items/1.json':{schema_version:2,items:{'google:7':{app_key:'google:7',brief:{new_concepts_ko:[{title_ko:'새 게임',key_features_ko:['스티커 합성']}]},plan:{implementation_approach_ko:'이벤트 기반 렌더링'}}}}
 };
 const calls=[];
 globalThis.fetch=async url=>{calls.push(String(url));const data=responses[String(url)];return data?{ok:true,json:async()=>data}:{ok:false,status:404};};
@@ -28,7 +28,7 @@ assert.equal(search.deepSearchState().state,'ready','both analysis sources loade
 assert.deepEqual(search.searchResults(sample,'클라우드').map(x=>x.app_key),['apple:7'],'cross-store analysis linked by alias');
 assert.equal(search.searchMatch(sample[0],'클라우드').label,'3.1 상세 분석');
 assert.equal(search.searchMatch(sample[0],'스티커').label,'3.5 개발 검토');
-assert.equal(search.searchMatch(sample[0],'이벤트 기반').label,'3.5 상세 설계');
+assert.equal(search.searchMatch(sample[0],'이벤트 기반').label,'3.5 개발 설계 초안');
 const count=calls.length;
 await search.ensureDeepSearch(sample);
 assert.equal(calls.length,count,'already fetched full text must be reused');
@@ -40,9 +40,9 @@ const allKeys=new Set(raw.items.map(x=>x.app_key));
 assert.equal(allKeys.size,raw.items.length);
 const lab=await import(pathToFileURL(path.join(root,'web/js/lab.js')).href);
 const merged=lab.mergeStoreDuplicates(raw.items);
-assert.equal(merged.length,2448);
+assert(merged.length>0&&merged.length<=raw.items.length,'new daily candidates may change the merged count');
 assert.equal(new Set(merged.map(x=>x.app_key)).size,merged.length);
 const target=merged.find(x=>x.app_key==='apple:6821576483');
 assert(target?.store_variants?.length===2,'both stores remain on one card');
 assert.equal(search.searchResults(merged,'80億分の1').filter(x=>x.app_key===target.app_key).length,1);
-console.log('[lab content search] basic/deep toggle, 3.1/3.5 content, source alias, lazy fetch, 2448 unique cards OK');
+console.log(`[lab content search] basic/deep toggle, 3.1/3.5 content, source alias, lazy fetch, ${merged.length} unique cards OK`);

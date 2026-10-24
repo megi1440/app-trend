@@ -6,8 +6,10 @@ import {hasFavorite, getFavorites, setFavoriteAliases} from './favorites.js';
 import {icon, empty} from './views.js';
 import {renderDevelopment,developmentQuery} from './development.js';
 import {searchScope,setSearchScope,deepSearchState,ensureDeepSearch,searchMatch,searchResults} from './lab_search.js';
+import {featureTone,featureBadge,featureStrip,evidenceTitle} from './lab_feature_ui.js';
+export {featureTone};
 
-const TABS=[['radar','발견 레이더'],['features','기능 탐색'],['analysis','개발 분석'],['compare','후보 비교'],['export','자료 내보내기'],['development','개발 설계실']];
+const TABS=[['radar','발견 레이더'],['features','기능 탐색'],['analysis','개발 분석'],['development','개발 설계실'],['compare','후보 비교'],['export','자료 내보내기']];
 const SIGNALS=[['all','전체'],['rising_7d','순위 상승'],['newly_seen','처음 관측'],['multi_country','여러 국가'],['consistent_30d','꾸준히 관측'],['overseas_interest','해외에서 관측'],['indie_discovery','인디 발견']];
 const SECTIONS=['summary_ko','features_ko','noteworthy_ko','highlights_ko','development_ko','systems_ko','difficulty_ko','solo_mvp_ko','ideas_ko','idea_ko','recommendation_ko','source_limitations_ko'];
 const AI_CACHE=new Map();
@@ -94,6 +96,7 @@ export function loadLab(){
       map.set(key,item);aliases.set(key,item.app_key);
     }
     index={...data,items,map,aliases};
+    store.labArchive=items; // Searchable collected/AI archive; not a current ranking or RSS feed.
     setFavoriteAliases(aliases);
     // The ordinary detail page may be opened by either original store ID.
     store.labVariants=new Map([...map].map(([key,item])=>[key,item.store_variants||[]]));
@@ -208,23 +211,6 @@ const badge=(text,cls='')=>`<span class="info-tag ${cls}">${esc(text)}</span>`;
 // contrast-aware color for any tag, including tags that arrive in a later build.
 // Infinite mutually distinguishable colors are impossible, but no CSS class or
 // taxonomy slot must be added when a new tag appears.
-export function featureTone(name){
- let hash=2166136261;
- for(const ch of String(name)){
-   // Hash UTF-8 bytes rather than JS UTF-16 code units for a stable Unicode key.
-   for(const byte of new TextEncoder().encode(ch))hash=Math.imul(hash^byte,16777619);
- }
- hash>>>=0;
- const hue=hash%360,sat=43+(hash>>>9)%23,light=92+(hash>>>18)%4;
- const borderSat=41+(hash>>>12)%19,deepSat=51+(hash>>>5)%19;
- return `--lab-tone-bg:hsl(${hue} ${sat}% ${light}%);--lab-tone-border:hsl(${hue} ${borderSat}% 74%);--lab-tone-ink:hsl(${hue} ${deepSat}% 26%);--lab-tone-strong:hsl(${hue} ${deepSat}% 33%)`;
-}
-const evidenceTitle=(tag,item)=>{
- const found=item?.tag_evidence?.[tag]?.[0];
- return found?.text?` title="${attr(`Gemini ${found.field==='systems_ko'?'구현 시스템 제안':'핵심 기능'}: ${found.text}`)}"`:'';
-};
-// The public index supplies family assignments for every AI-derived tag.
-// Family headings organize the UI; they never discard an unfamiliar tag.
 const FAMILY_ORDER=['퍼즐·규칙·카드','전투·액션·물리','수집·성장·경제','건설·제작·꾸미기','스토리·미션·상호작용','AI·자동화·추천','이미지·영상·음성','네트워크·소셜','데이터·저장·보안','화면·입력·조작','생활·위치·일정','새로 발견된 기능'];
 const tagFamily=tag=>index?.tag_groups?.[tag]||'새로 발견된 기능';
 function groupedTags(counts){
@@ -238,7 +224,6 @@ function groupedTags(counts){
    return (ia<0?FAMILY_ORDER.length:ia)-(ib<0?FAMILY_ORDER.length:ib)||a.localeCompare(b,'ko');
  });
 }
-const featureBadge=(tag,item)=>`<span class="lab-feature-badge" style="${featureTone(tag)}"${evidenceTitle(tag,item)}>${esc(tag)}</span>`;
 const difficultyTone=value=>({'쉬움':'easy','보통':'medium','어려움':'hard','판단 어려움':'unknown'})[value]||'unknown';
 const difficultyBadge=value=>`<span class="lab-difficulty lab-difficulty-${difficultyTone(value)}">${esc(value||'판단 어려움')}</span>`;
 const isExportSelected=key=>manualExportKeys().includes(key);
@@ -346,6 +331,15 @@ function radarRows(){
 }
 function radar(){
  const rows=searchResults(radarRows(),ui.radarQuery);
+ // Search can find analysis-only items, but never call them today's chart observations.
+ const term=ui.radarQuery.trim();
+ const archive=term&&ui.signal==='all'&&ui.category==='all'&&ui.price==='all'&&ui.release==='all'
+  ? searchResults(index.items.filter(item=>!scopedObs(item).length&&
+      sourceMatches(item,ui.source)&&(ui.country==='ALL'||ui.country==='GLOBAL'&&item.source==='itch')&&
+      (ui.kind==='all'||item.kind===ui.kind)&&(ui.ai==='all'||item.has_ai===(ui.ai==='yes'))),term).slice(0,30)
+  : [];
+ const archiveMarkup=archive.length?`<section class="panel lab-archive-results"><h3>보관된 분석·수집 자료 ${archive.length}개</h3><p class="small-copy">현재 선택한 기간·차트의 관측 기록이 없어 발견 레이더 결과에는 포함되지 않습니다. 아래는 검색된 저장 자료이며, 순위나 피드 등장은 확인된 것이 아닙니다.</p><div class="lab-archive-list">${archive.map(item=>`<div class="lab-archive-row">${icon(item)}<div><strong>${esc(item.name)}</strong><span class="small-copy">${esc(sourceText(item))} · ${item.has_ai?'AI 분석 보관':'기본 정보 보관'} · 현재 기간 관측 없음</span></div>${item.has_ai?`<a class="button ghost small" href="#/lab/analysis?app=${encodeURIComponent(item.app_key)}">개발 분석 →</a>`:''}</div>`).join('')}</div></section>`:'';
+
  return `<div class="lab-section-heading"><div><h2>발견 레이더</h2><p>스토어 순위·인디 피드와 수집 날짜로 발견합니다. AI 미분석 항목도 포함합니다.</p></div>${badge(`필터 결과 ${rows.length.toLocaleString('ko-KR')}개 후보`,'blue')}</div>
  ${searchControls('radarQuery','앱·기능·AI 내용 검색','예: 자동 저장, 퍼즐, 인벤토리')}
  <div class="panel lab-filter-panel"><div class="lab-signal-row" role="group" aria-label="관측 신호">${SIGNALS.map(([key,label])=>`<button class="chip ${ui.signal===key?'selected':''}" data-lab-action="signal" data-value="${key}" aria-pressed="${ui.signal===key}">${label}</button>`).join('')}</div>
@@ -357,6 +351,7 @@ function radar(){
  ${select('sort',[['signals','관측 신호 우선'],['recent','최근 관측'],['rise','순위 상승 신호'],['rank','같은 차트에서 순위']],ui.sort,'정렬')}</div></div>
  ${chosen.length?`<div class="lab-selection-bar" role="status"><strong>비교 후보 ${chosen.length}/3</strong><span>선택한 앱·게임을 나란히 살펴볼 수 있습니다.</span><a class="button outline-blue small" href="#/lab/compare">후보 비교하기 →</a><button class="button ghost small" data-lab-action="clear-compare">모두 해제</button></div>`:''}
  <div class="lab-result-tools"><p class="small-copy">${ui.radarQuery?'검색 일치 항목을 우선 표시합니다. 기존 국가·스토어·관측 신호 필터도 함께 적용됩니다.':ui.sort==='rank'?'순위 정렬은 단일 국가·스토어·카테고리·차트 선택 시에만 적용됩니다.':'차트가 다른 순위를 합산하지 않으며 전체 신호는 스토어별로 번갈아 표시합니다.'} · 실제 관측 날짜만 표시</p><div class="chips"><button class="chip ${ui.view==='cards'?'selected':''}" data-lab-action="view" data-value="cards">카드</button><button class="chip ${ui.view==='list'?'selected':''}" data-lab-action="view" data-value="list">목록</button></div></div>
+ ${archiveMarkup}
  ${rows.length?`<div class="${ui.view==='list'?'lab-list':'lab-card-grid'}">${rows.slice(0,ui.radarLimit).map(card).join('')}</div>${rows.length>ui.radarLimit?`<div class="lab-more"><button class="button ghost" data-lab-action="more-radar">더 보기 (${(rows.length-ui.radarLimit).toLocaleString('ko-KR')}개 남음)</button></div>`:''}`:empty('선택한 조건의 관측 후보가 없습니다.','다른 국가·기간·스토어로 바꾸거나 추가 수집 이후 확인해 주세요.')}
  <p class="lab-disclaimer">※ Apple 실제 출시일은 수집된 release_date만 사용합니다. Google Play·itch.io는 출시일 미확인입니다. '처음 관측'은 신규 출시가 아니며, itch.io 피드 순서는 인기 순위가 아닙니다. 수집 실패·관측 누락을 순위권 이탈로 보지 않습니다.</p>`;
 }
@@ -484,7 +479,7 @@ function aiDetail(item,record){
  sectionHTML('종합 조언',para(a.recommendation_ko)),sectionHTML('원본에서 확인하기 어려운 부분',para(a.source_limitations_ko)),
  sectionHTML('원본 스토어 소개',source?para(source):'<p class="small-copy">원본 소개 미보관 · AI 분석 기록은 그대로 유지합니다.</p>','수집·보관된 공개 설명이며, 다른 국가의 설명으로 대체하지 않습니다.')];
  return `<div class="panel lab-ai-detail"><div class="lab-ai-top"><div class="lab-card-head">${icon(item)}<div class="lab-card-id"><h2>${esc(item.name)}</h2><p class="small-copy">${esc(labelSource(record.source))} · ${esc(record.country||'국가 미확인')} · AI 분석 ${formatDate(record.analysed_at)} · ${esc(record.model||'모델 미기록')} / ${esc(record.prompt_version||'버전 미기록')}</p></div></div><div class="lab-actions">${safeUrl(record.detail_url)?`<a class="button ghost small" target="_blank" rel="noopener noreferrer" href="${attr(safeUrl(record.detail_url))}">원본 스토어 ↗</a>`:''}<button class="button outline-blue small" data-lab-action="toggle-compare" data-key="${attr(item.app_key)}">${chosen.includes(item.app_key)?'✓ 비교 선택됨':'+ 비교'}</button>${exportToggle(item.app_key)}</div></div><div class="lab-callout">구분 안내: <strong>스토어에서 보관된 내용</strong>과 <strong>Gemini가 정리·해석·제안한 내용</strong>은 다릅니다. 실제 게임 플레이나 내부 기술 구현을 검증한 결과가 아닙니다.</div>
-  ${quick}<div class="lab-ai-feature-strip"><strong>기능 태그 <small>Gemini 분석 기반 · 태그에 마우스를 올리면 추출 근거 표시</small></strong><div class="lab-tag-row">${item.tags?.length?item.tags.map(t=>featureBadge(t,item)).join(''):'<span class="small-copy">추출된 기능 태그가 없습니다.</span>'}</div>${Object.keys(item.tag_evidence||{}).length?`<details class="lab-tag-evidence"><summary>태그의 근거 문장 보기 (${Object.keys(item.tag_evidence).length}개)</summary><ul>${Object.entries(item.tag_evidence).map(([tag,entries])=>`<li><strong>${esc(tag)}</strong><span>${entries.map(e=>`${e.field==='systems_ko'?'구현 시스템 제안':'핵심 기능'}: ${esc(e.text)}`).join('<br>')}</span></li>`).join('')}</ul></details>`:''}</div>${sect.join('')}</div>`;
+  ${quick}${featureStrip(item)}${sect.join('')}</div>`;
 }
 function analysisFeatureSelect(){
  const grouped=groupedTags(tagCounts());

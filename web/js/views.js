@@ -299,13 +299,18 @@ function indieListRow({item,feeds,groups}) {
 export function renderIndieResults(ui){
   const {rows,total,chosen}=indieCatalog(ui);
   const shown=rows.slice(0,Math.max(1,Number(ui.indieLimit)||30));
+  const searchTerm=String(ui.indieQuery||'').trim().normalize('NFKC').toLocaleLowerCase();
+  const fresh=new Set(store.groups.filter(g=>g.source==='itch').flatMap(g=>(g.items||[]).map(i=>i.app_key)));
+  const archived=searchTerm&&chosen==='all'?(store.labArchive||[]).filter(item=>item.source==='itch'&&!fresh.has(item.app_key)&&
+    [item.name,item.developer,item.summary,...(item.tags||[])].join(' ').normalize('NFKC').toLocaleLowerCase().includes(searchTerm)).slice(0,50):[];
   const groups=store.groups.filter(g=>g.source==='itch'&&(chosen==='all'||g.feed===chosen));
   const dates=[...new Set(groups.map(g=>g.data_date).filter(Boolean))].sort();
   const state=groups.some(g=>g.is_stale)?' · 일부 이전 기록 포함':'';
   const headingDate=dates.length===1?formatDate(dates[0]):dates.length?`${formatDate(dates[0])}~${formatDate(dates.at(-1))}`:'관측일 없음';
   const title=chosen==='all'?'전체 인디':FEED_LABEL[chosen]||chosen;
-  return `<section class="panel indie-results-panel"><div class="indie-results-head"><div><h2>${esc(title)} <span class="indie-count">${rows.length}개</span></h2><p class="small-copy">${chosen==='all'?`${groups.length}개 피드에서 중복을 제거한 ${total}개 게임`:`해당 피드 ${total}개 게임`} · 관측 ${headingDate}${state}</p></div><span class="indie-view-mode">☷ 목록 보기</span></div>
-    ${rows.length?`<div class="indie-list" aria-label="인디 게임 목록">${shown.map(indieListRow).join('')}</div>${shown.length<rows.length?`<div class="indie-list-more"><button type="button" class="button ghost small" data-indie-more="true">더 보기 (${rows.length-shown.length}개 남음)</button></div>`:''}`:empty('해당하는 인디 게임이 없습니다.','검색어나 피드 조건을 바꾸어 확인해 주세요.')}</section>`;
+  return `<section class="panel indie-results-panel"><div class="indie-results-head"><div><h2>${esc(title)} <span class="indie-count">현재 피드 ${rows.length}개${archived.length?` · 보관 분석 ${archived.length}개`:``}</span></h2><p class="small-copy">${chosen==='all'?`${groups.length}개 피드에서 중복을 제거한 ${total}개 게임`:`해당 피드 ${total}개 게임`} · 관측 ${headingDate}${state}</p></div><span class="indie-view-mode">☷ 목록 보기</span></div>
+    ${archived.length?`<div class="indie-archive-search"><h3>보관된 인디 분석 ${archived.length}개</h3><p class="small-copy">현재 itch.io 피드에는 보이지 않지만 연구실에 분석이 보관되어 있습니다. 최신 피드에 등장했다고 표시하지 않습니다.</p><div class="indie-list">${archived.map(item=>`<article class="indie-list-row"><span class="indie-list-image">${safeUrl(item.icon_url)?`<img src="${attr(safeUrl(item.icon_url))}" alt="" loading="lazy" referrerpolicy="no-referrer">`:'<span aria-hidden="true">✧</span>'}</span><div class="indie-list-info"><strong class="indie-list-title">${esc(indieDisplayName(item.name).name)}</strong><p class="indie-list-summary">${esc(item.summary||'AI 분석 내용 보관')}</p><div class="indie-list-tags"><span class="indie-feed-tag">현재 피드 미관측</span></div></div><div class="indie-list-end">${item.has_ai?`<a class="text-link" href="#/lab/analysis?app=${encodeURIComponent(item.app_key)}">개발 분석 →</a>`:''}${safeUrl(item.detail_url)?`<a class="text-link" href="${attr(safeUrl(item.detail_url))}" target="_blank" rel="noopener noreferrer">원본 ↗</a>`:''}</div></article>`).join('')}</div></div>`:''}
+    ${rows.length?`<div class="indie-list" aria-label="인디 게임 목록">${shown.map(indieListRow).join('')}</div>${shown.length<rows.length?`<div class="indie-list-more"><button type="button" class="button ghost small" data-indie-more="true">더 보기 (${rows.length-shown.length}개 남음)</button></div>`:''}`:archived.length?'<p class="small-copy" style="margin-top:10px">현재 피드에서 일치하는 항목이 없습니다. 위의 보관된 분석 자료를 확인하세요.</p>':empty('해당하는 인디 게임이 없습니다.','검색어나 피드 조건을 바꾸어 확인해 주세요.')}</section>`;
 }
 export function renderIndie(ui) {
   const feeds=availableIndieFeeds();

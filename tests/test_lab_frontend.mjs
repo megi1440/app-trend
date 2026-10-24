@@ -230,7 +230,8 @@ assert(lab.renderLab('export').includes('추천 내보내기'), 'recommended exp
 const eligible=data.items.filter(i=>i.kind==='game' && i.difficulty==='쉬움' && i.observations.some(o=>o.category==='game_puzzle'&&!o.stale));
 const recommended=await lab.buildExport();
 assert.equal(recommended.selection_mode,'recommended');
-assert.deepEqual(new Set(recommended.items.map(i=>i.app_key)),new Set(eligible.map(i=>i.app_key)), 'actual category + AI difficulty filter');
+assert.equal(recommended.items.length,Math.min(10,eligible.length),'respects selected 10-item export limit');
+assert(recommended.items.every(i=>eligible.some(e=>e.app_key===i.app_key)),'all exported candidates match actual category + AI difficulty filter');
 assert(recommended.items.every(i=>i.selection_basis?.length),'recommendations carry data-backed selection reasons');
 assert(recommended.items.every(i=>i.ai_analysis?.analysis?.difficulty_ko?.level==='쉬움'),'AI difficulty preserved as reference');
 assert(lab.csvExport(recommended).includes('selection_basis'),'CSV carries selection evidence');

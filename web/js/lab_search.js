@@ -37,11 +37,11 @@ export function searchMatch(item,query,{full=scope==='full',development=null}={}
   for(const key of keys){const documents=fullTexts.get(key);if(!documents)continue;
    if(documents.analysis)sections.push(section('3.1 상세 분석',documents.analysis,4));
    if(documents.brief)sections.push(section('3.5 개발 검토',documents.brief,5));
-   if(documents.plan)sections.push(section('3.5 상세 설계',documents.plan,6));
+   if(documents.plan)sections.push(section('3.5 개발 설계 초안',documents.plan,6));
   }
   if(development){
    if(development.brief)sections.push(section('3.5 개발 검토',fromObject(development.brief),5));
-   if(development.plan)sections.push(section('3.5 상세 설계',fromObject(development.plan),6));
+   if(development.plan)sections.push(section('3.5 개발 설계 초안',fromObject(development.plan),6));
   }
  }
  for(const group of sections)for(const value of group.values){
@@ -69,7 +69,7 @@ export function ensureDeepSearch(items,onReady=()=>{}){
  }).catch(()=>{missing++;}));
  // Development index may not exist before the first scheduled Gemini 3.5 run.
  work.push(read('./data/development/index.json').then(async idx=>{
-  if(idx?.schema_version!==1||!Array.isArray(idx.items))throw Error('index');
+  if(idx?.schema_version!==2||!Array.isArray(idx.items))throw Error('index');
   const groups=new Map();for(const row of idx.items)if(row.app_key&&row.shard){
    if(!groups.has(row.shard))groups.set(row.shard,[]);groups.get(row.shard).push(row.app_key);
   }
