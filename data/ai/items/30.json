@@ -6173,6 +6173,908 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-24"
+    },
+    "apple:904237743": {
+      "app_key": "apple:904237743",
+      "name": "Things 3",
+      "developer": "Cultured Code GmbH & Co. KG",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/things-3/id904237743",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:21:26+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Get things done! The award-winning Things app helps you plan your day, manage your projects, and make real progress toward your goals. Best of all, it’s easy to use. Within the hour, you’ll have everything off your mind and neatly organized—from routine tasks to your biggest life goals—and you can start focusing on what matters today. “Things offers the best combination of design and functionality of any app we tested, with nearly all the features of other power user applications and a delightful interface that never gets in the way of your work.” —Wirecutter, The New York Times KEY FEATURES • Your To-Dos Your basic building block is the almighty To-Do—each a small step toward a great accomplishment. You can add notes, tag it, schedule it, and break it down into smaller steps. • Your Projects Create a Project for any big goal, then add the to-dos to reach it. Use headings to structure your list as you outline your plan. There’s also a place to jot down your notes, and a deadline to keep you on schedule. • Your Areas Create an Area for each sphere of your life, such as Work, Family, Finance, and so on. This keeps everything neatly organized, and helps you see the big picture as you set your plans in motion. • Your Plan Everything on your schedule is neatly laid out in the Today and Upcoming lists, which show your to-dos and calendar events. Each morning, see what you planned for Today and decide what you want to do. The rest is down to you :) MORE THINGS TO LOVE As you dive deeper, you’ll find Things packed with helpful features. Here are just a few: • Reminders — set a time and Things will remind you. • Repeaters — automatically repeat to-dos on a schedule you set. • This Evening — a special place for your evening plans. • Calendar integration — see your events and to-dos together. • Tags — categorize your to-dos and quickly filter lists. • Quick Find — instantly find to-dos or switch between lists. • Magic Plus — drag the + button to insert to-dos anywhere in a list. • Share extension — create to-dos with content from other apps. • Widgets — see lists on your home/lock screens. • Mail to Things — forward an email to Things; now it’s a to-do. • Markdown — structure & style your notes. • And much more! MADE FOR IPHONE Things is tailored to the iPhone with deep system integrations as well. A great example is the Share extension, which allows you to create to-dos with content from other apps, such as a link to a website you want to get back to. You can also enjoy a beautiful dark mode at sunset, connect your calendars, add a variety of widgets, create to-dos via Siri, import from Reminders—Things can do it all! There’s even Shortcuts integration if you want to automate your workflows. MADE FOR APPLE WATCH Things comes with a great app for Apple Watch. Just raise your wrist to glance at your Today list, mark to-dos complete as you go, and dictate new ones on the fly—all synced instantly with your iPhone, iPad, and Mac. AWARD-WINNING DESIGN Made in Stuttgart, with two Apple Design Awards to its name, Things is a fine example of German engineering: designed not only to look fantastic, but to be perfectly functional as well. Every detail is thoughtfully considered, then polished to perfection. “It’s like the unicorn of productivity tools: deep enough for serious work, surprisingly easy to use, and gorgeous enough to enjoy staring at.” —Apple GET THINGS TODAY Whatever it is you want to accomplish in life, Things can help you get there. Install the app today and see what you can do! • Things is also available for Mac, iPad, and Apple Vision Pro (sold separately). • Sync is provided for free via our Things Cloud service. • A free trial is available for Mac: www.things.app If you have any questions, please get in touch. We provide professional support and will be glad to help you!",
+      "analysis": {
+        "app_key": "apple:904237743",
+        "summary_ko": "Things 3는 일상적인 할 일부터 장기적인 목표까지 체계적으로 관리할 수 있는 생산성 앱입니다. 사용자는 할 일을 프로젝트와 영역별로 분류하고 마감 기한과 알림을 설정하여 계획을 세울 수 있습니다. 직관적인 인터페이스를 통해 복잡한 업무를 단순화하고 오늘 집중해야 할 일에 집중하도록 돕습니다.",
+        "features_ko": [
+          "할 일에 메모, 태그, 마감 기한을 추가하고 하위 단계로 세분화할 수 있습니다.",
+          "프로젝트 기능을 통해 큰 목표를 설정하고 헤딩으로 목록을 구조화할 수 있습니다.",
+          "영역 기능을 사용하여 업무, 가정 등 삶의 영역별로 할 일을 분류합니다.",
+          "오늘 및 예정 목록을 통해 캘린더 이벤트와 할 일을 통합하여 관리합니다.",
+          "공유 확장 기능을 통해 다른 앱의 콘텐츠를 할 일로 즉시 변환할 수 있습니다."
+        ],
+        "noteworthy_ko": "사용자 경험을 방해하지 않는 미니멀한 디자인과 강력한 기능의 조화가 핵심입니다. 특히 드래그 앤 드롭 방식의 '매직 플러스' 버튼은 리스트 내 어디서든 할 일을 추가할 수 있게 하여 입력의 흐름을 끊지 않는 세심한 설계를 보여줍니다.",
+        "development_ko": "데이터 구조 설계가 핵심이며, 할 일과 프로젝트 간의 계층 관계를 효율적으로 관리하는 로직이 필요합니다. 로컬 데이터 저장과 클라우드 동기화의 정합성을 맞추는 것이 중요하며, UI는 복잡한 정보를 깔끔하게 보여주기 위한 레이아웃 최적화가 필수적입니다. 테스트 시에는 다양한 기기 환경에서의 동기화 속도와 오프라인 상태에서의 데이터 안정성을 중점적으로 확인해야 합니다.",
+        "idea_ko": "특정 프로젝트의 진행률을 시각화하여 성취감을 극대화하는 '목표 달성 게이미피케이션' 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "독창적인 인터페이스 디자인으로 두 차례 Apple 디자인 어워드를 수상했습니다.",
+          "Apple Watch, iPad, Mac 등 다양한 Apple 생태계 기기와의 깊은 통합을 제공합니다."
+        ],
+        "systems_ko": [
+          "데이터 모델링(할 일, 프로젝트, 영역)",
+          "로컬 데이터베이스 관리",
+          "클라우드 동기화 시스템",
+          "알림 및 스케줄링 엔진",
+          "UI/UX 레이아웃 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "단순한 할 일 목록을 넘어 프로젝트 계층 구조, 동기화, 다양한 기기 대응 등 고려할 요소가 매우 많습니다. 특히 사용자 경험을 해치지 않는 세련된 UI 구현과 데이터 무결성 유지는 1인 개발자에게 높은 숙련도를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "할 일 추가 및 완료 기능",
+            "기본적인 프로젝트 분류",
+            "로컬 데이터 저장"
+          ],
+          "defer": [
+            "클라우드 동기화",
+            "Apple Watch 연동",
+            "공유 확장 기능"
+          ],
+          "risks": [
+            "데이터 구조 설계 오류로 인한 확장성 부족",
+            "복잡한 UI 구현에 따른 개발 기간 지연"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "습관 연쇄 할 일 관리",
+            "concept": "할 일을 완료할 때마다 연관된 습관 점수가 오르는 시스템입니다. 연속 완료 시 보상을 제공하여 동기를 부여합니다.",
+            "first_step": "할 일 완료 시 카운트가 증가하는 간단한 로직 구현."
+          },
+          {
+            "title": "위치 기반 할 일 알림",
+            "concept": "특정 장소에 도착했을 때 해당 장소와 관련된 할 일을 자동으로 알림으로 띄워줍니다.",
+            "first_step": "GPS 좌표를 활용한 특정 구역 진입 감지 기능 구현."
+          }
+        ],
+        "recommendation_ko": "생산성 앱의 기본이 되는 데이터 구조와 사용자 경험 설계의 정석을 배울 수 있습니다. 다만, 복잡한 동기화 시스템은 초보자에게는 과도할 수 있으므로 로컬 기반의 단순한 앱부터 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "Things Cloud의 구체적인 동기화 알고리즘이나 내부 데이터베이스 구조는 공개되지 않았습니다. 결제 시스템이나 보안 관련 상세 기술은 소개문에 명시되지 않았습니다.",
+        "name": "Things 3",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/things-3/id904237743",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 204,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 12,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "google:com.bitodd.vortex": {
+      "app_key": "google:com.bitodd.vortex",
+      "name": "Field Day",
+      "developer": "BIT ODD",
+      "source": "google",
+      "country": "US",
+      "category": "game_action",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.bitodd.vortex&hl=en&gl=US",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:23:30+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "We’ve got a monster problem. The world is falling apart. The military is AWOL. Vortex Corp is hiring freelancers like you to clean up the mess. Welcome to Field Day. It’s time to turn mayday into payday. MAKE YOUR ENTRANCE Drop into a collapsing city where monsters and chaos are everywhere. Use it to your advantage and create a playground of destruction with exploding cars, deadly throwables, buildings, and reactive traps to outsmart your opponents. MEET THE FIELD DAY CREW Choose an everyday hero to suit your play style: MAG the One Man Army JOE the Handyman O.B.O the Precision Machine HIRO the Programmer LEX the Police Officer TEDDY the Janitor KIM the Aerobics Instructor RAVEN the Ex-Military Mystery HUNT OR BE HUNTED The monsters may be fierce, but the competition is fiercer. Other operatives want their payout just as much as you do. Enter the 4-Player Free-for-All where every match is unpredictable, trust is optional, and only the strongest survive. HIGH RISK. HIGH REWARD. Grab your gear, drop into the city, and turn disaster into your next payday! Pure Fair Play: You don’t win with your wallet or by sitting idle. This is a high stakes, skill and strategy game with no let up. Deep Customization: Collect cores to turn into duplicates and blueprints to overcharge your gear. Hero Evolution: Level up your crew, unlock branching skill trees, and specialize your build to dominate when it matters most. Season Road: Unlock exclusive heroes, high-tech upgrades, and limited-edition cosmetics through the Season Road. SECURE YOUR EXIT The race is on to make it to the helicopter before the extraction window closes, but there’s one more Megaboss to defeat! Fight till the end. Secure your loot. Make your exit. One mistake can cost you everything. ONE WORLD. NO LIMITS. FIELDDAY. Forget what you think you know - a new drop means new opportunities. In this ever-expanding world, the only limit is you. New maps to explore, new monsters to hunt, new threats at every turn. Are you ready to have your Field Day? Download Field Day today and prove you have what it takes to survive. ▸ Stay updated and connect with other players: https://discord.gg/DVvA8kSJY2",
+      "analysis": {
+        "app_key": "google:com.bitodd.vortex",
+        "summary_ko": "필드 데이(Field Day)는 붕괴하는 도시에서 몬스터를 사냥하고 전리품을 챙겨 탈출하는 액션 게임입니다. 플레이어는 다양한 영웅 중 하나를 선택하여 4인 자유 대전 환경에서 경쟁합니다. 고위험 고수익을 목표로 하며, 탈출 전까지 살아남는 것이 핵심입니다.",
+        "features_ko": [
+          "붕괴하는 도시 환경에서 폭발하는 자동차, 건물 등 반응형 환경을 활용한 전투가 가능합니다.",
+          "각기 다른 스타일을 가진 영웅을 선택하여 플레이할 수 있습니다.",
+          "4인 자유 대전(Free-for-All) 방식으로 예측 불가능한 전투를 제공합니다.",
+          "몬스터 사냥과 전리품 확보 후 헬기를 통해 탈출하는 미션 구조를 가집니다.",
+          "시즌 로드 시스템을 통해 영웅, 업그레이드, 코스메틱 아이템을 획득할 수 있습니다."
+        ],
+        "noteworthy_ko": "배틀로얄과 PvE가 결합된 형태의 게임으로, 탈출이라는 명확한 목표가 긴장감을 유발합니다. 환경 오브젝트를 활용한 파괴적인 전투 방식이 차별화된 재미를 줍니다.",
+        "development_ko": "도시 환경의 파괴 로직과 멀티플레이어 동기화가 가장 큰 기술적 도전입니다. 영웅별 스킬 트리와 성장 시스템을 위한 데이터 설계가 필요하며, 4인 대전의 밸런스 조정이 중요합니다. 1인 개발 시에는 몬스터 AI와 플레이어 간의 상호작용을 최적화하는 데 많은 노력이 필요합니다.",
+        "idea_ko": "몬스터를 사냥하여 얻은 재료로 탈출 장비를 즉석에서 제작하는 '생존 제작' 모드.",
+        "highlights_ko": [
+          "몬스터 사냥과 PvP가 결합된 긴장감 넘치는 탈출 게임.",
+          "반응형 환경을 활용한 파괴적인 전투 시스템."
+        ],
+        "systems_ko": [
+          "멀티플레이어 네트워크 동기화",
+          "환경 파괴 및 물리 시스템",
+          "몬스터 AI 및 행동 트리",
+          "영웅 성장 및 스킬 시스템",
+          "탈출 미션 로직"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "멀티플레이어 환경과 물리 기반의 파괴 시스템을 동시에 구현하는 것은 1인 개발자에게 매우 높은 난도입니다. 네트워크 동기화와 최적화 문제로 인해 개발 기간이 길어질 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 캐릭터 이동 및 사격",
+            "몬스터 AI",
+            "탈출 지점 도달 로직"
+          ],
+          "defer": [
+            "4인 실시간 멀티플레이어",
+            "복잡한 스킬 트리",
+            "시즌 로드 시스템"
+          ],
+          "risks": [
+            "네트워크 지연으로 인한 게임성 저하",
+            "물리 연산 부하로 인한 성능 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "솔로 탈출 챌린지",
+            "concept": "멀티플레이어 없이 혼자서 몬스터 무리를 뚫고 제한 시간 내에 탈출하는 타임어택 게임입니다.",
+            "first_step": "몬스터가 배치된 맵에서 탈출 지점까지 도달하는 프로토타입 제작."
+          },
+          {
+            "title": "환경 파괴 디펜스",
+            "concept": "몬스터가 몰려올 때 주변 건물을 무너뜨려 길을 막는 디펜스 게임입니다.",
+            "first_step": "건물을 무너뜨려 몬스터의 이동 경로를 차단하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "액션 게임의 환경 상호작용과 AI 구현을 배우기에 좋습니다. 멀티플레이어보다는 싱글 플레이어 기반의 액션 게임으로 축소하여 개발하는 것을 추천합니다.",
+        "source_limitations_ko": "멀티플레이어 서버 아키텍처, 매칭 시스템, 시즌 로드 운영 방식 등은 확인되지 않았습니다.",
+        "name": "Field Day",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.bitodd.vortex&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "google:com.translator.all.language.translate.camera.voice": {
+      "app_key": "google:com.translator.all.language.translate.camera.voice",
+      "name": "AI 가 모든 언어를 번역합니다",
+      "developer": "iKame Applications - Begamob Apps",
+      "source": "google",
+      "country": "KR",
+      "category": "app_productivity",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.translator.all.language.translate.camera.voice&hl=ko&gl=KR",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:25:27+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "언어 장벽을 허물다! AI 가 모든 언어를 번역합니다 – 스마트 여행 및 비즈니스 번역기 AI 가 모든 언어를 번역합니다는 학습, 여행, 해외 근무, 국제 회의 등에서 자신 있게 원활하게 소통할 수 있도록 설계된 쉽고 강력한 번역 앱입니다. AI 통합과 텍스트, 음성, 카메라 실시간 번역 기능으로 어떤 상황에서도 간편하게 대응할 수 있습니다. 💡왜 AI 가 모든 언어를 번역합니다 를 사용해야 할까요? - 100개 이상의 언어 지원 - 텍스트, 음성, 이미지 번역 - 실시간 고정확도 AI 번역 - 친숙하고 직관적인 인터페이스 - 여행, 학습, 일상 사용에 최적 🔍주요 기능: 📷 카메라 번역: 카메라로 인쇄된 텍스트를 빠르게 번역. 표지판, 메뉴, 명함, 문서까지 몇 초 만에 번역 가능. 입력 불필요. 🗣️ 음성 번역: 자연스럽게 말하면 즉시 번역. 길 안내, 음식 주문, 해외 대화 등 어디서든 실시간으로 원활한 소통 가능. ✍️ 텍스트 번역: 메시지, 이메일, 글을 100개 이상의 언어로 즉시 번역. 개인용 및 업무용 모두 최적. 📄 문서 번역: 전체 문서를 업로드하고 높은 정확도로 번역. 계약서, 매뉴얼, 프레젠테이션, 학습 자료에 유용. 🖥️ 화면 번역: 어떤 앱이나 웹 페이지의 텍스트도 즉시 번역. 기사, SNS 게시물, 온라인 콘텐츠 읽기에 최적. 📴 오프라인 모드: 인터넷 연결 없이도 주요 번역 기능 사용 가능. 외진 지역 여행자에게 필수. 📚 언어 학습 지원: 번역하면서 자연스럽게 어휘 확장. 이동 중 실용적인 단어와 문장 학습에 최적. 🌟AI 가 모든 언어를 번역합니다 – 누구나 스마트하게 번역: 💬 실시간 정확도: 고급 AI가 문맥과 언어 톤을 이해하여 자연스럽고 유창한 대화 제공. 📷 스마트 카메라 번역: 인쇄 및 손글씨를 빠르게 인식. 여행 중 메뉴, 포장, 표지판에 최적. 🗣️ 양방향 음성 번역: 실시간 양방향 번역으로 서로 완벽히 이해할 수 있는 대화 제공. 🔎 문맥 인식 제안: 자연스러운 표현과 번역 힌트 제공으로 원어민 수준의 소통 가능. 📈 지속적 개선: AI 모델과 사용자 피드백으로 앱이 계속 발전, 빠르고 정확한 번역 제공. AI 가 모든 언어를 번역합니다로 기기를 강력한 커뮤니케이션 및 학습 도구로 바꾸세요. 음성 번역, 카메라 번역, 일상 언어 도우미 등 글로벌 소통이 간편해집니다. 지금 바로 AI 가 모든 언어를 번역합니다를 다운로드하고 스마트한 번역을 시작하세요! 📩 도움이나 피드백: info@begamob.com",
+      "analysis": {
+        "app_key": "google:com.translator.all.language.translate.camera.voice",
+        "summary_ko": "텍스트, 음성, 카메라를 활용한 다국어 번역 앱입니다. 여행, 학습, 업무 등 다양한 상황에서 실시간 번역을 지원합니다. 100개 이상의 언어를 지원하며 오프라인 모드도 제공합니다.",
+        "features_ko": [
+          "카메라를 통해 인쇄된 텍스트를 실시간으로 번역합니다.",
+          "음성 입력을 통해 양방향 실시간 대화를 지원합니다.",
+          "메시지, 이메일 등 텍스트를 100개 이상의 언어로 번역합니다.",
+          "문서 파일을 업로드하여 전체 내용을 번역할 수 있습니다.",
+          "인터넷 연결 없이도 주요 기능을 사용할 수 있는 오프라인 모드를 제공합니다."
+        ],
+        "noteworthy_ko": "AI 번역 API를 활용한 서비스는 인터페이스와 사용자 경험(UX)이 핵심입니다. 1인 개발 시에는 기존 번역 API를 어떻게 효율적으로 연동하고 UI에 녹여낼지가 관건입니다.",
+        "development_ko": "핵심 기술은 외부 번역 API 연동과 카메라 OCR(광학 문자 인식) 구현입니다. UI/UX는 사용자가 빠르게 번역 결과를 확인할 수 있도록 직관적으로 설계해야 합니다. 데이터 처리와 API 호출 비용 관리가 중요합니다.",
+        "idea_ko": "특정 분야(예: 요리, IT)의 전문 용어에 특화된 '분야별 번역 도우미'를 제안합니다.",
+        "highlights_ko": [
+          "다양한 입력 방식: 카메라, 음성, 텍스트 등 상황에 맞는 번역 도구를 제공합니다.",
+          "실시간성: 고급 AI를 활용하여 문맥을 이해하고 자연스러운 번역을 제공합니다."
+        ],
+        "systems_ko": [
+          "외부 번역 API 연동 모듈",
+          "카메라 OCR 처리 시스템",
+          "음성 인식 및 합성 시스템",
+          "사용자 인터페이스(UI) 및 설정",
+          "오프라인 데이터 캐싱 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "번역 엔진 자체를 개발하는 것이 아니라 API를 연동하는 방식이므로, UI 구현과 API 연동 경험이 있다면 충분히 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "텍스트 번역 기능",
+            "기본 UI 및 언어 선택 기능"
+          ],
+          "defer": [
+            "카메라 실시간 번역",
+            "오프라인 모드",
+            "문서 전체 번역"
+          ],
+          "risks": [
+            "API 호출 비용 발생",
+            "번역 정확도에 대한 사용자 불만"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "여행지 메뉴판 번역기",
+            "concept": "메뉴판 사진을 찍으면 음식 사진과 함께 번역된 설명을 보여주는 특화 앱입니다.",
+            "first_step": "이미지 내 텍스트 추출 후 번역 API로 전달하여 결과 출력하기."
+          },
+          {
+            "title": "언어 학습 카드",
+            "concept": "번역한 단어를 자동으로 저장하여 플래시 카드 형태로 학습할 수 있게 합니다.",
+            "first_step": "번역 기록을 로컬 데이터베이스에 저장하고 보여주는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "API 연동과 데이터 처리를 배우기에 적합합니다. 다만, 번역 품질은 API에 의존하므로 서비스의 차별점을 UI/UX에서 찾아야 합니다.",
+        "source_limitations_ko": "사용된 AI 모델의 종류나 API 제공처가 명시되지 않았습니다. 오프라인 모드의 구현 방식이나 보안 정책은 확인되지 않았습니다.",
+        "name": "AI 가 모든 언어를 번역합니다",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.translator.all.language.translate.camera.voice&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:6477568763": {
+      "app_key": "apple:6477568763",
+      "name": "トリマソリティア-ポイ活カードゲームアプリ",
+      "developer": "GeoTechnologies, Inc.",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_card",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%83%88%E3%83%AA%E3%83%9E%E3%82%BD%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A2-%E3%83%9D%E3%82%A4%E6%B4%BB%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%A2%E3%83%97%E3%83%AA/id6477568763?uo=2",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:26:18+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "【トリマソリティアとは】 大人気アプリ「トリマ」のシリーズアプリ第一弾！ トリマユーザーはもちろん、簡単ゲームを無料で楽しみたい方にピッタリ！ 【トリマソリティア用語を覚えよう】 「場札」 ・縦方向にずらして重ねたカードを横7列に並べた札だよ ・左から1枚、2枚、3枚って並んでいて一番手前だけ表向きになんだ ・ここがゲームの主戦場さ～ 「組札」 ・ダイヤ、ハート、クローバー、スペード用の4つのスペースがあるよ ・ここにAから２，３，４，と順番に全部のカードを並べたらソリティアクリアだよ 「山札」 ・たくさんのトランプを伏せて重ねた山のようなカードの束だよ ・これ以上進めないよ～って時にここからカードを引こう！ ・全部引き終わると、もう一度最初からめくれるよ 【遊び方】 ・「場札」を赤と黒が交互かつ、手前側が小さくなるように並べ替えよう ・表面のカードで並び替えが出来なくなったら「山札」を1枚めくろう ・A札が出てきたら、すかさず「組札」にセットしよう ・「場札」の並び替えをしつつ、「組札」に順番にセットしつつ、「山札」をめくる ・あとは、これを繰り返して、全てのカードを表面にできたらクリア！ 【ヘルプ機能】 困った！もう動かせない！クリアできないよ～～～～って時でも大丈夫。 トリマソリティアには、3つのヘルプ機能をご用意！！安心、安心。 ①トリック：山札や場札で最も低い数字のカードを見つけて組札に移動するよ ②ヒント：動かせるカードを教えてくれちゃう ③1手戻す：動かしたカードや配ったカードを1手戻しちゃう 【こんなあなたにピッタリ！】 ・通勤/通学や旅行などのお出かけする人 ・カードゲームが好きな人 ・どうせやるならポイ活お小遣いを稼ぎたい人 ・ソリティアが好きで貯まらない人 ・ポイ活トリマが大好きな人 ・トリ丸がどのキャラクターよりも好きな人 ・ジオテクノロジーズのサービスが好きな人",
+      "analysis": {
+        "app_key": "apple:6477568763",
+        "summary_ko": "인기 앱 '트리마' 시리즈의 첫 번째 카드 게임으로, 클래식 솔리테어를 무료로 즐길 수 있습니다. 카드 정렬, 산더미 같은 카드 더미 활용, 조커와 같은 힌트 기능을 통해 게임을 클리어하는 방식입니다. 포이카츠(포인트 활동)를 즐기는 사용자들에게 적합한 캐주얼 게임입니다.",
+        "features_ko": [
+          "場札(필드 카드)를 빨간색과 검은색이 교차하도록 정렬하여 정리합니다.",
+          "組札(완성 카드) 공간에 A부터 순서대로 카드를 배치하여 클리어합니다.",
+          "진행이 막힐 경우 山札(덱)에서 카드를 뽑아 활용합니다.",
+          "트릭, 힌트, 1수 되돌리기 등 3가지 헬프 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "기존 인기 앱의 IP를 활용하여 사용자 유입을 극대화한 전략이 돋보입니다. 솔리테어라는 검증된 게임 규칙에 포인트 활동이라는 동기 부여 요소를 결합한 점이 흥미롭습니다.",
+        "development_ko": "카드 덱 셔플 알고리즘과 게임 상태 관리(Undo/Redo)가 핵심입니다. 카드 이동 시의 드래그 앤 드롭 UI 구현과 게임 규칙 검증 로직이 중요하며, 1인 개발 시 애니메이션 효과를 통해 게임의 완성도를 높이는 것이 좋습니다.",
+        "idea_ko": "매일 새로운 미션을 제공하는 '일일 챌린지' 모드를 추가하여 재방문율을 높이는 것이 적합합니다.",
+        "highlights_ko": [
+          "누구나 아는 솔리테어 규칙을 사용하여 진입 장벽이 낮습니다.",
+          "힌트와 되돌리기 기능을 통해 초보자도 쉽게 클리어할 수 있습니다."
+        ],
+        "systems_ko": [
+          "카드 덱 셔플 및 분배 시스템",
+          "게임 규칙 판별 엔진",
+          "사용자 입력(드래그 앤 드롭) 처리",
+          "게임 상태 스택(Undo/Redo)",
+          "UI 및 애니메이션 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "솔리테어는 구현 규칙이 명확하지만, 카드 이동의 예외 처리와 Undo/Redo 시스템을 완벽하게 구현하는 데 세심한 주의가 필요합니다. 게임 로직 자체는 복잡하지 않아 1인 개발자가 충분히 도전할 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카드 덱 생성 및 셔플",
+            "기본 카드 이동 규칙 구현",
+            "클리어 판정 로직"
+          ],
+          "defer": [
+            "포인트 활동 연동",
+            "다양한 헬프 기능",
+            "캐릭터 커스터마이징"
+          ],
+          "risks": [
+            "이미 시장에 많은 유사 게임과의 차별화 실패",
+            "카드 이동 로직의 버그 발생 가능성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "일일 챌린지 모드",
+            "concept": "매일 정해진 카드 배치로 전 세계 사용자와 클리어 시간을 경쟁합니다.",
+            "first_step": "날짜별로 고정된 시드값을 사용하여 동일한 카드 배치를 생성하는 로직을 구현합니다."
+          },
+          {
+            "title": "카드 테마 수집",
+            "concept": "게임 플레이로 얻은 재화로 카드 뒷면 디자인이나 배경을 변경합니다.",
+            "first_step": "이미지 리소스를 교체할 수 있는 테마 관리 시스템을 구축합니다."
+          }
+        ],
+        "recommendation_ko": "게임 상태 관리와 UI 인터랙션을 학습하기에 좋은 프로젝트입니다. 검증된 규칙을 바탕으로 자신만의 테마나 추가 모드를 덧붙여 개발하는 것을 추천합니다.",
+        "source_limitations_ko": "포인트 활동(포이카츠)의 구체적인 보상 체계나 외부 서비스 연동 방식은 소개문에 명시되지 않았습니다.",
+        "name": "トリマソリティア-ポイ活カードゲームアプリ",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%83%88%E3%83%AA%E3%83%9E%E3%82%BD%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A2-%E3%83%9D%E3%82%A4%E6%B4%BB%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%A2%E3%83%97%E3%83%AA/id6477568763?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:1517783697": {
+      "app_key": "apple:1517783697",
+      "name": "原神-6周年",
+      "developer": "COGNOSPHERE PTE. LTD.",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_rpg",
+      "detail_url": "https://apps.apple.com/jp/app/%E5%8E%9F%E7%A5%9E-6%E5%91%A8%E5%B9%B4/id1517783697?uo=2",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:27:35+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "オープンワールドRPG『原神』。本作であなたは旅人となり「テイワット」という幻想世界を冒険していく。 この広大な世界を自由に旅し、個性も能力も豊かな仲間たちと共に強敵を打ち倒して、生き別れた兄妹を探そう。もちろん、目的もなく好奇心のまま探索したり、大陸に散りばめられた謎を解いたりと楽しみ方はあなた次第…… 生き別れた兄妹と再会を果たすその日まで、旅は続いていく。 ◆あらすじ 無数の生命が集まり繁栄する広大な地「テイワット」、天地万象が集いし大陸。 ここは七神に統治された、七つの元素が絡み合う世界…… 見知らぬ空の下、旅人は砂浜に立っていた。 あなたは旅をする双子の片割れ、外の世界から漂流をしてきた者。見知らぬ神に唯一の血縁者を奪われたあなたは、自身もその神に封印され、眠りに落ちていた。 再び目を覚ました時、天地の情景は一変していた…… ◆オープンワールドと自由探索 オープンワールドRPG『原神』。「テイワット」大陸に足を踏み入れた時から、旅人は自身のスタミナと相談しつつ山々や川を越えていき、やがて果て無き美しい風景と出会うことができるだろう。もし彷徨う仙霊や奇妙な装置を見つけたら近寄ってみると良い。新たな驚きがあなたを待っているかもしれない。 ◆元素反応と戦略 遥か遠くのテイワット大陸は、風・炎・雷・水・氷・草・岩の七つの元素が絡み合う世界。神に選ばれた者は、元素の力を操る「神の目」を授かり、強敵を打ち倒すことになっていく。水と炎の「蒸発」反応、炎と雷の「過負荷」反応、雷と水の「感電」反応など…異なる敵に対して異なる対策を取ることが、勝利への近道となる。 ◆高品質なアートと音楽 『原神』は透き通るような美しいアートスタイルを実現している。リアルタイムで描画されるゲームCGと、モーションキャプチャで緻密な調整がされたキャラクターの動作が『原神』の高品質な演出を彩っていく。24時間で移りゆく昼夜と共に、ロンドン・フィルハーモニー管弦楽団、上海交響楽団、東京フィルハーモニー交響楽団と日本一流の民楽アーティストによる華麗な演奏に耳を傾けてみてはいかがだろうか。 ◆仲間たちと出る冒険の旅 冒険の旅の中では個性や能力の豊かな仲間たちがあなたを待っている。チームの配置を変えたり、素材を入手して仲間を強化したりし、強敵や秘境に挑戦していこう。絶雲の頂に立ち、この世界をその目に刻む。離れ離れとなった兄妹と再会し、「原神」の謎を解き明かすその日まで旅は続いていくことだろう…さあ、行こう、旅人よ。真の冒険はここから始まるのだ。 ◆星々を巡り、幻境を築く旅へ 「星々の幻境」は、旅人が創り上げる夢幻の楽園。ゲームを遊び、ステージを創作し、そして仲間と交流して絆を深めよう。 しかも、自由にコーデを楽しめる2体の「幻境ドール」が手に入る。新たな友達と出会える「幻境ロビー」、無数の冒険に挑める「幻境ステージ」——楽しみ方は無限大！ さらに「星々の箱庭」で「クリエイター」になれば、その唯一無二の想像力を使ってゲームを創ることも！ ◆豪華声優陣が続々出演（五十音順） 会沢紗弥、天﨑滉平、井口祐一、井澤詩織、石川由依、石田彰、伊藤かな恵、稲垣好、入野自由、石見舞菜香、上坂すみれ、植田佳奈、上田麗奈、内田真礼、内田雄馬、内山昂輝、梅田修一朗、梅原裕一郎、遠藤綾、逢坂良太、大橋彩香、大原さやか、小澤亜李、小野賢章、小野大輔、甲斐田裕子、柿原徹也、加隈亜衣、門脇舞以、金田朋子、金元寿子、神谷浩史、川澄綾子、喜多村英梨、鬼頭明里、木野日菜、木村良平、釘宮理恵、久野美咲、久保ユリカ、桑島法子、小岩井ことり、古賀葵、小清水亜美、小林沙苗、小林千晃、小原好美、小松昌平、小松未可子、近藤隆、斉藤壮馬、斎藤千和、佐倉綾音、佐藤元、佐藤聡美、佐藤利奈、沢城みゆき、三瓶由布子、篠原侑、庄子裕衣、島﨑信長、下地紫野、下野紘、白石晴香、杉田智和、杉山紀彰、洲崎綾、鈴代紗弓、瀬戸麻沙美、高尾奏音、たかはし智秋、高橋李依、高森奈津美、竹達彩奈、田中理恵、田野アサミ、田村ゆかり、千葉翔也、寺島惇太、土岐隼一、豊口めぐみ、富田美憂、東山奈央、豊崎愛生、鳥海浩輔、中島愛、中臣真菜、中村悠一、長月あおい、西川貴教、野島健児、能登麻美子、畠中祐、花守ゆみり、早見沙織、日笠陽子、平野綾、ファイルーズあい、福圓美里、福原綾香、藤田茜、堀江瞬、堀江由衣、本多真梨子、前川涼子、前野智昭、M・A・O、増谷康紀、松岡禎丞、水瀬いのり、水樹奈々、水橋かおり、皆川純子、三森すずこ、村瀬歩、森田成一、森なな子、山本和臣、悠木碧、遊佐浩二、柚木涼香、Lynn、若山詩音、和氣あず未 他（敬称略） ◆アプリ価格 アプリ本体：基本プレイ無料 ※一部有料アイテムがございます ご利用前に必ず利用規約をご確認ください。 ◆最新情報はこちらから 〔公式サイト〕 https://genshin.hoyoverse.com/ja 〔公式Twitter〕 https://twitter.com/Genshin_7 〔公式YouTubeチャンネル〕 https://www.youtube.com/@Genshin_JP 〔公式TikTok〕 https://www.tiktok.com/@genshin_jp ◆ヘルプ・お問い合わせ レビュー欄や公式Twitterへのご質問は個別にお答えいたしかねます。 各種お問い合わせにつきましては、下記窓口までご連絡ください。 ※ゲームにアクセスできない場合は、必要事項をご記入のうえ、下記メールアドレスまでお送りください。 ▼ご意見・ご要望 ゲーム内：パイモンのボタンを押す→「報告」を押す→「アドバイス」 ▼不具合情報 ゲーム内：パイモンのボタンを押す→「報告」を押す→「カスタマーサポートに連絡」 ▼ユーザーサポート genshin_jp@hoyoverse.com ▼課金関連 genshin_jp_payment@hoyoverse.com 【お問い合わせの際に記入して頂きたい内容】 ‣ご利用端末とOS情報 ‣トラブルの詳細 ‣お客様の数字ID ‣創世結晶が反映されない問題は、お客様の数字IDと注文番号・購入内容を含めたスクリーンショットをお送りください ‣ご意見・ご要望 ● 対応可能デバイス デバイス：iPhone 8 PlusまたはiPhone X以上、iPad mini（第5世代）またはiPad Air（第3世代）またはiPad（第8世代）以上 SoC：Apple A11以上のSoCを搭載したiPhoneデバイス、またはApple A12以上のSoCを搭載したiPadデバイス RAM：3GB以上 システムバージョン：iOS 14.0以上 ストレージ：40 GB以上の空き容量が必要 ● 推奨スペック デバイス：iPhone 12シリーズ、またはiPad（第9世代）以上 SoC：Apple A13以上 RAM：4 GB以上 システムバージョン：iOS 14.0以上 ストレージ：60 GB以上の空き容量が必要",
+      "analysis": {
+        "app_key": "apple:1517783697",
+        "summary_ko": "광활한 오픈월드 '테이와트'를 탐험하며 7가지 원소의 힘을 활용해 전투를 펼치는 RPG입니다. 플레이어는 여행자가 되어 잃어버린 혈육을 찾기 위한 여정을 떠나며, 다양한 동료를 수집하고 강화할 수 있습니다. 고품질의 그래픽과 오케스트라 사운드를 통해 몰입감 있는 판타지 세계를 경험할 수 있습니다.",
+        "features_ko": [
+          "7가지 원소의 상호작용을 이용한 전략적인 전투 시스템을 제공합니다.",
+          "광활한 오픈월드를 자유롭게 탐험하며 퍼즐을 풀고 숨겨진 비밀을 발견합니다.",
+          "다양한 능력과 개성을 가진 캐릭터들을 수집하고 팀을 구성할 수 있습니다.",
+          "실시간으로 변화하는 날씨와 낮밤 시스템이 적용된 고품질 그래픽을 지원합니다.",
+          "사용자가 직접 스테이지를 창작하고 공유할 수 있는 '별들의 환상' 모드를 포함합니다."
+        ],
+        "noteworthy_ko": "원소 반응이라는 독특한 전투 메커니즘을 통해 단순한 공격 이상의 전략성을 확보한 점이 흥미롭습니다. 오픈월드 탐험과 캐릭터 수집 요소를 결합하여 방대한 콘텐츠를 지속적으로 제공하는 구조가 돋보입니다.",
+        "development_ko": "고품질 3D 그래픽과 방대한 오픈월드 구현을 위해 고도의 엔진 최적화 기술이 필요합니다. 캐릭터별 모션 캡처와 오케스트라 사운드 등 콘텐츠 제작 부담이 매우 큽니다. 라이브 서비스 운영을 위한 서버 안정성과 밸런스 패치 작업이 필수적입니다.",
+        "idea_ko": "원소 반응 시스템을 활용한 2D 퍼즐 게임으로 축소 구현하는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "원소 간의 상호작용을 극대화한 전략적 전투 시스템이 핵심입니다.",
+          "오픈월드 탐험과 창작 모드를 결합하여 플레이어에게 높은 자유도를 제공합니다."
+        ],
+        "systems_ko": [
+          "원소 반응 전투 엔진",
+          "오픈월드 맵 스트리밍 시스템",
+          "캐릭터 수집 및 성장 데이터 관리",
+          "멀티플레이어 동기화 시스템",
+          "사용자 창작 콘텐츠(UGC) 에디터"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "오픈월드 게임은 방대한 맵 데이터 관리와 최적화, 복잡한 전투 로직 구현이 필요하여 1인 개발로 전체를 구현하는 것은 사실상 불가능에 가깝습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 기본 공격",
+            "두 가지 원소의 상호작용 로직",
+            "간단한 던전 맵"
+          ],
+          "defer": [
+            "오픈월드 맵 전체",
+            "멀티플레이어 기능",
+            "고품질 컷신 및 성우 음성"
+          ],
+          "risks": [
+            "방대한 콘텐츠 제작으로 인한 개발 기간 지연",
+            "모바일 기기에서의 성능 최적화 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "원소 퍼즐 던전",
+            "concept": "전투 없이 원소 반응만을 사용하여 지형지물을 극복하고 던전을 탈출하는 퍼즐 게임입니다.",
+            "first_step": "두 가지 원소(예: 물과 불)가 만나 지형을 변화시키는 상호작용 로직 구현."
+          },
+          {
+            "title": "원소 조합 카드 게임",
+            "concept": "캐릭터 대신 원소 카드를 조합하여 강력한 연쇄 반응을 일으키는 턴제 카드 게임입니다.",
+            "first_step": "카드 조합에 따른 데미지 계산 및 연쇄 반응 로직 설계."
+          }
+        ],
+        "recommendation_ko": "대규모 프로젝트의 시스템 설계와 최적화 과정을 공부하기에 좋습니다. 다만, 1인 개발자에게는 전체 복제보다는 특정 메커니즘(원소 반응 등)을 추출하여 소규모 게임으로 만드는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 서버 통신 방식, 결제 시스템의 상세 구현, 보안 정책에 대한 정보가 없습니다. 실제 게임의 내부 엔진 구조나 최적화 기법은 확인할 수 없습니다.",
+        "name": "原神-6周年",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E5%8E%9F%E7%A5%9E-6%E5%91%A8%E5%B9%B4/id1517783697?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "google:jp.co.family.familymart_app": {
+      "app_key": "google:jp.co.family.familymart_app",
+      "name": "ファミマのアプリ「ファミペイ」",
+      "developer": "FamilyMart Co.,Ltd.",
+      "source": "google",
+      "country": "JP",
+      "category": "app_lifestyle",
+      "detail_url": "https://play.google.com/store/apps/details?id=jp.co.family.familymart_app&hl=ja&gl=JP",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:31:29+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ファミリーマートでのお買い物が、もっとお得に楽しくなるアプリです。 ◆クーポン・ポイント・決済が１回のバーコード提示ですべて完了！ ◆お得なクーポン配信中！ ◆バーコード決済で簡単にお支払い！ ◆dポイント、楽天ポイント、Vポイントがたまる・つかえる！ ◆ファミリーマート以外のお店でもお支払いできる！ ＜主な機能＞ 【クーポン】 ・ファミリーマートでご利用いただけるお得なクーポンをお届けします。 ・レジに行く前に使いたいクーポンをセットし、お会計時にバーコードを提示いただくことで使えます。 【チャレンジ】 ・対象商品を購入して、スタンプをためるとクーポンなどを獲得できます。 ・ゲームに挑戦し、あたるとクーポンなどを獲得できます。 ・届いたアンケートに回答するとファミマポイントなどを獲得できます。 【ポイント】 ・dポイント、楽天ポイント、Vポイントよりお好きなポイントを選んで、ためる・つかうことができます。 ・事前にポイントカードの情報を登録して、ためる・つかうポイントを１つ選んでください。 【決済】 ・ご利用履歴はいつでもアプリ内で確認できます。 ・ファミリーマート以外のお店でもご利用できます。ネットのお店（JCB加盟店）の場合、ファミペイ バーチャルカードのカード番号で決済することも可能です。Google Payに設定することで街のお店（QUICPay+加盟店）でもご利用いただけます。 ・アプリ内で公共料金や各種料金の請求書（払込票）のお支払いができます。 ※お支払いできない請求書（払込票）がございます。 ※ファミリーマート店舗で支払える請求書（払込票）の場合でもアプリ内ではお支払いできない場合がございます。 【チャージ】 4種類の方法から選んでチャージができます。 -レジで現金チャージ（ストアスタッフに金額を伝えることでチャージができます） -クレジットカード（JCBブランド）でチャージ -銀行口座からチャージ -ファミペイローンからチャージ ・ギフトコードをお持ちの場合は入力することでチャージができます。 ・事前チャージ不要でクレジットカードのように後日まとめて支払いができる「ファミペイ翌月払い」もご利用いただけます。 ※「ファミペイ翌月払い」は、お申込みいただける方のみアプリ上のサービスアイコンからお手続きいただけます。お申込み後、ご利用には所定の審査があります。 【ファミマポイント】 ・ファミペイでお支払いいただくと、200円(税込)につき、ファミマポイントが１ポイント(１円相当）たまります。 ・ファミマポイントは１ポイント１円として、ファミペイ決済にご利用いただけます。 ・ポイントとは別にファミマポイントがたまります。 ※マルチコピーサービス、公共料金・各種お支払いは１件につき、10ポイント（10円相当）がたまります。 ※一部商品・サービスではファミマポイントはたまりません。 ※「ファミペイ翌月払い」のご利用はファミマポイントが2倍になります。（200円につき2円相当） 【回数券】 ・回数券はファミペイ上で ファミペイ決済にて購入できます。 クーポンと同じようにファミペイにセットしてご利用になれます。 ・メール、SNS等でお友達に贈ることもできます。 その他にも、電子レシート、店舗検索などの機能もお使いいただけます。 ＜推奨環境＞ Android 10以上 ・クーポン、回数券、ファミペイ決済、ポイント、スタンプ、ゲームなどの機能の利用には、簡単な会員登録が必要です。 ・ポイントカードの登録には、dアカウント、楽天ID、Yahoo!JAPAN ID等が必要です。 ・このアプリはインターネットに接続します。インターネット接続ができない場合はご利用いただくことができません。 ・アプリのご利用には通信料がかかります。 ・銀行口座の登録には各銀行により、登録内容が異なります。 ・クーポン・回数券は、利用できる店舗、利用期限などが異なります。配信していない期間もございます。 ・スタンプ・ゲーム・アンケートは、賞品内容が実施時期により異なります。配信していない期間もございます。 ・クーポン・回数券の商品は、一部の地域および一部の店舗では取扱いのない場合がございます。 ・ファミリーマートの一部店舗では、このアプリは使用できません。",
+      "analysis": {
+        "app_key": "google:jp.co.family.familymart_app",
+        "summary_ko": "패밀리마트 앱 '패미페이'는 쿠폰, 포인트, 결제 기능을 바코드 하나로 통합한 라이프스타일 앱입니다. 다양한 할인 쿠폰과 게임, 설문조사를 통해 포인트를 적립할 수 있으며, 앱 내에서 공과금 납부나 결제 충전이 가능합니다. 일본 패밀리마트 이용자에게 최적화된 편의 서비스를 제공합니다.",
+        "features_ko": [
+          "바코드 하나로 쿠폰, 포인트, 결제를 한 번에 처리할 수 있습니다.",
+          "대상 상품 구매 시 스탬프를 모아 쿠폰을 획득할 수 있습니다.",
+          "d포인트, 라쿠텐 포인트 등 다양한 포인트와 연동하여 사용 가능합니다.",
+          "앱 내에서 공과금 납부 및 결제 충전이 가능합니다.",
+          "전자 영수증 확인 및 가까운 매장 찾기 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "오프라인 매장과 앱을 완벽하게 연동한 O2O(Online to Offline) 서비스의 전형입니다. 결제와 포인트 적립을 하나의 바코드로 통합하여 사용자 경험을 극대화한 점이 주목됩니다.",
+        "development_ko": "보안이 핵심인 결제 시스템과 실시간 포인트 연동 서버 구축이 필수적입니다. 매장 POS 시스템과의 데이터 동기화, 사용자 인증, 그리고 대규모 트래픽을 견딜 수 있는 서버 인프라가 요구됩니다.",
+        "idea_ko": "동네 소상공인 매장들을 위한 간편 포인트 적립 및 쿠폰 발행 시스템을 소규모로 구현하는 것이 적합합니다.",
+        "highlights_ko": [
+          "통합 결제: 쿠폰, 포인트, 결제를 하나의 바코드로 해결하여 결제 속도를 높였습니다.",
+          "게이미피케이션: 스탬프, 게임, 설문조사를 통해 사용자 참여를 유도합니다."
+        ],
+        "systems_ko": [
+          "사용자 인증 및 보안 시스템",
+          "바코드 생성 및 스캔 시스템",
+          "포인트 및 결제 관리 서버",
+          "쿠폰 및 스탬프 로직",
+          "매장 위치 기반 서비스(LBS)"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "결제 및 금융 관련 기능은 높은 수준의 보안과 법적 준수가 필요합니다. 개인 개발자가 실제 결제 시스템을 구축하고 운영하는 것은 리스크가 매우 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "회원 가입 및 로그인",
+            "쿠폰 목록 조회",
+            "바코드 생성 기능"
+          ],
+          "defer": [
+            "실제 결제 시스템",
+            "포인트 연동 시스템",
+            "공과금 납부 기능"
+          ],
+          "risks": [
+            "결제 보안 사고",
+            "개인정보 보호 및 법적 규제",
+            "서버 인프라 구축 및 유지 비용"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "동네 가게 스탬프 카드",
+            "concept": "종이 쿠폰 대신 앱으로 스탬프를 찍어주는 소상공인용 적립 앱입니다.",
+            "first_step": "QR 코드를 스캔하여 스탬프를 적립하는 기능을 구현합니다."
+          },
+          {
+            "title": "오늘의 할인 알림",
+            "concept": "주변 매장의 할인 정보를 실시간으로 받아보는 지역 기반 알림 앱입니다.",
+            "first_step": "위치 기반으로 매장 정보를 불러오는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "O2O 서비스의 비즈니스 모델과 사용자 경험 설계 방식을 배우기에 좋습니다. 다만, 실제 금융 기능은 구현하지 말고 비즈니스 로직 학습용으로만 접근하는 것을 추천합니다.",
+        "source_limitations_ko": "결제 보안 인증 방식, 포인트 연동 API 명세, 매장 POS 시스템과의 데이터 동기화 방식 등은 소개문에 명시되지 않았습니다.",
+        "name": "ファミマのアプリ「ファミペイ」",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=jp.co.family.familymart_app&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 66,
+        "reasons": [],
+        "best_rank": 13,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "google:com.microsoft.teams": {
+      "app_key": "google:com.microsoft.teams",
+      "name": "Microsoft Teams",
+      "developer": "Microsoft Corporation",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.microsoft.teams&hl=en&gl=US",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:34:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Whether you’re connecting with your community for an upcoming activity or working with teammates on a project, Microsoft Teams helps bring people together so that they can get things done. It’s the only app that has communities, events, chats, channels, meetings, storage, tasks, and calendars in one place—so you can easily connect and manage access to information. Get your community, family, friends, or work mates together to accomplish tasks, share ideas, and make plans. Join audio and video calls in a secure setting, collaborate in documents, and store files and photos with built-in cloud storage. You can do it all in Microsoft Teams. Easily connect with anyone: • Skype is now part of Teams. Continue where you left off with your chats, calls and contacts in Microsoft Teams Free. • Meet securely with communities, teammates, family, or friends. • Set up a meeting within seconds and invite anyone by sharing a link or calendar invite. • Chat 1-1 or to your entire community, @mention people in chats to get their attention. • Create a dedicated community to discuss specific topics and make plans*. • Work closely and collaborate by keeping conversations organized by specific topics and projects with teams and channels. • Video or audio call anyone directly in Teams or instantly convert a group chat to a call. • Use GIFs, emojis, and message animations to express yourself when words aren’t enough. Accomplish plans and projects together: • Send photos and videos in chats to quickly and easily share important moments. • Use cloud storage to access shared documents and files on the go. • Organize shared content in a community — events, photos, links, files —so you don’t have to waste time searching*. • Get the most out of your meetings by using screenshare, whiteboard, or breakout in virtual rooms. • Manage access to information and ensure the right people have access to the right info, even when people join and leave projects. • Use task lists to stay on top of projects and plans - assign tasks, set due dates, and cross off items to keep everyone on the same page. Designed to give you peace of mind: • Securely collaborate with others while maintaining control over your data. • Keep communities safe by allowing owners to remove inappropriate content or members*. • Enterprise-level security and compliance you expect from Microsoft 365**. *Available when using Microsoft Teams with your Microsoft account. **Commercial features of this app require a paid Microsoft 365 commercial subscription or a trial subscription of Microsoft Teams for work. If you’re not sure about your company’s subscription or the services you have access to, visit Office.com/Teams to learn more or contact your IT department. By downloading Teams, you agree to the license (see aka.ms/eulateamsmobile) and privacy terms (see aka.ms/privacy). For support or feedback, email us at mtiosapp@microsoft.com. EU Contract Summary: aka.ms/EUContractSummary Consumer Health Data Privacy Policy https://go.microsoft.com/fwlink/?linkid=2259814",
+      "analysis": {
+        "app_key": "google:com.microsoft.teams",
+        "summary_ko": "커뮤니티, 팀 프로젝트, 가족 및 친구 간의 소통을 돕는 통합 협업 도구입니다. 채팅, 채널, 화상 회의, 파일 저장, 일정 관리 등 협업에 필요한 기능을 한곳에 모았습니다. 안전한 환경에서 아이디어를 공유하고 계획을 세우며 업무를 효율적으로 관리할 수 있습니다.",
+        "features_ko": [
+          "채팅, 화상 회의, 파일 공유를 하나의 앱에서 수행할 수 있습니다.",
+          "특정 주제나 프로젝트별로 팀과 채널을 구성하여 대화를 정리할 수 있습니다.",
+          "클라우드 스토리지를 통해 어디서나 문서를 공유하고 접근할 수 있습니다.",
+          "화면 공유, 화이트보드 등 회의 중 협업 도구를 제공합니다.",
+          "할 일 목록을 통해 프로젝트의 마감 기한과 담당자를 관리할 수 있습니다."
+        ],
+        "noteworthy_ko": "다양한 협업 도구를 하나의 플랫폼으로 통합하여 사용자의 컨텍스트 스위칭 비용을 줄인 점이 핵심입니다. 특히 커뮤니티와 업무용 기능을 유연하게 전환할 수 있는 구조는 복합적인 서비스 설계의 좋은 예시입니다.",
+        "development_ko": "핵심 기술은 실시간 메시징, 화상 회의 스트리밍, 클라우드 파일 동기화입니다. 콘텐츠 제작 부담은 없으나, 보안 및 데이터 무결성 유지가 매우 중요합니다. 테스트 시에는 다양한 네트워크 환경에서의 실시간 통신 안정성과 데이터 동기화 정확성을 검증해야 합니다.",
+        "idea_ko": "특정 프로젝트의 진행 상황을 시각적으로 보여주는 '프로젝트 대시보드'를 채팅방 상단에 고정하는 기능이 개인 개발 서비스에 유용합니다.",
+        "highlights_ko": [
+          "소통과 협업에 필요한 모든 기능을 통합하여 업무 효율을 극대화했습니다.",
+          "보안이 강화된 환경에서 안전하게 데이터를 공유하고 관리할 수 있습니다."
+        ],
+        "systems_ko": [
+          "실시간 메시징 시스템",
+          "화상 회의 스트리밍 시스템",
+          "파일 업로드 및 클라우드 동기화 시스템",
+          "사용자 권한 및 접근 제어 시스템",
+          "일정 및 할 일 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 통신과 대규모 데이터 동기화는 매우 높은 수준의 서버 인프라와 기술력을 요구합니다. 1인 개발자가 이 정도 규모의 협업 툴을 안정적으로 운영하는 것은 사실상 불가능에 가깝습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "1:1 채팅 기능",
+            "파일 업로드 및 다운로드",
+            "기본적인 사용자 인증"
+          ],
+          "defer": [
+            "화상 회의 기능",
+            "실시간 화이트보드",
+            "복잡한 권한 관리 시스템"
+          ],
+          "risks": [
+            "서버 비용 및 인프라 관리 부담",
+            "데이터 보안 및 개인정보 보호 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "간편 팀 일정 공유기",
+            "concept": "팀원들의 일정을 한눈에 보고 겹치는 시간을 찾아 회의 시간을 제안하는 도구입니다.",
+            "first_step": "사용자별 일정을 입력받아 캘린더 형태로 시각화하는 기능 구현."
+          },
+          {
+            "title": "프로젝트 아이디어 게시판",
+            "concept": "채팅방 내에서 나온 아이디어를 별도의 게시판으로 정리하여 투표를 진행하는 기능입니다.",
+            "first_step": "채팅 메시지를 게시판으로 옮기는 기능과 투표 버튼 구현."
+          }
+        ],
+        "recommendation_ko": "복잡한 서비스의 아키텍처 설계와 실시간 데이터 처리 방식을 배우기에 좋습니다. 하지만 실제 서비스 구현보다는 학습용 프로토타입 제작을 추천합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 서버 아키텍처, 실시간 통신 프로토콜, 보안 암호화 알고리즘의 상세 내용은 확인되지 않습니다.",
+        "name": "Microsoft Teams",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.microsoft.teams&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 46,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "google:kr.co.nextplatform.onting": {
+      "app_key": "google:kr.co.nextplatform.onting",
+      "name": "온팅 - 소개팅 만남어플 데이팅앱 동네친구 내주변",
+      "developer": "(주)넥스트플랫폼",
+      "source": "google",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=kr.co.nextplatform.onting&hl=ko&gl=KR",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:36:37+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "온팅(OnTing)은 소개팅, 친구 만들기, 채팅을 통해 새로운 인연과 만남을 시작할 수 있는 데이팅·소셜 앱입니다. AI 맞춤 추천으로 나와 잘 맞는 사람을 만나고, 주변 탐색으로 가까운 지역의 새로운 친구를 발견해 보세요. 관심 있는 상대와 친구가 되어 1:1 채팅을 나누거나, 토크방에서 다양한 사람들과 편하게 소통할 수 있습니다. [주요 기능] • AI 추천 나와 잘 맞는 사람을 AI가 추천해 드립니다. • 주변 탐색 위치 정보를 활용하여 가까운 곳에 있는 새로운 사람을 찾아볼 수 있습니다. • 친구 등록 관심 있는 상대와 친구가 되어 지속적으로 소통할 수 있습니다. • 1:1 대화 친구가 된 상대와 편리하게 1:1 대화를 나눌 수 있습니다. • 토크방 다양한 사람들과 함께 이야기할 수 있는 오픈형 토크 기능을 제공합니다. • 안전한 이용 환경 신고 및 차단 기능을 통해 원하지 않는 사용자와의 소통을 제한할 수 있습니다. 온팅에서 새로운 사람을 발견하고, 대화를 시작해 보세요. ---- 개발자 연락처 : (주)넥스트플랫폼 해운대구 재반로184번길 64 102호 (재송동,파크빌) 해운대구, 부산광역시 48052 South Korea 4508803836 제 2026-부산 해운대-0828 호 부산광역시 해운대구청",
+      "analysis": {
+        "app_key": "google:kr.co.nextplatform.onting",
+        "summary_ko": "온팅은 AI 기반의 맞춤형 소개팅 및 친구 찾기 소셜 앱입니다. 위치 기반으로 주변 친구를 탐색하고, 1:1 채팅이나 오픈 토크방을 통해 소통할 수 있습니다. 안전한 이용을 위한 신고 및 차단 기능을 제공하여 사용자 간의 만남을 지원합니다.",
+        "features_ko": [
+          "AI를 활용하여 사용자의 성향에 맞는 상대를 추천하는 기능을 제공합니다.",
+          "위치 정보를 기반으로 가까운 지역의 새로운 친구를 탐색할 수 있습니다.",
+          "관심 있는 상대와 1:1 대화를 나눌 수 있는 채팅 기능을 지원합니다.",
+          "다양한 사람들과 소통할 수 있는 오픈형 토크방을 제공합니다.",
+          "신고 및 차단 기능을 통해 안전한 커뮤니티 환경을 관리합니다."
+        ],
+        "noteworthy_ko": "소셜 앱의 핵심인 매칭 알고리즘과 실시간 채팅 시스템의 결합이 중요합니다. 개인 개발자가 구현하기에는 서버 인프라와 보안 이슈가 매우 크므로, 서비스 운영 관점에서의 접근이 필요합니다.",
+        "development_ko": "핵심 기술은 실시간 채팅 서버와 위치 기반 매칭 알고리즘입니다. 콘텐츠 제작은 사용자 프로필 관리와 커뮤니티 운영 정책 수립이 주를 이룹니다. 테스트는 서버 부하 테스트와 보안 취약점 점검이 필수적이며, 밸런스 조정은 매칭 정확도 향상에 집중해야 합니다.",
+        "idea_ko": "특정 취미나 관심사를 가진 사람들만 모이는 '마이크로 커뮤니티' 기반의 매칭 서비스로 범위를 좁혀 구현하는 것이 현실적입니다.",
+        "highlights_ko": [
+          "AI 기반의 맞춤형 상대 추천 시스템.",
+          "위치 기반의 지역 커뮤니티 탐색 기능."
+        ],
+        "systems_ko": [
+          "사용자 프로필 및 데이터 관리 시스템",
+          "위치 기반 매칭 알고리즘",
+          "실시간 채팅 및 알림 시스템",
+          "신고 및 차단 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "개인 정보 보호, 실시간 통신, 서버 인프라 구축 등 고려해야 할 보안 및 운영 요소가 매우 많아 1인 개발로 완성하기에는 난도가 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 프로필 등록 및 조회",
+            "기초적인 매칭 리스트",
+            "1:1 채팅 기능"
+          ],
+          "defer": [
+            "AI 맞춤 추천 엔진",
+            "오픈 토크방",
+            "결제 및 유료 아이템"
+          ],
+          "risks": [
+            "사용자 데이터 보안 및 개인정보 유출",
+            "부적절한 사용자 관리 및 커뮤니티 운영"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "관심사 기반 소규모 매칭",
+            "concept": "특정 취미(예: 독서, 러닝)를 가진 사람만 매칭하여 대화 주제를 명확히 합니다.",
+            "first_step": "취미 태그 기반의 사용자 매칭 로직을 구현하는 시제품 제작."
+          },
+          {
+            "title": "익명 대화 릴레이",
+            "concept": "프로필 없이 대화로만 상대를 알아가는 익명 기반의 소셜 서비스입니다.",
+            "first_step": "익명 채팅방 생성 및 랜덤 매칭 로직 구현."
+          }
+        ],
+        "recommendation_ko": "소셜 앱의 기본 구조와 실시간 통신 기술을 배우기에 좋으나, 보안과 운영 부담이 커서 실제 서비스화에는 신중해야 합니다. 비추천합니다.",
+        "source_limitations_ko": "소개문에는 AI 추천의 구체적인 방식이나 서버 아키텍처, 보안 인증 방식이 명시되지 않았습니다. 실제 서비스 운영을 위해서는 법적 규제와 보안 검증이 필수적입니다.",
+        "name": "온팅 - 소개팅 만남어플 데이팅앱 동네친구 내주변",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=kr.co.nextplatform.onting&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 93,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "itch:beecde32a562ce395128": {
+      "app_key": "itch:beecde32a562ce395128",
+      "name": "Please Don’t Evict Me [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "",
+      "detail_url": "https://revyrevy-1101.itch.io/please-dont-evict-me",
+      "data_date": "2026-10-24",
+      "analysed_at": "2026-10-25T03:38:02+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Every morning, someone knocks. Survive 28 days of rent, rules and surprise visitors.",
+      "analysis": {
+        "app_key": "itch:beecde32a562ce395128",
+        "summary_ko": "매일 아침 방문하는 손님들을 상대하며 28일 동안 월세를 내고 규칙을 지키며 살아남는 시뮬레이션 게임입니다. 플레이어는 제한된 자원과 규칙 속에서 퇴거당하지 않기 위해 고군분투해야 합니다.",
+        "features_ko": [
+          "28일간의 생존 기간 동안 월세를 지불하는 경제 시스템을 포함합니다.",
+          "매일 방문하는 손님들과의 상호작용을 통해 정보를 얻거나 자원을 관리합니다.",
+          "지켜야 할 규칙들이 존재하며 이를 어길 시 퇴거당할 수 있습니다."
+        ],
+        "noteworthy_ko": "제한된 기간과 규칙이라는 제약 조건이 긴장감을 유발하는 구조입니다. 손님들의 방문이 매일 발생하는 이벤트로 작용하여 게임의 흐름을 조절하는 점이 흥미롭습니다.",
+        "development_ko": "날짜별 이벤트 관리 시스템과 자원(돈) 관리 로직이 핵심입니다. 손님들의 대화 선택지에 따른 결과 분기 구현이 필요하며, 규칙 위반 판정 로직의 밸런스 조정이 중요합니다.",
+        "idea_ko": "손님들의 방문 목적을 다양화하여 매일 다른 전략을 세우게 하는 것이 좋습니다.",
+        "highlights_ko": [
+          "28일이라는 명확한 생존 기간을 설정하여 긴장감을 유지합니다.",
+          "규칙 준수와 월세 지불이라는 두 가지 핵심 목표를 제시합니다."
+        ],
+        "systems_ko": [
+          "날짜 및 이벤트 관리 시스템",
+          "경제 및 자원 관리",
+          "대화 선택지 분기 시스템",
+          "규칙 위반 판정 로직"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "이벤트 관리와 자원 로직은 구현이 명확하지만, 다양한 대화 분기와 규칙 위반 판정의 밸런스를 맞추는 데 세심한 설계가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "날짜 흐름 시스템",
+            "월세 지불 및 자원 관리",
+            "기본적인 손님 방문 이벤트"
+          ],
+          "defer": [
+            "복잡한 멀티 엔딩",
+            "다양한 아이템 상점"
+          ],
+          "risks": [
+            "게임 플레이의 반복성으로 인한 지루함",
+            "규칙 위반 판정의 불공정성 논란"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "비밀 규칙 시스템",
+            "concept": "게임 중반에 새로운 규칙이 추가되어 플레이어의 전략을 수정하게 합니다.",
+            "first_step": "날짜에 따라 규칙 리스트를 업데이트하는 로직을 구현합니다."
+          },
+          {
+            "title": "손님 호감도",
+            "concept": "손님과의 대화 결과에 따라 월세 할인이나 추가 자원을 얻는 호감도 시스템을 도입합니다.",
+            "first_step": "대화 선택지에 따른 호감도 수치 변동 로직을 작성합니다."
+          }
+        ],
+        "recommendation_ko": "이벤트 기반의 시뮬레이션 게임을 만들고 싶은 개발자에게 추천합니다. 자원 관리와 규칙 준수라는 제약 조건을 어떻게 게임플레이로 녹여내는지 배우기 좋습니다.",
+        "source_limitations_ko": "소개문이 짧아 구체적인 규칙의 종류, 손님들의 성격, 월세 지불 방식 등은 확인되지 않습니다.",
+        "name": "Please Don’t Evict Me [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://revyrevy-1101.itch.io/please-dont-evict-me",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 10000,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "google:com.biller.scg": {
+      "app_key": "google:com.biller.scg",
+      "name": "가스앱 - 에너지 절약의 시작",
+      "developer": "SCGLAB Co., LTD.",
+      "source": "google",
+      "country": "KR",
+      "category": "app_lifestyle",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.biller.scg&hl=ko&gl=KR",
+      "data_date": "2026-10-22",
+      "analysed_at": "2026-10-25T03:41:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "가스앱은 에스씨지랩에서 운영하는 에너지 통합 플랫폼 서비스입니다. 정부·공공기관을 대행하거나 대표하지 않습니다. 2025년 11월, 전북도시가스가 새로운 가족이 되었어요! 전북특별자치도 전주, 완주, 남원, 순창, 무주, 김제, 고창 지역에서도 가스앱을 이용할 수 있어요. 가스앱을 소개합니다! 도시가스 요금 조회, 납부, 이사 예약 등의 도시가스 서비스는 물론 캐시 혜택을 더해 요금 할인을 받을 수 있어요. 실시간 전기 요금을 확인하는 등 다양한 에너지 서비스를 제공합니다. 현재 서울, 인천, 경기, 강원, 충남, 충북, 전북, 전남, 경남, 제주 등 전국으로 확대 중이며, 더 많은 지역에서 이용할 수 있도록 준비하고 있어요. 가스앱 서비스 지역을 확인해 보세요. ▶ [전북도시가스] 전북특별자치도 : 전주시, 완주군, 남원시, 순창군, 무주군, 김제시, 고창군 ▶ [서울도시가스] 서울11개구 : 강서구, 동작구, 서대문구, 영등포구, 은평구, 관악구, 마포구(일부), 서초구(일부), 양천구(일부), 용산구(일부), 종로구(일부) / 경기도 : 파주시, 고양시, 김포시(일부) ▶ [인천도시가스] 인천 : 영종구, 부평구, 계양구, 서해구, 검단구, 강화군, 제물포구(일부), 남동구(일부) / 경기 : 김포시(일부) ▶ [제주도시가스] 제주시, 서귀포시 ▶ [JB㈜] 충청남도: 천안시, 공주시, 논산시, 보령시, 아산시, 금산군, 부여군, 서천군, 청양군 ▶ [대륜E&S] 서울4개구 : 강북구, 노원구, 도봉구, 성북구(일부) / 경기도 : 의정부시, 포천시, 구리시, 동두천시, 양주시, 연천군 ▶ [예스코] 서울9개구 : 동대문구, 중랑구, 광진구, 성동구, 중구, 마포구(일부), 성북구(일부), 용산구(일부), 종로구(일부) / 경기도 : 남양주시, 가평군, 양평군, 퇴계원 ▶ [군산도시가스] 전북특별자치도 : 군산시, 진안군, 부안군, 임실군 ▶ [귀뚜라미에너지] 서울3개구 : 구로구, 금천구, 양천구(일부) ▶ [참빛도시가스] 강원도 4개사 : 원주시, 강릉시, 속초시, 횡성군, 동해시, 삼척시, 고성군, 양양군 / 충청북도 : 충주시 ▶ [MC에너지] 전남광주통합특별시 : 목포시, 무안군, 영암군, 강진군 ▶ [경동도시가스] 울산광역시, 양산시 ▶ [미래엔서해에너지] 충청남도: 당진시, 서산시, 예산군, 태안군, 홍성군 ▶ [대화도시가스] 전남광주통합특별시: 여수시 [주요 기능] 1. 그때 그때 알아서 보여주는 나만의 홈! - 청구서가 나왔을 때, 자가 검침 기간일 때, 방문 예약일이 가까워 졌을 때 등 내가 필요한 순간에, 딱! 필요한 메뉴를 가스앱 홈에서 바로 확인할 수 있어요. 2. 요금 관리는 한 눈에 - 이번 달 요금, 납부 일정 확인은 물론 가스 요금을 월별, 연간 그래프로 한 눈에 비교할 수 있어요. 3. 간편결제 및 자동이체 - 카드, 가상계좌 등 다양한 결제 수단으로 납부하고, 간편결제나 자동이체도 쉽게 신청할 수 있어요. 4. 캐시 모아 가스비 절약 - 가입만 해도, 퀴즈만 풀어도, 광고만 봐도 캐시가 차곡히 쌓여요. 적립된 캐시로 가스 요금을 할인 받거나(일부 도시가스에 한함), 내 계좌로 인출해 보세요. 5. 모바일 자가검침 - 매니저 방문 없이 가스앱 열고 계량기 찰칵! 단 5초 만에 직접 검침 할 수 있어요. 6. 비대면 방문 예약 - 이사, 안전 점검, 가스 철거 및 연결 등 방문 서비스가 필요하다면 쉽고 빠르게 신청할 수 있어요. 7. 24시간 상담톡 - 고객센터 업무가 종료되어도 365일, 24시간 언제든지 궁금한 점을 해결할 수 있어요. 8. 스마트 사용량 조회 - 스마트 계량기가 있다면 실시간 가스 사용량과 예상 요금을 확인하실 수 있어요. (서울/제주 일부 지역, 확대 예정) 9. 실시간 요금 조회 - 현재까지 사용 요금, 이번 달 예상 요금 확인, 지난 달 요금 비교까지! 가스와 전기 모두 실시간 요금 확인하고 좀 더 효율적으로 관리해 보세요. 10. 생활 콘텐츠 - 에너지 절약백서, 생활 정보, 가스비 절약 이벤트 등 다양한 콘텐츠를 둘러보세요. 11. 캐시몰 - 가스앱 캐시로 가스비는 물론 스타벅스, 배민, 이마트, 올리브영 등 다양한 쿠폰을 구매할 수 있어요. 12. 재밌는 캐시 모으기 - 1시간마다 뽑는 캐시 캡슐, 행운의 사다리, 모두의 원픽 등 중독성있는 게임으로 캐시 쿠폰에 도전하세요. 13. 이제 보일러는 가스몰에서 - 도시가스사와 공식 파트너몰인 '가스몰'에서 신뢰할 수 있는 가격으로 보일러를 구매할 수 있어요. - 보일러 AI 추천 서비스를 통해 우리 집에 맞는 보일러를 추천받아 보세요. [서비스 접근 권한 안내] 가스앱은 안드로이드 7.0 버전 이상부터 원활하게 사용 가능하며, 안드로이드 7.0 미만 버전을 사용하시는 경우 선택 권한을 개별적으로 허용할 수 없어요. 보유하신 단말의 제조사에서 운영체제 업그레이드 제공을 통해 안드로이드 7.0 버전 이상으로 업데이트하는 것을 권장드립니다. 권한 변경을 위해 설치된 앱 삭제 후 재설치를 진행해 주세요. * 필수 접근 권한 1. 전화번호, 문자 메시지 - 도시가스 고객센터와의 통화 연결을 위해 전화 허용이 필요해요. - 핸드폰 번호 입력이 필요한 경우 자동 입력을 위해 사용합니다. - 문자 메시지로 수신된 인증 번호의 자동 입력을 위해 사용합니다. * 선택 접근 권한 1. 카메라, 저장 공간: 자가 검침 시 계량기 촬영, 과오납 환불 신청 등 필요한 서류를 첨부하기 위해 사용됩니다. 2. 위치 정보: 굴착 공사 신고 시 현재 위치의 자동 입력을 위해 사용됩니다. 3. 연락처 정보 : 가족회원 초대 시 초대 메시지를 보낼 가족의 연락처를 선택하기 위해 사용됩니다. 4. Push 알림 수신 권장: 매월 청구서 발행, 도시가스 요금 납부일, 방문 예약, 자가 검침 기간 등 꼭 필요한 일정 안내를 위해 Push 알림을 수신으로 설정해주세요. 선택 접근 권한은 허용하지 않아도 앱 이용이 가능하나, 일부 기능 사용이 제한될 수 있습니다. [도시가스사별 콜센터] 서울도시가스 콜센터 : 1588-5788 인천도시가스 콜센터 : 1600-0002 제주도시가스 고객센터 : 1600-3437 JB(주) 콜센터: 1544-0041 대륜E&S 콜센터 : 1566-6116 예스코 콜센터 : 1544-3131 군산도시가스 고객센터 : 063-440-7700 귀뚜라미에너지 고객센터 : 1670-4700 참빛원주도시가스 콜센터 : 1899-9100 (지역선택 : 1번) 참빛속초도시가스 콜센터 : 1899-9100 (지역선택 : 2번) 참빛충북도시가스 콜센터 : 1899-9100 (지역선택 : 3번) 참빛영동도시가스 콜센터 : 1899-9100 (지역선택 : 4번) 참빛영동도시가스 동해지점 콜센터 : 1899-9100 (지역선택 : 5번) MC에너지 고객센터 : 1899-6390 경동도시가스 콜센터 : 1577-8181 미래엔서해에너지 콜센터: 1577-6580 대화도시가스 콜센터: 1661-6080 전북도시가스 콜센터: 1811-7700 ▶ 가스앱 공식 SNS : https://blog.naver.com/gasapp ▶ 가스앱 고객 문의메일: help.gasapp@gmail.com ▶ 광고 제휴 메일 : bhy@scglab.com",
+      "analysis": {
+        "app_key": "google:com.biller.scg",
+        "summary_ko": "가스앱은 도시가스 요금 조회, 납부, 이사 예약 등 에너지 관련 서비스를 통합 제공하는 플랫폼입니다. 실시간 사용량 확인과 캐시 적립 기능을 통해 에너지 절약을 돕습니다. 전국 여러 도시가스사와 연동하여 지역별 맞춤형 서비스를 지원합니다.",
+        "features_ko": [
+          "도시가스 요금 조회 및 간편결제, 자동이체 신청 기능을 제공합니다.",
+          "이사 예약, 안전 점검, 가스 철거 등 비대면 방문 서비스를 예약할 수 있습니다.",
+          "앱 내 활동을 통해 캐시를 적립하고 요금 할인이나 쿠폰 구매에 사용할 수 있습니다.",
+          "스마트 계량기 연동 시 실시간 가스 사용량과 예상 요금을 확인할 수 있습니다.",
+          "24시간 상담톡을 통해 고객센터 업무 시간 외에도 문의 사항을 해결할 수 있습니다."
+        ],
+        "noteworthy_ko": "공공 서비스 성격의 앱에 게임화(Gamification) 요소를 도입하여 사용자 참여를 유도한 점이 독특합니다. 에너지 절약이라는 실용적 목적과 캐시 보상이라는 동기 부여가 결합된 모델입니다.",
+        "development_ko": "다양한 도시가스사 API와의 데이터 연동이 핵심이며, 보안이 매우 중요한 금융/개인정보 처리 기술이 필요합니다. 사용자 위치 기반 서비스와 푸시 알림 시스템의 안정적인 운영이 필수적입니다.",
+        "idea_ko": "가정 내 에너지 사용 패턴을 분석해 절약 팁을 알려주는 '에너지 비서' 기능이 개인 개발 프로젝트로 적합합니다.",
+        "highlights_ko": [
+          "사용자 상황에 맞춘 홈 화면 구성으로 필요한 메뉴를 즉시 제공합니다.",
+          "자가 검침 기능을 통해 방문 없이 간편하게 계량기 수치를 등록할 수 있습니다."
+        ],
+        "systems_ko": [
+          "외부 API 데이터 연동 시스템",
+          "사용자 인증 및 보안 관리",
+          "결제 게이트웨이 연동",
+          "위치 기반 서비스",
+          "실시간 알림(Push) 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "공공 데이터 연동과 결제 시스템은 높은 수준의 보안과 안정성을 요구합니다. 개인 개발자가 모든 도시가스사와의 제휴 및 데이터 연동을 구현하는 것은 현실적으로 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 요금 입력 및 관리 기능",
+            "에너지 절약 팁 게시판",
+            "간단한 알림 설정"
+          ],
+          "defer": [
+            "실제 도시가스사 API 연동",
+            "결제 게이트웨이 연동",
+            "캐시몰 및 게임 기능"
+          ],
+          "risks": [
+            "개인정보 유출 위험",
+            "데이터 연동의 복잡성 및 유지보수 부담"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "에너지 가계부",
+            "concept": "사용자가 직접 전기/가스 요금을 입력하고 월별 그래프로 소비 패턴을 확인하는 개인용 가계부입니다.",
+            "first_step": "사용자 입력을 받아 월별 통계를 시각화하는 차트 라이브러리 구현."
+          },
+          {
+            "title": "절약 챌린지",
+            "concept": "사용자가 설정한 목표 요금 이하로 유지하면 배지를 획득하는 개인적인 도전 모드입니다.",
+            "first_step": "목표 요금 설정 및 현재 사용량 비교 로직 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 시각화와 사용자 입력 기반의 생산성 앱을 만들고 싶은 개발자에게 추천합니다. 다만, 실제 금융/공공 서비스 연동은 법적/기술적 제약이 많으므로 개인 프로젝트 시에는 범위를 좁혀야 합니다.",
+        "source_limitations_ko": "소개문에는 실제 도시가스사와의 데이터 연동 방식이나 보안 인증 체계에 대한 구체적인 기술 정보가 없습니다. 결제 및 개인정보 처리와 관련된 보안 기능은 소개문에 근거가 없으므로 직접 구현해서는 안 됩니다.",
+        "name": "가스앱 - 에너지 절약의 시작",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.biller.scg&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
     }
   }
 }

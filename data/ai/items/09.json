@@ -6414,6 +6414,624 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-24"
+    },
+    "apple:1037272004": {
+      "app_key": "apple:1037272004",
+      "name": "서울자전거 따릉이",
+      "developer": "Seoul Metropolitan Government",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_lifestyle",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%84%9C%EC%9A%B8%EC%9E%90%EC%A0%84%EA%B1%B0-%EB%94%B0%EB%A6%89%EC%9D%B4/id1037272004?uo=2",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:23:48+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "서울특별시에서 운영하는 공공자전거(서울자전거-따릉이) 전용앱으로 회원가입 및 이용권구매, 대여, 반납, 대여소 확인 등이 가능합니다. 생활교통수단으로의 자전거 이용활성화를 도모하여 서울시의 교통체증, 대기오염, 고유가 문제를 해결하고 건강한 사회 및 시민들 삶의 질을 높이고자 마련되었습니다. 이용대상 ｜ 만 13세 이상 (만 13세는 회원가입 필요 ) 운영시간 ｜ 24시간 연중 무휴 이용요금 ｜1시간권 : 1일권 1천원 / 정기권 1주일 3천원, 1개월 5천원, 6개월 1만5천원, 1년권 3만원 2시간권 : 1일권 2천원 / 정기권 1주일 4천원, 1개월 7천원, 6개월 2만원 , 1년권 4만원 01. 이용권 구매 ‘서울자전거 홈페이지’ 또는 ‘서울자전거-따릉이’앱에서 구매할 수 있습니다. 앱은 스마트폰 앱스토어에서 다운받아 설치하시면 됩니다. 02. 대여하기 - LCD형 따릉이 : 대여화면에서 자전거 번호 입력 -> LCD 에 이용권번호 입력하여 대여가능합니다. - QR형 따릉이 : QR코드 촬영 후 따릉이 이용이 가능합니다. 03. 안전주행 주행전 브레이크와 타이어, 체인 상태를 꼭 확인하세요. 주행시 이용자 안전을 위해 안전모 등 안전장구를 착용하고, 교통법규를 준수하세요. 안전한 따릉이 운행을 위해서는 이어폰 사용을 자제해주세요. 04. 반납하기 서울 시내의 모든 사울자전거 대여소에 반납 할 수 있습니다. 자전거 잠금장치를 잠그면 반납처리 됩니다. ('반납되었습니다'라는 음성멘트와 안내문자를 통해 정상처리여부를 꼭 확인하세요!) ※ 이용문의 : 1599-0120 ※ 홈페이지 : www.bikeseoul.com",
+      "analysis": {
+        "app_key": "apple:1037272004",
+        "summary_ko": "서울특별시에서 운영하는 공공자전거 '따릉이' 전용 앱입니다. 이용권 구매, 자전거 대여, 반납, 대여소 위치 확인 등의 기능을 제공합니다. 시민들의 교통 편의를 돕고 환경 보호를 목적으로 운영됩니다.",
+        "features_ko": [
+          "이용권 구매 및 결제 기능을 제공합니다.",
+          "QR코드 촬영 또는 번호 입력을 통해 자전거를 대여할 수 있습니다.",
+          "지도상에서 가까운 대여소 위치를 확인할 수 있습니다.",
+          "자전거 잠금장치를 통해 간편하게 반납 처리를 할 수 있습니다."
+        ],
+        "noteworthy_ko": "공공 서비스 앱으로서 위치 기반 서비스(LBS)와 결제 시스템의 안정적인 연동이 핵심입니다. 사용자에게 실시간 정보를 제공하는 것이 중요하며, 오프라인 자전거와 앱을 연결하는 O2O(Online to Offline) 서비스의 전형적인 사례입니다.",
+        "development_ko": "위치 기반 서비스(GPS)와 지도 API 연동이 필수적입니다. 결제 시스템의 보안과 안정성이 매우 중요하며, 서버와의 실시간 통신을 통해 대여 상태를 관리해야 합니다. 사용자 경험을 위해 직관적인 UI와 명확한 안내 메시지가 필요합니다.",
+        "idea_ko": "특정 지역 내의 공유 자전거가 아닌, 개인 간의 물품 대여를 관리하는 '소규모 대여 관리 시스템'으로 응용할 수 있습니다.",
+        "highlights_ko": [
+          "공공 교통수단으로서 24시간 연중무휴 운영을 지원합니다.",
+          "LCD형과 QR형 등 다양한 대여 방식을 지원합니다."
+        ],
+        "systems_ko": [
+          "위치 기반 대여소 지도 시스템",
+          "결제 및 이용권 관리 시스템",
+          "QR/번호 인식 시스템",
+          "대여 상태 실시간 모니터링 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "결제 시스템, 위치 기반 서비스, 서버와의 실시간 데이터 동기화 등 고도의 안정성이 요구되는 시스템이 결합되어 있어 1인 개발로 전체를 구현하기는 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "대여소 위치 지도 표시",
+            "대여 및 반납 버튼 로직",
+            "이용권 구매 UI"
+          ],
+          "defer": [
+            "실제 결제 게이트웨이 연동",
+            "실시간 서버 동기화",
+            "다양한 대여 방식 지원"
+          ],
+          "risks": [
+            "위치 정보 오차로 인한 대여/반납 오류",
+            "결제 보안 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "동네 물품 대여소",
+            "concept": "이웃 간에 캠핑 용품이나 공구 등을 빌려주는 소규모 대여 플랫폼입니다.",
+            "first_step": "물품 목록을 보여주고 대여 상태를 변경하는 기능을 구현합니다."
+          },
+          {
+            "title": "자전거 경로 기록기",
+            "concept": "따릉이 이용 경로를 GPS로 기록하고, 주행 거리와 소모 칼로리를 계산해주는 보조 앱입니다.",
+            "first_step": "GPS 경로 추적 및 거리 계산 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "O2O 서비스의 기본 구조와 위치 기반 서비스 활용법을 배우기에 좋습니다. 다만, 결제와 보안이 포함된 서비스는 개인 개발 시 매우 신중해야 합니다.",
+        "source_limitations_ko": "실제 자전거 잠금장치와의 통신 프로토콜이나 서버 백엔드 로직은 소개문에서 확인할 수 없습니다.",
+        "name": "서울자전거 따릉이",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%84%9C%EC%9A%B8%EC%9E%90%EC%A0%84%EA%B1%B0-%EB%94%B0%EB%A6%89%EC%9D%B4/id1037272004?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:6747674115": {
+      "app_key": "apple:6747674115",
+      "name": "DB손해보험 다이렉트 자동차보험",
+      "developer": "베러라이프",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_productivity",
+      "detail_url": "https://apps.apple.com/kr/app/db%EC%86%90%ED%95%B4%EB%B3%B4%ED%97%98-%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8-%EC%9E%90%EB%8F%99%EC%B0%A8%EB%B3%B4%ED%97%98/id6747674115?uo=2",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:29:04+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "다이렉트로 저렴한 가격에 보상서비스는 DB손해보험을 본질적으로! 지금 바로 앱을 다운로드하시고 DB다이렉트로 자동차보험을 알아보세요! ◆ DB손해보험 다이렉트 자동차보험 앱의 다양한 특약 할인 안내 ◆ - Baby in Car 특약할인 - TMAP/카카오내비 안전운전특약할인 - 향후 3년 연속 무사고 할인 - 블랙박스 특약할인 - 차선이탈경고장치 특약할인 - 전후충돌 경고장치 특약할인 ◆보험 설명사항 ◆ - 상인 계약 전 접근권 계약서 및 약관을 명시하시기 바랍니다. - 기존에 군인이었던 경우 계약을 해제하고 다른 계약을 보호하는 인수 조건이 변경되었으므로 군인이 보호할 수 있도록 허용할 수 있는 자격이 있는 사용자라면 가능합니다.",
+      "analysis": {
+        "app_key": "apple:6747674115",
+        "summary_ko": "DB손해보험 다이렉트 자동차보험 앱은 사용자가 직접 자동차 보험을 조회하고 가입할 수 있는 금융 서비스 앱입니다. 안전 운전 특약, 무사고 할인 등 다양한 할인 혜택을 안내하며 보험 계약 관련 정보를 제공합니다. 다이렉트 방식을 통해 보험료 절감과 보상 서비스 접근성을 강조합니다.",
+        "features_ko": [
+          "안전 운전 특약 및 무사고 할인 등 다양한 보험료 할인 조건을 안내합니다.",
+          "블랙박스 및 차선이탈 경고 장치 등 차량 옵션에 따른 추가 할인 정보를 제공합니다.",
+          "보험 계약 전 필수 확인 사항 및 약관 정보를 명시합니다.",
+          "다이렉트 가입을 통해 보험료를 절감할 수 있는 경로를 제공합니다."
+        ],
+        "noteworthy_ko": "금융 상품을 모바일 환경에서 직접 가입하게 하는 구조는 높은 신뢰성과 보안이 요구됩니다. 사용자의 차량 정보를 기반으로 맞춤형 보험료를 산출하는 로직이 핵심입니다.",
+        "development_ko": "금융 앱 특성상 보안 인증과 개인정보 보호가 최우선입니다. 보험료 산출을 위한 복잡한 계산 로직과 보험사 서버와의 안정적인 데이터 통신이 필요하며, 법적 고지 사항을 정확히 전달하는 UI가 중요합니다.",
+        "idea_ko": "사용자의 운전 습관을 기록하고 예상 보험료 절감액을 시뮬레이션해주는 도구가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "다양한 특약 조건을 세분화하여 사용자에게 맞춤형 할인 정보를 제공합니다.",
+          "다이렉트 가입 방식을 통해 보험 서비스의 접근성을 높였습니다."
+        ],
+        "systems_ko": [
+          "사용자 인증 및 보안 시스템",
+          "보험료 산출 계산 엔진",
+          "약관 및 고지 사항 관리 시스템",
+          "데이터 암호화 통신",
+          "사용자 차량 정보 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "금융 앱은 보안 규제와 법적 책임이 매우 크며, 보험료 산출 로직은 고도의 정확성이 요구되므로 개인 개발자가 구현하기에는 위험 요소가 많습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "보험 상품 정보 조회",
+            "할인 특약 안내 페이지",
+            "고객 문의 및 상담 연결"
+          ],
+          "defer": [
+            "앱 내 직접 가입 및 결제",
+            "실시간 보험료 산출 엔진"
+          ],
+          "risks": [
+            "개인정보 유출 및 보안 사고",
+            "금융 관련 법적 규제 준수"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "자동차 보험료 비교 시뮬레이터",
+            "concept": "사용자가 입력한 정보를 바탕으로 여러 보험사의 대략적인 보험료를 비교해주는 도구입니다.",
+            "first_step": "사용자 차량 정보와 사고 이력을 입력받아 예상 보험료를 계산하는 간단한 폼 구현."
+          },
+          {
+            "title": "안전 운전 기록장",
+            "concept": "운전 습관을 기록하고 보험료 할인에 도움이 되는지 체크리스트를 제공하는 앱입니다.",
+            "first_step": "운전 습관 체크리스트를 만들고 결과에 따라 할인 가능성을 알려주는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "금융 앱의 UI/UX 설계와 정보 전달 방식을 배우기에는 좋으나, 실제 금융 거래 기능을 포함하는 것은 비추천합니다.",
+        "source_limitations_ko": "보험료 산출 로직의 상세 내용이나 실제 가입 시 연동되는 외부 금융 시스템에 대한 정보는 없습니다.",
+        "name": "DB손해보험 다이렉트 자동차보험",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/db%EC%86%90%ED%95%B4%EB%B3%B4%ED%97%98-%EB%8B%A4%EC%9D%B4%EB%A0%89%ED%8A%B8-%EC%9E%90%EB%8F%99%EC%B0%A8%EB%B3%B4%ED%97%98/id6747674115?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:6811791418": {
+      "app_key": "apple:6811791418",
+      "name": "[777Real]e 七つの大罪3",
+      "developer": "Sammy Networks Co., Ltd.",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_simulation",
+      "detail_url": "https://apps.apple.com/jp/app/777real-e-%E4%B8%83%E3%81%A4%E3%81%AE%E5%A4%A7%E7%BD%AA3/id6811791418?uo=2",
+      "data_date": "2026-10-22",
+      "analysed_at": "2026-10-25T03:38:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "---------------------------------------- e 七つの大罪3 2026年/Sammy ---------------------------------------- 「七つの大罪」シリーズ最新作！ e 七つの大罪3が777Realに登場！ 天上天下唯我独尊 シリーズ最高火力「傲慢スペック」 大当り確率：約1/319 RUSH継続率：約75% PERFECT BONUS平均獲得出玉：約3,400個 傲慢フリーズ&ヒロイン全回転は発生すれば5,100個~7,500個！？ ■傲慢フリーズ エスカノールが放つ最強無比の一撃！ ■ヒロイン全回転 ヒロイン達のバカンスショット満載！ シリーズ最強傲慢スペック 『e 七つの大罪3』を【777Real】で楽しもう！ ---------------------------------------- 必要動作環境について ---------------------------------------- 必要動作環境につきましては、777Real公式サイトでご確認をお願いいたします。 ※公式サイト画面最下部 ---------------------------------------- 個人情報の扱いについて/プライバシーポリシー ---------------------------------------- アプリ内の[メニュー＞ヘルプ＞お問い合わせボタン＞お問い合わせフォーム下部＞利用規約]および[メニュー＞ヘルプ＞お問い合わせボタン＞お問い合わせフォーム下部＞個人情報の取り扱い]をご確認ください。 お客様がダウンロードボタンをタップ、本アプリケーションをダウンロードされた場合には、アプリケーションプライバシーポリシーに同意したものとみなされます。 ---------------------------------------- サポートセンター窓口 ---------------------------------------- アプリ内の[お問い合わせ/FAQ]より、お問い合わせフォームをご利用ください。 ※営業時間：10時～19時 ※返信などの対応は原則翌営業時間になります。予めご了承ください。",
+      "analysis": {
+        "app_key": "apple:6811791418",
+        "summary_ko": "애니메이션 '일곱 개의 대죄' IP를 활용한 파칭코 시뮬레이션 게임입니다. 실제 기기의 확률과 연출을 재현하여 모바일 환경에서 경험할 수 있도록 설계되었습니다. 주요 연출과 보너스 게임을 통해 높은 타격감을 제공하는 것이 특징입니다.",
+        "features_ko": [
+          "약 1/319 확률의 대당첨 시스템을 구현했습니다.",
+          "RUSH 지속률 약 75%의 게임 규칙을 적용했습니다.",
+          "특정 연출 발생 시 3,400개에서 최대 7,500개의 구슬 획득이 가능합니다.",
+          "원작 캐릭터를 활용한 '오만 프리즈' 및 '히로인 전회전' 연출을 포함합니다."
+        ],
+        "noteworthy_ko": "실제 파칭코 기기의 수치적 스펙을 모바일 앱으로 이식하는 과정이 핵심입니다. 확률 기반의 보상 체계와 시각적 연출의 동기화가 사용자 경험의 핵심을 결정짓는 것으로 추정됩니다.",
+        "development_ko": "확률 기반의 게임 로직 구현과 고품질 연출 영상의 최적화가 중요합니다. 파칭코 특유의 화려한 UI와 사운드 효과를 구현하는 데 많은 리소스가 소요될 것으로 보입니다. 밸런스 테스트는 실제 기기의 확률 데이터와 일치하도록 정밀하게 수행해야 합니다.",
+        "idea_ko": "파칭코의 확률적 재미를 차용한 미니 게임 형태의 '운 테스트' 앱 개발이 적합합니다.",
+        "highlights_ko": [
+          "시리즈 최고 화력을 강조한 '오만 스펙' 시스템을 탑재했습니다.",
+          "히로인 연출 등 원작 팬을 위한 시각적 요소를 강화했습니다."
+        ],
+        "systems_ko": [
+          "확률 난수 생성기(RNG)",
+          "보상 계산 엔진",
+          "상태 관리 시스템",
+          "UI/UX 애니메이션 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실제 기기의 확률 모델을 정확히 구현해야 하며, 복잡한 연출과 사운드 동기화가 필수적입니다. 1인 개발 시 원작의 느낌을 살리는 그래픽 리소스 제작 부담이 매우 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "확률 기반 당첨 로직",
+            "기본 UI 및 버튼 인터랙션",
+            "보상 카운터"
+          ],
+          "defer": [
+            "복잡한 3D 연출",
+            "네트워크 연동 기능"
+          ],
+          "risks": [
+            "확률 모델의 불균형",
+            "저작권 관련 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "럭키 넘버 챌린지",
+            "concept": "파칭코의 확률 요소를 단순화하여 100개의 숫자 중 당첨을 찾는 미니 게임입니다. 매일 바뀌는 확률 테이블을 제공합니다.",
+            "first_step": "난수 생성기를 이용한 당첨 로직 구현."
+          },
+          {
+            "title": "연출 수집가",
+            "concept": "특정 확률을 뚫고 희귀 연출을 수집하는 도감형 게임입니다. 연출 성공 시 보상을 얻어 새로운 테마를 해금합니다.",
+            "first_step": "이미지 기반의 연출 슬롯머신 UI 제작."
+          }
+        ],
+        "recommendation_ko": "확률 기반 게임의 로직 설계와 UI 연출의 중요성을 배우기에 좋습니다. 다만, IP 의존도가 높으므로 독창적인 게임 메커니즘을 고민하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "실제 앱 내부의 확률 알고리즘이나 서버 연동 방식은 확인되지 않았습니다. 결제 및 개인정보 처리 관련 상세 구현은 소개문에 명시되지 않았으므로 검증이 필요합니다.",
+        "name": "[777Real]e 七つの大罪3",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/777real-e-%E4%B8%83%E3%81%A4%E3%81%AE%E5%A4%A7%E7%BD%AA3/id6811791418?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:6463229324": {
+      "app_key": "apple:6463229324",
+      "name": "Highway Overtake - Car Racing",
+      "developer": "HYPERMONK GAMES OYUN YAZILIM PAZARLAMA VE DANISMANLIK ANONIM SIRKETI",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_action",
+      "detail_url": "https://apps.apple.com/kr/app/highway-overtake-car-racing/id6463229324?uo=2",
+      "data_date": "2026-10-22",
+      "analysed_at": "2026-10-25T03:39:57+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Start your engine, hit the highway! Be patient to overtake the cars ahead! Upgrade yours and outspeed more cars! Try not to involve in a highway accident!",
+      "analysis": {
+        "app_key": "apple:6463229324",
+        "summary_ko": "고속도로에서 차량을 추월하며 속도감을 즐기는 레이싱 게임입니다. 플레이어는 앞서가는 차량을 안전하게 추월하고 자신의 차량을 업그레이드하여 더 빠른 속도를 달성해야 합니다. 사고를 피하며 주행하는 것이 핵심 경험입니다.",
+        "features_ko": [
+          "고속도로 환경에서 차량을 추월하는 주행 시스템을 제공합니다.",
+          "차량 업그레이드 기능을 통해 성능을 강화할 수 있습니다.",
+          "주행 중 다른 차량과의 충돌을 피해야 하는 장애물 회피 규칙이 있습니다."
+        ],
+        "noteworthy_ko": "단순한 조작으로 속도감을 극대화하는 하이퍼 캐주얼 장르의 전형적인 구조를 갖추고 있습니다. 차량 업그레이드와 사고 회피라는 두 가지 핵심 요소가 플레이어의 지속적인 도전을 유도하는 것으로 추정됩니다.",
+        "development_ko": "핵심 구현 기술로는 차량의 전진 속도 제어와 차선 변경 로직, 충돌 판정이 중요합니다. 콘텐츠 제작 부담은 차량 모델링과 배경 에셋의 다양성에 따라 달라지며, 밸런스 조절은 차량 속도와 교통량의 밀도를 조정하는 데 집중해야 합니다.",
+        "idea_ko": "특정 속도 이상을 유지해야 하는 '속도 유지 미션'을 추가하여 긴장감을 높이는 방식이 적합합니다.",
+        "highlights_ko": [
+          "간결한 조작으로 즐기는 고속도로 추월 액션.",
+          "차량 업그레이드를 통한 성장 체감."
+        ],
+        "systems_ko": [
+          "차량 이동 및 차선 변경 로직",
+          "충돌 감지 및 물리 판정",
+          "차량 성능 업그레이드 데이터 관리",
+          "난이도에 따른 교통량 생성 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "차선 변경과 충돌 판정은 구현하기 어렵지 않으나, 자연스러운 속도감과 교통 흐름을 만드는 밸런스 작업에 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "차량 이동 및 차선 변경",
+            "충돌 판정",
+            "기본적인 차량 업그레이드 UI"
+          ],
+          "defer": [
+            "다양한 차량 모델링",
+            "복잡한 환경 변화"
+          ],
+          "risks": [
+            "단조로운 게임 플레이로 인한 낮은 리텐션"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "슬립스트림 레이스",
+            "concept": "앞차의 뒤를 따라가면 속도가 빨라지는 슬립스트림 효과를 추가합니다. 위험을 감수하고 근접 주행을 할수록 보상이 커집니다.",
+            "first_step": "앞차와의 거리 측정 및 속도 보너스 로직 구현."
+          },
+          {
+            "title": "연료 고갈 모드",
+            "concept": "주행 중 연료가 지속적으로 줄어들며, 특정 차량을 추월해야만 연료를 보충할 수 있습니다.",
+            "first_step": "시간 경과에 따른 연료 감소 UI 및 추월 시 연료 회복 로직 구현."
+          }
+        ],
+        "recommendation_ko": "하이퍼 캐주얼 게임의 핵심 루프를 학습하기 좋습니다. 간단한 메커니즘으로도 충분한 재미를 줄 수 있는 밸런스 설계 능력을 기를 수 있습니다.",
+        "source_limitations_ko": "소개문에 명시된 업그레이드 방식의 구체적인 수치나 차량 종류, 물리 엔진의 상세 정보는 확인되지 않습니다.",
+        "name": "Highway Overtake - Car Racing",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/highway-overtake-car-racing/id6463229324?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:6477849675": {
+      "app_key": "apple:6477849675",
+      "name": "Stompers: Walking Step Counter",
+      "developer": "Stompers, LLC",
+      "source": "apple",
+      "country": "US",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/us/app/stompers-walking-step-counter/id6477849675?uo=2",
+      "data_date": "2026-10-22",
+      "analysed_at": "2026-10-25T03:39:57+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "It's the ultimate free pedometer game! If you're in a walking challenge, contest, or competition or just want to walk with your family or group chat, Stompers is the most fun way to stay motivated to stay fit all day. Build motivation, burn a calorie, and track your health and fitness with a friend to reach your fitness goals. Whether you're lazy, a pacer, or active, walkers and striders have the easiest workouts for burning calories, getting fit, and losing weight. Join the next big social media network of 2025 today. How it works: 1. Sync and connect your Apple Health 2. Add your friends or make new friends 3. Play a new game every day! Privacy: https://www.stompers.com/privacy Terms: https://www.stompers.com/terms",
+      "analysis": {
+        "app_key": "apple:6477849675",
+        "summary_ko": "애플 건강 앱과 연동하여 걸음 수를 측정하고 친구들과 경쟁하는 소셜 피트니스 게임입니다. 매일 새로운 걷기 챌린지에 참여하여 동기를 부여받고 건강 목표를 달성할 수 있습니다. 친구를 추가하고 함께 걷는 소셜 네트워크 기능을 강조합니다.",
+        "features_ko": [
+          "애플 건강 앱과 연동하여 걸음 수를 자동으로 추적합니다.",
+          "친구를 추가하고 함께 걷기 챌린지에 참여할 수 있습니다.",
+          "매일 새로운 걷기 게임과 경쟁 콘텐츠를 제공합니다."
+        ],
+        "noteworthy_ko": "단순한 만보기 앱에 소셜 경쟁 요소를 결합하여 지속적인 사용을 유도합니다. 2025년형 소셜 네트워크를 표방하는 만큼, 사용자 간의 상호작용이 핵심입니다.",
+        "development_ko": "핵심 기술은 HealthKit 연동을 통한 데이터 수집입니다. 소셜 기능을 위한 서버 구축과 실시간 랭킹 시스템 구현이 필요하며, 사용자 간 데이터 동기화 및 보안 관리가 중요합니다.",
+        "idea_ko": "걸음 수에 따라 가상의 캐릭터를 성장시키거나 영토를 확장하는 게임 요소를 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "애플 건강 앱과의 원활한 데이터 연동.",
+          "소셜 경쟁을 통한 운동 동기 부여."
+        ],
+        "systems_ko": [
+          "HealthKit 데이터 연동",
+          "사용자 친구 관리 및 소셜 네트워크",
+          "랭킹 및 챌린지 시스템",
+          "데이터 동기화 및 서버 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "HealthKit 연동은 표준 API를 사용하므로 구현이 어렵지 않으나, 소셜 기능과 실시간 랭킹 시스템을 안정적으로 운영하려면 서버 개발 역량이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "HealthKit 걸음 수 연동",
+            "개인 걷기 기록 대시보드",
+            "친구 추가 기능"
+          ],
+          "defer": [
+            "복잡한 소셜 네트워크 피드",
+            "실시간 경쟁 매칭 시스템"
+          ],
+          "risks": [
+            "사용자 간 데이터 동기화 지연",
+            "개인정보 보호 및 데이터 보안 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "가상 산책 맵",
+            "concept": "걸음 수에 따라 실제 세계의 지도를 기반으로 가상의 경로를 이동하며 보물을 찾는 게임입니다.",
+            "first_step": "걸음 수 데이터를 기반으로 한 위치 이동 로직 구현."
+          },
+          {
+            "title": "그룹 걷기 릴레이",
+            "concept": "친구들과 목표 걸음 수를 정하고, 릴레이 형식으로 목표를 달성하는 협동 챌린지입니다.",
+            "first_step": "그룹별 목표 설정 및 실시간 합산 데이터 표시 UI 구현."
+          }
+        ],
+        "recommendation_ko": "HealthKit과 같은 외부 플랫폼 API 활용법을 배우기에 좋습니다. 소셜 기능이 포함된 앱의 데이터 관리 구조를 이해하는 데 도움이 됩니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 구체적인 챌린지 규칙, 보상 체계, 서버 인프라 구성 등은 확인되지 않습니다.",
+        "name": "Stompers: Walking Step Counter",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/stompers-walking-step-counter/id6477849675?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "google:com.appknot.mygoodfeel": {
+      "app_key": "google:com.appknot.mygoodfeel",
+      "name": "달다방 - 월경/생리주기어플: 여성건강정보, 초경교육",
+      "developer": "유한킴벌리(주)",
+      "source": "google",
+      "country": "KR",
+      "category": "app_health_fitness",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.appknot.mygoodfeel&hl=ko&gl=KR",
+      "data_date": "2026-10-22",
+      "analysed_at": "2026-10-25T03:40:20+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "주기적으로 찾아오지만 반갑지 않은 손님, 생리는 여성에게 놀랍거나 신비로운 존재가 아니죠. 달다방은 ‘생리’에 대한 여성의 불편함에 공감하고, 함께 이야기를 나누고자 탄생했습니다. 쉽고 정확한 생리주기 캘린더와 믿을 수 있는 전문가가 알려주는 건강 정보, 그리고 나에게 딱 맞는 생리대 샘플 체험까지 ‘한 달’에 한 번씩, 또 ‘매달’ 찾아오는 ‘카페’처럼 편안하고 안락한 공간, 달다방에서 건강한 나를 찾는 시간을 가져보세요. ▶ 한 달에 한 번, 달다방 한 달 주기로 반복되는 생리! 이제 달다방으로 관리를 시작하세요. 생리 일자, 증상, 몸무게 정보 등을 기록하여 나의 주기건강을 체크할 수 있습니다. ▶ 주기정보 캘린더에 생리 정보를 입력하면 평균 주기 정보를 통해 예상 생리일을 알려주며, 예상 가임기 및 배란일 등 예상 생리 주기 계산을 통해 임신 확률 정보까지 다양한 예측 정보를 얻을 수 있습니다. ▶ 회원만을 위한 특별 혜택 ! 무료 샘플 증정 회원 가입만 하면 패드, 라이너, 탐폰, 입는오버나이트 등 다양한 여성용품을 무료로 체험 할 수 있어요! (회원 당 1회에 한 함) ▶ 다양하고 유익한 컨텐츠 믿을 수 있는 생리 건강 정보와 가볍게 즐길 수 있는 트렌드 레포트 등 다양한 컨텐츠가 정기적으로 업데이트 됩니다. ▶ 다양한 여성용품을 합리적 가격에! 마음까지 편안한 좋은느낌에서 운영하는 스토어의 제품 추천을 놓치지 마세요! ▶ 보안 기능 설정으로 소중한 나의 정보 보호 ! 비밀번호 설정 기능으로 나만의 정보를 지킬 수 있습니다. 「정보통신망 이용촉진 및 정보보호 등에 관한 법률」제22조의2에 따라 아래와 같은 목적으로 ‘앱 접근 권한’에 대한 동의를 이용자에게 받고 있습니다. 서비스에 반드시 필요한 항목만을 필수적으로 접근하고 있습니다. 선택적 접근의 항목은 허용하지 않더라도 서비스의 이용이 가능하며 그 내용은 아래와 같습니다. [필수 접근에 대한 내용] - 필수 접근 권한은 없습니다. [선택 접근에 대한 내용] - 알림 : 달다방의 푸시 메시지를 수신할 때 사용합니다.",
+      "analysis": {
+        "app_key": "google:com.appknot.mygoodfeel",
+        "summary_ko": "달다방은 여성의 생리 주기를 체계적으로 관리하고 건강 정보를 제공하는 헬스케어 앱입니다. 사용자는 생리일, 증상, 몸무게 등을 기록하여 자신의 주기와 배란일을 예측할 수 있습니다. 또한 전문가의 건강 정보와 여성용품 샘플 체험 등 다양한 부가 서비스를 제공합니다.",
+        "features_ko": [
+          "생리일, 증상, 몸무게를 기록하여 주기 건강을 관리합니다.",
+          "입력된 데이터를 바탕으로 예상 생리일, 가임기, 배란일을 계산합니다.",
+          "회원 가입 시 다양한 여성용품 무료 샘플을 체험할 수 있습니다.",
+          "생리 건강 정보 및 트렌드 레포트 콘텐츠를 정기적으로 제공합니다.",
+          "비밀번호 설정 기능을 통해 개인 정보를 보호합니다."
+        ],
+        "noteworthy_ko": "단순 기록을 넘어 커머스(여성용품 스토어)와 콘텐츠(건강 정보)를 결합한 모델이 흥미롭습니다. 사용자의 주기 데이터를 기반으로 맞춤형 제품을 추천하는 구조로 보입니다.",
+        "development_ko": "주기 계산 로직과 데이터베이스 설계가 핵심이며, 사용자 개인정보 보호를 위한 보안 구현이 필수적입니다. 콘텐츠 관리 시스템(CMS)과 커머스 연동이 필요하며, 데이터의 정확성과 사용자 경험을 고려한 UI 설계가 중요합니다.",
+        "idea_ko": "주기 데이터를 기반으로 한 맞춤형 영양제나 생활 습관 제안 서비스가 개인 개발자에게 적합합니다.",
+        "highlights_ko": [
+          "생리 주기 기록과 커머스 기능을 결합하여 사용자 유지율을 높이는 구조입니다.",
+          "비밀번호 잠금 기능을 통해 민감한 개인 건강 정보 보호를 강조합니다."
+        ],
+        "systems_ko": [
+          "사용자 데이터 관리 시스템",
+          "주기 계산 및 예측 알고리즘",
+          "콘텐츠 피드 시스템",
+          "보안 및 인증 시스템",
+          "푸시 알림 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "데이터 관리와 주기 계산 로직은 구현 가능하나, 보안과 개인정보 보호를 위한 안정적인 백엔드 구축이 필요합니다. 커머스 연동은 외부 API를 활용하면 난이도를 조절할 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "생리 주기 기록 및 조회 기능",
+            "주기 계산 알고리즘",
+            "비밀번호 잠금 기능"
+          ],
+          "defer": [
+            "여성용품 커머스 연동",
+            "전문가 건강 정보 콘텐츠 시스템"
+          ],
+          "risks": [
+            "민감한 건강 정보 유출 위험",
+            "주기 계산 알고리즘의 정확도 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "주기별 맞춤 식단 제안",
+            "concept": "생리 주기에 따라 필요한 영양소가 다르다는 점에 착안하여, 현재 주기에 맞는 식단과 레시피를 추천합니다.",
+            "first_step": "주기별 권장 영양소 데이터베이스를 구축하고 간단한 식단 추천 UI를 구현합니다."
+          },
+          {
+            "title": "감정 기록 캘린더",
+            "concept": "생리 주기와 연동하여 사용자의 감정 변화를 기록하고, 주기별 감정 패턴을 시각화하여 리포트로 제공합니다.",
+            "first_step": "감정 아이콘 선택 기능과 캘린더 연동 기능을 먼저 구현합니다."
+          }
+        ],
+        "recommendation_ko": "데이터 기반의 개인화 서비스와 보안 구현을 배우기에 적합합니다. 다만, 의료 정보와 관련된 앱이므로 정확한 정보 제공과 보안에 각별한 주의가 필요합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 결제 시스템의 상세 구조, 외부 커머스 연동 방식, 데이터 암호화 수준은 확인되지 않습니다.",
+        "name": "달다방 - 월경/생리주기어플: 여성건강정보, 초경교육",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.appknot.mygoodfeel&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:6739069151": {
+      "app_key": "apple:6739069151",
+      "name": "Crossword Go!",
+      "developer": "PlaySimple Games Pte Ltd",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/us/app/crossword-go/id6739069151?uo=2",
+      "data_date": "2026-10-22",
+      "analysed_at": "2026-10-25T03:43:11+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Challenge your mind and compete in real-time crossword duels! Train your brain, expand your vocabulary, and outsmart opponents in thrilling word battles. Play live, score big, and climb the leaderboards in this action-packed crossword game! Real-Time Crossword Duels – Compete like a Master! Think fast, spell smarter, and outscore your opponents in intense, real-time word battles! Play live — no waiting, just pure competitive fun! Become a crossword Master as you rise to the top in every game! Sharpen Your Vocabulary & Strategy! Test your spelling, logic, and word-building skills. Solve daily crossword challenges and unlock unique brain-teasing puzzles that will help you become a crossword Master in no time. Word & Picture Clues for Extra Fun! Solve crosswords like never before with a mix of classic word hints and engaging picture clues! Keep every round fresh, challenging, and exciting, making each game more enjoyable and rewarding! How to Play: Draw letters & form high-scoring words on the crossword grid. Earn bonus points for long words, combos, and smart plays. Use power-ups strategically to turn the tide in your favor! Why You’ll Love Crossword Go: -> Fast-paced crossword battles – real-time duels, no waiting! -> Brain-training puzzles to boost vocabulary & thinking skills. -> Exciting word & picture clues for a fresh challenge every round. -> Daily challenges & rewards to keep you engaged. -> Sleek, modern design with smooth gameplay.",
+      "analysis": {
+        "app_key": "apple:6739069151",
+        "summary_ko": "Crossword Go!는 실시간으로 상대와 경쟁하는 낱말 맞추기 퍼즐 게임입니다. 플레이어는 단어와 그림 힌트를 사용하여 그리드를 채우고, 더 높은 점수를 획득하여 승리해야 합니다. 빠른 판단력과 어휘력을 요구하며, 일일 도전과 리더보드를 통해 실력을 겨룰 수 있습니다.",
+        "features_ko": [
+          "상대와 실시간으로 낱말 맞추기 대결을 펼칩니다.",
+          "단어 힌트와 그림 힌트를 조합하여 퍼즐을 해결합니다.",
+          "긴 단어와 콤보를 통해 추가 점수를 획득합니다.",
+          "파워업 아이템을 전략적으로 사용하여 승기를 잡습니다."
+        ],
+        "noteworthy_ko": "낱말 맞추기라는 정적인 퍼즐에 실시간 대전 요소를 도입한 점이 개발 관점에서 매우 흥미롭습니다. 동기화 문제와 실시간 점수 반영을 어떻게 처리했는지가 핵심 기술일 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 단어 사전 데이터 관리와 실시간 네트워크 통신입니다. 콘텐츠 제작은 다양한 난이도의 낱말 퍼즐 데이터베이스 구축이 가장 큰 부담입니다. 테스트 시에는 네트워크 지연 상황에서의 데이터 동기화와 부정행위 방지 로직이 중요합니다.",
+        "idea_ko": "그림 힌트를 보고 단어를 맞추는 '이미지 연상 퀴즈' 모드를 추가하는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "실시간 대전을 통한 긴장감 넘치는 퍼즐 경험.",
+          "단어와 그림 힌트를 결합한 다채로운 퍼즐 방식."
+        ],
+        "systems_ko": [
+          "낱말 사전 및 퍼즐 생성 시스템",
+          "실시간 네트워크 통신 및 동기화 시스템",
+          "점수 계산 및 랭킹 시스템",
+          "아이템 효과 적용 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 대전 시스템은 서버 구축과 네트워크 최적화가 필수적이며, 낱말 사전 데이터의 정확성과 다양성을 확보하는 데 많은 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "낱말 퍼즐 그리드 생성 로직",
+            "단어 사전 데이터베이스",
+            "기본 점수 계산 시스템"
+          ],
+          "defer": [
+            "실시간 멀티플레이어 대전",
+            "글로벌 리더보드",
+            "파워업 아이템 상점"
+          ],
+          "risks": [
+            "단어 데이터의 부족 및 난이도 조절 실패",
+            "네트워크 동기화 오류로 인한 대전 불능"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "이미지 연상 낱말",
+            "concept": "그림을 보고 연상되는 단어를 낱말 퍼즐로 완성하는 규칙입니다. 텍스트 힌트보다 직관적이고 재미있습니다.",
+            "first_step": "이미지와 정답 단어를 매칭하는 데이터 구조 설계."
+          },
+          {
+            "title": "협동 낱말 맞추기",
+            "concept": "상대와 경쟁하는 대신, 하나의 퍼즐을 함께 완성하는 협동 모드입니다. 서로 다른 힌트를 공유하며 퍼즐을 풉니다.",
+            "first_step": "두 플레이어가 동일한 그리드 상태를 공유하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "데이터베이스 관리와 실시간 통신 시스템을 공부하기에 좋습니다. 퍼즐 게임에 멀티플레이 요소를 추가하는 과정을 경험할 수 있습니다.",
+        "source_limitations_ko": "소개문에는 서버 인프라, 단어 사전의 출처, 결제 시스템에 대한 정보가 없습니다. 실시간 대전의 구체적인 동기화 방식은 확인되지 않았습니다.",
+        "name": "Crossword Go!",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/crossword-go/id6739069151?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 99,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
     }
   }
 }

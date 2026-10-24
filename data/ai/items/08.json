@@ -6533,6 +6533,1426 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-24"
+    },
+    "itch:ae153fcb3a6c6716c7fe": {
+      "app_key": "itch:ae153fcb3a6c6716c7fe",
+      "name": "PUMPFUN PIRATES: Storm Hunt [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://pumpfunpirates.itch.io/pumpfun-pirates",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:20:25+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Sail the storm, sink enemy ships and climb the leaderboard.",
+      "analysis": {
+        "app_key": "itch:ae153fcb3a6c6716c7fe",
+        "summary_ko": "폭풍우 치는 바다를 항해하며 적함을 침몰시키는 액션 게임입니다. 리더보드를 통해 다른 플레이어와 경쟁할 수 있습니다.",
+        "features_ko": [
+          "폭풍우가 치는 바다를 배경으로 항해합니다.",
+          "적함을 공격하여 침몰시키는 액션 메커니즘이 있습니다.",
+          "리더보드 시스템을 통해 경쟁 요소를 제공합니다."
+        ],
+        "noteworthy_ko": "폭풍우라는 환경적 요소를 게임 플레이에 어떻게 녹여냈는지가 흥미롭습니다. 파도와 바람이 함선의 움직임에 영향을 주는 물리 엔진 활용이 핵심일 것으로 추정됩니다.",
+        "development_ko": "함선 물리 제어, 적 AI 및 전투 시스템, 리더보드 연동이 핵심입니다. 폭풍우 효과를 위한 파티클 및 셰이더 제작과 전투 밸런스 조정이 개발 부담의 큰 부분을 차지합니다.",
+        "idea_ko": "폭풍우의 강도에 따라 함선의 조종 난이도가 변하는 환경적 변수를 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "폭풍우라는 역동적인 환경을 게임의 핵심 요소로 사용합니다.",
+          "리더보드를 통해 플레이어 간의 경쟁을 유도합니다."
+        ],
+        "systems_ko": [
+          "함선 물리 및 이동 시스템",
+          "전투 및 발사체 시스템",
+          "적 AI 행동 로직",
+          "리더보드 데이터 연동 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 기반의 함선 조종과 전투 로직은 구현이 필요하며, 리더보드 연동 등 외부 시스템과의 연결이 추가적인 노력을 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "함선 이동 및 조종",
+            "적함 발사체 공격",
+            "점수 기록 및 리더보드"
+          ],
+          "defer": [
+            "복잡한 날씨 변화 시스템",
+            "다양한 함선 커스터마이징"
+          ],
+          "risks": [
+            "물리 엔진의 불안정성",
+            "리더보드 데이터 조작 방지"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "폭풍우 생존 모드",
+            "concept": "적함과의 전투뿐만 아니라, 거친 파도를 피해 살아남는 생존 모드 추가.",
+            "first_step": "파도 높이에 따른 함선 피해 로직 구현."
+          },
+          {
+            "title": "함선 업그레이드",
+            "concept": "적함을 침몰시켜 얻은 자원으로 함선의 속도나 화력을 강화하는 시스템.",
+            "first_step": "함선 능력치 데이터 구조 및 강화 UI 구현."
+          }
+        ],
+        "recommendation_ko": "물리 기반 액션 게임의 기초를 다지기에 좋습니다. 리더보드와 같은 외부 시스템 연동 경험을 쌓고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "리더보드 구현 방식, 적 AI의 수준, 폭풍우 효과의 구체적인 구현 방식 등은 확인되지 않았습니다.",
+        "name": "PUMPFUN PIRATES: Storm Hunt [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://pumpfunpirates.itch.io/pumpfun-pirates",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 296,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "google:com.playtika.wsop.gp": {
+      "app_key": "google:com.playtika.wsop.gp",
+      "name": "WSOP Poker: Texas Holdem Game",
+      "developer": "Playtika",
+      "source": "google",
+      "country": "US",
+      "category": "game_card",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.playtika.wsop.gp&hl=en&gl=US",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:24:50+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "The official **WSOP** app brings free **poker** to your phone with Texas Hold'em, Omaha, tournaments, and daily ways to play. If you're looking for a poker game that combines the **World Series of Poker** experience with social competition, progression, and variety, **WSOP** gives you plenty to come back for. Play Texas Hold'em and Omaha, compete in worldwide poker tournaments, challenge players from around the world, and enjoy extra game modes beyond the standard table experience. Whether you're an experienced poker player or just getting started, **WSOP** is designed to give you a fun, competitive, and rewarding way to play poker every day. **Start Strong** Begin with **1,000,000 FREE chips** and jump into a game built around big moments, smart strategy, and steady progression. From your first table to bigger tournaments and special events, **WSOP** gives you plenty of ways to build your stack and keep improving. **Game Modes and Features** There is always something to do beyond the main table: * Play Texas Hold'em and Omaha * Join worldwide poker tournaments * Beat The House against fierce dealers * Take over King of the Table * Chase the Powerhand Jackpot * Explore more free game modes that add variety to every session This mix gives poker fans more ways to play, compete, and return. **WSOP Collectibles** Collect Rings and Bracelets inspired by the **World Series of Poker** and show them off on your profile. Build your reputation and let your progress speak for itself. **WSOP Album** Collect cards and Legend Chips to unlock exclusive videos featuring memorable moments and iconic players from poker history. **Daily Quests and Bonuses** Meet your agent Mary and complete daily quests as you progress through the game. Earn sponsors, unlock rewards, and keep moving forward on your path to becoming a poker star. FAQ: Q: Can I play poker for free? A: Yes. WSOP offers a wide variety of free poker experiences, including Texas Holdem games, tournaments, and additional game modes for you to enjoy. Q: Can I play poker online? A: Yes. You can play WSOP online in the app or website (https://playwsop.com) and compete with players from around the world anytime you want to jump into a poker game. Q: Is poker hard to learn? A: No. Poker is easy to start playing once you know the basics, and Texas Holdem is one of the most accessible and popular ways to begin. Q: Where can I get free chips? A: You can collect free chips when you start playing, through daily bonuses in the game, and from additional rewards and promotions. Connect with us on Facebook - http://bit.ly/WSOP_Fanpage Join the WSOP community - https://bit.ly/3JKpbQV WSOP is intended for those 21 and older for amusement purposes only and does not offer real money gambling, or an opportunity to win real money or real prizes based on gameplay. Playing or success in this game does not imply future success at real money gambling. WSOP does not require payment to download and play, but it also allows you to purchase virtual items with real money inside the game, including random items. You may require an internet connection to play WSOP and access its social features. You can also find more information about the functionality, compatibility and interoperability of WSOP in the above description and additional app store information. By downloading this game, you agree to future game updates as released on your app store or social network. You may choose to update this game, but if you do not update, your game experience and functionalities may be reduced. Terms of Service: https://www.playtika.com/terms-service/ Privacy Notice: https://www.playtika.com/privacy-notice/ Developed by Playtika LTD.",
+      "analysis": {
+        "app_key": "google:com.playtika.wsop.gp",
+        "summary_ko": "WSOP Poker는 텍사스 홀덤과 오마하 등 다양한 포커 게임을 제공하는 소셜 카드 게임입니다. 전 세계 플레이어와 경쟁하며 토너먼트에 참여하고, 수집품을 모아 자신의 프로필을 꾸밀 수 있습니다. 실제 현금 도박이 아닌 오락 목적으로 설계된 게임입니다.",
+        "features_ko": [
+          "텍사스 홀덤과 오마하 등 다양한 포커 모드를 제공합니다.",
+          "전 세계 플레이어와 실시간으로 경쟁하는 토너먼트 시스템이 있습니다.",
+          "매일 주어지는 퀘스트와 보너스를 통해 게임 재화를 획득할 수 있습니다.",
+          "포커 역사와 관련된 카드와 칩을 수집하는 앨범 시스템을 운영합니다.",
+          "자신의 성과를 증명하는 링과 브레이슬릿 수집 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "포커라는 단순한 규칙에 수집 요소와 소셜 경쟁을 결합하여 리텐션을 높인 점이 흥미롭습니다. 플레이어의 성취를 시각화하는 '수집품' 시스템이 게임의 핵심 동기부여 요소로 작용합니다.",
+        "development_ko": "실시간 멀티플레이어 서버 통신과 공정한 카드 셔플 알고리즘 구현이 핵심입니다. 대규모 사용자를 수용하기 위한 서버 안정성과 게임 내 경제 밸런스 조정이 매우 중요합니다.",
+        "idea_ko": "포커 실력을 분석하여 자신의 플레이 스타일을 알려주는 통계 리포트 기능을 추가하면 학습형 게임으로 차별화할 수 있습니다.",
+        "highlights_ko": [
+          "포커 게임에 수집형 요소(앨범, 링)를 결합하여 장기적인 목표를 제공합니다.",
+          "다양한 게임 모드와 퀘스트를 통해 매일 새로운 즐길 거리를 제공합니다."
+        ],
+        "systems_ko": [
+          "실시간 멀티플레이어 네트워킹",
+          "카드 셔플 및 확률 엔진",
+          "게임 경제 및 재화 관리",
+          "사용자 프로필 및 수집품 데이터베이스",
+          "매칭 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 멀티플레이어 환경에서의 동기화와 보안은 1인 개발자가 구현하기에 매우 어렵습니다. 또한, 게임 경제 밸런스와 확률 엔진의 신뢰성 확보가 필수적입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 텍사스 홀덤 규칙 구현",
+            "AI 또는 로컬 플레이어 매칭",
+            "재화 시스템"
+          ],
+          "defer": [
+            "실시간 멀티플레이어 서버",
+            "복잡한 수집품 및 앨범 시스템"
+          ],
+          "risks": [
+            "도박 관련 법적 규제 준수",
+            "서버 비용 및 네트워크 지연"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "포커 전략 코치",
+            "concept": "플레이어의 이전 핸드를 분석하여 확률적으로 더 나은 선택지를 제안하는 학습 도구입니다. 게임과 교육을 결합한 형태입니다.",
+            "first_step": "특정 상황에서의 승률을 계산하는 간단한 확률 계산기를 구현합니다."
+          },
+          {
+            "title": "커스텀 토너먼트 생성기",
+            "concept": "친구들과 특정 규칙(블라인드 속도 등)을 정해 비공개 토너먼트를 열 수 있는 기능입니다. 소셜 기능을 강화합니다.",
+            "first_step": "방 생성 및 규칙 설정 데이터를 저장하고 불러오는 로직을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "멀티플레이어 게임의 구조와 경제 시스템을 공부하고 싶은 개발자에게 추천합니다. 다만, 실제 서비스 시 법적 규제와 서버 운영 난이도가 매우 높으므로 주의가 필요합니다.",
+        "source_limitations_ko": "소개문에는 서버 아키텍처나 보안 기술에 대한 정보가 없습니다. 결제 기능은 명시되어 있으나 구체적인 구현 방식은 알 수 없습니다.",
+        "name": "WSOP Poker: Texas Holdem Game",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.playtika.wsop.gp&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "google:com.tvf.anti.stress.relaxing.mini.games": {
+      "app_key": "google:com.tvf.anti.stress.relaxing.mini.games",
+      "name": "Mini Fidget Antistress Games",
+      "developer": "The Fashion Valley",
+      "source": "google",
+      "country": "US",
+      "category": "game_casual",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.tvf.anti.stress.relaxing.mini.games&hl=en&gl=US",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:24:50+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Take a satisfying break with Mini Fidget Antistress Games, a colorful collection of 45+ relaxing mini games, virtual fidget toys, ASMR games, drawing games, emoji puzzles, brain games, and quick challenges. Pop bubbles, spin a fidget spinner, peel stickers, play with slime, crack virtual glass, draw missing parts, match emojis, and discover a new way to play whenever your mood changes. ONE GAME, MANY WAYS TO PLAY Move freely between antistress games, satisfying games, puzzle games, fidget games, drawing games, matching games, and light skill challenges. Every activity is easy to start, whether you want a peaceful break, playful sensory fun, a clever brain puzzle, or a quick test of timing and control. FIDGET AND POP IT FUN Explore interactive fidget toys including Pop It, Shape Pop It, Bubble Up, Fidget Spinner, Pendulum, Newton’s Cradle, and Music Speaker. Tap, spin, pop, press, plug and move each toy to discover responsive visual effects. Fans of pop it toys and virtual fidget games can quickly choose a favorite and start playing. SATISFYING ASMR ACTIVITIES Enjoy Sticker Peel, Slime, Glass Crack, Stamp It, Blackboard, and Light Bulb activities. These satisfying ASMR games focus on taps, peels, pops, smooth movement, and playful visual feedback. Try slime games, create patterns, peel stickers, and make cracks appear across a virtual glass screen. DRAWING, EMOJI, AND BRAIN PUZZLES Think, draw, match, and solve with creative drawing puzzle games: • Draw One Part – Study each picture, understand what is missing, and draw the part needed to complete the scene. • Draw to Crush – Draw a useful line or shape, use gravity and physics, and crush the target to complete the level. • Emoji Match – Connect related emojis, discover clever associations, and solve colorful emoji puzzles. Change the pace with Tile Puzzle Block, Flip Card, and Tic-Tac-Toe. These brain games and logic puzzles combine observation, memory, creativity, and simple problem-solving. Whether you enjoy drawing puzzles, physics puzzles, emoji games, matching games, or classic puzzles, there is always something different to try. QUICK SKILL CHALLENGES Test your timing, aim, and control in Knife Hit, Tap Tap Shots, Snooker, Gyroballs, Pong Ball, and Insect Swat. Choose a calm activity when you want to unwind, or try a quick challenge when you want more action. WHY YOU’LL ENJOY IT • 45+ relaxing mini games and interactive activities • Fidget toys, satisfying games, drawing games, emoji games, and puzzles in one collection • Draw One Part, Draw to Crush, Emoji Match, Pop It, slime, and more • Simple tap, swipe, drag, draw, match, and tilt controls • Colorful visuals with clear and responsive interactions • Short activities that fit easily into your day Whether you are searching for relaxing games, stress relief games, or anxiety relief activities, choose the type of casual play that suits your mood. Explore pop it toys, fidget play, satisfying ASMR activities, drawing puzzles, emoji matching, casual games, and quick challenges in one varied collection. Pick an activity and start popping, spinning, peeling, drawing, matching, tapping, aiming, or solving.",
+      "analysis": {
+        "app_key": "google:com.tvf.anti.stress.relaxing.mini.games",
+        "summary_ko": "Mini Fidget Antistress Games는 45개 이상의 미니 게임과 피젯 토이, ASMR 활동을 모은 종합 힐링 앱입니다. 퍼즐, 그리기, 매칭, 물리 기반 챌린지 등 다양한 장르를 포함하여 사용자의 기분에 맞춰 선택할 수 있습니다. 짧고 간편한 활동을 통해 스트레스를 해소하도록 설계되었습니다.",
+        "features_ko": [
+          "45개 이상의 다양한 미니 게임과 피젯 토이를 제공합니다.",
+          "터치, 드래그, 기울기 등 직관적인 조작 방식을 사용합니다.",
+          "그리기 퍼즐, 이모지 매칭 등 두뇌 활동을 위한 게임이 포함되어 있습니다.",
+          "슬라임, 스티커 떼기 등 ASMR 요소가 포함된 만족스러운 활동을 제공합니다.",
+          "짧은 시간 내에 즐길 수 있는 스킬 챌린지 게임을 지원합니다."
+        ],
+        "noteworthy_ko": "다양한 장르를 하나의 앱에 통합하여 사용자의 이탈을 막는 '종합 선물 세트' 전략이 흥미롭습니다. 각 미니 게임의 조작감을 통일성 있게 유지하는 것이 개발의 핵심입니다.",
+        "development_ko": "다양한 미니 게임을 효율적으로 관리하기 위한 모듈형 아키텍처가 필요합니다. 각 게임의 물리 엔진과 시각적 피드백을 개별적으로 제작해야 하므로 콘텐츠 제작 부담이 큽니다.",
+        "idea_ko": "사용자가 직접 피젯 토이를 커스터마이징하거나 자신만의 ASMR 소리를 조합하는 기능을 추가하면 개인화된 힐링 경험을 제공할 수 있습니다.",
+        "highlights_ko": [
+          "45개 이상의 방대한 콘텐츠로 사용자의 다양한 취향을 만족시킵니다.",
+          "ASMR과 퍼즐을 결합하여 스트레스 해소라는 명확한 목적을 달성합니다."
+        ],
+        "systems_ko": [
+          "미니 게임 관리자(Scene Manager)",
+          "물리 엔진(물체 상호작용)",
+          "데이터 저장(진행도 및 잠금 해제)",
+          "UI/UX 시스템",
+          "사운드 및 햅틱 피드백 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "45개 이상의 게임을 개별적으로 구현하고 관리하는 것은 1인 개발자에게 매우 큰 작업량입니다. 각 게임마다 다른 물리 법칙과 로직을 안정적으로 구현해야 합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "게임 선택 메뉴",
+            "핵심 미니 게임 3~5종",
+            "기본 사운드/햅틱 시스템"
+          ],
+          "defer": [
+            "45개 전체 콘텐츠",
+            "복잡한 사용자 계정 연동"
+          ],
+          "risks": [
+            "콘텐츠 양산에 따른 품질 저하",
+            "앱 용량 비대화"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "나만의 힐링 룸",
+            "concept": "미니 게임을 통해 얻은 보상으로 가상의 방을 꾸미는 기능입니다. 게임 플레이에 대한 장기적인 동기를 부여합니다.",
+            "first_step": "간단한 가구 배치 UI와 저장 기능을 구현합니다."
+          },
+          {
+            "title": "데일리 힐링 루틴",
+            "concept": "사용자의 기분에 따라 매일 3개의 미니 게임을 추천해주는 큐레이션 서비스입니다.",
+            "first_step": "기분 선택 버튼과 그에 따른 게임 리스트 매핑 로직을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "다양한 장르의 게임을 시도해보고 싶은 개발자에게 추천합니다. 모듈형 게임 개발 구조를 익히기에 좋으나, 처음부터 너무 많은 콘텐츠를 계획하지 않는 것이 중요합니다.",
+        "source_limitations_ko": "소개문에는 각 미니 게임의 구체적인 구현 방식이나 물리 엔진에 대한 정보가 없습니다.",
+        "name": "Mini Fidget Antistress Games",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.tvf.anti.stress.relaxing.mini.games&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:1372670435": {
+      "app_key": "apple:1372670435",
+      "name": "ドラゴンクエストモンスターズ　テリーのワンダーランドSP",
+      "developer": "SQUARE ENIX",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA-%E3%83%86%E3%83%AA%E3%83%BC%E3%81%AE%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89sp/id1372670435?uo=2",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:25:27+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "DQモンスターズシリーズの原点『ドラゴンクエストモンスターズ テリーのワンダーランド』が超パワーアップしてスマートフォンに登場！ 片手操作でいつでもどこでも気軽に冒険が楽しめます！ ※アプリは完全落とし切りですので、ダウンロード後の追加課金はありません。 ************************ 【ストーリー】 少年テリーと姉のミレーユは仲良く暮らしていたが、ある夜、何者かによってミレーユがどこかへ連れ去られてしまう。そんな時、彼の前に突然現れた精霊・わたぼうに導かれ、テリーは不思議な世界「タイジュの国」へと足を踏み入れる。 タイジュの国は、もうすぐ開かれるモンスターマスターたちの祭典“星降りの大会”に向けた準備の真っ最中。優勝すると「どんな願いでも叶う」という言い伝えを聞いたテリーは、連れ去られたミレーユを助けるべく、タイジュの国の代表として星降りの大会に出場することを決心する。 モンスターと心を通わせ、味方にできる存在“モンスターマスター”。最強のモンスターマスターを目指して、テリーの大冒険が幕を開ける…！ ************************ 【ゲーム概要】 ◆入るたびに形が変わる異世界ダンジョンを冒険！ タイジュの国は“旅の扉”というゲートを通じて様々なダンジョンにつながっています。同じダンジョンでもマップ構造は入るたびに変化し、テリーの行く手を阻みます。さらに、ダンジョンには多くのモンスターたちが生息しているので油断は禁物！ ◆モンスターを“スカウト”して仲間に！ モンスターと遭遇するとバトルに突入！ 倒せば経験値が手に入りますが、“スカウト”というコマンドを使うことで、モンスターを仲間にすることができます。仲間になったモンスターは自分の味方として戦ってくれるので、積極的にモンスターを仲間にしましょう。 ◆モンスターを“配合”してさらに強い仲間を作ろう！ ２体の仲間モンスター同士を“配合”することで、新たなモンスターを生み出すことができます。生まれてくるモンスターは、親となる２体の組み合わせなどで多彩に変化します。しかも、子どもは親の能力を受け継ぐのでとても強力！ 配合を重ねて、自分だけの最強パーティを作り上げましょう！ ************************ 【本作ならではの特徴】 ◆スマートフォンに最適化された操作性 スマートフォンでも、これまでの「DQモンスターズ」シリーズの感覚でプレイできるよう、画面設計を最適化しました。操作に必要なパネルを画面下部に集約したことで、片手持ちでカンタンに遊ぶことができます。 ◆新たなモンスターが多数追加！ 原作のリメイクとして2012年に発売された『DQM テリーのワンダーランド3D』から、さらにモンスターが多数追加！ 本編最新作『ドラゴンクエストXI』のモンスターたちも参戦し、今作での登場モンスターはなんと650種類以上に！ ◆気軽に育成！ オート戦闘＆らくらく冒険 メニュー設定で「オート戦闘」を有効にしておくと、モンスターとバトルになったときに、操作をしなくてもすぐに戦闘結果が出るようになります。また、一定時間ごとに「らくらく冒険」ができるようになり、指定したダンジョンの最深階まで自動的に冒険をしてくれます。もちろん、どちらも経験値やゴールドが手に入るので、モンスターを効率よく育成できます！ ◆ダンジョンの“その先”にまだ見ぬエリアが…！？ ストーリーなどを進めていくと、今まで見つかっていなかった、ダンジョンの“さらに深く”への道が開かれるというウワサが…？ まだ見ぬモンスターや強敵と戦うために、ヒミツのエリアを探してみましょう！ ◆他のプレイヤーのパーティと腕試し！ 「オンライン他国マスター」というモードでは、他国マスターたちが日替わりでダウンロードされ、専用闘技場で彼らとバトルをすることができます。ここにいる他国マスターのパーティは本作を遊んでいる他のプレイヤーが育てたモンスターたちなので、自分のパーティが強くなってきたら腕試しに戦ってみましょう！ ※通信機能のうちBluetoothを使った近くの人との通信対戦および通信交換は、Ver.1.0.5で終了いたしました。 ************************ 【推奨端末】 ・iPhone5s以降のiPhone端末 ・iPad（第6世代以降） ※推奨端末以外の場合、メモリ不足等による強制終了など予期せぬ不具合が発生する可能性があります。また、推奨端末以外でのサポートなどは致しかねますので予めご了承ください。 【対応OS】 iOS9.0以上",
+      "analysis": {
+        "app_key": "apple:1372670435",
+        "summary_ko": "드래곤 퀘스트 몬스터즈 시리즈의 원작을 스마트폰에 최적화한 RPG입니다. 몬스터를 스카우트하고 배합하여 최강의 파티를 만드는 것이 핵심입니다. 자동 전투와 편리한 모험 기능을 통해 모바일 환경에서도 쉽게 즐길 수 있습니다.",
+        "features_ko": [
+          "몬스터를 스카우트하여 동료로 만들 수 있습니다.",
+          "두 마리의 몬스터를 배합하여 새로운 몬스터를 생성합니다.",
+          "절차적으로 생성되는 던전을 탐험하며 다양한 몬스터와 전투합니다.",
+          "자동 전투 및 'らくらく冒険(편한 모험)' 기능을 통해 효율적인 성장을 지원합니다.",
+          "온라인 모드를 통해 다른 플레이어의 파티와 대결할 수 있습니다."
+        ],
+        "noteworthy_ko": "몬스터 배합 시스템은 무한한 조합의 재미를 제공합니다. 1인 개발 시에는 몬스터 간의 상성과 배합 데이터를 체계적으로 관리하는 구조를 설계하는 것이 중요합니다.",
+        "development_ko": "데이터베이스 기반의 몬스터 데이터 관리와 배합 로직 구현이 핵심입니다. 모바일 최적화된 UI 설계와 자동 전투 시스템의 밸런스 조정이 필요합니다. 콘텐츠 제작 부담이 크므로 초기에는 몬스터 수를 제한하는 것이 좋습니다.",
+        "idea_ko": "몬스터를 배합하여 나만의 독특한 외형을 만드는 '몬스터 커스텀 배합'을 제안합니다.",
+        "highlights_ko": [
+          "깊이 있는 배합 시스템: 몬스터를 조합하여 더 강력한 개체를 만드는 재미가 있습니다.",
+          "모바일 최적화: 한 손 조작과 자동 전투 기능을 통해 이동 중에도 쉽게 플레이할 수 있습니다."
+        ],
+        "systems_ko": [
+          "몬스터 데이터베이스 및 배합 로직",
+          "턴제 전투 시스템",
+          "던전 생성 및 탐험 시스템",
+          "자동 전투 및 보상 처리 시스템",
+          "온라인 데이터 동기화 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "방대한 몬스터 데이터 관리와 배합 로직, 그리고 턴제 전투의 밸런스 조정은 1인 개발자에게 매우 큰 도전입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 턴제 전투",
+            "몬스터 포획 및 파티 구성",
+            "간단한 배합 로직"
+          ],
+          "defer": [
+            "온라인 대전 모드",
+            "방대한 몬스터 도감",
+            "자동 모험 시스템"
+          ],
+          "risks": [
+            "데이터 관리의 복잡성",
+            "밸런스 조정 실패로 인한 재미 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "몬스터 탐험대",
+            "concept": "몬스터를 파견하여 재료를 수집하고, 그 재료로 몬스터를 강화하는 방치형 요소가 가미된 RPG입니다.",
+            "first_step": "몬스터 파견 로직과 시간 경과에 따른 보상 획득 기능 구현."
+          },
+          {
+            "title": "몬스터 합성 퍼즐",
+            "concept": "같은 종류의 몬스터를 3개 이상 합쳐 진화시키는 퍼즐 기반의 몬스터 육성 게임입니다.",
+            "first_step": "퍼즐 매칭 로직과 몬스터 진화 데이터 연동 구현."
+          }
+        ],
+        "recommendation_ko": "RPG의 핵심인 데이터 관리와 전투 시스템을 배우기에 좋습니다. 다만, 규모가 매우 크므로 핵심 메커니즘만 추출하여 구현하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 배합 공식이나 몬스터 데이터 구조가 명시되지 않았습니다. 온라인 통신 대전의 구현 방식은 확인되지 않았습니다.",
+        "name": "ドラゴンクエストモンスターズ　テリーのワンダーランドSP",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA-%E3%83%86%E3%83%AA%E3%83%BC%E3%81%AE%E3%83%AF%E3%83%B3%E3%83%80%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89sp/id1372670435?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:364504659": {
+      "app_key": "apple:364504659",
+      "name": "ヤマダデジタル会員",
+      "developer": "BIPROGY Inc.",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%83%A4%E3%83%9E%E3%83%80%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E4%BC%9A%E5%93%A1/id364504659",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:30:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ヤマダデンキ公式デジタル会員アプリはデジタル会員証のほか、クーポンやお得な情報が満載！ さまざまな機能も搭載されておりショッピングには欠かすことができないアプリです。 家電のことならヤマダデンキ公式デジタル会員アプリを今すぐダウンロード！ 【デジタル会員証】 ヤマダデンキ店頭でポイントカードとしてご利用いただけます 【お得なクーポン】 ヤマダデジタル会員限定のクーポンを常時配信中 【電子保証書】 紙の保証書を保管しなくてもアプリがデジタル保証書になります 【スマホタッチ】 店頭の電子プライスにスマホをかざす、またはQRスキャンして商品詳細やクチコミを確認することができます 【ネット通販】 ヤマダウェブコムやヤマダモールをアプリからご利用いただけます 【その他】 ・デジタルチラシや店頭イベント、実施中のキャンペーン案内 ・ヤマダデンキ店舗検索 ・リフォームや新築住宅に関する情報 など ※タブレット端末でのインストール、会員登録は非推奨です。 動作は保障致しかねますのでご了承ください。",
+      "analysis": {
+        "app_key": "apple:364504659",
+        "summary_ko": "ヤマダデンキ(야마다 덴키) 공식 디지털 회원 앱은 매장 포인트 카드, 쿠폰, 전자 보증서 기능을 통합한 쇼핑 지원 앱입니다. 사용자는 앱을 통해 매장 정보를 확인하고, 스마트폰을 활용해 상품 상세 정보나 리뷰를 조회할 수 있습니다.",
+        "features_ko": [
+          "디지털 회원증을 통해 매장에서 포인트 카드로 사용할 수 있습니다.",
+          "회원 전용 쿠폰을 상시 배포하여 할인 혜택을 제공합니다.",
+          "종이 보증서 대신 앱 내에서 전자 보증서를 관리할 수 있습니다.",
+          "매장 내 전자 가격표를 스캔하여 상품 상세 정보와 리뷰를 확인할 수 있습니다.",
+          "앱을 통해 온라인 쇼핑몰(야마다 웹컴 등)을 이용할 수 있습니다."
+        ],
+        "noteworthy_ko": "오프라인 매장과 온라인 서비스를 앱 하나로 연결한 O2O(Online to Offline) 모델의 전형입니다. 특히 전자 보증서 기능은 고객의 사후 관리 편의성을 크게 높인 사례입니다.",
+        "development_ko": "바코드/QR 스캔 기능과 포인트 데이터베이스 연동이 핵심입니다. 온라인 쇼핑몰과의 계정 통합 인증 시스템과 전자 보증서의 보안 저장이 중요합니다.",
+        "idea_ko": "구매한 가전제품의 소모품 교체 주기를 자동으로 알려주고, 앱에서 바로 구매할 수 있게 연결하는 관리 서비스.",
+        "highlights_ko": [
+          "전자 보증서 기능을 통해 종이 문서 관리의 번거로움을 해결했습니다.",
+          "매장 내 스캔 기능을 통해 오프라인 쇼핑 경험을 디지털로 확장했습니다."
+        ],
+        "systems_ko": [
+          "바코드/QR 스캔 시스템",
+          "포인트 및 회원 데이터베이스",
+          "전자 문서 저장 및 관리 시스템",
+          "온라인 쇼핑몰 연동 API"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "대규모 유통망의 포인트 시스템과 연동해야 하며, 전자 보증서와 같은 민감한 개인 정보를 안전하게 관리해야 하므로 높은 보안 수준이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "디지털 회원증(바코드 생성)",
+            "쿠폰 목록 조회",
+            "매장 검색"
+          ],
+          "defer": [
+            "전자 보증서 관리",
+            "매장 내 상품 스캔 기능"
+          ],
+          "risks": [
+            "개인정보 보안 사고",
+            "포인트 시스템 연동 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "가전 관리 다이어리",
+            "concept": "구매한 가전제품의 모델명과 구매일을 등록하면 필터 교체나 점검 시기를 알림으로 알려줍니다.",
+            "first_step": "제품명과 구매일을 입력받아 알림을 예약하는 간단한 데이터베이스 앱 구현."
+          },
+          {
+            "title": "쇼핑 리스트 스캐너",
+            "concept": "구매할 물건을 리스트에 담고 매장에서 스캔하여 가격을 비교하거나 합계를 미리 계산합니다.",
+            "first_step": "상품 목록을 관리하고 바코드를 스캔하여 리스트와 대조하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "O2O 서비스의 구조를 이해하고 싶은 개발자에게 추천합니다. 다만, 실제 유통망 연동은 어렵기에 개인용 자산 관리 앱으로 응용해 보는 것을 권장합니다.",
+        "source_limitations_ko": "포인트 시스템의 구체적인 연동 방식이나 전자 보증서의 법적 효력 보장 방식은 확인되지 않습니다. 태블릿 기기에서의 동작은 보장되지 않는다고 명시되어 있습니다.",
+        "name": "ヤマダデジタル会員",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%83%A4%E3%83%9E%E3%83%80%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E4%BC%9A%E5%93%A1/id364504659",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 67,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:1054033219": {
+      "app_key": "apple:1054033219",
+      "name": "VIZIO Remote (Official)",
+      "developer": "VIZIO",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/vizio-remote-official/id1054033219",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:30:40+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "VIZIO Device Control and WatchFree+ FREE Live TV Stream 300+ free live channels anywhere—no VIZIO TV required! Plus, control your VIZIO devices and discover entertainment, all through the VIZIO Mobile app. WATCHFREE+ MOBILE: Free live channels, anytime, anywhere. • Stream 300+ Free Live Channels: Watch news, sports, movies, and shows on your mobile device —no VIZIO TV needed • Personalize Your Experience: Create favorite channels lists and get personalized recommendations • Stay Connected: Keep up with local sports, news, and entertainment on the go • Easy to Start: Just download the app and create a free VIZIO account to start watching • Smart Navigation: Find what you want faster with the category jump feature • Pick Up Where You Left Off: Seamlessly switch between devices when you start watching on a VIZIO TV TV and ENTERTAINMENT CONTROL: Transform your phone into a powerful entertainment hub. • Universal Search: Find what to watch across streaming services in one place • Smart Recommendations: Discover new shows and movies based on your interests • Voice Control: Launch apps and find content hands-free • Save Time. Stream More: Organize apps and manage subscriptions in one location • Share & Connect: Cast photos and videos to your TV with VIZIOgram SOUNDBAR CONTROL: Fine-tune your audio experience right from your phone. • Quick Audio Adjustments: Customize volume, bass, and treble with easy controls • Preset Sound Modes: Optimize audio for movies, shows, music, and more • Enhanced Listening: Enable features like ClearDialog and Night Mode for the perfect sound ——————————————————————— VIZIO Crave Speakers cannot output audio from TVs/displays or be connected as an additional channel to an existing sound bar or sound system. Additional supported SmartCast or Chromecast-enabled audio products are required (not included) for Multi-Room feature. Streaming different songs to different speakers at the same time is not supported when using a single app running on a single mobile device. To stream a different song to different speakers at the same time, you’ll need to stream from a different app or a separate mobile device. The applications and content pictured herein or described on this page may only be available in certain countries and languages, may require additional fees or subscription charges, and may be subject to future updates, modifications, interruption and/or discontinuation of service without notice. VIZIO has no control over third party applications or content and assumes no responsibility for the availability or interruption of such applications or content. Additional third-party terms, conditions and restrictions apply. High-speed/broadband Internet service and access equipment are required and are not provided by VIZIO. Not all Google Cast-enabled apps are integrated with VIZIO SmartCast and may require additional steps to cast. For help, please visit our Customer Help Center: support.vizio.com Terms of Use: https://www.vizio.com/en/terms/account-terms Privacy Policy: https://www.vizio.com/en/terms/privacy-policy",
+      "analysis": {
+        "app_key": "apple:1054033219",
+        "summary_ko": "VIZIO 기기를 제어하고 라이브 TV 채널을 시청할 수 있는 엔터테인먼트 통합 앱입니다. 300개 이상의 무료 라이브 채널을 제공하며, 스마트폰을 리모컨처럼 사용하여 TV와 사운드바를 제어할 수 있습니다. 콘텐츠 검색 및 개인화된 추천 기능을 통해 시청 경험을 최적화합니다.",
+        "features_ko": [
+          "300개 이상의 무료 라이브 TV 채널을 모바일 기기에서 직접 스트리밍합니다.",
+          "스마트폰을 사용하여 VIZIO TV 및 사운드바의 볼륨과 설정을 제어합니다.",
+          "여러 스트리밍 서비스의 콘텐츠를 한곳에서 검색하는 통합 검색 기능을 제공합니다.",
+          "사용자의 취향을 분석하여 맞춤형 콘텐츠를 추천합니다.",
+          "음성 제어를 통해 앱 실행 및 콘텐츠 탐색을 핸즈프리로 수행합니다."
+        ],
+        "noteworthy_ko": "하드웨어 제어와 콘텐츠 스트리밍을 결합한 복합적인 앱입니다. 기기 간의 연결성과 사용자 경험의 연속성을 유지하는 것이 기술적으로 흥미로운 지점입니다.",
+        "development_ko": "하드웨어 제어를 위한 통신 프로토콜 구현과 대규모 스트리밍 데이터 처리가 핵심입니다. 다양한 기기와의 호환성 테스트가 필수적이며, 콘텐츠 라이선스 및 저작권 관련 고려 사항이 많습니다. 개인 개발자가 전체 기능을 구현하기에는 규모가 매우 큽니다.",
+        "idea_ko": "특정 스마트 기기(예: 조명, 스피커)를 제어하는 간단한 리모컨 앱을 만드는 것이 적합합니다.",
+        "highlights_ko": [
+          "하드웨어 제어와 미디어 스트리밍의 통합.",
+          "음성 제어 및 통합 검색을 통한 사용자 편의성 극대화."
+        ],
+        "systems_ko": [
+          "기기 제어 통신 프로토콜(Wi-Fi/Bluetooth)",
+          "미디어 스트리밍 엔진",
+          "통합 콘텐츠 검색 시스템",
+          "사용자 개인화 추천 알고리즘"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "하드웨어 제어 프로토콜 구현과 대규모 스트리밍 서비스 운영은 개인 개발자가 감당하기 어려운 기술적 난도를 가집니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 기기 연결 및 제어 기능",
+            "콘텐츠 목록 조회"
+          ],
+          "defer": [
+            "라이브 스트리밍 서비스",
+            "음성 제어 시스템"
+          ],
+          "risks": [
+            "하드웨어 호환성 문제",
+            "스트리밍 서버 운영 비용"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스마트 홈 리모컨",
+            "concept": "집안의 특정 스마트 기기(조명 등)를 앱으로 켜고 끄는 간단한 제어 앱입니다.",
+            "first_step": "로컬 네트워크 내의 기기와 통신하여 상태를 변경하는 기본 기능 구현."
+          },
+          {
+            "title": "콘텐츠 큐레이터",
+            "concept": "사용자가 본 영화나 드라마를 기록하고 비슷한 장르를 추천해주는 개인화 앱입니다.",
+            "first_step": "사용자 평점 데이터를 입력받아 유사한 콘텐츠를 보여주는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "IoT 기기 제어와 미디어 앱의 구조를 공부하기에 좋습니다. 다만 실제 하드웨어 연동은 개발 환경 구축이 어렵습니다.",
+        "source_limitations_ko": "하드웨어 제어 프로토콜, 스트리밍 서버 인프라, 저작권 계약 등은 소개문에 명시되지 않았습니다.",
+        "name": "VIZIO Remote (Official)",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/vizio-remote-official/id1054033219",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 82,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "google:com.wake.box.ryan": {
+      "app_key": "google:com.wake.box.ryan",
+      "name": "WakeBox",
+      "developer": "BLYTHEWOOD NY LLC",
+      "source": "google",
+      "country": "US",
+      "category": "app_productivity",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.wake.box.ryan&hl=en&gl=US",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:31:29+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "WakeBox is a simple and reliable alarm clock designed to help you wake up on time and stay on schedule. WakeBox focuses on core alarm functionality, offering clear, full-screen alerts when your alarm goes off, even when your device is locked. With sound and vibration support, WakeBox ensures you never miss an important wake-up moment. You can create alarms for specific times, choose repeating schedules, and manage them easily from a clean and intuitive interface. All alarms are user-configured and triggered only at the scheduled time. In addition to alarms, WakeBox provides optional access to email features through a built-in web view. Email functionality is secondary and does not affect alarm behavior. Alarms work independently and reliably, whether or not email features are used. Key Features Full-screen alarm alerts on the lock screen Custom alarm time and repeat schedules Sound and vibration support Simple and clean alarm management Optional email access via secure web authentication WakeBox is built for users who want a dependable alarm experience with minimal distractions and optional productivity tools.",
+      "analysis": {
+        "app_key": "google:com.wake.box.ryan",
+        "summary_ko": "WakeBox는 핵심 알람 기능에 집중한 단순하고 신뢰할 수 있는 알람 시계 앱입니다. 기기가 잠겨 있어도 전체 화면으로 알람을 표시하며, 진동과 소리를 지원합니다. 부가적으로 웹 뷰를 통한 이메일 접근 기능을 제공합니다.",
+        "features_ko": [
+          "잠금 화면에서도 전체 화면으로 알람을 표시합니다.",
+          "사용자 설정에 따른 반복 알람 스케줄을 지원합니다.",
+          "알람 시 소리와 진동을 통해 알림을 제공합니다.",
+          "웹 뷰를 통해 선택적으로 이메일 기능을 이용할 수 있습니다."
+        ],
+        "noteworthy_ko": "알람이라는 핵심 기능에 집중하면서도 웹 뷰를 통해 부가 기능을 제공하는 구조가 흥미롭습니다. 알람 서비스가 메인 프로세스로서 안정적으로 동작하도록 설계된 점이 주목할 만합니다.",
+        "development_ko": "안드로이드의 알람 매니저(AlarmManager)와 포그라운드 서비스를 활용한 구현이 핵심입니다. 잠금 화면 제어와 웹 뷰 연동은 비교적 구현 난이도가 낮으나, 알람의 정확한 트리거를 보장하는 것이 중요합니다.",
+        "idea_ko": "특정 알람을 해제하기 위해 간단한 퀴즈를 풀어야 하는 '미션 알람' 기능을 추가하는 것이 적합합니다.",
+        "highlights_ko": [
+          "단순함: 불필요한 기능을 배제하고 알람 본연의 기능에 집중했습니다.",
+          "안정성: 기기 잠금 상태에서도 알람이 확실하게 작동하도록 설계되었습니다."
+        ],
+        "systems_ko": [
+          "알람 스케줄러(AlarmManager)",
+          "포그라운드 서비스",
+          "잠금 화면 UI 제어",
+          "웹 뷰(WebView) 연동"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "안드로이드 OS에서 제공하는 표준 API를 활용하여 구현 가능하며, 복잡한 서버나 데이터베이스가 필요하지 않아 개인 개발자가 시도하기에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "알람 시간 설정 기능",
+            "알람 트리거 및 알림 표시",
+            "소리 및 진동 제어"
+          ],
+          "defer": [
+            "웹 뷰 이메일 기능",
+            "복잡한 테마 설정"
+          ],
+          "risks": [
+            "OS의 배터리 최적화로 인한 알람 지연",
+            "기기별 알림 권한 설정 차이"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "퀴즈 알람",
+            "concept": "알람을 끄기 위해 간단한 수학 문제나 퀴즈를 풀어야 하는 기능입니다.",
+            "first_step": "알람이 울릴 때 퀴즈 화면을 띄우는 액티비티를 구현합니다."
+          },
+          {
+            "title": "날씨 알람",
+            "concept": "알람이 울린 후 오늘의 날씨 정보를 음성으로 읽어주는 기능입니다.",
+            "first_step": "날씨 API를 연동하여 텍스트를 음성으로 변환(TTS)합니다."
+          }
+        ],
+        "recommendation_ko": "안드로이드 서비스와 알람 매니저의 동작 방식을 배우기에 매우 좋은 프로젝트입니다. 핵심 기능에 집중하는 개발 방식을 연습하기에 추천합니다.",
+        "source_limitations_ko": "웹 뷰를 통한 이메일 접근의 구체적인 보안 인증 방식은 명시되지 않았습니다. 알람의 정확한 트리거를 위한 OS별 예외 처리 상세 내용은 확인되지 않습니다.",
+        "name": "WakeBox",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.wake.box.ryan&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 93,
+        "reasons": [],
+        "best_rank": 4,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:6747059622": {
+      "app_key": "apple:6747059622",
+      "name": "PHOTOISM - 포토이즘",
+      "developer": "Seobuk",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/photoism-%ED%8F%AC%ED%86%A0%EC%9D%B4%EC%A6%98/id6747059622",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:34:58+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "take a PHOTOISM 포토이즘에서 만든 특별한 추억들을 간편하게 관리하고 다양하게 즐겨보세요. ■ 모먼트 & 프레임 추천 기억하고 싶은 특별한 순간을 등록해보세요. 등록하신 특별한 순간을 위한 프레임도 추천해드릴게요! ■ 촬영 후기 촬영 후기를 통해 촬영 꿀팁을 발견할 수 있어요. ■ 장바구니 원하는 프레임을 포토이즘 앱 장바구니에 담아두면, 키오스크에 불러와서 바로 촬영할 수 있어요. ■ 마이 앨범 키오스크에서 입력한 번호로 로그인하면, 번거로운 QR스캔 없이 앱에 사진과 영상이 마이 앨범에 자동으로 저장돼요. ■ 프레임 요청하기 출시되길 바랐던 그 프레임, 포토이즘에 직접 요청할 수 있어요. 특별한 순간을 기록할 수 있게 노력할게요! ■ 프레임 소식 새롭게 출시된 포토이즘만의 매력적인 프레임 소식을 앱에서 가장 먼저 만나보세요! 앱 사용을 위한 접근 권한 안내 포토이즘은 원할한 앱사용에 필요한 최소한의 권한만 요청합니다. [선택 접근 권한] · 카메라: 장바구니 불러오기, 리뷰 작성 시 사용됩니다. · 사진: 사진 또는 동영상을 기기에 저장하고자 하는 경우 사용됩니다. · 접근 권한 동의 여부는 휴대폰 내 \"설정 > photoism\"에서도 변경하실 수 있습니다. · 모든 권한은 사용자의 선택에 따라 허용 여부를 결정할 수 있습니다. · 미동의 시에도 해당 기능 외 서비스는 이용 가능합니다. [포토이즘 공식 채널] · 인스타그램: Instagram (@photoism.kr) · 카카오 플러스 채널: 포토이즘 · 트위터: 포토이즘 (@photoism_kr) on X [문의하기] 사용 중 문의사항이나 불편한 사항이 생길 경우, 아래로 연락 주세요. seobuk@seobuk.kr ---- 개발자 연락처 : Seobuk Co., Ltd. 3/F 72 Mannam-ro, 동남구, 천안시, 충청남도 31124 South Korea 671-88-01814 제 2021-충남천안-1908호 충청남도 천안시",
+      "analysis": {
+        "app_key": "apple:6747059622",
+        "summary_ko": "포토이즘은 사진 촬영 후 추억을 관리하고 다양한 프레임을 즐길 수 있는 서비스 앱입니다. 사용자는 촬영한 사진과 영상을 앱 내 앨범에 저장하고, 원하는 프레임을 장바구니에 담아 키오스크에서 활용할 수 있습니다. 또한 새로운 프레임 소식을 확인하거나 직접 프레임을 요청하는 등 사용자 참여형 기능을 제공합니다.",
+        "features_ko": [
+          "특별한 순간을 등록하고 그에 맞는 프레임을 추천받을 수 있습니다.",
+          "촬영 후기를 통해 촬영 팁을 공유하고 확인할 수 있습니다.",
+          "앱 장바구니에 프레임을 담아두면 키오스크에서 불러와 촬영에 사용할 수 있습니다.",
+          "키오스크 로그인 시 사진과 영상이 앱 내 마이 앨범에 자동으로 저장됩니다.",
+          "사용자가 원하는 프레임을 직접 요청할 수 있는 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "오프라인 키오스크와 모바일 앱을 연동하여 사용자 경험을 확장한 점이 흥미롭습니다. 특히 장바구니 기능을 통해 오프라인 매장에서의 대기 시간을 줄이고 개인화된 경험을 제공하는 전략이 돋보입니다.",
+        "development_ko": "핵심 기술은 키오스크와 모바일 앱 간의 데이터 동기화 및 사용자 인증 시스템입니다. 사진과 영상 데이터를 안정적으로 서버에 저장하고 불러오는 클라우드 인프라가 필요하며, 사용자 요청을 수집하는 피드백 시스템 구축이 요구됩니다. 테스트 시 다양한 기기 환경에서의 사진 업로드 및 동기화 속도 최적화가 중요합니다.",
+        "idea_ko": "사용자의 촬영 데이터를 기반으로 한 '나만의 연간 포토북 자동 생성' 기능이 개인 개발에 가장 적합합니다.",
+        "highlights_ko": [
+          "오프라인 키오스크와 모바일 앱의 긴밀한 연동을 통한 사용자 편의성 강화.",
+          "사용자 피드백을 반영한 프레임 요청 시스템으로 커뮤니티성 확보."
+        ],
+        "systems_ko": [
+          "사용자 인증 및 세션 관리 시스템",
+          "키오스크-앱 간 데이터 동기화 API",
+          "이미지 및 영상 클라우드 스토리지 관리",
+          "프레임 추천 알고리즘",
+          "사용자 피드백 수집 및 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "오프라인 키오스크와의 연동은 개인 개발자가 접근하기 어려운 하드웨어 인프라를 필요로 합니다. 또한 대용량 미디어 파일의 안정적인 처리와 서버 비용 관리가 큰 부담이 될 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 로그인 및 앨범 조회",
+            "프레임 목록 조회",
+            "이미지 다운로드 기능"
+          ],
+          "defer": [
+            "키오스크 연동 장바구니",
+            "프레임 직접 요청 기능",
+            "영상 자동 저장"
+          ],
+          "risks": [
+            "서버 스토리지 비용 증가",
+            "개인정보 보호 및 보안 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "포토 로그 캘린더",
+            "concept": "촬영한 사진을 달력 형태로 자동 배치하여 추억을 기록하는 기능입니다. 특정 날짜를 클릭하면 해당 날짜의 사진을 모아볼 수 있습니다.",
+            "first_step": "기기 내 사진첩에서 특정 날짜의 사진을 불러와 달력 UI에 표시하는 프로토타입 구현."
+          },
+          {
+            "title": "프레임 커스텀 미리보기",
+            "concept": "사용자가 직접 사진을 업로드하고 다양한 프레임을 합성해 볼 수 있는 가상 체험 기능입니다.",
+            "first_step": "이미지 합성 라이브러리를 사용하여 사진 위에 투명 PNG 프레임을 씌우는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "오프라인과 온라인을 잇는 O2O 서비스의 구조를 이해하기 좋습니다. 다만, 실제 키오스크 인프라가 없는 경우 서비스의 핵심 가치를 구현하기 어려우므로 학습용으로만 추천합니다.",
+        "source_limitations_ko": "키오스크와의 구체적인 통신 프로토콜, 서버 아키텍처, 결제 시스템 연동 여부 등은 설명문에 명시되지 않아 확인이 불가능합니다.",
+        "name": "PHOTOISM - 포토이즘",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/photoism-%ED%8F%AC%ED%86%A0%EC%9D%B4%EC%A6%98/id6747059622",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 51,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:6768258203": {
+      "app_key": "apple:6768258203",
+      "name": "Sticker Life - 스티커 방꾸미기 게임",
+      "developer": "Gloryway Puzzle",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/kr/app/sticker-life-%EC%8A%A4%ED%8B%B0%EC%BB%A4-%EB%B0%A9%EA%BE%B8%EB%AF%B8%EA%B8%B0-%EA%B2%8C%EC%9E%84/id6768258203?uo=2",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:36:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "사랑스러운 스티커 세상에서 나만의 인테리어 감각을 뽐내보세요! 핀셋으로 스티커를 하나씩 붙여가며 아기자기한 공간에 생기를 불어넣어 보세요! 가구와 식물부터 귀여운 캐릭터까지, 스티커 한 장 한 장으로 나만의 완벽한 방 레이아웃을 DIY할 수 있습니다. 추억 속 스티커 북이 주는 클래식한 즐거움이 한층 더 새롭게 재탄생했습니다. 정리정돈이 주는 소소한 행복을 경험해 보세요. 방을 깔끔하게 치우고, 소품들을 완벽하게 배열하고, 마침내 완성된 아름다운 공간을 바라보는 것만으로도 엄청난 만족감과 편안함을 느낄 수 있습니다. 일상에서 벗어나 마음껏 몰입하고 힐링할 수 있는 최고의 안식처가 되어줄 것입니다. 여러분의 창의적인 여정에는 끝이 없습니다! 다채로운 공간 꾸미기: 아늑한 침실부터 활기찬 주방까지 취향대로 꾸며보세요. 활기찬 거리 디자인: 북적이는 상점과 그림처럼 아름다운 거리 풍경을 직접 디자인해 보세요. 새로운 도전: 끊임없이 제공되는 새로운 과제들이 언제나 신선한 재미와 몰입감을 선사합니다. 질서와 아름다움을 창조하는 즐거움을 만끽하며, 최고의 스티커 씬 디자이너가 되어보세요!",
+      "analysis": {
+        "app_key": "apple:6768258203",
+        "summary_ko": "Sticker Life는 핀셋으로 스티커를 붙여 방을 꾸미는 인테리어 DIY 게임입니다. 가구, 식물, 캐릭터 등 다양한 스티커를 활용하여 나만의 공간을 디자인하고 정리정돈의 즐거움을 경험할 수 있습니다. 힐링을 목적으로 하는 게임으로, 다양한 공간 꾸미기 도전 과제를 제공합니다.",
+        "features_ko": [
+          "핀셋 도구를 사용하여 스티커를 원하는 위치에 배치하는 드래그 앤 드롭 방식을 지원합니다.",
+          "침실, 주방 등 다양한 테마의 공간을 꾸밀 수 있는 콘텐츠를 제공합니다.",
+          "정리정돈과 배열을 통해 완성된 공간을 보며 심리적 만족감을 얻는 힐링 게임입니다.",
+          "지속적으로 제공되는 새로운 도전 과제를 통해 게임의 몰입감을 유지합니다."
+        ],
+        "noteworthy_ko": "현실의 스티커 북을 디지털 환경으로 옮겨와 '정리정돈'이라는 행위에 집중한 점이 흥미롭습니다. 물리적인 배치와 시각적 만족감을 게임의 핵심 재미 요소로 잘 활용하고 있습니다.",
+        "development_ko": "2D 객체 배치 시스템과 레이어 관리 기술이 핵심입니다. 다양한 스티커 리소스 제작 부담이 크며, 사용자가 배치한 상태를 저장하고 불러오는 데이터 관리 시스템이 필요합니다. 힐링 게임 특유의 분위기를 살리기 위한 UI/UX 디자인과 사운드 연출이 중요합니다.",
+        "idea_ko": "사용자가 직접 사진을 찍어 스티커로 변환하고 방을 꾸미는 '현실 반영 스티커' 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "핀셋이라는 도구를 활용하여 스티커 붙이기의 몰입감을 높였습니다.",
+          "정리정돈의 소소한 행복을 게임화하여 힐링 경험을 제공합니다."
+        ],
+        "systems_ko": [
+          "2D 객체 배치 및 드래그 앤 드롭 시스템",
+          "스티커 리소스 관리 및 레이어링 시스템",
+          "게임 상태 저장 및 불러오기 시스템",
+          "도전 과제 및 보상 시스템",
+          "UI/UX 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "2D 게임 엔진(Unity 등)을 활용하면 비교적 쉽게 구현 가능한 메커니즘입니다. 다만, 많은 양의 아트 리소스 제작이 필요하며, 배치 로직의 최적화가 중요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "배경 이미지 로드",
+            "스티커 객체 배치 및 이동 기능",
+            "배치 상태 저장 기능"
+          ],
+          "defer": [
+            "다양한 테마의 확장 콘텐츠",
+            "도전 과제 시스템",
+            "소셜 공유 기능"
+          ],
+          "risks": [
+            "아트 리소스 제작의 높은 노동 강도",
+            "배치 로직의 버그(겹침 현상 등)"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "추억 스티커 북",
+            "concept": "사용자가 찍은 사진을 스티커로 만들어 방을 꾸미고, 그 방을 사진첩처럼 보관합니다.",
+            "first_step": "이미지를 불러와 화면에 배치하고 크기를 조절하는 기능 구현."
+          },
+          {
+            "title": "스티커 퍼즐 모드",
+            "concept": "제시된 완성본을 보고 스티커를 정확한 위치에 배치하는 퍼즐 게임 모드입니다.",
+            "first_step": "스티커의 위치 좌표를 비교하여 정답 여부를 판별하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "2D 게임 개발의 기초인 객체 배치와 데이터 저장 방식을 배우기에 매우 좋습니다. 아트 리소스 제작 능력이 있다면 개인 개발로 충분히 완성도 있는 결과물을 낼 수 있습니다.",
+        "source_limitations_ko": "게임 내 물리 엔진 사용 여부나 스티커 배치의 자유도(회전, 레이어 순서 변경 등)에 대한 상세 사양은 확인되지 않았습니다.",
+        "name": "Sticker Life - 스티커 방꾸미기 게임",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/sticker-life-%EC%8A%A4%ED%8B%B0%EC%BB%A4-%EB%B0%A9%EA%BE%B8%EB%AF%B8%EA%B8%B0-%EA%B2%8C%EC%9E%84/id6768258203?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 92,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "itch:06f4fcab61f2726ac167": {
+      "app_key": "itch:06f4fcab61f2726ac167",
+      "name": "Gobang Arena [$4.99] [Strategy]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "",
+      "detail_url": "https://sliploomer.itch.io/gobang-arena",
+      "data_date": "2026-10-24",
+      "analysed_at": "2026-10-25T03:37:45+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Gobang Arena is a free-style five-in-a-row game for your browser, with Renju’s forbidden moves one switch away.",
+      "analysis": {
+        "app_key": "itch:06f4fcab61f2726ac167",
+        "summary_ko": "Gobang Arena는 브라우저에서 즐길 수 있는 오목 게임입니다. 기본적인 오목 규칙을 제공하며, 렌주(Renju) 규칙의 금수(forbidden moves) 설정을 선택적으로 적용할 수 있습니다.",
+        "features_ko": [
+          "브라우저 기반의 5목(오목) 게임 플레이를 제공합니다.",
+          "렌주 규칙의 금수 설정을 옵션으로 켜고 끌 수 있습니다."
+        ],
+        "noteworthy_ko": "오목은 규칙이 단순하지만, 금수 규칙 적용 여부에 따라 전략적 깊이가 크게 달라집니다. 브라우저 환경에서 동작하는 가벼운 게임으로, 상태 관리와 승리 판정 로직을 연습하기에 좋습니다.",
+        "development_ko": "승리 판정 알고리즘(가로, 세로, 대각선 5개 확인)이 핵심입니다. 금수 규칙을 적용하기 위한 복잡한 조건문 구현이 필요하며, UI는 단순한 격자판으로 구성할 수 있습니다. 테스트 시 다양한 상황에서의 승리 판정 오류를 검증하는 것이 중요합니다.",
+        "idea_ko": "AI와의 대전이 아닌, 두 명의 사용자가 서로 다른 금수 규칙을 적용받는 비대칭 오목 모드를 구현하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "렌주 규칙의 금수 설정을 스위치 하나로 제어할 수 있는 유연한 규칙 시스템입니다.",
+          "브라우저 환경에 최적화된 가벼운 전략 게임입니다."
+        ],
+        "systems_ko": [
+          "게임 상태 관리(바둑판 데이터)",
+          "승리 및 금수 판정 알고리즘",
+          "입력 판정 및 UI 렌더링"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "규칙이 명확하고 구현해야 할 로직이 제한적입니다. 1인 개발자가 핵심 메커니즘을 완성하기에 매우 적합한 프로젝트입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "바둑판 렌더링",
+            "돌 놓기 로직",
+            "승리 판정 알고리즘"
+          ],
+          "defer": [
+            "AI 대전 모드",
+            "온라인 멀티플레이"
+          ],
+          "risks": [
+            "금수 규칙 판정의 예외 상황 발생"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "비대칭 오목",
+            "concept": "한 명은 금수 규칙을 적용받고, 다른 한 명은 적용받지 않는 비대칭 규칙입니다. 밸런스를 맞추기 위한 새로운 전략이 필요합니다.",
+            "first_step": "기존 오목 엔진에 플레이어별 규칙 적용 여부를 분기하는 로직을 추가합니다."
+          },
+          {
+            "title": "타임어택 오목",
+            "concept": "제한 시간 내에 승리해야 하는 모드입니다. 긴박한 상황에서의 판단력을 시험합니다.",
+            "first_step": "턴마다 타이머를 표시하고 시간이 다 되면 패배 처리하는 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "게임 로직 구현의 기초를 다지기에 매우 좋습니다. 알고리즘 설계와 상태 관리 능력을 키우고 싶은 초보 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 AI 대전 여부나 온라인 매칭 시스템에 대한 언급이 없습니다. 유료 판매 모델($4.99)에 대한 구체적인 기능 차별점은 확인되지 않습니다.",
+        "name": "Gobang Arena [$4.99] [Strategy]",
+        "source": "itch",
+        "detail_url": "https://sliploomer.itch.io/gobang-arena",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 10000,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "itch:15d1a24b4b5db95daa54": {
+      "app_key": "itch:15d1a24b4b5db95daa54",
+      "name": "Aetheria: The Weaver [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "",
+      "detail_url": "https://idontlikeaibutimakeaigame.itch.io/aetheria",
+      "data_date": "2026-10-24",
+      "analysed_at": "2026-10-25T03:37:45+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "I hate AI, I made a game to test. If I copied, it was accidental, everything was made by AI (which I have proof.)",
+      "analysis": {
+        "app_key": "itch:15d1a24b4b5db95daa54",
+        "summary_ko": "Aetheria: The Weaver는 개발자가 AI를 활용하여 제작한 액션 게임입니다. 개발자가 AI 기술을 테스트하기 위해 만든 실험적인 프로젝트입니다.",
+        "features_ko": [
+          "AI 기술을 활용하여 제작된 액션 게임 플레이를 제공합니다.",
+          "실험적인 게임 메커니즘을 테스트합니다."
+        ],
+        "noteworthy_ko": "AI 생성 콘텐츠를 활용한 게임 개발의 가능성을 탐색하는 사례입니다. 코드나 에셋 생성에 AI를 얼마나 효과적으로 활용할 수 있는지, 그리고 그 결과물의 일관성을 유지하는 것이 개발 관점에서 흥미로운 지점입니다.",
+        "development_ko": "AI가 생성한 코드와 에셋을 통합하고 디버깅하는 과정이 핵심입니다. AI의 결과물을 그대로 사용하기보다는 게임의 전체적인 흐름에 맞게 수정하는 작업이 필요하며, 테스트를 통해 AI가 생성한 로직의 오류를 찾아내는 것이 중요합니다.",
+        "idea_ko": "AI가 생성한 맵을 실시간으로 변형하여 매번 새로운 지형에서 플레이하는 'AI 생성 던전' 시스템을 구현하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "AI 기술을 활용한 실험적인 게임 제작 사례입니다.",
+          "개발자가 직접 AI 활용 가능성을 테스트하기 위해 만든 프로젝트입니다."
+        ],
+        "systems_ko": [
+          "AI 생성 코드 통합 시스템",
+          "게임 로직 및 액션 시스템",
+          "에셋 관리 및 통합"
+        ],
+        "difficulty_ko": {
+          "level": "판단 어려움",
+          "reason": "AI 활용 범위와 게임의 규모가 명시되지 않아 난이도를 판단하기 어렵습니다. AI 생성물의 품질에 따라 개발 난이도가 크게 달라질 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 게임 루프 구현",
+            "AI 생성 에셋 및 코드 통합"
+          ],
+          "defer": [
+            "복잡한 스토리 및 퀘스트",
+            "고급 그래픽 효과"
+          ],
+          "risks": [
+            "AI 생성 코드의 유지보수 어려움",
+            "일관성 없는 게임 디자인"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "AI 던전 생성기",
+            "concept": "AI가 매번 새로운 던전 구조를 생성하여 플레이어에게 제공합니다. 매번 다른 전략이 요구됩니다.",
+            "first_step": "AI를 사용하여 맵 데이터를 생성하고 이를 게임 내에서 타일맵으로 변환하는 로직을 만듭니다."
+          },
+          {
+            "title": "AI 대화형 NPC",
+            "concept": "AI를 활용하여 NPC와 자유로운 대화가 가능합니다. 대화 내용에 따라 게임의 전개가 달라집니다.",
+            "first_step": "간단한 텍스트 기반 대화 시스템을 만들고 AI API를 연동합니다."
+          }
+        ],
+        "recommendation_ko": "AI를 게임 개발에 어떻게 활용할 수 있는지 실험해보고 싶은 개발자에게 추천합니다. 새로운 개발 워크플로우를 경험할 수 있습니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 게임 장르, 메커니즘, AI 활용 범위에 대한 정보가 없습니다. AI가 생성한 결과물의 신뢰성이나 품질은 검증되지 않았습니다.",
+        "name": "Aetheria: The Weaver [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://idontlikeaibutimakeaigame.itch.io/aetheria",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 10000,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:1644169294": {
+      "app_key": "apple:1644169294",
+      "name": "athenaPatient",
+      "developer": "athenahealth",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/athenapatient/id1644169294",
+      "data_date": "2026-10-22",
+      "analysed_at": "2026-10-25T03:40:39+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "athenaPatient is only available for patients whose healthcare providers have instructed them to download and use the app. Access your health information and communicate with your care team anywhere, anytime.* athenaPatient is a convenient, mobile resource that allows you to: - Log in quickly – Facial recognition and touch ID make log in easy while keeping your data safe. - View test results – Access lab, imaging, and other medical test results as soon as they become available. - Message your care team – Contact your care team whenever you have questions through quick, secure direct messages. - Self-schedule appointments – Book appointments with your care team and view upcoming visits beyond regular office hours. Your provider(s) must support Self-Scheduling to use this feature. - Check in before your visit – Easily check in for appointments and save time by completing any necessary documentation before your arrival. Your provider(s) must support Self Check-In to use this feature. - Attend virtual visits – Easily initiate and attend telehealth visits with members of your care team. (Your provider(s) must support virtual visits through athenaTelehealth to use this feature) - Get directions to appointments – Driving directions show you how to get to your next medical appointment. Please note that you must have an existing athenahealth Patient Portal account to use athenaPatient. Once you’ve downloaded and launched athenaPatient, you must log in using the same email address and password you use to access your provider’s athenahealth Patient Portal to begin using the app. It will ask if you want to enable Face ID or Touch ID. Enabling either of these features will save you from having to enter your login information every time you want to use the app. If you do not have your Patient Portal account information, your healthcare provider(s) may offer Patient Portal access through their website. If you’re having issues finding your healthcare provider’s Patient Portal, you can contact their office for the correct URL, or to request an email invitation to their Patient Portal. * The athenaPatient app is only available for download and viewing information in the United States for patients of healthcare providers on the athenahealth network.",
+      "analysis": {
+        "app_key": "apple:1644169294",
+        "summary_ko": "이 앱은 의료 기관의 환자 포털 서비스와 연동하여 건강 정보를 관리하고 의료진과 소통하는 환자용 도구입니다. 검사 결과 조회, 메시지 전송, 진료 예약 및 원격 진료 참여 기능을 제공합니다. 사용하려면 사전에 의료 기관의 포털 계정이 있어야 합니다.",
+        "features_ko": [
+          "생체 인식(Face ID/Touch ID)을 통한 안전한 로그인 기능을 제공합니다.",
+          "검사 결과 및 의료 기록을 실시간으로 조회할 수 있습니다.",
+          "의료진과 직접 보안 메시지를 주고받을 수 있습니다.",
+          "진료 예약 및 사전 체크인 기능을 지원합니다.",
+          "원격 진료(Telehealth) 세션에 참여할 수 있습니다."
+        ],
+        "noteworthy_ko": "기존 의료 시스템의 데이터를 모바일로 확장하는 엔터프라이즈급 연동 앱입니다. 보안과 데이터 무결성이 최우선이며, 의료 기관의 인프라와 긴밀하게 결합되어 있습니다.",
+        "development_ko": "핵심은 HIPAA 등 의료 데이터 보안 규정 준수와 API 연동입니다. UI는 직관적이어야 하며, 의료진과의 실시간 통신을 위한 안정적인 네트워크 처리가 필수입니다. 테스트는 실제 의료 환경과 유사한 보안 환경에서 수행해야 합니다.",
+        "idea_ko": "개인 건강 기록(PHR)을 수동으로 입력하고 시각화하여 병원 방문 시 의료진에게 보여주는 '개인 건강 리포트 앱'이 실현 가능합니다.",
+        "highlights_ko": [
+          "의료 기관 포털과 연동하여 통합적인 건강 관리를 지원합니다.",
+          "원격 진료 및 예약 관리 등 병원 방문 과정을 디지털화했습니다."
+        ],
+        "systems_ko": [
+          "보안 인증 및 데이터 암호화 시스템",
+          "의료 데이터 API 연동 모듈",
+          "실시간 메시징 및 알림 시스템",
+          "진료 예약 및 일정 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "의료 데이터는 매우 민감한 개인정보이므로 보안 규정 준수가 필수적이며, 기존 병원 시스템과의 API 연동은 개인 개발자가 접근하기 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 인증 및 보안 로그인",
+            "개인 건강 정보 입력 및 저장 기능",
+            "진료 기록 리스트 UI"
+          ],
+          "defer": [
+            "실시간 의료진 메시징",
+            "원격 진료 화상 통화 기능"
+          ],
+          "risks": [
+            "개인정보 보호법 위반 위험",
+            "데이터 보안 취약점 발생 시 책임 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "건강 기록 시각화 도구",
+            "concept": "사용자가 직접 입력한 혈압, 혈당 등의 데이터를 그래프로 시각화하여 건강 추이를 확인합니다. 병원 방문 시 의사에게 보여줄 요약본을 생성합니다.",
+            "first_step": "데이터 입력 폼과 간단한 차트 라이브러리를 활용한 시각화 화면을 구현합니다."
+          },
+          {
+            "title": "복약 관리 알림이",
+            "concept": "처방받은 약의 복용 시간을 관리하고 알림을 보냅니다. 복용 여부를 기록하여 복약 순응도를 높입니다.",
+            "first_step": "로컬 알림 기능을 활용한 복약 시간 설정 및 기록 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "데이터 보안과 개인정보 보호의 중요성을 배우기에 적합합니다. 다만, 의료 관련 앱은 법적 규제가 엄격하므로 실제 서비스보다는 학습용 프로젝트로 접근하는 것이 좋습니다.",
+        "source_limitations_ko": "연동되는 의료 기관의 API 명세, 데이터 암호화 방식, 보안 인증 절차는 설명문에 명시되지 않았습니다.",
+        "name": "athenaPatient",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/athenapatient/id1644169294",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "google:com.wasteland.heart": {
+      "app_key": "google:com.wasteland.heart",
+      "name": "Wasteland Life: Survival Idle",
+      "developer": "SayGames Ltd",
+      "source": "google",
+      "country": "US",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.wasteland.heart&hl=en&gl=US",
+      "data_date": "2026-10-22",
+      "analysed_at": "2026-10-25T03:41:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "🌍IT'S A TOUGH WORLD OUT THERE🌋 You’ve barely survived… As you look out across the post-apocalyptic desert landscape, you realize that your survival hinges on both resource management and strategic thinking skills if you want to master these harsh conditions. Construct buildings and cities from the ground up in this fun, idle-style game as you test various strategies to see which will get you the furthest. 📜NO PLAN SURVIVES CONTACT WITH THE ENEMY📜 While you may not have to fight off roving packs of zombies or other classic enemies in this game, you will need to keep your wits about you as you navigate the deserted desert… Or is it deserted? You may not be as alone as you think you are. Hoovers at the ready – Boy this sand is everywhere! Locate a vacuum and get to cleaning. As you remove the sand, not only will you clear territory that will be useful for your future cities, but you’ll also uncover tons of forgotten junk and appliances. One man’s trash is another man’s treasure, so collect anything and everything you stumble across – it might be useful. Let’s get crafty – Remember all that junk you collected? Use it to fix broken bridges, build houses, and more; the possibilities are practically endless! Even the sand can be collected and used to make things, so make sure you always keep a good stock of resources and never give up an opportunity to collect more. Fun in the sun – Whether you have just a few minutes or a longer stretch of time to kill, you’ll always have time to hop in the game and make some solid progress. The benefit of this being an idle game is that you’ll be making progress even when you can’t be online so there’s no pressure. Just sit back, relax, and imagine how you’ll build your future empire. Idle but energetic – While Wasteland Life is heavy on idle game play and resource collection, there’s plenty of excitement as well for players who are looking for something a little more engaging. Head out on expeditions to collect fabulous resources, as these are what will really make or break your ability to sustain your city. But be careful, you don’t know what all awaits you out in the wasteland… 🕰️CAN YOU SURVIVE THE TEST OF TIME🕰️ This simulation game sure will test your survival instincts to the max, as you struggle to not only survive, but thrive in this deserted wasteland that was once our planet. Draw up your best strategy and get to work uncovering the land bit by bit, collecting valuable resources along the way that can be used to build houses, settlements, and even cities. Download Wasteland Life now to embark on a thrilling journey of survival and discovery! Privacy Policy: https://say.games/privacy-policy Terms of Use: https://say.games/terms-of-use",
+      "analysis": {
+        "app_key": "google:com.wasteland.heart",
+        "summary_ko": "포스트 아포칼립스 배경의 방치형 생존 게임으로, 자원 관리와 전략적 사고를 통해 도시를 건설하는 게임입니다. 모래를 치워 자원을 수집하고, 이를 활용해 건물을 수리하거나 도시를 확장합니다. 오프라인 상태에서도 진행이 가능한 방치형 시스템을 갖추고 있습니다.",
+        "features_ko": [
+          "모래를 치워 영토를 확보하고 자원을 수집합니다.",
+          "수집한 자원으로 건물과 도시를 건설하고 수리합니다.",
+          "오프라인 상태에서도 게임이 진행되는 방치형 시스템을 지원합니다.",
+          "탐험을 통해 희귀 자원을 획득하고 도시를 유지합니다."
+        ],
+        "noteworthy_ko": "모래를 치우는 행위를 통해 자원을 얻는 독특한 수집 메커니즘이 흥미롭습니다. 방치형 게임의 핵심인 '진행감'을 아포칼립스 테마와 잘 결합하여 사용자에게 성취감을 제공합니다.",
+        "development_ko": "방치형 게임의 시간 계산 로직과 자원 생산 밸런스가 핵심입니다. 도시 건설을 위한 그리드 시스템과 오브젝트 배치 로직 구현이 필요합니다. 1인 개발 시 다양한 자원과 건물 데이터를 관리하는 구조를 설계하는 것이 중요합니다.",
+        "idea_ko": "도시의 생존자들에게 역할을 부여하여 생산 효율을 높이는 전략적 관리 시스템.",
+        "highlights_ko": [
+          "모래를 치우는 독특한 자원 수집 방식을 도입했습니다.",
+          "방치형 시스템을 통해 오프라인에서도 성장이 가능합니다."
+        ],
+        "systems_ko": [
+          "자원 생산 및 관리 시스템",
+          "건물 건설 및 배치 시스템",
+          "방치형 시간 계산 로직",
+          "탐험 및 이벤트 시스템",
+          "데이터 저장 및 로드"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "방치형 게임의 기본 로직은 구현이 가능하나, 게임의 재미를 결정짓는 자원 밸런스를 맞추는 데 많은 시행착오와 테스트가 필요하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "자원 수집 로직",
+            "기본 건물 건설 기능",
+            "방치형 보상 계산 로직"
+          ],
+          "defer": [
+            "복잡한 탐험 이벤트",
+            "도시 확장 시각화"
+          ],
+          "risks": [
+            "자원 밸런스 붕괴로 인한 재미 저하",
+            "방치형 시스템의 데이터 동기화 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "생존자 커뮤니티",
+            "concept": "도시의 생존자들이 서로 대화하며 도시의 상태를 알려주는 소셜 요소입니다.",
+            "first_step": "텍스트 출력 시스템 및 캐릭터 대사 데이터 구현."
+          },
+          {
+            "title": "날씨 변화 시스템",
+            "concept": "모래 폭풍 등 날씨 변화에 따라 자원 수집 효율이 달라지는 환경 요소입니다.",
+            "first_step": "시간에 따른 환경 변수 변경 로직 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 핵심인 '시간에 따른 보상' 로직을 배우기에 좋습니다. 게임의 밸런스를 어떻게 설계해야 사용자가 지루하지 않게 유지되는지 분석해 보길 추천합니다.",
+        "source_limitations_ko": "구체적인 자원 밸런스 수치, 탐험 이벤트의 확률 로직, 서버 연동 여부는 확인되지 않았습니다.",
+        "name": "Wasteland Life: Survival Idle",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.wasteland.heart&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "google:jp.co.capcom.daigyakusai": {
+      "app_key": "google:jp.co.capcom.daigyakusai",
+      "name": "大逆転裁判",
+      "developer": "CAPCOM CO., LTD.",
+      "source": "google",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=jp.co.capcom.daigyakusai&hl=ja&gl=JP",
+      "data_date": "2026-10-22",
+      "analysed_at": "2026-10-25T03:41:58+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "■【ご注意】■ ●ご購入ご利用の前に必ず《対応端末のご注意》をご確認ください。 ●本アプリケーションは過去に家庭用ゲーム機で発売されたものと同一のシナリオです。 ■【ゲームのご紹介】■■ ◆成歩堂龍ノ介の大冒險活劇ここに大登場!!◆ 普通の大学生だった龍ノ介は、様々な《出会い》と《別れ》を経験し、多くの被告人と共に法廷に立つことで一人前の弁護士として成長していく。 逆転シリーズおなじみの《探偵パート》《尋問》に加え、世界の大探偵シャーロック・ホームズと共に事件の真相に迫る《共同推理》や、陪審員から無罪評決を勝ち取る《陪審バトル》など、新しい遊びが大満載!! ◆タップ操作で簡単プレイ◆ タップによるシンプルな操作で、だれでも手軽に楽しめる!! バックログ機能で証言やストーリーを読み返すことも可能!! ◆個性豊かなキャラクターたち◆ 主人公の《成歩堂龍ノ介（なるほどう りゅうのすけ）》をはじめ、個性豊かなキャラクターたちが大登場!! シリーズファンにはたまらない、あのキャラクターのご先祖様も大登場!?成歩堂との因縁はここから始まる。 ◆探偵パート◆ 頼もしい仲間たちと事件現場を調査して証拠品や証言を集めよう。 不可解な事件もホームズとの《共同推理》で真実に迫ろう!! ◆法廷パート◆ 探偵パートで集めた証拠品を武器に検事と対決!! 証人の証言を《ゆさぶり》で詳しく聞き、ウソやムジュンする証言に証拠品をつきつけて、依頼人の無実を勝ち取ろう!! ◆Google Play ゲームに対応◆ Google Play ゲームを利用すれば、外出先のスマートフォンで遊んだセーブデータを自宅のタブレットに引き継ぐなど、生活のシーンに合わせてお楽しみいただけます。 ■【対応端末のご注意】■■ 対応端末（機種/OS）は、本アプリ公式サイト（下記URL）をご確認ください。 https://www.capcom-games.com/product/ja-jp/thegreataceattorney-adventures-app/?t=openv ※対応端末以外でも、本アプリをご購入いただける場合がございますが、正常に動作しない可能性がございます。恐れ入りますが、対応端末（機種/OS）以外でのご利用は、動作保証および払い戻しをいたしかねますので、あらかじめご了承ください。 ◆必須スペック◆ RAM 2GB以上 （IntelCPUは非対応） ■【カプコンをもっと楽しもう!!】■■ App Store で《capcom》を検索!! カプコンのスマートフォンポータルサイトはコチラ!! https://www.capcom-games.com/product/ja-jp/?result&sort=latest&platform=ios,android 逆転裁判シリーズポータルサイトはコチラ!! https://www.ace-attorney.com/ja/ 最後までお読みいただきありがとうございます!! 大逆転裁判モバイルチーム一同",
+      "analysis": {
+        "app_key": "google:jp.co.capcom.daigyakusai",
+        "summary_ko": "본 게임은 법정 배틀 어드벤처 시리즈의 외전으로, 주인공 성보당 용노개가 변호사로 성장하는 과정을 다룹니다. 플레이어는 탐정 파트에서 증거를 수집하고, 법정 파트에서 증인과 대결하며 사건의 진상을 밝혀냅니다. 셜록 홈즈와의 공동 추리 및 배심원 배틀 등 새로운 시스템이 도입된 것이 특징입니다.",
+        "features_ko": [
+          "탐정 파트를 통해 사건 현장을 조사하고 증거품과 증언을 수집합니다.",
+          "법정 파트에서 증인의 증언을 심문하고 모순을 찾아내어 증거를 제시합니다.",
+          "셜록 홈즈와 함께 사건의 진실을 추리하는 공동 추리 시스템이 포함되어 있습니다.",
+          "배심원 배틀을 통해 배심원들로부터 무죄 평결을 이끌어내는 과정을 수행합니다.",
+          "백로그 기능을 통해 이전 증언이나 스토리를 다시 확인할 수 있습니다."
+        ],
+        "noteworthy_ko": "어드벤처 게임에서 탐정과 법정이라는 두 가지 상반된 게임 루프를 결합하여 서사적 몰입감을 극대화한 점이 흥미롭습니다. 특히 캐릭터 간의 상호작용을 통한 추리 시스템은 텍스트 기반 게임의 정적인 단점을 보완하는 핵심 요소로 추정됩니다.",
+        "development_ko": "핵심 기술로는 텍스트 엔진, 스크립트 기반 이벤트 제어, 그리고 2D/3D 캐릭터 애니메이션 연동이 필요합니다. 콘텐츠 제작 측면에서는 방대한 시나리오 집필과 그에 따른 증거물 데이터 관리가 큰 비중을 차지합니다. 밸런스 측면에서는 추리의 난이도와 증거 제시의 논리적 개연성을 맞추는 것이 가장 큰 과제입니다.",
+        "idea_ko": "특정 테마의 사건을 해결하는 단편 추리 어드벤처를 제작하여, 증거 수집과 법정 논증의 핵심 루프를 검증하는 것이 좋습니다.",
+        "highlights_ko": [
+          "역사적 배경과 추리물을 결합한 독특한 세계관을 제공합니다.",
+          "탐정 파트와 법정 파트의 유기적인 연결을 통해 플레이어의 능동적인 참여를 유도합니다."
+        ],
+        "systems_ko": [
+          "텍스트 및 대화 관리 시스템",
+          "증거품 인벤토리 및 데이터베이스",
+          "논리적 모순 판정 시스템",
+          "캐릭터 상태 및 이벤트 트리거 관리",
+          "UI/UX 기반의 증거 제시 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "방대한 시나리오와 복잡한 논리 구조를 설계해야 하며, 각 증언과 증거 간의 유기적인 연결성을 구현하는 작업이 매우 까다롭기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "텍스트 출력 및 선택지 시스템",
+            "증거품 획득 및 제시 기능",
+            "기본적인 법정 심문 루프"
+          ],
+          "defer": [
+            "복잡한 3D 애니메이션",
+            "배심원 배틀 시스템",
+            "다양한 미니게임"
+          ],
+          "risks": [
+            "스토리의 논리적 구멍 발생",
+            "개발 기간 대비 콘텐츠 제작량 과다"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "단편 법정 추리극",
+            "concept": "단 하나의 사건을 다루는 짧은 추리 게임입니다. 증거를 수집하고 단 한 번의 법정 공방으로 범인을 지목합니다.",
+            "first_step": "사건의 개요와 증거 3개를 설정하고, 텍스트 기반의 심문 흐름을 구현합니다."
+          },
+          {
+            "title": "증거 조합 추리",
+            "concept": "수집한 증거들을 조합하여 새로운 단서를 찾아내는 시스템에 집중합니다. 법정보다는 탐정 파트의 추리에 무게를 둡니다.",
+            "first_step": "두 개의 아이템을 조합하여 새로운 아이템을 생성하는 로직을 프로토타입으로 만듭니다."
+          }
+        ],
+        "recommendation_ko": "스토리텔링과 게임 메커니즘을 결합하는 방법을 배우기에 적합합니다. 다만, 방대한 텍스트 작업이 필요하므로 규모를 작게 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 데이터 구조나 엔진 기술이 명시되어 있지 않으며, 외부 서비스 연동(Google Play 게임 등)의 상세 구현 방식은 알 수 없습니다.",
+        "name": "大逆転裁判",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=jp.co.capcom.daigyakusai&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:6473152241": {
+      "app_key": "apple:6473152241",
+      "name": "Triple Match: 3Dグッズソートマッチゲーム",
+      "developer": "Orange One Limited",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/jp/app/triple-match-3d%E3%82%B0%E3%83%83%E3%82%BA%E3%82%BD%E3%83%BC%E3%83%88%E3%83%9E%E3%83%83%E3%83%81%E3%82%B2%E3%83%BC%E3%83%A0/id6473152241?uo=2",
+      "data_date": "2026-10-22",
+      "analysed_at": "2026-10-25T03:41:58+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "スーパーでのお買い物を限られた時間内にすべてを手に入れることができたら、どんな気分でしょうか？その夢のような瞬間が、今ここで実現しました！ 「Goods Master 3D: 仕分けマスター 収納ゲーム」は、様々な野菜、果物、ドリンク、お菓子、おもちゃなど、豊富なグッズを3D体験で仕分けできます。 「Goods Master 3D: 仕分けマスター 収納ゲーム」へようこそ！トリプルマッチの魅力に引き込まれるソートゲームで、何時間でも夢中になれる楽しさが待っています！さあ、今すぐ挑戦して、楽しんでください！ 遊び方： 1. 同じ商品を3つ並べ、棚に配置し、クリアします。 2. 目の前の商品をクリアすると、奥の商品が表示されます。 3. 全ての商品をクリアし、棚を空にするまで続けます。 ご注意：制限時間内にゲームを完了し、すべての商品をカテゴリーに整理することで、3Dマッチゲームに勝利できます。 ゲーム特徴： 無料プレイ：完全無料で、制限なく自由にゲームをお楽しみいただけます。 Wi-Fi不要：ネットワーク制限なしで、いつでもどこでもプレイできます。 ゲームシーン：リアルな商品表現で、まるで本物のショッピングを楽しんでいるかのような体験ができます。 脳トレーニング：シンプルなゲームプレイと高い難易度が特徴です。 ラッキースピン：アイテムや大量のゴールドコインを入手できるチャンスがあります！ 「Goods Master 3D: 仕分けマスター 収納ゲーム」は、シンプルから複雑なレベルまで、様々な難易度を提供し、あなたの脳と反射神経を刺激します。自分のゲームスキルと知性を試し、新たなる高みを目指しましょう。 「Goods Master 3D: 仕分けマスター 収納ゲーム」は、楽しさと発見の旅を提供します。今すぐ「Goods Master 3D: 仕分けマスター 収納ゲーム」をプレイして、驚きと楽しさに満ちた世界への扉を開きましょう。新しいレベルへの挑戦と探索をお楽しみください。 「Goods Master 3D: 仕分けマスター 収納ゲーム」をダウンロードして、新しい冒険に出発しましょう！ プライバシーポリシー：https://orangeonelimited.com/privacy.html 利用規約：https://orangeonelimited.com/useragreement.html",
+      "analysis": {
+        "app_key": "apple:6473152241",
+        "summary_ko": "본 게임은 다양한 3D 물건들을 카테고리별로 분류하여 정리하는 퍼즐 게임입니다. 제한 시간 내에 동일한 상품 3개를 매칭하여 선반에서 제거하는 방식으로 진행됩니다. 직관적인 조작과 3D 그래픽을 통해 쇼핑하는 듯한 경험을 제공합니다.",
+        "features_ko": [
+          "선반에 놓인 다양한 3D 상품 중 같은 종류 3개를 찾아 매칭합니다.",
+          "앞에 놓인 상품을 제거하여 뒤에 가려진 상품을 노출시킵니다.",
+          "제한 시간 내에 모든 상품을 정리하여 레벨을 클리어합니다.",
+          "다양한 난이도의 레벨을 통해 뇌 훈련 및 반사 신경을 자극합니다."
+        ],
+        "noteworthy_ko": "3D 공간에서의 레이어링(겹침) 처리가 핵심입니다. 시각적으로 상품이 겹쳐 보일 때 이를 어떻게 선택하고 제거할지에 대한 UI/UX 처리가 게임의 재미를 결정짓는 중요한 요소로 보입니다.",
+        "development_ko": "핵심 기술로는 3D 오브젝트 배치 알고리즘, 터치 입력 판정, 그리고 레벨 디자인 데이터 구조가 필요합니다. 콘텐츠 제작 부담은 3D 모델링 에셋 확보에 있으며, 밸런스 측면에서는 레벨이 올라갈수록 복잡해지는 배치 패턴을 설계하는 것이 중요합니다.",
+        "idea_ko": "특정 테마(예: 문구류, 주방용품)에 집중하여 3D 매칭 퍼즐의 핵심 로직을 구현하는 것이 좋습니다.",
+        "highlights_ko": [
+          "현실적인 3D 상품 표현을 통해 쇼핑의 재미를 구현했습니다.",
+          "간단한 규칙으로 누구나 쉽게 접근할 수 있는 퍼즐 게임입니다."
+        ],
+        "systems_ko": [
+          "3D 오브젝트 배치 및 관리 시스템",
+          "터치 입력 및 레이캐스팅 판정",
+          "레벨 데이터 관리 및 난이도 조절",
+          "타이머 및 게임 상태 관리",
+          "UI 인터페이스 및 보상 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "3D 공간에서의 오브젝트 매칭 로직은 구현이 명확하며, 에셋을 활용한다면 1인 개발로도 충분히 프로토타입 제작이 가능하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "3D 선반 및 상품 배치",
+            "터치 시 상품 선택 및 매칭 로직",
+            "레벨 클리어 판정"
+          ],
+          "defer": [
+            "라키 스핀(가챠) 시스템",
+            "복잡한 이펙트 및 사운드",
+            "온라인 랭킹"
+          ],
+          "risks": [
+            "3D 모델링 에셋 제작의 시간 소요",
+            "오브젝트 겹침 판정의 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "냉장고 정리 퍼즐",
+            "concept": "냉장고 속 식재료를 유통기한 순이나 종류별로 3개씩 묶어 정리하는 퍼즐입니다.",
+            "first_step": "냉장고 선반을 3D로 구현하고, 아이템을 클릭하여 제거하는 기본 로직을 만듭니다."
+          },
+          {
+            "title": "책장 분류 퍼즐",
+            "concept": "책장에 꽂힌 책들을 장르별로 3권씩 묶어 정리하는 퍼즐입니다.",
+            "first_step": "책 모양의 3D 오브젝트를 생성하고, 같은 색상이나 장르의 책을 3개 선택하면 사라지게 합니다."
+          }
+        ],
+        "recommendation_ko": "3D 퍼즐 게임의 기본 로직과 오브젝트 상호작용을 배우기에 매우 좋습니다. 에셋 스토어를 활용하면 빠르게 결과물을 낼 수 있어 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 3D 엔진 정보나 물리 엔진 사용 여부가 명시되어 있지 않습니다.",
+        "name": "Triple Match: 3Dグッズソートマッチゲーム",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/triple-match-3d%E3%82%B0%E3%83%83%E3%82%BA%E3%82%BD%E3%83%BC%E3%83%88%E3%83%9E%E3%83%83%E3%83%81%E3%82%B2%E3%83%BC%E3%83%A0/id6473152241?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 60,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:6788647921": {
+      "app_key": "apple:6788647921",
+      "name": "Catedrop: Card Puzzle",
+      "developer": "GOODROID,Inc.",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/us/app/catedrop-card-puzzle/id6788647921?uo=2",
+      "data_date": "2026-10-22",
+      "analysed_at": "2026-10-25T03:42:46+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Collect cards, reveal hidden ones, and clear every stage! Welcome to Catedrop, a fresh card puzzle where every move opens new possibilities. Collect matching cards into their groups to remove them from the board and uncover the hidden cards beneath. Each decision changes the puzzle, so planning ahead is the key to success. Easy to learn and satisfying to play, Catedrop offers relaxing puzzles that reward smart thinking without overwhelming complexity. Features • Clear every card to complete each stage • Think ahead and discover the best path • Simple controls with engaging puzzle gameplay • Colorful cards featuring a variety of fun themes • Great for both quick sessions and long playtimes Take your time, plan your moves, and enjoy a unique card puzzle adventure. Download Catedrop today!",
+      "analysis": {
+        "app_key": "apple:6788647921",
+        "summary_ko": "Catedrop은 카드 퍼즐 게임으로, 보드 위의 카드를 그룹별로 매칭하여 제거하고 그 아래 숨겨진 카드를 찾아내는 방식입니다. 각 결정이 퍼즐의 판도를 바꾸므로 전략적인 계획이 중요합니다. 복잡하지 않으면서도 지적인 만족감을 주는 힐링 퍼즐 경험을 제공합니다.",
+        "features_ko": [
+          "보드 위의 모든 카드를 제거하여 스테이지를 완료합니다.",
+          "최적의 경로를 찾기 위해 다음 수를 미리 예측해야 합니다.",
+          "간단한 조작 방식을 통해 퍼즐 게임을 즐길 수 있습니다.",
+          "다양한 테마의 알록달록한 카드 디자인이 포함되어 있습니다."
+        ],
+        "noteworthy_ko": "카드 제거를 통해 하위 레이어를 드러내는 방식은 단순하지만 연쇄적인 퍼즐 풀이의 재미를 줍니다. 개발 관점에서는 카드 배치 알고리즘과 제거 로직의 밸런스가 게임의 난이도를 결정하는 핵심 요소로 보입니다.",
+        "development_ko": "카드 배치와 매칭 로직을 구현하는 것이 핵심이며, 다양한 스테이지를 생성하기 위한 레벨 디자인 도구가 필요합니다. 시각적인 만족감을 위해 카드 애니메이션과 효과를 구현해야 하며, 난이도 곡선을 조정하는 테스트 과정이 중요합니다.",
+        "idea_ko": "카드 제거 시 특정 패턴을 완성하면 보너스 점수를 얻는 '콤보 시스템'을 도입하여 전략성을 높이는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "숨겨진 카드를 찾아내는 탐색적 재미를 강조한 퍼즐 구성입니다.",
+          "짧은 세션과 긴 플레이 타임 모두에 적합한 캐주얼한 게임 구조입니다."
+        ],
+        "systems_ko": [
+          "카드 배치 및 셔플 알고리즘",
+          "매칭 및 제거 판정 시스템",
+          "스테이지 데이터 관리 시스템",
+          "UI/UX 인터랙션 제어",
+          "게임 상태 저장 및 불러오기"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "카드 매칭 로직 자체는 구현이 어렵지 않으나, 퍼즐이 막히지 않도록 스테이지를 설계하는 레벨 디자인과 밸런스 조정에 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카드 배치 및 제거 로직",
+            "스테이지 클리어 판정",
+            "기본 UI 및 카드 그래픽"
+          ],
+          "defer": [
+            "복잡한 애니메이션 효과",
+            "다양한 테마 스킨",
+            "글로벌 리더보드"
+          ],
+          "risks": [
+            "스테이지 설계의 단조로움",
+            "퍼즐의 난이도 밸런스 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "속성 카드 매칭",
+            "concept": "카드에 불, 물, 나무 속성을 부여하여 상성 관계에 따라 제거 시 추가 효과가 발생하는 규칙입니다.",
+            "first_step": "두 가지 속성을 가진 카드 10장을 배치하고 상성 제거 로직을 구현합니다."
+          },
+          {
+            "title": "제한 시간 퍼즐",
+            "concept": "카드를 제거할 때마다 시간이 조금씩 충전되는 방식으로, 긴박감을 더한 퍼즐 모드입니다.",
+            "first_step": "타이머 UI를 추가하고 카드 제거 시 시간 증가 함수를 연결합니다."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 기본 로직인 '매칭과 제거'를 학습하기에 좋습니다. 단순한 메커니즘에서 어떻게 깊이 있는 전략을 끌어낼지 고민하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 카드 배치 알고리즘이나 스테이지 생성 방식이 명시되어 있지 않습니다. 또한, 인앱 결제나 광고 수익 모델에 대한 정보가 없으므로 해당 기능은 구현 범위에서 제외해야 합니다.",
+        "name": "Catedrop: Card Puzzle",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/catedrop-card-puzzle/id6788647921?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 91,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
     }
   }
 }

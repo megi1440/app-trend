@@ -6439,6 +6439,366 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-24"
+    },
+    "google:com.xplay.pop_antistress_simulator": {
+      "app_key": "google:com.xplay.pop_antistress_simulator",
+      "name": "抗ストレスリラックスおもちゃゲーム",
+      "developer": "XGAME STUDIO",
+      "source": "google",
+      "country": "JP",
+      "category": "game_arcade",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.xplay.pop_antistress_simulator&hl=ja&gl=JP",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:27:12+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "アンチストレスリラクゼーションゲーム＆ストレスリリーフは、ストレスリリーフゲーム、満足のいくリラクゼーションゲーム、不安リリーフゲーム、人気のゲームを含むリラクゼーションゲームです。 それはあなたが遊んでいる間リラックスして、あなたが退屈な時間を乗り越えて、ストレスを和らげるのを助けることができます。 驚くべき創造性で、何百人ものデザイナーが自分の楽しいおもちゃを作り始めました。 私たちはそれらの中で最高のものを選択しました。ゲームを構成する50以上のリラックスできる抗ストレス玩具ゲームです。 私たちのゲームをプレイするいくつかの方法： -そわそわする -泡 -指先ルービックキューブ -フィジェットスピナー -指先の十二角形 -豆のおもちゃ -スライム -スライスした砂 - プチプチ -スマッシュゲーム 今すぐダウンロードしてお楽しみください！",
+      "analysis": {
+        "app_key": "google:com.xplay.pop_antistress_simulator",
+        "summary_ko": "다양한 안티 스트레스 장난감을 모아놓은 시뮬레이션 게임입니다. 피젯 스피너, 슬라임, 뽁뽁이 등 50가지 이상의 만족스러운 장난감을 통해 스트레스를 해소할 수 있습니다. 간단한 조작으로 언제 어디서나 휴식을 취할 수 있는 아케이드 게임입니다.",
+        "features_ko": [
+          "피젯 스피너, 슬라임, 뽁뽁이 등 50가지 이상의 장난감을 제공합니다.",
+          "터치와 드래그를 활용한 직관적인 조작 방식을 지원합니다.",
+          "반복적인 동작을 통해 심리적 안정과 스트레스 해소를 돕습니다.",
+          "다양한 질감과 소리를 구현하여 시각적, 청각적 만족감을 줍니다.",
+          "간단한 아케이드 방식의 미니 게임들을 포함하고 있습니다."
+        ],
+        "noteworthy_ko": "단순한 상호작용의 반복이 주는 심리적 효과를 게임화한 점이 특징입니다. 각 장난감마다 고유한 물리적 반응을 구현하는 것이 사용자 경험의 핵심입니다.",
+        "development_ko": "각 장난감의 물리적 특성을 구현하는 것이 핵심이며, 터치 입력에 따른 반응 속도와 피드백(햅틱 등)이 중요합니다. 다양한 장난감을 모듈화하여 추가하기 쉬운 구조로 설계해야 하며, 사운드 효과가 사용자 만족도에 큰 영향을 미치므로 고품질의 오디오 리소스가 필요합니다.",
+        "idea_ko": "사용자가 직접 자신만의 안티 스트레스 장난감을 커스터마이징하거나, 장난감을 조합하여 새로운 형태를 만드는 제작 모드를 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "50가지 이상의 다양한 안티 스트레스 장난감 컬렉션.",
+          "직관적인 조작으로 즉각적인 스트레스 해소 경험 제공."
+        ],
+        "systems_ko": [
+          "물리 기반 상호작용 시스템",
+          "장난감 모듈 관리 시스템",
+          "터치 입력 및 제스처 인식",
+          "사운드 및 햅틱 피드백 시스템",
+          "UI 메뉴 및 장난감 선택 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "각 장난감은 독립적인 작은 기능들이므로 1인 개발자가 하나씩 구현하여 추가하기 매우 쉽습니다. 복잡한 게임 로직보다는 물리와 사운드 연출에 집중하면 됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 터치 반응 시스템",
+            "3~5가지 핵심 장난감(뽁뽁이, 스피너 등)",
+            "장난감 선택 메뉴"
+          ],
+          "defer": [
+            "50가지 이상의 대규모 장난감 컬렉션",
+            "복잡한 커스터마이징 기능",
+            "온라인 리더보드"
+          ],
+          "risks": [
+            "반복적인 콘텐츠로 인한 낮은 리텐션",
+            "물리 반응의 부자연스러움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "나만의 슬라임 연구소",
+            "concept": "다양한 재료를 섞어 자신만의 슬라임을 만들고, 그 질감을 테스트하는 게임입니다. 재료 조합에 따라 슬라임의 점성과 색상이 달라집니다.",
+            "first_step": "두 가지 색상의 슬라임을 섞어 중간 색상을 만드는 간단한 로직 구현."
+          },
+          {
+            "title": "ASMR 장난감 제작기",
+            "concept": "장난감을 조립하는 과정에서 발생하는 소리를 녹음하고 편집하여 자신만의 ASMR 영상을 만드는 게임입니다.",
+            "first_step": "장난감 조작 시 발생하는 소리를 실시간으로 재생하는 오디오 엔진 구현."
+          }
+        ],
+        "recommendation_ko": "물리 엔진과 상호작용 피드백을 배우기에 매우 좋은 프로젝트입니다. 1인 개발자가 작은 단위로 기능을 확장하며 완성도를 높이기에 적합합니다.",
+        "source_limitations_ko": "소개문에 언급된 '50가지 이상의 장난감'이 실제 어떤 물리적 메커니즘을 사용하는지, 햅틱 피드백이 기기별로 어떻게 최적화되는지는 확인되지 않습니다.",
+        "name": "抗ストレスリラックスおもちゃゲーム",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.xplay.pop_antistress_simulator&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:436672029": {
+      "app_key": "apple:436672029",
+      "name": "AliExpress - Shopping App",
+      "developer": "Alibaba",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/aliexpress-shopping-app/id436672029",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:36:37+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "AliExpress: Your Ultimate Summer Shopping Destination Get ready to upgrade your summer with the AliExpress app! Whether you’re gearing up for vacation, refreshing your wardrobe, or hunting for the latest tech gadgets, AliExpress is your go-to marketplace for millions of items at unbeatable prices. From seasonal fashion staples to innovative smart-home solutions, we bring the world’s best deals directly to your fingertips. Why Shop on AliExpress? AliExpress is designed for the modern shopper who demands variety, quality, and value. Our app simplifies your shopping experience, allowing you to browse through endless categories with ease. Looking for those viral social media finds or everyday essentials? You’ll discover hidden gems and global trends that fit every budget and lifestyle. Key Features for a Smarter Shopping Experience: Summer Sales & Exclusive Deals: August is all about big savings! Stay ahead of the curve with our seasonal promotions and exclusive app-only discounts. Enable push notifications to be the first to know when prices drop on your favorite items. Personalized Recommendations: Our app learns your style. By analyzing your interests, we curate a personalized feed filled with new arrivals and trending products tailored specifically to you. Secure & Effortless Checkout: Shop with complete confidence. Our streamlined, secure payment system supports multiple trusted methods. Your privacy and financial security are our top priorities, ensuring a worry-free experience from cart to delivery. Global Shipping & Real-Time Tracking: Wherever you are, we’ve got you covered. Benefit from our reliable global shipping network and stay in the loop with real-time order tracking. Know exactly when your summer haul will arrive at your door. Informed Decisions: Shop smart by reading verified buyer reviews and checking detailed product descriptions. Join a global community of millions of satisfied shoppers who share their experiences and photos to help you make the best choice. Shopping Made Simple The AliExpress app is more than just a store—it’s your personal shopping companion. Whether you’re at the beach, on your commute, or relaxing at home, our user-friendly interface makes it fun and intuitive to discover what you need. From high-tech electronics to stylish home decor, finding the perfect item has never been faster or easier. Join the AliExpress Community Be a part of a vibrant global marketplace. With millions of products and thousands of sellers, you’ll connect with a world of choices that you won’t find anywhere else. We are committed to making your shopping journey exciting, reliable, and rewarding. Ready to kick off your autumn adventure? Don’t miss the season’s best finds! Download the AliExpress app today and start exploring a world of endless possibilities. Whether you’re refreshing your wardrobe for cooler days, gearing up for the holiday season ahead, or finding the perfect gift, your next great discovery is just a tap away. Your world, your style, your deals—all on AliExpress.",
+      "analysis": {
+        "app_key": "apple:436672029",
+        "summary_ko": "AliExpress는 전 세계 수백만 개의 상품을 구매할 수 있는 글로벌 쇼핑 마켓플레이스 앱입니다. 개인화된 상품 추천, 실시간 주문 추적, 안전한 결제 시스템을 제공하여 편리한 쇼핑 경험을 지원합니다. 사용자 리뷰와 상세한 상품 정보를 통해 합리적인 소비를 돕습니다.",
+        "features_ko": [
+          "개인화된 관심사 분석을 통해 맞춤형 상품 추천 피드를 제공합니다.",
+          "글로벌 배송 네트워크를 통한 실시간 주문 추적 기능을 지원합니다.",
+          "다양한 결제 수단을 지원하는 보안 결제 시스템을 갖추고 있습니다.",
+          "검증된 구매자 리뷰와 상세 설명을 통해 상품 정보를 제공합니다."
+        ],
+        "noteworthy_ko": "거대 규모의 이커머스 플랫폼으로, 개인 개발자가 구현하기에는 데이터 처리량과 보안 요구사항이 매우 높습니다. 쇼핑 앱의 UI/UX 흐름을 참고하는 용도로 적합합니다.",
+        "development_ko": "핵심 기술은 대규모 데이터베이스 관리, 실시간 API 통신, 보안 결제 연동입니다. 콘텐츠 제작은 수많은 판매자와 상품 데이터 관리 시스템이 주를 이룹니다. 테스트는 대규모 트래픽 처리와 결제 보안 검증이 필수적이며, 밸런스 조정은 개인화 알고리즘의 정확도 향상에 집중해야 합니다.",
+        "idea_ko": "특정 카테고리(예: 빈티지 의류, 수제 공예품)에 특화된 소규모 마켓플레이스 앱으로 범위를 좁혀 구현하는 것이 현실적입니다.",
+        "highlights_ko": [
+          "개인화된 상품 추천 알고리즘.",
+          "글로벌 배송 및 실시간 추적 시스템."
+        ],
+        "systems_ko": [
+          "상품 검색 및 필터링 시스템",
+          "사용자 프로필 및 장바구니 시스템",
+          "결제 게이트웨이 연동 시스템",
+          "주문 관리 및 배송 추적 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "결제, 보안, 대규모 데이터 처리 등 전문적인 인프라가 필수적이므로 1인 개발자가 전체를 구현하는 것은 불가능에 가깝습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 리스트 조회",
+            "장바구니 기능",
+            "기초적인 주문 관리"
+          ],
+          "defer": [
+            "실시간 배송 추적",
+            "AI 추천 엔진",
+            "글로벌 결제 시스템"
+          ],
+          "risks": [
+            "결제 보안 및 개인정보 보호 문제",
+            "서버 인프라 구축 및 유지 비용"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중고 거래 마켓",
+            "concept": "특정 지역이나 커뮤니티 내에서 물건을 사고파는 소규모 중고 거래 플랫폼입니다.",
+            "first_step": "상품 등록 및 게시판 형태의 리스트 구현."
+          },
+          {
+            "title": "위시리스트 공유 앱",
+            "concept": "구매 대신 사고 싶은 물건을 모아 공유하고 친구들의 의견을 묻는 쇼핑 보조 앱입니다.",
+            "first_step": "상품 링크 저장 및 공유 기능 구현."
+          }
+        ],
+        "recommendation_ko": "쇼핑 앱의 UI/UX 구조를 학습하기에는 좋으나, 실제 서비스 개발은 보안과 운영 부담이 매우 커서 비추천합니다.",
+        "source_limitations_ko": "소개문에는 결제 보안 표준(PCI-DSS 등)이나 서버 아키텍처에 대한 정보가 없습니다. 실제 구현 시 법적 규제와 보안 검증이 필수적입니다.",
+        "name": "AliExpress - Shopping App",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/aliexpress-shopping-app/id436672029",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 95,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "google:com.reclear.phonecleaner.aiclean.storage": {
+      "app_key": "google:com.reclear.phonecleaner.aiclean.storage",
+      "name": "ReClear: Phone Storage Cleaner",
+      "developer": "TopOne gold",
+      "source": "google",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.reclear.phonecleaner.aiclean.storage&hl=ko&gl=KR",
+      "data_date": "2026-10-22",
+      "analysed_at": "2026-10-25T03:39:11+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "컴퓨터에서 중복되거나 오래된 파일을 정리하는 데 너무 많은 시간을 허비하고 계신가요? ReClear: Phone Storage Cleaner는 일상적인 저장 공간 관리를 위해 설계된 AI 기반 도구를 사용하여 사진, 비디오, 문서 및 기타 파일을 효율적으로 관리할 수 있도록 도와줍니다. 간편한 조작으로 파일을 검토하고, 갤러리를 정리하고, 저장 공간을 확장하세요. ✨ 일상적인 저장 공간을 위한 AI 스마트 클린 AI 스마트 클린으로 몇 단계만 거치면 저장 공간을 정리할 수 있습니다. 앱이 기기를 스캔하여 유사한 파일을 정리된 카테고리로 그룹화하므로 내용을 쉽게 확인할 수 있습니다. 중복 사진, 중복 비디오 및 유사한 파일이 함께 표시되므로 어떤 파일을 남기고 어떤 파일을 삭제할지 빠르게 결정할 수 있습니다. 폴더를 하나씩 검색하는 대신, 깔끔하고 정리된 레이아웃에서 파일을 검토한 후 필요한 조치를 취할 수 있습니다. ✨ 사진, 비디오 및 문서 정리 사진, 비디오 및 문서 전용 정리 도구를 사용하여 저장 공간을 깔끔하게 유지하세요. 각 카테고리를 개별적으로 탐색하고, 불필요한 파일을 검토하고, 더 이상 필요하지 않은 콘텐츠를 삭제하세요. ✨ 스와이프하여 파일 유지/삭제 직관적인 스와이프 컨트롤로 파일을 간편하게 관리할 수 있습니다. 왼쪽으로 스와이프하여 원치 않는 파일을 삭제하고, 오른쪽으로 스와이프하여 원하는 파일을 유지하세요. ✨ 사진 및 동영상 압축 기기에서 파일을 삭제하지 않고도 미디어 파일 저장 공간을 줄일 수 있습니다. 사진과 동영상을 압축하여 저장 공간을 확보하고 필요할 때 언제든 파일을 사용할 수 있도록 하세요. ✨ 용량이 크거나 오래된 파일 찾기 저장 공간을 많이 차지하거나 오랫동안 사용하지 않은 파일을 쉽게 찾을 수 있습니다. 용량이 큰 파일과 오래된 콘텐츠를 한 곳에서 확인하여 기기에 보관해야 할 파일을 간편하게 검토하세요. ✨ 휴지통 관리 휴지통을 확인하여 허용된 기간 내에 실수로 삭제한 파일을 복구하세요. 개별 항목을 찾아 쉽게 복구하거나 한 번에 모든 파일을 복원할 수 있습니다. ReClear는 AI 클리너, 휴대폰 클리너, 저장 공간 클리너 기능을 하나의 간편한 앱에 담았습니다. ⚠️ 주의사항 - 영구 삭제: 파일을 영구 삭제하기로 확인하면 해당 파일은 기기에서 완전히 삭제됩니다. 삭제하기 전에 파일을 꼼꼼히 검토해 주세요. - 복구/백업 기능 없음: 이 앱은 데이터 복구를 지원하지 않습니다. 저장 공간 최적화 및 파일 삭제를 위해 설계되었습니다. - 개인정보 보호: 이 저장 공간 정리 앱은 사용자의 개인 데이터나 파일을 수집하거나 공유하지 않습니다. 모든 처리는 사용자의 기기에서 로컬로 이루어집니다. - 사용자 책임: 사용자는 중요한 파일을 삭제하지 않도록 주의해야 합니다.",
+      "analysis": {
+        "app_key": "google:com.reclear.phonecleaner.aiclean.storage",
+        "summary_ko": "AI 기술을 활용하여 스마트폰 내 중복 파일과 불필요한 데이터를 정리하는 저장 공간 관리 도구입니다. 사진, 비디오, 문서 등을 카테고리별로 분류하여 사용자가 쉽게 삭제할 수 있도록 돕습니다. 스와이프 방식을 통해 직관적인 파일 관리를 지원합니다.",
+        "features_ko": [
+          "AI가 기기를 스캔하여 유사한 파일을 그룹화합니다.",
+          "스와이프 동작으로 파일을 유지하거나 삭제할 수 있습니다.",
+          "사진과 동영상을 압축하여 저장 공간을 확보합니다.",
+          "용량이 크거나 오래된 파일을 찾아내어 관리합니다.",
+          "삭제된 파일을 일정 기간 내에 복구할 수 있는 휴지통 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "사용자의 행동 패턴을 스와이프 UI로 단순화하여 복잡한 파일 관리 과정을 게임처럼 느끼게 한 점이 인상적입니다. 로컬 처리를 강조하여 개인정보 보호를 중시하는 사용자에게 신뢰를 주는 전략이 돋보입니다.",
+        "development_ko": "파일 시스템 접근 권한 처리와 AI 기반의 유사 이미지 판별 알고리즘이 핵심 기술입니다. 파일 압축 라이브러리 활용과 사용자 데이터 보호를 위한 로컬 처리 로직 구현이 중요합니다. 테스트 시 다양한 기기 환경에서의 파일 접근 권한 호환성을 검증해야 합니다.",
+        "idea_ko": "특정 카테고리(예: 스크린샷, 영수증 사진)만 전문적으로 분류하여 정리해주는 특화 클리너 앱이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "AI를 통한 자동 파일 그룹화로 정리 효율을 극대화했습니다.",
+          "스와이프 기반의 직관적인 UI로 사용자 경험을 개선했습니다."
+        ],
+        "systems_ko": [
+          "파일 시스템 스캔 및 접근 시스템",
+          "이미지 유사도 분석 알고리즘",
+          "파일 압축 및 변환 엔진",
+          "로컬 데이터베이스 관리",
+          "UI/UX 스와이프 제스처 처리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "파일 시스템 접근 권한과 기본적인 이미지 처리 로직은 구현 가능하나, AI의 정확도와 다양한 기기에서의 안정적인 파일 처리를 보장하는 데 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "파일 스캔 및 카테고리 분류 기능",
+            "파일 삭제 및 휴지통 기능",
+            "기본적인 파일 목록 UI"
+          ],
+          "defer": [
+            "고급 AI 이미지 분석",
+            "클라우드 백업 연동"
+          ],
+          "risks": [
+            "OS별 파일 접근 권한 정책 변화",
+            "사용자 데이터 삭제 사고 위험"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스크린샷 다이어트",
+            "concept": "갤러리에 쌓인 수많은 스크린샷 중 텍스트가 포함된 것과 아닌 것을 구분하여 정리해주는 앱입니다. 정보성 스크린샷을 따로 보관하는 기능을 제공합니다.",
+            "first_step": "이미지 내 텍스트 인식(OCR) 라이브러리를 활용한 스크린샷 분류 기능 구현."
+          },
+          {
+            "title": "중복 파일 타임라인",
+            "concept": "시간대별로 중복된 사진을 보여주어 가장 잘 나온 사진만 남기고 나머지를 삭제하도록 유도하는 앱입니다.",
+            "first_step": "사진 메타데이터(EXIF)를 읽어 시간순으로 정렬하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "유틸리티 앱의 핵심인 '사용자 편의성'과 '권한 관리'를 배우기에 적합합니다. 다만, OS 정책에 민감한 분야이므로 최신 개발 가이드를 준수하는 것이 필수입니다.",
+        "source_limitations_ko": "소개문에는 사용된 AI 모델의 종류나 파일 압축 알고리즘의 구체적인 방식이 명시되어 있지 않습니다. 또한, 휴지통 기능의 구체적인 보관 기간이나 로컬 처리의 기술적 상세 내용은 확인이 불가능합니다.",
+        "name": "ReClear: Phone Storage Cleaner",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.reclear.phonecleaner.aiclean.storage&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:6504540166": {
+      "app_key": "apple:6504540166",
+      "name": "Flop House",
+      "developer": "Crazy Labs",
+      "source": "apple",
+      "country": "US",
+      "category": "game_rpg",
+      "detail_url": "https://apps.apple.com/us/app/flop-house/id6504540166?uo=2",
+      "data_date": "2026-10-22",
+      "analysed_at": "2026-10-25T03:39:11+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "WELCOME TO FLOP HOUSE Think you can run a homeless shelter without losing your cool? In Flop House, you’re the idle manager of the most chaotic “home away from home” you’ll ever build. Take in folks, hand out meals, and prove you’ve got what it takes to turn a flop into a full-on success story. BUILD YOUR SHELTER, YOUR WAY Start small with a beat-up homeless shelter that barely has a bed and a bathroom. Upgrade it step by step—add kitchens, showers, and all the essentials. The better your shelter gets, the more people show up to crash at your Flop House. FROM NOTHING TO TYCOON STATUS This isn’t just about good vibes—it’s about smart moves. Manage resources, hire staff, and unlock upgrades like a pro. With every level-up, you’re not just giving people a place to sleep—you’re building your own legend as an idle tycoon. TEAMWORK MAKES THE DREAM WORK Cooking, cleaning, caring—it’s a lot for one guy. Luckily, you can build a team to keep your shelter running. Just don’t slack off too hard—your Flop House doesn’t manage itself! LOVE SIMULATIONS? If you’re into simulation games, Flop House fits right in. It mixes the fun of animal shelter games, the strategy of idle tycoon games, and the chill grind of a classic simulation game—all with its own chaotic twist. Whether you call it a shelter simulator or an idle manager, this game delivers the laughs, the upgrades, and the endless grind you’re looking for. WHY FLOP HOUSE RULES -Addictive shelter games mechanics with a casual idle life vibe -Play as an idle manager running a real homeless shelter -Build, upgrade, and expand like it’s your personal idle hotel -Experience shelter management with a mix of humor and heart So, ready to dive into homeless life (the game kind, not the real deal) and prove you’re the boss of the ultimate homeless shelter? Download now and start managing! To opt out of CrazyLabs sales of personal information as a California resident, please visit the settings page within this app. For more information visit our privacy policy: https://crazylabs.com/app",
+      "analysis": {
+        "app_key": "apple:6504540166",
+        "summary_ko": "노숙자 쉼터를 운영하며 시설을 확장하고 관리하는 방치형 경영 시뮬레이션 게임입니다. 자원을 관리하고 직원을 고용하여 쉼터를 성공적인 시설로 성장시키는 것이 목표입니다. 유머러스한 분위기 속에서 경영 전략과 성장의 재미를 제공합니다.",
+        "features_ko": [
+          "쉼터의 시설을 단계별로 업그레이드할 수 있습니다.",
+          "음식 제공, 청소 등 쉼터 운영 업무를 수행합니다.",
+          "직원을 고용하여 운영 효율을 높일 수 있습니다.",
+          "방치형 게임 특유의 자동화 및 성장 루프를 제공합니다.",
+          "다양한 시설 업그레이드를 통해 더 많은 사람을 수용합니다."
+        ],
+        "noteworthy_ko": "사회적 소재를 경영 시뮬레이션 게임으로 풀어낸 점이 독특합니다. 방치형 게임의 핵심인 '성장 곡선'과 '자원 관리'를 쉼터라는 공간에 잘 녹여낸 구조가 흥미롭습니다.",
+        "development_ko": "방치형 게임의 핵심인 재화 획득 및 소비 밸런스 설계가 가장 중요합니다. 시설 업그레이드에 따른 시각적 변화와 직원 AI 로직 구현이 필요합니다. 1인 개발 시에는 복잡한 시뮬레이션보다는 수치 중심의 성장 루프를 먼저 구현하는 것이 효율적입니다.",
+        "idea_ko": "쉼터 운영을 넘어, 쉼터 이용자들이 사회로 복귀하도록 돕는 '재활 프로그램'을 관리하는 시스템을 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "방치형 게임의 중독성 있는 성장 메커니즘을 쉼터 운영에 적용했습니다.",
+          "시설 업그레이드와 직원 고용을 통해 경영의 재미를 극대화했습니다."
+        ],
+        "systems_ko": [
+          "재화 획득 및 소비 밸런스 시스템",
+          "시설 업그레이드 및 데이터 관리",
+          "직원 AI 및 업무 할당 시스템",
+          "방치형 보상 계산 로직",
+          "UI/UX 경영 대시보드"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "방치형 게임의 기본 구조는 구현하기 어렵지 않으나, 지속적인 플레이를 유도하는 밸런스 조정과 콘텐츠 확장이 1인 개발자에게는 꾸준한 노력을 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 자원(돈) 획득 루프",
+            "시설 업그레이드 버튼 및 효과",
+            "기본적인 UI 레이아웃"
+          ],
+          "defer": [
+            "복잡한 직원 AI",
+            "다양한 이벤트 시스템"
+          ],
+          "risks": [
+            "콘텐츠 부족으로 인한 빠른 지루함",
+            "경제 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "쉼터 텃밭 가꾸기",
+            "concept": "쉼터 뒤뜰에 텃밭을 만들어 직접 식재료를 조달하는 미니 게임입니다. 식재료를 직접 생산하면 운영 비용이 절감됩니다.",
+            "first_step": "간단한 작물 재배 및 수확 로직 구현."
+          },
+          {
+            "title": "이용자 사연 수집가",
+            "concept": "쉼터 이용자들의 사연을 수집하여 앨범을 채우는 수집 요소입니다. 사연에 따라 쉼터의 평판이 달라집니다.",
+            "first_step": "텍스트 기반의 사연 데이터베이스 및 UI 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 데이터 구조와 성장 밸런스를 배우기에 최적입니다. 경영 시뮬레이션의 기본기를 다지고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 게임 내 구체적인 수치 밸런스나 직원 AI의 동작 방식, 이벤트 발생 로직 등이 명시되어 있지 않습니다. 또한, 외부 광고 연동이나 결제 시스템의 상세 구현은 확인이 불가능합니다.",
+        "name": "Flop House",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/flop-house/id6504540166?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
     }
   }
 }

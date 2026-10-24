@@ -5277,6 +5277,816 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-24"
+    },
+    "apple:6782287287": {
+      "app_key": "apple:6782287287",
+      "name": "Togethery - 장보기 목록·공유 투두리스트",
+      "developer": "Lifebit",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_productivity",
+      "detail_url": "https://apps.apple.com/kr/app/togethery-%EC%9E%A5%EB%B3%B4%EA%B8%B0-%EB%AA%A9%EB%A1%9D-%EA%B3%B5%EC%9C%A0-%ED%88%AC%EB%91%90%EB%A6%AC%EC%8A%A4%ED%8A%B8/id6782287287?uo=2",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:21:02+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Togethery는 세상 심플한 우리가족 공유 리스트예요. 장보기 목록과 할 일은 물론, 자주 꺼내 보는 메모까지 담아요. 다 떨어진 세제부터 주말에 할 일까지, 떠오르면 담아두고, 가족 모두 실시간으로 함께 봐요. 채팅방에, 냉장고 포스트잇에, 각자의 머릿속에 흩어지던 것들을 이제 우리집 리스트 한곳에 모아요. ■ 장보기, 할일, 메모 — 따로 또 같이 장보기 탭에서는 살 것만 빠르게 확인하고, 할일 탭에서는 집안일과 주말 할 일에 집중해요. 메모 탭에는 우리집 레시피, 가족 옷·신발 사이즈처럼 함께 기억할 것들을 모아요. ■ 함께 쓰는 하나의 리스트 누가 담아도, 더하는 순간 모두의 화면에 함께 채워져요. ■ 묻지 않아도 서로 알아요 \"그거 샀어?\", \"그거 했어?\" 서로 확인하던 일이 사라져요. 무엇이 남았는지 리스트에 다 보이니까요. ■ 앱을 열지 않아도 놓치지 않아요 새 항목이 담기거나 댓글이 달리면, 가족이 합류하면 알림으로 알려드려요. 날짜가 있는 할일은 정해둔 시각에, 오늘 할 일은 모닝 브리핑으로 한 번에. 알림은 종류별로 켜고 끌 수 있고, 밤에는 조용히 알려드려요. ■ 항목 안에서 바로 상의해요 브랜드, 수량, 부탁할 내용은 설명과 댓글로 항목 안에 남겨요. ■ 정리도 검색도, 우리 방식대로 생활용품·식재료·손님맞이처럼, 폴더로 우리 방식대로 분류해요. 필요한 건 검색 한 번이면 메모까지 바로 나와요. ■ 할일은 캘린더로도 날짜가 있는 할일을 달력에서 한눈에 봐요. 목록과 캘린더는 언제든 전환할 수 있어요. 지나간 할일은 한곳에 모아 한 번에 정리해요. 약속처럼 날짜만 있으면 되는 일은 체크하지 않아도 알아서 지나가요. ■ 이런 분들께 딱이에요 · 가족이 함께 보는 장보기 리스트가 필요한 분 · 집안일과 주말 할 일을 자주 놓치는 분 · 메모장과 포스트잇에 흩어진 목록을 한곳에 모으고 싶은 분 · 부모님도 쉽게 쓸 수 있는 단순한 공유 리스트를 찾는 분 장보기와 할 일, 메모까지 한 앱에서 가족과 함께. Togethery 이용약관(Terms of Use / EULA): https://www.apple.com/legal/internet-services/itunes/appstore/dev/stdeula/ Togethery 서비스 이용약관: https://togethery.lifebitlab.com/terms?lang=ko 개인정보처리방침: https://togethery.lifebitlab.com/privacy?lang=ko",
+      "analysis": {
+        "app_key": "apple:6782287287",
+        "summary_ko": "Togethery는 가족이나 팀 단위로 장보기 목록, 할 일, 메모를 실시간으로 공유하는 생산성 앱입니다. 구성원 간의 항목 추가와 댓글 기능을 통해 소통하며, 캘린더 뷰를 통해 일정을 관리할 수 있습니다. 단순하고 직관적인 인터페이스를 통해 일상적인 협업을 돕습니다.",
+        "features_ko": [
+          "장보기, 할 일, 메모 탭을 분리하여 목적에 맞게 관리합니다.",
+          "실시간 동기화를 통해 구성원 모두가 최신 리스트를 확인할 수 있습니다.",
+          "항목별 댓글 기능을 통해 상세 내용을 상의할 수 있습니다.",
+          "날짜가 있는 할 일은 캘린더 뷰로 전환하여 한눈에 볼 수 있습니다.",
+          "새 항목 추가나 댓글 작성 시 푸시 알림을 통해 소통을 돕습니다."
+        ],
+        "noteworthy_ko": "협업 앱의 핵심은 '실시간 동기화'와 '사용자 경험의 단순함'입니다. 가족이라는 타겟층에 맞춰 복잡한 기능보다는 직관적인 UI를 제공하는 전략이 돋보입니다. 개인 개발자에게는 실시간 데이터베이스(Firebase 등)를 활용한 동기화 로직을 익히기에 최적의 프로젝트입니다.",
+        "development_ko": "핵심 구현 기술로는 실시간 데이터베이스 연동, 푸시 알림 서버, 그리고 사용자 그룹 관리 시스템이 필요합니다. 콘텐츠 제작 부담은 낮으나, 사용자 간 데이터 충돌 방지와 동기화 속도 최적화가 중요합니다. 테스트 시 다중 기기 환경에서의 실시간 반영 여부를 검증해야 합니다.",
+        "idea_ko": "특정 취미 그룹(예: 캠핑, 독서 모임)을 위한 맞춤형 공유 리스트 앱이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "가족 구성원 간의 실시간 소통과 정보 공유에 최적화되어 있습니다.",
+          "리스트와 캘린더 뷰를 자유롭게 전환하여 일정을 관리할 수 있습니다."
+        ],
+        "systems_ko": [
+          "실시간 데이터 동기화 시스템",
+          "사용자 그룹 및 권한 관리 시스템",
+          "푸시 알림 관리 시스템",
+          "캘린더 연동 및 이벤트 관리 시스템",
+          "데이터 검색 및 필터링 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "실시간 데이터베이스 라이브러리를 활용하면 동기화 로직을 쉽게 구현할 수 있으며, UI가 단순하여 개발 부담이 적습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "리스트 항목 추가/삭제",
+            "실시간 동기화",
+            "사용자 초대 기능"
+          ],
+          "defer": [
+            "캘린더 뷰",
+            "댓글 기능",
+            "폴더 분류 기능"
+          ],
+          "risks": [
+            "데이터 동기화 지연",
+            "사용자 초대 및 권한 관리의 복잡성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "캠핑 준비물 공유 리스트",
+            "concept": "캠핑장별로 필요한 준비물을 리스트화하고, 누가 무엇을 챙길지 담당자를 지정하는 공유 앱입니다.",
+            "first_step": "준비물 항목에 담당자 필드를 추가하고 리스트를 공유하는 기능 구현."
+          },
+          {
+            "title": "독서 모임 도서 관리",
+            "concept": "함께 읽을 책 목록을 공유하고, 읽은 페이지나 감상을 기록하는 공유 리스트입니다.",
+            "first_step": "도서 목록을 공유하고 각자 읽은 진척도를 표시하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "실시간 데이터베이스 활용법을 배우기에 가장 좋은 프로젝트입니다. 사용자 간의 상호작용을 설계하는 경험을 쌓을 수 있어 추천합니다.",
+        "source_limitations_ko": "소개문에는 데이터 보안 정책이나 서버 인프라에 대한 구체적인 정보가 없습니다. 또한 외부 서비스 연동(캘린더 등)의 기술적 상세 내용은 명시되지 않았습니다.",
+        "name": "Togethery - 장보기 목록·공유 투두리스트",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/togethery-%EC%9E%A5%EB%B3%B4%EA%B8%B0-%EB%AA%A9%EB%A1%9D-%EA%B3%B5%EC%9C%A0-%ED%88%AC%EB%91%90%EB%A6%AC%EC%8A%A4%ED%8A%B8/id6782287287?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 204,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 12,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:1278474169": {
+      "app_key": "apple:1278474169",
+      "name": "ノートン 360: あんしんセキュリティ&VPN",
+      "developer": "Gen Digital Inc.",
+      "source": "apple",
+      "country": "JP",
+      "category": "app_tools",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%83%8E%E3%83%BC%E3%83%88%E3%83%B3-360-%E3%81%82%E3%82%93%E3%81%97%E3%82%93%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3-vpn/id1278474169?uo=2",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:23:12+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Norton 360 for iOS でより安全にウェブを閲覧しましょう。 Norton 360は、AIによるマルウェア保護やオンラインプライバシーを守るVPNなどを備え、強力なモバイルセキュリティを提供します。内蔵の詐欺対策機能が、ブラウジング、ショッピング、メッセージ送信時の安全を守ります。 - Norton Genie - AI 詐欺対策アシスタント - セーフ SMS : スパムやフィッシングを防ぐ AI 保護 - セーフウェブ : ウェブ閲覧中の詐欺サイトから保護 Norton 360 は最新のセキュリティパッチや OS アップデートを確認し、脆弱性を悪用するサイバー攻撃からデバイスを守ります。 デバイスのセキュリティ：古いOSやパスコード未設定を検出し、デバイスが盗まれた場合でもデータをより安全に保ちます。 Norton Genie：オンラインセキュリティに関する質問に答え、メッセージやYouTube動画の詐欺を見分ける手助けをします。[3] VPN : 銀行レベルの暗号化でプライバシーを守り、安全な接続を実現。世界中どこからでもお気に入りのコンテンツにアクセスできます。 Wi-Fiセキュリティ：Wi-Fiネットワークをスキャンし、デバイスが脆弱なネットワークに接続されていないか確認します。 セーフ SMS : フィッシング攻撃を含む可能性のある SMS を AI で自動検出・フィルタリングします。 セーフウェブ : 高度な AI がウェブ閲覧中の詐欺を検出し、危険なページへのアクセスを防ぎます。 広告トラッカーブロッカー : 複数のプラットフォームで広告をブロックし、プライバシーとセキュリティを強化します。 ダークウェブモニタリング : ダークウェブを監視し、個人情報やセキュリティ侵害が見つかった場合に通知します。[2] サブスクリプション詳細 機能の利用可否はプランおよび国によって異なります。 7 日間の無料トライアルを有効にするには年間サブスクリプションが必要です（アプリ内価格を参照）。 課金を避けるため、トライアル期間終了前にサブスクリプションをキャンセルしてください。 7 日間のトライアル終了後、サブスクリプションは自動的に開始され、毎年自動更新されます。 購入後、Apple アカウント設定でサブスクリプションおよび自動更新を管理できます。 7 日間の無料トライアルは対象プランに適用され、オファーによって異なる場合があります。 プライバシーポリシー Norton はオンラインプライバシーを尊重し、個人データの保護に努めています。詳細は以下をご覧ください。 https://www.norton.com/privacy すべてのサイバー犯罪や個人情報の盗難を防止できるわけではありません。 [1] セキュアな Norton VPN は一部の国では利用できません。インド国内では法規制により利用できませんが、国外では引き続き使用できます。 [2] ダークウェブモニタリングは一部の国では利用できません。監視対象の情報は国やプランによって異なります。デフォルトではメールアドレスが監視されます。アカウントにサインインして追加情報を登録してください。 [3] 現在アーリーアクセスで利用可能で、英語のYouTube動画のみ対応しています。",
+      "analysis": {
+        "app_key": "apple:1278474169",
+        "summary_ko": "Norton 360은 모바일 기기를 위한 종합 보안 솔루션입니다. AI 기반의 악성코드 보호, VPN, 웹 브라우징 보안 기능을 제공하여 온라인 위협으로부터 사용자를 보호합니다. 또한 기기의 보안 상태를 점검하고 개인정보 유출을 감시하는 기능을 포함하고 있습니다.",
+        "features_ko": [
+          "AI 기반의 악성코드 보호 및 스팸/피싱 SMS 필터링 기능을 제공합니다.",
+          "VPN을 통해 통신을 암호화하고 안전한 네트워크 연결을 지원합니다.",
+          "웹 브라우징 중 위험한 사이트 접근을 차단하는 세ーフウェブ 기능을 제공합니다.",
+          "기기의 OS 업데이트 상태와 보안 설정을 점검하여 취약점을 관리합니다.",
+          "다크웹 모니터링을 통해 개인정보 유출 여부를 감시하고 알림을 보냅니다."
+        ],
+        "noteworthy_ko": "보안 앱은 신뢰성이 핵심이므로, 단순 기능 구현보다 보안 정책과 데이터 처리의 투명성이 중요합니다. AI를 활용한 스팸 탐지나 다크웹 모니터링은 고도화된 데이터베이스와 실시간 분석 엔진이 필요할 것으로 추정됩니다.",
+        "development_ko": "핵심 기술로는 네트워크 패킷 분석, 실시간 URL 필터링, 그리고 개인정보 데이터베이스 연동이 필요합니다. 보안 앱 특성상 OS의 권한을 깊게 사용해야 하므로 플랫폼별 보안 정책 준수가 매우 까다롭습니다. 또한, 지속적인 보안 위협 업데이트를 위한 서버 인프라 운영 부담이 큽니다.",
+        "idea_ko": "사용자의 앱별 데이터 사용 패턴을 분석하여 비정상적인 통신을 감지하는 '개인 맞춤형 네트워크 가드' 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "AI를 활용한 다각적인 보안 위협 탐지(SMS, 웹, 다크웹).",
+          "기기 보안 상태를 통합 관리하는 대시보드 형태의 사용자 경험."
+        ],
+        "systems_ko": [
+          "네트워크 트래픽 모니터링 시스템",
+          "실시간 위협 데이터베이스 연동",
+          "OS 보안 권한 관리 모듈",
+          "알림 및 푸시 서비스",
+          "사용자 설정 및 프로필 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "단순 UI 구현을 넘어 OS 수준의 보안 권한과 실시간 위협 데이터베이스를 구축해야 합니다. 보안 앱은 오류 발생 시 사용자 데이터에 치명적일 수 있어 높은 수준의 기술적 안정성이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기기 보안 설정 점검 기능",
+            "위험 웹사이트 차단 리스트 연동"
+          ],
+          "defer": [
+            "다크웹 모니터링",
+            "VPN 서버 인프라"
+          ],
+          "risks": [
+            "OS 보안 정책에 의한 기능 제한",
+            "보안 데이터베이스의 최신성 유지 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "앱별 네트워크 차단기",
+            "concept": "사용자가 선택한 앱이 백그라운드에서 데이터를 전송하지 못하도록 제어합니다. 데이터 절약과 개인정보 보호를 동시에 달성합니다.",
+            "first_step": "특정 앱의 네트워크 접근을 차단하는 로컬 VPN 프로필 설정 구현."
+          },
+          {
+            "title": "보안 알림 로그 분석기",
+            "concept": "기기에서 발생하는 보안 관련 시스템 로그를 분석하여 사용자에게 쉬운 언어로 위험도를 알려줍니다.",
+            "first_step": "시스템 보안 로그를 읽어와 특정 키워드(취약점 등)를 추출하는 기능."
+          }
+        ],
+        "recommendation_ko": "보안 앱은 고도의 신뢰와 기술력이 필요하므로 개인 개발자가 처음부터 모든 기능을 구현하기엔 위험합니다. 특정 보안 영역(예: 특정 앱의 네트워크 제어)에 집중하여 틈새시장을 공략하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 보안 알고리즘이나 서버 인프라 구조가 명시되어 있지 않습니다. 실제 구현을 위해서는 OS별 보안 API의 허용 범위에 대한 심도 있는 검증이 필요합니다.",
+        "name": "ノートン 360: あんしんセキュリティ&VPN",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%83%8E%E3%83%BC%E3%83%88%E3%83%B3-360-%E3%81%82%E3%82%93%E3%81%97%E3%82%93%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3-vpn/id1278474169?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 168,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:6739130049": {
+      "app_key": "apple:6739130049",
+      "name": "Planet of Lana",
+      "developer": "Playdigious",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/us/app/planet-of-lana/id6739130049?uo=2",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:26:18+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Play as a young girl accompagnied by her loyal animal companion on a rescue mission accross beautiful landscapes filled of mysteries. Solve puzzles, evade machines and navigate strange environments full of dangerous creatures, all in a beautiful sci-fi hand-painted universe. A planet that used to be a place of undisturbed balance between human, nature, and animal has now become something else entirely. The disharmony that had been in the making for hundreds of years has finally arrived in the form of a faceless army. But this is not a story about war. This is a story about a vibrant, beautiful planet –and the journey to keep it that way. Play as Lana on an poetic journey across a breathtaking alien planet and use your wit and trusty animal companion, Mui, to uncover the secrets of this world and restore the balance between humans, nature and animals. FEATURES - Play as a young girl, Lana, and her trusty animal companion, Mui, on a rescue mission to find her sister through a colorful world full of machines and creatures - Embark on an poetic journey across a breathtaking alien planet, where balance between humans, nature and animals is at stake, and uncover secrets that will help restore the entire planet lost harmony - Solve intricate puzzles with the help of a responsive and endearing companion, and navigate through dangerous situations using quick thinking rather than brute force - Stealth your way through tense sequences where survival depends on wit and timing, not combat CAREFULLY REDESIGNED FOR MOBILE - Revamped interface – exclusive mobile UI with complete touch control - Game Center achievements - Cloud Save – Share your progress between iOS devices - Compatible with MFi controllers - iPhone 16 Optimization (including Pro Max)",
+      "analysis": {
+        "app_key": "apple:6739130049",
+        "summary_ko": "어린 소녀와 그녀의 충실한 동물 친구 '무이'가 기계 군단에 맞서 행성의 조화를 되찾는 모험 게임입니다. 아름다운 수채화풍의 SF 세계관 속에서 퍼즐을 풀고 잠입하며 이야기를 진행합니다. 모바일 환경에 최적화된 UI와 터치 컨트롤을 제공하며, MFi 컨트롤러를 지원합니다.",
+        "features_ko": [
+          "소녀와 동물 친구의 협동을 통해 퍼즐을 해결하고 위험을 극복합니다.",
+          "전투보다는 재치와 타이밍을 활용한 잠입 액션을 수행합니다.",
+          "모바일 환경에 맞춘 터치 컨트롤과 전용 UI를 제공합니다.",
+          "클라우드 저장 및 Game Center 업적 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "전투가 아닌 퍼즐과 잠입에 집중한 게임 디자인이 독특합니다. 수채화풍의 아트 스타일과 캐릭터 간의 상호작용을 통해 서사를 전달하는 방식이 모바일 게임으로서 매우 높은 완성도를 보여줄 것으로 추정됩니다.",
+        "development_ko": "핵심은 캐릭터 간의 상호작용 시스템과 퍼즐 레벨 디자인입니다. 잠입 액션을 위한 AI 경로 탐색과 모바일 터치 최적화가 중요하며, 높은 수준의 아트 리소스 제작 부담이 큽니다. 1인 개발 시에는 퍼즐 메커니즘을 단순화하고 아트 스타일을 효율적으로 관리하는 전략이 필요합니다.",
+        "idea_ko": "동물 친구의 시점에서만 볼 수 있는 숨겨진 길이나 단서를 찾는 '듀얼 시점 퍼즐' 모드가 적합합니다.",
+        "highlights_ko": [
+          "전투 없이도 긴장감을 유지하는 잠입 및 퍼즐 중심의 게임 플레이.",
+          "모바일 최적화를 통해 콘솔급 경험을 제공하려는 시도."
+        ],
+        "systems_ko": [
+          "캐릭터 이동 및 상호작용 시스템",
+          "AI 적 경로 탐색 및 잠입 로직",
+          "퍼즐 메커니즘 및 트리거 시스템",
+          "모바일 터치 및 컨트롤러 입력 처리",
+          "데이터 저장 및 업적 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "복잡한 퍼즐 레벨 디자인, AI 적의 행동 패턴, 그리고 높은 퀄리티의 아트 리소스가 결합되어야 하므로 1인 개발자가 구현하기에는 매우 높은 난이도입니다. 특히 서사 중심의 게임은 연출과 레벨 디자인의 조화가 필수적입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 기본 상호작용",
+            "간단한 퍼즐 요소 구현",
+            "잠입을 위한 시야각 시스템"
+          ],
+          "defer": [
+            "복잡한 서사 연출",
+            "다양한 적 AI 패턴",
+            "고퀄리티 애니메이션"
+          ],
+          "risks": [
+            "아트 리소스 제작에 따른 개발 기간 지연",
+            "퍼즐 레벨 디자인의 재미 검증 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "동물 친구 시점 모드",
+            "concept": "작은 동물만 들어갈 수 있는 통로를 탐험하여 소녀를 위한 길을 여는 퍼즐 모드입니다.",
+            "first_step": "캐릭터를 전환하여 조작하는 기본 시스템을 구현합니다."
+          },
+          {
+            "title": "환경 상호작용 퍼즐",
+            "concept": "주변 사물을 활용해 기계의 시야를 가리거나 소음을 내어 적을 유인합니다.",
+            "first_step": "오브젝트를 밀거나 던져서 적의 경로를 바꾸는 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "서사 중심의 게임 개발과 레벨 디자인을 배우고 싶은 개발자에게 추천합니다. 다만 규모가 크므로 핵심 메커니즘 하나를 정해 프로토타입을 만드는 것부터 시작하는 것이 좋습니다.",
+        "source_limitations_ko": "게임 내 퍼즐의 구체적인 로직이나 AI의 행동 트리 구조는 알 수 없습니다. 모바일 최적화의 구체적인 기술적 방법론은 확인되지 않습니다.",
+        "name": "Planet of Lana",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/planet-of-lana/id6739130049?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "google:com.playspare.supermarket.store.simulator": {
+      "app_key": "google:com.playspare.supermarket.store.simulator",
+      "name": "My Supermarket Simulator 3D®",
+      "developer": "Game District LLC",
+      "source": "google",
+      "country": "US",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.playspare.supermarket.store.simulator&hl=en&gl=US",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:28:15+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "My Supermarket Simulator 3D lets you build and run your own supermarket from scratch. Order products, stock shelves, hire staff, and checkout customers. Start with a small grocery store, grow smart, and become a successful retail manager in this supermarket simulator game. Build your dream team of cashiers, stockers, and cleaners and watch your store become the talk of the town! Key Features: Stock Shelves and Set Product Pricing! Order products, fill every rack, and set smart prices to attract more customers and maximize your profits. Serve Customers and Earn Tips! Handle checkout fast, process cash and card payments smoothly, and deliver great service to earn tips. Expand Store & Manage Your Inventory! Unlock new sections, grow your store capacity, and use the storage room to manage stock and never miss a sale. Hire Staff and Level Them Up! Hire cashiers, stockers, and cleaners to automate your shop. Upgrade their speed and skills to boost efficiency. Manager Pass and Seasonal Events! Get free cash, energy and exclusive decor items from manager pass. Enjoy limited time seasonal events to earn more rewards. Customize & Decorate Your Store! Change your shop name, redesign your store interior and exterior, and decorate it with unique decor items to create a shopping experience like never before. Endless Fun Supermarket Game – Completely Free! My Supermarket Simulator is a free-to-play simulation game packed with fun features, progression levels, and satisfying gameplay. Join 100M+ players worldwide and start your journey as a retail manager today! We value your feedback! For suggestions, support, or any questions, contact us at (supermarket@gamedistrict.co)",
+      "analysis": {
+        "app_key": "google:com.playspare.supermarket.store.simulator",
+        "summary_ko": "슈퍼마켓을 운영하며 상품 주문, 진열, 직원 고용, 계산 등 경영 전반을 체험하는 시뮬레이션 게임입니다. 작은 가게에서 시작하여 점차 규모를 확장하고 효율적인 매장 관리자로 성장하는 것이 목표입니다.",
+        "features_ko": [
+          "상품을 주문하고 진열대에 채워 넣으며 가격을 직접 설정할 수 있습니다.",
+          "고객의 계산을 처리하고 서비스를 제공하여 팁을 얻을 수 있습니다.",
+          "매장 공간을 확장하고 창고를 관리하여 판매 효율을 높입니다.",
+          "캐셔, 진열원, 청소부 등 직원을 고용하고 레벨업하여 업무를 자동화합니다.",
+          "매장 이름 변경 및 인테리어 꾸미기를 통해 나만의 가게를 만들 수 있습니다."
+        ],
+        "noteworthy_ko": "경영 시뮬레이션의 핵심인 '자원 관리'와 '효율성 최적화'가 잘 구현되어 있습니다. 자동화 시스템을 통해 플레이어가 점차 관리자 역할로 이동하는 과정이 흥미롭습니다.",
+        "development_ko": "매장 내 오브젝트 배치 시스템과 재고 관리 데이터베이스 구축이 핵심입니다. 고객의 이동 경로(Pathfinding)와 상호작용 로직을 구현해야 하며, 경제 밸런스를 맞추는 것이 중요합니다.",
+        "idea_ko": "특정 상품의 유통기한을 관리하거나 계절별로 인기 상품이 바뀌는 '트렌드 시스템'을 추가하는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "직원 고용을 통한 업무 자동화 시스템으로 경영 시뮬레이션의 재미를 구현했습니다.",
+          "매장 확장 및 인테리어 커스터마이징을 통해 시각적인 성취감을 제공합니다."
+        ],
+        "systems_ko": [
+          "재고 및 상품 관리 시스템",
+          "고객 AI 및 경로 탐색(Pathfinding)",
+          "경제 및 수익 밸런스 시스템",
+          "직원 고용 및 스킬 관리",
+          "UI 및 매장 배치 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "경영 시뮬레이션은 시스템 설계가 중요하며, 1인이 구현하기에 적절한 규모의 로직을 가지고 있습니다. 다만 고객 AI와 경제 밸런스 조정은 세심한 작업이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 진열 및 판매 로직",
+            "기본 계산대 시스템",
+            "매장 확장 및 재고 관리"
+          ],
+          "defer": [
+            "직원 고용 및 자동화",
+            "인테리어 커스터마이징",
+            "시즌제 이벤트"
+          ],
+          "risks": [
+            "경제 밸런스 붕괴로 인한 게임 재미 저하",
+            "고객 AI의 비효율적인 이동 경로"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "특수 매장 경영",
+            "concept": "일반 마트가 아닌 희귀 식물이나 애완동물 등 특정 품목만 전문으로 다루는 매장을 운영합니다.",
+            "first_step": "특정 품목의 재고 관리 로직을 구현합니다."
+          },
+          {
+            "title": "물류 배송 시뮬레이터",
+            "concept": "매장 운영뿐만 아니라 직접 배송 차량을 운전하여 상품을 가져오는 요소를 추가합니다.",
+            "first_step": "간단한 차량 이동 및 물건 적재 로직을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "경영 시뮬레이션의 데이터 구조 설계와 경제 밸런스 조정을 배우기에 매우 좋습니다. 시스템을 단계적으로 확장하는 연습을 하기에 적합합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 경제 밸런스 수치나 고객 AI의 알고리즘에 대한 정보가 없습니다. 광고 수익 모델이나 인앱 결제 구조는 명시되지 않았습니다.",
+        "name": "My Supermarket Simulator 3D®",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.playspare.supermarket.store.simulator&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "google:com.freeplaysultanov.shootit": {
+      "app_key": "google:com.freeplaysultanov.shootit",
+      "name": "Shoot Out: Gun Shooting Games",
+      "developer": "Freeplay Inc",
+      "source": "google",
+      "country": "US",
+      "category": "game_action",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.freeplaysultanov.shootit&hl=en&gl=US",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:29:42+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Embark on a thrilling mission in Shoot Out - Silent Assassin, a heart-pounding mobile shooter that combines tactical stealth with intense combat. As an elite military operative, your duty is to navigate through enemy territory, silently eliminating opponents with an arsenal of powerful weapons. Gear up and face the clash of mortal combat in this action-packed game that brings together the top elements of hero warfare and strategic shooting. 🚁🌍 Key Features: 1. Diverse Arsenal: Choose your weapon wisely from a vast array, including iconic firearms like AKM, M4A4, KRISS VECTOR, SPAS12, SVD, and RPG. Each weapon is meticulously designed for the ultimate combat experience. 💣🔪 2. Intense Levels: Navigate through challenging levels, where your skills will be put to the test. Engage in a monster hunter clash with enemies who lurk in the shadows. Call upon your combat skills to emerge victorious in this mortal arena. 🌟🎯 3. Military Hero: Step into the boots of an American marksman, a true hero on a mission. Your skills will be the difference between victory and defeat as you engage in epic battles and execute precision shots. 🏹 4. Arena Breakout: Immerse yourself in the thrill of the game with arena breakout action. The gameplay is dynamic, keeping you on the edge as you strategically move through the battlefield. 🚀🔥 5. Realistic RPG Experience: Experience the game as if you were part of a modern combat scenario. Engage in epic battles, reminiscent of popular war games, where every bullet counts. 🎮🔥 6. Fun and Addictive: Shoot Out - Silent Assassin combines the excitement of shooting games, the fun of arena breakout, and the thrill of hunting games. It's the perfect blend of entertainment and adrenaline. 🕹️😎 7. Sniper Mastery: Become a combat master with sniper rifles, utilizing your stealth and precision to eliminate targets from a distance. Engage in sniper 3-D action and showcase your skills as a sniper assassin. 🎯🔭 8. Variety of Environments: From city streets to wild landscapes, engage in hunting sniper missions and street fights. The game offers a diverse range of environments to keep the gameplay fresh and exciting. 🌆🌲 9. Multiplayer Modes: Challenge your friends or other players worldwide in various multiplayer modes. Compete in epic battles, proving your skills in a variety of combat scenarios. 🌐🤝 10. Critical Ops and Strike Force: Enter the world of critical ops and strike force missions, where every action is crucial. Execute critical strikes and become the ultimate force on the battlefield. 💥🚨 Gear up, aim, and fire now! Shoot Out - Silent Assassin is the ultimate shooting game that brings together the exciting elements of combat, stealth, and hero warfare. Immerse yourself in this action-packed adventure and become the silent assassin the world needs. Download now and experience the thrill of the perfect shot! 🔥📲🎮",
+      "analysis": {
+        "app_key": "google:com.freeplaysultanov.shootit",
+        "summary_ko": "이 게임은 엘리트 군사 요원이 되어 적진을 침투하고 은밀하게 목표를 제거하는 1인칭 슈팅 게임입니다. 다양한 화기를 선택하고 전술적인 움직임을 통해 적을 제압하는 전투 경험을 제공합니다. 현대적인 전장 환경에서 저격과 돌격 임무를 수행하며 미션을 완수하는 것이 목표입니다.",
+        "features_ko": [
+          "AKM, M4A4 등 다양한 총기를 선택하여 전투에 활용할 수 있습니다.",
+          "저격 소총을 사용하여 원거리에서 은밀하게 적을 제거하는 저격 모드를 지원합니다.",
+          "도시 거리부터 야생 환경까지 다양한 전장에서 전투를 수행합니다.",
+          "멀티플레이어 모드를 통해 전 세계 플레이어와 대결할 수 있습니다."
+        ],
+        "noteworthy_ko": "잠입과 정면 돌파라는 상반된 전술을 하나의 게임 내에서 구현하려는 시도가 돋보입니다. 다양한 환경과 무기 조합을 통해 반복적인 슈팅 게임에 전략적 깊이를 더하려는 의도로 추정됩니다.",
+        "development_ko": "핵심 기술로는 3D 환경에서의 물리 엔진 구현과 총기 사격 판정 시스템이 필요합니다. 다양한 무기 모델링과 환경 에셋 제작에 많은 리소스가 소요될 것으로 보이며, 멀티플레이어 동기화 구현이 기술적 난도가 높을 것으로 분석됩니다.",
+        "idea_ko": "특정 구역을 소음 없이 통과해야 하는 '스텔스 퍼즐' 모드 구현.",
+        "highlights_ko": [
+          "다양한 무기 체계와 저격 및 돌격이 혼합된 전투 방식.",
+          "도시와 야생을 아우르는 다채로운 전장 환경 구성."
+        ],
+        "systems_ko": [
+          "3D 캐릭터 이동 및 카메라 제어 시스템",
+          "무기별 발사 및 탄도 물리 판정 시스템",
+          "적 AI의 순찰 및 추적 행동 트리",
+          "멀티플레이어 네트워크 동기화",
+          "UI 기반의 무기 선택 및 장비 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "3D 슈팅 게임은 물리 엔진, AI, 네트워크 동기화 등 구현해야 할 기술적 요소가 매우 많습니다. 1인 개발자가 모든 에셋과 시스템을 안정적으로 구축하기에는 작업량이 방대합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 캐릭터 이동 및 사격 메커니즘",
+            "간단한 적 AI 배치",
+            "단일 전장 레벨 구현"
+          ],
+          "defer": [
+            "멀티플레이어 모드",
+            "다양한 무기 커스터마이징",
+            "복잡한 스텔스 시스템"
+          ],
+          "risks": [
+            "3D 최적화 문제",
+            "슈팅 판정의 정확도 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "소음 제어 전략",
+            "concept": "총기마다 소음 수치를 부여하여, 소음이 높으면 적이 몰려오는 전략적 제약 추가.",
+            "first_step": "무기별 소음 변수 설정 및 적 AI의 소리 감지 범위 구현."
+          },
+          {
+            "title": "시간 정지 저격",
+            "concept": "저격 시 짧은 시간 동안 주변을 느리게 만들어 정밀 사격을 유도하는 시스템.",
+            "first_step": "Time Scale 조절을 통한 슬로우 모션 효과 구현."
+          }
+        ],
+        "recommendation_ko": "3D 슈팅 게임의 기초적인 사격 로직과 AI 행동 패턴을 학습하기에 좋습니다. 다만, 멀티플레이어 기능은 초기 개발 범위에서 제외하는 것을 강력히 권장합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 물리 엔진 종류나 AI 알고리즘에 대한 정보가 없습니다. 실제 게임의 타격감이나 최적화 수준은 확인이 불가능합니다.",
+        "name": "Shoot Out: Gun Shooting Games",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.freeplaysultanov.shootit&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "google:com.jc.blockpuzzle.color.game": {
+      "app_key": "google:com.jc.blockpuzzle.color.game",
+      "name": "Block Puzzle: Colors Blast",
+      "developer": "JC Puzzle Games Studio",
+      "source": "google",
+      "country": "JP",
+      "category": "game_casual",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.jc.blockpuzzle.color.game&hl=ja&gl=JP",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:29:42+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "🔥 色を爆発させて脳を活性化 🔥 Block Puzzle: Colors Blast へようこそ。鮮やかなブロックパズルは、プレイしやすく、一度プレイしたら止まらない！ カラフルなブロックの配置一つ一つが重要になり、線を消すたびに喜びが湧き上がり、プレイするたびにもう一手欲しくなるゲームです。手​​軽に始められて、マスターすれば無限の満足感を味わえるこのゲームは、忙しい一日の疲れを癒したい時でも、論理的な思考力を鍛えたい時でも、あらゆる年齢のプレイヤーにとって究極のパズルです。 🎯 戦略的なグリッドの楽しさ - 鮮やかなブロックをドラッグ＆ドロップして、滑らかなグリッドに収まるように配置 - 行/列をすべて消して、目を見張るような連鎖反応を起こそう - アイテムとブースターを使って、必勝法を計画しよう - 自己ベストを目指し、スキルアップを実感しよう！ ⚡ 終わりのないチャレンジが待っている - よりトリッキーなレイアウトの、レベルアップしていくゲームに挑戦 - 毎日脳トレを解いて、キラキラ輝くアイテムを手に入れようトロフィー - チャレンジをクリアして限定報酬を獲得 - 毎回同じパズルセッションはありません！ ✨ 気に入っていただける機能 ✅ 鮮やかで目を見張るようなグラフィックとスムーズなブラストアニメーション ✅ 時間制限なし - 自分のペースでゆったりプレイ ✅ 100% オフラインプレイ - いつでもどこでも楽しめます ✅ リラックスしたり、脳を鍛えたりするのに最適 🚀 ブラストする準備はいい？ 今すぐ「ブロックパズル：カラーズブラスト」をダウンロード！この鮮やかなパズルアドベンチャーに夢中になっている何千人ものプレイヤーに加わりましょう。あなたはどれだけの高得点を獲得できるでしょうか？",
+      "analysis": {
+        "app_key": "google:com.jc.blockpuzzle.color.game",
+        "summary_ko": "이 게임은 그리드 위에 다양한 모양의 블록을 배치하여 가로 또는 세로 줄을 채워 없애는 퍼즐 게임입니다. 시간 제한 없이 자신의 속도에 맞춰 즐길 수 있으며, 높은 점수를 기록하는 것이 목표입니다. 직관적인 조작과 화려한 시각 효과를 통해 퍼즐의 재미를 극대화합니다.",
+        "features_ko": [
+          "블록을 드래그 앤 드롭하여 그리드에 배치합니다.",
+          "가로 또는 세로 줄을 가득 채우면 블록이 제거됩니다.",
+          "시간 제한 없이 자유롭게 퍼즐을 풀 수 있습니다.",
+          "오프라인 환경에서도 게임을 플레이할 수 있습니다."
+        ],
+        "noteworthy_ko": "단순한 규칙을 통해 누구나 쉽게 접근할 수 있는 캐주얼 게임의 전형입니다. 시각적인 피드백(폭발 효과)을 통해 플레이어에게 지속적인 성취감을 주는 설계가 흥미롭습니다.",
+        "development_ko": "그리드 데이터 관리와 블록 배치 가능 여부를 판단하는 로직이 핵심입니다. UI 애니메이션과 파티클 효과를 통해 시각적 만족도를 높이는 것이 중요하며, 밸런스 조절을 위해 블록 생성 패턴을 설계해야 합니다.",
+        "idea_ko": "특정 색상의 블록을 연속으로 제거하면 특수 능력이 발동되는 콤보 시스템.",
+        "highlights_ko": [
+          "시간 제한 없는 여유로운 플레이 환경.",
+          "블록 제거 시 발생하는 시각적 연쇄 반응."
+        ],
+        "systems_ko": [
+          "그리드 상태 관리 시스템",
+          "블록 배치 및 줄 삭제 판정 로직",
+          "UI 및 터치 입력 처리",
+          "점수 계산 및 최고 기록 저장",
+          "파티클 효과 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "게임의 규칙이 명확하고 복잡한 물리 엔진이나 네트워크 통신이 필요하지 않습니다. 1인 개발자가 핵심 메커니즘을 구현하고 완성하기에 매우 적합한 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "그리드 생성 및 블록 배치 로직",
+            "줄 삭제 판정 및 점수 시스템",
+            "기본 UI"
+          ],
+          "defer": [
+            "일일 도전 과제",
+            "다양한 아이템 및 부스터",
+            "온라인 랭킹 시스템"
+          ],
+          "risks": [
+            "단조로운 게임 플레이로 인한 낮은 리텐션",
+            "블록 생성 패턴의 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "색상 매칭 보너스",
+            "concept": "같은 색상의 블록을 특정 모양으로 배치하면 추가 점수를 얻는 규칙.",
+            "first_step": "블록 배치 시 색상 정보를 그리드에 저장하고 인접 블록 확인 로직 작성."
+          },
+          {
+            "title": "중력 모드",
+            "concept": "일정 턴마다 그리드가 회전하여 블록이 아래로 쏟아지는 규칙.",
+            "first_step": "그리드 배열을 90도 회전시키는 함수 구현."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 핵심 로직인 그리드 관리와 데이터 처리를 배우기에 최적입니다. 캐주얼 게임 개발을 시작하려는 초보자에게 강력히 추천합니다.",
+        "source_limitations_ko": "소개문에 언급된 '아이템'이나 '부스터'의 구체적인 작동 방식은 알 수 없습니다. 오프라인 플레이 외의 데이터 동기화 여부는 확인되지 않습니다.",
+        "name": "Block Puzzle: Colors Blast",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.jc.blockpuzzle.color.game&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:6766297786": {
+      "app_key": "apple:6766297786",
+      "name": "Merge Bubbles - Word Game",
+      "developer": "Cheer Games",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/us/app/merge-bubbles-word-game/id6766297786?uo=2",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:35:58+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Merge Bubbles is a fresh and satisfying word puzzle game combining word associations with relaxing bubble merging gameplay. Merge matching word bubbles, discover hidden categories, and complete clever word groups in this addictive brain-training adventure. Each bubble contains a word. Your goal is simple: merge related words together. When you successfully collect 4 words from the same category, you complete the set and unlock more bubbles to continue your journey. Easy to learn but challenging to master! Merge Bubbles combines relaxing gameplay with smart word association puzzles that will test your vocabulary and logic. Whether you enjoy word games, matching puzzles, or relaxing brain teasers, Merge Bubbles offers a unique and rewarding experience. HOW TO PLAY: - Merge word bubbles together: Find words that belong to the same category and merge their bubbles. - Complete categories: Collect 4 related words to finish a category and clear space on the board. - Unlock new bubbles: As you progress, more word bubbles drop into your level, creating new challenges and opportunities. - Think ahead: Plan your merges carefully to avoid passing your move count.",
+      "analysis": {
+        "app_key": "apple:6766297786",
+        "summary_ko": "단어 연상과 버블 병합 게임을 결합한 퍼즐 게임입니다. 같은 카테고리에 속하는 단어 버블을 찾아 병합하여 보드를 정리하는 방식입니다. 간단한 규칙 속에 논리적 사고를 요구하는 두뇌 훈련 게임입니다.",
+        "features_ko": [
+          "화면 내 단어 버블들을 드래그하여 같은 카테고리끼리 병합합니다.",
+          "4개의 관련 단어를 모으면 하나의 카테고리가 완성되어 보드에서 제거됩니다.",
+          "카테고리를 완성할 때마다 새로운 버블이 보드에 추가됩니다.",
+          "제한된 이동 횟수 내에 퍼즐을 해결해야 하는 전략적 요소가 있습니다."
+        ],
+        "noteworthy_ko": "단어의 의미적 연관성을 게임 메커니즘으로 치환한 점이 흥미롭습니다. 데이터베이스화된 단어 분류 체계가 게임의 난이도를 결정하는 핵심 요소로 보입니다.",
+        "development_ko": "단어 데이터셋 구축과 카테고리 분류 로직이 핵심입니다. 버블의 물리적 움직임과 병합 애니메이션 구현이 필요하며, 이동 횟수 제한에 따른 밸런스 조정이 중요합니다.",
+        "idea_ko": "사용자가 직접 단어 카테고리를 만들고 공유하는 사용자 참여형 퍼즐 모드 추가 아이디어입니다.",
+        "highlights_ko": [
+          "단어 연상과 병합 퍼즐의 독특한 결합.",
+          "점진적으로 난이도가 상승하는 구조."
+        ],
+        "systems_ko": [
+          "단어 데이터베이스 관리",
+          "드래그 앤 드롭 입력 처리",
+          "버블 병합 및 물리 엔진",
+          "게임 상태 관리(이동 횟수 등)",
+          "UI/UX 애니메이션"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "퍼즐 로직 자체는 구현 가능하나, 방대한 단어 데이터셋을 체계적으로 분류하고 밸런스를 맞추는 작업에 시간이 많이 소요되기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "단어 버블 생성 및 배치",
+            "드래그 병합 로직",
+            "카테고리 판정 시스템"
+          ],
+          "defer": [
+            "사용자 커스텀 모드",
+            "온라인 랭킹 시스템",
+            "복잡한 시각 효과"
+          ],
+          "risks": [
+            "단어 데이터의 부족 및 분류 오류",
+            "퍼즐 난이도 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "언어 학습 모드",
+            "concept": "외국어 단어를 병합하며 자연스럽게 어휘를 익히는 교육용 퍼즐 모드입니다.",
+            "first_step": "단어와 뜻을 매칭하는 간단한 2x2 그리드 퍼즐 구현."
+          },
+          {
+            "title": "시간 제한 챌린지",
+            "concept": "이동 횟수 대신 시간 내에 최대한 많은 카테고리를 완성하는 속도전 모드입니다.",
+            "first_step": "타이머 UI를 추가하고 시간 종료 시 게임 오버 로직 구현."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 로직 설계와 데이터 관리 능력을 키우기에 적합합니다. 단어 데이터셋을 어떻게 구성하느냐에 따라 게임의 깊이가 달라짐을 배울 수 있습니다.",
+        "source_limitations_ko": "단어 데이터의 출처나 카테고리 분류 기준은 명시되지 않았으며, 실제 게임 내 단어의 개수나 난이도 곡선은 확인되지 않았습니다.",
+        "name": "Merge Bubbles - Word Game",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/merge-bubbles-word-game/id6766297786?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 88,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "google:bus.sand.fall.jam.loop.traffic.flow": {
+      "app_key": "google:bus.sand.fall.jam.loop.traffic.flow",
+      "name": "Jam Bus:Sandfall",
+      "developer": "Nova Games Technology Limited",
+      "source": "google",
+      "country": "US",
+      "category": "game_casual",
+      "detail_url": "https://play.google.com/store/apps/details?id=bus.sand.fall.jam.loop.traffic.flow&hl=ja&gl=JP",
+      "data_date": "2026-10-22",
+      "analysed_at": "2026-10-25T03:39:57+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Jam Bus: Sandfall brings a fresh twist to bus jam, color puzzle, and traffic escape gameplay. Colorful sand is stacked in layers, and every bus has its own color and direction. Tap the right bus, collect the matching sand, and clear the board step by step. Sounds simple at first, but every move can change the whole puzzle. Plan carefully before you tap. Some buses may block each other. Some paths may cross. Some sand colors can only be cleared after the lower layers are gone. To win, you need to observe the board, choose the right order, and keep every bus moving without a crash. How to play • Tap a bus to move it along its route • Match each bus with the same color sand • Clear lower sand layers to unlock the ones above • Avoid traffic crashes when paths cross • Solve each level with smart sequencing Why you’ll enjoy Jam Bus: Sandfall • Easy tap controls • Relaxing color-matching gameplay • Clever bus parking jam puzzles • Satisfying sand-clearing effects • Increasingly tricky routes and layers • Clean visuals and smooth puzzle flow • Great for quick breaks and brain training Every level is a small logic challenge. A bus may look ready to move, but its route might block another vehicle. A color may be visible, but the sand below it must be cleared first. Think ahead, follow the arrows, and find the perfect order to clear the whole sandfall. If you enjoy bus games, parking jam puzzles, color sort games, traffic escape challenges, or relaxing logic games, Jam Bus: Sandfall gives you a colorful new puzzle to solve. Start with one bus, clear one color, and let the sand fall into place.",
+      "analysis": {
+        "app_key": "google:bus.sand.fall.jam.loop.traffic.flow",
+        "summary_ko": "색깔별로 쌓인 모래를 버스에 맞춰 정리하는 퍼즐 게임입니다. 버스의 색상과 방향을 고려하여 올바른 순서로 이동시켜야 합니다. 단순해 보이지만 경로가 겹치거나 모래 층이 막혀 있어 전략적인 사고가 필요합니다.",
+        "features_ko": [
+          "색깔별 모래를 버스에 매칭하여 제거하는 퍼즐 규칙을 가집니다.",
+          "버스 이동 경로를 고려하여 충돌을 피해야 합니다.",
+          "하위 모래 층을 제거해야 상위 층이 풀리는 단계적 퍼즐 구조입니다.",
+          "간단한 탭 조작으로 버스를 이동시킵니다."
+        ],
+        "noteworthy_ko": "모래 쌓기 퍼즐과 교통 체증 퍼즐을 결합한 독특한 메커니즘이 흥미롭습니다. 각 레벨마다 논리적인 순서를 찾아야 하는 퍼즐의 깊이가 사용자에게 도전 의식을 자극합니다.",
+        "development_ko": "핵심 기술은 그리드 기반의 퍼즐 로직과 경로 탐색 알고리즘입니다. 콘텐츠 제작 부담은 레벨 디자인에 집중되며, 난이도 곡선을 설계하기 위한 테스트가 중요합니다.",
+        "idea_ko": "버스뿐만 아니라 다양한 운송 수단을 추가하고, 각 수단마다 고유한 이동 규칙을 부여하여 퍼즐의 복잡도를 높이는 것이 좋습니다.",
+        "highlights_ko": [
+          "모래와 버스를 결합한 신선한 퍼즐 메커니즘.",
+          "단계적 사고를 요구하는 논리적 퍼즐 설계."
+        ],
+        "systems_ko": [
+          "그리드 기반 퍼즐 데이터 관리",
+          "버스 이동 경로 및 충돌 판정 로직",
+          "모래 층 제거 및 매칭 시스템",
+          "레벨 생성 및 난이도 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "퍼즐 로직 자체는 구현이 가능하나, 레벨이 올라갈수록 복잡해지는 경로와 모래 층의 상호작용을 논리적으로 설계하는 것이 핵심입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "그리드 기반 버스 이동 로직",
+            "색상 매칭 및 모래 제거 시스템",
+            "기본 레벨 디자인"
+          ],
+          "defer": [
+            "복잡한 애니메이션 효과",
+            "다양한 특수 버스 기믹"
+          ],
+          "risks": [
+            "레벨 디자인의 반복성으로 인한 지루함",
+            "경로 충돌 로직의 예외 처리 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "색상 혼합 퍼즐",
+            "concept": "두 가지 색상의 모래를 섞어 새로운 색상의 버스를 채워야 하는 퍼즐입니다.",
+            "first_step": "색상 혼합 로직 및 버스 매칭 조건 변경 구현."
+          },
+          {
+            "title": "시간 제한 모드",
+            "concept": "제한 시간 내에 모든 모래를 정리해야 하는 긴박한 퍼즐 모드입니다.",
+            "first_step": "타이머 UI 및 시간 종료 시 게임 오버 로직 구현."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 레벨 디자인과 논리적 알고리즘을 학습하기에 매우 좋습니다. 작은 메커니즘을 확장하여 다양한 레벨을 만드는 과정을 경험할 수 있습니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 구체적인 레벨 데이터 구조, 버스 이동의 물리적 상세 구현, 수익화 모델 등은 확인되지 않습니다.",
+        "name": "Jam Bus:Sandfall",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=bus.sand.fall.jam.loop.traffic.flow&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "JP",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:6505095234": {
+      "app_key": "apple:6505095234",
+      "name": "Car Jam - バスストップ ジャムゲーム",
+      "developer": "BLANKZONET",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/jp/app/car-jam-%E3%83%90%E3%82%B9%E3%82%B9%E3%83%88%E3%83%83%E3%83%97-%E3%82%B8%E3%83%A3%E3%83%A0%E3%82%B2%E3%83%BC%E3%83%A0/id6505095234?uo=2",
+      "data_date": "2026-10-22",
+      "analysed_at": "2026-10-25T03:41:58+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "『Car Jam』と一緒に刺激的な旅を始めよう！ ここで、あなたの謎解き能力が試される、数多くの車の中を走り回り、一人一人の乗客たちが自分だけの「専属車両」に乗っていることを確保しよう。 あなたの任務は、色とりどりの車と乗客を目的地まで送り届けること。しかし、それは見た目ほど簡単ではない——車はすべて小さな駐車場に詰め込まれている、あなたは知恵を絞って車を全部外に出す必要がある。 もちろん、ゲームの中では、プレッシャーと挫折感だけではない——『Car Jam』は面白く、娯楽性が高い！カラフルな画面と美しいサウンドエフェクトに浸って、爽快にゲームをクリアできる。何時間もはまってしまう。 今こそあなたの叡智を見せる時！『Car Jam』のチャンピオンを目指そう！",
+      "analysis": {
+        "app_key": "apple:6505095234",
+        "summary_ko": "본 게임은 주차장에 갇힌 차들을 순서대로 이동시켜 승객들을 목적지로 보내는 퍼즐 게임입니다. 제한된 공간에서 차들을 효율적으로 움직여 출구를 확보하는 것이 목표입니다. 다채로운 그래픽과 사운드 효과를 통해 퍼즐 해결의 재미를 제공합니다.",
+        "features_ko": [
+          "주차장에 엉켜 있는 차들을 이동시켜 출구를 확보합니다.",
+          "승객들을 각자의 전용 차량에 태워 목적지로 보냅니다.",
+          "퍼즐을 해결하며 레벨을 클리어하는 논리적 사고를 요구합니다.",
+          "다채로운 색감의 그래픽과 사운드 효과를 제공합니다."
+        ],
+        "noteworthy_ko": "슬라이딩 퍼즐의 변형으로, 공간 제약과 이동 순서라는 두 가지 제약 조건을 활용한 점이 흥미롭습니다. 1인 개발 시 그리드 기반의 이동 로직을 구현하기에 적합한 장르입니다.",
+        "development_ko": "핵심 기술로는 그리드 기반의 이동 제어, 충돌 판정, 그리고 레벨 디자인 알고리즘이 필요합니다. 콘텐츠 제작은 레벨 설계에 집중되며, 밸런스 측면에서는 초반의 쉬운 단계부터 후반의 복잡한 단계까지 난이도 곡선을 설계하는 것이 중요합니다.",
+        "idea_ko": "주차장 외에 물류 창고나 복잡한 미로 등 다양한 환경을 적용한 슬라이딩 퍼즐을 제작하는 것이 좋습니다.",
+        "highlights_ko": [
+          "직관적인 슬라이딩 퍼즐 규칙으로 높은 몰입감을 제공합니다.",
+          "시각적, 청각적 만족도를 높이는 연출이 포함되어 있습니다."
+        ],
+        "systems_ko": [
+          "그리드 기반 이동 시스템",
+          "오브젝트 충돌 판정",
+          "레벨 데이터 관리",
+          "게임 상태 및 승리 판정",
+          "UI 및 연출 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "슬라이딩 퍼즐은 로직이 단순하고 2D/3D 환경 모두에서 구현하기 용이하여 1인 개발자가 시도하기에 가장 적합한 장르이기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "차량 이동 로직",
+            "충돌 방지 시스템",
+            "레벨 클리어 판정"
+          ],
+          "defer": [
+            "다양한 차량 스킨",
+            "복잡한 애니메이션",
+            "온라인 대전"
+          ],
+          "risks": [
+            "레벨 디자인의 반복성",
+            "이동 로직의 버그(끼임 현상)"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "창고 물류 퍼즐",
+            "concept": "창고 안의 상자들을 밀어서 특정 위치로 옮기는 퍼즐입니다.",
+            "first_step": "상자를 한 칸씩 밀 수 있는 기본 이동 로직을 구현합니다."
+          },
+          {
+            "title": "탈출 미로 퍼즐",
+            "concept": "미로 속에 갇힌 캐릭터를 특정 경로로 이동시켜 탈출시키는 퍼즐입니다.",
+            "first_step": "캐릭터가 벽에 막히지 않고 이동할 수 있는 경로 탐색 로직을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 기본 로직과 그리드 시스템을 배우기에 최적입니다. 개발 난이도가 낮아 완성도 높은 결과물을 만들기에 좋습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 물리 엔진 사용 여부나 레벨 생성 방식이 명시되어 있지 않습니다.",
+        "name": "Car Jam - バスストップ ジャムゲーム",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/car-jam-%E3%83%90%E3%82%B9%E3%82%B9%E3%83%88%E3%83%83%E3%83%97-%E3%82%B8%E3%83%A3%E3%83%A0%E3%82%B2%E3%83%BC%E3%83%A0/id6505095234?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 79,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
     }
   }
 }

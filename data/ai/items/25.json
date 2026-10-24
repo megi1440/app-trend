@@ -6782,6 +6782,823 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-24"
+    },
+    "google:com.budgestudios.googleplay.BarbieDreamhouse": {
+      "app_key": "google:com.budgestudios.googleplay.BarbieDreamhouse",
+      "name": "Barbie Dreamhouse Adventures",
+      "developer": "Budge Studios",
+      "source": "google",
+      "country": "US",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.budgestudios.googleplay.BarbieDreamhouse&hl=en&gl=US",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:23:48+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Create your very own Barbie DreamHouse experience! Join us for a bunch of fun activities: baking, cooking, dancing, makeovers, home design, fashion, nail salon, hair salon, mini games, epic pool parties and other fun girl games! Explore Malibu or dress me and my friends up in fashion-forward looks to get picture ready! Follow us on exciting adventures in the DreamHouse where anything is possible! LET'S MOVE IN Are you into home design makeovers? Help me design every room with wonderful wallpapers and dazzling decorations. Make it your own Dreamhouse! THE COOLEST FRIENDS Meet my best friends: Barbie \"Brooklyn\" Roberts, Renee, a sports fanatic; Daisy, a talented DJ; Teresa, a science-lover; Nikki, an aspiring fashion designer and the one-and-only Ken. Plus, my family including my fun-loving sisters: Skipper, Stacie and Chelsea! Even my parents, Mr. and Mrs. Roberts are joining in on the adventure! COOKING AND BAKING Why don’t you join me in my awesome kitchen? There are so many delicious recipes to cook! Get baking with Skipper and post your tasty recipes on BarbieGram for everyone to see! Mmm… Are those cupcakes I smell?! DRESS UP Got any fashion tips? Dress-up in beautiful princess dresses or relax in super comfy pj’s, there’s an outfit for everyone. Ask Nikki for some fashion advice to have the coolest outfit! HAIRSTYLES Get ready for a makeover! There’s a hair salon in the DreamHouse and you can design tons of different hairstyles! Have a girls makeover day with Teresa and check out all the cool accessories you can add to your new look! TIME FOR SOME PAMPERING Check out the Malibu Nail Spa! Make it a girl’s day out! Create your own nail design at the Nail Salon with so many colors, patterns and stickers to choose from! SUMMER TIME OMG! Malibu Beach is finally open! Dive, swim, grill, lounge or build a sandcastle? You can do it all! Decide who is the ultimate surf champion in an awesome mini game. You can also chill out at the DreamHouse pool while Ken throws one of his legendary pool parties! NEW ADVENTURES Become a princess at the Royal Ball at the Floravian Castle, go underwater as a mermaid, or get outdoors and go camping in the DreamCamper! EXPLORE FRIEND'S DREAMHOUSES Add friends and check out their DreamHouses. Earn coins when you visit! Fun games for girls, boys and kids of all ages. Play doll house and dress up games with parents or other family! SUBSCRIPTION DETAILS - This app offers monthly subscriptions - Users may be offered a free trial of the subscription - One free trial per Google account on new subscriptions only - Users will need to opt-in to a subscription in order to accept the trial period and will have the right to opt-out at any time during the trial period. Users will be automatically charged after the trial period if they haven't opted out. - Subscription automatically renews unless auto-renew is turned off before the end of the current period - Auto-renewal of your subscription can be canceled anytime by going to the Google Account Settings -You can cancel your subscription at any time, but please note that you will not get a refund for any remaining period of a subscription PRIVACY & ADVERTISING Budge Studios™ takes children's privacy seriously and ensures that its apps are compliant with privacy laws. This application has received the “ESRB Privacy Certified Kids’ Privacy Seal”. Read our privacy policy at: https://budgestudios.com/en/legal/privacy-policy/ or email our Data Protection Officer at: privacy@budgestudios.ca An internet connection may be required to use this app END-USER LICENSE AGREEMENT https://budgestudios.com/en/legal-embed/eula/ HAVE QUESTIONS? We always welcome your questions, suggestions and comments. Contact us 24/7 at support@budgestudios.ca BUDGE and BUDGE STUDIOS are trademarks of Budge Studios Inc. Barbie Dreamhouse Adventures © 2018-2022 Budge Studios Inc. All Rights Reserved.",
+      "analysis": {
+        "app_key": "google:com.budgestudios.googleplay.BarbieDreamhouse",
+        "summary_ko": "바비의 드림하우스를 꾸미고 다양한 활동을 즐기는 시뮬레이션 게임입니다. 요리, 패션, 인테리어 디자인, 미니 게임 등 다채로운 콘텐츠를 제공합니다. 친구 및 가족 캐릭터들과 상호작용하며 나만의 드림하우스를 완성하는 경험을 할 수 있습니다.",
+        "features_ko": [
+          "벽지와 장식품을 활용해 드림하우스의 각 방을 자유롭게 디자인할 수 있습니다.",
+          "주방에서 다양한 레시피를 활용해 요리와 베이킹을 수행할 수 있습니다.",
+          "헤어 살롱과 네일 스파에서 캐릭터의 외형을 꾸미는 메이크오버 기능을 제공합니다.",
+          "해변에서 수영, 서핑 등 다양한 미니 게임을 즐길 수 있습니다.",
+          "친구의 드림하우스를 방문하여 상호작용하고 보상을 획득할 수 있습니다."
+        ],
+        "noteworthy_ko": "다양한 장르(인테리어, 요리, 꾸미기, 미니게임)를 하나의 하우스라는 공간에 통합한 점이 흥미롭습니다. 이는 사용자가 지루함을 느끼지 않도록 지속적인 동기를 부여하는 구조로 보입니다.",
+        "development_ko": "다양한 미니 게임과 커스터마이징 시스템을 구현하기 위해 모듈화된 아키텍처가 필요합니다. 콘텐츠 제작 부담이 크며, 각 활동 간의 밸런스와 데이터 연동이 핵심입니다. 사용자 경험을 유지하기 위한 최적화와 안정적인 상태 관리가 중요합니다.",
+        "idea_ko": "특정 테마의 방을 꾸미고 그 안에서만 즐길 수 있는 전용 미니 게임을 연결하는 '테마형 하우스 시뮬레이션' 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "다양한 캐릭터와 상호작용하며 이야기를 만들어가는 역할극 요소가 포함되어 있습니다.",
+          "인테리어부터 패션까지 폭넓은 커스터마이징 선택지를 제공합니다."
+        ],
+        "systems_ko": [
+          "데이터 관리 시스템(아이템 및 상태 저장)",
+          "UI/UX 레이아웃 관리",
+          "미니 게임 엔진 및 상태 전환",
+          "캐릭터 커스터마이징 시스템",
+          "네트워크 연동(친구 방문 기능)"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 미니 게임과 방대한 커스터마이징 데이터를 관리해야 하므로 1인 개발 시 콘텐츠 제작 및 유지보수 부담이 매우 큽니다. 각 시스템 간의 유기적인 연결이 복잡합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "방 꾸미기 모드",
+            "캐릭터 의상 변경",
+            "기본적인 요리 미니 게임"
+          ],
+          "defer": [
+            "멀티플레이어 친구 방문",
+            "복잡한 캐릭터 관계 시스템",
+            "구독 결제 시스템"
+          ],
+          "risks": [
+            "콘텐츠 양 부족으로 인한 짧은 플레이 타임",
+            "UI 복잡도 증가로 인한 사용성 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "미니멀 하우스 챌린지",
+            "concept": "제한된 공간과 예산 내에서 특정 컨셉의 방을 꾸미는 퍼즐형 시뮬레이션입니다. 꾸미기 결과에 따라 캐릭터의 만족도가 달라집니다.",
+            "first_step": "그리드 기반의 가구 배치 시스템을 먼저 구현합니다."
+          },
+          {
+            "title": "요리사 바비의 레시피 북",
+            "concept": "요리 과정 자체를 리듬 게임처럼 구성하여, 성공 시 새로운 레시피를 해금하는 방식입니다.",
+            "first_step": "요리 재료를 드래그 앤 드롭하는 상호작용을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "다양한 기능을 하나의 앱에 통합하는 구조를 배우기에 좋습니다. 다만, 콘텐츠 양이 방대하므로 개인 개발자는 핵심 메커니즘 하나에 집중하는 것을 추천합니다.",
+        "source_limitations_ko": "구독 결제 시스템의 내부 로직이나 서버와 클라이언트 간의 데이터 동기화 방식은 소개문만으로 확인할 수 없습니다.",
+        "name": "Barbie Dreamhouse Adventures",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.budgestudios.googleplay.BarbieDreamhouse&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "google:com.aniplex.fategrandorder": {
+      "app_key": "google:com.aniplex.fategrandorder",
+      "name": "Fate/Grand Order",
+      "developer": "Aniplex Inc.",
+      "source": "google",
+      "country": "JP",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.aniplex.fategrandorder&hl=ja&gl=JP",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:29:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "TVでもおなじみ、TYPE-MOONがおくるFateのRPG！ スマホでも本格的なRPGが楽しめる。 文字数にして500万字超という、圧倒的なボリュームを堪能できるストーリー！ 本編以外にもキャラクターごとにストーリーを用意し、Fateファンも今回はじめてFateの世界を体験される方も十分満足いただける内容となっています。 【あらすじ】 西暦2015年。 地球の未来を観測するカルデアは、2017年以降の人類史が崩壊している事実を確認した。 昨日まで確かに存在していた2115年までの“約束された未来”は、何の前触れもなく突如として消え去ったのだ。 なぜ。どうして。だれが。どうやって。 西暦2004年 日本 ある地方都市。 ここに今まではなかった、「観測できない領域」が現れたと。 カルデアはこれを人類絶滅の原因と仮定し、いまだ実験段階だった第六の実験を決行する事となった。 それは過去への時間旅行。 人間を霊子化させて過去に送りこみ、事象に介入する事で時空の特異点を解明、あるいは破壊する禁断の儀式。 その名を人理守護指令、グランドオーダー。 人類を守るために人類史に立ち向かう、運命と戦うものたちの総称である。 【ゲーム概要】 スマホに最適化された簡単操作のコマンドオーダーバトル！ プレイヤーはマスターとなって英霊たちを操り敵を倒し謎を解明していく。 好みの英霊で戦うか、強い英霊で戦うかバトルスタイルはプレイヤーしだい。 ◆豪華声優陣が続々参加 青木志貴、茜屋日海夏、赤羽根健治、明坂聡美、浅川悠、朝日奈丸佳、阿澄佳奈、阿部彬名、阿部敦、阿部里果、雨宮天、新井里美、井口裕香、井澤詩織、石川界人、石川由依、石谷春貴、伊瀬茉莉也、市ノ瀬加那、伊藤彩沙、伊藤かな恵、伊東健人、伊藤静、伊藤美紀、稲田徹、井上和彦、井上喜久子、井上麻里奈、伊丸岡篤、石見舞菜香、上坂すみれ、植田佳奈、上田麗奈、内田真礼、内田雄馬、内山昂輝、梅原裕一郎、江川央生、江口拓也、江越彬紀、遠藤綾、大久保瑠美、大空直美、大塚明夫、大塚芳忠、大原さやか、大和田仁美、岡本信彦、置鮎龍太郎、小倉唯、小澤亜李、小野賢章、小野大輔、小野友樹、小見川千明、かかずゆみ、柿原徹也、加隈亜衣、笠間淳、加瀬康之、門脇舞以、金元寿子、神尾晋一郎、茅野愛衣、川澄綾子、河西健吾、川野剛稔、神奈延年、鬼頭明里、木村珠莉、木村良平、桐本拓哉、釘宮理恵、久野美咲、黒木ほの香、黒田崇矢、桑原由気、KENN、高野麻里佳、古賀葵、小清水亜美、後藤邑子、小西克幸、小林千晃、小林ゆう、小林裕介、小原好美、小松未可子、子安武人、小山力也、近藤玲奈、斎賀みつき、西前忠久、斉藤壮馬、斎藤千和、坂本真綾、佐倉綾音、櫻井孝宏、佐藤聡美、佐藤利奈、沢城みゆき、下屋則子、島﨑信長、嶋村侑、庄司宇芽香、白石晴香、新垣樽助、真堂圭、末柄里恵、杉田智和、杉山紀彰、鈴木達央、鈴木崚汰、鈴代紗弓、鈴村健一、諏訪彩花、諏訪部順一、関俊彦、関智一、瀬戸麻沙美、芹澤優、仙台エリ、千本木彩花、園崎未恵、大地葉、高乃麗、高野直子、高橋花林、高橋李依、高山みなみ、武内駿輔、竹内良太、武田華、田中敦子、田中美海、田中理恵、谷山紀章、種﨑敦美、種田梨沙、田丸篤志、田村睦心、田村ゆかり、丹下桜、千葉繁、千葉翔也、津田健次郎、紡木吏佐、鶴岡聡、寺崎裕香、寺島拓篤、東山奈央、土岐隼一、飛田展男、戸松遥、豊永利行、鳥海浩輔、中井和哉、中田譲治、長縄まりあ、仲村美沙希、中村悠一、名塚佳織、生天目仁美、浪川大輔、能登麻美子、野中藍、乃村健次、土師孝也、長谷川育美、花江夏樹、花澤香菜、花守ゆみり、早見沙織、原由実、春野杏、潘めぐみ、日岡なつみ、日笠陽子、日野聡、平川大輔、ファイルーズあい、福圓美里、福西勝也、福山潤、藤井隼、藤沼建人、ブリドカットセーラ恵美、古川慎、保志総一朗、星野貴紀、堀内賢雄、堀江由衣、本多真梨子、本多陽子、本渡楓、前野智昭、M・A・O、増田俊樹、Machico、松風雅也、真殿光昭、マフィア梶田、三上哲、三木眞一郎、水樹奈々、水島大宙、水橋かおり、緑川光、水瀬いのり、南央美、峯田茉優、宮野真守、宮本充、村瀬歩、森川智之、森田了介、森永千才、森なな子、諸星すみれ、安井邦彦、山路和弘、山下大輝、山下七海、山寺宏一、山根綺、山野井仁、山村響、悠木碧、ゆかな、遊佐浩二、吉野裕行、佳村はるか、米澤円、若林直美、和氣あず未、和多田美咲（50音順） ◆全体構成・メインシナリオ・シナリオ・総監督 奈須きのこ ◆リードキャラクターデザイナー 武内崇 ◆アートディレクション TYPE-MOON ◆メインシナリオ・シナリオ執筆 東出祐一郎、桜井光 水瀬葉月、星空めてお ◆ゲストライター amphibian、虚淵玄（ニトロプラス）、acpi、ＯＫＳＧ（TYPE-MOON）、経験値、小太刀右京、三田誠、たけのこ星人、橘公司、田中天（株式会社フラッグノーツ）、成田良悟、鋼屋ジン、白露砌（LASENGLE）、ひろやまひろし、円居挽、茗荷屋甚六、矢野俊策（株式会社フラッグノーツ）、止無（LASENGLE）、リヨ（50音順） ◆キャラクターデザイン I-IV、蒼月タカオ（TYPE-MOON）、AKIRA、Azusa、東冬、荒野、Anmi、池澤真、石田あきら、いみぎむる、兔ろうと、羽海野チカ、大森葵、岡崎武士、okojo、およ、加藤いつわ、カワグチタケシ、きばどりリュー、桐原小鳥、ギンカ、倉花千夏、黒星紅白、小梅けいと、近衛乙嗣、小松崎類、こやまひろかず（TYPE-MOON）、西藤浩樹（LASENGLE）、saitom、坂本みねぢ、佐々木少年、サテー、色素、縞うどん（TYPE-MOON）、島田フミカネ、しまどりる、sime、下越（TYPE-MOON）、シャカＰ（LASENGLE）、白浜鴎、しらび、白峰、真じろう、STAR影法師、曽我誠、タイキ、高橋慶太郎、高山箕犀、竹、武中英雄、武梨えり、たけのこ星人、TAKOLEGS、田島昭宇、タスクオーナ、danciao、中央東口、CHOCO、悌太、Dd、天空すふぃあ、DANGERDROP、toi8、トリダモノ、中原、なまにくATK、西出ケンゴロー、nipi、ネコタワワ、NOCO、pako、林けゐ、原田たけひと、春野友矢、ばん！、Bすけ、左、ヒライユキオ、平野稜二、広江礼威、ひろやまひろし、PFALZ、ぶくろて、huke、BLACK（TYPE-MOON）、古海鐘一、BUNBUN、hou、ホトソウカ、本庄雷太、前田浩孝、マシマサキ、また、松竜、Mika Pikazo、緑川美帆、三輪士郎、村山竜大、めろん22、望月けい、元村人、森井しづき、森山大輔、山中虎鉄、YOCO_N（LASENGLE）、余湖裕輝、米山舞、La-na、lack、リヨ、Ryota-H、輪くすさが、redjuice、ReDrop、ろび～な、ワダアルコ、渡れい（50音順） Android 7.0以降、必要RAM 3GB以上、推奨RAM 4GB以上搭載のスマートフォン及びタブレット端末。（Intel CPUは非対応） ※一部機種に関しては推奨バージョン以上でも動作しない可能性がございます。 ※Qua tab PZ(LGT32)は非対応です。 ※ベータ版としてリリースされているOSは非対応です。 このアプリケーションには、（株）ＣＲＩ・ミドルウェアの「CRIWARE（TM）」が使用されています。",
+      "analysis": {
+        "app_key": "google:com.aniplex.fategrandorder",
+        "summary_ko": "TYPE-MOON의 세계관을 바탕으로 한 방대한 스토리 중심의 RPG입니다. 플레이어는 마스터가 되어 영령들을 소환하고 지휘하여 인류사를 구하기 위한 전투를 펼칩니다. 500만 자 이상의 시나리오와 다양한 캐릭터 수집 요소가 특징입니다.",
+        "features_ko": [
+          "커맨드 카드 선택 방식의 전략적 전투 시스템을 제공합니다.",
+          "500만 자 이상의 방대한 메인 및 캐릭터별 시나리오를 감상할 수 있습니다.",
+          "다양한 영령을 소환하고 육성하여 나만의 파티를 구성합니다.",
+          "다수의 성우가 참여하여 캐릭터의 몰입감을 높입니다.",
+          "시간 여행을 통해 과거의 특이점을 해결하는 서사를 다룹니다."
+        ],
+        "noteworthy_ko": "방대한 텍스트와 캐릭터 중심의 서사가 게임의 핵심입니다. 1인 개발자가 이 정도 규모의 시나리오를 구현하는 것은 불가능에 가까우므로, 핵심 메커니즘인 '커맨드 배틀'의 구조를 분석하는 것이 좋습니다.",
+        "development_ko": "복잡한 데이터베이스 관리와 캐릭터별 스킬/상성 시스템 구현이 핵심입니다. 방대한 시나리오를 관리하기 위한 텍스트 엔진과 연출 시스템이 필요합니다. 밸런스 조정은 캐릭터 간의 상성과 스킬 효율을 맞추는 데 매우 큰 노력이 필요합니다.",
+        "idea_ko": "특정 역사적 인물을 현대적으로 재해석한 짧은 텍스트 어드벤처 배틀 게임이 적합합니다.",
+        "highlights_ko": [
+          "압도적인 분량의 서사와 세계관을 통해 깊이 있는 몰입감을 제공합니다.",
+          "커맨드 선택 방식의 전투는 직관적이면서도 전략적인 깊이를 갖추고 있습니다."
+        ],
+        "systems_ko": [
+          "커맨드 배틀 엔진",
+          "캐릭터 데이터 및 육성 시스템",
+          "시나리오 텍스트 뷰어",
+          "가챠(확률형 아이템) 시스템",
+          "상성 및 밸런스 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "캐릭터 수집, 전투 밸런스, 방대한 시나리오 관리 등 시스템 복잡도가 매우 높습니다. 1인 개발 시 전체 복제는 불가능하며, 전투 시스템만 축소 구현하는 것이 현실적입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 커맨드 배틀 로직",
+            "캐릭터 능력치 데이터 구조",
+            "텍스트 출력 시스템"
+          ],
+          "defer": [
+            "방대한 시나리오 전체",
+            "복잡한 가챠 및 결제 시스템"
+          ],
+          "risks": [
+            "전투 밸런스 붕괴",
+            "데이터 관리 복잡성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "미니 영령 배틀",
+            "concept": "3명의 캐릭터를 선택해 턴제 배틀을 벌이는 단순화된 전투 게임입니다. 상성 관계를 3가지로 단순화합니다.",
+            "first_step": "가위바위보 방식의 상성 전투 로직을 구현합니다."
+          },
+          {
+            "title": "텍스트 로그 RPG",
+            "concept": "전투보다는 텍스트 선택지에 따라 결과가 달라지는 스토리 중심의 게임입니다. 전투는 결과에 따른 이벤트로 처리합니다.",
+            "first_step": "분기형 시나리오 엔진을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "캐릭터 기반의 턴제 전투 시스템을 설계하고 데이터 구조를 최적화하는 방법을 배우기에 좋습니다. 비추천하는 이유는 1인 개발로 감당하기 어려운 방대한 콘텐츠 양 때문입니다.",
+        "source_limitations_ko": "소개문에는 구체적인 전투 수치 계산식이나 데이터 관리 방식이 명시되지 않았습니다. 결제 및 보안 기능은 외부 서비스 연동이 필수적이므로 구현 범위에서 제외해야 합니다.",
+        "name": "Fate/Grand Order",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.aniplex.fategrandorder&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:416048305": {
+      "app_key": "apple:416048305",
+      "name": "메이투 Meitu - 얼굴보정·인물 리터치·AI기능",
+      "developer": "Meitu Technology Co., Ltd.",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/%EB%A9%94%EC%9D%B4%ED%88%AC-meitu-%EC%96%BC%EA%B5%B4%EB%B3%B4%EC%A0%95-%EC%9D%B8%EB%AC%BC-%EB%A6%AC%ED%84%B0%EC%B9%98-ai%EA%B8%B0%EB%8A%A5/id416048305",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:30:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "AI 카툰 - 선택한 이미지를 AI화가가 다양한 카툰 스타일로 그려내요! 【뷰티 카메라】- 후보정이 필요 없는 완벽한 셀카용 무음카메라 자연스럽고 예쁜 필터와 메이크업은 물론 재미있는 AR 스티커까지! 시즌별로 업데이트되는 효과와 함께 사진 찍는 게 즐거워질걸요? 【AI 플래시 - 새로운 기능!】 어두운 사진도 자연스럽게 밝게 만들어주는 후면 보광 효과! AI가 얼굴을 자동으로 인식하고 빛과 색감을 최적화하여 역광에서도 환하게 빛나게 해줘요. 【뷰티 기능】- 간편하고 섬세한 뷰티 기능을 갖춘 보정어플 셀 수 없는 다양한 사진보정 기능으로 아쉬운 사진도 인생사진으로 만들어 보세요. 몇 번의 터치만으로 자연스럽고 확실하게 예뻐질 수 있어요. ● 슬림 - 얼굴도 몸매도 자유롭게 수동으로 보정. 사진왜곡 걱정 없는 복구 기능 ● 얼굴 보정 - 얼굴 각도부터 비율까지 디테일한 보정 ● 메이크업 - 다양한 메이크업으로 매일매일 새로운 나 ● 몸매 보정 - 배경 왜곡 없이 자연스럽게 키가 10cm는 커 보이는걸? ● 컨투어(염색) - 메이투와 함께 원하는 색으로 자유롭게 염색해보세요. ● 피부톤 - 터치 한 번만으로 안색을 맑고 환하게 밝혀주세요. 【사진 편집】- 필터와 모자이크로 돋보이는 사진 여러 사진을 동시에 보정하며 필터로 통일된 색감을 유지할 수 있어요. 지저분한 배경에도 모자이크와 AI지우개로 사진에서 나만 돋보일 수 있도록 ! 다양한 콜라주로 추억도 더 특별하게 보관해 보세요. 【동영상 편집 및 리터칭】별도의 편집앱 필요 없이 동영상도 사진 보정하듯 손쉽게 필터에서 몸매 보정까지. 동영상 편집으로 예쁘게 보정한 후에도 화질 저하는 걱정하지 마세요. 화질 복구로 예쁘고 또렷한 동영상 편집이 가능해요. 【Meitu VIP】 Meitu VIP를 통해 1,000개 이상의 다양한 회원 전용 혜택을 만나보세요. ● VIP 전용 스티커, 필터, AR 카메라, 모자이크, 더욱더 세련되고 스타일리시한 메이크업까지 모두 사용 가능 (파트너쉽 아이템 미포함) ● 얼굴 볼륨, 다양한 피부톤 조정, 앞머리 및 치아 사진보정 기능을 활용하여 사진을 한결 더 자연스럽고 아름답게 만드세요! ● VIP회원이 되어 광고로부터 자유로워지세요. 【이용 약관 및 개인 정보 보호 정책】 - 개인 정보 보호 정책：https://pro.meitu.com/xiuxiu/agreements/global.html?lang=kor#kor-policy - 회원 동의：https://pro.meitu.com/xiuxiu/agreements/global.html?lang=kor 【앱 접근권한 안내】 Meitu을 이용하기 위해서는 모바일 기기의 일부 데이터 및 기능에 대한 접근 권한이 필요합니다. [필수 접근 권한] 사진: 기기에 저장된 사진 및 동영상을 불러오고, 편집한 사진 및 동영상을 저장하기 위해 사용됩니다. [선택 접근 권한] 마이크: 동영상 촬영 시 오디오 녹음을 위해 사용됩니다. 알림: 앱 관련 알림을 기기에서 수신하고 표시하기 위해 사용됩니다. 미디어 및 Apple Music: 기기에 저장된 음악 및 오디오 파일을 불러오기 위해 사용됩니다. 카메라: 사진 및 동영상 촬영을 위해 사용됩니다. ※ 선택 접근 권한에 동의하지 않아도 해당 권한이 필요한 기능을 제외한 서비는 이용할 수 있습니다. 다만, 해당 접근권한에 동의하지 않을 경우, 해당 권한이 필요한 일부 기능의 이용이 제한될 수 있습니다. 【결제창에 표시된 금액은 부가세가 포함된 금액입니다】 아래의 방법을 통해 저희에게 연락해주세요. 이메일 : global.support@meitu.com 대표번호 : +86 21-400 009 3360 고객센터 이용 경로: [앱 → 나(홈 화면 오른쪽 아래) → 도움말 및 피드백 → 의견 제출]",
+      "analysis": {
+        "app_key": "apple:416048305",
+        "summary_ko": "메이투(Meitu)는 AI 기반의 사진 및 동영상 편집 앱으로, 얼굴 보정, 메이크업, 필터, AI 카툰 등 다양한 리터칭 기능을 제공합니다. 사용자는 간단한 터치만으로 사진과 영상을 전문가 수준으로 보정할 수 있으며, VIP 구독을 통해 추가 효과를 이용할 수 있습니다.",
+        "features_ko": [
+          "AI를 활용하여 사진을 다양한 카툰 스타일로 변환합니다.",
+          "얼굴 각도, 비율, 피부톤 등을 세밀하게 보정하는 뷰티 기능을 제공합니다.",
+          "배경 왜곡 없이 몸매를 보정하거나 키를 늘리는 기능을 지원합니다.",
+          "사진과 동영상에 필터, 모자이크, 스티커 등을 적용하여 편집할 수 있습니다.",
+          "AI 지우개 기능을 통해 사진 내 불필요한 배경 요소를 제거합니다."
+        ],
+        "noteworthy_ko": "AI 기술을 활용한 이미지 변환과 세밀한 신체 보정 알고리즘이 핵심 경쟁력입니다. 특히 사용자 경험을 단순화하여 복잡한 편집 과정을 터치 몇 번으로 줄인 점이 인상적입니다.",
+        "development_ko": "이미지 처리 알고리즘(OpenCV 등)과 AI 모델(GAN 등)의 최적화가 필수적입니다. 실시간 영상 보정을 위한 GPU 가속 처리와 화질 복구 기술이 높은 기술적 난이도를 가집니다.",
+        "idea_ko": "사용자의 사진을 분석하여 어울리는 패션 스타일이나 헤어 컬러를 가상으로 시뮬레이션해 주는 스타일링 앱.",
+        "highlights_ko": [
+          "AI 지우개와 카툰 변환 등 최신 AI 기술을 사용자 친화적으로 구현했습니다.",
+          "사진뿐만 아니라 동영상까지 동일한 수준의 보정 기능을 제공합니다."
+        ],
+        "systems_ko": [
+          "이미지/영상 처리 엔진",
+          "AI 모델 추론 시스템",
+          "필터 및 효과 렌더링 시스템",
+          "구독 결제 및 권한 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "고도의 이미지 처리 기술과 AI 모델 최적화가 필요합니다. 개인 개발자가 실시간 영상 보정 엔진을 처음부터 구현하는 것은 매우 도전적인 과제입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사진 불러오기 및 저장",
+            "기본 필터 적용",
+            "얼굴 인식 및 보정 기능"
+          ],
+          "defer": [
+            "AI 카툰 변환",
+            "동영상 보정",
+            "구독 결제 시스템"
+          ],
+          "risks": [
+            "이미지 처리 성능 저하",
+            "AI 모델의 높은 리소스 점유"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "AI 스타일 필터",
+            "concept": "특정 화가의 화풍을 학습한 AI 필터를 사진에 적용하여 예술적인 결과물을 만듭니다.",
+            "first_step": "기존 오픈소스 AI 모델(Style Transfer)을 활용하여 사진을 변환하는 간단한 앱 제작."
+          },
+          {
+            "title": "자동 구도 보정기",
+            "concept": "사진의 수평을 맞추고 인물이 중앙에 오도록 자동으로 크롭해 주는 도구입니다.",
+            "first_step": "이미지 인식 라이브러리를 사용하여 인물 위치를 찾고 이미지를 자르는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "이미지 처리와 AI 모델 활용에 관심 있는 개발자에게 추천합니다. 다만, 처음부터 거대한 앱을 만들기보다 특정 보정 기능 하나에 집중하는 것이 좋습니다.",
+        "source_limitations_ko": "AI 모델의 구체적인 학습 데이터나 이미지 처리 엔진의 상세 기술 스택은 공개되어 있지 않습니다. 결제 금액의 부가세 포함 여부 외의 수익 모델은 명시되지 않았습니다.",
+        "name": "메이투 Meitu - 얼굴보정·인물 리터치·AI기능",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EB%A9%94%EC%9D%B4%ED%88%AC-meitu-%EC%96%BC%EA%B5%B4%EB%B3%B4%EC%A0%95-%EC%9D%B8%EB%AC%BC-%EB%A6%AC%ED%84%B0%EC%B9%98-ai%EA%B8%B0%EB%8A%A5/id416048305",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 70,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "google:fr.vinted": {
+      "app_key": "google:fr.vinted",
+      "name": "Vinted: Shop & sell pre-loved",
+      "developer": "Vinted",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=fr.vinted&hl=en&gl=US",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:31:29+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "The idea is simple: you sell your pre-loved stuff to other members who’ll love it again. They get the thrill of unboxing a great find, you get more space at home. It's look-good, do-good, feel-good, for everyone. Selling is easy and free Snap photos of your item, describe it, and set your price. You keep 100% of what you earn. • Cash in on your pre-loved clothes and more. • Watch your earnings grow. Send your money straight to your bank account. • Buyers cover shipping costs. You get prepaid labels that make things simple. Shop new-again finds Feel proud of your second-hand discoveries, from clothes to accessories. • Fast finds, long-lasting love. There’s a Vinted category for almost everything, use filters to speed up shopping. • We’ve got your back. When you buy on Vinted, we cover you with Buyer Protection. For a small fee, you’ll get a refund if your item is lost, damaged in delivery, or significantly not as described. • Choose a shipping carrier and have your order sent to your home or a convenient pickup location. There’s a diverse community of second-hand enthusiasts waiting to meet you. Chat with your fellow members, get updates, and manage your orders all in one place. Come join us TikTok: https://www.tiktok.com/@vinted Instagram: https://www.instagram.com/vinted Find out more in our Help Center: https://www.vinted.com/help",
+      "analysis": {
+        "app_key": "google:fr.vinted",
+        "summary_ko": "Vinted는 사용자가 중고 의류와 액세서리를 판매하고 구매할 수 있는 커뮤니티 기반의 중고 거래 플랫폼입니다. 판매자는 사진과 설명을 등록하여 쉽게 물건을 팔 수 있고, 구매자는 다양한 필터를 통해 원하는 상품을 찾을 수 있습니다. 구매자 보호 정책을 통해 안전한 거래 환경을 제공합니다.",
+        "features_ko": [
+          "사진 촬영과 설명 입력만으로 간편하게 상품을 등록할 수 있습니다.",
+          "판매 수익의 100%를 판매자가 가져가는 구조를 제공합니다.",
+          "카테고리 및 필터를 통해 원하는 중고 물품을 빠르게 검색할 수 있습니다.",
+          "구매자 보호 정책을 통해 배송 사고나 상품 불일치 시 환불을 지원합니다.",
+          "채팅 기능을 통해 판매자와 구매자가 직접 소통할 수 있습니다."
+        ],
+        "noteworthy_ko": "개인 간 거래(C2C) 플랫폼으로서 신뢰를 구축하기 위한 구매자 보호 정책과 배송 연동 시스템이 핵심입니다. 커뮤니티 기능을 통해 사용자를 유지하는 전략이 돋보입니다.",
+        "development_ko": "사용자 간 실시간 채팅, 결제 게이트웨이 연동, 배송 추적 시스템 등 복합적인 기술이 필요합니다. 대규모 데이터를 처리할 수 있는 서버 인프라와 안전한 결제 시스템 구축이 가장 큰 부담입니다.",
+        "idea_ko": "특정 카테고리(예: 빈티지 의류)에 특화된 소규모 중고 거래 앱으로 범위를 좁혀 구현하는 것이 적합합니다.",
+        "highlights_ko": [
+          "사용자 친화적 판매: 사진과 가격 설정만으로 즉시 판매가 가능합니다.",
+          "안전 거래: 구매자 보호 정책을 통해 거래 리스크를 최소화합니다."
+        ],
+        "systems_ko": [
+          "사용자 인증 및 프로필 관리",
+          "상품 등록 및 검색 엔진",
+          "실시간 채팅 시스템",
+          "결제 및 정산 시스템",
+          "배송 추적 연동"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "결제 시스템, 배송 연동, 사용자 간 분쟁 해결 등 법적·기술적 고려사항이 매우 많습니다. 1인이 모든 기능을 구현하고 운영하는 것은 불가능에 가깝습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 목록 조회",
+            "상품 등록 기능",
+            "기본 채팅 기능"
+          ],
+          "defer": [
+            "결제 게이트웨이 연동",
+            "배송 추적 시스템",
+            "구매자 보호 정책 자동화"
+          ],
+          "risks": [
+            "사용자 간 사기 거래 위험",
+            "결제 보안 및 개인정보 유출",
+            "서버 유지 및 운영 비용"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "동네 나눔 게시판",
+            "concept": "결제 없이 물건을 무료로 나눔하거나 교환하는 지역 기반의 커뮤니티 앱입니다.",
+            "first_step": "위치 기반으로 게시글을 올리고 댓글을 다는 기능을 구현합니다."
+          },
+          {
+            "title": "중고 거래 기록장",
+            "concept": "거래 플랫폼이 아닌, 사용자가 자신이 구매한 중고 물품의 상태와 가격을 기록하는 관리 앱입니다.",
+            "first_step": "물품 사진과 가격을 저장하는 로컬 데이터베이스를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "플랫폼 비즈니스의 구조와 사용자 간 상호작용 설계 방식을 이해하는 데 도움이 됩니다. 다만, 실제 결제나 배송 기능은 외부 API를 사용해야 하므로 난이도가 매우 높습니다.",
+        "source_limitations_ko": "결제 시스템의 상세 구현 방식, 배송사 연동 API의 구체적인 명세, 사용자 보호 정책의 법적 근거 등은 소개문에 포함되어 있지 않습니다.",
+        "name": "Vinted: Shop & sell pre-loved",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=fr.vinted&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 84,
+        "reasons": [],
+        "best_rank": 7,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:1564391515": {
+      "app_key": "apple:1564391515",
+      "name": "솔리테어 - 클래식 카드게임, 클론다이크 게임",
+      "developer": "Guru Smart Holding Limited",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_card",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%86%94%EB%A6%AC%ED%85%8C%EC%96%B4-%ED%81%B4%EB%9E%98%EC%8B%9D-%EC%B9%B4%EB%93%9C%EA%B2%8C%EC%9E%84-%ED%81%B4%EB%A1%A0%EB%8B%A4%EC%9D%B4%ED%81%AC-%EA%B2%8C%EC%9E%84/id1564391515?uo=2",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:32:48+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "언제 어디서든 뛰어난 클래식과 인기 솔리테어 카드 게임을 즐기세요! 긴장을 풀고, 스트레스를 풀고, 두뇌를 훈련하고, 자신에게 도전하고, 클론다이크 또는 페이션스 마스터가 되어 이 고전적인 클론다이크 솔리테어 카드 게임을 시도할 시간입니다! 유럽에서 인내심이라고도 하는 솔리테어 게임(영국, 프랑스 등)은 솔리테어 카드 게임이며 싱글 플레이어가 플레이할 수 있습니다. 이 솔리테어 클론다이크 카드 퍼즐을 풀려면 하트, 다이아몬드, 스페이드 및 십자가의 4가지 수트 카드를 모두 재단으로 옮겨야 합니다. 고전적인 솔리테어 클론다이크 게임에는 52장의 카드가 있습니다. 에이스에서 킹(A, 2, 3 등)까지 카드를 한 벌씩 쌓아야 합니다. 열 사이에서 카드를 이동하고 내림차순으로 카드를 쌓고 빨간색과 검은색 옷을 구분할 수도 있습니다. 예를 들어 검은색 10 다음에 빨간색 9만 올 수 있습니다. 왕만 자유 열에 놓을 수 있습니다. 전체 스택을 다른 열로 끌어 카드 스택을 이동할 수 있습니다. 솔리테어 클론다이크 게임은 큐브, 프리셀, 스파이더, 트라이 픽스, 피라미드, 골프, 마작 및 유콘과 같은 다른 솔리테어 카드/보드 게임과 유사한 고전 솔리테어 컬렉션의 중독성 카드 게임입니다. 클래식은 결코 퇴색하지 않습니다. Solitaire Klondike는 긴장을 풀고 시간을 보내고 언제 어디서나 인내심과 고집으로 게임을 즐길 수 있는 가장 좋은 방법입니다. 당신은 이 솔리테어 클론다이크 카드 게임을 정말 좋아할 것입니다. 주요 특징들 - 클래식 솔리테어 게임 플레이, 매우 재미 있고 중독성 - 왼손 모드, 더 편리합니다. - 3가지 그리기 모드, 게임 플레이에 더 도전적 - 통계 섹션, 계속해서 자신을 개선하고 도전하십시오. - 일일 챌린지, 새로운 솔리테어 게임으로 매일 시작 - 무제한 힌트 및 실행 취소 개인 정보 보호 정책: https://solitaire.gurugame.ai/policy.html 서비스 약관: https://solitaire.gurugame.ai/termsofservice.html",
+      "analysis": {
+        "app_key": "apple:1564391515",
+        "summary_ko": "이 앱은 고전적인 클론다이크 솔리테어 카드 게임을 모바일 환경에서 즐길 수 있도록 구현한 게임입니다. 52장의 카드를 사용하여 에이스부터 킹까지 순서대로 쌓는 퍼즐 방식을 제공합니다. 사용자는 긴장을 풀고 두뇌 훈련을 하며 게임을 즐길 수 있습니다.",
+        "features_ko": [
+          "클래식 클론다이크 규칙을 기반으로 카드를 내림차순으로 쌓아 옮기는 게임 플레이를 제공합니다.",
+          "왼손 모드를 지원하여 사용자의 편의성을 고려했습니다.",
+          "3가지 그리기 모드를 통해 난이도를 조절할 수 있습니다.",
+          "무제한 힌트와 실행 취소 기능을 제공하여 초보자도 쉽게 접근할 수 있습니다.",
+          "일일 챌린지를 통해 매일 새로운 퍼즐을 제공합니다."
+        ],
+        "noteworthy_ko": "솔리테어는 규칙이 명확하여 로직 구현의 표준을 배우기 좋습니다. 특히 카드 이동 판정과 승리 조건 검사 등 상태 관리의 기초를 다지기에 매우 적합한 프로젝트입니다.",
+        "development_ko": "카드 덱 셔플 알고리즘과 카드 이동 규칙 판정이 핵심입니다. UI 드래그 앤 드롭 구현이 중요하며, 게임 상태를 저장하고 실행 취소(Undo)를 위해 이전 상태를 스택으로 관리하는 기술이 필요합니다.",
+        "idea_ko": "기존 솔리테어 규칙에 특수 카드나 제한 시간을 추가하여 변형된 퍼즐 모드를 만드는 것이 적합합니다.",
+        "highlights_ko": [
+          "클래식 규칙을 충실히 재현한 카드 퍼즐.",
+          "통계 및 일일 챌린지를 통한 지속적인 플레이 유도."
+        ],
+        "systems_ko": [
+          "카드 덱 생성 및 셔플 알고리즘",
+          "카드 이동 규칙 판정 시스템",
+          "게임 상태 관리(Undo/Redo)",
+          "드래그 앤 드롭 UI",
+          "승리 조건 검사 로직"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "규칙이 이미 정형화되어 있어 로직 구현이 명확합니다. 그래픽 리소스가 적고 물리 엔진이 필요하지 않아 1인 개발자가 완성하기에 매우 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카드 배치 및 이동 로직",
+            "기본 규칙 판정(색상/숫자)",
+            "승리 조건 확인"
+          ],
+          "defer": [
+            "통계 시스템",
+            "일일 챌린지 서버 연동"
+          ],
+          "risks": [
+            "카드 이동 시의 UI 반응성 저하",
+            "예외적인 카드 배치 상황에 대한 버그"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "시간 제한 솔리테어",
+            "concept": "제한 시간 내에 카드를 모두 정리해야 하는 긴박한 모드입니다. 특정 카드를 제거하면 시간이 추가됩니다.",
+            "first_step": "타이머 UI를 추가하고 시간이 0이 되면 게임 오버되는 로직을 구현합니다."
+          },
+          {
+            "title": "카드 수집 솔리테어",
+            "concept": "게임을 클리어할 때마다 카드의 뒷면 디자인을 수집하는 요소입니다. 수집한 카드로 나만의 덱을 꾸밉니다.",
+            "first_step": "승리 시 보상으로 카드 스킨 데이터를 해금하는 시스템을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "게임 개발의 기초인 상태 관리와 규칙 기반 프로그래밍을 배우기에 최적입니다. 복잡한 시스템 없이도 완성도 높은 결과물을 만들 수 있어 첫 프로젝트로 추천합니다.",
+        "source_limitations_ko": "소개문에는 카드 덱의 확률적 분포나 구체적인 알고리즘은 명시되어 있지 않습니다. 또한, 서버 기반의 일일 챌린지 데이터 동기화 방식은 확인되지 않았으므로 오프라인 기반으로 구현하는 것이 안전합니다.",
+        "name": "솔리테어 - 클래식 카드게임, 클론다이크 게임",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%86%94%EB%A6%AC%ED%85%8C%EC%96%B4-%ED%81%B4%EB%9E%98%EC%8B%9D-%EC%B9%B4%EB%93%9C%EA%B2%8C%EC%9E%84-%ED%81%B4%EB%A1%A0%EB%8B%A4%EC%9D%B4%ED%81%AC-%EA%B2%8C%EC%9E%84/id1564391515?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "google:com.oliveyoung": {
+      "app_key": "google:com.oliveyoung",
+      "name": "올리브영",
+      "developer": "CJ Olive Young Corporation",
+      "source": "google",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.oliveyoung&hl=ko&gl=KR",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:35:40+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "건강한 아름다움을 제안하는 라이프스타일 플랫폼 올리브영입니다. 더 쉽고 편리해진 올리브영 APP에서 건강한 아름다움과 일상 속의 새로움을 즐겨보세요! ※ 올리브영앱 서비스 접근 권한 안내 [필수적 접근 권한] - 사용하지 않음 [선택적 접근 권한] - 올리브영은 고객님께 보다 나은 서비스를 제공하기 위해 기기의 다양한 기능을 활용하고 있습니다. ① 사진, 카메라 : 고객센터 문의, 리뷰 등록, 바코드 및 기프트카드 카드번호 스캔, 피부 진단 ② 마이크 : 음성 인식을 통한 대화형 검색 ③ 알림 : 유용한 소식 및 혜택 푸시 알림 수신 ④ 위치 : 주변 매장 조회 ⑤ 연락처 : 선물하기 연락처 불러오기 * 서비스 제공에 접근권한이 필요한 경우 동의를 받고 있으며, 거부하셔도 기본 서비스 이용에 아무런 제한이 없습니다. :D ----------- 고객센터 연락처 : 1577-4887",
+      "analysis": {
+        "app_key": "google:com.oliveyoung",
+        "summary_ko": "건강한 아름다움을 제안하는 라이프스타일 플랫폼 올리브영의 공식 앱입니다. 상품 검색, 구매, 리뷰 확인 등 쇼핑 기능을 제공하며, 주변 매장 조회 및 선물하기 기능을 지원합니다. 사용자 편의를 위해 음성 검색 및 바코드 스캔 등의 기능을 포함하고 있습니다.",
+        "features_ko": [
+          "다양한 뷰티 및 건강 상품을 검색하고 구매할 수 있습니다.",
+          "주변 매장 위치를 조회하여 재고 확인 및 방문을 돕습니다.",
+          "바코드 스캔을 통해 상품 정보를 즉시 확인할 수 있습니다.",
+          "리뷰 등록 및 문의 기능을 통해 고객 간 소통을 지원합니다.",
+          "선물하기 기능을 통해 연락처 기반으로 상품을 전달할 수 있습니다."
+        ],
+        "noteworthy_ko": "온라인 쇼핑몰과 오프라인 매장을 연결하는 O2O(Online to Offline) 서비스의 전형입니다. 재고 관리 시스템과 사용자 위치 기반 서비스가 결합된 구조가 흥미롭습니다.",
+        "development_ko": "대규모 상품 데이터베이스 관리와 실시간 재고 연동이 핵심입니다. 사용자 위치 기반 매장 찾기 기능과 결제 시스템 연동이 필요합니다. 리뷰 및 문의 사항을 처리하는 게시판 시스템과 푸시 알림 서버가 중요합니다.",
+        "idea_ko": "사용자의 피부 타입을 분석하여 적합한 화장품을 추천해 주는 AI 기반 큐레이션 기능을 강화하면 좋을 것입니다.",
+        "highlights_ko": [
+          "온라인 쇼핑과 오프라인 매장 정보를 통합하여 편리한 쇼핑 경험을 제공합니다.",
+          "바코드 스캔, 음성 검색 등 다양한 인터페이스를 지원합니다."
+        ],
+        "systems_ko": [
+          "상품 검색 및 필터링 엔진",
+          "결제 및 주문 관리 시스템",
+          "위치 기반 매장 찾기 서비스",
+          "사용자 리뷰 및 평점 시스템",
+          "재고 관리 및 물류 연동"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "쇼핑몰 앱은 결제 시스템, 재고 관리, 물류 연동 등 거대한 백엔드 시스템이 필요합니다. 개인 개발자가 전체 기능을 구현하는 것은 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 목록 및 상세 페이지",
+            "장바구니 기능",
+            "사용자 프로필"
+          ],
+          "defer": [
+            "결제 시스템",
+            "실시간 재고 연동",
+            "매장 위치 기반 서비스"
+          ],
+          "risks": [
+            "결제 보안 문제",
+            "데이터베이스 관리 부담",
+            "물류 시스템 연동 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "화장품 성분 분석기",
+            "concept": "상품의 성분표를 촬영하면 유해 성분이나 알레르기 유발 성분을 알려주는 앱입니다.",
+            "first_step": "성분 데이터베이스를 구축하고 이미지 인식(OCR)을 통해 성분을 추출하는 기능을 만듭니다."
+          },
+          {
+            "title": "나만의 화장대 관리",
+            "concept": "현재 사용 중인 화장품의 유통기한을 관리하고 교체 시기를 알려주는 앱입니다.",
+            "first_step": "화장품 이름과 개봉일을 입력하면 유통기한을 계산하여 알림을 보내는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "커머스 앱의 기본 구조와 사용자 인터페이스를 공부하기 좋습니다. 결제나 물류를 제외한 기능 위주로 프로토타입을 만들어 보는 것을 추천합니다.",
+        "source_limitations_ko": "결제 게이트웨이 연동, 재고 관리 시스템의 상세 로직, 물류 연동 방식은 확인되지 않았습니다.",
+        "name": "올리브영",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.oliveyoung&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 86,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "google:com.roku.remote": {
+      "app_key": "google:com.roku.remote",
+      "name": "Roku Remote (Official)",
+      "developer": "Roku, Inc. & its affiliates",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.roku.remote&hl=en&gl=US",
+      "data_date": "2026-10-25",
+      "analysed_at": "2026-10-25T03:35:58+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "The official remote app for your Roku® device. Roku Remote (Official) turns your phone into a feature-packed remote control for Roku players and Roku TVs. Enjoy convenient, easy control of your Roku devices, quickly launch your favorite apps and channels, search with your voice, type with your phone’s keyboard, and listen privately with headphones — all from the device already in your pocket. The free Roku Remote app features: * Remote control — a full-featured Roku remote on your phone, with the same buttons as the one you lost in the couch * Keyboard — type search terms, passwords, and Wi-Fi info with your mobile keyboard instead of the on-screen grid * Voice search — say what you want and get to it faster * Private listening — plug headphones into your phone so you can stream without waking the house * Cast photos and video — share what's on your phone to the big screen * Control your apps — easily add new apps to your Roku device, or quickly launch your favorites * Free TV - stream a huge selection of free movies, live TV, and more right from your phone. Works with Roku TV™ models and Roku streaming players. To use certain features, connect your phone or tablet to the same wireless network as your Roku device. Some features require a compatible Roku device and may require signing into your Roku account. Feature availability: * Voice search is available in English in the US, UK, and Canada, and in Spanish in Mexico and the US. * The Roku Channel can be viewed in the mobile app in the US and Mexico only. * Some channels require payment, can change, and vary by country. For more information, go to http://support.roku.com Privacy Policy: go.roku.com/privacypolicy CA Privacy Notice: https://docs.roku.com/published/userprivacypolicy/en/us#userprivacypolicy-en_us-CCPA",
+      "analysis": {
+        "app_key": "google:com.roku.remote",
+        "summary_ko": "Roku 기기를 제어할 수 있는 공식 리모컨 앱입니다. 스마트폰을 사용하여 Roku 플레이어와 TV를 간편하게 조작할 수 있습니다. 음성 검색, 가상 키보드 입력, 헤드폰을 이용한 개인 청취 기능을 제공합니다.",
+        "features_ko": [
+          "스마트폰을 Roku 기기의 물리 리모컨처럼 사용할 수 있는 인터페이스를 제공합니다.",
+          "화면 키보드 대신 스마트폰 키보드로 검색어와 비밀번호를 입력할 수 있습니다.",
+          "음성 명령을 통해 원하는 콘텐츠를 빠르게 검색하고 실행할 수 있습니다.",
+          "스마트폰에 헤드폰을 연결하여 TV 소리를 혼자 들을 수 있는 개인 청취 기능을 지원합니다.",
+          "스마트폰에 저장된 사진과 영상을 TV 화면으로 전송(캐스팅)할 수 있습니다."
+        ],
+        "noteworthy_ko": "하드웨어 기기와 모바일 앱 간의 실시간 동기화 기술이 핵심입니다. 로컬 네트워크 내에서 기기를 탐색하고 제어 신호를 전송하는 통신 프로토콜 구현이 중요합니다.",
+        "development_ko": "로컬 네트워크 통신(mDNS 등) 기술이 필수적입니다. 기기별 호환성 테스트와 지연 시간 없는 입력 반응성 확보가 제작의 핵심입니다. UI는 물리 리모컨의 직관성을 모바일 환경에 맞게 재구성해야 합니다.",
+        "idea_ko": "특정 기기 전용 리모컨을 넘어, 사용자의 시청 패턴을 분석해 선호 채널을 추천하는 개인화 대시보드 기능을 추가하는 아이디어입니다.",
+        "highlights_ko": [
+          "물리 리모컨의 기능을 스마트폰으로 완벽하게 대체하는 편의성.",
+          "헤드폰을 통한 개인 청취 기능으로 야간 시청 환경 개선."
+        ],
+        "systems_ko": [
+          "로컬 네트워크 기기 탐색 시스템",
+          "UDP/TCP 기반 제어 신호 전송",
+          "음성 인식 API 연동",
+          "미디어 스트리밍 프로토콜(캐스팅)",
+          "사용자 인증 및 기기 페어링 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "하드웨어 제조사의 비공개 API나 프로토콜을 다루어야 하며, 네트워크 환경에 따른 연결 안정성 확보가 매우 까다롭기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기기 검색 및 연결 기능",
+            "기본 방향키 및 확인 버튼 구현",
+            "텍스트 입력 전송 기능"
+          ],
+          "defer": [
+            "음성 검색",
+            "개인 청취(오디오 스트리밍)",
+            "사진/영상 캐스팅"
+          ],
+          "risks": [
+            "네트워크 환경에 따른 연결 끊김",
+            "기기별 호환성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스마트 시청 기록부",
+            "concept": "리모컨 앱에서 시청한 콘텐츠를 기록하고, 비슷한 장르의 무료 영화를 추천해 주는 기능입니다.",
+            "first_step": "앱 내에서 버튼 클릭 시 로그를 저장하고 리스트로 보여주는 기능 구현."
+          },
+          {
+            "title": "제스처 리모컨",
+            "concept": "버튼 대신 화면을 쓸어 넘기는 제스처로 채널을 변경하거나 볼륨을 조절하는 인터페이스입니다.",
+            "first_step": "터치 이벤트 좌표를 분석하여 방향성 제스처를 인식하는 모듈 제작."
+          }
+        ],
+        "recommendation_ko": "네트워크 통신과 하드웨어 연동의 기초를 배우기에 좋습니다. 다만, 특정 제조사의 프로토콜에 의존하므로 범용적인 앱 개발을 원하는 경우 비추천합니다.",
+        "source_limitations_ko": "Roku 기기와의 통신 프로토콜 상세 사양은 공개되지 않았으며, 실제 구현 시 기기별 인증 절차나 보안 정책은 확인되지 않았습니다.",
+        "name": "Roku Remote (Official)",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.roku.remote&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 87,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "apple:6743782843": {
+      "app_key": "apple:6743782843",
+      "name": "かんぽアプリ",
+      "developer": "QOLead,Limited",
+      "source": "apple",
+      "country": "JP",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%81%8B%E3%82%93%E3%81%BD%E3%82%A2%E3%83%97%E3%83%AA/id6743782843?uo=2",
+      "data_date": "2026-10-22",
+      "analysed_at": "2026-10-25T03:38:22+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ご利用のみなさま----------- ■ 歩いて健康、貯まって嬉しい 目標歩数を達成し、抽せんチケットをゲット！ 毎週行える抽せんで、ゆうゆうポイントを獲得し、限定商品と交換！ ※ゆうゆうポイントは郵便局を利用したり、来局するだけで手軽に貯められるポイントです。貯まったポイントは家族でシェアしたり、大切な人とつながりを深める商品と交換できます。ご契約者さまに限らず、アプリ利用者全員が抽せんに参加できます。 ご契約者さま------- ■ アプリからかんたんにご契約内容の確認・お手続き ご契約内容がアプリのトップ画面からすぐに確認できます。またかんぽ生命のご契約に関する以下のようなお手続きができます。 ・住所変更 ・保険金の請求 ・控除証明書の再発行 など ■ 大切なお知らせを見逃さず、すっきり管理 お知らせや書類をアプリにおまとめ。 あの書類、どこにあったかな…？と迷うことなく、すぐにチェックすることができます。 ■ 困った時も安心！すぐにつながる アプリのトップ画面から、担当者に電話でかんたんに相談できます。お困りごとの際にも、すぐに連絡できて安心。 --------------------",
+      "analysis": {
+        "app_key": "apple:6743782843",
+        "summary_ko": "걷기 활동을 통해 포인트를 적립하고 상품과 교환하는 건강 관리 앱입니다. 보험 계약자를 위한 계약 확인 및 관리 기능을 제공합니다. 또한 상담 연결 및 알림 관리 기능을 포함합니다.",
+        "features_ko": [
+          "목표 걸음 수를 달성하여 추첨 티켓을 획득할 수 있습니다.",
+          "적립된 포인트로 한정 상품과 교환할 수 있습니다.",
+          "앱 내에서 보험 계약 내용을 확인하고 주소 변경 등을 처리할 수 있습니다.",
+          "중요한 알림과 서류를 앱 내에서 통합 관리할 수 있습니다.",
+          "앱 화면에서 담당자에게 직접 전화 상담을 요청할 수 있습니다."
+        ],
+        "noteworthy_ko": "건강 관리와 금융 서비스를 결합하여 사용자의 앱 체류 시간을 늘리는 전략이 흥미롭습니다. 보험사라는 신뢰 기반의 서비스에 일상적인 걷기 보상을 더해 사용자 참여를 유도하는 구조입니다.",
+        "development_ko": "건강 데이터 연동(HealthKit 등)과 금융 데이터 보안 처리가 핵심입니다. 사용자 인증 및 개인정보 보호를 위한 백엔드 구축이 필수적입니다. 알림 서비스와 전화 연결 기능 등 외부 서비스 연동 구현이 필요합니다.",
+        "idea_ko": "걷기 활동을 기반으로 한 지역 사회 커뮤니티 챌린지 기능이 개인 개발 시 확장성이 좋습니다.",
+        "highlights_ko": [
+          "건강 관리와 보험 업무를 하나의 앱에서 처리하는 통합 서비스입니다.",
+          "가족 간 포인트 공유 기능을 통해 사용자 간 연결을 강화합니다."
+        ],
+        "systems_ko": [
+          "건강 데이터 수집 및 연동 시스템",
+          "사용자 인증 및 보안 데이터 관리 시스템",
+          "포인트 적립 및 보상 관리 시스템",
+          "푸시 알림 및 문서 관리 시스템",
+          "외부 API 연동(전화, 보험사 서버)"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "금융 및 보험 정보와 관련된 보안 요구사항이 매우 높으며, 외부 시스템과의 연동이 필수적이라 개인 개발자가 구현하기에는 기술적, 법적 장벽이 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "걸음 수 측정 및 기록",
+            "포인트 적립 로직",
+            "기본 UI/UX"
+          ],
+          "defer": [
+            "보험 계약 관리 기능",
+            "금융 보안 시스템",
+            "전화 상담 연동"
+          ],
+          "risks": [
+            "개인정보 보호 및 보안 사고 위험",
+            "금융 관련 법적 규제 준수 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "동네 걷기 챌린지",
+            "concept": "사용자가 특정 지역을 걸으며 포인트를 쌓고, 지역 상점 쿠폰과 교환하는 서비스입니다. 지역 경제 활성화와 건강을 동시에 챙깁니다.",
+            "first_step": "위치 기반 걸음 수 측정 및 포인트 적립 로직 구현."
+          },
+          {
+            "title": "가족 건강 모니터링",
+            "concept": "가족 구성원의 걸음 수를 공유하고 서로 응원 메시지를 보내는 건강 관리 앱입니다. 가족 간의 유대감을 높이는 데 초점을 맞춥니다.",
+            "first_step": "데이터 공유를 위한 간단한 서버 통신 및 친구 추가 기능 구현."
+          }
+        ],
+        "recommendation_ko": "금융 앱의 복잡한 구조보다는 건강 데이터 활용과 보상 시스템의 설계 방식을 배우기에 적합합니다. 다만 금융 기능은 실제 구현 시 높은 보안 수준이 요구되므로 주의가 필요합니다.",
+        "source_limitations_ko": "소개문에 명시된 보험 계약 관리, 금융 보안, 의료 데이터 연동 기능은 실제 구현 시 외부 API와 법적 승인이 필요하며, 현재 설명만으로는 구체적인 기술 스택을 알 수 없습니다.",
+        "name": "かんぽアプリ",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%81%8B%E3%82%93%E3%81%BD%E3%82%A2%E3%83%97%E3%83%AA/id6743782843?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
+    },
+    "google:jp.co.studioking.bokudora_and": {
+      "app_key": "google:jp.co.studioking.bokudora_and",
+      "name": "ぼくとドラゴン【仲間と協力！リアルタイムバトル】",
+      "developer": "studiorex Co.,Ltd.",
+      "source": "google",
+      "country": "JP",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=jp.co.studioking.bokudora_and&hl=ja&gl=JP",
+      "data_date": "2026-10-22",
+      "analysed_at": "2026-10-25T03:38:22+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "◆◇TVアニメ「らんま1/2」とのコラボ開催中!!◇◆ ・期間限定のコラボガチャにTVアニメ「らんま1/2」の超人気キャラクター達が登場!! ■開催期間 ・コラボガチャ：2026年10月18日(日) 〜 2026年11月3日(火) ◆◇「ぼくとドラゴン (ぼくドラ) 」初心者応援キャンペーン開催中!◇◆ ゲーム「ぼくとドラゴン」をプレイするだけで URガチャを無料で回せ、『レアガチャ剣』を大量ゲット!! さらに今ならリアルタイムバトルで超有利 人気UR『魔眼の王バロール』 『SR以上確定ガチャ剣』を無料でゲット!! 他にもオンライン協力ギルドバトルゲーム最高峰の特典が盛り沢山!! 仲間とオンライン協力プレイ!!完全リアルタイムのギルドバトルで盛り上がれ!! -------------------------------- ▼▽【ぼくとドラゴン】ゲーム紹介▼▽ -------------------------------- ◆◇サクサク簡単操作!!本格3DアクションRPG (ロールプレイングゲーム)◇◆ 指一本でなぞって爽快。簡単に操作できる本格3D爽快アクションゲーム 仲間との協力プレイ以外にも体力消費無しで好きなときに好きなだけプレイできる!! モンスター討伐でレベルアップ!!放置で湧き出る大量のモンスターを爽快に狩りまくれ!! アクションバトルでドラゴンを倒して、お気に入りのドラゴンを手に入れよう ◆◇【やり込み要素が満載】「ぼくドラ」の世界を体験できるクエスト◇◆ クエストでは仲間やライバルたちのいる世界を楽しめる「ストーリー」モードと、 期間限定ドラゴンや様々な育成素材を狙える「イベント」モードがあるぞ！ 最強の召喚士を目指していざ出発しよう！ ◆◇【王道RPG(ロールプレイングゲーム】仲間と協力プレイ!!アツい共闘ギルドバトル◇◆ オンライン上でギルド同士の共闘プレイ!!完全リアルタイムで激突する召喚バトルがアツい!! 仲間とタイミングをあわせて、協力バトルで一発逆転を狙え!! 本格ギルドバトルゲームの最高峰を仲間との協力プレイで体感しよう!! ◆◇【キャラも充実】超ハイクオリティのイラスト◇◆ 3DオンラインRPGでもトップクラスのデザインクオリティ 美少女・イケメン・ドラゴンまで本格的なクオリティでプレイするのが楽しくなる!! 総勢500体以上のユニットでデッキの組み方は無限大!! ◆◇【コラボ祭り】イベント・コラボも盛りだくさん◇◆ 面白いコラボイベントや、やりこめるイベントも盛りだくさん ガチャ剣や豪華報酬がもらえるランキング上位を目指してプレイを楽しもう!! ◆◇【ぼくとドラゴン (ぼくとどらごん：ぼくドラ)】はこんなゲームです◇◆ ・みんなでわいわい楽しめる人気の協力バトルゲーム ・複数人数で協力バトルゲームが楽しめる王道ゲームのロープレ ・無料ガチャがあるから完全無料でも楽しめるオンラインゲーム ・指一本で簡単に操作できるのに、戦略的なアクションRPG・3Dアクションバトル ・ドラゴンや召喚獣を仲間にできる王道RPG ・ギルドを作って仲間と一緒にランキング上位を目指す、戦うゲーム ・キャラクターを育ててリアルタイムバトルができるやりこみゲーム ・アクションRPG・バトルRPGならではの爽快感がはまる ・ギルドに所属して協力バトルゲームで仲間ができるロープレ ・全国の人と複数人数で戦略的なマルチプレイができるゲーム ・ファンタジーな世界観の人気王道RPG ・可愛いキャラがたくさん出てくる3DオンラインRPG ・オンライン対戦ゲームを4人以上の複数人数で楽しめるギルド系ゲーム ・完全無料のチャットで所属ギルドの仲間と戦況を報告し合えるオンラインゲーム ・無料ガチャがある人気の本格RPGゲームアプリ ・全国のユーザーと完全無料でチャットができる3DオンラインRPG ・スマホで暇つぶしにみんなで遊べるゲーム ・戦略ゲームや戦術ゲームの中でも友達とできるゲーム ・人気の本格RPG(ロールプレイングゲーム) ・協力プレイで仲間を集めて戦うゲーム ・ドラゴン育成が楽しめるドラゴンRPG・育成RPG ・仲間と共闘ゲームが楽しめる王道RPGのやりこみゲーム ◆◇【ぼくとドラゴン】はこんな方へおすすめです◇◆ ＜オンラインでゲームをプレイしたい方＞ ・オンラインゲームで地方にいる仲間と遊びたいので、友達と通信できるゲームを探している ・自慢のユニットを使って、ギルドの仲間たちとオンライン対戦ゲームで遊びたい ・オンライン対戦ゲームがたくさんある中で、戦略的で自由度の高いゲームを探している ・本格的で面白いオンラインRPGが好き ・オンライン対戦ゲームで毎回違った相手と白熱したバトルゲームがしたい ・友達とできるゲームで一緒に戦うことのできる共闘ゲームが好き ・チャットもできるオンラインゲームで本格RPGを楽しみたい ・ギルドメンバーとチャットができるRPGが好き ・フレンド対戦できる爽快アクションゲームのおすすめアプリを探している ・スマホでオンラインRPGをプレイしたい ・やりこみゲームの要素が多数ある仲間と戦うゲームを探している ・完全無料のチャットをしながら友達とできるゲームで遊びたい ＜ギルドバトルなど協力ゲームを楽しみたい方＞ ・友達とオンラインでできるマルチプレイゲームがやりたい ・戦闘ゲームのような攻撃や援護などをみんなでできる戦略的なゲームアプリがほしい ・仲間と一緒に戦うゲームを王道ゲームの中から見つけたい ・可愛い女子キャラのユニットでデッキ編成して、ギルドで闘えるマルチプレイゲームが好き ・ギルバトやフレンド対戦ができる、はまる共闘ゲームを探している ・ギルド系ゲームで友達や全国のみんなでできるゲームをプレイしたい ・フレンド対戦など友達と対戦できるゲームでバトルRPGを楽しみたい ・おすすめアプリで仲間を集めて戦うゲーム、共闘ゲームを探している ・暇つぶしに面白いマルチプレイゲームを探している ・友達と対戦できるゲームでチャットもできて、ゲームランキングに入っているようなおすすめのゲームがしたい ・ギルド系ゲームの要素があるオンライン対戦ゲームを楽しみたい ・チームやギルドを作ってみんなで遊べるゲームをプレイしたい ・王道ゲームの中で、マルチプレイができるゲームを探している ＜簡単操作のアクションゲームを探している方＞ ・ド派手な3Dアクションバトルのロープレを探している ・爽快アクションゲームでリアルタイムバトルを楽しめる王道RPGをプレイしたい ・本格RPGの中でも3Dアクションゲームやリアルタイムバトルをプレイするのが好き ・マルチプレイができるゲームではまる3Dアクションゲームを探している ・完全無料でも遊べるアクションRPGで、自由度の高い戦略ゲームを探している ・本格3Dアクションバトルをオンラインゲームで楽しみたい ・操作が簡単で男女問わずできるような3Dアクションゲームのおすすめゲームがプレイしたい ・マルチプレイゲームでバトルRPG・アクションRPGものをプレイしたい ・暇潰しの放置RPGや放置育成ゲームではなく自分のアクション操作でリアルに戦うゲームが好き ・リアルタイムバトルRPGでフレンド対戦、共闘ゲームができるおすすめゲームアプリで遊びたい ＜ドラゴンやモンスターが登場するファンタジーゲームが好きな方＞ ・可愛いミニキャラが出てくる、はまる戦いのゲームを探している ・ドラゴン育成できるドラゴンRPG・育成RPGゲームが好き ・無料ガチャがある暇つぶしに最適なファンタジーゲームを探している ・可愛いキャラがたくさん出てくる育成RPGで3DオンラインRPGをプレイしたい ・モンスターゲームの中でも魔法や召喚士、召喚獣が出てくるようなファンタジー要素が好き ・バトルRPGでドラゴンが出てくるドラゴンRPGが好き ・モンスター討伐ができる暇潰しにおすすめのゲームを探している ・ファンタジーゲームやモンスターゲームなどかわいいミニキャラが出てくるおもしろいゲームを探している ・ドラゴン育成をして、その育てたドラゴンで友達と対戦できるゲームをプレイしたい ■■ 推奨ＯＳ ■■ Android 5.0以降 ※推奨端末以外でもダウンロードできる場合がございますが、使用状況により動作が安定しない場合がございます。 特にギルドバトルゲーム部分においては、表示遅延等が発生する場合がございます。予めご了承ください。 ■「ぼくとドラゴン(ぼくどら)」公式サイト https://bokudora.jp/",
+      "analysis": {
+        "app_key": "google:jp.co.studioking.bokudora_and",
+        "summary_ko": "실시간 길드 배틀을 중심으로 하는 3D 액션 RPG입니다. 500종 이상의 유닛을 수집하고 육성하여 전략적인 덱을 구성할 수 있습니다. 협동 플레이와 다양한 이벤트, 콜라보레이션을 통해 지속적인 콘텐츠를 제공합니다.",
+        "features_ko": [
+          "실시간으로 진행되는 길드 간 협동 전투를 지원합니다.",
+          "손가락 하나로 조작 가능한 3D 액션 전투 시스템을 제공합니다.",
+          "500종 이상의 유닛을 수집하고 강화하여 자신만의 덱을 구성합니다.",
+          "스토리 모드와 이벤트 모드 등 다양한 PvE 콘텐츠를 즐길 수 있습니다.",
+          "길드원 간의 무료 채팅 기능을 통해 전략을 공유할 수 있습니다."
+        ],
+        "noteworthy_ko": "실시간 멀티플레이어 길드 배틀은 서버 동기화와 지연 시간 관리가 핵심입니다. 대규모 유닛 데이터와 실시간 전투를 결합한 구조는 모바일 RPG의 전형적이면서도 고도화된 형태를 보여줍니다.",
+        "development_ko": "실시간 네트워크 통신(Socket 등)과 서버 인프라 구축이 가장 큰 부담입니다. 500종 이상의 유닛 데이터 관리와 밸런스 조정은 지속적인 운영이 필요합니다. 3D 그래픽 최적화와 다양한 이벤트 콘텐츠 제작 역량이 요구됩니다.",
+        "idea_ko": "길드 단위의 실시간 협동보다는 비동기식 길드 협력(예: 길드원들이 힘을 합쳐 거대 보스를 순차적으로 공략)이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "실시간으로 진행되는 긴박한 길드 배틀 시스템이 핵심입니다.",
+          "고퀄리티 일러스트와 3D 캐릭터를 활용한 시각적 만족감을 제공합니다."
+        ],
+        "systems_ko": [
+          "실시간 네트워크 동기화 시스템",
+          "유닛 수집 및 강화 데이터베이스",
+          "길드 관리 및 채팅 시스템",
+          "전투 로직 및 밸런스 엔진",
+          "이벤트 및 보상 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 멀티플레이어 서버 구현과 대규모 데이터 관리는 개인 개발자가 감당하기에 매우 높은 난이도입니다. 특히 안정적인 네트워크 환경을 유지하는 것이 큰 도전입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 전투 시스템",
+            "유닛 데이터 관리",
+            "간단한 덱 구성 기능"
+          ],
+          "defer": [
+            "실시간 길드 배틀",
+            "복잡한 서버 동기화",
+            "대규모 이벤트 시스템"
+          ],
+          "risks": [
+            "서버 비용 및 관리 부담",
+            "멀티플레이어 동기화 오류",
+            "콘텐츠 업데이트 속도 유지의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "비동기 길드 레이드",
+            "concept": "실시간이 아닌, 길드원들이 각자 전투를 수행하여 보스의 체력을 깎는 방식입니다. 서버 부하를 줄이면서 협동의 재미를 느낄 수 있습니다.",
+            "first_step": "보스 체력 공유를 위한 데이터베이스 연동 및 전투 결과 전송 기능 구현."
+          },
+          {
+            "title": "유닛 조합 퍼즐",
+            "concept": "수집한 유닛의 속성과 스킬을 조합하여 특정 스테이지를 공략하는 퍼즐형 RPG입니다. 액션보다는 전략적 사고에 집중합니다.",
+            "first_step": "유닛 스킬 시스템과 상성 관계를 적용한 전투 프로토타입 제작."
+          }
+        ],
+        "recommendation_ko": "대규모 멀티플레이어 게임의 구조를 이해하고 싶은 개발자에게 추천합니다. 다만, 실시간 서버 구현은 매우 어려우므로 비동기 방식부터 시작하는 것을 권장합니다.",
+        "source_limitations_ko": "소개문은 마케팅 문구 위주로 작성되어 실제 전투의 세부 로직, 서버 아키텍처, 결제 시스템의 구체적인 구현 방식은 알 수 없습니다.",
+        "name": "ぼくとドラゴン【仲間と協力！リアルタイムバトル】",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=jp.co.studioking.bokudora_and&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-25"
     }
   }
 }
