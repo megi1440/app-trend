@@ -1,7 +1,9 @@
 // Read-only Gemini 3.5 development studies. Source charts and 3.1 results stay intact.
 import {esc,attr,detailsHref} from './data.js';
+import {searchScope,searchResults,searchMatch,deepSearchState} from './lab_search.js';
 let index=null,failed='',loading=false;
-let selected='',opened=new Set(),comparison=[];
+let selected='',opened=new Set(),comparison=[],query='';
+let typingTimer;
 const details=new Map();
 let refresh=()=>{},notify=()=>{};
 export function initDevelopmentHandlers(onRefresh,onNotify){refresh=onRefresh;notify=onNotify;}
@@ -69,18 +71,37 @@ function renderCompare(){
   return `<div><strong>${el(row.name)}</strong><p>${el(b.originality_direction_ko||'자료 읽는 중')}</p><b>MVP</b><ul>${(p.mvp_scope_ko||b.mvp_features_ko||[]).map(x=>`<li>${el(x)}</li>`).join('')}</ul><b>위험</b><ul>${(p.risks_ko||b.technical_risks_ko||[]).map(x=>`<li>${el(x)}</li>`).join('')}</ul></div>`;
  }).join('')}</div>`:'<p class="small-copy">왼쪽 목록에서 비교할 후보를 최대 3개 선택하세요.</p>'}</section>`;
 }
-export function renderDevelopment(){
+export const developmentQuery=()=>query;
+export function developmentInput(target){
+ if(!target.matches?.('[data-dev-search]'))return false;
+ query=target.value;const pos=target.selectionStart;
+ clearTimeout(typingTimer);
+ typingTimer=setTimeout(()=>{
+  if(!location.hash.startsWith('#/lab/development'))return;
+  refresh();const field=document.querySelector('[data-dev-search]');
+  if(field){field.focus();try{field.setSelectionRange(pos,pos);}catch{}}
+ },220);
+ return true;
+}
+export function renderDevelopment(labItems=[]){
  if(!index&&!loading&&!failed)startLoad();
  if(loading)return '<div class="center-loading"><span class="loading-spinner"></span><p>개발 설계 자료를 읽는 중입니다.</p></div>';
  if(failed)return `<div class="panel dev-preview">${el(failed)} <button class="button ghost small" data-dev-action="retry">다시 확인</button></div>`;
- const rows=index?.items||[];
- if(!rows.length)return '<div class="panel dev-preview">아직 3.5 분석 자료가 없습니다. 다음 자동 분석부터 쌓입니다.</div>';
+ const sourceRows=index?.items||[];
+ if(!sourceRows.length)return '<div class="panel dev-preview">아직 3.5 분석 자료가 없습니다. 다음 자동 분석부터 쌓입니다.</div>';
+ const lookup=new Map();for(const item of labItems)for(const key of item.alias_keys||[item.app_key])lookup.set(key,item);
+ const candidates=sourceRows.map(row=>({...lookup.get(row.app_key),...row}));
+ const rows=searchResults(candidates,query);
+ const status=deepSearchState();
+ const scopeControls=`<div class="dev-search-toolbar"><label class="lab-search-label">개발 기획서 검색<input type="search" data-dev-search value="${attr(query)}" placeholder="앱 이름, 기능, MVP, 기술 구조"></label><label class="lab-search-label">검색 범위<select data-lab-filter="searchScope" class="field-select"><option value="basic" ${searchScope()==='basic'?'selected':''}>기본 검색</option><option value="full" ${searchScope()==='full'?'selected':''}>상세 내용까지</option></select></label></div>${searchScope()==='full'?`<p class="lab-search-guide">${status.state==='loading'?'상세 AI 자료를 읽는 중입니다.':status.missing?'일부 상세 자료를 불러오지 못했습니다.':'Gemini 3.1·3.5 전체 분석 내용까지 검색합니다.'}</p>`:'<p class="lab-search-guide">기본 검색: 이름 · 제작사 · 분류 · 기능 태그 · AI 핵심 요약</p>'}`;
+ if(!rows.length)return `<div class="dev-heading"><h2>개발 설계실</h2></div>${scopeControls}<div class="panel dev-preview">검색 조건에 일치하는 개발 기획서가 없습니다.</div>`;
  const row=rows.find(x=>x.app_key===selected)||rows[0];
  selected=row.app_key;getDetail(row);
  return `<div class="dev-heading"><div><h2>개발 설계실</h2><p class="small-copy">Gemini 3.5 · 개발 검토서 ${index.brief_count}개 · 상세 설계서 ${index.plan_count}개</p></div></div>
+ ${scopeControls}<div class="dev-search-count">검색 결과 ${rows.length}개 / 전체 ${sourceRows.length}개 개발 후보</div>
  <div class="dev-layout"><aside class="panel dev-sidebar" aria-label="개발 분석 후보 목록">
  ${rows.map(item=>`<div class="dev-candidate ${item.app_key===selected?'is-active':''}">
-  <button type="button" data-dev-action="select" data-key="${attr(item.app_key)}" aria-current="${item.app_key===selected?'true':'false'}"><strong>${el(item.name)}</strong><small>${item.plan?'상세 설계 완료':'개발 검토서'} · ${el(item.source)}</small></button>
+  <button type="button" data-dev-action="select" data-key="${attr(item.app_key)}" aria-current="${item.app_key===selected?'true':'false'}"><strong>${el(item.name)}</strong><small>${item.plan?'상세 설계 완료':'개발 검토서'} · ${el(item.source)}</small>${query?(()=>{const match=searchMatch(item,query);return match?`<span class="lab-search-hit"><strong>${el(match.label)} 일치</strong> · ${el(match.snippet)}</span>`:'';})():''}</button>
   <label class="dev-select-compare"><input type="checkbox" data-dev-action="compare" data-key="${attr(item.app_key)}" ${comparison.includes(item.app_key)?'checked':''}> 비교</label></div>`).join('')}</aside>
  <div class="dev-main">${renderReport(details.get(selected),row)}${renderCompare()}</div></div>`;
 }

@@ -5,7 +5,7 @@ import { renderHome, renderExplore, normalizeExploreCategory, renderIndie, rende
 import { toggleFavorite, getFavorites, hasFavorite, updateFavorite, exportFavorites, importFavorites, refreshFavoriteSnapshots } from './favorites.js';
 import { renderLab, initLabHandlers, labAction, labChange, labInput, loadLab } from './lab.js';
 import {labIsUnlocked, renderLabGate, unlockLab} from './lab_lock.js';
-import {initDevelopmentHandlers, developmentAction} from './development.js';
+import {initDevelopmentHandlers, developmentAction, developmentInput} from './development.js';
 
 const main=document.getElementById('main');
 const overlay=document.getElementById('overlay');
@@ -215,7 +215,7 @@ document.addEventListener('input',e=>{
     const input=document.querySelector('[data-favorite-query]');if(input){input.focus();try{input.setSelectionRange(start,end);}catch{}}
     return;
   }
-  if(e.target.matches('[data-indie-query]')){ui.indieQuery=e.target.value;ui.indieLimit=30;refreshIndieResults();return;}labInput(e.target);});
+  if(e.target.matches('[data-indie-query]')){ui.indieQuery=e.target.value;ui.indieLimit=30;refreshIndieResults();return;}if(developmentInput(e.target))return;labInput(e.target);});
 searchInput.addEventListener('input',()=>{
   ui.query=searchInput.value.trim();
   if(ui.query && route().page!=='search')location.hash='#/search';
