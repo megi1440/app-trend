@@ -15,6 +15,7 @@ import re
 import sys
 import time
 import traceback
+import unicodedata
 from pathlib import Path
 
 import ai_probe
@@ -249,8 +250,54 @@ def rank_candidates(snapshot: dict, trends: dict) -> list[dict]:
     return sorted(ranked, key=lambda row: (-row['priority_score'], row['best_rank'], row['app_key']))
 
 
+def cross_store_pairs(snapshot: dict, historical_items=()) -> dict[str, frozenset[str]]:
+    """Map unambiguous same-title/same-publisher Apple/Google listings.
+
+    Each original store ID remains independent in observations and storage.
+    A missing publisher or ambiguous multiple listing is not guessed into a match.
+    """
+    def text(value):
+        return ' '.join(unicodedata.normalize('NFKC', str(value or '')).casefold().split())
+
+    def publisher(value):
+        value = re.sub(r'\s*\(apps?\)$', '', text(value))
+        return re.sub(r'(?:\s*,?\s*(?:inc\.?|incorporated|ltd\.?|limited|llc|corp\.?|corporation|co\.?))+(?:\s*,?\s*(?:ltd\.?))?$', '', value).strip()
+
+    names = defaultdict(lambda: defaultdict(set))
+    for group in snapshot.get('groups', []):
+        source = group.get('source')
+        if source not in ('apple', 'google'):
+            continue
+        for item in group.get('items', []):
+            name, dev = text(item.get('name')), publisher(item.get('developer'))
+            key = item.get('app_key', '')
+            if name and dev and isinstance(key, str) and key.startswith(f'{source}:'):
+                names[(name, dev)][source].add(key)
+    # The other store may not occur in today's chart. The persisted Lab index
+    # contains historical listings and lets us recognize yesterday's analysis.
+    for item in historical_items:
+        if not isinstance(item, dict):
+            continue
+        source = item.get('source')
+        key = item.get('app_key')
+        if source not in ('apple', 'google') or not isinstance(key, str) or not key.startswith(f'{source}:'):
+            continue
+        name, dev = text(item.get('name')), publisher(item.get('developer'))
+        if name and dev:
+            names[(name, dev)][source].add(key)
+    pairs = {}
+    for members in names.values():
+        if len(members.get('apple', ())) != 1 or len(members.get('google', ())) != 1:
+            continue
+        pair = frozenset((*members['apple'], *members['google']))
+        for key in pair:
+            pairs[key] = pair
+    return pairs
+
+
 def choose_candidates(snapshot: dict, trends: dict, existing: dict, failures: dict,
-                      limit: int = MAX_DAY_APPS, scan_factor: int = 3) -> list[dict]:
+                      limit: int = MAX_DAY_APPS, scan_factor: int = 3,
+                      historical_items=()) -> list[dict]:
     """Keep top evidence-driven choices but avoid one kind/source occupying all slots."""
     today = snapshot.get('data_date', '')
     eligible = [
@@ -259,32 +306,60 @@ def choose_candidates(snapshot: dict, trends: dict, existing: dict, failures: di
         and (failures.get(row['app_key'], {}).get('retry_on', '') <= today)
         and row['priority_score'] >= 60
     ]
+    # Both store versions count as one app for new analysis. A previously
+    # analysed counterpart must not consume the next day's Gemini allowance.
+    pairs = cross_store_pairs(snapshot, [*historical_items, *existing.values()])
+    eligible = [row for row in eligible
+                if not (pairs.get(row['app_key'], frozenset()) & existing.keys())]
     capacity = max(1, limit * scan_factor)
     candidates = []
+    chosen_pairs = set()
+    chosen_keys = set()
+    def not_chosen(row):
+        pair = pairs.get(row['app_key'])
+        return row['app_key'] not in chosen_keys and (not pair or pair not in chosen_pairs)
+    def select(row):
+        candidates.append(row)
+        chosen_keys.add(row['app_key'])
+        pair = pairs.get(row['app_key'])
+        if pair:
+            chosen_pairs.add(pair)
     # Prefer diversity first; remaining slots may go to strong options from any stream.
     buckets = Counter()
     quota = max(2, math.ceil(limit * .4))
     for row in eligible:
         bucket = row['source']
-        if buckets[bucket] < quota:
-            candidates.append(row)
+        if buckets[bucket] < quota and not_chosen(row):
+            select(row)
             buckets[bucket] += 1
             if len(candidates) == capacity:
                 break
     if len(candidates) < capacity:
         present = {row['app_key'] for row in candidates}
         for row in eligible:
-            if row['app_key'] not in present:
-                candidates.append(row)
+            if row['app_key'] not in present and not_chosen(row):
+                select(row)
                 if len(candidates) == capacity:
                     break
     return candidates
+
+
+def load_historical_identities(root: Path) -> list[dict]:
+    """Use the already-built 90-day Lab index; no network or extra collection."""
+    path = root / 'data/lab/index.json'
+    if not path.is_file():
+        return []
+    payload = json.loads(path.read_text(encoding='utf-8'))
+    if payload.get('schema_version') != 1 or not isinstance(payload.get('items'), list):
+        raise ValueError('AI_IDENTITY_INDEX_INVALID')
+    return payload['items']
 
 
 def _save_entry(row: dict, analysis: dict, model: str, generated_at: str, *,
                 description: str, origin: str, quota_day: str = '') -> dict:
     record = {
         'app_key': row['app_key'], 'name': row.get('name', ''),
+        'developer': row.get('developer', ''),
         'source': row.get('source', ''), 'country': row.get('country', ''),
         'category': row.get('category', ''), 'detail_url': row.get('detail_url', ''),
         'data_date': row.get('data_date', ''),
@@ -384,7 +459,8 @@ def run(root: Path, *, snapshot: dict, trends: dict, api_key: str = '',
     today_done = analysed_on_day(existing, run_day)
     remaining = max(0, MAX_DAY_APPS - today_done)
     effective_limit = min(limit, remaining)
-    queue = (choose_candidates(snapshot, trends, existing, failed, effective_limit)
+    queue = (choose_candidates(snapshot, trends, existing, failed, effective_limit,
+                               historical_items=load_historical_identities(root))
              if effective_limit else [])
     if not live:
         return {

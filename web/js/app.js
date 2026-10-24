@@ -40,11 +40,18 @@ function updateStatus(){
 function safeIconResult(item){return icon(item);}
 function renderSearch(){
   const q=ui.query.trim().toLocaleLowerCase();
-  const refs=[...store.refs.entries()].map(([key,entries])=>({key,entries,item:store.appMap.get(key)})).filter(x=>x.item&&(!q||`${x.item.name} ${x.item.developer} ${x.item.primary_category}`.toLocaleLowerCase().includes(q)));
+  const grouped=new Map();
+  for(const [key,entries] of store.refs){
+    const item=store.appMap.get(key);if(!item)continue;
+    const id=store.labCanonical?.get(key)||key;
+    const current=grouped.get(id)||{key:id,entries:[],item:store.appMap.get(id)||item,variants:[]};
+    current.entries.push(...entries);current.variants.push({key,item,group:entries[0]?.group});grouped.set(id,current);
+  }
+  const refs=[...grouped.values()].filter(x=>!q||x.variants.some(v=>`${v.item.name} ${v.item.developer} ${v.item.primary_category}`.toLocaleLowerCase().includes(q)));
   refs.sort((a,b)=>Math.min(...a.entries.map(x=>Number(x.item.rank)||999))-Math.min(...b.entries.map(x=>Number(x.item.rank)||999)));
   const rows=refs.slice(0,80);
   return `<div class="page-heading"><div><p class="eyebrow">COLLECTED DATA SEARCH</p><h1>앱·게임 검색</h1><p class="subtext">우리 사이트에서 수집한 데이터만 검색합니다. 전체 스토어 실시간 검색은 아닙니다.</p></div></div><div class="panel"><div class="results-header"><strong>검색 결과 ${q?refs.length:0}개 ${q?`· '${esc(ui.query)}'`:''}</strong></div>
-    ${q?(rows.length?rows.map(({item,entries})=>`<div class="fav-row">${safeIconResult(item)}<div class="fav-details"><a class="item-primary" href="${attr(detailsHref(item.app_key,entries[0]?.group||{}))}">${esc(item.name)}</a><div class="small-copy">${esc(item.developer||'')} · ${esc(SOURCE_LABEL[entries[0]?.group.source]||'')} · ${entries.length}개 목록에서 발견</div></div><a class="button ghost small" href="${attr(detailsHref(item.app_key,entries[0]?.group||{}))}">자세히</a></div>`).join(''):empty('일치하는 결과가 없습니다.','다른 이름이나 카테고리로 검색해 보세요.')):empty('검색어를 입력해 주세요.','상단 검색창에서 앱·게임 이름이나 개발사를 검색할 수 있습니다.')}
+    ${q?(rows.length?rows.map(({item,entries})=>`<div class="fav-row">${safeIconResult(item)}<div class="fav-details"><a class="item-primary" href="${attr(detailsHref(item.app_key,entries[0]?.group||{}))}">${esc(item.name)}</a><div class="small-copy">${esc(item.developer||'')} · ${entries.length}개 차트에서 관측</div><div class="lab-store-badges">${(store.labVariants?.get(item.app_key)||[{source:entries[0]?.group.source,app_key:item.app_key}]).map(v=>`<a class="lab-store-badge lab-store-${attr(v.source)}" href="${attr(detailsHref(v.app_key,{from:'search'}))}">${esc(SOURCE_LABEL[v.source]||v.source)}</a>`).join('')}</div></div><a class="button ghost small" href="${attr(detailsHref(item.app_key,entries[0]?.group||{}))}">자세히</a></div>`).join(''):empty('일치하는 결과가 없습니다.','다른 이름이나 카테고리로 검색해 보세요.')):empty('검색어를 입력해 주세요.','상단 검색창에서 앱·게임 이름이나 개발사를 검색할 수 있습니다.')}
   </div>${rows.length<refs.length?`<p class="small-copy">상위 ${rows.length}건까지 표시합니다. 검색어를 더 구체적으로 입력해 주세요.</p>`:''}`;
 }
 async function loadChart(stamp,key){
@@ -59,7 +66,7 @@ async function loadChart(stamp,key){
   }catch{if(stamp===renderStamp) el.innerHTML=empty('순위 기록을 불러오지 못했습니다.','다음 데이터 갱신 후 다시 확인해 주세요.');}
 }
 function refreshLabLinkedPage(){
-  const page=route().page;if(page!=='favorites'&&page!=='detail')return;
+  const page=route().page;if(!['favorites','detail','search'].includes(page))return;
   // The lookup may finish while someone is typing a private note. Never
   // replace an unsaved draft with the saved version during an async refresh.
   const note=document.getElementById('idea-note');const status=document.getElementById('idea-status');
@@ -80,7 +87,7 @@ function ensureLabAvailability(){
   if(ui.labAvailability.status!=='idle')return;
   ui.labAvailability={status:'loading',keys:null};
   loadLab().then(data=>{
-    ui.labAvailability={status:'ready',keys:new Set(data.items.map(i=>i.app_key))};
+    ui.labAvailability={status:'ready',keys:new Set(data.map.keys())};
     refreshLabLinkedPage();
   }).catch(()=>{
     ui.labAvailability={status:'error',keys:null};
@@ -110,7 +117,7 @@ function render(){
     r.page==='indie'?renderIndie(ui):r.page==='favorites'?renderFavorites(ui):r.page==='lab'?renderLab(r.tab,r.query):r.page==='detail'?renderDetail(r.key,ui):renderSearch();
   if(r.page==='detail' && r.key.startsWith('itch:')===false)loadChart(stamp,r.key);
   persistFilters();
-  if(r.page==='detail'||(r.page==='favorites'&&getFavorites().length))ensureLabAvailability();
+  if(r.page==='detail'||r.page==='search'||(r.page==='favorites'&&getFavorites().length))ensureLabAvailability();
 }
 function refreshIndieResults(){const el=document.getElementById('indie-results');if(el&&route().page==='indie')el.innerHTML=renderIndieResults(ui);}
 function modal(title,html){

@@ -335,7 +335,6 @@ export function renderFavorites(ui={}) {
   const status=ui.favoriteStatus||'all',sort=ui.favoriteSort||'recent',query=ui.favoriteQuery||'';
   const rows=filterFavorites(saved,{status,sort,query});
   const visible=rows.slice(0,ui.favoriteLimit||30);
-  const available=new Map(saved.map(r=>[r.app_key,!!store.appMap.has(r.app_key)]));
   const statusButtons=[['all','전체',saved.length],...FAVORITE_STATUSES.map(s=>[s,s,saved.filter(x=>x.status===s).length])];
   const toolbar=`<section class="panel favorites-tools" aria-label="관심 목록 필터">
     <div class="favorites-toolbar-top"><label class="fav-search-label">저장한 후보 검색<input type="search" data-favorite-query="true" value="${attr(query)}" placeholder="앱 이름, 메모, 개발사 검색" autocomplete="off"></label>
@@ -343,16 +342,18 @@ export function renderFavorites(ui={}) {
     <div class="fav-status-tabs" aria-label="검토 상태 필터">${statusButtons.map(([key,label,count])=>`<button type="button" class="fav-status-tab ${status===key?'selected':''}" data-favorite-filter="${attr(key)}" aria-pressed="${status===key}">${esc(label)} <span>${count}</span></button>`).join('')}</div>
   </section>`;
   const list=visible.map(row=>{
-    const current=store.appMap.get(row.app_key);
+    const variants=store.labVariants?.get(row.app_key)||[];
+    const current=store.appMap.get(row.app_key)||variants.map(v=>store.appMap.get(v.app_key)).find(Boolean);
     // Prefer today's collected record, but use the private snapshot when absent.
     const item={...row,...current,app_key:row.app_key,detail_url:current?.detail_url||row.detail_url,icon_url:current?.icon_url||row.icon_url,name:current?.name||row.name};
-    const missing=!available.get(row.app_key);
+    const missing=!current;
+    const storeBadges=variants.length>1?`<span class="lab-store-badges">${variants.map(v=>`<span class="lab-store-badge lab-store-${attr(v.source)}">${esc(SOURCE_LABEL[v.source]||v.source)}</span>`).join('')}</span>`:'';
     const external=safeUrl(item.detail_url);
     return `<article class="fav-list-row">
       <div class="fav-list-icon">${icon(item)}</div>
       <div class="fav-list-body">
         <div class="fav-list-titleline"><a class="item-primary" href="${attr(detailsHref(row.app_key,{from:'favorites'}))}">${esc(item.name||row.name)}</a>${missing?'<span class="info-tag warn">최신 목록 밖</span>':''}</div>
-        <div class="fav-list-meta">${esc(SOURCE_LABEL[row.source]||row.source)}${item.developer?` · ${esc(item.developer)}`:''} · 저장 ${formatDate(row.added_at)}${row.first_seen?` · 첫 관측 ${formatDate(row.first_seen)}`:''}</div>
+        <div class="fav-list-meta">${storeBadges||esc(SOURCE_LABEL[row.source]||row.source)}${item.developer?` · ${esc(item.developer)}`:''} · 저장 ${formatDate(row.added_at)}${row.first_seen?` · 첫 관측 ${formatDate(row.first_seen)}`:''}</div>
         ${row.note?`<p class="fav-list-note">${esc(row.note)}</p>`:`<p class="fav-list-note fav-placeholder">아직 아이디어 메모가 없습니다.</p>`}
         <div class="fav-list-links"><a class="text-link" href="${attr(detailsHref(row.app_key,{from:'favorites'}))}">상세·메모</a>${external?`<a class="text-link" href="${attr(external)}" target="_blank" rel="noopener noreferrer">원본 페이지 ↗</a>`:''}${labLinks(row.app_key,ui)}</div>
       </div>
@@ -374,6 +375,8 @@ export function renderDetail(key,ui) {
   const isIndie=key.startsWith('itch:');
   const source=key.split(':')[0];
   const external=safeUrl(item.detail_url);
+  const linkedStores=store.labVariants?.get(key)||[];
+  const linkedStoreLinks=linkedStores.length>1?`<div class="lab-store-badges detail-store-badges">${linkedStores.map(v=>`<a class="lab-store-badge lab-store-${attr(v.source)}" href="${attr(detailsHref(v.app_key,{from:ui.detailFrom||'lab',labtab:ui.detailLabTab||'radar'}))}">${esc(SOURCE_LABEL[v.source]||v.source)} 상세</a>${safeUrl(v.detail_url)?`<a class="small-copy" href="${attr(safeUrl(v.detail_url))}" target="_blank" rel="noopener noreferrer">↗ 스토어</a>`:''}`).join('')}</div>`:'';
   const release=source==='apple' && /^\d{4}-\d{2}-\d{2}$/.test(String(item.release_date||'').slice(0,10))?item.release_date:'';
   const contextOptions=refs.filter(x=>Number.isFinite(Number(x.item.rank))&&x.item.rank!=null).slice()
     .sort((a,b)=>(a.group.source+a.group.country+a.group.category).localeCompare(b.group.source+b.group.country+b.group.category))
@@ -412,10 +415,10 @@ export function renderDetail(key,ui) {
   const returnLabel=returnPage==='favorites'?'관심 목록으로':returnPage==='lab'?'아이디어 연구실로':returnPage==='indie'?'인디 발견으로':returnPage==='home'?'홈으로':returnPage==='games'?'게임 탐색으로':'앱 탐색으로';
   return `<div style="margin-bottom:15px"><a class="text-link" href="${attr(returnHref)}">← ${returnLabel} 돌아가기</a></div><section class="panel detail-hero">
     ${icon(item,'large')}<div class="detail-hero-main"><div class="eyebrow">APP & GAME DETAIL</div><h1>${esc(item.name)}</h1><div class="subtext">${esc(item.developer||'개발사 정보 없음')}</div><div class="detail-info">${sourceTag(source)}<span class="info-tag">${esc(item.primary_category||CATEGORY_LABEL[g.category]||'분류 미확인')}</span>${item.rating!=null&&Number.isFinite(Number(item.rating))?`<span class="info-tag">★ ${Number(item.rating).toFixed(1)}</span>`:''}</div></div>
-    <div class="detail-actions">${external?`<a class="button ghost" href="${attr(external)}" target="_blank" rel="noopener noreferrer">원본 스토어 ↗</a>`:''}<button class="button outline-blue" id="copy-app">앱 정보 복사</button>${labLinks(key,ui,{detail:true})}${star(item)}</div>
+    ${linkedStoreLinks}<div class="detail-actions">${external?`<a class="button ghost" href="${attr(external)}" target="_blank" rel="noopener noreferrer">원본 스토어 ↗</a>`:''}<button class="button outline-blue" id="copy-app">앱 정보 복사</button>${labLinks(key,ui,{detail:true})}${star(item)}</div>
     </section><div class="detail-grid"><div>${sourceOverview}${isIndie?indieEvidence:ranks}${descriptionPanel}</div>
     <aside><section class="panel detail-section"><h2>✨ 눈여겨볼 점</h2><p>${esc(candidateSentence(candidateFor(key,g.source?g:null)))}</p><p class="small-copy">순위 관측은 확인할 수 있지만, 인기 원인과 실제 구현 방식까지 증명하지는 않습니다.</p></section>
-    <section class="panel detail-section"><h2>⭐ 내 아이디어 노트</h2>${!fav?`<p>관심 목록에 추가하면 여기에서 메모를 남길 수 있습니다.</p><button class="button outline-blue" id="add-detail-favorite" data-key="${attr(key)}">☆ 관심 목록에 추가</button>`:`<label class="sr-only" for="idea-note">아이디어 노트</label><textarea id="idea-note" class="note-box" maxlength="3000" placeholder="눈에 띄는 기능, 생각난 아이디어 등을 적어보세요.">${esc(fav.note)}</textarea><div class="note-actions"><select id="idea-status" class="field-select">${FAVORITE_STATUSES.map(x=>`<option ${fav.status===x?'selected':''}>${x}</option>`).join('')}</select><button id="save-note" class="button small">메모 저장</button></div>`}</section></aside></div>`;
+    <section class="panel detail-section"><h2>⭐ 내 아이디어 노트</h2>${!fav?`<p>관심 목록에 추가하면 여기에서 메모를 남길 수 있습니다.</p><button class="button outline-blue" id="add-detail-favorite" data-key="${attr(key)}">☆ 관심 목록에 추가</button>`:`<label class="sr-only" for="idea-note">아이디어 노트</label><textarea id="idea-note" class="note-box" maxlength="10000" placeholder="눈에 띄는 기능, 생각난 아이디어 등을 적어보세요.">${esc(fav.note)}</textarea><div class="note-actions"><select id="idea-status" class="field-select">${FAVORITE_STATUSES.map(x=>`<option ${fav.status===x?'selected':''}>${x}</option>`).join('')}</select><button id="save-note" class="button small">메모 저장</button></div>`}</section></aside></div>`;
 }
 
 export function renderHistory(points, g, range, lastDay) {

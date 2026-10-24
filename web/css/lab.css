@@ -351,3 +351,15 @@ button.lab-feature-tag:not(.is-selected) .lab-feature-count{color:var(--lab-tone
   .lab-export-buttons{grid-template-columns:minmax(0,1fr)}
   .lab-export-buttons .button:last-child{grid-column:auto}
 }
+
+/* One title/publisher across Apple and Google: linked store identity, not merged ranks. */
+.lab-store-badges{display:flex;align-items:center;gap:5px 8px;flex-wrap:wrap;margin-top:5px}
+.lab-store-badge{display:inline-flex;align-items:center;white-space:nowrap;font-size:10px;font-weight:750;line-height:1.6;padding:2px 7px;border-radius:5px;text-decoration:none;border:1px solid transparent}
+.lab-store-apple{background:#e9eef5;color:#314559;border-color:#cad6e3}
+.lab-store-google{background:#e6f5eb;color:#276944;border-color:#b8e2c8}
+.lab-store-badge:hover{filter:brightness(.94);text-decoration:underline}
+.detail-store-badges{margin:12px 0;gap:8px}
+.detail-store-badges .small-copy{margin-right:12px}
+
+/* Explain the difference between all observed candidates and the latest collection. */
+.lab-hero-stats .lab-hero-secondary{display:block;margin-top:6px;font-size:10px;line-height:1.4;color:#8192a8;overflow-wrap:anywhere}

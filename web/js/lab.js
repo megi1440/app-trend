@@ -2,7 +2,7 @@
 // No API keys, speculative scores, or uploads of personal notes.
 import {esc, attr, safeUrl, formatDate, detailsHref, SOURCE_LABEL, COUNTRY_LABEL,
         CATEGORY_LABEL, APP_CATEGORIES, GAME_CATEGORIES, FEED_LABEL, REASON_LABEL, loadHistory, store} from './data.js';
-import {hasFavorite, getFavorites} from './favorites.js';
+import {hasFavorite, getFavorites, setFavoriteAliases} from './favorites.js';
 import {icon, empty} from './views.js';
 
 const TABS=[['radar','발견 레이더'],['features','기능 탐색'],['analysis','개발 분석'],['compare','후보 비교'],['export','자료 내보내기']];
@@ -27,14 +27,77 @@ try {
 let lastFeatureRoute='';
 export function initLabHandlers(refresh,notify){refreshPage=refresh;flash=notify;}
 const readJSON=async url=>{const response=await fetch(url,{cache:'no-cache'});if(!response.ok)throw Error(`자료 요청 실패 (${response.status})`);return response.json();};
+// Same title + same publisher across Apple/Google is a single research candidate.
+// Observed ranks and store IDs remain distinct; the source files are never edited.
+// Only modest, mechanical text normalization is used (no similarity guessing).
+const normalizeIdentity=value=>String(value||'').normalize('NFKC').trim().replace(/\s+/g,' ').toLocaleLowerCase();
+const normalizePublisher=value=>normalizeIdentity(value)
+  .replace(/\s*\(apps?\)$/, '')
+  .replace(/(?:\s*,?\s*(?:inc\.?|incorporated|ltd\.?|limited|llc|corp\.?|corporation|co\.?))+(?:\s*,?\s*(?:ltd\.?))?$/, '')
+  .trim();
+const storeVariant=item=>({app_key:item.app_key,source:item.source,name:item.name,
+  developer:item.developer,kind:item.kind,detail_url:item.detail_url,
+  icon_url:item.icon_url,first_seen:item.first_seen,release_date:item.release_date,has_ai:item.has_ai});
+export function mergeStoreDuplicates(items){
+  const identity=new Map();
+  for(const item of items){
+    if(!['apple','google'].includes(item.source)||!item.name||!item.developer)continue;
+    const title=normalizeIdentity(item.name),publisher=normalizePublisher(item.developer);
+    if(!title||!publisher)continue;
+    const key=JSON.stringify([title,publisher]);
+    const group=identity.get(key)||[];group.push(item);identity.set(key,group);
+  }
+  const groups=new Map(),used=new Set();
+  for(const group of identity.values()){
+    // Ambiguous three-way matches and same-store duplicates stay independent.
+    if(group.length!==2||new Set(group.map(x=>x.source)).size!==2)continue;
+    const apple=group.find(x=>x.source==='apple'),google=group.find(x=>x.source==='google');
+    // Apple is the stable canonical key, even if only Google has AI analysis.
+    const analyzed=[apple,google].filter(x=>x.has_ai).sort((a,b)=>
+      String(b.analysed_at||'').localeCompare(String(a.analysed_at||'')));
+    const ai=analyzed[0];
+    const tags=[...new Set(analyzed.flatMap(item=>item.tags||[]))];
+    const tag_evidence={};
+    for(const record of analyzed)for(const [tag,entries] of Object.entries(record.tag_evidence||{})){
+      tag_evidence[tag]||=[];
+      tag_evidence[tag].push(...entries);
+    }
+    const merged={...apple,app_key:apple.app_key,
+      observations:[...(apple.observations||[]),...(google.observations||[])].sort((a,b)=>
+        String(b.date||'').localeCompare(String(a.date||''))||(a.rank??9999)-(b.rank??9999)),
+      signals:[...(apple.signals||[]),...(google.signals||[])],
+      store_variants:[storeVariant(apple),storeVariant(google)],
+      alias_keys:[apple.app_key,google.app_key],
+      first_seen:[apple.first_seen,google.first_seen].filter(Boolean).sort()[0]||'',
+      has_ai:Boolean(ai),ai_key:ai?.app_key||'',ai_shard:ai?.ai_shard||null,
+      tags,tag_evidence,
+      difficulty:ai?.difficulty||'',summary:ai?.summary||'',analysed_at:ai?.analysed_at||''};
+    groups.set(apple.app_key,merged);used.add(google.app_key);
+  }
+  return items.filter(item=>!used.has(item.app_key)).map(item=>groups.get(item.app_key)||item);
+}
+const canonicalKey=key=>index?.map.get(key)?.app_key||key;
+const sourceMatches=(item,source)=>source==='all'||item.source===source||
+  Boolean(item.store_variants?.some(variant=>variant.source===source));
+const variantLinks=item=>(item.store_variants||[]).map(variant=>
+  `<a class="lab-store-badge lab-store-${attr(variant.source)}" href="${attr(labDetailHref(variant.app_key))}" title="${attr(variant.developer||'')} · ${attr(labelSource(variant.source))} 상세">${esc(labelSource(variant.source))}</a>`).join('');
+const sourceText=item=>item.store_variants?item.store_variants.map(v=>labelSource(v.source)).join(' · '):labelSource(item.source);
 export function loadLab(){
   if(index)return Promise.resolve(index);
   if(loadPromise)return loadPromise;
   loadPromise=readJSON('./data/lab/index.json').then(data=>{
     if(data?.schema_version!==1||!Array.isArray(data.items))throw Error('아이디어 연구실 인덱스 형식이 잘못되었습니다.');
-    index={...data,map:new Map(data.items.map(x=>[x.app_key,x]))};
-    chosen=chosen.filter(key=>index.map.has(key));saveChosen();
-    if(ui.exportManualInitialized){ui.exportKeys=ui.exportKeys.filter(key=>index.map.has(key));saveExportKeys();}
+    const items=mergeStoreDuplicates(data.items),map=new Map(),aliases=new Map();
+    for(const item of items)for(const key of item.alias_keys||[item.app_key]){
+      map.set(key,item);aliases.set(key,item.app_key);
+    }
+    index={...data,items,map,aliases};
+    setFavoriteAliases(aliases);
+    // The ordinary detail page may be opened by either original store ID.
+    store.labVariants=new Map([...map].map(([key,item])=>[key,item.store_variants||[]]));
+    store.labCanonical=new Map([...map].map(([key,item])=>[key,item.app_key]));
+    chosen=[...new Set(chosen.map(canonicalKey))].filter(key=>index.map.has(key)).slice(0,3);saveChosen();
+    if(ui.exportManualInitialized){ui.exportKeys=[...new Set(ui.exportKeys.map(canonicalKey))].filter(key=>index.map.has(key)).slice(0,100);saveExportKeys();}
     loadError=null;return index;
   }).catch(e=>{loadError=e;loadPromise=null;throw e;});
   return loadPromise;
@@ -45,8 +108,9 @@ function loadAI(key){
   if(AI_CACHE.has(key))return AI_CACHE.get(key);
   if(!AI_SHARD_CACHE.has(item.ai_shard))AI_SHARD_CACHE.set(item.ai_shard,readJSON(`./data/ai/items/${encodeURIComponent(item.ai_shard)}.json`));
   const task=AI_SHARD_CACHE.get(item.ai_shard).then(data=>{
-    const record=data?.items?.[key];
-    if(!record?.analysis||record.app_key!==key)throw Error('AI 분석 내용이 존재하지 않습니다.');
+    const analysisKey=item.ai_key||key;
+    const record=data?.items?.[analysisKey];
+    if(!record?.analysis||record.app_key!==analysisKey)throw Error('AI 분석 내용이 존재하지 않습니다.');
     AI_RESULT.set(key,record);
     return record;
   });
@@ -181,11 +245,14 @@ function exportToggle(key){const selected=isExportSelected(key);
 }
 function miniObs(item, radarContext=false){
   // Comparisons must never inherit unrelated radar filters.
-  const observations=(radarContext?scopedObs(item):(item.observations||[])).slice(0,3);
+  const all=(radarContext?scopedObs(item):(item.observations||[]));
+  const observations=item.store_variants&&new Set(all.map(o=>o.source)).size>1
+    ?[...[...new Set(all.map(o=>o.source))].map(source=>all.find(o=>o.source===source)),...all].filter((o,i,arr)=>arr.indexOf(o)===i).slice(0,3)
+    :all.slice(0,3);
   return observations.length?observations.map(o=>`<div class="lab-observation"><span>${esc(eLabel(o))}</span><strong>${o.source==='itch'?'피드 관측':o.rank?`${o.rank}위`:'순위 미확인'}</strong><small>${o.stale?'이전 데이터 · ':o.historical?'과거 관측 · ':''}${formatDate(o.date)}</small></div>`).join(''):'<p class="small-copy">현재 선택한 차트의 관측 기록이 없습니다.</p>';
 }
 function actions(item,analysis=true){
-  const key=attr(item.app_key),fav=hasFavorite(item.app_key);
+  const key=attr(item.app_key),fav=(item.alias_keys||[item.app_key]).some(hasFavorite);
   return `<div class="lab-actions"><a class="button ghost small" href="${attr(labDetailHref(item.app_key))}">상세</a>${analysis&&item.has_ai?`<a class="button ghost small" href="#/lab/analysis?app=${encodeURIComponent(item.app_key)}">개발 분석</a>`:''}<button class="button outline-blue small" data-lab-action="toggle-compare" data-key="${key}">${chosen.includes(item.app_key)?'✓ 비교 선택됨':'+ 비교'}</button><button class="button ghost small" data-lab-action="favorite" data-key="${key}" aria-label="관심 목록 ${fav?'해제':'추가'}">${fav?'★':'☆'} 관심</button></div>`;
 }
 function card(item){
@@ -193,7 +260,7 @@ function card(item){
   const s=reason(item);
   const descriptor=item.description||item.summary||'';
   const released=confirmedRelease(item);
-  return `<article class="panel lab-card"><div class="lab-card-head">${icon(item)}<div class="lab-card-id"><a class="lab-name" href="${attr(labDetailHref(item.app_key))}">${esc(item.name||item.app_key)}</a><div class="small-copy">${esc(labelSource(item.source))} · ${esc(item.category||item.kind||'분류 정보 없음')}</div></div>${badge(item.has_ai?'AI 분석 있음':'미분석',item.has_ai?'green':'')}${released?badge(`Apple 출시 ${formatDate(released)}`,'blue'):''}</div>
+  return `<article class="panel lab-card"><div class="lab-card-head">${icon(item)}<div class="lab-card-id"><a class="lab-name" href="${attr(labDetailHref(item.app_key))}">${esc(item.name||item.app_key)}</a><div class="small-copy">${esc(item.developer||'제작사 미확인')} · ${esc(item.category||item.kind||'분류 정보 없음')}</div>${item.store_variants?`<div class="lab-store-badges">${variantLinks(item)}</div>`:`<div class="small-copy">${esc(sourceText(item))}</div>`}</div>${badge(item.has_ai?'AI 분석 있음':'미분석',item.has_ai?'green':'')}${released?badge(`Apple 출시 ${formatDate(released)}`,'blue'):''}</div>
     <div class="lab-observations">${miniObs(item,true)}</div>
     ${s?`<p class="lab-reason"><strong>${esc(sigLabel(s.reason_code))}</strong> · ${esc(signalText(s))}</p>`:`<p class="lab-reason muted">${o?.historical?'선택 기간의 과거 관측 기록입니다. 현재 순위를 뜻하지 않습니다.':o?.stale?'마지막 정상 수집 기록입니다. 최신 순위로 표시하지 않습니다.':o?'현재 확인된 차트 관측 기록입니다.':'최근 관측 정보가 부족합니다.'}</p>`}
     ${descriptor?`<p class="lab-summary">${esc(descriptor.slice(0,175))}${descriptor.length>175?'…':''}</p>`:''}
@@ -265,7 +332,7 @@ function radarRows(){
 }
 function radar(){
  const rows=radarRows();
- return `<div class="lab-section-heading"><div><h2>발견 레이더</h2><p>스토어 순위·인디 피드와 수집 날짜로 발견합니다. AI 미분석 항목도 포함합니다.</p></div>${badge(`${rows.length}개 후보`,'blue')}</div>
+ return `<div class="lab-section-heading"><div><h2>발견 레이더</h2><p>스토어 순위·인디 피드와 수집 날짜로 발견합니다. AI 미분석 항목도 포함합니다.</p></div>${badge(`필터 결과 ${rows.length.toLocaleString('ko-KR')}개 후보`,'blue')}</div>
  <div class="panel lab-filter-panel"><div class="lab-signal-row" role="group" aria-label="관측 신호">${SIGNALS.map(([key,label])=>`<button class="chip ${ui.signal===key?'selected':''}" data-lab-action="signal" data-value="${key}" aria-pressed="${ui.signal===key}">${label}</button>`).join('')}</div>
  <div class="lab-filters">${select('country',[['ALL','국가 전체'],['US','미국'],['JP','일본'],['KR','한국'],['GLOBAL','인디 GLOBAL']],ui.country,'국가')}${select('source',[['all','스토어 전체'],['apple','App Store'],['google','Google Play'],['itch','itch.io']],ui.source,'스토어')}
  ${select('kind',[['all','앱·게임 전체'],['app','앱'],['game','게임']],ui.kind,'유형')}${categorySelect()}
@@ -275,7 +342,7 @@ function radar(){
  ${select('sort',[['signals','관측 신호 우선'],['recent','최근 관측'],['rise','순위 상승 신호'],['rank','같은 차트에서 순위']],ui.sort,'정렬')}</div></div>
  ${chosen.length?`<div class="lab-selection-bar" role="status"><strong>비교 후보 ${chosen.length}/3</strong><span>선택한 앱·게임을 나란히 살펴볼 수 있습니다.</span><a class="button outline-blue small" href="#/lab/compare">후보 비교하기 →</a><button class="button ghost small" data-lab-action="clear-compare">모두 해제</button></div>`:''}
  <div class="lab-result-tools"><p class="small-copy">${ui.sort==='rank'?'순위 정렬은 단일 국가·스토어·카테고리·차트 선택 시에만 적용됩니다.':'차트가 다른 순위를 합산하지 않으며 전체 신호는 스토어별로 번갈아 표시합니다.'} · 실제 관측 날짜만 표시</p><div class="chips"><button class="chip ${ui.view==='cards'?'selected':''}" data-lab-action="view" data-value="cards">카드</button><button class="chip ${ui.view==='list'?'selected':''}" data-lab-action="view" data-value="list">목록</button></div></div>
- ${rows.length?`<div class="${ui.view==='list'?'lab-list':'lab-card-grid'}">${rows.slice(0,ui.radarLimit).map(card).join('')}</div>${rows.length>ui.radarLimit?`<div class="lab-more"><button class="button ghost" data-lab-action="more-radar">더 보기 (${rows.length-ui.radarLimit}개 남음)</button></div>`:''}`:empty('선택한 조건의 관측 후보가 없습니다.','다른 국가·기간·스토어로 바꾸거나 추가 수집 이후 확인해 주세요.')}
+ ${rows.length?`<div class="${ui.view==='list'?'lab-list':'lab-card-grid'}">${rows.slice(0,ui.radarLimit).map(card).join('')}</div>${rows.length>ui.radarLimit?`<div class="lab-more"><button class="button ghost" data-lab-action="more-radar">더 보기 (${(rows.length-ui.radarLimit).toLocaleString('ko-KR')}개 남음)</button></div>`:''}`:empty('선택한 조건의 관측 후보가 없습니다.','다른 국가·기간·스토어로 바꾸거나 추가 수집 이후 확인해 주세요.')}
  <p class="lab-disclaimer">※ Apple 실제 출시일은 수집된 release_date만 사용합니다. Google Play·itch.io는 출시일 미확인입니다. '처음 관측'은 신규 출시가 아니며, itch.io 피드 순서는 인기 순위가 아닙니다. 수집 실패·관측 누락을 순위권 이탈로 보지 않습니다.</p>`;
 }
 function tagCounts(){const counts=new Map();for(const item of index.items.filter(i=>i.has_ai))for(const tag of item.tags||[])counts.set(tag,(counts.get(tag)||0)+1);return [...counts].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0],'ko'));}
@@ -384,7 +451,7 @@ function features(){
  ${featureInsights(baseRows,selected)}
  <div class="lab-feature-export-toolbar panel"><div><strong>찾은 후보를 다음 분석으로 연결</strong><p class="small-copy">현재 기능·검색·연관 필터로 찾은 ${rows.length}개 후보. 화면의 60개 표시 제한과 관계없이, 미선택 후보를 최대 ${EXPORT_MAX}개까지 담습니다.</p></div><button type="button" class="button outline-blue small" data-lab-action="feature-export-add" ${rows.length?'':'disabled'}>현재 후보 내보내기에 담기 (${Math.min(rows.length,EXPORT_MAX)}개까지)</button><a class="button ghost small" href="#/lab/export">내보내기 확인 →</a></div>
  <div class="lab-section-heading"><div><h3>찾은 개발 참고 후보</h3><p>${esc(matchedText)}${related?` · 그중 ${esc(related)} 관련 ${rows.length}개를 살펴보는 중`:''}</p></div>${related?`<button type="button" class="lab-feature-reset" data-lab-action="clear-feature-related">연관 기능 보기 해제</button>`:''}</div>
- ${rows.length?`<div class="lab-card-grid">${rows.slice(0,ui.featureLimit).map(item=>`<article class="panel lab-feature-card"><div class="lab-card-head">${icon(item)}<div class="lab-card-id"><a class="lab-name" href="#/lab/analysis?app=${encodeURIComponent(item.app_key)}">${esc(item.name)}</a><div class="small-copy">${esc(labelSource(item.source))} · ${esc(item.category||'분류 없음')}</div></div></div><p class="lab-summary">${esc(item.summary||'분석에 포함된 기능 태그를 확인해 주세요.')}</p><div class="lab-tag-row">${item.tags.map(t=>featureBadge(t,item)).join('')}</div><div class="small-copy">AI 분석 기반${item.difficulty?` · 참고 난이도: ${esc(item.difficulty)}`:''}</div>${actions(item)}</article>`).join('')}</div>${rows.length>ui.featureLimit?`<div class="lab-more"><button type="button" class="button ghost" data-lab-action="more-features">후보 더 보기 (${rows.length-ui.featureLimit}개 남음)</button></div>`:''}`:empty('해당 기능과 함께 나타난 후보가 없습니다.','분류 선택이나 제외한 세부 태그를 확인해 주세요.')}`;
+ ${rows.length?`<div class="lab-card-grid">${rows.slice(0,ui.featureLimit).map(item=>`<article class="panel lab-feature-card"><div class="lab-card-head">${icon(item)}<div class="lab-card-id"><a class="lab-name" href="#/lab/analysis?app=${encodeURIComponent(item.app_key)}">${esc(item.name)}</a><div class="small-copy">${esc(sourceText(item))} · ${esc(item.category||'분류 없음')}</div></div></div><p class="lab-summary">${esc(item.summary||'분석에 포함된 기능 태그를 확인해 주세요.')}</p><div class="lab-tag-row">${item.tags.map(t=>featureBadge(t,item)).join('')}</div><div class="small-copy">AI 분석 기반${item.difficulty?` · 참고 난이도: ${esc(item.difficulty)}`:''}</div>${actions(item)}</article>`).join('')}</div>${rows.length>ui.featureLimit?`<div class="lab-more"><button type="button" class="button ghost" data-lab-action="more-features">후보 더 보기 (${rows.length-ui.featureLimit}개 남음)</button></div>`:''}`:empty('해당 기능과 함께 나타난 후보가 없습니다.','분류 선택이나 제외한 세부 태그를 확인해 주세요.')}`;
 }
 const sectionHTML=(heading,content,foot='')=>`<section class="lab-ai-section"><h3>${esc(heading)}</h3>${content||'<p class="small-copy">해당 정보가 없습니다.</p>'}${foot?`<p class="small-copy">${esc(foot)}</p>`:''}</section>`;
 const para=t=>t?`<p class="lab-ai-paragraph">${esc(t)}</p>`:'';
@@ -409,16 +476,16 @@ function analysisFeatureSelect(){
  const grouped=groupedTags(tagCounts());
  return `<label class="lab-field"><span>기능</span><select data-lab-filter="analysisTag" class="field-select"><option value="all" ${ui.analysisTag==='all'?'selected':''}>기능 전체</option>${grouped.map(([name,tags])=>`<optgroup label="${attr(name)}">${tags.map(([tag])=>`<option value="${attr(tag)}" ${ui.analysisTag===tag?'selected':''}>${esc(tag)}</option>`).join('')}</optgroup>`).join('')}</select></label>`;
 }
-function analysisRows(){const q=ui.analysisQuery.trim().toLocaleLowerCase();return index.items.filter(i=>i.has_ai && (ui.analysisSource==='all'||i.source===ui.analysisSource)&&(ui.analysisKind==='all'||i.kind===ui.analysisKind)&&(ui.analysisDifficulty==='all'||i.difficulty===ui.analysisDifficulty)&&(ui.analysisTag==='all'||i.tags.includes(ui.analysisTag))&&(!q||`${i.name} ${i.summary} ${(i.tags||[]).join(' ')}`.toLocaleLowerCase().includes(q))).sort((a,b)=>b.analysed_at.localeCompare(a.analysed_at));}
+function analysisRows(){const q=ui.analysisQuery.trim().toLocaleLowerCase();return index.items.filter(i=>i.has_ai && sourceMatches(i,ui.analysisSource)&&(ui.analysisKind==='all'||i.kind===ui.analysisKind)&&(ui.analysisDifficulty==='all'||i.difficulty===ui.analysisDifficulty)&&(ui.analysisTag==='all'||i.tags.includes(ui.analysisTag))&&(!q||`${i.name} ${i.summary} ${(i.tags||[]).join(' ')}`.toLocaleLowerCase().includes(q))).sort((a,b)=>Number(isExportSelected(b.app_key))-Number(isExportSelected(a.app_key))||b.analysed_at.localeCompare(a.analysed_at));}
 function analysisRow(item,key){
  const inExport=isExportSelected(item.app_key);
- return `<a class="lab-ai-row ${key===item.app_key?'active':''} ${inExport?'is-export-selected':''}" data-analysis-row-key="${attr(item.app_key)}" href="#/lab/analysis?app=${encodeURIComponent(item.app_key)}">${icon(item)}<span class="lab-ai-row-info"><strong>${esc(item.name)}</strong><small>${esc(labelSource(item.source))} · ${formatDate(item.analysed_at)}</small><span class="lab-ai-row-badges">${item.difficulty?difficultyBadge(item.difficulty):''}${inExport?'<span class="lab-export-mark">✓ 내보내기</span>':''}</span></span></a>`;
+ return `<a class="lab-ai-row ${key===item.app_key?'active':''} ${inExport?'is-export-selected':''}" data-analysis-row-key="${attr(item.app_key)}" href="#/lab/analysis?app=${encodeURIComponent(item.app_key)}">${icon(item)}<span class="lab-ai-row-info"><strong>${esc(item.name)}</strong><small>${esc(sourceText(item))} · ${formatDate(item.analysed_at)}</small><span class="lab-ai-row-badges">${item.difficulty?difficultyBadge(item.difficulty):''}${inExport?'<span class="lab-export-mark">✓ 내보내기</span>':''}</span></span></a>`;
 }
 function exportTrayContents(){
  const keys=manualExportKeys();
  return `${keys.length?`<div class="lab-export-tray-list" role="list">${keys.map(key=>{
   const item=index.map.get(key);
-  return `<div class="lab-export-tray-item" role="listitem"><a href="${item.has_ai?`#/lab/analysis?app=${encodeURIComponent(key)}`:attr(labDetailHref(key))}" title="${attr(item.name||key)} 상세 보기">${icon(item)}<span>${esc(item.name||key)}<small>${esc(labelSource(item.source))}${item.has_ai?' · AI 분석 있음':' · 미분석'}</small></span></a><button type="button" data-lab-action="toggle-export" data-key="${attr(key)}" aria-label="${attr(item.name||key)} 내보내기 해제">×</button></div>`;
+  return `<div class="lab-export-tray-item" role="listitem"><a href="${item.has_ai?`#/lab/analysis?app=${encodeURIComponent(key)}`:attr(labDetailHref(key))}" title="${attr(item.name||key)} 상세 보기">${icon(item)}<span>${esc(item.name||key)}<small>${esc(sourceText(item))}${item.has_ai?' · AI 분석 있음':' · 미분석'}</small></span></a><button type="button" data-lab-action="toggle-export" data-key="${attr(key)}" aria-label="${attr(item.name||key)} 내보내기 해제">×</button></div>`;
  }).join('')}</div>`:'<p class="small-copy">담은 후보가 없습니다. 분석 상세의 「+ 내보내기 담기」를 눌러 주세요.</p>'}
  <div class="lab-export-tray-footer"><button type="button" class="button ghost small lab-export-clear" data-lab-action="clear-export-manual" ${keys.length?'':'disabled'}>담은 후보 전체 비우기</button><a class="button outline-blue small" href="#/lab/export">자료 내보내기로 이동 →</a></div>`;
 }
@@ -511,7 +578,7 @@ function compare(){
    return new Set(values).size>1;
  });
  return `<div class="lab-section-heading"><div><h2>후보 비교</h2><p>최대 3개를 나란히 살펴봅니다. 후보 선정과 관심 목록은 별개로 유지됩니다.</p></div><div class="lab-compare-controls">${badge(`${items.length}/3 선택`,'blue')}${items.length?`<button class="button ghost small lab-clear-compare" data-lab-action="clear-compare">비교 전체 초기화</button>`:''}</div></div>
- ${items.length?`<div class="lab-compare-board"><div class="lab-compare-head">${items.map(i=>`<article class="panel lab-compare-title">${icon(i)}<strong>${esc(i.name)}</strong><p class="small-copy">${esc(labelSource(i.source))} · ${esc(i.category||'분류 없음')}</p><button class="button ghost small" data-lab-action="remove-compare" data-key="${attr(i.app_key)}">제거 / 교체</button></article>`).join('')}</div>
+ ${items.length?`<div class="lab-compare-board"><div class="lab-compare-head">${items.map(i=>`<article class="panel lab-compare-title">${icon(i)}<strong>${esc(i.name)}</strong><p class="small-copy">${esc(sourceText(i))} · ${esc(i.category||'분류 없음')}</p><button class="button ghost small" data-lab-action="remove-compare" data-key="${attr(i.app_key)}">제거 / 교체</button></article>`).join('')}</div>
  <div class="lab-compare-tabs">${[['all','전체 보기'],['common','공통점만'],['diff','차이점만']].map(([value,label])=>`<button class="chip ${ui.comparisonMode===value?'selected':''}" data-lab-action="compare-mode" data-value="${value}">${label}</button>`).join('')}</div>
  ${ui.comparisonMode!=='diff'?`<section class="panel lab-compare-summary"><h3>기능 공통점</h3>${shared.length?`<div class="lab-tag-row">${shared.map(featureBadge).join('')}</div>`:'<p class="small-copy">두 개 이상에서 공통으로 추출된 기능 태그가 없습니다.</p>'}<p class="small-copy">공통점은 같은 정규화 태그가 둘 이상에 등장했을 때만 표시합니다. AI 분석 문장에 근거합니다.</p></section>`:''}
  ${ui.comparisonMode!=='common'?`<div class="lab-compare-table">${(ui.comparisonMode==='diff'?differenceRows:rows).map(([title,fn])=>`<section class="panel lab-compare-feature"><h3>${esc(title)}</h3>${cells(fn)}</section>`).join('')}</div>`:''}
@@ -522,7 +589,7 @@ const EXPORT_MAX=100;
 function saveExportKeys(){try{sessionStorage.setItem(EXPORT_SELECT_KEY,JSON.stringify(ui.exportKeys));}catch{}}
 function manualExportKeys(){
  const keys=ui.exportManualInitialized?ui.exportKeys:chosen;
- return [...new Set(keys.filter(key=>index.map.has(key)))].slice(0,EXPORT_MAX);
+ return [...new Set(keys.map(canonicalKey).filter(key=>index.map.has(key)))].slice(0,EXPORT_MAX);
 }
 // Export filters are hierarchical. Each next selector uses the matches of the
 // preceding selectors; changing a parent resets every descendant to 'all'.
@@ -552,7 +619,7 @@ function matchesRecommendation(i,depth=6){
  if(!(i.observations||[]).some(o=>!o.stale&&o.date>=periodStartFor(ui.exportPeriod)&&o.date<=index.data_date))return false;
  if(depth>=1&&ui.exportSignal!=='all'&&!matchingSignals(i,{period:ui.exportPeriod,country:'ALL',source:ui.exportSource,category:ui.exportCategory,price:'all'}).some(s=>s.reason_code===ui.exportSignal))return false;
  if(depth>=2&&ui.exportKind!=='all'&&i.kind!==ui.exportKind)return false;
- if(depth>=3&&ui.exportSource!=='all'&&i.source!==ui.exportSource)return false;
+ if(depth>=3&&!sourceMatches(i,ui.exportSource))return false;
  if(depth>=4&&ui.exportCategory!=='all'&&!(i.observations||[]).some(o=>!o.stale&&o.date>=periodStartFor(ui.exportPeriod)&&(o.category===ui.exportCategory||o.feed===ui.exportCategory)))return false;
  if(depth>=5&&ui.exportDifficulty!=='all'&&i.difficulty!==ui.exportDifficulty)return false;
  if(depth>=6&&ui.exportAI!=='all'&&Boolean(i.has_ai)!==(ui.exportAI==='yes'))return false;
@@ -562,7 +629,7 @@ const recCandidates=depth=>index.items.filter(i=>matchesRecommendation(i,depth))
 function recommendationFilters(){
  const afterSignal=recCandidates(1),afterKind=recCandidates(2),afterSource=recCandidates(3),afterCategory=recCandidates(4),afterDifficulty=recCandidates(5);
  const kinds=[['all','앱·게임 전체'],...[['app','앱'],['game','게임']].filter(([v])=>afterSignal.some(i=>i.kind===v))];
- const sources=[['all','스토어 전체'],...[['apple','App Store'],['google','Google Play'],['itch','itch.io']].filter(([v])=>afterKind.some(i=>i.source===v))];
+ const sources=[['all','스토어 전체'],...[['apple','App Store'],['google','Google Play'],['itch','itch.io']].filter(([v])=>afterKind.some(i=>sourceMatches(i,v)))];
  const difficulty=[['all','AI 난이도 전체'],...['쉬움','보통','어려움','판단 어려움'].filter(v=>afterCategory.some(i=>i.difficulty===v)).map(v=>[v,v])];
  const ai=[['all','AI 전체'],...[['yes','AI 분석 있음'],['no','AI 미분석']].filter(([v])=>afterDifficulty.some(i=>Boolean(i.has_ai)===(v==='yes')))];
  return `<div class="lab-export-rec-filters">
@@ -590,7 +657,7 @@ function recommendationRows(){
 // English or any other original-language title.
 function matchesBrowse(i,depth=4){
  if(depth>=1&&ui.exportBrowseKind!=='all'&&i.kind!==ui.exportBrowseKind)return false;
- if(depth>=2&&ui.exportBrowseSource!=='all'&&i.source!==ui.exportBrowseSource)return false;
+ if(depth>=2&&!sourceMatches(i,ui.exportBrowseSource))return false;
  if(depth>=3&&ui.exportBrowseCategory!=='all'&&!observedCategories(i).includes(ui.exportBrowseCategory))return false;
  if(depth>=4&&ui.exportBrowseAI!=='all'&&Boolean(i.has_ai)!==(ui.exportBrowseAI==='yes'))return false;
  return true;
@@ -598,12 +665,12 @@ function matchesBrowse(i,depth=4){
 const browseCandidates=depth=>index.items.filter(i=>matchesBrowse(i,depth));
 function browseRows(){
  const term=ui.exportQuery.trim().toLocaleLowerCase();
- return browseCandidates(4).filter(i=>!term||`${i.name} ${i.app_key} ${i.developer||''} ${i.category||''} ${(i.tags||[]).join(' ')}`.toLocaleLowerCase().includes(term));
+ return browseCandidates(4).filter(i=>!term||`${i.name} ${(i.alias_keys||[i.app_key]).join(' ')} ${i.developer||''} ${i.category||''} ${(i.tags||[]).join(' ')}`.toLocaleLowerCase().includes(term));
 }
 function browseFilters(){
  const before=index.items,afterKind=browseCandidates(1),afterSource=browseCandidates(2),afterCategory=browseCandidates(3);
  const kinds=[['all','앱·게임 전체'],...[['app','앱'],['game','게임']].filter(([v])=>before.some(i=>i.kind===v))];
- const sources=[['all','스토어 전체'],...[['apple','App Store'],['google','Google Play'],['itch','itch.io']].filter(([v])=>afterKind.some(i=>i.source===v))];
+ const sources=[['all','스토어 전체'],...[['apple','App Store'],['google','Google Play'],['itch','itch.io']].filter(([v])=>afterKind.some(i=>sourceMatches(i,v)))];
  const ai=[['all','AI 전체'],...[['yes','AI 분석 있음'],['no','AI 미분석']].filter(([v])=>afterCategory.some(i=>Boolean(i.has_ai)===(v==='yes')))];
  return `<div class="lab-export-browse-filters">
  ${select('exportBrowseKind',kinds,ui.exportBrowseKind,'유형')}
@@ -625,7 +692,7 @@ function exportBrowser(selectedKeys){
  <div class="lab-export-browse-list" role="list">${show.length?show.map(i=>{
   const selected=selectedKeys.includes(i.app_key);
   const obs=(i.observations||[]).find(o=>!o.stale)||(i.observations||[])[0];
-  return `<div role="listitem" class="lab-export-browse-row ${selected?'is-selected':''}">${icon(i)}<span class="lab-export-browse-info"><strong>${esc(i.name||i.app_key)}</strong><small>${esc(labelSource(i.source))} · ${esc(i.kind==='game'?'게임':'앱')}${obs?' · '+esc(labelCategory(obs.source==='itch'?obs.feed:obs.category)):''} · ${i.has_ai?'AI 분석 있음':'미분석'}</small></span><button type="button" class="lab-export-browse-toggle ${selected?'is-selected':''}" data-lab-action="${selected?'remove-export':'add-export'}" data-key="${attr(i.app_key)}" aria-pressed="${selected}" ${!selected&&!remaining?'disabled':''}>${selected?'✓ 선택됨':'+ 선택'}</button></div>`;
+  return `<div role="listitem" class="lab-export-browse-row ${selected?'is-selected':''}">${icon(i)}<span class="lab-export-browse-info"><strong>${esc(i.name||i.app_key)}</strong><small>${esc(sourceText(i))} · ${esc(i.kind==='game'?'게임':'앱')}${obs?' · '+esc(labelCategory(obs.source==='itch'?obs.feed:obs.category)):''} · ${i.has_ai?'AI 분석 있음':'미분석'}</small></span><button type="button" class="lab-export-browse-toggle ${selected?'is-selected':''}" data-lab-action="${selected?'remove-export':'add-export'}" data-key="${attr(i.app_key)}" aria-pressed="${selected}" ${!selected&&!remaining?'disabled':''}>${selected?'✓ 선택됨':'+ 선택'}</button></div>`;
  }).join(''):'<p class="small-copy lab-export-browse-empty">조건에 맞는 후보가 없습니다. 앞의 분류를 변경해 주세요.</p>'}</div>
  ${rows.length>show.length?`<div class="lab-more"><button class="button ghost" data-lab-action="more-export-browse">더 보기 (${rows.length-show.length}개 남음)</button></div>`:''}</section>`;
 }
@@ -654,7 +721,7 @@ function exportView(){
  <div class="lab-export-selected">${selectedItems.length?selectedItems.map(i=>`<div class="lab-export-item">${icon(i)}<span>${esc(i.name)}</span><button type="button" class="lab-export-remove" data-lab-action="remove-export" data-key="${attr(i.app_key)}" aria-label="${attr(i.name)} 내보내기에서 제외">×</button></div>`).join(''):'<p class="small-copy">아직 선택한 후보가 없습니다. 아래 목록을 열어 실제 앱·게임을 골라보세요.</p>'}</div>
  ${!ui.exportBrowseOpen?`<button type="button" class="lab-export-browse-open" data-lab-action="toggle-export-browser" aria-expanded="false"><strong>전체 수집 후보에서 직접 고르기</strong><span>앱·게임 목록 열기 →</span></button>`:exportBrowser(selectedKeys)}`:
  `${recommendationFilters()}<div class="lab-export-count-row"><span><strong>조건에 맞는 후보 ${recs.length.toLocaleString('ko-KR')}개</strong> · 실제 관측 근거 기준</span><label>내보낼 개수 <select data-lab-filter="exportCount" class="field-select">${[10,30,50,100].map(n=>`<option value="${n}" ${ui.exportCount===n?'selected':''}>최대 ${n}개</option>`).join('')}</select></label></div>
- <div class="lab-export-rec-preview"><div class="lab-export-selected-heading"><strong>자동 구성 미리보기 · ${selectedItems.length}개</strong><span>스토어별 번갈아 표시 · 순위 합산 없음</span></div>${selectedItems.length?`<div class="lab-export-preview-list">${selectedItems.slice(0,10).map(i=>`<div>${icon(i)}<span><strong>${esc(i.name)}</strong><small>${esc(labelSource(i.source))} · ${i.has_ai?'AI 분석 있음':'미분석'} ${i.difficulty?' · 참고 난이도 '+esc(i.difficulty):''}</small></span></div>`).join('')}</div>${selectedItems.length>10?`<p class="small-copy">그 외 ${selectedItems.length-10}개도 내보내기에 포함됩니다.</p>`:''}`:'<p class="small-copy">일치하는 실제 자료가 없습니다. 위쪽 조건을 변경해 주세요.</p>'}</div>
+ <div class="lab-export-rec-preview"><div class="lab-export-selected-heading"><strong>자동 구성 미리보기 · ${selectedItems.length}개</strong><span>스토어별 번갈아 표시 · 순위 합산 없음</span></div>${selectedItems.length?`<div class="lab-export-preview-list">${selectedItems.slice(0,10).map(i=>`<div>${icon(i)}<span><strong>${esc(i.name)}</strong><small>${esc(sourceText(i))} · ${i.has_ai?'AI 분석 있음':'미분석'} ${i.difficulty?' · 참고 난이도 '+esc(i.difficulty):''}</small></span></div>`).join('')}</div>${selectedItems.length>10?`<p class="small-copy">그 외 ${selectedItems.length-10}개도 내보내기에 포함됩니다.</p>`:''}`:'<p class="small-copy">일치하는 실제 자료가 없습니다. 위쪽 조건을 변경해 주세요.</p>'}</div>
  <p class="small-copy">‘추천’은 선택 조건과 수집 근거에 따른 자동 묶음입니다. 개발 성공 가능성·인기도·적합성 점수를 계산하지 않습니다. 난이도는 Gemini 참고 의견입니다.</p>`;
  return `<div class="lab-section-heading"><div><h2>자료 내보내기</h2><p>직접 고르거나 실제 수집 근거로 후보를 묶어 ChatGPT 분석 자료를 만듭니다.</p></div>${badge(`${selectedItems.length}개 선택`,'blue')}</div>
  <div class="lab-export-layout"><section class="panel lab-export-options"><h3>1. 내보내기 방식</h3><div class="lab-export-modes" role="group" aria-label="내보내기 방식">
@@ -704,18 +771,19 @@ export async function buildExport(){
  for(let cursor=0;cursor<keys.length;cursor+=8){
   const batch=await Promise.all(keys.slice(cursor,cursor+8).map(async key=>{
    const item=index.map.get(key);
-   const [history,ai]=await Promise.all([key.startsWith('itch:')?Promise.resolve({rows:indie[key]||[],error:false}):loadExportHistory(key),
+   const variants=item.store_variants||[{app_key:key}];
+   const [histories,ai]=await Promise.all([Promise.all(variants.map(v=>v.app_key.startsWith('itch:')?Promise.resolve({rows:indie[v.app_key]||[],error:false}):loadExportHistory(v.app_key))),
                 item.has_ai&&ui.exportPreset!=='market'?loadAI(key).catch(()=>null):Promise.resolve(null)]);
-   if(history.error)throw Error(`${item.name}의 순위 이력 파일을 읽지 못했습니다. 정상 이력 확인 후 다시 시도해 주세요.`);
-   const observations=sliceObservations(history.rows||[],ui.exportPeriod);
+   if(histories.some(h=>h.error))throw Error(`${item.name}의 순위 이력 파일을 읽지 못했습니다. 정상 이력 확인 후 다시 시도해 주세요.`);
+   const observations=sliceObservations(histories.flatMap(h=>h.rows||[]),ui.exportPeriod);
    const limitations=['실제로 수집된 날짜만 포함하며, 미관측일을 0위 또는 순위권 밖으로 해석하지 않음'];
    if(item.has_ai&&!ai&&ui.exportPreset!=='market')limitations.push('AI 상세 JSON을 가져오지 못함');
    if(!item.has_ai)limitations.push('AI 분석 미보유');
-   if(history.error)limitations.push('순위 이력 샤드 로딩 실패 · 관측 이력을 완전하게 확인할 수 없음');
+
    if(!observations.length)limitations.push('선택한 기간의 개별 관측 기록이 없음');
    if(!ai?.source_description)limitations.push('AI 분석 당시 원본 소개 미보관 또는 AI 미분석 · 현재 스냅샷 설명과 구분됨');
    return {app_key:key,app:{name:item.name,source:item.source,kind:item.kind,category:item.category,
-       detail_url:item.detail_url,first_seen:item.first_seen,
+       detail_url:item.detail_url,store_variants:item.store_variants||null,first_seen:item.first_seen,
        release_date:confirmedRelease(item)||null,release_date_source:confirmedRelease(item)?'apple_collected_release_date':null},observations,
        discovery_signals:item.signals.filter(s=>(s.source_data_dates||[]).some(d=>d>=periodStartFor(ui.exportPeriod)&&d<=index.data_date)),
        ...(ui.exportPreset==='market'?{}:{source_description:ai?.source_description||null,
@@ -826,7 +894,7 @@ export async function labAction(button){
    break;
  }
  case 'toggle-export':{
-   const key=button.dataset.key;if(!index.map.has(key))return;
+   const key=canonicalKey(button.dataset.key);if(!index.map.has(key))return;
    const keys=manualExportKeys(),selected=keys.includes(key);
    if(!selected&&keys.length>=EXPORT_MAX){flash(`내보내기 후보는 최대 ${EXPORT_MAX}개입니다.`);return;}
    ui.exportKeys=selected?keys.filter(x=>x!==key):[...keys,key];
@@ -836,26 +904,27 @@ export async function labAction(button){
    break;
  }
  case 'add-export':{
-   const key=button.dataset.key;if(!index.map.has(key))return;
+   const key=canonicalKey(button.dataset.key);if(!index.map.has(key))return;
    const keys=manualExportKeys();if(keys.includes(key))return;
    if(keys.length>=EXPORT_MAX){flash(`내보내기 후보는 최대 ${EXPORT_MAX}개입니다.`);return;}
    ui.exportKeys=[...keys,key];ui.exportManualInitialized=true;saveExportKeys();break;
  }
- case 'remove-export':ui.exportKeys=manualExportKeys().filter(k=>k!==button.dataset.key);ui.exportManualInitialized=true;saveExportKeys();if(syncAnalysisExportUI())return;break;
+ case 'remove-export':ui.exportKeys=manualExportKeys().filter(k=>k!==canonicalKey(button.dataset.key));ui.exportManualInitialized=true;saveExportKeys();if(syncAnalysisExportUI())return;break;
  case 'clear-export-manual':ui.exportKeys=[];ui.exportManualInitialized=true;ui.exportMode='manual';saveExportKeys();flash('내보내기 목록을 모두 비웠습니다.');if(syncAnalysisExportUI())return;break;
  case 'toggle-compare':{
-   const key=button.dataset.key;if(!index.map.has(key)){flash('현재 연구실에 없는 후보라 비교할 수 없습니다. 저장된 관심 기록은 유지됩니다.');return;}
+   const key=canonicalKey(button.dataset.key);if(!index.map.has(key)){flash('현재 연구실에 없는 후보라 비교할 수 없습니다. 저장된 관심 기록은 유지됩니다.');return;}
    if(chosen.includes(key))chosen=chosen.filter(k=>k!==key);
    else if(chosen.length>=3){flash('후보 비교는 최대 3개까지 가능합니다.');return;}
    else chosen.push(key);
    saveChosen();flash(`${chosen.length}개 후보 선택됨`);break;
  }
- case 'remove-compare':chosen=chosen.filter(k=>k!==button.dataset.key);saveChosen();break;
+ case 'remove-compare':chosen=chosen.filter(k=>k!==canonicalKey(button.dataset.key));saveChosen();break;
  case 'clear-compare':chosen=[];ui.comparisonMode='all';saveChosen();flash('비교 후보를 모두 초기화했습니다.');break;
  case 'favorite':{
    // Reuse the existing local-only favorites storage, never export its private notes.
    const {toggleFavorite}=await import('./favorites.js');
-   const i=index.map.get(button.dataset.key);if(i){flash(toggleFavorite(i)?'관심 목록에 추가했습니다.':'관심 목록에서 제외했습니다.');}
+   const i=index.map.get(button.dataset.key);if(i){const existing=(i.alias_keys||[i.app_key]).find(hasFavorite);
+     flash(toggleFavorite(existing?{...i,app_key:existing}:i)?'관심 목록에 추가했습니다.':'관심 목록에서 제외했습니다.');}
    break;
  }
  case 'download-json':case 'download-csv':{
@@ -918,10 +987,11 @@ export function renderLab(tab='radar',query=new URLSearchParams()){
    lastFeatureRoute=featureRoute;
  }else lastFeatureRoute='';
  if(!TABS.some(x=>x[0]===tab))tab='radar';
+ const total=index.items.filter(i=>i.observations?.length).length;
  const active=index.items.filter(i=>i.observations?.some(o=>!o.historical)).length;
  const updatedGroups=(store.groups||[]).filter(g=>g.is_stale).length;
  const body={radar,features,analysis:()=>analysis(query),compare,export:exportView}[tab]();
- return `<section class="lab-hero"><div><p class="eyebrow">IDEA LAB / RESEARCH WORKSPACE</p><h1>아이디어 연구실</h1><p>수집한 시장 기록과 개발 분석을 연결해, 다음에 만들 앱·게임 후보를 찾아보세요.</p><div class="lab-hero-status">${badge(`수집 자료 ${formatDate(index.data_date)}`,'blue')}${updatedGroups?badge(`이전 데이터 ${updatedGroups}개 그룹`,'warn'):badge('최신 수집 자료','green')}</div></div><div class="lab-hero-stats"><div><strong>${active.toLocaleString('ko-KR')}</strong><span>관측 후보</span></div><div><strong>${index.ai_count.toLocaleString('ko-KR')}</strong><span>AI 분석 누적</span></div><div><strong>${chosen.length} / 3</strong><span>비교 후보</span></div></div></section>
+ return `<section class="lab-hero"><div><p class="eyebrow">IDEA LAB / RESEARCH WORKSPACE</p><h1>아이디어 연구실</h1><p>수집한 시장 기록과 개발 분석을 연결해, 다음에 만들 앱·게임 후보를 찾아보세요.</p><div class="lab-hero-status">${badge(`수집 자료 ${formatDate(index.data_date)}`,'blue')}${updatedGroups?badge(`이전 데이터 ${updatedGroups}개 그룹`,'warn'):badge('최신 수집 자료','green')}</div></div><div class="lab-hero-stats"><div><strong>${total.toLocaleString('ko-KR')}</strong><span>전체 관측 후보</span><small class="lab-hero-secondary">최근 수집 목록 ${active.toLocaleString('ko-KR')}개</small></div><div><strong>${index.ai_count.toLocaleString('ko-KR')}</strong><span>AI 분석 누적</span></div><div><strong>${chosen.length} / 3</strong><span>비교 후보</span></div></div></section>
  <nav class="lab-tabs" aria-label="아이디어 연구실 소메뉴">${TABS.map(([key,name])=>`<a href="#/lab/${key}" ${key===tab?'aria-current="page"':''} class="${key===tab?'active':''}">${esc(name)}${key==='compare'&&chosen.length?` <em>${chosen.length}</em>`:''}</a>`).join('')}</nav>
  <section class="lab-content">${body}</section>`;
 }

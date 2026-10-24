@@ -1,6 +1,75 @@
 // Personal data remains in the browser. Version 1 backups remain readable.
 const KEY='app-trend:favorites:v1';
 export const FAVORITE_STATUSES=['관심','살펴보는 중','개발 후보','보류'];
+// Populated from the real Lab index; never infer links from title alone.
+let favoriteAliases=new Map();
+const canonicalKey=key=>favoriteAliases.get(key)||key;
+const identity=value=>String(value||'').normalize('NFKC').trim().replace(/\s+/g,' ').toLocaleLowerCase();
+const publisher=value=>identity(value).replace(/\s*\(apps?\)$/, '')
+  .replace(/(?:\s*,?\s*(?:inc\.?|incorporated|ltd\.?|limited|llc|corp\.?|corporation|co\.?))+(?:\s*,?\s*(?:ltd\.?))?$/, '').trim();
+// Used only when someone saved BOTH store versions before the Lab index loaded.
+function savedPairAliases(rows){
+  const byIdentity=new Map(),aliases=new Map();
+  for(const row of rows){
+    if(!['apple','google'].includes(row.app_key.split(':')[0]))continue;
+    const key=JSON.stringify([identity(row.name),publisher(row.developer)]);
+    if(!identity(row.name)||!publisher(row.developer))continue;
+    const group=byIdentity.get(key)||[];group.push(row);byIdentity.set(key,group);
+  }
+  for(const group of byIdentity.values()){
+    if(group.length!==2||new Set(group.map(r=>r.app_key.split(':')[0])).size!==2)continue;
+    const apple=group.find(r=>r.app_key.startsWith('apple:'));
+    aliases.set(group.find(r=>r.app_key.startsWith('google:')).app_key,apple.app_key);
+  }
+  return aliases;
+}
+function mergeRows(primary,secondary,originalSource=secondary.source){
+  const result={...primary};
+  for(const field of ['detail_url','icon_url','developer','kind','primary_category','first_seen']){
+    if(!result[field]&&secondary[field])result[field]=secondary[field];
+  }
+  if(secondary.added_at&&secondary.added_at<result.added_at)result.added_at=secondary.added_at;
+  if(result.status==='관심'&&secondary.status!=='관심')result.status=secondary.status;
+  else if(secondary.status!=='관심'&&secondary.status!==result.status){
+    // A unified candidate can keep only one status. Preserve the other in
+    // the private note instead of silently discarding a manual decision.
+    const label=`[${originalSource==='google'?'Google Play':'Apple App Store'}의 기존 검토 상태: ${secondary.status}]`;
+    if(!result.note.includes(label))result.note+=(result.note?'\n\n':'')+label;
+  }
+  if(secondary.note&&secondary.note!==result.note){
+    if(!result.note)result.note=secondary.note;
+    else if(!result.note.includes(secondary.note)){
+      result.note+=`\n\n[${originalSource==='google'?'Google Play':'Apple App Store'}에서 저장한 메모]\n${secondary.note}`;
+    }
+  }
+  return result;
+}
+function combineFavorites(entries){
+  const rows=entries.map(normalizeFavorite).filter(Boolean);
+  const fallback=savedPairAliases(rows);
+  const merged=new Map();
+  for(const row of rows){
+    const key=canonicalKey(fallback.get(row.app_key)||row.app_key);
+    const normalized={...row,app_key:key,source:key.split(':')[0]};
+    // The original save order is maintained; notes from both sources survive.
+    merged.set(key,merged.has(key)?mergeRows(merged.get(key),normalized,row.source):normalized);
+  }
+  return [...merged.values()];
+}
+// After the index loads, migrate old saved aliases without changing private notes.
+export function setFavoriteAliases(aliases){
+  favoriteAliases=new Map(aliases);
+  try{
+    const raw=JSON.parse(localStorage.getItem(KEY)||'[]');
+    if(!Array.isArray(raw))return false;
+    const merged=combineFavorites(raw);
+    if(JSON.stringify(raw)!==JSON.stringify(merged)){
+      persist(merged);return true;
+    }
+  }catch{}
+  return false;
+}
+
 const cleanText=(value,max)=>String(value??'').slice(0,max);
 function httpUrl(value){
   try{const u=new URL(String(value||''));return u.protocol==='https:'||u.protocol==='http:'?u.href:'';}
@@ -13,7 +82,7 @@ export function normalizeFavorite(entry){
     app_key:entry.app_key,
     name:cleanText(entry.name||entry.app_key,200),
     source:cleanText(entry.source||source,30),
-    note:cleanText(entry.note,3000),
+    note:cleanText(entry.note,10000),
     status:FAVORITE_STATUSES.includes(entry.status)?entry.status:'관심',
     added_at:/^\d{4}-\d{2}-\d{2}$/.test(String(entry.added_at))?entry.added_at:new Date().toISOString().slice(0,10),
     // Keep a minimal, optional snapshot. The source app may leave today's charts;
@@ -29,27 +98,22 @@ export function normalizeFavorite(entry){
 export function getFavorites(){
   try{
     const raw=JSON.parse(localStorage.getItem(KEY)||'[]');
-    if(!Array.isArray(raw))return [];
-    const seen=new Set();
-    return raw.map(normalizeFavorite).filter(item=>{
-      if(!item||seen.has(item.app_key))return false;
-      seen.add(item.app_key);return true;
-    });
+    return Array.isArray(raw)?combineFavorites(raw):[];
   }catch{return [];}
 }
 function persist(rows){localStorage.setItem(KEY,JSON.stringify(rows));window.dispatchEvent(new Event('favorites-updated'));}
-export const hasFavorite=key=>getFavorites().some(item=>item.app_key===key);
-export const getFavorite=key=>getFavorites().find(item=>item.app_key===key);
+export const hasFavorite=key=>getFavorites().some(item=>item.app_key===canonicalKey(key));
+export const getFavorite=key=>getFavorites().find(item=>item.app_key===canonicalKey(key));
 export function toggleFavorite(item){
   if(!item||!item.app_key)return false;
-  const rows=getFavorites(),idx=rows.findIndex(r=>r.app_key===item.app_key);
+  const rows=getFavorites(),key=canonicalKey(item.app_key),idx=rows.findIndex(r=>r.app_key===key);
   if(idx>=0){rows.splice(idx,1);persist(rows);return false;}
-  const normalized=normalizeFavorite({...item,source:item.source||item.app_key.split(':')[0],note:'',status:'관심'});
+  const normalized=normalizeFavorite({...item,app_key:key,source:key.split(':')[0],note:'',status:'관심'});
   if(!normalized)return false;
   rows.unshift(normalized);persist(rows);return true;
 }
 export function updateFavorite(key,attrs){
-  const rows=getFavorites(),idx=rows.findIndex(r=>r.app_key===key);
+  const rows=getFavorites();key=canonicalKey(key);const idx=rows.findIndex(r=>r.app_key===key);
   if(idx<0)return false;
   rows[idx]=normalizeFavorite({...rows[idx],...attrs,app_key:key});persist(rows);return true;
 }
@@ -95,14 +159,17 @@ export async function importFavorites(file){
   const raw=JSON.parse(await file.text());
   if(raw?.version!==1||!Array.isArray(raw.favorites)||raw.favorites.length>5000)throw new Error('지원하지 않는 관심 목록 파일입니다.');
   const merged=new Map(getFavorites().map(item=>[item.app_key,item]));
-  for(const value of raw.favorites){
-    const obj=normalizeFavorite(value);
-    if(obj){
-      // Older backups may lack snapshots. Don't erase known URLs or images.
-      const prev=merged.get(obj.app_key);
-      if(prev)for(const field of ['detail_url','icon_url','developer','kind','primary_category','first_seen'])if(!obj[field])obj[field]=prev[field];
-      merged.set(obj.app_key,obj);
+  const incoming=combineFavorites(raw.favorites);
+  for(const obj of incoming){
+    const prev=merged.get(obj.app_key);
+    for(const field of ['detail_url','icon_url','developer','kind','primary_category','first_seen']){
+      if(prev&&!obj[field])obj[field]=prev[field];
     }
+    // When importing a different store's legacy key, retain both notes.
+    const differentStore=raw.favorites.some(value=>
+      typeof value?.app_key==='string'&&value.app_key!==obj.app_key&&
+      canonicalKey(value.app_key)===obj.app_key);
+    merged.set(obj.app_key,prev&&differentStore?mergeRows(prev,obj):obj);
   }
-  persist([...merged.values()]);return merged.size;
+  const rows=combineFavorites([...merged.values()]);persist(rows);return rows.length;
 }
