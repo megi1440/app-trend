@@ -2781,6 +2781,97 @@
         ],
         "thoughtsTokenCount": 2947,
         "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:co.vybs.app",
+        "product_kind": "app",
+        "selected_concept_title_ko": "인디파인: 테스터 리워드 플랫폼 (IndieFine)",
+        "project_goal_and_audience_ko": "모바일 인디 게임 개발사와 진성 테스터(게이머)를 연결하는 모바일 리워드 플랫폼입니다. 단순한 플레이 타임 방치형 적립에서 벗어나, 유저는 미출시 혹은 신작 인디 게임을 플레이하고 구체적인 테스트 미션(레벨 달성, 버그 제보, 설문 참여)을 수행하여 실질적인 보상(기프트카드 등)을 획득하고, 개발사는 초기 유저 확보 및 고품질 피드백 데이터를 얻을 수 있는 상생 환경을 제공합니다.",
+        "source_relation_and_difference_ko": "원본 앱의 핵심 경험인 '게임 디스커버리(탐색) 기능'과 '게임을 통한 보상 획득 루프'를 충실히 계승합니다. 차별점으로는 단순 실행 시간 측정이라는 수동적 방식에서 탈피해, '특정 스테이지 클리어', '버그 제보', '피드백 설문' 등 개발 품질 향상에 직접 기여하는 능동적 테스터 미션 중심의 규칙으로 전면 개선한 점입니다.",
+        "core_user_experience_ko": "사용자는 앱 홈 화면에서 다양한 장르의 인디 게임 프로젝트와 그에 걸린 테스터 미션을 탐색합니다. 마음에 드는 게임을 선택해 상세 페이지에서 미션 조건(예: '챕터 2 보스 처치 후 스크린샷 인증')을 확인한 뒤 게임을 설치해 플레이합니다. 조건을 달성한 후 앱으로 돌아와 인증 자료(스크린샷 및 피드백 텍스트)를 제출하면, 검토 과정을 거쳐 포인트가 적립되며 이를 상점에서 기프트카드로 교환할 수 있습니다.",
+        "features_ko": [
+          {
+            "feature_ko": "인디 게임 마이크로 미션 디스커버리",
+            "user_action_and_behavior_ko": "사용자가 장르별 인디 게임 목록과 각 게임별 테스터 미션(보상 포인트, 남은 인원 등)을 확인하고 필터링합니다. 유저는 참여하고 싶은 미션을 선택해 상세 가이드를 열람할 수 있습니다.",
+            "practical_implementation_ko": "Jetpack Compose를 활용해 카테고리별 그리드/리스트 뷰를 구현하고, Firestore에 저장된 게임 및 미션 데이터를 페이징 처리하여 가볍게 로드합니다."
+          },
+          {
+            "feature_ko": "테스터 미션 인증 및 검증 시스템",
+            "user_action_and_behavior_ko": "사용자가 게임 내 미션 달성 화면을 캡처하여 업로드하고 간단한 후기나 버그 내용을 입력합니다. 시스템은 제출 내역을 '검토 대기 중' 상태로 등록하고 사용자에게 접수 완료 피드백을 제공합니다.",
+            "practical_implementation_ko": "Android Intent를 통해 디바이스 갤러리에서 이미지를 선택하고, Firebase Cloud Storage에 압축 업로드한 뒤 미션 제출 도큐먼트를 생성합니다."
+          },
+          {
+            "feature_ko": "포인트 적립 및 리워드 교환 상점",
+            "user_action_and_behavior_ko": "미션 승인 시 사용자의 계정에 포인트가 실시간 반영됩니다. 유저는 상점 탭에서 보유 포인트를 원하는 기프트카드 상품권으로 교환 신청할 수 있습니다.",
+            "practical_implementation_ko": "Firestore 트랜잭션을 활용해 포인트 차감 및 교환 내역(Redemption) 레코드를 안전하게 생성하고 상태 관리 구조(ViewModel)로 동기화합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "홈 및 탐색 탭",
+            "contents_and_actions_ko": "인디 게임 프로젝트 배너, 인기 미션 목록, 장르별 필터 칩. 터치 시 게임 상세 미션 화면으로 이동."
+          },
+          {
+            "screen_ko": "게임 상세 및 미션 안내 화면",
+            "contents_and_actions_ko": "게임 소개, 개발사 정보, 수행해야 할 미션 리스트 및 보상 포인트. '게임 다운로드 및 참여하기' 버튼과 '미션 인증하기' 버튼 제공."
+          },
+          {
+            "screen_ko": "미션 인증 제출 화면",
+            "contents_and_actions_ko": "스크린샷 첨부 영역, 버그/피드백 입력 텍스트박스, '제출 완료' 버튼. 제출 후 마이페이지로 자동 복귀."
+          },
+          {
+            "screen_ko": "마이페이지 및 포인트 상점",
+            "contents_and_actions_ko": "사용자 프로필, 누적 포인트, 미션 참여 이력(상태 표시: 대기/승인/반려), 기프트카드 교환 카탈로그."
+          }
+        ],
+        "implementation_approach_ko": "Android 네이티브 환경에서 Kotlin과 Jetpack Compose를 사용하여 직관적이고 반응성이 뛰어난 UI를 구축합니다. 백엔드 및 데이터베이스는 Firebase(Auth, Firestore, Cloud Storage)를 연동하여 서버 구축 부담을 줄이고 1인 개발 환경에 최적화합니다. 외부 게임 SDK 연동의 복잡성을 피하기 위해 초기에는 웹뷰 및 스크린샷 기반 수동 인증 방식을 채택합니다.",
+        "data_and_storage_ko": [
+          "User 객체: userId (String), email (String), points (Int), createdAt (Timestamp). 로그인 시점에 생성 및 로컬 캐싱.",
+          "GameProject 객체: gameId (String), title (String), description (String), packageName (String), bannerUrl (String), developerName (String).",
+          "Mission 객체: missionId (String), gameId (String), title (String), rewardPoints (Int), verificationType (String).",
+          "UserMissionRecord 객체: recordId (String), userId (String), missionId (String), status (String: 'pending'/'approved'/'rejected'), proofUrl (String), feedbackText (String), submittedAt (Timestamp). Firestore를 통해 읽고 쓰며 Room DB로 오프라인 캐시 지원."
+        ],
+        "mvp_scope_ko": "복잡한 자동 SDK 연동 및 실시간 게임 플레이 타임 트래킹은 제외하고, '인디 게임 목록 탐색 -> 미션 확인 -> 스크린샷/텍스트 기반 인증 제출 -> 포인트 적립 및 기프트카드 교환 신청'의 핵심 수동 검증 루프까지만 구현합니다. 관리자 승인은 간단한 웹 어드민 또는 Firestore 콘솔 수동 상태 변경으로 대체하여 개발 리소스를 최소화합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 초기화 및 UI 골격 구축",
+            "deliverable_and_check_ko": "Jetpack Compose 기반의 네비게이션 구조(홈, 상세, 인증, 마이페이지) 구현. 더미 데이터를 활용해 화면 간 전환과 레이아웃 정상 동작 여부 확인."
+          },
+          {
+            "stage_ko": "2단계: Firebase 연동 및 데이터 모델 적용",
+            "deliverable_and_check_ko": "Firebase Auth 로그인 기능과 Firestore 기반 게임/미션 리스트 로드 기능 구현. 클라우드에 저장된 데이터가 앱 내에서 원활히 렌더링되는지 확인."
+          },
+          {
+            "stage_ko": "3단계: 미션 인증 및 파일 업로드 구현",
+            "deliverable_and_check_ko": "갤러리 이미지 선택 및 Firebase Cloud Storage 업로드 로직, 미션 제출 도큐먼트 생성 플로 구현. 제출 후 내역이 마이페이지에 반영되는지 확인."
+          },
+          {
+            "stage_ko": "4단계: 포인트 상점 및 교환 신청 기능 통합",
+            "deliverable_and_check_ko": "포인트 잔액 관리 및 기프트카드 교환 신청 트랜잭션 로직 구현. UI 상에서 포인트 차감 및 신청 완료 상태가 올바르게 표시되는지 점검."
+          }
+        ],
+        "possible_extensions_ko": "추후 개발사용 파트너 대시보드(CMS) 웹앱 연동, 자동화된 인앱 이벤트 추적 SDK 도입, 유저 간 커뮤니티 포럼(버그 토론방) 개설, 실시간 채팅 피드백 기능 추가.",
+        "risks_and_open_decisions_ko": [
+          "허위 스크린샷 제출 및 도배를 방지하기 위한 중복 검증 및 디바이스 ID 기반 제한 장치 필요 여부 검토.",
+          "초기 인디 게임 파트너사 확보를 위해 퍼블릭 오픈 등록 시스템을 허용할지 여부 결정.",
+          "기프트카드 지급 과정에서 발생할 수 있는 수동 정산 리스크 최소화 방안 마련."
+        ],
+        "draft_status_ko": "본 개발 설계 초안은 실제 앱 빌드, 플레이테스트, 성능 측정이 완료되지 않은 기획 단계의 문서입니다."
+      },
+      "plan_at": "2026-10-26T08:40:11+09:00",
+      "plan_quota_day": "2026-10-26",
+      "plan_usage": {
+        "promptTokenCount": 2496,
+        "candidatesTokenCount": 2129,
+        "totalTokenCount": 6442,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2496
+          }
+        ],
+        "thoughtsTokenCount": 1817,
+        "serviceTier": "standard"
       }
     }
   }

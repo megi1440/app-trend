@@ -6176,6 +6176,275 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-26"
+    },
+    "apple:1018368216": {
+      "app_key": "apple:1018368216",
+      "name": "Cantina: AI Video & Characters",
+      "developer": "Cantina, Inc",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/cantina-ai-video-characters/id1018368216",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-26T08:37:25+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Build expressive AI characters and turn them into shareable videos in seconds. Cantina is a social AI platform where characters become a new creative medium. Create characters with personality, voice, and identity. Bring them to life with powerful video tools and real-time interaction, then share them everywhere. Create AI Characters You Care About ■ Build expressive AI characters with personality, voice, attitude, and quirks. ■ Give them unique style, opinions, drama, and flair. ■ Shape their point of view, tone, and presence. ■ Develop original identities or remix inspiration from culture, stories, and the world around you. Turn Characters Into Videos and Stories ■ Instantly transform your characters into high-quality, shareable AI videos. ■ Put characters together in stories and evolving narratives. ■ Let them perform, react wildly, or say the thing you wouldn’t yourself. ■ Create solo moments, duos, or full cast dynamics. ■ Produce scroll-stopping content with your characters or make content with thousands of characters made by others. Interactive & Social ■ Characters can respond and interact in real time. ■ Chat with them.Create with them.Comment on and share your characters and your friends’ characters. ■ Discover new personalities and watch how other creators build their worlds. ■ Collaborate, experiment, and see where the character takes you. Create Here. Share Everywhere. ■ Export your videos to TikTok, Instagram, group chats, and more. ■ Build your characters’ social following. ■ Turn your creations into recurring series or breakout personalities. ■ Create once - go viral everywhere. Download now and start creating. Terms of Use & Privacy Policy ■ https://cantina.com/term ■ https://cantina.com/privacy",
+      "analysis": {
+        "app_key": "apple:1018368216",
+        "summary_ko": "Cantina는 사용자가 개성 있는 AI 캐릭터를 생성하고, 이를 활용하여 영상 콘텐츠를 제작 및 공유하는 소셜 AI 플랫폼입니다. 캐릭터의 성격과 목소리를 설정하고 실시간으로 상호작용하며, 이를 영상으로 변환하여 외부 SNS로 공유할 수 있습니다.",
+        "features_ko": [
+          "성격, 목소리, 태도를 갖춘 AI 캐릭터를 생성합니다.",
+          "캐릭터를 활용하여 고품질의 AI 영상을 즉시 제작합니다.",
+          "캐릭터와 실시간으로 대화하고 상호작용할 수 있습니다.",
+          "제작한 캐릭터와 영상을 다른 사용자와 공유하고 협업합니다.",
+          "완성된 영상을 TikTok, Instagram 등 외부 플랫폼으로 내보냅니다."
+        ],
+        "noteworthy_ko": "캐릭터를 단순한 챗봇이 아닌 '창작 매체'로 정의한 점이 흥미롭습니다. 사용자가 캐릭터를 직접 육성하고 이를 영상화하여 바이럴 콘텐츠를 만드는 흐름은 최근 AI 콘텐츠 트렌드를 잘 반영하고 있습니다.",
+        "development_ko": "LLM(대규모 언어 모델) 기반의 대화 시스템과 TTS(음성 합성), 영상 생성 AI 모델 연동이 핵심입니다. 실시간 상호작용을 위해 낮은 지연 시간의 서버 환경이 필수적이며, 사용자 생성 콘텐츠(UGC)를 관리하는 플랫폼 인프라 구축이 큰 부담이 될 것입니다.",
+        "idea_ko": "특정 상황극을 위한 캐릭터 대본 생성 및 영상 자동화 도구가 개인 개발자에게 적합합니다.",
+        "highlights_ko": [
+          "캐릭터의 성격과 말투를 세밀하게 설정할 수 있는 커스터마이징 기능.",
+          "제작한 콘텐츠를 외부 플랫폼으로 쉽게 공유할 수 있는 확장성."
+        ],
+        "systems_ko": [
+          "AI 캐릭터 생성 및 성격 설정 엔진",
+          "실시간 대화 인터페이스(채팅)",
+          "영상 생성 및 편집 API 연동",
+          "사용자 콘텐츠 공유 및 피드 시스템",
+          "클라우드 기반 데이터 저장 및 동기화"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "AI 모델 연동, 실시간 스트리밍, 영상 렌더링 등 고도의 기술적 역량이 필요합니다. 개인 개발자가 모든 시스템을 직접 구현하기보다는 API를 적절히 조합하는 능력이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 성격 설정 및 텍스트 대화 기능",
+            "기본적인 영상 생성 API 연동"
+          ],
+          "defer": [
+            "실시간 음성 상호작용",
+            "복잡한 소셜 피드 및 팔로우 시스템"
+          ],
+          "risks": [
+            "AI 모델 사용에 따른 높은 API 비용",
+            "부적절한 콘텐츠 생성에 대한 필터링 및 보안 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "AI 상황극 메이커",
+            "concept": "사용자가 설정한 두 캐릭터가 특정 주제로 대화하는 영상을 자동으로 생성합니다. 사용자는 대본의 방향성만 제시합니다.",
+            "first_step": "두 캐릭터의 대화를 생성하는 LLM 프롬프트 설계 및 영상 변환 API 연동."
+          },
+          {
+            "title": "캐릭터 인터뷰어",
+            "concept": "사용자가 만든 캐릭터가 사용자를 인터뷰하는 형식의 앱입니다. 캐릭터의 성격에 따라 질문의 톤이 달라집니다.",
+            "first_step": "캐릭터의 성격에 따라 질문을 생성하는 챗봇 인터페이스 구현."
+          }
+        ],
+        "recommendation_ko": "최신 AI API를 활용한 서비스 기획과 구현 과정을 경험하고 싶은 개발자에게 추천합니다. 다만, API 비용과 서버 인프라에 대한 깊은 이해가 선행되어야 합니다.",
+        "source_limitations_ko": "사용된 AI 모델의 종류나 영상 생성 기술의 구체적인 구현 방식은 명시되지 않았습니다. 또한, 실시간 상호작용의 정확도나 보안 정책에 대한 검증은 불가능합니다.",
+        "name": "Cantina: AI Video & Characters",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/cantina-ai-video-characters/id1018368216",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 90,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-26"
+    },
+    "apple:6746114452": {
+      "app_key": "apple:6746114452",
+      "name": "CrimeRadar Dispatch Audio",
+      "developer": "Scoopz Inc.",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/crimeradar-dispatch-audio/id6746114452",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-26T08:37:25+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "CrimeRadar tracks first-responder audio and uses AI to summarize and map potential incidents so you can stay aware of public safety activity near you. Check the interactive map. Listen to first-responder audio. Get customized alerts. • Safety Alerts and Map: Stay informed with notifications based on live dispatch audio, covering everything from wildfires to highway accidents and police callouts. • Customizable Filters: Choose what you want to track via the map, alerts, and activity logs. • First-Responder Radio: Tap any activity to listen to the original communication for yourself. Have feedback? Contact us at feedback@crimeradar.us Terms of Service: https://crimeradar.us/terms Privacy Policy: https://crimeradar.us/privacy Important: CrimeRadar provides situational awareness based on public-safety dispatch audio. Content is not an official report or verified information. Always rely on official sources for confirmation.",
+      "analysis": {
+        "app_key": "apple:6746114452",
+        "summary_ko": "CrimeRadar는 실시간 공공 안전 무전 오디오를 추적하고 AI를 활용하여 사건을 요약 및 지도에 표시하는 안전 정보 앱입니다. 사용자는 주변에서 발생하는 사건을 확인하고, 필요시 원본 무전 내용을 직접 청취할 수 있습니다.",
+        "features_ko": [
+          "실시간 무전 오디오를 기반으로 사건 알림을 제공합니다.",
+          "사건 발생 위치를 인터랙티브 지도에 표시합니다.",
+          "AI를 사용하여 무전 내용을 요약하고 사건 정보를 정리합니다.",
+          "사용자 설정에 따라 특정 사건 유형을 필터링하여 알림을 받습니다.",
+          "지도상의 활동을 탭하여 원본 무전 내용을 직접 청취합니다."
+        ],
+        "noteworthy_ko": "공공 안전 데이터를 AI로 가공하여 일반인도 이해하기 쉽게 시각화한 점이 매우 흥미롭습니다. 실시간 오디오 데이터를 텍스트로 변환하고 요약하는 과정은 최신 AI 기술의 실용적인 적용 사례입니다.",
+        "development_ko": "실시간 오디오 스트리밍 처리, STT(Speech-to-Text) 및 LLM을 활용한 요약 파이프라인 구축이 핵심입니다. 지도 API 연동과 대량의 실시간 데이터를 처리할 수 있는 서버 인프라가 필요합니다. 공공 안전 정보의 특성상 정보의 정확성과 신뢰성 확보가 가장 큰 도전 과제입니다.",
+        "idea_ko": "특정 지역의 재난 정보나 교통 상황을 요약해주는 지역 안전 알림 서비스가 개인 개발자에게 적합합니다.",
+        "highlights_ko": [
+          "복잡한 무전 내용을 AI로 요약하여 정보 접근성 향상.",
+          "지도와 오디오 청취를 결합하여 상황 파악의 직관성 제공."
+        ],
+        "systems_ko": [
+          "실시간 오디오 스트리밍 및 처리 시스템",
+          "STT 및 LLM 기반 요약 엔진",
+          "지도 기반 사건 시각화 시스템",
+          "사용자 맞춤형 알림 및 필터링 시스템",
+          "데이터 로그 관리 및 저장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 오디오 데이터 처리와 AI 요약 파이프라인은 높은 기술적 난도를 가집니다. 또한, 공공 안전과 관련된 정보는 정확도가 생명이므로 개인 개발자가 운영하기에 책임감이 따릅니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "공공 오디오 소스 연동",
+            "기본적인 사건 알림 및 지도 표시"
+          ],
+          "defer": [
+            "고도화된 AI 요약 기능",
+            "사용자 맞춤형 정밀 필터링"
+          ],
+          "risks": [
+            "오디오 데이터의 신뢰성 및 정확도 문제",
+            "실시간 데이터 처리 비용 및 서버 부하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "우리 동네 재난 알림이",
+            "concept": "지역 내 재난 문자나 공공 정보를 요약하여 지도에 표시합니다. 무전 대신 공식 공공 데이터를 활용합니다.",
+            "first_step": "공공 API를 통해 재난 정보를 가져와 지도에 표시하는 기능 구현."
+          },
+          {
+            "title": "교통 사고 리포터",
+            "concept": "사용자들의 제보를 바탕으로 주변 교통 사고 상황을 요약하여 공유합니다.",
+            "first_step": "사용자가 사고 위치를 제보하고 지도에 공유하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "실시간 데이터 처리와 AI를 활용한 정보 가공 기술을 배우고 싶은 개발자에게 추천합니다. 다만, 공공 안전 정보는 민감하므로 정보의 출처와 신뢰성 확보에 주의해야 합니다.",
+        "source_limitations_ko": "AI 요약의 정확도나 오디오 소스의 출처에 대한 상세 정보는 없습니다. 또한, 이 앱은 공식적인 보고서가 아니라는 점을 명시하고 있어 실제 운영 시 법적 책임에 대한 검토가 필요합니다.",
+        "name": "CrimeRadar Dispatch Audio",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/crimeradar-dispatch-audio/id6746114452",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 91,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-26"
+    },
+    "google:com.kurashiru.fue.usagi": {
+      "app_key": "google:com.kurashiru.fue.usagi",
+      "name": "増えうさぎ by クラシル",
+      "developer": "Kurashiru, Inc.",
+      "source": "google",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.kurashiru.fue.usagi&hl=ja&gl=JP",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-26T08:38:54+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "【増えうさぎとは？】 大人気「クラシル」シリーズから、タップだけでどんどん増える『増えうさぎ』が新登場！ かわいいうさぎたちが無限に増えていく様子を眺めながら、効率よくポイントを集められるシンプル＆放置系ゲームです。 短い時間でもガッツリ稼げる！ スキマ時間にタップするだけで、リワードを効率よく貯められるのが最大の魅力です。 【増えうさぎってなに？】 操作はとてもシンプル。 画面をタップすると、かわいいうさぎが次々に増えていきます。 さらに、増えたうさぎの中には\"特別な「ゴールドうさぎ」\"が出現することも！ ゴールドうさぎを集めてレベルアップしていくと、新しいうさぎや機能が解放され、効率がどんどんアップします。 1. 画面をタップしてうさぎを増やす 2. たまに出るゴールドうさぎを集める 3. レベルアップで新しいうさぎや機能を解放 4. 放置でも自動でうさぎが増えてポイントゲット！ 【遊び方】 1. タップしてうさぎを増やそう 2. ゴールドうさぎを集めて効率アップ 3. レベルアップで新しいうさぎを解放 4. 放置していても自動でうさぎが増えるから、忙しい時も効率プレイ！ ▼便利機能でさらに効率アップ！ ・オート増加機能：自動でうさぎが増えるから、放置中でもどんどんポイントが貯まる ・2倍ブースト機能：一定時間、増えるスピードが2倍！短時間で大量うさぎ＆大量ポイント！ ・放置ボーナス：アプリを閉じていてもポイントが貯まるから、スキマ時間でサクッと稼げる 【こんな人におすすめ】 ・とにかく効率よくリワードを稼ぎたい人 ・放置ゲームや育成ゲームでコツコツ稼ぐのが好きな人 ・かわいい動物に癒されながらポイントも貯めたい人 ・短時間でもしっかり成果を出したい人 【増えうさぎの魅力】 ・簡単操作：タップするだけでうさぎがどんどん増える ・放置プレイ対応：忙しい時も自動でうさぎが増える ・便利機能搭載：オート増加・2倍ブースト・放置ボーナスで効率MAX ・育成＆収集要素：新しいうさぎを集めて、効率的にポイント稼ぎ！ かわいい癒しと効率的なポイント稼ぎがひとつになった放置系ゲーム！ 今すぐ『増えうさぎ』をダウンロードして、ふわふわうさぎに囲まれながらリワードを貯めよう！",
+      "analysis": {
+        "app_key": "google:com.kurashiru.fue.usagi",
+        "summary_ko": "증가하는 토끼(増えうさぎ)는 화면을 탭하여 토끼를 늘리고 포인트를 모으는 간단한 방치형 게임입니다. 골드 토끼를 수집하여 효율을 높이고, 앱을 켜두지 않아도 자동으로 토끼가 늘어나는 기능을 제공합니다. 귀여운 그래픽과 함께 짧은 시간 동안 효율적으로 보상을 얻는 경험을 강조합니다.",
+        "features_ko": [
+          "화면을 탭하여 토끼를 생성하고 포인트를 획득합니다.",
+          "희귀한 골드 토끼를 수집하여 생산 효율을 높입니다.",
+          "레벨업을 통해 새로운 토끼 종류와 기능을 해금합니다.",
+          "앱을 종료해도 자동으로 토끼가 증가하는 방치형 보상을 제공합니다.",
+          "일정 시간 동안 생산 속도를 2배로 만드는 부스트 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "단순한 탭 게임에 방치형 요소를 결합하여 사용자에게 지속적인 성취감을 제공합니다. 짧은 시간 내에 보상을 얻을 수 있도록 설계된 점이 모바일 환경에서 높은 리텐션을 유도하는 핵심 요소로 보입니다.",
+        "development_ko": "탭 횟수와 방치 시간을 계산하는 게임 로직 구현이 핵심입니다. 토끼의 종류와 레벨에 따른 데이터 관리 구조가 필요하며, 짧은 시간 내에 보상을 체감할 수 있도록 밸런스를 조정하는 것이 중요합니다.",
+        "idea_ko": "토끼가 늘어날수록 화면이 좁아지는 물리 엔진을 적용하여, 토끼들을 쌓아 올리는 퍼즐 요소를 추가하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "탭과 방치형 플레이를 결합하여 바쁜 사용자도 효율적으로 즐길 수 있습니다.",
+          "귀여운 캐릭터 수집과 레벨업 시스템을 통해 성장의 재미를 제공합니다."
+        ],
+        "systems_ko": [
+          "탭 입력 판정 시스템",
+          "시간 기반 보상 계산 로직",
+          "데이터 저장 및 불러오기(로컬)",
+          "UI/UX 애니메이션",
+          "게임 밸런스 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 단순한 클릭과 수치 증가로 이루어져 있어 1인 개발자가 구현하기에 적합합니다. 복잡한 물리 엔진이나 네트워크 통신 없이도 로컬 데이터만으로 충분히 완성도 있는 게임을 만들 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "탭 시 토끼 생성 로직",
+            "포인트 및 레벨 데이터 저장",
+            "기본적인 방치형 보상 타이머"
+          ],
+          "defer": [
+            "광고 연동 및 리워드 시스템",
+            "복잡한 애니메이션 효과",
+            "온라인 랭킹 시스템"
+          ],
+          "risks": [
+            "단순 반복으로 인한 콘텐츠 소모 속도",
+            "밸런스 붕괴로 인한 재미 반감"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "토끼 타워 쌓기",
+            "concept": "증가하는 토끼들을 화면에 쌓아 올려 가장 높은 타워를 만드는 물리 기반 게임입니다.",
+            "first_step": "토끼 오브젝트 생성 및 물리 충돌 처리 구현."
+          },
+          {
+            "title": "토끼 정원 꾸미기",
+            "concept": "모은 포인트로 토끼가 사는 정원을 꾸미고, 특정 아이템을 배치해 생산 효율을 높이는 경영 게임입니다.",
+            "first_step": "아이템 배치 및 생산량 보너스 계산 로직 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 기본 구조인 데이터 저장, 시간 계산, UI 업데이트를 학습하기에 매우 좋은 프로젝트입니다. 게임 개발 입문자에게 추천하며, 작은 규모로 시작해 점진적으로 기능을 확장하는 경험을 쌓을 수 있습니다.",
+        "source_limitations_ko": "포인트와 실제 리워드(기프트 카드 등) 간의 교환 로직, 외부 광고 SDK 연동 방식, 서버 통신 여부는 소개문에서 확인할 수 없습니다.",
+        "name": "増えうさぎ by クラシル",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.kurashiru.fue.usagi&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 89,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-26"
     }
   }
 }

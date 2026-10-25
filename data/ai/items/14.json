@@ -7247,6 +7247,186 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-26"
+    },
+    "google:com.aeonmall.shopping_app": {
+      "app_key": "google:com.aeonmall.shopping_app",
+      "name": "イオンモールアプリ",
+      "developer": "イオンモール株式会社",
+      "source": "google",
+      "country": "JP",
+      "category": "app_lifestyle",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.aeonmall.shopping_app&hl=ja&gl=JP",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-26T08:36:59+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "■ アプリの概要 全国のイオンモール、THE OUTLETS（ジ アウトレット）、横浜ワールドポーターズ、一部のイオンショッピングセンターでのお買物や、館内で過ごす時間がもっとおトクで楽しくなる「イオンモールアプリ」が新しく生まれ変わりました！ よく行くお店の登録から、館内で過ごすまいにち、そして日々のお買物まで、あなたに特別な体験とおトクをお届けします。 ■ 3つのシーンで、まいにちをもっとおトクに！ ① よく行く施設をお気に入り登録して、おトクを先取り！ イオンモールやTHE OUTLETS、横浜ワールドポーターズなど、よく行く施設をお気に入り登録するだけ。登録するだけで、その施設ですぐにつかえる限定クーポンや、あなたにぴったりの最新セール・イベント情報が届きます。 ② 館内を歩いたり、イベントに参加して、過ごす時間を楽しく！ 館内を歩いて健康を目指すウォーキング機能や、楽しいイベントへの参加で記念コインをプレゼント。 ③ いつものお買物やお食事で、しっかりおトクを実感！ アプリ限定の割引クーポンや、会員限定のキャンペーンで、いつものお買物がさらにおトクに。 さらに、スマホ決済「AEON Pay（イオンペイ）」にも対応し、クーポン提示から決済までアプリひとつでスマートに完結します。 ■ 新・イオンモールアプリ 3つのポイント ・お気に入り施設の最新情報がサクッと！ 登録した施設ごとのショップ新商品やイベント情報をスムーズにチェックできます。 ・アプリ限定クーポンやスタンプカードでおトク！ 使えば使うほどおトクなアプリ限定機能が充実しています。 ・AIエージェント「ひびまる」があなたへのおすすめを提案！ あなたの好みを学習したAIが、館内の膨大な情報からぴったりのショップやおすすめ情報をナビゲート。 ■ ご利用に関するご注意 ※一部対象外の施設・店舗がございます。 ※各種カードとの連携によるポイント機能や、AEON Pay決済をご利用いただけます。 ■ 対応端末 ・Android 10以上 ※タブレット端末や時計型端末などには対応しておりません。 ※上記の対応OSを満たしている場合でも、端末のスペック、設定、または通信環境等により、一部の端末では正常に動作しない可能性がございます。あらかじめご了承ください。",
+      "analysis": {
+        "app_key": "google:com.aeonmall.shopping_app",
+        "summary_ko": "이온몰(AEON MALL) 및 관련 시설 이용자를 위한 통합 쇼핑 앱입니다. 시설 즐겨찾기 기능을 통해 맞춤형 쿠폰과 이벤트 정보를 제공받을 수 있습니다. 또한, 앱 내에서 결제 서비스인 'AEON Pay'를 이용하거나 건강 관련 활동을 통해 혜택을 얻을 수 있습니다.",
+        "features_ko": [
+          "시설 즐겨찾기 등록을 통해 해당 매장의 최신 세일 및 이벤트 정보를 우선적으로 수신합니다.",
+          "관내 걷기 활동이나 이벤트 참여를 통해 기념 코인을 획득할 수 있습니다.",
+          "앱 전용 할인 쿠폰을 제공하여 쇼핑 시 경제적 혜택을 지원합니다.",
+          "AEON Pay를 연동하여 쿠폰 제시부터 결제까지 앱 하나로 처리할 수 있습니다.",
+          "AI 에이전트 '히비마루'가 사용자 취향을 학습하여 맞춤형 매장과 정보를 추천합니다."
+        ],
+        "noteworthy_ko": "오프라인 쇼핑몰의 경험을 디지털로 확장하여 고객의 체류 시간을 늘리는 전략이 돋보입니다. 특히 AI 추천과 결제 기능을 결합해 사용자 편의성을 극대화한 점이 흥미롭습니다.",
+        "development_ko": "핵심 기술로는 위치 기반 서비스(LBS), 결제 API 연동, 그리고 사용자 행동 데이터를 분석하는 AI 추천 엔진이 필요합니다. 콘텐츠 제작 측면에서는 매장별 이벤트와 쿠폰 데이터를 지속적으로 업데이트하는 관리 시스템이 중요합니다. 테스트 시에는 다양한 매장 환경에서의 결제 안정성과 위치 인식 정확도를 확보하는 것이 큰 부담이 될 것입니다.",
+        "idea_ko": "지역 소상공인과 연계하여 특정 지역의 숨은 명소를 방문하면 보상을 주는 '로컬 탐험형 스탬프 투어' 기능이 개인 개발자에게 적합합니다.",
+        "highlights_ko": [
+          "쇼핑몰 방문을 유도하는 걷기 및 이벤트 참여형 게이미피케이션 요소가 포함되어 있습니다.",
+          "AI 에이전트를 활용한 개인화된 쇼핑 정보 큐레이션 기능을 제공합니다."
+        ],
+        "systems_ko": [
+          "사용자 위치 기반 시설 탐색 시스템",
+          "쿠폰 및 포인트 관리 데이터베이스",
+          "AI 추천 알고리즘 연동 인터페이스",
+          "결제 게이트웨이 연동 모듈",
+          "사용자 활동 로그 및 통계 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "결제 시스템 연동과 대규모 시설 데이터 관리, AI 추천 엔진 구축은 1인 개발자가 감당하기에 기술적 난이도와 유지보수 부담이 매우 큽니다. 특히 오프라인 인프라와의 연동은 개인 수준에서 구현하기 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "시설 즐겨찾기 및 정보 조회",
+            "쿠폰 목록 표시 기능"
+          ],
+          "defer": [
+            "AEON Pay 결제 연동",
+            "AI 추천 엔진",
+            "실시간 위치 기반 이벤트 알림"
+          ],
+          "risks": [
+            "데이터 업데이트의 지속성 부족",
+            "오프라인 매장과의 협력 부재"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "동네 산책 챌린지",
+            "concept": "특정 동네의 공원이나 명소를 방문하면 디지털 스탬프를 찍어주는 앱입니다. 지역 상점과 제휴하여 스탬프 완성 시 작은 혜택을 제공합니다.",
+            "first_step": "사용자 위치를 기반으로 특정 좌표에 도달했는지 판별하는 기능을 구현합니다."
+          },
+          {
+            "title": "나만의 쇼핑 리스트 공유",
+            "concept": "사용자가 자주 가는 매장의 상품을 리스트로 만들고, 친구들과 공유하거나 가격 변동을 알림받는 기능입니다.",
+            "first_step": "상품 정보를 입력하고 저장하는 간단한 CRUD 앱을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "대규모 서비스의 기능 구성과 사용자 경험 설계를 공부하기에 좋습니다. 다만, 실제 구현보다는 서비스 기획의 논리적 흐름을 참고하는 용도로 추천합니다.",
+        "source_limitations_ko": "소개문에는 결제 시스템의 보안 방식, AI 학습 데이터의 출처, 오프라인 매장과의 실시간 데이터 동기화 방식에 대한 구체적인 기술 정보가 없습니다.",
+        "name": "イオンモールアプリ",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.aeonmall.shopping_app&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-26"
+    },
+    "google:com.eet.volume.launcher": {
+      "app_key": "google:com.eet.volume.launcher",
+      "name": "Volume Control Home",
+      "developer": "Utility Apps Home",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.eet.volume.launcher&hl=en&gl=US",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-26T08:39:52+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Volume Control Home turns your home screen into a sound command center. Crank your media volume beyond the system limit, fine-tune every audio stream, and get one-tap access to everything you use most — all from the moment you unlock your phone. 🔊 TURN IT UP • Boost media volume above 100% when you need that extra push for music, videos, and calls • Control every stream independently — ringtone, alarm, media, notifications, and system • A precise, easy-to-read volume dial built for quick adjustments • Add the Volume widget to your home screen for instant control without opening an app 🏠 YOUR HOME SCREEN, AMPLIFIED • A fast, clean launcher that replaces your default home screen • Built-in web search bar so you can find anything in a tap • Swipe right for a personalized feed of news and content • Quick access to weather, wallpapers, notes, and games • Lightweight and responsive, designed to stay out of your way ⚡ SIMPLE SETUP Set Volume Control Home as your default home app during the quick welcome flow, grant the permissions you're comfortable with, and you're ready to go. Search By clicking “install”, I accept and agree to install Volume Control Home and setting the application’s search functionality to that provided by the service and the Terms of Use and Privacy Policy. The app will update your search settings and will change your Homescreen search experience to use Yahoo. Download Volume Control Home and take command of your sound and your home screen.",
+      "analysis": {
+        "app_key": "google:com.eet.volume.launcher",
+        "summary_ko": "Volume Control Home은 홈 화면을 오디오 제어 센터로 변환하는 런처 앱입니다. 시스템 기본 볼륨 제한을 넘어 미디어 음량을 증폭하고, 다양한 오디오 스트림을 개별적으로 세밀하게 조정할 수 있습니다. 또한 홈 화면에서 바로 웹 검색, 날씨, 뉴스 피드 등을 이용할 수 있는 런처 기능을 통합하여 편의성을 높였습니다.",
+        "features_ko": [
+          "시스템 기본 제한을 초과하여 미디어 볼륨을 100% 이상으로 증폭합니다.",
+          "벨소리, 알람, 미디어, 알림, 시스템 등 각 오디오 스트림을 독립적으로 제어합니다.",
+          "홈 화면에 볼륨 조절 위젯을 배치하여 앱 실행 없이 즉각적인 조절이 가능합니다.",
+          "기본 홈 화면을 대체하는 런처 기능을 통해 웹 검색, 날씨 확인, 뉴스 피드 접근을 제공합니다."
+        ],
+        "noteworthy_ko": "런처(Launcher)와 시스템 유틸리티(Volume Control)를 결합한 하이브리드 형태라는 점이 흥미롭습니다. 사용자의 일상적인 홈 화면 경험에 오디오 제어라는 특정 기능을 강하게 결합하여 체류 시간을 늘리려는 전략으로 추정됩니다.",
+        "development_ko": "안드로이드 런처 구현을 위해 홈 화면 대체 권한(Default Home App) 설정이 필요하며, 오디오 제어를 위해 시스템 설정 접근 권한이 필수적입니다. 볼륨 증폭은 오디오 프레임워크의 게인(Gain) 제어 기술이 필요하며, 런처의 경우 위젯 배치 및 앱 아이콘 관리 등 UI/UX 최적화가 핵심입니다. 테스트 시 다양한 기기별 오디오 드라이버 호환성 확인이 가장 큰 부담이 될 것으로 보입니다.",
+        "idea_ko": "특정 상황(예: 게임 실행 시, 특정 장소 도착 시)에 맞춰 볼륨 프리셋을 자동으로 변경해주는 '상황별 볼륨 런처' 아이디어가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "홈 화면을 오디오 제어의 중심지로 활용하여 접근성을 극대화했습니다.",
+          "런처 기능과 볼륨 제어 기능을 하나의 앱으로 통합하여 사용자 경험을 단순화했습니다."
+        ],
+        "systems_ko": [
+          "안드로이드 런처 인터페이스(Home Screen API)",
+          "오디오 매니저 서비스(AudioManager API)",
+          "위젯 관리 시스템",
+          "데이터 저장소(사용자 설정 및 피드 데이터)",
+          "웹 검색 연동 모듈"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "안드로이드 런처 앱은 시스템 기본 앱으로 동작해야 하므로 권한 관리와 안정성 확보가 매우 까다롭습니다. 또한 볼륨 증폭 기능은 하드웨어 제조사마다 오디오 정책이 달라 기기별 호환성 문제를 해결하는 데 높은 기술적 난도가 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 런처 화면 구성",
+            "오디오 스트림별 볼륨 조절 기능",
+            "홈 화면 위젯 구현"
+          ],
+          "defer": [
+            "웹 검색 엔진 연동",
+            "뉴스 피드 및 날씨 서비스",
+            "볼륨 증폭(하드웨어 호환성 이슈 방지)"
+          ],
+          "risks": [
+            "최신 안드로이드 버전의 보안 정책으로 인한 런처 설정 제한",
+            "기기별 오디오 제어 API의 파편화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "포커스 모드 볼륨 런처",
+            "concept": "집중이 필요한 앱을 실행할 때 자동으로 알림 볼륨을 차단하고 미디어 볼륨을 최적화합니다. 사용자가 설정한 시간 동안 특정 앱만 허용하는 런처 모드를 제공합니다.",
+            "first_step": "특정 앱 실행을 감지하여 볼륨을 변경하는 백그라운드 서비스 구현."
+          },
+          {
+            "title": "위치 기반 사운드 프로필",
+            "concept": "GPS 정보를 활용하여 회사, 집, 카페 등 장소에 따라 볼륨과 홈 화면 구성을 자동으로 변경합니다. 장소별로 자주 쓰는 앱 아이콘 배치를 다르게 설정할 수 있습니다.",
+            "first_step": "위치 권한을 획득하고 특정 좌표 진입 시 볼륨을 제어하는 프로토타입 제작."
+          }
+        ],
+        "recommendation_ko": "안드로이드 시스템 서비스와 UI를 결합하는 전체적인 앱 구조를 배우기에 좋습니다. 다만, 런처와 시스템 제어는 OS 업데이트에 민감하므로 학습용으로 추천하며, 상용화 시에는 기기 호환성 테스트에 많은 시간이 소요됨을 유의해야 합니다.",
+        "source_limitations_ko": "소개문에는 Yahoo 검색 연동에 대한 언급만 있을 뿐, 실제 오디오 증폭의 기술적 구현 방식(소프트웨어 게인 vs 하드웨어 제어)은 명시되지 않았습니다. 또한 뉴스 피드나 날씨 데이터의 출처 및 외부 API 연동 여부, 결제 기능 유무는 확인되지 않았습니다.",
+        "name": "Volume Control Home",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.eet.volume.launcher&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 98,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-26"
     }
   }
 }

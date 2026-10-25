@@ -8039,6 +8039,97 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-26"
+    },
+    "google:com.vizio.vue.launcher": {
+      "app_key": "google:com.vizio.vue.launcher",
+      "name": "VIZIO",
+      "developer": "VIZIO",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.vizio.vue.launcher&hl=en&gl=US",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-26T08:38:54+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "VIZIO Device Control and WatchFree+ FREE Live TV Stream 300+ free live channels anywhere—no VIZIO TV required! Plus, control your VIZIO devices and discover entertainment, all through the VIZIO Mobile app. WATCHFREE+ MOBILE: Free live channels, anytime, anywhere. • Stream 300+ Free Live Channels: Watch news, sports, movies, and shows on your mobile device —no VIZIO TV needed • Personalize Your Experience: Create favorite channels lists and get personalized recommendations • Stay Connected: Keep up with local sports, news, and entertainment on the go • Easy to Start: Just download the app and create a free VIZIO account to start watching • Smart Navigation: Find what you want faster with the category jump feature • Pick Up Where You Left Off: Seamlessly switch between devices when you start watching on a VIZIO TV TV and ENTERTAINMENT CONTROL: Transform your phone into a powerful entertainment hub. • Universal Search: Find what to watch across streaming services in one place • Smart Recommendations: Discover new shows and movies based on your interests • Voice Control: Launch apps and find content hands-free • Save Time. Stream More: Organize apps and manage subscriptions in one location • Share & Connect: Cast photos and videos to your TV with VIZIOgram SOUNDBAR CONTROL: Fine-tune your audio experience right from your phone. • Quick Audio Adjustments: Customize volume, bass, and treble with easy controls • Preset Sound Modes: Optimize audio for movies, shows, music, and more • Enhanced Listening: Enable features like ClearDialog and Night Mode for the perfect sound ——————————————————————— VIZIO Crave Speakers cannot output audio from TVs/displays or be connected as an additional channel to an existing sound bar or sound system. Additional supported SmartCast or Chromecast-enabled audio products are required (not included) for Multi-Room feature. Streaming different songs to different speakers at the same time is not supported when using a single app running on a single mobile device. To stream a different song to different speakers at the same time, you’ll need to stream from a different app or a separate mobile device. The applications and content pictured herein or described on this page may only be available in certain countries and languages, may require additional fees or subscription charges, and may be subject to future updates, modifications, interruption and/or discontinuation of service without notice. VIZIO has no control over third party applications or content and assumes no responsibility for the availability or interruption of such applications or content. Additional third-party terms, conditions and restrictions apply. High-speed/broadband Internet service and access equipment are required and are not provided by VIZIO. Not all Google Cast-enabled apps are integrated with VIZIO SmartCast and may require additional steps to cast. For help, please visit our Customer Help Center: support.vizio.com Terms of Use: https://www.vizio.com/en/terms/account-terms Privacy Policy: https://www.vizio.com/en/terms/privacy-policy",
+      "analysis": {
+        "app_key": "google:com.vizio.vue.launcher",
+        "summary_ko": "VIZIO는 TV 기기 제어와 무료 라이브 TV 스트리밍을 통합한 엔터테인먼트 앱입니다. 300개 이상의 무료 채널을 모바일에서 시청할 수 있으며, VIZIO 사운드바와 TV를 스마트폰으로 제어할 수 있습니다. 통합 검색과 개인화된 추천 기능을 통해 사용자가 원하는 콘텐츠를 빠르게 찾도록 돕습니다.",
+        "features_ko": [
+          "300개 이상의 무료 라이브 TV 채널을 모바일에서 스트리밍합니다.",
+          "VIZIO TV 및 사운드바의 볼륨, 모드 등을 스마트폰으로 제어합니다.",
+          "여러 스트리밍 서비스의 콘텐츠를 한곳에서 검색하는 통합 검색을 제공합니다.",
+          "사용자의 관심사에 기반한 맞춤형 콘텐츠 추천을 제공합니다.",
+          "스마트폰의 사진과 영상을 TV로 전송하는 캐스팅 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "하드웨어 기기 제어와 콘텐츠 스트리밍을 하나의 앱으로 통합하여 사용자에게 일관된 엔터테인먼트 경험을 제공합니다. 기기 간의 끊김 없는 전환(Seamless switch) 기능은 사용자 편의성을 극대화하는 핵심 요소로 추정됩니다.",
+        "development_ko": "다양한 하드웨어 기기와의 통신 프로토콜 구현과 실시간 스트리밍 데이터 처리가 핵심입니다. 여러 외부 스트리밍 서비스 API를 통합하는 검색 엔진 구축과 기기 제어를 위한 안정적인 네트워크 통신 기술이 필요합니다.",
+        "idea_ko": "사용자가 시청 중인 콘텐츠의 정보를 기반으로 관련 굿즈나 정보를 즉시 검색해 주는 보조 스크린 앱 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "TV 없이도 모바일에서 무료 라이브 채널을 시청할 수 있는 접근성을 제공합니다.",
+          "사운드바의 세부 설정까지 앱에서 제어하여 오디오 경험을 최적화합니다."
+        ],
+        "systems_ko": [
+          "기기 네트워크 통신(Wi-Fi/Bluetooth)",
+          "실시간 스트리밍 플레이어",
+          "통합 검색 엔진",
+          "사용자 계정 및 설정 관리",
+          "기기 제어 프로토콜"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "하드웨어 제어와 스트리밍 서비스 연동은 고도의 기술적 난이도를 요구합니다. 특히 다양한 기기와의 호환성 유지와 실시간 데이터 스트리밍의 안정성 확보는 1인 개발자가 구현하기에 매우 도전적입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 기기 연결 및 상태 확인",
+            "볼륨 조절 등 단순 제어 기능",
+            "콘텐츠 목록 조회"
+          ],
+          "defer": [
+            "실시간 라이브 스트리밍",
+            "통합 검색 엔진",
+            "다양한 기기 호환성 지원"
+          ],
+          "risks": [
+            "하드웨어 제조사 API 접근 제한",
+            "네트워크 환경에 따른 제어 지연"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스마트 홈 리모컨",
+            "concept": "가정 내 다양한 스마트 기기를 하나의 인터페이스에서 제어하고 자동화 규칙을 설정하는 앱입니다.",
+            "first_step": "기기 연결 및 기본 제어 명령 전송 구현."
+          },
+          {
+            "title": "콘텐츠 큐레이터",
+            "concept": "여러 OTT 서비스의 신작 정보를 모아보고, 사용자의 취향에 맞는 콘텐츠를 알림으로 알려주는 앱입니다.",
+            "first_step": "OTT 서비스 RSS 피드 수집 및 알림 기능 구현."
+          }
+        ],
+        "recommendation_ko": "IoT 기기 제어와 미디어 스트리밍 기술에 관심이 있다면 참고할 만합니다. 다만, 실제 하드웨어 연동은 제조사의 API 지원이 필수적이므로 개인 개발 프로젝트로는 난이도가 높습니다.",
+        "source_limitations_ko": "기기 제어에 사용되는 구체적인 통신 프로토콜, 스트리밍 서비스와의 라이선스 계약 내용, 보안 인증 방식은 소개문에서 확인할 수 없습니다.",
+        "name": "VIZIO",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.vizio.vue.launcher&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 89,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-26"
     }
   }
 }
