@@ -7953,6 +7953,92 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-25"
+    },
+    "google:com.oceanwing.soundcore": {
+      "app_key": "google:com.oceanwing.soundcore",
+      "name": "Anker soundcore",
+      "developer": "Anker",
+      "source": "google",
+      "country": "JP",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.oceanwing.soundcore&hl=ja&gl=JP",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-26T03:38:37+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "注意： 1.現在soundcoreアプリは、次のsoundcore機器のみをサポートしています： Flare / Flare+ / Flare S+ / Rave / Rave Mini / Mega / Trance / Wakey / Icon+ / Motion+ / Infini Pro / Model Zero / Model Zero+ / Liberty 2 Pro / Liberty Air 2 / Liberty 2 / Life NC / PowerConf / Flare 2 / Rave Neo / Rave Partycast / Trance Go / Soundcore Mini 3 / Motion Boom / Soundcore 3 / Boost(Upgraded) / Life Q30 / Life Q20+ / Life Q35 / Life Tune / Life Tune Pro / / Life Tune XR / Life A2 NC / Life Dot 2 NC / Life Dot 2S / Liberty Air 2 Pro / Life P3 / Liberty Neo 2 / Liberty 3 Pro / Rave+ / Select 2 / Life Dot 2 XR / Rave Neo SE / Life Tune Pro / Soundcore min 3 Pro / Life P3 / Life Note 3 / Life Note 3S / Life 2 Neo / Life Q10i / Life Dot 3i / Soundcore Dot 3i / Life Note 3i / Soundcore Note 3i / Sport X10 / Life A3i / Soundcore A3i / Life P3i / Soundcore P3i / Space A40 / Space Q45 / VR P10 / Sleep A10 / Liberty 4 2.全てのsoundcore機器が、スクリーンショットに表示されている機能に対応しているわけではありません。 アプリの説明： soundcoreアプリを使用することで、各Soundcore機器の機能を最大限に利用することができ、よりあなた自身に最適な音楽体験をお楽しみいただけます。 利用規約: https://www.apple.com/legal/internet-servicees/itunes/dev/stdeula/",
+      "analysis": {
+        "app_key": "google:com.oceanwing.soundcore",
+        "summary_ko": "Soundcore 브랜드의 오디오 기기를 제어하고 최적화하는 전용 앱입니다. 연결된 기기의 설정을 변경하고 사용자 맞춤형 음악 경험을 제공합니다. 지원되는 기기 목록이 한정되어 있습니다.",
+        "features_ko": [
+          "Soundcore 브랜드의 다양한 오디오 기기와 연동됩니다.",
+          "기기별로 제공되는 기능을 앱을 통해 제어할 수 있습니다.",
+          "사용자에게 최적화된 음악 환경을 설정할 수 있습니다."
+        ],
+        "noteworthy_ko": "특정 하드웨어 제품군을 지원하는 전용 컨트롤러 앱입니다. 기기마다 지원 기능이 다르다는 점을 명시하여 사용자 혼란을 방지하고 있습니다.",
+        "development_ko": "블루투스 통신 프로토콜을 통한 기기 제어 기술이 핵심입니다. 다양한 기기 모델을 지원하기 위한 유연한 코드 구조와 기기별 기능 매핑이 필요합니다. 하드웨어 펌웨어와의 호환성 테스트가 매우 중요합니다.",
+        "idea_ko": "기기별로 사용자가 자주 사용하는 설정을 프리셋으로 저장하고 공유하는 커뮤니티 기능이 적합합니다.",
+        "highlights_ko": [
+          "광범위한 Soundcore 제품군을 지원하는 통합 관리 인터페이스를 제공합니다.",
+          "기기별로 최적화된 맞춤형 오디오 경험을 지원합니다."
+        ],
+        "systems_ko": [
+          "블루투스 기기 연결 및 통신",
+          "기기별 설정 데이터 관리",
+          "사용자 인터페이스(UI) 제어",
+          "펌웨어 업데이트 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "하드웨어와의 블루투스 통신 규격(프로토콜)을 이해해야 하며, 다양한 기기 모델에 대응하는 안정적인 연결성 확보가 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "블루투스 기기 검색 및 연결",
+            "기본 기기 제어 인터페이스"
+          ],
+          "defer": [
+            "다양한 모델 지원",
+            "펌웨어 업데이트 기능"
+          ],
+          "risks": [
+            "하드웨어 제조사의 비공개 프로토콜 사용 시 개발 불가",
+            "기기별 연결 불안정성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "오디오 환경 자동화",
+            "concept": "사용자의 위치나 시간에 따라 오디오 설정을 자동으로 변경합니다. 예를 들어, 출근길에는 노이즈 캔슬링을 강화합니다.",
+            "first_step": "위치 정보와 기기 설정 값을 연결하는 간단한 로직 구현."
+          },
+          {
+            "title": "청력 맞춤형 EQ",
+            "concept": "사용자의 청력 테스트 결과를 바탕으로 최적의 EQ 값을 자동으로 생성합니다.",
+            "first_step": "주파수별 소리 반응 테스트 UI 구현."
+          }
+        ],
+        "recommendation_ko": "하드웨어와 소프트웨어의 연동을 경험하고 싶은 개발자에게 추천합니다. 다만, 특정 제조사의 기기가 없다면 개발 및 테스트가 불가능하므로 비추천합니다.",
+        "source_limitations_ko": "앱이 사용하는 구체적인 통신 프로토콜이나 기기 제어 방식은 설명문에 기재되어 있지 않습니다.",
+        "name": "Anker soundcore",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.oceanwing.soundcore&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 180,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 20,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-26"
     }
   }
 }

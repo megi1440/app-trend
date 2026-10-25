@@ -7161,6 +7161,92 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-25"
+    },
+    "google:com.bigtime.trash.cleaner": {
+      "app_key": "google:com.bigtime.trash.cleaner",
+      "name": "Max Cleaner",
+      "developer": "FWP Bigtime",
+      "source": "google",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.bigtime.trash.cleaner&hl=en&gl=US",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-26T03:36:46+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "This app helps you clean junk files, remove duplicates, and manage apps to reclaim phone storage. Features: Junk Clean – Remove app cache, temporary files, and residual junk Duplicate Photos Remover – Find and delete duplicate photos App Manager – View installed apps and uninstall unused ones easily",
+      "analysis": {
+        "app_key": "google:com.bigtime.trash.cleaner",
+        "summary_ko": "Max Cleaner는 스마트폰의 저장 공간을 확보하기 위해 불필요한 정크 파일을 정리하고 중복 사진을 제거하며 앱을 관리하는 도구 앱입니다. 캐시 파일 및 임시 파일을 삭제하여 기기 성능을 최적화하고, 사용하지 않는 앱을 쉽게 삭제할 수 있도록 돕습니다.",
+        "features_ko": [
+          "앱 캐시 및 임시 파일 등 정크 파일 삭제.",
+          "중복 사진 탐색 및 삭제 기능.",
+          "설치된 앱 목록 확인 및 간편 삭제."
+        ],
+        "noteworthy_ko": "안드로이드 기기의 파일 시스템 접근 권한을 활용한 전형적인 유틸리티 앱입니다. 사용자의 기기 관리 부담을 줄여주는 기능적 명확성이 특징입니다.",
+        "development_ko": "안드로이드의 파일 시스템 API와 앱 관리 API를 활용하는 것이 핵심입니다. 정크 파일 탐색 시 시스템 영역을 건드리지 않도록 주의해야 하며, 중복 사진 탐색을 위해 이미지 해시 비교 알고리즘이 필요합니다. 테스트 시 다양한 기기 환경에서의 파일 접근 권한 문제를 해결하는 것이 중요합니다.",
+        "idea_ko": "사용자의 앱 사용 패턴을 분석하여 '자주 쓰지 않는 앱'을 자동으로 추천해주는 '스마트 앱 정리 도우미' 기능이 적합합니다.",
+        "highlights_ko": [
+          "저장 공간 확보를 위한 다각적 정리 기능.",
+          "직관적인 앱 관리 인터페이스."
+        ],
+        "systems_ko": [
+          "파일 시스템 접근 및 관리 모듈",
+          "이미지 해시 비교 알고리즘",
+          "앱 설치 정보 관리 시스템",
+          "저장 공간 분석 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "안드로이드의 파일 시스템 접근 권한은 버전별로 매우 엄격하게 관리되므로, 이를 안정적으로 구현하는 것이 관건입니다. 중복 사진 탐색 등은 알고리즘 구현이 필요하지만, 전반적인 구조는 비교적 명확합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐시 파일 삭제 기능",
+            "앱 목록 표시 및 삭제"
+          ],
+          "defer": [
+            "중복 사진 탐색",
+            "실시간 성능 모니터링"
+          ],
+          "risks": [
+            "안드로이드 OS 버전별 권한 정책 변경",
+            "중요 파일 삭제로 인한 데이터 손실 위험"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스마트 앱 정리 도우미",
+            "concept": "사용자의 앱 실행 빈도를 기록하여, 한 달 이상 사용하지 않은 앱을 정리하도록 알림을 보냅니다.",
+            "first_step": "앱별 마지막 실행 시간을 기록하는 로직 구현."
+          },
+          {
+            "title": "대용량 파일 시각화 도구",
+            "concept": "기기 내 용량을 가장 많이 차지하는 파일들을 트리맵 형태로 시각화하여 사용자가 직접 정리하도록 돕습니다.",
+            "first_step": "파일 크기별로 정렬하여 리스트를 보여주는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "안드로이드 시스템 API 활용 능력과 파일 관리 알고리즘을 배우기에 좋습니다. 유틸리티 앱 개발의 기초를 다지고 싶은 분께 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 파일 탐색 범위나 삭제 알고리즘의 안전성 보장 여부가 명시되어 있지 않습니다. 실제 개발 시 안드로이드의 Scoped Storage 정책을 반드시 검토해야 합니다.",
+        "name": "Max Cleaner",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.bigtime.trash.cleaner&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 216,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 8,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-26"
     }
   }
 }

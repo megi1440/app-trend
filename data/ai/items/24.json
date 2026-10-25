@@ -6816,6 +6816,97 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-25"
+    },
+    "google:com.diamond.city.house.best.building.craft.vip": {
+      "app_key": "google:com.diamond.city.house.best.building.craft.vip",
+      "name": "Block World - Craft City",
+      "developer": "Patane Global",
+      "source": "google",
+      "country": "US",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.diamond.city.house.best.building.craft.vip&hl=en&gl=US",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-26T03:40:57+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Block World - Craft City – Unleash your imagination and build the ultimate block world! Enter an open-world sandbox where you can craft, build, and explore endless adventures. Design epic structures, create your dream city, and discover vast biomes in a fully customizable 3D environment. Key Features: 🛠️ Build & Create Anything Construct houses, castles, farms, skyscrapers, and entire cities with limitless blocks. 🌍 Massive Open World Explore forests, mountains, rivers, and hidden areas while gathering resources. 🔨 Craft & Mine Resources Collect wood, stone, ores, and more to craft tools, decorations, and building blocks. 🎮 Immersive Gameplay Smooth controls and realistic building simulation for players of all ages. 🎨 Customize Your World Shape terrains, add decorations, and design your city exactly how you want. 👾 Survival & Creative Modes Play in Survival Mode to gather, mine, and fight—or switch to Creative Mode for unlimited building freedom. 🌟 Multiplayer Fun Team up with friends, build together, and share your creations online. Why Play Block World - Craft City? 🏡 Endless Creativity: Bring your ideas to life without limits. 🎮 Fun for Everyone: Easy to play, perfect for kids and adults alike. 🌍 Infinite Adventures: Explore, survive, and craft your dream city in one massive world. 👉 Download Block World - Craft City now and start building your perfect world today!",
+      "analysis": {
+        "app_key": "google:com.diamond.city.house.best.building.craft.vip",
+        "summary_ko": "이 게임은 블록을 활용해 자신만의 도시와 건축물을 만드는 오픈 월드 샌드박스 게임입니다. 플레이어는 다양한 지형을 탐험하며 자원을 채집하고, 창의적인 구조물을 설계할 수 있습니다. 생존 모드와 창의 모드를 통해 각기 다른 방식의 게임 플레이를 경험할 수 있습니다.",
+        "features_ko": [
+          "블록을 사용하여 집, 성, 도시 등 다양한 구조물을 자유롭게 건설할 수 있습니다.",
+          "숲, 산, 강 등 방대한 오픈 월드 환경을 탐험하며 자원을 수집합니다.",
+          "나무, 돌, 광석 등을 채굴하여 도구와 건축 자재를 제작할 수 있습니다.",
+          "생존 모드에서는 자원 수집과 전투를, 창의 모드에서는 무제한 건설을 즐길 수 있습니다.",
+          "멀티플레이어 기능을 통해 친구들과 함께 협동하여 건설하고 결과물을 공유할 수 있습니다."
+        ],
+        "noteworthy_ko": "다양한 모드와 멀티플레이어 지원을 통해 사용자 참여를 유도하는 전형적인 샌드박스 구조를 갖추고 있습니다. 1인 개발 시에는 방대한 월드 생성과 멀티플레이어 동기화 처리가 기술적으로 가장 도전적인 과제가 될 것으로 추정됩니다.",
+        "development_ko": "핵심 기술로 복셀 기반의 지형 생성 및 블록 배치 시스템이 필요합니다. 콘텐츠 제작 측면에서는 다양한 블록 에셋과 환경 에셋의 최적화가 중요합니다. 멀티플레이어 구현 시 서버 동기화 및 데이터 무결성 테스트에 상당한 리소스가 소요될 것으로 보입니다.",
+        "idea_ko": "특정 테마의 블록만 사용하여 제한된 공간 내에서 퍼즐을 해결하는 '미니 샌드박스 챌린지' 모드 구현이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "생존과 창의 모드를 분리하여 다양한 플레이 스타일을 수용합니다.",
+          "멀티플레이어 기능을 통해 사용자 간의 상호작용과 커뮤니티 형성을 지원합니다."
+        ],
+        "systems_ko": [
+          "복셀 데이터 관리 시스템",
+          "플레이어 이동 및 물리 엔진",
+          "인벤토리 및 아이템 제작 시스템",
+          "멀티플레이어 네트워크 동기화",
+          "UI/UX 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "오픈 월드 샌드박스 게임은 복셀 데이터 처리, 물리 연산, 네트워크 동기화 등 구현해야 할 시스템의 범위가 매우 넓습니다. 1인이 모든 최적화와 콘텐츠를 완성하기에는 개발 공수가 매우 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "블록 배치 및 제거 시스템",
+            "기본 플레이어 이동",
+            "단일 환경 맵"
+          ],
+          "defer": [
+            "멀티플레이어 기능",
+            "복잡한 생존 시스템",
+            "다양한 생물 군계"
+          ],
+          "risks": [
+            "복셀 데이터 최적화 실패로 인한 성능 저하",
+            "콘텐츠 부족으로 인한 짧은 플레이 타임"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "블록 타워 디펜스",
+            "concept": "건설한 구조물을 활용해 몰려오는 적을 막는 디펜스 게임입니다. 블록 배치 전략이 방어 효율을 결정합니다.",
+            "first_step": "기본 블록 배치 시스템과 적의 이동 경로(Pathfinding) 구현."
+          },
+          {
+            "title": "제한된 자원 생존기",
+            "concept": "매우 적은 자원으로 특정 시간 동안 생존해야 하는 챌린지 모드입니다. 자원 관리의 긴장감을 극대화합니다.",
+            "first_step": "자원 채집 및 소모 시스템과 타이머 기능 구현."
+          }
+        ],
+        "recommendation_ko": "샌드박스 게임의 기초인 데이터 구조와 물리 엔진 활용을 배우기에 좋습니다. 다만, 규모가 크므로 핵심 메커니즘 하나에 집중하는 것을 추천합니다.",
+        "source_limitations_ko": "멀티플레이어의 구체적인 구현 방식(서버 구조 등)이나 구체적인 블록 종류, 물리 엔진의 상세 사양은 설명문에서 확인할 수 없습니다.",
+        "name": "Block World - Craft City",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.diamond.city.house.best.building.craft.vip&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-26"
     }
   }
 }

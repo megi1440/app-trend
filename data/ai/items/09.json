@@ -7032,6 +7032,97 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-25"
+    },
+    "apple:6474598021": {
+      "app_key": "apple:6474598021",
+      "name": "Blood Pressure App-BP Tracker",
+      "developer": "AKRURA PTE. LTD",
+      "source": "apple",
+      "country": "US",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/us/app/blood-pressure-app-bp-tracker/id6474598021?uo=2",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-26T03:38:37+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Discover our Blood Pressure App — a must-have heart health companion for tracking your blood pressure, heart rate, blood sugar and oxygen saturation. Log and analyze your health data with precision to stay informed and make smart decisions. 1. Track Blood Pressure: Effortlessly log your systolic, diastolic, and heart rate with one tap! Our user-friendly interface features a large \"+\" button on every page, allowing you to log blood pressure anytime, anywhere. Say goodbye to the hassle of paper and pen! 2. Measure Heart Rate: Just place your finger on the camera to get accurate heart rate readings in seconds. Check pulse and detect irregular heartbeat anytime with the heart rate monitor. Stay proactive about your cardiovascular health and stress level. 3. Log Blood Sugar: Easily record blood sugar and track trends over time. Managing blood sugar has never been easier. 4. Record Oxygen Saturation: Track minor changes in your oxygen saturation and see how they relate to heart rate or other health metrics. 5. Intelligent Health Analysis: Log blood pressure, heart rate, and blood sugar see if your readings are within the normal range, helping you detect early signs of health issues like hypertension, heart attack, diabetes, and more. Monitor trends and fluctuations across all your vital signs for comprehensive and effective health management. 6. Health Insights & Tips: Discover plenty of practical health tips, covering topics like effective BP control, first aid for hypotension, and advice on healthy eating and exercise routines - almost everything you need to know. Utilize our curated resources to support you on your journey toward a healthier, happier life. 7. Clear & Intuitive Charts: Visualize your blood pressure, heart rate, and blood sugar progress through interactive graphs and charts! Easily track heartbeat, blood pressure, and blood sugar trends and gain insights into your patterns. 8. Customizable Tags: Tailor your health metrics tracking by noting the position (sitting, lying, etc.) and conditions (before/after meals, post-medication, etc.) during each measurement for effective health management. 9. Export & Share Full History: All heart rate, blood pressure, and blood sugar records are saved with exact date and time. Export health data as a CSV file and share it with your loved ones or doctor via email and more to maximize every medical appointment. Why Choose Blood Pressure App - Measure heart rate using camera - Log blood pressure, blood sugar, and oxygen saturation - Keep your stress levels under control - Analyze health trends through intuitive charts, and export as CSV - User-friendly interface - Science-backed health articles and insightful tips - Tag and comment on your measurements Disclaimer · Our app is not intended to serve as a medical device and should not be used to measure blood pressure or diagnose heart disease. · Our app is not intended for a medical emergency. If you have any health concerns, please consult your doctor. · Our app is designed for fitness and general wellness purposes only, NOT INTENDED FOR MEDICAL DIAGNOSIS. · Our app may cause the LED flash hot. · We prioritize your privacy. Rest assured, all your data is securely protected. Check our links below: Privacy Policy: https://akrura.ltd/privacypolicy.html?pkg=com.akrura.bloodpressure.health.monitor.app Terms of Use: https://akrura.ltd/terms.html?pkg=com.akrura.bloodpressure.health.monitor.app For feedback & suggestions, feel free to reach out to us at bptracker.feedback@gmail.com. Get the Blood Pressure App now and experience the next-level blood pressure management at no cost! Take control, stay informed, and make proactive decisions for a healthier lifestyle. Your journey to optimal health begins here!",
+      "analysis": {
+        "app_key": "apple:6474598021",
+        "summary_ko": "혈압, 심박수, 혈당, 산소 포화도 등 주요 건강 지표를 기록하고 관리하는 건강 관리 앱입니다. 사용자는 측정값을 수동으로 입력하거나 카메라를 통해 심박수를 측정할 수 있습니다. 기록된 데이터는 차트로 시각화되어 건강 추이를 파악하는 데 도움을 줍니다.",
+        "features_ko": [
+          "수축기 및 이완기 혈압과 심박수를 수동으로 기록할 수 있습니다.",
+          "스마트폰 카메라를 활용해 심박수를 측정할 수 있습니다.",
+          "혈당 및 산소 포화도 수치를 기록하고 추적할 수 있습니다.",
+          "측정 데이터에 앉은 자세나 식사 여부 등 상황별 태그를 추가할 수 있습니다.",
+          "기록된 건강 데이터를 CSV 파일로 내보내거나 공유할 수 있습니다."
+        ],
+        "noteworthy_ko": "사용자가 직접 데이터를 입력하는 방식과 카메라 센서를 활용한 측정 방식을 결합한 점이 특징입니다. 데이터 시각화와 태그 기능을 통해 단순 기록을 넘어 건강 패턴을 분석하려는 시도가 돋보입니다.",
+        "development_ko": "카메라를 이용한 심박수 측정 알고리즘 구현이 기술적 핵심입니다. 데이터베이스 설계 시 다양한 건강 지표를 시계열로 관리하는 구조가 필요하며, 차트 라이브러리를 활용한 시각화 구현이 중요합니다. 의료 기기가 아님을 명시하는 면책 조항과 개인정보 보호 처리가 필수적입니다.",
+        "idea_ko": "특정 건강 지표가 악화될 때 사용자에게 맞춤형 생활 습관 개선 알림을 보내는 '건강 루틴 코칭' 기능이 적합합니다.",
+        "highlights_ko": [
+          "사용자 친화적인 인터페이스를 위해 모든 페이지에 큰 '+' 버튼을 배치했습니다.",
+          "측정 상황을 세분화할 수 있는 커스텀 태그 기능을 제공합니다."
+        ],
+        "systems_ko": [
+          "사용자 데이터 로컬 저장소",
+          "시계열 데이터 차트 시각화",
+          "카메라 센서 데이터 처리",
+          "데이터 내보내기(CSV) 기능",
+          "사용자 설정 및 알림 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "데이터 관리와 차트 구현은 표준적이나, 카메라를 이용한 심박수 측정의 정확도 확보와 안정적인 데이터 동기화 처리에 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "혈압 및 심박수 수동 기록 기능",
+            "데이터 시각화 차트",
+            "데이터 로컬 저장 및 관리"
+          ],
+          "defer": [
+            "카메라 심박수 측정",
+            "CSV 내보내기",
+            "건강 팁 콘텐츠 제공"
+          ],
+          "risks": [
+            "의료 기기 오인 가능성에 따른 법적 책임",
+            "데이터 입력의 번거로움으로 인한 사용자 이탈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "건강 일기 챌린지",
+            "concept": "매일 기록을 달성하면 캐릭터가 성장하는 게임 요소를 도입합니다. 기록을 잊지 않도록 동기를 부여합니다.",
+            "first_step": "기록 횟수에 따라 변화하는 간단한 UI 상태값 구현하기."
+          },
+          {
+            "title": "가족 건강 공유망",
+            "concept": "측정 데이터를 가족 구성원에게 자동으로 공유하여 서로의 건강 상태를 확인합니다. 고령층 보호에 유용합니다.",
+            "first_step": "데이터 공유를 위한 간단한 클라우드 API 연동 테스트."
+          }
+        ],
+        "recommendation_ko": "데이터베이스 설계와 시각화 라이브러리 활용법을 배우기에 좋습니다. 다만, 의료 관련 앱은 신뢰성이 중요하므로 기능 구현보다 데이터 정확도와 보안에 집중해야 합니다.",
+        "source_limitations_ko": "설명문에 명시된 카메라 심박수 측정의 기술적 원리나 데이터 보안의 구체적인 구현 방식은 확인되지 않습니다. 외부 의료 기기 연동 여부도 알 수 없습니다.",
+        "name": "Blood Pressure App-BP Tracker",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/blood-pressure-app-bp-tracker/id6474598021?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 183,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-26"
     }
   }
 }

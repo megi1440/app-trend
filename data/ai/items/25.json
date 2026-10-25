@@ -7599,6 +7599,182 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-25"
+    },
+    "apple:6815765181": {
+      "app_key": "apple:6815765181",
+      "name": "알림함: 지난 알림 다시 보기",
+      "developer": "HAKJAE KIM",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%95%8C%EB%A6%BC%ED%95%A8-%EC%A7%80%EB%82%9C-%EC%95%8C%EB%A6%BC-%EB%8B%A4%EC%8B%9C-%EB%B3%B4%EA%B8%B0/id6815765181?uo=2",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-26T03:36:46+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "실수로 지운 알림, 확인하기 전에 사라진 알림, 이제 알림함에서 다시 볼 수 있어요. 알림함은 iOS 27의 단축어 '알림' 자동화를 이용해, 받은 알림을 내 iPhone에 차곡차곡 보관해요. 한 번만 설정하면 이후 도착하는 알림이 자동으로 쌓여요. 주요 기능 • 타임라인: 받은 알림을 날짜별로 한눈에 모아 봐요. • 검색: 앱 이름, 제목, 본문으로 지난 알림을 바로 찾아요. • 날짜·앱 필터: 특정 날짜나 특정 앱의 알림만 골라 봐요. • 앱 아이콘: 어느 앱에서 온 알림인지 아이콘으로 바로 알아봐요. • 라이트·다크 테마, 한국어·영어를 지원해요. 설정은 한 번이면 끝나요 1. 앱의 설정 탭에서 '단축어 추가'를 눌러 단축어를 추가해요. 2. 추가된 단축어에서 알림을 기록할 앱을 골라요. 3. 자동화를 켜면 끝이에요. (테스트 알림으로 설정이 잘 되었는지 바로 확인할 수 있어요.) 내 알림은 내 iPhone에만 • 알림 기록은 기기 안에만 저장돼요. • 계정, 광고, 추적이 없어요. • 알림 내용을 서버로 보내지 않아요. 알아 두세요 • iOS 27 이상에서 쓸 수 있어요. • 단축어 자동화에 추가한 앱의 알림만 기록돼요. 새로 설치한 앱은 단축어에 직접 추가해 주세요. • 알림함을 설치하고 자동화를 켠 이후에 도착한 알림부터 기록돼요. 문의: hakjae.dev@gmail.com",
+      "analysis": {
+        "app_key": "apple:6815765181",
+        "summary_ko": "알림함은 iOS의 단축어 자동화 기능을 활용하여 놓친 알림을 기록하고 다시 볼 수 있게 해주는 유틸리티 앱입니다. 사용자가 선택한 앱의 알림을 기기 내에 저장하여 타임라인 형태로 제공하며, 검색 및 필터링 기능을 지원합니다. 모든 데이터는 기기 내에만 저장되어 개인정보 보호가 강화되어 있습니다.",
+        "features_ko": [
+          "iOS 단축어 자동화를 통한 알림 기록 및 보관.",
+          "날짜별 타임라인을 통한 알림 모아보기.",
+          "앱 이름, 제목, 본문 기반의 알림 검색.",
+          "날짜 및 앱별 알림 필터링.",
+          "기기 내 로컬 저장으로 데이터 보안 유지."
+        ],
+        "noteworthy_ko": "iOS의 기본 기능인 '단축어'를 활용하여 시스템의 한계를 극복한 점이 매우 영리합니다. 별도의 서버 없이 기기 내 저장만으로 기능을 구현하여 사용자에게 신뢰를 주는 전략이 돋보입니다.",
+        "development_ko": "핵심은 iOS 단축어와 앱 간의 데이터 전달 체계입니다. 알림 데이터를 효율적으로 저장하고 검색하기 위한 로컬 데이터베이스(Core Data 등) 설계가 필요합니다. UI는 알림의 타임라인을 직관적으로 보여주는 리스트 뷰 구현이 주된 작업입니다.",
+        "idea_ko": "기록된 알림 중 중요한 키워드를 자동으로 요약해주는 '알림 요약 리포트' 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "단축어 자동화를 활용한 시스템 확장.",
+          "로컬 저장 방식의 개인정보 보호."
+        ],
+        "systems_ko": [
+          "로컬 데이터베이스(Core Data/SwiftData)",
+          "단축어 데이터 수신 인터페이스",
+          "검색 및 필터링 로직",
+          "UI 타임라인 렌더링"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "iOS의 표준 API와 단축어 기능을 활용하므로 복잡한 네트워크나 서버 구현이 필요 없습니다. 데이터 저장과 리스트 UI 구현만으로도 충분히 완성도 있는 앱을 만들 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "알림 데이터 저장 기능",
+            "타임라인 리스트 뷰"
+          ],
+          "defer": [
+            "고급 검색 필터",
+            "다양한 테마 설정"
+          ],
+          "risks": [
+            "iOS 단축어 설정의 복잡성으로 인한 사용자 이탈",
+            "알림 데이터 누적에 따른 저장 공간 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "알림 요약 리포트",
+            "concept": "하루 동안 쌓인 알림을 분석하여 중요한 내용만 요약해줍니다. 정보 과부하를 줄이는 데 도움을 줍니다.",
+            "first_step": "저장된 알림 텍스트를 추출하여 간단한 키워드 빈도수를 계산하는 기능 구현."
+          },
+          {
+            "title": "알림 기반 자동 작업",
+            "concept": "특정 키워드가 포함된 알림이 오면 자동으로 다른 앱을 실행하거나 메모를 남기는 자동화 트리거를 제공합니다.",
+            "first_step": "알림 본문에서 특정 단어를 감지하여 알림을 띄우는 기본 로직 구현."
+          }
+        ],
+        "recommendation_ko": "iOS의 기본 기능을 활용하여 실용적인 도구를 만드는 과정을 배우기에 최적입니다. 복잡한 기술보다는 사용자의 불편함을 해결하는 아이디어 중심의 개발을 선호하는 분께 추천합니다.",
+        "source_limitations_ko": "소개문에는 단축어 자동화 설정의 구체적인 단계가 명시되어 있지 않습니다. 실제 구현 시 iOS 버전별 단축어 제약 사항을 반드시 확인해야 합니다.",
+        "name": "알림함: 지난 알림 다시 보기",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%95%8C%EB%A6%BC%ED%95%A8-%EC%A7%80%EB%82%9C-%EC%95%8C%EB%A6%BC-%EB%8B%A4%EC%8B%9C-%EB%B3%B4%EA%B8%B0/id6815765181?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 228,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 4,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-26"
+    },
+    "apple:1538487382": {
+      "app_key": "apple:1538487382",
+      "name": "Exponential Idle",
+      "developer": "Gilles-Philippe Paille",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_simulation",
+      "detail_url": "https://apps.apple.com/kr/app/exponential-idle/id1538487382?uo=2",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-26T03:37:37+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Play Exponential Idle, a math-inspired incremental game. Your goal is to stack up money by taking advantage of exponential growth. To do so, you have to step through time by tapping the equation or simply let the time follow its course. You can perform change of variables to accelerate the process, buy upgrades, get rewards, and unlock achievements while earning virtual money.",
+      "analysis": {
+        "app_key": "apple:1538487382",
+        "summary_ko": "Exponential Idle은 수학적 개념을 활용한 점진적 시뮬레이션 게임입니다. 플레이어는 방정식을 탭하거나 시간이 흐름에 따라 지수적으로 증가하는 가상 화폐를 축적합니다. 변수 변경, 업그레이드 구매, 업적 달성을 통해 효율을 극대화하는 경험을 제공합니다.",
+        "features_ko": [
+          "방정식을 탭하여 가상 화폐를 획득하는 기본 메커니즘을 제공합니다.",
+          "시간이 지남에 따라 자동으로 화폐가 증가하는 시스템을 갖추고 있습니다.",
+          "변수 변경을 통해 화폐 증가 속도를 가속화할 수 있습니다.",
+          "다양한 업그레이드와 업적 시스템을 통해 성취감을 제공합니다."
+        ],
+        "noteworthy_ko": "수학적 공식을 게임의 핵심 성장 동력으로 삼은 점이 독특합니다. 단순한 클릭커 게임에 지수 성장이라는 개념을 결합하여 수치적 쾌감을 극대화한 설계가 흥미롭습니다.",
+        "development_ko": "핵심 기술은 수치 연산 및 UI 갱신 루프입니다. 콘텐츠 제작 부담은 낮으나, 수치 인플레이션을 조절하는 밸런스 설계가 중요합니다. 테스트 시 매우 큰 수치(BigInt 등) 처리와 UI 가독성 확보가 핵심입니다.",
+        "idea_ko": "특정 수학적 패턴을 완성하면 보너스를 주는 '수식 퍼즐' 요소를 추가하는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "수학적 지수 성장을 게임의 핵심 재미 요소로 시각화했습니다.",
+          "복잡한 계산 없이도 성장의 흐름을 직관적으로 즐길 수 있습니다."
+        ],
+        "systems_ko": [
+          "수치 연산 및 데이터 관리 시스템",
+          "시간 기반 자동 갱신 루프",
+          "업그레이드 및 변수 관리 UI",
+          "업적 및 보상 데이터베이스"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "복잡한 그래픽이나 물리 엔진이 필요 없으며, 수치 데이터 처리 위주의 로직으로 구성됩니다. 1인 개발자가 핵심 메커니즘을 구현하기에 매우 적합한 구조입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "방정식 기반 화폐 증가 로직",
+            "업그레이드 구매 UI",
+            "데이터 저장 시스템"
+          ],
+          "defer": [
+            "복잡한 업적 시스템",
+            "클라우드 동기화"
+          ],
+          "risks": [
+            "수치 오버플로우 문제",
+            "단조로운 게임 플레이로 인한 조기 이탈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "수식 퍼즐 모드",
+            "concept": "주어진 결과값을 만들기 위해 연산자를 조합하는 퍼즐입니다. 점진적 성장과 논리적 사고를 결합합니다.",
+            "first_step": "연산자 버튼을 눌러 목표 숫자를 만드는 간단한 UI 구현."
+          },
+          {
+            "title": "지수 성장 시각화",
+            "concept": "화폐가 증가함에 따라 배경의 기하학적 패턴이 복잡해지는 시각적 보상을 제공합니다.",
+            "first_step": "화폐 값에 따라 변하는 파티클 효과 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 중심의 게임 설계와 수치 밸런싱을 배우기에 최적입니다. 복잡한 리소스 없이도 게임의 핵심 재미를 만드는 법을 익힐 수 있어 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 수식의 종류나 데이터 저장 방식, 외부 광고 연동 여부가 명시되어 있지 않습니다.",
+        "name": "Exponential Idle",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/exponential-idle/id1538487382?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 213,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 9,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-26"
     }
   }
 }

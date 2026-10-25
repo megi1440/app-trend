@@ -7699,6 +7699,183 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-25"
+    },
+    "google:luminix.lplp.luminixpdf": {
+      "app_key": "google:luminix.lplp.luminixpdf",
+      "name": "Luminix PDF",
+      "developer": "ARRA PACKS LLP",
+      "source": "google",
+      "country": "KR",
+      "category": "app_productivity",
+      "detail_url": "https://play.google.com/store/apps/details?id=luminix.lplp.luminixpdf&hl=ko&gl=KR",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-26T03:38:37+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Luminix PDF는 모바일 기기에 최적화된 강력한 PDF 툴킷입니다. 스캔, 변환, 분할, 병합, 주석 달기, 잠금 등 모든 작업을 스마트폰에서 간편하게 수행하세요. 주요 기능 📷 스캔하여 PDF로 변환 종이 문서를 선명한 PDF 파일로 빠르게 스캔합니다. 🖼️ 이미지 PDF로 변환 사진과 이미지를 몇 초 만에 PDF 파일로 변환합니다. ✂️ PDF 분할 페이지를 추출하거나 대용량 PDF 파일을 작은 파일로 분할합니다. 📑 PDF 병합 여러 PDF 파일을 하나의 파일로 간편하게 병합합니다. ✏️ PDF 편집 자유로운 그림 그리기, 취소선, 밑줄 긋기 등 PDF에 다양한 마크업을 추가할 수 있습니다. 🔒 PDF 잠금 비밀번호를 설정하여 중요한 파일을 안전하게 보호하세요. Luminix PDF Pro를 선택해야 하는 이유 Luminix PDF는 스캔, 변환, 분할, 병합, 주석 달기, 잠금 등 사용자가 실제로 사용하는 PDF 도구에 집중하여 빠르고 가볍게 제공합니다. 학생이 필기를 정리하든, 전문가가 계약서를 처리하든, 아니면 단순히 영수증을 보관하든, 안드로이드 기기에서 믿고 사용할 수 있는 PDF 도우미입니다.",
+      "analysis": {
+        "app_key": "google:luminix.lplp.luminixpdf",
+        "summary_ko": "모바일 기기에서 PDF 문서를 관리하고 편집하는 생산성 도구입니다. 스캔, 변환, 분할, 병합, 주석 달기, 보안 설정 등 다양한 기능을 제공합니다. 스마트폰 환경에 최적화되어 있습니다.",
+        "features_ko": [
+          "종이 문서를 스캔하여 PDF 파일로 변환할 수 있습니다.",
+          "이미지 파일을 PDF로 변환할 수 있습니다.",
+          "PDF 파일을 분할하거나 여러 파일을 하나로 병합할 수 있습니다.",
+          "PDF 문서에 그림 그리기, 밑줄 긋기 등 마크업을 추가할 수 있습니다.",
+          "비밀번호를 설정하여 PDF 파일을 보호할 수 있습니다."
+        ],
+        "noteworthy_ko": "PDF 작업에 필요한 핵심 기능을 하나의 앱에 통합하여 사용자의 생산성을 높이는 데 집중하고 있습니다. 학생부터 전문가까지 폭넓은 사용자층을 타겟팅합니다.",
+        "development_ko": "PDF 렌더링 및 편집 라이브러리 활용이 핵심입니다. 이미지 처리 및 스캔 기능을 위한 카메라 연동과 파일 시스템 접근 권한 처리가 필요합니다. 다양한 PDF 규격에 대응하는 안정적인 파일 변환 로직이 중요합니다.",
+        "idea_ko": "문서 내 텍스트를 자동으로 요약하거나 번역해주는 AI 기반 문서 분석 기능이 적합합니다.",
+        "highlights_ko": [
+          "스캔부터 보안까지 PDF 관련 필수 기능을 한곳에서 처리합니다.",
+          "모바일 환경에 맞춘 가볍고 빠른 성능을 지향합니다."
+        ],
+        "systems_ko": [
+          "PDF 렌더링 및 편집 엔진",
+          "이미지 처리 및 스캔 모듈",
+          "파일 시스템 관리",
+          "보안 및 암호화 모듈"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "PDF 파일 구조는 매우 복잡하며, 편집 및 변환 시 레이아웃이 깨지지 않게 처리하는 것은 고도의 기술적 숙련도를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "PDF 병합 및 분할 기능",
+            "기본적인 주석 달기 기능"
+          ],
+          "defer": [
+            "고급 스캔 보정 기능",
+            "OCR(광학 문자 인식) 기능"
+          ],
+          "risks": [
+            "PDF 라이브러리 의존성 문제",
+            "복잡한 문서 레이아웃 처리 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "문서 자동 분류기",
+            "concept": "스캔한 문서의 내용을 분석하여 영수증, 계약서, 메모 등으로 자동 분류합니다.",
+            "first_step": "이미지 내 텍스트를 추출하는 간단한 OCR 라이브러리 연동."
+          },
+          {
+            "title": "PDF 협업 메모",
+            "concept": "공유된 PDF 문서에 여러 사용자가 실시간으로 주석을 달고 대화할 수 있습니다.",
+            "first_step": "실시간 데이터 동기화를 위한 Firebase 연동."
+          }
+        ],
+        "recommendation_ko": "파일 처리와 라이브러리 활용 능력을 키우고 싶은 개발자에게 추천합니다. PDF 관련 기술은 실무에서 활용도가 매우 높습니다.",
+        "source_limitations_ko": "사용된 PDF 엔진의 종류나 스캔 시 이미지 보정 알고리즘에 대한 정보는 없습니다.",
+        "name": "Luminix PDF",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=luminix.lplp.luminixpdf&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 180,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 20,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-26"
+    },
+    "google:com.kayac.DrawFight": {
+      "app_key": "google:com.kayac.DrawFight",
+      "name": "Draw Action: フリースタイルバトル",
+      "developer": "KAYAC Inc.",
+      "source": "google",
+      "country": "JP",
+      "category": "game_action",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.kayac.DrawFight&hl=ja&gl=JP",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-26T03:40:57+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "引いた線の形によって、さまざまな攻撃パターンが発動します。 より効率的に敵を倒すために、いろんな攻撃パターンをゲットしましょう！ ステージは水に囲まれています。 水に落ちたら負けです。 このゲームではいろんなステージでプレイできます！ ときには車が近づいてきたり、ときには飛行機の上で戦ったり。 敵はやみくもにあなたを攻撃してきます。 あなたはダメージを負うことなく、クリアできるでしょうか？",
+      "analysis": {
+        "app_key": "google:com.kayac.DrawFight",
+        "summary_ko": "이 게임은 화면에 그린 선의 모양에 따라 공격 패턴이 달라지는 액션 게임입니다. 플레이어는 다양한 스테이지에서 적을 물리쳐야 하며, 물에 빠지지 않도록 주의해야 합니다. 차량이나 비행기 위 등 변화하는 환경에서 전투를 진행합니다.",
+        "features_ko": [
+          "그린 선의 형태에 따라 다양한 공격 패턴이 발동됩니다.",
+          "물에 빠지면 패배하는 규칙을 통해 긴장감을 유지합니다.",
+          "차량, 비행기 등 다양한 환경에서 전투가 진행됩니다.",
+          "적의 공격을 피하며 스테이지를 클리어해야 합니다."
+        ],
+        "noteworthy_ko": "입력 방식(그리기)과 게임 액션(공격)을 직접적으로 연결한 점이 매우 직관적입니다. 선의 모양을 인식하는 알고리즘과 물리 엔진의 상호작용이 개발의 핵심일 것으로 추정됩니다.",
+        "development_ko": "사용자 입력(선 그리기)을 좌표 데이터로 변환하고 이를 공격 패턴과 매칭하는 로직이 핵심입니다. 다양한 환경에 따른 물리적 상호작용 테스트가 필요하며, 공격 패턴의 밸런스 조정이 중요합니다.",
+        "idea_ko": "그린 선의 모양이 공격뿐만 아니라 이동 경로가 되는 '그리기 액션 퍼즐'로 확장하는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "그리기라는 직관적인 조작을 전투 메커니즘으로 활용했습니다.",
+          "환경 변화를 통해 매번 새로운 전투 경험을 제공합니다."
+        ],
+        "systems_ko": [
+          "입력 좌표 인식 및 패턴 매칭",
+          "물리 엔진 기반 전투",
+          "스테이지 환경 관리",
+          "적 AI 및 공격 로직"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "핵심 메커니즘이 명확하고 구현 범위가 제한적입니다. 선 인식 알고리즘만 해결된다면 1인 개발로 충분히 완성도 있는 결과물을 만들 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "선 그리기 입력 시스템",
+            "선 모양에 따른 공격 패턴 2~3종",
+            "기본 물리 환경"
+          ],
+          "defer": [
+            "다양한 스테이지 환경",
+            "복잡한 적 AI",
+            "고급 그래픽 효과"
+          ],
+          "risks": [
+            "선 인식 알고리즘의 정확도 문제",
+            "공격 패턴 간의 밸런스 불균형"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "드로우 디펜스",
+            "concept": "그린 선이 방어막이 되어 적의 투사체를 막는 디펜스 게임입니다. 선의 길이에 따라 방어 시간이 달라집니다.",
+            "first_step": "선 그리기 입력 및 충돌 판정 구현."
+          },
+          {
+            "title": "라인 레이서",
+            "concept": "그린 선을 따라 캐릭터가 이동하며 장애물을 피하는 레이싱 게임입니다.",
+            "first_step": "그린 선을 따라 이동하는 캐릭터 컨트롤러 제작."
+          }
+        ],
+        "recommendation_ko": "입력 방식과 게임 플레이를 창의적으로 연결하는 방법을 배우기에 매우 좋습니다. 개인 개발자가 시도하기에 적절한 규모와 재미 요소를 갖추고 있습니다.",
+        "source_limitations_ko": "선의 모양을 인식하는 구체적인 알고리즘이나 물리 엔진의 종류, 적의 공격 패턴 데이터는 설명문에서 확인할 수 없습니다.",
+        "name": "Draw Action: フリースタイルバトル",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.kayac.DrawFight&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-26"
     }
   }
 }
