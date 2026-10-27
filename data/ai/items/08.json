@@ -8763,6 +8763,97 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-27"
+    },
+    "apple:317469184": {
+      "app_key": "apple:317469184",
+      "name": "ESPN: Live Sports & Scores",
+      "developer": "Disney",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/espn-live-sports-scores/id317469184",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T09:53:52+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "All of ESPN. All in One Place. Introducing our brand-new streaming offering that gives you everything ESPN has to offer in one place. Get ESPN, ESPN2, ESPNU, SECN, ACCN, ESPNEWS, ESPN+, ESPN Deportes, and ESPN on ABC content. Stream thousands of live events, studio shows, sports documentaries, and on-demand content from the ESPN networks. Get real-time scores, breaking news, expert analysis — all in one place. What You Can Watch on ESPN NFL (Monday Night Football) | NBA | MLB | NHL | College Sports | Golf | Soccer | Tennis (Grand Slams) | Sports Documentaries (30 for 30s, ESPN Originals, E60s) | Shows (SportsCenter, GetUp, First Take, College Gameday & more) Game-Changing Features New Ways to Explore – Discover personalized content, top games, and trending highlights faster than ever. SC For You – A SportsCenter with personalized highlights for you in the ESPN App. Every single day. Streamcenter – Watch live games on your TV and engage in real time with your phone. Stay Connected to the Action Fast scores, real-time updates, and breaking news for your favorite teams and leagues. Listen live to ESPN Radio & your favorite ESPN Podcasts. Stream ESPN, ESPN2, ESPNU, SECN, ACCN, and more. Some content availability may vary by region. For specific questions, please visit the ESPN FAQ at support.espn.com. See which plan is right for you! Download the ESPN App now and experience the future of sports streaming with ESPN! Certain content requires a paid subscription. ESPN Select includes ESPN+ only; ESPN Unlimited includes all ESPN networks and services, including ESPN+. Content subject to change. For personal and non-commercial use only. Blackouts and other terms & restrictions apply. Terms of Use - https://disneytermsofuse.com/ Privacy Policy - http://www.disneyprivacycenter.com Your California Privacy Rights - https://privacy.thewaltdisneycompany.com/en/current-privacy-policy/your-california-privacy-rights/ Do Not Sell My Information - https://privacy.thewaltdisneycompany.com/en/dnsmi Before you download this app, please consider that it includes advertising, some of which may be targeted to your interests., . Please note: This app features Nielsen's proprietary measurement software which will allow you to contribute to market research, like Nielsen's TV Ratings. Please see www.nielsen.com/digitalprivacy for more information. You may also visit Settings in the app to opt out of Nielsen measurement.",
+      "analysis": {
+        "app_key": "apple:317469184",
+        "summary_ko": "ESPN 앱은 스포츠 뉴스, 실시간 점수, 경기 분석 및 라이브 스트리밍을 통합 제공하는 스포츠 플랫폼입니다. 사용자는 다양한 ESPN 네트워크의 콘텐츠를 시청하고 자신이 좋아하는 팀의 최신 소식을 실시간으로 확인할 수 있습니다. 개인화된 하이라이트 기능을 통해 사용자 맞춤형 스포츠 경험을 제공합니다.",
+        "features_ko": [
+          "실시간 경기 점수와 주요 스포츠 뉴스를 즉각적으로 업데이트하여 제공합니다.",
+          "ESPN 네트워크의 라이브 이벤트와 스튜디오 쇼를 앱 내에서 직접 스트리밍합니다.",
+          "사용자의 선호도를 반영한 개인화된 하이라이트 영상(SC For You)을 제공합니다.",
+          "ESPN 라디오 및 팟캐스트를 앱 내에서 청취할 수 있습니다.",
+          "실시간 경기 시청과 동시에 앱 내에서 정보를 확인하는 멀티태스킹 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "단순한 영상 시청을 넘어 실시간 점수 데이터와 영상 콘텐츠를 결합한 하이브리드 플랫폼입니다. 데이터 피드와 영상 스트리밍을 동기화하여 사용자에게 끊김 없는 정보를 제공하는 것이 핵심입니다.",
+        "development_ko": "실시간 스포츠 데이터 API와의 연동 및 대규모 트래픽 처리가 중요합니다. 사용자 맞춤형 콘텐츠 추천 알고리즘을 구현해야 하며, 다양한 기기에서 일관된 사용자 경험을 제공하기 위한 UI/UX 최적화가 필요합니다.",
+        "idea_ko": "특정 스포츠 종목의 실시간 통계와 하이라이트를 결합한 개인화된 스포츠 대시보드 앱.",
+        "highlights_ko": [
+          "실시간 점수와 라이브 스트리밍의 통합 인터페이스.",
+          "사용자 관심사 기반의 개인화된 콘텐츠 추천 시스템."
+        ],
+        "systems_ko": [
+          "실시간 데이터 피드 연동 시스템",
+          "사용자 프로필 및 선호도 관리 시스템",
+          "영상 스트리밍 및 재생 제어 시스템",
+          "푸시 알림 서비스",
+          "콘텐츠 추천 알고리즘"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 데이터 피드와 스트리밍 서비스를 안정적으로 운영하려면 고도의 서버 인프라가 필요합니다. 또한 방대한 스포츠 데이터를 실시간으로 처리하고 사용자에게 맞춤형으로 제공하는 로직은 1인 개발자가 구현하기에 매우 복잡합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "스포츠 뉴스 및 점수 표시 기능",
+            "팀 팔로우 및 알림 설정",
+            "외부 영상 링크 연결"
+          ],
+          "defer": [
+            "자체 라이브 스트리밍 서버 구축",
+            "복잡한 추천 알고리즘",
+            "라디오/팟캐스트 재생"
+          ],
+          "risks": [
+            "데이터 제공 API의 비용 및 사용 제한",
+            "실시간 데이터 업데이트 지연 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "나만의 스포츠 뉴스 피드",
+            "concept": "여러 스포츠 매체의 RSS 피드를 수집하여 사용자가 선택한 팀의 소식만 모아서 보여주는 뉴스 리더 앱입니다.",
+            "first_step": "RSS 파싱 라이브러리를 사용하여 특정 스포츠 뉴스 사이트의 헤드라인을 가져와 리스트로 출력하는 기능 구현."
+          },
+          {
+            "title": "경기 결과 예측 기록기",
+            "concept": "사용자가 경기 결과를 미리 예측하고 실제 결과와 비교하여 적중률을 기록하는 게임형 앱입니다.",
+            "first_step": "경기 일정 데이터를 입력하고 사용자의 예측값을 저장한 뒤, 결과 입력 시 점수를 계산하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "개인 개발자는 스포츠 데이터 API를 활용하여 정보를 가공하고 시각화하는 연습을 하기에 좋은 모델입니다. 직접적인 스트리밍 서비스보다는 데이터 기반의 정보 제공 서비스로 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 데이터 제공처의 API 명세, 광고 타겟팅 알고리즘의 구체적 방식, Nielsen 측정 소프트웨어의 상세 동작 원리 등이 명시되어 있지 않습니다.",
+        "name": "ESPN: Live Sports & Scores",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/espn-live-sports-scores/id317469184",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 96,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
     }
   }
 }
