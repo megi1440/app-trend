@@ -9108,6 +9108,541 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-27"
+    },
+    "itch:cd3ec78bc407a823844d": {
+      "app_key": "itch:cd3ec78bc407a823844d",
+      "name": "Rango de Control [Free] [Other]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://skul-ners.itch.io/rango-de-control",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:14:05+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Minijuego educativo para concienciar sobre la Diabetes Tipo 1. Diseñado como complemento para charlas.",
+      "analysis": {
+        "app_key": "itch:cd3ec78bc407a823844d",
+        "summary_ko": "Rango de Control은 제1형 당뇨병에 대한 인식을 높이기 위해 설계된 교육용 미니게임입니다. 교육적 목적의 보조 도구로 활용되도록 제작되었습니다.",
+        "features_ko": [
+          "제1형 당뇨병에 대한 정보를 전달하는 교육적 콘텐츠를 포함합니다.",
+          "사용자가 게임을 통해 당뇨병 관리 상황을 이해하도록 돕습니다."
+        ],
+        "noteworthy_ko": "특정 질환에 대한 인식을 개선하기 위해 게임이라는 매체를 활용한 점이 돋보입니다. 교육용 도구로서의 명확한 목적성이 개발 방향을 설정하는 데 큰 도움이 됩니다.",
+        "development_ko": "질환에 대한 정확한 정보 전달이 최우선이며, 사용자가 쉽게 이해할 수 있는 UI/UX 설계가 중요합니다. 교육적 내용과 게임 규칙의 결합이 자연스러워야 하며, 의료 정보의 정확성을 검증해야 합니다.",
+        "idea_ko": "일상생활 속에서 혈당을 관리하는 상황을 시뮬레이션하는 텍스트 기반의 교육용 어드벤처 게임을 추천합니다.",
+        "highlights_ko": [
+          "제1형 당뇨병 인식 개선을 위한 교육용 미니게임입니다.",
+          "강연이나 교육 현장에서 보조 도구로 활용 가능합니다."
+        ],
+        "systems_ko": [
+          "교육용 텍스트/이미지 출력 시스템",
+          "사용자 선택지 및 결과 피드백 시스템",
+          "간단한 상태 관리(혈당 수치 등)"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "복잡한 물리 엔진이나 그래픽이 필요 없는 미니게임 형태이므로 1인 개발자가 구현하기에 매우 적합합니다. 정보 전달이 핵심이므로 기술적 난이도는 낮습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "핵심 교육 메시지 전달 기능",
+            "사용자 선택에 따른 결과 화면",
+            "간단한 UI"
+          ],
+          "defer": [
+            "복잡한 애니메이션",
+            "멀티플레이어 기능",
+            "고해상도 그래픽"
+          ],
+          "risks": [
+            "의료 정보의 부정확성",
+            "교육적 흥미 부족",
+            "사용자 참여도 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "당뇨 관리 시뮬레이터",
+            "concept": "하루 동안의 식사와 운동을 선택하여 혈당을 정상 범위로 유지하는 게임입니다. 선택에 따른 혈당 변화를 시각적으로 보여줍니다.",
+            "first_step": "식사 선택에 따른 혈당 수치 변화 로직 구현."
+          },
+          {
+            "title": "당뇨 상식 퀴즈 게임",
+            "concept": "제1형 당뇨병에 관한 퀴즈를 풀며 정보를 배우는 게임입니다. 정답을 맞힐 때마다 캐릭터가 건강해지는 연출을 넣습니다.",
+            "first_step": "퀴즈 데이터베이스와 정답 판정 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "교육용 게임의 기획과 정보 전달 방식을 배우기에 좋습니다. 사회적 가치를 담은 게임을 만들고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 규칙이나 교육 내용이 소개문에 명시되지 않았습니다. 의료 정보의 정확성을 검증할 수 있는 외부 자료가 필요합니다.",
+        "name": "Rango de Control [Free] [Other]",
+        "source": "itch",
+        "detail_url": "https://skul-ners.itch.io/rango-de-control",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 374,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "itch:c4e44e9f77086ab98c25": {
+      "app_key": "itch:c4e44e9f77086ab98c25",
+      "name": "Hissfit [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://samerahmed.itch.io/hissfit",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:14:05+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "The snake game that hisses back. Eat, grow, don't crash.",
+      "analysis": {
+        "app_key": "itch:c4e44e9f77086ab98c25",
+        "summary_ko": "Hissfit은 뱀 게임의 변형으로, 먹이를 먹고 몸길이를 늘리는 규칙을 가집니다. 충돌을 피하며 최대한 길게 성장하는 것이 목표입니다.",
+        "features_ko": [
+          "먹이를 먹으면 몸이 길어지는 뱀 게임의 기본 규칙을 따릅니다.",
+          "벽이나 자신의 몸에 충돌하면 게임이 종료되는 규칙을 가집니다."
+        ],
+        "noteworthy_ko": "고전적인 뱀 게임에 'hisses back'이라는 표현을 사용하여 독특한 분위기를 암시합니다. 단순한 규칙 속에서 긴장감을 어떻게 유도했는지 분석하는 것이 흥미롭습니다.",
+        "development_ko": "뱀의 이동 로직과 몸길이 증가에 따른 배열 관리, 충돌 판정이 핵심입니다. 단순한 게임인 만큼 조작감과 속도감의 밸런스를 맞추는 것이 중요합니다.",
+        "idea_ko": "뱀이 길어질수록 조작이 반전되거나 속도가 변하는 등 변칙적인 규칙을 추가한 뱀 게임을 추천합니다.",
+        "highlights_ko": [
+          "고전 뱀 게임의 규칙을 계승한 액션 게임입니다.",
+          "성장과 충돌 회피라는 명확한 목표를 가집니다."
+        ],
+        "systems_ko": [
+          "뱀 이동 및 몸길이 관리 시스템",
+          "먹이 생성 및 충돌 판정 시스템",
+          "게임 오버 및 점수 기록 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "가장 기본적인 게임 로직을 가지고 있어 1인 개발자가 처음으로 완성하기에 가장 적합한 프로젝트입니다. 기술적 난이도가 낮고 구현 범위가 명확합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "뱀 이동 로직",
+            "먹이 생성 및 섭취 시스템",
+            "충돌 판정"
+          ],
+          "defer": [
+            "다양한 맵 테마",
+            "온라인 리더보드",
+            "복잡한 그래픽 효과"
+          ],
+          "risks": [
+            "단순함으로 인한 금방 질리는 게임성",
+            "조작감의 불편함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "속도 변화 뱀 게임",
+            "concept": "먹이를 먹을 때마다 뱀의 이동 속도가 빨라지거나 느려지는 변칙 규칙을 추가합니다. 속도 변화에 따른 대응이 핵심입니다.",
+            "first_step": "뱀 이동 속도 변수 추가 및 적용."
+          },
+          {
+            "title": "장애물 추가 뱀 게임",
+            "concept": "맵에 고정된 장애물을 추가하여 이동 경로를 제한합니다. 좁은 공간에서 뱀을 조종하는 재미를 강조합니다.",
+            "first_step": "맵 내 장애물 배치 및 충돌 판정 추가."
+          }
+        ],
+        "recommendation_ko": "게임 개발의 기초인 로직 구현과 충돌 판정을 배우기에 가장 좋습니다. 첫 프로젝트로 완성 경험을 쌓기에 강력히 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 'hisses back'이 구체적으로 어떤 게임적 요소(예: 적의 등장, 조작 방해 등)를 의미하는지 확인할 수 없습니다.",
+        "name": "Hissfit [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://samerahmed.itch.io/hissfit",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 368,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 4,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "apple:6801866888": {
+      "app_key": "apple:6801866888",
+      "name": "언제했지 - 마지막으로 한 날",
+      "developer": "HyunWoo Lee",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%96%B8%EC%A0%9C%ED%96%88%EC%A7%80-%EB%A7%88%EC%A7%80%EB%A7%89%EC%9C%BC%EB%A1%9C-%ED%95%9C-%EB%82%A0/id6801866888",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:17:35+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "할 일을 관리하지 마세요. 했던 날짜만 기억하면 됩니다. \"침대 시트 언제 빨았지?\" \"정수기 필터 언제 갈았더라?\" \"부모님께 언제 전화드렸지?\" 매번 기억나지 않는 그런 일들이 있습니다. 언제했지는 그 일을 한 날짜만 기록합니다. 목표도, 알림 폭탄도, 체크리스트도 없습니다. 눌러서 오늘로 기록하면 끝입니다. ■ 얼마나 지났는지 한눈에 항목마다 마지막으로 한 날부터 며칠이 지났는지 보여줍니다. 오래 안 한 것일수록 눈에 띕니다. ■ 시간 간격이 그대로 보이는 기록 점 사이의 거리가 실제 날짜 간격입니다. 자주 하던 시기는 촘촘하게, 한동안 안 한 기간은 넓게 비어 보입니다. ■ 사진과 메모 기록마다 사진 한 장과 짧은 메모를 남길 수 있습니다. '그때 어땠더라'까지 남습니다. ■ 위젯과 잠금 화면 홈 화면 위젯으로 밀린 일을 확인하고, 앱을 열지 않고도 기록할 수 있습니다. 잠금 화면에서 바로 기록하는 것도 됩니다. (iOS 16.4 이상) ■ 하루 마무리 알림 원하면 저녁에 한 번, \"오늘 뭐 했나요?\" 하고 물어봅니다. 기본은 꺼져 있습니다. ■ 완전히 로컬 계정도, 서버도, 광고도 없습니다. 기록은 기기에만 저장됩니다. 백업 파일로 직접 내보내고 불러올 수 있고, iCloud에 자동 보관해 두어 기기를 바꾸거나 앱을 지웠다 다시 깔아도 되살릴 수 있습니다. ■ 한 번만 구매 한 번 사면 모든 기능이 열립니다. 인앱 결제도, 구독도, 광고도 없습니다.",
+      "analysis": {
+        "app_key": "apple:6801866888",
+        "summary_ko": "특정 일을 마지막으로 수행한 날짜를 기록하는 단순한 앱입니다. 목표나 알림 없이 오직 기록에만 집중하며, 사진과 메모를 남길 수 있습니다. 위젯과 잠금 화면을 통해 간편하게 기록하고, iCloud를 통해 데이터를 안전하게 보관합니다.",
+        "features_ko": [
+          "마지막으로 수행한 날짜로부터 경과된 시간을 한눈에 보여줍니다.",
+          "기록 간의 간격을 시각화하여 수행 패턴을 파악할 수 있습니다.",
+          "기록마다 사진과 메모를 추가하여 당시 상황을 남길 수 있습니다.",
+          "위젯과 잠금 화면을 통해 앱 실행 없이 기록이 가능합니다.",
+          "완전 로컬 기반으로 운영되며 iCloud를 통한 백업을 지원합니다."
+        ],
+        "noteworthy_ko": "기능을 최소화하여 사용자의 본질적인 니즈인 '기록'에 집중한 점이 훌륭합니다. 광고나 서버 없이 로컬 데이터만 사용하는 설계는 유지보수 부담을 획기적으로 줄여줍니다.",
+        "development_ko": "핵심 기술은 날짜 계산 로직과 로컬 데이터 저장(CoreData 또는 SwiftData)입니다. 위젯 구현을 위한 App Groups 설정이 필요합니다. 복잡한 서버 로직이 없어 UI/UX 완성도에 집중할 수 있습니다.",
+        "idea_ko": "기록을 넘어, 특정 주기가 지나면 자동으로 알림을 주는 '주기적 관리 알림' 기능을 추가한 버전으로 확장할 수 있습니다.",
+        "highlights_ko": [
+          "광고와 서버가 없는 완전 로컬 앱으로 개인정보 보호에 최적화되어 있습니다.",
+          "기록 간의 간격을 시각화하여 사용자의 행동 패턴을 직관적으로 보여줍니다."
+        ],
+        "systems_ko": [
+          "날짜 계산 및 경과 시간 연산 로직",
+          "로컬 데이터베이스(CoreData/SwiftData)",
+          "위젯 및 잠금 화면 연동 시스템",
+          "사진 및 메모 저장 관리",
+          "iCloud 백업 연동"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "서버 연동이 필요 없고 로직이 단순하여 1인 개발자가 전체 기능을 완성하기에 매우 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "항목 생성 및 날짜 기록 기능",
+            "경과 시간 계산 및 표시",
+            "로컬 데이터 저장"
+          ],
+          "defer": [
+            "사진 및 메모 기능",
+            "위젯 및 잠금 화면 연동",
+            "iCloud 백업"
+          ],
+          "risks": [
+            "데이터 손실 방지 대책 부족",
+            "사용자 경험의 단조로움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "습관 형성 기록기",
+            "concept": "특정 습관을 수행한 날을 기록하고, 연속 기록(Streak)을 시각화하여 성취감을 주는 앱입니다.",
+            "first_step": "날짜를 기록하고 연속된 날짜를 계산하는 로직을 구현합니다."
+          },
+          {
+            "title": "반려동물 케어 로그",
+            "concept": "사료 급여, 산책, 목욕 등 반려동물 케어 주기를 기록하고 관리하는 앱입니다.",
+            "first_step": "반려동물별 케어 항목을 생성하고 마지막 기록 날짜를 표시하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "데이터 저장과 UI 구현의 기본기를 다지기에 최적입니다. 복잡한 기능 없이 깔끔한 앱을 만들고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에 명시된 기능 외의 추가적인 서버 연동이나 결제 기능은 없습니다. 로컬 데이터 관리의 안정성은 개발자의 구현 능력에 달려 있으므로 철저한 테스트가 필요합니다.",
+        "name": "언제했지 - 마지막으로 한 날",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%96%B8%EC%A0%9C%ED%96%88%EC%A7%80-%EB%A7%88%EC%A7%80%EB%A7%89%EC%9C%BC%EB%A1%9C-%ED%95%9C-%EB%82%A0/id6801866888",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 171,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 23,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "apple:1593856268": {
+      "app_key": "apple:1593856268",
+      "name": "Block King Puzzle",
+      "developer": "Tatem Games Ltd",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_board",
+      "detail_url": "https://apps.apple.com/jp/app/block-king-puzzle/id1593856268?uo=2",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:20:57+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "An addictive puzzle amusement that awakens the brain! Block king is a sorting game where you have to manipulate simple shaped figures to win. Complete the mission with no time limit for all types of players! Try Brain puzzle with classic gameplay so it will help you relax in your free time. Block puzzle king has several modes Sort mode: sort falling colored blocks in tubes the way all the same colored blocks will stay in the same tube; Shapes mode: Drag and drop color blocks on the board to solve the puzzle. Features - Addictive gameplay with relaxing vibes and no time limit! - Various shapes and colors of blocks - Cool wood-style design - Addictive puzzle levels - Gameplay contained of classic drag blocks. A person's brain needs training as much as their muscles! By solving various logical problems, different puzzle games like Block puzzle king, Cube puzzle and Woody Block stimulate the development of mental abilities and increase the level of IQ. This game is a classic app full of beautiful levels where you want to stay. We created numerous playing types to create a stylish brain puzzle for you to solve. Become a puzzle king in classical gameplay! Download a free brain puzzle game and relax all the time.",
+      "analysis": {
+        "app_key": "apple:1593856268",
+        "summary_ko": "Block King Puzzle은 다양한 모양의 블록을 정렬하거나 배치하여 퍼즐을 해결하는 두뇌 훈련 게임입니다. 시간 제한 없이 클래식한 퍼즐 모드를 즐기며 휴식을 취할 수 있습니다. 튜브에 같은 색 블록을 모으거나 보드에 블록을 배치하는 등 여러 플레이 방식을 제공합니다.",
+        "features_ko": [
+          "튜브에 같은 색상의 블록을 분류하여 채우는 정렬 모드를 제공합니다.",
+          "보드 위에 블록을 드래그 앤 드롭하여 퍼즐을 해결하는 모양 맞추기 모드가 있습니다.",
+          "시간 제한이 없어 사용자가 편안한 속도로 게임을 즐길 수 있습니다.",
+          "나무 스타일의 디자인을 적용하여 시각적인 안정감을 줍니다."
+        ],
+        "noteworthy_ko": "단순한 퍼즐 메커니즘을 여러 모드로 확장하여 콘텐츠를 구성한 점이 흥미롭습니다. 정렬과 배치라는 두 가지 핵심 로직을 결합하여 사용자에게 다양한 난이도의 퍼즐 경험을 제공하려는 의도로 추정됩니다.",
+        "development_ko": "핵심 구현 기술로는 2D 그리드 기반의 블록 배치 로직과 색상 분류 알고리즘이 필요합니다. 콘텐츠 제작 부담은 퍼즐 레벨 디자인에 집중되며, 밸런스 조정은 난이도 곡선을 설계하는 데 많은 시간이 소요될 것으로 보입니다.",
+        "idea_ko": "블록의 색상뿐만 아니라 특정 모양을 조합해야만 제거되는 '복합 조건 퍼즐' 아이디어가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "정렬과 배치라는 두 가지 고전적 퍼즐 방식을 하나의 앱에 통합했습니다.",
+          "시간 제한 없는 플레이 환경을 조성하여 캐주얼한 사용자 경험을 강조합니다."
+        ],
+        "systems_ko": [
+          "블록 배치 및 이동 판정 시스템",
+          "퍼즐 상태 관리 및 승리 조건 검사기",
+          "레벨 데이터 관리 시스템",
+          "드래그 앤 드롭 UI 인터랙션"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "복잡한 물리 엔진이나 네트워크 통신이 필요 없는 2D 퍼즐 게임입니다. 핵심 로직이 명확하여 1인 개발자가 프로토타입을 제작하기에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "블록 드래그 및 배치 기능",
+            "블록 색상/모양 판정 로직",
+            "기본 레벨 10개 구성"
+          ],
+          "defer": [
+            "다양한 테마 및 스킨",
+            "글로벌 리더보드",
+            "광고 수익화 모듈"
+          ],
+          "risks": [
+            "퍼즐 레벨의 재미를 지속적으로 유지하기 어려움",
+            "단순한 게임성으로 인한 낮은 리텐션"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "쉐이프 체인저",
+            "concept": "블록을 배치할 때마다 인접한 블록의 모양이 변하는 규칙을 추가합니다. 연쇄 반응을 고려해야 하는 전략적 퍼즐입니다.",
+            "first_step": "인접 블록의 속성을 변경하는 트리거 함수를 구현합니다."
+          },
+          {
+            "title": "타임 어택 정렬",
+            "concept": "기존 정렬 모드에 제한 시간을 도입하여 긴장감을 높입니다. 특정 콤보를 달성하면 시간을 추가로 획득합니다.",
+            "first_step": "타이머 UI와 게임 오버 상태를 연결합니다."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 기본 로직인 그리드 시스템과 상태 관리를 배우기에 매우 좋습니다. 단순한 게임을 점진적으로 확장하는 개발 프로세스를 연습하기에 적합합니다.",
+        "source_limitations_ko": "소개문에 언급된 '두뇌 훈련 효과'나 'IQ 향상'은 과학적 근거가 없는 마케팅 문구입니다. 실제 내부 레벨 생성 알고리즘이나 데이터 저장 방식은 확인되지 않았습니다.",
+        "name": "Block King Puzzle",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/block-king-puzzle/id1593856268?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "google:jp.co.netfun.jk5.opt": {
+      "app_key": "google:jp.co.netfun.jk5.opt",
+      "name": "【パチスロ】十字架5",
+      "developer": "NET CORPORATION",
+      "source": "google",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=jp.co.netfun.jk5.opt&hl=ja&gl=JP",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:24:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "十字架シリーズ第5章となる最新パチスロ機 パチスロ「十字架5」のシミュレーターアプリです。 ◆◆◆ ご購入前に必ず一読ください ◆◆◆ ・本アプリは、AndroidOS8.0以上が動作の推奨となります。 ・推奨スペック CPU : Snapdragon 845以上、メモリ : RAM4GB以上 ※推奨スペックでも端末によりカクつき等が生じる可能性がございます。 ・本アプリは相当の内部メモリを使用するため古い機種では想定通りの動作ができない場合があります。お手持ちのスマートフォンが2018年以降に製造されたものであることを推奨致します。 ・初回起動時に約1.2GBのリソースデータをダウンロードします。 ・初回の通信量が大きいため、初回のダウンロード時は、Wi-Fi環境やLTE等の高速回線のご利用を強く推奨します。また、本アプリのダウンロードの際には多くの通信量が発生するため、パケット定額制サービスに加入されることを強く推奨いたします。本サービス利用に関わる一切の通信料･接続料はお客様のご負担となり、通信会社が取り決めている一定の通信量を超えた際の速度規制に該当した場合でも、当社は一切の責任を負いません。 ・GooglePlayが提供している「払い戻しサービス」をご利用頂く場合は下記をご確認下さいませ。 https://support.google.com/googleplay/answer/2479637 ・ダウンロードは通常、外部ストレージ（端末対応のSDカード等）に行われますが、機種によっては強制的に内部ストレージにダウンロードされる場合もありますのでご注意ください。 ◆◆◆ アプリのご紹介 ◆◆◆ ●本アプリは、パチスロ「十字架5」をAndroidアプリ用に限りなく再現したものです。 ●設定ごとの各当選確率やその他スペックは、実際のパチスロ機とほぼ同一ですが、実際のパチスロ機の動作とは異なる場合があります。 ◆十字架が鍵！王道抽選「光ルート」 今作では、十字架当選確率が1/297～1/13.5とステージ毎に当選期待度が変化していくのが特徴。 ステージの他に、十字架成立期待度55%の高確率ゾーン「十字架への願い」搭載！十字架を起点としたゲーム性に加え、リプレイ成立からのチャンスアイテム獲得抽選や規定ゲーム数によるAT抽選など、様々なゲーム展開がお楽しみいただけます。 ◆新生前兆ステージ「ドラキュラダンジョン」 通常時、十字架図柄成立あるいは規定ゲーム数到達で突入する前兆ステージ「ドラキュラダンジョン」。 「ドラキュラダンジョン」では、スピリットを召喚させてCZ「ブラッドパーティ」を目指します。 召喚したスピリットの人数が多いほどCZクリア期待度アップ！ ◆仲間と小役のヒキで戦況が変化！CZ「ブラッドパーティ」 CZ「ブラッドパーティ」は、召喚したスピリットと共に敵チームに挑む自力バトル。 召喚したスピリットに対応した小役を引くことでバトルを有利に展開。最終ゲームまでに倒した敵の数が多いほど勝利期待度がアップします。バトル中は、敵の位置やHPが表示される敵MAPにも注目！敵が一直線に並んだ時に攻撃すると複数攻撃のチャンス！バトル勝利で上乗せ特化ゾーン「セクシーマジカルタイム」に突入！ ◆敵キャラごとに上乗せパターン変化！「セクシーマジカルタイム」 上乗せ特化ゾーン「セクシーマジカルタイム」では、選択されたキャラクターに拷問器具を使ったお仕置きを行い、AT「サモンズロード」のゲーム数を上乗せします。キャラクターごとにお仕置きパターンが異なり、上乗せ期待度やゲーム性が変化する新感覚の上乗せ特化ゾーン！ ◆「BLOODシステム」を誘う「闇ルート」 主人公・ノアが傷つき出血するたび、闇落ち抽選が行われる「闇ルート」。「ドラキュラダンジョン」失敗や「ブラッドパーティ」敗北など、プレイヤーにとってマイナスな局面で闇落ち抽選が行われます。液晶画面に血しぶきやノイズが発生するとフリーズ高確率ゾーン「ダークネスゾーン」移行チャンス！「ダークネスゾーン」では、全役でフリーズ抽選が行われ、フリーズ発生で筐体が闇パネルに切り替わり上乗せ特化ゾーン「ダークサイドノア」に突入します。「ダークサイドノア」は、闇落ちしたノアが敵陣を撃破するたび上乗せする20G固定の特化ゾーン！ ◆２つのATが交錯する「クロスループ AT」 純増2.7枚のAT「サモンズロード」では、上乗せ特化ゾーンで獲得したゲーム数を消化するまでにスピリット召喚で突入する「クロスラッシュ」、ドラキュラ登場で突入する前兆ステージ「ドラキュラミッション」の2つのATを目指します。 ◆スピリット召喚が鍵！メインAT「クロスラッシュ」 スピリットと一緒にCZ「ブラッドパーティ」突入を目指す20G固定のメインAT。 召喚したスピリットの人数によって性能がアップし、ステージの種類によって「ブラッドパーティ」突入期待度が変化します。ステージは、廻廊（1人召喚）＜大広間（2人召喚）＜断罪ノ塔（3人召喚）の順番で突入期待度アップ！ ◆最強特化ゾーンをかけた闘い「ドラキュラバトル」 シリーズ伝統の前兆ステージ「ドラキュラミッション」が今作はATとして健在！最終ゲームでドラキュラと遭遇出来れば「ドラキュラバトル」突入！「ドラキュラバトル」は当選役に応じて攻防を繰り返すガチバトル！ドラキュラのHPを削り切ると勝利確定となり、最強特化ゾーン「オメガバトル」に突入！ ◆十字架5最強特化ゾーン「オメガバトル」 覚醒したノアがドラキュラに立ち向かう、本機の最強特化ゾーン「オメガバトル」！毎ゲーム上乗せ抽選を行い、ドラキュラに攻撃がHITする度、ゲーム数上乗せ！「オメガバトル」の上乗せ期待値は100ゲームOVER！完走を目指し、宿敵ドラキュラとの最終決戦に挑もう！ 【アプリ機能説明】 ◆標準機能 ●画面拡大 2段階の筐体の大きさを選択することが可能です。 ●データ集計機能 ATの突入回数・突入率、小役抽選回数やボーナス履歴を確認することが可能です。 また、下記の各機能については、アプリ内のショップよりご購入頂くことで使用可能となります。 ◆ベターパック パチスロをストレス無く楽しむ為の機能を搭載しております。 ●設定変更 新規遊技の際、任意の設定を選択してスタートすることが可能です。 ●ウェイトタイムカット ウェイト時間を無くし、サクサクプレイが可能です。 ●オートプレイ 速度、打ち方、終了条件を設定して自動でプレイを進行することが可能です。 ●セーブ機能 プレイを終了した所からプレイを再開することが可能です。 ◆マニアパック 機種を隅々まで堪能する為の機能を搭載しております。 オートプレイでは、完全攻略で自動遊技を行います。 ●成立役表示 レバー時に右下に抽選された役を表示することが可能です。 ●ステージセレクト 上乗せ特化ゾーンを含めお好きな13ステージから開始することが可能です。 ●強制役フラグ レア役を強制することが可能です。 ◆十字架パック ベターパック、マニアパック、サウンドライブラリをまとめて購入できるお得なパックです。 ◆サウンドライブラリ 十字架5で使用される楽曲をアプリ内プレイヤーで 再生する事ができるようになります。 このアプリケーションには、（株）ＣＲＩ・ミドルウェアの「CRIWARE（TM）」が使用されています。 ◆◆◆ 問い合わせについて ◆◆◆ 下記のメールアドレスご連絡ください。 oleslo@net-fun.co.jp 携帯メール(スマートフォン含む)でお問い合わせの際は「@net-fun.co.jp」からメールを受信できるようにご設定をお願い致します。 なお、お問い合わせの際には ①【ご購入アプリ名】 ②【ご利用端末名】 ③【OSバージョン】 ④【Google Playの注文番号】 ⑤【不具合内容】 を明記の上お問い合わせください。",
+      "analysis": {
+        "app_key": "google:jp.co.netfun.jk5.opt",
+        "summary_ko": "이 앱은 파치스로 기기 '십자가5'를 모바일 환경에서 재현한 시뮬레이터입니다. 실제 기기의 확률과 스펙을 최대한 반영하여 사용자가 게임 내에서 다양한 전조 스테이지와 특화 존을 경험할 수 있습니다. 데이터 집계 기능을 통해 자신의 플레이 기록을 상세히 확인할 수 있습니다.",
+        "features_ko": [
+          "실제 파치스로 기기의 당첨 확률과 스펙을 최대한 재현합니다.",
+          "전조 스테이지 '드라큘라 던전'과 CZ '블러드 파티'를 구현합니다.",
+          "상태에 따라 변화하는 '십자가' 당첨 확률 시스템을 갖췄습니다.",
+          "AT '서먼즈 로드'와 다양한 상특화 존을 경험할 수 있습니다.",
+          "플레이 기록을 확인할 수 있는 데이터 집계 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "복잡한 확률 기반의 슬롯머신 로직을 모바일로 옮기는 것은 매우 높은 수준의 데이터 설계 능력을 요구합니다. 실제 기기의 동작을 재현하기 위한 상태 머신(State Machine) 설계가 매우 흥미롭습니다.",
+        "development_ko": "확률 기반의 난수 생성 및 상태 관리 로직이 핵심입니다. 방대한 리소스(이미지, 사운드)를 효율적으로 관리하고 로딩하는 기술이 필요하며, 실제 기기의 연출을 재현하기 위한 애니메이션 시스템이 중요합니다. 테스트 시 확률의 공정성과 기기별 성능 최적화가 가장 큰 부담입니다.",
+        "idea_ko": "사용자가 직접 슬롯의 확률을 설정하고, 어떤 결과가 나오는지 테스트할 수 있는 '확률 시뮬레이션 모드'를 제안합니다.",
+        "highlights_ko": [
+          "실제 기기의 복잡한 게임성을 모바일 환경에 충실히 재현했습니다.",
+          "데이터 집계 기능을 통해 플레이어의 전략적 분석을 돕습니다."
+        ],
+        "systems_ko": [
+          "확률 기반 난수 생성 엔진",
+          "게임 상태 머신(State Machine)",
+          "리소스 관리 및 로딩 시스템",
+          "데이터 집계 및 통계 엔진",
+          "애니메이션 및 연출 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실제 기기의 복잡한 로직을 재현하는 것은 매우 높은 난이도입니다. 특히 확률 밸런스와 연출의 동기화는 1인 개발자가 구현하기에 매우 큰 도전입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 슬롯 회전 및 당첨 판정 로직",
+            "상태 관리 시스템",
+            "기본적인 UI 연출"
+          ],
+          "defer": [
+            "데이터 집계 기능",
+            "다양한 특화 존 구현",
+            "사운드 라이브러리"
+          ],
+          "risks": [
+            "확률 밸런스 설계 오류",
+            "대용량 리소스 관리로 인한 앱 성능 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "나만의 슬롯머신 제작기",
+            "concept": "사용자가 직접 당첨 확률과 심볼을 설정하여 자신만의 슬롯머신을 만들고 테스트할 수 있는 샌드박스형 앱입니다.",
+            "first_step": "심볼과 확률을 입력받아 결과를 출력하는 기본 엔진을 구현합니다."
+          },
+          {
+            "title": "슬롯머신 전략 가이드",
+            "concept": "슬롯머신의 확률 구조를 시각적으로 보여주어, 어떤 상황에서 당첨 확률이 높은지 분석해 주는 교육용 앱입니다.",
+            "first_step": "확률 데이터를 시각화하는 그래프 시스템을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "복잡한 상태 관리와 확률 기반 로직을 배우기에 최적입니다. 다만, 실제 기기 재현은 매우 방대한 작업이므로 작은 규모의 슬롯 게임부터 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에 명시된 'CRIWARE'와 같은 외부 미들웨어는 라이선스 확인이 필요합니다. 인앱 결제나 환불 서비스는 구글 플레이 정책을 따라야 하므로 별도의 구현이 필요합니다.",
+        "name": "【パチスロ】十字架5",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=jp.co.netfun.jk5.opt&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 72,
+        "reasons": [],
+        "best_rank": 11,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "google:spider.classic.solitaire.card.pgmaker": {
+      "app_key": "google:spider.classic.solitaire.card.pgmaker",
+      "name": "Spider Solitaire",
+      "developer": "Classic Puzzle Games Maker",
+      "source": "google",
+      "country": "US",
+      "category": "game_board",
+      "detail_url": "https://play.google.com/store/apps/details?id=spider.classic.solitaire.card.pgmaker&hl=en&gl=US",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-28T05:29:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Spider Solitaire is one of the most popular worldwide original spider card games! This Spider Solitaire card game includes classic features and daily challenge puzzles to sharpen your mind. Everyone can play offline Spider Solitaire classic card game for FREE! If you want to relive the classics, then try this brand new Spider Solitaire card game, sharpen your mind and relieve stress while enjoying beautiful and friendly card games challenging experiences. If you'd like to relax during your break, don't miss Spider Solitaire! If you'd like to train your brain and make your mind more flexible, don't miss Spider Solitaire! If you'd like to become card game pro, don't miss Spider Solitaire-offline 100% free card games! Features: ♥ Smooth Operation: Optimized for mobile devices, bringing the wonderful card puzzle operating experience on mobiles and tablets ♥ Beautiful HD Graphics: High-definition and exquisite graphics performance, large and clear card design ♠ Auto-save: No wifi needed, continue with spider solitaire challenges anytime, anywhere ♠ Unlimited Hints and Undo Options: Intelligent step HINTS and UNDOS can be used for FREE unlimited times ♦️ Multiple Difficulty: 1, 2 or 4 suit varieties to choose, sharpen your brain with each card puzzle and enjoy spider card games ♦️ Winning Deals: Each game has at least one solution, be a Spider Solitaire superstar each deluxe round ♣ Daily Challenge: Take on puzzles every day and win exclusive trophies ♣ Theme Collection: Hundreds of themes, customize your own style freely If you like Classic Solitaire, FreeCell Solitaire, Pyramid Solitaaire, Spiderette, Castle, Hearts and other card games, or other fun and free puzzle games, you should not miss this Spider Solitaire card game! Play offline, test your master skills, and relax with one of the best spider solitaire classic experiences. Ready for stress-free Spider Solitaire fun? Let’s play Spider Solitaire card game now! Do not hesitate to share with your friends!",
+      "analysis": {
+        "app_key": "google:spider.classic.solitaire.card.pgmaker",
+        "summary_ko": "전 세계적으로 인기 있는 스파이더 솔리테어 카드 게임을 모바일 환경에 최적화한 앱입니다. 다양한 난이도와 일일 도전 과제를 제공하여 사용자의 두뇌 훈련과 스트레스 해소를 돕습니다. 오프라인 환경에서도 자유롭게 플레이할 수 있는 것이 특징입니다.",
+        "features_ko": [
+          "1, 2, 4가지 카드 무늬를 선택하여 난이도를 조절할 수 있습니다.",
+          "무제한 힌트와 실행 취소 기능을 통해 초보자도 쉽게 플레이할 수 있습니다.",
+          "매일 새로운 퍼즐을 제공하는 일일 도전 과제 시스템이 있습니다.",
+          "자동 저장 기능을 지원하여 언제 어디서든 게임을 이어갈 수 있습니다.",
+          "다양한 테마를 제공하여 카드 디자인과 배경을 커스터마이징할 수 있습니다."
+        ],
+        "noteworthy_ko": "카드 게임의 고전적인 규칙을 유지하면서도 모바일 환경에 맞는 최적화된 UI와 편의 기능을 제공하는 점이 흥미롭습니다. 특히 '모든 게임은 해결 가능하다'는 보장을 통해 사용자의 성취감을 극대화하는 설계가 돋보입니다.",
+        "development_ko": "카드 배치 알고리즘과 게임 상태 관리 시스템이 핵심입니다. 그래픽 리소스 제작 부담은 보통 수준이며, 다양한 화면 크기에 대응하는 UI 레이아웃 구성이 중요합니다. 밸런스 측면에서는 난이도별 승률 조정이 핵심입니다.",
+        "idea_ko": "카드 게임의 규칙을 변형하여 특정 카드 조합을 모으면 캐릭터가 공격하는 '카드 배틀 퍼즐' 아이디어가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "모바일 기기에 최적화된 부드러운 조작감과 고해상도 그래픽을 제공합니다.",
+          "오프라인 플레이를 지원하여 네트워크 환경에 구애받지 않습니다."
+        ],
+        "systems_ko": [
+          "카드 덱 셔플 및 배치 알고리즘",
+          "게임 상태(Undo/Redo) 관리 시스템",
+          "난이도별 승리 가능성 검증 로직",
+          "UI/UX 레이아웃 및 애니메이션",
+          "테마 데이터 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "카드 게임의 규칙 구현 자체는 명확하지만, 게임이 항상 해결 가능하도록 셔플 알고리즘을 설계하는 것이 기술적으로 도전적입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카드 이동 및 배치 로직",
+            "승리/패배 판정 시스템",
+            "기본적인 힌트 및 실행 취소 기능"
+          ],
+          "defer": [
+            "다양한 테마 커스터마이징",
+            "일일 도전 과제 및 트로피 시스템",
+            "온라인 리더보드"
+          ],
+          "risks": [
+            "카드 배치 알고리즘 오류로 인한 해결 불가능한 게임 생성",
+            "모바일 기기별 화면 비율에 따른 UI 깨짐"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스토리텔링 솔리테어",
+            "concept": "카드를 정리할 때마다 짧은 소설의 한 문장이 해금되는 방식입니다. 카드 게임에 서사적 재미를 더합니다.",
+            "first_step": "카드 정리 성공 시 텍스트 박스에 다음 문장을 출력하는 기능 구현."
+          },
+          {
+            "title": "시간 제한 스피드 솔리테어",
+            "concept": "제한 시간 내에 카드를 정리해야 하는 긴박한 모드입니다. 콤보 시스템을 추가하여 점수를 높입니다.",
+            "first_step": "타이머 UI를 추가하고 시간 종료 시 게임 오버 처리 구현."
+          }
+        ],
+        "recommendation_ko": "게임 로직 설계와 상태 관리의 기초를 배우기에 매우 좋습니다. 카드 게임은 복잡한 물리 엔진이 필요 없어 개인 개발자가 완성도를 높이기 적합한 장르입니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 온라인 대전, 결제, 광고 연동 기능은 포함되어 있지 않으며, 알고리즘의 구체적인 구현 방식은 확인되지 않았습니다.",
+        "name": "Spider Solitaire",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=spider.classic.solitaire.card.pgmaker&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
     }
   }
 }

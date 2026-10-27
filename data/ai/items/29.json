@@ -7325,6 +7325,271 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-27"
+    },
+    "itch:bc36af1d2600e7836274": {
+      "app_key": "itch:bc36af1d2600e7836274",
+      "name": "Kiosk Days: St. Martin's Evening [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://kigaro-games.itch.io/kiosk-days-st-martins-evening",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:15:06+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Get your little kiosk ready for the lantern parade: torches, a bonfire and a village that wants hot cocoa.",
+      "analysis": {
+        "app_key": "itch:bc36af1d2600e7836274",
+        "summary_ko": "마을의 등불 축제를 준비하는 키오스크 운영 시뮬레이션 게임입니다. 횃불과 모닥불을 관리하고 마을 사람들에게 따뜻한 코코아를 제공해야 합니다.",
+        "features_ko": [
+          "키오스크를 운영하며 축제를 준비합니다.",
+          "횃불과 모닥불 등 축제용 조명을 관리합니다.",
+          "마을 사람들에게 코코아를 제공하는 서비스를 수행합니다."
+        ],
+        "noteworthy_ko": "특정 이벤트(축제)를 목표로 하는 시뮬레이션으로, 시간 관리와 자원 배분이 핵심일 것으로 추정됩니다. 마을 사람들의 요구사항을 처리하는 과정이 게임의 주요 루프가 될 것입니다.",
+        "development_ko": "아이템 배치와 상호작용 시스템이 중요합니다. 마을 사람들의 요청을 처리하는 큐 시스템과 시간 제한 로직을 구현해야 합니다. 시각적인 분위기 연출이 게임의 몰입도를 결정할 것입니다.",
+        "idea_ko": "축제 준비 단계별로 다른 미니게임을 배치하여 운영의 재미를 다각화한 시뮬레이션.",
+        "highlights_ko": [
+          "축제 준비라는 명확한 테마.",
+          "서비스 중심의 운영 시뮬레이션."
+        ],
+        "systems_ko": [
+          "아이템 배치 및 관리 시스템",
+          "NPC 요청 처리 큐",
+          "시간 관리 시스템",
+          "자원(코코아, 횃불) 재고 관리",
+          "UI 상호작용"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "운영 시뮬레이션은 시스템 간의 연동이 중요합니다. NPC의 행동 패턴과 자원 관리 로직을 구현하는 데 시간이 소요되지만, 복잡한 물리 엔진은 필요하지 않습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 키오스크 상호작용",
+            "코코아 제공 로직",
+            "시간 제한 시스템"
+          ],
+          "defer": [
+            "복잡한 마을 NPC AI",
+            "다양한 축제 장식 아이템"
+          ],
+          "risks": [
+            "반복적인 작업의 지루함",
+            "자원 관리 밸런스 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "날씨 변수 도입",
+            "concept": "축제 당일 날씨에 따라 코코아 수요나 횃불 유지 난이도가 변합니다. 날씨 예보를 보고 미리 재고를 준비해야 합니다.",
+            "first_step": "날씨 상태에 따라 코코아 판매량 변수를 적용하는 로직 구현."
+          },
+          {
+            "title": "마을 평판 시스템",
+            "concept": "코코아를 제때 제공하면 마을 평판이 올라가고, 축제 때 더 많은 사람이 방문합니다. 평판에 따라 키오스크를 업그레이드합니다.",
+            "first_step": "서비스 성공 횟수에 따른 점수(평판) 기록 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "운영 시뮬레이션의 기본 루프를 설계하기에 좋습니다. NPC와의 상호작용과 자원 관리 시스템을 연습하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 승리 조건, NPC의 행동 방식, 축제 준비의 단계별 목표 등은 설명에서 확인할 수 없습니다.",
+        "name": "Kiosk Days: St. Martin's Evening [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://kigaro-games.itch.io/kiosk-days-st-martins-evening",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 308,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "google:com.czechgames.tta": {
+      "app_key": "google:com.czechgames.tta",
+      "name": "Through the Ages",
+      "developer": "CGE digital",
+      "source": "google",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.czechgames.tta&hl=ko&gl=KR",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:22:27+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "\"이것은 Vlaada Chvátil의 역작 전략 게임인 쓰루 디 에이지스의 공식 디지털 버전입니다. 현재 보드게임 긱 사이트에서 3위를 기록하고 있습니다. “문명 게임을 찾고 있다면, 이것이 바로 그 게임입니다! 전 시대를 통틀어서 가장 위대한 게임 중 하나입니다.” – Tom Basel, The Dice Tower “쓰루 디 에이지스는 경이 그 자체입니다.” – Drew Massey, Giant Fire Breathing Robot 여러분이 직접 역사를 쓸 기회가 왔습니다. 처음에는 작은 부족으로 시작하지만, 점점 농장과 광산을 확장함에 따라 기술 발전, 더 나은 정부, 위대한 문화유산의 토대를 마련하게 될 것입니다. 여러분의 문명을 위대하게 이끌기 위해, 군사력이 정치 기술을 보완할 수 있을 겁니다. 게임 개요: - 지금까지 나온 최고의 보드 게임 중 하나입니다. - 수 백장의 카드를 이용해서 강력한 문명을 건설하세요. - 승리 전략이 다양합니다. - 신중하게 자원을 관리해야 합니다. 게임 특징: - 대화형 튜토리얼로 게임을 재미있게 익힐 수 있습니다. - 온라인 뿐만 아니라 하나의 기기로 친구들과 함께 게임을 즐길 수 있습니다. - 다양한 숙련도로 설정된 영리한 AI를 물리치세요. - 오리지널 보드게임의 규칙으로 게임을 하거나, 디지털에 최적화된 규칙으로 게임을 할 수 있습니다. - 맞춤형 전략이 필요한 싱글 플레이어 도전 과제를 즐겨보세요. 체코 게임즈 에디션은 20개 이상의 보드게임과 확장을 발매해왔습니다. 그 중에는 코드네임, 던전 로드, 촐킨 등 플레이어들의 열정적인 응원에 힘입어, 다양한 부문에서 수상한 게임들도 포함되어 있습니다. 또한, 디지털 보드 게임으로도 영역을 확대하고 있습니다. 갤럭시 트러커를 먼저 선보였고, 이제 이렇게 쓰루 디 에이지스를 디지털로 소개할 수 있어서 기쁘게 생각합니다. 재미있게 즐겨주세요.\"",
+      "analysis": {
+        "app_key": "google:com.czechgames.tta",
+        "summary_ko": "쓰루 디 에이지스는 문명을 건설하고 발전시키는 전략 보드게임의 디지털 버전입니다. 작은 부족에서 시작하여 기술, 정부, 문화유산을 발전시키며 역사를 써 내려가는 경험을 제공합니다. 온라인 멀티플레이와 싱글 플레이어 도전 과제를 통해 다양한 전략적 재미를 느낄 수 있습니다.",
+        "features_ko": [
+          "수백 장의 카드를 활용하여 문명을 건설하고 자원을 관리합니다.",
+          "대화형 튜토리얼을 통해 게임 규칙을 쉽게 익힐 수 있습니다.",
+          "온라인 멀티플레이와 하나의 기기를 공유하는 로컬 플레이를 지원합니다.",
+          "다양한 숙련도의 AI와 대결하며 전략을 시험할 수 있습니다."
+        ],
+        "noteworthy_ko": "복잡한 보드게임 규칙을 디지털 환경에 맞게 최적화하여 구현한 점이 흥미롭습니다. 특히 턴제 전략 게임의 상태 관리와 AI 로직은 개인 개발자가 참고하기 좋은 복합적인 구조입니다.",
+        "development_ko": "복잡한 게임 규칙을 코드로 변환하는 로직 구현이 가장 큰 부담입니다. 다양한 카드 효과와 자원 계산을 위한 데이터 구조 설계가 필수적입니다. AI는 난이도별로 행동 패턴을 다르게 설정해야 하며, 멀티플레이를 위한 서버 동기화 기술이 필요합니다.",
+        "idea_ko": "특정 역사적 사건을 테마로 한 짧은 시나리오 모드를 구현하여 게임의 진입 장벽을 낮추는 방식이 적합합니다.",
+        "highlights_ko": [
+          "오리지널 보드게임 규칙과 디지털 최적화 규칙을 모두 지원합니다.",
+          "다양한 승리 전략을 가능하게 하는 방대한 카드 시스템을 갖추고 있습니다."
+        ],
+        "systems_ko": [
+          "게임 상태 관리 엔진",
+          "턴제 로직 및 규칙 엔진",
+          "AI 의사결정 알고리즘",
+          "멀티플레이어 네트워크 동기화",
+          "카드 데이터베이스 및 UI"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "방대한 카드 데이터와 복잡한 상호작용 규칙을 구현해야 합니다. 1인 개발 시 게임 밸런스 조정과 AI 로직 구현에 매우 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 턴제 로직",
+            "카드 시스템",
+            "자원 관리 UI"
+          ],
+          "defer": [
+            "온라인 멀티플레이",
+            "복잡한 AI 알고리즘"
+          ],
+          "risks": [
+            "규칙 구현 오류로 인한 게임 밸런스 붕괴",
+            "복잡한 UI로 인한 모바일 가독성 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "미니 문명 카드 게임",
+            "concept": "쓰루 디 에이지스의 핵심 메커니즘을 축소하여 10분 내외로 끝나는 카드 게임을 만듭니다. 자원 생산과 기술 발전이라는 두 가지 축에 집중합니다.",
+            "first_step": "자원 생산 카드와 기술 카드 5종씩을 사용하여 턴을 진행하는 프로토타입을 만듭니다."
+          },
+          {
+            "title": "역사적 인물 카드 배틀",
+            "concept": "문명 대신 역사적 인물들을 카드로 사용하여 서로의 능력을 겨루는 대전 게임입니다. 각 인물의 고유 능력을 활용한 전략적 배치가 핵심입니다.",
+            "first_step": "인물 카드 3종의 능력치를 정의하고 턴 기반 전투 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "복잡한 규칙을 데이터화하고 시스템으로 구현하는 능력을 기르기에 최적입니다. 다만, 보드게임의 방대한 규칙을 모두 구현하려 하기보다 핵심 메커니즘을 추출하는 연습을 추천합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 서버 아키텍처, 결제 시스템, 상세한 AI 구현 방식은 알 수 없습니다. 보드게임 긱 순위나 수상 경력은 게임의 품질을 보증할 뿐, 개발 기술과는 무관합니다.",
+        "name": "Through the Ages",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.czechgames.tta&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "itch:1a24bb42a246ec2e23f3": {
+      "app_key": "itch:1a24bb42a246ec2e23f3",
+      "name": "Darkwaar42 - Echo March [Free] [Puzzle]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "",
+      "detail_url": "https://darkwoodcom.itch.io/darkwaar42-echo-march",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-28T05:28:08+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Write one tiny command tape and guide every survey drone across a luminous voxel archipelago.",
+      "analysis": {
+        "app_key": "itch:1a24bb42a246ec2e23f3",
+        "summary_ko": "Darkwaar42 - Echo March는 명령 테이프를 작성하여 조사용 드론을 안내하는 퍼즐 게임입니다. 빛나는 복셀 군도를 배경으로 하며, 제한된 명령어를 사용하여 드론을 목적지까지 이동시키는 논리적 사고가 필요합니다.",
+        "features_ko": [
+          "명령 테이프를 작성하여 드론의 이동 경로를 프로그래밍합니다.",
+          "복셀 기반의 아름다운 군도 환경을 탐험합니다.",
+          "제한된 명령어를 효율적으로 사용하여 퍼즐을 해결합니다."
+        ],
+        "noteworthy_ko": "코딩과 퍼즐을 결합한 게임 디자인이 흥미롭습니다. 개발 관점에서는 명령어를 해석하고 실행하는 인터프리터 로직과 복셀 환경의 상호작용 구현이 핵심입니다.",
+        "development_ko": "핵심 기술은 명령어 해석기(Interpreter)와 그리드 기반의 이동 로직입니다. 복셀 환경의 시각적 구현은 비교적 단순할 수 있으나, 퍼즐의 논리적 구조를 설계하는 것이 가장 큰 제작 부담입니다. 다양한 테스트를 통해 퍼즐의 난이도를 적절히 배치하는 것이 중요합니다.",
+        "idea_ko": "명령어에 '조건문'이나 '반복문'을 추가하여, 더 복잡한 자동화 경로를 설계하게 만드는 '코딩 교육용 퍼즐'로 발전시키는 것을 제안합니다.",
+        "highlights_ko": [
+          "명령어 기반의 독특한 퍼즐 해결 방식.",
+          "빛나는 복셀 군도라는 시각적 테마."
+        ],
+        "systems_ko": [
+          "명령어 해석기(Interpreter)",
+          "그리드 기반 이동 및 상호작용 로직",
+          "레벨 데이터 관리 시스템",
+          "UI/UX(명령어 입력창)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "복잡한 물리 엔진이 필요 없고 논리적인 퍼즐 로직 위주이므로 1인 개발자가 구현하기에 적합합니다. 다만, 퍼즐의 재미를 보장하는 레벨 디자인 역량이 중요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "명령어 입력 및 실행 시스템",
+            "드론 이동 로직",
+            "기본 퍼즐 레벨 3~5개"
+          ],
+          "defer": [
+            "복잡한 그래픽 효과",
+            "다양한 드론 커스터마이징"
+          ],
+          "risks": [
+            "퍼즐 난이도 조절 실패",
+            "명령어 시스템의 직관성 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "드론 자동화 공장",
+            "concept": "드론을 이용해 자원을 채취하고 운반하는 자동화 퍼즐 게임입니다. 명령어 조합으로 효율적인 물류 시스템을 구축합니다.",
+            "first_step": "자원 채취 및 이동 명령어 로직 구현."
+          },
+          {
+            "title": "명령어 배틀",
+            "concept": "두 명의 플레이어가 각각 명령어를 작성하여, 먼저 목적지에 도달하거나 상대 드론을 방해하는 대전 퍼즐입니다.",
+            "first_step": "2인 동시 명령어 입력 및 실행 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "논리적인 게임 로직과 퍼즐 디자인을 배우기에 매우 좋습니다. 규모가 작아 개인 개발자가 완성도 높은 결과물을 만들기에 가장 추천하는 장르입니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 명령어의 종류나 퍼즐의 메커니즘을 확인할 수 없습니다. 실제 게임의 규칙은 직접 설계해야 합니다.",
+        "name": "Darkwaar42 - Echo March [Free] [Puzzle]",
+        "source": "itch",
+        "detail_url": "https://darkwoodcom.itch.io/darkwaar42-echo-march",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 10000,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
     }
   }
 }

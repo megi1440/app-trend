@@ -4286,6 +4286,919 @@
         "thoughtsTokenCount": 2646,
         "serviceTier": "standard"
       }
+    },
+    "apple:6764276890": {
+      "app_key": "apple:6764276890",
+      "name": "Scan QRCode: QR & Barcode",
+      "developer": "Fuzhou Xuanlong Technology Co., Ltd.",
+      "source": "apple",
+      "kind": "app",
+      "detail_url": "https://apps.apple.com/kr/app/scan-qrcode-qr-barcode/id6764276890?uo=2",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:6764276890",
+        "product_kind": "app",
+        "original_experience_ko": "원본 앱은 카메라와 이미지 파일을 통해 QR 및 바코드를 신속하게 디코딩하고, 연락처·소셜 미디어·Wi-Fi 정보 등을 QR 코드로 간편하게 생성 및 공유하는 유틸리티 경험을 제공합니다. 스토어 정보와 AI 해석에 따르면, 단순한 코드 판독을 넘어 웹 링크의 안전 미리보기와 로컬 기록 추적 기능을 결합하여 일상 속 정보 교환의 효율성과 보안성을 함께 추구합니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 확인 사실: 실시간 카메라 스캔, 사진 라이브러리 이미지 불러오기, 표준 QR 및 바코드 호환, 소셜 명함/Wi-Fi/위치 정보 QR 생성, 웹 링크 안전 미리보기, 로컬 기록 자동 저장 기능이 명시되어 있습니다.",
+          "미확인 사항 및 한계: 보안 미리보기가 구체적으로 어떤 필터링 알고리즘이나 외부 API를 사용하는지, 클라우드 백업이나 서버 연동 기능이 포함되어 있는지는 스토어 설명만으로는 확인되지 않습니다."
+        ],
+        "valuable_elements_ko": [
+          "즉각적인 카메라 디코딩 흐름: 앱 실행 후 복잡한 단계 없이 카메라 뷰파인더를 통해 즉시 정보를 인식하는 직관적인 사용성은 유틸리티의 핵심 가치입니다.",
+          "상황별 맞춤 생성 템플릿: Wi-Fi 비밀번호 입력이나 복잡한 소셜 링크 공유 같은 번거로운 일상 작업을 QR 이미지 하나로 압축해 주는 실용적 편의성은 계승할 만합니다."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "GhostLink: 익명 안전 연락처 프로필",
+            "core_idea_ko": "개인 전화번호나 본계정 소셜 프로필을 무방비하게 노출하는 기존 QR 명함의 한계를 보완하여, 스캔 상대방에게 일회용 또는 기간제 가상 프로필(Alias)을 제공하고 연결 종료 시 소멸하는 프라이버시 중심 QR 교환기 앱입니다.",
+            "what_to_keep_ko": "연락처나 소셜 미디어 프로필을 QR 코드로 빠르게 생성하고 상대방이 스캔하여 즉시 연결되는 핵심 사용 흐름을 계승합니다.",
+            "what_to_change_ko": "영구적인 개인정보가 담긴 QR 생성에서 벗어나, 사용자가 직접 설정한 유효기간이나 1회성 사용 후 파기되는 '가상 프로필 허브' 규칙을 도입하여 프라이버시 보호를 강화합니다.",
+            "mobile_use_or_play_ko": "사용자가 앱에서 일회용 닉네임과 전달할 메시지/링크를 입력해 임시 QR 코드를 생성합니다. 상대방이 카메라로 스캔하면 안전한 웹 뷰어 형태의 임시 프로필창이 열려 소통하고, 설정 시간이 지나면 링크가 자동 파기됩니다.",
+            "key_features_ko": [
+              "기간제 및 1회용 가상 프로필 QR 생성 모듈",
+              "개인정보 노출 없는 안전한 인앱 메시징/링크 전달 뷰어",
+              "생성된 임시 링크의 만료 시간 및 접근 제어 설정 기능"
+            ],
+            "solo_mvp_and_effort_ko": "로컬 저장소 기반의 프로필 관리와 가벼운 프론트엔드 웹 뷰어 연동으로 구현 가능하며, 복잡한 회원가입 시스템 없이 로컬 데이터와 토큰 기반 임시 링크 구조로 1인 개발자가 현실적으로 완수할 수 있습니다.",
+            "strengths_limits_ko": "장점은 개인정보 보호에 대한 현대적 수요를 정확히 겨냥한다는 점이며, 약점은 서버를 통한 일시적 중계가 필요할 경우 백엔드 유지비나 통신 안정성 검토가 요구된다는 점입니다."
+          },
+          {
+            "title_ko": "TableTag: 모임·소상공인 인터랙티브 현장 키트",
+            "core_idea_ko": "단순 정보 공유용 QR을 넘어, 소모임이나 소상공인이 현장에서 즉석으로 설문, 방명록, 간이 주문 등의 상호작용 세트를 구성하고 방문자의 응답을 실시간으로 수집할 수 있는 모바일 도구 앱입니다.",
+            "what_to_keep_ko": "다양한 일상 목적(위치, 링크 등)을 QR 이미지로 즉시 변환하고 공유하는 간편한 생성·출력 경험을 유지합니다.",
+            "what_to_change_ko": "수동적인 단방향 정보 전달(웹사이트 이동)을 탈피하고, 스캔 직후 앱 내부 또는 가벼운 웹 인터페이스를 통해 양방향 피드백(설문 응답, 출석 체크 등)을 주고받도록 기능을 확장합니다.",
+            "mobile_use_or_play_ko": "호스트가 앱에서 '모임 출석부' 또는 '간이 메뉴판' 템플릿을 골라 QR을 생성하고 현장에 비치합니다. 참여자가 스캔하면 스마트폰 브라우저로 즉시 응답을 남기고, 호스트의 앱에서 실시간 리스트가 업데이트됩니다.",
+            "key_features_ko": [
+              "현장 맞춤형 인터랙티브 QR 템플릿(출석, 방명록, 투표)",
+              "스캔 시 즉시 연동되는 실시간 응답 수집 및 목록 뷰",
+              "템플릿별 디자인 커스텀 및 이미지 내보내기 기능"
+            ],
+            "solo_mvp_and_effort_ko": "로컬 데이터 중심의 단일 사용자 모드에서 출발하여, 실시간 데이터 수집을 위해 Firebase 같은 BaaS를 활용하면 1인 개발자가 백엔드 구축 부담을 줄이며 구현할 수 있습니다.",
+            "strengths_limits_ko": "장점은 단순 유틸리티를 넘어 실제 활용도가 높은 생산성 도구로 확장된다는 점이고, 약점은 타인과의 상호작용을 위해 네트워크 연결과 수신 측의 원활한 웹 접근성이 필수적이라는 점입니다."
+          },
+          {
+            "title_ko": "AR-Code Anchor: 공간형 정보 캡슐",
+            "core_idea_ko": "평면적인 인쇄물이나 화면 속 QR 코드를 넘어, 스마트폰 카메라 뷰파인더를 통해 현실 공간의 특정 위치에 디지털 정보나 메시지를 AR(증강현실) 형태로 남기고 스캔·발견하는 위치 기반 유틸리티 앱입니다.",
+            "what_to_keep_ko": "카메라를 통해 주변을 비추고 시각적 코드를 인식해 숨겨진 정보를 도출하는 핵심 인터랙션 방식을 계승합니다.",
+            "what_to_change_ko": "2차원 종이/화면 스캔 방식에서 벗어나 GPS와 비전 기반 공간 앵커를 결합해 물리적 공간 자체를 QR 태그처럼 활용하는 실질적 경험의 진화를 꾀합니다.",
+            "mobile_use_or_play_ko": "사용자가 특정 장소에서 카메라를 켜고 메모나 링크를 입력해 'AR 캡슐'을 공간에 고정합니다. 다른 사용자가 동일한 장소를 방문해 카메라를 비추면 공중에 떠 있는 캡슐 형태의 QR 정보가 나타나 이를 열어볼 수 있습니다.",
+            "key_features_ko": [
+              "카메라 기반 공간 인식 및 가상 정보 앵커링",
+              "GPS/위치 좌표와 연동된 AR 콘텐츠 생성 및 탐색",
+              "공간에 남긴 기록 관리 및 공유 인터페이스"
+            ],
+            "solo_mvp_and_effort_ko": "모바일 AR 라이브러리(ARCore 등)를 활용해야 하므로 1인 개발자에게는 기기 호환성 테스트와 공간 정밀도 확보 측면에서 기술적 난이도가 다소 높고 구현 공수가 큽니다.",
+            "strengths_limits_ko": "장점은 독창적인 시각적 경험과 높은 몰입감이지만, 약점은 GPS 오차 및 AR 엔진의 제약으로 인해 실제 구현 시 안정성 확보가 까다롭다는 과제가 있습니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어(GhostLink)는 프라이버시라는 현대적 사회적 요구를 반영하여 원본의 명함/보안 기능을 정교하게 발전시켰으며 1인 개발 난이도가 적절합니다. 두 번째 아이디어(TableTag)는 양방향 인터랙션으로 실용성을 넓혔으나 백엔드 연동이 필요합니다. 세 번째 아이디어(AR-Code Anchor)는 가장 혁신적이나 모바일 AR 구현 복잡도가 높아 1인 MVP 제작에 부담이 큽니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "원본의 '소셜 명함 생성'과 '안전 미리보기'라는 핵심 가치를 가장 논리적으로 확장하면서도, 개인정보 보호라는 명확한 차별점을 지닙니다. 로컬 저장소와 가벼운 토큰 구조를 결합해 1인 개발자가 과도한 백엔드 인프라 구축 없이도 현실적으로 MVP를 완성할 수 있는 최적의 균형점을 가집니다.",
+        "next_questions_ko": [
+          "임시 가상 프로필 생성 시 별도의 서버 DB 없이 클라이언트 간 P2P나 로컬 토큰으로 유효기간을 제어할 수 있는가?",
+          "안전 미리보기 기능을 모바일 환경에서 가볍게 구현하기 위해 어떤 오픈소스 URL 검사 패턴이나 패턴 매칭 라이브러리를 활용할 수 있는가?"
+        ]
+      },
+      "brief_at": "2026-10-28T05:32:13+09:00",
+      "brief_quota_day": "2026-10-28",
+      "brief_usage": {
+        "promptTokenCount": 1665,
+        "candidatesTokenCount": 2258,
+        "totalTokenCount": 5838,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1665
+          }
+        ],
+        "thoughtsTokenCount": 1915,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:6764276890",
+        "product_kind": "app",
+        "selected_concept_title_ko": "GhostLink: 익명 안전 연락처 프로필",
+        "project_goal_and_audience_ko": "오프라인 모임, 네트워킹, 비즈니스 미팅 등에서 개인 전화번호나 본계정 소셜 프로필의 무분별한 노출을 꺼리는 현대 직장인, 프리랜서, 이벤트 참가자를 위한 프라이버시 중심 QR 교환기 앱입니다. 사용자는 일회용 또는 기간제 가상 프로필을 생성해 안전하게 정보를 전달하고, 연결 종료 시 즉시 소멸하는 효용을 누립니다.",
+        "source_relation_and_difference_ko": "원본 앱이 지닌 즉각적인 카메라 뷰파인더 스캔 흐름과 템플릿 기반의 빠르고 직관적인 QR 코드 생성 메커니즘을 그대로 계승합니다. 차별점으로는 영구적인 개인정보가 담긴 정적 QR 생성에서 벗어나, 유효기간이 지나거나 1회 사용 후 자동 파기되는 '동적 가상 프로필 허브' 규칙을 도입하여 사생활 보호 기능을 대폭 강화했습니다.",
+        "core_user_experience_ko": "사용자는 앱 내에서 일회용 닉네임, 전달할 메시지, 그리고 만료 시간(예: 1시간, 1회용 등)을 설정해 임시 QR 코드를 생성합니다. 상대방이 스마트폰 카메라로 이 코드를 스캔하면, 앱은 즉시 토큰을 해독하고 안전한 인앱 뷰어 창을 열어 상대방에게 임시 프로필 정보를 보여줍니다. 설정된 시간이 지나거나 사용자가 수동 파기하면 해당 링크는 즉시 무효화됩니다.",
+        "features_ko": [
+          {
+            "feature_ko": "기간제 및 1회성 가상 프로필 QR 생성",
+            "user_action_and_behavior_ko": "사용자가 임시 닉네임, 연락용 링크/메시지, 만료 시간을 입력하면 시스템이 고유 해시 토큰을 포함한 QR 코드를 즉시 렌더링하고 로컬에 저장합니다. 개인정보 유출 부담 없는 안전한 명함 교부 가치를 제공합니다.",
+            "practical_implementation_ko": "Flutter 환경에서 `mobile_scanner` 및 `qr_flutter` 라이브러리를 활용하여 로컬에서 QR 이미지를 생성하고, 고유 UUID 토큰과 타임스탬프를 매핑하여 관리."
+          },
+          {
+            "feature_ko": "안전한 카메라 스캔 및 토큰 검증 뷰어",
+            "user_action_and_behavior_ko": "메인 대시보드의 카메라 뷰파인더로 상대방의 GhostLink QR을 스캔하면 앱이 즉시 코드를 디코딩하고 유효성을 판단하여 임시 프로필 뷰어 화면을 엽니다. 악성 링크나 장기 노출 위험을 원천 차단합니다.",
+            "practical_implementation_ko": "실시간 카메라 프레임 분석 모듈과 인앱 웹뷰(또는 커스텀 UI 카드)를 연동하여, 인식된 토큰 데이터를 기반으로 로컬에 저장된 프로필 정보를 안전하게 렌더링."
+          },
+          {
+            "feature_ko": "프로필 수동 파기 및 이력 관리",
+            "user_action_and_behavior_ko": "생성했던 임시 프로필 목록을 한눈에 확인하고, 원할 경우 언제든 즉시 '파기' 버튼을 눌러 링크를 무효화하거나 지난 스캔 기록을 정리할 수 있습니다. 사용자에게 완벽한 통제권을 부여합니다.",
+            "practical_implementation_ko": "로컬 SQLite 또는 Hive/Isar 데이터베이스를 활용하여 프로필의 상태 값('active', 'expired', 'revoked')을 관리하고, 상태 변경 시 실시간 반영."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 대시보드 및 카메라 스캐너 탭",
+            "contents_and_actions_ko": "상단/중앙에 상시 대기하는 실시간 카메라 뷰파인더로 즉시 QR 스캔 가능. 하단 네비게이션을 통해 '내 가상 프로필 관리' 화면으로 이동."
+          },
+          {
+            "screen_ko": "가상 프로필 생성 화면",
+            "contents_and_actions_ko": "임시 닉네임 입력 필드, 공유 메시지/링크 입력 폼, 만료 시간 선택 슬라이더(1회용, 1시간, 24시간 등). 'QR 생성' 터치 시 결과 화면으로 전환."
+          },
+          {
+            "screen_ko": "임시 프로필 상세 및 QR 표시 화면",
+            "contents_and_actions_ko": "생성된 QR 코드 이미지 중앙 배치, 남은 유효 시간 카운트다운 타이머, '즉시 파기' 및 '공유하기' 액션 버튼 제공."
+          },
+          {
+            "screen_ko": "안전 프로필 뷰어 화면 (스캔 결과)",
+            "contents_and_actions_ko": "타인의 QR을 스캔했을 때 나타나는 뷰어 창. 상대방의 임시 닉네임과 메시지만 깔끔하게 표시되며, 만료된 경우 '유효하지 않거나 파기된 링크입니다' 에러 안내 표시."
+          }
+        ],
+        "implementation_approach_ko": "단일 코드로 안드로이드와 iOS를 동시에 타겟팅할 수 있는 Flutter 프레임워크를 채택합니다. 카메라 제어와 QR 라이브러리 생태계가 풍부하여 1인 개발자가 빠르고 안정적으로 UI와 네이티브 기능을 연동할 수 있습니다. 핵심 처리 로직은 로컬 토큰 생성 및 타임스탬프 비교 검증 방식을 채택하며, 향후 서버 연동 확장성을 고려하여 모듈 구조를 분리합니다.",
+        "data_and_storage_ko": [
+          "VirtualProfile 객체: id (String, UUID), aliasName (String), message (String), targetUrl (String), createdAt (Int, Timestamp), expiresAt (Int, Timestamp), isOneTime (Boolean), status (String). 생성 완료 시 로컬 DB에 저장되며 앱 구동 및 스캔 시점에 만료 시간을 비교하여 status 갱신.",
+          "ScanHistory 객체: historyId (String), scannedData (String), scannedAt (Int, Timestamp), profileTitle (String). 스캔 성공 시 자동으로 로컬 기록에 추가되어 이전 만남 요약 확인 지원."
+        ],
+        "mvp_scope_ko": "1개의 임시 닉네임과 링크를 입력해 유효시간이 지정된 QR 코드를 생성하고, 카메라로 이를 인식하여 안전한 뷰어 화면을 띄우는 핵심 루프의 완성. 복잡한 클라우드 회원가입이나 영구 소셜 연동, 다채로운 테마 커스텀마이징은 초기 MVP에서 제외하여 개발 범위를 압축합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 환경 설정 및 카메라 스캔 모듈 구현",
+            "deliverable_and_check_ko": "Flutter 프로젝트 셋업, 카메라 권한 요청 처리 및 `mobile_scanner` 기반의 실시간 QR 인식 프로토타입 구현 여부 확인."
+          },
+          {
+            "stage_ko": "2단계: 가상 프로필 생성 및 QR 코드 렌더링 구현",
+            "deliverable_and_check_ko": "닉네임, 메시지, 만료 시간을 입력받아 `qr_flutter`를 통해 고유 토큰이 담긴 QR 이미지를 화면에 정상 출력하는지 테스트."
+          },
+          {
+            "stage_ko": "3단계: 로컬 저장소 및 만료 시간 제어 로직 통합",
+            "deliverable_and_check_ko": "로컬 DB(Hive/Isar)를 연동하여 프로필 데이터를 저장하고, 타임스탬프 기반으로 만료된 프로필의 상태를 자동으로 'Expired' 처리하는 로직 검증."
+          },
+          {
+            "stage_ko": "4단계: 안전 뷰어 화면 및 전체 유저 플로우 연동",
+            "deliverable_and_check_ko": "스캔된 토큰을 해석하여 임시 프로필 정보를 보여주는 인앱 뷰어 UI와 예외 처리(만료된 코드 스캔 시 에러 안내) 적용 후 통합 흐름 테스트."
+          }
+        ],
+        "possible_extensions_ko": "추후 선택적 클라우드 백업(기기 간 프로필 동기화), 일회용 PIN 번호 보호 기능, QR 코드 디자인 커스텀마이징, 오프라인 블루투스(P2P) 기반 프로필 교환 모드 등의 확장 고려.",
+        "risks_and_open_decisions_ko": [
+          "기술적 위험: 완전한 오프라인 전용 QR 페이로드 방식일 경우, 생성된 이후 원격으로 프로필을 강제 파기(revoked)하는 것이 불가능할 수 있어 향후 서버리스 연동 여부 검토 필요.",
+          "기획적 위험: 사용자가 만료 시간을 너무 짧게 설정하거나 분실했을 때의 UX적 가이드라인 및 경고 문구 설계 필요.",
+          "미확정 규칙: QR 코드에 담기는 데이터의 암호화 수준(AES 등)을 로컬에서 어느 정도까지 적용할지 개발 단계에서 성능과 보안성을 저울질하여 확정할 예정."
+        ],
+        "draft_status_ko": "본 문서는 'GhostLink: 익명 안전 연락처 프로필' 기획을 바탕으로 작성된 1인 모바일 개발 설계 초안이며, 실제 구현, 디바이스 테스트, 배포 및 성능 측정이 완료되지 않은 가상의 기획 설계 문서입니다."
+      },
+      "plan_at": "2026-10-28T05:32:34+09:00",
+      "plan_quota_day": "2026-10-28",
+      "plan_usage": {
+        "promptTokenCount": 2422,
+        "candidatesTokenCount": 2270,
+        "totalTokenCount": 8422,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2422
+          }
+        ],
+        "thoughtsTokenCount": 3730,
+        "serviceTier": "standard"
+      }
+    },
+    "google:com.bigtime.trash.cleaner": {
+      "app_key": "google:com.bigtime.trash.cleaner",
+      "name": "Max Cleaner",
+      "developer": "FWP Bigtime",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.bigtime.trash.cleaner&hl=en&gl=US",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.bigtime.trash.cleaner",
+        "product_kind": "app",
+        "original_experience_ko": "스토어 소개문에 따르면 Max Cleaner는 정크 파일 삭제, 중복 사진 제거, 앱 관리 기능을 통해 스마트폰 저장 공간을 확보하는 도구 앱입니다. AI 해석에 따르면, 이는 안드로이드 파일 시스템 접근 및 해시 비교 알고리즘을 활용한 전형적인 유틸리티 앱으로, 사용자가 기기 관리를 쉽게 하도록 돕는 기능적 명확성을 제공합니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 사실: 정크 파일 정리, 중복 사진 제거, 앱 관리 기능이 포함되어 저장 공간을 확보함.",
+          "AI 해석 한계: 소개문에는 구체적인 파일 탐색 범위, 삭제 알고리즘의 안전성, 안드로이드 Scoped Storage 정책 대응 방식이 명시되어 있지 않음."
+        ],
+        "valuable_elements_ko": [
+          "복잡한 파일 시스템을 사용자가 직관적으로 이해할 수 있는 카테고리(정크, 중복, 앱)로 분류해 보여주는 UX.",
+          "용량 부족 문제를 직접적으로 해결해주는 기능적 명확성과 즉각적인 피드백."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "메모리움: 미디어 캐시 아카이버",
+            "core_idea_ko": "메신저와 SNS 앱이 쌓아두는 방대한 미디어 캐시와 중복 파일을 단순히 삭제하는 대신, 안전하게 압축하거나 선택적으로 아카이빙하여 용량과 추억을 동시에 지키는 스마트 저장소 관리 앱입니다.",
+            "what_to_keep_ko": "저장 공간 분석 엔진과 중복 파일·불필요한 캐시를 식별하는 탐색 로직을 계승하여 용량 확보라는 본질적 목적을 유지합니다.",
+            "what_to_change_ko": "무조건적인 삭제 방식에서 탈피해 '압축 보관', 'AI 기반 중요 미디어 자동 판별', '선택적 클라우드 이관' 등 데이터 손실 불안감을 해소하는 보존형 기능을 도입합니다.",
+            "mobile_use_or_play_ko": "앱을 실행하면 메신저 캐시 점유율을 시각적으로 보여주고, 사용자가 '압축 및 백업' 버튼을 누르면 중요도가 낮은 미디어 파일은 압축하고 중복 파일은 정리하여 즉시 여유 공간을 확보한 후 리포트를 제공합니다.",
+            "key_features_ko": [
+              "메신저 캐시 전용 분석 및 스마트 압축 모듈",
+              "중복 및 저품질 사진 판별 알고리즘",
+              "안전 보관함(아카이브) 및 복원 기능"
+            ],
+            "solo_mvp_and_effort_ko": "1인 개발 시 안드로이드 MediaStore 및 Scoped Storage API를 활용해 특정 메신저 폴더 접근 권한을 확보하는 것이 핵심입니다. UI는 단순 리스트 형태로 구현하여 난이도를 낮추고, 압축 라이브러리를 연동하여 개발 기간을 단축합니다.",
+            "strengths_limits_ko": "장점은 삭제에 대한 사용자 불안을 없애고 실질적인 용량 확보가 가능하다는 점이며, 약점은 압축 및 복원 과정에서 추가적인 로컬 저장소가 일시적으로 필요할 수 있다는 점입니다."
+          },
+          {
+            "title_ko": "클린 루틴: 스마트 용량 자동화 매니저",
+            "core_idea_ko": "사용자가 매번 직접 앱을 실행해 청소할 필요 없이, 스마트폰 사용 패턴을 분석해 주기적으로 불필요한 파일과 미사용 앱을 정리하도록 유도하거나 자동화하는 룰 기반 관리 앱입니다.",
+            "what_to_keep_ko": "정크 파일 탐지 및 설치된 앱 관리 기능을 계승하여 기기 최적화라는 유틸리티 성격을 유지합니다.",
+            "what_to_change_ko": "수동 일회성 청소 방식에서 사용자가 설정한 규칙(예: '다운로드 폴더 30일 경과 파일 자동 알림', '60일 이상 미사용 앱 정리 제안') 기반의 자동화 루틴 시스템으로 변경합니다.",
+            "mobile_use_or_play_ko": "사용자가 맞춤형 청소 주기를 설정하면, 백그라운드 작업 또는 정기 알림을 통해 '이번 주 쌓인 임시 파일 500MB를 정리하시겠습니까?'라는 메시지를 전달하고 원터치로 정리가 완료됩니다.",
+            "key_features_ko": [
+              "사용자 정의 청소 룰(Rule) 설정 엔진",
+              "미사용 앱 및 대용량 파일 주기적 모니터링 알림",
+              "원터치 일괄 최적화 기능"
+            ],
+            "solo_mvp_and_effort_ko": "WorkManager API를 이용한 주기적 백그라운드 작업 구현이 핵심입니다. UI는 설정 화면과 대시보드 위주로 간소화하여 1인 개발자가 빠르게 MVP를 구축할 수 있습니다.",
+            "strengths_limits_ko": "장점은 사용자가 신경 쓰지 않아도 알아서 관리해준다는 편의성이며, 약점은 백그라운드 프로세스 제한(Android 배터리 최적화 정책)으로 인해 주기적 실행이 안정적으로 보장되지 않을 수 있다는 점입니다."
+          },
+          {
+            "title_ko": "스토리지 룸: 디지털 미니멀리즘 시각화 도구",
+            "core_idea_ko": "기존의 딱딱하고 복잡한 파일 목록 형태의 유틸리티에서 벗어나, 스마트폰 저장 공간을 직관적인 방이나 시각적 공간 지도 형태로 표현하여 지루한 청소를 가벼운 정리 게임처럼 느끼게 하는 앱입니다.",
+            "what_to_keep_ko": "파일 카테고리별 용량 분석 및 대용량 파일 식별 기능을 계승하여 저장 공간 가시화 목적을 유지합니다.",
+            "what_to_change_ko": "텍스트와 수치 위주의 지루한 UI를 공간 시각화(TreeMap 또는 방/서랍 컨셉) UI로 전면 개편하고, 직관적인 제스처(쓸어넘기기 등)로 삭제 및 정리를 수행하도록 변경합니다.",
+            "mobile_use_or_play_ko": "앱을 켜면 내 폰의 용량이 어떤 '방'을 얼마나 차지하고 있는지 시각적 지도로 표시되고, 사용자는 가장 큰 방(예: 동영상 폴더)에 들어가 불필요한 파일을 좌우 스와이프하여 버리거나 정리할 수 있습니다.",
+            "key_features_ko": [
+              "저장 공간 시각화 맵(TreeMap 기반 렌더링)",
+              "스와이프 제스처 기반 직관적 파일 삭제 및 정리",
+              "디지털 청소 성취도 및 마일스톤 제공"
+            ],
+            "solo_mvp_and_effort_ko": "Custom View 또는 가벼운 그래픽 라이브러리를 이용해 공간 시각화 UI를 구현하는 것이 초기 난이도입니다. 파일 삭제 로직은 표준 API를 활용하므로 구현 자체는 현실적입니다.",
+            "strengths_limits_ko": "장점은 직관적인 UI로 시각적 만족감과 재미를 준다는 점이며, 약점은 파일 정밀 분류보다 시각적 표현에 치우쳐 실용성이 떨어져 보일 수 있다는 점입니다."
+          }
+        ],
+        "concept_comparison_ko": "세 아이디어 모두 Max Cleaner의 '저장 공간 확보 및 파일 관리'라는 본질을 계승하면서도 차별화된 가치를 지향합니다. 1안(메모리움)은 '무조건 삭제의 불안감'을 압축과 아카이빙으로 해결해 실효성을 높였고, 2안(클린 루틴)은 '수동 청소의 번거로움'을 자동화 룰로 개선했으며, 3안(스토리지 룸)은 '지루한 유틸리티 UI'를 시각적 미니멀리즘으로 전환했습니다. 1안과 2안은 실용적 유틸리티에 강점이 있고, 3안은 사용자 경험(UX)의 참신함에 초점을 둡니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "1안(메모리움: 미디어 캐시 아카이버)을 추천합니다. 기존 클리너 앱들은 실수로 소중한 사진이나 파일이 지워질까 하는 불안감 때문에 사용자가 망설이게 되는 한계가 있습니다. 이를 '압축 및 안전 보관'이라는 대안으로 해결하면서도 메신저 캐시라는 현대 스마트폰 용량 부족의 주원인을 직접 타겟팅하므로, 원본의 유용성을 가장 완성도 높게 발전시킬 수 있습니다. Scoped Storage 제약 내에서 특정 폴더를 타겟팅하는 구현도 명확하여 1인 개발로 실현 가능성이 높습니다.",
+        "next_questions_ko": [
+          "안드로이드 Scoped Storage 정책 변경에 따라 카카오톡이나 텔레그램 등의 외부 메신저 캐시 폴더에 대한 접근 권한을 안정적으로 확보할 수 있는가?",
+          "압축 및 아카이빙 기능 수행 시 발생하는 추가 로컬 저장소 소모량과 사용자 체감 속도 간의 균형을 어떻게 맞출 것인가?"
+        ]
+      },
+      "brief_at": "2026-10-28T06:44:10+09:00",
+      "brief_quota_day": "2026-10-28",
+      "brief_usage": {
+        "promptTokenCount": 1238,
+        "candidatesTokenCount": 2191,
+        "totalTokenCount": 7183,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1238
+          }
+        ],
+        "thoughtsTokenCount": 3754,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.bigtime.trash.cleaner",
+        "product_kind": "app",
+        "selected_concept_title_ko": "메모리움: 미디어 캐시 아카이버",
+        "project_goal_and_audience_ko": "스마트폰 저장 공간 부족으로 인해 일상적인 메신저 사진, 동영상, 캐시 파일을 울며 겨자 먹기로 삭제해야 하는 일반 스마트폰 사용자층을 타겟으로 합니다. '추억을 지우지 않고도 용량을 확보한다'는 명확한 가치를 제공하여 데이터 삭제에 대한 심리적 불안감을 원천 차단하고, 효율적이고 안전한 저장소 관리를 돕는 보존 지향형 모바일 유틸리티 앱입니다.",
+        "source_relation_and_difference_ko": "원본 앱(Max Cleaner)의 핵심 경험인 '스마트폰 저장 공간 분석 엔진'과 '불필요한 캐시 및 파일 탐색 로직'을 계승하여 유틸리티 앱으로서의 직관성과 유용성을 유지합니다. 차별점으로는 무조건적인 파일 삭제 방식에서 탈피하여 '스마트 압축', '안전 보관함(아카이브) 및 복원 기능'을 도입하여 사용자가 데이터 손실 위험 없이 안심하고 용량을 확보할 수 있도록 개선했습니다.",
+        "core_user_experience_ko": "사용자가 앱을 최초 실행하여 권한을 허용하면, 스마트폰 내부의 메신저(카카오톡, 텔레그램 등) 및 SNS 캐시, 중복 미디어 파일의 점유 용량이 카테고리별 원형 차트와 리스트로 시각화됩니다. 사용자가 '스마트 압축 및 보관' 버튼을 누르면 시스템이 저화질 임시 파일과 중복 미디어를 선별하여 압축하고 안전 보관함으로 이동시킵니다. 작업 완료 후 즉시 확보된 여유 용량 리포트가 제공되며, 사용자는 언제든지 보관함에서 원본 파일을 다시 복원할 수 있습니다.",
+        "features_ko": [
+          {
+            "feature_ko": "메신저 캐시 및 미디어 전용 분석 엔진",
+            "user_action_and_behavior_ko": "앱 실행 시 지정된 메신저 및 SNS 앱의 캐시 폴더와 미디어 디렉토리를 스캔하여 점유 용량을 분석하고 카테고리별로 분류하여 화면에 표시합니다. 사용자에게 용량 낭비의 주원인을 직관적으로 인지시킵니다.",
+            "practical_implementation_ko": "Android Scoped Storage 및 MediaStore API, 혹은 SAF(Storage Access Framework)를 활용하여 대상 디렉토리에 안전하게 접근하고, 파일 크기 및 생성일자 메타데이터를 비동기로 수집합니다."
+          },
+          {
+            "feature_ko": "스마트 압축 및 중복 파일 판별 알고리즘",
+            "user_action_and_behavior_ko": "사용자가 '압축 및 정리'를 실행하면 중복 사진 및 저화질 임시 미디어를 식별하여, 파일의 화질 손실을 최소화하거나 용량을 대폭 줄이도록 개별 또는 일괄 압축 처리합니다.",
+            "practical_implementation_ko": "이미지 해시(Perceptual Hash) 알고리즘을 이용해 유사 및 중복 사진을 필터링하고, 가벼운 로컬 압축 라이브러리(예: Zip 아카이브 또는 이미지 최적화 포맷 변환)를 연동하여 처리합니다."
+          },
+          {
+            "feature_ko": "안전 보관함(아카이브) 및 원클릭 복원",
+            "user_action_and_behavior_ko": "압축되거나 이동된 파일들을 안전 보관함 탭에서 모아볼 수 있으며, 나중에 원본이 필요해질 경우 특정 파일을 선택해 원본 위치로 즉시 복원할 수 있습니다.",
+            "practical_implementation_ko": "내부 전용 앱 고립 저장소(Internal App-specific Storage)를 안전 보관함 디렉토리로 활용하고, 원본 파일 경로와 압축 파일 간의 매핑 메타데이터를 로컬 SQLite(Room DB)에 기록합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 대시보드 및 저장소 분석 화면",
+            "contents_and_actions_ko": "현재 총 저장 공간, 사용 중인 용량, 메신저/SNS 캐시가 차지하는 비율을 원형 그래프로 표시. '저장소 정밀 분석' 및 '스마트 압축 시작' 주요 CTA 버튼 배치."
+          },
+          {
+            "screen_ko": "분석 결과 및 항목 상세 리스트 화면",
+            "contents_and_actions_ko": "메신저 캐시, 중복 사진, 임시 미디어 항목이 리스트 형태로 노출됨. 사용자가 개별 항목을 탭하여 미리보기 및 압축 제외 여부를 토글할 수 있음."
+          },
+          {
+            "screen_ko": "안전 보관함(아카이브) 화면",
+            "contents_and_actions_ko": "압축되어 안전하게 보관된 파일 목록 확인, 개별 파일 상세 보기, '원본 복원' 또는 '완전 삭제' 액션 버튼 제공."
+          }
+        ],
+        "implementation_approach_ko": "Kotlin 기반 안드로이드 네이티브 앱으로 개발하며, UI는 선언형 프레임워크인 Jetpack Compose를 사용하여 가볍고 반응 빠른 대시보드를 구현합니다. 안드로이드 Scoped Storage 및 파일 시스템 권한 제어는 네이티브 API 연동이 필수적이므로 순수 Kotlin 구현이 가장 안정적입니다. 데이터 처리는 Coroutines와 Flow를 활용하여 메인 스레드 블로킹을 방지하고, 메타데이터 저장을 위해 Room DB를 채택합니다.",
+        "data_and_storage_ko": [
+          "StorageItemEntity: 파일 고유 ID, 원본 파일 경로, 압축 후 저장 경로, 파일 크기(바이트), 파일 타입(이미지/동영상/캐시), 생성 일시, 압축 여부 상태값을 관리하는 Room Entity.",
+          "ScanReportEntity: 최근 스캔 수행 일시, 총 확보 가능 용량, 정크 파일 개수, 중복 파일 개수 등 대시보드 통계용 메타데이터 객체.",
+          "파일 저장 방식: 실제 압축된 파일은 앱 내부 전용 저장소(Internal Storage)의 안전 보관함 폴더에 저장하고, 파일 읽기/쓰기 및 압축 작업은 백그라운드 코루틴 스레드 풀에서 비동기로 처리합니다."
+        ],
+        "mvp_scope_ko": "첫 번째 유용한 MVP 버전은 카카오톡 등 주요 메신저의 캐시 폴더 및 이미지 디렉토리 스캔, 간단한 파일 크기순 정렬 및 일괄 압축/보관 기능, 그리고 안전 보관함에서의 복원 기능까지로 한정합니다. AI 기반 중요 미디어 자동 판별이나 클라우드 연동 등 복잡한 부가 기능은 제외하여 1인 개발 리소스를 최소화하고, '삭제 불안감 해소 및 확실한 용량 확보'라는 핵심 가치가 안정적으로 작동하는지 검증합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 환경 설정 및 파일 권한 제어 구조 설계",
+            "deliverable_and_check_ko": "Android 스튜디오 프로젝트 셋업, Scoped Storage 권한 요청 플로우 구현 및 단말기 내 특정 디렉토리 접근 가능 여부 테스트."
+          },
+          {
+            "stage_ko": "2단계: 파일 스캔 및 저장소 분석 엔진 구현",
+            "deliverable_and_check_ko": "지정된 디렉토리 내 파일 목록 수집, 파일 크기 및 종류별 분류 로직 구현, 대시보드 UI에 분석 결과 수치 및 그래프 정상 바인딩 확인."
+          },
+          {
+            "stage_ko": "3단계: 압축 및 안전 보관함(아카이브) 모듈 구현",
+            "deliverable_and_check_ko": "선택된 파일을 압축하여 안전 보관함으로 이동시키는 로직, Room DB에 메타데이터 저장 및 원클릭 복원 기능 정상 동작 확인."
+          },
+          {
+            "stage_ko": "4단계: UI 폴리싱 및 MVP 통합 테스트",
+            "deliverable_and_check_ko": "Jetpack Compose 기반 전체 화면 레이아웃 정돈, 예외 상황(저장소 부족, 권한 거부 등) 방어 코드 작성 및 프로토타입 구동 검증."
+          }
+        ],
+        "possible_extensions_ko": "추후 확장 기능으로는 구글 드라이브나 원드라이브 등 클라우드 스토리지 연동을 통한 자동 백업 및 이관 기능, 딥러닝 기반 얼굴 인식 및 중요 인물 사진 자동 제외 기능, 주기적 스캔 및 자동 압축 스케줄링(Background Worker) 기능 등을 고려할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "안드로이드 OS 버전(특히 Android 11+)별 Scoped Storage 및 파일 접근 권한 정책의 엄격성으로 인한 예외 발생 위험 (확인 방법: SAF 및 MediaStore API 활용 표준 준수 여부 테스트)",
+          "대용량 미디어 파일 압축 시 발생하는 CPU 부하 및 배터리 소모 문제 (확인 방법: 백그라운드 작업 시 스레드 풀 최적화 및 사용자 안내 문구 추가)",
+          "원본 스토어 정보(Max Cleaner)의 구체적 내부 알고리즘 부재로 인해 독자적인 압축 및 중복 판별 기준을 설정해야 하는 점 (결정 과제: 프로토타입 테스트를 통한 최적의 압축률 및 해시 임계값 설정)"
+        ],
+        "draft_status_ko": "본 문서는 실제 구현, 단말기별 플레이테스트 및 성능 측정이 완료되지 않은 1인 모바일 앱 개발 설계 초안입니다."
+      },
+      "plan_at": "2026-10-28T06:44:30+09:00",
+      "plan_quota_day": "2026-10-28",
+      "plan_usage": {
+        "promptTokenCount": 1979,
+        "candidatesTokenCount": 2303,
+        "totalTokenCount": 7074,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1979
+          }
+        ],
+        "thoughtsTokenCount": 2792,
+        "serviceTier": "standard"
+      }
+    },
+    "google:com.brighteasestudio.pdfreader.pdfeditor": {
+      "app_key": "google:com.brighteasestudio.pdfreader.pdfeditor",
+      "name": "PDF뷰어: PDF 에디터, 변환기 & 스캐너",
+      "developer": "BrightEase Studio",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.brighteasestudio.pdfreader.pdfeditor&hl=ko&gl=KR",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.brighteasestudio.pdfreader.pdfeditor",
+        "product_kind": "app",
+        "original_experience_ko": "휴대폰 환경에서 다양한 포맷(PDF, 이미지, 오피스 문서)을 하나의 앱 안에서 읽고, 주석을 달며, 카메라 스캔과 포맷 변환, 파일 병합/분할까지 처리하는 올인원 문서 관리 도구 경험.",
+        "source_facts_and_limitations_ko": [
+          "스토어 사실: PDF 뷰어, 주석(형광펜, 메모, 자유 그리기), 카메라 스캔, 이미지/오피스 파일의 PDF 변환, 파일 병합/분할 및 오프라인 관리 기능을 제공함.",
+          "해석의 한계: 소개문에 언급된 기능들이 단일 라이브러리로 통합 구현되었는지, 클라우드 백업이나 OCR 정확도가 어느 정도 수준인지는 스토어 정보만으로 확정할 수 없음."
+        ],
+        "valuable_elements_ko": [
+          "여러 앱을 오가지 않고 문서 조회부터 가공, 관리까지 완결하는 '올인원 워크플로우' 편의성",
+          "인터넷 연결이 없는 환경에서도 로컬 저장소 기반으로 작동하는 오프라인 무결성",
+          "종이 문서 스캔부터 디지털 파일 변환, 병합에 이르는 직관적인 문서 자산화 흐름"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "영수증·지출증빙 스마트 가계부 및 PDF 번들러",
+            "core_idea_ko": "일반적인 PDF 편집 도구에서 벗어나, 프리랜서나 소상공인이 일상에서 마주하는 종이 영수증과 청구서 스캔부터 지출결의서 PDF 자동 생성 및 월별 세무 증빙 번들링까지 특화된 모바일 문서-재무 관리 앱.",
+            "what_to_keep_ko": "종이 문서 카메라 스캔, 여러 문서를 하나로 합치는 병합 기능, 오프라인 파일 관리 및 로컬 저장 구조를 그대로 계승합니다.",
+            "what_to_change_ko": "범용 문서 편집 대신 로컬 OCR을 활용해 영수증 내 공급가액, 부가세, 날짜를 자동 파싱하고 월별·카테고리별 세무 보고용 PDF로 자동 구조화하는 규칙을 도입합니다.",
+            "mobile_use_or_play_ko": "사용자가 지출 영수증을 카메라로 촬영하면, 앱이 영역을 자동 크롭하고 로컬 OCR로 금액과 날짜를 추출해 현재 월의 '지출 증빙 보고서 PDF'에 표 형식으로 자동 정렬·추가합니다.",
+            "key_features_ko": [
+              "모바일 카메라 기반 영수증 자동 크롭 및 로컬 OCR 메타데이터(금액/날짜) 추출",
+              "월별/카테고리별 지출 내역 요약 표가 포함된 세무용 PDF 자동 생성 및 번들링",
+              "지출 증빙 파일의 로컬 태깅 및 날짜순/금액순 정렬 필터"
+            ],
+            "solo_mvp_and_effort_ko": "Android CameraX, ML Kit(Text Recognition), 네이티브 PdfDocument API를 활용해 구현합니다. OCR 레이아웃 매핑과 표 정렬 로직 구현에 중간 정도의 개발 난이도가 요구됩니다.",
+            "strengths_limits_ko": "범용 PDF 앱 대비 프리랜서/1인 사업자의 명확한 페인포인트(영수증 분실 방지 및 세무 정리)를 해결하지만, 다양한 영수증 포맷에 따른 OCR 인식률 예외 처리가 과제로 남습니다."
+          },
+          {
+            "title_ko": "연구원·학생을 위한 논문 음성 요약 및 마인드맵 리더",
+            "core_idea_ko": "긴 학술 논문이나 전공 서적 PDF를 읽을 때 텍스트를 음성(TTS)으로 들으면서 핵심 문장 추출과 마인드맵 노드 생성을 동시에 수행할 수 있는 스마트 학습 전용 PDF 리더.",
+            "what_to_keep_ko": "PDF 렌더링 뷰어, 형광펜 및 메모 주석 레이어, 텍스트 복사 및 검색 기능을 계승합니다.",
+            "what_to_change_ko": "일반 파일 변환 및 스캔 기능 대신, 텍스트 음성 변환(TTS) 플레이어와 하이라이트 문장을 시각적 마인드맵 노드로 자동 변환하는 학습용 상호작용 규칙으로 대체합니다.",
+            "mobile_use_or_play_ko": "사용자가 논문 PDF를 열어 중요 주장을 형광펜으로 드래그하면, 앱이 이를 인식해 사이드 패널에 마인드맵 노드로 추가하고, 이동 중에 해당 섹션을 TTS 음성으로 연속 청취합니다.",
+            "key_features_ko": [
+              "PDF 본문 텍스트의 자연스러운 구간별 TTS 오디오 플레이어",
+              "형광펜 및 주석을 기반으로 한 계층형 마인드맵 노드 자동 추출",
+              "2단 레이아웃 논문 독서를 위한 화면 분할 및 텍스트 리플로우 뷰"
+            ],
+            "solo_mvp_and_effort_ko": "Android PdfRenderer, Android TextToSpeech 엔진, 커스텀 Canvas 기반 마인드맵 UI를 결합합니다. 복잡한 2단 레이아웃 텍스트 추출 및 정렬 처리에 높은 구현 노력이 필요합니다.",
+            "strengths_limits_ko": "학습 효율성을 극대화하여 학생층에게 높은 매력을 주지만, 정형화되지 않은 학술 PDF의 텍스트 추출 순서(Reading Order) 오류를 보정하는 기술적 부담이 있습니다."
+          },
+          {
+            "title_ko": "모바일 간이 계약서 대면 서명 및 법적 체크리스트 도우미",
+            "core_idea_ko": "각종 계약서, 동의서, 임대차 양식 PDF를 스마트폰에서 불러와 필수 조항 체크리스트를 검토하고, 즉석에서 서명을 받아 보안 잠금된 PDF로 완성하는 모바일 계약 검토 도구.",
+            "what_to_keep_ko": "PDF 뷰어의 확대/축소, 텍스트 검토 기능, 오프라인 문서 관리 및 호환 앱 공유 기능을 계승합니다.",
+            "what_to_change_ko": "범용 편집 및 스캔 대신 계약 필수 조항 체크리스트 오버레이, 타임스탬프가 포함된 터치 서명 레이어, 읽기 전용 보안 잠금 기능을 결합합니다.",
+            "mobile_use_or_play_ko": "사용자가 계약서 PDF를 열어 '필수 조항 검토 체크리스트'를 완료한 뒤, 하단 서명란에 터치/스타러스로 서명하면 타임스탬프와 함께 위변조 방지 잠금 PDF로 내보내집니다.",
+            "key_features_ko": [
+              "계약서 필수 확인 사항 체크리스트 오버레이 검증 모드",
+              "타임스탬프 및 메타데이터가 포함된 디지털 서명(Signature) 스탬프 레이어",
+              "생체 인증(Biometric) 또는 비밀번호 기반 PDF 쓰기 금지 잠금"
+            ],
+            "solo_mvp_and_effort_ko": "PdfRenderer 위에 투명 Canvas를 얹어 서명 좌표를 렌더링하고, BiometricPrompt API와 PdfDocument를 연동합니다. 중간 수준의 개발 난이도입니다.",
+            "strengths_limits_ko": "외근이 잦은 영업직이나 소상공인에게 실용적이지만, 법적 효력을 가진 공인인증서 연동 대신 시각적 서명에 국한되므로 정식 전자계약 서비스와의 차별점 및 한계를 명확히 해야 합니다."
+          }
+        ],
+        "concept_comparison_ko": "세 아이디어 모두 원본의 'PDF 문서 관리·조회·가공'이라는 뼈대를 유지하면서 타겟 사용자의 구체적 업무 흐름에 맞춰 진화했습니다. 1안(영수증 가계부)은 세무 관리라는 실용적 자동화에 집중했고, 2안(학습 리더)은 음성과 마인드맵으로 읽기 경험을 확장했으며, 3안(계약 서명)은 대면 업무의 보안과 체크리스트 검토에 특화되었습니다. 1안과 3안이 일상적인 1인 개발 및 실용성 측면에서 구현 부담이 적고 명확한 타겟층을 가집니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "1안(영수증·지출증빙 스마트 가계부 및 PDF 번들러)은 원본이 가진 '카메라 스캔', 'PDF 병합', '오프라인 관리'라는 강점을 가장 직관적으로 이어받으면서도, 단순 뷰어를 넘어선 '자동 메타데이터 추출 및 세무 번들링'이라는 명확한 실용적 차별점을 제공합니다. 1인 모바일 개발자가 Android ML Kit과 PdfDocument를 활용해 현실적인 MVP를 구현하기에 적절하며, 프리랜서나 소상공인 등 명확한 타겟층의 반복 사용을 유도할 수 있습니다.",
+        "next_questions_ko": [
+          "다양한 형태의 영수증(간이영수증, 신용카드 매출전표)을 로컬 OCR로 안정적으로 파싱하기 위한 정규식 및 키워드 추출 규칙의 최소 정확도를 어떻게 확보할 것인가?",
+          "월별 PDF 번들링 시, 사용자가 수동으로 카테고리를 수정해야 하는 UI/UX 마찰을 최소화할 수 있는 가장 간결한 모바일 상호작용 방식은 무엇인가?"
+        ]
+      },
+      "brief_at": "2026-10-28T07:11:14+09:00",
+      "brief_quota_day": "2026-10-28",
+      "brief_usage": {
+        "promptTokenCount": 1968,
+        "candidatesTokenCount": 2288,
+        "totalTokenCount": 5723,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1968
+          }
+        ],
+        "thoughtsTokenCount": 1467,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.brighteasestudio.pdfreader.pdfeditor",
+        "product_kind": "app",
+        "selected_concept_title_ko": "영수증·지출증빙 스마트 가계부 및 PDF 번들러",
+        "project_goal_and_audience_ko": "프리랜서, 1인 사업자, 소상공인을 위한 모바일 지출 증빙 및 세무 보고서 PDF 자동화 앱입니다. 일상에서 쏟아지는 종이 영수증과 청구서를 수동으로 철하고 정리하는 번거로움을 해결하여, 촬영만으로 지출 데이터를 구조화하고 월별 세무 신고용 PDF 번들 문서를 자동으로 생성해 주는 실용적인 효용을 제공합니다.",
+        "source_relation_and_difference_ko": "원본이 가진 핵심 경험인 '종이 문서 카메라 스캔', '다수 문서의 PDF 병합', '오프라인 환경에서의 로컬 파일 관리'를 그대로 계승합니다. 차별점으로는 범용적인 범프/주석 편집 기능 대신, 로컬 OCR(텍스트 인식)을 결합하여 영수증의 공급가액, 부가세, 날짜를 자동 파싱하고 세무 증빙 표준 템플릿 형태의 PDF로 자동 구조화하여 번들링하는 자동화 규칙을 도입했습니다.",
+        "core_user_experience_ko": "사용자가 지출 발생 시 앱을 열어 카메라로 영수증을 촬영하면, 시스템이 실시간으로 문서 모서리를 감지해 자동 크롭하고 로컬 OCR 엔진을 통해 날짜·금액 메타데이터를 추출합니다. 사용자는 추출된 값을 간단히 확인·수정하고 저장하며, 앱은 이를 누적하여 매월 말 클릭 한 번으로 '월별 지출 증빙 요약 보고서 PDF'를 생성하고 개별 영수증 이미지와 함께 하나의 압축된 PDF 번들 파일로 묶어줍니다.",
+        "features_ko": [
+          {
+            "feature_ko": "카메라 영수증 스캔 및 자동 엣지 크롭",
+            "user_action_and_behavior_ko": "사용자가 카메라 버튼을 눌러 영수증을 비추면, 앱이 OpenCV 또는 뷰파인더 가이드를 통해 영수증 영역을 자동 인식하고 왜곡을 보정하여 깨끗한 흑백/컬러 스캔본으로 캡처합니다.",
+            "practical_implementation_ko": "Android CameraX API와 ML Kit Document Scanner API(또는 커스텀 윤곽선 검출 알고리즘)를 활용하여 1인 개발 환경에서도 안정적인 스캔 모듈을 구현합니다."
+          },
+          {
+            "feature_ko": "로컬 OCR 기반 메타데이터 자동 추출",
+            "user_action_and_behavior_ko": "스캔된 영수증 이미지에서 텍스트를 판독하여 날짜(YYYY-MM-DD), 총 금액, 공급자 상호명을 정규식(Regex) 매칭으로 자동 추출하여 입력 폼에 채워줍니다.",
+            "practical_implementation_ko": "Google ML Kit Text Recognition(온디바이스)을 사용하여 오프라인 상태에서도 프라이버시 침해 없이 빠르게 텍스트를 추출하고, 키워드 기반 정규식 필터링 로직을 적용합니다."
+          },
+          {
+            "feature_ko": "월별 세무용 PDF 자동 번들링",
+            "user_action_and_behavior_ko": "사용자가 지정한 월의 모든 지출 내역을 요약 표(테이블) 형태로 정렬하고, 각 영수증 스캔 이미지를 첨부 페이지로 포함한 종합 세무 증빙 PDF 문서를 자동으로 컴파일하여 저장합니다.",
+            "practical_implementation_ko": "Android 플랫폼 내장 `android.graphics.pdf.PdfDocument` API를 활용하여 캔버스(Canvas) 위에 표와 텍스트, 비트맵 이미지를 직접 그려 표준 PDF 파일을 생성합니다."
+          },
+          {
+            "feature_ko": "오프라인 로컬 저장소 및 카테고리 필터링",
+            "user_action_and_behavior_ko": "생성된 PDF와 개별 영수증 데이터는 인터넷 연결 없이도 로컬에 안전하게 보관되며, 날짜순, 금액순, 카테고리(식비, 소모품, 교통 등)별로 정렬 및 검색할 수 있습니다.",
+            "practical_implementation_ko": "Room Database를 통해 메타데이터와 파일 경로를 관리하고, 앱의 내부 전용 저장소(Internal Storage)에 PDF 및 이미지 파일을 안전하게 저장합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "월별 대시보드 화면",
+            "contents_and_actions_ko": "현재 월의 총 지출액 요약, 카테고리별 비율, 최근 저장된 영수증 목록 표시. 상단 'PDF 번들 생성' 버튼과 하단 '영수증 추가(카메라)' 플로팅 버튼 제공."
+          },
+          {
+            "screen_ko": "카메라 스캔 및 캡처 화면",
+            "contents_and_actions_ko": "카메라 뷰파인더와 영수증 가이드 라인 표시. 자동 캡처 또는 수동 셔터 조작 후 캡처된 이미지 미리보기 및 자르기(Crop) 조정 단계로 이동."
+          },
+          {
+            "screen_ko": "OCR 결과 확인 및 수정 화면",
+            "contents_and_actions_ko": "스캔된 영수증 이미지와 함께 추출된 날짜, 금액, 상호명, 카테고리 입력 폼 표시. 사용자가 오인식된 텍스트를 직접 터치해 수정하고 '저장' 버튼을 눌러 DB에 반영."
+          },
+          {
+            "screen_ko": "PDF 번들 뷰어 및 내보내기 화면",
+            "contents_and_actions_ko": "생성된 월별 세무 증빙 PDF를 미리보기하고, 기기 내 다른 앱(이메일, 메신저, 클라우드)으로 공유하거나 로컬 폴더에 내보내기 조작 수행."
+          }
+        ],
+        "implementation_approach_ko": "Android Native(Kotlin + Jetpack Compose) 스택을 채택합니다. Compose를 통해 직관적이고 반응 빠른 UI를 구축할 수 있으며, Jetpack 라이브러리(CameraX, Room, ViewModel)와의 궁합이 뛰어납니다. PDF 렌더링 및 생자는 외부 대형 라이브러리 의존성을 낮추기 위해 안드로이드 기본 PdfDocument와 PdfRenderer를 우선 활용합니다. 대안으로 iText나 PdfBox의 안드로이드 포트를 검토할 수 있으나, 용량과 빌드 복잡성을 고려해 1인 개발에는 네이티브 API와 경량 유틸리티 조합이 가장 유리합니다.",
+        "data_and_storage_ko": [
+          "ReceiptEntity (Room DB): id (Long, PK), date (String), amount (Double), supplier (String), category (String), imagePath (String), createdAt (Long). 영수증 개별 메타데이터를 저장하며 앱 실행 시 로컬에서 즉시 로드.",
+          "MonthlyReportMeta (Room DB): yearMonth (String, PK), totalAmount (Double), pdfFilePath (String), isExported (Boolean). 월별 집계된 PDF 파일 경로와 요약 정보를 관리.",
+          "파일 저장 방식: 앱 내부 저장소(`context.filesDir`) 내 `receipts/` 디렉토리에 원본 이미지와 생성된 PDF 파일을 저장하여 보안성을 높이고 외부 앱과의 권한 충돌 방지."
+        ],
+        "mvp_scope_ko": "첫 번째 MVP는 '카메라 촬영 -> 로컬 OCR 자동 금액/날짜 인식 -> Room DB 저장 -> 단일 월 기준 요약 표와 이미지가 포함된 PDF 번들 생성 및 공유'의 핵심 루프에만 집중합니다. 클라우드 자동 백업, 복잡한 회계 소프트웨어 연동, 다국어 통화 환산 등 부가 기능은 초기 버전에서 과감히 제외하여 개발 기간을 단축합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 구조 및 로컬 DB 설계",
+            "deliverable_and_check_ko": "Jetpack Compose 기반 기본 네비게이션 뼈대 구축, Room DB 엔티티 및 DAO 정의. 더미 데이터를 대시보드 화면에 리스트로 렌더링할 수 있는지 확인."
+          },
+          {
+            "stage_ko": "2단계: 카메라 스캔 및 OCR 연동",
+            "deliverable_and_check_ko": "CameraX를 이용한 촬영 화면 구현 및 ML Kit Text Recognition 연동. 실제 영수증 촬영 시 텍스트가 정상 파싱되어 입력 폼에 채워지는지 디버그 로그 및 UI로 확인."
+          },
+          {
+            "stage_ko": "3단계: PDF 번들 생성 엔진 구현",
+            "deliverable_and_check_ko": "PdfDocument를 이용해 특정 월의 DB 레코드를 표로 그리고, 첨부된 영수증 이미지를 다음 페이지에 삽입하는 PDF 생성 로직 구현. 생성된 PDF를 내부 뷰어로 열어 형태를 확인."
+          },
+          {
+            "stage_ko": "4단계: UI 통합 및 공유 기능 완성",
+            "deliverable_and_check_ko": "촬영부터 DB 저장, 월별 PDF 생성 및 시스템 공유 팝업 호출까지의 전체 사용자 플로우 테스트. 예외 상황(빈 입력값, 카메라 권한 거부 등) 방어 코드 점검."
+          }
+        ],
+        "possible_extensions_ko": "핵심 경험이 안정화된 이후, 구글 드라이브나 원드라이브 등 클라우드 스토리지 자동 백업 기능, 세무사 이메일 원클릭 전송 기능, 지출 항목별 통계 차트(MPAndroidChart 활용) 시각화 기능을 확장할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "OCR 인식률 리스크: 구겨지거나 감열지가 바랜 영수증의 경우 텍스트 인식이 누락될 수 있으므로, 사용자가 수동으로 값을 쉽게 교정할 수 있는 UI 편의성을 강화해야 함.",
+          "PDF 레이아웃 정렬 결정: 다양한 해상도의 영수증 이미지를 PDF 페이지에 일관되게 배치하기 위한 비트맵 리사이징 및 캔버스 좌표 계산 규칙은 프로토타입 테스트 과정에서 조정 필요."
+        ],
+        "draft_status_ko": "본 문서는 실제 구현, 기기 테스트, OCR 정확도 및 성능 측정이 완료되지 않은 1인 모바일 개발 설계 초안입니다."
+      },
+      "plan_at": "2026-10-28T07:11:30+09:00",
+      "plan_quota_day": "2026-10-28",
+      "plan_usage": {
+        "promptTokenCount": 2760,
+        "candidatesTokenCount": 2451,
+        "totalTokenCount": 6199,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2760
+          }
+        ],
+        "thoughtsTokenCount": 988,
+        "serviceTier": "standard"
+      }
+    },
+    "apple:1515877221": {
+      "app_key": "apple:1515877221",
+      "name": "ブルーアーカイブ",
+      "developer": "Yostar, Inc.",
+      "source": "apple",
+      "kind": "game",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%83%96%E3%83%AB%E3%83%BC%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96/id1515877221?uo=2",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:1515877221",
+        "product_kind": "game",
+        "original_experience_ko": "스토어 소개에 따르면, 본 원작은 '학원×청춘×이야기 RPG' 장르로, 가상의 거대 학원 도시 '키보토스'를 배경으로 합니다. 사용자는 '선생님'이 되어 개성 있는 학생들을 지휘하고, 3D 실시간 전투를 수행하며, 고품질 2D 애니메이션과 유대감(호감도) 시스템을 통해 캐릭터와 상호작용하는 경험을 제공받습니다. (근거: 스토어 설명. 단, 실제 전투 알고리즘이나 구체적인 스테이지 구성 등은 관측되지 않은 AI 해석 영역임)",
+        "source_facts_and_limitations_ko": [
+          "확인된 사실: Yostar가 퍼블리싱하는 학원물 수집형 RPG이며, 3D 캐릭터 실시간 전투, 고품질 2D 애니메이션 연출, 캐릭터 유대감/상호작용 시스템이 포함되어 있음.",
+          "한계와 미확인 정보: 스토어 텍스트만으로는 구체적인 전투 조작 방식(자동 vs 수동 스킬 사용 비율), 캐릭터 성장 곡선, 가챠 및 재화 경제 시스템, 서버 통신 구조 등을 확인할 수 없음."
+        ],
+        "valuable_elements_ko": [
+          "매력적인 2D/3D 캐릭터 비주얼과 애니메이션 연출: 사용자가 캐릭터에 강한 애착을 느끼게 만드는 핵심 동기.",
+          "학원 및 청춘을 배경으로 한 서사 구조와 유대감 시스템: 단순 반복 전투를 넘어서는 정서적 몰입 요소."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "방과 후 택틱스 노트",
+            "core_idea_ko": "하이엔드 3D 리소스 제작 부담을 덜어내기 위해, 귀여운 픽셀 아트(도트) 기반의 그리드 택틱스 전투와 학원 동아리 경영 시뮬레이션을 결합한 모바일 RPG.",
+            "what_to_keep_ko": "개성 넘치는 캐릭터들의 성격, 학원 세계관 속에서 벌어지는 소소한 트러블과 청춘 스토리, 캐릭터와의 깊은 유대감 시스템.",
+            "what_to_change_ko": "복잡한 3D 실시간 슈팅 전투 대신 직관적인 2D 그리드 턴제 전술 전투로 변경하여 1인 개발 환경에서 구현 가능하도록 리소스와 로직을 경량화.",
+            "mobile_use_or_play_ko": "메인 화면에서 학생들의 동아리 스케줄을 관리하고 호감도를 올린 뒤, 스테이지 진입 시 4명의 학생을 그리드 맵에 배치해 적의 이동 경로를 예측하며 스킬을 사용해 승리한다.",
+            "key_features_ko": [
+              "도트 캐릭터 기반의 간소화된 턴제 전술 전투 시스템",
+              "동아리실 커스텀 및 학생 개별 스케줄 관리 매니지먼트",
+              "선택지에 따라 변화하는 인연 이벤트 및 메신저 대화 UI"
+            ],
+            "solo_mvp_and_effort_ko": "Unity 엔진을 활용해 기본 그리드 이동 로직과 턴 처리, 2D 스프라이트 애니메이션을 구현. 에셋 스토어의 픽셀 아트 리소스를 활용해 그래픽 제작 시간을 최소화하고 코어 루프(육성-전투-서사) 검증에 집중.",
+            "strengths_limits_ko": "장점은 1인 개발이 가능한 리소스 범위 내에서 원작의 전술적 지휘와 캐릭터 애정이라는 핵심 재미를 구현할 수 있다는 점. 약점은 원작의 화려한 3D/2D 애니메이션 연출이 주는 시각적 몰입감을 온전히 대체하기 어렵다는 점."
+          },
+          {
+            "title_ko": "모모톡 다이어리: 방과 후 메신저",
+            "core_idea_ko": "전투 요소를 과감히 배제하고, 스마트폰 메신저와 스케줄러를 중심으로 캐릭터들과 대화하며 관계를 쌓아가는 인터랙티브 내러티브 어드벤처 게임.",
+            "what_to_keep_ko": "매력적인 미소녀 캐릭터 라인업, 메신저 앱 형태의 독특한 상호작용 방식, 학원 도시의 일상적인 분위기와 서사.",
+            "what_to_change_ko": "전투와 성장 시스템을 완전히 제거하고, 실시간 반응형 메시지, 다중 선택지 내러티브, 가상의 SNS 피드 관리 등 스토리텔링과 캐릭터 소통에 100% 집중.",
+            "mobile_use_or_play_ko": "알림으로 도착한 학생의 메신저 메시지를 확인하고 답변을 고르며 호감도를 올리고, 주간 스케줄을 짜서 특정 장소에서 학생들과 우연한(?) 만남을 가지며 숨겨진 스토리를 해제한다.",
+            "key_features_ko": [
+              "실시간 알림 및 선택지 기반의 가상 메신저 시뮬레이션",
+              "캐릭터 일러스트의 미세한 표정 변화(Live2D 또는 파츠 애니메이션)",
+              "학원 도시 내 장소별 스케줄링 및 이벤트 탐색 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "텍스트 파서, 대화 트리 관리 구조, 기본 UI/UX 구현에만 집중하므로 프로그래밍 난이도가 낮음. 단, 방대한 시나리오 텍스트와 대사 분량을 혼자서 작성해야 하므로 작화 및 시나리오 창작 리소스가 개발 병목이 됨.",
+            "strengths_limits_ko": "장점은 개발 복잡도가 낮고 서브컬처 팬층의 핵심 니즈인 '캐릭터와의 교감'을 깊게 파고들 수 있다는 점. 약점은 반복 플레이 요소(리플레이성)가 부족하고 전투가 없어 대중적 인지도를 얻기 어려울 수 있음."
+          },
+          {
+            "title_ko": "청춘 디펜스: 카드와 학생들",
+            "core_idea_ko": "수집한 학생 캐릭터 카드를 활용해 웨이브 형태로 몰려오는 적의 공세로부터 학원을 방어하는 로그라이크 덱빌딩 게임.",
+            "what_to_keep_ko": "다양한 특성을 가진 학생들의 고유 스킬, '선생님'으로서 학생들을 적재적소에 배치하고 지휘하는 리더십 경험.",
+            "what_to_change_ko": "실시간 3D 컨트롤 대신 카드 드로우 및 자원(코스트) 관리 기반의 타워 디펜스/덱빌딩 규칙을 적용해 전략적 깊이를 높이고 개발 공수를 줄임.",
+            "mobile_use_or_play_ko": "매 턴 무작위로 배정되는 학생 카드를 코스트에 맞춰 전장에 소환하고, 적의 공격 속성에 맞춰 진형을 재배치하며 스테이지 최종 보스를 격파한다.",
+            "key_features_ko": [
+              "학생 고유 능력을 카드로 구현한 로그라이크 덱빌딩 시스템",
+              "디펜스 맵에서 벌어지는 실시간 코스트 매니지먼트 전투",
+              "스테이지 클리어 시 무작위 스킬 강화 및 동료 합류 구조"
+            ],
+            "solo_mvp_and_effort_ko": "2D 일러스트와 카드 UI, 턴/웨이브 관리 시스템 위주로 구현. 기존 덱빌딩 게임의 오픈소스 구조나 템플릿을 응용하면 1인이 단기간 내 프로토타입을 완성할 수 있음.",
+            "strengths_limits_ko": "장점은 중독성 있는 게임플레이 루프와 전략적 재미를 확보하기 쉽다는 점. 약점은 원작의 서사적 몰입감이나 캐릭터와의 일상적 교감이라는 감성적 요소가 다소 희석될 수 있음."
+          }
+        ],
+        "concept_comparison_ko": "1안(방과 후 택틱스 노트)은 전술 전투와 경영을 결합하여 원본의 게임플레이 감성을 2D로 균형 있게 재현하나 리소스가 다소 필요합니다. 2안(모모톡 다이어리)은 개발 부담이 가장 낮고 캐릭터 교감에 집중하지만 전투 재미가 없습니다. 3안(청춘 디펜스)은 덱빌딩을 통해 게임성을 높였으나 감성적 서사가 약화됩니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "1안 '방과 후 택틱스 노트'는 원본의 핵심인 '지휘관으로서의 학생 배치 및 전투'와 '학원 일상'이라는 두 가지 축을 픽셀 아트라는 1인 개발 가능한 형태로 가장 조화롭게 재해석했습니다. 과도한 3D 그래픽 리소스 부담을 피하면서도 모바일에서 몰입감 있는 플레이 루프를 만들 수 있습니다.",
+        "next_questions_ko": [
+          "픽셀 아트 애니메이션 제작을 외주/에셋으로 해결할 것인가, 최소한의 스켈레탈 2D 애니메이션으로 대체할 것인가?",
+          "전투 중 플레이어의 개입 강도를 어느 정도로 둘 것인가(완전 자동 스킬 vs 수동 조작 그리드 이동)?",
+          "학원 경영(스케줄) 파트와 전투 파트의 플레이 타임 비중을 어떻게 배분할 것인가?"
+        ]
+      },
+      "brief_at": "2026-10-28T07:30:25+09:00",
+      "brief_quota_day": "2026-10-28",
+      "brief_usage": {
+        "promptTokenCount": 1597,
+        "candidatesTokenCount": 2243,
+        "totalTokenCount": 5079,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1597
+          }
+        ],
+        "thoughtsTokenCount": 1239,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:1515877221",
+        "product_kind": "game",
+        "selected_concept_title_ko": "방과 후 택틱스 노트",
+        "project_goal_and_audience_ko": "귀여운 캐릭터와 서브컬처 감성을 좋아하는 모바일 게이머, 특히 과도한 3D 그래픽 리소스와 복잡한 실시간 조작의 압박 없이 전략과 캐릭터 육성을 가볍게 즐기고 싶은 유저층을 대상으로 합니다. 학원 도시를 배경으로 학생 캐릭터들과 유대감을 쌓고, 턴제 그리드 전술 전투를 통해 지휘관으로서의 두뇌 플레이와 청춘 서사적 몰입을 동시에 느낄 수 있도록 설계되었습니다.",
+        "source_relation_and_difference_ko": "원본에서 유지한 핵심 경험은 개성 넘치는 학생 캐릭터들의 성격, 학원 세계관 속에서 벌어지는 소소한 트러블을 해결하는 청춘 서사, 캐릭터와의 깊은 유대감(호감도) 시스템입니다. 새로운 개선 요소로는 고비용의 3D 실시간 전투 및 애니메이션 연출 대신, 직관적인 2D 픽셀 아트 기반의 그리드 턴제 전술 전투와 동아리실 경영 시뮬레이션을 결합하여 1인 개발 환경에서 구현 가능하도록 로직과 리소스를 효율화한 점이 있습니다.",
+        "core_user_experience_ko": "사용자는 메인 동아리실 화면에서 학생들의 스케줄을 관리하고 메신저 대화로 호감도를 높입니다. 스테이지 진입 시 4명의 학생을 그리드 맵 위에 배치하고, 턴마다 이동 및 스킬을 선택해 적의 공격을 예측·반격하며 승리를 거둡니다. 이 과정에서 캐릭터의 개성 있는 도트 애니메이션과 대사가 즉각적인 시각·청각적 피드백으로 제공됩니다.",
+        "features_ko": [
+          {
+            "feature_ko": "그리드 턴제 전술 전투 시스템",
+            "user_action_and_behavior_ko": "2D 격자 맵 상에서 캐릭터를 이동시키고 스킬 코스트를 소모해 적을 공격합니다. 플레이어 턴과 적 턴이 교대하며 승리 조건(적 전멸 등) 달성 시 보상을 획득합니다.",
+            "practical_implementation_ko": "Unity 엔진의 2D Tilemap 시스템을 활용하고, 격자 좌표(Grid Coordinate) 기반의 맨해튼 거리 계산 또는 A* 알고리즘으로 이동 가능 범위를 판정합니다. 코스트 시스템은 정수형 변수로 관리합니다."
+          },
+          {
+            "feature_ko": "동아리실 경영 및 스케줄 매니지먼트",
+            "user_action_and_behavior_ko": "학생들에게 일상 스케줄(수업 참관, 자습, 아르바이트 등)을 배정하여 육성 재화와 호감도 상승 효과를 얻습니다.",
+            "practical_implementation_ko": "시스템 시간(Real-time clock) 또는 인게임 턴 기반 타이머를 적용해 스케줄 완료 시 알림 및 재화 지급 구조를 구현합니다."
+          },
+          {
+            "feature_ko": "인연 이벤트 및 모바일 메신저 UI",
+            "user_action_and_behavior_ko": "호감도가 일정 수준에 도달하면 가상의 메신저 앱 형태의 대화 이벤트가 열리며 선택지에 따라 호감도가 추가 상승합니다.",
+            "practical_implementation_ko": "JSON 데이터로 대화 스크립트와 선택지 분기를 정의하고, UI 패널과 스크롤 뷰를 활용해 메신저 스타일의 타이핑 및 대화 출력 로직을 구현합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 동아리실 (Lobby)",
+            "contents_and_actions_ko": "학생 캐릭터 도트 스프라이트 배치, 스테이지 선택 진입점, 스케줄 관리 메뉴, 메신저 알림 아이콘 표시 및 터치 시 해당 메뉴로 이동."
+          },
+          {
+            "screen_ko": "전술 전투 맵 (Battle)",
+            "contents_and_actions_ko": "그리드 타일맵, 아군/적군 도트 캐릭터 표시, 하단 스킬 카드 및 코스트 UI, 턴 종료 버튼. 유닛 선택 시 이동 가능 범위 하이라이트 및 스킬 대상 지정 조작."
+          },
+          {
+            "screen_ko": "메신저 및 인연 이벤트 (Story/Message)",
+            "contents_and_actions_ko": "모바일 스마트폰 형태의 UI, 캐릭터와의 대화 텍스트 출력, 분기 선택지 버튼 터치를 통한 상호작용."
+          }
+        ],
+        "implementation_approach_ko": "Unity (C#) 엔진을 선택합니다. 멀티플랫폼 대응이 용이하고 2D Tilemap, UI 시스템, 에셋 스토어의 픽셀 아트 리소스를 통합하기 가장 효율적이기 때문입니다. 핵심 로직은 턴 관리 매니저(Turn Manager), 그리드 좌표계 기반 유닛 위치 관리, ScriptableObject 기반 데이터(학생 스탯, 스킬, 대화 스크립트) 구조로 결합합니다. 가볍고 2D에 특화된 Godot Engine도 대안이 될 수 있으나 C# 생태계의 풍부한 패키지 호환성을 우선 고려했습니다.",
+        "data_and_storage_ko": [
+          "StudentData (학생 정보): ID, 이름, 레벨, 스탯(HP, 공격력 등), 보유 스킬, 현재 호감도. PlayerPrefs 또는 로컬 JSON 파일로 직렬화하여 앱 종료 시 저장 및 로드.",
+          "StageData (스테이지 정보): 스테이지 ID, 적 배치 정보, 승리/패배 조건, 클리어 보상 목록. ScriptableObject로 관리.",
+          "PlayerProfile (유저 데이터): 재화(크레딧 등), 클리어한 스테이지 진행도, 해금된 메신저 기록. 로컬 영구 저장소에 JSON 형태로 보존."
+        ],
+        "mvp_scope_ko": "첫 번째 프로토타입(MVP)은 메인 동아리실 로비 진입, 3개 스테이지로 구성된 간단한 그리드 턴제 전투 루프, 1명의 캐릭터와 진행하는 기본 메신저 이벤트 1개로 한정합니다. 멀티플레이, 가챠(확률형 뽑기), 방대한 스토리 분기는 제외하고 코어 루프(육성-전투-서사)의 재미 검증에 집중합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "단계 1: 프로젝트 셋업 및 그리드 이동 시스템",
+            "deliverable_and_check_ko": "Unity 프로젝트 생성, 2D 타일맵 배치, 유닛을 격자 단위로 선택하고 이동시키는 프로토타입 동작 확인."
+          },
+          {
+            "stage_ko": "단계 2: 턴제 전투 로직 및 스킬 코스트 구현",
+            "deliverable_and_check_ko": "아군과 적이 교대로 행동하고 코스트를 소모해 스킬을 사용하며 적을 처치해 스테이지를 클리어하는 전투 루프 동작 확인."
+          },
+          {
+            "stage_ko": "단계 3: 동아리실 로비 및 스케줄/메신저 대화 UI",
+            "deliverable_and_check_ko": "메인 화면에서 스케줄을 실행하고 메신저 이벤트를 열어 선택지를 통해 호감도를 올리는 흐름 확인."
+          },
+          {
+            "stage_ko": "단계 4: 데이터 저장/로드 및 코어 루프 통합",
+            "deliverable_and_check_ko": "앱을 종료 후 재실행해도 데이터가 유지되며 스테이지 클리어-재화 획득-성장으로 이어지는 순환 구조 테스트."
+          }
+        ],
+        "possible_extensions_ko": "추후 확장 요소로는 다양한 특성을 가진 학생 캐릭터 추가, 무작위 맵 요소(엄폐물, 지형 효과) 도입, 동아리실 꾸미기 가구 배치 시스템, 주간 이벤트 던전 등이 있습니다. 단, MVP 단계에서는 배제하여 복잡도를 낮춥니다.",
+        "risks_and_open_decisions_ko": [
+          "기술적 리스크: 그리드 턴제 전투에서 AI 적의 이동 경로 탐색(Pathfinding) 최적화 및 밸런스 조정.",
+          "기획적 리스크: 픽셀 아트 연출만으로 원작의 감성과 청춘 서사의 몰입감을 충분히 전달할 수 있는지 여부.",
+          "확인 방법: 프로토타입 제작 후 소규모 테스트 플레이를 통해 전투의 전략적 재미와 메신저 대화의 감성적 전달력을 점검함."
+        ],
+        "draft_status_ko": "본 문서는 원본 앱/게임의 핵심 경험을 바탕으로 1인 개발 환경에 맞춰 새롭게 재해석한 모바일 개발 설계 초안이며, 실제 구현·플레이테스트 및 성능 측정이 완료되지 않은 제안입니다."
+      },
+      "plan_at": "2026-10-28T07:30:52+09:00",
+      "plan_quota_day": "2026-10-28",
+      "plan_usage": {
+        "promptTokenCount": 2315,
+        "candidatesTokenCount": 2128,
+        "totalTokenCount": 6951,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2315
+          }
+        ],
+        "thoughtsTokenCount": 2508,
+        "serviceTier": "standard"
+      }
+    },
+    "apple:1516365841": {
+      "app_key": "apple:1516365841",
+      "name": "FX検証",
+      "developer": "Shuhei Sakai",
+      "source": "apple",
+      "kind": "app",
+      "detail_url": "https://apps.apple.com/jp/app/fx%E6%A4%9C%E8%A8%BC/id1516365841",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:1516365841",
+        "product_kind": "app",
+        "original_experience_ko": "과거 실제 금융 시장(FX 및 금)의 시계열 데이터를 기반으로 사용자가 특정 시점으로 돌아가 차트를 재생하며 모의 매매와 전략을 검증하는 교육용 시뮬레이션 앱 경험을 제공합니다. (사실: 2015년 이후 데이터 재생, 멀티 차트 뷰, 고정 스프레드 계산 / AI 해석: 리스크 없는 환경에서 트레이딩 심리와 전략을 반복 훈련할 수 있는 도구로 기능함)",
+        "source_facts_and_limitations_ko": [
+          "확인된 사실: 2015년 이후의 주요 FX 통화쌍 및 XAUUSD(금) 과거 데이터 제공, 1분봉부터 월봉까지의 타임프레임 지원, iPhone 최대 3개·iPad 최대 4개 멀티 차트 동시 표시 가능, 실제 자금 거래가 불가능한 시뮬레이션 전용 앱임.",
+          "확인된 사실: 1분봉 데이터 기반으로 작동하여 틱 단위의 정밀한 미세 변동은 미지원하며, 동일 캔들 내에서 손절과 익절 동시 도달 시 손절 우선 처리 및 월별 고정 환율/스프레드를 적용함.",
+          "한계점: 앱 내 데이터의 정확한 외부 출처나 업데이트 주기가 앱 업데이트에 종속되어 있으며, 복잡한 스와프 포인트나 실시간 변동 스프레드는 반영되지 않음."
+        ],
+        "valuable_elements_ko": [
+          "위험 부담 없는 과거 데이터 백테스팅: 실제 자산을 잃을 위험 없이 과거 차트의 흐름을 보며 의사결정을 연습할 수 있는 안전한 학습 환경.",
+          "멀티 타임프레임 연동 뷰: 단기(1분·5분)와 장기(시간·일봉) 차트를 동시에 보며 다각도로 시장을 분석하는 구조.",
+          "시간 제어 재생 기능: 사용자가 직접 차트의 재생 속도를 조절하거나 과거 특정 날짜로 점프할 수 있는 타임라인 탐색 능력."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "차트 타임슬립: 역사적 위기 대응 미션",
+            "core_idea_ko": "자유로운 오픈 백테스팅 대신, 전 세계 금융 역사 속 결정적 사건(예: 브렉시트, 블랙 먼데이, 급격한 금리 인상 발표 순간)에 사용자를 투입하여 제한된 시간 내에 미션을 수행하는 게이미피케이션 시뮬레이션 앱.",
+            "what_to_keep_ko": "과거 시계열 차트 재생 엔진과 다중 통화/자산 데이터 구조를 그대로 계승하여 현실적인 가격 변동 감각을 유지합니다.",
+            "what_to_change_ko": "자유 매매 연습이라는 도구적 성격에서 벗어나, '지정된 드로다운(손실률) 이내로 버티기', '급변동 장세에서 50핍 익절하기' 등의 명확한 클리어 조건과 점수 제도를 도입합니다.",
+            "mobile_use_or_play_ko": "앱 실행 후 역사적 위기 시나리오 목록에서 '2016 브렉시트 개표 방송 당시 GBPUSD'를 선택 -> 차트가 당시 시점으로 로드되고 카운트다운과 함께 재생 시작 -> 급격한 하락 구간에서 손절매 또는 분할 매수 버튼을 터치해 방어 -> 미션 성공 여부와 성과 피드백 확인.",
+            "key_features_ko": [
+              "역사적 변동성 시나리오 팩 (실제 과거 경제 이벤트 기반 미션)",
+              "생존 및 목표 달성형 판정 엔진 (드로다운 제한, 수익 목표 도달)",
+              "모바일 최적화 원터치 주문 및 긴급 청산 컨트롤러",
+              "미션 클리어 랭킹 및 실패 원인 리플레이 분석"
+            ],
+            "solo_mvp_and_effort_ko": "1인 개발 시 외부 히스토리컬 CSV 데이터 중 주요 3개 통화쌍(USDJPY, EURUSD, GBPUSD)의 특정 빅이벤트 구간만 로컬 JSON으로 임베드하고, 오픈소스 차트 라이브러리(예: MPAndroidChart 등)를 활용해 미션 클리어 판정 로직을 구현합니다. 개발 난이도 중급, 약 4~5주 소요.",
+            "strengths_limits_ko": "장점은 일반 초보자도 흥미를 느낄 수 있는 명확한 동기부여와 짧은 플레이 타임입니다. 약점은 시나리오가 고정되어 있어 원작처럼 무한대의 자유로운 과거 검증은 어렵다는 점입니다."
+          },
+          {
+            "title_ko": "트레이드 로그 스튜디오: 소셜 백테스트 쉐어",
+            "core_idea_ko": "자신만의 과거 차트 시뮬레이션 매매 결과를 기록하고, 특정 시점의 차트 재생 상태와 매매 마커를 스냅샷 링크로 만들어 커뮤니티에 공유하거나 타인의 검증 세션을 플레이해 볼 수 있는 소셜 백테스팅 앱.",
+            "what_to_keep_ko": "과거 차트 데이터 재생 기능과 매수/매도 주문 시뮬레이션 로직을 계승하여 개인 학습 도구로의 본질을 유지합니다.",
+            "what_to_change_ko": "단순 개인 연습에 그치지 않고, 차트 특정 구간에 주석과 진입 근거를 달아 '재생 가능한 매매 복기 카드'를 생성하고 이를 타인과 공유하는 소셜 기능을 추가합니다.",
+            "mobile_use_or_play_ko": "과거 차트에서 직접 매매를 시뮬레이션하며 수익을 낸 구간을 마킹 -> '복기 카드 생성'을 눌러 해당 구간의 1분봉 데이터 구간을 클라우드에 스냅샷 저장 -> 공유된 링크를 통해 다른 사용자가 동일한 차트 구간을 열어 플레이하며 내 승률과 비교.",
+            "key_features_ko": [
+              "차트 타임라인 마커 및 텍스트 주석 에디터",
+              "매매 시뮬레이션 결과의 경량화된 스냅샷 직렬화 및 공유",
+              "타인의 복기 세션 재생 및 비교 분석 뷰",
+              "개인별 매매 성향 통계 대시보드 (승률, 최대 낙폭 등)"
+            ],
+            "solo_mvp_and_effort_ko": "Supabase나 Firebase를 활용해 사용자가 저장한 매매 로그(타임스탬프, 주문 내역, 주석)만 가볍게 동기화하고, 차트 데이터는 클라이언트 앱 내장 데이터를 공유하는 방식으로 백엔드 부담을 최소화합니다. 개발 난이도 중상, 약 6주 소요.",
+            "strengths_limits_ko": "장점은 사용자 간 자발적인 콘텐츠 생산과 학습 공유가 가능하다는 점입니다. 약점은 초기 활성 사용자가 적을 경우 소셜 기능의 매력이 반감된다는 점입니다."
+          },
+          {
+            "title_ko": "매크로 싱크: 환율·금·지수 복합 상관관계 검증",
+            "core_idea_ko": "단일 통화쌍 중심의 검증에서 벗어나, FX 메이저 통화, 금(XAUUSD), 그리고 글로벌 지수가 동시에 연동되는 과거 특정 시점의 글로벌 자금 흐름을 다중 차트로 동기화하여 검증하는 전문 분석 시뮬레이터.",
+            "what_to_keep_ko": "원작의 멀티 차트 동시 표시 기능과 다중 자산(환율+금) 데이터 처리 방식을 계승합니다.",
+            "what_to_change_ko": "단순 나열식 멀티 뷰를 넘어, 자산 간 상관관계 계수(Correlation) 실시간 그래프와 매크로 이벤트 마커를 차트 타임라인에 직접 오버레이하여 거시경제적 상관관계를 시각적으로 검증할 수 있게 개선합니다.",
+            "mobile_use_or_play_ko": "화면을 4분할하여 USDJPY, EURUSD, XAUUSD, 미 국채 금리 연동 프록시 차트를 동시 배치 -> 재생 버튼을 누르면 모든 차트가 동일한 초단위 시계열로 스크롤 -> 금과 환율의 디커플링(괴리) 발생하는 순간을 포착해 헷지 매매 주문 실행 후 상관관계 변화 관찰.",
+            "key_features_ko": [
+              "최대 4개 이異종 자산 간 실시간 시계열 동기화 재생 엔진",
+              "자산 간 롤링 상관관계(Rolling Correlation) 하단 서브 차트",
+              "주요 경제 지표 발표 시점(CPI, FOMC 등) 타임라인 자동 마커",
+              "복합 자산 포트폴리오 모의 손익 합산 계산기"
+            ],
+            "solo_mvp_and_effort_ko": "모바일 화면 크기의 한계를 고려하여 태블릿 및 대화면 스마트폰 전용 레이아웃에 집중하고, 2개 자산 동시 비교 기능부터 MVP로 구현한 뒤 확장합니다. 개발 난이도 상, 약 6~7주 소요.",
+            "strengths_limits_ko": "장점은 일반 트레이딩 앱에서는 다루기 힘든 거시경제적 연동 관계를 모바일에서 깊이 있게 테스트할 수 있다는 점입니다. 약점은 1분봉 복수 자산 데이터를 처리하므로 메모리 및 렌더링 최적화 난도가 높다는 점입니다."
+          }
+        ],
+        "concept_comparison_ko": "아이디어 1(차트 타임슬립)은 역사적 미션과 게이미피케이션을 통해 접근성을 극대화하여 대중적 흥미를 유발합니다. 아이디어 2(트레이드 로그 스튜디오)는 소셜 공유를 통해 학습의 지속성을 높이나 초기 유저 확보가 과제입니다. 아이디어 3(매크로 싱크)은 전문적인 거시경제 분석 수요를 타겟으로 하나 모바일 화면 제약과 높은 구현 난도가 있습니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "원작 앱은 전문적인 도구 성격이 강해 진입장벽이 존재합니다. '차트 타임슬립: 역사적 위기 대응 미션'은 원작의 강력한 과거 데이터 재생 엔진과 백테스팅이라는 핵심 가치를 계승하면서도, 명확한 미션과 제한 시간이라는 게임적 규칙을 결합하여 모바일 환경에서 직관적이고 몰입감 있는 경험을 제공할 수 있기 때문입니다. 1인 개발자가 핵심 시나리오 몇 개로 MVP를 빠르게 검증하기에도 가장 유리합니다.",
+        "next_questions_ko": [
+          "모바일 화면에서 1분봉 차트와 미션 HUD(남은 시간, 목표 드로다운)를 복잡하지 않게 배치할 수 있는 최적의 UI 컴포넌트 구성은 무엇인가?",
+          "대용량의 과거 시계열 CSV 데이터를 앱 내부에 패키징할 경우 앱 용량이 지나치게 커지지 않도록 데이터를 압축·분할하는 효율적인 방식은 무엇인가?",
+          "손절 및 익절 판정 시 1분봉 캔들의 고가/저가 범위를 활용하여 시뮬레이션의 정확도를 어느 수준까지 타협할 것인가?"
+        ]
+      },
+      "brief_at": "2026-10-28T07:31:53+09:00",
+      "brief_quota_day": "2026-10-28",
+      "brief_usage": {
+        "promptTokenCount": 1900,
+        "candidatesTokenCount": 2674,
+        "totalTokenCount": 6404,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1900
+          }
+        ],
+        "thoughtsTokenCount": 1830,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:1516365841",
+        "product_kind": "app",
+        "selected_concept_title_ko": "차트 타임슬립: 역사적 위기 대응 미션",
+        "project_goal_and_audience_ko": "금융 트레이딩과 역사적 경제 위기 상황에 흥미를 느끼는 모바일 사용자를 위해, 실제 역사 속 급변동 장세를 타임슬립 형태로 체험하며 제한된 미션을 수행하는 게이미피케이션 시뮬레이션 앱입니다. 자산 손실의 위험 없이 긴장감 넘치는 매매 방어와 전략 수립의 재미를 제공합니다.",
+        "source_relation_and_difference_ko": "원본 앱의 '과거 시계열 차트 재생 엔진'과 '다중 통화 데이터 구조'를 계승하여 현실적인 가격 변동 감각을 유지합니다. 반면, 자유로운 백테스팅 도구에서 벗어나 '지정된 드로다운 이내로 버티기', '급변동 장세 속 목표 수익 달성' 같은 명확한 미션과 클리어 조건을 부여하여 게임성을 강화한 점이 다릅니다.",
+        "core_user_experience_ko": "사용자는 메인 화면의 역사적 시나리오 목록(예: 2016 브렉시트 개표 방송 당시 GBPUSD)에서 미션을 선택합니다. 시나리오가 시작되면 과거 1분봉 데이터가 실시간처럼 재생되며 카운트다운이 진행됩니다. 급격한 가격 하락 구간에서 사용자는 화면 하단의 '매수', '매도', '긴급 청산' 버튼을 터치하여 포지션을 조작합니다. 시스템은 실시간으로 잔고와 최대 드로다운을 계산하며, 미션 종료 시 성공/실패 여부와 상세 성과 피드백을 제공합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "역사적 시나리오 및 미션 팩",
+            "user_action_and_behavior_ko": "사용자가 경제 위기 이벤트 기반의 미션을 선택하고, 목표(예: -5% 이내 방어)를 확인한 뒤 시뮬레이션을 시작합니다. 시스템은 로컬에 저장된 시나리오 메타데이터와 목표 조건을 로드합니다.",
+            "practical_implementation_ko": "시나리오별 ID, 타이틀, 설명, 통화쌍, 목표 조건, 시작/종료 타임스탬프를 담은 JSON 파일을 앱 리소스에 포함하여 관리합니다."
+          },
+          {
+            "feature_ko": "시계열 차트 재생 및 타임라인 컨트롤러",
+            "user_action_and_behavior_ko": "과거 1분봉 데이터가 시간에 맞춰 순차적으로 렌더링되며, 사용자는 재생 속도를 조절하거나 일시정지할 수 있습니다.",
+            "practical_implementation_ko": "오픈소스 모바일 차트 라이브러리(예: Flutter의 fl_chart 또는 네이티브 차트 래퍼)를 활용하고, 타이머 기반으로 인덱스를 순회하며 데이터 셋을 동적으로 갱신합니다."
+          },
+          {
+            "feature_ko": "원터치 주문 및 리스크 방어 컨트롤러",
+            "user_action_and_behavior_ko": "모바일 화면에서 직관적인 터치로 포지션을 진입하고 청산하여 실시간으로 변동하는 손익을 확인합니다.",
+            "practical_implementation_ko": "현재가, 포지션 진입가, 스프레드를 반영한 실시간 손익 계산 함수를 구현하고, 버튼 터치 시 상태 변수(Position State)를 즉각 업데이트합니다."
+          },
+          {
+            "feature_ko": "미션 성과 평가 및 리플레이 분석",
+            "user_action_and_behavior_ko": "미션 종료 시 성공/실패 여부, 최대 드로다운, 최종 점수를 확인하고 실패 원인을 되짚어 볼 수 있습니다.",
+            "practical_implementation_ko": "미션 종료 조건(목표 달성 또는 제한 손실 초과)을 감지하는 판정 로직을 실행하고 결과를 UI 상태로 전달합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "시나리오 선택 홈 화면",
+            "contents_and_actions_ko": "역사적 경제 위기 목록 카드 표시, 난이도 및 클리어 조건 안내. 카드 터치 시 미션 브리핑 화면으로 이동."
+          },
+          {
+            "screen_ko": "미션 브리핑 및 목표 설정 화면",
+            "contents_and_actions_ko": "해당 경제 이벤트의 배경 설명 및 달성해야 할 미션 목표 확인. '미션 시작' 터치 시 차트 시뮬레이션 화면으로 진입."
+          },
+          {
+            "screen_ko": "차트 및 트레이딩 시뮬레이션 화면",
+            "contents_and_actions_ko": "상단 캔들스틱 차트, 중단 포지션 현황 및 잔고, 하단 원터치 매매/청산 컨트롤러 배치. 일시정지 및 재생 속도 조절 기능 제공."
+          },
+          {
+            "screen_ko": "미션 결과 및 피드백 화면",
+            "contents_and_actions_ko": "성공/실패 판정 팝업, 획득 점수 및 최대 드로다운 통계 표시. 다시 시도 또는 홈으로 이동 버튼 제공."
+          }
+        ],
+        "implementation_approach_ko": "크로스플랫폼 모바일 앱 개발을 위해 Flutter 프레임워크를 활용하여 UI와 상태 관리를 효율적으로 구성합니다. 핵심 시계열 재생 로직은 틱/분봉 데이터 인덱스 순회 타이머로 구현하며, 대안으로는 웹뷰 기반의 경량 차트 라이브러리를 임베드하는 방식을 검토할 수 있습니다.",
+        "data_and_storage_ko": [
+          "ScenarioModel: id, title, description, currency_pair, start_time, end_time, target_profit, max_drawdown_limit. 앱 내 로컬 JSON 파일로 관리.",
+          "CandleDataModel: timestamp, open, high, low, close, volume. 시나리오별 슬라이싱된 시계열 배열 데이터.",
+          "UserProgressModel: scenario_id, is_cleared, best_score, min_drawdown. 앱 내 로컬 저장소(SharedPreferences)에 영구 저장."
+        ],
+        "mvp_scope_ko": "첫 MVP에서는 핵심 3개 통화쌍(USDJPY, EURUSD, GBPUSD)과 대표적인 역사적 이벤트 3개 시나리오만 로컬 JSON으로 임베드합니다. 복잡한 기술적 보조지표나 실시간 네트워크 백테스팅, 글로벌 랭킹 서버 연동은 제외하고, 단일 기기 내에서 차트 재생과 미션 성공/실패 판정 흐름을 완성하는 것에 집중합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 데이터 구조 정의 및 샘플 JSON 구축",
+            "deliverable_and_check_ko": "역사적 위기 시나리오 메타데이터와 소규모 1분봉 차트 샘플 데이터셋 작성 및 로드 테스트."
+          },
+          {
+            "stage_ko": "2단계: 차트 재생 엔진 및 UI 구현",
+            "deliverable_and_check_ko": "모바일 화면에 시계열 데이터를 시간에 맞춰 순차 렌더링하는 기본 차트 뷰 및 재생/정지 타이머 구현."
+          },
+          {
+            "stage_ko": "3단계: 트레이딩 조작 및 미션 판정 로직 결합",
+            "deliverable_and_check_ko": "매수/매도/청산 버튼 연동 및 실시간 손익, 최대 드로다운 감시를 통한 승패 판정 로직 추가."
+          },
+          {
+            "stage_ko": "4단계: 결과 화면 및 로컬 저장소 연동",
+            "deliverable_and_check_ko": "미션 클리어 기록 저장, 결과 피드백 화면 및 시나리오 선택 홈 UI 폴리싱."
+          }
+        ],
+        "possible_extensions_ko": "추후 사용자가 직접 커스텀 조건을 설정하는 '자유 백테스팅 모드', 이동평균선 등 기본 보조지표 추가, 유저 간 방어 점수 랭킹 시스템, 주간 단위의 새로운 역사적 이벤트 시나리오 패치 다운로드 기능.",
+        "risks_and_open_decisions_ko": [
+          "모바일 화면에서 복수의 캔들스틱 데이터와 실시간 터치 조작이 동시에 이루어질 때 렌더링 성능 저하 가능성 (프로토타입 단계에서 프레임 드랍 여부 확인 필요).",
+          "실제 역사적 1분봉 데이터의 볼륨이 클 경우 앱 용량이 증가할 수 있으므로, 핵심 이벤트 구간(예: 30분~1시간 분량)만 슬라이싱하여 저장하는 방식이 적절한지 검증 필요.",
+          "원작 앱과 달리 미션형 게임 규칙이 가미됨에 따라, 초보 사용자가 시나리오 난이도를 체감하고 학습하는 데 적절한 튜토리얼 설계 방식은 추후 결정 과제."
+        ],
+        "draft_status_ko": "본 문서는 '차트 타임슬립: 역사적 위기 대응 미션' 기획의 실현 가능성을 검토하기 위해 작성된 개발 설계 초안이며, 실제 모바일 기기에서의 성능 측정이나 플레이테스트는 완료되지 않은 상태입니다."
+      },
+      "plan_at": "2026-10-28T07:32:10+09:00",
+      "plan_quota_day": "2026-10-28",
+      "plan_usage": {
+        "promptTokenCount": 2791,
+        "candidatesTokenCount": 2226,
+        "totalTokenCount": 7491,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2791
+          }
+        ],
+        "thoughtsTokenCount": 2474,
+        "serviceTier": "standard"
+      }
     }
   }
 }

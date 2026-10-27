@@ -8601,6 +8601,631 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-27"
+    },
+    "apple:6457097692": {
+      "app_key": "apple:6457097692",
+      "name": "Resideo Connect",
+      "developer": "Resideo Technologies, Inc.",
+      "source": "apple",
+      "country": "US",
+      "category": "app_lifestyle",
+      "detail_url": "https://apps.apple.com/us/app/resideo-connect/id6457097692?uo=2",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:16:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Welcome to Resideo Connect. Formerly the First Alert app, Resideo Connect introduces a refreshed look and feel while continuing to deliver the same trusted experience. No action is required, and your devices, settings, and account information remain unchanged. Resideo Connect is the official app for compatible Honeywell Home, First Alert, and Resideo products – all part of the Resideo family of brands. Take greater control of your home's comfort, safety, security, and water leak detection with the Resideo Connect app. Whether you're home or away, this whole-home solution helps you monitor and manage the devices that keep your home running, all from one easy-to-use app. Designed for the way homes really work, the Resideo Connect app is compatible across select Resideo, Honeywell Home and First Alert branded products. Plus, integrate with smart home partners to manage additional devices throughout your home. Stay connected to the devices your home depends on with the Resideo Connect app, so everything works better together. • Connected Home Control: Manage security cameras, video doorbells, smart smoke & carbon monoxide alarms, select smart thermostats, water leak detection, and more from one intuitive app. • Clear Alerts, Faster Action: Receive timely notifications for water leaks, motion events, smoke or CO incidents, security activity, and other important events so you can respond with confidence. • Trusted Solutions, Connected Together: Bring together trusted products and smart home integrations to simplify everyday home management and stay connected from anywhere. Key Features • Comfort Control: Manage select Honeywell Home smart thermostats, adjust settings remotely, create schedules, and enroll in eligible energy-saving programs designed to help reduce utility costs. • Smart Smoke & Carbon Monoxide Detection: Stay connected to your home's fire and CO safety devices wherever you are. Receive alerts, check device status, and seamlessly integrate compatible Google Nest Protect Alarms* to expand your connected safety ecosystem. • Smart Video Awareness: Stay informed with First Alert Video Doorbells and Outdoor Cameras featuring intelligent event detection for people, pets, vehicles, and packages, with clear notifications and video access when it matters most. • Water Leak Detection & Response: Help detect leaks early with the First Alert WiFi Water Leak and Freeze Detector. Pair with a professionally installed Water Shutoff Device for added control when water is detected. • Security & Smart Home Integrations: Manage compatible security devices, smart locks, and garage door openers, including select Schlage, Kwikset, and Genie products, from one convenient app. Integrate with leading smart home platforms for even greater control and convenience. Less complexity. More control. Resideo Connect helps homeowners stay connected to the devices that support comfort, safety, security, and awareness throughout the home. Expand your home’s protection with our whole home offering. Learn more about our family of connected smart products at firstalert.com/pages/resideo-connect-app New to our brands and the Resideo Connect app? Download the app and get started with guided device setup, streamlined onboarding, and easy device management.",
+      "analysis": {
+        "app_key": "apple:6457097692",
+        "summary_ko": "Resideo Connect는 Honeywell Home, First Alert 등 다양한 스마트 홈 기기를 통합 관리하는 홈 자동화 앱입니다. 사용자는 이 앱을 통해 조명, 보안 카메라, 스마트 온도 조절기, 누수 감지기 등을 원격으로 제어하고 모니터링할 수 있습니다. 가정의 안전과 편의를 위한 통합 솔루션을 제공하며, 스마트 홈 파트너 기기와의 연동도 지원합니다.",
+        "features_ko": [
+          "다양한 브랜드의 스마트 홈 기기를 하나의 인터페이스에서 통합 관리합니다.",
+          "스마트 온도 조절기를 통해 실내 온도를 원격으로 조절하고 에너지 절약 일정을 설정합니다.",
+          "누수 및 동결 감지기를 통해 이상 발생 시 즉각적인 알림을 제공합니다.",
+          "보안 카메라와 비디오 도어벨을 통해 사람, 차량, 패키지 등을 지능적으로 감지합니다.",
+          "연기 및 일산화탄소 감지기와 연동하여 화재 안전 상태를 실시간으로 확인합니다."
+        ],
+        "noteworthy_ko": "다양한 제조사의 기기를 하나의 생태계로 묶는 통합 플랫폼이라는 점이 흥미롭습니다. 여러 하드웨어 프로토콜을 추상화하여 사용자에게 일관된 경험을 제공하는 아키텍처가 핵심일 것으로 추정됩니다.",
+        "development_ko": "다양한 IoT 기기와의 통신을 위한 네트워크 프로토콜 구현과 실시간 알림 서비스가 핵심입니다. 기기별 상태 동기화 및 보안 데이터 처리에 높은 기술적 난이도가 요구되며, 다양한 하드웨어와의 호환성 테스트가 필수적입니다.",
+        "idea_ko": "사용자의 위치나 시간대에 따라 여러 기기의 상태를 한 번에 변경하는 '스마트 홈 시나리오 자동화' 기능이 개인 개발자에게 적합합니다.",
+        "highlights_ko": [
+          "다양한 브랜드(Honeywell, First Alert 등)를 아우르는 폭넓은 기기 호환성.",
+          "보안, 에너지, 안전을 아우르는 포괄적인 홈 모니터링 기능."
+        ],
+        "systems_ko": [
+          "기기 상태 관리 시스템",
+          "푸시 알림 및 이벤트 처리 엔진",
+          "사용자 계정 및 기기 페어링 관리",
+          "클라우드 API 연동 모듈",
+          "사용자 설정 및 스케줄링 데이터베이스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실제 하드웨어 기기와의 통신 프로토콜을 구현하고 안정적인 클라우드 서버를 운영해야 하므로 1인 개발자가 전체를 구현하기에는 매우 복잡합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기기 상태 조회 및 제어 UI",
+            "기본적인 푸시 알림 기능"
+          ],
+          "defer": [
+            "타사 스마트 홈 플랫폼 연동",
+            "복잡한 에너지 절약 스케줄링 알고리즘"
+          ],
+          "risks": [
+            "하드웨어 기기 부재로 인한 테스트 불가능",
+            "보안 취약점 발생 가능성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "가상 홈 대시보드",
+            "concept": "실제 기기 없이 가상의 스마트 홈 기기 상태를 시뮬레이션하여 대시보드 UI를 연습하는 앱입니다.",
+            "first_step": "가상의 온도, 습도 데이터를 생성하고 이를 UI에 실시간으로 반영하는 기능을 구현합니다."
+          },
+          {
+            "title": "기기 상태 로그 분석기",
+            "concept": "여러 기기에서 발생하는 로그 데이터를 수집하여 사용 패턴을 시각화하는 도구입니다.",
+            "first_step": "JSON 형식의 기기 로그 데이터를 파싱하여 시간대별 그래프로 출력하는 기능을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "IoT 앱의 UI/UX 설계와 데이터 시각화 방식을 배우기에 좋습니다. 다만 실제 하드웨어 연동이 없는 경우 기능 구현에 한계가 있으므로 가상 데이터 처리에 집중하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 구체적인 통신 프로토콜(Zigbee, Matter 등)이나 서버 아키텍처는 확인할 수 없습니다. 결제 및 보안 인증 방식에 대한 정보도 부족합니다.",
+        "name": "Resideo Connect",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/resideo-connect/id6457097692?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 180,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 20,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "google:com.cdtg.ragdoll.playground": {
+      "app_key": "google:com.cdtg.ragdoll.playground",
+      "name": "Ragdoll Playground",
+      "developer": "Reggae True Love",
+      "source": "google",
+      "country": "US",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.cdtg.ragdoll.playground&hl=en&gl=US",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:16:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Ragdoll Playground, a thrilling game where you can make cruel experiments on Ragdoll. This is only virtual fun, so do not be afraid of some tough collisions and bloodied scenes. So do not miss a chance to test something new! Every object’s attributes define how it interacts with other objects and Ragdoll. Some of the machines here can chop Ragdoll flesh. Use spears or swords to stab. Some can be charged and become stronger. You can play with unique guns here. The game includes explosives with varying destructive capacities and energy release methods. Custom death devices can be built. The graphics in Ragdoll Playground for free download are colorful and cartoony. The environment is designed to look minimalistic, with a variety of various areas to explore. Characters are all well-designed and have a range of different expressions.",
+      "analysis": {
+        "app_key": "google:com.cdtg.ragdoll.playground",
+        "summary_ko": "Ragdoll Playground는 물리 엔진을 기반으로 래그돌 캐릭터를 활용해 다양한 실험을 수행하는 시뮬레이션 게임입니다. 사용자는 도구, 무기, 폭발물 등을 배치하여 캐릭터와 상호작용하며 물리적인 충돌 효과를 즐길 수 있습니다. 미니멀한 환경에서 창의적인 실험을 수행하는 것이 게임의 핵심 경험입니다.",
+        "features_ko": [
+          "물리 엔진을 사용하여 캐릭터와 사물 간의 상호작용을 시뮬레이션합니다.",
+          "다양한 무기와 도구를 사용하여 캐릭터에 물리적 타격을 가할 수 있습니다.",
+          "폭발물과 기계 장치를 배치하여 자신만의 실험 환경을 구축합니다.",
+          "캐릭터는 다양한 표정을 통해 물리적 충돌에 반응합니다."
+        ],
+        "noteworthy_ko": "물리 엔진의 상호작용을 극대화하여 사용자에게 자유도를 제공하는 샌드박스 방식이 흥미롭습니다. 오브젝트별 속성 정의가 게임의 재미를 결정짓는 핵심 요소로 보입니다.",
+        "development_ko": "물리 엔진(예: Unity Physics, Box2D)의 설정과 오브젝트 간의 충돌 판정 최적화가 중요합니다. 다양한 도구와 캐릭터의 상호작용을 위한 데이터 구조 설계가 필요하며, 물리 연산 부하를 관리하는 것이 핵심입니다.",
+        "idea_ko": "물리 법칙을 변형하거나 특정 환경 조건을 설정하여 실험하는 '물리 샌드박스 모드'가 개인 개발자에게 적합합니다.",
+        "highlights_ko": [
+          "미니멀하고 깔끔한 그래픽 스타일로 물리 효과에 집중.",
+          "다양한 도구와 무기를 조합하여 만드는 높은 자유도의 실험 환경."
+        ],
+        "systems_ko": [
+          "물리 엔진 연동 및 충돌 판정",
+          "오브젝트 배치 및 관리 시스템",
+          "캐릭터 상태 관리(체력, 표정)",
+          "UI/UX 도구 선택 시스템",
+          "데이터 저장 및 불러오기"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진을 활용한 기본적인 상호작용 구현은 비교적 접근하기 쉽지만, 다양한 오브젝트의 속성을 밸런스 있게 설계하는 데는 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 생성 및 물리 적용",
+            "기본적인 도구 배치 기능"
+          ],
+          "defer": [
+            "복잡한 기계 장치 제작 시스템",
+            "다양한 캐릭터 커스터마이징"
+          ],
+          "risks": [
+            "물리 연산으로 인한 성능 저하",
+            "충돌 판정 오류(버그) 발생"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중력 실험실",
+            "concept": "중력의 세기나 방향을 실시간으로 변경하며 캐릭터가 어떻게 반응하는지 관찰하는 게임입니다.",
+            "first_step": "중력 값을 변경할 수 있는 슬라이더 UI를 만들고 물리 엔진에 적용합니다."
+          },
+          {
+            "title": "물리 퍼즐 메이커",
+            "concept": "특정 목표 지점까지 캐릭터를 이동시키기 위해 도구를 배치하는 퍼즐 게임입니다.",
+            "first_step": "도구를 배치하고 물리 시뮬레이션을 시작하는 기본 루프를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "물리 엔진의 기초를 다지고 샌드박스 게임의 구조를 이해하기에 매우 좋습니다. 물리 연산 최적화와 사용자 인터페이스 설계 능력을 기를 수 있습니다.",
+        "source_limitations_ko": "사용된 물리 엔진의 종류나 구체적인 충돌 알고리즘은 알 수 없습니다. 게임 내 콘텐츠의 양이나 밸런스 조정 방식에 대한 정보는 부족합니다.",
+        "name": "Ragdoll Playground",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.cdtg.ragdoll.playground&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 180,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 20,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "google:com.tv.remote.control.larrybrook.app": {
+      "app_key": "google:com.tv.remote.control.larrybrook.app",
+      "name": "Smart TV Remote Control",
+      "developer": "Larry Brooks",
+      "source": "google",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.tv.remote.control.larrybrook.app&hl=en&gl=US",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:16:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Smart TV Remote Control brings TV controls and everyday Home screen tools together in one app. Use your phone to connect with compatible smart TVs over Wi-Fi, or enable the optional Android launcher for faster access to apps and useful features. 📺 SMART TV CONTROL Turn your phone into a convenient remote for supported smart TVs. • Discover compatible TVs on the same network • Control volume and supported power functions • Open supported TV apps and browse available channels • Access a simple remote layout for everyday use Remote functions depend on your TV brand, model, network environment, and supported capabilities. 📱 OPTIONAL HOME SCREEN Smart TV Remote Control can also be used as your Android Home app. When enabled, the Home screen provides convenient access to: • Installed apps and TV remote controls • Screen casting and flashlight features • Web search • Weather information • Available news and content Using the app as your default Home screen is optional. You can switch to another Home app at any time from Android settings. ⚡ EASY TO GET STARTED Connect your phone and compatible smart TV to the same supported Wi-Fi network to begin using remote features. If you also want the launcher experience, you can choose Smart TV Remote Control as your default Home app during setup. 🔎 SEARCH FROM HOME The launcher includes an optional web search bar powered by Google, allowing you to search the web directly from your Home screen. 🔐 PERMISSIONS & PRIVACY Some features may require permissions depending on how you use the app. • Network access is used to discover and connect with compatible TVs • Location may be used when you enable local weather • Notifications may provide optional weather details, search shortcuts, and app-related information You can review or change granted permissions at any time through Android settings. Smart TV Remote Control gives you one convenient place to access compatible TV controls, apps, search, weather, news, screen casting, and other everyday tools.",
+      "analysis": {
+        "app_key": "google:com.tv.remote.control.larrybrook.app",
+        "summary_ko": "Smart TV Remote Control은 스마트폰을 스마트 TV 리모컨으로 활용할 수 있게 해주는 도구 앱입니다. Wi-Fi를 통해 호환되는 TV를 검색하고 볼륨, 전원, 앱 실행 등을 제어할 수 있습니다. 또한 안드로이드 런처 기능을 선택적으로 제공하여 홈 화면에서 바로 앱과 유용한 도구에 접근할 수 있습니다.",
+        "features_ko": [
+          "동일한 Wi-Fi 네트워크 내의 호환되는 스마트 TV를 자동으로 검색합니다.",
+          "볼륨 조절, 전원 제어 등 기본적인 TV 리모컨 기능을 제공합니다.",
+          "TV에 설치된 앱을 실행하거나 채널을 탐색할 수 있습니다.",
+          "안드로이드 홈 화면을 대체하여 앱 바로가기 및 웹 검색 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "리모컨 기능과 런처 기능을 결합하여 사용자의 일상적인 TV 시청 경험을 통합하려는 시도가 흥미롭습니다. 네트워크 기반의 기기 발견 및 제어 로직이 핵심 기술로 보입니다.",
+        "development_ko": "네트워크 기기 검색(mDNS 등)과 TV 제조사별 API 연동이 핵심입니다. 런처 기능 구현을 위해 안드로이드 시스템 권한 관리가 필요하며, 다양한 TV 모델과의 호환성 테스트가 가장 큰 부담입니다.",
+        "idea_ko": "사용자가 자주 사용하는 TV 앱을 즐겨찾기하여 한 번에 실행하는 '스마트 TV 매크로' 기능이 개인 개발자에게 적합합니다.",
+        "highlights_ko": [
+          "리모컨과 런처 기능을 통합하여 사용 편의성 극대화.",
+          "네트워크 기반의 간편한 기기 연결 프로세스."
+        ],
+        "systems_ko": [
+          "네트워크 기기 검색 및 통신 모듈",
+          "TV 제어 프로토콜 인터페이스",
+          "안드로이드 런처 홈 화면 시스템",
+          "권한 관리 및 설정 저장",
+          "웹 검색 및 날씨 API 연동"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 TV 제조사의 API를 지원해야 하며, 네트워크 환경에 따른 연결 불안정성을 해결하는 것이 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "네트워크 기기 검색 기능",
+            "기본적인 TV 제어 UI"
+          ],
+          "defer": [
+            "안드로이드 런처 기능",
+            "날씨 및 뉴스 정보 제공"
+          ],
+          "risks": [
+            "제조사별 API 정책 변경",
+            "네트워크 환경에 따른 연결 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "TV 앱 퀵 런처",
+            "concept": "리모컨 기능 없이 TV에 설치된 앱 목록만 빠르게 불러와 실행하는 전용 도구입니다.",
+            "first_step": "TV와 연결을 수립하고 설치된 앱 목록을 가져오는 API를 호출합니다."
+          },
+          {
+            "title": "음성 리모컨 보조기",
+            "concept": "스마트폰의 음성 인식을 활용하여 TV의 채널이나 볼륨을 제어하는 보조 앱입니다.",
+            "first_step": "음성 인식 API를 통해 명령어를 텍스트로 변환하고 제어 명령으로 매핑합니다."
+          }
+        ],
+        "recommendation_ko": "네트워크 프로그래밍과 기기 간 통신을 배우기에 좋은 프로젝트입니다. 다만 하드웨어 호환성 문제로 인해 실제 상용화는 난도가 높습니다.",
+        "source_limitations_ko": "지원하는 TV 브랜드와 모델의 구체적인 목록은 알 수 없습니다. 사용된 통신 프로토콜이나 API의 상세 사양은 확인되지 않습니다.",
+        "name": "Smart TV Remote Control",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.tv.remote.control.larrybrook.app&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 180,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 20,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "google:com.multicastgames.venomSurvive": {
+      "app_key": "google:com.multicastgames.venomSurvive",
+      "name": "Alien Invasion: RPG Idle Space",
+      "developer": "CrazyLabs LTD",
+      "source": "google",
+      "country": "JP",
+      "category": "game_arcade",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.multicastgames.venomSurvive&hl=ja&gl=JP",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:16:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "やみつきになるこのRPGアイドルゲームで、勝利、進化、支配せよ。人間を食べて軍隊を増強し、覇権を狙うエイリアンを指揮するのだ。しかし気をつけろ – キミの台頭を阻止すべく、行く手には強力なボスが立ちはだかる。勝利のためにエイリアンを適応・進化させろ！ 勝利して進化を遂げよう:人間を倒して進化し、究極のエイリアン支配者になろう。エイリアンの能力、攻撃速度、キャッチ範囲を強化し、より効率的に敵を食い尽くそう。 強力なボスに立ち向かおう:壮大なボス戦で自分の戦略力が試される。最強のエイリアンだけが生き残り、繁栄する。果たしてキミは勝者となれるのか？ 特徴: エイリアンを進化させて新たな能力と支配力を手に入れよう。 人間の波をなぎ倒し、強大なボスに挑もう。 能力、スピード、範囲をアップグレードして効率を上げよう。 クエストをクリアしてレベルを上げていこう。 新たなロケーションをアンロックして獰猛な敵に立ち向かおう。 圧倒的なビジュアルとサウンドに酔いしれよう。 支配か敗北か – 今すぐ『Alien Invasion』をダウンロードして、地球外生命体の覇権を握ろう！",
+      "analysis": {
+        "app_key": "google:com.multicastgames.venomSurvive",
+        "summary_ko": "Alien Invasion: RPG Idle Space는 인간을 포식하며 진화하는 외계인이 되어 지구를 지배하는 방치형 RPG 게임입니다. 플레이어는 외계인의 능력, 공격 속도, 포식 범위를 업그레이드하여 효율을 높이고 강력한 보스와 전투를 벌입니다. 새로운 지역을 잠금 해제하며 끊임없이 진화하는 것이 게임의 목표입니다.",
+        "features_ko": [
+          "인간을 포식하여 자원을 획득하고 외계인을 진화시킵니다.",
+          "공격 속도, 범위, 능력치 등을 업그레이드하여 효율을 극대화합니다.",
+          "강력한 보스와의 전투를 통해 전략적인 능력을 시험합니다.",
+          "새로운 지역을 탐험하고 더 강력한 적을 상대합니다.",
+          "방치형 시스템을 통해 게임을 끄고 있어도 성장이 가능합니다."
+        ],
+        "noteworthy_ko": "성장과 진화라는 단순한 루프를 방치형 게임에 결합하여 중독성을 유도하는 방식이 흥미롭습니다. 보스전이라는 도전 요소를 배치하여 방치형 게임의 단조로움을 해소한 점이 돋보입니다.",
+        "development_ko": "방치형 게임의 핵심인 수치 밸런스 설계가 가장 큰 부담입니다. 데이터 저장 시스템과 오프라인 보상 계산 로직이 필요하며, 화려한 시각 효과를 구현하기 위한 애니메이션 최적화가 중요합니다.",
+        "idea_ko": "외계인의 진화 경로를 사용자가 선택하여 다양한 형태와 능력을 가진 외계인을 육성하는 '진화 트리 시스템'이 개인 개발자에게 적합합니다.",
+        "highlights_ko": [
+          "인간 포식과 진화라는 독특한 테마.",
+          "방치형 게임의 성장 재미와 보스전의 도전 요소 결합."
+        ],
+        "systems_ko": [
+          "성장 및 업그레이드 시스템",
+          "방치형 보상 계산 엔진",
+          "보스 전투 로직",
+          "지역 잠금 해제 및 맵 관리",
+          "데이터 저장 및 로드"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "방치형 게임의 기본 구조는 구현하기 어렵지 않으나, 게임의 재미를 유지하기 위한 수치 밸런스 조정은 지속적인 테스트가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 포식 및 성장 시스템",
+            "업그레이드 UI"
+          ],
+          "defer": [
+            "복잡한 보스 전투 패턴",
+            "다양한 지역 및 맵 확장"
+          ],
+          "risks": [
+            "밸런스 붕괴로 인한 재미 감소",
+            "콘텐츠 소모 속도가 너무 빠름"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "외계인 변이 연구소",
+            "concept": "포식한 인간의 DNA를 조합하여 외계인의 외형과 능력을 무작위로 변이시키는 시스템입니다.",
+            "first_step": "DNA 조합에 따른 능력치 변화 공식을 설계하고 UI에 적용합니다."
+          },
+          {
+            "title": "지구 정복 시뮬레이터",
+            "concept": "전 세계 지역을 하나씩 점령해 나가는 전략적인 방치형 게임입니다.",
+            "first_step": "세계 지도를 기반으로 지역별 점령 상태를 관리하는 데이터를 만듭니다."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 데이터 구조와 밸런스 설계 방식을 배우기에 매우 좋습니다. 게임 기획과 수치 설계에 관심 있는 개발자에게 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 수치 밸런스 공식이나 보스전의 상세 로직은 알 수 없습니다. 수익 모델(광고, 인앱 결제)에 대한 구체적인 정보는 없습니다.",
+        "name": "Alien Invasion: RPG Idle Space",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.multicastgames.venomSurvive&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 180,
+        "reasons": [
+          "multi_country"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "JP",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "google:com.cleaner.phonemanager.master": {
+      "app_key": "google:com.cleaner.phonemanager.master",
+      "name": "Cleanup Master",
+      "developer": "Alpha Black Car Services Inc 2",
+      "source": "google",
+      "country": "US",
+      "category": "app_productivity",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.cleaner.phonemanager.master&hl=en&gl=US",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:22:27+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "With practical cleaning and management tools, Cleanup Master makes it simple to manage junk files, photos, apps, and battery information. ⭐ Why Choose Cleanup Master? ✔️ Useful Tools: Includes Junk Clean, Photo Manager, Battery Info, and App Manager for everyday device management. ✔️ Simple Interface: A clean and organized design makes features easy to find and use. ✔️ Easy to Control: Review detected files, photos, and apps before deciding what to remove. 🧹 Junk Clean ✔️ Scan your device for cache, temporary files, and other unnecessary files. ✔️ Review detected items before cleaning. ✔️ Remove files you no longer need to free up storage space. 🖼️ Photo Manager ✔️ Review photos before deleting them. ✔️ Organize your photo library and manage storage used by photos. 🔋 Battery Info ✔️ Check battery level, temperature, and other available battery information. ✔️ Understand your current battery status at a glance.",
+      "analysis": {
+        "app_key": "google:com.cleaner.phonemanager.master",
+        "summary_ko": "Cleanup Master는 기기 내 불필요한 파일, 사진, 앱을 관리하여 저장 공간을 확보하는 생산성 도구입니다. 배터리 상태 확인 기능을 포함하여 사용자가 기기 성능을 효율적으로 관리할 수 있도록 돕습니다. 직관적인 인터페이스를 통해 삭제할 항목을 미리 검토하고 정리할 수 있습니다.",
+        "features_ko": [
+          "기기 내 캐시 및 임시 파일을 스캔하여 불필요한 데이터를 정리합니다.",
+          "삭제 전 파일을 미리 검토하여 실수로 중요한 데이터를 지우지 않도록 합니다.",
+          "사진 라이브러리를 정리하여 저장 공간을 효율적으로 관리합니다.",
+          "배터리 잔량, 온도 등 현재 상태 정보를 실시간으로 확인합니다."
+        ],
+        "noteworthy_ko": "사용자가 삭제할 데이터를 직접 검토하는 '선택적 삭제' 프로세스가 핵심입니다. 이는 자동화된 정리 도구에서 발생할 수 있는 데이터 손실 위험을 방지하는 사용자 친화적인 설계로 보입니다.",
+        "development_ko": "파일 시스템 접근 권한 관리가 핵심 기술이며, 대용량 파일 스캔 시 성능 저하를 방지하는 효율적인 알고리즘이 필요합니다. UI는 사용자가 삭제 항목을 빠르게 식별할 수 있도록 목록화하는 데 집중해야 합니다. 배터리 정보는 시스템 API를 통해 가져오며, OS 버전별 권한 정책 변화에 따른 테스트가 중요합니다.",
+        "idea_ko": "사용자의 앱 사용 패턴을 분석하여 오랫동안 사용하지 않은 앱을 우선적으로 추천해 주는 '스마트 정리 알림' 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "사용자가 삭제할 항목을 최종 결정하는 검토 단계를 필수적으로 포함합니다.",
+          "배터리 상태와 파일 관리를 하나의 앱에서 통합적으로 제공합니다."
+        ],
+        "systems_ko": [
+          "파일 시스템 스캔 엔진",
+          "데이터 검토 및 선택 UI",
+          "시스템 배터리 정보 API 연동",
+          "앱 설치 목록 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "파일 시스템 접근 권한과 OS별 API 제약 사항을 이해해야 합니다. 특히 시스템 파일과 사용자 파일을 구분하여 안전하게 처리하는 로직 구현이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "파일 스캔 기능",
+            "삭제 전 미리보기 UI",
+            "배터리 상태 표시"
+          ],
+          "defer": [
+            "클라우드 연동",
+            "자동 스케줄링 정리"
+          ],
+          "risks": [
+            "OS 권한 정책 변경으로 인한 기능 제한",
+            "잘못된 파일 삭제로 인한 사용자 데이터 손실"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "사용 빈도 기반 앱 정리기",
+            "concept": "사용자가 최근 30일간 실행하지 않은 앱을 리스트업하고 삭제를 제안합니다. 앱별 용량을 함께 표시하여 공간 확보 효율을 높입니다.",
+            "first_step": "기기에 설치된 앱 목록과 마지막 실행 시간을 가져오는 기능을 구현합니다."
+          },
+          {
+            "title": "중복 사진 탐지기",
+            "concept": "이미지 해시 값을 비교하여 동일하거나 유사한 사진을 찾아냅니다. 중복된 사진 중 하나만 남기고 삭제할 수 있도록 돕습니다.",
+            "first_step": "이미지 파일의 해시 값을 생성하여 중복을 판별하는 로직을 작성합니다."
+          }
+        ],
+        "recommendation_ko": "OS의 파일 시스템 접근 권한과 시스템 API 활용법을 배우기에 좋습니다. 다만, 보안 및 데이터 무결성과 직결되므로 권한 관리에 대한 깊은 이해가 필요합니다.",
+        "source_limitations_ko": "소개문에 명시된 기능 외에 외부 클라우드 연동, 결제 시스템, 보안 기능은 확인되지 않았습니다. 실제 파일 삭제 로직의 안전성이나 배터리 정보의 정확도는 OS 정책에 따라 다를 수 있습니다.",
+        "name": "Cleanup Master",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.cleaner.phonemanager.master&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "google:com.playgendary.bowmasters": {
+      "app_key": "google:com.playgendary.bowmasters",
+      "name": "Bowmasters: Archery Shooting",
+      "developer": "Playgendary Limited",
+      "source": "google",
+      "country": "US",
+      "category": "game_action",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.playgendary.bowmasters&hl=en&gl=US",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:25:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A brand new version of the world-famous multiplayer game with bowmen! If you like exciting shooting games, gun games, especially archery games, join the fun and unique battles in the action game Bowmasters! Here you will find various types of arrows, hone your archery skills in unusual duels, and you will be able to compete for first place in a multiplayer games for skilled archers. Shoot from your favorite bow and become a legendary shooter! Features of the shooting game Bowmasters: - 60+ INSANE CHARACTERS from all dimensions absolutely for free! Try everyone and choose the archer you want to play. - 60+ DIFFERENT WEAPONS for total mayhem, also awesome fatalities with rag-doll physics! We assure you, not all gun games have such a choice. Take a gun and make an accurate shot! - MULTIPLE GAME MODES. Shoоt birds or fruits down, defeat the enemies in duels and get money for that! Aim and hit the bull's eye! - ENDLESS REWARDS FOR YOUR SKILLS! Do you like not only to play action games, but also to get rewards? Welcome! Take everything if you can! - UNIVERSAL SEASON PASS: 5 season passes for archery so you can shoot without limits. Shooter, don’t miss out on the fun! Be the first archer in action battles in multiplayer shooting games. Get your bow, grab an arrow, and dive into archery and gun shooting in Bowmasters! You'll see, shooter games have never been so exciting!",
+      "analysis": {
+        "app_key": "google:com.playgendary.bowmasters",
+        "summary_ko": "다양한 캐릭터와 무기를 사용하여 적을 물리치는 액션 슈팅 게임입니다. 물리 엔진을 활용한 독특한 전투 방식과 멀티플레이어 대결을 제공합니다. 60개 이상의 캐릭터와 무기를 수집하고 성장시키는 재미를 강조합니다.",
+        "features_ko": [
+          "60개 이상의 다양한 캐릭터를 선택하여 플레이할 수 있습니다.",
+          "물리 엔진을 적용한 무기 투척 및 타격 효과를 제공합니다.",
+          "새나 과일을 맞추는 모드와 적과 대결하는 듀얼 모드를 지원합니다.",
+          "게임 플레이를 통해 보상을 획득하고 캐릭터를 강화할 수 있습니다.",
+          "시즌 패스를 통해 추가 콘텐츠를 이용할 수 있습니다."
+        ],
+        "noteworthy_ko": "래그돌 물리 효과를 활용한 타격감이 게임의 핵심 재미 요소입니다. 다양한 캐릭터와 무기 조합을 통해 반복적인 플레이에도 지루하지 않도록 설계되었습니다.",
+        "development_ko": "물리 엔진(예: Unity Physics) 활용 능력이 가장 중요합니다. 캐릭터별 애니메이션과 투사체 궤적 계산, 타격 판정 로직 구현이 핵심입니다. 밸런스 조절을 위해 캐릭터별 능력치와 무기 성능을 세밀하게 조정해야 합니다.",
+        "idea_ko": "투사체의 궤적을 예측하여 퍼즐을 푸는 '물리 퍼즐 슈팅' 게임이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "래그돌 물리 효과를 통해 매번 다른 타격 반응을 보여줍니다.",
+          "다양한 게임 모드를 통해 단순 슈팅 이상의 재미를 제공합니다."
+        ],
+        "systems_ko": [
+          "물리 엔진 시스템",
+          "투사체 궤적 계산 시스템",
+          "캐릭터 및 무기 데이터 관리",
+          "타격 판정 및 애니메이션 시스템",
+          "보상 및 성장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "물리 기반의 슈팅 게임은 정교한 물리 계산과 타격 판정이 필수적입니다. 또한 60개 이상의 캐릭터를 관리하는 데이터 구조와 밸런스 작업은 1인 개발자에게 큰 부담입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 투사체 발사 로직",
+            "물리 충돌 판정",
+            "캐릭터 1종"
+          ],
+          "defer": [
+            "멀티플레이어 모드",
+            "60개 이상의 캐릭터 및 무기"
+          ],
+          "risks": [
+            "물리 엔진의 불안정한 판정",
+            "캐릭터 간 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "궤적 퍼즐 슈팅",
+            "concept": "장애물을 피해 목표물을 맞추는 물리 퍼즐 게임입니다. 투사체의 궤적을 미리 보여주어 전략적인 조준을 유도합니다.",
+            "first_step": "투사체 발사 및 장애물 충돌 시 튕겨 나가는 물리 로직을 구현합니다."
+          },
+          {
+            "title": "타이밍 슈팅 챌린지",
+            "concept": "움직이는 표적을 정확한 타이밍에 맞춰야 하는 슈팅 게임입니다. 난이도가 올라갈수록 표적의 속도와 패턴이 복잡해집니다.",
+            "first_step": "표적의 이동 패턴과 타격 판정 시스템을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "물리 엔진 활용법과 게임 밸런스 설계의 기초를 배우기에 좋습니다. 슈팅 게임의 핵심 재미인 '타격감'을 구현하는 과정을 경험하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "멀티플레이어 서버 구조, 시즌 패스 결제 시스템, 구체적인 물리 엔진 설정값은 확인되지 않았습니다. 실제 게임의 밸런스 수치는 알 수 없습니다.",
+        "name": "Bowmasters: Archery Shooting",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.playgendary.bowmasters&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "apple:968245112": {
+      "app_key": "apple:968245112",
+      "name": "ケーズデンキあんしんパスポート",
+      "developer": "LocationValue Inc.",
+      "source": "apple",
+      "country": "JP",
+      "category": "app_lifestyle",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%82%B1%E3%83%BC%E3%82%BA%E3%83%87%E3%83%B3%E3%82%AD%E3%81%82%E3%82%93%E3%81%97%E3%82%93%E3%83%91%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88/id968245112?uo=2",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-28T05:28:52+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "※ケーズデンキあんしんパスポートアプリは iOS16以上の端末 でご利用いただけます。 本アプリは、ケーズデンキの公式アプリです。 スマートフォンをケーズデンキあんしんパスポートとしてご利用いただけます。 アプリに「ケーズデンキ あんしんパスポート」番号をご登録いただく事で、ケーズデンキ店頭にてご購入の際に「現金値引」などの４つの安心サービスをご利用いただけるほか、店頭でご利用いただけるお得なあんしんパスポート会員様限定クーポンを定期的にお届けいたします。 【主な機能】 1.「ケーズデンキ あんしんパスポート」を本アプリに登録できます。（新規入会も可能です） 2. アプリにご登録いただきました あんしんパスポート会員様限定のクーポンをお届けします。 3. 店舗検索、店舗情報、チラシが閲覧でき、QRコードの読み取りもできます。 4. 画面のあんしんパスポートをタップするとスクリーンの輝度が上がります。 5. 写真にメモができ、ARメジャーで長さも測れます。 6. お手持ちの家電製品の管理が行えます。 7.出張修理をご依頼いただけます。 詳しい使い方はアプリの「ガイド」＞「使い方」をご覧ください。 【留意事項】 ・端末の位置情報を利用します。 ・iPod touch、iPad では動作保証しておりません。 【このアプリについて】 本アプリは、株式会社ケーズホールディングスと株式会社ロケーションバリューが共同で企画・開発いたしました。",
+      "analysis": {
+        "app_key": "apple:968245112",
+        "summary_ko": "케ーズデンキ(K's Denki) 공식 앱으로, 스마트폰을 매장용 안심 패스포트로 활용할 수 있습니다. 회원 등록을 통해 현금 할인 등 4가지 서비스를 이용하고 전용 쿠폰을 받을 수 있습니다. 매장 정보 확인, 전단지 열람, 가전제품 관리 및 출장 수리 요청 기능을 제공합니다.",
+        "features_ko": [
+          "앱 내에 안심 패스포트 번호를 등록하여 매장에서 할인 혜택을 받을 수 있습니다.",
+          "회원 전용 쿠폰을 정기적으로 수신하여 매장에서 사용할 수 있습니다.",
+          "매장 검색, 매장 정보 확인 및 전단지 열람 기능을 제공합니다.",
+          "화면의 패스포트 영역을 탭하여 화면 밝기를 조절할 수 있습니다.",
+          "사진 메모 기능과 AR 메저(길이 측정) 기능을 지원합니다.",
+          "보유한 가전제품을 앱 내에서 관리하고 출장 수리를 의뢰할 수 있습니다."
+        ],
+        "noteworthy_ko": "단순한 멤버십 앱을 넘어 AR 측정이나 가전 관리 등 실용적인 유틸리티 기능을 결합한 점이 흥미롭습니다. 오프라인 매장 방문객의 체류 시간과 편의성을 높이기 위한 전략적 구성으로 추정됩니다.",
+        "development_ko": "위치 기반 서비스와 매장 데이터 연동이 핵심이며, AR 측정 기능 구현을 위해 카메라 API 활용이 필요합니다. 가전 관리 데이터베이스 구축과 출장 수리 접수 시스템 등 백엔드 연동이 중요하며, UI는 매장 방문객이 직관적으로 사용할 수 있도록 설계해야 합니다.",
+        "idea_ko": "가전제품의 구매 이력과 보증 기간을 자동으로 관리하고, 수리 시기가 다가오면 알림을 주는 '스마트 가전 관리 비서' 기능이 유용할 것입니다.",
+        "highlights_ko": [
+          "매장 할인과 가전 관리를 결합한 온-오프라인 통합 서비스입니다.",
+          "AR 메저 등 실생활에서 활용 가능한 부가 기능을 포함하고 있습니다."
+        ],
+        "systems_ko": [
+          "회원 인증 및 데이터베이스 관리 시스템",
+          "위치 기반 매장 검색 및 정보 연동",
+          "AR 카메라 인터페이스",
+          "푸시 알림 및 쿠폰 관리 시스템",
+          "가전제품 이력 관리 데이터베이스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "단순 멤버십 기능 외에 AR 측정, 가전 관리 백엔드, 매장 정보 연동 등 다양한 외부 시스템과의 통합이 필요합니다. 1인 개발 시 각 기능의 안정성과 보안 유지에 상당한 공수가 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "회원 바코드/번호 생성 및 표시",
+            "매장 정보 및 전단지 뷰어",
+            "쿠폰 수신 및 관리"
+          ],
+          "defer": [
+            "AR 메저 기능",
+            "가전제품 상세 관리 시스템",
+            "출장 수리 접수 시스템"
+          ],
+          "risks": [
+            "매장 데이터 연동의 복잡성",
+            "개인정보 보호 및 보안 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "가전 보증 알리미",
+            "concept": "사용자가 등록한 가전의 보증 기간을 추적하여 만료 전 알림을 보냅니다. 수리 필요 시 매장과 연결하는 기능을 포함합니다.",
+            "first_step": "가전 이름과 구매일을 입력하고 보증 만료일을 계산하는 로컬 알림 기능 구현."
+          },
+          {
+            "title": "매장 방문 스탬프 투어",
+            "concept": "매장 방문 시 위치 기반으로 스탬프를 획득하고, 특정 개수 달성 시 혜택을 제공합니다.",
+            "first_step": "위치 정보를 활용해 특정 반경 내 진입 시 스탬프를 부여하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "오프라인 매장과 연동되는 O2O 앱의 기본 구조를 배우기에 적합합니다. 다만, 실제 매장 데이터가 없는 경우 기능 구현에 한계가 있으므로 개인 프로젝트라면 범용적인 멤버십 앱으로 변형하여 개발하는 것을 추천합니다.",
+        "source_limitations_ko": "매장 데이터 연동 방식, 서버 통신 규격, 결제 시스템의 상세 구현 방식은 확인되지 않습니다. AR 메저의 정확도나 가전 관리 데이터의 동기화 방식은 추가 검증이 필요합니다.",
+        "name": "ケーズデンキあんしんパスポート",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%82%B1%E3%83%BC%E3%82%BA%E3%83%87%E3%83%B3%E3%82%AD%E3%81%82%E3%82%93%E3%81%97%E3%82%93%E3%83%91%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%88/id968245112?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 23,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
     }
   }
 }

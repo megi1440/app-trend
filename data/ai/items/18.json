@@ -6724,6 +6724,542 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-27"
+    },
+    "itch:c2b44ef337c582138798": {
+      "app_key": "itch:c2b44ef337c582138798",
+      "name": "INFERNO [Free] [Action] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://kirovec.itch.io/inferno",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:15:06+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A grim roguelite survivor: 20 minutes in the fire against the hordes of the Inferno",
+      "analysis": {
+        "app_key": "itch:c2b44ef337c582138798",
+        "summary_ko": "지옥의 무리로부터 20분 동안 살아남아야 하는 로그라이트 서바이버 게임입니다. 쉴 새 없이 몰려오는 적들을 물리치며 생존하는 액션 중심의 게임입니다.",
+        "features_ko": [
+          "20분 동안 몰려오는 적들을 막아내는 생존 게임입니다.",
+          "로그라이트 요소를 통해 매 판마다 다른 성장을 경험합니다.",
+          "지옥을 테마로 한 어두운 분위기의 액션 플레이를 제공합니다."
+        ],
+        "noteworthy_ko": "최근 유행하는 서바이버 장르의 핵심을 잘 담고 있습니다. 수많은 적을 동시에 처리하는 최적화 기술과 로그라이트식 성장 시스템의 조화가 개발의 핵심입니다.",
+        "development_ko": "수많은 오브젝트를 동시에 처리하기 위한 최적화(오브젝트 풀링)가 필수적입니다. 적의 AI 패턴과 캐릭터 성장 시스템의 밸런스를 맞추는 것이 제작 부담입니다. 로그라이트 요소인 무작위 보상 시스템 설계가 중요합니다.",
+        "idea_ko": "생존 시간 동안 특정 지형을 점령하여 방어선을 구축하는 전략적 서바이버 게임.",
+        "highlights_ko": [
+          "로그라이트 서바이버 장르의 정석.",
+          "20분이라는 명확한 플레이 타임 제한."
+        ],
+        "systems_ko": [
+          "오브젝트 풀링 시스템",
+          "적 AI 및 스폰 로직",
+          "캐릭터 성장 및 스킬 시스템",
+          "로그라이트 무작위 보상 로직",
+          "충돌 및 데미지 계산 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "수많은 적을 동시에 처리하는 최적화는 1인 개발자에게 큰 도전입니다. 또한, 로그라이트 시스템의 밸런스를 맞추는 것은 많은 테스트를 필요로 합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이동 및 공격 로직",
+            "적 스폰 및 추적 AI",
+            "오브젝트 풀링"
+          ],
+          "defer": [
+            "다양한 캐릭터 및 스킬 트리",
+            "복잡한 맵 구성"
+          ],
+          "risks": [
+            "성능 최적화 실패",
+            "반복 플레이의 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "환경 상호작용 서바이버",
+            "concept": "맵에 있는 함정이나 지형을 활용하여 적을 처치합니다. 단순히 공격하는 것보다 지형지물을 이용하는 전략이 중요합니다.",
+            "first_step": "특정 구역에 닿으면 적에게 데미지를 주는 함정 오브젝트 구현."
+          },
+          {
+            "title": "협동 서바이버",
+            "concept": "두 명의 플레이어가 서로 다른 역할을 맡아 생존합니다. 한 명은 공격, 한 명은 방어막 생성 등 협력이 필수적입니다.",
+            "first_step": "두 캐릭터의 입력을 동시에 처리하는 로컬 멀티플레이 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "최적화와 시스템 설계 능력을 기르기에 좋습니다. 서바이버 장르의 핵심 루프를 구현해보고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "성장 시스템의 구체적인 종류, 적의 패턴, 로그라이트 보상의 다양성 등은 설명에서 확인할 수 없습니다.",
+        "name": "INFERNO [Free] [Action] [Windows]",
+        "source": "itch",
+        "detail_url": "https://kirovec.itch.io/inferno",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 305,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "apple:1406157182": {
+      "app_key": "apple:1406157182",
+      "name": "英検®準1級 でた単",
+      "developer": "Namiko Takahashi",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/jp/app/%E8%8B%B1%E6%A4%9C-%E6%BA%961%E7%B4%9A-%E3%81%A7%E3%81%9F%E5%8D%98/id1406157182",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:19:52+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "2026年10月実施分(2026年度第2回)の最新データを追加しました。 最高のデータを最速でお届け。 語彙問題を全問正解できる圧倒的的中率* 新形式全18問、旧形式全25問で正解の理論値を出しています。 新形式全18問 2026年10月、16問/18問 2026年6月、17問/18問 2026年1月、18問/18問 2025年10月、18問/18問 2025年6月、18問/18問 2025年1月、17問/18問 2024年10月、16問/18問 2024年6月、18問/18問 旧形式全25問 2024年1月、22問/25問 2023年10月、24問/25問 2023年6月、24問/25問 2023年1月、25問/25問 2022年6月、25問/25問 2022年10月、25問/25問 2022年6月、24問/25問 2022年1月、24問/25問 2021年10月、25問/25問 英検®準１級・語彙問題対策として選定した単語・熟語「5572単語」を収録しています。 単語データは現在も追加中です。 ステージ1: 1380単語 ステージ2: 1406単語 ステージ3: 1291単語 ステージ4: 1495単語 ステージ5: 1348単語(年度別掲載) 合計: 5572単語 英検の語彙問題は過去問から多く出題され、頻出の単語は繰り返し出題されています。アプリ内の各品詞のABCの範囲には正解として出題された単語と選択肢としての出題回数が多い単語をまとめています。A〜の順に優先的に学習することで効率よく合格点へ近づくことができます。 ＜現在カバーしている英検準1級の過去問95回分＞ 1991年第1, 2回 1992年第1, 2回 1993年第1, 2回 1994年第1, 2回 1995年第1, 2回 1996年第1, 2回 1997年第1, 2回 1998年第1, 2回 1999年第1, 2回 2000年第1, 2回 2001年第1, 2, 3回 2002年第1, 2, 3回 2003年第1, 2, 3回 2004年第1, 2, 3回 2005年第1, 2, 3回 2006年第1, 2, 3回 2007年第1, 2, 3回 2008年第1, 2, 3回 2009年第1, 2, 3回 2010年第1, 2, 3回 2011年第1, 2, 3回 2012年第1, 2, 3回 2013年第1, 2, 3回 2014年第1, 2, 3回 2015年第1, 2, 3回 2016年第1, 2, 3回 2017年第1, 2, 3回 2018年第1, 2, 3回 2019年第1, 2, 3回 2020年第1, 2, 3回 2021年第1, 2, 3回 2022年第1, 2, 3回 2023年第1, 2, 3回 2024年第1, 2, 3回 2025年第1, 2, 3回 2026年第1, 2回 *アップデートを続け、最新のデータを収録していきます。 *すべて音声追加予定です。 このアプリでは単語が品詞別にカテゴリー分けされており、過去の英検での正解になった回数、出題頻度の高い順にリストアップされています（正解数と頻度が同じ単語の順番はランダムです）。 日本語訳は正解になった意味を採用。そのほかは複数の辞書が第一の意味としているものを採用しました。 アプリ内の練習とテストを繰り返し、ユーザーが自由に振り分けられる単語帳で苦手単語を復習できます。 ＜練習＞ 練習したいカテゴリー（例：形容詞A）を選択すると、設定画面が現れます。 自由に設定し、「練習スタート」を押してください。 ＜単語テスト15問＞ 左下「テスト15問」では、該当カテゴリー内の単語がランダムに15問出題されます。 出題間隔や出題順は英単語を記憶しやすいように最適化されていきます。 15問すべて答え終わると、タイムとスコアの結果が出ます。 素早く正解できると高いポイントを獲得でき、グラフで履歴が残ります。 テストで出題された15問は一覧となって表示されますので、復習に便利です。 ＜単語帳機能＞ 「日本語訳」のセル右上をタップするとチェックされ、チェックした単語を「単語帳」に登録できます。 チェックし、画面右下に出てくる「単語帳を選ぶ」をタップしてください。 単語帳は7つ用意されています。苦手単語のオリジナル・単語帳を作ることができます。 ＜自動再生＞ 単語帳や単語一覧のページでは英単語を自動再生することができます。 ＜アプリ内検索＞ 検索ページでは単語や意味、発音記号から検索することができます。検索した単語から品詞別リストへ移動できます。 ＜タイピング＞ 英単語のタイピングの練習ができます。資格試験のパソコン受験でのライティングを意識してキーボード入力の練習用に実装しました。 ＊開発・作成 Namiko Takahashi 1級合格15回(以上、記録確認分) 2018年頃 合計2916 英検1級取得(1次試験2273/2550 G1 +10、2次試験643/850 G1 +2) 英検1級ライティング満点850/850 2023年第2回 合計2937 英検1級取得(1次試験2313/2550 G1 +11、 2次試験624/850 G1 +1) 2023年度 英検準1級 日本商工会議所会頭賞受賞(社会人枠1位) TOEIC L&R 満点(新形式990点、旧形式990点) 元 大手コンサルタント会社、元 英語教育出版社 ＊英語音声 Patricia D. （ワシントン大学卒） ＊アプリ内の効果音 フリー効果音素材 くらげ工匠 http://www.kurage-kosho.info/ 効果音素材 :ポケットサウンド Pocket Sound https://pocket-se.info/ 英検®は、公益財団法人 日本英語検定協会の登録商標です。 このコンテンツは、公益財団法人 日本英語検定協会の承認や推奨、その他の検討を受けたものではありません。 「英検」商標使用に関するガイドライン https://www.eiken.or.jp/trademark/ iOS版 Privacy Policy https://ameblo.jp/detatan2018/entry-12791082133.html 利用規約 (EULA、Apple標準) LICENSED APPLICATION END USER LICENSE AGREEMENT https://ameblo.jp/detatan2018/entry-12791083188.html",
+      "analysis": {
+        "app_key": "apple:1406157182",
+        "summary_ko": "영검 준1급 시험 대비를 위한 단어 학습 앱입니다. 과거 기출 데이터를 기반으로 출제 빈도가 높은 단어와 숙어를 학습할 수 있습니다. 테스트, 단어장, 타이핑 연습 등 다양한 학습 기능을 제공합니다.",
+        "features_ko": [
+          "과거 기출 데이터를 분석하여 출제 빈도순으로 단어를 정렬합니다.",
+          "단어 테스트 기능을 통해 학습 성과를 측정하고 기록합니다.",
+          "사용자가 직접 단어를 분류할 수 있는 단어장 기능을 제공합니다.",
+          "영어 단어 타이핑 연습 기능을 지원합니다.",
+          "단어 및 의미를 검색할 수 있는 앱 내 검색 기능을 포함합니다."
+        ],
+        "noteworthy_ko": "방대한 기출 데이터를 체계적으로 분류하고 학습 효율을 극대화한 점이 인상적입니다. 데이터베이스 설계와 사용자 맞춤형 학습 알고리즘 구현이 개발 관점에서 핵심적인 가치를 지닙니다.",
+        "development_ko": "핵심 기술은 대규모 단어 데이터베이스 관리와 검색 최적화입니다. 콘텐츠 제작은 기출 데이터의 정제 및 분류 작업이 대부분을 차지하며, 테스트/밸런스 부담은 학습 알고리즘의 난이도 조절에 있습니다. 사용자 경험을 위해 데이터 동기화와 UI 반응 속도 개선이 중요합니다.",
+        "idea_ko": "특정 시험의 기출 데이터를 체계적으로 학습시키는 데이터 중심의 교육용 앱 개발이 개인 개발자에게 적합합니다.",
+        "highlights_ko": [
+          "기출 데이터를 기반으로 한 높은 적중률과 체계적인 단어 분류를 제공합니다.",
+          "학습자의 수준에 맞춘 테스트와 복습 기능을 통해 효율적인 암기를 돕습니다."
+        ],
+        "systems_ko": [
+          "단어 데이터베이스 관리 시스템",
+          "학습 진도 및 테스트 기록 관리",
+          "사용자 맞춤형 단어장 시스템",
+          "검색 및 필터링 엔진",
+          "타이핑 연습 입력 판정 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "복잡한 게임 엔진은 필요 없으나, 방대한 데이터를 효율적으로 관리하고 사용자 경험을 고려한 UI/UX 설계가 중요하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "단어 목록 표시 및 검색 기능",
+            "단어 테스트 기능",
+            "단어장 저장 기능"
+          ],
+          "defer": [
+            "자동 재생 기능",
+            "타이핑 연습 기능",
+            "상세한 학습 통계 그래프"
+          ],
+          "risks": [
+            "데이터의 정확성 및 최신성 유지",
+            "저작권 관련 데이터 사용 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "오답 노트 자동 생성기",
+            "concept": "사용자가 틀린 문제를 자동으로 수집하여 취약점 분석 리포트를 제공하는 학습 앱입니다. 오답률이 높은 유형을 우선 학습시킵니다.",
+            "first_step": "사용자의 오답 데이터를 저장하고 리스트화하는 기능을 구현합니다."
+          },
+          {
+            "title": "단어 연상 퀴즈",
+            "concept": "단어의 뜻을 맞추는 것이 아니라, 단어와 관련된 이미지나 상황을 매칭하는 퀴즈 앱입니다. 시각적 기억력을 활용합니다.",
+            "first_step": "이미지와 단어를 매칭하는 간단한 퀴즈 UI를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "데이터베이스 설계와 효율적인 정보 전달을 위한 UI 구성 능력을 기르기에 매우 좋습니다. 교육용 앱 시장의 니즈를 파악하고 데이터를 구조화하는 연습으로 추천합니다.",
+        "source_limitations_ko": "소개문에는 데이터베이스의 구체적인 구조, 외부 API 연동 여부, 서버 통신 방식 등이 명시되어 있지 않습니다.",
+        "name": "英検®準1級 でた単",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E8%8B%B1%E6%A4%9C-%E6%BA%961%E7%B4%9A-%E3%81%A7%E3%81%9F%E5%8D%98/id1406157182",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "google:com.FireproofStudios.TheRoom": {
+      "app_key": "google:com.FireproofStudios.TheRoom",
+      "name": "The Room",
+      "developer": "Fireproof Games",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.FireproofStudios.TheRoom&hl=en&gl=US",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:19:52+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Welcome to The Room, a physical puzzler, wrapped in a mystery game, inside a beautifully tactile 3D world. ***************** How are you, old friend? If you’re reading this, then it worked. I only hope you can still forgive me. We’ve never seen eye to eye on my research, but you must put such things behind you. You are the only one to whom I can turn. You must come at once, for we are all in great peril. I trust you remember the house? My study is the highest room. Press forward with heart. There is no way back now. AS. ****** Fireproof Games are very proud to bring you our greatest creation, a mind-bending journey filled with beauty, peril and mystery in equal measure. Be transported into a unique space that blends spellbinding visuals with intriguing problems to solve. • Unsettlingly realistic graphics: Vibrant natural-looking visuals perfected for mobile displays. • Spine-tingling single finger controls: touch controls so natural you can play with one digit, to fully navigate this mysteriously beautiful 3D world. • Fantastical pick-up-and-play design: Easy to start, hard to put down, the secrets of The Room will immerse you before you even know you're playing. • Compelling layers of mystery: think you know what you're looking at? Think again.",
+      "analysis": {
+        "app_key": "google:com.FireproofStudios.TheRoom",
+        "summary_ko": "신비로운 분위기의 3D 공간에서 퍼즐을 해결하는 미스터리 게임입니다. 정교하게 제작된 3D 오브젝트를 조작하며 숨겨진 비밀을 찾아내는 경험을 제공합니다. 직관적인 터치 컨트롤을 통해 몰입감 있는 퍼즐 해결 과정을 즐길 수 있습니다.",
+        "features_ko": [
+          "현실적인 3D 그래픽을 통해 몰입감 높은 환경을 제공합니다.",
+          "한 손가락으로 조작 가능한 직관적인 터치 컨트롤을 지원합니다.",
+          "다양한 퍼즐 요소가 얽힌 미스터리한 서사를 포함합니다.",
+          "쉽게 시작할 수 있으나 깊이 있는 퍼즐 해결 과정을 제공합니다."
+        ],
+        "noteworthy_ko": "정교한 3D 모델링과 터치 인터페이스의 결합이 매우 뛰어난 사례입니다. 퍼즐의 층위를 쌓아 올리는 방식은 개발자에게 레벨 디자인과 사용자 경험 설계의 중요성을 잘 보여줍니다.",
+        "development_ko": "핵심 기술은 3D 오브젝트의 상호작용 로직과 카메라 제어입니다. 콘텐츠 제작은 고품질의 3D 에셋 제작과 퍼즐 메커니즘 설계에 큰 비중이 있습니다. 테스트 시에는 퍼즐의 논리적 오류를 검증하고, 모바일 기기에서의 최적화가 매우 중요합니다.",
+        "idea_ko": "특정 공간 내에서 오브젝트를 조작하는 퍼즐 게임은 1인 개발 시 규모를 축소하여 구현하기에 좋은 장르입니다.",
+        "highlights_ko": [
+          "현실적인 그래픽과 직관적인 조작으로 높은 몰입감을 제공합니다.",
+          "퍼즐이 층층이 쌓여 있는 미스터리한 구성이 특징입니다."
+        ],
+        "systems_ko": [
+          "3D 오브젝트 상호작용 시스템",
+          "퍼즐 논리 및 상태 관리 시스템",
+          "카메라 제어 및 시점 전환 시스템",
+          "힌트 및 진행 가이드 시스템",
+          "데이터 저장 및 로드 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "고품질의 3D 그래픽 구현과 복잡한 퍼즐 메커니즘 설계는 1인 개발자에게 상당한 기술적, 예술적 역량을 요구하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 3D 오브젝트 조작(회전, 확대)",
+            "퍼즐 해결 로직",
+            "스테이지 진행 시스템"
+          ],
+          "defer": [
+            "고품질의 텍스처 및 쉐이더",
+            "복잡한 서사 연출",
+            "다양한 퍼즐 기믹"
+          ],
+          "risks": [
+            "퍼즐 난이도 조절 실패로 인한 사용자 이탈",
+            "3D 최적화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "방 탈출 미니 퍼즐",
+            "concept": "단일 공간에서 3~5개의 퍼즐을 풀어 탈출하는 짧은 퍼즐 게임입니다. 오브젝트 간의 연관성을 찾는 것이 핵심입니다.",
+            "first_step": "오브젝트를 클릭하여 상태를 변화시키는 상호작용 로직을 구현합니다."
+          },
+          {
+            "title": "기계 장치 수리 퍼즐",
+            "concept": "고장 난 기계의 부품을 올바르게 배치하여 작동시키는 퍼즐입니다. 기계의 내부 구조를 시각적으로 보여줍니다.",
+            "first_step": "부품을 드래그하여 특정 위치에 고정하는 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "3D 공간에서의 상호작용 설계와 퍼즐의 논리적 구조를 배우기에 최적입니다. 다만, 1인 개발 시에는 그래픽보다는 퍼즐의 재미에 집중하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 퍼즐의 구체적인 메커니즘, 3D 엔진 정보, 최적화 기법 등이 명시되어 있지 않습니다.",
+        "name": "The Room",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.FireproofStudios.TheRoom&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "google:jp.co.spikechunsoft.android.terrariajp": {
+      "app_key": "google:jp.co.spikechunsoft.android.terrariajp",
+      "name": "テラリア（日本語版）",
+      "developer": "SPIKE CHUNSOFT",
+      "source": "google",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=jp.co.spikechunsoft.android.terrariajp&hl=ja&gl=JP",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:22:04+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "掘る、作る、戦う。遊びかたは無限大！ 2D横スクロール型モノづくりアクションアドベンチャー「テラリア」が、日本語に対応してAndroidに登場！ テラリアの世界は木や土、鉱石などのブロックで構成されており、ツルハシやオノなどを使って切り崩すことで、素材として収集できる。 集めたブロックやモンスターが落とす素材などを使えば、アイテムを作ったり、自由な形の建造物を建てることが可能。 新たな素材を求めて、そしてまだ見ぬ敵を求めて広大なマップを自由に散策しよう。 ・文字入力 本アプリ内でのキャラクター名とワールド名の入力は、英数字にのみ対応しています。ご利用端末のキーボードをローマ字入力に切り替えて入力してください。 ・マルチプレイ 本アプリは、最大4人のアドホックマルチプレイに対応しています。同じWi-Fiに接続した他のプレイヤーのワールドが、「ゲームに参加」画面に表示されます。 「テラリア」の世界をもっと知りたい方は、公式ウェブサイトをご確認ください。 http://www.spike-chunsoft.co.jp/terraria/sp ※一部非対応端末があります。 ※ゲームの攻略法に関するお問い合わせにはお答えいたしかねます。 ------- Published by 505 Games (and Spike Chunsoft for Japan region). (C) 2014 Re-Logic. Mobile versions developed by Codeglue. All Rights Reserved. 本ソフトウェアでは、フォントワークス株式会社のフォントを使用しています。フォントワークスの社名、フォントワークス、Fontworks、フォントの名称は、フォントワークス株式会社の商標または登録商標です。",
+      "analysis": {
+        "app_key": "google:jp.co.spikechunsoft.android.terrariajp",
+        "summary_ko": "테라리아는 2D 횡스크롤 환경에서 블록을 파괴하고 수집하여 아이템을 제작하고 건축을 즐기는 액션 어드벤처 게임입니다. 플레이어는 광활한 맵을 탐험하며 자원을 모으고 적과 싸우며 자신만의 세계를 구축합니다. 최대 4인까지 같은 Wi-Fi 환경에서 멀티플레이를 지원합니다.",
+        "features_ko": [
+          "곡괭이와 도끼를 사용하여 나무, 흙, 광석 등 지형 블록을 채굴합니다.",
+          "수집한 소재를 조합하여 다양한 아이템과 건축물을 제작합니다.",
+          "맵 곳곳을 탐험하며 새로운 자원을 찾고 적대적인 몬스터와 전투를 벌입니다.",
+          "같은 Wi-Fi에 연결된 기기 간 최대 4인 멀티플레이를 지원합니다."
+        ],
+        "noteworthy_ko": "블록 기반의 샌드박스 환경에서 아이템 제작과 전투를 결합한 구조가 특징입니다. 개발 관점에서는 타일 기반의 맵 데이터 관리와 실시간 물리 연산이 핵심적인 흥미 요소로 추정됩니다.",
+        "development_ko": "타일 맵 시스템과 아이템 조합 로직 구현이 핵심입니다. 1인 개발 시 방대한 아이템 데이터와 몬스터 AI 밸런싱에 상당한 시간이 소요될 것으로 보입니다. 멀티플레이 동기화는 네트워크 지연 처리가 까다로운 기술적 과제입니다.",
+        "idea_ko": "특정 테마의 블록만 사용하여 제한된 공간 내에서 생존하는 '초소형 샌드박스 서바이벌'을 제안합니다.",
+        "highlights_ko": [
+          "자유로운 지형 파괴와 건축이 가능한 샌드박스 시스템입니다.",
+          "다양한 소재를 활용한 아이템 제작 및 캐릭터 성장 요소가 포함되어 있습니다."
+        ],
+        "systems_ko": [
+          "타일 기반 맵 데이터 관리 시스템",
+          "아이템 조합 및 인벤토리 시스템",
+          "실시간 2D 충돌 판정 및 물리 엔진",
+          "몬스터 AI 및 전투 로직",
+          "로컬 네트워크 멀티플레이 동기화"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "방대한 콘텐츠 양과 복잡한 상호작용 시스템을 1인이 모두 구현하기에는 제작 부담이 매우 큽니다. 특히 멀티플레이 동기화와 최적화는 높은 기술적 숙련도를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "블록 파괴 및 배치 시스템",
+            "기본 아이템 제작 UI",
+            "플레이어 이동 및 물리 처리"
+          ],
+          "defer": [
+            "멀티플레이 기능",
+            "복잡한 몬스터 AI",
+            "방대한 아이템 데이터베이스"
+          ],
+          "risks": [
+            "맵 데이터 저장 및 로딩 최적화 실패",
+            "아이템 조합 로직의 확장성 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "미니멀 샌드박스 빌더",
+            "concept": "제한된 10x10 타일 안에서만 건축하는 게임입니다. 자원 수집보다는 주어진 블록으로 효율적인 구조를 만드는 퍼즐에 집중합니다.",
+            "first_step": "타일 배치 및 삭제 기능이 포함된 2D 그리드 시스템 구현."
+          },
+          {
+            "title": "자원 순환 생존기",
+            "concept": "채굴한 자원을 소모하여 에너지를 얻고, 에너지가 고갈되기 전에 다음 자원을 찾아야 하는 시간 제한 생존 게임입니다.",
+            "first_step": "플레이어의 에너지 감소 로직과 자원 획득 상호작용 구현."
+          }
+        ],
+        "recommendation_ko": "타일 기반 게임의 기초적인 맵 데이터 관리와 상호작용 로직을 배우기에 좋습니다. 다만, 원작의 방대한 규모를 복제하려 하기보다는 핵심 메커니즘 하나를 구현하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 데이터 저장 방식, 물리 엔진의 종류, 네트워크 프로토콜에 대한 정보가 없습니다. 실제 게임 내의 아이템 개수나 몬스터 종류 등 상세 데이터는 확인되지 않습니다.",
+        "name": "テラリア（日本語版）",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=jp.co.spikechunsoft.android.terrariajp&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "google:com.relax.cleaning": {
+      "app_key": "google:com.relax.cleaning",
+      "name": "클리닝 ASMR: 정리와 휴식",
+      "developer": "KITTEN DOLL LIMITED",
+      "source": "google",
+      "country": "KR",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.relax.cleaning&hl=ko&gl=KR",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:23:36+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "🧽 클리닝 ASMR: 정리와 휴식은 편안한 청소 순간과 재미있는 테마 챌린지를 즐길 수 있는 만족스러운 캐주얼 청소 게임입니다. ✨ 어질러진 것들을 다시 깨끗하게 만드는 만족스러운 클리닝 ASMR 경험을 즐겨보세요. 먼지를 닦아내고, 얼룩을 씻어내고, 더러운 표면을 문지르고, 때를 제거하며 각 물건이 단계별로 변하는 모습을 확인할 수 있습니다. 부드러운 조작과 편안한 ASMR 사운드로, 탭하고 밀고 문지르는 모든 순간이 휴식을 도와줍니다. 청소 후에는 물건을 깔끔하게 배치하며 각 장면에 단정한 질서감을 더하는 가벼운 정리 시간도 즐길 수 있습니다. 🎨게임에는 다양한 테마의 창의적인 청소 레벨도 포함되어 있습니다. 따개비를 제거하고, 더러워진 물건을 복원하고, 지저분한 캐릭터를 깨끗하게 새단장하고, 평범한 사람을 스타로 바꾸며, 더 많은 놀라운 청소 과제를 발견해 보세요. 각 레벨은 새로운 종류의 청소 만족감을 선사합니다. 📋특징: - 간단한 탭과 스와이프 조작으로 즐기는 편안한 청소 플레이 - 씻기, 닦기, 문지르기, 광내기를 위한 만족스러운 ASMR 사운드 - 다양한 물건과 장면으로 구성된 재미있는 테마 청소 레벨 - 청소 후 즐기는 가벼운 정리 순간 - 스트레스 해소에 좋은 차분한 캐주얼 플레이 - 모든 청소가 보람 있게 느껴지는 부드러운 시각 효과 🧘청소 게임, ASMR 사운드, 메이크오버 챌린지, 정돈된 공간, 편안한 캐주얼 플레이를 좋아한다면, 클리닝 ASMR: 정리와 휴식에서 만족스럽게 청소하고, 바꾸고, 긴장을 풀 수 있습니다.",
+      "analysis": {
+        "app_key": "google:com.relax.cleaning",
+        "summary_ko": "클리닝 ASMR은 어질러진 물건을 닦고, 씻고, 문지르며 깨끗하게 복원하는 만족감을 주는 캐주얼 시뮬레이션 게임입니다. 다양한 테마의 레벨을 통해 청소 과정을 수행하고, 이후 물건을 정리하며 질서감을 느낄 수 있습니다. 부드러운 조작과 ASMR 사운드를 통해 스트레스 해소와 휴식을 제공합니다.",
+        "features_ko": [
+          "탭과 스와이프 조작으로 씻기, 닦기, 문지르기 등 청소 동작을 수행합니다.",
+          "청소 과정에서 만족스러운 ASMR 사운드 효과를 제공합니다.",
+          "다양한 테마의 레벨에서 물건을 복원하고 캐릭터를 새단장합니다.",
+          "청소 완료 후 물건을 정돈하는 정리 단계를 포함합니다."
+        ],
+        "noteworthy_ko": "물리적인 상호작용과 청각적 피드백(ASMR)을 결합하여 심리적 만족감을 극대화하는 설계가 돋보입니다. 이는 단순한 반복 작업에 게임적 요소를 더해 몰입감을 높이는 전형적인 힐링 게임의 전략입니다.",
+        "development_ko": "다양한 텍스처와 오브젝트의 상태 변화(더러움에서 깨끗함으로)를 구현하기 위한 셰이더 기술이 핵심입니다. ASMR 사운드의 타이밍과 조작 반응성을 맞추는 것이 중요하며, 레벨별 콘텐츠 제작 부담이 클 수 있습니다. 밸런스는 청소의 난이도보다는 만족감에 초점을 맞춰야 합니다.",
+        "idea_ko": "청소한 물건을 가상 공간에 전시하고, 나만의 방을 꾸미는 '청소 후 인테리어' 요소를 결합하는 것을 제안합니다.",
+        "highlights_ko": [
+          "시각적 변화와 청각적 피드백의 조화.",
+          "다양한 테마를 통한 지속적인 콘텐츠 제공."
+        ],
+        "systems_ko": [
+          "오브젝트 상태 관리 시스템",
+          "ASMR 사운드 트리거 시스템",
+          "터치 입력 및 제스처 인식",
+          "레벨 데이터 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기본적인 터치 상호작용은 구현하기 쉬우나, 만족스러운 시각적 효과와 사운드 연출을 완성도 있게 만드는 데 노력이 필요하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 청소 메커니즘(닦기)",
+            "상태 변화 셰이더/이미지 교체",
+            "ASMR 사운드 재생"
+          ],
+          "defer": [
+            "다양한 테마 레벨",
+            "캐릭터 메이크오버 기능"
+          ],
+          "risks": [
+            "반복적인 청소 작업의 지루함",
+            "사운드와 시각 효과의 싱크 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "청소 후 전시관",
+            "concept": "청소한 물건들을 수집하여 나만의 박물관에 전시하고 관리합니다.",
+            "first_step": "수집된 아이템을 리스트로 보여주는 UI 구현."
+          },
+          {
+            "title": "시간 제한 청소 챌린지",
+            "concept": "제한 시간 내에 더 많은 오염을 제거하는 긴장감 있는 모드입니다.",
+            "first_step": "타이머 UI와 점수 계산 로직 추가."
+          }
+        ],
+        "recommendation_ko": "시각적 효과와 사운드를 결합한 감성적인 게임 개발을 배우기에 좋습니다. 셰이더 기초와 사운드 디자인의 중요성을 체감할 수 있어 추천합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 구체적인 물리 엔진 사용 여부, 광고 수익 모델, 오프라인 플레이 가능 여부 등은 확인되지 않았습니다.",
+        "name": "클리닝 ASMR: 정리와 휴식",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.relax.cleaning&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "apple:6782164452": {
+      "app_key": "apple:6782164452",
+      "name": "Zyra VPN",
+      "developer": "MUZA TECHNOLOGIES s.r.o.",
+      "source": "apple",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://apps.apple.com/us/app/zyra-vpn/id6782164452?uo=2",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-28T05:28:08+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Privacy isn't a feature. It's a standard. Zyra VPN is a premium VPN experience built for people who expect more from their digital life. Fast connections, powerful protection, and a refined user experience come together in a product designed to make online privacy feel effortless. Created with a strong focus on performance and simplicity, Zyra VPN helps you stay connected with confidence whether you're working, traveling, streaming, or browsing throughout the day. The Zyra Philosophy The internet should feel open, secure, and private. Zyra VPN was created around a simple idea: digital protection should be elegant, accessible, and powerful. Instead of overwhelming users with technical details, we focus on delivering a seamless experience that simply works. Whether you're at home, on the move, or connected to public Wi-Fi, Zyra VPN helps you browse with confidence and enjoy a more private online experience. Why Users Choose Zyra VPN • Modern premium design • Fast and reliable VPN connections • Advanced connection security • Private browsing experience • Global VPN network • Wi-Fi protection on the go • User-friendly interface • Lightweight and optimized performance Legal By using Zyra VPN, you agree to our Terms of Use, Privacy Policy, and End User License Agreement (EULA). Terms of Use: https://zyra-vpn.com/terms Privacy Policy: https://zyra-vpn.com/privacy EULA: https://zyra-vpn.com/eula",
+      "analysis": {
+        "app_key": "apple:6782164452",
+        "summary_ko": "Zyra VPN은 사용자의 온라인 개인정보 보호를 위해 설계된 프리미엄 VPN 서비스입니다. 빠르고 안정적인 연결과 보안 기능을 강조하며, 복잡한 설정 없이 직관적인 사용자 경험을 제공하는 것을 목표로 합니다. 공공 와이파이 환경 등에서 안전한 브라우징을 지원합니다.",
+        "features_ko": [
+          "빠르고 안정적인 VPN 연결을 통해 네트워크 성능을 최적화합니다.",
+          "고급 보안 기술을 적용하여 데이터 전송 시 개인정보를 보호합니다.",
+          "사용자 친화적인 인터페이스를 통해 복잡한 설정 없이 서비스를 이용할 수 있습니다.",
+          "글로벌 VPN 네트워크를 통해 다양한 지역의 서버에 접속할 수 있습니다."
+        ],
+        "noteworthy_ko": "사용자 경험을 최우선으로 한 미니멀리즘 디자인이 특징입니다. 개발 관점에서는 VPN 프로토콜의 안정적인 구현과 서버 인프라 구축이 핵심일 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 VPN 터널링 프로토콜 구현과 서버 네트워크 최적화입니다. 보안 기능의 신뢰성을 확보하기 위한 암호화 기술 적용이 필수적이며, 다양한 네트워크 환경에서의 연결 안정성 테스트가 중요합니다.",
+        "idea_ko": "특정 국가의 콘텐츠에만 접근하는 것이 아니라, 사용자의 네트워크 사용 패턴을 분석해 최적의 서버를 자동으로 추천해 주는 스마트 연결 기능을 제안합니다.",
+        "highlights_ko": [
+          "성능과 단순함을 강조한 사용자 중심의 인터페이스 설계.",
+          "공공 와이파이 등 보안이 취약한 환경에서의 데이터 보호 기능."
+        ],
+        "systems_ko": [
+          "VPN 터널링 프로토콜 관리",
+          "서버 상태 모니터링 및 로드 밸런싱",
+          "사용자 인증 및 구독 관리 시스템",
+          "네트워크 트래픽 암호화 모듈"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "VPN 서비스는 높은 수준의 보안 기술과 전 세계에 분산된 서버 인프라가 필요합니다. 개인 개발자가 안정적인 네트워크 보안과 서버 인프라를 구축하는 것은 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 VPN 연결 기능",
+            "서버 리스트 관리",
+            "사용자 인증 시스템"
+          ],
+          "defer": [
+            "글로벌 서버 네트워크 구축",
+            "고급 암호화 프로토콜 자체 개발"
+          ],
+          "risks": [
+            "보안 취약점 발생 시 사용자 정보 유출 위험",
+            "서버 운영 비용 및 네트워크 대역폭 관리 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "로컬 네트워크 보안 가이드",
+            "concept": "VPN 대신 현재 연결된 네트워크의 보안 수준을 진단하고, 위험 요소가 있을 때 사용자에게 알림을 주는 보안 도구입니다.",
+            "first_step": "네트워크 연결 상태를 감지하고 보안 취약점을 스캔하는 간단한 앱 구현."
+          },
+          {
+            "title": "스마트 서버 스위처",
+            "concept": "사용자가 자주 사용하는 앱에 따라 최적의 서버를 자동으로 연결해 주는 자동화 도구입니다.",
+            "first_step": "특정 앱 실행 시 VPN 연결을 트리거하는 자동화 로직 구현."
+          }
+        ],
+        "recommendation_ko": "네트워크 보안과 인프라 구축의 복잡성을 이해하는 데 도움이 됩니다. 다만, 실제 VPN 서비스는 높은 보안 책임이 따르므로 개인 개발보다는 학습용 프로젝트로 접근하는 것을 권장합니다.",
+        "source_limitations_ko": "소개문에는 사용된 구체적인 암호화 프로토콜이나 서버 인프라의 상세 정보가 없습니다. 보안 기능의 실질적인 검증은 외부 보안 전문가의 감사가 필요합니다.",
+        "name": "Zyra VPN",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/zyra-vpn/id6782164452?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
     }
   }
 }

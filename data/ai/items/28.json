@@ -8417,6 +8417,364 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-27"
+    },
+    "google:com.armorsimulation.app": {
+      "app_key": "google:com.armorsimulation.app",
+      "name": "Armor Sandbox",
+      "developer": "VBJ",
+      "source": "google",
+      "country": "US",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.armorsimulation.app&hl=en&gl=US",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:22:04+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Armor Sandbox is a 2D impact physics playground. Pick something to shoot, pick something to shoot at, and watch what actually happens. Nothing here is a canned animation. Every plate, every projectile and every fragment is made of particles that carry real material properties: density, strength, toughness, melting point, heat capacity. Deformation, fracture, spalling, heat, fire and detonation all come from those numbers. Swap the steel for glass and it shatters instead of denting, because glass is brittle, not because somebody drew a shatter effect. WHAT IS IN IT • 110+ materials: steels, aluminium alloys, tungsten, uranium, ceramics and glass, concrete and stone, wood, rubber, water, fuel, explosives, nuclear materials and working electrical parts • 70 projectiles: pistol and rifle rounds, APFSDS long rods, shaped charges, HESH, railgun slugs and three detailed missiles • 90+ targets: plates, layered armour, deep blocks, ballistic gelatin, bunkers and circuits • 36 vehicle cutaways: T-34-85, Tiger I, Panther, Sherman, IS-2, T-55, M103, T-72 with and without reactive armour, M1A2 Abrams, Leopard 2A6, Challenger 2, BMP-1, M113 and more, plus cars, trucks, a bus, a tractor, a fighter jet and attack helicopters, each with its real armour, ammunition, fuel and engine inside • 60+ ready-made experiments, from a ricochet to a chain of nuclear devices MAKE YOUR OWN Paint projectiles and targets pixel by pixel, choosing the material of every pixel. Mirror, outline, replace, snap to a grid. Save them to your library and share a design with a friend, or with the community Workshop, as a single small file. TUNE THE MATERIALS Change how strong, dense, hot or explosive any material is, and every simulation follows your numbers. WIRE IT UP Batteries, capacitors, switches, sensors, delay lines, detonators. Current goes only where you drew a path: an insulated wire along steel leaves the steel dead, bare copper makes the whole plate live. Pressure plates, tripwires, magnetic and proximity sensors, photocells, radio receivers and high-voltage sparks that jump the air. HEAR IT, RECORD IT Impacts, explosions, fire and projectiles flying past all sound like the material and the speed. Record your shots as video and share them. IT RUNS ON A PHONE The physics core runs in a background thread, so the screen keeps up while the simulation works. Quality follows your device, from 18,000 particles up to a million. NO ACCOUNT, NO ADS, NO TRACKING Nothing you build leaves your device unless you export it yourself. FREE, AND FULL Watching is free. Every built-in experiment runs in full, explosives, nuclear devices and circuits included, and so does every vehicle and every material a preset uses. Importing a design someone sent you is free too. The full version is for making things: painting with energetic, nuclear and electrical materials, editing the properties of every material, a library without the five-per-kind limit, exporting your designs, and the Extreme and Maximum quality levels. One payment, no subscription, no ads either way. Available in English, Portuguese, Russian, Spanish and Chinese. Formerly Armor Simulation.",
+      "analysis": {
+        "app_key": "google:com.armorsimulation.app",
+        "summary_ko": "Armor Sandbox는 2D 환경에서 충격 물리와 재료 속성을 시뮬레이션하는 샌드박스 게임입니다. 강철, 유리, 폭발물 등 다양한 재료를 사용하여 타겟과 발사체를 설계하고 실제 물리 법칙에 따른 파괴 과정을 관찰할 수 있습니다. 사용자는 자신만의 실험을 설계하고 공유할 수 있는 자유로운 환경을 제공받습니다.",
+        "features_ko": [
+          "밀도, 강도, 녹는점 등 실제 재료 속성을 반영한 물리 시뮬레이션을 제공합니다.",
+          "픽셀 단위로 발사체와 타겟을 직접 설계할 수 있는 편집 도구를 지원합니다.",
+          "전기 회로 부품을 사용하여 복잡한 트리거 및 폭발 시스템을 구성할 수 있습니다.",
+          "시뮬레이션 결과를 영상으로 기록하고 공유할 수 있습니다."
+        ],
+        "noteworthy_ko": "애니메이션이 아닌 물리 수치에 기반한 파괴 시뮬레이션이라는 점이 매우 흥미롭습니다. 개발 관점에서는 입자 기반의 물리 연산과 재료 속성 데이터 관리 시스템이 핵심적인 구현 요소로 추정됩니다.",
+        "development_ko": "입자 물리 엔진의 최적화가 가장 큰 과제입니다. 수많은 입자를 실시간으로 처리하기 위해 멀티스레딩 기술이 필수적입니다. 재료별 속성 데이터베이스를 구축하고 이를 물리 연산에 실시간으로 반영하는 구조를 설계해야 합니다.",
+        "idea_ko": "재료의 속성을 조합하여 특정 충격을 견뎌야 하는 구조물을 설계하는 '물리 퍼즐 챌린지' 모드를 제안합니다.",
+        "highlights_ko": [
+          "수치 기반의 사실적인 물리 파괴 시뮬레이션을 제공합니다.",
+          "사용자 정의 설계 및 전기 회로 구성 등 높은 자유도를 보장합니다."
+        ],
+        "systems_ko": [
+          "입자 기반 물리 엔진",
+          "재료 속성 데이터 관리 시스템",
+          "픽셀 기반 편집기 및 렌더링 시스템",
+          "전기 회로 시뮬레이션 로직",
+          "데이터 저장 및 공유 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "물리 엔진을 직접 설계하거나 최적화하는 것은 매우 높은 수준의 수학적, 프로그래밍적 지식을 요구합니다. 특히 입자 단위의 시뮬레이션은 성능 최적화가 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 충돌 물리 처리",
+            "재료 속성 정의 시스템",
+            "간단한 편집기 UI"
+          ],
+          "defer": [
+            "전기 회로 시뮬레이션",
+            "복잡한 입자 최적화",
+            "커뮤니티 공유 기능"
+          ],
+          "risks": [
+            "물리 연산 성능 저하",
+            "재료 속성 간의 상호작용 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "재료 강도 실험실",
+            "concept": "두 재료를 충돌시켜 어느 쪽이 먼저 파괴되는지 테스트하는 단순화된 물리 실험 게임입니다.",
+            "first_step": "두 객체의 충돌 시 속도와 강도 수치를 비교하여 파괴 여부를 결정하는 로직 구현."
+          },
+          {
+            "title": "구조물 방어 시뮬레이터",
+            "concept": "주어진 재료로 벽을 쌓고 외부 충격을 얼마나 버티는지 측정하는 방어력 테스트 게임입니다.",
+            "first_step": "블록 배치 및 충격량에 따른 내구도 감소 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "물리 엔진의 원리와 데이터 기반 시뮬레이션에 관심 있는 개발자에게 강력히 추천합니다. 성능 최적화와 수치 모델링을 깊이 있게 학습할 수 있는 좋은 사례입니다.",
+        "source_limitations_ko": "소개문에는 사용된 물리 엔진의 구체적인 알고리즘, 입자 처리 방식, 데이터 저장 포맷에 대한 정보가 없습니다. 실제 시뮬레이션의 정확도는 검증이 필요합니다.",
+        "name": "Armor Sandbox",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.armorsimulation.app&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "google:com.atesgamestudio.rollance": {
+      "app_key": "google:com.atesgamestudio.rollance",
+      "name": "Rollance : Adventure Balls",
+      "developer": "CASUAL AZUR GAMES",
+      "source": "google",
+      "country": "US",
+      "category": "game_action",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.atesgamestudio.rollance&hl=en&gl=US",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:22:04+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Are you a fan of games that involve a ball? Then you'll love Rollance, the beautiful rolling ball game that's sure to keep you entertained for hours! Navigate your way through challenging obstacles and use your skills to roll the ball to the finish line. With realistic physics and a variety of levels to conquer, this game is perfect for anyone who loves a good challenge. Get ready to roll the ball and become a master of this addictive game! CONTROL A BALL Tap on the screen to roll the ball quickly or balance it carefully traveling through a level. Improve your attention & reaction to finish all the challenging levels on the first try. OVERCOME OBSTACLES The more levels you complete, the harder roads you should travel. Ramps, pendulums, trampolines, hammers, and tons of other barriers you should overcome on your way to finish. Don’t let anything knock your rolling ball out of the road! DON’T WASTE YOUR LIVES Remember, the ball game doesn't save your progress on the level automatically unless you have spare lives. Play carefully, or you’ll start a level again. USE BALL BOOSTERS Want to finish the ball race faster? Collect different bonuses along the road to become bigger & stronger! Take every advantage from the boosters to finish all the ball game levels! Why you’ll love this ball game: - Realistic physics - Beautiful 3D graphics - ASMR game experience - Rolling ball adventure - Dozens of cool ball skins - Simple controls Are you ready for the challenging ball race? Prove your skills and make your ball roll through all the obstacles safe and sound! With realistic physics and an array of levels to conquer, Rollance is the exciting ball game for anyone who loves a good challenge. Whether you're a beginner or an expert, this game will keep you entertained for hours on end. Roll the ball and show off your skills in this thrilling rolling ball game!",
+      "analysis": {
+        "app_key": "google:com.atesgamestudio.rollance",
+        "summary_ko": "Rollance는 물리 기반의 3D 공 굴리기 게임으로, 다양한 장애물을 극복하며 결승선까지 도달하는 것을 목표로 합니다. 플레이어는 화면을 터치하여 공을 조종하고, 레벨을 진행할수록 어려워지는 난관을 헤쳐 나가야 합니다. ASMR 경험과 다양한 공 스킨을 통해 시각적, 청각적 즐거움을 제공합니다.",
+        "features_ko": [
+          "터치 입력을 통해 공의 이동 속도와 균형을 정밀하게 조종합니다.",
+          "경사로, 진자, 트램펄린 등 다양한 장애물을 극복하며 레벨을 완료합니다.",
+          "레벨 도중 보너스를 획득하여 공을 강화하거나 크기를 키울 수 있습니다.",
+          "다양한 공 스킨을 제공하여 시각적인 커스터마이징이 가능합니다."
+        ],
+        "noteworthy_ko": "물리 엔진을 활용한 단순하면서도 중독성 있는 조작감이 핵심입니다. 개발 관점에서는 카메라 팔로우 시스템과 장애물 상호작용 로직이 게임의 재미를 결정짓는 요소로 추정됩니다.",
+        "development_ko": "물리 엔진의 마찰력과 탄성 조절이 조작감의 핵심입니다. 장애물별로 다른 물리적 상호작용을 구현하고, 레벨 디자인을 통해 난이도를 점진적으로 높이는 작업이 필요합니다. 모바일 기기에서의 부드러운 프레임 유지와 터치 반응 속도 최적화가 중요합니다.",
+        "idea_ko": "공의 무게 중심을 실시간으로 변경하여 장애물을 통과하는 '무게 중심 퍼즐' 모드를 제안합니다.",
+        "highlights_ko": [
+          "물리 기반의 사실적인 공 조작감을 제공합니다.",
+          "다양한 장애물과 레벨 구성을 통해 도전적인 경험을 선사합니다."
+        ],
+        "systems_ko": [
+          "3D 물리 엔진 기반 이동 시스템",
+          "카메라 팔로우 및 제어 시스템",
+          "장애물 상호작용 로직",
+          "레벨 데이터 관리 및 로딩 시스템",
+          "UI 및 보상 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 단순하여 1인 개발자가 구현하기에 적합합니다. 물리 엔진의 기본 기능을 활용하면 빠르게 프로토타입을 제작할 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "공 이동 및 물리 조작",
+            "기본 장애물 배치",
+            "결승선 도달 판정"
+          ],
+          "defer": [
+            "다양한 공 스킨",
+            "복잡한 보너스 시스템",
+            "ASMR 사운드 효과"
+          ],
+          "risks": [
+            "물리 엔진의 불안정한 충돌 판정",
+            "레벨 디자인의 단조로움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중력 반전 레이스",
+            "concept": "특정 구역에서 중력이 반전되어 천장을 달리는 공 굴리기 게임입니다.",
+            "first_step": "물리 엔진의 중력 벡터를 실시간으로 변경하는 기능 구현."
+          },
+          {
+            "title": "정밀 제어 챌린지",
+            "concept": "매우 좁은 길을 통과해야 하는 정밀 조작 중심의 공 굴리기 게임입니다.",
+            "first_step": "공의 이동 속도를 제한하고 정밀한 터치 입력을 처리하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "물리 엔진을 활용한 게임 개발의 기초를 다지기에 매우 좋습니다. 조작감 개선과 레벨 디자인의 중요성을 학습하기에 최적의 프로젝트입니다.",
+        "source_limitations_ko": "소개문에는 사용된 물리 엔진의 종류, 레벨 데이터 저장 방식, 구체적인 터치 입력 처리 로직에 대한 정보가 없습니다. 실제 물리 연산의 정확도는 검증이 필요합니다.",
+        "name": "Rollance : Adventure Balls",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.atesgamestudio.rollance&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "apple:1487058080": {
+      "app_key": "apple:1487058080",
+      "name": "AnyAUTH",
+      "developer": "MIRAE Technolog Co.Ltd.",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://apps.apple.com/kr/app/anyauth/id1487058080?uo=2",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:22:47+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "한국정보인증이 제공하는 AnyAUTH 서비스는 OTP (일회용 비밀번호) 및 FIDO(생체인증)을 사용하여 사용자의 모바일기기에서 개인 인증을 처리하는 모바일 보안 서비스입니다. 한국정보인증의 AnyAUTH 서비스를 이용함으로써 비밀번호 해킹, 개인정보 유출 및 도용과 같은 보안사고로부터 사용자의 개인정보를 안전하게 보호할 수 있습니다.",
+      "analysis": {
+        "app_key": "apple:1487058080",
+        "summary_ko": "AnyAUTH는 한국정보인증에서 제공하는 모바일 보안 인증 서비스입니다. OTP와 FIDO 생체인증 기술을 활용하여 사용자의 개인정보를 보호합니다.",
+        "features_ko": [
+          "일회용 비밀번호(OTP)를 생성하여 인증을 처리합니다.",
+          "FIDO 표준을 준수하는 생체인증 기능을 제공합니다.",
+          "모바일 기기를 통한 개인 인증 보안을 강화합니다."
+        ],
+        "noteworthy_ko": "보안 인증은 신뢰성이 핵심이며, FIDO와 같은 표준 프로토콜을 준수하는 것이 중요합니다. 개인 개발자가 직접 구현하기에는 보안 사고 책임과 인증 인프라 구축 측면에서 매우 높은 진입장벽이 있습니다.",
+        "development_ko": "암호화 알고리즘 적용과 보안 프로토콜 준수가 핵심입니다. 개인정보를 다루므로 엄격한 보안 테스트와 안정성 확보가 필수적이며, 외부 인증 기관과의 연동이 필요할 수 있습니다.",
+        "idea_ko": "보안 인증 자체보다는 특정 앱 내에서 간단한 2단계 인증(2FA) 흐름을 연습해보는 것을 추천합니다.",
+        "highlights_ko": [
+          "OTP와 생체인증을 결합하여 다중 인증 체계를 구축했습니다.",
+          "비밀번호 해킹 및 개인정보 유출 방지에 특화된 보안 서비스입니다."
+        ],
+        "systems_ko": [
+          "암호화 및 복호화 모듈",
+          "생체인증 API 연동",
+          "OTP 생성 알고리즘",
+          "보안 로그 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "보안 앱은 높은 수준의 신뢰성과 법적 규제 준수가 필요합니다. 개인 개발자가 보안 사고에 대한 책임을 지는 것은 매우 위험하며, 전문적인 인프라 없이 구현하는 것은 권장되지 않습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기기 고유 식별자 활용",
+            "간단한 비밀번호 잠금 기능"
+          ],
+          "defer": [
+            "FIDO 생체인증 연동",
+            "외부 인증 서버 연동",
+            "OTP 실시간 생성"
+          ],
+          "risks": [
+            "보안 취약점 발생 가능성",
+            "개인정보 보호법 위반 위험"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "로컬 2단계 인증 연습",
+            "concept": "앱 실행 시 기기에 저장된 PIN 번호를 입력하게 하는 로컬 인증 연습입니다.",
+            "first_step": "기기 내 보안 저장소(Keychain 등)에 암호화된 데이터 저장하기."
+          },
+          {
+            "title": "보안 메모장",
+            "concept": "생체인증을 통과해야만 내용을 볼 수 있는 간단한 메모 앱입니다.",
+            "first_step": "생체인증 API를 호출하여 성공 시 화면 전환하기."
+          }
+        ],
+        "recommendation_ko": "보안 앱은 학습용으로 적합하지 않으며, 실제 서비스 개발 시에는 검증된 라이브러리나 API를 사용해야 합니다. 보안의 기본 원리를 이해하는 용도로만 참고하세요.",
+        "source_limitations_ko": "소개문에는 구체적인 암호화 알고리즘이나 서버 통신 방식이 명시되어 있지 않습니다. 실제 서비스 운영을 위한 인증 기관 연동 여부는 알 수 없습니다.",
+        "name": "AnyAUTH",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/anyauth/id1487058080?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "apple:287529757": {
+      "app_key": "apple:287529757",
+      "name": "Calorie Counter - MyNetDiary",
+      "developer": "MyNetDiary Inc.",
+      "source": "apple",
+      "country": "US",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/us/app/calorie-counter-mynetdiary/id287529757?uo=2",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:22:47+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "MyNetDiary is the calorie tracker you'll actually stick with: fast, accurate, and ad-free. Log meals in seconds with the free barcode scanner, Meal Scan (just photograph your plate), or quick search. Then get on with your day. Trusted by 32 million people. Named the top weight loss app by Forbes Health (2025). Scored highest of 30 apps for behavioral strategies in the American Journal of Preventive Medicine. The New York Times called it simpler, quicker, and better-looking than the competition. Featured in Today's Dietitian. WHY PEOPLE SWITCH Accuracy: MyNetDiary runs on a staff-verified food database of over 2 million foods with up to 108 nutrients per entry, built on USDA and NCC research-grade sources, the same databases used in clinical research. Most apps rely on crowdsourced data full of duplicates and errors. Our team reviews and updates 2,500-3,500 foods every day. An independent 2026 study in Nutrition and Health found MyNetDiary's calorie totals within 5 calories of the reference records and rated it highest of 17 apps for overall quality. Speed: In our January 2026 test, we logged the same 127 foods in every major app over a week. MyNetDiary took 31% fewer taps than the most popular calorie tracker. Results: In a peer-reviewed JMIR study of 5,132 MyNetDiary users (2026), those who tracked food 6-7 days a week lost 11.33% of body weight on average over 6 months. Value: The free version is generous, with barcode scanning, full macro tracking, 108 nutrients, and water tracking. No ads, no account required, no paywall tricks. WHAT YOU GET FOR FREE • Unlimited food diary with search, favorites, recent meals, and copy-from-day. • Free barcode scanner with accurate nutrition data from the verified food database. • Voice logging. • Macro tracking, planning, and protein tracking. • 108 nutrients - deep, accurate nutrition tracking (vitamins, minerals, omegas, amino acids). • Exercise tracking. • Water tracking. • Calorie calculator. • Customizable dashboard. • Weight loss progress charts and reports - no chart caps. • Custom foods and recipes. • Food sharing with friends and family. • Apple Watch app and widgets. • Apple Health sync: writes 51 data types, reads 14. • Coaching tips, meal reminders, shopping list. • Logging streaks to keep you going. • Professional Connect: share your diary with a dietitian, coach, or doctor. Used by dietitians and health professionals at no cost. • In-app Community. • Articles by Registered Dietitians. • Works offline. PREMIUM • Meal Scan: snap your plate and log it, matched against the staff-verified database. • GLP-1 Companion: nutrition-first support for Ozempic, Wegovy, Mounjaro, Zepbound, and other semaglutide or tirzepatide medications, with protein targets and muscle protection while you lose weight. • Calorie and macro cycling. • Autologging: your regular meals logged automatically. • Intermittent fasting. • Advanced Autopilot, adaptive TDEE: estimates your actual energy expenditure from logged food, exercise, and Trending Weight and updates calories and macros weekly. • Health tracking: measurements, blood pressure, blood glucose, A1C, ketones, and more. • Medications and diabetes tracking. • Sync with Fitbit, Garmin, and Withings. • Trend Analysis to spot patterns and optimize. • Meal Planner. • Recipe import. • 600+ recipes and diet plans by Registered Dietitians: High-Protein, Low-Carb, Keto, and more. PREMIUM PLUS: AI COACH AI Coach is built on 20 years of nutrition expertise. • Daily guidance based on what you actually ate, not just what you planned. • AI voice logging: describe your meal out loud. • Meal suggestions matched to your calorie budget and preferences. • AI Restaurant Menu Scan: find the best options when eating out. Results may vary. MyNetDiary does not provide medical advice. All product names, logos, and brands are the property of their respective owners. Research: www.mynetdiary.com/research.html Terms of Use: www.mynetdiary.com/terms.html",
+      "analysis": {
+        "app_key": "apple:287529757",
+        "summary_ko": "Calorie Counter - MyNetDiary는 식단 기록과 영양소 추적을 돕는 건강 관리 앱입니다. 바코드 스캔, 사진 촬영을 통한 식단 기록, 영양소 분석 등 다양한 기능을 제공하며 사용자의 체중 감량 목표를 지원합니다.",
+        "features_ko": [
+          "바코드 스캔과 사진 촬영을 통해 간편하게 식단을 기록할 수 있습니다.",
+          "200만 개 이상의 검증된 식품 데이터베이스를 제공합니다.",
+          "칼로리, 매크로 영양소, 비타민 등 108가지 영양소를 추적합니다.",
+          "운동 및 수분 섭취 기록 기능을 지원합니다.",
+          "Apple Health와 연동하여 데이터를 동기화합니다."
+        ],
+        "noteworthy_ko": "방대한 식품 데이터베이스의 정확도가 앱의 핵심 경쟁력입니다. 사용자가 꾸준히 기록하게 만드는 인터페이스와 데이터 시각화가 개발 관점에서 매우 흥미롭습니다.",
+        "development_ko": "방대한 데이터베이스 관리와 검색 최적화가 핵심입니다. 사용자 입력 데이터를 분석하여 통계를 보여주는 시각화 기술과 외부 건강 앱(Apple Health)과의 데이터 연동 구현이 필요합니다.",
+        "idea_ko": "특정 식단(예: 비건, 키토제닉)에 특화된 소규모 영양 기록 앱을 만드는 것을 추천합니다.",
+        "highlights_ko": [
+          "검증된 식품 데이터베이스를 기반으로 정확한 영양 정보를 제공합니다.",
+          "다양한 기록 방식(스캔, 사진, 음성)을 지원하여 사용자 편의성을 높였습니다."
+        ],
+        "systems_ko": [
+          "식품 데이터베이스 관리",
+          "영양소 계산 엔진",
+          "데이터 시각화(차트/리포트)",
+          "외부 API 연동(Apple Health)",
+          "사용자 설정 및 알림 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "방대한 식품 데이터베이스를 구축하고 유지하는 것은 개인 개발자에게 매우 큰 부담입니다. 또한, 건강 관련 앱으로서 데이터의 정확성과 신뢰성을 확보하는 것이 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 칼로리 기록 기능",
+            "일일 섭취량 계산 로직",
+            "데이터 저장 및 불러오기"
+          ],
+          "defer": [
+            "사진 기반 식단 인식(AI)",
+            "바코드 스캔 기능",
+            "외부 건강 앱 연동"
+          ],
+          "risks": [
+            "식품 데이터베이스 확보의 어려움",
+            "사용자 입력 데이터의 정확성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "간편 식단 일기",
+            "concept": "칼로리 계산 없이 사진과 간단한 메모로 식단을 기록하는 습관 형성 앱입니다.",
+            "first_step": "사진을 찍고 날짜별로 저장하는 기능 구현하기."
+          },
+          {
+            "title": "물 섭취 알리미",
+            "concept": "매일 목표 수분 섭취량을 설정하고 기록하는 단순한 건강 앱입니다.",
+            "first_step": "물 섭취 버튼과 일일 합계 표시 UI 만들기."
+          }
+        ],
+        "recommendation_ko": "데이터 관리와 시각화 기술을 배우기에 좋습니다. 다만, 전문적인 건강 앱은 데이터 정확성이 생명이므로 개인 개발 시에는 범위를 좁혀 시작하세요.",
+        "source_limitations_ko": "소개문에는 AI 기반 식단 인식의 정확도나 서버 아키텍처에 대한 정보가 없습니다. 의료적 조언을 제공하는 기능은 없다고 명시되어 있으나, 실제 구현 시 법적 책임 검토가 필요합니다.",
+        "name": "Calorie Counter - MyNetDiary",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/calorie-counter-mynetdiary/id287529757?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
     }
   }
 }

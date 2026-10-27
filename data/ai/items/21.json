@@ -7284,6 +7284,1060 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-27"
+    },
+    "itch:2880942a8493f9cabf43": {
+      "app_key": "itch:2880942a8493f9cabf43",
+      "name": "Η Ψυχή της Λίμνης — The Soul of the Lake [Free] [Visual Novel]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://thornagon.itch.io/mystika-kastorias",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:14:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Greek supernatural horror in Kastoria. Six endings. One door that should have stayed closed.",
+      "analysis": {
+        "app_key": "itch:2880942a8493f9cabf43",
+        "summary_ko": "그리스 카스토리아를 배경으로 한 초자연적 호러 비주얼 노벨입니다. 6개의 엔딩이 존재하며, 열지 말았어야 할 문을 여는 주인공의 이야기를 다룹니다.",
+        "features_ko": [
+          "선택에 따라 달라지는 6가지 멀티 엔딩.",
+          "그리스의 지역적 특색을 살린 호러 서사."
+        ],
+        "noteworthy_ko": "비주얼 노벨은 1인 개발자가 서사적 역량을 발휘하기 가장 좋은 장르입니다. 멀티 엔딩을 위한 분기점 설계와 데이터 관리가 개발의 핵심입니다.",
+        "development_ko": "스크립트 엔진 구축과 분기점 관리가 중요합니다. 1인 개발 시 에셋 제작 부담이 크므로, 텍스트와 연출에 집중하는 것이 효율적입니다.",
+        "idea_ko": "선택지마다 주인공의 정신 상태 수치를 변화시켜 엔딩에 영향을 주는 시스템을 도입할 수 있습니다.",
+        "highlights_ko": [
+          "6개의 다양한 엔딩을 통한 높은 리플레이 가치.",
+          "특정 지역을 배경으로 한 몰입감 있는 호러 서사."
+        ],
+        "systems_ko": [
+          "텍스트 출력 및 스크립트 엔진",
+          "선택지 분기 시스템",
+          "엔딩 관리 데이터베이스"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "기술적 구현보다는 시나리오 작성과 연출에 비중이 큽니다. 엔진을 활용하면 1인 개발이 매우 용이합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "텍스트 뷰어",
+            "선택지 분기 로직"
+          ],
+          "defer": [
+            "복잡한 애니메이션",
+            "음성 더빙"
+          ],
+          "risks": [
+            "시나리오의 완성도 부족",
+            "반복적인 플레이의 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "정신력 기반 분기",
+            "concept": "주인공의 공포 수치에 따라 선택지의 내용이 달라지는 시스템입니다.",
+            "first_step": "공포 수치 변수 생성 및 선택지 조건부 출력 구현."
+          },
+          {
+            "title": "기억 조각 수집",
+            "concept": "스토리 진행 중 얻는 단서가 엔딩의 진실을 밝히는 열쇠가 됩니다.",
+            "first_step": "인벤토리 시스템과 스토리 분기 연동."
+          }
+        ],
+        "recommendation_ko": "스토리텔링 중심의 게임을 만들고 싶은 개발자에게 강력 추천합니다. 분기점 설계와 서사 구조를 배우기에 최적입니다.",
+        "source_limitations_ko": "게임의 구체적인 플레이 타임, 선택지의 개수, 사용된 엔진 정보는 알 수 없습니다.",
+        "name": "Η Ψυχή της Λίμνης — The Soul of the Lake [Free] [Visual Novel]",
+        "source": "itch",
+        "detail_url": "https://thornagon.itch.io/mystika-kastorias",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 356,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 8,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "itch:596cced5dd59cefaeee3": {
+      "app_key": "itch:596cced5dd59cefaeee3",
+      "name": "Stack It! [Free] [Other]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://shadowxdgamer.itch.io/stack-it",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:14:46+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Balance your tower, survive the bombs, and climb to the summit to discover what’s spinning up there...",
+      "analysis": {
+        "app_key": "itch:596cced5dd59cefaeee3",
+        "summary_ko": "탑을 쌓아 균형을 잡으며 폭탄을 피하고 정상에 도달하는 게임입니다. 정상에서 무엇이 기다리고 있는지 확인하는 것이 목표입니다.",
+        "features_ko": [
+          "탑 쌓기 및 균형 유지 시스템",
+          "폭탄 회피 액션",
+          "정상 도달을 위한 등반 요소"
+        ],
+        "noteworthy_ko": "물리 엔진을 활용한 균형 잡기 게임으로, 폭탄이라는 방해 요소가 긴장감을 더합니다. 정상에 도달했을 때의 보상이나 연출이 게임의 동기부여를 결정할 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 물리 엔진을 이용한 오브젝트 적재와 균형 판정입니다. 폭탄의 생성과 폭발 효과를 구현해야 하며, 카메라 시점이 등반 과정을 잘 보여주도록 설계하는 것이 중요합니다.",
+        "idea_ko": "탑의 형태를 다양하게 하거나, 쌓는 재료마다 물리적 특성을 다르게 하는 방식을 추천합니다.",
+        "highlights_ko": [
+          "물리 기반의 균형 잡기 메커니즘",
+          "폭탄을 피하는 긴박한 게임 플레이"
+        ],
+        "systems_ko": [
+          "물리 엔진 제어",
+          "오브젝트 적재 시스템",
+          "폭탄 생성 및 폭발 로직"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "물리 엔진의 불안정성을 제어하고, 쌓기 게임 특유의 조작감을 최적화하는 데 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 쌓기 물리",
+            "폭탄 생성 로직"
+          ],
+          "defer": [
+            "다양한 지형",
+            "정교한 물리 효과"
+          ],
+          "risks": [
+            "물리 엔진의 예측 불가능한 버그"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중력 변화 탑 쌓기",
+            "concept": "시간이 지날수록 중력 방향이 바뀌어 탑의 균형을 유지하기 어렵게 만듭니다.",
+            "first_step": "물리 엔진의 중력 벡터를 주기적으로 변경하는 스크립트 작성."
+          },
+          {
+            "title": "재료별 물리 탑",
+            "concept": "무거운 돌, 가벼운 나무 등 재료마다 무게와 마찰력이 달라 전략적인 배치가 필요합니다.",
+            "first_step": "오브젝트별 물리 재질(Physic Material) 설정 및 테스트."
+          }
+        ],
+        "recommendation_ko": "물리 엔진을 활용한 게임 개발을 배우기에 아주 좋습니다. 물리적 상호작용이 게임의 재미로 이어지는 과정을 경험할 수 있습니다.",
+        "source_limitations_ko": "정상에 무엇이 있는지, 폭탄의 종류, 탑을 쌓는 구체적인 조작법 등에 대한 정보가 부족합니다.",
+        "name": "Stack It! [Free] [Other]",
+        "source": "itch",
+        "detail_url": "https://shadowxdgamer.itch.io/stack-it",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 320,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 20,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "itch:aaccd6727159e399f92a": {
+      "app_key": "itch:aaccd6727159e399f92a",
+      "name": "LUCKY GRID [Free] [Other]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://brapu-games.itch.io/lucky-grid",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:15:25+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A pixel placing game, where each winning spin grants you one pixel to draw with.",
+      "analysis": {
+        "app_key": "itch:aaccd6727159e399f92a",
+        "summary_ko": "LUCKY GRID는 픽셀을 배치하여 그림을 그리는 게임입니다. 행운의 스핀을 돌려 승리할 때마다 픽셀을 하나씩 획득하여 캔버스를 채워나가는 방식입니다.",
+        "features_ko": [
+          "스핀을 돌려 결과를 확인하는 확률적 요소가 포함되어 있습니다.",
+          "승리 시 획득한 픽셀을 사용하여 캔버스에 그림을 그립니다."
+        ],
+        "noteworthy_ko": "확률적 보상과 창의적 표현을 결합한 점이 흥미롭습니다. 개발 관점에서는 보상 획득과 캔버스 데이터 저장 간의 연동이 핵심일 것으로 추정됩니다.",
+        "development_ko": "랜덤 확률 생성기(RNG)와 픽셀 데이터를 저장하는 그리드 시스템이 핵심입니다. 콘텐츠 제작은 픽셀 아트의 제약 조건을 설정하는 것이 중요하며, 밸런스 측면에서는 스핀의 확률과 보상 빈도를 조정해야 합니다.",
+        "idea_ko": "획득한 픽셀의 색상을 조합하여 더 복잡한 색을 만드는 시스템을 제안합니다.",
+        "highlights_ko": [
+          "확률적 보상과 창작 활동을 결합한 독특한 게임 루프.",
+          "픽셀 단위의 점진적인 창작 경험 제공."
+        ],
+        "systems_ko": [
+          "확률 기반 보상 시스템",
+          "픽셀 그리드 캔버스",
+          "데이터 저장 및 불러오기",
+          "UI 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 단순하고 데이터 구조가 명확하여 1인 개발로 구현하기 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "스핀 로직",
+            "픽셀 배치 그리드",
+            "데이터 저장 기능"
+          ],
+          "defer": [
+            "멀티플레이어 공유 기능",
+            "다양한 브러시 도구"
+          ],
+          "risks": [
+            "확률적 요소로 인한 지루함 발생",
+            "데이터 저장 용량 관리"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "색상 조합 시스템",
+            "concept": "기본 픽셀을 조합하여 새로운 색상을 만드는 시스템입니다. 단순히 픽셀을 채우는 것을 넘어 전략적 선택을 유도합니다.",
+            "first_step": "두 가지 색상을 합쳐 새로운 색상 코드를 생성하는 로직 구현."
+          },
+          {
+            "title": "시간 제한 챌린지",
+            "concept": "제한된 시간 내에 특정 패턴을 완성해야 하는 모드입니다. 긴장감을 더해 게임의 재미를 높입니다.",
+            "first_step": "타이머 UI와 캔버스 초기화 기능 구현."
+          }
+        ],
+        "recommendation_ko": "확률 기반의 보상 시스템과 데이터 관리 기술을 익히기에 좋습니다. 단순한 메커니즘을 확장하는 연습을 하기에 적합합니다.",
+        "source_limitations_ko": "스핀의 확률 알고리즘, 캔버스의 크기 제한, 저장 방식 등에 대한 정보가 부족합니다.",
+        "name": "LUCKY GRID [Free] [Other]",
+        "source": "itch",
+        "detail_url": "https://brapu-games.itch.io/lucky-grid",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 293,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "apple:1211123727": {
+      "app_key": "apple:1211123727",
+      "name": "放置少女 - 百花繚乱の萌姫たち",
+      "developer": "C4 CONNECT K.K.",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_card",
+      "detail_url": "https://apps.apple.com/jp/app/%E6%94%BE%E7%BD%AE%E5%B0%91%E5%A5%B3-%E7%99%BE%E8%8A%B1%E7%B9%9A%E4%B9%B1%E3%81%AE%E8%90%8C%E5%A7%AB%E3%81%9F%E3%81%A1/id1211123727?uo=2",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:17:35+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "王道かつ最先端!! 美少女育成 放置系RPG 絆を紡いで物語を進めよう！ 三国志の世界観を踏襲！ 遊び方は簡単「放置」するだけ！ 乱世の英雄たちを集め、キミの戦略で勝利を掴め！ さあ、今すぐ放置少女の世界へ飛び込もう！ --------------------------------------------- 【ゲーム紹介】 ・操作は超簡単、フルオートバトルで放置プレイ！ ・装備強化がキャラクター育成を左右！ ・少女たちの育成も忘れずに！ ・プレイ進捗によって開放される各コンテンツは無限に遊べる！ ・仲間と最強ギルドを作ろう！ --------------------------------------------- 【こんな方にオススメ】 ・サクサクとストレスなくプレイしたい方 ・毎日コツコツと強くなりたい方 ・ちょっとした隙間時間にプレイしたい方 ・片手操作で簡単にプレイしたい方 ・三国系美少女を放置して育てたい方",
+      "analysis": {
+        "app_key": "apple:1211123727",
+        "summary_ko": "삼국지 세계관을 배경으로 한 미소녀 수집형 방치형 RPG입니다. 플레이어는 영웅들을 수집하고 육성하여 전략적으로 전투를 승리해 나갑니다. 조작이 간편한 풀 오토 배틀 시스템을 통해 바쁜 일상 속에서도 손쉽게 캐릭터를 성장시킬 수 있습니다.",
+        "features_ko": [
+          "풀 오토 배틀 시스템을 통해 조작 없이 게임이 진행됩니다.",
+          "캐릭터의 능력치를 결정짓는 장비 강화 시스템이 존재합니다.",
+          "수집한 미소녀 캐릭터들을 지속적으로 육성할 수 있습니다.",
+          "게임 진행도에 따라 새로운 콘텐츠가 순차적으로 개방됩니다.",
+          "길드 시스템을 통해 다른 플레이어와 협력할 수 있습니다."
+        ],
+        "noteworthy_ko": "방치형 게임의 핵심인 '성장 체감'을 극대화하기 위해 장비와 캐릭터 육성 요소를 결합한 점이 흥미롭습니다. 1인 개발 시에는 복잡한 실시간 전투 대신, 수치 기반의 연산과 결과값 출력에 집중하는 구조로 구현되었을 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 서버와 클라이언트 간의 데이터 동기화 및 오프라인 보상 계산 로직입니다. 콘텐츠 제작 측면에서는 캐릭터 일러스트와 장비 데이터셋 구축에 많은 리소스가 소요됩니다. 밸런스 조정은 캐릭터별 능력치와 성장 곡선을 설계하는 데 집중해야 합니다.",
+        "idea_ko": "특정 테마의 수집품을 방치형으로 모으고, 이를 조합해 나만의 도감을 완성하는 '수집형 방치 도감' 앱이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "삼국지 영웅을 미소녀화하여 수집 욕구를 자극하는 캐릭터 디자인이 특징입니다.",
+          "복잡한 조작을 배제하고 방치만으로 성장이 가능한 직관적인 게임 루프를 제공합니다."
+        ],
+        "systems_ko": [
+          "캐릭터 및 장비 데이터 관리 시스템",
+          "오프라인 시간 계산 및 보상 지급 로직",
+          "전투 결과 연산 엔진",
+          "UI/UX 기반의 캐릭터 성장 인터페이스",
+          "데이터 저장 및 로컬/서버 동기화"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "게임 로직 자체는 수치 연산 위주라 구현이 가능하나, 방대한 양의 캐릭터 데이터와 밸런스 설계가 1인 개발자에게는 큰 부담이 될 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 데이터 구조 설계",
+            "자동 전투 및 보상 계산 로직",
+            "기본 캐릭터 육성 및 장비 강화 UI"
+          ],
+          "defer": [
+            "길드 시스템",
+            "실시간 PvP",
+            "복잡한 이벤트 콘텐츠"
+          ],
+          "risks": [
+            "캐릭터 데이터 밸런스 붕괴",
+            "콘텐츠 부족으로 인한 빠른 이탈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "식물 성장 방치 도감",
+            "concept": "다양한 희귀 식물을 방치형으로 키우며 도감을 채우는 게임입니다. 식물마다 다른 성장 시간과 환경 조건을 설정하여 전략적 재미를 줍니다.",
+            "first_step": "식물 데이터 구조를 정의하고, 시간 경과에 따라 상태가 변하는 기본 로직을 구현합니다."
+          },
+          {
+            "title": "우주 탐사 방치 로그",
+            "concept": "우주선을 방치하여 행성을 탐사하고 자원을 수집합니다. 수집한 자원으로 우주선을 업그레이드하여 더 먼 곳으로 나아가는 로그형 방치 게임입니다.",
+            "first_step": "자원 수집 속도와 업그레이드 비용에 따른 성장 곡선을 시뮬레이션합니다."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 핵심 루프인 '보상-성장-확장'의 구조를 배우기에 좋습니다. 다만, 아트 리소스가 많이 필요한 장르이므로 본인의 강점에 맞춰 기획을 수정하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 전투 연산 방식, 서버 인프라 구성, 수익 모델(BM)에 대한 상세 정보가 없습니다. 실제 게임 내 결제 시스템이나 외부 연동 기능은 명시되지 않았으므로 개발 시 포함하지 마세요.",
+        "name": "放置少女 - 百花繚乱の萌姫たち",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E6%94%BE%E7%BD%AE%E5%B0%91%E5%A5%B3-%E7%99%BE%E8%8A%B1%E7%B9%9A%E4%B9%B1%E3%81%AE%E8%90%8C%E5%A7%AB%E3%81%9F%E3%81%A1/id1211123727?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 171,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 23,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "apple:1021117809": {
+      "app_key": "apple:1021117809",
+      "name": "주차의 달인 4",
+      "developer": "SUD Inc.",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_simulation",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%A3%BC%EC%B0%A8%EC%9D%98-%EB%8B%AC%EC%9D%B8-4/id1021117809?uo=2",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:19:29+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "주차의 달인이 향상된 그래픽과 실시간 멀티플레이로 더 현실감 있게 돌아왔습니다. 연습모드를 마친 후, 차종별 리그에 참가하여 전세계 주차 고수들을 상대로 실력을 뽐내보세요. SUD Inc.",
+      "analysis": {
+        "app_key": "apple:1021117809",
+        "summary_ko": "주차의 달인 4는 향상된 그래픽과 실시간 멀티플레이를 지원하는 주차 시뮬레이션 게임입니다. 사용자는 연습 모드를 통해 실력을 쌓고, 리그에 참가하여 전 세계 유저들과 경쟁할 수 있습니다.",
+        "features_ko": [
+          "다양한 차종별 리그를 통해 실시간 멀티플레이 대결을 지원합니다.",
+          "연습 모드를 통해 주차 기술을 익힐 수 있습니다."
+        ],
+        "noteworthy_ko": "단순한 주차 게임에서 멀티플레이 리그 시스템으로 확장하여 경쟁 요소를 도입한 점이 특징입니다. 물리 엔진 기반의 차량 제어와 네트워크 동기화가 개발의 핵심일 것으로 추정됩니다.",
+        "development_ko": "차량 물리 엔진 구현과 멀티플레이어 간의 위치 동기화 기술이 핵심입니다. 다양한 차량 모델링과 주차장 맵 제작에 상당한 리소스가 소요되며, 네트워크 지연을 고려한 최적화가 필수적입니다.",
+        "idea_ko": "특정 시간 내에 가장 효율적인 경로로 주차하는 '타임어택 주차 챌린지'가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "실시간 멀티플레이를 통해 전 세계 유저와 실력을 겨룰 수 있습니다.",
+          "이전 시리즈 대비 향상된 그래픽과 현실적인 주차 경험을 제공합니다."
+        ],
+        "systems_ko": [
+          "차량 물리 제어 시스템",
+          "실시간 멀티플레이 네트워크 동기화",
+          "주차 판정 및 충돌 감지 시스템",
+          "리그 및 랭킹 관리 시스템",
+          "UI/UX 기반의 게임 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진은 유니티나 언리얼 엔진의 기본 기능을 활용할 수 있어 구현 난도가 낮습니다. 다만, 멀티플레이 동기화는 네트워크 지식에 따라 난도가 달라질 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "차량 이동 및 조향 물리 구현",
+            "주차 성공 판정 로직",
+            "기본 주차장 맵"
+          ],
+          "defer": [
+            "실시간 멀티플레이",
+            "다양한 차종 커스터마이징"
+          ],
+          "risks": [
+            "물리 엔진의 불안정성",
+            "네트워크 동기화 구현의 복잡성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "극한 주차 퍼즐",
+            "concept": "주변 장애물을 밀거나 이동시켜 주차 공간을 확보하는 퍼즐 게임입니다. 물리 법칙을 활용한 전략적 사고가 필요합니다.",
+            "first_step": "박스 형태의 장애물을 밀어내는 물리 상호작용 프로토타입 제작."
+          },
+          {
+            "title": "주차장 경영 시뮬레이션",
+            "concept": "주차장을 설계하고 차량을 효율적으로 배치하여 수익을 올리는 경영 게임입니다. 주차 난이도에 따라 요금을 다르게 책정합니다.",
+            "first_step": "그리드 기반의 주차장 배치 시스템과 수익 계산 로직 구현."
+          }
+        ],
+        "recommendation_ko": "물리 엔진 활용법과 차량 제어 로직을 배우기에 적합합니다. 멀티플레이는 난도가 높으므로 싱글 플레이 위주로 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "사용된 물리 엔진의 종류나 멀티플레이 구현 방식(서버 구조 등)은 명시되지 않았습니다. 인앱 결제나 광고 수익 모델에 대한 정보는 없습니다.",
+        "name": "주차의 달인 4",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%A3%BC%EC%B0%A8%EC%9D%98-%EB%8B%AC%EC%9D%B8-4/id1021117809?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "google:com.mobilityware.solitaire": {
+      "app_key": "google:com.mobilityware.solitaire",
+      "name": "Solitaire - Classic Card Games",
+      "developer": "MobilityWare",
+      "source": "google",
+      "country": "US",
+      "category": "game_card",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.mobilityware.solitaire&hl=en&gl=US",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:22:27+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Solitaire by MobilityWare is the original & best free Solitaire card game! Experience the timeless fun of Solitaire with MobilityWare’s Solitaire game, the most popular and original Solitaire card game on the Play Store. Join over 100 million Solitaire players enjoying the ultimate Solitaire card game experience. Why You'll Love Klondike Solitaire Card Games: Classic Solitaire card games with a Modern Twist: ♠ Play free, classic Klondike Solitaire with stunning graphics, smooth animations, and a user-friendly Solitaire interface. ♠ Use Solitaire hints and unlimited undos to enhance your Solitaire card games skills. ♠ Effortlessly move Solitaire cards with intuitive tap and drag controls. ♠ Enjoy Klondike Solitaire card games for free - no cash required. ♠ Regular Solitaire updates provide fresh content and exciting features for our free Solitaire card games. Solitaire Daily Challenges & Rewards: ♥ Take on unique Solitaire Daily Challenges and earn crowns. ♥ Cash in on the free Solitaire rewards! Win crowns each month to collect exclusive trophies. ♥ Replay daily deals for endless classic Solitaire fun and rewards! ♥ Join free weekly Solitaire events to earn badges and unlock exclusive card games rewards. Engaging & Addictive Solitaire: ♦ Choose Draw 1 card or Draw 3 card modes of Klondike Solitaire for varying difficulty. ♦ Play winning Solitaire deals that test your strategy and card games skills. ♦ Train your brain with new and challenging Solitaire card puzzles daily. Brain-Boosting Solitaire Fun: ♣ Perfect for all Solitaire skill levels, free classic Solitaire offers strategic, engaging puzzles. ♣ Great for Solitaire fans and brain game enthusiasts seeking to sharpen their minds. ♣ Daily Solitaire challenges and card puzzles provide a new Solitaire card games experience every day. ♣ Utilize free hints and unlimited Solitaire undos to enhance your Solitaire card games skills. Customizable & Convenient: ♠ Track your progress with the free Solitaire Statistics Tracker. ♠ Personalize Solitaire cards and tables to match your style. ♠ Upload custom photos for your Solitaire playing cards and background. ♠ Choose standard Solitaire or Vegas card scoring. ♠ Available in Left-handed Mode for added comfort. ♠ Enjoy free classic Solitaire card games on your phone or tablet, in both portrait or landscape orientations. ♠ Unwind with Solitaire card games in Dark mode. ♠ Play classic Solitaire card games anywhere, anytime – online or offline, no WIFI needed. Multiplayer Solitaire & Leaderboards: ♥ Compete with Solitaire friends and players worldwide in multiplayer mode! ♥ Share your victories and compete with friends on the Solitaire card games leaderboards. Why MobilityWare Solitaire Card Games? Crafted by Solitaire experts, MobilityWare offers the most authentic Klondike Solitaire card game experience. As the original developers who brought the classic Solitaire card game to mobile, we continually update our Klondike Solitaire games with the features you love. No cash required. Enjoy the ultimate classic Solitaire card experience for free. Is MobilityWare Solitaire for You? If you love free classic card games like Spider Solitaire, FreeCell Solitaire, or other MobilityWare card games favorites like Castle Solitaire, Mahjong Solitaire, and Pyramid Solitaire, you’ll love Klondike Solitaire! Join millions of Solitaire players and enjoy the best free Solitaire card games experience available on Android. Download now and start playing the ultimate classic Solitaire card game for free! http://www.mobilityware.com http://www.facebook.com/mobilitywaresolitaire http://www.mobilityware.com/support.php LIKE US on Facebook http://www.facebook.com/mobilitywaresolitaire",
+      "analysis": {
+        "app_key": "google:com.mobilityware.solitaire",
+        "summary_ko": "MobilityWare의 솔리테어는 클래식 클론다이크 게임을 모바일 환경에 맞게 구현한 카드 게임입니다. 일일 도전 과제, 맞춤형 카드 디자인, 통계 추적 등 다양한 부가 기능을 제공합니다. 오프라인 플레이를 지원하여 언제 어디서나 게임을 즐길 수 있습니다.",
+        "features_ko": [
+          "클래식 클론다이크 규칙을 기반으로 한 카드 게임을 제공합니다.",
+          "힌트 및 무제한 실행 취소 기능을 통해 게임을 보조합니다.",
+          "일일 도전 과제를 통해 보상을 획득하고 순위를 경쟁합니다.",
+          "카드 뒷면과 배경을 사용자의 사진으로 커스터마이징할 수 있습니다.",
+          "왼손잡이 모드 및 가로/세로 화면 전환을 지원합니다."
+        ],
+        "noteworthy_ko": "단순한 카드 게임에 일일 보상, 통계, 커스터마이징 등 게이미피케이션 요소를 결합하여 지속적인 플레이를 유도하는 점이 훌륭합니다. 특히 100만 명 이상의 사용자를 보유한 앱의 UI/UX 흐름은 개인 개발자에게 좋은 벤치마킹 대상입니다.",
+        "development_ko": "카드 덱 셔플링 알고리즘과 게임 규칙 검증 로직이 핵심입니다. 사용자 경험을 위해 부드러운 애니메이션 구현이 중요하며, 다양한 화면 비율에 대응하는 반응형 UI 설계가 필요합니다. 통계 데이터 저장 및 로컬/서버 동기화 시스템도 고려해야 합니다.",
+        "idea_ko": "특정 테마(예: 고전 명화, 우주)를 적용한 카드 덱을 수집하는 요소를 추가하여 수집형 솔리테어로 발전시키는 것이 좋습니다.",
+        "highlights_ko": [
+          "오프라인 플레이를 지원하여 네트워크 환경에 구애받지 않습니다.",
+          "사용자 맞춤형 통계 추적을 통해 자신의 실력 향상을 확인할 수 있습니다."
+        ],
+        "systems_ko": [
+          "카드 덱 셔플링 및 규칙 엔진",
+          "게임 상태 저장 및 실행 취소 스택",
+          "통계 데이터 관리 시스템",
+          "커스터마이징 UI 엔진",
+          "일일 도전 과제 생성 로직"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "게임 규칙이 명확하고 데이터 구조가 단순합니다. 핵심 로직 구현 후 애니메이션과 UI를 다듬는 데 집중하면 완성도 높은 결과물을 만들 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카드 이동 로직",
+            "승리 판정 시스템",
+            "기본 UI"
+          ],
+          "defer": [
+            "멀티플레이어 모드",
+            "서버 기반 리더보드"
+          ],
+          "risks": [
+            "카드 이동 시의 직관적이지 않은 UI/UX",
+            "셔플링 알고리즘의 공정성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "시간 제한 솔리테어",
+            "concept": "기존 규칙에 시간 제한을 추가하여 긴장감을 높입니다. 콤보를 쌓을 때마다 시간이 추가되는 규칙을 적용합니다.",
+            "first_step": "타이머 UI를 추가하고 턴 종료 시 시간을 차감하는 로직을 구현합니다."
+          },
+          {
+            "title": "카드 수집 솔리테어",
+            "concept": "게임 승리 시 획득한 포인트로 새로운 카드 디자인을 구매하는 상점 시스템을 도입합니다.",
+            "first_step": "포인트 변수와 카드 디자인 변경 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "게임 개발의 기초인 상태 관리와 UI 반응성을 배우기에 가장 좋은 장르입니다. 단순한 게임을 어떻게 다양한 기능으로 확장하는지 학습하기 좋습니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 광고 수익 모델, 서버 연동 방식, 결제 시스템은 확인되지 않았습니다. 1억 명 이상의 플레이어 수치는 마케팅적 요소이며 개발 난이도와는 직접적인 관련이 없습니다.",
+        "name": "Solitaire - Classic Card Games",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.mobilityware.solitaire&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "apple:6792461301": {
+      "app_key": "apple:6792461301",
+      "name": "LearnKata",
+      "developer": "LearnKata, Inc",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/learnkata/id6792461301",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:23:36+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "강의 슬라이드, PDF, 녹음 파일을 나만의 공부 계획으로 바꿔 보세요. 답만 알려주지 않고 단계별로 가르쳐 주는 AI 튜터와 함께요. LearnKata는 차분하게 집중할 수 있는 학생용 공부 공간이에요. 수업 자료를 올리면 내 자료 그대로 만들어진 레슨과 퀴즈, 암기카드로 정리돼요. 이렇게 사용해요 • 무엇이든 올려요 — PDF, PowerPoint, 강의 녹음, 붙여넣은 노트까지 • 공부 계획을 받아요 — 자료가 목표가 분명한 짧은 레슨으로 나뉘어요 • 직접 풀면서 익혀요 — 내 파일에서 만들어진 퀴즈, 암기카드, 학습 게임 • AI 튜터에게 물어봐요 — 내 자료에 근거한 단계별 설명을 출처와 함께 확인해요 학생들이 좋아하는 이유 • 파일, 노트, 암기카드, 문제 풀이가 한곳에 모여요 • 답이 아니라 이해가 남는 설명이에요 • 공부하는 동안 강점과 약점을 짚어 줘요 • 내 언어로 공부할 수 있어요 LEARNKATA PRO 모든 기능을 무료로 쓸 수 있어요. 무료 계정은 매주 20 에너지를 받고, 채팅 메시지 하나에 1 에너지, 공부 계획 하나에 5 에너지처럼 사용돼요. LearnKata Pro(자동 갱신 구독)를 이용하면 이런 제한 없이 쓸 수 있어요. 결제는 Apple ID로 청구되며, App Store 설정에서 취소하지 않으면 구독이 자동으로 갱신돼요. 이용약관(EULA): https://www.learnkata.ai/terms-of-service 개인정보 처리방침: https://www.learnkata.ai/privacy-policy 고객지원: https://www.learnkata.ai/support 궁금한 점이나 의견이 있으신가요? support@learnkata.ai",
+      "analysis": {
+        "app_key": "apple:6792461301",
+        "summary_ko": "LearnKata는 강의 자료를 학습 계획으로 변환해 주는 학생용 AI 튜터 서비스입니다. PDF, 녹음 파일 등 다양한 학습 자료를 올리면 AI가 이를 짧은 레슨, 퀴즈, 암기카드로 정리해 줍니다. 단계별 설명과 학습 분석을 통해 학생들이 효율적으로 공부할 수 있도록 돕습니다.",
+        "features_ko": [
+          "PDF, PowerPoint, 녹음 파일 등 다양한 학습 자료를 업로드할 수 있습니다.",
+          "업로드된 자료를 바탕으로 목표가 분명한 짧은 레슨을 생성합니다.",
+          "자료를 기반으로 한 퀴즈, 암기카드, 학습 게임을 제공합니다.",
+          "AI 튜터가 단계별 설명을 제공하며 학습자의 강점과 약점을 분석합니다."
+        ],
+        "noteworthy_ko": "학습 자료를 AI가 구조화하여 개인화된 학습 경험을 제공하는 점이 매우 흥미롭습니다. 단순한 요약을 넘어 퀴즈와 암기카드까지 생성하는 것은 AI의 생성 능력을 교육 도구에 효과적으로 접목한 사례입니다.",
+        "development_ko": "LLM(거대언어모델) API 연동과 문서 파싱 기술이 핵심입니다. 다양한 파일 형식에서 텍스트를 추출하고 이를 학습 데이터로 변환하는 파이프라인 구축이 필요합니다. AI 응답의 정확성을 검증하고, 사용자별 학습 데이터를 관리하는 시스템이 중요합니다.",
+        "idea_ko": "학습 자료를 바탕으로 친구들과 함께 퀴즈 대결을 펼칠 수 있는 '스터디 그룹 챌린지' 기능을 제안합니다.",
+        "highlights_ko": [
+          "다양한 학습 자료를 활용한 개인화된 커리큘럼 생성.",
+          "AI 튜터를 통한 단계별 학습 지원 및 분석."
+        ],
+        "systems_ko": [
+          "문서 파싱 및 텍스트 추출 모듈",
+          "LLM API 연동 및 프롬프트 관리 시스템",
+          "학습 데이터베이스(퀴즈/카드) 관리",
+          "사용자 학습 분석 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "AI 모델을 활용한 고도화된 콘텐츠 생성과 다양한 문서 형식 처리는 높은 기술적 난이도를 요구하며, 서비스 운영을 위한 API 비용 관리도 고려해야 하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "텍스트 파일 업로드 및 요약",
+            "AI 기반 퀴즈 생성",
+            "학습 데이터 저장"
+          ],
+          "defer": [
+            "음성 파일 처리",
+            "학습 게임",
+            "학습 분석 대시보드"
+          ],
+          "risks": [
+            "AI 생성 콘텐츠의 정확성 문제",
+            "API 호출 비용 증가"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스터디 그룹 퀴즈 대결",
+            "concept": "같은 자료를 공부하는 친구들과 실시간으로 퀴즈 대결을 합니다.",
+            "first_step": "퀴즈 데이터를 공유하고 점수를 비교하는 기본 로직 구현."
+          },
+          {
+            "title": "음성 강의 요약 노트",
+            "concept": "녹음된 강의를 텍스트로 변환하고 핵심 내용을 요약해 줍니다.",
+            "first_step": "STT(Speech-to-Text) API를 활용한 텍스트 변환 기능 구현."
+          }
+        ],
+        "recommendation_ko": "최신 AI 기술을 활용한 교육용 앱 개발을 꿈꾼다면 좋은 참고 사례입니다. LLM API 활용법과 데이터 구조화 기술을 익히기에 적합합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 AI 모델의 종류, 데이터 보안 및 개인정보 처리 방식, 결제 시스템의 구체적인 구현 방식 등은 확인되지 않았습니다.",
+        "name": "LearnKata",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/learnkata/id6792461301",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 48,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "apple:1489115591": {
+      "app_key": "apple:1489115591",
+      "name": "국방모바일보안(외부인)",
+      "developer": "Ministry of National Defense - Republic of Korea",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/%EA%B5%AD%EB%B0%A9%EB%AA%A8%EB%B0%94%EC%9D%BC%EB%B3%B4%EC%95%88-%EC%99%B8%EB%B6%80%EC%9D%B8/id1489115591",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:23:57+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "국방모바일보안(외부인)앱은 국방부를 출입하는 상시방문자와 일일방문자의 휴대전화 카메라 기능을 제어하는 새로운 개념의 스마트폰 앱입니다. 기존 휴대전화 카메라에 부착하는 보안스티커를 대체하는 앱으로, 촬영 등 카메라 기능을 차단하여 군사자료 유출 시도를 원천적으로 차단합니다. 국방부를 출입하는 상시방문자와 일일방문자의 편의성을 최대한 보장하며, 앱 운영시 별도의 개인정보 수집을 하지 않습니다. [카메라 차단 방법] 1) 보안앱 실행 2) 영문에 설치된 NFC 장치 인식 또는 수동차단 선택 3) 카메라 차단 프로파일 다운로드 및 설치 4) 카메라 차단 완료 [카메라 허용 방법] 1) 보안앱 실행 2) 영문에 설치된 비콘 장치 인식 3) 카메라 허용 프로파일 다운로드 및 설치 4) 카메라 허용 완료 [앱 접근 권한 안내] 정보통신망법 제22조의2(접근권한에 대한 동의)에 준수하여 앱 서비스 이용시 사용하는 접근권한을 안내합니다. [필수적 접근권한] - 없음 [선택적 접근권한] - 위치: 카메라 허용 시 사용 - 블루투스: 카메라 허용 시 사용 ※ 선택적 접근권한을 승인하지 않으셔도 해당 기능을 제외한 서비스 이용이 가능합니다. [개인정보 취급방침(이용약관)] 국방모바일보안앱은 사용자의 개인정보 일체를 수집 및 취급하지 않습니다. [고객센터] - 02-6424-5282~5284 - msjung@markany.co.kr[고객센터]",
+      "analysis": {
+        "app_key": "apple:1489115591",
+        "summary_ko": "국방부 출입자를 위한 보안 앱으로, 휴대전화의 카메라 기능을 제어하여 군사 자료 유출을 방지합니다. 보안 스티커를 대체하는 디지털 솔루션으로, NFC 및 비콘 기술을 활용해 카메라 기능을 차단하거나 허용합니다. 개인정보를 수집하지 않으며 방문자의 편의를 고려하여 설계되었습니다.",
+        "features_ko": [
+          "NFC 장치를 인식하여 카메라 차단 프로파일을 설치합니다.",
+          "비콘 장치를 인식하여 카메라 허용 프로파일을 설치합니다.",
+          "카메라 기능을 강제로 차단하여 보안을 유지합니다.",
+          "위치 및 블루투스 권한을 선택적으로 사용하여 허용 절차를 수행합니다."
+        ],
+        "noteworthy_ko": "물리적 보안 스티커를 소프트웨어 프로파일로 대체했다는 점이 흥미롭습니다. MDM(모바일 기기 관리) 기술을 활용하여 시스템 수준에서 하드웨어 기능을 제어하는 방식일 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 iOS의 구성 프로파일(Configuration Profile) 관리와 NFC/비콘 통신입니다. 보안 정책을 강제하는 프로파일 생성 및 배포 시스템이 필요하며, 사용자의 기기 설정에 직접 관여하므로 높은 수준의 안정성과 보안 검증이 요구됩니다.",
+        "idea_ko": "특정 구역 진입 시 자동으로 기기 설정을 변경하는 '상황 인지형 보안 프로파일 관리자' 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "물리적 스티커를 대체하는 디지털 보안 솔루션입니다.",
+          "개인정보 수집 없이 기기 제어 기능만 수행합니다."
+        ],
+        "systems_ko": [
+          "프로파일 관리 시스템",
+          "NFC/비콘 통신 모듈",
+          "상태 관리 시스템",
+          "사용자 권한 제어 UI"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "iOS의 프로파일 제어는 애플의 정책상 매우 제한적이며, 일반적인 앱 개발 범위를 벗어난 MDM 수준의 권한이 필요합니다. 개인 개발자가 구현하기에는 기술적 제약과 보안 인증 절차가 매우 까다롭습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "NFC 태그 인식 기능",
+            "프로파일 설치 안내 UI"
+          ],
+          "defer": [
+            "비콘 기반 자동 허용",
+            "복잡한 사용자 계정 관리"
+          ],
+          "risks": [
+            "애플의 앱스토어 심사 거부 가능성",
+            "OS 업데이트에 따른 프로파일 호환성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스마트 오피스 출입 제어",
+            "concept": "사무실 입구의 NFC 태그를 찍으면 업무용 앱만 활성화되고 개인 SNS 알림이 차단되는 모드 전환 앱입니다.",
+            "first_step": "NFC 태그를 인식하여 특정 알림 설정을 변경하는 프로토타입 제작."
+          },
+          {
+            "title": "도서관 집중 모드",
+            "concept": "도서관 책상에 부착된 NFC를 통해 휴대폰을 무음 및 방해 금지 모드로 자동 전환하는 앱입니다.",
+            "first_step": "NFC 태그 인식 시 시스템 설정을 변경하는 자동화 스크립트 구현."
+          }
+        ],
+        "recommendation_ko": "보안 정책과 기기 제어 기술에 관심이 있다면 흥미로운 사례입니다. 다만, 실제 서비스 구현은 기업용 MDM 솔루션 영역이므로 학습용으로만 접근하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 프로파일 생성 방식이나 서버와의 통신 규격이 명시되지 않았습니다. 실제 보안 정책 적용 방식은 외부 MDM 서버와의 연동이 필수적일 것으로 보이나 이에 대한 정보는 없습니다.",
+        "name": "국방모바일보안(외부인)",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EA%B5%AD%EB%B0%A9%EB%AA%A8%EB%B0%94%EC%9D%BC%EB%B3%B4%EC%95%88-%EC%99%B8%EB%B6%80%EC%9D%B8/id1489115591",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 61,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "apple:1580284904": {
+      "app_key": "apple:1580284904",
+      "name": "WidgetClub: ウィジェット、壁紙、アイコン着せ替え",
+      "developer": "Liume, Inc",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/jp/app/widgetclub-%E3%82%A6%E3%82%A3%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88-%E5%A3%81%E7%B4%99-%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3%E7%9D%80%E3%81%9B%E6%9B%BF%E3%81%88/id1580284904",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:23:57+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "◆ホーム画面カスタマイズアプリの決定版◆ 【人気No.1！1,000万DL突破】壁紙、ウィジェット、アイコンでスマホのホーム画面をおしゃれにカスタマイズできる！ ロック画面のカスタマイズも簡単！スマホをおしゃれにカスタマイズするならWidgetClub！ # SNSで話題！好きな画像で動く壁紙が設定できる！ # おしゃれなホーム画面とロック画面カスタマイズが1万件以上！ # ウィジェットは100種類以上！動くウィジェットや音楽プレイヤー風ウィジェットも # おしゃれアイコンも1万件以上！ # 充電したら動画が流れる！充電アニメーションも簡単に設定できる！ # ロック画面にメモが簡単に設置できるライブメモ機能も！ 【新機能登場！】 - タップすると好きな音が流れる音声ウィジェットが新登場！いつでもどこでも好きな推しの音楽や声をウィジェットで楽しもう！ - タップすると動くウィジェットが大好評！ WidgetClub（ウィジェットクラブ）を使えば初心者さんでも簡単にスマホを世界一自分好みにカスタマイズできます。 ◆多くの方に評価されています◆ ・App Storeデザイン部門1位獲得！ ・王様のブランチに紹介されました！ ・プレミアムメンバーも累計10万人突破！ ◆ホーム画面カスタマイズが簡単◆ 韓国系、可愛い系、シンプル系などテーマに合わせた壁紙・アプリアイコン・ウィジェットが豊富！ 壁紙・アイコン・ウィジェットがセットになったテンプレートはなんと4,500種類以上。 自分の好きなテイストにiPhoneをカスタムできます。 ちなみに、人気アニメや人気キャラクターのホーム画面も！ キャラクター：ブルーロック、リラックマ、たまごっち、ひつじのショーン、デート・ア・ライブ、いれいす...etc 参加クリエーター：Nomad Iconさん、Mirinさん、Haruchartさん...etc k-popなど推し活に使いやすい韓国風のホーム画面や、人気のY2K風ホーム画面、 かっこいいミニマリストなホーム画面などあらゆるテイストのホーム画面が揃っています。 ◆便利なウィジェットが100種類以上！簡単設定！◆ 動く動画ウィジェットをはじめ、便利でおしゃれなウィジェットが豊富！ 写真ウィジェットやカウントダウンウィジェット、記念日ウィジェットなどもあるので、推し活アプリとしての利用にもぴったり！ 【設定可能なウィジェット】 動画ウィジェット / 時計ウィジェット / 音楽ウィジェット / 天気ウィジェット / 音声ウィジェット/ フリップウィジェット / 占いウィジェット / GIFウィジェット / 写真ウィジェット(photo widget) / 動くフォトウィジェット / カウントダウンウィジェット / 記念日カウンターウィジェット / YouTubeウィジェット / 時間ウィジェット / メモウィジェット/ 充電ウィジェット / スケジュールウィジェット / 予定ウィジェット / リマインダーウィジェット...etc ◆アプリアイコンの着せ替えも簡単！自動追加機能も◆ 1万種類以上のおしゃれなアプリアイコンに着せ替えできる！ 更に、好きな色や画像でアイコン作成ができるアイコンメーカーを使えば、好きな背景と色を組み合わせてアプリアイコンを一瞬で作成できます。 更に、アプリの着せ替えも簡単。 WidgetClubなら、人気のアプリの一部はアプリアイコンを一気にホーム画面に追加できます！（対応アプリのみ一気に追加可能） ◆高画質なスマホ壁紙が4万件以上！◆ ホーム画面の壁紙やロック画面中の壁紙など、4K対応された高画質なiPhone向け壁紙が無料で手に入る！ 人気のぷっくり3D壁紙など、トレンド感のある壁紙も手に入る！ ◆ロック画面もカスタマイズできる◆ ロック画面ウィジェットの設定はもちろん、高画質なスマホ壁紙が3万件以上設定可能！ ロック画面とホーム画面どちらも簡単にカスタマイズできるから、スマホをカスタマイズするならこのアプリ一つあればOK! ◆動く壁紙（ライブ壁紙）も設定できる◆ 好きな動画を待ち受けに設定できる「動く壁紙」機能が登場！ また、SNSでもバズってる好きな画像を組み合わせて動く壁紙や3D壁紙を作成する機能も！ 作成した壁紙をロック画面に追加すると、電源ボタンをタップするたびにロック画面で壁紙が動きます！ # 他にもこんなメリットも - アプリアイコンはそのまま無料ダウンロードしてショートカットでも利用できるので、アイコン着せ替え後の遷移も自由自在！ - オリジナルアイコン作成やウィジェット作成、動く壁紙の作成など、スマホのカスタムをフルに楽しめる！ - 対応バージョンはios15、iOS16、iOS17、iOS18、iOS26共に利用可能！ # こんな人におすすめです ・使いやすくおしゃれな壁紙アプリを使いたい方 ・ホーム画面を整理したい方 ・スマホをカスタマイズしてもっと毎日を楽しく過ごしたい方 ・物忘れが多くカレンダーや予定など ・推し活やカップルで、記念日や大事な日までのカウントダウンをしたい方 ▼よく間違えられるワード うぃじぇっとくらぶ、ウィジェットクラブ、Widget Club、widgetsclub, きせかえアプリ、あいこんきせかえ、ウィジェットスミス、うぃじぇっとすみす、widgetsmith、あいこん作成、ほーむ画面、ウィジット、うぇじっと、ウェジット、うぇじぇっと、widet, wiget,あぷりあいこん、あいこん、ホーム画面編集、ホーム画面 写真、待受画面、アイコン変更、着せ替えホーム画面、壁紙、iPhone壁紙、ホーム画面カスタマイズ # Instagram https://www.instagram.com/widget_club_/ # Pinterest https://jp.pinterest.com/widgetclub/ # Twitter (X) https://x.com/WidgetClub 人気No.1*：2026年8月24日〜8月28日AppStoreデザイン部門一位獲得",
+      "analysis": {
+        "app_key": "apple:1580284904",
+        "summary_ko": "홈 화면과 잠금 화면을 취향대로 꾸밀 수 있는 커스터마이징 앱입니다. 위젯, 아이콘, 배경화면을 포함한 다양한 템플릿을 제공하여 사용자가 쉽게 스마트폰을 디자인할 수 있습니다. 인기 캐릭터와 협업한 디자인을 포함하여 1만 건 이상의 리소스를 지원합니다.",
+        "features_ko": [
+          "다양한 디자인의 위젯과 아이콘 템플릿을 제공합니다.",
+          "동영상이나 사진을 활용한 라이브 배경화면 설정이 가능합니다.",
+          "충전 시 애니메이션이 재생되는 기능을 지원합니다.",
+          "잠금 화면에 메모를 남길 수 있는 라이브 메모 기능을 제공합니다.",
+          "아이콘 메이커를 통해 사용자가 직접 아이콘을 생성할 수 있습니다."
+        ],
+        "noteworthy_ko": "사용자 경험을 극대화하기 위해 iOS의 위젯 및 단축어 기능을 최대한 활용하고 있습니다. 다양한 리소스를 템플릿화하여 초보자도 쉽게 접근하게 만든 점이 비즈니스적으로 성공적인 전략으로 보입니다.",
+        "development_ko": "iOS 위젯킷(WidgetKit)과 단축어(Shortcuts) API 활용 능력이 핵심입니다. 방대한 리소스를 관리하기 위한 서버 인프라와 사용자별 커스텀 데이터를 처리하는 데이터베이스 설계가 중요하며, 디자인 리소스의 품질 관리가 콘텐츠 경쟁력을 결정합니다.",
+        "idea_ko": "사용자의 기분이나 날씨에 따라 홈 화면 테마가 자동으로 변경되는 '감성 테마 자동 전환기' 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "1만 건 이상의 방대한 디자인 리소스와 템플릿을 제공합니다.",
+          "위젯, 아이콘, 배경화면을 통합 관리하는 올인원 커스터마이징 도구입니다."
+        ],
+        "systems_ko": [
+          "리소스 다운로드 및 관리 시스템",
+          "위젯 렌더링 엔진",
+          "사용자 설정 데이터 저장소",
+          "이미지/영상 처리 모듈"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "iOS 위젯킷과 단축어 활용법을 익히면 핵심 기능 구현은 가능합니다. 다만, 수만 개의 리소스를 관리하고 앱의 성능을 최적화하는 과정에서 높은 수준의 데이터 관리 능력이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "위젯 템플릿 라이브러리",
+            "아이콘 다운로드 및 적용 가이드",
+            "기본 배경화면 갤러리"
+          ],
+          "defer": [
+            "충전 애니메이션",
+            "실시간 라이브 메모 기능"
+          ],
+          "risks": [
+            "애플의 UI 가이드라인 준수 여부",
+            "서버 비용 증가 및 리소스 로딩 속도 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "무드 테마 자동화",
+            "concept": "사용자의 위치나 날씨 정보를 기반으로 홈 화면 테마를 자동으로 교체해주는 앱입니다.",
+            "first_step": "날씨 API를 연동하여 배경화면을 변경하는 단축어 자동화 구현."
+          },
+          {
+            "title": "미니멀 아이콘 생성기",
+            "concept": "사용자가 입력한 텍스트나 이니셜을 바탕으로 심플한 아이콘을 즉석에서 생성해주는 도구입니다.",
+            "first_step": "텍스트를 이미지로 변환하여 아이콘 파일로 저장하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "iOS의 시스템 기능을 활용한 앱 개발을 배우기에 매우 좋은 사례입니다. UI/UX 디자인과 리소스 관리의 중요성을 경험하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "아이콘 적용 시 단축어를 거쳐야 하는 iOS의 기술적 한계에 대한 우회 방식은 설명에 없습니다. 유료 구독 모델이나 구체적인 수익 구조는 확인되지 않았습니다.",
+        "name": "WidgetClub: ウィジェット、壁紙、アイコン着せ替え",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/widgetclub-%E3%82%A6%E3%82%A3%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88-%E5%A3%81%E7%B4%99-%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3%E7%9D%80%E3%81%9B%E6%9B%BF%E3%81%88/id1580284904",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 76,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "apple:6505107527": {
+      "app_key": "apple:6505107527",
+      "name": "Listful - Wishlist Maker",
+      "developer": "Listful LLC",
+      "source": "apple",
+      "country": "US",
+      "category": "app_lifestyle",
+      "detail_url": "https://apps.apple.com/us/app/listful-wishlist-maker/id6505107527?uo=2",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:26:04+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "You have 47 things you want and zero idea where you saved any of them. Listful is the one place that actually keeps track of it all. Add anything from any store. Amazon, Sephora, Urban Outfitters, Abercrombie, Adidas, IKEA. If it's sold online, you can add it. Build one list or a dozen, arrange them exactly how you want, and make something that actually looks good. Share it with one link. That's it. WHY PEOPLE SWITCH TO LISTFUL Most people are juggling gift ideas across their Notes app, random screenshots, and browser tabs they swore they'd come back to. Listful puts it all in one beautiful place. Organize by color, build shareable collages, and give the people who love you one link to shop from. HOW IT WORKS • Create a list for any occasion • Add items from any store by pasting a link or browsing in-app • Share it with one link (no app or account needed to view) • Shop it yourself or let the people who love you make your wishes happen WHAT YOU CAN DO • Add items from every store on the internet with one tap • Save fashion finds, outfits, and beauty picks all in one place • Use it as your personal running list of everything you want • Share lists by link, text, or directly to TikTok and Instagram • Let people reserve gifts so nothing gets doubled up • Get notified when someone reserves a wish • Track prices and get price-drop alerts • Build lists together with collaborators • Compare prices directly on your wishlist • Customize the app to fit your style • Add items manually when there's no link • Get personalized gift suggestions based on your lists PERFECT FOR • Christmas lists and holiday gift exchanges • Birthday wishlists for kids, teens, and adults • Wedding registries and bridal showers • Baby shower registries • Graduation gifts • Fashion wishlists and style saving • Everyday saving and shopping inspiration FREQUENTLY ASKED QUESTIONS Is Listful free? Yes. Creating, sharing, and shopping wishlists is free. Does it work with any store? Yes. Listful works with every store on the internet. You can also add items manually with no link at all. Do my friends and family need the app to see my list? Nope. Your wishlist link opens in any browser. They can view, shop, and reserve without downloading anything. Fulfilling wishes should be easy. Download Listful and make it that way. Terms of use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "analysis": {
+        "app_key": "apple:6505107527",
+        "summary_ko": "Listful은 온라인 쇼핑몰의 상품을 한곳에 모아 관리하고 공유할 수 있는 위시리스트 앱입니다. 사용자는 링크를 통해 상품을 추가하고, 이를 카테고리별로 정리하거나 공유 링크를 생성할 수 있습니다. 앱 설치 없이도 타인이 리스트를 확인하고 선물을 예약할 수 있는 기능을 제공합니다.",
+        "features_ko": [
+          "온라인 쇼핑몰의 상품 링크를 붙여넣거나 앱 내 브라우저를 통해 위시리스트에 추가합니다.",
+          "생성된 위시리스트를 단일 링크로 공유하여 타인이 앱 설치 없이 내용을 확인하게 합니다.",
+          "타인이 리스트 내 상품을 예약하여 중복 선물을 방지하는 기능을 제공합니다.",
+          "상품 가격 변동 시 알림을 받을 수 있는 트래킹 기능을 포함합니다.",
+          "여러 사용자가 함께 리스트를 관리하는 협업 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "사용자가 직접 상품을 추가하는 방식과 외부 공유 링크의 편의성을 결합한 점이 흥미롭습니다. 특히 앱 설치를 강제하지 않는 공유 방식은 바이럴 확산에 매우 효과적인 구조로 추정됩니다.",
+        "development_ko": "핵심 기술은 웹 크롤링을 통한 상품 메타데이터 추출과 실시간 데이터 동기화입니다. 콘텐츠 제작 부담은 낮으나, 다양한 쇼핑몰의 레이아웃 변화에 대응하는 크롤러 유지보수가 중요합니다. 테스트 시에는 다양한 브라우저 환경에서의 링크 공유 호환성 검증이 필수적입니다.",
+        "idea_ko": "특정 테마(예: 캠핑, 인테리어)의 상품을 큐레이션하여 공유하는 '테마형 위시리스트' 서비스가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "앱 설치가 필요 없는 웹 기반 공유 링크 시스템을 통해 접근성을 극대화했습니다.",
+          "선물 예약 기능을 통해 사용자 간의 실질적인 상호작용을 유도합니다."
+        ],
+        "systems_ko": [
+          "웹 크롤링 및 메타데이터 파싱 엔진",
+          "사용자 계정 및 리스트 데이터베이스",
+          "공유용 웹 뷰어 및 동적 링크 생성기",
+          "실시간 알림 및 상태 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기본적인 CRUD 기능은 구현이 쉬우나, 다양한 외부 사이트의 정보를 안정적으로 가져오는 크롤링 기술과 서버 비용 관리가 복합적인 난이도를 형성합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 링크 추가 및 저장 기능",
+            "공유용 웹 페이지 생성",
+            "상품 예약 상태 관리"
+          ],
+          "defer": [
+            "가격 변동 알림",
+            "협업 편집 기능",
+            "앱 내 브라우저"
+          ],
+          "risks": [
+            "외부 쇼핑몰의 보안 정책에 따른 크롤링 차단",
+            "서버 트래픽 및 데이터베이스 운영 비용"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "공동 구매 위시리스트",
+            "concept": "여러 명이 하나의 리스트에 돈을 모아 선물을 구매하는 기능을 추가합니다. 목표 금액 달성 시 알림을 보내는 규칙을 적용합니다.",
+            "first_step": "리스트 내 상품별 목표 금액 설정 및 기여도 표시 UI 구현."
+          },
+          {
+            "title": "취향 분석 큐레이션",
+            "concept": "사용자가 저장한 상품 데이터를 분석하여 유사한 스타일의 아이템을 추천합니다. 사용자의 쇼핑 취향을 시각화하는 대시보드를 제공합니다.",
+            "first_step": "저장된 상품 카테고리 태그 분류 및 통계 데이터 시각화."
+          }
+        ],
+        "recommendation_ko": "데이터베이스 설계와 외부 API/웹 데이터 연동을 배우기에 매우 좋은 프로젝트입니다. 다만, 크롤링 기술은 법적/기술적 제약이 많으므로 주의가 필요합니다.",
+        "source_limitations_ko": "결제 시스템의 존재 여부, 가격 추적의 기술적 구현 방식, 사용자 인증 체계에 대한 구체적인 정보가 부족합니다.",
+        "name": "Listful - Wishlist Maker",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/listful-wishlist-maker/id6505107527?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "google:nhk.app.nwa": {
+      "app_key": "google:nhk.app.nwa",
+      "name": "NHK ONE ニュース・防災",
+      "developer": "NHK (JAPAN BROADCASTING CORP.)",
+      "source": "google",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=nhk.app.nwa&hl=ja&gl=JP",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:27:22+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "「命と暮らしを守る情報」を届けるNHK公式アプリ ・正確なニュース、災害・気象情報をいち早く ・テレビの主なニュース番組をスマホで同時・見逃し配信 ・速報や命を守る情報をプッシュ通知で速やかに ・地域ごとのきめ細かい災害情報や天気予報 ・マップでも雨雲レーダーや河川情報を ■主な機能■ ○NHKが取材したニュース記事・動画を網羅 ・社会、災害、政治、ビジネス、国際、スポーツなど ・日本全国各地域ごとのニュースも ○ニュース番組を同時・見逃し配信 ・テレビの主なニュース番組をお手元に配信 ・災害時/緊急時には臨時のニュース番組も配信 ○速報や命を守る緊急の情報をプッシュ通知で ・ニュース速報や災害情報をいち早くお手元に ○各地の天気予報 ・現在位置や設定地域ごとにきめ細かく ○地震、津波、台風などの災害情報 ・最新情報を掲載 ○特別警報、警報・注意報 ・現在位置や設定地域ごとにきめ細かく ○避難情報 ・自治体の出す避難に関する情報を掲載 ○マップでも災害・気象情報を確認可能 ・雨雲レーダーや河川氾濫・河川カメラ画像 ・台風の進路予想 ■ご利用にあたって■ ○すでに世帯でNHKの受信契約がある場合は、別途のご契約や追加のご負担は必要ありません。受信契約を締結されていない方がご利用される場合は、NHKの受信契約の手続きをお願いします。 ○日本国外からはご利用できません。",
+      "analysis": {
+        "app_key": "google:nhk.app.nwa",
+        "summary_ko": "NHK ONE은 일본의 공식 뉴스 및 재난 방재 앱입니다. 실시간 뉴스 방송과 재난 정보를 신속하게 전달하며, 지역별 기상 정보와 피난 정보를 제공합니다. 긴급 상황 시 푸시 알림을 통해 사용자의 안전을 지키는 데 목적이 있습니다.",
+        "features_ko": [
+          "NHK의 뉴스 기사와 영상을 실시간으로 제공합니다.",
+          "주요 뉴스 프로그램을 실시간 및 다시 보기로 시청할 수 있습니다.",
+          "지진, 태풍 등 재난 발생 시 긴급 푸시 알림을 발송합니다.",
+          "현재 위치 기반의 상세한 날씨 및 재난 정보를 제공합니다.",
+          "지도상에서 강우 레이더와 하천 정보를 확인할 수 있습니다."
+        ],
+        "noteworthy_ko": "재난 정보라는 생명과 직결된 데이터를 다루므로 정보의 정확성과 전달 속도가 최우선입니다. 공공 서비스로서의 신뢰성을 유지하기 위한 시스템 안정성이 매우 중요합니다.",
+        "development_ko": "공공 데이터 API와의 안정적인 연동과 긴급 푸시 알림 시스템이 핵심입니다. 다양한 지역별 데이터를 효율적으로 필터링하여 사용자에게 전달하는 로직이 중요합니다.",
+        "idea_ko": "특정 지역의 공공 데이터를 활용하여 사용자가 설정한 관심 지역의 날씨나 안전 정보를 요약해주는 개인화 알림 앱이 적합합니다.",
+        "highlights_ko": [
+          "위치 기반의 정밀한 재난 및 기상 정보.",
+          "긴급 상황 시 즉각적인 푸시 알림 시스템."
+        ],
+        "systems_ko": [
+          "공공 데이터 API 연동",
+          "푸시 알림 관리 시스템",
+          "위치 기반 서비스(LBS)",
+          "지도 시각화 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "재난 정보는 오작동 시 큰 위험을 초래할 수 있어 높은 수준의 데이터 신뢰성과 시스템 안정성이 요구됩니다. 공공 데이터 API의 복잡성과 실시간성 확보가 개인 개발자에게는 큰 부담입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "공공 데이터 API 연동",
+            "푸시 알림 기능",
+            "지역 설정 기능"
+          ],
+          "defer": [
+            "실시간 영상 스트리밍",
+            "지도 기반의 복잡한 시각화"
+          ],
+          "risks": [
+            "데이터 정확성 보장",
+            "서버 안정성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "우리 동네 안전 알리미",
+            "concept": "사용자가 설정한 지역의 미세먼지나 기상 특보를 요약하여 매일 아침 알림을 보냅니다.",
+            "first_step": "기상청 공공 데이터 API를 연동하여 특정 지역의 날씨 정보를 가져오는 기능을 구현합니다."
+          },
+          {
+            "title": "재난 대비 체크리스트",
+            "concept": "재난 발생 시 필요한 물품과 행동 요령을 체크리스트 형태로 제공합니다.",
+            "first_step": "정적인 데이터를 기반으로 한 체크리스트 UI를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "공공 API 활용법과 위치 기반 서비스의 기초를 배우기에 좋습니다. 다만, 재난 정보와 같은 민감한 분야는 개인 개발 시 책임 소재가 따르므로 주의가 필요합니다.",
+        "source_limitations_ko": "소개문에는 데이터 소스의 구체적인 API 명세나 서버 인프라 구성이 나와 있지 않습니다. 실제 개발 시 각 국가의 공공 데이터 포털에서 제공하는 API 사용 조건을 확인해야 합니다.",
+        "name": "NHK ONE ニュース・防災",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=nhk.app.nwa&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 86,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "itch:a6aa74394278c9927b29": {
+      "app_key": "itch:a6aa74394278c9927b29",
+      "name": "Lacquered Rifts - 20 Abstract Backgrounds [$8.99]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "",
+      "detail_url": "https://reivisualstudio.itch.io/lacquered-rifts-backgrounds",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-28T05:28:28+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "20 AI-generated and upscaled lacquered abstract backgrounds · 3072 x 2048 px · commercial use",
+      "analysis": {
+        "app_key": "itch:a6aa74394278c9927b29",
+        "summary_ko": "상업적 용도로 사용 가능한 20개의 AI 생성 추상 배경 이미지 팩입니다. 3072 x 2048 픽셀 해상도로 제공되며 래커(Lacquered) 스타일의 질감을 특징으로 합니다.",
+        "features_ko": [
+          "AI를 활용해 생성된 20종의 추상적인 배경 이미지를 제공합니다.",
+          "이미지는 3072 x 2048 픽셀의 고해상도로 제작되었습니다.",
+          "상업적 이용이 가능한 라이선스를 포함하고 있습니다."
+        ],
+        "noteworthy_ko": "AI 생성 콘텐츠를 에셋 스토어에서 판매하는 방식의 전형적인 사례입니다. 개발 관점에서는 생성형 AI를 활용한 에셋 제작 파이프라인의 효율성을 확인하는 용도로 흥미롭습니다.",
+        "development_ko": "핵심 기술은 AI 이미지 생성 도구 활용 및 업스케일링입니다. 콘텐츠 제작 부담은 낮으나, 일관된 스타일을 유지하며 20종의 결과물을 선별하는 큐레이션 과정이 필요합니다. 테스트는 다양한 디스플레이 환경에서의 가독성 확인 정도면 충분합니다.",
+        "idea_ko": "특정 테마의 AI 에셋을 묶어 판매하는 방식은 개인 개발자의 초기 자본 확보에 유용합니다.",
+        "highlights_ko": [
+          "래커 질감을 강조한 추상적 디자인으로 시각적 통일감을 제공합니다.",
+          "고해상도 규격으로 다양한 매체에 범용적으로 활용 가능합니다."
+        ],
+        "systems_ko": [
+          "에셋 관리 시스템",
+          "라이선스 및 배포 관리",
+          "이미지 최적화 파이프라인"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "게임 로직 구현이 아닌 에셋 판매용 패키지이므로 프로그래밍 난이도가 매우 낮습니다. AI 도구 활용 능력과 이미지 품질 검수 역량이 핵심입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "고품질 이미지 20종",
+            "라이선스 안내 문서"
+          ],
+          "defer": [
+            "전용 뷰어 앱",
+            "자동 다운로드 시스템"
+          ],
+          "risks": [
+            "AI 생성물에 대한 저작권 정책 변화",
+            "유사 에셋과의 차별성 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "테마별 UI 아이콘 팩",
+            "concept": "특정 게임 장르(예: 판타지, SF)에 특화된 UI 아이콘을 AI로 생성하여 판매합니다. 일관된 스타일 가이드를 적용하는 것이 핵심입니다.",
+            "first_step": "5종의 기본 아이콘을 생성하고 스타일을 정의합니다."
+          },
+          {
+            "title": "배경 음악 루프 팩",
+            "concept": "AI 음악 생성 도구를 활용해 특정 분위기의 배경 음악을 제작합니다. 게임 개발자가 즉시 사용할 수 있도록 루프 구간을 설정합니다.",
+            "first_step": "30초 분량의 루프 가능한 배경 음악 3곡을 제작합니다."
+          }
+        ],
+        "recommendation_ko": "에셋 제작 및 판매 프로세스를 경험하고 싶은 개발자에게 추천합니다. 다만, 단순 생성물은 경쟁이 치열하므로 자신만의 독특한 스타일을 입히는 연습이 필요합니다.",
+        "source_limitations_ko": "제공된 정보는 이미지의 수량과 해상도뿐입니다. AI 생성 도구의 종류나 구체적인 제작 기법, 라이선스 세부 약관은 확인되지 않습니다.",
+        "name": "Lacquered Rifts - 20 Abstract Backgrounds [$8.99]",
+        "source": "itch",
+        "detail_url": "https://reivisualstudio.itch.io/lacquered-rifts-backgrounds",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 10000,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
     }
   }
 }

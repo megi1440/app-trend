@@ -8429,6 +8429,447 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-27"
+    },
+    "itch:7265c7c5112788080941": {
+      "app_key": "itch:7265c7c5112788080941",
+      "name": "Crazy Poker [Free] [Card Game]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://programmervsworld.itch.io/crazy-poker",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:14:46+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Simple poker concept where you use a grid and can swap cards in any direction",
+      "analysis": {
+        "app_key": "itch:7265c7c5112788080941",
+        "summary_ko": "격자 형태의 보드에서 카드를 교환하며 진행하는 포커 게임입니다. 기존 포커의 개념을 그리드 시스템으로 재해석했습니다.",
+        "features_ko": [
+          "격자 기반의 카드 배치",
+          "방향 제한 없는 카드 교환 시스템"
+        ],
+        "noteworthy_ko": "포커의 족보를 그리드 위에서 어떻게 완성하는지가 개발의 핵심입니다. 일반적인 포커와 달리 공간적 제약이 추가되어 전략적 깊이가 다를 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 그리드 데이터 관리와 포커 족보 판정 알고리즘입니다. 카드 교환 시 인접한 카드와의 상호작용을 처리해야 하며, 사용자 인터페이스가 직관적이어야 합니다.",
+        "idea_ko": "그리드 크기를 변경하거나 특정 위치에 보너스 효과를 부여하는 방식을 추천합니다.",
+        "highlights_ko": [
+          "포커와 그리드 퍼즐의 결합",
+          "자유로운 카드 교환 방식"
+        ],
+        "systems_ko": [
+          "그리드 관리 시스템",
+          "포커 족보 판정 엔진",
+          "카드 교환 로직"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "포커 족보 판정 로직이 다소 복잡할 수 있으며, 그리드 시스템과의 결합을 위한 데이터 구조 설계가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "그리드 카드 배치",
+            "포커 족보 판정"
+          ],
+          "defer": [
+            "온라인 리더보드",
+            "다양한 게임 모드"
+          ],
+          "risks": [
+            "족보 판정 알고리즘의 복잡성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "그리드 포커 퍼즐",
+            "concept": "주어진 카드들로 특정 족보를 완성해야 하는 퍼즐 모드입니다. 횟수 제한 내에 카드를 교환하여 목표를 달성합니다.",
+            "first_step": "그리드 내 카드 교환 기능과 족보 체크 함수 구현."
+          },
+          {
+            "title": "속성 그리드 포커",
+            "concept": "그리드 칸마다 특정 속성이 있어, 같은 속성 칸에 카드를 배치하면 점수 배율이 적용됩니다.",
+            "first_step": "그리드 데이터에 속성 값을 추가하고 점수 계산 로직 수정."
+          }
+        ],
+        "recommendation_ko": "알고리즘 구현 능력과 UI/UX 설계를 동시에 연습하기 좋습니다. 포커라는 익숙한 규칙을 변형하는 재미를 느낄 수 있습니다.",
+        "source_limitations_ko": "그리드 크기, 카드 교환의 구체적인 제약 조건, 승리 조건 등에 대한 상세 정보가 없습니다.",
+        "name": "Crazy Poker [Free] [Card Game]",
+        "source": "itch",
+        "detail_url": "https://programmervsworld.itch.io/crazy-poker",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 323,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "google:com.cww.laststronghold": {
+      "app_key": "google:com.cww.laststronghold",
+      "name": "Last Stronghold: Idle Survival",
+      "developer": "SayGames Ltd",
+      "source": "google",
+      "country": "US",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.cww.laststronghold&hl=en&gl=US",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:21:22+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "🧟 GOT BRAINS? Everyone’s worst nightmare has come true: things have gone nuclear, and the zombie apocalypse has arrived! With survivors few and far between, you’ll need to navigate between driving back the walking dead, building strongholds and bases, crafting supplies, and just plain survival! This idle simulator has it all, from the thrill of bashing in zombie heads to collecting resources. 🧠BRAINS OVER BRAWN Start off by building a base that you can take refuge in, then venture out to take out these zombies, stalker style! Don’t forget about defense though – your survival depends on making friends with the other humans and adding them to your team so that someone always has your back. Together you’ll be able to craft, explore, and kick zombie butt till the cows come home! Fun Features: 🗺️Zombies Galore: As a lucky survivor, you’ve been thrust into a nightmarish world where the walking dead roam the land in overwhelming numbers. Armed with limited resources and unyielding determination, navigate the treacherous post-apocalyptic landscapes and fend off hordes of undead to both stay alive and defend your base. The sheer volume of zombies to kill ensures that you’ll get to experience both offense and defense in this exciting test of strategy and survival instincts. 🪓Get Crafty: As you navigate the simulator, you’ll have the chance to collect all sorts of resources that will come in handy for constructing buildings, healing yourself and team members, and driving out the zombie hordes. Thanks to the idle aspect of this game you’ll be able to take some breathers from the chaos and just focus on gathering items and stockpiling resources. 🚗Explore Some More: The world is your oyster, the only thing keeping you from sitting back to enjoy it are all these zombies! In driving them from their hideouts, you’ll get to explore tons of great locations and neat areas, as well as build various strongholds in them. Different locations offer up different resources too, so keep your eyes peeled for these and more as you explore. 🔪Great Storyline: This simulator was created with an open-ended storyline that just keeps evolving, meaning there are always fun new locations, and not so fun new zombies that want to eat your brains. Survival doesn’t have to be boring! WILL YOU SINK OR SWIM?💀 With the ability to build and defend strongholds, craft supplies, and form alliances with other survivors, every moment of survival is packed with both excitement and strategy. Download Last Stronghold today to dive into this exhilarating idle simulator and see if you’ve got both the brains and the brawn needed to survive the zombie apocalypse and rebuild society! Only the toughest can make it through – can you? Privacy Policy: https://say.games/privacy-policy Terms of Use: https://say.games/terms-of-use",
+      "analysis": {
+        "app_key": "google:com.cww.laststronghold",
+        "summary_ko": "Last Stronghold는 좀비 아포칼립스를 배경으로 한 방치형 생존 시뮬레이션 게임입니다. 플레이어는 기지를 건설하고 자원을 수집하며 생존자들과 협력하여 좀비 무리에 맞서야 합니다. 방치형 요소를 통해 자원을 자동으로 확보하고 전략적으로 기지를 확장하는 경험을 제공합니다.",
+        "features_ko": [
+          "좀비 무리를 물리치고 생존을 위한 자원을 수집하는 전투 시스템을 갖추고 있습니다.",
+          "기지를 건설하고 강화하여 좀비의 공격으로부터 방어하는 전략적 요소를 포함합니다.",
+          "다른 생존자들과 팀을 구성하여 함께 자원을 수집하고 전투를 수행할 수 있습니다.",
+          "방치형 게임 특성상 게임을 켜두지 않아도 자원이 자동으로 수집되는 시스템을 지원합니다."
+        ],
+        "noteworthy_ko": "방치형 게임에 생존 시뮬레이션과 기지 건설 요소를 결합하여 몰입감을 높였습니다. 스토리라인이 지속적으로 확장되는 구조를 채택하여 장기적인 플레이 동기를 부여하는 점이 흥미롭습니다.",
+        "development_ko": "방치형 자원 수집 로직과 기지 건설을 위한 데이터 관리 시스템이 핵심입니다. 좀비 웨이브와 전투 밸런스를 맞추는 것이 중요하며, 다양한 지역과 아이템을 추가하는 콘텐츠 제작 부담이 큽니다. 1인 개발 시에는 초기 시스템의 안정적인 루프를 만드는 데 집중해야 합니다.",
+        "idea_ko": "생존자마다 고유한 특성과 스토리를 부여하여, 팀 구성에 따라 기지 운영 효율이 달라지는 '생존자 조합 전략' 시스템을 도입하면 좋습니다.",
+        "highlights_ko": [
+          "방치형 게임의 편의성과 생존 시뮬레이션의 긴장감을 동시에 제공합니다.",
+          "지속적으로 업데이트되는 오픈형 스토리라인을 통해 새로운 지역과 적을 탐험할 수 있습니다."
+        ],
+        "systems_ko": [
+          "방치형 자원 생성 및 누적 시스템",
+          "기지 건설 및 업그레이드 데이터 관리",
+          "전투 판정 및 좀비 AI 로직",
+          "생존자 팀 관리 및 인벤토리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "방치형 게임의 기본 구조는 비교적 구현이 명확하지만, 다양한 아이템과 기지 건설 데이터의 밸런스를 맞추는 작업이 지속적으로 필요합니다. 1인 개발 시 콘텐츠 양을 조절하면 충분히 구현 가능한 수준입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "자원 수집 루프",
+            "기지 건설 및 업그레이드 UI",
+            "기본 전투 시스템"
+          ],
+          "defer": [
+            "복잡한 스토리라인",
+            "멀티플레이어 협력 요소"
+          ],
+          "risks": [
+            "반복적인 플레이로 인한 콘텐츠 고갈",
+            "전투 밸런스 붕괴로 인한 게임 재미 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "생존자 탐험 파견 시스템",
+            "concept": "생존자를 특정 지역으로 파견하여 일정 시간 후 자원을 가져오게 합니다. 파견 중 위험 요소에 따라 생존자가 부상을 입을 수 있는 확률 요소를 추가합니다.",
+            "first_step": "파견 시간과 보상 데이터를 관리하는 타이머 기반 시스템 구현."
+          },
+          {
+            "title": "기지 방어 타워 디펜스",
+            "concept": "기지 주변에 방어 타워를 설치하여 좀비의 침입을 자동으로 막는 타워 디펜스 요소를 결합합니다.",
+            "first_step": "타워의 공격 범위와 좀비의 이동 경로를 계산하는 간단한 2D 그리드 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 데이터 구조와 게임 루프 설계 방식을 배우기에 매우 좋습니다. 장르 특성상 밸런스 조정이 중요하므로, 작은 규모로 시작해 점진적으로 콘텐츠를 늘려가는 방식을 추천합니다.",
+        "source_limitations_ko": "소개문에 언급된 '오픈형 스토리라인'의 구체적인 구현 방식이나 멀티플레이어 협력의 상세 내용은 확인되지 않습니다. 실제 게임 내 결제나 외부 서비스 연동 여부는 알 수 없습니다.",
+        "name": "Last Stronghold: Idle Survival",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.cww.laststronghold&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "google:com.luminousbyte.gpstracker": {
+      "app_key": "google:com.luminousbyte.gpstracker",
+      "name": "GPS 트래커: 위치 공유",
+      "developer": "LuminousByte",
+      "source": "google",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.luminousbyte.gpstracker&hl=ko&gl=KR",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:23:14+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "상호 동의를 통해 신뢰하는 연락처와 내 위치를 공유하세요. 공유는 두 사람이 모두 승인한 후에만 시작됩니다. 공유 중에는 앱에 명확한 안내와 지속 알림이 표시되며, 언제든지 어느 쪽이든 일시 중지하거나 중지할 수 있습니다. ❓ 무엇을 할 수 있나요 • 실시간 위치: 승인된 연락처의 현재 위치를 지도에서 실시간으로 확인. • 친구 목록: 신뢰하는 연락처를 정리하고 온라인/오프라인 상태 보기. • 연락처 추가: QR 코드 스캔, 초대 수락, 또는 ID 추가로 연결. • 존: 집, 직장, 학교 등 장소를 생성. • 존 알림(선택): 설정한 존에 공유한 연락처가 출입할 때 알림 받기. • 주변 검색: Google 지도 기반으로 카페, ATM, 호텔 등 장소 찾기. • 스트리트 뷰: 지원 지역의 거리 수준 이미지를 탐색. ❓ 이용 방법 연결 요청을 보내고 상대가 수락하면 공유를 시작합니다. 세션 단위로 공유할지, 계속 공유할지 선택할 수 있습니다. 존 알림은 존별로 활성화할 수 있으며 알림으로 전송됩니다. 🔐 개인정보 보호와 투명성 • 위치는 본인이 승인한 연락처에게만 공유됩니다. • 연락처를 제거하면 접근 권한이 즉시 종료됩니다. 포그라운드 위치는 앱이 열려 있을 때 지도를 업데이트합니다. 백그라운드 위치는 선택 사항이며, 앱이 닫혀 있어도 공유를 유지하고 존 알림을 지원하기 위해서만 사용됩니다. 앱 또는 시스템 설정에서 언제든지 끌 수 있습니다. 👉 권한 안내 위치(포그라운드), 백그라운드 위치(선택), 카메라(QR 스캔용, 선택), 알림, 네트워크. *투명한 위치 공유와 일정 조율을 위한 앱이며, 숨겨진 추적이나 모니터링 용도가 아닙니다.",
+      "analysis": {
+        "app_key": "google:com.luminousbyte.gpstracker",
+        "summary_ko": "GPS 트래커는 상호 동의를 기반으로 신뢰하는 연락처와 실시간 위치를 공유하는 도구입니다. 지도상에서 친구의 위치를 확인하고, 특정 장소 출입 시 알림을 받을 수 있습니다. 투명한 위치 공유를 지향하며 언제든지 공유를 중지할 수 있습니다.",
+        "features_ko": [
+          "승인된 연락처와 실시간 위치를 지도에서 공유합니다.",
+          "QR 코드, 초대, ID를 통해 신뢰하는 연락처를 추가합니다.",
+          "집, 직장 등 특정 장소를 '존'으로 설정하여 출입 알림을 받습니다.",
+          "Google 지도를 기반으로 주변 장소 검색 및 스트리트 뷰를 제공합니다.",
+          "공유 세션을 관리하고 언제든지 위치 공유를 일시 중지하거나 종료합니다."
+        ],
+        "noteworthy_ko": "위치 정보의 실시간 동기화와 개인정보 보호 정책이 핵심입니다. 위치 데이터의 정확도와 배터리 소모 최적화, 그리고 사용자 간의 동의 프로세스 구현이 기술적으로 중요할 것으로 추정됩니다.",
+        "development_ko": "Google Maps API 연동과 백그라운드 위치 서비스 구현이 핵심입니다. 실시간 데이터 동기화를 위한 소켓 통신 또는 클라우드 DB 연동이 필요하며, 개인정보 보호를 위한 엄격한 권한 관리와 데이터 암호화가 필수적입니다.",
+        "idea_ko": "위치 공유와 함께 '도착 예정 시간'을 자동으로 계산하여 공유하는 기능을 추가하면 실용성이 높아질 것입니다.",
+        "highlights_ko": [
+          "상호 동의 기반의 투명한 위치 공유 모델을 채택하고 있습니다.",
+          "장소 기반 알림(존 알림) 기능을 통해 실생활 활용도를 높였습니다."
+        ],
+        "systems_ko": [
+          "위치 정보 수집 및 전송 시스템",
+          "지도 API 연동 모듈",
+          "사용자 동의 및 권한 관리",
+          "실시간 데이터 동기화(소켓/DB)",
+          "지오펜싱(Geofencing) 알림 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "위치 정보는 민감한 개인정보이므로 보안 구현이 매우 중요하며, 백그라운드 위치 추적 시 배터리 최적화와 기기별 위치 서비스 정책 대응이 매우 까다롭기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "위치 권한 요청",
+            "실시간 위치 전송",
+            "지도 표시 기능",
+            "연락처 연결 기능"
+          ],
+          "defer": [
+            "지오펜싱 알림",
+            "스트리트 뷰 연동"
+          ],
+          "risks": [
+            "위치 데이터 보안 사고",
+            "백그라운드 위치 서비스 제한 문제",
+            "배터리 소모 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "안전 경로 공유",
+            "concept": "위치 공유 시 이동 경로를 분석하여 가장 안전하거나 빠른 경로를 추천합니다.",
+            "first_step": "지도 API를 활용한 경로 탐색 및 공유 기능 구현."
+          },
+          {
+            "title": "위치 기반 체크인",
+            "concept": "특정 장소에 도착했을 때 자동으로 상태 메시지를 공유하는 기능입니다.",
+            "first_step": "지오펜싱 이벤트 발생 시 알림 전송 로직 구현."
+          }
+        ],
+        "recommendation_ko": "위치 기반 서비스(LBS)의 기초와 실시간 데이터 처리 방식을 배우기에 좋습니다. 보안과 개인정보 보호의 중요성을 체감할 수 있는 프로젝트입니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 데이터 암호화 방식, 서버 인프라, 배터리 최적화 전략 등은 확인되지 않습니다.",
+        "name": "GPS 트래커: 위치 공유",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.luminousbyte.gpstracker&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "google:com.coretoolslab.pdfreader.pdfeditor": {
+      "app_key": "google:com.coretoolslab.pdfreader.pdfeditor",
+      "name": "PDF 리더 & PDF 뷰어",
+      "developer": "CoreTools Lab",
+      "source": "google",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.coretoolslab.pdfreader.pdfeditor&hl=ko&gl=KR",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:24:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "이동 중에도 모든 문서를 강력하게 관리하고 싶으신가요? PDF 리더 & PDF 뷰어로 휴대폰에서 바로 PDF 파일을 열고, 편집하고, 변환하고, 정리할 수 있습니다. 빠르고 매끄럽고 편리합니다! 📖 매끄럽고 유연한 읽기 환경 • 번개처럼 빠른 속도로 어떤 PDF든 즉시 열기 • 세로/가로 읽기 모드 간 손쉽게 전환 • 확대/축소해도 텍스트 선명도 유지 • 주간/야간 읽기를 위한 라이트/다크 테마 지원 • 스마트 페이지 컨트롤로 원하는 페이지로 빠르게 이동 🛠️ 고급 편집 및 주석 도구 • 중요 내용 하이라이트, 밑줄, 취소선 표시 • 페이지 위에 직접 메모 추가 또는 자유곡선 그리기 • 텍스트를 즉시 검색하고 복사하여 빠르게 참조 • 학습 복습이 필요한 학생이나 문서 검토가 필요한 전문가에게 이상적 🧰 손쉬운 파일 관리와 변환 • 이름, 날짜, 최근 작업 기준으로 파일 정렬 • 여러 PDF를 하나로 병합하거나 큰 파일을 분할 • 이미지(JPG, PNG)를 몇 초 만에 PDF로 변환 • 파일 이름 변경, 이동, 삭제 간편하게 처리 • 이메일, 클라우드로 공유하거나 기기에서 바로 인쇄 👤 모든 사용자에게 맞춘 설계 • 학생: 교과서에 주석 달기, 필기, 과제 준비 • 직장인: 계약서 검토, 서명, 업무 보고서 관리 • 일반 사용자: 개인 파일을 언제든 깔끔하고 쉽게 접근 가능하게 유지 🌈 PDF 리더 & PDF 뷰어로 할 수 있는 일 ✔️ 초고속 스크롤로 부드럽게 PDF 열람 ✔️ 유연한 도구로 손쉬운 편집 및 주석 작성 ✔️ 사진이나 스캔 이미지를 PDF 형식으로 변환 ✔️ 몇 번의 탭으로 PDF 병합 또는 분할 ✔️ 내장 정리 도구로 파일 체계적으로 관리 ✔️ 휴대폰에서 문서를 즉시 공유하거나 인쇄 ✔️ 눈의 피로를 줄이는 라이트/다크 모드 전환 📘 PDF 리더 & PDF 뷰어는 필요한 모든 PDF 기능을 하나의 간단한 앱에 담았습니다. 📲 언제 어디서나 문서를 깔끔하게 정리해 주는 강력하고 신뢰할 수 있는 PDF 도구를 경험해 보세요.",
+      "analysis": {
+        "app_key": "google:com.coretoolslab.pdfreader.pdfeditor",
+        "summary_ko": "이 앱은 모바일 환경에서 PDF 파일을 열람, 편집, 변환 및 관리할 수 있는 생산성 도구입니다. 사용자는 문서에 주석을 달거나 하이라이트를 표시하고, 여러 파일을 병합하거나 분할할 수 있습니다. 학생과 직장인을 위한 문서 관리 편의성에 초점을 맞추고 있습니다.",
+        "features_ko": [
+          "PDF 파일을 즉시 열람하고 세로/가로 모드로 전환하여 읽을 수 있습니다.",
+          "텍스트 하이라이트, 밑줄, 자유곡선 그리기 등 주석 도구를 제공합니다.",
+          "여러 PDF 파일을 하나로 병합하거나 큰 파일을 분할할 수 있습니다.",
+          "이미지(JPG, PNG) 파일을 PDF 형식으로 변환할 수 있습니다.",
+          "파일 정렬 및 이름 변경 등 체계적인 파일 관리 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "PDF 처리 라이브러리를 활용하여 문서의 렌더링 속도와 편집 도구의 반응성을 최적화하는 것이 핵심입니다. 다양한 파일 형식 변환 기능을 안정적으로 구현하는 것이 개발 관점에서 도전적인 과제입니다.",
+        "development_ko": "PDF 렌더링을 위한 오픈소스 라이브러리(예: PDF.js, Android PDF Renderer) 활용이 필수적입니다. 파일 입출력 및 변환 로직의 안정성을 확보하는 것이 중요하며, 다양한 기기에서의 화면 해상도 대응이 필요합니다. 테스트 시 대용량 파일 처리 성능과 메모리 누수 방지에 집중해야 합니다.",
+        "idea_ko": "문서 내 특정 키워드를 자동으로 인식하여 요약본을 생성하거나, 음성으로 문서를 읽어주는 'AI 기반 문서 요약 및 낭독' 기능을 제안합니다.",
+        "highlights_ko": [
+          "주석 작성 및 편집 도구를 통해 문서 검토 효율을 높였습니다.",
+          "파일 병합/분할 및 이미지 변환 등 실용적인 관리 기능을 갖췄습니다."
+        ],
+        "systems_ko": [
+          "PDF 렌더링 엔진",
+          "파일 시스템 접근 및 관리",
+          "주석 데이터 저장 및 오버레이 시스템",
+          "이미지-PDF 변환 알고리즘",
+          "사용자 설정(다크 모드 등) 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "PDF 파일 포맷의 복잡성으로 인해 렌더링과 편집 기능을 안정적으로 구현하는 데 높은 기술적 숙련도가 요구됩니다. 특히 파일 변환 로직은 예외 처리가 많아 개발 난도가 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "PDF 파일 열람 및 스크롤 기능",
+            "기본적인 주석(하이라이트) 도구",
+            "파일 목록 관리 및 정렬"
+          ],
+          "defer": [
+            "파일 병합 및 분할 기능",
+            "이미지 변환 기능",
+            "클라우드 공유 기능"
+          ],
+          "risks": [
+            "PDF 표준 규격의 파편화로 인한 렌더링 오류",
+            "대용량 파일 처리 시 앱 강제 종료(OOM)"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "학습용 PDF 퀴즈 생성기",
+            "concept": "PDF 문서의 텍스트를 분석하여 자동으로 퀴즈를 생성하고, 사용자가 직접 답을 입력하며 학습할 수 있는 도구입니다.",
+            "first_step": "PDF에서 텍스트를 추출하여 간단한 객관식 문제를 만드는 로직을 구현합니다."
+          },
+          {
+            "title": "문서 서명 자동화 도구",
+            "concept": "자주 사용하는 서명 이미지를 PDF 특정 위치에 빠르게 삽입하고 관리하는 서명 전용 도구입니다.",
+            "first_step": "PDF 위에 이미지 레이어를 얹고 위치를 조정하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "문서 처리 라이브러리 활용법과 파일 시스템 제어를 배우기에 좋은 프로젝트입니다. 다만, PDF 표준이 복잡하므로 검증된 라이브러리를 사용하는 것을 강력히 추천합니다.",
+        "source_limitations_ko": "소개문에는 보안 기능(암호화, 권한 설정)이나 클라우드 연동 방식에 대한 구체적인 정보가 없습니다. 의료나 금융 등 민감한 문서 처리를 위한 보안 기능은 명시되지 않았으므로 구현하지 마세요.",
+        "name": "PDF 리더 & PDF 뷰어",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.coretoolslab.pdfreader.pdfeditor&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 93,
+        "reasons": [],
+        "best_rank": 4,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "google:com.tree.hybrid.catslife": {
+      "app_key": "google:com.tree.hybrid.catslife",
+      "name": "고양이 라이프 : 귀여운 시뮬레이션 게임",
+      "developer": "NEPTUNE(TREEPLLA)",
+      "source": "google",
+      "country": "KR",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.tree.hybrid.catslife&hl=ko&gl=KR",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:25:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "🐾 고양이는 어떤 삶을 보낼까요? 고양이가 되어 이 귀여운 방치형 게임에서 직접 경험해봐요! 아기 고양이부터 노년의 고양이까지 - 귀여운 고양이들만 존재하는 세계에서 당신만의 특별한 고양이 인생, 묘생을 설계할 수 있다냥. 성장 과정에서 직업을 선택하고, 사랑을 찾고, 수많은 사건과 이벤트를 경험하며 잊지 못할 추억을 만들어보자냥. 매일 새로운 선택이 기다리고 있다냥! 🐾 인생의 선택 아기 고양이부터 성장, 직업, 연애, 행복까지! 선택에 따라 완전히 다른 묘생이 펼쳐집니다. 🎓 다양한 직업군 원하는 길을 걸어보세요! 직업마다 새로운 사건과 특별한 이야기가 기다립니다. 🌟 특별한 선택지 어떤 선택을 하느냐에 따라 묘생이 달라집니다! 흥미진진한 경험을 즐겨보세요. 😻 귀여운 고양이 세계 인간이 없는 세상, 오직 고양이들만의 특별한 스토리를 확인하세요. 🛜 자유로운 플레이 언제 어디서든! 인터넷에 연결되어 있지 않아도 가볍게 플레이하세요. 때로는 사랑을 선택하고, 때로는 대의를 선택하며, 때로는 우연한 사건이 새로운 길을 열어줄 수도 있습니다. 당신의 선택 하나가 고양이의 삶을 완전히 바꿀 수 있습니다! 지금 바로 고양이 라이프 : 귀여운 시뮬레이션 게임을 다운로드하고, 나만의 특별한 고양이 이야기를 시작하세요! ----- 단말기 앱 접근 권한 안내 선택적 권한은 동의하지 않으셔도 게임 이용이 가능하며, 접근 권한 동의 후 접근 권한을 재설정하거나 철회할 수 있습니다. [필수 접근 권한] - 저장 공간 : 게임의 상태와 진행 정보를 저장하기 위한 권한입니다. [선택 접근 권한] - 알림 : 게임 내 정보와 관련된 푸시 알림을 수신하기 위한 권한입니다. - 근처 기기 : 기기의 네트워크 연결 상태를 확인하기 위한 권한입니다. - 위치 : 대략적인 위치 데이터를 기반으로 지역 맞춤형 콘텐츠나 광고를 제공하기 위한 권한입니다. - 전화 : 사용자의 통화 상태를 확인하여 게임의 진행 상태를 제어하기 위한 권한입니다. [접근 권한 철회 방법] 안드로이드 6.0 이상 버전 - 접근 권한별 철회 방법 : 단말기 설정 > 개인정보 보호 선택 > 권한 관리자 선택 > 해당 접근 권한 선택 > 해당 앱 선택 > 접근 권한 동의 또는 철회 선택 - 앱별 철회 방법 : 단말기 설정 > 앱 > 해당 앱 선택 > 권한 선택 > 접근 권한 동의 또는 철회 선택 ----- 📩 문의 메일: support@neptunecompany.kr 📄 이용약관: https://neptunecompany.kr/gameterms 🔒 개인정보 보호정책: https://neptunecompany.kr/gameprivacy ---- 개발자 연락처 : 주식회사 넵튠 강남구 언주로 428 강남구, 서울특별시 06210 South Korea 8068800032 제2025-서울강남-02087호 강남구청",
+      "analysis": {
+        "app_key": "google:com.tree.hybrid.catslife",
+        "summary_ko": "고양이의 생애를 시뮬레이션하는 방치형 게임입니다. 아기 고양이부터 노년까지 성장하며 직업 선택, 연애, 사건 해결 등 다양한 선택을 통해 고양이의 삶을 설계합니다. 인간이 없는 고양이만의 세계관에서 플레이어의 선택에 따라 변화하는 묘생을 경험할 수 있습니다.",
+        "features_ko": [
+          "아기 고양이부터 노년까지 이어지는 생애 주기 시스템을 제공합니다.",
+          "성장 과정에서 직업을 선택하고 그에 따른 특별한 사건을 경험합니다.",
+          "플레이어의 선택에 따라 고양이의 인생 경로가 달라지는 분기 시스템이 있습니다.",
+          "인터넷 연결 없이 오프라인에서도 플레이가 가능합니다.",
+          "고양이들만의 세계관을 바탕으로 한 다양한 스토리 이벤트를 포함합니다."
+        ],
+        "noteworthy_ko": "텍스트 기반의 선택지와 방치형 성장 요소를 결합하여 개발 부담을 줄이면서도 서사적 재미를 극대화한 구조입니다. 1인 개발 시 방대한 스토리 분기를 데이터화하여 관리하는 방식이 핵심적인 개발 포인트가 될 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 선택지에 따른 상태 변화를 관리하는 데이터베이스 설계입니다. 콘텐츠 제작 부담은 텍스트와 이벤트 시나리오 작성에 집중되며, 밸런스 측면에서는 선택지의 결과가 게임 진행에 미치는 영향력을 적절히 배분하는 것이 중요합니다.",
+        "idea_ko": "특정 직업을 가졌을 때만 해금되는 '고양이만의 비밀 퀘스트' 시스템을 추가하여 다회차 플레이를 유도하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "인간이 배제된 고양이 중심의 세계관을 통해 독특한 몰입감을 제공합니다.",
+          "성장과 선택이라는 고전적인 시뮬레이션 요소를 방치형 게임에 성공적으로 녹여냈습니다."
+        ],
+        "systems_ko": [
+          "생애 주기 및 상태 관리 시스템",
+          "이벤트 분기 및 선택지 데이터 관리",
+          "직업 및 능력치 성장 시스템",
+          "UI 기반의 텍스트 출력 시스템",
+          "세이브/로드 데이터 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "그래픽 리소스보다 텍스트와 데이터 구조 설계가 중심이므로 기술적 난이도는 낮으나, 방대한 시나리오와 분기를 일관성 있게 관리하는 기획적 노력이 필요하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 생애 주기 흐름",
+            "선택지 UI 및 결과 반영 로직",
+            "능력치 저장 시스템"
+          ],
+          "defer": [
+            "복잡한 그래픽 애니메이션",
+            "다양한 직업군별 특수 이벤트"
+          ],
+          "risks": [
+            "선택지 결과의 반복으로 인한 지루함",
+            "데이터 관리 복잡도 증가"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "고양이 가문 계보",
+            "concept": "한 고양이의 생애가 끝나면 그 자손이 다음 세대를 이어받아 가문을 형성하는 시스템입니다. 이전 세대의 선택이 다음 세대의 능력치에 영향을 줍니다.",
+            "first_step": "부모 고양이의 데이터를 저장하고 자식 고양이 생성 시 이를 상속하는 로직 구현."
+          },
+          {
+            "title": "묘생 일기장",
+            "concept": "플레이한 고양이의 주요 사건을 자동으로 일기 형식으로 기록하여 나중에 다시 읽어볼 수 있는 도감 시스템입니다.",
+            "first_step": "게임 내 주요 이벤트 발생 시 텍스트를 리스트에 저장하고 출력하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "텍스트 기반의 시뮬레이션 게임을 기획하고 있다면 데이터 구조 설계와 서사 관리 능력을 기르기에 매우 좋은 모델입니다. 방치형 게임의 기본 구조를 배우고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 이벤트 데이터의 양이나 능력치 계산 공식에 대한 정보가 없습니다. 필수 권한으로 명시된 위치 정보나 근처 기기 확인 기능은 실제 게임 플레이와 어떻게 연동되는지 확인되지 않았으므로 구현 시 주의가 필요합니다.",
+        "name": "고양이 라이프 : 귀여운 시뮬레이션 게임",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.tree.hybrid.catslife&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 63,
+        "reasons": [],
+        "best_rank": 14,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
     }
   }
 }

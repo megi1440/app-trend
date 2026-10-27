@@ -7438,6 +7438,368 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-27"
+    },
+    "google:com.blizzard.diablo.immortal": {
+      "app_key": "google:com.blizzard.diablo.immortal",
+      "name": "ディアブロ イモータル",
+      "developer": "Blizzard Entertainment, Inc.",
+      "source": "google",
+      "country": "JP",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.blizzard.diablo.immortal&hl=ja&gl=JP",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:14:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "地獄を指揮し、戦いを支配しろ。 Blizzardの「ディアブロ」の世界で繰り広げられる、基本プレイ無料MMORPG「ディアブロ イモータル」の最新クラス「ウォーロック」の力を解き放て。 禁術を操り、闇の契約を結び、常に加勢してくれる使い魔の悪魔「魂喰らい」と共に戦おう。召喚時間なし、クールダウン時間もなし。ソロでもクランでも、ひたすら敵にプレッシャーを与え続けて戦場を支配する。 味方の配置を極め、戦場を支配し、戦いの流れを決定しろ。ウォーロックは単なる新クラスではなく、サンクチュアリを勝ち取る新たな手段だ。 10種のユニークなクラスで道を切り開け それぞれ固有のアビリティ、戦闘スタイル、ビルドを楽しめる10種のクラスから選択してプレイしよう： バーバリアン、ブラッド・ナイト、クルセイダー、デーモン・ハンター、ドルイド、モンク、ネクロマンサー、テンペスト、ウィザード、そして強力なウォーロック。 キャラクターのスキル、装備、プレイスタイルをカスタマイズすることで、テンポの早い戦闘や遠距離からの高火力、そして戦略的に戦場を支配するようなビルドを作ることができる。 ダークファンタジーアクションMMORPG かつて平和を享受していたサンクチュアリは、天使と悪魔による「永劫の戦い」によって引き裂かれた。プレイヤーは人類最後の希望となり、他のプレイヤーと共に危険、悪魔、そして伝説的な報酬が溢れかえるオープンワールドで冒険する。 「ディアブロ イモータル」はハイスピードな戦闘、奥深い成長システム、ダークファンタジーの物語を楽しめる、モバイルおよびPCに最適されたアクションRPGだ。 いつでも、どこでも戦える • 応答速度が早い、リアルタイムアクションRPG戦闘システム • ソロプレイ、協力プレイのダンジョン、レイド、PvPアリーナ • モバイルとPCでシームレスなクロスプラットフォームプレイ 進化を続ける生き生きとした世界 サンクチュアリは停滞することはない。 • 頻繁にストーリーの新章や機能を配信 • 巨大なワールドボス、イベント、シーズンごとのチャレンジ • 「ディアブロ」の世界観に根差した象徴的な環境 共に戦えるMMORPG • 小規模な協力プレイを楽しめる固定チーム • 報酬の獲得やランキング制覇に挑むためのクラン • ダンジョンに挑み、戦利品を取引し、他のプレイヤーと戦える 自らの選択によって、伝説を切り拓け。 Blizzardに鍛えられし作品 AAA級の制作チーム、頻繁なアップデート、そして無限大の遊び方を誇る「ディアブロ イモータル」は、「ディアブロ」ファンにとって、究極のモバイルMMORPGだ。 サンクチュアリを巡る戦いは幕を開けた。今すぐダウンロードして伝説となれ。 ゲーム内課金（ランダムアイテムを含む） ©2026 BLIZZARD ENTERTAINMENT, INC.AND NETEASE, INC.ALL RIGHTS RESERVED. DIABLO IMMORTAL、DIABLO、BATTLE.NET、THE BATTLE.NETのロゴ、BLIZZARD ENTERTAINMENTはBLIZZARD ENTERTAINMENT, INCの商標または登録商標です。",
+      "analysis": {
+        "app_key": "google:com.blizzard.diablo.immortal",
+        "summary_ko": "Blizzard의 디아블로 세계관을 기반으로 한 모바일 및 PC 크로스 플랫폼 MMORPG입니다. 10종의 클래스를 선택하여 오픈 월드에서 악마와 싸우며 성장하고, 클랜과 협력하여 전장을 지배하는 게임입니다.",
+        "features_ko": [
+          "10종의 고유 클래스별 스킬과 전투 스타일 제공.",
+          "실시간 액션 RPG 전투 시스템.",
+          "솔로 플레이, 던전, 레이드, PvP 아레나 지원.",
+          "모바일과 PC 간의 심리스한 크로스 플랫폼 플레이.",
+          "클랜 시스템을 통한 협력 및 경쟁 콘텐츠."
+        ],
+        "noteworthy_ko": "AAA급 MMORPG의 방대한 시스템을 1인이 구현하는 것은 불가능합니다. 다만, 특정 클래스의 스킬 메커니즘이나 전투 루프를 벤치마킹하여 소규모 액션 게임으로 축소 구현하는 것은 학습 가치가 높습니다.",
+        "development_ko": "서버-클라이언트 동기화, 대규모 데이터 관리, 복잡한 스킬 밸런싱이 핵심입니다. 1인 개발 시에는 네트워크 요소를 배제하고 단일 클래스의 전투 메커니즘을 완성하는 데 집중해야 합니다.",
+        "idea_ko": "특정 클래스의 스킬 조합을 극대화한 로그라이크 액션 게임으로 변형하여 개발할 수 있습니다.",
+        "highlights_ko": [
+          "다양한 클래스와 빌드 커스터마이징을 통한 전략적 전투.",
+          "지속적인 업데이트와 시즌제 콘텐츠 운영."
+        ],
+        "systems_ko": [
+          "캐릭터 성장 및 스킬 시스템",
+          "실시간 전투 판정 시스템",
+          "아이템 파밍 및 인벤토리 관리",
+          "UI/UX 인터페이스",
+          "몬스터 AI 및 패턴 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "MMORPG는 시스템의 복잡도가 매우 높습니다. 1인 개발 시 전체 복제는 불가능하며, 핵심 전투 메커니즘만 추출하여 구현하는 것도 상당한 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이동 및 공격",
+            "스킬 쿨타임 시스템",
+            "몬스터 AI"
+          ],
+          "defer": [
+            "네트워크 멀티플레이",
+            "클랜 시스템",
+            "방대한 오픈 월드"
+          ],
+          "risks": [
+            "밸런스 조절 실패",
+            "기술적 구현 복잡도",
+            "콘텐츠 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "클래스 스킬 로그라이크",
+            "concept": "디아블로의 스킬 시스템을 차용하여 매번 다른 스킬을 조합해 던전을 돌파합니다.",
+            "first_step": "스킬 3종과 몬스터 1종이 등장하는 전투 프로토타입 제작."
+          },
+          {
+            "title": "던전 디펜스",
+            "concept": "몰려오는 악마를 특정 클래스의 스킬로 방어하는 디펜스 게임입니다.",
+            "first_step": "웨이브 시스템과 스킬 범위 공격 판정 구현."
+          }
+        ],
+        "recommendation_ko": "복잡한 시스템의 구조를 분석하고, 액션 RPG의 전투 쾌감을 구현하는 법을 배우기에 좋습니다. 다만, 규모가 너무 크므로 핵심 메커니즘만 학습용으로 활용하세요.",
+        "source_limitations_ko": "게임 내 상세 수치, 서버 구조, 결제 시스템의 세부 사항 등은 외부에서 확인할 수 없습니다.",
+        "name": "ディアブロ イモータル",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.blizzard.diablo.immortal&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 345,
+        "reasons": [
+          "multi_country",
+          "newly_seen"
+        ],
+        "best_rank": 15,
+        "countries": [
+          "JP",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "itch:076f48634e05fa11255c": {
+      "app_key": "itch:076f48634e05fa11255c",
+      "name": "Printcremental [25% Off] [$2.99] [Simulation] [Windows] [macOS]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://halogamesofficial.itch.io/printcremental",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:16:06+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Print the Library of Babel before a virus eats the last copy.",
+      "analysis": {
+        "app_key": "itch:076f48634e05fa11255c",
+        "summary_ko": "바이러스로부터 바벨의 도서관을 지키기 위해 인쇄를 수행하는 방치형 게임입니다.",
+        "features_ko": [
+          "인쇄를 통해 데이터를 기록하는 방치형 게임 규칙을 따릅니다.",
+          "바이러스의 위협으로부터 도서관을 보호하는 목표를 가집니다."
+        ],
+        "noteworthy_ko": "매우 짧은 설명으로 보아 단순한 클릭커나 방치형 메커니즘을 기반으로 한 실험적 게임으로 추정됩니다. '바벨의 도서관'이라는 문학적 소재를 게임화한 점이 흥미롭습니다.",
+        "development_ko": "방치형 게임은 수치 증가 로직과 UI 업데이트가 핵심입니다. 1인 개발 시 게임의 테마를 살리는 아트워크와 사운드 연출이 중요하며, 밸런스 테스트를 통해 성장의 재미를 확보해야 합니다.",
+        "idea_ko": "인쇄된 텍스트가 실제 의미 있는 문장으로 조합되는 퍼즐 요소를 결합하는 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "바벨의 도서관이라는 독특한 소재를 사용합니다.",
+          "바이러스라는 위협 요소를 통해 긴장감을 부여합니다."
+        ],
+        "systems_ko": [
+          "데이터 자동 증가 시스템",
+          "진행 상황 저장 시스템",
+          "UI 상태 관리",
+          "이벤트 트리거 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "방치형 게임은 핵심 로직이 단순하여 1인 개발로 구현하기에 적합합니다. 복잡한 물리 엔진이나 네트워크가 필요하지 않아 입문용으로 좋습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "인쇄 버튼 및 자동 인쇄 로직",
+            "진행도 표시 UI",
+            "게임 저장 기능"
+          ],
+          "defer": [
+            "복잡한 스토리 텔링",
+            "멀티플레이어 요소",
+            "화려한 그래픽 효과"
+          ],
+          "risks": [
+            "단순 반복으로 인한 지루함",
+            "콘텐츠 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "텍스트 조합 인쇄기",
+            "concept": "인쇄된 글자들을 조합하여 의미 있는 단어를 완성하면 보너스를 얻는 방식입니다. 단순 인쇄를 넘어 언어적 재미를 추가합니다.",
+            "first_step": "글자 생성 및 조합 확인 로직 구현."
+          },
+          {
+            "title": "바이러스 방어 타워",
+            "concept": "인쇄된 데이터가 바이러스에 오염되지 않도록 방어하는 타워 디펜스 요소를 추가합니다. 인쇄물 자체가 방어 수단이 됩니다.",
+            "first_step": "데이터가 바이러스에 의해 감소하는 로직과 방어 버튼 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 기본 구조와 데이터 관리 방식을 배우기에 매우 좋은 프로젝트입니다. 핵심 메커니즘을 작게 시작하여 점진적으로 확장하는 연습을 하기에 적합합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 게임의 구체적인 규칙, 승리 조건, 바이러스의 동작 방식 등을 확인할 수 없습니다. 추가적인 기능 구현은 추측에 의존해야 합니다.",
+        "name": "Printcremental [25% Off] [$2.99] [Simulation] [Windows] [macOS]",
+        "source": "itch",
+        "detail_url": "https://halogamesofficial.itch.io/printcremental",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 227,
+        "reasons": [
+          "indie_discovery"
+        ],
+        "best_rank": 6,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "apple:1560262136": {
+      "app_key": "apple:1560262136",
+      "name": "멕시카나치킨",
+      "developer": "SPONGE Inc.",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_lifestyle",
+      "detail_url": "https://apps.apple.com/kr/app/%EB%A9%95%EC%8B%9C%EC%B9%B4%EB%82%98%EC%B9%98%ED%82%A8/id1560262136?uo=2",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:22:04+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "언제 어디서나, 멕시카나치킨의 공식 모바일 앱입니다. 먹을수록 입이 즐거운 맛! 멕시카나의 차별화된 메뉴를 멕시카나 앱을 통해 경험해보세요. ■ 주요 기능 #1 매장 위치 찾기부터 주문까지 한 번에! 가장 가까운 매장을 설정해여 주문이 가능합니다. E쿠폰을 등록해 편리하게 사용할 수 있습니다. #2 쿠폰함에서 할인권, 메뉴 증정권 등 사용 내역 확인이 가능합니다. #주문 시 발급되는 스탬프를 특정 개수 이상 적립 시 사이드 메뉴 or 치킨 한마리를 드립니다. (~2021년 12월 31일 주문 건에 해당) 지금 바로 멕시카나 앱에서 간편하고 합리적인 가격에 치킨을 즐겨보세요! ▶ 고객센터 : 050-7600-9999",
+      "analysis": {
+        "app_key": "apple:1560262136",
+        "summary_ko": "멕시카나치킨 공식 모바일 앱은 매장 위치 찾기, 메뉴 주문, 쿠폰 사용 기능을 제공합니다. 사용자는 앱을 통해 편리하게 주문하고 스탬프 적립 등 혜택을 확인할 수 있습니다.",
+        "features_ko": [
+          "현재 위치 기반으로 가장 가까운 매장을 설정하여 주문할 수 있습니다.",
+          "E쿠폰을 등록하여 결제 시 편리하게 사용할 수 있습니다.",
+          "쿠폰함에서 할인권 및 메뉴 증정권 사용 내역을 관리합니다.",
+          "주문 시 발급되는 스탬프를 적립하여 보상을 받을 수 있습니다."
+        ],
+        "noteworthy_ko": "프랜차이즈 브랜드의 O2O(Online to Offline) 서비스로, 사용자 경험의 핵심은 주문 프로세스의 간소화입니다. 결제 및 매장 연동 시스템이 앱의 핵심 가치입니다.",
+        "development_ko": "백엔드 서버와의 실시간 주문 데이터 연동이 가장 중요합니다. 매장 위치 정보와 사용자 위치를 매칭하는 지도 API 활용이 필요합니다. 결제 모듈 연동 시 보안과 정확한 데이터 처리가 필수적입니다.",
+        "idea_ko": "주문 내역을 기반으로 사용자의 취향을 분석하여 메뉴를 추천하는 개인화 큐레이션 기능을 제안합니다.",
+        "highlights_ko": [
+          "매장 찾기부터 주문까지 이어지는 통합 주문 프로세스를 제공합니다.",
+          "쿠폰 및 스탬프 등 고객 충성도 관리 시스템이 포함되어 있습니다."
+        ],
+        "systems_ko": [
+          "사용자 인증 및 프로필 관리",
+          "매장 위치 기반 검색 및 지도 API 연동",
+          "주문 및 결제 처리 시스템",
+          "쿠폰 및 스탬프 데이터 관리",
+          "푸시 알림 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기능 자체는 일반적인 커머스 앱과 유사하여 구현 난이도가 높지 않습니다. 다만, 외부 결제 시스템 및 매장 POS 시스템과의 연동은 전문적인 보안 지식이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "메뉴 리스트 조회",
+            "장바구니 및 주문 기능",
+            "매장 선택 기능"
+          ],
+          "defer": [
+            "스탬프 적립 시스템",
+            "실시간 배달 위치 추적",
+            "개인화 추천 알고리즘"
+          ],
+          "risks": [
+            "결제 모듈 연동 오류",
+            "매장 데이터 최신화 지연"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "메뉴 랜덤 룰렛",
+            "concept": "결정 장애를 겪는 사용자를 위해 메뉴를 랜덤으로 추천하고 즉시 주문으로 연결합니다.",
+            "first_step": "메뉴 데이터를 배열로 저장하고 랜덤 인덱스를 추출하는 로직 구현."
+          },
+          {
+            "title": "주문 기록 다이어리",
+            "concept": "과거에 주문했던 메뉴를 날짜별로 기록하고 간단한 별점을 남길 수 있는 개인 주문 기록장입니다.",
+            "first_step": "로컬 데이터베이스에 주문 내역을 저장하고 리스트로 출력하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "커머스 앱의 기본적인 데이터 흐름과 API 연동 방식을 배우기에 적합합니다. 실제 서비스 운영을 위해서는 보안 및 결제 관련 법적 규제 검토가 필수적이므로 학습용으로만 추천합니다.",
+        "source_limitations_ko": "소개문에는 결제 시스템의 구체적인 방식, 매장 POS 연동 기술, 개인정보 처리 방식에 대한 상세 정보가 없습니다. 의료, 금융, 보안 관련 기능은 명시되지 않았으므로 구현 대상에서 제외해야 합니다.",
+        "name": "멕시카나치킨",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EB%A9%95%EC%8B%9C%EC%B9%B4%EB%82%98%EC%B9%98%ED%82%A8/id1560262136?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "google:com.kitkagames.fallbuddies": {
+      "app_key": "google:com.kitkagames.fallbuddies",
+      "name": "Stumble Guys",
+      "developer": "Scopely",
+      "source": "google",
+      "country": "US",
+      "category": "game_action",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.kitkagames.fallbuddies&hl=en&gl=US",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:26:29+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Grab your friends and play Stumble Guys, the fun free-to-play multiplayer party royale game! Compete in fast-paced knockout games with up to 32 players and race through cool obstacle courses and chaotic elimination full of action. Play now and become the last player standing in Stumble Guys, the ultimate online multiplayer party game experience! 💥 JOIN THE 32-PLAYER ONLINE MULTIPLAYER MADNESS Call your friends to battle and race in fun knockout games full of action! Dodge giant snowballs, jump over lasers, and make sure to dash through all games — but don’t fall or clash! 🌍 EXPLORE 60+ EPIC MAPS FOR ENDLESS FUN Dash through obstacle courses, jump over crazy traps, and play against your friends and other players - every map brings a new set of thrilling action games and surprises! 🏁 PLAY TOURNAMENTS & CLIMB THE RANKED LEADERBOARD Run, clash, kick, and fall to survive in competitive battle games, collect points to climb the Ranked leaderboard, and unlock cool rewards! 🎨 CUSTOMIZE YOUR STUMBLER Unlock and collect thousands of skins, emotes, and more for free! Become a ninja, superhero, or even a chicken - you craft your very own look to win these cool multiplayer games in style! 🔥 LIMITED-TIME EVENTS & EPIC CROSSOVER COLLABS! Jump into special events featuring the best game modes like Floor is Lava and Banana Bonanza, or expand your collection with legendary stumblers from SpongeBob, My Hero Academia, and more. 📱 CROSS-PLAY ON STEAM & MOBILE! Play Stumble Guys with your friends on mobile and Steam for free! Join battles anytime, anywhere, in this fun, cross-platform online action multiplayer party game. Ready to stumble and brawl with your friends? Download Stumble Guys now on mobile and play the fun multiplayer knockout game for free!",
+      "analysis": {
+        "app_key": "google:com.kitkagames.fallbuddies",
+        "summary_ko": "Stumble Guys는 최대 32명의 플레이어가 참여하여 장애물 코스를 통과하고 최후의 1인이 되기 위해 경쟁하는 멀티플레이 파티 게임입니다. 다양한 맵에서 점프, 달리기, 밀치기 등의 액션을 통해 탈락을 피해야 합니다. 캐릭터 커스터마이징과 시즌별 이벤트, 크로스 플랫폼 플레이를 지원합니다.",
+        "features_ko": [
+          "최대 32명이 동시에 참여하는 실시간 멀티플레이 경쟁을 제공합니다.",
+          "60개 이상의 다양한 맵에서 장애물을 피하고 결승선에 도달하는 규칙을 가집니다.",
+          "캐릭터의 외형을 변경할 수 있는 다양한 스킨과 이모트 시스템이 있습니다.",
+          "랭킹 시스템과 토너먼트를 통해 경쟁적인 플레이 환경을 제공합니다.",
+          "모바일과 PC 간의 크로스 플랫폼 플레이를 지원합니다."
+        ],
+        "noteworthy_ko": "물리 기반의 캐릭터 움직임이 예측 불가능한 상황을 만들어내어 파티 게임 특유의 재미를 유발합니다. 탈락형 서바이벌 구조는 짧은 시간 내에 긴장감을 조성하며, 다양한 맵과 이벤트 업데이트를 통해 지속적인 플레이 동기를 제공합니다.",
+        "development_ko": "다수의 플레이어를 동기화하는 네트워크 최적화가 가장 큰 기술적 난제입니다. 물리 연산이 포함된 캐릭터 움직임의 동기화는 지연 시간 문제에 민감하므로 서버 측 검증과 클라이언트 예측 기술이 필수적입니다. 맵 디자인과 장애물 패턴 설계 등 콘텐츠 제작 부담이 크며, 밸런스 조정이 게임의 재미를 결정합니다.",
+        "idea_ko": "특정 장애물 하나만을 집중적으로 공략하는 '장애물 타임어택' 모드가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "물리 기반의 캐릭터 조작이 주는 예측 불가능한 재미가 게임의 핵심입니다.",
+          "탈락형 서바이벌 규칙을 통해 짧은 시간 안에 강렬한 경쟁 경험을 제공합니다."
+        ],
+        "systems_ko": [
+          "실시간 멀티플레이 동기화 시스템",
+          "물리 기반 캐릭터 컨트롤러",
+          "장애물 및 맵 상호작용 시스템",
+          "매치메이킹 및 로비 관리 시스템",
+          "데이터 기반 스킨 및 보상 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다수의 플레이어가 동시에 상호작용하는 멀티플레이 게임은 서버 인프라와 네트워크 동기화 기술이 매우 중요합니다. 1인 개발자가 안정적인 멀티플레이 환경을 구축하는 것은 매우 어렵기 때문에, 로컬 멀티플레이나 AI 기반의 싱글 플레이로 축소하여 구현하는 것이 현실적입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 캐릭터 이동 및 점프",
+            "장애물 상호작용 로직",
+            "결승선 도달 판정 시스템"
+          ],
+          "defer": [
+            "32인 실시간 멀티플레이",
+            "복잡한 스킨 상점 및 결제 시스템",
+            "크로스 플랫폼 연동"
+          ],
+          "risks": [
+            "물리 엔진의 비결정론적 특성으로 인한 동기화 오류",
+            "네트워크 지연으로 인한 플레이 경험 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "장애물 회피 챌린지",
+            "concept": "멀티플레이 없이 혼자서 점점 빨라지는 장애물 코스를 통과하는 타임어택 게임입니다.",
+            "first_step": "캐릭터 컨트롤러를 만들고 장애물과 충돌 시 리스폰되는 로직을 구현합니다."
+          },
+          {
+            "title": "물리 퍼즐 레이스",
+            "concept": "장애물을 통과하는 것이 아니라, 물리 오브젝트를 조작하여 길을 만들어 결승선에 도달하는 퍼즐 레이스입니다.",
+            "first_step": "물리 오브젝트를 밀거나 당겨서 길을 만드는 상호작용을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "물리 기반의 캐릭터 컨트롤과 레벨 디자인의 기초를 배우기에 좋습니다. 멀티플레이의 복잡함을 제외하고 싱글 플레이 위주로 구현한다면 게임 개발의 핵심 재미를 충분히 경험할 수 있습니다.",
+        "source_limitations_ko": "소개문에는 서버 아키텍처나 물리 엔진의 구체적인 설정에 대한 정보가 없습니다. 결제, 광고, 외부 서비스 연동 기능은 명시되지 않았으므로 개발 시 제외해야 합니다.",
+        "name": "Stumble Guys",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.kitkagames.fallbuddies&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
     }
   }
 }

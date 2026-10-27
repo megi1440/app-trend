@@ -6976,6 +6976,445 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-27"
+    },
+    "itch:7d4bf6994ae2d8b3c664": {
+      "app_key": "itch:7d4bf6994ae2d8b3c664",
+      "name": "Rage Quit [Free] [Action] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://thefox-ctrl.itch.io/rage-quit",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:14:46+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "You are the bot, and your mission is to make the player RAGEQUIT!!!",
+      "analysis": {
+        "app_key": "itch:7d4bf6994ae2d8b3c664",
+        "summary_ko": "플레이어의 분노를 유발하여 게임을 종료하게 만드는 것을 목표로 하는 액션 게임입니다. 플레이어는 봇의 방해를 뚫고 게임을 지속해야 합니다.",
+        "features_ko": [
+          "플레이어의 게임 플레이를 방해하는 봇 역할 수행"
+        ],
+        "noteworthy_ko": "플레이어의 심리적 반응을 유도하는 역발상적 게임 디자인이 흥미롭습니다. 봇의 방해 패턴이 얼마나 정교하게 설계되었는지가 게임의 핵심 재미 요소로 추정됩니다.",
+        "development_ko": "핵심 기술은 플레이어의 행동을 예측하거나 방해하는 AI 로직 구현입니다. 콘텐츠 제작은 방해 요소의 다양성에 집중해야 하며, 밸런스 조정 시 플레이어가 좌절감을 느끼되 포기하지 않도록 세밀한 난이도 설정이 필요합니다.",
+        "idea_ko": "플레이어의 입력값을 실시간으로 방해하는 '입력 반전' 시스템을 시제품으로 구현하는 것을 추천합니다.",
+        "highlights_ko": [
+          "플레이어의 분노 유발이라는 독특한 승리 조건",
+          "봇과 플레이어 간의 대립 구조"
+        ],
+        "systems_ko": [
+          "입력 제어 시스템",
+          "게임 상태 관리",
+          "난이도 조절 알고리즘"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "게임의 메커니즘은 단순하지만, 플레이어의 감정을 자극하는 적절한 방해 요소의 타이밍을 맞추는 것이 핵심입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 방해 로직",
+            "게임 오버 조건"
+          ],
+          "defer": [
+            "멀티플레이어 기능",
+            "다양한 스테이지"
+          ],
+          "risks": [
+            "지나친 방해로 인한 플레이어의 불쾌감 유발"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "입력 방해 챌린지",
+            "concept": "플레이어가 특정 키를 누를 때마다 화면의 버튼 위치를 바꾸거나 입력을 반전시킵니다. 플레이어의 당혹감을 유도하는 것이 목표입니다.",
+            "first_step": "키 입력 시 버튼 위치를 무작위로 이동시키는 간단한 UI 프로토타입 제작."
+          },
+          {
+            "title": "심리전 봇",
+            "concept": "플레이어의 행동 패턴을 학습하여 가장 짜증 나는 타이밍에 방해 요소를 생성합니다.",
+            "first_step": "플레이어의 클릭 빈도를 측정하여 방해 요소를 생성하는 간단한 스크립트 작성."
+          }
+        ],
+        "recommendation_ko": "플레이어의 심리를 이용한 게임 디자인을 배우기에 적합합니다. 단순한 조작이 어떻게 큰 감정적 반응을 이끌어내는지 실험해 볼 수 있습니다.",
+        "source_limitations_ko": "제공된 설명이 매우 짧아 구체적인 게임 방식, 방해 요소의 종류, 승리 조건의 상세 메커니즘을 확인할 수 없습니다.",
+        "name": "Rage Quit [Free] [Action] [Windows]",
+        "source": "itch",
+        "detail_url": "https://thefox-ctrl.itch.io/rage-quit",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 338,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 14,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "google:com.robtopx.geometrydashmeltdown": {
+      "app_key": "google:com.robtopx.geometrydashmeltdown",
+      "name": "Geometry Dash Meltdown",
+      "developer": "RobTop Games",
+      "source": "google",
+      "country": "KR",
+      "category": "game_arcade",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.robtopx.geometrydashmeltdown&hl=ko&gl=KR",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:15:06+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "생각했던 것보다 더 많은 스파이크와 괴물로 가득 찬 새로운 형상 대시 모험을 준비! 당신이 뛰어, 당신의 르 달아주세요 손가락 플렉스 비행 어두운 동굴과 뾰족한 장애물을 통해 귀하의 방법을 뒤집습니다. 게임 특징 • 액션 플랫을 리듬 기반! • F-777에서 음악과 함께 세 가지 독특한 레벨! • 당신의 성격을 사용자 정의 할 수있는 고유의 붕괴 아이콘과 색상을 잠금 해제! • 로켓, 플립 중력과 훨씬 더 플라이! • 기술을 선명하게하는 연습 모드를 사용합니다! • 가까운 불가능 자신을 도전! 형상 대시는 노년 질문에 대한 답 : \"당신은 테크노, 덥 스텝, 스파이크와 무지개를 혼합 할 때 무엇을 어떻게해야합니까?\" 다운로드 알아 ... RubRub 승인 (͡ ° ͜ʖ ͡ °)",
+      "analysis": {
+        "app_key": "google:com.robtopx.geometrydashmeltdown",
+        "summary_ko": "리듬 기반의 액션 플랫포머 게임으로, 스파이크와 장애물을 피해 어두운 동굴을 통과해야 합니다. 음악에 맞춰 점프하고 비행하며 레벨을 완료하는 도전적인 경험을 제공합니다.",
+        "features_ko": [
+          "음악의 리듬에 맞춘 액션 플랫포머 게임입니다.",
+          "F-777의 음악이 포함된 3개의 독특한 레벨을 제공합니다.",
+          "연습 모드를 통해 어려운 구간을 반복 학습할 수 있습니다.",
+          "로켓, 중력 반전 등 다양한 이동 기믹이 존재합니다.",
+          "캐릭터의 아이콘과 색상을 커스터마이징할 수 있습니다."
+        ],
+        "noteworthy_ko": "음악과 게임 플레이의 완벽한 동기화가 핵심입니다. 레벨 디자인이 매우 정교하며, 연습 모드를 통해 사용자의 성취감을 유도하는 구조가 개발 관점에서 매우 훌륭합니다.",
+        "development_ko": "리듬에 맞춘 오브젝트 배치와 충돌 판정이 핵심 기술입니다. 레벨 디자인은 제작 부담이 크며, 정밀한 입력 판정이 필수적입니다. 밸런스 조절을 위해 수많은 테스트 플레이가 요구됩니다.",
+        "idea_ko": "사용자가 직접 음악 파일을 업로드하면 리듬에 맞춰 자동으로 장애물을 생성해주는 레벨 에디터.",
+        "highlights_ko": [
+          "리듬과 액션의 긴밀한 결합.",
+          "연습 모드를 통한 도전적인 난이도 극복."
+        ],
+        "systems_ko": [
+          "리듬 동기화 엔진",
+          "정밀 충돌 판정 시스템",
+          "레벨 데이터 관리",
+          "캐릭터 이동 기믹(중력, 비행)",
+          "연습 모드 상태 저장"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "리듬과 게임 플레이의 정밀한 동기화는 높은 기술적 숙련도를 요구합니다. 또한, 레벨 디자인 자체가 게임의 재미를 결정하므로 1인 개발 시 콘텐츠 제작 부담이 매우 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 점프 및 이동 로직",
+            "음악 비트 기반 장애물 배치",
+            "충돌 판정 시스템"
+          ],
+          "defer": [
+            "레벨 에디터",
+            "복잡한 캐릭터 커스터마이징"
+          ],
+          "risks": [
+            "입력 지연(Latency) 문제",
+            "레벨 디자인의 난이도 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "리듬 생성기",
+            "concept": "음악의 비트를 분석하여 자동으로 장애물 패턴을 생성합니다. 사용자는 생성된 패턴을 수정하여 자신만의 레벨을 만듭니다.",
+            "first_step": "음악의 BPM을 측정하여 특정 간격으로 장애물을 생성하는 스크립트 작성."
+          },
+          {
+            "title": "멀티플레이어 레이스",
+            "concept": "다른 플레이어와 동시에 같은 레벨을 시작하여 누가 먼저 도착하는지 경쟁합니다. 실시간 위치를 시각적으로 보여줍니다.",
+            "first_step": "두 캐릭터의 위치 데이터를 실시간으로 동기화하는 네트워크 기초 구현."
+          }
+        ],
+        "recommendation_ko": "정밀한 입력 판정과 리듬 게임의 메커니즘을 배우기에 최적입니다. 다만, 높은 수준의 레벨 디자인 능력이 필요하므로 도전적인 프로젝트를 원하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "내부적인 리듬 분석 알고리즘, 충돌 판정의 세부 구현 방식, 네트워크 연동 여부 등은 설명에서 확인할 수 없습니다.",
+        "name": "Geometry Dash Meltdown",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.robtopx.geometrydashmeltdown&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 306,
+        "reasons": [
+          "multi_country",
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "itch:1ed9342849a094b5b6a7": {
+      "app_key": "itch:1ed9342849a094b5b6a7",
+      "name": "Hoard Sweeper [Free] [Simulation] [Windows] [Android]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://enmanuel-gutierrez.itch.io/hoard-sweeper",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:15:46+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Vacuum, sort and count down a dragon's hoard of 100,000 treasures.",
+      "analysis": {
+        "app_key": "itch:1ed9342849a094b5b6a7",
+        "summary_ko": "용의 보물을 진공청소기로 청소하고 분류하며 개수를 세는 방치형 시뮬레이션 게임입니다. 10만 개의 보물을 관리하는 독특한 테마를 가지고 있습니다.",
+        "features_ko": [
+          "진공청소기를 이용한 보물 수집 및 청소 기능.",
+          "수집된 보물을 분류하고 정리하는 시스템.",
+          "보물의 개수를 세고 기록하는 카운팅 기능."
+        ],
+        "noteworthy_ko": "단순한 수집과 정리를 테마로 삼아 방치형 게임의 재미를 극대화한 점이 흥미롭습니다. 10만 개라는 구체적인 수치를 목표로 제시하여 성취감을 유도하는 구조로 추정됩니다.",
+        "development_ko": "대량의 오브젝트를 화면에 배치하고 관리하는 최적화 기술이 중요합니다. 수집 및 분류 로직은 단순하지만, 반복적인 작업에서 오는 지루함을 해소할 시각적 피드백 구현이 핵심입니다.",
+        "idea_ko": "보물을 분류할 때마다 특정 소리가 나거나 시각적 효과가 달라지는 'ASMR 정리 게임' 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "10만 개라는 방대한 수집 목표를 설정하여 장기적인 플레이를 유도합니다.",
+          "청소와 분류라는 일상적인 행위를 게임화했습니다."
+        ],
+        "systems_ko": [
+          "오브젝트 생성 및 관리 시스템",
+          "수집 및 카운팅 데이터 관리",
+          "UI 인터페이스 및 상호작용",
+          "진공청소기 이동 및 조작 로직"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 단순하고 복잡한 물리 엔진이나 네트워크가 필요하지 않습니다. 1인 개발자가 기초적인 UI와 데이터 관리만으로 충분히 구현 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "보물 클릭/수집 메커니즘",
+            "현재 수집량 카운터",
+            "기본적인 보물 배치 UI"
+          ],
+          "defer": [
+            "복잡한 애니메이션 효과",
+            "다양한 보물 종류 및 업그레이드 시스템"
+          ],
+          "risks": [
+            "반복적인 플레이로 인한 금방 식는 흥미",
+            "대량 오브젝트 배치 시 성능 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "보물 분류 마스터",
+            "concept": "보물을 종류별로 빠르게 분류하여 점수를 얻는 게임입니다. 분류 속도가 빠를수록 보너스 점수를 획득합니다.",
+            "first_step": "화면에 무작위 보물을 생성하고 드래그하여 분류하는 기능 구현."
+          },
+          {
+            "title": "용의 보물 창고 관리자",
+            "concept": "보물을 쌓아두는 공간을 효율적으로 배치하여 더 많은 보물을 보관하는 퍼즐 요소가 가미된 시뮬레이션입니다.",
+            "first_step": "그리드 기반의 보물 배치 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 기본 구조와 오브젝트 관리 시스템을 배우기에 매우 좋습니다. 단순한 메커니즘을 어떻게 재미있게 포장할지 고민하는 연습으로 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 게임 규칙, 보물의 종류, 진공청소기의 업그레이드 방식 등은 확인되지 않습니다.",
+        "name": "Hoard Sweeper [Free] [Simulation] [Windows] [Android]",
+        "source": "itch",
+        "detail_url": "https://enmanuel-gutierrez.itch.io/hoard-sweeper",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 278,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 34,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "google:com.supermarkettycoon.idle": {
+      "app_key": "google:com.supermarkettycoon.idle",
+      "name": "Supermarket Tycoon Empire",
+      "developer": "Sopot Studios",
+      "source": "google",
+      "country": "KR",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.supermarkettycoon.idle&hl=ko&gl=KR",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:24:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "이 중독성 강한 방치형 슈퍼마켓 경영 게임에서 작은 동네 가게를 번창하는 대형 소매 제국으로 키워보세요! 다양한 아이템 구매와 무작위 보상이 들어있는 전리품 상자도 포함되어 있습니다. 재미있고 편안한 방치형 게임에서 나만의 슈퍼마켓을 건설하고, 관리하고, 성장시키세요. 진열대를 채우고, 가격을 책정하고, 경쟁에서 우위를 점하여 최고의 쇼핑 경험을 만들어보세요. 보드 게임 모드, 특별 프로모션, 오프라인 진행 기능까지 갖춘 이 게임에서 진정한 비즈니스 거물이 되어보세요! 주요 기능: 🛒 방치형 슈퍼마켓 건설 나만의 슈퍼마켓 제국을 키워보세요! 진열대 수량을 늘리고, 상품 가격을 올리고, 매장 레이아웃을 최적화하여 매출을 극대화하세요. 매장이 커질수록 수익도 커집니다. 오프라인 상태에서도 게임을 즐길 수 있어요! 🎲 보드 게임 모드 독특한 보드 게임 모드를 경험해 보세요! 주사위를 굴리고, 도전을 완료하고, 푸짐한 보상을 획득하세요. 방치형 게임 팬과 보드 게임 애호가 모두를 위한 새로운 전략적 재미를 선사합니다. 🎁 다양한 이벤트 및 프로모션 기간 한정 이벤트, 특별 활동, 게임 내 프로모션으로 사업을 번창시키세요. 참여하여 귀중한 보너스를 획득하고 경쟁자를 제치세요. 🎮 간편하고 중독성 있는 게임 플레이 탭하고, 업그레이드하고, 반복하세요! 슈퍼마켓을 확장하고, 서비스를 개선하고, 가격 전략을 다듬으세요. 슈퍼마켓 재벌이 되는 즐거움이 이보다 더 클 순 없습니다. 🤝 친구 클럽 혼자서 사업을 키워나갈 필요가 있을까요? 친구들과 힘을 합쳐 나만의 비즈니스 클럽을 만들고, 세계에서 가장 성공적인 슈퍼마켓 체인을 만들기 위해 경쟁하세요. 🚀 오프라인 진행 상황 저장 게임을 하지 않아도 슈퍼마켓 제국은 계속 성장합니다. 언제든 다시 접속하여 진행 상황을 확인하고, 경쟁자를 물리치고, 새로운 기회를 탐색하세요. 방치형 게임, 보드 게임, 경영 게임을 좋아하거나, 단순히 사업 구축을 즐긴다면, 슈퍼마켓 타이쿤 엠파이어는 당신에게 딱 맞는 게임입니다! 지금 다운로드하고 최고의 소매업 경영자가 되는 여정을 시작하세요!",
+      "analysis": {
+        "app_key": "google:com.supermarkettycoon.idle",
+        "summary_ko": "이 게임은 작은 동네 가게를 대형 소매 제국으로 성장시키는 방치형 경영 시뮬레이션입니다. 사용자는 진열대 관리, 가격 책정, 매장 레이아웃 최적화를 통해 수익을 극대화합니다. 보드 게임 모드와 같은 부가 콘텐츠를 포함하며, 오프라인 상태에서도 매장이 자동으로 성장하는 경험을 제공합니다.",
+        "features_ko": [
+          "진열대 수량 증가 및 상품 가격 조정을 통해 매장 매출을 최적화합니다.",
+          "주사위를 굴려 도전 과제를 수행하고 보상을 얻는 보드 게임 모드를 제공합니다.",
+          "기간 한정 이벤트와 프로모션을 통해 추가 보너스를 획득할 수 있습니다.",
+          "친구와 함께 비즈니스 클럽을 결성하여 경쟁하는 소셜 기능을 지원합니다.",
+          "앱을 종료해도 오프라인 진행 상황이 저장되어 매장이 지속적으로 성장합니다."
+        ],
+        "noteworthy_ko": "방치형 게임의 핵심인 '자동 수익 창출'에 보드 게임이라는 이질적인 장르를 결합한 점이 흥미롭습니다. 경영 시뮬레이션의 단순함을 보드 게임의 전략적 요소로 보완하려는 시도로 추정됩니다.",
+        "development_ko": "핵심 구현 기술로는 시간 경과에 따른 자원 누적 로직과 오프라인 데이터 동기화가 필수적입니다. 콘텐츠 제작 측면에서는 다양한 매장 아이템과 보드 게임 맵의 밸런스 조정이 중요합니다. 테스트 단계에서는 방치형 수익 계산식의 무결성을 검증하는 것이 가장 큰 부담이 될 것입니다.",
+        "idea_ko": "매장 내 특정 구역을 보드 게임 판으로 활용하여, 손님이 이동하는 경로에 따라 수익이 결정되는 '보드 게임형 매장 경영' 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "방치형 경영과 보드 게임 모드의 결합으로 전략적 재미를 강화했습니다.",
+          "오프라인 진행 상황 저장 기능을 통해 사용자 접속 부담을 줄였습니다."
+        ],
+        "systems_ko": [
+          "시간 기반 자원 누적 시스템",
+          "매장 레이아웃 및 업그레이드 데이터 관리",
+          "보드 게임 주사위 및 이벤트 확률 엔진",
+          "오프라인 진행 상황 계산 로직",
+          "사용자 UI 및 상점 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "방치형 게임의 기본 로직은 구현이 명확하나, 보드 게임 모드와의 연동 및 밸런스 조정에 상당한 시간이 소요됩니다. 1인 개발 시 데이터 구조 설계와 UI 최적화가 핵심 과제입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "매장 업그레이드 및 수익 창출 로직",
+            "오프라인 수익 계산 시스템",
+            "기본적인 매장 레이아웃 UI"
+          ],
+          "defer": [
+            "친구 클럽 소셜 기능",
+            "복잡한 보드 게임 모드",
+            "기간 한정 이벤트 시스템"
+          ],
+          "risks": [
+            "방치형 게임 특유의 반복적인 플레이로 인한 사용자 이탈",
+            "수익 밸런스 붕괴로 인한 게임 수명 단축"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "미니 매장 타워 디펜스",
+            "concept": "손님이 몰려올 때 진열대를 방어하며 상품을 판매하는 타워 디펜스 방식의 경영 게임입니다. 진열대 위치를 전략적으로 배치하여 매출을 극대화합니다.",
+            "first_step": "단일 진열대에서 상품이 판매되는 기본 루프와 손님 이동 경로를 구현합니다."
+          },
+          {
+            "title": "계절별 매장 테마 경영",
+            "concept": "계절에 따라 판매되는 상품과 매장 인테리어가 자동으로 변하는 경영 게임입니다. 계절 변화에 따른 수요 예측이 핵심입니다.",
+            "first_step": "시간 흐름에 따라 상품 판매 데이터가 변경되는 시스템을 구축합니다."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 기본 구조와 데이터 관리 방식을 배우기에 적합합니다. 다만, 다양한 모드를 한 번에 구현하기보다는 핵심 경영 루프를 먼저 완성하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 수익 모델(광고, 인앱 결제)이나 데이터 저장 방식에 대한 기술적 언급이 없습니다. 외부 서버 연동 여부도 확인되지 않으므로 로컬 저장소 기반의 구현을 가정해야 합니다.",
+        "name": "Supermarket Tycoon Empire",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.supermarkettycoon.idle&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 96,
+        "reasons": [],
+        "best_rank": 3,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "itch:a98e18c4ec1ec610d4e4": {
+      "app_key": "itch:a98e18c4ec1ec610d4e4",
+      "name": "Hexsworn [Free] [Card Game]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "",
+      "detail_url": "https://hexsworn.itch.io/hexsworn",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-28T05:28:28+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A free dark fantasy card game – warlocks, forbidden schools and bound demons.",
+      "analysis": {
+        "app_key": "itch:a98e18c4ec1ec610d4e4",
+        "summary_ko": "워록, 금지된 마법 학교, 악마 소환 등을 테마로 한 다크 판타지 카드 게임입니다. 무료로 제공되는 카드 기반의 전략적 경험을 강조합니다.",
+        "features_ko": [
+          "다크 판타지 세계관을 배경으로 한 카드 게임입니다.",
+          "워록 캐릭터와 금지된 마법 학교 시스템을 포함합니다.",
+          "악마를 소환하여 전투에 활용하는 메커니즘이 존재합니다."
+        ],
+        "noteworthy_ko": "카드 게임은 데이터 구조 설계가 매우 중요합니다. 악마 소환과 같은 특수 메커니즘을 카드 효과로 어떻게 구현했는지가 개발적으로 흥미로운 지점입니다.",
+        "development_ko": "핵심 기술은 카드 데이터 관리와 턴제 로직입니다. 카드 간의 상호작용을 처리하는 이벤트 시스템 구축이 필요하며, 밸런스 테스트는 수많은 시뮬레이션을 통해 이루어져야 합니다.",
+        "idea_ko": "소환된 악마가 필드에 머무는 동안 지속적인 비용을 소모하게 하여 전략적 선택을 강요하는 시스템이 적합합니다.",
+        "highlights_ko": [
+          "다크 판타지 분위기를 극대화한 카드 테마 구성.",
+          "소환수(악마)를 활용한 전술적 카드 플레이."
+        ],
+        "systems_ko": [
+          "카드 데이터베이스(JSON/ScriptableObject)",
+          "턴 관리 및 상태 머신",
+          "카드 효과 처리 엔진",
+          "UI 카드 덱 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "카드 게임은 카드 간의 상호작용으로 인해 버그 발생 가능성이 높고, 밸런스 조정이 매우 어렵습니다. 1인 개발 시 방대한 카드 데이터 관리가 큰 부담입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카드 드로우 및 필드 배치 로직",
+            "기본적인 턴 종료 시스템",
+            "소환수 공격 로직"
+          ],
+          "defer": [
+            "온라인 대전 기능",
+            "복잡한 카드 덱 빌딩 UI"
+          ],
+          "risks": [
+            "카드 간 밸런스 불균형",
+            "UI 복잡도 증가로 인한 개발 지연"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "희생 기반 소환 게임",
+            "concept": "카드를 소환하기 위해 다른 카드를 희생시켜야 하는 전략 게임입니다. 희생된 카드의 능력치에 따라 소환수의 강함이 결정됩니다.",
+            "first_step": "카드 희생 로직과 소환수 스탯 계산기를 구현합니다."
+          },
+          {
+            "title": "로그라이크 덱 빌딩",
+            "concept": "매 전투마다 카드를 획득하여 덱을 강화하는 방식입니다. 다크 판타지 테마를 살려 저주받은 카드를 선택할지 고민하게 만듭니다.",
+            "first_step": "카드 획득 및 덱 구성 시스템을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "데이터 중심의 게임 개발과 시스템 설계를 배우고 싶은 개발자에게 추천합니다. 카드 게임의 구조를 이해하는 데 좋은 학습 모델입니다.",
+        "source_limitations_ko": "게임의 구체적인 규칙(승리 조건, 자원 시스템 등)과 플랫폼 정보가 없습니다. 악마 소환 메커니즘의 상세 로직은 확인되지 않습니다.",
+        "name": "Hexsworn [Free] [Card Game]",
+        "source": "itch",
+        "detail_url": "https://hexsworn.itch.io/hexsworn",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 10000,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
     }
   }
 }

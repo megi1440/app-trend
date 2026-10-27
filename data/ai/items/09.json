@@ -7389,6 +7389,274 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-27"
+    },
+    "google:com.Jeminie.Hmmsim2": {
+      "app_key": "google:com.Jeminie.Hmmsim2",
+      "name": "Hmmsim Legacy",
+      "developer": "Jeminie Interactive",
+      "source": "google",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.Jeminie.Hmmsim2&hl=ko&gl=KR",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:19:29+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Hmmsim 2가 언리얼 엔진으로 재탄생했습니다. 동적 하늘과 그림자, 전조등 표현이 추가되어 더욱 사실적인 풍경을 보여줍니다. Hmmsim Legacy에는 최고 수준의 그래픽으로 구현한 서울지하철 2호선과 7호선 배경의 기본 노선이 탑재되어 있습니다. 지하철 운행을 직접 체험해보세요. 또한 Hmmsim Legacy는 BVE Trainsim의 Add-On을 추가할 수 있습니다. 여러분이 PC에서 즐기던 BVE 노선들을 모바일에서 그대로 플레이할 수 있습니다. 여러분의 취향에 따라 Add-On을 무한 확장해보세요. ---- 개발자 연락처 : Jeminie Interactive Co., Ltd. Rm 904-09 255 Kintex-ro 일산서구, 고양시, 경기도 10390 South Korea 573-87-02389 2026-고양일산서-0832 고양시 일산서구청",
+      "analysis": {
+        "app_key": "google:com.Jeminie.Hmmsim2",
+        "summary_ko": "Hmmsim Legacy는 언리얼 엔진으로 재탄생한 지하철 운행 시뮬레이션 게임입니다. 서울지하철 2호선과 7호선을 배경으로 하며, 사실적인 그래픽과 동적 환경 효과를 제공합니다. PC용 BVE Trainsim 애드온을 모바일에서 불러와 확장할 수 있는 것이 특징입니다.",
+        "features_ko": [
+          "언리얼 엔진을 사용하여 사실적인 그래픽과 조명 효과를 구현했습니다.",
+          "서울지하철 2호선과 7호선 노선을 기본으로 제공합니다.",
+          "PC용 BVE Trainsim 애드온을 모바일에서 추가하여 노선을 확장할 수 있습니다.",
+          "동적 하늘과 그림자, 전조등 표현으로 운행 환경을 사실적으로 묘사합니다."
+        ],
+        "noteworthy_ko": "기존 PC 시뮬레이션 커뮤니티의 애드온 생태계를 모바일로 이식한 점이 매우 흥미롭습니다. 플랫폼 간 호환성을 확보하여 콘텐츠 부족 문제를 사용자가 직접 해결하도록 유도한 전략이 돋보입니다.",
+        "development_ko": "언리얼 엔진의 물리 및 렌더링 최적화가 핵심입니다. BVE 애드온 데이터를 모바일 환경에서 파싱하고 렌더링하는 변환 엔진 제작이 가장 큰 기술적 과제이며, 다양한 기기에서의 성능 최적화가 필수적입니다.",
+        "idea_ko": "사용자가 직접 노선을 설계하고 공유할 수 있는 '간편 노선 에디터'가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "언리얼 엔진 기반의 고품질 그래픽으로 지하철 운행의 몰입감을 높였습니다.",
+          "외부 애드온 지원을 통해 콘텐츠의 무한한 확장이 가능합니다."
+        ],
+        "systems_ko": [
+          "지하철 물리 및 제어 시스템",
+          "3D 렌더링 및 동적 환경 시스템",
+          "외부 데이터 파싱 및 로딩 시스템",
+          "사용자 입력 판정 시스템",
+          "UI/UX 기반의 운전석 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "언리얼 엔진의 숙련도가 필요하며, 외부 데이터를 모바일에서 구동하는 변환 엔진 개발은 매우 높은 수준의 프로그래밍 능력을 요구합니다. 또한, 3D 모델링 리소스 제작 부담이 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 차량 제어 로직",
+            "단일 노선 렌더링",
+            "기본 UI"
+          ],
+          "defer": [
+            "외부 애드온 호환성",
+            "동적 날씨 및 고급 조명 효과"
+          ],
+          "risks": [
+            "모바일 기기 성능 최적화 실패",
+            "데이터 파싱 엔진의 호환성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "간이 열차 운전 시뮬레이터",
+            "concept": "복잡한 노선 대신 짧은 구간을 반복 운행하며 정시 도착과 승객 만족도를 관리하는 캐주얼 시뮬레이션입니다.",
+            "first_step": "열차의 가속과 감속을 제어하는 물리 로직과 정지 위치 판정 시스템 구현."
+          },
+          {
+            "title": "지하철 노선 설계자",
+            "concept": "그리드 위에 선로를 배치하고 역을 설치하여 나만의 노선을 만드는 샌드박스 게임입니다.",
+            "first_step": "선로 타일을 배치하고 열차가 따라가는 경로 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "시뮬레이션 장르의 물리 구현과 데이터 처리 방식을 배우기에 좋습니다. 다만, 엔진 학습과 리소스 제작에 많은 시간이 소요되므로 작은 규모의 프로젝트부터 시작하세요.",
+        "source_limitations_ko": "BVE 애드온 변환 엔진의 구체적인 구현 방식은 알 수 없습니다. 수익 모델이나 온라인 멀티플레이 지원 여부는 명시되지 않았습니다.",
+        "name": "Hmmsim Legacy",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.Jeminie.Hmmsim2&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "google:com.find.phone.device.locate.lostphone.android": {
+      "app_key": "google:com.find.phone.device.locate.lostphone.android",
+      "name": "Find My Phone by Clap Launcher",
+      "developer": "AtomApplications",
+      "source": "google",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.find.phone.device.locate.lostphone.android&hl=en&gl=US",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:20:14+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Do you often misplace or lose your phone? Then Find My Phone by Clap Launcher is the perfect app for you! Find My Phone by Clap Launcher is a smart device finder designed to help you quickly locate a missing phone simply by clapping or whistling. When you clap or whistle, your phone will make a sound, vibrate, and flash, making it easy to find your device in seconds. Please note: As a launcher app, the layout of your home screen may change after install. Don’t worry, all your apps are still on your phone, they just may be in a different location. To learn more, please visit our FAQ section: https://findmyphonelauncher.com/#faq With Find My Phone Launcher, you get the added benefits of: 🚀 One-swipe access - Activate the clap & whistle detector instantly with just one swipe from your home screen! 📱 Home screen widget - See the time, weather, and more, conveniently on your home screen with our customized widget. 🖼️ Wallpaper – Personalize your home or lock screen with a wide selection of beautiful themed wallpapers. 🏠 Home screen shortcut – Use the Find My Phone Launcher shortcut on your home screen to enjoy quick access. 🔍 Multi-touchpoint search – Apps and web search has never been easier. Search for installed apps or the web (powered by Google, Brave, and Yahoo!) from multiple access points. Key free features ✓ Clap or whistle to find phone ✓ Flashlight and vibration alerts ✓ Customizable alert sounds and duration ✓ Battery efficient and optimized for performance 👏 Find my phone by clap or whistle Start clapping or whistling to activate advanced sound recognition. Our sound recognition technology helps you locate your device in seconds, even if it is in the next room. 💡 Multi alert system When activated, Find My Phone by Clap Launcher triggers a powerful combination of loud ringtones and bright flashing lights. This makes your phone easy to spot whether it is hidden under pillows, behind furniture, or in a dark corner. ⚡ Bright flash and vibration response The flashlight and vibration make it easy to locate your phone even in noisy or low light environments. 🎵 Customizable alerts Choose from a variety of attention grabbing sounds. Select from soothing melodies, whistles, playful animal sounds, or modern electronic tones. Adjust volume levels to suit your environment. ⏰ Set alert duration Control how long your phone rings when activated. Choose from 10, 30, 60, or 120 seconds. 🔋 Battery friendly design Find My Phone by Clap Launcher is optimized for minimal battery consumption while running in the background, so your phone is always ready without unnecessary drain. ✨ Easy to use Enjoy a seamless experience with a simple and intuitive interface. No complicated setup required. 📲 Versatile compatibility Works across multiple phone models and functions whether your phone is on silent, vibrate, or full volume. Find My Phone by Clap Launcher is an efficient phone finder that gives you the power to locate your device in seconds. Download now and never worry about losing your phone again. If you have any questions, feedback, or feature suggestions, feel free to write to us. You can uninstall the app at any time. You give your consent to install Find My Phone by Clap Launcher from the Google Play Store by clicking the button above. You also agree to this app's Terms and Conditions and Privacy Policy. Google Play is a trademark of Google LLC. Use of it here does not imply any affiliation with or endorsement by Google LLC. Yahoo is a registered trademark of Yahoo Inc. For questions or feedback, reach out to us through our contact form: https://findmyphonelauncher.com/contact-us Terms of Service:https://findmyphonelauncher.com/terms-of-service Privacy Policy:https://findmyphonelauncher.com/privacy-policy",
+      "analysis": {
+        "app_key": "google:com.find.phone.device.locate.lostphone.android",
+        "summary_ko": "박수나 휘파람 소리를 인식하여 분실한 휴대폰을 쉽게 찾을 수 있도록 돕는 도구 앱입니다. 소리가 감지되면 휴대폰이 알람음, 진동, 플래시를 통해 위치를 알려줍니다. 홈 화면 위젯과 바로가기 기능을 통해 사용 편의성을 높였습니다.",
+        "features_ko": [
+          "박수나 휘파람 소리를 인식하여 휴대폰의 위치를 알립니다.",
+          "알람음, 진동, 플래시를 조합한 다중 알림 시스템을 제공합니다.",
+          "알림음의 종류와 지속 시간을 사용자가 직접 설정할 수 있습니다.",
+          "배터리 효율을 고려하여 백그라운드에서 최적화된 상태로 작동합니다.",
+          "홈 화면 위젯과 바로가기를 통해 빠르게 기능을 제어합니다."
+        ],
+        "noteworthy_ko": "마이크 입력을 통한 소리 인식 기술이 핵심입니다. 백그라운드에서 배터리 소모를 최소화하면서 상시 대기하는 기술적 구현이 이 앱의 가장 흥미로운 부분입니다.",
+        "development_ko": "핵심 기술은 안드로이드의 오디오 입력 처리와 백그라운드 서비스 관리입니다. 소리 인식 알고리즘의 정확도와 배터리 효율 간의 균형을 맞추는 것이 가장 큰 기술적 도전입니다. 다양한 기기에서의 호환성 테스트가 필수적입니다.",
+        "idea_ko": "소리 인식뿐만 아니라, 특정 키워드(예: '여기야!')를 음성 인식하여 반응하는 기능을 추가하면 더 정확한 제어가 가능할 것입니다.",
+        "highlights_ko": [
+          "소리 인식 기반의 직관적인 휴대폰 위치 찾기 기능.",
+          "배터리 효율을 고려한 백그라운드 서비스 설계."
+        ],
+        "systems_ko": [
+          "오디오 입력 및 소리 인식 엔진",
+          "백그라운드 서비스 관리 시스템",
+          "알림(진동/플래시/사운드) 제어 시스템",
+          "설정 및 사용자 데이터 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "백그라운드에서 지속적으로 마이크를 사용하면서 배터리를 절약하고, 다양한 안드로이드 기기 환경에서 안정적으로 동작하게 만드는 것은 높은 수준의 기술적 이해가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "마이크 입력 감지 로직",
+            "알람음 및 진동 제어 기능",
+            "기본 설정 UI"
+          ],
+          "defer": [
+            "홈 화면 위젯 및 테마 커스터마이징",
+            "웹 검색 및 런처 기능"
+          ],
+          "risks": [
+            "배터리 소모 이슈",
+            "안드로이드 버전별 권한 및 백그라운드 제한 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스마트 제스처 찾기",
+            "concept": "소리뿐만 아니라 휴대폰을 특정 방향으로 흔드는 제스처를 인식하여 위치를 알리는 기능입니다.",
+            "first_step": "가속도 센서 데이터를 활용한 특정 움직임 감지 로직 구현."
+          },
+          {
+            "title": "가족 위치 공유 알림",
+            "concept": "가족 구성원이 앱을 통해 알림을 보내면, 휴대폰이 무음 모드여도 강제로 소리를 울리게 하는 기능입니다.",
+            "first_step": "푸시 알림을 통한 강제 알람 트리거 구현."
+          }
+        ],
+        "recommendation_ko": "안드로이드 시스템의 하드웨어 제어와 백그라운드 서비스의 동작 원리를 배우기에 매우 좋습니다. 다만, 배터리 효율과 기기 호환성 문제로 인해 실제 배포 시에는 많은 테스트가 필요합니다.",
+        "source_limitations_ko": "소개문에 언급된 런처 기능이나 웹 검색 기능은 앱의 핵심 목적과 무관한 부가 기능으로 보입니다. 보안 및 개인정보 보호를 위한 마이크 데이터 처리 방식은 상세히 알 수 없습니다.",
+        "name": "Find My Phone by Clap Launcher",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.find.phone.device.locate.lostphone.android&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
+    },
+    "apple:6760458370": {
+      "app_key": "apple:6760458370",
+      "name": "다크탭 다이스",
+      "developer": "Su Min Kim",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/kr/app/%EB%8B%A4%ED%81%AC%ED%83%AD-%EB%8B%A4%EC%9D%B4%EC%8A%A4/id6760458370?uo=2",
+      "data_date": "2026-10-28",
+      "analysed_at": "2026-10-28T05:26:04+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "[다크탭 RPG]의 후속작, 다크탭 다이스. 포커와 다이스가 만나 완전히 새로운 전투가 시작됩니다. 주사위를 슬롯에 장착하고 강력한 족보를 완성하세요. 전작의 다크한 감성을 계승하면서, 전투 시스템은 완전히 새롭게 진화했습니다. [굴리고, 채우고, 터뜨려라!] - 전략적 드래그: 주사위를 직접 슬롯에 채워 최강의 족보를 완성하세요. - 폭발적 타격: 원페어부터 파이브 카드까지! 완성된 족보에 따라 수백에서 천 단위에 이르는 연속 공격이 휘몰아칩니다. 운과 전략이 만나는 그 찰나의 손맛을 느껴보세요! [도파민 폭발! 금색 다이스와 조커의 한 방] - 금색 다이스: 슬롯에 넣기만 해도 데미지가 폭증합니다! 화면 가득 숫자가 폭발하는 극한의 배수 쾌감을 선사합니다. - 조커 다이스: 위기의 순간 나타나 어떤 족보든 완성시키는 치트키! 판도를 뒤집는 짜릿한 역전극을 만드세요. - 더블 캐스트: 금색 다이스의 배수도, 강력한 족보도 한 번 더(x2)! 화면을 압도하는 미친 공격량으로 적을 섬멸합니다. [방치형의 편안함 x 유저의 짜릿한 개입] - 그림자는 멈추지 않고 스스로 성장하며 적을 베어 넘깁니다. - 하지만 진정한 승부는 당신의 손끝에서 결정됩니다. 방치형의 무한 성장과 포커의 전략적 재미를 결합한 하이브리드 RPG의 정점을 경험하세요. [다크탭 감성을 계승] - 더 깊어진 내면의 세계와 개성 넘치는 그림자 캐릭터들. - 전작의 아트워크를 계승하면서도 더 중독적인 시스템으로 무장했습니다. 지금 바로 주사위를 던지세요. 당신의 운명을 결정할 단 한 판이 기다리고 있습니다! [언어 지원] - 한국어, 영어, 일본어 [데이터 관리 안내] - 본 게임은 데이터를 기기에 직접 저장하는 오프라인 기반 게임입니다. 앱 삭제 시 데이터가 손실될 수 있으니 주의해 주세요. - 유료 결제 상품 중 '재화'를 제외한 항목은 설정 내 [복원] 버튼을 통해 언제든 다시 복구할 수 있습니다. 버그 신고 및 개선 요청: snowgames0629@gmail.com",
+      "analysis": {
+        "app_key": "apple:6760458370",
+        "summary_ko": "다크탭 다이스는 포커의 족보 시스템과 주사위 전략을 결합한 하이브리드 RPG입니다. 사용자는 주사위를 슬롯에 배치하여 강력한 공격을 수행하며, 방치형 성장 요소와 전략적 개입이 조화를 이룹니다. 전작의 다크한 분위기를 계승하며, 금색 다이스와 조커 등 특수 주사위를 통해 전략적 재미를 극대화했습니다.",
+        "features_ko": [
+          "주사위를 슬롯에 배치하여 포커 족보를 완성하고 적을 공격합니다.",
+          "완성된 족보에 따라 연속 공격이 발동되는 타격감을 제공합니다.",
+          "금색 다이스와 조커 다이스를 사용하여 데미지를 증폭하거나 족보를 완성합니다.",
+          "방치형 시스템을 통해 게임을 켜두지 않아도 캐릭터가 스스로 성장합니다.",
+          "오프라인 기반 게임으로 데이터를 기기에 직접 저장합니다."
+        ],
+        "noteworthy_ko": "포커라는 익숙한 규칙을 전투 시스템으로 치환한 점이 매우 창의적입니다. 방치형 성장과 수동 조작의 전략적 재미를 결합하여 플레이어의 개입 동기를 부여한 점이 흥미롭습니다.",
+        "development_ko": "핵심 기술은 주사위 조합 알고리즘과 전투 데미지 계산 로직입니다. 콘텐츠 제작 부담은 중간 수준이며, 주사위 종류와 족보 밸런스 조정이 핵심입니다. 테스트 시에는 다양한 주사위 조합에서의 데미지 출력과 밸런스 붕괴 여부를 검증해야 합니다.",
+        "idea_ko": "주사위 대신 카드나 타일을 활용하여 족보를 만드는 '퍼즐형 전투 RPG'가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "포커 족보와 주사위 배치를 결합한 독특한 전투 메커니즘을 구현했습니다.",
+          "방치형 성장의 편의성과 수동 조작의 손맛을 동시에 잡았습니다."
+        ],
+        "systems_ko": [
+          "주사위 조합 및 족보 판정 엔진",
+          "전투 데미지 계산 및 상태 관리",
+          "캐릭터 성장 및 방치형 보상 시스템",
+          "데이터 저장 및 복원 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "전투 로직과 족보 판정 알고리즘 구현이 필요하지만, 그래픽 리소스가 비교적 적게 들고 게임 규칙이 명확하여 1인 개발이 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "주사위 배치 및 족보 판정 로직",
+            "기본 전투 시스템",
+            "캐릭터 레벨업 시스템"
+          ],
+          "defer": [
+            "다양한 특수 주사위",
+            "화려한 이펙트 연출",
+            "클라우드 데이터 동기화"
+          ],
+          "risks": [
+            "전투 밸런스 조정의 어려움",
+            "족보 판정 로직의 버그"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "타일 배치 전략 RPG",
+            "concept": "주사위 대신 숫자 타일을 배치하여 족보를 만드는 게임입니다. 타일의 위치에 따라 보너스 점수가 달라지는 규칙을 추가합니다.",
+            "first_step": "타일 배치 그리드 시스템 및 족보 판정 로직 구현."
+          },
+          {
+            "title": "카드 덱 빌딩 전투",
+            "concept": "주사위 대신 카드를 뽑아 족보를 완성하는 전투 게임입니다. 덱을 구성하여 전략을 최적화하는 재미를 강조합니다.",
+            "first_step": "카드 덱 구성 및 랜덤 드로우 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "게임 로직 설계와 밸런스 조정 능력을 기르기에 최적의 프로젝트입니다. 규칙이 명확한 게임을 만들고 싶다면 강력히 추천합니다.",
+        "source_limitations_ko": "유료 결제 상품의 구체적인 종류, 데이터 저장의 보안성, 오프라인 게임의 데이터 손실 방지 대책에 대한 상세 정보가 부족합니다.",
+        "name": "다크탭 다이스",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EB%8B%A4%ED%81%AC%ED%83%AD-%EB%8B%A4%EC%9D%B4%EC%8A%A4/id6760458370?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-28"
     }
   }
 }
