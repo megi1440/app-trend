@@ -7123,6 +7123,272 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-26"
+    },
+    "google:com.jtrlabs.hypercleanner.trash.storage": {
+      "app_key": "google:com.jtrlabs.hypercleanner.trash.storage",
+      "name": "ハイパークリーナー",
+      "developer": "JTR Labs",
+      "source": "google",
+      "country": "JP",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.jtrlabs.hypercleanner.trash.storage&hl=ja&gl=JP",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T05:52:58+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "\"Hyper Cleanerは、ストレージの使用状況を確認し、大きなファイルを管理し、Android端末上のアプリを整理するのに役立ちます。 Hyper Cleanerは、スマートフォンの容量を何が占めているかを理解するために設計された、シンプルなストレージ管理ツールです。不要なファイルをスキャンし、大きな項目を見つけ、インストール済みアプリを確認してから、削除するものを判断できます。 主な機能： 不要ファイルの確認 キャッシュファイル、一時ファイル、残存ファイルなど、端末のストレージ容量を圧迫している可能性のある不要な項目をスキャンします。 大きなファイルの検索 大きな動画、ドキュメント、ダウンロードファイルなど、容量を多く使用するファイルを特定し、不要な項目を自分のペースで確認して削除できます。 アプリ管理 インストール済みのすべてのアプリとそのストレージ使用量を表示します。もう使用していないアプリを簡単に見つけ、数回のタップで手動でアンインストールできます。 重複ファイルのチェック 端末に保存されている重複した写真、動画、ファイルを見つけます。不要なコピーを確認して削除し、空き容量を増やせます。 安全で透明性のあるクリーンアップ Hyper Cleanerは、操作を実行する前にスキャン結果を明確に表示します。すべての削除には確認が必要で、ファイルは端末上でローカルにスキャンおよび管理されます — 何もアップロードや共有はされません。 シンプルなストレージ概要 さまざまなファイルカテゴリにわたるストレージの使用状況を明確に把握できます。スマートフォンのストレージをひと目で理解し、残すものと削除するものを判断できます。 かんたんストレージ管理 毎日の使用に合わせて設計されたシンプルで使いやすいクリーンアップツールで、スマートフォンのストレージを整理し、管理しやすくします。 注意：Hyper Cleanerは、ストレージの確認とファイル管理のために設計されています。実際の結果は、端末のストレージ状況やユーザーの選択によって異なる場合があります。\"",
+      "analysis": {
+        "app_key": "google:com.jtrlabs.hypercleanner.trash.storage",
+        "summary_ko": "Hyper Cleaner는 Android 기기의 저장 공간을 효율적으로 관리할 수 있도록 돕는 도구 앱입니다. 불필요한 파일과 캐시를 스캔하고, 용량을 많이 차지하는 대용량 파일을 찾아 삭제할 수 있습니다. 또한 앱 관리 기능을 통해 사용하지 않는 앱을 쉽게 정리하여 기기 성능을 최적화합니다.",
+        "features_ko": [
+          "캐시, 임시 파일 등 저장 공간을 차지하는 불필요한 항목을 스캔합니다.",
+          "동영상, 문서 등 용량이 큰 파일을 식별하여 사용자가 직접 삭제 여부를 결정할 수 있습니다.",
+          "설치된 앱 목록과 각 앱이 차지하는 용량을 확인하고 간편하게 삭제할 수 있습니다.",
+          "사진, 영상 등 중복된 파일을 찾아내어 삭제함으로써 공간을 확보합니다.",
+          "파일 삭제 전 스캔 결과를 명확히 표시하여 안전한 관리를 지원합니다."
+        ],
+        "noteworthy_ko": "사용자에게 삭제 권한을 완전히 위임하여 투명성을 확보한 점이 특징입니다. 로컬 스캔 방식을 사용하여 데이터 유출 우려를 차단한 점이 보안 측면에서 신뢰를 줍니다.",
+        "development_ko": "Android 파일 시스템 접근 권한(Storage Access Framework) 구현이 핵심입니다. 파일 스캔 속도 최적화와 중복 파일 판별 알고리즘(해시값 비교 등) 구현이 필요하며, 사용자에게 직관적인 삭제 가이드를 제공하는 UI 설계가 중요합니다.",
+        "idea_ko": "단순 삭제를 넘어, 사용자의 파일 사용 패턴을 분석하여 자주 쓰지 않는 파일을 클라우드로 자동 백업하고 기기에서 삭제하는 '스마트 아카이빙' 기능을 제안합니다.",
+        "highlights_ko": [
+          "로컬 스캔 방식을 채택하여 데이터 보안을 강화했습니다.",
+          "직관적인 인터페이스를 통해 누구나 쉽게 저장 공간을 관리할 수 있습니다."
+        ],
+        "systems_ko": [
+          "파일 시스템 스캔 엔진",
+          "중복 파일 판별 알고리즘",
+          "앱 관리 및 삭제 모듈",
+          "저장 공간 분석 및 시각화 UI",
+          "권한 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "파일 시스템 접근 권한과 기본적인 파일 관리 로직은 구현이 가능하나, 다양한 기기 환경에서의 파일 경로 호환성 문제를 해결하는 데 주의가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "저장 공간 사용량 분석",
+            "대용량 파일 리스트업",
+            "파일 삭제 기능"
+          ],
+          "defer": [
+            "중복 파일 자동 탐지",
+            "클라우드 연동",
+            "실시간 모니터링"
+          ],
+          "risks": [
+            "시스템 파일 삭제로 인한 기기 오류 가능성",
+            "Android 버전별 파일 접근 권한 정책 변화"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "파일 자동 분류기",
+            "concept": "파일 확장자나 생성 날짜를 기준으로 파일을 자동으로 폴더별로 분류해 주는 기능입니다.",
+            "first_step": "파일 확장자를 읽어와 특정 폴더로 이동시키는 간단한 파일 관리 스크립트 구현."
+          },
+          {
+            "title": "용량 다이어트 리포트",
+            "concept": "주기적으로 저장 공간 사용 현황을 분석하여 어떤 파일 유형이 용량을 많이 차지하는지 리포트로 제공합니다.",
+            "first_step": "파일 유형별 용량 합계를 계산하여 차트로 보여주는 대시보드 UI 구현."
+          }
+        ],
+        "recommendation_ko": "Android 파일 시스템과 권한 관리 체계를 깊이 있게 이해하고 싶은 개발자에게 추천합니다. 실용적인 도구 앱을 만들며 사용자 경험을 개선하는 과정을 경험할 수 있습니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 파일 스캔의 정확도, 특정 파일 형식에 대한 처리 방식, 시스템 파일 보호 정책 등에 대한 정보가 부족하여 실제 구현 시 Android 개발 가이드를 면밀히 검토해야 합니다.",
+        "name": "ハイパークリーナー",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.jtrlabs.hypercleanner.trash.storage&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 180,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 20,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "itch:786988fdd06b888acead": {
+      "app_key": "itch:786988fdd06b888acead",
+      "name": "Paper Lily - Chapter 1 [Free] [Role Playing] [Windows] [macOS] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "puzzle",
+      "detail_url": "https://leef6010.itch.io/paper-lily-chapter-1",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T06:01:58+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A slightly larger unconventional horror RPG in which there is always another way!",
+      "analysis": {
+        "app_key": "itch:786988fdd06b888acead",
+        "summary_ko": "다양한 선택지와 해결 방법이 존재하는 비정형 호러 RPG 게임입니다. 플레이어의 선택에 따라 이야기가 달라지는 구조를 가지고 있으며, 퍼즐 요소가 포함된 어드벤처 게임입니다.",
+        "features_ko": [
+          "플레이어의 선택에 따라 결과가 달라지는 다중 경로 시스템을 제공합니다.",
+          "호러 분위기를 기반으로 한 퍼즐 해결 중심의 게임 플레이가 특징입니다.",
+          "전통적인 RPG 형식을 탈피한 독특한 서사 구조를 가지고 있습니다."
+        ],
+        "noteworthy_ko": "하나의 문제를 해결하는 데 여러 방법을 제시하여 플레이어의 자유도를 높인 점이 흥미롭습니다. 이는 개발 시 복잡한 분기 처리가 필요함을 시사하며, 서사 중심의 게임 설계 능력을 보여줍니다.",
+        "development_ko": "복잡한 분기 처리를 위한 스크립트 시스템 구축이 핵심입니다. 퍼즐 요소와 호러 분위기를 연출하기 위한 맵 디자인 및 이벤트 트리거 구현이 중요하며, 플레이어의 선택을 추적하는 상태 관리 시스템이 필요합니다.",
+        "idea_ko": "플레이어의 선택이 게임 내 환경을 영구적으로 변화시키는 '나비 효과' 시스템을 도입하는 것이 좋습니다.",
+        "highlights_ko": [
+          "정해진 답이 없는 자유로운 문제 해결 방식을 제공합니다.",
+          "호러 장르와 RPG 요소를 결합하여 독특한 분위기를 조성합니다."
+        ],
+        "systems_ko": [
+          "분기 처리 및 서사 관리 시스템",
+          "퍼즐 트리거 및 이벤트 관리",
+          "상태 관리(플레이어 선택 기록)",
+          "맵 디자인 및 상호작용 시스템",
+          "호러 연출을 위한 사운드 및 비주얼 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "복잡한 분기 처리가 필요하지만, 기술적으로는 RPG 메이커나 엔진의 기본 기능을 활용하여 구현 가능합니다. 다만, 서사 설계와 퍼즐 밸런스 조정에 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 이동 및 상호작용",
+            "선택지 분기 시스템",
+            "간단한 퍼즐 요소"
+          ],
+          "defer": [
+            "복잡한 다중 엔딩 시스템",
+            "고급 호러 연출 효과"
+          ],
+          "risks": [
+            "분기 처리가 꼬여 발생하는 버그",
+            "퍼즐 난이도 조절 실패로 인한 플레이 흐름 단절"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "나비 효과 시스템",
+            "concept": "초반의 작은 선택이 게임 후반부의 맵 구조나 NPC 반응을 완전히 바꾸는 시스템입니다.",
+            "first_step": "전역 변수를 활용하여 특정 선택지 기록 및 맵 오브젝트 활성화 제어."
+          },
+          {
+            "title": "환경 퍼즐",
+            "concept": "아이템 사용뿐만 아니라 주변 환경(빛, 소리)을 조작하여 퍼즐을 푸는 방식입니다.",
+            "first_step": "조명 밝기 조절에 따른 오브젝트 상호작용 변화 구현."
+          }
+        ],
+        "recommendation_ko": "서사 중심의 게임 개발을 희망하는 개발자에게 추천합니다. 분기 처리와 상태 관리 기술을 익히기에 좋으며, 작은 규모의 퍼즐 게임부터 시작해 점차 서사를 확장하는 방식을 권장합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 게임 메커니즘이나 시스템 구현 방식은 확인되지 않았습니다. 실제 플레이를 통해 분기 구조를 분석할 필요가 있습니다.",
+        "name": "Paper Lily - Chapter 1 [Free] [Role Playing] [Windows] [macOS] [Linux]",
+        "source": "itch",
+        "detail_url": "https://leef6010.itch.io/paper-lily-chapter-1",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 152,
+        "reasons": [
+          "indie_discovery"
+        ],
+        "best_rank": 31,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "itch:40b7f1effb7382a6c201": {
+      "app_key": "itch:40b7f1effb7382a6c201",
+      "name": "dreamcore95idle.exe [Free] [Strategy] [Windows] [macOS] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "",
+      "detail_url": "https://atovange.itch.io/dreamcore95idle",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-27T06:28:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "dreamcore inspired incremental game with vaporwave aesthetics",
+      "analysis": {
+        "app_key": "itch:40b7f1effb7382a6c201",
+        "summary_ko": "Dreamcore 미학을 담은 베이퍼웨이브 스타일의 방치형(Incremental) 게임입니다. 꿈속의 분위기를 자아내는 시각적 요소와 함께 점진적으로 성장하는 게임 구조를 가집니다.",
+        "features_ko": [
+          "베이퍼웨이브 스타일의 시각적 테마를 제공합니다.",
+          "시간이 지남에 따라 자원이 증가하는 방치형 메커니즘을 사용합니다.",
+          "Dreamcore 컨셉의 초현실적인 분위기를 연출합니다."
+        ],
+        "noteworthy_ko": "방치형 게임은 수치 설계가 핵심이며, Dreamcore라는 독특한 미학을 시각적으로 어떻게 구현하느냐가 차별점입니다. 1인 개발 시 아트워크의 일관성이 매우 중요합니다.",
+        "development_ko": "데이터 저장 및 로드 시스템이 필수적이며, 수치 밸런스를 위한 엑셀/스프레드시트 작업이 많습니다. 베이퍼웨이브 스타일의 UI와 셰이더 효과 구현이 필요합니다.",
+        "idea_ko": "방치형 요소에 Dreamcore 특유의 기괴한 내러티브를 추가하여 몰입감을 높이는 것이 좋습니다.",
+        "highlights_ko": [
+          "베이퍼웨이브 미학을 활용한 독특한 비주얼.",
+          "방치형 게임 특유의 중독성 있는 성장 구조."
+        ],
+        "systems_ko": [
+          "자원 자동 증가 시스템",
+          "데이터 저장/로드(세이브)",
+          "업그레이드 트리 시스템",
+          "UI/UX 디자인"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "방치형 게임은 로직 자체는 단순하지만, 플레이어가 지루함을 느끼지 않게 하는 수치 밸런싱이 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 자원 증가 로직",
+            "업그레이드 버튼",
+            "데이터 저장 기능"
+          ],
+          "defer": [
+            "복잡한 스토리 라인",
+            "멀티 플랫폼 최적화"
+          ],
+          "risks": [
+            "수치 밸런스 실패",
+            "아트 스타일의 일관성 유지"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "꿈 조각 수집",
+            "concept": "방치형으로 얻은 자원으로 꿈의 조각을 수집하여 기괴한 갤러리를 완성하는 모드입니다.",
+            "first_step": "수집품 리스트 UI와 해금 로직을 구현합니다."
+          },
+          {
+            "title": "시간 왜곡 이벤트",
+            "concept": "특정 시간마다 자원 증가 속도가 변하는 이벤트 시스템을 도입합니다.",
+            "first_step": "타이머 기반의 배율 적용 로직을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 데이터 설계와 UI 중심의 개발을 배우기에 좋습니다. 미학적인 테마를 게임에 녹여내는 연습을 하기에 적합합니다.",
+        "source_limitations_ko": "구체적인 자원 종류나 업그레이드 항목, 게임의 엔드 콘텐츠에 대한 정보는 없습니다.",
+        "name": "dreamcore95idle.exe [Free] [Strategy] [Windows] [macOS] [Linux]",
+        "source": "itch",
+        "detail_url": "https://atovange.itch.io/dreamcore95idle",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 10000,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
     }
   }
 }

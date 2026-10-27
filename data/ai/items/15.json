@@ -6945,6 +6945,537 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-26"
+    },
+    "itch:e347d3b707529bc1e26b": {
+      "app_key": "itch:e347d3b707529bc1e26b",
+      "name": "Fungarium [$4.99] [Simulation] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://packdev-games.itch.io/fungarium",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T05:45:15+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Autumn, 1911. Inspect each basket, check the book, and stamp it: edible, or poison.",
+      "analysis": {
+        "app_key": "itch:e347d3b707529bc1e26b",
+        "summary_ko": "Fungarium은 1911년 가을을 배경으로 한 버섯 분류 시뮬레이션 게임입니다. 플레이어는 바구니를 검사하고 책을 확인하여 버섯이 식용인지 독버섯인지 분류하고 도장을 찍어야 합니다.",
+        "features_ko": [
+          "바구니 속 버섯을 검사하는 시각적 확인 과정을 제공합니다.",
+          "참조 서적을 확인하여 버섯의 종류를 판별합니다.",
+          "식용 여부를 결정하고 도장을 찍는 분류 시스템이 있습니다."
+        ],
+        "noteworthy_ko": "페이퍼즈 플리즈(Papers, Please)와 유사한 서류 검토형 시뮬레이션으로, 시대적 배경과 소재를 활용한 몰입감이 특징입니다. 단순한 반복 작업 속에서 긴장감을 유발하는 설계가 흥미롭습니다.",
+        "development_ko": "핵심 기술은 UI 기반의 상호작용과 데이터 매칭 로직입니다. 콘텐츠 제작은 버섯 도감 데이터와 시각적 에셋 제작에 집중됩니다. 1인 개발 시 검사 과정의 속도감과 난이도 조절이 핵심입니다.",
+        "idea_ko": "버섯의 상태가 시간이 지남에 따라 변하는 부패 시스템을 추가하는 것이 적합합니다.",
+        "highlights_ko": [
+          "1911년 가을을 배경으로 한 버섯 분류 시뮬레이션입니다.",
+          "도감과 대조하여 식용 여부를 판별하는 직관적인 규칙을 가집니다."
+        ],
+        "systems_ko": [
+          "UI 상호작용 시스템",
+          "데이터 매칭 및 판정 로직",
+          "시간 제한 및 점수 관리",
+          "도감 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 명확하고 UI 기반의 상호작용 위주이므로 1인 개발로 구현하기에 비교적 적합하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "버섯 이미지 및 도감 데이터",
+            "분류 및 도장 찍기 UI"
+          ],
+          "defer": [
+            "복잡한 스토리 이벤트",
+            "다양한 배경 음악"
+          ],
+          "risks": [
+            "반복 작업으로 인한 지루함",
+            "판정 로직의 단순함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "버섯 부패 시스템",
+            "concept": "버섯을 너무 오래 방치하면 부패하여 식용 여부 판별이 어려워지는 환경 요소를 추가합니다.",
+            "first_step": "버섯 객체에 시간 변수를 추가하고 이미지에 필터를 적용하는 로직 구현."
+          },
+          {
+            "title": "희귀 버섯 이벤트",
+            "concept": "가끔 도감에 없는 희귀 버섯이 등장하여 추가 보상을 얻거나 위험을 감수해야 하는 상황을 만듭니다.",
+            "first_step": "확률적으로 희귀 버섯을 생성하고 판정 시 예외 처리를 하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "UI 중심의 시뮬레이션 게임을 만들고 싶은 개발자에게 추천합니다. 특정 시대의 분위기를 살리는 연출과 반복적인 작업의 재미를 설계하는 법을 배울 수 있습니다.",
+        "source_limitations_ko": "버섯의 종류가 몇 가지인지, 도감의 복잡도는 어느 정도인지, 게임의 승리 조건이나 엔딩 여부는 확인되지 않습니다.",
+        "name": "Fungarium [$4.99] [Simulation] [Windows]",
+        "source": "itch",
+        "detail_url": "https://packdev-games.itch.io/fungarium",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 326,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 18,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "itch:48806384023958ce8a65": {
+      "app_key": "itch:48806384023958ce8a65",
+      "name": "FEED THE HEARTH [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://avrdevstudio.itch.io/feed-the-hearth",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T05:46:20+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Keep the fire alive until dawn. The fire is so very hungry.",
+      "analysis": {
+        "app_key": "itch:48806384023958ce8a65",
+        "summary_ko": "새벽이 올 때까지 불을 꺼뜨리지 않고 유지해야 하는 액션 게임입니다. 불은 끊임없이 연료를 요구하며, 플레이어는 이를 관리해야 합니다. 긴박한 자원 관리와 액션이 결합된 형태입니다.",
+        "features_ko": [
+          "불을 유지하기 위해 연료를 지속적으로 공급해야 합니다.",
+          "새벽이 올 때까지 생존하는 것이 목표입니다.",
+          "불의 상태가 게임의 난이도와 직결됩니다."
+        ],
+        "noteworthy_ko": "단순한 생존 목표를 '불 유지'라는 시각적이고 직관적인 요소로 구현한 점이 훌륭합니다. 자원 관리와 액션을 결합하여 플레이어에게 지속적인 긴장감을 제공합니다.",
+        "development_ko": "불의 연소 속도와 연료 공급 간의 밸런스 조정이 핵심입니다. 액션 요소는 단순하게 유지하되, 자원 관리의 긴박함을 살리는 연출이 중요합니다.",
+        "idea_ko": "불의 색깔이나 형태가 연료의 종류에 따라 변하며, 그에 따라 주변 환경에 영향을 주는 시스템을 추가하면 좋습니다.",
+        "highlights_ko": [
+          "불이라는 시각적 요소를 통해 생존 상태를 직관적으로 보여줍니다.",
+          "시간 제한(새벽까지)을 통해 게임의 명확한 끝을 제시합니다."
+        ],
+        "systems_ko": [
+          "자원 관리 시스템",
+          "시간 흐름 및 게임 상태 관리",
+          "아이템 수집 및 상호작용",
+          "난이도 조절 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "핵심 메커니즘이 단순하여 구현은 쉽지만, 플레이어가 지루하지 않게 만드는 밸런스 조정이 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "연료 공급 메커니즘",
+            "불의 크기/상태 시각화",
+            "시간 경과 시스템"
+          ],
+          "defer": [
+            "다양한 적 캐릭터",
+            "복잡한 맵 구조"
+          ],
+          "risks": [
+            "단조로운 플레이 루프",
+            "밸런스 조절 실패로 인한 난이도 급상승"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "불의 정령",
+            "concept": "불이 단순한 자원이 아니라 플레이어를 돕는 정령으로 변하여 주변을 밝히거나 적을 공격합니다.",
+            "first_step": "불의 크기에 따라 주변 밝기가 변하는 조명 시스템 구현."
+          },
+          {
+            "title": "연료의 비밀",
+            "concept": "연료마다 불의 성질이 달라져서 상황에 맞는 연료를 선택해야 하는 전략적 요소를 추가합니다.",
+            "first_step": "두 가지 종류의 연료 아이템과 그에 따른 불의 상태 변화 구현."
+          }
+        ],
+        "recommendation_ko": "핵심 메커니즘 하나를 깊게 파고드는 게임 디자인을 배우기에 좋습니다. 단순한 규칙으로 긴장감을 만드는 방법을 연구하기에 적합합니다.",
+        "source_limitations_ko": "연료를 얻는 방법, 적의 존재 여부, 게임의 구체적인 조작 방식 등은 설명에 명시되어 있지 않습니다.",
+        "name": "FEED THE HEARTH [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://avrdevstudio.itch.io/feed-the-hearth",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 302,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "google:com.cleaner.goal": {
+      "app_key": "google:com.cleaner.goal",
+      "name": "クリーナーゴール",
+      "developer": "Zheng Hongyi",
+      "source": "google",
+      "country": "JP",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.cleaner.goal&hl=ja&gl=JP",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T05:56:20+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Cleaner Goalは、ファイルをより高速化し、ファイルを簡単に管理し、ジャンクファイルを削除するための無料の安全なツールです。 主な機能： ❣自動的に分類されるすべての画像、ツール、ビデオ、音楽、ドキュメント、アプリケーションを閲覧します。 swiftlyを移動、削除、開き、共有するだけでなく、名前を変更してコピーします。 colalローカルデバイスにインストールされているすべてのアプリケーションをエフレイレスに表示および管理します。 storageストレージ統計を効率的に表示し、デバイス上のすべてのフォルダーを管理します。 sorough携帯電話に一時的なファイルと残差データをスキャンし、ワンクリックでクリアします。 clutterクラッター通知をquickにクリアするには、通知バーをきちんと保ちます。 完全な機能を備えたシンプルで洗練されたインターフェイスを備えた効率的なアプリを探している場合、よりクリーンな目標が良い選択です。",
+      "analysis": {
+        "app_key": "google:com.cleaner.goal",
+        "summary_ko": "Cleaner Goal은 기기의 파일을 정리하고 관리하는 도구 앱입니다. 이미지, 비디오, 음악 등 파일을 분류하여 관리할 수 있으며, 불필요한 잔여 데이터를 삭제하여 저장 공간을 확보합니다. 직관적인 인터페이스를 통해 기기 상태를 효율적으로 관리할 수 있습니다.",
+        "features_ko": [
+          "이미지, 비디오, 음악, 문서 등 파일을 자동으로 분류하여 보여줍니다.",
+          "파일 이동, 삭제, 공유, 이름 변경 및 복사 기능을 제공합니다.",
+          "기기에 설치된 앱을 관리하고 저장 공간 통계를 확인할 수 있습니다.",
+          "임시 파일과 잔여 데이터를 스캔하여 한 번의 클릭으로 삭제합니다.",
+          "알림 바의 불필요한 알림을 정리하는 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "파일 관리와 시스템 최적화를 결합한 유틸리티 앱입니다. 사용자가 복잡한 파일 시스템을 직접 다루지 않고도 쉽게 관리할 수 있도록 돕는 것이 핵심입니다.",
+        "development_ko": "안드로이드 파일 시스템 접근 권한 관리와 파일 분류를 위한 메타데이터 분석 기술이 필요합니다. 잔여 데이터 스캔을 위한 정규 표현식 활용과 효율적인 UI/UX 구성이 중요합니다.",
+        "idea_ko": "특정 파일 형식이나 용도에 특화된 파일 관리 도구 구현이 적합합니다.",
+        "highlights_ko": [
+          "파일을 자동으로 분류하여 사용자가 쉽게 관리할 수 있도록 돕습니다.",
+          "원클릭 삭제 기능을 통해 저장 공간 확보 과정을 간소화했습니다."
+        ],
+        "systems_ko": [
+          "파일 시스템 접근 및 스캔 엔진",
+          "파일 분류 및 메타데이터 분석 시스템",
+          "저장 공간 통계 시각화 시스템",
+          "알림 관리 및 정리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "파일 시스템 접근 권한과 기본적인 파일 관리 로직은 안드로이드 API를 통해 비교적 쉽게 구현 가능합니다. 다만, 다양한 기기 환경에서의 호환성 테스트가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "파일 목록 조회 및 분류",
+            "파일 삭제 및 이동 기능",
+            "저장 공간 용량 표시"
+          ],
+          "defer": [
+            "알림 바 정리 기능",
+            "고도화된 잔여 데이터 스캔"
+          ],
+          "risks": [
+            "잘못된 파일 삭제로 인한 데이터 손실",
+            "안드로이드 버전별 권한 정책 변경 대응"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중복 사진 정리기",
+            "concept": "기기 내 중복된 사진을 찾아내어 삭제를 제안하는 사진 전용 관리 도구입니다.",
+            "first_step": "이미지 파일의 해시값을 비교하여 중복 여부를 판단하는 로직을 구현합니다."
+          },
+          {
+            "title": "대용량 파일 탐색기",
+            "concept": "기기에서 가장 용량을 많이 차지하는 파일들을 찾아내어 정리를 돕는 앱입니다.",
+            "first_step": "파일 크기순으로 정렬하여 리스트를 보여주는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "안드로이드 시스템 API 활용 능력을 키우고 싶은 개발자에게 추천합니다. 파일 관리 앱은 실용적이며 개인 개발자가 완성도 있게 만들기 좋은 프로젝트입니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 잔여 데이터 스캔의 구체적인 기준, 알림 정리 기능의 구현 방식, 보안 관련 상세 로직은 확인되지 않습니다.",
+        "name": "クリーナーゴール",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.cleaner.goal&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "apple:1530905195": {
+      "app_key": "apple:1530905195",
+      "name": "ＭＤＣアプリ",
+      "developer": "三菱UFJニコス株式会社",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/jp/app/%EF%BD%8D%EF%BD%84%EF%BD%83%E3%82%A2%E3%83%97%E3%83%AA/id1530905195",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T06:06:03+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "三菱UFJニコスが提供する公式スマートフォンアプリ「ＭＤＣアプリ」 カードのお支払金額やお支払明細、ポイント、ご利用可能額などをわかりやすくご確認いただけます。 ======= 【主な機能】 ======= ■月ごとの明細でわかりやすく 見やすくまとまった月々のお支払金額。最大16ヶ月分のお支払明細をご確認いただけます。 ■ご利用状況の確認をかんたん 前月比やご利用可能額を確認できるので、安心してカードをご利用いただけます。 ■ポイントをおトクにためる・つかう ポイントアッププログラムにエントリーでおトクにポイントをためられ、たまったポイントはすぐにご利用いただけます。 ※一部、ご利用いただけないカードがございます。 ※ポイントアッププログラムは三菱UFJカードが対象です。 ■お支払金額の変更もお借り入れもアプリでワンストップ お支払金額の変更もお借り入れもアプリ内でシンプルかつスピーディーに手続きできます。 ご請求内容やご利用可能額の確認から、各種申し込み手続きまでアプリで完結します。 ※一部、ご利用いただけないカードがございます。 ■お好きな認証方法で、安全にログイン パスコード設定を行うことで、次回以降の会員専用WEＢサービス「My Digital Connect」のID・パスワード入力を省略できます。 パスコード認証・生体認証（Touch ID / Face ID）・会員専用WEＢサービス「My Digital Connect」のID/パスワードの都度入力、あなたに合った安全なログイン方法を選択できます。 ======= 【利用条件】 ======= ・ご利用には、会員専用WEＢサービス「My Digital Connect」のID（登録無料）が必要です。 ・ＭＤＣマーク(旧MUFGカード/旧DCカード)が入ったカードの個人会員の方がご利用いただけます。 ※一部、サービスをご利用いただけないカードがございます。 ======= 【注意事項】 ======= ・システムメンテナンスにより、ログインまたは請求額やご利用明細などの情報を取得できない場合がございます。詳細は三菱UFJニコスWEBサイトのサービス停止スケジュールをご確認ください。 ・お客さまのご利用環境やインターネット環境などの理由によっては、正常に情報が取得できず、エラーとなる場合がございます。 ・ダウンロードや利用時にかかる通信料は、お客さまのご負担となります。 ・掲載の画像はすべてイメージです。 ・本アプリより提供する懸賞について、Apple Inc.、Apple Japan Inc.（アップルジャパン合同会社）は、一切関係がありません。",
+      "analysis": {
+        "app_key": "apple:1530905195",
+        "summary_ko": "ＭＤＣアプリ는 미쓰비시UFJ니코스에서 제공하는 공식 카드 관리 앱입니다. 카드 결제 금액, 이용 명세, 포인트, 이용 가능 금액 등을 확인할 수 있습니다. 생체 인증을 통한 안전한 로그인과 결제 금액 변경 및 대출 신청 등의 기능을 앱 내에서 완결할 수 있습니다.",
+        "features_ko": [
+          "월별 결제 금액 및 최대 16개월간의 이용 명세를 확인합니다.",
+          "전월 대비 이용 상황 및 이용 가능 금액을 조회합니다.",
+          "포인트 적립 및 사용 프로그램을 관리합니다.",
+          "결제 금액 변경 및 대출 신청을 앱 내에서 처리합니다.",
+          "생체 인증(Touch ID/Face ID)을 통한 안전한 로그인을 지원합니다."
+        ],
+        "noteworthy_ko": "금융 앱으로서 사용자 인증의 보안성과 편의성을 동시에 확보한 점이 핵심입니다. 앱 내에서 결제 관련 주요 업무를 완결하는 구조는 금융 서비스의 표준적인 모델입니다.",
+        "development_ko": "금융 데이터의 보안 전송 및 저장 기술이 핵심입니다. 생체 인증 연동과 안정적인 서버 통신이 필요합니다. 사용자 친화적인 금융 UI/UX 설계가 중요합니다.",
+        "idea_ko": "카드 이용 패턴을 분석하여 소비 절약을 제안하는 개인 금융 비서 기능 추가가 적합합니다.",
+        "highlights_ko": [
+          "카드 이용 내역 및 결제 금액을 한눈에 확인하는 직관적인 UI입니다.",
+          "생체 인증을 도입하여 보안과 편의성을 모두 고려했습니다."
+        ],
+        "systems_ko": [
+          "보안 인증 시스템(생체 인증)",
+          "금융 데이터 조회 및 처리 모듈",
+          "사용자 계정 관리 시스템",
+          "결제 및 대출 신청 프로세스 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "금융 앱은 높은 보안 수준과 데이터 정확성이 필수적입니다. 개인 개발자가 금융 시스템을 완벽하게 구현하는 것은 매우 어렵고 법적 규제도 복잡합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카드 이용 내역 조회",
+            "기본적인 로그인 시스템"
+          ],
+          "defer": [
+            "대출 신청 기능",
+            "복잡한 포인트 관리 시스템"
+          ],
+          "risks": [
+            "금융 데이터 보안 사고",
+            "법적 규제 준수 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "소비 패턴 분석기",
+            "concept": "카드 이용 내역을 카테고리별로 분류하여 소비 패턴을 시각화해 주는 기능입니다.",
+            "first_step": "이용 내역 데이터를 카테고리별로 분류하는 로직 구현."
+          },
+          {
+            "title": "결제일 알림 서비스",
+            "concept": "결제일이 다가오면 잔액 확인을 요청하는 알림을 보내주는 기능입니다.",
+            "first_step": "결제일 설정 및 알림 발송 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "금융 앱의 보안 설계와 사용자 인증 방식을 배우기에 좋습니다. 다만, 실제 금융 서비스 개발은 법적 규제와 보안 이슈로 인해 매우 신중해야 합니다.",
+        "source_limitations_ko": "소개문에는 서버 통신 방식이나 데이터 암호화 기술에 대한 세부 사항이 없습니다. 시스템 유지보수나 오류 발생 시의 대응 방식은 확인되지 않았습니다.",
+        "name": "ＭＤＣアプリ",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%EF%BD%8D%EF%BD%84%EF%BD%83%E3%82%A2%E3%83%97%E3%83%AA/id1530905195",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 74,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "apple:6797907221": {
+      "app_key": "apple:6797907221",
+      "name": "Fill Sand: Block Puzzle",
+      "developer": "Stormborn Inc.",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/kr/app/fill-sand-block-puzzle/id6797907221?uo=2",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T06:09:13+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Watch the sand pour. Every single grain moves for real — it falls, it piles, it slides. Drop one block and thousands of colored grains stream in, the picture above breaks apart, and the colors settle somewhere you never planned for. Sand Fill is the oddly satisfying block puzzle where physics does the talking. HOW TO PLAY • Look at the sand picture above — colors, shapes, layers. • Drag a block onto the grid below. • The block drinks up every grain that matches its color. • The rest of the sand collapses and resettles. Read it again. • Empty the whole picture before time runs out. One finger. No tutorial needed. You'll get it in ten seconds. IT'S THE PHYSICS THAT GETS YOU This isn't sand-shaped decoration. Grains fall, stack, avalanche and mix. Clear the red underneath and everything above comes down. Every stage is a little collapse you set off yourself. SPACE IS THE REAL PUZZLE The grid below is small, and blocks come in awkward shapes. Park one badly and you've stolen the room you needed three moves later. Strong players don't place fast — they place last. COLORS DON'T STAY PUT Sand mixes as it falls. That clean band of blue turns speckled halfway down, and now you have to dig for it. Bring your blocks to the sand instead of waiting for the sand to come to you. PUZZLES THAT KEEP CHANGING • Hidden blocks that won't show their color until you clear others • Frozen blocks locked behind ice • Layered blocks hiding a second color underneath • Sliding blocks that travel on one axis only • Locks and keys • A brand-new picture every single stage WHEN YOU'RE STUCK • Freeze — stop the clock and think it through • Hammer — smash one block into single squares and spread them out • Magnet — pull every matching grain straight into one block Save them. You'll want them later. FEATURES • Real falling-sand physics, grain by grain • Simple one-finger drag controls • Colorful pictures to uncover • Shape and space planning that actually matters • Clear goals, quick stages, easy to pick up • No wrong way to start — just drop a block Drop the block. Watch it pour. Clear every grain. Download Sand Fill: Block Puzzle and see how far you can go.",
+      "analysis": {
+        "app_key": "apple:6797907221",
+        "summary_ko": "모래가 쏟아지고 쌓이는 물리 엔진을 활용한 블록 퍼즐 게임입니다. 사용자는 블록을 배치하여 화면 위의 모래를 제거하고 주어진 목표를 달성해야 합니다. 모래의 흐름과 쌓임이 실시간으로 계산되어 매번 다른 퍼즐 경험을 제공합니다.",
+        "features_ko": [
+          "모래 알갱이 하나하나가 물리 법칙에 따라 떨어지고 쌓이는 시뮬레이션이 작동합니다.",
+          "한 손가락 드래그 조작으로 블록을 그리드에 배치할 수 있습니다.",
+          "특정 색상의 모래를 흡수하는 블록을 사용하여 화면의 모래를 제거합니다.",
+          "얼음, 잠금 장치, 이동 블록 등 다양한 장애물이 포함된 스테이지가 제공됩니다.",
+          "시간 제한 내에 모든 모래를 제거해야 하는 퍼즐 규칙을 따릅니다."
+        ],
+        "noteworthy_ko": "모래의 물리적 흐름을 퍼즐의 핵심 메커니즘으로 삼은 점이 흥미롭습니다. 단순히 정적인 퍼즐이 아니라, 모래가 쏟아지며 발생하는 변수를 예측하고 공간을 관리해야 하는 전략적 요소가 강조된 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 2D 물리 엔진을 활용한 입자(Particle) 시뮬레이션 구현입니다. 모래의 쌓임과 붕괴를 처리하는 알고리즘 최적화가 중요하며, 다양한 블록 상호작용을 위한 규칙 설계가 필요합니다. 테스트 시 모래가 의도치 않게 갇히는 현상을 방지하는 밸런스 조정이 핵심입니다.",
+        "idea_ko": "모래의 색상을 조합하여 새로운 색을 만드는 '색상 혼합 퍼즐' 모드 도입.",
+        "highlights_ko": [
+          "실시간 물리 시뮬레이션: 모래가 쏟아지고 쌓이는 과정이 매번 다르게 연출됩니다.",
+          "공간 전략: 블록을 잘못 배치하면 이후 이동 공간이 부족해지는 제약이 있습니다."
+        ],
+        "systems_ko": [
+          "2D 물리 엔진(입자 시스템)",
+          "그리드 기반 배치 시스템",
+          "스테이지 데이터 관리",
+          "시간 제한 및 게임 상태 관리",
+          "UI/UX 인터랙션"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진을 활용한 입자 처리는 구현 난도가 있으나, 퍼즐 규칙 자체는 직관적입니다. 1인 개발 시 물리 연산 최적화와 스테이지 레벨 디자인에 상당한 시간이 소요될 것으로 보입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "모래 낙하 및 쌓임 물리 엔진",
+            "블록 배치 및 모래 제거 로직",
+            "기본 스테이지 레벨 디자인"
+          ],
+          "defer": [
+            "얼음, 자석 등 특수 아이템",
+            "다양한 스킨 및 커스터마이징"
+          ],
+          "risks": [
+            "모래 입자 수 증가에 따른 성능 저하",
+            "물리 연산의 비결정론적 결과로 인한 퍼즐 난이도 불균형"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "모래 색상 혼합",
+            "concept": "서로 다른 색의 모래가 섞여 새로운 색이 될 때만 제거 가능한 블록을 배치합니다.",
+            "first_step": "두 가지 색상의 입자가 겹칠 때 색상 값을 합산하는 로직 구현."
+          },
+          {
+            "title": "중력 반전 퍼즐",
+            "concept": "특정 구역에서 중력 방향이 바뀌어 모래가 위로 솟구치는 퍼즐입니다.",
+            "first_step": "특정 영역 내의 중력 벡터를 반전시키는 물리 필드 구현."
+          }
+        ],
+        "recommendation_ko": "물리 기반 퍼즐의 기초를 다지고 싶은 개발자에게 추천합니다. 입자 시스템의 효율적인 관리와 물리 엔진의 제어 방법을 배우기에 적합합니다.",
+        "source_limitations_ko": "소개문에는 물리 엔진의 구체적인 구현 방식(라이브러리 사용 여부 등)이 명시되지 않았습니다. 또한, 결제나 광고 연동에 대한 정보는 없습니다.",
+        "name": "Fill Sand: Block Puzzle",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/fill-sand-block-puzzle/id6797907221?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 94,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "google:com.mearsure.heartratepro.manage": {
+      "app_key": "google:com.mearsure.heartratepro.manage",
+      "name": "血圧アプリ",
+      "developer": "P & L Studio",
+      "source": "google",
+      "country": "JP",
+      "category": "app_health_fitness",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.mearsure.heartratepro.manage&hl=ja&gl=JP",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-27T06:22:20+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Blood Pressure Appは、健康データの記録、追跡、管理を効率的に行うためのサポートをします。このアプリケーションは、血圧、血糖値、BMIを記録する包括的なツールとして機能するほか、心拍数測定、睡眠記録、AIアシストによる健康相談などの機能も備えています。 主な機能 血圧記録器：血圧データを手動で記録します。明確なチャートやグラフを通じて、過去のデータを表示し、時間の経過に伴う傾向を観察できます。 血糖値トラッカー：血糖値を定期的に記録します。アプリがデータを視覚化し、血糖値の変化を追跡するのに役立ちます。 スマートフェイシャルウェルネスAI：顔の特徴に焦点を当てた写真を撮影またはアップロードするだけで、AIによる一般的なウェルネスのアドバイスや健康のヒントを受け取ることができます。 睡眠記録＆リラックスミュージック：睡眠時間を手動で記録し、毎日の休息を追跡します。また、このアプリケーションは入眠をサポートする心地よい音楽も提供します。 BMI計算機：体重と身長を入力して、BMI（体格指数）を計算します。これにより、自分の体重が適切な範囲内にあるかどうかを把握できます。 健康知識：血圧や血糖値の管理に関する有益な記事やヒントにアクセスし、自分の健康指標をより深く理解できます。 免責事項 医療機器ではありません：本アプリは血圧や血糖値を測定するものではありません。データの記録および追跡のみを目的として設計されています。医療の緊急事態を対象としたものではありません。支援が必要な場合は、医師にご相談ください。 一般情報のみ：本アプリケーションを通じて提供される情報は、一般公開向けの概要情報の提供のみを目的としており、成文法や規制に代わるものではありません。本アプリは、医療専門家による指導を提供するものではありません。指導が必要な場合は、専門の医療機関または医師にご相談ください。 AIコンテンツの制限：AIが生成する一般的な健康に関する提案やウェルネスのヒントは情報提供の参考用であり、認定された医療指導、専門的な診断、または医療介入に代わるものではありません。医療に関する懸念がある場合は、必ず資格を持つ医師にご相談ください。 心拍数モニターの制限：心拍数モニターは、心臓病を診断するための医療機器として使用しないでください。一部の端末では、心拍数モニター機能によりLEDフラッシュが熱くなる場合があります。",
+      "analysis": {
+        "app_key": "google:com.mearsure.heartratepro.manage",
+        "summary_ko": "혈압, 혈당, BMI 등 건강 데이터를 기록하고 추적하는 종합 건강 관리 앱입니다. AI를 활용한 건강 팁 제공과 수면 기록, 이완 음악 재생 기능을 포함합니다. 사용자는 수동으로 데이터를 입력하여 자신의 건강 상태를 차트와 그래프로 확인할 수 있습니다.",
+        "features_ko": [
+          "혈압과 혈당 수치를 수동으로 입력하고 차트와 그래프로 시각화합니다.",
+          "신장과 체중을 입력하여 BMI 지수를 자동으로 계산합니다.",
+          "얼굴 사진을 업로드하면 AI가 일반적인 건강 팁을 제공합니다.",
+          "수면 시간을 기록하고 입면을 돕는 음악을 재생합니다."
+        ],
+        "noteworthy_ko": "의료 기기가 아님을 명시하면서도 AI를 활용한 웰니스 조언 기능을 제공하는 점이 특징입니다. 데이터 시각화와 건강 정보 제공을 통해 사용자의 지속적인 기록을 유도하는 구조입니다.",
+        "development_ko": "데이터베이스 설계와 차트 라이브러리 활용이 핵심입니다. AI 기능은 외부 API를 연동할 가능성이 높으며, 의료 정보와 관련된 면책 조항 처리가 필수적입니다.",
+        "idea_ko": "사용자의 건강 기록 패턴을 분석하여 특정 시간대에 건강 관리 알림을 주는 '개인화된 건강 루틴 관리'가 적합합니다.",
+        "highlights_ko": [
+          "다양한 건강 지표의 통합 기록 및 시각화.",
+          "AI 기반의 일반적인 건강 웰니스 조언."
+        ],
+        "systems_ko": [
+          "데이터 입력 및 로컬 저장 시스템",
+          "차트 및 그래프 시각화 엔진",
+          "BMI 계산 로직",
+          "오디오 재생 관리 시스템",
+          "AI 웰니스 조언 연동 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "데이터 관리와 시각화는 표준적인 라이브러리로 구현 가능합니다. 다만 건강 관련 앱이므로 데이터의 정확성과 보안, 그리고 의료 면책 조항에 대한 법적 고려가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "혈압/혈당 데이터 입력 및 저장",
+            "데이터 시각화 그래프",
+            "BMI 계산기"
+          ],
+          "defer": [
+            "AI 건강 팁 기능",
+            "수면 음악 재생 기능"
+          ],
+          "risks": [
+            "사용자 건강 데이터의 보안 및 개인정보 보호",
+            "의료 기기 오인 가능성에 따른 법적 책임"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "건강 습관 챌린지",
+            "concept": "기록한 데이터를 바탕으로 사용자가 목표를 설정하고 달성 여부를 체크하는 게임화된 건강 앱입니다.",
+            "first_step": "데이터 입력 시 목표 달성 여부를 판단하는 로직 구현."
+          },
+          {
+            "title": "식단-혈당 상관 분석",
+            "concept": "식사 내용과 혈당 변화를 함께 기록하여 특정 음식이 혈당에 미치는 영향을 분석하는 도구입니다.",
+            "first_step": "식단과 혈당 데이터를 연결하는 데이터베이스 구조 설계."
+          }
+        ],
+        "recommendation_ko": "데이터베이스 관리와 UI 시각화 기술을 익히기에 적합합니다. 의료 관련 앱이므로 법적 면책 조항 작성과 개인정보 보호에 대한 학습이 필수적입니다.",
+        "source_limitations_ko": "AI 기능의 구체적인 구현 방식(자체 모델인지 외부 API인지)은 알 수 없습니다. 의료 기기 연동 여부나 보안 인증에 대한 정보는 없습니다.",
+        "name": "血圧アプリ",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.mearsure.heartratepro.manage&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
     }
   }
 }

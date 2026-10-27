@@ -6682,6 +6682,452 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-25"
+    },
+    "apple:6806893507": {
+      "app_key": "apple:6806893507",
+      "name": "개인통행실태조사 GPS",
+      "developer": "ConsumerInsight INC",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_lifestyle",
+      "detail_url": "https://apps.apple.com/kr/app/%EA%B0%9C%EC%9D%B8%ED%86%B5%ED%96%89%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC-gps/id6806893507?uo=2",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T05:52:58+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "국토교통부와 한국교통연구원이 실시하는 「2026년 개인통행실태조사」 참여자를 위한 공식 앱입니다. 국가통합교통체계효율화법 시행령 제8조(국가교통조사의 실시) 제1항 전국을 대상으로 5년마다 실시하는 조사입니다. ■ 이런 분들을 위한 앱이에요 조사 참여 안내를 받으신 분이 배정된 조사 기간 동안 이동 정보를 자동으로 기록하기 위해 사용하는 앱입니다. ■ 주요 기능 - GPS 자동 수집: 별도 조작 없이 배정된 조사일 동안 이동 경로가 자동으로 기록돼요 - 간편한 기초설문: 앱에서 몇 분이면 응답 가능해요 - 이동 다이어리: 하루 동안의 이동을 간단히 확인하고 보완할 수 있어요 - 진행 현황 확인: 조사 참여 상태를 한눈에 확인할 수 있어요 ■ 개인정보 보호 - 수집된 위치정보는 통행실태조사 목적으로만 사용되며 관계 법령에 따라 안전하게 관리됩니다 - 조사 종료 후 정해진 절차에 따라 파기됩니다 ■ 참여 방법 조사 참여 안내 문자로 받으신 참여코드로 로그인 후 이용하실 수 있습니다.",
+      "analysis": {
+        "app_key": "apple:6806893507",
+        "summary_ko": "개인통행실태조사 GPS는 국토교통부와 한국교통연구원이 실시하는 조사 참여자를 위한 공식 앱입니다. GPS를 통해 사용자의 이동 경로를 자동으로 수집하여 통행 실태를 파악합니다. 참여자는 앱을 통해 기초 설문을 작성하고 자신의 이동 다이어리를 확인하며 조사에 참여할 수 있습니다.",
+        "features_ko": [
+          "GPS를 활용하여 사용자의 이동 경로를 별도 조작 없이 자동으로 수집합니다.",
+          "앱 내에서 간편하게 기초 설문에 응답할 수 있습니다.",
+          "하루 동안의 이동 경로를 기록한 다이어리를 확인하고 보완할 수 있습니다.",
+          "조사 참여 상태와 진행 현황을 한눈에 확인할 수 있습니다.",
+          "참여 코드를 통해 로그인하여 개인별 맞춤 조사를 진행합니다."
+        ],
+        "noteworthy_ko": "국가 단위의 대규모 조사를 위해 GPS 데이터를 수집하는 공공 목적의 앱이라는 점이 특징입니다. 위치 정보 수집의 투명성과 데이터 관리의 보안성이 매우 강조되는 구조입니다.",
+        "development_ko": "백그라운드 위치 정보 수집을 위한 배터리 최적화와 정확도 확보가 기술적 핵심입니다. 수집된 대량의 위치 데이터를 서버로 안전하게 전송하고 관리하는 인프라가 필요하며, 개인정보 보호를 위한 암호화 및 파기 절차 구현이 필수적입니다.",
+        "idea_ko": "개인의 이동 경로를 바탕으로 탄소 배출량을 계산하거나, 가장 효율적인 이동 경로를 추천해 주는 '친환경 이동 분석기'로 응용할 수 있습니다.",
+        "highlights_ko": [
+          "자동화된 GPS 수집을 통해 사용자의 번거로움을 최소화했습니다.",
+          "국가 조사 목적에 최적화된 설문 및 다이어리 기능을 제공합니다."
+        ],
+        "systems_ko": [
+          "백그라운드 위치 수집 서비스",
+          "데이터 암호화 및 전송 모듈",
+          "설문 조사 및 응답 관리 시스템",
+          "사용자 인증 및 참여 코드 관리",
+          "개인정보 파기 및 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "백그라운드 위치 수집은 OS의 배터리 정책에 따라 제약이 많아 구현이 까다롭습니다. 또한 공공 데이터 수집 앱으로서 높은 수준의 보안과 안정성이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "GPS 위치 수집 기능",
+            "사용자 로그인(참여 코드)",
+            "데이터 전송 기능"
+          ],
+          "defer": [
+            "이동 다이어리 자동 보완",
+            "실시간 경로 시각화",
+            "고급 설문 로직"
+          ],
+          "risks": [
+            "백그라운드 위치 수집으로 인한 배터리 소모 이슈",
+            "위치 정보 수집에 대한 사용자 거부감"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "나만의 이동 지도",
+            "concept": "사용자가 방문한 장소와 이동 경로를 지도 위에 시각화하여 개인의 이동 기록을 추억으로 남기는 앱입니다.",
+            "first_step": "지도 API(Google Maps 등)를 연동하여 GPS 좌표를 지도 위에 선으로 표시하는 기능 구현."
+          },
+          {
+            "title": "이동 시간 통계",
+            "concept": "매일 이동하는 시간을 분석하여 출퇴근이나 등하교에 소요되는 총 시간을 통계로 보여주는 앱입니다.",
+            "first_step": "위치 데이터의 타임스탬프를 활용하여 이동 시작과 종료 시간을 계산하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "위치 기반 서비스(LBS)의 기초와 백그라운드 프로세스 관리법을 배우기에 좋습니다. 공공 앱의 데이터 관리 방식을 참고하여 보안 중심의 개발을 경험할 수 있습니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 데이터 수집 주기, 서버와의 통신 프로토콜, 위치 데이터의 정밀도 보정 방식 등에 대한 정보가 부족하여 실제 구현 시 관련 기술 문서를 추가로 확인해야 합니다.",
+        "name": "개인통행실태조사 GPS",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EA%B0%9C%EC%9D%B8%ED%86%B5%ED%96%89%EC%8B%A4%ED%83%9C%EC%A1%B0%EC%82%AC-gps/id6806893507?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 177,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "google:com.scottgames.fnaf2": {
+      "app_key": "google:com.scottgames.fnaf2",
+      "name": "Five Nights at Freddy's 2",
+      "developer": "Clickteam USA LLC",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.scottgames.fnaf2&hl=en&gl=US",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T05:55:22+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "NOTE: Remastered version from the PC version. A device with at least 2 GB of RAM is required for this game to run properly. Welcome back to the new and improved Freddy Fazbear's Pizza! In Five Nights at Freddy's 2, the old and aging animatronics are joined by a new cast of characters. They are kid-friendly, updated with the latest in facial recognition technology, tied into local criminal databases, and promise to put on a safe and entertaining show for kids and grown-ups alike! What could go wrong? As the new security guard working nights, your job is to monitor cameras and make sure nothing goes wrong after-hours. The previous guard has complained about the characters trying to get into the office (he has since been moved to day-shift). So to make your job easier, you've been provided with your very own empty Freddy Fazbear head, which should fool the animatronic characters into leaving you alone if they should accidentally enter your office. As always, Fazbear Entertainment is not responsible for death or dismemberment. NOTE: Interface and audio in English. Subtitles in English, French, German, Dutch, Spanish (Latin America), Italian, Portuguese (Brazil), Russian, Japanese, Chinese (Simplified), Korean. #MadeWithFusion",
+      "analysis": {
+        "app_key": "google:com.scottgames.fnaf2",
+        "summary_ko": "Five Nights at Freddy's 2는 경비원이 되어 밤 시간 동안 감시 카메라를 통해 애니매트로닉스들을 관찰하고 생존하는 공포 게임입니다. 이전보다 더 많은 캐릭터가 등장하며, 플레이어는 사무실로 침입하려는 캐릭터들을 피하기 위해 프레디 파즈베어 가면을 활용해야 합니다. 긴장감 넘치는 환경에서 정해진 시간 동안 살아남는 것이 목표입니다.",
+        "features_ko": [
+          "감시 카메라를 통해 실시간으로 애니매트로닉스의 위치를 추적합니다.",
+          "사무실로 침입하는 캐릭터를 속이기 위해 프레디 파즈베어 가면을 착용합니다.",
+          "다양한 신규 캐릭터들이 등장하여 난이도와 공포감을 높입니다.",
+          "제한된 전력과 자원을 관리하며 밤을 버텨야 합니다."
+        ],
+        "noteworthy_ko": "제한된 시야와 고정된 위치에서 오는 심리적 압박을 극대화한 설계가 흥미롭습니다. 가면이라는 단순한 도구를 통해 적의 공격을 회피하는 메커니즘은 자원 관리와 타이밍의 중요성을 잘 보여줍니다.",
+        "development_ko": "핵심 기술로는 카메라 전환 시스템과 애니매트로닉스의 AI 경로 탐색 및 상태 머신 구현이 필요합니다. 콘텐츠 제작 측면에서는 캐릭터 모델링과 애니메이션, 그리고 공포 분위기를 조성할 사운드 디자인의 비중이 큽니다. 밸런스는 캐릭터의 이동 속도와 공격 타이밍을 조정하여 플레이어가 느끼는 긴장감을 유지하는 데 집중해야 합니다.",
+        "idea_ko": "가면을 쓰는 대신, 특정 구역의 전력을 차단하여 적의 센서를 교란하는 '전력 분산 시스템'을 도입하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "가면을 활용한 독특한 회피 메커니즘이 긴장감을 유발합니다.",
+          "다양한 캐릭터의 등장으로 인해 매번 다른 대응 전략이 요구됩니다."
+        ],
+        "systems_ko": [
+          "카메라 전환 및 모니터링 시스템",
+          "애니매트로닉스 AI 상태 머신",
+          "시간 경과에 따른 게임 상태 관리",
+          "가면 착용 및 회피 판정 로직",
+          "사운드 및 시각적 공포 연출 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "핵심 메커니즘이 명확하여 1인 개발로 구현 가능하지만, 적의 AI 패턴과 공포 분위기를 위한 연출의 정교함이 완성도를 결정합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카메라 뷰 전환 기능",
+            "애니매트로닉스 이동 AI",
+            "가면 착용 및 회피 로직"
+          ],
+          "defer": [
+            "복잡한 스토리 컷신",
+            "다양한 커스텀 난이도 설정"
+          ],
+          "risks": [
+            "AI 패턴의 단조로움으로 인한 재미 저하",
+            "공포 연출의 밸런스 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "전력 분산 시스템",
+            "concept": "가면 대신 특정 구역의 전력을 차단하여 적의 센서를 교란합니다. 전력은 한정되어 있어 어떤 구역을 어둡게 할지 전략적 선택이 필요합니다.",
+            "first_step": "특정 구역의 조명을 끄고 켜는 토글 스위치와 그에 따른 적의 이동 경로 변화를 구현합니다."
+          },
+          {
+            "title": "소리 기반 추적",
+            "concept": "카메라 대신 소리 센서를 사용하여 적의 위치를 파악합니다. 적이 가까이 올수록 소리가 커지며, 플레이어는 소리를 내지 않고 숨어야 합니다.",
+            "first_step": "거리 기반 사운드 감쇠 효과와 적의 근접 시 경고 시스템을 프로토타이핑합니다."
+          }
+        ],
+        "recommendation_ko": "제한된 공간에서 플레이어의 공포를 극대화하는 연출법을 배우기에 좋습니다. 단순한 메커니즘으로도 높은 몰입감을 줄 수 있는 게임 디자인을 연구하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 AI 로직이나 카메라 시스템의 세부 구현 방식이 명시되어 있지 않으며, 외부 서비스 연동이나 결제 기능에 대한 정보는 없습니다.",
+        "name": "Five Nights at Freddy's 2",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.scottgames.fnaf2&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "apple:446016180": {
+      "app_key": "apple:446016180",
+      "name": "Yahoo!ショッピング-PayPayポイントが貯まる通販",
+      "developer": "Yahoo Japan Corporation",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/jp/app/yahoo-%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0-paypay%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E8%B2%AF%E3%81%BE%E3%82%8B%E9%80%9A%E8%B2%A9/id446016180",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T06:16:17+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "3.0億の品揃えの日本最大級の通販モール！ お買い物はYahoo!ショッピングアプリが便利！ ----- ■Yahoo!ショッピングなら毎日5%貯まる！ ※期間限定ポイント- 利用先・期間限定です。 ■PayPayカードを利用すると＋2% ■ストアポイント1% ※PayPayポイントは出金と譲渡はできません。PayPay公式ストアでも利用可能です。 ※一部キャンペーン対象外のストア、商品があります。 ※PayPayポイントの付与条件、倍率の算出方法はキャンペーンごとに異なります。 ----- ■Yahoo!ショッピングでもスマホ決済サービス「PayPay」が使える！ ・商品購入時の決済方法として、PayPay株式会社が提供するスマホ決済サービス「PayPay」が利用できるようになります。 ・決済利用でPayPayポイント1%が獲得できます。 ・PayPay（ペイペイ）にチャージした金額を、Yahoo!ショッピングでのお買い物でも利用できます。 ※一部利用できないストアがあります。 ※クレジットカード払い、キャリア決済、モバイルSuica、コンビニ決済に加えて、PayPay（ペイペイ）でもお支払いができるようになります。 ----- ■毎日おトクなショッピングクーポン！ Yahoo!ショッピングアプリ内でGETできるクーポンを使い、さらにおトクにお買い物ができます。 人気のクーポンをランキング形式やカテゴリー別に確認できるので、逃さずチェックしましょう！ ----- ■こんな方にYahoo!ショッピングアプリはオススメです ・取扱い商品数が豊富な通販アプリをお探しの方 ・PayPay（ペイペイ）を利用しておトクにお買い物したい方 ・ファッションアイテムや生活用品を一つのアプリで購入したい方 ・おトクなセールやキャンペーン、クーポンが利用でき季節ごとの商品特集があるお買い物アプリをお探しの方 ----- ■Yahoo!ショッピングの特徴 国内最大級の86万以上のストア、約3.0億点の商品とロハコ（LOHACO）商品、ZOZOTOWNを含む商品のなかから、あなたにぴったりの商品を選べます。 【取扱い商品のカテゴリ一覧】 レディースファッション メンズファッション Tシャツ、Yシャツ 腕時計、アクセサリー 食品 スイーツ、洋菓子 ドリンク、水、お酒 家電 テレビ、オーディオ、カメラ スマホ、タブレット、パソコン 家具、インテリア キッチン、日用品、文具 アウトドア、釣り、旅行用品 ダイエット、健康 コンタクトレンズ、ケア用品 コスメ、美容、ヘアケア ベビー、キッズ、マタニティ ペット用品、生き物 花、ガーデニング DIY、工具 車、バイク、自転車 スポーツ ゲーム、おもちゃ 楽器、手芸、コレクション CD、音楽ソフト、チケット DVD、映像ソフト 本、雑誌、コミック レンタル、各種サービス そのほかにも、以下の商品がおすすめです！ 季節商品（おせち、バレンタインデー、ホワイトデー、水着、お中元、ハロウィン、クリスマス） お取り寄せグルメ 業務用サイズの商品 バッグや靴などのブランド雑貨 【便利な新機能！】 ・Yahoo!ショッピングでも「PayPay（ペイペイ）」が使える！もらえる！ ・商品が発送されたら、Push通知でお知らせします。 ・ウィジェットから手軽に検索したり、お気に入りにアクセスできます。 ・お得な情報をプッシュ通知でお知らせます。 ・商品詳細から、より安い商品を見つけることが出来るようになりました。 ・クーポンなど、おトクな情報を逃さないよう、アプリ内でお知らせします。 ・お届け希望日やキャンペーンをカレンダーに登録する機能を追加しました。 PayPayポイントは、Yahoo!ショッピングやYahoo!オークションなどのYahoo! JAPANサービスをはじめ、LOHACO等のサービスや、PayPay対応の実店舗などでも利用できます。 また、キャンペーンの開始・終了などのおトクな情報をはじめ、クーポンの有効期限もプッシュ通知でお知らせします。おトクな買い時を逃しません！ 【お得なセールや特集が盛りだくさん！】 ・対象ストア限定のキャンペーンもお見逃しなく！ 【Yahoo!ふるさと納税】 Yahoo!ふるさと納税では、約1,200の自治体への寄付を受け付け！お礼品は38万点以上 ※2025年8月現在 ・2024年12月より、\"手続きすべてスマホで完結”をコンセプトに「Yahoo!ふるさと納税」の提供を開始 ・掲載自治体数は1,200件を突破、お礼品は38万点以上 ※2025年8月現在 ・「Yahoo!ショッピング」アプリとマイナンバーカードがあればオンラインで控除申請が完結する機能を一部自治体で導入 ・『日本中を「買ってよかった」で埋め尽くす』をビジョンとする「Yahoo!ショッピング」は、ふるさと納税のさらなる発展を図り、地域活性化に貢献していきます ----- 【ロハコ（LOHACO）やYahoo!オークションからも商品を探せます！】 Yahoo!ショッピングでは、個人向けネット通販サイトのロハコ（LOHACO）やオークションフリマサイトのYahoo!オークションの商品も検索できます。 ロハコ（LOHACO）では食料品などの生活必需品はもちろんのこと、インテリア家具や雑貨などもお買い物できます。 また、Yahoo!オークションではオークション形式で様々な商品を検索でき、フリマモードではすぐに買えるものだけ調べられるのでとっても便利！ ----- ■その他 本アプリケーションはLINEヤフー株式会社の利用規約をご確認のうえ、ご利用ください。 ■LINEヤフー共通利用規約 https://www.lycorp.co.jp/ja/company/terms/ ■ソフトウェアに関する規則（ガイドライン） https://www.lycorp.co.jp/ja/company/terms/#anc2 ■プライバシーポリシー https://www.lycorp.co.jp/ja/company/privacypolicy/ ■プライバシーセンター https://privacy.lycorp.co.jp/ja/ ■免責事項 https://shopping.yahoo.co.jp/notice/shopinfo/security/ ■ご注意 ・Yahoo!ショッピングアプリとブラウザーでは、ログインしているYahoo! JAPAN IDが異なる場合があります。商品の購入時などは、ログインしているIDを確認してください。 ・バーコード検索はカメラ機能がない端末では使用できません。 ■間違えやすいキーワード ヤフーショッピング、やふーしょっぴんぐ、yahoo shopping、やほお、yahoo、ヤフー、shopping、Yahoo!オークション 写真：アフロ",
+      "analysis": {
+        "app_key": "apple:446016180",
+        "summary_ko": "Yahoo! 쇼핑은 일본 최대 규모의 온라인 쇼핑몰 앱으로, 3억 개 이상의 상품을 제공합니다. PayPay 포인트 적립 및 사용이 가능하며, 다양한 쿠폰과 캠페인을 통해 저렴한 쇼핑을 지원합니다. 패션, 식품, 가전 등 폭넓은 카테고리를 다루며, 로하코 및 야후 옥션과도 연동됩니다.",
+        "features_ko": [
+          "PayPay 포인트 적립 및 결제 연동 기능을 제공합니다.",
+          "매일 업데이트되는 쿠폰과 캠페인 정보를 확인할 수 있습니다.",
+          "패션, 식품, 가전 등 방대한 카테고리의 상품을 검색하고 구매할 수 있습니다.",
+          "로하코 및 야후 옥션 상품을 통합 검색할 수 있습니다.",
+          "배송 상태 및 캠페인 정보를 푸시 알림으로 제공합니다."
+        ],
+        "noteworthy_ko": "다양한 서비스(로하코, 야후 옥션, PayPay)를 하나의 생태계로 묶은 플랫폼 전략이 핵심입니다. 이는 사용자에게 강력한 락인(Lock-in) 효과를 제공합니다.",
+        "development_ko": "핵심 기술은 대규모 데이터 검색 엔진과 결제 시스템 연동입니다. 콘텐츠 제작 부담은 입점 업체가 담당하지만, 플랫폼의 안정성과 보안은 매우 높은 수준이 요구됩니다. 밸런스 측면에서는 다양한 캠페인과 포인트 정책을 관리하는 운영 시스템이 중요합니다.",
+        "idea_ko": "사용자의 구매 이력을 분석하여 다음 달에 필요한 생필품을 미리 추천하고 장바구니에 담아주는 자동 쇼핑 도우미.",
+        "highlights_ko": [
+          "PayPay 포인트 중심의 강력한 리워드 생태계.",
+          "3억 개 이상의 방대한 상품을 다루는 통합 쇼핑 플랫폼."
+        ],
+        "systems_ko": [
+          "대규모 상품 검색 및 필터링 시스템",
+          "결제 및 포인트 관리 시스템",
+          "사용자 알림 및 푸시 서비스",
+          "외부 서비스(로하코, 옥션) 연동 API",
+          "쿠폰 및 캠페인 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "국가 단위의 대규모 쇼핑몰은 개인 개발자가 구현할 수 있는 범위를 완전히 벗어납니다. 결제, 보안, 대규모 트래픽 처리 등은 전문적인 엔지니어링 팀이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 검색 및 상세 페이지",
+            "장바구니 및 결제 UI",
+            "사용자 계정 관리"
+          ],
+          "defer": [
+            "포인트 적립 시스템",
+            "외부 서비스 연동",
+            "대규모 트래픽 처리 인프라"
+          ],
+          "risks": [
+            "결제 보안 및 개인정보 유출 위험",
+            "대규모 데이터 관리의 복잡성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "쇼핑 예산 관리기",
+            "concept": "여러 쇼핑몰에서 구매한 내역을 통합하여 월간 쇼핑 예산을 관리합니다. 과소비를 방지하는 도구입니다.",
+            "first_step": "사용자가 직접 구매 내역을 입력하고 카테고리별로 예산을 설정하는 앱을 만듭니다."
+          },
+          {
+            "title": "최저가 알림 도우미",
+            "concept": "관심 상품을 등록하면 여러 쇼핑몰의 가격을 주기적으로 확인하여 최저가일 때 알림을 줍니다.",
+            "first_step": "특정 사이트의 상품 가격을 크롤링하여 변화를 감지하는 간단한 스크립트를 작성합니다."
+          }
+        ],
+        "recommendation_ko": "대규모 플랫폼의 서비스 구조를 분석하는 용도로는 좋으나, 직접 구현하는 것은 비추천합니다. 커머스 앱의 핵심 기능인 검색과 결제 흐름을 공부하는 정도로 활용하세요.",
+        "source_limitations_ko": "소개문에는 결제 보안 기술, 포인트 적립 로직, 외부 서비스와의 데이터 연동 방식에 대한 구체적인 기술적 정보가 없습니다.",
+        "name": "Yahoo!ショッピング-PayPayポイントが貯まる通販",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/yahoo-%E3%82%B7%E3%83%A7%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0-paypay%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%8C%E8%B2%AF%E3%81%BE%E3%82%8B%E9%80%9A%E8%B2%A9/id446016180",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 94,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "google:com.kayac.breakragdoll": {
+      "app_key": "google:com.kayac.breakragdoll",
+      "name": "Ragdoll Break: Let's destroy!",
+      "developer": "KAYAC Inc.",
+      "source": "google",
+      "country": "US",
+      "category": "game_action",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.kayac.breakragdoll&hl=en&gl=US",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-27T06:22:00+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Let's break the ragdoll! crush, throw, punch, and kick to break the doll! This is the ultimate stress relief game. It will relax your mind and get you hooked!",
+      "analysis": {
+        "app_key": "google:com.kayac.breakragdoll",
+        "summary_ko": "래그돌(인형)을 때리고 던지며 파괴하는 스트레스 해소용 액션 게임입니다. 물리 엔진을 기반으로 인형의 관절이 꺾이거나 튕겨 나가는 모습을 보며 심리적 안정을 얻는 것이 목적입니다. 단순한 조작으로 인형을 파괴하는 쾌감을 제공합니다.",
+        "features_ko": [
+          "래그돌 인형을 던지거나 때리는 물리 기반 액션을 제공합니다.",
+          "인형의 관절이 물리 법칙에 따라 반응합니다.",
+          "스트레스 해소를 위한 단순하고 반복적인 파괴 플레이가 가능합니다.",
+          "물리적 상호작용을 통한 시각적 피드백을 제공합니다."
+        ],
+        "noteworthy_ko": "물리 엔진의 래그돌 시스템을 활용한 '파괴의 쾌감'에 집중한 게임입니다. 복잡한 규칙 없이 물리적 상호작용만으로 재미를 창출하는 점이 개발 관점에서 흥미롭습니다.",
+        "development_ko": "물리 엔진의 래그돌 설정(Joint, Collider)이 핵심입니다. 인형의 각 부위에 가해지는 힘에 따른 반응을 자연스럽게 구현하는 것이 중요합니다. 콘텐츠 제작 부담은 적으나, 물리 연산이 과도할 경우 성능 최적화가 필요할 수 있습니다.",
+        "idea_ko": "인형의 재질을 변경하거나(예: 유리, 고무, 금속) 파괴 시 발생하는 효과음을 다양화하여 타격감을 극대화할 수 있습니다.",
+        "highlights_ko": [
+          "물리 엔진을 활용한 사실적이고 역동적인 인형 반응을 제공합니다.",
+          "복잡한 규칙 없이 즉각적인 스트레스 해소 경험을 선사합니다."
+        ],
+        "systems_ko": [
+          "래그돌 물리 시스템",
+          "타격 및 힘 전달 로직",
+          "오브젝트 파괴 및 반응 시스템",
+          "카메라 연출 및 시각 효과"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "물리 엔진의 기본 기능을 활용하는 수준이므로 구현 자체는 어렵지 않습니다. 다만, 인형이 너무 기괴하게 꺾이지 않도록 관절 제한(Joint Limit)을 설정하는 세밀함이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "래그돌 캐릭터 설정",
+            "드래그 앤 드롭을 통한 힘 가하기 로직"
+          ],
+          "defer": [
+            "다양한 인형 스킨",
+            "복잡한 환경 오브젝트"
+          ],
+          "risks": [
+            "물리 연산 오류로 인한 캐릭터 튕김 현상",
+            "콘텐츠 부족으로 인한 짧은 플레이 타임"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "파괴 점수 챌린지",
+            "concept": "인형의 특정 부위를 타격하거나 특정 각도로 날려 보냈을 때 점수를 부여하는 모드입니다.",
+            "first_step": "타격 부위별 점수 판정 로직 구현."
+          },
+          {
+            "title": "환경 파괴 모드",
+            "concept": "인형을 던져 주변의 기물들을 함께 파괴하는 연쇄 반응을 유도합니다.",
+            "first_step": "주변 오브젝트의 파괴 가능(Destructible) 속성 구현."
+          }
+        ],
+        "recommendation_ko": "물리 엔진의 래그돌 기능을 학습하고 싶은 개발자에게 추천합니다. 짧은 시간 안에 결과물을 만들 수 있어 개인 개발의 첫 프로젝트로 적합합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 물리 엔진의 종류나 인형의 관절 설정 방식이 명시되어 있지 않습니다. 실제 게임 내의 환경 오브젝트 종류나 추가적인 게임 모드에 대한 정보는 부족합니다.",
+        "name": "Ragdoll Break: Let's destroy!",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.kayac.breakragdoll&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "itch:e74ab59e5f921389cc2a": {
+      "app_key": "itch:e74ab59e5f921389cc2a",
+      "name": "Doodoo Rible [Free] [Puzzle]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "",
+      "detail_url": "https://slothgamesdev.itch.io/doodoo-rible",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-27T06:30:22+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Rotate the doodle world, dodge spikes, grab coins and reach the door. 50 levels!",
+      "analysis": {
+        "app_key": "itch:e74ab59e5f921389cc2a",
+        "summary_ko": "Doodoo Rible은 세계를 회전시키며 장애물을 피하고 목표 지점에 도달하는 퍼즐 게임입니다. 총 50개의 레벨로 구성되어 있으며, 코인을 수집하며 문을 통과하는 것이 목표입니다.",
+        "features_ko": [
+          "세계를 회전시켜 중력 방향을 바꾸는 퍼즐 메커니즘을 사용합니다.",
+          "레벨 곳곳에 배치된 가시를 피해 안전하게 이동해야 합니다.",
+          "레벨 내에 흩어진 코인을 수집하는 도전 과제가 있습니다.",
+          "총 50개의 레벨이 제공되어 점진적인 난이도 상승을 경험할 수 있습니다."
+        ],
+        "noteworthy_ko": "중력 회전이라는 단순한 조작으로 복잡한 퍼즐을 만드는 방식이 개발 관점에서 매우 효율적입니다. 레벨 디자인의 변화만으로도 플레이어에게 새로운 경험을 지속적으로 제공할 수 있다는 점이 흥미롭습니다.",
+        "development_ko": "핵심 기술은 회전 시 물리 엔진의 중력 방향을 실시간으로 변경하는 시스템입니다. 콘텐츠 제작은 50개 레벨의 퍼즐 구조를 설계하는 데 많은 시간이 소요됩니다. 테스트 시에는 회전 조작이 의도치 않은 버그를 유발하지 않는지 확인하는 것이 중요합니다.",
+        "idea_ko": "회전 횟수를 제한하거나 특정 구역에서만 회전이 가능한 제약 조건을 추가하는 방식이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "중력 회전이라는 직관적인 핵심 규칙을 가지고 있습니다.",
+          "50개의 레벨을 통해 퍼즐의 난이도를 체계적으로 구성했습니다."
+        ],
+        "systems_ko": [
+          "중력 방향 제어 시스템",
+          "레벨 데이터 관리 및 로딩",
+          "충돌 판정 및 사망 처리",
+          "코인 수집 및 UI 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 명확하고 물리 엔진의 기본 기능을 활용하면 구현 난이도가 높지 않기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "회전 조작 기능",
+            "가시 및 벽 충돌 처리",
+            "목표 지점 도달 판정"
+          ],
+          "defer": [
+            "50개 레벨 전체 구현",
+            "복잡한 코인 수집 보상 시스템"
+          ],
+          "risks": [
+            "회전 시 물리 엔진의 불안정성",
+            "레벨 디자인의 단조로움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중력 반전 구역",
+            "concept": "특정 구역에 진입하면 자동으로 중력이 반전되는 기믹을 추가합니다.",
+            "first_step": "트리거 박스를 통과할 때 중력 벡터를 반전시키는 스크립트를 작성합니다."
+          },
+          {
+            "title": "그림자 퍼즐",
+            "concept": "회전할 때마다 배경의 그림자가 변하여 새로운 발판이 생기는 퍼즐입니다.",
+            "first_step": "회전 각도에 따라 특정 오브젝트의 활성화/비활성화를 제어합니다."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 레벨 디자인과 물리 엔진 활용법을 익히기에 최적입니다. 작은 메커니즘을 확장하여 50개까지 늘리는 과정에서 체계적인 개발 능력을 기를 수 있습니다.",
+        "source_limitations_ko": "회전 방식이 90도 단위인지 자유 회전인지, 캐릭터의 이동 방식이 자동인지 수동인지 등 구체적인 조작 정보가 부족합니다.",
+        "name": "Doodoo Rible [Free] [Puzzle]",
+        "source": "itch",
+        "detail_url": "https://slothgamesdev.itch.io/doodoo-rible",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 10000,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
     }
   }
 }

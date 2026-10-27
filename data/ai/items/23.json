@@ -6359,6 +6359,623 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-26"
+    },
+    "itch:210167a47318374862b4": {
+      "app_key": "itch:210167a47318374862b4",
+      "name": "LSD: Revamped [Free] [Other] [Windows] [macOS] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "featured",
+      "detail_url": "https://figglewatts.itch.io/lsd-revamped",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T05:44:21+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A fan made remake of the cult-classic game LSD: Dream Emulator.",
+      "analysis": {
+        "app_key": "itch:210167a47318374862b4",
+        "summary_ko": "LSD: Revamped는 컬트 클래식 게임인 'LSD: Dream Emulator'를 재구현한 팬 메이드 프로젝트입니다.",
+        "features_ko": [
+          "원작의 꿈속을 탐험하는 초현실적인 분위기를 재현합니다."
+        ],
+        "noteworthy_ko": "기존 게임의 독특한 분위기를 현대적인 환경에서 재구현하는 것은 기술적 도전이자 팬덤의 요구를 충족하는 흥미로운 작업입니다.",
+        "development_ko": "원작의 기괴한 비주얼과 무작위적인 꿈의 흐름을 구현하는 것이 핵심입니다. 원작의 에셋을 재사용하지 않는다면 아트워크 제작 부담이 매우 큽니다.",
+        "idea_ko": "꿈의 파편을 수집하여 새로운 공간을 생성하는 로그라이크 요소를 추가하는 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "원작의 컬트적인 분위기 계승.",
+          "현대 플랫폼을 위한 재구현."
+        ],
+        "systems_ko": [
+          "1인칭 이동 및 상호작용 시스템",
+          "무작위 맵/이벤트 생성기",
+          "포스트 프로세싱 효과(시각적 왜곡)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "원작의 메커니즘이 단순한 탐험 위주이므로 구현 자체는 가능하나, 원작 특유의 분위기를 재현하는 아트워크와 연출에 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 1인칭 이동",
+            "상호작용 시 장면 전환 시스템"
+          ],
+          "defer": [
+            "원작의 모든 맵과 이벤트",
+            "복잡한 사운드 시스템"
+          ],
+          "risks": [
+            "저작권 관련 이슈",
+            "원작의 독특한 분위기를 구현하는 데 따르는 아트워크 부담"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "꿈의 조각 수집가",
+            "concept": "꿈속에서 수집한 오브젝트를 현실의 방에 배치하여 꿈의 내용을 바꾸는 게임입니다.",
+            "first_step": "오브젝트 배치 및 환경 변화 시스템 구현."
+          },
+          {
+            "title": "초현실적 산책",
+            "concept": "매번 다른 공간으로 이동하는 무한 산책 시뮬레이터입니다.",
+            "first_step": "무작위 맵 생성 및 텔레포트 로직 구현."
+          }
+        ],
+        "recommendation_ko": "특정 장르의 분위기를 재현하는 연출 기술을 배우기에 적합합니다. 다만, 팬 게임은 저작권 문제가 발생할 수 있으므로 주의가 필요합니다.",
+        "source_limitations_ko": "원작의 어떤 요소까지 구현되었는지, 원작의 에셋을 사용했는지 여부는 소개문에서 확인할 수 없습니다.",
+        "name": "LSD: Revamped [Free] [Other] [Windows] [macOS] [Linux]",
+        "source": "itch",
+        "detail_url": "https://figglewatts.itch.io/lsd-revamped",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 375,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "itch:e36de87bfc64bb255806": {
+      "app_key": "itch:e36de87bfc64bb255806",
+      "name": "Fragments of Euclid [Free] [Puzzle] [Windows] [macOS] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "puzzle",
+      "detail_url": "https://nusan.itch.io/fragments-of-euclid",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T05:46:20+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "An exploration puzzle game in a mind-bending world.",
+      "analysis": {
+        "app_key": "itch:e36de87bfc64bb255806",
+        "summary_ko": "기하학적이고 복잡한 세계를 탐험하는 퍼즐 게임입니다. 공간의 왜곡을 이용한 독특한 퍼즐 경험을 제공합니다. Windows, macOS, Linux를 지원합니다.",
+        "features_ko": [
+          "공간의 왜곡을 활용한 퍼즐을 해결합니다.",
+          "기하학적인 세계를 탐험하는 1인칭 시점의 게임입니다.",
+          "다양한 플랫폼을 지원합니다."
+        ],
+        "noteworthy_ko": "비유클리드 기하학적 공간을 게임에 구현한 점이 매우 흥미롭습니다. 이는 일반적인 3D 엔진의 렌더링 방식을 넘어서는 기술적 도전이 필요할 것으로 추정됩니다.",
+        "development_ko": "공간 왜곡을 구현하기 위한 셰이더 프로그래밍과 렌더링 기술이 핵심입니다. 퍼즐 디자인은 공간의 특성을 활용해야 하므로 논리적인 설계가 필수적입니다.",
+        "idea_ko": "공간을 회전시키거나 접는 퍼즐 요소를 추가하여 더욱 복잡한 기하학적 퍼즐을 만드는 것이 좋습니다.",
+        "highlights_ko": [
+          "기하학적 세계라는 독특한 비주얼 컨셉을 가지고 있습니다.",
+          "공간 왜곡을 퍼즐의 핵심 메커니즘으로 사용합니다."
+        ],
+        "systems_ko": [
+          "3D 렌더링 및 셰이더 시스템",
+          "공간 왜곡 및 물리 엔진",
+          "퍼즐 트리거 및 로직 시스템",
+          "플레이어 이동 및 카메라 제어"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "공간 왜곡을 구현하기 위한 수학적 지식과 셰이더 프로그래밍 능력이 필요합니다. 일반적인 퍼즐 게임보다 기술적 난이도가 훨씬 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 공간 왜곡 렌더링",
+            "플레이어 이동 및 상호작용",
+            "퍼즐 해결을 위한 공간 변화 로직"
+          ],
+          "defer": [
+            "복잡한 스토리",
+            "다양한 환경 에셋"
+          ],
+          "risks": [
+            "기술적 구현의 한계",
+            "플레이어의 멀미 유발 가능성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "종이접기 세계",
+            "concept": "세계를 종이처럼 접어서 멀리 떨어진 곳을 연결하는 퍼즐 게임입니다.",
+            "first_step": "공간을 접었을 때 두 지점이 연결되는 간단한 포털 시스템 구현."
+          },
+          {
+            "title": "차원 이동자",
+            "concept": "두 개의 서로 다른 기하학적 공간을 오가며 퍼즐을 해결합니다.",
+            "first_step": "두 공간 사이를 즉시 전환하는 카메라 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "고급 3D 그래픽과 셰이더 프로그래밍을 배우고 싶은 개발자에게 추천합니다. 기술적 도전 정신을 자극하는 프로젝트가 될 것입니다.",
+        "source_limitations_ko": "퍼즐의 구체적인 메커니즘, 게임의 전체적인 볼륨, 공간 왜곡의 기술적 구현 방식 등은 설명에 명시되어 있지 않습니다.",
+        "name": "Fragments of Euclid [Free] [Puzzle] [Windows] [macOS] [Linux]",
+        "source": "itch",
+        "detail_url": "https://nusan.itch.io/fragments-of-euclid",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 293,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "google:com.espublishing.qrscanner.reader.barcodescanner": {
+      "app_key": "google:com.espublishing.qrscanner.reader.barcodescanner",
+      "name": "QRスキャン・全バーコード読取",
+      "developer": "Exo Technology",
+      "source": "google",
+      "country": "JP",
+      "category": "app_productivity",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.espublishing.qrscanner.reader.barcodescanner&hl=ja&gl=JP",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T05:49:07+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "QRスキャン・全バーコード読取は、スマートフォンでコードを手軽にスキャンできる便利なアプリです。 👉 このアプリをダウンロードして、便利で魅力的な機能をたくさん体験しましょう！ ❇️ 高速QRコードスキャナー スマートフォンのカメラでQRコードをすぐに読み取り、わずか数秒で高速かつ正確な結果を取得できます。コードにカメラを向けるだけで、Webサイトのリンクを開く、WiFiに接続する、連絡先情報を保存する、テキスト情報を読む、オンラインコンテンツにアクセスするなどの操作を手入力なしで行えます。スキャナーはスムーズかつ効率的に動作するよう設計されており、仕事、買い物、勉強、日常のさまざまな場面で時間を節約できます。 ❇️ バーコードリーダー 商品バーコードをすばやく読み取って、商品情報の確認、商品の比較、詳細チェックを買い物中や閲覧中に行えます。このアプリは複数のバーコード形式に対応しており、必要なときにいつでもスマートフォンのカメラで商品関連情報へ手軽にアクセスできます。 ❇️ QRコード作成 Webサイト、テキスト、電話番号、連絡先、メールアドレス、WiFiパスワードなどのQRコードを簡単に作成できます。この機能により、友人、家族、顧客、SNSのフォロワーに対して、個人利用でもビジネス利用でも、情報共有をより速く便利に行えます。 ❇️ スキャンしたコードを確認 スキャンしたQRコードと作成したQRコードはすべて履歴に自動保存され、すぐにアクセスできます。過去のスキャンを見直したり、大切なリンクを開き直したり、QRコードを再利用したり、保存済みの情報をいつでも共有したりできるため、再スキャンの手間がなくなり、日常利用がより効率的になります。 💚 主な機能: ✔ QRコードリーダー ✔ バーコードスキャナー ✔ 高速結果表示 ✔ QRコード作成 ✔ スキャン履歴を保存 ❓このアプリは誰におすすめ？ ✔ すばやくQRコードを読み取りたいユーザー ✔ 商品情報を確認したい人 ✔ リンク、連絡先、ファイルを共有する学生や会社員 ✔ 顧客向けや販促用のQRコードを作成する事業者 🔥 今すぐQRスキャン・全バーコード読取を試して、日々のQRコードとバーコードの読み取りをもっと簡単にしましょう。今すぐダウンロード！ 💌 当社のアプリをダウンロードしていただきありがとうございます。アプリ改善のためのご提案やアイデアがありましたら、ぜひお知らせください。皆さまの声を大切にし、よりよい体験の提供に向けて改善を続けてまいります。",
+      "analysis": {
+        "app_key": "google:com.espublishing.qrscanner.reader.barcodescanner",
+        "summary_ko": "스마트폰 카메라를 활용해 QR 코드와 바코드를 빠르게 스캔하고 정보를 확인하는 유틸리티 앱입니다. 스캔한 코드의 이력 관리와 직접 QR 코드를 생성하는 기능을 제공합니다. 일상적인 정보 공유나 상품 정보 확인을 간편하게 돕습니다.",
+        "features_ko": [
+          "스마트폰 카메라를 통해 QR 코드를 즉시 인식하고 웹 링크 연결이나 정보 저장을 수행합니다.",
+          "상품 바코드를 스캔하여 관련 상품 정보를 확인하고 비교할 수 있습니다.",
+          "웹사이트, 연락처, WiFi 정보 등을 담은 QR 코드를 직접 생성할 수 있습니다.",
+          "스캔 및 생성한 코드 이력을 자동으로 저장하여 언제든 다시 확인할 수 있습니다."
+        ],
+        "noteworthy_ko": "카메라 기반의 실시간 인식과 데이터베이스를 활용한 이력 관리의 결합이 핵심입니다. 개발 관점에서는 카메라 프레임 처리 성능과 다양한 바코드 포맷을 지원하는 라이브러리 연동이 중요할 것으로 추정됩니다.",
+        "development_ko": "핵심 구현 기술로 모바일 카메라 API와 바코드 인식 라이브러리(예: ML Kit)가 필요합니다. 콘텐츠 제작 부담은 낮으나, 다양한 기기 환경에서의 카메라 호환성 및 인식 속도 최적화가 테스트의 핵심입니다.",
+        "idea_ko": "특정 장소나 상품에 방문했을 때 자동으로 관련 정보를 띄워주는 '위치 기반 QR 로그' 기능이 유용할 것입니다.",
+        "highlights_ko": [
+          "카메라를 통한 즉각적인 데이터 추출 및 웹 연결 기능.",
+          "스캔 이력의 자동 저장 및 재사용 편의성 제공."
+        ],
+        "systems_ko": [
+          "카메라 뷰파인더 및 실시간 이미지 처리 시스템",
+          "바코드/QR 코드 디코딩 엔진",
+          "로컬 데이터베이스(SQLite 등) 기반 이력 관리 시스템",
+          "QR 코드 생성 및 이미지 렌더링 모듈"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "카메라 API와 오픈소스 바코드 라이브러리를 활용하면 핵심 기능 구현은 가능합니다. 다만, 다양한 기기에서의 카메라 해상도 대응과 UI/UX 최적화가 완성도를 결정짓습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카메라 스캔 뷰파인더",
+            "QR/바코드 디코딩 라이브러리 연동",
+            "스캔 결과 표시 화면"
+          ],
+          "defer": [
+            "QR 코드 생성 기능",
+            "이력 클라우드 동기화"
+          ],
+          "risks": [
+            "저사양 기기에서의 인식 속도 저하",
+            "카메라 권한 처리 및 개인정보 보호 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스마트 장바구니",
+            "concept": "바코드를 스캔하여 상품을 등록하고, 예상 결제 금액을 실시간으로 합산하는 기능입니다.",
+            "first_step": "바코드 스캔 시 상품명과 가격을 로컬 DB에서 불러오는 간단한 리스트 구현."
+          },
+          {
+            "title": "QR 명함첩",
+            "concept": "스캔한 QR 코드에서 연락처 정보만 추출하여 앱 내 주소록으로 자동 저장하는 기능입니다.",
+            "first_step": "vCard 형식의 QR 코드를 파싱하여 텍스트로 출력하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "카메라 API와 이미지 처리 라이브러리 활용법을 익히기에 적합합니다. 실용적인 유틸리티 앱을 만들고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "외부 서비스 연동 여부나 구체적인 바코드 지원 포맷의 종류는 설명만으로 확인이 불가능합니다.",
+        "name": "QRスキャン・全バーコード読取",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.espublishing.qrscanner.reader.barcodescanner&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 231,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 3,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "google:com.yourstudio.pinkpour": {
+      "app_key": "google:com.yourstudio.pinkpour",
+      "name": "Pink Pour: Water Sort",
+      "developer": "NEW PACE PRODUCTIONS",
+      "source": "google",
+      "country": "KR",
+      "category": "game_casual",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.yourstudio.pinkpour&hl=ko&gl=KR",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T05:55:22+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "핑크 포어 워터 소트에 오신 것을 환영합니다! 색깔을 분류하고 물을 조심스럽게 붓는 퍼즐 게임으로, 편안한 분위기에서 즐길 수 있습니다. 목표는 간단합니다. 모든 병에 같은 색깔의 물만 남도록 색깔 있는 물을 병 사이에 부어주세요. 병을 탭하여 선택한 다음, 다른 병을 탭하여 위에 있는 물을 부으세요. 물은 빈 병이나 같은 색깔의 물 위에 부을 수 있습니다. 각 레벨마다 색깔 배열이 다르므로, 색깔 순서를 잘 살펴보고, 빈 병을 현명하게 사용하며, 신중하게 움직여야 합니다. 레벨을 완료할 때마다 게임 내 CG 갤러리에 새로운 그림이 추가됩니다. 이 CG 그림들은 레벨 완료 보상으로 제공되는 수집 가능한 2D 일러스트입니다. 갤러리에서 잠금 해제된 일러스트를 감상할 수 있습니다. CG 갤러리는 보상 및 수집 기능이며, 핵심 게임 플레이는 물을 분류하고 색깔을 나누는 것입니다. 게임 특징: 물 분류 퍼즐 게임 플레이: 병 선택, 물 붓기, 색깔 분류 다양한 색깔 배열을 가진 여러 레벨 레벨 완료 시 게임 내 CG 일러스트 및 갤러리 그림 잠금 해제 전략을 조정할 수 있도록 실행 취소 및 다시 시작 옵션을 제공합니다. 간단한 탭 조작과 액체 붓기 애니메이션을 즐겨보세요. 짧은 휴식 시간이나 긴 플레이 시간에도 적합합니다. 자신의 속도에 맞춰 플레이하고 각 색깔 분류 퍼즐을 풀어보세요. 목표: 섞인 색깔을 분리하여 각 병에 한 가지 색깔만 남도록 하세요. 현재 레벨을 완료하면 다음 레벨과 해당 CG 갤러리 보상이 잠금 해제됩니다. 이 게임은 물을 분류하고 색깔을 구분하는 캐주얼 퍼즐 게임입니다. 게임 내 CG 일러스트는 레벨 보상 및 수집 콘텐츠로 제공됩니다.",
+      "analysis": {
+        "app_key": "google:com.yourstudio.pinkpour",
+        "summary_ko": "Pink Pour: Water Sort는 같은 색깔의 물을 병에 분류하는 캐주얼 퍼즐 게임입니다. 플레이어는 병을 탭하여 물을 옮기며 모든 병이 단일 색상으로 채워지도록 전략을 세워야 합니다. 레벨을 완료하면 보상으로 CG 일러스트를 수집할 수 있는 갤러리 기능이 포함되어 있습니다.",
+        "features_ko": [
+          "병을 선택하고 다른 병으로 물을 붓는 간단한 탭 조작을 제공합니다.",
+          "같은 색깔의 물만 겹칠 수 있는 규칙을 통해 퍼즐의 난이도를 조절합니다.",
+          "레벨 완료 시 수집 가능한 2D CG 일러스트를 제공합니다.",
+          "실행 취소 및 다시 시작 옵션을 통해 전략적인 플레이를 지원합니다."
+        ],
+        "noteworthy_ko": "단순한 퍼즐 게임에 수집형 갤러리 요소를 결합하여 플레이어의 지속적인 동기를 유발한 점이 돋보입니다. 퍼즐의 난이도와 보상의 가치를 적절히 배분하는 것이 핵심입니다.",
+        "development_ko": "물 붓기 애니메이션과 액체 상태 관리 시스템 구현이 핵심입니다. 퍼즐의 레벨 디자인은 난이도가 점진적으로 상승하도록 설계해야 하며, 수집 콘텐츠인 CG 갤러리 시스템은 데이터베이스와 연동하여 관리해야 합니다. 1인 개발 시 퍼즐 생성 알고리즘을 자동화하면 콘텐츠 제작 부담을 줄일 수 있습니다.",
+        "idea_ko": "물을 붓는 과정에서 특정 색깔이 섞이면 화학 반응이 일어나 새로운 색이 되는 '반응형 퍼즐' 요소가 적합합니다.",
+        "highlights_ko": [
+          "직관적인 탭 조작으로 누구나 쉽게 접근할 수 있는 퍼즐 규칙을 가집니다.",
+          "레벨 완료 보상으로 수집 요소를 제공하여 플레이 동기를 강화합니다."
+        ],
+        "systems_ko": [
+          "액체 상태 관리 및 이동 로직",
+          "퍼즐 레벨 생성 및 검증 시스템",
+          "CG 갤러리 데이터 관리 시스템",
+          "실행 취소(Undo) 스택 관리",
+          "UI 및 애니메이션 제어"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 단순하고 구현 범위가 명확합니다. 퍼즐 로직과 이미지 갤러리 시스템은 1인 개발자가 충분히 구현 가능한 수준입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "병 선택 및 물 붓기 로직",
+            "색깔 분류 규칙 검증",
+            "기본 레벨 시스템"
+          ],
+          "defer": [
+            "복잡한 CG 갤러리 UI",
+            "다양한 애니메이션 효과"
+          ],
+          "risks": [
+            "퍼즐 레벨의 단조로움",
+            "수집 요소의 매력 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "화학 반응 퍼즐",
+            "concept": "특정 색깔의 물이 섞이면 새로운 색으로 변합니다. 이를 활용해 목표 색상을 만들어야 하는 고난도 퍼즐입니다.",
+            "first_step": "두 색깔이 섞였을 때 제3의 색으로 변하는 색상 혼합 로직을 구현합니다."
+          },
+          {
+            "title": "시간 제한 모드",
+            "concept": "제한 시간 내에 병을 분류해야 하는 모드입니다. 긴박감을 더해 퍼즐의 재미를 높입니다.",
+            "first_step": "타이머 UI를 추가하고 시간이 종료되면 게임을 중단시키는 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 기본 로직과 UI/UX 설계의 기초를 다지기에 좋습니다. 캐주얼 게임의 핵심 재미 요소와 보상 체계를 결합하는 방법을 배우고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 퍼즐의 레벨 생성 방식이나 CG 일러스트의 데이터 관리 방식에 대한 구체적인 정보가 없습니다.",
+        "name": "Pink Pour: Water Sort",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.yourstudio.pinkpour&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "google:com.trustedmobiletools.pdfreader.pdfeditor": {
+      "app_key": "google:com.trustedmobiletools.pdfreader.pdfeditor",
+      "name": "피디에프 읽기 및 피디에프 보기",
+      "developer": "Trusted Mobile Utilities",
+      "source": "google",
+      "country": "KR",
+      "category": "app_productivity",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.trustedmobiletools.pdfreader.pdfeditor&hl=ko&gl=KR",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T06:01:58+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "피디에프 파일은 일상적인 학습, 업무, 개인 작업의 일부입니다. 피디에프 읽기 및 피디에프 보기는 하나의 안드로이드 앱에서 문서를 열고, 읽고, 표시하고, 정리하고, 스캔하고, 변환하고, 공유하는 간단한 방법을 제공합니다. 📖 원하는 방식으로 피디에프 읽기 • 기기에서 피디에프 파일, 워드, 엑셀, 파워포인트를 엽니다. • 부드러운 스크롤, 선명한 페이지 표시, 확대/축소, 전체 화면 모드로 읽으세요. • 필요한 페이지로 바로 이동하세요. • 정보를 더 쉽게 찾을 수 있도록 피디에프 파일 안의 텍스트를 검색하세요. • 편안한 읽기를 위해 밝은/어두운 모드를 사용자 지정하세요. 📝 중요한 세부 사항 표시 • 텍스트를 강조 표시하고 중요한 내용을 표시하세요. • 피디에프 문서에 메모를 추가하세요. • 파일에 직접 그리세요. • 수업, 보고서, 전자책, 업무 파일에 표시 도구를 사용하세요. 🖨️ 종이를 피디에프로 변환 • 카메라로 페이지, 영수증, 책, 종이 문서를 스캔하세요. • 스캔한 내용을 피디에프 파일로 저장하세요. • 자동 가장자리 감지 및 자르기를 사용해 문서 페이지의 구도를 맞추는 데 도움을 받으세요. 💡 파일을 피디에프로 변환 • 이미지를 피디에프 파일로 변환하세요. • 피디에프 파일을 이미지로 변환하세요. • 워드 및 엑셀 파일을 피디에프로 변환하세요. 📂 문서를 체계적으로 정리 • 이름, 크기 또는 마지막으로 연 시간별로 문서를 정렬하세요. • 더 쉽게 찾을 수 있도록 파일 이름을 변경하세요. • 더 이상 필요하지 않은 파일을 삭제하세요. • 한곳에서 피디에프, 메모, 전자책, 업무 문서를 관리하세요. 🌟 일반적인 피디에프 작업 처리 • 여러 파일을 하나의 피디에프로 병합하세요. • 하나의 피디에프를 별도의 부분으로 분할하세요. • 이메일, 채팅 또는 클라우드 저장소 앱을 통해 문서를 공유하세요. 여러분의 의견을 소중히 여깁니다. 질문이나 제안이 있으시면 언제든지 문의해 주세요. 피디에프 읽기 및 피디에프 보기를 선택해 주셔서 감사합니다.",
+      "analysis": {
+        "app_key": "google:com.trustedmobiletools.pdfreader.pdfeditor",
+        "summary_ko": "PDF 파일을 열람, 편집, 변환 및 관리할 수 있는 생산성 도구입니다. 문서 스캔, 텍스트 강조, 메모 추가, 파일 병합 및 분할 등 다양한 기능을 하나의 앱에서 제공합니다. 학습이나 업무용 문서를 효율적으로 정리하고 공유하는 데 최적화되어 있습니다.",
+        "features_ko": [
+          "PDF, 워드, 엑셀, 파워포인트 등 다양한 문서 형식을 열람할 수 있습니다.",
+          "텍스트 검색, 확대/축소, 전체 화면 모드 등 읽기 최적화 기능을 제공합니다.",
+          "문서 내 텍스트 강조, 메모 추가, 직접 그리기 기능을 지원합니다.",
+          "카메라를 이용해 종이 문서를 스캔하고 PDF로 저장할 수 있습니다.",
+          "이미지와 PDF 간의 상호 변환 및 파일 병합/분할 기능을 제공합니다.",
+          "파일 이름, 크기, 날짜별로 문서를 정렬하고 관리할 수 있습니다."
+        ],
+        "noteworthy_ko": "문서 관리와 편집 기능을 통합하여 사용자 경험을 단순화한 점이 돋보입니다. 특히 스캔 기능과 파일 변환 기능을 결합하여 모바일 환경에서의 문서 처리 효율을 높인 점이 흥미롭습니다.",
+        "development_ko": "PDF 렌더링 엔진과 이미지 처리 라이브러리 활용이 핵심입니다. 문서의 가장자리 감지 및 스캔 보정 알고리즘 구현이 기술적 난도가 높으며, 다양한 파일 형식 지원을 위한 변환 라이브러리 연동이 필요합니다. UI는 대량의 파일을 효율적으로 보여줄 수 있는 리스트 관리 구조가 중요합니다.",
+        "idea_ko": "특정 키워드가 포함된 문서를 자동으로 분류하여 폴더링해주는 '스마트 문서 태깅' 기능을 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "스캔부터 편집, 변환까지 문서 작업의 전 과정을 하나의 앱에서 처리합니다.",
+          "다양한 파일 형식 지원을 통해 범용적인 생산성 도구로서의 가치를 제공합니다."
+        ],
+        "systems_ko": [
+          "PDF 렌더링 및 뷰어 시스템",
+          "이미지 처리 및 문서 스캔 보정 시스템",
+          "파일 변환 및 병합/분할 엔진",
+          "로컬 파일 시스템 관리 및 정렬 로직",
+          "사용자 주석 및 그리기 데이터 저장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "PDF 렌더링과 복잡한 파일 변환 로직을 직접 구현하는 것은 매우 어렵습니다. 안정적인 오픈소스 라이브러리를 활용하더라도 다양한 기기에서의 호환성과 파일 처리 성능을 최적화하는 데 많은 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "PDF 뷰어 기능",
+            "기본적인 파일 관리(정렬, 삭제)",
+            "텍스트 강조 및 메모 기능"
+          ],
+          "defer": [
+            "고급 문서 스캔 보정",
+            "다양한 형식(워드, 엑셀) 간 변환"
+          ],
+          "risks": [
+            "PDF 포맷 호환성 문제",
+            "대용량 파일 처리 시 메모리 부족 현상"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스마트 문서 태깅",
+            "concept": "문서 내 주요 키워드를 추출하여 자동으로 태그를 생성하고 분류합니다. 사용자가 파일을 일일이 정리할 필요를 줄여줍니다.",
+            "first_step": "PDF 내 텍스트를 추출하여 특정 키워드 포함 여부를 확인하는 로직 구현."
+          },
+          {
+            "title": "음성 메모 연동",
+            "concept": "PDF 특정 위치에 텍스트 메모 대신 음성 메모를 남길 수 있게 합니다. 회의나 강의 중 빠른 기록에 유용합니다.",
+            "first_step": "PDF 좌표값에 음성 파일 링크를 매핑하는 데이터 구조 설계."
+          }
+        ],
+        "recommendation_ko": "파일 시스템 관리와 외부 라이브러리 연동 능력을 기르기에 적합합니다. 생산성 앱은 사용자 편의성이 중요하므로 UI/UX 설계 경험을 쌓기에 좋습니다.",
+        "source_limitations_ko": "클라우드 저장소 연동, 보안 기능, 결제 시스템에 대한 정보가 없습니다. 실제 구현 시 보안 및 개인정보 보호 정책이 필수적입니다.",
+        "name": "피디에프 읽기 및 피디에프 보기",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.trustedmobiletools.pdfreader.pdfeditor&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "google:com.game.whatdoyoumeme": {
+      "app_key": "google:com.game.whatdoyoumeme",
+      "name": "Meme Challenge: Dank Memes",
+      "developer": "MagicLab",
+      "source": "google",
+      "country": "KR",
+      "category": "game_card",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.game.whatdoyoumeme&hl=ko&gl=KR",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-27T06:21:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "한 정의에 따르면 memes은 삶에 있어서 DNA와 같은 문화라고 합니다.Memes은 웃김을 통해 우리를 하나로 만들어 줍니다. 나만의 정말 환상적이고 찰진 memes을 만들어서 다른 밈 마스터와 경쟁하세요. meme 문화를 더 잘 이해하는 사람이 승리합니다.토너먼트에서 경쟁해서 memes을 차지하세요. 숍에서 돈을 사용해서 meme 팩을 여세요. 운이 좋다면 전설의 meme 카드를 득템할 수 있습니다.오른쪽의 meme을 선택하고 가장 많은 사람들을 웃겨서 성대한 승리를 쟁취하세요! 모두 다 함께 크게 웃어 봅니다.",
+      "analysis": {
+        "app_key": "google:com.game.whatdoyoumeme",
+        "summary_ko": "다양한 밈(meme) 카드를 활용하여 상황에 맞는 가장 웃긴 조합을 만드는 카드 게임입니다. 다른 플레이어와 경쟁하여 밈 마스터가 되는 것을 목표로 합니다. 토너먼트를 통해 밈 팩을 획득하고 전설적인 카드를 수집할 수 있습니다.",
+        "features_ko": [
+          "제시된 상황에 어울리는 밈 카드를 선택하여 조합합니다.",
+          "다른 플레이어들과 투표를 통해 승자를 결정합니다.",
+          "토너먼트 모드에 참여하여 보상을 획득합니다.",
+          "상점에서 밈 팩을 구매하여 새로운 카드를 수집합니다."
+        ],
+        "noteworthy_ko": "이 게임은 텍스트와 이미지의 조합을 통한 유머 생성이라는 단순한 메커니즘을 가지고 있습니다. 개인 개발자가 구현할 때 가장 중요한 것은 카드 데이터베이스의 확장성과 사용자 간의 투표 시스템입니다.",
+        "development_ko": "핵심 기술은 카드 데이터 관리와 멀티플레이어 투표 시스템입니다. 콘텐츠 제작 부담은 밈 이미지 수집에 달려 있으며, 밸런스는 투표 시스템의 공정성을 확보하는 데 있습니다. UI/UX가 게임의 재미를 결정짓는 핵심 요소입니다.",
+        "idea_ko": "특정 주제(예: 직장 생활, 학교 생활)에 특화된 밈 카드 게임으로 타겟층을 좁혀 개발.",
+        "highlights_ko": [
+          "밈 문화를 기반으로 하여 사용자 간의 공감대를 형성합니다.",
+          "카드 수집 요소와 토너먼트 경쟁을 결합하여 지속적인 플레이를 유도합니다."
+        ],
+        "systems_ko": [
+          "카드 데이터 관리 시스템",
+          "멀티플레이어 매칭 및 투표 시스템",
+          "보상 및 상점 시스템",
+          "사용자 프로필 및 수집 도감 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "핵심 메커니즘이 단순하고 카드 기반의 게임 구조는 개인 개발자가 구현하기에 적합합니다. 다만 멀티플레이어 서버 구현이 필요할 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카드 선택 및 조합 UI",
+            "기본적인 투표 시스템"
+          ],
+          "defer": [
+            "실시간 멀티플레이어 토너먼트",
+            "복잡한 상점 및 결제 시스템"
+          ],
+          "risks": [
+            "콘텐츠(밈)의 저작권 문제",
+            "사용자 간 투표의 공정성 확보"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "상황별 공감 카드 게임",
+            "concept": "일상적인 상황을 제시하고, 그에 맞는 가장 공감 가는 대사나 행동 카드를 선택하는 게임입니다.",
+            "first_step": "상황 카드와 답변 카드를 데이터화하여 화면에 출력하고 선택하는 로직을 구현합니다."
+          },
+          {
+            "title": "밈 제작 챌린지",
+            "concept": "주어진 이미지에 텍스트를 넣어 가장 웃긴 밈을 만드는 1인용 챌린지 게임입니다.",
+            "first_step": "이미지 위에 텍스트를 합성하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "카드 게임의 기본 구조와 데이터 관리 방식을 배우기에 좋습니다. 유머를 소재로 하여 가볍게 개발을 시작하기에 적합한 프로젝트입니다.",
+        "source_limitations_ko": "게임 내 밈 카드의 저작권 처리 방식이나 멀티플레이어 서버의 구체적인 구현 방식은 알 수 없습니다.",
+        "name": "Meme Challenge: Dank Memes",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.game.whatdoyoumeme&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "apple:1193350206": {
+      "app_key": "apple:1193350206",
+      "name": "YouTube TV",
+      "developer": "Google",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/youtube-tv/id1193350206",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-27T06:28:16+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "YouTube TV is now the exclusive home of NFL Sunday Ticket. Watch every out-of-market Sunday game* on your TV and supported devices. Learn more: https://yt.be/nflsundayticket Watch cable-free live TV. Download to watch & record live TV from 100+ networks, including local sports & news, as part of your monthly membership. Cancel anytime. +Cable-free live TV. No cable box required. +Stream major broadcast and cable networks, including ABC, CBS, FOX, NBC, NFL Network, ESPN, HGTV, TNT, AMC, and more, including your local sports & news channels. +Watch on your smartphone, tablet, computer, and TV +Cloud DVR without DVR storage space limits. Each recording will be stored for 9 months. +6 YouTube TV accounts per household. Everyone gets their own login, recommendations and DVR. +Monthly pay-as-you-go membership; cancel anytime. Over 100 networks are available in YouTube TV: BROADCAST ABC, CBS, FOX, NBC, NFL Network, PBS, and more SPORTS CBS Sports Network, NBC Sports RSN (regional), NFL Network, ESPN, ESPN2, ESPNews, ESPNU, Golf Channel, NBA TV, SEC Network, and more ENTERTAINMENT & LIFESTYLE AMC, Animal Planet, BBC America, BET, Bravo, Cheddar, CMT, Comedy Central, Comet, Cozi TV, Discovery, Discovery Turbo, E!, Food Network, Freeform, FX, FXM, FXX, IFC, Investigation Discovery, HGTV, MTV, Nat Geo, Nat Geo Wild, Oxygen True Crime, Paramount Network, Pop, Smithsonian Channel, SundanceTV, SyFy, TBS, TCM, TLC, TNT, Travel Channel, TruTV, TV Land, USA, VH1, WE tv, YouTube Originals, and more NEWS BBC World News, CNBC, CNN, HLN, MSNBC, and more KIDS Cartoon Network, Disney Channel, Disney Junior, Disney XD, Nickelodeon, PBS Kids Availability: YouTube TV is available nationwide in the United States. For more information, please visit our Help Center. Your membership will automatically continue for as long as you choose to remain a member. Your membership is a month-to-month subscription that begins at sign up. You can easily cancel anytime, online, 24 hours a day. There are no long-term contracts or cancellation fees. Subscriptions automatically renew unless auto-renew is turned off at least 24-hours before the end of the current period. Account will be charged for renewal within 24-hours prior to the end of the current period. Subscriptions may be managed by the user and auto-renewal may be turned off by going to the user's Account Settings on the device. Terms of service: tv.youtube.com/tv/terms Paid terms of service: tv.youtube.com/tv/paidterms Privacy policy: tv.youtube.com/tv/privacy Enjoy cable-free live tv now! *Commercial use excluded. Locally broadcast Fox and CBS games, Sunday Night Football on NBC, select digital-only games and international games excluded from NFL Sunday Ticket.",
+      "analysis": {
+        "app_key": "apple:1193350206",
+        "summary_ko": "YouTube TV는 케이블 없이 실시간 TV 방송을 시청할 수 있는 스트리밍 서비스입니다. 뉴스, 스포츠, 엔터테인먼트 등 100개 이상의 네트워크 채널을 제공하며 클라우드 DVR 기능을 통해 방송을 녹화할 수 있습니다. 한 가구당 최대 6개의 계정을 지원하여 개인별 맞춤 추천과 녹화함 관리가 가능합니다.",
+        "features_ko": [
+          "100개 이상의 실시간 방송 네트워크 채널을 스트리밍합니다.",
+          "클라우드 DVR을 통해 방송을 녹화하고 저장할 수 있습니다.",
+          "가구당 최대 6개의 개별 계정을 생성하여 맞춤형 환경을 제공합니다.",
+          "스마트폰, 태블릿, PC, TV 등 다양한 기기에서 시청을 지원합니다."
+        ],
+        "noteworthy_ko": "대규모 미디어 스트리밍 서비스로서 다중 사용자 계정 관리와 클라우드 기반 녹화 시스템의 동기화가 핵심입니다. 개인 개발자가 구현하기에는 인프라 규모가 매우 크며, 콘텐츠 라이선스 및 보안 기술이 필수적입니다.",
+        "development_ko": "대규모 트래픽 처리를 위한 서버 인프라와 실시간 스트리밍 기술이 핵심입니다. 콘텐츠 저작권 보호를 위한 DRM 기술과 방대한 데이터베이스 관리가 필요합니다. 개인 개발자가 단독으로 구현하기에는 기술적, 법적 장벽이 매우 높습니다.",
+        "idea_ko": "개인 개발자에게는 이 앱의 복제보다는 특정 카테고리(예: 지역 뉴스)에 특화된 소규모 스트리밍 플랫폼 구축이 현실적입니다.",
+        "highlights_ko": [
+          "다양한 기기를 지원하는 멀티 플랫폼 스트리밍 환경.",
+          "개인별 맞춤형 DVR 및 추천 알고리즘 제공."
+        ],
+        "systems_ko": [
+          "실시간 비디오 스트리밍 파이프라인",
+          "클라우드 스토리지 및 녹화 관리 시스템",
+          "사용자 인증 및 계정 관리 시스템",
+          "콘텐츠 메타데이터 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "판단 어려움",
+          "reason": "이 앱은 단순한 앱이 아니라 거대한 미디어 인프라 서비스입니다. 핵심 메커니즘을 1인이 구현하는 것은 불가능에 가까우며, 법적/기술적 요구사항이 매우 복잡합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "영상 재생 플레이어",
+            "채널 목록 표시 UI"
+          ],
+          "defer": [
+            "실시간 스트리밍 서버",
+            "클라우드 DVR",
+            "다중 계정 관리"
+          ],
+          "risks": [
+            "저작권 침해 문제",
+            "서버 운영 비용 및 트래픽 관리",
+            "콘텐츠 라이선스 확보의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "개인용 로컬 영상 큐레이터",
+            "concept": "사용자가 가진 로컬 영상 파일을 채널별로 분류하여 TV처럼 순차적으로 재생해주는 앱입니다. 스트리밍 대신 로컬 파일 재생에 집중합니다.",
+            "first_step": "폴더 내 영상 파일을 읽어와 순차적으로 재생하는 플레이어를 만듭니다."
+          },
+          {
+            "title": "방송 편성표 알림 앱",
+            "concept": "좋아하는 프로그램의 방송 시간을 등록하면 알림을 보내주는 앱입니다. 실제 스트리밍은 하지 않고 정보 제공에 집중합니다.",
+            "first_step": "사용자가 입력한 시간 정보를 로컬 알림으로 띄우는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "대규모 서비스의 아키텍처를 공부하는 용도로는 좋으나, 직접 개발하는 것은 권장하지 않습니다. 스트리밍 기술의 기초를 배우고 싶다면 오픈 소스 라이브러리를 활용한 소규모 프로젝트를 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 스트리밍 프로토콜, 서버 기술 스택, 보안 인증 방식이 명시되지 않았습니다. 실제 서비스 운영을 위한 법적 계약 및 수익 모델의 상세 내용은 알 수 없습니다.",
+        "name": "YouTube TV",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/youtube-tv/id1193350206",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 65,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
     }
   }
 }

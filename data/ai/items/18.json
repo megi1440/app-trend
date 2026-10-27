@@ -6272,6 +6272,458 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-25"
+    },
+    "apple:6751931427": {
+      "app_key": "apple:6751931427",
+      "name": "VitalTide",
+      "developer": "Bouncing Bubble Network Technology Limited",
+      "source": "apple",
+      "country": "JP",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/jp/app/vitaltide/id6751931427?uo=2",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T05:54:15+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "【VitalTide APP: Your Portable Health Data Manager, Making Health Management Easier】 In the fast-paced modern life, health management is often \"squeezed out\" by busyness—you can’t find paper and pen when you want to record your blood pressure, lack systematic data when you want to analyze blood glucose changes, and have no way to integrate multiple health indicators. To help you break through these troubles, VitalTide APP comes into being. It integrates the recording of multi-dimensional health indicators such as blood pressure, blood glucose and heart rate, and serves as your reliable health partner that you can rely on at any time with simple operations and clear data presentation. Core Features: Comprehensive Coverage to Make Health Data \"Traceable\" 1. Accurate Recording: Every Measurement Has a Clear Record ● Blood Pressure Recording: Adapted to Daily Monitoring Scenarios Whether it is the basic blood pressure measurement after getting up in the morning, or irregular monitoring during work breaks, after exercise, etc., the APP has a convenient recording entrance. You can quickly save the data by manually entering the measured values, no complicated operations are required, and it is easy to track the fluctuation trend of blood pressure. ● Blood Glucose Recording: Distinguish Scenarios to Facilitate Diet Analysis For blood glucose management needs, an intuitive and easy-to-use dedicated interface is designed: it supports distinguishing between \"pre-meal\" and \"post-meal\" records to help you clearly sort out the correlation between diet and blood glucose changes. 2. Multi-Dimensional Coverage: Meet the Needs of Comprehensive Health Management In addition to blood pressure and blood glucose, the APP also supports the recording of basic indicators such as heart rate, height and weight, and is also equipped with reference for healthy diet guidelines—from basic physiological data to daily diet suggestions, it covers your health management needs in one stop, eliminating the need to switch between multiple tools. Disclaimer VitalTide APP is only used as a tool for recording and organizing health data. It cannot replace medical equipment nor provide medical diagnosis or treatment advice. If you have any health discomfort, need to obtain professional medical opinions or make medical decisions, please be sure to consult a practicing doctor to ensure your health and safety.",
+      "analysis": {
+        "app_key": "apple:6751931427",
+        "summary_ko": "VitalTide는 혈압, 혈당, 심박수 등 다양한 건강 지표를 기록하고 관리하는 건강 관리 앱입니다. 사용자는 일상적인 건강 데이터를 간편하게 입력하여 변화 추이를 추적할 수 있습니다. 식단 분석을 돕기 위해 식사 전후 혈당 기록 기능을 제공합니다.",
+        "features_ko": [
+          "혈압, 혈당, 심박수, 신장, 체중 등 다차원적인 건강 지표를 기록할 수 있습니다.",
+          "혈당 기록 시 식사 전후를 구분하여 식단과 혈당 변화의 상관관계를 분석할 수 있습니다.",
+          "간편한 입력 인터페이스를 통해 일상적인 건강 데이터 기록을 지원합니다.",
+          "건강한 식단 가이드라인을 제공하여 종합적인 건강 관리를 돕습니다."
+        ],
+        "noteworthy_ko": "사용자 편의성을 위해 데이터 입력 과정을 단순화한 점이 돋보입니다. 개발 관점에서는 데이터 시각화(차트)와 로컬 데이터베이스 관리의 정확성이 핵심일 것으로 추정됩니다.",
+        "development_ko": "데이터 저장을 위한 로컬 데이터베이스(SQLite 등) 구축과 기록된 데이터를 시각화하는 차트 라이브러리 연동이 핵심입니다. 사용자 입력 오류를 방지하기 위한 데이터 유효성 검사 로직이 중요합니다. 의료 기기가 아니므로 데이터의 정확성보다는 사용자의 기록 편의성에 집중해야 합니다.",
+        "idea_ko": "기록된 데이터를 바탕으로 사용자의 건강 패턴을 분석하여 간단한 리포트를 생성하는 기능이 유용합니다.",
+        "highlights_ko": [
+          "복잡한 기능 대신 건강 지표 기록이라는 본질에 집중한 단순한 인터페이스를 제공합니다.",
+          "식사 전후 혈당 구분 등 구체적인 상황별 기록 기능을 지원합니다."
+        ],
+        "systems_ko": [
+          "데이터 입력 및 저장 시스템",
+          "데이터 시각화(차트) 엔진",
+          "사용자 프로필 및 설정 관리",
+          "데이터 유효성 검사 로직"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "데이터 CRUD(생성, 읽기, 수정, 삭제)와 차트 라이브러리 활용이 주된 작업이므로 1인 개발자가 구현하기에 비교적 수월합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "혈압/혈당 입력 폼",
+            "데이터 로컬 저장 기능",
+            "기록된 데이터 목록 보기"
+          ],
+          "defer": [
+            "데이터 클라우드 동기화",
+            "전문적인 건강 분석 리포트",
+            "외부 웨어러블 기기 연동"
+          ],
+          "risks": [
+            "사용자의 지속적인 입력 유도 실패",
+            "데이터 보안 및 개인정보 보호 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "건강 리포트 요약",
+            "concept": "주간/월간 데이터를 바탕으로 혈압이나 혈당의 평균치와 변화 추이를 간단한 텍스트로 요약해 줍니다.",
+            "first_step": "데이터베이스에서 주간 평균값을 계산하는 쿼리를 작성합니다."
+          },
+          {
+            "title": "복약 알림 기능",
+            "concept": "건강 관리 기록과 연동하여 정해진 시간에 약을 복용하도록 알림을 보내는 기능입니다.",
+            "first_step": "로컬 푸시 알림 기능을 구현하여 정해진 시간에 메시지를 띄웁니다."
+          }
+        ],
+        "recommendation_ko": "데이터베이스 설계와 UI/UX 구성 능력을 기르기에 적합한 프로젝트입니다. 의료 정보와 관련된 앱이므로 면책 조항을 명확히 하는 법적 지식을 함께 학습하는 것이 좋습니다.",
+        "source_limitations_ko": "소개문에 명시된 기능 외의 외부 서비스 연동이나 보안 인증 방식은 확인되지 않았습니다. 의료 기기와의 직접적인 데이터 연동 기능은 명시되지 않았으므로 구현하지 않아야 합니다.",
+        "name": "VitalTide",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/vitaltide/id6751931427?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "apple:6755943100": {
+      "app_key": "apple:6755943100",
+      "name": "KYRO 키로: 영토 점령 러닝 게임",
+      "developer": "Movements Lab Co., Ltd.",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/kr/app/kyro-%ED%82%A4%EB%A1%9C-%EC%98%81%ED%86%A0-%EC%A0%90%EB%A0%B9-%EB%9F%AC%EB%8B%9D-%EA%B2%8C%EC%9E%84/id6755943100?uo=2",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T05:59:33+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "오늘 달린 길로, 내 영토를 넓혀 보세요. 키로(KYRO)는 GPS 러닝 기록에 영토 점령의 재미를 더한 러닝 앱이에요. 평소 뛰던 동네에 내 색을 남기고, 친구와 크루가 함께하는 경쟁을 즐겨 보세요. 무료로 시작할 수 있으며, 일부 기능은 유료로 제공돼요. 달린 길이 내 영토로 러닝으로 구역을 둘러싸고, 지도 위 영토를 차지해 보세요. 다른 러너와 땅을 뺏고 되찾으며 오늘 어디를 달릴지 새로운 목표를 만들어 보세요. 거리와 페이스를 한눈에 GPS 경로, 거리, 페이스를 기록하고 지난 러닝을 돌아봐요. 기록에 따라 케이던스와 구간별 정보도 확인할 수 있어요. 오프라인으로 저장한 기록은 나중에 동기화할 수 있어요. 크루와 함께하는 도시 경쟁 클럽에서 함께 영토를 넓히고 기여 거리로 겨뤄요. 피드에 러닝 기록을 공유하고, 친구의 러닝을 응원해 보세요. 기록과 경로의 공개 범위도 설정할 수 있어요. 우리 동네부터 세계까지 영토와 러닝 거리 랭킹에서 내 위치를 확인해요. 러닝으로 XP를 쌓고, 아이언부터 레전드까지 13티어에 도전해 보세요. 익숙한 코스의 새로운 재미 랜드마크 코스에서는 랩이 자동으로 집계돼요. 가장 빠른 기록과 가장 많이 달린 랩 수로 경쟁해 보세요. 쓰던 기기로 계속 달리기 애플워치·가민·순토 연동을 지원해요. 기기에서 기록한 러닝을 키로에서도 확인해 보세요. 운동화 끈을 묶고, 오늘은 어느 구역을 달릴지 골라 보세요. 이용 안내 • 영토 획득과 랭킹 반영은 활동 및 경로 조건에 따라 달라져요. 과거 기록 가져오기 등 일부 기록은 영토 경쟁에 반영되지 않아요. • GPS 기록은 주변 환경과 신호에 따라 차이가 날 수 있어요. 일부 기능은 인터넷 연결이 필요해요. • 위치 정보는 경로·거리·페이스 측정에, 동작·센서 정보는 지원 기기에서 케이던스 측정에 사용돼요. 영토·랭킹·챌린지 알림 수신은 선택할 수 있어요. 개인정보처리방침 https://kyro.team/privacy-policy 이용약관 https://project-kyro.github.io/Terms-of-Use/",
+      "analysis": {
+        "app_key": "apple:6755943100",
+        "summary_ko": "키로(KYRO)는 GPS 기반의 러닝 기록 앱에 영토 점령 게임 요소를 결합한 서비스입니다. 사용자는 달린 경로를 통해 지도 위 구역을 점령하고, 다른 러너들과 영토를 두고 경쟁할 수 있습니다. 러닝 거리와 페이스 기록은 물론, 크루 활동 및 랭킹 시스템을 통해 동기 부여를 제공합니다.",
+        "features_ko": [
+          "GPS를 활용하여 달린 경로를 지도에 표시하고 해당 구역을 영토로 점령합니다.",
+          "러닝 거리, 페이스, 케이던스 등 상세 운동 데이터를 기록하고 분석합니다.",
+          "크루 시스템을 통해 팀 단위로 영토를 확장하고 기여도를 경쟁합니다.",
+          "애플워치, 가민, 순토 등 외부 웨어러블 기기와의 연동을 지원합니다.",
+          "랜드마크 코스에서 랩 타임을 자동으로 측정하여 기록 경쟁을 유도합니다."
+        ],
+        "noteworthy_ko": "러닝이라는 일상적인 활동에 '영토 점령'이라는 게임적 보상을 결합하여 지속적인 운동 동기를 부여하는 점이 흥미롭습니다. 특히 실제 지리 정보를 게임판으로 활용하는 방식은 사용자에게 익숙한 동네를 새로운 놀이터로 인식하게 만드는 효과가 있습니다.",
+        "development_ko": "핵심 구현 기술로는 GPS 좌표 처리와 지도 API 연동, 그리고 다각형(Polygon) 영역 계산 알고리즘이 필요합니다. 콘텐츠 제작 부담은 낮으나, 실시간 위치 데이터 처리와 오프라인 동기화 로직의 안정성 확보가 중요합니다. 테스트 시 다양한 환경에서의 GPS 오차 보정 및 랭킹 산정 밸런스 조정이 핵심입니다.",
+        "idea_ko": "특정 지역을 점령하면 해당 구역에 가상의 '랜드마크'를 건설하여 다른 사용자가 방문 시 보상을 얻는 '영토 방어 및 점령전' 시스템을 제안합니다.",
+        "highlights_ko": [
+          "실제 지리 정보를 기반으로 한 영토 점령 시스템으로 러닝에 게임성을 부여합니다.",
+          "13단계의 티어 시스템과 랭킹을 통해 사용자 간의 경쟁과 성취감을 유도합니다."
+        ],
+        "systems_ko": [
+          "GPS 위치 추적 및 경로 기록 시스템",
+          "지도 API 기반 영토 영역 계산(Polygon Clipping)",
+          "사용자 활동 데이터베이스 및 랭킹 엔진",
+          "외부 웨어러블 기기 데이터 동기화 인터페이스",
+          "실시간 알림 및 소셜 피드 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "GPS 데이터의 정확한 처리와 지도 위 영역 계산 알고리즘은 구현 난도가 높습니다. 또한, 다수의 사용자가 실시간으로 영토를 점령하고 랭킹을 업데이트하는 백엔드 서버 구축이 필수적입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "GPS 경로 기록 및 지도 표시",
+            "영토 점령 영역 계산 로직",
+            "사용자 기본 프로필 및 기록 저장"
+          ],
+          "defer": [
+            "크루 시스템",
+            "외부 기기 연동",
+            "실시간 소셜 피드"
+          ],
+          "risks": [
+            "GPS 신호 불안정에 따른 기록 오차",
+            "영토 계산 알고리즘의 연산 부하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "영토 방어 타워",
+            "concept": "점령한 구역에 가상의 방어 타워를 설치하여, 다른 사용자가 해당 구역을 지나갈 때 알림을 보내거나 미니 챌린지를 제안합니다.",
+            "first_step": "특정 좌표에 가상의 오브젝트를 배치하고 사용자가 근접 시 트리거가 작동하는지 확인합니다."
+          },
+          {
+            "title": "러닝 릴레이 챌린지",
+            "concept": "특정 경로를 여러 사용자가 구간별로 나누어 달리는 릴레이 모드를 도입하여 협동의 재미를 강화합니다.",
+            "first_step": "경로를 구간별로 나누고 각 구간의 기록을 합산하는 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "위치 기반 서비스(LBS)와 게임화(Gamification)를 결합하는 방법을 배우기에 매우 좋은 사례입니다. 다만, 복잡한 서버 인프라가 필요하므로 개인 개발 시에는 소규모 지역 단위로 범위를 좁혀 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 결제 시스템의 구체적인 구현 방식이나, GPS 오차를 보정하는 상세 알고리즘, 서버 인프라 구성에 대한 정보가 없습니다. 실제 서비스 운영을 위해서는 보안 및 개인정보 보호 정책에 대한 검증이 필요합니다.",
+        "name": "KYRO 키로: 영토 점령 러닝 게임",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/kyro-%ED%82%A4%EB%A1%9C-%EC%98%81%ED%86%A0-%EC%A0%90%EB%A0%B9-%EB%9F%AC%EB%8B%9D-%EA%B2%8C%EC%9E%84/id6755943100?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "google:com.onetaptool.pdfeditor.pdfreader": {
+      "app_key": "google:com.onetaptool.pdfeditor.pdfreader",
+      "name": "PDFリーダーとPDFビューア",
+      "developer": "OneTap Tools",
+      "source": "google",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.onetaptool.pdfeditor.pdfreader&hl=ko&gl=KR",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-27T06:16:39+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "PDF 읽기 및 보기는 일상적인 문서 관리를 위해 설계된 도구 모음으로 PDF 문서를 읽고, 편집하고, 변환하고, 스캔하고, 정리할 수 있도록 도와줍니다. 학습 자료, 사무 문서, 계약서, 양식 또는 전자책을 볼 때 이 앱은 한곳에서 PDF 파일 작업을 위한 기능을 제공합니다. 📘 PDF 읽기 • 선명한 페이지 렌더링으로 PDF 문서를 엽니다. • 연속 또는 페이지별 탐색으로 페이지를 스크롤합니다. • 자세히 보려면 확대 및 축소합니다. • 읽는 동안 전체 화면 모드를 사용합니다. • 특정 페이지로 바로 이동합니다. • PDF 문서 내 텍스트를 검색합니다. • 밝은 표시 모드와 어두운 표시 모드 중에서 선택합니다. 🔧 PDF 편집 • 선택한 텍스트를 강조 표시합니다. • 메모와 댓글을 추가합니다. • PDF 페이지에 직접 그리거나 주석을 답니다. • 검토 또는 참조를 위해 문서에 표시합니다. 📷 PDF 스캔 • 기기 카메라를 사용하여 종이 문서를 스캔합니다. • 영수증, 메모, 양식, 책 및 기타 문서를 PDF 파일로 저장합니다. • 문서 가장자리를 감지하고 스캔한 페이지를 자릅니다. • 스캔한 파일을 다른 PDF 문서와 함께 저장합니다. 🔄 PDF 변환 • 이미지를 PDF 문서로 변환합니다. • 워드, 엑셀을 포함한 지원되는 문서 형식을 PDF로 변환합니다. • 나중에 접근하고 공유할 수 있도록 변환된 파일을 저장합니다. 📂 파일 관리 • 이름, 크기 또는 최근에 연 순서로 문서를 정리합니다. • 파일 이름을 변경하거나 삭제합니다. • 저장된 PDF 문서를 찾아보고 위치를 확인합니다. • 학습 자료, 사무 파일, 스캔한 문서 및 전자책을 정리된 상태로 유지합니다. 🧰 PDF 유틸리티 • 여러 PDF 파일을 하나의 문서로 병합합니다. • PDF 파일을 별도 문서로 분할합니다. • 이메일, 메시지 앱 또는 클라우드 저장소 서비스를 사용하여 문서를 공유합니다. 이 앱은 PDF 읽기, 편집, 스캔, 변환 및 파일 관리 기능을 단일 인터페이스에 모아 업무, 학습 및 개인 용도의 PDF 문서를 더 쉽게 관리할 수 있게 합니다.",
+      "analysis": {
+        "app_key": "google:com.onetaptool.pdfeditor.pdfreader",
+        "summary_ko": "PDF 리더 및 뷰어는 문서 관리와 편집을 위한 통합 도구입니다. PDF 읽기, 편집, 스캔, 변환 및 파일 정리를 한곳에서 지원하여 업무와 학습 효율을 높입니다. 직관적인 인터페이스를 통해 다양한 문서 형식을 손쉽게 관리할 수 있습니다.",
+        "features_ko": [
+          "PDF 문서의 선명한 렌더링과 다양한 보기 모드를 제공합니다.",
+          "텍스트 강조, 메모 추가, 주석 달기 등 편집 기능을 지원합니다.",
+          "기기 카메라를 사용하여 종이 문서를 PDF로 스캔할 수 있습니다.",
+          "이미지 및 오피스 문서를 PDF로 변환하는 기능을 포함합니다.",
+          "여러 PDF 파일을 병합하거나 분할하는 유틸리티를 제공합니다.",
+          "파일 이름, 크기별 정리 및 클라우드 공유 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "문서 작업에 필요한 필수 기능을 단일 앱에 통합한 '올인원' 도구입니다. 사용자에게 필요한 기능을 모듈화하여 제공하는 방식이 효율적이며, 파일 관리 시스템의 안정성이 앱의 핵심 경쟁력으로 보입니다.",
+        "development_ko": "PDF 렌더링 엔진(라이브러리 활용)과 파일 변환 알고리즘 구현이 핵심입니다. 문서 스캔을 위한 이미지 처리(가장자리 검출 등) 기술이 필요하며, 파일 시스템 접근 및 관리 로직이 중요합니다. 안정적인 문서 처리를 위해 메모리 관리와 성능 최적화가 필수적입니다.",
+        "idea_ko": "문서 내 특정 키워드를 자동으로 요약해주는 'AI 문서 요약 도구' 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "읽기, 편집, 변환, 스캔 등 문서 관련 기능을 통합하여 편의성을 높였습니다.",
+          "파일 관리 기능을 통해 학습 및 사무 자료를 체계적으로 정리할 수 있습니다."
+        ],
+        "systems_ko": [
+          "PDF 렌더링 및 편집 엔진",
+          "이미지 처리 및 스캔 시스템",
+          "파일 변환 및 유틸리티 로직",
+          "파일 관리 및 탐색 시스템",
+          "공유 및 클라우드 연동"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "PDF 렌더링과 변환은 매우 복잡한 기술적 영역입니다. 오픈소스 라이브러리를 활용하더라도 다양한 문서 형식에 대한 호환성을 유지하는 것은 1인 개발자에게 큰 도전입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "PDF 파일 불러오기 및 렌더링",
+            "기본적인 텍스트 강조 및 메모 기능",
+            "파일 목록 관리"
+          ],
+          "defer": [
+            "복잡한 문서 변환(Word/Excel)",
+            "고급 스캔 이미지 보정",
+            "클라우드 서비스 직접 연동"
+          ],
+          "risks": [
+            "다양한 PDF 형식에 따른 렌더링 오류",
+            "파일 시스템 접근 권한 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "AI 문서 요약 도구",
+            "concept": "긴 PDF 문서를 불러오면 핵심 내용을 요약하여 보여주는 도구입니다.",
+            "first_step": "PDF에서 텍스트를 추출하고 외부 AI API를 통해 요약하는 기능 구현."
+          },
+          {
+            "title": "문서 자동 분류기",
+            "concept": "폴더 내의 PDF를 내용에 따라 자동으로 분류하여 정리해주는 도구입니다.",
+            "first_step": "파일 이름과 내용을 분석하여 카테고리를 나누는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "파일 시스템과 문서 처리 기술을 배우기에 좋습니다. 유틸리티 앱 개발을 목표로 하는 개발자에게 추천하지만, 기술적 난이도가 높음을 인지해야 합니다.",
+        "source_limitations_ko": "사용된 PDF 렌더링 라이브러리, 보안 처리 방식, 클라우드 연동의 구체적인 API는 확인되지 않습니다.",
+        "name": "PDFリーダーとPDFビューア",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.onetaptool.pdfeditor.pdfreader&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 18,
+        "countries": [
+          "JP",
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "apple:6788616811": {
+      "app_key": "apple:6788616811",
+      "name": "もちのう: スクリーンタイムロック",
+      "developer": "Yu Mitsuda",
+      "source": "apple",
+      "country": "JP",
+      "category": "app_productivity",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%82%82%E3%81%A1%E3%81%AE%E3%81%86-%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%AD%E3%83%83%E3%82%AF/id6788616811?uo=2",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-27T06:26:51+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "「あとで見る」を開いたまま、また1時間。 もちのうは、自分の意志でも解除できないブロックで、スマホから離れる時間をつくるアプリです。 ■ iPhone標準のスクリーンタイムと、どこが違うのか 標準のスクリーンタイムは、上限が来ても「制限を無視」を押せば開けてしまいます。開けられる仕組みは、いちばん開きたい夜には効きません。 もちのうの「がっつりモード」は、決めた時間が終わるまで自分でも解除できません。アプリを消して逃げる抜け道もふさいであります。意志の力を使わずに済むように作ってあります。 ■ できること ・SNS・動画・ゲームをまとめてブロック ・時間になったら自動ではじまるスケジュール ・自分でも解除できない「がっつりモード」 ・使った時間の記録と、1週間前との比較 ・ロック画面ウィジェットから1タップで開始 ・離れていた時間だけ育つキャラクター ■ 使い方 1. 止めたいアプリを選ぶ 2. 時間を決める 3. はじめる あとは、開こうとした瞬間にもちのうが立ちはだかります。 ■ こんな方へ ・気づくと2時間ショート動画を見ている ・勉強や仕事をはじめる前に、必ずSNSを開いてしまう ・寝る前のスマホで睡眠時間が削られている ・スクリーンタイムを設定したのに、自分で解除してしまう ・受験や資格の勉強に集中したい ■ プレミアムについて 複数アプリのブロック・スケジュール・がっつりモードなどの機能には、アプリ内購入が必要です。 ・もちのうプレミアム（1年） ¥4,000 / 年（自動更新） ・もちのうプレミアム（1週間） ¥480 / 週（自動更新） ・買い切り ¥10,000（一度きりのお支払い・自動更新なし） 1年プランは、はじめての方にかぎり3日間無料でお試しいただけます。無料期間の終了24時間前までに解約すれば、料金は発生しません。 お支払いは購入確定時にApple IDへ請求されます。自動更新は、期間終了の24時間前までにオフにしないかぎり継続します。更新の停止・解約は、App Storeのアカウント設定からいつでも行えます。 利用規約: https://mochinou.vercel.app/terms.html プライバシーポリシー: https://mochinou.vercel.app/privacy.html",
+      "analysis": {
+        "app_key": "apple:6788616811",
+        "summary_ko": "사용자가 스마트폰 사용 시간을 스스로 제한할 수 있도록 돕는 스크린타임 관리 앱입니다. 설정한 시간 동안 앱 사용을 강제로 차단하며, '가스라이팅 모드'와 같이 스스로 해제할 수 없는 강력한 잠금 기능을 제공합니다. 사용자가 스마트폰을 멀리한 시간만큼 캐릭터가 성장하는 게임적 요소를 결합했습니다.",
+        "features_ko": [
+          "SNS, 영상, 게임 등 특정 앱을 선택하여 일괄 차단합니다.",
+          "사용자가 스스로 해제할 수 없는 강력한 잠금 모드를 제공합니다.",
+          "시간이 되면 자동으로 차단이 시작되는 스케줄링 기능을 지원합니다.",
+          "스마트폰을 사용하지 않은 시간을 기록하고 주간 비교 데이터를 제공합니다.",
+          "잠금 화면 위젯을 통해 한 번의 터치로 차단을 시작할 수 있습니다.",
+          "스마트폰을 멀리한 시간만큼 캐릭터가 성장하는 보상 시스템을 갖추고 있습니다."
+        ],
+        "noteworthy_ko": "단순한 차단을 넘어 '강제성'과 '보상'이라는 심리적 기제를 결합한 점이 매우 흥미롭습니다. 사용자의 의지력을 보완하는 도구로서의 가치를 캐릭터 성장이라는 게임적 요소로 풀어낸 점이 돋보입니다.",
+        "development_ko": "iOS의 스크린타임 API 및 기기 관리 프레임워크 활용이 핵심입니다. 앱 차단 로직은 시스템 권한이 필요하며, 캐릭터 성장 시스템은 로컬 데이터 저장과 시간 계산 로직이 필요합니다. 사용자가 앱을 삭제하거나 우회하지 못하도록 하는 보안 설계가 개발의 가장 큰 난관입니다.",
+        "idea_ko": "친구들과 함께 스마트폰을 멀리하는 '그룹 챌린지' 기능을 추가하여 서로 동기 부여를 할 수 있게 하면 좋습니다.",
+        "highlights_ko": [
+          "강력한 잠금 기능과 캐릭터 성장 보상을 결합한 독특한 사용자 경험.",
+          "위젯을 통한 간편한 접근성으로 사용자의 습관 형성을 지원."
+        ],
+        "systems_ko": [
+          "스크린타임 API 연동",
+          "앱 차단 및 스케줄링 엔진",
+          "캐릭터 성장 보상 시스템",
+          "데이터 기록 및 분석 시스템",
+          "위젯 및 알림 서비스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "iOS의 시스템 권한을 깊이 활용해야 하며, 사용자의 우회를 막는 보안 설계가 매우 까다롭습니다. 시스템 API의 제약 사항을 정확히 이해하고 구현해야 합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "앱 차단 기능",
+            "차단 시간 설정 및 타이머",
+            "사용 시간 기록"
+          ],
+          "defer": [
+            "캐릭터 성장 시스템",
+            "강력한 잠금 모드(우회 방지)",
+            "주간 데이터 비교"
+          ],
+          "risks": [
+            "iOS 정책 변경으로 인한 기능 제한",
+            "사용자의 앱 삭제를 통한 우회 가능성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "그룹 챌린지",
+            "concept": "친구들과 함께 스마트폰을 사용하지 않는 시간을 경쟁하거나 공유합니다.",
+            "first_step": "사용자의 '폰 안 쓴 시간'을 서버에 저장하고 순위를 보여주는 기능을 만듭니다."
+          },
+          {
+            "title": "집중 모드 음악",
+            "concept": "차단 모드 동안 집중력을 높여주는 백색 소음이나 음악을 재생합니다.",
+            "first_step": "차단 모드 시작 시 오디오를 재생하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "iOS 시스템 프레임워크를 깊이 있게 다루고 싶은 개발자에게 추천합니다. 사용자 심리를 활용한 앱 설계 방식을 배우기에 좋습니다.",
+        "source_limitations_ko": "Apple의 스크린타임 API는 개인 개발자에게 제한적일 수 있으며, 앱 삭제를 통한 우회 방지는 기술적으로 한계가 있을 수 있습니다. 구독 모델의 수익성 검증은 필요합니다.",
+        "name": "もちのう: スクリーンタイムロック",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%82%82%E3%81%A1%E3%81%AE%E3%81%86-%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%AD%E3%83%83%E3%82%AF/id6788616811?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "itch:e5f6848c5a17ab896f0a": {
+      "app_key": "itch:e5f6848c5a17ab896f0a",
+      "name": "Xylospire [Free] [Shooter] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "",
+      "detail_url": "https://dashapro.itch.io/xylospire-game",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-27T06:30:22+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Sci-fi arcade shooter: battle through six sectors, upgrade your ship, and uncover a mysterious signal.",
+      "analysis": {
+        "app_key": "itch:e5f6848c5a17ab896f0a",
+        "summary_ko": "Xylospire는 SF 배경의 아케이드 슈팅 게임입니다. 플레이어는 6개의 구역을 돌파하며 적들과 전투를 벌이게 됩니다. 게임 진행 중 함선을 업그레이드하고 미스터리한 신호의 정체를 밝히는 것이 주요 목표입니다.",
+        "features_ko": [
+          "6개의 서로 다른 구역을 순차적으로 탐험하며 전투를 진행합니다.",
+          "전투를 통해 획득한 자원으로 함선을 업그레이드할 수 있습니다.",
+          "게임의 배경이 되는 미스터리한 신호에 관한 서사가 포함되어 있습니다."
+        ],
+        "noteworthy_ko": "아케이드 슈팅 장르에 서사적 요소를 결합한 점이 흥미롭습니다. 짧은 호흡의 슈팅 게임에 '신호'라는 미스터리 요소를 추가하여 플레이어의 동기를 부여하는 구조로 추정됩니다.",
+        "development_ko": "핵심 기술로는 탄막 및 적의 패턴을 제어하는 슈팅 엔진과 업그레이드 수치를 관리하는 데이터 구조가 필요합니다. 콘텐츠 제작 측면에서는 6개 구역의 레벨 디자인과 적의 난이도 곡선을 맞추는 작업이 핵심입니다. 1인 개발 시에는 슈팅 메커니즘의 타격감과 업그레이드 시스템의 밸런스 조정에 집중해야 합니다.",
+        "idea_ko": "함선 업그레이드 시스템을 로그라이크 요소와 결합하여 매번 다른 빌드로 신호를 추적하는 방식이 적합합니다.",
+        "highlights_ko": [
+          "6개 구역으로 구성된 명확한 스테이지 구조를 갖추고 있습니다.",
+          "함선 업그레이드와 미스터리 서사를 결합하여 몰입감을 높였습니다."
+        ],
+        "systems_ko": [
+          "슈팅 및 충돌 판정 시스템",
+          "함선 능력치 업그레이드 데이터 관리",
+          "스테이지 진행 및 구역 전환 시스템",
+          "적 AI 및 패턴 생성기"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "슈팅 게임의 기본 메커니즘은 구현이 명확하지만, 6개 구역의 레벨 디자인과 업그레이드 밸런스를 맞추는 과정에서 상당한 테스트 시간이 소요되기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이동 및 사격 메커니즘",
+            "적 생성 및 충돌 처리",
+            "스테이지 클리어 판정"
+          ],
+          "defer": [
+            "복잡한 서사 연출",
+            "다양한 종류의 함선 업그레이드 트리"
+          ],
+          "risks": [
+            "반복적인 슈팅 패턴으로 인한 지루함",
+            "난이도 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "신호 증폭기 모드",
+            "concept": "신호를 수집할수록 난이도가 올라가지만 보상이 커지는 리스크-리워드 시스템입니다.",
+            "first_step": "난이도 배율에 따라 적의 공격 속도가 변하는 로직을 구현합니다."
+          },
+          {
+            "title": "부품 조합형 함선",
+            "concept": "업그레이드 대신 적에게서 얻은 부품을 함선에 직접 장착하여 외형과 성능을 바꾸는 방식입니다.",
+            "first_step": "함선의 부착물 위치에 따라 사격 방식이 바뀌는 프로토타입을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "슈팅 게임의 기본기인 '이동-사격-회피' 루프를 학습하기 좋습니다. 단순한 슈팅에 서사를 얹는 방식이 궁금한 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 조작 방식(마우스/키보드), 업그레이드의 종류, 서사 전달 방식(텍스트/컷신) 등은 확인되지 않습니다.",
+        "name": "Xylospire [Free] [Shooter] [Windows]",
+        "source": "itch",
+        "detail_url": "https://dashapro.itch.io/xylospire-game",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 10000,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
     }
   }
 }

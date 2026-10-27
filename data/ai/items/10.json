@@ -8147,6 +8147,546 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-26"
+    },
+    "itch:0f2ac04c7ab337da5ca7": {
+      "app_key": "itch:0f2ac04c7ab337da5ca7",
+      "name": "Tiny Bastion [Free] [Survival] [Windows] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://thornido.itch.io/tiny-bastion",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T05:45:15+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A cozy tower defence incremental: hold the castle, grow stronger, beat the Red King.",
+      "analysis": {
+        "app_key": "itch:0f2ac04c7ab337da5ca7",
+        "summary_ko": "Tiny Bastion은 성을 방어하며 점진적으로 성장하는 타워 디펜스 방치형 게임입니다. 플레이어는 성을 지키고 강해져서 최종적으로 레드 킹을 물리쳐야 합니다. 아늑한 분위기 속에서 성장의 재미를 느낄 수 있는 게임입니다.",
+        "features_ko": [
+          "성을 방어하며 적의 공격을 막아내는 타워 디펜스 메커니즘을 제공합니다.",
+          "점진적 성장 시스템을 통해 플레이어의 능력치를 강화합니다.",
+          "최종 목표인 레드 킹을 격파하기 위한 전략적 선택을 요구합니다."
+        ],
+        "noteworthy_ko": "방치형 장르와 타워 디펜스를 결합하여 단순한 조작으로도 성취감을 느낄 수 있도록 설계된 점이 흥미롭습니다. 짧은 세션으로도 성장의 흐름을 체감할 수 있는 구조로 추정됩니다.",
+        "development_ko": "핵심 기술은 방치형 게임의 수치 연산과 타워 디펜스의 적 생성 로직입니다. 콘텐츠 제작은 적의 종류와 업그레이드 수치 밸런스 조정에 집중될 것입니다. 1인 개발 시 수치 간의 밸런스 테스트가 가장 큰 비중을 차지할 것으로 보입니다.",
+        "idea_ko": "방치형 타워 디펜스에 성의 외형이 실시간으로 변화하는 시각적 진화 요소를 추가하는 것이 가장 적합합니다.",
+        "highlights_ko": [
+          "아늑한 분위기의 타워 디펜스 게임으로, 방치형 요소가 결합되어 있습니다.",
+          "성장을 통해 레드 킹이라는 명확한 최종 목표를 향해 나아가는 구조입니다."
+        ],
+        "systems_ko": [
+          "게임 상태 관리(재화, 레벨)",
+          "적 생성 및 웨이브 제어 시스템",
+          "업그레이드 및 수치 연산 로직",
+          "UI 인터페이스 및 상태 표시"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "타워 디펜스의 기본 로직은 구현이 명확하나, 방치형 게임 특유의 수치 밸런스를 맞추는 과정에서 반복적인 테스트가 필요하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 방어 타워 및 적 생성 로직",
+            "재화 획득 및 업그레이드 시스템"
+          ],
+          "defer": [
+            "복잡한 애니메이션",
+            "다양한 적 타입"
+          ],
+          "risks": [
+            "수치 밸런스 붕괴로 인한 재미 저하",
+            "단조로운 플레이 루프"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "성채 진화 시스템",
+            "concept": "업그레이드 단계에 따라 성의 외형이 낡은 목조에서 화려한 석조로 변하는 시각적 피드백을 제공합니다.",
+            "first_step": "업그레이드 레벨에 따라 스프라이트 이미지를 교체하는 로직 구현."
+          },
+          {
+            "title": "날씨 변화 이벤트",
+            "concept": "시간에 따라 날씨가 변하며 적의 이동 속도나 타워의 공격력에 영향을 주는 환경 변수를 추가합니다.",
+            "first_step": "타이머에 따라 전역 변수(날씨)를 변경하고 공격력에 가중치를 적용하는 함수 작성."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 핵심인 '수치 성장'과 '보상 루프'를 설계하는 법을 배우기에 적합합니다. 타워 디펜스 장르의 기초를 다지고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 타워의 종류, 적의 이동 방식, 방치형 보상 계산식 등 세부 메커니즘은 확인되지 않습니다.",
+        "name": "Tiny Bastion [Free] [Survival] [Windows] [Linux]",
+        "source": "itch",
+        "detail_url": "https://thornido.itch.io/tiny-bastion",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 332,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 16,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "apple:6824829168": {
+      "app_key": "apple:6824829168",
+      "name": "腕立て妖怪退治",
+      "developer": "Masaya Fukuyama",
+      "source": "apple",
+      "country": "JP",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/jp/app/%E8%85%95%E7%AB%8B%E3%81%A6%E5%A6%96%E6%80%AA%E9%80%80%E6%B2%BB/id6824829168?uo=2",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T05:51:48+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "悪い習慣は、妖怪のしわざ。 スマホを床に立てて腕立て伏せをするだけで、カメラが回数を数え、1回ごとに妖怪を斬る。 毎晩1体あらわれる悪習の妖怪を祓い続けて、三日坊主を卒業しよう。 和風ホラー×ドット絵の、続けるほど強くなる筋トレRPGです。 遊び方 1. スマホを顔の前の床に縦に立てる 2. 腕立て伏せをすると、カメラが自動で回数をカウント 3. 1回ごとに斬撃が入り、妖怪の妖気が減っていく 器具も、体に付けるものもいりません。 ・悪い習慣は、妖怪のしわざ 二度寝狸、夜更かし入道、あとでやる河童、スマホろくろ首……。 あなたの悪習が妖怪になって、夜な夜な這い出してきます。 今夜の妖怪を、腕立てで祓いましょう。 続けるほど、強くなる ・祓うたびに経験値。レベルアップで必殺技・奥義を覚える ・退魔師は修行僧・巫女・陰陽師から選べる ・レベルに応じて、退魔師の姿が5段階に変化 ・7日続けるごとに「身代わり地蔵」を授かり、休んだ日の連続記録を守ってくれる 妖怪35体・全5章 各章の終わりには、三日坊主・七日坊主・三十日坊主・百日坊主・千日坊主が待ち受ける。そして最後に現れるのは……。 まれに現れる金色の妖怪や星3つの封印を集めて、図鑑を埋めよう。新しい章も順次追加予定です。 ムカつきも、腕立てで成仏 今日ムカついたことを書くと、提灯お化けになって現れる。 「締切」「月曜日」「満員電車」も、腕立てで祓ってスッキリ。退治の結果はSNSにシェアできます。 自分のペースで続けられる ・「修行の強さ」で、必要な回数を体力に合わせて調整 ・毎晩、今夜の妖怪を通知でお知らせ ・カメラの映像は端末の中だけで処理し、保存も送信もしません こんな方におすすめ ・筋トレがいつも三日坊主で終わってしまう ・家で手軽に運動の習慣をつけたい ・ゲーム感覚で楽しく続けたい ・和風・妖怪・ドット絵が好き 無料でできること ・第一章「三日坊主」の妖怪7体との戦い ・毎晩の妖怪退治と、祓った妖怪の再来 ・レベルアップ、5つの姿、必殺技 ・身代わり地蔵 ・ムカつき提灯（1日1体） プレミアム ・第二章〜第五章 新たな妖怪28体（新章も順次追加） ・途切れた連続記録を月1回取り戻す ・身代わり地蔵の枠＋1 ・修行モード（祓った妖怪と何度でも戦える） ・ムカつき提灯 呼び放題・供養帳 ・スクワット対応・記録グラフ 着せ替え（買い切り） 4人目の退魔師「山伏」、装束の色（朱・月白・桜）、提灯の柄（鬼火・金箔）を1つずつ購入できます。 プレミアムの料金と自動更新について ・年額プラン（1週間の無料体験つき）、月額プラン、買い切りからお選びいただけます。 ・お支払いは、購入の確定時にApple IDに請求されます。 ・年額・月額プランは自動更新の定期購入です。現在の期間が終了する24時間以上前に自動更新をオフにしない限り、期間終了前の24時間以内に自動で更新・請求されます。 ・無料体験が終了する24時間以上前に解約すれば、料金はかかりません。 ・解約や自動更新の停止は、iPhoneの「設定」→ ユーザー名 →「サブスクリプション」から行えます。 ご注意 運動中に痛みやめまいなどを感じたら、すぐに中止してください。持病のある方や運動を制限されている方は、医師に相談のうえご利用ください。 利用規約：https://fukuwebstudio.jp/mikka/terms プライバシーポリシー：https://fukuwebstudio.jp/mikka/privacy",
+      "analysis": {
+        "app_key": "apple:6824829168",
+        "summary_ko": "腕立て妖怪退治는 스마트폰 카메라를 활용해 사용자의 팔굽혀펴기 횟수를 측정하고, 이를 통해 게임 속 요괴를 퇴치하는 헬스케어 RPG입니다. 매일 밤 나타나는 요괴를 물리치며 운동 습관을 기를 수 있으며, 레벨업과 캐릭터 성장을 통해 동기를 부여합니다. 일본풍 호러와 도트 그래픽이 특징이며, 운동 기록을 게임 요소와 결합했습니다.",
+        "features_ko": [
+          "스마트폰 카메라로 사용자의 움직임을 감지하여 팔굽혀펴기 횟수를 자동으로 카운트합니다.",
+          "운동 횟수에 따라 요괴에게 피해를 입히는 RPG 전투 시스템을 제공합니다.",
+          "연속 운동 기록을 보호하는 '지상' 아이템 등 습관 형성을 돕는 장치를 포함합니다.",
+          "사용자의 고민을 입력하면 요괴로 변하는 '무카츠키 제등' 기능을 제공합니다.",
+          "레벨업에 따라 캐릭터의 모습이 변화하고 새로운 필살기를 습득합니다."
+        ],
+        "noteworthy_ko": "운동이라는 지루한 행위를 요괴 퇴치라는 게임적 경험으로 치환한 점이 매우 훌륭합니다. 카메라를 이용한 동작 인식 기술을 헬스케어에 접목하여 별도의 장비 없이도 운동을 기록할 수 있다는 점이 개발 관점에서 흥미롭습니다.",
+        "development_ko": "핵심 기술은 카메라 기반의 동작 인식(Computer Vision)입니다. 콘텐츠 제작 부담은 도트 그래픽 리소스와 요괴 데이터 구성에 있습니다. 밸런스 측면에서는 사용자의 체력에 맞춘 운동 강도 조절과 지속적인 동기 부여를 위한 보상 체계 설계가 중요합니다.",
+        "idea_ko": "사용자의 운동 속도에 맞춰 배경 음악의 템포가 변하는 '리듬 운동 모드'를 추가하는 아이디어가 좋습니다.",
+        "highlights_ko": [
+          "카메라 동작 인식 기술을 활용해 별도의 장비 없이도 정확한 운동 기록이 가능합니다.",
+          "일본풍 호러와 RPG 요소를 결합하여 운동 습관 형성을 게임처럼 즐겁게 만듭니다."
+        ],
+        "systems_ko": [
+          "카메라 기반 동작 인식 시스템",
+          "운동 횟수 카운트 및 데이터 관리",
+          "RPG 전투 및 레벨업 시스템",
+          "사용자 알림 및 습관 관리 시스템",
+          "데이터 시각화(그래프) 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "동작 인식 기술은 라이브러리를 활용할 수 있으며, 게임의 핵심 로직이 단순하여 1인 개발자가 구현 가능한 수준입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카메라 기반 팔굽혀펴기 카운트",
+            "기본적인 요괴 전투 로직",
+            "운동 기록 저장"
+          ],
+          "defer": [
+            "다양한 요괴 및 챕터 확장",
+            "SNS 공유 기능",
+            "다양한 캐릭터 커스터마이징"
+          ],
+          "risks": [
+            "동작 인식의 정확도 문제",
+            "사용자의 운동 지속성 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "리듬 운동 모드",
+            "concept": "음악의 비트에 맞춰 팔굽혀펴기를 수행하여 정확도와 리듬감을 동시에 훈련합니다.",
+            "first_step": "음악 비트에 맞춰 화면에 신호를 표시하고 동작을 감지하는 기능을 구현합니다."
+          },
+          {
+            "title": "요괴 도감 수집",
+            "concept": "특정 시간대나 환경에서만 나타나는 희귀 요괴를 수집하는 도감 시스템을 강화합니다.",
+            "first_step": "시간대별로 다른 요괴가 등장하도록 조건부 생성 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "동작 인식 기술을 활용한 헬스케어 앱 개발을 희망하는 개발자에게 강력히 추천합니다. 게임적 요소를 통해 사용자의 행동을 변화시키는 UX 설계 능력을 기를 수 있습니다.",
+        "source_limitations_ko": "소개문에는 동작 인식에 사용된 구체적인 기술(ML Kit 등)이 명시되지 않았습니다. 또한 카메라 영상의 개인정보 보호 처리 방식에 대한 상세 정보가 부족하여 검증이 필요합니다.",
+        "name": "腕立て妖怪退治",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E8%85%95%E7%AB%8B%E3%81%A6%E5%A6%96%E6%80%AA%E9%80%80%E6%B2%BB/id6824829168?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 192,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 16,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "apple:6824036799": {
+      "app_key": "apple:6824036799",
+      "name": "토벌수첩 - 굿즈 도감",
+      "developer": "Yunil Kim",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_lifestyle",
+      "detail_url": "https://apps.apple.com/kr/app/%ED%86%A0%EB%B2%8C%EC%88%98%EC%B2%A9-%EA%B5%BF%EC%A6%88-%EB%8F%84%EA%B0%90/id6824036799?uo=2",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T05:59:33+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "토벌수첩은 좋아하는 캐릭터 굿즈를 한국어로 찾아보고, 가진 굿즈와 갖고 싶은 굿즈를 정리하는 팬 수첩 앱이에요. ■ 한국어 굿즈 도감 마스코트·인형·경품·가챠·피규어·지역 한정 굿즈를 크기·정가·발매일과 함께 한국어로 정리했어요. 캐릭터, 종류, 시리즈로 골라 보고 이름으로 바로 찾을 수 있어요. ■ 새 굿즈·재입고 알림 공식 온라인몰에 새 굿즈나 재입고 소식이 올라오면 알림으로 알려 드려요. 받을 소식과 캐릭터를 고를 수 있고, 밤 10시부터 아침 8시까지 온 소식은 모아 두었다가 아침에 한 번에 보내요. ■ 내 수첩 가진 굿즈에는 도장을, 갖고 싶은 굿즈에는 위시를 남겨 보세요. 로그인 없이 바로 쓸 수 있고, Apple·카카오·Google로 로그인하면 여러 기기에서 기록을 이어 쓸 수 있어요. 인터넷이 끊겨도 수첩 요약은 그대로 볼 수 있어요. ■ 소식과 지도 신상·재입고·발매 예정 소식을 달력으로 보고, 국내외 공식 매장과 팝업 스토어, 카페, 쿠지 판매처를 지도에서 찾을 수 있어요. ■ 함께 만드는 도감 도감에 없는 굿즈는 직접 등록할 수 있어요. 다른 팬들의 확인과 운영자 검토를 거쳐 도감에 올라가요. [안내] 토벌수첩은 팬이 만든 비공식 서비스예요. 원작자 및 관련 회사와 제휴하거나 승인을 받은 앱이 아니며, 상품을 판매하지 않아요. 캐릭터와 상품의 저작권·상표권은 각 권리자에게 있으며, 권리자의 요청이 있으면 해당 내용을 바로 내려요.",
+      "analysis": {
+        "app_key": "apple:6824036799",
+        "summary_ko": "토벌수첩은 캐릭터 굿즈를 수집하고 관리하는 팬들을 위한 도감 앱입니다. 사용자는 자신이 가진 굿즈와 갖고 싶은 굿즈를 정리하고, 신상 및 재입고 알림을 받을 수 있습니다. 커뮤니티 기반의 정보 등록 시스템을 통해 도감을 함께 만들어가는 구조입니다.",
+        "features_ko": [
+          "캐릭터, 종류, 시리즈별로 굿즈 정보를 검색하고 조회합니다.",
+          "보유 굿즈와 위시리스트를 체크하여 개인 수첩을 관리합니다.",
+          "공식몰의 신상 및 재입고 소식을 푸시 알림으로 제공합니다.",
+          "국내외 공식 매장 및 팝업 스토어 위치를 지도에서 확인합니다.",
+          "사용자가 직접 도감에 없는 굿즈를 등록하고 운영자 검토를 거쳐 공유합니다."
+        ],
+        "noteworthy_ko": "팬덤 문화를 타겟으로 하여 '수집'이라는 욕구를 앱 내에서 체계적으로 관리하게 한 점이 훌륭합니다. 특히 사용자가 직접 정보를 등록하는 참여형 구조는 운영 부담을 줄이면서도 도감의 데이터 양을 빠르게 확보할 수 있는 영리한 전략입니다.",
+        "development_ko": "방대한 굿즈 데이터를 관리하기 위한 데이터베이스 설계와 검색 최적화가 중요합니다. 알림 시스템은 서버 사이드에서 공식몰의 데이터를 주기적으로 크롤링하거나 API를 통해 수집하는 로직이 필요합니다. 사용자 참여형 데이터 등록 기능은 악성 데이터 필터링을 위한 관리자 도구가 필수적입니다.",
+        "idea_ko": "사용자가 자신의 굿즈 컬렉션을 사진으로 찍어 올리면 AI가 자동으로 상품 정보를 매칭해주는 '이미지 인식 등록' 기능을 제안합니다.",
+        "highlights_ko": [
+          "사용자 참여형 데이터 등록 시스템으로 도감의 확장성을 확보했습니다.",
+          "굿즈 수집가에게 필수적인 재입고 알림과 매장 위치 정보를 통합 제공합니다."
+        ],
+        "systems_ko": [
+          "굿즈 데이터베이스 및 검색 엔진",
+          "사용자 컬렉션 관리 시스템",
+          "웹 크롤링 및 알림 푸시 서버",
+          "지도 API 기반 매장 위치 서비스",
+          "사용자 데이터 검수 관리자 도구"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기본적인 CRUD(생성, 읽기, 수정, 삭제) 기능 위주로 구성되어 있어 구현 난도는 높지 않습니다. 다만, 데이터의 양이 많아질 경우 검색 성능 최적화와 데이터 정합성 유지가 중요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "굿즈 목록 조회 및 검색",
+            "보유/위시리스트 관리",
+            "사용자 직접 등록 기능"
+          ],
+          "defer": [
+            "지도 위치 서비스",
+            "자동 크롤링 알림 시스템"
+          ],
+          "risks": [
+            "저작권 관련 이슈 발생 가능성",
+            "사용자 등록 데이터의 품질 관리"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "굿즈 교환 게시판",
+            "concept": "사용자들끼리 중복 굿즈를 교환하거나 거래할 수 있는 안전한 게시판을 제공합니다.",
+            "first_step": "게시글 작성 및 댓글 기능을 구현하고 사용자 간 매칭 로직을 설계합니다."
+          },
+          {
+            "title": "이미지 기반 굿즈 매칭",
+            "concept": "굿즈 사진을 업로드하면 유사한 상품 정보를 도감에서 찾아주는 기능을 제공합니다.",
+            "first_step": "이미지 인식 API를 연동하여 간단한 상품 분류 테스트를 진행합니다."
+          }
+        ],
+        "recommendation_ko": "커뮤니티 기반의 데이터 관리 앱을 개발하고 싶은 분들에게 추천합니다. 사용자의 참여를 유도하는 UI/UX 설계와 데이터베이스 관리 능력을 기르기에 매우 좋은 프로젝트입니다.",
+        "source_limitations_ko": "소개문에는 저작권 관련 구체적인 대응 방안이나, 데이터 등록 시의 검수 기준이 명시되어 있지 않습니다. 실제 서비스 시에는 저작권자와의 관계 및 법적 책임에 대한 검토가 반드시 필요합니다.",
+        "name": "토벌수첩 - 굿즈 도감",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%ED%86%A0%EB%B2%8C%EC%88%98%EC%B2%A9-%EA%B5%BF%EC%A6%88-%EB%8F%84%EA%B0%90/id6824036799?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "google:com.rovio.baba": {
+      "app_key": "google:com.rovio.baba",
+      "name": "アングリーバード 2 (Angry Birds 2)",
+      "developer": "Rovio Entertainment Oy",
+      "source": "google",
+      "country": "US",
+      "category": "game_casual",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.rovio.baba&hl=ja&gl=JP",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-27T06:16:39+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Join hundreds of millions of players for FREE and start the fun slingshot adventure now! Team up with your friends, climb the leaderboards, gather in clans, collect hats, take on challenges, and play fun events in all-new game modes. Evolve your team and show your skills in this exciting Angry Birds game ! Get to know all of the iconic Angry Birds characters and experience the fun gameplay that has captured the hearts of millions of players. Features: ● DAILY CHALLENGES. Have a minute? Complete a daily challenge and earn some quick rewards. ● LEVEL UP your characters with feathers and up their scoring power. Build the ultimate flock! ● JOIN A CLAN to take down the pigs with friends and players around the world. ● COMPETE in the ARENA. Compete with other players for some friendly bird flinging fun and prove who is the best. ● COLLECT SILLY HATS. Collect hats with different fun themes to level up your flock’s fashion game and take part in special events. ● IMPRESS THE MIGHTY EAGLE in special challenges in Mighty Eagle’s Bootcamp and earn coins to use in his exclusive shop. ● LOTS OF LEVELS. Play hundreds of levels with more added in regular updates and limited time events. ● LEADERBOARDS. Compete with your friends and other players and prove who is the best on the global leaderboards. ● CHOOSE YOUR BIRD. Choose which bird to put in the slingshot and defeat the pigs with strategy! ● MULTI-STAGE LEVELS. Play fun, challenging levels with multiple stages – just watch out for Boss Pigs! ● FREE to download! --- Angry Birds 2 is completely free to play. Although Angry Birds 2 can be downloaded for free, there are optional in-app purchases available. --- When playing this game, Rovio will offset the carbon footprint caused by the device’s energy consumption. This game may include: - Direct links to social networking websites that are intended for an audience over the age of 13. - Direct links to the internet that can take players away from the game with the potential to browse to any web page. - Advertising of Rovio products and also products from third parties. Although some features are available offline, this game may require internet connectivity for certain features. Normal data transfer charges apply. Note: When the game is played for the first time, there is a one-time download of additional content that cannot be completed while offline. We may update the game periodically, for example to add new features or content or to fix bugs or other technical issues. Please note that the game may not function properly if you do not have the newest version installed. If you have not installed the latest update, Rovio will not be responsible for the game failing to function as expected. Terms of use: http://www.rovio.com/terms-of-service Privacy Policy: http://www.rovio.com/privacy",
+      "analysis": {
+        "app_key": "google:com.rovio.baba",
+        "summary_ko": "앵그리버드 2는 새를 새총으로 발사하여 돼지들을 물리치는 캐주얼 퍼즐 게임입니다. 친구들과 팀을 이루거나 아레나에서 경쟁하며 다양한 레벨을 공략할 수 있습니다. 캐릭터를 성장시키고 수집 요소를 모으는 등 풍부한 콘텐츠를 제공합니다.",
+        "features_ko": [
+          "새총을 사용하여 새를 발사하고 구조물을 파괴하여 돼지를 물리칩니다.",
+          "캐릭터를 레벨업하여 점수 획득 능력을 강화할 수 있습니다.",
+          "클랜에 가입하여 전 세계 플레이어와 협력할 수 있습니다.",
+          "아레나 모드에서 다른 플레이어와 실력을 겨룰 수 있습니다.",
+          "다양한 테마의 모자를 수집하여 캐릭터를 꾸밀 수 있습니다.",
+          "여러 단계로 구성된 다층 레벨과 보스전이 존재합니다."
+        ],
+        "noteworthy_ko": "물리 엔진을 활용한 파괴의 쾌감과 전략적 새 선택 시스템이 핵심입니다. 다층 레벨 구조는 플레이어에게 지속적인 도전 과제를 제공하며, 수집 요소와 경쟁 모드를 통해 리텐션을 높이는 구조로 보입니다.",
+        "development_ko": "물리 엔진(Box2D 등)을 활용한 충돌 및 파괴 구현이 핵심 기술입니다. 다층 레벨 디자인과 캐릭터 성장 시스템의 밸런싱 작업이 큰 비중을 차지할 것으로 보입니다. 다양한 이벤트와 업데이트를 위한 콘텐츠 관리 시스템 구축이 필수적입니다.",
+        "idea_ko": "특정 물리 법칙을 반전시키는 '중력 반전 퍼즐' 아이디어가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "새총 발사라는 직관적인 조작으로 누구나 쉽게 즐길 수 있습니다.",
+          "물리 엔진을 활용한 구조물 파괴의 시각적, 청각적 피드백이 뛰어납니다."
+        ],
+        "systems_ko": [
+          "2D 물리 엔진 시스템",
+          "레벨 디자인 및 데이터 관리",
+          "캐릭터 성장 및 스탯 시스템",
+          "UI/UX 및 인벤토리 시스템",
+          "네트워크 통신(클랜, 리더보드)"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "물리 엔진의 정교한 튜닝과 수백 개의 레벨 디자인은 1인이 감당하기에 매우 큰 작업량입니다. 특히 네트워크 기반의 경쟁 시스템과 클랜 기능은 개발 난이도가 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "새총 발사 및 물리 충돌 로직",
+            "기본 레벨 10개",
+            "캐릭터 발사체 교체 기능"
+          ],
+          "defer": [
+            "클랜 시스템",
+            "온라인 아레나 경쟁",
+            "다양한 수집형 모자 아이템"
+          ],
+          "risks": [
+            "물리 엔진의 버그 및 불안정한 충돌 판정",
+            "레벨 디자인의 반복성으로 인한 재미 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중력 반전 퍼즐",
+            "concept": "발사 도중 중력을 반전시켜 구조물을 공략하는 퍼즐입니다. 위아래로 움직이는 장애물을 피해야 합니다.",
+            "first_step": "물리 엔진에서 중력 방향을 실시간으로 바꾸는 기능 구현."
+          },
+          {
+            "title": "건축가 모드",
+            "concept": "돼지 입장에서 새의 공격을 막기 위해 구조물을 튼튼하게 쌓는 역발상 게임입니다.",
+            "first_step": "블록을 배치하고 물리적으로 안정적인지 테스트하는 샌드박스 구현."
+          }
+        ],
+        "recommendation_ko": "물리 기반 게임의 기초를 다지기에 좋습니다. 다만, 대규모 콘텐츠를 혼자 구현하기보다는 핵심 메커니즘 하나에 집중하는 것을 추천합니다.",
+        "source_limitations_ko": "네트워크 통신 방식, 서버 구조, 인앱 결제 연동 세부 사항은 확인되지 않습니다.",
+        "name": "アングリーバード 2 (Angry Birds 2)",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.rovio.baba&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 12,
+        "countries": [
+          "JP",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "apple:1523682319": {
+      "app_key": "apple:1523682319",
+      "name": "Widgetsmith",
+      "developer": "Cross Forward Consulting, LLC",
+      "source": "apple",
+      "country": "US",
+      "category": "app_productivity",
+      "detail_url": "https://apps.apple.com/us/app/widgetsmith/id1523682319?uo=2",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-27T06:23:06+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Widgetsmith lets you personalize your device like never before with a wide range of highly customizable widgets. It allows you to design your home screen to remind you of the people, places, and words that mean the most to you. Widgetsmith showcases your photos, counts down to upcoming events, provides quick access to your favorite music, allows you to check the weather at a glance, and more. You can build widgets with Actions to launch apps, run Shortcuts, send a text, and more, from your home screen or Control Center. Widgetsmith includes a library of iPhone wallpapers and a tool to theme your widgets to perfectly complement these wallpapers or any of your own. Each widget can be adjusted precisely to fit your desired appearance and function, using various colors, fonts, borders, and themes. With Widgetsmith, you can create your perfect home screen aesthetic and easily change it over time. WIDGETS: You can create almost anything with Widgetsmith, using the wide range of widget types offered in the app! Here are some favorites: Photos: Highlight your favorite images across your home screens with a range of filters and borders Photo Galleries: View photos in an album or customized collection Customizable Date & Time Clocks Activity Tracking & Step Counting Countdown Timers Solar & Lunar Trackers Weather Conditions & Forecasts Time Zone Tracker Widgetsmith lets you customize not only your home screen but also your lock screen! You can view inspirational song lyrics, a photo of a loved one, weather information, and more without unlocking your device. WALLPAPERS: Widgetsmith includes a collection of phone wallpapers from various artists. These can be downloaded directly from the app and used to create custom widget themes to quickly and easily theme your entire home screen in a pleasing color palette. FLEXIBILITY: If you want different widgets at different times of day, Widgetsmith has you covered! For example, a widget could show the weather in the morning, your calendar during your work day, and then switch to your Activity ring progress as you wrap up your day. This lets you take full advantage of each slot on your home screen. IN-APP TOOLS: Wisgetsmith is also home to a wide range of valuable tools, including: A weather app with air quality, pollen, and tide information A full-featured time zone converter Charts to review activity and workout data NOTES: Widgetsmith is designed to optionally integrate with Apple Health to display your steps and activity. Permission for Widgetsmith to access this data is controlled through the Apple Health app. Widgetsmith can also integrate with your photos, Apple Music library, calendars, reminders, and more. Access to this information is handled using the standard iOS/iPadOS/watchOS privacy prompts, which are shown only in Widgetsmith. Widgetsmith includes an optional premium subscription. This is offered on a monthly or annual basis. If you choose to purchase a subscription, your payment will be charged to your iTunes account. Subscriptions will automatically renew unless canceled within 24 hours before the end of the current period. After purchase, you can turn off auto-renewal at any time by going to your Account Settings in the App Store. Access to tide and weather data is only available to Widgetsmith Premium subscribers. LEARN MORE: Privacy Policy: https://widgetsmith.app/privacy Terms of Use: https://widgetsmith.app/terms",
+      "analysis": {
+        "app_key": "apple:1523682319",
+        "summary_ko": "Widgetsmith는 사용자가 홈 화면과 잠금 화면을 개인의 취향에 맞게 꾸밀 수 있도록 돕는 위젯 커스터마이징 앱입니다. 사진, 날짜, 시간, 날씨, 활동량 등 다양한 정보를 위젯 형태로 배치할 수 있습니다. 사용자는 색상, 폰트, 테마 등을 정밀하게 조정하여 자신만의 독특한 화면을 구성할 수 있습니다.",
+        "features_ko": [
+          "다양한 필터와 테두리를 적용한 사진 위젯을 생성할 수 있습니다.",
+          "날짜, 시간, 활동량, 날씨 등 여러 유형의 위젯을 제공합니다.",
+          "시간대별로 위젯을 자동으로 전환하여 상황에 맞는 정보를 표시합니다.",
+          "앱 실행, 단축어 실행 등 특정 동작을 수행하는 위젯을 만들 수 있습니다.",
+          "제공되는 배경화면과 어울리는 테마를 설정할 수 있습니다."
+        ],
+        "noteworthy_ko": "사용자가 시간대별로 위젯을 교체할 수 있는 '스마트 스택'과 유사한 유연한 로직이 흥미롭습니다. 이는 정적인 홈 화면을 동적인 정보 대시보드로 변환하려는 시도로 보입니다.",
+        "development_ko": "iOS 위젯킷(WidgetKit) 프레임워크 활용이 핵심이며, 다양한 위젯 타입별 뷰 렌더링 최적화가 중요합니다. 사용자 설정 데이터를 저장하고 불러오는 로컬 데이터 관리와 시스템 설정과의 연동이 필요합니다. UI 커스터마이징을 위한 테마 엔진 설계가 제작 부담의 큰 부분을 차지할 것으로 보입니다.",
+        "idea_ko": "사용자의 위치나 특정 상황(예: 출근 시간)에 따라 위젯의 디자인과 정보를 자동으로 변경해 주는 '상황 인지형 위젯' 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "시간대별 위젯 자동 전환 기능을 통해 홈 화면의 활용도를 극대화합니다.",
+          "잠금 화면과 홈 화면을 통합적으로 관리할 수 있는 테마 도구를 제공합니다."
+        ],
+        "systems_ko": [
+          "위젯 렌더링 엔진",
+          "사용자 설정 데이터 관리 시스템",
+          "테마 및 스타일 프리셋 관리",
+          "시간/위치 기반 트리거 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "iOS 위젯킷의 기본 기능을 활용하는 것은 난이도가 높지 않으나, 다양한 위젯 타입을 안정적으로 렌더링하고 사용자 커스터마이징을 지원하는 UI/UX 설계에 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 위젯 렌더링(시간/사진)",
+            "사용자 설정 저장 기능",
+            "위젯 테마 편집기"
+          ],
+          "defer": [
+            "시간대별 자동 전환",
+            "외부 API 연동(날씨 등)"
+          ],
+          "risks": [
+            "iOS 업데이트에 따른 위젯 API 변경",
+            "메모리 제한으로 인한 위젯 업데이트 지연"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "감정 기록 위젯",
+            "concept": "사용자가 매일 기분을 선택하면 위젯의 색상과 아이콘이 바뀌어 한 달간의 감정 흐름을 시각화합니다.",
+            "first_step": "간단한 버튼 클릭으로 위젯의 배경색을 변경하는 기능 구현."
+          },
+          {
+            "title": "할 일 집중 위젯",
+            "concept": "현재 가장 중요한 할 일 하나만 크게 표시하고, 완료 시 다음 할 일을 자동으로 불러옵니다.",
+            "first_step": "텍스트 데이터를 위젯에 전달하여 표시하는 기본 기능 구현."
+          }
+        ],
+        "recommendation_ko": "iOS 시스템 프레임워크와 사용자 인터페이스 커스터마이징을 학습하기에 매우 좋은 프로젝트입니다. 다만, 시스템 제약 사항이 많으므로 애플의 가이드라인을 철저히 준수해야 합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 외부 API(날씨 등) 연동 방식과 구독 결제 시스템의 구체적인 구현 로직은 확인할 수 없습니다.",
+        "name": "Widgetsmith",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/widgetsmith/id1523682319?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "google:com.teamhoray.dungreed": {
+      "app_key": "google:com.teamhoray.dungreed",
+      "name": "던그리드 Dungreed",
+      "developer": "TEAM HORAY Co.,Ltd",
+      "source": "google",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.teamhoray.dungreed&hl=ko&gl=KR",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-27T06:26:27+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "프롤로그 : 한적하고 평화롭던 마을에 등장한 의문의 던전으로, 마을이 파괴되고 마을 사람들이 모두 빨려 들어가 버렸습니다. 여러분은 왕국에서 파견된 모험가가 되어 이 사태를 해결해야 합니다. 던전에 들어가 여러 위협에 맞서고, 주민들을 구출해 마을을 재건하세요! 던전 안에 체크포인트는 없습니다. 모험가가 던전 안에서 쓰러지면, 아이템을 모두 잃고 마을로 돌아오게 됩니다. 너무 걱정하지는 마세요. 다양한 형태로 성장할 수 있으니까요. \"어빌리티 훈련\"을 통해 능력치를 영구적으로 강화하기도 하고, 던전 안의 다양한 아이템들과 음식을 먹어 한층 더 강해질 수 있습니다. 모험가의 능력치를 업그레이드하고, 더 깊은 곳까지 탐험하세요! 주요 특징 : - 절차적으로 생성되지만, 정교하게 디자인 된 맵들 - 던전 탐험을 돕는 성장 시스템 - 낡아빠진 검부터 최신형 저격총까지, 다양한 무기와 마법무구들 - 당신의 입맛을 돋궈줄 고품격 음식 픽셀-아트! - 마을 재건 - 감옥, 정글, 용암지대 등 다양한 테마의 던전 - 몬스터, 함정, 그리고 보스들 - 컨트롤러 지원 ---- 개발자 연락처 : team.horay.game@gmail.com 경기 용인시 기흥구 동백중앙로 283 사업자번호: 316-86-03677 통신판매업:제 2022-용인기흥-1636 호 ---- 개발자 연락처 : (주)팀호레이 기흥구 동백중앙로 283, C동 6층 615호(중동, 골드프라자) 용인시, 경기도 17006 South Korea 316-86-03677 제2026-용인기흥-00265호 용인시 기흥구청",
+      "analysis": {
+        "app_key": "google:com.teamhoray.dungreed",
+        "summary_ko": "파괴된 마을을 재건하기 위해 던전에 뛰어드는 모험가의 이야기를 다룬 2D 픽셀 아트 액션 게임입니다. 던전 탐험 중 사망하면 아이템을 잃는 로그라이크 요소를 포함하고 있습니다. 다양한 무기와 마법 도구를 활용해 던전을 공략하고 마을을 성장시키는 경험을 제공합니다.",
+        "features_ko": [
+          "절차적으로 생성되는 맵을 통해 매번 새로운 던전 탐험 환경을 제공합니다.",
+          "어빌리티 훈련을 통해 캐릭터의 능력치를 영구적으로 강화할 수 있습니다.",
+          "다양한 무기와 마법 도구를 수집하여 전투 스타일을 구성할 수 있습니다.",
+          "던전 내에서 음식을 섭취하여 일시적인 능력치 상승 효과를 얻을 수 있습니다.",
+          "구출한 주민들을 통해 마을을 재건하고 기능을 확장할 수 있습니다."
+        ],
+        "noteworthy_ko": "로그라이크의 긴장감과 마을 재건이라는 성장 요소를 결합한 점이 특징입니다. 던전 탐험의 실패를 성장의 발판으로 삼는 구조가 사용자에게 지속적인 동기를 부여할 것으로 추정됩니다.",
+        "development_ko": "절차적 맵 생성 알고리즘과 다양한 무기/아이템의 데이터 구조 설계가 핵심입니다. 픽셀 아트 리소스 제작 부담이 크며, 무기별 타격감과 밸런스를 맞추는 테스트 과정이 필수적입니다. 마을 재건 시스템은 게임의 진행도와 연동되도록 상태 관리 시스템을 견고하게 구축해야 합니다.",
+        "idea_ko": "던전에서 획득한 재료로 마을의 특정 건물을 업그레이드하면, 다음 탐험 시 시작 무기가 변경되는 '마을 연동형 시작 장비 시스템'을 구현하는 것이 좋습니다.",
+        "highlights_ko": [
+          "절차적 맵 생성으로 구현된 다양한 테마의 던전.",
+          "마을 재건과 캐릭터 능력치 강화가 결합된 성장 시스템."
+        ],
+        "systems_ko": [
+          "절차적 맵 생성 알고리즘",
+          "아이템 및 무기 데이터 관리 시스템",
+          "캐릭터 상태 및 능력치 관리",
+          "마을 재건 진행도 관리",
+          "충돌 판정 및 물리 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "절차적 맵 생성 알고리즘의 완성도와 다양한 무기 간의 밸런스 조절, 그리고 픽셀 아트 리소스 제작량이 1인 개발자에게는 매우 큰 도전이기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이동 및 공격 시스템",
+            "절차적 맵 생성",
+            "아이템 획득 및 장착 시스템"
+          ],
+          "defer": [
+            "마을 재건 시스템",
+            "다양한 테마의 던전 확장"
+          ],
+          "risks": [
+            "맵 생성 알고리즘의 버그로 인한 진행 불가 상황",
+            "무기 간 밸런스 불균형"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "요리사 모험가",
+            "concept": "던전에서 몬스터를 사냥해 얻은 재료로 즉석에서 요리를 만들어 버프를 얻는 시스템입니다. 요리 조합법에 따라 다양한 효과가 발생합니다.",
+            "first_step": "아이템 조합 시스템을 활용한 간단한 요리 제작 프로토타입 구현."
+          },
+          {
+            "title": "마을 방어전",
+            "concept": "던전 탐험 중 마을이 습격받는 이벤트가 발생합니다. 모험가가 마을로 돌아와 방어 시설을 활용해 마을을 지키는 디펜스 모드입니다.",
+            "first_step": "기존 맵에 적이 특정 지점으로 이동하는 AI 경로 탐색 구현."
+          }
+        ],
+        "recommendation_ko": "로그라이크 게임의 핵심인 '무작위성'과 '성장'의 균형을 맞추는 법을 배우기에 적합합니다. 다만, 리소스 제작 부담이 크므로 초기에는 단순한 그래픽으로 핵심 재미를 검증하는 것을 추천합니다.",
+        "source_limitations_ko": "컨트롤러 지원 여부 외에 구체적인 입력 방식이나 멀티플레이어 기능 유무는 설명만으로 파악하기 어렵습니다.",
+        "name": "던그리드 Dungreed",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.teamhoray.dungreed&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
     }
   }
 }

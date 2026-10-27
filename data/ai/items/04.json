@@ -7403,6 +7403,627 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-26"
+    },
+    "itch:dea7f1780a84470b6278": {
+      "app_key": "itch:dea7f1780a84470b6278",
+      "name": "Piatto Card Game [Free] [Card Game]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://federaiko15.itch.io/piatto",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T05:44:47+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A push-your-luck roguelite with a traditional Sicilian deck: bet, draw, and survive one night at the osteria.",
+      "analysis": {
+        "app_key": "itch:dea7f1780a84470b6278",
+        "summary_ko": "전통적인 시칠리아 카드 덱을 사용하는 로그라이트 장르의 게임입니다. 플레이어는 술집에서 밤을 보내며 카드를 뽑고 베팅하며 생존해야 합니다.",
+        "features_ko": [
+          "전통 시칠리아 카드 덱을 활용한 게임 규칙.",
+          "위험을 감수하고 카드를 뽑는 '푸시 유어 럭(Push-your-luck)' 메커니즘.",
+          "밤을 버티기 위한 전략적 베팅과 생존 요소."
+        ],
+        "noteworthy_ko": "로그라이트 요소와 카드 게임의 결합이 흥미롭습니다. 운과 전략 사이의 균형을 어떻게 설계했는지가 게임의 재미를 결정할 것으로 보입니다.",
+        "development_ko": "카드 덱 시스템과 확률 기반의 이벤트 로직 구현이 핵심입니다. 로그라이트 특성상 반복 플레이를 위한 무작위성 생성과 밸런스 조정이 제작 부담의 큰 부분을 차지할 것입니다.",
+        "idea_ko": "카드 조합에 따라 주인공의 상태가 변하는 '상태 이상 카드 시스템'을 도입하여 전략성을 높일 수 있습니다.",
+        "highlights_ko": [
+          "시칠리아 전통 카드 덱이라는 독특한 테마.",
+          "로그라이트와 카드 게임의 결합."
+        ],
+        "systems_ko": [
+          "카드 덱 셔플 및 드로우 시스템",
+          "베팅 및 자원 관리 시스템",
+          "로그라이트 무작위 이벤트 생성기",
+          "게임 상태 저장 및 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "카드 게임은 그래픽 리소스 부담이 적고 로직 중심이라 1인 개발에 적합하지만, 게임 밸런스를 맞추는 데 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카드 드로우 로직",
+            "기본 베팅 시스템",
+            "생존 판정 로직"
+          ],
+          "defer": [
+            "복잡한 애니메이션 효과",
+            "다양한 캐릭터 스킬"
+          ],
+          "risks": [
+            "게임 밸런스 붕괴",
+            "단조로운 반복 플레이"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "술집의 비밀",
+            "concept": "카드 게임을 통해 얻은 정보로 술집 손님들의 비밀을 밝혀내는 스토리 모드입니다.",
+            "first_step": "카드 결과에 따른 텍스트 이벤트 출력 구현."
+          },
+          {
+            "title": "카드 마법사",
+            "concept": "카드를 뽑을 때마다 마법 에너지가 쌓여 특수 능력을 사용할 수 있는 변형 규칙입니다.",
+            "first_step": "에너지 게이지 시스템과 카드 효과 연동."
+          }
+        ],
+        "recommendation_ko": "카드 게임의 로직 설계와 로그라이트 밸런싱을 배우고 싶은 개발자에게 추천합니다. 리소스보다 시스템 설계 능력을 기르기에 좋습니다.",
+        "source_limitations_ko": "구체적인 카드 규칙, 승리 조건, 로그라이트 요소의 상세 내용이 설명에 명시되어 있지 않습니다.",
+        "name": "Piatto Card Game [Free] [Card Game]",
+        "source": "itch",
+        "detail_url": "https://federaiko15.itch.io/piatto",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 353,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 9,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "google:com.ikame.bloodpressure.heartrate.monitor": {
+      "app_key": "google:com.ikame.bloodpressure.heartrate.monitor",
+      "name": "Artera: Blood Pressure App Log",
+      "developer": "iKame Applications - Begamob Global",
+      "source": "google",
+      "country": "US",
+      "category": "app_health_fitness",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.ikame.bloodpressure.heartrate.monitor&hl=en&gl=US",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T05:51:48+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Take control of your heart health with Artera: Blood Pressure Monitor, your AI-powered wellness companion for tracking blood pressure, heart rate, stress, and heart health. Powered by innovative camera measurement technology, Artera helps you monitor important wellness indicators quickly and conveniently—no finger scan required. Simply complete a quick camera measurement to receive personalized wellness insights, review your health history, and stay informed about your cardiovascular wellness every day. ❤️ Blood Pressure Monitor: Monitor your blood pressure with a simple and convenient experience. Track blood pressure trends, review your history, and better understand your cardiovascular wellness over time. Regular monitoring helps you build healthier habits and stay aware of changes in your daily health. 📷 Camera Measurement: Forget traditional finger scans. Artera uses advanced camera measurement technology to provide blood pressure, heart rate, and stress-related wellness insights with a fast, seamless experience. 💓 Heart Rate Monitor: Keep track of your heart rate anytime. View your heart rate history, monitor daily changes, and better understand your overall heart health and fitness progress. 😌 Stress Index Tracker: Monitor your Stress Index and discover how your lifestyle may influence your well-being. Follow stress trends over time and receive helpful wellness insights to support a healthier routine. ❤️‍🩹 Heart Health & Heart Age: Learn more about your cardiovascular wellness with personalized Heart Health insights. Explore your Heart Age, review long-term trends, and stay motivated to maintain a healthier lifestyle. ⏰ Smart Health Reminders: Build healthier habits with customizable reminders for: • Sleep • Medication • Hydration • Daily schedules Stay organized and never miss an important part of your wellness routine. 📈 Health History: Keep all your wellness records in one place. Easily review blood pressure history, heart rate trends, stress records, and heart health insights to better understand your long-term progress. ⭐ Why Choose Artera? Artera combines intelligent health monitoring with camera measurement technology to help you: • Monitor blood pressure • Track heart rate • Measure Stress Index • Explore Heart Health & Heart Age • View health history and trends • Create daily health reminders • Build healthier habits with personalized wellness insights Whether you're monitoring your blood pressure, improving your heart health, or maintaining a healthier lifestyle, Artera makes daily wellness tracking simple, smart, and convenient. 📢 Disclaimer: Artera is intended for general wellness and fitness purposes only. It is not a medical device and is not intended to diagnose, treat, cure, monitor, or prevent any disease or medical condition. The information provided is for informational purposes only and should not replace professional medical advice or clinically validated medical equipment. Always consult a qualified healthcare professional regarding your health. Download Artera: Blood Pressure Monitor today and experience a smarter way to monitor your Blood Pressure, Heart Rate, Stress Index, and Heart Health with innovative camera measurement technology.",
+      "analysis": {
+        "app_key": "google:com.ikame.bloodpressure.heartrate.monitor",
+        "summary_ko": "Artera는 스마트폰 카메라를 활용해 혈압, 심박수, 스트레스 지수 등을 측정하고 관리하는 헬스케어 앱입니다. 사용자는 카메라를 통해 건강 지표를 추적하고, 건강 기록을 시각화하여 일상적인 건강 관리를 수행할 수 있습니다. 건강 습관 형성을 위한 알림 기능과 건강 이력 관리 기능을 제공합니다.",
+        "features_ko": [
+          "카메라 측정 기술을 사용하여 혈압, 심박수, 스트레스 지수를 추정합니다.",
+          "건강 지표의 변화 추이를 그래프로 시각화하여 장기적인 건강 상태를 관리합니다.",
+          "수면, 약 복용, 수분 섭취 등 건강 습관을 위한 스마트 알림을 설정합니다.",
+          "개인화된 건강 인사이트를 제공하여 건강한 생활 습관 형성을 돕습니다."
+        ],
+        "noteworthy_ko": "카메라를 통해 생체 신호를 추정하는 기술은 매우 도전적이며 흥미로운 분야입니다. 다만, 의료 기기가 아님을 명시하는 면책 조항이 필수적이며, 측정 정확도에 대한 신뢰성 확보가 개발 관점에서 가장 큰 과제입니다.",
+        "development_ko": "핵심 기술은 카메라 영상에서 미세한 혈류 변화를 감지하는 이미지 처리 및 신호 분석입니다. 콘텐츠 제작 부담은 적으나, 데이터 분석 알고리즘의 정확도를 높이는 연구가 필요합니다. 의료 기기가 아니라는 점을 명확히 하는 법적/윤리적 가이드라인 준수가 필수적입니다.",
+        "idea_ko": "측정된 스트레스 지수에 따라 사용자의 기분을 전환할 수 있는 명상 가이드나 호흡법을 추천하는 기능을 추가하는 아이디어가 좋습니다.",
+        "highlights_ko": [
+          "별도의 장비 없이 스마트폰 카메라만으로 생체 지표를 추정하는 혁신적인 접근을 시도합니다.",
+          "건강 기록을 통합 관리하고 시각화하여 사용자가 자신의 건강 상태를 쉽게 파악할 수 있습니다."
+        ],
+        "systems_ko": [
+          "카메라 기반 생체 신호 분석 시스템",
+          "건강 데이터 저장 및 이력 관리 시스템",
+          "데이터 시각화(그래프) 시스템",
+          "사용자 알림 및 습관 관리 시스템",
+          "개인화된 인사이트 생성 로직"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "생체 신호 측정 알고리즘의 정확도를 확보하는 것은 매우 높은 수준의 기술력을 요구하며, 의료 관련 앱으로서의 법적 책임과 보안 문제도 고려해야 합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카메라 기반 심박수 측정 로직",
+            "데이터 저장 및 이력 관리"
+          ],
+          "defer": [
+            "혈압 추정 알고리즘(정확도 확보 어려움)",
+            "복잡한 건강 인사이트 생성"
+          ],
+          "risks": [
+            "측정 정확도에 대한 사용자 불신",
+            "의료 기기 오인으로 인한 법적 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "맞춤형 명상 가이드",
+            "concept": "측정된 스트레스 지수가 높을 때, 사용자의 상태에 맞는 짧은 명상이나 호흡법을 제안합니다.",
+            "first_step": "스트레스 지수 구간별로 명상 가이드 콘텐츠를 매칭하는 로직을 구현합니다."
+          },
+          {
+            "title": "건강 리포트 공유",
+            "concept": "주간 건강 지표 변화를 요약하여 가족이나 주치의에게 공유할 수 있는 리포트 생성 기능입니다.",
+            "first_step": "데이터를 PDF나 이미지로 변환하여 공유하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "헬스케어 데이터 분석과 이미지 처리 기술에 관심이 있다면 도전해 볼 만합니다. 다만, 의료 관련 서비스이므로 정확한 정보 제공과 면책 조항 관리에 각별한 주의가 필요합니다.",
+        "source_limitations_ko": "소개문에는 카메라 측정의 구체적인 원리나 알고리즘의 근거가 명시되지 않았습니다. 의료 기기가 아님을 명시하고 있으나, 실제 측정 정확도에 대한 검증 데이터는 확인할 수 없습니다.",
+        "name": "Artera: Blood Pressure App Log",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.ikame.bloodpressure.heartrate.monitor&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 192,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 16,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "apple:454086751": {
+      "app_key": "apple:454086751",
+      "name": "Flick Home Run !",
+      "developer": "infinity pocket",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/us/app/flick-home-run/id454086751?uo=2",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T06:04:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Turn your finger into a bat in a classic physics-driven baseball game. A quick, accurate flick sends the ball farther. Read the pitch, choose your timing, and adapt to varied movement as every hit follows the game’s physics. Play a wide range of modes: Minor, Major, Moon Star, Bunt, Total, Faster & Faster, Giant, Cutter, Called Shot, Balloons, and Cars. Each mode brings its own goals and scoring style. Earn experience and improve Power, Contact, and Batting Eye. Complete achievements, then compare your best scores through leaderboards and online features. Easy to pick up and satisfying to master—see how far your best flick can fly.",
+      "analysis": {
+        "app_key": "apple:454086751",
+        "summary_ko": "Flick Home Run!은 손가락을 배트로 활용하여 공을 치는 물리 기반의 야구 게임입니다. 타이밍에 맞춰 공을 쳐내며 다양한 모드를 통해 점수를 획득하고 실력을 향상시킬 수 있습니다. 직관적인 조작법을 통해 누구나 쉽게 즐길 수 있으며, 리더보드를 통해 경쟁하는 재미를 제공합니다.",
+        "features_ko": [
+          "손가락의 움직임을 배트 스윙으로 변환하는 물리 기반 타격 시스템을 제공합니다.",
+          "마이너, 메이저, 문 스타 등 다양한 게임 모드를 통해 각기 다른 목표와 점수 방식을 지원합니다.",
+          "타격 능력치(파워, 컨택, 배팅 아이)를 성장시키는 육성 요소를 포함합니다.",
+          "업적 시스템과 온라인 리더보드를 통해 다른 사용자와 기록을 비교할 수 있습니다."
+        ],
+        "noteworthy_ko": "물리 엔진을 활용한 타격의 손맛이 핵심이며, 단순한 조작에 다양한 모드를 결합해 반복적인 플레이를 유도하는 구조가 흥미롭습니다. 개발 관점에서는 물리 연산의 정확도와 타격 타이밍 판정 로직이 게임의 완성도를 결정짓는 핵심 요소로 추정됩니다.",
+        "development_ko": "물리 엔진을 활용한 공의 궤적 계산과 터치 입력의 속도/방향을 타격 결과로 변환하는 로직 구현이 핵심입니다. 다양한 게임 모드에 따른 규칙 분기 처리가 필요하며, 밸런스 조정 시 타격 난이도와 성장 곡선을 세밀하게 설계해야 합니다. 1인 개발 시 물리 엔진의 기본 기능을 활용하여 타격감을 최적화하는 데 집중하는 것이 좋습니다.",
+        "idea_ko": "특정 리듬에 맞춰 공을 쳐내는 '리듬 야구' 모드를 추가하여 타격의 쾌감을 극대화하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "다양한 게임 모드: 각 모드마다 고유한 목표와 규칙을 설정하여 콘텐츠의 다양성을 확보했습니다.",
+          "성장 시스템: 타격 관련 능력치를 강화하여 플레이어에게 지속적인 동기를 부여합니다."
+        ],
+        "systems_ko": [
+          "물리 엔진 기반 타격 판정 시스템",
+          "터치 입력 속도 및 방향 감지 시스템",
+          "게임 모드별 규칙 관리 시스템",
+          "캐릭터 능력치 데이터 관리 시스템",
+          "온라인 리더보드 연동 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진을 활용한 타격 판정은 구현이 가능하지만, 다양한 게임 모드와 밸런스를 맞추는 과정에서 상당한 테스트 시간이 소요됩니다. 1인 개발 시 핵심 메커니즘인 타격 로직을 먼저 완성한 후 모드를 확장하는 전략이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "터치 기반 타격 물리 로직",
+            "기본 타격 모드",
+            "점수 기록 및 저장 시스템"
+          ],
+          "defer": [
+            "온라인 리더보드",
+            "복잡한 능력치 성장 시스템"
+          ],
+          "risks": [
+            "물리 엔진의 기기별 성능 차이로 인한 판정 불일치",
+            "타격감 최적화 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "리듬 야구 모드",
+            "concept": "배경 음악의 비트에 맞춰 공이 날아오고, 정확한 타이밍에 칠수록 높은 점수를 얻는 모드입니다.",
+            "first_step": "특정 박자에 맞춰 공을 생성하고 타격 판정을 확인하는 프로토타입 제작."
+          },
+          {
+            "title": "장애물 피하기 야구",
+            "concept": "날아오는 공 사이에 장애물이 배치되어, 이를 피하거나 부수며 타격해야 하는 모드입니다.",
+            "first_step": "공의 궤적 중간에 충돌 가능한 오브젝트를 배치하여 물리 상호작용 테스트."
+          }
+        ],
+        "recommendation_ko": "물리 기반 게임의 기초적인 타격감과 조작 체계를 배우기에 매우 좋습니다. 단순한 메커니즘을 다양한 모드로 확장하는 기획 방식을 학습할 수 있어 추천합니다.",
+        "source_limitations_ko": "소개문에는 물리 엔진의 종류나 구체적인 타격 판정 알고리즘이 명시되어 있지 않습니다. 온라인 기능의 구체적인 구현 방식이나 데이터 저장 방식은 확인되지 않았습니다.",
+        "name": "Flick Home Run !",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/flick-home-run/id454086751?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "google:co.appnation.geniechat": {
+      "app_key": "google:co.appnation.geniechat",
+      "name": "Chatbot AI Assistant - Genie",
+      "developer": "APPNATION AS",
+      "source": "google",
+      "country": "US",
+      "category": "app_productivity",
+      "detail_url": "https://play.google.com/store/apps/details?id=co.appnation.geniechat&hl=en&gl=US",
+      "data_date": "2026-10-27",
+      "analysed_at": "2026-10-27T06:04:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Try for free — AI chat, image generation, and video creation in one app. Built on GPT-6, Gemini, Grok, DeepSeek, Claude, Perplexity Sonar, Kimi, GLM & Muse Wonder. Generate AI images with Nano Banana, GPT Image & Grok Imagine, and AI videos with Seedance & Kling. ALL-IN-ONE AI ASSISTANT Meet Genie, your all-in-one AI assistant for work, study, and creativity. Chat with advanced AI models, ask questions, get ideas, solve problems, and turn your imagination into images and videos. Genie brings powerful AI tools together in a single, easy-to-use app. AI CHAT & EVERYDAY PRODUCTIVITY Use Genie to write emails, essays, stories, and social media captions. Brainstorm new ideas, get help with coding, learn new topics, translate text, and break down complex questions. Whether you're planning your day or working on a big project, Genie is ready to help. Explore even more ways to get things done: • Ask questions and explore new topics • Write emails, drafts, and social media captions • Brainstorm ideas and summarize text • Get help with coding and debugging • Translate text and explore languages • Convert documents and PDF files • Summarize YouTube videos • Generate AI images and artwork • Create AI videos and animations EXPLORE AI MODELS Discover GPT-6, Gemini, Grok, DeepSeek, Claude, Perplexity Sonar, Kimi, GLM & Muse Wonder in one place. Explore different approaches to writing, reasoning, coding, and everyday questions. Switch between AI models to find the response and creative support that works for you. AI IMAGE GENERATOR Turn words into visuals with AI image generation. Use Nano Banana, GPT Image, and Grok Imagine to create artwork, illustrations, imaginative scenes, and social media content. Start with a simple prompt and bring your ideas to life. Experiment with styles, concepts, and creative directions. AI VIDEO GENERATOR Create AI videos using Seedance and Kling. Turn text prompts and creative ideas into engaging clips, or explore image-to-video creation. Make videos for inspiration, storytelling, social content, and personal projects without complicated editing tools. ONE APP, MORE WAYS TO CREATE From AI chat and brainstorming to image generation, video creation, document tools, and YouTube summaries, Genie puts your favorite creative and productivity features in one place. Whether you're a student, creator, professional, or simply curious about AI, discover new ways to learn, make, and explore. Try Genie for free and see what you can create with AI. INDEPENDENT AI APP DISCLAIMER Genie integrates third-party AI technologies developed by independent providers. GPT and GPT Image are developed by OpenAI; Gemini and Nano Banana by Google; Grok and Grok Imagine by xAI; Claude by Anthropic; DeepSeek by DeepSeek; Perplexity Sonar by Perplexity AI; Kimi by Moonshot AI; GLM by Z.ai (Zhipu AI); Seedance by ByteDance; Kling by Kuaishou; and Muse Wonder by Meta. Genie does not own or develop these models and is not officially affiliated with, sponsored by, or endorsed by their respective creators. All referenced model names and trademarks belong to their respective owners. Privacy Policy: https://appnation.co/privacy Terms & Conditions: https://appnation.co/terms",
+      "analysis": {
+        "app_key": "google:co.appnation.geniechat",
+        "summary_ko": "Chatbot AI Assistant - Genie는 GPT-6, Gemini, Claude 등 다양한 AI 모델을 한곳에서 사용할 수 있는 올인원 AI 비서입니다. 텍스트 채팅뿐만 아니라 AI 이미지 생성, 영상 제작, 문서 요약 등 다양한 생산성 도구를 제공합니다. 업무, 학습, 창작 등 일상적인 작업에서 AI의 도움을 받을 수 있도록 설계되었습니다.",
+        "features_ko": [
+          "GPT-6, Gemini, Claude 등 여러 AI 모델을 선택하여 채팅할 수 있습니다.",
+          "텍스트 프롬프트를 입력하여 AI 이미지를 생성할 수 있습니다.",
+          "Seedance와 Kling을 활용하여 텍스트나 이미지로 AI 영상을 제작할 수 있습니다.",
+          "문서 요약, 코드 작성, 언어 번역 등 다양한 생산성 작업을 지원합니다."
+        ],
+        "noteworthy_ko": "다양한 외부 AI 모델을 하나의 인터페이스로 통합한 'AI 애그리게이터' 형태의 앱입니다. 개발 관점에서는 각기 다른 API 규격을 통일된 인터페이스로 처리하는 추상화 계층 설계가 매우 흥미롭습니다.",
+        "development_ko": "다양한 AI 모델의 API를 안정적으로 호출하고 응답을 처리하는 백엔드 시스템이 핵심입니다. 사용자 프롬프트를 각 모델에 맞게 최적화하여 전달하는 로직과 생성된 결과물을 앱 내에서 보여주는 UI 구현이 필요합니다. 1인 개발 시 모든 모델을 직접 구현하는 대신, API 연동을 통한 서비스 통합에 집중하는 것이 효율적입니다.",
+        "idea_ko": "사용자가 자주 사용하는 프롬프트를 저장하고 관리하는 '프롬프트 라이브러리' 기능을 추가하여 생산성을 높이는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "모델 다양성: 여러 최신 AI 모델을 한 앱에서 비교하고 선택하여 사용할 수 있습니다.",
+          "멀티미디어 생성: 텍스트뿐만 아니라 이미지와 영상까지 생성할 수 있는 통합 도구입니다."
+        ],
+        "systems_ko": [
+          "다중 AI API 연동 시스템",
+          "사용자 프롬프트 관리 및 최적화 시스템",
+          "이미지 및 영상 생성 결과물 처리 시스템",
+          "사용자 계정 및 구독 관리 시스템",
+          "데이터 요약 및 처리 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "여러 외부 API를 연동하고 관리하는 과정에서 발생하는 비용과 기술적 복잡도가 매우 높습니다. 또한, 각 모델의 응답 속도와 품질을 관리하는 것은 상당한 운영 노하우를 필요로 합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "단일 AI 모델 채팅 기능",
+            "기본 텍스트 요약 기능"
+          ],
+          "defer": [
+            "AI 영상 생성 기능",
+            "다중 모델 선택 기능"
+          ],
+          "risks": [
+            "외부 API 비용 급증",
+            "AI 모델의 정책 변경에 따른 서비스 중단"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "프롬프트 템플릿 마켓",
+            "concept": "사용자들이 효과적인 프롬프트를 공유하고 서로 평가할 수 있는 커뮤니티 공간입니다.",
+            "first_step": "프롬프트를 저장하고 불러오는 간단한 게시판 형태의 기능 구현."
+          },
+          {
+            "title": "AI 작업 자동화 워크플로우",
+            "concept": "텍스트 요약 후 이미지 생성까지 이어지는 일련의 작업을 자동화하는 기능입니다.",
+            "first_step": "두 가지 API를 순차적으로 호출하여 결과를 보여주는 간단한 스크립트 구현."
+          }
+        ],
+        "recommendation_ko": "최신 AI 기술을 활용한 서비스 통합 방식을 배우기에 최적입니다. API 연동을 통한 서비스 확장성을 경험하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "사용된 각 AI 모델의 API 호출 비용이나 제한 사항은 명시되지 않았습니다. 개인정보 보호 및 데이터 처리 방식에 대한 구체적인 정보가 부족합니다.",
+        "name": "Chatbot AI Assistant - Genie",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=co.appnation.geniechat&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "apple:1662497070": {
+      "app_key": "apple:1662497070",
+      "name": "FitLine PM-International",
+      "developer": "PM-International AG",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/kr/app/fitline-pm-international/id1662497070?uo=2",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-27T06:16:39+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "개인 포켓 코치인 FitLine 앱으로 웰빙 목표를 달성하고 지속적인 습관을 기르세요. FitLine 앱에 오신 것을 환영합니다 - 습관을 기르고, 진행 상황을 기록하고, 매일 동기 부여를 유지하기 위한 최고의 동반자입니다. FitLine 앱은 사용자의 고유한 요구 사항에 맞는 완벽한 웰빙 경험을 제공합니다. 일일 알림, 진행 상황 추적 및 노력에 대한 인센티브를 통해 책임을 지십시오. FitLine 앱으로 계획을 쉽게 수정하고 진행 상황을 모니터링하여 계획대로 진행하고 정확한 결과를 얻을 수 있습니다. 웰빙 여정에 접근하는 방식을 변화시킬 FitLine 앱의 강력한 기능을 알아보세요. • 전반적인 웰빙 및 스포츠 목표, 신체 활동 및 식습관에 대한 정확한 퀴즈 답변을 기반으로 한 100% 개별화된 제품 루틴 • 건강 앱에서 추출한 데이터를 사용하여 맞춤형 라이프 스타일 코치 • 개선된 라이프스타일을 위한 일일 프로그램 • 사진 및 비디오 평가 형태의 고객 경험 커뮤니티 • 고객과의 상호 작용 향상 • 완벽한 데모를 위해 필요한 모든 체크리스트를 통해 \"Use.Talk.Demo.\" 작업 방법을 더 높은 수준으로 끌어 올리십시오. FitLine 제품을 관리하고, 기분과 건강 데이터를 추적하는 모니터링 과정에서 포인트를 적립하면서 자신을 아껴주세요. 보충제와 비타민을 섭취 기록은 매일의 지원과 유용한 알림 없이는 결코 쉬운 일이 아닙니다. 일상과 일관성을 유지한 것에 대해 보상을 받으세요. FitLine 앱은 긍정적인 습관을 기르고, 동기를 유지하고, 웰빙 목표를 달성하는 데 필요한 모든 도구를 제공합니다. 앱을 다운로드하고 고객 또는 팀 파트너로 로그인하기만 하면 추가 비즈니스 기능을 활용할 수 있습니다. 지금 바로 웰빙 여정을 바꿔보세요 – FitLine 앱으로 삶의 방식을 다운로드하고 새로운 좋은 습관을 기르고, 진행 상황을 추적하고, 매일 동기 부여를 시작하세요!",
+      "analysis": {
+        "app_key": "apple:1662497070",
+        "summary_ko": "FitLine 앱은 사용자의 웰빙 목표 달성을 돕는 개인 코칭 서비스입니다. 맞춤형 제품 루틴 제공, 건강 데이터 추적, 일일 알림 기능을 통해 건강한 습관 형성을 지원합니다. 사용자는 진행 상황을 기록하고 동기를 부여받으며 웰빙 여정을 관리할 수 있습니다.",
+        "features_ko": [
+          "퀴즈 답변을 기반으로 한 100% 개별화된 제품 루틴을 제공합니다.",
+          "건강 앱 데이터를 연동하여 맞춤형 라이프스타일 코칭을 수행합니다.",
+          "사진 및 비디오 평가를 통해 고객 경험 커뮤니티를 운영합니다.",
+          "일일 알림과 진행 상황 추적을 통해 습관 형성을 돕습니다.",
+          "비즈니스 파트너를 위한 데모 체크리스트 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "단순한 건강 기록을 넘어 제품 루틴과 비즈니스 기능을 결합한 하이브리드 앱입니다. 사용자의 데이터를 기반으로 개인화된 경험을 제공하는 점이 특징이며, 커뮤니티와 비즈니스 도구를 통합하여 사용자 충성도를 높이는 전략이 돋보입니다.",
+        "development_ko": "건강 데이터 연동(HealthKit 등) 기술과 사용자 맞춤형 알고리즘 구현이 핵심입니다. 데이터 보안과 개인정보 보호가 매우 중요하며, 커뮤니티 기능을 위한 서버 인프라 구축이 필요합니다. 사용자 경험을 위한 UI/UX 설계와 알림 시스템의 안정성이 필수적입니다.",
+        "idea_ko": "사용자의 감정 상태를 기록하고 그에 맞는 짧은 명상 루틴을 추천하는 '감정 맞춤형 웰빙 앱' 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "개인화된 퀴즈를 통해 사용자 맞춤형 루틴을 생성합니다.",
+          "건강 데이터와 비즈니스 기능을 결합하여 다목적 활용이 가능합니다."
+        ],
+        "systems_ko": [
+          "사용자 데이터 관리 및 프로필 시스템",
+          "건강 데이터 연동 API(HealthKit 등)",
+          "개인화 추천 알고리즘",
+          "알림 및 스케줄링 시스템",
+          "커뮤니티 게시판 및 미디어 업로드"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "건강 데이터 연동과 보안, 커뮤니티 서버 운영은 1인 개발자가 관리하기에 매우 복잡합니다. 특히 의료/건강 관련 앱은 데이터 정확성과 보안 규정 준수가 필수적이므로 난이도가 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 루틴 설정 및 기록 기능",
+            "일일 알림 푸시 서비스",
+            "진행 상황 시각화 대시보드"
+          ],
+          "defer": [
+            "커뮤니티 기능",
+            "비즈니스 파트너용 데모 도구",
+            "복잡한 건강 데이터 자동 연동"
+          ],
+          "risks": [
+            "개인정보 보호 및 데이터 보안 이슈",
+            "사용자 지속성 유지를 위한 콘텐츠 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "감정 맞춤형 웰빙",
+            "concept": "매일의 감정을 입력하면 그에 맞는 짧은 스트레칭이나 명상을 추천합니다.",
+            "first_step": "감정 선택 UI와 그에 따른 콘텐츠 리스트 출력 기능 구현."
+          },
+          {
+            "title": "습관 챌린지 메이트",
+            "concept": "특정 습관을 공유하는 소규모 그룹을 생성하여 서로 인증하는 앱입니다.",
+            "first_step": "습관 인증 사진 업로드 및 피드 기능 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 기반의 개인화 서비스 개발을 배우기에 좋습니다. 다만, 건강 관련 앱은 법적 규제와 보안이 중요하므로 충분한 사전 조사가 필요합니다.",
+        "source_limitations_ko": "데이터 보안 정책, 서버 인프라, 구체적인 추천 알고리즘의 로직은 확인되지 않습니다.",
+        "name": "FitLine PM-International",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/fitline-pm-international/id1662497070?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 15,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "apple:6474010687": {
+      "app_key": "apple:6474010687",
+      "name": "Remote for Samsung TV Smart",
+      "developer": "Controlla TV LTD.",
+      "source": "apple",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://apps.apple.com/us/app/remote-for-samsung-tv-smart/id6474010687?uo=2",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-27T06:26:51+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Controlla app provides a perfect solution for remote control of your Samsung TV. The sleek multi-button design ensures an intuitive, simple, and comfortable operation, giving you unparalleled control at your fingertips. We are seamlessly transforming your smartphone into a powerful remote control! Watch your favorite TV shows and movies using our unique streaming buttons for Netflix, Prime, and Youtube. Controlla makes watching what you love easier, browsing online, and accessing your favorite content. Let us make your TV experience more straightforward and seamless with the new Samsung smart remote. We created this app for people who want easy & fast access to control their Samsung TV from their mobile device! This app gives you complete control over your Samsung Smart TV, including all of the features of your old physical remote control and some more intelligent functions. To use Controlla, connect the mobile device and Smart TV to the same WIFI network and start using it. ***BUTTONS*** - Turn ON and OFF the TV (Supported models only) - Home button - Return button - Numbers keyboard buttons(Enter a channel number for jumping right to it) - Colors buttons (red, yellow, green, blue) - Change channels (next and previous ) - Increase or decrease the volume (also using the Phone side buttons) - Mute the sound (silent mode) - Change the source (HDMI, PC, AV...) - Access the 4 favorite buttons - Up / Down / Left / Right Navigation + center button “OK” - Play / pause / Reverse / Fast Forward. - Netflix button, Amazon prime button, and Youtube button - Settings button - Menu button ***FEATURES*** - No infrared equipment required, just Wi-Fi connection - Every time you open the app, your TV will be auto-connected for quick and easy access - Realistic and user-friendly app design - Light vibration when pressing buttons - Connect to multiple TVs with the same phone + option to switch between the devices Forget about the hassle of searching for the physical remote or dealing with clunky on-screen keyboards. Our app ensures a seamless and efficient control experience, putting you in command of your entertainment. Whether you're binge-watching your favorite series, exploring the latest movies, or catching up on YouTube videos, this app empowers you with the tools you need. With just a few taps, you can unleash the power of Controlla Samsung Smart Remote and take charge of your TV viewing - Simplify Your TV Control! Download Controlla now and Simplify your Samsung TV control from your phone. Premium Subscription Offer: Get full app access with an annual Premium subscription for seamless convenience, the subscription fee of $39.99/year (United States) will be billed to your iTunes account upon confirmation of purchase. Subscription Details: - Payment will be charged to the iTunes Account at confirmation of purchase. - Subscription automatically renews each year unless auto-renew is turned off at least 24 hours before the end of the current subscription period. - Your account will be charged for renewal within 24 hours prior to the end of the current period, at the original subscription rate. - Manage your subscription and turn off auto-renewal by going to your Account Settings after purchase. - Any unused portion of a free trial period, if offered, will be forfeited when you purchase a Premium subscription. - To restore a purchase on a new device or regain premium, tap \"Restore Purchase\" in the app settings. For support or inquiries, contact us in-app or visit https://www.controlla-tv.com/. Please review our Privacy Policy and Terms of Service for more information: Privacy Policy: https://www.controlla-tv.com/ Terms of Service: https://www.controlla-tv.com/controlla-tv-terms-of-use Prices may vary based on your region and are subject to change without notice. Local taxes may apply. --- Disclaimer: This app is not an official Samsung application or any other trademark. We are not affiliated with Samsung Electronics in any way.",
+      "analysis": {
+        "app_key": "apple:6474010687",
+        "summary_ko": "삼성 스마트 TV를 스마트폰으로 제어할 수 있는 리모컨 앱입니다. Wi-Fi를 통해 TV와 연결되며, 물리 리모컨의 기능을 스마트폰 화면으로 옮겨와 채널 변경, 볼륨 조절, 앱 실행 등을 지원합니다. 넷플릭스, 유튜브 등 주요 스트리밍 서비스로 바로 이동하는 버튼을 제공합니다.",
+        "features_ko": [
+          "Wi-Fi 연결을 통해 적외선 장비 없이 삼성 스마트 TV를 제어합니다.",
+          "채널 변경, 볼륨 조절, 메뉴 탐색 등 물리 리모컨의 핵심 기능을 제공합니다.",
+          "넷플릭스, 유튜브, 아마존 프라임 등 주요 앱 실행 버튼을 포함합니다.",
+          "여러 대의 TV를 등록하고 전환하며 제어할 수 있습니다.",
+          "버튼 클릭 시 진동 피드백을 제공하여 사용성을 높였습니다."
+        ],
+        "noteworthy_ko": "하드웨어 제어 프로토콜을 소프트웨어로 구현한 점이 흥미롭습니다. TV와의 통신 규격(SSAP 등)을 이해하고 이를 모바일 앱으로 안정적으로 구현하는 것이 개발의 핵심입니다.",
+        "development_ko": "TV와의 네트워크 통신 프로토콜 구현이 가장 중요하며, 연결 안정성이 사용자 경험을 좌우합니다. UI는 물리 리모컨의 직관성을 유지하면서도 스마트폰 환경에 맞게 최적화해야 합니다. 다중 기기 연결 및 전환을 위한 상태 관리 시스템이 필요합니다.",
+        "idea_ko": "음성 인식 기능을 추가하여 말로 TV를 제어하거나, 스마트폰의 키보드를 활용해 TV에서 검색을 쉽게 하는 기능이 유용합니다.",
+        "highlights_ko": [
+          "물리 리모컨 없이 스마트폰만으로 TV를 제어하는 편리함.",
+          "주요 스트리밍 앱 바로가기 버튼을 통한 빠른 콘텐츠 접근."
+        ],
+        "systems_ko": [
+          "네트워크 통신 프로토콜(SSAP 등)",
+          "기기 검색 및 연결 관리 시스템",
+          "사용자 입력 처리 및 피드백 시스템",
+          "다중 기기 프로필 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "네트워크 통신에 대한 이해가 필요하지만, 공개된 프로토콜을 활용하면 구현 가능합니다. 다만 다양한 TV 모델과의 호환성 테스트가 개발의 큰 비중을 차지합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "TV 기기 검색 및 Wi-Fi 연결",
+            "기본 제어 버튼(전원, 볼륨, 채널, 방향키)"
+          ],
+          "defer": [
+            "다중 기기 관리",
+            "앱 바로가기 버튼 커스터마이징"
+          ],
+          "risks": [
+            "TV 모델별 호환성 문제",
+            "네트워크 환경에 따른 연결 불안정"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "음성 제어 리모컨",
+            "concept": "음성 명령을 통해 채널을 바꾸거나 볼륨을 조절합니다. 스마트폰의 마이크를 활용합니다.",
+            "first_step": "음성 인식 API를 연동하여 특정 키워드에 반응하는 로직을 만듭니다."
+          },
+          {
+            "title": "TV 키보드 입력기",
+            "concept": "TV에서 검색할 때 스마트폰의 키보드로 텍스트를 입력하여 전송합니다.",
+            "first_step": "텍스트 입력창을 만들고 TV로 문자열을 전송하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "IoT 기기 제어와 네트워크 통신을 배우고 싶은 개발자에게 추천합니다. 하드웨어와 소프트웨어의 상호작용을 경험할 수 있는 좋은 프로젝트입니다.",
+        "source_limitations_ko": "삼성 TV의 구체적인 통신 프로토콜은 비공개일 수 있으며, 모델별로 지원 여부가 다를 수 있습니다. 구독 모델의 적절성과 수익성에 대한 정보는 없습니다.",
+        "name": "Remote for Samsung TV Smart",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/remote-for-samsung-tv-smart/id6474010687?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
+    },
+    "itch:90fa3ccc405e22cbe481": {
+      "app_key": "itch:90fa3ccc405e22cbe481",
+      "name": "Dome Doom [Free] [Strategy] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "",
+      "detail_url": "https://ennepenne.itch.io/domedoom",
+      "data_date": "2026-10-26",
+      "analysed_at": "2026-10-27T06:29:52+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Build a stationary dome into a horde-shredding arsenal and watch your choices come alive in automatic combat",
+      "analysis": {
+        "app_key": "itch:90fa3ccc405e22cbe481",
+        "summary_ko": "고정된 돔을 방어 기지로 삼아 몰려오는 적들을 자동 전투로 물리치는 전략 게임입니다. 플레이어는 돔을 강화하고 무기를 배치하여 효율적인 방어 체계를 구축해야 합니다.",
+        "features_ko": [
+          "고정된 위치에서 적의 웨이브를 방어합니다.",
+          "다양한 무기를 배치하여 돔을 무장합니다.",
+          "자동 전투 시스템을 통해 전략적 배치에 집중합니다.",
+          "선택에 따라 돔의 성능이 변화하는 성장 요소를 포함합니다."
+        ],
+        "noteworthy_ko": "자동 전투와 전략적 배치의 결합은 1인 개발자가 밸런스 조절에 집중하기 좋은 구조입니다. 플레이어의 선택이 결과에 즉각 반영되는 피드백 루프가 핵심입니다.",
+        "development_ko": "핵심 기술은 적의 스폰 및 경로 탐색 AI와 무기 발사 로직입니다. 콘텐츠 제작은 무기 종류와 적의 패턴을 늘리는 방식으로 확장 가능합니다. 밸런스 조절을 위해 웨이브별 난이도 곡선 설계가 필수적입니다.",
+        "idea_ko": "돔의 위치를 이동할 수 있는 '이동형 돔' 개념을 도입하여 지형지물을 활용한 전략적 요소를 추가하는 아이디어를 추천합니다.",
+        "highlights_ko": [
+          "자동 전투를 통한 직관적인 게임 플레이.",
+          "방어 기지 강화라는 명확한 성장 목표."
+        ],
+        "systems_ko": [
+          "웨이브 관리 시스템",
+          "적 AI 및 경로 탐색",
+          "무기 발사 및 충돌 판정",
+          "업그레이드 데이터 관리",
+          "게임 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "적의 AI와 무기 로직 등 구현해야 할 시스템이 다수 존재하며, 재미를 위한 밸런스 조정에 시간이 많이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 돔 및 무기 배치 시스템",
+            "적 스폰 및 자동 공격 로직",
+            "웨이브 시스템"
+          ],
+          "defer": [
+            "복잡한 스킬 트리",
+            "다양한 맵 환경"
+          ],
+          "risks": [
+            "전투의 단조로움",
+            "밸런스 붕괴로 인한 난이도 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지형 변형 방어",
+            "concept": "적을 처치하고 얻은 자원으로 지형을 변형하여 적의 경로를 강제로 변경합니다.",
+            "first_step": "타일 기반의 지형 배치 및 경로 탐색 재계산 구현."
+          },
+          {
+            "title": "무기 조합 시스템",
+            "concept": "두 가지 무기를 결합하여 새로운 효과를 내는 합성 시스템을 도입합니다.",
+            "first_step": "무기 데이터 구조 설계 및 조합 결과물 정의."
+          }
+        ],
+        "recommendation_ko": "전략 게임의 핵심인 밸런싱과 시스템 설계를 배우고 싶은 개발자에게 추천합니다. 자동 전투의 쾌감을 구현하는 법을 익힐 수 있습니다.",
+        "source_limitations_ko": "무기의 종류, 적의 다양성, 돔의 구체적인 업그레이드 방식에 대한 상세 정보가 없어 실제 구현 시 설계가 필요합니다.",
+        "name": "Dome Doom [Free] [Strategy] [Windows]",
+        "source": "itch",
+        "detail_url": "https://ennepenne.itch.io/domedoom",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 10000,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-27"
     }
   }
 }
