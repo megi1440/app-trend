@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-27T05:42:59+09:00",
+  "generated_at": "2026-10-27T09:53:10+09:00",
   "window_days": 30,
   "candidates": [
     {
@@ -356,6 +356,22 @@
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
     {
+      "app_key": "apple:632064380",
+      "reason_code": "consistent_30d",
+      "evidence": {
+        "observed_days": 6,
+        "last_rank": 1,
+        "source": "apple",
+        "country": "US",
+        "category": "all_apps",
+        "chart": "top_free"
+      },
+      "source_data_dates": [
+        "2026-10-27"
+      ],
+      "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
+    },
+    {
       "app_key": "apple:6761760135",
       "reason_code": "consistent_30d",
       "evidence": {
@@ -460,22 +476,6 @@
         "source": "apple",
         "country": "US",
         "category": "game_board",
-        "chart": "top_free"
-      },
-      "source_data_dates": [
-        "2026-10-27"
-      ],
-      "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
-    },
-    {
-      "app_key": "apple:6468921495",
-      "reason_code": "consistent_30d",
-      "evidence": {
-        "observed_days": 6,
-        "last_rank": 1,
-        "source": "apple",
-        "country": "US",
-        "category": "game_card",
         "chart": "top_free"
       },
       "source_data_dates": [
@@ -724,6 +724,21 @@
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
     {
+      "app_key": "apple:632064380",
+      "reason_code": "overseas_interest",
+      "evidence": {
+        "source": "apple",
+        "country": "US",
+        "category": "all_apps",
+        "chart": "top_free",
+        "rank": 1
+      },
+      "source_data_dates": [
+        "2026-10-27"
+      ],
+      "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
+    },
+    {
       "app_key": "apple:6761760135",
       "reason_code": "overseas_interest",
       "evidence": {
@@ -919,21 +934,6 @@
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
     {
-      "app_key": "apple:932747118",
-      "reason_code": "overseas_interest",
-      "evidence": {
-        "source": "apple",
-        "country": "US",
-        "category": "all_apps",
-        "chart": "top_paid",
-        "rank": 1
-      },
-      "source_data_dates": [
-        "2026-10-27"
-      ],
-      "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
-    },
-    {
       "app_key": "apple:1097001344",
       "reason_code": "newly_seen",
       "evidence": {
@@ -1089,6 +1089,17 @@
     },
     {
       "app_key": "apple:315021242",
+      "reason_code": "newly_seen",
+      "evidence": {
+        "first_seen": "2026-10-27"
+      },
+      "source_data_dates": [
+        "2026-10-27"
+      ],
+      "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
+    },
+    {
+      "app_key": "apple:317469184",
       "reason_code": "newly_seen",
       "evidence": {
         "first_seen": "2026-10-27"
@@ -1440,6 +1451,17 @@
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
+      "app_key": "apple:905401434",
+      "reason_code": "newly_seen",
+      "evidence": {
+        "first_seen": "2026-10-27"
+      },
+      "source_data_dates": [
+        "2026-10-27"
+      ],
+      "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
+    },
+    {
       "app_key": "apple:929822826",
       "reason_code": "newly_seen",
       "evidence": {
@@ -1452,28 +1474,6 @@
     },
     {
       "app_key": "apple:937042887",
-      "reason_code": "newly_seen",
-      "evidence": {
-        "first_seen": "2026-10-27"
-      },
-      "source_data_dates": [
-        "2026-10-27"
-      ],
-      "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
-    },
-    {
-      "app_key": "apple:963067330",
-      "reason_code": "newly_seen",
-      "evidence": {
-        "first_seen": "2026-10-27"
-      },
-      "source_data_dates": [
-        "2026-10-27"
-      ],
-      "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
-    },
-    {
-      "app_key": "google:allpdf.pdfreader.pdfeditor.pdfviewer.fastpdf",
       "reason_code": "newly_seen",
       "evidence": {
         "first_seen": "2026-10-27"
