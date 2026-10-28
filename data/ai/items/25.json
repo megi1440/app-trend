@@ -8850,6 +8850,448 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-28"
+    },
+    "itch:dd4975419114e699ff64": {
+      "app_key": "itch:dd4975419114e699ff64",
+      "name": "EcoIdle Alpha [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://lunasmith-358.itch.io/ecoidle",
+      "data_date": "2026-10-29",
+      "analysed_at": "2026-10-29T05:30:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Plant seedlings, cut trees, and keep the planet under 50°. Two endings, a mailbox, and a bit of satire.",
+      "analysis": {
+        "app_key": "itch:dd4975419114e699ff64",
+        "summary_ko": "EcoIdle Alpha는 환경 보호를 테마로 한 방치형 시뮬레이션 게임입니다. 묘목을 심고 나무를 베며 지구 온도를 50도 이하로 유지하는 것이 목표입니다.",
+        "features_ko": [
+          "묘목을 심고 나무를 베는 자원 관리 기능을 제공합니다.",
+          "지구 온도를 50도 이하로 유지해야 하는 목표가 있습니다.",
+          "두 가지 엔딩을 포함하고 있습니다.",
+          "게임 내 우편함 시스템이 존재합니다.",
+          "풍자적인 요소를 게임 전반에 담고 있습니다."
+        ],
+        "noteworthy_ko": "환경 보호라는 진지한 주제를 방치형 게임과 풍자적인 방식으로 풀어낸 점이 독특합니다. 자원 관리와 환경 수치 간의 상관관계를 어떻게 설계했는지가 개발적으로 흥미로운 부분입니다.",
+        "development_ko": "방치형 게임의 핵심인 시간 흐름에 따른 자원 생성 로직 구현이 중요합니다. 환경 수치 변화에 따른 게임 상태 관리와 엔딩 분기 처리가 필요합니다.",
+        "idea_ko": "환경 수치에 따라 변화하는 마을의 모습을 시각적으로 구현하는 것이 가장 효과적입니다.",
+        "highlights_ko": [
+          "환경 보호라는 주제를 방치형 게임에 녹여낸 독창적인 컨셉입니다.",
+          "두 가지 엔딩을 통해 플레이어의 선택에 따른 결과 변화를 보여줍니다."
+        ],
+        "systems_ko": [
+          "시간 기반 자원 생성 시스템",
+          "환경 수치(온도) 관리 및 계산 엔진",
+          "엔딩 분기 처리 시스템",
+          "UI 기반의 방치형 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "방치형 게임은 시스템 구조가 비교적 단순하여 1인 개발자가 구현하기에 적합합니다. 데이터 관리와 수치 밸런스 조정에 집중하면 됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "나무 심기 및 베기 버튼",
+            "온도 수치 표시 및 실시간 업데이트",
+            "온도에 따른 게임 오버/엔딩 로직"
+          ],
+          "defer": [
+            "복잡한 애니메이션",
+            "다양한 업그레이드 트리"
+          ],
+          "risks": [
+            "단순 반복으로 인한 플레이어의 지루함",
+            "환경 수치 밸런스 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지구 정화 프로젝트",
+            "concept": "오염된 구역을 정화하여 식물을 심는 시뮬레이션입니다. 정화된 구역이 넓어질수록 지구 온도가 낮아지는 시각적 효과를 강조합니다.",
+            "first_step": "타일 기반의 정화 및 식물 배치 시스템 구현."
+          },
+          {
+            "title": "탄소 배출 관리자",
+            "concept": "기업을 운영하며 탄소 배출량을 조절하는 경영 시뮬레이션입니다. 수익과 환경 보호 사이의 갈등을 선택지로 제시합니다.",
+            "first_step": "수익과 환경 수치를 관리하는 기본 UI 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 기본 구조와 수치 밸런싱을 배우고 싶은 개발자에게 추천합니다. 주제 의식을 게임 시스템에 녹여내는 연습을 하기에 좋습니다.",
+        "source_limitations_ko": "구체적인 자원 관리 메커니즘, 엔딩 조건의 상세 내용, 풍자적 요소의 구체적인 표현 방식은 확인되지 않습니다.",
+        "name": "EcoIdle Alpha [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://lunasmith-358.itch.io/ecoidle",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 356,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 8,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-29"
+    },
+    "itch:0fd347014fee77e82120": {
+      "app_key": "itch:0fd347014fee77e82120",
+      "name": "LUMEN TIDELINE [$2.99] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://shepard24.itch.io/lumen-tideline",
+      "data_date": "2026-10-29",
+      "analysed_at": "2026-10-29T05:30:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Dash through loose light, read the tide, and time your deliveries in a neon arcade arena.",
+      "analysis": {
+        "app_key": "itch:0fd347014fee77e82120",
+        "summary_ko": "LUMEN TIDELINE은 네온 아케이드 아레나에서 펼쳐지는 액션 게임입니다. 빛을 따라 질주하고 조류를 읽으며 정해진 시간에 배달을 완료하는 것이 목표입니다.",
+        "features_ko": [
+          "네온 스타일의 아케이드 아레나를 배경으로 합니다.",
+          "빛을 따라 대시하는 이동 메커니즘이 있습니다.",
+          "조류(Tide)를 읽고 타이밍을 맞추는 게임 규칙이 있습니다.",
+          "정해진 시간에 배달을 완료해야 하는 미션이 있습니다."
+        ],
+        "noteworthy_ko": "빛과 조류라는 추상적인 개념을 액션 게임의 메커니즘으로 구현한 점이 흥미롭습니다. 빠른 속도감과 타이밍을 요구하는 게임 플레이를 어떻게 시각적으로 표현했는지 추정해 볼 수 있습니다.",
+        "development_ko": "빠른 속도의 캐릭터 이동과 충돌 판정 구현이 핵심입니다. 조류 시스템을 시각화하는 셰이더 작업과 정밀한 타이밍을 요구하는 레벨 디자인이 중요합니다.",
+        "idea_ko": "조류의 흐름을 플레이어가 직접 조작하여 경로를 만드는 퍼즐 액션 요소를 추가할 수 있습니다.",
+        "highlights_ko": [
+          "네온 스타일의 감각적인 비주얼을 제공합니다.",
+          "빛과 조류라는 독특한 테마를 액션에 접목했습니다."
+        ],
+        "systems_ko": [
+          "고속 캐릭터 이동 및 대시 시스템",
+          "조류 시뮬레이션 및 타이밍 관리 시스템",
+          "배달 미션 및 시간 제한 로직",
+          "네온 스타일의 시각 효과(VFX) 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "빠른 속도감과 정밀한 타이밍을 구현하는 것은 기술적으로 까다롭습니다. 특히 조류 시스템과 같은 독창적인 메커니즘을 밸런싱하는 데 많은 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 대시 이동",
+            "조류 타이밍 시스템",
+            "배달 목표 지점 및 타이머"
+          ],
+          "defer": [
+            "복잡한 네온 효과",
+            "다양한 배달 경로"
+          ],
+          "risks": [
+            "조작감의 불편함",
+            "타이밍 판정의 모호함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "빛의 배달부",
+            "concept": "빛의 경로를 따라 이동하며 에너지를 배달하는 게임입니다. 경로를 벗어나면 에너지가 줄어드는 긴장감을 제공합니다.",
+            "first_step": "빛의 경로를 따라가는 캐릭터 이동 구현."
+          },
+          {
+            "title": "조류 서퍼",
+            "concept": "조류를 타고 아레나를 누비는 레이싱 게임입니다. 조류의 흐름을 타면 속도가 빨라지는 메커니즘을 활용합니다.",
+            "first_step": "조류의 흐름에 따라 속도가 변하는 물리 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "속도감 있는 액션 게임과 독창적인 메커니즘 구현에 관심 있는 개발자에게 추천합니다. 시각적 효과와 게임 플레이의 조화를 배우기에 좋습니다.",
+        "source_limitations_ko": "조류 시스템의 구체적인 작동 원리, 배달 미션의 난이도, 게임의 전체적인 볼륨 등은 확인되지 않습니다.",
+        "name": "LUMEN TIDELINE [$2.99] [Action]",
+        "source": "itch",
+        "detail_url": "https://shepard24.itch.io/lumen-tideline",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 341,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 13,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-29"
+    },
+    "itch:fb29a5440069058741eb": {
+      "app_key": "itch:fb29a5440069058741eb",
+      "name": "BAD END THEATER [30% Off] [$6.99] [Visual Novel] [Windows] [macOS] [Linux] [Android]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "puzzle",
+      "detail_url": "https://nomnomnami.itch.io/bad-end-theater",
+      "data_date": "2026-10-29",
+      "analysed_at": "2026-10-29T05:30:43+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "select your protagonist and explore a variety of terrible fates!",
+      "analysis": {
+        "app_key": "itch:fb29a5440069058741eb",
+        "summary_ko": "BAD END THEATER는 비주얼 노벨 장르의 게임으로, 플레이어가 주인공을 선택하여 다양한 비극적인 결말을 탐험하는 구조를 가집니다. 선택에 따라 변화하는 서사와 그에 따른 파국을 경험하는 것이 핵심입니다.",
+        "features_ko": [
+          "플레이어가 직접 주인공을 선택하여 이야기를 시작합니다.",
+          "선택지에 따라 다양한 비극적 결말(Bad End)로 이어지는 분기 시스템을 제공합니다."
+        ],
+        "noteworthy_ko": "비극적인 결말을 수집하는 메커니즘은 플레이어의 호기심을 자극하는 흥미로운 요소입니다. 비주얼 노벨의 정형화된 해피엔딩 구조를 뒤집어 서사적 재미를 극대화한 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 분기형 시나리오 관리와 상태 머신 구현입니다. 콘텐츠 제작은 다수의 엔딩 시나리오와 그에 맞는 일러스트 에셋 확보가 핵심 부담이 될 것입니다. 밸런스 측면에서는 각 선택지가 유기적으로 연결되어 엔딩까지 도달하는 흐름을 설계하는 것이 중요합니다.",
+        "idea_ko": "비극적 결말을 수집하는 도감 시스템을 구현하여 플레이어의 수집 욕구를 자극하는 방식을 추천합니다.",
+        "highlights_ko": [
+          "주인공 선택에 따른 다채로운 비극적 결말 탐색.",
+          "비주얼 노벨 형식을 활용한 서사 중심의 게임 플레이."
+        ],
+        "systems_ko": [
+          "분기형 대화 시스템",
+          "엔딩 도감 및 상태 관리",
+          "UI/UX 인터페이스",
+          "데이터 저장 및 로드"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "비주얼 노벨은 복잡한 물리 엔진이 필요 없으나, 방대한 텍스트와 분기 시나리오를 체계적으로 관리하는 구조 설계가 필요합니다. 1인 개발 시 시나리오 작성과 에셋 제작에 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "대화창 및 선택지 UI",
+            "분기 시나리오 데이터 구조",
+            "엔딩 도감 기능"
+          ],
+          "defer": [
+            "복잡한 애니메이션 효과",
+            "다국어 지원"
+          ],
+          "risks": [
+            "시나리오 분기 설계의 복잡성",
+            "에셋 제작의 높은 리소스 요구량"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "비극 수집가",
+            "concept": "특정 주인공이 죽음에 이르는 과정을 역추적하여 퍼즐처럼 푸는 방식입니다.",
+            "first_step": "간단한 텍스트 기반 분기 구조를 프로토타입으로 제작합니다."
+          },
+          {
+            "title": "타임라인 리와인드",
+            "concept": "비극적 결말을 본 후, 특정 시점으로 돌아가 선택을 바꾸는 루프물입니다.",
+            "first_step": "세이브/로드 기능을 활용한 시간 되돌리기 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "비주얼 노벨의 서사 구조와 분기 시스템을 학습하기에 좋습니다. 텍스트 중심의 게임을 기획하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 게임 시스템, 아트 스타일, 분기 규모 등을 확인할 수 없습니다. 실제 구현된 기능은 시나리오 분기 외에는 검증이 필요합니다.",
+        "name": "BAD END THEATER [30% Off] [$6.99] [Visual Novel] [Windows] [macOS] [Linux] [Android]",
+        "source": "itch",
+        "detail_url": "https://nomnomnami.itch.io/bad-end-theater",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 341,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 13,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-29"
+    },
+    "itch:ead666314252f1b7ae0e": {
+      "app_key": "itch:ead666314252f1b7ae0e",
+      "name": "Blonde Ambition - The Press Secretary Simulator [Free] [Interactive Fiction]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://verlincom.itch.io/blonde-ambition",
+      "data_date": "2026-10-29",
+      "analysed_at": "2026-10-29T05:31:40+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "You're the new White House Press Secretary! Can YOU survive for half a Scaramucci?",
+      "analysis": {
+        "app_key": "itch:ead666314252f1b7ae0e",
+        "summary_ko": "백악관 대변인이 되어 업무를 수행하는 인터랙티브 픽션 게임입니다. 플레이어는 대변인으로서 주어진 상황에서 살아남아야 합니다.",
+        "features_ko": [
+          "대화 선택지를 통해 이야기를 진행하는 인터랙티브 픽션 방식입니다.",
+          "백악관 대변인이라는 특정 직업의 상황을 시뮬레이션합니다."
+        ],
+        "noteworthy_ko": "정치적 상황을 풍자적으로 다루는 인터랙티브 픽션은 텍스트의 질이 핵심입니다. 선택지에 따른 분기점 설계가 개발의 주요 흥미 요소입니다.",
+        "development_ko": "텍스트 기반의 분기 시스템과 상태 관리 기술이 필요합니다. 콘텐츠 제작은 시나리오 작성에 집중되며, 밸런스보다는 선택지의 개연성과 재미가 중요합니다.",
+        "idea_ko": "다양한 엔딩을 가진 멀티 엔딩 시스템을 도입하는 것이 가장 적합합니다.",
+        "highlights_ko": [
+          "백악관 대변인이라는 독특한 소재를 활용합니다.",
+          "생존을 목표로 하는 긴박한 상황 설정이 특징입니다."
+        ],
+        "systems_ko": [
+          "텍스트 분기 관리 시스템",
+          "플레이어 선택지 처리",
+          "게임 상태(생존 여부) 관리",
+          "UI 텍스트 출력 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "기술적 구현 난이도는 낮으나, 매력적인 시나리오를 작성하는 기획적 역량이 크게 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "텍스트 출력 및 선택지 버튼",
+            "분기별 시나리오 데이터 구조"
+          ],
+          "defer": [
+            "복잡한 그래픽 연출",
+            "사운드 효과"
+          ],
+          "risks": [
+            "텍스트 분량에 따른 제작 부담",
+            "선택지의 재미 보장"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "여론 지표 시스템",
+            "concept": "선택지에 따라 여론 지표가 변하며, 특정 수치 이하로 떨어지면 게임 오버가 되는 시스템입니다. 긴장감을 더해줍니다.",
+            "first_step": "선택지마다 여론 수치를 증감시키는 변수 로직 구현."
+          },
+          {
+            "title": "타임 리미트 선택지",
+            "concept": "제한 시간 내에 선택하지 않으면 자동으로 최악의 선택이 되는 시스템입니다. 대변인의 압박감을 표현합니다.",
+            "first_step": "선택지 버튼에 타이머 기능을 추가하여 시간 초과 시 이벤트 발생."
+          }
+        ],
+        "recommendation_ko": "글쓰기를 좋아하고 분기형 스토리텔링을 연습하고 싶은 개발자에게 추천합니다. 프로그래밍보다 기획과 서사 구조를 배우기에 좋습니다.",
+        "source_limitations_ko": "게임의 구체적인 분기 구조나 승리/패배 조건의 상세 내용은 설명에 명시되지 않았습니다.",
+        "name": "Blonde Ambition - The Press Secretary Simulator [Free] [Interactive Fiction]",
+        "source": "itch",
+        "detail_url": "https://verlincom.itch.io/blonde-ambition",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 278,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 34,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-29"
+    },
+    "google:document.office.pdfreader.pdfeditor.pdfviewer.pdfscanner": {
+      "app_key": "google:document.office.pdfreader.pdfeditor.pdfviewer.pdfscanner",
+      "name": "PDF Reader: Viewer, Edit PDF",
+      "developer": "Trusted Global",
+      "source": "google",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=document.office.pdfreader.pdfeditor.pdfviewer.pdfscanner&hl=ko&gl=KR",
+      "data_date": "2026-10-29",
+      "analysed_at": "2026-10-29T05:32:06+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "📘 간편하게 문서를 읽고, 편집하고, 정리하세요 PDF 리더: 뷰어, PDF 편집 앱은 안드로이드 스마트폰에서 문서를 편리하게 관리할 수 있도록 도와줍니다. PDF 파일을 열고, 오피스 문서를 보고, 서류를 스캔하고, 이미지를 PDF로 변환하고, 중요한 파일을 한 곳에 정리하세요. 학습 자료를 읽거나, 보고서를 검토하거나, 전자책을 확인하거나, 개인 문서를 저장하는 등 일상적인 작업을 빠르고 쉽게 처리할 수 있습니다. 📖 PDF 및 오피스 문서 읽기 기기에서 호환되는 파일을 찾아 여러 폴더를 뒤지지 않고 바로 열 수 있습니다. • PDF 파일을 빠르게 열고 보기 • Word, Excel, XLSX, PowerPoint 문서 보기 • 여러 페이지로 구성된 파일을 부드럽게 스크롤 • 확대/축소하여 편안한 보기 환경 제공 • PDF 파일 내 단어 및 구문 검색 • 필요한 페이지로 바로 이동 • 전체 화면 모드로 읽기 • 야간 모드에서 어두운 환경 사용 ✏️ PDF 파일 주석 및 편집 문서를 검토하고 읽으면서 유용한 정보를 저장하세요. • 중요한 텍스트 강조 표시 • PDF 문서에 메모 추가 • 나중에 검토할 부분 표시 • 편집한 파일 저장 및 관리 • 필요할 때 언제든지 문서 다시 열기 이러한 도구는 수업 자료, 보고서, 계약서, 양식, 개인 기록 등에 유용합니다. 📷 서류를 PDF로 스캔 휴대폰을 휴대용 문서 스캐너로 활용하세요. 카메라를 사용하여 영수증, 메모, 양식, 계약서, 학습 자료 등의 서류를 스캔할 수 있습니다. 스캐너는 문서 가장자리를 감지하고 불필요한 영역을 제거합니다. 캡처한 페이지를 검토하고, 올바른 순서로 정렬한 다음, 모든 내용을 PDF 파일로 기기에 바로 저장하세요. 🔄 파일 생성 및 변환 다양한 변환 도구를 사용하여 필요에 맞는 형식을 선택하세요. • 하나 또는 여러 개의 JPG 이미지를 PDF로 변환 • PDF 페이지를 JPG 이미지로 내보내기 • Word 문서를 PDF로 변환 • Excel 파일을 PDF로 변환 • 변환된 파일을 한 곳에서 관리 • 완성된 문서를 다른 앱과 공유 🧰 유용한 PDF 도구 활용 여러 애플리케이션을 전환하지 않고도 문서를 준비하고 편집할 수 있습니다. • 여러 PDF 파일을 하나의 파일로 병합 • 큰 PDF 파일을 여러 개의 작은 문서로 분할 • PDF에서 원하는 페이지 추출 • 선택한 페이지로 새 파일 생성 • 이메일 또는 메시징 앱을 통해 문서 공유 • 지원되는 클라우드 스토리지 서비스로 파일 전송 🗂️ 문서 정리 PDF 리더: 뷰어, PDF 편집 앱을 사용하면 휴대폰에 저장된 학교 파일, 전자책, 보고서, 양식 및 기타 문서를 쉽게 관리할 수 있습니다. • 문서 유형별 파일 탐색 • 이름 또는 키워드로 문서 검색 • 이름, 크기 또는 최근 활동 내역별 파일 정렬 • 최근에 열었던 파일에 빠르게 접근 • 쉽게 찾을 수 있도록 문서 이름 변경 • 더 이상 필요 없는 파일 삭제 • 스캔 및 변환된 문서 관리 ✨ 학교, 직장 및 일상 업무에 유용 깔끔한 인터페이스와 실용적인 기능을 갖춘 이 앱은 학생, 직장인, 전문가 및 모바일 기기에서 문서를 자주 사용하는 모든 사람에게 적합합니다. PDF Reader: Viewer, Edit PDF를 사용하면 어디서든 파일을 읽고, 주석을 달고, 스캔하고, 변환하고, 정리하고, 공유할 수 있습니다. 질문이나 제안 사항이 있으시면 언제든지 문의해 주세요. 여러분의 피드백은 앱 개선에 큰 도움이 됩니다.",
+      "analysis": {
+        "app_key": "google:document.office.pdfreader.pdfeditor.pdfviewer.pdfscanner",
+        "summary_ko": "이 앱은 PDF 뷰어, 편집, 스캔 및 문서 변환 기능을 통합한 안드로이드용 문서 관리 도구입니다. PDF와 오피스 문서를 열람하고, 주석을 달거나 스캔하여 PDF로 저장할 수 있습니다. 파일 병합, 분할, 변환 등 다양한 문서 처리 작업을 하나의 앱에서 수행할 수 있습니다.",
+        "features_ko": [
+          "PDF, Word, Excel, PowerPoint 등 다양한 문서 형식을 열람할 수 있습니다.",
+          "카메라를 사용하여 문서를 스캔하고 가장자리를 감지하여 PDF로 저장합니다.",
+          "PDF 내 텍스트 강조, 메모 추가 등 주석 기능을 제공합니다.",
+          "이미지나 오피스 파일을 PDF로 변환하거나, PDF를 이미지로 내보낼 수 있습니다.",
+          "여러 PDF 파일을 병합하거나 큰 파일을 분할하는 도구를 제공합니다."
+        ],
+        "noteworthy_ko": "다양한 문서 포맷을 하나의 앱에서 처리하는 통합 환경을 구축하는 것이 핵심입니다. 각기 다른 파일 형식을 파싱하고 렌더링하는 기술적 복잡도가 높으며, 사용자 편의성을 위한 UI 구성이 중요합니다.",
+        "development_ko": "핵심 기술은 다양한 문서 포맷의 파싱 및 렌더링 엔진입니다. 콘텐츠 제작 부담은 낮으나, 문서 처리 라이브러리 통합 및 최적화 부담이 큽니다. 테스트 시 다양한 기기에서의 문서 호환성 확인이 필수적입니다.",
+        "idea_ko": "단순한 문서 관리를 넘어, 문서 내의 텍스트를 AI로 요약하거나 특정 키워드를 자동으로 태깅하여 정리해주는 '스마트 문서 비서' 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "통합 문서 관리: 뷰어, 편집, 스캔, 변환을 하나의 앱에서 해결합니다.",
+          "사용자 편의 기능: 야간 모드, 전체 화면, 파일 정렬 등 일상적인 문서 작업에 최적화되어 있습니다."
+        ],
+        "systems_ko": [
+          "문서 파싱 및 렌더링 엔진",
+          "이미지 처리 및 스캔 알고리즘",
+          "파일 시스템 관리 및 검색 시스템",
+          "주석 및 편집 데이터 저장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 문서 포맷(PDF, DOCX, XLSX 등)을 정확하게 렌더링하고 편집하는 것은 매우 복잡한 기술입니다. 특히 스캔 시 가장자리 감지 및 이미지 보정 알고리즘 구현은 높은 난이도를 가집니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "PDF 뷰어 기능",
+            "카메라 스캔 및 PDF 저장",
+            "기본 파일 관리 기능"
+          ],
+          "defer": [
+            "오피스 문서(Word, Excel) 편집 기능",
+            "클라우드 스토리지 연동",
+            "고급 문서 변환 알고리즘"
+          ],
+          "risks": [
+            "문서 포맷 호환성 문제",
+            "대용량 파일 처리 시 성능 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "문서 자동 분류기",
+            "concept": "스캔한 문서의 내용을 분석하여 영수증, 계약서, 학습 자료 등으로 자동 분류하는 기능입니다.",
+            "first_step": "OCR 라이브러리를 사용하여 텍스트를 추출하고 키워드 기반으로 분류하는 로직 구현."
+          },
+          {
+            "title": "협업 주석 공유기",
+            "concept": "여러 사용자가 동일한 PDF에 실시간으로 주석을 달고 공유할 수 있는 기능입니다.",
+            "first_step": "Firebase 등을 활용하여 주석 데이터를 실시간으로 동기화하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "파일 시스템 관리와 문서 처리 기술에 관심이 있는 개발자에게 추천합니다. 다양한 라이브러리를 통합하고 사용자 경험을 최적화하는 과정을 배울 수 있습니다.",
+        "source_limitations_ko": "소개문에는 사용된 문서 처리 라이브러리나 보안 관련 정보(암호화 등)가 명시되어 있지 않습니다. 외부 클라우드 연동에 대한 구체적인 기술적 근거는 없습니다.",
+        "name": "PDF Reader: Viewer, Edit PDF",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=document.office.pdfreader.pdfeditor.pdfviewer.pdfscanner&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 228,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 4,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-29"
     }
   }
 }

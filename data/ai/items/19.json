@@ -7800,6 +7800,188 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-28"
+    },
+    "apple:6800981232": {
+      "app_key": "apple:6800981232",
+      "name": "Viva - Sing",
+      "developer": "FOSTER LANGLEY",
+      "source": "apple",
+      "country": "JP",
+      "category": "app_lifestyle",
+      "detail_url": "https://apps.apple.com/jp/app/viva-sing/id6800981232?uo=2",
+      "data_date": "2026-10-29",
+      "analysed_at": "2026-10-29T05:32:33+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Viva – Sing, Share & Connect ﻿ Viva is a singing community where people can share performances, discover inspiring voices, improve their skills, and connect with others who enjoy singing. ﻿ Whether you're recording your latest cover, practicing a new song, sharing original performances, or learning vocal techniques, Viva provides a welcoming space to express yourself through music and interact with a community that shares your passion. ﻿ Share Your Singing ﻿ Upload videos of your singing performances, practice sessions, or original songs. User-generated content is reviewed before publication to help maintain a safe and positive community environment. ﻿ Discover Singers ﻿ Explore performances from singers with different styles, discover new creators, and enjoy a wide variety of vocal performances shared by the community. ﻿ Singing Tips ﻿ Browse helpful articles and practical tips covering vocal techniques, breathing, microphone setup, performance skills, and other singing-related topics to support your musical journey. ﻿ Discussion Groups ﻿ Create or join topic-based discussion groups to exchange ideas, share experiences, and talk about singing techniques, performances, and music with other community members. Creating a discussion group requires Coins. ﻿ Follow & Private Messaging ﻿ Follow your favorite singers and stay connected with creators you enjoy. Private messaging becomes available only after two users mutually follow each other, helping conversations remain relevant and respectful. ﻿ Community Interaction ﻿ Support creators through likes, comments, and follows, discover new performances, and participate in meaningful discussions with people who share your interest in singing. ﻿ Wallet & Coins ﻿ Coins can be used to create discussion groups and unlock additional usage of selected features where applicable. No subscription is required. ﻿ Safe Community ﻿ Viva includes content moderation, reporting, blocking, follower management, and account controls—including account deletion—to help maintain a respectful, welcoming, and secure community. ﻿ Viva is designed for people who love singing, sharing performances, discovering new voices, learning together, and building meaningful connections through music—one song, one performance, and one conversation at a time.",
+      "analysis": {
+        "app_key": "apple:6800981232",
+        "summary_ko": "노래를 공유하고 감상하며 소통하는 노래 중심의 커뮤니티 앱입니다. 사용자는 자신의 노래 영상을 업로드하고 다른 사람의 공연을 발견하며 보컬 팁을 공유할 수 있습니다. 상호 팔로우를 통해 프라이빗 메시지를 주고받는 등 음악을 매개로 한 관계 형성을 지원합니다.",
+        "features_ko": [
+          "노래 영상 및 연습 세션, 자작곡을 업로드하여 공유할 수 있습니다.",
+          "보컬 기술, 호흡법, 마이크 설정 등 노래 관련 팁을 담은 게시물을 열람할 수 있습니다.",
+          "관심사 기반의 토론 그룹을 생성하거나 참여하여 음악적 의견을 교환할 수 있습니다.",
+          "상호 팔로우 관계인 사용자 간에만 프라이빗 메시지 기능을 제공합니다.",
+          "좋아요, 댓글, 팔로우를 통해 다른 사용자와 상호작용할 수 있습니다."
+        ],
+        "noteworthy_ko": "사용자 간의 안전한 소통을 위해 상호 팔로우 시에만 메시지를 허용하는 정책이 인상적입니다. 커뮤니티 내 건전성을 유지하기 위한 콘텐츠 검토 시스템이 개발 관점에서 중요합니다.",
+        "development_ko": "영상 업로드 및 스트리밍을 위한 클라우드 스토리지와 CDN 연동이 핵심입니다. 사용자 간의 실시간 상호작용을 위한 알림 시스템과 데이터베이스 설계가 필요합니다. 콘텐츠 모니터링을 위한 관리 도구 제작이 필수적입니다.",
+        "idea_ko": "사용자의 보컬 실력을 분석하여 개선점을 제안하는 AI 피드백 기능이 개인 개발자에게 차별화 포인트가 될 수 있습니다.",
+        "highlights_ko": [
+          "노래 공유와 보컬 팁 학습을 결합하여 음악 커뮤니티로서의 정체성을 확립했습니다.",
+          "상호 팔로우 기반의 메시지 시스템으로 안전한 소통 환경을 조성합니다."
+        ],
+        "systems_ko": [
+          "영상 업로드 및 재생 시스템",
+          "사용자 프로필 및 팔로우 관리",
+          "게시판 및 토론 그룹 시스템",
+          "콘텐츠 신고 및 차단 기능",
+          "가상 재화(코인) 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "영상 처리 및 저장 비용, 커뮤니티 관리의 복잡성, 사용자 간 상호작용 시스템 구현은 개인 개발자가 운영하기에 리소스 부담이 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "영상 게시판",
+            "사용자 팔로우 기능",
+            "댓글 및 좋아요 기능"
+          ],
+          "defer": [
+            "가상 재화(코인) 시스템",
+            "프라이빗 메시지 기능",
+            "토론 그룹 생성 기능"
+          ],
+          "risks": [
+            "부적절한 콘텐츠 업로드 관리",
+            "서버 스토리지 비용 증가"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "보컬 챌린지 듀엣",
+            "concept": "특정 곡의 반주에 맞춰 사용자가 노래를 부르면, 다른 사용자가 화음을 넣어 듀엣 영상을 만드는 기능입니다. 협업을 통해 커뮤니티 활성화를 유도합니다.",
+            "first_step": "기존 영상에 오디오를 합성하여 새로운 영상을 생성하는 기능 구현."
+          },
+          {
+            "title": "AI 보컬 코칭 리포트",
+            "concept": "업로드된 노래의 음정, 박자를 분석하여 간단한 리포트를 제공합니다. 사용자가 자신의 실력 향상을 시각적으로 확인할 수 있게 합니다.",
+            "first_step": "오디오 파일에서 음정 데이터를 추출하는 오픈소스 라이브러리 활용."
+          }
+        ],
+        "recommendation_ko": "소셜 네트워크 서비스의 기본 기능(팔로우, 피드, 댓글)을 구현하는 연습에 적합합니다. 다만, 영상 처리와 커뮤니티 운영은 기술적, 관리적 난이도가 높으므로 초기에는 텍스트 기반 커뮤니티로 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "영상 업로드 시의 용량 제한, 콘텐츠 검토 알고리즘의 구체적인 방식, 코인 결제 시스템의 보안 구조는 확인되지 않습니다.",
+        "name": "Viva - Sing",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/viva-sing/id6800981232?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 207,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 11,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-29"
+    },
+    "apple:1096918571": {
+      "app_key": "apple:1096918571",
+      "name": "Google Meet",
+      "developer": "Google",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/jp/app/google-meet/id1096918571",
+      "data_date": "2026-10-29",
+      "analysed_at": "2026-10-29T05:37:05+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Google Meet は、友達や家族、同僚やクラスメートと、どこにいても有意義で楽しい交流ができるように作られた高品質なビデオ通話アプリです。 Meet では、自分に合った方法で相手とつながることができます。自由気ままに誰かと通話したり、一緒に過ごす時間を決めたり、相手が後から見て返信できる動画メッセージを送ったりしてみましょう。 Meet はやりたいことを進めるのにも役立ちます。Gmail、Google ドキュメント、スライド、カレ ンダーなど、他の Google Workspace アプリと連携しているほか、ノイズ キャンセリング、通話 中のチャット、録画など、スムーズで魅力的な会議運営に役立つ多くの機能が用意されています*。 便利な機能: 1 つのアプリで、自由気ままに通話したり、友人との集まりや同僚とのビデオ会議をホストしたりできます。 1 対 1 のビデオ通話を最大 24 時間楽しめます。また、100 人までの会議を最大 60 分間、無料で開催できます。 70 を超える言語でのリアルタイムの字幕の翻訳により、ご希望の言語で会話内容を把握できます。 通話中のチャットを使用して、会話の流れを遮ることなく、アイデアの共有、質問、フィードバックの送信が可能です。 通話中の絵文字により、会話の流れを遮ることなくシームレスに自分を表現できるため、通話をより充実させることができます。 通話中に写真、動画、プレゼンテーションなどの視覚的要素を共有して、共同作業を行ったり、最近の休暇の思い出を共有したりできます。 重ねて適用できるエフェクトにより、参加者は複数の背景、フィルタ、アニメーションを追加できるため、家族や友達との通話がもっと楽しくなり、パーソナライズされたエクスペリエンスを実現できます。 音声のみを使用する外出モードでは、大きな通話コントロールが表示されるため、歩行中、運転中、公共交通機関の利用中でも簡単に着信に応答し、通話に集中できます。 どのデバイスでも利用できます。Meet はモバイル、タブレット、ウェブ、スマートデバイス**で動作するため、誰でも参加できます。 高画質な動画。最大 4K の動画品質***で自分の映像を最適な状態に調整できます。 Google Meet について詳しくは、https://workspace.google.com/products/meet/ をご参照ください。 以下の SNS アカウントでも最新情報を発信しています。 Twitter: https://twitter.com/googleworkspace Linkedin: https://www.linkedin.com/showcase/googleworkspace Facebook: https://www.facebook.com/googleworkspace/ * 会議の録画、ノイズ キャンセリングはプレミアム機能としてご利用いただけます。詳しくは https://workspace.google.com/pricing.html をご覧ください。 ** 対応していない言語もあります。 ***帯域幅が対応している場合。Google Meet では、帯域幅に応じて可能な限り高い動画品質に自動調整します。 データ通信料が発生する場合があります。詳しくは、ご契約先の携帯通信会社にお問い合わせください。 デバイスの仕様によって、特定の機能の提供状況が異なる場合があります。",
+      "analysis": {
+        "app_key": "apple:1096918571",
+        "summary_ko": "Google Meet은 고품질 비디오 통화와 화상 회의를 지원하는 커뮤니케이션 앱입니다. 1대1 통화부터 최대 100명까지 참여 가능한 회의를 지원하며, 실시간 자막 번역과 화면 공유 기능을 제공합니다. 다양한 기기에서 연동 가능하며, 업무와 일상적인 대화 모두에 적합하도록 설계되었습니다.",
+        "features_ko": [
+          "최대 100명까지 참여 가능한 화상 회의를 지원합니다.",
+          "70개 이상의 언어로 실시간 자막 번역을 제공합니다.",
+          "통화 중 채팅과 이모지 표현을 통해 원활한 소통을 돕습니다.",
+          "화면 공유를 통해 프레젠테이션이나 사진을 함께 볼 수 있습니다.",
+          "배경 필터와 효과를 통해 개인화된 영상 환경을 제공합니다."
+        ],
+        "noteworthy_ko": "다양한 환경(업무, 일상)을 모두 아우르는 범용적인 화상 통화 플랫폼으로서의 확장성이 돋보입니다. 특히 실시간 자막 번역과 같은 접근성 기능이 사용자 경험을 크게 향상시키는 점이 흥미롭습니다.",
+        "development_ko": "실시간 영상 스트리밍을 위한 WebRTC 기술과 대규모 트래픽을 처리할 수 있는 서버 인프라가 핵심입니다. 노이즈 캔슬링 및 영상 품질 자동 조절 알고리즘 구현이 매우 복잡합니다. 테스트 측면에서는 다양한 네트워크 환경에서의 통화 품질 유지와 지연 시간 최소화가 중요합니다.",
+        "idea_ko": "개인 개발자는 화상 통화 전체를 구현하기보다, 특정 목적(예: 스터디 그룹용)에 특화된 소규모 화상 채팅 앱을 만드는 것이 적합합니다.",
+        "highlights_ko": [
+          "실시간 자막 번역을 통한 언어 장벽 해소.",
+          "다양한 기기 간의 원활한 연동성."
+        ],
+        "systems_ko": [
+          "WebRTC 기반 스트리밍 시스템",
+          "실시간 자막 번역 엔진",
+          "영상 필터 및 효과 처리 시스템",
+          "네트워크 품질 적응형 제어 시스템",
+          "사용자 인증 및 회의 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 영상 통화는 고도의 네트워크 프로그래밍 기술과 서버 인프라가 필요합니다. 1인 개발자가 영상 스트리밍의 품질과 지연 시간을 제어하는 것은 매우 도전적인 과제입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "영상 스트리밍 연결",
+            "기본 채팅 기능",
+            "회의 생성 및 참여 로직"
+          ],
+          "defer": [
+            "실시간 자막 번역",
+            "배경 필터 및 효과",
+            "노이즈 캔슬링"
+          ],
+          "risks": [
+            "네트워크 지연으로 인한 통화 품질 저하",
+            "서버 비용 증가"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스터디 그룹용 화상 채팅",
+            "concept": "스터디 그룹에 특화되어 타이머와 공유 메모장 기능이 포함된 소규모 화상 채팅 앱입니다.",
+            "first_step": "WebRTC 라이브러리를 사용하여 2인 화상 연결을 구현합니다."
+          },
+          {
+            "title": "화상 회의 요약 도우미",
+            "concept": "화상 회의 중 대화 내용을 텍스트로 기록하고 요약해 주는 보조 도구입니다.",
+            "first_step": "음성 인식 API를 사용하여 실시간 텍스트 변환 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "실시간 통신 기술의 정점을 보여주는 앱으로, WebRTC와 같은 기술의 가능성을 확인하기 좋습니다. 다만, 직접 구현하기보다는 기존 API를 활용한 서비스 개발을 고민하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 스트리밍 프로토콜이나 서버 아키텍처에 대한 정보가 없습니다. 또한, 프리미엄 기능(녹화 등)의 기술적 구현 방식은 알 수 없습니다.",
+        "name": "Google Meet",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/google-meet/id1096918571",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 96,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-29"
     }
   }
 }

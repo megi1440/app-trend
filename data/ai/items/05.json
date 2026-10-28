@@ -7165,6 +7165,270 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-28"
+    },
+    "itch:0a338cbe181c2690d998": {
+      "app_key": "itch:0a338cbe181c2690d998",
+      "name": "Sort Sprint [Free]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://roguecore.itch.io/sort-sprint",
+      "data_date": "2026-10-29",
+      "analysed_at": "2026-10-29T05:30:02+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Divert parcels into the right bins, chain streaks, and hit 3000 points in 90 seconds!",
+      "analysis": {
+        "app_key": "itch:0a338cbe181c2690d998",
+        "summary_ko": "Sort Sprint는 90초 동안 소포를 올바른 분류함으로 빠르게 분류하는 아케이드 게임입니다. 연속 분류를 통해 콤보를 쌓고 3000점을 달성하는 것이 목표입니다.",
+        "features_ko": [
+          "소포를 지정된 분류함으로 드래그하거나 이동시키는 분류 메커니즘을 제공합니다.",
+          "연속으로 정확하게 분류하면 점수 배율이 올라가는 콤보 시스템이 있습니다.",
+          "90초라는 제한 시간 내에 최고 점수를 기록하는 타임 어택 규칙을 따릅니다."
+        ],
+        "noteworthy_ko": "단순한 조작을 통해 몰입감을 주는 아케이드 게임의 전형적인 예시입니다. 짧은 시간 내에 긴장감을 유지하기 위한 난이도 곡선 설계가 핵심일 것으로 추정됩니다.",
+        "development_ko": "입력 판정의 정확도와 반응 속도가 게임의 재미를 결정합니다. 소포의 생성 패턴과 속도를 조절하여 난이도를 점진적으로 높이는 밸런스 작업이 필요합니다. UI는 직관적이고 빠르게 조작할 수 있도록 배치해야 합니다.",
+        "idea_ko": "분류 대상에 특수 효과를 부여하여 전략적 선택을 요구하는 변형 규칙을 제안합니다.",
+        "highlights_ko": [
+          "90초라는 짧은 플레이 타임으로 빠른 반복 플레이를 유도합니다.",
+          "분류라는 직관적인 규칙을 사용하여 누구나 쉽게 접근할 수 있습니다."
+        ],
+        "systems_ko": [
+          "입력 판정 시스템",
+          "게임 타이머 및 상태 관리",
+          "점수 계산 및 콤보 로직",
+          "오브젝트 생성 및 풀링 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 단순하고 구현해야 할 시스템의 범위가 좁아 1인 개발자가 시제품을 만들기 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "소포 생성 및 이동 로직",
+            "분류함 충돌 판정",
+            "점수 및 타이머 UI"
+          ],
+          "defer": [
+            "글로벌 리더보드",
+            "다양한 소포 스킨"
+          ],
+          "risks": [
+            "조작감이 단조로워 금방 지루해질 위험",
+            "판정 오류로 인한 불쾌감 발생 가능성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "위험물 분류기",
+            "concept": "일반 소포와 폭발물을 섞어 내보내며, 폭발물은 특정 처리 장치로 보내야 하는 긴장감 있는 분류 게임입니다.",
+            "first_step": "두 가지 타입의 오브젝트를 생성하고 각각 다른 목적지로 분류하는 로직을 구현합니다."
+          },
+          {
+            "title": "속도 조절 분류",
+            "concept": "컨베이어 벨트의 속도가 플레이어의 점수에 따라 실시간으로 변하는 모드입니다.",
+            "first_step": "점수 변수에 따라 오브젝트 이동 속도를 동적으로 변경하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "아케이드 게임의 핵심 재미 요소인 '반복과 숙달'을 구현하는 방법을 배우기에 좋습니다. 단순한 게임이라도 조작감과 피드백(효과음, 시각 효과)이 얼마나 중요한지 확인하기 좋습니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 조작 방식(터치, 마우스 등)이나 게임의 시각적 스타일은 확인되지 않습니다. 추가적인 기능이나 연동 요소는 명시되지 않았습니다.",
+        "name": "Sort Sprint [Free]",
+        "source": "itch",
+        "detail_url": "https://roguecore.itch.io/sort-sprint",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 375,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-29"
+    },
+    "itch:50eb62ae286f681940d2": {
+      "app_key": "itch:50eb62ae286f681940d2",
+      "name": "LUMEN TIDELINE — Phone Demo [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://shepard24.itch.io/lumen-tideline-phone-demo",
+      "data_date": "2026-10-29",
+      "analysed_at": "2026-10-29T05:30:02+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Catch the tide with thumb controls in this free, portrait-and-landscape neon arcade demo.",
+      "analysis": {
+        "app_key": "itch:50eb62ae286f681940d2",
+        "summary_ko": "LUMEN TIDELINE은 엄지손가락 조작을 활용한 네온 스타일의 아케이드 게임입니다. 세로 및 가로 모드를 모두 지원하며, 조류를 따라 이동하는 독특한 조작감을 제공합니다.",
+        "features_ko": [
+          "엄지손가락 하나로 조작 가능한 직관적인 인터페이스를 제공합니다.",
+          "세로와 가로 모드를 모두 지원하여 다양한 환경에서 플레이할 수 있습니다.",
+          "네온 스타일의 시각적 효과를 통해 몰입감 있는 아케이드 경험을 선사합니다."
+        ],
+        "noteworthy_ko": "모바일 환경에서 한 손 조작의 편의성을 극대화한 점이 흥미롭습니다. 화면 방향 전환에 따른 UI 대응과 조작감의 일관성을 어떻게 유지했는지가 기술적 관점에서 중요합니다.",
+        "development_ko": "화면 방향 전환에 따른 UI 레이아웃 자동 조정 기술이 필요합니다. 엄지손가락 조작에 최적화된 입력 처리 로직과 네온 효과를 위한 셰이더 기술이 핵심입니다. 짧은 플레이 타임 내에 긴장감을 주는 레벨 디자인이 중요합니다.",
+        "idea_ko": "조류의 흐름을 플레이어가 직접 조작하여 장애물을 피하는 '흐름 제어' 메커니즘을 제안합니다.",
+        "highlights_ko": [
+          "한 손 조작을 지원하여 접근성이 높습니다.",
+          "세로/가로 모드 전환을 통해 유연한 플레이 환경을 제공합니다."
+        ],
+        "systems_ko": [
+          "입력 처리 및 제스처 인식",
+          "화면 방향 대응 UI 시스템",
+          "네온 효과 셰이더",
+          "레벨 생성 및 장애물 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "한 손 조작과 화면 전환 대응은 구현 난이도가 있으나, 게임의 규모가 작아 1인 개발자가 충분히 시도할 만합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이동 및 조작 시스템",
+            "화면 방향 전환 대응 UI",
+            "기본 장애물 생성"
+          ],
+          "defer": [
+            "다양한 네온 테마",
+            "온라인 랭킹"
+          ],
+          "risks": [
+            "가로/세로 모드 전환 시 조작감 차이 발생",
+            "시각적 효과가 너무 강해 가독성 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "조류 서퍼",
+            "concept": "조류를 타고 이동하며 아이템을 수집하는 서핑 테마의 아케이드 게임입니다.",
+            "first_step": "캐릭터가 곡선 경로를 따라 이동하는 기본 물리 로직을 구현합니다."
+          },
+          {
+            "title": "네온 리듬 조작",
+            "concept": "배경 음악의 비트에 맞춰 조류의 방향이 바뀌는 리듬 액션 결합형 게임입니다.",
+            "first_step": "음악 비트에 맞춰 장애물이나 경로를 생성하는 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "모바일 UI/UX 최적화와 조작감 설계에 관심 있는 개발자에게 추천합니다. 화면 방향 전환 대응과 같은 실무적인 기술적 문제를 해결하는 경험을 얻을 수 있습니다.",
+        "source_limitations_ko": "소개문이 데모 버전임을 명시하고 있어 전체 콘텐츠의 양이나 깊이는 확인되지 않았습니다. 구체적인 조작 방식의 상세 로직은 검증이 필요합니다.",
+        "name": "LUMEN TIDELINE — Phone Demo [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://shepard24.itch.io/lumen-tideline-phone-demo",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 365,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 5,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-29"
+    },
+    "itch:fdb408cd3b223074adac": {
+      "app_key": "itch:fdb408cd3b223074adac",
+      "name": "Apprentice of Darkness Demo [Free] [Strategy]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://theravenofmaeldor.itch.io/apprentice-of-darkness-demo",
+      "data_date": "2026-10-29",
+      "analysed_at": "2026-10-29T05:31:01+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Play the bad guys in a hand-drawn, turn-based dark fantasy roguelike.",
+      "analysis": {
+        "app_key": "itch:fdb408cd3b223074adac",
+        "summary_ko": "손으로 그린 듯한 그래픽이 특징인 다크 판타지 로그라이크 게임입니다. 플레이어는 악당의 입장이 되어 턴제 전투를 수행합니다. 로그라이크 특유의 반복적인 도전과 전략적 선택을 경험할 수 있습니다.",
+        "features_ko": [
+          "턴제 기반의 전투 시스템을 통해 전략적인 플레이를 제공합니다.",
+          "다크 판타지 세계관을 배경으로 악당 캐릭터를 조종합니다.",
+          "손으로 직접 그린 듯한 독특한 아트 스타일을 적용했습니다."
+        ],
+        "noteworthy_ko": "로그라이크 장르에서 흔치 않은 '악당' 시점의 서사가 흥미롭습니다. 아트 스타일이 게임의 분위기를 결정짓는 핵심 요소로 작용할 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 턴제 전투 로직과 로그라이크의 무작위 생성 알고리즘입니다. 아트 리소스 제작 부담이 크며, 밸런스 조정을 위해 반복적인 테스트가 필수적입니다.",
+        "idea_ko": "악당의 시점에서 선한 영웅들을 물리치고 자신의 던전을 방어하는 전략 로그라이크로 확장하는 것이 적합합니다.",
+        "highlights_ko": [
+          "악당의 시점에서 진행되는 독특한 서사 구조.",
+          "수작업으로 제작된 다크 판타지풍의 시각적 요소."
+        ],
+        "systems_ko": [
+          "턴제 전투 엔진",
+          "절차적 맵 생성 시스템",
+          "캐릭터 능력치 및 스킬 관리",
+          "로그라이크 데이터 저장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "턴제 전투는 실시간 액션보다 구현 난이도가 낮으나, 로그라이크의 무작위성과 밸런스 설계에 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 턴제 전투 로직",
+            "캐릭터 이동 및 공격 시스템",
+            "간단한 적 AI"
+          ],
+          "defer": [
+            "복잡한 스토리 분기",
+            "다양한 아이템 및 장비 시스템"
+          ],
+          "risks": [
+            "전투 밸런스 붕괴",
+            "아트 리소스 제작의 과도한 시간 소요"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "악당의 던전 경영",
+            "concept": "전투뿐만 아니라 던전의 함정을 배치하고 자원을 관리하는 경영 요소를 결합합니다.",
+            "first_step": "함정 배치와 적 유닛 소환 기능을 포함한 1개 층의 전투 프로토타입 제작."
+          },
+          {
+            "title": "반전 로그라이크",
+            "concept": "영웅이 침입했을 때 악당이 되어 방어하는 역방향 타워 디펜스 로그라이크입니다.",
+            "first_step": "영웅의 이동 경로를 예측하여 방어물을 설치하는 기본 루프 구현."
+          }
+        ],
+        "recommendation_ko": "턴제 로그라이크의 기본 구조를 배우기에 적합합니다. 아트 스타일이 게임의 정체성을 어떻게 형성하는지 연구하기 좋습니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 전투 메커니즘, 성장 시스템, 로그라이크 요소의 깊이를 확인할 수 없습니다.",
+        "name": "Apprentice of Darkness Demo [Free] [Strategy]",
+        "source": "itch",
+        "detail_url": "https://theravenofmaeldor.itch.io/apprentice-of-darkness-demo",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 314,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-29"
     }
   }
 }

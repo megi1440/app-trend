@@ -8139,6 +8139,95 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-28"
+    },
+    "apple:6803329435": {
+      "app_key": "apple:6803329435",
+      "name": "Chromagraph Camera",
+      "developer": "Chromatic Applications LLC",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/chromagraph-camera/id6803329435",
+      "data_date": "2026-10-29",
+      "analysed_at": "2026-10-29T05:32:06+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Replace your phone camera’s default processing with bespoke, curated color and texture rendering designed by cinematographer Steve Yedlin and used on the Knives Out films. Chromagraph starts from raw image data and builds the image its own way: not a filter laid over the usual look processing, but a different process from the start. SHOOT FIRST, SEE THE LOOK AFTER As with a film camera, you frame through the viewfinder and see the finished look only after the image is processed. Take the picture, then open the gallery to see it with the Chromagraph look applied. ADJUST WITHOUT LOSING THE LOOK Intuitive yet powerful tools for color, tone, and texture give you real control while keeping every image true to the look that’s the core of the app. A GALLERY THAT KEEPS THE ORIGINALS Store full-quality raw files and view them in the app with the look applied live, along with any adjustments you make. Export smaller files to share with friends or save to your photo library, or turn on auto-export in Preferences to send every photo to your library right away as a JPEG or HEIC with the look applied. NOT A FILTER A filter sits on top of the processing your phone has already done. Chromagraph skips that processing and uses its own methods for the curated look preferred by director Rian Johnson and cinematographer Steve Yedlin.",
+      "analysis": {
+        "app_key": "apple:6803329435",
+        "summary_ko": "Chromagraph Camera는 영화 촬영 감독 Steve Yedlin이 설계한 독자적인 색상 및 질감 렌더링 프로세스를 적용하는 사진 촬영 앱입니다. 일반적인 필터 방식이 아닌, 원본 이미지 데이터부터 새롭게 처리하는 방식을 채택했습니다. 사용자는 촬영 후 갤러리에서 완성된 룩을 확인할 수 있으며, 직관적인 도구로 색상과 톤을 조정할 수 있습니다.",
+        "features_ko": [
+          "기존 스마트폰의 기본 이미지 처리 과정을 건너뛰고 독자적인 렌더링 방식을 사용합니다.",
+          "촬영 시에는 뷰파인더를 통해 구도를 잡고, 촬영 후 처리된 결과물을 확인하는 필름 카메라 방식을 따릅니다.",
+          "색상, 톤, 질감을 조정할 수 있는 편집 도구를 제공하여 원본의 룩을 유지하며 세부 수정이 가능합니다.",
+          "원본 Raw 파일을 앱 내에 보관하며, 필요 시 JPEG나 HEIC 형식으로 내보내거나 자동 저장할 수 있습니다."
+        ],
+        "noteworthy_ko": "일반적인 필터 앱과 달리 이미지 처리 파이프라인 자체를 재구성한다는 점이 개발 관점에서 매우 도전적입니다. 이는 단순한 색 보정 레이어를 얹는 것이 아니라, Raw 데이터에 직접 접근하여 렌더링 알고리즘을 구현해야 함을 시사합니다.",
+        "development_ko": "핵심 구현 기술로는 Raw 데이터 처리 및 커스텀 이미지 프로세싱 파이프라인 구축이 필요합니다. 콘텐츠 제작 부담은 낮으나, 특정 룩을 구현하기 위한 수학적 모델링과 최적화 작업이 매우 높습니다. 테스트 시 다양한 조명 환경에서의 렌더링 일관성을 확보하는 것이 중요합니다.",
+        "idea_ko": "특정 영화의 룩을 모방하는 대신, 사용자가 직접 렌더링 파라미터를 조합하여 자신만의 '디지털 필름 스톡'을 만드는 커스텀 룩 생성기 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "필터가 아닌 프로세스 교체: 기존 이미지 처리 엔진을 우회하여 독자적인 렌더링 방식을 적용합니다.",
+          "워크플로우의 의도적 지연: 촬영 즉시 결과를 보여주지 않고 후처리를 거치게 하여 필름 촬영의 경험을 재현합니다."
+        ],
+        "systems_ko": [
+          "Raw 이미지 캡처 및 데이터 관리 시스템",
+          "커스텀 이미지 프로세싱 엔진",
+          "비파괴적 편집 및 파라미터 저장 시스템",
+          "이미지 내보내기 및 포맷 변환 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "Raw 데이터에 직접 접근하여 이미지 처리 파이프라인을 처음부터 설계하는 것은 고도의 그래픽스 프로그래밍 지식을 요구합니다. 일반적인 필터 앱보다 훨씬 복잡한 수학적 모델링과 하드웨어 가속 최적화가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "Raw 데이터 캡처 기능",
+            "기본적인 색상/톤 커브 조정 엔진",
+            "이미지 내보내기 기능"
+          ],
+          "defer": [
+            "실시간 뷰파인더 프리뷰",
+            "고급 질감 렌더링 알고리즘",
+            "자동 클라우드 동기화"
+          ],
+          "risks": [
+            "기기별 Raw 데이터 포맷 차이로 인한 호환성 문제",
+            "이미지 처리 성능 최적화 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "빈티지 렌즈 에뮬레이터",
+            "concept": "특정 시대의 렌즈 광학 특성(비네팅, 색수차 등)을 Raw 데이터에 적용하는 앱입니다.",
+            "first_step": "이미지 중심부와 주변부의 색상 및 선명도를 다르게 처리하는 셰이더 구현."
+          },
+          {
+            "title": "라이트룸 프리셋 빌더",
+            "concept": "사용자가 조정한 룩을 다른 사진에 일괄 적용할 수 있는 커스텀 프로세싱 프로필 생성기입니다.",
+            "first_step": "이미지 조정 값을 JSON으로 저장하고 불러오는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "이미지 처리 파이프라인과 그래픽스 프로그래밍에 관심이 있는 개발자에게 추천합니다. 단순한 API 호출을 넘어 이미지 데이터의 본질을 다루는 방법을 배울 수 있습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 이미지 처리 알고리즘이나 사용된 API(예: Metal, Core Image)에 대한 정보가 없습니다. 보안 및 결제 기능에 대한 언급은 없습니다.",
+        "name": "Chromagraph Camera",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/chromagraph-camera/id6803329435",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 235,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-29"
     }
   }
 }

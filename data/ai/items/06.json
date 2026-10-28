@@ -9147,6 +9147,273 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-28"
+    },
+    "itch:ee6c73410380e165af44": {
+      "app_key": "itch:ee6c73410380e165af44",
+      "name": "99% [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://raxeris.itch.io/99",
+      "data_date": "2026-10-29",
+      "analysed_at": "2026-10-29T05:30:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "The loading bar is stuck at 99%. Click. It notices.",
+      "analysis": {
+        "app_key": "itch:ee6c73410380e165af44",
+        "summary_ko": "99%는 로딩 바가 99%에서 멈춘 상황을 다루는 실험적인 방치형 시뮬레이션 게임입니다. 플레이어의 클릭에 반응하는 로딩 바를 통해 독특한 경험을 제공합니다.",
+        "features_ko": [
+          "99%에서 멈춘 로딩 바를 메인 요소로 사용합니다.",
+          "플레이어의 클릭에 반응하는 상호작용 시스템이 있습니다."
+        ],
+        "noteworthy_ko": "게임의 핵심을 '로딩'이라는 일상적인 경험에 집중시킨 점이 매우 창의적입니다. 플레이어의 행동이 게임의 상태에 영향을 미치는 메타적인 요소를 어떻게 구현했는지 추정해 볼 수 있습니다.",
+        "development_ko": "클릭 이벤트 처리와 로딩 바의 상태 변화를 동기화하는 것이 핵심입니다. 매우 단순한 구조이므로 연출과 피드백의 디테일에 집중해야 합니다.",
+        "idea_ko": "로딩 바가 플레이어의 클릭을 방해하거나 대화하는 방식의 메타 게임으로 확장할 수 있습니다.",
+        "highlights_ko": [
+          "로딩 바라는 익숙한 요소를 게임의 핵심 메커니즘으로 활용했습니다.",
+          "플레이어와 게임 사이의 직접적인 상호작용을 강조합니다."
+        ],
+        "systems_ko": [
+          "클릭 이벤트 감지 시스템",
+          "상태 변화에 따른 UI 업데이트",
+          "플레이어 반응형 로직"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "구현해야 할 기능이 매우 적어 기술적 난이도는 낮습니다. 아이디어의 참신함과 연출력이 게임의 완성도를 결정합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "로딩 바 UI",
+            "클릭 시 반응하는 로직"
+          ],
+          "defer": [
+            "복잡한 스토리라인",
+            "다양한 게임 모드"
+          ],
+          "risks": [
+            "너무 짧은 플레이 타임",
+            "플레이어의 흥미 유발 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "로딩의 반란",
+            "concept": "로딩 바가 플레이어의 클릭을 피해서 도망가는 게임입니다. 클릭할수록 로딩 바가 더 빨리 움직이며 난이도가 상승합니다.",
+            "first_step": "마우스 위치를 피해서 움직이는 UI 요소 구현."
+          },
+          {
+            "title": "로딩 바와의 대화",
+            "concept": "로딩 바가 플레이어에게 질문을 던지고, 클릭으로 대답하는 비주얼 노벨 형식의 게임입니다.",
+            "first_step": "텍스트 출력 및 클릭 선택지 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "최소한의 기능으로 최대의 효과를 내는 기획을 연습하고 싶은 개발자에게 추천합니다. 연출과 사용자 경험 디자인의 중요성을 배우기에 좋습니다.",
+        "source_limitations_ko": "로딩 바가 구체적으로 어떤 반응을 보이는지, 게임의 최종 목표가 무엇인지 등은 설명문에서 확인할 수 없습니다.",
+        "name": "99% [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://raxeris.itch.io/99",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 344,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 12,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-29"
+    },
+    "google:com.minimaa.minimal.detox.launcher": {
+      "app_key": "google:com.minimaa.minimal.detox.launcher",
+      "name": "MINIMAA: Minimalist Launcher",
+      "developer": "Bract Studio",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.minimaa.minimal.detox.launcher&hl=en&gl=US",
+      "data_date": "2026-10-29",
+      "analysed_at": "2026-10-29T05:33:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Reclaim Your Focus. Simplify Your Life. Drowning in a sea of colorful icons and constant notifications? MINIMAA is a minimalist launcher that turns your smartphone into a tool for intentional living instead of a distraction machine — inspired by digital minimalism and the \"dumbphone\" movement, without giving up your smartphone. Trusted by 12,000+ users who've swapped a cluttered home screen for a calm, distraction-free one. 🌑 WHY A MINIMALIST LAUNCHER? Most launchers are built to keep you scrolling. MINIMAA is built to help you stop. By replacing colorful icon grids with a clean, text-based interface, it removes the visual triggers that drive mindless phone checking — so picking up your phone becomes a choice, not a habit. 🚀 KEY FEATURES • Minimalist Black & White Interface — an inky, OLED-optimized design that saves battery and reduces eye strain • Text-Based App Drawer — navigate by name, not icon clutter, with fast search and alphabet scroll • App Blocker & Digital Detox Tools — hide distracting apps, block distracting websites, and add friction before opening them • Focus Tools — a built-in Pomodoro timer and guided mindfulness breaks • Customizable Home Styles — five distinct layouts, from a bare clock to a full widget dashboard • Privacy-First by Design — zero ads, zero trackers, zero data collection; everything runs offline, on your device • Lightweight & Fast — a tiny footprint with no lag, even on older phones • One-Time Purchase — no subscription, ever 🧠 BUILT FOR • Digital minimalists looking for a calmer, more intentional phone • People managing ADHD, autism, or sensory overload who find a low-stimulation screen easier to focus with • Anyone doing a digital detox or trying to cut phone/social media addiction • Productivity-minded users who want to spend less time searching and more time doing Download MINIMAA and start your digital detox today. — Accessibility Service API Usage MINIMAA includes optional features—Focus & Gestures (App & Web Blocking, navigation shortcuts, and Double Tap to Lock)—that utilize Android's Accessibility Service API. When enabled, this service performs the following functions: • Web Detox & App Blocking: Reads the active application package name and browser URL address bar in real-time to detect when a user-defined distracting app or website is opened and displays a focus prompt to block access. • Navigation & System Actions: Receives gesture triggers (like double-tapping on the home screen or executing motion shortcuts) to perform corresponding system actions, such as locking your screen or going Back/Home. Privacy and Data Safety: • No Data Collection: The service only reads the active app package name and the browser's address bar to determine if a block is triggered. It does not record keystrokes, personal details, or other screen content. • No Data Transmission: No accessed data is stored, collected, or transmitted. All processing happens locally on your device. • Fully Optional: These features are completely optional. The Accessibility Service is not enabled by default and can be turned off at any time in Android system settings. MINIMAA is not an accessibility tool for users with disabilities.",
+      "analysis": {
+        "app_key": "google:com.minimaa.minimal.detox.launcher",
+        "summary_ko": "MINIMAA는 스마트폰의 과도한 사용을 줄이고 디지털 미니멀리즘을 실천하도록 돕는 런처 앱입니다. 화려한 아이콘 대신 텍스트 기반의 인터페이스를 제공하여 사용자의 주의 분산을 최소화합니다. 사용자는 앱 차단 및 포커스 도구를 통해 스마트폰을 습관적인 도구가 아닌 의도적인 도구로 활용할 수 있습니다.",
+        "features_ko": [
+          "배터리 절약과 눈의 피로 감소를 고려한 흑백 기반의 미니멀리즘 인터페이스를 제공합니다.",
+          "아이콘 대신 텍스트 기반의 앱 서랍을 통해 빠른 검색과 탐색을 지원합니다.",
+          "특정 앱이나 웹사이트를 차단하고 접근 시 마찰을 유도하여 디지털 디톡스를 돕습니다.",
+          "집중력을 높이기 위한 포모도로 타이머와 마음챙김 휴식 기능을 내장하고 있습니다.",
+          "안드로이드 접근성 서비스를 활용하여 앱 차단 및 제스처 기반의 시스템 제어를 수행합니다."
+        ],
+        "noteworthy_ko": "사용자의 스마트폰 사용 습관을 강제로 제어하기보다 '마찰'을 제공하여 의식적인 선택을 유도하는 설계가 흥미롭습니다. 접근성 서비스를 활용해 타 앱의 실행을 감지하고 차단하는 방식은 안드로이드 환경에서 강력한 제어권을 확보하는 전형적인 기법으로 추정됩니다.",
+        "development_ko": "핵심 구현 기술로는 안드로이드 접근성 서비스(Accessibility Service) API 활용이 필수적이며, 시스템 수준의 앱 실행 감지와 UI 오버레이 처리가 중요합니다. 콘텐츠 제작 부담은 낮으나, 다양한 기기에서의 접근성 권한 호환성 테스트와 배터리 최적화가 개발의 핵심 난관이 될 것입니다.",
+        "idea_ko": "사용자의 위치나 시간에 따라 차단되는 앱 목록을 동적으로 변경하는 '상황별 미니멀리즘' 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "데이터 수집이나 광고가 없는 개인정보 보호 중심의 오프라인 설계가 특징입니다.",
+          "다양한 홈 화면 레이아웃을 제공하여 사용자의 취향에 맞는 미니멀한 환경을 구성할 수 있습니다."
+        ],
+        "systems_ko": [
+          "런처 기본 기능(홈 화면 및 앱 서랍)",
+          "접근성 서비스 기반 앱 모니터링 시스템",
+          "사용자 설정 데이터 관리(차단 목록 등)",
+          "포커스 타이머 로직",
+          "UI 테마 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "런처의 기본 구조는 안드로이드 프레임워크를 통해 구현 가능하나, 접근성 서비스를 이용한 앱 차단 기능은 권한 설정 및 예외 처리가 까다롭습니다. 다양한 기기 환경에서의 안정성 확보가 개발의 주된 과제입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "텍스트 기반 앱 목록 표시",
+            "기본 앱 실행 기능",
+            "앱 차단 목록 설정"
+          ],
+          "defer": [
+            "포모도로 타이머",
+            "다양한 홈 화면 레이아웃",
+            "제스처 기반 시스템 제어"
+          ],
+          "risks": [
+            "안드로이드 버전별 접근성 권한 정책 변화",
+            "백그라운드 서비스 강제 종료 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "위치 기반 포커스 모드",
+            "concept": "특정 장소(예: 사무실, 도서관)에 도착하면 자동으로 업무 외 앱을 차단하는 기능입니다.",
+            "first_step": "위치 권한을 획득하고 특정 반경 진입 시 알림을 띄우는 프로토타입 구현."
+          },
+          {
+            "title": "텍스트 기반 할 일 런처",
+            "concept": "앱 서랍 상단에 오늘의 할 일을 텍스트로 고정하여 앱을 열 때마다 목표를 상기시킵니다.",
+            "first_step": "홈 화면에 텍스트 위젯을 추가하고 사용자 입력을 저장하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "안드로이드 시스템의 깊은 영역을 다루는 접근성 서비스의 활용법을 배우기에 매우 좋은 프로젝트입니다. 다만, 시스템 권한과 관련된 보안 이슈를 깊이 이해해야 하므로 초보자에게는 다소 도전적일 수 있습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 앱 차단 로직의 구현 방식이나, 안드로이드 버전별 호환성 이슈에 대한 정보가 없습니다. 결제나 외부 서버 연동 기능은 명시되지 않았으므로 구현 범위에서 제외해야 합니다.",
+        "name": "MINIMAA: Minimalist Launcher",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.minimaa.minimal.detox.launcher&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 186,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 18,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-29"
+    },
+    "apple:6474133872": {
+      "app_key": "apple:6474133872",
+      "name": "Find Hidden Objects - Spot It!",
+      "developer": "Yolo Game Studios",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/us/app/find-hidden-objects-spot-it/id6474133872?uo=2",
+      "data_date": "2026-10-29",
+      "analysed_at": "2026-10-29T05:37:05+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Embark on a relaxing and enjoyable journey through hundreds of levels. Have fun while improving your skills to spot hidden objects in stunning, high-definition pictures. A VISUAL TREAT Each meticulously selected HD image offers a unique challenge. Enhance your concentration and cognitive skills as you search and spot hidden objects. RELAX AND DISCOVER AT YOUR OWN PACE With no timers and unlimited hints, you can take your time to find every hidden object. Use the zoom feature to get a closer look, making it easier to spot even the smallest items. IMMERSE YOURSELF IN FUN Enjoy a user-friendly interface that ensures a distraction-free gaming experience. Diverse Challenges: From easy levels to challenging puzzles, there’s something for everyone. New levels are added regularly to keep the game fresh and exciting. Effortless Interface: Our clean and simple design lets you focus entirely on the game and the fun of finding hidden objects. Ready to Play? Start your adventure with 'Find Hidden Objects - Spot It!' now. Relax, improve your skills, and immerse yourself in the joy of discovery. Dive right in and start your search today!",
+      "analysis": {
+        "app_key": "apple:6474133872",
+        "summary_ko": "Find Hidden Objects - Spot It!은 고해상도 이미지 속에서 숨겨진 물건을 찾는 퍼즐 게임입니다. 시간 제한 없이 여유롭게 플레이할 수 있으며, 확대 기능을 통해 세밀한 관찰이 가능합니다. 인지 능력 향상과 휴식을 동시에 제공하는 것을 목표로 합니다.",
+        "features_ko": [
+          "다양한 고해상도 이미지에서 숨겨진 물건을 찾습니다.",
+          "시간 제한이 없어 자신의 속도에 맞춰 플레이할 수 있습니다.",
+          "무제한 힌트를 제공하여 막히는 구간을 해결할 수 있습니다.",
+          "확대 기능을 통해 작은 물건도 쉽게 찾아낼 수 있습니다."
+        ],
+        "noteworthy_ko": "사용자의 인지 능력 향상을 강조하며, 경쟁보다는 휴식과 발견의 즐거움에 초점을 맞춘 기획이 인상적입니다. Distraction-free(방해 없는) 환경을 강조하는 UI 디자인 철학이 돋보입니다.",
+        "development_ko": "이미지 내 좌표 데이터 관리와 터치 입력 판정 시스템이 핵심입니다. 고해상도 이미지 로딩 및 메모리 관리 기술이 중요하며, 콘텐츠 제작을 위해 많은 양의 이미지 소스가 필요합니다. 밸런스는 물건의 배치 난이도와 힌트 시스템의 적절한 조화가 필요합니다.",
+        "idea_ko": "사용자가 직접 사진을 찍어 숨은 그림 찾기 스테이지를 만드는 '사용자 제작 모드'가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "시간 제한 없는 여유로운 게임 플레이.",
+          "고해상도 이미지를 활용한 시각적 즐거움."
+        ],
+        "systems_ko": [
+          "이미지 좌표 매핑 시스템",
+          "터치 입력 및 히트박스 판정",
+          "힌트 시스템",
+          "이미지 확대/축소 및 스크롤 관리",
+          "레벨 데이터 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "이미지 좌표 처리와 터치 이벤트 구현은 비교적 명확하지만, 다수의 레벨을 구성하기 위한 데이터 관리와 이미지 리소스 확보가 반복적인 작업이 될 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "이미지 표시 및 확대 기능",
+            "물건 좌표 데이터 관리",
+            "터치 판정 로직",
+            "힌트 기능"
+          ],
+          "defer": [
+            "다양한 테마의 레벨 팩",
+            "온라인 리더보드",
+            "사용자 제작 모드"
+          ],
+          "risks": [
+            "이미지 리소스 저작권 문제",
+            "단조로운 게임 플레이로 인한 사용자 이탈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "사용자 제작 스테이지",
+            "concept": "사용자가 자신의 사진을 업로드하고 숨길 물건을 지정하여 친구와 공유하는 모드입니다.",
+            "first_step": "이미지 선택 및 터치 좌표를 저장하는 간단한 에디터 툴을 구현합니다."
+          },
+          {
+            "title": "시간 기록 모드",
+            "concept": "여유로운 플레이와 대비되는, 빠르게 물건을 찾는 기록 경쟁 모드입니다.",
+            "first_step": "기존 로직에 타이머 기능을 추가하여 클리어 시간을 측정합니다."
+          }
+        ],
+        "recommendation_ko": "이미지 처리와 좌표 기반의 상호작용을 구현하는 데 좋은 연습이 됩니다. 콘텐츠의 양이 곧 게임의 볼륨이 되는 구조이므로 효율적인 데이터 관리 방식을 배우기 좋습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 이미지 데이터 저장 방식이나 힌트 알고리즘에 대한 정보가 없습니다. 또한, 신규 레벨 업데이트 방식에 대한 기술적 세부 사항은 알 수 없습니다.",
+        "name": "Find Hidden Objects - Spot It!",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/find-hidden-objects-spot-it/id6474133872?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 89,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-29"
     }
   }
 }
