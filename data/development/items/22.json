@@ -7499,6 +7499,182 @@
         "thoughtsTokenCount": 2313,
         "serviceTier": "standard"
       }
+    },
+    "apple:1542920778": {
+      "app_key": "apple:1542920778",
+      "name": "ahamo（アハモ）",
+      "developer": "株式会社NTTドコモ",
+      "source": "apple",
+      "kind": "app",
+      "detail_url": "https://apps.apple.com/jp/app/ahamo-%E3%82%A2%E3%83%8F%E3%83%A2/id1542920778?uo=2",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:1542920778",
+        "product_kind": "app",
+        "original_experience_ko": "원본 앱 'ahamo'는 특정 통신사 이용자가 요금과 데이터 사용량을 로그인 없이 한눈에 확인하고, 위젯을 통해 홈 화면에서 잔량을 파악하며, 일상적인 퀘스트 참여를 통해 보상을 얻고, 막히는 부분은 채팅 상담으로 해결하는 라이프스타일/유틸리티 앱입니다. 공개된 스토어 소개문 기반의 사실이며, 구체적인 백엔드 연동 방식이나 서버 로직은 외부에서 관측할 수 없는 AI 해석의 영역입니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 확인 사실: 로그인 없이 월별 요금 및 데이터 사용량 확인 가능, 그래프 시각화, 홈 화면 위젯 지원, 앱 내 퀘스트 참여 시 보상 지급, 채팅 상담 기능 제공.",
+          "확인되지 않은 한계: 통신사 내부 API의 구체적인 명세, 보안 인증 처리 방식, 퀘스트 백엔드 서버 구조는 스토어 정보만으로 알 수 없음.",
+          "해석의 한계: 개인정보와 통신 데이터를 다루는 특성상 보안 처리가 필수적이나, 개인 1인 개발 환경에서는 통신사 서버 직접 연동이 불가능하므로 이를 대체할 범용적 접근이 필요함."
+        ],
+        "valuable_elements_ko": [
+          "번거로운 로그인 과정을 생략하고 핵심 정보를 즉시 보여주는 대시보드 UX는 사용자 피로도를 줄이는 핵심 장점입니다.",
+          "OS 홈 화면 위젯을 통한 실시간 정보 노출은 사용자가 앱을 열지 않고도 목적을 달성하게 만드는 우수한 접근성 요소입니다.",
+          "단순한 정보 조회를 넘어 퀘스트와 보상을 결합하여 앱 체류 동기를 부여하는 게이미피케이션 구조는 유틸리티 앱의 리텐션 향상에 유용합니다."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "디지털 리소스 모니터 & 퀘스트 루틴 (플랜케어 위젯 랩)",
+            "core_idea_ko": "특정 통신사에 종속되지 않고, 스마트폰의 네트워크 데이터 사용량, 배터리 상태, 월 고정 구독료 등 흩어진 디지털 자산을 한눈에 모니터링하며, 매일 주어지는 절약 미션을 통해 보상을 쌓는 범용 유틸리티 앱.",
+            "what_to_keep_ko": "로그인 없이 한눈에 잔량을 파악하는 대시보드 직관성과 홈 화면 위젯 연동, 그리고 퀘스트 참여를 통한 보상 획득 구조를 계승합니다.",
+            "what_to_change_ko": "통신사 전용 요금 조회라는 제한을 없애고, Android OS 표준 API(네트워크/배터리)와 수동 입력 구독료를 결합한 범용 디지털 자원 관리로 확장합니다.",
+            "mobile_use_or_play_ko": "사용자가 홈 화면 위젯으로 현재 데이터 잔량과 배터리 상태를 확인하고, 앱에 접속해 오늘의 '데이터 절약 퀘스트'를 완료한 뒤 리워드 포인트를 수령합니다.",
+            "key_features_ko": [
+              "OS 네트워크 및 배터리 API 연동형 실시간 위젯 대시보드",
+              "일일 절약 행동 유도형 퀘스트 및 리워드 시스템",
+              "구독료 및 고정 지출 수동 입력 및 시각화 그래프"
+            ],
+            "solo_mvp_and_effort_ko": "Android의 NetworkStatsManager와 BatteryManager API를 활용하여 로컬 기기의 데이터 사용량을 측정하고, SharedPreferences와 AppWidgetProvider로 위젯을 업데이트합니다. 복잡한 백엔드 서버 없이 로컬 중심 작동으로 구현 난이도를 낮춥니다.",
+            "strengths_limits_ko": "통신사 API 연동 부담이 없어 1인 개발이 가능하나, OS 버전별 네트워크 사용량 권한 획득 과정에서 사용자 허들이 존재할 수 있습니다."
+          },
+          {
+            "title_ko": "구독 & 통신비 지출 최적화 대시보드 (스마트 스펜드 위젯)",
+            "core_idea_ko": "매달 고정적으로 나가는 통신비와 각종 OTT/클라우드 구독 서비스 비용을 한곳에 모아 관리하고, 지출 절감 팁과 일일 출석 퀘스트를 통해 가계 관리를 돕는 유틸리티 앱.",
+            "what_to_keep_ko": "비용 정보를 한눈에 보여주는 직관적인 그래프 시각화와 홈 화면 위젯을 통한 정보 확인 편의성을 계승합니다.",
+            "what_to_change_ko": "통신사 서비스에서 탈피해 복수의 통신사 및 모든 디지털 구독 서비스를 통합 관리하는 범용 가계부 형태로 전환합니다.",
+            "mobile_use_or_play_ko": "사용자가 홈 위젯으로 이번 달 예상 고정 지출 합계를 확인하고, 앱에 접속해 신규 구독 내역을 추가하거나 매일 출석 체크 퀘스트를 완료합니다.",
+            "key_features_ko": [
+              "멀티 통신사 및 구독 비용 통합 대시보드 그래프",
+              "홈 화면 고정 지출 및 잔액 표시 위젯",
+              "지출 절약 미션 및 출석 퀘스트 보상"
+            ],
+            "solo_mvp_and_effort_ko": "로컬 SQLite(Room DB)를 이용해 사용자가 직접 입력한 고정 지출 데이터를 저장하고 월별 합계를 산출합니다. 백엔드 없이 완성할 수 있어 1인 개발 공수가 적습니다.",
+            "strengths_limits_ko": "통신사 종속성이 없어 확장성이 좋으나, 모든 데이터를 사용자가 수동으로 입력해야 하므로 초기 유입 장벽이 존재합니다."
+          },
+          {
+            "title_ko": "데이터 절약 습관 형성 육성 앱 (데이터 가디언 펫)",
+            "core_idea_ko": "스마트폰 데이터 사용량과 화면 켜짐 시간을 모니터링하고, 데이터를 아끼거나 미션을 수행할 때마다 화면 속 캐릭터가 성장하는 게이미피케이션 라이프스타일 앱.",
+            "what_to_keep_ko": "앱 내 퀘스트 참여를 통해 성취감을 주는 보상 구조와 일상적인 사용 패턴 모니터링 요소를 계승합니다.",
+            "what_to_change_ko": "단순한 텍스트/포인트 보상을 캐릭터 육성 및 수집이라는 게임적 메커니즘으로 결합하여 사용자 체류 시간과 동기부여를 강화합니다.",
+            "mobile_use_or_play_ko": "사용자가 위젯으로 캐릭터의 현재 상태(데이터 절약 상태)를 확인하고, 앱에 접속해 오늘 데이터 초과 없이 사용한 보상으로 펫의 먹이를 획득합니다.",
+            "key_features_ko": [
+              "네트워크 사용량 연동 캐릭터 성장 시뮬레이션",
+              "데이터 절약 및 출석 기반 일일 퀘스트",
+              "홈 화면 캐릭터 상태 요약 위젯"
+            ],
+            "solo_mvp_and_effort_ko": "Android UsageStatsManager를 이용한 앱 사용량 측정과 간단한 2D 스프라이트 애니메이션 펫 육성 로직을 구현합니다.",
+            "strengths_limits_ko": "유틸리티에 재미 요소를 더해 차별화되나, OS의 '사용정보 접근 허용' 권한을 요구하므로 사용자의 경계심을 낮추는 UX 설계가 필요합니다."
+          }
+        ],
+        "concept_comparison_ko": "세 아이디어 모두 원본의 핵심인 '대시보드 위젯 + 퀘스트 보상' 구조를 차용했으나 적용 분야가 다릅니다. 1번은 OS 리소스 모니터링(데이터/배터리), 2번은 고정 지출(통신/구독) 가계부, 3번은 게이미피케이션 육성 앱으로 발전했습니다. 1번은 기술적 구현(네트워크 API)에 집중하며, 2번은 수동 입력 데이터 관리, 3번은 동기부여에 강점이 있습니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "1번 아이디어는 원본의 가장 핵심적인 사용자 가치인 '실시간 이용량 확인 및 위젯 편의성'을 통신사 제약 없이 1인 개발로 구현할 수 있는 가장 현실적인 방향입니다. 네트워크 및 배터리 API를 활용해 범용적인 유틸리티로 확장할 수 있으며, 불필요한 백엔드 서버 구축 부담을 줄이고 로컬 중심의 MVP 검증이 가능합니다.",
+        "next_questions_ko": [
+          "Android OS 버전별 NetworkStatsManager API 사용 시 권한 획득 과정에서 사용자가 이탈하지 않도록 UX를 어떻게 설계할 것인가?",
+          "로컬에 저장되는 네트워크 사용량 데이터의 정확도를 사용자가 신뢰할 수 있도록 어떤 시각적 피드백을 제공할 것인가?"
+        ]
+      },
+      "brief_at": "2026-10-28T09:53:09+09:00",
+      "brief_quota_day": "2026-10-28",
+      "brief_usage": {
+        "promptTokenCount": 1553,
+        "candidatesTokenCount": 2125,
+        "totalTokenCount": 6192,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1553
+          }
+        ],
+        "thoughtsTokenCount": 2514,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:1542920778",
+        "product_kind": "app",
+        "selected_concept_title_ko": "디지털 리소스 모니터 & 퀘스트 루틴 (플랜케어 위젯 랩)",
+        "project_goal_and_audience_ko": "스마트폰 네트워크 데이터 사용량, 배터리 상태, 매월 고정으로 빠져나가는 구독 서비스 요금 등 흩어진 디지털 자산과 비용을 한곳에서 모니터링하고 관리하고자 하는 일반 스마트폰 이용자를 위한 모바일 유틸리티 앱입니다. 복잡한 통신사 로그인 없이 기기 내부의 리소스를 직관적으로 확인하고, 일상 속 작은 절약 루틴(퀘스트)을 통해 소소한 성취감과 리워드를 얻는 재미를 제공합니다.",
+        "source_relation_and_difference_ko": "원본 앱(ahamo)의 핵심 경험인 '번거로운 로그인 없는 즉시 대시보드 확인', '홈 화면 위젯 연동을 통한 접근성 극대화', '퀘스트 참여를 통한 리워드 획득 구조'를 온전히 계승합니다. 차이점으로는 특정 통신사(ahamo) 요금 조회라는 제한을 완전히 제거하고, Android OS 표준 API(NetworkStatsManager 등)를 활용한 범용 네트워크/배터리 모니터링과 사용자가 직접 입력하는 구독료 관리 시스템을 결합하여 모든 통신사 및 Wi-Fi 환경 사용자가 쓸 수 있는 독립형 유틸리티로 발전시켰습니다.",
+        "core_user_experience_ko": "사용자는 앱을 실행하자마자 별도의 로그인 과정 없이 메인 대시보드에서 현재 모바일 데이터 사용량, Wi-Fi 사용량, 배터리 상태, 이번 달 등록된 고정 구독 지출 총액을 한눈에 파악합니다. 또한 스마트폰 홈 화면에 위젯을 배치해 앱을 켜지 않고도 실시간 잔량을 확인합니다. 앱 내 '퀘스트 탭'에서는 '오늘 데이터 절약하기', '앱 출석 체크' 같은 미션을 확인하고 완료 버튼을 눌러 리워드 포인트를 적립받으며, 일상적인 디지털 소비 습관을 자연스럽게 관리하게 됩니다.",
+        "features_ko": [
+          {
+            "feature_ko": "OS API 연동형 실시간 리소스 대시보드 및 위젯",
+            "user_action_and_behavior_ko": "사용자가 앱 메인 화면이나 홈 화면 위젯을 통해 현재 모바일 데이터 사용량과 배터리 상태를 즉시 확인합니다. 시스템은 백그라운드 Worker를 통해 주기적으로 데이터를 갱신하고 위젯 UI를 재렌더링하여 최신 상태를 제공합니다.",
+            "practical_implementation_ko": "Android의 NetworkStatsManager API와 BatteryManager를 활용하여 로컬 기기의 트래픽 및 배터리 정보를 수집합니다. AppWidgetProvider와 WorkManager를 결합해 주기적인 백그라운드 업데이트를 구현합니다."
+          },
+          {
+            "feature_ko": "일일 디지털 절약 퀘스트 및 리워드 시스템",
+            "user_action_and_behavior_ko": "사용자가 매일 앱에 접속하거나 지정된 절약 행동(예: Wi-Fi 우선 사용 조건 달성)을 수행한 뒤 퀘스트 완료 버튼을 누르면, 시스템이 즉시 출석 판정을 내리고 리워드 포인트를 지급하여 시각적 보상을 제공합니다.",
+            "practical_implementation_ko": "로컬 SQLite(Room) DB에 날짜별 퀘스트 참여 상태와 보유 포인트 정보를 저장합니다. SharedPreferences를 활용해 당일 출석 여부를 가볍게 체크하고 UI 상태를 변경합니다."
+          },
+          {
+            "feature_ko": "구독료 및 고정 지출 수동 입력 매니저",
+            "user_action_and_behavior_ko": "사용자가 자신이 이용하는 OTT, 클라우드 등 구독 서비스 이름과 월 결제일을 직접 입력하고 리스트로 관리합니다. 시스템은 총 지출액을 계산하여 대시보드 상단에 요약 표시합니다.",
+            "practical_implementation_ko": "Room DB를 이용한 CRUD(생성, 읽기, 수정, 삭제) 구조로 구독 항목 데이터를 관리하고, RecyclerView를 통해 리스트 형태로 깔끔하게 렌더링합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 대시보드 화면",
+            "contents_and_actions_ko": "모바일 데이터 사용량 그래프, 배터리 상태, 고정 구독 지출 요약 카드가 배치됩니다. 상단/하단 내비게이션 바를 통해 퀘스트 화면이나 구독 관리 화면으로 이동할 수 있습니다."
+          },
+          {
+            "screen_ko": "퀘스트 & 루틴 탭",
+            "contents_and_actions_ko": "오늘의 퀘스트 목록(출석체크, 데이터 절약 등)이 카드 형태로 표시되며, 터치 시 완료 애니메이션과 함께 포인트가 적립됩니다."
+          },
+          {
+            "screen_ko": "구독 및 리소스 설정 화면",
+            "contents_and_actions_ko": "사용자가 직접 고정 지출 항목을 추가/수정하고, 데이터 측정 주기나 알림 설정을 변경할 수 있습니다."
+          }
+        ],
+        "implementation_approach_ko": "Android 네이티브 환경(Kotlin + Jetpack Compose)을 채택합니다. 유틸리티 앱 특성상 OS의 하드웨어/네트워크 API와 밀접하게 연동되어야 하므로 크로스플랫폼보다 네이티브 접근이 안정적입니다. 로컬 기기 내에서 모든 데이터가 처리되므로 별도의 복잡한 백엔드 서버 구축 없이 Room DB와 SharedPreferences만으로 데이터 영속성을 완벽히 확보할 수 있습니다. 대안으로 Flutter를 고려할 수 있으나, Android 위젯 및 시스템 API(NetworkStatsManager) 연동의 세밀한 제어를 위해 Kotlin 네이티브 구현이 가장 유리합니다.",
+        "data_and_storage_ko": [
+          "ResourceLogEntity: 날짜, 모바일 데이터 사용량(bytes), Wi-Fi 사용량(bytes), 배터리 평균 수치를 저장하며, 대시보드 그래프 렌더링 시 조회합니다.",
+          "SubscriptionEntity: id, title, amount, billing_date를 포함하여 사용자가 직접 입력한 고정 지출 내역을 Room DB에 영구 저장합니다.",
+          "QuestStateEntity: quest_id, date, is_completed, reward_points를 기록하여 중복 참여를 방지하고 누적 포인트를 관리합니다.",
+          "앱 설정 데이터는 가벼운 상태 관리를 위해 SharedPreferences 또는 DataStore를 활용하여 세부 권한 허용 여부 등을 즉시 읽고 저장합니다."
+        ],
+        "mvp_scope_ko": "첫 번째 MVP는 1인 개발 현실성을 고려해 복잡한 외부 서버 연동이나 실시간 푸시 서버를 제외합니다. 핵심 기능인 ① Android OS API 기반 데이터/배터리 모니터링 대시보드, ② 홈 화면 기본 위젯 연동, ③ 로컬 Room 기반 구독료 수동 입력 및 퀘스트 출석 체크 기능까지만 구현합니다. 이 범위만으로도 사용자가 앱을 켜지 않고 위젯으로 상태를 보고, 앱 내에서 일상적인 지출 관리 및 가벼운 퀘스트를 즐기는 핵심 유틸리티 경험을 온전히 검증할 수 있습니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: OS 권한 및 로컬 리소스 측정 모듈 구현",
+            "deliverable_and_check_ko": "NetworkStatsManager와 BatteryManager를 통해 실제 기기의 데이터 사용량과 배터리 수치를 정상적으로 로그에 출력하는지 확인합니다. (실행 완료 주장 금지, 테스트 기기에서의 로그 확인 계획 수립)"
+          },
+          {
+            "stage_ko": "2단계: 대시보드 UI 및 Room DB 구독 관리 구현",
+            "deliverable_and_check_ko": "Jetpack Compose 기반의 메인 대시보드 화면을 구축하고, 구독료 추가/삭제 및 Room DB 저장/조회 기능이 정상 작동하는지 확인합니다."
+          },
+          {
+            "stage_ko": "3단계: 위젯 연동 및 퀘스트(출석체크) 시스템 결합",
+            "deliverable_and_check_ko": "AppWidgetProvider와 WorkManager를 구현하여 홈 화면 위젯에 데이터 잔량이 갱신되는지, 퀘스트 완료 시 포인트가 적립되는지 확인합니다."
+          }
+        ],
+        "possible_extensions_ko": "추후 서비스 확장을 위해 월별 데이터 사용량 통계 차트 고도화, 사용자가 설정한 데이터 한계 초과 시 로컬 푸시 알림 기능, 다크 모드 및 커스텀 위젯 테마 추가, 리워드 포인트로 앱 내 미니 게임이나 테마를 해제하는 상점 시스템 등을 검토할 수 있습니다. 단, 초기 MVP 단계에서는 절대 포함하지 않습니다.",
+        "risks_and_open_decisions_ko": [
+          "위험 요소: Android OS 버전(특히 Android 10 이상)에 따라 NetworkStatsManager 사용을 위해 별도의 사용자 권한(PACKAGE_USAGE_STATS) 승인이 까다로울 수 있음. 확인 방법: 설정 화면에서 권한 가이드 UI를 명확히 제공하고 권한 거부 시 대비 안내 문구 작성.",
+          "미확정 결정: 통신사별 요금제 자동 연동을 추후 API 스크래핑 방식으로 확장할지 여부. 현재 초안 단계에서는 프라이버시 및 구현 복잡성을 낮추기 위해 수동 입력 및 OS 네트워크 통계로 한정함.",
+          "설계 초안 상태: 본 문서는 실제 플레이테스트나 스토어 배포 전 작성된 개발 설계 초안이며, 기기 호환성 검증은 향후 프로토타입 빌드 테스트를 통해 확인해야 함."
+        ],
+        "draft_status_ko": "본 개발 설계 초안은 실제 제품 구현, 플레이테스트, 성능 측정이 완료되지 않은 상태에서 원본 앱의 핵심 경험을 범용 유틸리티 앱으로 발전시키기 위해 작성된 기획 및 기술 설계 문서입니다."
+      },
+      "plan_at": "2026-10-28T09:53:28+09:00",
+      "plan_quota_day": "2026-10-28",
+      "plan_usage": {
+        "promptTokenCount": 2294,
+        "candidatesTokenCount": 2348,
+        "totalTokenCount": 7909,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2294
+          }
+        ],
+        "thoughtsTokenCount": 3267,
+        "serviceTier": "standard"
+      }
     }
   }
 }

@@ -4410,6 +4410,91 @@
         ],
         "thoughtsTokenCount": 3229,
         "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.clea.mas.pro",
+        "product_kind": "app",
+        "selected_concept_title_ko": "디지털 미니멀리즘 스토리지 웰빙 (Mindful Storage)",
+        "project_goal_and_audience_ko": "스마트폰 저장 공간 부족과 만성적인 디지털 피로감을 동시에 느끼는 일반 대중 및 미니멀리즘 라이프스타일 추구 유저를 위한 앱입니다. 복잡하고 불안감을 자극하는 기존 클리너 앱의 틀을 벗어나, 사용자가 마음 편하게 기기를 정돈하고 디지털 웰빙을 달성하도록 유도하는 유틸리티 앱입니다.",
+        "source_relation_and_difference_ko": "원본 CleanMas가 제공하는 앱 저장소 점유율 분석, 대용량 파일 스캔, 배터리 및 리소스 진단이라는 핵심 기능적 흐름을 충실히 계승합니다. 차이점으로는, 기계적이고 차가운 공포 마케팅형 클리너 UI에서 탈피하여 '디지털 비움 지수'와 감성적인 카드 스와이프 인터페이스, 미니멀리즘 다이어리 리포트를 도입해 자발적이고 쾌적한 정리를 유도한다는 점입니다.",
+        "core_user_experience_ko": "사용자가 앱을 실행하면 메인 대시보드에서 현재 스마트폰의 '디지털 비움 지수(0~100점)'와 저장 공간 여유분을 감성적인 파스텔톤 게이지와 일러스트로 마주합니다. '정돈 시작하기'를 터치하면 온디맨드 스캔이 실행되어 3개월간 사용하지 않은 앱, 대용량 동영상, 임시 캐시 파일들이 카드 형태로 나열됩니다. 사용자는 카드를 좌우로 스와이프하여 비우기(삭제/언인스톨) 또는 보관(예외 처리)을 결정하고, 정리가 완료되면 상쾌한 피드백과 함께 '오늘의 디지털 다이어리'에 정돈 기록이 누적됩니다.",
+        "features_ko": [
+          {
+            "feature_ko": "디지털 비움 지수 대시보드",
+            "user_action_and_behavior_ko": "앱 실행 시 저장 공간 점유율, 장기 미사용 앱 비율 등을 종합하여 100점 만점의 '비움 지수'를 산출 및 시각화합니다. 사용자는 자신의 디지털 미니멀리즘 상태를 직관적으로 파악하고 정돈 동기를 얻습니다.",
+            "practical_implementation_ko": "StorageStatsManager 및 BatteryManager를 통해 저장소 및 배터리 통계를 조회하고, 단순 가중치 알고리즘으로 점수를 산출합니다. Jetpack Compose Canvas 또는 커스텀 컴포저블을 활용해 부드러운 게이지 UI를 구현합니다."
+          },
+          {
+            "feature_ko": "미니멀리즘 카드 스와이프 정리",
+            "user_action_and_behavior_ko": "스캔된 대용량 파일과 미사용 앱이 개별 '정돈 카드'로 표시됩니다. 사용자는 카드를 우측으로 밀어 비우거나, 좌측으로 밀어 보관하는 직관적인 제스처로 정리를 수행합니다.",
+            "practical_implementation_ko": "Android SAF(Storage Access Framework) 및 PackageInstaller API를 활용합니다. Jetpack Compose의 Modifier.pointerInput 또는 제스처 애니메이션을 활용해 스와이프 카드 UI 및 스냅 효과를 구현합니다."
+          },
+          {
+            "feature_ko": "디지털 웰빙 주간 리포트 및 아카이브",
+            "user_action_and_behavior_ko": "매주 정돈한 용량과 비움 지수 변화를 기록한 다이어리 형태의 리포트를 제공하여, 사용자가 자신의 디지털 정리 습관 변화를 돌아보고 성취감을 느낄 수 있습니다.",
+            "practical_implementation_ko": "Room DB를 활용해 주별 정리 통계(삭제 용량, 정리 횟수)를 로컬에 저장하고, 깔끔한 리스트 및 타임라인 형태로 렌더링합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "1. 메인 웰빙 대시보드 (Home Screen)",
+            "contents_and_actions_ko": "디지털 비움 지수 게이지, 저장 공간 상태 바, 배터리/네트워크 요약, '디지털 정돈 시작' 버튼. 터치 시 스캔 화면으로 이동."
+          },
+          {
+            "screen_ko": "2. 미니멀리즘 정돈 스캔 및 카드 피드 (Clean Feed Screen)",
+            "contents_and_actions_ko": "스캔 로딩 상태 표시 후, 미사용 앱 및 대용량 파일 카드가 카드 스택 형태로 등장. 카드 스와이프(비우기/보관) 조작 수행."
+          },
+          {
+            "screen_ko": "3. 디지털 다이어리 리포트 (Report Screen)",
+            "contents_and_actions_ko": "주간/월간 비움 기록, 아카이브된 파일 목록, 웰빙 성취 뱃지 확인 및 정리 습관 요약."
+          }
+        ],
+        "implementation_approach_ko": "안드로이드 네이티브 환경에서 Kotlin과 Jetpack Compose, Coroutines/Flow, Room DB를 조합하여 구현합니다. 1인 개발 환경에서 선언형 UI인 Jetpack Compose를 통해 복잡한 애니메이션과 감성적 카드 UI를 빠르고 안정적으로 구현할 수 있습니다. 무거운 백그라운드 서비스 상주 대신 사용자 요청 시점에만 작동하는 온디맨드 구조를 채택하여 배터리 소모와 시스템 권한 이슈를 최소화합니다.",
+        "data_and_storage_ko": [
+          "WellbeingRecordEntity: 날짜, 정돈된 용량(bytes), 비움 지수 점수를 저장하는 Room DB 테이블. 앱 실행 및 정리 완료 시점에 읽고 씀.",
+          "KeepListEntity: 사용자가 '보관'으로 스와이프하여 스캔 대상에서 제외할 파일 경로(Uri) 정보 저장. 향후 스캔 시 필터링에 활용.",
+          "SystemStatsCache: 앱 실행 직전 조회한 저장소 용량 및 배터리 잔량 데이터를 메모리 내에 일시 보관하여 UI 렌더링 속도 향상."
+        ],
+        "mvp_scope_ko": "첫 번째 프로토타입(MVP)에서는 복잡한 네트워크 트래픽 실시간 모니터링 및 주간 푸시 알림 자동화 기능을 제외합니다. 대신 1) 현재 저장 공간 대시보드 및 비움 지수 표시, 2) 대용량 파일 및 미사용 앱의 온디맨드 스캔 및 기본 카드 스와이프 정리, 3) 로컬 DB 기반의 간단한 정돈 기록 저장 기능에 집중합니다. 이를 통해 앱의 핵심 감성 가치와 필수 용량 확보 기능을 가장 빠르고 안정적으로 검증할 수 있습니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 기초 셋업 및 시스템 권한 핸들러 구현",
+            "deliverable_and_check_ko": "저장소 접근 권한(SAF) 및 UsageStats 권한 요청 플로우, 기본 대시보드 레이아웃 구축 후 에뮬레이터에서 정상 구동 및 권한 진입 확인."
+          },
+          {
+            "stage_ko": "2단계: 온디맨드 파일/앱 스캔 엔진 및 모델링",
+            "deliverable_and_check_ko": "StorageStatsManager 및 MediaStore를 통한 대용량 파일 및 미사용 앱 목록 추출 로직 구현, 로그를 통해 데이터 수집 정상 여부 확인."
+          },
+          {
+            "stage_ko": "3단계: 미니멀리즘 카드 스와이프 UI 및 정리 액션 구현",
+            "deliverable_and_check_ko": "Jetpack Compose 기반 카드 스와이프 인터페이스 구현, 삭제/보관 액션과 연동된 실제 파일 삭제 및 앱 관리 인텐트 연결 테스트."
+          },
+          {
+            "stage_ko": "4단계: 로컬 웰빙 다이어리 및 리포트 화면 연동",
+            "deliverable_and_check_ko": "Room DB를 통한 정리 기록 저장 및 메인 대시보드와 다이어리 화면 간 데이터 바인딩 확인."
+          }
+        ],
+        "possible_extensions_ko": "추후 확장 기능으로 맞춤형 디지털 디톡스 루틴 알림(예: '이번 주는 불필요한 사진이 많네요, 3분 정돈을 시작해보세요'), 앱별 상세 네트워크 트래픽 시각화 카드 추가, 클라우드 백업 연동 등을 고려할 수 있으나 MVP 안정화 이후 단계적으로 검토합니다.",
+        "risks_and_open_decisions_ko": [
+          "Android OS 버전(특히 Android 11 이상)별로 엄격해진 미디어 파일 접근 권한 및 Scoped Storage 정책으로 인해 전체 파일 스캔 범위에 제약이 있을 수 있으므로 SAF 표준 API를 철저히 준수해야 함.",
+          "감성적 웰빙 컨셉이 실질적인 용량 확보라는 도구 앱의 본질적 효용을 희석시키지 않는지, 실제 프로토타입 테스트를 통해 UI 직관성을 지속적으로 검증해야 함."
+        ],
+        "draft_status_ko": "본 문서는 '디지털 미니멀리즘 스토리지 웰빙' 앱 기획을 위한 모바일 개발 설계 초안이며, 실제 기기에서의 장기 플레이테스트나 스토어 배포 전 성능 최적화가 완료되지 않은 상태입니다."
+      },
+      "plan_at": "2026-10-28T09:47:33+09:00",
+      "plan_quota_day": "2026-10-28",
+      "plan_usage": {
+        "promptTokenCount": 2177,
+        "candidatesTokenCount": 2234,
+        "totalTokenCount": 7293,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2177
+          }
+        ],
+        "thoughtsTokenCount": 2882,
+        "serviceTier": "standard"
       }
     }
   }

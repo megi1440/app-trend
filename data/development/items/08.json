@@ -6460,6 +6460,183 @@
         "thoughtsTokenCount": 2814,
         "serviceTier": "standard"
       }
+    },
+    "google:com.clean.mix.junk": {
+      "app_key": "google:com.clean.mix.junk",
+      "name": "Mix Cleaner",
+      "developer": "Teslimat LLC",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.clean.mix.junk&hl=ja&gl=JP",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.clean.mix.junk",
+        "product_kind": "app",
+        "original_experience_ko": "Mix Cleaner는 스토어 설명과 AI 해석에 따르면 스마트폰의 불필요한 임시 파일과 잔여 데이터를 스캔해 제거하고, 설치된 앱의 용량 점유 상태를 파악하며, 대용량 파일(동영상, APK 등)을 탐색하여 기기 저장 공간을 확보하고 성능을 최적화하는 경량 유틸리티 앱의 경험을 제공합니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 사실: 파일 클리너(임시 파일, 잔여 데이터 검출), 앱 관리자(설치된 앱 및 용량 표시), 대용량 파일 자동 탐색 기능을 제공하며 100% 무료인 유틸리티 앱이다.",
+          "해석의 한계: 파일 삭제 로직의 안전성, OS별 최적화의 기술적 실효성, 그리고 외부 서비스 연동 여부는 스토어 설명문만으로는 검증할 수 없다."
+        ],
+        "valuable_elements_ko": [
+          "복잡한 설정 과정 없이 기기 용량을 압박하는 주범(대용량 파일, 앱 점유율)을 직관적으로 리스트업하여 보여주는 유틸리티 접근 방식.",
+          "가벼운 무게감으로 빠르게 디바이스 리소스를 스캔하고 정리를 유도하는 간결한 정보 구조."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "픽셀 정리사: 스크린샷 및 문서 스마트 클리너",
+            "core_idea_ko": "일반적인 정크 파일 대신 스마트폰 사용자들이 가장 많이 쌓아두지만 손대기 귀찮아하는 스크린샷, 화면 녹화본, 다운로드된 영수증 및 문서 파일만 골라 AI 메타데이터 분석으로 카테고리화하고 안전한 정리와 클라우드 백업을 유도하는 전문 미디어·문서 관리 앱.",
+            "what_to_keep_ko": "디바이스 내 파일을 스캔하고 불필요한 항목을 리스트업하여 사용자가 직관적으로 선택하고 삭제·관리할 수 있는 핵심 유틸리티 흐름을 계승합니다.",
+            "what_to_change_ko": "모든 정크 파일을 무차별 스캔하는 범용적 방식에서 벗어나, 이미지 및 문서의 메타데이터(내부 텍스트, 생성일, 해상도 등)를 분석하여 '쓸모없는 스크린샷'과 '보존할 자료'를 분별하고 백업을 제안하는 방식으로 변경합니다.",
+            "mobile_use_or_play_ko": "앱 실행 후 원터치 미디어 스캔 -> 스크린샷 폴더 내 중복 캡처본 및 30일 이상 지난 임시 이미지 목록 확인 -> 일괄 정리 또는 압축 보관 선택 -> 저장 공간 확보 완료 피드백 확인.",
+            "key_features_ko": [
+              "OCR 기반 스크린샷 내용 자동 분류 (영수증, 메모, 웹페이지 캡처 등)",
+              "기간 및 활용도 기반 미사용 스크린샷 및 문서 일괄 정리",
+              "삭제 전 중요 자료의 안전한 로컬/클라우드 백업 링크 제안"
+            ],
+            "solo_mvp_and_effort_ko": "Android MediaStore API를 활용해 이미지 파일 메타데이터를 읽고 리스트화하는 기본 기능 구현. 가벼운 온디바이스 필터링 로직을 결합하여 1인 개발자가 현실적으로 MVP를 구축할 수 있습니다.",
+            "strengths_limits_ko": "타겟 유저층과 니즈가 명확하여 실효성이 높으나, 대량의 이미지를 스캔할 때 발생할 수 있는 메모리 관리와 발열 최적화가 과제입니다."
+          },
+          {
+            "title_ko": "데브슈링크: 모바일 로컬 빌드 캐시 매니저",
+            "core_idea_ko": "모바일 환경에서 개발이나 테스트를 진행할 때 스마트폰 내부 저장소를 급격히 잠식하는 개발자 서브 디렉토리(Termux 환경, Git 리포지토리 캐시, 로컬 패키지 아카이브 등)를 집중적으로 찾아내어 안전하게 청소해주는 개발자 전용 유틸리티 앱.",
+            "what_to_keep_ko": "디바이스의 깊은 파일 시스템을 스캔하고 거대한 용량을 점유하는 숨겨진 항목을 찾아내어 확보하는 원본의 스캔-정리 루프를 계승합니다.",
+            "what_to_change_ko": "일반 스마트폰 사용자가 아닌 개발자를 타겟으로 설정하여, 일반 임시 파일 대신 개발 툴체인 캐시와 컴파일 부산물을 식별하고 삭제 안정성을 보장하도록 대상 파일을 완전히 개편합니다.",
+            "mobile_use_or_play_ko": "앱 진입 후 지정된 개발 샌드박스 및 터미널 환경 디렉토리 스캔 -> 빌드 캐시로 인한 거대한 점유 항목 확인 -> 안전하게 삭제 가능한 캐시 데이터만 선별하여 클린업 수행.",
+            "key_features_ko": [
+              "모바일 개발 환경 전용 캐시 및 임시 빌드 파일 탐색",
+              "디렉토리별 용량 점유율 트리맵 시각화",
+              "주기적 자동 백그라운드 캐시 청소 스케줄러"
+            ],
+            "solo_mvp_and_effort_ko": "앱 내부 샌드박스 영역 및 접근 가능한 범위 내의 파일 탐색 로직 구현. 안드로이드 범위 저장소 정책의 제약으로 인해 구현 범위에 기술적 한계와 타협이 필요합니다.",
+            "strengths_limits_ko": "모바일 개발자 층에서 강한 락인 효과를 낼 수 있으나, 최신 안드로이드 보안 정책상 외부 앱 디렉토리 접근이 제한된다는 치명적인 구조적 리스크가 있습니다."
+          },
+          {
+            "title_ko": "오디오·비디오 다이어트: 미디어 용량 최적화 공방",
+            "core_idea_ko": "스마트폰에 쌓인 대용량 동영상과 음성 파일들을 단순히 삭제하는 대신, 사용자가 원할 경우 용량을 대폭 줄이도록 인코딩 압축(비디오/오디오 트랜스코딩)을 거쳐 저장 공간을 스마트하게 확보해주는 미디어 최적화 도구.",
+            "what_to_keep_ko": "원본의 '대용량 파일 자동 감지' 및 '저장 공간 확보'라는 본질적 목표와 대용량 파일 리스트업 UI 경험을 계승합니다.",
+            "what_to_change_ko": "파일을 단순히 버리는(Delete) 기존 방식에서 화질이나 음질 손실을 최소화하면서 용량을 줄이는 압축·변환(Transcode) 기능을 메인으로 내세워 '자료를 살리는 정리' 경험으로 전환합니다.",
+            "mobile_use_or_play_ko": "앱 실행 후 대용량 비디오 파일 스캔 -> 압축 대상 선택 및 타겟 해상도 설정 -> 백그라운드 인코딩 수행 후 원본 대비 확보된 용량 확인 및 파일 대체.",
+            "key_features_ko": [
+              "FFmpeg 기반 모바일 하드웨어 가속 비디오/오디오 압축",
+              "변환 전후 용량 및 화질 비교 프리뷰",
+              "일괄 압축 및 원본 자동 백업/대체 모드"
+            ],
+            "solo_mvp_and_effort_ko": "FFmpeg-Android 라이브러리를 연동하여 비디오 트랜스코딩 파이프라인을 구축. CPU 부하와 인코딩 시간에 따른 백그라운드 서비스 및 알림 처리에 상당한 개발 공수가 소요됩니다.",
+            "strengths_limits_ko": "동영상과 음성 파일로 용량 부족을 겪는 사용자에게 높은 실효성을 주나, 모바일 기기에서의 인코딩 속도와 발열, 배터리 소모 문제가 큰 기술적 장벽입니다."
+          }
+        ],
+        "concept_comparison_ko": "세 아이디어 모두 Mix Cleaner의 '저장 공간 확보 및 파일 관리'라는 핵심 경험을 계승하되 타겟과 해결 방식을 차별화했습니다. 1번(픽셀 정리사)은 일반 대중을 대상으로 스크린샷과 문서라는 특정 미디어에 집중하여 실용성과 접근성이 높습니다. 2번(데브슈링크)은 모바일 개발자라는 니치 타겟을 공략하나 OS 보안 정책상 접근 제약이라는 허들이 있습니다. 3번(오디오·비디오 다이어트)은 단순 삭제를 넘어 인코딩 압축이라는 기술적 가치를 더했으나 CPU 부하와 처리 시간이 부담입니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "스마트폰 사용자 누구나 겪는 스크린샷과 불필요한 미디어 파일 범람 문제를 가장 직관적이고 안전하게 해결할 수 있어 원본 앱의 대중적 성격을 충실히 계승합니다. 모바일 OS의 저장소 접근 권한 정책 내에서 MediaStore API를 활용해 1인 개발자가 현실적으로 구현 가능한 MVP 범위를 설정할 수 있으며, 명확한 차별성과 사용자 효용을 제공합니다. 남는 불확실성은 이미지 처리 속도와 온디바이스 분석 정확도입니다.",
+        "next_questions_ko": [
+          "Android 최신 버전의 강화된 미디어 권한 정책 하에서 사용자가 원치 않는 이미지 스캔 범위를 어떻게 직관적으로 제한할 것인가?",
+          "온디바이스 메타데이터 분석 처리 시 발생할 수 있는 메모리 부족(OOM) 문제를 어떻게 방어할 것인가?",
+          "클라우드 백업 연동 시 사용자의 프라이버시 신뢰를 얻기 위해 로컬 우선 처리 구조를 어떻게 설계할 것인가?"
+        ]
+      },
+      "brief_at": "2026-10-28T09:48:27+09:00",
+      "brief_quota_day": "2026-10-28",
+      "brief_usage": {
+        "promptTokenCount": 1291,
+        "candidatesTokenCount": 2290,
+        "totalTokenCount": 6453,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1291
+          }
+        ],
+        "thoughtsTokenCount": 2872,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.clean.mix.junk",
+        "product_kind": "app",
+        "selected_concept_title_ko": "픽셀 정리사: 스크린샷 및 문서 스마트 클리너",
+        "project_goal_and_audience_ko": "스마트폰에 무분별하게 쌓이는 스크린샷, 화면 녹화본, 다운로드된 영수증 및 문서 파일로 인해 저장 공간이 부족하고 갤러리가 어지러운 일반 스마트폰 사용자(직장인, 학생 등)를 위한 전문 미디어·문서 관리 앱입니다. 사용자가 직관적으로 불필요한 미디어를 골라내고 안전하게 비워 여유 공간을 확보할 수 있도록 돕습니다.",
+        "source_relation_and_difference_ko": "원본의 핵심 경험인 '디바이스 내 파일을 스캔하고 불필요한 항목을 직관적으로 리스트업하여 정리를 유도하는 유틸리티 흐름'을 계승합니다. 차별점으로는 모든 정크 파일을 무차별 스캔하는 범용적 방식에서 벗어나, 갤러리 속 스크린샷과 문서 파일에 집중하여 메타데이터 기반의 스마트 분류와 백업 제안 기능을 결합한 점입니다.",
+        "core_user_experience_ko": "사용자가 앱을 실행하고 '미디어 스캔' 버튼을 누르면, 시스템이 지정된 폴더(스크린샷, 문서)를 스캔하여 30일 이상 지난 임시 이미지나 중복 캡처본을 카테고리별로 시각화합니다. 사용자는 카테고리별로 정돈된 리스트를 확인하고 불필요한 항목을 선택하여 일괄 정리 버튼을 누르면, 즉시 확보된 저장 공간 용량과 함께 깔끔해진 갤러리 상태를 피드백으로 확인합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "미디어 및 문서 타겟 스캔 엔진",
+            "user_action_and_behavior_ko": "앱 진입 후 스캔 시작 시, MediaStore API를 통해 기기 내 스크린샷 및 문서 폴더를 탐색하고 파일 메타데이터(크기, 생성일)를 수집하여 대시보드에 요약 표시합니다.",
+            "practical_implementation_ko": "Kotlin Coroutines를 활용한 비동기 쿼리 처리로 메인 스레드 차단 방지. `MediaStore.Images.Media` 및 `Files` API를 조합하여 필요한 디렉토리의 파일 정보만 빠르게 추출."
+          },
+          {
+            "feature_ko": "메타데이터 기반 스마트 분류",
+            "user_action_and_behavior_ko": "스캔된 파일들을 '기간 경과 스크린샷', '영수증 및 문서', '대용량 화면 녹화' 등의 카테고리로 자동 그룹화하여 사용자에게 명확한 정리 기준을 제공합니다.",
+            "practical_implementation_ko": "파일 이름 패턴, 생성일 기준 경과일 계산, 파일 용량 임계값을 적용한 온디바이스 필터링 로직 구현."
+          },
+          {
+            "feature_ko": "안전한 선택 삭제 및 백업 연동",
+            "user_action_and_behavior_ko": "정리할 항목을 체크 후 삭제를 실행하면, 삭제 확인 팝업 및 중요 자료 외부 링크 백업 제안을 거쳐 파일을 안전하게 삭제하고 확보 용량을 안내합니다.",
+            "practical_implementation_ko": "Android Scoped Storage 규격에 맞춘 `ContentResolver.delete()` 및 Android 10 이상에서 요구하는 `RecoverableSecurityException` 예외 처리 구현."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "홈 대시보드 화면",
+            "contents_and_actions_ko": "현재 기기 저장소 총 용량 및 스크린샷/문서 점유율 표시. '스마트 스캔 시작' 버튼 제공."
+          },
+          {
+            "screen_ko": "스캔 결과 및 분류 카테고리 화면",
+            "contents_and_actions_ko": "카테고리별 탭(오래된 스크린샷, 문서 등). 썸네일, 파일명, 용량, 날짜 정보 표시 및 다중 선택 체크박스 제공."
+          },
+          {
+            "screen_ko": "정리 완료 피드백 화면",
+            "contents_and_actions_ko": "'OO MB의 공간이 확보되었습니다' 애니메이션 피드백 및 홈 복귀 버튼 제공."
+          }
+        ],
+        "implementation_approach_ko": "Kotlin과 Jetpack Compose를 활용해 가볍고 반응성 높은 UI를 구축합니다. 비동기 스캔 작업은 Kotlin Coroutines로 처리하며, 대용량 이미지 썸네일 로딩 시 메모리 부족(OOM)을 방지하기 위해 Coil 라이브러리와 적절한 이미지 캐싱/다운스케일링을 적용합니다. 대안으로는 무거운 외부 AI 모델 대신 경량 온디바이스 규칙 기반 필터링을 채택하여 구현 복잡도를 낮춥니다.",
+        "data_and_storage_ko": [
+          "미디어 파일 객체 (`MediaFileItem`): `id`(Long), `uri`(Uri), `displayName`(String), `size`(Long), `dateAdded`(Long), `category`(Enum: SCREENSHOT, DOCUMENT, RECORDING).",
+          "별도의 무거운 로컬 DB(Room) 대신 MediaStore를 실시간 쿼리하여 메모리 상에서 리스트를 구성하고, 사용자가 삭제 명령을 내릴 때 ContentResolver를 통해 직접 파일 시스템에 반영합니다.",
+          "사용자 설정(예: 최근 스캔 일시, 필터 기준)은 Jetpack DataStore에 간단히 저장."
+        ],
+        "mvp_scope_ko": "MediaStore를 활용한 스크린샷 및 문서 폴더 스캔, 기간(30일 이상) 및 파일 크기 기준의 기본 분류, 다중 선택 및 개별 삭제 기능과 확보 용량 피드백까지의 핵심 흐름을 구현합니다. 복잡한 OCR 텍스트 인식, 자동 클라우드 백업 연동 등은 1인 개발 초기 MVP 범위에서 제외하여 개발 안정성을 확보합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 권한 및 기본 스캔 구현",
+            "deliverable_and_check_ko": "저장소 읽기 권한(`READ_MEDIA_IMAGES` 등) 처리 및 MediaStore 쿼리를 통해 스크린샷 파일 리스트를 로그로 확인."
+          },
+          {
+            "stage_ko": "2단계: UI 대시보드 및 카테고리 뷰어 구현",
+            "deliverable_and_check_ko": "Jetpack Compose로 홈 화면과 스캔 결과 리스트 화면을 구축하고, 썸네일 이미지 로딩 및 다중 선택 상태 관리 확인."
+          },
+          {
+            "stage_ko": "3단계: 파일 삭제 및 정화 로직 연동",
+            "deliverable_and_check_ko": "선택된 항목에 대해 ContentResolver를 통한 안전 삭제 처리 및 OS별 보안 예외 대응 구현 완료."
+          },
+          {
+            "stage_ko": "4단계: 예외 처리 및 피드백 UX 다듬기",
+            "deliverable_and_check_ko": "권한 거부 상태 안내, 빈 결과 화면 처리, 정리 완료 애니메이션 피드백 적용."
+          }
+        ],
+        "possible_extensions_ko": "추후 사용자가 지정한 폴더의 주기적 자동 스캔 및 알림 기능, 구글 드라이브나 원드라이브 원클릭 백업 링크 연동, 유사 이미지/중복 캡처 판별 알고리즘(PHash) 도입.",
+        "risks_and_open_decisions_ko": [
+          "Android 버전별(Android 10~14+) Scoped Storage 및 파일 삭제 권한 처리 정책의 차이로 인한 예외 상황 대응 방안 검토 필요.",
+          "대량의 스크린샷 이미지 썸네일 로딩 시 발생할 수 있는 메모리 누수 및 스크롤 버벅임 현상 방지를 위한 최적화 검증 필요."
+        ],
+        "draft_status_ko": "본 문서는 실제 구현, 기기 테스트, 성능 측정이 완료되지 않은 1인 모바일 개발 설계 초안입니다."
+      },
+      "plan_at": "2026-10-28T09:48:44+09:00",
+      "plan_quota_day": "2026-10-28",
+      "plan_usage": {
+        "promptTokenCount": 2067,
+        "candidatesTokenCount": 1927,
+        "totalTokenCount": 6569,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2067
+          }
+        ],
+        "thoughtsTokenCount": 2575,
+        "serviceTier": "standard"
+      }
     }
   }
 }
