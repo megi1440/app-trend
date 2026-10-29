@@ -7927,6 +7927,96 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-29"
+    },
+    "google:com.skincare.makeup.makeover.asmr.game": {
+      "app_key": "google:com.skincare.makeup.makeover.asmr.game",
+      "name": "Skincare ASMR: Makeover Game",
+      "developer": "CAT Studio",
+      "source": "google",
+      "country": "US",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.skincare.makeup.makeover.asmr.game&hl=en&gl=US",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:37:18+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Skincare ASMR: Makeover Game is a satisfying mix of skincare, makeup, and makeover mini-games where you transform everything step by step. Clean, fix, and transform everything from messy skin to perfect beauty looks, from simple touch-ups to full makeovers. Every mini-game is crafted to deliver that addictive “so satisfying” feeling with soft ASMR sounds, smooth visuals, and simple, antistress gameplay 💖 🎮 Game Features: 💆Skincare ASMR & Face Care 💕 Gently cleanse, remove pimples, and treat the skin with soft, relaxing steps—watch every little detail fade away as the face becomes smooth, fresh. 💄 Makeover ASMR & Makeup Studio ✨ Mix and match cute, fancy makeup styles—soft blush, glossy lipstick, sparkly eyeshadow, and dreamy lashes. Watch your character shine under the spotlight like a true star on the runway. 👁️ Eye & Brow Care🌸 Shape brows, remove unwanted hair, and perfect every tiny detail to make the eyes look bright, clean, and beautifully defined. 👂 Ear Cleaning ASMR 🧼 Use gentle tools to clean and tidy with satisfying motions. Then finish by adding cute, sparkling earrings to complete the look. 🦶 Foot Spa & Care 🌟 Enjoy a calming spa moment—wash, trim, and care for tired feet with soft, refreshing treatments. 🦵 Body Care & Waxing 🌷 Wax away unwanted hair, use laser to fade dark spots, and finish with nourishing lotion. And here’s why players keep coming back: 🌿 Super satisfying gameplay. 🎮 Easy to play – Just tap and enjoy, no learning curve. 🎧 Relaxing ASMR sounds. ⏱️ Quick mini-games – Perfect for short breaks anytime. 🎨 Soothing visuals – Clean, soft graphics that feel comfortable to watch Each level is short, simple, and designed to deliver the best satisfying ASMR feeling. Whether you enjoy skincare routines, makeup and makeover ASMR games, this experience keeps you relaxed and entertained ✨ Download Skincare ASMR: Makeover Game now and immerse yourself in one of the most addictive and relaxing ASMR beauty games you won't want to stop playing 😍",
+      "analysis": {
+        "app_key": "google:com.skincare.makeup.makeover.asmr.game",
+        "summary_ko": "스킨케어, 메이크업, 귀 청소 등 다양한 미용 과정을 체험하는 ASMR 시뮬레이션 게임입니다. 사용자는 각 단계별로 캐릭터의 피부를 관리하고 화장을 완성하며 만족감을 느낄 수 있습니다. 짧은 미니게임 형식으로 구성되어 있어 가볍게 즐기기 좋습니다.",
+        "features_ko": [
+          "피부 클렌징 및 여드름 제거 등 스킨케어 과정을 수행합니다.",
+          "다양한 메이크업 도구로 캐릭터의 화장을 완성합니다.",
+          "눈썹 정리 및 귀 청소 등 세밀한 미용 작업을 수행합니다.",
+          "발 관리 및 제모 등 신체 관리 미니게임을 제공합니다.",
+          "각 작업 시 ASMR 사운드와 부드러운 시각 효과를 제공합니다."
+        ],
+        "noteworthy_ko": "사용자의 촉각적 만족감을 시각과 청각으로 극대화하는 것이 핵심입니다. 1인 개발 시, 각 작업의 인터랙션 반응과 사운드 동기화가 사용자 경험의 질을 결정할 것으로 추정됩니다.",
+        "development_ko": "다양한 인터랙션 구현을 위한 터치 이벤트 처리가 중요합니다. ASMR 효과를 위한 고품질 사운드 에셋 확보와 시각적 피드백(파티클 등) 제작이 필요합니다. 콘텐츠 양이 많으므로 단계별 모듈화가 필수적입니다.",
+        "idea_ko": "특정 상황(예: 면접, 데이트)에 맞는 메이크업을 완성하는 미션 모드가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "간단한 탭 조작으로 누구나 쉽게 플레이할 수 있습니다.",
+          "짧은 플레이 타임으로 틈새 시간에 즐기기 적합합니다."
+        ],
+        "systems_ko": [
+          "터치 인터랙션 및 제스처 인식",
+          "사운드 매니저(ASMR 효과)",
+          "단계별 미니게임 상태 관리",
+          "캐릭터 커스터마이징 데이터",
+          "시각 효과(파티클) 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기술적으로는 어렵지 않으나, 다수의 미니게임을 구현해야 하므로 콘텐츠 제작 부담이 큽니다. 각 작업의 '만족감'을 살리는 연출력이 중요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 스킨케어 인터랙션",
+            "메이크업 도구 시스템",
+            "ASMR 사운드 재생 시스템"
+          ],
+          "defer": [
+            "복잡한 캐릭터 커스터마이징",
+            "다양한 신체 부위 관리"
+          ],
+          "risks": [
+            "콘텐츠 반복으로 인한 지루함",
+            "사운드와 터치 반응의 부조화"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "메이크업 미션",
+            "concept": "특정 상황에 맞는 메이크업을 제한된 도구로 완성하는 모드입니다. 상황별로 요구되는 스타일이 다릅니다.",
+            "first_step": "상황별 요구사항을 정의하고 메이크업 도구 세트를 구성합니다."
+          },
+          {
+            "title": "ASMR 힐링 룸",
+            "concept": "메이크업 외에 다양한 일상 소음을 활용한 힐링 공간을 제공합니다. 사용자가 직접 소리를 조합할 수 있습니다.",
+            "first_step": "다양한 환경음 에셋을 수집하고 믹싱하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "인터랙티브한 연출과 사운드 디자인의 중요성을 배우기에 좋습니다. 작은 단위의 미니게임을 완성해 나가는 성취감을 느끼고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 물리 엔진 사용 여부나 사운드 구현 방식이 명시되어 있지 않습니다. 외부 광고나 인앱 결제 기능은 확인되지 않았습니다.",
+        "name": "Skincare ASMR: Makeover Game",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.skincare.makeup.makeover.asmr.game&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
     }
   }
 }

@@ -6479,6 +6479,1077 @@
         "thoughtsTokenCount": 1771,
         "serviceTier": "standard"
       }
+    },
+    "google:com.funcraft.farkle": {
+      "app_key": "google:com.funcraft.farkle",
+      "name": "Farkle Dice Roll",
+      "developer": "FunCraft Games",
+      "source": "google",
+      "kind": "game",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.funcraft.farkle&hl=en&gl=US",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.funcraft.farkle",
+        "product_kind": "game",
+        "original_experience_ko": "Farkle Dice Roll은 전통적인 주사위 게임 '퍼클(Farkle/10,000)'의 규칙을 기반으로, 주사위를 굴려 특정 점수 조합을 맞추고 '점수를 확정(Bank)'할지 '더 큰 점수를 위해 다시 굴릴지(Risk/Roll again)' 결정하는 푸시-유어-럭(Push-your-luck) 심리전과 전략적 판단을 제공하는 PvP 보드 게임 경험을 선사합니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 소개문을 통해 PvP 대전, 여정 모드, 글로벌 리그, 업적 시스템이 존재하며 Zilch나 10,000 등으로 불리는 전통 클래식 주사위 규칙을 차용했음을 확인할 수 있습니다.",
+          "소개문만으로는 구체적인 주사위 점수 계산 표, 네트워킹 방식(실시간 소켓 통신 여부), 난수 생성 알고리즘의 세부 사항, 그리고 수익화 구조(인앱 결제 등)는 명확히 확인되지 않습니다.",
+          "원작을 직접 플레이한 것이 아니므로 실제 UX의 터치 반응 속도나 매칭 시스템의 공정성은 관측할 수 없는 해석의 영역입니다."
+        ],
+        "valuable_elements_ko": [
+          "주사위를 굴린 후 일부를 잠그고 나머지를 다시 굴릴지 결정하는 '푸시-유어-럭(Push-your-luck)' 메커니즘은 매 턴 강한 긴장감과 선택의 재미를 줍니다.",
+          "특정 주사위 조합(1, 5, 트리플 등)을 빠르게 파악하고 점수 효율을 계산하는 직관적인 규칙 구조는 모바일 환경에서 가볍고 빠르게 즐기기에 적합합니다."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "던전 앤 퍼클: 푸시 유어 럭 탐험",
+            "core_idea_ko": "전통적인 퍼클 주사위 푸시-유어-럭 규칙을 싱글플레이 로그라이크 던전 탐험 장르와 결합하여, 몬스터 조우 시 주사위를 굴려 공격 조합을 맞추고, 계속 굴려 대미지를 극대화할지 안전하게 턴을 종료하고 방어태세를 갖출지 선택하는 모바일 게임입니다.",
+            "what_to_keep_ko": "주사위 결과를 보고 점수(또는 공격력)를 확정할지 위험을 무릅쓰고 재도전할지 결정하는 핵심 심리전과 조합 규칙을 그대로 계승합니다.",
+            "what_to_change_ko": "단순 점수 누적 경쟁에서 벗어나, 매 턴 주사위 결과로 몬스터를 제압하고 장비나 스킬 특성을 해제하는 로그라이크 메타 진행 구조로 확장합니다.",
+            "mobile_use_or_play_ko": "던전 방에 입장하여 주사위 6개를 일괄 굴린 후, 유효한 공격 주사위를 터치해 슬롯에 고정하고, 남은 주사위로 추가 공격을 노릴지 '방어 태세(Bank)'로 안전하게 턴을 넘길지 결정하여 몬스터를 격파합니다.",
+            "key_features_ko": [
+              "로그라이크 주사위 조합 및 방어 태세 전환 시스템",
+              "리스크 테이킹에 따라 발동하는 특성 스킬 트리",
+              "다양한 패턴의 몬스터와 테마별 던전 구성"
+            ],
+            "solo_mvp_and_effort_ko": "네트워크 동기화가 불필요한 로컬 싱글플레이 기반으로, 3종의 던전 테마와 10종의 몬스터, 기본 UI를 1인 개발자가 Unity 또는 Godot 엔진으로 구현하기에 적합하며 난이도는 보통입니다.",
+            "strengths_limits_ko": "실시간 PvP 서버 구축 부담이 없어 1인 개발에 유리하지만, 싱글플레이 환경에서 로그라이크의 반복 플레이 재미를 유지할 메타 성장 요소 설계가 중요합니다."
+          },
+          {
+            "title_ko": "스페이스 세일러: 갤럭시 갬빗",
+            "core_idea_ko": "광활한 우주를 항해하며 자원을 싣고 목적지로 향하는 함선을 조종하는 게임으로, 주사위를 굴려 항해 속도를 올리거나 우주 해적 및 소행성 위험을 회피하는 비동기 경쟁 레이싱 게임입니다.",
+            "what_to_keep_ko": "욕심을 부려 더 큰 보상을 노리다 모든 것을 잃을 수 있는 극한의 리스크-리턴 선택 구조를 유지합니다.",
+            "what_to_change_ko": "정적이고 단조로운 턴제 점수판 대신, 우주 항해 경로 선택, 무역선 조우, 함선 부품 장착 등 동적인 이벤트 규칙을 결합합니다.",
+            "mobile_use_or_play_ko": "항해 세션 시작 시 주사위를 굴려 이동 거리를 산출하고, '항해 지속'으로 더 멀리 나아가 고득점 행성에 도달할지, 가까운 '우주 정거장(Bank)'에 도킹하여 화물을 안전하게 정산할지 터치로 선택합니다.",
+            "key_features_ko": [
+              "동적 항해 이벤트 및 리스크 변동 시스템",
+              "함선 부품 장착을 통한 주사위 확률 보정",
+              "비동기 고스트 레이싱 기반 글로벌 랭킹"
+            ],
+            "solo_mvp_and_effort_ko": "비동기 서버를 활용한 랭킹 시스템과 기본 함선 5종, 2D 탑뷰 항해 화면 구현으로 MVP를 달성할 수 있으며 난이도는 보통 이상입니다.",
+            "strengths_limits_ko": "매력적인 SF 테마와 수집 요소를 제공하지만, 비동기 경쟁에서 플레이어가 느끼는 상호작용의 체감과 밸런스 검증이 까다로울 수 있습니다."
+          },
+          {
+            "title_ko": "셰프의 하이볼 랭킹",
+            "core_idea_ko": "제한된 시간 안에 손님의 주문에 맞는 재료 주사위를 굴려 맞추고, 리스크를 감수하여 연쇄 주문(콤보)을 노리는 실시간 아케이드 요리 퍼즐 게임입니다.",
+            "what_to_keep_ko": "특정 조합 패턴을 완성해야 점수가 인정되는 규칙과, 한 번 더 주사위를 굴려 상위 레시피를 노릴지 결정하는 확률 판단 경험을 가져옵니다.",
+            "what_to_change_ko": "느긋한 턴제 보드게임 방식에서 벗어나, 타이머 압박 속에서 주사위를 잠그고 재굴림하는 실시간 아케이드 퍼즐 형태로 전면 개편합니다.",
+            "mobile_use_or_play_ko": "손님의 레시피 주문을 확인한 뒤 주사위를 일괄 굴리고, 조건에 맞는 주사위를 빠르게 탭하여 고정한 뒤, 남은 주사위로 추가 주문을 달성할지(리스크) 완성된 요리를 서빙(뱅크)할지 선택합니다.",
+            "key_features_ko": [
+              "시간 제한이 결합된 실시간 푸시-유어-럭 루프",
+              "레시피 조합 패턴 매칭 엔진",
+              "셰프 캐릭터 능력치 및 주방 업그레이드 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "단일 스테이지 모드와 아케이드 스코어링 시스템, 2D 스프라이트 리소스를 활용해 신속한 프로토타이핑이 가능하며 난이도는 보통입니다.",
+            "strengths_limits_ko": "직관적이고 캐주얼 유저에게 어필하기 좋으나, 액션성과 시간 제한이 더해지면서 원작의 깊이 있는 심리전이나 전략적 재미가 퇴색될 우려가 있습니다."
+          }
+        ],
+        "concept_comparison_ko": "아이디어 1(던전 앤 퍼클)은 싱글플레이 로그라이크 구조로 네트워크 개발 부담을 낮추면서 주사위 푸시-유어-럭의 심리전을 깊이 있게 확장합니다. 아이디어 2(스페이스 세일러)는 SF 테마와 비동기 레이싱을 결합해 수집과 성취감을 주나 밸런스 조정이 까다롭습니다. 아이디어 3(셰프의 하이볼 랭킹)은 실시간 아케이드로 속도감을 살렸으나 주사위 전략성이 타이머에 가려질 수 있습니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "원본의 가장 매력적인 요소인 '푸시-유어-럭(Push-your-luck)' 심리전과 자원 확보의 긴장감을 싱글플레이 로그라이크 던전 탐험 장르로 가장 충실히 이식하면서도, 1인 개발자가 실시간 PvP 네트워크 구축 부담 없이 높은 완성도의 게임 루프를 구현할 수 있기 때문입니다.",
+        "next_questions_ko": [
+          "로그라이크 던전에서 주사위 점수가 단순히 공격력으로 환산될 때, 플레이어가 지루함을 느끼지 않도록 제공할 특수 주사위나 아이템의 종류는 어떻게 구성할 것인가?",
+          "로컬 저장소(SQLite 등)를 활용해 던전 진행 상태와 캐릭터 메타 성장 데이터를 안정적으로 보존하기 위한 구체적인 데이터 스키마는 무엇인가?"
+        ]
+      },
+      "brief_at": "2026-10-30T07:15:19+09:00",
+      "brief_quota_day": "2026-10-30",
+      "brief_usage": {
+        "promptTokenCount": 1581,
+        "candidatesTokenCount": 2268,
+        "totalTokenCount": 6041,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1581
+          }
+        ],
+        "thoughtsTokenCount": 2192,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.funcraft.farkle",
+        "product_kind": "game",
+        "selected_concept_title_ko": "던전 앤 퍼클: 푸시 유어 럭 탐험",
+        "project_goal_and_audience_ko": "실시간 대전의 부담 없이, 전통적인 퍼클(Farkle) 주사위의 '푸시-유어-럭(Push-your-luck)' 심리전과 로그라이크 던전 탐험의 성취감을 동시에 즐기고 싶은 모바일 게이머를 위한 싱글플레이 게임입니다.",
+        "source_relation_and_difference_ko": "유지한 핵심 경험: 주사위 6개를 굴려 유효한 조합을 확보하고, 위험을 감수하며 추가로 굴릴지(푸시-유어-럭) 안전하게 점수/대미지를 확정할지(Bank) 결정하는 핵심 심리전. 새로운 개선 요소: 단순 점수 경쟁 PvP 구조를 탈피하여, 주사위 결과로 몬스터를 제압하는 턴제 던전 전투 시스템과 로그라이크 특성 해제 메타 구조로 확장.",
+        "core_user_experience_ko": "플레이어는 던전에서 조우한 몬스터를 상대로 주사위 6개를 굴립니다. 유효한 공격 주사위(예: 특정 눈금이나 트리플)를 터치해 고정하고, 남은 주사위로 추가 콤보 대미지를 노릴지, 아니면 '방어 태세(Bank)'로 현재까지의 대미지를 확정하고 몬스터의 반격을 방어할지 매 턴 선택합니다. 모든 주사위가 유효 조합을 만들지 못하면 '퍼클(Farkle)'이 발생하여 해당 턴 대미지가 무효화되고 피격당합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "주사위 푸시-유어-럭 전투 루프",
+            "user_action_and_behavior_ko": "사용자가 주사위를 굴리고 유효한 주사위를 선택해 고정하는 조작을 수행합니다. 시스템은 실시간으로 조합 유효성을 판정하고 누적 공격력을 계산하며, 확정 또는 실패(Farkle) 시의 상태 전환과 애니메이션을 출력합니다.",
+            "practical_implementation_ko": "Unity 또는 Godot 엔진에서 주사위 오브젝트 프리팹과 랜덤 번호 생성기(RNG), 조합 판정 알고리즘(배열 기반 눈금 카운트 검사)을 구현합니다."
+          },
+          {
+            "feature_ko": "로그라이크 특성 선택 시스템",
+            "user_action_and_behavior_ko": "던전의 특정 층이나 방을 클리어할 때마다 주사위 리롤(다시 굴리기) 횟수 증가, 특정 눈금 보너스 등 패시브 스킬 중 하나를 선택해 캐릭터를 강화합니다.",
+            "practical_implementation_ko": "특성 데이터를 정의하는 ScriptableObject 또는 JSON 리스트를 구축하고, 런타임에 플레이어 상태 객체에 모디파이어(Modifier) 형태로 적용합니다."
+          },
+          {
+            "feature_ko": "던전 층별 몬스터 조우 및 HP 관리",
+            "user_action_and_behavior_ko": "각 방마다 고유 체력과 공격 패턴을 가진 몬스터가 등장하며, 플레이어의 턴 결과에 따라 몬스터의 체력이 감소하고 반대로 방어에 실패하면 플레이어 체력이 깎입니다.",
+            "practical_implementation_ko": "몬스터 스탯(체력, 공격력) 관리 FSM(유한 상태 머신)과 UI 체력바 연동 모듈을 구현합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 로비 및 던전 선택 화면",
+            "contents_and_actions_ko": "던전 테마 선택, 보유 골드/재화 확인, '던전 탐험 시작' 버튼을 통한 전투 화면 진입."
+          },
+          {
+            "screen_ko": "던전 전투 화면",
+            "contents_and_actions_ko": "상단에 몬스터 정보 및 HP, 중앙에 주사위 6개 배치 영역, 하단에 현재 누적 대미지, '굴리기(Roll)', '방어 태세(Bank)' 버튼 표시. 주사위 탭 시 고정/해제 토글."
+          },
+          {
+            "screen_ko": "보상 및 특성 선택 팝업",
+            "contents_and_actions_ko": "몬스터 처치 시 나타나며 3가지 무작위 특성 중 하나를 선택해 다음 방으로 이동."
+          }
+        ],
+        "implementation_approach_ko": "2D/2.5D 인터페이스 구현과 빠른 터치 반응, 확률 계산 로직의 가독성을 고려하여 Unity(C#) 또는 Godot(GDScript/C#)을 채택합니다. 핵심 로직은 주사위 눈금 검증 함수와 전투 턴 매니저로 모듈화하여 UI와 데이터 처리를 분리합니다.",
+        "data_and_storage_ko": [
+          "플레이어 프로필 데이터 (해제된 특성 목록, 누적 골드, 최고 도달 층) - 로컬 JSON 파일 또는 SharedPreferences를 통해 세션 종료 시 및 방 클리어 시 자동 저장.",
+          "몬스터 스탯 및 던전 마스터 테이블 (Static JSON 데이터 구조로 관리하여 확장 용이성 확보)."
+        ],
+        "mvp_scope_ko": "네트워크 통신을 제외한 오프라인 싱글플레이 환경 구축. 1개의 던전 테마, 5종의 몬스터, 기본 퍼클 주사위 조합 규칙(1, 5 및 트리플)과 3종의 패시브 특성 선택 기능만 구현하여 '푸시-유어-럭' 심리전의 핵심 재미를 빠르게 검증합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 주사위 롤링 및 조합 판정 코어 구현",
+            "deliverable_and_check_ko": "주사위 6개를 무작위로 굴리고 특정 눈금을 선택해 고정하는 기본 로직과 퍼클(Farkle) 판정 함수 작성. 유닛 테스트를 통해 조합 판정이 정확한지 확인."
+          },
+          {
+            "stage_ko": "2단계: 전투 UI 및 턴 루프 연결",
+            "deliverable_and_check_ko": "전투 화면 UI 배치, 굴리기/뱅크(방어태세) 버튼 작동에 따른 대미지 누적 및 몬스터 HP 차감 흐름 구현. 프로토타입 실행을 통해 터치 조작감 확인."
+          },
+          {
+            "stage_ko": "3단계: 로그라이크 특성 및 던전 진행 구조 추가",
+            "deliverable_and_check_ko": "몬스터 처치 후 보상 팝업과 패시브 특성 선택 기능 결합, 연속된 방을 클리어하는 던전 흐름 완성."
+          }
+        ],
+        "possible_extensions_ko": "특수 주사위(예: 폭탄 주사위, 와일드 주사위), 직업별 고유 주사위 덱 시스템, 무한 심층 던전 모드, 일일 챌린지 랭킹.",
+        "risks_and_open_decisions_ko": [
+          "모바일 화면에서 주사위 조합 규칙이 너무 복잡하면 가독성과 피로도가 높아질 수 있으므로 초기 버전에서는 핵심 조합만 간소화하여 유지할 것.",
+          "싱글플레이 로그라이크 구조에서 반복 플레이의 지루함을 상쇄할 메타 성장 요소의 깊이를 추후 테스트를 통해 보완해야 함."
+        ],
+        "draft_status_ko": "본 문서는 '던전 앤 퍼클: 푸시 유어 럭 탐험' 기획을 바탕으로 작성된 모바일 게임 1인 개발 설계 초안이며, 실제 프로토타입 구현 및 플레이테스트를 통해 규칙 밸런스와 UI 반응성을 검증해야 합니다."
+      },
+      "plan_at": "2026-10-30T07:15:35+09:00",
+      "plan_quota_day": "2026-10-30",
+      "plan_usage": {
+        "promptTokenCount": 2347,
+        "candidatesTokenCount": 1902,
+        "totalTokenCount": 5932,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2347
+          }
+        ],
+        "thoughtsTokenCount": 1683,
+        "serviceTier": "standard"
+      }
+    },
+    "google:com.game.puzzle.arrows.easygo": {
+      "app_key": "google:com.game.puzzle.arrows.easygo",
+      "name": "Easy Go: Arrow Puzzle Games",
+      "developer": "Wood Puzzle Sudoku Games",
+      "source": "google",
+      "kind": "game",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.game.puzzle.arrows.easygo&hl=en&gl=US",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.game.puzzle.arrows.easygo",
+        "product_kind": "game",
+        "original_experience_ko": "원본 'Easy Go'는 그리드 위에서 화살표의 방향과 경로를 확인하고, 충돌을 피해 순서대로 밖으로 빼내는 미니멀 퍼즐 게임이다. 스토어 소개에 따르면 직관적인 탭 조작, 생명(Life) 및 힌트 시스템, 오프라인 플레이를 지원한다. 다만 스토어 텍스트와 AI 분석은 관측된 외형적 특징에 국한되며, 내부 레벨 구조나 구체적인 알고리즘은 직접 플레이를 통해 검증되지 않은 한계가 있다.",
+        "source_facts_and_limitations_ko": [
+          "확인된 사실: 그리드 기반의 화살표 탈출 퍼즐, 미니멀한 시각 디자인, 탭 중심의 단순 조작, 오프라인 지원, 힌트 및 생명 시스템.",
+          "미확인 사항 및 한계: 수천 개 레벨의 구체적인 제작 방식(수동 vs 절차적 생성), 힌트 알고리즘의 세부 동작, 유저 리텐션 데이터."
+        ],
+        "valuable_elements_ko": [
+          "직관적인 탭 조작: 복잡한 가상 패드 없이 터치 한 번으로 행동이 완료되어 모바일 환경에 최적화됨.",
+          "순서 계획의 재미: 엉킨 경로를 풀어가는 과정에서 오는 논리적 성취감과 미니멀한 UI가 주는 몰입감."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "Vector Flow: 회로 신호 탈출",
+            "core_idea_ko": "화살표 대신 전자 기판 위에서 얽혀 있는 전류 신호선들이 쇼트(충돌)를 피하며 올바른 순서와 타이밍에 단말까지 도달하도록 유도하는 논리 퍼즐 게임.",
+            "what_to_keep_ko": "그리드 기반의 배치 구조와 충돌을 피하며 순서대로 대상을 빼내는 핵심 퍼즐 메커니즘 계승.",
+            "what_to_change_ko": "단순한 정적 이동에서 벗어나 신호의 전파 방향과 타이밍 개념을 도입해 퍼즐의 전략적 깊이를 확장.",
+            "mobile_use_or_play_ko": "플레이어가 기판 위 회로 노드를 탭하여 신호를 발사하고, 다른 신호와 교차 충돌하지 않는 최적의 순서와 경로를 찾아 스테이지를 클리어한다.",
+            "key_features_ko": [
+              "신호 전파 타이밍을 제어하는 웨이브 시스템",
+              "쇼트 발생 시 피드백을 주는 시각/청각적 이펙트",
+              "오프라인에서도 가볍게 즐길 수 있는 스테이지 기반 구조"
+            ],
+            "solo_mvp_and_effort_ko": "2D 그리드 렌더링과 기본 충돌 판정 알고리즘만으로 구현 가능하여 1인 개발에 적합하나, 타이밍 판정 로직 구현에 추가 공수가 듦.",
+            "strengths_limits_ko": "장점은 직관적이면서도 기계적 테마로 몰입감을 높인 점이며, 약점은 타이밍 요소가 들어가면 원본의 '느긋한' 매력이 반감될 수 있음."
+          },
+          {
+            "title_ko": "Tangle Transit: 도심 버스 출고 대작전",
+            "core_idea_ko": "차고지 내에 복잡하게 얽힌 버스 노선과 차량들을 순서대로 출고시켜 교통 정체를 해소하는 물류·퍼즐 결합 게임.",
+            "what_to_keep_ko": "배치된 객체들이 서로의 진로를 막는 구조와 순서 계획의 재미를 유지.",
+            "what_to_change_ko": "단순한 단방향 화살표를 넘어 차량의 길이(칸 수)와 전/후진 제약이라는 물리적 공간 제약 요소를 결합.",
+            "mobile_use_or_play_ko": "사용자가 출고 대기 중인 버스를 터치하여 장애물을 피해 차고지 밖으로 안전하게 빠져나오도록 유도하고 모든 차량을 내보내면 클리어.",
+            "key_features_ko": [
+              "차량 길이에 따른 공간 점유 제약 시스템",
+              "단계별로 확장되는 차고지 및 장애물 요소",
+              "스트레스 없는 재도전 및 힌트 연계"
+            ],
+            "solo_mvp_and_effort_ko": "기본 2D 스프라이트와 격자 이동 로직으로 구현 가능하여 1인 개발 난이도는 낮으나, 차량 회전 등 추가 애니메이션 작업 필요.",
+            "strengths_limits_ko": "장점은 대중적인 테마로 친숙함이 높다는 것이며, 약점은 기존 슬라이드 퍼즐류와의 차별성이 명확하지 않을 수 있음."
+          },
+          {
+            "title_ko": "Chrono Arrow: 시간 역행 탈출",
+            "core_idea_ko": "화살표들이 동시에 움직이며 충돌하는 상황에서, 플레이어가 시간 축을 자유롭게 되감기(Rewind)하며 충돌 없는 완벽한 탈출 경로를 역산해 완성하는 퍼즐 게임.",
+            "what_to_keep_ko": "화살표 탈출이라는 원본의 시각적 정체성과 충돌 회피라는 퍼즐 규칙 계승.",
+            "what_to_change_ko": "틀렸을 때 생명을 잃고 끝나는 단점을 없애고, '시간 역행'을 메인 조작으로 삼아 시행착오 자체를 즐겁게 만드는 구조로 변경.",
+            "mobile_use_or_play_ko": "화살표들을 이동시킨 후 충돌이 발생하면 슬라이더를 당겨 시간을 되감고, 다른 경로를 선택해 충돌을 회피하는 방식으로 퍼즐을 완성한다.",
+            "key_features_ko": [
+              "상태 스냅샷 기반의 자유로운 시간 역행/재생 시스템",
+              "동시 다발적 이동에 따른 전략적 퍼즐 설계",
+              "실패의 스트레스를 최소화한 직관적 피드백"
+            ],
+            "solo_mvp_and_effort_ko": "상태 저장(State Stack) 구조 구현이 필요하여 일반 퍼즐보다 개발 공수가 다소 높지만, 1인 개발 범위 내에서 충분히 구현 가능.",
+            "strengths_limits_ko": "장점은 기존 퍼즐의 단순 반복 스트레스를 해소하고 독창적 재미를 제공한다는 점이며, 약점은 역행 상태 관리로 인한 메모리 및 디버깅 부담임."
+          }
+        ],
+        "concept_comparison_ko": "세 아이디어 모두 원본의 '그리드 기반 객체 탈출'이라는 뼈대를 공유하지만, 1안(Vector Flow)은 타이밍과 흐름을, 2안(Tangle Transit)은 공간 제약과 테마를, 3안(Chrono Arrow)은 시간 조작이라는 메커니즘을 더해 차별화를 꾀했다. 1안은 자칫 원본의 편안함을 해칠 수 있고, 2안은 흔한 소재일 수 있는 반면, 3안은 원본의 핵심 규칙을 유지하면서도 실패 경험을 능동적 플레이로 전환하는 강점이 있다.",
+        "recommended_concept_number": 3,
+        "why_recommended_ko": "3번 'Chrono Arrow'는 원본의 화살표 탈출 및 순서 계획이라는 재미를 충실히 계승하면서도, '생명 차감'이라는 단순한 제재 대신 '시간 역행'이라는 인터랙션을 추가해 퍼즐의 깊이와 몰입감을 한 차원 높였다. 모바일 환경에서 터치와 슬라이더 조작으로 구현하기 적합하며, 1인 개발 시 차별화된 완성도를 확보하기 가장 유리하다.",
+        "next_questions_ko": [
+          "시간 역행 기능을 구현할 때 객체 상태 스택 관리가 모바일 기기의 메모리에 미치는 영향은 어느 정도인가?",
+          "플레이어가 역행 구간을 쉽게 파악할 수 있는 직관적인 UI/UX 슬라이더 디자인은 어떻게 구성할 것인가?"
+        ]
+      },
+      "brief_at": "2026-10-30T07:27:05+09:00",
+      "brief_quota_day": "2026-10-30",
+      "brief_usage": {
+        "promptTokenCount": 1592,
+        "candidatesTokenCount": 1950,
+        "totalTokenCount": 4890,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1592
+          }
+        ],
+        "thoughtsTokenCount": 1348,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.game.puzzle.arrows.easygo",
+        "product_kind": "game",
+        "selected_concept_title_ko": "Chrono Arrow: 시간 역행 탈출",
+        "project_goal_and_audience_ko": "본 게임은 원작의 미니멀한 화살표 퍼즐 경험을 계승하면서, '생명 차감' 방식의 스트레스를 없애고 '시간 역행(Rewind)' 조작을 핵심 재미로 결합한 모바일 퍼즐 게임입니다. 짧은 휴식 시간에 가볍게 두뇌를 쓰면서도, 실수를 두려워하지 않고 마음껏 시행착오를 즐기며 몰입하고 싶은 퍼즐 게이머층을 타겟으로 합니다.",
+        "source_relation_and_difference_ko": "원본의 시각적 정체성인 그리드 기반 화살표 탈출 규칙과 미니멀한 디자인을 그대로 계승합니다. 차별점으로는, 원본이 틀렸을 때 생명을 잃고 처음부터 다시 시작해야 하는 긴장감을 주었다면, 본 기획은 플레이어가 언제든 자유롭게 시간을 되감아 직전 상태로 돌아가 다른 경로를 모색할 수 있는 '타임라인 역행 시스템'을 도입하여 퍼즐 풀이의 쾌감과 탐구 성취도를 극대화했습니다.",
+        "core_user_experience_ko": "플레이어는 그리드 위에 배치된 화살표들을 터치하여 탈출 방향으로 이동시킵니다. 여러 화살표가 동시에 움직이다가 경로가 겹쳐 충돌이 발생하면 움직임이 멈추고 충돌 이펙트가 발생합니다. 이때 플레이어는 화면 하단의 타임라인 슬라이더를 좌우로 드래그하여 원하는 시점으로 즉시 시간을 되감고, 충돌 원인이 된 화살표의 이동 순서를 바꾸거나 다른 화살표를 먼저 탈출시키는 방식으로 퍼즐을 완성합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "타임라인 스냅샷 및 자유 역행 시스템",
+            "user_action_and_behavior_ko": "화살표가 이동할 때마다 시스템이 매 틱(Tick)마다의 위치와 상태를 메모리 스택에 기록합니다. 충돌이나 막힘 발생 시 슬라이더나 버튼 조작으로 원하는 턴 수만큼 과거로 돌아가 재시도할 수 있어 시행착오의 스트레스가 해소됩니다.",
+            "practical_implementation_ko": "매 이동 시점마다 모든 화살표의 (ID, X, Y, 방향, 상태)를 담은 구조체를 리스트나 스택(History Stack)에 저장하는 가벼운 인메모리 직렬화 구조로 구현합니다."
+          },
+          {
+            "feature_ko": "동시 다발적 화살표 이동 및 충돌 판정 모듈",
+            "user_action_and_behavior_ko": "플레이어가 지정한 순서 혹은 연쇄 반응에 따라 화살표들이 그리드 외부로 이동하거나 빈 공간을 가로지릅니다. 두 개 이상의 화살표가 같은 좌표 영역을 동시에 점유하려 할 때 즉시 충돌 이벤트를 발생시킵니다.",
+            "practical_implementation_ko": "2D 그리드 좌표계(2차원 배열 또는 벡터 딕셔너리)를 기반으로 각 화살표의 이동 경로(Raycast 또는 Path Grid)를 계산하고 교차 여부를 판정합니다."
+          },
+          {
+            "feature_ko": "미니멀리스트 타임라인 UI & 햅틱 피드백",
+            "user_action_and_behavior_ko": "복잡한 UI 요소를 배제하고 게임판과 하단의 타임라인 슬라이더만 노출하여 시각적 몰입도를 높입니다. 시간을 되감을 때 미세한 진동(Haptic)과 사운드 피드백을 제공합니다.",
+            "practical_implementation_ko": "Unity UI 또는 Godot Control 노드를 활용해 가볍고 직관적인 슬라이더 바를 구현하고, 플랫폼 기본 진동 API를 연동합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "레벨 선택 맵 화면",
+            "contents_and_actions_ko": "클리어한 스테이지와 다음 도전 스테이지 목록을 미니멀한 그리드 형태로 표시. 스테이지 선택 시 플레이 화면으로 즉시 전환."
+          },
+          {
+            "screen_ko": "퍼즐 플레이 및 타임라인 화면",
+            "contents_and_actions_ko": "중앙에 화살표 그리드 배치, 상단에 재시작/힌트 버튼, 하단에 시간 역행 슬라이더 표시. 화살표 탭 시 이동, 슬라이더 조작 시 시간 되감기 실행."
+          },
+          {
+            "screen_ko": "클리어 성공 화면",
+            "contents_and_actions_ko": "퍼즐 완료 시 축하 연출과 함께 최적 역행 횟수 요약 표시 후 다음 스테이지로 이동 버튼 제공."
+          }
+        ],
+        "implementation_approach_ko": "크로스플랫폼 2D 개발에 적합한 엔진(예: Unity 또는 Godot)을 채택하여 모바일 터치 입력과 2D 렌더링 최적화를 도모합니다. 핵심 로직은 객체 지향적인 화살표 에이전트와 전체 타임라인을 관리하는 매니저 싱글톤 구조로 분리하며, 상태 스택의 메모리 누수를 막기 위해 최근 N개 스냅샷만 유지하는 순환 버퍼(Circular Buffer) 대안을 검토합니다.",
+        "data_and_storage_ko": [
+          "레벨 데이터(Level JSON): 그리드 가로/세로 크기, 각 화살표의 고유 ID, 초기 좌표 및 향하는 방향 정보.",
+          "플레이어 진행도 데이터(Local Save): 플레이어가 클리어한 최고 스테이지 번호 및 각 스테이지별 최소 역행 기록.",
+          "런타임 상태 버퍼(Runtime State Stack): 현재 스테이지 내에서 플레이어가 조작한 모든 턴의 화살표 위치 스냅샷 배열."
+        ],
+        "mvp_scope_ko": "기본 2D 그리드 렌더링, 화살표 터치 이동, 충돌 감지 로직, 그리고 최근 10개 행동까지 되돌릴 수 있는 기본 타임라인 역행 기능이 포함된 10개의 핵심 스테이지 프로토타입 구현에 집중합니다. 화려한 파티클 이펙트나 복잡한 스테이지 에디터는 MVP 단계에서 제외합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 코어 그리드 및 화살표 이동 구현",
+            "deliverable_and_check_ko": "2D 그리드 위에서 화살표가 터치에 반응해 지정된 방향으로 한 칸씩 이동하는지 로컬 에디터에서 확인."
+          },
+          {
+            "stage_ko": "2단계: 충돌 판정 및 정지 로직 추가",
+            "deliverable_and_check_ko": "화살표끼리 이동 경로가 겹칠 때 충돌 상태로 진입하고 움직임이 멈추는 규칙이 올바르게 작동하는지 검증."
+          },
+          {
+            "stage_ko": "3단계: 타임라인 스택 및 역행 슬라이더 연동",
+            "deliverable_and_check_ko": "이동할 때마다 상태가 기록되고, 하단 슬라이더를 당겼을 때 과거 화살표 위치로 정확히 복원되는지 테스트."
+          },
+          {
+            "stage_ko": "4단계: 레벨 로더 및 UI 다듬기",
+            "deliverable_and_check_ko": "JSON 기반 스테이지 파싱 기능과 클리어 화면을 붙여 안드로이드 빌드 후 터치 조작감 확인."
+          }
+        ],
+        "possible_extensions_ko": "시간 역행 횟수를 제한하여 점수를 매기는 '챌린지 모드', 특정 턴에만 열리거나 닫히는 '타임 게이트' 기믹, 플레이어가 직접 스테이지를 만들어 공유하는 커뮤니티 레벨 기능.",
+        "risks_and_open_decisions_ko": [
+          "복잡한 다중 화살표 이동 시 스냅샷 데이터 크기 증가로 인한 모바일 메모리 부담 여부 확인 필요.",
+          "슬라이더 드래그 조작과 단발성 탭 조작 간의 입력 충돌(Gesture Conflict)을 방지하기 위한 UI 터치 영역 최적화 결정 과제."
+        ],
+        "draft_status_ko": "본 문서는 실제 구현 및 플레이테스트/성능 측정이 완료되지 않은 모바일 개발 설계 초안입니다."
+      },
+      "plan_at": "2026-10-30T07:27:22+09:00",
+      "plan_quota_day": "2026-10-30",
+      "plan_usage": {
+        "promptTokenCount": 2221,
+        "candidatesTokenCount": 2032,
+        "totalTokenCount": 6084,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2221
+          }
+        ],
+        "thoughtsTokenCount": 1831,
+        "serviceTier": "standard"
+      }
+    },
+    "apple:373493387": {
+      "app_key": "apple:373493387",
+      "name": "AnkiMobile Flashcards",
+      "developer": "Anki Software, LLC",
+      "source": "apple",
+      "kind": "app",
+      "detail_url": "https://apps.apple.com/kr/app/ankimobile-flashcards/id373493387",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:373493387",
+        "product_kind": "app",
+        "original_experience_ko": "간격 반복 알고리즘(SM2, FSRS)을 활용하여 사용자의 망각 주기에 맞춰 학습 카드를 노출하고, 대규모 덱을 효율적으로 암기하는 장기 기억 최적화 학습 앱 경험.",
+        "source_facts_and_limitations_ko": [
+          "사실: PC 버전과 연동되는 동기화 기능, SM2 및 FSRS 스케줄링 알고리즘 적용, 오프라인 미디어 재생 지원, 제스처 기반 인터페이스, 수학 수식(MathJax) 렌더링 기능을 제공함.",
+          "한계: 스토어 소개문만으로는 내부 데이터베이스 스키마나 동기화 프로토콜의 구체적인 구현 방식을 알 수 없으며, 정교한 카드 템플릿 편집 기능이 PC 소프트웨어에 의존함."
+        ],
+        "valuable_elements_ko": [
+          "기억 정착을 최적화하는 간격 반복 알고리즘(SM2/FSRS): 사용자가 잊어버릴 시점에 정확히 카드를 재노출하여 학습 효율을 극대화함.",
+          "오프라인 우선(Offline-first) 로컬 데이터 구조: 네트워크 연결이 없는 환경에서도 로컬 미디어와 덱을 끊김 없이 학습할 수 있음.",
+          "학습 효율을 높이는 미니멀 제스처 인터페이스: 탭과 스와이프만으로 빠르게 암기 여부를 판정하고 다음 카드로 넘어가는 몰입형 흐름."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "포커스노트: 틈새학습 타이머",
+            "core_idea_ko": "Anki의 강력한 간격 반복 암기 엔진을 계승하되, 수동 카드 작성의 높은 진입 장벽을 낮추기 위해 일상적인 스크랩(웹 기사, 음성 메모)을 AI가 자동으로 Q&A 플래시카드로 변환하고 일상 루틴(출퇴근, 휴식 시간)에 맞춰 푸시 알림으로 학습을 유도하는 앱.",
+            "what_to_keep_ko": "망각 곡선에 기반한 SM2/FSRS 스케줄링 알고리즘과 오프라인 중심의 빠른 스와이프 복습 인터페이스.",
+            "what_to_change_ko": "사용자가 직접 카드를 입력하는 방식을 탈피하고, 외부 텍스트 공유 및 AI 요약을 통한 자동 카드 생성 기능과 사용자의 시간대별 루틴 맞춤형 푸시 트리거 도입.",
+            "mobile_use_or_play_ko": "사용자가 웹 브라우저에서 읽은 기사를 앱으로 공유 -> AI가 핵심 문장을 추출해 '빈칸 채우기' 카드로 자동 생성 -> 사용자가 설정한 '출근길' 루틴 시간에 맞춰 푸시 알림 수신 -> 알림을 눌러 1분간 스와이프하며 카드 복습 완료.",
+            "key_features_ko": [
+              "AI 기반 텍스트 자동 Q&A 카드 변환기",
+              "사용자 일상 루틴 기반 맞춤형 푸시 스케줄러",
+              "빠른 판정이 가능한 제스처 기반 미니멀 복습 뷰어"
+            ],
+            "solo_mvp_and_effort_ko": "로컬 SQLite와 AI 텍스트 추출 API(외부 연동)를 결합한 최소 기능 구현. 안드로이드 WorkManager를 이용한 로컬 푸시 제어가 핵심이며, 1인 개발 시 UI 복잡도를 낮추면 3~4주 내 MVP 제작 가능.",
+            "strengths_limits_ko": "장점: 카드 제작의 귀찮음을 없애 사용자 이탈을 크게 줄임. 약점: AI가 생성한 카드 품질에 대한 검증 필요성 및 외부 API 비용 발생 가능성."
+          },
+          {
+            "title_ko": "소셜덱: 릴레이 암기노트",
+            "core_idea_ko": "기존의 폐쇄적이고 개인적인 플래시카드 학습을 집단 지성 기반의 협업 플랫폼으로 확장하여, 특정 전문 분야(자격증, 언어 등)의 학습 덱을 커뮤니티 사용자들이 함께 만들고 검증하며 공유하는 소셜 학습 앱.",
+            "what_to_keep_ko": "개별 카드의 암기 상태를 추적하는 간격 반복 학습 엔진과 체계적인 태그/검색 시스템.",
+            "what_to_change_ko": "나 혼자 만드는 카드 덱에서 벗어나 실시간 클라우드 기반 덱 버전 관리, 사용자 간 카드 수정 제안, 커뮤니티 투표 및 평판 시스템 결합.",
+            "mobile_use_or_play_ko": "사용자가 커뮤니티 공개 덱을 다운로드하여 학습 중 오류나 개선점을 발견 -> 카드 수정 제안 제출 -> 원작자 또는 커뮤니티 승인 시 전체 사용자 덱에 반영되어 함께 최적화됨.",
+            "key_features_ko": [
+              "클라우드 기반 공동 덱 편집 및 버전 관리",
+              "카드 단위 피드백 및 커뮤니티 검증 시스템",
+              "공동 학습 진척도 및 랭킹 통계 대시보드"
+            ],
+            "solo_mvp_and_effort_ko": "Firebase 또는 Supabase를 백엔드로 활용하여 실시간 동기화 및 덱 공유 기능을 구현. 백엔드 구조 설계와 동시성 제어 로직이 필요하여 1인 개발 시 다소 높은 공수(약 6~8주) 소요.",
+            "strengths_limits_ko": "장점: 양질의 학습 콘텐츠가 자연스럽게 유입되는 네트워크 효과 기대. 약점: 초기 사용자 부족 시 콘텐츠 활성화가 어렵고 허위 정보 필터링 관리 부담 존재."
+          },
+          {
+            "title_ko": "코드스냅: 개발자 알고리즘 스냅샷",
+            "core_idea_ko": "어학이나 인문 지식이 아닌 소프트웨어 엔지니어를 타겟으로 삼아, 자주 까먹는 소스코드 스니펫, SQL 쿼리, 아키텍처 패턴을 구문 강조(Syntax Highlighting) 기능과 빈칸 채우기 방식으로 암기하게 돕는 개발자 특화 플래시카드 앱.",
+            "what_to_keep_ko": "핵심 기억 보존을 위한 간격 반복 스케줄링 로직과 오프라인에서 즉시 실행 가능한 카드 복습 인터페이스.",
+            "what_to_change_ko": "일반 텍스트 카드 포맷을 프로그래밍 코드에 최적화된 마크다운/구문 강조 뷰어로 대체하고, 코드의 핵심 키워드를 블라인드 처리하는 클로즈 디리션(Cloze Deletion) 자동화 규칙 적용.",
+            "mobile_use_or_play_ko": "사용자가 자주 잊는 정규식이나 SQL 문법을 앱에 입력 -> 앱이 주요 키워드를 자동으로 숨김 처리(빈칸) -> 모바일 알림을 통해 틈틈이 코드를 타이핑하거나 탭하여 빈칸을 맞추며 복습.",
+            "key_features_ko": [
+              "프로그래밍 언어별 구문 강조 및 코드 에디터 뷰어",
+              "코드 스니펫 전용 빈칸 채우기(Cloze) 자동화",
+              "JSON/Markdown 파일 기반 로컬 백업 및 임포트"
+            ],
+            "solo_mvp_and_effort_ko": "WebView 또는 가벼운 모바일 코드 뷰어 라이브러리를 활용한 UI 구현과 로컬 DB 결합. 복잡한 서버 없이 로컬 파일 중심이라 1인 개발 난이도가 비교적 낮음(약 3~4주).",
+            "strengths_limits_ko": "장점: 개발자라는 명확한 타겟층과 강력한 실무 유용성. 약점: 모바일 화면의 물리적 제약으로 인해 긴 코드를 읽고 복습하기에는 UX가 다소 답답할 수 있음."
+          }
+        ],
+        "concept_comparison_ko": "아이디어 1(포커스노트)은 '카드 생성의 귀찮음'이라는 본질적 허들을 AI 자동화로 해결해 범용적 접근성이 높고, 아이디어 2(소셜덱)는 커뮤니티 협업을 통해 콘텐츠 확장성이 크나 백엔드 부담이 큼. 아이디어 3(코드스냅)은 개발자라는 뚜렷한 타겟에게 높은 실효성을 주지만 모바일 코드 가독성이라는 한계가 있음. 전반적으로 개인 사용자의 진입 장벽을 낮추는 방향이 가장 실현 가능성이 높음.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "Anki류 앱의 가장 큰 이탈 원인은 '학습할 카드를 직접 만드는 과정의 번거로움'에 있습니다. 첫 번째 기획(포커스노트)은 AI 자동 생성과 루틴 푸시를 결합하여 이 핵심 장벽을 정면으로 해결하면서도, 원작의 강력한 SM2/FSRS 간격 반복 알고리즘과 오프라인 복습 흐름을 그대로 계승합니다. 1인 개발자가 서버 비용과 복잡도를 낮추면서도 뚜렷한 차별점을 확보할 수 있는 가장 현실적이고 매력적인 안입니다.",
+        "next_questions_ko": [
+          "AI가 외부 텍스트에서 추출한 Q&A 카드가 사용자의 학습 목적에 맞게 충분히 정제되도록 프롬프트를 어떻게 최적화할 것인가?",
+          "안드로이드 환경에서 배터리 소모를 최소화하면서 사용자 루틴 시간에 정확히 푸시 알림을 전달하기 위한 최적의 백그라운드 작업 관리 방식은 무엇인가?"
+        ]
+      },
+      "brief_at": "2026-10-30T07:27:41+09:00",
+      "brief_quota_day": "2026-10-30",
+      "brief_usage": {
+        "promptTokenCount": 1962,
+        "candidatesTokenCount": 2276,
+        "totalTokenCount": 6178,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1962
+          }
+        ],
+        "thoughtsTokenCount": 1940,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:373493387",
+        "product_kind": "app",
+        "selected_concept_title_ko": "포커스노트: 틈새학습 타이머",
+        "project_goal_and_audience_ko": "바쁜 현대인(직장인, 학생)을 대상으로, 별도의 카드 작성 시간 없이 일상에서 접하는 웹 기사나 텍스트를 AI가 자동으로 플래시카드로 변환하고, 출퇴근 같은 틈새 시간에 망각 곡선 맞춤형 푸시 알림을 통해 자연스럽게 암기 학습을 완성할 수 있도록 돕는 모바일 틈새학습 앱.",
+        "source_relation_and_difference_ko": "원본에서 유지한 핵심 경험은 망각 곡선에 기반한 SM2/FSRS 스케줄링 알고리즘과 오프라인 중심의 빠른 스와이프 복습 인터페이스이며, 새로운 개선 요소는 사용자가 직접 카드를 만드는 번거로움을 없애기 위한 AI 기반 자동 Q&A 카드 변환 기능과 일상 루틴 맞춤형 푸시 트리거 시스템이다.",
+        "core_user_experience_ko": "사용자가 웹 브라우저나 문서 앱에서 유용한 텍스트/기사를 발견하고 '포커스노트'로 공유(Share Intent)하면, 앱 내 AI 모듈이 핵심 개념과 Q&A 형태의 카드를 자동으로 생성해 로컬 DB에 적재한다. 이후 사용자가 설정한 '출근길 루틴' 시간대에 푸시 알림이 도달하면, 사용자는 앱을 열어 카드 제시 화면에서 직관적인 스와이프 제스처(왼쪽: 어려움, 오른쪽: 쉬움)로 1분 만에 복습을 완료하고, 시스템은 SM2/FSRS 알고리즘에 따라 다음 복습 주기를 자동으로 재산정한다.",
+        "features_ko": [
+          {
+            "feature_ko": "AI 기반 텍스트 자동 Q&A 카드 변환기",
+            "user_action_and_behavior_ko": "사용자가 외부 앱에서 텍스트를 공유하면 앱 내부에서 파싱 및 AI API 호출을 통해 핵심 키워드와 질문-답변(Q&A) 쌍을 추출하고, 사용자는 생성된 카드를 가볍게 검토 후 저장함. 카드 제작 시간을 0으로 줄여 진입 장벽을 낮춤.",
+            "practical_implementation_ko": "Android Send Intent를 수신하는 Activity/Receiver 구현, 외부 LLM API(또는 온디바이스 소형 모델)와 연동하여 텍스트를 JSON 형태의 Q&A로 파싱하는 비동기 코루틴 로직 작성."
+          },
+          {
+            "feature_ko": "사용자 일상 루틴 기반 맞춤형 푸시 스케줄러",
+            "user_action_and_behavior_ko": "사용자가 자신의 주요 틈새 시간(예: 출근길 08:30, 점심시간 12:30)을 설정하거나, 그날 복습이 필요한 카드 개수와 망각 주기에 맞춰 시스템이 최적의 타이밍에 알림을 발송함. 알림 터치 시 곧바로 복습 뷰어로 진입.",
+            "practical_implementation_ko": "Android WorkManager와 AlarmManager를 활용하여 매일 정해진 시간 또는 조건(예: 대기 중인 카드 5개 이상)에 로컬 푸시 Notification을 생성 및 트리거."
+          },
+          {
+            "feature_ko": "제스처 기반 미니멀 복습 뷰어",
+            "user_action_and_behavior_ko": "질문 카드를 보고 정답을 떠올린 뒤 화면을 터치해 정답을 확인하고, 좌우 스와이프를 통해 '다시 학습(SM2 단계 초기화)' 또는 '암기 완료(다음 주기로 연장)'를 직관적으로 판정함.",
+            "practical_implementation_ko": "Compose의 Swipeable / PointerInputModifier를 활용한 가벼운 커스텀 제스처 UI 구현. 터치 이벤트와 애니메이션을 매끄럽게 처리하여 몰입감 유지."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 홈 / 덱 대시보드 화면",
+            "contents_and_actions_ko": "오늘 복습해야 할 카드 수, 덱 목록, 빠른 공유 가이드 표시. 하단 네비게이션을 통해 카드 관리 및 설정으로 이동."
+          },
+          {
+            "screen_ko": "공유 텍스트 편집 및 AI 카드 생성 확인 화면",
+            "contents_and_actions_ko": "외부에서 공유된 원본 텍스트와 AI가 자동 추출한 Q&A 카드 미리보기 표시. 사용자가 간단히 수정하거나 바로 '저장' 버튼을 눌러 덱에 추가."
+          },
+          {
+            "screen_ko": "복습 플레이어 화면",
+            "contents_and_actions_ko": "현재 카드의 질문 렌더링 -> 화면 터치 시 정답 공개 -> 좌우 스와이프로 난이도 선택 및 다음 카드 이동. 완료 시 오늘의 학습 성취도 요약 표시."
+          }
+        ],
+        "implementation_approach_ko": "Jetpack Compose + Kotlin을 이용한 안드로이드 네이티브 앱 개발. 상태 관리가 직관적이고 가벼운 제스처 UI를 구현하기에 최적임. 데이터베이스는 가볍고 빠른 로컬 처리를 위해 Room(SQLite)을 사용하며, 간격 반복 알고리즘(SM2/FSRS)은 코틀린 순수 비즈니스 로직 클래스로 구현하여 독립적으로 테스트 가능하게 설계함.",
+        "data_and_storage_ko": [
+          "Card 객체: card_id (Long, PK), deck_id (Long), question (String), answer (String), interval (Int), repetition (Int), ease_factor (Float), due_date (Long). 사용자 복습 결과에 따라 SM2 알고리즘 공식으로 due_date와 ease_factor가 갱신되며 Room DB에 저장됨.",
+          "Deck 객체: deck_id (Long, PK), title (String), created_at (Long). 여러 개의 카드를 그룹화하며, 홈 화면에서 덱별 학습 현황을 요약 표시하는 데 사용됨.",
+          "RoutineConfig 객체: routine_id (Int, PK), trigger_time (String), is_active (Boolean). 사용자의 푸시 알림 스케줄 설정을 관리하며 WorkManager 설정에 반영됨."
+        ],
+        "mvp_scope_ko": "외부 텍스트 공유를 통한 수동/AI 카드 등록, Room DB 기반의 기본 SM2 알고리즘 적용 복습 뷰어, 그리고 WorkManager 기반의 단순 일일 알림 푸시. 클라우드 동기화, 복잡한 통계 그래프, 멀티미디어 지원은 MVP에서 제외하고 오프라인 로컬 암기 루프 검증에 집중함.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 데이터 모델 및 간격 반복 알고리즘 구현",
+            "deliverable_and_check_ko": "Room DB 스키마 작성 및 SM2 점수 계산 로직(Kotlin 클래스) 구현. 유닛 테스트를 통해 복습 결과에 따른 다음 복습일(due_date) 계산이 올바르게 동작하는지 확인."
+          },
+          {
+            "stage_ko": "2단계: 공유 Intent 및 AI 카드 생성 기능 구현",
+            "deliverable_and_check_ko": "Android Send Intent 리시버 구현과 텍스트 파싱/AI API 연동 모듈 작성. 외부 텍스트가 앱으로 들어와 Q&A 데이터로 변환되어 DB에 저장되는 흐름을 로그와 UI로 확인."
+          },
+          {
+            "stage_ko": "3단계: 제스처 복습 뷰어 및 홈 대시보드 UI 구현",
+            "deliverable_and_check_ko": "Jetpack Compose로 질문/정답 카드 전환 및 스와이프 제스처 UI 구현. 홈 화면에서 오늘 학습할 카드를 불러와 복습 세션을 완주하는 전체 사용자 플로우 검증."
+          },
+          {
+            "stage_ko": "4단계: 루틴 푸시 알림 및 MVP 통합 안정화",
+            "deliverable_and_check_ko": "WorkManager를 이용한 로컬 알림 스케줄러 연동. 앱 종료 상태에서도 알림이 정상 수신되는지, 알림 터치 시 복습 뷰어로 다이렉트 진입하는지 에뮬레이터/실기기 테스트 수행."
+          }
+        ],
+        "possible_extensions_ko": "학습 통계 및 주간 연속 학습(Streak) 시각화 그래프 추가, 음성 녹음을 통한 STT 기반 카드 자동 생성 기능, 기기 간 데이터 백업/복원을 위한 로컬 파일(JSON) 내보내기/가져오기 기능.",
+        "risks_and_open_decisions_ko": [
+          "AI 텍스트 요약 및 Q&A 생성 API 호출 시 발생하는 비용과 응답 지연 문제 (해결책: 온디바이스 소형 모델 적용 검토 또는 사용자 선택적 API 키 입력 방식 고려)",
+          "사용자가 외부 텍스트를 공유할 때 비정형 텍스트에서 깔끔한 Q&A를 추출하는 프롬프트 최적화의 완성도 검증 필요",
+          "Android WorkManager의 Doze 모드 제약으로 인해 정해진 시간에 정확히 푸시 알림이 발송되지 않을 가능성에 대한 대응 방안(AlarmManager 병행 검토)"
+        ],
+        "draft_status_ko": "본 개발 설계 초안은 AnkiMobile의 핵심 가치인 간격 반복 학습과 오프라인 중심 복습 루프를 계승하면서, 카드 작성의 번거로움을 AI 자동화로 해결하는 '포커스노트'의 모바일 구현 방향을 정리한 것입니다. 실제 구현 및 플레이테스트/성능 측정이 완료되지 않은 기획 및 아키텍처 설계 초안입니다."
+      },
+      "plan_at": "2026-10-30T07:27:58+09:00",
+      "plan_quota_day": "2026-10-30",
+      "plan_usage": {
+        "promptTokenCount": 2791,
+        "candidatesTokenCount": 2306,
+        "totalTokenCount": 7703,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2791
+          }
+        ],
+        "thoughtsTokenCount": 2606,
+        "serviceTier": "standard"
+      }
+    },
+    "apple:378503081": {
+      "app_key": "apple:378503081",
+      "name": "Groundwire: VoIP SIP Softphone",
+      "developer": "Acrobits",
+      "source": "apple",
+      "kind": "app",
+      "detail_url": "https://apps.apple.com/jp/app/groundwire-voip-sip-softphone/id378503081",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:378503081",
+        "product_kind": "app",
+        "original_experience_ko": "Groundwire는 PBX 또는 VoIP 서비스와 연동하여 사용하는 SIP 기반의 소프트폰 앱으로, 개인 및 비즈니스 환경에서 복잡한 설정 없이 깔끔하고 보안성이 높은 음성 및 영상 통화를 제공하는 것을 핵심 경험으로 합니다. 원본은 하드웨어 데스크폰의 기능을 모바일 환경으로 완벽히 이식하는 데 집중했습니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 소개를 통해 SIP 표준 준수, 그룹 통화, 통화 전환, 암호화(TLS, SRTP, ZRTP), 코덱 지원, 일회성 구매 모델임을 확인했습니다.",
+          "실제 사용된 구체적인 오픈소스 SIP 라이브러리나 백엔드 서버 연동 아키텍처는 공개되지 않아 알 수 없습니다."
+        ],
+        "valuable_elements_ko": [
+          "불필요한 요소를 배제하고 통화 본연의 기능에 집중한 깔끔한 UI와 직관적인 다이얼러 구조",
+          "네트워크 환경(WiFi와 모바일 데이터) 변경 시에도 통화가 끊기지 않도록 보장하는 안정적인 연결 관리",
+          "TLS, SRTP 등 강력한 보안 암호화 프로토콜을 기본 탑재하여 프라이버시를 보호하는 신뢰성"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "오피스핏: 1인 사업자 듀얼 라인 다이얼러",
+            "core_idea_ko": "개인 스마트폰에서 유심 교체나 추가 기기 없이 업무용 가상 번호와 개인 번호를 완벽히 분리 관리하고, 업무 시간 설정 및 자동 부재중 응답 기능을 결합한 모바일 업무 통화 앱.",
+            "what_to_keep_ko": "하나의 디바이스에서 여러 계정/번호를 깔끔하게 관리하고, 저전력 푸시 알림을 통해 배터리 소모를 최소화하면서 안정적으로 통화를 수신하는 아키텍처 계승.",
+            "what_to_change_ko": "일반 사용자가 이해하기 어려운 복잡한 SIP/PBX 서버 설정 과정을 없애고, 인앱 가상 번호 연동 및 소상공인 실무에 맞춘 업무 시간별 벨소리 분리 및 통화 후 메모 기능 추가.",
+            "mobile_use_or_play_ko": "앱 실행 후 업무 모드 활성화 -> 업무 시간 설정 -> 고객으로부터 전화 수신 시 업무용 벨소리로 구별하여 응답 -> 통화 종료 후 자동으로 고객 메모 및 태그 입력 창 표시.",
+            "key_features_ko": [
+              "듀얼 라인 번호 분리 및 개별 벨소리/알림 설정",
+              "업무 시간 외 자동 응답 및 부재중 메시지 전송",
+              "통화 직후 고객 메모 및 태그 분류 기능",
+              "저전력 푸시 기반의 안정적인 백그라운드 수신"
+            ],
+            "solo_mvp_and_effort_ko": "Twilio 등 기존 커뮤니케이션 API를 활용해 가상 번호와 음성 통화 코어를 연동하고, 1인 개발 시 서버 구축 부담을 줄이며 클라이언트 UI와 알림 연동에 집중.",
+            "strengths_limits_ko": "프리랜서와 소상공인 시장의 명확한 니즈를 공략하나, 제3자 통신 API 사용에 따른 지속적인 비용 구조와 국내외 통신 규제 대응이 과제임."
+          },
+          {
+            "title_ko": "톡스팟: 현장 팀용 모바일 음성 인터콤",
+            "core_idea_ko": "복잡한 기업용 PBX 설정 대신, 모바일 환경에서 버튼 하나로 팀원 전체 또는 특정 채널에 즉시 연결되어 음성으로 소통하는 P2P/WebRTC 기반 실시간 무전기·인터콤 앱.",
+            "what_to_keep_ko": "그룹 통화(컨퍼런스 콜) 기능과 네트워크 전환 시 끊김 없는 오디오 스트리밍을 유지하는 통신 기술의 장점 계승.",
+            "what_to_change_ko": "전통적인 다이얼 패드 중심의 인터페이스를 버리고, 채널별 원터치 PTT(Push-to-Talk) 및 상시 대기형 음성 브리핑 방식으로 전환하여 현장 업무 효율 극대화.",
+            "mobile_use_or_play_ko": "앱 실행 및 팀 채널 입장 -> 화면의 마이크 버튼을 길게 눌러 음성 브리핑 전송 -> 팀원들이 실시간 또는 푸시 알림으로 음성 수신 후 즉시 응답.",
+            "key_features_ko": [
+              "원터치 PTT(무전기) 방식의 실시간 그룹 음성 통신",
+              "백그라운드 최적화를 통한 저전력 상시 대기",
+              "네트워크 환경 변동 시 자동 재연결 및 오디오 끊김 방지",
+              "채널별 권한 관리 및 암호화 통신"
+            ],
+            "solo_mvp_and_effort_ko": "WebRTC 오픈소스 라이브러리 또는 실시간 통신 SDK를 활용하여 P2P/SFU 서버 연동 구현. 미니멀한 UI 구성으로 1인 개발 가능 범위 확보.",
+            "strengths_limits_ko": "물류, 식당, 현장 작업 등 실시간 음성 협업이 필요한 곳에 적합하나, 일반 전화망(PSTN) 연동이 제외되어 앱 사용자 간으로 활용 범위가 제한됨."
+          },
+          {
+            "title_ko": "세이프콜: 시니어 및 가족 안심 직통 다이얼러",
+            "core_idea_ko": "복잡한 다이얼 패드와 메뉴를 제거하고, 시니어 사용자가 자주 연락하는 가족과 원클릭으로 고음질·보안 통화를 할 수 있도록 지원하는 간편 통화 앱.",
+            "what_to_keep_ko": "불필요한 군더더기를 배제한 깔끔한 인터페이스 철학과 TLS/SRTP 등 높은 수준의 보안 암호화 기능 계승.",
+            "what_to_change_ko": "기업용 SIP 클라이언트라는 복잡성을 완전히 들어내고, 큰 글씨, 사진 기반 단축 다이얼, 직관적인 영상 통화 연결로 사용자 타겟을 대중 및 시니어 계층으로 전환.",
+            "mobile_use_or_play_ko": "앱 실행 -> 홈 화면에 크게 배치된 가족 사진(단축 버튼) 터치 -> 고화질 음성 또는 영상 통화 즉시 연결 -> 통화 종료 후 홈 화면 복귀.",
+            "key_features_ko": [
+              "사진 및 큰 글씨 기반의 원클릭 단축 다이얼",
+              "데이터 도청 방지를 위한 종단간(E2E) 암호화 통신",
+              "직관적인 고화질 영상 통화 인터페이스",
+              "원격 보호자 설정을 통한 간편한 연락처 관리"
+            ],
+            "solo_mvp_and_effort_ko": "VoIP SDK를 활용하여 음성/영상 통화 코어를 구현하고, 안드로이드 접근성(Accessibility) 가이드라인에 맞춘 단순한 UI 설계로 개발 공수 최소화.",
+            "strengths_limits_ko": "타겟층이 명확하고 사용법이 매우 직관적이지만, 시니어 사용자를 대상으로 한 마케팅 및 보호자 연동 온보딩 과정의 진입 장벽이 존재함."
+          }
+        ],
+        "concept_comparison_ko": "세 아이디어는 원본 Groundwire의 핵심 기술인 '안정적이고 깔끔한 음성 통신'과 '계정/라인 관리'를 각각 1인 사업자(가상 번호 분리), 현장 팀(인터콤/무전기), 시니어(안심 직통 다이얼러)라는 전혀 다른 실사용 맥락으로 발전시켰습니다. 1번은 비즈니스 생산성, 2번은 실시간 협업, 3번은 접근성과 보안에 초점을 맞추어 타겟과 UX가 명확히 구분됩니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "'오피스핏: 1인 사업자 듀얼 라인 다이얼러'는 원본 Groundwire의 핵심 가치인 '업무용 번호 관리'와 '깔끔한 비즈니스 통화'를 가장 잘 계승하면서도, 복잡한 PBX 설정이라는 진입 장벽을 SaaS형 가상 번호 연동으로 해결하여 현대 소상공인과 프리랜서 시장에서 실질적인 수요를 창출할 수 있습니다. 모바일 환경에서 제3자 통신 API를 활용해 1인 개발자가 MVP를 구현하기에 가장 현실적입니다.",
+        "next_questions_ko": [
+          "소상공인 대상 가상 번호 연동을 위해 국내외 통신 API(예: Twilio 등)의 비용 구조와 규제 사항이 현실적인가?",
+          "앱이 백그라운드 상태이거나 절전 모드일 때 푸시 알림을 통한 통화 수신율이 99% 이상 안정적으로 유지되는가?",
+          "기존 스마트폰의 기본 전화 앱과 충돌하지 않고 별도의 라인으로 깔끔하게 분리되는 UX를 어떻게 설계할 것인가?"
+        ]
+      },
+      "brief_at": "2026-10-30T07:32:33+09:00",
+      "brief_quota_day": "2026-10-30",
+      "brief_usage": {
+        "promptTokenCount": 1859,
+        "candidatesTokenCount": 2198,
+        "totalTokenCount": 6869,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1859
+          }
+        ],
+        "thoughtsTokenCount": 2812,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:378503081",
+        "product_kind": "app",
+        "selected_concept_title_ko": "오피스핏: 1인 사업자 듀얼 라인 다이얼러",
+        "project_goal_and_audience_ko": "프리랜서, 1인 사업자, 소상공인을 위한 모바일 업무 통화 앱입니다. 스마트폰 하나로 개인 번호와 업무용 가상 번호를 완벽히 분리하고, 근무 시간 설정 및 통화 후 메모 기능을 제공하여 공사(公私) 분리와 고객 응대 효율성을 높이는 것을 목적으로 합니다.",
+        "source_relation_and_difference_ko": "원본 Groundwire의 핵심 가치인 '단일 기기 내 다중 계정/번호의 깔끔한 관리'와 '안정적인 저전력 푸시 통화 수신 아키텍처'를 계승했습니다. 차별점으로는 일반 사용자에게 진입 장벽이 되는 복잡한 SIP/PBX 서버 설정을 제거하고, API 기반 가상 번호 연동 및 소상공인 실무에 맞춘 업무 시간 설정, 통화 후 자동 메모 기능을 결합했습니다.",
+        "core_user_experience_ko": "사용자는 앱을 실행해 업무용 가상 번호를 부여받고, 개인용 라인과 업무용 라인의 근무 시간을 설정합니다. 고객이 업무 번호로 전화를 걸어오면 스마트폰은 설정된 업무용 벨소리로 울리며, 화면에 '업무 통화' 태그가 표시됩니다. 통화가 종료되면 곧바로 메모 및 태그(예: '상담 완료', '견적 요청')를 입력할 수 있는 창이 나타나 고객 관리 이력을 손쉽게 기록할 수 있습니다.",
+        "features_ko": [
+          {
+            "feature_ko": "듀얼 라인 번호 분리 및 벨소리 맞춤 설정",
+            "user_action_and_behavior_ko": "사용자가 개인 번호와 업무용 가상 번호를 하나의 앱 내에서 관리하며, 수신 전화가 어느 라인으로 들어왔는지 벨소리와 UI 시각 효과로 즉시 구분할 수 있습니다. 이를 통해 공사 분리 가치를 제공합니다.",
+            "practical_implementation_ko": "통신 API(예: Twilio Voice SDK 등)를 활용하여 두 개의 가상 번호를 인앱에서 제어하고, Android 시스템 NotificationChannel 및 RingtoneManager를 이용해 라인별 맞춤 벨소리를 지정합니다."
+          },
+          {
+            "feature_ko": "업무 시간 설정 및 부재중 자동 응답",
+            "user_action_and_behavior_ko": "근무 시간 외에 걸려온 업무 전화에 대해 자동으로 부재중 상태로 전환하고, 지정된 안내 메시지나 문자 회신을 통해 고객 이탈을 방지하고 프라이버시를 보호합니다.",
+            "practical_implementation_ko": "로컬 타임스탬프 기반의 업무 시간 체크 로직을 구현하고, 근무 외 시간 수신 시 WorkManager 및 SMS/푸시 연동을 통해 자동 응답 트리거를 실행합니다."
+          },
+          {
+            "feature_ko": "통화 직후 고객 메모 및 태그 분류",
+            "user_action_and_behavior_ko": "통화가 끊어지는 즉시 화면에 메모 입력 팝업이 나타나 통화 내용 요약과 태그를 기록할 수 있습니다. 고객과의 통화 이력이 체계적으로 누적되어 후속 응대가 편리해집니다.",
+            "practical_implementation_ko": "Telephony State Listener 또는 VoIP 콜백의 통화 종료(Disconnected) 이벤트를 감지하여, 백스택을 거치지 않고 최상단에 메모 입력 액티비티/다이얼로그를 즉시 띄우고 Room DB에 저장합니다."
+          },
+          {
+            "feature_ko": "저전력 푸시 기반 백그라운드 통화 수신",
+            "user_action_and_behavior_ko": "앱이 백그라운드 상태이거나 종료되어 있어도 배터리 소모를 최소화하면서 안정적으로 전화를 수신하여 중요한 비즈니스 기회를 놓치지 않게 합니다.",
+            "practical_implementation_ko": "Firebase Cloud Messaging(FCM)을 활용한 VoIP 푸시 알림(High Priority Push)을 구현하고, 수신 시 즉각적으로 시스템 내장 풀스크린 인텐트(Full-Screen Intent)를 호출하여 통화 화면을 띄웁니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 다이얼러 및 통화 기록 화면",
+            "contents_and_actions_ko": "하단 탭으로 다이얼러, 통화 기록, 연락처, 설정 제공. 상단에 현재 활성화된 라인(개인/업무) 표시 및 전환 스위치 배치. 다이얼 입력 후 발신 라인 선택 가능."
+          },
+          {
+            "screen_ko": "업무 설정 화면",
+            "contents_and_actions_ko": "업무용 가상 번호 상태 확인, 근무 요일 및 시간대 설정, 라인별 벨소리 및 진동 패턴 선택, 부재중 자동 응답 문구 편집 기능 제공."
+          },
+          {
+            "screen_ko": "인커밍 통화 및 인앱 통화 화면",
+            "contents_and_actions_ko": "전화 수신 시 발신자 정보 및 [업무 번호] 배지가 포함된 수신 화면 표시. 통화 중 화면에서는 음소거, 스피커, 키패드, 메모 버튼 제공."
+          },
+          {
+            "screen_ko": "통화 종료 후 메모 입력 팝업 화면",
+            "contents_and_actions_ko": "통화 끊김 감지 시 자동으로 활성화되는 오버레이/모달 팝업. 텍스트 메모 입력창 및 빠른 태그(예: 상담, 계약, 부재) 선택 버튼 제공 후 저장/닫기."
+          }
+        ],
+        "implementation_approach_ko": "Android Native (Kotlin) 환경을 기반으로 하되, 1인 개발의 효율성을 위해 UI는 Jetpack Compose로 구성합니다. 음성 통화 코어는 직접 구현하기보다 검증된 제3자 통신 API(예: Twilio Voice SDK 또는 WebRTC 오픈소스)를 활용하여 SIP 스택 구현의 복잡성을 낮춥니다. 로컬 데이터는 Room DB를 사용하고, 설정값은 EncryptedSharedPreferences로 안전하게 저장합니다.",
+        "data_and_storage_ko": [
+          "CallLogEntity (발신자 번호, 수신 라인 유형, 통화 시작/종료 시각, 통화 시간): 통화 종료 시점에 Room DB에 자동 삽입 및 통화 기록 화면에 역순 출력.",
+          "MemoTagEntity (통화 ID 또는 번호, 메모 텍스트, 태그 리스트): 통화 종료 후 메모 팝업에서 사용자가 저장할 때 Room DB에 기록되어 고객 상세 이력으로 조회.",
+          "UserSettings (근무 시간 시작/종료, 요일 설정, 선택된 벨소리 URI, 부재중 메시지): SharedPreferences 및 EncryptedSharedPreferences를 통해 앱 실행 및 백그라운드 서비스에서 즉시 읽고 갱신."
+        ],
+        "mvp_scope_ko": "제3자 통신 API를 활용한 가상 번호 음성 수발신, 개인/업무 라인 표시 및 기본 벨소리 분리, 통화 종료 후 텍스트 메모 입력 및 Room DB 저장 기능까지만 구현합니다. 그룹 통화, 고급 포워딩, 웹 동기화 등 부가 기능은 MVP에서 제외하여 1인 개발 리소스를 핵심 통화 및 메모 경험에 집중시킵니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 기초 셋업 및 UI 와이어프레임",
+            "deliverable_and_check_ko": "Jetpack Compose 기반의 다이얼러, 통화 기록, 설정 화면 UI 구현 및 로컬 네비게이션 구조 확인."
+          },
+          {
+            "stage_ko": "2단계: 통신 API 연동 및 기본 수발신",
+            "deliverable_and_check_ko": "통신 SDK 연동을 통한 테스트 기기 간 음성 통화 발신 및 수신 기능 구현 여부 확인."
+          },
+          {
+            "stage_ko": "3단계: 푸시 알림 및 벨소리/라인 분리",
+            "deliverable_and_check_ko": "FCM VoIP 푸시를 통한 백그라운드 수신 확인 및 업무/개인 라인별 벨소리 정상 출력 테스트."
+          },
+          {
+            "stage_ko": "4단계: 통화 종료 감지 및 메모/태그 저장",
+            "deliverable_and_check_ko": "통화 종료 이벤트 시 메모 팝업 자동 호출 및 Room DB 저장 데이터 정합성 검증."
+          }
+        ],
+        "possible_extensions_ko": "PC 웹 버전과의 통화 및 메모 기록 동기화, 문자(SMS) 통합 수발신 관리, AI 통화 요약 봇 연동을 통한 자동 노트 생성 기능.",
+        "risks_and_open_decisions_ko": [
+          "제3자 통신 API 사용에 따른 지속적인 월 구독/사용량 비용 발생 구조와 국내 통신 규정 준수 여부.",
+          "안드로이드 최신 버전의 배터리 최적화 정책(Doze Mode 등)으로 인한 FCM 푸시 및 백그라운드 수신 지연 리스크와 대응 방안 검토 필요."
+        ],
+        "draft_status_ko": "본 문서는 '오피스핏: 1인 사업자 듀얼 라인 다이얼러'의 모바일 앱 개발 설계를 위한 초안으로, 실제 통신 API 연동 테스트, 성능 측정 및 마켓 출시가 완료되지 않은 기획 상태입니다."
+      },
+      "plan_at": "2026-10-30T07:32:50+09:00",
+      "plan_quota_day": "2026-10-30",
+      "plan_usage": {
+        "promptTokenCount": 2626,
+        "candidatesTokenCount": 2289,
+        "totalTokenCount": 7181,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2626
+          }
+        ],
+        "thoughtsTokenCount": 2266,
+        "serviceTier": "standard"
+      }
+    },
+    "google:com.goods.sorting.games.triple.match3d.puzzle": {
+      "app_key": "google:com.goods.sorting.games.triple.match3d.puzzle",
+      "name": "商品整理ゲーム：3Dパズル",
+      "developer": "Joymaster Puzzle Game Studio",
+      "source": "google",
+      "kind": "game",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.goods.sorting.games.triple.match3d.puzzle&hl=ko&gl=KR",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.goods.sorting.games.triple.match3d.puzzle",
+        "product_kind": "game",
+        "original_experience_ko": "창고, 냉장고, 편의점 등의 3D 공간 환경에서 다양한 굿즈와 물건들을 드래그하여 정렬하고, 동일한 물건 3개를 모아 지우는 '트리플 매치 3D 퍼즐' 게임 경험. AI 해석에 따르면 3D 오브젝트 조작과 시각적 정돈을 통해 오는 대리 만족 및 힐링, 두뇌 트레이닝이 핵심입니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 사실: 3D 상품 정리, 트리플 매치 3D 퍼즐, 무한 레벨, 냉장고/편의점/창고 테마, 오프라인 플레이 가능 등의 키워드 확인.",
+          "한계: 스토어 소개문은 마케팅을 위해 꿈의정원, 캔디크러쉬, 로얄매치 등 관련 없는 장르의 유명 게임 키워드를 과도하게 나열하고 있어, 실제 내부 게임 시스템의 깊이나 물리 엔진 사양을 정확히 파악하기 어려움."
+        ],
+        "valuable_elements_ko": [
+          "3D 오브젝트를 시각적으로 확인하며 분류하고 정렬하는 '정리정돈의 대리 만족' 경험.",
+          "동일한 물건 3개를 찾아내는 트리플 매치 규칙으로 단순하면서도 직관적인 몰입감 제공.",
+          "현실에서 친숙한 공간(냉장고, 편의점 등)을 테마로 차용하여 친근함과 시각적 재미 증대."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "나만의 미니 식료품점 진열 마스터",
+            "core_idea_ko": "편의점이나 슈퍼마켓의 빈 진열대에 실시간으로 입고되는 다양한 음료, 스낵, 과일 등의 3D 식료품을 카테고리별·색상별로 가장 보기 좋고 빠르게 진열하여 손님들의 만족도를 높이는 경영 연계 퍼즐 게임.",
+            "what_to_keep_ko": "편의점·마트라는 친숙한 배경과 3D 상품을 진열하고 매칭하는 정렬의 기본 쾌감을 유지.",
+            "what_to_change_ko": "단순 스테이지 클리어 방식에서 벗어나, 손님의 구매 취향과 진열 미관(컬러 매칭 보너스)을 고려한 아케이드 경영 퍼즐로 확장.",
+            "mobile_use_or_play_ko": "창고에서 박스를 열어 3D 상품을 꺼내 진열대 선반에 같은 종류끼리 3열로 정렬하고, 손님이 방문해 물건을 구매해 가면 빈자리를 다시 채우는 루프.",
+            "key_features_ko": [
+              "진열 미관 및 카테고리 일치도에 따른 매출/팁 보너스",
+              "실시간 손님 응대 및 재고 부족 타이머",
+              "가게 인테리어 및 선반 확장 업그레이드 요소"
+            ],
+            "solo_mvp_and_effort_ko": "Unity 3D 엔진을 활용해 격자(Grid) 선반 시스템과 3D 아이템 스냅 로직 구현. 경영 요소를 최소화하고 스테이지 기반 퍼즐로 압축하면 1인 개발로 5주 이내 제작 가능.",
+            "strengths_limits_ko": "장점은 대중적인 마트 컨셉으로 직관적이고 친숙하다는 점. 약점은 퍼즐과 경영 타이쿤의 비중 조절에 실패하면 게임이 산만해질 위험이 있음."
+          },
+          {
+            "title_ko": "플리마켓 룸메이트 짐 정리 3D",
+            "core_idea_ko": "이사나 플리마켓 출점을 앞두고 박스 안에 어지럽게 뒤섞인 방대한 중고 굿즈들을 제한된 수납 공간(캐리어, 이사 박스)에 효율적으로 구겨 넣으면서 3개씩 묶어 정리하는 공간 퍼즐 게임.",
+            "what_to_keep_ko": "일상적이고 아기자기한 3D 굿즈(피규어, 텀블러 등)를 수집하고 정리하는 시각적 즐거움 유지.",
+            "what_to_change_ko": "단순히 꺼내서 맞추는 트리플 매치를 넘어, 3D 오브젝트의 형태에 따른 회전(Rotation)과 빈틈없는 공간 배치(핏) 규칙을 결합.",
+            "mobile_use_or_play_ko": "어지럽게 널린 3D 물건들을 360도 회전시켜 박스 속 남은 빈 공간에 정확히 맞물려 넣고, 같은 종류 3개가 차면 공간이 압축되는 흐름.",
+            "key_features_ko": [
+              "3D 오브젝트 회전 및 수납 공간 핏(Fit) 검증 시스템",
+              "테트리스형 공간 제약과 3매칭의 복합 규칙",
+              "정리 완료 후 방 꾸미기/플리마켓 판매 연계 갤러리"
+            ],
+            "solo_mvp_and_effort_ko": "바운딩 박스(Bounding Box)나 간단한 오버랩 체크로 충돌을 처리하여 물리 엔진 부담을 줄이고, 정해진 박스 슬롯에 아이템을 맞추는 방식으로 4주 내 MVP 개발 가능.",
+            "strengths_limits_ko": "장점은 공간 지각력과 퍼즐의 재미를 동시에 잡은 점. 약점은 모바일 화면에서 작은 3D 오브젝트를 회전시키는 조작이 다소 번거로울 수 있음."
+          },
+          {
+            "title_ko": "스마트 물류창고 재고 최적화 퍼즐: 파킹&소트 3D",
+            "core_idea_ko": "제한된 공간의 물류창고 하차장과 컨베이어 벨트 흐름 속에서 쏟아지는 화물을 종류별·납기일별로 빠르게 분류하고 적재하는 시간 제한형 시뮬레이션 퍼즐 게임.",
+            "what_to_keep_ko": "3D 오브젝트를 터치·드래그하여 정리하는 조작감과 동일 품목 매칭의 직관성 유지.",
+            "what_to_change_ko": "정적인 선반 정리에 그치지 않고, 동적인 컨베이어 벨트 흐름과 제한 시간·공간 압박이라는 자원 관리(타이쿤) 요소를 결합하여 긴장감 부여.",
+            "mobile_use_or_play_ko": "하단 컨베이어 벨트로 밀려오는 화물을 터치·드래그해 구역별 파레트에 3개씩 모아 출고 완료시키는 흐름.",
+            "key_features_ko": [
+              "컨베이어 벨트 동적 오브젝트 흐름 제어",
+              "제한된 파레트 슬롯 기반의 스톡 전략 퍼즐",
+              "긴급 납품 미션 및 특수 화물 아이템 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "기본 큐브 및 폴리곤 오브젝트 프리팹을 활용해 격자 스냅과 3개 매칭 판정, 타이머 연동 구현. UI 및 단일 모드 구현에 4~5주 소요.",
+            "strengths_limits_ko": "장점은 단순 정리 게임에 시간/공간 압박을 더해 몰입감을 높인 점. 약점은 퍼즐이 너무 복잡해지면 원작의 '힐링' 요소가 퇴색될 수 있음."
+          }
+        ],
+        "concept_comparison_ko": "아이디어 1(식료품점 진열)은 원작의 편의점·마트 테마를 가장 친숙하게 계승하면서 진열의 미관과 경영 요소를 가미해 대중성을 높였습니다. 아이디어 2(플리마켓 수납)는 3D 회전과 공간 지각력을 자극하는 반면 터치 조작 피로도가 있을 수 있습니다. 아이디어 3(물류창고)은 동적 요소와 시간 압박으로 하드코어한 재미를 주지만 힐링 요소가 희석됩니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "원작 스토어 소개문에서 강조한 '편의점 게임', '마트 게임', '냉장고 게임'의 감성을 가장 자연스럽게 확장하면서도, 단순한 매칭을 넘어선 진열의 재미를 부여할 수 있습니다. 1인 개발 시 음료, 스낵 등의 3D 모델 리소스 재사용이 용이하며 모바일 터치 환경에 가장 직관적인 UI/UX를 구성할 수 있습니다. 다만, 경영 요소가 퍼즐 본연의 흐름을 방해하지 않도록 스킨 형태로 가볍게 접목하는 설계 검증이 필요합니다.",
+        "next_questions_ko": [
+          "선반에 3D 물건을 정렬할 때 카메라 시점을 2.5D 아이소메트릭 고정으로 가는 것이 모바일 조작에 더 유리한가?",
+          "손님 응대나 경영 타이머 없이 순수하게 '진열 완성도' 자체에 집중하는 스테이지 모드로만 초기 MVP를 구성하는 것이 안전한가?"
+        ]
+      },
+      "brief_at": "2026-10-30T08:05:24+09:00",
+      "brief_quota_day": "2026-10-30",
+      "brief_usage": {
+        "promptTokenCount": 2687,
+        "candidatesTokenCount": 2205,
+        "totalTokenCount": 7716,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2687
+          }
+        ],
+        "thoughtsTokenCount": 2824,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.goods.sorting.games.triple.match3d.puzzle",
+        "product_kind": "game",
+        "selected_concept_title_ko": "나만의 미니 식료품점 진열 마스터",
+        "project_goal_and_audience_ko": "대중적인 3D 굿즈/물품 정리 퍼즐에 소규모 마트 진열 및 시간 제한 타이쿤 요소를 결합하여 몰입감을 높인 모바일 캐주얼 경영 퍼즐 게임 제작. 정리정돈의 시각적 쾌감을 즐기며 캐주얼한 경영/타이쿤 요소에 흥미를 느끼는 퍼즐 게임 유저층을 타겟으로 합니다.",
+        "source_relation_and_difference_ko": "유지한 핵심 경험: 편의점·마트라는 친숙한 배경과 3D 오브젝트를 터치하여 보관함에서 꺼내 선반에 진열하고 동일한 품목 3개를 맞춰 정리하는 '트리플 매치' 및 시각적 정렬의 쾌감. 새로운 개선 요소: 단순한 스테이지 클리어 방식에서 확장하여, 밀려드는 손님의 주문 취향과 진열 미관(카테고리별 맞춤 정렬 시 추가 보너스)을 연동한 제한 시간 기반의 미니 타이쿤형 스테이지 규칙 도입.",
+        "core_user_experience_ko": "사용자는 화면 하단의 대기 창고 박스에서 3D 식료품(음료, 스낵, 과일 등)을 터치하여 상단의 진열대 선반 그리드 칸에 드래그 앤 드롭 또는 탭하여 배치합니다. 동일한 3개의 상품이 가로 또는 세로 선반 칸에 나란히 모이거나 매칭 조건을 만족하면 정산되어 사라지며 매장 매출과 점수가 상승합니다. 손님이 방문하여 특정 상품군을 요구할 때 제한 시간 내에 진열이 완료되어 있으면 판매가 이루어지고, 미관 정렬 보너스(예: 같은 색상이나 카테고리끼리 모아 진열)가 부여되어 추가 골드를 획득합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "3D 선반 그리드 진열 및 트리플 매치 시스템",
+            "user_action_and_behavior_ko": "창고 대기열의 3D 식료품을 터치해 선반의 빈 칸으로 이동시킵니다. 같은 종류 3개가 인접하거나 매칭되면 자동 정산되어 사라지며 공간을 확보합니다.",
+            "practical_implementation_ko": "Unity 3D Raycast를 이용한 터치 감지, 선반별 2차원 배열(Grid Matrix) 데이터 구조를 활용하여 아이템 배치 판정 및 트리플 매치 로직 구현."
+          },
+          {
+            "feature_ko": "실시간 손님 주문 및 진열 타이쿤 시스템",
+            "user_action_and_behavior_ko": "손님이 카운터에 도착해 특정 상품군(예: 음료수 3종)을 요청하면 제한 시간 내에 해당 상품을 선반에 진열 완료해야 합니다.",
+            "practical_implementation_ko": "손님 대기 큐(Queue) 관리, 타이머 코루틴(Coroutine) 작동, 조건 만족 시 골드 및 평판 점수 획득 처리 이벤트 리스너 연결."
+          },
+          {
+            "feature_ko": "매장 업그레이드 및 인테리어 커스텀",
+            "user_action_and_behavior_ko": "스테이지 클리어로 얻은 골드를 사용해 선반 칸 수 확장, 창고 보관함 용량 증가, 매장 인테리어 스킨을 구입합니다.",
+            "practical_implementation_ko": "플레이어 재화 데이터를 로컬 저장소에 반영하고, UI 샵 패널에서 구매 시점에 따라 선반 오브젝트 프리팹 활성화 상태 변경."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 로비 / 스테이지 선택 화면",
+            "contents_and_actions_ko": "현재 내 식료품점 외관 표시, 스테이지 맵 선택 버튼, 상점/업그레이드 진입 버튼. 스테이지 선택 시 게임 플레이 씬으로 전환."
+          },
+          {
+            "screen_ko": "게임 플레이 씬 (식료품점 진열 퍼즐)",
+            "contents_and_actions_ko": "상단 손님 주문 정보 및 제한 시간 UI, 중앙 3D 선반 진열대(그리드), 하단 대기 창고(박스에서 나오는 3D 아이템). 아이템 터치/이동 조작, 일시정지 및 아이템 사용."
+          },
+          {
+            "screen_ko": "결산 및 보상 화면",
+            "contents_and_actions_ko": "스테이지 클리어 여부(성공/실패), 획득한 골드 및 평판 별점 표시, 로비 복귀 또는 다음 스테이지 진행 버튼."
+          }
+        ],
+        "implementation_approach_ko": "Unity (C#) 엔진을 사용하여 모바일 3D 캐주얼 게임을 개발합니다. 경량 렌더 파이프라인(URP)을 사용하여 모바일 기기에서의 3D 그래픽 성능을 최적화합니다. 핵심 처리 로직으로 3D 그리드 좌표계 기반의 아이템 스냅(Snap) 시스템과 트리플 매치 판정 매니저를 구현합니다. 대안으로 2.5D 타일맵 기반으로 전환하여 물리 연산 부하를 줄이는 방안도 고려할 수 있으나, 원작의 3D 입체감을 살리기 위해 가벼운 저폴리곤(Low-Poly) 3D 에셋을 활용합니다.",
+        "data_and_storage_ko": [
+          "PlayerData: 유저 보유 골드, 평판 점수, 해금된 스테이지 번호, 상점 업그레이드 레벨 상태. 게임 종료 시점 및 주요 재화 변동 시점에 JSON 형태로 Local Storage(Application.persistentDataPath에 파일 저장)에 즉시 저장 및 로드.",
+          "StageConfig: 각 스테이지별 등장하는 3D 아이템 종류 리스트, 손님 주문 패턴, 제한 시간, 목표 매출액 데이터. ScriptableObject를 활용하여 에디터 내에서 데이터 관리 및 빌드 시 포함.",
+          "ShelfGridData: 현재 선반에 배치된 아이템의 고유 ID 및 그리드 위치 좌표(Vector2Int). 게임 플레이 중 실시간 상태를 메모리에 유지하고 일시정지/재개 시 직렬화 처리."
+        ],
+        "mvp_scope_ko": "3D 식료품을 선반 그리드에 터치로 진열하고 3개 매칭을 맞추는 기본 퍼즐 루프, 제한 시간 내에 손님 주문을 완수하여 스테이지를 클리어하는 핵심 스테이지 10개 구성. 복잡한 인테리어 꾸미기 세부 커스텀이나 다양한 특수 부스터 아이템은 제외하여 퍼즐과 타이쿤의 기본 재미 코드가 정상적으로 맞물리는지 가장 빠르게 검증합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 환경 구축 및 3D 그리드 시스템 구현",
+            "deliverable_and_check_ko": "Unity 프로젝트 세팅 (URP), 선반 그리드 3D 매쉬 배치, 터치 입력 시 3D 아이템이 선반 빈 칸에 스냅되는 프로토타입. 콘솔 및 플레이 테스트를 통한 입력 반응 확인."
+          },
+          {
+            "stage_ko": "2단계: 트리플 매치 판정 및 창고 대기열 로직 구현",
+            "deliverable_and_check_ko": "하단 창고에서 아이템이 순차적으로 공급되고, 선반에 동일 아이템 3개가 모였을 때 소멸하며 점수가 오르는 로직 구현 및 단위 테스트."
+          },
+          {
+            "stage_ko": "3단계: 손님 주문 시스템 및 제한 시간 타이쿤 루프 결합",
+            "deliverable_and_check_ko": "손님 주문 UI 생성, 타이머 작동, 주문 충족 시 골드 획득 및 스테이지 승패 조건 판정 연동."
+          },
+          {
+            "stage_ko": "4단계: UI 연동, 스테이지 데이터 관리 및 MVP 빌드 패키징",
+            "deliverable_and_check_ko": "메인 로비, 게임 플레이, 결과 창 UI 연결, ScriptableObject 기반 스테이지 데이터 적용, Android APK 빌드 후 터치 조작감 및 성능 점검."
+          }
+        ],
+        "possible_extensions_ko": "특별 손님(VIP 손님, 도둑 등) 등장으로 인한 돌발 이벤트 추가, 다양한 테마의 확장(편의점 외에 카페, 대형 마트, 베이커리 등), 꾸미기 요소 강화(가구 배치, 벽지 변경 등 하우스 플리퍼/타이쿤 요소 결합).",
+        "risks_and_open_decisions_ko": [
+          "기술/기획 위험: 모바일 저사양 기기에서 다수의 3D 식료품 오브젝트와 렌더링이 발생할 때의 드로우 콜(Draw Call) 및 프레임 드랍 발생 가능성. 확인 방법: 3D 모델의 폴리곤 수를 낮추고 아틀라스 텍스처를 적용하여 배칭(Batching) 최적화를 진행하며 실기기 테스트 수행.",
+          "미확정 규칙: 타이쿤 요소(손님 대기 시간)와 퍼즐 요소(신중한 정리) 간의 템포 충돌 여부. 플레이테스트를 통해 손님 대기 시간을 조정하며 최적의 밸런스 결정 과제로 남김."
+        ],
+        "draft_status_ko": "본 문서는 '나만의 미니 식료품점 진열 마스터' 기획을 바탕으로 작성된 1인 모바일 개발 설계 초안이며, 실제 구현·플레이테스트 및 성능 측정이 완료되지 않은 상태의 계획 문서입니다."
+      },
+      "plan_at": "2026-10-30T08:05:42+09:00",
+      "plan_quota_day": "2026-10-30",
+      "plan_usage": {
+        "promptTokenCount": 3427,
+        "candidatesTokenCount": 2316,
+        "totalTokenCount": 8630,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3427
+          }
+        ],
+        "thoughtsTokenCount": 2887,
+        "serviceTier": "standard"
+      }
+    },
+    "google:com.google.android.apps.nbu.files": {
+      "app_key": "google:com.google.android.apps.nbu.files",
+      "name": "Files by Google",
+      "developer": "Google LLC",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.files&hl=en&gl=US",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.google.android.apps.nbu.files",
+        "product_kind": "app",
+        "original_experience_ko": "본 앱의 원본 경험은 기기 내 저장 공간 부족 문제를 해결하기 위해 불필요한 파일을 진단하고 정리해 주는 '스마트 관리'와 인터넷 없이 대용량 파일을 주고받는 '오프라인 고속 공유'를 결합한 도구 경험입니다. 공개된 스토어 사실은 파일 정리, 오프라인 공유(Quick Share), 보안 폴더, 클라우드 백업 기능을 명시하고 있으며, AI 해석을 통해 시스템 파일 스캔 엔진과 추천 알고리즘이 능동적 가치를 제공한다는 점이 유추됩니다. 단, 내부 최적화 수준이나 구체적인 암호화/통신 프로토콜은 스토어 설명만으로는 미확인 상태입니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 사실: 저장 공간 분석 및 정리 제안(중복 파일, 캐시, 오래된 사진), 최대 480Mbps 속도의 오프라인 파일 공유(Quick Share), PIN/패턴 기반 보안 폴더, Google Drive 클라우드 백업, 20MB 미만의 가벼운 용량과 무광고 정책.",
+          "한계: 스마트 추천 알고리즘의 머신러닝 학습 방식, 오프라인 공유의 저수준 통신 구현 방식, 보안 폴더의 암호화 알고리즘 종류 등은 스토어 설명에 구체적으로 명시되지 않아 미확인 상태입니다."
+        ],
+        "valuable_elements_ko": [
+          "능동적 정리 제안 UX: 단순한 디렉토리 브라우징을 넘어 사용자에게 불필요한 데이터를 직관적으로 인지시키고 조치를 유도하는 제안형 인터페이스.",
+          "오프라인 고속 공유: 네트워크 환경의 제약을 극복하고 기기 간 대용량 파일을 다이렉트로 주고받는 강력한 연결성.",
+          "독립된 보안 격리: 기기 전체 잠금과 별개로 민감한 파일을 안전하게 보호하는 전용 보안 폴더 체계."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "픽셀 메모리 가드: 추억 아카이브 파일 매니저",
+            "core_idea_ko": "단순히 스마트폰 용량을 비우는 기계적 작업을 넘어, 삭제 대상인 오래된 사진과 미디어를 '감성적인 타임캡슐'이나 '월간 추억 요약' 형태로 재구성하여 사용자가 기분 좋게 정리하고 백업하도록 유도하는 파일 관리 앱.",
+            "what_to_keep_ko": "저장 공간 분석 및 오래된 사진/동영상·중복 파일 식별이라는 원본의 데이터 스캔 및 정리 제안 기능을 계승하여 용량 부족 문제를 해결합니다.",
+            "what_to_change_ko": "무미건조한 '삭제' 버튼 중심의 UI를 추억 회상형 카드 스와이프 인터페이스와 자동 타임라인 묶음 기능으로 개편하여, 데이터 정리를 감정적이고 즐거운 행위로 바꿉니다.",
+            "mobile_use_or_play_ko": "앱 실행 후 기기 스캔 완료 시 '작년 오늘 찍은 유사 사진 20장이 있습니다. 1장만 남기고 타임캡슐에 담을까요?'라는 알림 수신 -> 사용자가 카드를 좌우로 스와이프하여 정리 및 압축 백업 진행.",
+            "key_features_ko": [
+              "메타데이터 기반 유사 사진 군집화 및 타임라인 자동 묶음",
+              "감성적 다이어리 형태의 스토리지 리포트 시각화",
+              "원탭 클라우드 타임캡슐 자동 아카이빙 및 휴지통 보호"
+            ],
+            "solo_mvp_and_effort_ko": "안드로이드 MediaStore API를 활용한 로컬 미디어 스캔 및 그룹화 구현. UI는 Flutter 또는 Jetpack Compose로 감성적인 카드 스와이프 인터페이스 구축. 복잡한 머신러닝 대신 날짜 및 크기 메타데이터 기반 군집화로 1인 개발 MVP 달성 가능.",
+            "strengths_limits_ko": "정리가 숙제처럼 느껴지지 않고 재미와 감성을 주는 차별점이 있으나, 사용자가 추억에 잠겨 사진 삭제에 심리적으로 몰입하면 실제 정리 효율이 떨어질 수 있는 점이 한계입니다."
+          },
+          {
+            "title_ko": "크리에이터 스토리지 팟: 하이브리드 파일 싱크",
+            "core_idea_ko": "스마트폰으로 4K 영상, 디자인 소스, 고화질 음원을 다루는 1인 크리에이터를 위해 태그 기반 자동 분류, 로컬 외장하드/클라우드 간 다중 동기화, 근거리 고속 전송에 특화된 프라이빗 작업용 파일 매니저.",
+            "what_to_keep_ko": "오프라인 환경에서의 초고속 파일 전송 기능과 직관적인 용량 점유율 시각화 요소를 그대로 유지합니다.",
+            "what_to_change_ko": "일반 사용자용 캐시/중복 파일 정리 대신, 확장자별(프로젝트 파일, 원본 비디오 등) 자동 태깅, 메타데이터 필터링, 편집용 프록시 파일 관리 기능으로 전면 개편합니다.",
+            "mobile_use_or_play_ko": "모바일에서 촬영한 대용량 영상을 근거리 Wi-Fi Direct로 태블릿에 전송 -> 전송과 동시에 스마트폰 내 원본은 경량 프록시 파일로 자동 전환되어 작업 연속성 유지.",
+            "key_features_ko": [
+              "프로젝트 및 확장자 기반 자동 스마트 태깅 시스템",
+              "근거리 장치 간 무손실 다중 파일 배치 고속 전송",
+              "로컬 저장소와 외부 스토리지 간 하이브리드 캐시 관리"
+            ],
+            "solo_mvp_and_effort_ko": "Storage Access Framework(SAF) 및 Wi-Fi Direct/Nearby Connections API 활용. UI는 덴스한 리스트와 태그 필터 위주로 구현. 네트워킹과 파일 I/O 최적화가 필요하여 난이도가 다소 높음.",
+            "strengths_limits_ko": "뚜렷한 타겟층(크리에이터)에게 강력한 유용성을 제공하나, 모바일 OS 파일 시스템의 샌드박스 제약으로 인해 데스크톱 수준의 완전한 파일 제어에는 한계가 존재합니다."
+          },
+          {
+            "title_ko": "말벗 파일 정리사: 시니어 음성 비서 매니저",
+            "core_idea_ko": "폴더 구조나 파일 확장자를 전혀 모르는 고령층 사용자를 위해, 음성 대화와 직관적인 일러스트 카드를 통해 스마트폰 용량 부족 문제를 해결해 주는 대화형 파일 관리 앱.",
+            "what_to_keep_ko": "복잡한 기기 내 파일 상태를 분석해 사용자에게 명확한 진단과 해결책을 제시하는 스마트 추천 기능을 계승합니다.",
+            "what_to_change_ko": "텍스트 기반의 검색과 파일 브라우징 대신, 음성 명령('안 보는 동영상 지워줘')과 큰 글씨의 시각적 카드 UI로 인터페이스를 완전히 재설계합니다.",
+            "mobile_use_or_play_ko": "앱 실행 시 음성 비서가 '어르신, 스마트폰에 사진이 많아 느려졌어요. 카카오톡 받은 사진을 정리할까요?'라고 음성 안내 -> 화면의 큰 '정리하기' 버튼 터치로 자동 완료.",
+            "key_features_ko": [
+              "온디바이스 음성 인식 기반 자연어 파일 제어",
+              "고령층 친화적 대형 폰트 및 시각 카드형 대화 UI",
+              "메신저 앱(카카오톡 등) 잔여 미디어 자동 판별 및 분리"
+            ],
+            "solo_mvp_and_effort_ko": "Android SpeechRecognizer API 및 기본 ContentResolver 활용. UI는 대형 폰트와 고대비 컬러 시스템 적용. 난이도 중하, 음성 인터페이스 연동과 예외 처리 테스트가 개발의 핵심.",
+            "strengths_limits_ko": "명확한 타겟(시니어)과 높은 사회적 가치를 지니나, 음성 인식 정확도와 OS별 권한 허용 과정에서 고령층이 겪는 UX 진입 장벽을 철저히 검증해야 합니다."
+          }
+        ],
+        "concept_comparison_ko": "세 가지 아이디어는 'Files by Google'의 파일 분석 및 정리 기능을 서로 다른 맥락으로 발전시켰습니다. 1안(픽셀 메모리 가드)은 감성적 아카이빙으로 정리를 즐겁게 만드나 삭제 저항이 발생할 수 있고, 2안(크리에이터 스토리지 팟)은 전문 작업 유용성이 높지만 모바일 OS 제약과 구현 난이도가 높으며, 3안(말벗 파일 정리사)은 시니어 접근성을 극대화했으나 음성 환경 변수가 있습니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "1안(픽셀 메모리 가드)은 원본의 핵심 가치인 '스마트 정리 제안'과 '파일 분석'을 그대로 이어받으면서도, 단순 삭제라는 기계적 행위를 '추억 회상 및 타임캡슐 아카이빙'이라는 감성적 경험으로 승화시켰습니다. 1인 개발자가 Android MediaStore API와 기본 메타데이터 필터링 로직만으로 구현 가능하며, 복잡한 서버 연동 없이 로컬에서 완결성 있는 MVP를 만들 수 있습니다. 다만 사용자가 사진 삭제에 대한 심리적 저항을 느낄 수 있는 점이 남는 불확실성입니다.",
+        "next_questions_ko": [
+          "Android MediaStore API를 통해 가져온 미디어 파일 중 유사 이미지를 로컬에서 가볍게 판별할 수 있는 경량 알고리즘의 성능 기준은 무엇인가?",
+          "사용자가 '타임캡슐'로 보관한 사진을 압축 저장할 때 디바이스 내 프라이빗 디렉토리 활용 시 용량 한계는 어디까지인가?",
+          "사진 정리 과정에서 사용자의 실수로 인한 데이터 유실 불안감을 해소하기 위해 '휴지통' 기능을 로컬에 며칠 동안 유지할 것인가?"
+        ]
+      },
+      "brief_at": "2026-10-30T08:14:49+09:00",
+      "brief_quota_day": "2026-10-30",
+      "brief_usage": {
+        "promptTokenCount": 1615,
+        "candidatesTokenCount": 2427,
+        "totalTokenCount": 7346,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1615
+          }
+        ],
+        "thoughtsTokenCount": 3304,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.google.android.apps.nbu.files",
+        "product_kind": "app",
+        "selected_concept_title_ko": "픽셀 메모리 가드: 추억 아카이브 파일 매니저",
+        "project_goal_and_audience_ko": "스마트폰 저장 공간 부족으로 스트레스를 받으면서도, 추억이 담긴 사진과 미디어를 무작정 삭제하기 어려워하는 일반 스마트폰 사용자들을 위한 감성적 파일 정리 앱. 기계적인 용량 확보 작업을 추억 회상 및 타임캡슐 아카이빙 경험으로 전환하여 스트레스 없이 자발적인 정리를 유도합니다.",
+        "source_relation_and_difference_ko": "원본의 핵심 기능인 '저장 공간 분석 및 오래된 사진·중복 파일 식별'이라는 데이터 스캔 메커니즘을 그대로 계승하여 실질적인 용량 부족 문제를 해결합니다. 차별점으로는 무미건조한 '삭제' 중심의 목록형 UI를 탈피하고, 날짜와 메타데이터를 기반으로 사진을 감성적으로 묶어주는 '카드 스와이프 및 타임캡슐' UX를 도입하여 감정적 만족감을 제공합니다.",
+        "core_user_experience_ko": "사용자가 앱을 실행하면 로컬 미디어 스캔이 완료된 후 메인 화면에 '작년 오늘 찍은 유사 사진 20장이 있습니다. 1장만 남기고 타임캡슐에 담을까요?'와 같은 요약 카드가 등장합니다. 사용자는 카드를 좌우로 스와이프하며 남길 사진을 고르고, 나머지 데이터는 압축 백업함으로 이동시키는 직관적인 조작을 수행합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "메타데이터 기반 미디어 군집화 및 유사 사진 식별",
+            "user_action_and_behavior_ko": "사용자가 별도의 복잡한 설정 없이 앱을 켜면, 기기 내 사진 메타데이터(촬영 날짜, 위치, 파일 크기)를 분석하여 유사한 구도나 시기의 사진들을 자동으로 그룹화합니다. 불필요한 중복 데이터나 흔들린 사진을 직관적으로 보여주어 사용자가 정리 대상으로 쉽게 인식하게 만듭니다.",
+            "practical_implementation_ko": "Android MediaStore API를 활용해 로컬 이미지 및 비디오 쿼리를 수행하고, 코틀린(Kotlin) 코루틴을 이용해 백그라운드에서 날짜 및 파일 크기 기반의 간단한 군집화 알고리즘을 구현합니다. 별도의 무거운 머신러닝 모델 대신 메타데이터 필터링을 사용하여 1인 개발 환경에서 가볍고 빠르게 작동하도록 합니다."
+          },
+          {
+            "feature_ko": "감성 카드 스와이프 인터페이스 및 타임캡슐 아카이빙",
+            "user_action_and_behavior_ko": "정리 대상 미디어가 다이어리 카드 형태로 화면에 표시되며, 사용자는 카드를 오른쪽으로 넘겨 보관하고 왼쪽으로 넘겨 타임캡슐(압축 보관함)로 보낼 수 있습니다. 이 과정을 통해 삭제에 대한 심리적 저항감을 줄이고 정리를 놀이나 회상처럼 즐겁게 느낍니다.",
+            "practical_implementation_ko": "Jetpack Compose의 Modifier.pointerInput 또는 제3자 카드 스와이프 라이브러리를 활용해 부드러운 터치 제스처 기반의 UI를 구축합니다. 스와이프 결과에 따라 로컬 파일의 삭제 혹은 전용 아카이브 디렉토리로의 이동 처리를 실행합니다."
+          },
+          {
+            "feature_ko": "시각적 스토리지 리포트 및 월간 추억 요약",
+            "user_action_and_behavior_ko": "기기 용량이 어떤 파일 유형(사진, 동영상, 앱 캐시 등)에 의해 얼마나 잠식되었는지 감성적인 그래프와 일러스트로 확인합니다. 이번 달에 확보한 용량이 어떤 추억들과 교환되었는지 요약 리포트를 제공받습니다.",
+            "practical_implementation_ko": "Canvas API 또는 가벼운 차트 컴포저블을 사용하여 스토리지 점유율을 직관적인 바/파이 형태로 렌더링하고, SharedPreferences 또는 Room DB를 통해 월간 아카이빙 통계 데이터를 누적 관리합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "스토리지 대시보드 (메인 화면)",
+            "contents_and_actions_ko": "현재 남은 저장 공간 퍼센트 표시, 상단에 '오늘의 추억 타임캡슐' 카드 노출, 하단에 주요 정리 카테고리(유사 사진, 대용량 영상, 오래된 스크린샷) 진입 버튼 제공."
+          },
+          {
+            "screen_ko": "타임캡슐 스와이프 정리 화면",
+            "contents_and_actions_ko": "선택된 그룹의 사진들이 카드 형태로 중앙에 표시됨. 좌측 스와이프 시 '압축 타임캡슐로 이동', 우측 스와이프 시 '이 기기에 남기기' 액션 수행. 하단에 확보되는 예상 용량이 실시간 업데이트됨."
+          },
+          {
+            "screen_ko": "타임캡슐 보관함 및 설정 화면",
+            "contents_and_actions_ko": "정리되어 압축된 파일들을 모아보는 공간. 언제든 원본 위치로 복원하거나 영구 삭제 가능. 앱 테마 및 스캔 주기 설정 기능 제공."
+          }
+        ],
+        "implementation_approach_ko": "Android 플랫폼 전용으로 Jetpack Compose와 Kotlin을 사용하여 선언형 UI를 구축합니다. 데이터 접근은 Android MediaStore API와 Storage Access Framework(SAF)를 활용하며, 가벼운 로컬 상태 관리를 위해 Room 데이터베이스를 적용합니다. 별도의 서버 백엔드가 필요 없는 오프라인 완결형 구조로 설계하여 1인 개발자가 유지보수하기 용이합니다.",
+        "data_and_storage_ko": [
+          "MediaStore MediaItem 객체: 기기 내 이미지/동영상의 ID, URI, 날짜, 크기, 해상도 정보를 읽어와 메모리에 캐시.",
+          "ArchiveRecord Entity (Room DB): 사용자가 타임캡슐로 보낸 파일의 메타데이터, 압축 여부, 원본 경로, 이동 시각을 기록하여 복원 시 활용.",
+          "AppPreferences (DataStore): 사용자의 정리 선호도, 마지막 스캔 시각, 알림 설정 값 저장."
+        ],
+        "mvp_scope_ko": "기기 내 이미지 및 동영상을 스캔하여 날짜 기준으로 유사 그룹을 묶어주는 기능과, 이를 카드 형태로 보여주어 좌우 스와이프로 보관 또는 압축 이동(또는 삭제)할 수 있는 핵심 UI의 구현. 복잡한 클라우드 연동이나 고도화된 AI 이미지 분석은 MVP 단계에서 제외하고 로컬 메타데이터 필터링만으로 기능의 유효성을 검증합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 환경 구축 및 미디어 스캔 모듈",
+            "deliverable_and_check_ko": "Jetpack Compose 기본 레이아웃 구성 및 Android Runtime Permission(저장 공간 접근 권한) 처리 구현. MediaStore API를 통해 기기 사진 목록을 정상적으로 불러오는지 로그로 확인."
+          },
+          {
+            "stage_ko": "2단계: 군집화 로직 및 메타데이터 필터링",
+            "deliverable_and_check_ko": "불러온 미디어를 촬영 날짜 및 크기 기준으로 분류하여 유사 그룹 리스트를 생성하는 코틀린 로직 구현. 디버그 화면에서 그룹별 데이터가 올바르게 묶이는지 확인."
+          },
+          {
+            "stage_ko": "3단계: 카드 스와이프 UX 및 정리 액션 구현",
+            "deliverable_and_check_ko": "제스처 기반의 카드 스와이프 인터페이스 구현 및 스와이프 결과에 따른 파일 이동/삭제 처리 연동. 실제 기기 에뮬레이터 또는 테스트폰에서 카드가 부드럽게 넘어가며 파일 상태가 변하는지 확인."
+          },
+          {
+            "stage_ko": "4단계: UI 다듬기 및 예외 처리",
+            "deliverable_and_check_ko": "대시보드 화면 및 스토리지 리포트 시각화 결합. 권한 거부 상황이나 미디어가 없는 엣지 케이스 처리 후 전체적인 흐름 점검."
+          }
+        ],
+        "possible_extensions_ko": "나중에 구글 드라이브나 원드라이브 등 외부 클라우드 스토리지와 연동하여 타임캡슐을 클라우드로 자동 백업하는 기능, 매월 감성적 통계를 리포트 형식으로 전달하는 푸시 알림 기능, 민감한 추억을 숨기는 보안 폴더 기능 추가.",
+        "risks_and_open_decisions_ko": [
+          "안드로이드 버전별 Scoped Storage 정책 강화로 인해 파일 삭제 및 이동 권한 처리가 복잡해질 수 있음. (확인 방법: 최신 안드로이드 타겟 SDK에서 SAF 및 MediaStore 쓰기 요청 동작 테스트)",
+          "사용자가 추억에 몰입하여 정리를 포기하거나 삭제에 과도한 피로감을 느낄 경우 앱의 본래 목적이 퇴색될 수 있음. (확인 방법: 프로토타입 사용성 테스트를 통해 스와이프 피로도 점검)"
+        ],
+        "draft_status_ko": "본 문서는 '픽셀 메모리 가드: 추억 아카이브 파일 매니저' 기획을 바탕으로 작성된 모바일 개발 설계 초안이며, 실제 코드 구현, 기기별 플레이테스트 및 성능 최적화는 아직 완료되지 않았습니다."
+      },
+      "plan_at": "2026-10-30T08:15:04+09:00",
+      "plan_quota_day": "2026-10-30",
+      "plan_usage": {
+        "promptTokenCount": 2449,
+        "candidatesTokenCount": 2279,
+        "totalTokenCount": 5845,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2449
+          }
+        ],
+        "thoughtsTokenCount": 1117,
+        "serviceTier": "standard"
+      }
     }
   }
 }

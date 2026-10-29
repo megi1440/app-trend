@@ -9165,6 +9165,93 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-29"
+    },
+    "google:com.playtstudio.abyssknight": {
+      "app_key": "google:com.playtstudio.abyssknight",
+      "name": "深淵の騎士育成記",
+      "developer": "Playt Dev",
+      "source": "google",
+      "country": "JP",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.playtstudio.abyssknight&hl=ja&gl=JP",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:36:35+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "魔法と剣術、その両方を極める伝説の誕生！ 高位魔法使いの家柄に生まれたティレア。彼女が夢見るのは、魔法使いではなく勇者！ 運命的な出会い、そして秘められた可能性…！剣と魔法を自在に操る最強の魔法使いが今、誕生する！ 今こそ、ティレアと共に伝説の旅へ！",
+      "analysis": {
+        "app_key": "google:com.playtstudio.abyssknight",
+        "summary_ko": "深淵の騎士育成記는 마법과 검술을 모두 사용하는 주인공 티レア가 용자가 되기 위해 모험을 떠나는 RPG입니다. 주인공을 육성하며 전설의 여정을 함께하는 것이 핵심입니다. 성장 요소와 전투를 중심으로 한 전형적인 육성 RPG 경험을 제공합니다.",
+        "features_ko": [
+          "검과 마법을 사용하는 주인공을 육성합니다.",
+          "스토리 진행에 따라 주인공의 능력을 강화합니다.",
+          "전투를 통해 경험치를 획득하고 성장합니다."
+        ],
+        "noteworthy_ko": "성장형 RPG에서 주인공의 스킬 조합을 어떻게 구성하느냐에 따라 전투의 재미가 달라지는 점이 개발 관점에서 중요합니다. 1인 개발 시 전투 시스템의 단순화와 성장 체감의 극대화가 관건입니다.",
+        "development_ko": "캐릭터 스탯 관리, 스킬 시스템, 전투 로직 구현이 핵심입니다. 데이터베이스를 활용한 아이템 및 장비 관리 시스템이 필요합니다. 반복적인 전투를 지루하지 않게 만드는 보상 설계와 밸런스 조정이 중요합니다.",
+        "idea_ko": "주인공이 사용하는 마법과 검술을 조합하여 자신만의 스킬 콤보를 만드는 '스킬 커스터마이징' 시스템이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "검과 마법을 결합한 육성 시스템.",
+          "주인공의 성장 중심 서사."
+        ],
+        "systems_ko": [
+          "캐릭터 스탯 및 성장 시스템",
+          "전투 로직 및 스킬 시스템",
+          "아이템 및 장비 데이터 관리",
+          "보상 및 퀘스트 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "육성 RPG는 시스템 구조가 정형화되어 있어 1인 개발자가 구현하기에 적합한 장르입니다. 다만, 콘텐츠의 양에 따라 난이도가 달라질 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 전투 시스템",
+            "캐릭터 레벨업 로직",
+            "기본 스킬 2~3종"
+          ],
+          "defer": [
+            "방대한 장비 아이템",
+            "복잡한 스토리 컷신"
+          ],
+          "risks": [
+            "반복적인 전투의 지루함",
+            "성장 밸런스 설계의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스킬 융합 시스템",
+            "concept": "검술 스킬과 마법 스킬을 합쳐 새로운 속성의 스킬을 만들어내는 시스템입니다.",
+            "first_step": "두 가지 스킬 ID를 조합하여 새로운 효과를 생성하는 데이터 테이블 구현."
+          },
+          {
+            "title": "자동 전투 최적화기",
+            "concept": "자동 전투 시 스킬 사용 우선순위를 플레이어가 직접 설정하여 전략을 짜는 시스템입니다.",
+            "first_step": "스킬별 우선순위 값을 설정하고 전투 로직에서 이를 참조하게 하는 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "RPG의 기본 시스템인 스탯, 전투, 성장을 배우기에 가장 좋은 장르입니다. 작은 규모의 전투 시스템부터 시작하여 점진적으로 확장하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 전투 방식(턴제, 실시간 등)이나 성장 시스템의 세부 내용이 명시되어 있지 않습니다.",
+        "name": "深淵の騎士育成記",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.playtstudio.abyssknight&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
     }
   }
 }

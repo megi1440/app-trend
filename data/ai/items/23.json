@@ -7856,6 +7856,365 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-29"
+    },
+    "google:com.ryonggame.dragonknightidle": {
+      "app_key": "google:com.ryonggame.dragonknightidle",
+      "name": "드래곤 나이트 키우기 : 방치형 RPG",
+      "developer": "RyongGames",
+      "source": "google",
+      "country": "KR",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.ryonggame.dragonknightidle&hl=ko&gl=KR",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:32:29+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "왕국을 구하기 위해 10년 전으로 돌아간 드래곤 나이트 나츠! 다시 강해져 왕국을 구원하라! 강력한 동료 기사들과 함께 강력한 드래곤 나이트를 육성 하세요! [게임 특징] -온/오프라인 보상 100% 동일! 24시간 성장하는 캐릭터 -도트 끝판왕! 화려하고 시원한 그래픽, 압도적인 무한 성장! -직관적이고 재미있는 다양한 성장 시스템! -도파민 폭발! 장비를 파밍해 나만의 특별한 드래곤 나이트 육성! -멀티 레이드,보스전을 통한 숨막히는 전투! -다양한 코스튬을 통한 나만의 드래곤 나이트 꾸미기 주의사항 1. 해당 상품에는 부분 유료 아이템 및 게임 머니 결제기능이 포함되어 있습니다. 부분 유료 아이템 및 게임 머니를 결제할 시 실제 과금이 발생하오니 이점 유의하시기 바랍니다. 2. 게임에서 구매한 디지털 상품은 '전자상거래 등에서의 소비자 보호에 관한 법률'에 따라 청약철회가 가능하거나 제한될 수 있습니다 3. 이메일 : ryonggame4@gmail.com ---- 개발자 연락처 : (주)룡게임 성동구 성수일로 77 15층 1512호 (성수동1가,서울숲아이티밸리) 성동구, 서울특별시 04790 South Korea 6088702012 2024-서울성동-1810 서울특별시 성동구",
+      "analysis": {
+        "app_key": "google:com.ryonggame.dragonknightidle",
+        "summary_ko": "드래곤 나이트 키우기는 방치형 RPG로, 10년 전으로 돌아간 주인공이 동료들과 함께 성장하며 왕국을 구원하는 게임입니다. 온/오프라인 보상이 동일하게 제공되어 24시간 성장이 가능합니다. 다양한 장비 파밍과 코스튬을 통해 캐릭터를 육성하고 보스전과 레이드에 참여할 수 있습니다.",
+        "features_ko": [
+          "오프라인 상태에서도 재화가 쌓이는 방치형 성장 시스템을 제공합니다.",
+          "도트 그래픽을 활용하여 화려한 전투 이펙트를 연출합니다.",
+          "다양한 장비를 파밍하여 캐릭터의 능력치를 강화할 수 있습니다.",
+          "멀티 레이드와 보스전을 통해 다른 유저와 협력하거나 경쟁합니다.",
+          "코스튬 시스템을 통해 캐릭터의 외형을 자유롭게 꾸밀 수 있습니다."
+        ],
+        "noteworthy_ko": "방치형 RPG의 핵심인 '성장 체감'을 극대화하기 위해 보상 구조를 설계한 점이 흥미롭습니다. 도트 그래픽을 사용하여 시각적 몰입감을 높이고, 장비 파밍이라는 반복적인 요소를 통해 지속적인 플레이를 유도합니다. 개인 개발 시 서버와 클라이언트 간의 데이터 동기화 안정성이 중요할 것으로 추정됩니다.",
+        "development_ko": "방치형 게임의 핵심인 재화 계산 로직과 캐릭터 성장 수치 밸런싱이 가장 중요합니다. 도트 그래픽 리소스 제작 부담이 크며, 서버와의 데이터 통신을 통해 부정 행위를 방지하는 보안 설계가 필요합니다. 테스트 단계에서 성장 속도에 따른 콘텐츠 소모 속도를 조절하는 밸런스 작업이 필수적입니다.",
+        "idea_ko": "방치형 성장에 '동료와의 상호작용'을 추가하여, 특정 동료 조합 시 발생하는 시너지 효과를 강조하는 시스템을 제안합니다.",
+        "highlights_ko": [
+          "24시간 멈추지 않는 성장 시스템으로 플레이어의 피로도를 낮췄습니다.",
+          "도트 그래픽을 활용한 시각적 재미와 다양한 코스튬으로 수집 욕구를 자극합니다."
+        ],
+        "systems_ko": [
+          "재화 자동 획득 및 누적 시스템",
+          "캐릭터 능력치 및 스킬 레벨업 로직",
+          "장비 파밍 및 강화 시스템",
+          "전투 시뮬레이션 및 보스전 로직",
+          "데이터 저장 및 서버 동기화"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "방치형 RPG는 게임의 규칙이 정형화되어 있어 구현 난이도는 낮으나, 수많은 아이템과 스킬의 밸런스를 맞추는 작업은 꾸준한 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "자동 전투 시스템",
+            "재화 획득 및 성장 UI",
+            "기본 장비 강화 시스템"
+          ],
+          "defer": [
+            "멀티 레이드",
+            "복잡한 코스튬 시스템",
+            "실시간 PVP"
+          ],
+          "risks": [
+            "성장 밸런스 붕괴로 인한 재미 반감",
+            "서버 데이터 조작 가능성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "동료 시너지 시스템",
+            "concept": "특정 동료들을 함께 배치하면 추가 능력치가 부여됩니다. 조합에 따라 전투 스타일이 크게 변하도록 설계합니다.",
+            "first_step": "동료 조합에 따른 능력치 보너스 계산 로직을 구현합니다."
+          },
+          {
+            "title": "시간 여행 던전",
+            "concept": "과거와 미래를 오가며 던전의 난이도와 보상이 달라지는 시스템입니다. 특정 시간대에만 얻을 수 있는 재료가 존재합니다.",
+            "first_step": "시간대별로 던전 보상을 다르게 설정하는 데이터 구조를 만듭니다."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 데이터 구조와 밸런스 설계 방식을 배우기에 적합합니다. 다만, 그래픽 리소스 제작 능력이 부족하다면 완성도 높은 도트 게임을 만들기 어려울 수 있습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 서버 아키텍처나 결제 시스템의 구현 방식이 명시되지 않았습니다. 실제 게임의 밸런스 수치나 레이드 시스템의 상세 동작 방식은 확인이 불가능합니다.",
+        "name": "드래곤 나이트 키우기 : 방치형 RPG",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.ryonggame.dragonknightidle&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 225,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 5,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
+    },
+    "google:pdfreader.pdfviewer.free.officetool": {
+      "app_key": "google:pdfreader.pdfviewer.free.officetool",
+      "name": "PDFビューアー - PDFリーダー、ワード、エクセル",
+      "developer": "Efficient Tools",
+      "source": "google",
+      "country": "JP",
+      "category": "app_productivity",
+      "detail_url": "https://play.google.com/store/apps/details?id=pdfreader.pdfviewer.free.officetool&hl=ja&gl=JP",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:36:17+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "仕事と生活の両方で簡単にファイルを読み込み、管理できるアプリをお探しですか？ PDFリーダーを試してみてください−あなたのすべてのドキュメントニーズに対応する軽量なリーダー！ PDF、Word、Excel、PPT、TXT、XLSX、DOCなどのすべてのフォーマットをスムーズに処理します。さらに、パスワードで保護されたファイルも対応しています。PDFリーダーはデバイス内のファイルを自動検索し、すべてのファイルを一箇所にわかりやすく表示するため、いつでもどこでも素早くアクセスできます。 もう待つことはありません、PDFビューア · PDFリーダーを使って生産性を最大限に高めましょう！ 🎉 PDFリーダーの基本機能： - 複数のフォーマットに対応： PDF、Word、Excel、PPT、TXT、XLSX、DOCなど。 - サムネイルプレビュー： サムネイルをクリックして直接任意のページにジャンプします。 - 集中的なファイル管理： 内部および外部ストレージからファイルを管理します。 - オフラインで読み込み： インターネット制限から解放されます。 - お気に入りをスターに： 必要なファイルを1クリックでブックマークして簡単にアクセスします。 - ユーザーフレンドリーなインターフェース： 欲しい機能を簡単に見つけることができます。 🤩 PDFビューア · PDFリーダーとは何ですか？ 📍 強力なPDFリーダー＆ビューア - 他のアプリからPDFを開いて読み込むことができます - 必要に応じてズームイン・ズームアウトして読むことができます - 連続したページスクロールリーディングモードがあります - 直接任意のページにジャンプできます - PDFを素早く印刷することができます - パスワードで保護されたPDFに対応しています 📍 フル機能のファイルマネージャー - 高速な読み込み：デバイス上のファイルを素早く開いて表示することができます - ファイルを管理：1クリックでファイルを削除/名前変更/スター付けできます - ファイルの詳細を簡単に確認できます：サイズ、場所、最終変更日、最終閲覧日など - アプリ内で直接友達とファイルを共有できます - 縦と横のビューが可能です 📍 スマートなオールドキュメントリーダー - PDFエッセイや契約をいつでもどこでも表示できます - PDFまたはWord形式の履歴書を素早く閲覧できます - Excelでセルを簡単に検索できます - PPTプレゼンテーションの準備に便利です - TXTドキュメントや電子ブックをスムーズに読むことができます 🌟 PDFビューア · PDFリーダーを選ぶ理由 - Word、PDF、Excel、PPT、TXTなどと完璧に互換性があります - 優れた読書体験 - 操作が簡単 - スマートなファイル管理 - 軽量で高速に動作 - オフラインで利用可能 - 大容量のファイルもスムーズに開ける 🌟 なぜPDFリーダー - PDFビューアを選ぶべきですか？ - Word、PDF、Excel、PPT、TXTなどと完全に互換性があります - 優れた読書体験ができます - 操作が簡単です - スマートなファイル管理が可能です - 軽量で高速に動作します - オフラインでも利用可能です - 大きなファイルもスムーズに開けます 🔜 近日公開予定: - フォーマット変換: 画像をPDFに変換したり、PDFをWordに変換するなど - PDFスキャナー: 画像、領収書、メモをPDFにスキャンすることができます - さらなるフォーマットのサポート: ZIP、TIFFなどのさらなるファイルフォーマットのサポート - E-署名: 文書に簡単に電子署名を追加できます - ダークモード: 低照度の条件でも快適に読書できます - ファイル暗号化: 全てのフォーマットファイルに安全なパスワードを設定できます …… この効率的なオフィスリーダーで読書体験をアップグレードしましょう！ PDFリーダー - PDFビューアは仕事と生活の両方で信頼性のあるアシスタントになります！ * Android 11以降では、MANAGE_EXTERNAL_STORAGEの権限が必要です。この権限はデバイス上のドキュメントの読み取りと編集のみに使用され、他の目的には一切使用されません。 アプリを使用している際に質問や提案がある場合は、pdfreaderappservice@gmail.comまでお気軽にお問い合わせください。お手伝いさせていただきます！",
+      "analysis": {
+        "app_key": "google:pdfreader.pdfviewer.free.officetool",
+        "summary_ko": "PDF, Word, Excel 등 다양한 문서 형식을 읽고 관리할 수 있는 통합 문서 뷰어 앱입니다. 기기 내 문서를 자동으로 검색하여 한곳에서 관리하며, 오프라인 환경에서도 문서를 열람할 수 있습니다. 사용자는 즐겨찾기 기능을 통해 필요한 문서에 빠르게 접근할 수 있습니다.",
+        "features_ko": [
+          "PDF, Word, Excel, PPT, TXT 등 다양한 파일 형식을 지원합니다.",
+          "기기 내부 및 외부 저장소의 문서를 자동으로 검색하고 관리합니다.",
+          "문서 내 페이지 이동, 줌인/아웃, 연속 스크롤 읽기 모드를 제공합니다.",
+          "중요한 문서를 즐겨찾기에 추가하여 빠르게 접근할 수 있습니다.",
+          "오프라인 상태에서도 저장된 문서를 열람할 수 있습니다."
+        ],
+        "noteworthy_ko": "다양한 오피스 포맷을 하나의 앱에서 통합 관리한다는 점이 생산성 측면에서 유용합니다. 특히 안드로이드의 파일 접근 권한을 활용하여 기기 내 파편화된 문서를 중앙화하는 방식이 개발 관점에서 핵심입니다.",
+        "development_ko": "각 문서 포맷별 렌더링 라이브러리 연동이 핵심 기술입니다. 파일 시스템 접근 권한 관리와 대용량 파일의 메모리 효율적인 로딩이 중요합니다. UI는 문서 목록의 가독성과 빠른 검색 속도에 집중해야 합니다.",
+        "idea_ko": "문서 내 텍스트를 추출하여 요약해 주는 AI 보조 기능을 추가하면 차별화된 생산성 도구가 될 것입니다.",
+        "highlights_ko": [
+          "다양한 포맷을 지원하여 별도의 뷰어 앱 설치를 최소화합니다.",
+          "사용자 친화적인 파일 관리 인터페이스를 통해 문서 접근성을 높였습니다."
+        ],
+        "systems_ko": [
+          "파일 시스템 스캔 및 인덱싱",
+          "문서 렌더링 엔진 연동",
+          "즐겨찾기 및 메타데이터 관리",
+          "파일 검색 및 정렬 로직"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 문서 포맷을 안정적으로 렌더링하는 것은 고도의 라이브러리 활용 능력을 요구하며, 파일 시스템 권한 관리와 보안 이슈가 복잡합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "PDF 렌더링 기능",
+            "기기 내 파일 탐색기",
+            "파일 즐겨찾기 기능"
+          ],
+          "defer": [
+            "Excel/PPT 편집 기능",
+            "클라우드 연동"
+          ],
+          "risks": [
+            "특정 파일 포맷의 렌더링 오류",
+            "안드로이드 버전별 파일 접근 권한 정책 변화"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "문서 태그 분류기",
+            "concept": "사용자가 문서에 직접 태그를 달아 카테고리별로 관리할 수 있게 합니다.",
+            "first_step": "파일 경로와 태그를 매핑하는 로컬 데이터베이스 구축."
+          },
+          {
+            "title": "읽기 집중 모드",
+            "concept": "문서 읽기 중 알림을 차단하고 화면 밝기를 최적화하는 모드입니다.",
+            "first_step": "화면 밝기 제어 및 시스템 알림 차단 API 연동."
+          }
+        ],
+        "recommendation_ko": "파일 시스템 접근과 외부 라이브러리 연동을 통한 실용적인 앱 개발을 경험하기 좋습니다. 다만 문서 렌더링의 안정성이 중요하므로 오픈소스 라이브러리 활용 능력이 필수적입니다.",
+        "source_limitations_ko": "소개문에 언급된 '향후 추가 예정 기능(스캔, 변환 등)'은 현재 구현된 기능이 아닙니다. 보안 암호화나 클라우드 동기화 기능은 명시되지 않았습니다.",
+        "name": "PDFビューアー - PDFリーダー、ワード、エクセル",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=pdfreader.pdfviewer.free.officetool&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 171,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 23,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
+    },
+    "google:arrow.cube.escape3d": {
+      "app_key": "google:arrow.cube.escape3d",
+      "name": "Cube Topia 3D - 矢印ブロックパズル",
+      "developer": "Iridium Mobile Team",
+      "source": "google",
+      "country": "JP",
+      "category": "game_casual",
+      "detail_url": "https://play.google.com/store/apps/details?id=arrow.cube.escape3d&hl=ja&gl=JP",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:37:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Cube Topia 3Dへようこそ。観察力 - タイミング - 計画性が融合した、癒し系3Dパズルゲームです。 キューブをくるくる回しながら矢印を解放し、面をすっきり消していく達成感をぜひ味わってください。シンプルな操作でサクサク遊べるのに、パズルが進むにつれて自然と深い思考が求められます。 - 自由に回せる3D立体パズル 全6面が解答に関係する立体キューブが舞台。裏側に答えが隠れていることも。自由に視点を変えながら、最適な手順を見つけよう。 - 矢印を解放して面をクリア 矢印をタップして進む方向に発射。連鎖反応でまとめてクリアできると最高に気持ちいい！ - 手作りパズルが何百問も - 初心者向けコンパクトなレイアウト - やや難しい空間配置 - じっくり考える大型構造 - 計画性が試されるマルチステージ - ゆったりリラックスプレイ 矢印がなめらかに滑り、面がすっきり消えていく爽快感。ミニマルなビジュアルで集中しやすい。 - 自然と脳トレになる 空間認識 - 論理的思考 - パターン認識など、日常の隙間時間に脳を鍛えられます。 - ライフスタイルに合わせて 通勤中 - 休憩時間 - 就寝前など、ちょっとした時間にぴったり。 Developer Phone: +85254296520 Support Email: lumen.customerservice@outlook.com Privacy Policy: https://sites.google.com/view/pp-lumenstudio User Agreement: https://sites.google.com/view/lumenstudio-eula ひとつのキューブ。無限のパズル。終わりなき可能性。",
+      "analysis": {
+        "app_key": "google:arrow.cube.escape3d",
+        "summary_ko": "Cube Topia 3D는 3D 큐브를 회전시키며 숨겨진 矢印(화살표)를 찾아 발사하고 면을 제거하는 퍼즐 게임입니다. 큐브의 모든 면을 활용하여 공간 지각력을 시험하며, 단계가 올라갈수록 전략적인 계획이 요구됩니다. 미니멀한 비주얼과 함께 퍼즐을 해결하는 성취감을 제공합니다.",
+        "features_ko": [
+          "6면으로 구성된 3D 큐브를 자유롭게 회전하며 시점을 변경할 수 있습니다.",
+          "화살표를 탭하여 발사하고, 연쇄 반응을 통해 큐브의 면을 제거합니다.",
+          "난이도에 따라 단순한 레이아웃부터 복잡한 대형 구조물까지 다양한 퍼즐을 제공합니다.",
+          "공간 인식과 논리적 사고를 돕는 뇌 훈련 요소가 포함되어 있습니다."
+        ],
+        "noteworthy_ko": "3D 공간을 활용한 퍼즐 메커니즘이 핵심이며, 큐브의 뒷면까지 고려해야 하는 입체적 설계가 흥미롭습니다. 1인 개발 시 3D 회전 제어와 충돌 판정 구현이 개발의 핵심 난관이 될 것으로 추정됩니다.",
+        "development_ko": "3D 엔진(Unity 등)의 카메라 회전 및 터치 입력 처리가 핵심입니다. 퍼즐 데이터는 큐브의 면 정보를 배열로 관리하여 구현할 수 있습니다. 콘텐츠 제작 시 다양한 난이도의 큐브 배치를 설계하는 것이 가장 큰 작업량이 될 것입니다.",
+        "idea_ko": "큐브의 면을 제거할 때마다 주변 블록이 중력에 의해 이동하는 '중력 퍼즐' 요소를 추가하여 전략성을 높이는 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "3D 입체 구조를 활용한 퍼즐 설계로 기존 2D 퍼즐과 차별화된 공간감을 제공합니다.",
+          "화살표 발사와 연쇄 제거를 통해 시각적이고 청각적인 쾌감을 극대화했습니다."
+        ],
+        "systems_ko": [
+          "3D 카메라 회전 및 터치 입력 시스템",
+          "큐브 면 데이터 관리 및 상태 제어 시스템",
+          "화살표 발사 및 충돌 판정 시스템",
+          "연쇄 반응(Chain Reaction) 로직",
+          "레벨 데이터 로더 및 UI 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "3D 공간에서의 터치 입력과 카메라 제어는 구현 난이도가 있으나, 퍼즐 로직 자체는 격자 기반의 데이터 관리로 단순화할 수 있습니다. 물리 엔진을 과도하게 사용하지 않는다면 1인 개발로 충분히 구현 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "큐브 회전 및 터치 입력",
+            "화살표 발사 및 면 제거 로직",
+            "레벨 데이터 관리"
+          ],
+          "defer": [
+            "복잡한 3D 이펙트",
+            "다양한 스킨 및 커스터마이징"
+          ],
+          "risks": [
+            "카메라 회전 시 조작감 불편",
+            "복잡한 큐브 구조의 데이터 관리 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중력 큐브 퍼즐",
+            "concept": "면을 제거하면 남은 블록이 중력 방향으로 이동하여 새로운 조합을 만드는 규칙입니다. 큐브를 회전시켜 중력 방향을 바꾸는 전략이 필요합니다.",
+            "first_step": "2x2x2 큐브에서 특정 면 제거 시 블록이 아래로 떨어지는 로직 구현."
+          },
+          {
+            "title": "색상 매칭 큐브",
+            "concept": "화살표 발사뿐만 아니라 같은 색상의 면을 인접하게 배치해야 제거되는 규칙을 추가합니다.",
+            "first_step": "큐브 면의 색상 데이터를 정의하고 인접 면 확인 알고리즘 작성."
+          }
+        ],
+        "recommendation_ko": "3D 공간에서의 상호작용과 퍼즐 로직을 결합하는 방법을 배우기에 적합합니다. 미니멀한 그래픽으로도 충분한 재미를 줄 수 있음을 확인하는 좋은 사례입니다.",
+        "source_limitations_ko": "소개문에는 구체적인 퍼즐 생성 알고리즘이나 데이터 구조가 명시되어 있지 않습니다. 또한, 외부 광고 연동이나 인앱 결제 시스템의 존재 여부는 확인되지 않았습니다.",
+        "name": "Cube Topia 3D - 矢印ブロックパズル",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=arrow.cube.escape3d&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
+    },
+    "apple:6743738094": {
+      "app_key": "apple:6743738094",
+      "name": "My Sticker Room - Decor Game",
+      "developer": "SayGames LTD",
+      "source": "apple",
+      "country": "US",
+      "category": "game_simulation",
+      "detail_url": "https://apps.apple.com/us/app/my-sticker-room-decor-game/id6743738094?uo=2",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:37:59+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "THE ULTIMATE COZY STICKER GAME Life can be stressful, so it’s important to make time for yourself to relax – and what better way to do that than with an adorable kawaii sticker game? A mixture of décor games and sticker books, come peel up stickers and put them in their spots to finish each page, and feel your stress melt away. This is the ultimate chill home décor game with charming animal characters and room décor galore is the answer to all your worries! STICK THE LANDING Peel, stick, repeat – it really is that simple in this relaxing game filled with cute cats, diy home décor, and of course, stickers! Perfect for all ages and skill levels, this calm and easy sticker book game allows you to get your decorating groove on across all sorts of rooms and locations. The kawaii room décor and animations will help you relax, and the easy mechanics and calm gameplay mean you’ll be feeling cool as a cucumber even if you’ve only had time to play one level. The best parts: - Cute cats and more: Each level is essentially a sticker book page where you’ll need to place all the stickers in the right spots to help our little animal friends live their best lives, be it at the coffee shop or hanging with friends! Enjoy watching the room décor items fill out the space and bring it to life thanks to the home décor game aspect, but free yourself from the stress of having to choose it all yourself. - Bye-bye stress: This relaxing sticker game is perfect for any amount of time – be it waiting before a meeting, just chilling at home, or in the elevator at work before a big presentation. Just open it and start sticking! Room décor items, kawaii animals, and more will fall into place thanks to your decorating skills, and before you know it you’ll be feeling ready to take on whatever is ahead! - Chill gameplay: In our quest to make this a relaxing sticker game, we pulled out all the stops – the game mechanics are simple and straightforward, the graphics are cute and cozy, and the ambiance: adoring and amazing. Fun for both the young and young at heart, everyone will enjoy decorating various rooms with décor items and seeing the cute cats, bunnies, and more in their little spaces! PEEL, STICK, REPEAT Come try the most relaxing and kawaii sticker game in town: My Sticker Room! Here you’ll get to peel and stick diy home décor, cute animals, and more onto their spots and watch the pages come alive! This cute decorating game will leave you stress free thanks to the chill graphics and gameplay, and players of all ages will enjoy placing the stickers on each new page. Relax in style with My Sticker Room today! Privacy Policy: https://say.games/privacy-policy Terms of Use: https://say.games/terms-of-use",
+      "analysis": {
+        "app_key": "apple:6743738094",
+        "summary_ko": "My Sticker Room은 스티커 북과 인테리어 게임을 결합한 힐링 게임입니다. 플레이어는 귀여운 동물 친구들이 머무는 공간에 스티커를 붙여 방을 꾸밉니다. 복잡한 조작 없이 스티커를 배치하며 스트레스를 해소하는 데 중점을 둡니다.",
+        "features_ko": [
+          "스티커 북처럼 스티커를 정해진 위치에 붙여 방을 완성합니다.",
+          "귀여운 동물 캐릭터와 다양한 인테리어 소품을 제공합니다.",
+          "간단한 드래그 앤 드롭 조작으로 누구나 쉽게 플레이할 수 있습니다.",
+          "차분한 그래픽과 분위기를 통해 심리적 안정감을 제공합니다."
+        ],
+        "noteworthy_ko": "스티커 배치라는 단순한 행위를 게임화하여 '힐링'이라는 사용자 경험을 극대화한 점이 흥미롭습니다. 1인 개발 시 아트워크의 일관성과 힐링 분위기를 조성하는 사운드 디자인이 핵심 요소가 될 것입니다.",
+        "development_ko": "핵심 기술은 2D 드래그 앤 드롭 상호작용과 레이어 기반의 이미지 배치 시스템입니다. 콘텐츠 제작 부담은 아트워크(스티커, 배경)의 양에 비례하며, 힐링 분위기를 위해 UI/UX를 매우 단순하고 직관적으로 설계해야 합니다. 복잡한 로직보다는 시각적 완성도가 중요한 프로젝트입니다.",
+        "idea_ko": "사용자가 직접 스티커를 디자인하고 공유할 수 있는 '나만의 스티커 제작' 기능을 추가하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "복잡한 규칙 없이 스티커를 붙이는 단순하고 직관적인 게임 플레이.",
+          "귀여운 아트 스타일을 활용하여 스트레스 해소에 최적화된 환경 제공."
+        ],
+        "systems_ko": [
+          "드래그 앤 드롭 상호작용 시스템",
+          "스티커 배치 및 레이어 관리 시스템",
+          "레벨별 배경 및 스티커 데이터 관리",
+          "진행 상황 저장 시스템",
+          "사운드 및 분위기 제어 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "게임의 메커니즘이 매우 단순하여 기술적 구현 난이도가 낮습니다. 주로 아트 리소스의 양과 퀄리티에 의존하는 게임이므로 1인 개발자가 시도하기에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "스티커 드래그 앤 드롭 기능",
+            "배경 이미지 및 스티커 배치 로직",
+            "레벨 완료 판정 시스템"
+          ],
+          "defer": [
+            "복잡한 애니메이션 효과",
+            "사용자 간 스티커 공유 기능",
+            "다양한 언어 지원"
+          ],
+          "risks": [
+            "아트 리소스 제작에 소요되는 시간 과다",
+            "단순한 반복 플레이로 인한 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스티커 다이어리",
+            "concept": "방 꾸미기를 넘어 일기를 쓰고 그날의 기분에 맞는 스티커를 붙여 기록하는 다이어리 앱입니다.",
+            "first_step": "텍스트 입력창과 스티커 배치 기능이 결합된 화면 구현."
+          },
+          {
+            "title": "스티커 디자인 챌린지",
+            "concept": "주어진 테마에 맞춰 사용자가 직접 스티커를 배치하여 완성도를 겨루는 커뮤니티 기반 게임입니다.",
+            "first_step": "스티커 배치 결과를 이미지로 저장하고 공유하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "UI/UX 설계와 아트워크 중심의 게임 개발을 배우기에 매우 좋습니다. 복잡한 로직보다 사용자 경험을 우선시하는 개발 방식을 익히고 싶은 분들에게 추천합니다.",
+        "source_limitations_ko": "소개문에 언급된 '다양한 인테리어 소품'의 구체적인 종류나, 게임 내에서 스티커를 획득하는 방식(보상 체계)에 대한 상세 정보는 확인되지 않습니다.",
+        "name": "My Sticker Room - Decor Game",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/my-sticker-room-decor-game/id6743738094?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
     }
   }
 }

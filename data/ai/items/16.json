@@ -9041,6 +9041,275 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-29"
+    },
+    "itch:76d1f55de66c94ad87d9": {
+      "app_key": "itch:76d1f55de66c94ad87d9",
+      "name": "Snowball Run [Free]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://roguecore.itch.io/snowball-run",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:29:05+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Roll a snowball downhill, gather snow to grow big, dodge rocks, and reach 1200m in 90 seconds!",
+      "analysis": {
+        "app_key": "itch:76d1f55de66c94ad87d9",
+        "summary_ko": "눈덩이를 굴려 내리막길을 내려가며 크기를 키우는 게임입니다. 90초 동안 장애물을 피하며 1200m 지점까지 도달하는 것을 목표로 합니다.",
+        "features_ko": [
+          "눈덩이를 굴려 크기를 키우는 물리 기반 성장 메커니즘을 제공합니다.",
+          "내리막길을 내려가며 장애물을 피하는 조작이 필요합니다.",
+          "90초라는 시간 제한과 1200m라는 거리 목표가 존재합니다."
+        ],
+        "noteworthy_ko": "눈덩이가 커질수록 조작이 어려워지거나 장애물과의 충돌 판정이 변하는 등의 동적인 난이도 변화가 흥미롭습니다. 짧은 시간 내에 긴박한 플레이를 유도하는 구조가 모바일이나 캐주얼 게임 개발에 적합합니다.",
+        "development_ko": "캐릭터 이동 및 충돌 판정, 눈덩이 크기 변화에 따른 물리적 상호작용 구현이 핵심입니다. 맵의 장애물 배치와 시간 제한에 따른 밸런스 테스트가 중요합니다.",
+        "idea_ko": "눈덩이의 크기에 따라 파괴할 수 있는 장애물의 종류를 다르게 설정하면 전략적인 재미가 추가됩니다.",
+        "highlights_ko": [
+          "성장과 회피를 결합한 직관적인 게임플레이를 제공합니다.",
+          "시간 제한을 통해 짧고 강렬한 몰입감을 줍니다."
+        ],
+        "systems_ko": [
+          "캐릭터 이동 및 물리 제어",
+          "충돌 판정 시스템",
+          "시간 및 거리 측정 시스템",
+          "맵 생성 및 장애물 배치"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진을 활용한 기본적인 이동과 충돌 처리가 필요하지만, 1인 개발자가 구현하기에 적절한 규모의 메커니즘이기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "눈덩이 이동 및 크기 증가 로직",
+            "장애물 충돌 판정",
+            "시간 및 거리 UI"
+          ],
+          "defer": [
+            "다양한 맵 테마",
+            "캐릭터 커스터마이징"
+          ],
+          "risks": [
+            "물리 엔진의 불안정성",
+            "장애물 배치에 따른 난이도 불균형"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "눈덩이 속성 변화",
+            "concept": "눈덩이가 특정 지형을 지나면 얼음이나 불 등 속성이 변하여 장애물을 다르게 통과합니다.",
+            "first_step": "속성별 충돌 판정 로직을 프로토타입으로 구현합니다."
+          },
+          {
+            "title": "연쇄 파괴",
+            "concept": "눈덩이가 커지면 주변 장애물을 연쇄적으로 파괴하여 점수를 얻는 시스템입니다.",
+            "first_step": "범위 기반 파괴 판정 시스템을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "물리 엔진을 활용한 게임 개발의 기초를 다지기에 좋습니다. 조작감과 충돌 판정의 정밀도를 높이는 연습을 하기에 적합합니다.",
+        "source_limitations_ko": "장애물의 종류, 맵의 무작위성 여부, 눈덩이 크기 변화의 세부 로직 등은 확인되지 않습니다.",
+        "name": "Snowball Run [Free]",
+        "source": "itch",
+        "detail_url": "https://roguecore.itch.io/snowball-run",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 344,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 12,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
+    },
+    "google:com.ninjakiwi.zombieassault": {
+      "app_key": "google:com.ninjakiwi.zombieassault",
+      "name": "Zombie Assault: Resurgence",
+      "developer": "ninja kiwi",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.ninjakiwi.zombieassault&hl=en&gl=US",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:32:06+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A New Dawn 100 Years have passed since the initiation of the New Dawn Protocol. With the horrors of the past a distant memory, the citizens of New Aartis now live peacefully under the watchful eye of the United Systems Initiative. A group of highly trained Mercenaries keep law and order across the sector and humanity is once more flourishing. However, the discovery of a strange energy source is about to beckon in a brand new nightmare. The undead have been undergoing a resurgence of their own and humanity is about to face a threat more powerful than anything they’ve faced before. Mercs: The CREDible Faction The Mercs are highly skilled operatives who are locked and loaded for any situation which arises. Especially when there’s a bag of creds on the line! Each class of Merc can be customized through skill trees, branching speciality paths and upgradeable abilities for deep RPG gameplay. • 3 distinct classes to choose from Assault, Heavy or Medic. • 6 Core and 6 Class specific skills to select and upgrade. • 3 powerful Activated Abilities which can turn the tide of a battle. • 2 Unique Speciality Classes - choose a branch and lock in your unique traits giving access to all new Speciality Skills and additional Activated Abilities per branch. Loadup and Loadout The zombies are back, driven by a new force and more powerful than ever. Prepare to face wave after wave of old foes, terrifying new enemies and epic bosses. In order to counter this the Mercs will need to pack some serious weaponry. • Earn Strongboxes to uncover an extensive arsenal of brand new Weapons and Armour. • Customisable loadouts with over 60 primary and secondary weapons; a range of armours to don; and a selection of grenades and turrets to equip. • Crafting system allows weapons and gear to be improved and modified! • Sell or Dismantle excess weapons for extra resources. • If all else fails, one of the unique Power Weapons from a mid-mission Supply Drop will keep the undead at bay. Gun for Hire With hordes of the undead popping up in every corner of the galaxy there’s no shortage of work for the Mercs, each with its own set of rewards. Join a squad for the ultimate battle in 4 player co-op or go solo in single player! • Help USI uncover the secrets behind the new resurgence in all new Story Missions. • Complete numerous objectives in Special Operations. • Looking for extra rewards? Check out the bounty board for additional challenges. • Keep an eye out for Vendors, raise your reputation with them and you may even get access to some unique weaponry not available anywhere else!",
+      "analysis": {
+        "app_key": "google:com.ninjakiwi.zombieassault",
+        "summary_ko": "본 앱은 좀비가 창궐한 미래 세계를 배경으로 하는 액션 RPG 게임입니다. 사용자는 용병이 되어 다양한 클래스를 선택하고 무기를 커스터마이징하며 좀비 무리와 전투를 벌입니다. 싱글 플레이와 4인 협동 플레이를 모두 지원합니다.",
+        "features_ko": [
+          "어썰트, 헤비, 메딕 등 3가지 고유 클래스를 선택할 수 있습니다.",
+          "60개 이상의 무기와 다양한 방어구, 수류탄, 터렛을 커스터마이징할 수 있습니다.",
+          "스킬 트리와 전문화 경로를 통해 캐릭터를 성장시킬 수 있습니다.",
+          "스토리 미션, 특수 작전, 현상금 보드 등 다양한 임무를 수행할 수 있습니다.",
+          "4인 협동 모드와 싱글 플레이 모드를 지원합니다.",
+          "무기 및 장비를 개선하고 수정할 수 있는 제작 시스템을 제공합니다."
+        ],
+        "noteworthy_ko": "방대한 콘텐츠와 RPG 요소를 결합한 액션 게임입니다. 개발 관점에서는 수많은 아이템과 스킬 데이터, 그리고 멀티플레이어 동기화 시스템이 매우 복잡할 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 실시간 전투 시스템과 네트워크 동기화입니다. 콘텐츠 제작 부담이 매우 크며, 수많은 무기와 스킬의 밸런스를 맞추는 작업이 필수적입니다. 1인 개발 시에는 시스템을 대폭 축소하여 핵심 전투 루프에 집중하는 것이 현실적입니다.",
+        "idea_ko": "특정 구역을 방어하는 웨이브 기반의 로그라이크 액션 시스템이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "클래스별 스킬 트리와 전문화 시스템을 통한 깊이 있는 RPG 경험을 제공합니다.",
+          "무기 제작 및 커스터마이징을 통해 자신만의 전투 스타일을 구축할 수 있습니다."
+        ],
+        "systems_ko": [
+          "실시간 전투 및 물리 엔진",
+          "캐릭터 성장 및 스킬 시스템",
+          "아이템 데이터베이스 및 인벤토리",
+          "네트워크 멀티플레이어 동기화",
+          "퀘스트 및 보상 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 클래스, 무기, 스킬 시스템을 구현하고 밸런스를 맞추는 것은 1인 개발자에게 매우 큰 부담입니다. 특히 멀티플레이어 동기화는 기술적 난이도가 매우 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 전투 메커니즘",
+            "단일 클래스 및 무기 시스템",
+            "웨이브 기반 적 생성 로직"
+          ],
+          "defer": [
+            "멀티플레이어 모드",
+            "복잡한 제작 시스템",
+            "방대한 스토리 미션"
+          ],
+          "risks": [
+            "전투 밸런스 붕괴",
+            "콘텐츠 부족으로 인한 짧은 플레이 타임"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "로그라이크 좀비 디펜스",
+            "concept": "매 웨이브마다 무작위 스킬과 무기를 선택하여 좀비 무리를 막아내는 게임입니다. 짧은 세션 내에서 성장의 재미를 극대화합니다.",
+            "first_step": "기본 전투 시스템을 만들고 웨이브마다 스킬 선택창이 뜨는 로직을 구현합니다."
+          },
+          {
+            "title": "용병 장비 관리자",
+            "concept": "전투보다는 용병의 장비를 최적화하고 임무를 배정하는 전략 시뮬레이션입니다. 전투는 자동 계산으로 처리합니다.",
+            "first_step": "장비 데이터 구조를 만들고 능력치 합산 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "액션 RPG의 시스템 설계와 데이터 관리 방식을 배우기에 좋습니다. 다만, 규모가 매우 크므로 핵심 메커니즘 하나만 추출하여 구현하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 네트워크 동기화 방식이나 서버 구조는 알 수 없습니다. 실제 개발 시에는 보안 및 서버 비용에 대한 고려가 필요합니다.",
+        "name": "Zombie Assault: Resurgence",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.ninjakiwi.zombieassault&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 231,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 3,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
+    },
+    "google:com.spiridge.ss.snk0037": {
+      "app_key": "google:com.spiridge.ss.snk0037",
+      "name": "[スロスピ]Lパチスロ 革命機ヴァルヴレイヴ2",
+      "developer": "スピリッジ株式会社",
+      "source": "google",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.spiridge.ss.snk0037&hl=ja&gl=JP",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:38:13+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "■スマスロ『Lパチスロ 革命機ヴァルヴレイヴ2』がスロスピに登場！ 2025年11月にホール導入された『Lパチスロ 革命機ヴァルヴレイヴ2』を、3Dバーチャルホールで楽しもう！ ■スロスピとは ・リアルな興奮をスマホで体験できる最新型バーチャルホール！ ・話題の新台から往年の名機まで、基本無料で遊び放題！ ■プレイ時の注意事項 ・ホールアプリ「スロパチスピリット」のダウンロードが必要となります。 ・本アプリをインストールするためには、お使いの端末のストレージに最低【約2.14GB】の空き容量を確保してください。 ・ダウンロード＋データ展開に【数分～数十分】程度の時間を要します。（通信速度や強度により、これ以上の時間が掛かる場合もございます） ・通信量が多いため、【Wi-Fi環境】のご利用を強く推奨します。 ・アプリ動作にRAMメモリを多く使用するため、他の起動中アプリを終了してからプレイいただくことを推奨します。 ■コピーライト ©SUNRISE/VVV Committee ©SANKYO このアプリケーションには、(株)CRI・ミドルウェアの「CRIWARE mobile (TM)」が使用されています。",
+      "analysis": {
+        "app_key": "google:com.spiridge.ss.snk0037",
+        "summary_ko": "이 앱은 파칭코 기기 'L 파치스로 혁명기 발브레이브 2'를 3D 가상 홀에서 즐길 수 있는 시뮬레이션 게임입니다. 실제 기기의 경험을 스마트폰으로 재현하며, 다양한 기기를 무료로 플레이할 수 있는 환경을 제공합니다. 고용량 데이터와 고사양 환경을 요구하는 전문적인 시뮬레이터입니다.",
+        "features_ko": [
+          "실제 파칭코 기기를 3D 가상 공간에서 재현하여 플레이할 수 있습니다.",
+          "다양한 신규 및 과거 기기를 기본 무료로 제공합니다.",
+          "고품질 그래픽과 사운드를 위해 대용량 데이터 다운로드를 지원합니다.",
+          "실제 홀과 유사한 환경을 스마트폰으로 경험할 수 있습니다."
+        ],
+        "noteworthy_ko": "실제 기기의 복잡한 로직과 연출을 디지털로 완벽하게 이식하는 것이 핵심입니다. 개발 관점에서는 실제 기기의 확률 모델과 연출 데이터를 모바일 환경에 최적화하는 과정이 매우 흥미로울 것으로 추정됩니다.",
+        "development_ko": "실제 기기의 복잡한 확률 로직과 연출을 구현하는 데이터 처리 기술이 핵심입니다. 고용량 리소스를 효율적으로 관리하는 메모리 최적화가 필수적입니다. 또한, 실제 기기와의 일치도를 높이기 위한 정밀한 테스트와 밸런스 검증이 매우 중요합니다.",
+        "idea_ko": "파칭코의 확률 로직을 활용한 '간소화된 슬롯 머신 퍼즐' 게임이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "실제 기기의 3D 가상 홀 구현을 통해 현장감을 극대화했습니다.",
+          "대용량 데이터 처리를 통한 고품질 시뮬레이션 환경을 제공합니다."
+        ],
+        "systems_ko": [
+          "확률 기반 슬롯 로직 엔진",
+          "대용량 리소스 로딩 및 관리 시스템",
+          "3D 연출 및 애니메이션 엔진",
+          "사용자 데이터 저장 및 동기화",
+          "메모리 최적화 관리자"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실제 기기의 복잡한 로직을 재현하는 것은 매우 높은 수준의 프로그래밍과 데이터 설계 능력을 요구합니다. 개인 개발자가 실제 기기를 완벽히 복제하는 것은 사실상 불가능에 가깝습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 슬롯 회전 및 정지 로직",
+            "확률 기반 당첨 판정 시스템",
+            "기본 UI 및 결과 표시"
+          ],
+          "defer": [
+            "3D 가상 홀 환경",
+            "실제 기기 연출 데이터 이식"
+          ],
+          "risks": [
+            "확률 로직의 정확성 검증",
+            "메모리 부족 및 앱 크래시"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "미니 슬롯 퍼즐",
+            "concept": "파칭코의 확률 로직을 차용하여, 특정 조합을 맞추면 연쇄 반응이 일어나는 퍼즐 게임입니다. 실제 기기보다 캐주얼한 접근이 가능합니다.",
+            "first_step": "3x3 슬롯의 회전과 당첨 판정 로직 구현."
+          },
+          {
+            "title": "슬롯 머신 빌더",
+            "concept": "플레이어가 직접 슬롯의 확률과 심볼을 설정하여 자신만의 머신을 만드는 시뮬레이션입니다.",
+            "first_step": "확률 데이터를 입력받아 슬롯 결과를 출력하는 엔진 구현."
+          }
+        ],
+        "recommendation_ko": "복잡한 확률 로직과 데이터 관리 시스템을 배우기에 적합합니다. 다만, 실제 기기 복제는 저작권 및 기술적 난이도가 매우 높으므로 개인 개발자는 핵심 로직을 응용한 캐주얼 게임 개발을 추천합니다.",
+        "source_limitations_ko": "소개문에는 실제 기기의 구체적인 확률 알고리즘이나 연출 데이터 구조가 명시되어 있지 않습니다. 또한, 외부 서비스 연동이나 결제 기능에 대한 언급이 없으므로 해당 기능은 구현 범위에서 제외해야 합니다.",
+        "name": "[スロスピ]Lパチスロ 革命機ヴァルヴレイヴ2",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.spiridge.ss.snk0037&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 81,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
     }
   }
 }

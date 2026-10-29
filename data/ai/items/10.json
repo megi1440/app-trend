@@ -9584,6 +9584,274 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-29"
+    },
+    "apple:6751259391": {
+      "app_key": "apple:6751259391",
+      "name": "Exe Arena",
+      "developer": "Bountykinds Solutions Inc.",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_card",
+      "detail_url": "https://apps.apple.com/jp/app/exe-arena/id6751259391?uo=2",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:33:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "【EXE ARENAとは】 一瞬の判断が勝敗を分ける、リアルタイム競技カードアクション。 戦略カードバトルの奥深さと、リアルタイムアクションの爽快感が融合した 次世代の対戦ゲーム。 カードの配置と発動タイミングを読み合い、刻一刻と 展開する白熱のバトルを制せ。 面倒な準備は不要、ダウンロードしてすぐに 対戦へ飛び込める。 ■ リアルタイム×戦略、新感覚のカードバトル 従来のカードゲームが持つデッキ構築の奥深さはそのままに、リアルタイム 操作によるダイナミックな駆け引きを実現。 カードを切る順番、発動の間合い、 そのすべての選択が勝敗を大きく左右する。 ■ 個性豊かな3人のアバター プレイヤーは3人のアバターから1人を選択。 それぞれに専用カードと得意な 戦術があり、選んだキャラクターがデッキ構築と戦略を大きく変える。 ・プロメテウス：攻守どちらにも対応できる、万能戦士。 ・レーテ：広範囲を巻き込む全体攻撃で戦場を支配する使い手。 ・ロメリア：圧倒的な魔力で相手を粉砕するパワー型魔道士。 ■ 奥深いデッキ構築 火・水・木・無の4属性、ターンごとのコスト管理、同名カードを重ねて 強化する「限界突破」、5段階のレアリティ。 組み合わせは無限大。 あなただけの最強デッキを組み上げろ。 ■ 頂点を目指す競技シーン ・公式大会：予選と決勝を組み合わせた本格トーナメント。定期開催で常に新たな頂上決戦が待ち受ける。 ・ユーザー大会：プレイヤー自身が大会を開催・参加できる 実力を証明したいすべてのプレイヤーに、戦いの舞台を。 ■ 豪華クリエイター監修 『ファイナルファンタジーVII』『ファイナルファンタジーVIII』『クロノ・トリガー』に携わった中谷幸夫氏が、キービジュアルおよびステージデザインを監修。 緻密なアートが織りなす臨場感あふれる世界を体験せよ。 さあ、新世代の競技カードアクションへ。",
+      "analysis": {
+        "app_key": "apple:6751259391",
+        "summary_ko": "전략 카드 배틀과 실시간 액션을 결합한 차세대 대전 게임입니다. 3명의 아바타 중 하나를 선택하여 자신만의 덱을 구축하고 실시간으로 상대와 대결합니다. 공식 및 사용자 대회를 통해 경쟁적인 게임 환경을 제공합니다.",
+        "features_ko": [
+          "실시간 조작을 통해 카드 발동 타이밍과 전략을 겨룹니다.",
+          "3명의 아바타마다 고유한 카드와 전술을 보유하고 있습니다.",
+          "4가지 속성과 코스트 관리, 카드 강화 시스템을 통해 덱을 구축합니다.",
+          "공식 토너먼트와 사용자 참여형 대회를 지원합니다.",
+          "유명 크리에이터가 참여한 비주얼과 스테이지 디자인을 제공합니다."
+        ],
+        "noteworthy_ko": "카드 게임의 정적인 전략성과 실시간 액션의 동적인 재미를 결합한 하이브리드 장르입니다. 실시간 네트워크 대전 구현과 밸런스 조정이 개발 관점에서 매우 도전적인 과제입니다.",
+        "development_ko": "실시간 멀티플레이어 네트워크 동기화 기술이 핵심입니다. 카드 덱 빌딩 시스템과 속성 상성 밸런스 설계가 필요하며, 화려한 이펙트를 위한 그래픽 최적화가 중요합니다. 대회 시스템을 위한 매칭 및 토너먼트 로직 구현이 수반됩니다.",
+        "idea_ko": "특정 상황에서만 발동하는 '환경 카드'를 도입하여 전장의 변수를 늘리는 전략적 요소 추가가 적합합니다.",
+        "highlights_ko": [
+          "전략과 액션이 융합된 새로운 대전 방식.",
+          "다양한 아바타와 속성 기반의 깊이 있는 덱 빌딩."
+        ],
+        "systems_ko": [
+          "실시간 네트워크 대전(멀티플레이어)",
+          "카드 덱 빌딩 및 강화 시스템",
+          "매칭 및 토너먼트 시스템",
+          "속성 상성 및 밸런스 엔진",
+          "게임 내 이펙트 및 애니메이션 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 네트워크 대전 구현은 개인 개발자에게 매우 높은 난이도이며, 카드 게임의 밸런스 조정과 대회 시스템 운영은 상당한 리소스가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 카드 배틀 로직",
+            "아바타 선택 및 덱 구성"
+          ],
+          "defer": [
+            "실시간 네트워크 대전",
+            "토너먼트 시스템",
+            "카드 강화(限界突破)"
+          ],
+          "risks": [
+            "네트워크 지연(Lag)으로 인한 게임 경험 저하",
+            "카드 간 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "협동 레이드 모드",
+            "concept": "두 명의 플레이어가 힘을 합쳐 강력한 보스 몬스터를 물리치는 협동 모드입니다.",
+            "first_step": "보스 몬스터의 체력과 공격 패턴을 정의하고 플레이어의 카드로 데미지를 주는 로직을 구현합니다."
+          },
+          {
+            "title": "카드 퓨전 시스템",
+            "concept": "전투 중 두 장의 카드를 합쳐 더 강력한 카드로 일시적으로 변환하는 시스템입니다.",
+            "first_step": "카드 두 장을 선택하여 새로운 카드 객체로 교체하는 로직을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "네트워크 프로그래밍과 복잡한 게임 밸런스 설계에 도전하고 싶은 개발자에게 추천합니다. 다만, 규모가 크므로 핵심 메커니즘 위주로 축소 구현하는 것이 좋습니다.",
+        "source_limitations_ko": "소개문에는 네트워크 동기화 방식이나 서버 구조가 명시되지 않았습니다. 실제 게임의 밸런스 데이터나 카드 강화 수치는 확인되지 않았습니다.",
+        "name": "Exe Arena",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/exe-arena/id6751259391?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 198,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 14,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
+    },
+    "apple:6759667009": {
+      "app_key": "apple:6759667009",
+      "name": "超増税都市",
+      "developer": "Ota Sora",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/jp/app/%E8%B6%85%E5%A2%97%E7%A8%8E%E9%83%BD%E5%B8%82/id6759667009?uo=2",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:35:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "新感覚！？街づくり × ローグライトゲーム『超増税都市』。 ランダムに抽選される施設から、自分好みの施設を選んで配置しよう！ 組み合わせは無限大！あなただけの稼げる街を作ろう！ 【ルール】 1. ３つの選択肢から施設を選び、マップ上に配置しよう！ 2. ランダムに移動する従業員が施設に入ると作業を行い報酬を獲得！ 3. 制限時間が終了すると納税の時間です。稼いだお金で納税だ！ 【特徴】 100種類以上の施設 100種類以上のアイテム 20以上のステージ 【配信ガイドライン】 ・ゲーム実況の配信及び動画投稿は、個人や法人など利用者の所属や営利・非営利など収益に関わらず事前の連絡なく自由に行っていただけます。 ・このゲームの動画を配信したことによるいかなる損害に関しましても一切の責任を負いません。 また、本ガイドラインの内容は予告なく変更する場合があります。",
+      "analysis": {
+        "app_key": "apple:6759667009",
+        "summary_ko": "'초증세도시'는 랜덤하게 선택되는 시설을 배치하여 나만의 도시를 운영하고, 세금을 납부하는 로그라이트 도시 건설 게임입니다. 제한 시간 내에 시설을 배치하고 직원이 수익을 창출하게 하여, 세금 납부 목표를 달성하는 것이 핵심입니다. 무작위성과 전략적 선택이 결합된 독특한 게임 플레이를 제공합니다.",
+        "features_ko": [
+          "3개의 선택지 중 하나를 골라 시설을 배치하는 카드 선택형 시스템입니다.",
+          "맵 위를 이동하는 직원이 시설에 들어가 수익을 발생시키는 자동화 구조입니다.",
+          "제한 시간 종료 후 수익을 바탕으로 세금을 납부하는 턴제/시간제 규칙입니다.",
+          "100종 이상의 시설과 아이템을 통해 다양한 도시 조합이 가능합니다."
+        ],
+        "noteworthy_ko": "도시 건설 장르에 로그라이트의 무작위성을 도입한 점이 매우 흥미롭습니다. 매번 다른 시설이 등장하므로 사용자는 고정된 전략이 아닌 상황에 맞는 최적의 배치를 고민해야 합니다.",
+        "development_ko": "핵심 기술은 시설 배치에 따른 수익 계산 로직과 무작위 시설 생성 알고리즘입니다. 콘텐츠 제작 부담은 100종 이상의 시설과 아이템 데이터를 밸런싱하는 데 집중될 것입니다. 테스트 시에는 세금 납부 난이도가 너무 높거나 낮지 않도록 수익 곡선을 정밀하게 조정해야 합니다.",
+        "idea_ko": "세금 납부 대신 '도시의 행복도'를 유지하며 시설을 확장하는 무한 모드 시스템을 제안합니다.",
+        "highlights_ko": [
+          "로그라이트 요소를 도시 건설에 결합하여 매번 새로운 플레이 경험을 제공합니다.",
+          "100종 이상의 방대한 시설과 아이템으로 높은 전략적 자유도를 보장합니다."
+        ],
+        "systems_ko": [
+          "시설 배치 및 타일 관리 시스템",
+          "직원 이동 및 상호작용 로직",
+          "수익 및 세금 계산 엔진",
+          "로그라이트 무작위 선택지 생성기",
+          "게임 상태 관리(제한 시간, 자산)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기본적인 도시 건설 로직은 구현 가능하나, 100종 이상의 시설 간 밸런스를 맞추는 작업이 어렵습니다. 로그라이트 특유의 무작위성을 제어하는 시스템 설계가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "시설 배치 시스템",
+            "수익 발생 로직",
+            "세금 납부 및 게임 오버 조건"
+          ],
+          "defer": [
+            "100종 이상의 방대한 시설 데이터",
+            "복잡한 아이템 시너지 효과"
+          ],
+          "risks": [
+            "시설 간 밸런스 붕괴",
+            "반복적인 플레이의 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "세금 회피 전략",
+            "concept": "세금을 내는 대신 도시의 특정 구역을 포기하거나 시설을 파괴하여 세금을 줄이는 전략적 선택을 추가합니다.",
+            "first_step": "시설 파괴 시 수익이 감소하고 세금 부담이 줄어드는 로직을 구현합니다."
+          },
+          {
+            "title": "직원 관리 로그라이트",
+            "concept": "시설뿐만 아니라 직원의 능력치를 선택하여 배치하는 시스템입니다. 직원마다 수익률과 이동 속도가 다릅니다.",
+            "first_step": "직원 객체에 능력치 변수를 추가하고 시설과의 상호작용 시 적용되게 합니다."
+          }
+        ],
+        "recommendation_ko": "로그라이트 장르의 핵심인 '무작위성'과 '전략적 선택'을 어떻게 게임 시스템으로 녹여낼지 배우기 좋은 사례입니다. 밸런스 조정의 중요성을 체감하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "시설 간의 구체적인 시너지 효과나 수익 계산 공식은 공개되지 않았습니다. 20개 이상의 스테이지가 어떻게 차별화되는지에 대한 구체적인 정보는 부족합니다.",
+        "name": "超増税都市",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E8%B6%85%E5%A2%97%E7%A8%8E%E9%83%BD%E5%B8%82/id6759667009?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 189,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 17,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
+    },
+    "google:com.mountaincreekgames.waterpower": {
+      "app_key": "google:com.mountaincreekgames.waterpower",
+      "name": "Water Power",
+      "developer": "VOODOO",
+      "source": "google",
+      "country": "US",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.mountaincreekgames.waterpower&hl=en&gl=US",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:37:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Join Water Power community and start building your own hydro empire today! Key features: • Generate power with unique water wheels, dams, and high-tech stations • Explore diverse worlds and manage your growing hydro empire • Hire prestige engineers — unlock powerful upgrades for exponential growth • Expand river channels, research new tech, and automate production • Take part in regular events and claim rewards with promo codes • Watch your hydro city evolve from a village to a futuristic green metropolis Join addictive idle simulation and transform rivers into endless clean energy to grow a thriving city!",
+      "analysis": {
+        "app_key": "google:com.mountaincreekgames.waterpower",
+        "summary_ko": "Water Power는 수력 발전소를 건설하고 관리하여 친환경 에너지를 생산하는 방치형 시뮬레이션 게임입니다. 다양한 수차와 댐을 설치하고 기술을 연구하여 마을을 미래형 도시로 발전시킵니다. 자동화 생산과 엔지니어 고용을 통해 효율적인 에너지 제국을 건설하는 것이 목표입니다.",
+        "features_ko": [
+          "수차, 댐, 고성능 발전소를 건설하여 전력을 생산합니다.",
+          "강줄기를 확장하고 새로운 기술을 연구하여 생산을 자동화합니다.",
+          "전문 엔지니어를 고용하여 생산 효율을 높이는 업그레이드를 수행합니다.",
+          "마을에서 미래형 도시로 발전하는 과정을 시각적으로 확인할 수 있습니다."
+        ],
+        "noteworthy_ko": "환경 보호라는 테마를 방치형 시뮬레이션과 결합한 점이 특징입니다. 생산 시설의 자동화와 효율 극대화라는 방치형 게임의 핵심 루프를 잘 따르고 있습니다.",
+        "development_ko": "시간 경과에 따른 자원 생산 로직과 업그레이드 수치 계산이 핵심입니다. 도시의 발전 단계를 시각적으로 보여주는 에셋 관리와 UI 구성이 필요합니다. 밸런스 조절을 위해 생산량과 비용의 지수적 증가 곡선을 설계하는 것이 중요합니다.",
+        "idea_ko": "생산된 전력을 마을의 다른 시설에 공급하여 추가 보너스를 얻는 '전력망 관리' 시스템을 추가하는 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "친환경 에너지라는 주제를 통해 시뮬레이션 게임의 몰입도를 높였습니다.",
+          "마을이 도시로 진화하는 시각적 변화를 통해 성취감을 제공합니다."
+        ],
+        "systems_ko": [
+          "자원 생산 및 시간 관리 시스템",
+          "건물 건설 및 업그레이드 로직",
+          "자동화 및 연구 트리 시스템",
+          "데이터 저장 및 로드 시스템",
+          "UI 및 도시 시각화 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "복잡한 물리 연산은 없으나, 다수의 건물과 업그레이드 수치를 관리하는 데이터 구조 설계가 필요합니다. 밸런스 조절이 게임의 재미를 좌우하므로 신중한 기획이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 발전 시설 건설",
+            "자동 생산 로직",
+            "업그레이드 시스템"
+          ],
+          "defer": [
+            "정기 이벤트 시스템",
+            "복잡한 도시 그래픽"
+          ],
+          "risks": [
+            "생산 밸런스 붕괴",
+            "반복적인 플레이로 인한 피로감"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "전력망 관리자",
+            "concept": "생산된 전력을 마을의 구역별로 분배하여 효율을 최적화하는 전략적 요소를 추가합니다.",
+            "first_step": "전력 생산량과 소비량 변수 설정 및 UI 표시."
+          },
+          {
+            "title": "기후 변화 시나리오",
+            "concept": "강수량 변화에 따라 발전 효율이 달라지는 환경 변수를 도입하여 긴장감을 줍니다.",
+            "first_step": "시간에 따른 생산 효율 배수 변경 로직 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 시뮬레이션의 데이터 관리와 밸런스 설계 과정을 배우기에 적합합니다. 시스템의 확장성을 고려한 코드 구조를 연습하기 좋습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 수치 계산 공식이나 이벤트 시스템의 구현 방식은 명시되어 있지 않습니다.",
+        "name": "Water Power",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.mountaincreekgames.waterpower&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
     }
   }
 }

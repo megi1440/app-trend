@@ -9405,6 +9405,352 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-29"
+    },
+    "itch:20c598ca0af4228ee557": {
+      "app_key": "itch:20c598ca0af4228ee557",
+      "name": "The Hero They Need [Free] [Other]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://everlosst.itch.io/the-hero-they-need",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:31:17+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "This timeline is doomed. So is the next. Eventually, however, you will become the hero they need.",
+      "analysis": {
+        "app_key": "itch:20c598ca0af4228ee557",
+        "summary_ko": "멸망해가는 타임라인을 구하기 위해 영웅이 되어가는 과정을 다룬 게임입니다. 반복되는 실패 속에서 점차 영웅으로 성장하는 서사적 경험을 제공합니다.",
+        "features_ko": [
+          "멸망하는 타임라인을 경험하며 상황을 파악합니다.",
+          "반복적인 시도를 통해 영웅으로 성장합니다."
+        ],
+        "noteworthy_ko": "루프물(Time Loop) 구조를 게임에 어떻게 녹여낼지가 핵심입니다. 실패를 성장의 발판으로 삼는 게임 디자인은 플레이어에게 강한 동기를 부여합니다.",
+        "development_ko": "게임 상태의 저장 및 로드, 루프 시스템 구현이 핵심입니다. 서사 중심의 게임이므로 시나리오 분기 설계와 데이터 관리가 중요합니다.",
+        "idea_ko": "이전 루프에서 수행한 행동이 다음 루프의 환경에 영향을 주는 시스템을 구현하는 것이 좋습니다.",
+        "highlights_ko": [
+          "반복과 성장을 테마로 한 서사 구조.",
+          "멸망이라는 긴박한 상황 설정."
+        ],
+        "systems_ko": [
+          "타임 루프 관리 시스템",
+          "데이터 저장 및 불러오기",
+          "이벤트 분기 시스템",
+          "성장 데이터 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "루프 구조의 복잡한 서사 설계와 데이터 관리, 그리고 플레이어의 행동이 결과에 미치는 영향력을 구현하는 것은 높은 기획력을 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "루프 트리거(사망/시간 종료)",
+            "데이터 초기화 및 유지 로직",
+            "핵심 서사 이벤트 1개"
+          ],
+          "defer": [
+            "복잡한 멀티 엔딩",
+            "방대한 맵 탐색"
+          ],
+          "risks": [
+            "루프 구조의 서사적 모순 발생",
+            "반복 플레이의 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "기억의 계승",
+            "concept": "이전 루프에서 얻은 정보를 다음 루프에서 활용하여 퍼즐을 푸는 방식입니다.",
+            "first_step": "루프 간 정보를 저장하는 전역 변수 관리 시스템."
+          },
+          {
+            "title": "시간의 잔상",
+            "concept": "이전 루프의 내 행동이 유령처럼 나타나 현재의 나를 돕거나 방해하는 시스템입니다.",
+            "first_step": "플레이어의 이동 경로를 기록하고 재생하는 레코딩 기능."
+          }
+        ],
+        "recommendation_ko": "서사 중심의 게임을 기획하는 개발자에게 추천합니다. 루프 구조를 활용한 게임 디자인과 데이터 관리의 중요성을 배울 수 있습니다.",
+        "source_limitations_ko": "게임의 장르(RPG, 어드벤처 등)나 구체적인 플레이 방식이 명시되지 않아 장르적 특성을 파악하기 어렵습니다.",
+        "name": "The Hero They Need [Free] [Other]",
+        "source": "itch",
+        "detail_url": "https://everlosst.itch.io/the-hero-they-need",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 305,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
+    },
+    "itch:1b8f5ffbcf5e08cdb069": {
+      "app_key": "itch:1b8f5ffbcf5e08cdb069",
+      "name": "Infinimoes [35% Off] [$2.60] [Puzzle] [Windows] [macOS] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "puzzle",
+      "detail_url": "https://werxzy.itch.io/infinimoes",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:31:34+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A space filling puzzle game with polyominoes.",
+      "analysis": {
+        "app_key": "itch:1b8f5ffbcf5e08cdb069",
+        "summary_ko": "폴리오미노 조각을 사용하여 공간을 채우는 퍼즐 게임입니다. 다양한 모양의 조각을 주어진 영역에 맞게 배치하는 논리적 사고를 요구합니다.",
+        "features_ko": [
+          "폴리오미노 형태의 조각을 제공합니다.",
+          "주어진 공간을 빈틈없이 채우는 규칙을 가집니다."
+        ],
+        "noteworthy_ko": "폴리오미노 퍼즐은 수학적 알고리즘과 결합하기 좋아 개발 관점에서 흥미롭습니다. 난이도 조절을 위한 레벨 디자인 방식이 핵심이 될 것으로 추정됩니다.",
+        "development_ko": "조각의 회전 및 배치 로직 구현이 필수적입니다. 퍼즐의 해답이 존재하는지 검증하는 알고리즘과 다양한 난이도의 스테이지를 생성하는 시스템이 필요합니다.",
+        "idea_ko": "조각을 배치할 때마다 특정 효과가 발생하는 연쇄 반응 퍼즐로 확장하는 것이 좋습니다.",
+        "highlights_ko": [
+          "폴리오미노를 활용한 직관적인 퍼즐 규칙.",
+          "공간 채우기라는 명확한 목표 제시."
+        ],
+        "systems_ko": [
+          "그리드 기반 배치 시스템",
+          "조각 회전 및 이동 로직",
+          "퍼즐 해결 판정 시스템",
+          "레벨 데이터 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기본적인 배치 로직은 구현하기 쉬우나, 모든 조각이 들어맞는 퍼즐을 설계하고 난이도를 조정하는 과정에서 많은 테스트가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "그리드 시스템",
+            "조각 드래그 앤 드롭 및 회전",
+            "배치 성공 판정"
+          ],
+          "defer": [
+            "힌트 시스템",
+            "복잡한 애니메이션 효과"
+          ],
+          "risks": [
+            "퍼즐의 난이도 밸런스 실패",
+            "조작감의 불편함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중력 폴리오미노",
+            "concept": "조각이 중력에 의해 아래로 떨어지며 배치되는 방식을 도입합니다. 테트리스와 유사하지만 공간을 채우는 것이 목적인 퍼즐입니다.",
+            "first_step": "그리드 내에서 조각이 중력에 따라 떨어지는 물리 로직을 구현합니다."
+          },
+          {
+            "title": "색상 매칭 퍼즐",
+            "concept": "조각의 색상을 인접한 조각과 맞추어야 하는 규칙을 추가합니다. 공간을 채우는 것과 색상 조건을 동시에 만족해야 합니다.",
+            "first_step": "인접한 타일의 색상을 비교하는 간단한 검사 로직을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 핵심인 그리드 시스템과 논리적 규칙 구현을 연습하기에 적합합니다. 퍼즐 장르를 처음 개발하는 분들에게 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 조작 방식, 스테이지 수, 조각의 종류 등 상세 정보가 부족합니다.",
+        "name": "Infinimoes [35% Off] [$2.60] [Puzzle] [Windows] [macOS] [Linux]",
+        "source": "itch",
+        "detail_url": "https://werxzy.itch.io/infinimoes",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 290,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
+    },
+    "itch:1bf99211c2e6a40f1efe": {
+      "app_key": "itch:1bf99211c2e6a40f1efe",
+      "name": "Runebit Dice: Elixir D20 (Free Sample) [Free]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://runebitdice.itch.io/elixir-d20",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:31:34+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Photoreal D20 sprites in liquid-core potion glass with silver numerals. Free, commercial-use transparent PNGs",
+      "analysis": {
+        "app_key": "itch:1bf99211c2e6a40f1efe",
+        "summary_ko": "액체 코어가 들어있는 포션 유리병 형태의 D20 주사위 스프라이트 세트입니다. 상업적 이용이 가능한 투명 PNG 파일로 제공됩니다.",
+        "features_ko": [
+          "포션 유리병 디자인의 D20 주사위 이미지를 제공합니다.",
+          "상업적 이용이 가능한 투명 배경 PNG 형식입니다."
+        ],
+        "noteworthy_ko": "게임 개발을 위한 에셋 리소스로, 시각적 일관성을 유지하는 디자인 스타일이 특징입니다. 특정 테마(포션/마법)를 가진 게임 개발자에게 유용한 자료입니다.",
+        "development_ko": "이 항목은 게임이 아닌 에셋 팩이므로 개발 기술보다는 디자인 툴(포토샵, 블렌더 등)을 활용한 그래픽 제작 능력이 중요합니다. 일관된 스타일의 스프라이트 시트를 제작하는 것이 핵심입니다.",
+        "idea_ko": "이 주사위 디자인을 활용하여 주사위 결과에 따라 포션 효과가 달라지는 턴제 RPG를 기획할 수 있습니다.",
+        "highlights_ko": [
+          "독특한 액체 코어 포션 디자인.",
+          "상업적 활용이 가능한 범용성."
+        ],
+        "systems_ko": [
+          "이미지 에셋 관리 시스템",
+          "주사위 결과값 연동 로직",
+          "UI 스프라이트 적용"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "게임 엔진 구현이 아닌 그래픽 에셋이므로 기술적 난이도는 낮습니다. 다만 디자인의 일관성을 유지하는 것이 중요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "주사위 결과에 따른 이미지 교체 로직",
+            "주사위 굴리기 애니메이션"
+          ],
+          "defer": [
+            "3D 주사위 물리 구현",
+            "복잡한 파티클 효과"
+          ],
+          "risks": [
+            "이미지 스타일과 게임 분위기의 불일치"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "포션 주사위 RPG",
+            "concept": "주사위를 굴려 나온 결과에 따라 포션의 효능이 결정되는 RPG입니다. 높은 숫자가 나오면 강력한 포션 효과를 얻습니다.",
+            "first_step": "주사위 숫자에 따라 텍스트 결과가 출력되는 시스템을 만듭니다."
+          },
+          {
+            "title": "연금술사 도박장",
+            "concept": "포션 주사위를 사용하여 자원을 거는 미니 게임입니다. 주사위 눈금에 따라 포션이 폭발하거나 가치가 상승합니다.",
+            "first_step": "주사위 결과에 따른 자원 증감 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "자신만의 독특한 아트 스타일을 게임에 적용하고 싶은 개발자에게 추천합니다. 에셋을 활용해 게임의 테마를 강화하는 방법을 배울 수 있습니다.",
+        "source_limitations_ko": "이미지의 해상도, 포함된 주사위의 개수, 애니메이션 프레임 포함 여부는 확인되지 않습니다.",
+        "name": "Runebit Dice: Elixir D20 (Free Sample) [Free]",
+        "source": "itch",
+        "detail_url": "https://runebitdice.itch.io/elixir-d20",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 284,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 32,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
+    },
+    "itch:633ebc74a92ef1ed2431": {
+      "app_key": "itch:633ebc74a92ef1ed2431",
+      "name": "Plant Therapy [40% Off] [Free] [Simulation] [Windows] [macOS]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://short-leg-studio.itch.io/plant-therapy",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:32:06+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Get cozy in this plant collecting and decorating game!",
+      "analysis": {
+        "app_key": "itch:633ebc74a92ef1ed2431",
+        "summary_ko": "본 앱은 식물을 수집하고 공간을 꾸미는 힐링 시뮬레이션 게임입니다. 사용자는 다양한 식물을 가꾸며 자신만의 공간을 아늑하게 장식할 수 있습니다.",
+        "features_ko": [
+          "다양한 종류의 식물을 수집하고 관리할 수 있습니다.",
+          "수집한 식물을 사용하여 공간을 자유롭게 꾸밀 수 있습니다."
+        ],
+        "noteworthy_ko": "사용자에게 심리적 안정감을 주는 '코지(Cozy)' 게임 장르의 특징을 잘 보여줍니다. 시각적인 만족감과 수집 요소가 게임의 핵심 동기부여 요소로 작용합니다.",
+        "development_ko": "식물 모델링과 배치 시스템, 그리고 꾸미기 UI 구현이 핵심입니다. 1인 개발 시에는 다양한 식물 에셋을 확보하는 것이 가장 큰 작업량이며, 배치 시스템의 자유도를 조절하는 것이 중요합니다.",
+        "idea_ko": "식물의 성장 상태를 시각적으로 변화시키고 배치에 따른 공간 점수를 계산하는 시스템이 적합합니다.",
+        "highlights_ko": [
+          "식물 수집과 인테리어 꾸미기를 결합한 힐링 경험을 제공합니다.",
+          "사용자의 취향을 반영할 수 있는 자유로운 배치 시스템이 특징입니다."
+        ],
+        "systems_ko": [
+          "오브젝트 배치 시스템",
+          "인벤토리 및 수집 관리",
+          "데이터 기반 식물 성장 로직",
+          "UI/UX 디자인"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "배치 시스템과 수집 로직은 구현 난이도가 높지 않으나, 시각적인 완성도를 높이기 위한 에셋 제작과 UI 배치가 중요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "식물 배치 기능",
+            "기본 식물 에셋 3~5종",
+            "공간 꾸미기 모드"
+          ],
+          "defer": [
+            "복잡한 성장 시뮬레이션",
+            "온라인 공유 기능",
+            "다양한 인테리어 소품"
+          ],
+          "risks": [
+            "에셋 제작의 높은 시간 소요",
+            "배치 시스템의 버그 발생"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "식물 성장 일기",
+            "concept": "식물을 키우는 과정을 일기 형식으로 기록하고, 성장 단계마다 사진을 찍어 앨범을 만드는 게임입니다.",
+            "first_step": "식물 성장 단계별 스프라이트를 준비하고 시간 경과에 따른 변화 로직을 구현합니다."
+          },
+          {
+            "title": "테라리움 디자이너",
+            "concept": "작은 유리병 안에 식물과 장식물을 배치하여 나만의 테라리움을 만드는 시뮬레이션입니다.",
+            "first_step": "유리병 영역 내에서 오브젝트를 드래그 앤 드롭으로 배치하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "오브젝트 배치 시스템과 수집형 게임의 기본 구조를 배우기에 좋습니다. 힐링 게임 특유의 감성적인 UI 디자인을 연습하기에 추천합니다.",
+        "source_limitations_ko": "소개문이 짧아 식물의 성장 로직이나 구체적인 수집 방식은 확인되지 않습니다. 추가적인 게임 규칙 설계가 필요합니다.",
+        "name": "Plant Therapy [40% Off] [Free] [Simulation] [Windows] [macOS]",
+        "source": "itch",
+        "detail_url": "https://short-leg-studio.itch.io/plant-therapy",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 275,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 35,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
     }
   }
 }

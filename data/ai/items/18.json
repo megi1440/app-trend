@@ -7615,6 +7615,183 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-29"
+    },
+    "itch:2ca1989c1e33965c846c": {
+      "app_key": "itch:2ca1989c1e33965c846c",
+      "name": "Pocket Wrestling Federation [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://johndango.itch.io/pocket-wrestling-federation",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:32:06+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "The whole wrestling business, in tn your pocket in this free booking game for the Playdate.",
+      "analysis": {
+        "app_key": "itch:2ca1989c1e33965c846c",
+        "summary_ko": "본 앱은 Playdate 기기에서 즐길 수 있는 레슬링 단체 운영 시뮬레이션 게임입니다. 사용자는 레슬링 비즈니스를 관리하는 부킹 게임을 경험할 수 있습니다.",
+        "features_ko": [
+          "레슬링 단체를 운영하고 관리하는 시뮬레이션 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "제한된 하드웨어 성능을 가진 Playdate 플랫폼에 최적화된 시뮬레이션 게임입니다. 텍스트와 메뉴 중심의 인터페이스가 핵심일 것으로 추정됩니다.",
+        "development_ko": "데이터 관리와 UI 중심의 개발이 필요합니다. 레슬링 선수들의 능력치와 단체 운영 수치를 관리하는 데이터 구조 설계가 중요합니다. 1인 개발 시에는 복잡한 그래픽보다는 텍스트 기반의 정보 전달 효율성에 집중해야 합니다.",
+        "idea_ko": "선수들의 능력치와 스토리를 관리하는 텍스트 기반의 매니지먼트 시스템이 개인 개발에 가장 적합합니다.",
+        "highlights_ko": [
+          "레슬링 비즈니스 운영이라는 독특한 테마를 다룹니다.",
+          "Playdate 플랫폼의 특성을 활용한 휴대용 시뮬레이션입니다."
+        ],
+        "systems_ko": [
+          "데이터베이스 관리(선수/단체)",
+          "이벤트 생성 및 결과 계산 엔진",
+          "메뉴 기반 UI 시스템",
+          "세이브/로드 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "그래픽보다는 데이터 관리와 텍스트 기반의 로직 구현이 중심이므로 기술적 난이도는 낮습니다. 다만, 시뮬레이션의 깊이를 결정하는 밸런스 설계가 중요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "선수 명단 관리",
+            "경기 부킹 시스템",
+            "기본 통계 출력"
+          ],
+          "defer": [
+            "복잡한 스토리 이벤트",
+            "그래픽 연출",
+            "멀티플레이어 기능"
+          ],
+          "risks": [
+            "데이터 간의 밸런스 붕괴",
+            "반복적인 플레이의 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "텍스트 레슬링 매니저",
+            "concept": "선수들의 컨디션과 인기를 관리하여 최고의 흥행을 만드는 텍스트 기반 시뮬레이션입니다. 매주 발생하는 이벤트를 선택하여 결과를 확인합니다.",
+            "first_step": "선수 데이터 구조를 정의하고 간단한 경기 승패 계산 로직을 구현합니다."
+          },
+          {
+            "title": "로스터 빌더",
+            "concept": "제한된 예산 안에서 최고의 레슬링 팀을 구성하는 퍼즐형 시뮬레이션입니다. 선수들의 조합에 따른 시너지 효과를 계산합니다.",
+            "first_step": "선수 카드 데이터를 만들고 예산 내에서 선택하는 UI를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "데이터 중심의 시뮬레이션 게임을 설계하는 기초를 배우기에 좋습니다. 텍스트 기반 인터페이스의 효율적인 구성 방법을 익힐 수 있습니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 게임 규칙이나 데이터 관리 방식은 확인되지 않습니다. 실제 구현 시에는 추가적인 게임 디자인 설계가 필수적입니다.",
+        "name": "Pocket Wrestling Federation [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://johndango.itch.io/pocket-wrestling-federation",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 278,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 34,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
+    },
+    "apple:6757154335": {
+      "app_key": "apple:6757154335",
+      "name": "Cube Land Puzzle Game",
+      "developer": "Rotatelab",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/us/app/cube-land-puzzle-game/id6757154335?uo=2",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:37:59+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Blast your way through colorful cube worlds! Cube Land Puzzle Game is a satisfying 3D block puzzle where every shot counts. Aim color matched blasters at cube structures and watch them crumble piece by piece. Plan ahead, pick the right blaster at the right moment, and clear each level with style. WHY YOU'LL LOVE CUBE LAND PUZZLE GAME • Satisfying destruction, every block blast feels great • Easy to pick up, genuinely clever to master • Hundreds of handcrafted 3D cube puzzles • Relaxing pace with no time pressure • Play anywhere, works offline Think smart. Aim true. Blast it all. Download Cube Land Puzzle Game and start clearing your first cube world today!",
+      "analysis": {
+        "app_key": "apple:6757154335",
+        "summary_ko": "Cube Land Puzzle Game은 3D 블록을 조준하고 발사하여 구조물을 무너뜨리는 퍼즐 게임입니다. 플레이어는 색상에 맞는 발사기를 선택하여 전략적으로 블록을 제거해야 합니다. 수백 개의 수제 레벨을 제공하며 시간 제한 없이 편안한 속도로 즐길 수 있습니다.",
+        "features_ko": [
+          "색상에 맞춘 발사기를 사용하여 3D 블록 구조물을 조준하고 발사합니다.",
+          "블록이 무너질 때의 물리적 파괴 효과를 통해 시각적 만족감을 제공합니다.",
+          "수백 개의 수제 3D 퍼즐 레벨이 준비되어 있습니다.",
+          "시간 제한 없이 오프라인 환경에서도 플레이가 가능합니다."
+        ],
+        "noteworthy_ko": "물리 엔진을 활용한 파괴 메커니즘이 핵심이며, 블록의 구조적 안정성을 고려한 퍼즐 설계가 흥미롭습니다. 1인 개발 시 물리 연산 최적화와 블록 간의 충돌 판정 구현이 개발의 성패를 좌우할 것으로 추정됩니다.",
+        "development_ko": "핵심 기술로는 3D 물리 엔진(Unity PhysX 등)의 충돌 처리와 파괴 효과 구현이 필요합니다. 콘텐츠 제작 측면에서는 수백 개의 레벨을 수동으로 배치해야 하므로 레벨 에디터 도구 제작이 필수적입니다. 밸런스 측면에서는 발사 횟수 제한과 구조물의 강도 조절을 통해 난이도를 세밀하게 조정해야 합니다.",
+        "idea_ko": "특정 색상의 블록을 제거하면 연쇄 반응이 일어나는 '연쇄 폭발 퍼즐' 아이디어가 개인 개발에 가장 적합합니다.",
+        "highlights_ko": [
+          "시간 압박이 없는 릴랙스한 게임 플레이 환경을 제공합니다.",
+          "블록이 무너지는 물리적 피드백을 강조하여 만족감을 극대화했습니다."
+        ],
+        "systems_ko": [
+          "3D 물리 충돌 및 파괴 시스템",
+          "레벨 데이터 관리 및 로딩 시스템",
+          "발사체 조준 및 궤적 예측 UI",
+          "게임 상태 관리(승리/패배 조건)",
+          "오프라인 데이터 저장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기본적인 물리 퍼즐 메커니즘은 구현 가능하나, 수백 개의 레벨을 일관된 난이도로 설계하는 과정에서 많은 시간이 소요됩니다. 물리 엔진의 불안정성을 제어하는 기술적 숙련도가 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "블록 생성 및 물리 적용",
+            "발사체 발사 메커니즘",
+            "레벨 클리어 판정 로직"
+          ],
+          "defer": [
+            "복잡한 파티클 효과",
+            "다양한 특수 블록 종류",
+            "클라우드 저장 기능"
+          ],
+          "risks": [
+            "물리 엔진의 연산 부하로 인한 모바일 기기 발열",
+            "레벨 디자인의 단조로움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "연쇄 폭발 퍼즐",
+            "concept": "특정 블록을 맞추면 주변 블록이 연쇄적으로 터지는 규칙입니다. 제한된 발사 횟수 내에 모든 블록을 제거해야 합니다.",
+            "first_step": "두 개의 블록이 충돌했을 때 폭발하는 간단한 연쇄 반응 로직 구현."
+          },
+          {
+            "title": "중력 변화 퍼즐",
+            "concept": "발사 후 블록 구조물의 중력 방향을 바꾸어 퍼즐을 해결합니다. 공간 지각 능력을 활용한 전략적 플레이를 유도합니다.",
+            "first_step": "물리 엔진의 중력 벡터를 실시간으로 변경하는 기능 테스트."
+          }
+        ],
+        "recommendation_ko": "물리 기반 게임의 기초적인 충돌 처리와 레벨 디자인을 배우기에 적합합니다. 다만, 물리 엔진의 예측 불가능한 동작을 제어하는 경험이 부족하다면 구현 난이도가 높을 수 있습니다.",
+        "source_limitations_ko": "소개문에 명시된 '수백 개의 레벨'이 절차적 생성인지 수동 배치인지 확인되지 않으며, 물리 엔진의 구체적인 구현 방식이나 최적화 기법은 알 수 없습니다.",
+        "name": "Cube Land Puzzle Game",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/cube-land-puzzle-game/id6757154335?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 98,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
     }
   }
 }

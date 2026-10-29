@@ -7584,6 +7584,275 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-29"
+    },
+    "itch:f332d8e7d76af9106926": {
+      "app_key": "itch:f332d8e7d76af9106926",
+      "name": "Breathless A32 [Free] [Shooter]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://eismanberlin.itch.io/breathless-a32",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:28:48+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "The classic Amiga FPS enhanced with modern controls, CD32 pad support and improved performance.",
+      "analysis": {
+        "app_key": "itch:f332d8e7d76af9106926",
+        "summary_ko": "Breathless A32는 고전 Amiga FPS 게임을 현대적인 컨트롤과 향상된 성능으로 재구성한 게임입니다. CD32 패드 지원을 포함하여 현대적인 환경에서 고전 게임의 경험을 즐길 수 있도록 개선되었습니다.",
+        "features_ko": [
+          "현대적인 컨트롤 방식을 지원하여 조작 편의성을 높였습니다.",
+          "CD32 패드 호환성을 통해 다양한 입력 장치를 지원합니다.",
+          "원작 대비 향상된 게임 성능을 제공합니다."
+        ],
+        "noteworthy_ko": "고전 게임의 리마스터링은 기존 엔진의 한계를 현대 기술로 어떻게 극복하는지가 핵심입니다. 입력 장치 대응과 성능 최적화가 주된 개발 포인트입니다.",
+        "development_ko": "기존 게임의 로직을 유지하면서 현대적인 입력 시스템과 그래픽 API로 이식하는 과정이 필요합니다. 성능 최적화는 고전 게임의 느낌을 해치지 않는 선에서 이루어져야 합니다. 테스트 시 다양한 컨트롤러 환경에서의 입력 반응성을 확인하는 것이 중요합니다.",
+        "idea_ko": "고전적인 2.5D FPS 엔진을 직접 구현하여 간단한 미로 탈출 게임을 만드는 것을 제안합니다.",
+        "highlights_ko": [
+          "고전 FPS의 향수를 현대적인 조작감으로 재현했습니다.",
+          "다양한 컨트롤러 지원을 통해 접근성을 높였습니다."
+        ],
+        "systems_ko": [
+          "레이캐스팅 기반 렌더링 엔진",
+          "입력 매핑 및 컨트롤러 처리",
+          "플레이어 이동 및 충돌 판정",
+          "게임 상태 관리(시작, 종료, 레벨)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "고전 FPS의 핵심인 레이캐스팅 엔진은 학습 자료가 많아 1인 개발자가 구현하기에 적절합니다. 다만, 현대적인 컨트롤러 대응과 최적화는 세심한 작업이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 1인칭 이동 및 시점 회전",
+            "레이캐스팅 기반 벽 렌더링",
+            "간단한 충돌 판정"
+          ],
+          "defer": [
+            "복잡한 적 AI",
+            "다양한 무기 시스템"
+          ],
+          "risks": [
+            "렌더링 성능 최적화 문제",
+            "입력 지연 현상"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "레트로 미로 탈출",
+            "concept": "레이캐스팅 엔진을 활용하여 복잡한 미로를 탈출하는 게임입니다. 적 대신 함정과 퍼즐을 배치합니다.",
+            "first_step": "벽을 렌더링하고 플레이어가 이동할 수 있는 환경을 만듭니다."
+          },
+          {
+            "title": "픽셀 슈터",
+            "concept": "단순한 2.5D 환경에서 픽셀 아트 적을 처치하는 아케이드 슈팅 게임입니다.",
+            "first_step": "적의 등장과 사격 판정을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "FPS 게임의 기초 엔진을 공부하고 싶은 개발자에게 강력히 추천합니다. 고전 게임의 구조를 분석하며 엔진의 원리를 이해하기 좋습니다.",
+        "source_limitations_ko": "소개문에는 원작의 소스 코드 활용 여부나 구체적인 엔진 기술 스택이 명시되어 있지 않습니다. 현대적인 컨트롤러 지원의 구체적인 구현 방식은 알 수 없습니다.",
+        "name": "Breathless A32 [Free] [Shooter]",
+        "source": "itch",
+        "detail_url": "https://eismanberlin.itch.io/breathless-a32",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 374,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
+    },
+    "apple:6739907881": {
+      "app_key": "apple:6739907881",
+      "name": "포격크루: 턴제 PvP",
+      "developer": "VNG Game Studios",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_rpg",
+      "detail_url": "https://apps.apple.com/kr/app/%ED%8F%AC%EA%B2%A9%ED%81%AC%EB%A3%A8-%ED%84%B4%EC%A0%9C-pvp/id6739907881?uo=2",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:32:29+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "가볍게 튕기고, 신나게 한 판! 〈포격크루〉는 귀엽고 유쾌한 캐주얼 포격 게임! 친구와 팀을 맺고 화려한 스킬을 펼쳐 한 방으로 승부를 뒤집어 보세요! 짜릿한 길드전과 개성 넘치는 코스튬이 여러분을 기다립니다! 【게임 특징】 쉬운 조작, 깊은 전략 간단한 드래그 앤 슛으로 누구나 쉽게 시작! 하지만 각도와 풍향, 스킬 조합까지 치밀한 전략이 필요합니다. 당신의 전략과 실력을 시험해 보세요! 친구와 함께, 신나는 팀 플레이 빠른 팀 매칭과 다양한 모드로 언제든 신나는 한 판을 즐겨보세요! 친구와 함께 찰떡 호흡으로 강적을 물리치세요! 우정이야말로 최강의 무기! 시즌 경쟁, 탄왕을 차지하라 짜릿한 랭킹 시즌에서 당신의 실력을 증명하세요! 길드에 가입해 길드전에 참여하고, 전 서버의 유저들과 경쟁하며 최강 **'탄왕'**의 영예를 차지하세요! 다채로운 코스튬, 귀엽게 출격 수백 종의 개성 넘치고 귀여운 코스튬과 무기 스킨을 수집하세요! 멋진 SF 스타일부터 깜찍한 동물 스타일까지, 나만의 영웅을 완성해 보세요! 화려한 스킬, 역전의 한 방 다양한 영웅 스킬과 아이템을 활용하세요! 얼음, 화염, 유도탄 등 강력한 스킬을 적절한 타이밍에 사용하면 단 한 방으로 전세를 뒤집을 수 있습니다! 포격크루, 모두 집합! 짜릿하고 유쾌한 한 판이 지금 시작됩니다! 지금 바로 다운로드하고 최고의 한 판을 즐겨보세요!",
+      "analysis": {
+        "app_key": "apple:6739907881",
+        "summary_ko": "포격크루는 드래그 앤 슛 방식으로 즐기는 캐주얼 턴제 포격 게임입니다. 친구와 팀을 맺고 각도와 풍향을 고려하여 전략적인 공격을 펼칠 수 있습니다. 다양한 코스튬과 스킬을 활용하여 나만의 영웅을 꾸미고 길드전에서 승리하여 최고의 자리에 도전하세요.",
+        "features_ko": [
+          "드래그 앤 슛 조작으로 누구나 쉽게 포격 액션을 즐길 수 있습니다.",
+          "각도, 풍향, 스킬 조합 등 전략적인 요소가 전투의 승패를 결정합니다.",
+          "친구와 팀을 맺고 실시간으로 협력 플레이를 즐길 수 있습니다.",
+          "수백 종의 코스튬과 무기 스킨으로 캐릭터를 개성 있게 꾸밀 수 있습니다.",
+          "길드전과 시즌 경쟁을 통해 전 서버 유저와 실력을 겨룰 수 있습니다."
+        ],
+        "noteworthy_ko": "간단한 조작법에 물리 엔진을 결합하여 전략적 깊이를 더한 점이 흥미롭습니다. 포격 게임 특유의 각도 계산과 풍향 변수를 어떻게 게임 시스템으로 구현했는지가 핵심입니다. 개인 개발 시 멀티플레이어 환경에서의 물리 동기화가 가장 큰 기술적 도전 과제가 될 것으로 추정됩니다.",
+        "development_ko": "물리 엔진을 활용한 투사체 궤적 계산과 충돌 판정 로직이 핵심입니다. 실시간 멀티플레이를 위한 네트워크 동기화 기술이 필요하며, 다양한 코스튬 리소스 제작 부담이 큽니다. 밸런스 조절을 위해 다양한 스킬과 무기의 성능을 테스트하는 과정이 필수적입니다.",
+        "idea_ko": "지형이 파괴되는 시스템을 도입하여, 포격으로 지형을 변화시켜 적을 함정에 빠뜨리는 전략적 요소를 제안합니다.",
+        "highlights_ko": [
+          "간단한 조작과 깊이 있는 전략의 조화로 누구나 쉽게 즐길 수 있습니다.",
+          "다양한 코스튬과 길드전 시스템으로 지속적인 플레이 동기를 제공합니다."
+        ],
+        "systems_ko": [
+          "물리 엔진 기반 투사체 궤적 시스템",
+          "턴제 전투 및 매칭 시스템",
+          "캐릭터 커스터마이징 및 장비 관리",
+          "길드 및 랭킹 시스템",
+          "네트워크 동기화 및 실시간 통신"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "물리 엔진을 활용한 턴제 전투와 실시간 멀티플레이어 동기화는 개인 개발자가 구현하기에 기술적 난이도가 높고 리소스 제작 부담이 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "드래그 앤 슛 조작",
+            "기본 물리 투사체 궤적",
+            "턴제 전투 로직"
+          ],
+          "defer": [
+            "길드전",
+            "실시간 멀티플레이",
+            "다양한 코스튬"
+          ],
+          "risks": [
+            "물리 엔진 동기화 문제",
+            "네트워크 지연으로 인한 조작감 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지형 파괴 시스템",
+            "concept": "포격이 지형에 닿으면 지형이 파괴됩니다. 이를 이용해 적의 발판을 없애거나 지형을 유리하게 바꿀 수 있습니다.",
+            "first_step": "타일 기반의 파괴 가능한 지형 시스템을 구현합니다."
+          },
+          {
+            "title": "환경 변수 추가",
+            "concept": "풍향 외에도 중력 변화, 비, 안개 등 전투 중 환경 변수가 실시간으로 변하여 전략적 대응을 요구합니다.",
+            "first_step": "전투 중 환경 변수를 변경하는 시스템을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "물리 기반 게임 개발과 멀티플레이어 네트워크 구조를 배우고 싶은 개발자에게 추천합니다. 다만, 처음에는 싱글 플레이 위주로 개발하여 물리 로직을 먼저 완성하는 것이 좋습니다.",
+        "source_limitations_ko": "소개문에는 사용된 물리 엔진이나 네트워크 라이브러리에 대한 정보가 없습니다. 실제 게임의 밸런스 수치나 매칭 알고리즘의 상세 동작 방식은 확인이 불가능합니다.",
+        "name": "포격크루: 턴제 PvP",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%ED%8F%AC%EA%B2%A9%ED%81%AC%EB%A3%A8-%ED%84%B4%EC%A0%9C-pvp/id6739907881?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 207,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 11,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
+    },
+    "apple:1058528141": {
+      "app_key": "apple:1058528141",
+      "name": "War Machines：Battle Tank Games",
+      "developer": "Wildlife Studios",
+      "source": "apple",
+      "country": "US",
+      "category": "game_strategy",
+      "detail_url": "https://apps.apple.com/us/app/war-machines-battle-tank-games/id1058528141?uo=2",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:36:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "War Machines: Ultimate Tank Battle Game Get ready for the ultimate tank battle experience in War Machines, a FREE tank game that will keep you on the edge of your seat! Command your own army of powerful machines and bring destruction upon your enemies. Dive into intense, heart-pounding tank battles and prove your skills in this addictive war game! Main Features • Free-to-play tank game: Wage war in epic battles without spending a dime! • Massive army of tanks: Choose from a wide range of war machines to dominate the battlefield! • Intense tank battles: Unleash your firepower and destroy your enemies in thrilling battles with your squad! • Easy controls: Master your war machines with intuitive controls and dominate the battlefield! • Global warfare: Compete against players from around the world in this action-packed tank game! • Strategic gameplay: Plan your attacks and adapt to the ever-changing battlefield! • Progression system: Upgrade your war machines to become the ultimate tank commander, from guns to engines! • Competitive leaderboards: Rise through the ranks and become the master tank player in the world! Join millions of players worldwide in this modern tank battle game that combines strategy, action, and intense firepower. In War Machines, you'll command an army of tanks and blitz your way through your foes in fast-paced, strategy based battles without robots. With its free-to-play free to play model, you'll have unlimited access to all the action without spending a dime! Upgrade your war machines, join squads of friendly tanks, strategize your attacks, and climb the global leaderboards to become the ultimate tank commander. Don't miss out on this amazing game that brings you the full experience of tank warfare. Download War Machines now and dominate the battlefield! Privacy Policy: https://wildlifestudios.com/policy-center/privacy-policy/ Terms of Service: https://wildlifestudios.com/policy-center/terms-of-use/",
+      "analysis": {
+        "app_key": "apple:1058528141",
+        "summary_ko": "War Machines는 전 세계 플레이어들과 실시간으로 탱크 전투를 즐길 수 있는 전략 액션 게임입니다. 다양한 탱크를 수집하고 업그레이드하며 전장을 지배하는 것이 목표입니다. 직관적인 조작법을 통해 누구나 쉽게 전투에 참여할 수 있습니다.",
+        "features_ko": [
+          "다양한 종류의 탱크를 선택하여 전투에 참여합니다.",
+          "전 세계 플레이어들과 실시간으로 대결합니다.",
+          "탱크의 무기와 엔진 등을 업그레이드하여 성능을 강화합니다.",
+          "전략적인 공격 계획을 세워 전장을 지배합니다.",
+          "리더보드를 통해 전 세계 순위를 경쟁합니다."
+        ],
+        "noteworthy_ko": "전략과 액션을 결합한 탱크 전투 게임으로, 단순한 조작을 강조하여 진입 장벽을 낮춘 점이 특징입니다. 성장 시스템과 경쟁 요소를 적절히 배치하여 사용자 리텐션을 유도하는 구조가 흥미롭습니다.",
+        "development_ko": "실시간 멀티플레이어 네트워크 동기화가 가장 큰 기술적 과제입니다. 탱크의 물리 엔진 구현과 밸런스 조정이 중요하며, 업그레이드 시스템을 위한 데이터 구조 설계가 필요합니다. 그래픽 최적화와 서버 비용 관리가 지속적인 운영의 핵심입니다.",
+        "idea_ko": "탱크의 부품을 조합하여 나만의 커스텀 탱크를 만들고, 특정 지형에 특화된 전략을 세우는 '탱크 커스터마이징' 시스템입니다.",
+        "highlights_ko": [
+          "실시간 멀티플레이어 전투를 통해 전 세계 유저들과 경쟁하는 긴장감을 제공합니다.",
+          "탱크 업그레이드 시스템을 통해 성장의 재미를 느낄 수 있습니다."
+        ],
+        "systems_ko": [
+          "실시간 멀티플레이어 네트워크 시스템",
+          "탱크 물리 및 이동 제어 시스템",
+          "업그레이드 및 인벤토리 데이터 관리",
+          "매치메이킹 및 리더보드 시스템",
+          "게임 밸런스 및 보상 로직"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 멀티플레이어 게임은 네트워크 지연(Lag) 처리와 서버 동기화가 매우 까다롭습니다. 1인 개발자가 물리 엔진, 네트워크, 그래픽, 밸런스를 모두 완성도 있게 구현하기에는 제작 부담이 매우 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 탱크 이동 및 사격 로직",
+            "싱글 플레이어 봇 전투",
+            "탱크 업그레이드 UI"
+          ],
+          "defer": [
+            "실시간 멀티플레이어 대전",
+            "글로벌 리더보드"
+          ],
+          "risks": [
+            "네트워크 동기화 구현 실패",
+            "게임 밸런스 조정의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지형 파괴 전략",
+            "concept": "전장의 지형을 파괴하여 엄폐물을 만들거나 적의 경로를 차단하는 전략적 요소입니다.",
+            "first_step": "타일 기반 맵에서 특정 오브젝트를 파괴하는 로직 구현."
+          },
+          {
+            "title": "탱크 부품 조합",
+            "concept": "서로 다른 탱크의 부품을 조합하여 속도형, 방어형 등 특화된 탱크를 만드는 시스템입니다.",
+            "first_step": "부품별 능력치(스탯)를 정의하고 합산하는 데이터 구조 설계."
+          }
+        ],
+        "recommendation_ko": "멀티플레이어 게임의 기초적인 네트워크 구조와 물리 엔진 활용을 배우고 싶다면 추천합니다. 다만, 완성도 높은 멀티플레이어 게임은 1인 개발로 매우 도전적인 과제입니다.",
+        "source_limitations_ko": "소개문에는 구체적인 물리 엔진이나 네트워크 라이브러리에 대한 정보가 없으며, 실제 전투 밸런스나 수익 모델의 상세 내용은 확인되지 않습니다.",
+        "name": "War Machines：Battle Tank Games",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/war-machines-battle-tank-games/id1058528141?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
     }
   }
 }

@@ -8988,6 +8988,367 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-29"
+    },
+    "apple:1636072966": {
+      "app_key": "apple:1636072966",
+      "name": "Mini Soccer Star 2027",
+      "developer": "VIVA GAMES S.L.",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/kr/app/mini-soccer-star-2027/id1636072966?uo=2",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:31:34+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Welcome to the MINI SOCCER STAR 2026! Play the brand new soccer game Mini Soccer Star and enjoy the real and immersive soccer experience. You will play as a young soccer player and experience a legendary career. You only need the simplest controls to complete wonderful shooting and passing, and the physics-based football simulation system will bring you an amazing game experience. There are tons of real teams and leagues/cups. You can join the most famous clubs and also help your country win the world championship. Eventually, become a legendary soccer star. Game Features: * You can play offline. * Lots of real teams and league/cups. * Simulate the career of a soccer player. * You can even play goalkeeper. * Advanced animation system and AI. * Super simple controls - just drag and tap. * Addictive soccer training challenges. * Lots of player customization options. * Save your great goals anytime. * Stylized game graphics. * Global Achievements and leaderboards. The game supports multiple languages including English, Portuguese, Spanish, French, German, Italian, Turkish, Simplified Chinese, Traditional Chinese, Japanese, Korean, and Indonesian. Download MINI SOCCER STAR for free and be the mini soccer star! We would love to hear from you! Please write to: support@vivastudios.com",
+      "analysis": {
+        "app_key": "apple:1636072966",
+        "summary_ko": "축구 선수가 되어 커리어를 쌓고 월드 챔피언십 우승을 목표로 하는 축구 시뮬레이션 게임입니다. 드래그와 탭을 이용한 간단한 조작으로 슈팅과 패스를 즐길 수 있습니다. 실제 팀과 리그가 포함되어 있으며 골키퍼 플레이도 가능합니다.",
+        "features_ko": [
+          "드래그와 탭을 사용하는 간단한 조작 방식을 제공합니다.",
+          "선수의 커리어를 시뮬레이션하며 성장시킬 수 있습니다.",
+          "골키퍼를 포함한 다양한 포지션 플레이가 가능합니다.",
+          "오프라인 플레이를 지원합니다.",
+          "실제 팀과 리그, 컵 대회를 포함합니다.",
+          "선수 커스터마이징 및 골 장면 저장 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "단순한 조작으로 몰입감 있는 축구 경험을 제공하려는 시도가 돋보입니다. AI와 애니메이션 시스템을 통해 시뮬레이션의 깊이를 더한 점이 개발적으로 흥미롭습니다.",
+        "development_ko": "물리 기반의 축구 시뮬레이션 엔진 구현이 가장 큰 기술적 도전입니다. 다양한 팀과 리그 데이터를 관리하는 구조가 필요하며, AI의 움직임과 애니메이션 간의 자연스러운 연결이 중요합니다.",
+        "idea_ko": "선수의 커리어뿐만 아니라 구단 운영 요소를 결합한 매니지먼트 하이브리드 게임으로 발전시키는 것이 좋습니다.",
+        "highlights_ko": [
+          "간단한 조작으로 구현된 슈팅 및 패스 메커니즘.",
+          "선수 커리어 시뮬레이션과 골키퍼 모드의 결합."
+        ],
+        "systems_ko": [
+          "물리 기반 축구 시뮬레이션",
+          "선수 능력치 및 성장 시스템",
+          "AI 행동 트리 및 애니메이션 제어",
+          "데이터베이스 관리(팀/리그)",
+          "UI/UX 및 조작 입력 처리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "물리 엔진과 AI, 방대한 데이터 관리가 동시에 요구되는 복합적인 프로젝트입니다. 1인이 모든 시스템을 구현하기에는 콘텐츠 제작 부담이 매우 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 축구 물리 엔진",
+            "선수 이동 및 슈팅 조작",
+            "간단한 AI 상대 팀"
+          ],
+          "defer": [
+            "실제 팀 라이선스 데이터",
+            "복잡한 커스터마이징",
+            "온라인 리더보드"
+          ],
+          "risks": [
+            "물리 엔진의 부자연스러운 움직임",
+            "AI 밸런스 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스트리트 사커 챌린지",
+            "concept": "정식 리그 대신 길거리 축구의 1대1 대결에 집중합니다. 짧은 시간 내에 기술을 사용하여 골을 넣는 아케이드 방식입니다.",
+            "first_step": "1대1 상황에서의 공 물리 처리와 슈팅 로직을 구현합니다."
+          },
+          {
+            "title": "골키퍼 마스터",
+            "concept": "골키퍼 시점에만 집중하여 날아오는 공을 막아내는 리듬 액션 스타일의 게임입니다. 공의 궤적을 예측하여 반응하는 것이 핵심입니다.",
+            "first_step": "공의 궤적을 생성하고 터치로 막아내는 판정 시스템을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "스포츠 게임의 물리 엔진과 AI 구현 방식을 배우고 싶은 개발자에게 추천합니다. 다만 규모가 크므로 핵심 메커니즘 위주로 축소하여 개발하는 것이 좋습니다.",
+        "source_limitations_ko": "소개문에 명시된 '실제 팀'의 범위와 라이선스 여부, 구체적인 물리 엔진의 구현 방식은 확인되지 않습니다.",
+        "name": "Mini Soccer Star 2027",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/mini-soccer-star-2027/id1636072966?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 285,
+        "reasons": [
+          "multi_country",
+          "newly_seen"
+        ],
+        "best_rank": 77,
+        "countries": [
+          "JP",
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
+    },
+    "apple:1436583072": {
+      "app_key": "apple:1436583072",
+      "name": "GODOOR - ゼンリン住宅地図対応 配達アプリ",
+      "developer": "ZENRIN DataCom CO.,LTD.",
+      "source": "apple",
+      "country": "JP",
+      "category": "app_productivity",
+      "detail_url": "https://apps.apple.com/jp/app/godoor-%E3%82%BC%E3%83%B3%E3%83%AA%E3%83%B3%E4%BD%8F%E5%AE%85%E5%9C%B0%E5%9B%B3%E5%AF%BE%E5%BF%9C-%E9%85%8D%E9%81%94%E3%82%A2%E3%83%97%E3%83%AA/id1436583072?uo=2",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:35:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ゼンリン住宅地図で荷物管理ができる配達業務効率化アプリ「GODOOR（ゴードア）」 建物・表札名がわかるゼンリン住宅地図に荷物情報をピン表示し、荷物情報と住宅地図を照らし合わせることができるアプリです。配達ルート考慮や誤配防止をサポートします。 GODOORでできること： ・ゼンリン住宅地図/配達に使いやすい地図表示 ・荷物をかんたん登録 ・スムーズな荷物管理 ・配達先入口までのカーナビゲーション ・配達メモ/表札情報の管理 GODOORの機能詳細： ■ゼンリン住宅地図/配達に使いやすい通常地図 ・国内全エリアのゼンリン住宅地図が閲覧可能 ・建物名/表札・テナント名を表示 ・入口情報や私道を表示 ・番地や道路など配達時に必要な情報がわかりやすい通常地図デザイン ■荷物をかんたん登録 ・ゼンリン住宅地図上から地点を選んで登録 ・伝票撮影での住所読み取りによる登録 ・テキスト入力のほか音声入力にも対応 ・ゼンリン住宅地図で住所整備前の地点にも登録可能 ■スムーズな荷物管理 ・荷物件数はいつでも通常地図/ゼンリン住宅地図上に表示 ・荷物の配達ステータスは 配達/不在/再配達/集荷/完了 で管理 ・配達時間帯/配達ステータスは通常地図/ゼンリン住宅地図上にピン表示 ・配達の完了/不在/再配達時のステータスや配達時間帯変更もスムーズ ・荷物絞り込み機能で任意の荷物を通常地図/ゼンリン住宅地図上に表示 ・置き配や宅配ボックスの利用可否を登録可能 ・荷物情報とゼンリン住宅地図はシームレスに閲覧可能 ■配達先までのカーナビゲーション ・荷物情報からワンタップでカーナビを起動 ・配達先までの自動車ルートをナビゲーション ・ゼンリン地図の高品質なカーナビを実装 ■配達メモ/表札情報の管理 ・配達先に関する注意事項などは「配達メモ」として登録可能 ・表札に関する補足情報は「表札」の欄で管理 ・配達メモ、表札メモは次回配達の際にいつでも閲覧 こんな方におすすめ： ■軽貨物の配達員 ■バイク便のドライバー ■フードデリバリー、宅配、出前の配達員 ■配達業務でゼンリン住宅地図をご利用の方 こんなときに便利： ■冊子・紙のゼンリン住宅地図をデジタル化したい ■ゼンリン住宅地図上で荷物情報を管理したい ■車載カーナビへの配達先入力の手間を省きたい ■夜間配達の際に暗くて住宅地図が見にくい ■配達中でも片手でかんたんに操作できるツールがほしい ゼンリン住宅地図について： ゼンリンの住宅地図は、専門スタッフの現地調査により日本全国1,741市区町村の地域・住宅情報を網羅し提供されております。 都市部では毎年、それ以外の地区でも2～5年に1回は定期的に更新を実施。ゼンリン住宅地図は、常に最新データの情報をお届けしております。 配達・配送や、戸別訪問業務などのビジネスをサポートするインフラとしてゼンリン住宅地図は様々なお客様にご利用いただいております。 ゼンリン住宅地図/通常地図の更新について： 通常地図・ゼンリン住宅地図とも、ゼンリン社にて地図データの更新があり次第アプリに最新情報を反映しております。 地図情報についてのお問い合わせは（ゼンリン窓口）までお願いいたします。 ご利用について： ■ 有料機能に関して ※初回登録時は、1ヶ月無料ですべての有料会員向け機能をご利用いただけます。 ※アカウントは利用規約に従い、ご利用者様1名につき1つご登録ください。複数名でアカウントを共有された場合、正常な動作の保証は致しかねます。 ※Auto-renewable Subscriptions：自動更新購読を利用しています。 ※料金は定期購読購入時のiTunesアカウントに毎月自動的に課金されます。 ※定期購読の自動更新処理は、有効期間終了の24時間前から終了までの間に行われます。 ※定期購読の停止は、端末本体の「設定/ iTunes StoreとApp Store/Apple ID/登録」から行うことができます。 ※有効期間終了の24時間以上前に設定から「自動更新をオフ」にすると、自動更新を停止できます。 ※定期購読を購入すると、提供されていた残りの無料お試し期間は失効します。 ※機種変更時には、以前購入した有料機能を復元することができます。有料機能購入時と同じAppleIDで端末にログインの上、アプリ内の設定から「Apple IDアカウントの購入履歴から復元」を実行してください。 ■対応OS iOS：15.5以上 ■利用規約 https://godoor.jp/terms/ ■プライバシーポリシー https://godoor.jp/privacy_policy/ ■注意事項 ・本アプリケーションのご利用には、3G/4G/5G回線かWi-Fiでのインターネット接続が必要となります。 ・交通ルールおよび利用上の注意事項を守り、安全にご利用ください。運転中は、大変危険を伴いますので、携帯電話の操作(注視を含む。以下同じ)をしないでください。また、携帯電話の操作を行う場合は、同乗者がお使いになるか、安全な場所に停止させてください。 ・運転中に携帯電話を注視すると道路交通法に違反する可能性がありますので、ご注意ください。お客様が携帯電話の操作中に事故などを起こした場合であっても、当社は一切責任を負いません。",
+      "analysis": {
+        "app_key": "apple:1436583072",
+        "summary_ko": "GODOOR는 ゼンリン(젠린) 주택 지도를 활용하여 배달 업무를 효율화하는 생산성 앱입니다. 건물명, 표札(문패) 정보가 포함된 지도를 통해 정확한 배달을 지원하며, 荷物(짐) 관리와 내비게이션 기능을 제공합니다. 배달원들의 업무 편의를 위해 설계되었습니다.",
+        "features_ko": [
+          "ゼンリン(젠린) 주택 지도를 통해 건물명과 표札 정보를 상세히 확인할 수 있습니다.",
+          "전표 촬영을 통한 주소 자동 입력 및 荷物 등록 기능을 제공합니다.",
+          "배달 상태 관리 및 置き配(문 앞 배달) 여부 등을 상세히 기록할 수 있습니다.",
+          "지도에서 목적지를 선택하여 내비게이션을 즉시 실행할 수 있습니다."
+        ],
+        "noteworthy_ko": "특정 업계(배달)의 페인 포인트를 정확히 파악하여 전문적인 지도 데이터와 결합한 점이 매우 흥미롭습니다. B2B 성격의 생산성 앱으로서 데이터의 정확성과 사용 편의성이 핵심입니다.",
+        "development_ko": "핵심 기술은 지도 API 연동과 OCR(광학 문자 인식)을 통한 주소 추출입니다. 데이터의 최신성을 유지하는 것이 중요하며, 배달 중 사용을 고려한 UI/UX 설계가 필수적입니다. 테스트 시에는 실제 배달 환경에서의 조작 편의성을 검증해야 합니다.",
+        "idea_ko": "배달원뿐만 아니라 방문 영업직을 위한 고객 방문 기록 및 경로 최적화 앱을 제안합니다.",
+        "highlights_ko": [
+          "전문적인 ゼンリン 주택 지도를 활용하여 배달 정확도를 높였습니다.",
+          "전표 촬영 등 배달원의 업무 시간을 단축하는 효율적인 기능을 갖추고 있습니다."
+        ],
+        "systems_ko": [
+          "지도 API 연동 및 데이터 시각화",
+          "OCR 기반 주소 인식 시스템",
+          "배달 상태 관리 데이터베이스",
+          "경로 최적화 및 내비게이션 연동"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "전문적인 지도 데이터 라이선스 확보와 OCR 기술, 그리고 실시간 배달 데이터 처리라는 높은 기술적 장벽이 존재합니다. 개인 개발자가 이 모든 인프라를 구축하는 것은 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "지도 표시 기능",
+            "배달지 등록 및 관리"
+          ],
+          "defer": [
+            "전문 지도 데이터 연동",
+            "OCR 자동 인식"
+          ],
+          "risks": [
+            "지도 데이터 라이선스 비용",
+            "데이터 정확성 유지"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "방문 영업 기록기",
+            "concept": "영업 사원이 방문한 곳의 정보를 기록하고 다음 방문 일정을 관리하는 앱입니다. 지도에 방문 기록을 남겨 경로를 최적화합니다.",
+            "first_step": "지도 기반 방문지 기록 기능 구현."
+          },
+          {
+            "title": "우리 동네 배달 지도",
+            "concept": "사용자들이 직접 배달 가능한 가게 정보를 공유하는 지도 앱입니다. 배달원들의 팁을 공유하여 효율적인 배달을 돕습니다.",
+            "first_step": "위치 기반 정보 공유 게시판 구현."
+          }
+        ],
+        "recommendation_ko": "특정 직업군의 업무 효율을 높이는 버티컬 앱 개발에 관심 있는 분께 추천합니다. 다만, 지도 데이터와 같은 외부 인프라 의존도가 높다는 점을 고려해야 합니다.",
+        "source_limitations_ko": "소개문에는 지도 데이터의 구체적인 연동 방식이나 서버 통신 보안에 대한 정보가 없습니다. 유료 구독 기능이 포함되어 있으므로 결제 시스템 구현 시 주의가 필요합니다.",
+        "name": "GODOOR - ゼンリン住宅地図対応 配達アプリ",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/godoor-%E3%82%BC%E3%83%B3%E3%83%AA%E3%83%B3%E4%BD%8F%E5%AE%85%E5%9C%B0%E5%9B%B3%E5%AF%BE%E5%BF%9C-%E9%85%8D%E9%81%94%E3%82%A2%E3%83%97%E3%83%AA/id1436583072?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 174,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
+    },
+    "apple:6789723496": {
+      "app_key": "apple:6789723496",
+      "name": "まもるくん：スマホ置き忘れ防止",
+      "developer": "KAZUTO MATSUBARA",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%81%BE%E3%82%82%E3%82%8B%E3%81%8F%E3%82%93-%E3%82%B9%E3%83%9E%E3%83%9B%E7%BD%AE%E3%81%8D%E5%BF%98%E3%82%8C%E9%98%B2%E6%AD%A2/id6789723496",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:37:59+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "「あ、スマホがない！」——そのヒヤッとする瞬間を、もう終わりにしませんか。 iPhoneまもるくんは、iPhoneとApple WatchのBluetoothが切れた\"その瞬間\"に、Apple Watchが振動して知らせる置き忘れ防止アプリです。Appleの「探す」は無くした後に探す道具ですが、まもるくんは置き忘れた直後にその場で気づけます。 ■ こんなシーンで役立ちます ・外出時：玄関を出た瞬間、スマホ忘れに気づける ・カフェ／レストラン：席を立った時のテーブルへの置き忘れを防止 ・旅行／出張：ホテルや空港での忘れ物を防ぎ、安心して移動 ・電車／バス：降車時、座席への置き忘れをその場で通知 ■ 主な機能 ・置き忘れを即通知：離れた瞬間、数秒でApple Watchが振動＋通知 ・距離警告：接続が切れる前、電波が弱くなった段階でやさしく予告 ・誤報しにくい猶予設定：一瞬の電波切れでは鳴りません（0〜10秒で調整） ・安心エリア：自宅など好きな場所を登録すると、そこでは通知オフ ・iPhoneを鳴らす：Apple Watchから、マナーモード中でも大音量で発見 ・文字盤としても使える：見守り画面をデジタル／アナログの時計に。好きな写真を背景に、世界時計や四隅ウィジェットにも対応 ・日本語／English：アプリ内でいつでも切り替え ■ 電池にやさしい設計 省電力のBluetooth LEと、電力をほぼ使わない位置判定のみを使用。GPSを回し続けないため、電池の消費はごくわずかです。 ■ プライバシー 位置情報も利用状況も、外部には一切送信しません。すべてあなたのデバイスの中だけで完結します。 ■ ご利用にあたって ・iOS 17以降のiPhoneと、watchOS 9以降のApple Watchのペアが必要です ・買い切り¥300。サブスクなし・広告なし ・watchOSの仕様上、機種や使用状況によっては通知が遅れる場合があります。そのときは、まもるくんの画面を「文字盤」として常駐させると最も確実です（時計として普段どおり使えます）。 大切なiPhoneを、その手首で見守りましょう。",
+      "analysis": {
+        "app_key": "apple:6789723496",
+        "summary_ko": "まもるくん은 iPhone과 Apple Watch의 Bluetooth 연결이 끊어지면 알림을 보내 스마트폰 분실을 방지하는 앱입니다. 연결이 끊어지는 즉시 Apple Watch가 진동하여 사용자가 즉시 인지할 수 있게 합니다. 또한, 위치 기반의 안심 구역 설정과 iPhone 찾기 기능을 지원합니다.",
+        "features_ko": [
+          "iPhone과 Apple Watch의 연결 해제 시 즉시 진동 알림을 보냅니다.",
+          "연결이 끊어지기 전 신호 강도를 통해 미리 경고를 보냅니다.",
+          "집 등 특정 장소를 안심 구역으로 설정하여 알림을 끌 수 있습니다.",
+          "Apple Watch에서 iPhone을 대음량으로 울려 찾을 수 있습니다.",
+          "앱 화면을 시계(디지털/아날로그)로 설정하여 상시 실행할 수 있습니다."
+        ],
+        "noteworthy_ko": "Bluetooth LE의 연결 상태를 실시간으로 감시하여 분실을 방지하는 실용적인 유틸리티입니다. 1인 개발 시 watchOS와 iOS 간의 백그라운드 통신 안정성을 확보하는 것이 가장 큰 기술적 과제입니다.",
+        "development_ko": "핵심 기술은 Core Bluetooth 프레임워크를 활용한 기기 간 연결 상태 모니터링입니다. 배터리 소모를 최소화하기 위해 GPS 대신 저전력 Bluetooth LE를 사용해야 하며, watchOS의 백그라운드 실행 제약을 극복하는 것이 중요합니다. 테스트 시 다양한 환경에서의 연결 끊김 상황을 시뮬레이션하는 것이 필수적입니다.",
+        "idea_ko": "분실 시 마지막으로 연결되었던 위치를 지도에 표시해주는 '분실 위치 기록' 기능 추가가 적합합니다.",
+        "highlights_ko": [
+          "분실 후 찾는 것이 아닌, 분실 직후 인지하게 하여 예방 효과가 큽니다.",
+          "시계 화면으로 상시 실행 가능하여 사용성을 높였습니다."
+        ],
+        "systems_ko": [
+          "Core Bluetooth 연결 모니터링 시스템",
+          "알림 및 진동 제어 시스템",
+          "위치 기반 안심 구역 관리 시스템",
+          "watchOS-iOS 간 데이터 동기화 시스템",
+          "배터리 최적화 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "Apple의 하드웨어 제약(watchOS 백그라운드 정책)으로 인해 안정적인 연결 유지가 어렵습니다. 하드웨어 통신과 배터리 효율을 동시에 고려해야 하므로 높은 수준의 iOS/watchOS 개발 지식이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "Bluetooth 연결 상태 감지 로직",
+            "연결 해제 시 알림 발송 기능",
+            "iPhone 찾기(소리 재생) 기능"
+          ],
+          "defer": [
+            "안심 구역 설정 기능",
+            "시계 화면 커스터마이징",
+            "다국어 지원"
+          ],
+          "risks": [
+            "OS 업데이트에 따른 Bluetooth 정책 변경으로 인한 기능 오작동",
+            "백그라운드 실행 제한으로 인한 알림 지연"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "분실 위치 지도 기록",
+            "concept": "연결이 끊어진 마지막 위치를 GPS 좌표로 저장하여 지도에 표시해줍니다.",
+            "first_step": "연결 해제 이벤트 발생 시 현재 위치를 Core Location으로 저장하는 기능 구현."
+          },
+          {
+            "title": "스마트 거리 측정기",
+            "concept": "신호 강도를 기반으로 iPhone과의 거리를 실시간으로 추정하여 보여줍니다.",
+            "first_step": "RSSI 값을 읽어와 거리를 수치화하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "Apple의 하드웨어 프레임워크(Core Bluetooth, watchOS)를 깊이 있게 다루고 싶은 개발자에게 추천합니다. 실용적인 유틸리티 앱을 만들고 싶은 분들에게 좋은 학습 사례가 될 것입니다.",
+        "source_limitations_ko": "소개문에 명시된 '안심 구역'의 구체적인 구현 방식(Geofencing 사용 여부)이나, watchOS의 백그라운드 실행 제약을 어떻게 우회하는지에 대한 기술적 상세 정보는 확인되지 않습니다.",
+        "name": "まもるくん：スマホ置き忘れ防止",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%81%BE%E3%82%82%E3%82%8B%E3%81%8F%E3%82%93-%E3%82%B9%E3%83%9E%E3%83%9B%E7%BD%AE%E3%81%8D%E5%BF%98%E3%82%8C%E9%98%B2%E6%AD%A2/id6789723496",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
+    },
+    "google:com.gamepie.airpolice": {
+      "app_key": "google:com.gamepie.airpolice",
+      "name": "HellCopter",
+      "developer": "SayGames Ltd",
+      "source": "google",
+      "country": "JP",
+      "category": "game_arcade",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.gamepie.airpolice&hl=ja&gl=JP",
+      "data_date": "2026-10-30",
+      "analysed_at": "2026-10-30T05:38:13+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Hellcopterは新しい3Dシューティングゲーム。 ヘリコプターに飛び乗り、命をかけたミッションに取りかかろう！ マシンガンを固定して弾をこめ、狙いをつけて引き金を引こう。 このヘリコプターシミュレーターを試してビルを占拠している犯罪者を一掃しよう。 爆薬で敵を爆破し、映画のように弾を命中させよう！ 弾丸は無限に供給される。 Privacy Policy: https://say.games/privacy-policy Terms of Use: https://say.games/terms-of-use 銃撃戦の準備はできてる？",
+      "analysis": {
+        "app_key": "google:com.gamepie.airpolice",
+        "summary_ko": "HellCopter는 헬리콥터에 탑승해 빌딩을 점거한 범죄자를 소탕하는 3D 슈팅 게임입니다. 플레이어는 고정된 머신건을 조준하고 사격하여 적을 제거하며, 폭발물을 활용해 영화 같은 액션을 즐길 수 있습니다. 탄약이 무제한으로 제공되어 끊임없는 사격 경험을 제공합니다.",
+        "features_ko": [
+          "헬리콥터에 탑승하여 빌딩 내 적을 조준하고 사격하는 슈팅 메커니즘을 제공합니다.",
+          "고정된 머신건을 사용하여 적을 소탕하는 전투 방식을 취합니다.",
+          "폭발물을 사용하여 적을 한꺼번에 제거하는 전략적 공격이 가능합니다.",
+          "탄약 제한 없이 지속적인 사격이 가능한 시스템을 갖추고 있습니다."
+        ],
+        "noteworthy_ko": "고정된 시점에서 적을 소탕하는 단순한 슈팅 구조를 가지고 있습니다. 개발 관점에서는 헬리콥터의 움직임과 사격 시의 타격감, 그리고 폭발 효과를 통한 시각적 쾌감을 구현하는 것이 핵심일 것으로 추정됩니다.",
+        "development_ko": "3D 환경에서의 조준 시스템과 물리 기반의 폭발 효과 구현이 핵심 기술입니다. 콘텐츠 제작 측면에서는 다양한 빌딩 구조와 적 배치 레벨 디자인이 필요합니다. 밸런스 측면에서는 탄약 무제한 환경에서 적의 난이도를 어떻게 조절할지가 관건입니다.",
+        "idea_ko": "고정된 헬리콥터에서 벗어나, 헬리콥터가 빌딩 주위를 회전하며 사격하는 '회전 궤도 슈팅' 방식이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "영화 같은 폭발 효과와 무제한 탄약을 통한 시원한 슈팅 경험을 강조합니다.",
+          "헬리콥터 시뮬레이터 형식을 빌려 빌딩 점거 범죄 소탕이라는 명확한 목표를 제시합니다."
+        ],
+        "systems_ko": [
+          "3D 슈팅 조준 시스템",
+          "물리 기반 폭발 및 파괴 효과",
+          "적 AI 및 배치 관리",
+          "카메라 시점 제어 시스템",
+          "게임 상태 관리(미션 성공/실패)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "3D 환경에서의 조준 및 물리 효과 구현은 기초적인 기술력이 필요합니다. 다만, 고정된 환경에서의 슈팅은 전체 오픈월드 게임보다 구현 범위가 좁아 개인 개발자가 시도하기에 적절합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 사격 메커니즘",
+            "적 타격 및 제거 판정",
+            "기본적인 3D 레벨 환경"
+          ],
+          "defer": [
+            "복잡한 헬리콥터 비행 조작",
+            "다양한 무기 커스터마이징"
+          ],
+          "risks": [
+            "3D 최적화 문제",
+            "타격감 구현의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "회전 궤도 슈팅",
+            "concept": "헬리콥터가 빌딩 주위를 자동으로 회전하며, 플레이어는 타이밍에 맞춰 사격합니다. 단순한 조준보다 리듬감 있는 슈팅 경험을 제공합니다.",
+            "first_step": "고정된 타겟을 향해 회전하는 카메라와 사격 로직 구현."
+          },
+          {
+            "title": "폭발 연쇄 반응",
+            "concept": "적뿐만 아니라 주변 환경(드럼통 등)을 폭파하여 연쇄 반응을 일으키는 퍼즐 슈팅입니다. 전략적인 사격 순서가 중요합니다.",
+            "first_step": "폭발 범위 내의 오브젝트를 제거하는 물리 로직 구현."
+          }
+        ],
+        "recommendation_ko": "3D 슈팅 게임의 기초적인 타격감과 물리 효과를 학습하기에 좋습니다. 다만, 복잡한 3D 그래픽보다는 핵심 메커니즘인 '조준과 사격'의 재미에 집중하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 헬리콥터의 구체적인 조작 방식이나 레벨 구성에 대한 상세 정보가 없습니다. 외부 서비스 연동이나 결제 기능에 대한 언급은 없으므로 해당 기능은 배제해야 합니다.",
+        "name": "HellCopter",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.gamepie.airpolice&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-30"
     }
   }
 }
