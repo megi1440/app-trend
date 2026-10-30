@@ -7786,6 +7786,95 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-30"
+    },
+    "google:com.nextran.app": {
+      "app_key": "google:com.nextran.app",
+      "name": "Exposr: Healthy Food Scanner",
+      "developer": "Stackwares",
+      "source": "google",
+      "country": "US",
+      "category": "app_productivity",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.nextran.app&hl=en&gl=US",
+      "data_date": "2026-10-31",
+      "analysed_at": "2026-10-31T05:07:57+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Know what's really in your groceries with Exposr, the food barcode scanner that turns any package into clear, factual nutrition insight. SCAN OR SEARCH • Scan any barcode to instantly see ingredients, nutrition facts, Nutri-Score and the NOVA processing group • Search foods by name or brand, browse categories and top-rated products • Compare two products side by side with source-based facts — no guesswork EAT WITH CONFIDENCE • Declared allergens and traces highlighted against your own preferences • Nutrition facts with serving-size switching, plus additives and labels decoded • Product data from Open Food Facts; unknown or stale data is clearly marked, never guessed • For information only: always check the product label. Not medical advice. OPTIONAL AI EXPLANATIONS • AI chat explains labels and ingredients in plain language • AI asks your permission first — decline and keep full scanning, facts and comparison EXPOSR PRO • Free: daily free credits for scans, saves and AI explanations • Exposr Pro (Weekly, Monthly or Yearly auto-renewing subscription, or a one-time Lifetime purchase) unlocks unlimited scans, saves and AI explanations • Subscriptions renew automatically unless cancelled at least 24 hours before the period ends. Manage or cancel anytime in Google Play > Payments & subscriptions. LEARN MORE • Privacy: https://foodscanner-app.pages.dev/privacy • Terms: https://foodscanner-app.pages.dev/terms • Contact: https://foodscanner-app.pages.dev/contact • Account deletion: https://foodscanner-app.pages.dev/account-deletion",
+      "analysis": {
+        "app_key": "google:com.nextran.app",
+        "summary_ko": "Exposr는 식품 바코드를 스캔하여 성분, 영양 정보, Nutri-Score 등을 제공하는 식품 분석 앱입니다. 사용자는 제품을 검색하거나 비교할 수 있으며, 알레르기 정보를 설정하여 맞춤형 정보를 확인할 수 있습니다. AI를 통해 성분 정보를 쉽게 설명받을 수 있는 기능을 선택적으로 제공합니다.",
+        "features_ko": [
+          "바코드 스캔을 통해 즉시 성분, 영양 정보, NOVA 가공 등급을 확인합니다.",
+          "제품명이나 브랜드로 식품을 검색하고 카테고리별로 탐색합니다.",
+          "두 제품의 영양 성분을 나란히 배치하여 비교 분석합니다.",
+          "사용자 설정에 따라 알레르기 유발 성분을 강조하여 표시합니다."
+        ],
+        "noteworthy_ko": "Open Food Facts와 같은 외부 오픈 데이터를 활용하여 방대한 식품 정보를 효율적으로 처리하는 방식이 인상적입니다. AI를 통한 성분 해석은 복잡한 영양 정보를 사용자 친화적으로 변환하는 좋은 사례입니다.",
+        "development_ko": "외부 API(Open Food Facts 등) 연동 및 데이터 파싱 기술이 핵심입니다. 바코드 스캔을 위한 카메라 라이브러리 활용과 방대한 데이터를 효율적으로 검색/필터링하는 로컬 캐싱 시스템이 필요합니다. AI 기능은 API 연동을 통해 구현하며, 사용자 개인정보 보호를 위한 데이터 처리 정책이 중요합니다.",
+        "idea_ko": "사용자가 자주 먹는 식단을 기록하고, 해당 식단의 영양 불균형을 분석해 주는 '식단 영양 밸런스 리포트' 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "오픈 데이터를 활용한 신뢰성 있는 식품 정보 제공.",
+          "사용자 맞춤형 알레르기 정보 강조 기능."
+        ],
+        "systems_ko": [
+          "바코드 스캔 및 이미지 처리",
+          "외부 식품 데이터 API 연동",
+          "데이터 검색 및 필터링 시스템",
+          "사용자 프로필 및 알레르기 설정 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "데이터베이스 구축보다는 외부 API를 얼마나 잘 활용하고 UI를 직관적으로 구성하느냐가 관건입니다. 다만, 식품 정보의 정확성은 사용자 건강과 직결되므로 데이터 검증에 주의가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "바코드 스캔 기능",
+            "Open Food Facts API 연동",
+            "영양 정보 상세 보기 화면"
+          ],
+          "defer": [
+            "AI 성분 설명 채팅",
+            "제품 비교 기능",
+            "사용자 계정 및 클라우드 저장"
+          ],
+          "risks": [
+            "외부 API 데이터의 부정확성 또는 업데이트 지연",
+            "바코드 인식 실패율"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "냉장고 재료 영양 분석기",
+            "concept": "냉장고에 있는 식재료 바코드를 스캔하여 현재 보유한 재료들의 영양 성분을 합산해 보여줍니다. 부족한 영양소를 채울 수 있는 레시피를 추천합니다.",
+            "first_step": "바코드 스캔으로 식재료 데이터를 가져와 영양 성분을 합산하는 로직 구현."
+          },
+          {
+            "title": "간편식 성분 비교기",
+            "concept": "편의점 간편식의 바코드를 스캔하여 칼로리와 나트륨 함량을 기준으로 순위를 매겨줍니다. 건강한 선택을 돕는 가이드 역할을 합니다.",
+            "first_step": "여러 제품의 영양 데이터를 저장하고 비교하는 UI 구현."
+          }
+        ],
+        "recommendation_ko": "외부 API 연동과 데이터 시각화 기술을 익히기에 최적입니다. 실생활에 유용한 앱을 만들고 싶은 개발자에게 추천하며, 데이터의 출처를 명확히 밝히는 습관을 기를 수 있습니다.",
+        "source_limitations_ko": "AI 기능의 구체적인 구현 방식(LLM 모델 등)은 알 수 없으며, 데이터의 최신성이나 정확도는 외부 소스에 의존하므로 검증이 필요합니다.",
+        "name": "Exposr: Healthy Food Scanner",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.nextran.app&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-31"
     }
   }
 }

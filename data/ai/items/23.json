@@ -8215,6 +8215,453 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-30"
+    },
+    "itch:63ce62bc0b8bf580da28": {
+      "app_key": "itch:63ce62bc0b8bf580da28",
+      "name": "Lexilotl: Crossword Puzzle Run [$5.00] [Puzzle] [Windows] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://robstenzinger.itch.io/lexilotl-crossword-puzzle-run",
+      "data_date": "2026-10-31",
+      "analysed_at": "2026-10-31T05:03:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Word challenge fun. Guess the letters, use the clue, solve each puzzle before you use your three mismatches!",
+      "analysis": {
+        "app_key": "itch:63ce62bc0b8bf580da28",
+        "summary_ko": "단어 힌트를 사용하여 정답을 맞히는 퍼즐 게임입니다. 제한된 오답 횟수 내에 모든 퍼즐을 해결해야 합니다.",
+        "features_ko": [
+          "주어진 힌트를 바탕으로 단어를 추론하는 퍼즐 규칙을 가집니다.",
+          "3번의 오답 기회가 주어지며, 이를 모두 소진하면 게임이 종료됩니다."
+        ],
+        "noteworthy_ko": "단순한 단어 퍼즐에 '오답 제한'이라는 긴장 요소를 추가한 점이 흥미롭습니다. 퍼즐 게임에서 난이도 곡선을 어떻게 설계하는지가 핵심입니다.",
+        "development_ko": "단어 데이터베이스 구축과 힌트 시스템 구현이 핵심입니다. 퍼즐의 난이도를 결정하는 알고리즘이 필요하며, UI를 통해 사용자에게 직관적인 피드백을 제공해야 합니다. 데이터 관리 측면에서 JSON 등을 활용한 문제 데이터 구조화가 중요합니다.",
+        "idea_ko": "단어를 맞힐 때마다 제한 시간이 조금씩 늘어나는 '타임 어택' 모드를 추가하는 것을 추천합니다.",
+        "highlights_ko": [
+          "간결하고 명확한 퍼즐 규칙을 가지고 있습니다.",
+          "오답 제한을 통해 긴장감을 유지합니다."
+        ],
+        "systems_ko": [
+          "단어 데이터 관리 시스템",
+          "입력 판정 및 검증 로직",
+          "게임 오버 조건 관리",
+          "UI 텍스트 출력 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "퍼즐 게임은 복잡한 물리 엔진이나 AI가 필요 없으며, 데이터 구조와 UI 구현이 핵심이라 1인 개발에 매우 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "단어 입력 및 비교 로직",
+            "힌트 표시 기능",
+            "오답 카운트 시스템"
+          ],
+          "defer": [
+            "다양한 언어 지원",
+            "온라인 리더보드"
+          ],
+          "risks": [
+            "퍼즐의 재미 부족",
+            "단어 데이터의 양 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "연쇄 단어 퍼즐",
+            "concept": "이전 단어의 마지막 글자로 다음 단어를 시작해야 하는 규칙입니다. 단어의 연결성을 고려해야 합니다.",
+            "first_step": "입력된 단어의 마지막 글자와 다음 단어의 첫 글자를 비교하는 로직 구현."
+          },
+          {
+            "title": "힌트 공유 퍼즐",
+            "concept": "힌트를 얻기 위해 특정 자원을 소모해야 합니다. 자원 관리와 퍼즐 풀이를 동시에 고민해야 합니다.",
+            "first_step": "힌트 사용 시 자원을 차감하고 힌트를 보여주는 UI 구현."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 로직과 데이터 관리 방식을 배우기에 매우 좋습니다. 개인 개발자가 가장 빠르게 프로토타입을 만들 수 있는 장르입니다.",
+        "source_limitations_ko": "단어 데이터의 언어(영어/한국어 등), 퍼즐의 개수, 힌트의 종류에 대한 구체적인 정보가 없습니다.",
+        "name": "Lexilotl: Crossword Puzzle Run [$5.00] [Puzzle] [Windows] [Linux]",
+        "source": "itch",
+        "detail_url": "https://robstenzinger.itch.io/lexilotl-crossword-puzzle-run",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 338,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 14,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-31"
+    },
+    "itch:69a1407c3d533fffcb98": {
+      "app_key": "itch:69a1407c3d533fffcb98",
+      "name": "Corridor Watch [Free]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://wook-dev.itch.io/corridor-watch",
+      "data_date": "2026-10-31",
+      "analysed_at": "2026-10-31T05:04:00+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Watch the halls of Building 104, answer its calls, and keep the power on until six.",
+      "analysis": {
+        "app_key": "itch:69a1407c3d533fffcb98",
+        "summary_ko": "104번 건물의 복도를 감시하고 걸려 오는 전화를 받으며 오전 6시까지 전력을 유지하는 공포 게임입니다. 폐쇄된 공간에서 제한된 자원을 관리하며 생존하는 경험을 제공합니다.",
+        "features_ko": [
+          "복도 감시 시스템을 통해 외부의 위협을 관찰합니다.",
+          "걸려 오는 전화를 응답하여 상황에 대처합니다.",
+          "전력 관리 메커니즘을 통해 오전 6시까지 생존해야 합니다."
+        ],
+        "noteworthy_ko": "제한된 공간 내에서 정적인 감시와 동적인 대응을 결합한 구조가 흥미롭습니다. 플레이어의 시야를 제한하여 긴장감을 유도하는 방식이 개발 관점에서 효율적인 공포 연출로 보입니다.",
+        "development_ko": "핵심 기술은 CCTV 카메라 전환 시스템과 타이머 기반의 이벤트 트리거입니다. 콘텐츠 제작은 복도 모델링과 사운드 연출에 집중되며, 밸런스는 전력 소모 속도와 이벤트 발생 빈도를 조정하는 데 중점을 둡니다.",
+        "idea_ko": "전화 응답 시스템을 활용하여, 특정 번호로 걸려 오는 전화의 패턴을 분석해 생존 전략을 짜는 퍼즐 요소를 강화하는 아이디어를 추천합니다.",
+        "highlights_ko": [
+          "시간 제한(오전 6시)을 통한 명확한 목표 설정.",
+          "복도 감시와 전화 응답이라는 이중 작업 구조."
+        ],
+        "systems_ko": [
+          "CCTV 카메라 전환 시스템",
+          "전력 자원 관리 시스템",
+          "전화 이벤트 트리거",
+          "시간 흐름 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "공간이 제한적이라 맵 제작 부담은 적으나, 여러 시스템이 동시에 작동하는 상황에서의 밸런스 조절이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "CCTV 화면 전환",
+            "전력 소모 로직",
+            "시간 경과 시스템"
+          ],
+          "defer": [
+            "복잡한 스토리 컷신",
+            "다양한 적 AI 패턴"
+          ],
+          "risks": [
+            "단조로운 플레이 루프",
+            "공포 분위기 조성의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "전화 교환원 생존기",
+            "concept": "복도 감시 대신 여러 대의 전화기를 관리하며 잘못 걸려 온 전화를 차단하고 중요한 정보만 선별하는 게임입니다.",
+            "first_step": "전화벨 소리와 응답 버튼 클릭 시 대화창이 뜨는 프로토타입 제작."
+          },
+          {
+            "title": "전력 배분 전략",
+            "concept": "복도 조명, 통신, 보안 시스템 중 하나에만 전력을 공급할 수 있는 상황에서 위협에 따라 전력을 전환하는 전략 게임입니다.",
+            "first_step": "전력 게이지와 3개의 버튼으로 전력을 분배하는 UI 구현."
+          }
+        ],
+        "recommendation_ko": "제한된 공간에서 시스템적 긴장감을 만드는 법을 배우기에 좋습니다. 단순한 메커니즘으로 공포를 극대화하는 기획을 연습하기 적합합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 적의 종류, 전력 관리의 세부 규칙, 전화 시스템의 상호작용 방식은 확인되지 않습니다.",
+        "name": "Corridor Watch [Free]",
+        "source": "itch",
+        "detail_url": "https://wook-dev.itch.io/corridor-watch",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 308,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-31"
+    },
+    "google:com.bluellc.apps.pdf.reader": {
+      "app_key": "google:com.bluellc.apps.pdf.reader",
+      "name": "PDF Reader – Read & Manage",
+      "developer": "theblue llc",
+      "source": "google",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.bluellc.apps.pdf.reader&hl=en&gl=US",
+      "data_date": "2026-10-31",
+      "analysed_at": "2026-10-31T05:05:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "PDF Reader is an Android home screen launcher with built-in PDF tools. It gives you quick access to your apps, search, weather, news, and common PDF features directly from your home screen. 🗂️ PDF FEATURES & FILES • Open and view PDF files • Scan documents into PDF • Merge PDF files • Split PDF files • Convert PDF pages to images Available features may vary depending on your device and app version. 📱 YOUR EVERYDAY HOME PDF Reader can also work as your Android home screen launcher. • Access installed apps from your home screen • Use the built-in web search bar • Swipe to access available news and content • Quickly open weather and PDF tools • Customize your everyday home screen experience ⚙️ CHOOSE YOUR HOME APP During setup, you can choose whether to set PDF Reader as your default Home app. If you choose to enable it, Android will use PDF Reader for your home screen and app launcher experience. You can change your default Home app again at any time from your device settings. 🌐 SEARCH FROM HOME PDF Reader includes a web search feature directly on the home screen. Search results are provided through the search service available in the app. Using the home screen search feature does not prevent you from using other browsers or search apps installed on your device. 🛡️ PRIVACY & PERMISSIONS Some optional features may require device permissions. • Location may be used to display local weather information when you use the weather feature. • Notifications may be used for optional shortcuts, weather information, and app-related notifications. You can manage available permissions at any time through your device settings. Features that depend on a permission may be unavailable if that permission is disabled. PDF Reader brings PDF tools, apps, search, weather, and everyday shortcuts together in one home screen experience.",
+      "analysis": {
+        "app_key": "google:com.bluellc.apps.pdf.reader",
+        "summary_ko": "PDF Reader는 PDF 파일 관리 도구와 안드로이드 홈 화면 런처 기능을 결합한 앱입니다. PDF 보기, 스캔, 병합, 분할, 변환 기능을 제공하며 홈 화면에서 앱과 웹 검색, 날씨 정보를 빠르게 접근할 수 있습니다. 사용자의 일상적인 스마트폰 사용을 돕는 통합 도구입니다.",
+        "features_ko": [
+          "PDF 파일을 열고 내용을 확인할 수 있는 뷰어 기능을 제공합니다.",
+          "문서를 스캔하여 PDF로 변환하는 기능을 포함합니다.",
+          "여러 PDF 파일을 하나로 병합하거나 분할할 수 있습니다.",
+          "PDF 페이지를 이미지 파일로 변환하는 기능을 지원합니다.",
+          "홈 화면 런처로서 앱 접근, 웹 검색, 날씨 확인 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "런처와 생산성 도구를 결합한 하이브리드 앱이라는 점이 독특합니다. 사용자가 자주 사용하는 기능을 홈 화면에 배치하여 접근성을 높인 전략은 유틸리티 앱의 좋은 예시입니다.",
+        "development_ko": "PDF 처리 라이브러리 연동과 안드로이드 런처 API 구현이 핵심입니다. 다양한 기기에서의 호환성 테스트가 필수적이며, 파일 접근 권한 관리와 같은 보안 관련 구현에 주의가 필요합니다.",
+        "idea_ko": "PDF 내의 특정 키워드를 검색하면 홈 화면 런처의 검색 결과와 연동되어 즉시 해당 페이지를 열어주는 '문서 연동 검색' 기능을 제안합니다.",
+        "highlights_ko": [
+          "PDF 관리와 홈 화면 런처 기능을 통합하여 사용자 편의성 증대.",
+          "문서 스캔부터 변환까지 다양한 PDF 관련 도구 제공."
+        ],
+        "systems_ko": [
+          "PDF 파일 처리 엔진",
+          "안드로이드 런처 인터페이스 시스템",
+          "파일 시스템 접근 및 관리 시스템",
+          "웹 검색 및 날씨 API 연동 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "런처 앱은 안드로이드 시스템의 깊은 권한을 다루며, 다양한 기기 환경에서 안정적으로 동작해야 하므로 개발 난이도가 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "PDF 파일 열기 및 보기 기능",
+            "기본적인 홈 화면 앱 목록 표시"
+          ],
+          "defer": [
+            "PDF 스캔 및 변환 기능",
+            "날씨 및 뉴스 정보 연동",
+            "고급 파일 관리 기능"
+          ],
+          "risks": [
+            "안드로이드 OS 버전별 런처 호환성 문제",
+            "파일 접근 권한 정책 변경에 따른 앱 기능 제한"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "문서 위젯 런처",
+            "concept": "자주 보는 PDF의 특정 페이지를 홈 화면 위젯으로 바로 띄워두는 기능입니다.",
+            "first_step": "PDF의 특정 페이지를 이미지로 렌더링하여 위젯에 표시하는 로직 구현."
+          },
+          {
+            "title": "PDF 메모 런처",
+            "concept": "PDF를 읽다가 중요한 부분을 캡처하면 홈 화면에 메모로 남기는 기능입니다.",
+            "first_step": "화면 캡처와 텍스트 입력을 결합한 간단한 메모 저장 로직 구현."
+          }
+        ],
+        "recommendation_ko": "안드로이드 시스템 앱 개발에 관심 있는 개발자에게 추천합니다. 런처와 파일 관리 도구의 결합을 통해 사용자 경험을 개선하는 방법을 배울 수 있습니다.",
+        "source_limitations_ko": "PDF 처리 라이브러리의 종류와 웹 검색 서비스의 구체적인 연동 방식은 확인되지 않았습니다.",
+        "name": "PDF Reader – Read & Manage",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.bluellc.apps.pdf.reader&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 180,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 20,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-31"
+    },
+    "apple:6742024490": {
+      "app_key": "apple:6742024490",
+      "name": "Reco Social",
+      "developer": "Reco Social, Inc.",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/reco-social/id6742024490",
+      "data_date": "2026-10-31",
+      "analysed_at": "2026-10-31T05:10:21+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Let’s get real. Social media is full of content. But real recommendations? Real conversations? Those are harder to find. Reco changes that.Reco is the social platform where the content you love becomes something you can actually use — and conversations you can actually have. Real recommendations: Every post is hiding something — a restaurant, a film, a place, a product. Reco’s AI finds it automatically. No tags. No sponsorships. Just what’s real. RealTalk: Ask any creator anything. The community votes the best questions to the top. Creators respond. It’s not just comments. It’s a real exchange. Save & collect: When a recommendation catches your eye, don’t lose it in the scroll. Save it. Organize it. Come back to it when you’re ready. Scan anything: Send Reco any post — from anywhere — and it finds every recommendation hiding inside. You’ve been scrolling long enough. Download Reco. Let’s get real.",
+      "analysis": {
+        "app_key": "apple:6742024490",
+        "summary_ko": "Reco Social은 소셜 미디어 게시물 속의 추천 정보를 자동으로 추출하여 정리해 주는 플랫폼입니다. 사용자는 게시물 속 식당, 영화, 제품 등의 정보를 쉽게 저장하고 관리할 수 있습니다. 또한, 크리에이터에게 직접 질문하고 소통하는 기능을 통해 실질적인 정보를 교환합니다.",
+        "features_ko": [
+          "AI를 활용하여 게시물 내에 숨겨진 추천 정보(식당, 영화 등)를 자동으로 추출합니다.",
+          "추출된 정보를 태그 없이도 쉽게 저장하고 카테고리별로 수집할 수 있습니다.",
+          "크리에이터에게 직접 질문을 남기고 커뮤니티 투표를 통해 답변을 받는 RealTalk 기능을 제공합니다.",
+          "외부 게시물 링크를 스캔하여 추천 정보를 찾아내는 기능을 지원합니다.",
+          "저장된 추천 정보를 나중에 다시 확인할 수 있는 개인 컬렉션 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "소셜 미디어의 파편화된 정보를 구조화된 데이터로 변환하는 AI 활용 방식이 매우 흥미롭습니다. 단순한 댓글 기능을 넘어 커뮤니티 투표를 통한 질문 선별 시스템은 사용자 참여를 유도하는 좋은 설계입니다.",
+        "development_ko": "게시물 텍스트 및 이미지에서 정보를 추출하는 자연어 처리(NLP) 및 컴퓨터 비전 기술이 핵심입니다. 사용자 간의 질문과 답변을 관리하는 커뮤니티 시스템과 데이터 저장소 구축이 필요합니다. 외부 플랫폼과의 연동을 위한 크롤링 또는 API 활용 기술이 요구됩니다.",
+        "idea_ko": "특정 관심사 기반의 정보 큐레이션 커뮤니티.",
+        "highlights_ko": [
+          "AI 기반의 자동 정보 추출을 통해 소셜 미디어의 정보를 유용한 데이터로 변환합니다.",
+          "커뮤니티 투표를 통한 질문 선별 시스템으로 양질의 소통을 유도합니다."
+        ],
+        "systems_ko": [
+          "AI 정보 추출 엔진",
+          "사용자 데이터 저장 및 관리",
+          "커뮤니티 질문/투표 시스템",
+          "외부 게시물 스캔 모듈",
+          "사용자 프로필 및 컬렉션 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "AI를 활용한 정보 추출 기술은 고도의 개발 역량이 필요합니다. 또한, 외부 플랫폼의 데이터를 처리하는 과정에서 정책적 제약과 기술적 난관이 발생할 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "게시물 링크 입력 및 저장",
+            "사용자 질문 작성",
+            "컬렉션 저장 기능"
+          ],
+          "defer": [
+            "AI 자동 추출 기능",
+            "커뮤니티 투표 시스템",
+            "외부 게시물 스캔"
+          ],
+          "risks": [
+            "AI 모델의 정확도 문제",
+            "외부 플랫폼 정책 위반",
+            "데이터 수집 및 처리 비용"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "관심사 기반 북마크 공유",
+            "concept": "사용자가 직접 수동으로 추천 정보를 저장하고 공유하는 커뮤니티입니다. AI 대신 사용자의 큐레이션 능력을 활용합니다.",
+            "first_step": "링크 저장 및 카테고리 분류 기능 구현."
+          },
+          {
+            "title": "질문 중심의 지식 교환소",
+            "concept": "특정 분야의 전문가에게 질문하고 답변을 받는 플랫폼입니다. 투표 시스템을 통해 답변의 신뢰도를 높입니다.",
+            "first_step": "질문 게시판 및 투표 기능 구현."
+          }
+        ],
+        "recommendation_ko": "AI 기술을 활용한 데이터 가공과 커뮤니티 설계 방식을 배우기에 매우 좋은 사례입니다. 다만, AI 구현 난이도가 높으므로 초기에는 수동 큐레이션으로 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "AI 추출 엔진의 구체적인 기술 스택이나 외부 플랫폼과의 연동 방식은 알 수 없습니다. 데이터 처리의 정확도와 개인정보 보호 정책에 대한 상세 정보가 부족합니다.",
+        "name": "Reco Social",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/reco-social/id6742024490",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 48,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-31"
+    },
+    "google:jp.co.fancl.FANCLmembers": {
+      "app_key": "google:jp.co.fancl.FANCLmembers",
+      "name": "FANCLメンバーズ/お買い物・スキンメイト・AI肌測定",
+      "developer": "ＦＡＮＣＬ",
+      "source": "google",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=jp.co.fancl.FANCLmembers&hl=ja&gl=JP",
+      "data_date": "2026-10-31",
+      "analysed_at": "2026-10-31T05:11:05+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "無添加化粧品・健康食品のファンケル公式アプリで、お買い物をより楽しくお得に。 肌専門のAIスキンメイトに、いつでもどこでも肌のことを相談。 お買い物から肌の相談まで、あなたの美と健康に毎日寄り添うアプリです。 【アプリの特長】 1）アプリ会員限定のクーポンやスタンプラリーに参加できる お得な限定クーポンやポイントキャンペーンをご案内。会員限定スタンプラリーに参加すれば、さまざまな特典をゲットできます。 2）スキンメイトに肌のことを気軽に相談 肌専門のAI「FANCL SKIN MATE」があなたの肌の疑問やお悩みにお答えします。45年の肌研究と100万人のお客様へのカウンセリング知見をもとに、スキンケアからインナーケア、生活習慣まで、あなたの肌にあったアドバイスをご案内。“肌画像解析”や“チャット機能”で、あなたの肌をより深く理解し、日々のお悩みに寄り添う、あなた専属のAIに育っていきます。 店頭カウンセリング「FANCL SKIN PATCH」と連携することで、さらにあなたの肌にあったご案内ができます。 3）あなたに合った商品がすぐに見つかる 購買・閲覧履歴に加え、カウンセリング結果をもとに最適なおすすめ商品をご提案。カテゴリ・お悩み・ランキングなど多彩な検索機能で、美と健康を求めるお買い物を快適にサポートします。 4）日々に寄り添ったお役立ち情報をお届け 社員による商品の魅力を伝えるLIVE配信や質問へのリアルタイム回答、美と健康のヒントが詰まった記事など、毎日起動したくなる充実のコンテンツをお届けします。 5）あなたの情報が一目でわかるマイページ 保有ポイントやクーポン、カウンセリング履歴、「ファンケル定期便」のお届け情報などを一括確認。ショップやオンラインでのカウンセリング予約もスムーズに行えます。 6）My店舗登録でファンケルショップとつながる お気に入り店舗の情報やスタッフブログを定期配信。身近に感じる店舗からのお得な情報をいつでもチェックできます。 ※FANCL SKIN MATEは、日頃の肌のお手入れや化粧品等の選択のアドバイスを目的とするものであり、診断・治療を目的としたものではありません。また、本サービスはAIのため、不正確な回答が含まれることがあります。",
+      "analysis": {
+        "app_key": "google:jp.co.fancl.FANCLmembers",
+        "summary_ko": "FANCL 공식 앱은 화장품 및 건강식품 구매와 피부 상담을 지원하는 커머스 및 헬스케어 플랫폼입니다. AI 기반의 피부 상담 기능인 'FANCL SKIN MATE'를 통해 사용자에게 맞춤형 관리 조언을 제공합니다. 또한 회원 전용 쿠폰, 스탬프 랠리 등 쇼핑 혜택과 매장 예약 기능을 통합적으로 제공합니다.",
+        "features_ko": [
+          "AI가 피부 고민을 상담하고 관리 조언을 제공하는 SKIN MATE 기능을 탑재했습니다.",
+          "구매 및 상담 이력을 바탕으로 개인에게 최적화된 상품을 추천합니다.",
+          "매장 카운셀링 서비스와 연동하여 더욱 정밀한 피부 분석을 지원합니다.",
+          "회원 전용 쿠폰, 포인트, 스탬프 랠리 등 쇼핑 혜택을 제공합니다.",
+          "LIVE 방송 및 건강 정보를 통해 상품 정보를 실시간으로 전달합니다."
+        ],
+        "noteworthy_ko": "커머스 앱에 AI 상담 기능을 결합하여 단순 판매를 넘어 고객의 피부 데이터를 축적하고 관리하는 생태계를 구축한 점이 흥미롭습니다. 상담 결과가 실제 상품 추천으로 이어지는 데이터 흐름이 비즈니스적으로 매우 효율적입니다.",
+        "development_ko": "핵심 기술로는 AI 챗봇 및 이미지 분석 API 연동, 사용자 데이터베이스 관리, 그리고 커머스 결제 시스템이 필요합니다. 콘텐츠 제작 부담은 상품 정보 관리와 정기적인 LIVE 방송 운영에 집중됩니다. 테스트 시에는 개인정보 보호와 AI 답변의 정확성 검증이 가장 중요합니다.",
+        "idea_ko": "사용자의 피부 상태 변화를 기록하고 시각화하는 '피부 타임라인' 기능이 개인 개발 시 구현하기 좋습니다.",
+        "highlights_ko": [
+          "45년의 피부 연구 데이터를 기반으로 한 AI 상담 기능을 차별점으로 내세웁니다.",
+          "온라인과 오프라인 매장 카운셀링을 연동하여 서비스의 연속성을 확보했습니다."
+        ],
+        "systems_ko": [
+          "사용자 인증 및 데이터 관리 시스템",
+          "AI 챗봇 및 이미지 분석 API 연동",
+          "상품 카탈로그 및 추천 엔진",
+          "쿠폰 및 포인트 관리 시스템",
+          "매장 예약 및 알림 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "커머스 앱은 결제 보안, 개인정보 보호, 서버 안정성 등 고려해야 할 기술적 요구사항이 매우 높습니다. 특히 AI 상담 기능은 높은 수준의 데이터 처리와 정확도가 요구되므로 1인 개발로 구현하기에는 범위가 매우 넓습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 목록 및 상세 페이지",
+            "사용자 프로필 및 구매 이력 관리",
+            "기본적인 1:1 문의 게시판"
+          ],
+          "defer": [
+            "AI 피부 분석 및 상담 기능",
+            "실시간 LIVE 방송 기능",
+            "오프라인 매장 연동 시스템"
+          ],
+          "risks": [
+            "결제 및 개인정보 보안 사고",
+            "서버 인프라 구축 및 유지 비용"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "개인용 화장품 기록장",
+            "concept": "사용자가 사용하는 화장품의 사용 기간과 피부 반응을 기록하는 앱입니다. 유통기한 알림과 피부 트러블 발생 시 사용한 제품을 추적합니다.",
+            "first_step": "화장품 등록 및 사용 시작일 기록 기능을 구현합니다."
+          },
+          {
+            "title": "피부 컨디션 일기",
+            "concept": "매일 피부 상태를 사진으로 찍고 간단한 태그로 기록하여 변화를 관찰합니다. 날씨나 식단과 연동하여 피부 상태의 상관관계를 분석합니다.",
+            "first_step": "사진 업로드 및 날짜별 기록 저장 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "커머스 앱의 기본 구조와 사용자 데이터 관리 방식을 배우기에 적합합니다. 다만, AI나 결제 시스템은 고도의 보안과 기술력이 필요하므로, 개인 개발 시에는 기능 범위를 대폭 축소하여 시작하는 것을 권장합니다.",
+        "source_limitations_ko": "소개문에는 결제 시스템의 구체적인 구현 방식이나 AI 상담의 기술적 근거(사용된 모델 등)가 명시되어 있지 않습니다. 의료적 진단 기능은 제공하지 않는다고 명시되어 있으므로, 관련 기능 개발 시 법적 검토가 필요합니다.",
+        "name": "FANCLメンバーズ/お買い物・スキンメイト・AI肌測定",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=jp.co.fancl.FANCLmembers&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 72,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-31"
     }
   }
 }

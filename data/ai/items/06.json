@@ -9679,6 +9679,184 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-30"
+    },
+    "itch:5e25c3218c2c32161457": {
+      "app_key": "itch:5e25c3218c2c32161457",
+      "name": "New Super Mario Bros: World of Absolute Cleverness 2 [Free] [Platformer] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://csfiller.itch.io/new-super-mario-bros-world-of-absolute-cleverness-2",
+      "data_date": "2026-10-31",
+      "analysed_at": "2026-10-31T05:03:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "It was based on New Super Mario Bros. Wii and more games!",
+      "analysis": {
+        "app_key": "itch:5e25c3218c2c32161457",
+        "summary_ko": "New Super Mario Bros. Wii 등 기존 게임에서 영감을 받아 제작된 플랫폼 게임입니다. 팬 게임의 성격을 띠고 있습니다.",
+        "features_ko": [
+          "기존 플랫폼 게임의 메커니즘을 차용하여 제작되었습니다.",
+          "점프와 이동을 중심으로 한 전형적인 2D 플랫폼 게임 규칙을 따릅니다."
+        ],
+        "noteworthy_ko": "기존 게임의 시스템을 재현하는 것은 플랫폼 게임의 물리 엔진을 이해하는 데 큰 도움이 됩니다. 팬 게임으로서 원작의 느낌을 얼마나 잘 살리는지가 관건입니다.",
+        "development_ko": "플랫폼 게임의 핵심인 캐릭터 이동 물리(중력, 가속도, 마찰력) 구현이 가장 중요합니다. 타일맵 기반의 레벨 디자인과 충돌 판정 시스템이 필요합니다. 원작의 느낌을 내기 위한 애니메이션과 사운드 에셋 제작 부담이 큽니다.",
+        "idea_ko": "캐릭터가 특정 색상의 발판 위에서만 점프할 수 있는 '색상 제약' 시스템을 추가하는 것을 추천합니다.",
+        "highlights_ko": [
+          "고전 플랫폼 게임의 메커니즘을 계승합니다.",
+          "팬 게임으로서의 정체성을 가집니다."
+        ],
+        "systems_ko": [
+          "캐릭터 물리 엔진(이동/점프)",
+          "타일맵 충돌 시스템",
+          "카메라 팔로우 시스템",
+          "레벨 데이터 로더"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "플랫폼 게임의 물리 엔진은 미세한 수치 조절이 중요하며, 1인 개발 시 원작의 조작감을 재현하는 것이 매우 까다롭습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이동 및 점프 물리",
+            "바닥 충돌 판정",
+            "기본 레벨 구성"
+          ],
+          "defer": [
+            "복잡한 적 AI",
+            "다양한 파워업 아이템"
+          ],
+          "risks": [
+            "조작감의 이질감",
+            "물리 엔진 버그"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중력 반전 플랫폼",
+            "concept": "특정 구역에서 중력이 반전되어 천장을 걷는 방식입니다. 공간 활용의 폭을 넓힙니다.",
+            "first_step": "캐릭터의 중력 방향을 반전시키는 로직 구현."
+          },
+          {
+            "title": "그림자 플랫폼",
+            "concept": "그림자 속에서만 발판이 실체화되는 규칙입니다. 빛과 어둠을 이용한 퍼즐 요소를 추가합니다.",
+            "first_step": "특정 영역 내에서만 충돌 판정을 활성화하는 트리거 구현."
+          }
+        ],
+        "recommendation_ko": "플랫폼 게임의 물리 엔진을 깊이 있게 공부하고 싶다면 추천합니다. 다만, 원작의 복제보다는 자신만의 물리 규칙을 만드는 연습을 권장합니다.",
+        "source_limitations_ko": "원작의 어떤 요소를 구체적으로 차용했는지, 게임의 규모(레벨 수), 독자적인 콘텐츠의 비중이 확인되지 않았습니다.",
+        "name": "New Super Mario Bros: World of Absolute Cleverness 2 [Free] [Platformer] [Windows]",
+        "source": "itch",
+        "detail_url": "https://csfiller.itch.io/new-super-mario-bros-world-of-absolute-cleverness-2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 332,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 16,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-31"
+    },
+    "google:com.applabstudios.ai.mail.homescreen.inbox": {
+      "app_key": "google:com.applabstudios.ai.mail.homescreen.inbox",
+      "name": "Easy Mail - Email Launcher",
+      "developer": "App Lab Studios",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.applabstudios.ai.mail.homescreen.inbox&hl=en&gl=US",
+      "data_date": "2026-10-31",
+      "analysed_at": "2026-10-31T05:10:42+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "No more FOMO! See your emails instantly on your homescreen. With Easy Mail, your email becomes simple, focused, and easy every single day. The average person spends over 2 hours managing their mail—why not make it easy with the launcher designed for productivity? Easy Mail – Email Launcher is the easy way to handle email, reduce screen time, and enjoy a clutter-free homescreen. ✨ FEATURES FOR EMAIL ◾Easy Homescreen: A clean homescreen built around mail and productivity. No clutter—just the easy way to manage email. ◾Unlimited Email Accounts: Add Gmail, Outlook, Yahoo, Hotmail, AOL—or any other mail provider. Check all of your email in one easy unified inbox or separate them with a tap. ◾AI Email Assistance: Writing email is now easy. Rephrase, shorten, or polish your mail instantly while keeping your natural tone. ◾Privacy First: Your email stays yours. We never read your mail—everything is safe and local. ◾Launcher Essentials: An organized homescreen, quick email inbox, app drawer, widget support, and trending content. Everything you need for easy mail management. ◾Easy Web Search: Search from your homescreen while checking email, powered by Yahoo Search. Autocomplete and trending suggestions make answers easy to find. 📌 HOW EASY MAIL WORKS 1. Inbox: Swipe right from your homescreen to open your email inbox. Add unlimited accounts and view them in one easy feed. 2. Apps Drawer: Swipe up for your apps. Drag favorites back to your homescreen for easy access. 3. Content Feed: Pull down on your homescreen for news and entertainment alongside your email. An easy way to stay updated. Our FAQ inside Easy Mail includes video tutorials and answers to common questions—making email even more easy. ❤️ Thanks for reading this far. You’re one of the few who do! We hope Easy Mail makes your email, your mail, and your homescreen truly easy to manage. 👉 Learn more in our FAQ: https://www.applabstudiosllc.com/faq",
+      "analysis": {
+        "app_key": "google:com.applabstudios.ai.mail.homescreen.inbox",
+        "summary_ko": "Easy Mail은 이메일 관리와 생산성 도구를 결합한 홈 화면 런처 앱입니다. 사용자는 홈 화면에서 직접 이메일을 확인하고 관리하며, AI를 통해 메일 작성 도움을 받을 수 있습니다. 복잡한 앱 이동 없이 생산적인 환경을 제공하는 것을 목표로 합니다.",
+        "features_ko": [
+          "홈 화면에서 바로 이메일을 확인하고 관리할 수 있는 통합 인박스를 제공합니다.",
+          "Gmail, Outlook 등 다양한 이메일 계정을 무제한으로 연동할 수 있습니다.",
+          "AI 기능을 통해 메일 내용을 요약하거나 문체를 다듬어 작성할 수 있습니다.",
+          "홈 화면에서 바로 검색 가능한 웹 검색 기능을 지원합니다.",
+          "앱 서랍과 위젯 지원을 통해 홈 화면을 생산성 중심으로 구성할 수 있습니다."
+        ],
+        "noteworthy_ko": "이메일 클라이언트와 런처를 결합한 접근 방식이 흥미롭습니다. 사용자의 체류 시간을 늘리기 위해 뉴스 피드와 같은 콘텐츠를 배치한 점은 생산성 앱의 전형적인 전략입니다. 다만, 모든 데이터가 로컬에서 처리된다는 점이 보안 측면에서 큰 강점으로 보입니다.",
+        "development_ko": "안드로이드 런처 개발을 위한 시스템 권한 제어와 이메일 프로토콜(IMAP/POP3) 연동이 핵심입니다. AI 기능은 로컬 LLM을 활용하거나 API를 연동해야 하므로 구현 난도가 높습니다. 1인 개발 시에는 이메일 연동의 복잡성을 고려하여 특정 메일 서비스 API를 우선 지원하는 것이 좋습니다.",
+        "idea_ko": "특정 키워드나 발신자 기반으로 메일을 자동 분류하여 홈 화면에 우선순위로 보여주는 기능이 유용할 것입니다.",
+        "highlights_ko": [
+          "모든 이메일 데이터가 로컬에서 처리되어 개인정보 보호를 최우선으로 합니다.",
+          "이메일 관리, 앱 서랍, 뉴스 피드를 하나의 홈 화면 환경으로 통합했습니다."
+        ],
+        "systems_ko": [
+          "안드로이드 런처 인터페이스",
+          "이메일 프로토콜 연동 모듈",
+          "로컬 데이터 저장 및 보안 시스템",
+          "AI 텍스트 처리 엔진",
+          "홈 화면 위젯 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "이메일 프로토콜 연동은 매우 복잡하며, 안드로이드 런처로서의 안정성을 확보하는 것 또한 상당한 기술적 노력이 필요합니다. 특히 보안과 관련된 로컬 데이터 처리는 높은 수준의 구현 능력을 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이메일 계정 연동",
+            "홈 화면 인박스 위젯",
+            "메일 읽기 및 쓰기 기능"
+          ],
+          "defer": [
+            "AI 메일 작성 보조",
+            "뉴스 피드 콘텐츠",
+            "웹 검색 통합"
+          ],
+          "risks": [
+            "이메일 서비스 제공업체의 API 정책 변경",
+            "런처 앱으로서의 시스템 최적화 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중요 메일 알림 위젯",
+            "concept": "특정 인물이나 키워드가 포함된 메일만 홈 화면에 크게 띄워주는 미니멀한 위젯입니다.",
+            "first_step": "특정 발신자의 메일만 필터링하여 가져오는 로직을 구현합니다."
+          },
+          {
+            "title": "메일 기반 할 일 관리",
+            "concept": "메일을 드래그하여 할 일 목록으로 변환하는 생산성 도구입니다.",
+            "first_step": "메일 제목을 가져와 로컬 데이터베이스에 저장하는 기능을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "안드로이드 시스템 앱 개발과 API 연동을 깊이 있게 배우고 싶은 개발자에게 추천합니다. 다만, 보안과 관련된 기능이 많으므로 신중한 접근이 필요합니다.",
+        "source_limitations_ko": "AI 모델의 구체적인 구현 방식(로컬 모델인지 API 호출인지)과 이메일 연동 시 사용하는 보안 인증 방식은 명시되지 않았습니다.",
+        "name": "Easy Mail - Email Launcher",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.applabstudios.ai.mail.homescreen.inbox&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 84,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-31"
     }
   }
 }

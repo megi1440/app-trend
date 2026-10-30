@@ -7920,6 +7920,270 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-30"
+    },
+    "itch:1cf74808432a38956845": {
+      "app_key": "itch:1cf74808432a38956845",
+      "name": "Hiragana Sensei [Free] [Role Playing]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://deesrex.itch.io/hiragana-sensei",
+      "data_date": "2026-10-31",
+      "analysed_at": "2026-10-31T05:03:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Learn hiragana in a fun way. Through gaming **This is an AI product",
+      "analysis": {
+        "app_key": "itch:1cf74808432a38956845",
+        "summary_ko": "히라가나 학습을 돕는 교육용 게임입니다. 게임 요소를 활용하여 히라가나를 재미있게 익힐 수 있도록 설계되었습니다.",
+        "features_ko": [
+          "게임을 통해 히라가나를 학습하는 교육적 목적을 가집니다.",
+          "학습 과정을 게임화하여 사용자의 흥미를 유도합니다."
+        ],
+        "noteworthy_ko": "교육과 게임의 결합(Gamification)은 학습 효율을 높이는 좋은 접근입니다. 학습자의 진척도를 어떻게 시각화하고 보상하는지가 핵심입니다.",
+        "development_ko": "히라가나 데이터(이미지/음성) 관리와 학습 알고리즘 구현이 필요합니다. 사용자의 오답 패턴을 분석하여 반복 학습을 유도하는 시스템이 중요합니다. 교육용 앱이므로 UI의 가독성과 직관성이 최우선입니다.",
+        "idea_ko": "히라가나를 사용하여 간단한 단어를 완성하는 '단어 조합' 미니게임을 추가하는 것을 추천합니다.",
+        "highlights_ko": [
+          "학습과 게임을 결합한 교육용 콘텐츠입니다.",
+          "히라가나 학습에 특화된 구성을 가집니다."
+        ],
+        "systems_ko": [
+          "학습 데이터 관리 시스템",
+          "진척도 추적 시스템",
+          "퀴즈 및 피드백 로직",
+          "UI/UX 학습 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "데이터 기반의 단순 퀴즈 형식이므로 구현 난이도가 낮고, 교육용 앱으로서의 기능에만 집중하면 됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "히라가나 퀴즈 로직",
+            "정답/오답 판정",
+            "기본 학습 UI"
+          ],
+          "defer": [
+            "음성 인식 기능",
+            "복잡한 애니메이션"
+          ],
+          "risks": [
+            "학습의 지루함",
+            "콘텐츠의 양 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "히라가나 카드 배틀",
+            "concept": "히라가나를 맞히면 캐릭터가 공격하는 방식입니다. 학습과 전투를 결합합니다.",
+            "first_step": "히라가나 퀴즈 정답 시 공격 애니메이션이 재생되는 로직 구현."
+          },
+          {
+            "title": "히라가나 퍼즐",
+            "concept": "흩어진 히라가나 조각을 맞춰 단어를 완성합니다. 시각적인 학습을 강화합니다.",
+            "first_step": "드래그 앤 드롭으로 글자를 배치하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "교육용 앱 개발의 기초를 배우기에 좋습니다. 사용자의 학습 데이터를 관리하고 피드백을 주는 로직을 연습하기에 적합합니다.",
+        "source_limitations_ko": "구체적인 학습 방식(쓰기/읽기/듣기), 히라가나 외의 학습 범위, AI 기술의 구체적인 활용 방식이 명시되지 않았습니다.",
+        "name": "Hiragana Sensei [Free] [Role Playing]",
+        "source": "itch",
+        "detail_url": "https://deesrex.itch.io/hiragana-sensei",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 335,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 15,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-31"
+    },
+    "itch:85fd40e5b561af044fb8": {
+      "app_key": "itch:85fd40e5b561af044fb8",
+      "name": "Hotel Merge - Demo [Free]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://solmaeir.itch.io/hotel-merge",
+      "data_date": "2026-10-31",
+      "analysed_at": "2026-10-31T05:04:17+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Merge items, serve your guests and turn a shabby 1-star inn into a 5-star, 7-floor hotel!",
+      "analysis": {
+        "app_key": "itch:85fd40e5b561af044fb8",
+        "summary_ko": "Hotel Merge는 아이템을 병합하여 손님에게 서비스를 제공하고, 낡은 1성급 여관을 7층 규모의 5성급 호텔로 성장시키는 경영 퍼즐 게임입니다. 플레이어는 병합 메커니즘을 통해 자원을 획득하고 호텔을 점진적으로 개선하는 경험을 하게 됩니다.",
+        "features_ko": [
+          "아이템 병합을 통해 호텔 운영에 필요한 자원을 생성합니다.",
+          "방문하는 손님의 요구사항에 맞춰 서비스를 제공합니다.",
+          "낡은 여관을 7층 규모의 고급 호텔로 업그레이드합니다."
+        ],
+        "noteworthy_ko": "병합 게임의 핵심인 '생산-병합-보상' 루프가 호텔 경영이라는 테마와 결합되어 있습니다. 층수 확장이라는 시각적 목표가 플레이어에게 명확한 성취감을 제공할 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 병합 로직과 인벤토리 관리 시스템입니다. 콘텐츠 제작 측면에서는 다양한 아이템 조합표와 호텔 층별 그래픽 리소스가 필요하며, 밸런스 측면에서는 병합 속도와 호텔 업그레이드 비용 간의 적절한 조절이 중요합니다.",
+        "idea_ko": "호텔의 특정 층을 테마별로 꾸미는 인테리어 병합 시스템을 도입하여 경영과 꾸미기 요소를 강화하는 것이 좋습니다.",
+        "highlights_ko": [
+          "1성급에서 5성급으로 변화하는 호텔의 시각적 성장 과정을 담고 있습니다.",
+          "7층이라는 구체적인 확장 목표를 통해 게임의 엔드 콘텐츠를 제시합니다."
+        ],
+        "systems_ko": [
+          "병합 보드 엔진",
+          "아이템 생성 및 조합 규칙",
+          "호텔 업그레이드 상태 관리",
+          "손님 주문 및 보상 시스템",
+          "UI/UX 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "병합 로직 자체는 구현이 어렵지 않으나, 아이템 조합의 가짓수가 많아질수록 데이터 관리와 밸런스 조정에 상당한 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 병합 보드",
+            "아이템 생성기",
+            "간단한 주문 처리 시스템"
+          ],
+          "defer": [
+            "7층 전체 확장 콘텐츠",
+            "복잡한 호텔 인테리어 커스터마이징"
+          ],
+          "risks": [
+            "아이템 조합 데이터의 복잡성 증가",
+            "반복적인 플레이의 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "계절별 호텔 이벤트",
+            "concept": "특정 기간 동안만 얻을 수 있는 한정 아이템을 병합하여 호텔을 꾸미는 이벤트입니다. 시즌제 운영으로 리텐션을 높입니다.",
+            "first_step": "기존 아이템에 이벤트 스킨을 입히는 프로토타입 제작."
+          },
+          {
+            "title": "손님 성격 시스템",
+            "concept": "손님마다 선호하는 서비스가 달라 병합 우선순위가 바뀌는 전략적 요소를 추가합니다.",
+            "first_step": "손님 유형별 보상 테이블 분리 구현."
+          }
+        ],
+        "recommendation_ko": "병합 게임의 기초적인 데이터 구조와 UI 흐름을 배우기에 적합합니다. 다만, 콘텐츠의 양이 많아질수록 데이터 관리가 복잡해지므로 초기 설계가 중요합니다.",
+        "source_limitations_ko": "호텔 내부의 구체적인 경영 방식, 아이템의 종류, 수익 모델, 오프라인 모드 지원 여부 등은 설명문에 명시되지 않아 확인이 불가능합니다.",
+        "name": "Hotel Merge - Demo [Free]",
+        "source": "itch",
+        "detail_url": "https://solmaeir.itch.io/hotel-merge",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 287,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 31,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-31"
+    },
+    "google:com.colorrings.rotate.earn": {
+      "app_key": "google:com.colorrings.rotate.earn",
+      "name": "Color Rings：Rotate & Earn",
+      "developer": "Hesapplication",
+      "source": "google",
+      "country": "JP",
+      "category": "game_casual",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.colorrings.rotate.earn&hl=ja&gl=JP",
+      "data_date": "2026-10-31",
+      "analysed_at": "2026-10-31T05:04:37+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Color Rings：Rotate & Earn へようこそ！報酬付きのリラックスできるリングパズルゲームです。スワイプ操作で積み重ねられたリングを回転させ、隙間を揃えてパズルレベルをクリアしましょう。スムーズな回転と、何百もの手作りの脳トレチャレンジをお楽しみください。 🎮 ゲームの特徴 • シンプルな指一本操作の回転 • 難易度が上がる何百ものパズルレベル • パズルチャレンジをクリアして報酬を獲得 • 洗練されたミニマルなビジュアルと心地よいサウンドエフェクト • 暇つぶしや論理的思考力を鍛えるのに最適なカジュアルゲーム 遊び方：絡み合ったリングをドラッグして回転させます。すべての隙間を同じライン上に揃えてパズルを解き、報酬を獲得しましょう。ルールは最初は簡単そうに見えますが、高度なマルチリングパズルはあなたの思考力を試します。 脳トレや報酬付きのカジュアルパズルゲームが好きなら、Rotate Rings をダウンロードして、プレイしながら報酬を集めましょう！",
+      "analysis": {
+        "app_key": "google:com.colorrings.rotate.earn",
+        "summary_ko": "Color Rings: Rotate & Earn은 겹쳐진 링을 회전시켜 틈을 맞추는 퍼즐 게임입니다. 스와이프 조작으로 링을 정렬하여 레벨을 클리어하는 방식입니다. 단순한 조작과 미니멀한 비주얼을 통해 휴식과 두뇌 훈련을 제공합니다.",
+        "features_ko": [
+          "스와이프 조작으로 링을 회전시켜 틈을 맞춥니다.",
+          "난이도가 점진적으로 상승하는 수백 개의 레벨을 제공합니다.",
+          "미니멀한 비주얼과 편안한 사운드 효과를 사용합니다.",
+          "퍼즐 해결을 통해 보상을 획득하는 구조를 가집니다."
+        ],
+        "noteworthy_ko": "매우 단순한 메커니즘을 반복적인 레벨 디자인으로 확장한 점이 흥미롭습니다. 1인 개발자가 에셋 부담을 최소화하면서도 완성도 높은 게임을 만드는 좋은 예시입니다.",
+        "development_ko": "링의 회전 로직과 충돌/정렬 판정이 핵심입니다. 레벨 디자인은 데이터 기반으로 생성하여 확장성을 높이는 것이 좋습니다. 1인 개발 시 UI/UX의 깔끔함이 게임의 품질을 결정합니다.",
+        "idea_ko": "링의 회전뿐만 아니라 링의 색상을 조합하여 특정 패턴을 만드는 퍼즐 요소를 추가하는 것이 적합합니다.",
+        "highlights_ko": [
+          "직관적인 스와이프 회전 조작을 채택했습니다.",
+          "미니멀리즘 디자인으로 시각적 피로도를 낮췄습니다."
+        ],
+        "systems_ko": [
+          "링 회전 및 정렬 로직",
+          "레벨 데이터 관리 시스템",
+          "보상 지급 시스템",
+          "UI 및 사운드 매니저"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 단순하고 구현 범위가 명확합니다. 1인 개발자가 처음부터 끝까지 완성하기에 가장 적합한 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "링 회전 로직",
+            "정렬 판정 시스템",
+            "기본 레벨 10개"
+          ],
+          "defer": [
+            "보상 시스템",
+            "복잡한 사운드 효과",
+            "수백 개의 레벨"
+          ],
+          "risks": [
+            "퍼즐의 단순함으로 인한 낮은 리플레이 가치"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "색상 혼합 링",
+            "concept": "링의 색상을 겹쳐 새로운 색을 만들어야 하는 퍼즐. 색상 이론을 활용한 두뇌 훈련 요소입니다.",
+            "first_step": "두 색상이 겹쳤을 때 색상 값을 합산하여 새로운 색을 출력하는 로직 구현."
+          },
+          {
+            "title": "시간 제한 링",
+            "concept": "제한 시간 내에 링을 정렬해야 하는 긴장감 있는 모드. 빠른 판단력을 요구합니다.",
+            "first_step": "타이머 UI를 추가하고 시간 종료 시 게임 오버 처리 구현."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 핵심 로직을 구현하고 레벨 디자인을 연습하기에 매우 좋습니다. 단순함 속에서 재미를 찾는 법을 배우기에 추천합니다.",
+        "source_limitations_ko": "보상 시스템의 구체적인 내용(현금화 여부 등)이나 외부 연동 기능은 소개문에 명시되지 않았습니다. 보안 및 결제 관련 기능은 확인되지 않습니다.",
+        "name": "Color Rings：Rotate & Earn",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.colorrings.rotate.earn&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 207,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 11,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-31"
     }
   }
 }

@@ -8861,6 +8861,93 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-30"
+    },
+    "google:com.sysiac.thecaptain": {
+      "app_key": "google:com.sysiac.thecaptain",
+      "name": "The Captain",
+      "developer": "Tomorrow Corporation",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.sysiac.thecaptain&hl=en&gl=US",
+      "data_date": "2026-10-31",
+      "analysed_at": "2026-10-31T05:09:25+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "You are Captain Thomas Welmu, a Spacefleet science officer, lost on the other side of the galaxy. Dark forces are en route to Earth to destroy our planet - and you are carrying the only thing that can stop them. Race back home across the galaxy. Collect new friends on your journey. Make new enemies. You won't be able to save everyone. Who will you leave behind? Which civilizations will you save - or destroy - along the way? The decisions are all up to you. You are the, Captain!",
+      "analysis": {
+        "app_key": "google:com.sysiac.thecaptain",
+        "summary_ko": "우주 함대 과학 장교가 되어 은하계를 횡단하며 지구를 구하기 위한 여정을 다루는 게임입니다. 동료를 모으고 적을 만들며, 중요한 선택을 통해 문명의 운명을 결정하는 서사 중심의 게임입니다.",
+        "features_ko": [
+          "은하계를 가로지르는 여정을 통해 지구를 구하는 메인 스토리를 진행합니다.",
+          "여정 중 다양한 인물들을 만나 동료로 영입하거나 적대 관계를 형성합니다.",
+          "플레이어의 선택에 따라 특정 문명의 생존 여부가 결정됩니다."
+        ],
+        "noteworthy_ko": "플레이어의 선택이 서사에 직접적인 영향을 미치는 분기형 구조가 특징입니다. 개발 관점에서는 방대한 대화 스크립트와 선택지 관리 시스템이 핵심입니다.",
+        "development_ko": "서사 중심 게임이므로 시나리오 작성과 분기 관리 시스템 구현이 가장 큰 비중을 차지합니다. 다양한 이벤트와 캐릭터 상호작용을 처리하는 데이터 구조 설계가 필요합니다.",
+        "idea_ko": "선택지 기반의 텍스트 어드벤처",
+        "highlights_ko": [
+          "플레이어의 도덕적 선택이 강조되는 서사 구조.",
+          "동료 영입 및 관계 형성 시스템."
+        ],
+        "systems_ko": [
+          "대화 및 선택지 엔진",
+          "게임 상태 관리(분기 데이터)",
+          "캐릭터 관계도 시스템",
+          "이벤트 트리거 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "복잡한 물리 엔진이나 그래픽보다는 서사와 선택지 시스템이 핵심이므로 1인 개발로 구현 가능한 범위입니다. 다만, 방대한 텍스트와 분기 시나리오를 체계적으로 관리하는 능력이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "대화창 UI 시스템",
+            "선택지 분기 로직",
+            "게임 진행 상태 저장 시스템"
+          ],
+          "defer": [
+            "복잡한 우주 탐사 애니메이션",
+            "다양한 캐릭터 아트워크"
+          ],
+          "risks": [
+            "시나리오 분기 관리의 복잡성",
+            "플레이어 몰입을 위한 서사 품질 유지"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "우주선 관리 시뮬레이션",
+            "concept": "우주를 여행하며 자원을 관리하고, 승무원들의 사기를 조절하는 생존형 시뮬레이션입니다.",
+            "first_step": "자원 수치 증감 및 이벤트 발생 로직 구현."
+          },
+          {
+            "title": "외계어 번역 퍼즐",
+            "concept": "외계 문명과 소통하기 위해 단어의 의미를 추론하고 문장을 완성하는 언어 퍼즐 게임입니다.",
+            "first_step": "단어 사전 데이터 구조 및 매칭 로직 구현."
+          }
+        ],
+        "recommendation_ko": "서사 중심 게임의 구조를 설계하고 분기형 시나리오를 관리하는 법을 배우기에 좋습니다. 텍스트 기반 게임부터 시작하여 점진적으로 기능을 확장하는 방식을 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 장르(RPG, 어드벤처, 전략 등)나 전투 시스템의 유무가 명확하지 않습니다. 소개문 외의 추가적인 게임 메커니즘은 확인되지 않습니다.",
+        "name": "The Captain",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.sysiac.thecaptain&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-31"
     }
   }
 }

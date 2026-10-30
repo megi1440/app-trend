@@ -9349,6 +9349,369 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-30"
+    },
+    "google:com.multicastgames.butcher": {
+      "app_key": "google:com.multicastgames.butcher",
+      "name": "Butcher Hero: Monster Idle RPG",
+      "developer": "MULTICAST GAMES",
+      "source": "google",
+      "country": "US",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.multicastgames.butcher&hl=en&gl=US",
+      "data_date": "2026-10-31",
+      "analysed_at": "2026-10-31T05:09:04+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Enter Butcher Hero, an idle action RPG where every enemy becomes fuel for your next upgrade. Explore hostile sand zones, throw your chain hook, pull monsters and aliens into range, earn XP, and devour their power to build a stronger hero. Hook, devour, grow Aim the hook, drag in your target, and finish the fight. Each hunt earns XP and turns captured power into permanent upgrades for damage, attack speed, armor, or health. Choose what to improve and shape a build that can survive tougher zones. Build your RPG hero Collect gear and tune your loadout for the challenge ahead. Combine equipment with permanent stats, unlock new ways to fight, and upgrade your hero as enemies become stronger. Make meaningful build choices and keep leveling up. If you enjoy RPG games and progression-focused adventure games, every hunt gives you a clear upgrade choice and a stronger build to take into the next fight. Action and idle progression Butcher Hero combines the quick decisions of action games with the steady growth of idle games. Fans of incremental games can start a short hunt, improve permanent stats, and push into a harder zone. Every choice moves your build forward. Keep building your hero with AFK progression, or use auto-battle when you want a lighter session. Return to choose upgrades, tune your gear, and decide how to tackle the next fight. Monster survival in the sand Push through sand-covered areas filled with creatures, elite enemies, and dangerous aliens. Fans of survival games can focus on armor and health, while aggressive builds lean into damage and speed. Adapt your loadout and keep moving as every area raises the pressure. Win boss battles Face massive bosses with distinct attacks and rising difficulty. Learn each encounter, improve your gear, and return stronger. Climb the Boss Tower to see how far your build can go and earn rewards from demanding boss battles. Complete quests and claim rewards Finish quests, gather crystals, and open chests for resources that help your hero grow. Develop the Soul Graph, reinforce your favorite stats, and create a loadout ready for the next challenge. Play offline or enter PvP Fans of offline games can play the complete single-player adventure without an internet connection. When connected, test your build against other heroes in PvP battles. PvP is separate from offline single-player play. Play your way • Chain-hook combat built around pulling enemies into range • Devour power and turn every hunt into permanent growth • Upgrade damage, speed, armor, and health • Collect gear and customize your loadout • Fight monsters, aliens, elite enemies, and giant bosses • Climb the Boss Tower and complete quests • Earn crystals, open chests, and improve the Soul Graph • Make progress with AFK progression and optional auto-battle • Enjoy the complete single-player game offline • Challenge other heroes in online PvP Start small, hunt smarter, and become the hero no monster can stop. Hook the enemy, steal its power, upgrade your build, and turn every fight into permanent growth.",
+      "analysis": {
+        "app_key": "google:com.multicastgames.butcher",
+        "summary_ko": "Butcher Hero는 적을 처치하고 그 힘을 흡수하여 캐릭터를 성장시키는 방치형 액션 RPG입니다. 갈고리를 던져 적을 끌어당기는 독특한 전투 방식을 사용하며, 획득한 경험치로 능력치를 영구적으로 강화합니다. 오프라인 플레이를 지원하며, 온라인 환경에서는 다른 사용자와 PvP 대결을 즐길 수 있습니다.",
+        "features_ko": [
+          "갈고리를 던져 적을 끌어당기고 처치하는 액션 전투를 수행합니다.",
+          "적을 처치하여 얻은 경험치로 공격력, 공격 속도, 방어력, 체력을 영구적으로 강화합니다.",
+          "장비를 수집하고 로드아웃을 조정하여 다양한 전투 상황에 대비합니다.",
+          "방치형 진행(AFK)과 자동 전투 기능을 지원하여 성장을 자동화할 수 있습니다.",
+          "보스 타워를 등반하며 강력한 보스와 대결하고 보상을 획득합니다.",
+          "오프라인 싱글 플레이와 온라인 PvP 모드를 모두 지원합니다."
+        ],
+        "noteworthy_ko": "액션 게임의 조작감과 방치형 게임의 성장 구조를 결합한 하이브리드 장르입니다. 개발 관점에서는 갈고리 물리 연산과 방치형 보상 로직의 균형을 맞추는 것이 흥미로운 과제입니다.",
+        "development_ko": "핵심 기술은 갈고리 투사체 물리 엔진과 캐릭터 능력치 데이터 관리 시스템입니다. 콘텐츠 제작은 다양한 적과 보스 패턴을 설계하는 데 집중해야 합니다. 밸런스 조정은 방치형 게임의 핵심으로, 성장이 정체되지 않도록 보상 곡선을 세밀하게 설계해야 합니다.",
+        "idea_ko": "갈고리 액션을 활용한 '낚시 RPG'로, 몬스터 대신 다양한 물고기를 낚아 수집하고 요리하는 게임을 제안합니다.",
+        "highlights_ko": [
+          "갈고리 전투라는 독특한 메커니즘을 통해 액션성을 확보했습니다.",
+          "방치형 성장과 액션 RPG의 요소를 결합하여 플레이어에게 지속적인 성취감을 제공합니다."
+        ],
+        "systems_ko": [
+          "투사체 물리 시스템",
+          "캐릭터 능력치 및 성장 시스템",
+          "방치형 보상 계산 로직",
+          "장비 및 인벤토리 관리",
+          "보스 패턴 AI"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 기반의 전투 시스템은 구현이 까다로울 수 있으나, 방치형 RPG의 기본 구조는 정형화되어 있어 1인 개발이 가능합니다. 다만, PvP 시스템을 포함할 경우 서버 연동 및 동기화 작업이 추가되어 난도가 상승합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "갈고리 투사체 발사 및 적 끌어당기기",
+            "기본 능력치 강화 시스템",
+            "적 생성 및 처치 로직"
+          ],
+          "defer": [
+            "온라인 PvP 모드",
+            "보스 타워",
+            "복잡한 장비 시스템"
+          ],
+          "risks": [
+            "전투 조작감의 최적화 실패",
+            "성장 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "몬스터 낚시꾼",
+            "concept": "던전에서 몬스터를 낚아 재료를 얻고, 이를 통해 장비를 제작하는 낚시 RPG입니다.",
+            "first_step": "갈고리 투사체로 적을 낚아채는 기본 전투 메커니즘 구현."
+          },
+          {
+            "title": "갈고리 등반가",
+            "concept": "갈고리를 지형에 던져 높은 곳으로 올라가는 액션 퍼즐 게임입니다.",
+            "first_step": "갈고리 물리 연산을 이용한 이동 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "액션과 방치형 시스템을 결합하는 기획력을 배우기에 좋습니다. 1인 개발 시 PvP를 제외한 싱글 플레이 중심의 완성도를 높이는 것을 추천합니다.",
+        "source_limitations_ko": "온라인 PvP의 동기화 방식이나 서버 구조는 명시되지 않았습니다. 인앱 결제나 광고 수익 모델에 대한 정보도 없습니다.",
+        "name": "Butcher Hero: Monster Idle RPG",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.multicastgames.butcher&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-31"
+    },
+    "google:com.plus.photo.recovery.file.restore": {
+      "app_key": "google:com.plus.photo.recovery.file.restore",
+      "name": "PhotoRecovery Plus",
+      "developer": "hk3072072",
+      "source": "google",
+      "country": "US",
+      "category": "app_productivity",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.plus.photo.recovery.file.restore&hl=en&gl=US",
+      "data_date": "2026-10-31",
+      "analysed_at": "2026-10-31T05:09:25+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "📸 Accidentally deleted your precious photos or videos? No worries — PhotoRecovery Plus helps you recover lost memories quickly and safely. With advanced scanning technology, you can easily find and restore deleted photos, videos, and files in just a few taps. No complicated steps, no technical skills required. 🔍 Powerful Recovery Features ✅Recover Deleted Photos & Videos Restore lost images and videos from your device storage instantly. ✅Quick Scan & Deep Scan Using advanced scanning technology, PhotoRecovery Plus deeply scans your device storage and SD card to find recoverable files. ✅Fast Recovery Speed Optimized engine ensures quick detection and restoration. ✅All File Recovery Not just photos — recover videos, documents, and more. ✅Safe & Secure Your data stays private. No files are uploaded to any server. ⚡ Easy to Use 1️⃣Open the app 2️⃣Start scanning 3️⃣Preview deleted files 4️⃣Tap to recover Simple as that! 🔒Privacy First We value your privacy. All scans and recoveries happen locally on your device. Your data is never shared or stored externally. 💡Why Choose PhotoRecovery Plus? • Beginner-friendly interface • Fast and reliable performance • Deep scan for better recovery results • Secure and offline recovery process ⚠️ Important Notes • This app can only scan and recover files that match specific path patterns within your device storage. • If your device has been factory reset, previously deleted files cannot be recovered, as the data has been permanently erased. • Recovery success may vary depending on device model, storage type, and current file system condition. Some files may not be recoverable. We understand that every piece of data is an irreplaceable memory. While no technology can guarantee 100% recovery, we are committed to providing the most efficient recovery solutions possible. We also sincerely recommend regularly backing up your data. 📥 Photo Recover & Restore helps you stay prepared for unexpected data loss with confidence! Download now and bring your lost memories back to life!",
+      "analysis": {
+        "app_key": "google:com.plus.photo.recovery.file.restore",
+        "summary_ko": "삭제된 사진, 동영상 및 파일을 기기 저장소에서 복구하는 유틸리티 앱입니다. 복잡한 기술적 지식 없이도 몇 번의 탭으로 파일을 스캔하고 복구할 수 있습니다. 로컬 스캔 방식을 사용하여 개인정보 보호를 강조합니다.",
+        "features_ko": [
+          "기기 저장소 및 SD 카드를 정밀하게 스캔하여 삭제된 파일을 탐색합니다.",
+          "사진, 동영상, 문서 등 다양한 파일 형식을 복구할 수 있습니다.",
+          "스캔 후 복구 전 파일을 미리보기로 확인할 수 있습니다.",
+          "데이터를 외부 서버로 전송하지 않고 기기 내에서 로컬로 처리합니다."
+        ],
+        "noteworthy_ko": "데이터 복구는 파일 시스템의 상태에 크게 의존하므로, 기술적으로는 삭제된 파일의 메타데이터가 덮어쓰기 되지 않았을 때만 가능합니다. 개발 관점에서는 파일 시스템 접근 권한 관리와 효율적인 스캔 알고리즘 구현이 핵심입니다.",
+        "development_ko": "안드로이드의 파일 시스템 접근 권한(Storage Access Framework)을 활용한 구현이 필요합니다. 파일 헤더 분석을 통한 데이터 복구 로직은 복잡도가 높으며, 기기별 파일 시스템 차이로 인한 테스트 부담이 큽니다.",
+        "idea_ko": "특정 파일 형식에 특화된 복구 도구",
+        "highlights_ko": [
+          "외부 서버 업로드 없는 오프라인 복구 프로세스.",
+          "사용자 친화적인 4단계 복구 워크플로우."
+        ],
+        "systems_ko": [
+          "파일 시스템 스캔 엔진",
+          "파일 미리보기 뷰어",
+          "권한 관리 시스템",
+          "데이터 복구 알고리즘"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "파일 시스템의 저수준 접근이 필요하며, 기기마다 다른 저장소 구조와 파일 시스템 상태를 모두 대응하기 어렵습니다. 데이터 복구 성공률을 보장하기 위한 알고리즘 구현 난도가 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "저장소 읽기 권한 획득",
+            "특정 확장자 파일 스캔 기능",
+            "복구 대상 파일 선택 UI"
+          ],
+          "defer": [
+            "다양한 파일 형식 지원",
+            "정밀 스캔(Deep Scan) 최적화"
+          ],
+          "risks": [
+            "OS 보안 정책으로 인한 파일 접근 제한",
+            "데이터 덮어쓰기로 인한 복구 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "특정 폴더 전용 복구기",
+            "concept": "전체 기기가 아닌 특정 앱의 캐시 폴더나 다운로드 폴더만 집중적으로 감시하여 삭제 시 즉시 백업본을 생성합니다.",
+            "first_step": "특정 디렉토리의 파일 변경 사항을 감지하는 서비스 구현."
+          },
+          {
+            "title": "메타데이터 기반 사진 정리기",
+            "concept": "복구보다는 삭제된 사진의 메타데이터를 분석하여 중복을 제거하고 날짜별로 자동 분류하는 도구입니다.",
+            "first_step": "이미지 파일의 EXIF 데이터를 읽어오는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "안드로이드 파일 시스템 구조와 권한 관리 체계를 깊이 있게 학습할 수 있습니다. 다만, 복구 성공률 보장이 어렵고 기술적 한계가 명확하여 상용화보다는 학습용 프로젝트로 적합합니다.",
+        "source_limitations_ko": "실제 복구 알고리즘의 구체적인 구현 방식이나 지원하는 파일 시스템(FAT32, exFAT, ext4 등)의 범위가 명시되지 않았습니다. 결제 기능이나 외부 서비스 연동 여부는 확인되지 않습니다.",
+        "name": "PhotoRecovery Plus",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.plus.photo.recovery.file.restore&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-31"
+    },
+    "apple:1470181651": {
+      "app_key": "apple:1470181651",
+      "name": "우리WON뱅킹",
+      "developer": "Woori Bank",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%9A%B0%EB%A6%ACwon%EB%B1%85%ED%82%B9/id1470181651",
+      "data_date": "2026-10-31",
+      "analysed_at": "2026-10-31T05:10:21+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "● 다양한 이체 기능을 담았어요. - 자주사용하는 계좌에서의 이체는 화면이동을 최소화 했어요. - 연락처이체, 더치페이, 사진찍어이체하기 등 보다 편하게 이체 할 수 있는 다양한 기능을 담았어요. - 보다 안전하게 이체할 수 있도록 사기계좌조회 기능을 넣었어요. ● 내가 보유한 금융자산과, 나의 소비 현황을 한눈에 볼 수 있어요. - \"나\" 중심으로 서비스를 개편하여, 내가 보유한 계좌 목록, 나의 자산 현황, 나의 소비현황을 편리하게 확인할 수 있어요. - 중요한 금융일정은 알림으로, 자산은 다양한 분석정보로, 소비는 매일 쉽게 관리할 수 있도록 서비스를 개편했어요. ● 우리금융그룹 상품, 서비스를 한눈에 한번에 사용할 수 있어요. - 카드/캐피탈/증권/저축은행의 다양한 상품과 서비스를 조회부터 가입까지 우리WON뱅킹으로 편하게 사용해보세요. ● 기업뱅킹을 설치하지 않아도, 개인사업자용 상품/서비스도 제공해 드려요. - 사장님 전용 통장, 대출 상품 가입도 우리WON뱅킹에서 한번에 처리 가능해요. - 다양한 정책지원 서비스도 함께 준비했어요. ● 복잡한 금융상품 가입절차, 여러 번에 나눠서 진행 가능해요. - 상품가입 중 다른 일이 생겨 로그아웃 되더라도 걱정하지 마세요. 앞서 입력했던 단계를 다시 진행하지 않아도, 이어서 진행할 수 있어요. ● 맞춤형 생활금융 서비스를 받아보세요. - 자녀분의 금융생활시작 위한 우리아이, 10대 전용 우리틴틴, 20대 전용 스무살 우리, 직장인을 위한 우리직장인셀럽, 시니어를 위한 시니어W클래스 등 ● 고객센터 운영 시간 안내 - 업무상담시간 : 평일 09:00 ~ 18:00 - 텔레뱅킹 ARS 업무 및 사고신고 : 24시간 ● 고객센터 번호 안내 - 대표번호 : 1588-5000 / 1599-5000 / 1533-5000 - 해외 : 82-2-2006-5000 - 외국인 전용 : 1599-2288 ● 접근 권한 안내 우리WON뱅킹 접근 권한에 대하여 아래와 같이 안내드립니다. 허용에 동의하지 않으셔도 앱 사용이 가능합니다. - 카메라 : 카메라 촬영 기능에 대한 접근 권한으로 신분증 촬영 및 얼굴인증, 편의서비스(공과금 스캔납부, QR코드 인식, 사진찍어 이체하기, 서류제출), 영상상담 시 사용합니다. - 마이크 : 오디오를 녹음하기 위한 접근 권한으로 영상상담 시 음성인식을 위해 사용합니다. - 위치 : 기기 위치정보에 대한 접근 권한으로 가까운 영업점 및 ATM 찾기 서비스 이용 시 사용합니다. - 연락처 : 기기 내 연락처에 대한 접근 권한으로 연락처 이체 시 받는 분 선택 및 더치페이 등의 서비스 이용 시 사용합니다. - 캘린더 : 휴대폰에 탑재된 캘린더에 대한 접근 권한으로 마이플래너의 일정을 휴대폰 캘린더로 내보내기 위해 사용합니다. - 사진 : 통장사본 등 이미지 저장, 모임통장 서비스의 프로필 설정하는데 사용합니다. - Face ID : Face ID를 지원하는 폰에서 우리WON인증서 생체인증을 위해 사용합니다. ● 이용안내 - 우리WON뱅킹은 IOS 15.0 이상의 기기를 사용하셔야 이용이 가능해요. - 탈옥 등 운영체제가 변조된 단말기에서는 서비스를 이용할 수 없어요. - 3G/LTE/5G 정액 요금제에서 용량 초과 시 데이터 요금이 부과될 수 있어요. - 우리은행에서는 고객님의 개인정보나 보안카드 번호 전체를 요구하지 않아요. ● 인증수단 사용 유의사항 - 금융인증서의 패턴 / 생체는 새로워진 우리WON뱅킹에서 사용이 어려워요. PIN을 재등록하여 로그인해주세요. - 금융회원 고객님께서는 더 이상 간편비밀번호를 통한 로그인이 어려워요. 다른 인증수단으로 로그인해주세요. 고객님의 안전한 자산 보호를 위하여 주의 부탁드립니다.",
+      "analysis": {
+        "app_key": "apple:1470181651",
+        "summary_ko": "우리WON뱅킹은 우리금융그룹의 금융 서비스를 통합한 모바일 뱅킹 앱입니다. 이체, 자산 관리, 소비 현황 분석 등 다양한 금융 기능을 제공하며, 카드·증권·저축은행 등 계열사 상품을 한곳에서 이용할 수 있습니다. 개인사업자를 위한 기업 뱅킹 기능과 맞춤형 생활 금융 서비스를 포함합니다.",
+        "features_ko": [
+          "연락처 이체, 더치페이, 사진 촬영을 통한 이체 등 다양한 이체 방식을 지원합니다.",
+          "보유 계좌, 자산 현황, 소비 현황을 한눈에 확인할 수 있는 통합 자산 관리 기능을 제공합니다.",
+          "우리금융그룹 계열사의 상품을 조회하고 가입할 수 있는 통합 금융 서비스를 지원합니다.",
+          "개인사업자를 위한 전용 통장 및 대출 상품 가입 기능을 제공합니다.",
+          "생체 인증(Face ID) 및 간편 비밀번호를 통한 안전한 로그인과 금융 거래를 지원합니다."
+        ],
+        "noteworthy_ko": "금융 앱의 핵심인 보안과 사용자 편의성 사이의 균형을 잘 맞춘 사례입니다. 복잡한 금융 절차를 단계별로 나누어 진행할 수 있게 한 설계는 사용자 이탈을 방지하는 매우 효과적인 전략입니다.",
+        "development_ko": "최고 수준의 보안 기술과 데이터 무결성 유지가 필수적입니다. 다양한 금융 API 연동과 실시간 자산 데이터 처리 능력이 요구됩니다. 사용자 인증 및 권한 관리 시스템은 매우 엄격하게 설계되어야 하며, 금융 사고 방지를 위한 모니터링 시스템이 필수입니다.",
+        "idea_ko": "개인 자산 관리 및 가계부 앱.",
+        "highlights_ko": [
+          "다양한 금융 계열사 서비스를 통합한 종합 금융 플랫폼입니다.",
+          "사용자 중심의 자산 및 소비 분석 기능을 통해 생활 금융 서비스를 제공합니다."
+        ],
+        "systems_ko": [
+          "보안 인증 및 생체 인식 시스템",
+          "금융 데이터 연동 및 처리 시스템",
+          "자산 및 소비 분석 엔진",
+          "이체 및 결제 처리 시스템",
+          "사용자 권한 및 계정 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "금융 앱은 보안과 안정성이 최우선이며, 1인 개발자가 구현하기에는 법적 규제와 보안 인프라 구축의 장벽이 매우 높습니다. 단순한 기능 구현을 넘어선 전문적인 보안 지식이 필수적입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "계좌 조회",
+            "간편 이체",
+            "소비 내역 기록"
+          ],
+          "defer": [
+            "금융 상품 가입",
+            "생체 인증 시스템",
+            "기업 뱅킹 기능"
+          ],
+          "risks": [
+            "보안 취약점",
+            "금융 데이터 유출",
+            "법적 규제 준수"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "개인 가계부 및 자산 관리",
+            "concept": "수동으로 소비 내역을 기록하고 자산 현황을 시각화하는 앱입니다. 금융 연동 없이 사용자의 기록을 중심으로 관리합니다.",
+            "first_step": "소비 내역 입력 및 카테고리별 통계 기능 구현."
+          },
+          {
+            "title": "더치페이 정산 도우미",
+            "concept": "모임 후 비용을 정산하고 연락처를 통해 요청하는 앱입니다. 복잡한 금융 기능 없이 정산 로직에만 집중합니다.",
+            "first_step": "비용 입력 및 인원별 분할 계산 기능 구현."
+          }
+        ],
+        "recommendation_ko": "금융 앱의 복잡한 데이터 구조와 사용자 경험 설계 방식을 이해하는 데 도움이 됩니다. 다만, 실제 금융 서비스 구현은 보안상의 이유로 개인 개발자에게는 권장하지 않습니다.",
+        "source_limitations_ko": "금융 보안 기술의 상세 구현 방식, 금융 API 연동 로직, 데이터 암호화 방식 등은 확인할 수 없습니다. 법적 규제 준수 여부나 보안 인증 체계에 대한 정보도 부족합니다.",
+        "name": "우리WON뱅킹",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%9A%B0%EB%A6%ACwon%EB%B1%85%ED%82%B9/id1470181651",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 80,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-31"
+    },
+    "google:com.match.mahjong.pair.puzzle": {
+      "app_key": "google:com.match.mahjong.pair.puzzle",
+      "name": "麻雀ハイブリッド：ペア麻雀パズル",
+      "developer": "LifePulse Puzzle Game Studio",
+      "source": "google",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.match.mahjong.pair.puzzle&hl=ja&gl=JP",
+      "data_date": "2026-10-31",
+      "analysed_at": "2026-10-31T05:11:05+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "🀄️ 『麻雀ハイブリッド：ペア麻雀パズル』へようこそ！ 『麻雀ハイブリッド：ペア麻雀パズル』は、同じ牌のペアを見つけてつなげる無料のパズルゲームです。シンプルなルールで気軽に遊べるため、麻雀ゲームや脳トレパズルが好きな方はもちろん、毎日の暇つぶしやリラックスタイムにもおすすめです。大きく見やすい牌面で、どなたでも快適に楽しめます。 同じ牌をつなげて消しながら、集中力や記憶力を使って脳トレを楽しみましょう。ペアを見つけて盤面をクリアするたびに達成感を味わえます。ゆったり遊べるリラックスゲームでありながら、考える楽しさもしっかり味わえます。無料で遊べる豊富なステージや毎日チャレンジを通して、自分のペースで脳活を続けましょう。 ＝＝＝＝＝＝＝＝＝＝＝ ◆◆ 遊び方 ◆◆ ＝＝＝＝＝＝＝＝＝＝＝ ① 盤面の中から同じ絵柄の麻雀牌を探します。 ② 同じ牌をペアにすると盤面から消すことができます。 ③ 盤面の牌をすべて消すとステージクリアです。 ④ 簡単なレベルから難しいレベルまで、自分のペースで楽しめます。 ⑤ 毎日チャレンジをクリアして報酬を獲得しましょう。 ＝＝＝＝＝＝＝＝＝＝＝ ◆◆ ゲームの特徴 ◆◆ ＝＝＝＝＝＝＝＝＝＝＝ ◆ 大きく見やすいデザイン 大きく見やすい牌面とシンプルな画面設計で、どなたでも快適に麻雀パズルを楽しめます。 ◆ ペアを見つけて脳トレ 同じ牌のペアを探してつなげるシンプルなルール。楽しみながら集中力や記憶力を鍛えられる脳トレパズルです。 ◆ 選べる難易度 リラックス・ノーマル・エキスパートの難易度を収録。初心者から上級者まで、自分に合ったレベルで遊べます。 ◆ 心地よいサウンド 麻雀牌を消した時の爽快なサウンドと演出で、ペアを見つけるたびに気持ちよい達成感を味わえます。 ◆ 世界を巡るコレクション 世界旅行をテーマにしたシーズンイベントやパスを楽しみながら、さまざまなコレクションを集めましょう。 ◆ 毎日チャレンジ＆ランキング 毎日チャレンジに挑戦して報酬を獲得。ランキングに挑戦して自己ベストを更新しましょう。 ◆ オフライン対応 インターネット接続がなくても、いつでもどこでも無料でパズルを楽しめます。 ＝＝＝＝＝＝＝＝＝＝＝ ◆◆ こんな方におすすめ ◆◆ ＝＝＝＝＝＝＝＝＝＝＝ ◆ 麻雀ゲームやパズルが好きな方 ◆ 脳トレや脳活を楽しみたい方 ◆ ペア探しやパズルゲームが好きな方 ◆ ゆったり遊べるゲームを探している方 ◆ スキマ時間に気軽に遊びたい方 ◆ 大きく見やすい画面で快適にプレイしたい方 ◆ 無料で長く楽しめるゲームをお探しの方 『麻雀ハイブリッド：ペア麻雀パズル』で、牌をつなげる楽しさと脳トレの面白さを体験してみませんか。 同じ牌を見つけて消しながら、ゆったりとした時間をお楽しみください。無料で遊べる豊富なステージや毎日チャレンジが、あなたを待っています。 今すぐ麻雀ハイブリッドをダウンロードして、気軽に脳活を始めましょう。 プライバシーポリシー：https://longsealink.com/privacy.html 利用規約：https://longsealink.com/useragreement.html",
+      "analysis": {
+        "app_key": "google:com.match.mahjong.pair.puzzle",
+        "summary_ko": "麻雀ハイブリッド는 같은 모양의 마작 패를 찾아 연결하여 제거하는 무료 퍼즐 게임입니다. 간단한 규칙으로 누구나 쉽게 즐길 수 있으며, 뇌 트레이닝과 집중력 향상에 도움을 줍니다. 다양한 난이도와 매일 도전할 수 있는 챌린지 모드를 통해 자신의 페이스대로 게임을 즐길 수 있습니다.",
+        "features_ko": [
+          "같은 그림의 마작 패를 찾아 연결하여 제거하는 단순한 규칙을 가집니다.",
+          "리ラックス, 노멀, 전문가 등 사용자의 실력에 맞는 난이도를 선택할 수 있습니다.",
+          "매일 새로운 챌린지를 제공하여 보상을 획득하고 성취감을 느낄 수 있습니다.",
+          "인터넷 연결 없이도 오프라인에서 게임을 즐길 수 있습니다.",
+          "세계 여행을 테마로 한 이벤트와 컬렉션 수집 요소를 포함합니다."
+        ],
+        "noteworthy_ko": "전통적인 마작 패를 활용한 페어 매칭 퍼즐은 직관적이고 중독성이 강해 캐주얼 게임으로 매우 적합합니다. 난이도 세분화와 매일 챌린지 시스템을 통해 사용자의 지속적인 접속을 유도하는 구성이 훌륭합니다.",
+        "development_ko": "핵심 기술로는 마작 패의 배치 알고리즘, 연결 가능 여부를 판단하는 경로 탐색 로직, 그리고 게임 상태 관리 시스템이 필요합니다. 콘텐츠 제작은 다양한 스테이지 맵 디자인과 테마별 에셋 제작이 주를 이룹니다. 밸런스 조정은 난이도별 패 배치와 힌트 시스템의 적절한 조화가 중요합니다.",
+        "idea_ko": "마작 패를 제거할 때마다 배경 음악의 악기가 하나씩 추가되는 '음악 생성 퍼즐' 아이디어가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "크고 보기 쉬운 디자인을 채택하여 다양한 연령층이 편안하게 플레이할 수 있습니다.",
+          "패를 제거할 때의 경쾌한 사운드와 연출을 통해 높은 타격감과 만족감을 제공합니다."
+        ],
+        "systems_ko": [
+          "마작 패 배치 및 셔플 알고리즘",
+          "경로 탐색(연결 가능성 판정) 로직",
+          "스테이지 데이터 관리 시스템",
+          "게임 상태(진행/일시정지/종료) 관리",
+          "UI 및 사운드 효과 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "퍼즐 게임의 핵심 로직은 구현 가능하지만, 경로 탐색 알고리즘(연결 가능한 패를 찾는 로직)을 효율적으로 구현하는 것이 중요합니다. 1인 개발 시에는 스테이지 수를 적절히 조절하여 개발 범위를 관리할 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "마작 패 배치 및 렌더링",
+            "패 선택 및 매칭 판정 로직",
+            "스테이지 클리어 조건 구현"
+          ],
+          "defer": [
+            "세계 여행 테마 이벤트",
+            "온라인 랭킹 시스템",
+            "복잡한 컬렉션 시스템"
+          ],
+          "risks": [
+            "경로 탐색 알고리즘의 성능 이슈",
+            "스테이지 디자인의 반복성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "음악 생성 마작",
+            "concept": "패를 제거할 때마다 특정 악기 소리가 재생되어, 스테이지를 클리어하면 하나의 곡이 완성됩니다.",
+            "first_step": "패 제거 이벤트와 사운드 재생을 연결하는 간단한 로직을 구현합니다."
+          },
+          {
+            "title": "시간 제한 마작",
+            "concept": "패를 제거할 때마다 시간이 추가되는 모드입니다. 빠르게 매칭할수록 콤보 점수가 높아집니다.",
+            "first_step": "타이머 시스템과 콤보 카운트 로직을 추가합니다."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 기본 메커니즘과 알고리즘을 학습하기에 매우 좋은 프로젝트입니다. 게임의 규칙이 명확하여 1인 개발자가 완성도 높은 결과물을 만들기 적합합니다.",
+        "source_limitations_ko": "소개문에는 경로 탐색 알고리즘의 구체적인 방식이나 스테이지 생성 로직에 대한 정보가 없습니다. 또한, 오프라인 모드에서의 데이터 저장 방식이나 이벤트 업데이트 주기에 대한 상세 내용은 확인되지 않았습니다.",
+        "name": "麻雀ハイブリッド：ペア麻雀パズル",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.match.mahjong.pair.puzzle&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 97,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-31"
     }
   }
 }

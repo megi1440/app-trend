@@ -9406,6 +9406,364 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-30"
+    },
+    "itch:d6c96fafd6273f3fab94": {
+      "app_key": "itch:d6c96fafd6273f3fab94",
+      "name": "Quiet Museum [Free] [Other]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://vendatta77.itch.io/quiet-museum",
+      "data_date": "2026-10-31",
+      "analysed_at": "2026-10-31T05:02:39+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Walk softly. The museum is listening, and it knows your name",
+      "analysis": {
+        "app_key": "itch:d6c96fafd6273f3fab94",
+        "summary_ko": "Quiet Museum은 박물관을 탐험하는 게임으로, 조용히 걸어야 한다는 규칙이 있습니다. 박물관은 플레이어의 행동을 감시하고 있으며, 플레이어의 이름을 알고 있다는 설정의 미스터리한 분위기를 제공합니다.",
+        "features_ko": [
+          "조용히 움직여야 하는 잠입/탐험 규칙.",
+          "플레이어의 행동에 반응하는 환경 시스템.",
+          "미스터리한 분위기와 심리적 압박감을 주는 연출."
+        ],
+        "noteworthy_ko": "플레이어의 행동을 감시하는 시스템이 게임의 핵심입니다. 단순히 걷는 행위가 게임의 규칙이 되는 점이 흥미로우며, 플레이어에게 심리적 긴장감을 어떻게 전달하는지가 개발의 핵심입니다.",
+        "development_ko": "플레이어의 이동 속도나 소음을 감지하는 시스템 구현이 필요합니다. 분위기 조성을 위한 사운드 디자인과 조명 연출이 중요합니다. 1인 개발 시에는 복잡한 그래픽보다는 연출과 사운드에 집중하는 것이 효율적입니다.",
+        "idea_ko": "마이크 입력을 활용하여 플레이어가 실제로 조용히 해야 하는 '현실 연동형' 공포 게임으로 발전시키는 것이 적합합니다.",
+        "highlights_ko": [
+          "행동 제약을 통한 심리적 긴장감 조성.",
+          "플레이어와 상호작용하는 미스터리한 환경."
+        ],
+        "systems_ko": [
+          "소음 감지 및 이동 판정",
+          "환경 상호작용 시스템",
+          "심리적 연출(사운드/조명) 관리",
+          "플레이어 이름 인식(텍스트 처리)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기술적인 구현보다 분위기를 조성하는 연출력이 더 중요합니다. 1인 개발자가 연출에 집중한다면 충분히 완성할 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "이동 및 소음 감지 로직",
+            "환경 반응 연출",
+            "기본적인 걷기 환경"
+          ],
+          "defer": [
+            "복잡한 스토리라인",
+            "다양한 맵 구성"
+          ],
+          "risks": [
+            "플레이어에게 긴장감을 전달하는 연출의 실패",
+            "단순한 걷기 게임으로 느껴질 가능성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "소리의 박물관",
+            "concept": "마이크를 통해 들어오는 소음이 박물관의 전시물을 깨우는 공포 게임입니다.",
+            "first_step": "마이크 입력값을 받아 특정 수치 이상일 때 이벤트를 발생시키는 로직 구현."
+          },
+          {
+            "title": "이름을 부르는 곳",
+            "concept": "플레이어가 입력한 이름을 게임 내 환경 요소(액자, 안내문 등)에 반영하여 심리적 압박을 주는 게임입니다.",
+            "first_step": "사용자 입력을 받아 텍스트 오브젝트에 동적으로 반영하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "분위기 연출과 사운드를 활용한 심리적 게임을 만들고 싶은 개발자에게 추천합니다. 기술적인 구현보다 기획과 연출의 중요성을 배울 수 있습니다.",
+        "source_limitations_ko": "구체적인 게임의 목표, 플레이어의 행동 방식, 박물관의 반응 종류는 확인되지 않았습니다.",
+        "name": "Quiet Museum [Free] [Other]",
+        "source": "itch",
+        "detail_url": "https://vendatta77.itch.io/quiet-museum",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 359,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 7,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-31"
+    },
+    "itch:a757a9cafac663908cc1": {
+      "app_key": "itch:a757a9cafac663908cc1",
+      "name": "Outrun Your Soul [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://junaidahamed7777.itch.io/outrun-your-soul",
+      "data_date": "2026-10-31",
+      "analysed_at": "2026-10-31T05:03:43+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A mobile-portrait, touch-first action roguelite.",
+      "analysis": {
+        "app_key": "itch:a757a9cafac663908cc1",
+        "summary_ko": "Outrun Your Soul은 모바일 세로 화면에 최적화된 터치 기반의 액션 로그라이트 게임입니다. 플레이어는 터치 조작을 중심으로 로그라이트 특유의 반복적인 도전과 성장을 경험합니다.",
+        "features_ko": [
+          "모바일 세로 화면 환경에 최적화된 UI를 제공합니다.",
+          "터치 중심의 직관적인 조작 방식을 채택했습니다.",
+          "로그라이트 장르의 반복 플레이 요소를 포함합니다."
+        ],
+        "noteworthy_ko": "모바일 환경에서의 터치 조작은 게임의 몰입감을 결정짓는 핵심 요소입니다. 로그라이트 장르 특성상 매번 달라지는 환경을 어떻게 구현할지가 개발의 관건입니다.",
+        "development_ko": "터치 입력 판정 시스템과 절차적 생성(Procedural Generation) 알고리즘 구현이 필요합니다. 모바일 기기의 성능을 고려한 최적화와 세로 화면에 맞는 UI 배치가 중요합니다. 반복적인 플레이를 지루하지 않게 만드는 보상 체계 설계가 필요합니다.",
+        "idea_ko": "터치 제스처에 따라 공격 방식이 달라지는 시스템을 도입하여 조작의 깊이를 더하는 것을 제안합니다.",
+        "highlights_ko": [
+          "모바일 환경에 최적화된 접근성.",
+          "로그라이트 장르의 높은 반복 플레이 가치."
+        ],
+        "systems_ko": [
+          "터치 입력 및 제스처 인식 시스템",
+          "절차적 맵 생성 시스템",
+          "로그라이트 아이템/스킬 랜덤 생성 시스템",
+          "캐릭터 성장 및 데이터 저장 시스템",
+          "모바일 최적화 UI 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "로그라이트 게임은 절차적 생성과 밸런스 조정이 매우 까다롭습니다. 모바일 터치 조작의 정교함을 구현하는 것도 기술적 난도가 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 터치 이동 및 공격",
+            "간단한 맵 생성 로직",
+            "랜덤 아이템 드롭 시스템"
+          ],
+          "defer": [
+            "복잡한 스토리",
+            "다양한 캐릭터 클래스"
+          ],
+          "risks": [
+            "조작감의 불편함",
+            "로그라이트 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "제스처 기반 스킬",
+            "concept": "화면에 특정 모양을 그리면 스킬이 발동됩니다. 터치 조작의 재미를 극대화합니다.",
+            "first_step": "화면상의 터치 궤적을 인식하여 특정 패턴과 매칭하는 로직을 구현합니다."
+          },
+          {
+            "title": "영혼 수집 시스템",
+            "concept": "적을 처치하고 얻은 영혼으로 자신의 능력을 일시적으로 강화합니다. 죽으면 영혼을 잃는 리스크를 가집니다.",
+            "first_step": "적 처치 시 포인트가 쌓이고, 이를 소모해 공격력을 올리는 간단한 상점을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "모바일 환경에서 터치 조작을 어떻게 게임 메커니즘으로 승화시키는지 연구하기 좋습니다. 로그라이트 장르의 핵심인 '랜덤성'과 '밸런스'를 다루는 법을 배우기에 적합합니다.",
+        "source_limitations_ko": "게임의 구체적인 전투 방식, 로그라이트 요소의 범위, 모바일 기기 사양에 따른 최적화 수준 등은 확인되지 않습니다.",
+        "name": "Outrun Your Soul [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://junaidahamed7777.itch.io/outrun-your-soul",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 317,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-31"
+    },
+    "apple:301387274": {
+      "app_key": "apple:301387274",
+      "name": "Pocket God",
+      "developer": "Bolt Creative",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/pocket-god/id301387274",
+      "data_date": "2026-10-31",
+      "analysed_at": "2026-10-31T05:07:11+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "What kind of god would you be? Benevolent or vengeful? Play Pocket God and discover the answer within yourself. On a remote island, you are the all-powerful god that rules over the primitive islanders. You can bring new life, and then take it away just as quickly. Exercise your powers on the islanders. Lift them in the air, alter gravity, hit them with lightning...you're the island god! All god powers are demonstrated in Pocket God's help menu. Pocket God is an episodic microgame for you to explore, show your friends and have fun with. We have been growing the game with the help of player suggestions! What sort of godly powers would you like to see added? More info can be found at our blog: http://www.boltcreative.com On Facebook: http://www.facebook.com/PocketGodGame And on Twitter: http://www.twitter.com/PocketGod Releases: Ep 1: Nowhere To Go, Nothin' To Do Ep 2: Does this Megabyte Make My App Look Fat? Ep 3: You Always Hurt the One You Lava Ep 4: Shake That App! Ep 5: A Storm is Coming Ep 6: And on the 7th Day, Rest! Ep 7: Just Give Us 5 Minutes Ep 8: Jump the Shark Ep 9: Idle Hands Ep 10: Hi, Dracula! Ep 11: A Mighty Wind Ep 12: Something's Fishy… Ep 13: March of the Fire Ants Ep 14: Say My Name! Ep 15: A New Home Ep 16: The Tyrannosaurus Strikes Back! Ep 17: Return of the Pygmy Ep 18: Surf's Up Ep 19: Fun 'n Games Until A Pygmy Gets Hurt Ep 20: Stop! My App is On Fire! Ep 21: Flipping the Bird Ep 22: Ooga Jump Ep 23: Bait Master Ep 24: Idle Hands 2: Caught with your Pants Down Ep 25: Sharks With Frickin' Laser Beams Attached To Their Heads Ep 26: Dead Pygmy Walking Ep 27: Good Will Haunting Ep 28: Barking Spider, Crouching Pygmy Ep 29: The Pyg Chill Ep 30: Great Job Ice Hole Ep 31: What's the Story Morning Gory? Ep 31B: What's the Story Morning Gory? Part II Ep 32: Crack is Wack Ep 33: A Pygmy A Day Keeps the Ape Away Ep 34: Monkey See, Monkey Chew Ep 35: Double Rainbow All The Way Across The Sky Ep 36: Konkey Dong Ep 37: The Moron Pests Ep 38: Two and a Half Pygmies Ep 39: Challenge of the Gods Ep 40: Battle of the Gods. Ep 41: I Sting The Body Electric Ep 42: Bone Soup Ep 43: Killing Time Ep 44: The Perfect Swarm Ep 45: Dance Dance Execution Ep 46: Germs of Endearment Ep 47: Apocalypse, Ow!",
+      "analysis": {
+        "app_key": "apple:301387274",
+        "summary_ko": "원시 섬의 신이 되어 섬 주민들을 다스리는 에피소드 형식의 마이크로 게임입니다. 플레이어는 중력 조절, 번개 소환 등 다양한 신의 권능을 사용하여 주민들과 상호작용할 수 있습니다. 사용자들의 제안을 반영하여 지속적으로 에피소드가 추가되는 것이 특징입니다.",
+        "features_ko": [
+          "섬 주민들을 대상으로 다양한 신의 권능을 행사합니다.",
+          "중력 조절, 번개 소환 등 물리 기반의 상호작용을 제공합니다.",
+          "에피소드 형식으로 새로운 콘텐츠가 지속적으로 업데이트됩니다.",
+          "도움말 메뉴를 통해 신의 권능 사용법을 확인할 수 있습니다."
+        ],
+        "noteworthy_ko": "사용자 피드백을 기반으로 에피소드를 확장하는 운영 방식이 매우 흥미롭습니다. 단일 메커니즘을 기반으로 다양한 상황을 연출하는 마이크로 게임의 전형을 보여줍니다.",
+        "development_ko": "물리 엔진을 활용한 상호작용 구현이 핵심입니다. 에피소드별로 새로운 콘텐츠를 추가하기 쉬운 모듈형 구조 설계가 필요하며, 사용자 피드백을 수용할 수 있는 업데이트 파이프라인을 구축해야 합니다. 물리 연산으로 인한 성능 부하를 관리하는 것이 중요합니다.",
+        "idea_ko": "주민들이 신의 행동에 따라 감정을 표현하거나, 섬의 환경이 변화하는 시스템을 추가하면 상호작용의 깊이가 더해질 것입니다.",
+        "highlights_ko": [
+          "물리 엔진을 활용한 자유도 높은 상호작용.",
+          "사용자 제안을 반영한 지속적인 에피소드 확장 구조."
+        ],
+        "systems_ko": [
+          "물리 상호작용 엔진",
+          "캐릭터 AI 및 상태 관리",
+          "에피소드 관리 시스템",
+          "입력 판정 및 제스처 인식",
+          "이벤트 트리거 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진을 활용한 상호작용은 구현이 재미있으나, 다양한 상황을 연출하기 위한 이벤트 설계와 물리 연산 최적화가 필요합니다. 에피소드 확장 구조는 체계적인 관리가 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 물리 상호작용",
+            "기본 신의 권능(예: 들어올리기)",
+            "섬 환경 구성"
+          ],
+          "defer": [
+            "복잡한 에피소드 시스템",
+            "다양한 특수 권능"
+          ],
+          "risks": [
+            "물리 엔진의 예측 불가능한 버그",
+            "콘텐츠 반복으로 인한 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "주민들의 문명 발전",
+            "concept": "신의 권능에 따라 주민들이 도구를 만들거나 집을 짓는 등 문명이 발전하는 모습을 보여줍니다. 신의 행동이 섬의 환경에 영구적인 영향을 미칩니다.",
+            "first_step": "주민의 상태(Idle, Working, Building)를 관리하는 상태 머신 구현."
+          },
+          {
+            "title": "신들의 대결",
+            "concept": "다른 신과 섬의 지배권을 두고 경쟁하는 모드입니다. 서로의 권능을 방해하며 섬을 더 많이 변화시키는 쪽이 승리합니다.",
+            "first_step": "두 명의 플레이어 혹은 AI가 권능을 사용할 수 있는 대칭형 맵 구현."
+          }
+        ],
+        "recommendation_ko": "물리 기반의 상호작용 게임을 만들고 싶다면 좋은 참고 자료입니다. 작은 단위의 콘텐츠를 지속적으로 업데이트하는 운영 방식을 배우기에 적합합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 물리 엔진의 종류, 에피소드 업데이트의 구체적인 기술적 구현 방식, 사용자 피드백 수집 경로 등은 확인되지 않습니다.",
+        "name": "Pocket God",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/pocket-god/id301387274",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-31"
+    },
+    "apple:1255799839": {
+      "app_key": "apple:1255799839",
+      "name": "KFC Korea",
+      "developer": "KFC KOREA Co., Ltd",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/kfc-korea/id1255799839",
+      "data_date": "2026-10-31",
+      "analysed_at": "2026-10-31T05:10:21+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "앱으로 간편하게 만나는 KFC! 원하는 메뉴를 확인하고 앱에서 바로 주문하세요! 주문부터 결제까지 미리하는 징거벨오더와 딜리버리도 편리하게! 주문할 때 마다 쌓이는 커넬포인트로 멤버십 서비스의 혜택까지! KFC의 다양한 쿠폰과 혜택알림 그리고 선불카드까지 정말 쓸데많은 KFC 앱! ■ 쌓을수록 커지는 혜택 KFC 멥버십! KFC 앱을 통해 주문하시면 5천원 당 1점의 커넬포인트가 쌓입니다. 적립된 커넬포인트에 따라 특별한 KFC 멤버십의 혜택을 누리세요. ■ 깔아두면 쏜다! KFC의 쿠폰 / 혜택 알림 Push! KFC앱을 깔아두시면 신제품 출시 및 프로모션에 대한 알림과 함께 다양한 혜택 쿠폰을 수시로 보내드립니다. ■ 복잡한 결제 없이 간편하게 한방에 KFC Pay! 한번 등록으로 맛있는 KFC 메뉴를 한방에 주문하세요. ■ 쓰면 쓸수록 혜택이 커지는 KFC 선불카드! - KFC 선불카드를 충전/결제 하시면 더 큰 혜택을 드립니다. [필수적 접근 권한] 없음 [선택적 접근 권한] 알림: 이벤트 및 공지, 징거벨오더 알림 시 사용 위치 : 현재 위치 자동 수신, 매장찾기 이용 시 사용 카메라 : 선불카드 바코드 스캔 시 사용 마이크 : 고객센터 내 첨부파일 등록 시 사용 ※ 선택적 접근권한 안내 서비스 이용을 위해 권한 허용이 필요합니다. 허용하지 않으셔도 앱 이용은 가능하나 일부 서비스 이용에 제한이 있을 수 있습니다. ※ 유의사항 ※ ．운영체제가 변조된 단말기에서는 서비스 이용이 불가할 수 있습니다. ．3G/LTE에서는 정액요금제에서 용량 초과시 데이터 요금이 부과될 수 있습니다. ．딜리버리 및 매장 주문 서비스 이용시간은 매장별로 상이할 수 있습니다. ．주문관련 취소/오류 시에는 1599-8484 KFC콜센터로 문의 바랍니다.",
+      "analysis": {
+        "app_key": "apple:1255799839",
+        "summary_ko": "KFC Korea 앱은 KFC의 메뉴 주문, 딜리버리, 멤버십 혜택을 제공하는 통합 서비스입니다. 징거벨오더를 통해 미리 주문하고 결제할 수 있으며, 커넬포인트를 적립하여 다양한 혜택을 누릴 수 있습니다. 선불카드 충전 및 결제 기능과 함께 신제품 알림 서비스를 제공합니다.",
+        "features_ko": [
+          "징거벨오더를 통해 매장 방문 전 메뉴를 미리 주문하고 결제할 수 있습니다.",
+          "주문 금액에 따라 커넬포인트를 적립하고 멤버십 혜택을 받을 수 있습니다.",
+          "KFC Pay를 등록하여 복잡한 결제 과정 없이 간편하게 주문할 수 있습니다.",
+          "선불카드를 충전하여 결제 수단으로 활용하고 추가 혜택을 받을 수 있습니다.",
+          "신제품 출시 및 프로모션 정보를 푸시 알림으로 수신할 수 있습니다."
+        ],
+        "noteworthy_ko": "자체 결제 시스템(KFC Pay)과 선불카드 기능을 내장하여 사용자 충성도를 높이는 전략이 돋보입니다. 주문과 멤버십, 결제가 하나의 앱에서 완벽하게 통합된 구조를 보여줍니다.",
+        "development_ko": "안정적인 결제 모듈 연동과 멤버십 포인트 관리 시스템이 핵심입니다. 매장별 주문 처리 상태를 실시간으로 동기화하는 백엔드 설계가 필요합니다. 사용자 위치 기반 매장 찾기 및 푸시 알림 서비스는 필수적인 구현 요소입니다.",
+        "idea_ko": "단골 매장 중심의 간편 주문 및 포인트 적립 앱.",
+        "highlights_ko": [
+          "주문, 결제, 멤버십이 통합된 원스톱 서비스입니다.",
+          "자체 선불카드와 간편 결제 시스템을 통해 사용자 재방문을 유도합니다."
+        ],
+        "systems_ko": [
+          "주문 및 결제 처리 시스템",
+          "멤버십 포인트 적립 및 관리",
+          "선불카드 충전 및 잔액 관리",
+          "위치 기반 매장 찾기",
+          "푸시 알림 서비스"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "결제 시스템과 포인트 시스템의 연동은 복잡하지만, 일반적인 커머스 앱의 표준 기능을 따릅니다. 1인 개발자가 핵심 기능 위주로 구현하기에 적절한 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "메뉴 목록 조회",
+            "장바구니 및 주문",
+            "포인트 적립 기능"
+          ],
+          "defer": [
+            "KFC Pay 간편 결제",
+            "선불카드 충전 시스템",
+            "실시간 매장 상태 동기화"
+          ],
+          "risks": [
+            "결제 시스템 보안",
+            "포인트 데이터 무결성",
+            "서버 부하 관리"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "동네 맛집 스탬프 앱",
+            "concept": "여러 매장의 스탬프를 하나의 앱에서 관리하는 서비스입니다. 종이 쿠폰을 대체하여 사용자 편의성을 높입니다.",
+            "first_step": "매장별 스탬프 적립 및 조회 기능 구현."
+          },
+          {
+            "title": "간편 주문 예약 시스템",
+            "concept": "메뉴를 미리 선택하고 결제하여 대기 시간을 줄이는 앱입니다. 소규모 매장에서도 쉽게 도입할 수 있도록 설계합니다.",
+            "first_step": "메뉴 선택 및 주문 요청 기능 구현."
+          }
+        ],
+        "recommendation_ko": "커머스 앱의 필수 요소인 주문, 결제, 멤버십의 통합 구조를 학습하기에 최적입니다. 특히 사용자 경험을 고려한 결제 흐름 설계 방식을 배우는 것을 추천합니다.",
+        "source_limitations_ko": "자체 결제 시스템(KFC Pay)의 보안 구현 방식이나 포인트 시스템의 백엔드 로직은 확인되지 않습니다. 매장별 주문 처리 시스템의 구체적인 연동 방식도 알 수 없습니다.",
+        "name": "KFC Korea",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/kfc-korea/id1255799839",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 78,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-31"
     }
   }
 }

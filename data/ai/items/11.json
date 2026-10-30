@@ -7591,6 +7591,186 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-30"
+    },
+    "itch:1ec34a0a8f2fb285691a": {
+      "app_key": "itch:1ec34a0a8f2fb285691a",
+      "name": "PONOR [Free] [Adventure] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://bugmega-90s.itch.io/ponor",
+      "data_date": "2026-10-31",
+      "analysed_at": "2026-10-31T05:04:00+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Retro deep-sea submarine survival horror. Navigate the crushing dark abyss.",
+      "analysis": {
+        "app_key": "itch:1ec34a0a8f2fb285691a",
+        "summary_ko": "심해를 배경으로 한 레트로 스타일의 잠수함 생존 공포 게임입니다. 어두운 심해를 탐험하며 생존하는 것이 목표입니다.",
+        "features_ko": [
+          "심해라는 폐쇄적이고 어두운 환경을 배경으로 합니다.",
+          "잠수함을 조종하여 심해를 탐험합니다.",
+          "레트로 스타일의 그래픽을 채택하여 공포 분위기를 조성합니다."
+        ],
+        "noteworthy_ko": "심해라는 소재는 시야 제한을 자연스럽게 유도하여 공포감을 극대화하기 좋습니다. 레트로 스타일은 그래픽 리소스 제작 부담을 줄이면서도 독특한 분위기를 낼 수 있는 전략적 선택으로 보입니다.",
+        "development_ko": "잠수함의 물리 이동 로직과 심해의 압박감을 주는 환경 효과 구현이 핵심입니다. 레트로 스타일을 위한 포스트 프로세싱 효과와 사운드 디자인이 공포의 80%를 차지할 것으로 분석됩니다.",
+        "idea_ko": "잠수함의 산소나 전력을 관리하며 심해 생물로부터 숨는 은신 중심의 게임플레이를 추천합니다.",
+        "highlights_ko": [
+          "심해라는 독특한 공포 배경.",
+          "레트로 스타일의 시각적 연출."
+        ],
+        "systems_ko": [
+          "잠수함 물리 이동 시스템",
+          "시야 제한 및 조명 시스템",
+          "환경 이벤트 트리거",
+          "자원 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "레트로 스타일은 그래픽 제작 부담이 적으나, 잠수함의 물리적 조작감과 심해 분위기를 구현하는 기술적 숙련도가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "잠수함 이동 조작",
+            "어두운 심해 환경 구현",
+            "기본적인 충돌 처리"
+          ],
+          "defer": [
+            "복잡한 심해 생물 AI",
+            "다양한 잠수함 업그레이드"
+          ],
+          "risks": [
+            "조작감의 지루함",
+            "환경의 단조로움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "심해 음파 탐지기",
+            "concept": "시야가 전혀 없는 상태에서 음파 탐지기(소나)의 신호만 보고 지형과 적을 파악해야 하는 게임입니다.",
+            "first_step": "레이캐스트를 이용한 소나 핑 구현 및 시각화."
+          },
+          {
+            "title": "압력 게이지 생존",
+            "concept": "잠수함의 내구도를 관리하며 수압이 강한 구역을 통과해야 하는 퍼즐 요소가 가미된 생존 게임입니다.",
+            "first_step": "수심에 따른 내구도 감소 로직 구현."
+          }
+        ],
+        "recommendation_ko": "레트로 스타일의 공포 게임을 만들고 싶은 개발자에게 추천합니다. 분위기 연출과 사운드 디자인의 중요성을 배우기에 적합합니다.",
+        "source_limitations_ko": "잠수함의 구체적인 조작 방식, 적의 존재 여부, 게임의 승리 조건 등은 확인되지 않습니다.",
+        "name": "PONOR [Free] [Adventure] [Windows]",
+        "source": "itch",
+        "detail_url": "https://bugmega-90s.itch.io/ponor",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 296,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-31"
+    },
+    "google:com.watchfacestudio.samwatch_military_w_2024": {
+      "app_key": "google:com.watchfacestudio.samwatch_military_w_2024",
+      "name": "SamWatch Military W 2024",
+      "developer": "Samtree",
+      "source": "google",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.watchfacestudio.samwatch_military_w_2024&hl=ko&gl=KR",
+      "data_date": "2026-10-31",
+      "analysed_at": "2026-10-31T05:04:57+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "SamWatch 아날로그 디지털 워치 페이스 | Wear OS용 프리미엄 디자인 중요 공지 이 워치 페이스는 One UI 6.0 이상에서만 지원됩니다. 이 앱은 스마트워치 전용으로 설계되었습니다. 호환되는 스마트워치가 없는 사용자는 구매 후 워치 페이스를 사용할 수 없습니다. 워치 페이스 기능 • 프리미엄 아날로그-디지털 디자인 - 전통과 현대적 요소가 결합된 우아한 인터페이스 • 달의 위상 표시 - 정확한 달의 위상을 시각화하여 달의 주기를 추적합니다. • 걸음 수 측정기 - 일일 활동량을 모니터링합니다. • 배터리 상태 - 시계의 배터리 잔량을 추적합니다. • 사용자 정의 가능한 색상 - 다양한 색상 옵션으로 워치 페이스를 개인화합니다. SAMWATCH 설치 가이드 'SamWatch 설치 가이드' 앱은 Wear OS 기기에 워치 페이스를 다운로드하는 데 도움이 되는 보조 애플리케이션입니다. 가이드 앱의 미리보기 스크린샷은 실제 다운로드된 워치 페이스와 다를 수 있습니다. 대부분의 SamWatch 제품에는 스마트폰용 앱이 포함되어 있으며, 'SamWatch 설치 가이드'는 Wear OS 애플리케이션 다운로드만 지원합니다. 추가 정보 이 제품에는 다음과 같은 기능을 제공하는 스마트폰용 추가 애플리케이션이 포함되어 있습니다. • Samtree 공식 웹사이트 접속 • 시계 화면 설치에 대한 자세한 설명 • 시계 화면이 시계에 설치되지 않을 경우 문제 해결 방법 사용 참고 사항 • 기기에 따라 사용자 지정 모드에서 확인 버튼이 나타날 수 있습니다. • 심박수 정보는 시계의 심박수 앱에서 측정한 데이터를 나타냅니다. • 지원되는 언어는 SamWatch 브랜드 이름으로 확인할 수 있습니다. • 이 시계 화면은 SamWatch 아날로그 디지털 밀리터리 컬렉션에 속합니다. 커뮤니티 및 지원 공식 채널을 통해 저희와 소통하세요. • 공식 웹사이트: https://isamtree.com • X: https://x.com/samtree_watch • Galaxy Watch 커뮤니티: http://cafe.naver.com/facebot • Facebook: www.facebook.com/SamtreePage • Telegram: https://t.me/SamWatch_SamTheme • YouTube: https://www.youtube.com/channel/UCobv0SerfG6C5flEngr_Jow • 블로그: https://samtreehome.blogspot.com/ • 한국어 블로그: https://samtree.tistory.com/ ---- 개발자 연락처 : 샘트리 Rm 1310 201 Daegudae-ro, Jillyang-eup 경산시, 경상북도 38453 South Korea 5022948078 2017-경북경산-0007 경산시장",
+      "analysis": {
+        "app_key": "google:com.watchfacestudio.samwatch_military_w_2024",
+        "summary_ko": "SamWatch Military W 2024는 Wear OS 스마트워치를 위한 아날로그-디지털 혼합형 워치 페이스입니다. 밀리터리 디자인을 바탕으로 달의 위상, 걸음 수, 배터리 상태 등 다양한 정보를 시각화합니다. 사용자는 색상을 커스터마이징하여 자신만의 스타일로 워치 페이스를 꾸밀 수 있습니다.",
+        "features_ko": [
+          "전통과 현대가 결합된 밀리터리 스타일의 디자인을 제공합니다.",
+          "현재 달의 위상을 시각적으로 표시합니다.",
+          "일일 걸음 수를 측정하고 모니터링합니다.",
+          "스마트워치의 배터리 잔량을 실시간으로 추적합니다.",
+          "사용자가 원하는 색상으로 인터페이스를 개인화할 수 있습니다."
+        ],
+        "noteworthy_ko": "제한된 스마트워치 화면 공간에 다양한 정보를 효율적으로 배치한 디자인이 돋보입니다. Wear OS의 워치 페이스 개발 프레임워크를 활용하여 배터리 효율과 디자인을 동시에 고려한 점이 개발 관점에서 흥미롭습니다.",
+        "development_ko": "Wear OS 워치 페이스 개발 환경(Watch Face Studio 등)에 대한 이해가 필요합니다. 배터리 소모를 최소화하는 그래픽 렌더링 최적화가 필수적입니다. 다양한 기기 해상도와 화면 크기에 대응하는 반응형 디자인 구현이 중요합니다.",
+        "idea_ko": "사용자의 활동량에 따라 워치 페이스의 디자인이 변하는 '성장형 워치 페이스'를 제안합니다.",
+        "highlights_ko": [
+          "밀리터리 테마의 아날로그-디지털 혼합 디자인.",
+          "사용자 정의 가능한 색상 및 정보 표시 기능."
+        ],
+        "systems_ko": [
+          "Wear OS 워치 페이스 엔진",
+          "센서 데이터 연동(걸음 수)",
+          "배터리 상태 모니터링",
+          "사용자 설정 저장(색상/옵션)",
+          "그래픽 렌더링 최적화"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "워치 페이스 개발 도구를 활용하면 비교적 쉽게 구현할 수 있습니다. 복잡한 로직보다는 디자인과 배터리 효율 최적화가 핵심입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "시간 표시 기능",
+            "배터리 잔량 표시",
+            "기본 디자인 레이아웃"
+          ],
+          "defer": [
+            "달의 위상 표시",
+            "사용자 색상 커스터마이징",
+            "걸음 수 연동"
+          ],
+          "risks": [
+            "배터리 소모 과다",
+            "다양한 워치 기기 호환성 문제",
+            "디자인의 가독성 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "성장형 워치 페이스",
+            "concept": "목표 걸음 수를 달성할 때마다 워치 페이스 속 캐릭터나 배경이 변화하는 게임형 워치 페이스입니다.",
+            "first_step": "걸음 수 데이터를 받아 배경 이미지를 변경하는 간단한 로직 구현."
+          },
+          {
+            "title": "미니멀리스트 워치 페이스",
+            "concept": "시간과 날짜만 표시하는 극도로 단순한 디자인으로, 배터리 효율을 극대화한 워치 페이스입니다.",
+            "first_step": "시간을 텍스트로 표시하는 기본 워치 페이스 구현."
+          }
+        ],
+        "recommendation_ko": "Wear OS 앱 개발을 시작하려는 개발자에게 입문용으로 추천합니다. UI 디자인과 배터리 효율 최적화의 기초를 배우기에 좋습니다.",
+        "source_limitations_ko": "One UI 6.0 이상 호환성이나 구체적인 설치 가이드 앱의 연동 방식은 설명문에 근거가 부족합니다. 실제 워치 페이스의 렌더링 성능은 기기 사양에 따라 다를 수 있습니다.",
+        "name": "SamWatch Military W 2024",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.watchfacestudio.samwatch_military_w_2024&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 186,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 18,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-31"
     }
   }
 }

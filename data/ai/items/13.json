@@ -8017,6 +8017,96 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-30"
+    },
+    "apple:1557392270": {
+      "app_key": "apple:1557392270",
+      "name": "Zen Color - Color By Number",
+      "developer": "Oakever Games",
+      "source": "apple",
+      "country": "US",
+      "category": "game_board",
+      "detail_url": "https://apps.apple.com/us/app/zen-color-color-by-number/id1557392270?uo=2",
+      "data_date": "2026-10-31",
+      "analysed_at": "2026-10-31T05:09:04+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Experience real tranquility with Zen Color, the first coloring game inspired by Zen. Our team is dedicated to providing you with the ultimate relaxing and fulfilling gaming experience. Let go of your worries, forget your stress, and finally put your mind at ease by immersing yourself in the world of Zen coloring. Escape from the daily grind and chaos of life. Open up Zen Color anytime, anywhere, and transport yourself to a place where you can: * Imagine sipping a cup of coffee in the morning, the birds chirping just outside the window, watching golden sunbeams filtering through the trees. * Enjoy a tranquil tea break on the perfect afternoon, where everything feels peaceful and just right. * Transport yourself to a Japanese Zen courtyard, feeling as one with everything around you as you watch the steaming teapot by your side. … Zen Color invites you to breathe life into these realistic pictures and rediscover the long-lost peace and beauty in your heart. With every tap of the color number, Zen Color brings tranquility and relaxation to your fingertips. ZEN COLOR FEATURES INCREDIBLE CALM & RELAXATION * Explore unique Zen-inspired pictures that help clear the fog and focus your mind while giving you a boost of positive energy. * Find your groove and get into the flow while coloring by numbers with relaxing 60bpm background music. * Immerse yourself in the beauty and tranquility of nature, leaving your worries behind to let you unwind. * Sooth anxieties and have fun with the Flow Experience during the coloring process, which includes categories like Calm, Focus, Zen, Affection, Happiness, and more. A LARGE SELECTION of MASTERFUL PAINTINGS * Each picture is carefully crafted by highly talented artists hailing from all corneres of the globe, ensuring content consisting of only the best quality. * Choose from a vast selection of pictures so you can find the perfect painting to suit your style. * Discover scenes such as brilliant natural landscapes, animals of all shapes and sizes, cozy lifestyles, your favorite pets, and more in Zen Color. * Mandalas and geometric patterns can help you find inner peace and harmony, sating your artistic appetite while allowing you to stay focused and spiritually fulfilled. ALSO FEATURING * A distinctive eye-friendly dark mode designed for comfortable coloring at night. * Outstanding app stability, excellent data security, and a user-friendly interface for an exceptional user experience. Zen Color offers everyone’s inner artist a relaxing and peaceful coloring experience in this fast-paced and noisy world. If you're looking to take a break and find inner peace by doing some coloring, look no further than Zen Color. It's the perfect choice when you want to unwind and take some time for yourself. This amazing coloring game can help you reclaim those quiet moments in life for yourself once and for all! Take a 10-minute break to discover inner peace, fulfillment, love, and happiness. It's time to embark on a calm and relaxed journey with Zen Color. Contact us at support@oakevergames.com Terms: https://oakevergames.com/tos.html Privacy: https://oakevergames.com/pp.html EULA: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "analysis": {
+        "app_key": "apple:1557392270",
+        "summary_ko": "Zen Color는 숫자에 맞춰 색을 칠하는 컬러링 게임으로, 사용자에게 평온함과 휴식을 제공하는 데 중점을 둡니다. 자연, 동물, 만다라 등 다양한 테마의 고품질 그림을 제공하며, 명상적인 배경음악과 함께 스트레스를 해소할 수 있습니다. 야간 모드와 같은 사용자 친화적인 기능을 갖추고 있어 언제 어디서나 편안하게 즐길 수 있습니다.",
+        "features_ko": [
+          "숫자별로 색을 선택하여 그림을 완성하는 컬러링 게임 규칙을 제공합니다.",
+          "자연, 동물, 만다라 등 다양한 카테고리의 고품질 그림을 선택할 수 있습니다.",
+          "명상적인 60bpm 배경음악을 통해 집중과 휴식을 돕습니다.",
+          "야간 모드를 지원하여 어두운 환경에서도 눈의 피로 없이 플레이할 수 있습니다.",
+          "사용자 친화적인 인터페이스를 통해 누구나 쉽게 조작할 수 있습니다."
+        ],
+        "noteworthy_ko": "단순한 컬러링 앱에 'Zen(선)'이라는 테마를 입혀 차별화한 사례입니다. 개발 관점에서는 이미지 데이터의 효율적인 관리와 숫자별 영역 분할 알고리즘이 핵심입니다.",
+        "development_ko": "핵심 기술은 벡터 이미지의 영역 분할과 터치 좌표에 따른 색상 채우기 로직입니다. 콘텐츠 제작은 고품질의 일러스트를 수급하는 것이 가장 큰 부담입니다. 테스트 단계에서는 다양한 화면 크기에서의 터치 정확도와 앱의 안정성을 검증하는 것이 중요합니다.",
+        "idea_ko": "사용자가 직접 그린 그림을 숫자 컬러링 도안으로 자동 변환해주는 기능을 추가하여, 자신만의 도안을 공유하는 커뮤니티형 컬러링 앱을 제안합니다.",
+        "highlights_ko": [
+          "Zen 테마를 통해 단순 게임을 넘어 휴식과 명상의 도구로 포지셔닝했습니다.",
+          "고품질 일러스트와 배경음악을 통해 사용자에게 몰입감 있는 경험을 제공합니다."
+        ],
+        "systems_ko": [
+          "이미지 영역 분할 알고리즘",
+          "터치 이벤트 처리 시스템",
+          "데이터베이스(이미지 및 진행 상황)",
+          "오디오 재생 관리 시스템",
+          "UI 테마 관리(다크 모드)"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "게임의 핵심 메커니즘이 단순하여 구현 난도가 낮습니다. 이미지 데이터만 확보된다면 1인 개발로도 충분히 완성도 높은 앱을 만들 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "이미지 불러오기 및 영역 표시",
+            "터치 시 색상 채우기 기능"
+          ],
+          "defer": [
+            "다양한 카테고리 확장",
+            "배경음악 커스터마이징",
+            "소셜 공유 기능"
+          ],
+          "risks": [
+            "저작권 있는 이미지 사용 문제",
+            "단순 반복 플레이로 인한 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "나만의 도안 생성기",
+            "concept": "사진을 찍으면 자동으로 숫자 컬러링 도안으로 변환해주는 기능입니다.",
+            "first_step": "이미지 엣지 검출 및 영역 분할 알고리즘 구현."
+          },
+          {
+            "title": "컬러링 릴레이",
+            "concept": "여러 사람이 한 그림을 나누어 칠하는 협동 컬러링 모드입니다.",
+            "first_step": "실시간 데이터 동기화를 위한 서버 통신 로직 구현."
+          }
+        ],
+        "recommendation_ko": "이미지 처리와 UI/UX 디자인 역량을 키우기에 적합합니다. 단순한 기능을 깊이 있게 다듬어 사용자 경험을 극대화하는 방법을 배우고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "이미지 데이터의 생성 방식이나 저작권 관리 정책은 명시되지 않았습니다. 결제 기능이나 데이터 보안에 대한 상세 정보도 부족합니다.",
+        "name": "Zen Color - Color By Number",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/zen-color-color-by-number/id1557392270?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-10-31"
     }
   }
 }
