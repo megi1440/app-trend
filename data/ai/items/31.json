@@ -9764,6 +9764,175 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-31"
+    },
+    "itch:ec7b4467a340d571a333": {
+      "app_key": "itch:ec7b4467a340d571a333",
+      "name": "Art Gallery 3D [Free] [Other]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://simdev-m.itch.io/art-gallery-3d",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:31:50+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "View Export Frame Visual Works in a 3rd Dimensional Space",
+      "analysis": {
+        "app_key": "itch:ec7b4467a340d571a333",
+        "summary_ko": "3차원 공간에서 시각 예술 작품을 감상할 수 있는 갤러리 시뮬레이션입니다. 사용자는 가상 환경 내에서 전시된 작품들을 관람하며 공간적인 경험을 할 수 있습니다.",
+        "features_ko": [
+          "3D 공간 내에서 시각 예술 작품을 배치하고 관람하는 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "3D 공간을 활용한 전시 경험을 제공한다는 점이 흥미롭습니다. 다만, 구체적인 상호작용 방식이나 작품 로딩 방식은 설명이 부족하여 추정하기 어렵습니다.",
+        "development_ko": "3D 환경 구축을 위한 엔진 활용 능력이 핵심입니다. 작품을 동적으로 불러오는 시스템과 카메라 이동 제어 구현이 필요합니다. 콘텐츠 제작 부담은 전시할 작품의 수와 퀄리티에 따라 달라집니다.",
+        "idea_ko": "특정 테마를 가진 가상 갤러리 공간을 구축하고, 사용자가 작품을 직접 배치해보는 큐레이션 시뮬레이터로 발전시킬 수 있습니다.",
+        "highlights_ko": [
+          "3차원 공간을 활용한 시각적 전시 경험을 제공합니다."
+        ],
+        "systems_ko": [
+          "3D 렌더링 및 환경 구축",
+          "카메라 이동 및 시점 제어",
+          "이미지/에셋 로딩 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "3D 공간 구현 및 카메라 제어는 표준적인 기술이지만, 갤러리 환경의 최적화와 사용자 경험 설계가 중요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 3D 갤러리 룸",
+            "작품 이미지 텍스처 매핑",
+            "1인칭 카메라 이동"
+          ],
+          "defer": [
+            "멀티플레이어 관람",
+            "작품 업로드 및 관리 시스템"
+          ],
+          "risks": [
+            "다양한 이미지 포맷 지원 문제",
+            "3D 공간 내 프레임 드랍"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "나만의 가상 큐레이터",
+            "concept": "사용자가 자신의 사진첩에서 사진을 골라 갤러리에 배치하고 전시회를 여는 게임입니다. 관람객의 반응을 점수로 환산하는 요소를 추가할 수 있습니다.",
+            "first_step": "단일 방에 사진을 벽에 걸고 클릭하여 확대하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "3D 공간 내에서 객체를 배치하고 상호작용하는 기초적인 환경 구축을 연습하기에 적합합니다.",
+        "source_limitations_ko": "작품을 불러오는 방식, 상호작용의 범위, 3D 엔진의 종류 등 구체적인 기술적 사양은 확인되지 않습니다.",
+        "name": "Art Gallery 3D [Free] [Other]",
+        "source": "itch",
+        "detail_url": "https://simdev-m.itch.io/art-gallery-3d",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 305,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
+    },
+    "google:heartratemonitor.heartrate.pulse.pulseapp": {
+      "app_key": "google:heartratemonitor.heartrate.pulse.pulseapp",
+      "name": "Heart Rate Monitor - Pulse App",
+      "developer": "QR Code Scanner.",
+      "source": "google",
+      "country": "US",
+      "category": "app_health_fitness",
+      "detail_url": "https://play.google.com/store/apps/details?id=heartratemonitor.heartrate.pulse.pulseapp&hl=en&gl=US",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:35:31+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Welcome to the Heart Rate Monitor—your go-to free heart rate & pulse monitor app for easy wellness tracking! Heart Rate Monitor is here to help you understand your heart using your smartphone camera with Photoplethysmography (PPG). Heart Rate Monitor will help you: 👆Measure Heart Rate This heart rate checker uses PPG technology, which estimate your heart rate by detecting changes in fingertip color through light-based sensors. 📝Health Logging at Hand Hassle-free for logging your health data. Easily log your blood sugar and blood pressure. Also, keep track of your heart rate and pulse over time. 📈Make Sense of Numbers Heart Rate Monitor provides visuals that simplify your blood pressure, blood sugar, heart rate & pulse readings, transforming raw data into insights. Plus, benefit from insights with our pulse rate checker. Trust our pulse monitor; interpreting your health data has never been easier! 🌟Stress Tracker in Pocket Keep an eye on your stress, anxiety and emotions with Heart Rate Monitor, the ultimate pulse rate checker. Our pulse app tracks your stress levels by measuring your pulse rate and HRV, giving you a clear picture of your emotional well-being daily. 💡Equip Yourself with Knowledge Heart rate monitor & pulse monitor puts a wealth of information at your fingertips! Expert articles and tips will help you learn more about heart health. Learn tips on managing your pulse and using the heart pulse meter effectively. Stay aware, stay healthy! No matter what device you use, our Heart Rate Monitor app is here to serve you. Compatible with Samsung, Redmi, and Motorola devices, our pulse monitor for Android provides accurate pulse measurements at your fingertips. Our free heart rate & pulse monitor app is the perfect solution for anyone looking to take charge of heart health. Heart Rate Monitor, this is the pulse app for you! 📍DISCLAIMER · Heart Rate Monitor should not be used as a medical device in the diagnosis of heart diseases. · Heart Rate Monitor not intended for a medical emergency. Consult your primary care physician if you need any help. · In some devices, Heart Rate Monitor may make the LED flash very hot. - This app is not a medical device and is not intended to diagnose, treat, cure, or prevent any medical condition. Measurements and wellness information are for general informational purposes only. Consult a qualified healthcare professional for medical advice, diagnosis, or treatment.",
+      "analysis": {
+        "app_key": "google:heartratemonitor.heartrate.pulse.pulseapp",
+        "summary_ko": "Heart Rate Monitor는 스마트폰 카메라와 플래시를 활용해 심박수를 측정하는 건강 관리 앱입니다. PPG 기술을 사용하여 손가락 끝의 색 변화를 감지함으로써 심박수와 맥박을 추적합니다. 또한 혈당, 혈압 기록 및 스트레스 수준을 모니터링하여 전반적인 건강 상태를 관리할 수 있습니다.",
+        "features_ko": [
+          "카메라와 플래시를 이용해 PPG 기술로 심박수를 측정합니다.",
+          "혈당 및 혈압 데이터를 수동으로 기록하고 관리합니다.",
+          "심박수와 맥박 데이터를 시각화하여 건강 추이를 보여줍니다.",
+          "심박 변이도(HRV)를 통해 스트레스 수준을 추적합니다.",
+          "심장 건강 관리에 관한 전문가 기사와 팁을 제공합니다."
+        ],
+        "noteworthy_ko": "카메라 센서를 활용한 생체 신호 측정은 하드웨어 제어 기술이 핵심입니다. 사용자의 건강 데이터를 시각화하여 인사이트를 제공하는 방식은 헬스케어 앱의 표준적인 접근 방식을 잘 보여줍니다.",
+        "development_ko": "핵심 기술은 카메라 프레임 분석을 통한 PPG 신호 처리입니다. 콘텐츠 제작 부담은 건강 관련 정보 수집에 있으며, 테스트 부담은 다양한 기기의 카메라 성능과 플래시 발열 제어에 있습니다. 의료 기기가 아님을 명시하는 법적 고지 사항 구현이 필수적입니다.",
+        "idea_ko": "측정된 심박수 데이터를 기반으로 사용자의 현재 기분 상태를 추측하여 그에 맞는 음악이나 명상 가이드를 추천하는 기능이 적합합니다.",
+        "highlights_ko": [
+          "카메라 센서를 활용한 비침습적 심박수 측정 기술.",
+          "다양한 건강 지표를 통합 관리하고 시각화하는 대시보드."
+        ],
+        "systems_ko": [
+          "카메라 프레임 캡처 및 이미지 처리",
+          "PPG 신호 분석 알고리즘",
+          "건강 데이터베이스 관리",
+          "데이터 시각화(차트) 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "카메라를 통한 생체 신호 측정은 기기마다 성능 차이가 커서 정확도를 확보하기 매우 어렵습니다. 또한 의료 관련 앱은 법적 책임과 보안 문제가 중요하여 개인 개발자가 다루기에 위험 요소가 많습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카메라 기반 심박수 측정 로직",
+            "측정 결과 저장 및 기록",
+            "의료 면책 고지 UI"
+          ],
+          "defer": [
+            "혈당/혈압 기록 기능",
+            "전문가 기사 제공",
+            "스트레스 분석(HRV)"
+          ],
+          "risks": [
+            "측정 정확도 부족으로 인한 사용자 불신",
+            "카메라 플래시 장시간 사용 시 기기 발열 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "심박수 기반 운동 페이스메이커",
+            "concept": "운동 중 실시간 심박수를 측정하여 목표 심박수를 유지하도록 음성으로 가이드합니다.",
+            "first_step": "실시간 심박수 측정 기능을 구현하고 특정 수치 도달 시 알림을 보냅니다."
+          },
+          {
+            "title": "수면 상태 추적기",
+            "concept": "잠들기 전 심박수를 측정하여 수면의 질을 예측하고 아침에 리포트를 제공합니다.",
+            "first_step": "측정 데이터를 시간대별로 저장하고 통계를 내는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "하드웨어 센서 제어와 데이터 시각화에 관심 있는 개발자에게 추천합니다. 다만, 의료 관련 앱은 정확도와 법적 책임이 따르므로 신중한 접근이 필요합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 데이터 보안, 개인정보 보호 정책, 의료 기기 인증 여부 등은 확인되지 않았습니다. 측정값의 정확도는 검증되지 않았으며 실제 의료용으로 사용할 수 없습니다.",
+        "name": "Heart Rate Monitor - Pulse App",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=heartratemonitor.heartrate.pulse.pulseapp&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
     }
   }
 }

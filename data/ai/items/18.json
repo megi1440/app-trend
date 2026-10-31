@@ -7969,6 +7969,179 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-31"
+    },
+    "itch:9979dbc4a23816a691de": {
+      "app_key": "itch:9979dbc4a23816a691de",
+      "name": "Genesis Remastered [Free] [Role Playing] [Windows] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://genesisremastered.itch.io/genesis-remastered",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:31:50+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "The legendary text MUD, evolved: atmospheric audio, stylish visuals and modern controls.",
+      "analysis": {
+        "app_key": "itch:9979dbc4a23816a691de",
+        "summary_ko": "전설적인 텍스트 기반 MUD 게임을 현대적으로 재해석한 작품입니다. 분위기 있는 오디오와 세련된 시각 요소, 현대적인 조작 방식을 도입했습니다.",
+        "features_ko": [
+          "텍스트 기반의 고전적인 게임 플레이를 제공합니다.",
+          "분위기를 조성하는 사운드 디자인을 포함합니다.",
+          "현대적인 사용자 인터페이스와 조작 방식을 지원합니다."
+        ],
+        "noteworthy_ko": "고전적인 텍스트 게임을 현대적인 감각으로 리메이크하는 시도가 돋보입니다. 텍스트와 시각/청각 요소의 조화가 사용자 경험의 핵심일 것으로 추정됩니다.",
+        "development_ko": "텍스트 파싱 엔진과 이를 시각화하는 UI 시스템 구현이 핵심입니다. 분위기를 조성하는 사운드 에셋 제작과 텍스트 기반의 서사 구성이 큰 비중을 차지합니다.",
+        "idea_ko": "텍스트 게임의 서사적 깊이를 유지하면서, 플레이어의 선택이 실시간으로 시각적 환경을 변화시키는 인터랙티브 소설 형태가 적합합니다.",
+        "highlights_ko": [
+          "고전 MUD의 현대적 리메이크.",
+          "몰입감을 높이는 사운드와 시각적 요소의 결합."
+        ],
+        "systems_ko": [
+          "텍스트 파서 및 이벤트 시스템",
+          "오디오 관리 시스템",
+          "현대적 UI 프레임워크",
+          "데이터 기반 서사 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "텍스트 기반의 방대한 서사를 관리하고, 이를 현대적인 시각/청각 요소와 동기화하는 작업은 상당한 기획과 구현 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "텍스트 출력 및 입력 시스템",
+            "기본 사운드 재생",
+            "메뉴 UI"
+          ],
+          "defer": [
+            "멀티플레이어 기능",
+            "복잡한 그래픽 애니메이션"
+          ],
+          "risks": [
+            "텍스트 기반 게임의 지루함 해소",
+            "방대한 텍스트 데이터 관리"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "사운드 스케이프 소설",
+            "concept": "텍스트를 읽는 동안 배경음과 효과음이 실시간으로 변하는 인터랙티브 소설입니다. 플레이어의 선택에 따라 사운드 테마가 바뀝니다.",
+            "first_step": "텍스트 출력 시 특정 키워드에 반응하여 배경음이 바뀌는 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "텍스트 기반의 서사 중심 게임을 현대적인 UI/UX로 어떻게 개선할지 고민하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "구체적인 게임 메커니즘, 멀티플레이어 지원 여부, 텍스트 엔진의 상세 구현 방식은 확인되지 않습니다.",
+        "name": "Genesis Remastered [Free] [Role Playing] [Windows] [Linux]",
+        "source": "itch",
+        "detail_url": "https://genesisremastered.itch.io/genesis-remastered",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 293,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
+    },
+    "google:com.health.rate.blood.sugar.snew": {
+      "app_key": "google:com.health.rate.blood.sugar.snew",
+      "name": "心拍数と健康記録",
+      "developer": "One Cleaner Dev",
+      "source": "google",
+      "country": "JP",
+      "category": "app_health_fitness",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.health.rate.blood.sugar.snew&hl=ja&gl=JP",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:34:31+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "専用のヘルスケアツールで、個人の健康指標をひとつの簡潔な空間で記録・整理しましょう。シンプルで継続的な毎日の使用に最適化されたこのアプリは、主要な健康データの記録、モニタリング、明確な概要の作成をサポートし、長期的な健康習慣を支えます。 🌟主な機能 • 血圧、心拍数、血糖値、コレステロール値を経時的に記録・追跡 • 身長と体重を記録し、自動計算されるBMIで身体指標を継続的に管理 • 毎日の歩数や気分の変化を記録し、健康状態を総合的に把握 • 定期的な記録を促すカスタムリマインダーを設定 • 各健康記録にメモを追加して、より詳しい情報を残せる • 直感的なグラフとトレンドデータで、指標の経時的変化を確認 👀継続的な記録が重要な理由 健康指標の完全な時系列記録を維持することで、健康維持のための信頼できる基盤ができます。定期的な記録は日々の健康変化に気づく助けとなり、医療従事者との明確で的確なコミュニケーションをサポートします。継続的な記録習慣を身につけることは、個人の健康目標の達成にも役立ちます。 ✅免責事項 このアプリは記録・追跡・情報提供のみを目的としています。医療アドバイス、診断、治療を提供するものではありません。健康に関する決定、健康習慣の変更、または医療上の懸念事項については、必ず資格を有する医療専門家にご相談ください。 📧 お問い合わせ: onecleanerdev@gmail.com",
+      "analysis": {
+        "app_key": "google:com.health.rate.blood.sugar.snew",
+        "summary_ko": "이 앱은 혈압, 심박수, 혈당, 콜레스테롤 등 개인의 주요 건강 지표를 한곳에서 기록하고 관리하는 헬스케어 도구입니다. 체중과 신장을 기반으로 BMI를 자동 계산하며, 일일 활동과 기분을 기록할 수 있습니다. 직관적인 그래프를 통해 건강 상태의 변화 추이를 장기적으로 파악할 수 있습니다.",
+        "features_ko": [
+          "혈압, 심박수, 혈당, 콜레스테롤 등 다양한 건강 지표를 시계열로 기록합니다.",
+          "신장과 체중을 입력하면 BMI를 자동으로 계산하여 관리합니다.",
+          "매일의 걸음 수와 기분 변화를 기록하여 종합적인 건강 상태를 추적합니다.",
+          "기록을 잊지 않도록 사용자 맞춤형 알림을 설정할 수 있습니다.",
+          "각 기록에 메모를 추가하여 상세한 상황을 남길 수 있습니다."
+        ],
+        "noteworthy_ko": "단순 기록을 넘어 건강 지표의 상관관계를 시각화하는 점이 흥미롭습니다. 사용자가 지속적으로 데이터를 입력하게 만드는 리마인더 시스템이 개발 관점에서 핵심적인 요소로 보입니다.",
+        "development_ko": "데이터 저장 및 시각화 기술이 핵심입니다. 콘텐츠 제작 부담은 적으나, 사용자가 입력한 데이터를 안전하게 관리하는 보안 설계와 직관적인 그래프 UI 구현에 집중해야 합니다.",
+        "idea_ko": "기록된 건강 데이터를 기반으로 사용자의 건강 상태 변화를 요약해 주는 리포트 생성 기능이 유용할 것입니다.",
+        "highlights_ko": [
+          "다양한 건강 지표를 하나의 공간에서 통합 관리.",
+          "그래프와 트렌드 데이터를 통한 직관적인 변화 확인."
+        ],
+        "systems_ko": [
+          "사용자 데이터 로컬/클라우드 저장 시스템",
+          "데이터 시각화(그래프) 엔진",
+          "알림 스케줄러",
+          "데이터 입력 및 메모 관리 UI"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "데이터베이스 설계와 그래프 라이브러리 활용이 핵심이며, 복잡한 알고리즘보다는 사용자 인터페이스의 편의성이 중요하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "건강 지표 입력 폼",
+            "데이터 저장소(SQLite 등)",
+            "기본 그래프 시각화"
+          ],
+          "defer": [
+            "기분 기록 기능",
+            "데이터 내보내기/가져오기",
+            "사용자 계정 동기화"
+          ],
+          "risks": [
+            "데이터 입력의 번거로움으로 인한 사용자 이탈",
+            "개인 건강 정보 보안 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "건강 패턴 분석기",
+            "concept": "기록된 데이터와 날씨, 수면 시간 등을 연동하여 건강 지표 변화의 원인을 분석합니다. 사용자가 자신의 건강 패턴을 이해하도록 돕습니다.",
+            "first_step": "기록된 데이터와 외부 요인(날씨 등)을 매칭하는 간단한 상관관계 분석 로직 구현."
+          },
+          {
+            "title": "가족 건강 공유함",
+            "concept": "가족 구성원이 서로의 건강 기록을 공유하여 비상시 대응하거나 안부를 확인합니다. 고령층 부모님을 둔 사용자에게 유용합니다.",
+            "first_step": "데이터 공유를 위한 간단한 서버-클라이언트 통신 구조 설계."
+          }
+        ],
+        "recommendation_ko": "데이터 관리 앱의 기초를 다지고 싶은 개발자에게 추천합니다. CRUD(생성, 읽기, 업데이트, 삭제)와 데이터 시각화 기술을 익히기에 적합합니다.",
+        "source_limitations_ko": "의료 기기와의 연동 여부나 데이터 보안 정책에 대한 구체적인 정보는 없습니다. 의료적 진단이나 치료 기능을 포함하지 않으므로 주의가 필요합니다.",
+        "name": "心拍数と健康記録",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.health.rate.blood.sugar.snew&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
     }
   }
 }

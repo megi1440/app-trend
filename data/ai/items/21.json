@@ -9147,6 +9147,96 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-30"
+    },
+    "google:com.FireproofStudios.TheRoom4": {
+      "app_key": "google:com.FireproofStudios.TheRoom4",
+      "name": "The Room: Old Sins",
+      "developer": "Fireproof Games",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.FireproofStudios.TheRoom4&hl=en&gl=US",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:33:09+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Enter The Room: Old Sins and be transported to a place where tactile exploration meets challenging puzzles and a captivating story. The sudden disappearance of an ambitious engineer and his high-society wife provokes the hunt for a precious artefact. The trail leads to the attic of their home, and the discovery of an old, peculiar dollhouse… Explore unsettling locations, follow obscure clues and manipulate bizarre contraptions as you uncover the mysteries within Waldegrave Manor. THE ULTIMATE PUZZLE BOX Explore a deviously complex dollhouse which transforms at your fingertips. Each intricate room is a portal to a new, stunning environment. PICK-UP-AND-PLAY DESIGN Easy to begin yet hard to put down, enjoy a unique mix of intriguing puzzles with a simple user interface. INTUITIVE TOUCH CONTROLS A tactile experience so natural you can almost feel the surface of each object. INTRICATE OBJECTS Examine dozens of detailed objects to discover which of them conceal hidden mechanisms. ATMOSPHERIC AUDIO A haunting soundtrack coupled with dynamic sound effects create an unforgettable soundscape. CLOUD SAVE SUPPORTED Share your progress between multiple devices and unlock achievements. MULTI LANGUAGE SUPPORT Available in English, French, Italian, German, Spanish, Brazilian Portuguese, Turkish and Russian. Fireproof Games is an independent studio from Guildford, United Kingdom. Find out more at fireproofgames.com Follow us @Fireproof_Games Find us on Facebook",
+      "analysis": {
+        "app_key": "google:com.FireproofStudios.TheRoom4",
+        "summary_ko": "The Room: Old Sins는 미스터리한 인형의 집을 탐험하며 복잡한 퍼즐을 해결하는 3D 퍼즐 게임입니다. 플레이어는 저택의 다락방에서 발견된 인형의 집 속 숨겨진 기계 장치를 조작하며 이야기를 풀어나갑니다. 직관적인 터치 컨트롤과 몰입감 넘치는 사운드가 특징입니다.",
+        "features_ko": [
+          "인형의 집 내부를 탐험하며 숨겨진 기계 장치를 조작합니다.",
+          "터치 기반의 직관적인 조작으로 사물을 세밀하게 관찰할 수 있습니다.",
+          "복잡하게 얽힌 퍼즐을 해결하여 다음 구역으로 이동합니다.",
+          "분위기 있는 사운드트랙과 효과음으로 몰입감을 극대화합니다."
+        ],
+        "noteworthy_ko": "사물을 확대하고 회전하며 기믹을 푸는 '택타일(촉각적) 탐험'이 매우 정교합니다. 단순한 퍼즐을 넘어 공간 전체가 하나의 거대한 퍼즐 박스처럼 작동하는 설계가 개발 관점에서 매우 흥미롭습니다.",
+        "development_ko": "고품질 3D 그래픽과 물리 기반의 상호작용 구현이 핵심입니다. 복잡한 기계 장치의 애니메이션과 퍼즐 로직을 연결하는 스크립트 작업이 매우 방대합니다. 분위기를 조성하기 위한 조명과 사운드 디자인의 비중이 매우 높습니다.",
+        "idea_ko": "현실의 사물을 스마트폰 카메라로 비추면 그 안에 숨겨진 가상의 기계 장치가 나타나는 'AR 퍼즐 박스' 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "인형의 집이라는 공간을 활용한 독창적인 퍼즐 구성이 돋보입니다.",
+          "자연스러운 터치 컨트롤을 통해 실제 사물을 만지는 듯한 경험을 제공합니다."
+        ],
+        "systems_ko": [
+          "3D 객체 상호작용 및 조작 시스템",
+          "퍼즐 기믹 상태 관리 시스템",
+          "카메라 제어 및 시점 전환 시스템",
+          "오디오 매니저",
+          "세이브/로드 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "고품질 3D 모델링과 정교한 애니메이션, 복잡한 퍼즐 로직을 1인이 모두 구현하는 것은 매우 어렵습니다. 특히 퍼즐의 논리적 흐름을 설계하는 기획력이 크게 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "객체 회전 및 확대 기능",
+            "기본적인 퍼즐 기믹(열쇠, 레버 등)",
+            "단일 방(Room) 환경"
+          ],
+          "defer": [
+            "복잡한 스토리 연출",
+            "다양한 환경 변화",
+            "클라우드 세이브"
+          ],
+          "risks": [
+            "3D 그래픽 리소스 제작의 높은 진입장벽",
+            "퍼즐의 난이도 조절 실패 시 사용자 경험 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "AR 퍼즐 박스",
+            "concept": "실제 공간에 가상의 퍼즐 박스를 배치하고, 기기를 움직여 박스의 뒷면이나 밑면을 확인하며 퍼즐을 풉니다.",
+            "first_step": "ARCore/ARKit을 사용하여 3D 모델을 바닥에 배치하는 기본 기능 구현."
+          },
+          {
+            "title": "사운드 퍼즐",
+            "concept": "시각적 단서 대신 소리의 높낮이나 리듬을 듣고 기계 장치를 조작하여 퍼즐을 해결합니다.",
+            "first_step": "특정 주파수의 소리를 감지하여 오브젝트를 반응시키는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "3D 게임 개발의 정점인 '상호작용 설계'를 배우기에 최고의 교본입니다. 다만 1인 개발자라면 전체를 복제하기보다, 특정 기믹 하나를 완벽하게 구현하는 방식의 학습을 추천합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 퍼즐 로직의 구체적인 구현 방식이나, 3D 엔진의 최적화 기법은 알 수 없습니다. 게임 내 스토리의 분기점이나 데이터 관리 방식은 검증이 필요합니다.",
+        "name": "The Room: Old Sins",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.FireproofStudios.TheRoom4&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 183,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
     }
   }
 }

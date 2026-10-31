@@ -9691,6 +9691,180 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-31"
+    },
+    "itch:95f6a3070a2cd9192f6e": {
+      "app_key": "itch:95f6a3070a2cd9192f6e",
+      "name": "Valko's sweet hunt [Free] [Other] [Windows] [Android]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://adewantsgame.itch.io/valkos-sweet-hunt",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:29:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "LADS fangame for the goodest boy ever Valko",
+      "analysis": {
+        "app_key": "itch:95f6a3070a2cd9192f6e",
+        "summary_ko": "이 게임은 Valko라는 캐릭터를 주인공으로 한 팬 게임입니다. 윈도우와 안드로이드 환경을 지원하며, 캐릭터를 중심으로 한 수집형 게임으로 추정됩니다.",
+        "features_ko": [
+          "Valko 캐릭터를 활용한 팬 게임입니다.",
+          "윈도우와 안드로이드 멀티 플랫폼을 지원합니다.",
+          "수집 요소를 포함하고 있습니다."
+        ],
+        "noteworthy_ko": "멀티 플랫폼 지원은 개발 초기부터 고려해야 할 중요한 요소입니다. 팬 게임으로서 캐릭터의 매력을 어떻게 게임 플레이로 연결했는지가 개발 관점에서 흥미롭습니다.",
+        "development_ko": "핵심 기술은 멀티 플랫폼 빌드 환경 구축과 터치/마우스 입력 처리입니다. 콘텐츠 제작은 캐릭터의 수집 요소와 관련된 리소스 제작이 주를 이룹니다.",
+        "idea_ko": "캐릭터를 육성하고 상호작용하는 다마고치 스타일의 요소를 추가하는 것을 제안합니다.",
+        "highlights_ko": [
+          "멀티 플랫폼 지원을 통한 접근성 확보.",
+          "캐릭터 중심의 팬 게임 구성."
+        ],
+        "systems_ko": [
+          "입력 처리 시스템(터치/마우스)",
+          "데이터 저장 시스템",
+          "캐릭터 수집 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "멀티 플랫폼 지원을 위한 환경 설정과 입력 처리가 필요하여 단순 게임보다는 구현 난이도가 조금 더 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 캐릭터 이동 및 상호작용",
+            "플랫폼별 입력 최적화"
+          ],
+          "defer": [
+            "복잡한 네트워크 기능",
+            "고해상도 그래픽 리소스"
+          ],
+          "risks": [
+            "플랫폼별 화면 비율 대응 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "캐릭터 육성 일지",
+            "concept": "캐릭터에게 먹이를 주거나 놀아주며 성장시키는 육성 시스템입니다. 수집한 아이템을 캐릭터에게 선물할 수 있습니다.",
+            "first_step": "캐릭터 상태(배고픔, 행복도) 변수와 UI 구현하기."
+          },
+          {
+            "title": "수집 도감 시스템",
+            "concept": "게임 내에서 수집한 아이템이나 캐릭터의 모습을 도감으로 확인합니다. 수집 욕구를 자극하는 보상 체계를 설계합니다.",
+            "first_step": "수집 아이템 리스트를 저장하고 보여주는 UI 만들기."
+          }
+        ],
+        "recommendation_ko": "멀티 플랫폼 게임 개발의 기초를 배우기에 좋습니다. 캐릭터 중심의 게임을 기획하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 장르, 수집 방식, 플랫폼별 최적화 수준 등은 확인되지 않습니다.",
+        "name": "Valko's sweet hunt [Free] [Other] [Windows] [Android]",
+        "source": "itch",
+        "detail_url": "https://adewantsgame.itch.io/valkos-sweet-hunt",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 356,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 8,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
+    },
+    "apple:1543845882": {
+      "app_key": "apple:1543845882",
+      "name": "Bridge Race",
+      "developer": "SUPERSONIC STUDIOS LTD",
+      "source": "apple",
+      "country": "US",
+      "category": "game_action",
+      "detail_url": "https://apps.apple.com/us/app/bridge-race/id1543845882?uo=2",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:34:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Bridge Race is a fun and colorful racing game where you collect blocks, build bridges, and compete against rivals to reach the finish first. Run through each level, pick up blocks of your own color, and use them to build bridges across platforms, gaps, and obstacles. Choose the best path, build smart shortcuts, and stay ahead of the competition. Watch out for other racers! Rivals can steal your blocks, slow you down, and turn the race around in seconds. Keep your stack safe, cross bridges faster, and push toward the final stage. Explore colorful levels filled with fun mechanics like sliders, trampolines, zip-lines, ladders, elevators, and more. Each race brings a new challenge as you stack blocks, cross bridges, and race for victory. If you enjoy runner games, racing games, stacking games, and bridge-building challenges, Bridge Race is easy to play and hard to stop. Collect, build, race, and win!",
+      "analysis": {
+        "app_key": "apple:1543845882",
+        "summary_ko": "Bridge Race는 블록을 수집하여 다리를 건설하고 경쟁자보다 먼저 결승선에 도달하는 레이싱 게임입니다. 플레이어는 자신의 색상에 맞는 블록을 모아 장애물을 건너고, 지름길을 찾아 효율적인 경로를 개척해야 합니다. 경쟁자가 블록을 훔치거나 방해할 수 있어 전략적인 움직임이 중요합니다.",
+        "features_ko": [
+          "자신의 색상에 맞는 블록을 수집하여 플랫폼과 장애물을 건너는 다리를 건설합니다.",
+          "슬라이더, 트램펄린, 짚라인, 사다리, 엘리베이터 등 다양한 기믹이 포함된 레벨을 탐험합니다.",
+          "경쟁자와 실시간으로 레이스를 펼치며 상대의 블록을 훔치거나 방해할 수 있습니다.",
+          "최적의 경로를 선택하고 스마트한 지름길을 만들어 결승선에 먼저 도달해야 합니다."
+        ],
+        "noteworthy_ko": "블록 수집과 다리 건설이라는 단순한 메커니즘을 레이싱 장르와 결합하여 긴장감을 유발하는 점이 흥미롭습니다. 경쟁자의 방해 요소가 게임의 변수로 작용하여 단순 반복을 피하는 구조로 보입니다.",
+        "development_ko": "블록 스택 시스템과 물리 기반의 다리 건설 로직 구현이 핵심입니다. 다양한 레벨 기믹을 배치하는 레벨 디자인과 경쟁 AI의 경로 탐색 알고리즘 제작에 상당한 노력이 필요할 것으로 추정됩니다.",
+        "idea_ko": "블록을 소모하여 다리를 만드는 대신, 특정 지형을 변형하거나 지형지물을 배치하여 길을 만드는 '지형 편집 레이싱' 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "블록 수집과 건설을 결합한 직관적인 게임 루프.",
+          "경쟁자와의 상호작용을 통한 역전 요소."
+        ],
+        "systems_ko": [
+          "블록 수집 및 스택 관리 시스템",
+          "다리 건설 및 물리 충돌 처리",
+          "경쟁자 AI 경로 탐색",
+          "레벨 기믹 트리거 시스템",
+          "게임 상태 관리(승패 판정)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "핵심 메커니즘은 단순하지만, 블록 스택의 물리적 동기화와 경쟁 AI의 자연스러운 움직임을 구현하는 데 기술적 숙련도가 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "블록 수집 및 스택 UI",
+            "다리 건설 로직",
+            "기본 레이싱 트랙"
+          ],
+          "defer": [
+            "복잡한 기믹(짚라인, 엘리베이터)",
+            "멀티플레이어 네트워크"
+          ],
+          "risks": [
+            "블록 스택 물리 연산의 불안정성",
+            "단조로운 게임 플레이 루프"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지형 변형 레이싱",
+            "concept": "블록을 모아 다리를 놓는 대신, 지형을 파내거나 쌓아 길을 만드는 방식입니다. 지형의 높낮이를 조절하여 나만의 경로를 만듭니다.",
+            "first_step": "그리드 기반의 지형 높낮이 조절 프로토타입 구현."
+          },
+          {
+            "title": "협동 건설 레이싱",
+            "concept": "경쟁자가 아닌 팀원과 함께 블록을 모아 거대한 다리를 완성하는 협동 모드입니다. 팀워크를 통해 더 빠르게 결승선에 도달합니다.",
+            "first_step": "여러 플레이어가 하나의 오브젝트에 상호작용하는 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "단순한 메커니즘을 확장하여 게임성을 만드는 방법을 배우기에 좋습니다. 물리 엔진을 활용한 오브젝트 상호작용 학습에 추천합니다.",
+        "source_limitations_ko": "멀티플레이어 구현 방식(로컬/온라인), 물리 엔진의 종류, 수익 모델(광고/인앱 결제)에 대한 구체적인 정보는 확인되지 않습니다.",
+        "name": "Bridge Race",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/bridge-race/id1543845882?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
     }
   }
 }

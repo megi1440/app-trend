@@ -9857,6 +9857,93 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-31"
+    },
+    "itch:7094034a1067b724cbc7": {
+      "app_key": "itch:7094034a1067b724cbc7",
+      "name": "Stego in my Spotlight [Free] [Visual Novel] [Windows] [macOS] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://yaboibrainz.itch.io/stego-in-my-spotlight",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:29:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A visual novel about love, pride, and a dino girl.",
+      "analysis": {
+        "app_key": "itch:7094034a1067b724cbc7",
+        "summary_ko": "사랑과 자부심, 그리고 공룡 소녀를 주제로 한 비주얼 노벨입니다. 플레이어는 서사를 따라가며 캐릭터 간의 관계를 경험하게 됩니다.",
+        "features_ko": [
+          "텍스트 기반의 서사 중심 게임플레이를 제공합니다.",
+          "공룡 소녀 캐릭터를 중심으로 한 스토리라인이 전개됩니다."
+        ],
+        "noteworthy_ko": "특정 캐릭터(공룡 소녀)를 중심으로 한 서사가 핵심입니다. 캐릭터 디자인과 대사 중심의 연출이 개발의 주된 요소일 것으로 추정됩니다.",
+        "development_ko": "비주얼 노벨 엔진(Ren'Py 등)을 활용하면 구현이 용이합니다. 캐릭터 아트와 배경 이미지 제작이 콘텐츠의 대부분을 차지하며, 텍스트 분량에 따른 스크립트 관리가 중요합니다.",
+        "idea_ko": "공룡 소녀와의 대화 선택지에 따라 엔딩이 달라지는 멀티 엔딩 시스템을 도입하는 것이 가장 적합합니다.",
+        "highlights_ko": [
+          "공룡 소녀라는 독특한 캐릭터 컨셉을 활용합니다.",
+          "사랑과 자부심이라는 감정적 테마를 다룹니다."
+        ],
+        "systems_ko": [
+          "대화창 및 텍스트 출력 시스템",
+          "선택지 분기 시스템",
+          "이미지 및 배경 전환 시스템",
+          "세이브/로드 데이터 관리"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "비주얼 노벨은 엔진의 기본 기능을 활용하면 프로그래밍 난이도가 낮습니다. 아트 리소스 제작에 집중하면 1인 개발로 충분히 완성 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 대화 출력 기능",
+            "캐릭터 스프라이트 표시",
+            "선택지 분기 기능"
+          ],
+          "defer": [
+            "복잡한 애니메이션 효과",
+            "다국어 지원"
+          ],
+          "risks": [
+            "스토리 집필의 시간 소요",
+            "아트 리소스의 일관성 유지"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "공룡 도감 수집",
+            "concept": "대화 중 특정 키워드를 찾아 공룡 정보를 수집하는 시스템입니다. 수집한 정보는 이후 대화에서 새로운 선택지를 엽니다.",
+            "first_step": "대화창에서 특정 단어를 클릭하면 도감에 기록되는 기능을 구현합니다."
+          },
+          {
+            "title": "감정 상태 변화",
+            "concept": "선택지에 따라 캐릭터의 감정 수치가 변하며, 이에 따라 배경음악이나 화면 필터가 실시간으로 바뀝니다.",
+            "first_step": "변수값에 따라 배경 이미지가 변경되는 간단한 스크립트를 작성합니다."
+          }
+        ],
+        "recommendation_ko": "스토리텔링과 캐릭터 중심의 게임을 만들고 싶은 초보 개발자에게 추천합니다. 엔진 활용법과 서사 구조를 익히기에 적합합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 게임 플레이 방식, 분기점의 개수, 아트 스타일 등을 확인할 수 없습니다. 실제 구현 시 필요한 시스템은 추정치입니다.",
+        "name": "Stego in my Spotlight [Free] [Visual Novel] [Windows] [macOS] [Linux]",
+        "source": "itch",
+        "detail_url": "https://yaboibrainz.itch.io/stego-in-my-spotlight",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 353,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 9,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
     }
   }
 }

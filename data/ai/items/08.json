@@ -10383,6 +10383,92 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-31"
+    },
+    "google:software.update.updatesofware": {
+      "app_key": "google:software.update.updatesofware",
+      "name": "소프트웨어 업데이트: 앱 업데이트",
+      "developer": "SaverHub Apps",
+      "source": "google",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=software.update.updatesofware&hl=ko&gl=KR",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:34:10+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "스마트폰을 원활하고 안전하게 유지하려면 정기적인 관리가 필요합니다. '소프트웨어 업데이트: 앱 업데이트'는 설치된 애플리케이션과 시스템의 최신 업데이트 상태를 손쉽게 확인할 수 있도록 도와주는 유용한 도구입니다. 구버전을 방치하면 새로운 기능과 보안 패치를 놓칠 수 있습니다. 이 앱을 통해 기기 상태를 정돈하고 필요한 업데이트를 빠르게 파악해보세요. 주요 기능 • 앱 스캔: 설치된 앱의 업데이트 대기 상태를 확인. • 시스템 점검: 안드로이드 OS 관련 소프트웨어 정보 지원. • 직관적 인터페이스: 누구나 쉽게 사용할 수 있는 깔끔한 디자인. • 상세 정보 확인: 버전 번호 및 패키지 정보를 한눈에 파악. 언제나 최적의 스마트폰 컨디션을 유지하세요. 지금 '소프트웨어 업데이트: 앱 업데이트'를 다운로드하여 간편하게 기기를 관리해보세요!",
+      "analysis": {
+        "app_key": "google:software.update.updatesofware",
+        "summary_ko": "설치된 앱과 시스템의 업데이트 상태를 확인하고 관리하는 도구 앱입니다. 사용자가 구버전 앱을 방치하지 않도록 도와 기기 성능과 보안을 최적화합니다. 직관적인 인터페이스를 통해 앱 버전과 패키지 정보를 쉽게 파악할 수 있습니다.",
+        "features_ko": [
+          "설치된 애플리케이션의 업데이트 대기 상태를 스캔합니다.",
+          "안드로이드 OS 관련 소프트웨어 정보를 확인합니다.",
+          "앱의 버전 번호 및 패키지 정보를 상세히 표시합니다."
+        ],
+        "noteworthy_ko": "사용자의 기기 관리 편의성을 높이는 유틸리티 앱으로, OS의 패키지 매니저 API 활용 능력이 중요합니다. 앱의 업데이트 여부를 판단하는 로직이 핵심 기능으로 추정됩니다.",
+        "development_ko": "안드로이드 시스템 API를 활용하여 설치된 앱 목록과 버전 정보를 가져오는 것이 핵심입니다. UI는 정보를 명확하게 보여주는 리스트 형태가 적합하며, 복잡한 로직보다는 데이터 가독성이 중요합니다. 보안 관련 기능은 OS 권한 정책을 준수해야 합니다.",
+        "idea_ko": "업데이트가 필요한 앱을 한 번에 일괄 업데이트하거나, 특정 앱의 업데이트 알림을 설정하는 기능을 추가하여 사용자 편의성을 높일 수 있습니다.",
+        "highlights_ko": [
+          "간편한 스캔: 설치된 앱의 상태를 빠르게 파악할 수 있습니다.",
+          "직관적 디자인: 복잡한 설정 없이 누구나 쉽게 사용할 수 있습니다."
+        ],
+        "systems_ko": [
+          "앱 패키지 스캔 시스템",
+          "버전 정보 비교 로직",
+          "UI 리스트 뷰",
+          "시스템 정보 호출 API"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "OS에서 제공하는 기본 API를 호출하여 정보를 표시하는 수준이므로 구현 난이도가 낮습니다. 다만, 최신 안드로이드 버전의 보안 정책에 따른 권한 관리가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "설치된 앱 목록 불러오기",
+            "앱 버전 정보 표시 기능"
+          ],
+          "defer": [
+            "자동 업데이트 실행 기능",
+            "시스템 최적화 도구"
+          ],
+          "risks": [
+            "OS 보안 정책 변경으로 인한 정보 접근 제한",
+            "스토어 정책 위반 가능성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "앱 사용량 분석",
+            "concept": "업데이트 확인과 함께 자주 사용하지 않는 앱을 추천하여 저장 공간을 확보합니다.",
+            "first_step": "앱별 마지막 실행 시간 데이터를 가져오는 기능을 구현합니다."
+          },
+          {
+            "title": "업데이트 알림 서비스",
+            "concept": "특정 앱의 업데이트가 있을 때 푸시 알림을 보내는 기능을 제공합니다.",
+            "first_step": "백그라운드에서 주기적으로 버전 정보를 체크하는 로직을 작성합니다."
+          }
+        ],
+        "recommendation_ko": "안드로이드 시스템 API와 권한 관리 체계를 이해하는 데 적합합니다. 유틸리티 앱 개발의 기초를 다지기에 좋으나, 스토어 정책을 면밀히 검토해야 합니다.",
+        "source_limitations_ko": "실제 업데이트를 수행하는 기술적 방식(스토어 연결 방식 등)이 명시되지 않았으며, 보안 패치 확인의 구체적인 데이터 소스는 확인되지 않습니다.",
+        "name": "소프트웨어 업데이트: 앱 업데이트",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=software.update.updatesofware&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
     }
   }
 }

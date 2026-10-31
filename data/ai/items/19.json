@@ -8702,6 +8702,276 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-31"
+    },
+    "apple:6740383289": {
+      "app_key": "apple:6740383289",
+      "name": "Pyramid Mahjong:Match Tile",
+      "developer": "UniRise Studio",
+      "source": "apple",
+      "country": "US",
+      "category": "game_board",
+      "detail_url": "https://apps.apple.com/us/app/pyramid-mahjong-match-tile/id6740383289?uo=2",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:34:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Step into the enchanting world of Pyramid Mahjong, a captivating mahjong solitaire game meticulously crafted for enthusiasts of both tile - matching puzzles and ancient Egyptian culture. **Who Is It For?** Whether you're a seasoned mahjong player looking for a fresh twist or someone intrigued by the mysteries of ancient Egypt, Pyramid Mahjong offers an engaging experience tailored to your interests. It's especially great for those who enjoy immersive gameplay during their leisure time, be it on a coffee break or a long commute. **How to Play** The gameplay is simple yet addictive. Just match and connect identical tiles on the board. As you progress through the levels, the puzzles become more challenging, testing youår observation and strategic thinking skills. Tiles are set against the backdrop of pyramids, temples, and the Nile, making the matching process not only a mental exercise but also a visual treat. **Exclusive Features** - **Immersive Theme**: Dive deep into the world of ancient Egypt. Explore the mysterious pyramids, majestic temples, and uncover the secrets of the Nile as you solve tile puzzles. The detailed graphics and themed sound effects bring the ancient civilization to life right on your screen. - **Stunning Visuals**: Enjoy beautiful Egyptian - inspired designs, lively animations, and enchanting music that enhance the overall gaming experience. Every tile, every background element is crafted with care to create a visually appealing environment. - **Diverse Levels**: With hundreds of hand - crafted levels, there's always a new challenge waiting for you. Each level is filled with exciting puzzles and surprises, ensuring that the game never gets boring. - **Daily Rewards**: Complete daily tasks, collect treasures, and earn exclusive prizes. It's a great way to keep coming back for more and track your progress in the game. - **User - friendly Interface**: Designed to be easy to navigate on both smartphones and tablets, the interface is intuitive, allowing you to focus on the gameplay without any distractions. Even if you're new to mobile gaming, you'll find Pyramid Mahjong a breeze to play. - **Offline Mode**: Don't worry about losing your connection. Enjoy the game anytime, anywhere, even without Wi - Fi or internet access. Pyramid Mahjong combines the fun of mahjong solitaire with the allure of ancient Egypt, offering a unique and enjoyable gaming experience. Start your amazing journey through the ancient Egyptian world with Pyramid Mahjong now!",
+      "analysis": {
+        "app_key": "apple:6740383289",
+        "summary_ko": "Pyramid Mahjong은 고대 이집트를 테마로 한 마작 솔리테어 퍼즐 게임입니다. 동일한 타일을 찾아 매칭하며 보드를 비우는 방식으로 진행됩니다. 피라미드와 나일강을 배경으로 한 시각적 요소와 다양한 레벨을 제공합니다.",
+        "features_ko": [
+          "보드 위에서 동일한 모양의 타일을 찾아 연결하고 제거하는 마작 솔리테어 규칙을 따릅니다.",
+          "고대 이집트 테마의 그래픽과 사운드 효과를 통해 몰입감을 제공합니다.",
+          "수백 개의 수작업 레벨을 통해 점진적으로 난이도가 상승하는 퍼즐을 제공합니다.",
+          "일일 과제와 보상을 통해 지속적인 플레이 동기를 부여합니다.",
+          "오프라인 모드를 지원하여 인터넷 연결 없이도 게임을 즐길 수 있습니다."
+        ],
+        "noteworthy_ko": "고전적인 마작 솔리테어에 테마를 입혀 시각적 차별화를 꾀한 점이 돋보입니다. 레벨 디자인의 다양성이 게임의 수명을 결정짓는 핵심 요소로 보입니다.",
+        "development_ko": "타일 매칭 로직과 보드 레이아웃 생성 알고리즘이 핵심입니다. 다양한 테마 에셋 제작과 레벨 밸런싱 작업이 주된 업무가 될 것입니다.",
+        "idea_ko": "타일 매칭에 이집트 신화적 요소를 결합하여, 특정 타일 조합 시 특수 효과가 발동하는 '신화 스킬' 시스템이 적합합니다.",
+        "highlights_ko": [
+          "고대 이집트 테마의 일관된 시각적 디자인.",
+          "오프라인 환경 지원을 통한 접근성 확보."
+        ],
+        "systems_ko": [
+          "타일 매칭 알고리즘",
+          "레벨 데이터 관리 시스템",
+          "UI/UX 인터페이스",
+          "보상 및 데이터 저장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "퍼즐 게임의 기본 로직은 구현이 명확하며, 물리 엔진보다는 데이터 구조와 UI 처리가 중심이 되어 1인 개발에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "타일 매칭 로직",
+            "레벨 레이아웃 생성기",
+            "기본 UI"
+          ],
+          "defer": [
+            "일일 과제 시스템",
+            "복잡한 애니메이션 효과"
+          ],
+          "risks": [
+            "레벨 디자인의 반복성으로 인한 지루함",
+            "타일 배치 알고리즘의 풀이 가능성 검증"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "신화 스킬 마작",
+            "concept": "특정 타일을 매칭하면 이집트 신의 힘을 빌려 보드 전체를 섞거나 힌트를 얻는 스킬 시스템입니다.",
+            "first_step": "매칭 시 발동하는 간단한 파티클 효과 구현."
+          },
+          {
+            "title": "타임 어택 마작",
+            "concept": "제한 시간 내에 보드를 모두 비워야 하는 긴박한 모드입니다. 콤보를 이어갈수록 시간이 추가됩니다.",
+            "first_step": "타이머 UI와 게임 오버 로직 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 기반의 퍼즐 게임 구조를 설계하는 법을 배우기에 좋습니다. UI 중심의 개발을 선호하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "타일 배치 알고리즘의 구체적인 생성 방식, 수익 모델, 외부 서비스 연동 여부는 확인되지 않습니다.",
+        "name": "Pyramid Mahjong:Match Tile",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/pyramid-mahjong-match-tile/id6740383289?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
+    },
+    "google:jp.co.world.memberscardapp": {
+      "app_key": "google:jp.co.world.memberscardapp",
+      "name": "ワールド プレミアムクラブ",
+      "developer": "株式会社ワールド　システムサービス部",
+      "source": "google",
+      "country": "JP",
+      "category": "app_lifestyle",
+      "detail_url": "https://play.google.com/store/apps/details?id=jp.co.world.memberscardapp&hl=ja&gl=JP",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:34:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "WORLDアプリ UNTITLED , TAKEO KIKUCHI , SHOO・LA・RUE , OPAQUE.CLIP などアパレルブランドをはじめ 212kitchenstore , LAURAASHLEY などのライフスタイルブランドまで手掛けるWORLDアプリです。 店舗でお買い上げの際に、当アプリの会員証バーコードをご提示いただくと、カードレスでお得にポイントを貯めることができ また毎日更新されるスタッフコーデや、お得な情報も受け取れます。 [WORLDアプリの嬉しい機能] ●会員証機能 店頭でのお買い物の際、当アプリの会員証バーコードをご提示いただくと、次回のお買い物に使えるポイントが貯まります。 財布にポイントカードを入れておかなくても、お手持ちのスマートフォンがあれば、お得にポイントを貯められる便利な機能です。 貯めていただいたポイントは、ワールドグループ約1700店舗やワールド オンラインストアでご利用いただけます。 ポイントをお使いいただくには会員登録が必要になります。 ※すでに、店頭でワールド プレミアムクラブカードをお受け取りいただいているお客様は、当アプリ内にポイントを統合いただける機能がございます。 ●スナップ 店舗スタッフが着こなす最旬コーデが毎日更新され、着用アイテムがアプリからご購入いただけます。 ●プッシュ通知機能 お気に入りブランドやワールド オンラインストアからの最新メッセージが届きます。 プッシュ通知のオン・オフの設定は後からでも変更が出来ます。アプリ内の「よくある質問Q&A」でご確認ください。 ●お得なキャンペーン・クーポン一覧 店舗・ワールド オンラインストアで使えるクーポンや、アプリ会員様の限定キャンペーンも一覧で確認出来ます。 ワールド プレミアムクラブのポイントアップや期間限定の送料無料キャンペーンなどお得な情報が満載です。 ●様々なお気に入り登録ができる ＜お気に入りアイテム＞ 気になったアイテムの詳細ページのハートマークをタップしてお気に入りアイテムを追加すれば、登録したアイテムを一覧で表示できる便利な機能です。 ご購入前の商品比較やあとから価格や在庫状況を再チェックしたいときに便利にご利用いただけます。 ＜お気に入りブランド＞ いつもご利用いただいているブランドをお気に入り登録していただくと、ブランドメルマガが簡単に登録できプッシュ通知でブランドのイベント情報や新着商品情報などをお届けします。 ＜お気に入り店舗＞ 店舗一覧からブランドや都道府県などの検索条件を指定して店舗を探すことができ、いつもご利用いただいている店舗をお気に入り登録していただくと、店舗メルマガ登録が簡単に出来ます。 [既にダウンロード頂いている皆様へ] ログインが出来ない等、アプリが正常に起動しない場合は一度アプリをアンインストールしていただき、再度インストールをお試しください。 ＜アンインストールする際の注意点＞ 会員登録前の「ゲストユーザー」でポイントを貯めている状態のままアンインストールをされますと、ポイントの引継ぎが出来ません。 アンインストールする前に必ず会員登録をお願いいたします。 会員登録する際に何か不具合が生じましたら下記のご利用案内・お問い合わせをご確認ください。 お問い合わせ先＞＞https://store.world.co.jp/help/ 【ご利用上の注意】 ・「WORLD Premium Club」のポイントサービスの詳細については、「デベロッパWEBサイト」に記載しておりますので、あわせてご確認ください。 ・当アプリの各機能・各サービスは通信回線を使用します。 通信回線の状況によっては、ご利用いただけない場合がございます。あらかじめご了承ください。",
+      "analysis": {
+        "app_key": "google:jp.co.world.memberscardapp",
+        "summary_ko": "WORLD 프리미엄 클럽 앱은 의류 및 라이프스타일 브랜드의 통합 멤버십 서비스입니다. 매장에서 바코드를 제시하여 포인트를 적립하고 사용할 수 있으며, 최신 스타일링 정보와 쿠폰, 브랜드 소식을 제공합니다. 온라인 스토어와 연동되어 편리한 쇼핑 경험을 지원합니다.",
+        "features_ko": [
+          "매장에서 사용할 수 있는 디지털 회원증 바코드를 제공하여 포인트를 적립합니다.",
+          "매일 업데이트되는 직원들의 스타일링 정보를 확인하고 관련 상품을 구매할 수 있습니다.",
+          "즐겨찾는 브랜드와 매장을 등록하여 맞춤형 이벤트 및 신상품 알림을 받습니다.",
+          "매장 및 온라인 스토어에서 사용 가능한 쿠폰과 캠페인 정보를 한눈에 확인합니다.",
+          "오프라인 매장과 온라인 스토어 간의 포인트 통합 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "오프라인 매장과 온라인 스토어를 연결하는 O2O(Online to Offline) 서비스의 전형적인 모델입니다. 사용자 편의를 위한 멤버십 통합과 개인화된 정보 제공이 핵심입니다.",
+        "development_ko": "안정적인 회원 데이터베이스 연동과 실시간 포인트 처리 시스템이 핵심입니다. 보안이 중요한 개인정보 관리와 다양한 기기에서의 UI 일관성 유지가 큰 부담입니다.",
+        "idea_ko": "사용자의 구매 이력을 바탕으로 어울리는 코디를 AI가 추천해주는 '개인화 스타일링 큐레이션' 기능이 적합합니다.",
+        "highlights_ko": [
+          "O2O 기반의 통합 멤버십 서비스.",
+          "사용자 맞춤형 브랜드 및 매장 알림 기능."
+        ],
+        "systems_ko": [
+          "회원 인증 및 데이터베이스 연동",
+          "포인트 적립/사용 로직",
+          "푸시 알림 서비스",
+          "상품 및 스타일링 콘텐츠 관리",
+          "쿠폰 및 캠페인 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "개인정보 보호와 결제/포인트 연동 등 보안이 매우 중요하며, 서버 인프라 구축과 안정적인 데이터 동기화가 필수적입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "회원가입 및 로그인",
+            "디지털 회원증 바코드 생성",
+            "기본 쿠폰 목록"
+          ],
+          "defer": [
+            "온라인 스토어 연동",
+            "AI 스타일링 추천"
+          ],
+          "risks": [
+            "개인정보 유출 보안 사고",
+            "서버 장애 시 포인트 적립 불가"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "개인화 스타일링 큐레이션",
+            "concept": "사용자가 구매한 옷을 기반으로 어울리는 다른 상품을 매칭하여 추천해주는 기능입니다.",
+            "first_step": "구매 이력 기반의 간단한 추천 알고리즘 구현."
+          },
+          {
+            "title": "매장 방문 체크인",
+            "concept": "매장 방문 시 GPS나 비콘을 통해 체크인하고 추가 포인트를 받는 기능입니다.",
+            "first_step": "위치 기반 체크인 로직 구현."
+          }
+        ],
+        "recommendation_ko": "실제 비즈니스와 연동되는 서비스 앱의 구조를 배우기에 좋습니다. 보안과 데이터 무결성의 중요성을 체감할 수 있습니다.",
+        "source_limitations_ko": "백엔드 서버 구조, 보안 프로토콜, 결제 시스템 연동 방식, 개인정보 처리 방침 등은 확인되지 않습니다.",
+        "name": "ワールド プレミアムクラブ",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=jp.co.world.memberscardapp&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
+    },
+    "google:com.studiolico.woodenstick": {
+      "app_key": "google:com.studiolico.woodenstick",
+      "name": "99강화 나무몽둥이 키우기 : 나탑농 콜라보",
+      "developer": "STUDIO LICO Corp.",
+      "source": "google",
+      "country": "KR",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.studiolico.woodenstick&hl=ko&gl=KR",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:36:34+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "[나혼자 탑에서 농사]와 만나다! 귀여움까지 풍년의 판타지! 99강화 나무몽둥이 x 나탑농 특별 콜라보! 다양한 이벤트를 참가하고 귀여운 코스튬과 어시스터를 만나보자! 단 5화 만에 네이버 웹툰 1위 달성! 먼치킨! 사이다! 통쾌함! 그 자체! <99강화 나무몽둥이>가 드디어 모바일 게임으로 등장! 99강화 나무몽둥이 : 키우기!!! ▶ 99강화 나무몽둥이 : 키우기만의 오리지널 스토리! 주인공 \"피스\"와 동료 \"러브\", \"루나\"가 펼치는 새로운 이야기! 그들이 써 내려가는 게임만의 독특한 스토리를 경험하세요. ▶ 시원하고 빠른 전투! 핵 앤 슬래시 쾌감! 나무몽둥이를 강화해서 몰려드는 몬스터를 시원하게 쓸어버리세요. 다양한 스킬을 획득하면 더욱 강하고 빠르게 싸울 수 있습니다. ▶ 강화는 역시 99강이지! 파괴 NO! 등급 하락 NO! 무한 강화 YES! 모든 장비를 99강까지 강화하여 최강의 장비 세트를 만들어 보세요. ▶ 다양한 콘텐츠와 성장 요소! 우르스 던전부터 길드 레이드까지, 다채로운 던전 콘텐츠를 즐겨보세요. \"영지\"에서 모험가에게 의뢰를 주고 마법 스크롤을 해독하여 더 강해지세요. 주인공을 도와주는 특별한 존재 '어시스터'! 무기를 더욱 강력하게 만들어주는 '에고' 시스템! ▶ 매일매일 쏟아지는 장비! 최첨단 자동화 시스템이 적용된 대장간에서 매일 쏟아지는 장비들! 고민은 이제 그만, 터치 한 번으로 간편하게 장착하세요! ▶ 개성 넘치는 수 많은 보스 등장! 웹툰에서 만났던 빌런들의 뚝배기를 깨보세요! 개성 넘치는 수십 종의 보스가 당신을 기다리고 있습니다. 퀘스트 클리어 특전이 도착하였습니다. 수령하시겠습니까? <예 / 예> ---------------------------------------------------------------------------------------------------- - 공급자: 스튜디오리코 주식회사 - 이용조건 및 기간: 게임 내 별도 고지된 내용에 따름 (사용기간이 표시되지 않은 경우, 서비스의 종료일까지를 사용기간으로 간주) - 결제금액 및 방법: 상품 별 별도 고지된 결제금액 및 결제방법에 따름 (외화 결제 시 환율 및 수수료 등으로 인해 실제 청구금액과 다를 수 있음) - 최소OS사양: Android 7.0 - 주소: 경기도 성남시 분당구 분당내곡로 131, 11층 (백현동) - 사업자 번호: 687-88-00601 - 통신판매업 번호: 2021-성남분당A-0324 [접근권한 안내] - 필수적 접근권한: 없음 - 선택적 접근권한: ・파일 및 미디어 : 게임 스크린샷 및 영상 저장에 사용됩니다.(OS버전 13.0 이상 단말에서만 사용) ・사진 및 동영상 : 고객 서비스 문의 접수 및 응답, 게임 스크린샷 및 영상 저장 등에 사용됩니다.(OS버전 13.0 이상 단말에서만 사용) ・알림 : 인게임 이벤트 관련 알림 수신 설정에 사용됩니다. ・카메라 : 고객 서비스 문의 접수 및 응답에 사용됩니다. ※ 선택적 접근권한 항목은 권한 허용에 동의하지 않아도 서비스 이용이 가능합니다. 다만, 일부 기능 사용이 제한될 수 있습니다. - 이용약관: https://www.studiolico.com/game/terms - 개인정보 처리방침: https://www.studiolico.com/game/privacy - 서비스 운영 정책: https://www.studiolico.com/game/policy - 사업자 이메일: game_support@studiolico.com ---- 개발자 연락처 : STUDIO LICO Corp. 대한민국 13529 경기도 성남시 분당구 분당내곡로 131, 7층(백현동) 687-88-00601 6878800601 경기도 성남시",
+      "analysis": {
+        "app_key": "google:com.studiolico.woodenstick",
+        "summary_ko": "웹툰 '99강화 나무몽둥이'와 '나혼자 탑에서 농사'의 콜라보레이션으로 제작된 방치형 RPG입니다. 나무몽둥이를 강화하여 몬스터를 처치하고, 다양한 어시스터와 함께 성장하는 핵 앤 슬래시 전투를 즐길 수 있습니다. 자동화된 대장간 시스템과 다양한 던전 콘텐츠를 제공합니다.",
+        "features_ko": [
+          "나무몽둥이를 강화하여 캐릭터를 성장시키는 방치형 전투를 제공합니다.",
+          "파괴나 등급 하락 없이 무한 강화가 가능한 시스템을 갖추고 있습니다.",
+          "다양한 스킬과 어시스터를 조합하여 전투를 공략할 수 있습니다.",
+          "우르스 던전, 길드 레이드 등 다채로운 던전 콘텐츠를 즐길 수 있습니다.",
+          "자동화된 대장간 시스템으로 장비를 간편하게 획득하고 장착할 수 있습니다."
+        ],
+        "noteworthy_ko": "웹툰 IP를 활용하여 팬덤을 확보하고, '강화'라는 익숙한 게임 메커니즘을 극대화하여 성장의 재미를 강조했습니다. 자동화 시스템을 통해 방치형 게임의 편의성을 높인 점이 특징입니다.",
+        "development_ko": "방치형 게임의 핵심인 성장 밸런스 설계가 가장 중요합니다. 강화 확률과 재화 수급량의 균형을 맞추는 데이터 설계가 필요하며, 자동 전투 로직과 다양한 보스 패턴 구현이 요구됩니다. 1인 개발 시에는 리소스 제작 부담을 줄이기 위해 단순화된 전투 시스템으로 시작하는 것이 좋습니다.",
+        "idea_ko": "강화 실패 시 아이템이 사라지는 대신 '강화 포인트'가 쌓여 다음 강화 확률을 높여주는 '확정 강화 시스템' 아이디어가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "웹툰 IP를 활용한 친숙한 캐릭터와 스토리.",
+          "스트레스 없는 무한 강화 시스템."
+        ],
+        "systems_ko": [
+          "방치형 전투 및 성장 시스템",
+          "강화 및 아이템 관리 시스템",
+          "던전 및 보스 전투 시스템",
+          "자동화된 보상 수급 시스템",
+          "데이터 저장 및 동기화 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "방치형 RPG는 로직이 정형화되어 있어 구현 난이도가 높지 않습니다. 다만, 게임의 재미를 결정짓는 밸런스 조정과 지속적인 콘텐츠 업데이트가 큰 부담이 될 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 방치형 전투 로직",
+            "강화 시스템",
+            "아이템 인벤토리"
+          ],
+          "defer": [
+            "길드 레이드",
+            "다양한 어시스터 시스템",
+            "복잡한 스토리 연출"
+          ],
+          "risks": [
+            "성장 밸런스 붕괴",
+            "콘텐츠 부족으로 인한 빠른 이탈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "확정 강화 시스템",
+            "concept": "강화 실패 시 아이템이 사라지지 않고 강화 포인트가 쌓입니다. 포인트가 가득 차면 100% 성공합니다.",
+            "first_step": "강화 실패 시 포인트가 증가하고 성공 시 초기화되는 로직을 구현합니다."
+          },
+          {
+            "title": "어시스터 조합 전략",
+            "concept": "어시스터마다 고유한 버프를 제공하며, 조합에 따라 전투 스타일이 바뀝니다.",
+            "first_step": "어시스터 2~3종을 만들어 캐릭터 스탯에 버프를 주는 시스템을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "방치형 RPG의 기본 구조와 밸런스 설계 방식을 배우기에 좋습니다. 1인 개발로 완성하기 가장 적합한 장르 중 하나입니다.",
+        "source_limitations_ko": "강화 확률 로직, 재화 밸런스 수치, 서버와 클라이언트 간의 데이터 동기화 방식 등은 확인되지 않았습니다.",
+        "name": "99강화 나무몽둥이 키우기 : 나탑농 콜라보",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.studiolico.woodenstick&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
     }
   }
 }

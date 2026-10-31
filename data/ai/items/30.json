@@ -9045,6 +9045,266 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-31"
+    },
+    "itch:92fcd9a0e9567ae21b14": {
+      "app_key": "itch:92fcd9a0e9567ae21b14",
+      "name": "Bataillon 1805 [Free] [Strategy]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://bataillon1805.itch.io/bataillon-1805",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:31:50+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A pocket-sized turn-based Napoleonic wargame.",
+      "analysis": {
+        "app_key": "itch:92fcd9a0e9567ae21b14",
+        "summary_ko": "나폴레옹 전쟁을 배경으로 한 소규모 턴제 워게임입니다. 전략적인 전투를 즐길 수 있도록 설계된 포켓 사이즈의 게임입니다.",
+        "features_ko": [
+          "나폴레옹 전쟁을 테마로 한 턴제 전략 규칙을 제공합니다.",
+          "전략적 판단이 중요한 전투 시스템을 포함합니다."
+        ],
+        "noteworthy_ko": "복잡한 워게임을 소규모로 압축했다는 점이 흥미롭습니다. 턴제 전략 게임의 핵심 규칙을 어떻게 간소화했는지 분석할 가치가 있습니다.",
+        "development_ko": "턴제 전투 시스템과 유닛 간의 상성 밸런스 구현이 핵심입니다. 그리드 기반의 맵 시스템과 AI의 판단 로직이 필요하며, 전략적 깊이를 유지하면서도 간결한 규칙을 만드는 기획이 중요합니다.",
+        "idea_ko": "나폴레옹 전쟁뿐만 아니라 다양한 역사적 전투를 동일한 규칙으로 즐길 수 있는 '워게임 엔진'을 만들어 모듈형으로 확장하는 것이 좋습니다.",
+        "highlights_ko": [
+          "나폴레옹 전쟁 배경의 턴제 전략.",
+          "간결하고 전략적인 게임 규칙."
+        ],
+        "systems_ko": [
+          "턴 관리 시스템",
+          "그리드 기반 맵 및 이동",
+          "유닛 상성 및 전투 판정",
+          "AI 턴 로직"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "턴제 전략 게임은 밸런스 조정이 매우 까다로우며, AI의 전략적 판단을 구현하는 것이 1인 개발자에게 큰 도전입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "턴제 이동 및 공격 규칙",
+            "기본 유닛 2종",
+            "승리 조건 판정"
+          ],
+          "defer": [
+            "복잡한 지형 효과",
+            "멀티플레이어 모드"
+          ],
+          "risks": [
+            "전투 밸런스 붕괴",
+            "AI의 낮은 전략적 지능"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "미니 워게임 샌드박스",
+            "concept": "사용자가 유닛을 배치하고 턴제 전투를 시뮬레이션하는 샌드박스입니다. 다양한 유닛 조합을 실험할 수 있습니다.",
+            "first_step": "두 유닛이 서로 공격하고 체력이 깎이는 기본 턴제 로직 구현."
+          }
+        ],
+        "recommendation_ko": "턴제 전략 게임의 핵심 규칙과 밸런스 설계 방식을 배우고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "구체적인 전투 규칙, 유닛의 종류, 맵의 크기, AI의 구현 수준 등은 확인되지 않습니다.",
+        "name": "Bataillon 1805 [Free] [Strategy]",
+        "source": "itch",
+        "detail_url": "https://bataillon1805.itch.io/bataillon-1805",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 284,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 32,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
+    },
+    "google:com.espublishing.pdfreader.viewer.pdf.scanner.editor": {
+      "app_key": "google:com.espublishing.pdfreader.viewer.pdf.scanner.editor",
+      "name": "PDF 리더 & PDF 편집",
+      "developer": "LemonCat Studio",
+      "source": "google",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.espublishing.pdfreader.viewer.pdf.scanner.editor&hl=ko&gl=KR",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:33:29+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "📕 휴대폰에서 PDF를 편리하게 읽고 관리할 방법을 찾고 있나요? 👉 PDF 리더 & PDF 편집은 휴대폰으로 PDF 문서를 쉽게 보기, 편집, 스캔, 정리할 수 있는 유용한 앱입니다. 학생, 직장인, 교사 모두 PDF를 빠르게 다룰 수 있습니다. 🔴 주요 기능 ✔ PDF 파일 빠른 열람 ✔ PDF에 표시, 밑줄, 그리기 ✔ 눈 편한 다크 모드 ✔ 페이지 즉시 이동 ✔ 문서를 스캔해 PDF로 변환 ✔ 이미지 PDF 변환기 ✔ PDF 파일 인쇄 📖 빠른 PDF 리더 부드러운 스크롤과 선명한 글자로 PDF를 엽니다. 작은 PDF부터 큰 PDF까지 끊김 없이 처리하며, 원하는 페이지 번호로 즉시 이동해 책, 보고서, 계약서 같은 장문도 쉽게 탐색합니다. 다크 모드로 밤에도 눈의 피로를 줄이며 편하게 읽을 수 있습니다. ✍️ PDF 문서 편집 및 주석 PDF 리더 & PDF 편집은 텍스트 하이라이트, 중요한 부분 밑줄, PDF 위에 직접 그리기를 지원합니다. 메모하기, 핵심 표시, 문서 검토가 한층 수월해집니다. 학습 자료를 공부하거나 업무 파일을 확인하고 코멘트를 추가할 때도 PDF 편집이 간단해집니다. 📄 문서 스캔 및 PDF 생성 휴대폰을 휴대용 스캐너로 활용하세요. 카메라로 종이 문서, 영수증, 인보이스, 메모, 책을 스캔해 선명한 고품질 PDF로 변환합니다. 자동으로 가독성을 개선해 깔끔한 스캔본을 제공합니다. 🖼️ 이미지 PDF 변환기 갤러리나 카메라에서 이미지를 선택해 PDF로 변환합니다. 여러 이미지를 하나의 PDF로 묶어 문서를 깔끔하게 정리하고 쉽게 공유하세요. 🖨️ PDF 파일 인쇄 지원되는 프린터로 휴대폰에서 바로 PDF를 인쇄하세요. 양식, 티켓, 보고서, 학습 자료 등을 필요할 때 즉시 출력하기에 적합합니다. 🔥 지금 바로 PDF 리더 & PDF 편집을 설치하고, 휴대폰에서 PDF를 읽고, 편집하고, 스캔하고, 관리하는 더 스마트한 방법을 경험해 보세요. 문의나 제안이 있다면 언제든 연락 주시면 기꺼이 도와드리겠습니다.",
+      "analysis": {
+        "app_key": "google:com.espublishing.pdfreader.viewer.pdf.scanner.editor",
+        "summary_ko": "PDF 리더 & PDF 편집은 휴대폰에서 PDF 문서를 열람, 편집, 스캔 및 관리할 수 있는 도구 앱입니다. 학생이나 직장인 등 문서를 자주 다루는 사용자를 대상으로 하며, 문서 스캔과 이미지 변환 기능을 제공합니다. 다크 모드와 빠른 페이지 이동 기능을 통해 쾌적한 문서 읽기 환경을 지원합니다.",
+        "features_ko": [
+          "PDF 파일을 빠르게 열람하고 부드러운 스크롤을 지원합니다.",
+          "텍스트 하이라이트, 밑줄, 직접 그리기 기능을 통해 문서에 주석을 남길 수 있습니다.",
+          "카메라를 활용해 종이 문서를 스캔하여 PDF로 변환합니다.",
+          "갤러리의 이미지를 PDF로 변환하거나 여러 이미지를 하나로 묶을 수 있습니다.",
+          "지원되는 프린터를 통해 앱에서 직접 문서를 인쇄할 수 있습니다."
+        ],
+        "noteworthy_ko": "문서 뷰어와 스캐너 기능을 결합하여 모바일 오피스 환경을 구축한 점이 흥미롭습니다. 이미지 처리와 PDF 렌더링 엔진의 최적화가 앱의 성능을 결정짓는 핵심 요소로 추정됩니다.",
+        "development_ko": "PDF 렌더링 라이브러리 활용과 카메라 이미지의 왜곡 보정 및 필터링 기술이 핵심입니다. 사용자 인터페이스는 문서 목록 관리와 편집 도구의 직관적인 배치가 중요하며, 다양한 파일 포맷 처리에 따른 테스트 부담이 존재합니다.",
+        "idea_ko": "특정 문서의 특정 페이지에 음성 메모를 남길 수 있는 '오디오 주석' 기능이 개인 개발자에게 적합합니다.",
+        "highlights_ko": [
+          "다크 모드 지원으로 야간 독서 시 눈의 피로를 줄여줍니다.",
+          "카메라 스캔 기능을 통해 물리적 문서를 디지털화하는 편의성을 제공합니다."
+        ],
+        "systems_ko": [
+          "파일 시스템 접근 및 관리 모듈",
+          "PDF 렌더링 및 뷰어 엔진",
+          "이미지 처리 및 스캔 보정 모듈",
+          "주석 데이터 저장 및 오버레이 시스템",
+          "인쇄 서비스 연동 모듈"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "PDF 렌더링과 이미지 처리 기술은 고도의 정확성을 요구하며, 다양한 기기에서의 호환성 확보가 매우 까다롭기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "PDF 파일 열람 및 스크롤",
+            "기본 주석(하이라이트) 기능",
+            "파일 목록 관리"
+          ],
+          "defer": [
+            "직접 그리기 기능",
+            "무선 인쇄 연동"
+          ],
+          "risks": [
+            "PDF 라이브러리 라이선스 문제",
+            "대용량 파일 처리 시 메모리 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "문서 요약 챗봇",
+            "concept": "PDF 내용을 분석하여 핵심 내용을 요약해주는 기능입니다. 긴 보고서를 빠르게 파악해야 하는 사용자에게 유용합니다.",
+            "first_step": "PDF 텍스트 추출 라이브러리를 사용하여 텍스트를 읽어오는 기능을 구현합니다."
+          },
+          {
+            "title": "오디오 주석",
+            "concept": "문서의 특정 위치에 음성 메모를 남겨 나중에 다시 들을 수 있게 합니다. 학습용 자료 검토에 최적화되어 있습니다.",
+            "first_step": "PDF 좌표 기반으로 음성 녹음 파일을 저장하고 재생하는 시스템을 구축합니다."
+          }
+        ],
+        "recommendation_ko": "파일 입출력과 데이터 관리의 기초를 다지기에 좋습니다. 다만, PDF 엔진 구현은 난도가 높으므로 오픈소스 라이브러리 활용 능력을 기르는 것을 추천합니다.",
+        "source_limitations_ko": "결제 시스템, 클라우드 연동, 보안 암호화 기능에 대한 언급이 없으므로 해당 기능은 구현 범위에서 제외해야 합니다.",
+        "name": "PDF 리더 & PDF 편집",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.espublishing.pdfreader.viewer.pdf.scanner.editor&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 168,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
+    },
+    "apple:6762513021": {
+      "app_key": "apple:6762513021",
+      "name": "ColdTrace: 미제 사건의 미스터리",
+      "developer": "Saclic Studio",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/coldtrace-%EB%AF%B8%EC%A0%9C-%EC%82%AC%EA%B1%B4%EC%9D%98-%EB%AF%B8%EC%8A%A4%ED%84%B0%EB%A6%AC/id6762513021",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:35:54+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "스마트폰 하나. 미제 사건 하나. 진실은 그 어딘가에 묻혀 있다. ColdTrace는 당신을 실제 수사 안으로 데려갑니다. 적어도 그렇게 느껴질 것입니다. 낙선 사람의 스마트폰을 탐색하고, 타임라인을 맞추고, 결정하세요. 정말 사고였을까요? 뫰입형 허구 경험 • 완전히 시뮬레이션된 스마트폰 인터페이스 탐색: 메시지, 사진, 메모, 음성 메일 • 모든 단서가 중요한 다층적 서사 발견 • 여러 실마리를 따라가며 하나의 진실 발견 긴장감을 느껴라 플레이어와 수사관 사이의 경계가 흔려집니다. 이야기가 펼쳐지는 것을 지켜보는 것이 아니라, 직접 그 안에서 살아가는 것입니다. 삭제된 파일, 문자 메시지 스레드, 타임스탬프 하나하나가 당신을 답에 가까이 데려갑니다. 당신의 수사, 당신의 속도 ColdTrace는 수동적인 경험이 아닙니다. 무엇을 읽고, 무엇을 파고들고, 언제 파고드는지 그 모든 것이 사건에 대한 당신의 이해를 형성합니다. 인터랙티브 픽션, 트루크라임 팡캐스트, 범죄 다큐멘터리를 좋아하며 더 깊이 파고들고 싶은 분들을 위해. ColdTrace는 허구의 내러티브 경험입니다. 모든 등장인물과 사건은 완전히 가상으로 만들어진 것입니다. 참고: 일부 체터는 프리미엄 잠금 해제가 필요합니다. 일부 수사는 무료로 이용할 수 있으며, 전체 경험은 인앱 구매를 통해 잠금 해제할 수 있습니다. 이용약관 (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "analysis": {
+        "app_key": "apple:6762513021",
+        "summary_ko": "ColdTrace는 가상의 미제 사건을 수사하는 몰입형 인터랙티브 픽션 게임입니다. 플레이어는 실종자의 스마트폰을 탐색하며 메시지, 사진, 메모 등 다양한 단서를 조합해 진실을 파헤칩니다. 수동적인 관람이 아닌, 플레이어의 선택과 탐색 속도가 사건의 이해도를 결정하는 능동적인 수사 경험을 제공합니다.",
+        "features_ko": [
+          "가상의 스마트폰 인터페이스를 통해 메시지, 사진, 메모, 음성 메일을 탐색합니다.",
+          "삭제된 파일과 타임스탬프 등 파편화된 단서를 수집하여 사건의 타임라인을 재구성합니다.",
+          "플레이어의 탐색 순서와 읽는 내용에 따라 사건에 대한 이해도가 달라지는 비선형적 서사를 제공합니다.",
+          "범죄 다큐멘터리나 트루크라임 장르를 선호하는 사용자를 위한 몰입형 내러티브를 구성합니다."
+        ],
+        "noteworthy_ko": "스마트폰 인터페이스를 게임의 UI로 활용하여 현실과 가상의 경계를 허무는 '파운드 폰(Found Phone)' 장르의 전형을 보여줍니다. 개발 관점에서는 정적인 데이터(텍스트, 이미지)를 어떻게 동적인 서사로 연결하느냐가 핵심이며, 플레이어의 탐색 경로를 추적하는 상태 관리 로직이 중요할 것으로 추정됩니다.",
+        "development_ko": "핵심 구현 기술로는 스마트폰 UI를 모방한 레이아웃 시스템과 데이터베이스 기반의 메시지/로그 관리 기능이 필요합니다. 콘텐츠 제작 측면에서는 방대한 텍스트와 이미지 에셋의 일관성을 유지하는 것이 가장 큰 부담입니다. 테스트 단계에서는 플레이어가 단서를 놓치지 않고 논리적으로 사건을 해결할 수 있도록 하는 밸런스 검증이 필수적입니다.",
+        "idea_ko": "특정 인물의 스마트폰이 아닌, 사건 현장에 남겨진 '디지털 기기들의 네트워크'를 추적하는 멀티 디바이스 수사 게임.",
+        "highlights_ko": [
+          "실제 스마트폰을 사용하는 듯한 인터페이스를 통해 극대화된 몰입감.",
+          "플레이어의 능동적인 탐색을 유도하는 비선형적 스토리텔링 구조."
+        ],
+        "systems_ko": [
+          "스마트폰 UI 레이아웃 및 애니메이션 시스템",
+          "메시지 및 로그 데이터 관리 시스템",
+          "단서 수집 및 타임라인 상태 관리 시스템",
+          "선택지에 따른 분기 처리 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기술적인 구현 난이도는 낮으나, 플레이어가 몰입할 수 있는 짜임새 있는 시나리오와 논리적인 단서 배치가 개발의 핵심이자 어려운 부분입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "메시지 확인 기능",
+            "사진 갤러리 탐색",
+            "간단한 타임라인 구성"
+          ],
+          "defer": [
+            "음성 메일 재생",
+            "복잡한 멀티 엔딩 시스템"
+          ],
+          "risks": [
+            "스토리의 개연성 부족",
+            "플레이어의 탐색 피로도 증가"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "디지털 포렌식 시뮬레이터",
+            "concept": "단순 탐색을 넘어, 삭제된 데이터를 복구하거나 암호를 해독하는 미니게임을 결합하여 수사의 전문성을 강조합니다.",
+            "first_step": "간단한 텍스트 파일 복구 미니게임 프로토타입 제작."
+          },
+          {
+            "title": "타임라인 퍼즐러",
+            "concept": "수집한 단서들을 시간 순서대로 정렬하여 사건의 인과관계를 맞추는 퍼즐 요소를 강화합니다.",
+            "first_step": "드래그 앤 드롭으로 카드를 정렬하는 UI 구현."
+          }
+        ],
+        "recommendation_ko": "내러티브 중심의 게임을 기획하는 개발자에게 추천합니다. UI를 통해 서사를 전달하는 방식과 플레이어의 몰입을 유도하는 데이터 구조를 학습하기에 적합합니다.",
+        "source_limitations_ko": "소개문에 명시된 인앱 결제 시스템의 구체적인 구현 방식이나, 외부 서버 연동 여부는 확인되지 않았습니다. 실제 게임의 분량이나 시나리오의 깊이는 알 수 없습니다.",
+        "name": "ColdTrace: 미제 사건의 미스터리",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/coldtrace-%EB%AF%B8%EC%A0%9C-%EC%82%AC%EA%B1%B4%EC%9D%98-%EB%AF%B8%EC%8A%A4%ED%84%B0%EB%A6%AC/id6762513021",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 60,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
     }
   }
 }

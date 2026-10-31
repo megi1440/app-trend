@@ -8597,6 +8597,364 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-31"
+    },
+    "itch:390ff57672ea0f00219e": {
+      "app_key": "itch:390ff57672ea0f00219e",
+      "name": "Emberwood: Glutwald (Early Access) [Free]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://frono24.itch.io/emberwood-glutwald",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:31:36+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "An atmospheric incremental game about a burned forest remembering the light. Deep skill trees, rituals & 5 acts.",
+      "analysis": {
+        "app_key": "itch:390ff57672ea0f00219e",
+        "summary_ko": "불타버린 숲이 빛을 기억해 나가는 과정을 다룬 분위기 있는 인크리멘탈(방치형) 게임입니다. 5개의 막으로 구성된 서사와 깊이 있는 스킬 트리, 의식 시스템을 포함합니다.",
+        "features_ko": [
+          "시간 흐름에 따라 자원을 획득하는 인크리멘탈 규칙을 따릅니다.",
+          "캐릭터나 세계를 성장시키는 깊이 있는 스킬 트리를 제공합니다.",
+          "게임 내에서 특정 효과를 발동시키는 의식 시스템이 있습니다.",
+          "5개의 막으로 나뉜 서사적 구조를 가지고 있습니다."
+        ],
+        "noteworthy_ko": "방치형 게임에 서사와 스킬 트리라는 RPG 요소를 결합하여 몰입감을 높인 점이 돋보입니다. 5개의 막으로 구성된 구조는 방치형 게임에서 보기 드문 서사적 깊이를 보여줍니다.",
+        "development_ko": "핵심 기술은 데이터 관리와 시간 기반의 자원 누적 로직입니다. 콘텐츠 제작은 스킬 트리 설계와 5개 막에 걸친 서사 작성에 많은 시간이 소요됩니다. 밸런스 조절은 방치형 게임의 핵심인 성장 곡선 설계가 매우 중요합니다.",
+        "idea_ko": "의식 시스템을 플레이어가 직접 조합하는 퍼즐 요소로 확장하여 방치형 게임의 단조로움을 해소할 수 있습니다.",
+        "highlights_ko": [
+          "방치형 게임과 서사적 RPG의 결합.",
+          "깊이 있는 스킬 트리와 의식 시스템을 통한 성장 체감."
+        ],
+        "systems_ko": [
+          "자원 누적 및 관리 시스템",
+          "스킬 트리 데이터 구조",
+          "의식 시스템 로직",
+          "서사 이벤트 관리자"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "방치형 게임은 성장 곡선 밸런싱이 매우 어렵고, 5개의 막을 구성하는 서사와 스킬 트리 설계는 1인 개발자에게 큰 콘텐츠 제작 부담이 됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 자원 획득 로직",
+            "기초 스킬 트리 UI",
+            "1막 서사 구현"
+          ],
+          "defer": [
+            "나머지 4개 막의 콘텐츠",
+            "복잡한 의식 조합 시스템"
+          ],
+          "risks": [
+            "성장 곡선 밸런스 붕괴",
+            "콘텐츠 부족으로 인한 조기 이탈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "빛의 복원 퍼즐",
+            "concept": "의식을 수행할 때 빛의 경로를 연결하는 퍼즐을 풀어야 하는 시스템입니다.",
+            "first_step": "빛의 경로 연결 퍼즐 프로토타입 구현."
+          },
+          {
+            "title": "숲의 생태계 시뮬레이션",
+            "concept": "자원을 모아 숲의 생태계를 복원하면 자동으로 자원 생산량이 늘어나는 시스템입니다.",
+            "first_step": "생태계 복원 단계별 자원 생산량 증가 로직 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 밸런싱과 서사 중심의 게임 설계를 배우고 싶은 개발자에게 추천합니다. 장기적인 콘텐츠 유지보수와 성장 곡선 설계의 중요성을 배울 수 있습니다.",
+        "source_limitations_ko": "의식 시스템의 구체적인 작동 방식과 5개 막의 콘텐츠 분량은 확인되지 않았습니다.",
+        "name": "Emberwood: Glutwald (Early Access) [Free]",
+        "source": "itch",
+        "detail_url": "https://frono24.itch.io/emberwood-glutwald",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 317,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
+    },
+    "google:com.GameCoaster.DungeonMaker": {
+      "app_key": "google:com.GameCoaster.DungeonMaker",
+      "name": "ダンジョンメーカー",
+      "developer": "GameCoaster",
+      "source": "google",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.GameCoaster.DungeonMaker&hl=ja&gl=JP",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:32:06+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "☆Google Play Best of 2018 (日本、韓国、タイ) ☆ 2018 Google Indie Games Festival TOP 10入り 多数の選択肢からダンジョンを作り、ゲームを進めるローグライクダンジョンビルドゲームです。 ダンジョンに複数の罠と施設を配置し、戦闘で成長するモンスターを雇い、不思議な力を持つ遺物を見つけ、ダンジョンを侵攻する勇士をやっつけてください！ ◆ 特徴 ① 特殊能力でダンジョンを率いる9人の魔王！ ② 260種類以上の勇士とモンスター ③ ダンジョンに配置可能な160種類以上の罠と施設 ④ 240種以上の遺物 ⑤ 多彩なゲーム内イベント ⑥ その他の解禁可能コンテンツ 現在、追加のコンテンツを多数開発中！ 新たな魔王や罠、モンスター、ゲームモードを追加していく予定です。 ◆ あなただけのダンジョンを作ろう！ 罠や施設、モンスターを配置しよう！一工夫するだけでより効果的なダンジョン運営が可能に。勇士を退治して入手する報酬でより強力なダンジョンを作ることができます。施設とモンスターの相性を考えながら最高に効率的なダンジョンを作りましょう。 ◆ 運命を探検せよ 毎日新しい運命カードを引こう！戦闘に出たいときは勇士を迎え、新しい出来事が気になるときはイベントを経験してください。強い敵と戦いたいときは非常に強力な 勇士と戦うこともできます。運命を自分の手で選び新しい経験を楽しんでください。 ※ 注意：オフラインゲーム(ネット接続なし) このゲームはサーバーを利用していません。すべてのデータはユーザ端末にしか保存されないため、アプリを削除するとデータ復元ができません。ゲーム内で利用可能なクラウド保存機能を活用してください。 アプリ購入後、2時間以内にGoogle Playから[購入復元]が可能です。 ただし、2時間が経過すると購入復元できませんのでご注意ください。 \"※注意※ アプリ内課金について ゲーム内アイテムの返金や効力停止が不可能なオフラインゲームのため、こちらからは返金処理などの対応が出来かねます。Google Playにお問い合わせください。\" 購入復元や返金処理をご希望する方は、以下のURLからお申込みください。 https://support.google.com/googleplay/contact/play_request_refund_apps?rd=1",
+      "analysis": {
+        "app_key": "google:com.GameCoaster.DungeonMaker",
+        "summary_ko": "다양한 함정과 시설을 배치하고 몬스터를 고용하여 침입하는 용사를 막아내는 로그라이크 던전 빌드 게임입니다. 9명의 마왕 중 하나를 선택하여 자신만의 던전을 운영하며 전략적인 전투를 즐길 수 있습니다.",
+        "features_ko": [
+          "9명의 마왕 캐릭터를 선택하여 던전을 지휘합니다.",
+          "260종 이상의 용사와 몬스터를 활용한 전투 시스템을 제공합니다.",
+          "160종 이상의 함정과 시설을 배치하여 던전을 설계합니다.",
+          "240종 이상의 유물을 수집하여 전략을 강화합니다.",
+          "매일 새로운 운명 카드를 선택하여 이벤트와 전투를 결정합니다."
+        ],
+        "noteworthy_ko": "던전 빌딩과 로그라이크 요소를 결합하여 매번 새로운 전략을 요구하는 점이 흥미롭습니다. 시설과 몬스터의 시너지를 고려한 밸런스 설계가 게임의 핵심입니다.",
+        "development_ko": "핵심 기술은 타일 기반의 던전 배치 시스템과 턴제 전투 로직입니다. 콘텐츠 제작은 방대한 데이터(몬스터, 함정, 유물) 관리에 큰 부담이 있습니다. 테스트는 다양한 조합의 효율성을 검증하는 밸런스 작업이 필수입니다.",
+        "idea_ko": "몬스터 간의 상호작용을 통해 새로운 종족을 합성하는 시스템이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "방대한 콘텐츠와 전략적 던전 빌딩.",
+          "로그라이크 요소로 인한 높은 반복 플레이 가치."
+        ],
+        "systems_ko": [
+          "타일 기반 던전 배치 시스템",
+          "턴제 전투 엔진",
+          "데이터 기반의 아이템/몬스터 관리 시스템",
+          "로그라이크 운명 카드 이벤트 시스템",
+          "밸런스 시뮬레이션 도구"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "콘텐츠의 양이 매우 방대하고, 각 요소 간의 밸런스를 맞추는 작업이 1인 개발자에게는 매우 도전적입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 던전 배치 그리드",
+            "몬스터/함정 데이터 구조",
+            "기본 전투 로직"
+          ],
+          "defer": [
+            "방대한 유물 및 이벤트 시스템",
+            "다양한 마왕 캐릭터"
+          ],
+          "risks": [
+            "밸런스 조절 실패",
+            "콘텐츠 제작 속도 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "던전 환경 변화",
+            "concept": "시간이나 날씨에 따라 던전 내 함정의 효율이 변하는 환경 요소를 추가합니다.",
+            "first_step": "시간 흐름에 따라 특정 함정의 데미지 수치를 변경하는 로직 구현."
+          },
+          {
+            "title": "몬스터 합성 연구소",
+            "concept": "두 몬스터를 합성하여 새로운 특성을 가진 몬스터를 만드는 연구 시스템을 도입합니다.",
+            "first_step": "두 몬스터의 스탯을 합쳐 새로운 객체를 생성하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 기반 게임 설계와 밸런스 조절의 중요성을 배우기에 최적입니다. 복잡한 시스템을 모듈화하여 관리하는 능력을 기르고 싶다면 추천합니다.",
+        "source_limitations_ko": "오프라인 게임으로 명시되어 있으나, 데이터 저장 방식의 구체적인 구현이나 클라우드 저장의 기술적 세부 사항은 확인되지 않습니다.",
+        "name": "ダンジョンメーカー",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.GameCoaster.DungeonMaker&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 210,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 10,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
+    },
+    "google:calo.ai.calorie.counter.weight.loss.diet.nutrition.macro.tracker.fasting": {
+      "app_key": "google:calo.ai.calorie.counter.weight.loss.diet.nutrition.macro.tracker.fasting",
+      "name": "Calo: AI Food Calorie Counter",
+      "developer": "Next Vision Limited",
+      "source": "google",
+      "country": "US",
+      "category": "app_health_fitness",
+      "detail_url": "https://play.google.com/store/apps/details?id=calo.ai.calorie.counter.weight.loss.diet.nutrition.macro.tracker.fasting&hl=en&gl=US",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:34:31+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Achieve Your Weight Goals with Ease Using Calo Looking for an effective way to meet your weight and health goals? Welcome to Calo, your go-to app for seamless calorie tracking, meal planning, and adopting a healthier lifestyle. Introducing Calo: Your essential companion in reaching weight goals and improving your health! Key Features: - Calorie Counter: Tailored to your needs, our app uses science-based algorithms to set personalized calorie goals. Track your meals and snacks effortlessly with our intuitive tracker, which provides detailed nutritional information to help you make informed choices. - Macro Tracker: Beyond calorie counting, our app offers a personalized macros program. Get recommendations for protein, carbs, and fats based on your activity level and diet preferences, including balanced, low-carb, low-fat, keto, vegan, vegetarian, paleo and more. - AI-Powered Food Logging: Simplify your diet tracking with our AI-driven feature. Log meals by taking a photo or typing, and let our smart technology handle the rest. Enjoy dining out without the hassle of manual entries. - Barcode Scanner: Quickly access nutritional data by scanning the barcodes of packaged foods. Ideal for specialized diets, this feature helps you make informed food choices wherever you are. - Solid Scientific Base: Our calorie counting is grounded in a scientific foundation, using the Mifflin-St Jeor equation for Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE). This ensures a more precise, personalized calorie budget tailored to your lifestyle. Transform your relationship with food and fitness with Calo. Download now and start your journey towards a healthier you! Subscription Information: • Payment will be charged to your iTunes Account at the time of purchase confirmation. • Subscription automatically renews unless auto-renew is turned off at least 24 hours before the end of the current period. • Your account will be charged for renewal within 24 hours prior to the end of the current period. • Any unused portion of a free trial period, if offered, will be forfeited when the user purchases a subscription. • Subscriptions may be managed by the user, and auto-renewal can be turned off by going to the user's Account Settings after purchase. Note: This app is developed for informational purposes only. Always consult your doctor before starting any diet plan. Results can vary. Terms of Use: https://app-service.foodscannerai.com/static/user_agreement.html Privacy Policy: https://app-service.foodscannerai.com/static/privacy_policy.html Contact us: support@caloapp.ai",
+      "analysis": {
+        "app_key": "google:calo.ai.calorie.counter.weight.loss.diet.nutrition.macro.tracker.fasting",
+        "summary_ko": "Calo는 사용자의 체중 감량 및 건강 목표 달성을 돕는 식단 관리 및 칼로리 추적 앱입니다. 과학적 알고리즘을 기반으로 개인별 칼로리 예산을 설정하고 식단을 기록할 수 있습니다. AI를 활용한 음식 사진 인식과 바코드 스캔 기능을 통해 간편하게 영양 정보를 관리합니다.",
+        "features_ko": [
+          "과학적 알고리즘을 기반으로 개인화된 일일 칼로리 목표를 설정합니다.",
+          "단백질, 탄수화물, 지방 등 매크로 영양소 비율을 식단 선호도에 따라 추천합니다.",
+          "음식 사진을 촬영하거나 텍스트를 입력하여 AI가 자동으로 식단을 기록합니다.",
+          "패키지 식품의 바코드를 스캔하여 즉시 영양 성분을 확인합니다."
+        ],
+        "noteworthy_ko": "Mifflin-St Jeor 방정식을 활용해 기초대사량(BMR)과 일일 에너지 소비량(TDEE)을 계산하는 점이 흥미롭습니다. AI 이미지 인식 기술을 식단 기록에 접목하여 사용자 편의성을 높인 점이 개발 관점에서 주목할 만합니다.",
+        "development_ko": "핵심 기술은 음식 이미지 인식 모델과 영양소 데이터베이스 연동입니다. 콘텐츠 제작 측면에서는 다양한 식단 데이터 확보가 중요하며, 밸런스 측면에서는 사용자 활동량에 따른 칼로리 계산 로직의 정확도 검증이 필수적입니다.",
+        "idea_ko": "사용자가 직접 찍은 음식 사진을 기반으로 영양 성분을 추정하고, 비슷한 식단을 즐기는 커뮤니티와 연결하는 기능이 유용할 것입니다.",
+        "highlights_ko": [
+          "Mifflin-St Jeor 방정식을 적용한 과학적 칼로리 예산 산출.",
+          "AI 이미지 인식 및 바코드 스캔을 통한 간편한 데이터 입력."
+        ],
+        "systems_ko": [
+          "사용자 프로필 및 신체 데이터 관리 시스템",
+          "칼로리 및 영양소 계산 로직",
+          "음식 데이터베이스 및 검색 시스템",
+          "AI 이미지 인식 연동 API",
+          "일일 기록 및 통계 시각화 UI"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "정확한 영양 데이터베이스 구축과 AI 이미지 인식 모델의 정확도를 확보하는 것이 매우 어렵습니다. 건강과 직결된 정보이므로 계산 로직의 신뢰성을 검증하는 과정에 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 신체 정보 입력 및 BMR 계산기",
+            "수동 식단 기록 및 칼로리 합산 기능",
+            "일일 영양소 요약 대시보드"
+          ],
+          "defer": [
+            "AI 사진 인식 기능",
+            "바코드 스캔 기능",
+            "커뮤니티 기능"
+          ],
+          "risks": [
+            "영양 데이터의 부정확성",
+            "사용자 입력 데이터의 지속성 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "냉장고 파먹기 영양사",
+            "concept": "현재 냉장고에 있는 재료를 입력하면 가능한 식단과 영양 성분을 제안합니다. 음식물 쓰레기를 줄이고 건강한 식단을 유지하게 돕습니다.",
+            "first_step": "재료 목록을 입력하면 간단한 레시피를 출력하는 로직 구현."
+          },
+          {
+            "title": "영양소 챌린지 메이트",
+            "concept": "특정 영양소(예: 단백질) 섭취 목표를 친구와 함께 달성하는 소셜 챌린지 앱입니다. 서로의 기록을 공유하며 동기를 부여합니다.",
+            "first_step": "사용자 간 기록 공유 및 랭킹 보드 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 기반의 건강 관리 앱을 만들고 싶은 개발자에게 추천합니다. 복잡한 AI 기능보다는 계산 로직과 사용자 경험(UX) 설계의 중요성을 배우기 좋습니다.",
+        "source_limitations_ko": "소개문에 명시된 AI 모델의 구체적인 구현 방식이나 데이터베이스 출처는 알 수 없습니다. 결제 및 의료 상담 기능은 앱 내에서 제공하지 않으므로 구현 시 주의가 필요합니다.",
+        "name": "Calo: AI Food Calorie Counter",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=calo.ai.calorie.counter.weight.loss.diet.nutrition.macro.tracker.fasting&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
+    },
+    "google:com.pdf.pdfreader.pdfviewer.editor": {
+      "app_key": "google:com.pdf.pdfreader.pdfviewer.editor",
+      "name": "PDF 뷰어 - 모든 PDF 리더",
+      "developer": "KIM NGAN TECHNOLOGY",
+      "source": "google",
+      "country": "KR",
+      "category": "app_productivity",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.pdf.pdfreader.pdfviewer.editor&hl=ko&gl=KR",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:35:31+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "PDF 뷰어 - 모든 PDF 리더 - Android에서 PDF, Word, Excel 및 PowerPoint 편집 및 보기 스마트하고 강력한 Android용 문서 편집기를 찾고 계신가요? 이 PDF 뷰어 - 모든 PDF 리더 앱은 PDF 파일, Word 문서(DOC, DOCX), Excel 스프레드시트(XLS, XLSX), PowerPoint 프레젠테이션(PPT, PPTX)을 포함한 주요 문서 형식을 열고, 보고, 편집할 수 있는 완벽한 솔루션입니다. 편리하고 효율적인 인터페이스로 한 곳에서 모두 해결하세요. PDF 뷰어 - 모든 PDF 리더의 차별점은? ✅ PDF 도구: 단순한 읽기를 넘어서 – 텍스트 하이라이트, 핵심 포인트 밑줄, 브러시 도구로 자유롭게 그리기 및 주석 추가. 계약서, 학습 자료 또는 보고서 검토에 이상적입니다. ✅ Word 편집기 (DOC & DOCX): 텍스트 서식, 글꼴 스타일, 정렬, 글머리표 등 다양한 기능을 지원하며 Word 파일을 열고 편집하세요. 이력서 업데이트, 보고서 작성, 이동 중 메모 편집에 최적화되어 있습니다. ✅ Excel 편집기 (XLS & XLSX): 셀, 열, 행에 완전 접근하여 스프레드시트를 보고 편집할 수 있습니다. 데이터 입력, 기본 수식 적용, 셀 서식 지정 및 표 관리에 유용하며, 예산 관리나 업무 정리에 적합합니다. ✅ PowerPoint 편집기 (PPT & PPTX): 프레젠테이션을 실시간으로 열고 편집 – 슬라이드 텍스트 수정, 사진 삽입, 도형 추가 및 기본 포맷 조정까지 가능. 회의나 강의 전에 빠르게 업데이트하기에 좋습니다. 주요 기능 및 도구 ⭐ 올인원 문서 편집기: PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX 파일을 매끄럽게 편집 및 관리합니다. ⭐ 편집 지원: 텍스트 수정, 콘텐츠 포맷, 다양한 파일 형식 간 작업을 손쉽게 처리. ⭐ 빠른 로딩 성능: 대용량 파일도 최소 대기 시간으로 빠르게 열립니다. ⭐ 부드러운 탐색: 페이지, 시트 또는 슬라이드를 자유롭게 스크롤하세요. ⭐ 확대/축소: 편집 중 더 나은 가독성 또는 정밀도를 위해 보기 사용자화. ⭐ 세로/가로 모드 지원: 어느 방향에서도 유연한 보기 및 편집 환경 제공. ⭐ 사용자 친화적 인터페이스: 직관적이고 깔끔한 디자인으로 효율적인 작업 가능. ⭐ 안전한 로컬 접근: 모든 작업이 오프라인에서 이루어지며, 파일은 기기에 저장 – 클라우드 업로드 불필요. 누구를 위한 앱인가요? ✨ 학생: PDF에서 핵심 내용 강조, 강의 노트 편집, 과제 업데이트, 슬라이드 검토. ✨ 전문가: 문서에 주석 추가, 스프레드시트 업데이트, 프레젠테이션 수정 – 이동 중에도 가능. ✨ 모두: 개인 또는 업무 관련 문서를 한 곳에서 관리, 편집, 정리할 수 있는 유용한 도구입니다. 이 강력한 문서 편집 앱으로 생산성과 정돈된 업무를 유지하세요. Word 문서를 업데이트하거나 Excel 시트를 편집하거나 PDF에 마크업하는 모든 작업이 단 한 번의 터치로 가능합니다. 지금 다운로드하고 Android 기기를 빠르고 유연하며 항상 준비된 휴대용 오피스로 바꿔보세요.",
+      "analysis": {
+        "app_key": "google:com.pdf.pdfreader.pdfviewer.editor",
+        "summary_ko": "PDF 뷰어 - 모든 PDF 리더는 PDF를 비롯한 Word, Excel, PowerPoint 등 주요 문서 형식을 열람하고 편집할 수 있는 생산성 도구입니다. 텍스트 하이라이트, 주석 추가, 서식 수정 등 다양한 편집 기능을 제공합니다. 오프라인 환경에서 문서를 관리하고 수정하는 데 최적화되어 있습니다.",
+        "features_ko": [
+          "PDF 파일에 텍스트 하이라이트, 밑줄, 브러시 그리기 및 주석을 추가합니다.",
+          "Word 문서의 텍스트 서식, 글꼴 스타일, 정렬을 편집합니다.",
+          "Excel 스프레드시트의 셀, 행, 열을 수정하고 기본 수식을 적용합니다.",
+          "PowerPoint 슬라이드의 텍스트 수정 및 사진 삽입을 지원합니다.",
+          "모든 작업이 오프라인에서 이루어져 로컬 기기에 파일을 저장합니다."
+        ],
+        "noteworthy_ko": "다양한 오피스 포맷을 하나의 앱에서 통합 관리하는 것이 핵심입니다. 각 포맷별 파싱 및 렌더링 엔진을 어떻게 효율적으로 통합했는지가 개발 관점에서 가장 흥미로운 지점입니다.",
+        "development_ko": "핵심 기술은 각 문서 포맷(PDF, DOCX, XLSX, PPTX)을 읽고 쓰는 오픈소스 라이브러리 활용 능력입니다. 콘텐츠 제작 부담은 낮으나, 다양한 기기에서의 문서 레이아웃 호환성 테스트 부담이 매우 큽니다. 오프라인 데이터 관리 및 파일 시스템 접근 권한 처리가 중요합니다.",
+        "idea_ko": "문서 내의 텍스트를 음성으로 읽어주거나, 카메라로 찍은 문서를 즉시 PDF로 변환하여 편집 가능한 상태로 만드는 기능이 적합합니다.",
+        "highlights_ko": [
+          "PDF부터 오피스 문서까지 아우르는 올인원 문서 편집 환경.",
+          "클라우드 의존 없이 로컬에서 안전하게 작업 가능한 오프라인 중심 설계."
+        ],
+        "systems_ko": [
+          "문서 파싱 및 렌더링 엔진",
+          "파일 시스템 관리 및 탐색기",
+          "텍스트 편집 및 서식 적용 UI",
+          "주석 및 마크업 데이터 저장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 문서 포맷의 호환성을 완벽하게 유지하는 것은 매우 어렵습니다. 특히 오피스 문서의 복잡한 서식을 깨지지 않게 편집하는 기능은 개인 개발자가 구현하기에 기술적 장벽이 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "PDF 뷰어 및 기본 마크업 기능",
+            "파일 관리 및 열기 기능"
+          ],
+          "defer": [
+            "Excel 수식 계산 엔진",
+            "PowerPoint 슬라이드 편집",
+            "클라우드 동기화"
+          ],
+          "risks": [
+            "문서 포맷 호환성 문제로 인한 데이터 손실",
+            "대용량 파일 로딩 시 메모리 부족 현상"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "문서 요약 봇",
+            "concept": "긴 PDF 문서를 불러오면 핵심 내용을 요약하여 별도의 메모로 생성합니다.",
+            "first_step": "PDF에서 텍스트를 추출하는 기능을 구현합니다."
+          },
+          {
+            "title": "스마트 서명 도구",
+            "concept": "PDF 계약서에 서명을 삽입할 때, 서명 위치를 자동으로 인식하여 정렬해 줍니다.",
+            "first_step": "이미지 오버레이 기능을 사용하여 PDF 위에 서명 이미지를 배치하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "파일 시스템 관리와 문서 렌더링 기술을 배우고 싶은 개발자에게 추천합니다. 다만, 상용 수준의 오피스 편집기 구현은 매우 방대한 작업임을 인지해야 합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 보안 기능, 암호화, 클라우드 서비스 연동, 특정 라이브러리 사용 여부는 확인되지 않았습니다. 문서 편집의 정확도나 호환성 범위는 검증이 필요합니다.",
+        "name": "PDF 뷰어 - 모든 PDF 리더",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.pdf.pdfreader.pdfviewer.editor&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
     }
   }
 }

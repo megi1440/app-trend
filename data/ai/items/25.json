@@ -10008,6 +10008,540 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-31"
+    },
+    "itch:ce324e2f673b84522fba": {
+      "app_key": "itch:ce324e2f673b84522fba",
+      "name": "Glitch Run 2026 [$1.00] [Other]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://jawdat.itch.io/glitch-run2026",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:29:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Game that it runs to collect a coins every single level it’s harder",
+      "analysis": {
+        "app_key": "itch:ce324e2f673b84522fba",
+        "summary_ko": "이 게임은 각 레벨마다 코인을 수집하며 진행하는 게임입니다. 레벨이 올라갈수록 난이도가 상승하는 구조를 가지고 있습니다.",
+        "features_ko": [
+          "레벨별로 코인을 수집하는 목표를 제공합니다.",
+          "진행할수록 난이도가 점진적으로 상승합니다."
+        ],
+        "noteworthy_ko": "매우 단순한 루프를 가진 게임으로, 난이도 곡선을 어떻게 설계했는지가 개발의 핵심입니다. 레벨 디자인의 반복성을 어떻게 극복했는지가 흥미로운 지점입니다.",
+        "development_ko": "핵심 기술은 레벨 생성 알고리즘과 난이도 변수 관리입니다. 콘텐츠 제작은 레벨별 배치 디자인에 집중되며, 테스트를 통해 난이도 상승폭을 조정하는 것이 중요합니다.",
+        "idea_ko": "난이도 상승에 따라 코인 수집 방식이 변하는 변칙적인 레벨 디자인을 제안합니다.",
+        "highlights_ko": [
+          "코인 수집이라는 명확한 목표를 가집니다.",
+          "점진적 난이도 상승을 통한 도전 욕구를 자극합니다."
+        ],
+        "systems_ko": [
+          "레벨 관리 시스템",
+          "코인 수집 판정",
+          "난이도 조절 시스템",
+          "UI 점수 표시"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 단순하여 1인 개발자가 구현하기에 적합한 구조입니다. 복잡한 시스템보다는 레벨 디자인에 집중할 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 제어",
+            "코인 수집 및 카운트 기능",
+            "레벨 전환 시스템"
+          ],
+          "defer": [
+            "복잡한 적 캐릭터 AI",
+            "온라인 리더보드"
+          ],
+          "risks": [
+            "단순 반복으로 인한 지루함 발생"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "코인 러시 변주",
+            "concept": "코인을 먹을 때마다 이동 속도가 빨라지거나 화면이 흔들리는 등 환경 변화를 추가합니다. 난이도 상승을 시각적으로 체감하게 합니다.",
+            "first_step": "코인 획득 시 캐릭터 속도 변수 수정 기능 구현하기."
+          },
+          {
+            "title": "중력 반전 코인",
+            "concept": "특정 코인을 먹으면 중력이 반전되어 이동 경로가 바뀌는 규칙을 추가합니다. 단순 수집을 퍼즐 요소로 확장합니다.",
+            "first_step": "중력 방향을 전환하는 물리 엔진 설정 변경하기."
+          }
+        ],
+        "recommendation_ko": "기본적인 게임 루프와 레벨 디자인의 기초를 배우기에 좋습니다. 단순한 게임을 어떻게 확장할지 고민하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "게임의 시점(2D/3D), 조작 방식, 구체적인 난이도 상승 메커니즘이 명시되지 않았습니다.",
+        "name": "Glitch Run 2026 [$1.00] [Other]",
+        "source": "itch",
+        "detail_url": "https://jawdat.itch.io/glitch-run2026",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 371,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 3,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
+    },
+    "google:com.phonecleaner.junk.storage.cleaner": {
+      "app_key": "google:com.phonecleaner.junk.storage.cleaner",
+      "name": "Clean Pro - AI Cleaner",
+      "developer": "BleymarStudio",
+      "source": "google",
+      "country": "JP",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.phonecleaner.junk.storage.cleaner&hl=ja&gl=JP",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:32:27+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Clean Proは、ストレージ容量の解放、ファイルの整理、そしてデバイスの動作をスムーズにするための、強力で使いやすいストレージクリーニングツールです。スマートスキャンと直感的な管理ツールにより、Clean Proは大容量ファイルの迅速な検出、重複写真の削除、アプリの効率的な管理をサポートします。 主な機能 1. 大容量ファイルクリーナー 大容量の動画、古いダウンロードファイル、未使用のドキュメントなどは、貴重なストレージ容量を徐々に圧迫します。Clean Proは、これらのファイルを迅速かつ安全に検出して削除します。 スマートスキャン：デバイス上の大容量ファイルを数秒で検出します。 日付順：長期間使用していないファイルを簡単に見つけることができます。 セーフプレビュー：削除前にファイルを確認し、重要なファイルを誤って削除しないようにします。 一括クリーンアップ：複数のファイルを一度に選択し、より迅速に容量を解放します。 ストレージ整理：ダウンロードファイル、ドキュメント、動画、その他のファイルを整理整頓します。 2. 写真管理 写真は、重複した写真、類似の写真、不要な画像でギャラリーをあっという間にいっぱいにしてしまいます。Clean Proは、写真ライブラリを整理整頓し、常に清潔な状態に保つのに役立ちます。 重複写真検出：ギャラリー内の重複写真を自動的に識別します。 ギャラリー整理：古いスクリーンショット、ぼやけた写真、重複した写真を簡単に見つけることができます。 高速クリーンアップ：不要な写真を一括削除してストレージ容量を解放します。 3. アプリマネージャー インストールされているすべてのアプリケーションを1か所で確認し、より効率的に管理できます。 アプリ概要：インストールされているアプリを1つのインターフェースで分かりやすく表示します。 並べ替えとフィルタリング：アプリを名前、インストール日、またはストレージ使用量で整理します。 不要なアプリのアンインストール：不要になったアプリをすばやく特定して削除します。 Clean Proを選ぶ理由 シンプルで直感的なインターフェース 高速スキャンとクリーンアップ 便利なストレージ管理ツール 時間と容量を節約するために設計されています",
+      "analysis": {
+        "app_key": "google:com.phonecleaner.junk.storage.cleaner",
+        "summary_ko": "Clean Pro는 스마트폰의 저장 공간을 확보하고 파일을 정리하는 관리 도구입니다. 대용량 파일 탐색, 중복 사진 삭제, 앱 관리 기능을 통해 기기 성능을 최적화합니다. 직관적인 인터페이스로 누구나 쉽게 파일을 정리할 수 있도록 돕습니다.",
+        "features_ko": [
+          "스마트 스캔을 통해 대용량 파일을 빠르게 탐색하고 삭제합니다.",
+          "중복되거나 유사한 사진을 자동으로 식별하여 정리합니다.",
+          "설치된 앱 목록을 확인하고 불필요한 앱을 삭제할 수 있습니다.",
+          "파일 삭제 전 미리보기 기능을 통해 중요한 데이터 손실을 방지합니다."
+        ],
+        "noteworthy_ko": "사용자의 불편함을 해결하는 유틸리티 앱으로서, 기능의 직관성과 속도가 핵심입니다. 특히 '안전한 미리보기'와 같은 사용자 배려 기능은 신뢰도를 높이는 중요한 요소입니다. 개인 개발자가 유틸리티 앱을 만들 때 참고할 만한 사용자 경험 설계입니다.",
+        "development_ko": "핵심 기술은 파일 시스템 접근 권한 처리와 이미지 분석 알고리즘입니다. 대용량 파일 스캔 시 성능 저하를 방지하는 최적화가 필수적입니다. 앱 관리 기능은 OS의 권한 정책에 따라 구현 난이도가 달라질 수 있으므로 사전 조사가 필요합니다.",
+        "idea_ko": "단순 정리를 넘어, 사용자가 자주 사용하는 앱의 캐시를 자동으로 관리해주는 '스마트 캐시 관리자' 기능을 추가하는 아이디어가 좋습니다.",
+        "highlights_ko": [
+          "사용자의 저장 공간 문제를 해결하는 명확한 목적성을 가지고 있습니다.",
+          "파일 미리보기 등 안전성을 고려한 설계가 돋보입니다."
+        ],
+        "systems_ko": [
+          "파일 시스템 스캔 엔진",
+          "이미지 유사도 분석 알고리즘",
+          "앱 관리 및 삭제 인터페이스",
+          "데이터 미리보기 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "파일 시스템 접근 권한과 OS별 정책을 준수해야 하며, 이미지 분석 등 기술적 구현 난이도가 높습니다. 또한, 데이터 삭제라는 민감한 기능을 다루므로 높은 수준의 안정성이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "파일 스캔 기능",
+            "파일 삭제 기능",
+            "미리보기 기능"
+          ],
+          "defer": [
+            "이미지 유사도 분석",
+            "앱 관리 기능"
+          ],
+          "risks": [
+            "중요 파일 오삭제 위험",
+            "OS 권한 정책 변경 대응"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "파일 자동 분류기",
+            "concept": "다운로드 폴더의 파일을 문서, 이미지, 영상 등으로 자동 분류하여 정리해주는 시스템입니다.",
+            "first_step": "파일 확장자를 기반으로 폴더를 생성하고 파일을 이동시키는 스크립트를 작성합니다."
+          },
+          {
+            "title": "용량 점유율 시각화",
+            "concept": "어떤 폴더나 앱이 용량을 가장 많이 차지하는지 트리맵 형태로 시각화해주는 시스템입니다.",
+            "first_step": "디렉토리별 용량을 계산하여 UI에 막대 그래프로 표시하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "시스템 권한과 파일 처리에 관심 있는 개발자에게 추천합니다. 다만, 데이터 손실 위험이 있으므로 매우 신중한 테스트가 필요합니다.",
+        "source_limitations_ko": "소개문에는 사용된 이미지 분석 라이브러리나 파일 스캔 알고리즘의 상세 정보가 없습니다. 또한, 보안 관련 기능이나 외부 클라우드 연동 여부는 명시되지 않았습니다.",
+        "name": "Clean Pro - AI Cleaner",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.phonecleaner.junk.storage.cleaner&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 198,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 14,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
+    },
+    "google:com.blb.aos.simyeon": {
+      "app_key": "google:com.blb.aos.simyeon",
+      "name": "심쿵신궁 연대기",
+      "developer": "BaobobLab",
+      "source": "google",
+      "country": "KR",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.blb.aos.simyeon&hl=ko&gl=KR",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:32:47+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "당신의 가슴을 뛰게 할 그녀들과의 연대기가 펼쳐진다, 심쿵신궁 연대기!💗 ======================================== 일렁이는 벚꽃바람에 이끌려 낯선 궁전에 발을 들인 당신. 현기증으로 흐려진 시야가 다시 또렷해지는 순간— 한 여성이 속삭이는데 “깨어나셨군요, 폐하!” 예상치 못한 운명. 그리고 아직 밝혀지지 않은 시간계의 비밀. 지금, 당신의 통치가 시작됩니다. ---------------------------------------- 💠감정이 담겨있는 캐릭터들의 풀보이스 스토리🎙 모든 캐릭터는 단순한 NPC가 아니죠. 각자의 감정과 이야기가 담긴 감성 보이스로 당신에게 말을 걸어오며, 관계가 깊어질수록 히든 대사와 특별한 반응들을 만나볼 수 있어요. ---------------------------------------- 💠단순한 경영이 아닌 ‘실제로 굴리는’ 경영의 재미🍱 일반적인 경영 게임처럼 심심하게 숫자만 올리는 게임이 아니에요. 시간계의 군주가 되어 모든 운영을 직접 해볼 수 있죠. - 기차에서 만찬을 제공하는 기차식당 운영 - 언제나 활기가 넘치는 노래방 운영 - 낚시의 묘미를 즐기고 시장을 움직이는 수산시장 운영 - 자연과 동물을 일구는 농사 콘텐츠 - 왕국의 기운을 끌어올리는 축제 관리 이곳에서는 당신의 선택이 곧 왕국의 미래가 됩니다. ---------------------------------------- 💠왕이 된 이상, 국외 문제에도 대비는 필수⚔ 내정을 잘 다스리는 것만으로는 ‘왕’의 역할이 완성되지 않아요. 왕국을 위협하는 외세에 대비하기 위해 전략적인 판단이 필요할 때도 있죠. 내 나라와 내 사람을 지켜낼 수 있는 것은 오직 당신뿐이랍니다. ---------------------------------------- 💠눈까지 즐거운 캐릭터 꾸미기👗 정신없이 바쁜 일상생활 속 도피는 역시 ‘룩앤필’ 구경이죠. 캐릭터별 다채로운 코스튬, 그리고 함께 모험하는 각양각색의 펫들이 등장합니다. 시즌마다 새로 추가되는 테마 의상으로 당신의 스타일을 마음껏 표현하고, 왕국 속 일상을 더 특별하게 만들어보세요! ======================================== 커뮤니티: https://cafe.naver.com/simkungsingung 고객문의 접수: support_kr@playblb.com ---- 개발자 연락처 : baobob Lab 70 Dusan-ro 금천구, 서울특별시 08584 South Korea 1558101889 1701751250486893 본인신고",
+      "analysis": {
+        "app_key": "google:com.blb.aos.simyeon",
+        "summary_ko": "궁전을 배경으로 한 경영 및 연애 시뮬레이션 게임입니다. 왕이 되어 식당, 노래방, 수산시장 등 다양한 시설을 운영하고 캐릭터들과 교감하며 스토리를 진행합니다. 외세의 침략에 대비한 전략적 판단과 캐릭터 꾸미기 요소도 포함되어 있습니다.",
+        "features_ko": [
+          "캐릭터들의 풀보이스 스토리를 통해 몰입감 있는 연애 시뮬레이션을 제공합니다.",
+          "식당, 노래방, 수산시장 등 다양한 시설을 직접 운영하는 경영 콘텐츠가 포함되어 있습니다.",
+          "왕으로서 왕국을 위협하는 외세에 대비한 전략적 판단을 내려야 합니다.",
+          "캐릭터별 코스튬과 펫을 통해 나만의 스타일로 꾸미기가 가능합니다.",
+          "농사 및 축제 관리 등 왕국 운영을 위한 다양한 콘텐츠를 제공합니다."
+        ],
+        "noteworthy_ko": "경영 시뮬레이션과 연애 스토리를 결합하여 타겟층을 명확히 한 점이 흥미롭습니다. 단순 경영을 넘어 '실제로 굴리는' 재미를 강조한 점은 사용자 참여도를 높이는 전략으로 보입니다.",
+        "development_ko": "다양한 경영 콘텐츠의 로직 구현, 캐릭터 데이터 및 대사 관리, 전략적 전투 시스템이 핵심입니다. 특히 풀보이스 스토리와 코스튬 시스템은 리소스 제작 부담이 매우 크며, 복합적인 시스템 간의 밸런스 조정이 필수적입니다.",
+        "idea_ko": "경영 시설의 효율을 높여주는 '비서 캐릭터'를 영입하고 육성하는 시스템이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "풀보이스를 통한 캐릭터와의 깊은 감정 교류.",
+          "경영, 전략, 꾸미기가 결합된 복합적인 게임 플레이."
+        ],
+        "systems_ko": [
+          "경영 시뮬레이션 로직(자원 관리)",
+          "스토리 및 대화 시스템",
+          "캐릭터 꾸미기 및 데이터 관리",
+          "전략 전투 시스템",
+          "이벤트 및 퀘스트 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "경영, 연애, 전략 등 여러 장르가 혼합되어 있어 구현해야 할 시스템의 양이 방대합니다. 특히 풀보이스와 코스튬 등 리소스 제작 부담이 1인 개발자에게는 매우 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 경영 시설 운영 로직",
+            "텍스트 기반 스토리 진행",
+            "캐릭터 기본 정보 관리"
+          ],
+          "defer": [
+            "풀보이스 더빙",
+            "복잡한 전략 전투 시스템",
+            "다양한 코스튬 및 펫 시스템"
+          ],
+          "risks": [
+            "방대한 콘텐츠로 인한 개발 기간 지연",
+            "시스템 간 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "궁전 비서 육성기",
+            "concept": "왕국 운영을 돕는 비서 캐릭터를 교육하고 능력을 키우는 육성 시뮬레이션입니다. 비서의 능력치에 따라 왕국의 수익이 달라집니다.",
+            "first_step": "비서 캐릭터의 능력치 데이터와 교육 버튼 구현."
+          },
+          {
+            "title": "왕국의 축제 기획자",
+            "concept": "왕국에서 열리는 축제를 기획하고 예산을 배정하는 경영 게임입니다. 축제 결과에 따라 왕국의 명성이 변합니다.",
+            "first_step": "예산 배정 로직과 축제 결과 출력 기능 구현."
+          }
+        ],
+        "recommendation_ko": "복합 장르 게임의 기획과 시스템 설계를 배우고 싶은 개발자에게 추천합니다. 다만, 1인 개발 시에는 범위를 대폭 축소하여 핵심 재미에 집중하는 것이 중요합니다.",
+        "source_limitations_ko": "소개문에는 전투 시스템의 구체적인 방식이나 경영 콘텐츠의 상세 로직이 명시되어 있지 않습니다. 외부 결제나 커뮤니티 연동 기능은 확인되지 않습니다.",
+        "name": "심쿵신궁 연대기",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.blb.aos.simyeon&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 189,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 17,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
+    },
+    "google:org.readera.premium": {
+      "app_key": "google:org.readera.premium",
+      "name": "ReadEra Premium – ebook reader",
+      "developer": "READERA LLC",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=org.readera.premium&hl=en&gl=US",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:33:29+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ReadEra Premium — a unique tool for searching, reading, and managing books and documents. The app allows you to automatically locate all supported books and documents on your device, search for books by title and author, read and listen to books, make bookmarks, notes and quotes, manage book and document files, sort and group books and documents by authors, series, and formats, add them to collections, find duplicate book files, view, rename, and move files across external folders, manage folders — create your own unique library of books and documents. ************* 30-day money-back guarantee! ************* You can search for books across your device, read books for free and manage files in PDF, EPUB, Microsoft Word (DOC, DOCX, RTF), Kindle (MOBI, AZW3), Comic (CBZ, CBR), DJVU, FB2, TXT, ODT, and CHM formats. Premium features: Synchronization. Synchronize books, documents, reading progress, bookmarks, and quotes with Google Drive on all your devices. Read aloud in the background TTS. You can listen to books and documents in the background and even with the screen locked. Section: Quotes, Notes ... All quotes, notes, bookmarks and reviews from all books and documents are collected in one place. Section: Dictionary. One section for all your words from all books and documents. My fonts. You can upload your fonts and use them for reading books and documents. Library view. Customize the view of displaying books and documents in the library: full, brief, thumbnails, grid. Colors for quotes. Additional colors to highlight quotes or text in books and documents you read. Page thumbnails. Thumbnails for all pages of a book being read - quick visual navigation through the book or document. Basic, core features: Search for books and documents Automatic detection of all books and documents on your device. The search function allows you to quickly find the desired book or document by title, author, series, format, or language. Quick navigation through book files found on the device The Books & Documents section displays all supported books and documents found on the device, with options to sort them by title, filename, file format, file size, modification date, and reading date. The Authors section displays all authors of books found on the device. The Series section lists all book series detected on the device. The Collections section allows you to create your own personal collections and add bookmarks to the files of found books and documents. The Downloads section displays all books found in the downloads folder on the device. Managing folders on the device The \"Folders\" section allows you to navigate through external folders, displaying the number of supported books and documents in each folder. This section provides tools for managing folders on the device, including viewing, creating, copying, deleting, and moving folders. Managing book and document files on the device The \"About Document\" section provides tools for managing compatible books and documents. The section contains detailed information about the exact file location, enables quick access to the folder where the file is stored, helps identify duplicate files for a book or document. You can copy, rename, delete, move, and share the document file. Also, you can edit the title, author, and series of a document, view and edit the annotation of a book, open a document for reading, enable text-to-speech, create and edit bookmarks, quotes, and notes in a book or document. Reading Settings Color themes when reading books: day, night, sepia, console. Setting the orientation, screen brightness and page margins, adjusting the font size, type, boldness, line spacing and hyphenation. When reading PDF and Djvu files, zooming is supported. Read and manage books easily and for free with ReadEra Premium!",
+      "analysis": {
+        "app_key": "google:org.readera.premium",
+        "summary_ko": "ReadEra Premium은 다양한 형식의 전자책과 문서를 관리하고 읽을 수 있는 도구입니다. 기기 내 문서를 자동으로 검색하고 저자, 시리즈, 형식별로 분류하여 개인 라이브러리를 구축합니다. TTS(텍스트 읽어주기)와 동기화 기능을 통해 독서 경험을 확장합니다.",
+        "features_ko": [
+          "PDF, EPUB, Word 등 다양한 문서 형식을 지원합니다.",
+          "기기 내 모든 문서를 자동으로 검색하고 관리합니다.",
+          "TTS 기능을 통해 화면이 꺼진 상태에서도 책을 들을 수 있습니다.",
+          "구글 드라이브를 통해 독서 진행 상황과 메모를 동기화합니다.",
+          "다양한 독서 테마와 폰트 설정을 지원합니다."
+        ],
+        "noteworthy_ko": "다양한 파일 포맷을 하나의 앱에서 통합 관리하는 라이브러리 구조가 인상적입니다. 특히 TTS와 동기화 기능은 사용자 편의성을 극대화하는 핵심 요소로 추정됩니다.",
+        "development_ko": "다양한 파일 포맷 파싱 기술과 로컬 파일 시스템 관리 능력이 핵심입니다. TTS 엔진 연동과 클라우드 동기화 로직 구현이 필요하며, 대량의 문서 목록을 효율적으로 보여주기 위한 UI 최적화가 중요합니다.",
+        "idea_ko": "독서 중 생성된 메모와 인용구를 마인드맵 형태로 시각화해주는 기능이 개인 개발자에게 적합합니다.",
+        "highlights_ko": [
+          "모든 메모, 인용구, 북마크를 한곳에서 관리할 수 있습니다.",
+          "사용자가 직접 폰트를 업로드하여 독서 환경을 커스터마이징할 수 있습니다."
+        ],
+        "systems_ko": [
+          "파일 검색 및 인덱싱 시스템",
+          "문서 렌더링 엔진",
+          "TTS 재생 모듈",
+          "클라우드 동기화 관리자",
+          "사용자 설정 및 테마 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 파일 포맷(PDF, EPUB, MOBI 등)을 일관되게 렌더링하는 것은 매우 복잡하며, 파일 시스템 관리와 동기화 로직은 오류 발생 가능성이 높기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "파일 검색 및 목록 표시",
+            "기본 텍스트 뷰어",
+            "북마크 기능"
+          ],
+          "defer": [
+            "TTS 기능",
+            "구글 드라이브 동기화"
+          ],
+          "risks": [
+            "파일 포맷별 렌더링 호환성 문제",
+            "대량 파일 인덱싱 시 성능 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "독서 마인드맵",
+            "concept": "책을 읽으며 작성한 메모를 연결하여 마인드맵으로 시각화합니다. 지식의 구조를 파악하는 데 도움을 줍니다.",
+            "first_step": "메모 데이터를 노드와 엣지 구조로 저장하는 데이터베이스를 설계합니다."
+          },
+          {
+            "title": "단어장 자동 생성",
+            "concept": "독서 중 모르는 단어를 선택하면 자동으로 단어장에 추가하고 예문을 함께 저장합니다.",
+            "first_step": "단어 선택 이벤트와 사전 API를 연동하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "파일 관리 앱의 정석을 배울 수 있는 좋은 사례입니다. 다만, 다양한 포맷 지원은 시간이 많이 걸리므로 한두 가지 포맷에 집중하는 것을 추천합니다.",
+        "source_limitations_ko": "구체적인 파일 파싱 라이브러리, 서버 동기화 아키텍처, TTS 엔진의 상세 구현은 확인되지 않았습니다.",
+        "name": "ReadEra Premium – ebook reader",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=org.readera.premium&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 168,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
+    },
+    "google:net.ekgames.pathwalker": {
+      "app_key": "google:net.ekgames.pathwalker",
+      "name": "PathWalker: 自動バトル ローグライクRPG",
+      "developer": "EKGAMES",
+      "source": "google",
+      "country": "JP",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=net.ekgames.pathwalker&hl=ja&gl=JP",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:34:10+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "滅びた古王国の街道に、モンスターがあふれ始めた。 ひとりの旅人が、その理由を探して世界の果てへと歩き出す。 戦闘はオート、選ぶのはあなた！ ウェーブをクリアするたびにカードを選び、2つのスキルを合成して究極スキルを完成させよう。 ■ 選んで、合成して、強くなる - 戦闘は自動で進行。ウェーブごとに出てくる3枚のカードから1枚を選ぶだけ。 - 攻撃方法を変えるか、スキルを重ねるか？「攻撃変化」カードは攻撃そのものを変え、「スキル」カードは新しい能力を加えます。 - 炎の鎧と防御態勢を合成すれば「燃える鎧」、雷と感電を合成すれば「雷嵐」！ - 6種類の究極スキルと、毎回変わる選択肢。同じステージも違うビルドで攻略しよう。 - 引き直しとオート選択で、気軽にも、じっくりにも。遊び方はあなた次第。 ■ 3つの武器、3つのスキルツリー - 剣：前列をなぎ払う「薙ぎ払い」、2回斬りつける「双剣」 - クロスボウ：ランダムな敵に矢を4本放つ「乱射」、後方の敵まで貫く「弩」 - 魔法の杖：敵をつなぐ「チェインライトニング」、戦場を揺るがす「アースクエイク」 ■ 道の上で積み重なる成長 - 500段階の成長ツリーで、攻撃・防御・HP・速度・命中・会心を強化。 - 戦闘で手に入る特性カードで武器スキルを強化し、ボスにより大きなダメージを。 - 古びた装備から黒鉄の装備まで、高級から超越まで。装備を強化・合成して最強のセットを揃えよう。 ■ 世界の果てまで続く500のステージ - 古王国の街道、黎明の村、ささやきの森、狼の吠える谷、廃墟となった城塞、凍りついた湖… - 100を超える地域を巡り、ゴブリン、ゴーレム、フロストジャイアント、吸血コウモリ、絞め蔓、そして強大なボスを倒そう。 - 道の先に見えるあの城には、何が待っているのだろう？ ■ さまざまな挑戦 - 依頼：村で受けた討伐依頼をこなして、たっぷり報酬を手に入れよう。 - 探索：分かれ道でルートを選び、ボスの弱点を突く能力を集めて攻略。クリア済みの探索は掃討でサクッと！ - アリーナ：8人トーナメントで優勝し、田舎村リーグから王国アリーナまで昇格しよう。 ■ 忙しいときも成長 - 留守の間もたまる巡回報酬 - 片手で遊べる縦画面、すき間時間にぴったりのステージ構成 - Googleアカウント連携で安心のクラウド保存 ドット絵で描かれた中世の道。その果てまで歩む旅人を待っています。 今すぐPath Walkerになって、旅に出よう！",
+      "analysis": {
+        "app_key": "google:net.ekgames.pathwalker",
+        "summary_ko": "중세 판타지 세계를 배경으로 한 자동 전투 로그라이크 RPG입니다. 플레이어는 웨이브마다 주어지는 카드와 스킬을 선택 및 합성하여 자신만의 빌드를 구축하며 500개의 스테이지를 공략합니다. 세로 화면으로 간편하게 즐길 수 있으며, 다양한 무기와 성장 요소를 통해 전략적인 재미를 제공합니다.",
+        "features_ko": [
+          "전투는 자동으로 진행되며 플레이어는 매 웨이브마다 제시되는 3장의 카드 중 하나를 선택합니다.",
+          "공격 방식 변경 카드와 새로운 능력을 추가하는 스킬 카드를 합성하여 고유한 스킬을 생성합니다.",
+          "검, 크로스보우, 마법 지팡이 등 3가지 무기 체계에 따른 스킬 트리를 제공합니다.",
+          "500단계의 성장 트리를 통해 공격력, 방어력, 체력 등 캐릭터의 기본 능력치를 강화합니다.",
+          "아레나 모드를 통해 다른 플레이어들과 토너먼트 방식으로 경쟁할 수 있습니다."
+        ],
+        "noteworthy_ko": "전투를 자동화하고 선택과 합성이라는 로그라이크 요소를 결합하여 조작 부담을 줄인 점이 흥미롭습니다. 스킬 합성 시스템은 조합의 경우의 수를 늘려 매번 다른 빌드를 시도하게 만드는 핵심 동력으로 추정됩니다.",
+        "development_ko": "핵심 기술로는 카드 선택 및 합성 로직을 처리하는 데이터 구조와 자동 전투 엔진이 필요합니다. 500개의 스테이지와 다양한 스킬 조합을 구현하기 위한 밸런스 조정 작업이 가장 큰 부담이 될 것입니다. 도트 그래픽 리소스 제작과 함께 데이터 기반의 성장 시스템을 구축하는 것이 개발의 핵심입니다.",
+        "idea_ko": "특정 테마의 카드 조합을 완성하면 발동하는 '세트 스킬' 시스템을 도입하여 수집의 재미를 강화하는 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "스킬 합성 시스템: 두 가지 카드를 조합하여 새로운 효과를 만드는 전략적 깊이를 제공합니다.",
+          "다양한 게임 모드: 캠페인 외에도 의뢰, 탐험, 아레나 등 다채로운 콘텐츠를 포함합니다."
+        ],
+        "systems_ko": [
+          "자동 전투 엔진",
+          "카드 선택 및 합성 로직",
+          "캐릭터 성장 및 스탯 관리 시스템",
+          "스테이지 진행 및 보상 관리",
+          "UI/UX(세로 모드 최적화)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "자동 전투 기반이라 실시간 물리 연산 부담은 적으나, 수많은 스킬 조합과 500단계의 밸런스를 설계하는 과정에서 상당한 기획력이 요구됩니다. 1인 개발 시에는 스킬의 종류를 대폭 줄여 핵심 메커니즘 위주로 구현하는 것이 적절합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "자동 전투 루프",
+            "카드 선택 및 스킬 합성 시스템",
+            "기본 캐릭터 성장 시스템"
+          ],
+          "defer": [
+            "아레나 모드",
+            "500개 이상의 방대한 스테이지",
+            "클라우드 저장"
+          ],
+          "risks": [
+            "스킬 간 밸런스 붕괴",
+            "반복적인 전투의 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "속성 상성 합성",
+            "concept": "카드에 불, 물, 풀 속성을 부여하고 합성 시 상성에 따른 추가 효과를 발생시킵니다. 단순 수치 증가가 아닌 환경 변화를 유도합니다.",
+            "first_step": "두 가지 속성 카드를 합성했을 때 결과값이 변하는 로직을 먼저 구현합니다."
+          },
+          {
+            "title": "로그라이크 덱 빌딩",
+            "concept": "전투 중 얻는 카드를 덱에 구성하여 다음 웨이브의 확률을 조정합니다. 운의 요소를 전략으로 제어합니다.",
+            "first_step": "카드 덱 리스트를 관리하고 랜덤 뽑기 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "자동 전투와 로그라이크의 결합 방식을 배우기에 좋습니다. 시스템의 복잡도를 낮추고 핵심 재미인 '선택과 합성'에 집중하는 개발 방식을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 스킬 합성 로직의 알고리즘이나 밸런스 수치가 명시되어 있지 않습니다. 또한, 외부 서버 연동이나 결제 시스템에 대한 상세 정보는 확인되지 않습니다.",
+        "name": "PathWalker: 自動バトル ローグライクRPG",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=net.ekgames.pathwalker&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
+    },
+    "apple:1062745479": {
+      "app_key": "apple:1062745479",
+      "name": "HeartWatch: Heart Rate Monitor",
+      "developer": "Tantsissa",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/heartwatch-heart-rate-monitor/id1062745479",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T04:34:10+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "\"HeartWatch is so good, you’d think Apple built the app itself.\" John Patrick Pullen, Time Magazine. Top 5 in Health & Fitness in 100+ countries. TOTAL PRIVACY HeartWatch has no user analytics tracking. No advertising plugins. No 3rd party code. No data upload. Ask your \"free\" heart app if they can say the same. ABOUT HEARTWATCH HeartWatch is the best way to get a complete picture of all the health & fitness information captured by your Apple Watch. NEWS - Explore the different News Editions to learn all about your health progress and trends. - Morning Briefing: read about your key health information to start your day - Fitness Habits: news all about your fitness trends with a dynamic fitness habit tracker WELLNESS - An intelligent view of all key heart rate metrics. Daytime, Sedentary, Sleeping, Waking & Workouts. - Detailed trend analysis including heart rate, blood pressure, HRV, blood glucose, blood oxygen (SpO2) and more. - Background heart rate alerts on Watch with context. - Note capture for individual heart rate readings. - Detailed ECG analysis ACTIVITY - Every day isn’t the same. Intelligent move, distance & steps goals based on your current habits. - Daily forecasting to help you stay on track to meet your goals. WORKOUTS - In depth analysis of heart rate, training summary, GPS maps and more. - A heart focussed workout app on the Watch with custom alerts to keep you in the right zone. - Detailed trend analysis. - Stream workout info from your Watch to your iPhone. JOURNAL & NOTES - Keep a daily journal with notes and measurements - View a detailed list with a complete overview of all notes, measurements and workouts - Input notes and measurements from your Watch or iPhone. Includes blood pressure, temperature, blood glucose, weight, waist circumference and body fat percent. GRAPHS & ANALYSIS - Over 30+ health metrics to view - Apply 7 day and 21 day trends to any metric, with the ability to overlap - View over 6 weeks up to 12 months EXPORT - Export for all health metrics & workouts. NOTHING IS MORE IMPORTANT THAN YOUR HEALTH Heart Watch is a very useful tool to get alerted about any possible health issues in a concise format that you can show your medical practitioner. INTEGRATION HeartWatch connects beautifully with the Eclipse Yourself and AutoSleep apps, our premier sleep, activity, recovery and readiness monitoring apps. HEART MONTH Featured app in the official Apple Heart Month 2022: https://www.apple.com/au/newsroom/2022/01/apple-celebrates-heart-month-with-new-resources-across-services REQUIREMENTS This app requires an iPhone that has the Health App installed. Heart readings are read from the Health Data Store which is ideally populated by your Apple Watch.",
+      "analysis": {
+        "app_key": "apple:1062745479",
+        "summary_ko": "Apple Watch의 건강 데이터를 분석하여 심박수, 수면, 활동량 등을 종합적으로 관리하는 건강 관리 앱입니다. 일일 건강 요약, 상세한 트렌드 분석, 운동 기록 등을 제공하며 사용자의 건강 상태를 시각화합니다. 개인정보 보호를 위해 데이터 추적이나 광고를 포함하지 않는 점이 특징입니다.",
+        "features_ko": [
+          "심박수, 혈압, HRV, 혈당, 혈중 산소 등 다양한 건강 지표를 분석합니다.",
+          "아침 브리핑을 통해 당일의 핵심 건강 정보를 요약 제공합니다.",
+          "사용자의 습관에 기반한 지능적인 활동 목표를 설정합니다.",
+          "운동 중 심박수 분석 및 GPS 경로를 포함한 상세 기록을 제공합니다.",
+          "건강 지표의 7일 및 21일 트렌드 분석 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "Apple HealthKit 데이터를 활용하여 복잡한 건강 지표를 사용자 친화적인 인사이트로 변환하는 능력이 뛰어납니다. 데이터 분석과 시각화가 핵심이며, 개인정보 보호를 강조하는 정책이 사용자 신뢰를 구축하는 중요한 요소로 보입니다.",
+        "development_ko": "Apple HealthKit API와의 연동이 가장 중요하며, 방대한 건강 데이터를 효율적으로 처리하고 시각화하는 차트 라이브러리 활용이 필수적입니다. 데이터의 정확성과 보안이 최우선이며, 사용자에게 의미 있는 분석 결과를 제공하기 위한 통계 알고리즘 구현이 필요합니다.",
+        "idea_ko": "사용자의 건강 지표 변화를 바탕으로 '건강 나이'를 추정하거나, 특정 지표가 악화될 때 생활 습관 개선을 제안하는 개인화된 코칭 기능을 추가할 수 있습니다.",
+        "highlights_ko": [
+          "종합적 분석: 30개 이상의 건강 지표를 연동하여 상세한 트렌드를 제공합니다.",
+          "개인정보 보호: 사용자 데이터 추적이나 광고 플러그인을 배제하여 보안성을 높였습니다."
+        ],
+        "systems_ko": [
+          "HealthKit 데이터 연동 시스템",
+          "데이터 시각화(차트) 엔진",
+          "통계 분석 알고리즘",
+          "사용자 알림 및 요약 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "건강 데이터는 정확성이 생명이며, HealthKit 연동 및 데이터 처리 과정에서 높은 수준의 개발 역량이 필요합니다. 또한, 사용자의 건강 정보를 다루는 만큼 보안 및 개인정보 보호 정책 준수가 매우 까다롭습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "HealthKit 연동 및 데이터 읽기",
+            "심박수 및 활동량 시각화 차트"
+          ],
+          "defer": [
+            "혈당, 혈압 등 복합 지표 분석",
+            "운동 중 실시간 GPS 스트리밍"
+          ],
+          "risks": [
+            "데이터 해석의 정확성 문제",
+            "개인정보 보호 관련 법적 책임"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "건강 습관 챌린지",
+            "concept": "사용자의 건강 데이터를 기반으로 매일 작은 목표를 달성하는 챌린지를 생성합니다.",
+            "first_step": "HealthKit에서 걸음 수 데이터를 가져와 목표 달성 여부를 판단하는 로직을 구현합니다."
+          },
+          {
+            "title": "건강 리포트 공유",
+            "concept": "주간 건강 요약을 PDF로 생성하여 의사나 가족에게 공유할 수 있게 합니다.",
+            "first_step": "데이터를 요약하여 텍스트 파일로 내보내는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "데이터 시각화와 API 연동 기술을 배우기에 최적입니다. 건강 관련 앱은 신뢰도가 중요하므로, 데이터의 정확성과 보안을 최우선으로 고려하는 개발 습관을 기를 수 있습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 데이터 분석 알고리즘이나 타 앱과의 연동 방식(Eclipse Yourself 등)에 대한 기술적 상세 정보는 포함되어 있지 않습니다.",
+        "name": "HeartWatch: Heart Rate Monitor",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/heartwatch-heart-rate-monitor/id1062745479",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
     }
   }
 }
