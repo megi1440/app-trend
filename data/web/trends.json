@@ -1,8 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T09:27:25+09:00",
+  "generated_at": "2026-11-02T04:53:54+09:00",
   "window_days": 30,
   "candidates": [
+    {
+      "app_key": "google:jp.pokemon.pokemontcgp",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "US",
+        "chart": "top_free",
+        "category": "all_games",
+        "before_rank": 91,
+        "after_rank": 3,
+        "change": 88
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
     {
       "app_key": "apple:6670430706",
       "reason_code": "rising_7d",
@@ -11,306 +29,18 @@
         "country": "JP",
         "chart": "top_free",
         "category": "all_apps",
-        "before_rank": 99,
-        "after_rank": 10,
-        "change": 89
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "apple:397728319",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "apple",
-        "country": "KR",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 92,
+        "before_rank": 86,
         "after_rank": 9,
-        "change": 83
+        "change": 77
       },
       "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
+        "2026-10-26",
+        "2026-11-02"
       ],
       "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
     },
     {
-      "app_key": "google:fc.com.ai.translate.live.voice.camera.pdf.doc",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "google",
-        "country": "KR",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 81,
-        "after_rank": 8,
-        "change": 73
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "google:viva.republica.toss",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "google",
-        "country": "KR",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 98,
-        "after_rank": 32,
-        "change": 66
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "apple:873779010",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "apple",
-        "country": "KR",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 100,
-        "after_rank": 37,
-        "change": 63
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "google:com.acepdf.tool",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "google",
-        "country": "JP",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 76,
-        "after_rank": 16,
-        "change": 60
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "google:com.fluffydrop.op.gp",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "google",
-        "country": "JP",
-        "chart": "top_free",
-        "category": "all_games",
-        "before_rank": 92,
-        "after_rank": 33,
-        "change": 59
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "google:com.cscmobi.livestream.idle.clicker",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "google",
-        "country": "JP",
-        "chart": "top_free",
-        "category": "all_games",
-        "before_rank": 97,
-        "after_rank": 38,
-        "change": 59
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "google:com.hwgi.clovr",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "google",
-        "country": "KR",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 83,
-        "after_rank": 30,
-        "change": 53
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "google:io.heseri.car",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "google",
-        "country": "US",
-        "chart": "top_free",
-        "category": "all_games",
-        "before_rank": 84,
-        "after_rank": 37,
-        "change": 47
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "google:com.coupang.mobile",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "google",
-        "country": "KR",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 62,
-        "after_rank": 16,
-        "change": 46
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "google:com.whfplus.location.ker",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "google",
-        "country": "JP",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 59,
-        "after_rank": 14,
-        "change": 45
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "apple:6795797684",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "apple",
-        "country": "KR",
-        "chart": "top_free",
-        "category": "all_games",
-        "before_rank": 68,
-        "after_rank": 23,
-        "change": 45
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "google:com.paradyme.solarsmash",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "google",
-        "country": "US",
-        "chart": "top_free",
-        "category": "all_games",
-        "before_rank": 91,
-        "after_rank": 46,
-        "change": 45
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "google:com.storymatrix.drama",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "google",
-        "country": "KR",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 58,
-        "after_rank": 15,
-        "change": 43
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "apple:541164041",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "apple",
-        "country": "JP",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 75,
-        "after_rank": 33,
-        "change": 42
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "apple:535509415",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "apple",
-        "country": "US",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 87,
-        "after_rank": 45,
-        "change": 42
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "apple:541164041",
+      "app_key": "apple:1556928106",
       "reason_code": "rising_7d",
       "evidence": {
         "source": "apple",
@@ -318,390 +48,12 @@
         "chart": "top_free",
         "category": "all_apps",
         "before_rank": 98,
-        "after_rank": 56,
-        "change": 42
+        "after_rank": 24,
+        "change": 74
       },
       "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "apple:1253773772",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "apple",
-        "country": "KR",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 53,
-        "after_rank": 13,
-        "change": 40
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "google:com.alibaba.aliexpresshd",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "google",
-        "country": "US",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 80,
-        "after_rank": 40,
-        "change": 40
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "google:io.playout",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "google",
-        "country": "US",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 82,
-        "after_rank": 42,
-        "change": 40
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "google:com.pdf.reader.fileviewer.editor",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "google",
-        "country": "JP",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 70,
-        "after_rank": 31,
-        "change": 39
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "google:com.pdfview.reader.word",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "google",
-        "country": "JP",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 63,
-        "after_rank": 25,
-        "change": 38
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "apple:6767834940",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "apple",
-        "country": "US",
-        "chart": "top_free",
-        "category": "all_games",
-        "before_rank": 95,
-        "after_rank": 57,
-        "change": 38
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "google:com.loomgames.pixelflow",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "google",
-        "country": "US",
-        "chart": "top_free",
-        "category": "all_games",
-        "before_rank": 90,
-        "after_rank": 54,
-        "change": 36
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "apple:6791394610",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "apple",
-        "country": "JP",
-        "chart": "top_free",
-        "category": "all_games",
-        "before_rank": 85,
-        "after_rank": 50,
-        "change": 35
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "google:com.gsr.gs25",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "google",
-        "country": "KR",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 88,
-        "after_rank": 53,
-        "change": 35
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "apple:1542920778",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "apple",
-        "country": "JP",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 68,
-        "after_rank": 34,
-        "change": 34
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "apple:1113037275",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "apple",
-        "country": "JP",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 71,
-        "after_rank": 37,
-        "change": 34
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "apple:6762023973",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "apple",
-        "country": "US",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 80,
-        "after_rank": 46,
-        "change": 34
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "apple:1117312593",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "apple",
-        "country": "JP",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 94,
-        "after_rank": 60,
-        "change": 34
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "apple:6752922875",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "apple",
-        "country": "KR",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 90,
-        "after_rank": 57,
-        "change": 33
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "google:jp.co.taimee",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "google",
-        "country": "JP",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 93,
-        "after_rank": 61,
-        "change": 32
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "apple:529379082",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "apple",
-        "country": "US",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 51,
-        "after_rank": 20,
-        "change": 31
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "apple:1498877539",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "apple",
-        "country": "JP",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 62,
-        "after_rank": 31,
-        "change": 31
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "apple:6741567125",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "apple",
-        "country": "JP",
-        "chart": "top_free",
-        "category": "all_games",
-        "before_rank": 75,
-        "after_rank": 44,
-        "change": 31
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "google:net.happywit.screw.out.jam",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "google",
-        "country": "US",
-        "chart": "top_free",
-        "category": "all_games",
-        "before_rank": 75,
-        "after_rank": 44,
-        "change": 31
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "google:com.microsoft.office.word",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "google",
-        "country": "US",
-        "chart": "top_free",
-        "category": "all_apps",
-        "before_rank": 83,
-        "after_rank": 52,
-        "change": 31
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "apple:6639605332",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "apple",
-        "country": "JP",
-        "chart": "top_free",
-        "category": "all_games",
-        "before_rank": 51,
-        "after_rank": 21,
-        "change": 30
-      },
-      "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
+        "2026-10-26",
+        "2026-11-02"
       ],
       "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
     },
@@ -713,37 +65,669 @@
         "country": "US",
         "chart": "top_free",
         "category": "all_games",
-        "before_rank": 57,
-        "after_rank": 27,
-        "change": 30
+        "before_rank": 95,
+        "after_rank": 23,
+        "change": 72
       },
       "source_data_dates": [
-        "2026-10-25",
-        "2026-11-01"
+        "2026-10-26",
+        "2026-11-02"
       ],
       "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
     },
     {
-      "app_key": "apple:922014305",
-      "reason_code": "consistent_30d",
+      "app_key": "google:com.pdfview.reader.word",
+      "reason_code": "rising_7d",
       "evidence": {
-        "observed_days": 11,
-        "last_rank": 1,
-        "source": "apple",
+        "source": "google",
         "country": "JP",
-        "category": "app_health_fitness",
-        "chart": "top_free"
+        "chart": "top_free",
+        "category": "all_apps",
+        "before_rank": 76,
+        "after_rank": 26,
+        "change": 50
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-10-26",
+        "2026-11-02"
       ],
-      "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
     },
     {
-      "app_key": "apple:1272481966",
+      "app_key": "google:com.sled.surfers.game",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "US",
+        "chart": "top_free",
+        "category": "all_games",
+        "before_rank": 76,
+        "after_rank": 28,
+        "change": 48
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "google:com.onefinance.one",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "US",
+        "chart": "top_free",
+        "category": "all_apps",
+        "before_rank": 92,
+        "after_rank": 44,
+        "change": 48
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "google:com.studio27.MelonPlayground",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "US",
+        "chart": "top_free",
+        "category": "all_games",
+        "before_rank": 100,
+        "after_rank": 55,
+        "change": 45
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "apple:6791394610",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "apple",
+        "country": "JP",
+        "chart": "top_free",
+        "category": "all_games",
+        "before_rank": 88,
+        "after_rank": 44,
+        "change": 44
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "google:com.mobirix.ldwm",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "KR",
+        "chart": "top_free",
+        "category": "all_games",
+        "before_rank": 74,
+        "after_rank": 32,
+        "change": 42
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "google:com.tocaboca.tocalifeworld",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "US",
+        "chart": "top_free",
+        "category": "all_games",
+        "before_rank": 87,
+        "after_rank": 46,
+        "change": 41
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "apple:1220373112",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "apple",
+        "country": "JP",
+        "chart": "top_free",
+        "category": "all_apps",
+        "before_rank": 87,
+        "after_rank": 47,
+        "change": 40
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "google:io.playout",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "US",
+        "chart": "top_free",
+        "category": "all_apps",
+        "before_rank": 68,
+        "after_rank": 30,
+        "change": 38
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "google:io.heseri.car",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "US",
+        "chart": "top_free",
+        "category": "all_games",
+        "before_rank": 74,
+        "after_rank": 36,
+        "change": 38
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "google:com.find.spot.photo.hunt.differences.free.hidden",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "KR",
+        "chart": "top_free",
+        "category": "all_games",
+        "before_rank": 77,
+        "after_rank": 39,
+        "change": 38
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "apple:6795797684",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "apple",
+        "country": "KR",
+        "chart": "top_free",
+        "category": "all_games",
+        "before_rank": 58,
+        "after_rank": 21,
+        "change": 37
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "apple:6767834940",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "apple",
+        "country": "US",
+        "chart": "top_free",
+        "category": "all_games",
+        "before_rank": 92,
+        "after_rank": 55,
+        "change": 37
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "google:com.find.spot.photo.hunt.differences.free.hidden",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "JP",
+        "chart": "top_free",
+        "category": "all_games",
+        "before_rank": 92,
+        "after_rank": 55,
+        "change": 37
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "apple:6504849169",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "apple",
+        "country": "US",
+        "chart": "top_free",
+        "category": "all_apps",
+        "before_rank": 70,
+        "after_rank": 34,
+        "change": 36
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "google:com.cscmobi.livestream.idle.clicker",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "JP",
+        "chart": "top_free",
+        "category": "all_games",
+        "before_rank": 78,
+        "after_rank": 42,
+        "change": 36
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "google:com.lavalabs.autodrill",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "US",
+        "chart": "top_free",
+        "category": "all_games",
+        "before_rank": 78,
+        "after_rank": 42,
+        "change": 36
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "google:com.duolingo",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "KR",
+        "chart": "top_free",
+        "category": "all_apps",
+        "before_rank": 60,
+        "after_rank": 25,
+        "change": 35
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "google:me.lyft.android",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "US",
+        "chart": "top_free",
+        "category": "all_apps",
+        "before_rank": 95,
+        "after_rank": 62,
+        "change": 33
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "google:net.peakgames.toonblast",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "JP",
+        "chart": "top_free",
+        "category": "all_games",
+        "before_rank": 90,
+        "after_rank": 58,
+        "change": 32
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "apple:1313147771",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "apple",
+        "country": "JP",
+        "chart": "top_free",
+        "category": "all_apps",
+        "before_rank": 94,
+        "after_rank": 62,
+        "change": 32
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "google:com.rescue.agent",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "JP",
+        "chart": "top_free",
+        "category": "all_games",
+        "before_rank": 52,
+        "after_rank": 21,
+        "change": 31
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "apple:814928018",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "apple",
+        "country": "JP",
+        "chart": "top_free",
+        "category": "all_apps",
+        "before_rank": 79,
+        "after_rank": 48,
+        "change": 31
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "google:com.ubercab",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "US",
+        "chart": "top_free",
+        "category": "all_apps",
+        "before_rank": 84,
+        "after_rank": 53,
+        "change": 31
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "google:com.grandgames.catblockjam",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "KR",
+        "chart": "top_free",
+        "category": "all_games",
+        "before_rank": 89,
+        "after_rank": 58,
+        "change": 31
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "google:com.pic.blast.solitaire",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "US",
+        "chart": "top_free",
+        "category": "all_games",
+        "before_rank": 69,
+        "after_rank": 39,
+        "change": 30
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "google:com.easybrain.arrow.puzzle.game",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "US",
+        "chart": "top_free",
+        "category": "all_games",
+        "before_rank": 80,
+        "after_rank": 50,
+        "change": 30
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "apple:1562641276",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "apple",
+        "country": "JP",
+        "chart": "top_free",
+        "category": "all_apps",
+        "before_rank": 73,
+        "after_rank": 44,
+        "change": 29
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "google:tools.pocket.pdf.editor.expert",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "JP",
+        "chart": "top_free",
+        "category": "all_apps",
+        "before_rank": 80,
+        "after_rank": 51,
+        "change": 29
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "google:epic.mychart.android",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "US",
+        "chart": "top_free",
+        "category": "all_apps",
+        "before_rank": 96,
+        "after_rank": 67,
+        "change": 29
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "apple:529379082",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "apple",
+        "country": "US",
+        "chart": "top_free",
+        "category": "all_apps",
+        "before_rank": 35,
+        "after_rank": 7,
+        "change": 28
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "apple:1105855019",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "apple",
+        "country": "US",
+        "chart": "top_free",
+        "category": "all_games",
+        "before_rank": 62,
+        "after_rank": 34,
+        "change": 28
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "google:com.amazon.avod.thirdpartyclient",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "US",
+        "chart": "top_free",
+        "category": "all_apps",
+        "before_rank": 85,
+        "after_rank": 57,
+        "change": 28
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "apple:436672029",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "apple",
+        "country": "US",
+        "chart": "top_free",
+        "category": "all_apps",
+        "before_rank": 87,
+        "after_rank": 59,
+        "change": 28
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "google:com.coretoolslab.pdfreader.pdfeditor",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "KR",
+        "chart": "top_free",
+        "category": "app_tools",
+        "before_rank": 30,
+        "after_rank": 3,
+        "change": 27
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "google:kr.or.nps.smart",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "google",
+        "country": "KR",
+        "chart": "top_free",
+        "category": "all_apps",
+        "before_rank": 53,
+        "after_rank": 26,
+        "change": 27
+      },
+      "source_data_dates": [
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "apple:1001883210",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "JP",
@@ -751,7 +735,7 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -759,7 +743,7 @@
       "app_key": "apple:1416481094",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "JP",
@@ -767,7 +751,7 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -775,7 +759,7 @@
       "app_key": "apple:6475757306",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "JP",
@@ -783,7 +767,7 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -791,7 +775,7 @@
       "app_key": "apple:6475757306",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "JP",
@@ -799,7 +783,7 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -807,7 +791,7 @@
       "app_key": "apple:6761760135",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "JP",
@@ -815,7 +799,7 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -823,7 +807,7 @@
       "app_key": "apple:6761760135",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "JP",
@@ -831,31 +815,15 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
     {
-      "app_key": "apple:6767834940",
+      "app_key": "apple:573144133",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
-        "last_rank": 1,
-        "source": "apple",
-        "country": "JP",
-        "category": "game_strategy",
-        "chart": "top_free"
-      },
-      "source_data_dates": [
-        "2026-11-01"
-      ],
-      "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
-    },
-    {
-      "app_key": "apple:426644449",
-      "reason_code": "consistent_30d",
-      "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "KR",
@@ -863,7 +831,7 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -871,7 +839,7 @@
       "app_key": "apple:6473753684",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "KR",
@@ -879,7 +847,7 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -887,7 +855,7 @@
       "app_key": "apple:6795797684",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "KR",
@@ -895,7 +863,7 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -903,7 +871,7 @@
       "app_key": "apple:1617391485",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "KR",
@@ -911,7 +879,7 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -919,7 +887,7 @@
       "app_key": "apple:6780387121",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "KR",
@@ -927,7 +895,7 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -935,7 +903,7 @@
       "app_key": "apple:6780387121",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "KR",
@@ -943,7 +911,7 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -951,7 +919,7 @@
       "app_key": "apple:479516143",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "KR",
@@ -959,23 +927,7 @@
         "chart": "top_paid"
       },
       "source_data_dates": [
-        "2026-11-01"
-      ],
-      "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
-    },
-    {
-      "app_key": "apple:6741796873",
-      "reason_code": "consistent_30d",
-      "evidence": {
-        "observed_days": 11,
-        "last_rank": 1,
-        "source": "apple",
-        "country": "US",
-        "category": "all_apps",
-        "chart": "top_free"
-      },
-      "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -983,7 +935,7 @@
       "app_key": "apple:6752672568",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "US",
@@ -991,7 +943,7 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -999,7 +951,7 @@
       "app_key": "apple:426826309",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "US",
@@ -1007,7 +959,7 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -1015,7 +967,7 @@
       "app_key": "apple:1662982304",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "US",
@@ -1023,7 +975,7 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -1031,7 +983,7 @@
       "app_key": "apple:6760173601",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "US",
@@ -1039,7 +991,7 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -1047,7 +999,7 @@
       "app_key": "apple:284815942",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "US",
@@ -1055,7 +1007,7 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -1063,7 +1015,7 @@
       "app_key": "apple:431946152",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "US",
@@ -1071,7 +1023,7 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -1079,7 +1031,7 @@
       "app_key": "apple:329218549",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "US",
@@ -1087,7 +1039,7 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -1095,7 +1047,7 @@
       "app_key": "apple:6468921495",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "US",
@@ -1103,7 +1055,7 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -1111,7 +1063,7 @@
       "app_key": "apple:6752672568",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "US",
@@ -1119,7 +1071,7 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -1127,7 +1079,7 @@
       "app_key": "apple:6752672568",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "US",
@@ -1135,7 +1087,7 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -1143,7 +1095,7 @@
       "app_key": "apple:6443575749",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "US",
@@ -1151,7 +1103,7 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -1159,7 +1111,7 @@
       "app_key": "apple:329218549",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "US",
@@ -1167,7 +1119,7 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -1175,7 +1127,7 @@
       "app_key": "apple:479516143",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "apple",
         "country": "US",
@@ -1183,7 +1135,7 @@
         "chart": "top_paid"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -1191,7 +1143,7 @@
       "app_key": "google:stepcounter.pedometer.stepstracker",
       "reason_code": "consistent_30d",
       "evidence": {
-        "observed_days": 11,
+        "observed_days": 12,
         "last_rank": 1,
         "source": "google",
         "country": "JP",
@@ -1199,7 +1151,55 @@
         "chart": "top_free"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
+      ],
+      "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
+    },
+    {
+      "app_key": "google:net.muji.passport.android",
+      "reason_code": "consistent_30d",
+      "evidence": {
+        "observed_days": 12,
+        "last_rank": 1,
+        "source": "google",
+        "country": "JP",
+        "category": "app_lifestyle",
+        "chart": "top_free"
+      },
+      "source_data_dates": [
+        "2026-11-02"
+      ],
+      "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
+    },
+    {
+      "app_key": "google:com.santa.phone.tracker",
+      "reason_code": "consistent_30d",
+      "evidence": {
+        "observed_days": 12,
+        "last_rank": 1,
+        "source": "google",
+        "country": "JP",
+        "category": "app_tools",
+        "chart": "top_free"
+      },
+      "source_data_dates": [
+        "2026-11-02"
+      ],
+      "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
+    },
+    {
+      "app_key": "google:com.sled.surfers.game",
+      "reason_code": "consistent_30d",
+      "evidence": {
+        "observed_days": 12,
+        "last_rank": 1,
+        "source": "google",
+        "country": "JP",
+        "category": "game_arcade",
+        "chart": "top_free"
+      },
+      "source_data_dates": [
+        "2026-11-02"
       ],
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
@@ -1214,7 +1214,7 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
@@ -1229,12 +1229,12 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
     {
-      "app_key": "apple:922014305",
+      "app_key": "apple:1613682287",
       "reason_code": "overseas_interest",
       "evidence": {
         "source": "apple",
@@ -1244,12 +1244,12 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
     {
-      "app_key": "apple:1272481966",
+      "app_key": "apple:1001883210",
       "reason_code": "overseas_interest",
       "evidence": {
         "source": "apple",
@@ -1259,7 +1259,7 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
@@ -1274,7 +1274,7 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
@@ -1289,7 +1289,7 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
@@ -1304,7 +1304,7 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
@@ -1319,7 +1319,7 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
@@ -1334,7 +1334,7 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
@@ -1349,7 +1349,7 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
@@ -1364,7 +1364,7 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
@@ -1379,12 +1379,12 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
     {
-      "app_key": "apple:6816938728",
+      "app_key": "apple:6639605332",
       "reason_code": "overseas_interest",
       "evidence": {
         "source": "apple",
@@ -1394,12 +1394,12 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
     {
-      "app_key": "apple:6767834940",
+      "app_key": "apple:6742809194",
       "reason_code": "overseas_interest",
       "evidence": {
         "source": "apple",
@@ -1409,22 +1409,7 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
-      ],
-      "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
-    },
-    {
-      "app_key": "apple:6803329435",
-      "reason_code": "overseas_interest",
-      "evidence": {
-        "source": "apple",
-        "country": "JP",
-        "category": "all_apps",
-        "chart": "top_paid",
-        "rank": 1
-      },
-      "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
@@ -1439,12 +1424,12 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
     {
-      "app_key": "apple:6741796873",
+      "app_key": "apple:6742177802",
       "reason_code": "overseas_interest",
       "evidence": {
         "source": "apple",
@@ -1454,7 +1439,7 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
@@ -1469,7 +1454,7 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
@@ -1484,7 +1469,7 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
@@ -1499,7 +1484,7 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
@@ -1514,7 +1499,7 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
@@ -1529,7 +1514,7 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
@@ -1544,7 +1529,7 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
@@ -1559,7 +1544,7 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
@@ -1574,7 +1559,7 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
@@ -1589,7 +1574,7 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
@@ -1604,7 +1589,7 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
@@ -1619,7 +1604,7 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
@@ -1634,7 +1619,7 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
@@ -1649,629 +1634,596 @@
         "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
     {
-      "app_key": "apple:1062745479",
-      "reason_code": "newly_seen",
+      "app_key": "apple:6803329435",
+      "reason_code": "overseas_interest",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "source": "apple",
+        "country": "US",
+        "category": "all_apps",
+        "chart": "top_paid",
+        "rank": 1
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
+      ],
+      "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
+    },
+    {
+      "app_key": "apple:1072655144",
+      "reason_code": "newly_seen",
+      "evidence": {
+        "first_seen": "2026-11-02"
+      },
+      "source_data_dates": [
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:1069691018",
+      "app_key": "apple:1357742931",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:1255389331",
+      "app_key": "apple:1375031369",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:1274972321",
+      "app_key": "apple:1445468443",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:1303314426",
+      "app_key": "apple:1451784328",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:1341634219",
+      "app_key": "apple:1454849875",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:1399926805",
+      "app_key": "apple:1505220130",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:1456714515",
+      "app_key": "apple:1506042235",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:1466193804",
+      "app_key": "apple:1510097347",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:1495944896",
+      "app_key": "apple:1553777064",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:1543845882",
+      "app_key": "apple:1556357398",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:1550582628",
+      "app_key": "apple:1579424683",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:1611101399",
+      "app_key": "apple:1633480108",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:1626245204",
+      "app_key": "apple:1666653815",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:1630058362",
+      "app_key": "apple:387363739",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:297430070",
+      "app_key": "apple:587248280",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:315795555",
+      "app_key": "apple:595291824",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:327228455",
+      "app_key": "apple:6471968553",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:336860594",
+      "app_key": "apple:6505052161",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:436491861",
+      "app_key": "apple:6739554054",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:487922291",
+      "app_key": "apple:6745802977",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:592331499",
+      "app_key": "apple:6749303003",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:6449007256",
+      "app_key": "apple:6763063611",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:6468901311",
+      "app_key": "apple:6768240254",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:6737597349",
+      "app_key": "apple:6778361786",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:6740383289",
+      "app_key": "apple:6793352325",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:6740720825",
+      "app_key": "apple:6799718816",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:6742177802",
+      "app_key": "apple:6813545317",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:6742874436",
+      "app_key": "apple:6822935249",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:6748804238",
+      "app_key": "apple:934694176",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:6762513021",
+      "app_key": "apple:960804043",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:6786589102",
+      "app_key": "google:coin.com.drama",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:6803819743",
+      "app_key": "google:com.EternalStudio.GearFight",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:6804524644",
+      "app_key": "google:com.FireproofStudios.TheRoom2",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:6811786208",
+      "app_key": "google:com.WalkTalk.UpgradeApocalypse",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:6814090549",
+      "app_key": "google:com.arrowglide.mergequest",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:6815260519",
+      "app_key": "google:com.att.shm",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:6816636605",
+      "app_key": "google:com.bupavon.qrcode.reader.scanner.barcode.generator",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:6818057685",
+      "app_key": "google:com.contentsmadang.fancast",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:6820410624",
+      "app_key": "google:com.coreplane.badukpop.prod",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:6824686276",
+      "app_key": "google:com.health.walking.steptracker.goals.dailyactivitytracker.app",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:6827968626",
+      "app_key": "google:com.ironhidegames.android.kingdomrush.alliance",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:780174422",
+      "app_key": "google:com.ironhidegames.android.kingdomrush4",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:910133705",
+      "app_key": "google:com.ironhidegames.android.kingdomrushfrontiers",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "apple:934388166",
+      "app_key": "google:com.kayac.BuildFight",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "google:bus.match.traffic.car.puzzles.parking",
+      "app_key": "google:com.loop.packedloop",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "google:calo.ai.calorie.counter.weight.loss.diet.nutrition.macro.tracker.fasting",
+      "app_key": "google:com.luvasadistro.phoneclean.storage",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "google:com.Aniedu.VisualNovel4",
+      "app_key": "google:com.match.gta.lastride",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "google:com.FireproofStudios.TheRoom3",
+      "app_key": "google:com.neogullab.gurigurikingdom",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "google:com.FireproofStudios.TheRoom4",
+      "app_key": "google:com.nwz.celebchamp",
       "reason_code": "newly_seen",
       "evidence": {
-        "first_seen": "2026-11-01"
+        "first_seen": "2026-11-02"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
       ],
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
-      "app_key": "itch:9ee1be310348ce89cc22",
-      "reason_code": "indie_discovery",
-      "evidence": {
-        "feed": "puzzle",
-        "first_seen": "2026-11-01"
-      },
-      "source_data_dates": [
-        "2026-11-01"
-      ],
-      "confidence_note": "itch.io 피드에 등장한 게임이며 인기 순위가 아닙니다."
-    },
-    {
-      "app_key": "itch:a3321ff11c01e999eb93",
-      "reason_code": "indie_discovery",
-      "evidence": {
-        "feed": "puzzle",
-        "first_seen": "2026-11-01"
-      },
-      "source_data_dates": [
-        "2026-11-01"
-      ],
-      "confidence_note": "itch.io 피드에 등장한 게임이며 인기 순위가 아닙니다."
-    },
-    {
-      "app_key": "itch:1b8f5ffbcf5e08cdb069",
-      "reason_code": "indie_discovery",
-      "evidence": {
-        "feed": "puzzle",
-        "first_seen": "2026-10-30"
-      },
-      "source_data_dates": [
-        "2026-11-01"
-      ],
-      "confidence_note": "itch.io 피드에 등장한 게임이며 인기 순위가 아닙니다."
-    },
-    {
-      "app_key": "itch:d36c185c9b19ae629c3c",
-      "reason_code": "indie_discovery",
-      "evidence": {
-        "feed": "puzzle",
-        "first_seen": "2026-10-31"
-      },
-      "source_data_dates": [
-        "2026-11-01"
-      ],
-      "confidence_note": "itch.io 피드에 등장한 게임이며 인기 순위가 아닙니다."
-    },
-    {
-      "app_key": "itch:59f27bf459197c17546b",
-      "reason_code": "indie_discovery",
-      "evidence": {
-        "feed": "puzzle",
-        "first_seen": "2026-10-26"
-      },
-      "source_data_dates": [
-        "2026-11-01"
-      ],
-      "confidence_note": "itch.io 피드에 등장한 게임이며 인기 순위가 아닙니다."
-    },
-    {
-      "app_key": "itch:e36de87bfc64bb255806",
+      "app_key": "itch:098d342400cd9d6d4c4d",
       "reason_code": "indie_discovery",
       "evidence": {
         "feed": "puzzle",
         "first_seen": "2026-10-27"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
+      ],
+      "confidence_note": "itch.io 피드에 등장한 게임이며 인기 순위가 아닙니다."
+    },
+    {
+      "app_key": "itch:a6c31d8ed9ecf60ee93c",
+      "reason_code": "indie_discovery",
+      "evidence": {
+        "feed": "puzzle",
+        "first_seen": "2026-11-02"
+      },
+      "source_data_dates": [
+        "2026-11-02"
       ],
       "confidence_note": "itch.io 피드에 등장한 게임이며 인기 순위가 아닙니다."
     },
@@ -2283,7 +2235,55 @@
         "first_seen": "2026-10-29"
       },
       "source_data_dates": [
-        "2026-11-01"
+        "2026-11-02"
+      ],
+      "confidence_note": "itch.io 피드에 등장한 게임이며 인기 순위가 아닙니다."
+    },
+    {
+      "app_key": "itch:d36c185c9b19ae629c3c",
+      "reason_code": "indie_discovery",
+      "evidence": {
+        "feed": "puzzle",
+        "first_seen": "2026-10-31"
+      },
+      "source_data_dates": [
+        "2026-11-02"
+      ],
+      "confidence_note": "itch.io 피드에 등장한 게임이며 인기 순위가 아닙니다."
+    },
+    {
+      "app_key": "itch:1b8f5ffbcf5e08cdb069",
+      "reason_code": "indie_discovery",
+      "evidence": {
+        "feed": "puzzle",
+        "first_seen": "2026-10-30"
+      },
+      "source_data_dates": [
+        "2026-11-02"
+      ],
+      "confidence_note": "itch.io 피드에 등장한 게임이며 인기 순위가 아닙니다."
+    },
+    {
+      "app_key": "itch:e36de87bfc64bb255806",
+      "reason_code": "indie_discovery",
+      "evidence": {
+        "feed": "puzzle",
+        "first_seen": "2026-10-27"
+      },
+      "source_data_dates": [
+        "2026-11-02"
+      ],
+      "confidence_note": "itch.io 피드에 등장한 게임이며 인기 순위가 아닙니다."
+    },
+    {
+      "app_key": "itch:3977a1435c1af8d7babf",
+      "reason_code": "indie_discovery",
+      "evidence": {
+        "feed": "puzzle",
+        "first_seen": "2026-11-02"
+      },
+      "source_data_dates": [
+        "2026-11-02"
       ],
       "confidence_note": "itch.io 피드에 등장한 게임이며 인기 순위가 아닙니다."
     }
