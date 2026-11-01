@@ -8142,6 +8142,542 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-01"
+    },
+    "apple:1445468443": {
+      "app_key": "apple:1445468443",
+      "name": "온더훅 : 더 얼티밋 패트론 에디션",
+      "developer": "Yohan Song",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%98%A8%EB%8D%94%ED%9B%85-%EB%8D%94-%EC%96%BC%ED%8B%B0%EB%B0%8B-%ED%8C%A8%ED%8A%B8%EB%A1%A0-%EC%97%90%EB%94%94%EC%85%98/id1445468443?uo=2",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T04:56:20+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "■더 얼티밋 패트론 에디션이란? '온더훅 : 더 얼티밋 패트론 에디션'은 온더훅의 후원 버전입니다. 일반적인 FREE 버전과는 아래와 같은 차이점이 있습니다. -광고 제거! -플레이어 타자 속도 향상! -더욱 화려해진 아이콘! -팀 그라목손으로부터의 무궁한 감사...! 항상 배고픈 팀 그라목손의 궁극의 스폰서가 되어주세요. ■좀 더 많은 정보와 소식을 바라신다면? ▶공식 트위터 https://twitter.com/teamgramoxone ▶공식 블로그 http://blog.naver.com/teamgramoxone ▶버그제보 team.gramoxone@gmail.com",
+      "analysis": {
+        "app_key": "apple:1445468443",
+        "summary_ko": "이 앱은 '온더훅' 게임의 후원자 전용 에디션으로, 광고 제거와 타자 속도 향상 등의 편의 기능을 제공합니다. 후원자들에게 감사를 표하며 게임의 몰입도를 높이는 데 중점을 둔 버전입니다. 기존 무료 버전의 핵심 경험을 유지하면서 쾌적한 플레이 환경을 지원합니다.",
+        "features_ko": [
+          "게임 내 광고를 완전히 제거하여 몰입감을 높였습니다.",
+          "플레이어의 타자 속도를 향상시켜 게임 진행을 빠르게 합니다.",
+          "후원자 전용의 화려한 아이콘을 제공합니다."
+        ],
+        "noteworthy_ko": "기존 게임의 기능을 수정하여 후원자에게 혜택을 주는 방식은 팬덤을 강화하는 좋은 전략입니다. 기술적으로는 기존 데이터와 연동하여 특정 기능만 해금하는 구조로 추정됩니다.",
+        "development_ko": "기존 게임의 코드베이스를 활용하여 특정 플래그(Flag)에 따라 기능을 활성화하는 방식입니다. 광고 제거와 속도 조절은 비교적 구현이 간단하지만, 기존 저장 데이터와의 호환성 유지가 중요합니다. 테스트는 기존 버전과 동일한 환경에서 진행되어야 합니다.",
+        "idea_ko": "후원자 전용 에디션에만 제공되는 '개발자 비하인드 스토리'나 '미공개 아트워크 갤러리'를 추가하여 가치를 높이는 것을 제안합니다.",
+        "highlights_ko": [
+          "광고 제거를 통해 끊김 없는 플레이 경험을 제공합니다.",
+          "후원자만을 위한 시각적 차별화 요소를 포함하고 있습니다."
+        ],
+        "systems_ko": [
+          "인앱 결제 검증 시스템",
+          "기능 해금 관리자(Flag Manager)",
+          "데이터 동기화 및 저장"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "기존 게임의 기능을 확장하는 형태이므로 새로운 게임을 만드는 것보다 훨씬 구현 난도가 낮습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "광고 제거 로직",
+            "타자 속도 변수 수정"
+          ],
+          "defer": [
+            "추가적인 게임 콘텐츠",
+            "서버 연동 기능"
+          ],
+          "risks": [
+            "기존 버전과의 데이터 충돌",
+            "결제 검증 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "후원자 전용 갤러리",
+            "concept": "게임 내 등장하는 캐릭터들의 초기 설정화나 미공개 일러스트를 볼 수 있는 메뉴입니다.",
+            "first_step": "이미지 리소스를 로드하고 슬라이드 형태로 보여주는 간단한 뷰어를 만듭니다."
+          },
+          {
+            "title": "커스텀 테마",
+            "concept": "후원자가 게임의 UI 색상이나 폰트를 직접 변경할 수 있는 기능입니다.",
+            "first_step": "앱 내 설정에서 색상 값을 변경하여 UI에 즉시 반영하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "기존 프로젝트를 활용해 수익 모델을 다각화하는 방법을 배우기에 적합합니다. 팬들과 소통하며 가치를 제공하는 서비스 운영 방식을 익힐 수 있습니다.",
+        "source_limitations_ko": "소개문에 명시된 '타자 속도 향상'의 구체적인 수치나 게임 내 데이터 구조는 확인되지 않습니다. 인앱 결제 시스템의 구체적인 구현 방식은 알 수 없습니다.",
+        "name": "온더훅 : 더 얼티밋 패트론 에디션",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%98%A8%EB%8D%94%ED%9B%85-%EB%8D%94-%EC%96%BC%ED%8B%B0%EB%B0%8B-%ED%8C%A8%ED%8A%B8%EB%A1%A0-%EC%97%90%EB%94%94%EC%85%98/id1445468443?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 198,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 14,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
+    },
+    "google:fc.free.pdfreader.proeditor.pdfviewer": {
+      "app_key": "google:fc.free.pdfreader.proeditor.pdfviewer",
+      "name": "PDF 리더: 보기, 편집, 스캔",
+      "developer": "Daily Tool Labs",
+      "source": "google",
+      "country": "KR",
+      "category": "app_productivity",
+      "detail_url": "https://play.google.com/store/apps/details?id=fc.free.pdfreader.proeditor.pdfviewer&hl=ko&gl=KR",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T04:56:42+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "📘 XPDF Reader – PDF 읽기, 변환, 편집 – 올인원 XPDF는 PDF 문서 읽기, 변환, 편집, 관리를 모두 하나의 간단한 앱에서 해결하는 강력한 PDF 리더, 변환기, 편집기입니다. 학생, 직장인, 일반 사용자 누구에게나 XPDF는 언제 어디서나 PDF 작업을 할 수 있는 도구를 제공합니다. 📖 부드러운 PDF 리더 & 뷰어 어디서나 편안하게 읽기 빠른 열기 및 렌더링 부드러운 스크롤과 줌 PDF 내 텍스트를 쉽게 검색 ✍️ 편집, 서명 및 주석 이동 중에도 PDF 작업 전자 서명 추가 이미지 또는 텍스트 삽입 강조, 밑줄, 메모 추가 📄 PDF 페이지를 쉽게 관리 문서를 완벽하게 제어 페이지 삭제, 복사, 재정렬 여러 PDF를 하나로 병합 대용량 PDF를 작은 파일로 분할 🖼️ PDF 및 이미지 변환 유연한 파일 변환 PDF를 JPG 또는 PNG로 변환 이미지를 고품질 PDF로 변환 쉽게 공유하고 저장 🔐 PDF 보호 및 보안 문서를 안전하게 보관 비밀번호로 PDF 잠금 및 잠금 해제 텍스트 또는 이미지 워터마크 추가 기밀 파일 보호 📷 문서 스캔 및 PDF에 추가 카메라를 스캐너로 전환 영수증, 메모, 문서 스캔 스캔한 페이지를 기존 PDF에 바로 추가 🔍 OCR – 이미지에서 텍스트 추출 이미지를 편집 가능한 텍스트로 변환 정확한 텍스트 인식 스캔 문서에서 텍스트 복사, 편집, 검색, 공유 여러 언어 지원 📤 한 번의 탭으로 공유 및 내보내기 빠르고 간편한 공유 이메일, 메신저, SNS로 공유 PDF 또는 이미지 파일로 내보내기 ⭐ XPDF를 선택해야 하는 이유 PDF 읽기, 변환, 편집 – 올인원 앱 깔끔하고 심플하며 사용자 친화적인 디자인 업무, 학습, 일상에 필요한 강력한 도구 XPDF – 스마트하고, 빠르고, 신뢰할 수 있습니다. 지금 다운로드하여 PDF 작업을 간소화하세요!",
+      "analysis": {
+        "app_key": "google:fc.free.pdfreader.proeditor.pdfviewer",
+        "summary_ko": "PDF 문서의 읽기, 편집, 변환, 관리를 통합적으로 수행하는 생산성 도구입니다. 문서 스캔, 텍스트 추출(OCR), 파일 병합 및 분할 등 다양한 기능을 제공합니다. 학생과 직장인을 대상으로 문서 작업 효율을 높이는 것을 목표로 합니다.",
+        "features_ko": [
+          "PDF 내 텍스트 검색 및 부드러운 스크롤/줌 기능을 제공합니다.",
+          "전자 서명 추가 및 이미지/텍스트 삽입을 통해 문서를 편집합니다.",
+          "여러 PDF 파일을 하나로 병합하거나 대용량 파일을 분할합니다.",
+          "카메라를 활용하여 문서를 스캔하고 PDF로 변환합니다.",
+          "OCR 기술을 사용하여 이미지 내 텍스트를 추출하고 편집 가능한 상태로 만듭니다."
+        ],
+        "noteworthy_ko": "다양한 기능을 하나의 앱에 통합한 '올인원' 전략이 돋보입니다. 특히 OCR과 같은 고도화된 기술을 모바일 환경에서 어떻게 최적화하여 구현했는지가 개발 관점에서 매우 흥미롭습니다.",
+        "development_ko": "PDF 렌더링 엔진과 OCR 라이브러리 활용이 핵심입니다. 파일 시스템 접근 권한과 보안 처리가 중요하며, 다양한 기기에서의 호환성 테스트가 필수적입니다. 기능이 많은 만큼 각 기능의 안정성을 유지하는 것이 제작 부담의 핵심입니다.",
+        "idea_ko": "특정 목적(예: 영수증 정리, 계약서 관리)에 특화된 경량화된 문서 관리 도구.",
+        "highlights_ko": [
+          "읽기부터 편집, 변환, 스캔까지 문서 작업의 전 과정을 지원합니다.",
+          "OCR 기능을 통해 이미지 기반 문서를 텍스트로 변환하는 강력한 기능을 포함합니다."
+        ],
+        "systems_ko": [
+          "PDF 렌더링 및 편집 엔진",
+          "이미지 처리 및 OCR 엔진",
+          "파일 관리 및 저장소 시스템",
+          "사용자 인터페이스(UI) 및 제스처 처리",
+          "공유 및 내보내기 모듈"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "PDF 파싱 및 렌더링은 매우 복잡한 기술입니다. 특히 OCR과 같은 고성능 라이브러리를 안정적으로 구현하고 최적화하는 것은 1인 개발자에게 상당한 기술적 난이도를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "PDF 뷰어(읽기/스크롤)",
+            "파일 불러오기 및 저장",
+            "기본 주석(하이라이트) 기능"
+          ],
+          "defer": [
+            "OCR 텍스트 추출",
+            "PDF 암호화 및 보안",
+            "복잡한 파일 병합/분할"
+          ],
+          "risks": [
+            "PDF 규격 호환성 문제",
+            "메모리 관리 및 앱 성능 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "간편 영수증 스캐너",
+            "concept": "영수증만 전문적으로 스캔하여 날짜와 금액을 자동으로 분류해주는 앱입니다. 범용 PDF 앱보다 특정 목적에 집중합니다.",
+            "first_step": "카메라로 촬영한 이미지를 특정 폴더에 저장하고 날짜를 입력하는 앱 제작."
+          },
+          {
+            "title": "PDF 주석 공유기",
+            "concept": "PDF를 읽으면서 남긴 메모와 주석만 따로 추출하여 텍스트 파일로 공유하는 앱입니다. 학습용으로 최적화합니다.",
+            "first_step": "PDF 내 주석 데이터를 추출하여 텍스트로 보여주는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "문서 처리 기술과 파일 시스템 관리를 배우기에 적합합니다. 다만, 범용 PDF 앱은 이미 시장에 많으므로 특정 타겟을 위한 기능적 차별화가 필요합니다.",
+        "source_limitations_ko": "사용된 PDF 렌더링 엔진의 종류, OCR 라이브러리의 정확도, 클라우드 연동 여부 등은 확인되지 않습니다. 보안 기능의 실제 구현 방식은 명시되지 않았습니다.",
+        "name": "PDF 리더: 보기, 편집, 스캔",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=fc.free.pdfreader.proeditor.pdfviewer&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 195,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 15,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
+    },
+    "apple:6739554054": {
+      "app_key": "apple:6739554054",
+      "name": "Genspark（ジェンスパーク）AIワークスペース",
+      "developer": "GENSPARK INC",
+      "source": "apple",
+      "country": "JP",
+      "category": "app_productivity",
+      "detail_url": "https://apps.apple.com/jp/app/genspark-%E3%82%B8%E3%82%A7%E3%83%B3%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AF-ai%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9/id6739554054?uo=2",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T04:58:10+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Gensparkは、面倒な作業を“オートパイロット（自動化）”で片づける、オールインワンAIワークスペースです。 プロンプトを入力するだけ。あとはGensparkが調査・作成・整理まで一気通貫で進めます。 スーパーエージェント ・どんな質問でも、素早く正確に回答 ・トピックを自律的にリサーチし、必要な情報を幅広く収集 ・シンプルなプロンプトだけで、高品質な画像・動画・音声を生成 AI スライド ・プロンプトを入力するだけで、会議・提案にそのまま使える“ボードルーム品質”のスライドを自動作成 ・自動リサーチで内容を補強し、手間なく説得力のあるプレゼンへ AI シート ・プロンプトを入力するだけで、Excel作業をオートパイロット化（情報収集／数式作成／テンプレート作成を自動化） ・データからインサイトまで、数秒で到達 AI ドキュメント ・プロンプトを入力するだけで、プロ品質のドキュメントを自動作成 ・数百のインテリジェントなテンプレートが、固定の型に縛られず用途に合わせて柔軟にフィット AI デベロッパー ・プロンプトを入力するだけで、Webサイト・ネイティブアプリ・ゲームを自動開発 ・GitHubとフル連携。コード編集からプルリクエストまで開発フローをスムーズに AI 会議メモ ・会議を自動で文字起こしし、要点がまとまった見やすい議事録を生成 ・ワンクリックで参加者全員へ簡単共有 AI チャット ・GPT、Claude、Gemini、Grokなど最上位クラスのAIモデルと無料でチャット（常に最新） AI 画像 ・Nano Banana Pro、GPT Image、FLUX、Seedreamなど最上位クラスの画像モデルを無料で利用（常に最新） AI 動画 ・対応する動画生成モデルを使って動画を作成できます ここからが本番です。 AIデザイナー、フォトジーニアス、クリップジーニアス、AIポッドキャスト、ディープリサーチなど、次世代の生産性を加速する機能がさらに充実。 Gensparkで、“忙しい作業”を自動化しましょう。 利用規約（Terms of Use）：https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ 利用規約（Terms of Service）：https://www.genspark.ai/ja/terms プライバシーポリシー（Privacy policy）：https://www.genspark.ai/ja/privacy",
+      "analysis": {
+        "app_key": "apple:6739554054",
+        "summary_ko": "사용자의 업무를 자동화하여 조사, 작성, 정리까지 한 번에 처리하는 AI 기반 워크스페이스입니다. 프로토타입 입력만으로 슬라이드, 문서, 코드, 이미지 등을 생성하며 다양한 AI 모델을 통합하여 제공합니다. 복잡한 작업을 자동화하여 생산성을 높이는 것을 목표로 합니다.",
+        "features_ko": [
+          "질문이나 요청에 대해 자율적으로 리서치하고 정확한 답변을 제공합니다.",
+          "프롬프트 입력만으로 회의용 슬라이드와 문서를 자동으로 생성합니다.",
+          "Excel 작업을 자동화하여 데이터 분석 및 수식 생성을 지원합니다.",
+          "웹사이트, 앱, 게임 개발을 위한 코드 생성 및 GitHub 연동을 지원합니다.",
+          "회의 내용을 자동으로 기록하고 요약하여 공유할 수 있습니다."
+        ],
+        "noteworthy_ko": "다양한 AI 모델을 하나의 워크스페이스로 통합한 점이 흥미롭습니다. 개인 개발 시에는 각 AI 모델의 API를 효율적으로 관리하고 프롬프트 엔지니어링을 최적화하는 것이 핵심이 될 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 다양한 AI 모델 API 연동 및 프롬프트 관리 시스템입니다. 콘텐츠 제작 부담은 낮으나, AI 응답의 정확성을 높이기 위한 프롬프트 최적화와 사용자 인터페이스 설계가 중요합니다.",
+        "idea_ko": "특정 업무(예: 회의록 요약)에 특화된 AI 비서 앱이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "다양한 AI 모델을 한곳에서 사용하여 사용자의 작업 효율을 극대화합니다.",
+          "자동화 기능을 통해 반복적인 업무 시간을 획기적으로 단축합니다."
+        ],
+        "systems_ko": [
+          "AI 모델 API 연동 시스템",
+          "프롬프트 관리 및 최적화 시스템",
+          "사용자 데이터 저장 및 관리 시스템",
+          "문서/슬라이드 생성 및 내보내기 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "여러 AI 모델의 API를 안정적으로 연동하고, 사용자의 의도를 정확히 파악하는 프롬프트 시스템을 구축하는 것은 높은 기술적 숙련도를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "단일 AI 모델 API 연동",
+            "사용자 입력 및 결과 출력 UI",
+            "기본 프롬프트 템플릿"
+          ],
+          "defer": [
+            "다양한 AI 모델 전환 기능",
+            "GitHub 연동",
+            "복잡한 문서 서식 지원"
+          ],
+          "risks": [
+            "API 비용 관리",
+            "AI 응답의 일관성 및 정확성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "개인 맞춤형 학습 요약기",
+            "concept": "긴 학습 자료를 입력하면 AI가 핵심 내용을 요약하고 퀴즈를 생성해 주는 앱입니다.",
+            "first_step": "텍스트 요약 API 연동 및 퀴즈 생성 로직 구현."
+          },
+          {
+            "title": "코드 리뷰 AI",
+            "concept": "작성한 코드를 입력하면 AI가 버그를 찾고 개선 방향을 제안하는 도구입니다.",
+            "first_step": "코드 분석 API 연동 및 결과 출력 UI 구현."
+          }
+        ],
+        "recommendation_ko": "최신 AI 기술을 활용한 서비스 개발 경험을 쌓기에 매우 좋습니다. 다만, 모든 기능을 구현하려 하기보다 특정 도메인에 특화된 AI 도구를 만드는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 사용되는 AI 모델의 구체적인 API 명세나 데이터 보안 정책이 명시되어 있지 않습니다. 실제 개발 시에는 API 비용과 데이터 프라이버시 문제를 반드시 고려해야 합니다.",
+        "name": "Genspark（ジェンスパーク）AIワークスペース",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/genspark-%E3%82%B8%E3%82%A7%E3%83%B3%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AF-ai%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9/id6739554054?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
+    },
+    "apple:6799718816": {
+      "app_key": "apple:6799718816",
+      "name": "캄플 Calmple: 마음을 돌보는 사찰",
+      "developer": "chaeri ha",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%BA%84%ED%94%8C-calmple-%EB%A7%88%EC%9D%8C%EC%9D%84-%EB%8F%8C%EB%B3%B4%EB%8A%94-%EC%82%AC%EC%B0%B0/id6799718816?uo=2",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T04:58:50+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "일상에서 시작하는 마음 수행. 나만의 사찰 Calmple에서 잠시 쉬어가요. 동물 주지스님과 고민을 나누고, 가벼운 수행으로 나를 천천히 돌아보세요. ■ 일상 속 고민을 담은 프로그램 인간관계에서 마음이 다치거나, 해야 할 일을 자꾸 미루게 되나요? 지금 내 고민과 가까운 프로그램에서 주지스님과 함께 생각과 감정을 살펴보세요. 호흡을 고르고 질문에 답하며, 오늘 해볼 수 있는 작은 행동을 찾아봐요. ■ 수행이 어렵게 느껴졌나요? 두꺼비 목탁을 톡톡 두드리고, 염주를 넘기며 손끝에 집중해 보세요. 배경 소리에 귀를 기울이거나, 들이쉬고 내쉬는 숨을 천천히 느껴봐요. 오늘 하고 싶은 가벼운 수행 하나부터, 일상에 마음챙김 습관을 들여보세요. ■ 귀여운 주지스님과 나누는 차담 누군가에게 털어놓고 싶은 고민이 있나요? 동물 주지스님과 마주 앉아, 일기 쓰듯 편하게 오늘의 이야기를 들려주세요. 오늘 있었던 일과 감정을 적으며, 복잡했던 생각을 정리해 봐요. ■ 한 문장씩 새겨보는 불교 명언 석가모니의 가르침을 담은 불교 명언을 읽고, 한 글자씩 천천히 옮겨 적어보세요. 잠깐의 쉬는 시간, 한 문장 필사로 나에게 집중해 보세요. ■ 공덕을 쌓으며 나만의 사찰 꾸미기 불교에서 공덕은 선한 마음과 행동으로 쌓아가는 덕을 뜻해요. 수행을 하며 공덕을 모아, 나만의 사찰을 꾸며보세요. 나를 위해 쌓아온 시간이 나의 사찰에 담겨요. ■ 순례수첩에 남기는 나의 여정 어떤 고민으로 시작했고, 수행하며 어떤 생각을 남겼나요? 순례수첩에서 지난 기록을 펼쳐보고, 그때의 나와 지금의 나를 돌아보세요. 나만의 템플스테이 여정을 이어가며 순례수첩을 한 장씩 채워가요. ■ 이런 분께 추천해요 - 생각이 많아 쉬고 있어도 마음이 편하지 않은 분 - 사주, 타로 등 나에 대해 알아가는 시간을 좋아하는 분 - 인간관계에서 생긴 고민과 감정을 정리하고 싶은 분 - 해야 할 일을 미루며 스스로를 탓하는 분 - 명상과 필사로 나를 위한 습관을 만들고 싶은 분 - 일기처럼 마음을 기록하고 돌아보고 싶은 분 - 귀여운 캐릭터, 힐링게임과 공간 꾸미기를 좋아하는 분 마음이 복잡한 날, 잠시 쉬어가도 괜찮아요. Calmple에서 나를 천천히 돌아보세요. 사랑을 담아, Calmple 팀 드림 * 이용약관: https://calmple.haeilri.app/terms/ * 개인정보처리방침: https://calmple.haeilri.app/privacy/ * Apple Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "analysis": {
+        "app_key": "apple:6799718816",
+        "summary_ko": "일상 속 마음 수행을 돕는 힐링 앱입니다. 사용자는 나만의 사찰에서 동물 주지스님과 고민을 나누고, 명상이나 필사 같은 가벼운 수행을 통해 마음을 정리할 수 있습니다. 수행을 통해 공덕을 쌓고 사찰을 꾸미며 자신의 여정을 기록할 수 있습니다.",
+        "features_ko": [
+          "동물 주지스님과 고민을 나누고 일기처럼 감정을 기록하는 차담 기능을 제공합니다.",
+          "호흡, 명상, 필사 등 일상에서 실천 가능한 마음챙김 수행 프로그램을 운영합니다.",
+          "수행을 통해 얻은 공덕으로 나만의 사찰을 꾸밀 수 있습니다.",
+          "순례수첩을 통해 자신의 마음 변화와 수행 여정을 기록하고 돌아볼 수 있습니다."
+        ],
+        "noteworthy_ko": "불교적 색채와 귀여운 캐릭터를 결합하여 명상 앱의 진입 장벽을 낮춘 점이 매우 흥미롭습니다. 사용자의 감정 기록을 게임적 요소(사찰 꾸미기)와 연결하여 지속적인 사용을 유도하는 설계가 돋보입니다.",
+        "development_ko": "사용자의 감정 기록을 저장하고 관리하는 데이터베이스 설계가 핵심입니다. 귀여운 캐릭터와 사찰 꾸미기를 위한 UI/UX 디자인이 중요하며, 명상 가이드 오디오나 필사 인터페이스의 안정성이 필요합니다. 사용자의 기록을 시각화하는 순례수첩 기능은 데이터 분석 및 시각화 기술이 요구됩니다.",
+        "idea_ko": "사용자의 감정 상태에 따라 사찰의 날씨나 배경 음악이 실시간으로 변하는 감성적인 환경 시스템을 도입하는 것을 제안합니다.",
+        "highlights_ko": [
+          "불교 명언과 수행을 결합하여 마음챙김 습관을 형성하도록 돕습니다.",
+          "사찰 꾸미기라는 게임적 요소를 통해 수행의 동기를 부여합니다."
+        ],
+        "systems_ko": [
+          "사용자 기록 및 감정 데이터 관리 시스템",
+          "수행 프로그램 가이드 및 타이머 시스템",
+          "사찰 꾸미기 및 오브젝트 배치 시스템",
+          "사용자 여정 기록 및 시각화 시스템",
+          "알림 및 습관 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "복잡한 물리 엔진이나 멀티플레이어 서버가 필요하지 않아 1인 개발에 적합합니다. UI/UX 디자인과 콘텐츠(명언, 수행 가이드)의 질이 앱의 완성도를 결정합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "일기 쓰기 및 감정 기록 기능",
+            "간단한 명상 타이머",
+            "기록을 볼 수 있는 순례수첩"
+          ],
+          "defer": [
+            "사찰 꾸미기 시스템",
+            "복잡한 캐릭터 애니메이션",
+            "다양한 수행 프로그램 확장"
+          ],
+          "risks": [
+            "사용자의 지속적인 기록 유도 실패",
+            "콘텐츠의 단조로움으로 인한 이탈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "마음의 정원",
+            "concept": "수행을 할 때마다 정원에 꽃이 피어나는 시스템입니다. 사용자의 마음 상태를 시각적으로 아름답게 표현합니다.",
+            "first_step": "수행 완료 시 정원 화면에 꽃 오브젝트를 생성하는 간단한 기능을 구현합니다."
+          },
+          {
+            "title": "고민 공유 게시판",
+            "concept": "익명으로 고민을 올리고 서로 응원하는 커뮤니티 기능입니다. 따뜻한 위로를 주고받는 공간을 만듭니다.",
+            "first_step": "익명 게시글 작성 및 댓글 달기 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "감성적인 UI/UX 디자인과 사용자 경험 설계에 관심 있는 개발자에게 추천합니다. 데이터 관리와 사용자 기록을 시각화하는 방법을 배우기에 매우 좋은 프로젝트입니다.",
+        "source_limitations_ko": "소개문에는 명상 가이드의 오디오 콘텐츠 제작 방식이나, 사찰 꾸미기 시스템의 구체적인 구현 방식은 명시되어 있지 않습니다. 결제 및 구독 기능은 확인되지 않았습니다.",
+        "name": "캄플 Calmple: 마음을 돌보는 사찰",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%BA%84%ED%94%8C-calmple-%EB%A7%88%EC%9D%8C%EC%9D%84-%EB%8F%8C%EB%B3%B4%EB%8A%94-%EC%82%AC%EC%B0%B0/id6799718816?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
+    },
+    "google:com.loop.packedloop": {
+      "app_key": "google:com.loop.packedloop",
+      "name": "Parking Loop",
+      "developer": "Loop Games A.S.",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.loop.packedloop&hl=en&gl=US",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T04:59:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Welcome to Parking Loop, a satisfying puzzle game where everything needs to find its perfect place! Plan your moves carefully, avoid getting stuck, and clear each level as efficiently as possible. The rules are simple, but every new level brings a fresh challenge. Think ahead, find the right order, and master increasingly tricky levels. Easy to learn, satisfying to master! • Simple and intuitive gameplay • Satisfying mechanics • Clever puzzles that challenge your strategy • Colorful and polished levels • Hundreds of puzzles to solve",
+      "analysis": {
+        "app_key": "google:com.loop.packedloop",
+        "summary_ko": "Parking Loop는 효율적인 이동을 고민해야 하는 퍼즐 게임입니다. 주어진 공간에서 막히지 않도록 순서를 계획하여 퍼즐을 해결해야 합니다. 단순한 규칙이지만 레벨이 올라갈수록 전략적인 사고가 필요합니다.",
+        "features_ko": [
+          "직관적이고 단순한 게임 플레이 방식을 제공합니다.",
+          "전략적인 사고를 요구하는 퍼즐 레벨이 구성되어 있습니다.",
+          "수백 개의 레벨을 통해 점진적인 난이도 상승을 경험할 수 있습니다.",
+          "깔끔하고 다채로운 그래픽으로 구성되어 있습니다."
+        ],
+        "noteworthy_ko": "퍼즐 게임의 핵심인 '제약 조건 내에서의 최적화'를 잘 구현한 사례입니다. 레벨 디자인의 난이도 곡선을 어떻게 설계하느냐가 게임의 재미를 결정하는 핵심 요소로 보입니다.",
+        "development_ko": "퍼즐 로직 구현과 레벨 데이터 관리 시스템이 핵심입니다. 다양한 퍼즐 패턴을 생성하는 알고리즘이나 툴을 제작하면 콘텐츠 제작 부담을 줄일 수 있으며, 사용자 경험을 위한 UI/UX 최적화가 중요합니다.",
+        "idea_ko": "퍼즐을 해결하는 과정을 공유하고 다른 사람의 풀이 방식을 볼 수 있는 리플레이 시스템이 적합합니다.",
+        "highlights_ko": [
+          "단순한 규칙으로 누구나 쉽게 시작할 수 있습니다.",
+          "전략적 사고를 자극하는 레벨 디자인이 돋보입니다."
+        ],
+        "systems_ko": [
+          "퍼즐 로직 엔진",
+          "레벨 데이터 관리 시스템",
+          "UI/UX 시스템",
+          "게임 상태 저장 및 불러오기",
+          "난이도 밸런싱 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "퍼즐 게임은 멀티플레이어 게임에 비해 기술적 난이도가 낮고, 1인 개발자가 레벨 디자인과 로직 구현에 집중하기에 적합합니다. 다만, 수백 개의 레벨을 만드는 반복 작업은 상당한 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 퍼즐 로직",
+            "레벨 로딩 시스템",
+            "승리/패배 판정"
+          ],
+          "defer": [
+            "수백 개의 레벨",
+            "복잡한 애니메이션",
+            "클라우드 저장"
+          ],
+          "risks": [
+            "레벨 디자인의 단조로움",
+            "퍼즐 로직의 버그 발생"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "퍼즐 에디터",
+            "concept": "사용자가 직접 퍼즐을 만들고 공유할 수 있는 에디터 모드를 추가합니다.",
+            "first_step": "퍼즐 요소를 배치하고 저장하는 간단한 에디터 툴 제작."
+          },
+          {
+            "title": "타임 어택 퍼즐",
+            "concept": "제한 시간 내에 최대한 많은 퍼즐을 해결하는 모드를 추가하여 긴장감을 높입니다.",
+            "first_step": "타이머 기능과 점수 합산 로직 구현."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 로직 설계와 레벨 디자인을 배우기에 매우 좋습니다. 1인 개발자가 완성도 높은 결과물을 만들기에 가장 적합한 장르입니다.",
+        "source_limitations_ko": "퍼즐 생성 알고리즘의 유무, 구체적인 레벨 디자인 방식, 수익 모델에 대한 정보는 확인되지 않습니다.",
+        "name": "Parking Loop",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.loop.packedloop&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 89,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
+    },
+    "apple:1666653815": {
+      "app_key": "apple:1666653815",
+      "name": "HBO Max: Stream Movies & TV",
+      "developer": "WarnerMedia Global Digital Services, LLC",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/hbo-max-stream-movies-tv/id1666653815",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T05:00:22+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "The most talked about shows and movies featuring the worlds of HBO, the DC Universe, Adult Swim, A24, and beyond. With HBO Max you'll get: • Access to thousands of TV shows and movies. • Exclusive, award-winning series that everyone's talking about — like the HBO Originals The Last of Us, Succession, The White Lotus, and House of the Dragon. • The latest hits from HBO, Harry Potter, DC, Warner Bros., ID, Adult Swim, A24, and more. • Stream select live sports from your favorite leagues and teams. Availability varies by plan and by subscription provider. • Iconic favorite TV shows like Friends, Rick and Morty, Gossip Girl, 90 Day Fiancé, Looney Tunes, and more. • Family-friendly entertainment for the whole household. • Fascinating documentaries and true crime series. Features: • Enjoy your favorite shows and movies at home or on the go. HBO Max is available on select TV, web browser, mobile, tablet, and gaming console devices. • Catch even more sports action with the live Multiview experience — stream up to 3 games at once during select events. • Browse or search with ease across HBO, movies, series, genres, and brands. • Download shows and movies you love to watch on the go with select plans. (Download limits vary by plan.) • Personalized profiles for the entire household with customizable ratings, profile PIN protection, and kid-proof exit. • Pick up episodes and movies where you left off across your favorite devices. • Keep up with everything you love, all in one place with My Stuff. • Watch on multiple devices at the same time. (Limits vary by plan.) • Stream with high-quality video and surround sound on select plans. Content and feature availability on HBO Max may vary by region. Some titles and features shown above may not be available in your country. Language availability varies by country. You can manage or cancel your subscription by visiting Settings > Subscriptions in your HBO Max account. HBO Max is only available in certain territories. Purposes disclosed in the App Privacy label may vary based on features or services that may not be available in all regions. HBO Max is only available in certain territories. Terms of Use: https://hbomax.com/terms-of-use",
+      "analysis": {
+        "app_key": "apple:1666653815",
+        "summary_ko": "HBO Max는 HBO, DC, 워너 브라더스 등 다양한 브랜드의 영화와 TV 시리즈를 제공하는 스트리밍 서비스입니다. 사용자는 수상 경력이 있는 오리지널 시리즈부터 최신 영화, 다큐멘터리까지 폭넓은 콘텐츠를 감상할 수 있습니다. 모바일, 태블릿, TV 등 다양한 기기에서 시청이 가능하며 개인별 프로필 설정 기능을 지원합니다.",
+        "features_ko": [
+          "다양한 브랜드의 영화와 TV 시리즈를 스트리밍으로 제공합니다.",
+          "일부 이벤트 시 최대 3개의 경기를 동시에 시청할 수 있는 라이브 멀티뷰 기능을 지원합니다.",
+          "사용자별로 맞춤형 등급 설정과 PIN 보호가 가능한 개인 프로필을 생성할 수 있습니다.",
+          "일부 요금제에서 오프라인 시청을 위한 콘텐츠 다운로드 기능을 제공합니다.",
+          "여러 기기에서 시청 중이던 지점부터 이어서 볼 수 있는 이어보기 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "다양한 기기 간의 상태 동기화와 멀티뷰 스트리밍 기술이 핵심입니다. 특히 대규모 콘텐츠 라이브러리를 효율적으로 검색하고 개인화된 추천을 제공하는 데이터 구조가 개발 관점에서 매우 흥미롭습니다.",
+        "development_ko": "방대한 콘텐츠를 처리하기 위한 고성능 서버 인프라와 CDN 연동이 필수적입니다. 사용자별 시청 기록 동기화 및 DRM(디지털 저작권 관리) 구현이 기술적 난이도가 높으며, 다양한 기기 환경에 맞춘 UI/UX 최적화가 필요합니다.",
+        "idea_ko": "특정 장르나 테마별로 큐레이션된 콘텐츠를 공유하고 함께 시청하는 소셜 스트리밍 플랫폼.",
+        "highlights_ko": [
+          "HBO, DC 등 강력한 IP를 기반으로 한 독점 콘텐츠 라이브러리.",
+          "라이브 스포츠 중계 시 다중 화면을 지원하는 멀티뷰 경험."
+        ],
+        "systems_ko": [
+          "콘텐츠 스트리밍 및 재생 제어 시스템",
+          "사용자 프로필 및 시청 기록 동기화 시스템",
+          "콘텐츠 검색 및 카테고리 필터링 시스템",
+          "기기 간 이어보기 상태 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "개인 개발자가 대규모 스트리밍 인프라와 라이선스 콘텐츠를 확보하는 것은 불가능에 가깝습니다. 또한 실시간 멀티뷰와 같은 고도화된 스트리밍 기술은 복잡한 서버 아키텍처를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "콘텐츠 목록 조회 기능",
+            "영상 재생 플레이어",
+            "사용자 계정 관리"
+          ],
+          "defer": [
+            "라이브 멀티뷰 스트리밍",
+            "오프라인 다운로드",
+            "고급 추천 알고리즘"
+          ],
+          "risks": [
+            "콘텐츠 저작권 및 라이선스 문제",
+            "서버 트래픽 비용 및 인프라 유지비"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "인디 영화 큐레이션 공유",
+            "concept": "사용자가 직접 선정한 인디 영화 리스트를 공유하고 댓글로 토론하는 커뮤니티형 플랫폼입니다.",
+            "first_step": "영화 정보를 불러올 수 있는 공개 API를 연동하여 리스트를 보여주는 앱을 만듭니다."
+          },
+          {
+            "title": "함께 보는 시청 파티",
+            "concept": "친구들과 실시간으로 채팅하며 같은 영상을 동기화하여 시청하는 기능입니다.",
+            "first_step": "웹소켓을 사용하여 영상 재생 시간을 동기화하는 간단한 웹 앱을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "대규모 서비스의 UI 구성과 사용자 경험 설계를 공부하기에 좋습니다. 다만, 스트리밍 서비스 자체는 인프라 비용과 저작권 문제로 개인 개발에는 적합하지 않습니다.",
+        "source_limitations_ko": "소개문에는 결제 시스템, 보안 인증 방식, 구체적인 서버 아키텍처에 대한 정보가 없습니다. 또한 지역별 콘텐츠 제한에 대한 기술적 구현 방식은 확인되지 않습니다.",
+        "name": "HBO Max: Stream Movies & TV",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/hbo-max-stream-movies-tv/id1666653815",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 95,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
     }
   }
 }

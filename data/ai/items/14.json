@@ -9474,6 +9474,184 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-01"
+    },
+    "apple:1553777064": {
+      "app_key": "apple:1553777064",
+      "name": "Exposed - Who's Most Likely To",
+      "developer": "vysgames",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/us/app/exposed-whos-most-likely-to/id1553777064?uo=2",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T05:00:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Exposed is the party game that finds out who in your group is the most likely to... well, everything. Each round asks a \"Who's most likely to\" question about the people playing. Everyone taps a face to vote, then the result is revealed to the whole group. Simple, fast, and made for laughing together. HOW IT WORKS - One player creates a game and shares the PIN. - Friends join from their own phones, in the same room or remotely. - Vote, reveal, laugh, repeat. WHAT'S INSIDE - More than 5,000 questions and challenges, so every game night stays fresh - Duels: two friends, one question, the group decides - Yes or No rounds and the Gossip Wheel for quick-fire fun - Several packs to match the mood, from a quiet evening to a big party - Light and dark mode - A recap card at the end of every game Exposed is a great icebreaker for parties, road trips and catching up with friends. Some packs require an optional auto-renewing subscription. Terms of Use (EULA): https://fluff-jump-74e.notion.site/Terms-of-Service-EULA-Privacy-Policy-8285978bc30d465692cfc7503e230ed2",
+      "analysis": {
+        "app_key": "apple:1553777064",
+        "summary_ko": "Exposed는 친구들과 함께 '누가 ~할 가능성이 가장 높은가'라는 질문에 투표하며 즐기는 파티 게임입니다. 방을 생성하고 PIN을 공유하여 같은 공간이나 원격으로 접속한 친구들과 함께 플레이할 수 있습니다. 투표 결과를 확인하며 웃고 떠드는 가벼운 소셜 경험을 제공합니다.",
+        "features_ko": [
+          "질문에 대해 각자 투표하고 결과를 그룹 전체에 공개합니다.",
+          "5,000개 이상의 질문과 챌린지가 포함되어 있습니다.",
+          "두 친구를 비교하는 듀얼 모드와 예/아니오 라운드를 지원합니다.",
+          "게임 종료 시 전체 내용을 요약하는 리캡 카드를 제공합니다."
+        ],
+        "noteworthy_ko": "실시간 다중 접속 환경에서 투표 결과를 동기화하는 구조가 핵심입니다. 웹소켓이나 실시간 데이터베이스를 활용한 상태 관리가 중요하며, 파티 게임 특성상 지연 시간을 최소화하는 것이 사용자 경험의 핵심일 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 실시간 데이터 동기화와 방 관리 시스템입니다. 콘텐츠 제작 부담은 5,000개의 질문 데이터를 관리하는 데이터베이스 설계에 집중됩니다. 테스트는 다중 접속 시의 동기화 오류를 방지하는 것에 중점을 두어야 합니다.",
+        "idea_ko": "특정 상황을 제시하고 투표하는 파티 게임의 핵심 메커니즘을 활용한 '상황별 밸런스 게임' 앱.",
+        "highlights_ko": [
+          "5,000개 이상의 방대한 질문 데이터로 반복 플레이 유도.",
+          "온/오프라인을 가리지 않는 유연한 접속 방식."
+        ],
+        "systems_ko": [
+          "방 생성 및 PIN 기반 접속 시스템",
+          "실시간 투표 데이터 동기화 시스템",
+          "질문 데이터 관리 및 랜덤 추출 시스템",
+          "결과 요약 및 시각화 UI"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "실시간 네트워크 통신과 다중 사용자 상태 관리가 필요하여 단순 로컬 게임보다 구현 난이도가 높습니다. 하지만 게임 로직 자체는 투표와 결과 표시로 단순하여 개인 개발자가 도전하기 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "방 생성 및 참여 기능",
+            "질문 리스트 출력 및 투표 기능",
+            "투표 결과 실시간 집계 및 표시"
+          ],
+          "defer": [
+            "사용자 프로필 관리",
+            "다양한 테마 팩 구매",
+            "원격 접속 최적화"
+          ],
+          "risks": [
+            "실시간 동기화 시 발생하는 네트워크 지연",
+            "동시 접속자 수 증가에 따른 서버 부하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "밸런스 토론장",
+            "concept": "두 가지 극단적인 선택지를 제시하고 투표 후, 왜 그 선택을 했는지 채팅으로 토론하는 게임입니다.",
+            "first_step": "두 개의 버튼을 만들고 투표 결과를 실시간으로 막대 그래프로 보여주는 화면 구현."
+          },
+          {
+            "title": "우리끼리 퀴즈",
+            "concept": "친구들에 대한 사소한 사실을 퀴즈로 만들어 서로 얼마나 잘 아는지 확인하는 게임입니다.",
+            "first_step": "사용자가 질문과 정답을 입력하고, 다른 사용자가 이를 맞히는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "실시간 네트워크 게임의 기초를 배우기에 좋습니다. 서버와 클라이언트 간의 상태 동기화 과정을 경험해보고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "구독 결제 시스템의 구체적인 구현 방식이나 서버 인프라 구성에 대한 정보는 없습니다. 외부 API 연동 여부도 명시되지 않았으므로 검증이 필요합니다.",
+        "name": "Exposed - Who's Most Likely To",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/exposed-whos-most-likely-to/id1553777064?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 100,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
+    },
+    "google:com.nwz.ichampclient": {
+      "app_key": "google:com.nwz.ichampclient",
+      "name": "아이돌챔프",
+      "developer": "MBCPLUS",
+      "source": "google",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.nwz.ichampclient&hl=ko&gl=KR",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T05:00:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "“내 아이돌을 챔피언으로 만들 준비가 되었나요?” ■ 쇼챔피언 사전 투표 그리고 MBC플러스의 다양한 방송을 통한 이벤트 - 매주 MBC M 쇼챔피언의 사전투표에 참여해주세요. - 나의 최애 아티스트의 쇼챔피언 대기실을 대기실 꾸미기 투표를 통해서 아티스트가 좋아하는 것들로 가득 채워주세요. - 쇼챔피언 방청권, 싸인 폴라로이드, 싸인 CD 등 내 아티스트와 관련된 다양한 방송 이벤트에 참여하고 굿즈를 받아가세요! ■ 아이돌챔프에서만 볼 수 있는 다양한 아티스트 혜택 - 매달 새롭게 진행되는 아이돌챔프 차트에서 내 최애를 1위로 만들면 한달동안 TV CF와 특별한 혜택이 제공됩니다. - 지하철 광고, 옥외 광고, PC방 뮤직비디오 홍보, 매거진 광고, 유튜브 광고 등 아이돌챔프에서만 볼 수 있는 다양한 혜택으로 최애를 응원해주세요. ■ 다양한 방식의 최애 응원 방법 - 매일 올라오는 특별한 혜택이 걸려 있는 다양한 주제의 투표에 참여해주세요. - 아이돌챔프에서는 팬덤광고 모금을 통해 원하는 옥외광고로 최애를 응원할 수 있어요. ■ 당신의 최애 KPOP 아이돌을 커뮤니티에서 같이 응원해요 방탄소년단(BTS), 여자아이들, 강다니엘, 아이유, 2AM, 2PM, 트와이스, 김세정, 세븐틴, 스트레이키즈, 투모로우바이투게더(TXT), 에이티즈, god, 샤이니, 마마무, 소녀시대, NCT, FT아일랜드, 온앤오프, 엔싸인, NJZ(뉴진스), 갓세븐, 더보이즈, 데이식스(DAY6), DKZ, 아이브, 아일릿, 에스파, 르세라핌, 베이비몬스터, 비투비, EXO, TAN, Niziu 등 ■ 방송 영상 콘텐츠와 퀴즈 - 아이돌챔프에서 쇼챔피언, 주간아이돌 다시보기 & 선공개, 프리뷰, 비하인드, 각종 미공개 영상들을 무료로 먼저 볼 수 있어요! - 아이돌 퀴즈 콘텐츠를 통해 최애 응원에 사용할 수 있는 챔심도 얻고 덕질 테스트도 받아보세요. ■ SNS - 올더케이팝 유튜브 채널: https://www.youtube.com/c/ALLTHEKPOP - 아이돌챔프 트위터: https://twitter.com/idolchamp1 ■ 고객센터 - 아이돌챔프 홈 화면 > 사이드 바 > 고객센터 > FAQ/1:1 문의 > 1:1 문의 - 이메일 주소: mbcplus@mbcplus.com ---- 개발자 연락처 : (주)엠비씨플러스 대한민국 10403 경기도 고양시 일산동구 호수로 596 (장항동) 117-81-11110 2015-고양일산동-0865 본인 직접 신고",
+      "analysis": {
+        "app_key": "google:com.nwz.ichampclient",
+        "summary_ko": "아이돌챔프는 K-POP 팬들을 위한 투표 및 커뮤니티 플랫폼입니다. 쇼챔피언 사전 투표, 아티스트 대기실 꾸미기, 팬덤 광고 모금 등 다양한 방식으로 최애 아티스트를 응원할 수 있습니다. 방송 영상 콘텐츠와 퀴즈를 통해 팬덤 활동을 지원하는 종합 엔터테인먼트 앱입니다.",
+        "features_ko": [
+          "매주 쇼챔피언 사전 투표에 참여할 수 있습니다.",
+          "팬덤 광고 모금을 통해 옥외 광고를 진행할 수 있습니다.",
+          "방송 비하인드 영상과 미공개 콘텐츠를 제공합니다.",
+          "아이돌 퀴즈를 통해 응원 아이템을 획득할 수 있습니다."
+        ],
+        "noteworthy_ko": "팬덤의 참여를 유도하는 게이미피케이션 요소가 강력합니다. 투표와 광고 모금이라는 비즈니스 모델이 커뮤니티 기능과 결합되어 있어, 사용자 유지율을 높이는 구조를 분석하기 좋습니다.",
+        "development_ko": "핵심 기술은 대규모 트래픽을 처리하는 투표 시스템과 결제 연동입니다. 콘텐츠 제작은 방송사와의 협업을 통한 영상 데이터 관리가 핵심입니다. 테스트는 투표 조작 방지와 서버 안정성 확보가 최우선입니다.",
+        "idea_ko": "특정 분야의 팬덤을 위한 투표 및 응원 플랫폼.",
+        "highlights_ko": [
+          "방송사 연동을 통한 독점 콘텐츠 제공.",
+          "팬덤 활동을 실질적인 광고 혜택으로 연결하는 구조."
+        ],
+        "systems_ko": [
+          "투표 및 집계 시스템",
+          "결제 및 포인트 관리 시스템",
+          "커뮤니티 게시판 및 댓글 시스템",
+          "영상 스트리밍 연동"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "대규모 사용자의 투표 데이터를 처리해야 하며, 결제 및 보안 기능이 필수적입니다. 개인 개발자가 운영하기에는 서버 비용과 보안 유지 부담이 매우 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "투표 기능",
+            "아티스트 목록 및 프로필",
+            "간단한 게시판"
+          ],
+          "defer": [
+            "결제 시스템",
+            "광고 모금 기능",
+            "영상 스트리밍"
+          ],
+          "risks": [
+            "투표 데이터 무결성 유지",
+            "서버 운영 비용 및 보안 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "소규모 커뮤니티 투표",
+            "concept": "특정 동호회나 소규모 그룹 내에서 의사결정을 위한 투표 및 의견 공유 플랫폼입니다.",
+            "first_step": "로그인 후 투표를 생성하고 결과를 확인하는 기본 기능 구현."
+          },
+          {
+            "title": "팬아트 갤러리",
+            "concept": "팬들이 직접 그린 그림을 올리고 인기 투표를 하는 갤러리 앱입니다.",
+            "first_step": "이미지 업로드 기능과 좋아요(투표) 기능 구현."
+          }
+        ],
+        "recommendation_ko": "커뮤니티 기반의 서비스 기획과 데이터 관리 방식을 배우기에 좋습니다. 다만, 실제 서비스 운영 시 보안과 서버 비용에 대한 깊은 고민이 필요합니다.",
+        "source_limitations_ko": "결제 시스템의 보안 구조나 방송사와의 데이터 연동 방식은 알 수 없습니다. 실제 개발 시에는 개인정보 보호법 및 관련 법규 준수가 필수적입니다.",
+        "name": "아이돌챔프",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.nwz.ichampclient&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 42,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
     }
   }
 }

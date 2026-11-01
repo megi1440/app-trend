@@ -9960,6 +9960,187 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-01"
+    },
+    "itch:198bceb103d5470c44d2": {
+      "app_key": "itch:198bceb103d5470c44d2",
+      "name": "Neon Circuit TD Demo [Free] [Strategy] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://deathwatchrjr.itch.io/neon-circuit-td-demo",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T04:54:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Play all of World 1 free: 10 narrated levels, Endless and the upgrade tree.",
+      "analysis": {
+        "app_key": "itch:198bceb103d5470c44d2",
+        "summary_ko": "네온 스타일의 그래픽을 가진 타워 디펜스 게임의 데모 버전입니다. 10개의 내레이션 레벨과 무한 모드, 업그레이드 트리를 포함하고 있습니다. 전략적인 타워 배치와 성장이 핵심입니다.",
+        "features_ko": [
+          "10개의 내레이션 기반 레벨을 제공합니다.",
+          "타워를 배치하여 적의 침입을 막는 디펜스 규칙을 따릅니다.",
+          "다양한 타워 업그레이드 트리를 통해 전략적 성장을 지원합니다.",
+          "끝없이 몰려오는 적을 상대하는 무한 모드를 포함합니다."
+        ],
+        "noteworthy_ko": "업그레이드 트리와 타워 디펜스 장르의 결합은 플레이어에게 지속적인 목표를 제공합니다. 내레이션을 통한 스토리텔링 요소가 디펜스 게임의 단조로움을 보완합니다.",
+        "development_ko": "적의 경로 탐색(Pathfinding) 알고리즘과 타워의 사거리 및 공격 로직 최적화가 중요합니다. 업그레이드 트리 데이터 구조 설계와 밸런스 조정이 제작의 핵심입니다.",
+        "idea_ko": "타워를 배치할 때마다 주변 타워와 시너지를 일으키는 네온 연결 시스템입니다.",
+        "highlights_ko": [
+          "전략적 깊이를 더하는 업그레이드 트리.",
+          "내레이션이 포함된 캠페인 모드."
+        ],
+        "systems_ko": [
+          "타워 배치 및 공격 로직",
+          "적 경로 탐색 시스템",
+          "업그레이드 데이터 관리",
+          "웨이브 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "타워 디펜스는 정형화된 시스템이 많아 1인 개발로 구현하기 적합합니다. 다만, 밸런스 조정과 적의 경로 탐색 최적화에 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "타워 배치 및 공격",
+            "적의 이동 및 웨이브 시스템",
+            "기본 업그레이드 UI"
+          ],
+          "defer": [
+            "내레이션 및 스토리",
+            "무한 모드"
+          ],
+          "risks": [
+            "타워 간 밸런스 불균형",
+            "적 개체 수가 많아질 때의 성능 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "네온 링크 디펜스",
+            "concept": "타워를 선으로 연결하면 연결된 선 위로 적이 지나갈 때 추가 피해를 입습니다. 타워 배치 위치가 전략의 핵심이 됩니다.",
+            "first_step": "타워 간의 연결선 생성 및 충돌 판정 구현."
+          },
+          {
+            "title": "에너지 공유 타워",
+            "concept": "타워들이 에너지를 서로 공유하며, 에너지가 높은 타워가 더 강력한 공격을 합니다. 자원 관리의 재미를 더합니다.",
+            "first_step": "타워 간 에너지 수치 전달 로직 구현."
+          }
+        ],
+        "recommendation_ko": "디펜스 게임의 기본 구조와 데이터 기반의 성장 시스템을 배우기에 매우 좋습니다. 밸런스 조정의 중요성을 체감할 수 있는 프로젝트입니다.",
+        "source_limitations_ko": "타워의 종류, 적의 AI 패턴, 내레이션의 구체적인 방식 등은 데모를 직접 플레이하지 않으면 확인이 어렵습니다.",
+        "name": "Neon Circuit TD Demo [Free] [Strategy] [Windows]",
+        "source": "itch",
+        "detail_url": "https://deathwatchrjr.itch.io/neon-circuit-td-demo",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 371,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 3,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
+    },
+    "apple:6768240254": {
+      "app_key": "apple:6768240254",
+      "name": "FreeDrama: Watch Short Stories",
+      "developer": "Kuku Technologies Limited",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/freedrama-watch-short-stories/id6768240254",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T04:59:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "FreeDrama – Watch Drama and Earn Cash Welcome to FreeDrama — your go-to app for drama in short episodes. Stream bite-sized short series, mini series, and reel-style stories made for mobile: fast, emotional, and highly engaging. If you love drama with romance, thrills, twists, and cliffhangers, Drama is for you. Watch Drama in Minutes No long intros. No filler. Just the best scenes, instantly. On Drama, jump straight into binge-worthy content anytime — during your commute, tea break, or late-night scrolling. Earn Rewards While You Watch Enjoy drama and earn rewards while staying engaged. * Watch short episodes and collect rewards * Complete simple in-app activities to boost earnings * Redeem rewards based on options available in India (Reward availability and redemption options may vary by location and eligibility.) What You'll Find on Drama Discover a fast-growing library of short entertainment: * Short Series & Mini Series: episodes under 2 minutes * Trending Reels: viral drama moments and popular scenes * Exclusive Originals: fresh stories you won't find elsewhere Genres for Every Mood Find your next obsession across top categories: * Romance and Love Stories * Emotional Drama * Thriller and Suspense * Action and Revenge * Family and Relationships * College and Youth Stories There’s always something new waiting on Drama. Features You'll Love * Instant Play for smooth streaming on mobile networks * Personalized Feed with smart recommendations * Easy Sharing to share your favorite content Download Drama Now Join viewers across India discovering creators, rating stories, saving favorites, and binge-watching short episodes every day. Download Drama now and start watching anytime, anywhere. Terms and Conditions: https://freedrama.app/terms-condition Privacy Policy: https://freedrama.app/privacy-policy",
+      "analysis": {
+        "app_key": "apple:6768240254",
+        "summary_ko": "FreeDrama는 짧은 에피소드 중심의 드라마 스트리밍 앱입니다. 로맨스, 스릴러 등 다양한 장르의 2분 미만 짧은 시리즈를 제공합니다. 시청과 함께 간단한 활동을 통해 보상을 얻을 수 있는 리워드 시스템이 포함되어 있습니다.",
+        "features_ko": [
+          "2분 미만의 짧은 드라마 시리즈를 스트리밍합니다.",
+          "로맨스, 스릴러, 액션 등 다양한 장르의 콘텐츠를 제공합니다.",
+          "시청 및 앱 내 활동을 통해 보상을 획득할 수 있습니다.",
+          "개인화된 피드와 추천 시스템을 제공합니다.",
+          "모바일 네트워크 환경에 최적화된 즉시 재생 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "숏폼 콘텐츠 소비 트렌드를 반영한 서비스입니다. 콘텐츠의 짧은 호흡과 리워드 시스템을 결합하여 사용자의 체류 시간을 늘리는 전략이 돋보이며, 콘텐츠 확보와 추천 알고리즘이 서비스의 핵심입니다.",
+        "development_ko": "고화질 영상 스트리밍을 위한 서버 인프라와 CDN 연동이 필수적입니다. 사용자 활동 기반의 추천 알고리즘 구현과 리워드 지급을 위한 데이터베이스 설계가 중요하며, 영상 재생 안정성 확보가 최우선입니다.",
+        "idea_ko": "사용자가 직접 짧은 드라마의 결말을 투표하거나 시나리오에 참여하는 인터랙티브 드라마 기능이 적합합니다.",
+        "highlights_ko": [
+          "숏폼 콘텐츠에 최적화된 사용자 경험을 제공합니다.",
+          "리워드 시스템을 통해 사용자의 지속적인 앱 사용을 유도합니다."
+        ],
+        "systems_ko": [
+          "영상 스트리밍 및 CDN 연동",
+          "사용자 활동 추적 및 보상 시스템",
+          "콘텐츠 추천 알고리즘",
+          "사용자 프로필 및 즐겨찾기 관리",
+          "결제 및 리워드 환전 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "영상 스트리밍 서비스는 서버 비용과 트래픽 관리가 매우 어렵습니다. 또한 콘텐츠 수급과 리워드 시스템의 경제적 밸런스를 맞추는 것은 1인 개발자가 감당하기 매우 힘든 영역입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "영상 재생 기능",
+            "콘텐츠 목록 조회",
+            "사용자 계정 관리"
+          ],
+          "defer": [
+            "리워드 시스템",
+            "개인화 추천 알고리즘",
+            "결제 및 환전 기능"
+          ],
+          "risks": [
+            "서버 트래픽 비용",
+            "콘텐츠 저작권 문제",
+            "리워드 시스템의 부정 사용"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "인터랙티브 숏 드라마",
+            "concept": "시청자가 드라마의 분기점에서 선택지를 골라 결말을 바꾸는 인터랙티브 콘텐츠 앱입니다.",
+            "first_step": "영상 재생 중 선택지를 띄우고 결과에 따라 다른 영상을 재생하는 로직 구현."
+          },
+          {
+            "title": "숏폼 리뷰 커뮤니티",
+            "concept": "짧은 드라마를 보고 리뷰를 남기거나 토론하는 커뮤니티 앱입니다. 영상 재생 기능은 외부 링크로 대체합니다.",
+            "first_step": "리뷰 게시판과 영상 링크 공유 기능 구현."
+          }
+        ],
+        "recommendation_ko": "영상 콘텐츠 플랫폼의 구조를 이해하는 데 도움이 됩니다. 다만, 실제 서비스 운영보다는 영상 재생 기술이나 커뮤니티 기능 구현을 학습하는 용도로만 추천합니다.",
+        "source_limitations_ko": "콘텐츠 수급 방식, 리워드 시스템의 구체적인 경제 모델, 서버 인프라 구성, 결제 및 환전 관련 법적 준수 사항은 확인되지 않습니다.",
+        "name": "FreeDrama: Watch Short Stories",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/freedrama-watch-short-stories/id6768240254",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 90,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
     }
   }
 }

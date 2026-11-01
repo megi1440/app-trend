@@ -8997,6 +8997,360 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-01"
+    },
+    "itch:61b8486e43fbf49ae0a8": {
+      "app_key": "itch:61b8486e43fbf49ae0a8",
+      "name": "Jazz Jackrabbit for Game Boy Color [Free] [Platformer]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://haroldo-ok.itch.io/jazz-jackrabbit-gbc",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T04:55:32+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A W.I.P. vibe-port of Jazz Jackrabbit to Game Boy Color. Generated using Arena and Claude.",
+      "analysis": {
+        "app_key": "itch:61b8486e43fbf49ae0a8",
+        "summary_ko": "Jazz Jackrabbit을 Game Boy Color 스타일로 재해석한 플랫폼 게임입니다. 외부 도구를 활용하여 제작된 팬 프로젝트 성격의 게임입니다.",
+        "features_ko": [
+          "플랫폼 게임의 기본 이동 및 점프 메커니즘을 포함합니다.",
+          "Game Boy Color 특유의 제한적인 색상과 해상도 스타일을 구현합니다."
+        ],
+        "noteworthy_ko": "기존 IP를 특정 하드웨어 스타일로 포팅하는 시도는 레트로 감성을 재현하는 좋은 연습이 됩니다. AI 도구를 활용한 제작 과정이 포함되어 있어 개발 효율성 측면에서 흥미롭습니다.",
+        "development_ko": "핵심 기술은 2D 플랫폼 물리 엔진과 레트로 스타일의 픽셀 아트 렌더링입니다. 콘텐츠 제작 부담은 원작의 느낌을 살리는 픽셀 아트 작업에 집중될 것이며, 밸런스 부담은 캐릭터의 이동 속도와 점프 높이 조정에 있습니다.",
+        "idea_ko": "원작의 느낌을 살리되, Game Boy Color의 화면 제약을 활용한 흑백 모드나 특정 색상 팔레트 전환 기능을 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "특정 하드웨어(Game Boy Color)의 미학을 재현하는 데 집중했습니다.",
+          "고전 플랫폼 게임의 메커니즘을 현대적으로 재해석합니다."
+        ],
+        "systems_ko": [
+          "2D 플랫폼 물리 엔진",
+          "타일맵 기반 레벨 시스템",
+          "캐릭터 상태 머신(이동, 점프, 공격)",
+          "카메라 팔로우 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "플랫폼 게임은 물리 구현이 핵심이며, 픽셀 아트 스타일은 리소스 제작 부담이 상대적으로 적습니다. 다만, 원작의 조작감을 재현하는 것은 세밀한 튜닝이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 점프 구현",
+            "기본 타일맵 충돌 처리",
+            "적 캐릭터와의 상호작용"
+          ],
+          "defer": [
+            "복잡한 보스전",
+            "다양한 무기 시스템"
+          ],
+          "risks": [
+            "원작과의 조작감 차이로 인한 이질감",
+            "픽셀 아트 리소스의 일관성 유지"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "레트로 필터 모드",
+            "concept": "게임 화면에 실시간으로 스캔라인이나 색상 번짐 효과를 주어 실제 휴대용 게임기에서 플레이하는 느낌을 강화합니다.",
+            "first_step": "포스트 프로세싱 셰이더를 사용하여 화면에 필터 적용하기."
+          },
+          {
+            "title": "스피드런 챌린지",
+            "concept": "플랫폼 게임의 특성을 살려 특정 구간을 얼마나 빨리 통과하는지 기록하는 모드입니다.",
+            "first_step": "타이머 UI를 구현하고 체크포인트 시스템 구축하기."
+          }
+        ],
+        "recommendation_ko": "레트로 게임의 물리 엔진과 픽셀 아트 스타일을 공부하기에 좋습니다. 원작의 팬이라면 팬 게임 제작의 한계를 경험해 볼 수 있는 좋은 기회입니다.",
+        "source_limitations_ko": "AI 도구로 생성된 부분과 직접 구현한 부분의 경계가 불분명하며, 실제 게임의 완성도나 플레이 가능 범위는 확인되지 않습니다.",
+        "name": "Jazz Jackrabbit for Game Boy Color [Free] [Platformer]",
+        "source": "itch",
+        "detail_url": "https://haroldo-ok.itch.io/jazz-jackrabbit-gbc",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 302,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
+    },
+    "google:jp.snowlife01.android.ad_blocker": {
+      "app_key": "google:jp.snowlife01.android.ad_blocker",
+      "name": "広告ブロッカーPro ポップアップ広告も",
+      "developer": "CloudEx Inc.",
+      "source": "google",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=jp.snowlife01.android.ad_blocker&hl=ja&gl=JP",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T04:56:20+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "広告ブロッカーPro - スマートで快適なブラウジング体験を。 内蔵ブラウザなら、広告はほぼゼロ。 約24万件のフィルタルールで、バナー・動画広告・ポップアップを読み込む前に遮断。さらに広告が入っていた枠や余白まで取り除くので、ページに残るのは本文だけです。表示も速くなり、通信量も減ります。 さらに約16万件のDNSフィルタが端末全体に効き、お使いのどのブラウザアプリでも広告・トラッカーを減らせます。マルウェアのブロックにも対応します。 内蔵ブラウザとお使いのブラウザアプリが対象です。ブラウザ以外のアプリ内に出る広告は、Playストアポリシーの制約によりブロックされません。 当アプリは、ローカルVPN技術を活用した広告ブロックを提供しており、外部サーバーを一切経由しないため、インターネット接続が遅くなる心配がありません。サーバーを使用しないことで、プライバシーも保護され、個人情報が外部に送信されることはありません。広告による煩わしさを排除しつつ、最高のパフォーマンスを維持する当アプリをぜひお試しください。 ▼ 広告ブロック内蔵ブラウザ - ほぼすべてのサイトで、広告が1つも表示されません: 約24万件のルール（広告リクエストの遮断 約19万件・広告要素の非表示 約2.6万件）に加え、約3.5万サイトには専用のスクリプト対策ルールを適用します。 - ブラウザだけをすぐに起動: ホーム画面の専用アイコンから、広告ブロックブラウザをフルスクリーンで直接開けます。 - マルチタブ＆タブのピン留め: 複数のタブを自在に切り替え、よく使うページは固定できます。 - 直感的なジェスチャー操作: スワイプでタブの切り替え・戻る/進む・タブを閉じる操作が可能です。 - シークレットタブ: 履歴を残さずに閲覧できます。 - 便利な機能を網羅: PCサイト表示、ページ内検索、ダウンロード、ブックマーク、閲覧履歴、音声検索に対応。 - 自動入力（オートフィル）連携: ID・パスワードはAndroidの自動入力機能と連携します。 ▼ 機能 - ワンタップON/OFF切り替え: クイック設定タイル、ホーム画面ウィジェットから、いつでも簡単に広告ブロックのオン/オフを切り替えられます。 - フローティングボタン: 画面上の小さな盾ボタンから、どのアプリを使っていてもワンタップで保護を切り替えられます。位置はドラッグで動かせます。 - オートスイッチ: ブラウザを使っている間だけ保護をONにします。ステータスバーのVPN鍵アイコンが出たままになりません。 - 今日のブロック数を表示: ブロックした広告・トラッカーの数を、統計画面でリアルタイムに確認できます。 - 日別・月別の統計: どれだけ広告をブロックしたかをグラフで振り返れます。 - 自動で保護を再開: 端末の再起動やネットワークの切り替え後も、自動でブロックを再開します。 - DNS暗号化（DoH / DoT）に対応: 通信を暗号化するセキュアなDNSに対応。プロバイダを選択でき、障害時には自動でフェイルオーバーします。 - ブラウザごとの保護設定: ブラウザアプリごとに広告ブロックのオン/オフを切り替えられます（上級者向け）。 - 通知を非表示にできます: 常駐の通知を隠しても、ブロックはそのまま動作し続けます。 ▼ アプリの特徴 - 全ブラウザ対応: どのブラウザアプリにも対応しており、柔軟な利用が可能です。 - 高速ブラウジング: 広告をブロックすることでウェブページの読み込みが速くなります。 - デザインの改善: ウェブサイトやアプリのデザインがよりクリーンで直感的になり、ユーザー体験が向上します。 - セキュリティ強化: マルウェアやトラッカーのブロックにより、オンラインでの安全性が向上します。 - データ使用量削減: 不要な広告データの読み込みを防ぎ、データ使用量を節約できます。 - ダークモード対応: 端末のテーマに合わせて自動で切り替わります。 - 多言語対応: 35の言語に対応しています。 ▼ 日本国内の広告に合わせたフィルタ 本アプリは日本の開発チームが開発・運用している国産アプリです。 日本のサイトでよく使われる広告の形式や配信方法に合わせたフィルタを用意し、国内サイトでのブロック精度を継続的に調整しています。 ▼ 二段構えの広告ブロック 広告のリクエストをURL単位で遮断する仕組み（約19万ルール）と、ページ内の広告要素を取り除く仕組み（約2.6万ルール）、さらに約3.5万サイトへの専用スクリプト対策を組み合わせています。 どちらか一方だけの方式では残りやすい広告も取り除きます。ほぼすべてのサイトで、広告が1つも表示されません。 ▼ 安心して使える理由 - 処理はすべて端末内で完結: ブロックの判定は端末内で行い、通信を当社のサーバーに中継することはありません。閲覧履歴を収集・外部送信することもありません。 - アカウント登録なし・アプリ内広告なし: インストール後すぐに使え、アプリ自体に広告は表示されません。 - 買い切り・月額課金なし: 一度購入すればずっと使えます。追加料金や自動更新はありません。 - 継続的なメンテナンス: フィルタ・ルールを数日に一度の頻度で更新しています。 ▼ プライバシー保護 ユーザーの安全とプライバシーを最優先に考え、安心してご利用いただけるよう設計しています。 本アプリはユーザーの個人情報を一切収集・転送しません。 ▼ こんな人におすすめ - 高速で快適なブラウジングを求める方 - 広告ブロック機能つきのブラウザを使いたい方 - セキュリティを重視する方 - データ通信量を節約したい方 - 広告の多いサイトを頻繁に閲覧する方 - シンプルで使いやすい広告ブロックアプリを探している方 ▼ 注意事項 このアプリはブラウザアプリ内の広告をブロックします。ブラウザアプリ以外のアプリ内広告は、Playストアポリシーの制約に従ってブロックされません。",
+      "analysis": {
+        "app_key": "google:jp.snowlife01.android.ad_blocker",
+        "summary_ko": "이 앱은 로컬 VPN 기술을 활용하여 웹 브라우징 시 광고와 트래커를 차단하는 도구입니다. 내장 브라우저와 외부 브라우저 모두에서 광고를 제거하여 데이터 사용량을 줄이고 로딩 속도를 개선합니다. 사용자의 개인정보를 서버로 전송하지 않고 기기 내에서 모든 처리를 완료하는 것이 특징입니다.",
+        "features_ko": [
+          "약 24만 개의 필터 규칙을 통해 배너, 영상, 팝업 광고를 사전에 차단합니다.",
+          "로컬 VPN을 사용하여 외부 서버를 거치지 않고 기기 내에서 광고를 필터링합니다.",
+          "DNS 필터링을 통해 기기 전체의 브라우저에서 광고와 트래커를 차단합니다.",
+          "광고 차단 상태를 실시간으로 확인할 수 있는 통계 및 그래프 기능을 제공합니다.",
+          "홈 화면 위젯이나 플로팅 버튼을 통해 광고 차단 기능을 간편하게 켜고 끌 수 있습니다."
+        ],
+        "noteworthy_ko": "로컬 VPN을 활용해 네트워크 트래픽을 가로채는 방식은 별도의 루트 권한 없이도 시스템 수준의 차단을 구현할 수 있어 흥미롭습니다. 서버를 거치지 않는다는 점을 강조하여 보안 신뢰도를 높인 설계가 돋보입니다.",
+        "development_ko": "핵심 기술은 Android의 VpnService API를 활용한 패킷 필터링입니다. 필터링 규칙(도메인 리스트)을 효율적으로 관리하고 검색하는 알고리즘이 성능의 핵심입니다. 사용자 경험을 위해 VPN 연결 상태를 안정적으로 유지하고 배터리 소모를 최소화하는 최적화가 필요합니다.",
+        "idea_ko": "특정 웹사이트의 광고 제거뿐만 아니라, 사용자가 직접 차단하고 싶은 도메인을 추가할 수 있는 커스텀 블랙리스트 관리 기능을 제안합니다.",
+        "highlights_ko": [
+          "로컬 VPN을 사용하여 외부 서버 통신 없이 개인정보를 보호합니다.",
+          "일본 내 웹 환경에 최적화된 필터 규칙을 지속적으로 업데이트합니다."
+        ],
+        "systems_ko": [
+          "VPN 서비스 관리자",
+          "도메인 필터링 엔진",
+          "네트워크 트래픽 모니터링",
+          "설정 및 통계 데이터베이스",
+          "UI/UX 제어(위젯 및 플로팅 버튼)"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "Android의 VpnService는 네트워크 스택에 대한 깊은 이해가 필요하며, 패킷 처리 과정에서 발생할 수 있는 지연 시간이나 연결 오류를 해결하는 것이 매우 까다롭습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "VpnService 기반의 기본 패킷 차단",
+            "도메인 차단 리스트 로딩",
+            "기본 설정 UI"
+          ],
+          "defer": [
+            "DNS 암호화(DoH/DoT)",
+            "브라우저별 상세 설정",
+            "복잡한 통계 시각화"
+          ],
+          "risks": [
+            "OS의 배터리 최적화로 인한 VPN 서비스 강제 종료",
+            "필터링 규칙 업데이트 시 성능 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "광고 대신 메모",
+            "concept": "광고가 차단된 빈 공간에 사용자가 설정한 짧은 명언이나 할 일을 표시합니다.",
+            "first_step": "웹 페이지의 특정 요소(광고)를 감지하여 투명하게 만들고 그 위에 텍스트 레이어를 띄우는 브라우저 확장 기능을 구현합니다."
+          },
+          {
+            "title": "데이터 절약 리포트",
+            "concept": "차단된 광고의 용량을 계산하여 사용자가 절약한 데이터 비용을 화폐 단위로 환산해 보여줍니다.",
+            "first_step": "차단된 요청의 헤더 정보를 기반으로 예상 데이터 크기를 합산하는 로직을 작성합니다."
+          }
+        ],
+        "recommendation_ko": "네트워크 프로토콜과 안드로이드 시스템 서비스의 동작 방식을 배우기에 매우 좋은 프로젝트입니다. 다만, 보안과 관련된 앱이므로 개인 개발 시 책임 범위가 넓다는 점을 유의해야 합니다.",
+        "source_limitations_ko": "소개문에 명시된 '약 24만 건의 필터'의 구체적인 데이터 소스나 업데이트 방식은 확인되지 않습니다. 또한, 실제 네트워크 성능 영향도에 대한 검증이 필요합니다.",
+        "name": "広告ブロッカーPro ポップアップ広告も",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=jp.snowlife01.android.ad_blocker&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 222,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 6,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
+    },
+    "google:com.pdfvireadior.easueiwdse": {
+      "app_key": "google:com.pdfvireadior.easueiwdse",
+      "name": "간편한 PDF 리더",
+      "developer": "projectwijayadaru",
+      "source": "google",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.pdfvireadior.easueiwdse&hl=ko&gl=KR",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T04:57:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "간편한 PDF 리더는 다양한 PDF 기능을 하나의 편리한 앱에 담았습니다. 문서 열람부터 종이 문서 스캔, 이미지의 PDF 변환, 주석 추가까지 스마트폰에서 빠르고 간편하게 처리해 보세요. 주요 기능 • PDF 문서 열람 깔끔하고 편안한 화면에서 PDF 문서를 열고 읽을 수 있습니다. • PDF 편집 실용적인 편집 도구를 사용해 PDF 문서를 간편하게 수정할 수 있습니다. • 문서 스캔 및 PDF 저장 스마트폰 카메라로 영수증, 메모, 서식 등 다양한 종이 문서를 스캔하여 PDF 파일로 저장할 수 있습니다. • 이미지를 PDF로 변환 사진과 이미지를 몇 단계만으로 깔끔하게 정리된 PDF 문서로 변환할 수 있습니다. • 중요 내용 형광펜 표시 핵심 문장과 중요한 정보를 강조하여 나중에 쉽게 확인할 수 있습니다. • 텍스트 밑줄 표시 문서를 읽거나 검토하면서 필요한 부분에 밑줄을 추가할 수 있습니다. • PDF 문서 관리 PDF 파일을 체계적으로 정리하고 필요한 문서를 더욱 빠르고 편리하게 찾아보세요.",
+      "analysis": {
+        "app_key": "google:com.pdfvireadior.easueiwdse",
+        "summary_ko": "간편한 PDF 리더는 문서 열람, 편집, 스캔, 이미지 변환 등 PDF 관련 핵심 기능을 제공하는 도구입니다. 스마트폰 카메라로 문서를 스캔하여 PDF로 저장하거나, 문서에 주석을 달고 형광펜으로 강조할 수 있습니다. 체계적인 문서 관리를 돕는 가벼운 생산성 앱입니다.",
+        "features_ko": [
+          "PDF 문서를 열람하고 읽기 편한 화면을 제공합니다.",
+          "카메라를 이용해 종이 문서를 스캔하고 PDF로 저장합니다.",
+          "이미지를 PDF 파일로 변환합니다.",
+          "문서에 형광펜 표시나 밑줄을 추가하여 중요 내용을 강조합니다."
+        ],
+        "noteworthy_ko": "사용자 경험(UX) 측면에서 문서 읽기와 편집의 경계를 최소화한 점이 특징입니다. 1인 개발자가 핵심 기능에 집중하여 가볍게 구현한 사례로 보입니다.",
+        "development_ko": "핵심 기술은 PDF 렌더링 라이브러리 활용과 이미지 처리입니다. 콘텐츠 제작 부담은 낮으나, 사용자 인터페이스의 직관성을 높이는 것이 중요합니다. 테스트 시 다양한 이미지 파일의 변환 품질을 확인해야 합니다.",
+        "idea_ko": "스캔한 문서에서 특정 텍스트를 검색하거나, 여러 문서를 묶어 하나의 '프로젝트 폴더'로 관리하는 기능을 추가하면 좋습니다.",
+        "highlights_ko": [
+          "문서 열람부터 편집까지 필수적인 기능 위주로 구성되었습니다.",
+          "형광펜과 밑줄 기능을 통해 학습용 문서 관리에 최적화되어 있습니다."
+        ],
+        "systems_ko": [
+          "PDF 렌더링 시스템",
+          "이미지 캡처 및 변환 모듈",
+          "주석 및 마크업 시스템",
+          "파일 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "PDF 관련 오픈소스 라이브러리가 잘 갖춰져 있어 핵심 기능 구현은 가능하지만, 편집 기능의 안정성을 확보하는 데 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "PDF 뷰어",
+            "스캔 기능",
+            "기본 마크업(형광펜)"
+          ],
+          "defer": [
+            "고급 편집 기능",
+            "클라우드 연동"
+          ],
+          "risks": [
+            "PDF 렌더링 라이브러리 호환성",
+            "이미지 처리 성능"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "학습용 오답 노트",
+            "concept": "PDF 문제지에서 틀린 부분을 스캔하여 오답 노트로 자동 생성하는 기능입니다.",
+            "first_step": "PDF의 특정 영역을 잘라내어 별도의 이미지 파일로 저장하는 기능을 구현합니다."
+          },
+          {
+            "title": "문서 공유 링크",
+            "concept": "스캔한 문서를 즉시 웹 링크로 변환하여 타인에게 공유하는 기능입니다.",
+            "first_step": "파일을 서버에 업로드하고 공유 가능한 URL을 생성하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "문서 처리 앱의 기본 구조를 배우기에 좋습니다. 가벼운 도구 앱을 개발하려는 분들에게 추천합니다.",
+        "source_limitations_ko": "사용된 PDF 라이브러리의 종류나 이미지 변환 알고리즘의 상세 정보는 확인되지 않습니다.",
+        "name": "간편한 PDF 리더",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.pdfvireadior.easueiwdse&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
+    },
+    "google:com.FireproofStudios.TheRoom2": {
+      "app_key": "google:com.FireproofStudios.TheRoom2",
+      "name": "The Room Two",
+      "developer": "Fireproof Games",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.FireproofStudios.TheRoom2&hl=en&gl=US",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T04:59:29+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Welcome to The Room Two, a physical puzzler, wrapped in a mystery game, inside a beautifully tactile 3D world. The much anticipated sequel to ‘The Room’, recipient of a BAFTA award, is here at last. Follow a trail of cryptic letters from an enigmatic scientist known only as \"AS\" into a compelling world of mystery and exploration. ******************************************************************************************************************* “An incredibly compelling experience with clever puzzles, gorgeous visuals, and a spooky atmosphere; absolutely brimming with new ideas.” – The Verge “An intricately woven work of fiction perfectly suited to its format, this is the sort of game that it's worth sitting in the dark for.” - Pocketgamer “A gorgeous-looking game offering larger locations with multiple interactive areas and puzzles. A perfect game for a cold winter's night.” – Eurogamer “Leaves you thinking about how to solve its puzzles even when not playing; a sign of a classy game, which this most definitely is.” – 148Apps “A superb sequel with stunning visuals, the level of complexity on display here is quite astounding. The Room Two should be on top of your gaming list.” - GSM Arena ******************************************************************************************************************* PICK-UP-AND-PLAY DESIGN Easy to start, hard to put down, an entrancing mix of intriguing puzzles with a simple user interface INNOVATIVE TOUCH CONTROLS A tactile experience so natural you can almost feel the surface of each object REALISTIC 3D LOCATIONS Immerse yourself in a variety of stunning environments which will challenge your puzzle solving prowess. DETAILED 3D OBJECTS Pore over the intricate details of dozens of artifacts in search of their hidden secrets. UNNERVING AUDIO A haunting soundtrack and dynamic sound effects create a soundscape that reacts to your play. CLOUD SAVING NOW SUPPORTED Share your progress between multiple devices, and unlock the all-new achievements. MULTI LANGUAGE SUPPORT Available in English, French, Italian, German, Spanish & Brazilian Portuguese. ******************************************************************************************************************* Fireproof Games is a small independent studio based in Guildford in the United Kingdom. Find out more at fireproofgames.com Follow us @Fireproof_Games",
+      "analysis": {
+        "app_key": "google:com.FireproofStudios.TheRoom2",
+        "summary_ko": "신비로운 분위기의 3D 퍼즐 게임으로, 플레이어는 정교하게 제작된 사물과 환경을 탐색하며 숨겨진 비밀을 풀어냅니다. 직관적인 터치 컨트롤을 통해 사물을 직접 조작하는 듯한 몰입감을 제공합니다. 다양한 장소에서 퍼즐을 해결하며 이야기를 진행하는 방식입니다.",
+        "features_ko": [
+          "터치 기반의 직관적인 조작으로 사물을 회전하거나 확대하여 세부 사항을 관찰합니다.",
+          "3D 환경 내에서 상호작용 가능한 다양한 퍼즐 요소가 배치되어 있습니다.",
+          "분위기 있는 사운드와 음악이 게임의 몰입감을 높입니다.",
+          "클라우드 저장 기능을 통해 여러 기기에서 진행 상황을 공유할 수 있습니다."
+        ],
+        "noteworthy_ko": "사물과의 물리적 상호작용을 극대화한 UI/UX 설계가 매우 뛰어납니다. 퍼즐의 복잡도와 시각적 디테일이 조화를 이루어 플레이어에게 높은 성취감을 제공합니다.",
+        "development_ko": "고품질 3D 모델링과 텍스처 작업이 핵심이며, 사물 조작을 위한 정밀한 터치 입력 처리가 필요합니다. 퍼즐의 논리적 흐름을 설계하는 기획 단계가 중요하며, 환경음과 효과음의 동적 연출이 게임의 완성도를 결정합니다.",
+        "idea_ko": "특정 사물을 분해하여 내부 부품을 수리하는 '수리 퍼즐' 요소를 추가하는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "촉각을 자극하는 정교한 3D 사물 상호작용.",
+          "분위기 중심의 몰입형 퍼즐 디자인."
+        ],
+        "systems_ko": [
+          "3D 카메라 제어 및 회전 시스템",
+          "사물 상호작용(드래그, 회전, 확대) 로직",
+          "퍼즐 상태 관리 시스템",
+          "오디오 매니저",
+          "세이브 데이터 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "고품질의 3D 그래픽과 정교한 퍼즐 메커니즘을 1인이 구현하기에는 리소스 제작 부담이 매우 큽니다. 퍼즐의 논리적 오류를 방지하기 위한 테스트 과정이 복잡합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "단일 사물 조작 및 관찰 시스템",
+            "기본 퍼즐 해결 로직"
+          ],
+          "defer": [
+            "클라우드 저장",
+            "다국어 지원"
+          ],
+          "risks": [
+            "3D 리소스 제작의 높은 난이도",
+            "퍼즐의 직관성 부족으로 인한 사용자 이탈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "사물 수리 퍼즐",
+            "concept": "고장 난 골동품을 분해하고 부품을 교체하여 다시 작동하게 만듭니다. 사물의 내부 구조를 관찰하는 재미를 강조합니다.",
+            "first_step": "사물을 분해하고 조립하는 기본 애니메이션 구현."
+          },
+          {
+            "title": "그림자 퍼즐",
+            "concept": "사물을 특정 각도로 회전시켜 벽에 비친 그림자가 특정 모양이 되도록 만듭니다.",
+            "first_step": "광원과 사물 위치에 따른 그림자 투영 로직 구현."
+          }
+        ],
+        "recommendation_ko": "3D 환경에서의 상호작용 설계와 몰입감 있는 레벨 디자인을 배우기에 최적입니다. 다만, 그래픽 리소스 제작에 많은 시간이 소요되므로 에셋 활용을 권장합니다.",
+        "source_limitations_ko": "소개문에 퍼즐의 구체적인 논리 구조나 시나리오 분기점은 명시되어 있지 않으며, 결제 및 보안 기능은 언급되지 않았습니다.",
+        "name": "The Room Two",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.FireproofStudios.TheRoom2&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
     }
   }
 }

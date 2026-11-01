@@ -8362,6 +8362,274 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-01"
+    },
+    "itch:bdf18fb27a5de8c5ea77": {
+      "app_key": "itch:bdf18fb27a5de8c5ea77",
+      "name": "Office Cat: The Interactive Demo [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://johns-boo-lair.itch.io/offiskat",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T04:55:14+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "#cats #animals #goofy #slacking #paperairplanes",
+      "analysis": {
+        "app_key": "itch:bdf18fb27a5de8c5ea77",
+        "summary_ko": "고양이를 소재로 한 시뮬레이션 게임의 인터랙티브 데모입니다. 사무실 환경에서 고양이가 되어 업무를 방해하거나 종이비행기를 날리는 등 엉뚱한 행동을 즐기는 경험을 제공합니다.",
+        "features_ko": [
+          "고양이 캐릭터를 조작하여 사무실 공간을 탐험합니다.",
+          "종이비행기를 날리는 등의 상호작용 요소를 포함합니다.",
+          "사무실에서 업무를 방해하는 슬래킹(slacking) 활동을 수행합니다."
+        ],
+        "noteworthy_ko": "동물 캐릭터를 활용한 샌드박스형 시뮬레이션으로, 특정 목적보다는 캐릭터의 행동과 환경 상호작용에 집중한 점이 흥미롭습니다. 물리 엔진을 활용한 오브젝트 상호작용 구현이 핵심일 것으로 추정됩니다.",
+        "development_ko": "캐릭터 컨트롤러와 물리 기반의 오브젝트 상호작용 구현이 핵심입니다. 사무실 환경의 에셋 배치와 고양이 애니메이션 제작에 공수가 많이 들 것으로 보이며, 물리 충돌 판정의 최적화가 중요합니다.",
+        "idea_ko": "사무실 내 특정 물건을 떨어뜨려 콤보 점수를 쌓는 '고양이 사고뭉치 챌린지' 모드가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "고양이라는 친숙한 소재를 활용한 유머러스한 테마.",
+          "업무 방해라는 일상적인 상황을 게임화한 독특한 컨셉."
+        ],
+        "systems_ko": [
+          "캐릭터 이동 및 물리 컨트롤러",
+          "오브젝트 상호작용 시스템",
+          "사무실 환경 데이터 관리",
+          "UI/UX 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "캐릭터 조작과 물리 상호작용을 구현하는 것은 기본적이지만, 고양이의 자연스러운 움직임과 사무실 내 다양한 오브젝트와의 충돌 처리를 세밀하게 다듬는 데 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "고양이 캐릭터 이동",
+            "물리 기반 오브젝트 상호작용(밀기, 떨어뜨리기)",
+            "기본 사무실 맵"
+          ],
+          "defer": [
+            "복잡한 AI 시스템",
+            "다양한 캐릭터 커스터마이징"
+          ],
+          "risks": [
+            "물리 엔진의 불안정성으로 인한 버그",
+            "캐릭터 애니메이션과 물리 동작의 부조화"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "고양이 사고뭉치 챌린지",
+            "concept": "제한 시간 내에 사무실의 물건을 최대한 많이 떨어뜨려 점수를 얻는 방식입니다. 물건의 크기와 무게에 따라 점수를 차등 부여합니다.",
+            "first_step": "물건을 밀었을 때 바닥으로 떨어지는 물리 판정 구현."
+          },
+          {
+            "title": "은밀한 방해꾼",
+            "concept": "사람의 시선을 피해 업무를 방해해야 하는 잠입 요소가 가미된 시뮬레이션입니다. 시야각 시스템을 도입하여 긴장감을 높입니다.",
+            "first_step": "NPC의 시야각을 시각화하고 고양이의 위치를 감지하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "물리 기반의 상호작용 게임을 만들고 싶은 개발자에게 추천합니다. 캐릭터의 움직임과 환경 간의 상호작용을 통해 게임의 재미를 만드는 법을 배우기 좋습니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 실제 게임의 구체적인 규칙, 승리 조건, 물리 엔진의 종류 등을 확인할 수 없습니다. 제공된 정보 외의 기능은 추정입니다.",
+        "name": "Office Cat: The Interactive Demo [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://johns-boo-lair.itch.io/offiskat",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 347,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 11,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
+    },
+    "apple:6822935249": {
+      "app_key": "apple:6822935249",
+      "name": "Tokyo Brew Tycoon: 카페 게임",
+      "developer": "Giuseppe Lupo",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_rpg",
+      "detail_url": "https://apps.apple.com/kr/app/tokyo-brew-tycoon-%EC%B9%B4%ED%8E%98-%EA%B2%8C%EC%9E%84/id6822935249?uo=2",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T04:56:20+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "도쿄 시모호시자와의 뒷골목에 자리한 작은 쇼와 시대 찻집, 킷사 호시. 전설의 호시 마스터가 당신을 견습생으로 받아 주었다. 기술을 배우고, 동네 사람들의 마음을 얻고, 긴장한 견습생에서 나만의 커피 브랜드 창업자로 성장하자. Tokyo Brew Tycoon은 손으로 그린 픽셀 아트로 만든, 한 손으로 즐기는 힐링 바리스타 커리어 게임입니다. 한 잔씩, 손으로 내리기 모든 잔은 손가락으로 즐기는 작은 미니게임. • 핸드 그라인더를 돌려 딱 맞는 분쇄도로 • 핸드 드립은 천천히, 일정한 원을 그리며 • 우유를 스팀해 부드러운 마이크로폼으로 • 하트, 튤립, 로제타 라테 아트 • 진짜 킷사텐처럼 사이폰으로 추출 • 말차를 저어 부드러운 거품으로 • 직접 원두를 로스팅하고 완벽한 배전도를 찾기 한 잔씩 쌓아 가는 바리스타 커리어 50레벨, 6개 직급을 견습생부터 나만의 브랜드 오너까지 올라가자. 호시 마스터는 몰아붙이고, 칭찬하고, 가끔은 혼낸다. 직급이 오를 때마다 새로운 음료, 도구, 그리고 이야기가 열린다. 조금 쌉싸름한 이야기 시모호시자와가 변하고 있다. 세련된 체인점 골드 빈이 동네 구석구석을 노리고, 별로 반갑지 않은 손님들이 \"보호비\"를 내라며 찾아온다. 단골, 라이벌, 그리고 가끔은 야쿠자까지. 여러 막에 걸친 이야기 속에서 킷사 호시를 지켜 내자. 나만의 커피 제국 만들기 • 동네 지도를 돌아다니며 이웃들을 만나기 • 지점을 내고 프랜차이즈 영업일을 운영하기 • 직원, 메뉴, 가격을 진짜 카페 사장처럼 관리하기 힐링, 하지만 가끔은 바쁘게 • 일일 퀘스트와 연속 기록으로 매일의 루틴을 • 스트레스를 관리하고, 바쁜 날 뒤에는 스파에서 휴식 • 바리스타와 가게 꾸미기 아이템 모으기 • 잠금 화면 라이브 액티비티로 근무 확인 나만의 속도로 • 1막과 2막은 무료. 마음에 들면 한 번의 구매로 전체 게임 잠금 해제 • 광고는 전혀 없음 • iCloud 저장으로 여러 기기에서 진행 상황 동기화 • Game Center 업적과 리더보드 물을 올려 두세요. 킷사 호시는 아침 7시에 문을 엽니다.",
+      "analysis": {
+        "app_key": "apple:6822935249",
+        "summary_ko": "이 게임은 도쿄의 작은 찻집에서 견습생으로 시작해 커피 브랜드 오너로 성장하는 바리스타 커리어 게임입니다. 핸드 드립, 라테 아트, 로스팅 등 커피 제조 과정을 미니게임으로 구현하여 힐링과 성장의 재미를 동시에 제공합니다. 경영 시뮬레이션 요소와 함께 도쿄 뒷골목의 이야기를 담고 있습니다.",
+        "features_ko": [
+          "핸드 드립, 라테 아트, 로스팅 등 다양한 커피 제조 미니게임을 제공합니다.",
+          "견습생에서 브랜드 오너까지 50레벨의 성장 시스템을 갖추고 있습니다.",
+          "도쿄 뒷골목을 배경으로 한 스토리 모드를 통해 다양한 인물들과 상호작용합니다.",
+          "프랜차이즈 관리, 직원 고용, 메뉴 가격 설정 등 경영 시뮬레이션 요소를 포함합니다.",
+          "iCloud 저장 및 Game Center 업적 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "단순한 경영 게임을 넘어 커피 제조라는 구체적인 행위를 미니게임으로 구현하여 몰입감을 높인 점이 인상적입니다. 픽셀 아트 스타일과 힐링 테마의 조화가 타겟 유저층에게 매력적으로 다가갈 것으로 보입니다.",
+        "development_ko": "미니게임의 조작감(터치 및 드래그)을 정교하게 다듬는 것이 가장 중요합니다. 경영 시뮬레이션의 경제 밸런스를 맞추기 위해 데이터 기반의 설계가 필요하며, 스토리 진행에 따른 이벤트 관리 시스템이 필요합니다. 픽셀 아트 에셋 제작과 UI의 일관성 유지가 콘텐츠 제작의 핵심입니다.",
+        "idea_ko": "사용자가 직접 자신만의 시그니처 메뉴를 개발하고, 이를 다른 유저들과 공유하거나 레시피를 교환하는 커뮤니티 기능을 제안합니다.",
+        "highlights_ko": [
+          "손으로 내리는 커피의 과정을 미니게임으로 구현하여 높은 몰입감을 제공합니다.",
+          "견습생부터 오너까지 성장하는 서사적인 커리어 모드를 갖추고 있습니다."
+        ],
+        "systems_ko": [
+          "미니게임 엔진(터치 제어)",
+          "경영 및 경제 시뮬레이션 시스템",
+          "스토리 이벤트 관리자",
+          "캐릭터 성장 및 레벨링 시스템",
+          "데이터 저장 및 클라우드 동기화"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "미니게임과 경영 시스템을 결합하는 것은 복잡하지만, 각 요소가 독립적으로 동작하므로 단계적으로 구현하기에 적합한 난도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 커피 제조 미니게임 1종",
+            "레벨업 및 성장 시스템",
+            "기본 경영 UI"
+          ],
+          "defer": [
+            "복잡한 스토리 분기",
+            "프랜차이즈 관리 시스템",
+            "다양한 꾸미기 아이템"
+          ],
+          "risks": [
+            "미니게임의 조작감이 재미없을 경우 이탈 발생",
+            "경영 밸런스 조정 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "커피 레시피 공유",
+            "concept": "사용자가 만든 커피 레시피를 코드로 생성하여 친구에게 공유하고, 친구가 그 레시피로 커피를 만들어볼 수 있습니다.",
+            "first_step": "커피 제조 시 선택한 재료와 수치를 데이터화하여 텍스트 코드로 변환하는 기능을 구현합니다."
+          },
+          {
+            "title": "계절별 한정 메뉴",
+            "concept": "현실의 계절에 따라 게임 내에서만 만들 수 있는 한정 메뉴를 제공하여 접속 동기를 부여합니다.",
+            "first_step": "현재 날짜를 확인하여 특정 기간에만 특정 아이템을 해금하는 로직을 작성합니다."
+          }
+        ],
+        "recommendation_ko": "경영 시뮬레이션과 미니게임의 결합을 배우기에 매우 좋은 사례입니다. 1인 개발자가 감성적인 아트와 시스템을 어떻게 조화시키는지 연구하기 좋습니다.",
+        "source_limitations_ko": "소개문에 명시된 '50레벨'의 구체적인 성장 곡선이나 '보호비'와 같은 이벤트의 구체적인 메커니즘은 확인되지 않습니다. 인앱 결제 방식의 상세 내용은 알 수 없습니다.",
+        "name": "Tokyo Brew Tycoon: 카페 게임",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/tokyo-brew-tycoon-%EC%B9%B4%ED%8E%98-%EA%B2%8C%EC%9E%84/id6822935249?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 198,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 14,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
+    },
+    "google:com.EternalStudio.GearFight": {
+      "app_key": "google:com.EternalStudio.GearFight",
+      "name": "Gear Fight!",
+      "developer": "VOODOO",
+      "source": "google",
+      "country": "US",
+      "category": "game_arcade",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.EternalStudio.GearFight&hl=en&gl=US",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T04:58:10+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "⚙️Gear Fight! A brand new type of puzzle-adventure game!⚙️ It's time to build a well oiled machine to take down these pesky enemies! First, place down some gears. Then, put your newly constructed factory to the test versus all of the evil enemies! 🏹 You will face many different choices on what to use to take on these challenging enemies. Will you utilize the range abilities of your archers? Or will you brute force your way to victory?! Do you have what it takes to build a flawless factory 🏭 of brutes, archers, and grunts? Manage your budget, and take them all down! It's time to get these gears spinning and it's time to get you winning!",
+      "analysis": {
+        "app_key": "google:com.EternalStudio.GearFight",
+        "summary_ko": "톱니바퀴를 배치하여 기계를 만들고 적들과 전투를 벌이는 퍼즐 어드벤처 게임입니다. 플레이어는 예산을 관리하며 궁수나 돌격병 등 다양한 유닛을 활용해 적을 물리쳐야 합니다. 기계적인 구조를 설계하고 전투 결과를 확인하는 전략적 재미를 제공합니다.",
+        "features_ko": [
+          "톱니바퀴를 배치하여 기계적인 공장을 건설합니다.",
+          "궁수와 돌격병 등 다양한 유닛을 선택하여 적과 전투를 벌입니다.",
+          "제한된 예산 내에서 효율적인 방어 전략을 수립해야 합니다.",
+          "다양한 적들을 물리치며 스테이지를 공략합니다."
+        ],
+        "noteworthy_ko": "톱니바퀴 배치라는 기계적 요소와 디펜스 게임을 결합한 점이 흥미롭습니다. 1인 개발 시에는 톱니바퀴의 물리적 상호작용과 유닛 간의 밸런스 조정이 핵심이 될 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 톱니바퀴 배치 시스템과 유닛의 전투 로직입니다. 콘텐츠 제작 부담은 보통이며, 물리 엔진을 활용한 기계적 움직임 구현이 개발의 재미이자 난관이 될 것입니다.",
+        "idea_ko": "톱니바퀴를 연결하여 에너지를 전달하고, 그 에너지로 유닛을 강화하는 '에너지 연결 디펜스'가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "톱니바퀴를 활용한 독특한 기계 설계 방식이 게임의 차별점입니다.",
+          "예산 관리와 유닛 선택을 통해 전략적인 플레이를 유도합니다."
+        ],
+        "systems_ko": [
+          "톱니바퀴 배치 및 연결 시스템",
+          "유닛 생성 및 전투 로직",
+          "예산 관리 시스템",
+          "스테이지 진행 및 난이도 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진을 활용한 톱니바퀴 구현은 다소 복잡할 수 있으나, 기본적인 디펜스 게임의 틀을 따르므로 1인 개발자가 시도하기에 적절합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "톱니바퀴 배치 기능",
+            "기본 유닛 1종",
+            "적 생성 및 이동 로직"
+          ],
+          "defer": [
+            "다양한 유닛 업그레이드",
+            "복잡한 물리 효과",
+            "다양한 스테이지 환경"
+          ],
+          "risks": [
+            "물리 엔진의 성능 최적화",
+            "톱니바퀴 연결 로직의 버그"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "톱니바퀴 퍼즐 타워",
+            "concept": "톱니바퀴를 연결하여 타워의 공격 속도를 높이는 퍼즐 게임입니다. 연결이 끊기면 타워가 작동하지 않습니다.",
+            "first_step": "톱니바퀴 연결에 따른 공격 속도 변화 로직 구현."
+          },
+          {
+            "title": "기계 공장 타이쿤",
+            "concept": "톱니바퀴를 배치하여 제품을 생산하고 판매하는 타이쿤 게임입니다. 생산 라인을 효율적으로 설계하는 것이 목표입니다.",
+            "first_step": "톱니바퀴 배치에 따른 생산 속도 계산 로직 구현."
+          }
+        ],
+        "recommendation_ko": "물리 엔진과 게임 로직을 결합하는 경험을 쌓기에 좋습니다. 톱니바퀴라는 독특한 소재를 활용해 자신만의 게임 규칙을 만들어보는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 톱니바퀴의 물리적 상호작용 방식이나 구체적인 전투 로직에 대한 정보가 없습니다. 실제 구현 시에는 물리 엔진의 특성을 충분히 이해하고 개발해야 합니다.",
+        "name": "Gear Fight!",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.EternalStudio.GearFight&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
     }
   }
 }

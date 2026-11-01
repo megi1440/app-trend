@@ -8972,6 +8972,183 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-01"
+    },
+    "itch:990e7d28cd2b3bfecab9": {
+      "app_key": "itch:990e7d28cd2b3bfecab9",
+      "name": "Modern Tic-Tac-Toe [Free]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://vencergamerz.itch.io/modern-tic-tac-toe",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T04:55:14+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A modern Tic-Tac-Toe game with smart AI opponents.",
+      "analysis": {
+        "app_key": "itch:990e7d28cd2b3bfecab9",
+        "summary_ko": "지능형 AI 상대와 대결하는 현대적인 스타일의 틱택토 게임입니다. 고전적인 규칙을 기반으로 하며, AI와의 대전을 통해 도전적인 경험을 제공합니다.",
+        "features_ko": [
+          "3x3 격자판에서 진행되는 틱택토 규칙을 따릅니다.",
+          "사용자와 대결하는 AI 상대가 포함되어 있습니다.",
+          "현대적인 디자인의 UI를 제공합니다."
+        ],
+        "noteworthy_ko": "단순한 게임이지만 AI의 수준에 따라 게임의 재미가 크게 달라집니다. 미니맥스(Minimax) 알고리즘을 활용한 AI 구현을 학습하기에 매우 적합한 프로젝트입니다.",
+        "development_ko": "게임 상태 관리와 승리 조건 판정 로직은 간단합니다. AI의 난이도를 조절하는 알고리즘 구현이 핵심이며, UI 반응 속도와 시각적 피드백을 현대적으로 구성하는 것이 중요합니다.",
+        "idea_ko": "AI의 난이도를 단계별로 나누어 초보자부터 고수까지 즐길 수 있는 '난이도 선택 모드'를 구현하는 것이 좋습니다.",
+        "highlights_ko": [
+          "고전 게임의 현대적 재해석.",
+          "지능형 AI를 통한 도전적인 싱글 플레이."
+        ],
+        "systems_ko": [
+          "게임 상태 관리(보드 데이터)",
+          "승리/무승부 판정 로직",
+          "AI 알고리즘(Minimax)",
+          "UI 이벤트 처리"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "게임 규칙이 매우 단순하고 데이터 구조가 명확하여 개인 개발자가 처음 시작하기에 가장 적합한 프로젝트입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "3x3 보드 UI",
+            "턴제 게임 로직",
+            "기본 AI 알고리즘"
+          ],
+          "defer": [
+            "다양한 테마 및 스킨",
+            "온라인 멀티플레이"
+          ],
+          "risks": [
+            "AI가 너무 완벽하여 무승부만 반복되는 경우",
+            "단순함으로 인한 낮은 리플레이 가치"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "난이도 선택 모드",
+            "concept": "AI의 수 읽기 깊이를 조절하여 난이도를 설정합니다. 초보자는 1수 앞만 보고, 고수는 모든 경우의 수를 계산하게 합니다.",
+            "first_step": "Minimax 알고리즘의 깊이(depth) 파라미터 조절 기능 구현."
+          },
+          {
+            "title": "틱택토 변형 규칙",
+            "concept": "4x4 보드나 특정 칸이 막혀 있는 등 변형된 규칙을 적용합니다. 기존 틱택토의 지루함을 해소합니다.",
+            "first_step": "보드 크기를 동적으로 생성하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "게임 개발 입문자에게 강력 추천합니다. 게임 로직, AI 알고리즘, UI 구현의 기초를 모두 경험할 수 있습니다.",
+        "source_limitations_ko": "AI의 구체적인 알고리즘 방식이나 난이도 조절 여부, 현대적 디자인의 구체적인 구성 요소는 확인되지 않습니다.",
+        "name": "Modern Tic-Tac-Toe [Free]",
+        "source": "itch",
+        "detail_url": "https://vencergamerz.itch.io/modern-tic-tac-toe",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 341,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 13,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
+    },
+    "apple:1375031369": {
+      "app_key": "apple:1375031369",
+      "name": "DraftKings: Sports & Casino",
+      "developer": "DraftKings",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/draftkings-sports-casino/id1375031369",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T05:00:22+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Now Live in All 50 States! Game day’s calling. Get in on the action with DraftKings Sports & Casino. Sportsbook: Download the DraftKings Sports & Casino app to access the latest sportsbook markets and bet on your favorite sports all season long, including NFL football, NBA basketball, MLB baseball, NHL hockey, Soccer, PGA Tour Golf, UFC, MMA, Boxing, Motorsports, Esports, LOL, College Sports, and more. From moneyline bets and parlays to player props and more, take your shot at winning big with DraftKings Sports & Casino. The action doesn’t stop once the game begins. Get your live bet down with DraftKings Sports & Casino, your sportsbook home for live betting. Whether the game just started or going down to the wire, you can place live bets as the game unfolds on the Sportsbook experience. Between plays, during the break, or just before the gates open, place a bet in various markets for a shot to bring home big winnings. Crunch time. Anytime. Follow the action and bet live as the game unfolds. • Live Betting & In-Game Odds: Bet on every snap, first down and touchdown with real-time spreads, moneylines, totals and dynamic odds that update as the game evolves. • Same-Game Parlays: Stack your MVPs, touchdown scorers and game totals into a single ticket for greater payout potential. • Player Props for Every Sport: From NFL quarterbacks to NBA point guards, lock in markets on passing yards, rushing TDs, free throws and more. Predictions: Stay ahead of the moment with DraftKings Predictions within the app. Make trades and predict outcomes across sports, pop culture, and real-world events in interactive prediction markets. From big games to trending moments, follow along and see how your predictions turn out. Horse Racing: In addition to sports betting on Sportsbook, customers can access horse racing and horse race betting through DraftKings Racing within the app. While accessible in the DraftKings Sports & Casino app, both DraftKings Racing and DraftKings Predictions operate separately from Sportsbook and are subject to different regulatory requirements. – SPORTSBOOK: Sportsbook available here: https://sportsbook.draftkings.com/help/sports-betting/where-is-sports-betting-legal Bets with DraftKings Sportsbook are not affiliated with or provided by Apple. DraftKings is a US company with headquarters in Boston, Massachusetts. DraftKings is licensed in the State of Connecticut - License OGO.000003 GAMBLING PROBLEM? CALL 1-800-GAMBLER, or 1-800-MY-RESET, (800) 327-5050 or visit gamblinghelplinema.org (MA). Call 877-8-HOPENY/text HOPENY (467369) (NY). Please Gamble Responsibly. 888-789-7777/visit ccpg.org (CT), or visit www.mdgamblinghelp.org (MD), 1-800-981-0023 (PR). 21+ (18+ DC/NH/PR/WY). Void in CAN. Eligibility restrictions apply. Terms: draftkings.com/sportsbook. On behalf of Boot Hill Casino (KS). Fees may apply in IL. Casino available in CT/MI/NJ/PA/WV ONLY #1 Sportsbook for Live Betting - Based on available live market data RACING: Horse race betting available here: dkng.co/whereisracingavailable PREDICTIONS: Event Contract Trading is offered by DraftKings Predictions is a CFTC-registered introducing broker and NFA member. Trading involves risk of loss and may not be suitable for all users. Predictions available here: https://dkng.co/predictions-availability Must meet age and eligibility requirements to use DraftKings. Promotional eligibility and requirements vary. For full terms and conditions, see draftkings.com. Bonus Rewards are single-use, non-withdrawable, non-refundable, have no cash value, and subject to transaction, redemption, and expiration restrictions. Privacy Policy: https://www.draftkings.com/help/privacy/us",
+      "analysis": {
+        "app_key": "apple:1375031369",
+        "summary_ko": "DraftKings는 스포츠 베팅과 카지노 게임을 즐길 수 있는 통합 플랫폼입니다. NFL, NBA 등 다양한 스포츠 리그의 실시간 베팅과 경기 중 베팅을 지원하며, 스포츠 예측 시장과 경마 베팅 기능도 포함하고 있습니다. 사용자는 실시간 배당률을 확인하고 다양한 베팅 옵션을 선택할 수 있습니다.",
+        "features_ko": [
+          "다양한 스포츠 리그의 실시간 베팅 및 경기 중 베팅을 지원합니다.",
+          "실시간으로 변동되는 배당률과 스프레드 정보를 제공합니다.",
+          "여러 선수의 성적을 조합하여 베팅하는 'Same-Game Parlays' 기능을 제공합니다.",
+          "스포츠, 대중문화 등 다양한 분야의 결과를 예측하는 시장을 운영합니다.",
+          "경마 베팅 기능을 별도로 제공합니다."
+        ],
+        "noteworthy_ko": "실시간 데이터 연동과 복잡한 확률 계산이 핵심인 서비스입니다. 스포츠 경기 데이터와 베팅 시장을 실시간으로 동기화하는 시스템의 안정성이 개발 관점에서 매우 중요합니다.",
+        "development_ko": "실시간 데이터 피드 처리와 고도의 보안이 적용된 결제 시스템이 필수적입니다. 베팅 결과에 따른 정산 로직의 정확성이 생명이며, 다양한 규제 준수를 위한 법적 요구사항을 시스템에 반영해야 합니다.",
+        "idea_ko": "실제 돈이 아닌 가상 화폐를 사용하여 스포츠 예측을 연습하고 순위를 겨루는 시뮬레이션 게임.",
+        "highlights_ko": [
+          "다양한 스포츠 리그를 아우르는 실시간 베팅 및 예측 시장.",
+          "경기 상황에 따라 실시간으로 업데이트되는 배당률 시스템."
+        ],
+        "systems_ko": [
+          "실시간 스포츠 데이터 피드 연동 시스템",
+          "확률 계산 및 배당률 관리 시스템",
+          "보안 결제 및 정산 시스템",
+          "사용자 베팅 기록 및 예측 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "금융 및 베팅 관련 서비스는 매우 엄격한 법적 규제와 보안 수준을 요구합니다. 개인 개발자가 이를 완벽히 준수하며 구현하는 것은 현실적으로 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "스포츠 경기 목록 조회",
+            "가상 베팅 기능",
+            "사용자 베팅 내역 관리"
+          ],
+          "defer": [
+            "실시간 결제 및 실제 현금 정산",
+            "복잡한 실시간 데이터 피드 연동"
+          ],
+          "risks": [
+            "법적 규제 및 라이선스 문제",
+            "보안 사고 및 데이터 무결성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스포츠 예측 챌린지",
+            "concept": "현금 베팅 없이 친구들과 스포츠 경기 결과를 예측하여 순위를 겨루는 소셜 게임입니다.",
+            "first_step": "경기 결과를 입력하고 예측 성공 여부를 계산하는 간단한 리더보드 앱을 만듭니다."
+          },
+          {
+            "title": "나만의 베팅 전략 노트",
+            "concept": "자신이 세운 베팅 전략을 기록하고 실제 경기 결과와 비교하여 수익률을 분석하는 도구입니다.",
+            "first_step": "사용자가 전략을 입력하고 경기 결과를 기록하여 통계를 보여주는 앱을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "실시간 데이터 처리와 복잡한 비즈니스 로직 구현을 공부하기에 좋습니다. 다만, 실제 베팅 서비스는 법적 리스크가 크므로 학습용 시뮬레이션 프로젝트로만 접근하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 실제 베팅을 위한 보안 아키텍처, 규제 준수 방식, 데이터 피드 제공업체에 대한 정보가 없습니다. 또한 결제 시스템의 상세 구현 방식은 명시되지 않았습니다.",
+        "name": "DraftKings: Sports & Casino",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/draftkings-sports-casino/id1375031369",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 99,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
     }
   }
 }

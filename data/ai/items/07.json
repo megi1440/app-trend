@@ -9202,6 +9202,360 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-01"
+    },
+    "itch:6f0f1f91eebeb17ca38a": {
+      "app_key": "itch:6f0f1f91eebeb17ca38a",
+      "name": "GrandMaOS [Free] [Puzzle]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://lilys-mascot.itch.io/grandmaos",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T04:56:01+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "You are an idiot. Oh sweetie, someone put a virus on my computer, can you help?",
+      "analysis": {
+        "app_key": "itch:6f0f1f91eebeb17ca38a",
+        "summary_ko": "컴퓨터에 바이러스가 걸린 상황을 해결해달라는 요청으로 시작되는 퍼즐 게임입니다. 사용자는 컴퓨터 시스템을 다루는 듯한 경험을 하게 됩니다.",
+        "features_ko": [
+          "컴퓨터 시스템을 모방한 인터페이스를 제공합니다.",
+          "바이러스 제거를 목표로 하는 퍼즐을 풀어나갑니다."
+        ],
+        "noteworthy_ko": "OS를 모방한 인터페이스는 플레이어에게 높은 몰입감을 제공합니다. 실제 시스템을 다루는 듯한 착각을 주는 UI 디자인과 상호작용 설계가 개발의 핵심이 될 것으로 추정됩니다.",
+        "development_ko": "가상 OS 환경을 구현하기 위한 UI 프레임워크 활용 능력이 중요합니다. 퍼즐의 논리적 흐름을 설계하고 이를 시스템 인터페이스에 녹여내는 기획력이 필요합니다. 실제 시스템을 해치지 않으면서도 위험한 느낌을 주는 연출이 제작의 핵심입니다.",
+        "idea_ko": "실제 파일 시스템과 연동되는 듯한 가짜 오류 메시지를 활용하여 긴장감을 높이는 연출을 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "컴퓨터 시스템을 테마로 한 독특한 퍼즐 구성입니다.",
+          "사용자에게 직접적인 도움을 요청하는 몰입형 서사입니다."
+        ],
+        "systems_ko": [
+          "가상 OS UI 시스템",
+          "퍼즐 논리 및 이벤트 시스템",
+          "파일 및 시스템 상호작용 시뮬레이션",
+          "메시지 및 알림 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "UI 구현이 핵심인 게임으로, 논리적인 퍼즐 설계와 인터페이스 디자인에 집중하면 1인 개발로 충분히 구현 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "가상 데스크탑 UI",
+            "기본 퍼즐 로직",
+            "메시지 출력 시스템"
+          ],
+          "defer": [
+            "복잡한 파일 시스템 시뮬레이션",
+            "다양한 OS 기능 구현"
+          ],
+          "risks": [
+            "퍼즐 난이도 조절 실패",
+            "인터페이스의 직관성 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "시스템 로그 분석",
+            "concept": "가짜 시스템 로그를 읽고 바이러스의 경로를 찾아내는 퍼즐입니다. 텍스트 기반의 단서를 통해 추리하는 재미를 줍니다.",
+            "first_step": "텍스트 파일을 읽고 특정 키워드를 찾으면 다음 단계로 넘어가는 로직을 구현합니다."
+          },
+          {
+            "title": "바이러스 격리실",
+            "concept": "바이러스를 특정 폴더로 유인하여 격리하는 퍼즐입니다. 폴더의 권한을 설정하거나 파일을 이동시키는 방식을 사용합니다.",
+            "first_step": "드래그 앤 드롭으로 파일을 이동시키는 기본 UI를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "UI 디자인과 몰입형 스토리텔링에 관심 있는 개발자에게 추천합니다. 사용자 인터페이스를 게임의 핵심 메커니즘으로 활용하는 법을 배울 수 있습니다.",
+        "source_limitations_ko": "퍼즐의 구체적인 내용, 가상 OS의 범위, 게임의 전체적인 분량 등은 확인되지 않았습니다.",
+        "name": "GrandMaOS [Free] [Puzzle]",
+        "source": "itch",
+        "detail_url": "https://lilys-mascot.itch.io/grandmaos",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 275,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 36,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
+    },
+    "google:com.pilot.readdo.hosenr": {
+      "app_key": "google:com.pilot.readdo.hosenr",
+      "name": "PDF Reader Viewer - 文書ツール",
+      "developer": "HOSENR DEV",
+      "source": "google",
+      "country": "JP",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.pilot.readdo.hosenr&hl=ja&gl=JP",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T04:57:05+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "PDFの閲覧と文書管理 PDF Reader Viewerは、Androidのスマートフォンやタブレットで文書の閲覧とPDFツールを利用できるアプリです。PDF、Word、Excel、PowerPointファイルを開き、学習や仕事、日常で使う文書を管理できます。 PDFとオフィス文書を表示 端末に保存された対応ファイルを開き、内容を確認できます。文書一覧からファイルを探したり、最近開いた文書に戻ったり、よく使うファイルをお気に入りに追加したりできます。 紙の文書をスキャン 端末のカメラで紙の文書を撮影し、PDFファイルとして保存できます。メモ、レシート、フォーム、学習資料などに利用できます。 PDFの作成と変換 JPG・PNG画像をPDF文書に変換できます。利用可能な変換ツールで、対応する文書形式からPDFを作成することもできます。 PDFファイルの結合と分割 複数のPDFファイルを1つの文書に結合したり、1つのPDFを別々のファイルに分割したりできます。操作を開始する前に、選択した文書を確認できます。 文書のテキストを読み上げ 読み上げ機能で、対応する文書のテキストを音声で聞くことができます。アプリがバックグラウンドに移動した場合や画面がロックされた場合も、再生を続けられます。メディア通知から読み上げを一時停止または終了できます。 ローカル文書を整理 端末内の異なるフォルダに保存された対応文書を検索・管理できます。ファイル一覧、最近使用したファイル、お気に入りから文書にアクセスできます。 日常の文書作業に PDF Reader Viewerは、文書の閲覧、スキャン、PDF作成、形式変換、ファイル管理を1つのアプリにまとめています。学習資料の閲覧、仕事の文書の確認、日常のファイル整理に利用できます。",
+      "analysis": {
+        "app_key": "google:com.pilot.readdo.hosenr",
+        "summary_ko": "PDF Reader Viewer는 안드로이드 기기에서 PDF 및 오피스 문서를 열람하고 관리할 수 있는 도구 앱입니다. 문서 스캔, 파일 형식 변환, PDF 병합 및 분할 기능을 제공하여 학습이나 업무용으로 활용할 수 있습니다. 텍스트 읽어주기 기능을 통해 문서 내용을 음성으로 확인할 수도 있습니다.",
+        "features_ko": [
+          "PDF, Word, Excel, PowerPoint 등 다양한 문서 형식을 열람할 수 있습니다.",
+          "카메라를 사용하여 종이 문서를 스캔하고 PDF로 저장할 수 있습니다.",
+          "이미지 파일을 PDF로 변환하거나 여러 PDF를 하나로 합치고 나눌 수 있습니다.",
+          "문서 내 텍스트를 음성으로 읽어주는 기능을 지원합니다.",
+          "최근 열람한 문서나 즐겨찾기 기능을 통해 파일을 효율적으로 관리합니다."
+        ],
+        "noteworthy_ko": "다양한 문서 포맷을 하나의 앱에서 처리하는 통합 문서 도구로서, 파일 변환 라이브러리의 활용 능력이 중요합니다. 특히 텍스트 음성 변환(TTS) 기능은 접근성 측면에서 유용한 구현 사례입니다.",
+        "development_ko": "핵심 기술은 문서 렌더링 엔진과 파일 변환 알고리즘입니다. 콘텐츠 제작 부담은 없으나, 다양한 파일 형식의 호환성을 유지하는 것이 중요합니다. 테스트 시 대용량 파일 처리 성능과 메모리 관리 최적화에 집중해야 합니다.",
+        "idea_ko": "문서 내 특정 키워드를 자동으로 요약하거나, 중요한 문장을 하이라이트하여 메모로 추출하는 '문서 지능형 요약 도구'로 발전시키는 것이 좋습니다.",
+        "highlights_ko": [
+          "문서 열람부터 스캔, 변환까지 통합된 문서 관리 기능.",
+          "백그라운드에서도 재생 가능한 텍스트 읽어주기 기능."
+        ],
+        "systems_ko": [
+          "파일 시스템 접근 및 관리",
+          "문서 렌더링 엔진",
+          "이미지 처리 및 스캔 모듈",
+          "TTS(텍스트 음성 변환) 엔진",
+          "파일 변환 로직"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기존의 오픈 소스 문서 라이브러리를 활용하면 핵심 기능을 구현하는 것은 어렵지 않습니다. 다만, 다양한 파일 형식의 예외 처리가 번거로울 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "PDF 파일 열람 기능",
+            "파일 목록 관리",
+            "카메라 스캔 기능"
+          ],
+          "defer": [
+            "복잡한 오피스 파일 변환",
+            "고급 텍스트 편집 기능"
+          ],
+          "risks": [
+            "파일 형식별 렌더링 오류",
+            "대용량 파일 처리 시 앱 강제 종료"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "문서 자동 요약기",
+            "concept": "PDF 내의 긴 텍스트를 분석하여 핵심 내용을 3줄로 요약해주는 기능입니다.",
+            "first_step": "PDF에서 텍스트를 추출하는 라이브러리 연동."
+          },
+          {
+            "title": "공부용 암기 카드 생성기",
+            "concept": "문서 내의 특정 단어를 선택하면 자동으로 암기용 플래시 카드를 생성하는 기능입니다.",
+            "first_step": "텍스트 선택 및 데이터 저장 기능 구현."
+          }
+        ],
+        "recommendation_ko": "파일 입출력과 라이브러리 활용 능력을 기르고 싶은 개발자에게 추천합니다. 실용적인 도구 앱을 만들며 안드로이드 파일 시스템을 깊이 이해할 수 있습니다.",
+        "source_limitations_ko": "사용된 문서 렌더링 엔진의 종류나, 오피스 파일 변환 시 서버를 거치는지 로컬에서 처리되는지에 대한 정보는 없습니다.",
+        "name": "PDF Reader Viewer - 文書ツール",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.pilot.readdo.hosenr&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 174,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
+    },
+    "apple:1579424683": {
+      "app_key": "apple:1579424683",
+      "name": "Oxide: Survival Island Online",
+      "developer": "HYPERHUG LTD",
+      "source": "apple",
+      "country": "US",
+      "category": "game_simulation",
+      "detail_url": "https://apps.apple.com/us/app/oxide-survival-island-online/id1579424683?uo=2",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T04:58:50+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Welcome to Oxide: Survival Island, the ultimate multiplayer survival simulator that strands you on a brutal island where every moment tests your grit. With nothing but your instincts, can you craft, build, and thrive in this unforgiving open-world adventure? This mobile survival game delivers heart-pounding action and endless possibilities. Gather resources, team up with friends, and dominate the wild—your survival saga begins now! A HARDCORE SURVIVAL EXPERIENCE In Oxide: Survival Island, you’re dropped into a world of danger across three unique biomes—cold, temperate, and hot. Chop trees, mine rocks, and hunt predators to survive the elements. Craft tools, weapons, and shelters to fend off threats, from wild beasts to rival players. This isn’t just a survival simulator—it’s a relentless fight for dominance in a treacherous environment. Will you outlast the island’s perils? MULTIPLAYER SURVIVAL UNLEASHED Go it alone or squad up—Oxide: Survival Island brings multiplayer survival to life. Use the in-game friends system to team up seamlessly with your crew, building bases or raiding enemies together. Whether you’re scavenging solo or forging alliances, the multiplayer action keeps you hooked. Face off against other survivors, trade resources, or wage war—the island is yours to conquer! CRAFT, BUILD, AND EXPLORE Master your fate with a deep crafting system. From crude axes to sturdy defenses, every item you craft is a step toward survival supremacy. Build sprawling bases or hidden camps to claim your territory. Explore an expanded map packed with secrets, loot, and danger across diverse landscapes. Oxide: Survival Island fuses the best of survival simulators with open-world freedom—perfect for those craving a mobile survival challenge. SURVIVE THE ISLAND’S WRATH The island doesn’t mess around. Battle predators, scavenge for scraps, and outsmart hostile players in a world where survival is never guaranteed. Helicopters patrol the skies, adding an edge of unpredictability, while every biome—icy peaks to scorching plains—challenges your skills. This is more than a game; it’s a mobile survival epic that demands cunning and courage. WHY PLAY OXIDE? — Dynamic Biomes: Conquer cold, temperate, and hot zones. — Friends System: Team up effortlessly with your squad. — Intense Survival: Face the ultimate mobile survival test. — Expanded Map: Roam a growing world full of surprises. — Constant Updates: New events and anti-cheat fixes keep it fresh. JOIN THE SURVIVAL ELITE Oxide: Survival Island is your ticket to a next-level survival adventure. Download now and prove you’ve got the guts to rule the island. Craft your destiny, survive the odds, and etch your name as a legend in this epic mobile survival game! ================================ Oxide: Survival Island Membership Subscriptions: Monthly : $9.99 Weekly : $2.99 These prices are for United States customers. Pricing in other countries may vary and actual charges may be converted to your local currency depending on the country of residence. Privacy policy: https://hyperhug.io/privacy.html Terms of Service: https://hyperhug.io/terms.html",
+      "analysis": {
+        "app_key": "apple:1579424683",
+        "summary_ko": "다양한 기후의 섬에서 자원을 채집하고 기지를 건설하며 생존하는 멀티플레이어 시뮬레이터입니다. 플레이어는 야생 동물과 다른 생존자들의 위협 속에서 살아남아야 합니다. 친구와 팀을 이루어 기지를 방어하거나 다른 플레이어를 약탈하는 경쟁 요소가 핵심입니다.",
+        "features_ko": [
+          "추위, 온대, 더위 등 세 가지 기후의 생태계에서 생존 활동을 수행합니다.",
+          "나무와 돌 등 자원을 채집하여 도구, 무기, 쉘터를 제작합니다.",
+          "친구와 팀을 구성하여 기지를 건설하거나 적을 약탈하는 멀티플레이를 지원합니다.",
+          "하늘을 순찰하는 헬리콥터 등 예측 불가능한 환경 위협이 존재합니다."
+        ],
+        "noteworthy_ko": "생존 게임에서 멀티플레이어 간의 상호작용(약탈 및 협동)을 핵심 재미 요소로 삼은 점이 주목됩니다. 이는 서버 동기화와 실시간 데이터 처리가 매우 중요한 개발 과제임을 시사합니다.",
+        "development_ko": "대규모 오픈 월드와 실시간 멀티플레이어 동기화가 핵심 기술입니다. 자원 채집, 건설, 아이템 제작 등 방대한 콘텐츠 제작 부담이 큽니다. 또한 플레이어 간의 전투 밸런스와 부정행위 방지 시스템 구축이 개발의 성패를 좌우할 것입니다.",
+        "idea_ko": "생존 환경에 따라 캐릭터의 신체적 변화가 즉각적으로 반영되는 시스템을 도입하여 몰입감을 높이는 방식을 제안합니다.",
+        "highlights_ko": [
+          "다양한 기후 환경에 따른 생존 전략의 변화가 요구됩니다.",
+          "멀티플레이어 기반의 기지 건설 및 약탈 시스템이 게임의 중심입니다."
+        ],
+        "systems_ko": [
+          "실시간 멀티플레이어 서버 및 데이터 동기화",
+          "자원 채집 및 아이템 제작 시스템",
+          "건설 및 기지 배치 시스템",
+          "기후 및 환경 상태 관리 시스템",
+          "플레이어 간 전투 및 약탈 판정 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "멀티플레이어 생존 게임은 서버 인프라, 실시간 동기화, 보안(안티 치트) 등 기술적 요구사항이 매우 높습니다. 1인 개발자가 모든 시스템을 안정적으로 구현하기에는 범위가 지나치게 넓습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 자원 채집 및 인벤토리 시스템",
+            "간단한 건설 및 배치 시스템",
+            "단일 기후 환경의 맵"
+          ],
+          "defer": [
+            "멀티플레이어 서버 및 실시간 동기화",
+            "복잡한 기후 변화 시스템",
+            "헬리콥터 등 동적 이벤트"
+          ],
+          "risks": [
+            "서버 비용 및 네트워크 최적화 문제",
+            "플레이어 간 불균형한 전투 밸런스"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "환경 적응형 돌연변이",
+            "concept": "특정 기후에서 오래 머물면 캐릭터가 해당 환경에 적응하여 특수 능력을 얻습니다. 생존 방식에 따라 캐릭터의 성장 방향이 달라집니다.",
+            "first_step": "기후별로 캐릭터의 이동 속도나 체력 회복 속도를 다르게 적용하는 상태 효과를 구현합니다."
+          },
+          {
+            "title": "자원 공유 네트워크",
+            "concept": "플레이어들이 자원을 기부하여 공동의 생존 시설을 업그레이드하는 협동 중심의 생존 모드입니다. 경쟁보다 공생에 초점을 맞춥니다.",
+            "first_step": "여러 플레이어가 하나의 오브젝트에 자원을 투입하여 완성하는 공동 건설 시스템을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "멀티플레이어 게임의 네트워크 구조와 데이터 관리의 기초를 배우기에 적합합니다. 다만, 생존 게임은 콘텐츠 양이 방대하므로 처음부터 전체를 만들기보다 특정 시스템(예: 건설 시스템)만 분리하여 프로토타이핑하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 서버 아키텍처, 안티 치트 기술의 구체적인 구현 방식, 결제 시스템의 상세 내용은 명시되어 있지 않습니다. 외부 서비스 연동이나 보안 기능은 검증되지 않았습니다.",
+        "name": "Oxide: Survival Island Online",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/oxide-survival-island-online/id1579424683?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
+    },
+    "apple:1454849875": {
+      "app_key": "apple:1454849875",
+      "name": "Empower - Your ride, your way",
+      "developer": "Yazam Inc.",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/empower-your-ride-your-way/id1454849875",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T05:00:22+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "We started Empower to help drivers who can’t make a sustainable living under the current rideshare model and to facilitate an alternative for passengers who want the convenience provided by on-demand transportation platforms, but prefer to support companies that have high ethical standards and treat all people with respect. Through our P2P SaaS, Empower is achieving these goals and enabling passengers to obtain less expensive and more customized transportation directly from drivers.",
+      "analysis": {
+        "app_key": "apple:1454849875",
+        "summary_ko": "Empower는 운전자와 승객을 직접 연결하는 P2P 기반의 차량 공유 플랫폼입니다. 기존 차량 공유 모델의 대안으로, 운전자에게는 더 나은 수익을 제공하고 승객에게는 합리적인 가격의 서비스를 지향합니다. 윤리적인 기업 운영을 강조하며 운전자와 승객 간의 직접적인 연결을 지원합니다.",
+        "features_ko": [
+          "운전자와 승객을 직접 연결하는 P2P SaaS 모델을 사용합니다.",
+          "운전자가 더 많은 수익을 가져갈 수 있는 구조를 제공합니다.",
+          "승객에게는 기존 플랫폼보다 저렴하고 맞춤화된 이동 수단을 제공합니다."
+        ],
+        "noteworthy_ko": "기존 플랫폼의 중개 수수료 구조를 탈피하여 운전자 중심의 경제 모델을 구축한 점이 흥미롭습니다. 기술적으로는 실시간 위치 기반 매칭 시스템과 안전한 결제 및 신원 확인 시스템이 핵심일 것으로 추정됩니다.",
+        "development_ko": "실시간 위치 기반 서비스(LBS)를 위한 고성능 서버와 지도 API 연동이 필수적입니다. 운전자와 승객 간의 매칭 알고리즘 구현이 복잡하며, 무엇보다 신뢰할 수 있는 사용자 인증 및 안전 관리 시스템 구축이 가장 큰 부담입니다.",
+        "idea_ko": "운전자가 자신의 이동 경로를 미리 공유하고, 같은 방향의 승객을 태워 비용을 분담하는 카풀 매칭 서비스.",
+        "highlights_ko": [
+          "운전자 수익 극대화를 위한 P2P 직접 연결 모델.",
+          "윤리적 경영과 상호 존중을 강조하는 플랫폼 철학."
+        ],
+        "systems_ko": [
+          "실시간 위치 기반 매칭 시스템",
+          "사용자 신원 확인 및 인증 시스템",
+          "결제 및 정산 관리 시스템",
+          "운전자-승객 실시간 통신 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "단순 앱 구현을 넘어 법적 규제, 안전 문제, 사용자 신뢰 확보 등 비즈니스 운영 측면의 난이도가 매우 높습니다. 개인 개발자가 단독으로 운영하기에는 리스크가 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 위치 기반 매칭 기능",
+            "운전자-승객 간 메시지 기능",
+            "기본적인 결제 연동"
+          ],
+          "defer": [
+            "복잡한 동적 가격 책정 알고리즘",
+            "실시간 경로 최적화 시스템"
+          ],
+          "risks": [
+            "안전 사고 및 법적 책임 문제",
+            "사용자 신뢰도 확보 및 초기 유저 확보"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지역 기반 소규모 카풀",
+            "concept": "특정 지역 내에서 출퇴근하는 사람들끼리만 이용하는 폐쇄형 카풀 서비스입니다.",
+            "first_step": "특정 커뮤니티 내에서 출발지와 목적지를 등록하고 매칭하는 간단한 앱을 만듭니다."
+          },
+          {
+            "title": "물품 배송 매칭",
+            "concept": "사람이 아닌 물건을 이동 경로가 같은 운전자가 대신 배송해주는 서비스입니다.",
+            "first_step": "배송 물품 정보를 등록하고 운전자가 수락하는 프로세스를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "위치 기반 서비스(LBS)와 실시간 데이터 처리 기술을 배우기에 적합합니다. 다만, 실제 서비스 운영은 법적/사회적 리스크가 크므로 학습용 프로젝트로만 권장합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 매칭 알고리즘, 안전 관리 정책, 결제 시스템의 보안 방식에 대한 정보가 없습니다. 또한 실제 운영 중인 지역이나 법적 규제 준수 여부는 확인되지 않습니다.",
+        "name": "Empower - Your ride, your way",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/empower-your-ride-your-way/id1454849875",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 97,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
     }
   }
 }

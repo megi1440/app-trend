@@ -10210,6 +10210,186 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-01"
+    },
+    "apple:6471968553": {
+      "app_key": "apple:6471968553",
+      "name": "Hunting Game: GPS Manhunt",
+      "developer": "Jasper Aelvoet",
+      "source": "apple",
+      "country": "US",
+      "category": "game_action",
+      "detail_url": "https://apps.apple.com/us/app/hunting-game-gps-manhunt/id6471968553?uo=2",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T04:57:05+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Turn your city into a playground. Hunting Game transforms any outdoor space into an exhilarating arena. Hunt down your friends or escape through the streets in this real-time multiplayer chase experience. HOW IT WORKS Hunters track runners on a real-time GPS map with precision accuracy. Runners evade capture using only a compass pointing toward nearby hunters. Strategic special abilities add depth — go invisible, blind your opponents, or reveal enemy locations to gain the upper hand. GAME MODES • Standard – Classic hunter vs runner gameplay • Family – Adds a supervisor role to monitor and manage the game • Hide & Seek – A fresh twist on the traditional game SPECIAL ABILITIES For Hunters: • Ping – Reveal a runner's exact location • Blind – Temporarily disable a runner's compass • Fake Location – Confuse runners with a decoy position For Runners: • Invisibility – Vanish from the hunter's map • Blind – Temporarily disable hunter tracking • Map View – Briefly see hunter positions FEATURES • Play anywhere outdoors with up to 4 players free, up to 100 with Pro • Real-time GPS tracking with high precision • Customizable game settings (duration, play area, ability cooldowns) • Shrinking play zone for intense finales • In-game team chat • Apple Watch companion app • Supervisor mode for event organizers PERFECT FOR • Team building events • Birthday parties • Campus-wide games • Outdoor fitness with a competitive edge • Family gatherings No special equipment needed — just your phone, your friends, and a sense of adventure. Hunting Game is for players aged 13 and over. The game shares your live location with the other players in your game while a game is running. Hunting Game Pro is an auto-renewing subscription. The price and billing period are shown before you buy. It renews automatically unless cancelled at least 24 hours before the end of the current period. Manage or cancel your subscription in your store account settings. Terms of Service: https://www.hunting-game.com/terms-of-service Privacy Policy: https://www.hunting-game.com/privacy-policy Licence Agreement: https://www.hunting-game.com/legal/eula All legal documents: https://www.hunting-game.com/legal",
+      "analysis": {
+        "app_key": "apple:6471968553",
+        "summary_ko": "Hunting Game은 GPS를 활용하여 실제 도시를 게임 공간으로 바꾸는 실시간 멀티플레이어 추격 게임입니다. 사냥꾼과 도망자로 나뉘어 서로의 위치를 추적하거나 따돌리며 전략적인 능력을 사용합니다. 야외 활동과 경쟁을 결합하여 팀 빌딩이나 파티용으로 적합한 경험을 제공합니다.",
+        "features_ko": [
+          "실시간 GPS 데이터를 기반으로 플레이어의 위치를 정밀하게 추적합니다.",
+          "사냥꾼은 도망자의 위치를 확인하고, 도망자는 나침반을 통해 사냥꾼의 방향을 파악합니다.",
+          "투명화, 위치 교란 등 전략적인 특수 능력을 사용하여 게임의 깊이를 더합니다.",
+          "플레이 영역이 점차 좁아지는 시스템을 통해 긴박한 게임 마무리를 유도합니다.",
+          "애플 워치 컴패니언 앱을 지원하여 휴대폰 없이도 게임 참여가 가능합니다."
+        ],
+        "noteworthy_ko": "실제 지리 정보를 게임 엔진과 결합하여 현실 공간을 게임판으로 활용하는 방식이 흥미롭습니다. GPS 오차 보정과 실시간 동기화 처리가 개발의 핵심 난제일 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 실시간 위치 동기화와 지리 정보 처리입니다. 콘텐츠 제작보다는 서버의 실시간 데이터 처리와 네트워크 안정성 확보가 중요합니다. 테스트 시 실제 야외 환경에서의 GPS 신호 불안정성을 고려한 예외 처리가 필수적입니다.",
+        "idea_ko": "특정 지역의 역사적 사실이나 장소 정보를 게임 내 퀘스트와 결합한 '역사 탐방 추격전'으로 확장하는 것이 좋습니다.",
+        "highlights_ko": [
+          "실제 야외 공간을 활용한 몰입형 멀티플레이어 경험.",
+          "좁아지는 플레이 존을 통한 긴장감 극대화."
+        ],
+        "systems_ko": [
+          "실시간 위치 동기화 시스템",
+          "GPS 기반 거리 계산 및 판정",
+          "게임 상태 관리(사냥꾼/도망자)",
+          "특수 능력 쿨타임 관리",
+          "매칭 및 방 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 멀티플레이어 환경에서 GPS 데이터를 동기화하는 것은 서버 비용과 네트워크 지연 문제로 인해 1인 개발자가 구현하기에 매우 까다롭습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "실시간 위치 공유 기능",
+            "기본 추격 규칙(사냥꾼/도망자)",
+            "플레이 영역 설정"
+          ],
+          "defer": [
+            "애플 워치 연동",
+            "복잡한 특수 능력 시스템"
+          ],
+          "risks": [
+            "GPS 신호 오차로 인한 게임 판정 오류",
+            "서버 비용 및 네트워크 지연 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지역 기반 보물찾기",
+            "concept": "추격전 대신 특정 GPS 좌표에 도달하여 아이템을 획득하는 협동 중심의 게임입니다.",
+            "first_step": "특정 좌표 도달 시 알림을 띄우는 간단한 GPS 트리거 구현."
+          },
+          {
+            "title": "고스트 레이싱",
+            "concept": "과거 자신의 이동 경로를 고스트로 소환하여 현재의 자신과 경쟁하는 타임 어택 게임입니다.",
+            "first_step": "사용자의 이동 경로를 기록하고 재생하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "위치 기반 서비스(LBS)와 실시간 멀티플레이어 게임 개발을 배우고 싶은 개발자에게 추천합니다. 다만, 서버 인프라 구축에 대한 충분한 사전 지식이 필요합니다.",
+        "source_limitations_ko": "구독 모델(Pro)에 대한 언급은 있으나, 실제 결제 시스템의 구현 방식이나 서버 인프라의 구체적인 사양은 확인되지 않았습니다.",
+        "name": "Hunting Game: GPS Manhunt",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/hunting-game-gps-manhunt/id6471968553?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 174,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
+    },
+    "apple:6793352325": {
+      "app_key": "apple:6793352325",
+      "name": "SmartFolder",
+      "developer": "宽 宁",
+      "source": "apple",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://apps.apple.com/us/app/smartfolder/id6793352325?uo=2",
+      "data_date": "2026-11-02",
+      "analysed_at": "2026-11-02T04:58:50+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Freely upload and transfer files to the cloud, and share them with others with one click. Back up and sync all documents and media, accessible anytime across multiple devices. High-speed distribution for large files enables hassle-free transfers for work and daily use. - Automatically back up gallery media to the cloud in the background, share photos and videos effortlessly - Access all files offline; preview over 175 formats directly without extra software - Convenient sharing and delivery of extra-large files - Capture receipts, IDs and photos via mobile phone for instant viewing and forwarding -Payment will be charged to iTunes Account at confirmation of purchase. -Subscriptions automatically renew unless auto-renew is turned off at least 24-hours before the end of the current period. -Account will be charged for renewal within 24-hours prior to the end of the current period, and identify the cost of the renewal. Privacy Policy: https://snsinee.com/file02/privacy Terms of User: https://snsinee.com/file02/terms",
+      "analysis": {
+        "app_key": "apple:6793352325",
+        "summary_ko": "파일을 클라우드에 업로드하고 기기 간에 동기화하여 관리하는 도구입니다. 대용량 파일의 고속 전송과 175개 이상의 파일 형식 미리보기 기능을 제공합니다. 갤러리 미디어의 자동 백업과 문서 스캔 기능을 포함하고 있습니다.",
+        "features_ko": [
+          "클라우드 기반의 파일 업로드 및 기기 간 동기화 기능을 제공합니다.",
+          "대용량 파일을 간편하게 공유하고 전송할 수 있습니다.",
+          "175개 이상의 파일 형식을 별도 소프트웨어 없이 미리보기 할 수 있습니다.",
+          "갤러리 미디어의 자동 백업 및 문서 스캔 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "다양한 파일 형식을 지원하는 미리보기 기능과 클라우드 동기화는 사용자 편의성을 높이는 핵심 요소입니다. 개발 관점에서는 파일 변환 및 렌더링 엔진의 안정성과 클라우드 서버의 데이터 보안이 가장 흥미로운 지점입니다.",
+        "development_ko": "파일 업로드/다운로드의 안정성을 위한 네트워크 처리 기술이 핵심입니다. 다양한 포맷을 지원하기 위한 뷰어 엔진 구현과 클라우드 저장소의 데이터 무결성 유지가 중요합니다. 보안을 위해 데이터 암호화와 사용자 인증 시스템을 철저히 설계해야 합니다.",
+        "idea_ko": "파일의 메타데이터를 분석하여 사용자가 자주 사용하는 파일 유형을 자동으로 분류하고 정리해 주는 스마트 태깅 기능을 제안합니다.",
+        "highlights_ko": [
+          "다양한 파일 형식을 지원하는 강력한 미리보기 기능을 갖추고 있습니다.",
+          "자동 백업 및 기기 간 동기화를 통해 파일 관리의 효율성을 높였습니다."
+        ],
+        "systems_ko": [
+          "파일 업로드 및 다운로드 네트워크 시스템",
+          "클라우드 저장소 데이터 동기화 시스템",
+          "다양한 포맷 지원 파일 뷰어 엔진",
+          "사용자 인증 및 데이터 보안 시스템",
+          "미디어 자동 백업 및 스캔 처리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "클라우드 서비스는 데이터의 안전한 저장과 전송이 필수적입니다. 1인 개발자가 서버 인프라, 보안, 다양한 파일 포맷 지원을 모두 구현하고 유지보수하는 것은 매우 높은 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 파일 업로드 및 다운로드 기능",
+            "사용자 계정 관리 및 인증",
+            "파일 목록 조회 및 삭제 기능"
+          ],
+          "defer": [
+            "175개 이상의 파일 미리보기 지원",
+            "자동 백업 및 문서 스캔 기능",
+            "대용량 파일 고속 전송 최적화"
+          ],
+          "risks": [
+            "데이터 보안 사고 및 개인정보 유출",
+            "클라우드 서버 유지 비용 및 데이터 관리 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "파일 타임라인 뷰어",
+            "concept": "파일을 생성일 기준으로 타임라인에 배치하여 사용자가 작업 흐름을 한눈에 파악하게 합니다. 프로젝트 관리 도구로 활용 가능합니다.",
+            "first_step": "파일의 생성 날짜 데이터를 추출하여 시간순으로 정렬하는 UI를 구현합니다."
+          },
+          {
+            "title": "AI 파일 요약",
+            "concept": "문서 파일을 업로드하면 AI가 핵심 내용을 요약하여 미리보기 화면에 표시합니다. 파일 내용을 일일이 열어보지 않아도 됩니다.",
+            "first_step": "텍스트 기반 파일의 내용을 읽어와 요약하는 간단한 API 연동 기능을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "파일 시스템과 클라우드 데이터 동기화의 기본 원리를 배우기에 좋습니다. 다만 보안과 서버 비용 문제가 크므로, 실제 서비스보다는 로컬 파일 관리 앱을 먼저 만들어 보는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 클라우드 서버 인프라, 데이터 암호화 방식, 보안 인증 절차에 대한 정보가 없습니다. 결제 및 구독 시스템의 상세 구현은 확인되지 않았습니다.",
+        "name": "SmartFolder",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/smartfolder/id6793352325?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-02"
     }
   }
 }
