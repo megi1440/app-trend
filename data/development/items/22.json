@@ -11863,6 +11863,188 @@
         "thoughtsTokenCount": 1872,
         "serviceTier": "standard"
       }
+    },
+    "google:com.microsoft.office.excel": {
+      "app_key": "google:com.microsoft.office.excel",
+      "name": "Microsoft Excel: Spreadsheets",
+      "developer": "Microsoft Corporation",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.microsoft.office.excel&hl=ja&gl=JP",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.microsoft.office.excel",
+        "product_kind": "app",
+        "original_experience_ko": "Microsoft Excel은 데이터 그리드 기반의 복잡한 계산, 통계 처리, 차트 시각화, 그리고 클라우드를 통한 실시간 공동 편집 기능을 모바일 환경에서 제공하는 전문 생산성 앱입니다. [공개된 근거] 수식 계산 엔진, 템플릿을 활용한 예산/프로젝트 관리, 피벗 차트, 터치 주석, Copilot AI 기능을 포함합니다. [해석의 한계] 클라우드 동기화의 구체적 동시성 제어 방식이나 복잡한 대용량 스프레드시트 렌더링 성능 최적화 기법은 스토어 소개문만으로는 확인할 수 없습니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 명시 사실: 템플릿을 통한 예산/프로젝트 계획, 내장 수식과 회계 계산 도구, 피벗 グラフ(차트) 시각화, 터치 장치용 묘사/주석 탭, 파일 공유 및 공동 작업, Copilot AI 요약 기능을 제공한다.",
+          "미확인 사항: 대용량 데이터 처리 시 메모리 관리 전략, 오프라인 모드에서의 충돌 해결 알고리즘, 모바일 화면 크기 제약(10.1인치 미만 무료 정책 등)에 따른 UI 레이아웃의 구체적인 제약 사항은 알 수 없다."
+        ],
+        "valuable_elements_ko": [
+          "행과 열로 이루어진 구조화된 데이터 그리드: 방대한 정보를 체계적으로 분류하고 대조하는 기본 틀로서 가치가 높습니다.",
+          "자동 수식 계산 및 시각화 연동: 데이터 입력과 동시에 계산 결과가 반영되고 차트로 전환되는 즉각적인 피드백 구조가 유용합니다.",
+          "모바일 터치 기반 간편 주석 및 공유: 터치 인터페이스에서 직관적으로 특정 셀을 강조하고 타인과 문서를 공유하는 협업 흐름이 강력합니다."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "모바일 소상공인 스마트 손익 레이어 (Smart Ledger for Small Business)",
+            "core_idea_ko": "범용 스프레드시트의 복잡한 수식과 빈 셀 입력의 부담을 없애고, 소상공인이 모바일 환경에서 영수증 촬영과 카드 내역 연동만으로 자동 생성되는 표와 손익 차트를 관리하는 특화 가계부·매출 분석 앱입니다.",
+            "what_to_keep_ko": "행/열 기반의 표 구조와 자동 계산되는 요약 수식, 그리고 데이터를 직관적으로 보여주는 차트 시각화 기능을 계승합니다.",
+            "what_to_change_ko": "사용자가 직접 셀을 찾아 수식을 타이핑하는 대신, 모바일 카메라 OCR과 지출 카테고리 자동 분류 규칙을 도입하여 데이터 입력의 마찰을 대폭 줄였습니다.",
+            "mobile_use_or_play_ko": "앱을 실행해 오늘의 종이 영수증을 촬영하거나 간편 결제 내역을 불러오면, 자동으로 항목별 셀에 데이터가 분류·입력되고 대시보드 탭에서 주간 순수익 차트가 즉시 갱신됩니다.",
+            "key_features_ko": [
+              "영수증 OCR 자동 셀 매핑: 촬영한 이미지에서 금액과 품목을 추출해 표의 해당 열에 자동 기입",
+              "모바일 최적화 미니 그리드: 스마트폰 화면에 맞게 열 개수를 제한하고 핵심 지표만 스크롤 없이 요약",
+              "원터치 손익 리포트 내보내기: 입력된 표를 세무 신고용 포맷이나 PDF로 즉시 변환하여 공유"
+            ],
+            "solo_mvp_and_effort_ko": "Android 기본 SQLite 또는 로컬 JSON 저장소와 오픈소스 차트 라이브러리를 활용해 1인 개발이 가능합니다. OCR 기능은 외부 API를 연동하여 구현 난이도를 낮추고, 그리드는 가벼운 가상 스크롤 뷰로 구현합니다.",
+            "strengths_limits_ko": "장점은 일반인이나 소상공인이 엑셀의 진입 장벽 없이 바로 쓸 수 있다는 점이며, 약점은 복잡한 다중 시트 연동이나 맞춤형 고급 회계 처리를 지원하기 어렵다는 한계가 있습니다."
+          },
+          {
+            "title_ko": "개인 루틴 및 메트릭 매트릭스 (Personal Metric Grid)",
+            "core_idea_ko": "엑셀의 데이터 그리드와 스파크라인(셀 내 미니 차트) 개념을 차용하여, 개인의 일일 습관, 운동량, 기분, 독서량 등을 날짜별 행과 지표별 열로 매트릭스화하여 기록하고 트렌드를 추적하는 자기관리 앱입니다.",
+            "what_to_keep_ko": "날짜와 항목이 교차하는 격자(Grid) 구조와, 입력된 데이터의 흐름을 시각적으로 파악하게 만드는 트렌드 차트 생성 기능을 계승합니다.",
+            "what_to_change_ko": "오피스 문서 같은 딱딱한 인터페이스를 탈피하고, 캘린더 및 위젯 기반의 초간단 터치 입력 시스템과 주간 달성도 히트맵을 결합하여 기록의 재미를 높였습니다.",
+            "mobile_use_or_play_ko": "아침이나 저녁에 홈 화면 위젯 또는 앱을 열어 오늘 달성한 습관이나 운동 시간을 터치 몇 번으로 입력하면, 전체 매트릭스 격자가 색상 블록과 미니 트렌드 선으로 채워집니다.",
+            "key_features_ko": [
+              "커스텀 메트릭 매트릭스: 사용자가 직접 추적하고 싶은 행(항목)과 열(기간) 설정 가능",
+              "셀 히트맵 및 스파크라인: 데이터 수치 변화에 따라 셀 배경색이 진해지거나 미니 차트로 즉시 표현",
+              "주간 패턴 분석 요약: 누적된 격자 데이터를 기반으로 가장 성공률이 높은 요일이나 패턴을 텍스트로 요약"
+            ],
+            "solo_mvp_and_effort_ko": "로컬 데이터베이스 중심의 가벼운 아키텍처로 1인 개발이 용이합니다. 복잡한 오피스 호환성 기능이 필요 없어 개발 공수가 적으며 UI/UX 디자인 완성도에 집중할 수 있습니다.",
+            "strengths_limits_ko": "장점은 직관적인 시각화와 높은 확장성이지만, 사용자가 매일 꾸준히 데이터를 입력하지 않으면 데이터 그리드가 비어버려 가치가 떨어지는 약점이 있습니다."
+          },
+          {
+            "title_ko": "현장 실사 및 재고 체크 퀵그리드 (QuickGrid Inspector)",
+            "core_idea_ko": "현장 작업자나 물류 관리자가 복잡한 PC용 스프레드시트를 모바일에서 다루기 어려운 점에 착안, 체크리스트를 누르면 백그라운드에서 표준 표(Grid) 문서가 자동 완성되고 현장 사진과 음성 주석이 셀에 첨부되는 현장 데이터 수집 앱입니다.",
+            "what_to_keep_ko": "템플릿 기반의 구조화된 데이터 입력, 셀 단위의 주석 및 메모 기능, 그리고 팀원 간 파일 공유 및 공동 작업 흐름을 계승합니다.",
+            "what_to_change_ko": "표를 직접 편집하는 방식을 버리고, 현장 작업에 최적화된 대형 버튼식 체크리스트를 거치면 시스템이 알아서 행과 열을 채워주는 '입력 자동화 폼'으로 전환했습니다.",
+            "mobile_use_or_play_ko": "현장 작업자가 앱을 켜서 점검 항목을 체크하고 특이 사항 사진을 촬영하면, 해당 데이터가 실시간으로 표 양식에 기입되어 클라우드 서버에 동기화되고 관리자 웹/모바일로 공유됩니다.",
+            "key_features_ko": [
+              "현장 최적화 터치 템플릿: 장갑을 낀 상태에서도 누르기 쉬운 대형 체크 인터페이스",
+              "셀 단위 멀티미디어 주석: 특정 항목 행에 현장 사진, 음성 메모, GPS 좌표 자동 첨부",
+              "실시간 클라우드 테이블 동기화: 여러 작업자가 입력한 내용이 단일 표 문서로 실시간 병합"
+            ],
+            "solo_mvp_and_effort_ko": "모바일 클라이언트와 간단한 실시간 백엔드(Firebase 등) 연동이 필요하여 난이도가 중간 수준입니다. 1인 개발 시 UI 템플릿 종류를 2~3개로 한정하여 MVP를 구축해야 합니다.",
+            "strengths_limits_ko": "장점은 현업 실무자들의 입력 편의성을 극대화하여 데이터 누락을 막는다는 점이며, 약점은 범용 스프레드시트만큼 자유로운 수식 편집이나 커스텀 함수 작성이 불가능하다는 점입니다."
+          }
+        ],
+        "concept_comparison_ko": "1번(소상공인 손익 레이어)은 영수증 OCR과 회계에 특화되어 실용성과 대중성이 높으나 외부 API 비용 및 정확도 검증이 과제입니다. 2번(개인 메트릭 매트릭스)은 개발 공수가 가장 적고 시각적 재미가 크나 지속적 입력 동기 부여가 필요합니다. 3번(현장 실사 퀵그리드)은 B2B 현장 니즈를 정확히 공략하나 타겟 고객군이 한정적입니다. 세 아이디어 모두 범용 엑셀의 복잡성을 모바일의 특정 목적에 맞게 단순화했다는 공통점이 있습니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "Microsoft Excel의 핵심인 '표 형태의 구조화된 데이터 관리'와 '자동 계산/시각화'의 이점을 가장 직관적으로 살리면서도, 소상공인이라는 명확한 타겟층의 실질적 고충(영수증 정리와 수지 파악)을 해결할 수 있기 때문입니다. OCR과 기본 차트 라이브러리를 조합하면 1인 개발자가 현실적인 범위 내에서 완성도 높은 MVP를 만들 수 있으며, 향후 데이터 내보내기 등 오피스 연계성으로 확장할 여지도 큽니다.",
+        "next_questions_ko": [
+          "소상공인 대상 OCR 인식률과 비용이 모바일 가계부 형태의 비즈니스 모델에서 감당 가능한 수준인가?",
+          "모바일 화면에서 행과 열의 가독성을 유지하면서 사용자가 입력 피로감을 느끼지 않게 하는 최소한의 UI 레이아웃은 무엇인가?",
+          "로컬에 저장된 데이터를 PC의 실제 Excel(.xlsx) 파일 형식으로 완벽하게 내보내기 위한 경량 오픈소스 라이브러리 연동이 원활한가?"
+        ]
+      },
+      "brief_at": "2026-11-01T09:30:24+09:00",
+      "brief_quota_day": "2026-11-01",
+      "brief_usage": {
+        "promptTokenCount": 1957,
+        "candidatesTokenCount": 2552,
+        "totalTokenCount": 5946,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1957
+          }
+        ],
+        "thoughtsTokenCount": 1437,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.microsoft.office.excel",
+        "product_kind": "app",
+        "selected_concept_title_ko": "모바일 소상공인 스마트 손익 레이어 (Smart Ledger for Small Business)",
+        "project_goal_and_audience_ko": "범용 스프레드시트의 복잡한 수식과 빈 셀 입력의 부담을 없애고, 소상공인이 모바일 환경에서 영수증 촬영과 카드 내역 연동만으로 자동 생성되는 표와 손익 차트를 관리하는 특화 가계부·매출 분석 앱입니다. 1인 사업자 및 소상공인들이 엑셀의 높은 진입 장벽 없이 실시간으로 사업 손익을 파악할 수 있도록 돕습니다.",
+        "source_relation_and_difference_ko": "원본 스프레드시트 앱에서 행/열 기반의 표 구조와 자동 계산되는 요약 수식, 그리고 데이터를 직관적으로 보여주는 차트 시각화 기능을 핵심 경험으로 계승했습니다. 반면, 사용자가 직접 셀을 찾아 수식을 타이핑하는 마찰을 없애고 모바일 카메라 OCR 및 지출 카테고리 자동 분류 규칙을 도입하여 입력 과정을 대폭 개선했습니다.",
+        "core_user_experience_ko": "사용자가 앱을 실행해 오늘의 종이 영수증을 촬영하거나 지출 내역을 입력하면, 시스템이 OCR과 규칙 기반 분류를 통해 날짜, 금액, 품목을 인식하고 내부 간소화된 그리드(표)의 해당 행에 자동 기입합니다. 동시에 총 매출, 지출, 순수익 수식이 실시간으로 자동 계산되며, 대시보드 탭의 주간/월간 손익 차트가 즉시 갱신됩니다.",
+        "features_ko": [
+          {
+            "feature_ko": "영수증 OCR 자동 셀 매핑",
+            "user_action_and_behavior_ko": "사용자가 카메라로 영수증을 촬영하면, OCR 엔진이 텍스트를 추출하여 금액과 품목을 파싱한 뒤 표의 해당 열에 자동으로 기입하고 사용자에게 확인용 피드백을 제공합니다.",
+            "practical_implementation_ko": "Google ML Kit Text Recognition API를 활용해 온디바이스에서 텍스트를 추출하고, 정규식(Regex)을 이용해 날짜와 총금액 패턴을 파싱하여 데이터 모델에 매핑합니다."
+          },
+          {
+            "feature_ko": "모바일 최적화 스마트 미니 그리드 및 자동 수식 계산",
+            "user_action_and_behavior_ko": "모바일 화면 크기에 맞춰 열 개수를 최적화한 간소화된 표(Grid)를 제공하며, 행 데이터가 추가되거나 수정될 때 매출 마진과 순수익이 자동으로 연산되어 즉시 표시됩니다.",
+            "practical_implementation_ko": "가상 스크롤(Virtualization)이 적용된 커스텀 그리드 뷰를 구현하고, 데이터 변경 시 리액티브(Reactive) 상태 관리를 통해 실시간으로 합산 수식을 재계산합니다."
+          },
+          {
+            "feature_ko": "원터치 손익 리포트 내보내기",
+            "user_action_and_behavior_ko": "누적된 표와 차트 데이터를 기반으로 세무 신고용 CSV 포맷이나 요약 PDF 리포트를 즉시 생성하여 메신저나 이메일로 공유할 수 있습니다.",
+            "practical_implementation_ko": "Room DB에 저장된 데이터를 쿼리하여 Apache POI 혹은 기본 텍스트 스트림을 통해 CSV 파일을 생성하고 Android 공유 Intent를 호출합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "대시보드(홈) 탭",
+            "contents_and_actions_ko": "오늘의 요약 손익 카드, 주간 순수익 미니 차트, 빠른 영수증 촬영 진입 버튼 배치."
+          },
+          {
+            "screen_ko": "스마트 그리드(장부) 탭",
+            "contents_and_actions_ko": "날짜별, 품목별 매출 및 지출 내역을 보여주는 표 뷰. 특정 행 터치 시 상세 수정 모달 오픈."
+          },
+          {
+            "screen_ko": "영수증 촬영 및 인식 화면",
+            "contents_and_actions_ko": "카메라 뷰파인더, 촬영 버튼, OCR 파싱 결과 미리보기 및 카테고리 수동 보정 후 저장 버튼."
+          },
+          {
+            "screen_ko": "리포트 내보내기 화면",
+            "contents_and_actions_ko": "월별 총결산 데이터 요약 및 CSV/PDF 내보내기 버튼."
+          }
+        ],
+        "implementation_approach_ko": "1인 개발의 생산성과 모바일 최적화를 위해 Flutter(또는 Android Jetpack Compose)를 기술 스택으로 채택합니다. 로컬 데이터 저장소로는 SQLite(Room)를 사용하여 오프라인 환경에서도 안정적인 장부 관리가 가능하게 합니다. UI 차트 렌더링은 가볍고 검증된 오픈소스 차트 라이브러리(fl_chart 또는 MPAndroidChart)를 연동합니다.",
+        "data_and_storage_ko": [
+          "LedgerEntry 객체: id(PK), date, category, amount, type(income/expense), memo, receipt_image_path. 영수증 OCR 인식 완료 및 셀 수정 시점에 Room DB에 트랜잭션으로 영구 저장.",
+          "SummaryConfig 객체: 월별 목표 매출, 고정 지출 설정값 저장. 앱 실행 시 로컬 영구 저장소에서 불러와 대시보드 계산의 기준 데이터로 활용."
+        ],
+        "mvp_scope_ko": "첫 번째 프로토타입(MVP)에서는 영수증 촬영 기반 OCR 자동 입력, 기본 미니 그리드 장부 조회 및 수정, 자동 계산되는 월간 손익 차트, CSV 내보내기 기능에 집중합니다. 복수 사용자 간 실시간 공동 편집이나 복잡한 다중 시트 연동 등 부가 기능은 초기 범위에서 제외하여 개발 부담을 낮춥니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 구조 및 UI 레이아웃 구축",
+            "deliverable_and_check_ko": "Jetpack Compose 또는 Flutter를 이용해 대시보드, 미니 그리드, 촬영 화면의 기본 네비게이션과 UI 뼈대 구현. 화면 간 이동 흐름 확인."
+          },
+          {
+            "stage_ko": "2단계: 로컬 데이터베이스 및 미니 그리드 CRUD 구현",
+            "deliverable_and_check_ko": "Room DB 스키마 구축 및 표 형태의 데이터 바인딩 구현. 행 추가/수정 시 요약 수식이 정상적으로 연산되는지 테스트."
+          },
+          {
+            "stage_ko": "3단계: OCR 파싱 기능 연동",
+            "deliverable_and_check_ko": "ML Kit 텍스트 인식 모듈을 연동하여 샘플 영수증 이미지에서 금액과 날짜를 추출하고 입력 폼에 자동 반영되는지 확인."
+          },
+          {
+            "stage_ko": "4단계: 차트 시각화 및 내보내기 구현",
+            "deliverable_and_check_ko": "차트 라이브러리를 통해 손익 추이 그래프 렌더링 확인 및 CSV 파일 생성 및 공유 기능 테스트."
+          }
+        ],
+        "possible_extensions_ko": "추후 오픈뱅킹 API를 통한 자동 카드 내역 연동, 세무사무소 데이터 전송 기능, AI 기반 지출 패턴 분석 및 절세 추천 팁 제공 기능으로 확장할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "OCR 인식률이 떨어지는 영수증(구겨지거나 감열지가 흐린 경우) 발생 시 사용자의 수정 마찰을 줄이기 위한 직관적인 수동 보정 UI 보완 필요.",
+          "스마트폰 화면의 물리적 제약으로 인해 방대한 열 데이터를 모두 표시하기 어려우므로, 핵심 요약 지표 중심의 UI와 수평 스크롤 UX의 타협점 검토 필요.",
+          "온디바이스 OCR과 클라우드 기반 OCR API 중 최종 배포 시점의 정확도와 비용 효율성을 고려한 선택 결정 과제."
+        ],
+        "draft_status_ko": "본 문서는 Microsoft Excel의 스프레드시트 및 시각화 구조를 소상공인 손익 관리 영역으로 재해석하여 제안한 1인 모바일 개발 설계 초안이며, 실제 구현·플레이테스트 및 성능 측정이 완료되지 않은 상태입니다."
+      },
+      "plan_at": "2026-11-01T09:30:40+09:00",
+      "plan_quota_day": "2026-11-01",
+      "plan_usage": {
+        "promptTokenCount": 2781,
+        "candidatesTokenCount": 2003,
+        "totalTokenCount": 6758,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2781
+          }
+        ],
+        "thoughtsTokenCount": 1974,
+        "serviceTier": "standard"
+      }
     }
   }
 }

@@ -10356,6 +10356,184 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-01"
+    },
+    "apple:6803819743": {
+      "app_key": "apple:6803819743",
+      "name": "Emoji Battery Charging",
+      "developer": "Hypernova Limited",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/jp/app/emoji-battery-charging/id6803819743",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T09:28:54+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Make your iPhone battery look more personal with Emoji Battery Charging. Choose a playful battery icon for the status-bar area, then pick a charging theme that fits your mood. DIY BATTERY Browse a variety of decorative battery icons created to complement the status-bar area of your iPhone. Switch styles whenever you want a cute, colorful, minimal, or expressive new look. DIY CHARGING Choose a custom charging visual from a diverse theme collection. Refresh the look of your charging moments and match it with your current phone style. MADE FOR EASY PERSONALIZATION • Explore multiple battery icon themes • Choose a design that fits your mood • Preview different battery looks • Browse custom charging themes • Refresh your style whenever you like Emoji Battery Charging focuses on two simple ways to personalize your iPhone: decorative battery icons and themed charging visuals. Pick a look, preview it, and make everyday battery moments feel more like you. Important: The app provides decorative designs for the battery/status-bar area and does not replace or modify Apple's native iOS system battery icon. Privacy Policy: https://sites.google.com/leansoft.io/emoji-battery-charging/home Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "analysis": {
+        "app_key": "apple:6803819743",
+        "summary_ko": "사용자의 아이폰 상태 표시줄 영역을 꾸밀 수 있는 배터리 아이콘과 충전 테마를 제공하는 개인화 앱입니다. 다양한 디자인의 배터리 아이콘을 선택하여 취향에 맞게 스타일을 변경할 수 있습니다. 충전 시 나타나는 시각적 효과를 테마별로 설정하여 일상적인 충전 경험을 즐겁게 만듭니다.",
+        "features_ko": [
+          "상태 표시줄 영역에 배치할 수 있는 다양한 장식용 배터리 아이콘을 제공합니다.",
+          "사용자의 기분이나 스타일에 맞춰 선택 가능한 충전 테마 컬렉션을 제공합니다.",
+          "적용 전 디자인을 미리 확인하여 원하는 스타일을 선택할 수 있습니다.",
+          "언제든지 원하는 디자인으로 스타일을 변경할 수 있는 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "시스템의 기본 배터리 아이콘을 직접 수정하는 것이 아니라, 오버레이나 위젯 형태의 디자인을 제공하는 방식입니다. iOS의 폐쇄적인 시스템 환경에서 사용자의 커스터마이징 욕구를 어떻게 우회적으로 충족시키는지 연구하기 좋습니다.",
+        "development_ko": "핵심 기술은 iOS의 위젯 API나 이미지 합성 기술을 활용한 UI 구현입니다. 콘텐츠 제작 부담은 다양한 아이콘과 애니메이션 테마를 디자인하는 데 집중됩니다. 테스트는 다양한 아이폰 기종의 화면 해상도와 노치 영역에 따른 레이아웃 대응이 중요합니다.",
+        "idea_ko": "특정 시간대나 배터리 잔량에 따라 자동으로 테마가 변경되는 '스마트 배터리 스킨' 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "시스템 아이콘을 대체하지 않고 디자인 요소로만 접근하여 앱 심사 가이드라인을 준수합니다.",
+          "단순한 시각적 재미에 집중하여 사용자가 쉽게 접근할 수 있는 UI를 구성했습니다."
+        ],
+        "systems_ko": [
+          "이미지 리소스 관리 시스템",
+          "사용자 설정 저장 및 불러오기",
+          "UI 레이아웃 및 미리보기 엔진",
+          "테마 선택 로직"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "복잡한 서버 연동이나 데이터 처리가 필요 없으며, 정적인 이미지와 간단한 UI 전환 위주로 구성되어 있어 1인 개발자가 구현하기 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "배터리 아이콘 갤러리",
+            "테마 미리보기 기능",
+            "설정 저장 기능"
+          ],
+          "defer": [
+            "실시간 배터리 잔량 연동 애니메이션",
+            "사용자 커스텀 이미지 업로드 기능"
+          ],
+          "risks": [
+            "iOS 업데이트에 따른 UI 레이아웃 호환성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "감정 배터리",
+            "concept": "배터리 잔량에 따라 이모지가 웃거나 우는 표정으로 변하는 테마입니다. 잔량이 낮아지면 배터리가 지친 표정을 짓는 등 감성적인 요소를 더합니다.",
+            "first_step": "배터리 잔량 구간별로 3가지 표정의 이모지 이미지를 매칭하는 로직을 구현합니다."
+          },
+          {
+            "title": "시간대별 테마 자동 전환",
+            "concept": "낮에는 밝은 테마, 밤에는 다크 모드 테마로 배터리 아이콘이 자동으로 변경됩니다. 사용자의 수면 시간과 연동하여 시각적 편안함을 제공합니다.",
+            "first_step": "현재 시간을 확인하여 테마 리소스를 교체하는 간단한 스위칭 함수를 작성합니다."
+          }
+        ],
+        "recommendation_ko": "UI 디자인과 사용자 경험(UX)을 개선하는 데 관심 있는 개발자에게 추천합니다. 시스템 제약 사항 내에서 창의적인 디자인을 적용하는 방법을 배울 수 있습니다.",
+        "source_limitations_ko": "앱이 실제로 시스템 배터리 잔량과 어떻게 연동되는지, 혹은 단순히 정적인 이미지인지에 대한 기술적 상세 정보가 부족합니다. 결제 기능이나 외부 API 연동 여부는 확인되지 않았습니다.",
+        "name": "Emoji Battery Charging",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/emoji-battery-charging/id6803819743",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 52,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
+    },
+    "apple:336860594": {
+      "app_key": "apple:336860594",
+      "name": "Victoria's Secret—Bras & More",
+      "developer": "Victoria's Secret",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/victorias-secret-bras-more/id336860594",
+      "data_date": "2026-11-01",
+      "analysed_at": "2026-11-01T09:28:54+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Welcome to the Victoria’s Secret App: Your go-to destination for discovering new trends, exclusive offers, the latest shopping and styling content & so much more. We have it all—from everyday bras, chic lingerie, and going-out clothes to signature fragrances and perfumes, we’ve got you (and every occasion you’re dressing for) fully covered. We're proud to offer intimates, clothes, activewear, and swimwear in sizes XS-XXL, cups AA-I, and bands 30-46. And that’s just the beginning—here are some other great things we have going on: DISCOVER YOUR NEW FAVORITE BRA Shop every bra style at your fingertips. From full coverage to strapless and our fan-favorite push-up bras, there's so much to love. Our size range includes XS-XXL, cups AA-O, and bands 28-46. FIND CLOTHES FOR EVERY OCCASION With a wide selection of year-round staples and seasonal essentials, the Victoria’s Secret app offers collections like pajamas, activewear, and swimsuits. SHOP ICONIC FRAGRANCES Our signature perfume and beauty include body mist, eau de parfum, and more body care. Explore all scent families and treat yourself—or find a gift for someone special. SMOOTH CHECKOUT Save your payment method for streamlined transactions and instantly manage your credit card. Find your local store in the app and explore same day delivery and in-store pickup options. JUST-FOR-YOU CONTENT Take fun quizzes, snag special offers, and view behind-the-scenes campaign videos with our models. Plus, other app offers. MEMBERS-ONLY PERKS Join VS & PINK Rewards to earn points with every purchase, which turn into perks like free shipping and top-tier deals. Plus, you’ll get access to the Community—a space to create, connect, and get inspired. Like what you see? There’s more to explore. Follow along on social at @victoriassecret. We can’t wait to connect with you.",
+      "analysis": {
+        "app_key": "apple:336860594",
+        "summary_ko": "Victoria's Secret 브랜드의 공식 쇼핑 앱으로, 의류, 란제리, 향수 등 다양한 제품을 탐색하고 구매할 수 있습니다. 개인화된 쇼핑 콘텐츠와 멤버십 혜택을 제공하며, 매장 픽업 및 배송 옵션을 지원합니다. 사용자 맞춤형 퀴즈와 캠페인 영상을 통해 브랜드 경험을 강화합니다.",
+        "features_ko": [
+          "다양한 사이즈와 스타일의 란제리, 의류, 액티브웨어 제품을 검색하고 구매할 수 있습니다.",
+          "결제 수단을 저장하여 간편하게 결제하고 주문을 관리할 수 있습니다.",
+          "멤버십 포인트 적립 및 등급별 혜택을 제공합니다.",
+          "사용자 취향을 파악하는 퀴즈와 브랜드 캠페인 영상을 시청할 수 있습니다.",
+          "매장 위치 찾기 및 당일 배송, 매장 픽업 옵션을 제공합니다."
+        ],
+        "noteworthy_ko": "대형 브랜드의 커머스 앱으로서 사용자 경험(UX)과 브랜드 아이덴티티를 어떻게 통합하는지 보여줍니다. 특히 멤버십과 커뮤니티 기능을 결합하여 단순 구매를 넘어 브랜드 충성도를 높이는 전략이 돋보입니다.",
+        "development_ko": "핵심 기술은 대규모 커머스 백엔드와 결제 시스템 연동입니다. 콘텐츠 제작 부담은 브랜드 이미지에 맞는 고품질의 미디어 자산 관리입니다. 테스트는 결제 보안과 대규모 트래픽 처리가 필수적입니다.",
+        "idea_ko": "개인 개발자라면 특정 카테고리의 제품을 큐레이션하여 보여주는 '개인화된 쇼핑 큐레이터' 앱이 적합합니다.",
+        "highlights_ko": [
+          "다양한 사이즈와 스타일을 체계적으로 분류하여 사용자 선택을 돕습니다.",
+          "멤버십과 커뮤니티를 연동하여 지속적인 사용자 참여를 유도합니다."
+        ],
+        "systems_ko": [
+          "커머스 API 연동",
+          "결제 게이트웨이(PG) 연동",
+          "사용자 프로필 및 멤버십 관리",
+          "상품 검색 및 필터링 엔진",
+          "푸시 알림 및 마케팅 자동화"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "보안이 중요한 결제 시스템과 대규모 상품 데이터 관리가 필요하며, 1인 개발자가 전체를 구현하기에는 인프라와 유지보수 부담이 매우 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 목록 및 상세 페이지",
+            "장바구니 기능",
+            "사용자 로그인"
+          ],
+          "defer": [
+            "결제 시스템 직접 구현",
+            "멤버십 포인트 시스템",
+            "커뮤니티 기능"
+          ],
+          "risks": [
+            "보안 취약점 및 개인정보 유출",
+            "서버 운영 비용"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "나만의 위시리스트 큐레이터",
+            "concept": "여러 쇼핑몰의 상품을 한곳에 모아 나만의 스타일로 정리하고, 가격 변동 시 알림을 받는 큐레이션 앱입니다.",
+            "first_step": "웹 크롤링을 통해 상품 정보를 가져와 리스트로 보여주는 기능을 구현합니다."
+          },
+          {
+            "title": "사이즈 기록장",
+            "concept": "브랜드마다 다른 사이즈를 기록해두고, 쇼핑할 때 내 몸에 맞는 사이즈를 자동으로 추천해주는 도구입니다.",
+            "first_step": "사용자의 신체 치수와 브랜드별 사이즈 차트를 비교하는 로직을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "커머스 앱의 구조와 데이터 흐름을 이해하고 싶은 분께 추천합니다. 다만, 실제 결제 기능이 포함된 앱을 만드는 것은 보안상 매우 위험하므로 학습용으로만 접근하세요.",
+        "source_limitations_ko": "결제 시스템의 보안 구현 방식이나 백엔드 인프라에 대한 정보는 없습니다. 외부 서비스 연동의 상세 내용은 확인되지 않았습니다.",
+        "name": "Victoria's Secret—Bras & More",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/victorias-secret-bras-more/id336860594",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 62,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-01"
     }
   }
 }
