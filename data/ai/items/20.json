@@ -10106,6 +10106,903 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-02"
+    },
+    "google:com.playdigious.potionpermit": {
+      "app_key": "google:com.playdigious.potionpermit",
+      "name": "Potion Permit",
+      "developer": "Playdigious",
+      "source": "google",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.playdigious.potionpermit&hl=ko&gl=KR",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:03:27+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "*최대 70% 절약!* 문베리 마을은 언제나 바깥세상의 의료 기술 발전을 경계하고 전통적인 치유법에 의존하는 걸 선호해 왔습니다. 하지만 시장의 딸이 병에 걸렸는데도 마을 주술사가 아무런 도움도 주지 못하자, 이들은 작은 마을을 벗어나 바깥세상에 도움을 청해야 하는 상황에 처하고 맙니다. 의사회는 시장의 딸을 치유하고 문베리 주민들이 현대 연금술의 신비를 받아들이도록 설득하기 위해 가장 뛰어난 약사인 당신을 보내기로 결정했습니다. 이 열린 결말의 시뮬레이션 RPG 속에서 주민들의 신뢰를 얻고 병에 걸린 사람을 돌봐주세요! 특징 - 문베리 주민을 돌보세요: 병을 진단하고, 재료를 모으고, 물약을 만들어서 치유하세요. - 마을을 치유하세요: 건물을 업그레이드하고, 모임 장소를 확장하고, 마을 사람들의 삶을 다양한 방식으로 바꿔 놓으세요. - 문베리 주빈들과 관계를 쌓고, 신뢰를 얻고, 당신이 선택한 상대와 사랑에 빠지세요! - 당신이 어딜 가든 따라다니면서 일을 도와주는 충성스러운 개와 팀을 이루세요. - 따뜻하고 다채로운 세상 속에서 편안한 시간을 보내고 당신이 그토록 원하던 약제상의 삶을 살아 보세요! 모바일을 위해 꼼꼼하게 수정했습니다 - 개선된 인터페이스 - Google Play Games 업적 - 클라우드 저장 - 다수의 Android 기기에서 진행 상황을 공유하세요 - 컨트롤러 호환 문제가 발생하면 해당 문제에 관한 정보를 가능한 한 많이 포함하여 https://playdigious.helpshift.com/hc/en/12-playdigious/으로 연락하십시오.",
+      "analysis": {
+        "app_key": "google:com.playdigious.potionpermit",
+        "summary_ko": "문베리 마을의 약사가 되어 주민들을 진단하고 치료하는 시뮬레이션 RPG입니다. 재료를 채집하고 물약을 제조하며 마을 사람들과 관계를 쌓아가는 따뜻한 경험을 제공합니다. 모바일 환경에 맞춰 인터페이스와 편의 기능이 개선되었습니다.",
+        "features_ko": [
+          "주민들의 병을 진단하고 재료를 채집하여 물약을 제조합니다.",
+          "마을 건물을 업그레이드하고 모임 장소를 확장할 수 있습니다.",
+          "주민들과 관계를 쌓고 특정 상대와 사랑에 빠지는 상호작용이 가능합니다.",
+          "충성스러운 반려견과 함께 팀을 이루어 활동합니다.",
+          "모바일 최적화 인터페이스와 클라우드 저장 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "치유와 관계 맺기라는 두 가지 핵심 루프가 잘 결합된 사례입니다. 특히 진단-채집-제조로 이어지는 연금술 시스템이 게임의 몰입도를 높이는 핵심 요소로 보입니다.",
+        "development_ko": "방대한 NPC 데이터와 관계도 시스템, 그리고 복잡한 아이템 조합법을 관리하는 데이터베이스 설계가 핵심입니다. 채집과 제조를 위한 미니게임 구현이 필요하며, 모바일 환경에서의 터치 조작 최적화가 중요합니다. 밸런스 조정은 게임 후반부까지의 성장 곡선을 유지하는 데 집중해야 합니다.",
+        "idea_ko": "특정 질병을 치료할 때마다 마을의 환경이 물리적으로 변하는 '환경 변화형 시뮬레이션' 아이디어가 흥미롭습니다.",
+        "highlights_ko": [
+          "진단, 채집, 제조의 연금술 루프.",
+          "NPC와의 관계 및 마을 발전 시스템."
+        ],
+        "systems_ko": [
+          "NPC 관계도 및 대화 시스템",
+          "아이템 채집 및 인벤토리 관리",
+          "물약 제조 미니게임",
+          "마을 건물 업그레이드 시스템",
+          "반려견 AI 및 상호작용"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "RPG 요소, 시뮬레이션, 미니게임, NPC 상호작용 등 구현해야 할 시스템의 범위가 매우 넓어 1인 개발자가 전체를 구현하기에는 매우 큰 규모입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 진단 및 물약 제조 시스템",
+            "채집 가능한 필드 1곳",
+            "NPC 1명과의 대화 및 호감도"
+          ],
+          "defer": [
+            "마을 전체 업그레이드",
+            "복잡한 연애 시스템",
+            "반려견의 다양한 상호작용"
+          ],
+          "risks": [
+            "콘텐츠 양의 방대함으로 인한 개발 지연",
+            "시스템 간의 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "계절별 약초 채집",
+            "concept": "계절에 따라 채집할 수 있는 약초가 달라져 제조 가능한 물약이 변하는 시스템입니다.",
+            "first_step": "계절 변수에 따른 아이템 드롭 테이블을 작성합니다."
+          },
+          {
+            "title": "진단 미니게임 강화",
+            "concept": "단순 클릭이 아닌, 환자의 증상을 관찰하고 퍼즐을 풀어 병명을 맞히는 진단 시스템입니다.",
+            "first_step": "증상 카드와 병명 카드를 매칭하는 간단한 UI를 만듭니다."
+          }
+        ],
+        "recommendation_ko": "복합 장르 게임의 시스템 설계와 데이터 관리 방식을 배우기에 최적입니다. 다만, 규모가 크므로 핵심 루프 하나만 떼어내어 구현하는 연습을 추천합니다.",
+        "source_limitations_ko": "소개문은 마케팅 문구 위주로 작성되어 실제 내부 시스템의 구체적인 로직이나 데이터 구조는 확인할 수 없습니다.",
+        "name": "Potion Permit",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.playdigious.potionpermit&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 360,
+        "reasons": [
+          "multi_country",
+          "newly_seen"
+        ],
+        "best_rank": 10,
+        "countries": [
+          "JP",
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "itch:e6238e96e61d84f9718e": {
+      "app_key": "itch:e6238e96e61d84f9718e",
+      "name": "Crimes of Crow [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://chrisroger.itch.io/crimes-of-crow",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:05:12+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Run a crow crime syndicate and rob the whole city, one peck at a time.",
+      "analysis": {
+        "app_key": "itch:e6238e96e61d84f9718e",
+        "summary_ko": "Crimes of Crow는 까마귀 범죄 조직을 운영하며 도시를 털어가는 방치형 시뮬레이션 게임입니다. 플레이어는 까마귀들을 지휘하여 도시 곳곳의 물건을 훔치고 조직을 성장시킵니다.",
+        "features_ko": [
+          "까마귀 범죄 조직을 운영하는 경영 시뮬레이션 요소를 제공합니다.",
+          "도시의 물건을 훔치는 방치형 게임플레이를 수행합니다.",
+          "조직을 성장시키며 더 큰 범죄를 계획합니다."
+        ],
+        "noteworthy_ko": "방치형 게임은 데이터 관리와 시간 흐름에 따른 보상 계산이 핵심입니다. 까마귀라는 독특한 소재를 경영 시뮬레이션과 결합한 점이 흥미롭습니다.",
+        "development_ko": "핵심 기술은 시간 기반의 자원 생성 로직과 데이터 저장 시스템입니다. 콘텐츠 제작은 훔칠 수 있는 물건의 종류와 조직 업그레이드 항목을 설계하는 데 집중됩니다. 밸런스는 게임의 진행 속도와 보상 곡선을 맞추는 것이 중요합니다.",
+        "idea_ko": "훔친 물건을 조합하여 새로운 아이템을 만드는 제작 시스템을 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "까마귀 범죄 조직이라는 독특한 테마를 사용합니다.",
+          "방치형 게임의 핵심인 성장과 수집을 강조합니다."
+        ],
+        "systems_ko": [
+          "시간 기반 자원 생성 시스템",
+          "조직 업그레이드 및 데이터 관리",
+          "아이템 수집 및 도감 시스템",
+          "UI 기반 경영 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "복잡한 그래픽보다는 데이터 구조와 밸런스 설계가 중요하며, 방치형 게임의 특성상 지속적인 업데이트가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "자동 자원 생성 로직",
+            "업그레이드 버튼 및 수치 반영",
+            "기본적인 아이템 리스트"
+          ],
+          "defer": [
+            "복잡한 도시 맵 시각화",
+            "실시간 이벤트 시스템"
+          ],
+          "risks": [
+            "밸런스 붕괴로 인한 재미 상실",
+            "콘텐츠 부족으로 인한 빠른 이탈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "까마귀 파견 미션",
+            "concept": "특정 까마귀를 특정 지역에 파견하여 희귀 아이템을 훔쳐오게 하는 미션 시스템입니다.",
+            "first_step": "파견 시간과 성공 확률을 계산하는 로직을 구현합니다."
+          },
+          {
+            "title": "라이벌 조직과의 경쟁",
+            "concept": "다른 까마귀 조직과 도시 점유율을 두고 경쟁하는 간단한 순위 시스템입니다.",
+            "first_step": "점유율 수치를 저장하고 비교하는 기능을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "데이터 중심의 게임 개발을 배우고 싶은 개발자에게 추천합니다. 방치형 게임의 경제 시스템을 설계하는 좋은 연습이 됩니다.",
+        "source_limitations_ko": "게임의 구체적인 경제 모델, 훔치는 물건의 종류, 게임 내 재화의 용도는 확인되지 않습니다.",
+        "name": "Crimes of Crow [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://chrisroger.itch.io/crimes-of-crow",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 305,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6760274605": {
+      "app_key": "apple:6760274605",
+      "name": "ディズニー スパークリンク・スターズ",
+      "developer": "coly, Inc.",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_puzzle",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AF%E3%83%AA%E3%83%B3%E3%82%AF-%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA/id6760274605?uo=2",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:05:40+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "夢を叶えるスパークライダー育成ADV – WORLD – みんなのときめく心が「キラメキ」という光の粒となって舞う、 不思議な輝きに満ちた島ーースパークル諸島・ルミナステア。 思いがけないきっかけから、世界中で愛されるルミナステアのステージイベント「スパークライド」のプロデュースを任されることになったあなた。 そこで出会うのは、それぞれの夢を胸に抱くスパークライダーたち。 心を通わせ、ともに悩み、ともに笑いながら、夢へと続く階段を一歩ずつ駆け上がっていく。 その先に待っているのは、まだ誰も見たことのない景色。 – SYSTEM – ◆プロデュース コンダクターとして、スパークライダーたちの能力を引き出そう！ 可愛らしい演出やBGM、ステージごとのギミックを楽しむ3マッチパズル。 スパークライダーとともにパズルをクリアすることで、レベルを上げたり、スパークライドで活躍するためのスキルを獲得したりすることができます。 スパークライドに向け、スパークライダーたちをトレーニングしましょう！ ◆スパークライド スパークライダーたちと一緒に、夢のステージを成功させよう！ スパークライダーたちが輝くステージ「スパークライド」。 プロデュースで獲得したスキルを駆使し、彼らとともに1位を目指しましょう。 ◆スパークライダーたちの輝く姿を撮影しよう！ スパークライド中、コンダクターとして彼らの姿を撮影し、記録に残すことができます。 また、撮影したフォトにデコステッカーを貼ることで、自分だけの１枚を作ることもできます。 絆を育んだスパークライダーとともに、最高のスパークライドを披露しましょう！ – INSPIRE – ディズニー＆ピクサー映画の作品にインスパイアされた個性豊かなチームが登場 「UPbeats!（アップビーツ）」Sparked by 「ミッキー&フレンズ」 「aMazINC.（アメージンク）」Sparked by 『モンスターズ・インク』 「Endelore（エンデロア）」Sparked by 『美女と野獣』 「Midveil（ミッドヴェイル）」Sparked by 『シンデレラ』 – STAFF – シナリオ制作：駱駝、黒須和泉、三本恭子、日月圭 シナリオ協力：株式会社ストレートエッジ、株式会社テイルポット、株式会社coly lit キャラクターデザイン原案：およ、TCB、夏目レモン 設定原案：藍田創 設定協力：遠堂みなみ 企画開発・運営：株式会社coly 協力：ウォルト・ディズニー・ジャパン株式会社 – 対応OS – 『ディズニー スパークリンク・スターズ』では、下記の環境でのプレイを推奨しています。 ※推奨環境以外では、正常に動作しない場合や、パフォーマンスが低下する可能性があります ※非対応環境では、サポートのご対応が難しい場合があります ※記載の情報については、予告なく変更・削除を行う場合があります 対応：iOS 16.0以上、iPhone 12以降 推奨：iOS 18.0以上、iPhone 15以降",
+      "analysis": {
+        "app_key": "apple:6760274605",
+        "summary_ko": "이 게임은 3매치 퍼즐을 통해 스파크라이더들을 육성하고 무대를 성공시키는 어드벤처 게임입니다. 플레이어는 콘덕터가 되어 퍼즐을 풀며 캐릭터의 능력을 키우고, 화려한 무대인 '스파크라이드'를 프로듀싱합니다. 촬영 기능을 통해 캐릭터의 모습을 기록하고 꾸밀 수 있는 요소도 포함되어 있습니다.",
+        "features_ko": [
+          "3매치 퍼즐을 통해 캐릭터의 레벨을 올리고 스킬을 획득합니다.",
+          "퍼즐 결과에 따라 무대 공연의 성공 여부가 결정됩니다.",
+          "캐릭터의 무대 모습을 촬영하고 데코 스티커로 꾸밀 수 있습니다.",
+          "다양한 캐릭터 팀과 시나리오가 준비되어 있습니다."
+        ],
+        "noteworthy_ko": "퍼즐과 육성, 그리고 무대 공연이라는 복합적인 장르 결합이 흥미롭습니다. 특히 퍼즐 플레이가 단순한 점수 획득을 넘어 캐릭터 성장과 직접 연결되는 구조가 개발 관점에서 중요합니다.",
+        "development_ko": "핵심 기술은 3매치 퍼즐 엔진과 캐릭터 육성 데이터 관리입니다. 콘텐츠 제작은 시나리오와 캐릭터 디자인, 무대 연출 등 방대한 리소스가 필요합니다. 테스트 시에는 퍼즐 난이도와 육성 속도의 밸런스를 맞추는 것이 가장 큰 부담입니다.",
+        "idea_ko": "퍼즐의 매치 결과에 따라 캐릭터의 대사가 변하는 상호작용 시스템을 구현하는 것이 좋습니다.",
+        "highlights_ko": [
+          "퍼즐과 캐릭터 육성, 무대 공연을 결합한 복합 장르입니다.",
+          "촬영 및 꾸미기 기능을 통해 캐릭터와의 유대감을 강화합니다."
+        ],
+        "systems_ko": [
+          "3매치 퍼즐 엔진",
+          "캐릭터 육성 및 스킬 시스템",
+          "시나리오 관리 시스템",
+          "무대 연출 및 촬영 시스템",
+          "데이터 저장 및 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "퍼즐 엔진뿐만 아니라 육성, 시나리오, 연출 등 다양한 시스템이 유기적으로 연결되어야 하므로 1인 개발자가 전체를 구현하기에는 규모가 매우 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "3매치 퍼즐 엔진",
+            "기본 캐릭터 육성 데이터",
+            "무대 성공 판정 로직"
+          ],
+          "defer": [
+            "방대한 시나리오",
+            "고급 촬영/꾸미기 기능"
+          ],
+          "risks": [
+            "개발 규모의 방대함",
+            "퍼즐과 육성 간의 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "퍼즐 리듬 액션",
+            "concept": "퍼즐을 맞추는 속도와 리듬에 맞춰 무대 공연의 화려함이 결정되는 리듬 퍼즐 게임입니다.",
+            "first_step": "퍼즐 매치 타이밍과 음악 비트의 동기화 구현."
+          },
+          {
+            "title": "캐릭터 대화형 퍼즐",
+            "concept": "퍼즐을 풀 때마다 캐릭터와 대화하며 호감도를 쌓고, 그에 따라 퍼즐의 특수 능력이 변합니다.",
+            "first_step": "퍼즐 결과에 따른 호감도 변수 및 대화창 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "복합 장르 게임의 시스템 설계와 데이터 관리 방식을 배우기에 좋습니다. 다만, 1인 개발 시에는 규모를 대폭 축소하여 핵심 재미에 집중하는 것을 권장합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 결제 시스템, 서버 연동, 보안 기능 등은 알 수 없습니다. 시나리오의 구체적인 분량이나 퍼즐의 상세 규칙은 확인되지 않습니다.",
+        "name": "ディズニー スパークリンク・スターズ",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AF%E3%83%AA%E3%83%B3%E3%82%AF-%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA/id6760274605?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 280,
+        "reasons": [
+          "newly_seen",
+          "overseas_interest"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:trophy.hunter.hunting.games.sniper.shooting": {
+      "app_key": "google:trophy.hunter.hunting.games.sniper.shooting",
+      "name": "Trophy Hunter - Sniper Game",
+      "developer": "Ten Square Games",
+      "source": "google",
+      "country": "US",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=trophy.hunter.hunting.games.sniper.shooting&hl=en&gl=US",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:12:30+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Trophy Hunter – Your Ultimate Destination for Social Competitive Hunting Games! Step into the wild with Trophy Hunter, a premier free-to-play shooting experience designed for fans of hunting games, shooting games, sniper games, and exciting casual games. Get ready for intense 1v1 PvP sniper hunting battle duels that test your hunter skills, precision, and strategy – join Hunting Clubs, chat in real time, and compete with friends for rewards and bragging rights. Are you ready to become the ultimate trophy hunter in this top free shooting game? Heart-Pounding PvP Hunting Duels Battle Challenge players in thrilling head-to-head sniper hunting battle matchups. Every duel battle pushes your sniper skills to the limit. As you progress through locations, the challenge grows – faster animals, longer distances, and smaller targets. Precision shooting and quick hunter reflexes are your keys to victory in these hunting game battles. Become the top sniper hunter! Explore Realistic Worlds. Hunt Day & Night Explore breathtaking hunting locations across the globe, including Yukon, Montana, Kamchatka, Botswana, Egypt, and many more. Track and hunt a variety of animals including deer, ostriches, hippos, alligators, and macaques. Stunning visuals bring every hunting ground to life for every hunter in this free hunting experience battle. Night Hunt mode will test your skills after dark – limited visibility, maximum reward. Master Your Arsenal: Weapons & Ammo Weapons: Collect cards from rewards to unlock and upgrade 20+ firearms for any sniper hunter battle. Every weapon has unique stats like Damage, Bullet Speed, Score Bonus, Zoom, Slow Motion, and Zoom Time. Customize your shooting loadout and dominate the battle games. Ammo: Strategy extends to your bullets! Choose from multiple bullet types, each with its own design and stats like Damage Bonus, Score Bonus, and Bullet Speed. Equip powerful options and make every sniper shot count in these dynamic sniper battle games! Daily Precision Challenge: Golden Shot Test your sniper precision daily in Golden Shot challenges! Get one FREE hunt each day with a special sniper bullet. The better your shooting accuracy, the bigger the reward. Prove your mastery in skill-based free hunting game battle! Show Off Your Success: Hunter’s Lodge Showcase your trophy animals, achievements, and prestige in your personal Hunter’s Lodge. Build your hunter profile and display your hunting success as a top trophy hunter! Clubs, Social Play & Competitive Events Rise through global leaderboards and earn seasonal rewards. Join or create Hunting Clubs to team up with fellow hunter players, share sniper strategies, and compete together in casual game battles. Take on Beast Hunt: a cooperative Club hunt vs. a giant beast with an internal leaderboard, team rewards for the kill, and better loot for top damage dealers. Prove your strength in the Club Ranking with global club standings based on the fastest kill of the highest-tier Club Boss. Join the Club Race, a time-limited competition with shared tasks, milestones, and prizes. Coordinate in real time using the Club chat. Stay rewarded with the Login Calendar featuring daily login rewards, streak bonuses, and free drops. Progress faster with Daily and Weekly Tasks offering rotating missions, clear objectives, bonus currency, and gear. Build your network with Friends: add people, compare progress, and challenge them in friendly PvP duels for rewards and bragging rights. Invite new hunters with Referrals and earn rewards for bringing friends into the hunt. Trophy Hunter blends the thrill of shooting games and the precision of sniper games with strategic hunting gameplay. Whether you’re a veteran hunter or new to free hunting games, Trophy Hunter delivers a rich free shooting experience for every sniper hunter. Ready your rifle, steady your sniper aim, and claim your title. Download Trophy Hunter now – it’s free! Become a legendary hunter in the world of shooting games!",
+      "analysis": {
+        "app_key": "google:trophy.hunter.hunting.games.sniper.shooting",
+        "summary_ko": "이 게임은 저격수 시뮬레이션과 사냥을 결합한 PvP 경쟁 게임입니다. 전 세계의 다양한 사냥터를 배경으로 정밀한 사격 실력을 겨루며, 클럽 활동을 통해 다른 플레이어와 협력하거나 경쟁할 수 있습니다. 무기 업그레이드와 전략적인 탄약 선택이 승패를 결정짓는 핵심 요소입니다.",
+        "features_ko": [
+          "1대1 PvP 저격 대결을 통해 실시간으로 사격 실력을 겨룹니다.",
+          "전 세계의 다양한 환경에서 사냥을 즐기며 야간 사냥 모드도 지원합니다.",
+          "20개 이상의 총기를 수집하고 업그레이드하여 성능을 강화합니다.",
+          "클럽에 가입하여 팀 단위의 협동 사냥과 랭킹 경쟁에 참여합니다."
+        ],
+        "noteworthy_ko": "사냥이라는 소재를 PvP 경쟁과 결합하여 단순한 시뮬레이션을 넘어선 소셜 게임으로 확장했습니다. 무기별 능력치와 탄약의 전략적 선택을 도입하여 깊이 있는 게임 플레이를 제공하는 점이 흥미롭습니다.",
+        "development_ko": "핵심 기술은 3D 환경에서의 사격 물리 엔진과 네트워크 동기화입니다. 다양한 무기와 탄약 데이터를 관리하는 시스템이 필요하며, PvP를 위한 실시간 매칭 서버 구축이 큰 부담입니다. 밸런스 측면에서는 무기 성능과 사격 난이도의 조절이 매우 중요합니다.",
+        "idea_ko": "사냥한 동물의 정보를 수집하는 도감 시스템과 생태계 시뮬레이션 결합.",
+        "highlights_ko": [
+          "다양한 환경과 동물을 구현하여 사실적인 사냥 경험을 제공합니다.",
+          "클럽 시스템을 통해 커뮤니티 활동과 경쟁을 동시에 즐길 수 있습니다."
+        ],
+        "systems_ko": [
+          "3D 사격 물리 엔진",
+          "무기 및 탄약 데이터베이스",
+          "실시간 PvP 매칭 시스템",
+          "클럽 및 소셜 커뮤니티 시스템",
+          "보상 및 랭킹 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "3D 환경 구현, 물리 엔진 적용, 실시간 네트워크 통신 등 복합적인 기술이 필요하여 1인 개발자가 완성하기에는 매우 높은 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 사격 메커니즘",
+            "타겟(동물) AI",
+            "무기 교체 시스템"
+          ],
+          "defer": [
+            "실시간 PvP 서버",
+            "클럽 시스템",
+            "복잡한 3D 환경"
+          ],
+          "risks": [
+            "네트워크 동기화 문제",
+            "물리 엔진 최적화 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "사냥터 생태계 관찰 모드",
+            "concept": "사냥 대신 동물의 행동을 관찰하고 사진을 찍어 도감을 완성하는 평화로운 모드입니다.",
+            "first_step": "동물의 이동 경로 AI와 카메라 촬영 기능 구현."
+          },
+          {
+            "title": "환경 변화 사냥",
+            "concept": "날씨나 시간대에 따라 동물의 행동 패턴이 변하는 환경적 요소를 강화한 모드입니다.",
+            "first_step": "시간대별 환경 설정 및 동물 AI 행동 트리 수정."
+          }
+        ],
+        "recommendation_ko": "3D 게임 개발과 물리 엔진 활용에 관심이 있다면 좋은 학습 대상입니다. 다만, PvP와 네트워크 기능은 매우 복잡하므로 싱글 플레이 위주의 프로토타입부터 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 서버 아키텍처, 물리 엔진의 종류, 결제 시스템의 상세 구현 방식은 확인되지 않습니다.",
+        "name": "Trophy Hunter - Sniper Game",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=trophy.hunter.hunting.games.sniper.shooting&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 171,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 23,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.h.zoorassic.world": {
+      "app_key": "google:com.h.zoorassic.world",
+      "name": "Zoo Prank 2: Jurassic Animals",
+      "developer": "Unicorn Studio Official",
+      "source": "google",
+      "country": "US",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.h.zoorassic.world&hl=en&gl=US",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:16:32+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Welcome to Jurassic Zoo: Prank Time, where prehistoric creatures bring a whole new level of chaos to the zoo Explore your own Jurassic zoo, interact with hilarious dinosaurs, and pull off funny pranks on unsuspecting visitors. Every corner of the zoo is packed with surprises! Meet Amazing Dinosaurs Discover different dinosaurs and watch them roam, play, and interact with their surroundings. Pull Off Funny Pranks Set up hilarious tricks and watch visitors react to unexpected dinosaur surprises. Explore & Discover Explore the zoo, find hidden interactions, and uncover funny moments around every corner. Complete Fun Challenges Take on entertaining tasks and challenges as you grow your Jurassic adventure. Unlock New Content Progress through the game to discover more dinosaurs, areas, and playful experiences. From mischievous dinosaurs to surprised visitors, Jurassic Zoo: Prank Time combines dinosaur fun with silly pranks and casual simulation gameplay.",
+      "analysis": {
+        "app_key": "google:com.h.zoorassic.world",
+        "summary_ko": "Zoo Prank 2는 쥬라기 공원을 배경으로 공룡과 함께 장난을 치는 캐주얼 시뮬레이션 게임입니다. 사용자는 공원을 탐험하며 공룡들과 상호작용하고 방문객들을 놀라게 하는 다양한 미션을 수행합니다. 귀여운 공룡 캐릭터와 코믹한 상황이 게임의 핵심입니다.",
+        "features_ko": [
+          "다양한 공룡을 발견하고 그들의 행동을 관찰하며 상호작용합니다.",
+          "방문객을 대상으로 장난을 치는 미션을 수행하여 게임을 진행합니다.",
+          "공원 곳곳을 탐험하며 숨겨진 상호작용 요소를 찾아냅니다.",
+          "미션 완료를 통해 새로운 공룡과 구역을 잠금 해제합니다.",
+          "캐주얼한 시뮬레이션 게임 플레이를 통해 가벼운 재미를 제공합니다."
+        ],
+        "noteworthy_ko": "공룡이라는 소재와 '장난'이라는 테마를 결합하여 코믹한 시뮬레이션을 구현한 점이 독특합니다. 방문객의 반응을 트리거로 사용하는 이벤트 시스템이 게임의 재미를 결정짓는 핵심 요소로 보입니다.",
+        "development_ko": "핵심 구현 기술로는 캐릭터 AI와 상호작용 트리거 시스템이 필요합니다. 공원 맵 디자인과 공룡 애니메이션 제작이 콘텐츠의 큰 비중을 차지하며, 방문객의 반응을 자연스럽게 연출하는 것이 밸런스의 핵심입니다.",
+        "idea_ko": "사용자가 직접 공룡의 장난을 설계하고 다른 사용자의 공원에 적용해보는 '장난 설계자 모드'가 적합합니다.",
+        "highlights_ko": [
+          "쥬라기 테마와 장난이라는 요소를 결합하여 차별화된 재미를 제공합니다.",
+          "탐험과 미션 수행을 통해 지속적인 콘텐츠 해금 경험을 제공합니다."
+        ],
+        "systems_ko": [
+          "캐릭터 이동 및 상호작용 시스템",
+          "미션 및 이벤트 트리거 시스템",
+          "오브젝트 배치 및 맵 관리 시스템",
+          "애니메이션 상태 머신",
+          "보상 및 잠금 해제 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "캐릭터 애니메이션과 상호작용 로직은 구현이 필요하지만, 복잡한 물리 엔진보다는 이벤트 기반의 단순한 상호작용 위주로 구성되어 있어 1인 개발자가 시도하기에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "공룡 캐릭터 이동",
+            "방문객과의 상호작용 트리거",
+            "기본 미션 시스템"
+          ],
+          "defer": [
+            "복잡한 공원 커스터마이징",
+            "다양한 공룡 종 추가",
+            "고급 AI 행동 패턴"
+          ],
+          "risks": [
+            "상호작용 연출의 단조로움",
+            "캐릭터 애니메이션 리소스 제작 부담"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "공룡 장난 콤보",
+            "concept": "여러 장난을 연속으로 성공시키면 더 큰 반응을 이끌어내는 콤보 시스템입니다.",
+            "first_step": "장난 성공 시 점수를 누적하고 콤보 카운트를 표시하는 로직 구현."
+          },
+          {
+            "title": "방문객 사진첩",
+            "concept": "장난에 놀란 방문객의 표정을 사진으로 찍어 수집하는 도감 시스템입니다.",
+            "first_step": "특정 상황에서 스크린샷을 찍고 갤러리에 저장하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "캐릭터 기반의 상호작용 게임을 만들고 싶은 개발자에게 추천합니다. 이벤트 트리거 시스템을 배우기에 좋은 프로젝트입니다.",
+        "source_limitations_ko": "게임 엔진(Unity, Unreal 등)의 종류나 구체적인 AI 알고리즘은 소개문으로 확인할 수 없습니다.",
+        "name": "Zoo Prank 2: Jurassic Animals",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.h.zoorassic.world&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6752554540": {
+      "app_key": "apple:6752554540",
+      "name": "가이더스 원",
+      "developer": "izzle Inc.",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_rpg",
+      "detail_url": "https://apps.apple.com/kr/app/%EA%B0%80%EC%9D%B4%EB%8D%94%EC%8A%A4-%EC%9B%90/id6752554540?uo=2",
+      "data_date": "2026-11-03",
+      "analysed_at": "2026-11-07T06:23:11+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "'가이더스 원'은 매력적인 도트 그래픽이 돋보이는 실시간 그리드 기반 픽셀 로그라이크 액션 RPG입니다. 매 순간의 이동과 선택이 중요한 변화무쌍한 던전에서, 다양한 영웅들과 함께 왕궁을 향한 모험을 시작하세요. ■ 실시간 그리드 액션 한 칸, 한 칸이 중요합니다! 턴제가 아닌 실시간으로 적들의 움직임에 반응하고, 순간의 판단과 전략으로 던전을 돌파하세요. ■ 나만의 빌드 완성 다양한 버프와 레벨업, 직업 조합을 활용해 나만의 빌드를 만들어보세요. 새로운 선택과 조합을 발견하며 매번 색다른 플레이 스타일을 완성할 수 있습니다. ■ 다양한 개성의 영웅들 독특한 전투 스타일과 스킬을 가진 다양한 영웅들을 만나보세요. 나만의 플레이 스타일에 맞는 캐릭터를 선택해 다양한 던전에 도전할 수 있습니다. ■ 매번 변하는 로그라이크 던전 도전할 때마다 지형, 함정, 몬스터가 새롭게 배치됩니다. 끊임없이 변화하는 던전에서 최적의 경로와 전략을 찾아보세요. ■ 매력적인 픽셀 도트 그래픽 세밀하고 정교한 고퀄리티 도트 그래픽으로 구현된 가이더스만의 세계와 개성 넘치는 보스 몬스터들을 만나보세요. ■ 세로형 한 손 플레이 세로 화면 UI에 최적화되어 언제 어디서나 한 손으로 간편하게 즐길 수 있습니다.",
+      "analysis": {
+        "app_key": "apple:6752554540",
+        "summary_ko": "가이더스 원은 도트 그래픽이 특징인 실시간 그리드 기반의 로그라이크 액션 RPG입니다. 사용자는 다양한 영웅을 선택하여 매번 변화하는 던전을 탐험하고, 실시간으로 적의 움직임에 대응하며 전략적인 전투를 펼칩니다. 세로형 UI를 채택하여 한 손으로 간편하게 조작할 수 있는 환경을 제공합니다.",
+        "features_ko": [
+          "턴제가 아닌 실시간 그리드 기반의 액션 전투를 제공합니다.",
+          "도전할 때마다 지형, 함정, 몬스터가 무작위로 생성되는 로그라이크 던전을 탐험합니다.",
+          "다양한 영웅과 직업 조합을 통해 자신만의 전투 빌드를 완성할 수 있습니다.",
+          "세로 화면에 최적화된 UI로 한 손 조작이 가능합니다.",
+          "고퀄리티 픽셀 도트 그래픽으로 구현된 캐릭터와 보스를 만날 수 있습니다."
+        ],
+        "noteworthy_ko": "로그라이크 장르에 '실시간 그리드 액션'을 결합한 점이 매우 독특합니다. 턴제 로그라이크의 전략성과 액션 게임의 긴박함을 동시에 잡으려는 시도가 개발 관점에서 매우 흥미로운 도전입니다.",
+        "development_ko": "핵심 기술은 그리드 기반의 경로 탐색(Pathfinding) 알고리즘과 실시간 충돌 처리입니다. 로그라이크 특성상 무작위 던전 생성 알고리즘의 완성도가 게임의 재미를 결정합니다. 밸런스 측면에서는 영웅별 스킬과 몬스터 난이도 간의 조화가 가장 큰 테스트 부담이 될 것입니다.",
+        "idea_ko": "던전 내의 지형지물을 활용하는 '환경 상호작용 시스템'을 추가하여, 적을 함정으로 유인하거나 지형을 파괴하는 전략적 요소를 강화하는 것이 적합합니다.",
+        "highlights_ko": [
+          "실시간 그리드 액션으로 턴제 로그라이크와 차별화된 긴장감을 제공합니다.",
+          "세로형 UI 최적화로 모바일 환경에서의 접근성을 높였습니다."
+        ],
+        "systems_ko": [
+          "그리드 기반 맵 생성 시스템",
+          "실시간 전투 및 충돌 판정",
+          "영웅 및 스킬 데이터 관리",
+          "AI 몬스터 행동 패턴",
+          "로그라이크 아이템/버프 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 그리드 전투 시스템은 동기화와 판정이 매우 까다롭습니다. 또한, 무작위 던전 생성과 밸런스 조정은 1인 개발자가 완성하기에 상당한 시간과 노력이 필요한 작업입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "그리드 이동 및 공격 로직",
+            "기본 몬스터 AI",
+            "무작위 맵 생성기"
+          ],
+          "defer": [
+            "다양한 영웅 캐릭터",
+            "복잡한 스킬 트리",
+            "고퀄리티 도트 애니메이션"
+          ],
+          "risks": [
+            "전투 판정의 불쾌감",
+            "던전 생성의 단조로움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "환경 상호작용 던전",
+            "concept": "던전 내의 기둥을 무너뜨려 적을 가두거나, 물을 얼려 길을 만드는 등 지형을 활용한 전투를 구현합니다.",
+            "first_step": "그리드 타일별 속성(파괴 가능, 이동 불가 등)을 정의하는 시스템을 만듭니다."
+          },
+          {
+            "title": "영웅 조합 로그라이크",
+            "concept": "두 명의 영웅을 동시에 조종하며, 서로의 스킬을 연계하여 강력한 콤보를 만드는 시스템입니다.",
+            "first_step": "두 캐릭터의 위치를 동기화하여 이동하는 기본 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "로그라이크 게임의 핵심인 '무작위성'과 '전략적 깊이'를 구현하는 법을 배우기에 좋습니다. 다만, 실시간 액션 구현은 난이도가 높으므로 턴제부터 시작해 점진적으로 발전시키는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 전투 판정 알고리즘이나 맵 생성 로직이 명시되어 있지 않습니다. 게임 내 결제나 네트워크 연동 기능에 대한 정보는 없으므로, 오프라인 싱글 플레이 게임으로 가정하고 개발해야 합니다.",
+        "name": "가이더스 원",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EA%B0%80%EC%9D%B4%EB%8D%94%EC%8A%A4-%EC%9B%90/id6752554540?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.djezzy.internet": {
+      "app_key": "google:com.djezzy.internet",
+      "name": "Djezzy",
+      "developer": "Djezzy Developper",
+      "source": "google",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.djezzy.internet&hl=en&gl=US",
+      "data_date": "2026-11-03",
+      "analysed_at": "2026-11-07T06:23:50+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Djezzy internet becomes Djezzy App Through the new DJEZZY App, you have the control. The Djezzy App has now a new more ergonomic interface that gives you a new more enjoyable browsing experience. You can from now on consult in detail your various consumptions, related to the offer or the options which you activated. The Djezzy App will allow you to control your SIM card via various actions that you can do by youself via your smartphone and without moving, such as: SIM disconnection or reconnection, code request, refill, find the nearest Djezzy shop or contact our customer service. Concerning the offers menu, it displays the details of the different current offers which are available for your profile. You can activate them in one click. To have full advantage of the Djezzy App, make sure you are connected to the Djezzy network and not to wifi or other. Live the Djezzy experience now by downloading the application.",
+      "analysis": {
+        "app_key": "google:com.djezzy.internet",
+        "summary_ko": "Djezzy는 사용자가 자신의 SIM 카드 상태를 직접 관리하고 통신 서비스를 제어할 수 있는 모바일 도구 앱입니다. 데이터 사용량 확인, 요금제 관리, SIM 카드 연결 설정 등의 기능을 제공합니다. 사용자는 스마트폰을 통해 매장 방문 없이 간편하게 서비스를 이용할 수 있습니다.",
+        "features_ko": [
+          "현재 활성화된 요금제 및 옵션에 따른 데이터 사용량을 상세히 조회할 수 있습니다.",
+          "SIM 카드의 연결 및 재연결을 앱 내에서 직접 수행할 수 있습니다.",
+          "현재 프로필에서 이용 가능한 다양한 요금제 정보를 확인하고 즉시 활성화할 수 있습니다.",
+          "가장 가까운 Djezzy 매장 위치를 찾거나 고객 서비스에 문의할 수 있습니다."
+        ],
+        "noteworthy_ko": "통신사 고객을 위한 셀프 서비스 플랫폼으로서, 오프라인 매장 방문을 최소화하는 사용자 경험 설계가 핵심입니다. 통신 네트워크 환경에서만 정상 작동하도록 설계된 점이 기술적으로 흥미롭습니다.",
+        "development_ko": "통신사 API와의 안정적인 연동이 핵심이며, 사용자 인증 및 보안 처리가 매우 중요합니다. UI는 복잡한 요금제 정보를 직관적으로 보여주는 데 집중해야 합니다. 네트워크 상태에 따른 기능 제한 로직 구현이 필요합니다.",
+        "idea_ko": "특정 통신사 전용이 아닌, 사용자가 여러 통신사의 데이터를 통합 관리할 수 있는 대시보드 앱 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "사용자 중심의 SIM 카드 직접 제어 기능.",
+          "실시간 데이터 소비량 모니터링 및 요금제 관리."
+        ],
+        "systems_ko": [
+          "사용자 인증 시스템",
+          "통신사 API 연동 모듈",
+          "데이터 사용량 시각화 UI",
+          "네트워크 상태 감지 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "통신사 내부 API 연동은 일반적인 개인 개발자가 접근하기 어렵습니다. 보안 및 개인정보 보호를 위한 엄격한 기준이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 로그인",
+            "데이터 사용량 조회 UI"
+          ],
+          "defer": [
+            "SIM 카드 직접 제어",
+            "매장 위치 찾기"
+          ],
+          "risks": [
+            "API 접근 권한 확보의 어려움",
+            "개인정보 유출 보안 리스크"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "통합 데이터 매니저",
+            "concept": "여러 통신사 앱을 거치지 않고 한곳에서 데이터 잔량을 확인하는 앱입니다. 위젯을 통해 실시간 사용량을 보여줍니다.",
+            "first_step": "사용자가 직접 데이터 잔량을 입력하고 소모량을 기록하는 수동 추적 기능 구현."
+          },
+          {
+            "title": "요금제 비교 시뮬레이터",
+            "concept": "사용자의 평소 데이터 사용 패턴을 분석하여 가장 저렴한 요금제를 추천합니다.",
+            "first_step": "사용자의 월간 데이터 사용량을 입력받아 요금제별 예상 비용을 계산하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "통신사 앱은 폐쇄적인 API 환경 때문에 개인 개발자가 직접 구현하기에는 한계가 많습니다. 서비스 기획 측면에서 사용자 편의성을 어떻게 극대화하는지 참고하는 용도로 적합합니다.",
+        "source_limitations_ko": "소개문에는 API 연동 방식, 보안 인증 절차, 결제 시스템의 구체적인 구현 방법이 명시되어 있지 않습니다.",
+        "name": "Djezzy",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.djezzy.internet&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.aiphoto.aivideo.aiportrait.generatorimage": {
+      "app_key": "google:com.aiphoto.aivideo.aiportrait.generatorimage",
+      "name": "Mistmere: AI Photo Video Maker",
+      "developer": "Funkedenic",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.aiphoto.aivideo.aiportrait.generatorimage&hl=en&gl=US",
+      "data_date": "2026-11-03",
+      "analysed_at": "2026-11-07T06:24:34+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Mistmere AI Photo Video Maker helps you create beautiful videos from photos, try the latest AI effects, and even find hairstyles that suit your face. Whether you want to share family moments, refresh your look, or just try something fun, Mistmere does the work for you. No editing experience needed. TRENDING AI EFFECTS Try the latest AI photo effects without spending hours learning how to edit. New styles added every week so there is always something fresh to try. - 90s Trend, Noel, Halloween, Portrait styles, anime filters, 3D looks, pencil sketch,... - Updated weekly with what is popular right now AI VIDEO GENERATOR & VIDEO MAKER Turn your favorite photos into polished videos you actually want to share. Pick a template, add your photos. Done in under a minute. - Photo to video with one tap - AI video generator with smooth motion and transitions - 100+ video templates: birthday, anniversary, travel, family, holidays - Stack Family styles for group and family photos AI PHOTO GENERATOR & IMAGE MAKER See yourself in a completely new way. Upload a photo or type an idea and let AI create something you would never expect. - AI photo generator from your own photos - Text to image: describe it and AI creates it - Portrait, anime, 3D avatar, landscape styles - AI art generator with creative styles for every taste - High quality results you can use as profile photos or wallpapers AI FACE ANALYZER Ever wondered what hairstyle would actually look good on you? Mistmere scans your face, analyzes your features, and shows you styles and colors that match. - AI face scanner with detailed feature mapping - Detects your face shape: oval, round, square, heart - Scores for overall look, colour harmony, and face match - Hairstyle recommendations that fit your face shape - Hair color suggestions based on your natural skin tone - Take the guesswork out of your next salon visit WHY PEOPLE LOVE MISTMERE - Simple to use. No tutorials needed. Pick a photo, choose what you want, get results in seconds. - Always something new. Fresh templates, effects, and AI styles every week. - Looks great everywhere. Every video and photo is optimized for social media. Open Mistmere. Make your photos do more.",
+      "analysis": {
+        "app_key": "google:com.aiphoto.aivideo.aiportrait.generatorimage",
+        "summary_ko": "Mistmere는 사진을 활용해 AI 효과를 적용하거나 영상을 제작하고, 얼굴 분석을 통해 헤어스타일을 추천하는 AI 기반 사진·영상 편집 앱입니다. 편집 경험이 없는 사용자도 간단한 조작으로 고품질의 결과물을 얻을 수 있도록 설계되었습니다.",
+        "features_ko": [
+          "사진을 다양한 AI 스타일(애니메이션, 3D 등)로 변환합니다.",
+          "사진을 선택하면 템플릿을 활용해 자동으로 영상을 제작합니다.",
+          "텍스트를 입력하면 AI가 이미지를 생성하는 기능을 제공합니다.",
+          "얼굴 형태를 분석하여 어울리는 헤어스타일과 색상을 추천합니다."
+        ],
+        "noteworthy_ko": "AI 모델을 활용한 이미지/영상 변환 기능을 사용자 친화적인 템플릿 형태로 제공하는 점이 핵심입니다. 특히 얼굴 분석과 같은 특화된 AI 기능을 결합하여 단순 편집을 넘어선 개인화 경험을 제공합니다.",
+        "development_ko": "이미지 및 영상 처리를 위한 AI 모델(Stable Diffusion 등) 연동 기술이 필수적입니다. 클라우드 기반의 연산 처리를 위한 서버 인프라와 사용자 사진 데이터의 보안 처리가 중요합니다. 다양한 템플릿을 효율적으로 관리하고 적용하는 UI/UX 설계가 필요합니다.",
+        "idea_ko": "AI 기반의 개인 맞춤형 스타일링 가이드.",
+        "highlights_ko": [
+          "AI 기술을 활용한 자동화된 사진 및 영상 편집 프로세스.",
+          "얼굴 분석을 통한 개인화된 스타일 추천 기능."
+        ],
+        "systems_ko": [
+          "AI 이미지/영상 생성 엔진",
+          "얼굴 특징점 분석 알고리즘",
+          "템플릿 관리 및 적용 시스템",
+          "사용자 사진 업로드 및 보안 저장소",
+          "소셜 미디어 공유 최적화 모듈"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "고도화된 AI 모델을 앱에 통합하고 실시간으로 처리하는 것은 높은 기술적 난이도를 요구합니다. 서버 비용과 AI API 사용료 등 운영 비용 부담이 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사진 업로드 및 기본 필터 적용",
+            "간단한 영상 템플릿 제작",
+            "AI 이미지 변환 API 연동"
+          ],
+          "defer": [
+            "실시간 얼굴 분석",
+            "복잡한 3D 아바타 생성"
+          ],
+          "risks": [
+            "AI 모델의 결과물 품질 편차",
+            "서버 연산 비용 및 처리 속도"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "AI 패션 코디네이터",
+            "concept": "사용자의 옷장 사진을 분석하여 오늘의 날씨와 상황에 맞는 코디를 AI가 추천합니다. 옷을 조합하여 가상으로 입어보는 기능을 제공합니다.",
+            "first_step": "사용자가 옷 사진을 등록하고 분류하는 기능부터 구현."
+          },
+          {
+            "title": "AI 감성 일기장",
+            "concept": "오늘의 일기를 작성하면 AI가 그 내용을 바탕으로 어울리는 삽화를 생성해 줍니다. 일기 내용의 감정을 분석하여 배경색을 변경합니다.",
+            "first_step": "텍스트를 입력받아 AI 이미지 생성 API를 호출하여 결과물을 보여주는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "최신 AI 기술을 모바일 앱에 어떻게 녹여낼지 고민하는 개발자에게 좋은 사례입니다. 다만, 고성능 서버가 필요한 서비스이므로 초기 비용을 고려해야 합니다.",
+        "source_limitations_ko": "사용된 AI 모델의 종류나 데이터 처리 방식이 공개되지 않았습니다. 얼굴 데이터의 개인정보 보호 정책 및 서버 저장 여부는 검증이 필요합니다.",
+        "name": "Mistmere: AI Photo Video Maker",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.aiphoto.aivideo.aiportrait.generatorimage&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 89,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "itch:24afb2d94dfba23cede3": {
+      "app_key": "itch:24afb2d94dfba23cede3",
+      "name": "Starfall Command [Free] [Strategy] [Windows] [macOS] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "",
+      "detail_url": "https://nddipiazza.itch.io/starfall-command",
+      "data_date": "2026-11-03",
+      "analysed_at": "2026-11-07T06:25:29+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Build a base, command an army and outplay the AI in a free, open-source real-time strategy game.",
+      "analysis": {
+        "app_key": "itch:24afb2d94dfba23cede3",
+        "summary_ko": "기지를 건설하고 군대를 지휘하여 AI와 대결하는 오픈 소스 실시간 전략(RTS) 게임입니다. Windows, macOS, Linux를 지원합니다. 플레이어는 자원을 관리하고 전술을 펼쳐 승리해야 합니다.",
+        "features_ko": [
+          "기지 건설 및 유닛 생산 시스템을 제공합니다.",
+          "AI와의 실시간 전투를 통한 전략적 플레이가 가능합니다.",
+          "오픈 소스로 제공되어 커뮤니티 기여가 가능합니다."
+        ],
+        "noteworthy_ko": "RTS 장르는 구현 난도가 높기로 유명한데, 이를 오픈 소스로 공개한 점이 개발 관점에서 매우 흥미롭습니다. 타인의 코드를 분석하여 RTS의 핵심 시스템을 학습할 수 있는 훌륭한 자료입니다.",
+        "development_ko": "경로 탐색(Pathfinding), 유닛 AI, 자원 관리 등 복잡한 시스템이 필요합니다. 대규모 유닛을 처리하기 위한 최적화와 밸런스 조정이 매우 어렵습니다. 오픈 소스 프로젝트인 만큼 코드 가독성과 문서화가 중요합니다.",
+        "idea_ko": "유닛을 직접 조종하는 대신 '명령어 카드'를 조합해 자동 전투를 수행하는 '카드 전략 RTS' 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "기지 건설과 군대 지휘가 핵심인 실시간 전략 게임입니다.",
+          "오픈 소스로 개발되어 투명한 구조를 가집니다."
+        ],
+        "systems_ko": [
+          "경로 탐색(A* 알고리즘)",
+          "유닛 상태 머신(FSM)",
+          "자원 경제 시스템",
+          "실시간 전투 판정",
+          "UI/UX 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "RTS는 시스템 간의 복잡한 상호작용과 최적화가 필수적이어서 1인 개발자가 완성하기에 매우 도전적인 장르입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "유닛 이동 및 선택",
+            "기본 자원 수집",
+            "간단한 AI 공격 로직"
+          ],
+          "defer": [
+            "복잡한 테크 트리",
+            "멀티플레이어 네트워크"
+          ],
+          "risks": [
+            "경로 탐색 최적화 실패",
+            "밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "미니 RTS",
+            "concept": "유닛 수를 10개 이하로 제한하여 기지 건설보다 전술적 이동에 집중한 RTS입니다.",
+            "first_step": "유닛 선택 및 이동 명령 구현."
+          },
+          {
+            "title": "카드 전략 커맨드",
+            "concept": "실시간으로 생성되는 카드를 사용하여 유닛의 행동을 결정하는 전략 게임입니다.",
+            "first_step": "카드 시스템과 유닛 행동 연동 프로토타입 제작."
+          }
+        ],
+        "recommendation_ko": "RTS의 복잡한 시스템 구조를 학습하고 싶은 개발자에게 강력히 추천합니다. 오픈 소스 코드를 분석하여 자신의 프로젝트에 적용해 보세요.",
+        "source_limitations_ko": "게임의 구체적인 유닛 종류, 맵의 크기, AI의 지능 수준, 오픈 소스 라이선스 범위 등은 추가 확인이 필요합니다.",
+        "name": "Starfall Command [Free] [Strategy] [Windows] [macOS] [Linux]",
+        "source": "itch",
+        "detail_url": "https://nddipiazza.itch.io/starfall-command",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 10000,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "itch:f8cd60a6db80803ccd38": {
+      "app_key": "itch:f8cd60a6db80803ccd38",
+      "name": "MushRog [Free] [Role Playing]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "",
+      "detail_url": "https://hawerkdevelopment.itch.io/mushrog",
+      "data_date": "2026-11-03",
+      "analysed_at": "2026-11-07T06:26:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "RPG 2D online em pixel art: dois heróis por jogador, troca no meio da luta. Online 2D pixel-art RPG.",
+      "analysis": {
+        "app_key": "itch:f8cd60a6db80803ccd38",
+        "summary_ko": "MushRog는 픽셀 아트 스타일의 2D 온라인 RPG입니다. 플레이어는 두 명의 영웅을 조작하며, 전투 중에 영웅을 교체하는 전략적인 플레이를 경험할 수 있습니다. 온라인 환경에서 다른 플레이어와 상호작용하며 모험을 즐기는 게임입니다.",
+        "features_ko": [
+          "픽셀 아트 그래픽을 사용하여 고전적인 RPG 분위기를 연출합니다.",
+          "플레이어당 두 명의 영웅을 보유하여 전투 중 실시간으로 교체할 수 있습니다.",
+          "온라인 멀티플레이어 환경을 지원하여 다른 유저와 함께 게임을 진행합니다."
+        ],
+        "noteworthy_ko": "전투 중 영웅을 즉시 교체하는 메커니즘은 파티 조합의 전략성을 극대화할 수 있는 흥미로운 요소입니다. 온라인 환경에서 이러한 실시간 교체 시스템이 동기화될 때 발생하는 네트워크 지연 처리가 개발 관점에서 핵심적인 도전 과제가 될 것으로 추정됩니다.",
+        "development_ko": "핵심 구현 기술로는 실시간 멀티플레이어 동기화와 2D 캐릭터 상태 관리 시스템이 필요합니다. 콘텐츠 제작 측면에서는 픽셀 아트 리소스와 영웅별 스킬셋 설계가 주된 부담이 될 것입니다. 네트워크 환경에 따른 전투 밸런스 조정과 서버 부하 테스트가 개발의 성패를 좌우할 것으로 보입니다.",
+        "idea_ko": "전투 중 영웅 교체 시 발생하는 '태그 스킬' 시스템을 도입하여, 교체 타이밍에 따라 추가 효과를 주는 방식이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "전투 중 영웅 교체 시스템: 두 캐릭터를 전략적으로 운용하여 전투의 흐름을 바꿀 수 있습니다.",
+          "온라인 픽셀 RPG: 고전적인 비주얼과 멀티플레이어 경험을 결합했습니다."
+        ],
+        "systems_ko": [
+          "실시간 네트워크 동기화 시스템",
+          "캐릭터 상태 및 파티 관리 시스템",
+          "전투 판정 및 턴/실시간 액션 로직",
+          "UI/UX 인터페이스",
+          "데이터베이스 기반 유저 정보 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "온라인 멀티플레이어 환경을 구축하는 것은 개인 개발자에게 매우 높은 기술적 난이도를 요구합니다. 특히 실시간 전투 중 캐릭터 교체와 같은 동기화가 중요한 기능을 안정적으로 구현하는 데 많은 시간이 소요될 것입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 캐릭터 이동 및 전투 로직",
+            "영웅 교체 시스템",
+            "서버-클라이언트 간 위치 동기화"
+          ],
+          "defer": [
+            "복잡한 아이템 인벤토리 시스템",
+            "길드 및 채팅 시스템",
+            "대규모 월드 맵"
+          ],
+          "risks": [
+            "네트워크 지연(Lag)으로 인한 전투 경험 저하",
+            "서버 비용 및 유지보수 부담"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "태그 콤보 RPG",
+            "concept": "영웅 교체 시 특정 속성 공격이 연계되는 시스템입니다. 교체 타이밍을 맞추면 강력한 콤보가 발동됩니다.",
+            "first_step": "두 캐릭터를 번갈아 조작하며 공격하는 기본 전투 프로토타입 제작."
+          },
+          {
+            "title": "속성 상성 태그 배틀",
+            "concept": "적의 속성에 맞춰 영웅을 교체해야만 피해를 줄 수 있는 퍼즐형 전투입니다. 전략적인 교체가 필수적입니다.",
+            "first_step": "속성 시스템과 캐릭터 교체 로직을 결합한 1대1 전투 구현."
+          }
+        ],
+        "recommendation_ko": "온라인 멀티플레이어 게임의 기본 구조를 배우고 싶은 개발자에게 추천합니다. 다만, 네트워크 프로그래밍에 대한 깊은 이해가 필요하므로 입문자에게는 다소 도전적일 수 있습니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 전투 방식(턴제 vs 실시간), 멀티플레이어의 형태(협동 vs 경쟁), 아이템 및 성장 시스템의 유무를 확인할 수 없습니다. 결제나 보안 관련 기능은 언급되지 않았으므로 구현 범위에서 제외해야 합니다.",
+        "name": "MushRog [Free] [Role Playing]",
+        "source": "itch",
+        "detail_url": "https://hawerkdevelopment.itch.io/mushrog",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 10000,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
     }
   }
 }

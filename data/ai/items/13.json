@@ -8828,6 +8828,804 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-02"
+    },
+    "itch:56d3e5c883e828795db5": {
+      "app_key": "itch:56d3e5c883e828795db5",
+      "name": "Lumi: Seeds of light [Free] [Platformer]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://isabella-santos.itch.io/lumi-seeds-of-light-urla",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:05:12+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Lumi explora um jardim mágico em busca de sementes para devolver a luz à árvore.",
+      "analysis": {
+        "app_key": "itch:56d3e5c883e828795db5",
+        "summary_ko": "Lumi: Seeds of light는 마법의 정원을 탐험하며 씨앗을 찾아 나무에 빛을 되돌려주는 플랫폼 게임입니다. 주인공 Lumi가 되어 정원을 누비는 따뜻한 분위기의 모험을 경험할 수 있습니다.",
+        "features_ko": [
+          "플랫폼 게임 특유의 점프와 이동 메커니즘을 제공합니다.",
+          "정원 내에서 씨앗을 수집하는 탐험 요소를 포함합니다.",
+          "나무에 빛을 되돌리는 목표를 수행합니다."
+        ],
+        "noteworthy_ko": "탐험과 수집이라는 플랫폼 게임의 기본 구조를 잘 보여줍니다. 분위기 중심의 게임에서 시각적 연출과 레벨 디자인이 어떻게 조화를 이루는지 분석하기 좋습니다.",
+        "development_ko": "핵심 기술은 캐릭터의 물리 이동과 플랫폼 간의 충돌 처리입니다. 콘텐츠 제작은 정원이라는 테마에 맞는 다양한 타일셋과 배경 요소가 필요합니다. 밸런스는 점프의 높이와 플랫폼 간의 간격을 조정하여 난이도를 결정합니다.",
+        "idea_ko": "빛을 되돌릴 때마다 정원의 환경이 변화하는 시각적 연출을 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "마법의 정원이라는 서정적인 배경을 활용합니다.",
+          "씨앗 수집이라는 명확한 목표를 제시합니다."
+        ],
+        "systems_ko": [
+          "캐릭터 물리 이동 시스템",
+          "플랫폼 충돌 및 점프 판정",
+          "아이템 수집 및 인벤토리 관리",
+          "레벨 전환 및 체크포인트"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "플랫폼 게임은 물리 엔진의 정교한 튜닝이 필요하며, 레벨 디자인에 따라 난이도 조절이 까다로울 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이동 및 점프",
+            "수집 가능한 씨앗 오브젝트",
+            "목표 지점 도달 확인"
+          ],
+          "defer": [
+            "복잡한 적 캐릭터",
+            "다양한 마법 스킬"
+          ],
+          "risks": [
+            "물리 이동의 부자연스러움",
+            "레벨 디자인의 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "빛의 길 만들기",
+            "concept": "씨앗을 심으면 새로운 플랫폼이 생성되어 이동 경로가 확장되는 시스템입니다.",
+            "first_step": "특정 위치에 오브젝트를 생성하는 스크립트를 작성합니다."
+          },
+          {
+            "title": "시간대별 정원",
+            "concept": "낮과 밤에 따라 정원의 지형이나 수집 가능한 씨앗이 달라지는 시스템입니다.",
+            "first_step": "배경 색상과 오브젝트 활성화를 제어하는 환경 관리자를 만듭니다."
+          }
+        ],
+        "recommendation_ko": "플랫폼 게임의 기초를 다지고 싶은 개발자에게 추천합니다. 환경과 상호작용하는 레벨 디자인의 중요성을 배울 수 있습니다.",
+        "source_limitations_ko": "게임의 구체적인 물리 엔진 사양이나 레벨의 규모, 적의 존재 여부는 확인되지 않습니다.",
+        "name": "Lumi: Seeds of light [Free] [Platformer]",
+        "source": "itch",
+        "detail_url": "https://isabella-santos.itch.io/lumi-seeds-of-light-urla",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 305,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6803313025": {
+      "app_key": "apple:6803313025",
+      "name": "전생했더니 검 한 자루",
+      "developer": "Minghui Business Limited",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_action",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%A0%84%EC%83%9D%ED%96%88%EB%8D%94%EB%8B%88-%EA%B2%80-%ED%95%9C-%EC%9E%90%EB%A3%A8/id6803313025?uo=2",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:05:59+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "한 자루의 검에서, 천하를 가르는 절대신검으로! 손끝 하나로 천하를 제패하는 극강의 방치형 쾌감! 복잡하고 번거로운 시스템은 덜어내고, 오직 성장과 타격감의 본질만! [게임 특징] 줍! 쓸! 각! 누워서 강해져라! [줍]고! 방치만 해도 파밍 완료! 무한으로 쏟아지는 전리품과 희귀 장비! [쓸]고! 끝없이 쏟아지는 적들을 한 방에 싹쓸이하는 압도적 타격감! [각]성하고! 한계를 시험하는 시련 돌파! 마침내 해금되는 신검의 진정한 본능! [깨]부수고! 한 손으로 즐기는 끊임없는 강화! 한순간에 폭발하는 미친 전투력! [꿀]빨고! 과금 걱정은 No! 무료 VIP 혜택과 세상 편한 24시간 방치 보상! ▣공식 커뮤니티▣ https://game.naver.com/lounge/RAAS/home ▣공식 채널▣ 이용약관: https://www.bayonez.com/site/service-policy 개인정보처리방침：https://www.bayonez.com/site/z-policy 고객센터 메일: emeforgetest@gmail.com",
+      "analysis": {
+        "app_key": "apple:6803313025",
+        "summary_ko": "전생했더니 검 한 자루는 방치형 액션 게임으로, 검을 성장시켜 천하를 제패하는 과정을 다룹니다. 복잡한 조작 없이 방치만으로 파밍과 성장이 가능한 구조입니다. 타격감과 성장의 본질에 집중한 게임 경험을 제공합니다.",
+        "features_ko": [
+          "방치만 해도 아이템 파밍이 가능한 자동 시스템을 제공합니다.",
+          "적들을 한 방에 쓸어버리는 타격감 중심의 전투를 구현합니다.",
+          "시련 돌파를 통해 신검을 각성시키는 성장 시스템을 가집니다.",
+          "한 손으로 즐길 수 있는 강화 및 전투 인터페이스를 제공합니다.",
+          "24시간 방치 보상을 통해 지속적인 성장을 지원합니다."
+        ],
+        "noteworthy_ko": "방치형 게임의 핵심인 '성장 체감'과 '타격감'을 어떻게 극대화했는지가 개발 관점에서 흥미롭습니다. 복잡함을 덜어내고 핵심 재미에 집중한 기획이 돋보입니다.",
+        "development_ko": "방치형 게임의 핵심인 데이터 관리 및 밸런스 설계가 중요합니다. 수치 인플레이션을 제어하는 시스템과 시각적 타격감을 위한 이펙트 연출이 핵심입니다. 서버와 클라이언트 간의 데이터 동기화 및 안정적인 보상 지급 로직이 필요합니다.",
+        "idea_ko": "성장 수치와 타격감에 집중한 미니멀 방치형 게임 개발이 적합합니다.",
+        "highlights_ko": [
+          "복잡함을 배제한 방치형 성장 메커니즘.",
+          "압도적인 타격감과 빠른 성장 속도."
+        ],
+        "systems_ko": [
+          "자동 전투 및 파밍 시스템",
+          "아이템 강화 및 각성 시스템",
+          "방치 보상 계산 로직",
+          "데이터 저장 및 관리 시스템",
+          "전투 밸런스 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "방치형 게임은 핵심 메커니즘이 명확하여 1인 개발로 구현하기 적합합니다. 다만, 밸런스 조절과 수치 설계에 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "자동 전투 로직",
+            "아이템 파밍 및 강화 시스템",
+            "방치 보상 시스템"
+          ],
+          "defer": [
+            "복잡한 커뮤니티 기능",
+            "다양한 이벤트 시스템"
+          ],
+          "risks": [
+            "성장 밸런스 붕괴",
+            "콘텐츠 소모 속도 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "방치형 무기 제작소",
+            "concept": "전투보다는 무기를 제작하고 강화하여 더 높은 등급의 무기를 만드는 데 집중한 방치형 게임입니다.",
+            "first_step": "무기 등급별 강화 확률 및 수치 설계."
+          },
+          {
+            "title": "원버튼 타격 액션",
+            "concept": "방치형 요소에 타이밍에 맞춰 버튼을 누르면 추가 데미지를 주는 액션을 결합한 게임입니다.",
+            "first_step": "타이밍 판정 로직 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 밸런스 설계와 데이터 관리 방식을 배우고 싶은 개발자에게 추천합니다. 단순한 시스템으로 재미를 극대화하는 방법을 배울 수 있습니다.",
+        "source_limitations_ko": "공식 커뮤니티 및 고객센터 메일 외에 구체적인 기술 스택이나 서버 구조는 확인되지 않습니다.",
+        "name": "전생했더니 검 한 자루",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%A0%84%EC%83%9D%ED%96%88%EB%8D%94%EB%8B%88-%EA%B2%80-%ED%95%9C-%EC%9E%90%EB%A3%A8/id6803313025?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 234,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "itch:187d5e3d3d7520b7cfda": {
+      "app_key": "itch:187d5e3d3d7520b7cfda",
+      "name": "VAN HELSING (C64) [$4.99] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "featured",
+      "detail_url": "https://psytronik.itch.io/vanhelsing",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:06:22+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "GriffonSoft are back with their most ambitious C64 release yet!",
+      "analysis": {
+        "app_key": "itch:187d5e3d3d7520b7cfda",
+        "summary_ko": "GriffonSoft에서 개발한 C64 플랫폼용 액션 게임입니다. 개발사의 이전 작품들보다 야심 차게 제작된 타이틀로 소개됩니다.",
+        "features_ko": [
+          "C64 플랫폼에서 구동되는 액션 게임입니다.",
+          "개발사의 이전 작품들보다 확장된 콘텐츠를 제공합니다."
+        ],
+        "noteworthy_ko": "C64라는 특정 레트로 하드웨어를 타겟으로 개발된 점이 매우 독특합니다. 하드웨어의 제약을 극복하고 야심 찬 프로젝트를 수행하는 과정 자체가 개발자에게는 큰 도전이자 학습 기회로 보입니다.",
+        "development_ko": "C64 환경을 위한 어셈블리어 또는 전용 개발 도구 사용이 필수적입니다. 하드웨어 리소스 제약이 매우 크므로 최적화가 핵심이며, 콘텐츠 제작은 해당 플랫폼의 그래픽/사운드 제약을 고려해야 합니다.",
+        "idea_ko": "C64의 하드웨어 제약을 오히려 게임의 핵심 규칙으로 활용하는 '제약 기반 액션 게임'을 제안합니다.",
+        "highlights_ko": [
+          "C64 플랫폼을 타겟으로 한 야심 찬 액션 게임입니다.",
+          "개발사의 기술적 역량이 집약된 프로젝트입니다."
+        ],
+        "systems_ko": [
+          "C64 하드웨어 제어 로직",
+          "플랫폼 최적화 액션 엔진",
+          "레트로 사운드 및 그래픽 처리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "현대적인 개발 환경이 아닌 C64라는 고전 하드웨어 환경에서의 개발은 매우 높은 기술적 난이도를 요구합니다. 하드웨어 제약에 대한 깊은 이해와 최적화 능력이 필수적입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 캐릭터 이동 및 액션",
+            "C64 환경에서의 화면 출력 로직"
+          ],
+          "defer": [
+            "복잡한 레벨 디자인",
+            "다양한 적 AI"
+          ],
+          "risks": [
+            "하드웨어 제약으로 인한 구현 불가능성",
+            "개발 도구 및 자료 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "제약 기반 액션",
+            "concept": "C64의 메모리나 색상 제한을 게임 내 캐릭터의 능력치 제한으로 치환하여, 하드웨어의 한계가 곧 게임의 난이도가 되는 방식입니다.",
+            "first_step": "C64 환경에서 특정 색상 팔레트 내에서만 캐릭터가 움직이도록 구현."
+          },
+          {
+            "title": "레트로 하드웨어 시뮬레이터",
+            "concept": "C64의 하드웨어 구조를 게임 내에서 퍼즐 요소로 활용하여, 기기를 수리하거나 조작하는 게임입니다.",
+            "first_step": "C64의 가상 회로를 조작하는 간단한 퍼즐 구현."
+          }
+        ],
+        "recommendation_ko": "레트로 하드웨어의 구조와 최적화 기술을 배우고 싶은 개발자에게 추천합니다. 다만 일반적인 앱 개발과는 거리가 멀어 학습 목적이 아니라면 비추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 게임의 장르적 특징, 조작 방식, 구체적인 콘텐츠 내용은 확인되지 않습니다. C64 플랫폼에 대한 기술적 지식이 없다면 구현이 불가능합니다.",
+        "name": "VAN HELSING (C64) [$4.99] [Action]",
+        "source": "itch",
+        "detail_url": "https://psytronik.itch.io/vanhelsing",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 227,
+        "reasons": [
+          "indie_discovery"
+        ],
+        "best_rank": 6,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.free.translate.all.language.translator.camera": {
+      "app_key": "google:com.free.translate.all.language.translator.camera",
+      "name": "음성 번역기 - 언어 번역, 사진. 모든 언어 번역기",
+      "developer": "Ying Zhong international Limited",
+      "source": "google",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.free.translate.all.language.translator.camera&hl=ko&gl=KR",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:12:30+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "모든 텍스트, 음성 및 문서를 동시에 여러 언어로 빠르게 번역합니다. 모든 언어 번역 앱을 사용하면 텍스트, 음성, 음성, 이미지 및 단어를 여러 언어로 변환하는 무료 쉬운 번역기를 사용할 수 있습니다. 모든 언어 번역기는 모든 언어로 즉각적인 음성 및 텍스트 번역을 제공합니다. 번역 앱은 비즈니스, 여행자 및 교육 목적을 위해 언어 장벽을 관리했습니다. Traductor: 음성 번역 앱은 모든 언어 변환, 문서 및 텍스트 번역을 번역하는 데 매우 유용합니다. 관용구를 사용하여 유용한 표현을 배울 수 있습니다. 📌음성 번역 앱: 음성을 다국어로 말하고 번역하십시오. 대화를 나누는 두 참가자를 위한 채팅 모드. 텍스트를 원하는 세계 언어로 말하고 변환하기만 하면 됩니다. 📌채팅 번역기: 이 채팅 앱을 사용하면 단일 채팅 옵션을 사용하여 외국 친구나 친척과 대화를 시작할 수 있습니다. 통역사는 2명 이상의 참가자가 대화할 수 있는 멀티 채팅 모드를 제공합니다. 📌카메라 번역: 카메라 번역기는 이미지 텍스트를 인식하고 변환합니다. 카메라 번역 앱은 이미지 및 문서 텍스트를 번역하는 데 도움이 됩니다. OCR 읽기 기능으로 텍스트 변환기가 더 쉬워졌습니다. 카메라 스캐너로 텍스트를 가리키기만 하면 실시간 번역이 가능합니다. 📌구문집: 내장된 구집으로 언어 레퍼토리를 확장하세요. 인사말, 방향, 식사 등과 같은 주제별로 분류된 유용한 문구 및 표현의 포괄적인 컬렉션에 액세스하십시오. 현지인에게 깊은 인상을 남기고 프로처럼 외국 땅을 탐색하세요. 📌특징: ✅간단한 사용자 인터페이스(번역기에 사용하기 쉬움) ✅번역된 텍스트, 일본어 또는 중국어 문장 듣기 ✅사용자 친화적인 소재 디자인으로 모든 사용자가 쉽게 사용할 수 있습니다. ✅학생, 관광객, 여행자라면 언어를 배우는 데 도움이 될 것입니다! ✅버튼 하나로 번역문 복사 가능. ✅번역은 즉시 완료됩니다. ✅ 신청은 무료입니다. ✅ 음성으로 번역할 수 있습니다. ✅번역을 들을 수 있습니다. 📌번역 지원 언어 및 방언: 언어 traductor 앱은 100개 이상의 다국어 번역을 지원합니다. 중국어 번체(體中文), 네덜란드어(Nederlands), 덴마크어(Dansk), 프랑스어(Français), 영어, 필리핀어, 핀란드어(Suomi), 그리스어(Ελληνικά), 독일어(Deutsch), 헝가리어(Magyar), 힌디어(힌디어) , 히브리어(עברית), 이탈리아어(Italiano), 인도네시아어(인도네시아) , 포르투갈어(Português), 폴란드어(Polski), 페르시아어(فارسی), 러시아어(Русский), 루마니아어(Română), 스웨덴어(Svenska), 슬로베니아어(Slovenščina), 스페인어(Español), 슬로바키아어(Slovenčina), 터키어(Türkçe) , 텔루구어(తెలుగు), 타밀어(தமிழ்), 태국어(ไทย), 우르두어(مترجم), 우크라이나어(Українська), 요루바어, 줄루어어, 베트남어(Tiếng Việt). -------------------------------------------------- 만족하셨다면 별점 5⭐️ 우리는 응용 프로그램을 더 좋고 유용하게 만들기 위해 최선을 다하고 있습니다. 제안이나 질문이 있는 경우 주저하지 말고 지원 이메일: support@tbrosoft.com로 문의하십시오. 매우 감사합니다! 귀하의 기여는 향후 버전에서 더 나은 앱을 계속 개발하는 데 도움이 될 것입니다.",
+      "analysis": {
+        "app_key": "google:com.free.translate.all.language.translator.camera",
+        "summary_ko": "이 앱은 텍스트, 음성, 이미지 등 다양한 형태의 언어를 다국어로 번역해 주는 도구입니다. 여행, 비즈니스, 학습 등 일상적인 언어 장벽을 해소하기 위해 설계되었습니다. 실시간 카메라 번역과 음성 대화 모드를 통해 사용자가 외국어 환경에서 원활하게 소통할 수 있도록 돕습니다.",
+        "features_ko": [
+          "음성 입력 기능을 통해 실시간으로 다국어 번역을 수행합니다.",
+          "카메라를 텍스트에 비추어 이미지 내 문자를 인식하고 즉시 번역합니다.",
+          "2명 이상의 사용자가 대화할 수 있는 멀티 채팅 모드를 제공합니다.",
+          "주제별로 분류된 구문집을 통해 인사말이나 여행용 표현을 학습할 수 있습니다."
+        ],
+        "noteworthy_ko": "카메라를 통한 OCR(광학 문자 인식) 기술과 음성 인식 기술을 결합하여 실시간 번역 경험을 제공하는 점이 핵심입니다. 사용자 인터페이스가 단순하게 설계되어 있어 다양한 연령층이 접근하기 용이할 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 외부 번역 API 연동과 OCR 라이브러리 활용입니다. UI는 직관적인 레이아웃 구성이 중요하며, 다양한 언어 데이터를 처리하기 위한 안정적인 네트워크 통신 구현이 필요합니다. 테스트 시에는 다양한 언어 환경에서의 번역 정확도와 카메라 인식 속도를 중점적으로 확인해야 합니다.",
+        "idea_ko": "특정 상황(예: 식당 메뉴판, 표지판)에 특화된 오프라인 번역 모드 구현.",
+        "highlights_ko": [
+          "100개 이상의 다양한 언어와 방언을 지원하여 폭넓은 활용성을 제공합니다.",
+          "카메라 스캐너를 활용한 실시간 텍스트 변환 기능을 갖추고 있습니다."
+        ],
+        "systems_ko": [
+          "언어 번역 API 연동 시스템",
+          "카메라 OCR 인식 모듈",
+          "음성 인식 및 합성 엔진",
+          "사용자 설정 및 기록 저장소",
+          "UI/UX 레이아웃 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "단순한 UI 구현보다 고품질의 번역 API 연동과 정확한 OCR 인식 기술을 1인이 안정적으로 구현하고 유지보수하는 데 높은 기술적 난이도가 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "텍스트 입력 번역 기능",
+            "기본 언어 선택 UI"
+          ],
+          "defer": [
+            "실시간 카메라 OCR",
+            "음성 대화 모드",
+            "구문집 데이터베이스"
+          ],
+          "risks": [
+            "외부 번역 API 사용 비용 발생",
+            "OCR 인식률의 한계"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "상황별 번역 카드",
+            "concept": "여행지에서 자주 쓰는 문장을 카드 형태로 저장하고, 필요할 때 화면에 크게 띄워 보여주는 기능입니다.",
+            "first_step": "간단한 텍스트 리스트와 카드 UI를 구현하여 문장을 화면에 표시하는 프로토타입 제작."
+          },
+          {
+            "title": "번역 퀴즈 학습기",
+            "concept": "번역 기록을 바탕으로 사용자가 자주 찾는 단어를 퀴즈 형식으로 복습하게 합니다.",
+            "first_step": "번역 기록 데이터를 저장하고, 이를 퀴즈 문제로 변환하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "API 연동을 통한 서비스 확장성을 배우기에 적합합니다. 다만, 고도화된 OCR 기술은 전문 라이브러리 의존도가 높으므로 개인 개발 시에는 API 비용과 성능을 먼저 고려해야 합니다.",
+        "source_limitations_ko": "소개문에 명시된 번역 API의 종류, 오프라인 지원 여부, 보안 및 데이터 처리 방식에 대한 구체적인 기술 정보는 확인되지 않습니다.",
+        "name": "음성 번역기 - 언어 번역, 사진. 모든 언어 번역기",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.free.translate.all.language.translator.camera&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 171,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 23,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.stepcounter.pedometer.stepapp": {
+      "app_key": "google:com.stepcounter.pedometer.stepapp",
+      "name": "걸음 수 측정기 - 만보계",
+      "developer": "Mobile Solution Tech",
+      "source": "google",
+      "country": "KR",
+      "category": "app_health_fitness",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.stepcounter.pedometer.stepapp&hl=ko&gl=KR",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:15:07+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "걸음 수 및 만보계 - 걷고, 기록하고, 건강을 유지하세요 걸음 수 및 만보계 앱으로 더 건강한 라이프스타일을 향한 첫걸음을 내딛으세요. 걷기, 달리기, 운동 등 어떤 활동을 하든, 이 올인원 건강 추적 앱은 매일의 활동량을 모니터링하고, 운동 목표를 달성하고, 매일 동기 부여를 유지하는 데 도움을 줍니다. 이 앱은 정확한 걸음 수 및 만보계로 매일 걸음 수를 자동으로 계산하여 번거로움 없이 활동량을 추적할 수 있도록 도와줍니다. 활동량 증가, 칼로리 소모, 그리고 활동적인 생활을 위한 상세한 분석 정보를 통해 더 건강한 습관을 만들어 보세요. 정확한 걸음 수 및 만보계: 스마트 걸음 수 및 만보계로 매일의 활동량을 정확하게 기록합니다. 짧은 산책이든 장거리 달리기든, 이 앱은 여러분의 운동량을 모니터링하고 꾸준한 활동을 유지하는 데 도움을 줍니다. 일일 목표 및 성과: 개인 맞춤형 일일 걸음 수 목표를 설정하고 목표 달성 시 성과를 달성하며 동기 부여를 유지하세요. 한 걸음씩 건강한 습관을 만들고 모든 성공을 축하하세요. 칼로리, 거리 및 활동 추적: 매일 소모한 칼로리, 걷는 거리, 운동 시간 및 활동 기록을 모니터링하세요. 유용한 정보를 통해 전반적인 체력을 향상하고 활동적인 라이프스타일을 유지하세요. BMI 계산기: 언제든지 체질량지수(BMI)를 계산하여 건강 상태를 더 잘 이해하고 체중 관리 진행 상황을 모니터링하세요. 운동 기록: 걷기, 달리기, 러닝머신 운동 등 모든 운동을 기록하세요. 운동 기록을 체계적으로 관리하고 언제든지 진행 상황을 확인하세요. 상세 보고서: 읽기 쉬운 보고서를 통해 운동 여정을 분석하세요. • 일일 보고서 • 주간 보고서 • 월간 보고서 • 연간 보고서 활동 추세를 확인하고, 진행 상황을 비교하고, 장기적인 운동 목표 달성에 집중하세요. 왜 우리 만보기 앱을 선택해야 할까요? • 정확한 걸음 수 및 만보계 • 걷기 및 달리기 추적기 • 칼로리 및 거리 추적기 • BMI 계산기 • 운동 기록 • 일별, 월별, 연간 보고서 • 목표 설정 및 달성도 확인 • 간단하고 빠르며 사용하기 쉬운 인터페이스 지금 바로 걸음 수 및 만보계를 다운로드하고 강력한 피트니스 도우미 하나로 일일 걸음 수, 운동량, 칼로리, 수분 섭취량, 수면 시간, 그리고 전반적인 건강 상태를 추적해 보세요.",
+      "analysis": {
+        "app_key": "google:com.stepcounter.pedometer.stepapp",
+        "summary_ko": "사용자의 일일 활동량을 기록하고 건강한 습관을 형성하도록 돕는 만보계 앱입니다. 걸음 수, 소모 칼로리, 이동 거리 등을 자동으로 추적하며 운동 기록을 관리할 수 있습니다. 체질량지수(BMI) 계산기와 상세한 운동 보고서를 통해 체계적인 건강 관리를 지원합니다.",
+        "features_ko": [
+          "스마트 센서를 활용하여 매일의 걸음 수를 자동으로 측정합니다.",
+          "사용자가 설정한 일일 걸음 수 목표 달성 여부를 확인합니다.",
+          "걷기, 달리기 등 활동에 따른 소모 칼로리와 이동 거리를 계산합니다.",
+          "체질량지수(BMI)를 계산하여 건강 상태를 모니터링합니다.",
+          "일간, 주간, 월간, 연간 단위의 운동 상세 보고서를 제공합니다."
+        ],
+        "noteworthy_ko": "사용자의 활동 데이터를 지속적으로 수집하여 시각화하는 데이터 분석 구조가 핵심입니다. 개인 개발 관점에서는 센서 데이터의 정확도 보정과 백그라운드 상태에서의 배터리 효율 최적화가 가장 흥미로운 도전 과제가 될 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 모바일 기기의 가속도 센서 API 활용입니다. 콘텐츠 제작 부담은 낮으나, 다양한 기기 환경에서의 센서 데이터 정확도 테스트와 밸런스 조정이 중요합니다. 데이터 시각화를 위한 차트 라이브러리 연동이 필요합니다.",
+        "idea_ko": "사용자의 걸음 수에 따라 가상의 식물을 키우는 '걷기 정원' 게임화 아이디어가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "자동화된 활동 추적을 통해 사용자의 개입을 최소화한 사용자 경험을 제공합니다.",
+          "다양한 기간별 보고서를 통해 장기적인 운동 동기를 부여합니다."
+        ],
+        "systems_ko": [
+          "센서 데이터 수집 및 필터링 시스템",
+          "로컬 데이터베이스(SQLite 등) 기반의 운동 기록 관리",
+          "데이터 시각화 UI 컴포넌트",
+          "목표 달성 알림 및 푸시 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "센서 데이터의 노이즈를 제거하고 정확한 걸음 수를 판별하는 알고리즘 구현이 필요합니다. 또한, 장기적인 데이터 저장과 이를 보기 좋게 시각화하는 과정에서 적절한 아키텍처 설계가 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "걸음 수 측정 및 실시간 표시",
+            "일일 목표 설정 기능",
+            "로컬 데이터 저장소"
+          ],
+          "defer": [
+            "BMI 계산기",
+            "연간 보고서",
+            "외부 소셜 공유 기능"
+          ],
+          "risks": [
+            "백그라운드 실행 시 OS의 배터리 최적화로 인한 측정 중단",
+            "기기별 센서 감도 차이로 인한 데이터 오차"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "걷기 정원",
+            "concept": "걸음 수를 물과 비료로 환산하여 가상의 식물을 키우는 게임입니다. 목표를 달성하면 식물이 성장하여 사용자에게 성취감을 줍니다.",
+            "first_step": "걸음 수 데이터를 받아 화면의 식물 이미지를 단계별로 교체하는 로직 구현."
+          },
+          {
+            "title": "동네 산책 챌린지",
+            "concept": "사용자의 걸음 수에 따라 지도상의 가상 경로를 이동하는 챌린지입니다. 특정 지점에 도달하면 지역 정보를 제공합니다.",
+            "first_step": "걸음 수에 비례하여 가상의 거리 수치를 증가시키는 카운터 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 수집, 로컬 저장, UI 시각화의 기본기를 익히기에 매우 좋습니다. 단순한 기능 구현을 넘어 센서 데이터의 신뢰성을 확보하는 과정을 경험할 수 있어 추천합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 수분 섭취량, 수면 시간 추적 기능의 구체적인 구현 방식은 확인되지 않았습니다. 외부 웨어러블 기기 연동 여부나 클라우드 동기화 기능은 명시되지 않았으므로 구현 범위에서 제외해야 합니다.",
+        "name": "걸음 수 측정기 - 만보계",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.stepcounter.pedometer.stepapp&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6472232952": {
+      "app_key": "apple:6472232952",
+      "name": "Koupon: Promo Codes & Deals",
+      "developer": "Koupon Inc.",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/koupon-promo-codes-deals/id6472232952",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:16:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Koupon is a free coupon and deals app that finds verified promo codes, discounts, and price drops across Amazon, Walmart, eBay, Best Buy, Macy's and Woot, and tests every code before you see it. If you're seeking daily deals, promo codes, or coupons for the brands and stores you already shop, Koupon brings them into one place and checks them so you don't have to. HOW WE VERIFY EVERY CODE Most coupon apps list codes nobody has tested. Koupon checks each one twice. Our system tests the code automatically, confirming it works, what discount it gives, and which products it applies to. Our editors then review what the system found and catch what automation can't: misleading terms, regional limits, and deals that are technically valid but not worth your time. A code only goes live when both agree. Verification doesn't stop at publishing. Every live deal is monitored, re-checked on a regular schedule, and flagged or removed when it stops working. Our systems process over 10 million verification checks every day. Each deal shows when it was last verified, so you always know how fresh it is. Spot a code that failed? Tap Report on any deal page and it goes straight into our verification queue. DAILY DEALS, DISCOUNTS & PRICE DROPS New deals land every day. Seek deals by discount percentage, price drop, or category, and check the discount history and deal quality before you buy. Set alerts for all-time lows, flash sales, and trending products so the best prices reach you first. COUPONS FOR YOUR FAVORITE BRANDS Browse verified coupons and deals for over 3000 brands, including Apple, Samsung, Nike, Dyson, LEGO, Sony, KitchenAid, and Stanley. Follow the brands you love and never miss a markdown. SHOP BY CATEGORY Find savings across every category you shop: - Electronics: laptops, TVs, headphones, smart home - Fashion: clothing, shoes, bags, jewelry - Home & Kitchen: appliances, furniture, bedding, cookware - Beauty & Health: skincare, makeup, vitamins, personal care - Baby, Pet, Toys, Sports & Outdoors, Grocery, Automotive, and more BLACK FRIDAY, PRIME DAY & SEASONAL SALES When the big sales hit, Koupon tracks them live: Black Friday, Cyber Monday, Amazon Prime Day, Back to School, and the holiday season. Get the verified codes and lowest prices as they drop, not the day after. AMAZON, WALMART, EBAY & MORE One search covers Amazon, Walmart, eBay, Best Buy, and Woot. Compare deals across stores without opening five apps. YOUR CHECKOUT STAYS WITH THE RETAILER Apply codes directly at the retailer's checkout. Your purchase and payment happen on the retailer's site, and Koupon never processes your payment. Koupon earns a commission on some purchases, which never changes the price you pay or the deals we show you. Join 20M+ shoppers worldwide who save with Koupon. Rated 4.9 with over 5 Million Downloads. Download Koupon and start saving today!",
+      "analysis": {
+        "app_key": "apple:6472232952",
+        "summary_ko": "Koupon은 Amazon, Walmart 등 주요 쇼핑몰의 할인 코드와 딜 정보를 검증하여 제공하는 쇼핑 보조 앱입니다. 시스템이 자동으로 코드를 테스트하고 편집자가 검토하여 신뢰할 수 있는 정보만을 선별합니다. 사용자는 다양한 카테고리의 할인 정보를 한곳에서 확인하고 최저가 알림을 설정할 수 있습니다.",
+        "features_ko": [
+          "주요 쇼핑몰의 할인 코드와 딜 정보를 자동으로 테스트하고 검증합니다.",
+          "편집자가 수동으로 검토하여 오해의 소지가 있는 정보를 제거합니다.",
+          "할인율, 가격 하락, 카테고리별로 딜 정보를 검색할 수 있습니다.",
+          "특정 브랜드나 상품의 최저가 알림을 설정할 수 있습니다.",
+          "할인 이력과 딜 품질을 확인하여 구매 결정을 돕습니다."
+        ],
+        "noteworthy_ko": "자동화된 테스트 시스템과 인간 편집자의 검토를 결합한 하이브리드 검증 모델이 매우 흥미롭습니다. 1인 개발 시에는 이러한 대규모 데이터 크롤링과 자동화된 검증 로직을 어떻게 효율적으로 구축할지가 핵심입니다.",
+        "development_ko": "웹 크롤링 기술과 데이터 파싱, 자동화된 테스트 스크립트 작성이 핵심입니다. 수많은 쇼핑몰의 데이터를 실시간으로 처리하기 위한 서버 성능 최적화가 필요하며, 데이터의 신뢰성을 유지하기 위한 모니터링 시스템 구축이 중요합니다.",
+        "idea_ko": "사용자가 구매하려는 상품의 URL을 입력하면, 여러 쇼핑몰의 가격을 비교하고 최적의 할인 코드를 자동으로 찾아주는 '스마트 쇼핑 어시스턴트' 기능을 제안합니다.",
+        "highlights_ko": [
+          "자동 테스트와 수동 검토를 결합하여 할인 정보의 신뢰도를 극대화했습니다.",
+          "다양한 쇼핑몰의 정보를 통합하여 사용자의 검색 시간을 절약해 줍니다."
+        ],
+        "systems_ko": [
+          "웹 크롤링 및 데이터 파싱 시스템",
+          "할인 코드 자동 테스트 엔진",
+          "데이터 검증 및 모니터링 시스템",
+          "알림 설정 및 스케줄링 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "수많은 쇼핑몰의 데이터를 실시간으로 크롤링하고 테스트하는 것은 서버 비용과 기술적 난이도가 매우 높습니다. 또한, 쇼핑몰의 정책 변경에 따라 크롤러를 지속적으로 유지보수해야 하는 운영 부담이 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "특정 쇼핑몰 1~2곳의 딜 정보 크롤링",
+            "할인 정보 게시판",
+            "사용자 알림 설정"
+          ],
+          "defer": [
+            "자동 코드 테스트 엔진",
+            "수천 개 브랜드 관리",
+            "실시간 가격 비교 대시보드"
+          ],
+          "risks": [
+            "쇼핑몰의 크롤링 차단 및 법적 이슈",
+            "데이터 업데이트 지연으로 인한 신뢰도 하락"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지역 기반 할인 정보 공유",
+            "concept": "동네 마트나 식당의 할인 정보를 사용자들이 직접 올리고 검증하는 지역 커뮤니티 앱입니다.",
+            "first_step": "사용자가 위치 기반으로 할인 정보를 등록하고 조회하는 기능을 구현합니다."
+          },
+          {
+            "title": "중고 거래 가격 알리미",
+            "concept": "중고 거래 플랫폼의 특정 상품 가격을 모니터링하여 최저가 알림을 주는 앱입니다.",
+            "first_step": "중고 거래 사이트의 특정 키워드 검색 결과를 주기적으로 크롤링하는 기능을 개발합니다."
+          }
+        ],
+        "recommendation_ko": "데이터 크롤링과 자동화 시스템을 배우기에 매우 좋은 사례입니다. 다만, 대규모 상업용 서비스보다는 특정 분야에 집중한 소규모 데이터 수집 앱으로 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 자동 테스트 엔진의 구체적인 구현 방식, 쇼핑몰과의 제휴 관계, 수익 모델의 상세 구조는 확인되지 않습니다.",
+        "name": "Koupon: Promo Codes & Deals",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/koupon-promo-codes-deals/id6472232952",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 42,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6446265751": {
+      "app_key": "apple:6446265751",
+      "name": "다크슬레이어X건버드2",
+      "developer": "studiobreeze",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_action",
+      "detail_url": "https://apps.apple.com/kr/app/%EB%8B%A4%ED%81%AC%EC%8A%AC%EB%A0%88%EC%9D%B4%EC%96%B4x%EA%B1%B4%EB%B2%84%EB%93%9C2/id6446265751?uo=2",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:18:01+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "좀비로 뒤덮인 세상! 세상을 구할 영웅이 필요합니다! 강력한 힘을 가진 당신! 세상을 구할 영웅이 되어보세요! 게임 특징 - 3가지 무기로 즐기는 스타일리쉬한 액션 : 검술, 사격, 마법을 자유자재로 사용하며 몬스터를 사냥하는 시원한 액션 - 누구나 쉽게 즐기는 무한 방치 액션 : 복잡한 조작이 없어 쉽고 재미있게 자신만의 캐릭터 육성 - 눈이 즐거운 다양한 코스튬과 장비 세트 : 코스튬과 세트 장비로 더욱 강력하고 화려한 플레이 - 오프라인 성장 : 게임을 꺼둔 상태에서도 자원을 획득하고 아이템을 파밍하는 방치 시스템 [공식 커뮤니티] 게임라운지: https://m.site.naver.com/1cJxf ※ 최소 사양 : RAM 4GB 고객센터 메일주소 : cs_help@onbuff.com",
+      "analysis": {
+        "app_key": "apple:6446265751",
+        "summary_ko": "다크슬레이어X건버드2는 좀비로 뒤덮인 세상에서 영웅이 되어 몬스터를 사냥하는 방치형 액션 게임입니다. 검술, 사격, 마법 등 3가지 무기를 자유롭게 사용하여 스타일리쉬한 액션을 즐길 수 있습니다. 게임을 꺼두어도 자원을 획득하는 방치 시스템을 통해 캐릭터를 쉽게 육성할 수 있습니다.",
+        "features_ko": [
+          "검술, 사격, 마법 등 3가지 무기를 활용한 스타일리쉬한 전투 액션을 제공합니다.",
+          "복잡한 조작 없이 누구나 쉽게 캐릭터를 육성할 수 있는 방치형 시스템을 갖추고 있습니다.",
+          "다양한 코스튬과 세트 장비를 통해 캐릭터를 화려하게 꾸미고 성능을 강화할 수 있습니다.",
+          "오프라인 상태에서도 자원 획득 및 아이템 파밍이 가능한 방치형 성장 시스템을 지원합니다."
+        ],
+        "noteworthy_ko": "방치형 게임의 핵심인 '성장 체감'과 '수집 요소'를 잘 결합한 사례입니다. 3가지 무기 체계를 통해 액션의 다양성을 확보한 점이 개발 관점에서 흥미로운 구성입니다.",
+        "development_ko": "핵심 구현 기술은 캐릭터 상태 관리, 아이템 파밍 로직, 그리고 오프라인 보상 계산 알고리즘입니다. 콘텐츠 제작 측면에서는 다양한 장비와 코스튬 에셋 제작이 큰 비중을 차지합니다. 밸런스 측면에서는 성장의 속도와 보상의 적절한 배분이 게임의 재미를 결정짓는 핵심 요소입니다.",
+        "idea_ko": "무기 조합에 따라 스킬이 변하는 전략적 방치형 액션 게임.",
+        "highlights_ko": [
+          "3가지 무기 체계를 통해 액션의 다양성을 확보했습니다.",
+          "방치형 시스템을 통해 바쁜 현대인들도 쉽게 성장의 재미를 느낄 수 있습니다."
+        ],
+        "systems_ko": [
+          "캐릭터 상태 및 능력치 관리 시스템",
+          "전투 및 스킬 로직",
+          "아이템 파밍 및 인벤토리 시스템",
+          "오프라인 보상 계산 시스템",
+          "장비 강화 및 코스튬 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "방치형 게임은 핵심 메커니즘이 명확하여 1인 개발자가 구현하기에 적합합니다. 다만, 게임의 재미를 유지하기 위한 밸런스 조정과 지속적인 콘텐츠 업데이트가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "자동 전투 로직",
+            "캐릭터 능력치 및 레벨업 시스템",
+            "기본 아이템 획득 시스템"
+          ],
+          "defer": [
+            "다양한 코스튬 시스템",
+            "복잡한 세트 장비 효과",
+            "커뮤니티 기능"
+          ],
+          "risks": [
+            "콘텐츠 부족으로 인한 빠른 지루함",
+            "밸런스 붕괴로 인한 성장 재미 감소"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "무기 합성 방치형 게임",
+            "concept": "획득한 무기를 합성하여 더 강력한 무기를 만드는 방치형 게임입니다.",
+            "first_step": "무기 아이템 데이터 구조 설계 및 합성 로직 구현."
+          },
+          {
+            "title": "몬스터 웨이브 방어 게임",
+            "concept": "몰려오는 몬스터를 방치형으로 막아내며 기지를 강화하는 게임입니다.",
+            "first_step": "몬스터 생성 및 캐릭터 공격 로직 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 구조를 이해하고 데이터 기반의 밸런스 설계를 연습하기에 좋습니다. 1인 개발자가 가장 효율적으로 성과를 낼 수 있는 장르 중 하나로 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 밸런스 수치, 오프라인 보상 계산 공식, 서버 연동 여부 등은 공개되지 않았습니다.",
+        "name": "다크슬레이어X건버드2",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EB%8B%A4%ED%81%AC%EC%8A%AC%EB%A0%88%EC%9D%B4%EC%96%B4x%EA%B1%B4%EB%B2%84%EB%93%9C2/id6446265751?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 90,
+        "reasons": [],
+        "best_rank": 5,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.funcraft.profootballmanager": {
+      "app_key": "google:com.funcraft.profootballmanager",
+      "name": "17-0 Football Manager",
+      "developer": "FunCraft Games",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.funcraft.profootballmanager&hl=en&gl=US",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:20:29+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Can you construct an undefeated roster and go 17-0? Test your gridiron knowledge in the ultimate football draft strategy game! Combine legendary pro football icons from the 1960s with today's elite superstars, out-draft real managers online, and lead your franchise to championship glory. BUILD YOUR DREAM SQUAD Draft a high-octane offense across eras to fill out your starting lineup: * 1 Quarterback (QB) * 2 Running Backs (RB) * 2 Wide Receivers (WR) * 1 Tight End (TE) * 1 FLEX Position SIX DECADES OF FOOTBALL HISTORY * 1960 to Today: Draft all-time greats and active stars from every single franchise. * Test Your Football IQ: Pair vintage power-backs with modern gunslingers to create unstoppable synergies. * Infinite Replay Value: Experiment with endless draft combinations, rediscover forgotten legends, and sharpen your roster strategy. TAKE THE FIELD & WIN IT ALL * Flexible Gameplay: Watch every drive play out step-by-step or use fast-simulation to get instant results. * The Road to the Title: Fight through the regular season, claim your Division, dominate the Conference Championship, and hoist the trophy! ONLINE LEAGUES & CHALLENGES * Compete Worldwide: Join Leagues to test your drafting skills against real human managers. * In-Game Achievements: Complete tough draft constraints and unique scenarios designed to test even the most dedicated fans. 100% FREE TO PLAY No pay-to-win mechanics standing between you and a ring. Whether you are a die-hard film-room junkie or a casual fantasy football fan, 17-0 Football Manager delivers pure, challenging strategy. Are you ready to make draft history? Download now and start your perfect season!",
+      "analysis": {
+        "app_key": "google:com.funcraft.profootballmanager",
+        "summary_ko": "17-0 Football Manager는 1960년대부터 현재까지의 미식축구 선수들을 드래프트하여 자신만의 팀을 구성하는 전략 게임입니다. 사용자는 드래프트 전략을 통해 최강의 라인업을 만들고, 시즌을 진행하며 챔피언십 우승에 도전합니다. 온라인 리그를 통해 다른 매니저들과 실력을 겨룰 수 있습니다.",
+        "features_ko": [
+          "쿼터백, 러닝백 등 포지션별로 선수를 드래프트하여 팀을 구성합니다.",
+          "1960년대부터 현재까지의 전설적인 선수와 현역 스타를 조합할 수 있습니다.",
+          "경기 진행 상황을 단계별로 확인하거나 빠른 시뮬레이션 결과를 선택할 수 있습니다.",
+          "온라인 리그에 참여하여 전 세계 사용자들과 드래프트 실력을 경쟁합니다.",
+          "특정 드래프트 제약 조건이 포함된 도전 과제를 수행할 수 있습니다."
+        ],
+        "noteworthy_ko": "시대별 선수 데이터를 조합하여 시너지를 찾는 전략적 재미가 핵심입니다. 개발 관점에서는 방대한 선수 데이터베이스를 효율적으로 관리하고, 시뮬레이션 엔진의 밸런스를 맞추는 것이 흥미로운 지점입니다.",
+        "development_ko": "핵심 기술은 선수 능력치 데이터 관리와 경기 결과 시뮬레이션 로직입니다. 콘텐츠 제작은 선수 데이터 입력이 주를 이루며, 밸런스 테스트는 다양한 조합의 승률을 검증하는 데 많은 시간이 소요됩니다.",
+        "idea_ko": "특정 시대의 선수들만으로 팀을 구성해야 하는 '시대별 챌린지 모드'를 구현하는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "시대와 상관없이 선수들을 조합하는 자유로운 드래프트 시스템.",
+          "온라인 리그를 통한 경쟁 요소와 도전 과제 구성."
+        ],
+        "systems_ko": [
+          "선수 데이터베이스 관리 시스템",
+          "드래프트 로직 및 알고리즘",
+          "경기 시뮬레이션 엔진",
+          "온라인 매칭 및 리그 시스템",
+          "사용자 통계 및 기록 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "데이터 기반의 시뮬레이션 게임은 그래픽 리소스 부담이 적고 로직 중심이라 1인 개발이 가능합니다. 다만, 방대한 선수 데이터의 밸런스 조정이 관건입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "선수 리스트 및 능력치 데이터",
+            "드래프트 인터페이스",
+            "간단한 경기 시뮬레이션 로직"
+          ],
+          "defer": [
+            "실시간 경기 중계 애니메이션",
+            "복잡한 온라인 리그 시스템"
+          ],
+          "risks": [
+            "선수 데이터의 밸런스 붕괴",
+            "시뮬레이션 결과의 예측 가능성으로 인한 재미 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "드래프트 퀴즈 게임",
+            "concept": "특정 상황에서 가장 높은 점수를 낼 수 있는 선수를 선택하는 퀴즈 게임입니다. 미식축구 지식을 테스트하고 보상을 얻습니다.",
+            "first_step": "선수 능력치 데이터를 기반으로 한 퀴즈 문제 생성 로직 구현."
+          },
+          {
+            "title": "나만의 드래프트 시뮬레이터",
+            "concept": "사용자가 드래프트 순서를 정하고 AI와 함께 팀을 구성하는 시뮬레이션입니다. 구성된 팀의 예상 승률을 계산해 줍니다.",
+            "first_step": "AI 드래프트 로직과 승률 계산 알고리즘의 프로토타입 제작."
+          }
+        ],
+        "recommendation_ko": "데이터 기반 게임의 로직 설계와 밸런스 조정을 배우기에 매우 좋은 장르입니다. 미식축구에 대한 이해도가 높다면 재미있게 개발할 수 있습니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 구체적인 시뮬레이션 계산 공식, 온라인 서버 아키텍처, 선수 라이선스 관련 정보는 확인할 수 없습니다.",
+        "name": "17-0 Football Manager",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.funcraft.profootballmanager&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 80,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:1623326415": {
+      "app_key": "apple:1623326415",
+      "name": "MASH STORE",
+      "developer": "MASH STYLE LAB CO., LTD.",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/jp/app/mash-store/id1623326415",
+      "data_date": "2026-11-03",
+      "analysed_at": "2026-11-07T06:24:10+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "MASH STORE 公式アプリ MASH GROUPの人気ブランドの最新情報やアプリ限定のお得な情報をチェックしながら、 いつでもどこでもお買い物を楽しめる公式アプリです。 見やすく、より使いやすくなったデザインに加え、AIがお客様一人ひとりに合わせたおすすめアイテムをご提案。 欲しい商品と、もっとスムーズに出会えるショッピング体験をお届けします。 店舗で使えるメンバーズカードや店舗検索など、毎日のお買い物をもっと便利にする機能もご利用いただけます。 ▼MASH STORE 公式アプリの特徴 ●トップ MASH GROUPのブランド特集や新着情報、MASH STORE限定企画など、 おすすめのコンテンツをまとめてご覧いただけます。 ●サーチ（アイテム検索） ファッションからビューティまで、幅広いアイテムを手軽に検索・お買い物いただけます。 AIによるレコメンド機能で、お客様一人ひとりに合わせたアイテムをご提案。欲しい商品が、より見つけやすくなりました。 ●ブランド MASH GROUPの各ブランドページを一覧でご覧いただけます。 お気に入りブランドの最新情報や、それぞれの世界観をお楽しみください。 ●フェイバリット お気に入り登録したアイテムやスタッフ、店舗をまとめてご確認いただけます。 各種お気に入りをひとつの画面で、いつでも手軽にチェックできます。 ●メンバーズ 店舗でのお買い物の際に、カードレスでMA CARD FOR GO GREEN会員証をご利用いただけます。 ガチャやスタンプカードなど、お買い物がもっと楽しく・お得になる機能に加え、 その日の気温に合わせたコーディネートをご提案する「お天気ページ」もご確認いただけます。 ●プッシュ通知 MASH GROUPが展開するブランドの最新情報に加え、 アプリ限定クーポンやセール、おすすめ企画などお得な情報をいち早くお届けいたします。 ▼MASH STOREブランド一覧 SNIDEL ／ スナイデル gelato pique／ ジェラート ピケ FRAY I.D ／ フレイ アイディー LILY BROWN ／ リリー ブラウン Mila Owen ／ ミラ オーウェン FURFUR ／ ファーファー emmi ／ エミ CELFORD ／ セルフォード SNIDEL HOME ／ スナイデル ホーム MIESROHE ／ ミースロエ SORIN ／ ソリン UNDERSON UNDERSON ／ アンダーソン アンダーソン GELATO PIQUE HOMME ／ ジェラート ピケ オム WAVE ／ ウェイヴ AOURE ／ アウール MUCHA ／ ミュシャ SESAME STREET MARKET ／ セサミストリートマーケット JAMIE KAY ／ ジェイミーケイ Sanrio house／ サンリオハウス Ballelite ／ バレリット Cosme Kitchen ／ コスメキッチン Biople ／ ビープル Celvoke ／ セルヴォーク to/one ／ トーン SNIDEL BEAUTY ／ スナイデル ビューティ Mitea ORGANIC ／ ミティア オーガニック F ORGANICS ／ エッフェオーガニック O by F ／ オーバイエッフェ FEMMUE／ ファミュ Naturaglace／ ナチュラグラッセ trilogy／ トリロジー ecostore ／ エコストア nahrin／ ナリン giovanni／ ジョバンニ soel／ ソエル",
+      "analysis": {
+        "app_key": "apple:1623326415",
+        "summary_ko": "MASH GROUP의 다양한 패션 및 뷰티 브랜드 정보를 확인하고 쇼핑할 수 있는 공식 앱입니다. AI 기반의 개인 맞춤형 아이템 추천 기능을 제공하여 쇼핑 경험을 개선합니다. 멤버십 카드, 매장 검색, 날씨 기반 코디 제안 등 쇼핑 편의 기능을 포함합니다.",
+        "features_ko": [
+          "다양한 패션 및 뷰티 브랜드의 신상품과 정보를 확인합니다.",
+          "AI 추천 기능을 통해 사용자 취향에 맞는 아이템을 제안합니다.",
+          "매장에서 사용할 수 있는 멤버십 회원증 기능을 제공합니다.",
+          "날씨 정보에 맞춘 코디 제안과 푸시 알림을 제공합니다."
+        ],
+        "noteworthy_ko": "브랜드 통합 플랫폼으로서 사용자 경험(UX)의 일관성과 개인화된 추천 엔진이 핵심입니다. 다양한 브랜드 데이터를 효율적으로 관리하고 노출하는 구조가 중요합니다.",
+        "development_ko": "핵심 기술은 추천 알고리즘과 대규모 상품 데이터 관리입니다. 콘텐츠 제작 부담은 브랜드별 상품 업데이트에 따라 지속적으로 발생합니다. 밸런스 측면에서는 사용자에게 너무 많은 정보를 주지 않으면서도 구매를 유도하는 UI 배치가 중요합니다.",
+        "idea_ko": "개인 취향 기반의 패션 큐레이션 앱",
+        "highlights_ko": [
+          "AI 추천을 통해 방대한 상품 중 사용자에게 적합한 아이템을 선별합니다.",
+          "멤버십과 쇼핑 기능을 통합하여 온·오프라인 경험을 연결합니다."
+        ],
+        "systems_ko": [
+          "상품 데이터 관리 시스템",
+          "AI 기반 추천 엔진",
+          "멤버십 및 포인트 관리",
+          "푸시 알림 및 마케팅 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 브랜드 데이터 연동과 AI 추천 엔진 구축은 전문적인 백엔드 및 데이터 엔지니어링 역량이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 목록 및 상세 페이지",
+            "즐겨찾기(위시리스트)",
+            "기본 사용자 프로필"
+          ],
+          "defer": [
+            "AI 추천 엔진",
+            "실시간 재고 연동",
+            "복잡한 멤버십 포인트 시스템"
+          ],
+          "risks": [
+            "데이터 업데이트 지연",
+            "추천 알고리즘의 낮은 정확도"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "나만의 옷장 큐레이터",
+            "concept": "사용자가 가진 옷을 등록하면 날씨와 상황에 맞춰 코디를 추천해 주는 개인용 패션 관리 앱입니다.",
+            "first_step": "옷 사진을 등록하고 태그를 달아 분류하는 기능을 구현합니다."
+          },
+          {
+            "title": "브랜드 소식 알리미",
+            "concept": "사용자가 팔로우한 브랜드의 신상품이나 세일 소식만 모아서 보여주는 심플한 구독형 앱입니다.",
+            "first_step": "브랜드별 RSS 피드나 API를 연동하여 소식을 리스트로 보여주는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "커머스 앱의 기본 구조와 데이터 기반의 개인화 서비스가 어떻게 동작하는지 배우기에 좋습니다. 소규모 큐레이션 앱부터 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "AI 추천 알고리즘의 구체적인 로직, 결제 시스템 연동 방식, 멤버십 데이터베이스 구조는 확인되지 않습니다.",
+        "name": "MASH STORE",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/mash-store/id1623326415",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 73,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
     }
   }
 }

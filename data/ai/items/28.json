@@ -9577,6 +9577,725 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-02"
+    },
+    "itch:37c32deac190c1367f91": {
+      "app_key": "itch:37c32deac190c1367f91",
+      "name": "Sword in Arena [Free] [Fighting] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://beffroi-studio.itch.io/swordinarena",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:03:04+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Fight through endless hordes of gladiators in a brutal third-person roguelite inspired by souls-like.",
+      "analysis": {
+        "app_key": "itch:37c32deac190c1367f91",
+        "summary_ko": "이 게임은 소울라이크 장르에서 영감을 받은 3인칭 검투사 액션 게임입니다. 플레이어는 끝없이 몰려오는 검투사 무리를 상대로 전투를 펼치며 생존해야 합니다. 로그라이트 요소를 결합하여 반복적인 전투 경험을 제공합니다.",
+        "features_ko": [
+          "3인칭 시점에서 진행되는 근접 전투 시스템을 제공합니다.",
+          "로그라이트 규칙에 따라 끝없이 등장하는 적들과 전투합니다.",
+          "소울라이크 스타일의 긴장감 있는 전투 메커니즘을 지향합니다."
+        ],
+        "noteworthy_ko": "소울라이크의 핵심인 '전투의 무게감'과 로그라이트의 '반복성'을 어떻게 조화시켰는지가 개발 관점에서 흥미롭습니다. 1인 개발 시 적의 AI 패턴을 단순화하면서도 난이도를 유지하는 설계가 중요할 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 3인칭 캐릭터 컨트롤러와 근접 타격 판정 시스템입니다. 콘텐츠 제작 부담은 적의 종류와 패턴을 다양화하는 데 집중되며, 밸런스 조정은 플레이어의 성장 곡선과 적의 강함 사이의 균형을 맞추는 데 많은 시간이 소요됩니다.",
+        "idea_ko": "전투 중 획득한 무기를 즉석에서 조합하여 새로운 공격 스킬을 만드는 '무기 연금술' 시스템이 적합합니다.",
+        "highlights_ko": [
+          "소울라이크 스타일의 도전적인 전투.",
+          "로그라이트 방식의 무한 전투 루프."
+        ],
+        "systems_ko": [
+          "캐릭터 이동 및 공격 애니메이션 시스템",
+          "적 AI 상태 머신(FSM)",
+          "타격 판정 및 피격 시스템",
+          "로그라이트 난이도 조절 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "3인칭 액션 게임은 애니메이션과 타격감의 정교한 구현이 필수적이며, 소울라이크 특유의 정밀한 판정 시스템을 1인이 완성도 있게 구현하기 어렵기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 공격 및 회피 시스템",
+            "적 생성 및 기본 AI",
+            "전투 루프 시스템"
+          ],
+          "defer": [
+            "복잡한 캐릭터 성장 트리",
+            "다양한 환경(맵) 구성",
+            "멀티플레이어 기능"
+          ],
+          "risks": [
+            "타격감 부족으로 인한 지루함",
+            "애니메이션 구현의 기술적 한계"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "무기 연금술 시스템",
+            "concept": "전투 중 얻은 파편으로 무기를 즉석에서 강화하거나 속성을 부여합니다. 매 판마다 다른 무기 조합으로 전략을 바꿀 수 있습니다.",
+            "first_step": "무기 객체에 속성 데이터를 추가하고 공격력 수치를 변경하는 로직을 구현합니다."
+          },
+          {
+            "title": "환경 상호작용 함정",
+            "concept": "아레나 내의 지형지물을 활용해 적을 처치합니다. 단순히 칼을 휘두르는 것 외에 환경을 이용한 전략적 플레이를 유도합니다.",
+            "first_step": "특정 위치에 적이 닿으면 데미지를 입는 트리거 박스를 배치합니다."
+          }
+        ],
+        "recommendation_ko": "액션 게임의 기본기인 캐릭터 컨트롤과 애니메이션 연동을 배우기에 좋습니다. 다만, 소울라이크라는 장르적 특성상 높은 수준의 폴리싱이 필요하므로 작은 규모의 프로토타입부터 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 전투 메커니즘(패링, 스태미나 등)이나 로그라이트 요소의 세부 사항이 명시되어 있지 않습니다. 실제 게임의 깊이는 확인이 필요합니다.",
+        "name": "Sword in Arena [Free] [Fighting] [Windows]",
+        "source": "itch",
+        "detail_url": "https://beffroi-studio.itch.io/swordinarena",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 375,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.pdfreader.zone": {
+      "app_key": "google:com.pdfreader.zone",
+      "name": "PDF Reader Zone",
+      "developer": "P & L Studio",
+      "source": "google",
+      "country": "JP",
+      "category": "app_productivity",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.pdfreader.zone&hl=ja&gl=JP",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:07:32+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ドキュメント処理の分野では、「PDF Reader Zone」でエクスペリエンスを向上させましょう。ドキュメントの読み取り、編集、スキャンのニーズを満たすことができます。 主な機能: 🧰多彩なドキュメント サポート: PDF、Word、PPT、Excel などの複数の形式をシームレスに読み取り、いつでも簡単にドキュメントにアクセスできます。 📑PDF にスキャン: 携帯電話のカメラを使用して、物理的なドキュメントをデジタル PDF ファイルに簡単に変換し、アーカイブと共有に便利です。 🔧PDF の結合と分割: 複数の PDF ファイルを 1 つに簡単に結合したり、大きな PDF ファイルを複数の部分に分割したりできます。 🔏ドキュメントのセキュリティ: PDF ファイルを暗号化して機密情報を保護し、ドキュメントの機密性を確保します。 今すぐ PDF Reader Zone をダウンロードして、シンプルさ、効率性、セキュリティを備えたドキュメント処理エクスペリエンスを変革しましょう。",
+      "analysis": {
+        "app_key": "google:com.pdfreader.zone",
+        "summary_ko": "PDF, Word, PPT, Excel 등 다양한 문서 형식을 읽고 관리할 수 있는 생산성 앱입니다. 카메라를 이용한 문서 스캔, PDF 파일의 결합 및 분할, 암호화 기능을 제공합니다. 문서 처리의 효율성과 보안을 중시하는 사용자에게 적합합니다.",
+        "features_ko": [
+          "PDF, Word, PPT, Excel 등 다중 문서 형식을 지원합니다.",
+          "카메라를 사용하여 물리 문서를 디지털 PDF로 변환하는 스캔 기능을 제공합니다.",
+          "여러 PDF 파일을 하나로 합치거나 큰 파일을 나누는 편집 기능을 지원합니다.",
+          "PDF 파일에 암호를 설정하여 기밀 정보를 보호하는 보안 기능을 포함합니다."
+        ],
+        "noteworthy_ko": "문서 처리의 핵심 기능을 모아놓은 유틸리티 앱입니다. 보안과 파일 관리라는 실용적인 요구사항을 충족하는 데 집중하고 있습니다.",
+        "development_ko": "핵심 기술은 문서 렌더링 엔진과 이미지 처리(OCR/스캔) 라이브러리 활용입니다. 보안 기능은 암호화 표준을 준수해야 하며, 다양한 파일 형식 호환성 테스트가 가장 큰 부담입니다.",
+        "idea_ko": "스캔한 문서 내의 텍스트를 자동으로 요약해주는 AI 기능 연동.",
+        "highlights_ko": [
+          "다양한 문서 형식 지원 및 통합 관리.",
+          "문서 스캔부터 보안까지 아우르는 올인원 기능."
+        ],
+        "systems_ko": [
+          "파일 시스템 및 문서 관리 시스템",
+          "PDF 렌더링 및 편집 엔진",
+          "이미지 스캔 및 처리 시스템",
+          "파일 암호화 및 보안 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "문서 렌더링과 편집은 매우 정교한 기술이 필요합니다. 특히 보안과 관련된 암호화 기능은 오류 발생 시 데이터 손실 위험이 있어 높은 수준의 구현 능력이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "PDF 뷰어 기능",
+            "파일 병합/분할 기능"
+          ],
+          "defer": [
+            "OCR(문자 인식) 기능",
+            "클라우드 연동",
+            "고급 보안 설정"
+          ],
+          "risks": [
+            "파일 형식 호환성 문제",
+            "보안 취약점 발생 가능성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "문서 자동 분류기",
+            "concept": "스캔한 문서의 내용을 분석하여 자동으로 폴더를 분류해주는 기능입니다.",
+            "first_step": "문서 내 키워드 추출 및 파일명 자동 생성 로직 구현."
+          },
+          {
+            "title": "PDF 주석 공유",
+            "concept": "PDF에 남긴 주석을 다른 사용자와 실시간으로 공유하는 기능입니다.",
+            "first_step": "주석 데이터를 JSON 형태로 저장하고 불러오는 시스템 구축."
+          }
+        ],
+        "recommendation_ko": "유틸리티 앱의 기본 구조와 파일 처리 로직을 배우기에 좋습니다. 보안과 관련된 기능을 다룰 때의 주의점을 학습할 수 있습니다.",
+        "source_limitations_ko": "소개문에는 어떤 렌더링 엔진을 사용하는지, 보안 암호화 표준이 무엇인지 명시되어 있지 않습니다. 외부 클라우드 서비스 연동 여부는 확인되지 않습니다.",
+        "name": "PDF Reader Zone",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.pdfreader.zone&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 207,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 11,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.oishikenko.android.kenko": {
+      "app_key": "google:com.oishikenko.android.kenko",
+      "name": "おいしい健康 献立と栄養管理 糖尿病・腎臓病・減塩・予防など",
+      "developer": "おいしい健康",
+      "source": "google",
+      "country": "JP",
+      "category": "app_health_fitness",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.oishikenko.android.kenko&hl=ja&gl=JP",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:14:40+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "■30日間お試し無料 新規登録された方は30日間の無料お試し期間がございます。 30日間の無料お試し期間で「おいしい健康」を体験してみましょう！（※1） おいしい健康は、約1万品の管理栄養士監修レシピを通じ、糖尿病やダイエット、高血圧、脂質異常症、がん、妊娠中など、健康状態やお悩みに沿った食事管理をお手伝いするアプリです。 ＜おいしい健康アプリの特徴＞ ■疾患やお悩みに合わせたレシピで食事管理が簡単に！ 最初に食事管理をしたい方のプロフィール、疾患や気になる症状、お悩み（例；糖尿病、ダイエット、高血圧など）を登録していただくと、食事管理をしたい人の食事基準に合ったレシピが表示されるようになります。 パーソナライズされたレシピの中から好きなもの、食べたいものを選べばOK。手軽においしく、楽しみながら食事管理ができるアプリです。 ■対応している疾患や症状、お悩みは約80種類（※2） ◎健康的な食生活・病気予防 ◎ダイエット・メタボ対策 ◎健康診断で気になる数値がある（血糖値・HbA1cが高い、コレステロールが高い、肝機能の値が高い、腎機能の値が高いなど） ◎生活習慣病（糖尿病（2型）、高血圧、脂質異常症、高尿酸血症） ◎心臓病（狭心症、心筋梗塞、心臓弁膜症、心不全） ◎消化器（胃炎、胃ポリープ、消化性潰瘍（胃・十二指腸潰瘍）、逆流性食道炎、胆石症、慢性膵炎（移行期・寛解期）、非アルコール性脂肪肝、痔、慢性便秘症、潰瘍性大腸炎（寛解期）、クローン病（寛解期）、過敏性腸症候群（IBS）） ◎呼吸器（睡眠時無呼吸症候群） ◎糖尿病性腎症（第1期、第2期、第3期） ◎慢性腎臓病（CKD）（ステージ1、ステージ2、ステージ3a、ステージ3b、透析） ◎乳がん（抗がん剤治療中、ホルモン療法中、放射線治療中、治療を終えた方・経過観察中の方など） ◎胃がん（抗がん剤治療中、治療を終えた方・経過観察中の方など） ◎大腸がん治療中（抗がん剤治療中、放射線治療中、治療を終えた方・経過観察中の方など） ◎上記のがんに当てはまらない方（飲み込みにくい、味の感じ方が変わった、食欲がない、消化不良） ◎妊娠（妊娠中、体重増加が気になる、血圧が気になる、血糖値が気になる、妊娠高血圧、妊娠糖尿病） ◎産後（母乳、混合栄養、ミルク） ◎骨・関節（骨折・骨粗しょう症、リウマチ） ◎皮膚（乾癬） ◎フレイル ◎その他のお悩み（低栄養予防、貧血対策、ニキビ・肌荒れ、妊活中、更年期） ■30の栄養価がわかる管理栄養士監修の健康レシピ 管理栄養士監修による約1万品のレシピは、エネルギーや食塩相当量、たんぱく質、脂質、炭水化物、食物繊維、糖質、ビタミン、ミネラルなど30の栄養価が表示されています。そのため、自分で難しい栄養計算をしなくても、摂取できる栄養の把握が可能です。 また、作りたいレシピがあったら「献立に追加」すると、そのレシピに合った献立を作ることができます。 レシピは食材・料理名から検索できるのはもちろん、「食欲がない」「風邪」「さっぱりした食事」など、体調やニーズにあわせた絞り込み機能も。健康を気遣いながら、今食べたい、作りたいレシピがきっと見つかります。 ■栄養計算不要！栄養バランスの良い献立作成がパパッと完了 おいしい健康は、栄養バランスの良い献立作りもさまざまな機能でサポートしています。自分で自由に組めるものから、自動生成されるものまで、お好みの機能を使い分けられます。 バリエーションが豊富なうえ、どれも設定した食事基準に合った献立なので安心して食べられます。選ぶのが楽しく、献立のレパートリーが広がります。 ◎「献立をつくる」ボタンから作成 主菜、主食、副菜、スープなどから好きなレシピを選ぶだけで、献立としての栄養価を自動計算。あなたの食事基準に合っているかを判断してくれます。食べたいものが思いつかない時には、おすすめのレシピを提案してくれる機能もあり、献立を考える時間も短縮できます。 ◎「ぴったん献立」タブを活用 何も思いつかない時や考えたくない時には、今日のおすすめ献立をリクエストして、AIが全品自動提案してくれる機能が便利です。食材・料理名での献立検索もでき、100万件以上の献立の中からピックアップされるので、毎日の献立のマンネリ解消にも繋がります。 ◎レシピページから献立に追加 食べたいレシピのページから「献立に追加」ボタンをタップすると、献立帳に追加され、自分で献立を作ることができます。 できあがった献立を「お気に入りに保存」しておけば、くり返し作りたい時にも便利です。 おかずの組み合わせを変更することもできるので、家にある食材やお買い得食材を活用したい時、好きな料理を食べたい時など、お好みの献立作りが叶います。 ■便利なレシピの機能で調理や買い物をスムーズに レシピの分量は、単位表示とg表示で切り替えられるほか、1人分から最大12人分まで人数の選択が可能です。 設定人数に合わせて食材量の調整をすることもできます。 作りたいレシピや献立を「買い物リスト」に追加しておけば、買い物時に人数分の材料を揃えやすく、自分でリストアップする手間が省けます。 ■毎日の健康管理に役立つ「たべリング」機能 栄養管理や健康管理に必要な情報を記録できる「たべリング」機能が、「きろく」タブから利用できます。 食事の時間や内容、体重、家庭血圧、睡眠時間、歩数の記録を残せ、生活習慣の見直しなどにも便利です。 食事の内容から、栄養バランスやPFCバランスなども自動計算。おいしい健康のレシピ・献立の活用、写真で記録、食品から選ぶ、メモで記録する方法で、食事記録が続けやすくなります。 ＜おいしい健康は、こんな方におすすめです＞ ■80種類以上の疾患やお悩みに関する食事をサポート（※2） ◎生活習慣病（2型糖尿病、高血圧、脂質異常症、高尿酸血症）の食事にお悩みの方 ◎糖尿病の食事にお悩みの方（2型糖尿病、妊娠糖尿病） ◎糖尿病、高血圧、脂質異常症、心疾患で塩分を控えた食事をとりたい方 ◎コレステロールや中性脂肪が高く、改善したい方 ◎健康診断で、血糖値・HbA1cが高い、コレステロールが高い、肝機能の値が高い、腎機能の値が高いなど、気になる数値があるが、食生活で何を改善したらいいかわからない方 ◎心臓病（狭心症、心筋梗塞、心臓弁膜症、心不全） の食事にお悩みの方 ◎胃炎、胃ポリープ、胃・十二指腸潰瘍、逆流性食道炎、胆石症、慢性膵炎（移行期・寛解期）、非アルコール性脂肪肝、痔、慢性便秘症、潰瘍性大腸炎（寛解期）、クローン病（寛解期）、過敏性腸症候群（IBS）の食事にお悩みの方 ◎睡眠時無呼吸症候群の食事にお悩みの方 ◎糖尿病性腎症（第1期、第2期、第3期）の食事にお悩みの方 ◎慢性腎臓病（CKD）の食事にお悩みの方 ◎透析の食事にお悩みの方 ◎がん（乳がん、胃がん、大腸がん）の食事にお悩みの方 ◎妊娠中の食事（体重増加が気になる、血圧が気になる、血糖値が気になる、妊娠高血圧、妊娠糖尿病） のお悩みがある方 ◎妊活・妊娠初期の葉酸対策をしたい方 ◎産後の食事で何を食べたらいいかわからない方 ◎骨折、骨粗しょう症、リウマチの食事を知りたい方 ◎乾癬の食事にお悩みの方 ◎ニキビ・肌荒れの食事にお悩みの方 ◎フレイル（年齢に合わせた体作り）の食事を知りたい方 ◎低栄養予防の食事を知りたい方 ◎貧血の食事にお悩みの方 ◎更年期の食事を知りたい方 ◎病状に配慮した献立を考えることに負担を感じている方 ■ダイエットや病気の予防など、毎日の食事で健康管理をしたい方 ◎健康維持のための食事が知りたい方 ◎体重や体脂肪が気になってきた方 ◎血圧や血糖値が高くなってきたと感じる方 ◎ダイエットのために栄養バランスの良い食事管理をしたい方 ◎生活習慣病やメタボを予防したい方 ◎シニア世代や高齢者向けの食事を知りたい方 ◎体調に合わせたレシピを知りたい方 ◎普段の食事の栄養が足りているか、低栄養になっていないか心配な方 ◎栄養の知識がなくても、簡単に食事管理や食生活の改善をしたい方 ◎家族のために栄養バランスを考えてレシピや献立を毎日考えるのが大変な方 ◎食事で健康になりたいが、忙しくて献立を考える時間、手の込んだ料理を作る時間がない方 ◎食事制限をしなくても、好きなものを食べて健康的にやせるダイエットレシピを知りたい方 ◎減塩、脂質控えめ、糖質控えめなど、減らしたい栄養素からレシピを選びたい方 ◎たんぱく質をとりたい、カルシウムをとりたい、鉄分をとりたい、葉酸をとりたいなど、とりたい栄養素からレシピを選びたい方 ◎栄養計算してくれるアプリを利用して、自分や家族の健康をラクに管理したい方 ◎食べられない食材があるが、レシピをそのつど探すのが面倒な方 ◎簡単に毎日の食事を記録しながら食事管理をしたい方 ■お問い合わせ おいしい健康アプリにお気づきの点やご要望がございましたら、アプリの「お問い合わせ」よりご連絡ください。 ※1 無料お試し期間中にキャンセルすれば料金はかかりません。はじめて登録される方は、30日間無料でご利用いただけます。 無料お試し期間終了後は、選択したプランが自動で購入されます。 過去にお試し経験のある方は無料お試し期間が適用されず、購入後すぐに料金が発生します。 ※2 おいしい健康は、医師の指示に基づく食事療法を家庭で実践するための支援サービスであり、診断や治療などの医療行為を行うものではありません。",
+      "analysis": {
+        "app_key": "google:com.oishikenko.android.kenko",
+        "summary_ko": "관리 영양사가 감수한 약 1만 개의 레시피를 통해 질환이나 건강 고민에 맞춘 식단 관리를 돕는 앱입니다. 사용자의 건강 상태를 등록하면 개인화된 식단을 추천하며, 영양소 자동 계산 및 식단 기록 기능을 제공합니다. 건강한 식생활을 유지하고 싶은 사람들을 위한 종합적인 건강 관리 도구입니다.",
+        "features_ko": [
+          "약 80종의 질환 및 건강 고민에 맞춘 개인화된 레시피를 제공합니다.",
+          "에너지, 단백질, 염분 등 30가지 영양가를 자동으로 계산합니다.",
+          "AI가 사용자의 기준에 맞는 식단을 자동으로 생성하는 기능을 지원합니다.",
+          "식사 시간, 체중, 혈압, 수면 시간 등을 기록하는 건강 관리 기능을 포함합니다.",
+          "식재료와 요리명으로 레시피를 검색하고 쇼핑 리스트를 생성할 수 있습니다."
+        ],
+        "noteworthy_ko": "의료적 지식과 영양학적 데이터를 결합한 전문적인 건강 관리 앱입니다. 관리 영양사의 감수라는 신뢰성 확보와 개인화된 데이터 추천 시스템이 개발의 핵심입니다.",
+        "development_ko": "방대한 영양 데이터베이스 구축과 개인화 추천 알고리즘 구현이 핵심입니다. 식단 기록 및 건강 데이터 관리 시스템이 필요하며, 의료 정보와 관련된 만큼 데이터의 정확성과 보안이 매우 중요합니다.",
+        "idea_ko": "냉장고에 있는 재료를 입력하면 만들 수 있는 건강 레시피를 추천해 주는 기능을 추가하면 사용자 편의성이 크게 향상될 것입니다.",
+        "highlights_ko": [
+          "관리 영양사가 감수한 전문적인 레시피와 영양 데이터베이스를 제공합니다.",
+          "개인별 건강 상태에 맞춘 식단 자동 생성 및 기록 기능을 지원합니다."
+        ],
+        "systems_ko": [
+          "영양 데이터베이스 및 레시피 관리",
+          "개인화 추천 알고리즘",
+          "건강 데이터 기록 및 분석 시스템",
+          "식단 자동 생성 로직",
+          "쇼핑 리스트 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "전문적인 영양 데이터와 질환별 가이드라인을 구축하는 것은 1인 개발 시 매우 어렵습니다. 또한 의료 정보와 관련된 앱은 높은 수준의 보안과 정확성이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 레시피 검색",
+            "영양 성분 표시",
+            "식단 기록 기능"
+          ],
+          "defer": [
+            "AI 식단 자동 생성",
+            "질환별 맞춤 가이드",
+            "건강 데이터 분석"
+          ],
+          "risks": [
+            "영양 데이터의 정확성 확보",
+            "의료 정보 관련 법적 책임"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "냉장고 재료 기반 추천",
+            "concept": "현재 냉장고에 있는 재료를 입력하면 만들 수 있는 건강 레시피를 우선적으로 추천합니다. 식재료 낭비를 줄이고 건강한 식단을 유지하게 합니다.",
+            "first_step": "재료 데이터베이스와 레시피 재료 속성을 매칭하는 로직을 구현합니다."
+          },
+          {
+            "title": "가족 식단 공유",
+            "concept": "가족 구성원의 건강 상태를 공유하고 함께 먹을 수 있는 식단을 추천합니다. 가족 단위의 건강 관리를 돕습니다.",
+            "first_step": "사용자 간 프로필 공유 및 식단 추천 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "데이터 기반의 개인화 추천 시스템과 건강 관리 앱 개발을 배우기에 좋습니다. 다만, 전문적인 데이터 확보와 의료 정보 관련 책임에 대해 충분히 고려해야 합니다.",
+        "source_limitations_ko": "소개문에는 'AI 식단 자동 생성'의 구체적인 알고리즘이나 '관리 영양사 감수'의 프로세스가 명시되어 있지 않습니다. 의료 행위가 아님을 명시하고 있으나, 실제 서비스 시 법적 검토가 필요합니다.",
+        "name": "おいしい健康 献立と栄養管理 糖尿病・腎臓病・減塩・予防など",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.oishikenko.android.kenko&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:441179131": {
+      "app_key": "apple:441179131",
+      "name": "アイビスペイント",
+      "developer": "ibis inc.",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%82%A4%E3%83%93%E3%82%B9%E3%83%9A%E3%82%A4%E3%83%B3%E3%83%88/id441179131",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:16:32+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "描くことも、動かすことも、気軽に楽しみたい世界中のあなたへ。 ibisPaintは、シリーズ累計5億ダウンロードを突破した、スマートフォン・タブレットで使える本格イラスト・アニメーション制作アプリです。 「絵を描くのは難しそう」——そう思っている方にこそ使ってほしいアプリです。妥協のない創作体験、迷わず使えるわかりやすい操作性、そして使うほど手に馴染む安心感。ibisPaintは、誰もが気軽に「描く」を始められる入口であり続けながら、その一枚をコマ送りのアニメーションへ、BGMや音声のついた動画へと、創作の可能性をどんどん広げていくアプリです。 このアプリはibisPaint Xの広告除去版です。全機能のアンロックには追加でプレミアム会員の購入（アプリ内課金）が必要ですが、その場合はibisPaint Xをダウンロードしてプレミアム会員を購入する方がお安くなります。 13万種以上のブラシ、30,000点以上の素材、3,000種類以上のフォント、86種の画像加工フィルター、46種のスクリーントーン、27種のレイヤーブレンドモード、ベクターツール、参照ウィンドウ、集中線定規・対称定規、動くフィルター、AI学習妨害機能など、PCのイラストソフトに劣らない本格機能を搭載。イラストを描くだけで終わらせず、その先のアニメーション制作、そして制作工程をタイムラプス動画として残す・共有するところまで、ワンストップで楽しめます。年齢や国、経験を問わず、世界中の方に選ばれています。 ＜お絵かき講座YouTubeチャンネル＞ アイビスペイントの便利な使い方を多数配信中です。ぜひご登録ください。 https://youtube.com/ibisPaint ＜対応デジタルスタイラス＞ https://ibispaint.com/stylus/supported_digital_stylus.jsp?platformType=1 ＜ご購入プランについて＞ https://ibispaint.com/lecture/index.jsp?no=26 ※ 無料お試し終了日の24時間以上前に自動更新を解除しない場合、自動更新により課金されます。 【アプリのアクセス権限について】 当アプリでは、当サービスの提供および利便性の向上を目的として、端末の各種機能へのアクセスを行う場合があります。 当アプリの利用に必須のアクセス権限はなく、以下はすべて任意のアクセス権限です。 ユーザは、これらの任意のアクセス権限について同意しないことができます。拒否された場合でも、当アプリの基本的な機能は引き続きご利用いただけますが、当該権限を必要とする一部の機能については制限される場合があります。 ・写真ライブラリ内の画像・動画 作品ファイルや画像の取り込み、制作した作品ファイルや画像・動画の保存のため ・マイクからの音声入力 デジタルスタイラスなどの対応周辺機器との接続・通信を行うため ・Bluetooth通信 デジタルスタイラスなどの対応周辺機器との接続・通信を行うため ・プッシュ通知の送信 作品に関する通知やアプリの更新情報、重要なお知らせを配信するため ＜ご質問・不具合について＞ レビューでのご質問・不具合報告にはお答えできません。お手数ですが下記サポート窓口までご連絡ください。 https://ssl.ibis.ne.jp/support/Entry?svid=25 ＜ibisPaintサービス利用規約＞ https://ibispaint.com/agreement.jsp",
+      "analysis": {
+        "app_key": "apple:441179131",
+        "summary_ko": "ibisPaint는 스마트폰과 태블릿에서 사용할 수 있는 본격적인 일러스트 및 애니메이션 제작 앱입니다. 초보자부터 전문가까지 누구나 쉽게 그림을 시작할 수 있도록 설계되었습니다. 일러스트 제작뿐만 아니라 애니메이션 생성, 제작 과정의 타임랩스 공유 기능을 제공합니다.",
+        "features_ko": [
+          "13만 종 이상의 브러시와 3,000종 이상의 폰트를 제공하여 다양한 화풍을 구현합니다.",
+          "86종의 이미지 필터와 27종의 레이어 블렌드 모드를 통해 전문적인 보정 작업을 지원합니다.",
+          "집중선 및 대칭 정규와 같은 드로잉 보조 도구를 제공하여 정밀한 작화를 돕습니다.",
+          "제작 과정을 타임랩스 영상으로 기록하고 공유할 수 있는 기능을 포함합니다.",
+          "애니메이션 제작 기능을 통해 정지된 그림에 움직임을 부여할 수 있습니다."
+        ],
+        "noteworthy_ko": "방대한 에셋 라이브러리와 드로잉 보조 도구의 결합이 인상적입니다. 특히 모바일 환경에서 PC급 소프트웨어의 기능을 구현하기 위해 레이어와 필터 엔진을 최적화한 점이 개발 관점에서 매우 흥미롭습니다.",
+        "development_ko": "핵심 구현 기술로는 고성능 캔버스 렌더링 엔진과 레이어 합성 알고리즘이 필수적입니다. 방대한 에셋 관리 시스템 구축이 콘텐츠 제작의 큰 비중을 차지하며, 다양한 기기에서의 필압 및 터치 반응성 최적화가 테스트의 핵심입니다.",
+        "idea_ko": "사용자의 드로잉 습관을 분석하여 자주 사용하는 브러시와 설정을 자동으로 추천하는 '개인화된 드로잉 어시스턴트' 기능이 적합합니다.",
+        "highlights_ko": [
+          "5억 다운로드 이상의 검증된 사용자 경험과 방대한 창작 도구 세트를 제공합니다.",
+          "일러스트에서 애니메이션, 공유까지 이어지는 원스톱 창작 워크플로우를 지원합니다."
+        ],
+        "systems_ko": [
+          "레이어 기반 캔버스 렌더링 시스템",
+          "브러시 엔진 및 스트로크 보정 시스템",
+          "파일 저장 및 타임랩스 인코딩 시스템",
+          "에셋 관리 및 다운로드 시스템",
+          "UI/UX 반응형 레이아웃 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "고성능 그래픽 렌더링과 복잡한 레이어 연산은 1인 개발자가 구현하기에 기술적 난도가 매우 높습니다. 또한 방대한 에셋 라이브러리를 관리하고 최적화하는 과정에서 상당한 리소스가 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 캔버스 드로잉 기능",
+            "레이어 추가 및 삭제 기능",
+            "브러시 크기 및 투명도 조절",
+            "이미지 저장 기능"
+          ],
+          "defer": [
+            "애니메이션 제작 기능",
+            "클라우드 에셋 라이브러리",
+            "AI 학습 방해 기능"
+          ],
+          "risks": [
+            "고해상도 캔버스 처리 시 메모리 부족 문제",
+            "다양한 기기별 터치 입력 지연(Latency) 발생"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "드로잉 챌린지 봇",
+            "concept": "매일 새로운 주제를 제시하고 사용자가 그린 그림을 자동으로 갤러리에 분류해주는 기능입니다. 커뮤니티 참여를 유도하여 창작 동기를 부여합니다.",
+            "first_step": "오늘의 주제를 푸시 알림으로 보내는 간단한 스케줄러 구현."
+          },
+          {
+            "title": "브러시 커스텀 마켓",
+            "concept": "사용자가 직접 만든 브러시 설정을 공유하고 다운로드할 수 있는 플랫폼입니다. 창작자 간의 도구 공유를 활성화합니다.",
+            "first_step": "브러시 설정 값을 JSON 형태로 내보내고 불러오는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "복잡한 그래픽 툴의 구조를 이해하고 싶은 개발자에게 추천합니다. 다만, 1인 개발 시에는 전체 기능을 구현하기보다 특정 도구(예: 브러시 엔진)에 집중하는 것이 좋습니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 내부 렌더링 엔진의 구체적인 기술 스택(OpenGL, Metal 등)은 알 수 없으며, 결제 및 서버 연동 로직은 확인되지 않습니다.",
+        "name": "アイビスペイント",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%82%A4%E3%83%93%E3%82%B9%E3%83%9A%E3%82%A4%E3%83%B3%E3%83%88/id441179131",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:1141830073": {
+      "app_key": "apple:1141830073",
+      "name": "코오롱몰",
+      "developer": "Kolon Industries, Inc.",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%BD%94%EC%98%A4%EB%A1%B1%EB%AA%B0/id1141830073",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:17:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "OLO, 취향을 큐레이팅하다 코오롱몰은 패션과 라이프스타일을 감각적으로 큐레이션하는 쇼핑 플랫폼입니다. AI 추천부터 라이브 쇼핑, 멤버십 혜택까지 감각적인 쇼핑을 경험해보세요. 세일 & 타임딜 매일 새로운 타임딜과 아울렛 전용 브랜드 특가 제공! 인기템부터 시즌 오프 상품까지 착한 가격으로 좋은 상품을 경험하세요. OLO 멤버십 혜택 포인트 적립, 생일 쿠폰, 무료 수선·교환·반품 등 OLO 멤버십 전용의 풍성한 혜택! 쇼핑에 특별함을 더하는 다양한 멤버 전용 혜택을 누려보세요. AI 추천 관심사와 좋아요한 브랜드를 기반으로 상품부터 콘텐츠까지 AI 추천! 나만을 위한 맞춤형 쇼핑, 코오롱몰에서 경험해보세요. 패션 콘텐츠 기획전, 매거진, 디스커버 콘텐츠로 트렌드와 스타일을 깊이 있게 탐색할 수 있어요. 단순한 쇼핑을 넘어, 안목 있는 소비를 시작해보세요. 라이브 쇼핑 실시간으로 소통하며 즐기는 코오롱몰 LIVE! 라이브 전용 할인과 스타일링 꿀팁까지 제공하는 라이브의 재미와 쇼핑하는 즐거움을 동시에 느껴보세요. -------------------------------------------------------------------------------------------- 고객센터 안내 운영시간: 평일 09:30~18:00 (주말·공휴일 휴무) 문의: 1588-7667, 1:1 문의 앱 접근 권한 안내 필수 ) - 기기 및 앱 기록 : 앱 서비스 최적화 및 사용성 개선 선택 ) - 알림 : 신규 서비스 및 쇼핑 혜택 등의 안내 - 카메라 : 바코드/QR 검색, 리뷰 이미지 등록, 1:1문의, 교환/반품 신청 - 저장공간 : 리뷰 이미지 등록, 1:1문의, 교환/반품 신청",
+      "analysis": {
+        "app_key": "apple:1141830073",
+        "summary_ko": "코오롱몰은 패션과 라이프스타일을 큐레이션하는 쇼핑 플랫폼입니다. AI 추천 시스템을 통해 사용자의 관심사에 맞는 상품과 콘텐츠를 제안하며, 라이브 쇼핑과 멤버십 혜택을 제공합니다. 다양한 기획전과 매거진을 통해 트렌드 정보를 확인할 수 있습니다.",
+        "features_ko": [
+          "AI를 활용하여 사용자의 관심사와 브랜드 선호도를 기반으로 상품을 추천합니다.",
+          "라이브 쇼핑을 통해 실시간으로 소통하며 할인 혜택을 제공합니다.",
+          "OLO 멤버십을 통해 포인트 적립, 무료 수선 등 전용 혜택을 제공합니다.",
+          "매거진과 기획전을 통해 패션 트렌드와 스타일링 정보를 제공합니다.",
+          "바코드/QR 검색 및 리뷰 이미지 등록 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "단순 쇼핑몰을 넘어 콘텐츠 큐레이션 플랫폼으로 진화하려는 시도가 돋보입니다. AI 추천 시스템을 통해 사용자 경험을 개인화하고, 멤버십 혜택을 통해 충성 고객을 확보하는 전략이 흥미롭습니다.",
+        "development_ko": "개인화 추천 알고리즘 구현과 대규모 상품 데이터 관리가 핵심입니다. 라이브 커머스 연동과 멤버십 포인트 시스템 구축이 필요하며, 다양한 기획전 콘텐츠를 유연하게 관리할 수 있는 CMS가 중요합니다.",
+        "idea_ko": "사용자의 스타일 취향을 학습하여 매일 새로운 패션 콘텐츠를 큐레이션 해주는 앱이 적합합니다.",
+        "highlights_ko": [
+          "AI 기반의 맞춤형 상품 및 콘텐츠 추천 시스템.",
+          "멤버십 혜택과 라이브 쇼핑을 결합한 쇼핑 경험."
+        ],
+        "systems_ko": [
+          "상품 검색 및 추천 엔진",
+          "라이브 커머스 인터페이스",
+          "멤버십 및 포인트 관리 시스템",
+          "콘텐츠 관리 시스템(CMS)",
+          "결제 및 주문 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "추천 알고리즘, 결제 시스템, 멤버십 관리 등 대규모 커머스 앱은 구현해야 할 시스템의 복잡도가 매우 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 목록 및 상세 페이지",
+            "장바구니 및 주문 기능",
+            "사용자 로그인"
+          ],
+          "defer": [
+            "AI 추천 시스템",
+            "라이브 쇼핑",
+            "멤버십 포인트 시스템"
+          ],
+          "risks": [
+            "추천 알고리즘의 정확도 확보",
+            "결제 시스템의 보안 및 안정성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스타일 큐레이터",
+            "concept": "사용자가 좋아요를 누른 스타일을 기반으로 매일 아침 어울리는 코디를 추천해 줍니다.",
+            "first_step": "스타일 태그를 기반으로 상품을 필터링하여 보여주는 기능 구현."
+          },
+          {
+            "title": "쇼핑 리스트 관리자",
+            "concept": "여러 쇼핑몰의 상품을 한곳에 담아두고 가격 변동을 추적하는 앱입니다.",
+            "first_step": "상품 URL을 입력하면 가격 정보를 크롤링하여 저장하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "커머스 플랫폼의 전체적인 구조와 개인화 추천 시스템의 기초를 학습하기 좋습니다. 다만, 실제 서비스 수준의 추천 엔진을 만드는 것은 매우 어려우므로 간단한 필터링 방식부터 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 AI 추천 알고리즘의 구체적인 작동 방식이나 멤버십 포인트 시스템의 데이터 관리 방식이 명시되어 있지 않습니다. 또한, 라이브 쇼핑의 기술적 구현 방식에 대한 정보도 부족합니다.",
+        "name": "코오롱몰",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%BD%94%EC%98%A4%EB%A1%B1%EB%AA%B0/id1141830073",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 63,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6820612711": {
+      "app_key": "apple:6820612711",
+      "name": "ピコクラフト: 採掘・作業ゲーム",
+      "developer": "Hachiware, LLC.",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%83%94%E3%82%B3%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-%E6%8E%A1%E6%8E%98-%E4%BD%9C%E6%A5%AD%E3%82%B2%E3%83%BC%E3%83%A0/id6820612711?uo=2",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:18:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "掘る。強くなる。もっと掘る。世界を救う。 ツルハシを振って掘り進む、ドット絵の採掘・作業ゲーム。鉱石を集めて拠点を育て、地底に眠る「スターコア」をめざそう。 ■ 掘る ツルハシひとつで、999階の地底へ。土を崩し、石を砕き、鉱石や宝箱を掘り当てる。道具が壊れたら地上の拠点へ戻り、持ち帰った資源で道具や拠点を強くして、また潜る。 ■ 強くなる 火薬・魔法・召喚・機械の4系統、20のアビリティ。スキルツリーで覚えて、ダイナマイトやメテオ、ドラゴン、キャノン砲など好きなアビリティをセットして掘る。深く潜るほど、セットできる枠が増えていく。 ■ 拠点と村を育てる 地上では、道具や装備を作り、村に施設を建てていく。行商人の家では魔石と引き換えに品物を手に入れられ、畑では作物を育て、釣り堀では魚を釣れる。釣った魚や収穫した作物で料理を作ると、次の採掘で効果がある。村人の依頼に応えて、村を発展させよう。 ■ 使い魔と掘る 拠点の使い魔小屋を建てると、使い魔を呼び出して採掘に連れて行ける。モグラの使い魔は、あなたと一緒に地面を掘り進めてくれる。 ■ 集める・極める 鉱物図鑑を埋め、水族館で魚を集め、実績を解除していく。2周目に入ると装備の合成が解禁され、最高ランクのミシックをめざせる。 ■ 世界を救う 地底で目覚めかけている「スターコア」。その影響でモンスターがあふれ出す。各地のコアを集めて封印を解き、最深部でスターコアを破壊しよう。 ■ こんな人におすすめ - 掘って壊す手応えが好き - 爆発や魔法で、地形が一気に変わるのが好き - 強い道具や技を組み合わせて試したい - 集めたり、図鑑や水族館を埋めたりするのが好き - 拠点や村を、自分のペースで育てたい ■ 買い切り 広告は表示されません。アプリ内課金もありません。通信なし（オフライン）で遊べます。",
+      "analysis": {
+        "app_key": "apple:6820612711",
+        "summary_ko": "도트 그래픽으로 구현된 횡스크롤 채굴 및 경영 시뮬레이션 게임입니다. 플레이어는 999층의 지저 세계를 탐험하며 자원을 채집하고, 지상의 거점을 발전시켜 더 깊은 곳으로 나아갑니다. 다양한 어빌리티 조합과 마을 육성 요소를 통해 자신만의 방식으로 세계를 구하는 경험을 제공합니다.",
+        "features_ko": [
+          "999층으로 구성된 지저 세계를 탐험하며 광석과 보물을 채굴합니다.",
+          "화약, 마법, 소환, 기계 등 4개 계통의 20가지 어빌리티를 조합하여 채굴 효율을 높입니다.",
+          "지상 거점에서 도구 제작, 농사, 낚시, 요리 등 마을 발전 콘텐츠를 수행합니다.",
+          "채굴을 돕는 동료인 '사용자(使い魔)'를 소환하여 함께 지면을 파고들 수 있습니다.",
+          "광물 도감, 수족관 등 수집 요소와 장비 합성 시스템을 제공합니다."
+        ],
+        "noteworthy_ko": "채굴이라는 단순한 반복 작업에 스킬 트리와 마을 경영이라는 RPG 요소를 결합한 점이 흥미롭습니다. 특히 지상에서의 활동이 다음 채굴에 직접적인 버프를 주는 순환 구조는 플레이어에게 지속적인 동기를 부여하는 효과적인 설계로 추정됩니다.",
+        "development_ko": "핵심 기술로는 타일 기반의 맵 생성 및 파괴 시스템, 스킬 트리 데이터 구조, 그리고 마을의 상태를 관리하는 세이브 시스템이 필요합니다. 콘텐츠 제작 측면에서는 도트 그래픽 리소스와 다양한 아이템 데이터 구축에 많은 시간이 소요될 것입니다. 밸런스 측면에서는 채굴 깊이에 따른 난이도 곡선과 어빌리티 간의 효율 차이를 조정하는 것이 가장 큰 과제가 될 것입니다.",
+        "idea_ko": "채굴한 자원으로 지형을 재구성하여 자신만의 지하 미로를 만드는 '지형 편집 및 방어' 요소를 추가하는 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "광고나 인앱 결제가 없는 완전한 買い切り(일시불) 방식의 오프라인 게임입니다.",
+          "지상과 지하를 오가는 순환형 게임 플레이 구조를 갖추고 있습니다."
+        ],
+        "systems_ko": [
+          "타일 기반 맵 데이터 관리 시스템",
+          "스킬 트리 및 어빌리티 효과 적용 시스템",
+          "아이템 인벤토리 및 합성 시스템",
+          "NPC 상호작용 및 마을 시설 관리 시스템",
+          "게임 상태 저장 및 불러오기 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "단순한 채굴 메커니즘은 구현이 쉽지만, 마을 경영과 스킬 시스템이 결합된 복합적인 데이터 구조를 설계하고 밸런스를 맞추는 과정에서 적절한 개발 역량이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 채굴 및 타일 파괴 메커니즘",
+            "인벤토리 및 자원 수집 시스템",
+            "간단한 거점 업그레이드 UI"
+          ],
+          "defer": [
+            "복잡한 스킬 트리 및 마법 효과",
+            "수족관 및 도감 시스템",
+            "동료 소환 시스템"
+          ],
+          "risks": [
+            "반복적인 채굴 작업의 지루함",
+            "데이터 저장 구조의 복잡성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지하 미로 설계자",
+            "concept": "채굴한 자원으로 지하에 함정을 설치하고 몬스터를 유인하여 방어하는 타워 디펜스 요소 결합.",
+            "first_step": "특정 타일을 파괴하고 그 자리에 방어 타워를 배치하는 프로토타입 구현."
+          },
+          {
+            "title": "지질학자 탐험기",
+            "concept": "단순 채굴이 아닌, 지층의 성분을 분석하여 희귀 광물을 찾아내는 퍼즐형 채굴 방식.",
+            "first_step": "지층의 색상이나 패턴에 따라 채굴 시 획득 확률이 달라지는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "반복적인 게임 루프를 어떻게 지루하지 않게 확장하는지 배우기에 좋은 사례입니다. 단순한 기능에서 시작해 점진적으로 시스템을 추가하는 개인 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 데이터 저장 방식, 맵 생성 알고리즘, 밸런스 수치 등이 명시되어 있지 않습니다. 또한 외부 서비스 연동이나 멀티플레이어 기능은 언급되지 않았습니다.",
+        "name": "ピコクラフト: 採掘・作業ゲーム",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%83%94%E3%82%B3%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-%E6%8E%A1%E6%8E%98-%E4%BD%9C%E6%A5%AD%E3%82%B2%E3%83%BC%E3%83%A0/id6820612711?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 84,
+        "reasons": [],
+        "best_rank": 7,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.playground.sprunki.sandbox": {
+      "app_key": "google:com.playground.sprunki.sandbox",
+      "name": "Spooky Playground: Sandbox",
+      "developer": "Logic Apz",
+      "source": "google",
+      "country": "US",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.playground.sprunki.sandbox&hl=en&gl=US",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:18:53+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Spooky Playground: Sandbox ★ Welcome to Spooky Playground: Sandbox, a fun and creative world where you can build, experiment, create, and enjoy endless possibilities! Explore an exciting sandbox playground filled with spooky characters, objects, tools, and surprising interactions. Place characters anywhere, create funny scenes, test different combinations, and watch the chaos unfold. Build your own playground, arrange objects, experiment with creative ideas, and make every scene unique. There are no limits to your imagination, so you can play your own way and discover new possibilities every time. 🎵 CREATE YOUR OWN PLAYGROUND Choose your favorite spooky characters and place them into the sandbox. Mix objects, create crazy situations, and enjoy funny moments as you bring your imagination to life. 🧩 EXPERIMENT AND EXPLORE Try different combinations and interactions to see what happens. Discover surprising results, experiment with objects, and create your own unique stories in the spooky playground. 🎮 EASY AND FUN GAMEPLAY Simple controls make it easy to place, move, and experiment with everything in the playground. Jump in and start creating instantly. Enjoy a relaxing sandbox experience where you decide what happens next. ✨ ENDLESS SANDBOX FUN Build, destroy, experiment, and play however you want. Every session can become a new adventure filled with creativity, funny moments, and chaotic interactions. Create your own scenarios and explore endless ways to play. Download Spooky Playground: Sandbox and enter a world where your imagination creates the fun! Build your playground, experiment with spooky characters, discover surprising interactions, and enjoy endless sandbox possibilities!",
+      "analysis": {
+        "app_key": "google:com.playground.sprunki.sandbox",
+        "summary_ko": "다양한 캐릭터와 오브젝트를 배치하여 나만의 장면을 만드는 샌드박스 게임입니다. 정해진 규칙 없이 자유롭게 실험하고 상호작용을 관찰할 수 있습니다. 창의력을 발휘하여 재미있는 상황을 연출하는 것이 핵심 경험입니다.",
+        "features_ko": [
+          "캐릭터와 오브젝트를 자유롭게 배치하여 장면을 구성할 수 있습니다.",
+          "다양한 조합을 통해 캐릭터 간의 상호작용을 실험할 수 있습니다.",
+          "간단한 조작으로 오브젝트를 이동하고 배치할 수 있습니다.",
+          "자신만의 이야기를 만들고 창의적인 상황을 연출할 수 있습니다."
+        ],
+        "noteworthy_ko": "사용자의 자유도를 극대화한 샌드박스 장르입니다. 오브젝트 간의 상호작용 로직이 풍부할수록 게임의 재미가 커지며, 이는 데이터 기반의 이벤트 시스템으로 구현되었을 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 드래그 앤 드롭 UI와 오브젝트 상호작용 엔진입니다. 콘텐츠 제작은 캐릭터와 오브젝트 에셋을 만드는 데 집중되며, 테스트는 다양한 조합에서 발생할 수 있는 버그를 찾는 데 중점을 둡니다.",
+        "idea_ko": "사용자가 만든 장면을 영상으로 저장하고 공유하는 '장면 공유 플랫폼' 기능을 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "제한 없는 자유도를 제공하여 창의적인 플레이가 가능합니다.",
+          "캐릭터와 오브젝트의 조합에 따라 예상치 못한 재미있는 상황이 발생합니다."
+        ],
+        "systems_ko": [
+          "드래그 앤 드롭 배치 시스템",
+          "오브젝트 상호작용 엔진",
+          "장면 저장 및 불러오기 시스템",
+          "UI/UX 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기본적인 배치 시스템은 구현이 가능하나, 다양한 오브젝트 간의 상호작용을 체계적으로 설계하는 것은 많은 시간과 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "오브젝트 배치 및 이동 기능",
+            "기본 캐릭터 에셋",
+            "상호작용 트리거 로직"
+          ],
+          "defer": [
+            "장면 저장/공유 기능",
+            "복잡한 물리 엔진"
+          ],
+          "risks": [
+            "오브젝트 간 상호작용 로직의 복잡도 증가",
+            "에셋 양에 따른 앱 용량 증가"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "상황 챌린지 모드",
+            "concept": "특정 오브젝트를 사용하여 주어진 상황(예: 파티 열기)을 완성하는 미션 모드입니다.",
+            "first_step": "미션 목표를 설정하고 달성 여부를 판정하는 로직을 구현합니다."
+          },
+          {
+            "title": "오브젝트 커스텀 도구",
+            "concept": "사용자가 직접 오브젝트의 색상이나 크기를 변경하여 나만의 에셋을 만들 수 있습니다.",
+            "first_step": "오브젝트 속성 변경 UI를 만들고 실시간으로 반영하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "샌드박스 게임의 기초인 '상호작용 시스템'을 배우기에 좋습니다. 창의적인 아이디어를 게임 내에서 구현하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 물리 엔진의 상세 사양이나 데이터 저장 방식에 대한 정보가 없습니다. 실제 구현 시 성능 최적화와 에셋 관리 전략이 중요합니다.",
+        "name": "Spooky Playground: Sandbox",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.playground.sprunki.sandbox&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.og.app.android": {
+      "app_key": "google:com.og.app.android",
+      "name": "OG.com: Rip Cards,Trade Events",
+      "developer": "OG Markets Limited",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.og.app.android&hl=en&gl=US",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:20:52+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "On OG.com, culture is your signal. Collect real, graded Pokémon, MLB, NBA, and NFL cards you can ship or sell back instantly. Separately, Predict and trade outcomes in sports, politics, economics, and more with CFTC-regulated products. Whatever your edge is, you can experience it here. Available in all 50 U.S. states. WHY OG.COM OG.com RIPS *NEW* Rip real card packs: Interactive reveals, instant buyback, and graded cards you can ship to your door. The first five packs are free for new users. OG.COM MARKETS Social trading: See what traders on the leaderboard are predicting, right from your feed. Have the same take? Make the same trade in a tap. Trade predictions markets with Alpha: Your AI-powered co-pilot New user exclusive: Trade $25 and get up to a $50 bonus WHAT YOU CAN PREDICT AT OG.COM MARKETS Sports: Pro Football game outcomes, player props, division winners, and championship predictions. Plus basketball, baseball, soccer, hockey, golf, MMA, tennis, and more. From pro leagues to college matchups, trade on the games you already follow. Politics: Presidential races, elections, legislation, and global developments. Markets move in real time as events unfold. Economics: Stock market direction, inflation data, interest rate decisions, and broader financial indicators. Culture: Awards shows, entertainment, music, and trending events across the world. Crypto Perps: Trade the price movement of BTC, ETH, SOL, and more without expiry. Access up to 5x leverage and built-in risk controls. WHAT YOU CAN COLLECT WITH OG.COM RIPS Rip card packs with reveals designed to be felt, not just opened. Every pull is backed by a real, graded physical card. Instant buyback: Sell any card back at the price in the app, no questions asked Ship it: Get the physical card mailed to you, or sell it back instantly Guaranteed exit: Don't want the card? We buy it back at the price in the App. HOW IT WORKS ON OG.COM MARKETS Think an outcome will happen? Buy Yes. Think it won’t? Buy No. That’s it. Your potential profit and maximum loss are clearly stated up front. No hidden fees. POWERING AMERICA’S PREDICTION MARKETS OG.com Markets powers some of the biggest trading platforms in the U.S. Robinhood, DraftKings, FanDuel, Underdog, and Fanatics all route their prediction market volume through OG.com Markets. BACKED BY INSTITUTIONAL CAPITAL As of September 2026, OG.com received a standalone $5 billion valuation backed by institutional investors including Citadel Securities, one of the largest market makers in the world, and Robinhood, a dominant global force in retail trading. “In February, [Crypto.com] launched OG, a stand-alone prediction markets platform, which has grown about 20 times this year [...]” — Wall Street Journal SAFE & REGULATED OG.com Markets provides access to CFTC‑regulated markets operated by NADEX, a registered U.S. exchange and clearinghouse. This means trades occur in a transparent, regulated environment. Your funds are protected with enterprise‑grade security. Download OG.com and start trading what you know. ——————— OG.com Markets is built for the modern trader who values transparency and security. OG.com.Markets are offered by the North American Derivatives Inc., a CFTC regulated exchange which does business under the brand OG Markets (OG.com) and uses OG.com technology. Trading on OG.com involves risk and may not be appropriate for all. By trading you risk losing your cost to enter any transaction, including fees. You should carefully consider whether trading is appropriate for you in light of your investment experience and financial resources. Any trading decisions you make are solely your responsibility and at your own risk. OG.com also provides access to other products including OG.com Rips. OG.com Rips are offered outside the scope of OG.com Markets. OG.COM RIPS ARE NOT A CFTC-REGULATED PRODUCT. You must consult the terms and conditions and agree to such terms and conditions, prior to accessing the OG.com Rips product.",
+      "analysis": {
+        "app_key": "google:com.og.app.android",
+        "summary_ko": "OG.com은 스포츠, 정치, 경제 등 다양한 분야의 결과를 예측하는 예측 시장 플랫폼이자 실물 수집 카드를 거래하는 서비스입니다. 사용자는 실시간으로 변화하는 시장에서 예측 거래를 하거나, 등급이 매겨진 실제 카드를 구매 및 판매할 수 있습니다. 미국 내 규제 환경에서 운영되는 금융 및 수집품 거래 앱입니다.",
+        "features_ko": [
+          "스포츠, 정치, 경제 등 다양한 분야의 결과를 예측하고 거래할 수 있습니다.",
+          "실물 등급 카드 팩을 구매하고 즉시 재판매하거나 배송받을 수 있습니다.",
+          "리더보드를 통해 다른 사용자의 예측을 확인하고 따라 할 수 있는 소셜 트레이딩 기능을 제공합니다.",
+          "암호화폐 영구 선물 거래를 통해 레버리지 투자가 가능합니다."
+        ],
+        "noteworthy_ko": "금융 예측 시장과 실물 수집품 거래라는 이질적인 두 영역을 하나의 플랫폼으로 통합한 점이 흥미롭습니다. 특히 예측 시장은 규제 기관의 감독을 받는다는 점을 강조하여 신뢰성을 확보하려는 전략이 돋보입니다.",
+        "development_ko": "예측 시장을 위한 실시간 데이터 연동 및 금융 거래 시스템 구축이 핵심입니다. 실물 카드 거래를 위해 물류 시스템과 연동된 재고 관리 기능이 필요하며, 규제 준수를 위한 보안 및 인증 체계가 매우 중요합니다. 1인 개발 시 금융 거래의 법적 책임과 보안 리스크가 매우 크므로 주의가 필요합니다.",
+        "idea_ko": "특정 분야의 예측 시장과 수집품 거래를 결합한 소규모 커뮤니티 플랫폼.",
+        "highlights_ko": [
+          "규제 기관(CFTC)의 감독을 받는 예측 시장 운영으로 투명성 강조.",
+          "실물 카드와 디지털 거래를 결합하여 수집가와 투자자를 동시에 공략."
+        ],
+        "systems_ko": [
+          "실시간 데이터 피드 연동 시스템",
+          "사용자 지갑 및 잔액 관리 시스템",
+          "거래 매칭 엔진",
+          "물류 및 배송 추적 시스템",
+          "사용자 인증 및 보안 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "금융 거래 및 규제 준수와 관련된 시스템은 개인 개발자가 구현하기에 법적, 기술적 난도가 매우 높습니다. 실물 물류 연동 또한 복잡한 운영 프로세스를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 계정 및 프로필",
+            "예측 투표 기능",
+            "결과 정산 로직"
+          ],
+          "defer": [
+            "실물 카드 배송 시스템",
+            "암호화폐 레버리지 거래",
+            "실시간 외부 금융 데이터 연동"
+          ],
+          "risks": [
+            "금융 관련 법규 위반 가능성",
+            "데이터 보안 및 해킹 위험",
+            "정산 시스템의 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "로컬 이벤트 예측소",
+            "concept": "동네 축제나 소규모 모임의 결과를 예측하는 커뮤니티형 게임입니다. 금전 거래 대신 포인트 기반으로 운영하여 법적 문제를 피합니다.",
+            "first_step": "간단한 투표 기능과 포인트 적립 로직을 포함한 웹 앱 제작."
+          },
+          {
+            "title": "디지털 카드 트레이딩",
+            "concept": "실물 카드 대신 디지털 이미지 카드를 수집하고 교환하는 플랫폼입니다. 희귀도에 따른 등급 시스템을 도입합니다.",
+            "first_step": "이미지 업로드 및 사용자 간 카드 교환(트레이드) 기능 구현."
+          }
+        ],
+        "recommendation_ko": "금융 앱의 구조와 데이터 기반 서비스의 흐름을 배우기에 좋습니다. 다만, 실제 금융 거래 기능은 법적 위험이 크므로 학습용으로만 접근하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 금융 거래 API 연동 방식이나 보안 기술에 대한 정보가 없습니다. 실제 결제 시스템이나 규제 준수 세부 사항은 확인되지 않았습니다.",
+        "name": "OG.com: Rip Cards,Trade Events",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.og.app.android&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 89,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
     }
   }
 }

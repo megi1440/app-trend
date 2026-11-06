@@ -10717,6 +10717,808 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-02"
+    },
+    "google:com.gmodecorp.atamaoshiri": {
+      "app_key": "google:com.gmodecorp.atamaoshiri",
+      "name": "あたまおしりゲーム",
+      "developer": "G-MODE Corporation",
+      "source": "google",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.gmodecorp.atamaoshiri&hl=ja&gl=JP",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:07:13+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "TBS系バラエティ番組『バナナサンド』の人気ゲームコーナー「あたまおしりゲーム」がアプリになりました！！ 出題される「あたまの文字」と「おしりの文字」を聞いて、制限時間内に文字数がより多い単語を答えよう！ ■シングルモード ひとりで楽しむゲームモード。 スマホに解答を入力！たくさんゲームを遊んで『バナナサンド』のホーム背景をGETしよう！ ■パーティーモード 友達や家族と遊べるゲームモード。 1台のスマホを使って、みんなであたまおしりゲーム！いっしょのお題に挑戦したり、順番に別のお題に挑戦したり、楽しみ方は自由！ ■解答例も見られるよ！ 出題された「あたまの文字」と「おしりの文字」に対応する単語をチェックして、解答力をアップしよう！ ■SNSシェア大歓迎！ ハッシュタグをつけて、文字数が多い単語の解答をSNSでシェアしよう！ © Tokyo Broadcasting System Television, Inc.",
+      "analysis": {
+        "app_key": "google:com.gmodecorp.atamaoshiri",
+        "summary_ko": "아타마오시리 게임은 제시된 단어의 첫 글자와 끝 글자를 듣고 제한 시간 내에 더 긴 단어를 찾는 언어 게임입니다. 싱글 모드와 친구들과 함께 즐기는 파티 모드를 지원합니다. 정답 예시를 확인하여 어휘력을 향상시킬 수 있습니다.",
+        "features_ko": [
+          "제시된 첫 글자와 끝 글자를 바탕으로 단어를 입력하는 규칙을 가집니다.",
+          "제한 시간 내에 더 긴 단어를 입력하여 점수를 얻습니다.",
+          "싱글 모드를 통해 혼자서 게임을 즐기고 배경을 수집할 수 있습니다.",
+          "파티 모드를 통해 하나의 기기로 여러 명이 함께 게임을 즐길 수 있습니다.",
+          "SNS 공유 기능을 통해 자신의 기록을 자랑할 수 있습니다."
+        ],
+        "noteworthy_ko": "단순한 규칙을 가진 언어 게임으로, 어휘 데이터베이스의 구축과 검색 속도가 게임의 재미를 결정합니다. 파티 모드와 같은 로컬 멀티플레이 구현이 사용자 경험을 확장하는 핵심 요소입니다.",
+        "development_ko": "방대한 단어 사전 데이터베이스와 빠른 검색 알고리즘이 핵심입니다. 사용자 입력에 대한 실시간 검증과 제한 시간 타이머 로직이 필요합니다. 파티 모드를 위한 상태 관리와 UI 전환이 중요합니다.",
+        "idea_ko": "단어의 길이를 넘어 단어의 카테고리를 맞추는 '카테고리 아타마오시리' 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "첫 글자와 끝 글자라는 단순한 규칙으로 누구나 쉽게 접근할 수 있습니다.",
+          "싱글과 파티 모드를 지원하여 다양한 환경에서 즐길 수 있습니다."
+        ],
+        "systems_ko": [
+          "단어 사전 데이터베이스",
+          "입력 판정 및 타이머 시스템",
+          "게임 상태 관리",
+          "로컬 멀티플레이 UI",
+          "데이터 저장 및 배경 수집 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "게임 규칙 자체는 단순하지만, 정확한 단어 사전 데이터베이스를 구축하고 관리하는 데 시간이 소요됩니다. UI 구현과 로컬 멀티플레이 로직은 개인 개발자가 충분히 도전할 만한 수준입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "단어 입력 및 판정 로직",
+            "제한 시간 타이머",
+            "기본 단어 사전"
+          ],
+          "defer": [
+            "SNS 공유 기능",
+            "배경 수집 시스템"
+          ],
+          "risks": [
+            "단어 사전의 정확도 및 부족 문제",
+            "입력 판정 로직의 예외 처리"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "카테고리 아타마오시리",
+            "concept": "첫 글자와 끝 글자뿐만 아니라 특정 카테고리(예: 음식, 동물) 내에서만 단어를 찾아야 하는 규칙입니다.",
+            "first_step": "카테고리별 단어 리스트를 분류하고 검색하는 기능 구현."
+          },
+          {
+            "title": "릴레이 단어 잇기",
+            "concept": "이전 사람이 말한 단어의 끝 글자로 다음 사람이 단어를 이어가는 협동 게임입니다.",
+            "first_step": "이전 단어의 끝 글자를 추출하여 다음 단어의 시작 글자로 강제하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "간단한 게임 로직과 데이터베이스 활용법을 배우기에 매우 좋습니다. 언어 게임 특성상 사전 데이터의 품질이 중요함을 배울 수 있습니다.",
+        "source_limitations_ko": "사용된 단어 사전의 출처나 데이터 구조는 알 수 없으며, 게임 내 단어의 정확성은 검증이 필요합니다.",
+        "name": "あたまおしりゲーム",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.gmodecorp.atamaoshiri&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 213,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 9,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:zqaa.oot.permitido": {
+      "app_key": "google:zqaa.oot.permitido",
+      "name": "Permitido",
+      "developer": "amine217",
+      "source": "google",
+      "country": "US",
+      "category": "app_lifestyle",
+      "detail_url": "https://play.google.com/store/apps/details?id=zqaa.oot.permitido&hl=en&gl=US",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:07:32+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "With the Permitido app you will have access to information about lifestyle and sports",
+      "analysis": {
+        "app_key": "google:zqaa.oot.permitido",
+        "summary_ko": "라이프스타일과 스포츠 관련 정보를 제공하는 앱입니다. 구체적인 기능이나 서비스의 상세 내용은 소개문에 명시되어 있지 않아 확인이 어렵습니다.",
+        "features_ko": [
+          "라이프스타일 관련 정보를 제공합니다.",
+          "스포츠 관련 정보를 제공합니다."
+        ],
+        "noteworthy_ko": "소개문이 매우 짧아 앱의 핵심 가치나 차별점을 파악하기 어렵습니다. 정보가 부족하여 개발 관점에서의 분석이 제한적입니다.",
+        "development_ko": "정보 부족으로 인해 분석이 불가능합니다. 일반적인 정보 제공 앱이라면 데이터 수집 및 API 연동 기술이 필요할 것으로 추정됩니다.",
+        "idea_ko": "사용자의 관심사에 맞춘 스포츠 경기 일정 알림 서비스.",
+        "highlights_ko": [
+          "라이프스타일 및 스포츠 정보 제공."
+        ],
+        "systems_ko": [
+          "데이터 수집 및 API 연동 시스템",
+          "사용자 관심사 설정 시스템",
+          "알림 서비스 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "판단 어려움",
+          "reason": "소개문에 구체적인 기능 설명이 없어 앱의 복잡도를 판단할 수 없습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 정보 표시 UI",
+            "데이터 불러오기 기능"
+          ],
+          "defer": [
+            "사용자 맞춤형 추천 알고리즘",
+            "커뮤니티 기능"
+          ],
+          "risks": [
+            "콘텐츠의 지속적인 업데이트 필요성",
+            "데이터 소스의 신뢰성 확보"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스포츠 경기 예측 퀴즈",
+            "concept": "스포츠 경기 결과를 예측하고 포인트를 얻는 게임형 기능입니다.",
+            "first_step": "경기 일정 데이터를 가져와 예측을 입력받는 폼 구현."
+          },
+          {
+            "title": "라이프스타일 챌린지",
+            "concept": "건강한 라이프스타일을 위한 일일 미션을 수행하는 기능입니다.",
+            "first_step": "미션 리스트를 보여주고 완료 여부를 체크하는 UI 구현."
+          }
+        ],
+        "recommendation_ko": "정보가 부족하여 추천하기 어렵습니다. 앱의 구체적인 기능을 먼저 정의하는 것이 우선입니다.",
+        "source_limitations_ko": "소개문에 앱의 핵심 기능, 데이터 소스, 사용자 경험에 대한 정보가 전혀 없습니다. 검증이 불가능한 상태입니다.",
+        "name": "Permitido",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=zqaa.oot.permitido&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 207,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 11,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.smarttools.pdfreader.editor.viewer": {
+      "app_key": "google:com.smarttools.pdfreader.editor.viewer",
+      "name": "PDFリーダー ・ PDFビューアー",
+      "developer": "Gift School",
+      "source": "google",
+      "country": "JP",
+      "category": "app_productivity",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.smarttools.pdfreader.editor.viewer&hl=ja&gl=JP",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:09:08+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "📕 pdfビュ-ア- 無料！簡単に PDF を開いて読むことができる PDF リーダー & pdfビューア。 特徴： ✔ すべての PDFファイル、pdf 本、pdf コミック をスムーズに閲覧 ✔ スクロール、ズーム、ページめくりも快適 ✔ pdfファイルの共有 や pdf保存 で簡単管理 ✔ PDF 履歴書 や ppt/Excel もまとめて閲覧 どこでも使えるpdfビュ-ア- 無料で、ドキュメントを迅速に送信・管理し、生産性を向上！ ズームサポートにより、シームレスな読書体験をお楽しみください。 操作はシンプルでも機能はしっかり充実。 日常の小さな管理から大切な履歴書 pdf の送信まで、あなたをしっかりサポートします。",
+      "analysis": {
+        "app_key": "google:com.smarttools.pdfreader.editor.viewer",
+        "summary_ko": "이 앱은 PDF 파일을 열고 읽을 수 있는 무료 PDF 리더 및 뷰어입니다. PDF 문서, 책, 만화 등을 부드럽게 열람할 수 있습니다. 스크롤, 줌, 페이지 넘기기 기능을 지원하며 파일 관리 및 공유 기능을 제공합니다.",
+        "features_ko": [
+          "모든 PDF 파일, 책, 만화 형식을 부드럽게 열람할 수 있습니다.",
+          "문서 읽기를 위한 스크롤, 줌, 페이지 넘기기 기능을 지원합니다.",
+          "PDF 파일을 관리하고 공유할 수 있습니다.",
+          "이력서나 PPT, Excel 문서도 함께 열람할 수 있습니다."
+        ],
+        "noteworthy_ko": "다양한 문서 형식을 하나의 뷰어에서 처리하는 통합 관리 기능이 특징입니다. 모바일 환경에서 문서 가독성을 높이는 줌 기능의 구현이 핵심입니다.",
+        "development_ko": "PDF 렌더링 엔진 라이브러리 활용이 핵심입니다. 파일 시스템 접근 및 관리 기능 구현이 필요합니다. 다양한 문서 형식에 따른 레이아웃 최적화와 줌/스크롤 성능 테스트가 중요합니다.",
+        "idea_ko": "특정 목적(예: 이력서 관리, 영수증 정리)에 특화된 문서 뷰어가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "PDF 외에도 PPT, Excel 등 다양한 문서 형식을 지원합니다.",
+          "사용자 편의를 위한 줌 및 페이지 넘기기 기능을 제공합니다."
+        ],
+        "systems_ko": [
+          "파일 시스템 접근 및 탐색기",
+          "PDF 렌더링 엔진",
+          "문서 뷰어 UI(줌, 스크롤)",
+          "파일 공유 및 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "기존의 오픈소스 PDF 렌더링 라이브러리를 활용하면 핵심 기능 구현은 비교적 쉽습니다. 다만, 다양한 문서 형식의 호환성을 완벽하게 맞추는 것은 추가적인 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "파일 선택기(File Picker)",
+            "PDF 렌더링 뷰어",
+            "기본 줌 기능"
+          ],
+          "defer": [
+            "PPT/Excel 변환 및 뷰어",
+            "클라우드 연동",
+            "문서 편집 기능"
+          ],
+          "risks": [
+            "대용량 PDF 파일 로딩 성능 문제",
+            "특정 문서 형식의 렌더링 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "이력서 전용 뷰어",
+            "concept": "이력서 파일만 모아서 관리하고 빠르게 열람할 수 있는 뷰어입니다. 파일명 자동 분류 기능을 추가합니다.",
+            "first_step": "특정 확장자 파일 필터링 및 리스트 출력 구현."
+          },
+          {
+            "title": "영수증 스캔 뷰어",
+            "concept": "영수증 PDF를 스캔하여 날짜별로 정리해주는 뷰어입니다. 간단한 태그 기능을 포함합니다.",
+            "first_step": "파일 날짜 정보 추출 및 정렬 기능 구현."
+          }
+        ],
+        "recommendation_ko": "파일 시스템 접근과 외부 라이브러리 활용법을 익히기에 좋습니다. 실용적인 유틸리티 앱을 만들고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "사용된 PDF 렌더링 엔진의 종류나 파일 관리의 구체적인 로직은 알 수 없습니다.",
+        "name": "PDFリーダー ・ PDFビューアー",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.smarttools.pdfreader.editor.viewer&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 192,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 16,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.niklas.fpsdefense": {
+      "app_key": "google:com.niklas.fpsdefense",
+      "name": "Infantry Attack: Battle 3D FPS",
+      "developer": "VOODOO",
+      "source": "google",
+      "country": "KR",
+      "category": "game_action",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.niklas.fpsdefense&hl=ko&gl=KR",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:10:55+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "솔저! 배틀로얄 게임이 지겨우신가요? 제3차 세계 대전이 다가오고 있으며 의무가 당신을 부르고 있습니다! 적들이 우리나라를 침공하고 있으며 우리는 당신이 그것을 방어해야 합니다. 그러니 무기를 들고 전투를 준비하세요! 이 1인칭 슈팅 게임의 주요 기능 - 적을 조준하고 쏘는 쉬운 컨트롤 - 전장의 액션을 즐기는 FPS 뷰 - 다양한 적군과 싸우고 다양한 전장을 발견하세요. - 현대 전쟁 무기: 기관총, 로켓 발사기, 저격수 적군으로부터 나라를 지켜라 보병, 헬리콥터, 탱크, 전투기, 드론과 같은 적군이 여러분을 찾아옵니다! 기관총에 올라타 모두 쏴버려! 제1차 세계대전(WW1)이나 제2차 세계대전(WW2) 구식 무기는 여기에 없습니다. 적을 쏘기 위해 최신 현대식 무기를 다루어야 합니다. 군사 승무원과 싸우고 적군을 물리치십시오 당신은 혼자 전쟁을 하는 것이 아닙니다. 분대가 당신을 돕기 위해 여기에 있습니다. Sam은 군용 차량에 큰 피해를 줄 수 있는 RPG 로켓 발사기를 가지고 있으며 치명적인 저격수 Ryan은 열린 전장에서 높은 범위에서 쏠 것입니다. 당신은 중독성 있고 즐거운 전장을 클리어하기 위해 기관총을 담당합니다! 여러 워존으로 솔로 캠페인 진행 임무는 다양한 전쟁 지역에서 이루어지며 도시, 사막, 정글, 숲, 공항 등 전장에 따라 사격 전략을 조정해야 합니다! 전장의 최전선에 서거나 헬리콥터에서 적을 쏘기 위해 공중으로 날아가십시오! 로드아웃을 업그레이드하여 전쟁에서 승리하세요 조심! 전투는 힘들고 적들은 시간이 지남에 따라 더 강해지므로 총(기관총, 로켓 발사기, 저격용 라이플)을 업그레이드하는 것만으로는 충분하지 않습니다. 팀원의 레벨을 높이고 군대 승무원이 군인의 파도를 쏠 수 있도록 준비하십시오. 보스와 싸우고 죽이기 치명적이고 중무장한 보스들이 전쟁을 통해 당신에게 도전할 것이며 예리한 숙련된 플레이어만이 살아남을 것입니다. 전투에서 승리하려면 원하는 대로 조준하고 무기와 킬 스트라이크를 현명하게 사용해야 합니다. 침략자로부터 국가를 구하고 전쟁에서 승리하는 데 필요한 것이 있습니까? 쉬운 조작과 강렬한 액션을 위한 사실적인 그래픽 이 1인칭 슈팅 게임(FPS)에서 액션을 즐길 수 있도록 컨트롤을 단순화했습니다. 엄지손가락으로 총을 쏘고 화면을 스크롤하여 조준하며 전투를 즐기세요!",
+      "analysis": {
+        "app_key": "google:com.niklas.fpsdefense",
+        "summary_ko": "Infantry Attack은 적의 침공으로부터 국가를 방어하는 1인칭 슈팅 게임입니다. 플레이어는 기관총을 조작하며 분대원들과 협력하여 보병, 탱크, 헬기 등 다양한 적을 물리칩니다. 도시, 사막, 정글 등 여러 전장에서 전략적인 사격이 요구됩니다.",
+        "features_ko": [
+          "화면 스크롤을 통한 조준과 탭을 이용한 쉬운 사격 컨트롤을 제공합니다.",
+          "기관총, 로켓 발사기, 저격총 등 현대식 무기를 사용합니다.",
+          "분대원(RPG, 저격수)과 협력하여 적을 방어합니다.",
+          "도시, 사막, 정글 등 다양한 환경의 전장을 지원합니다.",
+          "시간이 지날수록 강해지는 적과 보스 전투가 포함됩니다."
+        ],
+        "noteworthy_ko": "고정된 위치에서 사격하는 '레일 슈터' 방식의 FPS로 추정됩니다. 분대원의 AI와 적의 웨이브 시스템을 어떻게 조화롭게 구현했는지가 개발적으로 흥미로운 지점입니다.",
+        "development_ko": "핵심 기술은 FPS 카메라 제어와 사격 판정 시스템입니다. 콘텐츠 제작은 다양한 적군 모델링과 전장 배경 구성에 많은 리소스가 소요됩니다. 밸런스 측면에서는 무기 업그레이드와 적의 난이도 곡선을 맞추는 것이 핵심입니다.",
+        "idea_ko": "분대원에게 직접 명령을 내려 특정 적을 우선 타격하게 하는 '전술 지휘' 요소를 추가하는 것을 추천합니다.",
+        "highlights_ko": [
+          "다양한 현대식 무기와 분대원 협력 시스템을 갖추고 있습니다.",
+          "전장에 따라 사격 전략을 조정해야 하는 캠페인 모드를 제공합니다."
+        ],
+        "systems_ko": [
+          "FPS 카메라 및 조준 시스템",
+          "적 웨이브 및 스폰 관리 시스템",
+          "무기 및 분대원 업그레이드 데이터 관리",
+          "충돌 판정 및 데미지 계산 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "FPS 장르는 카메라 제어와 사격 판정 등 구현할 요소가 많습니다. 특히 적의 AI와 웨이브 시스템을 1인이 모두 구현하려면 상당한 개발 시간이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 사격 메커니즘",
+            "적 스폰 및 이동 로직",
+            "기본 UI(체력, 탄약)"
+          ],
+          "defer": [
+            "복잡한 분대원 AI 시스템",
+            "다양한 전장 환경"
+          ],
+          "risks": [
+            "사격 판정의 정확도 문제",
+            "모바일 환경에서의 최적화 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "전술 지휘 FPS",
+            "concept": "플레이어가 직접 쏘는 것 외에 분대원에게 위치 이동 명령을 내려 방어선을 구축합니다.",
+            "first_step": "분대원 위치 변경 명령 UI 및 이동 로직 구현."
+          },
+          {
+            "title": "무기 커스텀 모드",
+            "concept": "전투 중 획득한 부품으로 즉석에서 무기를 개조하여 성능을 변화시킵니다.",
+            "first_step": "무기 부품 교체에 따른 수치 변화 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "FPS 게임의 기본 구조와 적 AI의 기초를 배우기에 좋습니다. 다만, 3D 모델링과 애니메이션 작업량이 많으므로 에셋 스토어 활용을 권장합니다.",
+        "source_limitations_ko": "소개문에는 멀티플레이어 지원 여부가 명확하지 않으며, 분대원 AI의 구체적인 동작 방식은 알 수 없습니다. 결제 및 외부 서비스 연동 기능은 명시되지 않았습니다.",
+        "name": "Infantry Attack: Battle 3D FPS",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.niklas.fpsdefense&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 180,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 20,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6741076536": {
+      "app_key": "apple:6741076536",
+      "name": "Modo: Play, Win & Rip",
+      "developer": "ARB Gaming LLC",
+      "source": "apple",
+      "country": "US",
+      "category": "game_card",
+      "detail_url": "https://apps.apple.com/us/app/modo-play-win-rip/id6741076536?uo=2",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:16:00+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Modo, America’s Super Gaming App. Home of Modo Casino, and now so much more: spin up America’s most rewarding social casino-style games, or rip packs with Modo Rips and chase the card of your dreams. Pick your Modo moment. PLAY MODO CASINO & MODO ARCADE The same Modo Casino you love, over 2,500 games strong: Slots: classic favorites and the hottest new releases Live Games: real dealers, real-time action Table Games: blackjack, roulette, and more Play Along Live: jump in with streamers and gameshow hosts Scratch Cards: instant wins, one scratch away Daily Jackpots: spin every day for your shot at something big RIP PACKS ON MODO RIPS Modo Rips is a collectible card opening experience. Rip packs, feel the rush of the reveal, and chase grail, one-of-one, and top-graded cards. WHY MODO SUPER GAMING APP USA Owned & Operated: built, run, and supported in America One Account, One Wallet: your balances, rewards, and rank travel with you across everything Modo makes Daily Bonuses: something to come back to every single day Always Something New: new games and new drops, constantly Play Anytime, Anywhere: made for the moments in between Official Partner of Alpine F1, PBR and Spire Motorsports. Download now and pick your Modo moment. Disclaimer: NO PURCHASE NECESSARY. VOID WHERE PROHIBITED. Modo Casino is a free-to-play platform for entertainment purposes only and does not offer real-money gambling. Open to Eligible Participants 18+ (21+ for sweepstakes play), or the age of majority in your jurisdiction, whichever is greater. Sweepstakes play is not available in all states. For more details see: Terms of Use & Sweepstakes Rules.",
+      "analysis": {
+        "app_key": "apple:6741076536",
+        "summary_ko": "Modo는 소셜 카지노 스타일의 게임과 수집형 카드 팩 개봉 경험을 제공하는 통합 게임 플랫폼입니다. 슬롯, 라이브 테이블 게임, 스크래치 카드 등 다양한 카지노형 콘텐츠를 즐길 수 있습니다. 또한 'Modo Rips'를 통해 수집용 카드를 개봉하는 재미를 추구합니다.",
+        "features_ko": [
+          "2,500개 이상의 슬롯 게임을 제공하여 다양한 테마의 슬롯을 플레이할 수 있습니다.",
+          "실제 딜러와 실시간으로 진행되는 라이브 테이블 게임을 지원합니다.",
+          "스트리머 및 게임쇼 호스트와 함께 참여하는 라이브 플레이 기능을 제공합니다.",
+          "수집용 카드 팩을 개봉하여 희귀 카드를 획득하는 카드 리핑 경험을 제공합니다.",
+          "하나의 계정과 지갑으로 모든 게임 내 자산과 랭크를 통합 관리합니다."
+        ],
+        "noteworthy_ko": "카지노 게임과 수집형 카드 개봉(Rips)이라는 두 가지 상이한 장르를 하나의 플랫폼으로 통합한 점이 흥미롭습니다. 이는 사용자 유지율을 높이기 위한 전략적 결합으로 추정됩니다.",
+        "development_ko": "다양한 카지노 게임 엔진과 실시간 스트리밍 연동 기술이 핵심입니다. 카드 개봉 시의 시각적 연출과 확률 기반의 데이터 처리가 중요하며, 사용자 자산의 동기화를 위한 안정적인 서버 구축이 필수적입니다.",
+        "idea_ko": "특정 테마의 카드 수집과 미니 게임을 결합한 '수집형 카드 배틀' 시스템이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "카지노 게임과 카드 수집이라는 두 가지 엔터테인먼트 요소를 하나의 앱에 통합했습니다.",
+          "실시간 라이브 플레이 기능을 통해 사용자와 호스트 간의 상호작용을 강화했습니다."
+        ],
+        "systems_ko": [
+          "확률 기반 보상 시스템",
+          "사용자 자산 관리 시스템",
+          "실시간 데이터 동기화",
+          "카드 수집 및 도감 시스템",
+          "UI/UX 레이아웃 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 게임 장르를 통합하고 실시간 서버 동기화 및 확률 시스템을 안정적으로 운영하는 것은 1인 개발자에게 매우 높은 기술적 난이도를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카드 팩 개봉 애니메이션",
+            "카드 도감 및 수집 시스템",
+            "기본적인 확률 보상 로직"
+          ],
+          "defer": [
+            "실시간 라이브 스트리밍 연동",
+            "멀티플레이어 카지노 테이블",
+            "복잡한 소셜 기능"
+          ],
+          "risks": [
+            "확률 시스템의 공정성 논란",
+            "서버 비용 및 데이터 보안 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "디지털 식물 카드 수집기",
+            "concept": "식물 카드를 팩으로 뽑아 나만의 정원을 꾸미는 게임입니다. 희귀 식물 카드를 조합해 새로운 종을 발견하는 재미를 제공합니다.",
+            "first_step": "카드 팩 개봉 애니메이션과 간단한 카드 도감 UI 구현."
+          },
+          {
+            "title": "역사 인물 카드 배틀",
+            "concept": "역사적 인물 카드를 수집하여 간단한 수치 대결을 펼칩니다. 카드마다 고유한 시대적 배경과 능력을 부여합니다.",
+            "first_step": "카드 데이터 구조 설계 및 턴제 대결 로직 프로토타입."
+          }
+        ],
+        "recommendation_ko": "다양한 게임 장르를 하나의 앱으로 묶는 아키텍처 설계 방식을 배우기에 좋습니다. 다만, 카지노 장르는 법적 규제가 엄격하므로 개인 개발 시 주의가 필요합니다.",
+        "source_limitations_ko": "소개문에는 결제 시스템의 구체적인 구현 방식이나 법적 준수 사항이 명시되어 있지 않으며, 실제 게임 내 확률 알고리즘은 확인할 수 없습니다.",
+        "name": "Modo: Play, Win & Rip",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/modo-play-win-rip/id6741076536?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:689501356": {
+      "app_key": "apple:689501356",
+      "name": "Mindbody: Fitness & Wellness",
+      "developer": "MINDBODY Inc.",
+      "source": "apple",
+      "country": "US",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/us/app/mindbody-fitness-wellness/id689501356?uo=2",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:16:32+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Mindbody is the world’s #1 booking platform for fitness, beauty, and wellness experiences. We encourage people to try new things and find what makes them feel physically, mentally, and spiritually their best. Whether it’s a class, salon service, or meditation session, we’ve got options. With over 40k+ studios around the world, we offer top fitness classes like yoga, Pilates, barre, dance, HIIT, bootcamp, and more. Looking for something along the lines of a massage, hair treatment, or cryotherapy? We’ve got that too. Plus, you’ll find promoted intro offers and last-minute deals—it’s all on the app. How it works: * Download the free app, then create a Mindbody account (or log in to your existing account) to get started. * Enter your location at the top of the screen to see local intro offers, price drops, and deals near you. * Looking for something in particular? Jump to the “SEARCH” icon at the bottom of the window to find businesses near you. From there, you can type in the desired service or browse popular categories. * Need to refine your results? Filter your search by business, class, date, time, distance, or category. You can also sort based on what’s recommended, top-rated or closest to you. * Once you select a class or appointment, you can read up on reviews, instructor & service provider bios, and how to get there. You can also choose a business first to learn more about their amenities, schedule, services, location, and pricing. * When you’re ready to secure your service, select the “Book” button in the right-hand corner. From there, you will be asked to confirm your payment information. Plug in your info, then hit “BOOK AND BUY” to make it official. Why you’ll love it: * Variety: You’ve got local fitness, beauty, salon, spa, and wellness options in the palm of your hand—you decide what works for you. * Value: You'll get the best deals to try a new studio or drop-in on a fitness class without committing to a membership. * Verified reviews: Know what people are saying about services before you book, with reviews from verified users. *Flexible Pricing available in the US only *Continued use of GPS running in the background can dramatically decrease battery life",
+      "analysis": {
+        "app_key": "apple:689501356",
+        "summary_ko": "Mindbody는 피트니스, 뷰티, 웰니스 서비스를 예약할 수 있는 글로벌 플랫폼입니다. 전 세계 4만 개 이상의 스튜디오와 연결되어 요가, 필라테스, 마사지 등 다양한 서비스를 검색하고 예약할 수 있습니다. 사용자 리뷰와 위치 기반 검색을 통해 최적의 서비스를 찾을 수 있습니다.",
+        "features_ko": [
+          "위치 기반 검색을 통해 주변의 피트니스 및 뷰티 스튜디오를 탐색합니다.",
+          "수업, 마사지, 미용 서비스 등 다양한 카테고리의 예약을 지원합니다.",
+          "검증된 사용자 리뷰와 강사 정보를 제공하여 신뢰할 수 있는 선택을 돕습니다.",
+          "가격, 거리, 시간 등 다양한 필터를 통해 검색 결과를 세분화합니다.",
+          "앱 내에서 직접 결제 및 예약 확정이 가능합니다."
+        ],
+        "noteworthy_ko": "방대한 오프라인 비즈니스 데이터를 실시간으로 연동하는 플랫폼 구조가 핵심입니다. 다양한 서비스 유형을 하나의 예약 시스템으로 통합한 점이 개발 관점에서 매우 복잡하고 흥미로운 도전입니다.",
+        "development_ko": "핵심 구현 기술로는 위치 기반 서비스(LBS)와 실시간 예약 시스템이 필수적입니다. 방대한 비즈니스 데이터베이스 관리와 결제 게이트웨이 연동이 필요하며, 사용자 리뷰 시스템의 무결성 유지가 중요합니다.",
+        "idea_ko": "사용자의 운동 기록과 연동하여 적절한 수업을 자동으로 추천해주는 '개인 맞춤형 웰니스 큐레이션' 기능이 적합합니다.",
+        "highlights_ko": [
+          "전 세계 4만 개 이상의 스튜디오를 연결하는 거대한 예약 네트워크를 보유하고 있습니다.",
+          "검증된 리뷰와 상세한 강사 정보를 통해 사용자 신뢰도를 확보했습니다."
+        ],
+        "systems_ko": [
+          "위치 기반 검색 및 필터링 시스템",
+          "실시간 예약 및 스케줄링 시스템",
+          "결제 게이트웨이 연동",
+          "사용자 리뷰 및 평점 시스템",
+          "비즈니스 프로필 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "예약 시스템은 데이터 일관성이 매우 중요하며, 결제 및 외부 서비스 연동은 높은 보안 수준을 요구합니다. 1인 개발자가 전체 플랫폼을 구현하는 것은 현실적으로 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "지역별 서비스 목록 조회",
+            "기본 예약 요청 기능",
+            "사용자 프로필 관리"
+          ],
+          "defer": [
+            "실시간 결제 시스템",
+            "복잡한 필터링 및 정렬",
+            "외부 비즈니스 관리자 대시보드"
+          ],
+          "risks": [
+            "데이터 최신성 유지의 어려움",
+            "예약 충돌 및 데이터 동기화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "웰니스 루틴 플래너",
+            "concept": "예약한 수업을 바탕으로 사용자의 주간 운동 계획을 자동으로 구성해주는 기능입니다.",
+            "first_step": "예약 데이터를 캘린더 형식으로 시각화하는 기능 구현."
+          },
+          {
+            "title": "스튜디오 매칭 퀴즈",
+            "concept": "사용자의 선호도와 운동 목적을 퀴즈로 풀어 최적의 스튜디오를 추천해주는 기능입니다.",
+            "first_step": "간단한 설문 로직과 결과 매칭 알고리즘 구현."
+          }
+        ],
+        "recommendation_ko": "대규모 플랫폼의 데이터 구조와 예약 시스템을 공부하고 싶은 개발자에게 추천합니다. 다만, 실제 서비스 구현보다는 시스템 아키텍처 설계 연습용으로 적합합니다.",
+        "source_limitations_ko": "백엔드 인프라, 결제 보안 표준, 외부 API 연동 방식 등은 소개문에서 확인할 수 없습니다.",
+        "name": "Mindbody: Fitness & Wellness",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/mindbody-fitness-wellness/id689501356?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:1020223989": {
+      "app_key": "apple:1020223989",
+      "name": "SSF SHOP",
+      "developer": "Cheil Industries Incorporated",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/ssf-shop/id1020223989",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:17:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "세상이 사랑하는 패션, SSF SHOP 당신이 사랑하는 패션, 지금 만나보세요. 1. 세상이 사랑하는 패션 에잇세컨즈, 빈폴, 구호, 준지, 갤럭시 등 삼성물산 패션 브랜드와 비이커, 10CC, 어나더샵의 다양한 브랜드까지. 컨템포러리 브랜드부터 영캐주얼과 스포츠 브랜드까지 다양한 스타일을 만나보세요. 당신이 사랑하는 새로운 상품과 브랜드를 발견하는 즐거움을 느낄 수 있도록 편한 쇼핑환경을 제공합니다. 이미지 검색, 유사상품 추천 등으로 비슷한 상품을 더 편하고, 빠르게 검색하실 수 있어요. 2. 패션을 즐기는 놀이터 스타일링 팁과 혜택을 제공하는 세사패 TV의 라이브방송, 스타일 커뮤니티 'DIVER', 매거진을 통해 다양한 쇼핑 콘텐츠와 스타일링 정보를 확인하실 수 있어요. 우리가 사랑하는 패션 콘텐츠를 즐겨주세요. 3. 차별화된 배송 서비스 일반배송, 매장픽업 뿐만 아니라 주문 당일 받아볼 수 있는 퀵 배송 서비스까지, 필요할 때 바로 받아볼 수 있도록 다양한 배송 선택지를 제안합니다. 4. 매장에서 경험하는 것처럼 브랜드 박스와 쇼핑백을 함께 제공하여 매장에서 쇼핑하는 차별화된 경험을 그대로 느낄 수 있도록 합니다. 본사에서 관리하는 품질 좋은 수선 서비스가 제공되어 믿고 쇼핑하실 수 있습니다. -매일 업데이트되는 다양한 혜택을 놓치지 마세요. [서비스 이용에 대한 접근권한 안내] ■필수적 접근권한: 없음 ■선택적 접근권한 -알림 : 푸시 알림 서비스 -사진 : 리뷰이미지 등록, 1:1문의, 이미지검색 시 이미지 첨부 -카메라 : 리뷰이미지, 바코드검색, 이미지검색 -위치 : 가까운 매장 찾기 선택적 접근권한은 동의하지 않으셔도 서비스 이용이 가능하며, 동의 상태는 휴대폰 설정메뉴에서 변경 가능합니다. -대표 메일 : shop.ssf@samsung.com -대표 연락처 : 1599-0007 (고객센터)",
+      "analysis": {
+        "app_key": "apple:1020223989",
+        "summary_ko": "SSF SHOP은 삼성물산 패션 부문의 다양한 브랜드를 모아놓은 패션 쇼핑 플랫폼입니다. 이미지 검색과 유사 상품 추천 기능을 통해 사용자에게 최적화된 쇼핑 환경을 제공합니다. 또한 라이브 방송과 스타일 커뮤니티를 통해 패션 콘텐츠를 즐길 수 있습니다.",
+        "features_ko": [
+          "삼성물산의 다양한 패션 브랜드를 한곳에서 쇼핑할 수 있습니다.",
+          "이미지 검색 및 유사 상품 추천 기능을 통해 상품을 빠르게 찾을 수 있습니다.",
+          "세사패 TV를 통해 라이브 방송과 스타일링 팁을 제공합니다.",
+          "일반 배송, 매장 픽업, 당일 퀵 배송 등 다양한 배송 옵션을 선택할 수 있습니다.",
+          "매장에서 구매하는 것과 같은 브랜드 박스 포장 서비스를 제공합니다."
+        ],
+        "noteworthy_ko": "온라인 쇼핑몰에 라이브 커머스와 스타일 커뮤니티를 결합하여 단순 구매를 넘어선 콘텐츠 소비 경험을 제공하는 점이 흥미롭습니다. 패션 브랜드의 정체성을 유지하기 위한 포장 서비스 연동도 주목할 만합니다.",
+        "development_ko": "상품 데이터베이스 관리와 실시간 재고 연동 시스템이 핵심입니다. 이미지 검색을 위한 AI 모델 도입과 라이브 스트리밍 서버 구축이 필요하며, 다양한 배송 옵션을 처리하는 물류 연동 로직이 복잡할 것으로 추정됩니다.",
+        "idea_ko": "사용자의 스타일을 분석하여 어울리는 옷을 추천해 주는 개인화된 코디네이터 앱이 적합합니다.",
+        "highlights_ko": [
+          "브랜드 가치를 보존하는 차별화된 포장 및 수선 서비스 제공.",
+          "라이브 커머스와 커뮤니티를 결합한 패션 놀이터 지향."
+        ],
+        "systems_ko": [
+          "상품 검색 및 필터링 시스템",
+          "장바구니 및 결제 연동",
+          "라이브 스트리밍 인터페이스",
+          "사용자 리뷰 및 커뮤니티 게시판",
+          "배송 추적 및 물류 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "대규모 상품 데이터 관리, 결제 시스템, 물류 연동 등 쇼핑몰 앱은 구현해야 할 기능의 범위가 매우 넓고 복잡합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 목록 및 상세 페이지",
+            "장바구니 및 주문 기능",
+            "사용자 로그인"
+          ],
+          "defer": [
+            "라이브 방송",
+            "이미지 검색",
+            "커뮤니티 기능"
+          ],
+          "risks": [
+            "결제 시스템 연동의 복잡성",
+            "재고 관리 데이터 불일치"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "디지털 옷장 관리자",
+            "concept": "구매한 옷을 등록하고 날씨나 상황에 맞춰 코디를 제안받는 개인용 옷장 앱입니다.",
+            "first_step": "의류 사진을 등록하고 카테고리별로 분류하는 데이터 구조 설계."
+          },
+          {
+            "title": "패션 트렌드 아카이브",
+            "concept": "관심 있는 스타일의 사진을 스크랩하고 유사한 스타일의 상품을 찾아주는 큐레이션 앱입니다.",
+            "first_step": "이미지 태그 기반의 검색 및 저장 기능 구현."
+          }
+        ],
+        "recommendation_ko": "커머스 앱의 기본 구조인 상품 조회, 장바구니, 결제 흐름을 학습하기에 좋습니다. 다만, 실제 결제 시스템은 외부 PG사 연동이 필수적이므로 개인 개발 시에는 모의 결제 환경을 활용하는 것이 좋습니다.",
+        "source_limitations_ko": "소개문에는 결제 시스템의 구체적인 연동 방식이나 물류 시스템의 API 명세가 포함되어 있지 않습니다. 또한, 이미지 검색 기술의 정확도나 라이브 방송의 지연 시간 등에 대한 기술적 정보는 확인할 수 없습니다.",
+        "name": "SSF SHOP",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/ssf-shop/id1020223989",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 46,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.jndapp.linex.white.iconpack": {
+      "app_key": "google:com.jndapp.linex.white.iconpack",
+      "name": "LineX White Icon Pack",
+      "developer": "JustNewDesigns",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.jndapp.linex.white.iconpack&hl=en&gl=US",
+      "data_date": "2026-11-03",
+      "analysed_at": "2026-11-07T06:23:11+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "LineX White IconPack is the White Version of LineX and LimeLine Iconpack. It's one of the freshest icon packs you could think of. LineX White Icon Pack has a unique Line style from up-close, the icons look like they're really unique and out of the box , which makes for a stunningly-different look in the digital age. There are over 5500+ icons as well as a multitude of high-quality wallpapers to complement the look with Line icons. Complement your mobile screen with exclusive Line Icons. Each icon is a real masterpiece and designed in order to create a perfect and pure Unique Lineal Style Experience. Every linear icons have been designed with a Perfect blend of creativity with creativity enhancing your mobile experience. And, Yes This is might be the best linear style icon pack available in market. with lots of icons and beautiful masks for unthemed icons And do you know? An average user checks their device more than a 50 times in a day. make each time a real pleasure with this LineX Icon pack. Get the LineX White Now! There's always something new: LineX White Icon pack is still new with 5500+ Icons. I can assure you to add lot more icons in every update. Why Choose LineX White Icon Pack over other Packs? • 5500+ ICONS WITH TOP NOTCH QUALITY. • Frequent Updates • Perfect Masking system • Lots of alternative icon • Amazing Wall collection Personal Recommended Settings and Launcher • Use Nova Launcher • Set Icon Normalization Off From the Nova Launcher Settings • Set Icon Size to 100% - 120% Other Features • Icon preview &search. • Dynamic Calendar • Material Dashboard. • Custom folder icons • Category-based Icons • Custom app drawer icons. • Easy Icon Request Still Confuse? Undoubtedly, LineX White Icon Pack is best in Line style icon packs. and we do offer a 100% refund in case you didn't like it. So Nothing to worry about. Don't like it? Contact me via email. Support If you have any issue with using Icon pack. Just email me at justnewdesigns@gmail.com How to use this Icon pack? Step 1 : Install supported theme Launcher Step 2 : Open LineX White Icon Pack and Go to Apply section and Select Launcher to apply. If your launcher is not in a list make sure you apply it from your launcher settings DISCLAIMER • A supported launcher is required to use this icon pack! • FAQ section inside the app which answers a lot of questions you may have. Please read it before you emailing your question. Icon Pack Supported Launchers Action Launcher • ADW Launcher • Apex Launcher •Atom Launcher • Aviate Launcher • CM Theme Engine • GO Launcher • Holo Launcher • Holo Launcher HD • LG Home • Lucid Launcher • M Launcher • Mini Launcher • Next Launcher • Nougat Launcher •Nova Launcher(recommended) • Smart Launcher •Solo Launcher •V Launcher • ZenUI Launcher •Zero Launcher • ABC Launcher •Evie Launcher • L Launcher • Lawnchair Icon Pack Supported Launchers not Included in Apply Section Arrow Launcher • ASAP Launcher •Cobo Launcher •Line Launcher •Mesh Launcher •Peek Launcher • Z Launcher • Launch by Quixey Launcher • iTop Launcher • KK Launcher • MN Launcher • New Launcher • S Launcher • Open Launcher • Flick Launcher • Poco Launcher This icon pack has been tested, and it works with these launchers. However, it may also work with others too.In case you do not found an apply section in dashboard. You can apply icon pack from a theme setting. Extra Notes • Icon pack needs a launcher in order to work. • Google Now Launcher do not support any icon packs. • Missing an Icon? feel free to send me an icon request and I will try to update this pack with your requests. Contact Me Google+: https://plus.google.com/communities/110791753299244087681 Twitter : https://twitter.com/justnewdesigns CREDITS • Jahir Fiquitiva for providing such a great dashboard.",
+      "analysis": {
+        "app_key": "google:com.jndapp.linex.white.iconpack",
+        "summary_ko": "LineX White Icon Pack은 독특한 선형 스타일의 아이콘 5,500개 이상과 고품질 배경화면을 제공하는 안드로이드용 아이콘 팩입니다. 사용자는 지원되는 런처를 통해 모바일 화면의 아이콘을 일관된 화이트 라인 스타일로 변경할 수 있습니다. 아이콘 요청 기능과 정기적인 업데이트를 통해 지속적인 커스터마이징 경험을 지원합니다.",
+        "features_ko": [
+          "5,500개 이상의 고품질 선형 스타일 아이콘을 제공합니다.",
+          "아이콘이 없는 앱을 위한 자동 마스킹 시스템을 지원합니다.",
+          "다양한 고해상도 배경화면을 함께 제공합니다.",
+          "사용자가 직접 아이콘을 요청할 수 있는 기능을 포함합니다.",
+          "동적 캘린더 아이콘을 지원하여 날짜 변화를 반영합니다."
+        ],
+        "noteworthy_ko": "5,500개라는 방대한 양의 아이콘을 일관된 스타일로 유지하는 것은 디자인 시스템의 정교함을 보여줍니다. 아이콘 팩은 별도의 로직 없이 런처의 리소스 교체 기능을 활용하므로, 개인 개발자가 디자인 역량만으로 도전하기 좋은 분야입니다.",
+        "development_ko": "핵심 기술은 벡터 그래픽 디자인과 안드로이드 아이콘 팩 규격에 맞춘 리소스 패키징입니다. 디자인 작업량이 매우 많아 일관성을 유지하는 것이 가장 큰 부담입니다. 테스트는 다양한 안드로이드 버전과 런처 환경에서 아이콘이 정상적으로 적용되는지 확인하는 과정이 필요합니다.",
+        "idea_ko": "특정 테마(예: 픽셀 아트, 네온 스타일)를 정해 사용자가 직접 아이콘을 제작하고 공유할 수 있는 '커뮤니티 아이콘 팩 플랫폼'을 만드는 것이 적합합니다.",
+        "highlights_ko": [
+          "5,500개 이상의 방대한 아이콘 라이브러리를 보유하고 있습니다.",
+          "자동 마스킹 시스템으로 테마가 적용되지 않은 아이콘도 일관성을 유지합니다."
+        ],
+        "systems_ko": [
+          "아이콘 리소스 관리 시스템",
+          "런처 연동 인터페이스",
+          "아이콘 요청 및 피드백 시스템",
+          "배경화면 갤러리 관리"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "복잡한 프로그래밍 로직보다는 디자인 리소스 제작과 패키징이 핵심입니다. 안드로이드 아이콘 팩 표준 규격만 준수하면 기술적 구현 난이도는 낮습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 아이콘 100개 세트",
+            "런처 적용 대시보드 앱",
+            "아이콘 요청 이메일 연동"
+          ],
+          "defer": [
+            "5,500개 이상의 대규모 아이콘",
+            "동적 캘린더 기능"
+          ],
+          "risks": [
+            "디자인 스타일의 일관성 부족",
+            "런처별 호환성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "사용자 맞춤형 아이콘 생성기",
+            "concept": "사용자가 원하는 색상과 선 굵기를 선택하면 실시간으로 아이콘 팩을 생성해주는 도구입니다.",
+            "first_step": "기본 아이콘 템플릿을 SVG로 제작하고 색상 필터를 적용하는 스크립트를 작성합니다."
+          },
+          {
+            "title": "테마 큐레이션 서비스",
+            "concept": "아이콘 팩과 어울리는 배경화면, 위젯, 폰트를 조합한 '데스크테리어 테마'를 추천하는 서비스입니다.",
+            "first_step": "테마 조합을 저장하고 공유할 수 있는 간단한 웹 페이지를 만듭니다."
+          }
+        ],
+        "recommendation_ko": "디자인 역량을 키우고 안드로이드 앱 배포 프로세스를 익히기에 매우 좋습니다. 다만, 디자인 작업량이 방대하므로 처음부터 너무 많은 아이콘을 만들려 하지 말고 작은 단위로 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 아이콘 팩의 구체적인 구현 코드나 대시보드 앱의 소스 코드는 포함되어 있지 않습니다. 결제 기능이나 환불 정책은 개발자가 직접 구현해야 할 영역이며, 소개문은 마케팅 문구에 가깝습니다.",
+        "name": "LineX White Icon Pack",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.jndapp.linex.white.iconpack&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:1452526406": {
+      "app_key": "apple:1452526406",
+      "name": "AMAZE!!!",
+      "developer": "Crazy Labs",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/kr/app/amaze/id1452526406?uo=2",
+      "data_date": "2026-11-03",
+      "analysed_at": "2026-11-07T06:24:53+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "멋진 색칠 퍼즐을 풀어갈 준비 되셨나요? 당신을 놀라게 할 게임! 화면을 밀어 공을 움직이며 미궁 퍼즐을 화려하게 색칠하세요. 퍼즐을 채우려면 각각의 사각형을 채워 멋진 AMAZE!!! 미궁 색칠 퍼즐을 더 많이 해제해야 합니다. 조심하세요! AMAZE!!!는 게임을 진행하며 색을 채워갈수록 점점 더 어려워집니다! 미궁 퍼즐 색칠은 얼핏 쉬워 보이지만, 모든 사각형을 칠하려면 계획을 잘 세워야 합니다. 퍼즐을 완전하게 채색해 보세요! 사각형 하나라도 빠트리면 색칠의 미궁에 영원히 갇혀버립니다!",
+      "analysis": {
+        "app_key": "apple:1452526406",
+        "summary_ko": "AMAZE!!!는 화면을 밀어 공을 움직이며 미궁을 색칠하는 퍼즐 게임입니다. 모든 사각형을 빠짐없이 채워야 퍼즐이 완료되는 방식입니다. 스테이지가 진행될수록 난이도가 상승하며 전략적인 경로 계획이 요구됩니다.",
+        "features_ko": [
+          "스와이프 조작을 통해 공을 이동시켜 미궁의 경로를 색칠합니다.",
+          "미궁 내의 모든 사각형을 채워야 스테이지를 클리어할 수 있습니다.",
+          "진행할수록 미궁의 구조가 복잡해져 난이도가 높아집니다.",
+          "모든 사각형을 채우지 못하면 실패하는 규칙을 가지고 있습니다."
+        ],
+        "noteworthy_ko": "단순한 이동 경로를 색칠로 시각화하여 퍼즐의 완성도를 직관적으로 보여주는 점이 흥미롭습니다. 1인 개발 시 미궁 생성 알고리즘과 색칠 상태를 관리하는 그리드 데이터 구조를 효율적으로 설계하는 것이 핵심일 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 미궁 생성 알고리즘과 2차원 배열 기반의 타일 상태 관리입니다. 콘텐츠 제작은 미궁의 복잡도를 조절하는 레벨 디자인이 주를 이루며, 테스트는 모든 타일을 방문할 수 있는 경로가 존재하는지 검증하는 데 집중해야 합니다.",
+        "idea_ko": "특정 타일을 밟으면 색이 변하거나 사라지는 '변칙 타일'을 추가하여 퍼즐의 전략성을 높이는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "색칠이라는 시각적 피드백을 통해 퍼즐의 진행 상황을 즉각적으로 확인 가능합니다.",
+          "단순한 조작법과 달리 모든 칸을 채워야 하는 높은 달성 조건을 통해 도전 의식을 자극합니다."
+        ],
+        "systems_ko": [
+          "미궁 생성 알고리즘(DFS/BFS 기반)",
+          "그리드 기반 타일 상태 관리 시스템",
+          "스와이프 입력 처리 및 이동 로직",
+          "스테이지 클리어 판정 시스템",
+          "UI 및 레벨 데이터 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "미궁 생성 알고리즘과 그리드 기반의 이동 로직은 구현 난이도가 높지 않으나, 모든 칸을 채우는 레벨 디자인의 밸런스 조절에 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "그리드 기반 미궁 이동 로직",
+            "타일 색칠 상태 추적 시스템",
+            "스테이지 클리어 판정"
+          ],
+          "defer": [
+            "다양한 스킨 및 커스터마이징",
+            "복잡한 애니메이션 효과"
+          ],
+          "risks": [
+            "모든 칸을 채울 수 없는 막다른 길 생성 가능성",
+            "단조로운 게임 플레이로 인한 사용자 이탈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "속성 타일 미궁",
+            "concept": "밟으면 색이 바뀌거나 일정 시간 후 사라지는 타일을 배치합니다. 경로를 선택할 때 타일의 특성을 고려해야 합니다.",
+            "first_step": "기본 미궁 로직에 특정 타일 속성을 부여하는 데이터 구조를 추가합니다."
+          },
+          {
+            "title": "시간 제한 색칠",
+            "concept": "제한 시간 내에 미궁을 모두 색칠해야 합니다. 빠르게 경로를 파악하는 순발력이 중요합니다.",
+            "first_step": "타이머 UI와 게임 오버 조건을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "그리드 기반 퍼즐 게임의 기초적인 데이터 구조와 알고리즘을 학습하기에 매우 좋습니다. 단순한 메커니즘을 어떻게 확장하여 재미를 유지할지 고민해보기 좋은 프로젝트입니다.",
+        "source_limitations_ko": "소개문에는 미궁 생성 방식(자동 생성인지 수동 제작인지), 데이터 저장 방식, 광고나 인앱 결제 여부가 명시되어 있지 않습니다.",
+        "name": "AMAZE!!!",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/amaze/id1452526406?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 92,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
     }
   }
 }

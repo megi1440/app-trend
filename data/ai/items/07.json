@@ -9556,6 +9556,627 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-02"
+    },
+    "itch:5275cd2a416df9299e75": {
+      "app_key": "itch:5275cd2a416df9299e75",
+      "name": "Multi Purpose Wheel Incremental [Free] [Simulation] [Windows] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://tarpingames.itch.io/multi-purpose-wheel-incremental",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:04:08+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Rotate everything in this new spin on the Incremental genre!",
+      "analysis": {
+        "app_key": "itch:5275cd2a416df9299e75",
+        "summary_ko": "이 게임은 '인크리멘탈(Incremental)' 장르의 새로운 시도로, 모든 것을 회전시키는 독특한 방식을 취하고 있습니다. 플레이어는 끊임없이 무언가를 회전시키며 수치를 성장시키는 경험을 하게 됩니다.",
+        "features_ko": [
+          "회전(Spin) 메커니즘을 중심으로 한 인크리멘탈 게임 플레이를 제공합니다.",
+          "다양한 대상을 회전시켜 수치를 증가시키는 시스템을 포함합니다."
+        ],
+        "noteworthy_ko": "단순한 클릭이나 방치형 게임에 '회전'이라는 물리적/시각적 요소를 결합한 점이 독특합니다. 인크리멘탈 장르 특유의 수치 팽창을 어떻게 시각적으로 즐겁게 표현할지가 개발의 핵심입니다.",
+        "development_ko": "회전 속도와 수치 증가량 간의 수학적 모델링이 중요합니다. 회전하는 객체의 시각적 피드백을 최적화하여 쾌적한 경험을 제공해야 합니다. 데이터 저장 및 불러오기 시스템을 통해 진행 상황을 유지하는 것이 필수적입니다.",
+        "idea_ko": "회전하는 대상에 따라 다른 보상을 제공하는 시스템을 추가하여 전략성을 높이는 것이 좋습니다.",
+        "highlights_ko": [
+          "회전이라는 단순한 행위를 통한 중독성 있는 성장 경험.",
+          "인크리멘탈 장르의 새로운 해석."
+        ],
+        "systems_ko": [
+          "수치 계산 및 증가 엔진",
+          "회전 물리/애니메이션 시스템",
+          "업그레이드 및 상점 시스템",
+          "데이터 저장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 단순하고 복잡한 물리 엔진보다는 수치 계산 위주이기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "회전 입력 및 수치 증가 로직",
+            "기본 업그레이드 버튼",
+            "수치 표시 UI"
+          ],
+          "defer": [
+            "복잡한 시각 효과",
+            "다양한 회전 대상"
+          ],
+          "risks": [
+            "단순 반복으로 인한 지루함",
+            "수치 밸런스 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "회전 속도 자동화",
+            "concept": "자동으로 회전하는 장치를 구매하여 수치를 자동으로 획득하게 합니다.",
+            "first_step": "일정 시간마다 수치를 증가시키는 타이머 구현."
+          },
+          {
+            "title": "회전 콤보 시스템",
+            "concept": "연속으로 회전시키면 보너스 수치를 획득하는 콤보 시스템을 추가합니다.",
+            "first_step": "연속 클릭 횟수에 따른 배율 적용 로직 구현."
+          }
+        ],
+        "recommendation_ko": "방치형/인크리멘탈 게임의 기초적인 수치 설계와 루프를 배우기에 적합합니다. 간단한 게임을 빠르게 완성해보고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "회전하는 대상의 종류, 구체적인 수치 증가 공식, 게임의 최종 목표 등은 확인되지 않습니다.",
+        "name": "Multi Purpose Wheel Incremental [Free] [Simulation] [Windows] [Linux]",
+        "source": "itch",
+        "detail_url": "https://tarpingames.itch.io/multi-purpose-wheel-incremental",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 338,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 14,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6816819151": {
+      "app_key": "apple:6816819151",
+      "name": "REVLUME",
+      "developer": "GWONBEOM KO",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/revlume/id6816819151",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:07:13+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "REVLUME는 iPhone 센서를 활용해 가상 엔진 사운드와 계기판을 제공하는 엔터테인먼트 앱입니다. 다양한 엔진 사운드를 선택하고, 나만의 커스텀 엔진을 만들어 보세요. ■ 다양한 엔진 사운드 원하는 엔진 사운드를 선택하고 배기음 볼륨과 팝콘 강도를 조절하세요. 자동 또는 DCT 가상 변속 방식을 선택할 수 있습니다. ■ 정차 상태에서도 즐기는 REV 안전하게 정차한 상태에서 재생 버튼과 REV 컨트롤로 엔진 사운드를 들어보세요. 기본 사운드 기능에는 별도 OBD 액세서리가 필요하지 않습니다. ■ 나만의 커스텀 엔진 직접 녹음하거나 오디오 파일을 가져와 엔진음, 가속음, 팝콘 사운드를 구성하세요. 각 사운드 종류에 여러 클립을 추가하고 여러 커스텀 엔진을 저장할 수 있습니다. ■ 긴 녹음에서 사운드 구간 찾기 긴 녹음을 기기 내에서 분석하여 엔진음, 가속음, 팝콘 사운드 후보 구간을 제안합니다. 결과를 미리 듣고 선택한 뒤 저장하세요. 자동 분류는 추정이며 녹음에 없는 소리를 새로 만들어내는 기능은 아닙니다. ■ 계정 없이 시작 앱 계정이나 로그인이 필요하지 않습니다. 녹음과 가져온 오디오의 처리는 기기 내에서 이루어집니다. 저장한 커스텀 엔진은 앱에서 삭제할 수 있습니다. 사용 전 확인하세요 • 휴대폰을 고정력이 좋은 거치대에 단단히 고정하세요. • 안정적인 재생을 위해 차량과 iPhone이 지원하는 유선 오디오 연결을 권장합니다. • 설정, 녹음 및 화면 조작은 안전하게 정차한 상태에서 하세요. 주변 소리를 들을 수 있는 음량을 유지하세요. • RPM, 가속 페달 및 기어 표시는 사운드를 위한 가상 값이며, 표시 속도는 추정값입니다. 실제 차량의 엔진, 페달 또는 변속기를 측정하거나 제어하지 않습니다. • 센서 결과는 기기, 거치 상태 및 GPS 수신 환경에 따라 달라질 수 있습니다. 안전 판단, 차량 진단 또는 정밀 측정 용도로 사용하지 마세요. • 녹음하거나 가져오는 음원은 사용할 권리가 있는 자료만 이용하세요. 문의: gbko02@naver.com",
+      "analysis": {
+        "app_key": "apple:6816819151",
+        "summary_ko": "REVLUME은 스마트폰 센서를 활용해 가상 엔진 사운드와 계기판을 제공하는 엔터테인먼트 앱입니다. 사용자는 다양한 엔진 사운드를 선택하거나 직접 커스텀 엔진을 제작하여 즐길 수 있습니다. 별도의 OBD 장치 없이도 기기 내 오디오 처리 기능을 통해 가상의 엔진 경험을 제공합니다.",
+        "features_ko": [
+          "배기음 볼륨과 팝콘 강도를 조절하여 엔진 사운드를 설정할 수 있습니다.",
+          "자동 또는 DCT 방식의 가상 변속 모드를 선택할 수 있습니다.",
+          "직접 녹음하거나 오디오 파일을 가져와 나만의 커스텀 엔진을 구성할 수 있습니다.",
+          "긴 녹음 파일에서 엔진음, 가속음, 팝콘 사운드 구간을 자동으로 제안받을 수 있습니다.",
+          "정차 상태에서 REV 컨트롤을 통해 엔진 사운드를 재생할 수 있습니다."
+        ],
+        "noteworthy_ko": "오디오 신호 처리와 센서 데이터를 결합해 실시간 가상 엔진음을 생성하는 점이 흥미롭습니다. 특히 긴 녹음 파일에서 특정 사운드 구간을 자동 분류하는 기능은 머신러닝 기반의 오디오 분석 기술이 적용되었을 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 실시간 오디오 믹싱과 기기 센서 데이터의 동기화입니다. 오디오 파일 분석 및 분류를 위한 알고리즘 구현이 필요하며, 사용자 커스텀 사운드 저장 및 관리 시스템이 중요합니다. 센서 값에 따른 사운드 변화의 지연 시간을 최소화하는 최적화 작업이 핵심입니다.",
+        "idea_ko": "사용자가 녹음한 일상 소음을 엔진 사운드처럼 변환하는 '일상 엔진 커스터마이저' 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "별도의 외부 하드웨어 없이 스마트폰 센서만으로 가상 엔진 경험을 구현합니다.",
+          "사용자가 직접 오디오 클립을 구성하여 자신만의 엔진 사운드를 저장할 수 있습니다."
+        ],
+        "systems_ko": [
+          "오디오 재생 및 믹싱 엔진",
+          "센서 데이터 수집 및 가상 RPM 계산기",
+          "오디오 파일 분석 및 구간 분류 시스템",
+          "사용자 데이터 저장 및 관리 시스템",
+          "UI/UX 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 오디오 처리와 센서 데이터의 정밀한 동기화는 높은 기술적 난이도를 요구합니다. 또한 오디오 분석 알고리즘의 정확도를 확보하는 과정에서 많은 테스트와 튜닝이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 엔진 사운드 재생 기능",
+            "볼륨 및 REV 컨트롤 UI",
+            "로컬 오디오 파일 불러오기 기능"
+          ],
+          "defer": [
+            "자동 구간 분류 AI 기능",
+            "복잡한 커스텀 엔진 저장 시스템"
+          ],
+          "risks": [
+            "센서 데이터와 사운드 재생 간의 지연 시간 발생",
+            "기기별 센서 성능 차이로 인한 경험 불균형"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "일상 엔진 커스터마이저",
+            "concept": "주변의 일상 소음을 녹음해 엔진 사운드로 변환하는 기능입니다. 소리의 피치와 리듬을 조절해 독특한 엔진음을 만듭니다.",
+            "first_step": "녹음된 오디오 파일의 피치를 실시간으로 변경하는 프로토타입 구현."
+          },
+          {
+            "title": "가상 계기판 챌린지",
+            "concept": "가상 RPM을 활용해 정해진 시간 내에 최적의 변속 타이밍을 맞추는 미니 게임입니다.",
+            "first_step": "가상 RPM 수치에 따라 UI가 반응하는 간단한 대시보드 구현."
+          }
+        ],
+        "recommendation_ko": "실시간 오디오 처리와 센서 데이터 활용법을 배우기에 좋은 앱입니다. 다만, 차량 안전과 직결된 오해를 방지하기 위한 UI/UX 설계의 중요성을 배울 수 있습니다.",
+        "source_limitations_ko": "오디오 분석 알고리즘의 구체적인 구현 방식은 알 수 없으며, 실제 차량 센서와의 연동 여부는 불가능하므로 가상 값임을 명시해야 합니다.",
+        "name": "REVLUME",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/revlume/id6816819151",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 216,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 8,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6758548648": {
+      "app_key": "apple:6758548648",
+      "name": "할일차곡 : 귀여운 투두 일정 공유 캘린더",
+      "developer": "Egg Toast Lab",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_productivity",
+      "detail_url": "https://apps.apple.com/kr/app/%ED%95%A0%EC%9D%BC%EC%B0%A8%EA%B3%A1-%EA%B7%80%EC%97%AC%EC%9A%B4-%ED%88%AC%EB%91%90-%EC%9D%BC%EC%A0%95-%EA%B3%B5%EC%9C%A0-%EC%BA%98%EB%A6%B0%EB%8D%94/id6758548648?uo=2",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:16:32+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "할일차곡 - 귀여운 고양이와 함께 하루를 차곡차곡 ■ 할일 관리 - 캘린더에서 한 달 일정을 한눈에 확인하세요 - 반복 할일, 시간 알림, 음력 날짜, 공휴일 지원 - \"내일 3시 회의\"처럼 자연스럽게 입력하면 알아서 등록돼요 ■ 기록 - 사진과 함께 하루를 남기는 다이어리 - 좋아하는 글과 링크를 모아두는 북마크 ■ 고양이 키우기 - 할일을 완료하면 츄르를 받아요 - 츄르로 모자·안경·목걸이·가구·배경을 구매해 나만의 냥이를 꾸며보세요 - 공원에서 냥이에게 간식을 주고 레벨을 올려보세요 ■ 친구 공유 - 친구·커플·가족과 캘린더를 공유하고 서로의 하루를 확인해요 ■ 위젯 & 잠금화면 - 홈 화면 위젯에서 앱을 열지 않고 바로 할일 체크 - 잠금화면 위젯으로 오늘의 할일 확인 - 라이브 액티비티로 오늘의 진행 상황을 실시간으로 ■ 프리미엄 - 광고 제거 - 매달 보너스 츄르 지급 - 프리미엄 전용 냥이 - 공원 테마, 스티커 무제한 * 문의: admin@eggtoastlab.com * 이용약관: https://www.eggtoastlab.com/terms * 개인정보처리방침: https://www.eggtoastlab.com/privacy * 구독 안내 - 프리미엄 월간: ₩5,900/월 - 프리미엄 연간: ₩59,000/년 - 평생 이용권: 1회 구매로 평생 이용 - 결제는 구매 확인 시 Apple ID 계정으로 청구됩니다. - 구독은 현재 기간 종료 24시간 전까지 해지하지 않으면 자동 갱신됩니다. - 구매 후 설정 > Apple 계정 > 구독에서 언제든지 해지할 수 있습니다.",
+      "analysis": {
+        "app_key": "apple:6758548648",
+        "summary_ko": "할일차곡은 귀여운 고양이 캐릭터와 함께 일정을 관리하는 투두 리스트 및 캘린더 앱입니다. 할 일을 완료하면 보상을 받아 고양이를 꾸미는 게임적 요소를 결합했습니다. 친구나 가족과 캘린더를 공유하여 서로의 일상을 확인할 수 있습니다.",
+        "features_ko": [
+          "자연어 입력을 통해 할 일을 자동으로 등록하는 기능을 제공합니다.",
+          "할 일 완료 시 츄르를 지급하여 고양이를 꾸미거나 레벨을 올릴 수 있습니다.",
+          "캘린더 공유 기능을 통해 커플이나 가족 간의 일정을 동기화합니다.",
+          "위젯 및 라이브 액티비티를 통해 앱을 열지 않고도 진행 상황을 확인합니다.",
+          "사진을 포함한 다이어리 및 북마크 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "생산성 앱에 '고양이 육성'이라는 게임적 보상 체계를 도입하여 사용자의 지속적인 앱 접속을 유도한 점이 흥미롭습니다. 단순한 일정 관리를 넘어 감성적인 경험을 제공하는 전략이 돋보입니다.",
+        "development_ko": "핵심 구현 기술로는 로컬 데이터베이스(CoreData 등)와 서버 동기화 로직이 필요합니다. 고양이 꾸미기 아이템 데이터 관리와 위젯 업데이트를 위한 백그라운드 작업 구현이 중요하며, 밸런스 측면에서는 보상 체계의 적절한 설계가 필요합니다.",
+        "idea_ko": "사용자의 할 일 완료 패턴을 분석하여 고양이의 기분이나 상태가 변하는 '감정 연동형 육성 시스템'이 적합합니다.",
+        "highlights_ko": [
+          "생산성 도구와 육성 시뮬레이션을 결합하여 사용자 리텐션을 극대화했습니다.",
+          "위젯과 라이브 액티비티를 적극 활용하여 사용자의 접근성을 높였습니다."
+        ],
+        "systems_ko": [
+          "일정 관리 및 알림 시스템",
+          "사용자 데이터 동기화 시스템",
+          "보상 및 아이템 인벤토리 시스템",
+          "위젯 및 라이브 액티비티 연동",
+          "UI/UX 애니메이션 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기본적인 CRUD 기능과 UI 구현은 표준적이나, 실시간 데이터 동기화와 위젯 연동은 추가적인 학습이 필요합니다. 게임적 요소의 밸런스 조절은 개인 개발자에게 적절한 도전 과제입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "할 일 추가 및 완료 체크",
+            "기본 캘린더 뷰",
+            "고양이 보상 지급 로직",
+            "로컬 데이터 저장"
+          ],
+          "defer": [
+            "캘린더 공유 기능",
+            "라이브 액티비티",
+            "다양한 꾸미기 아이템"
+          ],
+          "risks": [
+            "데이터 동기화 시 충돌 발생 가능성",
+            "보상 체계의 지루함으로 인한 사용자 이탈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "할 일 콤보 시스템",
+            "concept": "연속으로 할 일을 완료하면 고양이가 특별한 동작을 하거나 보상이 배가되는 시스템입니다. 성취감을 극대화합니다.",
+            "first_step": "연속 완료 횟수를 카운트하고 특정 수치 도달 시 이벤트를 발생시키는 로직 구현."
+          },
+          {
+            "title": "고양이 산책 일기",
+            "concept": "완료한 할 일을 바탕으로 고양이가 산책을 다녀온 듯한 짧은 일기를 자동으로 생성해주는 기능입니다.",
+            "first_step": "할 일 키워드를 조합하여 간단한 문장을 만드는 템플릿 엔진 구현."
+          }
+        ],
+        "recommendation_ko": "생산성 앱에 게임 요소를 결합하는 기획을 배우기에 좋습니다. UI/UX 디자인과 사용자 경험 설계에 관심 있는 개발자에게 추천합니다.",
+        "source_limitations_ko": "서버 통신 방식, 데이터 보안 정책, 결제 시스템의 구체적인 구현 방식은 소개문으로 확인할 수 없습니다.",
+        "name": "할일차곡 : 귀여운 투두 일정 공유 캘린더",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%ED%95%A0%EC%9D%BC%EC%B0%A8%EA%B3%A1-%EA%B7%80%EC%97%AC%EC%9A%B4-%ED%88%AC%EB%91%90-%EC%9D%BC%EC%A0%95-%EA%B3%B5%EC%9C%A0-%EC%BA%98%EB%A6%B0%EB%8D%94/id6758548648?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6756442328": {
+      "app_key": "apple:6756442328",
+      "name": "Instants, an Instagram app",
+      "developer": "Instagram, Inc.",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/instants-an-instagram-app/id6756442328",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:16:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Introducing Instants, a new app from Instagram. Share everyday moments — not just the highlights. -Real life, real quick. Jump straight to the camera and share with a tap — no edits, no overthinking. -Here and now. Instants can’t be viewed again once they’re gone. -Use either app. Share and view instants from here or Instagram. Meta Privacy Policy: https://www.facebook.com/privacy/policy/ Meta Community Standards: https://transparency.meta.com/policies/community-standards/",
+      "analysis": {
+        "app_key": "apple:6756442328",
+        "summary_ko": "Instants는 Instagram에서 출시한 일상 공유 앱으로, 꾸밈없는 순간을 빠르게 공유하는 데 초점을 맞춥니다. 게시물은 한 번 확인하면 사라지는 휘발성을 가지며, Instagram과 연동하여 사용할 수 있습니다. 사용자는 편집 없이 즉각적으로 일상을 기록하고 공유할 수 있습니다.",
+        "features_ko": [
+          "카메라를 통해 즉시 사진이나 영상을 촬영하여 공유합니다.",
+          "게시물은 확인 후 사라지는 휘발성 콘텐츠로 구성됩니다.",
+          "Instagram 앱과 연동하여 콘텐츠를 공유하고 확인할 수 있습니다.",
+          "편집 기능을 배제하여 실시간 일상 공유를 강조합니다."
+        ],
+        "noteworthy_ko": "휘발성 콘텐츠(Ephemeral Content)는 사용자에게 게시물에 대한 부담을 줄여주는 심리적 장치가 됩니다. 1인 개발 시 이러한 휘발성 데이터 관리와 서버 저장 공간 최적화가 흥미로운 기술적 과제가 될 것입니다.",
+        "development_ko": "카메라 접근 및 이미지 처리 기술이 핵심이며, 휘발성 데이터의 자동 삭제 로직을 구현해야 합니다. 서버 측에서는 데이터의 생명주기를 관리하는 스케줄러가 필요하며, Instagram API 연동을 위한 인증 처리가 중요합니다.",
+        "idea_ko": "특정 장소에 방문했을 때만 볼 수 있는 '위치 기반 휘발성 메시지' 기능을 추가하는 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "편집 없는 즉각적인 공유를 통해 일상의 진솔함을 강조합니다.",
+          "휘발성 콘텐츠를 통해 게시물에 대한 심리적 부담을 최소화합니다."
+        ],
+        "systems_ko": [
+          "카메라 및 미디어 캡처 시스템",
+          "휘발성 데이터 자동 삭제 스케줄러",
+          "사용자 인증 및 소셜 연동 시스템",
+          "미디어 저장 및 스트리밍 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기본적인 카메라 연동과 데이터 삭제 로직은 구현 가능하지만, 대규모 사용자의 미디어 데이터를 처리하고 Instagram과 같은 외부 플랫폼과 안정적으로 연동하는 것은 상당한 기술적 숙련도를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카메라 촬영 및 업로드",
+            "휘발성 게시물 보기 기능",
+            "사용자 계정 관리"
+          ],
+          "defer": [
+            "Instagram API 연동",
+            "복잡한 필터 및 편집 도구",
+            "대규모 데이터 분석"
+          ],
+          "risks": [
+            "서버 저장 공간 비용 증가",
+            "부적절한 콘텐츠 관리 및 신고 시스템 부재"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "익명 휘발성 메모",
+            "concept": "주변 사람들에게 짧은 메모를 남기고 1시간 뒤 사라지게 하는 위치 기반 앱입니다.",
+            "first_step": "위치 정보를 기반으로 반경 내 사용자에게 메시지를 전송하는 기능을 구현합니다."
+          },
+          {
+            "title": "오늘의 한 줄 일기",
+            "concept": "매일 딱 한 줄만 기록할 수 있고 다음 날 사라지는 일기 앱입니다.",
+            "first_step": "텍스트 입력과 날짜별 자동 삭제 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "데이터의 생명주기를 관리하는 로직을 배우기에 좋은 앱입니다. 휘발성 콘텐츠라는 컨셉을 활용해 가벼운 소셜 앱을 만들어보고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 Instagram API의 구체적인 연동 범위, 데이터 삭제 로직의 기술적 구현(DB 트리거 vs 스케줄러), 서버 인프라 구성은 확인되지 않습니다.",
+        "name": "Instants, an Instagram app",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/instants-an-instagram-app/id6756442328",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 141,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 33,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:jp.satofull.app": {
+      "app_key": "google:jp.satofull.app",
+      "name": "ふるさと納税 さとふる",
+      "developer": "Satofull Co., Ltd.",
+      "source": "google",
+      "country": "JP",
+      "category": "app_lifestyle",
+      "detail_url": "https://play.google.com/store/apps/details?id=jp.satofull.app&hl=ja&gl=JP",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:19:22+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ふるさと納税 なら さとふる！認知度No.1※のふるさと納税 サイト「さとふる」の公式アプリ！ ※2026年1月時点 調査実施機関：(株) インテージ https://www.satofull.jp/static/research/no1_2026.php ふるさと納税 さとふる アプリの主な特徴 1. お礼品の配送状況がわかる！ 発送状況などお礼品がお手元に届くまでアプリで確認ができます。 2. ダッシュボード表示で次にやることがわかりやすい！ さとふる アプリならあなたのふるさと（自治体）の納税状況が一目瞭然。寄付、お礼品の受け取り、レビュー、控除手続き、ふるさと納税で必要なTODOの全体感をイメージできます。 3.ふるさと納税控除上限額の計算も簡単！ 控除額シミュレーションを使えば控除上限額がすぐに計算され、ふるさと納税で気になる控除上限額までの残高が簡単に確認できます。 4.寄付から控除手続きまでアプリで完結！グッドデザイン賞を受賞した「さとふるアプリdeワンストップ申請」機能！ マイナンバーカードがあればさとふるアプリからワンストップ申請が利用できます。 （確定申告をされる方や1年間の寄付先が5自治体を超える方はワンストップ特例制度の利用はできません。） ■株式会社さとふるについて 株式会社さとふるは、ふるさと納税（自治体への寄付）を通して地域活性化を推進しています。 「ふるさとの元気を“フル”にする、ふるさとの魅力が“フル”に集まる ふるさと応援、ふるさと納税ポータルサイト」をコンセプトに、寄付者向けに「さとふる」で寄付先の自治体やお礼品の選定、寄付の申込み、寄付金の支払いなどができるサービスを提供しています。 自治体向けには寄付の募集や申し込み受け付け、寄付金の収納、お礼品の在庫管理や配送など、ふるさと納税の運営に必要な業務を一括代行するサービスを提供しています。",
+      "analysis": {
+        "app_key": "google:jp.satofull.app",
+        "summary_ko": "일본의 고향 납세(후루사토 노제) 서비스를 이용하기 위한 공식 앱입니다. 사용자는 기부처 선정부터 결제, 답례품 배송 상황 확인까지 전 과정을 관리할 수 있습니다. 원스톱 특례 신청 기능을 통해 앱 내에서 행정 절차를 간편하게 처리할 수 있는 경험을 제공합니다.",
+        "features_ko": [
+          "답례품의 배송 상태를 실시간으로 추적하여 확인할 수 있습니다.",
+          "대시보드를 통해 기부 현황과 향후 필요한 할 일(TODO)을 한눈에 파악합니다.",
+          "공제 상한액 시뮬레이션을 통해 기부 가능한 잔액을 계산합니다.",
+          "마이넘버 카드를 활용해 앱 내에서 원스톱 특례 신청을 완료합니다."
+        ],
+        "noteworthy_ko": "행정 서비스와 커머스 기능을 결합하여 복잡한 세금 공제 절차를 모바일로 내재화한 점이 흥미롭습니다. 특히 원스톱 신청과 같은 공적 절차를 앱 내에서 완결시키는 UX 설계는 사용자 편의성을 극대화하는 좋은 사례로 보입니다.",
+        "development_ko": "공공 데이터 연동 및 보안 인증 처리가 핵심 기술이며, 사용자 개인정보와 세무 데이터를 다루므로 높은 수준의 보안 구현이 필수적입니다. 다양한 지자체 데이터를 통합 관리하는 백엔드 구조와 사용자별 맞춤형 대시보드 UI 구현이 개발의 주된 부담이 될 것입니다.",
+        "idea_ko": "사용자의 기부 이력을 바탕으로 지역 특산물을 추천하고, 기부한 지역의 소식을 알림으로 받아보는 '지역 커뮤니티 연결' 기능이 개인 개발자에게 적합합니다.",
+        "highlights_ko": [
+          "굿디자인상을 수상한 원스톱 신청 프로세스를 통해 복잡한 행정 절차를 간소화했습니다.",
+          "기부부터 답례품 수령까지의 전체 여정을 시각화하여 사용자 경험을 통합했습니다."
+        ],
+        "systems_ko": [
+          "사용자 인증 및 보안 관리 시스템",
+          "지자체별 기부 데이터베이스 연동",
+          "실시간 알림 및 상태 추적 시스템",
+          "세금 공제 계산 로직 엔진",
+          "결제 게이트웨이 연동"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "개인 개발자가 공공기관의 API나 법적 인증 절차를 직접 연동하는 것은 매우 어렵습니다. 또한 세무 관련 데이터의 정확성과 보안 책임이 막중하여 개인 수준에서 구현하기에는 리스크가 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기부처 리스트 조회",
+            "공제 상한액 계산기",
+            "기부 내역 기록 기능"
+          ],
+          "defer": [
+            "앱 내 원스톱 특례 신청",
+            "실시간 배송 추적 연동"
+          ],
+          "risks": [
+            "세무 관련 법적 책임",
+            "개인정보 유출 보안 사고"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지역 특산물 큐레이터",
+            "concept": "사용자가 선호하는 식재료를 설정하면 해당 특산물을 답례품으로 제공하는 지자체를 추천합니다. 기부 목적보다 답례품의 매력을 강조하여 접근성을 높입니다.",
+            "first_step": "특산물 데이터베이스를 구축하고 간단한 필터링 검색 기능을 구현합니다."
+          },
+          {
+            "title": "기부 다이어리",
+            "concept": "기부한 지역의 답례품 사진과 후기를 기록하는 개인화된 다이어리입니다. 기부의 의미를 되새기고 다음 기부를 계획하는 동기를 부여합니다.",
+            "first_step": "사용자 로컬 저장소를 활용한 사진 및 텍스트 기록 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "공공 서비스의 복잡한 프로세스를 어떻게 사용자 친화적인 UI로 풀어냈는지 학습하기 좋습니다. 다만, 실제 금융/세무 앱 개발은 높은 보안 요구사항으로 인해 개인 개발자에게는 추천하지 않습니다.",
+        "source_limitations_ko": "소개문에는 실제 지자체 시스템과의 연동 방식이나 보안 인증 기술에 대한 구체적인 정보가 없습니다. 결제 및 행정 처리의 기술적 세부 사항은 확인되지 않았습니다.",
+        "name": "ふるさと納税 さとふる",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=jp.satofull.app&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "itch:2426c9e7cd4ed751849f": {
+      "app_key": "itch:2426c9e7cd4ed751849f",
+      "name": "CYBER BALL [Free] [Sports]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "",
+      "detail_url": "https://cyberballworld.itch.io/cyber-ball",
+      "data_date": "2026-11-03",
+      "analysed_at": "2026-11-07T06:25:29+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Free futuristic arcade soccer in your browser. No download, no sign-up.",
+      "analysis": {
+        "app_key": "itch:2426c9e7cd4ed751849f",
+        "summary_ko": "웹 브라우저에서 바로 즐길 수 있는 미래형 아케이드 축구 게임입니다. 별도의 다운로드나 회원가입 없이 즉시 플레이가 가능합니다. 빠른 템포의 스포츠 게임 경험을 제공합니다.",
+        "features_ko": [
+          "웹 브라우저 기반의 아케이드 축구 규칙을 제공합니다.",
+          "미래적인 테마의 그래픽과 게임 환경을 구성합니다.",
+          "설치 과정 없는 즉각적인 접근성을 보장합니다."
+        ],
+        "noteworthy_ko": "웹 기술(HTML5/Canvas/WebGL)을 활용해 접근성을 극대화한 점이 개발 관점에서 매우 효율적입니다. 가벼운 아케이드 게임을 웹으로 배포하는 전략은 개인 개발자에게 유리합니다.",
+        "development_ko": "웹 게임 엔진(Phaser 등)을 활용한 물리 연산과 네트워크 최적화가 핵심입니다. 아케이드 게임 특유의 빠른 반응 속도를 구현하는 것이 중요합니다. 다양한 브라우저 환경에서의 호환성 테스트가 필수적입니다.",
+        "idea_ko": "공 대신 중력을 조절하여 골을 넣는 '중력 축구' 아이디어가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "웹 브라우저에서 즉시 실행 가능한 아케이드 축구 게임입니다.",
+          "미래지향적인 컨셉의 스포츠 게임입니다."
+        ],
+        "systems_ko": [
+          "2D/3D 물리 엔진",
+          "입력 판정 및 조작 시스템",
+          "점수 관리 시스템",
+          "웹 최적화 및 렌더링"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "웹 기반 개발은 배포가 쉽지만, 물리 엔진의 정교한 구현과 네트워크 지연 해결이 까다로울 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이동 및 공 차기",
+            "골 판정 로직",
+            "점수 UI"
+          ],
+          "defer": [
+            "멀티플레이어 모드",
+            "다양한 캐릭터 커스터마이징"
+          ],
+          "risks": [
+            "브라우저별 성능 차이",
+            "물리 엔진의 불안정성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "네온 사커",
+            "concept": "공이 벽에 튕길 때마다 색이 변하며, 특정 색상일 때만 골이 인정되는 규칙입니다.",
+            "first_step": "공의 충돌 시 색상 변경 로직 구현."
+          },
+          {
+            "title": "제로 그래비티 볼",
+            "concept": "무중력 상태에서 공을 쳐서 골대에 넣는 스포츠 게임입니다.",
+            "first_step": "공의 관성 이동 및 벽 충돌 물리 구현."
+          }
+        ],
+        "recommendation_ko": "웹 게임 개발의 기초와 물리 엔진 활용법을 배우기에 적합합니다. 접근성이 중요한 프로젝트를 기획하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 조작 방식, AI의 수준, 물리 엔진의 상세 구현 내용은 설명만으로 확인이 불가능합니다.",
+        "name": "CYBER BALL [Free] [Sports]",
+        "source": "itch",
+        "detail_url": "https://cyberballworld.itch.io/cyber-ball",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 10000,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "itch:2a4ba0eed3a22a6a5874": {
+      "app_key": "itch:2a4ba0eed3a22a6a5874",
+      "name": "D.VA CLICKER [Free] [Simulation] [Windows] [Linux] [Android]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "",
+      "detail_url": "https://kinky-kappa.itch.io/dva-clicker-by-kinky-kappa",
+      "data_date": "2026-11-03",
+      "analysed_at": "2026-11-07T06:25:50+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Click her, strip her, fuck her! Animated + Voiced!",
+      "analysis": {
+        "app_key": "itch:2a4ba0eed3a22a6a5874",
+        "summary_ko": "특정 캐릭터를 클릭하여 상호작용하는 단순 클릭 시뮬레이션 게임입니다. 애니메이션과 음성 요소가 포함되어 있습니다.",
+        "features_ko": [
+          "화면의 특정 대상을 클릭하여 반응을 유도합니다.",
+          "클릭에 따른 애니메이션 효과가 재생됩니다.",
+          "캐릭터 음성이 포함되어 있습니다."
+        ],
+        "noteworthy_ko": "클릭 기반의 단순한 상호작용 루프를 통해 사용자 반응을 이끌어내는 구조입니다. 멀티미디어 에셋의 품질이 사용자 경험의 핵심을 결정하는 유형으로 보입니다.",
+        "development_ko": "클릭 이벤트 처리와 애니메이션/오디오 재생 시스템이 핵심입니다. 에셋 제작 부담이 크며, 단순한 구조인 만큼 최적화보다는 에셋 관리와 상태 전환 로직이 중요합니다.",
+        "idea_ko": "클릭 횟수에 따라 캐릭터의 반응이 단계적으로 변화하는 '감정 변화 시스템'을 도입하는 것이 좋습니다.",
+        "highlights_ko": [
+          "클릭 중심의 직관적인 인터페이스를 제공합니다.",
+          "시각적 애니메이션과 음성 피드백을 결합했습니다."
+        ],
+        "systems_ko": [
+          "클릭 이벤트 감지 시스템",
+          "애니메이션 상태 관리자",
+          "오디오 재생 및 관리 시스템",
+          "UI 레이아웃 관리"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "게임 메커니즘 자체가 매우 단순하여 프로그래밍 난이도는 낮습니다. 다만, 고품질의 애니메이션과 음성 에셋을 확보하는 과정이 개발의 주된 난관이 될 것입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "클릭 감지 로직",
+            "이미지/애니메이션 출력 기능",
+            "사운드 재생 기능"
+          ],
+          "defer": [
+            "복잡한 상태 저장 기능",
+            "다양한 캐릭터 선택 기능"
+          ],
+          "risks": [
+            "에셋 제작에 따른 시간 소요",
+            "단조로운 플레이로 인한 낮은 리플레이 가치"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "리듬 클릭 챌린지",
+            "concept": "배경 음악의 비트에 맞춰 클릭하면 캐릭터의 반응이 더욱 화려해지는 리듬 게임 요소입니다.",
+            "first_step": "특정 비트 구간에서 클릭 시 애니메이션이 변경되는 로직 구현."
+          },
+          {
+            "title": "수집형 반응 도감",
+            "concept": "클릭 횟수나 특정 조건에 따라 캐릭터의 다양한 반응을 수집하는 도감 시스템입니다.",
+            "first_step": "반응 데이터를 저장하고 해금하는 간단한 데이터 관리 시스템 구축."
+          }
+        ],
+        "recommendation_ko": "이벤트 기반의 UI 상호작용과 미디어 에셋 연동 방식을 학습하기에 적합합니다. 단순한 구조를 통해 프로토타이핑 속도를 높이는 연습을 할 수 있습니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 게임 규칙, 승리 조건, 데이터 저장 방식 등을 확인할 수 없습니다. 성인용 콘텐츠로 분류될 수 있는 요소가 포함되어 있으므로 개발 시 플랫폼 정책 준수 여부를 반드시 확인해야 합니다.",
+        "name": "D.VA CLICKER [Free] [Simulation] [Windows] [Linux] [Android]",
+        "source": "itch",
+        "detail_url": "https://kinky-kappa.itch.io/dva-clicker-by-kinky-kappa",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 10000,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
     }
   }
 }

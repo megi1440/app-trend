@@ -9652,6 +9652,998 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-02"
+    },
+    "itch:c6e1221cf01833c174fa": {
+      "app_key": "itch:c6e1221cf01833c174fa",
+      "name": "Valkir Dungeon [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://jgdeveloplete.itch.io/valkir-dungeon",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:03:27+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Dungeon crawler para Game Boy hecho 100 % en ensamblador: 3 niveles, 8 salas y un jefe final",
+      "analysis": {
+        "app_key": "itch:c6e1221cf01833c174fa",
+        "summary_ko": "Game Boy 스타일로 제작된 던전 탐험 액션 게임입니다. 100% 어셈블리어로 개발되었으며 3개의 레벨, 8개의 방, 그리고 최종 보스로 구성되어 있습니다.",
+        "features_ko": [
+          "Game Boy 플랫폼을 타겟으로 한 던전 탐험 게임입니다.",
+          "100% 어셈블리어로 코딩되어 고전적인 개발 방식을 따릅니다.",
+          "3개의 레벨과 8개의 방으로 구성된 짧고 집중적인 콘텐츠를 제공합니다.",
+          "최종 보스전이 포함되어 있습니다."
+        ],
+        "noteworthy_ko": "어셈블리어로 게임을 개발했다는 점이 매우 독특합니다. 하드웨어의 제약을 극복하며 게임을 최적화하는 과정이 개발자에게는 매우 도전적이고 교육적인 경험이 될 것입니다.",
+        "development_ko": "메모리 관리와 레지스터 최적화가 핵심입니다. 그래픽과 사운드 데이터를 하드웨어 제한 내에서 압축하고 처리하는 기술이 필요합니다. 레벨 디자인은 제한된 방 개수 내에서 최대한의 재미를 끌어내야 하며, 보스전의 패턴 설계가 게임의 완성도를 결정합니다.",
+        "idea_ko": "제한된 메모리 환경을 활용한 '초소형 퍼즐 던전' 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "어셈블리어로 구현된 하드웨어 최적화 게임.",
+          "고전 Game Boy 스타일의 던전 탐험."
+        ],
+        "systems_ko": [
+          "메모리 관리 시스템",
+          "타일 기반 맵 렌더링",
+          "캐릭터 이동 및 충돌 판정",
+          "보스 패턴 AI",
+          "입력 처리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "어셈블리어는 현대 언어보다 학습 곡선이 매우 가파르며, 하드웨어 제약 사항을 모두 이해해야 하므로 개인 개발자에게는 매우 높은 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 캐릭터 이동",
+            "타일 맵 출력",
+            "충돌 판정"
+          ],
+          "defer": [
+            "복잡한 보스 패턴",
+            "다양한 사운드 효과"
+          ],
+          "risks": [
+            "디버깅의 어려움",
+            "하드웨어 제약으로 인한 기능 구현 제한"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "1KB 던전 탈출",
+            "concept": "1KB라는 극도로 제한된 용량 내에서 던전을 탈출하는 게임입니다. 코드 최적화가 곧 게임의 규칙입니다.",
+            "first_step": "가장 기본적인 맵 출력 코드를 작성합니다."
+          },
+          {
+            "title": "어셈블리 퍼즐",
+            "concept": "어셈블리어 명령어를 조합해 캐릭터를 움직이는 퍼즐 게임입니다.",
+            "first_step": "명령어 입력 시 캐릭터가 이동하는 로직을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "컴퓨터 구조와 저수준 프로그래밍을 깊이 이해하고 싶은 개발자에게 추천합니다. 다만, 일반적인 게임 개발과는 거리가 있으므로 학습 목적이 아니라면 비추천합니다.",
+        "source_limitations_ko": "어셈블리어의 구체적인 종류(Z80 등), 개발 환경, 사용된 에뮬레이터 정보 등이 명시되지 않았습니다.",
+        "name": "Valkir Dungeon [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://jgdeveloplete.itch.io/valkir-dungeon",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 359,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 7,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6753818799": {
+      "app_key": "apple:6753818799",
+      "name": "本物の戦争：フェイクじゃない",
+      "developer": "Heseri Games Inc",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_action",
+      "detail_url": "https://apps.apple.com/jp/app/%E6%9C%AC%E7%89%A9%E3%81%AE%E6%88%A6%E4%BA%89-%E3%83%95%E3%82%A7%E3%82%A4%E3%82%AF%E3%81%98%E3%82%83%E3%81%AA%E3%81%84/id6753818799?uo=2",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:09:08+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "敵をかわし、防ぎ、撃ち、戦え。 ボーナスゲートをくぐり、武器を集め、兵士たちの軍隊を率いて戦争に挑め！ 君はずっとこのゲームを探していた。 だから、僕が作った。 • 左右に動いて敵をかわし、進むルートを選ぼう • 何千発もの弾を撃って、ボーナスゲートの倍率を上げよう • ボスを倒してステージクリアを目指せ！ • 勝利するたびにコインを集めよう！ • 他のプレイヤーたちと順位を競って、どこまで行けるか試そう！ • 迫力あるバイブレーション演出！ • VFX満載の気持ちいいゲームプレイ！ REAL WAR なら、期待していた内容と違ってガッカリするのは、これで最後。 次のアップデートのアイデアも、ぜひ聞かせてください！ DEVDOP が贈る、フランス発のインディーゲームスタジオ作品。 別名、「The Greatest Developer」。",
+      "analysis": {
+        "app_key": "apple:6753818799",
+        "summary_ko": "REAL WAR는 적을 피하고 사격하며 군대를 이끌어 전쟁에서 승리하는 액션 게임입니다. 사용자는 좌우로 움직이며 경로를 선택하고, 보너스 게이트를 통과하여 병력을 증강합니다. 보스를 물리치고 코인을 모아 순위를 경쟁하는 게임 플레이를 제공합니다.",
+        "features_ko": [
+          "좌우 이동을 통해 적을 피하고 최적의 경로를 선택합니다.",
+          "보너스 게이트를 통과하여 병력과 탄환의 배율을 높입니다.",
+          "보스를 물리치고 스테이지를 클리어합니다.",
+          "승리 시 코인을 획득하고 다른 플레이어와 순위를 경쟁합니다."
+        ],
+        "noteworthy_ko": "하이퍼 캐주얼 게임의 전형적인 '배율 증가' 메커니즘을 전쟁 테마와 결합한 점이 흥미롭습니다. 시각적 효과(VFX)와 진동을 활용한 타격감 구현이 게임의 재미를 결정짓는 요소입니다.",
+        "development_ko": "캐릭터의 자동 이동 및 좌우 조작 시스템이 핵심입니다. 보너스 게이트 통과 시 수치 계산 및 병력 생성 로직이 필요합니다. 화려한 시각 효과와 진동 피드백을 구현하는 것이 제작 부담의 큰 부분을 차지합니다.",
+        "idea_ko": "단순한 배율 증가를 넘어, 병력의 형태를 바꾸거나 특수 능력을 부여하는 전략적 요소를 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "보너스 게이트를 통한 수치 증폭 메커니즘으로 성취감을 제공합니다.",
+          "VFX와 진동을 활용한 강렬한 타격감을 강조합니다."
+        ],
+        "systems_ko": [
+          "캐릭터 이동 및 조작 시스템",
+          "병력 생성 및 관리 시스템",
+          "보너스 게이트 연산 시스템",
+          "보스 전투 및 스테이지 관리",
+          "순위 경쟁 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "하이퍼 캐주얼 장르는 핵심 메커니즘이 단순하여 1인 개발로 빠르게 프로토타입을 만들 수 있습니다. 복잡한 시스템보다는 연출과 밸런스에 집중하면 완성도 있는 결과물을 낼 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "좌우 이동 조작",
+            "적과의 충돌 및 병력 감소",
+            "보너스 게이트 연산"
+          ],
+          "defer": [
+            "글로벌 순위 시스템",
+            "다양한 보스 패턴",
+            "복잡한 코인 상점"
+          ],
+          "risks": [
+            "게임 플레이의 단순 반복성",
+            "시각적 연출의 퀄리티 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "병력 진화 전쟁",
+            "concept": "게이트를 통과할 때마다 병력의 무기가 업그레이드되는 방식입니다. 단순 수치 증가보다 시각적 변화를 강조합니다.",
+            "first_step": "병력 모델 교체 및 게이트 통과 이벤트 구현."
+          },
+          {
+            "title": "속도전: 탈출",
+            "concept": "병력을 모으는 대신, 적의 추격을 피해 빠르게 탈출하는 것에 집중합니다. 장애물 회피와 속도감이 핵심입니다.",
+            "first_step": "자동 전진 및 장애물 회피 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "하이퍼 캐주얼 게임의 핵심 루프를 설계하고 타격감을 구현하는 법을 배우기에 좋습니다. 짧은 기간 내에 게임을 완성해보고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 수치 밸런스, 보스전의 난이도 설계, 순위 시스템의 서버 구현 방식은 확인되지 않습니다.",
+        "name": "本物の戦争：フェイクじゃない",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E6%9C%AC%E7%89%A9%E3%81%AE%E6%88%A6%E4%BA%89-%E3%83%95%E3%82%A7%E3%82%A4%E3%82%AF%E3%81%98%E3%82%83%E3%81%AA%E3%81%84/id6753818799?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 192,
+        "reasons": [
+          "multi_country"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "JP",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.dcutuansaw.alldocumentreader.viewer.pdf.scanner": {
+      "app_key": "google:com.dcutuansaw.alldocumentreader.viewer.pdf.scanner",
+      "name": "문서 리더 - PDF 스캐너",
+      "developer": "Stackwise Studio",
+      "source": "google",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.dcutuansaw.alldocumentreader.viewer.pdf.scanner&hl=ko&gl=KR",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:09:33+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "❓이메일, 메시지 앱 또는 업무 플랫폼으로 문서를 자주 받지만, 열기에 알맞은 앱을 찾기 어려우신가요? 문서 리더 - PDF 스캐너 앱은 중요한 파일을 휴대폰에서 바로 열람하고, 검토하고, 관리할 수 있도록 도와줍니다. PDF, Word, Excel, PowerPoint, HWP 파일마다 별도 앱을 설치하는 대신 한 곳에서 모두 처리할 수 있습니다. 동료가 보낸 프레젠테이션, 학교에서 받은 스프레드시트, 고객의 계약서, 인터넷에서 다운로드한 PDF까지 여러 문서 뷰어에 의존하지 않고 다양한 파일 형식을 다룰 수 있습니다. 👉 수업 자료, 업무 서류, 개인 기록까지 더 실용적인 방식으로 한곳에 보관하세요. 지금 문서 리더 - PDF 스캐너 앱을 사용해 보세요! 🟠 주요 기능 ✔ PDF, Word, Excel, HWP, PowerPoint 파일 읽기 ✔ PDF 문서 편집 및 주석 추가 ✔ 중요한 파일 북마크 ✔ 문서를 PDF로 스캔 ✔ 이미지를 PDF로 변환 ✔ PDF 파일 병합 및 분할 📚언제든 모든 문서 읽기 중요한 파일이 항상 컴퓨터 앞에 앉아 있을 때 도착하는 것은 아닙니다. 이동 중에 계약서를 확인해야 하거나, 회의 전에 프레젠테이션을 열어야 하거나, 쉬는 시간에 수업 자료를 검토해야 할 때도 있습니다. 이 앱을 사용하면 다양한 문서 형식에 한곳에서 접근할 수 있습니다. ✴️ 중요한 파일 보관 양식, 보고서, 매뉴얼, 청구서, 학습 노트처럼 반복해서 사용하는 문서도 있습니다. 북마크 기능을 사용하면 매번 폴더를 뒤질 필요 없이 자주 쓰는 파일로 즉시 돌아갈 수 있습니다. 📕PDF 편집기 읽기만으로는 부족한 경우가 많습니다. 공부하거나 일할 때 핵심 정보를 강조 표시하고, 중요한 부분에 밑줄을 긋고, 메모를 추가해야 할 수 있습니다. PDF 주석 도구는 중요한 세부 사항에 집중하도록 도와주고, 나중에 문서를 다시 볼 때도 더 편리하게 해줍니다. 📕PDF 스캐너 영수증, 증명서, 계약서, 손글씨 메모는 쉽게 분실될 수 있습니다. 이를 PDF 파일로 스캔하면 디지털 사본을 휴대폰에 안전하게 저장하고 필요할 때 언제든지 확인할 수 있습니다. 📕이미지를 PDF로 문서 사진은 갤러리에서 개인 사진과 뒤섞이기 쉽습니다. PDF 형식으로 변환하면 중요한 정보를 더 체계적으로 정리할 수 있고, 공유도 쉬워지며, 보관도 훨씬 편리해집니다. 👉 저장 공간을 절약하고, 앱 전환을 줄이고, 문서 작업 방식을 더 간단하게 만드세요. 지금 이 앱을 다운로드하세요! ☎️ 문서 리더 - PDF 스캐너 앱을 사용해 주셔서 감사합니다. 앞으로의 버전에서 문서 처리 경험을 더 향상시키기 위해 지속적으로 사용성을 다듬고 새로운 아이디어를 탐색하고 있습니다.",
+      "analysis": {
+        "app_key": "google:com.dcutuansaw.alldocumentreader.viewer.pdf.scanner",
+        "summary_ko": "다양한 형식의 문서를 한곳에서 열람하고 관리할 수 있는 통합 문서 뷰어 앱입니다. PDF, Word, Excel, HWP, PowerPoint 등 여러 파일 형식을 지원하여 별도의 앱 전환 없이 문서를 확인할 수 있습니다. 문서 스캔 및 편집 기능을 통해 효율적인 문서 관리를 돕습니다.",
+        "features_ko": [
+          "PDF, Word, Excel, HWP, PowerPoint 등 다양한 문서 형식을 열람할 수 있습니다.",
+          "PDF 문서에 주석을 추가하거나 내용을 편집할 수 있습니다.",
+          "자주 사용하는 문서를 북마크하여 빠르게 접근할 수 있습니다.",
+          "카메라를 이용해 종이 문서를 PDF로 스캔하여 저장할 수 있습니다.",
+          "이미지 파일을 PDF 형식으로 변환하여 정리할 수 있습니다.",
+          "여러 PDF 파일을 하나로 병합하거나 분할할 수 있습니다."
+        ],
+        "noteworthy_ko": "다양한 오피스 포맷을 하나의 앱에서 처리하는 통합 환경을 제공한다는 점이 개발 관점에서 흥미롭습니다. 다만, 각 포맷별 렌더링 엔진을 어떻게 최적화했는지가 핵심일 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 각 문서 포맷을 파싱하고 렌더링하는 라이브러리 연동입니다. 콘텐츠 제작 부담은 낮으나, 다양한 파일 형식의 호환성을 유지하는 테스트 부담이 큽니다. UI는 문서 가독성을 높이는 방향으로 설계해야 합니다.",
+        "idea_ko": "특정 문서 형식에 특화된 주석 공유 플랫폼",
+        "highlights_ko": [
+          "다양한 파일 형식을 단일 앱에서 통합 관리하는 편의성.",
+          "스캔 및 이미지 변환을 통한 디지털 문서화 기능."
+        ],
+        "systems_ko": [
+          "파일 시스템 접근 및 관리 모듈",
+          "문서 렌더링 엔진(PDF/Office)",
+          "이미지 처리 및 스캔 모듈",
+          "사용자 데이터(북마크) 저장 시스템",
+          "UI/UX 레이아웃 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 오피스 파일 형식의 렌더링은 복잡도가 매우 높습니다. 특히 HWP와 같은 특정 포맷 지원은 라이브러리 의존도가 높고 구현 난이도가 상당합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "PDF 뷰어 기능",
+            "파일 탐색기 UI",
+            "북마크 기능"
+          ],
+          "defer": [
+            "HWP 지원",
+            "고급 PDF 편집 기능",
+            "이미지 스캔 보정"
+          ],
+          "risks": [
+            "파일 형식별 렌더링 오류",
+            "대용량 파일 처리 시 메모리 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "문서 요약 공유기",
+            "concept": "문서의 핵심 내용을 요약하여 친구와 공유하는 기능입니다. 텍스트를 추출하고 요약하는 로직을 포함합니다.",
+            "first_step": "PDF에서 텍스트를 추출하는 간단한 기능을 구현합니다."
+          },
+          {
+            "title": "개인 문서 타임라인",
+            "concept": "문서 생성 및 수정 날짜를 기준으로 타임라인을 구성합니다. 업무 흐름을 시각화합니다.",
+            "first_step": "파일의 메타데이터를 읽어 날짜별로 정렬하는 기능을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "파일 입출력과 데이터 구조화에 대한 기초를 다지기에 좋습니다. 다만, 문서 렌더링 엔진 구현은 매우 어렵기에 기존 오픈소스 라이브러리 활용을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 파일 파싱 라이브러리나 보안 처리 방식이 명시되지 않았습니다. 외부 클라우드 연동 여부도 확인되지 않습니다.",
+        "name": "문서 리더 - PDF 스캐너",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.dcutuansaw.alldocumentreader.viewer.pdf.scanner&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 189,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 17,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:1462908562": {
+      "app_key": "apple:1462908562",
+      "name": "Despotism 3k",
+      "developer": "Nikolai Kuznetsov",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/kr/app/despotism-3k/id1462908562?uo=2",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:11:45+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "AI가 인간들을 노예로 만들었습니다... 뭐, 우리한테 좋은 일이죠! 우리는 이긴 편이니까요. 하찮은 인간들을 부려먹으면서 에너지를 채취해서 당신의 제국을 건립해보세요! 인간들이 피로로 쓰러지거나 굶어서 죽지 않도록 관리를 잘 해보세요! 약자들을 언제든지 생물 반응기로 보낼 수 있겠지만... 다르게 말씀드리자면 이 게임은 로그류 자원관리 시뮬레이션 게임인데 줄거리도 극적이고 팝컬처를 참조하는 에피소드도 풍부합니다. 농담도요! 도살이 이렇게 재미있었던 적은 처음일 겁니다! 게임 특징 1) 유머의 색깔은 - 당신의 전여친 마음과 같은 - 바로 블랙입니다. 무자비한 독재자의 세계에 푹 빠져보세요! 2) 끝내주는 자원관리 난이도: 동정심을 버리고 결정을 간결하게 최대한 빨리 내려야 합니다. 3) 로그류 게임: 모든 진행에서는 이벤트가 무작위로 발생되기 때문에 진행마다 특별합니다. 패배는 치명적이고 패배한 경우에는 게임을 다시 시작해야 합니다. 4) \"배우기는 쉽지만 익히기는 어렵다\": 게임 방법의 이해는 몇분밖에 안 걸리겠지만 그것을 능숙하게 쓰려면 엄청난 노력이 필요하실 것 같습니다.",
+      "analysis": {
+        "app_key": "apple:1462908562",
+        "summary_ko": "AI가 지배하는 세상에서 인간을 노예로 부리며 에너지를 채취하는 로그라이크 자원 관리 시뮬레이션 게임입니다. 플레이어는 독재자가 되어 인간들이 굶거나 피로로 죽지 않도록 효율적으로 관리해야 합니다. 무작위 이벤트와 블랙 유머가 가미된 극적인 서사가 특징입니다.",
+        "features_ko": [
+          "블랙 유머가 포함된 독재자 테마의 자원 관리 시스템을 제공합니다.",
+          "인간의 상태를 관리하여 피로와 굶주림으로 인한 죽음을 방지해야 합니다.",
+          "로그라이크 방식으로 매번 무작위 이벤트가 발생하여 게임 진행이 달라집니다.",
+          "패배 시 게임이 종료되는 높은 난이도의 자원 관리 규칙을 따릅니다."
+        ],
+        "noteworthy_ko": "자원 관리와 로그라이크 요소를 결합하여 매번 다른 상황을 연출하는 점이 흥미롭습니다. 특히 '인간을 자원으로 소모한다'는 설정이 게임의 블랙 유머와 잘 어우러져 독특한 분위기를 형성합니다.",
+        "development_ko": "무작위 이벤트 시스템과 자원 수치 관리 로직이 핵심입니다. 콘텐츠 제작 시 다양한 팝컬처 패러디와 유머러스한 텍스트를 작성하는 부담이 큽니다. 밸런스 측면에서는 자원 고갈 속도와 이벤트 난이도를 정교하게 조정해야 합니다.",
+        "idea_ko": "특정 자원(인간)의 상태를 관리하며 무작위 이벤트에 대응하는 로그라이크 자원 관리 구조를 활용한 게임.",
+        "highlights_ko": [
+          "무자비한 독재자 컨셉의 블랙 유머와 극적인 서사.",
+          "실패가 치명적인 로그라이크 방식의 긴장감 넘치는 자원 관리."
+        ],
+        "systems_ko": [
+          "자원 상태 관리 시스템",
+          "무작위 이벤트 생성기",
+          "게임 상태 및 세이브 관리",
+          "UI/UX 인터페이스",
+          "난이도 밸런스 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "핵심 메커니즘인 자원 관리와 무작위 이벤트 시스템은 구현 난이도가 높지 않으나, 게임의 재미를 결정짓는 밸런스 조정과 유머러스한 텍스트 작성에 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "자원 수치(에너지, 인간 상태) 관리 로직",
+            "기본적인 이벤트 발생 및 선택지 시스템",
+            "게임 오버 판정 로직"
+          ],
+          "defer": [
+            "복잡한 애니메이션",
+            "다양한 팝컬처 패러디 텍스트",
+            "고급 사운드 효과"
+          ],
+          "risks": [
+            "반복적인 플레이의 지루함",
+            "자원 밸런스 붕괴로 인한 난이도 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "우주선 생존 관리자",
+            "concept": "고장 난 우주선에서 승무원들을 관리하며 자원을 배분하는 게임입니다. 승무원마다 성격이 달라 이벤트 발생 시 대응 방식이 달라집니다.",
+            "first_step": "승무원의 체력과 산소 수치를 관리하는 기본 루프 구현."
+          },
+          {
+            "title": "좀비 요새 운영자",
+            "concept": "좀비 아포칼립스 상황에서 생존자들을 모아 요새를 운영합니다. 외부 습격 이벤트와 내부 갈등을 관리해야 합니다.",
+            "first_step": "외부 습격 이벤트 발생 시 자원 소모 로직 구현."
+          }
+        ],
+        "recommendation_ko": "자원 관리 게임의 핵심 루프와 로그라이크의 무작위성을 결합하는 방법을 배우기 좋습니다. 텍스트 기반의 유머를 게임 시스템에 녹여내는 기획력을 기르기에 적합합니다.",
+        "source_limitations_ko": "소개문에 명시된 '팝컬처 참조'의 구체적인 구현 방식이나, 실제 자원 관리의 세부 수치 및 이벤트 데이터 구조는 확인할 수 없습니다.",
+        "name": "Despotism 3k",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/despotism-3k/id1462908562?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 174,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.arrowiq.logic.puzzle.game": {
+      "app_key": "google:com.arrowiq.logic.puzzle.game",
+      "name": "ArrowIQ: Logic Puzzle",
+      "developer": "Adaric Music",
+      "source": "google",
+      "country": "KR",
+      "category": "game_puzzle",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.arrowiq.logic.puzzle.game&hl=ko&gl=KR",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:14:40+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ArrowIQ: 논리 퍼즐에 오신 것을 환영합니다! 모든 화살표는 여러분의 논리력을 시험하는 관건이며, 모든 움직임이 중요합니다. 보드를 분석하고, 올바른 순서를 파악하여 화살표를 하나씩 제거하세요. 각 퍼즐은 여러분의 앞을 내다보고, 최적의 경로를 찾아내고, 문제 해결 능력을 발휘하도록 도전합니다. 잠시 퍼즐로 휴식을 취하고 싶거나 두뇌를 단련하고 싶을 때, ArrowIQ는 간단한 조작과 기발한 도전 과제가 조화롭게 어우러진 만족스러운 경험을 제공합니다. 게임을 진행할수록 퍼즐은 더욱 어려워지며, 여러분의 추론, 관찰력, 계획 능력을 시험하게 됩니다. 게임 방법 화살표를 살펴보고 다음 움직임을 계획하세요. 올바른 순서대로 화살표를 탭하여 보드에서 제거하세요. 막힌 길에 주의하세요. 일부 화살표는 앞길이 비어 있을 때만 움직일 수 있습니다. 신중하게 생각하고 제한된 실수를 아끼세요. 퍼즐이 어려워지면 힌트와 유용한 파워업을 사용하세요. 모든 화살표를 제거하면 레벨이 완료되고 다음 도전 과제로 넘어갑니다. 특징 ✔ 난이도가 점차 높아지는 수백 개의 논리 퍼즐 ✔ 배우기 쉬운 조작법으로 추리력을 시험해 보세요. ✔ 매일 주어지는 도전 과제와 수집 가능한 트로피로 더욱 짜릿한 목표를 달성하세요. ✔ 어려운 퍼즐을 푸는 데 도움이 되는 힌트와 파워업 아이템 ✔ 깔끔한 그래픽, 부드러운 애니메이션, 편안한 사운드 효과 ✔ IQ 게임, 화살표 퍼즐, 두뇌 게임, 캐주얼 논리 게임을 좋아하는 분들에게 안성맞춤입니다. 당신의 IQ를 시험해 볼 준비가 되셨나요? 미리 생각하고, 올바른 순서를 찾아, ArrowIQ: Logic Puzzle에서 당신의 논리력이 어디까지 발휘될 수 있는지 확인해 보세요.",
+      "analysis": {
+        "app_key": "google:com.arrowiq.logic.puzzle.game",
+        "summary_ko": "보드 위의 화살표를 올바른 순서대로 탭하여 제거하는 논리 퍼즐 게임입니다. 화살표가 가리키는 방향에 다른 화살표가 있으면 움직일 수 없다는 규칙을 활용하여 최적의 경로를 찾아야 합니다. 난이도가 점차 높아지는 수백 개의 레벨을 통해 두뇌를 단련할 수 있습니다.",
+        "features_ko": [
+          "화살표를 탭하여 보드에서 제거하는 간단한 조작 방식을 제공합니다.",
+          "앞길이 비어 있는 화살표만 움직일 수 있다는 논리적 제약 조건을 포함합니다.",
+          "난이도가 점차 상승하는 수백 개의 퍼즐 레벨을 제공합니다.",
+          "막히는 구간에서 사용할 수 있는 힌트와 파워업 아이템을 지원합니다.",
+          "매일 주어지는 도전 과제와 수집 가능한 트로피 시스템이 있습니다."
+        ],
+        "noteworthy_ko": "단순한 규칙을 기반으로 복잡한 논리적 사고를 요구하는 퍼즐 게임입니다. 화살표 간의 상호작용(의존성)을 어떻게 데이터로 관리하고 레벨을 설계하는지가 개발의 핵심입니다.",
+        "development_ko": "2D 그리드 기반의 보드 데이터 관리와 화살표의 이동 가능 여부를 판단하는 알고리즘 구현이 핵심입니다. 레벨 디자인을 위한 데이터 구조화가 중요하며, 시각적인 피드백을 위한 애니메이션 처리가 필요합니다.",
+        "idea_ko": "화살표가 제거될 때 특정 방향으로 밀려나거나 회전하는 등의 변칙적인 규칙을 추가하여 퍼즐의 깊이를 더할 수 있습니다.",
+        "highlights_ko": [
+          "배우기 쉽지만 깊이 있는 논리적 사고를 요구하는 퍼즐 메커니즘입니다.",
+          "깔끔한 그래픽과 부드러운 애니메이션을 통해 만족스러운 퍼즐 해결 경험을 제공합니다."
+        ],
+        "systems_ko": [
+          "그리드 기반 보드 데이터 관리",
+          "화살표 이동 가능 여부 판정 알고리즘",
+          "레벨 데이터 로더 및 관리",
+          "힌트 및 파워업 시스템",
+          "UI 및 애니메이션 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "핵심 메커니즘은 단순하지만, 레벨이 높아질수록 복잡해지는 퍼즐의 논리적 구조를 설계하는 것이 중요합니다. 1인 개발 시 레벨 생성기를 만들거나 수동으로 레벨을 설계하는 과정이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "그리드 기반 화살표 배치 및 제거 로직",
+            "이동 가능 여부 체크 시스템",
+            "기본 레벨 10~20개"
+          ],
+          "defer": [
+            "매일 도전 과제",
+            "트로피 수집 시스템",
+            "다양한 파워업 아이템"
+          ],
+          "risks": [
+            "레벨 디자인의 난이도 조절 실패",
+            "퍼즐의 논리적 오류 발생 가능성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "색상 매칭 화살표",
+            "concept": "같은 색상의 화살표를 연속으로 제거해야 하는 규칙을 추가합니다. 색상 제약이 추가되어 기존보다 더 높은 논리적 사고를 요구합니다.",
+            "first_step": "화살표 객체에 색상 속성을 추가하고 제거 시 색상 일치 여부를 확인하는 로직을 작성합니다."
+          },
+          {
+            "title": "회전하는 화살표",
+            "concept": "특정 화살표를 탭하면 제거되는 대신 90도 회전하는 규칙을 도입합니다. 화살표의 방향이 바뀌면서 새로운 경로가 열리는 동적인 퍼즐을 만듭니다.",
+            "first_step": "화살표의 방향 속성을 변경하고 보드 상태를 갱신하는 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 핵심 로직과 레벨 디자인의 기초를 배우기에 매우 좋습니다. 논리적인 알고리즘 구현을 선호하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에 언급된 '파워업 아이템'의 구체적인 기능이나 '매일 도전 과제'의 서버 연동 방식은 확인되지 않습니다. 실제 게임 내 결제 기능이나 광고 수익 모델에 대한 정보는 없습니다.",
+        "name": "ArrowIQ: Logic Puzzle",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.arrowiq.logic.puzzle.game&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:1241040030": {
+      "app_key": "apple:1241040030",
+      "name": "Battle.net",
+      "developer": "Blizzard Entertainment, Inc.",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/battle-net/id1241040030",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:17:40+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Stay connected with Battle.net wherever you are. Keep up with your friends and groups: See what your friends are playing, add new friends, coordinate play time, discuss strategies, or just stay in touch. Jump into game, and never miss an opportunity to play together. Explore games and find your next adventure: Dive into everything that Battle.net has to offer: Read patch notes, explore your gaming communities and forums, and discover something new to play through the Shop and Games tabs. Keep your Battle.net account secure: Manage your account through account settings and protect it by attaching a Battle.net Authenticator. The Authenticator keeps your account safe by allowing you to approve or decline any login attempt from a simple tap of a button or notification. Contact Blizzard Support: Let us help you get back into game - browse support articles, open new tickets, and reply to ongoing tickets directly from the app. Airtime or Wi-Fi connection required for use. Languages Supported: * English * Français * Deutsch * Español (Latinoamérica) * Español (Europa) * Português * Italiano * Русский * 한국어 (Korean) * 繁體中文 (Traditional Chinese) * 简体中文 (Simplified Chinese) * 日本語 (Japanese) * ไทย (Thai) ©/TM/® 2026 Blizzard Entertainment, Inc.",
+      "analysis": {
+        "app_key": "apple:1241040030",
+        "summary_ko": "Battle.net 앱은 블리자드 엔터테인먼트 게임 사용자를 위한 커뮤니티 및 계정 관리 도구입니다. 친구와 대화하거나 게임 상태를 확인하고, 계정 보안을 위한 인증기 기능을 제공합니다. 또한 게임 관련 소식 확인 및 고객 지원 서비스에 직접 접근할 수 있습니다.",
+        "features_ko": [
+          "친구의 게임 플레이 상태를 확인하고 대화할 수 있습니다.",
+          "Battle.net 인증기를 통해 계정 로그인 시 보안을 강화할 수 있습니다.",
+          "게임 패치 노트 및 커뮤니티 소식을 확인할 수 있습니다.",
+          "고객 지원 티켓을 생성하고 답변을 확인할 수 있습니다.",
+          "상점 및 게임 탭을 통해 새로운 게임 정보를 탐색할 수 있습니다."
+        ],
+        "noteworthy_ko": "계정 보안과 소셜 기능을 결합하여 사용자가 앱을 필수적으로 설치하게 만드는 전략이 뛰어납니다. 고객 지원까지 앱 내에서 해결하도록 하여 사용자 이탈을 방지하는 구조입니다.",
+        "development_ko": "강력한 보안 인증 시스템 구현이 핵심이며, 글로벌 서비스에 대응하는 다국어 지원이 필요합니다. 실시간 메시징 시스템과 티켓 관리 시스템의 안정적인 운영이 중요합니다. 테스트 시에는 보안 인증의 정확성과 메시지 전송의 지연 시간을 최소화하는 데 집중해야 합니다.",
+        "idea_ko": "사용자의 게임 플레이 데이터를 분석하여, 특정 게임의 실력을 향상할 수 있는 맞춤형 가이드나 팁을 제공하는 기능을 추가하는 것이 적합합니다.",
+        "highlights_ko": [
+          "보안 중심 설계: 인증기 기능을 통해 계정 보호를 최우선으로 함.",
+          "통합 커뮤니티: 친구 관리부터 고객 지원까지 하나의 앱에서 해결."
+        ],
+        "systems_ko": [
+          "사용자 인증 및 보안 시스템",
+          "실시간 메시징 시스템",
+          "고객 지원 티켓 관리 시스템",
+          "콘텐츠 업데이트 알림 시스템",
+          "다국어 지원 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "계정 보안과 관련된 인증 시스템은 매우 높은 수준의 보안 지식이 필요합니다. 또한 대규모 글로벌 서버 운영은 개인 개발자가 감당하기 어려운 영역입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "친구 목록 및 메시지",
+            "공지사항 게시판",
+            "고객 지원 문의 폼"
+          ],
+          "defer": [
+            "보안 인증기 기능",
+            "실시간 게임 상태 연동",
+            "글로벌 다국어 지원"
+          ],
+          "risks": [
+            "보안 취약점 노출",
+            "서버 인프라 비용",
+            "사용자 개인정보 보호 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "게임 소식 큐레이터",
+            "concept": "여러 게임사의 소식을 모아 사용자가 관심 있는 게임의 뉴스만 필터링하여 보여줍니다.",
+            "first_step": "RSS 피드를 활용하여 뉴스 데이터를 가져오는 기능을 구현합니다."
+          },
+          {
+            "title": "친구 약속 잡기",
+            "concept": "친구들과 게임할 시간을 정하고, 시간이 되면 알림을 보내주는 간단한 스케줄러입니다.",
+            "first_step": "날짜와 시간을 선택하고 알림을 설정하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "보안이 중요한 앱의 구조와 커뮤니티 관리 기능을 학습하기에 좋습니다. 다만, 실제 보안 관련 기능은 전문적인 지식 없이 구현하지 않는 것을 강력히 권장합니다.",
+        "source_limitations_ko": "인증기 알고리즘, 서버 사이드 보안 아키텍처, 고객 지원 시스템의 백엔드 연동 방식은 확인되지 않았습니다.",
+        "name": "Battle.net",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/battle-net/id1241040030",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 89,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6807055784": {
+      "app_key": "apple:6807055784",
+      "name": "アントラーズ公式アプリ supported by 常陽銀行",
+      "developer": "KASHIMA ANTLERS FOOTBALL CLUB CO., LTD.",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%83%B3%E3%83%88%E3%83%A9%E3%83%BC%E3%82%BA%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA-supported-by-%E5%B8%B8%E9%99%BD%E9%8A%80%E8%A1%8C/id6807055784",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:20:52+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "鹿島アントラーズの公式アプリが「アントラーズ公式アプリ supported by 常陽銀行」としてリニューアル！ 試合情報、最新情報をはじめ、チケットやグッズ情報をチェックできるほか、会員証の表示など便利な機能が盛りだくさんのアプリです。",
+      "analysis": {
+        "app_key": "apple:6807055784",
+        "summary_ko": "가시마 앤틀러스 공식 앱은 축구 팬들을 위한 정보 제공 서비스입니다. 경기 정보, 최신 뉴스, 티켓 및 굿즈 정보를 한곳에서 확인할 수 있으며, 회원증 표시 등 팬들을 위한 편의 기능을 제공합니다. 상주은행의 지원을 받아 리뉴얼되었습니다.",
+        "features_ko": [
+          "경기 일정 및 결과 등 최신 축구 경기 정보를 제공합니다.",
+          "구단 관련 최신 뉴스를 실시간으로 확인할 수 있습니다.",
+          "티켓 구매 및 굿즈 정보에 접근할 수 있습니다.",
+          "앱 내에서 회원증을 표시하여 경기장 등에서 활용할 수 있습니다."
+        ],
+        "noteworthy_ko": "스포츠 구단의 공식 앱으로서 팬덤을 관리하고 정보를 통합 제공하는 전형적인 팬 커뮤니티 앱입니다. 오프라인 활동(경기장 방문)과 온라인 정보 제공을 연결하는 점이 중요합니다.",
+        "development_ko": "구단 서버와 연동된 실시간 정보 업데이트 시스템이 핵심입니다. 회원증 표시를 위한 보안 인증 기능과 티켓/굿즈 쇼핑몰 연동이 필요합니다. 1인 개발 시 구단과의 공식적인 데이터 연동 권한 확보가 가장 큰 과제입니다.",
+        "idea_ko": "지역 스포츠 팀을 위한 팬 커뮤니티 앱.",
+        "highlights_ko": [
+          "구단 공식 정보를 통합하여 팬들에게 편의 제공.",
+          "회원증 등 오프라인 활동과 연계된 디지털 기능."
+        ],
+        "systems_ko": [
+          "뉴스 및 경기 정보 API 연동 시스템",
+          "사용자 회원증 생성 및 인증 시스템",
+          "티켓/굿즈 외부 링크 관리 시스템",
+          "푸시 알림 시스템",
+          "사용자 프로필 및 설정 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기능 자체는 정보 제공 위주로 구현이 어렵지 않으나, 구단 데이터와의 안정적인 연동과 보안이 중요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "경기 일정 게시판",
+            "뉴스 피드",
+            "회원증 UI"
+          ],
+          "defer": [
+            "앱 내 티켓 결제 시스템",
+            "굿즈 쇼핑몰 연동",
+            "실시간 채팅 기능"
+          ],
+          "risks": [
+            "데이터 연동 권한 확보 문제",
+            "개인정보 보호 및 보안 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "동네 축구팀 관리 앱",
+            "concept": "아마추어 축구팀을 위한 경기 일정 관리 및 멤버 출석 체크 앱입니다.",
+            "first_step": "팀 일정 등록 및 멤버별 출석 확인 기능 구현."
+          },
+          {
+            "title": "스포츠 팬 응원 기록장",
+            "concept": "팬들이 경기 관람 후 자신의 감상과 기록을 남기는 개인화된 다이어리 앱입니다.",
+            "first_step": "경기 정보 입력 및 관람 후기 작성 기능 구현."
+          }
+        ],
+        "recommendation_ko": "특정 조직을 위한 정보 제공 앱의 구조를 배우기에 좋습니다. 외부 API 연동과 사용자 인증 시스템을 연습하기에 적합합니다.",
+        "source_limitations_ko": "소개문에는 구단 서버와의 연동 방식이나 보안 인증 기술에 대한 정보가 없습니다. 실제 결제나 회원 정보 관리의 세부 사항은 확인되지 않았습니다.",
+        "name": "アントラーズ公式アプリ supported by 常陽銀行",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%82%A2%E3%83%B3%E3%83%88%E3%83%A9%E3%83%BC%E3%82%BA%E5%85%AC%E5%BC%8F%E3%82%A2%E3%83%97%E3%83%AA-supported-by-%E5%B8%B8%E9%99%BD%E9%8A%80%E8%A1%8C/id6807055784",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 94,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.camelgames.sd": {
+      "app_key": "google:com.camelgames.sd",
+      "name": "Shelter Defense",
+      "developer": "Era Evolutions Co Limited",
+      "source": "google",
+      "country": "US",
+      "category": "game_strategy",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.camelgames.sd&hl=en&gl=US",
+      "data_date": "2026-11-03",
+      "analysed_at": "2026-11-07T06:22:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Defenses on the surface have fallen, and the Zombie Tide approaches. A sudden calamity plunges civilization into ruin. Zombies rampage the surface, and survivors are driven underground. As the Shelter's Commander amidst the chaos, you must restart a system that has become overrun. Restore electricity, repair defense lines, organize production, and lead survivors against the zombie tides to seize back our hope of survival. This isn't a ready-made haven, but a shelter on the verge of collapse. The power generator is overloaded, resources are short, the entrance is damaged, and zombie tides continuously strike the defense lines. Each construction, deployment, and exploration determines whether the Shelter will survive the next crisis. Will you be able to lead the remnants to survival and re-ignite the torch of civilization? It's time to stand up and fight the last fight! Game Highlights Reboot the Underground Shelter Repair the power generator, coal mine, central control room, and other key facilities to bring the underground system back online. Devise strategies for resources, food, steel, and space management, gradually expanding your very own post-apocalyptic base. Deploy Defenses and Resist Zombie Tides Place defense towers to form defense lines on the surface, research and develop blueprints, build up firepower, and meet wave after wave of zombies head-on. As more and more powerful enemies appear, only by continuously upgrading the defense line can you keep the Shelter's entrance protected. Receive and Manage Survivors Send out signals calling for aid, take in survivors, assess their skills, and dispatch them to positions in stations like farms, dining halls, and factories. Monitor their health, mood, and satisfaction to not only let the shelter survive but to reestablish order. Recruit Heroes and Conduct Deep Explorations Heroes with various unique skills will join your team. Penetrate deep into zombie nests and abandoned facilities, searching for supplies, clues, and blood serum samples. Abandoned and fallen shelters hide dangerous experiments as well as keys to improve the future. Repair the Radar and Search the Wastelands Once the radar is restored, your underground shelter will no longer be cut off from the outside world. Locate distress signals, provide aid to squads of war vehicles, train armies, and clear away the surrounding threats, gradually taming the broader wastes. Form Alliances, Compete, and Expand In the wastelands, some Shelters may become enemies and others, allies. Prove your might and forge relations abroad, joining Alliances, and competing for resources and withstanding threats together with other survivors. The surface has fallen, but humanity has not yet failed. Now, Commander, reboot the shelter and fight on the final defense line.",
+      "analysis": {
+        "app_key": "google:com.camelgames.sd",
+        "summary_ko": "좀비 사태로 멸망한 세상에서 지하 벙커를 재건하고 생존자를 이끄는 전략 시뮬레이션 게임입니다. 플레이어는 벙커의 사령관이 되어 전력과 자원을 관리하고, 지상에 방어선을 구축해 좀비 무리를 막아내야 합니다. 생존자를 구조하고 영웅을 육성하며 황무지를 탐험하는 등 포스트 아포칼립스 세계관의 생존 과정을 경험합니다.",
+        "features_ko": [
+          "발전기, 광산 등 지하 시설을 복구하여 벙커 시스템을 재가동합니다.",
+          "식량, 강철 등 자원을 관리하고 벙커 내부 공간을 효율적으로 배치합니다.",
+          "지상에 방어 타워를 설치하고 업그레이드하여 몰려오는 좀비 무리를 방어합니다.",
+          "구조된 생존자들의 능력치를 평가하여 농장, 공장 등 적절한 작업장에 배치합니다.",
+          "고유 스킬을 가진 영웅을 모집하여 좀비 둥지와 버려진 시설을 탐험합니다.",
+          "레이더를 복구하여 외부와 소통하고 다른 생존자들과 동맹을 맺거나 경쟁합니다."
+        ],
+        "noteworthy_ko": "지하 벙커 관리와 지상 방어 타워 디펜스라는 두 가지 장르를 결합한 점이 흥미롭습니다. 자원 관리의 효율성이 방어선의 화력으로 직결되는 구조는 플레이어에게 지속적인 전략적 선택을 강요합니다.",
+        "development_ko": "핵심 구현 기술로는 타워 디펜스 로직, 자원 관리 시스템, 그리고 영웅/생존자 데이터 관리 구조가 필요합니다. 콘텐츠 제작 측면에서는 다양한 좀비 웨이브 밸런싱과 벙커 내부 시설의 업그레이드 단계 설계가 큰 비중을 차지합니다. 테스트 시에는 자원 수급 속도와 좀비 난이도 간의 균형을 맞추는 것이 중요합니다.",
+        "idea_ko": "벙커 내부의 온도나 산소 농도를 관리하는 환경 제어 시스템을 추가하여 생존 난이도를 높이는 방식이 적합합니다.",
+        "highlights_ko": [
+          "지하 벙커 재건과 지상 방어라는 이원화된 게임 플레이 구조를 갖추고 있습니다.",
+          "생존자 개별 관리와 영웅 탐험 요소가 결합되어 전략적 깊이를 더합니다."
+        ],
+        "systems_ko": [
+          "자원 생산 및 소비 관리 시스템",
+          "타워 디펜스 배치 및 웨이브 제어 시스템",
+          "생존자 상태(건강, 만족도) 관리 시스템",
+          "탐험 및 보상 획득 시스템",
+          "건물 업그레이드 및 기술 연구 트리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "자원 관리, 타워 디펜스, 영웅 육성 등 여러 시스템이 유기적으로 연결되어 있어 1인 개발 시 밸런스 조정과 콘텐츠 양 확보에 상당한 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 자원 생산 시스템",
+            "간단한 타워 배치 및 좀비 웨이브 로직",
+            "생존자 배치 UI"
+          ],
+          "defer": [
+            "멀티플레이어 동맹 시스템",
+            "복잡한 영웅 스킬 트리",
+            "실시간 채팅 기능"
+          ],
+          "risks": [
+            "자원 밸런스 붕괴로 인한 게임 루프의 재미 저하",
+            "다양한 좀비 개체 구현에 따른 리소스 제작 부담"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "벙커 온도 관리자",
+            "concept": "지하 벙커의 온도를 유지하기 위해 냉각/가열 장치를 관리하는 게임입니다. 외부 기온 변화에 따라 자원을 배분해야 합니다.",
+            "first_step": "온도 수치와 자원 소모량을 연동하는 간단한 시뮬레이션 로직 구현."
+          },
+          {
+            "title": "생존자 일기장",
+            "concept": "벙커 내 생존자들의 대화와 사건을 텍스트 기반으로 관리하는 어드벤처입니다. 선택지에 따라 벙커의 분위기가 바뀝니다.",
+            "first_step": "텍스트 이벤트 발생 및 결과 반영 시스템 구축."
+          }
+        ],
+        "recommendation_ko": "복합 장르 게임의 시스템 설계와 데이터 관리 방식을 배우기에 좋습니다. 다만, 방대한 콘텐츠가 필요하므로 핵심 재미 요소만 남기는 축소 구현 능력이 필수적입니다.",
+        "source_limitations_ko": "멀티플레이어 서버 구조, 결제 시스템, 구체적인 영웅 데이터 수치 등은 소개문에서 확인할 수 없으며, 실제 구현 시 별도의 설계가 필요합니다.",
+        "name": "Shelter Defense",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.camelgames.sd&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.cola.game": {
+      "app_key": "google:com.cola.game",
+      "name": "フランベシェフ：マージ＆クッキング",
+      "developer": "Microfun Limited",
+      "source": "google",
+      "country": "KR",
+      "category": "game_puzzle",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.cola.game&hl=ko&gl=KR",
+      "data_date": "2026-11-03",
+      "analysed_at": "2026-11-07T06:24:10+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "무한한 창의력이 펼쳐지는 '핫레스토랑: 머지&쿠킹'의 세계에 오신 것을 환영합니다! 식재료를 합성하고, 새로운 레시피를 해제하여 자신만의 조리 왕국을 세워보세요! 과연 미식계를 지배할 셰프가 될 수 있을까요? 👩‍🍳 식재료 합성: 기본 식재료로 조리해 침샘을 자극하는 요리를 만들어 보세요! 많이 합성할수록 레시피가 복잡해지고 도전 욕구를 자극합니다! 🏆 레시피 마스터: 에피타이저부터 디저트까지, 다양한 요리를 해제하고 마스터하세요. 궁극의 요리를 완성할 셰프는 누구? 🌍자신만의 레스토랑 건설: 레스토랑을 자유롭게 디자인하고 장식하며, 손님을 끌어모아 요리 왕국을 확장하세요! 🎨놀라운 그래픽: 생동감 넘치는 비주얼과 디테일한 애니메이션으로 요리의 재미를 극대화하세요! 궁극의 셰프가 될 준비 되셨나요? 지금 바로 '핫레스토랑: 머지&쿠킹'을 다운로드하고, 흥미진진한 요리 모험을 떠나보세요! 도움이 필요하신가요? 메일을 flambe-service@microfun.com 로 보내주시면 바로 도와드리겠습니다! 개인정보 보호정책: https://www.microfun.com/privacy_EN.html 고객 지원: https://www.microfun.com/userAgreementEN.html",
+      "analysis": {
+        "app_key": "google:com.cola.game",
+        "summary_ko": "식재료를 합성하여 요리를 만들고 레스토랑을 운영하는 머지(Merge) 및 요리 게임입니다. 다양한 식재료를 조합해 레시피를 해제하고 자신만의 레스토랑을 꾸밀 수 있습니다. 미식계를 지배하는 셰프가 되는 것을 목표로 합니다.",
+        "features_ko": [
+          "기본 식재료를 합성하여 더 높은 단계의 요리를 만듭니다.",
+          "합성 과정을 통해 다양한 레시피를 해제하고 마스터합니다.",
+          "레스토랑을 자유롭게 디자인하고 장식하여 손님을 유치합니다.",
+          "생동감 넘치는 비주얼과 애니메이션으로 요리 과정을 표현합니다."
+        ],
+        "noteworthy_ko": "머지 게임 특유의 중독성 있는 루프와 레스토랑 경영 시뮬레이션을 결합했습니다. 데이터 기반의 레시피 트리 구조와 보상 설계가 게임의 지속성을 결정합니다.",
+        "development_ko": "핵심 기술은 아이템 합성 로직과 UI 기반의 인벤토리 관리입니다. 콘텐츠 제작 부담은 레시피와 장식 아이템의 수에 비례하여 증가합니다. 밸런스 측면에서는 합성 단계가 올라갈수록 요구되는 시간과 보상의 적절한 조절이 필요합니다.",
+        "idea_ko": "특정 테마의 요리만 다루는 전문 머지 게임",
+        "highlights_ko": [
+          "식재료 합성이라는 단순한 규칙으로 복잡한 요리 레시피를 구현했습니다.",
+          "레스토랑 꾸미기 요소를 통해 시각적 만족감을 제공합니다."
+        ],
+        "systems_ko": [
+          "아이템 합성(Merge) 로직",
+          "레시피 데이터베이스",
+          "레스토랑 배치 및 UI 시스템",
+          "재화 및 에너지 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "머지 메커니즘은 구현이 직관적이나, 방대한 레시피 데이터와 UI 관리가 개발의 주된 업무가 됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "아이템 드래그 앤 드롭 합성",
+            "기본 레시피 데이터 구조",
+            "레스토랑 배치 UI"
+          ],
+          "defer": [
+            "복잡한 애니메이션",
+            "소셜 기능",
+            "다양한 테마의 장식 아이템"
+          ],
+          "risks": [
+            "합성 루프의 지루함",
+            "데이터 구조 설계의 확장성 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "푸드트럭 머지",
+            "concept": "레스토랑 대신 푸드트럭을 운영하며, 특정 지역을 이동하며 재료를 수급하고 요리를 판매하는 머지 게임입니다.",
+            "first_step": "재료 수급과 요리 판매가 반복되는 기본 게임 루프를 구현합니다."
+          },
+          {
+            "title": "전설의 레시피 북",
+            "concept": "요리 머지 게임에 수집형 요소를 강화하여, 희귀 레시피를 완성할 때마다 요리의 역사나 이야기를 보여주는 스토리 중심 게임입니다.",
+            "first_step": "레시피 해제 시 텍스트와 이미지를 출력하는 도감 시스템을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "데이터 구조 설계와 UI/UX 최적화를 배우기에 적합합니다. 머지 게임의 핵심 루프를 구현하며 게임 밸런스 조절의 기초를 익힐 수 있습니다.",
+        "source_limitations_ko": "소개문에 명시된 이메일 외의 고객 지원 시스템이나 구체적인 수익 모델은 확인되지 않습니다.",
+        "name": "フランベシェフ：マージ＆クッキング",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.cola.game&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "JP",
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:1592232631": {
+      "app_key": "apple:1592232631",
+      "name": "ジャンプNAVI",
+      "developer": "SHUEISHA Inc.",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%97navi/id1592232631",
+      "data_date": "2026-11-03",
+      "analysed_at": "2026-11-07T06:24:34+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ジャンプを120%楽しむアプリ、それが「ジャンプNAVI」！ ジャンプの情報を自分好みに、わかりやすくナビゲーションするアプリが登場！ 今すぐダウンロードして、毎日のジャンプライフを充実させて楽しもう！ ■ニュース、コミックス、イベント、動画など気になる情報を丸ごとチェック！ 各作品の最新ニュースのほか、雑誌最新号やジャンプコミックス新刊のお知らせ、更にイベント情報まで全てカバー！ 気になる情報を一気に抑えることができるぞ！ ■作品を選んで、スムーズに情報へアクセスできる！ お気に入り作品をフォロー、好きな作品に絞ってすばやくチェック！ ■新機能も続々追加していくぞ！ 「ジャンプフェスタ」にも対応！ 日々パワーアップするジャンプNAVIを見逃すな！",
+      "analysis": {
+        "app_key": "apple:1592232631",
+        "summary_ko": "점프NAVI는 주간 소년 점프 관련 정보를 한곳에서 모아볼 수 있는 정보 내비게이션 앱입니다. 뉴스, 만화 신간, 이벤트, 영상 등 다양한 콘텐츠를 사용자가 원하는 대로 확인하고 관리할 수 있습니다.",
+        "features_ko": [
+          "작품별 최신 뉴스 및 만화 신간 정보를 제공합니다.",
+          "사용자가 선호하는 작품을 팔로우하여 관련 정보를 빠르게 확인할 수 있습니다.",
+          "점프 페스타 등 주요 이벤트 정보를 안내합니다.",
+          "관련 영상 콘텐츠를 앱 내에서 체크할 수 있습니다."
+        ],
+        "noteworthy_ko": "특정 IP(지식재산권)를 중심으로 정보를 집약하여 팬덤의 접근성을 높인 점이 흥미롭습니다. 사용자 맞춤형 팔로우 기능을 통해 정보 과부하를 줄이는 구조가 돋보입니다.",
+        "development_ko": "다양한 소스에서 정보를 수집하는 크롤링 또는 API 연동 기술이 핵심입니다. 사용자별 팔로우 데이터를 관리하는 데이터베이스 설계와 이를 기반으로 한 푸시 알림 시스템이 필요합니다. 콘텐츠 업데이트에 따른 UI 유연성 확보가 중요합니다.",
+        "idea_ko": "관심사 기반의 맞춤형 정보 큐레이션 서비스.",
+        "highlights_ko": [
+          "특정 브랜드의 정보를 통합하여 제공하는 정보 허브.",
+          "사용자 관심사에 따른 맞춤형 정보 필터링 기능."
+        ],
+        "systems_ko": [
+          "데이터 수집 및 동기화 시스템",
+          "사용자 관심사 기반 필터링 엔진",
+          "푸시 알림 관리 시스템",
+          "콘텐츠 카테고리 관리 UI"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "정보를 수집하고 보여주는 구조는 비교적 구현이 명확합니다. 다만, 실시간으로 변하는 정보를 안정적으로 업데이트하는 데이터 관리 역량이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "뉴스 피드 UI",
+            "작품 팔로우 기능",
+            "카테고리별 정보 필터링"
+          ],
+          "defer": [
+            "실시간 이벤트 스트리밍",
+            "복잡한 사용자 프로필 시스템"
+          ],
+          "risks": [
+            "정보 소스(API)의 불안정성",
+            "데이터 최신성 유지 부담"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "특정 취미 정보 모음 앱",
+            "concept": "특정 취미(예: 캠핑, 프라모델)와 관련된 뉴스, 신제품, 커뮤니티 글을 모아 보여줍니다. 사용자는 관심 키워드를 설정하여 정보를 구독합니다.",
+            "first_step": "RSS 피드를 활용하여 특정 분야의 뉴스 데이터를 수집하고 보여주는 앱 제작."
+          },
+          {
+            "title": "이벤트 알림 캘린더",
+            "concept": "특정 분야의 행사 일정을 달력 형태로 보여주고, D-day 알림을 제공합니다. 사용자는 관심 있는 행사를 즐겨찾기 할 수 있습니다.",
+            "first_step": "수동으로 입력된 행사 데이터를 달력 UI에 표시하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 수집 및 가공, 사용자 맞춤형 UI 구성 방식을 배우기에 적합합니다. 특정 분야의 정보를 정리하는 앱을 만들고자 하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "정보를 가져오는 구체적인 데이터 소스(API 여부)가 명시되지 않았습니다. 외부 서비스와의 연동 방식이나 데이터 업데이트 주기는 확인되지 않았습니다.",
+        "name": "ジャンプNAVI",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%97navi/id1592232631",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 89,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "itch:a44bc3742274850e35c4": {
+      "app_key": "itch:a44bc3742274850e35c4",
+      "name": "Crazy Tuk-Tuk [Free] [Simulation] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "",
+      "detail_url": "https://skemerc.itch.io/crazy-tuktuk",
+      "data_date": "2026-11-03",
+      "analysed_at": "2026-11-07T06:26:16+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ONE MORE RIDE BEFORE WE RUN OUT OF TIME!",
+      "analysis": {
+        "app_key": "itch:a44bc3742274850e35c4",
+        "summary_ko": "제한된 시간 내에 운행을 마쳐야 하는 툭툭(Tuk-Tuk) 시뮬레이션 게임입니다. 긴박한 시간 제한 속에서 운전하는 경험을 제공합니다.",
+        "features_ko": [
+          "툭툭을 운전하는 시뮬레이션 게임플레이를 제공합니다.",
+          "시간 제한 내에 목표를 달성해야 하는 규칙이 있습니다.",
+          "Windows 환경에서 플레이 가능합니다."
+        ],
+        "noteworthy_ko": "툭툭이라는 독특한 이동 수단을 소재로 한 점이 흥미롭습니다. 차량의 물리적 특성을 어떻게 게임 내에서 구현했는지와 시간 제한이라는 압박감을 어떻게 연출했는지 확인이 필요합니다.",
+        "development_ko": "차량 물리 엔진과 시간 관리 시스템이 핵심입니다. 툭툭 특유의 조작감을 살리는 것이 중요하며, 제한 시간 내에 도달해야 하는 경로 설계가 필요합니다.",
+        "idea_ko": "승객을 태우고 목적지까지 빠르게 이동하는 '택시 시뮬레이션' 요소를 추가하여 목표를 명확히 하는 아이디어를 추천합니다.",
+        "highlights_ko": [
+          "툭툭을 소재로 한 독특한 시뮬레이션입니다.",
+          "시간 제한을 통한 긴박한 게임플레이를 제공합니다."
+        ],
+        "systems_ko": [
+          "차량 물리 및 조작 시스템",
+          "시간 제한 및 타이머 시스템",
+          "경로 안내 및 목표 지점 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "차량 물리 구현이 다소 복잡할 수 있으나, 기본적인 물리 엔진을 활용하면 구현 가능합니다. 맵 디자인과 시간 밸런스가 중요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "차량 조작",
+            "시간 제한 타이머",
+            "목표 지점 도달 판정"
+          ],
+          "defer": [
+            "차량 커스터마이징",
+            "다양한 맵 환경"
+          ],
+          "risks": [
+            "차량 조작감의 불만족",
+            "단순한 반복 플레이로 인한 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "툭툭 레이싱",
+            "concept": "다른 툭툭과 경쟁하는 레이싱 모드를 추가하여 속도감을 강조합니다.",
+            "first_step": "AI 차량 이동 로직 구현."
+          },
+          {
+            "title": "툭툭 배달부",
+            "concept": "시간 내에 물건을 배달하는 미션을 수행합니다. 경로 선택에 따라 시간이 달라지는 전략적 요소를 추가합니다.",
+            "first_step": "배달 목적지 생성 및 시간 보상 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "차량 시뮬레이션의 기초를 배우기에 적합합니다. 특정 이동 수단의 조작감을 게임으로 구현하는 과정을 경험하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "게임의 시점, 맵의 규모, 차량의 물리적 특성이 어떻게 구현되었는지에 대한 정보가 부족합니다.",
+        "name": "Crazy Tuk-Tuk [Free] [Simulation] [Windows]",
+        "source": "itch",
+        "detail_url": "https://skemerc.itch.io/crazy-tuktuk",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 10000,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
     }
   }
 }

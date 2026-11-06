@@ -9149,6 +9149,542 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-02"
+    },
+    "google:fenmysaho.pdf.reader.viewer": {
+      "app_key": "google:fenmysaho.pdf.reader.viewer",
+      "name": "PDF Reader - PDF Viewer",
+      "developer": "Jenmysaho",
+      "source": "google",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=fenmysaho.pdf.reader.viewer&hl=ko&gl=KR",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:03:04+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "PDF 리더 - PDF 뷰어는 Android 기기에서 PDF, Word(DOCX), Excel(XLSX), PowerPoint(PPTX)와 같은 일반적인 문서 형식을 열고 볼 수 있는 간단한 유틸리티입니다. 이 앱은 사용하기 쉽고 원활하게 작동하도록 설계되었습니다. 🌟 주요 기능 PDF 파일 읽기: 부드러운 스크롤 및 확대/축소 옵션으로 PDF 문서를 열고 볼 수 있습니다. 다양한 형식 지원: 파일 변환 없이 DOCX, XLSX, PPTX 파일을 볼 수 있습니다. 파일 관리: 앱 내에서 직접 문서를 정리하고 검색하고 공유할 수 있습니다. 빠른 액세스: 탭 한 번으로 로컬 저장소 또는 다른 앱의 문서에 액세스할 수 있습니다. 사용자 친화적인 인터페이스: 깔끔한 레이아웃과 간편한 탐색 기능을 제공합니다. 📌 사용 방법 1. 문서 열기: 기기 저장소에서 파일을 선택합니다. 2. 보기 및 검색: 페이지를 스크롤하고 확대/축소하거나 문서 내에서 콘텐츠를 검색할 수 있습니다. 3. 파일 관리: 앱에서 직접 파일을 정리하고 공유할 수 있습니다. 지금 바로 PDF 리더 - PDF 뷰어를 다운로드하여 안정적이고 가볍고 사용하기 쉬운 문서 읽기 및 관리 방법을 경험해 보세요.",
+      "analysis": {
+        "app_key": "google:fenmysaho.pdf.reader.viewer",
+        "summary_ko": "이 앱은 Android 기기에서 PDF 및 오피스 문서(DOCX, XLSX, PPTX)를 열람하고 관리할 수 있는 문서 뷰어 유틸리티입니다. 사용자는 기기 내 저장된 파일을 불러와 스크롤 및 확대/축소 기능을 통해 내용을 확인할 수 있습니다. 파일 관리 및 공유 기능을 포함하여 문서 접근성을 높인 것이 특징입니다.",
+        "features_ko": [
+          "PDF 파일을 열람하고 부드러운 스크롤 및 확대/축소 기능을 제공합니다.",
+          "DOCX, XLSX, PPTX 등 일반적인 오피스 문서 형식을 별도의 변환 없이 지원합니다.",
+          "앱 내에서 기기 저장소의 문서를 정리하고 검색하는 파일 관리 기능을 제공합니다.",
+          "탭 한 번으로 로컬 저장소의 문서에 빠르게 접근할 수 있습니다."
+        ],
+        "noteworthy_ko": "다양한 오피스 포맷을 단일 뷰어에서 통합 지원하는 점이 개발 관점에서 흥미롭습니다. 다만, 각 포맷별 렌더링 엔진을 직접 구현하는 것은 매우 복잡하므로, 외부 라이브러리 활용 여부가 개발 효율의 핵심일 것으로 추정됩니다.",
+        "development_ko": "핵심 구현 기술로는 Android의 문서 렌더링 라이브러리 활용이 필수적입니다. 콘텐츠 제작 부담은 낮으나, 다양한 파일 형식의 레이아웃 깨짐을 방지하는 호환성 테스트 부담이 큽니다. UI는 직관적인 파일 탐색기 구조를 중심으로 설계해야 합니다.",
+        "idea_ko": "특정 폴더의 문서를 자동으로 감지하여 최근 읽은 문서 목록을 위젯으로 제공하는 '문서 퀵 액세스 위젯' 아이디어가 개인 개발자에게 적합합니다.",
+        "highlights_ko": [
+          "PDF와 오피스 문서를 통합 관리하는 범용성.",
+          "사용자 친화적인 파일 탐색 및 관리 인터페이스."
+        ],
+        "systems_ko": [
+          "파일 시스템 접근 권한 관리",
+          "문서 렌더링 엔진(라이브러리)",
+          "파일 검색 및 인덱싱 시스템",
+          "UI/UX 탐색기"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "문서 렌더링 자체는 오픈소스 라이브러리를 통해 구현 가능하지만, 다양한 기기 환경에서의 호환성 유지와 파일 시스템 권한 처리가 까다롭기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "파일 선택기(File Picker)",
+            "PDF 렌더링 뷰어",
+            "기본 파일 목록 관리"
+          ],
+          "defer": [
+            "클라우드 연동",
+            "문서 편집 기능",
+            "OCR(문자 인식) 기능"
+          ],
+          "risks": [
+            "특정 문서 형식의 렌더링 오류",
+            "Android 버전별 파일 접근 권한 정책 변화"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "문서 요약 알림",
+            "concept": "읽은 문서의 핵심 키워드를 추출하여 알림으로 제공합니다. 문서의 내용을 분석하여 사용자가 기억해야 할 정보를 요약합니다.",
+            "first_step": "PDF 텍스트 추출 라이브러리를 사용하여 텍스트를 읽어오는 기능을 구현합니다."
+          },
+          {
+            "title": "문서 퀵 액세스 위젯",
+            "concept": "최근 읽은 문서 3개를 홈 화면 위젯에서 바로 열 수 있게 합니다. 앱을 거치지 않고 즉시 문서에 접근하는 편의성을 제공합니다.",
+            "first_step": "Android 위젯 API를 사용하여 최근 파일 경로를 저장하고 실행하는 로직을 작성합니다."
+          }
+        ],
+        "recommendation_ko": "파일 시스템 접근과 외부 라이브러리 통합을 경험하고 싶은 개발자에게 추천합니다. 다만, 문서 렌더링 엔진의 복잡도를 고려하여 처음부터 모든 형식을 지원하기보다 PDF 하나에 집중하는 것이 좋습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 렌더링 엔진 정보나 파일 보안(암호화) 기능, 클라우드 연동 여부가 명시되어 있지 않습니다. 실제 구현 시 외부 라이브러리의 라이선스 확인이 반드시 필요합니다.",
+        "name": "PDF Reader - PDF Viewer",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=fenmysaho.pdf.reader.viewer&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 378,
+        "reasons": [
+          "multi_country",
+          "newly_seen"
+        ],
+        "best_rank": 4,
+        "countries": [
+          "JP",
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "itch:db516edf964d50c52c21": {
+      "app_key": "itch:db516edf964d50c52c21",
+      "name": "Mechanical Force [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://ilia-kx.itch.io/mechanical-force",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:04:37+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Choose a small tank, piece by piece, and begin hunting other tanks.",
+      "analysis": {
+        "app_key": "itch:db516edf964d50c52c21",
+        "summary_ko": "Mechanical Force는 부품을 조합하여 자신만의 탱크를 제작하고 다른 탱크를 사냥하는 액션 게임입니다. 조립의 자유도와 전투의 재미를 결합한 형태입니다.",
+        "features_ko": [
+          "탱크의 각 부품을 선택하여 커스터마이징할 수 있습니다.",
+          "제작한 탱크를 이용해 적 탱크와 전투를 벌입니다."
+        ],
+        "noteworthy_ko": "부품 조합에 따른 성능 변화가 전투 결과에 직접적인 영향을 미치는 시스템이 흥미롭습니다. 조립 시스템과 물리 기반 전투의 결합이 개발의 핵심일 것으로 추정됩니다.",
+        "development_ko": "부품별 능력치 데이터 관리와 이를 조합하여 최종 탱크의 물리적 성능을 계산하는 시스템이 필요합니다. 전투 시 부품 파괴나 내구도 시스템 구현이 콘텐츠 제작의 주된 부담이 될 것입니다.",
+        "idea_ko": "부품 조합에 따라 탱크의 이동 방식이 완전히 바뀌는(예: 바퀴형 vs 다족보행형) 시스템을 도입하는 것이 좋습니다.",
+        "highlights_ko": [
+          "자신만의 탱크를 직접 설계하는 조립 시스템을 제공합니다.",
+          "적 탱크를 사냥하는 액션 중심의 게임 플레이를 지향합니다."
+        ],
+        "systems_ko": [
+          "부품 데이터베이스 및 조합 시스템",
+          "탱크 물리 제어 시스템",
+          "AI 적 탱크 행동 패턴",
+          "데미지 및 파괴 판정 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "부품 조합에 따른 물리적 밸런스 조정과 적 AI의 전투 로직을 동시에 구현해야 하므로 1인 개발자에게는 다소 높은 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "탱크 부품 조립 인터페이스",
+            "기본 이동 및 사격 로직",
+            "적 탱크와의 간단한 전투"
+          ],
+          "defer": [
+            "복잡한 부품 파괴 애니메이션",
+            "멀티플레이어 모드"
+          ],
+          "risks": [
+            "부품 조합에 따른 밸런스 붕괴",
+            "조립 시스템의 UI/UX 복잡도 증가"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "부품 상성 시스템",
+            "concept": "부품마다 속성(화염, 전기 등)을 부여하여 특정 부품 조합이 적의 특정 부품에 추가 피해를 주는 규칙입니다.",
+            "first_step": "부품 데이터에 속성 태그를 추가하고 데미지 계산식에 상성 계수 적용하기."
+          },
+          {
+            "title": "지형 활용 전투",
+            "concept": "탱크의 무게나 부품에 따라 지형을 파괴하거나 지형지물을 방패로 사용하는 전략적 전투를 도입합니다.",
+            "first_step": "파괴 가능한 지형 오브젝트를 배치하고 탱크 포격 시 충돌 판정으로 오브젝트 제거하기."
+          }
+        ],
+        "recommendation_ko": "데이터 기반의 게임 설계와 물리 기반 액션을 동시에 공부하고 싶은 개발자에게 적합합니다. 조립 시스템의 확장성을 고려한 데이터 구조 설계 능력을 기를 수 있습니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 조립 방식, 전투 시점(2D/3D), 게임의 진행 방식 등을 확인할 수 없습니다. 온라인 기능 여부도 불분명합니다.",
+        "name": "Mechanical Force [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://ilia-kx.itch.io/mechanical-force",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 335,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 15,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:net.liveatc.liveatc_app": {
+      "app_key": "google:net.liveatc.liveatc_app",
+      "name": "LiveATC for Android",
+      "developer": "LiveATC",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=net.liveatc.liveatc_app&hl=en&gl=US",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:09:08+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "LiveATC for Android is brought to you by LiveATC.net - listen to live air traffic control! (PLEASE READ ***IMPORTANT NOTICE*** IN FULL PRODUCT DESCRIPTION BEFORE PURCHASING - NOT ALL COUNTRIES AND/OR AIRPORTS ARE AVAILABLE) Stuck in the airport terminal with endless delays? Live near an airport and want to find out what's going on? Have you always wondered what pilots talk to air traffic controllers about? Now you can stop wondering and tune in live! LiveATC for Android provides a quick and easy way to listen in on live conversations between pilots and air traffic controllers near many airports around the world. LiveATC for Android lets you browse by U.S. state or by country to find an airport and listen in to live air traffic conversations at or near a given airport. You can also use the \"Nearby\" feature to find an airport near you. You can then add any channel to your Favorites list for quick and easy access. The LiveATC Network (http://liveatc.net) is the world's largest network of streaming audio feeds focused solely on aviation, currently covering over 1,200 airports around the world with over 2,000 different audio feeds and growing daily! Explanation of some of the needed device permissions: • The \"Location\" permission is required so that the app can determine what airports are located in your area when you select \"Nearby\" • The \"Device ID & Call Information\" permission is needed by the app so that it can detect when you're placing or receiving a phone call so that it can automatically stop the audio stream to prevent it from interfering with your phone call *** IMPORTANT NOTICE *** Please check to see if your country, city and/or airports of interest are covered by LiveATC *BEFORE PURCHASING* - check at: http://liveatc.net . Note that we currently have no coverage in the U.K., Belgium, Germany, Iceland, India, Italy, New Zealand, Spain and some other countries where streaming ATC communications is prohibited by local law. Available airports are subject to change at any time - LiveATC owns and operates many of the receivers used in the network but most are provided by volunteers working in cooperation with LiveATC. Available airports can change, sometimes due to reasons beyond LiveATC's control. Also, there is no guarantee that all feeds will be up 24/7, though we make our best effort to do so and have a great track record of uptime. Follow LiveATC for feed updates and breaking aviation and ATC-related news: Twitter: http://twitter.com/liveatc Facebook: http://facebook.com/liveatc",
+      "analysis": {
+        "app_key": "google:net.liveatc.liveatc_app",
+        "summary_ko": "LiveATC는 전 세계 공항의 관제탑과 조종사 간의 실시간 교신을 들을 수 있는 앱입니다. 사용자는 국가나 주별로 공항을 검색하여 실시간 오디오 피드를 청취할 수 있습니다. 주변 공항 찾기 기능을 통해 가까운 곳의 관제 정보를 쉽게 확인할 수 있습니다.",
+        "features_ko": [
+          "전 세계 1,200개 이상의 공항 관제 교신을 실시간으로 청취할 수 있습니다.",
+          "국가 또는 주별로 공항을 검색하여 피드를 찾을 수 있습니다.",
+          "주변 공항 찾기 기능을 통해 가까운 관제 정보를 확인할 수 있습니다.",
+          "자주 듣는 채널을 즐겨찾기에 추가하여 빠르게 접근할 수 있습니다."
+        ],
+        "noteworthy_ko": "전 세계 자원봉사자들이 제공하는 오디오 피드를 네트워크로 연결하는 구조가 흥미롭습니다. 실시간 스트리밍의 안정성과 네트워크 관리 능력이 서비스의 핵심입니다.",
+        "development_ko": "오디오 스트리밍 재생 기술과 네트워크 상태에 따른 버퍼링 처리가 핵심입니다. 위치 기반 서비스(GPS)를 활용한 주변 공항 검색 기능이 필요합니다. 전화 수신 시 오디오 자동 정지 등 시스템 이벤트 처리 구현이 중요합니다.",
+        "idea_ko": "특정 관심사(예: 항공, 기상, 해양)의 실시간 오디오 스트리밍을 모아주는 플랫폼이 적합합니다.",
+        "highlights_ko": [
+          "1,200개 이상의 공항을 포함하는 세계 최대 규모의 항공 관제 네트워크입니다.",
+          "전화 수신 시 자동으로 오디오를 정지하는 스마트한 시스템을 갖추고 있습니다."
+        ],
+        "systems_ko": [
+          "오디오 스트리밍 재생 시스템",
+          "위치 기반 공항 검색 시스템",
+          "즐겨찾기 및 데이터 관리 시스템",
+          "시스템 이벤트(전화 등) 감지 및 제어",
+          "네트워크 상태 모니터링"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "오디오 스트리밍 자체는 구현이 가능하지만, 전 세계의 방대한 데이터를 관리하고 안정적인 네트워크 연결을 유지하는 것은 운영 측면에서 난도가 있습니다. 개인 개발 시에는 소규모 피드부터 시작하는 것이 좋습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "오디오 스트리밍 재생",
+            "공항 목록 검색",
+            "즐겨찾기 기능"
+          ],
+          "defer": [
+            "전 세계 실시간 피드 서버 구축",
+            "사용자 기여형 피드 업로드 기능",
+            "고급 오디오 필터링"
+          ],
+          "risks": [
+            "스트리밍 서버 유지 비용",
+            "저작권 및 지역별 법적 규제 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지역 소방/경찰 무전 청취",
+            "concept": "공개된 지역 무전 채널을 실시간으로 청취하는 앱입니다. 재난 상황이나 지역 소식을 빠르게 접할 수 있습니다.",
+            "first_step": "공개된 스트리밍 URL을 통한 오디오 재생 구현."
+          },
+          {
+            "title": "자연의 소리 라이브",
+            "concept": "전 세계 자연 보호 구역의 실시간 환경음을 들을 수 있는 앱입니다. 명상이나 집중을 위해 사용합니다.",
+            "first_step": "다양한 환경음 스트리밍 리스트 구축."
+          }
+        ],
+        "recommendation_ko": "실시간 오디오 스트리밍 처리와 네트워크 이벤트 제어를 배우기에 매우 좋습니다. 미디어 앱 개발을 희망하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "오디오 피드의 소스 확보 방식, 서버 인프라 구성, 특정 국가의 법적 제한 사항에 대한 구체적인 기술적 대응은 확인되지 않습니다.",
+        "name": "LiveATC for Android",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=net.liveatc.liveatc_app&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 192,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 16,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.os.space.force.galaxy.alien": {
+      "app_key": "google:com.os.space.force.galaxy.alien",
+      "name": "Galaxiga: Galaxy Arcade Game",
+      "developer": "1SOFT",
+      "source": "google",
+      "country": "KR",
+      "category": "game_arcade",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.os.space.force.galaxy.alien&hl=ko&gl=KR",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:16:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "🔥 향수를 자극하는 클래식 슈팅 게임의 귀환! Galaxiga는 추억의 아케이드 스타일 슈팅에 현대적인 그래픽과 박진감 넘치는 전투를 더한 우주 슈팅 게임입니다. 강력한 전투기를 조종하며 외계인의 공격을 막고, 은하 최고의 사령관이 되어 보세요! 🌌 궁극의 우주 전쟁이 시작됩니다 당신은 은하 함대의 지휘관입니다. 최신 기술이 장착된 전투기를 조종하며, 적의 탄환을 피하고 강력한 무기를 발사하세요. 무기를 업그레이드하고, 방어막을 강화하며 새로운 능력을 해제해 전장을 지배하세요. 🔥 주요 특징 • 클래식 아케이드 슈팅 – 세로 스크롤 슈팅의 정석, 부드러운 조작과 세련된 효과 • 다양한 미션과 보스전 – 개성 넘치는 적과 거대한 보스를 상대하며 수십 개의 레벨을 클리어 • 전투기 커스터마이징 – 다양한 기체를 수집하고 강화해 나만의 전투 스타일을 완성 • 이벤트 & 보상 시스템 – 시즌 이벤트에 참여하고 희귀한 보상을 획득하세요 • 멀티플레이 & 협동 모드 – 전 세계 유저와 경쟁하거나 친구와 함께 거대 보스를 처치 • 글로벌 랭킹 시스템 – 최고의 파일럿 자리를 두고 세계와 겨뤄보세요 🚀 우주 전투의 달인이 되어라 단계가 높아질수록 난이도도 증가합니다. 빠른 반사 신경과 전략적인 판단이 생존의 열쇠! 과연 당신은 마지막까지 살아남을 수 있을까요? 🌠 클래식 감성과 현대적 재미의 만남 Galaxiga는 고전 슈팅의 향수와 함께, 세련된 비주얼과 깊이 있는 업그레이드 시스템으로 새로운 재미를 선사합니다. 🌍 세계 유저들과 경쟁하라 업적을 달성하고 랭킹을 올려, 은하 최고의 영웅으로 이름을 남기세요. 📥 지금 다운로드 전투를 시작하고, 은하를 지켜라! 지금 바로 Galaxiga: Galaxy Arcade Shooter Game를 다운로드하고 우주 모험을 시작하세요! 💬 커뮤니티에서 만나보세요 Fan Page: https://www.facebook.com/galaxiga.game Community: https://www.facebook.com/groups/GalaxigAGame/",
+      "analysis": {
+        "app_key": "google:com.os.space.force.galaxy.alien",
+        "summary_ko": "Galaxiga는 고전 아케이드 슈팅 게임의 감성을 현대적인 그래픽으로 재해석한 우주 슈팅 게임입니다. 플레이어는 전투기를 조종하여 적의 탄환을 피하고 보스를 물리치며 은하계를 지켜야 합니다. 다양한 기체 수집과 업그레이드 시스템을 통해 성장의 재미를 제공합니다.",
+        "features_ko": [
+          "세로 스크롤 방식으로 진행되는 클래식 아케이드 슈팅 게임입니다.",
+          "다양한 적과 거대 보스를 상대하며 레벨을 클리어합니다.",
+          "전투기를 수집하고 무기와 방어막을 업그레이드할 수 있습니다.",
+          "시즌 이벤트 참여를 통해 희귀 보상을 획득합니다.",
+          "글로벌 랭킹 시스템을 통해 전 세계 유저와 경쟁합니다."
+        ],
+        "noteworthy_ko": "고전적인 슈팅 메커니즘에 현대적인 보상 및 성장 시스템을 결합하여 리텐션을 높이는 전략이 돋보입니다. 1인 개발 시 슈팅 패턴의 다양성과 밸런스 조절이 게임의 재미를 결정짓는 핵심 요소가 될 것입니다.",
+        "development_ko": "탄막 슈팅의 핵심인 충돌 판정 알고리즘과 오브젝트 풀링을 통한 성능 최적화가 필수적입니다. 다양한 적의 공격 패턴을 데이터화하여 관리하는 구조가 필요하며, 밸런스 테스트를 위해 난이도별 시뮬레이션이 중요합니다.",
+        "idea_ko": "플레이어의 조작 방식에 따라 무기 속성이 실시간으로 변하는 '반응형 무기 시스템'을 도입하는 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "향수를 자극하는 클래식 슈팅에 현대적인 비주얼과 성장 요소를 결합했습니다.",
+          "글로벌 랭킹과 이벤트 시스템을 통해 지속적인 플레이 동기를 부여합니다."
+        ],
+        "systems_ko": [
+          "탄막 및 충돌 판정 시스템",
+          "오브젝트 풀링(성능 최적화)",
+          "레벨 및 적 공격 패턴 데이터 관리",
+          "사용자 데이터 및 랭킹 저장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "슈팅 게임의 기본 메커니즘은 구현이 명확하지만, 수십 개의 레벨과 보스 패턴을 제작하는 데 많은 시간이 소요됩니다. 1인 개발 시에는 적의 종류를 최소화하고 패턴 조합으로 분량을 확보하는 전략이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이동 및 사격 메커니즘",
+            "적 생성 및 충돌 판정",
+            "점수 및 레벨업 시스템"
+          ],
+          "defer": [
+            "멀티플레이어 협동 모드",
+            "복잡한 시즌 이벤트 시스템",
+            "글로벌 랭킹 서버 연동"
+          ],
+          "risks": [
+            "단조로운 플레이로 인한 빠른 흥미 상실",
+            "모바일 기기별 성능 최적화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "로그라이크 슈팅",
+            "concept": "매 판마다 무작위로 주어지는 스킬을 선택하여 자신만의 빌드를 구성하는 슈팅 게임입니다.",
+            "first_step": "기본 슈팅에 3가지 무작위 스킬 선택지를 추가하는 프로토타입을 만듭니다."
+          },
+          {
+            "title": "리듬 슈팅 게임",
+            "concept": "배경 음악의 비트에 맞춰 적이 등장하고 탄막이 발사되는 리듬 액션 슈팅입니다.",
+            "first_step": "음악의 비트 데이터에 맞춰 적의 생성 타이밍을 제어하는 시스템을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "게임 개발의 기초인 충돌 판정, 오브젝트 관리, UI 연동을 배우기에 최적의 장르입니다. 슈팅 게임은 규칙이 명확하여 개인 개발자가 완성도 높은 결과물을 만들기에 매우 적합합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 멀티플레이어 통신 방식(P2P/서버), 구체적인 수익 모델(광고/인앱 결제)의 구현 방식은 확인되지 않습니다.",
+        "name": "Galaxiga: Galaxy Arcade Game",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.os.space.force.galaxy.alien&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.underdogsports.fantasy": {
+      "app_key": "google:com.underdogsports.fantasy",
+      "name": "Underdog: Sports, Games & Rips",
+      "developer": "Underdog Sports Wagering, LLC",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.underdogsports.fantasy&hl=en&gl=US",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:20:07+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "JOIN MILLIONS OF FANS PLAYING NFL PICK'EM GAMES AND BEST BALL DRAFTS ALL THROUGHOUT THE SEASON! ▶ WHEN THEY BREAK TACKLES OR RACK UP YARDS YOU COULD WIN REAL CASH - Choose from hundreds of player projections every game day. - Passing yards Rushing yards Receptions Touchdowns and more. - Play NFL Superstar Swipe. Swipe right on who you think will break out this week. - Draft once and dominate all season with Best Ball. ▶ JOIN THE UNDERDOG REVOLUTION - Welcome to Underdog, the ultimate destination for daily fantasy sports (DFS). - Play alongside or against our millions of fans across the US who have already won over $2,000,000,000. ▶ PICK'EM, WATCH EM, WIN EM (UP TO 5000X!) - Think you know your sports or esports? Test your skills with our player projections Pick'em games. - Simply choose 2-8 of your favorite players and predict if they will perform higher or lower than their projections. - With 15 different sports and over 25 leagues, the choices are endless. ▶ WORLD-CLASS CUSTOMER SUPPORT - With more than 181k reviews and a stellar 4.8 rating, we value our fans' feedback. ▶ ALL YOUR FAVORITE SPORTS From esports to premier league to college hoops, we have all your favorite sports covered: - NFL Fantasy Football - NBA Fantasy Basketball - Fantasy College Football - Fantasy esports - WNBA Fantasy - Fantasy College Basketball - MLB Fantasy Baseball - PGA Fantasy Golf - NHL Fantasy Hockey - Fantasy Tennis - Fantasy Premier League / Soccer - Fantasy UFC / MMA ▶ SIMPLE, STRAIGHTFORWARD TRANSACTIONS: - Underdog accepts all your favorite payment options including Apple Pay, Amex, Visa, Mastercard, Bank Deposit, and PayPal. ------------------------------------ ▶ RESPONSIBLE GAMING NY: Call the 24/7 HOPEline at 1-877-8-HOPENY or Text HOPENY (467369). Must be 18+ (19+ in AL, NE; 19+ in CO for some games; 21+ in AZ, MA & VA) and present in a state where Underdog Fantasy operates. Not a gambling website. Void where prohibited. Terms apply. Bonus funds withdrawable only after playthrough of first deposit. Bonus funds expire if unused within 14 days. See https://assets.underdogfantasy.com/web/deposit-match-terms.html for details. Concerned with your play? Call 1-800-GAMBLER or visit www.ncpgambling.org Must be 18+ and present in a state where Underdog Predict operates. Event contracts are offered by Crypto.com | Derivatives North America, a CFTC-regulated exchange, powered by Underdog Predict. Trading on CDNA involves risk and may not be appropriate for all. By trading you risk losing your cost to enter any transaction, including fees. You should carefully consider whether trading on CDNA is appropriate for you in light of your investment experience and financial resources. Any trading decisions you make are solely your responsibility and at your own risk. The Event Contract has not been endorsed by any Association, any Association Participant that is part of such Association, or any Individual in any Association. The use of the name of any Association, Association Participant or Individual in any Association does not indicate any endorsement of this tradeable financial instrument. Rules are available here: https://www.nadex.com/rules. For Crypto.com Predictions, the term \"pick\" refers to a product traded on CDNA. ▶ DOWNLOAD NOW AND GET STARTED",
+      "analysis": {
+        "app_key": "google:com.underdogsports.fantasy",
+        "summary_ko": "다양한 스포츠 종목의 선수 성적을 예측하고 승패를 겨루는 판타지 스포츠 게임입니다. 사용자는 선수들의 성적을 예측하여 실제 현금 보상을 얻을 수 있는 Pick'em 게임과 드래프트 게임에 참여합니다. 미국 내 수백만 명의 사용자가 이용하는 대규모 플랫폼입니다.",
+        "features_ko": [
+          "NFL, NBA 등 15개 이상의 스포츠 리그에 대한 선수 성적 예측 게임을 제공합니다.",
+          "사용자가 2~8명의 선수를 선택하여 성적의 높고 낮음을 예측하는 Pick'em 게임을 지원합니다.",
+          "시즌 전체를 아우르는 Best Ball 드래프트 방식을 통해 팀을 구성할 수 있습니다.",
+          "예측 결과에 따라 실제 현금 보상을 획득할 수 있는 시스템을 운영합니다.",
+          "다양한 결제 수단을 통해 게임 참여를 위한 거래를 지원합니다."
+        ],
+        "noteworthy_ko": "스포츠 데이터와 금융 거래가 결합된 형태입니다. 사용자의 예측 능력에 따라 보상이 결정되는 구조이므로, 데이터의 정확성과 실시간 업데이트가 핵심입니다.",
+        "development_ko": "실시간 스포츠 데이터 API 연동과 예측 결과에 따른 보상 계산 로직이 핵심입니다. 대규모 사용자의 트래픽을 처리할 수 있는 안정적인 서버와 보안이 강화된 결제 시스템이 필요합니다.",
+        "idea_ko": "특정 소규모 리그나 아마추어 스포츠를 대상으로 한 예측 게임을 만드는 것이 적합합니다.",
+        "highlights_ko": [
+          "15개 이상의 다양한 스포츠 리그 지원.",
+          "선수 성적 예측을 통한 보상형 게임 모델."
+        ],
+        "systems_ko": [
+          "실시간 스포츠 데이터 API 연동",
+          "예측 결과 판정 엔진",
+          "사용자 보상 및 결제 시스템",
+          "랭킹 및 통계 관리 시스템",
+          "보안 및 책임 게임(Responsible Gaming) 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 데이터 연동과 금융 거래가 포함되어 있어 법적 규제와 보안 요구사항이 매우 높습니다. 개인 개발자가 모든 스포츠 데이터를 실시간으로 관리하는 것은 현실적으로 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "선수 선택 및 예측 입력 UI",
+            "예측 결과 확인 시스템"
+          ],
+          "defer": [
+            "실시간 현금 거래",
+            "15개 이상의 리그 데이터",
+            "복잡한 드래프트 시스템"
+          ],
+          "risks": [
+            "도박 관련 법적 규제",
+            "데이터 정확성 및 신뢰성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "동네 축구 예측 리그",
+            "concept": "지역 아마추어 축구 리그의 경기 결과를 예측하고 순위를 겨루는 비영리 게임입니다.",
+            "first_step": "경기 결과 데이터를 수동으로 입력하고 순위를 보여주는 간단한 웹 대시보드 제작."
+          },
+          {
+            "title": "가상 선수 가치 평가 게임",
+            "concept": "실제 성적이 아닌 가상의 선수 카드를 수집하고 교환하는 판타지 매니지먼트 게임입니다.",
+            "first_step": "선수 카드 데이터베이스를 구축하고 카드 뽑기 로직 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 기반의 게임 로직 설계와 사용자 참여형 시스템을 배우기에 좋습니다. 다만, 실제 현금 거래가 포함된 서비스는 법적 검토가 필수적이므로 주의해야 합니다.",
+        "source_limitations_ko": "사용된 데이터 API의 출처, 보상 지급의 구체적인 알고리즘, 법적 규제 준수 방식 등은 소개문에서 확인할 수 없습니다.",
+        "name": "Underdog: Sports, Games & Rips",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.underdogsports.fantasy&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 57,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "itch:a192b6f5745a3c375600": {
+      "app_key": "itch:a192b6f5745a3c375600",
+      "name": "Poncho and the Dino [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "",
+      "detail_url": "https://ais235.itch.io/poncho-and-the-dino",
+      "data_date": "2026-11-03",
+      "analysed_at": "2026-11-07T06:26:16+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Outrun a dinosaur three times your size. Two mistakes in a row and you're lunch.",
+      "analysis": {
+        "app_key": "itch:a192b6f5745a3c375600",
+        "summary_ko": "거대한 공룡으로부터 도망치는 액션 게임입니다. 두 번의 실수만으로도 게임 오버가 되는 높은 긴장감을 제공합니다.",
+        "features_ko": [
+          "거대 공룡의 추격을 피하는 긴박한 액션 게임플레이입니다.",
+          "두 번의 실수로 게임이 종료되는 엄격한 규칙을 가집니다.",
+          "빠른 반응 속도를 요구하는 난이도 구성을 가집니다."
+        ],
+        "noteworthy_ko": "단순한 규칙을 통해 극도의 긴장감을 유도하는 설계가 돋보입니다. 플레이어의 실수를 어떻게 시각적으로 피드백하는지가 게임의 재미를 결정할 것으로 추정됩니다.",
+        "development_ko": "추격 AI의 경로 탐색과 플레이어의 입력 반응 속도가 핵심입니다. 짧은 호흡의 게임이므로 반복 플레이를 유도하는 리트라이 시스템이 중요합니다.",
+        "idea_ko": "공룡의 추격 패턴을 무작위로 생성하여 매번 다른 경로로 도망쳐야 하는 로그라이크 요소를 추가하는 아이디어를 추천합니다.",
+        "highlights_ko": [
+          "높은 난이도와 긴장감을 강조한 액션 게임입니다.",
+          "실수에 대한 엄격한 페널티 시스템을 갖추고 있습니다."
+        ],
+        "systems_ko": [
+          "캐릭터 이동 및 장애물 회피",
+          "AI 추격 로직",
+          "게임 상태 관리(실수 카운트)",
+          "반복 플레이를 위한 리트라이 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 단순하여 구현 난이도는 낮습니다. 다만, 플레이어가 납득할 수 있는 난이도 밸런스를 맞추는 것이 중요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "플레이어 이동",
+            "공룡 추격 AI",
+            "실수 카운트 및 게임 오버 로직"
+          ],
+          "defer": [
+            "다양한 캐릭터 스킨",
+            "레벨 업 시스템"
+          ],
+          "risks": [
+            "단조로운 게임 플레이",
+            "불합리한 난이도로 인한 피로감"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "공룡 추격전: 생존",
+            "concept": "도망치는 길에 아이템을 배치하여 공룡을 잠시 멈추게 하는 전략적 요소를 추가합니다.",
+            "first_step": "아이템 획득 및 공룡 일시 정지 로직 구현."
+          },
+          {
+            "title": "공룡의 시야",
+            "concept": "공룡의 시야각을 시각화하여 플레이어가 숨거나 피할 수 있는 공간을 찾는 잠입 액션 요소를 추가합니다.",
+            "first_step": "공룡의 시야 범위(FOV) 구현."
+          }
+        ],
+        "recommendation_ko": "간결한 규칙으로 긴장감을 만드는 게임 디자인을 배우기에 좋습니다. 액션 게임의 기본기를 다지려는 개발자에게 추천합니다.",
+        "source_limitations_ko": "게임의 시점(2D/3D), 조작 방식, 공룡의 AI가 어떻게 동작하는지 구체적인 정보가 부족합니다.",
+        "name": "Poncho and the Dino [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://ais235.itch.io/poncho-and-the-dino",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 10000,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
     }
   }
 }

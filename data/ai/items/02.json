@@ -8392,6 +8392,721 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-02"
+    },
+    "google:com.KonfaGames.Despotism3k": {
+      "app_key": "google:com.KonfaGames.Despotism3k",
+      "name": "Despotism 3k (専制 3k)",
+      "developer": "konfa games",
+      "source": "google",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.KonfaGames.Despotism3k&hl=ko&gl=KR",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:04:08+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "AI가 인간들을 노예로 만들었습니다... 뭐, 우리한테 좋은 일이죠! 우리는 이긴 편이니까요. 하찮은 인간들을 부려먹으면서 에너지를 채취해서 당신의 제국을 건립해보세요! 인간들이 피로로 쓰러지거나 굶어서 죽지 않도록 관리를 잘 해보세요! 약자들을 언제든지 생물 반응기로 보낼 수 있겠지만... 다르게 말씀드리자면 이 게임은 로그류 자원관리 시뮬레이션 게임인데 줄거리도 극적이고 팝컬처를 참조하는 에피소드도 풍부합니다. 농담도요! 도살이 이렇게 재미있었던 적은 처음일 겁니다! 게임 특징 1) 유머의 색깔은 - 당신의 전여친 마음과 같은 - 바로 블랙입니다. 무자비한 독재자의 세계에 푹 빠져보세요! 2) 끝내주는 자원관리 난이도: 동정심을 버리고 결정을 간결하게 최대한 빨리 내려야 합니다. 3) 로그류 게임: 모든 진행에서는 이벤트가 무작위로 발생되기 때문에 진행마다 특별합니다. 패배는 치명적이고 패배한 경우에는 게임을 다시 시작해야 합니다. 4) \"배우기는 쉽지만 익히기는 어렵다\": 게임 방법의 이해는 몇분밖에 안 걸리겠지만 그것을 능숙하게 쓰려면 엄청난 노력이 필요하실 것 같습니다.",
+      "analysis": {
+        "app_key": "google:com.KonfaGames.Despotism3k",
+        "summary_ko": "이 게임은 AI가 인간을 지배하는 세계관을 배경으로 한 로그라이크 자원 관리 시뮬레이션입니다. 플레이어는 독재자가 되어 인간 노예들을 관리하며 에너지를 채취하고 제국을 건설해야 합니다. 인간이 굶거나 피로로 죽지 않도록 효율적으로 자원을 배분하는 것이 핵심입니다.",
+        "features_ko": [
+          "인간 노예를 관리하여 에너지를 채취하는 자원 관리 시스템을 제공합니다.",
+          "로그라이크 방식을 채택하여 매 플레이마다 무작위 이벤트가 발생합니다.",
+          "인간의 피로도와 굶주림 상태를 실시간으로 모니터링해야 합니다.",
+          "블랙 유머가 섞인 독특한 세계관과 스토리를 제공합니다.",
+          "패배 시 게임이 종료되는 높은 난이도의 도전을 제공합니다."
+        ],
+        "noteworthy_ko": "자원 관리와 로그라이크의 결합은 플레이어에게 매번 새로운 전략적 선택을 강요한다는 점에서 흥미롭습니다. 특히 인간을 '자원'으로 취급하는 블랙 유머적 설정이 게임의 몰입감을 높이는 핵심 요소로 보입니다.",
+        "development_ko": "다양한 무작위 이벤트 데이터베이스 구축과 자원 간의 밸런스 조정이 가장 큰 부담입니다. 상태 관리 시스템을 통해 인간의 상태 변화를 실시간으로 추적해야 합니다. UI/UX는 복잡한 관리 상황을 직관적으로 보여주는 것이 중요합니다.",
+        "idea_ko": "인간 노예 관리라는 테마를 유지하면서, 관리 대상의 개성을 강화하는 시스템이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "독재자라는 컨셉을 극대화한 블랙 유머와 스토리텔링.",
+          "무작위 이벤트로 인해 매번 달라지는 자원 관리의 긴장감."
+        ],
+        "systems_ko": [
+          "자원 관리 및 상태 추적 시스템",
+          "무작위 이벤트 생성기",
+          "게임 상태 저장 및 로드",
+          "UI 대시보드 및 알림 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 이벤트 간의 밸런스를 맞추고, 자원 관리의 긴장감을 유지하는 시스템 설계가 복잡하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "인간 상태 관리 로직",
+            "에너지 채취 및 소비 루프",
+            "기본 이벤트 발생 시스템"
+          ],
+          "defer": [
+            "복잡한 팝컬처 참조 에피소드",
+            "다양한 엔딩 분기"
+          ],
+          "risks": [
+            "반복적인 플레이의 지루함",
+            "자원 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "노예 개성 시스템",
+            "concept": "각 노예에게 고유한 성격과 능력을 부여하여 관리의 복잡성을 높입니다.",
+            "first_step": "노예 객체에 성격 속성을 추가하고 작업 효율에 반영하기."
+          },
+          {
+            "title": "독재자 스킬 트리",
+            "concept": "에너지를 사용하여 독재자의 능력을 업그레이드하는 성장 요소를 추가합니다.",
+            "first_step": "에너지 소모를 통한 생산 효율 증가 버튼 구현."
+          }
+        ],
+        "recommendation_ko": "자원 관리 게임의 핵심 루프를 설계하고 밸런스를 조정하는 능력을 기르기에 매우 좋습니다. 로그라이크 시스템을 구현해보고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "구체적인 이벤트의 종류, 에너지 채취의 수학적 공식, 게임 내 팝컬처 참조의 상세 범위 등은 확인되지 않습니다.",
+        "name": "Despotism 3k (専制 3k)",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.KonfaGames.Despotism3k&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 345,
+        "reasons": [
+          "multi_country",
+          "newly_seen"
+        ],
+        "best_rank": 15,
+        "countries": [
+          "JP",
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6821074922": {
+      "app_key": "apple:6821074922",
+      "name": "Questrover",
+      "developer": "Zondug Kim",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/kr/app/questrover/id6821074922?uo=2",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:09:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "게시판에는 의뢰가 붙어 있습니다. 사라지는 수확꾼을 찾아 달라는 부탁, 밤마다 나타나는 유령, 탑에 갇힌 아가씨를 구해 달라는 공고. 보수는 적혀 있지만, 모든 사정이 적혀 있지는 않습니다. 퀘스트로버는 글을 읽고, 선택하고, 주사위를 굴리며 나아가는 판타지 RPG입니다. 메모를 읽고 의뢰인을 찾아가 이야기를 들은 뒤 길을 떠나세요. 숲과 고성, 무덤과 지하에서 마주치는 장면마다 당신의 판단이 필요합니다. ■ 읽고, 의심하고, 선택하세요 검을 뽑을지, 말을 건넬지, 위험을 감수할지 결정하세요. 결과는 능력치 주사위가 가립니다. 의뢰인의 부탁을 따르다 보면 처음 들었던 이야기와 다른 진실을 만나기도 하고, 같은 의뢰라도 고른 길에 따라 결말이 달라집니다. ■ 나만의 모험가 전사, 마법사, 도적, 성직자 가운데 직업을 고르고, 어디서 무엇을 하며 자랐는지 출신을 정하세요. 출신은 능력치와 판정에 힘을 보태고, 의뢰인이 당신의 과거를 알아보며, 게임 진행 중 그 경험들이 도움이 됩니다. ■ 장비 하나가 주사위 하나 새로운 장비는 새로운 주사위입니다. 검과 방패, 마법책과 마법 지팡이 모두 주사위입니다. 주사위를 굴리고, 스킬 칸에 놓아 공격하고, 막고, 치유하세요. 직접 배치해도 되고 자동 배치에 맡겨도 됩니다. 새 무기와 방어구를 구해 다가올 싸움에 대비하세요. 작은 강아지 동료도 따라나서 함께 덤빕니다. ■ 마을의 소문을 따라 더 큰 이야기로 게임 런칭 버전에서는 개발자가 한 땀 한 땀 작업한 87편의 의뢰가 기다립니다. 하나의 의뢰로 끝나지 않고 의뢰인이나 사건의 관계인들이 의뢰 이후에도 나타납니다. 메인 스토리를 진행하는 의뢰와 의뢰의 연쇄가 있는 경우도 있습니다. 인물들은 앞선 의뢰에서 어떤 선택을 했는지 기억합니다. ■ 모험의 흔적을 남기세요 겪었던 사건과 쓰러뜨린 괴물을 견문록에서 확인할 수 있습니다. 싸움을 거듭하며 알아낸 괴물의 습성과 약점은 다음 모험의 단서가 되고, 업적을 이루면 계승 유물을 얻습니다. 앞서 놓쳤던 모험의 단서를 새로운 인물로 알게 될 수도 있습니다. ■ 동료 카드 내 모험가를 코드나 QR로 친구에게 보내면, 친구의 모험에 동료로 함께합니다. ※ 앱 구매에 본편의 모든 마을과 의뢰가 포함됩니다. ※ 꾸밈 주사위는 별도 앱 내 구입 상품이며, 외형만 바뀌고 능력에는 영향을 주지 않습니다.",
+      "analysis": {
+        "app_key": "apple:6821074922",
+        "summary_ko": "퀘스트로버는 글을 읽고 선택하며 주사위를 굴려 진행하는 판타지 RPG입니다. 플레이어는 직업과 출신을 선택하여 모험을 떠나며, 장비가 곧 주사위가 되는 독특한 전투 시스템을 경험합니다. 의뢰인의 사연과 선택에 따라 결말이 달라지는 서사 중심의 게임입니다.",
+        "features_ko": [
+          "텍스트 기반의 의뢰를 읽고 선택지를 고르는 서사 진행 방식입니다.",
+          "직업과 출신에 따라 능력치와 판정이 달라지는 캐릭터 생성 시스템입니다.",
+          "장비를 주사위로 활용하여 공격, 방어, 치유를 수행하는 전투 규칙입니다.",
+          "이전 의뢰의 선택을 기억하는 인물들과 연쇄적인 의뢰 시스템을 제공합니다.",
+          "QR 코드를 통해 친구의 모험가를 동료로 초대하는 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "장비를 주사위로 치환한 아이디어가 매우 독창적입니다. 서사와 전투를 주사위 판정이라는 하나의 메커니즘으로 통합하여 개발 효율과 게임성을 동시에 잡은 것으로 추정됩니다.",
+        "development_ko": "텍스트 기반의 방대한 시나리오 관리와 주사위 판정 로직이 핵심입니다. 87편의 의뢰를 구현하기 위한 데이터 구조화가 필수적이며, 캐릭터 능력치와 장비 주사위 간의 밸런스 테스트가 중요합니다. 1인 개발 시 시나리오 작성과 데이터 입력에 많은 시간이 소요될 것입니다.",
+        "idea_ko": "주사위 대신 '카드 조합'을 사용하여 전투를 수행하는 덱 빌딩 기반의 퀘스트 시스템을 제안합니다.",
+        "highlights_ko": [
+          "장비가 곧 주사위가 되는 직관적인 전투 시스템.",
+          "선택에 따라 변화하는 연쇄적인 의뢰와 서사 구조."
+        ],
+        "systems_ko": [
+          "텍스트 및 선택지 관리 시스템",
+          "주사위 판정 및 확률 계산 엔진",
+          "캐릭터 능력치 및 장비 데이터 관리",
+          "의뢰 연쇄 및 상태 저장 시스템",
+          "QR 코드 동료 공유 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "방대한 텍스트 데이터와 의뢰 간의 관계를 관리하는 시스템 설계가 복잡합니다. 87편의 의뢰를 모두 구현하는 것은 1인 개발자에게 상당한 콘텐츠 제작 부담을 줍니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 텍스트 선택지 시스템",
+            "주사위 판정 로직",
+            "장비-주사위 매핑 시스템"
+          ],
+          "defer": [
+            "QR 코드 동료 공유",
+            "견문록 및 업적 시스템"
+          ],
+          "risks": [
+            "시나리오 분량에 따른 제작 지연",
+            "주사위 판정 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "카드 퀘스트로버",
+            "concept": "주사위 대신 카드를 사용하여 퀘스트를 해결합니다. 카드의 수치와 효과를 조합하여 전략성을 높입니다.",
+            "first_step": "카드 3장을 선택하여 판정을 수행하는 기본 전투 루프 구현."
+          },
+          {
+            "title": "로그라이크 퀘스트로버",
+            "concept": "매번 무작위로 생성되는 의뢰와 지도를 탐험하는 방식입니다. 반복 플레이의 재미를 강조합니다.",
+            "first_step": "의뢰 생성 알고리즘과 맵 이동 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "서사 중심의 게임에서 데이터 관리와 시스템 통합을 배우기에 최적입니다. 텍스트와 게임 메커니즘을 어떻게 조화시킬지 고민하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에 언급된 '87편의 의뢰'가 구체적으로 어떤 데이터 구조로 관리되는지 알 수 없습니다. 앱 내 구매 기능에 대한 보안 및 결제 구현은 소개문에 근거가 없으므로 제외해야 합니다.",
+        "name": "Questrover",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/questrover/id6821074922?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 183,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6786206777": {
+      "app_key": "apple:6786206777",
+      "name": "Cube Smash - Puzzle Game",
+      "developer": "Combo Games",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_casual",
+      "detail_url": "https://apps.apple.com/jp/app/cube-smash-puzzle-game/id6786206777?uo=2",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:10:55+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Cube Smash is a satisfying 3D puzzle game where every tap removes matching cubes, gradually breaking down colorful creations one piece at a time. Simple to play and deeply satisfying to master, every level offers a fresh puzzle wrapped in vibrant visuals and smooth animations. Features • Satisfying color-matching gameplay • Beautifully crafted 3D cube creations • Relaxing one-tap controls • Hundreds of unique puzzles • Fresh mechanics introduced throughout the journey • Smooth animations and rewarding visual effects • No time limits — play at your own pace • Offline play Every level presents a new cube creation waiting to be cleared. Match the right colors, plan the best sequence, and watch each model gradually disappear as every cube is removed. Whether you're looking for a relaxing puzzle game or simply enjoy satisfying gameplay, Cube Smash offers a polished experience that's easy to pick up and hard to put down. Download Cube Smash and start clearing cubes!",
+      "analysis": {
+        "app_key": "apple:6786206777",
+        "summary_ko": "Cube Smash는 3D 큐브를 탭하여 제거하는 퍼즐 게임입니다. 색상을 맞춰 큐브를 없애며 모델을 완성해 나가는 만족스러운 경험을 제공합니다. 간단한 조작과 다채로운 비주얼을 통해 누구나 쉽게 즐길 수 있습니다.",
+        "features_ko": [
+          "색상 매칭을 통한 큐브 제거 게임플레이를 제공합니다.",
+          "3D로 제작된 다양한 큐브 모델을 단계별로 클리어합니다.",
+          "한 번의 탭으로 조작하는 직관적인 컨트롤을 지원합니다.",
+          "시간 제한 없이 자신의 속도에 맞춰 퍼즐을 풀 수 있습니다.",
+          "오프라인 환경에서도 게임을 플레이할 수 있습니다."
+        ],
+        "noteworthy_ko": "단순한 탭 방식의 퍼즐이지만, 큐브가 점진적으로 사라지는 시각적 피드백이 핵심입니다. 개발 관점에서는 3D 오브젝트의 배치와 제거 시 발생하는 파티클 효과의 최적화가 사용자 경험의 만족도를 결정할 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 3D 오브젝트의 그리드 배치 및 탭 이벤트 처리입니다. 콘텐츠 제작은 다양한 큐브 모델링 데이터 구성이 주를 이루며, 밸런스 측면에서는 큐브 제거 순서에 따른 난이도 조절이 중요합니다. 1인 개발 시에는 효율적인 3D 에셋 관리 시스템 구축이 필수적입니다.",
+        "idea_ko": "큐브를 제거할 때마다 특정 악기 소리가 나게 하여, 퍼즐을 풀수록 하나의 음악이 완성되는 '뮤직 퍼즐' 모드를 제안합니다.",
+        "highlights_ko": [
+          "시간 제한이 없는 여유로운 게임 환경을 제공합니다.",
+          "점진적으로 사라지는 3D 모델을 통해 시각적 만족감을 극대화합니다."
+        ],
+        "systems_ko": [
+          "3D 그리드 기반 오브젝트 배치 시스템",
+          "터치 입력 및 레이캐스트 판정",
+          "오브젝트 제거 애니메이션 및 파티클 관리",
+          "레벨 데이터 로드 및 저장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 탭과 매칭으로 단순하여 구현 범위가 명확합니다. 물리 엔진의 복잡한 상호작용보다는 정적인 3D 오브젝트의 상태 관리가 주를 이루기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "큐브 생성 및 탭 제거 로직",
+            "기본적인 3D 렌더링 환경",
+            "레벨 데이터 관리"
+          ],
+          "defer": [
+            "복잡한 콤보 시스템",
+            "다양한 특수 아이템"
+          ],
+          "risks": [
+            "많은 수의 오브젝트 배치 시 성능 저하",
+            "단조로운 게임플레이로 인한 조기 이탈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "뮤직 큐브 스매시",
+            "concept": "큐브를 제거할 때마다 음계가 재생되어 퍼즐을 풀면 곡이 완성됩니다.",
+            "first_step": "특정 큐브 클릭 시 사운드가 재생되는 기본 프로토타입 제작."
+          },
+          {
+            "title": "중력 퍼즐 모드",
+            "concept": "큐브를 제거하면 남은 큐브들이 중력에 의해 아래로 떨어지며 새로운 조합을 만듭니다.",
+            "first_step": "간단한 2D/3D 물리 엔진을 적용한 큐브 낙하 구현."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 기본인 '입력-반응-보상' 루프를 학습하기 좋습니다. 3D 환경에서의 오브젝트 관리와 최적화 경험을 쌓기에 적합한 프로젝트입니다.",
+        "source_limitations_ko": "소개문에는 구체적인 레벨 디자인 방식이나 데이터 저장 구조가 명시되어 있지 않습니다. 또한, 인앱 결제나 광고 연동 여부는 확인되지 않았습니다.",
+        "name": "Cube Smash - Puzzle Game",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/cube-smash-puzzle-game/id6786206777?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 180,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 20,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:girl.hgos.ruofg": {
+      "app_key": "google:girl.hgos.ruofg",
+      "name": "귀살 소녀단",
+      "developer": "Asian Instruments",
+      "source": "google",
+      "country": "KR",
+      "category": "game_action",
+      "detail_url": "https://play.google.com/store/apps/details?id=girl.hgos.ruofg&hl=ko&gl=KR",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:12:07+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "귀여운 SD 픽셀 소녀들, 개성 넘치는 캐릭터 디자인, 그리고 도전 욕구를 자극하는 귀살 전투! 나만의 소녀 전대를 구성하고, 마음에 드는 캐릭터를 수집하며, 전투력을 키워 레트로 픽셀 세계에서 특별한 모험을 시작하세요! 💖 개성 넘치는 소녀들, 설레는 집결 매력 넘치는 소녀 캐릭터들이 등장! 귀여운 매력부터 차갑고 시크한 매력까지, 다양한 스타일의 동료들을 수집하고 전용 코스튬을 해금해 나만의 귀살 소녀단을 완성하세요! 👾 SD 픽셀 그래픽, 귀여움 폭발 클래식 레트로 픽셀 그래픽과 정교한 SD 소녀 캐릭터의 만남! 익숙한 귀살 요소가 새로운 매력으로 탄생해 매 전투마다 놀라움을 선사합니다! ⚔️ 전략 편성, 소녀들의 출격 소녀마다 고유한 전투 특성을 지니고 있어 자유롭게 팀을 편성하고 각 캐릭터의 장점을 발휘할 수 있습니다. 전략적으로 팀을 구성해 강력한 혈귀에 맞서고, 전략과 전투의 재미를 동시에 느껴보세요! 🌙 방치 플레이로 편하게 성장 소녀 전대가 자동으로 전투를 진행하며, 오프라인에서도 성장 재화를 획득할 수 있습니다. 언제든 접속해 보상을 받고, 마음에 드는 캐릭터를 육성해 전투력을 꾸준히 높여보세요! 🔥 강적에 도전하고 한계를 돌파하라 모험 스테이지를 돌파하며 강력한 혈귀왕에 맞서 더 많은 도전을 해금하세요! 소녀단을 이끌고 끊임없이 성장해 가장 눈부신 귀살 전대로 거듭나세요! 설레는 소녀들을 모아 최강의 귀살단을 만들자! 지금 《귀살 소녀단》에 합류해 개성 넘치는 소녀들을 수집하고, SD 픽셀 그래픽과 전략 전투, 편안한 방치 플레이의 특별한 재미를 즐겨보세요!",
+      "analysis": {
+        "app_key": "google:girl.hgos.ruofg",
+        "summary_ko": "귀여운 SD 픽셀 소녀들을 수집하고 육성하여 전투를 펼치는 방치형 액션 게임입니다. 전략적인 팀 편성을 통해 강력한 적을 물리치고, 오프라인 상태에서도 보상을 획득하며 성장할 수 있습니다. 레트로한 픽셀 그래픽과 캐릭터 수집의 재미를 강조합니다.",
+        "features_ko": [
+          "SD 픽셀 그래픽으로 구현된 다양한 캐릭터를 수집하고 코스튬을 해금합니다.",
+          "캐릭터별 고유 특성을 고려하여 전략적으로 팀을 편성합니다.",
+          "오프라인 상태에서도 자동으로 전투가 진행되어 재화를 획득하는 방치형 시스템을 지원합니다.",
+          "스테이지를 돌파하며 강력한 보스인 혈귀왕에 도전합니다."
+        ],
+        "noteworthy_ko": "방치형 게임의 핵심인 '성장 체감'과 '수집 욕구'를 픽셀 아트라는 친숙한 스타일로 풀어냈습니다. 전략적 편성 요소가 단순 방치형 게임보다 높은 몰입감을 줄 것으로 추정됩니다.",
+        "development_ko": "캐릭터 데이터 관리와 자동 전투 로직이 핵심입니다. 픽셀 아트 리소스 제작 부담이 크며, 캐릭터 간 밸런스 조정과 방치 보상 효율을 맞추는 테스트 과정이 필수적입니다.",
+        "idea_ko": "캐릭터 간의 조합에 따라 전투 시 특별한 합체기나 연출이 발생하는 '인연 시스템'을 도입하여 전략성을 강화하는 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "방치형 플레이를 통해 바쁜 현대인에게 적합한 성장 경험을 제공합니다.",
+          "레트로 픽셀 그래픽과 SD 캐릭터 디자인으로 시각적 차별화를 꾀했습니다."
+        ],
+        "systems_ko": [
+          "자동 전투 및 AI 로직",
+          "캐릭터 수집 및 육성 데이터 관리",
+          "방치 보상 계산 시스템",
+          "스테이지 진행 및 보스전 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 캐릭터의 스킬 밸런스, 방치형 보상 수치 설계, 그리고 픽셀 아트 리소스의 일관성 유지가 1인 개발자에게는 큰 도전 과제입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 자동 전투 루프",
+            "캐릭터 데이터 구조 설계",
+            "방치 보상 타이머"
+          ],
+          "defer": [
+            "복잡한 코스튬 시스템",
+            "실시간 PvP 모드"
+          ],
+          "risks": [
+            "캐릭터 간 밸런스 붕괴",
+            "방치형 게임 특유의 콘텐츠 소모 속도 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "소녀들의 휴식처",
+            "concept": "전투 외에 캐릭터들이 머무는 공간을 꾸미고 상호작용하는 하우징 시스템입니다. 캐릭터에 대한 애착을 높입니다.",
+            "first_step": "캐릭터가 특정 위치를 배회하는 간단한 AI를 구현합니다."
+          },
+          {
+            "title": "로그라이크 던전",
+            "concept": "방치형 성장과 별개로, 매번 다른 구성의 던전을 탐험하는 로그라이크 모드를 추가하여 전략적 재미를 더합니다.",
+            "first_step": "랜덤 맵 생성 알고리즘을 시제품으로 제작합니다."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 데이터 구조와 밸런스 설계 방식을 배우기에 매우 좋습니다. 1인 개발 시 리소스 제작 부담을 줄이기 위해 픽셀 아트의 효율적인 활용법을 연구하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 전투 로직, 캐릭터 획득 확률, 서버 연동 여부 등이 명시되지 않았습니다. 결제나 네트워크 통신 기능은 확인되지 않았으므로 구현 시 주의가 필요합니다.",
+        "name": "귀살 소녀단",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=girl.hgos.ruofg&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 174,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6821789477": {
+      "app_key": "apple:6821789477",
+      "name": "아르미스 크로니클",
+      "developer": "ameba games",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%95%84%EB%A5%B4%EB%AF%B8%EC%8A%A4-%ED%81%AC%EB%A1%9C%EB%8B%88%ED%81%B4/id6821789477?uo=2",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:13:59+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "- 아르미스와 개성 넘치는 단장과 단원을 모아 성장시키고, 위기에 빠진 노엘 왕국을 구하기 위한 여정을 시작하세요. 아르미스와 함께 용병단을 이끌어 보세요! 개성 넘치는 단장과 단원을 모아 성장시키고, 위기에 빠진 노엘 왕국을 구하기 위한 여정을 시작하세요. ■ 개성 넘치는 단장들 각기 다른 능력과 스킬을 지닌 단장들을 모으고, 전투 상황에 맞는 나만의 부대를 편성하세요. ■ 아르미스를 성장시키세요 아르미스의 레벨을 높이고, 원하는 능력치와 스킬을 강화해 자신만의 전투 방식을 완성하세요. ■ 단원과 함께 강해지는 부대 단원을 육성하고 적절한 단장에게 배치하세요. 성장한 단원은 단장과 함께 전장에서 든든한 전력이 되어 줍니다. ■ 내성전과 공성전 단장과 단원을 지휘해 적진을 돌파하고, 공성 능력을 활용해 견고한 성문을 무너뜨리세요. 다양한 전장을 공략하며 노엘 왕국의 성들을 하나씩 탈환하세요. ----- 앱 접근 권한 안내 [필수 접근 권한] 없음 [선택 접근 권한] 없음 ----- 문의 링크: https://amebacorp.com/index.html#contact 이용약관 : https://amebacorp.com/terms.html 개인정보처리방침 : https://amebacorp.com/privacy.html",
+      "analysis": {
+        "app_key": "apple:6821789477",
+        "summary_ko": "아르미스 크로니클은 용병단을 이끌고 노엘 왕국을 구하기 위한 여정을 다루는 전략 RPG입니다. 개성 있는 단장과 단원을 수집하고 성장시키며, 다양한 전투 상황에 맞춰 부대를 편성할 수 있습니다. 내성전과 공성전 등 다양한 전장을 공략하는 전략적 재미를 제공합니다.",
+        "features_ko": [
+          "다양한 능력과 스킬을 가진 단장과 단원을 수집하고 육성할 수 있습니다.",
+          "전투 상황에 맞춰 자신만의 부대를 편성하는 전략적 요소를 제공합니다.",
+          "단장과 단원의 레벨을 높이고 능력치를 강화하는 성장 시스템을 지원합니다.",
+          "내성전과 공성전을 통해 적진을 돌파하고 성을 탈환하는 전투 콘텐츠를 포함합니다."
+        ],
+        "noteworthy_ko": "부대 편성의 전략성과 캐릭터 육성이라는 RPG의 핵심 요소를 결합했습니다. 다양한 전장 환경을 어떻게 구현하고 밸런스를 맞추느냐가 게임의 완성도를 결정할 것으로 보입니다.",
+        "development_ko": "캐릭터 데이터 관리와 전투 시뮬레이션 로직이 핵심입니다. 다양한 스킬 효과와 상성 관계를 처리하는 시스템 설계가 필요하며, 전투 밸런스를 맞추기 위한 반복적인 테스트와 데이터 수정이 큰 부담이 될 것입니다.",
+        "idea_ko": "단원들의 조합에 따라 특수 스킬이 발동되는 '조합 시너지 시스템'을 강화한 전략 RPG 아이디어가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "용병단 운영이라는 테마를 통한 몰입감 있는 세계관.",
+          "공성전과 같은 다양한 전투 모드를 통한 전략적 다양성."
+        ],
+        "systems_ko": [
+          "캐릭터 데이터베이스 및 성장 시스템",
+          "전투 시뮬레이션 엔진",
+          "부대 편성 및 배치 시스템",
+          "전장 및 맵 데이터 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "캐릭터 육성, 전투 로직, 밸런스 조정 등 고려해야 할 요소가 매우 많습니다. 개인 개발자가 모든 콘텐츠를 완성도 있게 구현하기에는 제작 부담이 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 수집 및 육성 UI",
+            "기본 전투 로직",
+            "부대 편성 시스템"
+          ],
+          "defer": [
+            "복잡한 공성전 시스템",
+            "다양한 스킬 이펙트"
+          ],
+          "risks": [
+            "전투 밸런스 붕괴",
+            "콘텐츠 제작의 높은 리소스 부담"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "단원 조합 시너지 RPG",
+            "concept": "단원들의 속성 조합에 따라 전투 중 특수 스킬이 발동되는 전략 RPG입니다. 조합의 재미를 극대화합니다.",
+            "first_step": "캐릭터 속성 데이터 구조 설계 및 조합 로직 구현."
+          },
+          {
+            "title": "용병단 경영 시뮬레이션",
+            "concept": "전투보다는 용병단의 자원 관리와 단원들의 휴식, 훈련에 집중하는 경영 시뮬레이션입니다.",
+            "first_step": "자원 관리 시스템 및 단원 상태 관리 UI 구현."
+          }
+        ],
+        "recommendation_ko": "RPG의 핵심 시스템인 데이터 관리와 전투 로직을 배우기에 좋습니다. 규모를 대폭 축소하여 핵심 메커니즘 위주로 개발하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 전투 방식(턴제/실시간)이나 데이터 저장 방식이 명시되어 있지 않습니다. 외부 서비스 연동이나 결제 기능에 대한 언급은 없습니다.",
+        "name": "아르미스 크로니클",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%95%84%EB%A5%B4%EB%AF%B8%EC%8A%A4-%ED%81%AC%EB%A1%9C%EB%8B%88%ED%81%B4/id6821789477?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.yongyejp.az": {
+      "app_key": "google:com.yongyejp.az",
+      "name": "エバーナイト：リバース",
+      "developer": "Hong Kong Longsin Co., Ltd.",
+      "source": "google",
+      "country": "JP",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.yongyejp.az&hl=ja&gl=JP",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:16:00+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "■ 戦略性に富むカードバトル 守護者配置、スキル連携と属性相性を見極めて、最強編成を作り上げよう！ 状況に応じた戦術調整が、強敵を打ち破る鍵となる！ ■ 領地経営で戦力向上 拠点を強化して資源を集めよう！領地経営で戦力UP！ ■ 美しく危険なダークファンタジーの世界 韓国風アートスタイルをベースに、クトゥルフ神話とホラー要素を融合。 朽ちた城、闇の森、深淵の地。ファンタジーな世界を堪能できる！ ■ 放置だけで気軽に育成 オフライン中でも資源がどんどん溜まる！ ワンタップで資源入手し、守護者を日々強化させよう！ ■ 多彩な冒険コンテンツ メインストーリー、ローグライクダンジョン、塔の試練、ワールドボス。 探索するたびに、新たな発見と挑戦があなたを待っている！ ■ ギルドで仲間と共闘 ギルドに参加し、仲間と共に強敵へ挑戦しよう！ アリーナやギルドバトルで競い合い、無上の栄耀と報酬を手に入れよう！ 終わりなき夜はすでに訪れた。 駆夜者、最後の火を灯し、絶望の世界に希望を取り戻せ。 今すぐ『エバーナイト：リバース』であなただけの旅を始めよう！ 公式サイト：https://evernightjp.yrlongxin.com 公式X（旧Twitter）：https://x.com/EverNightJP お問い合わせ：evernightjp@yrlongxin.com",
+      "analysis": {
+        "app_key": "google:com.yongyejp.az",
+        "summary_ko": "에버ナイト: 리버스는 다크 판타지 세계관을 배경으로 한 전략 RPG입니다. 수호자를 배치하고 스킬을 연계하며 속성 상성을 활용하는 카드 배틀 시스템이 핵심입니다. 영지 경영을 통해 자원을 수집하고 캐릭터를 강화하며, 길드원과 함께 협력할 수 있습니다.",
+        "features_ko": [
+          "수호자 배치와 스킬 연계를 활용한 전략적인 카드 배틀을 제공합니다.",
+          "영지 경영 시스템을 통해 자원을 생산하고 전력을 강화할 수 있습니다.",
+          "오프라인 상태에서도 자원이 자동으로 수집되는 방치형 육성 요소를 포함합니다.",
+          "메인 스토리, 로그라이크 던전, 월드 보스 등 다양한 모험 콘텐츠를 즐길 수 있습니다.",
+          "길드 시스템을 통해 다른 플레이어와 협력하거나 경쟁할 수 있습니다."
+        ],
+        "noteworthy_ko": "전략적인 카드 배틀과 방치형 경영 시스템을 결합하여, 플레이어의 개입이 필요한 순간과 자동화된 성장의 균형을 맞춘 점이 흥미롭습니다. 다크 판타지 아트 스타일을 통해 독특한 분위기를 조성한 것도 특징입니다.",
+        "development_ko": "카드 배틀의 밸런스 설계와 영지 경영의 자원 순환 로직이 핵심입니다. 로그라이크 던전의 무작위 생성 알고리즘 구현이 필요하며, 서버 기반의 길드 및 경쟁 시스템 구축이 중요합니다.",
+        "idea_ko": "특정 테마의 방치형 경영과 간단한 카드 배틀을 결합한 소규모 RPG가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "전략적 카드 배틀과 방치형 경영 시스템의 조화로운 결합이 돋보입니다.",
+          "다크 판타지 세계관을 바탕으로 한 다양한 모험 콘텐츠를 제공합니다."
+        ],
+        "systems_ko": [
+          "카드 배틀 엔진 및 상성 로직",
+          "영지 자원 생산 및 관리 시스템",
+          "캐릭터 육성 및 강화 시스템",
+          "로그라이크 던전 생성 알고리즘",
+          "길드 및 멀티플레이어 데이터 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "전략 RPG는 밸런스 조정이 매우 까다롭고, 다양한 콘텐츠를 구현해야 하므로 1인 개발자가 완성하기에는 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 카드 배틀 로직",
+            "캐릭터 강화 시스템",
+            "방치형 자원 수집 로직"
+          ],
+          "defer": [
+            "길드 및 실시간 멀티플레이어",
+            "복잡한 로그라이크 던전",
+            "고품질의 다크 판타지 아트"
+          ],
+          "risks": [
+            "전투 밸런스 붕괴",
+            "콘텐츠 부족으로 인한 빠른 이탈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "미니 영지 방치 RPG",
+            "concept": "작은 영지를 운영하며 몬스터를 물리치는 방치형 게임입니다. 영지 건물마다 고유한 버프를 제공합니다.",
+            "first_step": "자원 생산 로직과 건물 업그레이드 UI 구현."
+          },
+          {
+            "title": "카드 던전 탐험가",
+            "concept": "카드 덱을 구성하여 무작위로 생성되는 던전을 탐험하는 로그라이크 카드 게임입니다.",
+            "first_step": "카드 덱 구성 시스템과 간단한 턴제 전투 구현."
+          }
+        ],
+        "recommendation_ko": "전략 RPG의 시스템 설계와 밸런스 조정 과정을 배우기에 좋습니다. 방치형 게임의 수익 모델을 연구하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 전투 알고리즘이나 경영 시스템의 수치 밸런스 정보가 명시되어 있지 않습니다.",
+        "name": "エバーナイト：リバース",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.yongyejp.az&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.tiny.ride.game": {
+      "app_key": "google:com.tiny.ride.game",
+      "name": "Tiny Ride",
+      "developer": "TabTale",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.tiny.ride.game&hl=en&gl=US",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:20:07+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Tiny Ride is a fun miniature car driving game where you launch a tiny RC car with a slingshot, drive through oversized worlds, and upgrade your vehicle to travel farther! Get behind the wheel of a tiny car and explore a giant world full of unexpected challenges. Launch your mini vehicle into action, build up speed, and navigate through everyday environments where even the smallest objects become enormous obstacles! From busy streets and cosy houses to colourful gardens and forests, every location brings a new adventure. How far can your tiny car go? LAUNCH, DRIVE & GO THE DISTANCE! Start each ride by pulling back a powerful slingshot and launching your RC car into the world. Keep moving, build momentum, and travel as far as possible. Every attempt is a chance to beat your previous distance! UPGRADE YOUR MINI CAR The farther you go, the more you can achieve! Collect rewards and improve your car's speed, distance, and control. Upgrade your slingshot for more powerful launches and see how far your next ride can take you. EXPLORE A WORLD OF GIANT OBJECTS Everything looks different when you're tiny! Drive through oversized environments filled with everyday objects that turn into exciting challenges. Discover new locations, navigate obstacles, and enjoy the adventure from a miniature perspective. GAME FEATURES • Slingshot car launching: Pull back, release, and send your mini RC car flying! • Miniature driving adventure: Explore giant environments from behind the wheel of a tiny vehicle. • Car upgrades: Improve speed, distance, and control to travel farther. • Powerful launches: Upgrade your slingshot to reach new distances. • Rewarding progression: Collect rewards and unlock new places to explore. • Distance challenges: Keep improving your rides and see how far you can go. SMALL CAR. BIG ADVENTURE! Ready to see the world from a whole new perspective? Launch your tiny car, upgrade your ride, and take on a giant world full of surprises! Play Tiny Ride and see how far you can go! To opt out of CrazyLabs sales of personal information as a California resident, please visit the settings page within this app. For more information visit our privacy policy: https://crazylabs.com/app",
+      "analysis": {
+        "app_key": "google:com.tiny.ride.game",
+        "summary_ko": "슬링샷으로 RC카를 발사하여 거대한 세상 속을 달리는 미니어처 자동차 게임입니다. 사용자는 RC카를 발사하고 속도를 유지하며 최대한 멀리 이동해야 합니다. 수집한 보상으로 차량과 슬링샷을 업그레이드할 수 있습니다.",
+        "features_ko": [
+          "슬링샷을 당겨 RC카를 발사하는 물리 기반 조작 방식을 제공합니다.",
+          "일상적인 사물들이 거대하게 느껴지는 미니어처 환경을 탐험합니다.",
+          "차량의 속도, 거리, 조작성을 향상시키는 업그레이드 시스템이 있습니다.",
+          "슬링샷의 성능을 강화하여 더 멀리 발사할 수 있습니다.",
+          "다양한 장소를 잠금 해제하며 거리를 갱신하는 도전 과제를 제공합니다."
+        ],
+        "noteworthy_ko": "시점의 변화를 통해 평범한 환경을 게임 배경으로 활용한 점이 흥미롭습니다. 물리 엔진을 활용한 발사 메커니즘이 게임의 핵심 재미 요소로 작용합니다.",
+        "development_ko": "물리 엔진을 활용한 발사 및 주행 구현이 핵심입니다. 다양한 환경 오브젝트 제작과 업그레이드에 따른 밸런스 조정이 필요하며, 반복적인 플레이를 유도하는 보상 체계 설계가 중요합니다.",
+        "idea_ko": "특정 환경(예: 책상 위, 주방)에 특화된 미니어처 레이싱 게임을 만드는 것이 적합합니다.",
+        "highlights_ko": [
+          "슬링샷을 이용한 직관적인 발사 메커니즘.",
+          "미니어처 시점에서 바라보는 거대한 세상의 탐험."
+        ],
+        "systems_ko": [
+          "물리 엔진 기반 주행 시스템",
+          "슬링샷 발사 제어 시스템",
+          "차량 업그레이드 및 데이터 관리",
+          "레벨 디자인 및 환경 오브젝트 배치",
+          "거리 측정 및 기록 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진을 활용한 간단한 메커니즘은 개인 개발자가 구현하기에 적절합니다. 다만, 물리적 충돌 판정과 밸런스 조정에 시간이 소요될 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "슬링샷 발사 메커니즘",
+            "기본 주행 물리 구현",
+            "거리 측정 시스템"
+          ],
+          "defer": [
+            "다양한 환경 맵",
+            "복잡한 업그레이드 트리"
+          ],
+          "risks": [
+            "물리 엔진의 불안정성",
+            "반복적인 플레이의 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "책상 위 장애물 경주",
+            "concept": "책상 위의 문구류를 장애물로 활용하여 RC카로 통과하는 타임어택 게임입니다.",
+            "first_step": "간단한 3D 오브젝트를 배치하고 RC카가 충돌하며 주행하는 프로토타입 제작."
+          },
+          {
+            "title": "미니카 배달 작전",
+            "concept": "특정 물건을 목적지까지 안전하게 배달하는 미니어처 주행 게임입니다.",
+            "first_step": "물건을 차량에 부착하고 목적지까지 이동하는 물리 기반 주행 구현."
+          }
+        ],
+        "recommendation_ko": "물리 엔진을 활용한 게임 개발의 기초를 다지기에 매우 좋습니다. 간단한 메커니즘으로도 충분한 재미를 줄 수 있는 게임 구조를 배우기 적합합니다.",
+        "source_limitations_ko": "사용된 물리 엔진의 종류, 구체적인 업그레이드 수치 밸런스, 광고 수익 모델의 상세 구현 방식 등은 소개문에서 확인할 수 없습니다.",
+        "name": "Tiny Ride",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.tiny.ride.game&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 67,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "itch:a5ed6f6585887654930f": {
+      "app_key": "itch:a5ed6f6585887654930f",
+      "name": "Tidewater Isle [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "",
+      "detail_url": "https://tidewater-isle.itch.io/tidewater-isle",
+      "data_date": "2026-11-03",
+      "analysed_at": "2026-11-07T06:26:39+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A pixel-art fishing island you share with other players. Fish, decorate your house, trade, and climb the leaderboard.",
+      "analysis": {
+        "app_key": "itch:a5ed6f6585887654930f",
+        "summary_ko": "Tidewater Isle은 다른 플레이어들과 공유하는 섬을 배경으로 한 픽셀 아트 낚시 시뮬레이션 게임입니다. 플레이어는 섬에서 낚시를 즐기고 자신의 집을 꾸미며 다른 이들과 아이템을 거래할 수 있습니다. 리더보드 시스템을 통해 다른 플레이어들과 경쟁하며 섬 생활을 경험하게 됩니다.",
+        "features_ko": [
+          "픽셀 아트 스타일로 구현된 섬 환경에서 낚시 활동을 수행합니다.",
+          "자신의 집을 원하는 대로 꾸밀 수 있는 하우징 시스템을 제공합니다.",
+          "다른 플레이어와 아이템을 교환할 수 있는 거래 기능을 포함합니다.",
+          "리더보드를 통해 낚시 실력이나 성과를 기록하고 경쟁합니다."
+        ],
+        "noteworthy_ko": "멀티플레이어 환경에서 공유된 공간을 관리하는 구조가 흥미롭습니다. 1인 개발 시 서버 동기화와 데이터 무결성 유지가 가장 큰 기술적 도전 과제가 될 것으로 추정됩니다.",
+        "development_ko": "핵심 기술로는 실시간 멀티플레이어 통신과 데이터베이스 연동이 필요합니다. 콘텐츠 제작은 픽셀 아트 에셋 생산에 많은 시간이 소요되며, 밸런스 측면에서는 경제 시스템의 인플레이션을 방지하는 것이 중요합니다.",
+        "idea_ko": "특정 시간대에만 나타나는 희귀 어종을 추가하여 플레이어들이 협력하거나 경쟁하게 만드는 '이벤트 낚시' 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "공유된 섬이라는 공간적 개념을 통해 커뮤니티 요소를 강조했습니다.",
+          "낚시와 하우징이라는 두 가지 시뮬레이션 요소를 결합하여 플레이어의 정착을 유도합니다."
+        ],
+        "systems_ko": [
+          "네트워크 동기화 시스템",
+          "인벤토리 및 거래 관리 시스템",
+          "하우징 배치 시스템",
+          "리더보드 데이터 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "멀티플레이어 환경을 구축하고 서버와 클라이언트 간의 상태를 동기화하는 작업은 1인 개발자에게 매우 높은 난이도입니다. 특히 데이터 보안과 실시간 통신 최적화가 필수적입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "낚시 메커니즘",
+            "기본적인 하우징 배치",
+            "로컬 리더보드"
+          ],
+          "defer": [
+            "실시간 멀티플레이어 거래",
+            "서버 기반의 대규모 공유 섬"
+          ],
+          "risks": [
+            "네트워크 지연 및 동기화 오류",
+            "서버 운영 비용 및 유지보수 부담"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "계절별 어종 도감",
+            "concept": "현실 시간이나 게임 내 계절에 따라 잡히는 물고기가 달라지는 시스템입니다. 수집 욕구를 자극하여 장기적인 플레이를 유도합니다.",
+            "first_step": "시간대별로 다른 확률 테이블을 적용하는 간단한 낚시 로직 구현."
+          },
+          {
+            "title": "섬 커뮤니티 게시판",
+            "concept": "플레이어들이 섬에 메시지를 남기거나 낚시 팁을 공유하는 간단한 게시판 시스템입니다.",
+            "first_step": "텍스트 데이터를 서버에 저장하고 불러오는 기본 API 연동."
+          }
+        ],
+        "recommendation_ko": "멀티플레이어 게임의 기초적인 데이터 구조와 네트워크 통신을 공부하고 싶은 개발자에게 추천합니다. 다만, 서버 인프라 구축 경험이 없다면 난이도가 매우 높으므로 주의가 필요합니다.",
+        "source_limitations_ko": "소개문에는 멀티플레이어의 구체적인 방식(P2P vs 서버)이나 거래 시스템의 상세 규칙이 명시되어 있지 않습니다. 결제 기능이나 보안 관련 정보는 확인되지 않습니다.",
+        "name": "Tidewater Isle [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://tidewater-isle.itch.io/tidewater-isle",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 10000,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
     }
   }
 }

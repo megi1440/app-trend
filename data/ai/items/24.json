@@ -9396,6 +9396,449 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-02"
+    },
+    "itch:3c063a16ad61e496a5f2": {
+      "app_key": "itch:3c063a16ad61e496a5f2",
+      "name": "LoopBot [Free] [Puzzle]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://kisstudios98.itch.io/loopbot",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:03:50+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Program a little robot up a tower, one floor at a time",
+      "analysis": {
+        "app_key": "itch:3c063a16ad61e496a5f2",
+        "summary_ko": "LoopBot은 로봇을 프로그래밍하여 탑을 오르는 퍼즐 게임입니다. 각 층마다 주어진 과제를 해결하기 위해 로봇의 행동을 순차적으로 설계해야 합니다.",
+        "features_ko": [
+          "로봇의 행동을 미리 설정하는 프로그래밍 기반의 퍼즐 규칙을 가집니다.",
+          "탑의 각 층을 순차적으로 공략하는 스테이지 방식을 채택하고 있습니다."
+        ],
+        "noteworthy_ko": "비주얼 프로그래밍이나 명령형 로직을 게임화한 점이 흥미롭습니다. 퍼즐의 난이도 곡선을 설계하는 것이 개발의 핵심 과제입니다.",
+        "development_ko": "명령어 큐(Queue) 시스템과 로봇의 상태 머신 구현이 필요합니다. 각 층의 퍼즐을 검증할 수 있는 테스트 도구가 필수적이며, 사용자에게 피드백을 주는 UI 구현이 중요합니다.",
+        "idea_ko": "명령어 개수 제한을 두어 최소한의 코드로 목표를 달성하게 하는 '최적화 챌린지' 모드를 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "논리적 사고를 요구하는 프로그래밍 퍼즐 게임입니다.",
+          "단계별로 확장되는 난이도 구성이 특징입니다."
+        ],
+        "systems_ko": [
+          "명령어 해석기(Interpreter)",
+          "로봇 상태 관리 시스템",
+          "스테이지 데이터 및 퍼즐 검증 로직",
+          "명령어 입력 UI"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "로직 구현이 핵심이며, 그래픽보다는 퍼즐의 논리적 완성도가 중요합니다. 1인 개발 시 로직 버그를 잡는 과정이 다소 까다로울 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 명령어 세트(이동, 회전)",
+            "로봇 실행 시뮬레이터",
+            "스테이지 성공 판정"
+          ],
+          "defer": [
+            "복잡한 루프/조건문 명령어",
+            "화려한 시각 효과"
+          ],
+          "risks": [
+            "퍼즐 로직의 무한 루프 발생",
+            "사용자에게 로직 오류를 전달하는 UI의 복잡성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "버그 수정 모드",
+            "concept": "이미 짜여진 잘못된 명령어를 수정하여 로봇을 정상 작동하게 만드는 퍼즐입니다. 기존의 논리를 분석하는 능력을 테스트합니다.",
+            "first_step": "명령어 리스트를 수정 가능한 UI로 구현합니다."
+          },
+          {
+            "title": "협동 로봇 퍼즐",
+            "concept": "두 대의 로봇을 동시에 프로그래밍하여 서로의 길을 열어주는 협동 퍼즐입니다. 두 로봇의 동기화가 핵심입니다.",
+            "first_step": "두 개의 로봇 객체를 생성하고 순차적으로 실행하는 로직을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "논리적 사고와 알고리즘 구현에 관심 있는 개발자에게 추천합니다. 상태 머신과 이벤트 기반 프로그래밍을 배우기에 좋은 프로젝트입니다.",
+        "source_limitations_ko": "사용 가능한 명령어의 종류나 퍼즐의 구체적인 메커니즘이 설명되지 않아 실제 구현 범위는 추정에 의존합니다.",
+        "name": "LoopBot [Free] [Puzzle]",
+        "source": "itch",
+        "detail_url": "https://kisstudios98.itch.io/loopbot",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 353,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 9,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6809578554": {
+      "app_key": "apple:6809578554",
+      "name": "マイキャリ｜野球シミュレーションゲーム",
+      "developer": "Yudai Yodogawa",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_simulation",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%AA-%E9%87%8E%E7%90%83%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0/id6809578554?uo=2",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:06:44+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "小学生からプロ、そしてメジャーへ。 ひとりの選手として、あなただけの野球人生を歩もう。 マイキャリ（MY BASEBALL CAREER／マイベースボールキャリア）は、選手の成長と暮らしを、小学生から引退まで楽しめる野球シミュレーションゲームです。 どんな練習を重ね、どの進路を選ぶか。 チームメイトの成長と自分の成長、どちらを優先するか。 あなたの選択とプレーが、自分だけのキャリアを作ります。 ■ 小学生からプロの大舞台まで 少年野球、中学、高校。仲間と全国大会を目指し、実績を積んでドラフトへ。 プロではリーグ優勝や個人タイトルに挑戦。活躍を次の契約に繋げ、メジャーへの道を切り開け。 シーズンの成績も、積み重ねた通算記録も残ります。引退までキャリアを楽しもう。 ■ 自由で多様な選択肢 軟式か硬式か、部活かクラブチームか、名門校か無名校か。プロになったあとは、年俸交渉や移籍、海外挑戦... あなたの選択でその後の人生が大きく変わる。 ■ 野球だけじゃない、あなただけの人生 恋愛、結婚、動画投稿、ゲーム内SNS、ゴルフ... 野球に打ち込む日も、大切な人と過ごす日も、あなたの人生の一部です。 ■ 自分のプレーでチャンスをつかむ 3Dの打撃・投球操作を搭載。相手の狙いを読み、自分の手で試合を決めよう。 ■ 小学生から引退まで、基本プレイ無料 小学生からプロ引退まで無料でプレイできます。 広告を表示する場合があります。 買い切りの「完全版」では、次の追加機能を利用できます。 ・広告非表示 ・球団名、球場名、選手名のエディット ・学生編をスキップしてドラフト直後から開始 ・ユニフォームのカスタマイズ ・ドラフトで指名球団を指定 ・セーブ枠を2枠から7枠に拡張 「スポンサー」は、任意で開発を応援するための購入です。ゲーム内の能力・成績・進行には影響しません。 アカウント登録は不要。ゲーム本編はオフラインでも遊べます。 ※購入・購入の復元、広告の利用には通信が必要です。",
+      "analysis": {
+        "app_key": "apple:6809578554",
+        "summary_ko": "마이캐리는 초등학생부터 프로, 메이저리그까지 한 선수의 야구 인생을 시뮬레이션하는 게임입니다. 훈련, 진로 선택, 경기 플레이 등 다양한 선택을 통해 자신만의 커리어를 쌓아갑니다. 야구 외에도 연애, 결혼 등 인생의 다양한 요소를 포함하고 있습니다.",
+        "features_ko": [
+          "초등학생부터 은퇴까지 선수의 전 생애를 시뮬레이션합니다.",
+          "훈련 방식과 진로 선택에 따라 선수의 능력치가 변화합니다.",
+          "3D 타격 및 투구 조작을 통해 직접 경기에 개입할 수 있습니다.",
+          "연애, 결혼, SNS 등 야구 외적인 인생 이벤트를 포함합니다.",
+          "시즌 성적과 통산 기록이 상세히 저장됩니다."
+        ],
+        "noteworthy_ko": "스포츠 시뮬레이션에 인생 시뮬레이션 요소를 결합하여 몰입감을 높인 점이 특징입니다. 선수의 성장 데이터와 인생 이벤트 간의 상관관계를 설계하는 시스템이 개발 관점에서 매우 흥미롭습니다.",
+        "development_ko": "방대한 데이터 관리와 선수 성장 알고리즘 설계가 핵심입니다. 3D 조작을 위한 물리 엔진 연동과 다양한 이벤트 분기 처리가 필요합니다. 밸런스 조정이 매우 까다로운 장르이므로 지속적인 데이터 수정과 테스트가 필수적입니다.",
+        "idea_ko": "선수의 은퇴 후 지도자로서의 삶을 다루는 '감독 시뮬레이션' 모드를 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "야구와 인생 시뮬레이션을 결합한 독특한 성장 시스템.",
+          "직접 조작과 시뮬레이션의 적절한 조화."
+        ],
+        "systems_ko": [
+          "선수 능력치 및 성장 알고리즘",
+          "경기 시뮬레이션 및 3D 조작 시스템",
+          "인생 이벤트 분기 처리 시스템",
+          "데이터베이스 기반 기록 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "스포츠 시뮬레이션은 데이터 구조가 매우 복잡하고 밸런스 잡기가 어렵습니다. 3D 조작과 시뮬레이션 로직을 동시에 구현하는 것은 1인 개발자에게 상당한 부담입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 능력치 성장 시스템",
+            "경기 시뮬레이션 로직",
+            "기본적인 진로 선택 이벤트"
+          ],
+          "defer": [
+            "3D 조작 시스템",
+            "복잡한 연애/결혼 이벤트"
+          ],
+          "risks": [
+            "성장 밸런스 붕괴",
+            "데이터 관리의 복잡성으로 인한 버그"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "선수 에이전트 시뮬레이터",
+            "concept": "선수가 아닌 에이전트가 되어 유망주를 발굴하고 계약을 성사시키는 경영 시뮬레이션입니다.",
+            "first_step": "선수 리스트를 생성하고 능력치에 따라 몸값을 책정하는 로직 구현."
+          },
+          {
+            "title": "야구팀 매니저",
+            "concept": "팀의 감독이 되어 선수들의 훈련 스케줄을 짜고 경기 전략을 지시하는 게임입니다.",
+            "first_step": "팀 라인업 구성 및 경기 결과 계산 로직 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 기반의 게임 설계와 시뮬레이션 로직을 배우기에 좋습니다. 다만, 규모가 크므로 핵심 메커니즘 하나에 집중하여 작게 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "사용된 물리 엔진, 데이터 저장 방식, 밸런스 조정 알고리즘의 상세 내용은 소개문에서 확인할 수 없습니다.",
+        "name": "マイキャリ｜野球シミュレーションゲーム",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%83%9E%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%AA-%E9%87%8E%E7%90%83%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0/id6809578554?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 219,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 7,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:solitaire.classic.card.games.klondike.calm.free": {
+      "app_key": "google:solitaire.classic.card.games.klondike.calm.free",
+      "name": "ソリティア！",
+      "developer": "Clownfish",
+      "source": "google",
+      "country": "JP",
+      "category": "game_card",
+      "detail_url": "https://play.google.com/store/apps/details?id=solitaire.classic.card.games.klondike.calm.free&hl=ja&gl=JP",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:13:59+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "私たちはクラシックなソリティア（クロンダイクソリティアまたはペイシェンスソリティアとしても知られています）に忠実であり続けます。 ソリティアは、面白くて中毒性があり、やりがいのある脳トレゲームです。ゲームプレイは始めるのは非常に簡単ですが、マスターするのは難しいです。 私たちのゲームは、クリーンで直感的なデザインで最もプレイしやすいです。その一方で、私たちはあなたのために多くの美しいテーマとデイリーチャレンジを追加しました。 カードを移動するには、シングルタップまたはドラッグアンドドロップするだけで、最短の時間と移動で最高のスコアを獲得できます。シンプルで中毒性があります！ ==============特徴============== - カスタマイズ可能な美しいテーマ - デイリーチャレンジ - 無制限の無料元に戻す - 無制限の無料ヒント - 1枚のカードを引く - 3枚のカードを引く - クリア時にカードを自動収集 - プレイ中のゲームを自動保存 - 記録を追跡 - 左利きモード - タブレットのサポート - ポートレートまたはランドスケープビューモードの切り替え 友達と一緒に脳を鍛え、暇つぶしをしましょう！ ソリティアを楽しんでください！",
+      "analysis": {
+        "app_key": "google:solitaire.classic.card.games.klondike.calm.free",
+        "summary_ko": "이 앱은 클래식 클론다이크 솔리테어를 현대적인 디자인으로 구현한 카드 게임입니다. 싱글 탭이나 드래그 앤 드롭으로 카드를 이동하며, 다양한 테마와 데일리 챌린지를 제공합니다. 직관적인 인터페이스를 통해 누구나 쉽게 즐길 수 있는 뇌 훈련 게임입니다.",
+        "features_ko": [
+          "클래식 클론다이크 규칙을 충실히 구현하여 카드 게임을 제공합니다.",
+          "싱글 탭 또는 드래그 앤 드롭으로 카드를 이동하는 조작 방식을 지원합니다.",
+          "1장 또는 3장 뽑기 모드를 선택하여 난이도를 조절할 수 있습니다.",
+          "무제한 실행 취소 및 힌트 기능을 통해 플레이를 보조합니다.",
+          "자동 저장 및 자동 카드 수집 기능을 통해 편의성을 높였습니다."
+        ],
+        "noteworthy_ko": "고전 게임을 현대적 UI로 재해석하는 것은 개인 개발자에게 좋은 연습입니다. 상태 관리와 카드 이동 규칙의 예외 처리가 개발의 핵심입니다.",
+        "development_ko": "카드 덱 셔플링 알고리즘과 게임 상태(Undo/Redo) 관리가 핵심입니다. UI는 다양한 화면 비율에 대응하는 반응형 디자인이 필요하며, 카드 이동 규칙의 엄격한 검증이 중요합니다.",
+        "idea_ko": "특정 테마의 카드 덱을 수집하거나, 일일 챌린지 기록을 시각화하는 '기록 중심 솔리테어'가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "사용자 편의를 고려한 다양한 설정(왼손 모드, 가로/세로 모드).",
+          "지속적인 플레이를 유도하는 데일리 챌린지 시스템."
+        ],
+        "systems_ko": [
+          "카드 덱 생성 및 셔플링 로직",
+          "게임 상태 관리(Undo/Redo 스택)",
+          "카드 이동 규칙 검증 엔진",
+          "UI 레이아웃 및 테마 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "규칙은 명확하지만, 카드 이동의 예외 상황을 모두 처리하고 Undo/Redo 기능을 완벽하게 구현하는 데 세심한 로직 설계가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카드 덱 생성 및 배치",
+            "드래그 앤 드롭 이동 로직",
+            "기본 규칙 검증"
+          ],
+          "defer": [
+            "다양한 테마 커스터마이징",
+            "온라인 랭킹 시스템"
+          ],
+          "risks": [
+            "규칙 구현의 버그 발생 가능성",
+            "기존 솔리테어 앱과의 차별점 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "테마 카드 수집 솔리테어",
+            "concept": "게임 승리 시 획득하는 재화로 새로운 카드 디자인을 구매하는 수집형 요소입니다. 테마별로 카드 뒷면과 배경이 바뀝니다.",
+            "first_step": "이미지 리소스를 교체할 수 있는 카드 뷰 컴포넌트 제작."
+          },
+          {
+            "title": "타임 어택 솔리테어",
+            "concept": "제한 시간 내에 최대한 많은 카드를 정리하는 모드입니다. 콤보 시스템을 도입하여 점수를 극대화합니다.",
+            "first_step": "타이머 연동 및 점수 계산 로직 구현."
+          }
+        ],
+        "recommendation_ko": "상태 관리와 복잡한 규칙을 코드로 구현하는 능력을 기르기에 최적입니다. UI/UX의 중요성을 체감할 수 있는 프로젝트입니다.",
+        "source_limitations_ko": "소개문에는 구체적인 셔플링 알고리즘이나 데이터 저장 방식이 명시되어 있지 않습니다. 네트워크 연동이나 서버 기반 랭킹 기능은 확인되지 않습니다.",
+        "name": "ソリティア！",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=solitaire.classic.card.games.klondike.calm.free&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.peoplefun.wordcross": {
+      "app_key": "google:com.peoplefun.wordcross",
+      "name": "Wordscapes: Word puzzle game",
+      "developer": "PeopleFun",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordcross&hl=en&gl=US",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:20:52+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Playing Wordscapes 10 mins a day sharpens your mind and prepares you for your daily life and challenges! This text twist of a word game is tremendous brain challenging fun. Enjoy modern word puzzles with word searching, anagrams, and crosswords! Immerse yourself into the beautiful scenery backgrounds to relax and ease your mind. Now available in 5 languages! Enjoy the Wordscapes experience in English, Spanish, German, French, and Portuguese. Challenge yourself to connect letters and find as many hidden words as you can in relaxing games! Unlock stunning landscape backgrounds to escape from home and relax your brain. You’ll never experience a dull moment after you try this addicting word puzzle game! Play this crossword puzzle once and just you won’t be able to put it down. Enjoy word connect and word find games? This is your final destination! ►Escape and play relaxing games while visiting the beautiful destinations of Wordscapes! ► Show your vocabulary power by connecting letters and finding all the hidden words. ► Get your word hunt on with over 6,000 crossword puzzles! ► Challenge your brain and vocabulary – this crossword puzzle starts easy and becomes challenging fast! ► Think you can beat these anagram word puzzles? They start simply but ramp up fast! ► Take each level at your own pace with unlimited tries. Simply fun and relaxation! Wordscapes is the word puzzle game for adults that over 10 million people just can't stop playing! It's a great fit for fans of crossword, word connect, spelling games, and word anagram games, combining word find games and crossword puzzles. Not to mention our relaxing games have gorgeous landscapes to visit! Looking for a break that still feels productive? These brain games offer just that! Wordscapes is a great puzzle game for adults who love words and beautiful visuals. If you're looking for brain games that aren’t stressful, Wordscapes is a great pick. It’s smart, satisfying, and one of the most calming puzzle games for adults you’ll find. Wordscapes gives you that “just one more level” feeling. It’s no surprise it’s a favorite among brain games and a go-to choice for fans of puzzle games for adults Wordscapes an exciting word puzzle game that’s easy to pick up and hard to put down. With calming visuals and clever levels, it’s a refreshing way to unwind while keeping your mind young. Terms of service: https://www.peoplefun.com/terms",
+      "analysis": {
+        "app_key": "google:com.peoplefun.wordcross",
+        "summary_ko": "Wordscapes는 단어 찾기, 아나그램, 십자말풀이를 결합한 퍼즐 게임입니다. 아름다운 풍경 배경 속에서 단어를 연결하며 두뇌를 훈련하고 휴식을 취할 수 있습니다. 6,000개 이상의 레벨을 제공하며, 점진적으로 난이도가 높아지는 구조로 설계되었습니다.",
+        "features_ko": [
+          "주어진 글자를 연결하여 숨겨진 단어를 찾는 단어 퍼즐 규칙을 가집니다.",
+          "6,000개 이상의 레벨을 제공하여 지속적인 플레이가 가능합니다.",
+          "아름다운 풍경 배경을 사용하여 시각적인 휴식을 제공합니다.",
+          "난이도가 점진적으로 상승하여 초보자부터 숙련자까지 도전할 수 있습니다.",
+          "5개 언어를 지원하여 다양한 환경에서 플레이할 수 있습니다."
+        ],
+        "noteworthy_ko": "단순한 단어 퍼즐에 시각적인 힐링 요소를 결합하여 '생산적인 휴식'이라는 사용자 경험을 창출한 점이 흥미롭습니다. 레벨 디자인이 매우 정교하게 설계되어 있어 사용자의 몰입감을 높이는 구조입니다.",
+        "development_ko": "단어 사전 데이터베이스 구축과 이를 활용한 퍼즐 생성 로직이 핵심입니다. 시각적 배경과 UI의 조화가 중요하며, 레벨 난이도 곡선을 설계하는 밸런스 작업이 필요합니다. 1인 개발 시 단어 데이터의 정확성과 퍼즐의 재미를 검증하는 테스트 과정이 필수적입니다.",
+        "idea_ko": "테마가 있는 단어 퍼즐 게임.",
+        "highlights_ko": [
+          "단어 퍼즐과 풍경 배경을 결합한 힐링 게임 경험.",
+          "6,000개 이상의 방대한 레벨 구성."
+        ],
+        "systems_ko": [
+          "단어 사전 및 유효성 검사 시스템",
+          "퍼즐 레벨 생성 및 관리 시스템",
+          "사용자 입력 판정 시스템",
+          "UI 및 애니메이션 시스템",
+          "진행 상황 저장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "단어 퍼즐 로직은 구현이 명확하지만, 방대한 레벨 데이터의 품질을 유지하고 시각적 완성도를 높이는 데 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "단어 연결 로직",
+            "기본 퍼즐 UI",
+            "단어 사전 데이터"
+          ],
+          "defer": [
+            "6,000개 이상의 레벨 콘텐츠",
+            "다국어 지원",
+            "고품질 풍경 배경 에셋"
+          ],
+          "risks": [
+            "단어 데이터의 오류",
+            "퍼즐 난이도 밸런스 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "역사 단어 퍼즐",
+            "concept": "역사적 사건이나 인물과 관련된 단어들로만 구성된 퍼즐 게임입니다.",
+            "first_step": "역사 관련 단어 리스트를 확보하고 기본 단어 연결 로직에 적용."
+          },
+          {
+            "title": "단어 연상 퀴즈",
+            "concept": "주어진 단어와 연관된 단어를 찾는 방식으로, 십자말풀이와 연상 퀴즈를 결합합니다.",
+            "first_step": "단어 간의 관계를 정의한 데이터셋을 구축하고 퀴즈 UI 구현."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 로직 설계와 데이터 관리 능력을 키우기에 매우 좋습니다. 게임의 핵심 재미를 단순하게 구현하고 점진적으로 확장하는 방식을 배우기에 적합합니다.",
+        "source_limitations_ko": "소개문에는 퍼즐 생성 알고리즘의 구체적인 로직이나 단어 사전의 출처에 대한 정보가 없습니다. 다국어 지원을 위한 데이터 구조는 확인되지 않았습니다.",
+        "name": "Wordscapes: Word puzzle game",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.peoplefun.wordcross&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 91,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "itch:4b151e290e7359df0188": {
+      "app_key": "itch:4b151e290e7359df0188",
+      "name": "Clankertron [Free] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "",
+      "detail_url": "https://tcksoft.itch.io/clankertron",
+      "data_date": "2026-11-03",
+      "analysed_at": "2026-11-07T06:25:50+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Destroy a whole world of AI droids with your remote unit. {/irony}",
+      "analysis": {
+        "app_key": "itch:4b151e290e7359df0188",
+        "summary_ko": "원격 유닛을 조종하여 AI 드로이드를 파괴하는 액션 게임입니다. 반어법적인 설명을 통해 게임의 분위기를 암시합니다.",
+        "features_ko": [
+          "원격 조종 유닛을 사용하여 적을 타격합니다.",
+          "다양한 AI 드로이드 적들을 파괴하는 것이 목표입니다."
+        ],
+        "noteworthy_ko": "원격 조종이라는 컨셉은 카메라 시점이나 조작 방식에서 독특한 경험을 제공할 가능성이 있습니다. 게임의 분위기가 반어법을 사용하고 있어 연출적인 측면이 중요할 것으로 보입니다.",
+        "development_ko": "적 AI의 행동 패턴과 원격 유닛의 조작감 구현이 핵심입니다. 충돌 판정과 타격감 조절이 중요하며, 적의 물량에 따른 최적화가 필요할 수 있습니다.",
+        "idea_ko": "원격 유닛의 배터리나 신호 거리를 제한하여 긴장감을 주는 '신호 거리 제한 시스템'을 도입해 보세요.",
+        "highlights_ko": [
+          "원격 조종이라는 독특한 조작 컨셉을 가지고 있습니다.",
+          "적을 파괴하는 액션 중심의 게임플레이를 제공합니다."
+        ],
+        "systems_ko": [
+          "캐릭터 조작 및 카메라 제어",
+          "적 AI 행동 패턴(추적/공격)",
+          "충돌 판정 및 타격 시스템",
+          "게임 상태 관리(웨이브/점수)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "액션 게임의 기본기를 익히기에 적합한 규모입니다. 적의 AI와 조작감만 잘 구현하면 핵심 재미를 확보할 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "플레이어 조작",
+            "적 생성 및 기본 AI",
+            "공격 및 피격 판정"
+          ],
+          "defer": [
+            "다양한 적 종류",
+            "복잡한 스토리 컷신",
+            "업그레이드 상점"
+          ],
+          "risks": [
+            "조작감의 불편함",
+            "단순한 반복 플레이로 인한 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "해킹 액션",
+            "concept": "적을 파괴하는 대신 해킹하여 아군으로 만드는 시스템으로, 전략적 우위를 점하는 방식입니다.",
+            "first_step": "적에게 접근하여 해킹 버튼을 누르면 상태가 변경되는 로직 구현."
+          },
+          {
+            "title": "원격 유닛 커스터마이징",
+            "concept": "파괴한 적의 부품을 수집하여 원격 유닛을 개조하는 시스템입니다.",
+            "first_step": "부품 수집 시 유닛의 공격력이나 속도가 변하는 수치 변경 로직 구현."
+          }
+        ],
+        "recommendation_ko": "액션 게임의 기본 조작과 적 AI 구현을 배우고 싶은 개발자에게 추천합니다. 조작감과 타격감을 개선하는 과정을 통해 게임의 완성도를 높이는 법을 배울 수 있습니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 게임의 시점(2D/3D), 구체적인 조작 방식, 레벨 디자인 구조 등을 알 수 없습니다. 실제 개발 시에는 기획 단계에서 조작 방식을 명확히 정의해야 합니다.",
+        "name": "Clankertron [Free] [Windows]",
+        "source": "itch",
+        "detail_url": "https://tcksoft.itch.io/clankertron",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 10000,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
     }
   }
 }

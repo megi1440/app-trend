@@ -11879,6 +11879,551 @@
         "thoughtsTokenCount": 695,
         "serviceTier": "standard"
       }
+    },
+    "apple:6738372450": {
+      "app_key": "apple:6738372450",
+      "name": "디지털온누리",
+      "developer": "한국조폐공사",
+      "source": "apple",
+      "kind": "app",
+      "detail_url": "https://apps.apple.com/kr/app/%EB%94%94%EC%A7%80%ED%84%B8%EC%98%A8%EB%88%84%EB%A6%AC/id6738372450",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:6738372450",
+        "product_kind": "app",
+        "original_experience_ko": "원본 '디지털온누리'는 정부/정책 지원 상품권(온누리상품권)을 최대 10개의 은행 계좌를 통해 충전하고, QR 코드 스캔이나 등록된 카드로 온오프라인 가맹점에서 할인된 잔액으로 결제하며, 연락처 기반 선물하기와 가맹점 모드를 통한 정산 관리를 지원하는 디지털 금융/결제 앱입니다. (스토어에 명시된 사실: 계좌 충전, QR/카드 결제, 선물하기, 가맹점 매출·정산 관리, FDS 적용 / AI 해석의 한계: 백엔드 아키텍처, FDS 세부 탐지 로직, 금융 오픈API 연동 방식 등은 확인 불가)",
+        "source_facts_and_limitations_ko": [
+          "스토어 확인 사실: 최대 10개 계좌 등록 및 충전, QR코드 오프라인 결제, 제휴몰 온라인 결제, 연락처 기반 상품권 선물하기, 가맹점모드(직원 및 매출/정산 관리), FDS(이상거래감지시스템) 적용.",
+          "확인되지 않은 한계: 구체적인 금융 결제 게이트웨이(PG) 연동 규격, 보안 암호화 알고리즘의 실무 구현 상세, 지자체/정부 정책 API 연동 방식."
+        ],
+        "valuable_elements_ko": [
+          "지류 형태의 한계를 극복하고 모바일 환경에서 정책 지원금/상품권을 즉시 충전·사용하는 결제 허브 구조.",
+          "이름과 휴대폰 번호만으로 잔액을 간편하게 주고받는 P2P 선물하기 기능.",
+          "일반 소비자용 모드와 소상공인용 가맹점 모드를 하나의 앱 안에서 역할 전환형으로 제공하는 구조."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "동네모아 페이 (Neighborhood Group-Buy & Voucher Wallet)",
+            "core_idea_ko": "지역 디지털 상품권 및 정책 바우처 지갑의 결제 인프라에 '소상공인 공동구매(그룹바잉)' 개념을 결합하여, 이웃 주민들이 힘을 모아 동네 가게의 상품이나 서비스를 공동 구매하면 추가 할인과 연계 바우처를 획득할 수 있는 지역 상생 커머스 결제 앱입니다.",
+            "what_to_keep_ko": "지역 가맹점 네트워크 기반의 QR 결제 흐름, 디지털 잔액 충전 및 정책 할인 혜택 구조, 간편 선물하기 기능을 그대로 계승합니다.",
+            "what_to_change_ko": "단순 개인 지출 중심의 결제에서 벗어나, '동네 단위 공동구매 매칭' 규칙을 도입하여 여럿이 함께 구매할 때 추가 할인과 캐시백이 적용되도록 결제 흐름을 확장합니다.",
+            "mobile_use_or_play_ko": "사용자가 앱에서 동네 반찬가게나 전통시장 점포의 '공동구매 품목'을 확인하고 참여 신청을 하면, 목표 인원 달성 시 자동 할인된 금액으로 QR 결제 권한이 활성화되고, 오프라인 방문 시 QR 스캔으로 즉시 수령 및 결제가 완료됩니다.",
+            "key_features_ko": [
+              "지역 가맹점 연계형 공동구매 매칭 및 소셜 할인 리워드 시스템",
+              "정책 바우처 잔액과 공동구매 적립금이 통합 관리되는 디지털 지갑",
+              "이웃 간 공동구매 참여 현황을 보여주는 위치 기반 피드",
+              "점주용 가맹점 모드에서 공동구매 품목 등록 및 정산 관리"
+            ],
+            "solo_mvp_and_effort_ko": "실제 금융 결제 연동 대신 Mock PG 및 로컬 SQLite 기반의 가상 잔액 충전/결제 시뮬레이션을 구현합니다. Node.js/Express 백엔드와 Flutter/React Native 크로스플랫폼을 활용해 1인 개발 시 약 6~8주 소요.",
+            "strengths_limits_ko": "장점은 단순 결제를 넘어 지역 커머스 활성화라는 명확한 차별점이 있으나, 약점은 실제 가맹점 영업과 소상공인 참여를 유도하는 초기 생태계 구축이 어렵다는 점입니다."
+          },
+          {
+            "title_ko": "샵인샵 정산 노트 (Shared Shop & Micro-Merchant Settlement App)",
+            "core_idea_ko": "원본의 가맹점 모드와 정산 관리 기능에 집중하여, 최근 늘어나는 숍인샵(Shop-in-Shop) 매장, 공유 오피스 내 상점, 전통시장 청년몰 점주들이 매출을 자동으로 분배하고 고정 비용을 투명하게 정산할 수 있도록 돕는 소상공인 협동 정산 앱입니다.",
+            "what_to_keep_ko": "매출 및 정산 내역 관리, 직원/파트너 권한 관리, 모드 전환 구조를 계승합니다.",
+            "what_to_change_ko": "단일 사업자 중심의 가맹점 관리를 다중 사업자(공유 매장) 간의 실시간 매출 자동 분할, 수수료 정산, 공유 공과금 배분 로직으로 고도화합니다.",
+            "mobile_use_or_play_ko": "대표 점주가 앱에서 공간을 공유하는 파트너 사업자 2명을 등록하고 각자의 상품/서비스 매출 비율을 설정하면, 손님이 QR로 결제한 금액이 FDS 기반의 안전한 룰에 따라 각자의 가상 계정으로 자동 정산되어 일일 리포트로 제공됩니다.",
+            "key_features_ko": [
+              "다중 사업자 간 실시간 매출 자동 분할 및 정산 알고리즘",
+              "공유 매장 고정비(임대료, 관리비) 자동 정산 관리 캘린더",
+              "파트너별 권한 분리(판매 전용, 정산 조회 전용) 모드",
+              "엑셀 및 국세청 양식 연동을 위한 정산 내역 내보내기"
+            ],
+            "solo_mvp_and_effort_ko": "복잡한 은행 실계좌 이체 연동은 제외하고, 내부 데이터베이스 내에서 가상의 장부 분할 및 정산 시뮬레이션 기능에 집중합니다. 1인 개발로 웹/모바일 반응형 앱 구축 시 약 5~7주 소요.",
+            "strengths_limits_ko": "장점은 소상공인의 실무 페인포인트(정산 갈등)를 직접 타격한다는 점이며, 약점은 결제 앱 자체보다는 B2B 장부/정산 SaaS 성격이 강해 일반 소비자의 유입 유인이 낮다는 점입니다."
+          },
+          {
+            "title_ko": "에코로컬 포인트 지갑 (Eco-Local Activity Reward Wallet)",
+            "core_idea_ko": "현금 계좌 충전 방식 대신, 일상 속 친환경 활동(텀블러 사용, 로컬 플라스틱 수거 참여, 전통시장 장바구니 이용 등)을 인증하면 포인트를 적립받고, 이를 지역 제휴 상점에서 사용할 수 있는 정책 바우처로 자동 전환하는 에코 리워드 지갑 앱입니다.",
+            "what_to_keep_ko": "디지털 바우처 잔액 관리, QR 오프라인 가맹점 결제, 가맹점주용 인증 및 관리 모드를 계승합니다.",
+            "what_to_change_ko": "충전 수단을 '은행 계좌'가 아닌 '친환경/커뮤니티 활동 인증 리워드'로 대체하여, 공익 활동과 지역 경제 소비를 연결하는 선순환 구조를 만듭니다.",
+            "mobile_use_or_play_ko": "사용자가 제휴 전통시장에서 장바구니를 쓰고 점주용 앱의 QR을 통해 친환경 인증을 받으면 '에코 포인트'가 적립되고, 이 포인트를 모아 온오프라인 가맹점에서 현금처럼 QR 결제에 사용합니다.",
+            "key_features_ko": [
+              "카메라 기반 친환경 활동 인증 및 포인트 자동 적립 시스템",
+              "적립된 포인트를 지역 상품권 잔액으로 전환하는 브릿지 로직",
+              "가맹점주가 직접 친환경 인증을 승인하고 리워드를 지급하는 가맹점 모드",
+              "개인별 탄소 절감 효과 및 지역 소비 기여도 리포트"
+            ],
+            "solo_mvp_and_effort_ko": "실제 정부 보조금 연동 대신 온디바이스 카메라 인식 및 Mock 포인트 적립/차감 시스템을 구현합니다. 프론트엔드와 간단한 백엔드 구축에 6주 소요.",
+            "strengths_limits_ko": "장점은 환경과 지역 상권이라는 두 가지 공익적 가치를 결합하여 지자체나 공공기관의 협력(B2G) 가능성을 높인다는 점이며, 약점은 초기 사용자에게 리워드를 보상할 재원이나 인프라 확보 방안이 과제로 남는다는 점입니다."
+          }
+        ],
+        "concept_comparison_ko": "1안(동네모아 페이)은 일반 소비자 중심의 소셜 커머스 결합형으로 서비스 확장성이 높고 흥미 요소가 있으나 가맹점 모집 부담이 있습니다. 2안(샵인샵 정산 노트)은 B2B 소상공인 특화로 니즈가 명확하지만 타겟층이 협소합니다. 3안(에코로컬 포인트 지갑)은 공익적 가치와 지자체 연계성이 높으나 초기 리워드 재원 확보라는 구조적 한계가 존재합니다. 세 안 모두 원본의 결제 및 가맹점 구조를 발전시켰습니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "1안 '동네모아 페이'는 원본 앱의 핵심인 '정책 바우처 및 결제·가맹점 네트워크'라는 뼈대를 가장 자연스럽게 유지하면서도, 단순한 수동적 충전/결제를 넘어 '이웃 간 공동구매'라는 능동적 참여 요소를 더해 모바일 앱으로서의 리텐션과 실효성을 높일 수 있기 때문입니다. 1인 개발 시 결제 모듈을 목(Mock) 데이터로 대체하면 현실적으로 구현 가능합니다.",
+        "next_questions_ko": [
+          "공동구매 매칭 실패 시 미사용 잔액의 환불 및 취소 처리는 어떤 정책 규칙으로 정의할 것인가?",
+          "가맹점주가 공동구매 품목을 등록할 때 요구되는 최소한의 필수 입력 항목은 무엇인가?",
+          "FDS(이상거래감지)의 고도화 전 단계에서 1인 개발 환경으로 구현 가능한 최소한의 부정 거래 방지 룰(예: 동일 IP 중복 참여 제한)은 어떻게 설계할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-07T08:16:30+09:00",
+      "brief_quota_day": "2026-11-07",
+      "brief_usage": {
+        "promptTokenCount": 1902,
+        "candidatesTokenCount": 2553,
+        "totalTokenCount": 6340,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1902
+          }
+        ],
+        "thoughtsTokenCount": 1885,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:6738372450",
+        "product_kind": "app",
+        "selected_concept_title_ko": "동네모아 페이 (Neighborhood Group-Buy & Voucher Wallet)",
+        "project_goal_and_audience_ko": "지역 소상공인과 이웃 주민을 위한 상생형 디지털 바우처 결제 및 공동구매 플랫폼입니다. 단순한 정책 바우처 지갑 기능에 '동네 단위 소셜 공동구매' 개념을 결합하여, 이웃들이 모여 동네 가게의 상품이나 서비스를 함께 구매하고 추가 할인을 누리며 지역 경제 활성화를 도모합니다.",
+        "source_relation_and_difference_ko": "원본의 핵심 경험인 지역 가맹점 네트워크 기반 QR 결제 흐름, 디지털 잔액 충전 및 정책 바우처 지갑 구조, 간편 P2P 선물하기 기능은 그대로 계승합니다. 차별점으로는 단순 개인 지출 위주의 결제에서 벗어나 '여럿이 모여 할인받는 동네 공동구매 매칭 시스템'과 '위치 기반 피드'를 추가하여 사용자 참여도와 소상공인의 마케팅 효용을 극대화했습니다.",
+        "core_user_experience_ko": "사용자는 앱 홈 화면에서 내 동네 주변 소상공인의 공동구매 품목(예: 반찬 정기구독, 동네 카페 원두 패키지 등)을 탐색하고 참여 신청을 합니다. 목표 인원이 달성되면 자동으로 할인이 적용된 QR 결제 권한이 활성화되며, 충전된 디지털 잔액으로 간편하게 결제할 수 있습니다. 오프라인 매장 방문 시 QR 스캔으로 상품을 수령하며, 점주는 가맹점 모드로 전환해 매출과 공동구매 진행 상황을 관리합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "지역 가맹점 연계형 공동구매 매칭 시스템",
+            "user_action_and_behavior_ko": "사용자가 동네 공동구매 품목을 둘러보고 '참여하기'를 누르면 실시간으로 참여 인원이 누적되며, 목표 인원 달성 시 알림과 함께 할인된 결제 자격이 부여됩니다.",
+            "practical_implementation_ko": "프론트엔드 상태 관리(Riverpod 또는 Zustand)와 백엔드(Node.js)의 웹소켓(Socket.io) 또는 폴링 메커니즘을 연동하여 실시간 참여 인원 카운팅 상태를 동기화합니다."
+          },
+          {
+            "feature_ko": "디지털 지갑 및 정책 바우처 잔액 관리",
+            "user_action_and_behavior_ko": "가상 계좌나 간편 결제수단을 통해 잔액을 충전하고, 공동구매 할인이 적용된 금액으로 QR 결제를 수행하며, 잔액 내에서 이웃에게 간편 선물하기를 이용할 수 있습니다.",
+            "practical_implementation_ko": "로컬 SQLite 및 Mock PG API를 활용해 실제 금융 연동 없이도 충전·결제·환불 트랜잭션을 안전하게 시뮬레이션할 수 있는 데이터 처리 로직을 구현합니다."
+          },
+          {
+            "feature_ko": "가맹점모드 (점주용 역할 전환)",
+            "user_action_and_behavior_ko": "일반 사용자 모드에서 가맹점 모드로 전환하여, 점주가 직접 공동구매 품목을 등록하고 방문 고객의 QR 인증 및 매출·정산 내역을 간편하게 조회합니다.",
+            "practical_implementation_ko": "사용자 객체 내 'role' 필드(customer / merchant)를 기반으로 라우팅 및 UI 컴포넌트를 동적으로 분기 처리하고 점주 전용 대시보드 API를 호출합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "동네 홈 피드 화면",
+            "contents_and_actions_ko": "내 주변 공동구매 상품 카드 리스트(진행률, 남은 시간 표시), 상단 디지털 지갑 잔액 요약, 가맹점모드 전환 토글 버튼 배치."
+          },
+          {
+            "screen_ko": "공동구매 상세 및 참여 화면",
+            "contents_and_actions_ko": "상품 상세 설명, 할인 티어 정보, '공동구매 참여하기' 버튼, 실시간 참여자 닉네임 리스트 표시 및 참여 완료 시 QR 결제 화면으로 이동."
+          },
+          {
+            "screen_ko": "QR 결제 화면",
+            "contents_and_actions_ko": "목표 달성 후 활성화된 결제용 QR 코드 표시, 카메라 스캐너를 통한 오프라인 매장 인증 및 결제 승인 피드백 제공."
+          },
+          {
+            "screen_ko": "가맹점 관리 대시보드",
+            "contents_and_actions_ko": "등록한 공동구매 품목 리스트, 실시간 매출 및 정산 내역 요약 그래프, 신규 공동구매 등록 폼 입력 기능."
+          }
+        ],
+        "implementation_approach_ko": "Flutter 기반의 크로스플랫폼 모바일 앱을 채택하여 Android/iOS 동시 빌드가 가능하게 하고, 백엔드는 가벼운 Node.js와 Express, 데이터베이스는 SQLite 및 PostgreSQL을 사용하여 1인 개발 환경에서 신속하게 API와 데이터 흐름을 구축합니다.",
+        "data_and_storage_ko": [
+          "User 객체: id, name, phone, role(customer/merchant), balance (로컬 캐시 및 서버 DB 동기화)",
+          "GroupBuy 객체: id, merchant_id, title, price, discount_price, target_count, current_count, status (진행중/성공/마감)",
+          "Transaction 객체: id, user_id, groupbuy_id, amount, type(charge/buy/gift), timestamp (서버 DB에 트랜잭션 기록 유지)",
+          "결정 과제: 오프라인 위치 기반 필터링은 초기 버전에서는 동네 동/읍/면 단위 수동 선택 방식으로 대체하고 추후 GPS 연동으로 확장."
+        ],
+        "mvp_scope_ko": "첫 번째 프로토타입은 가상 잔액 충전, 동네 공동구매 목록 조회 및 참여, 목표 달성 후 QR 결제 시뮬레이션, 그리고 가맹점 모드의 기본 매출 확인 기능까지만 포함합니다. 실제 오픈뱅킹 API 연동, 복잡한 위치 기반 GPS 실시간 추적, 외부 푸시 알림 서버는 MVP 범위에서 제외하여 개발 부담을 최소화합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 환경 구축 및 기본 데이터 모델 설계",
+            "deliverable_and_check_ko": "Flutter 프로젝트 구조 설정, Node.js 백엔드 서버 기본 뼈대 구축, User 및 GroupBuy 데이터베이스 스키마 작성 및 마이그레이션 확인."
+          },
+          {
+            "stage_ko": "2단계: 디지털 지갑 및 가상 결제 모듈 구현",
+            "deliverable_and_check_ko": "가상 계좌 충전 API 구현, 앱 내 잔액 표시 및 로컬 상태 관리 연동, QR 코드 생성 및 모의 스캔 테스트."
+          },
+          {
+            "stage_ko": "3단계: 공동구매 매칭 시스템 및 피드 구현",
+            "deliverable_and_check_ko": "동네 공동구매 품목 리스트 UI, 참여하기 버튼 클릭 시 인원 카운팅 업데이트 로직 및 목표 달성 시 결제 권한 활성화 확인."
+          },
+          {
+            "stage_ko": "4단계: 가맹점 모드 및 통합 흐름 검증",
+            "deliverable_and_check_ko": "역할 전환(Customer <-> Merchant) UI 구현, 점주용 상품 등록 및 정산 내역 대시보드 연동, 전체 사용자 시나리오 시뮬레이션."
+          }
+        ],
+        "possible_extensions_ko": "향후 이웃 간 공동구매 상품 나눔 채팅 기능, 지자체 정책 바우처 자동 연동 API 도입, 단골 가게 구독형 멤버십 결합 및 푸시 알림 서비스 고도화.",
+        "risks_and_open_decisions_ko": [
+          "실제 금융 라이선스나 PG사 계약 없이 Mock 데이터로 시뮬레이션하므로 향후 상용화 시 법적 규제 및 보안(FDS 등) 검토 필수.",
+          "동네 단위 공동구매의 최소 인원 미달 시 환불 및 자동 취소 정책의 예외 처리 규칙에 대한 추가 기획 필요.",
+          "소상공인 참여를 유도하기 위한 초기 가맹점 데이터 확보 방안 마련 필요."
+        ],
+        "draft_status_ko": "본 문서는 실제 금융 서비스 검증, 외부 API 연동, 현장 플레이테스트가 완료되지 않은 1인 개발용 모바일 앱 개발 설계 초안입니다."
+      },
+      "plan_at": "2026-11-07T08:16:46+09:00",
+      "plan_quota_day": "2026-11-07",
+      "plan_usage": {
+        "promptTokenCount": 2712,
+        "candidatesTokenCount": 2061,
+        "totalTokenCount": 6787,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2712
+          }
+        ],
+        "thoughtsTokenCount": 2014,
+        "serviceTier": "standard"
+      }
+    },
+    "google:com.medbridgeed.hep.go": {
+      "app_key": "google:com.medbridgeed.hep.go",
+      "name": "Medbridge GO for Patients",
+      "developer": "Medbridge",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.medbridgeed.hep.go&hl=en&gl=US",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.medbridgeed.hep.go",
+        "product_kind": "app",
+        "original_experience_ko": "Medbridge GO는 의료 전문가(치료사)가 환자에게 개별 처방한 홈 재활 운동 프로그램을 집에서 안전하게 수행하도록 지원하는 헬스케어 앱입니다. 사용자는 접근 코드로 프로그램을 로드하고, 영상 및 3D 모델 가이드를 따라 운동하며, 알림과 진행 상황 추적 기능을 통해 지속적인 재활 관리를 경험합니다. (근거: 스토어 소개문 / 해석: 치료사-환자 간 원격 연동 구조와 시각 교육 자료의 중요성)",
+        "source_facts_and_limitations_ko": [
+          "사실: 접근 코드 입력으로 프로그램 다운로드, 운동 영상 재생, 알림 설정, 진행 상황 추적, 3D 모델 및 PDF 가이드 제공.",
+          "한계: 의료 데이터 보안 표준(HIPAA 등) 준수 여부, 스트리밍 서버 인프라의 구체적 구조, 치료사 전용 관리자 웹의 세부 기능은 스토어 상에서 미확인."
+        ],
+        "valuable_elements_ko": [
+          "전문가(코치/치료사)의 맞춤형 처방과 일반 사용자의 홈 수행을 연결하는 코드 기반 온보딩 흐름.",
+          "정확한 동작 수행을 돕는 영상 및 시각적 가이드(3D 모델 등)의 결합.",
+          "지속적인 수행을 유도하는 리마인더와 진행률(Progress) 트래킹 시스템."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "오피스 포스처 홈 (Office Posture Home)",
+            "core_idea_ko": "병원 재활 대신 현대 직장인의 고질적인 거북목, 허리 통증, 근골격계 피로를 예방하기 위해, 사내 물리치료사나 기업 건강검진 결과를 바탕으로 맞춤형 스트레칭 루틴을 처방받고 스마트폰 카메라로 자세 교정 피드백을 받으며 수행하는 오피스 헬스케어 앱.",
+            "what_to_keep_ko": "전문가 코드를 통한 맞춤형 루틴 수령 구조, 단계별 운동 영상 시청, 매일의 수행 기록 및 리마인더 시스템.",
+            "what_to_change_ko": "의료 재활 영역을 직장인 예방 스트레칭으로 확장하고, 단순 영상 시청을 넘어 스마트폰 전면 카메라를 활용한 실시간 자세 추정(AI 포즈 에스티메이션)으로 정확도를 피드백하는 기능 추가.",
+            "mobile_use_or_play_ko": "사원 코드로 오늘의 오피스 루틴 다운로드 -> 스마트폰을 책상에 거치하고 카메라 앵글 맞추기 -> 가이드 영상에 맞춰 목/어깨 스트레칭 수행 시 AI가 관절 각도를 인식해 올바른 자세 유도 -> 완료 후 일일 연속 수행(Streak) 기록 확인.",
+            "key_features_ko": [
+              "MediaPipe 기반 실시간 관절 각도 측정 및 자세 정확도 피드백",
+              "업무 시간에 맞춘 커스텀 스트레칭 리마인더 알림",
+              "주간/월간 근골격계 피로 개선 트래킹 리포트"
+            ],
+            "solo_mvp_and_effort_ko": "1인 개발 시 외부 서버 대신 로컬 저장소와 간단한 파이어베이스 인증을 활용하고, 공개된 오픈소스 포즈 추정 라이브러리를 연동하여 MVP 구현. AI 모델 경량화 및 모바일 부하 최적화에 중간 수준의 개발 공수 소요.",
+            "strengths_limits_ko": "차별화된 인터랙션(AI 피드백)으로 단순 시청 앱보다 몰입도가 높으나, 다양한 조도와 스마트폰 각도에 따른 포즈 인식 오류를 보정하는 한계점 존재."
+          },
+          {
+            "title_ko": "핏커넥트 홈 (FitConnect Home)",
+            "core_idea_ko": "소규모 피트니스 센터나 필라테스 스튜디오의 강사가 수강생(회원) 개인별 맞춤 홈트레이닝/필라테스 루틴을 조합해 전송하면, 회원이 집에서 연속 재생 플레이어로 운동을 수행하고 수행 결과가 강사에게 리포트되는 1:1 홈 코칭 앱.",
+            "what_to_keep_ko": "전문가 프로그램 수령, 순차적 운동 영상 재생, 수행 완료 여부 추적 및 교육용 가이드 제공 흐름.",
+            "what_to_change_ko": "대상 도메인을 의료 재활에서 일반 퍼스널 피트니스/필라테스로 전환하고, 수동적인 단방향 시청에서 세트 기반 연속 재생 플레이어 및 강사와의 간단 피드백 루프 기능으로 고도화.",
+            "mobile_use_or_play_ko": "초대 코드로 앱에 접속하여 강사가 구성한 '하체 강화 시퀀스' 로드 -> 연속 재생 플레이어에서 휴식 타이머와 함께 영상 3개를 연달아 시청하며 동작 수행 -> 완료 버튼을 누르면 강사 대시보드로 수행 완료 알림과 소요 시간 전송.",
+            "key_features_ko": [
+              "세트 및 휴식 시간 커스텀 설정이 가능한 연속 재생 운동 플레이어",
+              "강사와 회원 간 운동 완료 리포트 자동 동기화",
+              "운동 중 궁금증 해소를 위한 타임라인 메모 기능"
+            ],
+            "solo_mvp_and_effort_ko": "REST API와 파이어베이스를 활용해 강사/회원 데이터 모델을 심플하게 구축하고, 기존에 촬영된 MP4/GIF 형태의 운동 영상을 스트리밍 또는 로컬 캐싱하여 구현. 1인 개발 완성도가 높고 상대적으로 구현 난이도가 낮음.",
+            "strengths_limits_ko": "피트니스 시장에서 수요가 높아 상용화 가능성이 크지만, 코칭을 제공할 강사 집단을 유치하거나 고품질의 운동 영상 콘텐츠 소스를 확보해야 하는 과제가 있음."
+          },
+          {
+            "title_ko": "펫피트너 홈 (PetPartner Home)",
+            "core_idea_ko": "동물병원 수의사나 반려동물 재활사가 수술 후 혹은 노령견/노령묘를 위해 처방한 홈 재활 운동(관절 마사지, 가동범위 운동 등)을 반려동물 보호자가 집에서 정확하게 따라 할 수 있도록 지원하는 반려동물 홈 재활 가이드 앱.",
+            "what_to_keep_ko": "전문가 처방 코드 입력 시스템, 단계별 시각 가이드 및 3D 해부학 모델 참고, 일일 수행 기록 및 리마인더.",
+            "what_to_change_ko": "사용 대상을 사람 환자에서 반려동물 보호자로 변경하고, 반려동물의 좌우 신체 대칭(왼쪽 다리/오른쪽 다리)을 고려한 특화된 좌우 구분 수행 체크리스트와 3D 관절 뷰어 도입.",
+            "mobile_use_or_play_ko": "병원 코드를 입력하여 반려동물 맞춤 재활 프로그램 다운로드 -> 3D 관절 해부도로 수술 부위 확인 -> 스트레칭 영상 시청하며 양측 다리 마사지 시간 타이머 작동 -> 오늘의 수행 일지와 반려견 컨디션 메모 기록.",
+            "key_features_ko": [
+              "반려동물 신체 부위별 3D 해부학 및 가동범위 가이드 뷰어",
+              "좌우 대칭 운동을 위한 듀얼 카운터 및 타이머",
+              "수의사 공유용 주간 재활 수행 리포트 PDF 출력"
+            ],
+            "solo_mvp_and_effort_ko": "오픈소스 3D 뷰어 엔진(또는 고정형 3D 모델 렌더링)과 로컬 DB 기반의 단순 수행 일지 조합으로 MVP 제작 가능. 3D 반려동물 에셋 제작 또는 구매 비용이 발생할 수 있음.",
+            "strengths_limits_ko": "반려동물 헬스케어 니치 시장에서 독창성이 높고 소구력이 있으나, 보호자가 전문가 없이 복잡한 동물 재활 동작을 정확히 수행하기 어렵다는 실질적 한계가 존재."
+          }
+        ],
+        "concept_comparison_ko": "아이디어 1(오피스 포스처 홈)은 AI 비전 기술을 통한 차별화된 피드백을 제공하나 모바일 연산 부하가 크고, 아이디어 3(펫피트너 홈)은 반려동물 시장의 특화 가치를 지니나 동작 수행의 물리적 한계가 뚜렷합니다. 반면 아이디어 2(핏커넥트 홈)는 원본의 전문가-사용자 연결 구조를 가장 직관적으로 피트니스 영역에 이식하며, 1인 개발 관점에서 구현 난이도가 낮고 확장성이 뛰어납니다.",
+        "recommended_concept_number": 2,
+        "why_recommended_ko": "‘핏커넥트 홈’은 원본 Medbridge GO의 핵심인 '전문가 프로그램 수령 -> 홈 수행 -> 트래킹' 흐름을 가장 왜곡 없이 건전하게 계승하면서도, 타겟을 피트니스/필라테스 대중 시장으로 넓혀 실용성을 높였습니다. 파이어베이스와 기본 비디오 플레이어 중심의 아키텍처로 1인 개발자가 MVP를 단기간에 완성할 수 있으며, 향후 B2B SaaS 형태로 발전시키기에도 가장 타당한 구조입니다.",
+        "next_questions_ko": [
+          "강사(전문가)가 커스텀 루틴을 직접 제작하는 웹/모바일 관리자 툴의 범위를 어디까지 최소화할 것인가?",
+          "운동 영상 콘텐츠를 자체 제작할 것인가, 혹은 유튜브 등의 임베드/외부 링크로 초기 비용을 절감할 것인가?",
+          "회원이 운동을 수행하는 동안 강사와 실시간으로 소통해야 하는가, 아니면 비동기 리포트 전송만으로 충분한가?"
+        ]
+      },
+      "brief_at": "2026-11-07T08:23:22+09:00",
+      "brief_quota_day": "2026-11-07",
+      "brief_usage": {
+        "promptTokenCount": 1380,
+        "candidatesTokenCount": 2334,
+        "totalTokenCount": 6003,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1380
+          }
+        ],
+        "thoughtsTokenCount": 2289,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.medbridgeed.hep.go",
+        "product_kind": "app",
+        "selected_concept_title_ko": "핏커넥트 홈 (FitConnect Home)",
+        "project_goal_and_audience_ko": "소규모 피트니스 센터나 필라테스 스튜디오의 강사와 수강생(회원)을 연결하여, 집에서도 체계적인 1:1 맞춤 홈 트레이닝을 수행하고 그 결과를 공유할 수 있도록 돕는 모바일 코칭 앱입니다. 회원은 강사가 설계한 루틴을 끊김 없이 수행하고, 강자는 회원의 수행 이력을 파악하여 효과적인 피드백을 제공하는 것을 목표로 합니다.",
+        "source_relation_and_difference_ko": "원작 'Medbridge GO'의 핵심인 '전문가 접근 코드 기반 프로그램 수령 -> 가이드 영상 시청 및 홈 수행 -> 수행 결과 트래킹'이라는 검증된 온보딩 및 실행 흐름을 그대로 계승했습니다. 차별점으로는 의료 재활 도메인을 일반 퍼스널 피트니스 및 필라테스로 전환하고, 단순 단방향 시청 구조를 세트 및 휴식 타이머가 결합된 '연속 재생 플레이어'와 강사 대시보드용 리포트 전송 기능으로 고도화했습니다.",
+        "core_user_experience_ko": "회원은 앱 최초 실행 시 강사에게 부여받은 6자리 초대 코드를 입력하여 해당 주차의 맞춤 운동 리스트를 기기에 로드합니다. 메인 화면에서 '오늘의 운동 시작'을 누르면 1번 동작 영상 재생 -> 자동 휴식 타이머(30초) -> 2번 동작 영상 재생으로 이어지는 연속 재생 플레이어가 작동합니다. 모든 세트가 종료된 후 '완료 및 리포트 전송' 버튼을 누르면 소요 시간과 완료 상태가 서버를 통해 강사에게 전달됩니다.",
+        "features_ko": [
+          {
+            "feature_ko": "코드 기반 루틴 온보딩",
+            "user_action_and_behavior_ko": "사용자가 초대 코드를 입력하면 서버에서 해당 회원의 맞춤 운동 리스트(영상 URL, 세트 수, 반복 횟수)를 가져와 로컬에 캐싱하고 홈 화면에 루틴 카드를 렌더링합니다.",
+            "practical_implementation_ko": "Retrofit을 활용해 REST API로 데이터를 호출하고, Room DB를 이용해 오프라인 상태에서도 캐시된 운동 목록을 열람할 수 있도록 구현."
+          },
+          {
+            "feature_ko": "세트 및 휴식 연동 연속 재생 플레이어",
+            "user_action_and_behavior_ko": "운동 영상 재생이 끝나면 자동으로 카운트다운 타이머(휴식 시간)로 화면이 전환되며, 사용자가 수동으로 조작하지 않아도 다음 세트 영상으로 부드럽게 이어져 운동 흐름이 끊기지 않습니다.",
+            "practical_implementation_ko": "AndroidX Media3 (ExoPlayer) 라이브러리를 활용해 영상 재생을 제어하고, Kotlin Coroutine을 이용해 백그라운드 휴식 타이머 로직 구현."
+          },
+          {
+            "feature_ko": "운동 완료 리포트 및 타임라인 메모",
+            "user_action_and_behavior_ko": "전체 루틴 종료 시 완료 팝업이 표시되며, 운동 중 느낀 점(예: '동작 중 무릎이 아픔')을 한 줄 메모로 작성하여 강사에게 전송할 수 있습니다.",
+            "practical_implementation_ko": "완료 시점의 타임스탬프와 메모 내용을 페이로드에 담아 POST 요청으로 Firebase Firestore에 저장."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "코드 입력 온보딩 화면",
+            "contents_and_actions_ko": "초대 코드 입력 필드 및 '시작하기' 버튼. 입력 성공 시 회원 프로필과 매칭된 루틴 대시보드로 이동."
+          },
+          {
+            "screen_ko": "메인 루틴 대시보드",
+            "contents_and_actions_ko": "강사가 배정한 주간 운동 목록, 각 루틴의 예상 소요 시간, '운동 시작' CTA 버튼 배치."
+          },
+          {
+            "screen_ko": "연속 재생 운동 플레이어 화면",
+            "contents_and_actions_ko": "상단 비디오 영역, 하단 세트/반복 횟수 정보, 휴식 타이머 오버레이, 일시정지 및 건너보기 조작부."
+          },
+          {
+            "screen_ko": "완료 리포트 및 피드백 화면",
+            "contents_and_actions_ko": "운동 완료 축하 메시지, 총 소요 시간 요약, 강사에게 남길 한 줄 메모 입력창 및 '제출하기' 버튼."
+          }
+        ],
+        "implementation_approach_ko": "안드로이드 네이티브(Kotlin) 환경을 기반으로 하며, UI는 Jetpack Compose를 활용하여 선언적이고 반응형으로 구현합니다. 비디오 재생은 안정적인 스트리밍을 위해 ExoPlayer를 채택하고, 백엔드 및 실시간 동기화는 Firebase (Firestore + Authentication)를 사용하여 1인 개발자가 서버 인프라 구축 부담을 최소화할 수 있도록 설계합니다.",
+        "data_and_storage_ko": [
+          "Routine 객체 (id, title, coachName, exercises: List<ExerciseItem>): 로컬 Room DB 및 Firestore에 저장, 앱 실행 시 최신 데이터 동기화.",
+          "ExerciseItem 객체 (exerciseId, videoUrl, setIndex, targetReps, restSeconds): 비디오 재생 및 타이머 설정에 사용.",
+          "CompletionReport 객체 (reportId, userId, routineId, completedAt, durationSeconds, memo): 운동 완료 시 Firestore에 저장되어 강사 대시보드에 반영됨."
+        ],
+        "mvp_scope_ko": "초대 코드 입력, 단일 루틴 불러오기, ExoPlayer 기반의 순차적 영상 재생 및 휴식 타이머, 완료 리포트 전송 기능까지만 포함합니다. 강사 전용 웹 대시보드, 실시간 채팅, 결제 시스템 등 복잡한 부가 기능은 MVP 단계에서 제외하여 개발 범위를 압축합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 환경 설정 및 데이터 모델 정의",
+            "deliverable_and_check_ko": "Kotlin/Compose 프로젝트 셋업, Room 및 Firestore 스키마 작성. 로컬 가상 JSON 데이터를 로드해 홈 화면에 렌더링되는지 확인."
+          },
+          {
+            "stage_ko": "2단계: 비디오 재생 및 휴식 타이머 구현",
+            "deliverable_and_check_ko": "ExoPlayer를 통한 샘플 영상 재생 구현 및 코루틴 기반 휴식 타이머 연동 테스트. 영상 종료 후 타이머로 자연스럽게 전환되는지 확인."
+          },
+          {
+            "stage_ko": "3단계: 온보딩 및 리포트 전송 연동",
+            "deliverable_and_check_ko": "코드 입력 온보딩 화면 구현, 운동 완료 시 Firestore로 리포트 데이터가 정상 전송되는지 로그를 통해 검증."
+          }
+        ],
+        "possible_extensions_ko": "운동 중 심박수 연동(웨어러블 기기 연동), 강사가 직접 루틴을 조립하는 모바일 빌더 기능, 음성 가이드(TTS) 추가, 주간 달성 캘린더 스트릭(Streak) 시각화.",
+        "risks_and_open_decisions_ko": [
+          "영상 콘텐츠의 호스팅 비용 및 트래픽 부하 문제 (해결 방안으로 외부 CDN 또는 압축된 MP4 링크 사용 검토)",
+          "네트워크가 불안정한 환경에서의 플레이어 버퍼링 처리 방식 결정 필요",
+          "초대 코드 유효성 검증 규칙 및 만료 기간 설정에 대한 기획 미확정"
+        ],
+        "draft_status_ko": "본 개발 설계 초안은 실제 앱 상용화 및 필드 테스트를 거치지 않은 개념적 제안이며, 개발 과정에서의 기술적 제약과 피드백에 따라 아키텍처와 기능 범위가 조정될 수 있습니다."
+      },
+      "plan_at": "2026-11-07T08:23:45+09:00",
+      "plan_quota_day": "2026-11-07",
+      "plan_usage": {
+        "promptTokenCount": 2132,
+        "candidatesTokenCount": 1926,
+        "totalTokenCount": 6609,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2132
+          }
+        ],
+        "thoughtsTokenCount": 2551,
+        "serviceTier": "standard"
+      }
+    },
+    "google:com.nttdocomo.keitai.payment": {
+      "app_key": "google:com.nttdocomo.keitai.payment",
+      "name": "d払い－スマホ決済アプリ、キャッシュレスでお支払い",
+      "developer": "NTT DOCOMO",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.nttdocomo.keitai.payment&hl=ja&gl=JP",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.nttdocomo.keitai.payment",
+        "product_kind": "app",
+        "original_experience_ko": "원작 앱 'd바이'는 스마트폰 화면에 바코드나 QR코드를 표시해 오프라인 매장에서 간편하게 결제하고, 동시에 리워드 포인트(d포인트)를 적립 및 사용할 수 있는 통합 핀테크 플랫폼 경험을 제공합니다. 공개된 스토어 정보에 기반할 때, 사용자는 복잡한 지갑 조작 없이 단일 화면 진입만으로 결제와 멤버십 혜택을 동시에 처리하는 매끄러운 소비 경험을 누립니다.",
+        "source_facts_and_limitations_ko": [
+          "확인된 사실: 도코모 회선 가입 여부와 무관하게 d계정으로 이용 가능하며, 바코드/QR코드를 통한 온오프라인 결제, 포인트 적립·사용, 전화 요금 합산 및 신용카드 등 다양한 결제 수단 연동, 모바일 쿠폰 및 주문 기능을 지원함.",
+          "한계 및 미확인 사항: 금융 거래를 처리하는 백엔드 보안 프로토콜, PG사 연동 규격, 실실적인 금융 규제 준수 방식 등은 스토어 소개문에 명시되어 있지 않아 구현 수준을 가늠할 수 없음."
+        ],
+        "valuable_elements_ko": [
+          "앱 실행 시 곧바로 대형 바코드/QR코드가 노출되어 계산대에서 지체 없이 상호작용할 수 있는 직관적인 오프라인 UX",
+          "결제 행위와 리워드(포인트) 적립이 자연스럽게 맞물려 일어나는 선순환적 보상 메커니즘",
+          "다양한 제휴처 정보를 하나의 앱 안에서 모아볼 수 있는 허브 형태의 유틸리티성"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "로컬 스탬프 크로스오버 허브",
+            "core_idea_ko": "민감한 금융 결제 기능을 제외하고, 동네 소상공인들의 종이 스탬프 쿠폰을 디지털로 통합하며 인근 상점 간 협업 리워드를 제공하는 로컬 마케팅 유틸리티 앱.",
+            "what_to_keep_ko": "원터치로 바코드/QR을 띄워 상점 주인의 스캔을 유도하는 직관적인 오프라인 상호작용 UX와 리워드 적립 경험.",
+            "what_to_change_ko": "실제 결제/카드 연동 기능을 전면 배제하고, 방문 및 영수증 인증 기반의 무료 디지털 스탬프 적립과 제휴 상점 간 쿠폰 교환 네트워크로 목적을 전환.",
+            "mobile_use_or_play_ko": "사용자가 동네 카페에 방문해 앱을 켜고 QR을 제시하면 점주가 이를 스캔하여 디지털 스탬프가 적립되고, 일정 개수가 쌓이면 인근 베이커리에서 쓸 수 있는 교환권을 발급받는 흐름.",
+            "key_features_ko": [
+              "점주용 초경량 웹 기반 QR 스캔 및 적립 모듈",
+              "동네 제휴 상점 간 혜택 크로스오버 교환 시스템",
+              "오프라인 방문 주기에 따른 디지털 스탬프 지갑"
+            ],
+            "solo_mvp_and_effort_ko": "1인 개발 시 로컬 DB 또는 파이어베이스를 활용해 사용자-상점 간 QR 인식 및 스탬프 카운트 기능만 구현. 복잡한 PG 연동이 없어 서버 비용과 법적 리스크가 낮음.",
+            "strengths_limits_ko": "장점은 보안 리스크 없이 1인 개발이 가능하다는 점이며, 약점은 상점들을 직접 입점시켜야 하는 초기 영업 부담이 존재한다는 과제가 있음."
+          },
+          {
+            "title_ko": "소셜 영수증 & 가상 정산 핀",
+            "core_idea_ko": "친구들과의 모임이나 여행에서 발생한 지출 영수증을 QR로 공유하고, 가상 크레딧을 통해 정산 내역을 투명하게 기록하는 소모임 유틸리티 앱.",
+            "what_to_keep_ko": "개인 간 오프라인 만남에서 즉석으로 QR코드를 교환하여 데이터를 주고받는 빠르고 직관적인 인터페이스.",
+            "what_to_change_ko": "화폐 결제 처리 대신 지출 분할 계산, 영수증 텍스트 인식(OCR) 데이터 공유, 그리고 가상 크레딧을 통한 정산 상태 관리로 기능 재편.",
+            "mobile_use_or_play_ko": "모임 총무가 결제한 영수증을 찍어 앱 내에서 분할 코드를 생성하면, 참여자들이 각자 스마트폰으로 해당 QR을 스캔해 본인 부담금을 확인하고 정산 완료 버튼을 누르는 흐름.",
+            "key_features_ko": [
+              "영수증 이미지 기반 간편 항목 분할 기능",
+              "오프라인 대면 상황에서의 QR 기반 즉시 정산 승인",
+              "소모임별 가상 지출 잔액 및 정산 리포트"
+            ],
+            "solo_mvp_and_effort_ko": "로컬 저장소 중심의 정산 계산기와 오프라인 QR 생성/인식 라이브러리 조합으로 빠르게 MVP 구현 가능. 네트워크 동기화는 최소한으로 유지.",
+            "strengths_limits_ko": "장점은 실생활 유용성이 높고 금융 규제에서 완전히 자유롭다는 점이며, 약점은 기존의 수많은 핀테크/더치페이 앱들과의 차별성을 증명해야 함."
+          },
+          {
+            "title_ko": "플리마켓 디지털 굿즈 패스",
+            "core_idea_ko": "플리마켓이나 팝업스토어에서 현금이나 외부 송금으로 거래를 마친 뒤, 판매자와 구매자가 디지털 영수증과 보증서, 멤버십 스탬프를 QR 스캔으로 주고받는 거래 인증 유틸리티.",
+            "what_to_keep_ko": "단일 앱 화면 내에서 바코드/QR을 제시하고 상대방이 스캔하여 거래나 인증을 매듭짓는 명확한 완결성.",
+            "what_to_change_ko": "대기업 결제 생태계 연동을 걷어내고, 소규모 크리에이터와 독립 셀러들이 자발적으로 고객 관리와 디지털 굿즈(디지털 포토카드 등)를 발급하는 툴로 축소.",
+            "mobile_use_or_play_ko": "플리마켓에서 수공예품을 구매한 후 셀러가 내미는 QR을 스캔하면, 구매 인증 디지털 영수증과 함께 작가의 한정판 디지털 굿즈가 내 앱에 수집되는 흐름.",
+            "key_features_ko": [
+              "셀러용 즉석 디지털 영수증 및 인증서 발행 모듈",
+              "구매자 앱 내 디지털 굿즈 및 스탬프 보관함",
+              "오프라인 이벤트 출석 및 재방문 알림 기능"
+            ],
+            "solo_mvp_and_effort_ko": "이미지 및 텍스트 메타데이터를 담은 QR 생성과 클라우드 스토리지 연동으로 가볍게 구현 가능. 결제 모듈이 빠져 개발 난이도가 낮음.",
+            "strengths_limits_ko": "장점은 서브컬처 및 핸드메이드 마켓에서 독창적인 덕질/팬덤 유틸리티로 어필할 수 있다는 점, 약점은 특정 마켓 시즌 외의 지속적인 사용성을 확보하기 어렵다는 점."
+          }
+        ],
+        "concept_comparison_ko": "세 아이디어 모두 원작의 핵심인 '금융 결제'를 배제하되, 원작이 가진 'QR 기반의 즉시 인증 및 리워드 순환 UX'를 각각 로컬 상점(스탬프), 친구 모임(정산), 플리마켓(디지털 영수증/굿즈)이라는 실용적 영역으로 재해석했습니다. 아이디어 1은 상점 네트워크, 아이디어 2는 개인 간 유틸리티, 아이디어 3은 마켓/팬덤 특화에 초점을 맞추며 제작 부담과 타겟층이 다릅니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "1인 개발 환경에서 실제 금융 결제 기능을 구현하는 것은 보안 및 법적 규제 상 불가능에 가깝습니다. '로컬 스탬프 크로스오버 허브'는 원작의 가장 매력적인 요소인 '오프라인 매장 방문 및 리워드 적립'의 흐름을 금융 리스크 없이 가장 직관적으로 구현할 수 있으며, 소상공인 시장에서 실질적인 유틸리티 가치를 증명할 수 있습니다.",
+        "next_questions_ko": [
+          "소상공인이 스마트폰 외에 별도의 점주용 관리 화면을 번거로워하지 않고 조작할 수 있는가?",
+          "종이 쿠폰에 익숙한 오프라인 사용자들이 디지털 스탬프 전환에 대해 충분한 동기를 느끼는가?"
+        ]
+      },
+      "brief_at": "2026-11-07T08:53:41+09:00",
+      "brief_quota_day": "2026-11-07",
+      "brief_usage": {
+        "promptTokenCount": 2838,
+        "candidatesTokenCount": 2146,
+        "totalTokenCount": 7778,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2838
+          }
+        ],
+        "thoughtsTokenCount": 2794,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.nttdocomo.keitai.payment",
+        "product_kind": "app",
+        "selected_concept_title_ko": "로컬 스탬프 크로스오버 허브",
+        "project_goal_and_audience_ko": "본 앱은 동네 소상공인(카페, 베이커리, 식당 등)과 지역 소비자를 연결하는 디지털 로컬 마케팅 유틸리티 앱입니다. 종이 스탬프 카드의 분실 및 휴대 불편함을 해소하고, 인근 상점 간의 제휴를 통해 고객을 상호 공유하는 리워드 생태계를 제공합니다. 주 이용 대상은 단골 가게를 자주 찾는 로컬 소비자와 마케팅 수단이 필요한 동네 소상공인입니다.",
+        "source_relation_and_difference_ko": "원본 앱(d払い)의 가장 직관적인 오프라인 상호작용 UX인 '앱 실행 시 즉시 대형 QR/바코드를 노출하여 점주가 스캔하고 피드백을 받는 구조'를 핵심 경험으로 유지했습니다. 차별점으로는, 민감하고 규제가 까다로운 금융 결제 및 PG 연동 기능을 전면 배제하여 개발 진입 장벽과 법적 리스크를 없애고, 방문 인증 기반의 무료 디지털 스탬프와 제휴 상점 간 쿠폰 교환(크로스오버) 네트워크라는 실용적 마케팅 유틸리티로 목적을 재정의했습니다.",
+        "core_user_experience_ko": "사용자가 동네 제휴 상점(예: 카페)의 카운터에 방문하여 앱을 켜면, 화면 중앙에 사용자 고유 식별 QR코드가 즉시 노출됩니다. 점주가 태블릿이나 스마트폰 브라우저로 이를 스캔하면, 사용자 앱에 실시간으로 '스탬프 1개 적립' 애니메이션과 사운드 피드백이 발생합니다. 일정 개수의 스탬프가 쌓이면 사용자는 이를 인근 제휴 베이커리 등 다른 상점에서 사용할 수 있는 크로스오버 교환권으로 전환하여 사용할 수 있습니다.",
+        "features_ko": [
+          {
+            "feature_ko": "다이렉트 QR 패스 (지갑형 사용자 식별 모듈)",
+            "user_action_and_behavior_ko": "사용자가 앱을 실행하는 즉시 지갑을 열듯 사용자 고유 ID가 담긴 QR코드가 전체 화면 중앙에 노출됩니다. 점주가 이를 스캔하면 서버를 통해 사용자 계정에 실시간으로 스탬프 데이터가 반영되며, 사용자에게 시각적 피드백을 제공합니다.",
+            "practical_implementation_ko": "모바일 크로스플랫폼 프레임워크(예: Flutter 또는 React Native)의 경량 QR 생성 패키지를 활용하고, 백엔드는 BaaS(Firebase/Supabase)의 실시간 데이터베이스를 연동하여 빠른 응답 속도를 구현합니다."
+          },
+          {
+            "feature_ko": "점주용 웹 기반 간이 스캐너 모듈",
+            "user_action_and_behavior_ko": "점주가 별도의 복잡한 POS(포스) 연동 없이 스마트폰 브라우저로 로그인하여 카메라로 고객의 QR을 스캔하고 스탬프를 즉시 지급할 수 있는 관리자 화면입니다.",
+            "practical_implementation_ko": "별도의 앱스토어 심사 없이 점주가 즉시 이용할 수 있도록 HTML5와 모바일 웹 브라우저 기반의 자바스크립트 QR 스캔 라이브러리(jsQR 등)를 활용한 웹 관리자 페이지로 제작합니다."
+          },
+          {
+            "feature_ko": "동네 제휴 크로스오버 쿠폰 교환소",
+            "user_action_and_behavior_ko": "A 상점에서 모은 스탬프를 소진하여 인근 제휴된 B 상점의 할인 쿠폰이나 무료 서비스 교환권으로 교환하고, 디지털 쿠폰함에 보관하여 사용할 수 있습니다.",
+            "practical_implementation_ko": "관계형 데이터 모델(사용자, 상점, 스탬프 로그, 교환권 테이블)을 설계하여 트랜잭션 안전성을 확보하고, 쿠폰의 상태(Active/Used)를 실시간으로 토글 관리합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 지갑 및 QR 제시 화면",
+            "contents_and_actions_ko": "앱 실행 시 상단에 사용자 개인 QR코드 표시, 하단에 현재 적립된 누적 스탬프 요약 카드 및 인근 제휴 상점 리스트 진입 버튼 제공. 탭 전환으로 쿠폰 보관함 이동 가능."
+          },
+          {
+            "screen_ko": "점주용 스캔 및 적립 패널 (웹/모바일 브라우저)",
+            "contents_and_actions_ko": "카메라 뷰파인더 화면과 '스탬프 1개 지급' 승인 버튼, 최근 적립 내역 로그 리스트 표시. 고객 QR 인식 시 즉시 적립 완료 상태 출력."
+          },
+          {
+            "screen_ko": "제휴 크로스오버 쿠폰함 및 교환소",
+            "contents_and_actions_ko": "보유 스탬프로 교환 가능한 인근 제휴 상점들의 쿠폰 목록 제공. '교환하기' 터치 시 즉시 쿠폰함에 담기며, 사용 시 점주 확인용 바코드/확인 버튼 제공."
+          }
+        ],
+        "implementation_approach_ko": "크로스플랫폼 모바일 프레임워크(Flutter 등)를 사용하여 단일 코드로 안드로이드 중심의 앱을 빠르고 일관되게 개발합니다. 백엔드와 데이터베이스는 서버리스 BaaS(Firebase Firestore/Supabase)를 채택하여 별도의 복잡한 서버 인프라 구축 비용을 없애고, 실시간 데이터 동기화와 인증 기능을 가볍게 구현합니다.",
+        "data_and_storage_ko": [
+          "User 객체: userId (String), nickname (String), createdAt (Timestamp), 로컬 캐시 관리.",
+          "Store 객체: storeId (String), storeName (String), category (String), ownerId (String), stampRequirement (Int).",
+          "StampLog 객체: logId (String), userId (String), storeId (String), timestamp (Timestamp), type (earn/redeem).",
+          "CrossoverCoupon 객체: couponId (String), userId (String), sourceStoreId (String), targetStoreId (String), status (active/used), expiresAt (Timestamp).",
+          "저장 방식: BaaS의 오프라인 지속성(Offline Persistence) 기능을 활성화하여 네트워크 환경이 불안정한 매장 내부에서도 원활한 데이터 읽기 및 임시 캐시 처리가 가능하도록 함."
+        ],
+        "mvp_scope_ko": "첫 번째 프로토타입(MVP)에서는 사용자가 앱에서 QR코드를 생성하고, 점주용 웹 화면에서 이를 스캔하여 단일 상점의 스탬프가 1개 적립되며, 앱 내 지갑에 시각적으로 반영되는 최소 작동 루프(Core Loop) 구현에만 집중합니다. 다중 상점 자동 추천 알고리즘이나 푸시 알림 마케팅 등 부가 기능은 초기 MVP 범위에서 제외합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 구조 설정 및 메인 UI 레이아웃",
+            "deliverable_and_check_ko": "Flutter 프로젝트 셋업, 메인 화면의 사용자 QR코드 생성 위젯 및 하단 네비게이션 레이아웃 구현. 화면이 정상적으로 렌더링되는지 확인."
+          },
+          {
+            "stage_ko": "2단계: BaaS 연동 및 데이터 모델 스키마 정의",
+            "deliverable_and_check_ko": "Firebase/Supabase 인증 및 Firestore 데이터 컬렉션(User, Store, StampLog) 구조 설정. 앱에서 사용자 로그인 및 기본 프로필 읽기 확인."
+          },
+          {
+            "stage_ko": "3단계: 점주용 웹 스캐너 및 스탬프 적립 로직 구현",
+            "deliverable_and_check_ko": "모바일 브라우저로 접속 가능한 점주용 웹 스캐너 페이지 제작 및 jsQR 연동. 카메라로 테스트 QR 스캔 시 Firestore의 스탬프 카운트가 정상 증가하는지 확인."
+          },
+          {
+            "stage_ko": "4단계: 크로스오버 쿠폰 교환소 및 UI 통합",
+            "deliverable_and_check_ko": "스탬프 개수 차감에 따른 제휴 쿠폰 발급 및 쿠폰함 표시 기능 구현. 전체 사용자 흐름(적립 -> 쿠폰 교환)을 로컬 환경에서 테스트."
+          }
+        ],
+        "possible_extensions_ko": "위치 기반(GPS)을 활용한 인근 제휴 상점 자동 탐색 및 할인 혜택 푸시 알림, 소상공인 전용 방문 주기 분석 통계 대시보드, 사용자 간 스탬프 선물하기 기능 등은 핵심 경험이 안정화된 이후 확장할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "소상공인(점주)이 카운터에서 별도의 웹 스캐너 화면을 띄워두거나 이용하는 과정에서 진입 장벽이 발생할 수 있으므로, 스캔 프로세스의 극단적인 간소화 UX 설계가 필요함.",
+          "허위 스탬프 적립이나 부정 이용을 방지하기 위한 QR 코드의 동적 타임스탬프 만료 규칙 도입 여부는 향후 현장 테스트를 통해 결정할 과제로 남겨둠."
+        ],
+        "draft_status_ko": "본 개발 설계 초안은 실제 구현, 플레이테스트 및 소상공인 현장 검증이 완료되지 않은 1인 모바일 개발 계획의 아이디어 단계 문서입니다."
+      },
+      "plan_at": "2026-11-07T08:54:00+09:00",
+      "plan_quota_day": "2026-11-07",
+      "plan_usage": {
+        "promptTokenCount": 3549,
+        "candidatesTokenCount": 2289,
+        "totalTokenCount": 8349,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3549
+          }
+        ],
+        "thoughtsTokenCount": 2511,
+        "serviceTier": "standard"
+      }
     }
   }
 }

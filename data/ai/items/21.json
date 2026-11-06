@@ -9686,6 +9686,983 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-02"
+    },
+    "google:com.playdigious.absolum": {
+      "app_key": "google:com.playdigious.absolum",
+      "name": "Absolum",
+      "developer": "Playdigious",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.playdigious.absolum&hl=ko&gl=KR",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:03:04+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Buy the game now to enjoy a special 25% launch discount ($8.99 instead of $11.99)! A magical cataclysm left magic mistrusted by the common folk and Sun King Azra took advantage of this panic, enslaving wizards through his Crimson Order and conquering more and more lands. With the help of high enchantress Uchawi, a small group of rebels rises from the shadows. Fight as the outcast heroes of Talamh in a fierce battle to retake magic from Sun King Azra’s grasp in Absolum, an original roguelite beat ‘em up by Dotemu. FEATURES ​🌌 Join the rebellion! With the help of the high enchantress Uchawi, wield forbidden magic to free the lands of Talamh from the iron grip of Sun King Azra. ⚔️ Four heroes, each with their own fighting style: start playing as the calm but deadly Galandra or as Karl, the last free dwarf of Talamh, and discover the prodigious Brome and the enigmatic Cider as they join your journey. 💥 Craft new strategies and get more powerful every run to defeat Azra’s elite guard through a gameplay that blends the best of arcade beat’em up action with modern roguelite mechanics. ​🗺️ -From the majestic mines of Grandery to the lush forests of Jaroba, delve into an original fantasy world that comes alive through gorgeous art, masterful animation and a magnificent soundtrack by composer Gareth Coker (Ori, Halo Infinite, Prince of Persia), featuring collaborations with other legendary composers. ​🤝 Lead the uprising against Azra's regime as a lone hero, or team up with an ally through the two-player online coop mode. Combine your elemental powers and synchronize your attacks into incredible chained combos! CAREFULLY REDESIGNED FOR MOBILE - Revamped interface – exclusive mobile UI with complete touch control - Google Play Games achievements -Buy once, play anywhere: Enjoy cross-progression on mobile and PC with the same Google Play Games account - Cloud Save – Share your progress between Android devices -Compatible with controllers",
+      "analysis": {
+        "app_key": "google:com.playdigious.absolum",
+        "summary_ko": "이 게임은 판타지 세계관을 배경으로 한 로그라이트 비트엠업 액션 게임입니다. 플레이어는 4명의 영웅 중 하나를 선택하여 마법을 억압하는 악의 세력에 맞서 싸웁니다. 모바일 환경에 최적화된 인터페이스와 컨트롤러 지원, 클라우드 저장 기능을 제공합니다.",
+        "features_ko": [
+          "4명의 영웅이 각기 다른 전투 스타일을 제공합니다.",
+          "비트엠업 액션과 로그라이트 메커니즘을 결합했습니다.",
+          "온라인 2인 협동 모드를 통해 연계 공격이 가능합니다.",
+          "모바일 전용 UI와 터치 컨트롤을 지원합니다.",
+          "Google Play Games 업적 및 클라우드 저장을 지원합니다."
+        ],
+        "noteworthy_ko": "비트엠업 장르에 로그라이트 요소를 도입하여 반복 플레이 가치를 높인 점이 흥미롭습니다. 모바일 이식 과정에서 터치 컨트롤을 어떻게 최적화했는지가 개발 관점에서 중요한 연구 대상이 될 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 다수의 적을 처리하는 비트엠업 로직과 로그라이트 데이터 관리입니다. 콘텐츠 제작 부담은 캐릭터별 스킬과 스테이지 구성에 매우 크며, 밸런스 조정은 협동 모드와 싱글 모드 간의 난이도 차이를 맞추는 데 집중됩니다.",
+        "idea_ko": "플레이어의 선택에 따라 적의 공격 패턴이 변하는 '적응형 적 AI' 아이디어가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "로그라이트와 비트엠업의 독특한 결합.",
+          "모바일 최적화 및 협동 모드 지원."
+        ],
+        "systems_ko": [
+          "캐릭터 스킬 및 연계 시스템",
+          "로그라이트 무작위 생성 시스템",
+          "멀티플레이어 동기화 시스템",
+          "모바일 터치 입력 처리",
+          "데이터 저장 및 업적 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "비트엠업 장르 특유의 다수 적 처리와 협동 모드 동기화, 로그라이트의 무작위성 구현은 1인 개발자가 완성하기에 매우 높은 기술적 난이도를 요구하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 캐릭터 이동 및 공격",
+            "적 AI 및 스폰 시스템",
+            "기본 스테이지 구성"
+          ],
+          "defer": [
+            "온라인 협동 모드",
+            "다양한 캐릭터 및 스킬",
+            "복잡한 클라우드 연동"
+          ],
+          "risks": [
+            "다수 적 처리 시 성능 저하",
+            "로그라이트 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "적응형 적 AI",
+            "concept": "플레이어의 공격 패턴을 학습하여 방어하거나 회피하는 적입니다. 매번 다른 전략을 요구하여 전투의 긴장감을 높입니다.",
+            "first_step": "플레이어의 최근 공격 위치를 기록하고 적이 이를 피하는 간단한 로직을 구현합니다."
+          },
+          {
+            "title": "환경 연계 스킬",
+            "concept": "주변 지형지물을 활용해 스킬 효과를 극대화합니다. 물가에서 얼음 스킬을 쓰면 적이 얼어붙는 식의 상호작용입니다.",
+            "first_step": "지형 태그와 스킬 속성을 비교하여 추가 효과를 발생시키는 시스템을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "액션 게임의 완성도를 높이고 싶은 개발자에게 추천합니다. 다만, 로그라이트와 비트엠업의 결합은 규모가 크므로, 핵심 전투 메커니즘 하나를 정교하게 만드는 것부터 시작하는 것이 좋습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 로그라이트의 무작위 생성 알고리즘이나 협동 모드의 네트워크 동기화 방식이 명시되어 있지 않습니다. 실제 구현 시 기술적 검증이 필요합니다.",
+        "name": "Absolum",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.playdigious.absolum&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 369,
+        "reasons": [
+          "multi_country",
+          "newly_seen"
+        ],
+        "best_rank": 7,
+        "countries": [
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6480134807": {
+      "app_key": "apple:6480134807",
+      "name": "WendyQuest",
+      "developer": "81 Monkeys Game Studios Inc.",
+      "source": "apple",
+      "country": "US",
+      "category": "game_rpg",
+      "detail_url": "https://apps.apple.com/us/app/wendyquest/id6480134807?uo=2",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:05:59+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "From Wendy’s & 81Monkeys comes WendyQuest: Legend of the Four Corner Stones, a classic RPG adventure where you earn real food as you play. Dr. Mechborg and his mechs have spread a curse called “Mechtosis” across Savoria using soggy fries, frozen beef & other culinary atrocities. Only Wendy - armed with sacred spatulas, fresh beef, and an ancient prophecy - can restore order to Savoria’s people and end the mechademic once and for all. -------- KEY FEATURES: QUEST across five food-themed regions of Savoria. BATTLE flavorless foes in strategic turn-based combat. COMMAND culinary companions with special abilities. SOLVE fresh, never-frozen puzzles. CONQUER 5 unique Mech Bosses. EARN rewards you can eat IRL. (US only)",
+      "analysis": {
+        "app_key": "apple:6480134807",
+        "summary_ko": "WendyQuest는 Wendy’s와 협업하여 제작된 RPG 어드벤처 게임입니다. 플레이어는 Wendy가 되어 Mechtosis라는 저주를 퍼뜨리는 적들과 맞서 싸우며 사보리아를 구해야 합니다. 게임 플레이를 통해 실제 음식 보상을 얻을 수 있는 독특한 경험을 제공합니다.",
+        "features_ko": [
+          "5개의 음식 테마 지역을 탐험하는 퀘스트를 수행합니다.",
+          "전략적인 턴제 전투 시스템을 통해 적을 물리칩니다.",
+          "특수 능력을 가진 요리 동료들을 지휘합니다.",
+          "신선한 퍼즐을 해결하며 게임을 진행합니다.",
+          "5명의 고유한 메카 보스를 공략합니다."
+        ],
+        "noteworthy_ko": "브랜드 마케팅과 게임을 결합하여 실제 보상을 제공하는 모델이 흥미롭습니다. 게임 내 보상이 현실의 가치와 연결되는 구조를 어떻게 안정적으로 구현했는지가 관건입니다.",
+        "development_ko": "턴제 전투 시스템과 퍼즐 로직 구현이 핵심입니다. 브랜드 연동을 위한 외부 API 통신 및 보상 지급 시스템의 보안이 중요합니다. 다양한 지역과 보스 콘텐츠를 제작하는 리소스 관리 부담이 큽니다.",
+        "idea_ko": "게임 내 성취를 현실의 보상과 연결하는 로컬 비즈니스 연동형 게임 개발이 적합합니다.",
+        "highlights_ko": [
+          "브랜드와 결합된 독특한 RPG 세계관.",
+          "게임 플레이와 실제 보상의 연동."
+        ],
+        "systems_ko": [
+          "턴제 전투 엔진",
+          "퀘스트 및 보상 관리 시스템",
+          "캐릭터 성장 및 스킬 시스템",
+          "퍼즐 로직 엔진",
+          "외부 보상 연동 API"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "턴제 RPG의 복잡한 전투 밸런스와 퍼즐 설계, 그리고 외부 보상 시스템 연동은 1인이 구현하기에 매우 방대한 작업량과 기술적 복잡도를 가집니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 턴제 전투 시스템",
+            "캐릭터 이동 및 상호작용",
+            "보상 지급 로직"
+          ],
+          "defer": [
+            "복잡한 퍼즐 시스템",
+            "다양한 동료 캐릭터 시스템"
+          ],
+          "risks": [
+            "보상 시스템의 보안 및 부정 사용",
+            "콘텐츠 제작의 지속 가능성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지역 상점 연동 퀘스트",
+            "concept": "동네 상점과 연동하여 특정 미션을 완료하면 할인 쿠폰을 제공하는 로컬 RPG입니다.",
+            "first_step": "쿠폰 코드 생성 및 검증 시스템 프로토타입."
+          },
+          {
+            "title": "푸드 테마 퍼즐 RPG",
+            "concept": "음식 재료를 조합하여 적을 물리치는 퍼즐 중심의 RPG입니다.",
+            "first_step": "재료 조합에 따른 데미지 계산 로직 구현."
+          }
+        ],
+        "recommendation_ko": "브랜드 마케팅과 게임의 결합 방식을 배우고 싶은 개발자에게 추천합니다. 비즈니스와 게임의 접점을 찾는 기획력을 기를 수 있습니다.",
+        "source_limitations_ko": "실제 보상 지급을 위한 외부 서비스 연동 방식이나 보안 정책은 소개문에서 확인할 수 없습니다.",
+        "name": "WendyQuest",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/wendyquest/id6480134807?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 234,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.superpixel.scrap": {
+      "app_key": "google:com.superpixel.scrap",
+      "name": "고물 히어로",
+      "developer": "SUPERBOX Inc",
+      "source": "google",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.superpixel.scrap&hl=ko&gl=KR",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:06:22+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "\"쓰레기를 주워 세상을 구한다!\" 어느 날 찾아온 좀비 아포칼립스. 가진 거라곤 빤스 한 장과 짱돌뿐인 당신! 하지만 버려진 고철을 줍고, 뚝딱뚝딱 무기를 만들다 보니 어느새 최강의 사령관이 되어 있다?! 신개념 제작 & 방치형 RPG [정크 히어로(Junk Hero)]에서 압도적인 성장의 쾌감을 느껴보세요! 💥 압도적인 쾌감! 시원한 핵앤슬래시 끝없이 몰려오는 좀비 웨이브를 한 방에 쓸어버리세요! 무기가 업그레이드될 때마다 타격감과 이펙트가 드라마틱하게 변화합니다. 치명타, 공속, 흡혈 등 다양한 옵션을 조합해 나만의 최강 세팅을 완성하고 학살의 카타르시스를 즐겨보세요. 🛠️ 피곤한 장비 뽑기는 NO! 오직 '작업대' 하나로 끝! 스트레스받는 장비 소환 시스템은 없습니다. 모든 장비는 오로지 '작업대'에서만 등장합니다! 장비를 팔아 얻은 골드로 작업대의 레벨을 업그레이드하세요. 작업대 레벨이 상승할수록 짱돌에서부터 전기톱, 하이테크 레이저 건까지 더 높은 등급의 무기가 쏟아집니다. 😎 빤스 차림 노숙자에서 하이테크 사령관으로! 단순히 수치만 오르는 성장은 그만! 장비 티어가 올라갈수록 런닝구 차림에서 거대한 파워 아머를 입은 사령관으로 캐릭터의 외형이 확실하게 진화합니다. ⚔️ 최강자를 가린다! 1대1 아레나 PVP 열심히 맞춘 나만의 최강 세팅을 증명할 시간입니다! 다른 유저들과의 진검승부(1대1 PVP)에서 승리하고 랭킹의 정점에 도전하세요. 치열한 경쟁을 뚫고 가장 높은 티어로 상승하는 짜릿함과 엄청난 보상이 기다립니다. 🛡️ 뭉치면 강해진다! 클랜 & 클랜전 혼자 하는 생존은 끝났습니다. 마음이 맞는 유저들과 클랜을 창설하고 함께 성장하세요! 클랜원들과 협력하여 최고의 명예와 보상을 걸고 싸우는 숨 막히는 클랜전이 여러분을 기다립니다. 💤 꺼둬도 멈추지 않는 무한 성장 바쁜 일상 속에서도 성장은 계속됩니다! 오프라인 상태에서도 배터리(행동력)가 최대치를 초과하여 무한히 누적되는 유저 친화적 시스템. 오랜만에 접속해도 쏟아지는 보상으로 즐겁게 플레이하세요! 지금 바로 [고물 히어로]를 다운로드하고, 좀비 떼와 전 세계 유저들을 향해 짜릿한 반격을 시작하세요! 공식 사이트: https://superboxgo.com 페이스북: https://www.facebook.com/superbox01 이메일: help@superboxgo.com Privacy Policy : https://superboxgo.com/privacypolicy_en.php Terms of Service : https://superboxgo.com/termsofservice_en.php ---- 개발자 연락처 : (주)슈퍼박스 경인로 482 (구로동, 제이동 1310호, 1311호, 1312호, 1313호, 1314호, 1315호, 1316호, 1317호 생각공장 구로) 구로구, 서울특별시 08278 South Korea 4288600463 2017-서울구로-0809 구로구청",
+      "analysis": {
+        "app_key": "google:com.superpixel.scrap",
+        "summary_ko": "좀비 아포칼립스 세계관에서 고철을 모아 무기를 제작하고 생존하는 방치형 RPG입니다. 플레이어는 작업대를 업그레이드하며 더 강력한 무기를 획득하고 캐릭터의 외형을 진화시킵니다. 핵앤슬래시 방식의 전투와 PVP, 클랜 시스템을 통해 성장의 재미를 제공합니다.",
+        "features_ko": [
+          "작업대 레벨을 올려 짱돌부터 레이저 건까지 다양한 등급의 무기를 제작합니다.",
+          "오프라인 상태에서도 행동력이 누적되어 무한 성장이 가능한 방치형 시스템을 지원합니다.",
+          "장비 티어 상승에 따라 캐릭터 외형이 노숙자에서 파워 아머 사령관으로 변화합니다.",
+          "다른 유저와 실력을 겨루는 1대1 아레나 PVP 모드를 제공합니다.",
+          "클랜을 창설하고 클랜원과 협력하여 클랜전에 참여할 수 있습니다."
+        ],
+        "noteworthy_ko": "장비 뽑기 시스템을 배제하고 작업대 레벨업이라는 단일 경로로 성장을 집중시킨 점이 흥미롭습니다. 이는 유저의 스트레스를 줄이고 성장의 인과관계를 명확히 하는 설계로 보입니다. 캐릭터 외형의 단계적 진화는 시각적 보상을 통해 방치형 게임의 지루함을 상쇄하는 효과적인 장치로 추정됩니다.",
+        "development_ko": "핵심 구현 기술로는 아이템 합성 로직, 방치형 보상 계산을 위한 시간 기반 데이터 관리, 그리고 캐릭터 외형 변경을 위한 스킨 시스템이 필요합니다. 콘텐츠 제작 측면에서는 무기 등급별 이펙트와 모델링 리소스 확보가 가장 큰 부담이 될 것입니다. 밸런스 측면에서는 작업대 레벨업 속도와 무기 성능 간의 간극을 조정하는 것이 중요합니다.",
+        "idea_ko": "고철의 종류에 따라 무기의 속성이 결정되는 '재료 조합형 제작 시스템'을 도입하여 전략성을 높이는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "장비 뽑기 없이 작업대 레벨업만으로 무기를 획득하는 직관적인 성장 구조를 갖추고 있습니다.",
+          "오프라인 보상 누적 시스템을 통해 바쁜 일상 속에서도 지속적인 성장이 가능하도록 설계되었습니다."
+        ],
+        "systems_ko": [
+          "아이템 데이터베이스 및 제작 로직",
+          "시간 기반 오프라인 보상 계산기",
+          "캐릭터 외형 변경 및 장비 장착 시스템",
+          "PVP 매칭 및 랭킹 관리 시스템",
+          "클랜 데이터 관리 및 협동 로직"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "방치형 게임의 기본 로직은 구현이 명확하나, 다수의 아이템 데이터 관리와 PVP/클랜 시스템을 안정적으로 운영하는 데에는 상당한 개발 공수가 필요합니다. 특히 서버 연동이 필요한 멀티플레이 요소가 구현 난이도를 높입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "작업대 기반 무기 제작 시스템",
+            "자동 전투 및 좀비 웨이브 로직",
+            "기본적인 캐릭터 성장 및 스탯 시스템"
+          ],
+          "defer": [
+            "클랜 및 클랜전 시스템",
+            "실시간 PVP 아레나",
+            "복잡한 소셜 기능"
+          ],
+          "risks": [
+            "방치형 게임 특유의 반복적인 플레이로 인한 유저 이탈",
+            "무기 밸런스 붕괴로 인한 성장 재미 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "재료 속성 조합 시스템",
+            "concept": "고철마다 고유 속성을 부여하여, 어떤 재료를 조합하느냐에 따라 무기의 특수 효과가 달라지게 합니다. 단순 수치 성장을 넘어 전략적 선택지를 제공합니다.",
+            "first_step": "두 가지 재료를 합쳐 새로운 속성을 가진 무기를 생성하는 프로토타입 구현."
+          },
+          {
+            "title": "환경 상호작용 방어전",
+            "concept": "고철로 무기뿐만 아니라 방어 시설을 건설하여 좀비 웨이브를 막아내는 디펜스 요소를 추가합니다. 고정된 위치에서 전략적인 배치가 중요해집니다.",
+            "first_step": "맵에 방어 타워를 배치하고 좀비의 이동 경로를 제어하는 기본 로직 작성."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 핵심인 '성장 루프'를 어떻게 단순화하고 시각화하는지 학습하기 좋습니다. 다만 멀티플레이 기능은 개인 개발 시 운영 부담이 크므로 싱글 플레이 위주의 핵심 메커니즘부터 완성하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 데이터 저장 방식, 서버 통신 구조, 결제 시스템의 상세 구현 내용은 명시되어 있지 않습니다. 따라서 해당 기능들은 외부 라이브러리나 표준 API를 활용해야 하며, 실제 앱의 내부 로직은 확인할 수 없습니다.",
+        "name": "고물 히어로",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.superpixel.scrap&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 234,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.sharekaro.app": {
+      "app_key": "google:com.sharekaro.app",
+      "name": "ShareKaro: File Share&Transfer",
+      "developer": "ShareKaro Team",
+      "source": "google",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.sharekaro.app&hl=en&gl=US",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:08:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Share Karo is the best India's own Sharing App. You can use Share Karo to Share Files, Share Apps, Share Videos and Share All without internet. Now, Share more than just files — share it fun! Discover exciting Offline Games you can play instantly, no Wi-Fi or data needed. You can Share it for iPhone Free & Send Anywhere. Share it with all your friends now! 🚀 #1 Offline File Transfer Experience the fastest way to share. ShareKaro is 300x faster than Bluetooth and needs no mobile data or Wi-Fi. • No Size Limits: Send huge videos, full apps, folders, and more. • Absolutely Offline: Uses peer-to-peer technology for total independence. • QR Code Connection: One quick scan to connect and send. • Resume Interrupted Transfers: Never lose progress. • Zero Login Required: Just download and start sharing. 🎮 Exclusive Offline Games Now, turn waiting time into fun time! While your files are transferring or when you have no connection, dive into our collection of quick, HTML5-based games. No data needed, ever. • Play instantly, no extra downloads • A variety of fun, lightweight games • The perfect way to beat boredom offline 📁 Powerful File Manager Take full control of your phone's storage. Clean up junk, find files instantly, and free up space with ease. • Analyze storage and identify unused files • Easy browsing and powerful search • Keep your device organized and efficient 💾 All-in-One Social Media Downloader Save your favorite content directly to your gallery! Our downloader feature combines the power of: • WhatsApp Status Saver: Download any status image or video. • Instagram Downloader: Save photos, videos, stories, reels, and IGTV posts from Instagram and Instagram Lite. It's the perfect, simple tool for saving memories. Warm Reminds: Share Karo is mainly focused on nearby files transfer. To discover nearby users and share files more efficiently, Share Karo need some permissions such as location, storage, camera etc. Please be assured that the permissions we asked are used for file transfer/file share ONLY. If you meet any problem, please feel free to contact us at: glets724@gmail.com",
+      "analysis": {
+        "app_key": "google:com.sharekaro.app",
+        "summary_ko": "인터넷 연결 없이 기기 간 파일, 앱, 영상을 공유할 수 있는 파일 전송 도구입니다. 파일 관리 기능과 오프라인 게임, 소셜 미디어 다운로드 기능을 통합하여 제공합니다.",
+        "features_ko": [
+          "P2P 기술을 사용하여 인터넷 없이 파일을 고속으로 전송합니다.",
+          "QR 코드 스캔을 통해 기기 간 연결을 지원합니다.",
+          "파일 관리자를 통해 저장 공간을 분석하고 정리합니다.",
+          "WhatsApp 및 Instagram의 콘텐츠를 다운로드합니다.",
+          "전송 중단 시 이어받기 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "인터넷 없이 근거리 무선 통신을 활용하는 기술이 핵심입니다. 파일 관리와 미디어 다운로드 등 다양한 기능을 하나의 앱에 통합하여 사용자 편의성을 극대화한 점이 흥미롭습니다.",
+        "development_ko": "Wi-Fi Direct 또는 로컬 네트워크를 활용한 데이터 전송 프로토콜 구현이 가장 어렵습니다. 파일 시스템 접근 권한 관리와 다양한 소셜 미디어의 API 변경에 대응하는 유지보수 부담이 큽니다.",
+        "idea_ko": "특정 그룹 내에서만 파일을 공유하는 폐쇄형 로컬 네트워크 공유 시스템.",
+        "highlights_ko": [
+          "인터넷 데이터 소모 없는 고속 파일 전송.",
+          "파일 관리와 미디어 다운로드를 아우르는 올인원 도구."
+        ],
+        "systems_ko": [
+          "P2P 데이터 전송 프로토콜",
+          "파일 시스템 관리 및 검색 엔진",
+          "QR 코드 인식 및 연결 시스템",
+          "미디어 다운로드 파서(Parser)"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "기기 간의 안정적인 연결 유지와 다양한 파일 형식 처리, OS별 권한 정책 대응이 매우 복잡하여 1인 개발로 완성하기 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 파일 선택 및 전송 기능",
+            "로컬 저장소 접근 및 관리"
+          ],
+          "defer": [
+            "소셜 미디어 다운로드",
+            "내장 HTML5 게임"
+          ],
+          "risks": [
+            "기기별 호환성 문제",
+            "보안 및 개인정보 보호 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "로컬 파일 쉐어링",
+            "concept": "같은 와이파이 망에 있는 기기들끼리만 파일을 주고받는 간단한 웹 기반 파일 공유 도구입니다.",
+            "first_step": "로컬 서버를 띄워 파일을 업로드/다운로드하는 웹 페이지 구현."
+          },
+          {
+            "title": "개인용 파일 정리기",
+            "concept": "중복 파일과 대용량 파일을 찾아내어 삭제를 제안하는 단순한 저장소 관리 도구입니다.",
+            "first_step": "특정 폴더 내 파일 목록을 읽어와 용량순으로 정렬하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "네트워크 프로그래밍과 파일 시스템에 관심 있는 개발자에게 추천합니다. 다만, 보안과 권한 관리가 매우 중요하므로 신중한 접근이 필요합니다.",
+        "source_limitations_ko": "사용된 구체적인 전송 프로토콜, 보안 암호화 방식, 서버 연동 여부 등은 소개문만으로 파악할 수 없습니다.",
+        "name": "ShareKaro: File Share&Transfer",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.sharekaro.app&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 195,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 15,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.paurau.MakeHer": {
+      "app_key": "google:com.paurau.MakeHer",
+      "name": "Move People",
+      "developer": "Supersonic Studios LTD",
+      "source": "google",
+      "country": "US",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.paurau.MakeHer&hl=en&gl=US",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:10:17+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Put her and him in shape. Control puppets in variety of situations and help them achieve the desired state!",
+      "analysis": {
+        "app_key": "google:com.paurau.MakeHer",
+        "summary_ko": "다양한 상황 속에서 인형(캐릭터)을 조종하여 원하는 상태로 만드는 시뮬레이션 게임입니다. 캐릭터의 형태를 조절하는 조작이 핵심입니다.",
+        "features_ko": [
+          "캐릭터의 관절이나 형태를 직접 제어합니다.",
+          "제시된 상황에 맞춰 캐릭터를 특정 자세로 변형합니다."
+        ],
+        "noteworthy_ko": "캐릭터의 물리적 형태를 변형하는 조작 방식이 흥미롭습니다. 이는 IK(Inverse Kinematics)나 관절 제어 기술을 활용한 것으로 추정됩니다.",
+        "development_ko": "캐릭터 리깅과 관절 제어 기술이 핵심입니다. 다양한 상황을 연출하기 위한 레벨 디자인 부담이 있으며, 물리 엔진과의 충돌 처리가 중요합니다.",
+        "idea_ko": "제한된 시간 내에 캐릭터를 특정 요가 자세로 만드는 '요가 마스터' 게임을 제안합니다.",
+        "highlights_ko": [
+          "캐릭터를 직접 조종하는 인터랙티브한 조작 방식을 제공합니다.",
+          "다양한 상황 설정을 통한 퍼즐적 요소가 포함되어 있습니다."
+        ],
+        "systems_ko": [
+          "캐릭터 리깅 및 관절 제어",
+          "물리 엔진 기반 상호작용",
+          "상황별 목표 판정 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "캐릭터의 관절을 자연스럽게 움직이는 리깅 작업과 물리 엔진의 안정적인 구현이 개인 개발자에게는 높은 난이도이기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 관절 드래그 조작",
+            "목표 자세 판정 로직"
+          ],
+          "defer": [
+            "복잡한 애니메이션 시스템",
+            "다양한 의상 및 커스터마이징"
+          ],
+          "risks": [
+            "조작감의 불편함",
+            "물리 연산 오류로 인한 캐릭터 꼬임"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "요가 마스터",
+            "concept": "화면에 표시된 실루엣에 맞춰 캐릭터를 움직입니다. 정확도에 따라 점수를 획득합니다.",
+            "first_step": "관절을 드래그하여 움직이는 기본 캐릭터 모델 구현."
+          },
+          {
+            "title": "인형극 연출가",
+            "concept": "주어진 대사에 맞춰 캐릭터의 포즈를 실시간으로 변경하여 연극을 완성합니다.",
+            "first_step": "포즈 저장 및 불러오기 기능 구현."
+          }
+        ],
+        "recommendation_ko": "물리 엔진과 캐릭터 애니메이션 제어에 관심 있는 개발자에게 추천합니다. 조작감 구현의 어려움을 배울 수 있습니다.",
+        "source_limitations_ko": "캐릭터 조작의 구체적인 방식(드래그, 버튼 등)과 게임의 승패 조건이 명확하지 않습니다.",
+        "name": "Move People",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.paurau.MakeHer&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 183,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6828413430": {
+      "app_key": "apple:6828413430",
+      "name": "だんじりGP − ムーンステップサーガ",
+      "developer": "JYUNTO YOSHIKAWA",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_action",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%81%A0%E3%82%93%E3%81%98%E3%82%8Agp-%E3%83%A0%E3%83%BC%E3%83%B3%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%E3%82%B5%E3%83%BC%E3%82%AC/id6828413430?uo=2",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:12:58+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "海と山にはさまれた祭りの村で、自分の地車（だんじり）を曳いて走るレースゲームです。祭りは、町を守る轟曳大神様への奉納。速く、上手に曳くほど、神社の結界が強くなります。 ■ 遣り回しを決めて、いちばんに かどで地車を一気に曲げる「遣り回し」が勝負のつぼ。ほかの町の地車と競い、3位までは表彰台でメダル、優勝すれば優勝杯。 ■ 怪物は「倒す」のではなく「鎮める」 祭りの灯に引き寄せられた大ダコや、山の神の使いの猪神。光るところをねらって荒ぶりを鎮め、礼をしてお帰りいただきます。満員の競輪場での「バンク戦」も。町の人は神様に守られ、けが人は出ません。 ■ 祭りの村で暮らす 会所で依頼を受け、だんじり屋で地車を整え、月見宮でお参り。狛犬の子「コマトモリ」が、鎮めのお供に。性別・顔・刺青も選べる、あなただけの大工方に。 ■ にぎやかな実況 取材ヘリのプタ夫とヘリ子が、ボケとツッコミで曳行を実況。師匠の刻翁が、曳き方を教えてくれます。 完全無料・広告なし・アカウント登録なし。町名・人物・怪物はすべて架空です。 音楽：Don Erika 音声：VOICEVOX：青山龍星／VOICEVOX：No.7／VOICEVOX：ちび式じい",
+      "analysis": {
+        "app_key": "apple:6828413430",
+        "summary_ko": "だんじりGP − ムーンステップサーガ는 축제 마을에서 자신의 지차(다니지리)를 끌고 달리는 레이스 게임입니다. '야리마와시'라는 코너링 기술을 통해 순위를 다투며, 마을의 신들을 진정시키는 독특한 미션을 수행합니다. 광고나 계정 등록 없이 누구나 즐길 수 있는 완전 무료 게임입니다.",
+        "features_ko": [
+          "지차를 조종하여 코너를 빠르게 도는 '야리마와시' 기술로 레이스에서 경쟁합니다.",
+          "마을에 나타난 괴물들을 공격이 아닌 '진정'시키는 미션을 수행합니다.",
+          "마을 내에서 의뢰를 받고 지차를 정비하는 생활 요소를 포함합니다.",
+          "실황 중계와 같은 보이스 가이드를 통해 현장감을 제공합니다.",
+          "광고나 계정 등록 없이 완전 무료로 플레이 가능합니다."
+        ],
+        "noteworthy_ko": "일본의 전통 축제 문화를 레이싱 게임과 결합한 독창적인 테마가 매우 흥미롭습니다. 괴물을 '진정'시킨다는 비폭력적인 게임 규칙은 사용자에게 색다른 경험을 제공합니다.",
+        "development_ko": "지차의 물리적 움직임과 코너링 제어 로직이 핵심입니다. 마을 환경 에셋 제작과 캐릭터 대사 및 음성 데이터 관리가 필요합니다. 레이싱과 미션 수행을 자연스럽게 연결하는 게임 루프 설계가 중요합니다.",
+        "idea_ko": "지차를 꾸미는 파츠를 수집하여 자신만의 독특한 지차를 만드는 커스터마이징 요소를 강화하면 좋을 것입니다.",
+        "highlights_ko": [
+          "전통 축제와 레이싱을 결합한 독창적인 테마.",
+          "비폭력적인 미션 해결 방식과 실황 중계 연출."
+        ],
+        "systems_ko": [
+          "차량(지차) 물리 제어 시스템",
+          "레이스 트랙 및 코너링 판정 로직",
+          "NPC 의뢰 및 퀘스트 관리 시스템",
+          "대사 및 음성 출력 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "레이싱 게임의 기본 물리 구현과 퀘스트 시스템은 1인 개발자가 충분히 구현 가능한 범위이며, 멀티플레이어 요소가 없어 개발 난이도가 적절합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "지차 이동 및 코너링 조작",
+            "기본 레이스 트랙",
+            "간단한 퀘스트 시스템"
+          ],
+          "defer": [
+            "다양한 괴물 캐릭터",
+            "복잡한 실황 중계 시스템"
+          ],
+          "risks": [
+            "물리 엔진의 조작감 최적화",
+            "축제 테마의 대중성 확보"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지차 커스텀 샵",
+            "concept": "레이스 보상으로 얻은 장식품으로 지차를 꾸미는 기능입니다. 시각적인 만족감을 줍니다.",
+            "first_step": "지차 모델에 장식품 에셋을 부착하고 저장하는 기능 구현."
+          },
+          {
+            "title": "축제 사진첩",
+            "concept": "레이스 중 멋진 장면을 자동으로 캡처하여 사진첩에 저장하는 기능입니다. 추억을 남기는 재미를 제공합니다.",
+            "first_step": "게임 내 카메라 뷰를 캡처하여 갤러리에 저장하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "독특한 테마를 게임 메커니즘에 녹여내는 기획력을 배우기에 좋습니다. 비폭력적인 게임 규칙을 설정하는 법을 고민하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "사용된 물리 엔진의 상세 설정, 음성 데이터의 처리 방식, 레이스 트랙의 생성 로직에 대한 정보가 없습니다.",
+        "name": "だんじりGP − ムーンステップサーガ",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%81%A0%E3%82%93%E3%81%98%E3%82%8Agp-%E3%83%A0%E3%83%BC%E3%83%B3%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%E3%82%B5%E3%83%BC%E3%82%AC/id6828413430?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6765598212": {
+      "app_key": "apple:6765598212",
+      "name": "기프또 - 만보기 행운 앱테크",
+      "developer": "Connecterra Inc.",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/kr/app/%EA%B8%B0%ED%94%84%EB%98%90-%EB%A7%8C%EB%B3%B4%EA%B8%B0-%ED%96%89%EC%9A%B4-%EC%95%B1%ED%85%8C%ED%81%AC/id6765598212?uo=2",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:13:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "매일 걷기만 해도 혜택 받는 만보기 앱, 기프또 걸음 수를 채우고, 출석하고, 간단한 미션을 완료하며 매일 다양한 리워드를 쌓아보세요. ■ 걸을수록 쌓이는 매일의 혜택 500보부터 5,000보까지 단계별 만보기 미션 걸음 수 목표를 달성하고 매일 리워드 받기 일상 속 걷기를 더 즐거운 습관으로 만들기 ■ 매일 참여할 수 있는 다양한 미션 매일 출석체크 럭키박스 미션 기프트보드 미션 간단한 게임 미션 시간대별 참여 미션 ■ 매주 새롭게 제공되는 혜택 앱 활동으로 제공되는 티켓을 사용해 기프또에서 운영하는 주간 이벤트에 참여할 수 있습니다. 이벤트별 일정, 참여 조건, 결과 및 제공 혜택은 앱 내 상세 안내에서 확인할 수 있습니다. 모든 참여 혜택은 앱 활동을 통해 제공되며, 사용자의 금전 결제를 참여 조건으로 요구하지 않습니다. ■ 투명하게 확인하는 이용 내역 내가 받은 리워드와 참여 내역을 앱에서 직접 확인할 수 있습니다. [선택적 접근 권한 안내] 알림: 리워드 지급, 이벤트 일정 및 서비스 안내를 위한 알림 수신 신체활동: 만보기 미션 참여를 위한 걸음 수 측정 선택 권한에 동의하지 않아도 해당 기능을 제외한 서비스 이용이 가능합니다. [고객센터] 문의 이메일: contact@connecterra.co.kr",
+      "analysis": {
+        "app_key": "apple:6765598212",
+        "summary_ko": "기프또는 걷기 활동을 통해 리워드를 얻을 수 있는 만보기 기반 앱테크 서비스입니다. 걸음 수 목표 달성, 출석 체크, 미션 수행 등을 통해 티켓을 모으고 주간 이벤트에 참여할 수 있습니다. 사용자의 금전 결제 없이 활동을 통해 혜택을 제공하는 구조입니다.",
+        "features_ko": [
+          "신체 활동 데이터를 연동하여 걸음 수를 측정하고 목표 달성 시 리워드를 지급합니다.",
+          "매일 출석 체크와 간단한 게임 미션을 통해 추가 보상을 제공합니다.",
+          "앱 활동으로 얻은 티켓을 사용하여 주간 이벤트에 참여할 수 있습니다.",
+          "사용자가 받은 리워드와 참여 내역을 투명하게 조회할 수 있습니다."
+        ],
+        "noteworthy_ko": "사용자의 활동 데이터를 보상과 연결하는 앱테크 모델입니다. 건강 관리와 보상이라는 동기 부여 요소를 결합하여 사용자의 일일 활성 사용자 수(DAU)를 확보하는 전략이 돋보입니다.",
+        "development_ko": "건강 데이터(HealthKit 등) 연동 기술과 사용자 활동 기록을 관리하는 데이터베이스 설계가 핵심입니다. 미션 수행 여부를 판별하는 로직과 리워드 지급 시스템의 안정성이 중요합니다. 사용자의 부정 행위를 방지하기 위한 데이터 검증 로직이 개발 부담의 큰 부분을 차지할 것입니다.",
+        "idea_ko": "단순 걷기 외에 특정 장소를 방문하면 보상을 주는 '위치 기반 스탬프 투어' 기능을 추가하여 오프라인 활동을 유도하는 아이디어가 좋습니다.",
+        "highlights_ko": [
+          "걷기라는 일상적인 활동을 보상과 연결하여 습관 형성을 유도합니다.",
+          "금전 결제 없이 활동 중심의 리워드 구조를 채택했습니다."
+        ],
+        "systems_ko": [
+          "신체 활동 데이터 연동 시스템",
+          "사용자 미션 및 보상 관리 시스템",
+          "이벤트 참여 및 티켓 관리 시스템",
+          "사용자 활동 이력 조회 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "건강 데이터 연동은 표준 API를 활용하면 구현 가능하지만, 리워드 시스템의 부정 방지 로직과 안정적인 데이터 관리는 꼼꼼한 설계가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "걸음 수 측정 및 연동",
+            "일일 미션 및 보상 지급 로직",
+            "사용자 활동 내역 조회"
+          ],
+          "defer": [
+            "주간 이벤트 시스템",
+            "고급 리워드 교환소",
+            "소셜 공유 기능"
+          ],
+          "risks": [
+            "걸음 수 조작(부정 행위) 가능성",
+            "리워드 지급 밸런스 유지의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "동네 걷기 챌린지",
+            "concept": "사용자들이 특정 지역을 함께 걷는 챌린지를 생성하고 목표 걸음 수를 달성하면 보상을 공유합니다.",
+            "first_step": "챌린지 생성 및 참여자 목록을 관리하는 데이터베이스를 구축합니다."
+          },
+          {
+            "title": "건강 리포트 생성",
+            "concept": "사용자의 걷기 데이터를 분석하여 주간/월간 건강 리포트를 시각화하여 제공합니다.",
+            "first_step": "걷기 데이터를 기간별로 집계하고 차트로 보여주는 UI를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "데이터 연동과 보상 시스템의 기본 구조를 배우기에 좋습니다. 사용자의 활동을 유도하는 동기 부여 설계에 관심 있는 개발자에게 추천합니다.",
+        "source_limitations_ko": "리워드 지급의 구체적인 재원, 부정 방지를 위한 서버 측 검증 로직, 외부 서비스 연동의 상세 내용은 알 수 없습니다.",
+        "name": "기프또 - 만보기 행운 앱테크",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EA%B8%B0%ED%94%84%EB%98%90-%EB%A7%8C%EB%B3%B4%EA%B8%B0-%ED%96%89%EC%9A%B4-%EC%95%B1%ED%85%8C%ED%81%AC/id6765598212?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:kr.go.mobileid": {
+      "app_key": "google:kr.go.mobileid",
+      "name": "대한민국 모바일신분증",
+      "developer": "행정안전부",
+      "source": "google",
+      "country": "KR",
+      "category": "app_lifestyle",
+      "detail_url": "https://play.google.com/store/apps/details?id=kr.go.mobileid&hl=ko&gl=KR",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:18:01+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "※ 앱 업데이트 미실시의 경우, 앱 실행 시 오류가 발생될 수 있습니다. ※ 앱 업데이트 안 되는 경우, '나중에' 버튼 터치해 주세요. ▶ 구글 플레이 스토어 정책으로 업데이트가 안 되는 경우 2~3일(최대 7일) 이후에 업데이트 부탁드리고, 팝업의 '나중에' 버튼을 터치하여 모바일신분증 기능을 사용할 수 있습니다. [모바일신분증 소개] 모바일신분증 앱에서는 모바일 주민등록증, 모바일 운전면허증, 모바일 국가보훈등록증, 모바일 재외국민 신원확인증, 모바일 외국인등록증, 모바일 장애인등록증, 모바일 국가기술자격증을 지원하며, 실물 주민등록증, 실물 운전면허증, 실물 국가보훈등록증, 실물 외국인등록증, 실물 복지카드와 동일한 법적 효력을 발휘하여 실생활에서 신분증을 필요로 하는 다양한 온, 오프라인 환경에서 사용하실 수 있습니다(재외국민 신원확인증 및 국가기술자격증은 법적 신분증은 아님). 모바일 주민등록증, 모바일 운전면허증, 모바일 국가보훈등록증, 모바일 재외국민 신원확인증, 모바일 외국인등록증, 모바일 장애인등록증, 모바일 국가기술자격증은 개인의 스마트폰에 암호화하여 안전하게 저장됩니다. [이용대상 및 조건] - 주민등록증, 운전면허증, 국가보훈등록증, 여권(재외국민), 외국인등록증 및 복지카드를 소지 혹은 신규 취득 - 본인 명의 스마트폰 - 국내 이동통신서비스에 가입하여 본인확인 가능한 자 - Android OS 8.0 이상, NFC 지원 ※ IC 신분증 미발급자는 주민등록증은 행정복지센터(주민센터), 운전면허증은 운전면허시험장에서 QR 발급 가능합니다. ※ 알뜰폰 이용자도 발급이 가능합니다(단, 알뜰폰 중 티플러스(tplus) SKT구회선 이용 시(’23.8.15.이전 가입자)발급 불가). ※ 법인 명의 휴대폰, 무기명 선불폰, blackberry 기종은 현재 이용이 불가능합니다. ※ 듀얼심의 경우 앱 본인인증에 사용한 메인심(통화심)으로 사용 가능합니다. ▶ 모바일신분증 발급 방법 선택(주민등록증, 운전면허증) - 방법 1. 실물 신분증을 IC신분증으로 교체 발급하여 스마트폰에 인식(태그)을 통해 모바일신분증 직접 발급 - 방법 2. 주민등록증은 행정복지센터(주민센터), 운전면허증은 운전면허시험장에서 QR 발급 방식으로 실물 신분증 교체 없이 모바일신분증을 발급 ※ 모바일신분증은 법적 효력이 있는 신분증으로 발급기관에서 최소 1회 대면 신원확인 절차가 있습니다. ※ 실물 신분증을 IC 신분증으로 교체 발급받을 경우 향후 휴대폰을 교체 시에도 모바일신분증 재발급을 위해 기관을 재방문할 필요가 없습니다. ※ IC 주민등록증은 행정복지센터(주민센터) 방문 수령 시 주말 포함 21일, 개별 배송 시 주말 포함 14일 정도 소요됩니다. 다만, 온라인 신청의 경우 IC 주민등록증 개별배송이 불가하여 방문수령만 가능합니다. 발급 관련 상세사항은 모바일신분증 홈페이지(www.mobileid.go.kr)를 참고해 주시기 바랍니다. ※ IC 운전면허증은 면허시험장 방문 신청 시에는 당일 수령 가능하며 경찰서 방문 신청 시에는 약 15일 정도 소요됩니다. IC 운전면허증을 인터넷 발급 신청할 경우 신청일로부터 15일 이후(공휴일 제외)의 날짜를 수령일로 지정하여야 합니다. IC 운전면허증 발급 관련 상세 사항은 한국도로교통공단 안전운전 통합민원 홈페이지(www.safedriving.or.kr)를 참고 바랍니다. [유의 사항] - IC 신분증 태그 방법 : 스마트폰 케이스를 분리하고 IC신분증을 바닥에 놓고 3~4초 이상 접촉해주시기 바랍니다. NFC 설정 “일반모드” 상태, 접촉 위치는 스마트폰 기종마다 상이하여 확인이 필요합니다. ※ IC 신분증은 교통카드와 겹쳐 사용할 경우 중복 인식될 수 있으니 겹치지 않게 사용하시기 바랍니다. ※ IC 신분증 태그 위치 : 실물 신분증의 안테나 부위 주변으로 스마트폰 NFC를 천천히 움직이며 태깅을 시도해 주시기 바랍니다. 안테나 위치는 모바일 재외국민 신원확인증 발급은 전자여권(구여권, 신여권) 표지 중앙, 모바일 주민등록증, 모바일 운전면허증, 모바일 국가보훈등록증, 모바일 외국인등록증 및 모바일 장애인등록증은 IC 카드 외곽입니다. - 안면인증 방법 : 안면인식 시 밝고 고른 실내조명과 단일 색상 배경 및 원활한 네트워크 환경에서 화면의 큰 원에 얼굴을 맞춘 후 '정면→눈 깜빡이기→좌/우 얼굴 돌리기→정면' 순으로 진행 바랍니다. 실패 시 계신 장소가 안면인식에 부적절할 수 있으므로(빛, 느린 네트워크 등) 다른 장소에서 시도 부탁드립니다. 또한, 유튜브에 '모바일신분증 안면 인증'을 검색해, '모바일신분증 안면인증 Tip' 영상을 참고해 주시기 바랍니다. 모바일신분증 콜센터 : 1688-0990 ---- 개발자 연락처 : 행정안전부 대한민국 세종특별자치시 도담동 도움6로 42(어진동, 정부세종청사 중앙동) 30112 1028302025 1028302025 행정안전부",
+      "analysis": {
+        "app_key": "google:kr.go.mobileid",
+        "summary_ko": "대한민국 모바일신분증 앱은 주민등록증, 운전면허증 등 다양한 신분증을 스마트폰에 저장하여 실물 신분증과 동일한 법적 효력을 누릴 수 있게 합니다. 온·오프라인 환경에서 본인 확인이 필요할 때 안전하게 사용할 수 있습니다. NFC 태깅 및 안면 인증을 통해 본인 확인 절차를 거쳐 발급됩니다.",
+        "features_ko": [
+          "주민등록증, 운전면허증 등 다양한 국가 신분증을 모바일로 발급받아 보관할 수 있습니다.",
+          "실물 신분증과 동일한 법적 효력을 가져 온·오프라인에서 신분 확인용으로 사용 가능합니다.",
+          "NFC 태깅을 통해 실물 IC 신분증 정보를 스마트폰으로 안전하게 전송받을 수 있습니다.",
+          "안면 인증 기술을 통해 본인 확인 절차를 거쳐 보안성을 강화했습니다.",
+          "개인 스마트폰 내에 암호화된 형태로 신분증 정보를 저장합니다."
+        ],
+        "noteworthy_ko": "국가 차원의 보안 및 인증 시스템이 적용된 앱으로, 일반적인 앱 개발과는 차원이 다른 높은 수준의 보안 기술이 요구됩니다. 특히 NFC와 생체 인증을 결합한 본인 확인 프로세스는 매우 정교하게 설계되어 있습니다.",
+        "development_ko": "핵심 기술은 하드웨어 보안 모듈(TEE) 활용, NFC 통신, 그리고 생체 인증(안면 인식)입니다. 국가 기관 수준의 보안 정책을 준수해야 하므로 일반적인 앱 개발과는 비교할 수 없는 높은 수준의 보안 검증이 필요합니다. 테스트 과정에서는 다양한 기기에서의 NFC 인식률과 안면 인식 정확도를 확보하는 것이 매우 어렵습니다.",
+        "idea_ko": "개인 간 거래 시 신뢰를 높이는 간편 본인 확인 도구.",
+        "highlights_ko": [
+          "국가 공인 신분증을 모바일화하여 실생활의 편의성을 높였습니다.",
+          "강력한 보안 기술(암호화, 생체 인증)을 통해 신뢰성을 확보했습니다."
+        ],
+        "systems_ko": [
+          "NFC 통신 모듈",
+          "생체 인증 시스템",
+          "데이터 암호화 및 보안 저장소",
+          "본인 인증 API 연동",
+          "기기 무결성 검증 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "국가 보안 인프라와 직접 연동되어야 하며, 최고 수준의 보안 기술과 법적 규제 준수가 필요합니다. 개인 개발자가 구현하기에는 불가능한 영역입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "본인 인증 연동",
+            "데이터 암호화 저장"
+          ],
+          "defer": [
+            "NFC 태깅 기능",
+            "안면 인식 엔진",
+            "법적 효력 관련 시스템"
+          ],
+          "risks": [
+            "보안 사고 발생 시 책임 문제",
+            "국가 기관 API 접근 권한 확보의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "디지털 명함 인증 시스템",
+            "concept": "상대방의 명함 정보를 QR로 확인하고 본인 인증을 거쳐 신뢰도를 높이는 시스템입니다.",
+            "first_step": "QR 코드 생성 및 스캔 기능 구현."
+          },
+          {
+            "title": "간편 출입 인증 앱",
+            "concept": "사내나 특정 공간 출입 시 본인 인증을 거쳐 출입증을 생성하는 앱입니다.",
+            "first_step": "사용자 정보 기반의 일회용 QR 코드 생성기 구현."
+          }
+        ],
+        "recommendation_ko": "보안 기술의 중요성을 이해하는 데는 도움이 되지만, 실제 서비스 구현은 불가능합니다. 보안 관련 앱을 개발하고 싶다면 기본적인 암호화 라이브러리 사용법부터 학습하는 것을 추천합니다.",
+        "source_limitations_ko": "앱의 내부 보안 아키텍처, 서버와의 통신 규격, 국가 기관 API 연동 방식 등은 공개되지 않았으며 검증할 수 없습니다.",
+        "name": "대한민국 모바일신분증",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=kr.go.mobileid&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 99,
+        "reasons": [],
+        "best_rank": 2,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:office.document.pdfreader.pdfeditor.pdfviewer.imagetopdf": {
+      "app_key": "google:office.document.pdfreader.pdfeditor.pdfviewer.imagetopdf",
+      "name": "PDF 리더: 보기, 편집, 스캔",
+      "developer": "BitTech Global",
+      "source": "google",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=office.document.pdfreader.pdfeditor.pdfviewer.imagetopdf&hl=ko&gl=KR",
+      "data_date": "2026-11-03",
+      "analysed_at": "2026-11-07T06:21:40+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "📄 PDF 파일을 간편하게 읽고 편집하고 관리하세요 PDF 리더: 보기, 편집, 스캔은 PDF 읽기, 문서 스캔, 이미지의 PDF 변환, 중요한 파일 정리를 휴대폰에서 바로 할 수 있도록 도와주는 편리한 문서 도구입니다. 학습 자료, 영수증, 양식부터 업무 보고서까지, 간단한 인터페이스와 직관적인 조작으로 PDF 문서 작업을 더 빠르고 쉽게 처리할 수 있습니다. 📖 빠르고 편리한 PDF 리더 PDF 문서를 몇 초 만에 열고 모바일 기기에서 선명하고 편안하게 읽어 보세요. 페이지를 쉽게 이동하고, 확대 또는 축소하며, 필요한 내용을 빠르게 찾을 수 있습니다. 다음과 같은 문서를 읽는 데 적합합니다: • 학습 자료 및 전자책 • 업무 보고서 및 문서 • 영수증, 양식 및 계약서 • 메모 및 개인 파일 📷 문서를 스캔하여 PDF로 저장 휴대폰을 휴대용 문서 스캐너로 활용해 보세요. 카메라로 종이 문서, 영수증, 메모, 양식 등을 촬영한 후 PDF 파일로 저장하여 간편하게 열고 정리할 수 있습니다. 🖼️ 이미지를 PDF로 변환 갤러리에서 하나 이상의 이미지를 선택하고 원하는 순서로 정렬한 다음 하나의 완성된 PDF 문서로 변환하세요. 여러 이미지를 한 파일로 정리하고 저장하거나 공유하기가 더 쉬워집니다. ✂️ PDF 문서 분할 몇 페이지만 필요하다면 문서 전체를 보관할 필요가 없습니다. 필요한 페이지를 선택해 별도의 PDF 파일로 추출한 후 공유하거나 저장하세요. 🔗 여러 PDF 파일 병합 여러 PDF 파일을 하나의 정리된 문서로 합치세요. 병합하기 전에 파일을 올바른 순서로 배열하여 보고서, 기록, 문서를 더 쉽게 관리할 수 있습니다. 🗜️ ZIP 파일 만들기 PDF 문서를 ZIP 파일로 압축하여 저장 공간을 절약하고, 여러 파일을 정리하며, 더 편리하게 공유하세요. 🖨️ PDF 문서 인쇄 앱에서 호환되는 프린터로 PDF 문서를 바로 보내세요. 인쇄할 페이지를 선택하고 복잡한 도구 없이 작업을 완료할 수 있습니다. 🌐 문서 내용 번역 PDF 내용을 다른 언어로 번역하여 해외 문서를 더 잘 이해하고 학습이나 업무에 활용하세요. ✨ 하나의 앱에서 제공하는 유용한 PDF 도구 • PDF 문서 열기 및 읽기 • 휴대폰 카메라로 종이 문서 스캔 • 하나 이상의 이미지를 PDF로 변환 • PDF 파일에서 선택한 페이지 추출 • 여러 PDF를 하나의 문서로 병합 • 문서를 ZIP 파일로 압축 • PDF 파일 바로 인쇄 • PDF 내용 번역 • 휴대폰에서 문서 정리 PDF 리더: 보기, 편집, 스캔은 필수 PDF 도구를 하나의 편리한 앱에 모아 업무, 학습, 일상생활에 필요한 문서를 쉽게 관리할 수 있도록 도와줍니다. 지금 PDF 리더: 보기, 편집, 스캔을 다운로드하고 PDF 문서를 간편하게 읽고, 스캔하고, 편집하고, 관리해 보세요.",
+      "analysis": {
+        "app_key": "google:office.document.pdfreader.pdfeditor.pdfviewer.imagetopdf",
+        "summary_ko": "PDF 읽기, 스캔, 이미지 변환 및 문서 관리 기능을 통합한 모바일 문서 도구입니다. 사용자는 휴대폰 카메라로 문서를 스캔하거나 이미지를 PDF로 변환하고, 여러 파일을 병합하거나 분할할 수 있습니다. 직관적인 인터페이스를 통해 학습 자료나 업무 보고서를 효율적으로 관리할 수 있습니다.",
+        "features_ko": [
+          "PDF 파일을 빠르게 열고 확대/축소하며 내용을 읽을 수 있습니다.",
+          "카메라를 이용해 종이 문서를 촬영하고 PDF 파일로 저장합니다.",
+          "갤러리의 이미지를 선택하여 하나의 PDF 문서로 변환합니다.",
+          "여러 PDF 파일을 하나로 병합하거나 필요한 페이지만 분할합니다.",
+          "PDF 파일을 ZIP 형식으로 압축하여 공유 및 저장 공간을 절약합니다."
+        ],
+        "noteworthy_ko": "다양한 문서 관련 기능을 하나의 앱으로 통합한 '올인원' 전략이 돋보입니다. 각 기능이 독립적이지 않고 문서 관리라는 하나의 목적 아래 유기적으로 연결되어 있습니다.",
+        "development_ko": "PDF 렌더링 및 조작을 위해 오픈소스 라이브러리(예: PDFBox, iText 등) 활용이 필수적입니다. 이미지 처리와 파일 시스템 접근 권한 관리가 중요하며, 다양한 기기에서의 파일 호환성 테스트가 핵심입니다.",
+        "idea_ko": "문서 내 텍스트를 추출하여 요약하거나, 특정 키워드를 강조하는 기능을 추가하여 생산성을 높일 수 있습니다.",
+        "highlights_ko": [
+          "스캔부터 편집, 압축까지 문서 작업의 전 과정을 지원하는 통합 환경.",
+          "이미지 기반의 PDF 변환 및 관리 기능."
+        ],
+        "systems_ko": [
+          "PDF 렌더링 엔진",
+          "이미지 처리 및 OCR(선택 사항)",
+          "파일 관리 시스템",
+          "인쇄 및 공유 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "PDF 파일 구조를 다루는 것은 복잡하며, 이미지 처리와 파일 입출력 시 발생할 수 있는 메모리 이슈를 해결해야 합니다. 다양한 문서 규격에 대한 호환성 확보가 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "PDF 뷰어",
+            "이미지 to PDF 변환",
+            "파일 저장 및 관리"
+          ],
+          "defer": [
+            "PDF 내용 번역",
+            "ZIP 압축 기능"
+          ],
+          "risks": [
+            "대용량 파일 처리 시 메모리 부족 현상",
+            "다양한 PDF 버전 간의 호환성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스마트 영수증 정리",
+            "concept": "스캔한 영수증에서 날짜와 금액을 자동으로 인식하여 엑셀 파일로 정리합니다.",
+            "first_step": "이미지에서 텍스트를 추출하는 라이브러리를 연동하여 날짜/금액 패턴을 파악하는 로직 구현."
+          },
+          {
+            "title": "PDF 주석 공유",
+            "concept": "PDF 위에 손글씨나 메모를 남기고 이를 다른 사용자와 공유하는 협업 기능입니다.",
+            "first_step": "PDF 뷰어 위에 투명 레이어를 띄워 드로잉 데이터를 저장하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "파일 시스템과 외부 라이브러리 연동을 배우기에 적합합니다. 다만, PDF 관련 기능은 이미 강력한 경쟁 앱이 많아 차별화된 기능 없이는 개발 난이도 대비 성과를 내기 어렵습니다.",
+        "source_limitations_ko": "소개문에는 번역 기능의 정확도나 지원하는 언어 범위, 보안 기능(암호화 등)에 대한 구체적인 정보가 없습니다.",
+        "name": "PDF 리더: 보기, 편집, 스캔",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=office.document.pdfreader.pdfeditor.pdfviewer.imagetopdf&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 13,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "itch:1a1df98d2dba7c538949": {
+      "app_key": "itch:1a1df98d2dba7c538949",
+      "name": "Don't be drunk [Free]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "",
+      "detail_url": "https://izyerax.itch.io/dont-be-drunk",
+      "data_date": "2026-11-03",
+      "analysed_at": "2026-11-07T06:24:53+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Get home as sober as possible: dodge drinks, cops and calls from \"My Love\" in this absurd night-time runner.",
+      "analysis": {
+        "app_key": "itch:1a1df98d2dba7c538949",
+        "summary_ko": "Don't be drunk는 술에 취한 상태에서 집으로 돌아가는 과정을 다룬 부조리한 러너 게임입니다. 술, 경찰, 연인의 전화를 피하며 최대한 술이 깬 상태로 집에 도착해야 합니다.",
+        "features_ko": [
+          "장애물(술, 경찰)을 피하며 이동하는 러너 게임 규칙을 가집니다.",
+          "연인의 전화를 피해야 하는 독특한 방해 요소가 존재합니다.",
+          "술에 취한 상태를 시각적/조작적 왜곡으로 표현합니다.",
+          "최종 목적지인 집에 도착하는 것이 목표입니다."
+        ],
+        "noteworthy_ko": "술에 취한 상태를 게임 조작의 어려움으로 연결한 점이 매우 창의적입니다. 카메라 흔들림이나 조작 반전 등을 통해 취중 상태를 구현하는 기술적 시도가 흥미로울 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 캐릭터의 이동 로직과 장애물 생성 알고리즘입니다. 콘텐츠 제작은 취중 상태를 표현하는 포스트 프로세싱 효과와 장애물 배치입니다. 테스트는 조작 왜곡이 플레이어에게 불쾌감을 주지 않으면서도 도전적인지 확인해야 합니다.",
+        "idea_ko": "취한 정도에 따라 화면 왜곡이 심해지거나, 조작키가 무작위로 바뀌는 '취중 상태 시스템'을 강화하는 것이 좋습니다.",
+        "highlights_ko": [
+          "술에 취한 상태를 게임 메커니즘으로 승화시킨 독특한 컨셉입니다.",
+          "연인의 전화라는 일상적인 방해 요소를 통해 게임의 긴장감을 높였습니다."
+        ],
+        "systems_ko": [
+          "캐릭터 이동 및 장애물 회피 로직",
+          "취중 상태 시각 효과(포스트 프로세싱)",
+          "장애물 및 이벤트 생성 시스템",
+          "게임 상태 관리(취기 수치)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "러너 게임의 기본 로직은 간단하지만, 취중 상태를 표현하는 시각적 효과와 조작 왜곡을 밸런스 있게 구현하는 것이 관건입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 좌우 이동 로직",
+            "장애물 생성 및 충돌 판정",
+            "취기 수치 관리 시스템"
+          ],
+          "defer": [
+            "다양한 맵 환경",
+            "복잡한 스토리 분기"
+          ],
+          "risks": [
+            "조작 왜곡으로 인한 플레이어 피로감",
+            "장애물 패턴의 단조로움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "취중 대화 시스템",
+            "concept": "연인의 전화가 오면 취한 상태로 대답해야 합니다. 선택지에 따라 취기가 오르거나 내립니다.",
+            "first_step": "전화 이벤트 발생 시 선택지 UI와 취기 변동 로직을 구현합니다."
+          },
+          {
+            "title": "물 마시기 아이템",
+            "concept": "맵에 배치된 물을 마시면 일시적으로 취기가 내려가고 조작이 정상화됩니다.",
+            "first_step": "아이템 획득 시 취기 수치를 감소시키는 로직을 추가합니다."
+          }
+        ],
+        "recommendation_ko": "게임의 컨셉을 메커니즘으로 구현하는 방법을 배우기에 좋은 프로젝트입니다. 시각적 효과를 통해 게임의 분위기를 조성하는 법을 익히기 좋습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 조작 왜곡 방식, 장애물 종류, 게임의 엔딩 분기 여부가 명시되어 있지 않습니다.",
+        "name": "Don't be drunk [Free]",
+        "source": "itch",
+        "detail_url": "https://izyerax.itch.io/dont-be-drunk",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 10000,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "itch:1e1fd49d18eab93bb25c": {
+      "app_key": "itch:1e1fd49d18eab93bb25c",
+      "name": "RobOS Tabletop RPG [Free] [Role Playing] [Windows] [macOS] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "",
+      "detail_url": "https://nddipiazza.itch.io/robos-tabletop-rpg",
+      "data_date": "2026-11-03",
+      "analysed_at": "2026-11-07T06:24:53+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Explore a dungeon board, guide a party of heroes and play cartridge-based adventures in a free, open-source RPG.",
+      "analysis": {
+        "app_key": "itch:1e1fd49d18eab93bb25c",
+        "summary_ko": "RobOS Tabletop RPG는 던전 보드를 탐험하고 영웅 파티를 이끄는 오픈 소스 RPG입니다. 카트리지 기반의 모험을 즐길 수 있는 테이블탑 스타일의 게임입니다.",
+        "features_ko": [
+          "던전 보드를 탐험하는 테이블탑 RPG 규칙을 가집니다.",
+          "영웅 파티를 구성하고 조종할 수 있습니다.",
+          "카트리지 기반의 다양한 모험을 지원합니다.",
+          "오픈 소스로 제공되어 확장성을 가집니다."
+        ],
+        "noteworthy_ko": "테이블탑 RPG를 디지털 환경으로 옮기면서 카트리지 시스템을 도입한 점이 흥미롭습니다. 모듈형 콘텐츠 구조를 설계하여 사용자가 직접 모험을 추가할 수 있게 만든 점이 개발 관점에서 매우 도전적입니다.",
+        "development_ko": "핵심 기술은 턴제 전투 시스템과 모듈형 데이터 로딩입니다. 콘텐츠 제작은 다양한 던전 맵과 캐릭터 데이터 설계가 필요합니다. 테스트는 카트리지 간 데이터 호환성과 턴제 로직의 오류를 검증하는 것이 중요합니다.",
+        "idea_ko": "카트리지 데이터를 JSON이나 XML로 외부에서 불러올 수 있게 하여, 사용자가 직접 던전과 몬스터를 제작할 수 있는 에디터를 제공하는 것이 좋습니다.",
+        "highlights_ko": [
+          "테이블탑 RPG의 감성을 디지털로 구현하여 전략적인 재미를 제공합니다.",
+          "카트리지 시스템을 통해 모험의 확장성을 확보했습니다."
+        ],
+        "systems_ko": [
+          "턴제 전투 및 이동 시스템",
+          "파티 관리 및 캐릭터 데이터 구조",
+          "카트리지 데이터 로딩 시스템",
+          "던전 보드 렌더링 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "턴제 전투 시스템, 데이터 관리, 모듈형 구조 설계 등 복합적인 시스템 구현이 필요하여 1인 개발 난이도가 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 턴제 전투 로직",
+            "캐릭터 이동 및 상호작용",
+            "데이터 기반 던전 로딩"
+          ],
+          "defer": [
+            "사용자 제작 에디터",
+            "복잡한 멀티플레이 기능"
+          ],
+          "risks": [
+            "데이터 구조 설계의 복잡성",
+            "턴제 로직의 버그 발생 가능성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "카트리지 에디터",
+            "concept": "사용자가 직접 던전 맵과 몬스터를 배치할 수 있는 간단한 에디터를 제공합니다.",
+            "first_step": "맵 데이터를 저장하고 불러오는 파일 입출력 로직을 구현합니다."
+          },
+          {
+            "title": "파티 스킬 조합",
+            "concept": "파티원들의 스킬을 조합하여 강력한 연계 공격을 할 수 있습니다.",
+            "first_step": "스킬 데이터 구조를 정의하고 연계 발동 조건을 설정합니다."
+          }
+        ],
+        "recommendation_ko": "복잡한 데이터 구조와 턴제 시스템을 설계하는 능력을 기르기에 좋습니다. 오픈 소스 프로젝트인 만큼 코드 구조를 분석하여 모듈화 기법을 배우는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 전투 계산 공식, 카트리지 파일 형식, 지원하는 플랫폼별 차이점이 명시되어 있지 않습니다.",
+        "name": "RobOS Tabletop RPG [Free] [Role Playing] [Windows] [macOS] [Linux]",
+        "source": "itch",
+        "detail_url": "https://nddipiazza.itch.io/robos-tabletop-rpg",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 10000,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
     }
   }
 }

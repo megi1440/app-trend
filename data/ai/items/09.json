@@ -8630,6 +8630,1162 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-02"
+    },
+    "itch:bb64cedd39d2c48da67c": {
+      "app_key": "itch:bb64cedd39d2c48da67c",
+      "name": "FIREWALL://BORDER [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://dynow.itch.io/firewall-border",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:05:40+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A browser game in the spirit of Papers Please, except the border is a firewall and the documents are packets.",
+      "analysis": {
+        "app_key": "itch:bb64cedd39d2c48da67c",
+        "summary_ko": "이 게임은 'Papers, Please'의 정신을 계승한 브라우저 기반 시뮬레이션 게임입니다. 플레이어는 국경 검문소 대신 방화벽을 관리하며, 문서 대신 데이터 패킷을 검사합니다. 보안 관리자로서 패킷의 허용 여부를 결정하는 긴장감 있는 경험을 제공합니다.",
+        "features_ko": [
+          "방화벽을 통과하려는 데이터 패킷을 검사합니다.",
+          "제시된 규칙에 따라 패킷의 허용 또는 차단 여부를 결정합니다.",
+          "브라우저 환경에서 실행되는 시뮬레이션 게임입니다."
+        ],
+        "noteworthy_ko": "기존의 검문소 시뮬레이션을 네트워크 보안이라는 테마로 치환한 점이 매우 흥미롭습니다. 실제 네트워크 프로토콜의 개념을 게임 규칙으로 어떻게 추상화했는지가 핵심적인 개발 포인트로 보입니다.",
+        "development_ko": "핵심 구현 기술로는 패킷 데이터의 무작위 생성 및 규칙 검증 로직이 필요합니다. 콘텐츠 제작은 다양한 패킷 유형과 보안 규칙을 설계하는 데 집중해야 합니다. 테스트 시에는 규칙의 복잡도가 게임의 속도감을 저해하지 않는지 밸런스를 확인하는 것이 중요합니다.",
+        "idea_ko": "패킷의 속성을 조합하여 복잡한 보안 위협을 시각화하는 방식이 개인 개발에 가장 적합합니다.",
+        "highlights_ko": [
+          "익숙한 검문소 시뮬레이션 장르를 네트워크 보안 테마로 재해석했습니다.",
+          "문서 대신 데이터 패킷을 다루는 독특한 인터페이스를 제공합니다."
+        ],
+        "systems_ko": [
+          "패킷 생성 및 큐 관리 시스템",
+          "보안 규칙 검증 엔진",
+          "사용자 입력 판정 및 피드백 UI",
+          "게임 상태 관리(시간/점수)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "핵심 메커니즘은 단순한 조건문 기반의 판정이지만, 게임의 재미를 위해 규칙의 복잡도를 점진적으로 높이는 밸런스 설계가 필요합니다. 1인 개발 시 UI/UX의 직관성을 확보하는 것이 관건입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "패킷 생성 로직",
+            "허용/차단 버튼 UI",
+            "기본 규칙 검증 시스템"
+          ],
+          "defer": [
+            "복잡한 스토리 모드",
+            "다양한 시각 효과"
+          ],
+          "risks": [
+            "반복적인 작업으로 인한 지루함 발생",
+            "규칙의 직관성 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "패킷 필터링 로그 분석",
+            "concept": "단순 차단을 넘어, 차단된 패킷의 로그를 분석하여 공격 패턴을 찾아내는 추리 요소를 추가합니다.",
+            "first_step": "패킷의 속성(IP, 포트 등)을 보여주는 로그 뷰어 구현."
+          },
+          {
+            "title": "실시간 트래픽 폭주 모드",
+            "concept": "제한 시간 내에 급증하는 패킷을 처리해야 하는 아케이드 스타일의 긴박한 모드입니다.",
+            "first_step": "패킷 생성 속도를 조절하는 타이머 로직 구현."
+          }
+        ],
+        "recommendation_ko": "장르의 핵심 재미를 유지하면서 테마를 바꾸는 '장르 변주'를 배우기에 좋습니다. 단순한 규칙으로도 깊이 있는 몰입감을 줄 수 있는 게임 디자인을 연구하기에 적합합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 실제 게임의 구체적인 규칙, 난이도 곡선, 시각적 스타일 등은 확인되지 않습니다. 외부 API 연동이나 실제 네트워크 통신 기능 여부는 알 수 없습니다.",
+        "name": "FIREWALL://BORDER [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://dynow.itch.io/firewall-border",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 296,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6812355209": {
+      "app_key": "apple:6812355209",
+      "name": "漢字でGOGO!",
+      "developer": "Ren Takahashi",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/jp/app/%E6%BC%A2%E5%AD%97%E3%81%A7gogo/id6812355209?uo=2",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:08:03+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "【正誤判定の仕様について】 本作の手書き認識では、書かれた文字の形や構成要素をもとに、複数の候補から判定を行っています。 そのため、字形やパーツが近い誤字を正解として判定する場合や、正しく書いた文字をうまく認識できない場合があります。 「ver3」では漢字のパーツの違いも考慮しますが、あらゆる筆跡・欠画・誤字・類似字を完全に判定できるものではありません。 既存の手書き認識技術にゲーム向けの判定補正を加えていることを、ご購入前にあらかじめご了承ください。 指で書いて、漢字力に挑戦！ 『漢字でGOGO!』は、漢字や熟語を手書きで書き取る漢字クイズゲームです。 画面に表示される読みと問題文をもとに、答えとなる漢字を画面に直接書いて解答します。 気軽に遊びたい方から、難しい語句に挑みたい方まで、自分に合ったモードで漢字力を試すことができます。 【主なモード】 《エンタメ》 初めて遊ぶ方にもおすすめの、比較的解きやすいモードです。まずはここから、テンポよく漢字クイズを楽しめます。 《ガチ》 特定の条件を満たすことで解放される高難度モードです。一般的にはあまり見かけない、難しい語句も登場します。 《ラッシュ》 同じレベルの問題に連続で挑戦できるモードです。特定の難易度を集中して練習したいときに向いています。 【便利な機能】 《カスタマイズ》 残機や制限時間など、ゲームの仕様を変更できます。自分に合った設定で遊んだり、より厳しい条件で挑戦したりできます。 《ジュークボックス》 モード選択画面のBGMを変更できます。お気に入りの曲で、ゲーム開始前の雰囲気を変えられます。 《問題チェッカー》 収録されている問題を確認できます。ガチモードの問題を確認するには、そのレベルに到達している必要があります。 【オマケモード】 《書取一閃》 指定された漢字を素早く、かつ丁寧に書くスコアアタックモードです。速さだけでなく、文字の書き方も重要になります。 なじみのある漢字から、思わず目を疑いたくなる難しい熟語まで。 あなたの漢字力で、どこまで進めるか挑戦してみましょう。 【特定の文字がうまく認識されない場合】 お問い合わせフォームから、実際に書いた字形の画像を添えてお送りいただければ、内容に応じて判定補正を検討いたします。 判定仕様の詳細は、サポートページ「漢字でGOGO! FAQ」の「字形・認識」もあわせてご確認ください。",
+      "analysis": {
+        "app_key": "apple:6812355209",
+        "summary_ko": "화면에 직접 한자를 써서 정답을 맞히는 한자 퀴즈 게임입니다. 다양한 난이도와 모드를 통해 자신의 한자 실력을 테스트할 수 있습니다. 손글씨 인식 기술을 활용하여 실제 종이에 쓰는 듯한 경험을 제공합니다.",
+        "features_ko": [
+          "화면에 직접 손가락으로 한자를 써서 정답을 입력합니다.",
+          "엔터테인먼트, 고난도, 연속 도전 등 다양한 게임 모드를 제공합니다.",
+          "잔기나 제한 시간 등 게임 설정을 커스터마이징할 수 있습니다.",
+          "수록된 한자 문제들을 확인할 수 있는 문제 체커 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "손글씨 인식 기술을 게임의 핵심 메커니즘으로 활용한 점이 흥미롭습니다. 인식 오류를 보정하기 위한 게임적 장치와 사용자의 피드백을 반영하는 방식은 교육용 게임 개발 시 참고할 만한 모델입니다.",
+        "development_ko": "손글씨 인식 라이브러리 연동과 인식된 문자와 정답을 비교하는 판정 로직이 핵심입니다. 다양한 난이도의 한자 데이터베이스 구축이 필요하며, 사용자의 필체에 따른 인식 오류를 최소화하는 보정 알고리즘 구현이 중요합니다.",
+        "idea_ko": "인식된 한자의 획순을 분석하여 올바른 필순으로 썼는지 평가하는 기능을 추가하여 교육적 가치를 높이는 것이 좋습니다.",
+        "highlights_ko": [
+          "손글씨 인식을 통한 직관적인 입력 방식.",
+          "난이도별 모드와 커스터마이징을 통한 학습 및 도전 요소."
+        ],
+        "systems_ko": [
+          "손글씨 인식 및 좌표 데이터 처리",
+          "한자 정답 판정 알고리즘",
+          "난이도별 문제 데이터베이스",
+          "사용자 설정 및 게임 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "손글씨 인식 기술 자체의 구현 난이도가 높으며, 다양한 필체에 대응하는 판정 로직을 만드는 데 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 손글씨 입력 캔버스",
+            "한자 이미지 매칭 판정 로직",
+            "기초 한자 문제 세트"
+          ],
+          "defer": [
+            "고급 인식 보정 알고리즘",
+            "다양한 BGM 및 커스터마이징 기능"
+          ],
+          "risks": [
+            "인식률 저하로 인한 사용자 경험 악화",
+            "한자 데이터베이스 구축의 방대한 양"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "획순 가이드",
+            "concept": "한자를 쓸 때 올바른 획순을 가이드라인으로 보여주어 학습 효과를 높입니다.",
+            "first_step": "한자별 획순 데이터를 순차적으로 보여주는 애니메이션을 구현합니다."
+          },
+          {
+            "title": "한자 대결",
+            "concept": "상대방과 동시에 한자를 써서 더 빨리, 정확하게 쓰는 사람이 승리하는 실시간 대결 모드입니다.",
+            "first_step": "두 명의 입력 캔버스를 화면에 배치하고 정답 판정 속도를 비교하는 로직을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "입력 방식이 게임의 재미를 결정하는 사례로, 인식 기술과 게임 로직의 결합을 연구하기 좋습니다. 다만 인식 기술의 난이도가 높으므로 외부 API 활용을 고려해야 합니다.",
+        "source_limitations_ko": "사용된 손글씨 인식 기술의 구체적인 라이브러리나 API 정보는 명시되지 않았습니다.",
+        "name": "漢字でGOGO!",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E6%BC%A2%E5%AD%97%E3%81%A7gogo/id6812355209?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 204,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 12,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:1545099527": {
+      "app_key": "apple:1545099527",
+      "name": "[777Real]バジリスク～甲賀忍法帖～絆",
+      "developer": "Sammy Networks Co., Ltd.",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_simulation",
+      "detail_url": "https://apps.apple.com/jp/app/777real-%E3%83%90%E3%82%B8%E3%83%AA%E3%82%B9%E3%82%AF-%E7%94%B2%E8%B3%80%E5%BF%8D%E6%B3%95%E5%B8%96-%E7%B5%86/id1545099527?uo=2",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:08:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "「バジリスク～甲賀忍法帖～絆」が【777Real】に登場!! ---------------------------------------- DL前に必ずご確認ください ---------------------------------------- 【必要なデータの容量】 本アプリをダウンロードした後、初回起動時に追加データのダウンロードを行います。 ※端末の容量に十分な空きがあるかご確認ください。 ※ダウンロードの際はWi-Fi等の高速回線をご利用頂くことを強くお勧めいたします。 ---------------------------------------- 必要動作環境について ---------------------------------------- 必要動作環境につきましては、777Real公式サイトでご確認をお願いいたします。 ※公式サイト画面最下部 ---------------------------------------- 個人情報の扱いについて/プライバシーポリシー ---------------------------------------- アプリ内の[メニュー＞ヘルプ＞お問い合わせボタン＞お問い合わせフォーム下部＞利用規約]および[メニュー＞ヘルプ＞お問い合わせボタン＞お問い合わせフォーム下部＞個人情報の取り扱い]をご確認ください。 お客様がダウンロードボタンをタップ、本アプリケーションをダウンロードされた場合には、アプリケーションプライバシーポリシーに同意したものとみなされます。 ---------------------------------------- サポートセンター窓口 ---------------------------------------- アプリ内の[お問い合わせ/FAQ]より、お問い合わせフォームをご利用ください。 ※営業時間：10時～19時 ※返信などの対応は原則翌営業時間になります。予めご了承ください。 ---------------------------------------- バジリスク～甲賀忍法帖～絆 2014年/(株)ユニバーサルエンターテインメント ---------------------------------------- 『バジリスク～甲賀忍法帖～絆』を【777Real】で楽しもう！ ©山田風太郎・せがわまさき・講談社／GONZO ©UNIVERSAL ENTERTAINMENT",
+      "analysis": {
+        "app_key": "apple:1545099527",
+        "summary_ko": "파칭코 게임 '바질리스크 ~코우가인법첩~ 인(絆)'을 모바일 환경에서 즐길 수 있는 시뮬레이션 앱입니다. 777Real 플랫폼을 통해 제공되며 실제 기기의 연출과 게임성을 재현합니다.",
+        "features_ko": [
+          "실제 파칭코 기기의 연출과 게임 데이터를 재현합니다.",
+          "앱 실행 시 추가 데이터를 다운로드하여 고품질 리소스를 제공합니다."
+        ],
+        "noteworthy_ko": "기존의 복잡한 물리 기기 데이터를 디지털로 이식하는 기술적 구현이 핵심입니다. 확률 기반의 게임 로직과 시각적 연출의 동기화가 개발 관점에서 매우 중요할 것으로 추정됩니다.",
+        "development_ko": "대용량 리소스 관리와 기기 사양에 따른 최적화가 필수적입니다. 확률 엔진의 정확한 구현과 실제 기기와의 데이터 일치 여부를 검증하는 테스트 과정이 매우 까다로울 것입니다.",
+        "idea_ko": "확률 기반의 시뮬레이션 엔진을 활용한 나만의 파칭코 기기 제작.",
+        "highlights_ko": [
+          "원작 파칭코 기기의 완벽한 디지털 재현.",
+          "777Real 플랫폼을 통한 통합 관리 시스템."
+        ],
+        "systems_ko": [
+          "확률 기반 난수 생성기(RNG)",
+          "대용량 데이터 다운로드 및 관리 시스템",
+          "기기 연출 동기화 엔진",
+          "사용자 계정 및 데이터 연동"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "기존 기기의 복잡한 로직을 재현해야 하며, 확률 엔진의 신뢰성과 대용량 리소스 최적화가 필수적이므로 1인 개발로는 매우 도전적입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 확률 엔진",
+            "기본적인 연출 출력 시스템"
+          ],
+          "defer": [
+            "실제 기기 수준의 고품질 그래픽",
+            "온라인 네트워크 연동"
+          ],
+          "risks": [
+            "확률 로직의 불투명성으로 인한 신뢰도 하락",
+            "리소스로 인한 앱 용량 과부하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "인디 파칭코 시뮬레이터",
+            "concept": "복잡한 라이선스 기기 대신, 간단한 도형과 확률을 이용해 나만의 파칭코 기기를 설계하고 테스트하는 샌드박스 게임입니다.",
+            "first_step": "공이 핀에 부딪혀 튕기는 물리 시뮬레이션 구현."
+          },
+          {
+            "title": "확률 통계 분석기",
+            "concept": "파칭코의 확률 데이터를 입력하면 기대 수익과 당첨 확률을 시각화해주는 분석 도구입니다.",
+            "first_step": "입력된 확률 데이터를 기반으로 10만 번의 시뮬레이션을 돌리는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "확률 기반 게임의 로직 설계와 대규모 데이터 처리를 공부하고 싶은 개발자에게 추천합니다. 다만, 라이선스 게임의 복제는 법적 위험이 있으므로 주의해야 합니다.",
+        "source_limitations_ko": "앱 내 결제, 실제 기기와의 확률 일치 여부, 네트워크 통신 방식 등 상세한 내부 구현 정보는 확인되지 않습니다.",
+        "name": "[777Real]バジリスク～甲賀忍法帖～絆",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/777real-%E3%83%90%E3%82%B8%E3%83%AA%E3%82%B9%E3%82%AF-%E7%94%B2%E8%B3%80%E5%BF%8D%E6%B3%95%E5%B8%96-%E7%B5%86/id1545099527?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 195,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 15,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.splendapps.sudoku": {
+      "app_key": "google:com.splendapps.sudoku",
+      "name": "스도쿠",
+      "developer": "Splend Apps",
+      "source": "google",
+      "country": "KR",
+      "category": "game_puzzle",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.splendapps.sudoku&hl=ko&gl=KR",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:09:33+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "스도쿠는 깔끔한 화면과 편안한 배경 음악, 그리고 그저 즐기는 데 그치지 않고 실제로 실력을 키우는 데 필요한 모든 것을 갖춘 현대적인 숫자 퍼즐 앱입니다. 다섯 가지 난이도에 걸쳐 100,000개의 스도쿠 퍼즐 중에서 고를 수 있습니다. 생애 첫 판부터, 단순한 접근을 모두 튕겨내는 전문가 국면까지. 모든 퍼즐은 해가 정확히 하나이며, 어느 순간에도 찍지 않고 순수한 논리만으로 풀립니다. 그리고 막혔을 때 이 앱은 답을 그냥 건네지 않습니다. 판 위에서, 한 걸음씩 생각의 흐름을 안내합니다. 스도쿠의 바탕이 된 발상은 보기보다 오래되었습니다. 라틴 방진은 18세기에 레온하르트 오일러가 연구했고, 현대적인 퍼즐은 1979년 Number Place라는 이름으로 등장했으며, 오늘날 모두가 쓰는 이름을 붙인 것은 일본이었습니다. 2004년 런던의 신문에 실리면서 거기서 온 세계로 퍼졌습니다. 서로 다른 완성된 판은 6,670,903,752,021,072,936,960가지가 있고, 올바른 퍼즐에는 최소 17개의 단서가 필요합니다. 수학자들이 이를 증명한 것은 2012년에 이르러서였습니다. 여러 언어에서 이름은 다르게 적힙니다: Sudoku, 数独, 스도쿠, Судоку, सुडोकू, سودوكو, סודוקו, Σουντόκου. 그러나 판은 어디서나 같습니다. 주요 기능 • 다섯 난이도의 스도쿠 퍼즐 100,000개: 입문, 쉬움, 보통, 어려움, 전문가 • 모든 퍼즐은 해가 정확히 하나이며 오직 논리로만 풀립니다. 찍기는 필요 없습니다 • 몸풀기: 스도쿠를 이제 시작하는 분을 위한 부드러운 30문제 • 대화식 스도쿠 강좌: 12개 수업이 첫 수부터 고급 패턴까지 26가지 기법을 가르칩니다 • 배우는 기법: 마지막 칸, 드러난 단일, 숨은 단일, 드러난 쌍, 숨은 쌍, 드러난 삼중, 숨은 삼중, 드러난 사중, 숨은 사중, 가리키는 쌍, 차지한 줄, X-Wing, Finned X-Wing, Sashimi X-Wing, Swordfish, Jellyfish, XY-Wing, XYZ-Wing, W-Wing, XY 사슬, 색칠하기, 원거리 쌍, 유일 직사각형, BUG+1, 거의 닫힌 집합 • 숫자만 알려주는 대신 생각의 흐름을 차례대로 설명하는 똑똑한 힌트. 실수가 있었다면 그것부터 짚어 줍니다 • 더 이상 불가능한 숫자가 자동으로 지워지는 메모 기능 • 되돌리기, 지우개, 한도를 조절할 수 있는 명확한 실수 카운터 • 같은 숫자와 현재 행, 열, 블록 강조 표시 • 속도 보너스가 있는 점수, 난이도별 최고 점수와 최고 기록 • 일일 연속 기록, 상세 통계, 무실수 게임 카운터 • Google Play 게임즈 클라우드 저장: 진행 상황이 새 기기로 따라옵니다 추가 정보 • 판을 내 취향대로: 숫자 서체 4종, 숫자 크기, 선 두께, 선 색상 6종 • 밝은 테마와 어두운 테마, Material Design 3 인터페이스 • 편안한 배경 음악, 효과음, 진동. 모두 선택 사항입니다 • 수업을 소리 내어 읽어 줍니다. 기기에 음성이 있는 모든 언어에서 가능합니다 • 게임은 스스로 저장됩니다. 풀다 말고 내려놓았다가 나중에 이어 하세요 • 어려운 난이도는 이길수록 열립니다. 준비되지 않은 퍼즐에 던져지는 일은 없습니다 • 선택 사항인 매일 알림이 연속 기록을 지키도록 도와줍니다 • 완전히 오프라인으로 즐길 수 있습니다. 인터넷 연결이 필요 없습니다 • 60개 언어 지원, 오른쪽에서 왼쪽으로 쓰는 문자도 완전히 지원합니다 • 다운로드와 플레이는 무료입니다. 광고 제거는 선택형 일회 구매입니다 • 우리는 여러분의 개인정보와 데이터 보안을 존중합니다 회사 소개 • SplendApps.com 방문: https://splendapps.com/ • Facebook: https://www.facebook.com/SplendApps/ • Instagram: https://www.instagram.com/splendapps/ • X/Twitter: https://x.com/SplendApps",
+      "analysis": {
+        "app_key": "google:com.splendapps.sudoku",
+        "summary_ko": "다양한 난이도의 스도쿠 퍼즐을 제공하는 숫자 퍼즐 게임입니다. 10만 개의 퍼즐을 통해 초보자부터 전문가까지 실력을 키울 수 있습니다. 논리적인 풀이를 돕는 힌트와 학습 기능을 포함하고 있습니다.",
+        "features_ko": [
+          "5가지 난이도에 걸친 10만 개의 스도쿠 퍼즐을 제공합니다.",
+          "모든 퍼즐은 논리적으로 풀 수 있도록 설계되었습니다.",
+          "단계별 힌트와 26가지 기법을 가르치는 대화식 강좌를 제공합니다.",
+          "메모 기능, 되돌리기, 실수 카운터 등 편의 기능을 지원합니다.",
+          "통계 및 일일 기록을 통해 성장을 추적할 수 있습니다."
+        ],
+        "noteworthy_ko": "단순한 퍼즐 제공을 넘어 '학습'에 초점을 맞춘 점이 인상적입니다. 퍼즐 생성 알고리즘과 논리적 힌트 제공 로직이 이 앱의 핵심 기술로 추정됩니다.",
+        "development_ko": "핵심 기술은 스도쿠 퍼즐 생성 알고리즘(백트래킹 등)과 논리적 풀이 검증기입니다. 콘텐츠 제작 부담은 낮으나, 사용자 경험을 위한 UI/UX와 힌트 로직 구현에 많은 시간이 소요됩니다. 밸런스 테스트는 난이도별 적정 난이도 검증이 필요합니다.",
+        "idea_ko": "퍼즐 풀이 과정을 시각화하여 보여주는 교육용 스도쿠",
+        "highlights_ko": [
+          "10만 개의 방대한 퍼즐 데이터와 논리적 풀이 보장.",
+          "초보자를 위한 체계적인 강좌와 힌트 시스템."
+        ],
+        "systems_ko": [
+          "스도쿠 보드 생성 및 검증 알고리즘",
+          "사용자 입력 처리 및 메모 시스템",
+          "힌트 제공 로직(논리 엔진)",
+          "통계 및 데이터 저장 시스템",
+          "UI 테마 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "퍼즐 생성 알고리즘은 정형화되어 있어 학습 후 구현이 가능합니다. 다만, 힌트 로직의 정교함에 따라 구현 난이도가 달라질 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "스도쿠 보드 UI",
+            "기본 퍼즐 생성 알고리즘",
+            "숫자 입력 및 검증 로직"
+          ],
+          "defer": [
+            "고급 힌트 로직",
+            "다양한 테마 설정",
+            "클라우드 저장"
+          ],
+          "risks": [
+            "퍼즐 생성 알고리즘의 비효율성",
+            "사용자 입력 오류 처리 미흡"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "협동 스도쿠",
+            "concept": "두 명의 사용자가 하나의 보드를 나누어 푸는 방식입니다. 서로의 실수를 보완하며 완성합니다.",
+            "first_step": "로컬에서 두 명의 입력을 받는 보드 시스템을 만듭니다."
+          },
+          {
+            "title": "스도쿠 배틀",
+            "concept": "제한 시간 내에 더 많은 칸을 채우는 경쟁 모드입니다. 속도와 정확성을 동시에 요구합니다.",
+            "first_step": "타이머와 점수 계산 로직을 추가합니다."
+          }
+        ],
+        "recommendation_ko": "알고리즘과 UI 간의 상호작용을 배우기에 매우 좋습니다. 퍼즐 게임 개발의 기초를 다지려는 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 퍼즐 생성에 사용된 구체적인 알고리즘이나 데이터 구조는 명시되지 않았습니다. 광고 제거 결제 기능의 구현 방식은 알 수 없습니다.",
+        "name": "스도쿠",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.splendapps.sudoku&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 189,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 17,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.TheFarmerWasReplaced.TheFarmerWasReplaced": {
+      "app_key": "google:com.TheFarmerWasReplaced.TheFarmerWasReplaced",
+      "name": "農家は Replace() されました",
+      "developer": "Timon Herzog",
+      "source": "google",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.TheFarmerWasReplaced.TheFarmerWasReplaced&hl=ja&gl=JP",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:09:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ドローンをプログラムしよう。農場を自動化しよう。あとはコードにおまかせ。 『農家は Replace() されました』は、ドローンが農作業をこなすプログラミングゲームです。Pythonに似たシンプルな言語で短いプログラムを書いて実行すれば、ドローンが耕し、植え、水をやり、収穫します。その出来栄えは、あなたのコード次第。 レベルはなく、進行はずっと続きます。資源を集め、それを使って新しい要素を解放し、次の課題を解こう。干し草、木材、ニンジンを収穫し、カボチャを合体させて巨大カボチャに。サボテンを並べ替え、最高のヒマワリを見つけ、恐竜に餌をやり、生け垣の迷路で宝を探そう。世界一効率的な農家を目指そう。 タッチ操作のためのコード用キーボード 必要な記号はすべて1画面に。括弧と引用符はペアで入力。キーの上をスワイプしてカーソルを移動、Shiftを押しながらスワイプで範囲選択。元に戻す、やり直し、コメント、貼り付けは専用の段に。QWERTY、QWERTZ、AZERTYから選べて、キー音や振動にも対応。Bluetoothキーボードとマウスを接続して、もっと快適にコードを書こう。 プログラミングを学ぼう ループ、変数、関数、リストなどを一つずつ紹介。道具はゲームが用意しますが、課題を解くのはあなた自身。それが本当に手ごわいこともあります。すでにプログラマーなら、基礎を一気に駆け抜けて、ドローンの大編隊を動かそう。 『鉱夫はReplaceされました()_』同梱 ドローンを地下に送り込み、石炭、石英、キノコ、ダイナマイトなど8種類の新しい資源をアンロックしよう。古代遺跡を壊さずに掘り出し、キノコを仕分け、粘土質の土で稲を育て、ドローンを爆破せずにマインスイーパーをプレイしよう。 無料で試せる まずは無料でお試し。無料体験の終了後もプレイを続けるには、一度きりの購入でゲーム全体をアンロックする必要があります。広告なし、サブスクなし。 特長 • 本格的なプログラミング言語 • 専用コードキーボード、Bluetoothキーボードとマウスにも対応 • スマートフォン・タブレットの両方で縦画面・横画面に対応 • Megafarm：複数のドローンを並行稼働 • 高速で再現性のあるテストができるシミュレーションモード • 実績のアンロック • 帽子。あなたのドローンにふさわしい。 • 14言語対応",
+      "analysis": {
+        "app_key": "google:com.TheFarmerWasReplaced.TheFarmerWasReplaced",
+        "summary_ko": "드론을 프로그래밍하여 농장을 자동화하는 게임입니다. Python과 유사한 언어를 사용하여 드론의 작업을 코딩하고, 효율적인 농장 운영을 목표로 합니다. 레벨 제한 없이 지속적으로 자원을 수집하고 새로운 요소를 해금하며, 프로그래밍 기초를 자연스럽게 학습할 수 있습니다.",
+        "features_ko": [
+          "Python과 유사한 언어로 드론의 농작업을 자동화하는 프로그래밍 규칙을 제공합니다.",
+          "루프, 변수, 함수 등 프로그래밍 기초 개념을 게임 내에서 학습할 수 있습니다.",
+          "터치 조작에 최적화된 전용 코드 키보드와 외부 키보드 연결을 지원합니다.",
+          "시뮬레이션 모드를 통해 작성한 코드의 결과를 빠르게 테스트할 수 있습니다.",
+          "지하 광산 모드 등 다양한 확장 콘텐츠를 포함합니다."
+        ],
+        "noteworthy_ko": "프로그래밍 교육과 게임을 완벽하게 결합한 사례입니다. 실제 코드를 작성하게 함으로써 사용자가 성취감을 느끼게 하고, 게임의 진행과 학습의 진도를 일치시킨 점이 매우 뛰어납니다.",
+        "development_ko": "코드 인터프리터 또는 컴파일러 구현이 핵심이며, 게임 내 객체와 코드를 연결하는 API 설계가 중요합니다. 시뮬레이션 모드를 위한 고속 연산 처리와 코드 오류 디버깅 UI 구현이 필요합니다. 다양한 언어 지원을 위한 로컬라이제이션 작업도 큰 비중을 차지할 것입니다.",
+        "idea_ko": "드론뿐만 아니라 공장 자동화 라인을 코딩하여 물류를 관리하는 '물류 프로그래밍 게임'으로 확장하는 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "실제 프로그래밍 언어를 활용한 농장 자동화 게임 플레이.",
+          "프로그래밍 기초를 자연스럽게 익힐 수 있는 학습 구조."
+        ],
+        "systems_ko": [
+          "코드 인터프리터 및 실행 엔진",
+          "게임 객체 제어 API",
+          "코드 편집기 UI 및 키보드 시스템",
+          "시뮬레이션 및 테스트 모드",
+          "자원 관리 및 해금 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "코드 실행 엔진을 직접 구현해야 하며, 게임 내 모든 요소가 코드와 상호작용하도록 설계해야 합니다. 프로그래밍 언어의 문법 오류 처리와 디버깅 환경 구축은 매우 높은 기술력을 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 코드 편집기",
+            "드론 이동 및 수확 명령 실행 엔진",
+            "간단한 자원 수집 루프"
+          ],
+          "defer": [
+            "지하 광산 모드",
+            "다양한 언어 지원"
+          ],
+          "risks": [
+            "코드 실행 엔진의 성능 및 안정성 문제",
+            "사용자에게 프로그래밍 문법을 가르치는 과정의 진입장벽"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "물류 자동화 프로그래밍",
+            "concept": "드론 대신 컨베이어 벨트와 로봇 팔을 코딩하여 물류를 분류하고 배송하는 게임입니다.",
+            "first_step": "로봇 팔의 위치 이동 및 물건 집기 명령 구현."
+          },
+          {
+            "title": "스마트 홈 프로그래밍",
+            "concept": "집안의 가전제품을 코딩하여 에너지를 절약하고 효율적인 환경을 만드는 게임입니다.",
+            "first_step": "조명 및 온도 조절 명령 구현."
+          }
+        ],
+        "recommendation_ko": "게임 엔진과 프로그래밍 언어의 결합을 연구하고 싶은 개발자에게 강력히 추천합니다. 시스템 설계의 복잡성을 다루는 능력을 기를 수 있습니다.",
+        "source_limitations_ko": "사용된 프로그래밍 언어의 구체적인 사양이나 인터프리터 구현 방식은 알 수 없습니다. 외부 라이브러리 사용 여부나 보안 정책에 대한 정보가 부족합니다.",
+        "name": "農家は Replace() されました",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.TheFarmerWasReplaced.TheFarmerWasReplaced&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 183,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6747174029": {
+      "app_key": "apple:6747174029",
+      "name": "恋と深空・クラウド版",
+      "developer": "INFOLD PTE. LTD.",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_simulation",
+      "detail_url": "https://apps.apple.com/jp/app/%E6%81%8B%E3%81%A8%E6%B7%B1%E7%A9%BA-%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E7%89%88/id6747174029?uo=2",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:10:17+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "『恋と深空・クラウド版』は、『恋と深空』の公式クラウド版です。クラウドから読み込むことでゲームをすぐに起動でき、アップデートも不要。超軽量ながら、高画質なグラフィックを存分に楽しめます！ ときめきはダウンロード不要、会いたい瞬間にすぐ会える。初回ログインで、600分間の無料プレイをプレゼント！ 『恋と深空・クラウド版』で、いつでもどこでも君のリアルに届ける恋愛体験をお楽しみください！ 『恋と深空』は、『恋とプロデューサー』の世界観を引き継ぐ近未来ファンタジー3D恋愛シミュレーションゲームです。 没入感のある一人称視点の演出、リアリティ溢れる恋愛交流システム、多種多様なコンテンツを通じてかつてない新たな体験を提供し、現実よりも美しい恋愛を体感していただけます。 【新しいホームシステムとメインストーリー】 ホームシステムが正式実装、メインストーリーも新章へ！ 「心は万有を御し、銀河さえあなたに頭を垂れる」——2周年バージョン5.0 「愛、宇宙、詩の王座」が開催中、幾層にも重なる物語の奥でカレとの距離をもっと縮めよう。 【一人称視点で織りなすストーリー】 ストーリーはリッチな3Dグラフィックを用いた一人称視点で展開。二人だけのかけがえのない瞬間を体験し、至近距離でカレの息遣いを感じることができます。リアルとバーチャルの境界線を超えて、運命の出会いと究極の没入感、ストーリー重視の次世代恋愛RPGをお楽しみください。 【リアリティ溢れる恋愛体験】 3Dグラフィックによって実現される立体的かつリアルな交流を体験できます。親密なひとときを過ごす中で、カレはあなたの行動によって様々な反応を示し、心ときめく瞬間が訪れます。他にも一人称視点のデートストーリー、時間帯によってカレのリアクションが変化する交流コンテンツ、秘密のひとときを描いたボイスドラマなどがあり、あなたにかつてないリアルな恋愛体験とときめきをお届けします。 【恋愛付き添いアップグレード】 ホームシステム実装、心を込めて整えた暖かな住まいにカレを招き、没入感のある2人の時間の中で、カレともっと暖かな日常を開放しよう。自由度の高い撮影スタジオシステムでは、カレと一緒に装飾やポーズを決めて、二人だけの特別なショットを残せます。さらに、空いた時間にはカレと「ニャンニャンカード」をしたり、クレーンゲームで競い合ったり、写真を撮って今の気分を記録したり、カレの付き添いで勉強や仕事や運動をしたり、生理の時には優しく寄り添ってもらったり……次元を越えて様々なシチュエーションをカレと過ごし、より甘いときめきと胸キュンを感じましょう。 【カレとの共闘】 あなたは「深空ハンター」となり、この世界のあらゆる大切なものを守るため、深空から来た謎の怪物と戦います。 個性的なEvolを持つカレと心を通わせて未知なる敵に挑みながら、深空の彼方の秘密を探りましょう。 【自分だけのスタイル】 自由度の高いキャラメイクシステム（数十種類の細かなパーツや100種類以上のメイクアップオプション）により、自分だけの外見を作ることができます。また、AI技術により、自分の写真を使用してキャラメイクを自動的に行うことも可能です。 自分だけのスタイルで臨空市に入り、リアルな恋の旅を無料で始めましょう。 【豪華声優陣が演じるイケメンとの濃密ストーリー】 セイヤ（CV:小林裕介） レイ（CV:寺島惇太） ホムラ（CV:立花慎之介） シン（CV:小西克幸） マヒル（CV:野島健児） など有名声優陣による圧巻の演技と甘いセリフで、心に響く恋愛ストーリーをフルボイスで体験。 ▼公式X(旧Twitter) https://twitter.com/lovedeepspacejp ▼公式サイト https://loveanddeepspace.infoldgames.com/ja-JP ▼公式TIKTOK https://www.tiktok.com/@lovedeepspacejp ▼お問い合わせ loveanddeepspace-jp@infoldgames.com",
+      "analysis": {
+        "app_key": "apple:6747174029",
+        "summary_ko": "근미래 판타지 세계관을 배경으로 한 3D 연애 시뮬레이션 게임입니다. 일인칭 시점의 몰입감 있는 연출과 캐릭터와의 상호작용을 강조합니다.",
+        "features_ko": [
+          "일인칭 시점의 3D 그래픽으로 스토리와 데이트를 진행합니다.",
+          "캐릭터와 다양한 방식으로 상호작용하는 시스템을 제공합니다.",
+          "자유도 높은 캐릭터 메이킹 기능을 지원합니다.",
+          "전투 시스템을 통해 캐릭터와 함께 적을 물리칩니다."
+        ],
+        "noteworthy_ko": "클라우드 기반 서비스로 기기 사양 부담을 줄인 점이 흥미롭습니다. 고품질 3D 그래픽과 AI 기술을 활용한 캐릭터 커스터마이징이 기술적 핵심입니다.",
+        "development_ko": "고품질 3D 모델링과 애니메이션 제작 부담이 매우 큽니다. AI 기술 연동 및 클라우드 스트리밍 기술은 전문적인 인프라가 필요합니다.",
+        "idea_ko": "특정 장소에서 캐릭터와 대화하며 단서를 찾는 '연애 추리 어드벤처'를 제안합니다.",
+        "highlights_ko": [
+          "몰입감 높은 일인칭 시점의 연출과 풀 보이스 스토리를 제공합니다.",
+          "AI를 활용한 캐릭터 메이킹 등 최신 기술을 적극 도입했습니다."
+        ],
+        "systems_ko": [
+          "3D 캐릭터 렌더링 및 애니메이션",
+          "대화 트리 및 분기 시스템",
+          "AI 기반 커스터마이징 엔진",
+          "클라우드 스트리밍 연동"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "고도의 3D 그래픽, 성우 녹음, AI 기술 등은 개인 개발자가 구현하기에 기술적, 비용적 장벽이 매우 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 대화 시스템",
+            "캐릭터 모델링 출력"
+          ],
+          "defer": [
+            "AI 커스터마이징",
+            "클라우드 스트리밍",
+            "전투 시스템"
+          ],
+          "risks": [
+            "고품질 리소스 제작 비용",
+            "기술적 구현 난이도"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "연애 추리 어드벤처",
+            "concept": "캐릭터와 대화하며 사건의 단서를 찾는 텍스트 기반 연애 게임입니다.",
+            "first_step": "대화 분기 시스템과 2D 일러스트 연동 구현."
+          },
+          {
+            "title": "가상 데이트 일기",
+            "concept": "매일 캐릭터와 짧은 대화를 나누고 일기를 기록하는 감성 시뮬레이션입니다.",
+            "first_step": "텍스트 출력 및 저장 기능 구현."
+          }
+        ],
+        "recommendation_ko": "스토리텔링과 캐릭터 연출에 관심 있는 개발자에게 추천합니다. 다만, 기술적 구현보다는 기획과 연출에 집중하는 것이 좋습니다.",
+        "source_limitations_ko": "클라우드 서비스의 구체적인 기술 스택, AI 커스터마이징의 작동 원리, 결제 및 보안 정책은 확인되지 않습니다.",
+        "name": "恋と深空・クラウド版",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E6%81%8B%E3%81%A8%E6%B7%B1%E7%A9%BA-%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89%E7%89%88/id6747174029?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 180,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 20,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.gl.unbolt": {
+      "app_key": "google:com.gl.unbolt",
+      "name": "Bolt Out - Puzzle Game",
+      "developer": "Loyalty Gaming",
+      "source": "google",
+      "country": "US",
+      "category": "game_puzzle",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.gl.unbolt&hl=en&gl=US",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:13:59+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Ready to twist, match, and clear your way through satisfying puzzles? Bolt Out is a casual screw-matching puzzle game that’s easy to pick up and hard to put down. Match the right screws, solve each board, and enjoy that satisfying feeling when everything clicks into place. 🔩✨ Each level brings a fresh puzzle to solve. Think ahead, make the right matches, and clear every screw without getting stuck. The rules are simple, but the puzzles get trickier as you progress! Whether you have a few minutes to relax or want to challenge your puzzle-solving skills, Bolt Out is the perfect game to play at your own pace. 🔩 Match screws and clear the board 🧩 Solve fun and increasingly tricky puzzles ✨ Enjoy simple, satisfying gameplay 🧠 Put your logic and strategy to the test 🎮 Easy to learn, relaxing to play Can you solve every puzzle and become a Bolt Out master?",
+      "analysis": {
+        "app_key": "google:com.gl.unbolt",
+        "summary_ko": "Bolt Out은 나사(screw)를 올바른 순서로 제거하여 보드를 비우는 캐주얼 퍼즐 게임입니다. 플레이어는 논리적 사고를 통해 나사를 배치하고 보드 위의 모든 장애물을 제거해야 합니다. 레벨이 올라갈수록 난이도가 상승하며, 전략적인 접근이 요구되는 퍼즐 경험을 제공합니다.",
+        "features_ko": [
+          "나사를 매칭하여 보드에서 제거하는 퍼즐 메커니즘을 제공합니다.",
+          "레벨이 진행될수록 복잡해지는 퍼즐 구성을 통해 난이도를 조절합니다.",
+          "논리적 사고와 전략을 사용하여 나사를 순서대로 제거해야 합니다.",
+          "간단한 조작으로 누구나 쉽게 시작할 수 있는 게임 플레이를 지원합니다."
+        ],
+        "noteworthy_ko": "나사를 제거한다는 물리적 상호작용을 퍼즐로 치환한 점이 흥미롭습니다. 퍼즐의 순서가 결과에 직접적인 영향을 미치는 구조로, 레벨 디자인의 논리적 정합성이 핵심일 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 2D 객체 배치 및 충돌 판정 시스템입니다. 콘텐츠 제작은 레벨별 나사 배치 패턴을 설계하는 것이 주된 부담이며, 난이도 밸런스를 위해 퍼즐이 풀리지 않는 상황(데드락)을 방지하는 알고리즘 검증이 필요합니다.",
+        "idea_ko": "나사의 색상이나 모양을 조합하여 특정 패턴을 완성해야 하는 '패턴 매칭 나사 퍼즐' 아이디어가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "나사를 제거할 때의 시각적, 물리적 만족감을 강조한 퍼즐 구성.",
+          "시간 제한 없이 자신의 속도에 맞춰 즐길 수 있는 캐주얼한 게임성."
+        ],
+        "systems_ko": [
+          "레벨 데이터 관리 시스템",
+          "객체 선택 및 제거 판정 시스템",
+          "퍼즐 해결 가능 여부 검증 알고리즘",
+          "UI 및 레벨 진행 상태 저장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기본적인 퍼즐 로직 구현은 어렵지 않으나, 레벨이 높아질수록 논리적 오류가 없는 퍼즐을 설계하고 배치하는 과정에서 많은 테스트가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "나사 배치 및 제거 로직",
+            "레벨 클리어 판정 시스템",
+            "기본 UI"
+          ],
+          "defer": [
+            "화려한 이펙트",
+            "다양한 스킨 및 커스터마이징"
+          ],
+          "risks": [
+            "퍼즐 레벨 디자인의 단조로움",
+            "난이도 조절 실패로 인한 사용자 이탈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "색상 정렬 나사 퍼즐",
+            "concept": "같은 색상의 나사를 특정 구역으로 이동시켜 정렬하는 퍼즐입니다. 나사끼리 서로 겹치지 않게 이동 경로를 확보하는 것이 핵심입니다.",
+            "first_step": "나사 객체를 드래그하여 빈 공간으로 이동시키는 기본 이동 로직 구현."
+          },
+          {
+            "title": "물리 기반 나사 제거",
+            "concept": "나사를 제거하면 위에 놓인 부품이 물리 법칙에 따라 떨어지는 퍼즐입니다. 부품이 특정 위치에 안착하도록 순서를 정해야 합니다.",
+            "first_step": "2D 물리 엔진을 활용한 객체 낙하 및 충돌 테스트."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 핵심인 '레벨 디자인'과 '논리적 규칙'을 배우기에 좋습니다. 간단한 메커니즘을 확장하여 게임의 깊이를 더하는 과정을 경험할 수 있습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 물리 엔진 사용 여부나 레벨 생성 방식(수동/절차적)이 명시되어 있지 않습니다. 외부 서비스 연동이나 결제 기능에 대한 언급은 없습니다.",
+        "name": "Bolt Out - Puzzle Game",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.gl.unbolt&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:634158738": {
+      "app_key": "apple:634158738",
+      "name": "e-Sword LT: Bible Study to Go",
+      "developer": "Rick Meyers",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/e-sword-lt-bible-study-to-go/id634158738",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:15:07+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "e-Sword® — the world's most popular PC Bible study software is now available on the world's most advanced mobile operating system! e-Sword LT is the little brother of e-Sword HD for the iPad, but has many of the same powerful features in a slimmer design for the iPhone. e-Sword LT is feature rich and user friendly. As your Biblical library grows you will appreciate the intuitive layout and synchronization of resources. e-Sword LT is so easy to use you may never need to read the Tutorial! EVERYTHING NEEDED to study the Bible in an enjoyable and enriching manner. All Bibles, commentaries, dictionaries, … everything is just a tap away! POWERFUL SEARCHES that are simple to use. Enter as many words you want to search for and select the settings. You can even search on Strong numbers! STRONG'S DEFINITIONS are just a tap away and presented in a popover. SCRIPTURE REFERENCES too are just a tap away and presented in a popover. COMPARE BIBLES quickly to see how the different versions translate a verse. LOCATION MAPS pin-point Biblical places on live modern maps to help bring the narrative to life! READING PLANS designed to help you grow in your knowledge of the Bible. FORMATTED EMAILS of any selection of any text. Perfect for sharing with others. No Internet connection is required to use e-Sword LT. e-Sword LT initially installs with the King James Bible and the King James with Strong's numbers study Bible, the Strong's Lexicon, Smith's Bible dictionary, Meyer's devotional commentary, and the Treasury of Scripture Knowledge cross references. There are over one hundred additional Bibles, commentaries, dictionaries, reference books and devotionals that you can download and add to your library absolutely free! Also available are some \"locked\" resources which must be purchased from their publisher. These are copyright and licensing requirements which are unavoidable. Please note that e-Sword LT is an *ENGLISH* release (but does include Spanish, Portuguese and French UI localization.) There are dozens of non-English Bibles available, but all other content is in English. The perfect app on the perfect device. What are you waiting for? Download e-Sword LT today and get to studying the Bible!",
+      "analysis": {
+        "app_key": "apple:634158738",
+        "summary_ko": "성경 연구를 위한 다양한 도구와 자료를 제공하는 성경 공부 앱입니다. 성경 본문, 주석, 사전, 지도 등 방대한 자료를 직관적인 인터페이스로 이용할 수 있습니다. 오프라인에서도 사용할 수 있어 언제 어디서나 성경을 깊이 있게 연구할 수 있습니다.",
+        "features_ko": [
+          "다양한 성경 버전, 주석, 사전 등 방대한 연구 자료를 제공합니다.",
+          "강력한 검색 기능을 통해 단어나 구절을 빠르게 찾을 수 있습니다.",
+          "성경 구절에 대한 정의와 참조를 팝업 형태로 즉시 확인할 수 있습니다.",
+          "성경 구절을 비교하여 다른 버전 간의 번역 차이를 확인할 수 있습니다.",
+          "성경 속 지명을 현대 지도에서 확인할 수 있는 위치 지도 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "방대한 텍스트 데이터를 효율적으로 검색하고 상호 참조하는 데이터 구조가 핵심입니다. 오프라인 환경에서도 빠른 검색 속도를 유지하는 로컬 데이터베이스 최적화 기술이 개발 관점에서 매우 흥미롭습니다.",
+        "development_ko": "핵심은 텍스트 데이터의 구조화와 효율적인 검색 알고리즘 구현입니다. 콘텐츠 제작보다는 방대한 자료를 앱 내에서 어떻게 체계적으로 분류하고 보여줄지에 대한 UI/UX 설계가 중요합니다. 오프라인 데이터 관리 기술이 필요합니다.",
+        "idea_ko": "성경 구절을 매일 하나씩 학습하고 퀴즈를 푸는 '성경 한 구절 학습' 아이디어가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "방대한 성경 연구 자료를 모바일 환경에 최적화하여 제공합니다.",
+          "오프라인 사용을 지원하여 언제 어디서나 학습이 가능합니다."
+        ],
+        "systems_ko": [
+          "텍스트 검색 및 인덱싱 시스템",
+          "로컬 데이터베이스 관리 시스템",
+          "상호 참조 및 팝업 UI 시스템",
+          "지도 데이터 연동 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "방대한 텍스트 데이터를 효율적으로 검색하고 보여주는 구조 설계가 필요합니다. 하지만 복잡한 서버 통신보다는 로컬 데이터 처리에 집중할 수 있어 개인 개발자가 도전하기에 적절한 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "성경 본문 보기",
+            "기본 검색 기능",
+            "구절 즐겨찾기"
+          ],
+          "defer": [
+            "지도 연동 기능",
+            "다양한 주석 및 사전 자료",
+            "성경 읽기 계획 관리"
+          ],
+          "risks": [
+            "방대한 데이터로 인한 앱 용량 증가",
+            "검색 속도 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "성경 한 구절 학습",
+            "concept": "매일 아침 성경 구절을 하나씩 추천하고, 그 구절에 대한 간단한 퀴즈를 푸는 학습 앱입니다.",
+            "first_step": "성경 구절 데이터를 리스트로 저장하고 랜덤으로 하나씩 보여주는 기능 구현."
+          },
+          {
+            "title": "성경 구절 메모장",
+            "concept": "사용자가 읽은 성경 구절에 자신만의 메모를 남기고 태그를 달아 관리하는 앱입니다.",
+            "first_step": "성경 구절을 선택하고 메모를 입력하여 저장하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 중심의 앱 설계와 로컬 데이터베이스 활용 능력을 키우기에 좋습니다. 성경 연구라는 명확한 타겟층을 대상으로 하는 앱을 기획해 볼 수 있어 추천합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 유료 자료 구매 시스템의 구체적인 구현 방식은 확인되지 않았습니다. 또한, 오프라인 데이터의 저작권 및 라이선스 관련 내용은 별도 확인이 필요합니다.",
+        "name": "e-Sword LT: Bible Study to Go",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/e-sword-lt-bible-study-to-go/id634158738",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6449651527": {
+      "app_key": "apple:6449651527",
+      "name": "Raid Plaza",
+      "developer": "Evermore Labs",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/kr/app/raid-plaza/id6449651527?uo=2",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:17:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Raid Plaza gets you into remote raids for the bosses you want, quickly and easily. Pick a boss, add your trainer code, and a host sends you a friend request and a raid invite within minutes. No waiting queues, no group chats: the fastest remote invites on the store. WHAT YOU CAN DO • Raid invites: Legendary, Mega, Shadow and every other raid in rotation. • Max Battles: invites to Max Battles, Gigantamax included. • Gifts from other regions: get the regional gifts you're missing. • Bring your friends: request invites for several trainer codes at once and raid together for the friendship bonus. • Follow every request: see each step live, and why a request ended if it didn't work out. • Raid map: find raids anywhere, scan an area, and ask for a host at the raid you want. HOW IT WORKS 1. Add your trainer code. 2. Pick a raid boss, a Max Battle or a gift region. 3. Accept the friend request in the game and join the lobby when the invite arrives. Your next raid is just a few taps away. See you in the lobby!",
+      "analysis": {
+        "app_key": "apple:6449651527",
+        "summary_ko": "Raid Plaza는 포켓몬 GO 게임의 원격 레이드 초대를 빠르고 쉽게 받을 수 있도록 돕는 서비스입니다. 사용자가 원하는 레이드 보스를 선택하고 트레이너 코드를 입력하면, 호스트가 친구 요청과 레이드 초대를 보내줍니다. 대기열이나 그룹 채팅 없이 빠르게 레이드에 참여할 수 있는 것이 특징입니다.",
+        "features_ko": [
+          "원하는 레이드 보스를 선택하여 원격 초대 요청을 보낼 수 있습니다.",
+          "트레이너 코드를 입력하여 호스트로부터 친구 요청과 초대를 받습니다.",
+          "레이드 맵을 통해 원하는 지역의 레이드를 검색하고 호스트를 찾을 수 있습니다.",
+          "여러 트레이너 코드를 동시에 등록하여 친구들과 함께 레이드에 참여할 수 있습니다.",
+          "요청 진행 상황을 실시간으로 확인할 수 있습니다."
+        ],
+        "noteworthy_ko": "게임 외부에서 커뮤니티를 형성하고 게임 내 기능을 보조하는 유틸리티 앱의 전형적인 사례입니다. 실시간 매칭 시스템을 통해 게임의 불편함을 해소하는 방식이 매우 효율적입니다.",
+        "development_ko": "실시간 데이터 동기화와 푸시 알림 시스템이 핵심입니다. 레이드 맵 구현을 위한 위치 기반 서비스와 사용자 간 매칭 로직이 필요하며, 게임 내 트레이너 코드 관리 시스템이 중요합니다.",
+        "idea_ko": "특정 게임의 아이템 교환이나 파티 매칭을 도와주는 실시간 중개 플랫폼 앱이 적합합니다.",
+        "highlights_ko": [
+          "대기열 없는 빠른 매칭 시스템으로 사용자 편의성 극대화.",
+          "레이드 맵을 통한 직관적인 위치 기반 검색 기능."
+        ],
+        "systems_ko": [
+          "실시간 매칭 및 대기열 관리",
+          "위치 기반 레이드 맵",
+          "사용자 프로필 및 트레이너 코드 관리",
+          "실시간 알림 및 상태 업데이트",
+          "데이터베이스 기반 요청 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "실시간 매칭 로직과 위치 기반 서비스 구현이 필요하지만, 복잡한 게임 엔진이나 대규모 서버 인프라 없이도 구현 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "레이드 보스 목록",
+            "트레이너 코드 입력 및 저장",
+            "매칭 요청 생성"
+          ],
+          "defer": [
+            "레이드 맵",
+            "실시간 상태 업데이트",
+            "다중 트레이너 코드 등록"
+          ],
+          "risks": [
+            "게임사의 서비스 정책 위반 가능성",
+            "사용자 간 매칭 불균형"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "게임 파티 매칭 도우미",
+            "concept": "멀티플레이 게임에서 실력이 비슷한 유저들을 매칭해 주는 커뮤니티 기반 앱입니다.",
+            "first_step": "사용자 정보를 등록하고 파티를 생성/참여하는 기능 구현."
+          },
+          {
+            "title": "게임 아이템 거래 게시판",
+            "concept": "게임 내 아이템을 안전하게 교환할 수 있도록 시세 정보와 거래 게시판을 제공합니다.",
+            "first_step": "아이템 목록과 거래 게시글을 등록하는 CRUD 기능 구현."
+          }
+        ],
+        "recommendation_ko": "실시간 매칭 시스템과 유틸리티 앱의 기획 방식을 배우기에 매우 좋습니다. 게임 보조 앱은 수요가 확실하므로 개인 개발자가 시도하기에 적합한 분야입니다.",
+        "source_limitations_ko": "소개문에는 게임사와의 공식 API 연동 여부가 명시되어 있지 않습니다. 또한, 실시간 매칭 로직의 구체적인 알고리즘이나 서버 인프라에 대한 정보는 부족합니다.",
+        "name": "Raid Plaza",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/raid-plaza/id6449651527?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 58,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:314855255": {
+      "app_key": "apple:314855255",
+      "name": "Best Buy: Tech Deals & Savings",
+      "developer": "Best Buy Co., Inc.",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/best-buy-tech-deals-savings/id314855255",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:18:01+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Best Buy is your solution for finding top deals on appliances, electronics and more. We’ve simplified tech shopping, with warp-speed checkout, curbside pickup, limited runs and can't-miss shopping deals. Access the newest electronics, appliances, laptops and more. The Best Buy app provides everything you need for your favorite tech and appliances for seamless online shopping - all backed by the Price Match Guarantee. Access shopping deals, and sales on everything from appliances to electronics. Best Buy is your ultimate place to find tech and gadget deals. Get unbeatable prices with our Price Match Guarantee*. Need assistance with your new gadgets? Shopping for top toys, gadgets, electronics, and appliances is easier with verified user ratings and reviews. Enjoy your shopping experience in-store, or easily shop from home using our app. Pick up gadgets, electronics, appliances, or other technology in-store, or opt for Curbside Pickup. Use the app to let us know you're on the way, and we'll have it ready. Deals are yours to discover with the new Best Buy Marketplace™ - The app can now also show you items sold by third-party sellers on our site and tech app. • Fanatics Fan Shop - Officially licensed sports memorabilia. • Gadgets and appliances - Top tech from Oster, Crock-Pot, Martha Stewart, Zulay Kitchen, Cuckoo, Tineco, eufy and more gadgets. • Tech for indoor, outdoor, and office spaces - New furniture like TV stands, office desks, gaming chairs, coffee tables, barstools, gazebos, and patio furniture. • Musical Instruments - Featuring guitars, drums and more. Check product reviews, and shop our online store! Best Buy offers the leading solution for shopping cutting-edge tech to essentials, home appliances, and today’s top electronics: • Laptops, smart TVs, gaming consoles, and more • Blenders, coffee makers, and kitchen appliances • Home security systems and smart home gadgets • Headphones, speakers, and soundbars • And much more! Price Match Guarantee, deal finders, and top sales on tech & gadgets: • Electronics and appliances - tech deals for anything you could need. • Deal of the Day: Find huge savings on the latest electronics. • Tech deals: Access exclusive tech deals with a My Best Buy Plus™ or My Best Buy Total™ membership. • Shopping deals: Receive real-time notifications about the top sales on appliances, gadgets, and must-have electronics. • Price Match Guarantee: Find a qualified competitor with a lower price? We’ll match it.* An unbeatable tech shopping experience with perks • 24/7 Access: Gadgets, electronics and appliances are found anytime, anywhere when you shop from your device. • Augmented reality: Visualize how products will fit in your space using our AR feature before you buy. • Shopping deals and curbside convenience: Enjoy fast curbside pickup by notifying us when you're on your way and we’ll have your order ready. • Order tracking: Stay informed with real-time tracking for your orders and deliveries. Shop the trusted appliances • Shopping deals on major appliances for the kitchen, washers & dryers, vacuums, and more. • Appliance parts and accessories help make updating and maintaining a breeze. • Shopping deals found from popular brands in appliances. Deals on laptops and other electronics • We have the electronics you need at unbeatable prices with our Price Match Guarantee. • Find sales on the latest tech for home appliances, auto tech, gadgets, and electronics. • Shopping deals found from major brands in electronics. Get all the details. Browse products available at stores near you. Track orders and deliveries. Scan and shop. And find nearby service options and store details — including popular times to shop. Get it all with the gotta-have app for gotta-have tech. *Limitations apply. Excludes Marketplace Products. See BestBuy.com/PMG for details.",
+      "analysis": {
+        "app_key": "apple:314855255",
+        "summary_ko": "Best Buy 앱은 가전제품, 전자 기기, 노트북 등을 쇼핑할 수 있는 종합 커머스 플랫폼입니다. 사용자는 앱을 통해 제품을 검색하고, 가격 보장제(Price Match Guarantee)를 통해 합리적인 가격으로 구매할 수 있습니다. 매장 픽업, 커브사이드 픽업, 실시간 주문 추적 등 온·오프라인을 연결하는 편리한 쇼핑 경험을 제공합니다.",
+        "features_ko": [
+          "가격 보장제를 통해 경쟁사보다 낮은 가격으로 제품을 구매할 수 있습니다.",
+          "커브사이드 픽업 기능을 통해 매장에 방문하여 주문한 상품을 빠르게 수령할 수 있습니다.",
+          "증강 현실(AR) 기능을 사용하여 제품이 자신의 공간에 어떻게 배치될지 미리 시각화할 수 있습니다.",
+          "실시간 알림을 통해 가전 및 전자 기기의 할인 정보와 세일 소식을 받아볼 수 있습니다.",
+          "사용자 리뷰와 평점을 통해 제품에 대한 신뢰성 있는 정보를 확인할 수 있습니다."
+        ],
+        "noteworthy_ko": "온라인 커머스와 오프라인 매장 경험을 결합한 O2O(Online to Offline) 서비스 모델이 핵심입니다. 특히 AR을 활용한 공간 배치 시뮬레이션은 구매 전환율을 높이기 위한 흥미로운 기술적 시도로 보입니다.",
+        "development_ko": "핵심 구현 기술로는 실시간 재고 연동 시스템, ARKit을 활용한 공간 배치 기능, 그리고 결제 및 주문 추적을 위한 백엔드 API 연동이 필요합니다. 콘텐츠 제작 측면에서는 방대한 제품 데이터베이스 관리와 사용자 리뷰 시스템 구축이 큰 비중을 차지할 것으로 추정됩니다. 테스트 단계에서는 다양한 기기에서의 AR 정확도와 결제 프로세스의 안정성 확보가 가장 중요합니다.",
+        "idea_ko": "특정 카테고리(예: 캠핑 장비)에 특화된 AR 배치 및 커뮤니티 기반 리뷰 앱.",
+        "highlights_ko": [
+          "온라인 쇼핑과 오프라인 매장 픽업을 유기적으로 연결하는 사용자 경험을 제공합니다.",
+          "가격 보장제와 같은 신뢰 기반의 정책을 앱 내 핵심 기능으로 내세우고 있습니다."
+        ],
+        "systems_ko": [
+          "상품 검색 및 필터링 시스템",
+          "실시간 주문 상태 추적 시스템",
+          "AR 공간 배치 엔진",
+          "사용자 리뷰 및 평점 관리 시스템",
+          "결제 및 가격 보장 로직"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "단순한 쇼핑몰 구현을 넘어 AR 기술, 실시간 재고 연동, 복잡한 결제 및 물류 시스템과의 연동이 필요합니다. 1인 개발자가 모든 백엔드 인프라와 보안 요건을 충족하며 구현하기에는 규모가 매우 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 목록 및 상세 페이지",
+            "장바구니 및 결제 연동",
+            "주문 내역 확인"
+          ],
+          "defer": [
+            "AR 공간 배치 기능",
+            "가격 보장제 자동화 로직",
+            "커브사이드 픽업 알림 시스템"
+          ],
+          "risks": [
+            "결제 보안 및 개인정보 처리의 복잡성",
+            "방대한 상품 데이터 관리의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "로컬 소상공인 픽업 마켓",
+            "concept": "동네 상점의 재고를 실시간으로 확인하고 예약 픽업하는 서비스입니다. 대형 마트 대신 지역 상권 활성화에 초점을 맞춥니다.",
+            "first_step": "특정 지역의 상점 3곳과 협력하여 재고 목록을 보여주는 웹뷰 기반 앱 제작."
+          },
+          {
+            "title": "중고 가전 배치 시뮬레이터",
+            "concept": "중고 거래 시 구매하려는 가전이 내 방에 맞는지 AR로 미리 확인하는 도구입니다.",
+            "first_step": "ARKit을 사용하여 가상의 박스를 배치하고 크기를 조절하는 프로토타입 구현."
+          }
+        ],
+        "recommendation_ko": "커머스 앱의 표준적인 UI/UX 흐름을 학습하기에 좋습니다. 다만, 실제 결제나 보안이 포함된 서비스는 개인 개발자가 다루기에 위험 요소가 많으므로 학습용으로만 접근하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 결제 시스템의 구체적인 구현 방식이나 보안 인증 절차에 대한 정보가 없습니다. 또한, AR 기능의 정확한 기술 스택이나 백엔드 인프라에 대한 상세 정보는 확인할 수 없습니다.",
+        "name": "Best Buy: Tech Deals & Savings",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/best-buy-tech-deals-savings/id314855255",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 93,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6821308186": {
+      "app_key": "apple:6821308186",
+      "name": "Vistream",
+      "developer": "Richard Bhajan",
+      "source": "apple",
+      "country": "JP",
+      "category": "app_tools",
+      "detail_url": "https://apps.apple.com/jp/app/vistream/id6821308186?uo=2",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:18:01+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Vistream helps you play and organise your videos in one place. Import videos from Photos or Files, manage your library and open supported video links without creating an account. IMPORT YOUR VIDEOS Bring videos from Photos or Files into your library for easy access. KEEP YOUR LIBRARY ORGANISED Create folders, mark favourites and revisit recently played videos. PLAY YOUR WAY Adjust playback speed, repeat videos and resume playback from where you left off. OPEN ONLINE LINKS Use the built-in browser to open websites and supported media links. Playback availability depends on the source and media format. MANAGE YOUR STORAGE View the storage used by your videos and clear cached files from Settings. OPTIONAL VIP SUBSCRIPTIONS Subscribe to unlock these VIP benefits: - Remove ads within Vistream. - Download and export supported videos. Choose the plan that suits you: - VIP Monthly: 1-month auto-renewable subscription. - VIP Yearly: 1-year auto-renewable subscription. Both plans include the same VIP benefits. Video download and export require an active VIP subscription. A subscription is not required to import, organise or play your videos. Prices are displayed in the app before purchase and may vary by country or region. Payment is charged to your Apple Account when you confirm the purchase. Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period. Your account is charged for renewal within 24 hours before the current period ends. You can manage or cancel your subscription in your Apple Account subscription settings. Use Restore on the subscription page to restore eligible purchases. Website: https://vistream.cc Terms of Use: https://vistream.cc/#terms Privacy Policy: https://vistream.cc/#privacy",
+      "analysis": {
+        "app_key": "apple:6821308186",
+        "summary_ko": "Vistream은 사용자가 보유한 동영상을 한곳에서 관리하고 재생할 수 있는 미디어 플레이어 앱입니다. 사진이나 파일 앱에서 동영상을 가져와 폴더별로 정리하고, 내장 브라우저를 통해 웹상의 미디어 링크를 재생할 수 있습니다. 재생 속도 조절, 반복 재생 등 기본적인 플레이어 기능을 제공합니다.",
+        "features_ko": [
+          "사진 및 파일 앱에서 동영상을 가져와 라이브러리에 저장할 수 있습니다.",
+          "폴더 생성 및 즐겨찾기 기능을 통해 동영상을 체계적으로 관리할 수 있습니다.",
+          "내장 브라우저를 사용하여 웹사이트의 미디어 링크를 직접 열어 재생할 수 있습니다.",
+          "재생 속도 조절, 반복 재생, 이어보기 등 사용자 맞춤형 재생 기능을 제공합니다.",
+          "앱 내에서 저장 공간 사용량을 확인하고 캐시 파일을 정리할 수 있습니다."
+        ],
+        "noteworthy_ko": "단순한 미디어 플레이어를 넘어 파일 관리와 웹 브라우징 기능을 결합한 점이 특징입니다. 사용자가 자신의 미디어 자산을 직접 관리할 수 있는 환경을 제공하는 것이 개발 관점에서 흥미로운 부분입니다.",
+        "development_ko": "핵심 기술은 iOS의 AVFoundation 프레임워크를 활용한 미디어 재생 및 파일 시스템 접근입니다. 웹 브라우저 구현을 위해 WKWebView를 사용하며, 파일 관리 UI를 직관적으로 설계하는 것이 중요합니다. 테스트 시에는 다양한 동영상 코덱과 포맷에 대한 호환성 확보가 필요합니다.",
+        "idea_ko": "개인 미디어 라이브러리를 클라우드와 동기화하는 미디어 매니저.",
+        "highlights_ko": [
+          "로컬 파일과 웹 링크를 통합 관리하는 편리한 인터페이스를 갖추고 있습니다.",
+          "사용자 중심의 재생 설정 기능을 통해 개인화된 시청 경험을 제공합니다."
+        ],
+        "systems_ko": [
+          "미디어 재생 엔진(AVFoundation)",
+          "파일 시스템 관리자",
+          "웹 브라우저 엔진(WKWebView)",
+          "사용자 설정 및 데이터 저장소",
+          "구독 및 인앱 결제 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "iOS의 표준 프레임워크를 활용하면 기본적인 미디어 플레이어 구현은 가능합니다. 다만, 다양한 파일 포맷 지원과 안정적인 파일 관리 시스템을 구축하는 데는 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "동영상 불러오기 및 재생",
+            "기본 재생 제어(재생/일시정지/탐색)"
+          ],
+          "defer": [
+            "웹 브라우저 기능",
+            "폴더 관리 시스템",
+            "인앱 결제 및 구독"
+          ],
+          "risks": [
+            "지원하지 않는 코덱으로 인한 재생 오류",
+            "파일 접근 권한 관리의 복잡성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "학습용 영상 구간 반복기",
+            "concept": "영상에서 특정 구간을 지정하여 무한 반복하고, 구간별 메모를 남길 수 있는 학습 도구입니다.",
+            "first_step": "영상 재생 중 특정 시간대를 저장하고 해당 구간으로 이동하는 기능 구현."
+          },
+          {
+            "title": "개인 영상 일기장",
+            "concept": "매일 찍은 짧은 영상을 날짜별로 자동 정리하고 간단한 일기를 덧붙이는 앱입니다.",
+            "first_step": "날짜별로 영상을 분류하여 리스트로 보여주는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "iOS의 미디어 처리 프레임워크와 파일 시스템을 학습하기에 매우 좋은 프로젝트입니다. 기본적인 플레이어부터 시작하여 점진적으로 기능을 확장해 나가는 과정을 추천합니다.",
+        "source_limitations_ko": "지원하는 구체적인 동영상 포맷 목록이나, 웹 브라우저에서 재생 가능한 미디어 링크의 범위에 대한 상세 정보는 없습니다.",
+        "name": "Vistream",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/vistream/id6821308186?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 96,
+        "reasons": [],
+        "best_rank": 3,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6479675842": {
+      "app_key": "apple:6479675842",
+      "name": "서울Pay+ (서울페이,서울페이플러스,서울사랑상품권)",
+      "developer": "비즈플레이(주)",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%84%9C%EC%9A%B8pay-%EC%84%9C%EC%9A%B8%ED%8E%98%EC%9D%B4-%EC%84%9C%EC%9A%B8%ED%8E%98%EC%9D%B4%ED%94%8C%EB%9F%AC%EC%8A%A4-%EC%84%9C%EC%9A%B8%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C/id6479675842",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:18:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "서울시의 새로운 시민생활 플랫폼으로서, 서울사랑상품권 구매, 사용, 서울사랑상품권 가맹점 신청, 조회 뿐만 아니라 서울시 및 자치구 정책수당 지급, 사용이 가능합니다. 서울시민의 새로운 플랫폼! 시민과 소상공인의 편리함까지 갖춘 서울 Pay+가 함께합니다! 1. 홈 화면 및 메뉴 구성 - 주요 메뉴 바로가기 및 주요알림을 확인할 수 있습니다. - 바로결제를 통해서 원하는 상품권을 사용해서 결제할 수 있습니다. - 서울Pay+의 앱의 모든 메뉴는 전체메뉴에서 확인할 수 있으며, 메뉴 속성에 따라서 그룹핑하여 구성하였습니다. 2. 상품권 구매/결제 - 상품권 구매 시 계좌/카드 구매 수단을 선택하고 구매할 수 있습니다. - QR코드 스캔, 비대면결제의 경우 보유한 상품권을 합산하여 결제할 수 있으며, 상품권 금액이 부족한 경우 카드와 함께 합산하여 결제할 수 있습니다. 3. 상품권 선물 - 구매한 상품권을 선물할 수 있습니다.(카드로 구매한 경우 불가) - 선물을 받은 경우 홈 화면 또는 받은 선물함에서 확인할 수 있습니다. - 휴대폰번호와 이름이 일치하지 않는 경우 선물을 등록할 수 없습니다. - 선물함에서 받은 선물/보낸 선물을 확인할 수 있습니다. 4. 가맹점 찾기 - 내 위치기반으로 가맹점 찾기가 가능하며, 목록보기/지도보기 선택하여 확인할 수 있습니다. - 가맹점 상세에서 찜하기가 가능하며, 해당 매장에서 사용 가능한 상품권도 확인이 가능합니다. 5. 가맹점 모드 - 가맹점 운영에 필요한 직원을 초대하고 서비스 접근 권한을 지정할 수 있습니다. - 가맹점 알림 설정으로 가맹점 운영에 필요한 알림만 수신할 수 있습니다. - 가맹점 관리에 필요한 결제 내역 및 정산내역을 제공합니다.",
+      "analysis": {
+        "app_key": "apple:6479675842",
+        "summary_ko": "서울시에서 제공하는 시민 생활 플랫폼으로, 서울사랑상품권 구매 및 결제, 정책 수당 관리 기능을 제공합니다. 시민과 소상공인을 연결하여 지역 경제 활성화를 돕는 공공 서비스 앱입니다.",
+        "features_ko": [
+          "서울사랑상품권 구매 및 계좌/카드 결제 기능을 제공합니다.",
+          "QR코드 스캔 및 비대면 결제 방식을 지원합니다.",
+          "보유한 상품권을 타인에게 선물할 수 있는 기능을 포함합니다.",
+          "위치 기반으로 주변 가맹점을 검색하고 상세 정보를 확인할 수 있습니다.",
+          "가맹점 모드를 통해 직원 관리 및 정산 내역 조회를 지원합니다."
+        ],
+        "noteworthy_ko": "공공 서비스 앱으로서 결제, 위치 기반 서비스, 사용자 인증 등 고도의 보안과 신뢰성이 요구되는 기능을 통합하고 있습니다. 개인 개발자가 접근하기에는 금융 보안 및 공공 데이터 연동이라는 높은 진입 장벽이 존재합니다.",
+        "development_ko": "금융 결제 시스템 연동과 사용자 개인정보 보호를 위한 보안 아키텍처가 핵심입니다. 공공 데이터 API와의 안정적인 통신이 필수적이며, 다양한 연령층을 고려한 UI/UX 설계가 중요합니다. 테스트 단계에서는 결제 오류 방지를 위한 엄격한 QA가 요구됩니다.",
+        "idea_ko": "지역 소상공인과 소비자를 연결하는 커뮤니티 기능을 강화하여, 단순 결제를 넘어 지역 정보를 공유하는 플랫폼으로 확장하는 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "서울시 정책 수당 지급 및 사용을 위한 공식 플랫폼입니다.",
+          "가맹점 운영자를 위한 관리 모드를 별도로 제공합니다."
+        ],
+        "systems_ko": [
+          "사용자 인증 및 보안 시스템",
+          "결제 게이트웨이(PG) 연동 시스템",
+          "위치 기반 서비스(LBS) 및 지도 API 연동",
+          "데이터베이스 관리 및 정산 시스템",
+          "알림 및 메시지 푸시 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "금융 결제와 관련된 보안 규정 준수, 공공 기관과의 데이터 연동, 그리고 높은 수준의 안정성이 요구되므로 개인 개발자가 단독으로 구현하기에는 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 회원가입 및 로그인",
+            "가맹점 목록 조회 및 지도 표시"
+          ],
+          "defer": [
+            "실제 결제 연동",
+            "정책 수당 관리",
+            "가맹점 정산 시스템"
+          ],
+          "risks": [
+            "보안 사고 발생 시 법적 책임",
+            "금융 규제 준수 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "우리 동네 핫플레이스",
+            "concept": "결제 기능 없이 지역 소상공인의 가게 정보를 공유하고 리뷰를 남기는 커뮤니티 앱.",
+            "first_step": "가게 위치와 정보를 등록하고 지도에 표시하는 기능 구현."
+          },
+          {
+            "title": "지역 경제 지도",
+            "concept": "특정 지역의 소비 트렌드를 익명으로 시각화하여 보여주는 정보 제공 앱.",
+            "first_step": "공공 데이터를 활용하여 특정 지역의 가맹점 분포를 지도에 시각화."
+          }
+        ],
+        "recommendation_ko": "금융 앱의 복잡한 구조를 이해하는 데 참고할 수 있으나, 보안 및 규제 문제로 인해 개인 개발자가 직접 구현하는 것은 비추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 보안 기술, 서버 아키텍처, 결제 API의 종류 등이 명시되어 있지 않습니다. 실제 금융 서비스 구현을 위해서는 관련 법규와 보안 인증이 필수적입니다.",
+        "name": "서울Pay+ (서울페이,서울페이플러스,서울사랑상품권)",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%84%9C%EC%9A%B8pay-%EC%84%9C%EC%9A%B8%ED%8E%98%EC%9D%B4-%EC%84%9C%EC%9A%B8%ED%8E%98%EC%9D%B4%ED%94%8C%EB%9F%AC%EC%8A%A4-%EC%84%9C%EC%9A%B8%EC%82%AC%EB%9E%91%EC%83%81%ED%92%88%EA%B6%8C/id6479675842",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 81,
+        "reasons": [],
+        "best_rank": 8,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.particlenews.newsbreak": {
+      "app_key": "google:com.particlenews.newsbreak",
+      "name": "NewsBreak: Local News & Alerts",
+      "developer": "Particle Media Inc.",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.particlenews.newsbreak&hl=en&gl=US",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:20:29+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Get daily news alerts & updates on current events sent straight to your phone, because a small news reader makes a big difference to communities! Keep up to date with news that impacts you & your community! Read trending headlines on live local news updates, international news, weather alerts, & more! Small news makes a big difference! NewsBreak is your #1 local news app for current events, free live news, local weather alerts for your community. Download today to stay up to date on all things local! Local news is different from national US news, trending headlines or global news. NewsBreak believes that local news helps bring neighborhoods together around the unique stories they share in common. Only local, small news has the unique ability to meaningfully inform the decisions we make throughout the day. Are there any weather alerts or winter storm updates for my area? What about traffic updates? What important events are happening nearby? Stay updated with a crime map for the neighborhood & check for local weather alerts. Join NewsBreak’s growing local news community & see why over 45M people across the United States have helped make us the nation’s #1 local news app! Remember - we don’t just do small news! Local breaking news, sports news, trending national & international news – NewsBreak’s got it all. Get everything from sports updates to national news headlines & live stream news sent straight to your phone while coming together with your neighborhood to share interesting conversations related to local news in your area. Join the 45M+ locals across the U.S. that trust NewsBreak as their #1 local news app! NewsBreak Features: Local News Highlights • Get local news, traffic, events near by, local weather alerts, news widget, & more in a curated daily briefing • Live stream news on local channels: follow local news, events, newspapers, & activities • Get local weather reports & traffic updates at a glance Breaking News, National & Local • Both small news & breaking news, stay up to date with our current news coverage • Daily news aggregated right onto your device • Browse national news headlines & read comprehensive, in-depth stories • Use the discovery engine to discover stories from over 10,000 trusted sources Personalized News Feed • Get the stories that matter to you with a highly personalized feed, relevant to your likes & dislikes • Get coverage on the tv news that matters most to you, including sports news, business news, tech news, health news, real estate news, science news, finance news, celebrity news, market news, & more! • Keep up with the latest coverage of headline news & events, nationally & locally! • Our news aggregator collects & delivers the news that matters to you • Get news alerts customized to your tastes to make NewsBreak your personalized news reader Your Community News • Find local eats, small news updates, traffic alerts, deals, local shopping, & more ahead of time • Read personal & vivid stories from our local news writers & content creators • Treat us as your personal newsstand, magazine collector, news picker, blog reader, restaurant reviewer, & more • Stay updated with daily life, events near you, & neighborhood crime with the local safety map Create Civic Value - Support the Cause • Use NewsBreak to revive the local news maker ecosystem & support small US news publishers • Increase local story volume & geographic coverage to stimulate local storytelling & community power Follow or Block the Trend - It’s Up to You • It’s totally cool to stay on top of some topics, or totally hate them! • NewsBreak allows you to follow what is trending, or completely block some topics you don’t appreciate • You can laugh, share, think, cry, upvote, downvote, comment, reply... • NewsBreak is a free ground that welcomes you to express emotions & opinions Download NewsBreak today to stay informed on local news, national headlines, & world news! Better informed, better life.",
+      "analysis": {
+        "app_key": "google:com.particlenews.newsbreak",
+        "summary_ko": "NewsBreak는 지역 뉴스, 날씨, 교통 정보 등 사용자 주변의 소식을 실시간으로 제공하는 뉴스 앱입니다. 지역 커뮤니티의 소식을 중심으로 전국 및 국제 뉴스까지 폭넓게 다룹니다. 사용자는 관심 있는 주제를 팔로우하거나 차단할 수 있으며, 개인화된 뉴스 피드를 통해 자신에게 중요한 정보를 빠르게 확인할 수 있습니다.",
+        "features_ko": [
+          "사용자 위치 기반의 지역 뉴스, 날씨, 교통 정보를 실시간으로 제공합니다.",
+          "전국 및 국제 뉴스를 포함한 종합적인 뉴스 서비스를 제공합니다.",
+          "사용자의 관심사에 따라 뉴스 피드를 개인화하여 맞춤형 정보를 전달합니다.",
+          "지역 커뮤니티 내에서 소식을 공유하고 의견을 나눌 수 있는 기능을 제공합니다.",
+          "특정 주제를 팔로우하거나 차단하여 뉴스 피드를 관리할 수 있습니다."
+        ],
+        "noteworthy_ko": "지역 뉴스라는 틈새시장을 공략하여 커뮤니티를 형성한 점이 흥미롭습니다. 개발 관점에서는 수많은 뉴스 소스에서 데이터를 수집하고 분류하는 크롤링 및 자연어 처리 기술이 핵심일 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 뉴스 데이터 수집(크롤링)과 분류 알고리즘입니다. 콘텐츠 제작은 외부 뉴스 소스와의 제휴가 필요하며, 테스트는 정보의 정확성과 실시간 업데이트 속도 검증이 중요합니다.",
+        "idea_ko": "특정 동네의 소식만을 모아주는 '동네 알림판' 앱을 구현하는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "지역 밀착형 정보 제공을 통한 커뮤니티 활성화.",
+          "사용자 맞춤형 뉴스 피드 및 팔로우/차단 기능."
+        ],
+        "systems_ko": [
+          "뉴스 데이터 수집 및 파싱 시스템",
+          "위치 기반 정보 필터링 시스템",
+          "사용자 개인화 추천 알고리즘",
+          "커뮤니티 댓글 및 공유 시스템",
+          "푸시 알림 서비스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "뉴스 데이터의 방대한 양과 실시간성 유지, 그리고 정확한 위치 기반 정보 제공은 고도의 데이터 엔지니어링 기술을 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "뉴스 피드 화면",
+            "위치 설정 기능",
+            "뉴스 상세 보기"
+          ],
+          "defer": [
+            "실시간 커뮤니티 채팅",
+            "고도화된 개인화 추천 알고리즘"
+          ],
+          "risks": [
+            "뉴스 데이터 저작권 문제",
+            "정보의 신뢰성 및 가짜 뉴스 관리"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "동네 소식 알리미",
+            "concept": "사용자가 설정한 동네의 공지사항이나 지역 행사 정보를 모아주는 앱입니다. 관공서 API를 활용합니다.",
+            "first_step": "공공데이터포털 API를 활용한 지역 정보 수집 및 표시."
+          },
+          {
+            "title": "뉴스 요약기",
+            "concept": "긴 뉴스 기사를 AI가 3줄로 요약해 주는 앱입니다. 사용자는 빠르게 핵심 내용만 파악할 수 있습니다.",
+            "first_step": "뉴스 기사 본문을 입력받아 LLM API로 요약하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 수집과 처리 과정을 배우기에 매우 좋은 앱입니다. 다만, 뉴스 서비스는 법적/윤리적 책임이 따르므로 개인 개발 시 주의가 필요합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 뉴스 데이터 수집 방식, 알고리즘의 상세 로직, 외부 뉴스 매체와의 제휴 방식 등은 확인할 수 없습니다.",
+        "name": "NewsBreak: Local News & Alerts",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.particlenews.newsbreak&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 88,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
     }
   }
 }

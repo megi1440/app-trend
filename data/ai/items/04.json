@@ -9712,6 +9712,797 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-10-31"
+    },
+    "itch:801c2c65ba8573584cb8": {
+      "app_key": "itch:801c2c65ba8573584cb8",
+      "name": "Box Out! [Free] [Puzzle]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "puzzle",
+      "detail_url": "https://zegley.itch.io/box-out",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:03:04+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A Logic-Based, Puzzle-Platformer Adventure",
+      "analysis": {
+        "app_key": "itch:801c2c65ba8573584cb8",
+        "summary_ko": "이 게임은 논리 기반의 퍼즐 플랫폼 어드벤처 게임입니다. 플레이어는 논리적인 사고를 통해 퍼즐을 해결하며 플랫폼을 이동하는 모험을 즐길 수 있습니다. 퍼즐과 플랫폼 액션이 조화된 게임 경험을 제공합니다.",
+        "features_ko": [
+          "논리적 사고를 요구하는 퍼즐 요소를 포함합니다.",
+          "플랫폼 게임 방식의 이동 및 탐험을 지원합니다.",
+          "퍼즐 해결과 플랫폼 액션이 결합된 어드벤처를 제공합니다."
+        ],
+        "noteworthy_ko": "논리 퍼즐과 플랫폼 액션의 결합은 고전적인 장르이지만, 레벨 디자인에 따라 무궁무진한 재미를 줄 수 있습니다. 개발 관점에서는 퍼즐의 논리적 일관성을 유지하는 것이 중요할 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 플랫폼 이동 물리 엔진과 퍼즐 로직 시스템입니다. 콘텐츠 제작 부담은 퍼즐 레벨 디자인에 있으며, 밸런스 조정은 퍼즐의 난이도 곡선을 설계하는 데 집중됩니다.",
+        "idea_ko": "박스를 밀어 논리 회로를 완성하는 '논리 회로 플랫폼' 아이디어가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "논리 기반의 퍼즐과 플랫폼의 결합.",
+          "탐험 중심의 게임 구조."
+        ],
+        "systems_ko": [
+          "플랫폼 물리 시스템",
+          "퍼즐 로직 엔진",
+          "레벨 데이터 관리",
+          "카메라 제어 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "플랫폼 게임의 물리 구현은 엔진의 도움을 받을 수 있고, 퍼즐 로직은 데이터 기반으로 설계하면 1인 개발이 충분히 가능하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 점프",
+            "기본 퍼즐 상호작용",
+            "레벨 디자인 툴"
+          ],
+          "defer": [
+            "화려한 그래픽 효과",
+            "복잡한 스토리",
+            "다양한 적 캐릭터"
+          ],
+          "risks": [
+            "퍼즐의 논리적 오류",
+            "플랫폼 조작감의 미세한 차이"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "논리 회로 플랫폼",
+            "concept": "박스를 특정 위치에 밀어 넣어 논리 게이트(AND, OR)를 활성화합니다. 회로가 완성되면 문이 열리는 방식입니다.",
+            "first_step": "박스 위치를 감지하여 스위치를 켜는 트리거 시스템을 구현합니다."
+          },
+          {
+            "title": "색상 매칭 퍼즐",
+            "concept": "캐릭터의 색상을 변경하여 같은 색상의 발판만 밟을 수 있습니다. 색상 변화를 통해 길을 찾아야 합니다.",
+            "first_step": "캐릭터의 색상 상태에 따라 특정 발판의 충돌 여부를 결정하는 로직을 작성합니다."
+          }
+        ],
+        "recommendation_ko": "플랫폼 게임의 물리와 퍼즐 로직을 동시에 다루고 싶은 개발자에게 추천합니다. 논리적인 레벨 디자인을 통해 게임의 깊이를 더하는 연습을 할 수 있습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 퍼즐의 논리 구조나 플랫폼 액션의 세부 방식이 명시되어 있지 않습니다. 게임의 핵심 메커니즘을 직접 정의해야 합니다.",
+        "name": "Box Out! [Free] [Puzzle]",
+        "source": "itch",
+        "detail_url": "https://zegley.itch.io/box-out",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 371,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 3,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "itch:f7892cb50b2de5c4809d": {
+      "app_key": "itch:f7892cb50b2de5c4809d",
+      "name": "Feed the Scorchpot [$14.99] [Strategy] [Windows] [macOS]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "featured",
+      "detail_url": "https://indieformer.itch.io/feed-the-scorchpot",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:03:27+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A dice roguelike about feeding a dragon for twenty years.",
+      "analysis": {
+        "app_key": "itch:f7892cb50b2de5c4809d",
+        "summary_ko": "주사위 로그라이크 장르의 게임으로, 20년 동안 용에게 먹이를 주는 것을 테마로 합니다. 플레이어는 전략적인 선택을 통해 용을 관리하고 생존해야 합니다. 구체적인 게임 플레이 방식은 설명이 부족하여 확인이 어렵습니다.",
+        "features_ko": [
+          "주사위를 활용한 로그라이크 메커니즘을 제공합니다.",
+          "20년이라는 시간 동안 용에게 먹이를 주는 전략적 목표를 수행합니다."
+        ],
+        "noteworthy_ko": "시간의 흐름을 게임의 핵심 자원 관리 요소로 활용하는 점이 흥미롭습니다. 20년이라는 긴 기간을 어떻게 게임 내 턴이나 단계로 압축했는지에 대한 구조적 설계가 관건으로 보입니다.",
+        "development_ko": "주사위 결과에 따른 확률적 이벤트 처리와 시간 경과에 따른 상태 변화 시스템이 핵심입니다. 콘텐츠 제작은 용의 성장 단계와 먹이 종류에 따른 분기점 설계에 집중될 것입니다. 밸런스 조정은 20년이라는 기간 동안 난이도가 급격히 변하지 않도록 설계하는 것이 중요합니다.",
+        "idea_ko": "시간의 흐름에 따라 용의 성격이 변하는 '성장형 타마고치 로그라이크' 아이디어가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "주사위 기반의 전략적 로그라이크 요소.",
+          "20년이라는 장기적인 시간 흐름을 다루는 독특한 테마."
+        ],
+        "systems_ko": [
+          "주사위 확률 판정 시스템",
+          "시간 경과 및 턴 관리 시스템",
+          "자원(먹이) 관리 시스템",
+          "로그라이크 이벤트 생성기",
+          "UI 상태 표시 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "핵심 메커니즘인 주사위 확률과 시간 흐름 관리는 구현 난이도가 높지 않으나, 로그라이크 특유의 밸런스 설계와 콘텐츠 분량이 개인 개발자에게는 도전적일 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "주사위 굴리기 메커니즘",
+            "먹이 주기 및 용 상태 변화 로직",
+            "기본 턴 진행 시스템"
+          ],
+          "defer": [
+            "복잡한 그래픽 연출",
+            "다양한 엔딩 분기"
+          ],
+          "risks": [
+            "반복적인 플레이의 지루함",
+            "확률 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "계절별 용 관리",
+            "concept": "계절마다 용이 선호하는 먹이가 달라지는 시스템입니다. 환경 변화에 따른 전략적 대응을 요구합니다.",
+            "first_step": "계절 변수와 먹이 선호도 데이터 테이블을 작성합니다."
+          },
+          {
+            "title": "주사위 조합 로그라이크",
+            "concept": "주사위를 굴려 나온 숫자를 조합해 용의 스킬을 강화합니다. 운과 전략의 조화를 강조합니다.",
+            "first_step": "주사위 2개를 굴려 합산하는 기본 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "로그라이크 게임의 핵심인 '확률과 선택'의 조화를 배우기에 좋습니다. 단순한 테마를 깊이 있는 시스템으로 확장하는 연습을 하기에 적합합니다.",
+        "source_limitations_ko": "게임의 구체적인 규칙, 주사위 시스템의 상세 작동 방식, 그래픽 스타일, 승리 조건 등이 전혀 명시되지 않아 추정에 의존했습니다.",
+        "name": "Feed the Scorchpot [$14.99] [Strategy] [Windows] [macOS]",
+        "source": "itch",
+        "detail_url": "https://indieformer.itch.io/feed-the-scorchpot",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 368,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 4,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "itch:9bea766ed86f82ad9e2c": {
+      "app_key": "itch:9bea766ed86f82ad9e2c",
+      "name": "Illegal Balloon Slot Game: Hold N Burst [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://millenniumgaming.itch.io/balloonslot",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:04:37+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Featuring Allegheney County's finest laws and trademarked Hold N Burst feature!",
+      "analysis": {
+        "app_key": "itch:9bea766ed86f82ad9e2c",
+        "summary_ko": "Illegal Balloon Slot Game은 슬롯머신 형식을 빌린 시뮬레이션 게임입니다. 'Hold N Burst'라는 고유 기능을 포함하고 있습니다.",
+        "features_ko": [
+          "슬롯머신 형태의 게임 플레이를 제공합니다.",
+          "Hold N Burst라는 고유한 게임 메커니즘을 포함합니다."
+        ],
+        "noteworthy_ko": "슬롯머신이라는 단순한 장르에 고유한 규칙을 추가하여 차별화를 시도한 점이 흥미롭습니다. 확률 기반의 게임 로직을 어떻게 설계했는지가 개발 관점에서 중요합니다.",
+        "development_ko": "확률 기반의 결과 생성 로직과 슬롯 회전 애니메이션 구현이 핵심입니다. 'Hold N Burst' 기능의 규칙을 명확히 정의하고 이를 UI로 직관적으로 보여주는 것이 중요합니다.",
+        "idea_ko": "슬롯의 결과를 단순히 운에 맡기지 않고, 플레이어가 특정 타이밍에 슬롯을 멈추거나 고정하는 전략적 요소를 강화하는 것이 좋습니다.",
+        "highlights_ko": [
+          "슬롯머신 장르를 기반으로 한 시뮬레이션 게임입니다.",
+          "특화된 'Hold N Burst' 기능을 핵심 규칙으로 사용합니다."
+        ],
+        "systems_ko": [
+          "확률 기반 결과 생성기(RNG)",
+          "슬롯 회전 및 정지 애니메이션",
+          "게임 상태 및 보상 관리 시스템",
+          "UI 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "슬롯머신은 로직이 정형화되어 있어 구현 난이도가 낮습니다. 다만, 확률 밸런스를 맞추는 작업은 세심한 테스트가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "슬롯 회전 및 정지 로직",
+            "결과 판정 시스템",
+            "기본 UI"
+          ],
+          "defer": [
+            "복잡한 사운드 및 이펙트",
+            "다양한 테마의 슬롯 머신"
+          ],
+          "risks": [
+            "확률 설정의 불균형으로 인한 재미 저하",
+            "단순한 게임 방식의 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "슬롯 결과 예측기",
+            "concept": "플레이어가 다음 슬롯 결과를 예측하여 베팅하는 요소를 추가하여 단순 운 게임에서 전략 게임으로 전환합니다.",
+            "first_step": "슬롯 결과 확률을 UI에 미리 힌트로 보여주는 시스템 구현하기."
+          },
+          {
+            "title": "연쇄 폭발 콤보",
+            "concept": "특정 아이콘이 연속으로 나올 경우 'Burst'가 발생하여 주변 슬롯까지 영향을 주는 연쇄 규칙을 추가합니다.",
+            "first_step": "슬롯 그리드에서 인접한 동일 아이콘을 감지하여 보너스 점수를 주는 로직 작성하기."
+          }
+        ],
+        "recommendation_ko": "확률 기반의 게임 로직과 UI 연출을 연습하기에 좋은 프로젝트입니다. 슬롯머신 장르의 기본기를 익히고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 'Hold N Burst'의 정확한 규칙을 알 수 없습니다. 실제 도박성 요소가 포함되어 있는지, 법적 규제 대상인지 확인할 수 없습니다.",
+        "name": "Illegal Balloon Slot Game: Hold N Burst [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://millenniumgaming.itch.io/balloonslot",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 332,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 16,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "itch:1a002ae7cd6a966cc677": {
+      "app_key": "itch:1a002ae7cd6a966cc677",
+      "name": "Neon Diorama [Free] [Simulation] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://abbychau.itch.io/neon-light",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:04:55+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "An endless neon city that builds itself as you drive through the rain.",
+      "analysis": {
+        "app_key": "itch:1a002ae7cd6a966cc677",
+        "summary_ko": "Neon Diorama는 비 내리는 네온 도시를 배경으로 하는 무한 주행 시뮬레이션 게임입니다. 플레이어가 주행함에 따라 도시가 자동으로 생성되는 구조를 가지고 있습니다. 윈도우 환경에서 실행 가능합니다.",
+        "features_ko": [
+          "주행하는 경로에 따라 네온 도시가 실시간으로 생성됩니다.",
+          "비 내리는 분위기의 네온 스타일 그래픽을 제공합니다.",
+          "끝없이 이어지는 주행 경험을 제공합니다."
+        ],
+        "noteworthy_ko": "절차적 생성(Procedural Generation)을 통해 무한한 도시를 구현한 점이 개발 관점에서 매우 흥미롭습니다. 플레이어의 위치에 따라 도시 환경을 동적으로 배치하는 알고리즘이 핵심일 것으로 추정됩니다.",
+        "development_ko": "절차적 맵 생성 알고리즘과 네온 스타일의 비주얼 이펙트 구현이 핵심입니다. 최적화를 위해 화면 밖의 오브젝트를 효율적으로 관리하는 풀링 시스템이 필수적입니다.",
+        "idea_ko": "절차적 생성 기술을 활용하여 매번 새로운 환경을 제공하는 시뮬레이션 게임은 개인 개발자에게 좋은 도전 과제입니다.",
+        "highlights_ko": [
+          "실시간으로 생성되는 무한한 도시 환경.",
+          "네온과 비를 활용한 독특한 시각적 분위기."
+        ],
+        "systems_ko": [
+          "절차적 맵 생성 시스템",
+          "오브젝트 풀링 관리",
+          "카메라 및 주행 제어",
+          "포스트 프로세싱 효과"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "절차적 생성 알고리즘의 설계와 최적화는 난도가 높으며, 시각적인 퀄리티를 유지하면서 성능을 확보하는 과정이 까다롭습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 주행 제어",
+            "단순한 도시 타일 생성 로직"
+          ],
+          "defer": [
+            "복잡한 도시 환경 디테일",
+            "다양한 날씨 변화"
+          ],
+          "risks": [
+            "맵 생성 알고리즘의 반복성",
+            "성능 최적화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "네온 사이버 런",
+            "concept": "도시를 주행하며 장애물을 피하는 러닝 게임입니다. 주행 속도가 빨라질수록 도시 생성 속도와 난도가 증가합니다.",
+            "first_step": "무한히 생성되는 바닥 타일 시스템 구현."
+          },
+          {
+            "title": "도시 사진작가",
+            "concept": "생성되는 도시를 주행하며 아름다운 풍경을 촬영하는 게임입니다. 특정 구도를 맞추면 점수를 얻습니다.",
+            "first_step": "카메라 뷰포트와 스크린샷 저장 기능 구현."
+          }
+        ],
+        "recommendation_ko": "절차적 생성 기술과 시각적 효과 구현을 배우고 싶은 개발자에게 추천합니다. 그래픽 최적화 경험을 쌓기에 좋습니다.",
+        "source_limitations_ko": "도시 생성의 구체적인 규칙, 주행의 목적, 상호작용 요소 등은 확인되지 않았습니다.",
+        "name": "Neon Diorama [Free] [Simulation] [Windows]",
+        "source": "itch",
+        "detail_url": "https://abbychau.itch.io/neon-light",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 317,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.lhamed.ddalkkak": {
+      "app_key": "google:com.lhamed.ddalkkak",
+      "name": "딸깍 : 키캡 키우기",
+      "developer": "플라잉모몽가",
+      "source": "google",
+      "country": "KR",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.lhamed.ddalkkak&hl=ko&gl=KR",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:10:17+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "키 캡을 딸깍 하기만 해도 돈이 뿜어져 나오는 시대가 되었다! 간단히 네트워크 없이 즐길 수 있는 클리커 게임 무료 키우기 게임 노가다 게임 클리커 게임 ---- 개발자 연락처 : 정윤재 돌곶이로32길 26-8 성북구, 서울특별시 02765 South Korea 4191902368 2026-서울성북-0875 없음",
+      "analysis": {
+        "app_key": "google:com.lhamed.ddalkkak",
+        "summary_ko": "키 캡을 누르는 행위를 통해 돈을 벌고 성장하는 간단한 클리커 게임입니다. 네트워크 연결 없이 오프라인에서 즐길 수 있는 방치형 노가다 게임입니다.",
+        "features_ko": [
+          "화면의 키 캡을 클릭하여 재화를 획득합니다.",
+          "획득한 재화로 성장을 도모하는 클리커 시스템을 제공합니다."
+        ],
+        "noteworthy_ko": "매우 단순한 반복 클릭 메커니즘을 기반으로 합니다. 개발 관점에서는 클릭 이벤트 처리와 재화 누적 데이터 관리라는 가장 기초적인 게임 루프를 학습하기에 적합합니다.",
+        "development_ko": "핵심 기술은 클릭 이벤트 리스너와 변수 기반의 재화 증감 로직입니다. 콘텐츠 제작 부담은 매우 낮으며, 밸런스 조정은 재화 상승 곡선을 설정하는 것만으로 충분합니다.",
+        "idea_ko": "클릭 시마다 키보드 타건음을 다르게 출력하여 타격감을 극대화하는 'ASMR 키보드 클리커'를 제안합니다.",
+        "highlights_ko": [
+          "네트워크 연결이 필요 없는 오프라인 플레이 환경을 제공합니다.",
+          "키 캡이라는 일상적인 소재를 활용한 단순한 게임성을 가집니다."
+        ],
+        "systems_ko": [
+          "클릭 이벤트 처리 시스템",
+          "재화 데이터 저장 및 로드",
+          "UI 업데이트 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "복잡한 물리 엔진이나 네트워크 통신이 필요 없으며, 단일 화면 내에서 모든 로직이 완결되기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "클릭 시 재화 증가 로직",
+            "현재 재화 표시 UI"
+          ],
+          "defer": [
+            "자동 클릭 아이템",
+            "상점 및 업그레이드 시스템"
+          ],
+          "risks": [
+            "단순 반복으로 인한 빠른 콘텐츠 소모"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "ASMR 타건 클리커",
+            "concept": "다양한 키보드 축의 소리를 수집하는 게임입니다. 클릭할 때마다 고품질 타건음이 재생됩니다.",
+            "first_step": "클릭 시 오디오 파일이 재생되는 기본 앱 구현."
+          },
+          {
+            "title": "키보드 커스텀 수집기",
+            "concept": "클릭으로 번 돈으로 키 캡 색상이나 키보드 하우징을 변경합니다. 시각적 만족감을 강조합니다.",
+            "first_step": "이미지 리소스 교체 기능 구현."
+          }
+        ],
+        "recommendation_ko": "게임 개발의 가장 기초적인 데이터 흐름과 UI 연동을 배우기에 최적입니다. 프로그래밍 입문자에게 추천합니다.",
+        "source_limitations_ko": "소개문에 명시된 '키우기'의 구체적인 성장 방식이나 상점 시스템의 존재 여부가 불분명합니다.",
+        "name": "딸깍 : 키캡 키우기",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.lhamed.ddalkkak&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 183,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:jp.co.sns_entertainment.code": {
+      "app_key": "google:jp.co.sns_entertainment.code",
+      "name": "覇王道-英雄Re:CODE-",
+      "developer": "ＳＮＳエンターテイメント",
+      "source": "google",
+      "country": "JP",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=jp.co.sns_entertainment.code&hl=ja&gl=JP",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:12:58+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "【ゲームの説明】 織田信長、真田幸村、関羽、ジャンヌ・ダルク、ナポレオン―― 時代も国も異なる歴史上の英雄たちが、時空を超えて集結！ 英雄を育成・編成し、仲間とともに最大10人対10人の「連合抗争」へ挑め！ 乱世の頂点「覇王」を目指す、歴史英雄バトルRPG『覇王道』！ 【ゲームの特徴】 ◆最大10人対10人！連合抗争を勝ち抜け！ 連合の仲間と力を合わせ、敵連合と激突！ 育て上げた英雄を率いて、最大10人対10人の大規模な抗争に挑もう！ 英雄の育成、部隊の編成、仲間との連携。 一人ひとりが積み重ねた力が、連合全体の勝敗を左右する！ 数多の戦いを制し、全てを統べる覇王となれ！ ◆仲間を集め、覇王への道を切り開け！ 気の合うプレイヤーと連合を結成！ 仲間との交流を楽しみながら英雄を育て、連合全体の戦力を高めよう！ 一人の力だけでは、乱世の頂点にはたどり着けない。 ともに戦う仲間を集め、数多の強敵を打ち破り、その名を天下に刻め！ ◆時代と国を超えた英雄たちが集結！ 戦国武将、三国志の名将、日本史や世界史で知られる偉人たちが登場！ 織田信長、真田幸村、関羽、土方歳三、沖田総司、ジャンヌ・ダルク、ナポレオン、ハンニバルなど、個性豊かな英雄を仲間にしよう！ 本来出会うことのなかった英雄たちを自由に編成し、自分だけの最強部隊を作り上げろ！ ◆簡単操作で楽しめる本格オートバトル！ 編成した英雄たちが自動で戦う、手軽で本格的なオートバトル！ 難しい操作は必要なく、育成した英雄たちの活躍を気軽に楽しめる！ 英雄ごとに異なる属性や役割を見極め、相性を考えて部隊を編成しよう！ 英雄の特徴を生かした戦略で、立ちはだかる敵を打ち破れ！ ◆英雄を育成し、限界を超えろ！ 仲間にした英雄のレベルを上げ、能力を強化！ 攻撃、耐久、支援、妨害など、英雄によって得意な役割はさまざま。 お気に入りの英雄を育て上げ、連合抗争で活躍する最強の編成を完成させよう！ ◆仲間と協力して強敵に挑め！ 仲間と力を合わせ、強大な敵に挑むレイドバトル！ 育成した英雄たちの力を結集し、立ちはだかる強敵を打ち破ろう！ 連合抗争だけでなく、仲間との協力プレイも楽しめる！ ◆可能性は無限大！奥深い「解析」システム！ 古戦場や遺跡を探索し、歴史に残されたさまざまな素材を集めよう！ 集めた素材をセットして「解析」に挑戦！ 使用する素材の種類だけでなく、セットする順番によっても解析結果が変化する。 どの素材を選び、どの順番で組み合わせるかはあなた次第！ さまざまな組み合わせを試し、素材に秘められた価値や新たな発見を導き出そう。 無限大に広がる解析の奥深さを体験し、自分だけの組み合わせを見つけ出せ！ ◆己の名を轟かせ、覇王の座をつかめ！ 連合の仲間と絆を深め、数多の抗争で功績を積み上げろ！ 獲得した称号とお気に入りのアバターを掲げ、自らの強さと実績を示そう！ ◆こんな方におすすめ！ ・チームやギルドの仲間と協力して戦いたい ・コミュニケーションを楽しみたい ・大人数で参加する対戦コンテンツが好き ・育てたキャラクターでほかのプレイヤーと競いたい ・戦国武将や三国志が好き ・歴史を題材にしたRPGを遊びたい ・キャラクターを集めて育成したい ・オートバトルで手軽に楽しみたい ・属性相性や部隊編成を考えるのが好き ・スキルを組み合わせて戦う戦略ゲームが好き ・仲間とレイドバトルに挑戦したい ・組み合わせを試行錯誤する要素が好き 【価格】 アプリ本体：無料 ※一部有料アイテムがございます。",
+      "analysis": {
+        "app_key": "google:jp.co.sns_entertainment.code",
+        "summary_ko": "覇王道-英雄Re:CODE-는 역사 속 영웅들을 수집하고 육성하여 연합 간의 대규모 전투를 즐기는 RPG입니다. 최대 10대10의 연합 항쟁과 자동 전투 시스템을 통해 전략적인 팀 구성을 강조합니다. 고대 유적을 탐색하고 소재를 조합하는 '해석' 시스템이 특징입니다.",
+        "features_ko": [
+          "역사적 영웅들을 수집하고 육성하여 자신만의 부대를 편성합니다.",
+          "최대 10대10의 연합 항쟁을 통해 다른 연합과 대규모 전투를 벌입니다.",
+          "조작이 간편한 자동 전투 시스템을 지원합니다.",
+          "수집한 소재를 조합하여 결과를 도출하는 '해석' 시스템을 제공합니다.",
+          "동료와 함께 강적을 물리치는 레이드 배틀을 지원합니다."
+        ],
+        "noteworthy_ko": "자동 전투 기반의 RPG에서 '해석'이라는 조합 시스템을 통해 전략적 깊이를 더한 점이 흥미롭습니다. 연합 단위의 커뮤니티 요소가 게임의 핵심 동력으로 작용할 것으로 추정됩니다.",
+        "development_ko": "영웅 데이터 관리 및 속성 상성 시스템 구현이 필요합니다. 대규모 연합 전투를 위한 실시간 데이터 동기화와 서버 부하 관리가 중요합니다. 다양한 영웅 에셋 제작과 밸런스 조정이 지속적인 유지보수 부담이 될 것입니다.",
+        "idea_ko": "특정 영웅 조합 시 발생하는 시너지 효과를 시각적으로 강조하는 시스템을 도입하면 수집의 재미가 배가될 것입니다.",
+        "highlights_ko": [
+          "역사적 인물을 활용한 다양한 영웅 수집 요소.",
+          "연합 간의 협력과 경쟁을 중심으로 한 커뮤니티 중심 설계."
+        ],
+        "systems_ko": [
+          "영웅 데이터베이스 및 육성 시스템",
+          "자동 전투 엔진 및 속성 상성 로직",
+          "연합(길드) 관리 및 커뮤니티 시스템",
+          "아이템 조합 및 해석 로직",
+          "보상 및 랭킹 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "수많은 캐릭터 데이터 관리, 복잡한 연합 시스템, 그리고 서버 기반의 대규모 전투 구현은 1인 개발자가 감당하기에 매우 방대한 규모입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "영웅 수집 및 편성 기능",
+            "기본 자동 전투 로직",
+            "캐릭터 레벨업 시스템"
+          ],
+          "defer": [
+            "10대10 실시간 연합 항쟁",
+            "복잡한 소재 해석 시스템",
+            "실시간 레이드 배틀"
+          ],
+          "risks": [
+            "캐릭터 밸런스 붕괴",
+            "서버 인프라 구축의 복잡성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "영웅 인연 도감",
+            "concept": "특정 역사적 배경을 공유하는 영웅들을 함께 편성하면 추가 보너스를 받는 시스템입니다. 수집의 목적성을 명확히 합니다.",
+            "first_step": "영웅 태그 시스템을 만들고 태그 일치 시 능력치를 보정하는 로직 구현."
+          },
+          {
+            "title": "비동기 연합 대전",
+            "concept": "실시간 대전 대신, 미리 설정한 방어 부대와 상대하는 비동기식 연합 대전입니다. 서버 부담을 줄이면서 경쟁 요소를 유지합니다.",
+            "first_step": "상대방의 부대 데이터를 불러와 자동 전투를 시뮬레이션하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 기반의 RPG 구조를 설계하는 법을 배우기에 적합합니다. 다만, 대규모 멀티플레이어 기능은 구현 난이도가 매우 높으므로 비동기 방식으로 축소하여 접근하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에 언급된 '일부 유료 아이템'의 구체적인 BM 구조와 서버 통신 방식, 연합 항쟁의 실시간성 여부에 대한 기술적 상세 정보가 없습니다.",
+        "name": "覇王道-英雄Re:CODE-",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=jp.co.sns_entertainment.code&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 168,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6756882608": {
+      "app_key": "apple:6756882608",
+      "name": "Ghost Sniper: War FPS Shooter",
+      "developer": "Alda Games s.r.o.",
+      "source": "apple",
+      "country": "US",
+      "category": "game_action",
+      "detail_url": "https://apps.apple.com/us/app/ghost-sniper-war-fps-shooter/id6756882608?uo=2",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:12:58+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Precision is the only thing between victory and defeat. Welcome to Ghost Sniper: War FPS Shooter, a premier military experience where you step into the boots of an elite marksman. Deployed into the world’s most dangerous conflict zones, your mission is simple: eliminate the threat and stay ghost. Why Ghost Sniper? • Realistic Sniper Action: Experience immersive 3D combat and high-fidelity graphics designed for intense gameplay. • Global Operations: Infiltrate targets across diverse battlefields, from desert outposts to dense tropical jungles. • Upgrade Your Gear: Enhance your rifles and equipment to stay ahead of the enemy and complete your objectives. • Total Freedom: Enjoy a massive military campaign designed to be played anytime, anywhere—completely offline. Leave no trace. Download now and prove you are the best shot in the business. ▶ Follow us Instagram: https://www.instagram.com/alda.games Facebook: https://www.facebook.com/AldaGames YouTube: https://www.youtube.com/@AldaGames For support, contact: support@aldagames.com Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "analysis": {
+        "app_key": "apple:6756882608",
+        "summary_ko": "Ghost Sniper: War FPS Shooter는 정밀한 사격이 요구되는 군사 테마의 1인칭 저격 게임입니다. 다양한 전장에서 적을 제거하는 미션을 수행하며, 장비를 업그레이드하여 성능을 강화할 수 있습니다. 오프라인 환경에서도 플레이 가능한 캠페인 모드를 제공합니다.",
+        "features_ko": [
+          "3D 그래픽을 활용한 사실적인 저격 액션을 제공합니다.",
+          "사막, 정글 등 다양한 전장에서 미션을 수행합니다.",
+          "소총과 장비를 업그레이드하여 성능을 강화할 수 있습니다.",
+          "오프라인 환경에서 언제 어디서나 캠페인을 즐길 수 있습니다."
+        ],
+        "noteworthy_ko": "오프라인 전용 캠페인에 집중하여 네트워크 환경에 구애받지 않는 안정적인 플레이 경험을 제공하는 점이 특징입니다. 저격이라는 단일 메커니즘을 깊이 있게 파고든 점이 흥미롭습니다.",
+        "development_ko": "3D 환경에서의 정밀한 조준 및 사격 판정 로직이 핵심입니다. 다양한 전장 에셋 제작과 적 AI의 행동 패턴 구현이 필요합니다. 장비 업그레이드 시스템과 연동된 수치 밸런스 조정이 중요합니다.",
+        "idea_ko": "저격 시 바람의 방향이나 거리 등 환경 요소를 고려해야 하는 '현실적 저격 모드'를 추가하면 게임성을 높일 수 있습니다.",
+        "highlights_ko": [
+          "오프라인 플레이를 지원하는 캠페인 중심 구성.",
+          "다양한 전장과 장비 업그레이드 요소."
+        ],
+        "systems_ko": [
+          "3D 사격 및 조준 판정 시스템",
+          "적 AI 행동 패턴 및 상태 관리",
+          "장비 업그레이드 및 인벤토리 시스템",
+          "미션 진행 및 스테이지 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "3D FPS의 기본 메커니즘은 엔진(유니티/언리얼)에서 제공하는 기능을 활용하면 구현 가능하며, 멀티플레이어 요소가 없어 1인 개발자가 시도하기에 적절합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 사격 및 조준 메커니즘",
+            "단일 스테이지 환경",
+            "적 타겟팅 시스템"
+          ],
+          "defer": [
+            "다양한 전장 에셋",
+            "복잡한 장비 업그레이드 트리"
+          ],
+          "risks": [
+            "3D 그래픽 최적화 문제",
+            "사격 판정의 정밀도 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "슬로우 모션 킬캠",
+            "concept": "사격 성공 시 탄환의 궤적을 슬로우 모션으로 보여주는 연출입니다. 타격감을 극대화합니다.",
+            "first_step": "탄환 발사 시 카메라를 탄환 위치로 이동시키는 연출 구현."
+          },
+          {
+            "title": "환경 변수 저격",
+            "concept": "바람의 세기나 거리에 따라 조준점을 보정해야 하는 시스템입니다. 단순 사격을 넘어선 전략적 재미를 줍니다.",
+            "first_step": "바람 변수를 설정하고 탄환 궤적에 물리적 힘을 가하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "3D FPS 게임의 기초적인 사격 메커니즘과 물리 엔진 활용법을 배우기에 매우 좋습니다. 오프라인 게임으로 기획하여 서버 비용 부담 없이 개발을 시작할 수 있습니다.",
+        "source_limitations_ko": "사용된 3D 엔진 정보, 적 AI의 구체적인 로직, 사격 판정의 세부 알고리즘에 대한 정보가 없습니다.",
+        "name": "Ghost Sniper: War FPS Shooter",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/ghost-sniper-war-fps-shooter/id6756882608?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.mi.poketrade": {
+      "app_key": "google:com.mi.poketrade",
+      "name": "PokeHub - PTCG 포켓 거래",
+      "developer": "Meta Innovation",
+      "source": "google",
+      "country": "KR",
+      "category": "game_card",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.mi.poketrade&hl=ko&gl=KR",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:14:40+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "전 세계 PTCGP 트레이너가 제공하는 모든 언어의 카드 거래를 발견하고 원하는 소원을 쉽게 게시하여 세트를 빠르게 완료하세요! 당신은 PTCGP의 열정적인 플레이어입니까? 거래에 적합한 카드를 찾는 데 종종 어려움을 겪고 동료 플레이어와 더 쉽게 연결하고 싶습니까? 더 이상 보지 마세요! 우리 앱은 이전과는 전혀 다른 PTCGP 경험을 향상하도록 설계되었습니다. 카드 거래: 빠르고 효율적 - 방대한 카드 데이터베이스: 저희 앱은 모든 언어 버전의 모든 PTCGP 카드에 대한 포괄적인 데이터베이스를 보유하고 있습니다. 세트를 완성하기 위해 카드를 찾거나 중복 카드를 교환하려는 경우 희귀도, 유형, 팩 및 세트와 같은 다양한 기준에 따라 카드를 빠르게 검색하고 필터링할 수 있습니다. - 스마트 매칭 알고리즘: 고급 알고리즘을 사용하여 온라인 상태와 거래 기록을 함께 고려하여 필요한 카드를 가지고 있거나 제공하는 카드에 관심이 있는 다른 플레이어와 귀하를 연결합니다. 이를 통해 적합한 거래 파트너를 찾는 데 소요되는 시간과 노력을 크게 줄여 원활하고 효율적으로 거래를 완료할 수 있습니다. 친구: 친구 ID를 쉽게 복사할 수 있습니다. - 무제한 친구 네트워크: 게임 밖에서 PTCGP 소셜 서클을 구축하세요! 더 이상 원더 픽의 영향을 받지 않으며, 저희 앱은 추가할 수 있는 친구 수에 제한을 두지 않습니다. 네트워크를 확장하고 전 세계적으로 같은 생각을 가진 트레이너와 연결하고 서로 좋아요를 주고 도움을 주고 그들과 전투를 벌이세요. - 원터치 친구 ID 복사: 간단한 탭만으로 친구의 ID를 손쉽게 복사할 수 있습니다. 이 기능은 PTCGP의 친구를 추가하고 관리하는 과정을 간소화합니다. 연결이 그 어느 때보다 쉬워졌습니다. 사용자 중심 인터페이스 - 직관적인 탐색: 앱을 처음 사용하는 경우에도 간단하고 사용자 친화적인 인터페이스가 원활한 경험을 보장합니다. 학습 곡선 없이 트레이딩부터 채팅까지 모든 기능에 쉽게 액세스할 수 있습니다. - 개인화된 경험: 원하는 대로 앱 경험을 맞춤화하세요. 프로필을 사용자 정의하고, 거래 기본 설정을 지정하고, 이전 언어를 선택하여 고유한 앱을 만드세요. 보안 및 안정성 우선 - 데이터 포트리스: 귀하의 개인 정보 보호와 데이터 보안이 최우선 사항입니다. 우리는 귀하의 개인 정보와 거래 데이터를 보호하여 항상 안전한 거래를 보장합니다. - 거래 무결성: 당사의 강력한 거래 검증 시스템은 사기를 방지하기 위해 마련되었습니다. 혹시라도 문제가 발생하는 경우 고객 지원팀이 지원을 위해 대기하고 있습니다. 면책조항 PokeHub는 트레이너가 서로 의사소통할 수 있도록 돕는 제3자 애플리케이션입니다. Pokémon GO, Niantic, Nintendo 또는 The Pokémon Company와 제휴하지 않습니다.",
+      "analysis": {
+        "app_key": "google:com.mi.poketrade",
+        "summary_ko": "전 세계 트레이너들이 포켓몬 카드 게임(PTCGP) 카드를 거래할 수 있도록 돕는 커뮤니티 앱입니다. 방대한 카드 데이터베이스를 통해 원하는 카드를 검색하고, 스마트 매칭 알고리즘으로 적합한 거래 파트너를 연결해 줍니다. 친구 ID 공유 및 관리 기능을 통해 게임 밖에서도 소셜 네트워크를 확장할 수 있습니다.",
+        "features_ko": [
+          "모든 언어 버전의 카드를 포함한 포괄적인 데이터베이스를 제공합니다.",
+          "희귀도, 유형, 팩 등 다양한 기준으로 카드를 검색하고 필터링합니다.",
+          "거래 기록과 온라인 상태를 고려한 스마트 매칭 알고리즘을 지원합니다.",
+          "친구 ID를 원터치로 복사하여 게임 내 친구 추가를 간소화합니다.",
+          "거래 검증 시스템을 통해 사기를 방지하고 안전한 거래를 돕습니다."
+        ],
+        "noteworthy_ko": "특정 게임의 외부 커뮤니티를 구축하여 사용자 경험을 확장하는 앱입니다. 데이터베이스 관리와 매칭 알고리즘이 핵심이며, 사용자 간의 신뢰를 구축하는 것이 중요합니다.",
+        "development_ko": "방대한 카드 데이터베이스 구축과 검색/필터링 시스템이 핵심입니다. 사용자 간 매칭 알고리즘과 채팅/거래 시스템 구현이 필요하며, 개인정보 보호 및 데이터 보안에 각별한 주의가 필요합니다.",
+        "idea_ko": "거래 완료 후 사용자 간의 평점 시스템을 도입하여 거래 신뢰도를 시각화하거나, 최근 거래 시세를 그래프로 보여주는 기능을 추가하면 유용할 것입니다.",
+        "highlights_ko": [
+          "PTCGP 트레이너를 위한 특화된 카드 거래 및 소셜 플랫폼입니다.",
+          "스마트 매칭과 원터치 친구 ID 복사로 거래 효율을 극대화합니다."
+        ],
+        "systems_ko": [
+          "카드 데이터베이스 및 검색 엔진",
+          "사용자 매칭 알고리즘",
+          "친구 ID 관리 및 공유 시스템",
+          "거래 검증 및 사기 방지 시스템",
+          "사용자 프로필 및 설정 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "데이터베이스 구축과 매칭 알고리즘, 그리고 사용자 간의 안전한 거래를 보장하는 시스템은 1인 개발 시 매우 높은 난이도입니다. 특히 보안과 데이터 무결성 유지가 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카드 검색 및 필터링",
+            "사용자 프로필 및 친구 ID 공유",
+            "기본 거래 게시판"
+          ],
+          "defer": [
+            "스마트 매칭 알고리즘",
+            "거래 검증 시스템",
+            "실시간 채팅"
+          ],
+          "risks": [
+            "데이터베이스 유지보수 부담",
+            "사용자 간 사기 문제 발생 시 책임 소재"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "카드 시세 알림",
+            "concept": "사용자가 원하는 카드의 시세가 변동될 때 알림을 보내주는 기능을 추가합니다. 거래 타이밍을 잡는 데 도움을 줍니다.",
+            "first_step": "카드별 시세 데이터를 저장하고 알림을 발송하는 로직을 구현합니다."
+          },
+          {
+            "title": "거래 시뮬레이터",
+            "concept": "자신이 가진 카드와 상대방의 카드를 가상으로 교환해 보고 가치 균형을 확인하는 기능을 제공합니다.",
+            "first_step": "카드별 가치 데이터를 설정하고 비교하는 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "커뮤니티 기반 앱 개발과 데이터베이스 관리를 배우기에 좋습니다. 다만, 보안과 사용자 관리의 책임이 크므로 신중한 접근이 필요합니다.",
+        "source_limitations_ko": "소개문에는 '스마트 매칭 알고리즘'의 구체적인 로직이나 '거래 검증 시스템'의 기술적 구현 방식이 명시되어 있지 않습니다. 실제 게임사와의 공식 제휴 여부는 확인되지 않습니다.",
+        "name": "PokeHub - PTCG 포켓 거래",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.mi.poketrade&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "itch:9389a2ec789940982d11": {
+      "app_key": "itch:9389a2ec789940982d11",
+      "name": "Iron Habit [Free] [Action] [Windows] [Android]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "",
+      "detail_url": "https://filstudio.itch.io/iron-habit",
+      "data_date": "2026-11-03",
+      "analysed_at": "2026-11-07T06:26:16+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Every habit makes your hero stronger. Complete real habits, power up, and fight your way down the dungeon.",
+      "analysis": {
+        "app_key": "itch:9389a2ec789940982d11",
+        "summary_ko": "실제 생활 습관을 게임과 연동한 액션 게임입니다. 사용자가 현실에서 습관을 실천하면 게임 속 영웅이 강해지며 던전을 공략할 수 있습니다.",
+        "features_ko": [
+          "현실의 습관 실천을 게임 내 능력치 강화와 연결합니다.",
+          "던전 탐험 및 전투 액션 게임플레이를 제공합니다.",
+          "Windows와 Android 환경을 지원합니다."
+        ],
+        "noteworthy_ko": "현실의 행동을 게임의 보상으로 치환하는 '게이미피케이션'의 전형적인 사례입니다. 데이터 동기화와 부정행위 방지가 개발 관점에서 가장 큰 도전 과제일 것으로 추정됩니다.",
+        "development_ko": "외부 데이터 연동 시스템과 캐릭터 성장 로직이 핵심입니다. 사용자 인증과 데이터 보안이 필수적이며, 게임 밸런스가 현실의 습관 실천량에 따라 크게 변동할 수 있습니다.",
+        "idea_ko": "습관을 실천하지 못했을 때 게임 속 캐릭터가 약해지는 '패널티 시스템'을 도입하여 긴장감을 높이는 아이디어를 추천합니다.",
+        "highlights_ko": [
+          "현실과 게임을 연결하는 게이미피케이션 요소입니다.",
+          "습관 실천을 동기부여하는 독특한 메커니즘입니다."
+        ],
+        "systems_ko": [
+          "데이터베이스 연동 시스템",
+          "캐릭터 성장 및 스탯 관리",
+          "던전 전투 로직",
+          "사용자 인증 및 데이터 보안"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "외부 데이터 연동과 보안, 그리고 현실과 게임 간의 밸런스 조절이 매우 까다롭습니다. 개인 개발자가 안정적인 서버를 운영하는 것 자체가 큰 부담입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "습관 체크리스트 기능",
+            "캐릭터 스탯 강화 로직",
+            "기본 던전 전투"
+          ],
+          "defer": [
+            "실시간 멀티플레이",
+            "복잡한 소셜 기능"
+          ],
+          "risks": [
+            "사용자의 데이터 조작 가능성",
+            "현실 습관과 게임 보상의 괴리감"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "습관의 던전",
+            "concept": "습관을 실천할 때마다 던전의 층을 올라가는 구조입니다. 실천하지 않으면 캐릭터가 던전에서 후퇴합니다.",
+            "first_step": "습관 체크 시 캐릭터 공격력 증가 로직 구현."
+          },
+          {
+            "title": "데일리 퀘스트 연동",
+            "concept": "현실의 할 일을 게임 속 퀘스트로 변환합니다. 퀘스트 완료 시 게임 내 아이템을 획득합니다.",
+            "first_step": "할 일 목록과 게임 보상 연동 시스템 구축."
+          }
+        ],
+        "recommendation_ko": "게이미피케이션을 활용한 앱 개발에 관심이 있다면 좋은 참고 자료입니다. 다만, 데이터 연동과 보안에 대한 깊은 이해가 필요합니다.",
+        "source_limitations_ko": "현실의 습관을 어떻게 인증하는지(수동 입력인지, 외부 앱 연동인지), 데이터가 어디에 저장되는지 명시되지 않았습니다.",
+        "name": "Iron Habit [Free] [Action] [Windows] [Android]",
+        "source": "itch",
+        "detail_url": "https://filstudio.itch.io/iron-habit",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 10000,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
     }
   }
 }

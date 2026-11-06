@@ -9351,6 +9351,457 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-02"
+    },
+    "google:com.eland.mall.member": {
+      "app_key": "google:com.eland.mall.member",
+      "name": "이멤버(EMEMBER)",
+      "developer": "이랜드리테일",
+      "source": "google",
+      "country": "KR",
+      "category": "app_lifestyle",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.eland.mall.member&hl=ko&gl=KR",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:07:13+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "이랜드그룹 통합 멤버십, 이멤버! 이멤버만을 위한 풍성한 혜택을 준비했어요. ■ 바코드 하나로 포인트 적립, 사용까지! - 이멤버 바코드로 이랜드 계열사 어디서나 포인트를 적립, 사용할 수 있어요. - 내 포인트 잔액과 사용내역까지 확인해보세요. ■ 이랜드에서 제일 혜택이 많은 E페이 - 이랜드에서는 E페이로 결제하셔야 제일 많은 혜택을 받으실 수 있어요. - E페이머니를 충전해서 지갑없이 결제해보세요. ■ 쇼핑 가기 전 지점 정보 확인하세요 - 이랜드리테일 지점, 행사 정보를 알려드려요. - 매주 새로운 행사 정보를 이멤버에서 가장 빠르게 확인해보세요. ■ 등급별로 드리는 주차쿠폰을 확인하세요 - 이랜드리테일 우수고객님들께 매월 등급별로 주차쿠폰을 드려요. - 이멤버에서 자주 방문하는 단골지점을 선택하고, 주차쿠폰을 받으세요. ■ 이멤버만 구매가능한 특별한 상품과 할인 혜택 - 이멤버특가, 이멤버혜택가는 앱 회원만 구매하실 수 있는 특별한 가격이에요. - 앱에서만 확인할 수 있는 럭키드로우와 이벤트, 쿠폰을 놓치지 않고 확인해보세요. ◼︎ 선택적 접근권한 - 사진 : 1:1 문의 접수, 전자영수증 저장 - 카메라 : 1:1 문의 접수 - 알림 : 주요 이벤트/혜택 알림 - 저장 : 앱 속도 개선 위반 캐시 저장",
+      "analysis": {
+        "app_key": "google:com.eland.mall.member",
+        "summary_ko": "이멤버는 이랜드그룹의 통합 멤버십 서비스로, 포인트 적립과 사용을 위한 바코드 기능을 제공합니다. E페이 결제, 지점 정보 확인, 등급별 쿠폰 제공 등 쇼핑 편의 기능을 포함하고 있습니다. 앱 회원을 위한 전용 상품과 이벤트 혜택을 확인할 수 있습니다.",
+        "features_ko": [
+          "통합 바코드를 통해 이랜드 계열사에서 포인트 적립 및 사용이 가능합니다.",
+          "E페이머니를 충전하여 간편하게 결제할 수 있습니다.",
+          "이랜드리테일 지점 정보와 매주 행사 정보를 확인할 수 있습니다.",
+          "회원 등급별 주차 쿠폰을 제공받고 관리할 수 있습니다.",
+          "앱 회원 전용 특가 상품 구매 및 럭키드로우 참여가 가능합니다."
+        ],
+        "noteworthy_ko": "대규모 그룹사의 온·오프라인 연동 멤버십 시스템으로서, 결제와 쿠폰, 매장 정보가 통합된 전형적인 리테일 앱입니다. 사용자 등급에 따른 개인화된 혜택 제공 로직이 핵심입니다.",
+        "development_ko": "안정적인 서버 통신과 보안 결제 시스템 구축이 필수적입니다. 대규모 사용자를 처리하기 위한 데이터베이스 설계와 실시간 쿠폰/이벤트 푸시 알림 시스템이 중요합니다. 개인정보 보호와 결제 보안을 위한 철저한 검증이 요구됩니다.",
+        "idea_ko": "특정 매장 방문 시 자동으로 쿠폰을 알림으로 띄워주는 위치 기반 마케팅 기능이 적합합니다.",
+        "highlights_ko": [
+          "바코드 하나로 포인트와 결제를 통합하여 쇼핑 편의성을 높였습니다.",
+          "등급별 혜택과 앱 전용 이벤트를 통해 사용자 충성도를 관리합니다."
+        ],
+        "systems_ko": [
+          "사용자 인증 및 계정 관리",
+          "포인트 및 결제 데이터 관리",
+          "위치 기반 지점 정보 시스템",
+          "쿠폰 및 이벤트 푸시 알림",
+          "보안 결제 연동"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "결제 시스템과 개인정보 처리는 높은 보안 수준을 요구하며, 대규모 트래픽을 견딜 수 있는 백엔드 인프라가 필요합니다. 개인 개발자가 단독으로 구현하기에는 운영 및 보안 부담이 매우 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "회원 바코드 생성 기능",
+            "포인트 잔액 조회",
+            "지점 정보 리스트"
+          ],
+          "defer": [
+            "E페이 결제 시스템",
+            "럭키드로우 및 복잡한 이벤트 시스템"
+          ],
+          "risks": [
+            "개인정보 유출 및 보안 사고",
+            "서버 부하로 인한 서비스 중단"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "방문 인증 스탬프 투어",
+            "concept": "지점 방문 시 GPS 기반으로 스탬프를 찍어주는 기능입니다. 스탬프 개수에 따라 보상을 제공합니다.",
+            "first_step": "GPS 좌표를 기반으로 특정 구역 진입 시 알림을 띄우는 기능 구현."
+          },
+          {
+            "title": "쇼핑 리스트 공유",
+            "concept": "가족이나 친구와 함께 쇼핑 리스트를 공유하고 구매 완료 시 알림을 보내는 기능입니다.",
+            "first_step": "공유 가능한 리스트 데이터베이스와 실시간 업데이트 기능 구현."
+          }
+        ],
+        "recommendation_ko": "대규모 서비스의 데이터 관리와 사용자 경험 설계를 공부하기에 적합합니다. 다만, 결제 및 보안 관련 기능은 개인 개발 시 매우 신중해야 합니다.",
+        "source_limitations_ko": "결제 시스템의 구체적인 연동 방식과 보안 아키텍처는 확인되지 않으며, 실제 서비스 운영을 위해서는 법적 규제와 보안 인증이 필수적입니다.",
+        "name": "이멤버(EMEMBER)",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.eland.mall.member&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 216,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 8,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "apple:6827373811": {
+      "app_key": "apple:6827373811",
+      "name": "사막여우 퍼즐",
+      "developer": "SANGHOON LEE",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_puzzle",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%82%AC%EB%A7%89%EC%97%AC%EC%9A%B0-%ED%8D%BC%EC%A6%90/id6827373811?uo=2",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:12:30+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "사막 정원 곳곳에 작은 사막여우들이 숨어 있어요. 모두 찾아낼 수 있을까요? 사막여우 퍼즐은 규칙이 간단한 편안한 논리 퍼즐이에요. • 가로줄마다 여우는 딱 한 마리 • 세로줄마다 여우는 딱 한 마리 • 같은 색깔 영역마다 여우는 딱 한 마리 • 여우끼리는 대각선까지 서로 붙어 있지 않아요 칸을 톡 눌러 X를 표시하고, 누른 채로 쭉 끌면 여러 칸을 한 번에 표시할 수 있어요. 여우를 찾으면 지금까지 찾은 여우들이 함께 방긋 웃어 줘요. 정성껏 만든 논리 퍼즐 • 5×5부터 12×12까지 1,170개 퍼즐 • 모든 퍼즐은 정답이 하나뿐이고, 찍지 않고 논리만으로 풀 수 있어요 • 왜 그 칸이 여우인지, 왜 X인지 차근차근 알려 주는 힌트 • 되돌리기, 친절한 튜토리얼, 느긋한 플레이 나만의 여우 아지트 • 퍼즐을 풀거나, 하루 한 번 원할 때 짧은 광고를 보고 햇살을 모을 수 있어요 • 아늑한 소품으로 여우 아지트를 꾸며 보세요 • 털색, 액세서리(리본·안경·모자를 함께), 게임판 테마로 나만의 여우를 만들어요 내 방식대로 즐기기 • 닉네임과 여우 모습으로 참여하는 전체 랭킹 • 휴대폰을 바꿔도 복구 코드로 이어지는 클라우드 백업 • 한국어, 영어, 일본어, 독일어, 스페인어 지원 5×5~9×9 모험(70개 퍼즐)은 구매 없이 플레이할 수 있어요. 10×10, 11×11, 12×12 퍼즐 팩과 추가 햇살, 일부 꾸미기 아이템은 선택형 인앱 구매로 제공돼요. 문의: support@ggeomddakji.com",
+      "analysis": {
+        "app_key": "apple:6827373811",
+        "summary_ko": "이 게임은 사막여우를 찾는 논리 퍼즐 게임입니다. 가로, 세로, 색깔 영역의 규칙에 따라 여우의 위치를 추리하는 방식으로 진행됩니다. 1,170개의 퍼즐이 제공되며, 논리만으로 정답을 찾을 수 있도록 설계되었습니다.",
+        "features_ko": [
+          "가로, 세로, 색깔 영역마다 여우가 한 마리씩만 존재한다는 규칙을 따릅니다.",
+          "여우끼리는 대각선을 포함하여 서로 붙어 있지 않아야 합니다.",
+          "터치와 드래그를 통해 칸을 표시하거나 X를 표시할 수 있습니다.",
+          "퍼즐 해결을 통해 얻은 햇살로 여우 아지트를 꾸밀 수 있습니다."
+        ],
+        "noteworthy_ko": "단순한 논리 퍼즐에 '여우 아지트 꾸미기'라는 수집형 요소를 결합하여 플레이 동기를 강화했습니다. 모든 퍼즐이 논리적으로 풀린다는 점은 레벨 디자인의 완성도가 높음을 시사합니다.",
+        "development_ko": "핵심 구현 기술은 논리 퍼즐 생성 알고리즘과 그리드 기반의 UI 조작입니다. 꾸미기 시스템을 위한 데이터 저장 구조가 필요하며, 튜토리얼과 힌트 시스템을 통해 사용자 경험을 세심하게 설계해야 합니다. 레벨 디자인의 논리적 오류를 검증하는 자동화 도구 제작이 개발 부담을 줄이는 핵심입니다.",
+        "idea_ko": "사용자가 직접 퍼즐을 만들고 공유하는 커뮤니티 기능.",
+        "highlights_ko": [
+          "1,170개의 방대한 퍼즐이 논리적으로 완벽하게 설계되어 있습니다.",
+          "여우 아지트 꾸미기 기능을 통해 나만의 공간을 만드는 재미를 제공합니다."
+        ],
+        "systems_ko": [
+          "논리 퍼즐 생성 및 검증 알고리즘",
+          "그리드 UI 조작 시스템",
+          "꾸미기 아이템 데이터 관리",
+          "사용자 데이터 저장 및 백업",
+          "힌트 및 튜토리얼 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "퍼즐 로직 자체는 구현 가능하지만, 1,000개가 넘는 레벨의 논리적 무결성을 보장하는 시스템을 구축하는 데 정교한 설계가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 퍼즐 로직",
+            "그리드 UI",
+            "정답 판정 시스템"
+          ],
+          "defer": [
+            "1,170개의 레벨 데이터",
+            "아지트 꾸미기 시스템",
+            "클라우드 백업"
+          ],
+          "risks": [
+            "퍼즐 난이도 밸런스 실패",
+            "논리적 오류가 있는 퍼즐 생성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "사용자 제작 퍼즐 공유",
+            "concept": "사용자가 직접 퍼즐을 만들고 다른 사용자에게 도전장을 내미는 기능입니다.",
+            "first_step": "퍼즐 데이터를 JSON 형태로 내보내고 불러오는 기능 구현."
+          },
+          {
+            "title": "일일 도전 퍼즐",
+            "concept": "매일 새로운 퍼즐이 제공되며, 연속 성공 시 특별한 꾸미기 아이템을 보상으로 줍니다.",
+            "first_step": "날짜별로 퍼즐을 할당하는 스케줄러 로직 구현."
+          }
+        ],
+        "recommendation_ko": "논리 퍼즐 게임의 레벨 디자인과 데이터 관리 방식을 배우기에 최적입니다. 1인 개발자가 완성도 높은 퍼즐 게임을 만드는 좋은 사례로 추천합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 퍼즐 생성 알고리즘의 구체적인 방식, 인앱 결제 시스템의 상세 구현, 클라우드 백업의 기술적 상세는 확인되지 않습니다.",
+        "name": "사막여우 퍼즐",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%82%AC%EB%A7%89%EC%97%AC%EC%9A%B0-%ED%8D%BC%EC%A6%90/id6827373811?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 168,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.game2gather.dragonspearex": {
+      "app_key": "google:com.game2gather.dragonspearex",
+      "name": "DragonSpear: 악몽의 주인",
+      "developer": "Game2gather",
+      "source": "google",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.game2gather.dragonspearex&hl=ko&gl=KR",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:19:22+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Dragon Spear는 전통적인 횡스크롤 액션 RPG입니다. 심연에서 침략해오는 악몽과 드래곤으로부터 세상을 구하세요. 악몽으로부터 획득한 재료를 사용해 새로운 장비를 제작할 수 있습니다. 모든 장비는 고유한 외형을 가지고 있습니다. 멋지고 화려한 장비로 영웅을 뽐내보세요. 영웅을 성장시키고 새로운 스킬을 배워 강력한 드래곤과 맞서 싸우세요. 다양한 펫을 수집하거나 재료를 모아 스킬을 획득할 수 있습니다. [스타일리시 액션 RPG] 실제 횡스크롤 액션 RPG를 즐겨보세요. [다양한 직업] 기사, 검투사, 격투가, 암살자, 건슬링거, 마법사 등 여섯 가지 직업이 있습니다. 다양한 플레이 스타일을 경험해 보세요. [자원 공유] 영웅들은 가방을 통해 주요 자원과 아이템을 공유합니다. [희귀 장비] 수천 개의 아이템 중 최고의 무기, 장비, 룬을 수집하여 나만의 강력한 영웅을 만들어보세요. [외형 자유 커스터마이징] 패션 스토어에서 장비의 외형을 자유롭게 변경할 수 있습니다. [다양한 패턴의 강력한 보스] 다양한 패턴을 가진 강력한 보스와의 전투에 대비하세요. [장비 제작 시스템] 강력한 세트 장비와 멋진 외형 장비를 수집하세요. 심연에서 획득한 재료로 대장간에서 제작해 보세요. [지원 언어] 한국어, 영어, 일본어, 간체 중국어, 번체 중국어 ▶ 회사 정보 홈페이지 http://www.game2gather.com YouTube 채널 https://www.youtube.com/channel/UCqtPjrFZUKSYaDnS69F0QlQ 개발자 연락처: +8228619761 help@game2gather.com ---- 개발자 연락처 : (주)게임투게더 대한민국 서울특별시 금천구 금천구 가산디지털2로 135, 에이동 1705호(가산동, 가산어반워크1) 08504 5198700086 제2018-서울금천-0733호 금천구청",
+      "analysis": {
+        "app_key": "google:com.game2gather.dragonspearex",
+        "summary_ko": "전통적인 횡스크롤 액션 RPG로, 심연의 악몽과 드래곤으로부터 세상을 구하는 게임입니다. 다양한 직업을 선택하여 영웅을 성장시키고, 재료를 수집해 장비를 제작할 수 있습니다. 화려한 액션과 보스 전투를 통해 스타일리시한 전투 경험을 제공합니다.",
+        "features_ko": [
+          "기사, 검투사 등 6가지 직업 중 하나를 선택하여 플레이합니다.",
+          "심연에서 획득한 재료로 고유한 외형의 장비를 제작합니다.",
+          "영웅 간 자원과 아이템을 공유하는 가방 시스템을 지원합니다.",
+          "다양한 패턴을 가진 보스와의 전투를 수행합니다.",
+          "패션 스토어를 통해 장비의 외형을 자유롭게 커스터마이징합니다."
+        ],
+        "noteworthy_ko": "전통적인 횡스크롤 액션에 장비 제작과 외형 커스터마이징을 결합하여 수집의 재미를 강조했습니다. 영웅 간 자원 공유 시스템은 다수의 캐릭터를 육성하는 유저에게 효율적인 경험을 제공할 것으로 보입니다.",
+        "development_ko": "횡스크롤 액션의 타격감과 정교한 조작 판정이 핵심이며, 다양한 보스 패턴을 설계하는 것이 제작 부담이 큽니다. 장비 제작 및 커스터마이징을 위한 데이터 관리 시스템 구축이 필요합니다.",
+        "idea_ko": "특정 보스를 처치하고 얻은 재료로만 제작 가능한 '보스 테마 장비'를 수집하는 미니 게임 형태가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "6가지 직업별로 차별화된 플레이 스타일을 제공합니다.",
+          "자유로운 외형 커스터마이징을 통해 나만의 영웅을 꾸밀 수 있습니다."
+        ],
+        "systems_ko": [
+          "횡스크롤 물리 및 입력 판정",
+          "캐릭터 상태 및 스킬 시스템",
+          "장비 제작 및 인벤토리 관리",
+          "보스 AI 및 패턴 제어",
+          "데이터 저장 및 동기화"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "액션 RPG는 타격감, 애니메이션, 보스 패턴 설계 등 요구되는 기술적 요소가 매우 많습니다. 1인 개발 시 콘텐츠 제작 부담이 매우 크며 밸런스 조절이 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이동 및 공격 액션",
+            "단일 보스 전투",
+            "기본 장비 제작 시스템"
+          ],
+          "defer": [
+            "6가지 직업 전체 구현",
+            "온라인 멀티플레이",
+            "복잡한 외형 커스터마이징"
+          ],
+          "risks": [
+            "액션 게임 특유의 타격감 구현 실패",
+            "콘텐츠 제작 속도 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "보스 러시 챌린지",
+            "concept": "일반 필드 없이 보스 전투만 연속으로 진행하는 액션 게임입니다. 보스를 처치할 때마다 장비를 업그레이드하여 다음 보스에 도전합니다.",
+            "first_step": "보스 AI 패턴 하나와 플레이어 기본 공격 로직을 구현합니다."
+          },
+          {
+            "title": "장비 제작 타이쿤",
+            "concept": "전투는 자동화하고, 획득한 재료로 장비를 제작하여 영웅들에게 판매하는 경영 시뮬레이션입니다.",
+            "first_step": "재료 조합법 데이터와 제작 UI를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "액션 게임의 핵심인 조작감과 보스 패턴 설계를 배우기에 좋습니다. 다만, 규모가 큰 RPG를 처음부터 다 만드는 것은 비추천하며, 핵심 메커니즘을 좁혀서 개발하는 것을 권장합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 전투 조작 방식(가상 패드 등)이나 장비 제작의 상세 로직에 대한 정보가 없습니다.",
+        "name": "DragonSpear: 악몽의 주인",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.game2gather.dragonspearex&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:fm.awa.abema": {
+      "app_key": "google:fm.awa.abema",
+      "name": "ABEMA MUSIC by AWA - 音楽聴き放題",
+      "developer": "AWA株式会社",
+      "source": "google",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=fm.awa.abema&hl=ja&gl=JP",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:20:07+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "まずは1ヶ月、無料で。 2億曲以上の音楽が、広告なしで聴き放題。 ABEMA MUSIC by AWAは、ABEMAとAWAが手を組んだ音楽サービスです。 【1ヶ月無料トライアル】 はじめての方は、1ヶ月無料でお試しいただけます。期間中も機能の制限はありません。2億曲すべてを、フル尺で、広告なしで。 【無料体験期間中から、これだけ使えます】 ・2億曲以上が聴き放題 人気曲からインディーズ、アニメ、ボカロ、クラシックまで。日本発のサービスだから邦楽に強い。 ・広告なし 曲の途中で広告が流れることはありません。 ・フル尺再生・再生時間制限なし 時間を気にせず、好きな曲を最後まで。 ・リアルタイムランキング 今この瞬間に何が聴かれているかがわかります。10分ごとに更新。 ・ダウンロードしてオフライン再生 通信量を気にせず音楽を楽しめます。通学・通勤中でも、機内でも。 ・音質調査1位の高音質 主要音楽サブスクの音質調査で1位の評価を獲得したAWAと同じ音質。 ・ダイナミックな歌詞表示 音楽に合わせて歌詞がアニメーションで流れます。 ・プレイリスト作成・公開 好きな曲を集めて、他のユーザーに公開できます。いいねやコメントで好きを分かち合おう。 ・アーティストとのリスニングパーティーやラジオ配信 アーティスト本人と一緒に音楽を聴いて語り合えるリアルタイム空間。楽曲をリクエストして、ファンみんなで盛り上がれます。 ・ハイライト再生 盛り上がる部分をテンポよく。新しい曲との出会いに。 【ABEMAだから、ここにしかない出会い方】 ABEMAの番組で流れていたあの曲、出演者が選んだプレイリスト。番組で生まれた「好き」を、そのまま音楽として持ち歩けます。 【料金】 ◾️スタンダードプラン ¥1,080/月（税込） ◾️年額プラン ¥10,800（税込）／2ヶ月分お得 無料トライアル終了後は、自動的にスタンダードプランへ移行します。 【はじめ方はかんたん】 1. アプリをインストール 2. アカウントを作成 3. プランを選んで、音楽を聴きはじめる 【ご利用にあたって】 ・無料トライアル期間終了後は自動的に有料プランへ移行し、期間終了の24時間前までに解約されない限り自動更新されます。 ・解約はGoogle Playの定期購入の管理からお手続きいただけます。 利用規約：https://awa.fm/ja/terms/ プライバシーポリシー：https://awa.fm/ja/privacy/",
+      "analysis": {
+        "app_key": "google:fm.awa.abema",
+        "summary_ko": "ABEMA와 AWA가 협력하여 제공하는 음악 스트리밍 서비스입니다. 2억 곡 이상의 음원을 광고 없이 감상할 수 있으며, 실시간 랭킹과 오프라인 재생 기능을 지원합니다. 아티스트와 소통하는 리스닝 파티 등 ABEMA만의 독점 콘텐츠를 즐길 수 있습니다.",
+        "features_ko": [
+          "2억 곡 이상의 음원을 광고 없이 풀 사이즈로 재생할 수 있습니다.",
+          "실시간 랭킹을 통해 현재 인기 있는 곡을 10분 단위로 확인할 수 있습니다.",
+          "음악을 다운로드하여 통신 환경에 관계없이 오프라인으로 감상할 수 있습니다.",
+          "음악 재생에 맞춰 가사가 애니메이션으로 표시되는 기능을 제공합니다.",
+          "사용자가 직접 플레이리스트를 생성하고 타인에게 공개할 수 있습니다.",
+          "아티스트와 함께 음악을 듣고 대화하는 리스닝 파티 및 라디오 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "음악 스트리밍과 방송 플랫폼의 결합이 특징입니다. 특히 아티스트와의 실시간 소통 기능은 단순 재생을 넘어 팬덤 커뮤니티를 형성하는 데 중점을 둔 것으로 보입니다.",
+        "development_ko": "대규모 음원 데이터베이스 관리와 고음질 스트리밍 서버 구축이 핵심입니다. 실시간 가사 동기화 및 아티스트와의 리스닝 파티를 위한 저지연 통신 기술이 필요하며, 저작권 관리 및 결제 시스템 연동이 필수적입니다.",
+        "idea_ko": "특정 테마나 장르에 특화된 소규모 리스닝 파티 플랫폼을 구축하는 것이 개인 개발자에게 적합합니다.",
+        "highlights_ko": [
+          "ABEMA 프로그램과 연동된 독점 플레이리스트 제공.",
+          "아티스트와 팬이 실시간으로 소통하는 참여형 음악 감상 환경."
+        ],
+        "systems_ko": [
+          "음원 스트리밍 및 캐싱 시스템",
+          "실시간 채팅 및 동기화 시스템",
+          "사용자 계정 및 구독 관리",
+          "플레이리스트 데이터베이스",
+          "가사 동기화 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "방대한 음원 라이선스 확보와 고품질 스트리밍 서버 운영은 개인 수준에서 구현하기 매우 어렵습니다. 실시간 동기화와 대규모 트래픽 처리를 위한 인프라 비용 또한 상당합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 음악 재생 플레이어",
+            "사용자 플레이리스트 생성 기능"
+          ],
+          "defer": [
+            "2억 곡 라이브러리",
+            "실시간 리스닝 파티",
+            "가사 애니메이션"
+          ],
+          "risks": [
+            "음원 저작권 문제",
+            "서버 유지 비용 부담"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "로컬 인디 음악 공유소",
+            "concept": "지역 인디 아티스트의 음원을 공유하고 팬들이 직접 플레이리스트를 만드는 커뮤니티입니다.",
+            "first_step": "아티스트가 직접 음원을 업로드하고 사용자가 재생할 수 있는 웹 기반 플레이어 제작."
+          },
+          {
+            "title": "테마별 큐레이션 라디오",
+            "concept": "특정 분위기나 상황에 맞는 음악을 사용자가 실시간으로 큐레이션하여 공유하는 서비스입니다.",
+            "first_step": "유튜브 API를 활용하여 특정 테마의 영상 리스트를 순차 재생하는 웹 앱 구현."
+          }
+        ],
+        "recommendation_ko": "음악 스트리밍 서비스의 복잡한 아키텍처를 이해하는 데 도움이 됩니다. 다만, 실제 서비스 운영보다는 특정 기능을 모듈화하여 학습하는 것을 추천합니다.",
+        "source_limitations_ko": "음원 공급처, 스트리밍 서버의 구체적인 기술 스택, 저작권 처리 방식 등은 소개문에서 확인할 수 없습니다.",
+        "name": "ABEMA MUSIC by AWA - 音楽聴き放題",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=fm.awa.abema&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 53,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
+    },
+    "google:com.location.gps.tracker": {
+      "app_key": "google:com.location.gps.tracker",
+      "name": "GPS Tracker & Location Tracker",
+      "developer": "NAICOO PTE. LTD.",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.location.gps.tracker&hl=en&gl=US",
+      "data_date": "2026-11-07",
+      "analysed_at": "2026-11-07T06:21:10+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "GPS Tracker & Location Tracker is a real-time location synchronization application. View the live locations of family and friends, and monitor their basic movement trajectories. Core Features: 1. Real-time Location & Dynamic Updates Location Synchronization: Real-time synchronization of device location information displayed on the map. Device Finder: View the locations of authorized friends and family members to enable family location sharing. 2. Geofencing (Safety Zone Alerts) Area Monitoring: Users can set up virtual geofences around specific locations (e.g., home, school, work). Entry/Exit Alerts: Automatic push notifications are sent when an authorized device enters or leaves the preset zones. 3. Secure Connection Binding Mechanism: Add friends or family members using a unique invitation code to establish a location-sharing connection. Disclaimer: Privacy Policy: The app operates based on explicit user authorization. All tracking features are executed only after receiving clear permission. Data Compliance: Location data is processed using encryption technology. The app does not sell or share your personal location data with third parties for their own purposes. Users have full control over location sharing and management settings. Authorized Use: Unauthorized tracking activities are strictly prohibited. Users must ensure that all location-sharing features are used with the knowledge and consent of the parties involved.",
+      "analysis": {
+        "app_key": "google:com.location.gps.tracker",
+        "summary_ko": "가족 및 친구의 실시간 위치를 공유하고 이동 경로를 모니터링하는 앱입니다. 특정 구역을 설정하여 출입 시 알림을 받는 지오펜싱 기능을 제공합니다. 사용자 간의 명확한 동의를 기반으로 위치 정보를 관리합니다.",
+        "features_ko": [
+          "지도상에서 등록된 사용자의 실시간 위치를 동기화합니다.",
+          "특정 장소를 지오펜스로 설정하여 안전 구역을 지정합니다.",
+          "지오펜스 구역 진입 및 이탈 시 푸시 알림을 발송합니다.",
+          "초대 코드를 통해 사용자 간의 안전한 연결을 생성합니다."
+        ],
+        "noteworthy_ko": "위치 정보라는 민감한 데이터를 다루므로 보안과 권한 관리가 매우 중요합니다. 실시간 위치 업데이트를 위한 백그라운드 서비스 구현이 기술적으로 흥미로운 지점입니다.",
+        "development_ko": "GPS 및 네트워크 위치 정보 수집 기술과 실시간 데이터 동기화를 위한 소켓 통신이 핵심입니다. 배터리 소모 최적화와 정확한 위치 갱신 주기를 설정하는 밸런스 작업이 필요합니다.",
+        "idea_ko": "특정 구역 출입 알림을 활용한 가족 안심 귀가 서비스입니다.",
+        "highlights_ko": [
+          "지오펜싱을 통한 자동화된 안전 알림.",
+          "초대 코드 기반의 폐쇄형 사용자 연결."
+        ],
+        "systems_ko": [
+          "GPS 위치 수집 및 처리",
+          "실시간 데이터 동기화(Socket/Firebase)",
+          "지오펜싱 알고리즘",
+          "푸시 알림 시스템",
+          "사용자 권한 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 위치 데이터의 정확도 유지, 배터리 효율 관리, 그리고 개인정보 보호를 위한 보안 구현이 매우 까다롭기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "현재 위치 좌표 수집",
+            "지도 뷰어 연동",
+            "사용자 간 위치 공유 로직"
+          ],
+          "defer": [
+            "상세 이동 경로 기록",
+            "다양한 지오펜스 모양 설정"
+          ],
+          "risks": [
+            "위치 정보 오차로 인한 알림 오류",
+            "개인정보 보호 관련 법적 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "반려동물 산책 경로 기록",
+            "concept": "반려동물과 함께 이동한 경로를 기록하고, 자주 가는 산책로를 추천해주는 기능입니다.",
+            "first_step": "GPS 경로 데이터를 로컬에 저장하고 지도에 선으로 그리는 기능 구현."
+          },
+          {
+            "title": "약속 장소 도착 알림",
+            "concept": "약속 장소 근처에 도착했을 때 친구에게 자동으로 알림을 보내는 기능입니다.",
+            "first_step": "특정 좌표 반경 내 진입 시 알림을 띄우는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "위치 기반 서비스(LBS)의 기초를 배우기에 좋으나, 보안과 개인정보 보호에 대한 깊은 이해가 선행되어야 합니다. 실제 서비스 배포 시 법적 검토가 필수적입니다.",
+        "source_limitations_ko": "위치 데이터의 서버 저장 방식, 암호화 알고리즘의 구체적 사양, 배터리 최적화 기술에 대한 정보가 없습니다.",
+        "name": "GPS Tracker & Location Tracker",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.location.gps.tracker&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 98,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-07"
     }
   }
 }
