@@ -46,14 +46,30 @@ assert.equal(normalizeExploreCategory('app',ui),'all_apps');
 markup=renderExplore('app',ui);
 assert.ok(markup.includes('전체 앱 유료 순위'));
 assert.ok(!markup.includes('<option value="app_lifestyle"'));
-// Failed collection retains a dated previous successful chart, and never labels it current.
-const failedGroup=store.groups.find(g=>g.source==='apple'&&g.category==='all_apps'&&g.chart==='top_paid'&&g.is_stale);
-assert(failedGroup,'at least one failed source uses a previous snapshot in test data');
-ui={...base(),country:failedGroup.country,source:'apple',price:'top_paid',category:'all_apps'};
-markup=renderExplore('app',ui);
-assert.ok(markup.includes('이전 정상 기록'));
-assert.ok(markup.includes(failedGroup.data_date.replaceAll('-','.')));
-assert.ok(markup.includes('최근 수집이 실패'));
+// Simulate a failed collection over a real paid-chart fixture. A live snapshot
+// may contain no failures, so the regression must not require one to exist.
+const previousGroup=store.groups.find(g=>g.source==='apple'&&g.category==='all_apps'&&g.chart==='top_paid'&&(g.items||[]).length);
+assert(previousGroup,'Apple paid-app chart is present for the stale-display regression');
+const previousStatus=store.status.groups.find(g=>g.source===previousGroup.source&&g.country===previousGroup.country&&g.category===previousGroup.category&&g.chart===previousGroup.chart);
+assert(previousStatus,'matching collection status is present');
+const originalStale=previousGroup.is_stale;
+const originalDate=previousGroup.data_date;
+const originalStatus=previousStatus.status;
+try{
+  previousGroup.is_stale=true;
+  previousGroup.data_date=new Date(Date.parse(`${store.latest.data_date}T00:00:00Z`)-86400000).toISOString().slice(0,10);
+  previousStatus.status='failed';
+  ui={...base(),country:previousGroup.country,source:'apple',price:'top_paid',category:'all_apps'};
+  markup=renderExplore('app',ui);
+  assert.ok(markup.includes('이전 정상 기록'));
+  assert.ok(markup.includes(previousGroup.data_date.replaceAll('-','.')));
+  assert.ok(markup.includes('최근 수집이 실패'));
+  assert.ok(markup.includes('오늘 순위로 해석하지 마세요.'),'stale chart warns against treating it as current');
+}finally{
+  previousGroup.is_stale=originalStale;
+  previousGroup.data_date=originalDate;
+  previousStatus.status=originalStatus;
+}
 // Apple arcade is skipped by configuration; omit unavailable category from Apple-only dropdown.
 ui={...base(),country:'KR',source:'apple',category:'all_games'};
 assert.ok(!availableExploreCategories('game',ui).includes('game_arcade'));

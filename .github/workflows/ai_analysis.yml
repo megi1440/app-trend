@@ -98,9 +98,17 @@ jobs:
         if: steps.daily_gate.outputs.run == 'true'
         run: python -m unittest discover -s tests -q
 
-      - name: 아이디어 연구실 화면·내보내기 스모크 테스트
+      # UI regression failures are reported, but must not stop data collection/AI.
+      # Python data-integrity tests and the generated-output check remain hard gates.
+      - name: 아이디어 연구실 화면·내보내기 스모크 테스트 (경고만)
         if: steps.daily_gate.outputs.run == 'true'
+        id: lab_smoke
+        continue-on-error: true
         run: node tests/test_lab_frontend.mjs
+
+      - name: 화면 스모크 테스트 실패 알림
+        if: steps.daily_gate.outputs.run == 'true' && steps.lab_smoke.outcome == 'failure'
+        run: echo '::warning::아이디어 연구실 화면 테스트 실패. "AI 분석"은 계속 진행하지만, 테스트 로그를 확인하세요.'
 
       - name: Gemini API 시크릿 확인
         if: steps.daily_gate.outputs.run == 'true'

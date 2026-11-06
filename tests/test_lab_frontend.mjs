@@ -20,7 +20,7 @@ globalThis.fetch = async url => {
     return {ok:false,status:404,json:async()=>({})};
   }
 };
-const {loadSnapshot} = await import(pathToFileURL(path.join(root,'web/js/data.js')).href);
+const {loadSnapshot,esc} = await import(pathToFileURL(path.join(root,'web/js/data.js')).href);
 const lab = await import(pathToFileURL(path.join(root,'web/js/lab.js')).href);
 await loadSnapshot();
 const data = await lab.loadLab();
@@ -412,10 +412,16 @@ assert(!comparison.includes('lab-compare-table'),'common view hides the differin
 await lab.labAction({dataset:{labAction:'compare-mode',value:'diff'}});
 comparison=lab.renderLab('compare');
 assert(!comparison.includes('<h3>기능 공통점</h3>')&&comparison.includes('후보별 기능 차이'),'differences view hides common summary');
-// No dependency on radar selected country: the comparison still shows raw observations.
-const first=compareKeys[0];
-const firstName=first.name;
-assert(comparison.includes(firstName),'the comparison retains candidates after filter operations');
+// No dependency on radar selected country: all selected candidates remain in the
+// comparison, even when their display names require HTML escaping (e.g. & or ").
+const compareButtons=[...comparison.matchAll(/data-lab-action="remove-compare" data-key="([^"]+)"/g)]
+  .map(match=>match[1]);
+assert.deepEqual(new Set(compareButtons),new Set(compareKeys.map(item=>esc(item.app_key))),
+  'the comparison retains both candidate keys after filter operations');
+for(const item of compareKeys){
+  assert(comparison.includes(`<strong>${esc(item.name)}</strong>`),
+    `the comparison displays the selected candidate name: ${item.app_key}`);
+}
 await lab.labAction({dataset:{labAction:'clear-compare'}});
 console.log(`[lab frontend] 5 views, OR-union feature tags, co-occurrence drilldown, scroll-stable analysis, bulk exports, real evidence and CSV escaping V1.10 collapsible feature families and related insights, export coverage and scroll-stable clearing OK`);
 
