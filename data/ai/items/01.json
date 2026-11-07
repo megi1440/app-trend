@@ -10377,6 +10377,451 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-07"
+    },
+    "itch:aebdb2f34f25d159f51f": {
+      "app_key": "itch:aebdb2f34f25d159f51f",
+      "name": "Head League Soccer [Free] [Sports] [Windows] [macOS] [Android]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://moslanaza.itch.io/head-league-soccer",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:37:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Football soccer game with online, Leagues and cups",
+      "analysis": {
+        "app_key": "itch:aebdb2f34f25d159f51f",
+        "summary_ko": "온라인 대전, 리그, 컵 대회를 포함한 축구 게임입니다. 다양한 모드를 통해 축구 경기를 즐길 수 있습니다. 여러 플랫폼을 지원하여 접근성을 높였습니다.",
+        "features_ko": [
+          "온라인 멀티플레이어 대전 기능을 제공합니다.",
+          "리그 및 컵 대회 모드를 통해 토너먼트 경기를 진행합니다."
+        ],
+        "noteworthy_ko": "온라인 멀티플레이어 구현은 네트워크 동기화와 지연 시간 처리가 매우 어렵습니다. 1인 개발 시 서버 비용과 유지보수 부담이 클 것으로 추정됩니다.",
+        "development_ko": "네트워크 통신을 위한 서버 아키텍처와 물리 엔진의 동기화가 핵심입니다. 멀티플랫폼 지원을 위한 빌드 최적화와 입력 처리가 중요합니다.",
+        "idea_ko": "네트워크 부담을 줄인 '턴제 축구'나 '미니 축구' 방식이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "온라인 대전이라는 확장성 있는 기능을 포함합니다.",
+          "리그와 컵 등 다양한 게임 모드를 제공합니다."
+        ],
+        "systems_ko": [
+          "네트워크 동기화 시스템",
+          "축구 물리 엔진(공/선수)",
+          "매치메이킹 및 데이터 관리",
+          "리그/컵 토너먼트 로직"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "온라인 멀티플레이어 구현은 1인 개발자에게 매우 높은 기술적 장벽입니다. 서버 관리와 네트워크 지연 해결은 복잡한 과제입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 축구 물리 로직",
+            "로컬 멀티플레이어",
+            "간단한 리그 모드"
+          ],
+          "defer": [
+            "온라인 서버 연동",
+            "복잡한 선수 데이터 관리"
+          ],
+          "risks": [
+            "네트워크 지연으로 인한 게임성 저하",
+            "서버 운영 비용 및 보안 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "전술 축구 매니저",
+            "concept": "직접 조작하는 대신 전술을 짜고 결과를 지켜보는 시뮬레이션 게임입니다. 조작의 부담을 줄이고 전략에 집중합니다.",
+            "first_step": "선수 능력치에 따른 승률 계산 로직 구현."
+          },
+          {
+            "title": "1대1 미니 축구",
+            "concept": "작은 경기장에서 1대1로 진행하는 빠른 축구 게임입니다. 네트워크 대신 로컬 대전에 집중하여 개발 부담을 줄입니다.",
+            "first_step": "2인용 로컬 대전 물리 엔진 구현."
+          }
+        ],
+        "recommendation_ko": "축구 게임의 물리 로직을 배우고 싶다면 추천하지만, 온라인 기능은 개인 개발 시 매우 신중해야 합니다.",
+        "source_limitations_ko": "온라인 서버의 방식, 물리 엔진의 정교함, 선수 데이터의 상세 등은 확인되지 않습니다.",
+        "name": "Head League Soccer [Free] [Sports] [Windows] [macOS] [Android]",
+        "source": "itch",
+        "detail_url": "https://moslanaza.itch.io/head-league-soccer",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 287,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 31,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
+    },
+    "itch:ba94fabe3b19497a70e9": {
+      "app_key": "itch:ba94fabe3b19497a70e9",
+      "name": "RPD: After Hours — English Edition [Free] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://scottss3.itch.io/rpd-after-hours",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:37:36+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Explore a chibi police station and solve five mysteries through observation, evidence and hands-on puzzles.",
+      "analysis": {
+        "app_key": "itch:ba94fabe3b19497a70e9",
+        "summary_ko": "치비 스타일의 경찰서를 탐험하며 5가지 미스터리를 해결하는 게임입니다. 관찰과 증거 수집, 퍼즐 풀기를 통해 사건을 해결합니다.",
+        "features_ko": [
+          "치비 스타일의 캐릭터와 배경을 탐험합니다.",
+          "현장 관찰을 통해 증거를 수집합니다.",
+          "수집한 증거를 활용해 퍼즐을 해결합니다."
+        ],
+        "noteworthy_ko": "캐주얼한 아트 스타일과 추리 요소를 결합한 점이 흥미롭습니다. 1인 개발자가 퍼즐의 논리적 흐름과 아트 리소스를 어떻게 조화시켰는지 분석할 가치가 있습니다.",
+        "development_ko": "핵심 기술은 포인트 앤 클릭 인터페이스와 인벤토리 시스템입니다. 콘텐츠 제작은 퍼즐 설계와 아트 리소스 제작에 많은 시간이 소요될 것으로 보입니다.",
+        "idea_ko": "특정 공간 내의 사물들을 조합해 사건을 재구성하는 추리 게임.",
+        "highlights_ko": [
+          "귀여운 치비 스타일의 그래픽.",
+          "관찰과 증거 기반의 퍼즐 중심 게임플레이."
+        ],
+        "systems_ko": [
+          "포인트 앤 클릭 조작",
+          "인벤토리 및 증거 관리",
+          "대화 및 이벤트 트리거",
+          "퍼즐 논리 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진보다는 논리적인 퍼즐 설계와 아트 리소스 제작이 핵심입니다. 1인 개발자가 충분히 관리 가능한 규모의 프로젝트입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "이동 및 상호작용 시스템",
+            "증거 수집 및 퍼즐 1개"
+          ],
+          "defer": [
+            "복잡한 애니메이션",
+            "다양한 캐릭터 대화"
+          ],
+          "risks": [
+            "퍼즐의 난이도 조절 실패",
+            "아트 리소스 제작의 과부하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "분실물 센터",
+            "concept": "경찰서 분실물 센터에서 물건의 주인을 찾아주는 퍼즐 게임입니다. 물건의 특징을 관찰해 주인을 추론합니다.",
+            "first_step": "물건 클릭 시 상세 정보창 띄우기."
+          },
+          {
+            "title": "사무실의 비밀",
+            "concept": "퇴근 후 사무실에서 단서를 찾아 비밀번호를 알아내는 방탈출 스타일의 게임입니다.",
+            "first_step": "특정 아이템을 조합해 문을 여는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "어드벤처 게임의 기본기를 다지고 싶은 개발자에게 추천합니다. 퍼즐 설계와 스토리텔링을 결합하는 연습에 좋습니다.",
+        "source_limitations_ko": "5가지 미스터리의 깊이나 퍼즐의 다양성, 게임의 전체 플레이 타임은 직접 플레이해보지 않으면 알 수 없습니다.",
+        "name": "RPD: After Hours — English Edition [Free] [Windows]",
+        "source": "itch",
+        "detail_url": "https://scottss3.itch.io/rpd-after-hours",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 275,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 36,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
+    },
+    "apple:6827000949": {
+      "app_key": "apple:6827000949",
+      "name": "電車運転ゲーム-東湾線・地下鉄わかば線編-",
+      "developer": "合同会社たでぃまる",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_simulation",
+      "detail_url": "https://apps.apple.com/jp/app/%E9%9B%BB%E8%BB%8A%E9%81%8B%E8%BB%A2%E3%82%B2%E3%83%BC%E3%83%A0-%E6%9D%B1%E6%B9%BE%E7%B7%9A-%E5%9C%B0%E4%B8%8B%E9%89%84%E3%82%8F%E3%81%8B%E3%81%B0%E7%B7%9A%E7%B7%A8/id6827000949?uo=2",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:37:36+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "その時、運転士はどう動くか。 急病人救護、防護無線、踏切の異常。路線のすべての電車が一つのダイヤで走る中で起きる出来事に、運転台から対処する電車運転ゲームです。 ■ 何が起きるかは、走ってみるまでわからない シナリオの途中で、突然それは起きます。指令の列車無線を聞き、信号と表示器を確かめて、その場で判断します。 ・急病人の救護：前や後ろの電車で急病人。駅で何分か止まり、ダイヤが乱れはじめます ・防護無線：警報が鳴ったら、すぐに非常ブレーキ。指令の無線を待って再開します ・踏切の異常：特殊信号発光機が一瞬だけ光ります。見逃さずに止まれるか ・ドアの挟まり：発車した直後に車掌弁で止まります。出発合図のブザーを待って発車します ■ ダイヤが乱れたら、指令が抑止と運転間隔の調整をかける 前も後ろも向かいの線も、一つのダイヤで動いています。出来事で1本が止まれば、遅れは後ろへ伝わります。 抑止や調整がかかると、駅の運行指示器に発車の時刻が出ます。指令の無線を聞き、出た時刻まで発車を待って、前後の電車との間隔を整えます。 ■ 指令と同じ図で、路線のいまを見る 運行状況の画面では、時間を止めて、路線の全部の電車の位置と遅れ、信号と開通している進路が見えます。 ■ 朝から夜まで、地上から地下まで 朝・昼・夕方・夜で景色が変わります。夕方は日が沈む街を、夜は窓の灯りと駅の蛍光灯の中を、前照灯で線路を照らして走ります。 ■ ATS と ATC、両方で運転する 地上の区間は ATS-P、地下鉄は ATC。保安装置が速度を見張っています。パターンに近づけば知らせが出て、越えればブレーキがかかります。 ■ ドアを開け、発車メロディーを鳴らす 右のレバーを指で動かして、力行とブレーキを操ります。駅に着いたら、ドアを開け、発車メロディーを自分で鳴らし、ドアを閉めて発車。車掌の放送と駅の放送も流れます。 ■ 結果 停車位置・停車の衝動・安全運転の3つを、それぞれ S〜C で。 ■ 料金 ・アプリは無料です。無料のシナリオ 2 本（はじめての運転・夜の踏切）を、それぞれ10分以内で遊べます ・「すべてのシナリオ」（買い切り・980円）を購入すると、有料のシナリオ 17 本（合わせて約15時間30分）が遊べます。月額の支払いはありません ・購入したものは、同じアカウントの別の端末でも「購入を復元」で遊べます ※ この作品に出てくる路線・駅・会社・列車は、すべて架空のものです。 ※ 実在の鉄道会社とは関係ありません。",
+      "analysis": {
+        "app_key": "apple:6827000949",
+        "summary_ko": "열차 운전사가 되어 다이아그램에 맞춰 열차를 운행하고 돌발 상황에 대처하는 시뮬레이션 게임입니다. 급병, 신호 이상 등 다양한 상황에서 판단력을 요구합니다.",
+        "features_ko": [
+          "열차의 가속과 제동을 레버로 조작합니다.",
+          "급병, 신호 이상 등 돌발 상황에 대응합니다.",
+          "다이아그램에 맞춰 정확한 시간에 운행합니다.",
+          "ATS와 ATC 등 실제 보안 장치를 구현합니다.",
+          "역 도착 시 안내 방송과 발차 멜로디를 제어합니다."
+        ],
+        "noteworthy_ko": "철도 시뮬레이션이라는 니치한 장르를 매우 구체적으로 구현했습니다. 실제 철도 운행 시스템을 게임 로직으로 치환하는 과정이 매우 흥미롭습니다.",
+        "development_ko": "핵심 기술은 철도 다이아그램 시스템과 물리 기반 열차 제어입니다. 콘텐츠 제작은 시나리오별 상황 설정과 사운드 에셋 제작에 큰 부담이 따릅니다.",
+        "idea_ko": "열차 운행 중 발생하는 승객 민원을 처리하는 경영 시뮬레이션.",
+        "highlights_ko": [
+          "실제 철도 운행 시스템을 반영한 높은 몰입감.",
+          "다양한 돌발 상황을 통한 긴장감 있는 운행."
+        ],
+        "systems_ko": [
+          "열차 물리 제어 시스템",
+          "다이아그램 및 시간 관리 시스템",
+          "보안 장치(ATS/ATC) 로직",
+          "이벤트 트리거 시스템",
+          "사운드 및 안내 방송 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "철도 시스템에 대한 깊은 이해가 필요하며, 다이아그램과 보안 장치 로직 구현은 매우 복잡합니다. 1인 개발자가 완성하기엔 규모가 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 가속/제동 조작",
+            "역 정차 시스템"
+          ],
+          "defer": [
+            "다양한 돌발 상황",
+            "복잡한 보안 장치"
+          ],
+          "risks": [
+            "철도 시스템 구현의 복잡성",
+            "지루한 운행 과정의 재미 요소 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "역무원 시뮬레이터",
+            "concept": "운전 대신 역무원이 되어 승객의 안전을 관리하고 열차를 정시에 출발시키는 게임입니다.",
+            "first_step": "승객 승하차 애니메이션 및 발차 신호 로직 구현."
+          },
+          {
+            "title": "철도 관제사",
+            "concept": "운전이 아닌 관제실에서 열차의 간격을 조절하고 사고를 방지하는 전략 게임입니다.",
+            "first_step": "열차 위치를 보여주는 2D 지도 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "시뮬레이션 게임의 깊이 있는 구현을 원하는 개발자에게 추천합니다. 시스템 설계와 데이터 기반 게임 개발을 배우기에 좋습니다.",
+        "source_limitations_ko": "실제 물리 엔진의 정밀도나 시나리오의 논리적 구조, 인앱 결제 시스템의 구현 방식은 확인되지 않습니다.",
+        "name": "電車運転ゲーム-東湾線・地下鉄わかば線編-",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E9%9B%BB%E8%BB%8A%E9%81%8B%E8%BB%A2%E3%82%B2%E3%83%BC%E3%83%A0-%E6%9D%B1%E6%B9%BE%E7%B7%9A-%E5%9C%B0%E4%B8%8B%E9%89%84%E3%82%8F%E3%81%8B%E3%81%B0%E7%B7%9A%E7%B7%A8/id6827000949?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 225,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 5,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
+    },
+    "google:com.rxzggo.jp": {
+      "app_key": "google:com.rxzggo.jp",
+      "name": "熱血大作戦！- 三国志キングダムRPG",
+      "developer": "FW Game Studio",
+      "source": "google",
+      "country": "JP",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.rxzggo.jp&hl=ja&gl=JP",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:38:15+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "天地を喰らい尽くせ！ レトロ×熱血！ドット絵で蘇る本格三国志RPG『熱血大作戦！』 往年の名作アーケードや横スクロールアクションの魂を受け継ぐ、爽快バトル満載の三国志RPGがついに登場！ 後漢末期、群雄が覇を競う乱世――。 あなたは一国の主公となり、趙雲・関羽・呂布をはじめとする名将たちを率いて天下統一を目指します。 仲間を集め、宝物や装備を手に入れ、毎回変化するローグライクバトルへ挑戦！ 放置している間も武将は成長し続けるので、忙しい人でも気軽に楽しめます。 あの頃のドット絵アーケードゲームを思わせる懐かしさと、現代ならではの遊びやすさを融合した、新感覚の三国志アドベンチャーを体験しましょう！ ========================================= 【ゲームの特徴】 ◆ レトロアーケードの熱さが蘇るドット絵バトル どこか懐かしいドットグラフィックと、熱血アーケードアクションを思わせる爽快な演出。 三国志の英雄たちが迫力満点のバトルを繰り広げます。 ◆ 毎回異なるローグライクバトル プレイするたびに変化するスキルとイベント。 戦況に合わせて自由にビルドを組み立て、自分だけの戦い方を見つけよう！ ◆ 名将を集めて最強軍団を育成 趙雲、関羽、呂布、諸葛亮など、おなじみの三国武将が続々登場。 育成・装備・宝物・騎乗など、多彩な育成要素で最強の軍団を作り上げよう。 ◆ 放置育成でラクラク成長 ゲームを閉じている間も武将は自動で育成。 ログインするだけで豊富な報酬を獲得し、テンポ良く戦力を強化できます。 ◆ ランダムイベント満載の冒険 旅の途中では、思いがけない幸運や強敵との遭遇など、さまざまなイベントが待ち受けています。 毎回違う冒険があなたを待っています。 ◆ 爽快アクションと簡単操作 片手でも遊べるシンプル操作で、ド派手なスキルを一気に発動！ 誰でも気軽に爽快バトルを楽しめます。 ◆ 全国のプレイヤーと競うPvP ストーリーだけでは終わらない。 PvPやランキング、同盟コンテンツで仲間と協力しながら乱世の頂点を目指そう！ ========================================= 懐かしさと新しさが融合した、本格ドット絵三国志RPG。 スキマ時間には放置育成で手軽に。 時間のある時にはローグライク攻略やPvPでじっくり挑戦。 乱世を駆け抜け、最強の軍団を率いて天下統一を成し遂げよう！ 今こそ、英雄たちとともに熱き三国志の世界へ――！",
+      "analysis": {
+        "app_key": "google:com.rxzggo.jp",
+        "summary_ko": "삼국지 영웅들을 수집하고 육성하여 천하통일을 목표로 하는 도트 그래픽 RPG입니다. 로그라이크 방식의 전투와 방치형 성장 시스템을 결합하여 바쁜 현대인도 쉽게 즐길 수 있도록 설계되었습니다. PvP 및 동맹 콘텐츠를 통해 다른 플레이어와 경쟁하거나 협력할 수 있습니다.",
+        "features_ko": [
+          "도트 그래픽으로 구현된 삼국지 무장들의 화려한 전투를 즐길 수 있습니다.",
+          "매번 변화하는 스킬과 이벤트를 통해 로그라이크 방식의 전투를 경험합니다.",
+          "게임 접속을 종료해도 무장이 자동으로 성장하는 방치형 시스템을 지원합니다.",
+          "다양한 무장 수집과 장비, 보물, 기마 등 다채로운 육성 요소를 제공합니다.",
+          "PvP, 랭킹, 동맹 콘텐츠를 통해 다른 플레이어와 경쟁하고 협력합니다."
+        ],
+        "noteworthy_ko": "레트로한 도트 그래픽과 현대적인 방치형/로그라이크 시스템을 결합한 점이 특징입니다. 이는 고전 게임의 향수를 자극하면서도 모바일 환경의 편의성을 극대화하려는 전략으로 추정됩니다.",
+        "development_ko": "핵심 기술로는 로그라이크 전투 로직, 방치형 보상 계산 엔진, 그리고 실시간 PvP를 위한 서버 통신이 필요합니다. 콘텐츠 제작은 다수의 무장 캐릭터와 스킬 데이터 설계에 큰 부담이 따르며, 밸런스 조정은 방치형 보상과 과금 모델 간의 균형을 맞추는 것이 핵심입니다.",
+        "idea_ko": "로그라이크 전투 중 특정 무장 조합에 따라 고유한 '합체기'가 발동되는 시스템을 도입하면 전략적 깊이를 더할 수 있습니다.",
+        "highlights_ko": [
+          "레트로 아케이드 감성의 도트 그래픽과 현대적인 게임 시스템의 조화가 돋보입니다.",
+          "방치형 성장과 로그라이크 전략 전투를 결합하여 플레이어의 선택에 따라 다양한 경험을 제공합니다."
+        ],
+        "systems_ko": [
+          "로그라이크 전투 로직 및 스킬 랜덤 생성 시스템",
+          "방치형 보상 계산 및 오프라인 데이터 처리 시스템",
+          "캐릭터 육성 및 장비 강화 데이터 관리 시스템",
+          "PvP 매칭 및 랭킹 시스템",
+          "동맹 및 커뮤니티 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "방치형 RPG는 데이터 구조가 복잡하고 밸런스 조정이 매우 까다롭습니다. 특히 PvP와 로그라이크 요소를 모두 구현하는 것은 1인 개발자에게 상당한 기술적 도전입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 전투 시스템",
+            "캐릭터 수집 및 레벨업",
+            "방치형 보상 로직"
+          ],
+          "defer": [
+            "실시간 PvP",
+            "동맹 시스템",
+            "복잡한 로그라이크 이벤트"
+          ],
+          "risks": [
+            "캐릭터 간 밸런스 붕괴",
+            "방치형 보상과 플레이 시간 간의 불균형"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "무장 조합 카드 게임",
+            "concept": "전투 대신 무장 카드를 조합하여 특정 미션을 해결하는 카드 전략 게임으로 변형합니다.",
+            "first_step": "카드 덱 구성 및 상성 관계를 정의하는 프로토타입 구현."
+          },
+          {
+            "title": "도트 무장 디펜스",
+            "concept": "삼국지 무장들을 배치하여 몰려오는 적을 막아내는 디펜스 게임입니다.",
+            "first_step": "캐릭터 배치 및 적 이동 경로(Pathfinding) 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 RPG의 데이터 구조와 밸런스 설계 방식을 배우기에 적합합니다. 다만, 규모가 큰 프로젝트이므로 핵심 메커니즘 위주로 축소하여 개발하는 것을 권장합니다.",
+        "source_limitations_ko": "실제 로그라이크 전투의 구체적인 로직, 방치형 보상의 계산 공식, PvP 매칭 알고리즘은 소개문에서 확인할 수 없습니다.",
+        "name": "熱血大作戦！- 三国志キングダムRPG",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.rxzggo.jp&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 183,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
+    },
+    "google:com.hg.bfbb": {
+      "app_key": "google:com.hg.bfbb",
+      "name": "SpongeBob SquarePants BfBB",
+      "developer": "THQ Nordic Mobileㅤ",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.hg.bfbb&hl=en&gl=US",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:38:37+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Are you ready, kids? Play as SpongeBob, Patrick and Sandy and show the evil Plankton that crime pays even less than Mr. Krabs. Want to save Bikini Bottom from lots of rampant robots with your mighty bubbles? Of course you do! Want to underpants bungee jump? Why wouldn't you! The battle is on! Features: ● Play as SpongeBob, Patrick and Sandy and use their unique sets of skills ● Thwart Plankton's evil plan to rule Bikini Bottom with his army of wacky robots ● Meet countless characters from the beloved series ● Faithful remake of the classic original from 2003 ● High-end visuals, modern resolutions and carefully polished gameplay ● Full controller support ● Supports Google Play game services Thank you for playing SpongeBob SquarePants: Battle for Bikini Bottom! © 2026 Viacom International Inc., THQ Nordic GmbH, Purple Lamp Game Development GmbH, THQ Nordic Mobile GmbH",
+      "analysis": {
+        "app_key": "google:com.hg.bfbb",
+        "summary_ko": "스폰지밥, 뚱이, 다람이 캐릭터를 조작하여 비키니 시티를 위협하는 로봇 군단에 맞서는 3D 액션 어드벤처 게임입니다. 2003년 출시된 원작의 리메이크 버전으로, 현대적인 그래픽과 폴리싱된 게임 플레이를 제공합니다. 다양한 캐릭터 고유 기술을 활용하여 스테이지를 공략하는 재미를 느낄 수 있습니다.",
+        "features_ko": [
+          "스폰지밥, 뚱이, 다람이 등 각기 다른 고유 기술을 가진 캐릭터를 선택하여 플레이합니다.",
+          "비키니 시티를 점령하려는 로봇 군단을 물리치는 액션 전투를 수행합니다.",
+          "원작의 클래식한 재미를 현대적인 고해상도 그래픽으로 재현했습니다.",
+          "컨트롤러를 완벽하게 지원하여 조작 편의성을 높였습니다.",
+          "구글 플레이 게임 서비스를 통해 업적 및 데이터 연동을 지원합니다."
+        ],
+        "noteworthy_ko": "기존 IP를 활용한 리메이크 작업에서 원작의 핵심 재미를 유지하면서 현대적 환경에 맞게 비주얼을 개선하는 과정이 핵심입니다. 플랫폼 간의 조작성 최적화가 중요한 개발 포인트입니다.",
+        "development_ko": "3D 플랫폼 게임의 물리 엔진 구현과 캐릭터별 액션 로직 제작이 매우 중요합니다. 레벨 디자인과 적 AI의 패턴 설계가 게임의 완성도를 결정합니다. 리메이크의 경우 원작의 느낌을 살리는 아트 스타일 유지와 최신 기기에서의 성능 최적화가 큰 부담입니다.",
+        "idea_ko": "특정 캐릭터의 고유 능력을 활용한 '퍼즐 중심의 2D 플랫포머'가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "캐릭터별 고유 기술을 활용한 다채로운 액션 플레이를 제공합니다.",
+          "원작의 향수를 현대적인 그래픽으로 재해석한 리메이크 작품입니다."
+        ],
+        "systems_ko": [
+          "3D 캐릭터 컨트롤러 및 물리 엔진",
+          "캐릭터별 스킬 시스템",
+          "적 AI 및 전투 로직",
+          "레벨 디자인 및 맵 데이터 관리",
+          "UI 및 컨트롤러 입력 처리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "3D 액션 게임은 물리 엔진, 애니메이션, 레벨 디자인 등 고려할 요소가 매우 많습니다. 1인 개발자가 원작 수준의 퀄리티를 구현하는 것은 사실상 불가능하며, 핵심 메커니즘만 추출해도 높은 기술적 숙련도가 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 캐릭터 이동 및 점프",
+            "간단한 적 공격 및 피격 로직",
+            "단일 스테이지 레벨 디자인"
+          ],
+          "defer": [
+            "다양한 캐릭터 전환 시스템",
+            "복잡한 3D 그래픽 및 이펙트",
+            "컨트롤러 지원"
+          ],
+          "risks": [
+            "물리 엔진 구현의 복잡성",
+            "캐릭터 조작감 최적화 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "한 버튼 액션 플랫포머",
+            "concept": "점프와 공격을 하나의 버튼으로 처리하는 단순한 플랫포머입니다. 타이밍에 집중한 게임입니다.",
+            "first_step": "캐릭터가 자동으로 달리고 버튼을 누를 때만 점프하는 기본 로직 구현."
+          },
+          {
+            "title": "캐릭터 스위칭 퍼즐",
+            "concept": "두 캐릭터를 번갈아 조작하여 장애물을 통과하는 퍼즐 게임입니다. 각 캐릭터의 능력 차이를 활용합니다.",
+            "first_step": "캐릭터 전환 시 조작 대상이 바뀌는 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "3D 액션 게임의 기초적인 물리와 조작감을 배우기에 좋습니다. 다만, 대규모 프로젝트이므로 2D로 축소하여 핵심 메커니즘을 연습하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 게임의 구체적인 물리 엔진 정보나 레벨 디자인의 상세 구조는 나와 있지 않습니다. 또한, 리메이크 과정에서의 기술적 난제나 최적화 방식에 대한 정보는 없습니다.",
+        "name": "SpongeBob SquarePants BfBB",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.hg.bfbb&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 174,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
     }
   }
 }

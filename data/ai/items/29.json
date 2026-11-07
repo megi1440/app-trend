@@ -9984,6 +9984,274 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-07"
+    },
+    "itch:53d2e859b02185ce00fd": {
+      "app_key": "itch:53d2e859b02185ce00fd",
+      "name": "Thawbringer (Demo) [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://smallhearth.itch.io/thawbringer",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:35:48+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Your heat is your life. Spend it to survive. A fiery action roguelite in a frozen keep.",
+      "analysis": {
+        "app_key": "itch:53d2e859b02185ce00fd",
+        "summary_ko": "얼어붙은 성을 배경으로 하는 액션 로그라이트 게임입니다. 체온이 곧 생명력이며, 생존을 위해 체온을 소모해야 하는 독특한 메커니즘을 가집니다.",
+        "features_ko": [
+          "체온을 생명력으로 사용하여 행동을 결정합니다.",
+          "로그라이트 장르 특유의 무작위 요소가 포함됩니다.",
+          "얼어붙은 성이라는 환경에서 전투와 생존을 수행합니다."
+        ],
+        "noteworthy_ko": "체온이라는 자원을 생명력과 행동력으로 동시에 사용하는 시스템이 전략적 깊이를 더합니다. 로그라이트 장르의 반복 플레이 요소를 어떻게 구현했는지가 핵심입니다.",
+        "development_ko": "캐릭터 상태 관리 시스템과 로그라이트의 무작위 맵 생성 알고리즘이 필요합니다. 전투 밸런스와 체온 소모량의 균형을 맞추는 테스트가 중요합니다.",
+        "idea_ko": "체온을 회복하기 위한 특정 오브젝트나 환경 요소를 전략적으로 배치하는 맵 생성기를 만드는 것이 좋습니다.",
+        "highlights_ko": [
+          "체온을 자원으로 사용하는 독창적인 생존 메커니즘입니다.",
+          "로그라이트 장르의 긴장감 넘치는 전투를 제공합니다."
+        ],
+        "systems_ko": [
+          "캐릭터 상태 관리 시스템",
+          "절차적 맵 생성 시스템",
+          "전투 및 데미지 판정",
+          "로그라이트 데이터 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "로그라이트 장르의 맵 생성과 밸런싱은 1인 개발자에게 상당한 작업량과 정교한 설계를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "체온 감소 및 사망 로직",
+            "기본 전투 시스템"
+          ],
+          "defer": [
+            "복잡한 맵 생성 알고리즘",
+            "다양한 아이템 및 스킬 트리"
+          ],
+          "risks": [
+            "전투 밸런스 붕괴",
+            "반복 플레이의 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "체온 공유 멀티플레이",
+            "concept": "두 플레이어가 서로 가까이 있을 때 체온을 공유하는 협동 모드입니다.",
+            "first_step": "거리 기반 체온 공유 로직 구현."
+          },
+          {
+            "title": "환경 변화 로그라이트",
+            "concept": "시간이 지날수록 맵 전체의 온도가 낮아지는 환경 변화 시스템입니다.",
+            "first_step": "전역 온도 변수와 그에 따른 데미지 적용 로직."
+          }
+        ],
+        "recommendation_ko": "로그라이트 게임의 핵심 루프와 상태 관리 시스템을 배우기에 매우 좋습니다. 난이도 조절 능력을 키우고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "데모 버전의 구체적인 콘텐츠 범위, 정식 버전의 출시 계획, 네트워크 기능 포함 여부 등이 확인되지 않았습니다.",
+        "name": "Thawbringer (Demo) [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://smallhearth.itch.io/thawbringer",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 368,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 4,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
+    },
+    "google:com.playdigious.sor4": {
+      "app_key": "google:com.playdigious.sor4",
+      "name": "베어 너클 4 (Streets of Rage 4)",
+      "developer": "Playdigious",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.playdigious.sor4&hl=ko&gl=KR",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:36:27+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Streets of Rage 4 takes forward the Streets of Rage legacy in this retro beat'em up with hand-drawn comic inspired graphics and updated mechanics. Streets of Rage comes back for a sequel 25 years after the last episode : a new crime syndicate seems to have taken control of the streets and corrupted the police. All you have to fight against them is your friends... and your fists ! Critically acclaimed, Streets of Rage 4 won several awards and nominated as Best Action Games at the 2020 Game Awards. FEATURES - Rediscover the classic Beat em up Streets of Rage Franchise with new fight mechanics - Get thrilled by the Retro hand-drawn comics-inspired artistic direction by the studio behind Wonder Boy: The Dragon’s Trap serving juicy animations & vivid FX - Unlock up to 5 new & emblematic playable characters and fight your way through 12 various stages to bring back order to the streets - Challenge yourself in different modes : Story, Training, Arcade... - Listen to a new Electro OST with world class musicians such as Olivier Derivière and legend Yuzo Koshiro - Get retro with up to 13 alternative retro characters, secret retro levels or choose the SoR1&2 OST and enable the Retro Pixel graphics ! Multiplayer is not available for devices with Intel/AMD processors because of technical limitations. Mr. X Nightmare DLC The fight continues in Wood Oak City. After the events of Streets of Rage 4, our heroes wanted to prepare themselves for future threats. Axel, Blaze and their mates will start a very special deranged training with the help of Dr. Zan, who built an AI program from the remnants of Mister X’s brain that simulates every kind of danger they could be facing. With this DLC, get ready for: • 3 new playable characters • A new Survival mode with weekly challenges • Character customization: build your own fighting style with new moves • New weapons and enemies! CAREFULLY REDESIGNED FOR MOBILE - Revamped interface - Google Play Games achievements - Compatible with controllers - No micro-transactions! Crack your knuckles and get ready for Streets of Rage 4 everywhere you go! If you run into a problem, please contact us at support@playdigious.mail.helpshift.com with as much information as possible on the issue, or check our FAQ at https://playdigious.helpshift.com/hc/en/6-streets-of-rage-4/",
+      "analysis": {
+        "app_key": "google:com.playdigious.sor4",
+        "summary_ko": "베어 너클 4는 고전 벨트스크롤 액션 게임의 명맥을 잇는 작품으로, 손으로 그린 만화 스타일의 그래픽과 현대적인 액션 메커니즘을 결합했습니다. 플레이어는 다양한 캐릭터를 선택하여 범죄 조직에 맞서 싸우며 12개의 스테이지를 공략합니다. 스토리, 아케이드, 서바이벌 등 다양한 모드를 통해 액션 게임의 재미를 제공합니다.",
+        "features_ko": [
+          "고전적인 벨트스크롤 액션에 현대적인 전투 메커니즘을 추가했습니다.",
+          "손으로 그린 만화 스타일의 그래픽과 애니메이션을 제공합니다.",
+          "5명의 신규 캐릭터와 13명의 레트로 캐릭터를 선택할 수 있습니다.",
+          "스토리, 트레이닝, 아케이드, 서바이벌 등 다양한 게임 모드를 지원합니다.",
+          "컨트롤러를 지원하며 모바일 환경에 최적화된 인터페이스를 제공합니다."
+        ],
+        "noteworthy_ko": "고전 IP를 현대적인 아트 스타일로 재해석한 점이 개발 관점에서 매우 흥미롭습니다. 특히 DLC를 통해 AI 기반의 서바이벌 모드를 추가한 점은 콘텐츠 확장성 측면에서 주목할 만합니다.",
+        "development_ko": "핵심 기술은 2D 캐릭터 애니메이션 시스템과 다수의 적을 처리하는 AI 로직입니다. 콘텐츠 제작은 12개 스테이지의 레벨 디자인과 캐릭터별 액션 밸런스 조정에 큰 부담이 따릅니다. 모바일 최적화와 컨트롤러 입력 처리가 기술적 난이도를 결정합니다.",
+        "idea_ko": "특정 캐릭터의 액션 스타일을 커스터마이징하여 나만의 콤보를 만드는 시스템을 소규모로 구현해 보는 것을 추천합니다.",
+        "highlights_ko": [
+          "고전 프랜차이즈의 현대적 재해석과 고품질 아트워크.",
+          "다양한 모드와 캐릭터 커스터마이징을 통한 높은 반복 플레이 가치."
+        ],
+        "systems_ko": [
+          "2D 물리 및 충돌 판정 시스템",
+          "캐릭터 상태 머신(FSM)",
+          "적 AI 행동 트리",
+          "입력 처리 및 콤보 시스템",
+          "레벨 데이터 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "벨트스크롤 액션은 다수의 적 AI, 정교한 타격 판정, 애니메이션 연동 등 구현해야 할 시스템이 매우 많습니다. 1인 개발 시 전체 콘텐츠를 복제하는 것은 불가능에 가까우며, 핵심 메커니즘만 구현하는 데도 상당한 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이동 및 공격 시스템",
+            "적 캐릭터의 단순 AI",
+            "타격 판정 및 피격 애니메이션"
+          ],
+          "defer": [
+            "멀티플레이어 모드",
+            "12개 이상의 방대한 스테이지",
+            "복잡한 캐릭터 커스터마이징"
+          ],
+          "risks": [
+            "타격감 구현의 어려움",
+            "다수의 적 등장 시 성능 최적화 문제",
+            "애니메이션 리소스 제작 부담"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "1대1 콤보 연습기",
+            "concept": "하나의 스테이지에서 적 하나를 상대로 다양한 콤보를 연습하는 훈련 모드입니다.",
+            "first_step": "캐릭터의 기본 공격과 콤보 입력 로직 구현."
+          },
+          {
+            "title": "웨이브 방어 액션",
+            "concept": "몰려오는 적들을 제한된 공간에서 막아내는 서바이벌 방식의 미니 게임입니다.",
+            "first_step": "적 생성기(Spawner)와 간단한 AI 로직 구현."
+          }
+        ],
+        "recommendation_ko": "2D 액션 게임의 정석적인 시스템을 공부하기에 매우 좋은 사례입니다. 다만, 1인 개발자에게는 구현 범위가 매우 넓으므로 핵심 메커니즘 하나에 집중하는 것을 권장합니다.",
+        "source_limitations_ko": "멀티플레이어 기능의 기술적 제약은 명시되어 있으나, 구체적인 네트워크 구현 방식이나 서버 구조는 알 수 없습니다. 인앱 결제나 보안 관련 상세 정보는 제공되지 않았습니다.",
+        "name": "베어 너클 4 (Streets of Rage 4)",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.playdigious.sor4&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 354,
+        "reasons": [
+          "multi_country",
+          "newly_seen"
+        ],
+        "best_rank": 12,
+        "countries": [
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
+    },
+    "itch:75ccf0c2ed054654edb4": {
+      "app_key": "itch:75ccf0c2ed054654edb4",
+      "name": "IRON MAT [Free] [Fighting] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://vape188.itch.io/iron-mat",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:37:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Fast 3D boxing game: block, punch and win 3 rounds.",
+      "analysis": {
+        "app_key": "itch:75ccf0c2ed054654edb4",
+        "summary_ko": "빠른 템포의 3D 복싱 게임입니다. 3라운드 동안 상대와 대결하며 공격과 방어를 수행합니다. 승리를 위해 전략적인 타격과 방어가 요구됩니다.",
+        "features_ko": [
+          "3D 환경에서 진행되는 복싱 대결을 제공합니다.",
+          "공격과 방어 메커니즘을 사용하여 3라운드 동안 승부를 겨룹니다."
+        ],
+        "noteworthy_ko": "3D 격투 게임의 핵심인 히트박스 판정과 애니메이션 블렌딩이 중요합니다. 1인 개발 시 복잡한 물리 엔진보다는 단순화된 판정 시스템이 효율적일 것으로 추정됩니다.",
+        "development_ko": "캐릭터 애니메이션 제작과 입력 반응 속도가 게임의 재미를 결정합니다. 3D 모델링과 충돌 판정 구현에 많은 리소스가 소요될 것으로 보입니다.",
+        "idea_ko": "단순한 복싱을 넘어 특정 리듬에 맞춰 타격하는 '리듬 복싱' 방식이 구현하기 좋습니다.",
+        "highlights_ko": [
+          "3라운드제라는 명확한 게임 규칙을 가지고 있습니다.",
+          "빠른 템포의 액션을 지향합니다."
+        ],
+        "systems_ko": [
+          "3D 캐릭터 컨트롤러",
+          "충돌 및 히트박스 판정 시스템",
+          "라운드 관리 및 점수 시스템",
+          "AI 대전 상대 로직"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "3D 격투 게임은 애니메이션의 자연스러움과 정교한 충돌 판정이 필수적입니다. 1인이 이를 모두 구현하고 밸런스를 맞추는 것은 상당한 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 공격 및 방어 애니메이션",
+            "히트박스 판정",
+            "라운드 타이머 및 체력바"
+          ],
+          "defer": [
+            "다양한 캐릭터 선택",
+            "복잡한 콤보 시스템"
+          ],
+          "risks": [
+            "애니메이션 간의 부자연스러운 전환",
+            "AI 대전 상대의 지능 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "그림자 복싱",
+            "concept": "자신의 이전 플레이 기록과 대결하는 복싱 게임입니다. 자신의 실수를 보완하며 성장하는 과정을 담습니다.",
+            "first_step": "플레이어의 입력 데이터를 기록하고 재생하는 시스템 구현."
+          },
+          {
+            "title": "원버튼 복싱",
+            "concept": "버튼 하나로 타이밍을 맞춰 공격과 방어를 전환하는 단순화된 격투 게임입니다. 조작은 쉽지만 타이밍이 중요합니다.",
+            "first_step": "타이밍에 따른 공격/방어 판정 로직 구현."
+          }
+        ],
+        "recommendation_ko": "3D 액션 게임의 기본 구조를 익히기에 적합합니다. 격투 게임의 판정 로직을 공부하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "AI의 수준, 조작 방식의 상세, 캐릭터의 다양성 등은 확인되지 않습니다.",
+        "name": "IRON MAT [Free] [Fighting] [Windows]",
+        "source": "itch",
+        "detail_url": "https://vape188.itch.io/iron-mat",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 290,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
     }
   }
 }

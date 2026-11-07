@@ -10164,6 +10164,183 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-07"
+    },
+    "itch:bd9809e6a3d7808faacb": {
+      "app_key": "itch:bd9809e6a3d7808faacb",
+      "name": "Five Tries [Free] [Rhythm]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://five-tries.itch.io/five-tries",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:37:03+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A one-button rhythm game set in a club. Five tries a night. Make them count.",
+      "analysis": {
+        "app_key": "itch:bd9809e6a3d7808faacb",
+        "summary_ko": "Five Tries는 클럽을 배경으로 한 원 버튼 리듬 게임입니다. 하룻밤에 단 다섯 번의 기회만 주어지며, 신중한 플레이가 요구됩니다. 긴장감 넘치는 리듬 액션을 경험할 수 있습니다.",
+        "features_ko": [
+          "원 버튼 입력을 통해 리듬에 맞춰 상호작용합니다.",
+          "하룻밤에 5회라는 제한된 기회를 제공하여 긴장감을 높입니다.",
+          "클럽 분위기의 시각적, 청각적 테마를 사용합니다."
+        ],
+        "noteworthy_ko": "리듬 게임에서 '기회 제한'을 도입하여 실패에 대한 압박감을 극대화한 점이 흥미롭습니다. 개발 관점에서 음악의 비트와 입력 타이밍을 동기화하는 오디오 엔진 구현이 핵심입니다.",
+        "development_ko": "오디오 동기화 기술, 입력 판정 시스템, 게임 상태 관리자가 핵심입니다. 음악 데이터와 입력 타이밍을 맞추는 밸런스 작업이 가장 큰 부담이며, 테스트 과정에서 정확한 판정 로직이 필요합니다.",
+        "idea_ko": "기회 제한을 활용하여, 성공할 때마다 음악의 비트가 빨라지는 '점진적 난이도' 모드를 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "제한된 기회를 통해 리듬 게임에 긴장감을 부여했습니다.",
+          "클럽 테마를 활용한 몰입감 있는 분위기를 조성합니다."
+        ],
+        "systems_ko": [
+          "오디오 동기화 시스템",
+          "입력 타이밍 판정 엔진",
+          "게임 상태 관리자",
+          "UI 피드백 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "리듬 게임의 핵심인 오디오 동기화는 기술적 정밀함이 필요합니다. 하지만 원 버튼 방식이라 조작 체계가 단순하여 1인 개발자가 구현하기에 적절합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "음악 비트와 입력 판정 동기화",
+            "기회 카운트 시스템",
+            "기본적인 판정 UI"
+          ],
+          "defer": [
+            "다양한 음악 트랙",
+            "온라인 리더보드"
+          ],
+          "risks": [
+            "입력 지연(Latency)으로 인한 판정 오류",
+            "음악 저작권 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "비트 믹서",
+            "concept": "성공할 때마다 음악의 악기가 하나씩 추가되어 곡이 완성되는 방식입니다. 리듬 게임에 창작의 재미를 더합니다.",
+            "first_step": "입력 성공 시 특정 사운드 트랙을 레이어링하는 기능 구현."
+          },
+          {
+            "title": "시각적 리듬",
+            "concept": "음악뿐만 아니라 화면의 조명 변화에 맞춰 버튼을 눌러야 합니다. 시각과 청각을 동시에 활용하는 리듬 게임입니다.",
+            "first_step": "음악 비트에 맞춰 화면 조명 색상을 변경하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "리듬 게임의 핵심인 타이밍 판정과 오디오 처리 기술을 배우기에 매우 좋습니다. 단순한 규칙으로 깊은 몰입감을 만드는 방법을 연구하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "판정의 정확도 기준, 음악 데이터의 처리 방식, 클럽 분위기를 구현하는 시각적 요소에 대한 정보가 부족합니다.",
+        "name": "Five Tries [Free] [Rhythm]",
+        "source": "itch",
+        "detail_url": "https://five-tries.itch.io/five-tries",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 302,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
+    },
+    "google:com.monkeys.freshquest": {
+      "app_key": "google:com.monkeys.freshquest",
+      "name": "WendyQuest",
+      "developer": "81monkeys",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.monkeys.freshquest&hl=en&gl=US",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:40:16+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "WendyQuest is 100% fresh and 100% human made! From Wendy’s & 81Monkeys comes WendyQuest: Legend of the Four Corner Stones, a classic RPG adventure where you earn real food as you play. Dr. Mechborg and his mechs have spread a curse called “Mechtosis” across Savoria using soggy fries, frozen beef & other culinary atrocities. Only Wendy - armed with sacred spatulas, fresh beef, and an ancient prophecy - can restore order to Savoria’s people and end the mechademic once and for all. -------- KEY FEATURES: QUEST across five food-themed regions of Savoria. BATTLE flavorless foes in strategic turn-based combat. COMMAND culinary companions with special abilities. SOLVE fresh, never-frozen puzzles. CONQUER 5 unique Mech Bosses. EARN rewards you can eat IRL.",
+      "analysis": {
+        "app_key": "google:com.monkeys.freshquest",
+        "summary_ko": "WendyQuest는 턴제 전투와 퍼즐 요소를 결합한 RPG 게임입니다. 플레이어는 다양한 음식 테마의 지역을 탐험하며 적과 싸우고, 실제 음식 보상을 획득할 수 있습니다. Wendy 캐릭터와 함께 요리 테마의 적들을 물리치며 스토리를 진행합니다.",
+        "features_ko": [
+          "음식을 테마로 한 5개의 지역을 탐험하며 퀘스트를 수행합니다.",
+          "전략적인 턴제 전투 시스템을 통해 적들과 대결합니다.",
+          "요리 테마의 동료들을 지휘하여 특수 능력을 사용합니다.",
+          "퍼즐을 해결하여 게임을 진행하고 실제 음식 보상을 획득합니다."
+        ],
+        "noteworthy_ko": "게임 내 보상을 실제 오프라인 매장(Wendy's)의 음식으로 연결한 O2O(Online to Offline) 마케팅 모델이 매우 흥미롭습니다. 게임 플레이가 실제 소비로 이어지는 강력한 동기부여 구조를 가지고 있습니다.",
+        "development_ko": "턴제 전투 시스템의 밸런스 설계와 퍼즐 로직 구현이 핵심입니다. 실제 음식 보상 연동을 위한 쿠폰 발급 및 검증 시스템이 필요합니다. 다양한 캐릭터와 적의 애니메이션 제작 등 리소스 제작 부담이 큽니다.",
+        "idea_ko": "지역 상점과 연계하여 특정 장소에 방문하면 게임 내 아이템을 획득하는 '위치 기반 보상' 시스템이 적합합니다.",
+        "highlights_ko": [
+          "음식 테마의 독창적인 RPG 세계관.",
+          "게임 플레이와 실제 음식 보상을 연결한 보상 체계."
+        ],
+        "systems_ko": [
+          "턴제 전투 엔진",
+          "퍼즐 생성 및 판정 로직",
+          "캐릭터 능력치 및 스킬 관리",
+          "보상 쿠폰 발급 및 검증 시스템",
+          "게임 데이터 관리 및 밸런스 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "전투 시스템, 퍼즐, 캐릭터 성장 등 RPG의 핵심 요소를 모두 구현해야 하며, 실제 보상 연동을 위한 백엔드 시스템 구축이 매우 복잡합니다. 1인 개발 시 콘텐츠 양을 조절하는 것이 관건입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 턴제 전투 시스템",
+            "퍼즐 스테이지 구현",
+            "보상 획득 로직"
+          ],
+          "defer": [
+            "복잡한 캐릭터 성장 트리",
+            "실제 매장 연동 쿠폰 시스템"
+          ],
+          "risks": [
+            "전투 밸런스 조절 실패",
+            "콘텐츠 제작량 과다로 인한 개발 지연"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "요리 레시피 수집",
+            "concept": "전투에서 승리하면 요리 재료를 얻고, 이를 조합하여 새로운 레시피를 완성하는 도감 시스템입니다.",
+            "first_step": "재료 아이템 데이터와 조합 결과물을 매핑하는 데이터베이스를 설계합니다."
+          },
+          {
+            "title": "음식 테마 타워 디펜스",
+            "concept": "몰려오는 불량 식품 적들을 요리 도구 타워를 배치하여 막아내는 디펜스 게임입니다.",
+            "first_step": "타워 배치와 적의 이동 경로를 처리하는 기본 디펜스 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "RPG 게임의 기본 구조와 보상 시스템 설계를 배우고 싶은 개발자에게 추천합니다. 다만, 실제 보상 연동은 기업 수준의 인프라가 필요하므로 개인 개발 시에는 가상의 보상으로 대체하는 것을 권장합니다.",
+        "source_limitations_ko": "소개문에는 실제 음식 보상을 어떻게 지급하는지, 매장 시스템과의 연동 방식, 보안 및 부정 사용 방지 대책에 대한 정보가 없습니다.",
+        "name": "WendyQuest",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.monkeys.freshquest&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 53,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
     }
   }
 }

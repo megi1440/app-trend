@@ -9107,6 +9107,357 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-07"
+    },
+    "itch:dbd3330f0fa84a8ec013": {
+      "app_key": "itch:dbd3330f0fa84a8ec013",
+      "name": "Maths Hero - Quiz Adventure [Free] [Educational]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://januka2001.itch.io/math",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:37:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Fun math quiz for kids 8-10! 15 challenges, stars & trophies. Learn while playing!",
+      "analysis": {
+        "app_key": "itch:dbd3330f0fa84a8ec013",
+        "summary_ko": "8~10세 아동을 대상으로 한 수학 퀴즈 어드벤처 게임입니다. 15개의 도전 과제를 해결하며 별과 트로피를 획득할 수 있습니다. 놀이를 통해 수학을 학습하는 교육용 게임입니다.",
+        "features_ko": [
+          "8~10세 아동을 위한 수학 퀴즈를 제공합니다.",
+          "15개의 도전 과제를 통해 학습 성취감을 줍니다.",
+          "별과 트로피 시스템으로 보상을 제공합니다."
+        ],
+        "noteworthy_ko": "교육적 요소와 게임적 재미를 결합한 점이 특징입니다. 아동의 눈높이에 맞춘 UI와 난이도 곡선 설계가 중요합니다.",
+        "development_ko": "수학 문제 생성 알고리즘과 학습 데이터 관리가 핵심입니다. 아동이 흥미를 잃지 않도록 보상 시스템을 정교하게 설계해야 합니다.",
+        "idea_ko": "수학 문제를 풀 때마다 캐릭터가 성장하는 RPG 요소를 결합하는 것이 좋습니다.",
+        "highlights_ko": [
+          "교육과 게임을 결합하여 학습 동기를 부여합니다.",
+          "명확한 보상 체계(별, 트로피)를 갖추고 있습니다."
+        ],
+        "systems_ko": [
+          "수학 문제 생성 엔진",
+          "사용자 진행도 및 보상 시스템",
+          "아동 친화적 UI/UX",
+          "학습 데이터 관리"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "게임의 핵심 메커니즘이 단순하고 교육용 콘텐츠이므로 복잡한 물리나 네트워크가 필요 없습니다. 1인 개발로 충분히 완성도 있게 제작 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "수학 문제 출제 로직",
+            "정답 판정 시스템",
+            "보상(별/트로피) UI"
+          ],
+          "defer": [
+            "복잡한 스토리 연출",
+            "온라인 랭킹 시스템"
+          ],
+          "risks": [
+            "문제의 난이도 밸런스 실패",
+            "반복적인 문제로 인한 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "수학 모험가",
+            "concept": "수학 문제를 풀어야만 다음 구역으로 이동할 수 있는 어드벤처 게임입니다. 문제 풀이가 곧 탐험의 열쇠가 됩니다.",
+            "first_step": "간단한 퀴즈와 맵 이동 로직 구현."
+          },
+          {
+            "title": "수학 타워 디펜스",
+            "concept": "수학 문제를 맞히면 타워를 설치하거나 업그레이드할 수 있는 디펜스 게임입니다. 학습과 전략을 동시에 즐깁니다.",
+            "first_step": "정답 시 타워가 생성되는 기본 로직 구현."
+          }
+        ],
+        "recommendation_ko": "교육용 게임 개발의 기초를 배우기에 매우 좋습니다. 아동용 콘텐츠의 UI/UX를 고민하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "문제의 구체적인 유형, 난이도 조절 방식, 교육적 효과 검증 여부 등은 확인되지 않습니다.",
+        "name": "Maths Hero - Quiz Adventure [Free] [Educational]",
+        "source": "itch",
+        "detail_url": "https://januka2001.itch.io/math",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 281,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 33,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
+    },
+    "google:games.redbricks.businessworld": {
+      "app_key": "google:games.redbricks.businessworld",
+      "name": "Business World: Poor to Rich",
+      "developer": "Appodeal Accelerator Labs",
+      "source": "google",
+      "country": "US",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=games.redbricks.businessworld&hl=en&gl=US",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:38:37+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "- Tap to stack cash 🤑 - Reinvest and watch it snowball 📈 - Conquer the world, continent by continent 🌍 - Flex the good life: supercars 🏎️ yachts 🛥️ jets ✈️ gold watches ⌚ From a cardboard box to the penthouse. How fast can you go from poor to RICH?",
+      "analysis": {
+        "app_key": "google:games.redbricks.businessworld",
+        "summary_ko": "탭을 통해 돈을 쌓고 재투자하여 가난에서 부자가 되는 과정을 다룬 경영 시뮬레이션 게임입니다. 대륙을 정복하며 슈퍼카, 요트, 제트기 등 호화로운 삶을 누리는 것이 목표입니다. 단순한 클릭커 메커니즘을 통해 빠르게 성장하는 재미를 제공합니다.",
+        "features_ko": [
+          "화면을 탭하여 현금을 쌓는 클릭커 방식을 채택했습니다.",
+          "획득한 현금을 재투자하여 수익을 극대화하는 경영 시스템을 갖췄습니다.",
+          "대륙별로 사업을 확장하며 세계를 정복하는 목표를 제시합니다.",
+          "슈퍼카, 요트 등 다양한 호화 아이템을 수집하여 부를 과시할 수 있습니다."
+        ],
+        "noteworthy_ko": "클릭커 게임의 핵심인 '점진적 보상(Incremental Reward)' 구조가 명확합니다. 단순한 탭 동작이 자산 증식으로 이어지는 시각적 피드백이 사용자에게 성취감을 주는 핵심 요소입니다.",
+        "development_ko": "클릭 이벤트 처리와 재화 증식 로직이 핵심입니다. 데이터 저장 및 불러오기 시스템이 중요하며, UI/UX가 게임의 재미를 결정합니다. 콘텐츠 제작 부담은 낮으나, 사용자가 지루함을 느끼지 않도록 성장 곡선(밸런스)을 정교하게 설계해야 합니다.",
+        "idea_ko": "단순 클릭이 아닌 '특정 자원을 관리하며 효율을 높이는 경영 시뮬레이션'이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "가난에서 부자로 성장하는 명확한 목표와 보상 체계를 제공합니다.",
+          "탭 기반의 직관적인 조작으로 누구나 쉽게 즐길 수 있습니다."
+        ],
+        "systems_ko": [
+          "클릭 이벤트 및 재화 계산 로직",
+          "재투자 및 수익률 계산 시스템",
+          "데이터 저장 및 로드(세이브)",
+          "UI/UX 인터페이스",
+          "성장 밸런스 데이터 테이블"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "구현 난이도가 낮고 핵심 메커니즘이 단순하여 1인 개발자가 완성하기에 가장 적합한 장르입니다. 데이터 관리와 밸런스 조정에만 집중하면 됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "탭 시 재화 증가 로직",
+            "재투자 버튼 및 수익 증가 기능",
+            "기본적인 UI 구성"
+          ],
+          "defer": [
+            "대륙 정복 시스템",
+            "호화 아이템 수집 요소",
+            "클라우드 저장"
+          ],
+          "risks": [
+            "단조로운 게임 플레이로 인한 빠른 흥미 상실",
+            "밸런스 설계 실패 시 성장 정체"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "편의점 경영 클릭커",
+            "concept": "손님을 클릭하여 물건을 팔고, 번 돈으로 매대를 늘리는 경영 게임입니다.",
+            "first_step": "손님 클릭 시 재화가 증가하는 기본 로직 구현."
+          },
+          {
+            "title": "우주 정거장 건설",
+            "concept": "자원을 탭하여 모으고, 우주 정거장의 모듈을 하나씩 건설해 나가는 게임입니다.",
+            "first_step": "건설 버튼을 누르면 시간이 지나고 결과물이 나오는 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "게임 개발의 기초인 데이터 관리와 UI 연동을 배우기에 최적입니다. 밸런스 설계의 중요성을 깨닫기에 좋은 프로젝트입니다.",
+        "source_limitations_ko": "소개문에는 구체적인 재화 증가 공식이나 밸런스 수치에 대한 정보가 없습니다. 또한, 광고 수익 모델이나 인앱 결제 연동에 대한 상세 정보는 확인되지 않습니다.",
+        "name": "Business World: Poor to Rich",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=games.redbricks.businessworld&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 174,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
+    },
+    "apple:6751973408": {
+      "app_key": "apple:6751973408",
+      "name": "사회자 없는 마피아 게임",
+      "developer": "Aves LLC.",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_card",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%82%AC%ED%9A%8C%EC%9E%90-%EC%97%86%EB%8A%94-%EB%A7%88%ED%94%BC%EC%95%84-%EA%B2%8C%EC%9E%84/id6751973408?uo=2",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:39:55+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "'사회자 없는 마피아 게임' 드디어 출시! 엠티, 술자리에서 친구들이랑 마피아를 하고 싶은데, 꼭 사회자가 한 명 있어야해서 불편하셨나요? 폰 하나만 있으면 충분합니다! '사회자 없는 마피아 게임'으로 즐겁게 마피아 게임을 즐겨보세요! - 이용약관: https://aves.llc/mafia/terms-of-service-ko",
+      "analysis": {
+        "app_key": "apple:6751973408",
+        "summary_ko": "이 앱은 별도의 사회자 없이 스마트폰 하나로 마피아 게임을 진행할 수 있게 돕는 도구입니다. 사회자가 게임에 참여하지 못하는 불편함을 해소하기 위해 설계되었습니다.",
+        "features_ko": [
+          "사회자 없이 앱이 게임의 진행을 담당합니다.",
+          "스마트폰 하나로 여러 명이 함께 게임을 즐길 수 있습니다."
+        ],
+        "noteworthy_ko": "사회자의 역할을 앱이 대체함으로써 모든 인원이 플레이어로 참여할 수 있게 한 점이 핵심입니다. 오프라인 모임의 불편함을 기술로 해결한 실용적인 접근입니다.",
+        "development_ko": "게임 상태 관리(직업 배정, 밤/낮 전환)와 플레이어 간의 정보 전달 로직이 핵심입니다. UI는 직관적이어야 하며, 여러 명이 기기를 돌려가며 사용할 때의 보안(본인 확인) 처리가 중요합니다.",
+        "idea_ko": "게임 종료 후 각 플레이어의 투표 패턴이나 행동을 분석하여 '오늘의 MVP'나 '가장 의심받은 사람'을 알려주는 통계 기능을 제안합니다.",
+        "highlights_ko": [
+          "사회자 없이 게임 진행이 가능하여 참여 인원 전원이 플레이 가능합니다.",
+          "기기 하나로 다수가 즐기는 오프라인 최적화 게임입니다."
+        ],
+        "systems_ko": [
+          "게임 상태 머신(밤/낮/투표)",
+          "플레이어 직업 배정 로직",
+          "입력 판정 및 UI 관리"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "게임의 규칙이 명확하고 복잡한 그래픽이나 네트워크 통신이 필수가 아니므로 개인 개발자가 구현하기에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "인원수 설정 및 직업 배정",
+            "밤/낮 전환 및 안내 메시지 출력"
+          ],
+          "defer": [
+            "온라인 멀티플레이",
+            "사용자 프로필 저장"
+          ],
+          "risks": [
+            "기기를 돌려볼 때의 정보 노출 위험",
+            "게임 진행 중 오류 발생 시 복구 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "투표 패턴 분석기",
+            "concept": "게임 종료 후 누가 누구를 투표했는지 시각화하여 보여줍니다. 게임의 복기 과정을 통해 재미를 더합니다.",
+            "first_step": "투표 데이터를 배열로 저장하고 출력하는 기능 구현."
+          },
+          {
+            "title": "커스텀 직업 추가",
+            "concept": "기본 마피아 외에 사용자가 직접 특수 능력을 가진 직업을 생성할 수 있게 합니다.",
+            "first_step": "직업 이름과 능력을 입력받아 게임 로직에 반영하는 설정 화면 구현."
+          }
+        ],
+        "recommendation_ko": "오프라인 게임의 디지털화 과정을 배우기에 적합합니다. 상태 관리와 로직 구현의 기초를 다지려는 개발자에게 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 규칙(직업 종류, 밤 시간 처리 방식)이 설명에 명시되지 않았습니다. 보안 기능이나 데이터 저장 방식에 대한 정보가 부족합니다.",
+        "name": "사회자 없는 마피아 게임",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%82%AC%ED%9A%8C%EC%9E%90-%EC%97%86%EB%8A%94-%EB%A7%88%ED%94%BC%EC%95%84-%EA%B2%8C%EC%9E%84/id6751973408?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
+    },
+    "google:com.solitaire.angel.card.puzzle.klondike": {
+      "app_key": "google:com.solitaire.angel.card.puzzle.klondike",
+      "name": "Solitaire Angel - Card Puzzle",
+      "developer": "Ali Al-akwa'a",
+      "source": "google",
+      "country": "KR",
+      "category": "game_card",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.solitaire.angel.card.puzzle.klondike&hl=ko&gl=KR",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:40:16+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "🎮 솔리테어 엔젤은 아름다운 소녀 이미지와 어우러진 편안한 솔리테어 퍼즐 게임입니다. 이 퍼즐 게임에서 우아한 카드 디자인과 아름다운 이미지에 푹 빠져 솔리테어의 고전적인 재미를 만끽해 보세요. ✨ 🃏 클래식 퍼즐 게임 방식: 이 게임은 클래식 솔리테어 퍼즐 규칙을 따릅니다. 승리하려면 모든 카드를 에이스부터 킹까지 내림차순으로, 같은 무늬 순서대로 기초 더미에 배열해야 합니다. 최소한의 움직임으로 퍼즐을 풀고 카드 전략 실력을 뽐내며 자신에게 도전해 보세요. 🌸 아름다운 소녀 이미지 잠금 해제: 퍼즐을 완료할 때마다 아름다운 소녀 이미지가 잠금 해제됩니다. 이 멋진 이미지는 휴대폰 배경화면으로 사용할 수 있어 게임 경험에 시각적인 보상을 더해줍니다. 레벨을 올릴수록 더 많은 이미지를 수집할 수 있으며, 이는 여러분의 성취를 보여주는 증거가 됩니다. 📸 🧩 편안한 퍼즐 경험: 솔리테어 엔젤은 부드러운 게임 플레이와 직관적인 조작을 제공하여 언제 어디서든 편안하게 솔리테어 퍼즐을 즐길 수 있도록 해줍니다. 숙련된 솔리테어 플레이어든 초보자든, 간편한 조작과 점진적으로 높아지는 난이도로 편안하고 즐거운 퍼즐 경험을 만끽할 수 있습니다. 😊 🎯 끝없는 퍼즐 도전, 보상 획득: 각 퍼즐을 완료할 때마다 새로운 이미지를 보상으로 획득하여 아름다운 배경화면 컬렉션을 완성할 수 있습니다. 각 퍼즐은 새로운 목표와 도전 과제를 제시하여 끊임없이 실력 향상을 위한 동기를 부여합니다. 🏆 🌍 언제 어디서든 즐기기 좋은 퍼즐: 여가 시간을 보내거나, 여행 중이거나, 잠깐 한가한 시간을 보낼 때, 솔리테어 엔젤은 완벽한 동반자가 되어줍니다. 혼자서 퍼즐에 도전하고, 솔리테어 실력을 향상시켜 솔리테어 퍼즐 마스터가 되어보세요. ✈️ 게임 특징: 🃏 클래식 솔리테어 퍼즐: 가장 인기 있는 1인용 카드 게임 🌸 아름다운 소녀 이미지 잠금 해제: 퍼즐을 완성하고 멋진 이미지를 휴대폰 배경화면으로 잠금 해제하세요. 🎮 부드러운 퍼즐 게임 플레이 및 쉬운 조작: 모든 플레이어에게 적합 🏆 끝없는 퍼즐 도전: 퍼즐을 풀고 더 많은 보상을 획득하세요. 🧘‍♀️ 편안한 퍼즐 속도: 언제 어디서든 즐기기에 완벽 참고: 이 게임은 솔리테어 스타일의 퍼즐 게임입니다. 전통적인 솔리테어 또는 다른 유형의 솔리테어 카드 게임의 규칙을 포함하지 않습니다. 여기서 \"솔리테어\"라는 용어는 카드의 시각적 스타일만을 의미합니다. 지금 솔리테어 엔젤을 다운로드하고 클래식 솔리테어 퍼즐의 재미를 만끽하고, 아름다운 소녀 이미지를 잠금 해제하고, 배경화면 보상을 모아 최고의 솔리테어 퍼즐 챔피언이 되어보세요! 🏅",
+      "analysis": {
+        "app_key": "google:com.solitaire.angel.card.puzzle.klondike",
+        "summary_ko": "솔리테어 엔젤은 클래식 솔리테어 규칙을 기반으로 한 카드 퍼즐 게임입니다. 플레이어는 퍼즐을 해결하여 아름다운 소녀 이미지를 잠금 해제하고 수집할 수 있습니다. 수집된 이미지는 휴대폰 배경화면으로 활용 가능하며, 점진적인 난이도를 통해 성취감을 제공합니다.",
+        "features_ko": [
+          "클래식 솔리테어 규칙에 따라 에이스부터 킹까지 카드를 내림차순으로 정렬합니다.",
+          "퍼즐 완료 시 보상으로 아름다운 소녀 이미지를 잠금 해제합니다.",
+          "잠금 해제된 이미지를 휴대폰 배경화면으로 설정할 수 있습니다.",
+          "직관적인 조작 방식을 통해 초보자부터 숙련자까지 누구나 쉽게 플레이할 수 있습니다."
+        ],
+        "noteworthy_ko": "카드 게임이라는 고전적인 메커니즘에 이미지 수집형 보상 체계를 결합하여 플레이 동기를 부여하는 점이 흥미롭습니다. 단순한 퍼즐 게임을 넘어 시각적 보상을 통해 사용자 리텐션을 유도하는 구조로 추정됩니다.",
+        "development_ko": "핵심 기술은 카드 정렬 알고리즘과 이미지 데이터 관리 시스템입니다. 콘텐츠 제작 부담은 수집용 이미지 에셋 확보에 집중될 것이며, 난이도 조절을 위한 카드 배치 로직 테스트가 중요합니다. 1인 개발 시 카드 애니메이션과 UI 반응성을 최적화하는 데 집중해야 합니다.",
+        "idea_ko": "퍼즐 완료 시 획득한 이미지 조각을 조합하여 나만의 갤러리를 완성하는 '이미지 퍼즐 조각 수집' 시스템이 적합합니다.",
+        "highlights_ko": [
+          "클래식 솔리테어 규칙을 충실히 따르는 게임 플레이.",
+          "퍼즐 성취도에 따른 시각적 보상(배경화면) 제공."
+        ],
+        "systems_ko": [
+          "카드 덱 셔플 및 정렬 알고리즘",
+          "게임 상태 관리(진행 상황 저장)",
+          "이미지 잠금 해제 및 보관함 시스템",
+          "UI/UX 터치 이벤트 처리",
+          "난이도별 카드 배치 로직"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "솔리테어의 기본 규칙 구현은 명확하지만, 카드 이동 애니메이션과 이미지 잠금 해제 시스템 등 UI 연동 작업이 필요합니다. 1인 개발 시 카드 게임의 로직 오류를 방지하는 것이 핵심입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카드 덱 생성 및 셔플 로직",
+            "카드 이동 및 정렬 규칙 구현",
+            "이미지 잠금 해제 시스템"
+          ],
+          "defer": [
+            "다양한 테마 변경 기능",
+            "온라인 리더보드"
+          ],
+          "risks": [
+            "카드 이동 로직의 버그 발생 가능성",
+            "이미지 에셋 저작권 및 용량 관리"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "카드 덱 커스텀 갤러리",
+            "concept": "퍼즐을 풀 때마다 카드 뒷면 디자인을 보상으로 획득합니다. 플레이어는 자신만의 카드 덱을 구성하여 게임을 즐길 수 있습니다.",
+            "first_step": "카드 뒷면 이미지 리소스를 교체할 수 있는 데이터 구조를 설계합니다."
+          },
+          {
+            "title": "일일 챌린지 캘린더",
+            "concept": "매일 다른 난이도의 퍼즐을 제공하고, 한 달간의 기록을 캘린더에 표시합니다. 연속 성공 시 특별한 이미지를 보상으로 지급합니다.",
+            "first_step": "날짜별로 퍼즐 난이도를 결정하는 랜덤 시드 생성기를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "카드 게임의 기본 로직과 보상 시스템을 연결하는 방법을 배우기에 적합합니다. 단순한 게임에 시각적 동기부여 요소를 추가하는 기획을 연습하기 좋습니다.",
+        "source_limitations_ko": "소개문에는 결제 시스템, 광고 연동, 데이터 저장 방식(로컬/클라우드)에 대한 정보가 없습니다. 실제 앱의 이미지 데이터 관리 방식이나 외부 라이브러리 사용 여부는 확인되지 않습니다.",
+        "name": "Solitaire Angel - Card Puzzle",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.solitaire.angel.card.puzzle.klondike&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
     }
   }
 }

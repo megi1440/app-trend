@@ -9389,6 +9389,353 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-07"
+    },
+    "itch:2bfdcc8363204ac447f7": {
+      "app_key": "itch:2bfdcc8363204ac447f7",
+      "name": "English Lab – Impara l’inglese giocando [Free] [Educational]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://brainybananagames.itch.io/english-lab",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:35:48+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Impara l'inglese dal livello super base fino a madrelingua, una lezione al giorno.",
+      "analysis": {
+        "app_key": "itch:2bfdcc8363204ac447f7",
+        "summary_ko": "기초부터 원어민 수준까지 영어 학습을 돕는 교육용 앱입니다. 매일 한 레슨씩 학습하는 방식을 제공합니다.",
+        "features_ko": [
+          "매일 새로운 영어 학습 레슨을 제공합니다.",
+          "초급부터 고급까지 단계별 학습 과정을 지원합니다."
+        ],
+        "noteworthy_ko": "매일 한 레슨이라는 제한된 학습량을 통해 사용자의 지속적인 참여를 유도하는 구조입니다. 학습 콘텐츠의 체계적인 난이도 설계가 핵심일 것으로 추정됩니다.",
+        "development_ko": "학습 데이터 관리 시스템과 사용자 진도 기록 기능이 필요합니다. 콘텐츠 제작 부담이 크며, 단계별 난이도 밸런싱이 중요합니다.",
+        "idea_ko": "매일 학습한 내용을 바탕으로 짧은 퀴즈를 생성하는 자동화 시스템을 도입하는 것이 좋습니다.",
+        "highlights_ko": [
+          "매일 한 레슨이라는 명확한 학습 루틴을 제시합니다.",
+          "초보자부터 숙련자까지 포괄하는 학습 범위를 가집니다."
+        ],
+        "systems_ko": [
+          "사용자 진도 관리 시스템",
+          "학습 콘텐츠 데이터베이스",
+          "일일 알림 및 푸시 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기능 자체는 단순하지만, 학습 콘텐츠의 양과 질을 확보하는 것이 개발보다 더 큰 과제입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "레슨 데이터 로딩 기능",
+            "사용자 진도 저장 기능"
+          ],
+          "defer": [
+            "음성 인식 기능",
+            "소셜 공유 기능"
+          ],
+          "risks": [
+            "학습 콘텐츠의 지속적인 업데이트 필요성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "단어 카드 매칭 게임",
+            "concept": "학습한 단어를 게임 형식으로 복습합니다. 단어와 뜻을 빠르게 연결하는 방식입니다.",
+            "first_step": "단어와 뜻이 담긴 배열을 만들고 화면에 무작위로 배치하는 프로토타입 구현."
+          },
+          {
+            "title": "일일 문장 챌린지",
+            "concept": "매일 특정 문장을 완성하는 미션을 제공합니다. 사용자가 직접 문장을 입력하게 합니다.",
+            "first_step": "텍스트 입력창과 정답 비교 로직을 포함한 화면 구성."
+          }
+        ],
+        "recommendation_ko": "교육용 앱의 기본 구조인 데이터 관리와 진도 추적을 배우기에 적합합니다. 콘텐츠 확보가 어렵다면 추천하지 않습니다.",
+        "source_limitations_ko": "학습 방식(텍스트, 오디오, 영상 등), 구체적인 커리큘럼 구성, 오프라인 지원 여부 등이 명시되지 않았습니다.",
+        "name": "English Lab – Impara l’inglese giocando [Free] [Educational]",
+        "source": "itch",
+        "detail_url": "https://brainybananagames.itch.io/english-lab",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 375,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
+    },
+    "google:com.tangyclean.smartsweep": {
+      "app_key": "google:com.tangyclean.smartsweep",
+      "name": "Able Clean",
+      "developer": "Carlton Diet",
+      "source": "google",
+      "country": "JP",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.tangyclean.smartsweep&hl=ja&gl=JP",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:39:16+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ジャンクファイルが多すぎませんか？使っていないアプリをアンインストールしたいですか？Able Clean なら、不要なファイルやあまり使わないアプリを簡単に削除できます。 📁 ジャンクファイル管理：ジャンクファイルを見つけて簡単に削除できます。 ⚙️ アプリ管理：インストール済みのアプリを表示し、必要に応じてアンインストールまたは保持できます。 📁 大容量ファイル管理：大容量ファイルを見つけて、種類とサイズで並べ替え、ファイルサイズを表示することで、簡単に削除または保持できます。 📁 空のファイル：空のファイルを簡単に見つけて削除できます。 📸 スクリーンショットのクリーンアップ：シンプルなプレビューと選択プロセスで、スクリーンショットファイルをすばやくスキャンしてクリーンアップできます。 🔄 重複ファイルクリーナー：重複ファイルを検出して削除します。 ⏱️ 最近使用したアプリビューア：最近使用したアプリを表示し、不要なアプリを一時停止してパフォーマンスを向上させます。 ✨ 簡単な操作：使いやすく、すぐに始められます。 🎯 直感的なインターフェース: 明確なレイアウト、明確に定義された機能の場所、簡単に見つけられます。",
+      "analysis": {
+        "app_key": "google:com.tangyclean.smartsweep",
+        "summary_ko": "Able Clean은 스마트폰의 저장 공간을 효율적으로 관리하기 위한 도구 앱입니다. 불필요한 파일과 사용하지 않는 앱을 정리하여 기기 성능을 최적화합니다. 직관적인 인터페이스를 통해 누구나 쉽게 파일을 관리할 수 있습니다.",
+        "features_ko": [
+          "불필요한 정크 파일을 검색하고 삭제하여 저장 공간을 확보합니다.",
+          "설치된 앱 목록을 확인하고 필요에 따라 삭제하거나 유지할 수 있습니다.",
+          "대용량 파일을 크기나 종류별로 정렬하여 관리할 수 있습니다.",
+          "중복 파일을 탐색하고 삭제하여 데이터 효율을 높입니다.",
+          "스크린샷 파일을 빠르게 스캔하고 선택적으로 정리할 수 있습니다."
+        ],
+        "noteworthy_ko": "다양한 파일 관리 기능을 하나의 앱에 통합하여 사용자 편의성을 높인 점이 흥미롭습니다. 특히 스크린샷 정리와 같은 세부적인 기능은 모바일 환경에서 흔히 발생하는 저장 공간 부족 문제를 효과적으로 해결하려는 의도로 보입니다.",
+        "development_ko": "파일 시스템 접근 권한을 활용한 파일 탐색 및 삭제 로직 구현이 핵심입니다. 사용자 인터페이스는 직관적인 목록 구성과 선택 프로세스가 중요하며, 파일 스캔 시 성능 저하를 방지하는 최적화가 필요합니다. 테스트 단계에서는 다양한 기기 환경에서의 파일 경로 호환성을 검증해야 합니다.",
+        "idea_ko": "사용자의 파일 사용 패턴을 분석하여 주기적으로 정리가 필요한 항목을 자동으로 추천해 주는 '스마트 정리 알림' 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "스크린샷 및 대용량 파일 등 특정 유형의 데이터 관리에 특화되어 있습니다.",
+          "최근 사용한 앱을 확인하고 관리하여 기기 성능을 개선하는 기능을 포함합니다."
+        ],
+        "systems_ko": [
+          "파일 시스템 접근 및 스캔 엔진",
+          "앱 목록 관리 및 프로세스 제어",
+          "데이터 정렬 및 필터링 알고리즘",
+          "사용자 인터페이스(UI) 및 이벤트 처리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "파일 시스템 접근 권한과 관련된 OS 정책을 준수해야 하며, 대용량 파일 스캔 시 앱이 멈추지 않도록 비동기 처리를 구현해야 하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "파일 스캔 및 목록 표시 기능",
+            "파일 삭제 기능",
+            "앱 목록 표시 기능"
+          ],
+          "defer": [
+            "중복 파일 탐색",
+            "자동 정리 스케줄러"
+          ],
+          "risks": [
+            "OS 버전별 파일 접근 권한 제한",
+            "잘못된 파일 삭제로 인한 데이터 손실 위험"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "파일 유형별 자동 분류기",
+            "concept": "파일을 생성 날짜나 유형별로 자동 폴더링하여 정리해 주는 기능입니다. 사용자가 일일이 파일을 옮길 필요가 없습니다.",
+            "first_step": "특정 폴더 내의 파일을 확장자별로 분류하여 이동시키는 스크립트 구현."
+          },
+          {
+            "title": "스마트 정리 알림",
+            "concept": "저장 공간이 일정 수준 이하로 떨어지면 가장 용량을 많이 차지하는 항목을 알려줍니다. 사용자의 행동을 유도하는 알림 시스템입니다.",
+            "first_step": "기기 저장 공간 용량을 체크하고 임계값 도달 시 알림을 보내는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "파일 시스템 접근과 권한 관리를 학습하기에 좋은 프로젝트입니다. 다만, 실제 파일 삭제 기능은 데이터 손실 위험이 크므로 신중한 설계가 필요합니다.",
+        "source_limitations_ko": "소개문에는 외부 서비스 연동, 결제, 보안 기능에 대한 언급이 없습니다. 실제 구현 시 OS별 파일 접근 권한 정책에 대한 추가 조사가 필수적입니다.",
+        "name": "Able Clean",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.tangyclean.smartsweep&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
+    },
+    "google:com.art.pixel.santa.christmas.games.paint.color.by.numbers": {
+      "app_key": "google:com.art.pixel.santa.christmas.games.paint.color.by.numbers",
+      "name": "Santa Color By Number Games",
+      "developer": "Art Coloring Group",
+      "source": "google",
+      "country": "US",
+      "category": "game_board",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.art.pixel.santa.christmas.games.paint.color.by.numbers&hl=en&gl=US",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:39:55+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Christmas lights glow, bells ring through the snow, and Santa flies across the winter sky. Bring festive Christmas pictures to life with color. Santa Color is a Christmas-themed color by number game. Choose a picture, select a numbered color, and tap the matching areas to complete artwork featuring Santa Claus, snowmen, gifts, bells, candles, Christmas trees, and winter scenes. Easy Color by Number Gameplay No drawing experience is needed. The numbered areas guide you through each picture. Choose a Christmas picture Select a numbered color Tap the areas marked with the matching number Zoom in to find smaller sections Complete every area to finish the artwork Each tap adds color to the picture. Continue filling the numbered sections until the complete scene is revealed. Explore Christmas Pictures Discover a collection of festive artwork featuring: Santa Claus surrounded by gifts Cheerful snowmen in snowy settings Christmas trees inside cozy rooms Golden bells and bright red ribbons Candles and seasonal decorations Peaceful villages and winter landscapes Choose a simple picture for a quick coloring break or spend more time completing a detailed Christmas scene. Relax with Festive Art Enjoy a calm coloring activity during a quiet moment or whenever you want to experience the Christmas season. Santa Color offers straightforward color by number gameplay and the satisfaction of completing each picture one section at a time. Download Santa Color and bring Christmas pictures to life with every tap.",
+      "analysis": {
+        "app_key": "google:com.art.pixel.santa.christmas.games.paint.color.by.numbers",
+        "summary_ko": "이 앱은 크리스마스를 테마로 한 숫자 색칠하기(Color by Number) 게임입니다. 산타, 눈사람, 선물 등 다양한 크리스마스 이미지를 숫자에 맞춰 색칠하며 완성하는 방식입니다.",
+        "features_ko": [
+          "숫자가 표시된 영역을 선택한 색상으로 탭하여 색칠합니다.",
+          "확대 기능을 통해 작은 영역도 정밀하게 색칠할 수 있습니다.",
+          "산타, 눈사람, 크리스마스 트리 등 다양한 테마의 그림을 제공합니다.",
+          "그림의 모든 영역을 색칠하면 완성된 작품이 나타납니다."
+        ],
+        "noteworthy_ko": "복잡한 드로잉 기술 없이도 누구나 쉽게 예술 작품을 완성할 수 있는 성취감을 제공합니다. 단순한 반복 작업이 주는 심리적 안정감에 집중한 구성입니다.",
+        "development_ko": "이미지를 숫자별 영역으로 분할하는 데이터 구조와 탭 입력에 따른 색상 변경 로직이 핵심입니다. 다양한 이미지 리소스 제작이 필요하며, 줌/팬 기능의 부드러운 구현이 사용자 경험을 결정합니다.",
+        "idea_ko": "사용자가 직접 사진을 찍으면 이를 숫자 색칠 도안으로 자동 변환해주는 기능을 추가하면 더욱 개인화된 경험을 제공할 수 있습니다.",
+        "highlights_ko": [
+          "숫자 매칭 방식의 직관적인 게임 플레이를 제공합니다.",
+          "크리스마스 테마의 다양한 그림 컬렉션을 포함합니다."
+        ],
+        "systems_ko": [
+          "이미지 데이터 관리",
+          "터치 입력 및 영역 판정",
+          "줌/팬 제어 시스템",
+          "색상 팔레트 관리"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 단순하고 물리 엔진 등이 필요하지 않아 개인 개발자가 시도하기에 매우 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "이미지 불러오기 및 숫자 영역 표시",
+            "터치 시 색상 채우기 기능"
+          ],
+          "defer": [
+            "이미지 자동 변환 기능",
+            "소셜 공유 기능"
+          ],
+          "risks": [
+            "이미지 리소스 제작의 반복성",
+            "터치 정확도 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "나만의 도안 만들기",
+            "concept": "사용자가 업로드한 사진을 픽셀화하여 숫자 도안으로 변환합니다. 세상에 하나뿐인 나만의 색칠 공부를 할 수 있습니다.",
+            "first_step": "이미지를 픽셀화하고 색상별로 인덱스를 부여하는 알고리즘 구현."
+          },
+          {
+            "title": "타임랩스 재생",
+            "concept": "색칠하는 과정을 타임랩스 영상으로 저장하여 공유할 수 있게 합니다.",
+            "first_step": "색칠한 영역의 순서를 기록하여 영상으로 변환하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "이미지 처리와 터치 인터랙션의 기초를 배우기에 좋습니다. 단순한 게임을 완성도 있게 다듬는 과정을 경험하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "이미지 데이터의 형식이나 자동 생성 여부 등 기술적 구현 방식은 확인되지 않았습니다. 결제나 광고 연동 여부는 알 수 없습니다.",
+        "name": "Santa Color By Number Games",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.art.pixel.santa.christmas.games.paint.color.by.numbers&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
+    },
+    "apple:6780820379": {
+      "app_key": "apple:6780820379",
+      "name": "응 발로 키우기",
+      "developer": "Punchline Games Co., Ltd.",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_rpg",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%9D%91-%EB%B0%9C%EB%A1%9C-%ED%82%A4%EC%9A%B0%EA%B8%B0/id6780820379?uo=2",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:40:48+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "[응~ 발로 키우기!] 지구와 똑 닮은 행성에서 살고 있는 소년 생명체 '응', 이 행성에서는 어른 생명체 '발'이 되기 위해 특별한 시험을 통과해야만 해요. 목표는 우주정복! 낯선 행성들을 탐험하며 자신의 한계를 시험해요. 고향 행성에서 특별히 제작된 캡슐과 함께 모험을 떠난 소년 '응', 과연 '발'이될 수 있을까요? [캡슐을 오픈하고 장비를 획득하자!] 쾅쾅쾅! 고향 행성에서 가져온 특별한 캡슐로 장비를 획득하세요. 밟기만 해도 생각지도 못했던 화려한 등급의 장비가 등장할지 모릅니다! 장비가 바뀔 때 마다, 외형도 다양하게 변화해요. [무한 스테이지, 우주정복!] 넓은 우주에는 셀 수 없이 많은 행성들이 존재해요. 외계 몬스터가 가득한 수 많은 행성들을 모두 정복해보세요! [낯선 행성에서는 늘 경계해!] 화면 가득히 몰려오는 외계 행성 몬스터들을 청소하세요! 응, 레인저 변신! 더 많은 몬스터들을 밟아 주자! 특별하고 짜릿한 전투로 낯선 행성을 정복하세요! [다양한 행성에서 만난 특별한 동료들] 전투를 거듭하면서 만나는 각양각색의 새로운 동료들! 직접 전투에 참여하는 동료들과 파티를 구성하여 다양한 전략을 만들어 보세요! [강력하고 화려한 특수 장비] 부위별 외형을 다채롭게 변경할 수 있는 코스튬과 특수 장비들을 수집하세요. 남들과는 다른 자신을 뽐낼 수 있습니다. 다양한 수집을 통해, 더 확실하게 강해질 수 있습니다.",
+      "analysis": {
+        "app_key": "apple:6780820379",
+        "summary_ko": "소년 생명체 '응'이 어른 '발'이 되기 위해 우주를 탐험하며 몬스터를 정복하는 RPG 게임입니다. 캡슐을 열어 장비를 획득하고 외형을 변화시키며 캐릭터를 성장시킵니다. 다양한 동료와 파티를 구성하여 전략적인 전투를 즐길 수 있습니다.",
+        "features_ko": [
+          "캡슐을 오픈하여 다양한 등급의 장비를 획득하고 캐릭터 외형을 변경합니다.",
+          "무한 스테이지로 구성된 행성들을 탐험하며 외계 몬스터를 처치합니다.",
+          "전투에 직접 참여하는 동료들을 수집하고 파티를 구성합니다.",
+          "부위별 코스튬과 특수 장비를 통해 캐릭터를 커스터마이징합니다."
+        ],
+        "noteworthy_ko": "장비 획득과 외형 변화를 결합한 성장 시스템이 핵심입니다. 몬스터를 '밟는다'는 표현을 통해 액션성을 강조한 것으로 보이며, 수집형 RPG의 전형적인 루프를 따르고 있습니다.",
+        "development_ko": "캐릭터의 부위별 외형 변경을 위한 아바타 시스템과 몬스터 웨이브 처리를 위한 오브젝트 풀링 기술이 필요합니다. 다수의 동료와 장비 데이터를 관리하기 위한 데이터베이스 구조 설계가 중요하며, 밸런스 조정을 위해 스테이지별 난이도 곡선 설계가 필수적입니다.",
+        "idea_ko": "몬스터를 밟아 처치하는 액션과 장비 수집을 결합한 방치형 RPG 구조가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "장비 교체에 따른 실시간 외형 변화 시스템.",
+          "다양한 행성과 몬스터를 배경으로 한 스테이지 기반 진행."
+        ],
+        "systems_ko": [
+          "캐릭터 성장 및 장비 강화 시스템",
+          "몬스터 스폰 및 웨이브 관리 시스템",
+          "파티 구성 및 동료 AI 시스템",
+          "데이터 저장 및 로드 시스템",
+          "UI/UX 인터페이스 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기본적인 RPG 메커니즘은 구현 가능하나, 다수의 장비 에셋 제작과 파티 전투 밸런싱에 많은 시간이 소요됩니다. 1인 개발 시 콘텐츠 양을 조절하는 것이 관건입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 캐릭터 이동 및 공격",
+            "장비 획득 및 장착 시스템",
+            "스테이지 기반 몬스터 스폰"
+          ],
+          "defer": [
+            "복잡한 파티 전략 시스템",
+            "다양한 코스튬 수집 요소"
+          ],
+          "risks": [
+            "에셋 제작량 과다로 인한 개발 지연",
+            "전투 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "행성별 환경 효과",
+            "concept": "행성마다 중력이나 지형 효과를 다르게 적용하여 전투 전략을 변화시킵니다.",
+            "first_step": "중력 값을 변수로 설정하여 캐릭터 점프 높이를 조절하는 프로토타입 제작."
+          },
+          {
+            "title": "동료 조합 시너지",
+            "concept": "특정 동료 조합 시 발동하는 패시브 스킬을 추가하여 파티 구성의 재미를 높입니다.",
+            "first_step": "두 캐릭터의 속성 조합에 따라 공격력 버프가 적용되는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "수집형 RPG의 데이터 구조와 캐릭터 커스터마이징 구현을 배우기에 좋습니다. 다만, 아트 리소스 제작 부담이 크므로 에셋 스토어 활용을 권장합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 전투 방식(자동/수동), 네트워크 통신 여부, 결제 시스템의 상세 구조가 명시되어 있지 않습니다.",
+        "name": "응 발로 키우기",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%9D%91-%EB%B0%9C%EB%A1%9C-%ED%82%A4%EC%9A%B0%EA%B8%B0/id6780820379?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 87,
+        "reasons": [],
+        "best_rank": 6,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
     }
   }
 }

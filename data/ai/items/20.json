@@ -11003,6 +11003,178 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-07"
+    },
+    "itch:e05c93f5c6437ab1c3d7": {
+      "app_key": "itch:e05c93f5c6437ab1c3d7",
+      "name": "Technical Demo Music Intro Terminator [Free] [Other]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://sauromca.itch.io/demo-tecnica",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:35:48+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "This is a technical demo of the Terminator 1 intro for the NES, using the MMC5 mapper.",
+      "analysis": {
+        "app_key": "itch:e05c93f5c6437ab1c3d7",
+        "summary_ko": "NES(패미컴) 환경에서 MMC5 매퍼를 사용하여 터미네이터 1편의 인트로를 재현한 기술 데모입니다.",
+        "features_ko": [
+          "NES 하드웨어의 MMC5 매퍼 기능을 활용합니다.",
+          "터미네이터 1편의 인트로 영상을 기술적으로 구현합니다."
+        ],
+        "noteworthy_ko": "특정 하드웨어의 제약 조건 내에서 그래픽과 사운드를 최적화하는 기술적 시도가 흥미롭습니다. 레트로 게임 개발의 하드웨어 이해도를 보여줍니다.",
+        "development_ko": "NES 어셈블리 언어와 하드웨어 매퍼 사양에 대한 깊은 이해가 필요합니다. 그래픽 데이터 압축과 사운드 엔진 구현이 핵심입니다.",
+        "idea_ko": "특정 하드웨어 제약을 활용한 짧은 애니메이션 루프를 제작하는 것이 좋습니다.",
+        "highlights_ko": [
+          "MMC5 매퍼를 활용한 하드웨어 최적화 데모입니다.",
+          "고전 영화 인트로를 레트로 게임 환경으로 이식했습니다."
+        ],
+        "systems_ko": [
+          "NES 그래픽 렌더링 엔진",
+          "사운드 시퀀서",
+          "하드웨어 매퍼 제어 로직"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "현대적인 엔진이 아닌 레트로 하드웨어 사양을 직접 다루어야 하므로 기술적 진입장벽이 매우 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 그래픽 출력 루틴",
+            "사운드 재생 루틴"
+          ],
+          "defer": [
+            "상호작용 기능",
+            "다양한 스테이지 구현"
+          ],
+          "risks": [
+            "하드웨어 사양 준수 실패",
+            "에뮬레이터 호환성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "레트로 픽셀 애니메이션",
+            "concept": "제한된 색상 팔레트만 사용하여 짧은 애니메이션을 만듭니다.",
+            "first_step": "8x8 타일 기반의 그래픽 에셋 제작."
+          },
+          {
+            "title": "칩튠 음악 플레이어",
+            "concept": "NES 사운드 칩을 모사한 음악 재생기를 구현합니다.",
+            "first_step": "사운드 주파수 제어 코드 작성."
+          }
+        ],
+        "recommendation_ko": "하드웨어 수준의 저수준 프로그래밍을 배우고 싶은 개발자에게 추천합니다. 일반적인 앱 개발과는 거리가 멉니다.",
+        "source_limitations_ko": "실제 구동 환경(에뮬레이터 또는 실기), 사용된 개발 툴체인, 소스 코드 공개 여부 등이 확인되지 않았습니다.",
+        "name": "Technical Demo Music Intro Terminator [Free] [Other]",
+        "source": "itch",
+        "detail_url": "https://sauromca.itch.io/demo-tecnica",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 374,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
+    },
+    "itch:5c9ab43f653fac16549c": {
+      "app_key": "itch:5c9ab43f653fac16549c",
+      "name": "Mbaraka A harmonia dos espíritos (The harmony of spirits) [Free] [Rhythm] [Windows] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://ja-lassister.itch.io/mbaraka",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:37:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Use o ritmo do maracá para acalmar o Boitatá em um duelo musical inspirado nas culturas indígenas brasileiras.",
+      "analysis": {
+        "app_key": "itch:5c9ab43f653fac16549c",
+        "summary_ko": "브라질 원주민 문화에서 영감을 받은 리듬 게임입니다. 플레이어는 마라카(악기)의 리듬을 사용하여 보이타타(Boitatá)를 진정시키는 음악적 결투를 수행합니다. 리듬 액션 장르의 게임으로 독특한 문화적 테마를 담고 있습니다.",
+        "features_ko": [
+          "마라카의 리듬에 맞춰 입력하는 리듬 액션 시스템을 제공합니다.",
+          "브라질 원주민 설화를 바탕으로 한 보이타타와의 음악적 대결을 진행합니다."
+        ],
+        "noteworthy_ko": "특정 문화권의 설화를 리듬 게임 메커니즘과 결합한 점이 흥미롭습니다. 음악과 캐릭터의 상호작용이 게임의 핵심 경험을 결정할 것으로 추정됩니다.",
+        "development_ko": "리듬에 맞춘 입력 판정 시스템과 음악 동기화가 핵심입니다. 캐릭터 애니메이션과 배경 음악의 조화가 중요하며, 리듬 게임 특성상 정확한 타이밍 처리가 개발의 중심이 됩니다.",
+        "idea_ko": "특정 악기 리듬을 활용한 보스전 메커니즘을 구현하는 것이 가장 적합합니다.",
+        "highlights_ko": [
+          "브라질 원주민 문화라는 독특한 소재를 리듬 게임에 접목했습니다.",
+          "보이타타라는 신화적 존재를 대결 상대로 설정하여 서사적 몰입감을 줍니다."
+        ],
+        "systems_ko": [
+          "음악 동기화 및 타이밍 판정 시스템",
+          "리듬 입력 처리 엔진",
+          "캐릭터 상태 관리(진정도 등)",
+          "UI 및 리듬 시각화 요소"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "리듬 게임의 핵심인 판정 로직과 음악 동기화 구현이 기술적으로 까다로울 수 있습니다. 다만, 1인 개발 시 곡의 개수를 제한하면 충분히 구현 가능한 범위입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 리듬 입력 판정 시스템",
+            "음악 재생 및 동기화",
+            "보스 캐릭터의 상태 변화 애니메이션"
+          ],
+          "defer": [
+            "다양한 스테이지 구성",
+            "복잡한 스토리 연출"
+          ],
+          "risks": [
+            "입력 지연(Latency) 문제",
+            "음악과 애니메이션의 싱크 불일치"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "전통 악기 리듬 챌린지",
+            "concept": "다양한 세계의 전통 악기를 선택하여 리듬을 맞추는 게임입니다. 악기마다 다른 입력 패턴을 제공하여 차별화를 둡니다.",
+            "first_step": "단일 악기 소리에 맞춰 노트를 입력하는 프로토타입 제작."
+          },
+          {
+            "title": "신화 속 생물 진정시키기",
+            "concept": "다양한 신화 속 괴물을 음악으로 진정시키는 힐링 리듬 게임입니다. 괴물마다 선호하는 음악 장르가 달라 전략적 선택이 필요합니다.",
+            "first_step": "음악 장르에 따라 괴물의 반응이 달라지는 간단한 상태 머신 구현."
+          }
+        ],
+        "recommendation_ko": "리듬 게임의 기본 판정 로직을 배우기에 좋습니다. 음악과 게임 플레이의 결합을 고민하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 게임 플레이 방식, 판정의 엄격함, 음악의 종류 등은 확인되지 않습니다.",
+        "name": "Mbaraka A harmonia dos espíritos (The harmony of spirits) [Free] [Rhythm] [Windows] [Linux]",
+        "source": "itch",
+        "detail_url": "https://ja-lassister.itch.io/mbaraka",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 299,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
     }
   }
 }

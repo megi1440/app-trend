@@ -10503,6 +10503,184 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-07"
+    },
+    "itch:13ae0fea0d10d8f0f797": {
+      "app_key": "itch:13ae0fea0d10d8f0f797",
+      "name": "Bubble Royale II: Shattered Crown [Free] [Puzzle]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://rubikones.itch.io/bubble-royale-2",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:37:03+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A tactical bubble shooter where every shot is your life. Bosses, trials and a shattered crown. CZ / EN.",
+      "analysis": {
+        "app_key": "itch:13ae0fea0d10d8f0f797",
+        "summary_ko": "Bubble Royale II: Shattered Crown은 모든 발사가 생명과 직결되는 전술적 버블 슈터 게임입니다. 보스전과 다양한 시련을 통해 부서진 왕관을 되찾는 여정을 다룹니다. 체코어와 영어를 지원합니다.",
+        "features_ko": [
+          "발사 횟수가 제한된 전술적 버블 슈팅 규칙을 적용합니다.",
+          "보스전과 같은 도전적인 스테이지를 포함합니다.",
+          "사용자의 생존이 게임의 핵심 목표입니다."
+        ],
+        "noteworthy_ko": "버블 슈터 장르에 '생명'이라는 제한 요소를 결합하여 긴장감을 높인 점이 독특합니다. 개발 관점에서 물리 엔진을 활용한 버블의 궤적 계산과 충돌 처리가 핵심 기술로 보입니다.",
+        "development_ko": "물리 엔진 기반의 궤적 계산, 충돌 판정, 스테이지 데이터 관리 시스템이 필요합니다. 보스전 구현을 위한 패턴 설계와 밸런스 테스트가 콘텐츠 제작의 핵심입니다.",
+        "idea_ko": "발사 횟수 제한을 활용하여 퍼즐 요소를 강화한 '전략적 슈팅' 모드를 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "전술적 판단이 요구되는 버블 슈팅 메커니즘을 갖추고 있습니다.",
+          "보스전과 시련을 통해 게임의 깊이를 더했습니다."
+        ],
+        "systems_ko": [
+          "물리 궤적 계산 시스템",
+          "충돌 판정 엔진",
+          "스테이지 관리자",
+          "보스 패턴 제어기"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진을 활용한 기본적인 슈팅 메커니즘은 구현이 가능하지만, 보스전의 패턴 설계와 난이도 밸런싱은 세심한 작업이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "버블 발사 및 궤적 시스템",
+            "충돌 및 제거 로직",
+            "스테이지 클리어 조건"
+          ],
+          "defer": [
+            "복잡한 보스 패턴",
+            "다양한 특수 버블 아이템"
+          ],
+          "risks": [
+            "물리 엔진의 예측 불가능한 동작",
+            "난이도 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중력 버블",
+            "concept": "화면의 중력이 실시간으로 변하여 버블의 궤적이 휘어지는 방식입니다. 예측하기 어려운 전술적 재미를 제공합니다.",
+            "first_step": "발사된 버블에 가해지는 힘을 실시간으로 변경하는 로직 구현."
+          },
+          {
+            "title": "시간 정지 슈팅",
+            "concept": "발사 직전 시간을 멈추고 궤적을 정밀하게 조정할 수 있는 기회를 제공합니다. 퍼즐적인 성격이 강해집니다.",
+            "first_step": "시간 정지 시 물리 연산을 일시 중단하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "물리 기반 게임의 기초를 다지고 싶은 개발자에게 추천합니다. 슈팅 게임의 핵심 메커니즘과 스테이지 설계의 기초를 배우기에 적합합니다.",
+        "source_limitations_ko": "버블의 물리적 특성, 보스전의 구체적인 규칙, 생명 시스템의 상세 작동 방식에 대한 정보가 부족합니다.",
+        "name": "Bubble Royale II: Shattered Crown [Free] [Puzzle]",
+        "source": "itch",
+        "detail_url": "https://rubikones.itch.io/bubble-royale-2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 308,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
+    },
+    "google:com.coloring.book.coloring.game.paint.by.number.color.app.page": {
+      "app_key": "google:com.coloring.book.coloring.game.paint.by.number.color.app.page",
+      "name": "Mood Swear Meme Coloring Games",
+      "developer": "Special Coloring Studio",
+      "source": "google",
+      "country": "US",
+      "category": "game_board",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.coloring.book.coloring.game.paint.by.number.color.app.page&hl=en&gl=US",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:39:35+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Color what you feel with Mood Color, a bold and relaxing color by number experience for adults who enjoy expressive art, relatable memes, sassy quotes, and honest emotions. Turn stress, frustration, confidence, humor, and healing into colorful artwork—one tap at a time. Color Every Mood Some days feel peaceful. Some feel chaotic. Other days call for attitude. Mood Color by Number gives every feeling a place on the page. Explore playful sarcasm, empowering reminders, feminine energy, work humor, boundaries, burnout, overthinking, and self-care. Meme Color turns familiar everyday moments into art you can finish and save. From social battery jokes to coffee-fueled chaos, each Meme Color picture feels funny and recognizable. New Meme Color artwork brings fresh personality to your coloring routine. Bold Words, Beautiful Art Swear word Color combines expressive phrases with flowers, animals, retro women, tattoo-inspired details, and stylish typography. Each Swear word Color design balances attitude with creativity, making it playful rather than harsh. Choose a Swear word Color picture whenever you want to color through frustration. Prefer witty humor without strong language? Humor Color includes dry observations, playful complaints, introvert jokes, workplace sarcasm, and funny reminders about daily life. Humor Color turns annoying moments into something colorful. With Humor Color, even a difficult day can end with a laugh. Easy Number Coloring Mood Color by Number is simple to start and satisfying to finish. Select an image, follow the numbered areas, tap to apply color, and watch the artwork come alive. Helpful hints make details easier, while smooth controls let you color at your own pace. Mood Color by Number requires no drawing skills. Swear word Paint by Number adds a bold twist to relaxing digital art. Complete expressive quotes, colorful lettering, confident characters, flowers, pets, and decorative patterns. Swear word Paint by Number makes emotional release creative, while Swear word Paint by Number offers something different from traditional coloring themes. Pages for Real Feelings Discover Mood Coloring Pages for confidence, anger, exhaustion, self-respect, healing, solitude, and everyday chaos. Mood Coloring Pages range from calming to sarcastic and unapologetic. Fresh Mood Coloring Pages are added regularly, giving you more ways to match art to your current mood. Mood Coloring Games make it easy to pause, focus, and enjoy a creative break. Play Mood Coloring Games after work, before bed, or whenever you need a few colorful minutes. These Mood Coloring Games combine simple gameplay with honest, personality-filled art. Your Personal Collection Build a Mood Coloring Book that reflects every side of you: soft, tired, confident, annoyed, hopeful, funny, and fearless. Save finished pictures in your personal gallery. Your Mood Coloring Book grows with every completed design, turning daily emotions into a colorful collection. Open your Mood Coloring Book whenever words are not enough. Features • Expressive color by number pictures for adults • Sassy quotes, relatable memes, and empowering affirmations • Retro, floral, animal, typography, and feminine artwork • Simple tap-to-color controls and helpful hints • Daily pictures and regularly updated collections • A personal gallery for completed artwork Mood Color app coloring games for adults blends relaxing number art with bold emotional expression. Mood Color app coloring games for adults is made for colorists who appreciate sarcasm, confidence, boundaries, relatable humor, and imperfect healing. Whether you feel calm, chaotic, or completely over it, Mood Color app coloring games for adults gives you a creative way to express it. Download Mood Color today and color your mood your way.",
+      "analysis": {
+        "app_key": "google:com.coloring.book.coloring.game.paint.by.number.color.app.page",
+        "summary_ko": "사용자의 감정과 기분을 색칠로 표현하는 성인용 숫자 색칠 게임입니다. 밈, 명언, 일상적인 감정을 주제로 한 다양한 도안을 제공합니다. 사용자는 번호에 맞춰 색을 채우며 스트레스를 해소하고 작품을 완성할 수 있습니다.",
+        "features_ko": [
+          "번호가 지정된 영역을 터치하여 색을 채우는 숫자 색칠 방식입니다.",
+          "밈, 명언, 꽃, 동물 등 다양한 테마의 도안을 제공합니다.",
+          "색칠 과정에서 세부적인 부분을 쉽게 칠할 수 있도록 힌트 기능을 지원합니다.",
+          "완성된 작품을 개인 갤러리에 저장하고 관리할 수 있습니다."
+        ],
+        "noteworthy_ko": "단순한 색칠을 넘어 '기분'이라는 감성적 키워드를 앱의 핵심 테마로 설정한 점이 흥미롭습니다. 사용자의 감정 상태에 따라 도안을 선택하게 유도하여 앱에 대한 몰입도를 높이는 전략으로 보입니다.",
+        "development_ko": "핵심 기술은 2D 이미지의 영역별 색상 채우기(Flood Fill) 알고리즘입니다. 콘텐츠 제작 측면에서 다양한 테마의 도안을 지속적으로 공급하는 것이 중요하며, UI는 사용자가 직관적으로 색을 선택하고 칠할 수 있는 터치 인터페이스 구현이 핵심입니다.",
+        "idea_ko": "사용자의 일기장과 연동하여 그날의 감정에 맞는 색칠 도안을 자동으로 추천해 주는 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "감정 표현을 강조한 밈과 명언 중심의 독특한 도안 구성.",
+          "사용자가 자신의 감정을 기록하고 관리할 수 있는 개인 갤러리 기능."
+        ],
+        "systems_ko": [
+          "이미지 데이터 관리 시스템",
+          "영역별 색상 채우기 알고리즘",
+          "사용자 갤러리 및 데이터 저장",
+          "터치 입력 및 줌/팬 제어",
+          "힌트 및 보상 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "이미지 처리와 터치 인터페이스 구현은 표준적이지만, 많은 양의 도안 데이터 관리와 최적화가 필요합니다. 1인 개발 시 도안 제작에 많은 시간이 소요될 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "이미지 불러오기 및 색칠 엔진",
+            "기본 도안 5~10종",
+            "갤러리 저장 기능"
+          ],
+          "defer": [
+            "소셜 공유 기능",
+            "정기적인 도안 업데이트 서버",
+            "복잡한 힌트 시스템"
+          ],
+          "risks": [
+            "도안 데이터의 저작권 문제",
+            "다양한 화면 크기에 따른 UI 레이아웃 대응"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "감정 일기 색칠",
+            "concept": "오늘의 기분을 선택하면 그에 맞는 색상 팔레트와 도안이 제공됩니다. 색칠 후 짧은 감정 메모를 남길 수 있습니다.",
+            "first_step": "기분 선택 버튼과 그에 따른 색상 팔레트 변경 기능 구현."
+          },
+          {
+            "title": "커스텀 밈 생성기",
+            "concept": "사용자가 직접 텍스트를 입력하여 나만의 밈 도안을 만들고 색칠할 수 있습니다.",
+            "first_step": "텍스트를 이미지 위에 배치하고 외곽선만 추출하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "이미지 처리와 데이터 관리의 기초를 다지기에 좋습니다. 단순한 기능 구현보다는 사용자 경험을 어떻게 감성적으로 연결할지 고민해 볼 수 있는 좋은 사례입니다.",
+        "source_limitations_ko": "소개문에는 결제 시스템, 광고 연동, 서버 기반의 데이터 동기화 여부가 명시되어 있지 않습니다. 실제 앱의 내부 데이터 구조나 이미지 처리 방식은 확인이 불가능합니다.",
+        "name": "Mood Swear Meme Coloring Games",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.coloring.book.coloring.game.paint.by.number.color.app.page&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
     }
   }
 }

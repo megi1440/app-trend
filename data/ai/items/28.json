@@ -10296,6 +10296,366 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-07"
+    },
+    "google:com.mocacorp.block": {
+      "app_key": "google:com.mocacorp.block",
+      "name": "블록게임",
+      "developer": "Moca",
+      "source": "google",
+      "country": "KR",
+      "category": "game_casual",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.mocacorp.block&hl=ko&gl=KR",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:37:36+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "\"블록 게임\"은 전략적 사고와 퍼즐 풀기 기술에 도전하는 재미있고 중독성 있는 블록 퍼즐 게임입니다! 간단하면서도 매력적인 게임 플레이로 금세 빠져들게 될 것입니다. 주요 특징: * 플레이하기 쉬움: 블록을 드래그 앤 드롭하여 그리드를 채웁니다. 행이나 열을 완성하여 블록을 비우고 보드를 깨끗하게 유지하세요. * 시간 제한 없음: 원하는 속도로 게임을 즐기세요. 서두를 필요가 없습니다. 순수하고 편안한 퍼즐의 재미입니다. * 다채로운 그래픽: 게임을 더욱 즐겁게 만드는 밝고 생생한 비주얼을 즐기세요. * 오프라인 모드: 인터넷에 연결되지 않아도 언제 어디서나 플레이할 수 있습니다. * 리더보드: 전 세계 플레이어와 경쟁하고 다른 플레이어와 순위를 확인하세요. 시간을 보내거나 정신을 예리하게 하려는 경우, 블록 게임은 모든 연령대의 퍼즐 애호가에게 완벽한 선택입니다! ---- 개발자 연락처 : MOCA 대한민국 서울특별시 강남구 강남구 테헤란로79길 6, 3층 브이911(삼성동, 제이에스타워) 06158 474-27-01769 2024-서울강남-07232 본인 직접 신고",
+      "analysis": {
+        "app_key": "google:com.mocacorp.block",
+        "summary_ko": "그리드에 블록을 배치하여 행이나 열을 완성해 제거하는 퍼즐 게임입니다. 시간 제한 없이 전략적으로 보드를 관리하며 높은 점수를 목표로 합니다.",
+        "features_ko": [
+          "블록을 드래그 앤 드롭하여 그리드에 배치합니다.",
+          "행이나 열을 가득 채우면 블록이 제거됩니다.",
+          "시간 제한 없이 자유롭게 플레이할 수 있습니다.",
+          "오프라인 모드를 지원하여 어디서나 플레이 가능합니다.",
+          "리더보드를 통해 전 세계 플레이어와 경쟁합니다."
+        ],
+        "noteworthy_ko": "매우 고전적이고 검증된 퍼즐 메커니즘을 사용합니다. 1인 개발자가 구현하기에 가장 적합한 형태이며, UI/UX의 깔끔함이 성공의 핵심으로 보입니다.",
+        "development_ko": "핵심 기술은 2차원 배열을 이용한 그리드 상태 관리입니다. 콘텐츠 제작 부담은 적으나, 리더보드 연동과 같은 서버 측 기능 구현에 노력이 필요합니다.",
+        "idea_ko": "블록 배치 시 특수 효과를 부여하는 전략적 퍼즐.",
+        "highlights_ko": [
+          "시간 제한 없는 편안한 퍼즐 경험.",
+          "전 세계 플레이어와 경쟁하는 리더보드 시스템."
+        ],
+        "systems_ko": [
+          "그리드 데이터 관리(2차원 배열)",
+          "블록 배치 판정 로직",
+          "행/열 완성 및 제거 알고리즘",
+          "점수 계산 및 리더보드 연동",
+          "UI/UX 터치 이벤트 처리"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "게임 로직이 단순하고 리소스 제작 부담이 적습니다. 퍼즐 게임의 기본 메커니즘을 익히기에 가장 좋은 프로젝트입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "그리드 배치 및 제거 로직",
+            "게임 오버 판정"
+          ],
+          "defer": [
+            "리더보드",
+            "다양한 블록 스킨"
+          ],
+          "risks": [
+            "게임의 단순함으로 인한 낮은 리텐션",
+            "이미 시장에 많은 유사 게임과의 차별화"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "컬러 매치 블록",
+            "concept": "같은 색상의 블록을 인접하게 배치하면 추가 점수를 얻는 규칙을 추가합니다.",
+            "first_step": "블록 색상 속성 추가 및 인접 확인 로직 구현."
+          },
+          {
+            "title": "폭탄 블록",
+            "concept": "특정 턴마다 나타나는 폭탄 블록을 제거하지 못하면 게임이 끝나는 긴장감 있는 모드입니다.",
+            "first_step": "폭탄 블록 생성 및 타이머 로직 구현."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 기초를 배우고 싶은 개발자에게 강력 추천합니다. 로직 구현부터 리더보드 연동까지의 전체 과정을 경험하기 좋습니다.",
+        "source_limitations_ko": "리더보드 구현 방식(자체 서버인지 외부 서비스인지)과 오프라인 모드에서의 데이터 저장 방식은 확인되지 않습니다.",
+        "name": "블록게임",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.mocacorp.block&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 235,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
+    },
+    "apple:6810932860": {
+      "app_key": "apple:6810932860",
+      "name": "گۆچان – Kurdish Keyboard",
+      "developer": "SULI SARDAM",
+      "source": "apple",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://apps.apple.com/us/app/%DA%AF%DB%86%DA%86%D8%A7%D9%86-kurdish-keyboard/id6810932860?uo=2",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:37:55+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Gochan (گۆچان) is a Sorani Kurdish keyboard that helps you write pure, correct Kurdish. FOREIGN WORDS, MARKED AS YOU TYPE Gochan notices words borrowed from other languages while you type and offers the Kurdish word to use instead. Every suggestion is a word found in the Hejar or Xal dictionaries. CHECK AND FIX Tap \"پشکنین\" (Check) in the suggestion bar and Gochan reads the paragraph you are writing. It answers \"هەڵەی تێدایە\" (it has mistakes) or \"ڕاستە\" (it is right). When there are mistakes, tap \"چاککردن\" (Fix) and the corrected paragraph takes its place. When it is right, you get a green tick. MADE FOR SORANI • The full Sorani layout, with long-press for the extra letters • Number and symbol pages • Emoji, with your recent ones first • Hold the space bar to move the cursor, along a line or between lines • Light and dark, following your phone • Its own key click and vibration, each with a switch PRIVATE BY DESIGN The keyboard and its dictionary work on your phone, with no internet. Nothing you type leaves your phone, except a paragraph you choose to check by tapping \"Check\". The Check button is never offered in password fields. TURNING IT ON Settings → General → Keyboard → Keyboards → Add New Keyboard → Gochan. Checking needs \"Allow Full Access\", which iOS requires for any keyboard that uses the internet; it is used for nothing else. — گۆچان کیبۆردێکی کوردیی سۆرانییە بۆ نووسینی کوردیی پەتی و ڕاست. • لە کاتی نووسیندا وشەی بیانی دیاری دەکات و وشەی کوردی لە جێی پێشنیاز دەکات؛ هەموو پێشنیازێک وشەیەکی فەرهەنگی هەژار یان خاڵە. • دوگمەی «پشکنین» پەرەگرافەکەت دەپشکنێت و دەڵێت «هەڵەی تێدایە» یان «ڕاستە»؛ ئەگەر هەڵەی تێدا بوو، «چاککردن» دەیکات بە کوردیی پەتی و ڕاست. • تەختەی تەواوی سۆرانی، ئیمۆجی، جوڵاندنی نیشاندەر بە دوگمەی بۆشایی، ڕووناک و تاریک. • کیبۆردەکە و فەرهەنگەکەی بەبێ ئینتەرنێت کار دەکەن. هیچ شتێک لە مۆبایلەکەت دەرناچێت، جگە لەو پەرەگرافەی خۆت بە «پشکنین» دەینێریت.",
+      "analysis": {
+        "app_key": "apple:6810932860",
+        "summary_ko": "Gochan은 소라니 쿠르드어를 위한 키보드 앱으로, 올바른 언어 사용을 돕습니다. 입력 중 외국어 단어를 감지하여 쿠르드어 단어로 제안합니다. 오프라인 환경에서 작동하며 개인정보 보호를 최우선으로 합니다.",
+        "features_ko": [
+          "입력 중 외국어 단어를 감지하고 쿠르드어 단어를 제안합니다.",
+          "작성한 문단의 맞춤법을 검사하고 수정하는 기능을 제공합니다.",
+          "소라니 쿠르드어 레이아웃을 완벽하게 지원합니다.",
+          "인터넷 연결 없이 오프라인에서 모든 기능을 수행합니다.",
+          "스페이스바를 길게 눌러 커서를 이동하는 편의 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "언어 학습과 키보드 입력을 결합한 형태가 흥미롭습니다. 특히 오프라인 사전 데이터베이스를 활용하여 개인정보를 보호하면서도 실시간 교정을 제공하는 기술적 접근이 우수합니다.",
+        "development_ko": "언어 모델을 활용한 단어 감지 및 교정 엔진 구현이 핵심입니다. 키보드 확장 프로그램 개발을 위한 iOS/Android 표준 API 이해와 효율적인 사전 데이터 검색 알고리즘이 필요합니다.",
+        "idea_ko": "언어 교정 기능을 포함한 특수 언어 키보드",
+        "highlights_ko": [
+          "오프라인 기반의 실시간 맞춤법 교정 및 단어 제안.",
+          "사용자 프라이버시를 고려한 로컬 데이터 처리."
+        ],
+        "systems_ko": [
+          "키보드 입력 처리 엔진",
+          "로컬 사전 데이터베이스",
+          "맞춤법 교정 알고리즘",
+          "UI/UX 레이아웃 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "키보드 앱은 운영체제 수준의 권한과 성능 최적화가 필수적입니다. 또한, 언어별 사전 데이터 구축과 실시간 교정 알고리즘은 높은 수준의 언어 처리 기술을 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 키보드 레이아웃",
+            "단어 제안 UI",
+            "로컬 사전 데이터 로드"
+          ],
+          "defer": [
+            "맞춤법 검사 버튼",
+            "다크 모드 지원"
+          ],
+          "risks": [
+            "키보드 입력 지연(Latency)",
+            "사전 데이터의 정확성 및 최신성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "문맥 기반 단어 추천",
+            "concept": "단순 단어 교정을 넘어, 문맥에 맞는 자연스러운 표현을 추천하는 기능을 추가합니다.",
+            "first_step": "간단한 n-gram 모델을 사용하여 이전 단어에 따른 다음 단어 추천 기능을 구현합니다."
+          },
+          {
+            "title": "언어 학습 퀴즈",
+            "concept": "키보드 사용 빈도가 높은 단어를 바탕으로 사용자의 언어 능력을 테스트하는 퀴즈를 제공합니다.",
+            "first_step": "사용자가 자주 틀리는 단어를 저장하는 로컬 DB를 구축합니다."
+          }
+        ],
+        "recommendation_ko": "로컬 데이터 처리와 키보드 확장 기능 개발에 관심 있는 개발자에게 추천합니다. 특정 언어의 디지털 환경을 개선하는 가치 있는 프로젝트입니다.",
+        "source_limitations_ko": "사용된 사전 데이터의 출처나 구체적인 교정 알고리즘의 상세 내용은 알 수 없습니다. 키보드 권한 설정에 따른 보안 정책은 운영체제별로 검증이 필요합니다.",
+        "name": "گۆچان – Kurdish Keyboard",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/%DA%AF%DB%86%DA%86%D8%A7%D9%86-kurdish-keyboard/id6810932860?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 192,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 16,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
+    },
+    "google:com.identify.track.coinscope": {
+      "app_key": "google:com.identify.track.coinscope",
+      "name": "CoinScope: AI Identifier",
+      "developer": "speakapps.net",
+      "source": "google",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.identify.track.coinscope&hl=en&gl=US",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:38:15+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "CoinScope helps you identify coins, learn about them, and keep track of the ones you want to remember. IDENTIFY COINS Snap a photo to get identification results and reference details in seconds. EXPLORE THE COIN CATALOG Browse a catalog with images, years, coin types, and denominations to learn more about the coins you find. SET ALARMS FOR COIN-RELATED EVENTS You can also set alarms independently—for auction dates or other coin-related events—and add auction links to keep important details in one place. TRACK YOUR COLLECTION AND SCAN HISTORY Save coins to your collection, revisit them anytime, and review your scan history. UNLOCK ACHIEVEMENTS AND TITLES Earn achievements and titles as you scan. Progress by the number of coins you identify, the rarities you come across, and other collection milestones—small goals that make exploring coins more fun. REFERENCE ONLY Identification results are for reference only and are not a professional appraisal or valuation. Download CoinScope to start identifying, learning about, and tracking your coins.",
+      "analysis": {
+        "app_key": "google:com.identify.track.coinscope",
+        "summary_ko": "사진 촬영을 통해 동전을 식별하고 정보를 제공하는 도구 앱입니다. 동전 카탈로그를 통해 상세 정보를 학습할 수 있으며, 수집한 동전을 기록하고 관리하는 기능을 제공합니다. 경매 일정 알림 및 수집 성과 달성 시스템을 통해 동전 수집 취미를 지원합니다.",
+        "features_ko": [
+          "사진을 촬영하여 동전의 종류와 상세 정보를 즉시 식별합니다.",
+          "이미지, 연도, 유형별로 정리된 동전 카탈로그를 탐색할 수 있습니다.",
+          "동전 관련 이벤트나 경매 일정을 알림으로 설정합니다.",
+          "수집한 동전을 기록하고 스캔 이력을 관리합니다.",
+          "동전 식별 수와 희귀도에 따라 성과와 칭호를 획득합니다."
+        ],
+        "noteworthy_ko": "이미지 인식 기술을 활용하여 특정 취미 분야의 진입 장벽을 낮춘 사례입니다. 단순 식별을 넘어 수집 관리와 성과 시스템을 결합하여 사용자의 지속적인 앱 사용을 유도하는 구조가 인상적입니다.",
+        "development_ko": "핵심 기술로는 이미지 인식(Computer Vision) 및 머신러닝 모델 연동이 필수적입니다. 콘텐츠 제작은 방대한 동전 데이터베이스 구축에 큰 부담이 따르며, 정확한 식별을 위한 모델 학습 및 테스트가 가장 중요한 개발 과정입니다.",
+        "idea_ko": "식별된 동전의 현재 시장 가치를 실시간으로 추적하여 수집품의 총 자산 가치를 보여주는 기능을 추가하면 수집가들에게 큰 매력이 될 것입니다.",
+        "highlights_ko": [
+          "이미지 인식 기술을 통해 동전 식별 과정을 자동화하여 사용자 편의성을 높였습니다.",
+          "수집 기록과 성과 시스템을 통해 동전 수집이라는 취미에 게임적 요소를 결합했습니다."
+        ],
+        "systems_ko": [
+          "이미지 인식 및 머신러닝 모델 연동 시스템",
+          "동전 정보 데이터베이스 관리 시스템",
+          "사용자 수집품 관리 및 이력 저장 시스템",
+          "알림 및 스케줄링 시스템",
+          "성과 및 칭호 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "이미지 인식 기술은 높은 수준의 개발 역량을 요구하며, 정확한 동전 식별을 위한 대규모 데이터셋 확보가 개인 개발자에게는 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카메라 촬영 및 이미지 업로드",
+            "기본 동전 정보 검색",
+            "수집품 목록 저장"
+          ],
+          "defer": [
+            "실시간 경매 연동",
+            "복잡한 성과 시스템",
+            "자동 식별 모델 학습"
+          ],
+          "risks": [
+            "이미지 인식 정확도 부족",
+            "동전 데이터베이스 유지보수 비용"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "우표 식별 도우미",
+            "concept": "동전 대신 우표를 촬영하여 발행 국가와 연도를 식별하고 수집하는 앱입니다.",
+            "first_step": "우표 이미지 데이터셋을 활용한 간단한 분류 모델 테스트."
+          },
+          {
+            "title": "수집품 가치 계산기",
+            "concept": "사용자가 가진 수집품의 상태를 입력하면 현재 시장 평균가를 계산해 주는 도구입니다.",
+            "first_step": "수집품 데이터와 가격 정보를 매칭하는 간단한 데이터베이스 구축."
+          }
+        ],
+        "recommendation_ko": "이미지 인식 기술을 활용한 서비스 개발에 관심 있는 개발자에게 추천합니다. 다만, 데이터 확보가 핵심이므로 특정 분야에 특화된 데이터셋을 먼저 확보하는 것이 중요합니다.",
+        "source_limitations_ko": "사용된 이미지 인식 모델의 종류, 동전 데이터베이스의 출처, 경매 정보 연동 방식은 소개문에 명시되지 않았습니다. 식별 결과는 전문적인 감정이 아님을 명시하고 있습니다.",
+        "name": "CoinScope: AI Identifier",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.identify.track.coinscope&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 177,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
+    },
+    "apple:6826721746": {
+      "app_key": "apple:6826721746",
+      "name": "SOFT TENNIS 3D",
+      "developer": "Yusuke Sarashina",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_casual",
+      "detail_url": "https://apps.apple.com/jp/app/soft-tennis-3d/id6826721746?uo=2",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:38:58+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "スマホで、ダブルス。 前衛と後衛で組んで戦う、ソフトテニスの3Dゲームです。 左のスティックで動いて、右のボタンを押したまま構えて、離して打つ。それだけで遊べます。ボタンを押したままでも、球が届いた瞬間に自動で振ります。足元の輪が緑になった瞬間に離すと「GREAT!!」。強い球が出ます。 ■ 1人で遊ぶ（CPU とダブルスの試合） ・自分の役は「後衛」か「前衛」を選べます。ペアと相手の3人は CPU ・CPU の強さは5段階（初心者・中級・上級・県大会・全国レベル） ・3・5・7・9ゲームマッチ ・操作の補助は「やさしい」「ふつう」「むずかしい」の3段階 ■ オンライン対戦（2〜4人） ・部屋を作った人に出る4桁の番号を入れるだけで、離れた友だちと対戦できます ・2人ならそれぞれのペアが CPU、3人なら1人だけ CPU、4人なら全員が人 ・部屋の画面で、だれがどの席に入ったかが見えます。席の入れ替えもできます ■ 打ち分けられる球 ・ストローク：ドライブ・フラット・スライス・カット・中ロブ・高ロブ・ドロップ・超アングル・トップ打ち ・ネットプレー：ボレー・ハイボレー・ローボレー・スマッシュ・ジャンピングスマッシュ ・サーブ：フラット・スライス・カット・山なりのセカンド・忍者サーブ ・球種ごとに軌道の色が変わるので、何を打ったかひと目でわかります ■ 練習（6種類・いつでも無料） ・前衛のポジションどり／ストローク／アングルショット／ショートラリー／ボレー／サーブ ・相手の球の速さは時速70〜145kmから選べます。前衛の練習では、自分の後衛の球の速さと深さ（ベースラインぎりぎり）も選べます ・終わると点数と「次はここ」（いちばん苦手なところの一言）が出ます ■ 2つの視点・縦でも横でも ・いつもの視点と、選手の目線で見る「一人称」を切り替えられます ・スマホを縦にしても横にしても遊べます。画面の向きは設定でも固定できます ■ きせかえ・ガチャ ・シャツ・パンツやスコート・リストバンド・ヘッドバンド・ラケット・グリップ・シューズ・靴下など ・いちばん珍しいウルトラレアには、天使の羽・小悪魔セット・頭上の輪っか・紙の王冠・顧問のサングラス ・ガチャはコインで回します。コインは試合で貯まり、買わなくても全部遊べます。コインを買うこともできます（アプリ内課金）。出る確率はガチャの画面に出ています ・着けた物は、オンライン対戦の相手の画面にも映ります ■ 月額会員について ・会員でなくても、1人で遊ぶ試合は1日1回、誘われて入るオンライン対戦は1日3回まで遊べます。練習はいつでも遊べます ・月額会員（月550円）になると、試合とオンライン対戦が何回でも遊べます ・初めて申し込む方は、最初の1週間が無料です。無料の期間が終わると、自動で更新されて毎月のお支払いが始まります ・更新は、期間が終わる24時間前までに解約しない限り自動で行われます。お支払いは Apple ID に請求されます ・解約は、iPhone の「設定」→ 自分の名前 →「サブスクリプション」からいつでもできます ・利用規約（Apple の標準の使用許諾契約）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ ・プライバシーポリシー: https://yougames-softtennis.pages.dev/privacy ■ 4つの言語 日本語・English・한국어・繁體中文。トップ画面の右上からいつでも切り替えられます。 ■ 記録は端末の中に コイン・持ち物・設定は、お使いの端末の中に保存します。遊ぶだけならアカウントの登録はいりません。コインを買う準備をする時だけ、名前もメールも無い番号のアカウントをサーバーに作り、買ったコインと持ち物を預けます（復旧の鍵で別の端末に戻せます。設定から消せます）。オンライン対戦の間だけ、試合の動きを中継のサーバーで受け渡します（部屋の情報は終わると消えます）。",
+      "analysis": {
+        "app_key": "apple:6826721746",
+        "summary_ko": "이 게임은 3D 환경에서 즐기는 소프트테니스 시뮬레이션 게임입니다. 전위와 후위로 나뉘어 더블스 경기를 진행하며, 간단한 조작으로 다양한 구질의 타구를 구사할 수 있습니다. 싱글 플레이와 온라인 대전을 모두 지원합니다.",
+        "features_ko": [
+          "왼쪽 스틱으로 이동하고 버튼을 눌렀다 떼는 방식으로 타구하는 직관적인 조작을 제공합니다.",
+          "타구 타이밍에 맞춰 버튼을 떼면 'GREAT' 판정과 함께 강력한 타구가 나갑니다.",
+          "CPU와의 경기에서 5단계 난이도와 다양한 게임 매치 수를 선택할 수 있습니다.",
+          "온라인 대전 기능을 통해 친구와 함께 2~4인 경기를 즐길 수 있습니다.",
+          "다양한 의상과 라켓을 수집할 수 있는 가챠 시스템이 포함되어 있습니다."
+        ],
+        "noteworthy_ko": "스포츠 게임의 핵심인 물리 엔진과 타이밍 판정을 모바일 환경에 맞게 단순화한 점이 인상적입니다. 1인 개발 시 복잡한 물리 연산을 어떻게 최적화하고 조작감을 살렸는지가 개발 관점에서 매우 흥미로운 연구 대상입니다.",
+        "development_ko": "3D 캐릭터 애니메이션과 공의 궤적을 계산하는 물리 엔진 구현이 가장 큰 부담입니다. 온라인 대전을 위한 실시간 네트워크 동기화와 CPU AI의 난이도 밸런싱 작업이 필요합니다. 다양한 커스터마이징 아이템 제작을 위한 리소스 관리도 중요합니다.",
+        "idea_ko": "특정 상황에서만 발동하는 '필살기' 시스템을 추가하여 게임의 전략성을 높이는 아이디어가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "1인칭 시점과 3인칭 시점을 자유롭게 전환하여 몰입감을 높일 수 있습니다.",
+          "세로와 가로 화면 모드를 모두 지원하여 사용자 편의성을 극대화했습니다."
+        ],
+        "systems_ko": [
+          "3D 물리 엔진 및 충돌 판정 시스템",
+          "CPU AI 행동 패턴 관리 시스템",
+          "실시간 멀티플레이어 네트워크 동기화",
+          "아이템 수집 및 가챠 시스템",
+          "사용자 설정 및 데이터 저장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "3D 스포츠 게임은 물리 엔진 구현과 네트워크 동기화, AI 밸런싱 등 고려해야 할 기술적 요소가 매우 많아 1인 개발자에게는 높은 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 이동 및 타구 메커니즘",
+            "CPU와의 1:1 경기 모드",
+            "기본적인 3D 코트 환경"
+          ],
+          "defer": [
+            "온라인 멀티플레이어 대전",
+            "가챠 시스템 및 아이템 수집",
+            "다양한 구질의 세부 물리 구현"
+          ],
+          "risks": [
+            "물리 엔진의 버그 및 조작감 저하",
+            "3D 리소스 제작 및 최적화 부담"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "테니스 챌린지 모드",
+            "concept": "정해진 위치에 공을 정확히 보내는 미니 게임 형식의 챌린지 모드입니다. 짧은 시간 내에 집중력을 테스트할 수 있습니다.",
+            "first_step": "특정 타겟을 맞추는 물리 판정 로직과 점수 시스템 구현."
+          },
+          {
+            "title": "커스텀 코트 에디터",
+            "concept": "사용자가 코트의 색상이나 환경 요소를 변경할 수 있는 간단한 에디터입니다. 자신만의 테니스장을 꾸미는 재미를 제공합니다.",
+            "first_step": "코트의 텍스처와 색상을 동적으로 변경하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "3D 게임 개발의 기초부터 물리 엔진 활용까지 폭넓게 배우고 싶은 개발자에게 추천합니다. 다만, 온라인 기능은 구현 난이도가 매우 높으므로 주의가 필요합니다.",
+        "source_limitations_ko": "온라인 대전의 구체적인 네트워크 프로토콜이나 물리 엔진의 상세 구현 방식은 확인되지 않았습니다. 앱 내 결제 시스템의 보안 구조는 알 수 없습니다.",
+        "name": "SOFT TENNIS 3D",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/soft-tennis-3d/id6826721746?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 168,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
     }
   }
 }

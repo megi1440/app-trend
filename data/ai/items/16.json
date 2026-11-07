@@ -10928,6 +10928,537 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-07"
+    },
+    "google:com.hp.clicker.diy.asmr.charm.master": {
+      "app_key": "google:com.hp.clicker.diy.asmr.charm.master",
+      "name": "Clicker DIY: ASMR Charm Master",
+      "developer": "HIGAME Studio",
+      "source": "google",
+      "country": "KR",
+      "category": "game_casual",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.hp.clicker.diy.asmr.charm.master&hl=ko&gl=KR",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:35:48+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "나만의 DIY 클릭커 키체인을 디자인할 수 있는 창의적인 재미의 세계에 오신 것을 환영합니다! 게임 특징: - 마음에 드는 키보드, 키캡, 비즈, 참 장식, 그리고 꾸미기 액세서리를 선택하세요. - 색상, 패턴, 그리고 섬세한 디테일을 조합하여 나만의 디자인을 만들어 보세요. - 모든 키를 꾸미고 귀여운 장식을 더해 나만의 클릭커 키체인을 완성하세요. - 주문을 받고, 작품을 전시하고, 라이브 스트리밍을 통해 보상을 획득하세요. - 클릭, 탭핑, 언박싱, 제작 등 모든 동작마다 편안한 사운드를 즐겨보세요. 지금 바로 나만의 창작 공간으로 뛰어들어 클릭커를 만들어 보세요! 지금 다운로드하세요!",
+      "analysis": {
+        "app_key": "google:com.hp.clicker.diy.asmr.charm.master",
+        "summary_ko": "다양한 부품과 액세서리를 조합하여 나만의 클릭커 키체인을 디자인하고 꾸미는 게임입니다. 제작 후 전시하거나 라이브 스트리밍을 통해 보상을 얻는 경험을 제공합니다.",
+        "features_ko": [
+          "키보드, 키캡, 비즈, 참 등 다양한 꾸미기 재료를 선택할 수 있습니다.",
+          "색상과 패턴을 조합하여 커스텀 디자인을 생성합니다.",
+          "제작한 작품을 전시하고 라이브 스트리밍으로 보상을 획득합니다.",
+          "클릭, 탭핑 등 제작 과정에서 ASMR 사운드를 제공합니다."
+        ],
+        "noteworthy_ko": "제작과 꾸미기라는 창의적 요소에 클릭커 게임의 보상 루프를 결합한 점이 흥미롭습니다. 시각적 만족감과 청각적 피드백(ASMR)을 강조한 것이 특징입니다.",
+        "development_ko": "다양한 파츠의 조합을 처리하는 데이터 구조와 UI 레이어링 기술이 필요합니다. ASMR 사운드 효과의 동기화와 보상 시스템 밸런싱이 중요합니다.",
+        "idea_ko": "사용자가 만든 디자인을 다른 사용자와 공유하고 투표하는 커뮤니티 기능을 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "다양한 파츠 조합을 통한 높은 자유도의 커스터마이징을 제공합니다.",
+          "제작 과정의 ASMR 사운드를 통해 감각적인 만족감을 극대화합니다."
+        ],
+        "systems_ko": [
+          "아이템 조합 및 렌더링 시스템",
+          "보상 및 경제 시스템",
+          "사운드 매니저",
+          "UI/UX 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "UI 중심의 게임으로 복잡한 물리 엔진보다는 데이터 관리와 에셋 구성 능력이 더 중요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "파츠 선택 및 배치 UI",
+            "기본 클릭 보상 시스템"
+          ],
+          "defer": [
+            "라이브 스트리밍 시뮬레이션",
+            "온라인 공유 기능"
+          ],
+          "risks": [
+            "에셋 제작량 증가에 따른 리소스 관리 부담"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "테마별 제작 챌린지",
+            "concept": "특정 테마(예: 우주, 바다)에 맞는 키체인을 제한 시간 내에 만드는 모드입니다.",
+            "first_step": "테마별 파츠 필터링 로직 구현."
+          },
+          {
+            "title": "키체인 경매장",
+            "concept": "사용자가 만든 키체인을 가상 화폐로 거래하는 시스템입니다.",
+            "first_step": "아이템 데이터 직렬화 및 저장 시스템 구축."
+          }
+        ],
+        "recommendation_ko": "UI 기반의 게임 개발과 아이템 조합 시스템을 배우기에 좋습니다. 에셋 제작 능력이 뒷받침되어야 합니다.",
+        "source_limitations_ko": "실제 라이브 스트리밍 기능의 구현 방식(실제 방송 여부), 결제 시스템, 네트워크 통신 여부 등이 명시되지 않았습니다.",
+        "name": "Clicker DIY: ASMR Charm Master",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.hp.clicker.diy.asmr.charm.master&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 369,
+        "reasons": [
+          "multi_country",
+          "newly_seen"
+        ],
+        "best_rank": 7,
+        "countries": [
+          "JP",
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
+    },
+    "itch:3f22c602431366ffa73d": {
+      "app_key": "itch:3f22c602431366ffa73d",
+      "name": "EthnicGuesser [Free] [Puzzle]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://ethniguesser.itch.io/ethnicguesser",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:36:45+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Free GeoGuessr-inspired web game guessing ancestral origins and human phenotypes on an interactive 3D map.",
+      "analysis": {
+        "app_key": "itch:3f22c602431366ffa73d",
+        "summary_ko": "EthnicGuesser는 GeoGuessr에서 영감을 받은 웹 기반 퍼즐 게임입니다. 사용자는 3D 인터랙티브 지도를 통해 인류의 조상 기원과 표현형을 추측합니다.",
+        "features_ko": [
+          "3D 인터랙티브 지도를 제공하여 사용자가 탐색할 수 있습니다.",
+          "조상 기원과 인류 표현형을 추측하는 퍼즐 요소를 포함합니다."
+        ],
+        "noteworthy_ko": "지리적 데이터와 인류학적 데이터를 3D 시각화와 결합한 점이 독특합니다. 데이터베이스의 정확도와 3D 렌더링 성능이 게임의 핵심 재미를 결정할 것으로 추정됩니다.",
+        "development_ko": "핵심 구현 기술로는 웹 기반 3D 라이브러리(Three.js 등)와 지리 정보 데이터베이스 연동이 필요합니다. 콘텐츠 제작 부담은 방대한 인류학적 데이터를 수집하고 검증하는 데 집중될 것입니다. 테스트 시에는 다양한 브라우저에서의 3D 렌더링 호환성을 확인해야 합니다.",
+        "idea_ko": "특정 지역의 문화나 유물을 맞추는 방식으로 범위를 좁혀 구현하는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "GeoGuessr의 메커니즘을 인류학적 주제로 재해석했습니다.",
+          "3D 인터랙티브 지도를 활용한 몰입형 퍼즐 경험을 제공합니다."
+        ],
+        "systems_ko": [
+          "3D 지도 렌더링 및 카메라 제어",
+          "지리 데이터베이스 관리",
+          "사용자 입력 및 정답 판정 시스템",
+          "UI/UX 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "3D 웹 기술과 데이터 관리 능력이 필요하지만, 게임 로직 자체는 단순한 퀴즈 형식이므로 구현 난이도가 적절합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "3D 지도 뷰어",
+            "퀴즈 데이터베이스",
+            "정답 확인 로직"
+          ],
+          "defer": [
+            "사용자 계정 및 랭킹 시스템",
+            "실시간 멀티플레이어 대전"
+          ],
+          "risks": [
+            "데이터의 정확성 및 편향성 문제",
+            "웹 브라우저 성능 최적화"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "건축물 기원 맞추기",
+            "concept": "전 세계 유명 건축물의 사진을 보고 위치와 시대적 배경을 맞추는 게임입니다. 인류학 대신 건축사 지식을 활용합니다.",
+            "first_step": "특정 지역 5곳의 데이터를 기반으로 한 퀴즈 프로토타입을 만듭니다."
+          },
+          {
+            "title": "식문화 지도 퀴즈",
+            "concept": "특정 요리의 재료를 보고 원산지를 맞추는 게임입니다. 음식이라는 친숙한 소재를 활용합니다.",
+            "first_step": "음식 이미지와 위치 데이터를 매칭하는 간단한 웹 페이지를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "웹 기반 3D 시각화와 데이터 기반 게임을 만들고 싶은 개발자에게 추천합니다. 데이터 수집과 시각화의 조화를 배우기에 좋은 프로젝트입니다.",
+        "source_limitations_ko": "사용되는 데이터의 출처나 정확도에 대한 정보가 없습니다. 3D 지도의 구체적인 구현 방식이나 데이터베이스 연동 방식은 확인되지 않습니다.",
+        "name": "EthnicGuesser [Free] [Puzzle]",
+        "source": "itch",
+        "detail_url": "https://ethniguesser.itch.io/ethnicguesser",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 338,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 14,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
+    },
+    "itch:aea5f6115bc073271e6f": {
+      "app_key": "itch:aea5f6115bc073271e6f",
+      "name": "Path of the idle cultivator [Free] [Role Playing] [Windows] [Android]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://wuxiadev.itch.io/idle-cultivation-path",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:37:03+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Idle wuxia incremental. Cultivate, die, rebirth stronger. Defy the Heavens.",
+      "analysis": {
+        "app_key": "itch:aea5f6115bc073271e6f",
+        "summary_ko": "Path of the idle cultivator는 무협 테마의 방치형 증분 게임입니다. 사용자는 수련을 통해 강해지고, 죽음을 맞이한 뒤 환생하여 더 강력한 상태로 다시 시작합니다. 하늘에 도전하는 서사를 바탕으로 지속적인 성장을 추구합니다.",
+        "features_ko": [
+          "수련을 통해 캐릭터의 능력치를 점진적으로 향상시킵니다.",
+          "캐릭터가 사망하면 환생 시스템을 통해 초기화 후 보너스를 얻습니다.",
+          "방치형 메커니즘을 통해 게임을 켜두지 않아도 성장이 가능합니다."
+        ],
+        "noteworthy_ko": "환생(Prestige) 시스템은 방치형 게임의 핵심 동기 부여 요소입니다. 개발 관점에서 수치 밸런싱이 게임의 수명을 결정짓는 가장 중요한 요소로 추정됩니다.",
+        "development_ko": "데이터 관리 시스템과 수치 계산 로직이 핵심입니다. 콘텐츠 제작은 아이템과 스킬 데이터베이스 구축에 집중되며, 밸런스 테스트가 개발 과정의 대부분을 차지할 것으로 보입니다.",
+        "idea_ko": "환생 시 얻는 보너스를 단순히 능력치 증가가 아닌, 새로운 스킬 트리 개방으로 연결하는 방식이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "무협이라는 독특한 테마를 방치형 장르에 결합했습니다.",
+          "환생을 통한 반복적인 성장 구조를 갖추고 있습니다."
+        ],
+        "systems_ko": [
+          "데이터 저장 및 로드 시스템",
+          "수치 계산 엔진",
+          "시간 기반 보상 로직",
+          "UI 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "복잡한 그래픽보다는 데이터 구조 설계와 밸런싱 능력이 중요합니다. 수치 간의 관계를 정의하는 수학적 설계가 필요하여 초보자에게는 다소 도전적일 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 수련 시스템",
+            "환생 로직",
+            "데이터 저장 기능"
+          ],
+          "defer": [
+            "복잡한 스킬 트리",
+            "온라인 랭킹 시스템"
+          ],
+          "risks": [
+            "수치 밸런스 붕괴",
+            "반복적인 플레이로 인한 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "환생의 기억",
+            "concept": "환생할 때마다 이전 생의 기억(아이템)을 일부 가져와 새로운 조합을 만드는 시스템입니다. 수집의 재미를 더합니다.",
+            "first_step": "환생 시 아이템 목록을 저장하고 다음 생에 불러오는 기능 구현."
+          },
+          {
+            "title": "무협 경영",
+            "concept": "수련뿐만 아니라 문파를 운영하여 제자를 키우는 경영 요소를 결합합니다. 방치형 성장에 전략적 선택을 추가합니다.",
+            "first_step": "제자 영입 및 수련 시간 단축 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 기반 게임의 밸런싱과 지속적인 보상 체계를 설계하는 방법을 배우기에 좋습니다. 방치형 게임을 선호하는 개발자에게 강력히 추천합니다.",
+        "source_limitations_ko": "구체적인 수련 방식, 환생 시 유지되는 데이터의 범위, 무협 테마의 시각적 구현 방식에 대한 정보가 없습니다.",
+        "name": "Path of the idle cultivator [Free] [Role Playing] [Windows] [Android]",
+        "source": "itch",
+        "detail_url": "https://wuxiadev.itch.io/idle-cultivation-path",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 314,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
+    },
+    "itch:ab5f42a9945229ade25e": {
+      "app_key": "itch:ab5f42a9945229ade25e",
+      "name": "Metalayns [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://metawen-corporations.itch.io/metalayns",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:37:03+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Battaglia 3v3! Gem Grab, VOLT e TORRO, Pass Natale! Gioca gratis!",
+      "analysis": {
+        "app_key": "itch:ab5f42a9945229ade25e",
+        "summary_ko": "Metalayns는 3대3 팀 대전 액션 게임입니다. 보석 쟁탈전, 볼트, 토로 등 다양한 모드를 통해 무료로 즐길 수 있습니다. 팀워크와 빠른 액션이 강조되는 게임입니다.",
+        "features_ko": [
+          "3대3 팀 기반의 멀티플레이어 대전을 지원합니다.",
+          "보석 쟁탈전 등 다양한 게임 모드를 제공합니다.",
+          "무료로 플레이할 수 있는 접근성을 갖추고 있습니다."
+        ],
+        "noteworthy_ko": "멀티플레이어 액션 게임은 네트워크 동기화와 서버 안정성이 핵심입니다. 개인 개발자가 구현하기에는 네트워크 인프라 구축이 매우 큰 도전 과제가 될 것으로 추정됩니다.",
+        "development_ko": "네트워크 동기화 기술, 서버 클라이언트 구조, 실시간 물리 판정이 핵심입니다. 콘텐츠 제작 부담은 캐릭터와 맵 디자인으로 인해 매우 높으며, 밸런스 테스트는 다수의 인원이 필요합니다.",
+        "idea_ko": "멀티플레이어 대신 AI 팀원과 함께하는 싱글 플레이어 전용 모드를 먼저 구현하는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "팀 기반의 경쟁적인 게임 플레이를 지향합니다.",
+          "다양한 게임 모드를 통해 반복적인 재미를 제공합니다."
+        ],
+        "systems_ko": [
+          "네트워크 동기화 시스템",
+          "매치메이킹 로직",
+          "캐릭터 물리 및 충돌 판정",
+          "게임 모드 관리자"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "멀티플레이어 환경에서의 실시간 동기화는 매우 높은 기술적 난이도를 요구합니다. 1인 개발자가 서버 인프라와 네트워크 최적화를 모두 처리하는 것은 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 캐릭터 이동 및 공격",
+            "승패 판정 로직"
+          ],
+          "defer": [
+            "실시간 온라인 멀티플레이어",
+            "복잡한 매치메이킹"
+          ],
+          "risks": [
+            "네트워크 지연(Lag) 문제",
+            "서버 유지 비용"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "AI 팀 대전",
+            "concept": "멀티플레이어 대신 고도화된 AI와 팀을 이루어 대전하는 방식입니다. 네트워크 부담 없이 액션의 재미에 집중할 수 있습니다.",
+            "first_step": "간단한 추적 AI 로직 구현."
+          },
+          {
+            "title": "로컬 1대1 대전",
+            "concept": "한 기기에서 두 명이 대전하는 로컬 멀티플레이어 모드입니다. 네트워크 문제 없이 대전의 재미를 구현합니다.",
+            "first_step": "두 개의 입력 장치를 구분하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "네트워크 프로그래밍에 관심이 있다면 도전해 볼 만하지만, 순수 게임 개발 학습용으로는 난이도가 매우 높습니다. 멀티플레이어 게임의 구조를 이해하는 용도로는 적합합니다.",
+        "source_limitations_ko": "네트워크 방식(P2P 또는 서버), 캐릭터별 능력치, 구체적인 게임 모드의 규칙에 대한 상세 정보가 없습니다.",
+        "name": "Metalayns [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://metawen-corporations.itch.io/metalayns",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 311,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 23,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
+    },
+    "google:audio.musicos.home": {
+      "app_key": "google:audio.musicos.home",
+      "name": "reTONE — 古いスマホを音楽プレーヤーに",
+      "developer": "Iida Piano Co., Ltd.",
+      "source": "google",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=audio.musicos.home&hl=ja&gl=JP",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:40:35+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "引き出しで眠っている古いスマホを、こだわりの音楽プレーヤーに。 FLAC、DSD、ALAC などのロスレス・ハイレゾ音源を、古い Android でもそのまま再生。USB DAC 接続時は、曲のサンプルレートのままダイレクトに出力します。 完全無料・広告なし・データ収集なし。安心してご利用いただけます。 reTONE（リトーン）は、使わなくなった Android 端末を本格的な「音楽専用機（DAP）」として生まれ変わらせる音楽プレーヤーアプリです。 ■ 音楽専用機としての使い心地 ・ホーム画面・ロック画面に設定可能。電源を入れるとすぐに音楽を楽しめます ・通知音や着信音をシャットアウトする「サイレント DAP モード」搭載 ・もちろん、通常の音楽プレーヤーアプリとしても利用可能です ■ 音質へのこだわりと強力な再生エンジン ・幅広いフォーマットに対応（FLAC、ALAC、WAV、AIFF、DSD［DSF／DFF］、MP3、AAC、Opus） ・古い Android でも、reTONE 独自の再生エンジンで FLAC や DSD を高音質再生 ・曲のサンプルレートを変更せずに USB DAC へ直接出力（※USB ホスト機能対応端末） ・信号経路画面でファイル再生から出力までのプロセスを可視化。条件が揃うと「BIT-PERFECT」を表示 ・端末メーカー固有の音響設定（イコライザー等）にもスムーズにアクセス ・軽量な動作を維持しながら、音質を最優先した設計 ■ 充実のライブラリ管理 ・アルバム、アーティスト、曲、フォルダ、プレイリスト（.m3u／.m3u8 の読み込み・書き出し）に対応 ・検索・並べ替え用の読み仮名タグ対応、ライブラリ対象フォルダの選択が可能 ・歌詞表示（.lrc ファイル・埋め込み歌詞）、リプレイゲイン対応（初期設定：オフ） ・シームレスなギャップレス再生、曲順の変更ができる再生キュー ■ 便利な機能 ・再生中の楽曲情報と信号経路をカード画像にして SNS へシェア ・普段お使いのスマホから Bluetooth 経由で reTONE を遠隔操作できるリモコン機能 ・ご家庭の NAS（DLNA）や、別の reTONE 内の楽曲を再生（※ネットワーク機能オン時） ■ 無料・広告なし・トラッキングなし reTONE は完全に無料で、広告の表示やユーザー情報の収集・追跡は一切行いません。ネットワーク機能は初期設定でオフになっています。 ※ Google Play を利用できない古い端末（Android 4.x など）は、公式サイトからインストールできます。 ※ 端末や USB DAC の組み合わせ・相性によって動作が異なる場合があります。 使い方・対応端末の詳細：https://retone.iidapiano.store/",
+      "analysis": {
+        "app_key": "google:audio.musicos.home",
+        "summary_ko": "reTONE은 사용하지 않는 안드로이드 기기를 고음질 음악 전용 플레이어(DAP)로 변환해 주는 앱입니다. FLAC, DSD 등 다양한 고해상도 음원을 지원하며, USB DAC 연결 시 비트 퍼펙트 출력을 제공합니다. 광고나 데이터 수집 없이 음악 감상에만 집중할 수 있는 환경을 제공합니다.",
+        "features_ko": [
+          "FLAC, DSD, ALAC 등 다양한 고해상도 오디오 포맷을 재생합니다.",
+          "USB DAC 연결 시 샘플링 레이트 변환 없이 직접 출력합니다.",
+          "알림과 벨소리를 차단하는 '사이런트 DAP 모드'를 지원합니다.",
+          "NAS(DLNA) 및 다른 기기의 음악을 네트워크로 재생할 수 있습니다.",
+          "재생 중인 곡의 신호 경로를 시각화하여 비트 퍼펙트 상태를 확인합니다."
+        ],
+        "noteworthy_ko": "오래된 기기를 재활용하여 전용 하드웨어 없이도 고음질 환경을 구축한다는 점이 흥미롭습니다. 특히 OS 수준의 음향 설정을 우회하거나 직접 제어하려는 시도는 오디오 애호가 타겟의 기술적 니즈를 잘 파악한 것으로 보입니다.",
+        "development_ko": "핵심 구현 기술로는 안드로이드 오디오 프레임워크를 우회하는 커스텀 재생 엔진 개발이 필수적입니다. USB DAC와의 통신을 위한 USB 호스트 기능 구현과 다양한 코덱 지원이 콘텐츠 제작의 핵심입니다. 기기별 하드웨어 호환성 테스트가 가장 큰 부담이 될 것으로 추정됩니다.",
+        "idea_ko": "기존 기기의 센서를 활용하여 특정 제스처로 곡을 넘기거나, 기기를 뒤집으면 재생이 멈추는 물리적 인터페이스 결합 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "광고와 데이터 수집이 없는 완전 무료 정책으로 사용자 신뢰를 확보했습니다.",
+          "신호 경로 시각화 기능을 통해 오디오 데이터의 무결성을 사용자에게 직접 증명합니다."
+        ],
+        "systems_ko": [
+          "오디오 디코딩 엔진",
+          "USB DAC 통신 드라이버",
+          "로컬 파일 라이브러리 관리자",
+          "네트워크 스트리밍(DLNA) 클라이언트",
+          "UI/UX 레이어"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "안드로이드의 파편화된 오디오 드라이버와 USB DAC 호환성을 모두 대응하는 것은 매우 높은 수준의 하드웨어 제어 지식을 요구합니다. 단순 재생을 넘어 비트 퍼펙트를 보장하는 엔진 설계는 개인 개발자에게 큰 도전입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 로컬 파일 재생 기능",
+            "주요 오디오 포맷(FLAC, MP3) 지원",
+            "재생 목록 관리"
+          ],
+          "defer": [
+            "네트워크(DLNA) 재생",
+            "원격 제어 기능",
+            "SNS 공유 기능"
+          ],
+          "risks": [
+            "다양한 안드로이드 버전 및 기기별 오디오 출력 호환성 문제",
+            "USB DAC 연결 시 발생하는 드라이버 충돌"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "제스처 기반 DAP",
+            "concept": "화면 터치 없이 기기를 흔들거나 뒤집어 곡을 넘기는 제스처 제어 기능입니다. 음악 감상 중 화면을 보지 않는 상황에 최적화되어 있습니다.",
+            "first_step": "가속도 센서 값을 읽어 특정 임계값 이상일 때 다음 곡 재생 명령을 실행하는 프로토타입 구현."
+          },
+          {
+            "title": "환경음 믹서",
+            "concept": "음악과 함께 빗소리, 카페 소음 등 환경음을 레이어링하여 재생하는 기능입니다. 집중력 향상을 원하는 사용자에게 유용합니다.",
+            "first_step": "두 개의 오디오 스트림을 동시에 믹싱하여 출력하는 기본 오디오 엔진 테스트."
+          }
+        ],
+        "recommendation_ko": "안드로이드의 저수준 오디오 API와 하드웨어 제어에 관심이 있다면 매우 좋은 학습 사례입니다. 다만, 범용적인 앱보다는 특정 하드웨어 조합을 타겟팅하는 것이 성공 가능성이 높습니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 구체적인 오디오 엔진의 구현 방식(예: OpenSL ES, AAudio 사용 여부)은 알 수 없습니다. 결제나 보안 관련 기능은 언급되지 않았으므로 구현 범위에서 제외해야 합니다.",
+        "name": "reTONE — 古いスマホを音楽プレーヤーに",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=audio.musicos.home&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 63,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
+    },
+    "apple:6755482314": {
+      "app_key": "apple:6755482314",
+      "name": "Arrow Puzzle - 화살퍼즐게임",
+      "developer": "Easybrain Ltd",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/kr/app/arrow-puzzle-%ED%99%94%EC%82%B4%ED%8D%BC%EC%A6%90%EA%B2%8C%EC%9E%84/id6755482314?uo=2",
+      "data_date": "2026-11-08",
+      "analysed_at": "2026-11-08T04:40:35+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Arrow Puzzle은 간단한 터치가 보람찬 도전이 되는 힐링 논리 게임입니다. 목표는 명확합니다. 빈 경로를 찾아 화살표를 올바른 순서로 탭하고, 미로가 서서히 정리되며 텅 빈 보드로 바뀌어 가는 과정을 즐겨 보세요. 화살표를 따라가 퍼즐에서 탈출하며 정신을 집중하는 데서 오는 기분 좋은 몰입감에 의식의 흐름을 맡겨 보세요. 압박감 없이 두뇌를 가볍게 자극할 방법을 찾고 계시나요? 이 편안한 화살표 두뇌게임으로 소음에서 벗어나 휴식에 집중하며 스트레스를 날려 버리세요. 매일 차분한 루틴으로 논리력과 공간 지각력을 훈련할 수 있어요. 이스케이프 퍼즐게임에서 보드를 비울 때마다 승리의 만족감을 느끼며 마음을 작게나마 새롭게 리셋하세요. Arrow Puzzle 플레이 방법: - 이 탭 퍼즐게임의 목표는 서로 다른 방향을 가리키는 화살표가 뒤섞인 미로, 즉 그리드를 비우는 것입니다. - 빈 경로를 찾아 화살표 퍼즐 그리드에서 탈출하세요. 화살표는 앞에 경로를 막고 있는 다른 화살표가 없을 때만 움직입니다. 먼저 생각한 후 행동하세요. - 화살표를 하나씩 탭해 그리드에서 내보내며 다른 화살표가 움직일 공간을 확보하세요. - 막힌 화살표는 피하세요. 경로가 막힌 화살표를 탭하면 생명 하나를 잃습니다. 레벨마다 생명이 제한되어 있지만 언제든 자신만의 속도로 계획을 다시 세우고 재도전할 수 있습니다. - 진행 중 막히면 유용한 힌트를 사용하세요. 그리드를 안전하게 빠져나갈 수 있는 화살표가 강조 표시됩니다. - 탭할 순서를 계획해 모든 화살표가 빠져나가게 하고, 마지막 화살표가 떠나며 모든 것이 맞아떨어지는 순간을 즐겨 보세요. Arrow Puzzle을 좋아할 수밖에 없는 이유: • 단순한 규칙과 깊이 있는 전략이 어우러진 미니멀한 머리쓰는 게임. 시작은 쉽고 마스터하는 재미는 쏠쏠합니다. • 하나하나 직접 만든 수백 개의 탭 어웨이 스타일 퍼즐. 진행할수록 난이도가 점점 높아집니다. • 일일 챌린지: 매일 플레이하고 월간 챌린지를 완료해 특별한 트로피를 모으세요. • 막막할 때 유용한 힌트의 도움을 받아 화살표를 내보내고 흐름을 이어 갈 수 있습니다. • 타이머도 압박도 없습니다. 마음이 느긋해지는 이스케이프 두뇌게임으로 진정한 즐거움을 만끽하세요. • 깔끔하고 차분한 비주얼과 부드러운 애니메이션으로 퍼즐 해결에만 집중할 수 있는 탭 퍼즐게임입니다. Arrow Puzzle에서 화살표 그리드를 비우며 고도의 집중과 휴식이 균형을 이루는 흔치 않은 경험을 즐기세요.",
+      "analysis": {
+        "app_key": "apple:6755482314",
+        "summary_ko": "Arrow Puzzle은 화살표가 가리키는 방향을 따라 그리드에서 화살표를 제거하는 논리 퍼즐 게임입니다. 막힌 경로를 피하고 올바른 순서로 화살표를 탭하여 보드를 비우는 것이 목표입니다. 차분한 비주얼과 압박 없는 게임 환경을 제공합니다.",
+        "features_ko": [
+          "화살표의 방향과 경로를 고려하여 탭하는 퍼즐 규칙을 가집니다.",
+          "경로가 막힌 화살표를 탭하면 생명을 잃는 페널티가 있습니다.",
+          "진행이 막힐 때 사용할 수 있는 힌트 기능을 제공합니다.",
+          "일일 챌린지 및 월간 트로피 수집 요소를 포함합니다."
+        ],
+        "noteworthy_ko": "단순한 탭 동작에 논리적 순서라는 제약을 더해 몰입감을 높인 점이 흥미롭습니다. 미니멀한 디자인과 스트레스 없는 게임 환경을 지향하는 점이 퍼즐 장르의 핵심을 잘 짚고 있습니다.",
+        "development_ko": "퍼즐 레벨 생성 알고리즘과 그리드 상태 관리 시스템이 핵심입니다. 화살표의 이동 경로를 계산하는 로직과 부드러운 애니메이션 구현이 필요합니다. 수백 개의 레벨을 효율적으로 관리하기 위한 데이터 구조 설계가 중요합니다.",
+        "idea_ko": "화살표가 이동할 때마다 특정 소리가 나는 '음악 퍼즐' 모드나, 화살표를 회전시켜 경로를 만드는 변형 규칙이 적합합니다.",
+        "highlights_ko": [
+          "단순한 규칙과 깊이 있는 전략이 조화된 미니멀한 퍼즐 게임입니다.",
+          "타이머나 압박 요소 없이 휴식에 집중할 수 있는 환경을 제공합니다."
+        ],
+        "systems_ko": [
+          "그리드 및 화살표 상태 관리",
+          "경로 탐색 알고리즘",
+          "레벨 데이터 관리 시스템",
+          "UI 애니메이션 엔진",
+          "보상 및 챌린지 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "퍼즐 로직 자체는 2차원 배열 기반의 상태 관리로 구현 가능하여 난이도가 적당합니다. 다만, 재미있는 레벨을 수백 개 설계하는 것은 많은 시간과 테스트가 필요한 작업입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "그리드 기반 화살표 배치",
+            "탭을 통한 화살표 제거 로직",
+            "레벨 클리어 판정"
+          ],
+          "defer": [
+            "일일 챌린지 시스템",
+            "힌트 기능",
+            "다양한 테마 및 코스튬"
+          ],
+          "risks": [
+            "레벨 디자인의 반복성으로 인한 지루함",
+            "퍼즐 난이도 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "회전 화살표 퍼즐",
+            "concept": "화살표를 탭하여 제거하는 대신, 90도씩 회전시켜 경로를 확보하는 퍼즐입니다. 더 복잡한 논리적 사고가 필요합니다.",
+            "first_step": "화살표 객체의 회전 상태를 변경하고 경로를 재계산하는 로직 구현."
+          },
+          {
+            "title": "연쇄 반응 퍼즐",
+            "concept": "하나의 화살표를 제거하면 그 뒤에 있던 화살표들이 연쇄적으로 움직이는 규칙입니다. 시각적 쾌감을 극대화합니다.",
+            "first_step": "화살표 제거 시 인접한 화살표들의 이동을 순차적으로 처리하는 애니메이션 구현."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 레벨 디자인과 상태 관리 시스템을 배우기에 최적입니다. 1인 개발자가 가장 효율적으로 완성도 높은 결과물을 낼 수 있는 장르입니다.",
+        "source_limitations_ko": "레벨 생성 방식이 수동인지 자동 알고리즘인지 확인되지 않았습니다. 결제나 외부 서비스 연동은 언급되지 않았습니다.",
+        "name": "Arrow Puzzle - 화살퍼즐게임",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/arrow-puzzle-%ED%99%94%EC%82%B4%ED%8D%BC%EC%A6%90%EA%B2%8C%EC%9E%84/id6755482314?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 90,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-08"
     }
   }
 }
