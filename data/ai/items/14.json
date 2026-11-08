@@ -10819,6 +10819,94 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-08"
+    },
+    "itch:556f294baa1a7c928679": {
+      "app_key": "itch:556f294baa1a7c928679",
+      "name": "Brainmill [Free] [Educational]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://calrk.itch.io/brainmill",
+      "data_date": "2026-11-09",
+      "analysed_at": "2026-11-09T04:56:39+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Quick memory games for numbers, patterns and shapes. Free, no sign-up, harder as you get better.",
+      "analysis": {
+        "app_key": "itch:556f294baa1a7c928679",
+        "summary_ko": "Brainmill은 숫자, 패턴, 도형을 활용한 빠른 기억력 훈련 게임입니다. 별도의 회원가입 없이 무료로 이용할 수 있으며, 사용자의 실력이 향상됨에 따라 난이도가 점진적으로 상승하는 구조를 갖추고 있습니다.",
+        "features_ko": [
+          "숫자 기억하기를 통해 단기 기억력을 테스트합니다.",
+          "화면에 제시되는 패턴을 기억하고 재현하는 기능을 제공합니다.",
+          "도형의 위치나 형태를 기억하는 퍼즐 요소를 포함합니다.",
+          "사용자의 숙련도에 따라 난이도가 자동으로 조절됩니다."
+        ],
+        "noteworthy_ko": "단순한 메커니즘을 통해 사용자의 실력에 맞춰 난이도를 조정하는 점이 흥미롭습니다. 이는 데이터 기반의 난이도 곡선 설계가 개인 개발자에게 좋은 학습 사례가 될 것으로 추정됩니다.",
+        "development_ko": "핵심 구현 기술로는 난이도 조절 알고리즘과 랜덤 패턴 생성 로직이 필요합니다. 콘텐츠 제작 부담은 적은 편이나, 사용자가 지루함을 느끼지 않도록 난이도 상승 곡선을 세밀하게 밸런싱하는 작업이 중요합니다.",
+        "idea_ko": "사용자의 오답 패턴을 분석하여 취약한 기억 영역을 집중 훈련시키는 '맞춤형 기억력 코칭' 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "회원가입 절차를 생략하여 즉각적인 게임 플레이가 가능합니다.",
+          "숫자, 패턴, 도형 등 다양한 기억력 훈련 소재를 다룹니다."
+        ],
+        "systems_ko": [
+          "난이도 관리 시스템",
+          "랜덤 데이터 생성기",
+          "사용자 기록 저장 시스템",
+          "UI/UX 반응형 레이아웃"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "게임의 핵심 메커니즘이 단순하고 그래픽 리소스 요구량이 적습니다. 복잡한 물리 엔진이나 네트워크 통신 없이 로컬 로직만으로 구현 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기억력 테스트 게임 루프",
+            "난이도 단계별 데이터셋",
+            "점수 표시 UI"
+          ],
+          "defer": [
+            "사용자 계정 연동",
+            "글로벌 리더보드"
+          ],
+          "risks": [
+            "단조로운 게임 플레이로 인한 낮은 리텐션"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "기억력 듀얼 모드",
+            "concept": "두 명의 플레이어가 동시에 같은 패턴을 보고 누가 더 빨리 기억하는지 경쟁하는 모드입니다.",
+            "first_step": "로컬 2인용 화면 분할 UI를 구현합니다."
+          },
+          {
+            "title": "일상 기억 훈련",
+            "concept": "게임 내 도형 대신 실제 일상 사물 사진을 사용하여 기억력을 훈련합니다.",
+            "first_step": "이미지 에셋을 불러와 무작위로 배치하는 기능을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "간결한 게임 루프를 설계하고 난이도 곡선을 조정하는 법을 배우기에 적합합니다. 퍼즐 게임의 기본기를 다지고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 게임 규칙, UI 구성, 난이도 상승 알고리즘의 세부 사항은 확인되지 않습니다.",
+        "name": "Brainmill [Free] [Educational]",
+        "source": "itch",
+        "detail_url": "https://calrk.itch.io/brainmill",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 332,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 16,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-09"
     }
   }
 }

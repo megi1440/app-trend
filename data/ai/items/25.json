@@ -11427,6 +11427,184 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-08"
+    },
+    "itch:82bd57e04af1e8f2cf72": {
+      "app_key": "itch:82bd57e04af1e8f2cf72",
+      "name": "Granny Rides: A Feather Storm Chase [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://denis1stomin.itch.io/granny-rides",
+      "data_date": "2026-11-09",
+      "analysed_at": "2026-11-09T04:56:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Granny and her cat chase the Goose Mafia on a red sport bike to get back her stolen recipe. A short painted chase game.",
+      "analysis": {
+        "app_key": "itch:82bd57e04af1e8f2cf72",
+        "summary_ko": "할머니와 고양이가 빨간 스포츠 바이크를 타고 거위 마피아를 추격하는 액션 게임입니다. 도난당한 요리법을 되찾기 위한 짧은 추격전을 다루고 있습니다. 회화적인 스타일의 그래픽이 특징입니다.",
+        "features_ko": [
+          "스포츠 바이크를 조작하여 추격전을 벌이는 액션 게임입니다.",
+          "거위 마피아라는 독특한 적대 세력을 설정했습니다.",
+          "회화적인 스타일의 시각적 연출을 제공합니다."
+        ],
+        "noteworthy_ko": "짧은 추격전이라는 명확한 목표를 가진 액션 게임으로, 속도감과 조작의 재미를 어떻게 구현했는지가 관건입니다. 회화적인 아트 스타일을 게임 엔진에 어떻게 적용했는지 분석하는 것이 흥미롭습니다.",
+        "development_ko": "핵심 기술은 차량 조작 물리와 추격전 카메라 연출입니다. 콘텐츠 제작은 배경과 캐릭터의 회화적 에셋 제작에 많은 시간이 소요될 것으로 보입니다.",
+        "idea_ko": "추격 중 장애물을 피하거나 아이템을 획득하는 간단한 액션 요소를 강화하는 것이 좋습니다.",
+        "highlights_ko": [
+          "할머니와 스포츠 바이크라는 이색적인 조합이 특징입니다.",
+          "짧고 강렬한 추격전 중심의 게임 플레이를 지향합니다."
+        ],
+        "systems_ko": [
+          "차량 이동 및 조작 시스템",
+          "카메라 팔로우 시스템",
+          "충돌 판정 및 장애물 생성기"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "차량 조작감과 물리 판정을 구현하는 과정에서 적절한 밸런스 조정이 필요하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "플레이어 이동 조작",
+            "장애물 충돌 처리",
+            "기본적인 추격전 루프"
+          ],
+          "defer": [
+            "다양한 차량 커스터마이징",
+            "복잡한 적 AI 패턴"
+          ],
+          "risks": [
+            "조작감의 지루함",
+            "회화적 스타일과 물리 엔진의 조화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "요리법 조각 수집",
+            "concept": "추격 도중 흩어진 요리법 조각을 모으면 할머니의 바이크 성능이 일시적으로 강화됩니다.",
+            "first_step": "아이템 획득 시 속도 변수를 변경하는 간단한 스크립트를 작성합니다."
+          },
+          {
+            "title": "거위 방해 공작",
+            "concept": "거위 마피아가 도로에 장애물을 던지는 패턴을 추가하여 회피 액션을 강조합니다.",
+            "first_step": "일정 시간마다 장애물을 생성하는 스포너를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "간단한 액션 게임의 핵심 루프를 구현해보고 싶은 개발자에게 추천합니다. 조작감 개선과 물리 엔진 활용을 배우기 좋습니다.",
+        "source_limitations_ko": "게임의 정확한 플레이 시간, 조작 방식(키보드/패드), 구체적인 물리 엔진 적용 여부는 확인되지 않습니다.",
+        "name": "Granny Rides: A Feather Storm Chase [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://denis1stomin.itch.io/granny-rides",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 350,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 10,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-09"
+    },
+    "google:city.hero.adventure.simulation3d": {
+      "app_key": "google:city.hero.adventure.simulation3d",
+      "name": "Flying Warrior: City Legends",
+      "developer": "Galaxy Legend Game Studio",
+      "source": "google",
+      "country": "US",
+      "category": "game_action",
+      "detail_url": "https://play.google.com/store/apps/details?id=city.hero.adventure.simulation3d&hl=en&gl=US",
+      "data_date": "2026-11-09",
+      "analysed_at": "2026-11-09T04:59:27+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Become the ultimate Flying Warrior and protect a city filled with danger. Fly between skyscrapers, swing with high-tech gear, fight enemies, unlock weapons, and complete heroic missions in a dynamic open-world urban playground. GAME FEATURES Sky-Flight Movement Glide, boost, dive, and fly freely through the entire city. Grappling & Swing Mobility Use advanced hook gear to swing between buildings and reach high ground instantly. Action-Packed Missions Stop crimes, rescue civilians, chase villains, and clear enemy zones. Combat & Skills Punch, kick, slam, use special powers, and unleash aerial attacks. Weapons & Upgrades Unlock blasters, cannons, melee weapons, explosives, and hero suits. City Exploration Move across rooftops, neon streets, alleys, and multiple districts. Stunts & Physics Moments Perform flips, sky dives, hook jumps, and stylish takedowns. Rise above the city and become the legend it needs — the Flying Warrior.",
+      "analysis": {
+        "app_key": "google:city.hero.adventure.simulation3d",
+        "summary_ko": "고층 빌딩 사이를 비행하고 스윙하며 도시의 범죄를 막는 액션 게임입니다. 다양한 무기와 영웅 수트를 활용해 적을 물리치고 시민을 구출하는 임무를 수행합니다. 오픈 월드 도시를 배경으로 자유로운 이동과 전투를 즐길 수 있습니다.",
+        "features_ko": [
+          "비행, 활공, 다이빙 등 자유로운 공중 이동을 지원합니다.",
+          "그래플링 훅을 사용하여 건물 사이를 스윙하며 이동합니다.",
+          "범죄 저지, 시민 구조, 악당 추격 등 다양한 임무를 수행합니다.",
+          "펀치, 킥, 특수 능력 등 다양한 전투 기술을 사용합니다.",
+          "블래스터, 캐논 등 무기와 영웅 수트를 업그레이드합니다."
+        ],
+        "noteworthy_ko": "오픈 월드에서의 자유로운 이동과 전투를 결합한 액션 게임입니다. 물리 엔진을 활용한 스윙 이동과 공중 전투의 조화가 개발 관점에서 도전적이고 흥미로운 요소입니다.",
+        "development_ko": "핵심은 3D 물리 엔진 활용과 캐릭터 컨트롤러 구현입니다. 도시 환경의 최적화와 다양한 적 AI 패턴 제작이 필요하며, 액션의 타격감을 살리는 연출이 중요합니다.",
+        "idea_ko": "도시 내 특정 구역을 점령하는 '영역 점령전' 규칙을 추가하여 게임의 목표를 명확히 하는 방식을 제안합니다.",
+        "highlights_ko": [
+          "그래플링 훅을 이용한 입체적인 이동 시스템이 게임의 핵심 재미입니다.",
+          "다양한 무기와 수트 업그레이드를 통해 캐릭터 성장 요소를 제공합니다."
+        ],
+        "systems_ko": [
+          "3D 캐릭터 컨트롤러(비행, 스윙)",
+          "물리 엔진 기반 이동 시스템",
+          "전투 및 타격 판정 시스템",
+          "퀘스트 및 미션 관리 시스템",
+          "아이템 및 업그레이드 데이터 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "3D 오픈 월드 환경 구축과 물리 기반의 이동 시스템은 1인 개발자가 구현하기에 기술적 난이도가 매우 높으며, 최적화 작업이 필수적입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 캐릭터 이동(비행, 스윙)",
+            "간단한 전투 시스템",
+            "기본적인 3D 도시 환경"
+          ],
+          "defer": [
+            "복잡한 적 AI 패턴",
+            "다양한 무기 및 수트 종류",
+            "오픈 월드 전체 최적화"
+          ],
+          "risks": [
+            "물리 엔진 구현의 복잡성",
+            "모바일 기기에서의 성능 최적화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "도시 재건 미션",
+            "concept": "전투로 파괴된 도시 시설을 복구하는 미션을 추가합니다. 파괴와 복구의 순환을 통해 도시의 변화를 체감하게 합니다.",
+            "first_step": "시설물 파괴 및 복구 상태 변경 기능을 구현합니다."
+          },
+          {
+            "title": "타임 어택 비행 레이스",
+            "concept": "도시 곳곳에 배치된 체크포인트를 빠르게 통과하는 레이스 모드입니다. 이동 기술을 숙달하는 재미를 제공합니다.",
+            "first_step": "체크포인트 통과 및 시간 측정 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "3D 액션 게임의 기초를 다지기에 좋습니다. 처음부터 큰 도시를 만들기보다 작은 구역에서 이동과 전투의 재미를 검증하는 방식으로 개발하세요.",
+        "source_limitations_ko": "소개문에는 구체적인 물리 엔진 종류, 최적화 기법, 적 AI 로직 등이 명시되어 있지 않습니다. 실제 구현 시 성능 최적화와 물리 연산의 안정성 검증이 반드시 필요합니다.",
+        "name": "Flying Warrior: City Legends",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=city.hero.adventure.simulation3d&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-09"
     }
   }
 }

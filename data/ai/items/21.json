@@ -10843,6 +10843,97 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-08"
+    },
+    "google:com.publix.main": {
+      "app_key": "google:com.publix.main",
+      "name": "Publix",
+      "developer": "Publix Super Markets Inc.",
+      "source": "google",
+      "country": "US",
+      "category": "app_lifestyle",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.publix.main&hl=en&gl=US",
+      "data_date": "2026-11-09",
+      "analysed_at": "2026-11-09T04:59:08+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Never miss a deal or a meal with the Publix app. We’ve designed our app to help you save money and time, whether you’re looking for deals on items you actually buy or ordering your favorite ham and cheese sub—we’ll even remember the pickles! To get the most out of our app, join Club Publix and get hand-picked deals, surprise savings, sneak peeks, and other benefits just for being a member. Plus: - Browse our weekly ads, clip digital coupons, and search for deals by category. - Order custom subs, sliced meats, or cheeses and we’ll have them ready for you. You can order custom cakes and platters, too. - Reorder your favorites with a few taps on your phone. - Choose an ordering service: delivery, in-store pickup, or curbside pickup. - Search for products and see related information, including sales, coupons, and in-store pickup availability. - Create, save, and access shopping lists and see aisle locations. - Add items to your shopping list, including sale items, coupons, favorites, and items from your purchase history. - Use the barcode scanner to scan and add items to your shopping list. Love Publix? Like us on Facebook: http://www.facebook.com/publix Follow us on Twitter: http://www.twitter.com/publix",
+      "analysis": {
+        "app_key": "google:com.publix.main",
+        "summary_ko": "Publix 앱은 식료품 쇼핑을 돕는 라이프스타일 도구입니다. 주간 광고 확인, 디지털 쿠폰 클립, 쇼핑 리스트 작성 및 매장 내 제품 위치 확인 기능을 제공합니다. 픽업 및 배달 서비스 주문도 앱을 통해 간편하게 이용할 수 있습니다.",
+        "features_ko": [
+          "주간 광고를 브라우징하고 디지털 쿠폰을 클립할 수 있습니다.",
+          "맞춤형 샌드위치, 고기, 치즈 등을 미리 주문할 수 있습니다.",
+          "쇼핑 리스트를 생성하고 매장 내 통로 위치를 확인할 수 있습니다.",
+          "바코드 스캐너를 사용하여 제품을 리스트에 추가할 수 있습니다.",
+          "배달, 매장 픽업, 커브사이드 픽업 서비스를 선택할 수 있습니다."
+        ],
+        "noteworthy_ko": "사용자의 구매 이력과 매장 재고 데이터를 연동하여 개인화된 쇼핑 경험을 제공하는 것이 핵심입니다. 오프라인 매장과 온라인 앱을 연결하는 O2O(Online to Offline) 서비스의 전형적인 구조를 보여줍니다.",
+        "development_ko": "백엔드 데이터베이스와의 실시간 재고 연동 및 사용자 위치 기반 서비스 구현이 중요합니다. 보안이 중요한 결제 및 개인정보 처리 시스템이 포함되어 있어 개발 부담이 큽니다.",
+        "idea_ko": "사용자의 구매 이력을 분석하여 부족한 식재료를 자동으로 리스트에 추가하는 스마트 쇼핑 리스트.",
+        "highlights_ko": [
+          "온라인 주문과 오프라인 매장 픽업의 통합.",
+          "바코드 스캐닝을 통한 편리한 리스트 관리."
+        ],
+        "systems_ko": [
+          "사용자 계정 및 데이터 관리",
+          "상품 검색 및 필터링 시스템",
+          "위치 기반 매장 찾기",
+          "주문 및 결제 처리 시스템",
+          "바코드 스캔 API 연동"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "방대한 상품 데이터베이스 관리와 실시간 재고 연동, 결제 시스템 등은 1인 개발자가 구축하기에 매우 복잡합니다. 외부 API 연동과 보안 이슈가 핵심적인 난관입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "쇼핑 리스트 생성 및 편집",
+            "상품 검색 기능",
+            "매장 위치 정보 표시"
+          ],
+          "defer": [
+            "실시간 결제 시스템",
+            "배달 서비스 연동",
+            "사용자 구매 이력 분석"
+          ],
+          "risks": [
+            "데이터베이스 구축 및 유지보수 비용",
+            "개인정보 보호 및 보안 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "식재료 유통기한 관리",
+            "concept": "구매한 식재료의 유통기한을 앱에 기록하고, 임박 시 알림을 줍니다. 음식물 쓰레기를 줄이는 데 도움을 줍니다.",
+            "first_step": "날짜 입력 및 알림 설정 기능 구현."
+          },
+          {
+            "title": "간편 레시피 매칭",
+            "concept": "쇼핑 리스트에 있는 재료로 만들 수 있는 레시피를 추천합니다. 식단 고민을 해결해 줍니다.",
+            "first_step": "재료와 레시피를 연결하는 간단한 데이터베이스 구축."
+          }
+        ],
+        "recommendation_ko": "데이터베이스 설계와 API 연동, UI/UX 디자인을 배우기에 좋습니다. 다만, 실제 상용 서비스 수준의 결제나 보안 기능은 개인 개발 시 주의가 필요합니다.",
+        "source_limitations_ko": "실제 백엔드 서버 구조, 데이터 연동 방식, 결제 처리 프로세스는 확인되지 않습니다. 외부 서비스와의 API 연동 상세 내용은 알 수 없습니다.",
+        "name": "Publix",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.publix.main&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-09"
     }
   }
 }

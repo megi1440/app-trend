@@ -11811,6 +11811,271 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-08"
+    },
+    "itch:825884c4c83a25104d43": {
+      "app_key": "itch:825884c4c83a25104d43",
+      "name": "Villa [Free] [Other] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://samtgik.itch.io/villa",
+      "data_date": "2026-11-09",
+      "analysed_at": "2026-11-09T04:56:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Es la version beta no esta al 100% habra bugs y espero sus opiniones",
+      "analysis": {
+        "app_key": "itch:825884c4c83a25104d43",
+        "summary_ko": "현재 베타 버전으로 개발 중인 게임으로, 버그가 존재할 수 있음을 명시하고 있습니다. 구체적인 게임 장르나 규칙에 대한 설명은 부족한 상태입니다.",
+        "features_ko": [
+          "현재 베타 테스트 단계에 있는 게임입니다."
+        ],
+        "noteworthy_ko": "정보가 매우 제한적이어서 개발 관점에서의 분석이 어렵습니다. 베타 버전임을 명시하여 피드백을 수용하려는 개발자의 태도가 엿보입니다.",
+        "development_ko": "현재는 버그 수정과 안정화가 최우선 과제일 것으로 추정됩니다. 구체적인 기능 구현보다는 시스템의 안정성을 확보하는 단계입니다.",
+        "idea_ko": "사용자의 피드백을 수집할 수 있는 인게임 설문 시스템을 구축하는 것이 좋습니다.",
+        "highlights_ko": [
+          "베타 버전으로서 지속적인 개선을 예고하고 있습니다.",
+          "사용자의 의견을 적극적으로 수용하려는 의지가 보입니다."
+        ],
+        "systems_ko": [
+          "로그 기록 시스템",
+          "피드백 수집 UI",
+          "버전 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "판단 어려움",
+          "reason": "게임의 장르나 핵심 메커니즘에 대한 정보가 전혀 없어 난이도를 산정할 수 없습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 게임 루프",
+            "버그 리포트 기능"
+          ],
+          "defer": [
+            "모든 콘텐츠",
+            "최적화 작업"
+          ],
+          "risks": [
+            "기획의 부재",
+            "개발 방향성 상실"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "개발 일지 연동",
+            "concept": "게임 내에서 개발자에게 직접 메시지를 보낼 수 있는 기능을 구현합니다.",
+            "first_step": "간단한 텍스트 입력창과 전송 버튼을 UI로 만듭니다."
+          },
+          {
+            "title": "베타 테스터 보상",
+            "concept": "테스트에 참여한 유저에게 게임 내 특별한 아이템을 제공하여 참여를 독려합니다.",
+            "first_step": "특정 조건 달성 시 보상을 지급하는 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "현재 정보가 부족하여 추천하기 어렵습니다. 개발 중인 프로젝트의 방향성을 명확히 하는 것이 우선입니다.",
+        "source_limitations_ko": "장르, 게임 방식, 목표, 플랫폼 등 모든 핵심 정보가 누락되어 있습니다.",
+        "name": "Villa [Free] [Other] [Windows]",
+        "source": "itch",
+        "detail_url": "https://samtgik.itch.io/villa",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 347,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 11,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-09"
+    },
+    "google:com.easy.lady.course.fitness.club": {
+      "app_key": "google:com.easy.lady.course.fitness.club",
+      "name": "Lady Course Fitness",
+      "developer": "Cindy Girl",
+      "source": "google",
+      "country": "US",
+      "category": "app_health_fitness",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.easy.lady.course.fitness.club&hl=en&gl=US",
+      "data_date": "2026-11-09",
+      "analysed_at": "2026-11-09T04:58:09+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Lady Course Fitness is a dedicated fitness app for women. • Various zero-equipment home workout courses including fat loss, yoga and body sculpting • Rich professional fitness articles about exercise skills, body care and healthy lifestyles • Workout plans suitable for beginners and advanced female fitness lovers • Convenient indoor training guidance to shape your figure easily at home Important Note: This app is a launcher; it only modifies the home screen interface style, icon layout, and display-related settings. It does not modify, delete, or tamper with any applications or local data on your device.",
+      "analysis": {
+        "app_key": "google:com.easy.lady.course.fitness.club",
+        "summary_ko": "Lady Course Fitness는 여성 사용자를 위한 홈 트레이닝 가이드 앱입니다. 운동 코스, 건강 정보, 피트니스 계획 등을 제공하여 집에서 쉽게 운동할 수 있도록 돕습니다.",
+        "features_ko": [
+          "지방 감소, 요가, 신체 조형 등 다양한 무기구 홈 트레이닝 코스를 제공합니다.",
+          "운동 기술, 신체 관리, 건강한 라이프스타일에 관한 전문적인 기사를 제공합니다.",
+          "초보자부터 숙련자까지 수준별 맞춤형 운동 계획을 지원합니다.",
+          "집에서 쉽게 따라 할 수 있는 실내 트레이닝 가이드를 제공합니다.",
+          "홈 화면 인터페이스 스타일과 아이콘 레이아웃을 변경하는 런처 기능을 포함합니다."
+        ],
+        "noteworthy_ko": "피트니스 앱의 기능과 런처(홈 화면 커스터마이징) 기능을 결합한 점이 독특합니다. 다만, 앱의 본질적인 기능이 운동 가이드인지 런처인지 모호한 측면이 있어 사용자 경험 설계에 주의가 필요합니다.",
+        "development_ko": "운동 영상/이미지 콘텐츠 관리 시스템과 사용자 맞춤형 운동 계획 알고리즘이 핵심입니다. 런처 기능은 안드로이드 시스템 권한 제어가 필요하며, 콘텐츠의 신뢰성을 확보하는 것이 중요합니다.",
+        "idea_ko": "운동 기록을 시각화하여 사용자의 변화를 보여주는 '신체 변화 타임라인' 기능을 추가하는 것이 적합합니다.",
+        "highlights_ko": [
+          "수준별 맞춤형 운동 계획을 통해 체계적인 홈 트레이닝을 지원합니다.",
+          "운동 정보와 런처 기능을 결합하여 사용자 편의성을 높였습니다."
+        ],
+        "systems_ko": [
+          "운동 콘텐츠 데이터베이스",
+          "사용자 맞춤형 운동 계획 알고리즘",
+          "홈 화면 커스터마이징(런처) 엔진",
+          "운동 기록 및 통계 시스템",
+          "사용자 프로필 및 건강 데이터 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "운동 콘텐츠를 관리하고 보여주는 것은 일반적인 앱 개발 수준이나, 런처 기능은 안드로이드 시스템에 대한 깊은 이해가 필요합니다. 콘텐츠의 질이 앱의 성공을 좌우합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "운동 코스 리스트 및 상세 페이지",
+            "기본적인 운동 계획 관리",
+            "건강 정보 기사 뷰어"
+          ],
+          "defer": [
+            "런처(홈 화면 커스터마이징) 기능",
+            "복잡한 운동 통계 분석",
+            "사용자 간 커뮤니티 기능"
+          ],
+          "risks": [
+            "콘텐츠의 전문성 부족으로 인한 신뢰도 하락",
+            "런처 기능과 피트니스 기능 간의 정체성 혼란"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "신체 변화 타임라인",
+            "concept": "사용자가 기록한 운동 사진과 데이터를 시간순으로 나열하여 신체 변화를 시각적으로 확인하게 합니다.",
+            "first_step": "사진 업로드 및 날짜별 데이터 저장 기능 구현."
+          },
+          {
+            "title": "운동 루틴 공유",
+            "concept": "사용자가 자신만의 운동 루틴을 만들어 공유하고 다른 사용자의 루틴을 가져올 수 있는 기능을 추가합니다.",
+            "first_step": "사용자 정의 루틴 생성 및 저장 기능 구현."
+          }
+        ],
+        "recommendation_ko": "콘텐츠 중심의 앱을 개발하고 싶은 개발자에게 추천합니다. 다만, 런처와 같은 시스템 기능은 앱의 본질을 흐릴 수 있으므로 피트니스 기능에 집중하는 것을 권장합니다.",
+        "source_limitations_ko": "제공되는 운동 정보의 의학적 검증 여부, 런처 기능의 상세 작동 방식, 데이터 보안 및 개인정보 처리 방식은 설명만으로 확인이 불가능합니다.",
+        "name": "Lady Course Fitness",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.easy.lady.course.fitness.club&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 174,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-09"
+    },
+    "apple:1098157959": {
+      "app_key": "apple:1098157959",
+      "name": "Evony",
+      "developer": "TOP GAMES INC.",
+      "source": "apple",
+      "country": "US",
+      "category": "game_rpg",
+      "detail_url": "https://apps.apple.com/us/app/evony/id1098157959?uo=2",
+      "data_date": "2026-11-09",
+      "analysed_at": "2026-11-09T04:58:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Shoot and engage in battles！ Build your cities. Train your troops. Expand your empire. Be the king of 7 kingdoms! All in Evony: The King's Return, the hottest real-time strategy MMO of 2024! Unique gameplay features: ◆ Challenge a variety of Survivor Levels ◆ Move, shoot, evolve weapons ◆ Use flexible finger controls ◆ Experience the joy of puzzle solving THE EXCEPTIONALLY RICH AND AMAZING SET OF FEATURES: ◆ YOU ARE THE SURVIVOR! Move, dodge, shoot, acquire weapons, and fight to the last moment! ◆ Choose from 7 civilizations to customize your game’s architectural style: American, Chinese, European, Russian, Korean, Arabia and Japanese! ◆ YOU ARE THE DIPLOMAT! Join a strong Alliance where you can make friends, communicate in real-time via voice and text with auto-translations so you can improve strategies and win epic battles. ◆ YOU ARE THE WARLORD! With over four types of troops to select and train from ground-pounding infantry to massive siege engines; wage epic wars, fight against your enemies and see the battles happen all around you in real-time on the stunningly animated World Map. ◆ YOU ARE THE GOVERNOR! Administrate your cities in your Empire and use your leadership skills in managing resources and research improvements to gain strategic advantages. ◆ YOU ARE THE MONARCH! Recruit famous Generals of history to help with battles and city development. ABRAHAM LINCOLN, GEORGE WASHINGTON, KING ARTHUR, CHARLES THE GREAT, JULIUS CAESAR, GENGHIS KHAN, ODA NOBUNAGA, YI SUN-SIN, and more await you to explore. See them battle across the world of Evony in real-time, capture enemy generals and use them against their own leaders! ◆ YOU ARE THE PUZZLE MASTER! For each Keep Level-up, you can solve puzzles and earn awesome rewards! Facebook fan page: https://www.facebook.com/Evony.The.Kings.Return/ NOTICE: Evony: The King’s Return is a completely free-to-play game, however there are some game items that can also be purchased for real money. If you don’t want to use this feature, please disable in-app purchases in your device’s settings. Also under our Terms of Service and Privacy Policy, you must be at least 13 years of age to play or download Evony: The King’s Return. Do you want to be the king of 7 kingdoms? Join now with your friends in the highly addictive RTS/SLG game NOW!",
+      "analysis": {
+        "app_key": "apple:1098157959",
+        "summary_ko": "도시 건설, 군대 훈련, 영토 확장을 포함하는 실시간 전략 MMO 게임입니다. 역사적 장군들을 영입하고 동맹을 맺어 다른 플레이어와 경쟁하는 구조를 가집니다. 퍼즐 해결 요소와 전략적 자원 관리가 결합된 복합적인 게임 경험을 제공합니다.",
+        "features_ko": [
+          "도시를 건설하고 군대를 훈련하여 영토를 확장하는 전략적 운영을 수행합니다.",
+          "역사적 인물을 장군으로 영입하여 전투 및 도시 개발에 활용합니다.",
+          "실시간으로 전투 상황을 확인할 수 있는 월드 맵 시스템을 제공합니다.",
+          "퍼즐 해결을 통해 보상을 획득하고 성을 업그레이드할 수 있습니다.",
+          "동맹 시스템을 통해 실시간 채팅 및 전략 공유가 가능합니다."
+        ],
+        "noteworthy_ko": "전략 시뮬레이션과 퍼즐 요소를 결합하여 게임의 단조로움을 해소한 점이 흥미롭습니다. 다양한 문명을 선택할 수 있게 하여 사용자 몰입도를 높인 설계가 돋보입니다.",
+        "development_ko": "핵심 구현 기술은 실시간 멀티플레이어 서버 통신과 대규모 데이터 관리입니다. 콘텐츠 제작 부담이 매우 크며, 다양한 장군과 문명 데이터를 밸런싱하는 작업이 필수적입니다. 테스트 시 서버 부하와 실시간 동기화 문제를 해결하는 것이 가장 큰 과제입니다.",
+        "idea_ko": "특정 역사적 사건을 테마로 한 소규모 전략 퍼즐 게임을 만드는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "자동 번역 기능을 포함한 실시간 채팅으로 글로벌 동맹 활동을 지원합니다.",
+          "다양한 문명 스타일을 선택하여 나만의 도시를 커스터마이징할 수 있습니다."
+        ],
+        "systems_ko": [
+          "실시간 서버 동기화 시스템",
+          "자원 관리 및 경제 시스템",
+          "전투 시뮬레이션 엔진",
+          "퍼즐 로직 및 보상 시스템",
+          "동맹 및 채팅 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 멀티플레이어 환경 구축과 방대한 데이터 밸런싱은 1인 개발자가 감당하기에 매우 높은 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 도시 건설 및 자원 생산",
+            "간단한 전투 로직",
+            "장군 영입 시스템"
+          ],
+          "defer": [
+            "실시간 멀티플레이어 서버",
+            "자동 번역 채팅 시스템"
+          ],
+          "risks": [
+            "서버 비용 및 유지보수 부담",
+            "게임 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "미니 문명 건설기",
+            "concept": "복잡한 전투를 제외하고, 자원 관리와 건물 배치에 집중한 턴제 건설 게임입니다.",
+            "first_step": "건물 배치에 따른 자원 생산량 변화 로직을 구현합니다."
+          },
+          {
+            "title": "역사 퍼즐 퀘스트",
+            "concept": "역사적 인물과 관련된 퍼즐을 풀며 스토리를 진행하는 싱글 플레이 게임입니다.",
+            "first_step": "퍼즐 메커니즘과 스토리 진행 시스템을 연결합니다."
+          }
+        ],
+        "recommendation_ko": "대규모 전략 게임의 구조를 이해하는 데 도움이 되지만, 1인 개발자에게는 너무 방대한 프로젝트입니다. 핵심 메커니즘 하나만 추출하여 프로토타입을 만드는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 인앱 결제 시스템의 구체적인 구현 방식이나, 서버-클라이언트 간의 데이터 동기화 알고리즘에 대한 정보가 없습니다.",
+        "name": "Evony",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/evony/id1098157959?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-09"
     }
   }
 }

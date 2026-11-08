@@ -11536,6 +11536,94 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-08"
+    },
+    "itch:69dda25c8db8cea632ad": {
+      "app_key": "itch:69dda25c8db8cea632ad",
+      "name": "Classic Wood Number Puzzle [Free] [Puzzle] [Android]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://ameerhamza02.itch.io/classic-wood-number-puzzle",
+      "data_date": "2026-11-09",
+      "analysed_at": "2026-11-09T04:56:54+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Classic sliding block wood puzzle with 10,000 algorithmic levels.",
+      "analysis": {
+        "app_key": "itch:69dda25c8db8cea632ad",
+        "summary_ko": "Classic Wood Number Puzzle은 나무 질감의 슬라이딩 퍼즐 게임입니다. 10,000개의 알고리즘 기반 레벨을 제공하여 지속적인 플레이가 가능합니다.",
+        "features_ko": [
+          "나무 질감의 슬라이딩 블록 퍼즐 방식을 사용합니다.",
+          "알고리즘을 통해 생성된 10,000개의 레벨을 제공합니다.",
+          "숫자 순서대로 블록을 정렬하는 규칙을 가집니다."
+        ],
+        "noteworthy_ko": "알고리즘 기반 레벨 생성은 콘텐츠 제작 부담을 크게 줄여줍니다. 퍼즐의 풀이 가능 여부를 보장하는 알고리즘 구현이 핵심입니다.",
+        "development_ko": "슬라이딩 퍼즐의 이동 로직과 정렬 상태 확인 알고리즘이 핵심입니다. 10,000개의 레벨을 효율적으로 저장하거나 실시간 생성하는 데이터 관리 기술이 필요합니다.",
+        "idea_ko": "퍼즐을 풀 때마다 나무 질감의 테마를 변경하거나 수집하는 요소를 추가하는 것을 추천합니다.",
+        "highlights_ko": [
+          "고전적인 슬라이딩 퍼즐 메커니즘입니다.",
+          "알고리즘을 통한 방대한 레벨 제공이 특징입니다."
+        ],
+        "systems_ko": [
+          "그리드 기반 이동 로직",
+          "퍼즐 정렬 확인 알고리즘",
+          "레벨 생성 알고리즘",
+          "UI 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "퍼즐 로직 자체는 구현이 어렵지 않으나, 모든 레벨이 풀 수 있는 상태인지 검증하는 알고리즘 구현에 주의가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "블록 이동 로직",
+            "승리 조건 판정",
+            "기본 레벨 생성기"
+          ],
+          "defer": [
+            "10,000개 전체 레벨 데이터",
+            "다양한 테마 스킨"
+          ],
+          "risks": [
+            "풀 수 없는 퍼즐 생성 가능성",
+            "사용자 경험의 단조로움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "일일 도전 퍼즐",
+            "concept": "매일 전 세계 사용자가 동일한 퍼즐을 풀고 기록을 경쟁하는 모드입니다.",
+            "first_step": "날짜 기반의 시드(Seed) 값을 사용하여 동일한 퍼즐을 생성하는 로직을 만듭니다."
+          },
+          {
+            "title": "퍼즐 힌트 시스템",
+            "concept": "막혔을 때 다음 이동 경로를 보여주는 힌트 기능을 추가합니다.",
+            "first_step": "현재 상태에서 정답까지의 최단 경로를 찾는 알고리즘을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "알고리즘과 데이터 구조를 활용한 게임 개발을 배우기에 좋습니다. 퍼즐 게임의 논리적 구조를 이해하는 데 추천합니다.",
+        "source_limitations_ko": "레벨 생성 알고리즘의 구체적인 방식과 난이도 조절 기준은 확인되지 않았습니다.",
+        "name": "Classic Wood Number Puzzle [Free] [Puzzle] [Android]",
+        "source": "itch",
+        "detail_url": "https://ameerhamza02.itch.io/classic-wood-number-puzzle",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 308,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-09"
     }
   }
 }

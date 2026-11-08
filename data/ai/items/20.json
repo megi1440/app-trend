@@ -11175,6 +11175,274 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-08"
+    },
+    "itch:cd7fc9ec5ef714812f3a": {
+      "app_key": "itch:cd7fc9ec5ef714812f3a",
+      "name": "Manotas [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://sigi123.itch.io/manotas",
+      "data_date": "2026-11-09",
+      "analysed_at": "2026-11-09T04:56:54+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Un esqueleto contra todo: sobrevive 20 niveles de ojos, bombas y picos.",
+      "analysis": {
+        "app_key": "itch:cd7fc9ec5ef714812f3a",
+        "summary_ko": "Manotas는 해골 캐릭터를 조종하여 20개의 레벨을 통과하는 액션 게임입니다. 눈, 폭탄, 가시와 같은 장애물을 피하며 생존하는 것이 목표입니다.",
+        "features_ko": [
+          "총 20개의 레벨로 구성된 스테이지 기반 게임입니다.",
+          "눈, 폭탄, 가시 등 다양한 장애물이 등장합니다.",
+          "캐릭터를 조종하여 장애물을 회피하는 액션 메커니즘을 가집니다."
+        ],
+        "noteworthy_ko": "단순한 장애물 회피 게임으로, 레벨 디자인의 난이도 곡선이 게임의 재미를 결정합니다. 20개 레벨의 점진적인 난이도 상승 설계가 중요할 것으로 추정됩니다.",
+        "development_ko": "캐릭터 이동 및 충돌 판정 구현이 핵심입니다. 레벨별 장애물 배치 데이터를 관리하는 시스템이 필요하며, 반복적인 테스트를 통해 난이도를 조정해야 합니다.",
+        "idea_ko": "장애물 패턴을 무작위로 생성하여 리플레이 가치를 높이는 방식을 추천합니다.",
+        "highlights_ko": [
+          "해골 캐릭터를 주인공으로 한 액션 테마입니다.",
+          "20단계의 명확한 레벨 구성을 갖추고 있습니다."
+        ],
+        "systems_ko": [
+          "캐릭터 이동 및 물리 엔진",
+          "충돌 감지 시스템",
+          "레벨 데이터 관리",
+          "게임 오버 및 재시작 로직"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "단순한 2D 액션 메커니즘은 개인 개발자가 구현하기에 적합합니다. 레벨 디자인과 충돌 판정만으로도 충분히 완성도 있는 결과물을 만들 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 제어",
+            "장애물 충돌 판정",
+            "레벨 전환 시스템"
+          ],
+          "defer": [
+            "복잡한 애니메이션",
+            "사운드 효과"
+          ],
+          "risks": [
+            "단조로운 레벨 디자인",
+            "충돌 판정의 정밀도 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "무한 생존 모드",
+            "concept": "레벨을 통과하는 대신, 끊임없이 쏟아지는 장애물 속에서 얼마나 오래 버티는지 겨루는 모드입니다.",
+            "first_step": "장애물 생성기(Spawner)를 구현하여 시간 흐름에 따라 난이도를 높입니다."
+          },
+          {
+            "title": "해골 커스터마이징",
+            "concept": "생존 점수로 해골의 외형을 바꾸는 수집 요소를 추가합니다.",
+            "first_step": "스프라이트 교체 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "2D 액션 게임의 기초를 다지기에 매우 좋습니다. 충돌 판정과 레벨 디자인의 기본기를 익히는 데 추천합니다.",
+        "source_limitations_ko": "조작 방식(키보드/터치), 장애물의 구체적인 동작 패턴, 캐릭터의 특수 능력 유무는 확인되지 않았습니다.",
+        "name": "Manotas [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://sigi123.itch.io/manotas",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 314,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-09"
+    },
+    "google:com.yoyofun.mother.care.life.surgery.hospital.free.offline.doctor.games": {
+      "app_key": "google:com.yoyofun.mother.care.life.surgery.hospital.free.offline.doctor.games",
+      "name": "Mom Doctor: Hospital Sim Game",
+      "developer": "Cupcake Studios",
+      "source": "google",
+      "country": "US",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.yoyofun.mother.care.life.surgery.hospital.free.offline.doctor.games&hl=en&gl=US",
+      "data_date": "2026-11-09",
+      "analysed_at": "2026-11-09T04:58:09+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Step into the operating room and become the doctor your patients need most. As a surgeon caring for mothers and families, every decision matters — diagnose, treat, and perform hands-on hospital procedures in this immersive medical simulation game built for real roleplay depth. ───────────────────────────── 🩺 WHAT MAKES THIS GAME DIFFERENT ───────────────────────────── This is not just another tapping game. Mother Doctor: Hospital Sim Game puts you inside a fully equipped hospital ward where patients arrive with real conditions, real pain indicators, and real expectations. Your job is to read each case, select the correct instruments, and guide every patient back to their family — healthy and smiling. ───────────────────────────── ⚕️ CORE FEATURES & WHY THEY MATTER ───────────────────────────── • Realistic Surgery Procedures — Perform step-by-step operations using authentic-feeling doctor instruments: scalpels, syringes, clamps, and monitors. Each tool has a purpose, so precision counts. • Mother & Family Patient Stories — Unlike generic hospital games, this simulation centers on mothers and their families. Emotional storytelling makes every successful surgery feel genuinely rewarding. • Full Hospital Environment — Move through emergency rooms, operating theaters, recovery wards, and examination suites. The hospital simulation is built to feel lived-in, not just a static backdrop. • Injection & Vital-Signs Simulator — Monitor heart rate, administer injections, and stabilize patients before surgery. These pre-op steps add medical realism that casual doctor games skip. • Offline Gameplay — Every level is fully playable without an internet connection, so your hospital shift never gets interrupted. • Progressive Skill System — Start as a junior physician and advance through increasingly complex surgical cases. Each completed operation unlocks new procedures, instruments, and patient scenarios. • Expressive Patient Reactions — Patients display visible pain, anxiety, and relief. Successfully treating a mother and returning her to her children delivers a satisfaction loop that keeps the roleplay grounded and meaningful. • Nurse & Staff Interactions — Coordinate with on-screen hospital staff during emergency procedures, adding a layer of simulation depth beyond solo surgery mechanics. ───────────────────────────── 🏥 HOW TO PLAY ───────────────────────────── 1. Receive a patient — review their symptoms and medical history. 2. Run diagnostics — use examination tools to identify the condition. 3. Prepare for surgery — administer anesthesia and prep the operating table. 4. Perform the operation — follow on-screen surgical steps with care and speed. 5. Post-op recovery — monitor vitals and discharge the patient to their family. ───────────────────────────── 👩‍⚕️ WHO WILL ENJOY THIS GAME ───────────────────────────── If you enjoy hospital simulation games, doctor roleplay experiences, or story-driven medical games, this title delivers structured gameplay with genuine emotional stakes. It suits players who want more than quick-tap mechanics — those who enjoy reading a scenario, making decisions, and feeling the outcome. Pick up your surgical instruments, enter the operating room, and give every mother the care she deserves. Your hospital is waiting.",
+      "analysis": {
+        "app_key": "google:com.yoyofun.mother.care.life.surgery.hospital.free.offline.doctor.games",
+        "summary_ko": "이 게임은 외과 의사가 되어 환자를 진단하고 수술하는 의료 시뮬레이션 게임입니다. 어머니와 가족 환자를 중심으로 한 서사를 통해 수술의 몰입감을 높였으며, 단계별 수술 절차를 직접 수행하는 경험을 제공합니다.",
+        "features_ko": [
+          "메스, 주사기, 클램프 등 실제 의료 도구를 사용하는 단계별 수술 절차를 구현합니다.",
+          "환자의 증상을 진단하고 수술 전후 상태를 모니터링하는 과정을 포함합니다.",
+          "어머니와 가족 환자의 이야기를 다루는 서사 중심의 게임플레이를 제공합니다.",
+          "응급실, 수술실, 회복실 등 병원 환경을 시뮬레이션합니다.",
+          "진행도에 따라 새로운 수술 절차와 도구가 해금되는 스킬 시스템을 갖추고 있습니다."
+        ],
+        "noteworthy_ko": "단순한 탭 게임을 넘어 환자의 감정적 반응과 서사를 결합하여 수술의 의미를 부여한 점이 흥미롭습니다. 의료 절차의 사실적인 묘사를 통해 시뮬레이션의 깊이를 더했습니다.",
+        "development_ko": "수술 절차를 단계별로 제어하는 상태 머신(State Machine) 구현이 핵심입니다. 환자의 상태 변화와 도구 사용에 따른 반응을 시각화하는 리소스 제작이 필요하며, 의료 절차의 정확성을 유지하는 밸런스 조정이 중요합니다.",
+        "idea_ko": "수술 성공률에 따라 병원의 명성이 올라가고, 이를 통해 더 나은 의료 장비를 구매하거나 병원을 확장하는 경영 요소를 결합하는 것이 적합합니다.",
+        "highlights_ko": [
+          "환자의 감정적 반응을 통해 수술 결과에 대한 만족감을 극대화했습니다.",
+          "단계별 수술 절차를 통해 의료 시뮬레이션의 사실성을 높였습니다."
+        ],
+        "systems_ko": [
+          "수술 절차 제어 상태 머신",
+          "환자 상태 및 진단 데이터 관리",
+          "의료 도구 상호작용 시스템",
+          "서사 이벤트 트리거 시스템",
+          "진행도 및 보상 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "수술 절차를 단계별로 구현하는 것은 논리적 구조가 명확하여 1인 개발이 가능합니다. 다만, 의료 도구의 사실적인 애니메이션과 환자 반응 연출에 많은 리소스가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 수술 단계별 인터페이스",
+            "환자 진단 및 도구 선택 로직",
+            "수술 성공/실패 판정 시스템"
+          ],
+          "defer": [
+            "복잡한 병원 경영 시스템",
+            "다양한 환자 서사 컷신",
+            "병원 내 이동 시스템"
+          ],
+          "risks": [
+            "수술 과정의 반복으로 인한 지루함",
+            "의료 절차 묘사의 정확성 논란"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "병원 경영 시뮬레이션",
+            "concept": "수술을 통해 번 수익으로 병원 시설을 업그레이드하고 더 어려운 수술을 수행하는 경영 요소를 추가합니다.",
+            "first_step": "수술 완료 시 재화를 획득하고 상점에서 아이템을 구매하는 시스템 구현."
+          },
+          {
+            "title": "응급 상황 랜덤 이벤트",
+            "concept": "수술 중 갑작스러운 응급 상황이 발생하여 빠른 대처를 요구하는 긴박한 이벤트를 추가합니다.",
+            "first_step": "수술 중 일정 확률로 제한 시간 내 버튼을 눌러야 하는 이벤트 구현."
+          }
+        ],
+        "recommendation_ko": "특정 프로세스를 단계별로 구현하는 시뮬레이션 게임의 기초를 배우기에 적합합니다. 서사와 게임플레이를 어떻게 연결할지 고민하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "실제 의료 절차의 의학적 정확성, 환자 반응의 구체적인 로직, 병원 내 직원 상호작용의 상세 구현 방식은 설명만으로 확인이 불가능합니다.",
+        "name": "Mom Doctor: Hospital Sim Game",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.yoyofun.mother.care.life.surgery.hospital.free.offline.doctor.games&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 177,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-09"
+    },
+    "google:com.ewo.hkgame": {
+      "app_key": "google:com.ewo.hkgame",
+      "name": "EvoWorld Origin",
+      "developer": "LPSYQKJ",
+      "source": "google",
+      "country": "KR",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.ewo.hkgame&hl=ko&gl=KR",
+      "data_date": "2026-11-09",
+      "analysed_at": "2026-11-09T04:58:30+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "시간을 초월한 부름이 기억 속에 숨겨진 모험의 꿈을 깨웁니다. 운명에 선택된 모험가가 항해를 시작합니다! 용기, 우정, 그리고 친절이라는 특별한 힘을 모으세요. 동료들과 함께 성장하고 진화하며, 시간을 치유하고 어린 시절의 따스함을 되찾으세요. 불길한 구름이 비밀의 영역을 뒤덮습니다. 방관자에서 벗어나 친구들을 지키는 자애로운 수호자가 되세요. 자유롭게 보살피고 자신만의 속도로 성장하며 깨지지 않는 유대를 만들어가세요. 광활한 대지를 누비고, 악의 세력에 맞서 함께 싸우며, 이 세상의 빛과 온기를 지켜내세요.",
+      "analysis": {
+        "app_key": "google:com.ewo.hkgame",
+        "summary_ko": "모험가가 되어 동료들과 함께 성장하고 진화하며 세상을 구하는 RPG 게임입니다. 용기, 우정, 친절이라는 힘을 모아 악의 세력에 맞서 싸우며 시간을 치유하고 따스함을 되찾는 여정을 다룹니다. 자유로운 성장과 유대감을 강조하는 게임입니다.",
+        "features_ko": [
+          "모험가가 되어 광활한 대지를 탐험하며 성장할 수 있습니다.",
+          "동료들과 함께 악의 세력에 맞서 싸우는 전투 시스템을 가집니다.",
+          "자신만의 속도로 성장하며 동료들과 유대를 쌓는 시스템을 제공합니다."
+        ],
+        "noteworthy_ko": "감성적인 서사와 유대감을 강조하는 RPG로, 플레이어의 성장이 세계관에 미치는 영향을 어떻게 구현했는지가 흥미롭습니다. 1인 개발 시 방대한 세계관을 어떻게 효율적으로 관리할지가 관건입니다.",
+        "development_ko": "RPG의 핵심인 퀘스트 시스템, 캐릭터 성장 로직, 전투 시스템 구현이 필요합니다. 방대한 맵과 콘텐츠를 제작하는 부담이 크므로, 모듈화된 데이터 관리와 효율적인 에셋 활용이 필수적입니다. 밸런스 조정은 장기적인 테스트가 필요합니다.",
+        "idea_ko": "방대한 RPG 대신, 특정 지역을 배경으로 한 짧고 강렬한 서사 중심의 어드벤처 게임으로 축소 구현하는 것이 적합합니다.",
+        "highlights_ko": [
+          "성장과 유대감을 중심으로 한 감성적인 서사를 제공합니다.",
+          "악의 세력에 맞서 세상을 지키는 수호자로서의 경험을 강조합니다."
+        ],
+        "systems_ko": [
+          "캐릭터 성장 및 스탯 관리 시스템",
+          "퀘스트 및 이벤트 트리거 시스템",
+          "전투 및 스킬 판정 시스템",
+          "데이터베이스 기반 아이템/동료 관리",
+          "대화 및 서사 진행 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "RPG는 콘텐츠의 양이 방대하여 1인 개발 시 완성까지의 부담이 매우 큽니다. 서사, 전투, 성장 시스템을 모두 조화롭게 구현하고 밸런스를 맞추는 것은 상당한 시간과 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 이동 및 상호작용 시스템",
+            "캐릭터 레벨업 및 스탯 시스템",
+            "간단한 턴제 또는 실시간 전투 시스템"
+          ],
+          "defer": [
+            "방대한 오픈 월드 맵",
+            "복잡한 멀티 엔딩 시스템",
+            "고도화된 컷신 및 연출"
+          ],
+          "risks": [
+            "콘텐츠 제작 속도 저하로 인한 개발 중단",
+            "시스템 간의 복잡한 의존성으로 인한 버그 발생"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "기억의 조각 수집가",
+            "concept": "세상의 흩어진 기억을 모아 치유하는 짧은 어드벤처 게임입니다. 전투보다는 탐험과 퍼즐 해결에 집중합니다.",
+            "first_step": "기억 조각을 수집하고 대화창을 띄우는 기본 시스템 구현."
+          },
+          {
+            "title": "동료와의 캠프파이어",
+            "concept": "전투 후 동료들과 대화하며 유대감을 쌓는 시뮬레이션 요소 중심의 게임입니다. 대화 선택지에 따라 관계가 변화합니다.",
+            "first_step": "대화 선택지 시스템과 호감도 변수 관리 구현."
+          }
+        ],
+        "recommendation_ko": "RPG 개발의 전반적인 구조와 데이터 관리, 서사 설계 방식을 배우기에 좋습니다. 다만, 규모를 작게 시작하여 완성하는 경험을 우선하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문은 서사적인 설명 위주이며, 실제 전투 방식(턴제/실시간), 맵의 형태, 성장 시스템의 구체적인 수치 등 기술적 정보는 확인되지 않습니다.",
+        "name": "EvoWorld Origin",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.ewo.hkgame&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-09"
     }
   }
 }

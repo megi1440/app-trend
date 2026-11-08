@@ -10252,6 +10252,275 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-08"
+    },
+    "itch:08068242e7878d0fb0df": {
+      "app_key": "itch:08068242e7878d0fb0df",
+      "name": "ObsticleAssault [Free] [Action] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://luito-silver.itch.io/obsticleassault",
+      "data_date": "2026-11-09",
+      "analysed_at": "2026-11-09T04:56:54+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "This is 24 hour challange for creating the infinit obsticle type game enjoy !!!",
+      "analysis": {
+        "app_key": "itch:08068242e7878d0fb0df",
+        "summary_ko": "ObsticleAssault는 24시간 챌린지를 통해 제작된 무한 장애물 회피 게임입니다. 윈도우 환경에서 플레이 가능하며, 끊임없이 등장하는 장애물을 피하는 것이 목표입니다.",
+        "features_ko": [
+          "무한히 생성되는 장애물을 피하는 게임 규칙을 가집니다.",
+          "24시간이라는 짧은 기간 내에 개발된 프로토타입입니다."
+        ],
+        "noteworthy_ko": "단기간 개발(Game Jam)의 결과물로서, 핵심 메커니즘에 집중한 개발 방식이 돋보입니다. 최소한의 기능으로 게임을 완성하는 과정을 보여줍니다.",
+        "development_ko": "장애물의 무작위 생성과 캐릭터의 이동 로직이 핵심입니다. 짧은 개발 기간을 고려하여 복잡한 시스템보다는 게임의 핵심 루프를 빠르게 구현하는 것이 중요합니다.",
+        "idea_ko": "장애물 생성 패턴을 음악의 비트에 맞춰 변화시키는 리듬 액션 요소를 추가하는 것을 추천합니다.",
+        "highlights_ko": [
+          "무한 장애물 회피라는 명확한 장르입니다.",
+          "24시간 챌린지라는 개발 배경을 가지고 있습니다."
+        ],
+        "systems_ko": [
+          "오브젝트 풀링(장애물 생성)",
+          "캐릭터 이동 제어",
+          "충돌 판정",
+          "게임 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 매우 단순하여 개인 개발자가 단기간에 구현하기에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "장애물 생성 로직",
+            "캐릭터 이동",
+            "충돌 감지"
+          ],
+          "defer": [
+            "다양한 캐릭터 스킨",
+            "복잡한 배경 환경"
+          ],
+          "risks": [
+            "장애물 생성의 단조로움",
+            "최적화 문제(오브젝트 누적)"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중력 반전 장애물",
+            "concept": "특정 구역에서 중력이 반전되어 장애물을 피하는 방식이 달라지는 게임입니다.",
+            "first_step": "캐릭터의 중력 값을 변경하는 로직을 구현합니다."
+          },
+          {
+            "title": "속도 가속 모드",
+            "concept": "시간이 지날수록 게임 속도가 빨라지는 긴박한 모드입니다.",
+            "first_step": "게임의 타임 스케일(Time Scale)을 조절하는 변수를 추가합니다."
+          }
+        ],
+        "recommendation_ko": "게임 잼(Game Jam) 스타일의 빠른 개발을 경험하고 싶은 분께 추천합니다. 핵심 재미를 빠르게 검증하는 연습에 좋습니다.",
+        "source_limitations_ko": "장애물의 종류, 캐릭터의 조작 방식, 게임의 종료 조건 등 구체적인 사양은 확인되지 않았습니다.",
+        "name": "ObsticleAssault [Free] [Action] [Windows]",
+        "source": "itch",
+        "detail_url": "https://luito-silver.itch.io/obsticleassault",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 287,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 31,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-09"
+    },
+    "apple:6799952118": {
+      "app_key": "apple:6799952118",
+      "name": "Walka - 愛犬と散歩",
+      "developer": "Hiroki Minaga",
+      "source": "apple",
+      "country": "JP",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/jp/app/walka-%E6%84%9B%E7%8A%AC%E3%81%A8%E6%95%A3%E6%AD%A9/id6799952118?uo=2",
+      "data_date": "2026-11-09",
+      "analysed_at": "2026-11-09T04:57:31+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Walkaは、愛犬と歩いた場所だけ地図の雲が晴れていく、犬の散歩・記録アプリです。 いつもの散歩が、小さな冒険に。歩いた町が少しずつ塗られ、散歩のたびにひとことの発見が届きます。愛犬は、歩くほど育つトレカに。散歩で出会った犬とはカードを交換して友達に。家族みんなでひとつの記録に。 【Walkaの特徴】 ・歩いた場所の雲が晴れる探索マップ ・市区町村ごとの開拓率と、地図の町の境界・名前（日本国内） ・散歩のあとに届く「今日のひとこと」 ・週の目標と、達成した週の連続記録（1日休んでも途切れません） ・散歩の距離、時間、新しく歩いた距離を記録 ・愛犬の写真と、今週・今月・これまでの散歩がひと目でわかるホーム ・散歩中の時間と距離をロック画面と Dynamic Island に表示（iOS 16.2 以降） ・散歩中にワンタップで付けられるトイレ記録（おしっこ・うんち・その他） ・愛犬ごとのレベルと経験値 ・100種類のコレクション、55種類の称号、季節のバッジ16種類と記念日のバッジ ・月のまとめ、記念日、1年のまとめのカード ・友達・国・世界のランキング（週間・月間・累計） ・歩くほど育つ「愛犬トレカ」 ・散歩で出会った犬とトレカを交換できる「犬友達」と、友達リーグ ・家族で愛犬を共有できるファミリーと、家族への「ありがとう」 ・複数頭での同時散歩に対応 ・Apple / Googleログインとゲスト利用 ・日本語・英語・韓国語・繁体字に対応 【町の開拓率】 歩いた道が、市区町村ごとの開拓率になります。1%、5%、10%…と節目を越えるたびにお知らせ。地図には町の境界と名前が出るので、次に歩く町を選ぶのも楽しくなります。 【毎日の記録と散歩の準備】 散歩の日記や思い出の写真を残し、記録を検索できます。健康メモには元気・食欲・体重などを記録。健康メモは診断のための機能ではありません。 従来のトレカウィジェットに加え、散歩開始・トイレ記録への入口になるウィジェットも利用できます。タップするとアプリが開きます。曜日と時刻を選ぶ散歩の通知は、自分で有効にしたときだけ届き、いつでも変更・停止できます。 【愛犬トレカ】 愛犬が、歩くほど育つトレーディングカードになります。レベルが上がるとポイントが増え、攻撃力と癒し力に自由に振り分けられます（何度でも振り直せます）。特性は100種類、デザインも豊富に用意。レベルが上がると、使えるデザインが増えていきます。攻撃力と癒し力はアプリの中で遊ぶための数値で、犬の性格や健康をあらわすものではありません。 【犬友達】 散歩で出会った犬と、QRコードを見せ合うだけでトレカを交換できます。もらったカードは友達帳に集まり、お気に入りや並び替えもできます。カードに出るのは自分で選んだ項目だけで、飼い主の名前・住所・連絡先・現在地は出ません。 招待した友達だけのサークルで、散歩の予定や写真をシェアできます。参加した友達どうしなら、友達リーグでその週の散歩の回数と距離をくらべられます。 困ったときは、いつでもブロックと通報ができます。犬友達を使うには、アカウントへのログインが必要です。 【ファミリー】 愛犬を家族と共有すると、だれが歩いても、散歩・地図・成長がひとつの記録にまとまります。歩いてくれた家族には「ありがとう」を送れます。共有した愛犬の新しい記録や写真、お世話の完了、次の担当、引き継ぎメモを家族で確認できます。健康メモの推移には、この端末で受信した家族の記録もまとまります。以前の非公開記録は自動では共有されません。 家族の誰か1人が有効なWalka+に加入していれば、同じファミリーの参加者も現在の特典を利用できます。Appleの購入契約や支払いの担当が移ることはありません。 【通知】 家族からの「ありがとう」や友達の足あとを、通知で受け取れます。通知は、設定でオンにしたときだけ届きます。 【Walka+】 Walka+は、月額または年額の自動更新サブスクリプションです。 ・肉球スタンプ、雲のテーマ、地図のスタイルを変更 ・散歩の傾向（比較・推移・時間帯）と、よくする場所の分析 ・ルートが残っている散歩からお気に入りコースを保存し、確認したうえで同じファミリーに共有 ・7日を超える健康メモ、推移、獣医さんに見せるまとめ ・ファミリーを作って、愛犬を家族と共有 ・3頭目以降の愛犬を登録（2頭までは無料、最大5頭） ・愛犬トレカのデザイン・色・ホロや金箔の仕上げを、もっとたくさんの中から選べる（キラキラのデザインはレベルで解放） ・トレカの特性やわざの名前を、自分でつくれる ・入った順の会員番号つきの会員カード ・自分のサークルを3つ以上持てる（2つまでは無料） お支払いは Apple ID に請求されます。期間が終わる24時間前までに解約しない限り、自動で更新されます。解約は、iPhone の「設定」→ 自分の名前 →「サブスクリプション」から行えます。 【プライバシー】 記録は端末を基本に保存し、バックアップや家族共有は選択した機能に応じて行います。共有した愛犬の新しい記録・写真は同じファミリーに届きますが、以前の非公開記録は自動では共有されません。生のGPS測定点列はアップロードしません。お気に入りコースを確認して共有した場合は、そのルートの緯度・経度などを家族に送信します。自宅などの場所がわかることがあるため、共有前に確認してください。 広告はパーソナライズしない設定です。表示時にはGoogleの広告SDKがIPアドレス、端末情報、広告への操作情報などを扱う場合があります。詳しくはプライバシーポリシーをご覧ください。ポリシー本文は日本語・英語で提供します。 利用規約: https://walka-app.com/terms/ プライバシーポリシー: https://walka-app.com/privacy/ 愛犬と歩いた世界を、少しずつ残していこう。",
+      "analysis": {
+        "app_key": "apple:6799952118",
+        "summary_ko": "Walka는 반려견과의 산책을 기록하고 지도상에 발자취를 남기는 건강 관리 앱입니다. 사용자가 걸은 경로에 따라 지도 위의 구름이 걷히며, 산책 기록과 반려견의 성장 과정을 시각화합니다. 반려견을 트레이딩 카드 형태로 수집하고, 다른 사용자와 카드를 교환하거나 가족과 기록을 공유하는 소셜 기능을 제공합니다.",
+        "features_ko": [
+          "GPS를 기반으로 걸은 경로의 지도 구름을 제거하여 탐색 영역을 표시합니다.",
+          "반려견의 산책 기록을 바탕으로 경험치를 부여하고 레벨을 올리는 육성 시스템을 제공합니다.",
+          "QR 코드를 통해 다른 사용자와 반려견 카드를 교환할 수 있는 친구 기능을 지원합니다.",
+          "가족 구성원과 반려견 정보를 공유하여 공동으로 산책 기록을 관리할 수 있습니다.",
+          "산책 중 배변 기록을 원터치로 남길 수 있는 기능을 포함합니다."
+        ],
+        "noteworthy_ko": "단순한 운동 기록을 넘어 '지도 탐색'과 '카드 수집'이라는 게임적 요소를 결합한 점이 흥미롭습니다. 특히 반려견을 트레이딩 카드로 형상화하여 사용자에게 수집 욕구를 자극하는 전략은 건강 앱의 지속적인 사용을 유도하는 효과적인 장치로 보입니다.",
+        "development_ko": "핵심 기술로는 GPS 위치 추적 및 지도 API 연동이 필수적입니다. 콘텐츠 제작 측면에서는 다양한 카드 디자인과 칭호, 배지 등 수집 요소의 에셋 제작 부담이 큽니다. 테스트 측면에서는 다양한 환경에서의 GPS 정확도 보정과 가족 공유 시 데이터 동기화 안정성 확보가 중요합니다.",
+        "idea_ko": "반려견 산책 경로를 기반으로 한 '우리 동네 산책 지도' 커뮤니티 구축 아이디어가 가장 실현 가능합니다.",
+        "highlights_ko": [
+          "지도상의 구름이 걷히는 시각적 피드백을 통해 산책의 성취감을 극대화합니다.",
+          "반려견의 레벨업과 카드 수집이라는 게임적 요소를 통해 일상적인 산책에 재미를 부여합니다."
+        ],
+        "systems_ko": [
+          "GPS 위치 추적 및 경로 기록 시스템",
+          "지도 타일 렌더링 및 영역 계산 시스템",
+          "사용자 데이터 및 반려견 상태 관리 시스템",
+          "QR 코드 기반의 데이터 교환 시스템",
+          "가족 공유 및 실시간 알림 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "GPS 기반의 실시간 위치 추적과 지도 렌더링은 높은 기술적 난이도를 요구합니다. 또한, 가족 공유 및 서버 동기화, 보안이 포함된 소셜 기능은 개인 개발자가 안정적으로 운영하기에 부담이 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "GPS 경로 기록 및 지도 표시",
+            "산책 거리 및 시간 통계",
+            "반려견 프로필 등록"
+          ],
+          "defer": [
+            "카드 교환 시스템",
+            "가족 공유 기능",
+            "서버 기반의 글로벌 랭킹"
+          ],
+          "risks": [
+            "GPS 오차로 인한 경로 기록의 부정확성",
+            "배터리 소모 최적화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "산책 경로 챌린지",
+            "concept": "특정 모양의 경로를 따라 산책하면 배지를 획득하는 챌린지 모드입니다. 사용자가 직접 경로를 설계하고 공유할 수 있습니다.",
+            "first_step": "특정 좌표 집합을 통과했는지 확인하는 알고리즘 구현."
+          },
+          {
+            "title": "동네 산책 핫플레이스",
+            "concept": "사용자들이 산책 중 발견한 반려견 친화적인 장소를 지도에 마킹하고 공유하는 기능입니다.",
+            "first_step": "지도 위에 마커를 찍고 정보를 저장하는 데이터베이스 구축."
+          }
+        ],
+        "recommendation_ko": "건강 앱에 게임 요소를 결합하는 '게이미피케이션' 기법을 배우기에 매우 좋은 사례입니다. 다만, GPS와 서버 연동이 복잡하므로 소규모 프로젝트부터 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 서버 아키텍처, 결제 시스템의 상세 구현 방식, 데이터 보안 정책에 대한 구체적인 정보가 없습니다. 외부 API 연동 여부와 개인정보 처리 방식은 실제 개발 시 별도의 검증이 필요합니다.",
+        "name": "Walka - 愛犬と散歩",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/walka-%E6%84%9B%E7%8A%AC%E3%81%A8%E6%95%A3%E6%AD%A9/id6799952118?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 231,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 3,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-09"
+    },
+    "google:com.ubercab.eats": {
+      "app_key": "google:com.ubercab.eats",
+      "name": "Uber Eats: Food and Grocery",
+      "developer": "Uber Technologies, Inc.",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.ubercab.eats&hl=en&gl=US",
+      "data_date": "2026-11-09",
+      "analysed_at": "2026-11-09T05:00:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Get food delivery to your doorstep from thousands of amazing local and national restaurants. Find the meal you crave and order food from restaurants easily with the Uber Eats app. Track your order in real-time. Request an Uber ride directly from the Uber Eats app. FIND YOUR FAVORITE FOOD & RESTAURANTS Order food from nearby restaurants and search by cuisine, restaurant name, dish, and meal. Food delivery options for you to order and enjoy including pizza, burritos, burgers, sushi, donuts, and Chinese takeout. Prefer pickup? Skip the line and reservations and choose to pick up your order instead. Choose your favorite delivery options with the Uber Eats app now. REQUEST AN UBER RIDE You can request an Uber ride directly from the Uber Eats app, alongside ordering food, groceries, and other essentials. SUBSCRIBE TO UBER ONE For $9.99 per month, Uber One subscribers enjoy $0 Delivery Fee and up to 10% off orders over $15 at participating non-grocery stores (and 5% off orders over $35 at participating grocery stores) available on Uber Eats. Members are also eligible for rewards, perks, coupons, and offers. View full Uber One Terms & Conditions in app. ORDER ALMOST ANYTHING, ANYTIME Order household needs from your favorite drug stores, supermarkets, and pet shops. Baby food or diapers, pharmacy needs, beauty products and cosmetics. Grocery staples like bread and milk, bananas and produce, flowers and plants, packaged foods or frozen treats. You can even order alcoholic drinks including beer, wine, liquor and cocktails. * SIMPLE DELIVERY ORDERING Pick your food order from any menu and add it to your cart with a few taps. That’s it. Uber Eats makes it easy to order food delivery online or through the app and have it delivered by restaurants and delivery people near you. Or, schedule your order in advance for a delivery person to pick it up later. Your choice! ORDER FOOD AHEAD WITH PICKUP Now you can also order food ahead for Pickup instead of just ordering delivery. Select Pickup, add food items to your cart, and skip the lines to the restaurant to get your food. REAL-TIME ORDER TRACKING Track your food delivery order on a map as it heads your way. See the estimated arrival time at your address. Get notified when your order arrives. FIND SOME OF YOUR FAVORITE NATIONAL RESTAURANTS Some of our food delivery partners include: Pizza Hut, Little Caesars, Buffalo Wild Wings, Papa Johns, Shake Shack, Domino’s Pizza, Nando’s, Burger King, CAVA, A&W, Chick-fil-A, Chipotle, Dunkin', IHOP, KFC, McDonald's, Panda Express, Panera, Popeyes, Shake Shack, Sonic, Starbucks, Subway, Sweetgreen, Taco Bell, Tim Hortons, Wendy's, Five Guys, Jersey Mikes, White Castle, Jack in the Box, Outback Steakhouse, Red Lobster. FIND PHARMACIES, GROCERY STORES, AND MORE Order from grocers such as Albertsons and SEG. Other delivery partners in the pharmacy, convenience, and retail space include CVS, Walgreens, 7-Eleven, Wawa, Gopuff, BevMo!, and Total Wines.Order from stores such as Walmart, Walgreens, CVS and Safeway. Other delivery partners include Petco, Drizly, and Favor. Uber Eats is currently available in cities and metro areas including Adelaide, Amsterdam, Atlanta, Auckland, Austin, Baltimore, Brussels, Cape Town, Chicago, Dallas, Denver, Johannesburg, Glasgow, London, Los Angeles, Madrid, Melbourne, Mexico City, Miami, Milan, Nashville, New Orleans, New York, Ottawa, Paris, Philadelphia, Rio de Janeiro, San Diego, San Francisco, Seattle, Stockholm, Sydney, Taipei, Tokyo, Toronto, Warsaw, and Washington DC. Uber Eats helps you find food delivery around the world. See full list of available countries in the app. Uber content/messages may be human or machine translated per device settings—accuracy not guaranteed. *Alcohol in select markets. Must be at least 21 to purchase. Item availability varies by market. See app for details.",
+      "analysis": {
+        "app_key": "google:com.ubercab.eats",
+        "summary_ko": "Uber Eats는 음식 배달, 식료품 및 생필품 주문을 지원하는 온디맨드 배달 플랫폼입니다. 사용자는 주변 식당의 메뉴를 검색하고 주문하며, 실시간으로 배달 경로를 추적할 수 있습니다. 또한, Uber 차량 호출 서비스와 연동되어 하나의 앱에서 이동과 식사 해결이 가능합니다.",
+        "features_ko": [
+          "주변 식당 및 상점의 메뉴를 검색하고 주문하는 기능을 제공합니다.",
+          "배달 주문 외에도 직접 방문하여 수령하는 픽업 옵션을 선택할 수 있습니다.",
+          "지도상에서 배달원의 위치와 예상 도착 시간을 실시간으로 추적합니다.",
+          "Uber One 구독을 통해 배달료 할인 및 멤버십 혜택을 제공합니다.",
+          "음식뿐만 아니라 식료품, 의약품, 꽃 등 다양한 생필품 주문이 가능합니다."
+        ],
+        "noteworthy_ko": "음식 배달과 차량 호출이라는 서로 다른 서비스 영역을 하나의 앱으로 통합한 점이 흥미롭습니다. 이는 사용자 경험의 연속성을 극대화하고 앱 체류 시간을 늘리는 전략으로 보입니다.",
+        "development_ko": "핵심 기술은 실시간 위치 추적을 위한 지리 정보 시스템(GIS)과 대규모 주문을 처리하는 분산 서버 아키텍처입니다. 배달원, 식당, 사용자 간의 복잡한 매칭 알고리즘과 실시간 알림 시스템 구현이 필수적입니다. 다양한 파트너사와의 API 연동 및 결제 시스템의 안정성 확보가 개발의 가장 큰 부담입니다.",
+        "idea_ko": "특정 지역의 소상공인만을 연결하는 '지역 기반 커뮤니티 배달 서비스'를 구현하는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "음식 배달과 차량 호출 서비스를 하나의 인터페이스로 통합하여 제공합니다.",
+          "실시간 지도 추적과 상세한 주문 상태 알림 기능을 갖추고 있습니다."
+        ],
+        "systems_ko": [
+          "실시간 위치 추적 및 지도 API 연동",
+          "주문 매칭 및 배달원 할당 알고리즘",
+          "실시간 상태 알림(Push) 시스템",
+          "결제 게이트웨이 및 멤버십 관리 시스템",
+          "식당 및 상점 데이터 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 위치 데이터 처리와 다중 사용자(사용자-배달원-식당) 간의 동기화는 매우 높은 기술적 난이도를 가집니다. 또한, 결제 및 개인정보 보안과 관련된 법적 요구사항을 충족하는 것이 개인 개발자에게는 큰 장벽입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "메뉴 검색 및 장바구니 기능",
+            "주문 접수 및 상태 변경 시스템",
+            "기본적인 위치 기반 식당 목록 조회"
+          ],
+          "defer": [
+            "실시간 지도 추적",
+            "차량 호출 서비스 연동",
+            "구독 멤버십 시스템"
+          ],
+          "risks": [
+            "배달원 및 식당 확보의 어려움",
+            "결제 보안 및 데이터 관리 리스크"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "동네 공동구매 배달 앱",
+            "concept": "같은 아파트 단지 내 주민들이 공동으로 음식을 주문하여 배달비를 절약하는 서비스입니다. 최소 주문 금액을 맞추기 위한 매칭 기능을 제공합니다.",
+            "first_step": "특정 지역 내 공동구매 게시판을 만들고 주문 수량을 집계하는 기능을 구현합니다."
+          },
+          {
+            "title": "소상공인 픽업 전용 앱",
+            "concept": "배달 없이 오직 픽업만 지원하여 수수료를 낮춘 지역 상점 전용 앱입니다. 대기 시간을 줄이기 위한 예약 주문 시스템에 집중합니다.",
+            "first_step": "상점별 메뉴판을 등록하고 픽업 시간을 예약하는 간단한 웹 앱을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "복잡한 다중 사용자 시스템의 아키텍처와 실시간 데이터 처리의 기초를 이해하는 데 도움이 됩니다. 다만, 실제 서비스 운영을 위해서는 막대한 인프라와 법적 검토가 필요하므로 학습용으로만 접근하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 결제 시스템의 구체적인 보안 표준이나 배달원 매칭 알고리즘의 상세 로직이 포함되어 있지 않습니다. 또한, 국가별로 상이한 법적 규제나 서비스 운영 정책에 대한 정보가 부족합니다.",
+        "name": "Uber Eats: Food and Grocery",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.ubercab.eats&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 95,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-09"
     }
   }
 }

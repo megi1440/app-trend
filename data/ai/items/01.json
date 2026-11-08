@@ -10822,6 +10822,98 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-08"
+    },
+    "google:com.hg.wreckfest": {
+      "app_key": "google:com.hg.wreckfest",
+      "name": "Wreckfest - Demolition Racing",
+      "developer": "THQ Nordic Mobileㅤ",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.hg.wreckfest&hl=en&gl=US",
+      "data_date": "2026-11-09",
+      "analysed_at": "2026-11-09T04:59:08+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "🏁 Wreckfest is jam-packed with upgrade and customization options. Whether you are preparing for your next demolition derby with reinforced bumpers, roll cages, side protectors and much more, or setting your car up for a banger race with engine performance parts like air filters, camshafts, fuel systems, etc., Wreckfest is shaping up to be the best combative motorsport game out there. 💥 • Unique Racing Experience – Exhilarating no-rules racing action with defining, once-in-a-lifetime moments that can be achieved only with a true-to-life physics simulation. Witness insane neck-to-neck fighting on high-speed circuits, face total destruction madness on crazy courses with intersections and oncoming traffic, or go for demolition dominance in derby arenas. • Awesome Cars – Our cars are old, banged up, patched together... They ooze style and character! From old American heavy-hitters to agile Europeans and fun Asians, you won’t find anything like this in other games. • Meaningful Customization – Change not only the look of your cars but also upgrade their body armor – Reinforce them with heavy iron that protects you from damage, but also adds weight, which impacts the cars handling. Modify your car to make a robust tank or a fragile but lightning-fast rocket, or anything in between! • Multiplayer – Wreck your friends in local multiplayer and take racing to the limit while chasing for demolition dominance! • Challenge modes – Have hilarious fun with crop harvesters, lawn mowers, school buses, three-wheelers and much more! • Career Mode – Battle for championships, earn experience, unlock new upgrades and cars, and become the all-time Wreckfest champion! © THQ Nordic Mobile 2026",
+      "analysis": {
+        "app_key": "google:com.hg.wreckfest",
+        "summary_ko": "Wreckfest는 물리 시뮬레이션을 기반으로 한 파괴적인 레이싱 게임입니다. 차량을 커스터마이징하고 강화하여 더비 아레나나 고속 서킷에서 경쟁할 수 있습니다. 다양한 차량과 도전 모드를 통해 레이싱의 재미를 극대화합니다.",
+        "features_ko": [
+          "차량의 범퍼, 롤 케이지 등 부품을 강화하여 내구도를 높입니다.",
+          "엔진 성능 부품을 교체하여 차량의 속도와 성능을 튜닝합니다.",
+          "물리 시뮬레이션을 통해 차량 간의 충돌과 파괴를 사실적으로 묘사합니다.",
+          "데몰리션 더비와 일반 레이싱 등 다양한 모드를 제공합니다.",
+          "잔디 깎는 기계, 스쿨버스 등 특수 차량을 이용한 도전 모드가 있습니다.",
+          "로컬 멀티플레이를 통해 친구와 함께 경쟁할 수 있습니다."
+        ],
+        "noteworthy_ko": "차량의 무게와 내구도가 핸들링에 직접적인 영향을 미치는 물리 시스템이 핵심입니다. 커스터마이징이 외형뿐만 아니라 성능과 물리적 특성에 영향을 준다는 점이 개발 관점에서 매우 흥미롭습니다.",
+        "development_ko": "차량 물리 엔진 구현과 파괴 효과 처리가 가장 큰 기술적 도전입니다. 다양한 차량 데이터 관리와 밸런싱 작업이 필요하며, 물리 연산 최적화가 필수적입니다.",
+        "idea_ko": "차량의 파괴된 부품이 트랙에 남아 장애물이 되는 물리 기반 레이싱.",
+        "highlights_ko": [
+          "물리 시뮬레이션 기반의 파괴적인 레이싱 경험.",
+          "성능과 무게를 고려한 깊이 있는 차량 커스터마이징."
+        ],
+        "systems_ko": [
+          "차량 물리 엔진",
+          "파괴 및 변형 시스템",
+          "차량 튜닝 데이터 관리",
+          "레이싱 트랙 및 AI 경로 시스템",
+          "로컬 멀티플레이 네트워크"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "사실적인 물리 시뮬레이션과 차량 파괴 시스템은 1인 개발자가 구현하기에 매우 높은 난이도입니다. 차량 간의 충돌 판정과 물리 연산 최적화에 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 차량 이동 및 물리 제어",
+            "충돌 감지 및 파괴 애니메이션",
+            "간단한 서킷 트랙"
+          ],
+          "defer": [
+            "복잡한 차량 튜닝 시스템",
+            "온라인 멀티플레이",
+            "다양한 특수 차량"
+          ],
+          "risks": [
+            "물리 엔진 최적화 실패",
+            "개발 기간의 과도한 장기화"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "파편 장애물 레이싱",
+            "concept": "충돌 시 떨어진 차량 부품이 트랙에 남아 다음 랩에서 장애물이 됩니다. 시간이 지날수록 트랙이 험해지는 규칙입니다.",
+            "first_step": "충돌 시 오브젝트 생성 및 트랙 배치 로직 구현."
+          },
+          {
+            "title": "무게 중심 튜닝",
+            "concept": "차량의 무게 중심을 직접 조정하여 코너링 성능을 변화시킵니다. 물리적 특성을 활용한 퍼즐형 레이싱입니다.",
+            "first_step": "차량의 무게 중심 좌표를 변경하는 물리 설정 구현."
+          }
+        ],
+        "recommendation_ko": "물리 엔진의 활용과 차량 제어 시스템을 배우기에 적합합니다. 다만, 전체 복제는 매우 어려우므로 특정 물리 메커니즘 하나에 집중하는 것을 추천합니다.",
+        "source_limitations_ko": "멀티플레이어 서버 구조나 구체적인 물리 엔진 라이브러리 정보는 확인되지 않습니다. 실제 게임 내의 모든 차량 데이터나 밸런스 수치는 알 수 없습니다.",
+        "name": "Wreckfest - Demolition Racing",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.hg.wreckfest&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-09"
     }
   }
 }

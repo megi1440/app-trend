@@ -10681,6 +10681,184 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-08"
+    },
+    "itch:bcc6760e4e2628fc6b61": {
+      "app_key": "itch:bcc6760e4e2628fc6b61",
+      "name": "PlinkIdle [$7.99] [Strategy] [Windows] [macOS]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://black-heart-games-studio.itch.io/plinkidle",
+      "data_date": "2026-11-09",
+      "analysed_at": "2026-11-09T04:56:06+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Drop the ball. Upgrade your world. Watch the chaos unfold.",
+      "analysis": {
+        "app_key": "itch:bcc6760e4e2628fc6b61",
+        "summary_ko": "공을 떨어뜨려 세계를 업그레이드하고 변화를 관찰하는 방치형(Idle) 전략 게임입니다. 단순한 조작을 통해 점진적인 성장을 경험하는 것이 특징입니다.",
+        "features_ko": [
+          "공을 떨어뜨리는 단순한 입력 방식을 제공합니다.",
+          "획득한 자원으로 세계를 업그레이드하는 시스템이 있습니다.",
+          "자동으로 진행되는 변화와 성장을 관찰할 수 있습니다."
+        ],
+        "noteworthy_ko": "방치형 게임은 수치 밸런스가 핵심이며, 플레이어가 개입하지 않아도 성장이 느껴지도록 하는 피드백 루프 설계가 중요합니다. 시각적인 효과가 성장의 만족감을 높이는 데 큰 역할을 할 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 데이터 저장 및 로드 시스템과 수치 계산 엔진입니다. 콘텐츠 제작은 업그레이드 항목의 수치 설계에 집중되며, 밸런스 테스트를 위해 시뮬레이션 도구를 만드는 것이 효율적입니다.",
+        "idea_ko": "단순한 공 떨어뜨리기에서 벗어나, 물리 엔진을 활용한 핀볼 형태의 방치형 게임으로 발전시키는 것을 추천합니다.",
+        "highlights_ko": [
+          "방치형 장르 특유의 점진적 성장 구조를 갖추고 있습니다.",
+          "복잡한 조작 없이 변화를 지켜보는 관조적 재미를 제공합니다."
+        ],
+        "systems_ko": [
+          "데이터 저장 및 로드",
+          "수치 계산 및 밸런스 엔진",
+          "업그레이드 UI 시스템",
+          "자동화 로직"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "복잡한 물리 연산이나 네트워크가 필요 없으며, 데이터 관리와 UI 중심의 개발이므로 1인 개발자가 구현하기에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "공 생성 및 낙하 로직",
+            "업그레이드 버튼 및 수치 반영",
+            "데이터 저장 기능"
+          ],
+          "defer": [
+            "복잡한 그래픽 효과",
+            "다양한 테마의 세계"
+          ],
+          "risks": [
+            "반복적인 플레이로 인한 지루함",
+            "수치 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "물리 방치형 공장",
+            "concept": "공이 떨어지는 경로에 장애물을 배치하여 자원을 획득하는 물리 기반 방치형 게임입니다. 장애물을 업그레이드하여 효율을 높입니다.",
+            "first_step": "물리 엔진을 사용하여 공이 장애물에 튕기는 기본 환경 구축."
+          },
+          {
+            "title": "자동화 정원 가꾸기",
+            "concept": "공 대신 물방울을 떨어뜨려 식물을 키우는 방치형 게임입니다. 식물이 자라나면 자동으로 자원을 생산합니다.",
+            "first_step": "시간 경과에 따라 자원이 증가하는 기본 타이머 로직 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 관리와 UI/UX 설계를 연습하기에 매우 좋은 장르입니다. 방치형 게임의 핵심인 '성장의 재미'를 수치로 구현하는 법을 배우길 권장합니다.",
+        "source_limitations_ko": "구체적인 업그레이드 항목, 게임 내 경제 시스템, 시각적 피드백의 종류에 대한 정보가 부족합니다.",
+        "name": "PlinkIdle [$7.99] [Strategy] [Windows] [macOS]",
+        "source": "itch",
+        "detail_url": "https://black-heart-games-studio.itch.io/plinkidle",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 374,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-09"
+    },
+    "google:in.sweatco.app": {
+      "app_key": "google:in.sweatco.app",
+      "name": "Sweatcoin・Walking Step Counter",
+      "developer": "Sweatco Ltd",
+      "source": "google",
+      "country": "US",
+      "category": "app_health_fitness",
+      "detail_url": "https://play.google.com/store/apps/details?id=in.sweatco.app&hl=en&gl=US",
+      "data_date": "2026-11-09",
+      "analysed_at": "2026-11-09T04:58:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Step up your fitness game with Sweatcoin! 💪✨ Looking for a fun way to boost your fitness & get rewarded? Sweatcoin, the viral walking app is here to transform your steps into real-world rewards! Walking is the new winning since every step counts. Stay active, collect Sweatcoins, and redeem them for gift cards, partner offers, and exclusive rewards — all from your daily walk. The more you walk, the more earn! And the more you earn, the more you walk! Discover the benefits: - Effortless step tracking: Sweatcoin's pedometer runs quietly in the background, helping track your steps and daily activity without draining your battery. Whether you're walking, running, or working out at home — every step counts toward your next reward. - Rewards worth walking for: Rack up Sweatcoins on your daily walks and redeem them for gift cards and exclusive partner offers. - Get moving, get badges: Hit your daily step goals and collect unique badges for each milestone achieved. - Keep your step streak alive: Compete with friends to see who can maintain the longest step streak. Fitness is more fun with a little friendly competition! Features Privacy first: We use a secure, proprietary algorithm to count your steps. Your location and personal data stay private—only you have access to your information. Step counter & pedometer: Reliable step tracking with minimal battery impact. Works in the background so you can focus on moving. Device compatibility: Available on Android and iOS devices. Apple Watch users can also enjoy Sweatcoin. Android Wear compatibility is on the way!",
+      "analysis": {
+        "app_key": "google:in.sweatco.app",
+        "summary_ko": "사용자의 걸음 수를 측정하여 보상으로 교환할 수 있는 피트니스 앱입니다. 백그라운드에서 걸음 수를 추적하여 활동량을 기록하고, 이를 통해 다양한 파트너사 보상이나 기프트 카드를 획득할 수 있습니다. 친구들과 걸음 수 경쟁을 하거나 배지를 수집하는 등 동기 부여 요소를 제공합니다.",
+        "features_ko": [
+          "백그라운드에서 배터리 소모를 최소화하며 걸음 수를 자동으로 측정합니다.",
+          "측정된 걸음 수를 기반으로 가상의 화폐인 Sweatcoin을 적립합니다.",
+          "적립된 재화로 기프트 카드나 파트너사 상품을 교환할 수 있습니다.",
+          "일일 목표 달성 시 배지를 획득하여 성취감을 제공합니다.",
+          "친구들과 걸음 수 기록을 비교하며 경쟁할 수 있는 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "사용자의 일상적인 활동을 경제적 보상과 연결한 모델이 흥미롭습니다. 걸음 수 측정 알고리즘의 정확도와 배터리 효율성 사이의 균형을 맞추는 것이 기술적 핵심으로 추정됩니다.",
+        "development_ko": "핵심 구현 기술로는 모바일 기기의 가속도 센서 및 GPS 데이터를 활용한 보행 감지 알고리즘이 필요합니다. 콘텐츠 제작 부담은 적으나, 보상 시스템의 밸런스 조정과 부정 사용 방지를 위한 보안 로직 설계가 중요합니다. 테스트 시 다양한 기기 환경에서의 센서 데이터 일관성을 검증하는 것이 핵심입니다.",
+        "idea_ko": "특정 지역을 방문하거나 특정 경로를 완주할 때 보상을 주는 '지역 기반 챌린지' 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "개인 정보 보호를 최우선으로 하여 위치 및 개인 데이터를 안전하게 관리합니다.",
+          "애플 워치 등 웨어러블 기기와의 연동을 통해 측정 범위를 확장합니다."
+        ],
+        "systems_ko": [
+          "센서 데이터 수집 및 보행 판정 엔진",
+          "사용자 활동 데이터베이스 관리",
+          "보상 포인트 계산 및 밸런스 시스템",
+          "UI/UX 대시보드",
+          "네트워크 통신 및 보안 인증"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "단순한 걸음 수 측정을 넘어 보상 시스템의 신뢰성을 확보해야 하며, 센서 데이터의 노이즈를 제거하는 알고리즘 구현이 까다롭기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "걸음 수 측정 기능",
+            "일일 활동 기록 저장",
+            "기본 UI 대시보드"
+          ],
+          "defer": [
+            "외부 보상 교환 시스템",
+            "실시간 친구 경쟁 기능"
+          ],
+          "risks": [
+            "센서 데이터의 기기별 편차",
+            "백그라운드 프로세스 강제 종료 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "환경 보호 챌린지",
+            "concept": "걸음 수에 따라 탄소 배출 절감량을 계산하여 시각화하고, 환경 관련 뱃지를 부여합니다.",
+            "first_step": "걸음 수를 탄소 절감량으로 환산하는 수식 모델을 설계합니다."
+          },
+          {
+            "title": "동네 산책 지도",
+            "concept": "사용자가 걸은 경로를 지도에 기록하고, 자주 방문한 장소를 '나만의 산책로'로 저장합니다.",
+            "first_step": "지도 API를 연동하여 GPS 경로를 기록하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "센서 데이터를 활용한 앱 개발의 기초를 배우기에 좋습니다. 다만, 보상 시스템이나 외부 연동은 복잡도가 높으므로 개인 개발 시에는 데이터 시각화에 집중하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 보상 시스템의 구체적인 환산 비율, 부정 방지 로직, 서버 인프라 구성에 대한 정보가 없습니다. 외부 결제나 실제 보상 지급을 위한 연동 기능은 명시되지 않았습니다.",
+        "name": "Sweatcoin・Walking Step Counter",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=in.sweatco.app&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-09"
     }
   }
 }

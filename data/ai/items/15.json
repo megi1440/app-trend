@@ -10072,6 +10072,268 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-08"
+    },
+    "itch:ee790e68dc9c2ef917a6": {
+      "app_key": "itch:ee790e68dc9c2ef917a6",
+      "name": "Dragon SpitFire [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://dadotronic.itch.io/dragonspitfire",
+      "data_date": "2026-11-09",
+      "analysed_at": "2026-11-09T04:56:06+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Learning how the original Dragon Fire on the Atari2600 was made",
+      "analysis": {
+        "app_key": "itch:ee790e68dc9c2ef917a6",
+        "summary_ko": "Atari 2600용 고전 게임인 Dragon Fire의 제작 방식을 학습하기 위해 만들어진 액션 게임입니다. 고전 게임의 메커니즘을 재현하는 데 초점을 맞추고 있습니다.",
+        "features_ko": [
+          "고전 게임의 메커니즘을 재현합니다.",
+          "액션 장르의 기본 규칙을 따릅니다."
+        ],
+        "noteworthy_ko": "고전 게임의 소스 코드를 분석하거나 재현하는 것은 게임 개발의 기초를 다지는 데 매우 효과적입니다. 제한된 하드웨어 성능에서 어떻게 재미를 구현했는지 분석하는 것이 개발 관점에서 흥미롭습니다.",
+        "development_ko": "핵심 기술은 고전적인 2D 그래픽 렌더링과 입력 처리입니다. 콘텐츠 제작 부담은 낮으나, 원작의 느낌을 살리기 위한 세밀한 타이밍 조정이 필요합니다. 고전 게임의 제약 조건을 현대 엔진에서 어떻게 구현할지 고민하는 과정이 중요합니다.",
+        "idea_ko": "원작의 메커니즘을 유지하면서 현대적인 그래픽 스타일이나 새로운 스테이지를 추가하는 리메이크 방식을 추천합니다.",
+        "highlights_ko": [
+          "고전 게임의 메커니즘을 학습하고 재현합니다.",
+          "액션 게임의 기초적인 구조를 보여줍니다."
+        ],
+        "systems_ko": [
+          "입력 처리 시스템",
+          "2D 충돌 판정",
+          "게임 상태 관리",
+          "고전적 렌더링 방식"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "이미 존재하는 게임을 재현하는 것이므로 기획 부담이 적습니다. 고전 게임의 단순한 구조는 1인 개발자가 학습용으로 구현하기에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동",
+            "적과의 충돌 판정",
+            "기본 게임 루프"
+          ],
+          "defer": [
+            "현대적인 그래픽 효과",
+            "복잡한 사운드 시스템"
+          ],
+          "risks": [
+            "원작과의 차이로 인한 실망감",
+            "단순한 게임성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "레트로 리메이크",
+            "concept": "원작의 규칙은 유지하되, 현대적인 픽셀 아트와 사운드를 적용하여 리메이크하는 프로젝트입니다.",
+            "first_step": "원작의 캐릭터 이동 속도와 판정을 그대로 구현."
+          },
+          {
+            "title": "고전 게임 엔진 만들기",
+            "concept": "특정 게임을 재현하는 것을 넘어, 고전 게임 스타일의 게임을 쉽게 만들 수 있는 작은 엔진을 제작합니다.",
+            "first_step": "타일 기반 맵 렌더링 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "게임 개발의 기초를 다지고 싶다면 고전 게임 재현을 강력히 추천합니다. 게임의 핵심 메커니즘이 어떻게 동작하는지 깊이 이해할 수 있습니다.",
+        "source_limitations_ko": "재현하고자 하는 원작의 구체적인 메커니즘, 현재 구현 수준, 학습 목적 외의 추가 기능 등에 대한 정보가 없습니다.",
+        "name": "Dragon SpitFire [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://dadotronic.itch.io/dragonspitfire",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 359,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 7,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-09"
+    },
+    "itch:0fad5ebce12fe0aba376": {
+      "app_key": "itch:0fad5ebce12fe0aba376",
+      "name": "Inked, You're Mine [$5.99] [Visual Novel] [Windows] [macOS] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://baronxu-dev.itch.io/inked-youre-mine",
+      "data_date": "2026-11-09",
+      "analysed_at": "2026-11-09T04:56:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "She tattoos a flower on everyone she helps disappear. You are the first one she wants to keep.",
+      "analysis": {
+        "app_key": "itch:0fad5ebce12fe0aba376",
+        "summary_ko": "이 게임은 타투이스트인 여성과 그녀가 집착하는 주인공의 이야기를 다루는 비주얼 노벨입니다. 도움을 준 사람에게 꽃 타투를 새겨 사라지게 만드는 그녀의 비밀스러운 행적을 중심으로 서사가 전개됩니다. 플레이어는 그녀의 첫 번째 소유물이 된 주인공의 시점에서 이야기를 경험하게 됩니다.",
+        "features_ko": [
+          "텍스트와 이미지를 통해 서사를 전달하는 비주얼 노벨 형식을 취합니다.",
+          "타투와 실종이라는 소재를 통해 미스터리하고 집착적인 분위기를 조성합니다."
+        ],
+        "noteworthy_ko": "비주얼 노벨 장르에서 '집착'이라는 테마를 어떻게 시각적·서사적으로 연출하는지가 핵심입니다. 타투라는 소재를 통해 캐릭터의 소유욕을 표현하는 방식이 개발 관점에서 흥미로운 연출 포인트가 될 것으로 추정됩니다.",
+        "development_ko": "핵심 구현 기술은 텍스트 엔진과 이미지 전환 시스템입니다. 콘텐츠 제작은 스크립트 작성과 캐릭터 일러스트레이션에 집중될 것으로 보이며, 밸런스보다는 서사의 몰입감이 중요합니다.",
+        "idea_ko": "타투의 문양이나 위치에 따라 주인공의 운명이 바뀌는 멀티 엔딩 시스템을 도입하는 것이 좋습니다.",
+        "highlights_ko": [
+          "타투를 매개로 한 독특하고 어두운 서사적 설정이 돋보입니다.",
+          "주인공이 '소유당한다'는 심리적 압박감을 강조하는 연출이 포함되어 있습니다."
+        ],
+        "systems_ko": [
+          "텍스트 출력 및 대화창 시스템",
+          "이미지 및 배경 전환 관리자",
+          "선택지에 따른 분기 처리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "비주얼 노벨은 복잡한 물리 엔진이나 실시간 상호작용이 필요 없으며, 스크립트와 정적 이미지만으로 구현 가능하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "대화창 UI",
+            "이미지 출력 기능",
+            "기본적인 분기 스크립트"
+          ],
+          "defer": [
+            "세이브/로드 기능",
+            "배경음악 및 효과음"
+          ],
+          "risks": [
+            "스토리의 개연성 부족",
+            "캐릭터 일러스트의 일관성 유지"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "타투 추적기",
+            "concept": "타투가 새겨진 부위를 클릭하여 숨겨진 단서를 찾는 미니 게임을 추가합니다. 타투의 모양이 변하는 것을 통해 캐릭터의 감정 상태를 암시합니다.",
+            "first_step": "이미지 위에 클릭 가능한 영역(Hitbox)을 설정하는 기능을 구현합니다."
+          },
+          {
+            "title": "심리적 선택지",
+            "concept": "단순한 대화 선택지가 아니라, 캐릭터의 눈을 피하거나 응시하는 등의 심리적 행동 선택지를 제공합니다.",
+            "first_step": "선택지에 따라 캐릭터의 표정 이미지가 즉각적으로 변하는 시스템을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "비주얼 노벨의 기초적인 구조를 익히기에 적합합니다. 서사 중심의 게임을 만들고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 분기 구조, 엔딩 개수, 사운드 포함 여부 등은 소개문에서 확인할 수 없습니다.",
+        "name": "Inked, You're Mine [$5.99] [Visual Novel] [Windows] [macOS] [Linux]",
+        "source": "itch",
+        "detail_url": "https://baronxu-dev.itch.io/inked-youre-mine",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 353,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 9,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-09"
+    },
+    "google:com.NewFolderGames.IAmSecurirty": {
+      "app_key": "google:com.NewFolderGames.IAmSecurirty",
+      "name": "I Am Security",
+      "developer": "Estoty",
+      "source": "google",
+      "country": "US",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.NewFolderGames.IAmSecurirty&hl=en&gl=US",
+      "data_date": "2026-11-09",
+      "analysed_at": "2026-11-09T04:59:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Your main task is to identify who can enter the club and who can't. Guests will line up, and you must decide if they are allowed in based on certain criteria. Some guests might try to sneak in with prohibited items, and it's up to you to find these hidden objects. Use a range of tools, like metal detectors and scanners, to inspect the guests and uncover anything suspicious.",
+      "analysis": {
+        "app_key": "google:com.NewFolderGames.IAmSecurirty",
+        "summary_ko": "클럽 입구에서 보안 요원이 되어 입장객을 검사하는 시뮬레이션 게임입니다. 금속 탐지기나 스캐너 같은 도구를 사용하여 입장객이 금지 물품을 소지했는지 확인해야 합니다. 입장 기준에 따라 통과 여부를 결정하는 것이 핵심 과제입니다.",
+        "features_ko": [
+          "입장객의 소지품을 검사하여 금지 물품을 찾아냅니다.",
+          "금속 탐지기 및 스캐너 등 다양한 보안 도구를 사용합니다.",
+          "제시된 기준에 따라 입장 허용 여부를 결정합니다.",
+          "줄을 서 있는 입장객을 순차적으로 처리하는 게임 규칙을 가집니다."
+        ],
+        "noteworthy_ko": "단순한 검사 과정을 게임화하여 긴장감을 유발하는 구조가 흥미롭습니다. '입장 기준'을 점진적으로 복잡하게 설계하면 난이도 곡선을 효과적으로 조절할 수 있는 게임입니다.",
+        "development_ko": "핵심 구현은 입장객의 소지품 데이터를 생성하는 랜덤 로직과 검사 도구의 상호작용입니다. 시각적 피드백(탐지기 반응 등)이 게임의 재미를 좌우하므로 애니메이션 구현이 중요합니다. 밸런스 측면에서는 검사 난이도와 제한 시간을 조절하여 긴장감을 유지해야 합니다.",
+        "idea_ko": "보안 요원뿐만 아니라, 몰래 물건을 숨겨 들어가려는 '잠입자' 입장에서 플레이하는 모드를 추가하면 재미있을 것입니다.",
+        "highlights_ko": [
+          "보안 요원이라는 독특한 역할을 통해 검사 과정의 긴장감을 구현했습니다.",
+          "다양한 도구를 활용한 직관적인 게임 플레이가 특징입니다."
+        ],
+        "systems_ko": [
+          "입장객 생성 및 소지품 데이터 관리 시스템",
+          "검사 도구 상호작용 로직",
+          "입장 판정 및 점수 계산 시스템",
+          "게임 상태 관리(대기열, 제한 시간)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "게임의 핵심 메커니즘이 명확하여 구현이 어렵지 않습니다. 다만, 다양한 소지품 패턴을 만들어 게임의 반복성을 줄이는 콘텐츠 제작 작업이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "입장객 캐릭터 생성 로직",
+            "소지품 검사 도구(클릭/드래그) 구현",
+            "입장/거부 판정 UI"
+          ],
+          "defer": [
+            "복잡한 애니메이션",
+            "다양한 캐릭터 커스터마이징",
+            "레벨업 및 보상 시스템"
+          ],
+          "risks": [
+            "게임 플레이의 단순 반복으로 인한 지루함",
+            "판정 로직의 모호함으로 인한 사용자 불만"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "VIP 리스트 관리",
+            "concept": "입장객 명단과 실제 얼굴을 대조하여 VIP만 골라내는 추가 규칙을 도입합니다.",
+            "first_step": "화면 상단에 명단을 띄우고 일치 여부를 확인하는 UI 구현."
+          },
+          {
+            "title": "보안 등급 업그레이드",
+            "concept": "게임이 진행될수록 검사해야 할 금지 물품의 종류가 늘어나는 난이도 시스템입니다.",
+            "first_step": "스테이지별로 금지 물품 리스트를 다르게 설정하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "간단한 규칙으로 게임의 재미를 만드는 방법을 배우기에 좋습니다. 캐릭터와 도구 상호작용을 통해 게임 루프를 완성하는 경험을 쌓을 수 있습니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 게임의 구체적인 레벨 디자인이나 승패 조건, 보상 체계에 대한 정보가 부족합니다. 실제 구현 시에는 게임의 깊이를 더할 추가 규칙이 필요합니다.",
+        "name": "I Am Security",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.NewFolderGames.IAmSecurirty&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-09"
     }
   }
 }

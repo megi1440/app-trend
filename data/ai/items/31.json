@@ -11537,6 +11537,91 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-08"
+    },
+    "itch:c19e5a72d986fae3a60f": {
+      "app_key": "itch:c19e5a72d986fae3a60f",
+      "name": "Trust Your Gut Demo [Free] [Windows] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://burnt-toasted-pancake.itch.io/trust-your-gut-demo",
+      "data_date": "2026-11-09",
+      "analysed_at": "2026-11-09T04:56:39+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Escape your house and pick the right choice, trust your gut.",
+      "analysis": {
+        "app_key": "itch:c19e5a72d986fae3a60f",
+        "summary_ko": "Trust Your Gut은 집에서 탈출하는 것을 목표로 하는 선택형 게임입니다. 플레이어는 자신의 직관을 믿고 올바른 선택지를 골라야 합니다.",
+        "features_ko": [
+          "다양한 선택지를 통해 이야기를 전개합니다.",
+          "특정 선택에 따라 탈출 성공 여부가 결정됩니다."
+        ],
+        "noteworthy_ko": "선택에 따른 결과 분기 구조가 핵심입니다. 서사 중심의 게임에서 플레이어의 선택이 어떻게 게임 상태에 영향을 미치는지 설계하는 과정을 학습하기 좋습니다.",
+        "development_ko": "핵심 기술은 분기형 스토리 관리 시스템입니다. 콘텐츠 제작 부담은 시나리오 작성과 각 선택지에 따른 결과물 생성에 집중되어 있습니다. 테스트 시 모든 분기가 의도대로 작동하는지 확인하는 것이 중요합니다.",
+        "idea_ko": "선택지의 결과를 즉시 보여주지 않고, 나중에 특정 시점에서 결과가 합산되어 나타나는 '나비 효과' 시스템을 도입하는 것이 좋습니다.",
+        "highlights_ko": [
+          "직관적인 선택형 게임플레이를 제공합니다.",
+          "탈출이라는 명확한 목표를 제시합니다."
+        ],
+        "systems_ko": [
+          "분기형 스토리 엔진",
+          "상태 관리 시스템",
+          "선택지 UI 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기술적 구현은 어렵지 않으나, 플레이어가 납득할 수 있는 논리적인 분기 시나리오를 작성하는 데 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 분기 시스템",
+            "텍스트 및 선택지 출력 UI"
+          ],
+          "defer": [
+            "복잡한 애니메이션",
+            "사운드 효과"
+          ],
+          "risks": [
+            "스토리의 논리적 오류 발생",
+            "플레이어의 선택이 무의미하게 느껴질 가능성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "직관 수치 시스템",
+            "concept": "플레이어의 선택이 누적되어 '직관' 수치가 변하고, 특정 수치 이상일 때만 볼 수 있는 숨겨진 선택지를 추가합니다.",
+            "first_step": "선택지에 따른 변수 증감 로직을 구현합니다."
+          },
+          {
+            "title": "시간 제한 선택",
+            "concept": "선택지에 시간 제한을 두어 플레이어가 고민할 틈 없이 직관적으로 선택하게 만듭니다.",
+            "first_step": "타이머 UI와 시간 종료 시 자동 선택 로직을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "스토리텔링과 게임 메커니즘의 결합을 연습하기 좋습니다. 서사 중심의 게임 개발을 선호하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 분기 방식, 시각적 스타일, 탈출 성공 조건 등은 소개문에서 확인할 수 없습니다.",
+        "name": "Trust Your Gut Demo [Free] [Windows] [Linux]",
+        "source": "itch",
+        "detail_url": "https://burnt-toasted-pancake.itch.io/trust-your-gut-demo",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 329,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 17,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-09"
     }
   }
 }

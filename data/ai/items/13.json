@@ -9711,6 +9711,97 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-08"
+    },
+    "google:com.pdfall.readerinone.suiteone.android": {
+      "app_key": "google:com.pdfall.readerinone.suiteone.android",
+      "name": "PDF Reader - All-in-One Suite",
+      "developer": "Mocha games",
+      "source": "google",
+      "country": "JP",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.pdfall.readerinone.suiteone.android&hl=ja&gl=JP",
+      "data_date": "2026-11-09",
+      "analysed_at": "2026-11-09T04:58:30+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "「PDF Reader - All-in-One Suite」は、ドキュメントの閲覧・スキャン・編集・変換・整理を1つに集約したオールインワンの文書管理アプリです。 仕事の契約書から学習資料、身分証の控えまで、スマホひとつでスムーズに処理できます。 🌟 主な機能 📄 ドキュメント閲覧＆ファイル管理 • 端末内のPDF、Word、Excel、PPTなどの各種オフィス文書を自動スキャンして分類表示。 • 過去のファイルも素早く検索・表示し、快適な閲覧環境を提供します。 📸 ドキュメント＆身分証（IDカード）スキャン • 書類、レシート、メモをカメラで瞬時に高画質なPDFへ変換。 🖼️ 画像からPDF変換 (Image to PDF) • 撮影した写真やギャラリーの複数画像を、まとめて1つのPDFファイルへ変換出力。 ✏️ PDF注釈・編集ツール • 手書きブラシ：重要箇所のマーキングやメモ書きに。 • 電子署名：手書きサインを作成して契約書や書類に直接配置。 • テキスト追加：必要な場所にテキストや注釈を自由に追加。 ⚡ 安定した処理と進捗表示 • 複数枚の画像変換や大容量PDFの書き出しも、進捗表示とともにバックグラウンドの中断なく安定処理。 🔒 プライバシー保護 ドキュメントはお使いの端末内で安全に処理されます。許可なく外部へ個人ファイルが送信されることはありません。 📬 お問い合わせ・利用規約 • サポート窓口: junkcleanercare@proton.me • プライバシーポリシー: https://junkfile-cleaner.com/pdf/privacy • 利用規約: https://junkfile-cleaner.com/pdf/term",
+      "analysis": {
+        "app_key": "google:com.pdfall.readerinone.suiteone.android",
+        "summary_ko": "PDF, Word, Excel, PPT 등 다양한 문서의 열람, 스캔, 편집, 변환을 지원하는 올인원 문서 관리 앱입니다. 카메라를 이용한 문서 스캔, 이미지의 PDF 변환, 전자 서명 및 주석 추가 기능을 제공합니다. 개인 정보 보호를 위해 기기 내에서 안전하게 처리되는 환경을 지향합니다.",
+        "features_ko": [
+          "PDF 및 오피스 문서(Word, Excel, PPT)를 자동으로 스캔하고 분류합니다.",
+          "카메라를 사용하여 문서나 신분증을 고화질 PDF로 스캔할 수 있습니다.",
+          "이미지 파일을 하나의 PDF 문서로 변환하여 출력합니다.",
+          "문서에 직접 손글씨 메모를 하거나 전자 서명을 추가할 수 있습니다.",
+          "텍스트 추가 및 주석 기능을 통해 문서를 편집할 수 있습니다."
+        ],
+        "noteworthy_ko": "다양한 문서 형식을 통합 관리하는 유틸리티 앱으로, 파일 처리의 안정성과 사용자 편의성이 핵심입니다. 특히 기기 내 처리(On-device)를 통한 보안 강조는 현대 앱 개발에서 중요한 포인트입니다.",
+        "development_ko": "문서 파싱 및 렌더링 라이브러리 활용이 핵심입니다. 카메라 스캔 기능을 위해 이미지 처리 알고리즘(OCR 등)을 연동해야 하며, 파일 입출력 및 관리 시스템의 안정성이 중요합니다. 보안을 위해 외부 서버 통신을 최소화하고 로컬 저장소 관리에 집중해야 합니다.",
+        "idea_ko": "단순 문서 관리에서 나아가, 스캔한 문서의 내용을 요약하거나 특정 키워드를 자동으로 추출해 주는 AI 보조 도구로 발전시킬 수 있습니다.",
+        "highlights_ko": [
+          "문서 열람부터 편집까지 하나의 앱에서 처리하는 통합 환경을 제공합니다.",
+          "기기 내 처리를 통해 개인 정보 보호를 강화했습니다."
+        ],
+        "systems_ko": [
+          "파일 시스템 및 문서 관리자",
+          "이미지 처리 및 PDF 변환 엔진",
+          "문서 렌더링 및 뷰어 시스템",
+          "주석 및 전자 서명 편집 도구",
+          "로컬 데이터 보안 및 암호화 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 파일 포맷을 지원하고 렌더링하는 것은 고도의 기술적 숙련도가 필요합니다. 또한, 이미지 스캔 및 편집 기능은 성능 최적화와 사용자 경험(UX) 설계가 매우 까다롭습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 PDF 뷰어 기능",
+            "카메라 스캔 및 이미지 PDF 변환",
+            "파일 목록 관리 및 검색"
+          ],
+          "defer": [
+            "Word, Excel, PPT 등 복잡한 오피스 포맷 편집",
+            "클라우드 연동 기능",
+            "고급 OCR(광학 문자 인식) 기능"
+          ],
+          "risks": [
+            "다양한 기기에서의 파일 호환성 문제",
+            "대용량 파일 처리 시 앱 안정성 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스마트 영수증 관리자",
+            "concept": "영수증을 스캔하면 자동으로 날짜와 금액을 추출하여 가계부 형식으로 정리해 주는 앱입니다.",
+            "first_step": "이미지에서 텍스트를 추출하는 기본 OCR 기능 구현."
+          },
+          {
+            "title": "문서 요약 도우미",
+            "concept": "긴 PDF 문서를 스캔하거나 불러오면 핵심 내용을 요약하여 보여주는 도구입니다.",
+            "first_step": "PDF 텍스트 추출 및 요약 API 연동."
+          }
+        ],
+        "recommendation_ko": "파일 입출력, 이미지 처리, UI/UX 설계 등 실용적인 앱 개발 기술을 배우기에 좋습니다. 유틸리티 앱의 안정성을 확보하는 과정을 경험하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 파일 처리 라이브러리나 이미지 처리 알고리즘에 대한 정보가 없습니다. 또한, 보안 기능의 구체적인 암호화 방식이나 외부 서비스 연동 가능 여부는 명시되지 않았습니다.",
+        "name": "PDF Reader - All-in-One Suite",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.pdfall.readerinone.suiteone.android&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-09"
     }
   }
 }
