@@ -15160,6 +15160,96 @@
         ],
         "thoughtsTokenCount": 2360,
         "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:6758579274",
+        "product_kind": "app",
+        "selected_concept_title_ko": "동네 한바퀴 퀘스트: 커뮤니티 로컬 산책 메이커",
+        "project_goal_and_audience_ko": "본 앱은 일상적인 산책이나 동네 마실에 지루함을 느끼는 일반 대중, 1인 가구, 그리고 반려동물 산책족을 위한 모바일 로컬 탐방 앱입니다. 엄격한 칼로리 소모나 기록 경쟁을 강제하는 기존 피트니스 앱과 달리, 위치 기반의 소소하고 기발한 미션을 통해 동네 구석구석을 새롭게 발견하고 정서적인 리프레시와 소소한 성취감을 얻는 것을 목표로 합니다.",
+        "source_relation_and_difference_ko": "원본 앱의 '어디서 무엇을 할지 무작위로 제시받는 기본 산책 흐름'과 '가벼운 레벨업 및 산책 기록 보존'이라는 핵심 재미 요소를 그대로 계승합니다. 차별점으로는, 개발자가 미리 만들어 둔 고정된 미션 데이터베이스(2000개)에만 의존하지 않고, '사용자 참여형 로컬 미션 공유(UGC)' 시스템을 도입하여 동네 주민들이 직접 숨은 명소나 재미있는 미션을 등록하고 서로 공유할 수 있도록 확장했습니다.",
+        "core_user_experience_ko": "사용자가 앱을 켜고 '산책 시작'을 누르면 지도 위에 현재 위치와 주변에 등록된 다른 사용자 혹은 시스템의 미션 카드들이 표시됩니다. 산책 중 특정 위치(반경 50m 이내)에 접근하면 미션 수행 버튼이 활성화되며, 미션을 완료한 뒤 간단한 인증(사진 또는 코멘트)을 남기면 경험치와 발자국 스탬프를 획득하게 됩니다. 또한 사용자가 직접 자신이 발견한 동네의 특이한 스폿에 새로운 미션을 등록할 수도 있습니다.",
+        "features_ko": [
+          {
+            "feature_ko": "GPS 기반 로컬 미션 탐색 및 수행",
+            "user_action_and_behavior_ko": "사용자의 현재 위치를 기준으로 반경 내 등록된 미션 핀을 지도에 시각화합니다. 미션 위치 근처에 도달하면 카드 내용이 활성화되고, 미션 완료 시 경험치를 얻어 사용자 레벨이 상승합니다.",
+            "practical_implementation_ko": "Flutter Geolocator 패키지와 Google Maps / Naver Map SDK를 연동하여 구현합니다. 백엔드의 지리 공간 쿼리(Geo-query)를 통해 근처 미션 데이터를 효율적으로 불러옵니다."
+          },
+          {
+            "feature_ko": "유저 생성 콘텐츠(UGC) 미션 등록기",
+            "user_action_and_behavior_ko": "사용자가 동네의 특색 있는 장소를 발견했을 때, 지도 상에 핀을 꽂고 '어디서(위치/건물)'와 '무엇을(미션 내용)' 입력하여 새로운 미션을 등록하고 다른 유저들과 공유합니다.",
+            "practical_implementation_ko": "지도 상의 위도·경도 좌표를 획득하고, 텍스트 및 간단한 카테고리 태그를 입력받아 Firebase Firestore에 데이터로 저장하는 폼 인터페이스를 구성합니다."
+          },
+          {
+            "feature_ko": "산책 히스토리 및 레벨업 시스템",
+            "user_action_and_behavior_ko": "완료한 미션들과 산책한 궤적 스탬프가 자동으로 누적 기록되며, 일정 경험치가 쌓일 때마다 '산책 신'을 향한 로컬 레벨이 올라가는 성취감을 제공합니다.",
+            "practical_implementation_ko": "로컬 SQLite 또는 SharedPreferences를 활용해 오프라인에서도 기본 기록을 캐싱하고, 서버와 비동기 동기화를 처리하여 레벨 및 경험치 데이터를 관리합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "1. 홈 / 산책 대시보드 화면",
+            "contents_and_actions_ko": "현재 위치 맵 뷰, '산책 시작' 버튼, 내 주변 미션 리스트 요약 카드, 현재 나의 산책 레벨 및 뱃지 표시."
+          },
+          {
+            "screen_ko": "2. 미션 수행 및 인증 화면",
+            "contents_and_actions_ko": "선택한 미션의 상세 설명('어디서 무엇을'), 위치 도달 여부 확인, 미션 완료 인증 사진 촬영 또는 소감 입력 후 제출 버튼."
+          },
+          {
+            "screen_ko": "3. 새 미션 등록 화면",
+            "contents_and_actions_ko": "지도 위 핀 지정 UI, 미션 제목 및 행동 지침 작성, 카테고리 선택 후 '등록하기' 버튼."
+          },
+          {
+            "screen_ko": "4. 마이페이지 / 히스토리 화면",
+            "contents_and_actions_ko": "지금까지 완료한 산책 횟수, 총 이동 거리(추정), 획득한 스탬프 목록 및 레벨 진행 바 확인."
+          }
+        ],
+        "implementation_approach_ko": "프론트엔드는 크로스플랫폼 개발이 용이하고 위치/맵 플러그인 생태계가 잘 갖춰진 Flutter를 선택합니다. 백엔드는 서버 구축 공수를 최소화하기 위해 Firebase(Firestore, Auth, Cloud Storage)를 활용합니다. 상태 관리는 Provider 또는 Riverpod을 사용하여 위치 데이터와 UI 상태를 깔끔하게 분리합니다. 대안으로 순수 네이티브(Android Kotlin) 개발도 고려할 수 있으나, 1인 개발의 생산성과 빠른 프로토타입 제작을 위해 크로스플랫폼 방식을 채택합니다.",
+        "data_and_storage_ko": [
+          "User 객체: uid, nickname, level, exp, created_at. 로컬 캐시 및 Firestore에 저장.",
+          "Mission 객체: mission_id, creator_uid, latitude, longitude, title, description, category, is_active. Firestore 지리 공간 쿼리용으로 관리.",
+          "WalkLog 객체: log_id, uid, completed_missions_list, started_at, ended_at. 앱 실행 중 로컬에 임시 저장 후 산책 종료 시 서버 동기화."
+        ],
+        "mvp_scope_ko": "첫 번째 MVP는 실시간 복잡한 소셜 기능(댓글, 좋아요, 친구 추가 등)은 과감히 제외합니다. 기본 GPS 위치 연동, 시스템 제공 기본 미션 30개, 사용자가 직접 등록하는 최소한의 미션 생성 및 수행 기능, 그리고 간단한 레벨업 기록 확인 기능까지만 구현하여 핵심 산책 루프를 검증합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 환경 세팅 및 지도/GPS 연동",
+            "deliverable_and_check_ko": "Flutter 프로젝트 생성, 맵 SDK 및 권한 설정, 앱 실행 시 현재 위치가 지도에 마커로 정확히 표시되는지 확인."
+          },
+          {
+            "stage_ko": "2단계: 미션 데이터 구조 및 기본 CRUD 구현",
+            "deliverable_and_check_ko": "Firebase 연동, Firestore에 샘플 미션 데이터 입력 후 지도 상에 핀으로 렌더링되는지 확인."
+          },
+          {
+            "stage_ko": "3단계: 미션 수행 및 UGC 등록 UI 구현",
+            "deliverable_and_check_ko": "위치 반경 도달 체크 로직, 미션 완료 인증 화면, 새로운 미션 등록 폼 인터페이스 작동 확인."
+          },
+          {
+            "stage_ko": "4단계: 레벨업 로직 결합 및 최종 점검",
+            "deliverable_and_check_ko": "미션 완료 시 경험치 상승 및 히스토리 누적 흐름 테스트, UI 버그 수정 및 프로토타입 안정화."
+          }
+        ],
+        "possible_extensions_ko": "추후 다른 사용자의 미션에 '좋아요'나 '추천'을 누르는 기능, 특정 테마별(예: 야간 산책 코스, 숨은 카페 찾기) 그룹화된 산책 코스 공유 기능, 반려동물 배변 봉투 수거함 위치 공유 등의 확장 기능을 고려할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "GPS 오차 및 실내/지하에서의 위치 인식 불안정 문제: 위치 허용 오차 범위 값을 넉넉하게 설정하고 안내 문구로 보완.",
+          "초기 유저 풀 부족으로 인한 '콜드 스타트(콘텐츠 부족)' 문제: 앱 초기에는 시스템이 자동 생성하는 기본 미션 풀을 충분히 확보하여 해결.",
+          "부적절하거나 유해한 사용자 생성 미션 등록 방지: 신고 기능 및 간단한 키워드 필터링 규칙 도입 검토 필요."
+        ],
+        "draft_status_ko": "본 문서는 '동네 한바퀴 퀘스트: 커뮤니티 로컬 산책 메이커'의 1인 모바일 앱 개발을 위한 설계 초안이며, 실제 코드 구현, 실기기 필드 테스트, 서버 부하 검증은 아직 수행되지 않았습니다."
+      },
+      "plan_at": "2026-11-09T07:31:52+09:00",
+      "plan_quota_day": "2026-11-09",
+      "plan_usage": {
+        "promptTokenCount": 2660,
+        "candidatesTokenCount": 2163,
+        "totalTokenCount": 6588,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2660
+          }
+        ],
+        "thoughtsTokenCount": 1765,
+        "serviceTier": "standard"
       }
     }
   }

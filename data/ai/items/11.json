@@ -10263,6 +10263,98 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-09"
+    },
+    "apple:1593779280": {
+      "app_key": "apple:1593779280",
+      "name": "ReciMe: Recipes & Meal Planner",
+      "developer": "ReciMe Pty Ltd",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/recime-recipes-meal-planner/id1593779280",
+      "data_date": "2026-11-09",
+      "analysed_at": "2026-11-09T07:31:33+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "The number 1 recipe organizer and meal planner. ReciMe saves all your favorite recipes in one place, including Instagram, Facebook, TikTok, YouTube and Pinterest. Create grocery lists and meal plans. Calculate calories for every recipe. However you cook, ReciMe helps you do it, better. FEATURES - Save Recipes from Instagram, Facebook, TikTok, YouTube and Pinterest - Download recipes from social media sites. The ingredients and method steps are saved in an easy-to-read format. - Upload recipes from anywhere - Save your favorite recipes from your existing apps like Notes app, Google Docs, Notion, Evernote, and more! Or add your own recipes. - Grocery Lists - Create smart grocery lists to shop faster! Sort ingredients by supermarket aisle or by recipe. - Order Groceries - Turn your grocery list into a delivery! Order directly in-app and get ingredients to your door. - Meal Plan for the Week - Categorize meals for breakfast, lunch, or dinner with the built-in meal planner. - Nutrition Information - Calculate calories, protein, carbs, and fats for any recipe with the nutrition calculator. - Create Cookbooks - Organize your recipes into cookbooks. Customize recipes by meal type (breakfast, lunch, dinner), cuisine, diet, and more! - Cloud Sync - All recipes are saved on the cloud. - Access Across Multiple Devices - iOS and iPad. - Adjust Ingredients - Scale ingredients to your desired serving size. - Convert Measurements - Change recipe measurements between standard and metric. - Cook with Ease - Keep your phone screen unlocked while you cook. Follow recipes step-by-step so you can focus in the kitchen. - Share - Share recipes with your friends and family. Or send via email, SMS, WhatsApp, Messenger, or AirDrop. HOW DOES IT WORK? ReciMe includes both a free version and a subscription version with premium features. The premium version allows you to: 1. Download unlimited recipes from social media, and 2. Upload unlimited images of recipes to our smart importer 3. Calculate nutrition for every recipe You can start a 7-day free trial to access these premium features. Unless you cancel at least 24 hours before the end of the free trial, you will be automatically charged the price indicated on the payment screen for your chosen subscription period. The ReciMe Premium subscription renews automatically at the end of each period (each month or year) until you cancel. Canceling your subscription means the automatic renewal will be disabled. However, you will still have access to all your subscription features for the remaining time of your then-current period. Note that deleting the app does not cancel your subscriptions. Terms of Use: https://www.recime.app/terms-and-conditions Privacy Policy: https://www.recime.app/privacy-policy Have an idea to make your cooking experience with ReciMe better? Please reach out to us at https://recime.app/help",
+      "analysis": {
+        "app_key": "apple:1593779280",
+        "summary_ko": "ReciMe는 다양한 소셜 미디어와 웹사이트에서 레시피를 수집하고 관리할 수 있는 요리 도우미 앱입니다. 식단 계획, 식료품 목록 생성, 영양 성분 계산 기능을 제공합니다. 사용자는 자신만의 요리책을 만들고 가족이나 친구와 레시피를 공유할 수 있습니다.",
+        "features_ko": [
+          "Instagram, TikTok 등 소셜 미디어의 레시피를 읽기 쉬운 형식으로 저장합니다.",
+          "식료품 목록을 생성하고 마트 동선이나 레시피별로 정렬할 수 있습니다.",
+          "내장된 식단 플래너를 통해 주간 식단을 계획할 수 있습니다.",
+          "레시피의 칼로리, 단백질, 탄수화물 등 영양 정보를 자동으로 계산합니다.",
+          "레시피를 요리 유형이나 식단별로 분류하여 나만의 요리책을 구성합니다.",
+          "레시피 재료의 양을 조절하거나 단위를 변환하는 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "웹 스크래핑을 통해 비정형 데이터를 구조화된 레시피로 변환하는 기술이 핵심입니다. 사용자가 직접 입력하는 데이터와 외부 데이터를 통합 관리하는 방식이 개발 관점에서 흥미로운 도전 과제입니다.",
+        "development_ko": "웹 크롤링 및 파싱 기술이 필요하며, 데이터의 일관성을 유지하는 것이 중요합니다. 영양 성분 계산을 위한 데이터베이스 구축과 클라우드 동기화 시스템이 필요합니다. 사용자 경험을 위해 요리 중 화면이 꺼지지 않게 하는 등의 세밀한 UI 설정이 요구됩니다.",
+        "idea_ko": "냉장고에 있는 재료를 입력하면 가능한 레시피를 추천해주는 '냉장고 파먹기' 기능이 매우 유용할 것입니다.",
+        "highlights_ko": [
+          "다양한 플랫폼의 레시피를 한곳으로 모아주는 강력한 수집 기능.",
+          "영양 성분 계산 및 식단 계획 등 요리 전 과정을 지원하는 통합 도구."
+        ],
+        "systems_ko": [
+          "웹 레시피 파싱 및 데이터 추출 엔진",
+          "레시피 데이터베이스 및 분류 시스템",
+          "식료품 목록 관리 및 정렬 알고리즘",
+          "영양 성분 계산 로직",
+          "클라우드 동기화 및 기기 간 데이터 공유"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "데이터 파싱과 데이터베이스 설계가 핵심이며, 일반적인 CRUD 앱보다 조금 더 복잡한 로직을 요구합니다. 다만, 외부 API 연동이나 복잡한 그래픽 엔진이 필요하지 않아 개인 개발자가 충분히 도전할 만합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "레시피 수동 입력 및 저장 기능",
+            "식료품 목록 생성",
+            "요리책 분류 기능"
+          ],
+          "defer": [
+            "소셜 미디어 자동 스크래핑",
+            "영양 성분 자동 계산",
+            "식료품 배달 연동"
+          ],
+          "risks": [
+            "웹사이트 구조 변경으로 인한 파싱 오류",
+            "데이터 동기화 충돌"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "냉장고 재료 매칭",
+            "concept": "현재 보유한 재료를 입력하면 만들 수 있는 레시피를 우선순위로 보여줍니다.",
+            "first_step": "재료 데이터베이스와 레시피 재료 목록을 비교하는 검색 로직 구현."
+          },
+          {
+            "title": "식단 예산 관리",
+            "concept": "주간 식단 계획에 따른 예상 식료품 구매 비용을 계산해주는 기능입니다.",
+            "first_step": "식료품별 평균 가격 데이터 입력 및 합계 계산 UI 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 관리와 사용자 중심의 UI/UX를 설계하는 경험을 쌓기에 매우 좋습니다. 실용적인 앱을 만들고 싶은 개발자에게 강력히 추천합니다.",
+        "source_limitations_ko": "소개문에 언급된 영양 성분 계산의 정확도와 데이터 소스에 대한 정보가 없습니다. 또한, 배달 연동 기능은 외부 서비스 API가 필요하므로 실제 구현 시에는 해당 서비스의 정책 확인이 필요합니다.",
+        "name": "ReciMe: Recipes & Meal Planner",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/recime-recipes-meal-planner/id1593779280",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 82,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-09"
     }
   }
 }
