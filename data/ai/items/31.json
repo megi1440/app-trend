@@ -11622,6 +11622,266 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-09"
+    },
+    "itch:12bfecf5a0756d9d7199": {
+      "app_key": "itch:12bfecf5a0756d9d7199",
+      "name": "Indiepocalypse #82 [$15.00] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "featured",
+      "detail_url": "https://pizzapranks.itch.io/indiepocalypse-82",
+      "data_date": "2026-11-10",
+      "analysed_at": "2026-11-10T08:53:04+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Issue #82 of a monthly indie game anthology collecting games from 10 developers.",
+      "analysis": {
+        "app_key": "itch:12bfecf5a0756d9d7199",
+        "summary_ko": "Indiepocalypse #82는 10명의 개발자가 참여한 인디 게임 앤솔러지입니다. 매달 발행되는 시리즈의 82번째 이슈입니다.",
+        "features_ko": [
+          "10개의 서로 다른 인디 게임을 포함합니다.",
+          "월간 발행되는 앤솔러지 형식의 게임 모음집입니다."
+        ],
+        "noteworthy_ko": "다양한 개발자의 작품을 한데 모으는 배포 방식이 특징입니다. 1인 개발자에게는 자신의 게임을 앤솔러지에 포함시켜 홍보하는 전략적 가치가 있습니다.",
+        "development_ko": "개별 게임의 완성도보다는 런처나 통합 메뉴 시스템의 안정성이 중요합니다. 각 게임의 호환성을 유지하는 것이 기술적 핵심입니다.",
+        "idea_ko": "특정 테마를 정해 여러 개발자의 게임을 모으는 앤솔러지 플랫폼 구축이 적합합니다.",
+        "highlights_ko": [
+          "다양한 장르의 인디 게임을 한 번에 경험할 수 있습니다.",
+          "인디 개발자들의 커뮤니티 성격이 강한 프로젝트입니다."
+        ],
+        "systems_ko": [
+          "통합 런처/메뉴 시스템",
+          "개별 게임 실행 관리",
+          "데이터 패키징 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "판단 어려움",
+          "reason": "이 앱은 개별 게임의 집합체이므로, 1인이 이를 구현하려면 각 게임의 소스 코드 관리와 통합 환경 구축이라는 복합적인 작업이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "통합 메뉴 UI",
+            "외부 실행 파일 호출 기능"
+          ],
+          "defer": [
+            "게임 내 통합 데이터 공유",
+            "멀티플레이어 기능"
+          ],
+          "risks": [
+            "각 게임 간의 호환성 문제",
+            "파일 용량 관리"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "테마별 앤솔러지",
+            "concept": "특정 키워드(예: '공포', '고전')를 주제로 한 게임들을 모아 배포합니다. 개발자 간의 협업을 유도합니다.",
+            "first_step": "간단한 메뉴 UI를 만들고 외부 실행 파일을 연결하는 테스트를 수행합니다."
+          },
+          {
+            "title": "개발자 인터뷰 포함",
+            "concept": "게임과 함께 개발자의 인터뷰나 제작 비하인드를 텍스트로 제공합니다. 사용자 경험을 풍부하게 합니다.",
+            "first_step": "텍스트 뷰어 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "여러 게임을 하나의 패키지로 묶는 배포 전략을 배우기에 좋습니다. 비추천 이유는 개별 게임 개발과는 다른 운영적 역량이 많이 필요하기 때문입니다.",
+        "source_limitations_ko": "포함된 10개 게임의 장르, 개별 게임의 품질, 런처의 기술적 구현 방식에 대한 정보가 없습니다.",
+        "name": "Indiepocalypse #82 [$15.00] [Windows]",
+        "source": "itch",
+        "detail_url": "https://pizzapranks.itch.io/indiepocalypse-82",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 374,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-10"
+    },
+    "itch:dff475371a2f2ffebf8d": {
+      "app_key": "itch:dff475371a2f2ffebf8d",
+      "name": "I woke up as Lord Kelvin and now I'm being attacked by Slimes. Help! [Free] [Strategy]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://caltrops.itch.io/i-woke-up-as-lord-kelvin-and-now-im-being-attacked-by-slimes-help",
+      "data_date": "2026-11-10",
+      "analysed_at": "2026-11-10T08:53:55+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A tower defence game created for the WorldChanging GUDEV Gamejam",
+      "analysis": {
+        "app_key": "itch:dff475371a2f2ffebf8d",
+        "summary_ko": "켈빈 경이 되어 슬라임의 공격을 막아내는 타워 디펜스 게임입니다. 게임 잼을 위해 제작된 짧은 전략 게임으로, 밀려오는 적을 방어하는 것이 목표입니다.",
+        "features_ko": [
+          "적의 경로를 따라 방어 타워를 배치하는 타워 디펜스 규칙을 따릅니다.",
+          "다양한 슬라임 적들이 등장하여 플레이어의 방어선을 공격합니다.",
+          "켈빈 경이라는 캐릭터 설정을 통해 게임의 테마를 구성합니다."
+        ],
+        "noteworthy_ko": "게임 잼 출품작으로서 짧은 시간 내에 핵심 재미를 구현하는 방식이 돋보입니다. 타워 디펜스 장르의 기본기를 충실히 따르면서도 캐릭터성을 부여한 점이 흥미롭습니다.",
+        "development_ko": "적의 이동 경로(Pathfinding)와 타워의 공격 로직 구현이 핵심입니다. 콘텐츠 제작은 타워와 적의 스탯 밸런스 조정에 집중되며, 테스트를 통해 난이도를 조절해야 합니다.",
+        "idea_ko": "타워 디펜스에 캐릭터의 스킬 시스템을 결합하여 전략성을 높이는 방향이 적합합니다.",
+        "highlights_ko": [
+          "타워 디펜스 장르의 정석적인 구성.",
+          "게임 잼 특유의 명확한 목표와 짧은 플레이 타임."
+        ],
+        "systems_ko": [
+          "적 이동 경로 시스템",
+          "타워 배치 및 공격 로직",
+          "웨이브 관리 시스템",
+          "자원 및 업그레이드 UI"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "타워 디펜스는 구현해야 할 시스템이 많지만, 1인 개발 시 작은 맵과 적은 종류의 타워로 시작하면 충분히 완성 가능합니다. 다만 경로 탐색 알고리즘 구현에 학습이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "타워 배치 기능",
+            "적 이동 및 공격 로직",
+            "웨이브 시스템"
+          ],
+          "defer": [
+            "다양한 타워 업그레이드 트리",
+            "복잡한 스토리 컷신"
+          ],
+          "risks": [
+            "적 이동 경로 최적화 문제",
+            "타워와 적 간의 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "켈빈의 과학 마법",
+            "concept": "켈빈 경이 과학적 원리를 이용해 특정 구역에 상태 이상을 거는 스킬을 사용합니다.",
+            "first_step": "범위 내 적에게 슬로우 효과를 주는 스킬 구현."
+          },
+          {
+            "title": "슬라임 진화",
+            "concept": "시간이 지날수록 슬라임이 더 강한 형태로 진화하여 방어선을 위협합니다.",
+            "first_step": "적의 체력과 속도가 단계별로 증가하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "타워 디펜스 장르의 기초적인 시스템을 학습하기에 매우 좋습니다. 게임 잼 스타일의 빠른 개발 프로세스를 경험하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "게임 잼 출품작으로, 구체적인 타워 종류나 켈빈 경의 고유 능력에 대한 상세 정보는 확인되지 않습니다.",
+        "name": "I woke up as Lord Kelvin and now I'm being attacked by Slimes. Help! [Free] [Strategy]",
+        "source": "itch",
+        "detail_url": "https://caltrops.itch.io/i-woke-up-as-lord-kelvin-and-now-im-being-attacked-by-slimes-help",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 332,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 16,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-10"
+    },
+    "itch:2d476fa1acdf664864bb": {
+      "app_key": "itch:2d476fa1acdf664864bb",
+      "name": "I misteri di Valcorvara · Caso 1: Villa Corvara, La notte dei corvi [50% Off] [$6.45]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://misteri-di-valcorvara.itch.io/i-misteri-di-valcorvara-caso-1-villa-corvara-la-notte-dei-corvi",
+      "data_date": "2026-11-10",
+      "analysed_at": "2026-11-10T08:54:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Una villa, una notte di tempesta, un solo colpevole. Gioco giallo in italiano per telefono, tablet e PC.",
+      "analysis": {
+        "app_key": "itch:2d476fa1acdf664864bb",
+        "summary_ko": "I misteri di Valcorvara는 폭풍우 치는 밤, 저택에서 벌어진 사건을 해결하는 추리 게임입니다. 플레이어는 범인을 찾아내기 위해 단서를 수집하고 사건을 해결해야 합니다. 모바일과 PC 환경을 모두 지원하는 미스터리 장르의 게임입니다.",
+        "features_ko": [
+          "저택 내에서 단서를 수집하여 범인을 추리합니다.",
+          "폭풍우 치는 밤이라는 분위기 있는 배경 설정을 제공합니다.",
+          "다양한 기기(폰, 태블릿, PC)에서 플레이 가능한 환경을 지원합니다."
+        ],
+        "noteworthy_ko": "추리 장르 특유의 논리적 구조와 분위기 연출이 중요합니다. 멀티 플랫폼 지원을 위해 반응형 UI 설계가 개발의 핵심이 될 것으로 추정됩니다.",
+        "development_ko": "단서 수집 및 인벤토리 시스템 구현이 필요합니다. 사건의 진상을 파악하기 위한 대화 트리와 논리적 분기점 설계가 중요하며, 다양한 화면 비율에 대응하는 UI 최적화가 필수적입니다.",
+        "idea_ko": "플레이어가 수집한 단서를 조합하여 자신만의 추리 보드를 만드는 시스템을 제안합니다.",
+        "highlights_ko": [
+          "미스터리한 분위기와 추리 요소가 결합된 서사 중심의 게임입니다.",
+          "다양한 플랫폼을 지원하는 범용적인 설계가 특징입니다."
+        ],
+        "systems_ko": [
+          "단서 수집 및 인벤토리",
+          "대화 및 추리 분기 시스템",
+          "반응형 UI 시스템",
+          "사건 데이터 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "추리 게임의 로직은 데이터 기반으로 구현 가능하나, 탄탄한 시나리오와 UI 최적화가 필요하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "단서 클릭 및 획득 시스템",
+            "범인 지목을 위한 대화 선택지"
+          ],
+          "defer": [
+            "복잡한 퍼즐 미니게임",
+            "음성 더빙"
+          ],
+          "risks": [
+            "추리 과정의 논리적 허점",
+            "플랫폼별 UI 호환성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "추리 노트",
+            "concept": "플레이어가 수집한 단서를 바탕으로 범인을 지목하는 추리 노트를 작성합니다.",
+            "first_step": "수집한 단서 아이템을 리스트 형태로 보여주는 UI를 구현합니다."
+          },
+          {
+            "title": "시간 제한 추리",
+            "concept": "폭풍우가 그치기 전까지 범인을 찾아야 하는 시간 제한 요소를 추가합니다.",
+            "first_step": "게임 내 타이머를 추가하고 시간이 종료되면 특정 엔딩으로 연결합니다."
+          }
+        ],
+        "recommendation_ko": "논리적인 게임 구조 설계와 멀티 플랫폼 대응 UI를 배우기에 좋습니다. 추리 게임의 핵심인 서사적 재미를 구현하는 연습을 할 수 있습니다.",
+        "source_limitations_ko": "게임의 구체적인 추리 방식, 단서의 종류, 사건의 규모에 대한 정보가 부족합니다.",
+        "name": "I misteri di Valcorvara · Caso 1: Villa Corvara, La notte dei corvi [50% Off] [$6.45]",
+        "source": "itch",
+        "detail_url": "https://misteri-di-valcorvara.itch.io/i-misteri-di-valcorvara-caso-1-villa-corvara-la-notte-dei-corvi",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 305,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-10"
     }
   }
 }

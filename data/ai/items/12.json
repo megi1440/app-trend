@@ -12063,6 +12063,93 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-09"
+    },
+    "google:com.jgame.relaxgames": {
+      "app_key": "google:com.jgame.relaxgames",
+      "name": "Mini relax games-No wifi",
+      "developer": "JMGame",
+      "source": "google",
+      "country": "US",
+      "category": "game_casual",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.jgame.relaxgames&hl=en&gl=US",
+      "data_date": "2026-11-10",
+      "analysed_at": "2026-11-10T08:56:10+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "🎮 Fun. Fast. Totally Addictive. Whether you’re looking to de-stress, kill time, or just laugh out loud — this collection brings the internet’s favorite games into one wild and hilarious app. 🌟 Key Features: Tons of viral & satisfying mini games Perfect for quick play & short sessions Funny and unexpected gameplay mechanics No Wi-Fi needed — play anywhere! Surprises, randomness, and laughs in every tap 🧠 What’s Inside? 💥 Instant Stress Relief Smash, slice, twist, and relax with satisfying games like: Pop the Bubbles Unscrew the Screws Slice the Soap Every tap helps calm your mind and brings that “ahh” moment. 🚽 Find the Toilet?! Time is ticking — and nature is calling! Help characters navigate hilarious obstacle courses to reach the toilet in time. It’s weird, wild, and totally addictive. ✍️ Draw the Line, Save the Day Use your finger to draw lines and solve puzzles! From Save the Dog to Fill the Cup with Water, your drawings will shape how each level plays out. 🍉 Juicy Puzzle Madness Merge fruits in the viral Big Watermelon Challenge or swipe your way through colorful tile puzzles. It’s all about strategy… and juicy chaos! 🌀 Oddly Satisfying Gadgets Spin a Fidget Spinner, pop a Stress Button, or watch objects react in strange and funny ways. Short, looping games perfect for your coffee break. ✅ Why You’ll Love It Easy to play, hard to stop Fun for kids, adults, and everyone in between Bursting with personality, memes, and chaos Great when you’re bored, waiting, or avoiding responsibilities 👉 Download now and jump into the most unpredictable collection of mini games ever. Whether you’re drawing, smashing, merging or rushing to the bathroom — every tap is a good time!",
+      "analysis": {
+        "app_key": "google:com.jgame.relaxgames",
+        "summary_ko": "Mini relax games는 스트레스 해소와 시간 때우기에 적합한 다양한 미니 게임 모음집입니다. 퍼즐, 슬라이스, 머지 등 단순하고 중독성 있는 게임 메커니즘을 제공합니다. 와이파이 없이도 플레이할 수 있어 언제 어디서나 가볍게 즐길 수 있습니다.",
+        "features_ko": [
+          "다양한 유형의 만족스러운 미니 게임을 제공합니다.",
+          "짧은 시간 안에 즐길 수 있는 빠른 게임 플레이를 지원합니다.",
+          "와이파이 연결 없이 오프라인 플레이가 가능합니다.",
+          "퍼즐, 그리기, 머지 등 다양한 장르의 게임 메커니즘을 포함합니다."
+        ],
+        "noteworthy_ko": "여러 개의 단순한 게임을 하나의 앱으로 묶어 사용자 유지율을 높이는 전략이 돋보입니다. 각 게임의 메커니즘이 매우 직관적이라 개발 난이도가 상대적으로 낮습니다.",
+        "development_ko": "각 미니 게임의 핵심 메커니즘을 독립적으로 구현하는 것이 중요합니다. 게임 간의 전환을 매끄럽게 처리하는 통합 UI 시스템과 가벼운 게임 엔진 활용이 필요합니다.",
+        "idea_ko": "사용자가 직접 미니 게임의 난이도를 조절하거나 테마를 변경하는 커스터마이징 기능을 추가하면 좋습니다.",
+        "highlights_ko": [
+          "다양한 게임을 한곳에 모아 사용자가 지루할 틈 없이 즐길 수 있습니다.",
+          "복잡한 규칙 없이 즉각적인 재미를 주는 만족스러운 게임 메커니즘이 특징입니다."
+        ],
+        "systems_ko": [
+          "통합 게임 런처 UI",
+          "개별 미니 게임 엔진",
+          "데이터 저장 및 점수 관리 시스템",
+          "오프라인 모드 지원 로직"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "각 미니 게임의 규모가 매우 작고 독립적이어서 구현이 용이합니다. 복잡한 서버 연동이나 대규모 데이터 관리가 필요하지 않습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "메인 메뉴 UI",
+            "최소 2~3개의 미니 게임 구현"
+          ],
+          "defer": [
+            "온라인 리더보드",
+            "소셜 공유 기능"
+          ],
+          "risks": [
+            "게임 간의 품질 편차",
+            "단순함으로 인한 낮은 리텐션"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "데일리 챌린지",
+            "concept": "매일 바뀌는 미니 게임 미션을 제공하여 사용자의 접속을 유도합니다. 미션 성공 시 보상을 제공합니다.",
+            "first_step": "날짜별로 다른 게임을 실행하도록 하는 스케줄러를 구현합니다."
+          },
+          {
+            "title": "나만의 게임 룸",
+            "concept": "좋아하는 미니 게임을 즐겨찾기하여 메인 화면에 배치하는 기능입니다. 개인화된 경험을 제공합니다.",
+            "first_step": "즐겨찾기 목록을 저장하고 불러오는 로컬 저장 기능을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "다양한 게임 메커니즘을 실험해보고 싶은 초보 개발자에게 강력 추천합니다. 작은 단위의 게임을 완성하고 배포하는 경험을 쌓기에 가장 좋습니다.",
+        "source_limitations_ko": "각 미니 게임의 구체적인 로직, 광고 수익 모델의 상세 구현, 오프라인 데이터 저장 방식은 명시되어 있지 않습니다.",
+        "name": "Mini relax games-No wifi",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.jgame.relaxgames&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 171,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 23,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-10"
     }
   }
 }

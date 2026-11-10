@@ -10355,6 +10355,184 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-09"
+    },
+    "itch:16d9207d58aca1b6d924": {
+      "app_key": "itch:16d9207d58aca1b6d924",
+      "name": "Wargasbord: Battle Simulator - Playtest [Free] [Simulation] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://andymetoo.itch.io/wargasbord-battle-simulator-playtest",
+      "data_date": "2026-11-10",
+      "analysed_at": "2026-11-10T08:53:28+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Throw history in a blender in this 2D battle simulator through the eras!",
+      "analysis": {
+        "app_key": "itch:16d9207d58aca1b6d924",
+        "summary_ko": "다양한 시대의 유닛들을 한데 모아 전투를 벌이는 2D 배틀 시뮬레이터입니다. 플레이어는 시대를 초월한 군대 조합을 통해 전투를 관전하거나 시뮬레이션할 수 있습니다.",
+        "features_ko": [
+          "다양한 시대의 유닛을 선택하여 전투에 배치할 수 있습니다.",
+          "2D 환경에서 대규모 전투 시뮬레이션을 수행합니다.",
+          "시대별 유닛의 특성을 반영한 전투가 발생합니다."
+        ],
+        "noteworthy_ko": "시대적 배경을 섞는다는 아이디어가 창의적입니다. 유닛 간의 상성 관계를 어떻게 설정하느냐에 따라 게임의 깊이가 달라질 것으로 보입니다.",
+        "development_ko": "다수의 유닛을 제어하는 AI와 충돌 판정 최적화가 핵심입니다. 유닛별 애니메이션과 능력치 밸런스 작업이 가장 큰 비중을 차지할 것으로 추정됩니다.",
+        "idea_ko": "시대별 유닛을 조합하여 자신만의 '드림 군대'를 구성하는 모드를 제안합니다.",
+        "highlights_ko": [
+          "시대적 제약을 없앤 자유로운 유닛 조합이 특징입니다.",
+          "2D 환경에서의 대규모 전투 연출에 집중하고 있습니다."
+        ],
+        "systems_ko": [
+          "유닛 AI 및 경로 탐색 시스템",
+          "충돌 및 전투 판정 엔진",
+          "유닛 데이터 관리 시스템",
+          "전투 배치 UI"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다수의 유닛을 동시에 처리하는 성능 최적화와 유닛 간 상성 밸런스 조정이 매우 까다롭습니다. 1인 개발 시 기술적 난도가 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "유닛 배치 모드",
+            "기본적인 근접/원거리 공격 AI",
+            "전투 결과 판정 시스템"
+          ],
+          "defer": [
+            "복잡한 시대별 특수 스킬",
+            "온라인 멀티플레이어"
+          ],
+          "risks": [
+            "성능 최적화 문제",
+            "유닛 간 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "시대 융합 캠페인",
+            "concept": "특정 시대의 유닛만으로 다른 시대의 군대를 격파하는 퍼즐형 전투 모드입니다.",
+            "first_step": "유닛 상성표 작성 및 특정 시나리오 배치."
+          },
+          {
+            "title": "유닛 커스텀 에디터",
+            "concept": "기존 유닛의 능력치를 수정하여 자신만의 유닛을 만드는 기능입니다.",
+            "first_step": "유닛 능력치 데이터 구조화 및 UI 연동."
+          }
+        ],
+        "recommendation_ko": "대규모 유닛 제어와 AI 로직을 공부하고 싶은 개발자에게 추천합니다. 최적화 기술을 익히기에 좋은 프로젝트입니다.",
+        "source_limitations_ko": "플레이테스트 단계이므로 실제 유닛의 종류, 전투 메커니즘의 깊이, 승리 조건 등이 명확하지 않습니다.",
+        "name": "Wargasbord: Battle Simulator - Playtest [Free] [Simulation] [Windows]",
+        "source": "itch",
+        "detail_url": "https://andymetoo.itch.io/wargasbord-battle-simulator-playtest",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 359,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 7,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-10"
+    },
+    "apple:1476836651": {
+      "app_key": "apple:1476836651",
+      "name": "Solitaire - Classic Card Game⁎",
+      "developer": "Curated Content",
+      "source": "apple",
+      "country": "US",
+      "category": "game_card",
+      "detail_url": "https://apps.apple.com/us/app/solitaire-classic-card-game/id1476836651?uo=2",
+      "data_date": "2026-11-10",
+      "analysed_at": "2026-11-10T08:56:30+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Play Solitaire everywhere and anywhere with the best free Klondike Solitaire game in town! Klondike Solitaire is by far the most popular one player card game, it’s simple, fun and addictive to play! Make the right combinations of the cards to complete the game. Draw three cards from the deck of remaining Klondike Solitaire cards and pick the required card to match with the open cards. Double tap on the card to move the card. Clever thinking is required to win the game! Have you got what it takes? How to Play Klondike Solitaire: 52 cards, 4 suits, 1 goal: Play To Win! Klondike Solitaire is one of the easiest and most satisfying card games you can play. The classic version of Solitaire uses a single 52 playing cards, all shuffled before 28 cards are then dealt out onto the table in seven piles. The object of the game is to order all of the cards into the deck’s four suits (diamonds, clubs, hearts, spades) and to do so in ascending order — from ace to king. The piles are called tableaus and they are laid out on the table from left to right: Single card Two cards Three cards Four cards Five cards Six cards Seven cards The bottom card in each tableau is face-up and the remaining 24 cards (those not dealt out) remain in a single pile called the stock. Once all the cards are laid out, you then move individual cards from the stock to make your four suited piles. Simply drag cards and move them to the table you wish to place them in. Klondike Solitaire Card Game rules are very similar to the rules of all other Solitaire variants. If you like Spider Solitaire, Pyramid Solitaire, Freecell Solitaire, Tripeaks Solitaire or Bowling Solitaire you're going to love to play the Klondike Solitaire Card Game! Features: - Soothe and Sharpen Your Mind: Unlike other games that demand a high level of attention or logical thinking, Solitaire triggers a soft mental activity that works to relax the brain and dilute stress. Playing Solitaire helps your mind enter into a light meditative state as you think about which moves to make. - Customise: Play the best free classic solitaire card game just the way you like it. Change the look of the table, customise the deck of cards front and back and have fun! You can even make Solitaire sound the way you want! Compete Against Other Players: Despite being a single-player game, Solitaire can be as competitive as it is entertaining. Challenge yourself or other players by trying to achieve a better score or time at each game. - Get Hints: As a low-risk game, Solitaire can be entertaining and chase away boredom without ever creating a sense of frustration or failure. Get clues on how to play and which are the best moves to make. - Train Your Brain: Unlike with other games, the benefits of playing Solitaire are subtle and an improvement in your memory skills is highly likely! Solitaire is free to play and comes with advanced features along with the cool backgrounds and deck designs to make the game appealing and exciting. You can also choose between the right handed and left handed settings to make your gameplay comfortable. With unlimited ‘undos’ and auto complete features, Klondike Solitaire is the best card game of its kind. The game also creates the statistics of the number of games played against the number of won matches and lot more. Challenge your friends and family to beat you in the most popular card game: Solitaire. Download our Klondike Solitaire app today and start enjoying unlimited fun, wherever you are and whenever you want! Improve your response skills and logical thinking while playing the game, plus it’s a great way to relax and unwind. But beware, Solitaire is addictive! Be the master of the cards with Klondike Solitaire in your pocket!",
+      "analysis": {
+        "app_key": "apple:1476836651",
+        "summary_ko": "전통적인 클론다이크 솔리테어 카드 게임을 모바일에서 즐길 수 있는 앱입니다. 52장의 카드를 규칙에 맞춰 정렬하는 방식으로, 두뇌 회전과 스트레스 해소를 돕습니다. 다양한 커스터마이징과 통계 기능을 제공합니다.",
+        "features_ko": [
+          "클론다이크 솔리테어의 정석적인 규칙을 충실히 구현합니다.",
+          "카드 뒷면, 테이블 배경 등 다양한 디자인 커스터마이징을 지원합니다.",
+          "게임 통계 기능을 통해 승률과 기록을 관리합니다.",
+          "힌트 제공, 무제한 실행 취소, 자동 완성 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "카드 게임의 로직은 정형화되어 있어 구현 난이도가 낮지만, 사용자에게 만족감을 주는 애니메이션과 인터페이스 구성이 개발의 핵심입니다. 1인 개발자가 게임의 완성도를 높이는 연습을 하기에 적합합니다.",
+        "development_ko": "핵심 기술은 카드 이동 로직 및 게임 상태 관리입니다. 콘텐츠 제작 부담은 낮으나, 부드러운 카드 이동 애니메이션 구현에 공을 들여야 합니다. 밸런스보다는 다양한 난이도 설정과 사용자 편의 기능 테스트가 중요합니다.",
+        "idea_ko": "기존 솔리테어 규칙에 '시간 제한'이나 '특수 아이템'을 추가한 변형 게임 개발을 추천합니다.",
+        "highlights_ko": [
+          "두뇌 회전과 스트레스 해소를 돕는 명상적인 게임 플레이.",
+          "오른손/왼손잡이 모드 등 사용자 편의를 고려한 설정 제공."
+        ],
+        "systems_ko": [
+          "카드 덱 셔플 및 분배 로직",
+          "카드 이동 판정 시스템",
+          "게임 상태(Undo/Redo) 관리",
+          "통계 데이터 저장 시스템",
+          "애니메이션 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "게임 로직 자체는 명확하지만, 카드 이동 시의 드래그 앤 드롭 처리와 부드러운 애니메이션 구현에는 세심한 작업이 필요합니다. 하지만 복잡한 서버 연동이 없어 개인 개발에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카드 덱 생성 및 배치",
+            "드래그 앤 드롭 이동 로직",
+            "승리 조건 판정"
+          ],
+          "defer": [
+            "다양한 카드 디자인 테마",
+            "온라인 리더보드",
+            "복잡한 통계 분석"
+          ],
+          "risks": [
+            "카드 이동 로직의 버그",
+            "사용자 경험을 저해하는 애니메이션 끊김"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스피드 솔리테어",
+            "concept": "제한 시간 내에 최대한 많은 카드를 정리해야 하는 긴박한 솔리테어 게임입니다.",
+            "first_step": "타이머 기능 추가 및 시간 종료 시 게임 오버 로직 구현."
+          },
+          {
+            "title": "퍼즐 솔리테어",
+            "concept": "정해진 이동 횟수 내에 카드를 모두 정리해야 하는 전략적인 퍼즐 모드입니다.",
+            "first_step": "이동 횟수 카운터 및 제한 설정 기능 구현."
+          }
+        ],
+        "recommendation_ko": "게임 개발의 기초인 상태 관리와 UI 인터랙션을 배우기에 매우 좋은 프로젝트입니다. 카드 게임의 고전적인 재미를 구현하며 개발 실력을 쌓고 싶은 분께 추천합니다.",
+        "source_limitations_ko": "카드 이동 로직의 구체적인 알고리즘이나 애니메이션 구현 방식에 대한 정보는 없습니다.",
+        "name": "Solitaire - Classic Card Game⁎",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/solitaire-classic-card-game/id1476836651?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-10"
     }
   }
 }

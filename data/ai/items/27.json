@@ -11640,6 +11640,89 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-08"
+    },
+    "itch:8f192a28144f045eceb7": {
+      "app_key": "itch:8f192a28144f045eceb7",
+      "name": "Ittybittyville [$5.00] [Simulation] [macOS]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://jacophobia.itch.io/ittybittyville",
+      "data_date": "2026-11-10",
+      "analysed_at": "2026-11-10T08:54:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Share your PC with a bunch of itty bitty folks as they settle their new home.",
+      "analysis": {
+        "app_key": "itch:8f192a28144f045eceb7",
+        "summary_ko": "Ittybittyville은 사용자의 PC 환경을 공유하며 작은 주민들이 새로운 보금자리를 꾸리는 과정을 지켜보는 시뮬레이션 게임입니다. 데스크톱 위에서 살아가는 작은 존재들을 관찰하는 독특한 사용자 경험을 제공합니다.",
+        "features_ko": [
+          "작은 주민들이 사용자의 PC 환경에 정착하는 과정을 시뮬레이션합니다."
+        ],
+        "noteworthy_ko": "데스크톱 환경을 게임의 무대로 활용한다는 점이 흥미롭습니다. 이는 사용자의 일상적인 PC 사용 경험과 게임 속 가상 세계를 결합하려는 시도로 추정됩니다.",
+        "development_ko": "데스크톱 오버레이 기술이나 창 관리 API 활용이 핵심일 것으로 보입니다. 콘텐츠 제작은 주민들의 행동 패턴을 정의하는 스크립트 위주가 될 것이며, 테스트는 다양한 OS 환경에서의 호환성 확보가 중요합니다.",
+        "idea_ko": "사용자의 PC 작업 상태에 따라 주민들의 반응이 달라지는 상호작용 시스템을 제안합니다.",
+        "highlights_ko": [
+          "사용자의 PC를 게임 공간으로 활용하는 몰입형 시뮬레이션입니다."
+        ],
+        "systems_ko": [
+          "데스크톱 오버레이 시스템",
+          "주민 AI 행동 트리",
+          "환경 상호작용 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "OS별 권한 관리와 데스크톱 환경에서의 안정적인 렌더링 구현이 기술적으로 까다롭기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "데스크톱 위에 표시되는 기본 캐릭터",
+            "캐릭터의 간단한 이동 로직"
+          ],
+          "defer": [
+            "복잡한 경제 시스템",
+            "건물 건설 기능"
+          ],
+          "risks": [
+            "OS 보안 정책에 의한 실행 제한",
+            "타 프로그램과의 충돌"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "작업 시간 알리미",
+            "concept": "사용자가 특정 시간 동안 PC를 사용하면 주민들이 휴식을 권하는 알림을 보냅니다.",
+            "first_step": "PC 사용 시간을 측정하여 특정 시간에 캐릭터가 나타나게 구현합니다."
+          },
+          {
+            "title": "파일 정리 도우미",
+            "concept": "바탕화면의 아이콘을 주민들이 옮기거나 정리하는 시각적 효과를 제공합니다.",
+            "first_step": "바탕화면 아이콘의 위치 정보를 읽어오는 스크립트를 작성합니다."
+          }
+        ],
+        "recommendation_ko": "데스크톱 환경과 게임을 결합하는 독특한 UI/UX 구현 방식을 배우기에 적합합니다. 다만 기술적 난이도가 높으므로 OS별 API에 대한 깊은 이해가 필요합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 게임 플레이 방식, 주민들의 상호작용 범위, 기술적 구현 방식에 대한 정보가 전혀 없습니다.",
+        "name": "Ittybittyville [$5.00] [Simulation] [macOS]",
+        "source": "itch",
+        "detail_url": "https://jacophobia.itch.io/ittybittyville",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 317,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-10"
     }
   }
 }

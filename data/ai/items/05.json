@@ -9911,6 +9911,183 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-09"
+    },
+    "itch:703d87cb50cb1ec8606e": {
+      "app_key": "itch:703d87cb50cb1ec8606e",
+      "name": "Audit Day: Corporate Overlord [Free] [Card Game]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://a-programmer123.itch.io/a-d-c-o",
+      "data_date": "2026-11-10",
+      "analysed_at": "2026-11-10T08:53:28+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Welcome to the ultimate satirical management clicker.",
+      "analysis": {
+        "app_key": "itch:703d87cb50cb1ec8606e",
+        "summary_ko": "기업의 경영진이 되어 회사를 운영하는 풍자적인 클릭커 게임입니다. 플레이어는 클릭을 통해 자원을 모으고 기업을 성장시키는 과정을 경험합니다.",
+        "features_ko": [
+          "클릭을 통해 자원을 획득하는 기본 메커니즘을 제공합니다.",
+          "기업 경영을 풍자하는 테마를 담고 있습니다.",
+          "클릭커 게임 특유의 성장 및 업그레이드 요소를 포함합니다."
+        ],
+        "noteworthy_ko": "풍자적 요소를 클릭커 장르에 녹여낸 점이 흥미롭습니다. 단순한 클릭을 넘어 경영적 선택이 결과에 영향을 미치는 시스템이 있다면 더욱 매력적일 것입니다.",
+        "development_ko": "클릭 이벤트 처리와 수치 증가 로직이 핵심입니다. UI/UX가 게임의 재미를 결정하므로 직관적인 인터페이스 설계가 중요합니다.",
+        "idea_ko": "경영 결정에 따라 회사의 평판이 바뀌는 이벤트를 추가하는 것을 제안합니다.",
+        "highlights_ko": [
+          "기업 경영을 풍자적으로 해석한 독특한 테마입니다.",
+          "클릭커 장르의 중독성 있는 성장 구조를 따릅니다."
+        ],
+        "systems_ko": [
+          "자원 누적 및 계산 시스템",
+          "업그레이드 및 상점 시스템",
+          "이벤트 발생 로직",
+          "데이터 저장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "클릭커 게임은 구현 난도가 낮아 1인 개발자가 시도하기에 가장 적합한 장르입니다. 핵심 로직이 단순하여 빠르게 프로토타입을 만들 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "클릭 시 자원 획득",
+            "자동 생산 업그레이드",
+            "기본적인 수치 표시 UI"
+          ],
+          "defer": [
+            "복잡한 경영 시뮬레이션 요소",
+            "멀티플레이어 기능"
+          ],
+          "risks": [
+            "콘텐츠 부족으로 인한 빠른 지루함",
+            "수치 인플레이션 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "기업 윤리 선택지",
+            "concept": "주기적으로 발생하는 경영 결정에서 윤리적 선택과 이익 중심 선택을 강요받는 시스템입니다.",
+            "first_step": "선택지 UI와 그에 따른 자원 변화 로직 구현."
+          },
+          {
+            "title": "주주 총회 미니게임",
+            "concept": "일정 자원 달성 시 주주들의 질문에 답하여 보너스를 얻는 미니게임입니다.",
+            "first_step": "질문-답변 데이터베이스와 타이머 시스템 제작."
+          }
+        ],
+        "recommendation_ko": "게임의 기본 루프를 설계하고 데이터 관리의 기초를 배우기에 매우 좋습니다. 클릭커 장르를 처음 개발하는 분께 추천합니다.",
+        "source_limitations_ko": "풍자의 구체적인 내용과 경영 시뮬레이션의 깊이가 어느 정도인지 소개문만으로는 파악하기 어렵습니다.",
+        "name": "Audit Day: Corporate Overlord [Free] [Card Game]",
+        "source": "itch",
+        "detail_url": "https://a-programmer123.itch.io/a-d-c-o",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 356,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 8,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-10"
+    },
+    "google:com.tinylab.yondo": {
+      "app_key": "google:com.tinylab.yondo",
+      "name": "Yondo Todoリストをロック画面に。シンプルタスク管理",
+      "developer": "Tiny Lab Apps",
+      "source": "google",
+      "country": "JP",
+      "category": "app_productivity",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.tinylab.yondo&hl=ja&gl=JP",
+      "data_date": "2026-11-10",
+      "analysed_at": "2026-11-10T08:56:30+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Yondoは「やることを二度と忘れない」ためのTo-Doアプリです。 - ロック画面にタスクを表示 スマホのロック画面全体に登録しているタスクを表示することで、アプリを開かなくてもいつでもタスクを確認できます。 - タスクを4つに仕分け タスクを優先度と重要度で4つに分類することで、今やるべきことが一目でわかります。 - 究極にシンプル 1画面に全てのタスクが表示されます。ログインも不要です。アプリをインストールして即使えます。 プライバシーポリシー: https://yondoapp.com/privacy",
+      "analysis": {
+        "app_key": "google:com.tinylab.yondo",
+        "summary_ko": "잠금 화면에 할 일을 표시하여 잊지 않도록 돕는 생산성 앱입니다. 우선순위와 중요도에 따라 할 일을 4가지로 분류할 수 있습니다. 별도의 로그인 없이 즉시 사용 가능한 단순함이 특징입니다.",
+        "features_ko": [
+          "스마트폰 잠금 화면에 할 일을 표시하여 앱 실행 없이 확인합니다.",
+          "할 일을 우선순위와 중요도에 따라 4분면으로 분류합니다.",
+          "복잡한 기능 없이 1화면에서 모든 할 일을 관리합니다.",
+          "별도의 계정 생성이나 로그인 과정 없이 즉시 사용합니다."
+        ],
+        "noteworthy_ko": "잠금 화면 위젯 기능을 활용하여 사용자 경험을 극대화한 점이 흥미롭습니다. OS의 잠금 화면 제약 사항을 어떻게 우회하거나 활용했는지가 개발의 핵심일 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 OS의 잠금 화면 위젯 API 활용입니다. 콘텐츠 제작 부담은 매우 낮으나, 다양한 기기별 잠금 화면 정책에 대응하는 UI 테스트 부담이 있습니다. 단순한 기능인 만큼 사용자 경험을 해치지 않는 최적화가 중요합니다.",
+        "idea_ko": "잠금 화면에 할 일 대신 '오늘의 명언'이나 '작은 습관'을 표시하는 미니멀한 동기 부여 앱 개발을 추천합니다.",
+        "highlights_ko": [
+          "잠금 화면 활용으로 할 일을 잊지 않게 하는 직관적인 접근성.",
+          "4분면 분류를 통해 우선순위 업무를 명확히 파악 가능."
+        ],
+        "systems_ko": [
+          "잠금 화면 위젯 연동 모듈",
+          "로컬 데이터 저장소(SQLite 등)",
+          "할 일 분류 및 정렬 로직",
+          "UI 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "기능이 매우 단순하고 외부 서버 연동이 필요 없습니다. OS의 위젯 API만 숙지한다면 개인 개발자가 충분히 구현 가능한 수준입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "할 일 추가 및 삭제 기능",
+            "잠금 화면 위젯 표시 기능",
+            "로컬 데이터 저장"
+          ],
+          "defer": [
+            "클라우드 동기화",
+            "다양한 테마 설정",
+            "알림 설정"
+          ],
+          "risks": [
+            "OS 업데이트에 따른 위젯 정책 변경",
+            "기기별 잠금 화면 표시 제한"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "오늘의 한 문장",
+            "concept": "잠금 화면에 매일 새로운 동기 부여 문구를 표시하여 사용자의 하루를 응원하는 앱입니다.",
+            "first_step": "문구 데이터 리스트를 만들고 랜덤으로 위젯에 표시하는 기능 구현."
+          },
+          {
+            "title": "물 마시기 알림",
+            "concept": "잠금 화면에 현재 수분 섭취량을 표시하고, 터치 한 번으로 섭취량을 기록하는 앱입니다.",
+            "first_step": "수분 섭취량 카운터와 잠금 화면 위젯 연동 구현."
+          }
+        ],
+        "recommendation_ko": "OS 위젯 API를 학습하고 미니멀한 앱을 처음 개발해보려는 초보자에게 강력 추천합니다. 복잡한 서버 없이도 완성도 높은 앱을 만들 수 있습니다.",
+        "source_limitations_ko": "잠금 화면 위젯의 구체적인 구현 방식(OS별 제약 사항)에 대한 정보가 없습니다.",
+        "name": "Yondo Todoリストをロック画面に。シンプルタスク管理",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.tinylab.yondo&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-10"
     }
   }
 }

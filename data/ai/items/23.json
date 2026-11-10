@@ -10610,6 +10610,271 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-09"
+    },
+    "itch:98e916cd182c8ebe7f97": {
+      "app_key": "itch:98e916cd182c8ebe7f97",
+      "name": "Alpinist: The Golden Age of Alpinism [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://alpinistgame.itch.io/alpinist",
+      "data_date": "2026-11-10",
+      "analysed_at": "2026-11-10T08:53:28+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Race the world's nations to the fourteen highest summits on Earth",
+      "analysis": {
+        "app_key": "itch:98e916cd182c8ebe7f97",
+        "summary_ko": "지구상의 14개 최고봉을 정복하기 위해 전 세계 국가들과 경쟁하는 등반 시뮬레이션 게임입니다. 플레이어는 등반가로서 목표를 달성하기 위한 전략적 선택을 내려야 합니다.",
+        "features_ko": [
+          "지구상에서 가장 높은 14개 산을 등반하는 목표를 제공합니다.",
+          "전 세계 국가들과 속도 경쟁을 벌이는 레이스 형식을 취합니다."
+        ],
+        "noteworthy_ko": "역사적 사실을 기반으로 한 등반 레이스라는 테마가 흥미롭습니다. 1인 개발 시 자원 관리와 시간 제한 메커니즘을 어떻게 조화시킬지가 핵심 과제로 보입니다.",
+        "development_ko": "등반 경로 데이터와 국가별 AI 경쟁 로직 구현이 핵심입니다. 콘텐츠 제작은 산악 지형의 시각화와 등반 난이도 밸런스 조정에 집중될 것으로 추정됩니다.",
+        "idea_ko": "등반 중 발생하는 돌발 상황(날씨, 부상)을 카드 이벤트로 처리하는 시스템을 제안합니다.",
+        "highlights_ko": [
+          "14개 최고봉이라는 명확한 목표 지향적 구조를 가지고 있습니다.",
+          "국가 간 경쟁이라는 요소를 통해 긴박한 게임 플레이를 유도합니다."
+        ],
+        "systems_ko": [
+          "등반 상태 관리 시스템",
+          "국가별 경쟁 AI 로직",
+          "날씨 및 환경 이벤트 시스템",
+          "UI 기반의 자원 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "복잡한 물리 엔진보다는 데이터 기반의 시뮬레이션 요소가 강해 1인 개발이 가능합니다. 다만, 14개 산의 개별적인 특성을 구현하는 데 시간이 소요될 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "등반 진행도 시스템",
+            "경쟁 국가의 진행 상황 표시",
+            "기본적인 자원(체력, 식량) 관리"
+          ],
+          "defer": [
+            "멀티플레이어 모드",
+            "정교한 3D 그래픽"
+          ],
+          "risks": [
+            "반복적인 등반 과정의 지루함",
+            "데이터 밸런스 조정의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "등반가 카드 덱 빌딩",
+            "concept": "등반 중 발생하는 이벤트를 카드로 해결하는 방식입니다. 장비 카드와 체력 카드를 조합하여 난관을 극복합니다.",
+            "first_step": "기본적인 카드 뽑기 및 이벤트 적용 로직 구현."
+          },
+          {
+            "title": "날씨 예측 전략",
+            "concept": "등반 시점에 따른 날씨 변화를 예측하고 이동할지 대기할지 결정하는 전략 게임입니다.",
+            "first_step": "날씨 확률 테이블과 이동 결과 계산기 제작."
+          }
+        ],
+        "recommendation_ko": "데이터 기반 시뮬레이션 게임의 구조를 배우기에 적합합니다. 복잡한 그래픽보다 시스템 설계에 집중하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 게임 메커니즘(턴제 여부, 자원 종류 등)을 확인할 수 없습니다. 실제 구현된 기능에 대한 검증이 필요합니다.",
+        "name": "Alpinist: The Golden Age of Alpinism [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://alpinistgame.itch.io/alpinist",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 362,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 6,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-10"
+    },
+    "itch:33773a705a71d33e67b6": {
+      "app_key": "itch:33773a705a71d33e67b6",
+      "name": "This Desert Won’t Vacuum Itself: Cleaning Simulator and Incremental [Free] [Simulation] [Windows] [macOS] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://n3at18.itch.io/this-desert-wont-vacuum-itself",
+      "data_date": "2026-11-10",
+      "analysed_at": "2026-11-10T08:54:43+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Vacuum an entire desert. Start with your pockets, earn absurd tools, and put autonomous cleaners to work.",
+      "analysis": {
+        "app_key": "itch:33773a705a71d33e67b6",
+        "summary_ko": "사막 전체를 청소하는 독특한 컨셉의 방치형 시뮬레이션 게임입니다. 플레이어는 초기 단계에서 직접 청소를 시작하여 자금을 모으고, 이를 통해 더 효율적인 자동 청소 도구를 획득합니다. 점진적으로 규모를 확장하며 사막을 정화해 나가는 경험을 제공합니다.",
+        "features_ko": [
+          "플레이어가 직접 청소 도구를 조작하여 사막의 오염물을 제거합니다.",
+          "청소를 통해 획득한 재화로 더 강력하고 기괴한 청소 도구를 구매합니다.",
+          "자동 청소기를 배치하여 플레이어가 직접 조작하지 않아도 청소가 진행되도록 합니다."
+        ],
+        "noteworthy_ko": "사막이라는 광활한 공간을 청소한다는 비현실적인 설정을 방치형 시스템과 결합한 점이 흥미롭습니다. 점진적 성장(Incremental) 구조를 통해 플레이어의 노동력을 자동화 시스템으로 전환하는 과정이 핵심 재미 요소로 보입니다.",
+        "development_ko": "핵심 구현 기술로는 클릭 이벤트 처리와 자동화된 재화 생성 로직이 필요합니다. 콘텐츠 제작 측면에서는 다양한 청소 도구의 등급별 밸런스 조정이 중요하며, 테스트 시 자동화 효율이 게임의 재미를 해치지 않는지 확인해야 합니다.",
+        "idea_ko": "청소 도구의 성능을 업그레이드하는 것뿐만 아니라, 청소한 구역마다 발견되는 고대 유물을 수집하는 도감 시스템을 추가하는 것이 가장 적합합니다.",
+        "highlights_ko": [
+          "사막이라는 이색적인 배경과 청소라는 일상적 행위의 결합.",
+          "수동 조작에서 자동화로 넘어가는 점진적 성장 구조."
+        ],
+        "systems_ko": [
+          "재화 및 업그레이드 데이터 관리 시스템",
+          "자동 청소기 배치 및 상태 관리 시스템",
+          "클릭 및 상호작용 입력 판정",
+          "UI/UX 기반의 상점 및 인벤토리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "방치형 게임의 기본 로직은 구현이 어렵지 않으나, 플레이어의 성취감을 유지하기 위한 수치 밸런스 설계가 중요합니다. 자동화 시스템의 연동과 데이터 저장이 핵심입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 청소 상호작용",
+            "재화 획득 및 누적 로직",
+            "청소 도구 구매 상점 UI"
+          ],
+          "defer": [
+            "복잡한 사막 지형 렌더링",
+            "오프라인 보상 시스템"
+          ],
+          "risks": [
+            "단순 반복 작업으로 인한 지루함 발생",
+            "재화 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "유물 수집가 모드",
+            "concept": "청소 중 사막 아래 묻힌 유물을 발견하여 박물관에 전시합니다. 유물마다 고유한 청소 효율 버프를 제공합니다.",
+            "first_step": "청소 시 확률적으로 아이템이 드롭되는 로직 구현."
+          },
+          {
+            "title": "환경 정화 퀘스트",
+            "concept": "특정 구역을 청소하면 사막에 식물이 자라나는 시각적 변화를 줍니다. 구역별로 청소 난이도와 보상을 다르게 설정합니다.",
+            "first_step": "구역별 청소 진행도에 따른 타일 이미지 변경 기능 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 기본 루프인 '획득-구매-성장'의 구조를 학습하기에 좋습니다. 단순한 메커니즘을 어떻게 확장하여 플레이 시간을 늘릴지 고민하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문만으로는 구체적인 청소 방식(클릭커 방식인지, 이동형 시뮬레이션인지)과 자동화 시스템의 구체적인 작동 원리를 확인할 수 없습니다. 외부 API 연동이나 결제 기능 여부는 알 수 없습니다.",
+        "name": "This Desert Won’t Vacuum Itself: Cleaning Simulator and Incremental [Free] [Simulation] [Windows] [macOS] [Linux]",
+        "source": "itch",
+        "detail_url": "https://n3at18.itch.io/this-desert-wont-vacuum-itself",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 299,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-10"
+    },
+    "apple:6828269621": {
+      "app_key": "apple:6828269621",
+      "name": "Enlevel Dungeon",
+      "developer": "Seongyul Jeon",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/kr/app/enlevel-dungeon/id6828269621?uo=2",
+      "data_date": "2026-11-10",
+      "analysed_at": "2026-11-10T08:55:51+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "걷기만 하면 싸운다. 끝없는 던전에서 레벨을 올리고, 잃지 않는 성장으로 더 깊은 곳에 도전하세요. Enlevel Dungeon 은 2D 도트 그래픽의 자동 전투 로그라이크 RPG 입니다. 길을 따라 걸으면 몬스터가 나타나고, 전투는 알아서 진행됩니다. 매 출정은 레벨 1에서 시작하지만, 한 판이 끝나도 골드와 유물, 도감은 그대로 남습니다. ■ 걷기만 하면 자동 전투 화면을 끌어 이동하면 그만. 몬스터와 마주치면 전투가 자동으로 펼쳐집니다. 어떤 스킬을 어떤 순서로 넣을지, 어떤 유물을 낄지가 실력입니다. ■ 폭발하는 레벨업 강한 몬스터를 잡을수록 레벨이 크게 뜁니다. 한 판 안에서 숫자가 폭발적으로 커지는 손맛을 느껴 보세요. ■ 출정마다 다른 축복 출정할 때와 보스를 쓰러뜨릴 때마다 셋 중 하나의 축복을 고릅니다. 같은 판은 두 번 없습니다. ■ 잃지 않는 영구 성장 기력이 다하거나 쓰러져도 가져온 전리품은 모두 남습니다. 로비에서 능력치를 강화하고, 무기를 단련하고, 스킬을 배우고 각성시키세요. ■ 탐험과 수집 깊이 들어갈수록 더 강한 몬스터와 보스가 기다립니다. 처치한 몬스터로 도감을 채워 영구 능력치를 올리고, 희귀 몬스터가 떨어뜨리는 유물을 모으세요. ■ 더 높은 난이도 익숙해졌다면 어려움과 지옥 난이도에 도전하세요. 위험한 만큼 보상도 커집니다. ■ 이런 분께 추천합니다 • 출퇴근길에 짧게 즐길 게임을 찾는 분 • 숫자가 끝없이 커지는 성장을 좋아하는 분 • 광고 없이, 추가 결제 없이 한 번 구매로 끝까지 즐기고 싶은 분 광고 없음 · 인앱 결제 없음 · 오프라인 플레이 · 세이브는 기기에 저장",
+      "analysis": {
+        "app_key": "apple:6828269621",
+        "summary_ko": "2D 도트 그래픽 기반의 자동 전투 로그라이크 RPG입니다. 화면을 끌어 이동하면 자동으로 전투가 진행되며, 매 출정마다 레벨 1에서 시작하지만 영구적인 성장 요소가 존재합니다. 광고나 인앱 결제 없이 한 번의 구매로 끝까지 즐길 수 있는 오프라인 게임입니다.",
+        "features_ko": [
+          "화면 드래그로 이동하며 몬스터와 마주치면 자동으로 전투가 진행됩니다.",
+          "출정 시마다 무작위 축복을 선택하여 매번 다른 전략을 구사합니다.",
+          "전투를 통해 얻은 골드와 유물로 로비에서 영구적인 능력치를 강화합니다.",
+          "몬스터 도감을 채워 영구적인 스탯 보너스를 획득합니다.",
+          "어려움 및 지옥 난이도를 통해 더 높은 보상에 도전합니다."
+        ],
+        "noteworthy_ko": "로그라이크의 무작위성과 방치형의 영구 성장 요소를 결합한 점이 흥미롭습니다. 1인 개발 시 복잡한 연출보다는 시스템의 밸런스와 로그라이크 특유의 '축복' 조합 설계에 집중하는 것이 효율적입니다.",
+        "development_ko": "핵심은 자동 전투 로직과 로그라이크식 무작위 데이터 생성 시스템입니다. 2D 도트 그래픽 리소스 제작과 캐릭터 성장 데이터 관리 시스템이 필요합니다. 밸런스 측면에서는 축복 간의 시너지를 테스트하는 과정이 가장 중요합니다.",
+        "idea_ko": "특정 축복을 조합했을 때만 발동하는 '세트 효과'를 추가하여 전략적 깊이를 더하는 방식이 실현 가능합니다.",
+        "highlights_ko": [
+          "로그라이크의 무작위성과 방치형의 영구 성장을 결합했습니다.",
+          "광고와 인앱 결제가 없는 완전한 유료 모델을 채택했습니다."
+        ],
+        "systems_ko": [
+          "자동 전투 및 이동 제어 시스템",
+          "로그라이크 무작위 축복 생성기",
+          "영구 능력치 강화 및 데이터 저장",
+          "몬스터 도감 및 유물 수집 시스템",
+          "난이도별 밸런스 조정 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "로그라이크 요소와 성장 시스템의 결합은 복잡해 보이지만, 2D 기반의 단순한 전투 로직을 사용하므로 1인이 구현하기에 적절한 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "자동 전투 및 이동 로직",
+            "기본적인 성장 및 강화 시스템",
+            "랜덤 축복 선택 기능"
+          ],
+          "defer": [
+            "다양한 난이도 모드",
+            "복잡한 유물 수집 시스템"
+          ],
+          "risks": [
+            "반복 플레이 시 지루함 발생",
+            "축복 간 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "축복 조합 도감",
+            "concept": "특정 축복들을 조합했을 때 새로운 스킬이 해금되는 시스템입니다.",
+            "first_step": "축복 조합 리스트를 만들고 특정 조건 충족 시 스킬을 활성화하는 로직을 구현합니다."
+          },
+          {
+            "title": "던전 환경 변화",
+            "concept": "던전 층마다 환경 효과(예: 독 안개, 빙판)를 추가하여 이동과 전투에 변수를 줍니다.",
+            "first_step": "특정 구역에 진입 시 캐릭터 스탯이 변하는 환경 효과 시스템을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "로그라이크 게임의 핵심인 '무작위성'과 '성장'의 밸런스를 배우기에 매우 좋은 사례입니다. 1인 개발자에게 적합한 규모와 구조를 가지고 있어 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 전투 계산식이나 축복의 종류, 영구 성장 능력치의 상세 항목은 명시되어 있지 않습니다. 오프라인 세이브 데이터의 관리 방식에 대한 정보도 부족합니다.",
+        "name": "Enlevel Dungeon",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/enlevel-dungeon/id6828269621?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 192,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 16,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-10"
     }
   }
 }

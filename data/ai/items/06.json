@@ -12076,6 +12076,94 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-09"
+    },
+    "itch:9589390e2b5884e17b22": {
+      "app_key": "itch:9589390e2b5884e17b22",
+      "name": "Ace Attorney: Dream Catcher [Free] [Shooter] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://cameliawhisper.itch.io/ace-attorney-dream-catcher",
+      "data_date": "2026-11-10",
+      "analysed_at": "2026-11-10T08:53:04+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Il est temps pour Phoenix Wright de faire face à ses démons",
+      "analysis": {
+        "app_key": "itch:9589390e2b5884e17b22",
+        "summary_ko": "Ace Attorney: Dream Catcher는 피닉스 라이트가 자신의 내면의 악마와 맞서는 슈팅 게임입니다. 원작의 캐릭터를 활용한 2차 창작 성격의 게임으로 추정됩니다.",
+        "features_ko": [
+          "피닉스 라이트 캐릭터를 조작하는 슈팅 게임입니다.",
+          "내면의 악마와 맞서는 테마를 가지고 있습니다."
+        ],
+        "noteworthy_ko": "기존 IP를 활용한 슈팅 게임이라는 점이 흥미롭습니다. 1인 개발 시 원작의 느낌을 살리면서도 슈팅 게임의 재미를 구현하는 것이 관건입니다.",
+        "development_ko": "슈팅 게임의 기본인 탄막 로직과 충돌 판정이 핵심입니다. 캐릭터의 개성을 살린 공격 패턴을 구현하는 것이 제작 부담이 될 수 있습니다.",
+        "idea_ko": "원작의 '이의 있음!' 같은 대사를 슈팅 게임의 필살기 연출로 활용하는 것이 적합합니다.",
+        "highlights_ko": [
+          "유명 캐릭터를 활용한 독특한 장르 변주가 특징입니다.",
+          "심리적인 테마를 슈팅 게임으로 풀어냈습니다."
+        ],
+        "systems_ko": [
+          "플레이어 이동 및 공격 시스템",
+          "적 탄막 패턴 생성",
+          "충돌 판정 시스템",
+          "게임 상태 관리(HP, 점수)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "슈팅 게임은 기본 메커니즘이 정형화되어 있어 구현 난이도는 낮으나, 재미있는 탄막 패턴을 만드는 것은 창의적인 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이동 및 발사",
+            "적 생성 및 이동",
+            "충돌 판정"
+          ],
+          "defer": [
+            "복잡한 스토리 컷신",
+            "다양한 보스 패턴",
+            "사운드 효과"
+          ],
+          "risks": [
+            "저작권 문제",
+            "단조로운 게임 플레이"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "증거물 슈팅",
+            "concept": "증거물을 발사하여 적의 공격을 상쇄하는 시스템입니다. 원작의 법정 공방을 슈팅으로 재해석합니다.",
+            "first_step": "발사체 오브젝트에 '상쇄' 기능을 추가합니다."
+          },
+          {
+            "title": "심리 상태 변화",
+            "concept": "플레이어의 HP가 낮아질수록 화면의 색감이 변하거나 적의 패턴이 더 공격적으로 변합니다.",
+            "first_step": "HP 수치에 따른 포스트 프로세싱 효과를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "슈팅 게임의 기본 메커니즘을 익히기에 좋습니다. 다만, 기존 IP를 사용할 경우 저작권 문제가 발생할 수 있으므로 학습용으로만 활용하는 것을 권장합니다.",
+        "source_limitations_ko": "게임의 구체적인 조작 방식, 탄막의 형태, 스토리 전개 방식에 대한 정보가 없습니다.",
+        "name": "Ace Attorney: Dream Catcher [Free] [Shooter] [Windows]",
+        "source": "itch",
+        "detail_url": "https://cameliawhisper.itch.io/ace-attorney-dream-catcher",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 368,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 4,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-10"
     }
   }
 }

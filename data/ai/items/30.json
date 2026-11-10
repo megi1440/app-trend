@@ -10463,6 +10463,95 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-09"
+    },
+    "itch:16140aa7a30871208ef4": {
+      "app_key": "itch:16140aa7a30871208ef4",
+      "name": "Garden Sort [Free] [Puzzle]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://gridleafstudio.itch.io/garden-sort",
+      "data_date": "2026-11-10",
+      "analysed_at": "2026-11-10T08:53:04+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Sort seedlings into pots, but you may only plant on a matching colour or shape. 100 cozy puzzles.",
+      "analysis": {
+        "app_key": "itch:16140aa7a30871208ef4",
+        "summary_ko": "Garden Sort는 묘목을 화분에 분류하여 배치하는 퍼즐 게임입니다. 같은 색상이나 모양의 화분에만 묘목을 심을 수 있는 규칙을 가지고 있습니다. 총 100개의 아늑한 퍼즐 스테이지를 제공합니다.",
+        "features_ko": [
+          "묘목과 화분을 색상 또는 모양에 맞춰 분류합니다.",
+          "제한된 조건 내에서 올바른 화분을 선택하여 배치합니다.",
+          "총 100개의 퍼즐 레벨을 제공합니다."
+        ],
+        "noteworthy_ko": "색상과 모양이라는 두 가지 속성을 활용한 퍼즐 로직이 흥미롭습니다. 1인 개발 시 100개의 레벨을 효율적으로 생성하기 위한 레벨 에디터나 자동 생성 알고리즘이 중요할 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 그리드 기반의 배치 로직과 조건 검사 시스템입니다. 콘텐츠 제작은 100개의 레벨 디자인이 핵심이며, 난이도 곡선을 유지하는 밸런스 작업이 필요합니다. 퍼즐의 논리적 오류를 방지하기 위한 테스트 자동화가 중요합니다.",
+        "idea_ko": "시간 제한이나 이동 횟수 제한을 추가하여 퍼즐의 긴장감을 높이는 방식이 가장 구현하기 적합합니다.",
+        "highlights_ko": [
+          "색상과 모양을 조합한 직관적인 퍼즐 규칙을 가지고 있습니다.",
+          "100개의 스테이지를 통해 충분한 플레이 타임을 제공합니다."
+        ],
+        "systems_ko": [
+          "그리드 기반 배치 시스템",
+          "조건 검사 로직(색상/모양 매칭)",
+          "레벨 데이터 관리 시스템",
+          "UI/UX 인터랙션"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "퍼즐 로직 자체는 단순하지만, 100개의 레벨을 일관된 난이도로 설계하는 과정에서 많은 시간이 소요됩니다. 1인 개발 시 레벨 디자인의 반복 작업이 가장 큰 부담입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 배치 로직",
+            "색상/모양 매칭 검사",
+            "레벨 로딩 시스템"
+          ],
+          "defer": [
+            "화려한 시각 효과",
+            "사운드 트랙",
+            "레벨 에디터"
+          ],
+          "risks": [
+            "레벨 디자인의 단조로움",
+            "퍼즐 로직의 버그 발생"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "타임 어택 모드",
+            "concept": "제한 시간 내에 최대한 많은 묘목을 분류하는 모드입니다. 콤보 시스템을 도입하여 연속 성공 시 점수를 배가시킵니다.",
+            "first_step": "기존 배치 로직에 타이머 UI를 추가하여 구현합니다."
+          },
+          {
+            "title": "성장 시스템",
+            "concept": "분류된 묘목이 시간이 지나면 꽃으로 피어나는 시각적 보상을 제공합니다. 정원을 꾸미는 요소로 확장 가능합니다.",
+            "first_step": "묘목 오브젝트에 애니메이션 상태 머신을 추가합니다."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 핵심 로직을 설계하고 레벨 디자인의 기초를 배우기에 적합합니다. 단순한 규칙으로도 깊이 있는 퍼즐을 만들 수 있다는 점을 학습할 수 있습니다.",
+        "source_limitations_ko": "소개문에는 게임의 구체적인 조작 방식, 시각적 스타일, 저장 기능, 난이도 상승 곡선에 대한 정보가 없습니다.",
+        "name": "Garden Sort [Free] [Puzzle]",
+        "source": "itch",
+        "detail_url": "https://gridleafstudio.itch.io/garden-sort",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 375,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-10"
     }
   }
 }

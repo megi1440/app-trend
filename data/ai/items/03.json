@@ -11181,6 +11181,188 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-09"
+    },
+    "apple:6823045499": {
+      "app_key": "apple:6823045499",
+      "name": "IvyPod",
+      "developer": "Jeremy Siegel",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/ivypod/id6823045499",
+      "data_date": "2026-11-10",
+      "analysed_at": "2026-11-10T08:55:28+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Listen to your Apple Music collection through an interface inspired by the classic music players of the past - but with much, much more under the hood. While IvyPod features advanced, fine-tuned lighting and haptics to create the illusion of actually holding a dedicated music player, it also contains features that would have never been possible in the past - without compromising simplicity and functionality. Features: - A wheel-based Apple Music player with simple navigation menus - A Genie lamp that can identify music played around you (powered by Shazam) - An immersive rotary-style search wheel - A Clock-based Weather app - A wheel-based Camera and Photo Booth - View your Activity Rings in a carrousel - Mini games that react to your music library - choices in-game affect music playback. - Rubber-band-like scrolling and reactivity with many choices of sounds - Flashlight, Timer, Stopwatch, World Clocks, and Alarms - Create Apple Music stations based on any song in your library - Build playlists by assigning and rating your music collection from 1-5 stars - View your photos and listen to your downloaded podcasts - Screen filters and sleek animations - Color theming and view options; modernize your experience or stick with simplicity - Late-night color and brightness modes to reduce eye stain - Automatic brightness controls which adapt the UI to the time of day. This app also contains: -NO subscriptions -NO in-app purchases -NO advertisements -NO data-collection (opt-in to share diagnostic data to help fix bugs) It is a pay-once, premium experience designed to bring joy to you and your Apple Music collection. Enjoy free updates with new features and abilities.",
+      "analysis": {
+        "app_key": "apple:6823045499",
+        "summary_ko": "IvyPod은 클래식 음악 플레이어 디자인을 차용한 Apple Music 연동 앱입니다. 휠 기반의 인터페이스와 햅틱 피드백을 통해 과거의 음악 플레이어를 사용하는 듯한 경험을 제공합니다. 음악 재생 외에도 날씨, 카메라, 미니 게임 등 다양한 부가 기능을 포함하고 있습니다.",
+        "features_ko": [
+          "휠 기반의 내비게이션 메뉴를 통해 Apple Music 라이브러리를 탐색합니다.",
+          "Shazam 기술을 활용하여 주변 음악을 식별하는 기능을 제공합니다.",
+          "음악 라이브러리와 연동되는 미니 게임을 포함하고 있습니다.",
+          "날씨, 카메라, 사진, 알람 등 다양한 유틸리티 기능을 휠 인터페이스로 구현했습니다.",
+          "햅틱 피드백과 조명 효과를 통해 물리적인 기기를 조작하는 듯한 느낌을 줍니다."
+        ],
+        "noteworthy_ko": "과거의 하드웨어 디자인을 현대적인 소프트웨어로 완벽하게 재현하려는 시도가 흥미롭습니다. 단순한 음악 플레이어를 넘어 다양한 기능을 하나의 일관된 인터페이스로 통합한 점이 돋보입니다.",
+        "development_ko": "휠 기반의 복잡한 UI/UX 구현과 햅틱 피드백 최적화가 핵심입니다. Apple Music API 연동을 통한 음악 재생 제어와 다양한 유틸리티 기능의 통합이 필요합니다. 사용자 경험을 극대화하기 위한 애니메이션과 그래픽 작업이 중요합니다.",
+        "idea_ko": "음악의 비트에 따라 휠의 회전 속도가 변하는 '비트 싱크 휠' 인터페이스 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "클래식 음악 플레이어의 디자인을 현대적으로 재해석하여 독특한 사용자 경험을 제공합니다.",
+          "햅틱 피드백과 시각 효과를 통해 물리적 조작감을 극대화했습니다."
+        ],
+        "systems_ko": [
+          "Apple Music API 연동 시스템",
+          "휠 기반 내비게이션 UI 엔진",
+          "햅틱 피드백 제어 시스템",
+          "유틸리티 기능 통합 모듈",
+          "애니메이션 및 그래픽 렌더링 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 기능을 하나의 일관된 인터페이스로 통합하는 것은 높은 수준의 UI/UX 설계 능력을 요구합니다. 특히 햅틱과 애니메이션의 정교한 구현은 많은 개발 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "음악 라이브러리 연동 및 재생",
+            "휠 UI 기본 구현",
+            "기본적인 햅틱 피드백"
+          ],
+          "defer": [
+            "미니 게임",
+            "카메라 및 사진 기능",
+            "복잡한 테마 커스터마이징"
+          ],
+          "risks": [
+            "UI/UX 구현의 복잡성",
+            "Apple Music API 정책 변경",
+            "햅틱 피드백의 기기별 차이"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "비트 싱크 휠",
+            "concept": "음악의 비트에 맞춰 휠이 미세하게 진동하거나 회전합니다. 음악과 사용자의 조작이 하나가 되는 느낌을 줍니다.",
+            "first_step": "음악의 비트 데이터를 추출하여 햅틱 진동과 동기화하는 프로토타입을 만듭니다."
+          },
+          {
+            "title": "레트로 앨범 아트 갤러리",
+            "concept": "음악을 재생할 때 앨범 아트를 과거의 LP판이나 카세트테이프 디자인으로 변환하여 보여줍니다.",
+            "first_step": "앨범 아트 이미지를 가져와 특정 프레임에 입히는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "사용자 경험(UX)을 극대화하는 인터페이스 설계와 하드웨어 감성을 소프트웨어로 구현하는 방법을 배우기에 아주 좋은 사례입니다. 디자인 중심의 앱 개발을 선호하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "Apple Music API의 사용 범위와 제한 사항에 대한 구체적인 정보는 확인되지 않았습니다.",
+        "name": "IvyPod",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/ivypod/id6823045499",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 210,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 10,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-10"
+    },
+    "apple:6816793607": {
+      "app_key": "apple:6816793607",
+      "name": "GigClick: Metronome, Setlist",
+      "developer": "MATTHEW PETER WHIMP",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/gigclick-metronome-setlist/id6816793607",
+      "data_date": "2026-11-10",
+      "analysed_at": "2026-11-10T08:56:30+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "GigClick is a metronome for musicians, built by a drummer. It gives solo players and full bands a dependable pulse, with meters counted the way musicians feel them and setlists you can run on stage. ROCK SOLID FROM THE FIRST BAR TO THE LAST 20 to 300 BPM, set with the slider, tap tempo or ±1 and ±5 controls. The click keeps playing with the screen locked or the app in the background, and changes apply while it runs. Over Bluetooth headphones and speakers, GigClick measures the delay and shifts the count to match what you hear, and you can save a manual adjustment for each output. METERS COUNTED THE WAY MUSICIANS USE THEM Presets for 2/4, 3/4, 4/4, 5/4, 6/8 and 7/8, with 6/8 counted in two and 7/8 grouped 2+2+2+1. Build custom meters up to 16 with your own grouping, such as 2+2+3 or 3+3+3+2. The BPM always shows which note it counts, so the number means what you expect. SEE THE COUNT A large beat count shows every click, 1 e & a, with the accent flashing in your chosen colour. Full screen mode keeps the count, the current song and the setlist controls in view. SONGS AND SETLISTS YOU CAN RUN ON STAGE • Save the tempo, meter, click pattern, accents and notes for each song, in folders • Give a song a structure: sections that each have their own bars, tempo and meter, changing on the bar • Build setlists, drag to reorder, and step through them with large previous and next controls • See the song notes, your position and the next song while you play • Queue songs on the fly, then save the queue as a setlist • Export any setlist as a printable PDF • Back up and restore your library SHARE ONE CLICK ACROSS THE BAND One device to leads. The others join on the same Wi-Fi network or hotspot by scanning its QR code or entering its address and joining code. Each device plays its own click while the leader controls the tempo, meter and start/stop, and followers see the current song, notes, setlist position and next song. No account or internet server is involved. Session traffic is not encrypted, so avoid sensitive song or setlist notes. PRACTICE • Subdivisions: quarter notes, eighths, triplets or sixteenths • Per-beat accents: make any beat loud, normal or silent, for example a click on 2 and 4 only • Gap training: choose how many bars play and how many are silent, then check where you land • Tempo trainer: let the tempo climb while you play, say +2 BPM every 8 bars • Practice guides: short exercises on subdivisions, gap training, the displaced click and tempo training, each able to set up the metronome for you MAKE IT YOURS Classic, Woodblock or Soft click sounds, click volume, six accent colours and beat-flash strength. Audio, visual or combined output. A dark interface made for dark stages. PAY ONCE. NO ADS. NO ACCOUNT. No subscriptions and no tracking. GigClick collects no data, and your library stays on your device.",
+      "analysis": {
+        "app_key": "apple:6816793607",
+        "summary_ko": "드러머가 직접 만든 뮤지션용 메트로놈 및 셋리스트 관리 앱입니다. 다양한 박자 설정과 템포 훈련 기능을 제공하며, 여러 기기를 Wi-Fi로 연결하여 밴드 전체가 동일한 클릭을 공유할 수 있습니다. 공연 현장에서 사용하기 최적화된 인터페이스를 갖추고 있습니다.",
+        "features_ko": [
+          "20~300 BPM 범위의 정밀한 메트로놈 기능을 제공합니다.",
+          "다양한 박자(2/4, 3/4, 4/4 등)와 커스텀 박자 그룹을 지원합니다.",
+          "곡별 템포, 박자, 구조를 저장하고 셋리스트로 구성합니다.",
+          "Wi-Fi를 통해 여러 기기를 연결하여 밴드 전체가 클릭을 공유합니다."
+        ],
+        "noteworthy_ko": "밴드 멤버 간의 실시간 동기화 기술이 가장 흥미롭습니다. 네트워크 지연을 최소화하고 정확한 박자를 유지하는 기술적 구현이 1인 개발자에게는 도전적인 과제일 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 오디오 엔진과 네트워크 동기화입니다. 콘텐츠 제작보다는 정확한 타이밍을 유지하는 오디오 프로그래밍 부담이 큽니다. 현장 공연용 앱이므로 다양한 환경에서의 네트워크 안정성 테스트가 필수적입니다.",
+        "idea_ko": "개인 연습용으로 특화하여, 연습 기록을 그래프로 보여주고 성취감을 주는 '연습 기록장' 기능 추가를 추천합니다.",
+        "highlights_ko": [
+          "공연 중에도 조작이 쉬운 대형 버튼과 직관적인 인터페이스.",
+          "밴드 전체가 하나의 클릭을 공유하는 동기화 기능."
+        ],
+        "systems_ko": [
+          "고정밀 오디오 엔진",
+          "네트워크 동기화 모듈(Wi-Fi)",
+          "셋리스트 데이터 관리 시스템",
+          "사용자 설정 저장(로컬)",
+          "UI/UX(공연용 다크 모드)"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "정확한 박자를 유지하는 오디오 엔진 구현과 여러 기기 간의 실시간 네트워크 동기화는 매우 높은 기술적 난이도를 요구합니다. 공연 현장에서의 신뢰성이 중요하므로 개발 부담이 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 메트로놈 기능",
+            "박자 설정 기능",
+            "셋리스트 저장 기능"
+          ],
+          "defer": [
+            "기기 간 실시간 동기화",
+            "PDF 내보내기",
+            "고급 템포 훈련 모드"
+          ],
+          "risks": [
+            "오디오 타이밍 오차 발생",
+            "네트워크 연결 불안정성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "연습 챌린지 메트로놈",
+            "concept": "매일 연습 시간을 기록하고, 목표 BPM에 도달하면 배지를 주는 게이미피케이션 요소가 포함된 메트로놈입니다.",
+            "first_step": "연습 시간 측정 및 기록 저장 기능 구현."
+          },
+          {
+            "title": "악기 튜너 겸용 메트로놈",
+            "concept": "메트로놈과 튜너를 한 화면에서 전환하며 사용할 수 있는 올인원 뮤지션 도구입니다.",
+            "first_step": "마이크 입력을 통한 튜닝 기능과 메트로놈 기능 통합."
+          }
+        ],
+        "recommendation_ko": "오디오 프로그래밍과 실시간 네트워크 통신을 깊이 있게 배우고 싶은 개발자에게 추천합니다. 다만, 공연용 앱인 만큼 높은 수준의 안정성 확보가 필요합니다.",
+        "source_limitations_ko": "네트워크 동기화의 구체적인 프로토콜이나 오디오 엔진의 구현 방식에 대한 정보는 없습니다.",
+        "name": "GigClick: Metronome, Setlist",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/gigclick-metronome-setlist/id6816793607",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-10"
     }
   }
 }

@@ -11624,6 +11624,95 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-09"
+    },
+    "google:com.whitetigerstudio.hanafuda": {
+      "app_key": "google:com.whitetigerstudio.hanafuda",
+      "name": "花札・こいこい",
+      "developer": "White Tiger Studio",
+      "source": "google",
+      "country": "JP",
+      "category": "game_board",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.whitetigerstudio.hanafuda&hl=ja&gl=JP",
+      "data_date": "2026-11-10",
+      "analysed_at": "2026-11-10T08:57:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "手札の花と場札の花を合わせてそれを自分の札とし、獲得した札で出来役を成立させて得られる得点を競う、「めくり」系のゲームであるが、札の点数を計算しないこと、「こい」による競技継続の選択があることなどに特徴がある。 他の花札ゲームにくらべて歴史はそれほど古くない（一般に知られるようになったのは、昭和にはいってから）が、現在は花札のもっとも代表的な遊び方になっている。 ルールは一般的な、花札のこいこいと同じです。 花札のこいこいです。ＣＰＵと対戦します。 設定可能なルール • 対戦相手 （最弱，普通，最强） • 対戦方式 （3か月、6か月、12ヶ月） • 月見・花見酒 • こい倍返し • 7文以上は得点2倍 • 手四・くっつき 価格 • 完全無料",
+      "analysis": {
+        "app_key": "google:com.whitetigerstudio.hanafuda",
+        "summary_ko": "화투·고스톱은 CPU와 대전하는 전통 카드 게임입니다. 손에 든 패와 바닥에 깔린 패를 맞춰 족보를 완성하고 점수를 겨루는 방식입니다. '고'와 '스톱'을 선택하여 전략적으로 게임을 운영할 수 있습니다. 난이도 설정과 다양한 규칙 옵션을 제공하여 사용자의 취향에 맞게 플레이할 수 있습니다.",
+        "features_ko": [
+          "CPU와 대전하며 족보를 완성하여 점수를 획득합니다.",
+          "고와 스톱을 선택하여 게임 지속 여부를 결정합니다.",
+          "최약, 보통, 최강 등 CPU 난이도를 설정할 수 있습니다.",
+          "달맞이, 꽃놀이 등 다양한 규칙 옵션을 적용할 수 있습니다.",
+          "3개월, 6개월, 12개월 등 대전 방식을 선택할 수 있습니다."
+        ],
+        "noteworthy_ko": "전통적인 카드 게임 규칙을 디지털 환경으로 옮긴 사례입니다. 개발 관점에서는 족보 판정 알고리즘과 CPU의 전략적 판단(고/스톱 결정) 로직을 구현하는 것이 흥미로운 과제입니다.",
+        "development_ko": "화투의 복잡한 족보 판정 로직을 정확하게 구현하는 것이 핵심입니다. CPU의 인공지능은 단순한 확률 기반에서 시작하여 점차 전략적인 판단을 하도록 고도화할 수 있습니다. UI는 직관적인 카드 선택과 애니메이션 처리가 중요합니다.",
+        "idea_ko": "전통적인 족보 외에, 특정 테마의 패를 모으면 추가 점수를 주는 '미션 카드 시스템'을 제안합니다.",
+        "highlights_ko": [
+          "다양한 규칙 옵션과 난이도 설정을 통한 맞춤형 대전.",
+          "전통적인 고스톱 규칙을 충실히 구현한 게임성."
+        ],
+        "systems_ko": [
+          "화투 패 셔플 및 분배 알고리즘",
+          "족보 판정 엔진",
+          "CPU 전략 판단 로직",
+          "게임 상태 관리(점수, 턴)",
+          "UI 이벤트 처리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "게임 규칙이 복잡하지만 로직이 정형화되어 있어 구현 가능하며, CPU 인공지능의 수준을 조절하여 난이도를 관리할 수 있기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카드 분배 및 바닥 패 로직",
+            "족보 판정 로직",
+            "기본 대전 UI"
+          ],
+          "defer": [
+            "다양한 규칙 옵션",
+            "고도화된 CPU 인공지능"
+          ],
+          "risks": [
+            "족보 판정 로직의 오류로 인한 게임 불공정성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "미션 고스톱",
+            "concept": "매 판마다 특정 패를 모으는 미션을 부여합니다. 미션 성공 시 점수를 배로 획득합니다.",
+            "first_step": "미션 체크 로직과 점수 계산 시스템을 연동합니다."
+          },
+          {
+            "title": "역사 속 화투",
+            "concept": "화투 패의 디자인을 역사적 인물이나 사건으로 변경하여 교육적인 요소를 가미합니다.",
+            "first_step": "카드 이미지 리소스 교체 및 설명 텍스트 추가 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "규칙 기반의 게임 로직과 인공지능의 기초를 배우기에 아주 좋습니다. 전통 게임을 현대적으로 재해석하는 연습을 하기에 적합합니다.",
+        "source_limitations_ko": "소개문에는 완전 무료라고 명시되어 있으나, 실제 수익 모델이나 데이터 수집 여부에 대한 정보는 없습니다.",
+        "name": "花札・こいこい",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.whitetigerstudio.hanafuda&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-10"
     }
   }
 }
