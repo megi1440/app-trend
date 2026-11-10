@@ -11723,6 +11723,95 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-10"
+    },
+    "google:com.exto.arrow": {
+      "app_key": "google:com.exto.arrow",
+      "name": "Atlas - Rewards Credit Card",
+      "developer": "Exto Inc.",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.exto.arrow&hl=en&gl=US",
+      "data_date": "2026-11-11",
+      "analysed_at": "2026-11-11T06:37:13+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Atlas is a rewards credit card with 4x higher approval rates than traditional credit cards. It’s designed to be easy to get even without an existing credit history. EASY AND ACCESSIBLE 4x higher approval rates than traditional credit cards. Get approved instantly without leaving the app. GROWS WITH YOU Connect with 10,000+ banks to determine a safe spending limit you can easily repay without building up a balance. 0% APR ensures you never pay interest. Keep using the card to get higher limits. SAVES YOU MONEY Automatically save up to 10% at 50,000+ locations of places you love. These include Starbucks, Nike, DoorDash, Shake Shack, Burger King and more. We are always adding national and local savings. BUILDS YOUR CREDIT You will start building credit with daily transactions. Built in auto-pay ensures that you never have to worry about missing a payment. Track your score in the app and watch it progress on auto-pilot. Atlas reports to all 3 major credit bureaus - Equifax, Experian and Transunion. SAFE AND SECURE Shut down shady transactions by blocking your card anytime. You also get complete fraud protection that only credit cards offer. Atlas is built with industry leading security best practices in partnership with Patriot Bank and Mastercard. NO HIDDEN FEES Simple pricing: only $8.99 every 4 weeks, or $89/year in the annual plan. No other hidden, or surprise fees. — Atlas is a financial technology company and state licensed lender, not a bank. Banking services provided by Academy Bank, N.A., Member FDIC. The Atlas Mastercard is issued by our bank partners Patriot Bank N.A. and Academy Bank N.A., pursuant to a license from MasterCard® International Incorporated. Membership fee, new member program and bonus terms apply, see atlasfin.com/policies for details. For consolidated bonus and reward terms, see ​​atlasfin.com/policies/rewards. The Atlas Card is optional, with an Interest Rate of 0% APR. Credit and Spend Power offered will vary over time. Average 50 point increase in credit score based on 2024 data. Improvement in your credit score is based on your specific situation and financial behavior. Loan services offered through Exto Inc., NMLS ID # 2526784 | Read licenses at https://www.atlasfin.com/atlas-licenses. Services may not be available in all states. Atlas, 600 California St., Floor 11, San Francisco, CA 94108.",
+      "analysis": {
+        "app_key": "google:com.exto.arrow",
+        "summary_ko": "Atlas는 기존 신용카드보다 높은 승인율을 제공하는 리워드 신용카드 앱입니다. 신용 기록이 없어도 승인이 가능하며, 0% APR과 자동 결제 기능을 통해 신용 점수 향상을 돕습니다.",
+        "features_ko": [
+          "신용 기록 없이도 즉시 승인 가능한 신용카드 서비스를 제공합니다.",
+          "10,000개 이상의 은행과 연동하여 안전한 지출 한도를 설정합니다.",
+          "0% APR을 적용하여 이자 부담 없이 카드를 사용할 수 있습니다.",
+          "50,000개 이상의 매장에서 최대 10% 자동 할인을 제공합니다.",
+          "주요 신용 평가 기관에 거래 내역을 보고하여 신용 점수 향상을 돕습니다."
+        ],
+        "noteworthy_ko": "금융 기술(FinTech)과 신용 평가 모델을 결합한 서비스입니다. 사용자의 금융 데이터를 분석하여 한도를 설정하는 로직이 핵심이며, 보안과 신뢰성이 가장 중요한 요소입니다.",
+        "development_ko": "금융 API 연동(Plaid 등)과 보안 인증이 핵심입니다. 신용 평가 기관과의 데이터 통신 규격 준수가 필수적이며, 금융 사고 방지를 위한 강력한 보안 아키텍처가 필요합니다.",
+        "idea_ko": "개인의 소비 패턴을 분석하여 저축 목표를 자동으로 설정해주는 금융 보조 기능.",
+        "highlights_ko": [
+          "신용 기록이 부족한 사용자도 이용 가능한 금융 서비스입니다.",
+          "자동 결제 및 신용 점수 추적 기능을 통해 금융 습관 개선을 지원합니다."
+        ],
+        "systems_ko": [
+          "금융 데이터 연동 API",
+          "신용 평가 및 한도 산정 알고리즘",
+          "보안 결제 및 거래 모니터링 시스템",
+          "신용 평가 기관 데이터 보고 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "금융 서비스는 법적 규제와 보안 요구사항이 매우 엄격합니다. 개인 개발자가 금융 라이선스 없이 구현하는 것은 불가능하며, 데이터 보안 책임이 매우 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 인증 및 프로필 관리",
+            "거래 내역 조회 UI",
+            "신용 점수 시각화 대시보드"
+          ],
+          "defer": [
+            "금융 API 연동",
+            "실제 카드 결제 처리"
+          ],
+          "risks": [
+            "개인 금융 정보 유출",
+            "법적 규제 위반"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "가상 예산 관리자",
+            "concept": "실제 금융 연동 없이 사용자가 직접 지출을 입력하고 예산을 관리하는 시뮬레이션 앱입니다.",
+            "first_step": "지출 항목 입력 및 카테고리별 통계 시각화 구현."
+          },
+          {
+            "title": "신용 점수 시뮬레이터",
+            "concept": "사용자의 소비 습관을 입력하면 가상의 신용 점수 변화를 예측해주는 교육용 도구입니다.",
+            "first_step": "신용 점수 계산 로직(가상) 설계 및 결과 출력 구현."
+          }
+        ],
+        "recommendation_ko": "금융 앱의 UI/UX와 데이터 시각화 방식을 배우기에 좋습니다. 하지만 실제 금융 서비스 구현은 전문적인 인프라와 법적 검토가 필요하므로 학습용으로만 접근해야 합니다.",
+        "source_limitations_ko": "실제 금융 데이터 연동 방식, 신용 평가 알고리즘의 세부 로직, 파트너 은행과의 데이터 통신 방식은 확인할 수 없습니다.",
+        "name": "Atlas - Rewards Credit Card",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.exto.arrow&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 98,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-11"
     }
   }
 }

@@ -11022,6 +11022,366 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-10"
+    },
+    "itch:9fec2c6a29d63ba8a277": {
+      "app_key": "itch:9fec2c6a29d63ba8a277",
+      "name": "Pizza Magna [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://aruvez.itch.io/pizza-magna",
+      "data_date": "2026-11-11",
+      "analysed_at": "2026-11-11T06:32:18+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Run a 90s pixel-art pizzeria: invent pizzas, set prices, beat the rival.",
+      "analysis": {
+        "app_key": "itch:9fec2c6a29d63ba8a277",
+        "summary_ko": "90년대 스타일의 픽셀 아트 피자 가게 경영 시뮬레이션 게임입니다. 플레이어는 자신만의 피자를 개발하고 가격을 설정하며, 경쟁자와 대결하며 가게를 운영합니다. 레트로한 분위기 속에서 경영 전략을 시험하는 경험을 제공합니다.",
+        "features_ko": [
+          "자신만의 피자 레시피를 직접 개발할 수 있습니다.",
+          "판매할 피자의 가격을 설정하여 수익을 관리합니다.",
+          "경쟁자와의 대결을 통해 시장 점유율을 다툽니다."
+        ],
+        "noteworthy_ko": "90년대 감성을 살린 픽셀 아트 스타일이 경영 시뮬레이션의 몰입감을 높입니다. 경영 요소와 경쟁 시스템을 결합하여 단순한 요리 게임 이상의 전략적 재미를 추구한 것으로 보입니다.",
+        "development_ko": "데이터 기반의 경영 시스템과 레시피 조합 로직이 핵심입니다. 픽셀 아트 에셋 제작과 UI/UX 구성에 시간이 소요될 것으로 보이며, 경쟁자 AI의 난이도 밸런싱이 중요합니다.",
+        "idea_ko": "특정 재료 조합에 따른 피자 인기도를 시뮬레이션하는 시스템을 먼저 구현하는 것이 좋습니다.",
+        "highlights_ko": [
+          "90년대 레트로 픽셀 아트 스타일을 채택했습니다.",
+          "경영 시뮬레이션과 경쟁 요소를 결합했습니다."
+        ],
+        "systems_ko": [
+          "재료 조합 및 레시피 데이터 관리 시스템",
+          "가격 및 수익 계산 경제 엔진",
+          "경쟁자 AI 행동 패턴",
+          "가게 운영 UI 및 상호작용 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "경영 시뮬레이션의 기본 로직은 명확하지만, 다양한 레시피 조합과 경쟁자 AI의 밸런스를 맞추는 과정에서 복잡도가 발생할 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "피자 레시피 생성 시스템",
+            "가격 설정 및 판매 수익 계산 로직"
+          ],
+          "defer": [
+            "복잡한 경쟁자 AI 애니메이션",
+            "다양한 가게 인테리어 커스터마이징"
+          ],
+          "risks": [
+            "재료 조합에 따른 밸런스 붕괴",
+            "반복적인 게임 플레이의 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "계절별 재료 선호도 시스템",
+            "concept": "계절마다 손님들이 선호하는 재료가 달라지는 시스템입니다. 특정 계절에만 구할 수 있는 재료를 활용해 전략적 선택을 유도합니다.",
+            "first_step": "계절 변수와 재료별 인기도 가중치를 적용한 간단한 판매량 계산 로직 구현."
+          },
+          {
+            "title": "피자 배달 미니게임",
+            "concept": "피자를 만든 후 제한 시간 내에 배달하는 간단한 아케이드 요소를 추가합니다. 배달 성공 여부가 가게 평판에 영향을 줍니다.",
+            "first_step": "간단한 장애물 피하기 이동 로직과 타이머 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "경영 시뮬레이션의 데이터 구조와 경제 시스템을 학습하기에 좋습니다. 픽셀 아트와 게임 로직을 결합하는 연습을 하려는 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 경영 방식, 경쟁 시스템의 작동 원리, 게임의 승리 조건 등은 확인되지 않습니다.",
+        "name": "Pizza Magna [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://aruvez.itch.io/pizza-magna",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 308,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-11"
+    },
+    "apple:6746332353": {
+      "app_key": "apple:6746332353",
+      "name": "리락쿠마와 스미코구라시 - Tadaima",
+      "developer": "株式会社イエローブルー",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_simulation",
+      "detail_url": "https://apps.apple.com/kr/app/%EB%A6%AC%EB%9D%BD%EC%BF%A0%EB%A7%88%EC%99%80-%EC%8A%A4%EB%AF%B8%EC%BD%94%EA%B5%AC%EB%9D%BC%EC%8B%9C-tadaima/id6746332353?uo=2",
+      "data_date": "2026-11-11",
+      "analysed_at": "2026-11-11T06:33:55+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "패션 인형이 되어 리락쿠마와 스미코구라시를 비롯한 San-X 인기 캐릭터의 봉제인형들과 함께 놀아 봐요! 【스토리】 거리 한구석에 있는 장난감 가게에서 만난 소중한 '패션 인형'과 '봉제인형'. 다정한 주인은 온화한 목소리로 이렇게 말했습니다. \"\"이 아이들을 소중히 아껴 줘. 마음을 나누면 분명 특별한 일이 일어날 거야.\"\" 그리고 시간이 흘러... 어느 날 밤, 창가에 놓아둔 인형이 은은하게 빛나기 시작했습니다. 손을 뻗어 살며시 만진 순간, 아주 신기한 일이 일어났습니다. ■ 패션 인형이 되어 귀여운 봉제인형을 만나러 가요 봉제인형이 신나 하거나 들뜨고, 때로는 삐치거나 화를 내는 등 다양한 표정을 보여 줘요. 쓰다듬어 주고, 함께 나들이를 가고, 기념사진도 찍으며 귀여운 봉제인형과 소중한 추억을 만들어 보세요! ■ 다양한 봉제인형을 맞이해요 새로운 봉제인형이 매주 출시될 예정이에요. 리락쿠마와 스미코구라시뿐만 아니라 다양한 San-X 캐릭터가 계속해서 등장해요. ■ 아이템을 모아 패션 인형과 마이 룸을 꾸며 봐요 패션 인형의 옷은 물론, 봉제인형과 함께 지내는 마이 룸(돌하우스)의 아이템도 매주 업데이트돼요. 봉제인형과 시밀러룩을 맞추거나, 좋아하는 것들로 가득 채운 인테리어로 방을 꾸미며 나만의 코디를 즐겨 보세요! ■ 좋아하는 코디로 봉제인형과 함께 나들이를 떠나요 'Tadaima'의 세계에서 많은 친구를 사귀고, 친구를 만나러 가 보세요. 다양한 디자인의 패션 아이템과 마이 룸 아이템이 여러분을 기다리고 있어요! ※ 앱 다운로드는 무료입니다. ※ 일부 유료 콘텐츠가 포함되어 있습니다. ※ 확률형 아이템이 포함되어 있습니다. ※ 플레이 시 인터넷 연결이 필요하며, 데이터 통신료가 발생할 수 있습니다. 【이용약관】 https://app.tadaima.info/htmls/terms_of_service.html © 2025 San-X Co., Ltd. All Rights Reserved. Supported and Licensed by Imagineer © 2025 YELLOWBLUE Inc. All Rights Reserved.",
+      "analysis": {
+        "app_key": "apple:6746332353",
+        "summary_ko": "리락쿠마와 스미코구라시 - Tadaima는 San-X 캐릭터 봉제인형들과 교감하며 방을 꾸미는 시뮬레이션 게임입니다. 플레이어는 패션 인형이 되어 인형들과 추억을 쌓고, 다양한 아이템으로 마이 룸을 장식합니다. 귀여운 캐릭터들과 상호작용하며 나만의 코디를 즐기는 힐링 경험을 제공합니다.",
+        "features_ko": [
+          "봉제인형의 다양한 표정과 감정 변화를 관찰하고 상호작용합니다.",
+          "봉제인형과 함께 나들이를 가거나 기념사진을 촬영합니다.",
+          "매주 업데이트되는 다양한 봉제인형을 수집할 수 있습니다.",
+          "패션 아이템과 마이 룸 인테리어 아이템을 자유롭게 꾸밉니다.",
+          "봉제인형과 시밀러룩을 맞추는 코디 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "캐릭터 IP를 활용하여 사용자의 감성적 애착을 유도하는 방식이 돋보입니다. 인형의 감정 변화를 시각화하여 사용자와의 정서적 유대를 강화하는 시스템은 캐릭터 수집형 게임의 핵심적인 개발 포인트입니다.",
+        "development_ko": "캐릭터 애니메이션과 다양한 코스튬 에셋 제작이 핵심입니다. 마이 룸 꾸미기 시스템을 위한 배치 로직과 데이터 저장 구조가 필요합니다. 정기적인 업데이트를 위해 에셋 관리 파이프라인을 효율적으로 구축하는 것이 중요합니다.",
+        "idea_ko": "캐릭터들이 사용자의 일상 활동(예: 공부, 독서)을 응원해 주는 '캐릭터 기반 생산성 타이머' 기능을 제안합니다.",
+        "highlights_ko": [
+          "San-X 인기 캐릭터를 활용한 높은 캐릭터성.",
+          "봉제인형과 사용자의 코디를 맞추는 시밀러룩 시스템."
+        ],
+        "systems_ko": [
+          "캐릭터 상호작용 및 감정 상태 관리 시스템",
+          "아이템 배치 및 인테리어 편집 시스템",
+          "코스튬 데이터 관리 및 레이어링 시스템",
+          "데이터 저장 및 서버 동기화",
+          "주간 업데이트를 위한 콘텐츠 배포 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "핵심 메커니즘은 캐릭터 상호작용과 꾸미기 요소로, 기술적 난이도보다는 아트 에셋의 퀄리티와 수량이 개발의 성패를 좌우합니다. 1인 개발 시 에셋 제작 시간을 고려하여 범위를 조절하면 구현 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 터치 상호작용 기능",
+            "기본적인 방 꾸미기 및 아이템 배치 기능",
+            "캐릭터 코스튬 변경 기능"
+          ],
+          "defer": [
+            "주간 업데이트 시스템",
+            "멀티플레이어 소셜 기능",
+            "복잡한 사진 공유 기능"
+          ],
+          "risks": [
+            "캐릭터 IP 사용에 따른 저작권 문제",
+            "아트 에셋 제작의 높은 노동 강도"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "캐릭터 일상 기록장",
+            "concept": "캐릭터들이 사용자의 하루를 일기 형식으로 기록해 주는 다이어리 앱입니다.",
+            "first_step": "사용자 입력 텍스트를 기반으로 캐릭터가 반응하는 간단한 텍스트 봇 구현."
+          },
+          {
+            "title": "인형 옷 입히기 퍼즐",
+            "concept": "주어진 테마에 맞춰 캐릭터에게 옷을 입히는 코디 퍼즐 게임입니다.",
+            "first_step": "캐릭터 이미지 위에 옷 이미지를 겹쳐서 보여주는 레이어링 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "캐릭터 기반의 UI/UX 설계와 에셋 관리 방식을 배우기에 적합합니다. 다만, IP 기반 게임은 저작권 문제가 중요하므로 독창적인 캐릭터를 활용한 연습을 추천합니다.",
+        "source_limitations_ko": "소개문에는 유료 콘텐츠의 상세 구성, 확률형 아이템의 로직, 서버 통신 방식이 명시되어 있지 않습니다. 실제 서비스 운영을 위한 백엔드 구조는 확인이 필요합니다.",
+        "name": "리락쿠마와 스미코구라시 - Tadaima",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EB%A6%AC%EB%9D%BD%EC%BF%A0%EB%A7%88%EC%99%80-%EC%8A%A4%EB%AF%B8%EC%BD%94%EA%B5%AC%EB%9D%BC%EC%8B%9C-tadaima/id6746332353?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 183,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-11"
+    },
+    "google:com.solou.catendless.run": {
+      "app_key": "google:com.solou.catendless.run",
+      "name": "Cat Runner: Decorate Home",
+      "developer": "Ivy",
+      "source": "google",
+      "country": "US",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.solou.catendless.run&hl=en&gl=US",
+      "data_date": "2026-11-11",
+      "analysed_at": "2026-11-11T06:34:40+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Cat runner is the cat running game. Decorate your home for free! From the Living to bedroom or many other rooms, you can design and decorate everything with you loving！ Enjoy hours of fun with your loved cat, run to collect gold coins after being robbed in this endless runner game! Explore new worlds, only racing with fast speed. go on a running adventure, dodge fast cars and trains as you go after the robber. It is very easy to control, run as fast as you can, rush in the endless city scene. Be careful to avoid carrier, collect more and more coins and buy more props. There are many pet to choose, cat, unicorn and dog. Every pet runner have unique style. Take your liked pet to get the first runner. Original running mode, endless mode and athletics-online rush. In the athletics mode, you can get chests and surprise to observe the gift, diamond, coins or props. Upgrade your props, MEGA HEADSTART, score booster, hoverboard. Competing mode is very exciting and fun, rush with world players, observe the prize. Challenge the cat runner levels, enjoy the home-room decorate. Make your home here, more decorative options, design different home. Run as fast as you can. Get more and more coins to design. Cat Runner-Decorate Home Features: .Cat runner 3D game .Decorate home you liked .More decorative options .Interested design you room .Online Rush with rivals .More scenery to rush .Get more and more coins .Run as fast as you can .Be careful to avoid the barrier .Upgrade the props, magnet, 2*multiples and jetpack .Suitable for all ages .Interesting background .Sensitive control Cat Runner: Decorate Home has already started, download it and rush in the endless city.",
+      "analysis": {
+        "app_key": "google:com.solou.catendless.run",
+        "summary_ko": "Cat Runner: Decorate Home은 고양이가 주인공인 끝없는 달리기 게임과 집 꾸미기 요소가 결합된 게임입니다. 플레이어는 장애물을 피하며 골드를 모으고, 이를 사용하여 다양한 방을 디자인하고 꾸밀 수 있습니다. 여러 캐릭터 선택과 온라인 경쟁 모드를 통해 즐길 거리를 제공합니다.",
+        "features_ko": [
+          "장애물을 피하며 달리는 끝없는 러닝 게임을 즐깁니다.",
+          "게임 중 획득한 골드로 집의 다양한 공간을 꾸밉니다.",
+          "고양이, 유니콘, 강아지 등 다양한 캐릭터를 선택합니다.",
+          "온라인 경쟁 모드를 통해 전 세계 플레이어와 실력을 겨룹니다.",
+          "자석, 제트팩 등 다양한 아이템을 업그레이드합니다."
+        ],
+        "noteworthy_ko": "러닝 게임의 긴장감과 하우징 시스템의 성취감을 결합하여 사용자 유지율을 높인 점이 흥미롭습니다. 두 장르의 조화가 게임의 핵심 재미 요소입니다.",
+        "development_ko": "핵심 기술은 러닝 게임의 절차적 맵 생성과 캐릭터 컨트롤러 구현입니다. 하우징 시스템은 데이터 저장과 UI 배치가 중요합니다. 다양한 캐릭터와 아이템의 밸런스를 맞추는 작업이 콘텐츠 제작의 주된 부담입니다.",
+        "idea_ko": "달리기 게임에서 얻은 재화로 나만의 정원을 가꾸는 '러닝 가드닝' 게임 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "러닝 게임과 하우징 시스템을 결합하여 독특한 사용자 경험을 제공합니다.",
+          "온라인 경쟁 모드를 통해 게임의 지속적인 재미를 유도합니다."
+        ],
+        "systems_ko": [
+          "러닝 게임 엔진(캐릭터 컨트롤러)",
+          "절차적 맵 생성 시스템",
+          "하우징 데이터 관리 시스템",
+          "온라인 멀티플레이어 매칭",
+          "아이템 및 업그레이드 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "러닝 게임의 기본 로직은 구현하기 쉬우나, 하우징 시스템과의 연동 및 온라인 경쟁 모드 구현에는 추가적인 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 러닝 게임 로직",
+            "골드 획득 및 저장",
+            "간단한 가구 배치 시스템"
+          ],
+          "defer": [
+            "온라인 경쟁 모드",
+            "다양한 캐릭터 커스터마이징",
+            "복잡한 하우징 옵션"
+          ],
+          "risks": [
+            "러닝 게임의 반복적인 재미 부족",
+            "하우징 시스템의 최적화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "러닝 가드닝",
+            "concept": "달리기 게임에서 획득한 씨앗과 물로 나만의 정원을 가꿉니다. 정원이 성장하면 새로운 캐릭터나 능력을 얻을 수 있습니다.",
+            "first_step": "달리기 게임에서 아이템을 획득하고 이를 정원 화면에 반영하는 시스템을 만듭니다."
+          },
+          {
+            "title": "펫 하우스 러너",
+            "concept": "달리기 게임을 통해 펫의 집을 꾸며주고, 펫과 함께 달리는 모험을 떠납니다. 펫마다 고유한 능력을 부여하여 전략을 더합니다.",
+            "first_step": "펫 캐릭터를 선택하고 집을 꾸미는 기본 UI를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "러닝 게임과 하우징 시스템을 결합하는 기획을 배우기에 좋습니다. 개인 개발자가 재미있는 요소를 적절히 섞어 완성도 있는 게임을 만들기에 적합합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 구체적인 물리 엔진 사용 여부, 온라인 경쟁 모드의 네트워크 동기화 방식은 확인할 수 없습니다.",
+        "name": "Cat Runner: Decorate Home",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.solou.catendless.run&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-11"
+    },
+    "google:com.skplanet.ocb.locker": {
+      "app_key": "google:com.skplanet.ocb.locker",
+      "name": "오락: 돈 버는 운동 앱테크. 만보기. 기프티콘",
+      "developer": "에스케이플래닛(주)",
+      "source": "google",
+      "country": "KR",
+      "category": "app_health_fitness",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.skplanet.ocb.locker&hl=ko&gl=KR",
+      "data_date": "2026-11-11",
+      "analysed_at": "2026-11-11T06:36:21+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "어차피 하는 스쿼트·걷기, 이제 기프티콘으로 바꾸세요! 운동 Beta 오픈! 스쿼트 50개 하면 기프티콘 1,000원 즉시 지급! 걷기만 해도 광고 없이 포인트 적립, 1P는 그대로 1원! 모은 포인트, 원하는 기프티콘으로 바로 교환! ■ 오락 앱테크, 이래서 다릅니다 1. 운동하고 기프티콘까지! (NEW) 운동 탭에서 스쿼트 50개만 완료하면 기프티콘 1,000원을 즉시 드립니다. 오늘부터 운동도 적립도 한 번에! 2. 광고 없이 걷기만 해도 적립, 광고 보면 2배! 걸음 수만 쌓여도 포인트가 들어옵니다. 광고 시청은 어디까지나 선택, 볼 때만 적립이 2배! 3. 1P=1원, 꼼수 없는 포인트! 복잡한 환산도, 숨은 조건도 없이. 쌓인 그대로 기프티콘 즉시 교환! 4. 하루 2만 걸음까지 넉넉하게! 1만 보에서 끊기는 만보기는 그만. 많이 걸은 만큼 챙겨드립니다. 5. 잠금화면 켤 때마다 파워와 포인트! 앱을 따로 열 필요도 없이, 화면만 켜도 바로 적립! 6. 파워 모아 최대 1,000P 당첨! 걸음마다 쌓이는 파워로 랜덤 뽑기 도전, 한 방 더! 7. 출석체크만 해도 매일 기프티콘 1,000명! 매일 열리는 출석 기프티콘 뽑기, 오늘의 주인공이 되어보세요! ■ 이런 분께 딱! - 어차피 하는 스쿼트·홈트, 운동한 김에 기프티콘까지 챙기고 싶은 분 - 운동 습관도 만들고 보상도 함께 받고 싶은 분 - 출퇴근길 걸음 수를 그냥 흘려보내던 분 - 광고만 보는 앱테크에 지친 분 - 포인트는 쌓이는데 교환이 안 되는 만보기 앱테크에 실망한 분 - 커피 한 잔 값이라도 기프티콘으로 챙기고 싶은 분 - 걷기 운동과 포인트 적립을 한 번에 하고 싶은 분 지금 바로 걷고, 운동하고, 기프티콘 받아가세요! * 편리한 서비스 이용을 위해 아래의 접근권한을 필요로 합니다. [필수 접근 권한] · 전화 : 잠금화면 사용 시 전화 수신 [선택 접근 권한] · 위치 : 날씨 서비스를 위한 위치 확인 · 신체활동 : 걸음 수 측정을 위한 신체 활동 확인 · 알림 : 혜택 및 정보 푸시 수신 · 선택 권한은 허용하지 않아도 서비스를 이용할 수 있으며, 휴대폰 설정 메뉴에서 언제든 변경할 수 있습니다. * 선택 접근권한 철회 방법 : https://url.kr/krRdJW · 안드로이드 6.0 미만 버전을 사용하시는 경우에는 선택 접근권한의 동의 및 철회 기능이 어렵습니다. [인증 안내] · 14세 미만 미성년 대상 구글 광고 정책이 강화됨에 따라 광고 기반의 오락 앱 서비스는 만 14세 이상 고객만 인증할 수 있습니다. ---- 개발자 연락처 : SK Planet Co., Ltd. 264 Pangyo-ro, Bundang-gu 성남시, 경기도 13487 South Korea 104-86-36968 2014-경기성남-0036 경기성남",
+      "analysis": {
+        "app_key": "google:com.skplanet.ocb.locker",
+        "summary_ko": "사용자의 걷기 및 스쿼트 운동 기록을 포인트로 보상하는 건강 관리 앱테크 서비스입니다. 잠금화면 기능을 통해 앱을 직접 열지 않아도 적립이 가능하며, 모은 포인트는 기프티콘으로 즉시 교환할 수 있습니다. 운동 습관 형성과 보상을 결합하여 사용자에게 동기를 부여합니다.",
+        "features_ko": [
+          "스쿼트 50회 완료 시 기프티콘을 즉시 지급하는 운동 탭을 제공합니다.",
+          "걷기 활동을 통해 포인트를 적립하며, 광고 시청 시 적립금을 2배로 제공합니다.",
+          "잠금화면 기능을 통해 앱 실행 없이도 포인트 적립이 가능합니다.",
+          "적립된 포인트는 1P당 1원의 가치로 기프티콘과 즉시 교환할 수 있습니다.",
+          "매일 출석 체크를 통해 기프티콘 당첨 기회를 제공합니다."
+        ],
+        "noteworthy_ko": "운동과 앱테크를 결합하여 사용자의 일상적인 활동을 수익화 모델로 전환한 점이 흥미롭습니다. 특히 스쿼트와 같은 특정 동작을 수행하게 함으로써 단순 만보기 앱보다 높은 사용자 참여를 유도하려는 전략으로 추정됩니다.",
+        "development_ko": "신체 활동 데이터 수집을 위해 안드로이드의 센서 API 활용이 필수적입니다. 포인트 적립 및 기프티콘 교환을 위한 서버 연동과 데이터 정합성 유지가 핵심이며, 부정 적립 방지를 위한 로직 설계가 중요합니다. 사용자 참여를 지속시키기 위한 푸시 알림 및 보상 시스템의 밸런스 조정이 필요합니다.",
+        "idea_ko": "사용자의 운동 기록을 기반으로 친구와 함께하는 '운동 챌린지 그룹' 기능을 구현하여 커뮤니티 요소를 강화하는 것이 적합합니다.",
+        "highlights_ko": [
+          "운동 동작(스쿼트)을 직접적인 보상 체계와 연결하여 능동적인 참여를 유도합니다.",
+          "잠금화면과 만보기 기능을 결합하여 사용자의 일상 속 접근성을 극대화했습니다."
+        ],
+        "systems_ko": [
+          "신체 활동 센서 데이터 수집 시스템",
+          "포인트 적립 및 관리 데이터베이스",
+          "잠금화면 UI 및 이벤트 처리",
+          "기프티콘 교환 및 쿠폰 관리 시스템",
+          "사용자 활동 통계 및 밸런스 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "센서 데이터 연동은 비교적 표준화되어 있으나, 포인트 적립 로직의 보안성과 기프티콘 교환 시스템의 안정적인 운영이 요구되기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "만보기 센서 연동",
+            "포인트 적립 로직",
+            "기프티콘 교환 UI"
+          ],
+          "defer": [
+            "잠금화면 기능",
+            "스쿼트 동작 인식",
+            "출석 체크 이벤트"
+          ],
+          "risks": [
+            "센서 데이터의 부정 조작 가능성",
+            "포인트 적립 및 교환 시스템의 보안 취약점"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "동네 운동 메이트 매칭",
+            "concept": "근처에서 같은 시간에 운동하는 사람들을 매칭해주는 기능입니다. 혼자 하기 힘든 운동을 함께하며 동기를 부여합니다.",
+            "first_step": "사용자의 위치 기반으로 반경 1km 내 운동 중인 사용자 목록을 보여주는 화면 구현."
+          },
+          {
+            "title": "운동 기록 시각화 다이어리",
+            "concept": "단순 포인트 적립을 넘어, 사용자의 운동 변화를 그래프와 사진으로 기록하는 다이어리 기능입니다.",
+            "first_step": "운동 데이터를 날짜별로 저장하고 간단한 선 그래프로 보여주는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "사용자의 활동을 보상으로 연결하는 리워드 시스템의 기본 구조를 배우기에 좋습니다. 다만, 실제 서비스화를 위해서는 보안 및 외부 결제 연동에 대한 깊은 이해가 필요합니다.",
+        "source_limitations_ko": "소개문에는 기프티콘 교환을 위한 구체적인 외부 API 연동 방식이나 보안 로직, 서버 인프라에 대한 정보가 없습니다. 실제 구현 시 필요한 결제 및 보안 기능은 명시되지 않았으므로 주의가 필요합니다.",
+        "name": "오락: 돈 버는 운동 앱테크. 만보기. 기프티콘",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.skplanet.ocb.locker&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-11"
     }
   }
 }

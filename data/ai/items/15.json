@@ -10603,6 +10603,279 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-10"
+    },
+    "apple:6752607219": {
+      "app_key": "apple:6752607219",
+      "name": "Warhammer Survivors",
+      "developer": "Auroch Digital Ltd",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/kr/app/warhammer-survivors/id6752607219?uo=2",
+      "data_date": "2026-11-11",
+      "analysed_at": "2026-11-11T06:26:59+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "The addictive bullet heaven action of the survivors genre comes to the 41st Millennium and the Mortal Realms in an officially licensed game from Auroch Digital (Warhammer 40,000: Boltgun) in partnership with Warhammer and poncle (Vampire Survivors). Experience Warhammers’ epic champions, enemies, weapons and more, meticulously handcrafted in animated pixel glory - optimized for mobile! FEATURES - Frenetic Bullet Heaven survival in a grim dark setting - Over 40 iconic playable characters from the Warhammer 40,000 and Warhammer Age of Sigmar universes, featuring Warhammer 40,000: Boltgun’s very own Malum Caedo! - Multiple modes and stages from across the grim, dark 41st Millennium and the Mortal Realms. - An arsenal of 75+ weapons, such as the Boltgun, Astartes Chainsword, Whirlwind Axes and easter eggs such as the humble pot of Nuln Oil. - Face down the mightiest monsters the universes have to offer, including the disgustingly bloated, Great Unclean One. Extremis Bosses pose a challenge even for Survivors-like veterans! - A mighty cache of passives and power-ups to aid in enduring against the monstrous legions. - Esoteric secrets to uncover and collectables to collect! - Mobile-optimized controls and gameplay systems - Premium experience with no ads or energy mechanics - ...and more!",
+      "analysis": {
+        "app_key": "apple:6752607219",
+        "summary_ko": "Warhammer Survivors는 워해머 세계관을 배경으로 한 탄막 생존 액션 게임입니다. 플레이어는 다양한 워해머 챔피언을 선택하여 몰려오는 적들을 물리치며 생존해야 합니다. 모바일 환경에 최적화된 조작과 픽셀 아트 스타일의 그래픽을 제공합니다.",
+        "features_ko": [
+          "워해머 40,000 및 에이지 오브 지그마 세계관의 40종 이상의 캐릭터를 선택할 수 있습니다.",
+          "볼트건, 체인소드 등 75종 이상의 다양한 무기를 사용하여 적을 공격합니다.",
+          "다양한 패시브 아이템과 파워업을 통해 캐릭터를 강화할 수 있습니다.",
+          "모바일 환경에 최적화된 조작 시스템을 제공합니다.",
+          "광고나 에너지 시스템이 없는 프리미엄 게임 경험을 제공합니다."
+        ],
+        "noteworthy_ko": "유명 IP인 워해머와 '뱀파이어 서바이버즈' 스타일의 장르가 결합된 사례입니다. 방대한 무기와 캐릭터 데이터를 픽셀 아트로 구현하여 모바일 최적화를 이뤄낸 점이 개발 관점에서 흥미롭습니다.",
+        "development_ko": "수많은 적을 동시에 처리하기 위한 최적화 기술이 핵심입니다. 75종 이상의 무기와 40종 이상의 캐릭터 밸런스를 맞추는 작업이 큰 비중을 차지할 것으로 보입니다. 모바일 환경에서의 성능 유지와 조작 편의성 확보가 주요 과제입니다.",
+        "idea_ko": "특정 무기 조합 시 발생하는 '시너지 효과'를 강조하여 로그라이크적 재미를 극대화하는 방식이 적합합니다.",
+        "highlights_ko": [
+          "워해머 세계관의 상징적인 무기와 몬스터를 픽셀 아트로 충실히 재현했습니다.",
+          "광고 없는 프리미엄 모델을 채택하여 게임 본연의 경험에 집중했습니다."
+        ],
+        "systems_ko": [
+          "적 생성 및 관리 시스템",
+          "캐릭터 이동 및 자동 공격 로직",
+          "경험치 및 레벨업 데이터 관리",
+          "무기 및 패시브 아이템 인벤토리 시스템",
+          "UI 및 HUD 최적화"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "수많은 오브젝트를 동시에 화면에 띄우고 처리하는 최적화 기술이 필요합니다. 또한 다양한 무기와 캐릭터 간의 밸런스를 조정하는 작업이 매우 복잡합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 자동 공격 로직",
+            "적 AI 및 스폰 시스템",
+            "기본 레벨업 및 무기 선택 UI"
+          ],
+          "defer": [
+            "복잡한 캐릭터 해금 시스템",
+            "다양한 스테이지 환경 구현"
+          ],
+          "risks": [
+            "모바일 기기 성능에 따른 프레임 드랍",
+            "무기 간 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "무기 합성 시스템",
+            "concept": "특정 무기 두 개를 조합하여 더 강력한 상위 무기를 만드는 시스템입니다. 조합법을 찾는 재미를 제공합니다.",
+            "first_step": "두 개의 무기 아이템을 소지했을 때 합성 버튼이 활성화되는 로직 구현."
+          },
+          {
+            "title": "환경 상호작용",
+            "concept": "맵의 지형지물을 이용하여 적을 처치하는 방식입니다. 폭발하는 통이나 함정을 배치합니다.",
+            "first_step": "특정 지형에 닿으면 폭발하는 트리거 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "로그라이크 장르의 핵심 루프를 구현하고 싶은 개발자에게 추천합니다. 데이터 기반의 시스템 설계와 최적화 기법을 배우기에 좋은 모델입니다.",
+        "source_limitations_ko": "공식 라이선스 여부와 무관하게, 실제 내부 코드의 최적화 방식이나 구체적인 데이터 구조는 알 수 없습니다. 결제 시스템이나 외부 서버 연동 여부는 명시되지 않았습니다.",
+        "name": "Warhammer Survivors",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/warhammer-survivors/id6752607219?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 384,
+        "reasons": [
+          "multi_country",
+          "newly_seen"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "JP",
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-11"
+    },
+    "apple:1067283885": {
+      "app_key": "apple:1067283885",
+      "name": "四目並べ ボードゲーム",
+      "developer": "Andre Castany",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_board",
+      "detail_url": "https://apps.apple.com/jp/app/%E5%9B%9B%E7%9B%AE%E4%B8%A6%E3%81%B9-%E3%83%9C%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0/id1067283885?uo=2",
+      "data_date": "2026-11-11",
+      "analysed_at": "2026-11-11T06:35:42+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "四目並べ（よんもくならべ）は、卓上で遊ぶゲームである。交互にコマを下から積み重ねて、先に縦・横・斜めいずれかに直線状に4つ並べた方が勝ちになる。 ************ 特徴 ************ 「1人」：2つの異なるモードでコンピューターと対戦します。 - 「チャレンジ」：AIを相手にクラシックゲームをプレイします。 難易度を選択し、全レベルをクリアしてください。AIの難易度はレベルが上がるにつれて高くなります。 - 「頭を使うパズル」：あらかじめ設定されたグリッド内でトークンを最大数獲得してゲームに勝利します。 難易度を選択し、250種類のレベルからランダムに選択される50レベルをクリアしてください。 3回連続で失敗すると、レベルクリアのヒントが表示されます。 「2人」：同じデバイスで2人のプレイヤーとプレイします。ルールとトークンを選択してください。 「オンラインの」：Game Center経由で接続された他のプレイヤーとプレイします。 勝利したラウンドごとに1ポイントが加算され、勝者には追加ポイントが加算されます。 注：対戦相手がゲーム終了前にゲームから退出した場合、または接続が切断された場合は、追加ポイントが1ポイント加算されます。 ************* 自動保存 ************ 「1人用」または「2人用」モードで開始したゲームはすべて自動的に保存されます。 各ゲームモードで最大10個のセーブデータを蓄積できます。それを超えると、最も古いセーブデータが最新のセーブデータで上書きされます。",
+      "analysis": {
+        "app_key": "apple:1067283885",
+        "summary_ko": "四目並べ(사목)는 격자판에 돌을 쌓아 가로, 세로, 대각선으로 4개를 먼저 연결하는 보드게임입니다. 1인용 AI 대전, 2인용 로컬 대전, 온라인 대전 모드를 지원합니다. 자동 저장 기능을 통해 게임 진행 상황을 안전하게 관리할 수 있습니다.",
+        "features_ko": [
+          "가로, 세로, 대각선으로 4개의 돌을 먼저 연결하면 승리합니다.",
+          "AI와 대전하는 1인용 모드를 지원합니다.",
+          "같은 기기에서 2명이 대전하는 로컬 모드를 지원합니다.",
+          "Game Center를 통한 온라인 대전을 지원합니다.",
+          "진행 중인 게임을 자동으로 저장합니다."
+        ],
+        "noteworthy_ko": "고전적인 보드게임을 현대적인 모바일 환경에 맞게 다양한 모드로 구현한 점이 흥미롭습니다. 특히 AI 난이도 조절과 퍼즐 모드를 통해 단순한 대전을 넘어선 도전 과제를 제공하는 점이 돋보입니다.",
+        "development_ko": "핵심은 격자판의 상태를 관리하는 알고리즘과 AI의 수 읽기 로직입니다. 1인 개발 시에는 미니맥스 알고리즘 등을 활용하여 AI를 구현할 수 있습니다. UI는 격자판의 상태를 실시간으로 반영하는 반응형 설계가 필요합니다.",
+        "idea_ko": "기존 사목 규칙에 특수 아이템이나 지형 변화를 추가하여 전략성을 높인 '변형 사목' 모드를 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "다양한 난이도의 AI와 250개의 퍼즐 모드를 통해 깊이 있는 플레이가 가능합니다.",
+          "자동 저장 기능을 통해 언제든 중단하고 다시 시작할 수 있는 편의성을 제공합니다."
+        ],
+        "systems_ko": [
+          "격자판 상태 관리 시스템",
+          "AI 수 읽기 알고리즘",
+          "온라인 매칭 및 통신 시스템",
+          "게임 상태 자동 저장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "규칙이 매우 명확하고 데이터 구조가 단순하여 구현 난이도가 낮습니다. AI 구현이 부담스럽다면 초반에는 랜덤 수로 시작하여 점진적으로 발전시킬 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "격자판 UI 및 돌 배치 로직",
+            "승리 조건 판정 로직",
+            "2인 로컬 대전 모드"
+          ],
+          "defer": [
+            "온라인 멀티플레이",
+            "복잡한 퍼즐 모드"
+          ],
+          "risks": [
+            "AI의 지능이 너무 낮아 재미가 없을 위험",
+            "이미 시장에 많은 유사 게임과의 차별성 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지형 변화 사목",
+            "concept": "격자판의 일부 칸이 막히거나 특정 효과를 주는 지형 변화 사목입니다. 매 판마다 달라지는 보드 환경에서 전략을 세웁니다.",
+            "first_step": "격자판에 장애물을 배치하는 로직 구현."
+          },
+          {
+            "title": "아이템 사목",
+            "concept": "돌을 놓을 때마다 아이템을 사용하여 상대의 돌을 제거하거나 위치를 바꾸는 전략 게임입니다.",
+            "first_step": "돌 제거 기능 및 아이템 사용 UI 구현."
+          }
+        ],
+        "recommendation_ko": "보드게임의 기초적인 로직과 AI 구현을 연습하기에 가장 좋은 프로젝트입니다. 게임 개발의 기본기를 다지고 싶은 초보 개발자에게 강력 추천합니다.",
+        "source_limitations_ko": "온라인 대전의 구체적인 통신 방식이나 AI의 알고리즘 상세 내용은 공개되지 않았습니다. Game Center 연동은 외부 API 사용이 필수입니다.",
+        "name": "四目並べ ボードゲーム",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E5%9B%9B%E7%9B%AE%E4%B8%A6%E3%81%B9-%E3%83%9C%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0/id1067283885?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-11"
+    },
+    "apple:6749523533": {
+      "app_key": "apple:6749523533",
+      "name": "스포애니",
+      "developer": "KDhealthcare Co., Ltd.",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%8A%A4%ED%8F%AC%EC%95%A0%EB%8B%88/id6749523533?uo=2",
+      "data_date": "2026-11-11",
+      "analysed_at": "2026-11-11T06:36:02+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "* 회원카드 필요없이 스마트폰으로 편하게 입장 하실 수 있습니다. * 지점을 방문하셔야 가능했던 서비스들이 스마트폰 하나로 모두 편하게 신청 및 처리 하실 수 있습니다. * 자신의 신체정보를 입력하여 지금까지의 몸의 변화를 그래프로 확인 하실 수 있습니다. * 입력된 자신의 신체정보를 바탕으로 내 몸에 맞게 운동을 추천 받으 실 수 있습니다. * PT트레이너 선택과 수업을 간편하게 신청 및 관리 하실 수 있습니다. * GX 수업을 예약하여 스포애니에서 수업을 받으실 수 있습니다. * 내 주변에 가까운 스포애니 지점을 확인 하실 수 있습니다.",
+      "analysis": {
+        "app_key": "apple:6749523533",
+        "summary_ko": "스포애니 지점 이용자를 위한 통합 관리 앱입니다. 회원카드 없이 스마트폰으로 입장할 수 있으며, PT 예약, GX 수업 신청, 신체 정보 기록 및 운동 추천 기능을 제공합니다. 내 주변 지점 확인을 통해 편리한 시설 이용을 돕습니다.",
+        "features_ko": [
+          "스마트폰을 이용한 간편 입장 서비스를 제공합니다.",
+          "신체 정보를 입력하여 변화 과정을 그래프로 확인합니다.",
+          "입력된 데이터를 바탕으로 맞춤형 운동을 추천합니다.",
+          "PT 트레이너 선택 및 수업 신청/관리가 가능합니다.",
+          "GX 수업을 예약하고 관리할 수 있습니다."
+        ],
+        "noteworthy_ko": "오프라인 피트니스 센터의 운영 효율을 높이기 위한 디지털 전환 사례로, 회원 관리와 시설 이용 편의성에 집중하고 있습니다. 오프라인 서비스와 모바일 앱이 긴밀하게 연결된 구조가 개발 관점에서 흥미롭습니다.",
+        "development_ko": "핵심 기술은 회원 인증 시스템과 실시간 예약 관리 시스템입니다. 콘텐츠 제작보다는 서버와의 실시간 데이터 동기화가 중요하며, 오프라인 시설과의 연동 테스트가 필수적입니다. 보안과 개인정보 보호가 매우 중요한 요소입니다.",
+        "idea_ko": "운동 기록을 기반으로 한 지점 내 회원 간의 건강 챌린지 시스템을 도입하여 커뮤니티 활성화를 유도하는 아이디어를 추천합니다.",
+        "highlights_ko": [
+          "회원카드 없는 스마트폰 입장으로 오프라인 이용 경험을 개선했습니다.",
+          "신체 변화 기록과 운동 추천을 연동하여 개인화된 피트니스 경험을 제공합니다."
+        ],
+        "systems_ko": [
+          "회원 인증 및 입장 관리 시스템",
+          "실시간 예약 및 스케줄링 시스템",
+          "신체 데이터 기록 및 분석 엔진",
+          "지점 위치 기반 서비스(LBS)",
+          "사용자 알림 및 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실제 오프라인 시설과 연동되는 예약 및 인증 시스템은 높은 수준의 서버 안정성과 보안이 요구됩니다. 개인 개발자가 오프라인 인프라 없이 구현하기에는 시스템의 복잡도가 매우 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "회원 정보 관리",
+            "운동 기록 및 그래프 시각화",
+            "기본 예약 시스템"
+          ],
+          "defer": [
+            "스마트폰 입장 인증(하드웨어 연동)",
+            "실시간 지점 위치 기반 서비스",
+            "트레이너 매칭 시스템"
+          ],
+          "risks": [
+            "서버 데이터 동기화 오류",
+            "개인정보 보안 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "개인 운동 스케줄러",
+            "concept": "특정 시설과 연동되지 않더라도 개인의 운동 계획과 기록을 관리하는 독립형 스케줄러.",
+            "first_step": "캘린더에 운동 일정을 등록하고 완료 여부를 체크하는 기능 구현."
+          },
+          {
+            "title": "운동 루틴 추천기",
+            "concept": "사용자의 신체 정보와 목표를 입력하면 그에 맞는 운동 루틴을 생성해 주는 간단한 도구.",
+            "first_step": "입력값에 따라 미리 정의된 루틴 리스트를 보여주는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "예약 시스템과 데이터 관리 앱을 개발하고 싶은 분들에게 좋은 참고 사례입니다. 다만, 실제 오프라인 연동이 없는 경우 독립적인 피트니스 관리 앱으로 방향을 잡는 것이 좋습니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 하드웨어 연동 방식이나 결제 시스템은 구현 대상이 아닙니다. 실제 서비스와 연동되는 API 정보가 없으므로 독립적인 앱으로 기획해야 합니다.",
+        "name": "스포애니",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%8A%A4%ED%8F%AC%EC%95%A0%EB%8B%88/id6749523533?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-11"
     }
   }
 }

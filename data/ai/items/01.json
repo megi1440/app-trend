@@ -11185,6 +11185,452 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-10"
+    },
+    "itch:ea4e195b29cfe67eb180": {
+      "app_key": "itch:ea4e195b29cfe67eb180",
+      "name": "Naija Life: Lagos Simulator [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://greatcallie.itch.io/naija-life",
+      "data_date": "2026-11-11",
+      "analysed_at": "2026-11-11T06:26:59+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Free 3D Nigerian life sim: work, hustle, build your house, play Ludo and Whot",
+      "analysis": {
+        "app_key": "itch:ea4e195b29cfe67eb180",
+        "summary_ko": "Naija Life: Lagos Simulator는 나이지리아 라고스를 배경으로 한 3D 생활 시뮬레이션 게임입니다. 플레이어는 일하고, 돈을 벌고, 집을 짓거나 루도(Ludo), 왓(Whot) 같은 보드게임을 즐길 수 있습니다.",
+        "features_ko": [
+          "3D 환경에서의 생활 시뮬레이션",
+          "직업 활동을 통한 자금 확보",
+          "주택 건설 및 커스터마이징",
+          "루도 및 왓 보드게임 플레이"
+        ],
+        "noteworthy_ko": "특정 지역의 문화를 게임에 녹여낸 점이 흥미롭습니다. 생활 시뮬레이션과 보드게임을 결합하여 다양한 즐길 거리를 제공합니다.",
+        "development_ko": "3D 캐릭터 이동 및 상호작용 구현이 필요합니다. 보드게임 로직은 별도의 모듈로 제작해야 하며, 경제 시스템과 건설 시스템의 연동이 중요합니다.",
+        "idea_ko": "현지 시장에서 물건을 사고파는 경제 활동을 더 구체화하는 것이 좋습니다.",
+        "highlights_ko": [
+          "나이지리아의 일상을 반영한 시뮬레이션",
+          "보드게임과 건설 요소의 결합"
+        ],
+        "systems_ko": [
+          "캐릭터 이동 및 상호작용",
+          "경제 및 인벤토리 시스템",
+          "건설 모드 시스템",
+          "보드게임 규칙 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "3D 환경 구현과 보드게임 로직 등 여러 시스템을 통합해야 하므로 개발 범위가 다소 넓습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동",
+            "기본적인 경제 시스템",
+            "보드게임 하나 구현"
+          ],
+          "defer": [
+            "복잡한 주택 커스터마이징",
+            "다양한 NPC 상호작용"
+          ],
+          "risks": [
+            "3D 에셋 제작 부담",
+            "보드게임 규칙의 복잡성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "길거리 상인 모드",
+            "concept": "플레이어가 직접 물건을 떼어와 시장에서 판매하는 경제 활동입니다.",
+            "first_step": "아이템 구매 및 판매 가격 설정 로직 구현."
+          },
+          {
+            "title": "날씨 시스템",
+            "concept": "날씨에 따라 할 수 있는 활동이 달라지는 시스템입니다.",
+            "first_step": "날씨 상태에 따른 캐릭터 이동 속도 변화 구현."
+          }
+        ],
+        "recommendation_ko": "생활 시뮬레이션 게임의 기초를 다지고 싶은 개발자에게 추천합니다. 다양한 시스템을 엮는 경험을 할 수 있습니다.",
+        "source_limitations_ko": "게임의 구체적인 경제 밸런스나 보드게임의 AI 수준은 확인되지 않았습니다.",
+        "name": "Naija Life: Lagos Simulator [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://greatcallie.itch.io/naija-life",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 374,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-11"
+    },
+    "apple:6740617332": {
+      "app_key": "apple:6740617332",
+      "name": "UnGodly アンゴッドリー",
+      "developer": "Azra Games",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_action",
+      "detail_url": "https://apps.apple.com/kr/app/ungodly/id6740617332?uo=2",
+      "data_date": "2026-11-11",
+      "analysed_at": "2026-11-11T06:26:59+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Nethermaw가 왕국 전역에 타락을 퍼뜨리고 있습니다. 공허를 밀어낼 수 있는 존재는 트라우마로 단련되고 원소의 힘과 결속된 영웅, Primals뿐입니다. UnGodly는 실시간 전투, 의미 있는 일일 성장, 그리고 힘과 이야기를 함께 바꾸는 캐릭터 간의 유대를 중심으로 설계된 다크 판타지 액션 RPG입니다. FEATURES 잔혹한 실시간 전투 수동적인 방치형 자동 전투가 아닙니다. 회피하고, 캐릭터를 교체하고, 정확하게 공격하세요. 빠르고 묵직한 전투 속에서 궁극기와 원소 콤보를 연결하며, 모든 선택이 전투의 흐름을 바꿉니다. Primals 수집 및 성장 각기 고유한 전투 역할, 원소 능력, 개인사를 지닌 강력한 영웅들을 영입하세요. 스킬을 강화하고, 새로운 재능을 각성시키고, 장비를 다듬어 자신의 전략에 맞는 팀을 완성하세요. 팀 구성과 커스터마이징 원소 시너지, 역할 조합, 능력 빌드를 실험하며 다양한 적과 보스전에 대응하세요. 깊이 있는 시스템은 숙련도를 보상합니다. 성숙한 다크 판타지 서사 탐욕, 이단 집단, 붕괴로 상처 입은 세계 Dunmiir를 탐험하세요. 상실, 충성, 야망으로 빚어진 시네마틱 스토리 미션과 캐릭터 서사를 경험할 수 있습니다. 매일 이어지는 어둠의 모험 퀘스트, 보스, 변화하는 타락 이벤트를 중심으로 짧지만 의미 있는 플레이 세션을 제공합니다. 로그인할 때마다 여정은 앞으로 나아갑니다. 도전적인 보스전 수동적인 반복 플레이가 아니라 전략, 팀 구성, 진짜 전투 실력을 요구하는 점점 강력해지는 위협에 맞서세요. 이것은 또 하나의 방치형 RPG가 아닙니다. UnGodly는 본능적인 실시간 전투, 깊이 있는 영웅 성장, 그리고 싸울 가치가 있는 다크 판타지 세계를 제공합니다. 무게감, 결과, 목적이 있는 액션 RPG를 원한다면 지금 UnGodly를 다운로드하세요. Official Website: https://ungodlygame.com/ Support: https://azragames.helpshift.com/hc/en/ Discord: https://discord.gg/ungodly YouTube: https://www.youtube.com/@UngodlyGame X: https://x.com/UnGodlyGame Instagram: https://www.instagram.com/ungodlygame/",
+      "analysis": {
+        "app_key": "apple:6740617332",
+        "summary_ko": "UnGodly는 다크 판타지 세계관을 배경으로 한 실시간 액션 RPG입니다. 플레이어는 영웅들을 수집하고 팀을 구성하여 전략적인 전투를 펼칩니다. 수동 조작과 캐릭터 교체를 통한 깊이 있는 전투 경험을 강조합니다.",
+        "features_ko": [
+          "수동 조작이 필요한 실시간 액션 전투",
+          "다양한 원소 능력과 역할을 가진 영웅 수집 및 성장",
+          "캐릭터 교체 및 스킬 콤보 시스템",
+          "다크 판타지 세계관을 바탕으로 한 시네마틱 스토리",
+          "전략적 팀 구성 및 원소 시너지 활용"
+        ],
+        "noteworthy_ko": "방치형 게임이 주류인 모바일 시장에서 수동 조작의 재미를 강조한 점이 차별점입니다. 캐릭터 간의 유대와 성장을 서사와 결합하여 몰입감을 높였습니다.",
+        "development_ko": "정교한 타격감과 반응성을 위한 액션 시스템 구현이 핵심입니다. 영웅별 스킬 밸런스와 원소 시너지 로직을 설계하는 데 많은 시간이 소요됩니다. 시네마틱 연출을 위한 스토리 시스템 구축도 필요합니다.",
+        "idea_ko": "전투 중 실시간으로 지형을 파괴하거나 환경을 변화시켜 전략적 우위를 점하는 요소를 추가하면 좋습니다.",
+        "highlights_ko": [
+          "수동 조작을 강조한 본능적인 액션 전투",
+          "다크 판타지 세계관의 깊이 있는 서사"
+        ],
+        "systems_ko": [
+          "실시간 액션 전투 엔진",
+          "캐릭터 교체 및 스킬 콤보 시스템",
+          "영웅 성장 및 장비 관리 시스템",
+          "원소 시너지 계산 로직",
+          "퀘스트 및 이벤트 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "액션 게임의 핵심인 타격감과 조작 반응성을 구현하는 것은 매우 높은 기술력을 요구합니다. 또한 다양한 영웅의 스킬 밸런스를 맞추는 작업이 복잡합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 공격 및 회피 로직",
+            "캐릭터 교체 시스템",
+            "기본적인 적 AI"
+          ],
+          "defer": [
+            "복잡한 시네마틱 스토리 연출",
+            "다양한 보스 패턴"
+          ],
+          "risks": [
+            "액션 게임 특유의 타격감 구현 실패",
+            "밸런스 조정의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "환경 상호작용 전투",
+            "concept": "전투 중 주변 사물을 던지거나 지형을 이용해 적을 공격하는 방식입니다.",
+            "first_step": "물리 엔진을 활용한 사물 던지기 로직 구현."
+          },
+          {
+            "title": "영웅 유대 스킬",
+            "concept": "특정 영웅 조합 시에만 발동하는 강력한 합체 스킬입니다.",
+            "first_step": "두 캐릭터의 상태를 체크하여 스킬을 발동하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "액션 RPG의 핵심 메커니즘을 구현하고 싶은 개발자에게 추천합니다. 조작감과 밸런스 설계의 중요성을 배울 수 있습니다.",
+        "source_limitations_ko": "실제 전투 시스템의 구체적인 구현 방식이나 서버 연동 여부는 알 수 없습니다.",
+        "name": "UnGodly アンゴッドリー",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/ungodly/id6740617332?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 372,
+        "reasons": [
+          "multi_country",
+          "newly_seen"
+        ],
+        "best_rank": 6,
+        "countries": [
+          "JP",
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-11"
+    },
+    "itch:7ba42e44912b144d530c": {
+      "app_key": "itch:7ba42e44912b144d530c",
+      "name": "Sierra Six [Free] [Adventure] [Windows] [macOS]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://katla-studio.itch.io/sierra-six",
+      "data_date": "2026-11-11",
+      "analysed_at": "2026-11-11T06:32:18+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Harvest, craft, kill and loot your way through enemy territory.",
+      "analysis": {
+        "app_key": "itch:7ba42e44912b144d530c",
+        "summary_ko": "적진을 배경으로 자원을 채집하고 아이템을 제작하며 전투를 벌이는 어드벤처 게임입니다. 플레이어는 적의 영토에서 살아남기 위해 약탈과 생존 전략을 구사해야 합니다. 탐험과 전투가 결합된 생존 중심의 경험을 제공합니다.",
+        "features_ko": [
+          "적진에서 자원을 채집하고 생존합니다.",
+          "필요한 아이템을 직접 제작합니다.",
+          "적과 전투를 벌이고 전리품을 약탈합니다."
+        ],
+        "noteworthy_ko": "적진이라는 고립된 환경에서 생존과 약탈을 동시에 수행하는 구조가 긴장감을 유발합니다. 자원 관리와 전투 시스템의 균형을 맞추는 것이 게임의 핵심 재미 요소로 보입니다.",
+        "development_ko": "아이템 제작 시스템과 인벤토리 관리, 적 AI의 행동 패턴 구현이 복잡합니다. 맵 탐험과 자원 리스폰 시스템 등 오픈 월드 혹은 샌드박스 요소의 구현 부담이 큽니다.",
+        "idea_ko": "적진에서의 잠입 요소를 강화하여 전투를 피하는 전략적 선택지를 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "적진이라는 위험한 환경에서의 생존 어드벤처입니다.",
+          "채집, 제작, 전투, 약탈의 순환 구조를 가집니다."
+        ],
+        "systems_ko": [
+          "자원 채집 및 아이템 제작 시스템",
+          "인벤토리 및 장비 관리",
+          "적 AI 행동 및 전투 시스템",
+          "맵 탐험 및 전리품 드롭 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "생존, 제작, 전투, AI 등 여러 시스템이 복합적으로 얽혀 있어 1인 개발 시 구현 범위와 밸런스 조정에 상당한 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이동 및 전투 시스템",
+            "자원 채집 및 인벤토리",
+            "간단한 제작 시스템"
+          ],
+          "defer": [
+            "복잡한 적 AI 트리",
+            "방대한 맵과 퀘스트 시스템"
+          ],
+          "risks": [
+            "시스템 간의 밸런스 불균형",
+            "개발 범위가 너무 넓어 완성도 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "잠입 및 은신 시스템",
+            "concept": "적과 정면 대결하기보다 그림자에 숨거나 소리를 죽여 이동하는 잠입 요소를 추가합니다. 약탈 성공률을 높이는 전략적 선택이 가능합니다.",
+            "first_step": "적의 시야각을 시각화하고 은신 상태일 때 적에게 들키지 않는 로직 구현."
+          },
+          {
+            "title": "임시 거점 구축",
+            "concept": "적진 내부에 임시 거점을 만들어 자원을 보관하고 제작 효율을 높입니다. 거점이 발각되면 적의 습격을 받는 위험 요소가 있습니다.",
+            "first_step": "특정 위치에 오브젝트를 배치하고 아이템 보관 기능을 구현."
+          }
+        ],
+        "recommendation_ko": "생존 게임의 복합적인 시스템 설계와 구현을 경험하기에 좋습니다. 야심 찬 프로젝트를 시작하려는 개발자에게 추천하지만, 범위 축소(Scoping)가 필수적입니다.",
+        "source_limitations_ko": "소개문만으로는 구체적인 전투 방식, 제작 가능한 아이템의 종류, 게임의 승리 조건 등이 명시되지 않았습니다.",
+        "name": "Sierra Six [Free] [Adventure] [Windows] [macOS]",
+        "source": "itch",
+        "detail_url": "https://katla-studio.itch.io/sierra-six",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 287,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 31,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-11"
+    },
+    "apple:6763931528": {
+      "app_key": "apple:6763931528",
+      "name": "Enigmic: Crime Puzzle Cases",
+      "developer": "INFINITY GAMES, LDA",
+      "source": "apple",
+      "country": "US",
+      "category": "game_board",
+      "detail_url": "https://apps.apple.com/us/app/enigmic-crime-puzzle-cases/id6763931528?uo=2",
+      "data_date": "2026-11-11",
+      "analysed_at": "2026-11-11T06:35:42+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Enigmic is a mystery deduction game where you solve cases using only your logic. Read the clues, analyze every detail, and place each suspect in the correct position. Every case is a small brain challenge where you must mark, eliminate, and deduce until you find the only possible solution. No luck. No rush. Just logic, observation, and deduction. Can you solve every case? FEATURES • Crime cases solved through logic • Clues that require careful thinking • Simple mark-and-eliminate gameplay • Quick puzzles you can play anytime • Perfect for fans of sudoku, mysteries, and deduction games • Clean, modern, easy-to-use design • Brain challenges designed to train your mind HOW TO PLAY Each case gives you a board, several suspects, and a set of clues. Your goal is to discover where each suspect belongs by using the information available. Mark possible options, eliminate the wrong ones, and move step by step until the case is solved. Enigmic is perfect if you enjoy logic games, sudoku-style puzzles, detective mysteries, and deduction challenges.",
+      "analysis": {
+        "app_key": "apple:6763931528",
+        "summary_ko": "Enigmic은 논리적 추론을 통해 범죄 사건을 해결하는 퍼즐 게임입니다. 플레이어는 주어진 단서를 분석하고 용의자를 올바른 위치에 배치하여 유일한 정답을 찾아내야 합니다. 스도쿠와 유사한 방식의 논리적 사고를 요구하며, 시간 제한 없이 차분하게 문제를 해결하는 경험을 제공합니다.",
+        "features_ko": [
+          "논리적 추론을 기반으로 범죄 사건을 해결합니다.",
+          "제공된 단서를 분석하여 용의자의 위치를 결정합니다.",
+          "마크 및 제거 방식을 사용하여 정답을 도출합니다.",
+          "언제 어디서나 짧게 즐길 수 있는 퍼즐 구성을 갖추고 있습니다."
+        ],
+        "noteworthy_ko": "스도쿠와 같은 격자형 논리 퍼즐을 범죄 수사 테마로 재해석한 점이 흥미롭습니다. 복잡한 그래픽보다는 논리적 규칙 자체에 집중하도록 설계된 점이 개발 관점에서 효율적인 접근으로 보입니다.",
+        "development_ko": "핵심 기술은 격자 데이터 관리와 논리적 제약 조건 검증 알고리즘입니다. 콘텐츠 제작 시 각 퍼즐의 난이도를 조절하는 논리 생성기가 필요하며, UI는 마크와 제거가 직관적으로 이루어지도록 설계해야 합니다. 밸런스 측면에서는 모든 퍼즐이 논리적으로 단 하나의 정답만 가지도록 검증하는 과정이 가장 중요합니다.",
+        "idea_ko": "다양한 난이도의 퍼즐을 생성하는 논리 엔진을 구축하고, 이를 기반으로 사용자 커스텀 퍼즐 공유 기능을 추가하는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "운에 의존하지 않고 오직 논리적 사고만으로 해결하는 순수 퍼즐 게임입니다.",
+          "현대적이고 깔끔한 디자인으로 사용자의 집중력을 높입니다."
+        ],
+        "systems_ko": [
+          "퍼즐 데이터 관리 시스템",
+          "논리적 제약 조건 검증 엔진",
+          "사용자 입력 및 마킹 UI",
+          "게임 상태 저장 및 복구 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "게임의 핵심 메커니즘은 단순하지만, 모든 퍼즐이 논리적으로 완벽하게 풀리도록 설계하는 데이터 생성 과정에 상당한 노력이 필요합니다. 1인 개발 시 퍼즐 생성 알고리즘을 자동화하지 않으면 콘텐츠 확장이 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "격자 기반 퍼즐 보드 UI",
+            "용의자 배치 및 마킹 로직",
+            "단서 텍스트 표시 기능"
+          ],
+          "defer": [
+            "온라인 멀티플레이",
+            "화려한 애니메이션 효과"
+          ],
+          "risks": [
+            "퍼즐의 논리적 오류 발생 가능성",
+            "콘텐츠 양의 부족으로 인한 짧은 플레이 타임"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "논리 수사 일지",
+            "concept": "단순한 퍼즐을 넘어, 수집한 단서를 바탕으로 범인을 지목하는 짧은 스토리 모드를 결합합니다. 퍼즐을 풀 때마다 사건의 조각이 맞춰지는 서사를 제공합니다.",
+            "first_step": "기본 퍼즐 보드에 텍스트 단서가 연동되는 프로토타입 구현."
+          },
+          {
+            "title": "커뮤니티 퍼즐 챌린지",
+            "concept": "사용자가 직접 논리 퍼즐을 만들고 공유할 수 있는 에디터를 제공합니다. 다른 사용자가 만든 퍼즐을 풀고 평가하는 시스템입니다.",
+            "first_step": "퍼즐 데이터를 JSON으로 내보내고 불러오는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "논리 퍼즐 게임의 핵심인 데이터 구조 설계와 UI/UX의 직관성을 배우기에 매우 좋습니다. 복잡한 물리 엔진 없이도 완성도 높은 게임을 만들 수 있는 좋은 사례입니다.",
+        "source_limitations_ko": "소개문에는 구체적인 퍼즐 생성 알고리즘이나 데이터 구조에 대한 정보가 없습니다. 또한, 게임 내 힌트 시스템의 구체적인 작동 방식이나 난이도별 데이터 구성 방식은 확인되지 않았습니다.",
+        "name": "Enigmic: Crime Puzzle Cases",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/enigmic-crime-puzzle-cases/id6763931528?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-11"
+    },
+    "google:com.singlepocket.adventurerswanted": {
+      "app_key": "google:com.singlepocket.adventurerswanted",
+      "name": "求む冒険者。経験不問。",
+      "developer": "SinglePocket",
+      "source": "google",
+      "country": "JP",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.singlepocket.adventurerswanted&hl=ja&gl=JP",
+      "data_date": "2026-11-11",
+      "analysed_at": "2026-11-11T06:35:42+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "冒険者、募集中！ 未経験者歓迎！ 剣が得意な方も、魔法が使える方も、これから覚えたい方も歓迎します！ 魔物討伐・遺跡探索・薬草採取など、お仕事いろいろ。 あなたの適性に合った依頼がきっと見つかります！ 経験者はもちろん優遇！ 実績に応じて報酬アップ！ 冒険者としての第一歩を、ここから始めませんか？ ※あなたは冒険者ギルドの新しい経営者。 冒険者を雇い、依頼に送り出し、持ち帰った報酬でギルドを育てていきます。 冒険者たちとギルドを育てる、放置型・冒険者ギルド経営シミュレーション。 ■ 遊び方は簡単 1. 冒険者を雇う 2. 依頼に合う冒険者を選んで送り出す 3. 待つ。アプリを閉じていても依頼は進みます 4. 帰ってきたら報酬と素材を受け取り、ギルドを強くする 一回の遊びは数分。通勤や寝る前のすきま時間に、まったり遊べる放置ゲームです。 ■ ギルドを切り盛り 報酬から冒険者の給料を引いた残りが、ギルドの利益。 強い冒険者ほど給料も高いので、誰をどの依頼に送るかが腕の見せどころです。 失敗すれば違約金。評判を積めばギルドのランクが上がり、新しい依頼と施設が解放されます。 ■ 冒険者を育てる 職業ごとに得意な仕事があり、依頼をこなすほど経験が積み上がります。 生まれ持った強み、職業で身につく技、転職、そして引退。 引退した冒険者の経験はギルドに受け継がれ、次の世代を支えます。 ■ 集める楽しみ 出会った魔物、集めた素材、作った装備を記録に残そう。 素材から装備を作り、冒険者に持たせて成功率を上げましょう。 ■ こんな方におすすめ ・放置ゲーム、放置系RPGが好き ・ファンタジー世界のギルド経営や育成シミュレーションが好き ・ドット絵の雰囲気が好き ・課金しなくても最後まで遊びたい（広告と課金は「見ると少し得」の範囲です） ・縦画面、片手で遊べます",
+      "analysis": {
+        "app_key": "google:com.singlepocket.adventurerswanted",
+        "summary_ko": "求む冒険者。経験不問。은 모험가 길드를 운영하는 방치형 시뮬레이션 게임입니다. 플레이어는 길드장이 되어 모험가를 고용하고 의뢰를 수행하며 길드를 성장시킵니다. 앱을 닫아두어도 의뢰가 진행되는 방치형 요소와 모험가 육성 및 장비 제작의 재미를 결합했습니다.",
+        "features_ko": [
+          "모험가를 고용하고 의뢰에 파견합니다.",
+          "앱을 닫아도 의뢰가 자동으로 진행됩니다.",
+          "의뢰 보상으로 길드를 운영하고 시설을 확장합니다.",
+          "모험가의 경험을 다음 세대로 계승하는 육성 시스템이 있습니다.",
+          "수집한 소재로 장비를 제작하여 성공률을 높입니다."
+        ],
+        "noteworthy_ko": "방치형 게임에 길드 경영과 세대 교체라는 육성 요소를 결합한 점이 흥미롭습니다. 단순한 방치를 넘어 모험가의 은퇴와 계승이라는 서사를 통해 플레이어의 몰입을 유도합니다.",
+        "development_ko": "시간 기반의 비동기 처리 시스템이 핵심입니다. 모험가 데이터와 의뢰 데이터를 관리하는 데이터베이스 설계가 중요하며, 도트 그래픽 리소스 제작 부담이 있습니다. 밸런스 측면에서는 길드 수익과 모험가 급여의 균형을 맞추는 것이 중요합니다.",
+        "idea_ko": "모험가들의 성격이나 특성에 따라 의뢰 성공률이 달라지는 '관계 시스템'을 추가하여 경영의 깊이를 더하는 것이 좋습니다.",
+        "highlights_ko": [
+          "출퇴근이나 자기 전 짧은 시간에 즐길 수 있는 최적화된 방치형 게임입니다.",
+          "모험가의 은퇴와 경험 계승을 통해 지속적인 성장의 재미를 제공합니다."
+        ],
+        "systems_ko": [
+          "비동기 시간 처리 시스템",
+          "모험가 고용 및 육성 데이터 관리",
+          "의뢰 및 보상 처리 엔진",
+          "장비 제작 및 아이템 수집 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "방치형 게임은 시스템 구조가 명확하여 구현 난이도는 높지 않으나, 다양한 모험가와 의뢰 데이터를 관리하는 구조를 설계하는 데 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "모험가 고용 및 파견 로직",
+            "시간 경과에 따른 보상 계산",
+            "기본 길드 경영 UI"
+          ],
+          "defer": [
+            "복잡한 장비 제작 트리",
+            "세대 계승 시스템"
+          ],
+          "risks": [
+            "콘텐츠 소모 속도가 너무 빠를 위험",
+            "방치형 게임 특유의 지루함 발생"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "길드장 일기",
+            "concept": "모험가들이 의뢰를 다녀온 후의 짧은 에피소드를 일기 형식으로 보여줍니다. 모험가들의 관계가 발전하는 과정을 텍스트로 즐깁니다.",
+            "first_step": "의뢰 완료 시 랜덤 텍스트 이벤트 출력 기능 구현."
+          },
+          {
+            "title": "길드 시설 경영",
+            "concept": "길드 내부에 훈련장, 식당 등 시설을 건설하여 모험가의 능력치를 직접 관리합니다. 시설 배치에 따른 효율 변화를 고민합니다.",
+            "first_step": "시설 건설 및 능력치 버프 적용 로직 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 기본 구조와 데이터 관리 방식을 배우기에 최적입니다. 경영 시뮬레이션과 육성 요소를 결합하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에 언급된 광고 및 인앱 결제 시스템은 외부 연동이 필요하며, 구체적인 수치 밸런스는 확인되지 않았습니다.",
+        "name": "求む冒険者。経験不問。",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.singlepocket.adventurerswanted&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-11"
     }
   }
 }

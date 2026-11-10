@@ -11193,6 +11193,359 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-10"
+    },
+    "itch:f33f9ef101faaf8f7500": {
+      "app_key": "itch:f33f9ef101faaf8f7500",
+      "name": "Twispodge Presents Taikenban Ademmo Demo! [Free] [Platformer]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://twispodge.itch.io/taikenbanademmodemo",
+      "data_date": "2026-11-11",
+      "analysed_at": "2026-11-11T06:27:17+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Sometimes to win, you must be prepared to lose.",
+      "analysis": {
+        "app_key": "itch:f33f9ef101faaf8f7500",
+        "summary_ko": "Twispodge Presents Taikenban Ademmo Demo!는 '승리하기 위해서는 패배할 준비가 되어 있어야 한다'는 철학을 담은 플랫폼 게임입니다. 도전적인 레벨 디자인을 통해 플레이어의 인내심과 숙련도를 시험합니다.",
+        "features_ko": [
+          "플랫폼 게임 특유의 점프와 이동 조작을 제공합니다.",
+          "실패를 통해 학습하고 극복하는 도전적인 레벨을 포함합니다."
+        ],
+        "noteworthy_ko": "플랫폼 게임은 캐릭터의 이동 물리(중력, 가속도)가 게임의 재미를 결정합니다. 1인 개발 시 캐릭터의 조작감이 의도한 대로 작동하도록 물리 엔진을 미세하게 조정하는 과정이 매우 중요할 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 캐릭터 컨트롤러와 충돌 처리입니다. 콘텐츠 제작은 레벨 디자인에 집중되며, 테스트는 플레이어가 불합리함을 느끼지 않도록 난이도 곡선을 세밀하게 조정하는 데 중점을 둡니다.",
+        "idea_ko": "죽은 위치에 잔상이 남아 다음 플레이 시 발판으로 활용할 수 있는 시스템.",
+        "highlights_ko": [
+          "실패를 게임의 일부로 받아들이는 도전적인 기조를 가집니다.",
+          "전형적인 플랫폼 게임의 조작 방식을 따릅니다."
+        ],
+        "systems_ko": [
+          "캐릭터 이동 및 물리 시스템",
+          "레벨 디자인 및 타일맵 시스템",
+          "충돌 및 사망 판정",
+          "체크포인트 시스템",
+          "카메라 팔로우 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "플랫폼 게임의 기본 구현은 표준화되어 있으나, 플레이어가 만족할 만한 정교한 조작감과 레벨 디자인을 완성하는 데는 상당한 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 점프 로직",
+            "기본 발판 및 장애물",
+            "사망 및 리스폰 시스템"
+          ],
+          "defer": [
+            "복잡한 적 AI",
+            "다양한 캐릭터 스킨",
+            "스토리 컷신"
+          ],
+          "risks": [
+            "조작감의 불쾌함",
+            "레벨 디자인의 난이도 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "시간 되감기",
+            "concept": "실패 직전의 상황을 짧게 되감아 다시 시도할 수 있게 하여 피로도를 줄입니다.",
+            "first_step": "캐릭터 위치 정보를 배열에 저장하고 되감기 시 이전 위치로 이동시키는 로직 구현."
+          },
+          {
+            "title": "중력 반전 구역",
+            "concept": "특정 구역에 진입하면 중력이 반전되어 위아래를 오가며 이동해야 합니다.",
+            "first_step": "중력 방향 변수를 토글하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "플랫폼 게임의 기본기를 다지고 싶은 개발자에게 추천합니다. 캐릭터의 움직임이 플레이어에게 어떤 피드백을 주는지 연구하기 좋습니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 게임의 구체적인 조작 방식, 레벨의 개수, 특별한 기믹의 유무 등을 확인할 수 없습니다.",
+        "name": "Twispodge Presents Taikenban Ademmo Demo! [Free] [Platformer]",
+        "source": "itch",
+        "detail_url": "https://twispodge.itch.io/taikenbanademmodemo",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 353,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 9,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-11"
+    },
+    "itch:b0986c0b7d09cde5d08d": {
+      "app_key": "itch:b0986c0b7d09cde5d08d",
+      "name": "Scroll Siege [Free] [Strategy]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://projectnothing.itch.io/scroll-siege",
+      "data_date": "2026-11-11",
+      "analysed_at": "2026-11-11T06:28:48+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Castle defence where scrolling is time. Swipe back, change one call, fork.",
+      "analysis": {
+        "app_key": "itch:b0986c0b7d09cde5d08d",
+        "summary_ko": "스크롤을 시간의 흐름으로 활용하는 독특한 방식의 성 방어 게임입니다. 화면을 스크롤하여 전략을 변경하고 적을 방어하는 메커니즘을 가지고 있습니다.",
+        "features_ko": [
+          "스크롤 동작을 게임 내 시간 흐름과 연동합니다.",
+          "스와이프를 통해 전략을 수정하거나 포크(분기)를 생성합니다.",
+          "성 방어 장르의 기본 규칙을 따릅니다."
+        ],
+        "noteworthy_ko": "스크롤을 시간으로 치환하는 아이디어는 매우 창의적이며, 모바일 환경에 최적화된 조작 방식을 보여줍니다. 개발 관점에서는 스크롤 입력과 게임 로직의 동기화가 가장 도전적인 과제일 것으로 추정됩니다.",
+        "development_ko": "입력 시스템과 게임 상태 관리의 정밀한 연동이 필요합니다. 스크롤 속도에 따른 게임 속도 조절 및 전략적 분기 처리를 위한 데이터 구조 설계가 중요합니다.",
+        "idea_ko": "스크롤 방향에 따라 시간을 되돌리거나 가속하는 기능을 활용한 퍼즐형 방어 게임 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "스크롤과 시간의 독특한 결합.",
+          "스와이프 기반의 직관적인 전략 수정."
+        ],
+        "systems_ko": [
+          "입력 스크롤 감지 시스템",
+          "시간 흐름 제어 엔진",
+          "성 방어 유닛 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "스크롤 입력과 게임 시간의 동기화는 물리 엔진이나 타이밍 로직에서 복잡한 버그를 유발할 가능성이 높기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "스크롤 입력 감지",
+            "기본 방어 유닛 배치"
+          ],
+          "defer": [
+            "복잡한 유닛 업그레이드 트리",
+            "다양한 맵 환경"
+          ],
+          "risks": [
+            "스크롤 입력과 게임 속도 간의 불일치로 인한 조작감 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "시간 역행 방어",
+            "concept": "스크롤을 반대로 하면 적의 공격이 되돌아가고 아군 유닛이 회복됩니다.",
+            "first_step": "게임 상태를 스택에 저장하여 스크롤 역방향 시 이전 상태로 복구하는 기능을 구현합니다."
+          },
+          {
+            "title": "스크롤 속도 조절기",
+            "concept": "스크롤 속도에 따라 게임의 전체 속도가 변하여 전략적 대응 시간을 조절합니다.",
+            "first_step": "스크롤 속도 값을 게임의 Time.timeScale과 연동하여 테스트합니다."
+          }
+        ],
+        "recommendation_ko": "입력 방식과 게임 메커니즘을 결합하는 창의적인 시도를 하고 싶은 개발자에게 추천합니다. 조작감이 게임의 핵심인 프로젝트를 연습하기 좋습니다.",
+        "source_limitations_ko": "게임의 구체적인 규칙, 승리 조건, 스크롤의 기술적 구현 방식은 확인되지 않았습니다.",
+        "name": "Scroll Siege [Free] [Strategy]",
+        "source": "itch",
+        "detail_url": "https://projectnothing.itch.io/scroll-siege",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 341,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 13,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-11"
+    },
+    "itch:97eafff71d9dac5f1ad7": {
+      "app_key": "itch:97eafff71d9dac5f1ad7",
+      "name": "Super Mine Blaster [Free] [Puzzle]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://blakejay.itch.io/super-mine-blaster",
+      "data_date": "2026-11-11",
+      "analysed_at": "2026-11-11T06:32:18+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Minesweeper that blows up. Flag the mines, haul them out as bombs, blast rock for minerals.",
+      "analysis": {
+        "app_key": "itch:97eafff71d9dac5f1ad7",
+        "summary_ko": "지뢰 찾기 게임에 폭파와 채굴 요소를 결합한 퍼즐 게임입니다. 지뢰를 찾아 깃발을 꽂는 기존 방식에, 지뢰를 폭탄으로 활용하여 광물을 캐는 액션이 추가되었습니다. 전략적인 지뢰 제거와 자원 수집을 동시에 수행해야 합니다.",
+        "features_ko": [
+          "지뢰 찾기 규칙에 따라 지뢰 위치를 식별합니다.",
+          "식별된 지뢰를 폭탄으로 회수하여 사용합니다.",
+          "폭탄을 사용하여 암석을 파괴하고 광물을 획득합니다."
+        ],
+        "noteworthy_ko": "고전 퍼즐인 지뢰 찾기를 자원 수집형 게임으로 재해석한 점이 독창적입니다. 퍼즐의 결과물을 다음 단계의 도구로 활용하는 순환 구조가 개발 관점에서 매우 흥미롭습니다.",
+        "development_ko": "지뢰 찾기 그리드 생성 알고리즘과 폭발 효과에 따른 지형 변화 시스템이 핵심입니다. 자원 관리 시스템과 폭발 로직의 상호작용을 구현하는 데 기술적 노력이 필요합니다.",
+        "idea_ko": "지뢰를 폭탄으로 변환하는 인터페이스를 직관적으로 만드는 것이 우선입니다.",
+        "highlights_ko": [
+          "지뢰 찾기와 채굴 게임의 결합이라는 독특한 장르 융합입니다.",
+          "지뢰를 위험 요소에서 자원으로 전환하는 역발상이 돋보입니다."
+        ],
+        "systems_ko": [
+          "그리드 기반 지뢰 찾기 엔진",
+          "폭발 및 지형 파괴 시스템",
+          "자원 인벤토리 및 관리 시스템",
+          "광물 획득 및 점수 계산 로직"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "지뢰 찾기 로직과 폭발에 따른 지형 변화를 동기화해야 하며, 자원 수집이라는 추가 시스템이 결합되어 구현 난이도가 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "지뢰 찾기 기본 로직",
+            "지뢰를 폭탄으로 변환하는 기능",
+            "폭발에 따른 타일 파괴 로직"
+          ],
+          "defer": [
+            "다양한 광물 종류 및 상점 시스템",
+            "복잡한 파티클 효과"
+          ],
+          "risks": [
+            "지뢰 찾기 로직과 폭발 로직 간의 충돌",
+            "게임 플레이의 반복성 해결"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "연쇄 폭발 연쇄 반응",
+            "concept": "폭탄을 적절히 배치하여 연쇄 폭발을 일으키면 더 깊은 곳의 희귀 광물을 얻을 수 있습니다. 폭발 범위와 순서를 고려하는 전략이 필요합니다.",
+            "first_step": "폭발 시 주변 타일에 연쇄 폭발을 유발하는 재귀 함수 구현."
+          },
+          {
+            "title": "지뢰 탐지기 업그레이드",
+            "concept": "광물을 팔아 탐지기를 업그레이드하여 더 넓은 범위를 확인하거나 지뢰의 개수를 미리 파악하는 기능을 추가합니다.",
+            "first_step": "탐지 범위 변수를 설정하고 UI에 반영하는 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "기존 게임 규칙을 비틀어 새로운 장르를 만드는 기획력을 배우기에 좋습니다. 시스템 간의 상호작용을 설계하는 연습을 하려는 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문만으로는 광물의 종류, 폭발의 범위, 게임의 최종 목표 등이 명시되지 않았습니다.",
+        "name": "Super Mine Blaster [Free] [Puzzle]",
+        "source": "itch",
+        "detail_url": "https://blakejay.itch.io/super-mine-blaster",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 296,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-11"
+    },
+    "apple:6825610973": {
+      "app_key": "apple:6825610973",
+      "name": "아스트라 택틱스",
+      "developer": "Seungwoo Lee",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%95%84%EC%8A%A4%ED%8A%B8%EB%9D%BC-%ED%83%9D%ED%8B%B1%EC%8A%A4/id6825610973?uo=2",
+      "data_date": "2026-11-11",
+      "analysed_at": "2026-11-11T06:34:17+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "인앱 결제 없이 메인 40개·외전 17개 스테이지에서 즐기는 오프라인 턴제 전략 RPG. 일본어 더빙, 자유로운 난이도 조절, 컨트롤러 완벽 지원으로 더욱 재미있게 즐기세요. ■ 메인 40개·외전 17개 스테이지 오랜 전쟁이 이어지는 세계에서 개성 있는 동료들과 함께 모험하세요. 다양한 전장과 외전에서 새로운 이야기와 도전을 만나보세요. ■ 일본어 더빙 지원 일본어 대사 전체 더빙과 부분 더빙 중 원하는 방식을 선택하세요. 동료들의 목소리와 표정, 이벤트 일러스트로 이야기에 몰입할 수 있습니다. ■ 자유로운 난이도 조절 이야기를 편하게 즐기거나 치열한 전술 전투에 도전하세요. 자신에게 맞는 난이도로 모험을 이어갈 수 있습니다. ■ 컨트롤러 완벽 지원 터치와 호환 컨트롤러를 지원합니다. 익숙한 조작 방식으로 동료들을 이끌고 전장을 지휘하세요. ■ 한 번의 구매, 인앱 결제 없는 모험 추가 인앱 결제 없이 오프라인에서 즐기는 싱글플레이 게임입니다. 게임 속 상점에서는 현금이 아닌, 플레이로 획득한 게임 내 재화를 사용합니다. ■ 지형과 속성을 활용하는 전술 적과의 거리, 높이 차이, 주변 환경에 따라 같은 스킬도 다른 기회를 만듭니다. 회오리바람으로 공격 사거리를 늘리고, 물속의 적을 얼려 움직임을 막아 보세요. ■ 서로 다른 동료들의 전투 방식 검과 활, 마법과 회복, 소환까지. 동료마다 다른 역할과 스킬을 활용해 파티를 구성하세요. 적의 진형을 흔들고 서로의 빈틈을 메우며 다음 한 수를 준비할 수 있습니다. ■ 전직과 장비로 성장하는 파티 전직으로 새로운 스킬과 복장을 만나고, 다양한 장비와 고유 효과를 조합하세요. 동료 전용 장비와 세트 효과로 원하는 전투 방식을 만들어 보세요. ■ 동료들과 나누는 이야기 전투 사이에는 동료들에게 말을 걸고 각자의 사연과 의뢰를 만나보세요. 함께하는 여정 속에서 동료들을 알아가세요. ■ 다채로운 전장과 픽셀 아트 초원과 폭포가 흐르는 설산부터 화산지대, 사막의 오아시스와 늪지대까지. 쿼터뷰 픽셀 캐릭터와 다양한 지형으로 펼쳐지는 전장을 경험하세요.",
+      "analysis": {
+        "app_key": "apple:6825610973",
+        "summary_ko": "인앱 결제 없이 즐길 수 있는 오프라인 턴제 전략 RPG입니다. 쿼터뷰 픽셀 아트와 일본어 더빙을 지원하며, 지형과 속성을 활용한 전술적인 전투가 특징입니다. 메인과 외전 스테이지를 통해 풍부한 이야기를 제공합니다.",
+        "features_ko": [
+          "인앱 결제 없이 전체 콘텐츠를 즐길 수 있는 싱글플레이 게임입니다.",
+          "지형의 높낮이와 속성을 활용한 전략적인 턴제 전투를 제공합니다.",
+          "일본어 더빙과 이벤트 일러스트를 통해 몰입감을 높였습니다.",
+          "컨트롤러를 완벽하게 지원하여 다양한 조작 환경을 제공합니다.",
+          "전직, 장비 조합, 세트 효과 등 깊이 있는 성장 시스템을 갖추고 있습니다."
+        ],
+        "noteworthy_ko": "인앱 결제를 배제하고 오프라인 싱글플레이 경험에 집중한 점이 개발 관점에서 매우 독특합니다. 수익 모델보다는 게임의 완성도와 서사 전달에 집중하는 전략으로 보입니다.",
+        "development_ko": "턴제 전략 전투 로직과 지형 데이터 관리 시스템이 핵심입니다. 스토리 연출을 위한 대화 시스템과 사운드 관리, 컨트롤러 입력 처리가 중요합니다. 1인 개발 시에는 픽셀 아트 리소스와 맵 디자인의 일관성을 유지하는 것이 중요합니다.",
+        "idea_ko": "사용자가 직접 스테이지를 제작하고 공유할 수 있는 '맵 에디터' 기능을 추가하여 수명을 연장할 수 있습니다.",
+        "highlights_ko": [
+          "인앱 결제 없는 완전한 싱글플레이 경험.",
+          "지형과 속성을 활용한 깊이 있는 전술적 전투."
+        ],
+        "systems_ko": [
+          "턴제 전투 엔진",
+          "지형 및 타일 기반 맵 시스템",
+          "캐릭터 전직 및 장비 시스템",
+          "대화 및 이벤트 연출 시스템",
+          "컨트롤러 입력 처리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "턴제 전략 RPG는 전투 로직이 복잡하고, 다수의 스테이지와 스토리 연출을 구현하는 데 많은 시간이 소요됩니다. 특히 지형지물을 활용한 전투 밸런싱은 높은 수준의 기획력을 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 턴제 전투 로직",
+            "캐릭터 이동 및 공격 시스템",
+            "스테이지 진행 시스템"
+          ],
+          "defer": [
+            "일본어 더빙",
+            "복잡한 전직 트리",
+            "다양한 외전 스테이지"
+          ],
+          "risks": [
+            "전투 밸런스 조절 실패",
+            "스토리 연출 구현의 높은 작업량"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "전술 챌린지 모드",
+            "concept": "특정 조건(예: 3턴 내 승리)을 만족해야 하는 짧은 퍼즐형 전투 모드입니다.",
+            "first_step": "전투 승리 조건 판정 로직 구현."
+          },
+          {
+            "title": "동료 도감 시스템",
+            "concept": "전투 중 만난 동료들의 상세 정보와 사연을 확인할 수 있는 도감입니다.",
+            "first_step": "캐릭터 데이터베이스와 UI 연동."
+          }
+        ],
+        "recommendation_ko": "턴제 전략 게임의 기초와 스토리텔링 기법을 배우기에 최적입니다. 결제 시스템 없이 게임의 재미 자체에 집중하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 전투 엔진의 구체적인 알고리즘, 지형 데이터의 저장 방식, 컨트롤러 지원을 위한 라이브러리 정보는 명시되어 있지 않습니다.",
+        "name": "아스트라 택틱스",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%95%84%EC%8A%A4%ED%8A%B8%EB%9D%BC-%ED%83%9D%ED%8B%B1%EC%8A%A4/id6825610973?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 168,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-11"
     }
   }
 }

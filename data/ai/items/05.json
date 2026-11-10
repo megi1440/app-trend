@@ -10088,6 +10088,277 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-10"
+    },
+    "apple:6780407325": {
+      "app_key": "apple:6780407325",
+      "name": "PoKeBo ポケボー｜ボードゲーム・2人対戦",
+      "developer": "Haruto Takano",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_card",
+      "detail_url": "https://apps.apple.com/jp/app/pokebo-%E3%83%9D%E3%82%B1%E3%83%9C%E3%83%BC-%E3%83%9C%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0-2%E4%BA%BA%E5%AF%BE%E6%88%A6/id6780407325?uo=2",
+      "data_date": "2026-11-11",
+      "analysed_at": "2026-11-11T06:33:35+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ポケットに、ボードゲームを。 定番の推理ゲームから、肉でかるた、足し算×リバーシまで。PoKeBo（ポケボー）では、好きなボードゲームやカードゲームを自分の「ゲーム棚」に集めて遊べます。 ■ 今日は、どのゲームで遊ぶ？ ヒントを頼りに並びを当てる「ヒット＆ブロー」。同じお肉を先にタッチする「肉かるた」。足し算で駒をひっくり返す「ナインブレイク」。カードを組み合わせる大喜利「焼けたアスファルトのようなゴリラ」。ガチャと合成で役を狙う「ガチャポーカー」。気になるゲームを選んで、ルールを見ながら始められます。新しいゲームも順次追加予定です。 ■ 友達と、ふたりでも大人数でも ひとりがルームを作り、友達が部屋コードで参加。離れた場所からもオンラインで対戦できます。対応ゲームでは最大6人で遊べます。フリー対戦では、募集中の部屋を探して参加することもできます。 対人戦には参加者それぞれの端末とPoKeBoが必要です。対応人数や遊び方は各ゲームの紹介をご確認ください。 ■ ひとりなら、CPUとひと勝負 CPU対応ゲームでは、1台でひとりプレイができます。レベルを上げて強敵に挑戦したり、友達と遊ぶ前に練習したり。対応ゲームには、次の一手を考えるヒント機能もあります。利用条件は各ゲームの画面でご確認ください。 ■ 近くの友達とはローカル通信 Wi-FiやBluetoothを使って、近くの端末同士で対戦できます。必要な通信機能と権限を有効にしてください。オンライン対戦、初回ログイン、ゲームの初回ダウンロードなどにはインターネット接続が必要です。 ■ ゲストで始められる 「ゲストで始める」から初回の案内に沿ってニックネームを設定すればスタート。AppleまたはGoogleアカウントとの連携は任意です。同じPoKeBoアカウントでログインすると、対応するデータや購入済みゲームを引き継げます。 ■ 無料ゲームとアプリ内購入 無料で遊べるゲームと、ポイントで購入できるゲームがあります。アプリには広告と、ポイント購入・プレミアムのアプリ内購入があります。内容や価格は購入画面でご確認ください。 ■ PoKeBoプレミアム 月額または年額の任意の自動更新サブスクリプションです。加入中は広告が非表示になり、対応ゲームでヒントを使えるほか、毎月ポイントが付与されます。年額プランもポイントは毎月の付与です。ポイントに有効期限はなく、解約後も未使用分は残ります。有料ゲームは別途ポイントで購入できます。 付与ポイント数・価格・請求期間は購入画面でご確認ください。お支払いはApple Accountに請求されます。現在の期間が終了する24時間前までに解約しない限り、自動更新されます。購入後の管理・解約はApp Storeのアカウント設定から行えます。 利用規約：https://pokebo.app/terms.html プライバシーポリシー：https://pokebo.app/privacy.html サポート：https://pokebo.app/support.html",
+      "analysis": {
+        "app_key": "apple:6780407325",
+        "summary_ko": "PoKeBo는 다양한 보드게임과 카드게임을 한곳에서 즐길 수 있는 플랫폼입니다. 온라인 대전, 로컬 통신, CPU 대전 등 다양한 플레이 방식을 지원합니다.",
+        "features_ko": [
+          "다양한 보드게임과 카드게임을 '게임棚'에 모아 선택하여 플레이할 수 있습니다.",
+          "방 코드를 통해 친구와 온라인으로 대전할 수 있습니다.",
+          "CPU와 대전하며 연습하거나 실력을 겨룰 수 있습니다.",
+          "Wi-Fi나 Bluetooth를 이용한 로컬 통신 대전을 지원합니다.",
+          "구독형 프리미엄 서비스를 통해 광고 제거 및 힌트 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "여러 게임을 하나의 플랫폼 내에서 관리하는 구조가 흥미롭습니다. 게임별 규칙을 모듈화하여 확장성을 고려한 설계로 추정됩니다.",
+        "development_ko": "네트워크 통신(실시간 대전) 구현이 가장 큰 난관입니다. 게임별 규칙 엔진을 독립적으로 구현하고 플랫폼과 연동하는 구조적 설계가 필요합니다.",
+        "idea_ko": "사용자가 직접 간단한 보드게임 규칙을 설정하여 방을 만드는 '커스텀 룰 메이커' 기능이 적합합니다.",
+        "highlights_ko": [
+          "온라인과 로컬 통신을 모두 지원하여 다양한 환경에서 대전이 가능합니다.",
+          "게스트 로그인 기능을 통해 즉시 게임을 시작할 수 있는 접근성을 제공합니다."
+        ],
+        "systems_ko": [
+          "게임 모듈 관리 시스템",
+          "실시간 네트워크 통신 시스템",
+          "사용자 계정 및 데이터 동기화",
+          "결제 및 구독 관리 시스템",
+          "매칭 및 방 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 게임 규칙의 구현과 안정적인 실시간 네트워크 통신은 개인 개발자에게 매우 높은 난이도입니다. 특히 동기화 문제 해결이 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "단일 보드게임 규칙 구현",
+            "로컬 2인 대전 기능",
+            "기본 UI"
+          ],
+          "defer": [
+            "온라인 멀티플레이",
+            "다양한 게임 추가",
+            "구독 결제 시스템"
+          ],
+          "risks": [
+            "네트워크 지연으로 인한 게임 경험 저하",
+            "게임별 규칙의 밸런스 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "커스텀 룰 메이커",
+            "concept": "기존 게임의 규칙을 일부 수정(예: 이동 거리 변경)하여 자신만의 게임을 만드는 기능입니다.",
+            "first_step": "게임의 규칙 변수를 외부 설정 파일로 분리하여 수정 가능하게 만들기."
+          },
+          {
+            "title": "대전 기록 분석기",
+            "concept": "대전을 마친 후 승패 요인을 분석하여 보여주는 기능입니다.",
+            "first_step": "게임의 주요 행동 로그를 저장하고 승패와 매핑하는 데이터 구조 설계."
+          }
+        ],
+        "recommendation_ko": "네트워크 프로그래밍과 모듈형 게임 설계에 관심 있는 개발자에게 추천합니다. 복잡한 시스템을 관리하는 능력을 기를 수 있습니다.",
+        "source_limitations_ko": "각 게임의 구체적인 구현 방식과 네트워크 동기화 알고리즘은 알 수 없습니다. 결제 및 보안 관련 상세 구현은 확인되지 않습니다.",
+        "name": "PoKeBo ポケボー｜ボードゲーム・2人対戦",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/pokebo-%E3%83%9D%E3%82%B1%E3%83%9C%E3%83%BC-%E3%83%9C%E3%83%BC%E3%83%89%E3%82%B2%E3%83%BC%E3%83%A0-2%E4%BA%BA%E5%AF%BE%E6%88%A6/id6780407325?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 198,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 14,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-11"
+    },
+    "apple:6827633435": {
+      "app_key": "apple:6827633435",
+      "name": "issho：好きな人といっしょの時間を記録",
+      "developer": "zoome LLC",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/jp/app/issho-%E5%A5%BD%E3%81%8D%E3%81%AA%E4%BA%BA%E3%81%A8%E3%81%84%E3%81%A3%E3%81%97%E3%82%87%E3%81%AE%E6%99%82%E9%96%93%E3%82%92%E8%A8%98%E9%8C%B2/id6827633435",
+      "data_date": "2026-11-11",
+      "analysed_at": "2026-11-11T06:36:42+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "好きな人といっしょに過ごした時間を記録するアプリです。ふたりのスマホをペアリングするだけで一緒にいる時間を自動で記録します。 アプリがバックグラウンドにあっても近くにいるあいだ記録してくれます。 ・Bluetoothで「いっしょ」の時間を自動記録 ・カレンダーで日ごとの時間や時間帯を振り返る ・合計時間や会えた日を確認 ・月や年の記録を1枚のカードにして共有 ・恋人・家族・友達と複数のペアを作成可能 ・Live Activityとホーム画面ウィジェットで猫と時間を表示 日記を書いたり写真を撮ったりしなくても、ただ一緒にいるだけで記録が残っていきます。 猫のドット絵：ガラムマサラさん 【サブスクリプションについて】 価格と期間は購入画面に表示されます。お支払いはApple Accountに請求されます。DETAILは現在の期間が終了する24時間前までに解約しない限り自動更新されます。購入後の管理・解約はApp Storeのアカウント設定から行えます。 プライバシーポリシー：https://dotpx.com/en/privacy_policy.html 利用規約：https://dotpx.com/en/terms_of_service.html 標準使用許諾契約：https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "analysis": {
+        "app_key": "apple:6827633435",
+        "summary_ko": "issho는 연인, 가족, 친구와 함께 보낸 시간을 자동으로 기록하는 앱입니다. 블루투스를 활용해 두 기기가 가까이 있을 때 시간을 측정하며, 기록된 데이터는 캘린더와 위젯으로 확인할 수 있습니다. 별도의 수동 입력 없이도 관계의 시간을 시각화해 줍니다.",
+        "features_ko": [
+          "블루투스를 사용하여 두 기기 간의 근접 시간을 자동으로 기록합니다.",
+          "앱이 백그라운드에 있어도 근접 상태를 감지하여 기록합니다.",
+          "캘린더를 통해 일별, 시간대별 기록을 시각화하여 제공합니다.",
+          "월간 및 연간 기록을 카드 형태로 공유할 수 있습니다.",
+          "Live Activity와 홈 화면 위젯을 통해 실시간 상태를 표시합니다."
+        ],
+        "noteworthy_ko": "사용자의 개입을 최소화하고 블루투스 근접 센서를 활용해 관계의 시간을 기록하는 아이디어가 매우 직관적입니다. 백그라운드 동작과 배터리 효율 간의 균형을 어떻게 맞췄는지가 개발 관점에서 핵심적인 도전 과제일 것으로 추정됩니다.",
+        "development_ko": "블루투스 저전력(BLE) 통신 구현과 백그라운드 위치/근접 감지 권한 처리가 핵심입니다. 데이터의 정확성을 위한 동기화 로직과 배터리 소모 최적화가 중요합니다. 사용자 경험을 위해 위젯 및 Live Activity 연동 구현이 필요합니다.",
+        "idea_ko": "기록된 시간을 바탕으로 두 사람이 함께한 장소를 지도에 표시하거나, 특정 시간 달성 시 디지털 기념품을 제공하는 기능을 제안합니다.",
+        "highlights_ko": [
+          "수동 입력 없는 자동 기록 방식.",
+          "위젯과 Live Activity를 활용한 실시간 정보 제공."
+        ],
+        "systems_ko": [
+          "블루투스(BLE) 통신 시스템",
+          "백그라운드 서비스 관리",
+          "데이터베이스(로컬/클라우드)",
+          "위젯 및 Live Activity 연동",
+          "사용자 페어링 로직"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "iOS의 백그라운드 정책상 블루투스 기반의 지속적인 감지는 구현이 까다롭고 배터리 소모 이슈를 해결하기 어렵습니다. 또한 기기 간 페어링 및 데이터 동기화 로직은 높은 수준의 네트워크/통신 지식을 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "블루투스 페어링 및 감지 로직",
+            "시간 기록 데이터베이스",
+            "기본 캘린더 뷰"
+          ],
+          "defer": [
+            "Live Activity 구현",
+            "카드 공유 기능"
+          ],
+          "risks": [
+            "iOS 백그라운드 제한으로 인한 기록 누락",
+            "블루투스 연결 안정성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "함께한 장소 지도",
+            "concept": "기록된 시간 동안 머물렀던 위치를 지도에 점으로 표시하여 추억을 시각화합니다.",
+            "first_step": "기록 시점의 위치 정보를 함께 저장하는 기능을 추가합니다."
+          },
+          {
+            "title": "관계 퀴즈",
+            "concept": "함께한 시간이 길어질수록 서로에 대해 얼마나 잘 아는지 확인하는 퀴즈를 제공합니다.",
+            "first_step": "기록된 시간을 기준으로 퀴즈 잠금을 해제하는 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "하드웨어 센서와 앱을 연동하는 경험을 쌓고 싶은 개발자에게 추천합니다. 백그라운드 처리와 데이터 동기화의 어려움을 배울 수 있습니다.",
+        "source_limitations_ko": "블루투스 통신 방식의 구체적인 구현(CoreBluetooth 등)은 알 수 없습니다. 구독 모델의 서버 측 처리 방식은 확인되지 않았습니다.",
+        "name": "issho：好きな人といっしょの時間を記録",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/issho-%E5%A5%BD%E3%81%8D%E3%81%AA%E4%BA%BA%E3%81%A8%E3%81%84%E3%81%A3%E3%81%97%E3%82%87%E3%81%AE%E6%99%82%E9%96%93%E3%82%92%E8%A8%98%E9%8C%B2/id6827633435",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 84,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-11"
+    },
+    "apple:6739792763": {
+      "app_key": "apple:6739792763",
+      "name": "Jackpot Go: Slots Casino",
+      "developer": "WISE WISHES STUDIO LIMITED",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/us/app/jackpot-go-slots-casino/id6739792763?uo=2",
+      "data_date": "2026-11-11",
+      "analysed_at": "2026-11-11T06:36:42+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Jackpot Go delivers an immersive slots experience like no other. Featuring a vast array of themed slot machines, unique gameplay mechanics, stunning visuals, vibrant symbols, and rewarding bonuses, Jackpot Go makes every spin exciting. With a bit of luck and strategy, you can immerse yourself in this thrilling real money casino jackpot! Why Choose Jackpot Go? ·Diverse Game Selection Jackpot Go offers a vast selection of casino games, from thrilling slots to captivating table games. Enjoy top-charting themes and hit slots from industry-leading providers such as Tada, Booming, Betsoft, Bgaming and more. All games combine stunning visuals, smooth performance, and a design that balances entertainment with rewarding potential, delivering an exceptional casino real money experience. ·Continuous Rewards Earn generous rewards through daily login bonuses, limited-time events, and high-stakes real-money tournaments. Invite friends to receive Free Spin rewards and embark on a winning journey together. With numerous slots for real money opportunities, every moment is a new chance to strike it rich. ·Regular Updates The app continuously introduces new slots and optimizes features, ensuring a fresh experience with every visit. The intuitive interface makes spinning and betting easy for both beginners and experienced players seeking exciting games. ·Cross-Platform Excellence Enjoy smooth performance across all devices, paired with HD visuals and immersive soundscapes that bring the casino atmosphere to you anytime, anywhere. ·Safe & Supported Professional customer support is available 24/7, ensuring secure transactions and fast withdrawals—making Jackpot Go a trusted real money slots and casino destination. Join Jackpot Go now to begin your thrilling online casino adventure where slots win real money and big rewards await! Follow Us for Exclusive Tips： Facebook: https://www.facebook.com/profile.php?id=61574847730666 Instagram: https://www.instagram.com/jackpotgoslots/ X: https://x.com/JackpotGoo Youtube: https://www.youtube.com/@JackpotGoOfficial Support Contact: support@jackpotgo.club",
+      "analysis": {
+        "app_key": "apple:6739792763",
+        "summary_ko": "Jackpot Go는 다양한 테마의 슬롯머신을 즐길 수 있는 카지노 게임입니다. 화려한 비주얼과 사운드, 다양한 보너스 이벤트를 통해 몰입감 있는 슬롯 경험을 제공합니다. 사용자는 전략과 운을 시험하며 다양한 테마의 슬롯 게임을 플레이할 수 있습니다.",
+        "features_ko": [
+          "다양한 테마의 슬롯머신과 테이블 게임을 제공합니다.",
+          "매일 로그인 보너스, 한정 이벤트, 토너먼트 등 지속적인 보상을 제공합니다.",
+          "친구 초대 기능을 통해 무료 스핀 보상을 획득할 수 있습니다.",
+          "직관적인 인터페이스로 초보자와 숙련자 모두 쉽게 베팅할 수 있습니다.",
+          "HD 비주얼과 몰입감 있는 사운드 환경을 제공합니다."
+        ],
+        "noteworthy_ko": "카지노 게임은 사용자 유지(Retention)를 위한 보상 설계가 매우 정교합니다. 다양한 테마의 슬롯을 지속적으로 업데이트하는 운영 구조가 개발 관점에서 흥미로운 부분입니다.",
+        "development_ko": "슬롯머신의 확률 알고리즘 구현과 서버 기반의 데이터 동기화가 핵심입니다. 화려한 시각 효과를 위한 그래픽 리소스 최적화와 다양한 보상 이벤트 로직 구현이 필요합니다. 보안 및 안정적인 결제 시스템 구축이 필수적입니다.",
+        "idea_ko": "슬롯머신 결과에 따라 캐릭터가 성장하거나, 특정 테마의 슬롯을 완료하면 수집품을 얻는 RPG 요소를 결합하는 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "다양한 테마의 슬롯머신 제공.",
+          "지속적인 보상과 이벤트를 통한 사용자 참여 유도."
+        ],
+        "systems_ko": [
+          "확률 및 난수 생성 시스템",
+          "보상 및 이벤트 관리 시스템",
+          "데이터 동기화(서버)",
+          "그래픽 및 사운드 엔진",
+          "결제 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "카지노 게임은 확률 알고리즘의 공정성과 보안이 매우 중요합니다. 또한 서버와의 실시간 데이터 동기화 및 결제 시스템 구현은 높은 수준의 보안 지식을 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 슬롯머신 로직",
+            "확률 기반 보상 시스템",
+            "기본 UI 및 베팅 시스템"
+          ],
+          "defer": [
+            "멀티플레이어 토너먼트",
+            "다양한 테마 확장"
+          ],
+          "risks": [
+            "확률 알고리즘의 공정성 논란",
+            "보안 취약점으로 인한 데이터 조작 위험"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "슬롯 RPG",
+            "concept": "슬롯 결과로 몬스터를 공격하는 전투 시스템을 결합합니다.",
+            "first_step": "슬롯 결과값에 따라 데미지를 계산하는 로직을 구현합니다."
+          },
+          {
+            "title": "테마 수집 슬롯",
+            "concept": "슬롯을 돌려 특정 아이템을 모아 테마를 완성하는 수집형 게임입니다.",
+            "first_step": "아이템 인벤토리 시스템을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "확률 기반의 게임 시스템과 보상 설계에 관심 있는 개발자에게 추천합니다. 다만, 보안과 결제 시스템 구현은 매우 신중해야 합니다.",
+        "source_limitations_ko": "확률 알고리즘의 구체적인 구현 방식은 알 수 없습니다. 실제 현금 결제와 관련된 보안 정책 및 서버 구조는 확인되지 않았습니다.",
+        "name": "Jackpot Go: Slots Casino",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/jackpot-go-slots-casino/id6739792763?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 88,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-11"
     }
   }
 }
