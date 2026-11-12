@@ -10461,6 +10461,97 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-10"
+    },
+    "apple:1116232218": {
+      "app_key": "apple:1116232218",
+      "name": "POSTAL Classic & Uncut",
+      "developer": "Running With Scissors",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/us/app/postal-classic-uncut/id1116232218?uo=2",
+      "data_date": "2026-11-12",
+      "analysed_at": "2026-11-12T07:11:51+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Crazed gunmen out for your blood await you around every corner, and your only choice is to get them before they get you. Fight back with a destructive arsenal as you make your way through a violence-stricken town. It’s time to GO POSTAL! • Twin stick-style touchscreen controls! • Blast your way through 22 levels: Includes the original 16 level campaign and 4 from the Special Delivery expansion! • Test yourself in a run through the 23 bonus challenge stages in The Gauntlet! • 9 devastating weapons: Defend yourself with varied tools of mayhem. Take aim with the Scatter Gun! Clear out rooms with Grenades, Mines, and the almighty Napalm Launcher! Whip out Heatseeker Rockets for those big groups! • Wide range of foes: Defend yourself from Molotov-tossing Grenadiers, gun-toting Infantryman, rocket-firing Heavy-Weapons Experts (don’t forget to duck!), and angry Ostriches! • Non-stop, guns-blazing, adrenaline-fueled action!",
+      "analysis": {
+        "app_key": "apple:1116232218",
+        "summary_ko": "POSTAL Classic & Uncut은 고전 액션 게임을 모바일 환경에 맞게 이식한 트윈 스틱 슈팅 게임입니다. 다양한 무기를 사용하여 적들을 물리치며 22개의 레벨을 통과하는 것이 목표입니다. 9가지의 파괴적인 무기와 다채로운 적들이 등장하며, 빠른 템포의 액션을 즐길 수 있습니다.",
+        "features_ko": [
+          "트윈 스틱 방식의 터치스크린 조작을 지원합니다.",
+          "총 22개의 레벨(오리지널 16개 + 확장팩 4개 + 보너스 2개)을 제공합니다.",
+          "9가지의 다양한 무기(산탄총, 수류탄, 화염방사기 등)를 사용할 수 있습니다.",
+          "다양한 공격 패턴을 가진 적들과 보스들이 등장합니다.",
+          "23개의 보너스 챌린지 스테이지인 'The Gauntlet'을 포함합니다."
+        ],
+        "noteworthy_ko": "고전 게임의 조작 방식을 모바일 터치 환경으로 성공적으로 변환한 사례입니다. 트윈 스틱 슈팅의 핵심인 조준과 이동의 분리를 모바일에서 어떻게 구현했는지 분석하는 것이 흥미롭습니다.",
+        "development_ko": "슈팅 게임의 핵심인 탄도 계산, 충돌 판정, 적 AI 구현이 중요합니다. 모바일 환경에 최적화된 가상 조이스틱 UI 구현과 고전 게임의 레벨 데이터를 모바일 엔진으로 이식하는 작업이 필요합니다.",
+        "idea_ko": "적들이 특정 패턴으로 움직이는 '웨이브 모드'를 추가하여 무한 생존 게임으로 확장할 수 있습니다.",
+        "highlights_ko": [
+          "고전 게임의 향수를 자극하는 액션과 무기 구성.",
+          "트윈 스틱 조작을 통한 모바일 최적화."
+        ],
+        "systems_ko": [
+          "트윈 스틱 조작 시스템",
+          "슈팅 및 탄도 물리 시스템",
+          "적 AI 및 행동 패턴 시스템",
+          "레벨 데이터 관리 시스템",
+          "무기 및 아이템 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "슈팅 게임은 물리 엔진과 충돌 판정, 적 AI 등 구현해야 할 요소가 많습니다. 특히 모바일에서 쾌적한 조작감을 구현하는 것은 높은 기술적 숙련도를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "플레이어 이동 및 조준 시스템",
+            "기본 무기 발사 및 충돌 판정",
+            "간단한 적 AI"
+          ],
+          "defer": [
+            "다양한 무기 종류",
+            "복잡한 레벨 디자인",
+            "보너스 챌린지 모드"
+          ],
+          "risks": [
+            "터치 조작감의 불편함",
+            "적 AI의 최적화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "로그라이크 모드",
+            "concept": "레벨을 클리어할 때마다 무기나 능력치를 무작위로 선택하여 강화하는 로그라이크 요소를 추가합니다.",
+            "first_step": "능력치 강화 리스트 및 선택 UI 구현."
+          },
+          {
+            "title": "협동 모드",
+            "concept": "두 명의 플레이어가 동시에 접속하여 적들을 물리치는 협동 모드를 추가합니다.",
+            "first_step": "네트워크 동기화 기초 및 두 번째 플레이어 캐릭터 생성."
+          }
+        ],
+        "recommendation_ko": "액션 게임의 기본기인 물리, AI, 조작 시스템을 배우기에 최적입니다. 고전 게임을 현대적으로 재해석하는 과정을 통해 게임 디자인 역량을 키울 수 있습니다.",
+        "source_limitations_ko": "게임 엔진의 종류, 물리 엔진의 상세 설정, 적 AI의 알고리즘(FSM 등)에 대한 구체적인 정보는 확인되지 않습니다.",
+        "name": "POSTAL Classic & Uncut",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/postal-classic-uncut/id1116232218?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 195,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 15,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-12"
     }
   }
 }

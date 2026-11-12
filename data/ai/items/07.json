@@ -11243,6 +11243,94 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-11"
+    },
+    "google:com.ideawork.icrunch": {
+      "app_key": "google:com.ideawork.icrunch",
+      "name": "Crunch Fitness",
+      "developer": "Crunch Gym",
+      "source": "google",
+      "country": "US",
+      "category": "app_health_fitness",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.ideawork.icrunch&hl=en&gl=US",
+      "data_date": "2026-11-12",
+      "analysed_at": "2026-11-12T07:14:39+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "The Crunch Fitness mobile app is a great way for Crunch members to enhance their fitness experience! With the app, you can: - Check into the gym with ease. - Track your gym check-ins and see your progress. - Review and manage your group class bookings. - Access and check your billing history. - Record your workouts and set personal fitness goals. - Connect your fitness wearable to track your activity seamlessly. - Health Connect. The app integrates with Health Connect to securely access your workout and health data such as steps, distance, heart rate, blood pressure, body fat, calories, weight, and height to display accurate training summaries and progress tracking. This feature is disabled by default and only becomes active when you choose to connect to Health Connect. Download the Crunch Fitness app today and take control of your fitness journey!",
+      "analysis": {
+        "app_key": "google:com.ideawork.icrunch",
+        "summary_ko": "Crunch Fitness 앱은 회원들이 체육관 이용을 관리하고 피트니스 목표를 달성하도록 돕는 멤버십 관리 도구입니다. 체크인 기록, 수업 예약, 청구 내역 관리 및 운동 기록 기능을 제공합니다. Health Connect와 연동하여 건강 데이터를 통합 관리할 수 있습니다.",
+        "features_ko": [
+          "체육관 체크인 기록 및 진행 상황 추적 기능을 제공합니다.",
+          "그룹 수업 예약 및 관리 기능을 지원합니다.",
+          "청구 내역 확인 및 멤버십 관리 기능을 포함합니다.",
+          "Health Connect와 연동하여 운동 및 건강 데이터를 통합합니다."
+        ],
+        "noteworthy_ko": "사용자의 건강 데이터를 외부 API(Health Connect)와 연동하여 개인화된 피트니스 리포트를 제공하는 점이 핵심입니다. 이는 단순한 관리 앱을 넘어 데이터 기반의 건강 관리 플랫폼으로 확장하려는 의도로 보입니다.",
+        "development_ko": "핵심 기술은 외부 API 연동 및 보안 데이터 처리입니다. 사용자 인증과 결제 내역 관리가 포함되어 있어 높은 수준의 보안 구현이 필요합니다. 밸런스보다는 데이터의 정확성과 서버와의 실시간 동기화가 개발의 핵심입니다.",
+        "idea_ko": "개인 운동 루틴을 기록하고 공유하는 커뮤니티형 운동 기록 앱 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "Health Connect 연동을 통해 사용자의 건강 데이터를 체계적으로 관리합니다.",
+          "체크인부터 결제까지 체육관 이용의 전 과정을 모바일로 통합 관리합니다."
+        ],
+        "systems_ko": [
+          "사용자 인증 및 계정 관리 시스템",
+          "외부 API(Health Connect) 연동 시스템",
+          "데이터베이스 기반의 운동 기록 관리 시스템",
+          "결제 내역 조회 및 예약 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "개인 정보와 결제 데이터를 다루며 외부 API 연동이 필수적이므로 보안과 데이터 무결성 확보가 매우 까다롭습니다. 1인 개발자가 모든 기능을 안정적으로 구현하기에는 운영 부담이 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 로그인 및 프로필 관리",
+            "운동 기록 입력 및 저장 기능"
+          ],
+          "defer": [
+            "결제 내역 관리",
+            "Health Connect 연동",
+            "그룹 수업 예약 시스템"
+          ],
+          "risks": [
+            "개인 정보 보안 사고",
+            "외부 API 정책 변경에 따른 대응 부담"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "오늘의 운동 루틴",
+            "concept": "사용자가 직접 루틴을 만들고 수행 여부를 체크하는 단순 기록 앱입니다. 데이터 연동 없이 로컬 저장소만 사용합니다.",
+            "first_step": "루틴 리스트를 생성하고 완료 상태를 저장하는 기능 구현."
+          },
+          {
+            "title": "운동 기록 캘린더",
+            "concept": "달력에 운동한 날을 표시하고 간단한 메모를 남기는 앱입니다. 시각적인 성취감을 강조합니다.",
+            "first_step": "달력 UI 라이브러리를 활용한 날짜별 데이터 저장 기능 구현."
+          }
+        ],
+        "recommendation_ko": "데이터베이스 설계와 API 연동을 경험하고 싶은 개발자에게 추천합니다. 다만, 보안이 중요한 앱이므로 실제 서비스보다는 학습용 프로젝트로 접근하는 것이 좋습니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 서버 아키텍처, 결제 시스템의 구체적인 구현 방식, 보안 프로토콜은 확인할 수 없습니다.",
+        "name": "Crunch Fitness",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.ideawork.icrunch&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-12"
     }
   }
 }

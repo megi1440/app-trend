@@ -10814,6 +10814,455 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-11"
+    },
+    "itch:7da2c634caaf00b53ca1": {
+      "app_key": "itch:7da2c634caaf00b53ca1",
+      "name": "Vidrado [Free]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://grebmetsualg.itch.io/vidrado",
+      "data_date": "2026-11-12",
+      "analysed_at": "2026-11-12T07:10:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Block puzzle com azulejos do Recife. Encaixe, limpe a parede, fique vidrado.",
+      "analysis": {
+        "app_key": "itch:7da2c634caaf00b53ca1",
+        "summary_ko": "레시피(Recife)의 타일 문양을 테마로 한 블록 퍼즐 게임입니다. 사용자는 블록을 배치하여 벽을 채우고 제거하는 방식으로 게임을 진행합니다. 단순하면서도 지역적인 색채를 담은 퍼즐 경험을 제공합니다.",
+        "features_ko": [
+          "블록을 배치하여 빈 공간을 채우는 퍼즐 메커니즘을 제공합니다.",
+          "특정 조건을 만족하면 벽을 지우는 클리어 시스템이 작동합니다."
+        ],
+        "noteworthy_ko": "특정 지역의 문화적 요소인 타일 디자인을 게임의 시각적 테마로 활용한 점이 흥미롭습니다. 퍼즐의 기본 규칙에 지역적 정체성을 입히는 방식은 소규모 프로젝트의 차별화 전략으로 유효해 보입니다.",
+        "development_ko": "핵심 구현 기술로는 그리드 기반의 블록 배치 로직과 타일 제거 알고리즘이 필요합니다. 콘텐츠 제작은 타일 그래픽 에셋의 통일성이 중요하며, 밸런스는 블록 생성 패턴의 난이도 조절에 집중해야 합니다.",
+        "idea_ko": "지역별 전통 문양을 수집하는 도감 시스템을 결합하여 퍼즐 완료의 동기를 강화하는 아이디어를 추천합니다.",
+        "highlights_ko": [
+          "레시피 지역의 타일 디자인을 활용한 독특한 시각적 테마를 가지고 있습니다.",
+          "블록을 맞추고 벽을 비우는 직관적인 퍼즐 규칙을 따릅니다."
+        ],
+        "systems_ko": [
+          "그리드 기반 맵 데이터 관리",
+          "블록 배치 및 충돌 판정",
+          "라인 제거 및 점수 계산 로직",
+          "UI 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "기본적인 블록 퍼즐 메커니즘은 구현 난이도가 낮고, 그래픽 에셋의 양이 많지 않아 1인 개발자가 시도하기에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "그리드 보드 시스템",
+            "블록 드래그 앤 드롭 기능",
+            "라인 클리어 판정 로직"
+          ],
+          "defer": [
+            "다양한 스테이지 모드",
+            "글로벌 리더보드"
+          ],
+          "risks": [
+            "퍼즐의 반복적인 재미 부족",
+            "타일 디자인의 가독성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "문양 수집가 모드",
+            "concept": "퍼즐을 풀 때마다 지역별 타일 문양을 수집하여 도감을 완성하는 모드입니다. 수집 요소가 퍼즐 플레이의 지속성을 높입니다.",
+            "first_step": "기본 퍼즐 클리어 시 특정 이미지 에셋이 잠금 해제되는 로직 구현."
+          },
+          {
+            "title": "타일 회전 퍼즐",
+            "concept": "블록을 배치하기 전 회전시켜 더 복잡한 패턴을 맞추는 방식입니다. 전략적 사고를 요구하여 난이도를 조절합니다.",
+            "first_step": "블록 클릭 시 90도 회전하는 입력 처리 구현."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 핵심 로직인 그리드 시스템을 학습하기에 좋습니다. 단순한 규칙에 시각적 테마를 입히는 과정을 연습하기에 적합합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 게임의 구체적인 조작 방식, 스테이지 구성, 점수 체계 등은 확인되지 않습니다.",
+        "name": "Vidrado [Free]",
+        "source": "itch",
+        "detail_url": "https://grebmetsualg.itch.io/vidrado",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 374,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-12"
+    },
+    "google:com.cheezteam.org": {
+      "app_key": "google:com.cheezteam.org",
+      "name": "MiuMiu VPN",
+      "developer": "CHEEZ ANDROID SOFTWARE",
+      "source": "google",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.cheezteam.org&hl=en&gl=US",
+      "data_date": "2026-11-12",
+      "analysed_at": "2026-11-12T07:11:51+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "MiuMiu VPN is a fast, secure, and reliable VPN app designed to protect your online privacy and provide a safe internet experience. With just one tap, you can connect to a stable VPN network and enjoy a smooth browsing experience anytime, anywhere. Using advanced encryption technology, MiuMiu VPN keeps your data safe from trackers and protects your personal information on public Wi-Fi and mobile networks. 🔑 Key Features: ⚡ Fast & stable VPN connection for daily use 🔒 Strong encryption to protect your online activities 🌍 Multiple server locations available worldwide 🖥️ Simple & user-friendly interface – connect with one tap 🚫 No mandatory sign-up required 📱 Works across Wi-Fi, 4G, 5G, and any mobile data ⚡ Automatic Selected better server MiuMiu VPN is built for users who want security, speed, and simplicity in one app. Whether you are browsing, streaming, or working online, MiuMiu VPN helps you stay safe and connected. Download MiuMiu VPN today and enjoy a private, secure, and seamless internet experience",
+      "analysis": {
+        "app_key": "google:com.cheezteam.org",
+        "summary_ko": "MiuMiu VPN은 사용자의 온라인 개인정보 보호와 안전한 인터넷 환경을 제공하는 도구입니다. 원터치 연결을 통해 간편하게 VPN 네트워크를 이용할 수 있으며, 암호화 기술을 통해 공공 와이파이 등에서 데이터를 보호합니다.",
+        "features_ko": [
+          "원터치로 빠르고 안정적인 VPN 서버에 연결합니다.",
+          "강력한 암호화 기술을 사용하여 온라인 활동을 보호합니다.",
+          "전 세계 다양한 서버 위치를 선택할 수 있습니다.",
+          "별도의 회원가입 없이 즉시 사용이 가능합니다.",
+          "와이파이, 4G, 5G 등 모든 모바일 네트워크 환경에서 작동합니다."
+        ],
+        "noteworthy_ko": "사용자 편의성을 위해 회원가입 절차를 생략한 점이 특징입니다. 네트워크 트래픽을 안전하게 우회하는 기술적 구현과 서버 인프라 운영이 핵심입니다.",
+        "development_ko": "VPN 프로토콜(OpenVPN, WireGuard 등)을 활용한 네트워크 터널링 기술이 핵심입니다. 서버 인프라 구축 및 유지보수 비용이 발생하며, 연결 안정성을 위한 서버 모니터링 시스템이 필요합니다.",
+        "idea_ko": "특정 앱만 VPN을 통과하도록 설정하는 '앱별 VPN 필터링' 기능이 사용자에게 유용할 것입니다.",
+        "highlights_ko": [
+          "회원가입 없는 간편한 원터치 연결 방식.",
+          "다양한 네트워크 환경을 지원하는 범용성."
+        ],
+        "systems_ko": [
+          "VPN 프로토콜 연결 관리 시스템",
+          "서버 리스트 및 상태 모니터링 시스템",
+          "네트워크 트래픽 암호화 모듈",
+          "사용자 연결 로그 및 데이터 관리",
+          "UI/UX 연결 상태 표시 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "단순 UI 구현을 넘어 네트워크 프로토콜에 대한 깊은 이해와 안정적인 서버 인프라 운영이 필수적입니다. 보안 관련 앱이므로 데이터 처리의 신뢰성이 매우 중요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "VPN 연결/해제 기능",
+            "서버 선택 UI",
+            "연결 상태 표시"
+          ],
+          "defer": [
+            "자동 서버 선택 알고리즘",
+            "고급 암호화 설정 옵션"
+          ],
+          "risks": [
+            "서버 운영 비용 및 트래픽 관리",
+            "보안 취약점 노출 위험"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스마트 연결 스케줄러",
+            "concept": "특정 시간이나 특정 와이파이 네트워크에 접속할 때 자동으로 VPN이 활성화되도록 설정합니다.",
+            "first_step": "네트워크 상태 변화를 감지하는 백그라운드 서비스 구현."
+          },
+          {
+            "title": "데이터 사용량 모니터링",
+            "concept": "VPN을 통해 소비된 데이터 양을 실시간으로 시각화하여 사용자에게 보여줍니다.",
+            "first_step": "네트워크 인터페이스의 트래픽 통계를 읽어오는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "네트워크 프로토콜과 보안 통신에 관심이 있다면 좋은 학습 대상입니다. 다만, 실제 서비스 운영을 위해서는 서버 인프라에 대한 투자가 필수적입니다.",
+        "source_limitations_ko": "사용된 VPN 프로토콜의 종류, 서버 위치의 실제 개수, 데이터 로그 정책에 대한 구체적인 정보는 확인되지 않습니다.",
+        "name": "MiuMiu VPN",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.cheezteam.org&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 216,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 8,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-12"
+    },
+    "apple:6815260519": {
+      "app_key": "apple:6815260519",
+      "name": "Ludo Go! - 루도 보드게임",
+      "developer": "Easybrain Ltd",
+      "source": "apple",
+      "country": "US",
+      "category": "game_board",
+      "detail_url": "https://apps.apple.com/kr/app/ludo-go-%EB%A3%A8%EB%8F%84-%EB%B3%B4%EB%93%9C%EA%B2%8C%EC%9E%84/id6815260519?uo=2",
+      "data_date": "2026-11-12",
+      "analysed_at": "2026-11-12T07:11:51+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Discover Ludo Go!, a fun board game where every dice roll brings you closer to victory! Move the pieces across the board, knock opponents back to start, and race to bring all your pieces to the finish first. The gameplay feels simple, competitive, and rewarding, blending classic ludo rules with familiar parchis-style routes, parchisi traditions, and smart tactical choices. Ludo Go! gives you simple rules from the first roll while adding more depth as you progress. Every level brings a new board layout, fresh challenges, and new ways to outplay your opponent. Roll the dice, choose your best move, use special tiles, and turn every race into a fun game clash! How to play Ludo Go!: • Roll the dice and move your pieces across the board. • Roll a 6 to leave the starting area and enter the race. • Land on an opponent’s tile to knock their piece back to start. • Choose which piece to move and plan your route to the finish. • Use bonus tiles to move forward, move back, teleport, or trigger special effects. • Unlock unique piece abilities and make your moves even stronger. • Bring all your pieces to the finish before your opponent to win the level. Why you'll love Ludo Go!: • Simple rules and exciting competitive gameplay. • Classic mechanics, fast turns, and level-based goals. • Fast dice rolls, smart moves, and satisfying moments when you knock opponents back. • Bonus tiles that can move pieces forward, send them back, teleport, block, or give extra effects. • Unique piece abilities, including extra life, armor, and speed. • New level layouts, bonus mechanics, and special tiles that appear as you progress. • Easy to play, but full of tactical decisions that make every dice roll feel important. • A great pick for fans of free board games, parcheesi, and quick dice games. Play Ludo Go! and enjoy a fresh board adventure across exciting levels and become the king of ludo! Terms of Use: https://easybrain.com/terms Privacy Policy: https://easybrain.com/privacy",
+      "analysis": {
+        "app_key": "apple:6815260519",
+        "summary_ko": "Ludo Go!는 고전 루도 게임 규칙에 현대적인 레벨 기반의 도전과 보너스 타일 요소를 결합한 보드게임입니다. 주사위를 굴려 말을 이동시키고 상대방을 시작점으로 돌려보내며, 모든 말을 먼저 결승점에 도달시키는 것이 목표입니다. 레벨이 올라갈수록 다양한 보드 레이아웃과 특수 능력이 추가되어 전략적인 재미를 제공합니다.",
+        "features_ko": [
+          "주사위를 굴려 말을 이동시키는 고전 루도 규칙을 따릅니다.",
+          "상대방의 말 위에 착륙하여 시작점으로 돌려보내는 공격 규칙이 있습니다.",
+          "보너스 타일을 통해 이동, 순간이동, 특수 효과를 발동합니다.",
+          "말마다 고유한 능력(추가 생명, 방어력, 속도 등)을 잠금 해제할 수 있습니다.",
+          "레벨마다 새로운 보드 레이아웃과 도전 과제가 제공됩니다."
+        ],
+        "noteworthy_ko": "단순한 보드게임에 RPG적인 요소(말의 능력치, 레벨 디자인)를 결합하여 반복 플레이의 동기를 부여한 점이 흥미롭습니다. 보드게임의 규칙을 디지털 환경에서 어떻게 확장할 수 있는지 보여주는 좋은 사례입니다.",
+        "development_ko": "턴제 게임 로직과 주사위 확률 시스템 구현이 핵심입니다. 보드 레이아웃을 관리하는 데이터 구조와 특수 타일의 효과를 처리하는 이벤트 시스템이 필요하며, 레벨 디자인을 위한 에디터 도구가 있으면 효율적입니다.",
+        "idea_ko": "실시간 멀티플레이어 모드를 추가하여 친구들과 함께 대전할 수 있는 기능을 구현하면 더욱 재미있을 것입니다.",
+        "highlights_ko": [
+          "고전 규칙과 현대적 레벨 디자인의 조화.",
+          "말의 고유 능력과 보너스 타일을 통한 전략적 깊이."
+        ],
+        "systems_ko": [
+          "턴제 게임 상태 관리 시스템",
+          "주사위 확률 및 결과 처리 시스템",
+          "보드 레이아웃 데이터 관리 시스템",
+          "말 이동 및 충돌 판정 시스템",
+          "레벨 및 보상 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "게임 로직 자체는 명확하지만, 다양한 특수 타일과 말의 능력치를 밸런싱하는 작업이 필요합니다. 1인 개발 시 레벨 디자인과 UI 연출에 많은 시간이 소요될 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 루도 보드 및 말 이동 로직",
+            "주사위 굴리기 기능",
+            "승리 조건 판정"
+          ],
+          "defer": [
+            "말의 고유 능력 시스템",
+            "다양한 레벨 레이아웃",
+            "보너스 타일 효과"
+          ],
+          "risks": [
+            "게임 밸런스 붕괴",
+            "단조로운 플레이 경험"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "팀 대전 모드",
+            "concept": "2대2 팀을 구성하여 협력하여 결승점에 도달하는 규칙을 추가합니다.",
+            "first_step": "팀별 말 색상 구분 및 승리 조건 로직 수정."
+          },
+          {
+            "title": "보드 에디터",
+            "concept": "사용자가 직접 보드 레이아웃을 설계하고 공유할 수 있는 기능을 제공합니다.",
+            "first_step": "타일 배치 정보를 저장하고 불러오는 데이터 구조 설계."
+          }
+        ],
+        "recommendation_ko": "턴제 게임의 로직 설계와 밸런싱을 배우기에 좋습니다. 보드게임의 규칙을 프로그래밍으로 옮기는 과정에서 논리적 사고력을 기를 수 있습니다.",
+        "source_limitations_ko": "멀티플레이어 지원 여부, 서버 기반의 매칭 시스템 유무, 수익 모델(광고/인앱 결제)에 대한 구체적인 정보는 확인되지 않습니다.",
+        "name": "Ludo Go! - 루도 보드게임",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/ludo-go-%EB%A3%A8%EB%8F%84-%EB%B3%B4%EB%93%9C%EA%B2%8C%EC%9E%84/id6815260519?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 201,
+        "reasons": [
+          "multi_country"
+        ],
+        "best_rank": 18,
+        "countries": [
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-12"
+    },
+    "apple:847268987": {
+      "app_key": "apple:847268987",
+      "name": "하나Pay(하나카드)",
+      "developer": "Hana Card Co., Ltd.",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/%ED%95%98%EB%82%98pay-%ED%95%98%EB%82%98%EC%B9%B4%EB%93%9C/id847268987",
+      "data_date": "2026-11-12",
+      "analysed_at": "2026-11-12T07:15:01+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "'하나카드' 하나로 한번에 해결하는 나의 금융생활. 결제, 조회, 송금, 자산관리... 이 모든건 하나카드 하나로. ● 더 빠른 결제 · 비밀번호/지문인증 필요없이 QR/바코드 결제가 가능해요. · 위젯/홈화면 바로가기로 앱을 켜지 않고도 휴대폰 첫화면에서 바로 결제할 수 있어요. · 앱에서 흔들기만 하면 내가 설정한 결제 기능이 짠! 나타나요. ● 더 편한 사용 · 자주 쓰는 메뉴는 마치 AI처럼 알아서 똑똑하게 알려줘요. · 카드값, 남은 한도, 이달의 혜택.. 내가 원하던 모든 금융정보를 한눈에 볼 수 있어요. · 데이터로 꼼꼼하게, 나도 몰랐던 지출을 관리해줘요. · 계좌 조회, 송금도 하나카드 앱 하나만 있으면 돼요. ● 더 많은 혜택 · 손님의 카드사용 패턴을 바탕으로 맞춤형 혜택을 드려요. · 매달 손님을 위한 다양한 이벤트를 준비하고 있어요 ---------------------------------------------------------- ● 앱 접근 권한 안내 하나Pay를 이용하기 위해 다음의 접근 권한 허용이 필요합니다. - 필수 전화 : 단말정보 확인 및 고객센터 자동연결 저장소: 공동인증서 및 앱 실행에 필요한 파일 및 저장 - 선택 SMS : 소비·자산 분석 및 가계부 서비스 제공 카메라 : QR/바코드 결제 및 얼굴인증 서비스 제공 위치 : 쿠폰, 혜택 알림 등 실시간 서비스 제공 주소록 : 연락처를 이용한 송금서비스 제공 * 선택 접근 권한은 허용하지 않아도 해당 기능 외 모든 서비스를 이용하실 수 있습니다. * 휴대폰 설정 > 애플리케이션 > 하나카드 > 권한 메뉴에서도 설정을 하실 수 있습니다. ● 고객상담 대표전화 : 1800-1111 이메일 : hanapay.hanacard@gmail.com",
+      "analysis": {
+        "app_key": "apple:847268987",
+        "summary_ko": "하나카드의 결제, 송금, 자산 관리를 통합한 금융 앱입니다. QR/바코드 결제와 같은 간편 결제 기능을 제공하며, 사용자의 소비 패턴을 분석하여 맞춤형 금융 정보를 제공합니다. 앱을 흔들어 결제 기능을 호출하는 등 사용자 편의성을 고려한 인터페이스가 특징입니다.",
+        "features_ko": [
+          "QR 및 바코드를 사용하여 비밀번호 입력 없이 간편하게 결제합니다.",
+          "앱을 흔드는 동작으로 설정된 결제 기능을 즉시 실행합니다.",
+          "사용자의 카드 사용 패턴을 분석하여 맞춤형 혜택과 이벤트를 추천합니다.",
+          "계좌 조회 및 송금 기능을 앱 내에서 통합적으로 제공합니다.",
+          "위젯을 통해 앱 실행 없이 첫 화면에서 바로 결제 기능을 호출합니다."
+        ],
+        "noteworthy_ko": "사용자 경험을 개선하기 위해 '흔들기'와 같은 제스처를 도입한 점이 인상적입니다. 금융 앱의 복잡한 메뉴 구조를 AI 큐레이션으로 단순화하려는 시도는 개인 개발자가 UI/UX를 설계할 때 참고할 만한 좋은 사례입니다.",
+        "development_ko": "결제 시스템은 보안 결제 게이트웨이(PG) 연동이 필수적이며, 데이터 분석을 위한 서버 인프라가 필요합니다. 사용자 행동 기반의 맞춤형 추천 알고리즘은 고도화된 데이터 처리 기술을 요구합니다.",
+        "idea_ko": "사용자의 소비 습관을 기록하고 시각화하는 '개인 맞춤형 소비 다이어리'.",
+        "highlights_ko": [
+          "제스처 기반의 빠른 결제 호출 기능을 통해 사용자 접근성을 높였습니다.",
+          "데이터 분석을 통해 개인화된 금융 혜택을 제공하는 큐레이션 기능을 갖추고 있습니다."
+        ],
+        "systems_ko": [
+          "결제 게이트웨이 연동 시스템",
+          "사용자 행동 분석 엔진",
+          "데이터 시각화 UI",
+          "보안 인증 모듈",
+          "푸시 알림 및 이벤트 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "금융 결제 시스템은 높은 보안성과 신뢰성이 요구되어 개인 개발자가 구현하기 매우 어렵습니다. 또한, 대규모 사용자 데이터를 처리하고 분석하는 서버 환경 구축에 큰 비용과 노력이 듭니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "소비 내역 기록 기능",
+            "카테고리별 지출 시각화"
+          ],
+          "defer": [
+            "실제 결제 및 송금 기능",
+            "AI 기반 맞춤형 추천",
+            "금융기관 연동"
+          ],
+          "risks": [
+            "개인 금융 정보 관리 시 보안 사고 발생 가능성",
+            "데이터 분석 정확도 유지의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "소비 습관 분석기",
+            "concept": "사용자가 직접 입력한 지출 내역을 바탕으로 월간 소비 패턴을 분석해 주는 앱입니다. 불필요한 지출을 줄이도록 돕는 알림을 제공합니다.",
+            "first_step": "지출 내역 입력 폼과 월별 합계 그래프 구현."
+          },
+          {
+            "title": "제스처 단축키 앱",
+            "concept": "특정 제스처(흔들기, 특정 패턴 그리기)를 통해 자주 사용하는 앱이나 기능을 빠르게 실행하는 도구입니다.",
+            "first_step": "가속도 센서를 활용한 흔들기 감지 및 앱 실행 기능 구현."
+          }
+        ],
+        "recommendation_ko": "금융 앱의 복잡한 기능을 어떻게 사용자 친화적인 UI로 풀어냈는지 학습하기 좋습니다. 다만, 실제 결제 기능 구현은 보안 문제로 인해 개인 개발 프로젝트로는 권장하지 않습니다.",
+        "source_limitations_ko": "소개문에는 결제 데이터의 암호화 방식이나 서버 통신 프로토콜에 대한 정보가 없습니다. AI 추천 알고리즘의 구체적인 로직 또한 확인할 수 없습니다.",
+        "name": "하나Pay(하나카드)",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%ED%95%98%EB%82%98pay-%ED%95%98%EB%82%98%EC%B9%B4%EB%93%9C/id847268987",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 90,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-12"
+    },
+    "google:com.gl.crowncrush": {
+      "app_key": "google:com.gl.crowncrush",
+      "name": "Crown Crush",
+      "developer": "Loyalty Gaming",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.gl.crowncrush&hl=en&gl=US",
+      "data_date": "2026-11-12",
+      "analysed_at": "2026-11-12T07:15:01+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Smash your way to the crown in Crown Crush! 👑💥 Time your hits, break through towering stacks, and keep the destruction going to build massive combos and multipliers. Every perfect smash pushes your score higher. Chain hits, grab coins, and watch the tower explode as your multiplier climbs from x2 to x5, x10 and beyond! 🔥 Simple to play, satisfying to master, and packed with juicy impacts, flying bricks, flashy rewards, and big-score moments. How high can you push your combo before the tower fights back? 👑 Crush the tower 💥 Chain satisfying smash combos ⚡ Build huge multipliers 🪙 Collect crowns and coins 🔥 Chase bigger and bigger scores 🎯 Master your timing Smash. Combo. Crown. Repeat. Become the ultimate tower crusher in Crown Crush!",
+      "analysis": {
+        "app_key": "google:com.gl.crowncrush",
+        "summary_ko": "탑을 부수며 콤보를 쌓고 높은 점수를 기록하는 아케이드 게임입니다. 타이밍에 맞춰 타격하여 탑을 파괴하고, 배수를 높여 더 큰 점수를 획득하는 것이 목표입니다. 단순한 조작과 화려한 파괴 효과를 통해 만족스러운 게임 경험을 제공합니다.",
+        "features_ko": [
+          "타이밍에 맞춰 탑을 타격하여 파괴하는 단순한 조작 방식을 제공합니다.",
+          "연속 타격으로 콤보를 쌓아 점수 배수를 x2, x5, x10 등으로 높입니다.",
+          "게임 진행 중 코인과 왕관을 수집하여 보상을 획득합니다.",
+          "탑이 파괴될 때 발생하는 화려한 시각적 효과를 제공합니다."
+        ],
+        "noteworthy_ko": "단순한 메커니즘에 콤보와 배수 시스템을 결합하여 몰입감을 높인 점이 훌륭합니다. '파괴'라는 시각적 피드백을 극대화하여 짧은 시간 내에 만족감을 주는 게임 디자인은 개인 개발자가 벤치마킹하기 좋습니다.",
+        "development_ko": "핵심은 타격 타이밍 판정 로직과 파괴 시의 물리 효과 구현입니다. 다양한 파괴 애니메이션과 콤보 시스템의 밸런스 조정이 콘텐츠 제작의 주된 부담이 될 것입니다.",
+        "idea_ko": "타이밍에 맞춰 탑을 쌓아 올리는 '역방향 파괴 게임'.",
+        "highlights_ko": [
+          "콤보와 배수 시스템을 통해 점수 경쟁의 재미를 극대화했습니다.",
+          "시각적으로 만족스러운 파괴 효과를 통해 게임의 타격감을 강조했습니다."
+        ],
+        "systems_ko": [
+          "입력 타이밍 판정 시스템",
+          "콤보 및 점수 계산 로직",
+          "물리 기반 파괴 애니메이션",
+          "보상 및 재화 관리 시스템",
+          "게임 상태 관리(시작, 진행, 종료)"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "게임의 핵심 메커니즘이 단순하고 물리 엔진을 활용하면 파괴 효과를 비교적 쉽게 구현할 수 있습니다. 1인 개발자가 핵심 재미 요소에 집중하여 빠르게 프로토타입을 만들기 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "타격 입력 판정",
+            "탑 파괴 애니메이션",
+            "점수 계산 시스템"
+          ],
+          "defer": [
+            "다양한 스테이지 구성",
+            "온라인 리더보드",
+            "상점 및 아이템 구매"
+          ],
+          "risks": [
+            "반복적인 게임 플레이로 인한 지루함 발생",
+            "타격감의 미세한 밸런스 조정 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중력 파괴자",
+            "concept": "탑을 부수는 대신, 떨어지는 블록을 타이밍에 맞춰 받아내어 탑을 높게 쌓는 게임입니다. 블록의 속도가 빨라질수록 난이도가 상승합니다.",
+            "first_step": "블록 낙하 및 위치 판정 시스템 구현."
+          },
+          {
+            "title": "리듬 파괴자",
+            "concept": "배경 음악의 비트에 맞춰 탑을 타격해야 하는 리듬 게임입니다. 비트가 정확할수록 파괴 효과가 화려해집니다.",
+            "first_step": "음악 비트와 입력 타이밍 동기화 기능 구현."
+          }
+        ],
+        "recommendation_ko": "단순한 메커니즘으로도 충분한 재미를 줄 수 있는 게임 디자인을 배우기에 최적입니다. 1인 개발자가 핵심 재미 요소에 집중하여 완성도 높은 게임을 만드는 연습으로 추천합니다.",
+        "source_limitations_ko": "소개문에는 탑의 물리적 구성 방식이나 콤보 배수 계산의 구체적인 수식은 명시되어 있지 않습니다.",
+        "name": "Crown Crush",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.gl.crowncrush&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 91,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-12"
     }
   }
 }

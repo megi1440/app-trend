@@ -12153,6 +12153,188 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-11"
+    },
+    "apple:6827308965": {
+      "app_key": "apple:6827308965",
+      "name": "Widezilla",
+      "developer": "Matteo Dall'Ombra",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/widezilla/id6827308965",
+      "data_date": "2026-11-12",
+      "analysed_at": "2026-11-12T07:11:51+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "BUILT SPECIFICALLY FOR IPHONE DUO Small screen. Big screen. More web. Widezilla is a native browser designed around iPhone Duo: quick browsing on the outer display, room to read on the inner display, and compact controls that give your websites space to shine. GO WIDE Browse full-width pages with a floating glass address bar. Keep it at the top beside the system indicators, or move it to the bottom. Fold or unfold without replacing your open page, with reading-position preservation across display changes. MAKE EACH DISPLAY YOURS Choose whether to show the system status bar independently on the outer display, inner display and in 50/50 Split View. Pick an app icon and show or hide Widezilla's wide-grin Home character. Set up your layout in the welcome flow or change it later in Settings. YOUR WEBSITES, ONE TAP AWAY Save favourites with recognisable site icons and your own names. Hold a favourite to edit it. Switch websites with visual tab cards, open links in a new tab, and return Home without losing your open pages. Optionally close all tabs on a daily or weekly schedule. FIND IT FASTER Get instant address suggestions from favourites, open tabs, recent visits and a built-in catalogue of popular websites. Choose Google, DuckDuckGo, Bing, Ecosia or Kagi, or add a custom search service using its search URL. Kagi requires an account with that service. LESS CLUTTER, MORE PAGE Built-in native content blocking uses EasyList and EasyPrivacy to block many ads and trackers. Tap the shield to allow an individual website, manage allowed sites in Settings, and refresh your filter lists. Effectiveness varies by website. OPTIONAL ON-DEVICE INTELLIGENCE On supported devices with Apple Intelligence available, get search ideas and help finding saved pages using on-device processing. Local website suggestions work without Apple Intelligence. Typing does not send suggestion queries to a search provider; selecting a search sends it to your chosen service. THE EVERYDAY DETAILS Refresh from the toolbar or pull to refresh. Share website links and PDF documents with the native iOS Share sheet, save documents to Files, and use standard website image actions to save images to Photos. Made for iPhone Duo. Requires iOS 27.1 or later. Favourites and preferences are saved on your device; open tabs last for the current app session.",
+      "analysis": {
+        "app_key": "apple:6827308965",
+        "summary_ko": "Widezilla는 iPhone Duo 기기에 최적화된 네이티브 웹 브라우저입니다. 접히는 화면의 특성을 고려하여 화면 전환 시에도 읽기 위치를 유지하며, 사용자 맞춤형 레이아웃과 간결한 인터페이스를 제공합니다. 웹 서핑에 집중할 수 있도록 광고 차단 및 검색 엔진 선택 기능을 포함하고 있습니다.",
+        "features_ko": [
+          "화면을 접거나 펼쳐도 현재 읽고 있는 웹 페이지의 위치가 유지됩니다.",
+          "주소창을 화면 상단이나 하단으로 자유롭게 배치할 수 있습니다.",
+          "EasyList와 EasyPrivacy 기반의 네이티브 광고 및 추적기 차단 기능을 제공합니다.",
+          "즐겨찾기, 최근 방문 기록, 열린 탭을 통해 빠른 주소 제안을 제공합니다.",
+          "사용자 설정에 따라 시스템 상태 표시줄의 표시 여부를 각 화면별로 제어할 수 있습니다."
+        ],
+        "noteworthy_ko": "기기 상태 변화(접기/펼치기)에 따른 UI 상태 보존 로직이 핵심입니다. 브라우저 엔진의 렌더링 상태를 유지하면서 레이아웃을 재구성하는 방식은 폴더블 기기 전용 앱 개발의 좋은 사례로 보입니다.",
+        "development_ko": "WebKit 기반의 브라우저 뷰 구현과 기기 화면 크기 변화에 따른 레이아웃 동적 대응이 핵심입니다. 콘텐츠 차단기는 필터 리스트 관리와 성능 최적화가 중요하며, 사용자 설정 데이터의 로컬 저장 및 동기화가 필요합니다.",
+        "idea_ko": "특정 웹사이트의 특정 영역만 추출하여 폴더블 화면에 최적화된 위젯으로 보여주는 '웹 스니펫' 기능이 유용할 것입니다.",
+        "highlights_ko": [
+          "폴더블 기기 전용으로 설계된 인터페이스와 화면 전환 대응력.",
+          "사용자 중심의 커스텀 가능한 주소창 위치 및 상태 표시줄 설정."
+        ],
+        "systems_ko": [
+          "웹 뷰(WebView) 관리 시스템",
+          "기기 화면 상태 감지 및 레이아웃 전환 시스템",
+          "광고 차단 필터 엔진",
+          "사용자 설정 및 즐겨찾기 로컬 데이터베이스",
+          "탭 관리 및 세션 유지 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "웹 브라우저 엔진의 복잡한 API를 다루어야 하며, 폴더블 기기의 화면 전환 시 레이아웃이 깨지지 않도록 하는 정밀한 UI 상태 관리가 요구됩니다. 일반적인 앱보다 시스템 수준의 제어 범위가 넓습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 웹 뷰 렌더링",
+            "주소창 및 탭 전환 UI",
+            "즐겨찾기 저장 기능"
+          ],
+          "defer": [
+            "광고 차단 엔진",
+            "Apple Intelligence 연동",
+            "고급 검색 엔진 커스텀 설정"
+          ],
+          "risks": [
+            "웹 뷰 엔진의 메모리 관리 문제",
+            "화면 전환 시 발생하는 렌더링 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "웹 페이지 듀얼 뷰",
+            "concept": "두 개의 웹 페이지를 화면 좌우에 띄우고 링크를 클릭하면 반대편 화면에서 열리게 하여 리서치 효율을 높입니다.",
+            "first_step": "두 개의 웹 뷰를 나란히 배치하고 상호작용을 연결하는 프로토타입 제작."
+          },
+          {
+            "title": "읽기 전용 모드",
+            "concept": "웹 페이지의 광고와 불필요한 요소를 제거하고 텍스트와 이미지만 깔끔하게 재구성하여 읽기 전용으로 보여줍니다.",
+            "first_step": "웹 페이지의 DOM을 파싱하여 텍스트 데이터만 추출하는 간단한 스크립트 구현."
+          }
+        ],
+        "recommendation_ko": "웹 기술과 네이티브 UI의 결합을 배우기에 좋습니다. 다만, 브라우저 엔진의 복잡성 때문에 입문자에게는 난도가 높을 수 있습니다.",
+        "source_limitations_ko": "Apple Intelligence 연동의 구체적인 구현 방식이나, 특정 기기(iPhone Duo)의 하드웨어 API 접근 권한에 대한 상세 정보는 확인되지 않습니다.",
+        "name": "Widezilla",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/widezilla/id6827308965",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 235,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-12"
+    },
+    "apple:6827752976": {
+      "app_key": "apple:6827752976",
+      "name": "아이돌 키우기: 기획사 대표가 되다",
+      "developer": "Hyunseok Yang",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%95%84%EC%9D%B4%EB%8F%8C-%ED%82%A4%EC%9A%B0%EA%B8%B0-%EA%B8%B0%ED%9A%8D%EC%82%AC-%EB%8C%80%ED%91%9C%EA%B0%80-%EB%90%98%EB%8B%A4/id6827752976?uo=2",
+      "data_date": "2026-11-12",
+      "analysed_at": "2026-11-12T07:13:48+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "연습생 세 명, 작은 사무실 하나. 10년 뒤 당신의 아이돌 기획사는 어떤 모습일까요? 직접 뽑은 멤버로 그룹을 만들고, 컴백을 기획해 차트 1위에 도전합니다. 활동 중 내린 선택들은 7년 차 재계약과 10년 뒤의 결말로 돌아옵니다. 데뷔부터 컴백까지 연습생을 가르치고 그룹을 결성합니다. 콘셉트와 프로듀서를 고르고, 뮤직비디오에 얼마를 쓸지 정하면 컴백이 시작됩니다. 돈을 많이 쓴다고 1위가 되지는 않습니다. 프로듀서마다 잘하는 콘셉트가 따로 있고, 기대에 못 미치면 \"그 돈 쓰고 그 순위?\"라는 기사까지 나옵니다. 내가 만든 그룹이 무대에 서는 순간 직접 뽑은 멤버들이 내가 기획한 곡으로 춤을 춥니다. 콘셉트가 바뀌면 세트와 안무도 달라집니다. 차트 순위가 공개되는 밤에는 아이폰을 응원봉처럼 흔들어 보세요. 세게 흔들수록 환호가 커집니다. 포인트 안무가 챌린지로 터지면 조회수와 댓글이 눈앞에서 쌓입니다. 이번 주도 무사히 넘어갈까요? 음악방송 1위 후보에 오른 주, 라이벌이 같은 날 컴백을 발표합니다. 생방송 도중 멤버가 넘어지기도 합니다. 그때마다 직접 대응 방법을 선택하고, 주사위나 가위바위보, 연타, 타이밍 맞추기 같은 짧은 승부로 결과를 결정합니다. 이런 사건이 160개 있습니다. 처음 2년은 살아남는 게 먼저입니다. 투자자와의 약속(기한 안에 TOP15 한 번 또는 팬 2만 명)을 지키지 못하면 회사 지분을 내줘야 합니다. 월말 평가에서 세 번 꼴찌를 한 연습생은 짐을 쌉니다. 7년 뒤, 선택이 돌아옵니다 멤버 유형은 열두 가지이고, 유형마다 이야기가 세 단계로 이어집니다. 가족의 생계를 책임지는 연습생도 있고, 재벌집 막내도 있고, 다른 회사에서 탈락하고 온 연습생도 있고, 번아웃에서 돌아온 사람도 있습니다. 면담에서 들은 이야기와 위기에서 내린 선택들이 충성도로 쌓이고, 그 결과는 7년 차 재계약 자리에서 돌아옵니다. 예능 활동에만 집중한 멤버는 방송인의 길을 선택하고, 소외된 외국인 멤버는 고국으로 돌아갈 수도 있습니다. 멤버끼리 사이가 틀어지면 불화설이 납니다. 휴식기에 개인 채널을 맡기면 브이로그나 커버 라이브가 알고리즘을 타기도 합니다. 10년 뒤, 이 기획사는 팬덤이 커지면 소극장에서 돔으로, 도쿄에서 뉴욕까지 무대가 넓어집니다. 무리하게 돔을 잡으면 텅 빈 객석 기사가 납니다. 연말 시상식에서는 직접 수상자 봉투를 엽니다. 라이벌 그룹 30팀이 같은 차트에서 싸우고, 해마다 신인이 데뷔해 60팀까지 늘어납니다. 전설적인 기획사로 남을 수도 있고, 원히트원더나 폐업 기자회견으로 끝날 수도 있습니다. 20가지 결말이 컬렉션에 남아 다음 회차의 유산이 됩니다. 광고가 없고 추가 결제가 없습니다. 계정 없이 오프라인으로 플레이하고, 랭킹만 Game Center에 올립니다. 멤버 초상 76종과 전신 스프라이트 24종, 장면 130여 종이 16비트 픽셀 아트로 그려져 있고, 콘셉트별 훅 7곡과 칩튠 배경음악이 흐릅니다. 차트 공개와 승부 장면에는 진동 연출이 들어가고, 펼치는 아이폰에서는 두 화면을 함께 씁니다. 한국어와 영어로 플레이할 수 있습니다.",
+      "analysis": {
+        "app_key": "apple:6827752976",
+        "summary_ko": "연습생을 육성하고 그룹을 결성하여 차트 1위에 도전하는 아이돌 기획사 경영 시뮬레이션 게임입니다. 플레이어는 기획사 대표로서 멤버 선발, 컴백 기획, 예능 활동 등 다양한 선택을 내리며 10년 뒤의 결말을 맞이합니다. 16비트 픽셀 아트와 함께 20가지의 다양한 엔딩을 경험할 수 있습니다.",
+        "features_ko": [
+          "연습생을 직접 선발하고 그룹을 결성하여 컴백 콘셉트와 프로듀서를 선택합니다.",
+          "컴백 시 뮤직비디오 예산과 전략을 설정하여 차트 순위에 도전합니다.",
+          "160개의 다양한 사건 발생 시 주사위, 가위바위보 등 미니게임을 통해 대응합니다.",
+          "멤버별 고유 이야기와 선택에 따른 충성도 시스템이 7년 차 재계약에 영향을 미칩니다.",
+          "팬덤 규모에 따라 소극장에서 돔 공연장까지 무대 규모가 확장됩니다."
+        ],
+        "noteworthy_ko": "선택이 7년 차 재계약과 10년 뒤의 결말로 이어지는 서사 구조가 흥미롭습니다. 경영 결과가 단순 수치 변화를 넘어 기사나 엔딩으로 구체화되는 점이 몰입감을 높이는 요소로 추정됩니다.",
+        "development_ko": "16비트 픽셀 아트 리소스 제작과 160개의 이벤트 시나리오 작성이 핵심입니다. 다양한 멤버 유형과 결말을 관리하기 위한 데이터 구조 설계가 필요하며, 밸런스 조정을 위해 각 이벤트의 성공 확률과 보상 체계를 정교하게 설계해야 합니다.",
+        "idea_ko": "특정 멤버의 성장 서사에 집중하여, 멤버의 개인 스케줄과 그룹 활동 간의 갈등을 해결하는 '매니저 시점의 턴제 전략 게임'을 제안합니다.",
+        "highlights_ko": [
+          "16비트 픽셀 아트로 구현된 76종의 멤버 초상과 130여 종의 장면 연출.",
+          "선택에 따라 달라지는 20가지의 엔딩과 회차별 유산 시스템."
+        ],
+        "systems_ko": [
+          "이벤트 트리거 및 분기 처리 시스템",
+          "멤버 능력치 및 충성도 데이터 관리",
+          "차트 순위 산출 알고리즘",
+          "UI/UX 기반의 경영 대시보드",
+          "미니게임 입력 판정 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "160개의 이벤트와 20가지 엔딩을 구현하기 위한 방대한 데이터 관리와 시나리오 작성이 필요합니다. 또한, 경영 시뮬레이션의 핵심인 밸런스 조정이 복잡하여 1인 개발 시 상당한 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "멤버 선발 및 그룹 결성 기능",
+            "컴백 기획 및 결과 산출 로직",
+            "기본적인 이벤트 분기 시스템"
+          ],
+          "defer": [
+            "160개 전체 이벤트 구현",
+            "복잡한 돔 공연장 확장 연출",
+            "Game Center 랭킹 연동"
+          ],
+          "risks": [
+            "이벤트 간의 밸런스 붕괴",
+            "데이터 구조 설계 미흡으로 인한 확장성 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "아이돌 트레이닝 로그",
+            "concept": "그룹 전체가 아닌 한 명의 연습생을 집중 육성하는 로그라이크 방식의 성장 게임입니다. 매주 주어지는 스케줄을 선택하여 능력치를 올리고 데뷔 평가를 통과해야 합니다.",
+            "first_step": "연습생의 능력치 변화와 주간 스케줄 선택 시스템을 프로토타입으로 구현합니다."
+          },
+          {
+            "title": "기획사 위기 관리자",
+            "concept": "아이돌 그룹의 사건 사고를 수습하는 퍼즐 게임입니다. 멤버들의 불화나 스캔들을 대화 선택지로 해결하여 팬덤 이탈을 막아야 합니다.",
+            "first_step": "대화 선택지에 따른 호감도 변화 로직을 간단한 텍스트 기반으로 구현합니다."
+          }
+        ],
+        "recommendation_ko": "방대한 데이터를 체계적으로 관리하고 서사를 게임 시스템에 녹여내는 방법을 배우기에 좋습니다. 경영 시뮬레이션의 기초를 다지고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "광고나 결제 기능이 없다고 명시되어 있으나, 실제 오프라인 데이터 저장 방식이나 Game Center 연동의 구체적인 구현 방식은 확인되지 않습니다.",
+        "name": "아이돌 키우기: 기획사 대표가 되다",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%95%84%EC%9D%B4%EB%8F%8C-%ED%82%A4%EC%9A%B0%EA%B8%B0-%EA%B8%B0%ED%9A%8D%EC%82%AC-%EB%8C%80%ED%91%9C%EA%B0%80-%EB%90%98%EB%8B%A4/id6827752976?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-12"
     }
   }
 }

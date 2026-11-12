@@ -11251,6 +11251,447 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-11"
+    },
+    "itch:7b55df037bcf6051f8fe": {
+      "app_key": "itch:7b55df037bcf6051f8fe",
+      "name": "Silence Overruned [Free] [Other] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://sleepyowl-games.itch.io/silence-overruned",
+      "data_date": "2026-11-12",
+      "analysed_at": "2026-11-12T07:10:51+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Space is about to be swolen by black hole. Use old runes and delay inevitable.",
+      "analysis": {
+        "app_key": "itch:7b55df037bcf6051f8fe",
+        "summary_ko": "Silence Overruned는 블랙홀에 의해 삼켜지기 직전의 우주를 배경으로 합니다. 플레이어는 고대 룬을 사용하여 멸망을 지연시키는 게임입니다.",
+        "features_ko": [
+          "블랙홀이라는 우주적 재난을 소재로 합니다.",
+          "고대 룬을 활용한 게임 메커니즘을 제공합니다.",
+          "멸망을 지연시키는 것이 게임의 주요 목표입니다."
+        ],
+        "noteworthy_ko": "멸망을 막는 것이 아니라 '지연'시킨다는 설정이 게임의 긴장감을 높입니다. 룬이라는 소재를 통해 퍼즐이나 마법 시스템을 어떻게 구현했는지 궁금증을 자아냅니다.",
+        "development_ko": "시간 제한 시스템과 룬 사용에 따른 상태 변화 로직이 핵심입니다. 우주적 분위기를 연출하기 위한 시각 효과와 사운드 디자인이 중요합니다. 멸망이 다가오는 것을 시각적으로 표현하는 UI 구현이 필요합니다.",
+        "idea_ko": "룬을 조합하여 더 강력한 지연 효과를 내는 시스템을 추가하면 전략적인 깊이가 생길 것입니다.",
+        "highlights_ko": [
+          "멸망을 지연시킨다는 독특한 목표 설정.",
+          "고대 룬이라는 신비로운 테마."
+        ],
+        "systems_ko": [
+          "시간 경과 및 멸망 카운트다운",
+          "룬 선택 및 효과 적용 시스템",
+          "우주 배경 렌더링",
+          "게임 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "룬 시스템의 복잡도에 따라 다르지만, 기본적으로 시간 관리와 상태 변화 로직 위주이므로 1인 개발이 가능합니다. 분위기 연출에 시간을 투자해야 합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카운트다운 타이머",
+            "룬 사용 인터페이스",
+            "멸망 연출(화면 효과)"
+          ],
+          "defer": [
+            "복잡한 룬 조합법",
+            "다양한 우주 환경"
+          ],
+          "risks": [
+            "게임 플레이의 반복성",
+            "룬 시스템의 직관성 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "룬 방어 타워",
+            "concept": "룬을 배치하여 블랙홀의 흡수를 막는 타워 디펜스 게임입니다. 룬마다 방어 방식이 다릅니다.",
+            "first_step": "룬 배치 및 흡수 속도 감소 로직 구현."
+          },
+          {
+            "title": "룬 퍼즐 탈출",
+            "concept": "룬을 사용하여 블랙홀의 중력을 조절하며 탈출하는 퍼즐 게임입니다.",
+            "first_step": "중력 변화에 따른 캐릭터 이동 로직 구현."
+          }
+        ],
+        "recommendation_ko": "분위기 있는 게임을 만들고 싶은 개발자에게 추천합니다. 시스템보다는 연출과 테마를 어떻게 조화시킬지 배우기 좋습니다.",
+        "source_limitations_ko": "룬의 구체적인 사용법, 멸망을 지연시키는 방식, 게임의 종료 조건 등은 설명만으로는 알 수 없습니다.",
+        "name": "Silence Overruned [Free] [Other] [Windows]",
+        "source": "itch",
+        "detail_url": "https://sleepyowl-games.itch.io/silence-overruned",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 296,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-12"
+    },
+    "itch:040dd0a94e8543d1d11d": {
+      "app_key": "itch:040dd0a94e8543d1d11d",
+      "name": "Spinsmash [Free] [Simulation] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://shkerebertgames.itch.io/spinsmash",
+      "data_date": "2026-11-12",
+      "analysed_at": "2026-11-12T07:11:08+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Spin the tops, smash them together, get rich. A short incremental game.",
+      "analysis": {
+        "app_key": "itch:040dd0a94e8543d1d11d",
+        "summary_ko": "팽이를 회전시키고 서로 충돌시켜 재화를 얻는 짧은 방치형 게임입니다. 단순한 조작과 반복적인 성장을 통해 자산을 증식하는 경험을 제공합니다.",
+        "features_ko": [
+          "팽이를 회전시켜 에너지를 생성합니다.",
+          "팽이끼리 충돌시켜 상호작용을 유도합니다.",
+          "획득한 재화로 성장을 도모합니다."
+        ],
+        "noteworthy_ko": "매우 짧은 호흡의 인크리멘탈 게임으로, 핵심 메커니즘을 극도로 단순화한 점이 흥미롭습니다. 물리 엔진을 활용한 충돌 효과가 게임의 시각적 재미를 담당할 것으로 추정됩니다.",
+        "development_ko": "물리 엔진을 활용한 팽이의 회전 및 충돌 구현이 핵심입니다. 콘텐츠 제작 부담은 적으나, 방치형 게임 특유의 수치 밸런스를 잡는 것이 중요합니다. 테스트 시 재화 획득 속도와 팽이의 물리적 거동을 조정하는 데 집중해야 합니다.",
+        "idea_ko": "팽이의 물리적 충돌을 활용한 자동 파밍 시스템 구현이 가장 적합합니다.",
+        "highlights_ko": [
+          "팽이 충돌이라는 직관적인 물리 기반 메커니즘을 사용합니다.",
+          "짧은 플레이 타임을 지향하는 간결한 구성입니다."
+        ],
+        "systems_ko": [
+          "물리 엔진(충돌 및 회전)",
+          "재화 관리 시스템",
+          "자동화/방치형 로직",
+          "UI 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "게임의 규모가 매우 작고 물리 엔진의 기본 기능만 활용하면 되므로 1인 개발에 적합합니다. 복잡한 그래픽이나 서사 없이 핵심 루프만 구현하면 됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "팽이 회전 및 충돌 물리 구현",
+            "재화 획득 및 저장 로직",
+            "기본 UI"
+          ],
+          "defer": [
+            "다양한 팽이 종류",
+            "스킨 시스템",
+            "클라우드 저장"
+          ],
+          "risks": [
+            "물리 엔진의 불안정성으로 인한 팽이 튕김 현상",
+            "단순 반복으로 인한 빠른 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "팽이 합성 방치 게임",
+            "concept": "같은 등급의 팽이를 합성하여 더 강력한 회전력을 가진 팽이를 만드는 게임입니다. 팽이의 회전 속도에 따라 재화 획득량이 달라집니다.",
+            "first_step": "두 개의 팽이를 드래그하여 합치는 기본 로직 구현."
+          },
+          {
+            "title": "팽이 배틀 아레나",
+            "concept": "자동으로 회전하는 팽이들을 아레나에 배치하여 최후의 1인이 남을 때까지 싸우게 합니다. 승리 시 보상을 얻어 팽이를 강화합니다.",
+            "first_step": "두 팽이의 충돌 시 넉백(밀려남) 효과 구현."
+          }
+        ],
+        "recommendation_ko": "물리 엔진을 활용한 간단한 게임 루프를 학습하기에 좋습니다. 방치형 게임의 기본 구조를 익히고 싶은 초보 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 물리 엔진 설정, 재화 밸런스, 그래픽 스타일 등을 확인할 수 없습니다. 실제 게임의 깊이와 콘텐츠 양은 검증이 필요합니다.",
+        "name": "Spinsmash [Free] [Simulation] [Windows]",
+        "source": "itch",
+        "detail_url": "https://shkerebertgames.itch.io/spinsmash",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 290,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-12"
+    },
+    "apple:1193933380": {
+      "app_key": "apple:1193933380",
+      "name": "Head Ball 2 - Soccer Game",
+      "developer": "MASOMO LIMITED",
+      "source": "apple",
+      "country": "US",
+      "category": "game_strategy",
+      "detail_url": "https://apps.apple.com/us/app/head-ball-2-soccer-game/id1193933380?uo=2",
+      "data_date": "2026-11-12",
+      "analysed_at": "2026-11-12T07:13:26+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Join millions of players in one of the most competitive multiplayer soccer games ever created. Experience the thrill of the fast-paced multiplayer online matches! Compete against other players in real-time in your league and play to claim your place at the top of the ladder. *Challenge your friends in real-time! Get social by connecting your social media accounts and play the most exciting football game with your friends, show them who is the best! You can also establish your own team and gain different rewards as you win matches! *Rumble Through Competitive Soccer Leagues with your team! Compete in 5 different soccer leagues and do your best to make it to the very top of the ladder. Join a team or create your own, either way, you’re much powerful with your team! Join the competition each week where you have a chance to challenge other teams all around the world. More team you beat, more chance to rise from Bronze League to Diamond League! Fight your way through real opponents and challenging soccer matches. You can’t know who the winner before the match will be is over. *Unique Gameplay Soccer is all about kicking the ball and scoring goals, right? Experience soccer in a way you have never experienced before. Kick, strike and score using your hero. Use your feet, head, and superpowers to score goals. Head Ball 2 offers simplistic gameplay that can be quickly transformed into action-packed and exciting games. Hit the ball, hit your opponent, use headers, superpowers or outwit your opponent by juking them. Everything is permitted, as long as you win! No match will be the same as the previous in the most exciting soccer game! Connect with your friends via Facebook and challenge them to show who is the better soccer player. *Take Control of Your Football Career Progress through the unique career mode to unlock special bonuses, characters, and accessories. As you progress, rewards become increasingly difficult to obtain, do you have what it takes? *Upgrade Your Character to Become a Champion! Stand out from the crowd by choosing from hundreds of accessories to find your unique combination. Improve your characters’ skills to dominate the field. Progress to unlock new characters and cosmetic rewards and upgrade your favorite characters. *Spice Things Up with Different Superpowers! Unlock 18 different superpowers and use them at the right moment to catch your opponent off guard. Your opponents can counter you with superpowers as well! *Gather Fans and Unlock New Stadiums Increase your fanbase by gaining supporters after each win. Unlock new stadiums to fit your ever-growing supporters. Journey through 10 different stadiums as you walk towards glory! It’s more fun with Daily Missions! Come back and fulfill different missions to get the big reward every day. Features; -Online soccer games against real players all across the world. -5 competitive leagues with 15 brackets to play through. -Dynamic & exciting online gameplay with dashy graphics. -Upgrade your character, equip them with cool accessories and empower them with special powers. -New characters, items, and events added constantly! -Card packs to collect items and characters. -Social media connection to play and team up with friends. -Daily Missions to get more fun and rewards! Download Head Ball 2 to experience the thrill of the match and compete against millions! IMPORTANT! Head Ball 2 is free to download and play, however, there are some items in the game that can be purchased for real money. You can disable in-app purchases in your device’s settings if you don’t want this feature. A network connection is required to play. This game includes optional in-game purchases (includes random items).",
+      "analysis": {
+        "app_key": "apple:1193933380",
+        "summary_ko": "Head Ball 2는 실시간으로 다른 플레이어와 대결하는 멀티플레이어 축구 게임입니다. 캐릭터의 머리와 발을 사용하여 공을 차고 골을 넣는 독특한 방식을 취합니다. 다양한 슈퍼파워와 액세서리를 활용해 나만의 캐릭터를 성장시킬 수 있습니다.",
+        "features_ko": [
+          "전 세계 플레이어와 실시간으로 축구 대결을 펼칠 수 있습니다.",
+          "캐릭터의 머리, 발, 슈퍼파워를 사용하여 골을 넣는 독특한 게임플레이를 제공합니다.",
+          "다양한 액세서리로 캐릭터를 꾸미고 스킬을 업그레이드할 수 있습니다.",
+          "리그 시스템을 통해 승급하고 더 높은 단계의 경기장에 도전할 수 있습니다."
+        ],
+        "noteworthy_ko": "축구라는 스포츠를 1대1 대결의 액션 게임으로 재해석한 점이 흥미롭습니다. 슈퍼파워 시스템을 도입하여 단순한 축구 게임 이상의 전략적 변수를 창출한 점이 돋보입니다.",
+        "development_ko": "실시간 멀티플레이를 위한 네트워크 동기화 기술이 핵심입니다. 물리 엔진을 활용한 공의 궤적과 충돌 판정의 정밀도가 중요합니다. 1인 개발 시 실시간 서버 구현의 난이도가 매우 높습니다.",
+        "idea_ko": "슈퍼파워를 조합하여 나만의 필살기를 만드는 커스터마이징 시스템.",
+        "highlights_ko": [
+          "실시간 멀티플레이어 대결의 긴장감.",
+          "슈퍼파워를 활용한 전략적 게임플레이."
+        ],
+        "systems_ko": [
+          "실시간 네트워크 동기화",
+          "물리 엔진 기반 공 이동 로직",
+          "캐릭터 스탯 및 아이템 관리",
+          "매치메이킹 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 멀티플레이어 게임은 네트워크 지연(Latency) 처리와 동기화가 매우 어렵습니다. 물리 엔진의 정밀한 제어와 서버 인프라 구축이 필요하여 1인 개발자에게는 도전적인 과제입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 킥 로직",
+            "기본적인 물리 엔진 적용",
+            "로컬 2인 대전 모드"
+          ],
+          "defer": [
+            "실시간 온라인 멀티플레이",
+            "리그 및 랭킹 시스템"
+          ],
+          "risks": [
+            "네트워크 동기화 문제",
+            "물리 엔진의 불안정성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "헤드볼 챌린지",
+            "concept": "AI를 상대로 연속해서 골을 넣는 싱글 플레이어 게임입니다. 시간이 지날수록 공의 속도가 빨라집니다.",
+            "first_step": "공이 벽에 튕기고 캐릭터가 공을 쳐내는 물리 로직 구현."
+          },
+          {
+            "title": "슈퍼파워 축구",
+            "concept": "공을 찰 때마다 랜덤한 슈퍼파워가 발동하는 축구 게임입니다. 예측 불가능한 상황을 즐기는 것이 핵심입니다.",
+            "first_step": "공의 궤적을 변경하는 슈퍼파워 효과 구현."
+          }
+        ],
+        "recommendation_ko": "물리 엔진 활용 능력과 게임의 긴장감을 조성하는 법을 배우기에 좋습니다. 멀티플레이어 게임 개발의 기초를 다지고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에 명시된 '실시간 멀티플레이'의 구체적인 네트워크 기술(예: Photon, Mirror 등)은 알 수 없습니다. 인앱 결제와 관련된 보안 및 서버 검증 로직은 확인되지 않습니다.",
+        "name": "Head Ball 2 - Soccer Game",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/head-ball-2-soccer-game/id1193933380?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-12"
+    },
+    "apple:6754001880": {
+      "app_key": "apple:6754001880",
+      "name": "PDF Reader - OCR Scan Edit",
+      "developer": "Fuzhou Jiange Technology Co., Ltd.",
+      "source": "apple",
+      "country": "US",
+      "category": "app_productivity",
+      "detail_url": "https://apps.apple.com/us/app/pdf-reader-ocr-scan-edit/id6754001880?uo=2",
+      "data_date": "2026-11-12",
+      "analysed_at": "2026-11-12T07:14:20+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "PDF Reader - OCR Scan Edit: Your mobile PDF office assistant. Supports editing, scanning, and OCR recognition, making document management easy and efficient. Key Features: PDF Editing Easily add, delete, and rearrange pages. Supports filters, highlights, and annotations, making your PDFs more readable and personalized. Image to PDF Import multiple images at once and automatically generate a PDF file for clarity, organization, and efficiency. Import PDF Import PDF files from system folders, ready to use right out of the box, making management easier. OCR Text Recognition Intelligently recognize text in images or scans, extracting and generating editable PDF files with one click, instantly converting paper documents to digital form. Whether you're scanning notes, editing documents, or recognizing text in images, PDF Reader - OCR Scan Edit is your go-to assistant. 【Ad-Free Edition - Enjoy a Pure Experience】 Upgrade to the Ad-Free version to enjoy an uninterrupted workspace: • Remove all advertisements completely. • Focus entirely on reading, scanning, and editing. Subscription Details: • Payment will be charged to your iTunes account upon confirmation. • Subscriptions auto-renew unless turned off at least 24-hours before the period ends. • Manage your subscriptions and auto-renewal in your Account Settings after purchase. Links: Privacy Policy: https://pdfreaderocrscanedit.com/privacy.html Terms of Use: https://pdfreaderocrscanedit.com/terms.html Subscription Terms: https://pdfreaderocrscanedit.com/subscription_terms.html",
+      "analysis": {
+        "app_key": "apple:6754001880",
+        "summary_ko": "PDF Reader - OCR Scan Edit은 모바일 환경에서 PDF 문서를 관리하고 편집할 수 있는 생산성 도구입니다. 문서 스캔, OCR 텍스트 인식, 페이지 편집 기능을 제공하여 효율적인 문서 작업을 돕습니다. 사용자는 이미지나 스캔본을 PDF로 변환하고 텍스트를 추출하여 디지털 문서로 활용할 수 있습니다.",
+        "features_ko": [
+          "PDF 페이지를 추가, 삭제, 재배치하여 문서를 자유롭게 구성할 수 있습니다.",
+          "문서에 필터 적용, 하이라이트 표시, 주석 추가 기능을 제공합니다.",
+          "여러 이미지를 한 번에 가져와 PDF 파일로 자동 변환합니다.",
+          "이미지나 스캔본에서 텍스트를 인식하여 편집 가능한 PDF로 변환합니다."
+        ],
+        "noteworthy_ko": "OCR(광학 문자 인식) 기술과 PDF 편집 기능을 결합하여 아날로그 문서를 디지털 자산으로 전환하는 과정을 간소화했습니다. 개발 관점에서는 이미지 처리 라이브러리와 PDF 생성 엔진의 안정적인 연동이 핵심적인 흥미 요소로 추정됩니다.",
+        "development_ko": "OCR 엔진 구현을 위해 Tesseract와 같은 오픈소스 라이브러리 활용이 필요하며, PDF 생성 및 편집을 위한 라이브러리 연동이 중요합니다. 이미지 처리 시 메모리 관리와 OCR 정확도 최적화가 주요 기술적 과제입니다. 콘텐츠 제작 부담은 낮으나, 다양한 문서 형식에 대응하는 테스트와 UI/UX 최적화에 많은 노력이 필요합니다.",
+        "idea_ko": "특정 문서 양식(영수증, 명함 등)에 특화된 자동 분류 및 데이터 추출 기능.",
+        "highlights_ko": [
+          "OCR 기능을 통한 종이 문서의 디지털화 및 텍스트 추출.",
+          "페이지 단위의 직관적인 PDF 편집 및 주석 도구 제공."
+        ],
+        "systems_ko": [
+          "이미지 처리 및 OCR 엔진",
+          "PDF 파일 생성 및 편집 모듈",
+          "파일 시스템 관리자",
+          "사용자 인터페이스(UI) 및 문서 뷰어"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "OCR 엔진의 정확도 확보와 PDF 파일 구조를 깨뜨리지 않는 편집 기능 구현은 높은 기술적 난이도를 요구합니다. 특히 다양한 이미지 품질에 대응하는 전처리 과정이 복잡합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "이미지 PDF 변환 기능",
+            "기본적인 페이지 삭제 및 재배치",
+            "OCR 텍스트 추출"
+          ],
+          "defer": [
+            "고급 필터 및 주석 기능",
+            "클라우드 동기화"
+          ],
+          "risks": [
+            "OCR 인식률 저하",
+            "대용량 PDF 처리 시 앱 성능 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스마트 영수증 정리기",
+            "concept": "영수증을 촬영하면 날짜, 금액, 상호명을 자동으로 추출하여 가계부 형식으로 저장합니다.",
+            "first_step": "이미지에서 특정 텍스트 영역을 인식하여 텍스트 데이터로 변환하는 프로토타입 구현."
+          },
+          {
+            "title": "문서 요약 도우미",
+            "concept": "OCR로 추출된 긴 텍스트를 AI를 활용해 핵심 내용만 요약하여 PDF 상단에 추가합니다.",
+            "first_step": "추출된 텍스트를 외부 API를 통해 요약하여 화면에 출력하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "문서 처리 라이브러리 활용법과 파일 입출력 시스템을 학습하기에 좋습니다. 다만, OCR 정확도와 같은 고도화된 기능은 전문 라이브러리 의존도가 높아 개인 개발 시 한계가 있을 수 있습니다.",
+        "source_limitations_ko": "소개문에는 OCR 엔진의 종류나 PDF 편집 라이브러리의 구체적인 기술 스택이 명시되어 있지 않습니다. 또한, 오프라인 처리 여부나 보안 정책에 대한 상세 정보가 부족하여 검증이 필요합니다.",
+        "name": "PDF Reader - OCR Scan Edit",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/pdf-reader-ocr-scan-edit/id6754001880?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-12"
+    },
+    "google:com.gl.blockpets": {
+      "app_key": "google:com.gl.blockpets",
+      "name": "Block Pets",
+      "developer": "Loyalty Gaming",
+      "source": "google",
+      "country": "US",
+      "category": "game_arcade",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.gl.blockpets&hl=en&gl=US",
+      "data_date": "2026-11-12",
+      "analysed_at": "2026-11-12T07:14:20+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Pop blocks, build combos, and rescue adorable pets in Block Pets! Jump into a colorful casual puzzle adventure where every move can bring a pet closer to safety. Match and clear bright blocks, create satisfying combos, and complete fun objectives across plenty of playful levels. 🐶 Rescue adorable pets 🧩 Match and clear colorful blocks 🎈 Discover fun surprises and special challenges ✨ Build bigger combos for satisfying rewards 🏆 Complete levels and keep improving your score 🎮 Easy to learn, fun to master Plan your moves carefully as the puzzles become more challenging. Clear the right blocks, complete each goal, and enjoy rewarding chain reactions as the board opens up. Whether you want a quick puzzle break or a longer challenge, Block Pets offers simple, satisfying gameplay you can enjoy at your own pace. How many pets can you save?",
+      "analysis": {
+        "app_key": "google:com.gl.blockpets",
+        "summary_ko": "Block Pets는 블록을 매치하고 콤보를 쌓아 갇힌 반려동물을 구출하는 캐주얼 퍼즐 게임입니다. 다채로운 블록을 제거하며 목표를 달성하는 방식으로 진행됩니다. 사용자는 전략적으로 블록을 배치하여 연쇄 반응을 일으키고 높은 점수를 얻을 수 있습니다.",
+        "features_ko": [
+          "같은 색상의 블록을 매치하여 보드에서 제거합니다.",
+          "연속적인 블록 제거를 통해 콤보를 쌓고 보상을 획득합니다.",
+          "각 레벨마다 주어진 목표를 달성하여 반려동물을 구출합니다.",
+          "퍼즐 진행 중 특수 아이템이나 도전 과제를 발견할 수 있습니다."
+        ],
+        "noteworthy_ko": "단순한 매치-3 퍼즐에 '반려동물 구출'이라는 테마를 결합하여 동기 부여를 강화했습니다. 연쇄 반응의 시각적 효과가 게임의 만족도를 결정짓는 핵심 요소로 보입니다.",
+        "development_ko": "그리드 기반의 게임 보드 시스템과 블록 매칭 알고리즘 구현이 핵심입니다. 연쇄 반응을 처리하는 재귀 함수나 상태 관리 로직이 중요합니다. 레벨 디자인에 따른 난이도 밸런스 조절과 시각적 피드백(이펙트) 제작에 많은 시간이 소요됩니다.",
+        "idea_ko": "블록 매칭 결과에 따라 반려동물의 행동이 변화하는 상호작용 시스템.",
+        "highlights_ko": [
+          "반려동물 구출이라는 명확한 게임 목표와 테마.",
+          "콤보 시스템을 통한 전략적 재미와 시각적 보상."
+        ],
+        "systems_ko": [
+          "그리드 기반 게임 보드 관리",
+          "블록 매칭 및 연쇄 반응 알고리즘",
+          "레벨 데이터 관리 시스템",
+          "UI 및 애니메이션 효과"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기본적인 매칭 로직은 구현하기 어렵지 않으나, 레벨 디자인과 연쇄 반응의 밸런스를 맞추는 과정에서 많은 테스트가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "블록 매칭 및 제거 로직",
+            "기본 레벨 시스템",
+            "반려동물 구출 승리 조건"
+          ],
+          "defer": [
+            "다양한 특수 블록 및 아이템",
+            "복잡한 애니메이션 효과"
+          ],
+          "risks": [
+            "게임 플레이의 단조로움",
+            "레벨 디자인의 밸런스 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "반려동물 성장 퍼즐",
+            "concept": "퍼즐을 풀 때마다 얻는 경험치로 반려동물을 성장시키고 외형을 꾸밉니다.",
+            "first_step": "퍼즐 완료 시 점수를 기반으로 캐릭터의 레벨 수치를 증가시키는 로직 구현."
+          },
+          {
+            "title": "시간 제한 구출 모드",
+            "concept": "제한 시간 내에 특정 블록을 제거하여 반려동물을 구출하는 긴박한 모드입니다.",
+            "first_step": "타이머 UI를 추가하고 시간이 0이 되면 게임 오버되는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 기본 구조와 데이터 기반 레벨 디자인을 배우기에 좋습니다. 게임의 핵심 재미를 만드는 알고리즘 구현 능력을 키우고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "구체적인 블록 매칭 규칙(예: 3개 이상, 특정 모양 등)이나 레벨 구성 방식에 대한 정보가 부족합니다. 실제 게임의 물리 엔진 사용 여부도 확인되지 않았습니다.",
+        "name": "Block Pets",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.gl.blockpets&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-12"
     }
   }
 }

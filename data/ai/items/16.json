@@ -12432,6 +12432,182 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-11"
+    },
+    "itch:c84ceebf21b7011e4a15": {
+      "app_key": "itch:c84ceebf21b7011e4a15",
+      "name": "WordFight [Free]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://louiejones.itch.io/wordfight",
+      "data_date": "2026-11-12",
+      "analysed_at": "2026-11-12T07:10:51+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A mobile and VR experience that has murmorations of words flying in air combating and feeding the fallen to a GPT",
+      "analysis": {
+        "app_key": "itch:c84ceebf21b7011e4a15",
+        "summary_ko": "WordFight는 모바일 및 VR 환경에서 즐길 수 있는 게임입니다. 공중에 떠다니는 단어들이 서로 전투를 벌이며, 패배한 단어들을 GPT 모델에게 전달하는 독특한 방식을 취합니다.",
+        "features_ko": [
+          "모바일과 VR 플랫폼을 지원합니다.",
+          "단어들이 공중에서 무리를 지어 이동합니다.",
+          "단어 간의 전투 시스템이 포함되어 있습니다.",
+          "패배한 단어를 GPT 모델로 전송하는 기능을 갖추고 있습니다."
+        ],
+        "noteworthy_ko": "언어 모델(GPT)을 게임 메커니즘의 일부로 활용한다는 점이 매우 흥미롭습니다. 단어의 의미론적 전투나 결과 처리가 어떻게 이루어지는지 추정하기 어렵지만, AI 연동 게임의 가능성을 보여줍니다.",
+        "development_ko": "VR/모바일 환경을 위한 입력 처리와 단어 객체의 군집 이동(Boids 알고리즘 등) 구현이 필요합니다. 외부 API(GPT) 연동 시 지연 시간과 비용 문제를 고려해야 합니다. AI가 생성한 결과를 게임 내에 어떻게 시각화할지가 핵심 과제입니다.",
+        "idea_ko": "단어의 의미를 분석하여 상성 관계를 자동으로 생성하는 시스템을 구축하는 것이 좋습니다.",
+        "highlights_ko": [
+          "AI(GPT)를 게임 메커니즘에 적극적으로 활용함.",
+          "VR과 모바일을 아우르는 멀티 플랫폼 경험."
+        ],
+        "systems_ko": [
+          "군집 이동(Flocking) 시스템",
+          "단어 전투 및 판정 로직",
+          "GPT API 연동 및 데이터 처리",
+          "VR/모바일 입력 제어"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "VR 환경 구현과 외부 AI API 연동은 1인 개발자에게 기술적 난도가 높습니다. 특히 실시간 API 통신과 게임 로직의 결합은 안정성 확보가 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "단어 이동 및 충돌 처리",
+            "기본 전투 로직",
+            "GPT API 연동 테스트"
+          ],
+          "defer": [
+            "VR 환경 최적화",
+            "복잡한 단어 의미 분석"
+          ],
+          "risks": [
+            "API 호출 비용 및 지연 시간",
+            "VR 멀미 및 입력 최적화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "단어 연상 전투",
+            "concept": "단어의 의미를 연상하여 더 강력한 단어를 만들어내는 게임입니다. AI가 단어의 연관성을 판단합니다.",
+            "first_step": "두 단어를 입력받아 연관성을 점수로 반환하는 API 연동."
+          },
+          {
+            "title": "AI 단어 수집가",
+            "concept": "공중에 떠다니는 단어를 수집하여 문장을 완성하는 게임입니다. 완성된 문장의 의미를 AI가 평가합니다.",
+            "first_step": "단어 수집 및 문장 조합 UI 구현."
+          }
+        ],
+        "recommendation_ko": "AI API를 게임에 어떻게 녹여낼지 고민하는 개발자에게 좋은 사례입니다. 다만 기술적 복잡도가 높으므로 기초부터 차근차근 접근하는 것을 권장합니다.",
+        "source_limitations_ko": "GPT 연동의 구체적인 방식, VR 환경에서의 조작법, 단어 전투의 상세 규칙은 설명만으로는 알 수 없습니다.",
+        "name": "WordFight [Free]",
+        "source": "itch",
+        "detail_url": "https://louiejones.itch.io/wordfight",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 308,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-12"
+    },
+    "itch:9ea64935cba78c1047d4": {
+      "app_key": "itch:9ea64935cba78c1047d4",
+      "name": "Adelina ermittelt [Free] [Adventure] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://hbware.itch.io/adelina-ermittelt",
+      "data_date": "2026-11-12",
+      "analysed_at": "2026-11-12T07:11:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Ein atmosphärisches Krimispiel in der Toskana.",
+      "analysis": {
+        "app_key": "itch:9ea64935cba78c1047d4",
+        "summary_ko": "이탈리아 토스카나를 배경으로 한 분위기 중심의 추리 게임입니다. 플레이어는 사건을 조사하며 이야기를 풀어나가는 어드벤처 경험을 하게 됩니다.",
+        "features_ko": [
+          "토스카나 지역을 배경으로 한 탐색 요소.",
+          "사건 해결을 위한 추리 및 조사 과정."
+        ],
+        "noteworthy_ko": "분위기(Atmosphere)를 강조한 게임으로, 시각적 연출과 서사의 조화가 중요합니다. 텍스트 기반의 추리 요소가 핵심일 것으로 추정됩니다.",
+        "development_ko": "대화 시스템과 인벤토리, 조사 가능한 오브젝트 배치가 핵심입니다. 서사 중심이므로 시나리오 작성과 연출에 많은 시간이 소요됩니다.",
+        "idea_ko": "조사한 단서들을 조합하여 사건의 진상을 추론하는 보드 시스템.",
+        "highlights_ko": [
+          "토스카나 배경의 몰입감 있는 분위기.",
+          "추리 중심의 어드벤처 서사."
+        ],
+        "systems_ko": [
+          "대화 시스템",
+          "인벤토리 및 단서 관리",
+          "상호작용 가능한 오브젝트 시스템",
+          "씬 전환 및 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기술적 난이도보다는 시나리오와 연출의 완성도가 중요합니다. 1인 개발 시 방대한 텍스트와 이벤트 관리가 부담이 될 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "대화창 UI",
+            "조사 가능한 오브젝트 상호작용",
+            "기본적인 씬 이동"
+          ],
+          "defer": [
+            "복잡한 분기 시스템",
+            "애니메이션 컷신"
+          ],
+          "risks": [
+            "스토리의 개연성 부족",
+            "플레이어의 지루함 유발"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "단서 조합 보드",
+            "concept": "수집한 단서들을 화면에 배치하고 연결하여 새로운 사실을 도출합니다.",
+            "first_step": "드래그 앤 드롭으로 단서 아이콘을 배치하는 UI를 구현합니다."
+          },
+          {
+            "title": "시간대별 조사",
+            "concept": "같은 장소라도 시간대에 따라 단서가 달라지는 시스템입니다.",
+            "first_step": "시간 변수(낮/밤)에 따라 오브젝트의 활성 상태를 변경하는 로직을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "스토리텔링과 분위기 연출을 중시하는 개발자에게 추천합니다. 대화 시스템과 UI 중심의 게임 구조를 익히기에 적합합니다.",
+        "source_limitations_ko": "게임의 구체적인 추리 방식, 퍼즐의 난이도, 분기점 존재 여부 등은 소개문만으로 알 수 없습니다.",
+        "name": "Adelina ermittelt [Free] [Adventure] [Windows]",
+        "source": "itch",
+        "detail_url": "https://hbware.itch.io/adelina-ermittelt",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 281,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 33,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-12"
     }
   }
 }

@@ -11394,6 +11394,185 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-11"
+    },
+    "apple:6751521402": {
+      "app_key": "apple:6751521402",
+      "name": "흑마법사: 무한 디펜스",
+      "developer": "Arumgames",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_rpg",
+      "detail_url": "https://apps.apple.com/kr/app/%ED%9D%91%EB%A7%88%EB%B2%95%EC%82%AC-%EB%AC%B4%ED%95%9C-%EB%94%94%ED%8E%9C%EC%8A%A4/id6751521402?uo=2",
+      "data_date": "2026-11-12",
+      "analysed_at": "2026-11-12T07:13:26+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "디펜스 게임..좋아하세요? 인기 웹툰 \"66666년만에 환생한 흑마법사\"가 모바일 로그라이크 디펜스 게임으로 돌아왔습니다! 웹툰의 세계관과 캐릭터를 그대로 담아낸 전략 디펜스 RPG \"66666년만에 환생한 흑마법사\" 에서, 끝없이 몰려드는 적들, 강력한 마법과 캐릭터를 조합해 전장을 지켜내세요! 66666년 만에 깨어난 흑마법사와 함께하는 최강 전략 디펜스! 짜릿한 전투와 무한 성장쾌감을 경험하세요! [게임 특징] -전략 디펜스 액션! 화려한 마법과 스킬로 몰려오는 적을 일망타진! 전략과 타이밍이 만들어내는 짜릿한 전투 쾌감 디펜스를 느껴보세요! -캐릭터 수집과 성장! 웹툰 원작 속 인기 캐릭터부터 신규 캐릭터까지! 수집하고, 성장시키고, 강화해서 최강의 팀을 완성하세요! -내맘대로 조합! 마법과 캐릭터 조합으로 수많은 전투 스타일을 만들어보세요! 누구나 쉽게 즐기지만, 전략에 따라 승부가 달라집니다! 나만의 스킬 조합으로 몰려오는 몬스터를 디펜스! -멈추지 않는 성장! 다양한 보상과 이벤트로 성장이 멈추지 않게 도와드립니다! 재화걱정없이 마음 편하게 디펜스! [지금 다운로드하세요!] 간단하지만 중독성 있는 전략 디펜스, 강력한 전투와 무한성장의 디펜스가 여러분을 기다립니다. \"66666년만에 환생한 흑마법사\"에서 당신만의 궁극의 디펜스 게임을 경험하세요!",
+      "analysis": {
+        "app_key": "apple:6751521402",
+        "summary_ko": "흑마법사: 무한 디펜스는 웹툰 '66666년만에 환생한 흑마법사'를 기반으로 한 로그라이크 디펜스 게임입니다. 몰려오는 적들을 강력한 마법과 캐릭터 조합으로 막아내는 전략적 전투를 경험할 수 있습니다. 지속적인 성장과 캐릭터 수집을 통해 최강의 팀을 구성하는 것이 목표입니다.",
+        "features_ko": [
+          "웹툰 원작의 캐릭터와 세계관을 활용한 전략 디펜스 게임입니다.",
+          "다양한 마법과 캐릭터를 조합하여 나만의 전투 스타일을 만들 수 있습니다.",
+          "적들이 몰려오는 전장을 막아내는 디펜스 액션을 제공합니다.",
+          "캐릭터 수집 및 성장을 통해 끊임없이 강해질 수 있습니다."
+        ],
+        "noteworthy_ko": "인기 웹툰 IP를 활용하여 팬층을 확보한 점이 전략적입니다. 로그라이크 요소를 디펜스 장르에 결합하여 매번 다른 전투 경험을 제공하려는 시도가 흥미롭습니다.",
+        "development_ko": "대규모 적 유닛을 처리하기 위한 최적화 기술이 필수적입니다. 마법과 캐릭터 조합에 따른 밸런스 설계가 게임의 재미를 결정합니다. 로그라이크 특유의 무작위 요소(아이템, 스킬)를 관리하는 시스템 구현이 필요합니다.",
+        "idea_ko": "마법 조합에 따라 전장의 지형이 변하는 디펜스 시스템.",
+        "highlights_ko": [
+          "웹툰 IP 기반의 캐릭터와 세계관.",
+          "로그라이크 요소가 가미된 전략 디펜스."
+        ],
+        "systems_ko": [
+          "웨이브 기반 적 생성 시스템",
+          "캐릭터 및 마법 스킬 로직",
+          "로그라이크 무작위 보상 시스템",
+          "성장 및 데이터 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "디펜스 게임은 로직이 명확하여 구현하기 비교적 수월합니다. 다만, 많은 유닛을 동시에 처리하기 위한 최적화와 밸런스 조정이 게임의 완성도를 좌우합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "적 유닛 이동 및 공격 로직",
+            "타워/캐릭터 배치 시스템",
+            "기본적인 스킬 효과 구현"
+          ],
+          "defer": [
+            "복잡한 스토리 연출",
+            "다양한 로그라이크 무작위 요소"
+          ],
+          "risks": [
+            "많은 유닛 등장 시 프레임 드랍",
+            "캐릭터 간 밸런스 불균형"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "마법사의 탑",
+            "concept": "탑 위에서 마법을 쏘아 몰려오는 적을 막는 게임입니다. 마법을 섞어 새로운 속성을 만드는 것이 핵심입니다.",
+            "first_step": "마법 발사체와 적의 충돌 판정 구현."
+          },
+          {
+            "title": "흑마법사의 소환술",
+            "concept": "적을 처치하고 얻은 영혼으로 아군을 소환하여 방어하는 게임입니다. 소환된 아군을 전략적으로 배치해야 합니다.",
+            "first_step": "적 처치 시 재화 획득 및 아군 소환 로직 구현."
+          }
+        ],
+        "recommendation_ko": "디펜스 게임의 기본 로직과 로그라이크의 무작위성 구현을 배우기에 좋습니다. 캐릭터 수집형 게임의 데이터 관리 방식을 연습하려는 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에 언급된 '웹툰 원작'의 저작권 사용 여부나 구체적인 계약 내용은 알 수 없습니다. 인앱 결제 및 이벤트 시스템의 구체적인 구현 방식은 확인되지 않습니다.",
+        "name": "흑마법사: 무한 디펜스",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%ED%9D%91%EB%A7%88%EB%B2%95%EC%82%AC-%EB%AC%B4%ED%95%9C-%EB%94%94%ED%8E%9C%EC%8A%A4/id6751521402?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-12"
+    },
+    "google:com.gimica.ricochetgrove": {
+      "app_key": "google:com.gimica.ricochetgrove",
+      "name": "Ricochet Grove",
+      "developer": "Gimica GmbH",
+      "source": "google",
+      "country": "US",
+      "category": "game_action",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.gimica.ricochetgrove&hl=en&gl=US",
+      "data_date": "2026-11-12",
+      "analysed_at": "2026-11-12T07:13:48+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "One shot. So many hits. Step into Ricochet Grove, a woodland adventure where clever angles turn a simple shot into a bouncing volley. Aim through gaps, ricochet off walls, and land repeated hits on the creatures ahead. PLAN YOUR NEXT BOUNCE Look for angles that keep your shots bouncing between enemies. Hit several targets in one volley or focus your fire on a tougher opponent. Every bounce is another chance to make your shot count. GROW YOUR VOLLEY Add more balls to your volley and fill the grove with bouncing shots. Line up a strong opening angle and watch your volley chip away at enemy health as it travels across the field. POWER UP YOUR SHOTS Discover powers that bring new effects to your attacks. Experiment with different upgrades and combinations to build a playstyle that suits you. OUTSMART THE GROVE Face a cast of woodland creatures, from leafy sprouts to armored foes and flower-like enemies. Choose your targets and adjust your aim as the field changes. TAKE ON BIG BOSSES Put your aiming skills and chosen powers to work against oversized opponents. Find useful ricochet angles and make the most of every volley. Features: • Aim-and-bounce combat with repeated hits • Growing volleys and satisfying shot chains • Powers and upgrades to shape your playstyle • Varied woodland enemies and large boss encounters • A colorful grove filled with playful plant creatures Find your angle and let the ricochets fly!",
+      "analysis": {
+        "app_key": "google:com.gimica.ricochetgrove",
+        "summary_ko": "숲속을 배경으로 공을 튕겨 적을 맞추는 액션 게임입니다. 각도를 계산하여 벽에 공을 튕기고, 여러 적을 한 번에 타격하는 쾌감을 느낄 수 있습니다. 다양한 파워업과 보스전을 통해 전략적인 플레이가 가능합니다.",
+        "features_ko": [
+          "벽에 공을 튕겨 적을 맞추는 각도 기반 전투 시스템을 제공합니다.",
+          "공을 여러 개로 늘려 한 번의 발사로 연쇄 타격을 가할 수 있습니다.",
+          "다양한 파워업과 업그레이드를 통해 자신만의 전투 스타일을 구축합니다.",
+          "숲속의 식물 생명체부터 거대 보스까지 다양한 적이 등장합니다.",
+          "전략적인 각도 계산을 통해 보스전의 난관을 극복합니다."
+        ],
+        "noteworthy_ko": "단순한 조준과 발사 메커니즘에 '튕김'이라는 물리 요소를 결합하여 전략성을 높였습니다. 공이 늘어나고 연쇄 타격이 발생하는 시각적 피드백이 게임의 재미를 결정짓는 핵심 요소로 보입니다.",
+        "development_ko": "물리 엔진을 활용한 공의 튕김 연산이 핵심입니다. 다양한 적의 패턴과 보스전의 난이도 밸런스를 맞추는 것이 중요하며, 연쇄 타격 시의 시각적 효과와 타격감을 구현하는 데 많은 노력이 필요합니다.",
+        "idea_ko": "공의 튕김 횟수가 늘어날수록 공의 속도가 빨라지거나 색상이 변하는 등, 콤보 시스템을 강화한 '리듬 액션 튕기기 게임'을 제안합니다.",
+        "highlights_ko": [
+          "각도 계산을 통한 전략적인 연쇄 타격 시스템.",
+          "다양한 파워업 조합을 통한 플레이 스타일의 확장성."
+        ],
+        "systems_ko": [
+          "2D 물리 엔진(충돌 및 반사)",
+          "발사체 궤적 계산 및 시각화",
+          "적 AI 및 보스 패턴 관리",
+          "파워업 및 업그레이드 데이터 관리",
+          "게임 상태 및 점수 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진을 활용하면 기본적인 튕김 구현은 어렵지 않으나, 재미있는 레벨 디자인과 보스 패턴을 만드는 데는 창의적인 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "공 발사 및 벽 반사 물리 구현",
+            "적 타격 및 체력 감소 로직",
+            "기본적인 레벨 구성"
+          ],
+          "defer": [
+            "다양한 보스 패턴",
+            "복잡한 업그레이드 트리",
+            "고급 시각 효과"
+          ],
+          "risks": [
+            "물리 엔진의 버그로 인한 공 끼임 현상",
+            "단조로운 플레이 패턴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "리듬 리코셰",
+            "concept": "배경 음악의 비트에 맞춰 공을 발사해야 하는 게임입니다. 비트에 맞춰 튕길 때마다 점수가 배가됩니다.",
+            "first_step": "음악의 비트 정보를 가져와 발사 타이밍을 체크하는 시스템을 구현합니다."
+          },
+          {
+            "title": "퍼즐 리코셰",
+            "concept": "제한된 횟수의 발사로 화면 내 모든 적을 처치해야 하는 퍼즐 게임입니다. 지형지물을 활용한 각도 계산이 필수입니다.",
+            "first_step": "고정된 지형에서 공이 튕기는 경로를 미리 보여주는 가이드라인을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "물리 엔진의 기초를 익히고, 간단한 메커니즘을 확장하여 게임성을 만드는 과정을 배우기에 매우 좋습니다. 캐주얼 게임 개발을 시작하는 분께 추천합니다.",
+        "source_limitations_ko": "물리 엔진의 구체적인 설정(마찰력, 반발 계수 등)이나 보스전의 상세 메커니즘은 설명만으로 파악하기 어렵습니다.",
+        "name": "Ricochet Grove",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.gimica.ricochetgrove&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-12"
     }
   }
 }

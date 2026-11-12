@@ -18170,6 +18170,181 @@
         "thoughtsTokenCount": 2550,
         "serviceTier": "standard"
       }
+    },
+    "itch:d0a785ce24c2f89fe8e5": {
+      "app_key": "itch:d0a785ce24c2f89fe8e5",
+      "name": "The Banketh - The Video Game [Free]",
+      "developer": "",
+      "source": "itch",
+      "kind": "game",
+      "detail_url": "https://retrones.itch.io/the-banketh",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:d0a785ce24c2f89fe8e5",
+        "product_kind": "game",
+        "original_experience_ko": "스토어 설명에 따르면 2016년에 개발된 개인 제작 홈브류 비디오 게임이라는 사실 외에 장르, 규칙, 플레이 방식 등이 전혀 명시되어 있지 않습니다. 따라서 'The Banketh'라는 독특한 타이틀명과 1인 개발 레트로 홈브류라는 맥락을 바탕으로 한 인디 게임의 감성과 호기심을 제공하는 원점의 경험으로 해석됩니다.",
+        "source_facts_and_limitations_ko": [
+          "사실: 2016년에 개발된 홈브류 비디오 게임이며, 무료로 공개된 인디 타이틀이다.",
+          "한계: 스토어 설명이 매우 단편적(My first homebrew video game...)이어서 장르, 조작 방식, 핵심 게임 루프, 플랫폼 환경 등이 전혀 확인되지 않는다."
+        ],
+        "valuable_elements_ko": [
+          "1인 개발자의 첫 번째 작품이라는 날것 그대로의 홈브류(Homebrew) 레트로 정체성.",
+          "'Banketh'라는 이름에서 연상되는 은행, 금고, 저금통 등의 독특한 키워드를 가볍고 유쾌한 게임 규칙으로 확장할 수 있는 잠재력."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "픽셀 뱅크 러너 (Pixel Bank Runner)",
+            "core_idea_ko": "레트로 도트 감성의 모바일 아케이드 게임으로, 주인공 저금통 캐릭터가 좌우로 움직이며 위에서 떨어지는 동전과 보석을 수집하고 장애물인 도둑을 피하는 캐주얼 게임.",
+            "what_to_keep_ko": "1인 개발 레트로 홈브류 감성과 직관적이고 빠른 템포의 아케이드적 재미를 계승.",
+            "what_to_change_ko": "정체불명의 원작에서 탈피하여 모바일 터치 환경에 최적화된 스와이프 조작과 콤보 피버 시스템을 도입.",
+            "mobile_use_or_play_ko": "화면 하단의 저금통을 좌우로 스와이프하여 떨어지는 골드를 획득하고, 폭탄이나 도둑을 피해 제한 시간 내 최고 점수를 달성.",
+            "key_features_ko": [
+              "스와이프 기반의 직관적인 좌우 이동 조작",
+              "점수 배율을 높이는 콤보 및 피버 타임 시스템",
+              "레트로 픽셀 아트 및 칩튠 사운드 리소스"
+            ],
+            "solo_mvp_and_effort_ko": "단일 화면 2D 아케이드 구조로 Unity 또는 Godot 엔진을 활용해 약 2~3개월 내 1인 개발 완성 가능.",
+            "strengths_limits_ko": "직관적이고 재미있으나, 아케이드 장르 특성상 깊이 있는 장기 콘텐츠 확보가 과제."
+          },
+          {
+            "title_ko": "포켓 뱅크 타이쿤 (Pocket Bank Tycoon)",
+            "core_idea_ko": "픽셀 스타일의 소규모 경영 시뮬레이션으로, 플레이어가 작은 은행의 장이 되어 고객을 유치하고 금고를 업그레이드하며 자산을 불려 나가는 방치형 타이쿤 게임.",
+            "what_to_keep_ko": "'Banketh'라는 이름에서 유추되는 금융 및 금고 소재와 소소한 인디 개발 감성.",
+            "what_to_change_ko": "모바일 유저에게 친숙한 방치형 성장 구조와 오프라인 보상 시스템, 자금 운용 테크트리 결합.",
+            "mobile_use_or_play_ko": "앱을 실행해 방문한 고객의 예금을 받고, 얻은 골드로 금고 보안을 업그레이드한 후 방치하여 자산이 불어나는 것을 확인.",
+            "key_features_ko": [
+              "픽셀 아트 기반의 소규모 은행 레이아웃 관리",
+              "보안 등급 및 이자율 업그레이드 테크트리",
+              "랜덤 돌발 이벤트(대출 심사, 보안 점검) 대응"
+            ],
+            "solo_mvp_and_effort_ko": "UI와 데이터 저장(JSON/SQLite) 위주의 개발로 그래픽 리소스 부담을 줄여 약 3개월 내 구현 가능.",
+            "strengths_limits_ko": "모바일 선호도가 높은 장르이나, 유사 타이쿤 게임과의 차별화된 비주얼 포인트가 필요함."
+          },
+          {
+            "title_ko": "더 뱅크스 볼트 퍼즐 (The Vault Crack Puzzle)",
+            "core_idea_ko": "금고를 해제하는 레트로풍 두뇌 퍼즐 게임으로, 숫자의 조합과 논리적 단서를 통해 제한 횟수 내에 금고 비밀번호를 맞히는 스테이지 클리어형 퍼즐.",
+            "what_to_keep_ko": "클래식하고 아기자기한 레트로 UI 감성과 'Bank' 테마의 지적 유희.",
+            "what_to_change_ko": "액션이나 경영 대신 모바일 단판 플레이에 적합한 다이얼 패스워드 맞추기 퍼즐 규칙으로 재해석.",
+            "mobile_use_or_play_ko": "스테이지에 진입해 힌트를 바탕으로 다이얼을 돌려 비밀번호를 입력하고, 성공 시 보상을 얻어 다음 단계로 진입.",
+            "key_features_ko": [
+              "단계별 난이도가 상승하는 다이얼 패스워드 퍼즐",
+              "제한 횟수 및 시간 제한에 따른 별점 평가 시스템",
+              "레트로 CRT 모니터풍의 UI 필터와 사운드 효과"
+            ],
+            "solo_mvp_and_effort_ko": "텍스트/숫자 연산 및 기본 UI 컴포넌트 중심이므로 프로그래밍 난이도가 낮아 1.5~2개월 내 1인 개발 가능.",
+            "strengths_limits_ko": "개발 부담이 적고 퍼즐 마니아에게 어필할 수 있으나, 반복 플레이 동기가 다소 약할 수 있음."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 '픽셀 뱅크 러너'는 순간적인 조작의 재미와 직관적인 아케이드 경험을 제공하며, 두 번째 '포켓 뱅크 타이쿤'은 장기적인 몰입감을 주나 방치형 시장에서의 경쟁이 치열합니다. 세 번째 '더 뱅크스 볼트 퍼즐'은 1인 개발 부담이 가장 적으나 액션성이 부족합니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "'The Banketh'라는 원작의 이름과 홈브류 레트로 감성이 주는 직관적인 아케이드적 이미지를 가장 잘 살리면서도, 모바일 환경에서 스와이프 조작을 통해 가볍고 빠르게 즐길 수 있는 '픽셀 뱅크 러너'가 미지의 원작 호기심을 대중적인 재미로 구현하기에 가장 적합하기 때문입니다.",
+        "next_questions_ko": [
+          "원작 'The Banketh'의 이름에 담긴 개발자의 원래 의도나 실제 장르(만약 추후 밝혀진다면)가 아케이드나 액션에 가까운가?",
+          "픽셀 아트 스타일과 칩튠 사운드를 1인 개발 시 외부 리소스 활용이나 자체 제작으로 어느 선까지 타협할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-12T08:08:01+09:00",
+      "brief_quota_day": "2026-11-12",
+      "brief_usage": {
+        "promptTokenCount": 1082,
+        "candidatesTokenCount": 1787,
+        "totalTokenCount": 5440,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1082
+          }
+        ],
+        "thoughtsTokenCount": 2571,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "itch:d0a785ce24c2f89fe8e5",
+        "product_kind": "game",
+        "selected_concept_title_ko": "픽셀 뱅크 러너 (Pixel Bank Runner)",
+        "project_goal_and_audience_ko": "레트로 도트 감성의 모바일 아케이드 게임으로, 'The Banketh'의 홈브류 감성을 계승하여 가볍고 빠른 템포의 재미를 제공합니다. 출퇴근길이나 짧은 휴식 시간에 한 판씩 즐기며 최고 점수를 갱신하고자 하는 캐주얼 게이머를 타겟으로 합니다.",
+        "source_relation_and_difference_ko": "원작의 2016년 개인 제작 홈브류 레트로 정체성과 'Banketh'(저금통/은행)라는 키워드를 유지하되, 불분명했던 원작 규칙을 탈피하고 모바일 터치 환경에 최적화된 스와이프 조작과 콤보 피버 시스템을 도입하여 리플레이성을 대폭 강화했습니다.",
+        "core_user_experience_ko": "사용자는 화면 하단의 저금통 캐릭터를 좌우로 스와이프하여 이동시킵니다. 화면 상단에서 무작위로 떨어지는 동전과 보석을 받아 먹고, 도둑이나 폭탄 같은 장애물은 피해야 합니다. 연속으로 아이템을 획득하면 피버 게이지가 차오르며 고득점 찬스가 열리는 직관적이고 몰입감 있는 경험을 제공합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "스와이프 기반 터치 이동 시스템",
+            "user_action_and_behavior_ko": "사용자가 화면을 터치하고 좌우로 드래그하면 저금통이 부드럽게 좌우로 이동합니다. 터치 좌표와 캐릭터 위치를 실시간 동기화하여 조작의 손맛을 극대화합니다.",
+            "practical_implementation_ko": "Input.GetTouch 또는 포인터 이벤트 리스너를 활용해 X축 좌표를 추적하고, 클램프(Clamp) 함수로 화면 경계를 벗어나지 않도록 처리합니다."
+          },
+          {
+            "feature_ko": "낙하물 생성 및 충돌 판정 시스템",
+            "user_action_and_behavior_ko": "일정한 주기로 상단에서 동전, 보석, 도둑, 폭탄이 무작위로 낙하합니다. 저금통과 충돌 시 종류에 따라 점수가 오르거나 라이프가 감소합니다.",
+            "practical_implementation_ko": "오브젝트 풀링(Object Pooling) 패턴을 적용하여 메모리 가비지 컬렉션을 최소화하고, 간단한 2D Circle Collider를 통해 고속 낙하물과의 충돌을 정확히 감지합니다."
+          },
+          {
+            "feature_ko": "콤보 및 피버 타임 시스템",
+            "user_action_and_behavior_ko": "아이템을 연속으로 획득하면 콤보가 유지되며 콤보 게이지가 상승합니다. 게이지가 가득 차면 일정 시간 동안 '피버 타임'이 발동하여 모든 획득 점수가 배증됩니다.",
+            "practical_implementation_ko": "콤보 카운터 변수와 타이머를 두고, 일정 시간 내 추가 획득이 없으면 콤보가 초기화되도록 구현하며, 피버 상태일 때는 점수 배율 플래그를 활성화합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "홈 / 타이틀 화면",
+            "contents_and_actions_ko": "레트로 픽셀 로고, '게임 시작' 버튼, 역대 최고 점수 표시, 사운드 토글 아이콘. '게임 시작' 터치 시 인게임 화면으로 전환."
+          },
+          {
+            "screen_ko": "인게임 플레이 화면",
+            "contents_and_actions_ko": "상단에 실시간 점수, 남은 라이프, 피버 게이지 표시. 중앙 및 상하단에 낙하물과 하단 저금통 캐릭터 배치. 우측 상단 일시정지 버튼 제공."
+          },
+          {
+            "screen_ko": "게임 오버 및 결과 팝업",
+            "contents_and_actions_ko": "라이프 소진 시 출력. 이번 게임의 최종 점수, 최고 점수 경신 여부 표시. '다시 하기' 및 '메인으로' 버튼 제공."
+          }
+        ],
+        "implementation_approach_ko": "가볍고 빠른 2D 모바일 게임 제작에 최적화된 Unity (C#) 또는 Godot Engine (GDScript)을 선택합니다. 물리 연산의 부하를 줄이기 위해 무거운 3D 물리 대신 가벼운 2D 좌표 계산 및 수동 충돌 처리 로직을 적용합니다. 추후 플랫폼 확장성을 고려하여 1인 개발에 용이한 모듈형 스크립트 구조로 설계합니다.",
+        "data_and_storage_ko": [
+          "로컬 저장소(PlayerPrefs 또는 로컬 SQLite): 사용자의 최고 점수(Best Score) 및 사운드 온오프 설정값 저장 (앱 종료 시 저장, 재시작 시 로드).",
+          "런타임 데이터: 현재 점수, 남은 라이프, 콤보 카운트, 피버 게이지 상태는 메모리 내 싱글톤 게임 매니저(GameManager)에서 관리."
+        ],
+        "mvp_scope_ko": "단일 화면 구성 하에서 좌우 스와이프 이동, 동전 및 폭탄 낙하, 점수 획득, 게임 오버 및 최고 점수 로컬 저장까지만 구현합니다. 화려한 파티클 이펙트나 사운드는 제외하여 2~3주 내에 핵심 게임 루프를 완성하고 검증할 수 있도록 합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 기본 환경 구축 및 조작 구현",
+            "deliverable_and_check_ko": "프로젝트 생성, 레트로 스프라이트 리소스 배치, 저금통 캐릭터의 터치 스와이프 좌우 이동 동작 확인."
+          },
+          {
+            "stage_ko": "2단계: 낙하물 및 충돌 시스템 구현",
+            "deliverable_and_check_ko": "오브젝트 풀링을 이용한 동전/폭탄 낙하 스크립트 작성 및 저금통과의 충돌 시 점수 변화/라이프 감소 확인."
+          },
+          {
+            "stage_ko": "3단계: 게임 루프 및 UI 연동",
+            "deliverable_and_check_ko": "점수 UI 반영, 게임 오버 조건 충족 시 결과 팝업 노출, 최고 점수 로컬 저장 및 불러오기 기능 검증."
+          },
+          {
+            "stage_ko": "4단계: 피버 시스템 추가 및 폴리싱",
+            "deliverable_and_check_ko": "콤보 및 피버 타임 로직 추가, UI 디자인 정돈 및 빌드 파일 생성 테스트."
+          }
+        ],
+        "possible_extensions_ko": "다양한 외형의 저금통 스킨 및 수집 요소 추가, 일일 도전 과제, 글로벌 리더보드 연동(Google Play Games), 다양한 패턴의 특수 장애물 도입.",
+        "risks_and_open_decisions_ko": [
+          "원작의 상세한 규칙과 레벨 디자인 정보가 없어 완전한 오리지널 규칙으로 빌드해야 하므로, 초기 난이도 곡선 설계가 중요함.",
+          "모바일 기기별 터치 민감도 차이에 따른 조작감의 편차를 줄이기 위해 실제 기기 테스트가 필수적임."
+        ],
+        "draft_status_ko": "본 문서는 2016년 홈브류 원작의 영감을 바탕으로 모바일 캐주얼 아케이드 게임으로 구체화한 개발 설계 초안이며, 실제 구현 및 플레이테스트, 성능 측정이 완료되지 않았습니다."
+      },
+      "plan_at": "2026-11-12T08:08:18+09:00",
+      "plan_quota_day": "2026-11-12",
+      "plan_usage": {
+        "promptTokenCount": 1673,
+        "candidatesTokenCount": 1872,
+        "totalTokenCount": 5718,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1673
+          }
+        ],
+        "thoughtsTokenCount": 2173,
+        "serviceTier": "standard"
+      }
     }
   }
 }

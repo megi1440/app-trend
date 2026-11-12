@@ -11751,6 +11751,185 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-11"
+    },
+    "itch:28229055b6fa1e548ba8": {
+      "app_key": "itch:28229055b6fa1e548ba8",
+      "name": "Nameless Road [Free] [Role Playing] [Windows] [macOS] [Linux] [Android]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://phenos.itch.io/nameless-road",
+      "data_date": "2026-11-12",
+      "analysed_at": "2026-11-12T07:10:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A solo d20 fantasy RPG. Every run builds a new Continent, Villains and Dungeons.",
+      "analysis": {
+        "app_key": "itch:28229055b6fa1e548ba8",
+        "summary_ko": "d20 시스템을 기반으로 한 1인용 판타지 RPG입니다. 매번 게임을 시작할 때마다 새로운 대륙, 악당, 던전이 생성되는 절차적 생성 방식이 특징입니다.",
+        "features_ko": [
+          "d20 주사위 시스템을 활용한 판타지 RPG 규칙을 따릅니다.",
+          "게임 실행 시마다 대륙과 던전이 무작위로 생성됩니다.",
+          "매번 새로운 악당과 서사가 생성되어 반복 플레이를 지원합니다.",
+          "Windows, macOS, Linux, Android 등 다양한 플랫폼을 지원합니다."
+        ],
+        "noteworthy_ko": "절차적 생성(Procedural Generation)을 통해 매번 다른 경험을 제공하는 것은 로그라이크 장르의 핵심입니다. 서사 요소까지 무작위로 생성하는 시스템은 데이터 구조 설계가 매우 흥미로울 것으로 추정됩니다.",
+        "development_ko": "절차적 생성 알고리즘(던전 레이아웃, 몬스터 배치) 구현이 핵심입니다. d20 규칙의 데이터화와 무작위 생성된 요소들이 논리적으로 충돌하지 않도록 하는 밸런스 조정이 큰 부담이 될 것입니다.",
+        "idea_ko": "생성된 대륙의 지도를 이미지로 저장하거나 공유하는 기능을 추가하여 커뮤니티 요소를 강화하는 것을 추천합니다.",
+        "highlights_ko": [
+          "절차적 생성 기술을 통해 매번 새로운 모험을 제공합니다.",
+          "d20 시스템 기반의 정통 판타지 RPG 경험을 지향합니다."
+        ],
+        "systems_ko": [
+          "절차적 맵/던전 생성 알고리즘",
+          "d20 주사위 판정 시스템",
+          "데이터 기반 캐릭터/몬스터 관리",
+          "퀘스트 및 서사 생성 엔진",
+          "멀티 플랫폼 빌드 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "절차적 생성 알고리즘의 복잡성과 RPG 시스템의 방대한 데이터 관리는 1인 개발자가 완성하기에 매우 높은 난이도를 가집니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 d20 주사위 판정 로직",
+            "간단한 던전 생성 알고리즘",
+            "캐릭터 능력치 관리"
+          ],
+          "defer": [
+            "복잡한 서사 생성 엔진",
+            "멀티 플랫폼 최적화",
+            "그래픽 에셋의 다양화"
+          ],
+          "risks": [
+            "생성된 콘텐츠의 논리적 오류",
+            "밸런스 붕괴 가능성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "모험 일지 자동 생성",
+            "concept": "플레이어의 선택과 결과를 바탕으로 모험 일지를 자동으로 기록해주는 기능입니다. 나만의 이야기를 남길 수 있습니다.",
+            "first_step": "게임 내 주요 이벤트 발생 시 텍스트 로그를 파일로 저장하는 기능 구현."
+          },
+          {
+            "title": "던전 시드 공유",
+            "concept": "생성된 던전의 시드 값을 공유하여 다른 플레이어와 동일한 던전을 도전할 수 있게 합니다.",
+            "first_step": "랜덤 시드 값을 기반으로 맵을 생성하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "절차적 생성 알고리즘과 데이터 기반 게임 설계를 배우고 싶은 개발자에게 강력히 추천합니다. RPG 시스템의 기초를 다지기에 좋은 사례입니다.",
+        "source_limitations_ko": "구체적인 절차적 생성 알고리즘의 방식이나 d20 규칙의 적용 범위는 소개문만으로는 알 수 없습니다.",
+        "name": "Nameless Road [Free] [Role Playing] [Windows] [macOS] [Linux] [Android]",
+        "source": "itch",
+        "detail_url": "https://phenos.itch.io/nameless-road",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 365,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 5,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-12"
+    },
+    "itch:58cad73a7c17c07e1813": {
+      "app_key": "itch:58cad73a7c17c07e1813",
+      "name": "Blockwerk [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://blockwerk.itch.io/blockwerk",
+      "data_date": "2026-11-12",
+      "analysed_at": "2026-11-12T07:10:51+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Build and explore your own 100×100 block world right in your browser.",
+      "analysis": {
+        "app_key": "itch:58cad73a7c17c07e1813",
+        "summary_ko": "Blockwerk는 웹 브라우저에서 직접 100x100 크기의 블록 세상을 구축하고 탐험하는 시뮬레이션 게임입니다. 사용자는 자신만의 공간을 창의적으로 구성할 수 있습니다.",
+        "features_ko": [
+          "100x100 크기의 그리드 기반 월드를 제공합니다.",
+          "웹 브라우저 환경에서 직접 블록을 배치할 수 있습니다.",
+          "구축한 월드를 자유롭게 탐험할 수 있습니다."
+        ],
+        "noteworthy_ko": "브라우저 기반의 샌드박스 환경은 접근성이 높다는 장점이 있습니다. 데이터 저장 방식과 렌더링 최적화가 개발 관점에서 중요한 포인트가 될 것입니다.",
+        "development_ko": "그리드 기반의 데이터 구조(배열)와 이를 시각화하는 렌더링 엔진이 핵심입니다. 브라우저 환경이므로 메모리 사용량을 고려한 최적화가 필요합니다. 사용자 입력 처리와 블록 배치 로직의 반응성을 높이는 것이 중요합니다.",
+        "idea_ko": "블록 배치에 물리 법칙을 적용하여 구조물이 무너지거나 상호작용하는 요소를 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "웹 브라우저에서 즉시 실행 가능한 접근성.",
+          "100x100이라는 명확한 공간 제약을 통한 창의적 구축 경험."
+        ],
+        "systems_ko": [
+          "그리드 데이터 관리 시스템",
+          "블록 배치 및 삭제 입력 처리",
+          "카메라 이동 및 탐험 시스템",
+          "데이터 저장/불러오기(로컬 스토리지)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "그리드 기반의 데이터 처리는 비교적 단순하지만, 웹 환경에서의 최적화와 사용자 경험을 고려한 UI 구현이 필요합니다. 1인 개발로 기초적인 샌드박스 구현은 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "블록 배치/제거 기능",
+            "100x100 그리드 맵",
+            "카메라 시점 제어"
+          ],
+          "defer": [
+            "멀티플레이어 기능",
+            "복잡한 블록 종류 및 물리 엔진"
+          ],
+          "risks": [
+            "웹 브라우저 성능 제한",
+            "데이터 저장 용량 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "퍼즐 블록 월드",
+            "concept": "특정 블록을 배치하여 길을 만드는 퍼즐 게임입니다. 제한된 블록 개수로 목표 지점에 도달해야 합니다.",
+            "first_step": "블록 배치 시 이동 경로가 생성되는 로직 구현."
+          },
+          {
+            "title": "식물 성장 시뮬레이터",
+            "concept": "블록 위에 식물을 심고 시간이 지나면 성장하는 것을 관찰합니다. 블록의 종류에 따라 성장 속도가 달라집니다.",
+            "first_step": "시간 경과에 따른 블록 상태 변화 로직 구현."
+          }
+        ],
+        "recommendation_ko": "웹 기반 게임 개발의 기초와 그리드 시스템을 배우기에 좋습니다. 샌드박스 장르를 선호하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "블록의 종류, 저장 기능의 유무, 물리 엔진 적용 여부 등 구체적인 기술 사양은 확인되지 않습니다.",
+        "name": "Blockwerk [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://blockwerk.itch.io/blockwerk",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 311,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 23,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-12"
     }
   }
 }

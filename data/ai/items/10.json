@@ -12169,6 +12169,97 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-11"
+    },
+    "apple:1543340610": {
+      "app_key": "apple:1543340610",
+      "name": "RENPHO Health",
+      "developer": "Joicom corporation",
+      "source": "apple",
+      "country": "US",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/us/app/renpho-health/id1543340610?uo=2",
+      "data_date": "2026-11-12",
+      "analysed_at": "2026-11-12T07:11:51+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Good health comes first! RENPHO Health is the best helper in your journey to becoming fitter. The app can track multiple body composition metrics (BMI, Body Fat %, Body Water, Bone Mass, Basal Metabolism Body Age, Muscle Mass, etc). The cloud-based App’s intelligent data analysis and tracking abilities makes it your perfect digital personal helper. It can even convert your data stored over time into charts and reports that can easily be shared by e-mail and multiple social media channels. On top of all that, your entire family can use the App! RENPHO Health allows the user to create multiple personal profiles to keep your data separated. When you use our smart body scales measuring body composition , weight, percentage of body fat , fat weight, height, body mass index (BMI), height and resting calorie consumption data will be synchronized to HealthKit in. How to connect to Apple Health: 1. After install the Renpho Health App and log in successfully for the first time, a pop-up will prompt to ask whether to allow Renpho Health to access all your health data, please tap Allow in the upper right corner; 2. Open Apple Health, enter your profile, tap Apps> Renpho Health, tap Turn All Categories On; 3. After authorization, your Body Fat Percentage, Body Mass Index, and Lean Body Mass will be synchronized to Apple Health. PLEASE note: 1.When you have purchased one of our medical products (such as a blood pressure monitor), please consult your doctor if you experience any discomfort during use, and the data is for reference only. 2.Medical devices are only available in the USA and UK",
+      "analysis": {
+        "app_key": "apple:1543340610",
+        "summary_ko": "RENPHO Health는 체중, 체지방률, 근육량 등 다양한 신체 데이터를 추적하고 분석하는 건강 관리 앱입니다. 스마트 체중계와 연동하여 데이터를 수집하며, 이를 차트와 보고서 형태로 시각화하여 제공합니다. 가족 구성원별로 프로필을 분리하여 관리할 수 있는 기능을 지원합니다.",
+        "features_ko": [
+          "체중, BMI, 체지방률 등 다양한 신체 지표를 측정하고 기록합니다.",
+          "데이터를 시간 흐름에 따라 차트와 보고서로 변환하여 보여줍니다.",
+          "가족 구성원별로 개별 프로필을 생성하여 데이터를 분리 관리합니다.",
+          "Apple Health(HealthKit)와 연동하여 데이터를 동기화합니다.",
+          "이메일 및 소셜 미디어를 통해 건강 보고서를 공유할 수 있습니다."
+        ],
+        "noteworthy_ko": "하드웨어(스마트 체중계)와 소프트웨어(앱)를 결합한 데이터 생태계 구축이 핵심입니다. HealthKit과 같은 외부 건강 플랫폼과의 연동을 통해 데이터의 활용도를 높인 점이 흥미롭습니다.",
+        "development_ko": "블루투스 통신을 통한 하드웨어 데이터 수신 및 파싱 기술이 필요합니다. HealthKit 연동을 위한 권한 관리와 데이터 정규화가 중요하며, 시각화를 위한 차트 라이브러리 활용이 필수적입니다.",
+        "idea_ko": "측정된 데이터를 바탕으로 사용자의 건강 상태를 분석하여 맞춤형 운동이나 식단 가이드를 제안하는 기능이 유용할 것입니다.",
+        "highlights_ko": [
+          "다양한 신체 지표의 체계적인 추적 및 시각화.",
+          "Apple Health와의 원활한 데이터 동기화 지원."
+        ],
+        "systems_ko": [
+          "블루투스 기기 연결 및 데이터 수신 시스템",
+          "사용자 프로필 관리 시스템",
+          "데이터 시각화(차트) 엔진",
+          "HealthKit 데이터 동기화 모듈",
+          "데이터 로컬 저장 및 리포트 생성 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "하드웨어 연동이 필요하지만, 표준화된 HealthKit API를 활용하면 데이터 관리는 비교적 수월합니다. 다만, 블루투스 통신 안정성 확보가 관건입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 프로필 생성",
+            "기본 체중 데이터 입력 및 저장",
+            "데이터 차트 시각화"
+          ],
+          "defer": [
+            "블루투스 자동 연동",
+            "이메일 공유 기능",
+            "다양한 신체 지표 분석"
+          ],
+          "risks": [
+            "블루투스 연결 호환성 문제",
+            "건강 데이터의 정확성 및 보안"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "건강 목표 챌린지",
+            "concept": "사용자가 설정한 체중 목표를 달성하기 위해 매일의 기록을 바탕으로 격려 메시지를 보내거나 배지를 부여합니다.",
+            "first_step": "목표 체중 설정 및 달성률 계산 로직 구현."
+          },
+          {
+            "title": "식단 기록 연동",
+            "concept": "체중 변화와 함께 매일 섭취한 칼로리를 기록하여 체중 변화의 원인을 분석합니다.",
+            "first_step": "간단한 칼로리 입력 폼과 데이터 저장 기능 구현."
+          }
+        ],
+        "recommendation_ko": "IoT 기기 연동과 데이터 시각화 기술을 배우기에 적합합니다. 건강 관련 앱이므로 데이터 보안과 정확성에 대한 책임감을 배울 수 있습니다.",
+        "source_limitations_ko": "블루투스 통신 프로토콜의 상세 규격이나, 의료 기기로서의 인증 여부, 서버 데이터 저장 방식에 대한 정보는 확인되지 않습니다.",
+        "name": "RENPHO Health",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/renpho-health/id1543340610?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 207,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 11,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-12"
     }
   }
 }

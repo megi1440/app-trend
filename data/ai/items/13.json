@@ -10070,6 +10070,184 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-11"
+    },
+    "itch:fe5d5ec6b0f5431b60a8": {
+      "app_key": "itch:fe5d5ec6b0f5431b60a8",
+      "name": "Colony Clicker: Next Star [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://newwayofgames.itch.io/colony-clicker-next-star",
+      "data_date": "2026-11-12",
+      "analysed_at": "2026-11-12T07:11:08+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Click to mine, build a colony, defend it from raiders and fly to the next star. Idle clicker.",
+      "analysis": {
+        "app_key": "itch:fe5d5ec6b0f5431b60a8",
+        "summary_ko": "자원을 채굴하고 식민지를 건설하며 적의 습격으로부터 방어하는 방치형 클릭커 게임입니다. 최종적으로 다음 별로 이동하는 것을 목표로 합니다.",
+        "features_ko": [
+          "클릭을 통해 자원을 채굴합니다.",
+          "채굴한 자원으로 식민지를 건설합니다.",
+          "적의 습격으로부터 식민지를 방어합니다.",
+          "다음 별로 이동하는 우주 탐사 요소가 포함되어 있습니다."
+        ],
+        "noteworthy_ko": "클릭커 게임에 건설과 방어라는 요소를 결합하여 단순 반복을 탈피하려는 시도가 보입니다. 방치형 요소와 전략적 방어 요소의 균형을 맞추는 것이 개발의 핵심입니다.",
+        "development_ko": "클릭 이벤트 처리와 자원 누적 로직이 기본입니다. 건설 및 방어 시스템은 상태 관리(State Management)가 중요하며, 우주 이동은 게임의 엔드 콘텐츠로서 단계별 구현이 필요합니다.",
+        "idea_ko": "식민지 방어 시 자동 포탑을 배치하는 타워 디펜스 요소를 강화하는 것이 적합합니다.",
+        "highlights_ko": [
+          "클릭커와 건설, 방어의 복합 장르입니다.",
+          "우주 탐사라는 명확한 목표를 제시합니다."
+        ],
+        "systems_ko": [
+          "자원 채굴 및 관리 시스템",
+          "건설 및 업그레이드 시스템",
+          "방어 로직(적 습격)",
+          "스테이지/별 이동 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "클릭커 게임은 구현이 비교적 쉽지만, 건설과 방어 시스템을 추가하면 복잡도가 올라갑니다. 1인 개발 시 시스템 간의 연동을 단순하게 유지하는 것이 중요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "클릭 자원 획득",
+            "기본 건설 메뉴",
+            "적 습격 이벤트"
+          ],
+          "defer": [
+            "복잡한 우주 탐사 애니메이션",
+            "다양한 적 종류",
+            "고급 그래픽"
+          ],
+          "risks": [
+            "클릭커 특유의 지루함",
+            "방어 시스템의 밸런스 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "자동 채굴 드론",
+            "concept": "클릭 대신 드론을 배치하여 자동으로 자원을 채굴하게 합니다. 드론을 업그레이드하여 효율을 높입니다.",
+            "first_step": "일정 시간마다 자원이 증가하는 타이머 로직 구현."
+          },
+          {
+            "title": "식민지 환경 관리",
+            "concept": "자원뿐만 아니라 산소, 전력 등 식민지의 환경 수치를 관리해야 합니다. 수치가 낮아지면 생산 효율이 떨어집니다.",
+            "first_step": "자원과 환경 수치를 연동하는 기본 로직 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 기본 루프와 시스템 확장성을 학습하기 좋습니다. 여러 장르를 결합하는 기획을 연습하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "구체적인 자원 종류, 건설 가능한 건물 목록, 적의 습격 방식 등은 소개문에서 알 수 없습니다. 실제 게임의 밸런스나 콘텐츠 양은 검증이 필요합니다.",
+        "name": "Colony Clicker: Next Star [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://newwayofgames.itch.io/colony-clicker-next-star",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 287,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 31,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-12"
+    },
+    "google:com.paradiseinn.idle": {
+      "app_key": "google:com.paradiseinn.idle",
+      "name": "Paradise Inn",
+      "developer": "HYPERCELL",
+      "source": "google",
+      "country": "JP",
+      "category": "game_strategy",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.paradiseinn.idle&hl=ja&gl=JP",
+      "data_date": "2026-11-12",
+      "analysed_at": "2026-11-12T07:13:26+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "夢の島宿を作ろう！ 温かい雰囲気、大物経営…そしてカピバラ。たくさんのカピバラ。 パラダイス・インへようこそ。廃墟となった入り江を活気あふれるトロピカルリゾートに変える、大物経営アドベンチャーゲームです。カピバラを救出し、リゾートを拡張し、支配人を雇い、経営スキルを磨いて島の秘密を解き明かしましょう！ ゲームの特徴 - 自分だけの楽園の島を作ろう 個性豊かなステーションを開設・アップグレード。訪れる人々を幸せにし、リゾートを成長させましょう！ - 可愛いカピバラを救出して集めよう カピバラはそれぞれ個性豊か。歌手、旅人、グルメ、アーティスト、おねむり…彼らを集めてアップグレードし、島をもっと居心地の良い場所にしましょう。 - 魅力的な支配人を雇おう メアリー、ジェニー、ブルーノ・ストーン、リカルド・パ・ド・ドゥ。それぞれの支配人がリゾートを盛り上げ、ステーションに彩りを添えてくれます。 - 楽しいミニゲームとイベント クローバーの幸運の輪を回したり、ビーチチャレンジに参加したり、島の冒険に飛び込んだり。 - ユーモアたっぷりの軽快なストーリー ルシアス・フォン・グリーン男爵と競い合い、家族の謎を解き明かし、島の隠れた場所を探検しましょう！",
+      "analysis": {
+        "app_key": "google:com.paradiseinn.idle",
+        "summary_ko": "Paradise Inn은 폐허가 된 섬을 아름다운 휴양지로 가꾸는 경영 시뮬레이션 게임입니다. 카피바라를 구출하고 시설을 업그레이드하며 섬의 비밀을 밝혀나갑니다. 다양한 개성을 가진 지배인을 고용하여 리조트를 효율적으로 운영할 수 있습니다.",
+        "features_ko": [
+          "폐허가 된 섬을 다양한 시설을 설치하여 휴양지로 개발할 수 있습니다.",
+          "개성 있는 카피바라들을 구출하고 수집하여 리조트의 가치를 높입니다.",
+          "다양한 능력을 가진 지배인을 고용하여 경영 효율을 높일 수 있습니다.",
+          "미니게임과 이벤트를 통해 추가적인 보상을 획득할 수 있습니다."
+        ],
+        "noteworthy_ko": "경영 시뮬레이션과 수집 요소를 결합한 점이 특징입니다. 카피바라라는 매력적인 캐릭터를 전면에 내세워 사용자에게 친근감을 주는 전략이 돋보입니다.",
+        "development_ko": "방치형 게임의 핵심인 재화 자동 생성 로직과 업그레이드 시스템 구현이 필요합니다. 다양한 캐릭터와 시설 데이터를 관리하기 위한 구조 설계가 중요합니다. 1인 개발 시 UI/UX의 복잡도를 낮추는 것이 관건입니다.",
+        "idea_ko": "카피바라의 성격에 따라 선호하는 시설이 달라지는 상호작용 시스템.",
+        "highlights_ko": [
+          "카피바라 수집과 리조트 경영의 결합.",
+          "스토리 중심의 탐험과 미니게임 요소."
+        ],
+        "systems_ko": [
+          "재화 생성 및 관리 시스템",
+          "시설 업그레이드 로직",
+          "캐릭터 수집 및 데이터 관리",
+          "이벤트 및 미니게임 로직"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "방치형 게임의 기본 로직은 구현하기 어렵지 않으나, 데이터의 양이 많아질수록 밸런스 조정이 까다롭습니다. UI가 복잡해질 수 있어 효율적인 화면 구성 능력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "재화 획득 및 소비 로직",
+            "시설 설치 및 업그레이드 기능",
+            "기본적인 캐릭터 수집 시스템"
+          ],
+          "defer": [
+            "복잡한 스토리 라인",
+            "다양한 미니게임"
+          ],
+          "risks": [
+            "게임 밸런스 붕괴",
+            "콘텐츠 소모 속도 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "카피바라 온천장",
+            "concept": "카피바라들이 온천을 즐기러 오는 경영 게임입니다. 온천의 온도를 조절하여 카피바라들을 만족시켜야 합니다.",
+            "first_step": "카피바라가 온천에 들어오고 시간이 지나면 재화를 생성하는 로직 구현."
+          },
+          {
+            "title": "섬 탐험가 카피바라",
+            "concept": "카피바라를 탐험대에 보내 섬의 자원을 수집하는 게임입니다. 탐험대 조합에 따라 수집 효율이 달라집니다.",
+            "first_step": "탐험대 파견 후 일정 시간 뒤 보상을 받는 타이머 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 데이터 구조와 밸런스 설계 방식을 배우기에 좋습니다. 캐릭터 수집형 게임의 기초를 다지고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에 언급된 '섬의 비밀'이나 구체적인 스토리 전개 방식은 확인되지 않습니다. 인앱 결제나 광고 수익 모델에 대한 구체적인 정보는 없습니다.",
+        "name": "Paradise Inn",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.paradiseinn.idle&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-12"
     }
   }
 }
