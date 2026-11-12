@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T10:00:24+09:00",
+  "generated_at": "2026-11-12T11:33:32+09:00",
   "window_days": 30,
   "candidates": [
     {
@@ -484,6 +484,21 @@
       "confidence_note": "수집에 성공한 날짜의 등장 횟수입니다."
     },
     {
+      "app_key": "apple:6760173601",
+      "reason_code": "overseas_interest",
+      "evidence": {
+        "source": "apple",
+        "country": "JP",
+        "category": "all_apps",
+        "chart": "top_free",
+        "rank": 1
+      },
+      "source_data_dates": [
+        "2026-11-12"
+      ],
+      "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
+    },
+    {
       "app_key": "apple:6823027426",
       "reason_code": "overseas_interest",
       "evidence": {
@@ -919,21 +934,6 @@
       "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
     },
     {
-      "app_key": "apple:932747118",
-      "reason_code": "overseas_interest",
-      "evidence": {
-        "source": "apple",
-        "country": "US",
-        "category": "all_apps",
-        "chart": "top_paid",
-        "rank": 1
-      },
-      "source_data_dates": [
-        "2026-11-12"
-      ],
-      "confidence_note": "해외 인기 목록 관측 사실이며 성장 원인에 대한 분석은 아닙니다."
-    },
-    {
       "app_key": "apple:1116232218",
       "reason_code": "newly_seen",
       "evidence": {
@@ -1066,6 +1066,17 @@
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
+      "app_key": "apple:6746353945",
+      "reason_code": "newly_seen",
+      "evidence": {
+        "first_seen": "2026-11-12"
+      },
+      "source_data_dates": [
+        "2026-11-12"
+      ],
+      "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
+    },
+    {
       "app_key": "apple:6751521402",
       "reason_code": "newly_seen",
       "evidence": {
@@ -1078,6 +1089,17 @@
     },
     {
       "app_key": "apple:6754001880",
+      "reason_code": "newly_seen",
+      "evidence": {
+        "first_seen": "2026-11-12"
+      },
+      "source_data_dates": [
+        "2026-11-12"
+      ],
+      "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
+    },
+    {
+      "app_key": "apple:6755951599",
       "reason_code": "newly_seen",
       "evidence": {
         "first_seen": "2026-11-12"
@@ -1452,28 +1474,6 @@
     },
     {
       "app_key": "google:com.pop.happy.art.jigsaw.puzzle.free.game",
-      "reason_code": "newly_seen",
-      "evidence": {
-        "first_seen": "2026-11-12"
-      },
-      "source_data_dates": [
-        "2026-11-12"
-      ],
-      "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
-    },
-    {
-      "app_key": "google:com.power.clean.app",
-      "reason_code": "newly_seen",
-      "evidence": {
-        "first_seen": "2026-11-12"
-      },
-      "source_data_dates": [
-        "2026-11-12"
-      ],
-      "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
-    },
-    {
-      "app_key": "google:com.swiftclean.pro.max",
       "reason_code": "newly_seen",
       "evidence": {
         "first_seen": "2026-11-12"
