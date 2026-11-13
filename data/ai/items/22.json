@@ -12944,6 +12944,277 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-12"
+    },
+    "itch:66b59e308034f85075ec": {
+      "app_key": "itch:66b59e308034f85075ec",
+      "name": "Mummy Mill [Free] [Simulation] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://serkancan.itch.io/mummy-mill",
+      "data_date": "2026-11-13",
+      "analysed_at": "2026-11-13T06:59:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Run a chaotic cat-mummy workshop with up to 4 players. Wrap, slap, throw, and fool the High Priest!",
+      "analysis": {
+        "app_key": "itch:66b59e308034f85075ec",
+        "summary_ko": "최대 4명의 플레이어가 협력하여 고양이 미라 공방을 운영하는 시뮬레이션 게임입니다. 미라를 감고, 때리고, 던지며 대사제를 속이는 혼란스러운 상황을 다룹니다.",
+        "features_ko": [
+          "최대 4인 멀티플레이를 지원하는 협동 시뮬레이션입니다.",
+          "미라를 감는 제작 공정을 수행합니다.",
+          "상대방을 때리거나 던지는 상호작용이 가능합니다.",
+          "대사제를 속이는 미션 목표가 존재합니다."
+        ],
+        "noteworthy_ko": "멀티플레이어 간의 물리적 상호작용이 게임의 재미 요소입니다. 1인 개발 시 네트워크 동기화와 물리 엔진의 충돌 처리가 가장 큰 기술적 도전 과제가 될 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 물리 엔진 기반의 오브젝트 상호작용과 멀티플레이어 네트워크 동기화입니다. 콘텐츠 제작은 공방 내 오브젝트 배치와 미션 로직 구현에 집중됩니다.",
+        "idea_ko": "물리 효과를 극대화한 '협동 작업 중 방해하기' 컨셉의 미니게임이 적합합니다.",
+        "highlights_ko": [
+          "혼란스러운 상황을 유도하는 물리 기반 게임플레이입니다.",
+          "협동과 방해가 공존하는 멀티플레이 구조입니다."
+        ],
+        "systems_ko": [
+          "물리 엔진 상호작용",
+          "멀티플레이어 네트워크 동기화",
+          "오브젝트 제작 및 상태 관리",
+          "미션 및 점수 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "멀티플레이어 네트워크 동기화는 1인 개발자에게 매우 높은 난이도입니다. 물리 기반의 상호작용은 버그 발생 가능성이 높고 테스트가 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 캐릭터 이동 및 물체 잡기",
+            "미라 감기 로직",
+            "로컬 멀티플레이어 지원"
+          ],
+          "defer": [
+            "온라인 멀티플레이어",
+            "복잡한 AI 대사제"
+          ],
+          "risks": [
+            "물리 엔진 버그",
+            "네트워크 지연으로 인한 동기화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "공방 대혼란",
+            "concept": "제한 시간 내에 물건을 옮겨야 하는데, 서로 방해하며 점수를 깎는 대전 게임입니다.",
+            "first_step": "물건을 들고 던지는 물리 로직 구현."
+          },
+          {
+            "title": "미라 패션쇼",
+            "concept": "미라를 감는 방식에 따라 점수가 달라지는 창의적 시뮬레이션입니다.",
+            "first_step": "미라 감기 횟수와 모양에 따른 점수 계산 로직 구현."
+          }
+        ],
+        "recommendation_ko": "물리 기반 게임의 재미를 구현하고 싶다면 추천하지만, 멀티플레이어 구현은 상당한 학습이 필요합니다. 로컬 멀티플레이부터 시작하는 것을 권장합니다.",
+        "source_limitations_ko": "소개문만으로는 온라인/로컬 멀티플레이어 여부, 물리 엔진의 종류, 대사제 AI의 구체적인 행동 패턴을 확인할 수 없습니다.",
+        "name": "Mummy Mill [Free] [Simulation] [Windows]",
+        "source": "itch",
+        "detail_url": "https://serkancan.itch.io/mummy-mill",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 341,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 13,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-13"
+    },
+    "apple:6799634261": {
+      "app_key": "apple:6799634261",
+      "name": "Word Legends 英単語・熟語学習",
+      "developer": "Masanari Otobe",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/jp/app/word-legends-%E8%8B%B1%E5%8D%98%E8%AA%9E-%E7%86%9F%E8%AA%9E%E5%AD%A6%E7%BF%92/id6799634261",
+      "data_date": "2026-11-13",
+      "analysed_at": "2026-11-13T07:01:18+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "あなたの語彙力を、試そう。 Word Legendsは、英単語と熟語・フレーズを4択クイズで学ぶ英語学習アプリです。 53,800語以上の英単語と21,800以上の熟語・フレーズを収録。中学・高校の基礎語彙から、ネイティブでも手応えを感じる難語まで、幅広く挑戦できます。 ■ 積み重ねを、レート・ランキングに。 レーティング戦で、今の語彙力を確かめよう。解答結果に応じて変動するレートと称号が、次の目標になります。ランキングでほかの学習者と競いながら、上位を目指せます。 ■ 単語の先へ。熟語も攻略。 単語だけでなく、熟語やフレーズも豊富に収録。「英語→日本語」「日本語→英語」の両方向から、意味と表現を結びつけて学べます。 ■ 間違えた一問を、次の正解に。 解答後は、正解だけでなく選択肢の意味も確認できます。似た単語との違いを整理し、覚えておきたい語句は単語帳へ。挑戦と復習を繰り返して、知識を積み重ねましょう。 ■ 一語を、深く知る。 単語詳細では、日本語訳・発音記号・英語の定義・例文を確認できます。音声で発音も確かめながら、意味だけでなく使い方まで理解を深められます。 ■ 自分に合ったレベルで集中練習。 学習強化パックを購入すると、Stage別に制限時間付きで演習できる練習モードと、制限時間付きの単語帳復習が利用できます。 練習モードは7段階のStageと出題方向を選択可能。最大100問の演習で、集中的に取り組めます。 【こんな方に】 ・英単語を基礎から学びたい ・資格試験の対策をしたい ・ネイティブにも負けたい語彙力を身に付けたい ・知っているつもりの単語を、クイズで確かめたい ・英単語だけでなく熟語やフレーズも学びたい ・レートやランキングを目標に学習を続けたい ・間違えた問題を集めて復習したい 【アプリ内課金について】 追加の買い切り商品として「学習強化パック」と「広告非表示」を用意しています。 学習強化パックには、練習モード・強化版復習・広告非表示が含まれます。広告非表示のみの商品には、追加の学習機能は含まれません。 各商品の価格は、アプリ内の購入画面でご確認ください。",
+      "analysis": {
+        "app_key": "apple:6799634261",
+        "summary_ko": "5만 개 이상의 영단어와 2만 개 이상의 숙어를 4지 선다 퀴즈로 학습하는 영어 학습 앱입니다. 학습자의 실력을 레이팅과 랭킹으로 관리하며, 오답 복습 및 단어 상세 정보 확인 기능을 제공합니다. 유료 학습 강화 팩을 통해 제한 시간 내 집중 연습 모드를 이용할 수 있습니다.",
+        "features_ko": [
+          "53,800개 이상의 단어와 21,800개 이상의 숙어를 4지 선다 퀴즈로 학습합니다.",
+          "학습 결과에 따라 레이팅이 변동되며 랭킹을 통해 타인과 경쟁합니다.",
+          "영어-일본어, 일본어-영어 양방향 학습을 지원합니다.",
+          "단어 상세 화면에서 발음, 정의, 예문을 확인하고 단어장에 저장할 수 있습니다.",
+          "학습 강화 팩 구매 시 제한 시간 내 집중 연습 모드와 강화된 복습 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "단순 암기 앱에 레이팅과 랭킹 시스템을 도입하여 학습 동기를 부여한 점이 흥미롭습니다. 방대한 데이터를 체계적으로 관리하고 퀴즈로 변환하는 구조가 핵심입니다.",
+        "development_ko": "방대한 단어 데이터를 관리하기 위한 로컬 DB(SQLite 등) 구축이 필수적입니다. 퀴즈 생성 로직과 레이팅 시스템 구현이 중요하며, 사용자 학습 데이터를 기반으로 한 복습 알고리즘 설계가 필요합니다.",
+        "idea_ko": "학습한 단어를 활용하여 짧은 문장을 완성하면 캐릭터가 성장하는 RPG 요소 결합.",
+        "highlights_ko": [
+          "방대한 어휘 데이터베이스와 4지 선다 퀴즈 시스템.",
+          "레이팅 및 랭킹을 통한 학습 경쟁 유도."
+        ],
+        "systems_ko": [
+          "단어 및 숙어 데이터베이스 관리 시스템",
+          "퀴즈 생성 및 정답 판정 로직",
+          "사용자 레이팅 및 랭킹 산정 시스템",
+          "오답 노트 및 단어장 관리 시스템",
+          "앱 내 결제 및 구독 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "데이터베이스 설계와 퀴즈 로직은 표준적인 구현이 가능합니다. 다만 레이팅 시스템의 밸런스 조정과 방대한 데이터를 효율적으로 검색/표시하는 성능 최적화가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 단어 퀴즈 기능",
+            "단어 상세 정보 표시",
+            "단어장 저장 기능"
+          ],
+          "defer": [
+            "레이팅 및 랭킹 시스템",
+            "학습 강화 팩(연습 모드)",
+            "양방향 학습 지원"
+          ],
+          "risks": [
+            "방대한 데이터의 정확성 검증",
+            "퀴즈 문제의 난이도 밸런스 유지"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "단어 RPG",
+            "concept": "퀴즈를 맞힐 때마다 캐릭터가 몬스터를 공격합니다. 학습을 통해 캐릭터를 성장시키는 재미를 더합니다.",
+            "first_step": "퀴즈 정답 시 공격 애니메이션을 출력하는 간단한 UI 구현."
+          },
+          {
+            "title": "오늘의 단어 알림",
+            "concept": "사용자가 설정한 시간에 맞춰 오늘 외워야 할 단어를 푸시 알림으로 전송합니다.",
+            "first_step": "로컬 알림 스케줄러 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 중심의 앱 개발과 사용자 경험(UX) 설계, 그리고 학습 앱의 게임화 요소를 배우기에 매우 좋습니다. 데이터의 양이 많으므로 효율적인 DB 설계 능력을 기를 수 있습니다.",
+        "source_limitations_ko": "데이터베이스의 출처, 레이팅 산정의 구체적인 수식, 유료 결제 상품의 상세 구성 및 가격 정책은 확인되지 않습니다.",
+        "name": "Word Legends 英単語・熟語学習",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/word-legends-%E8%8B%B1%E5%8D%98%E8%AA%9E-%E7%86%9F%E8%AA%9E%E5%AD%A6%E7%BF%92/id6799634261",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 195,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 15,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-13"
+    },
+    "apple:6817314923": {
+      "app_key": "apple:6817314923",
+      "name": "SCRAM: Hide and Seek",
+      "developer": "Moveera Pty Ltd",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/us/app/scram-hide-and-seek/id6817314923?uo=2",
+      "data_date": "2026-11-13",
+      "analysed_at": "2026-11-13T07:04:58+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "SCRAM is the #1 hide and seek game for the real world. Split into hunters and runners, start the clock, and play across your street, park, campus or campsite, with your phone keeping score. HOW IT WORKS • Runners get a head start to hide. • Every few minutes the hunters get a ping: each runner's location pops up on their map, marked with how long ago it was. • Each team sees its own players live. Between pings the hunters are guessing, and runners never see the hunters at all. • The play zone shrinks as the clock runs down. Stay outside it for 30 seconds and the hunters see you live. Stay out for 2 minutes and you're out. • Tag someone in person and they tap \"I got tagged\". TWO WAYS TO PLAY • Classic: tagged runners are out and watch the rest of the round live. The hunters try to tag everyone, and any runner still free when time runs out wins. • Infection: every tag switches sides. Tagged runners join the hunters, so the hunt grows as the round goes on. Survive the clock to win. The host picks the mode, and can change it in the lobby. YOU SET THE RULES Start from a preset (Quick, Standard or Big park) or save your own. The host picks the round length, the head start, how often the pings come (or none at all), and the play zone: its size, where it sits, and how often it shrinks. Or switch the zone off and play anywhere. EASY TO JOIN Friends join with the six-character game code, an invite link that opens the game in SCRAM, or the QR code in the lobby. MADE FOR PLAYING OUTSIDE • Alerts reach you with your phone locked: pings, the head start ending, the zone shrinking, and tags. • Radio keeps each team talking without the other team listening. Hunters can hold to talk and send a voice clip to the other hunters. • Put your phone on silent and alerts buzz instead of ring, so they won't give you away. • Dark mode follows your iPhone, for games after sunset. • New to SCRAM? Try a practice round with bots first. AFTER THE ROUND See your trail on the map, how far you moved and how long you lasted, then share your round card to your Story. LEADERBOARDS Every round scores points. Turn on leaderboards to see where you rank in your country and the world, a month at a time. Boards never show where or when you played. YOUR LOCATION, ONLY WHEN IT COUNTS SCRAM shares your location only during a round, and only with the players in your game. Games are private and need their code to join, and they're deleted after seven days. FREE TO JOIN Downloading SCRAM and joining games is free. Hosting your own games is a one-time purchase: no subscription and no ads. SCRAM speaks 17 languages and shows distances in km or miles. Play somewhere safe, keep an eye on traffic, and stay off private property.",
+      "analysis": {
+        "app_key": "apple:6817314923",
+        "summary_ko": "실제 현실 공간에서 즐기는 술래잡기 게임으로, 스마트폰을 활용해 위치를 추적하고 점수를 기록합니다. 술래와 도망자로 나뉘어 정해진 구역 내에서 게임을 진행하며, 주기적으로 위치가 공개되는 긴장감을 제공합니다. 다양한 게임 모드와 규칙 설정을 통해 친구들과 함께 즐길 수 있습니다.",
+        "features_ko": [
+          "술래는 주기적으로 도망자의 위치를 지도에서 확인할 수 있습니다.",
+          "시간이 지날수록 게임 구역이 좁아져 도망자를 압박합니다.",
+          "술래와 도망자 팀 간의 음성 통신 기능을 제공합니다.",
+          "클래식 모드와 감염 모드 등 다양한 게임 규칙을 선택할 수 있습니다.",
+          "게임 종료 후 이동 경로와 기록을 확인하고 공유할 수 있습니다."
+        ],
+        "noteworthy_ko": "현실 공간을 게임판으로 활용하는 위치 기반 게임(LBS)이라는 점이 매우 흥미롭습니다. 실시간 위치 공유와 구역 축소 메커니즘을 통해 술래잡기의 긴장감을 디지털로 잘 구현한 것으로 보입니다.",
+        "development_ko": "GPS 기반의 실시간 위치 추적 및 동기화 기술이 핵심입니다. 다수의 사용자가 참여하는 실시간 게임이므로 서버의 지연 시간을 최소화하는 것이 중요합니다. 또한, 지오펜싱(Geofencing) 기술을 활용해 게임 구역을 설정하고 관리하는 기능이 필요합니다.",
+        "idea_ko": "특정 장소에 가상 아이템을 배치하는 보물찾기 모드 추가.",
+        "highlights_ko": [
+          "현실 세계의 거리, 공원 등을 게임 무대로 활용하는 몰입형 술래잡기입니다.",
+          "감염 모드를 통해 술래가 늘어나는 역동적인 게임 플레이를 지원합니다."
+        ],
+        "systems_ko": [
+          "GPS 실시간 위치 추적 시스템",
+          "지오펜싱 기반 구역 관리 시스템",
+          "실시간 멀티플레이어 동기화",
+          "팀별 음성 통신 모듈",
+          "게임 상태 및 점수 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 위치 데이터 동기화와 다중 접속자 처리는 서버 부하가 크고 기술적 난도가 높습니다. 또한 GPS 오차 보정과 배터리 소모 최적화 등 고려할 요소가 많습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "실시간 위치 공유 기능",
+            "게임 방 생성 및 코드 입장",
+            "술래/도망자 상태 구분"
+          ],
+          "defer": [
+            "음성 통신 기능",
+            "글로벌 리더보드",
+            "복잡한 게임 모드 설정"
+          ],
+          "risks": [
+            "GPS 신호 불안정으로 인한 게임 진행 오류",
+            "개인정보 보호 및 위치 데이터 보안 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "가상 영역 점령전",
+            "concept": "특정 구역을 점령하여 점수를 얻는 팀 대항전입니다. 술래잡기에 영역 점령이라는 전략적 요소를 더합니다.",
+            "first_step": "특정 좌표에 도달하면 점령 상태가 변경되는 로직 구현."
+          },
+          {
+            "title": "야간 야광 술래잡기",
+            "concept": "야간에만 활성화되는 특수 모드로, 화면 밝기를 낮추고 소리에 의존해야 하는 긴장감을 강조합니다.",
+            "first_step": "주변 소음 수치를 측정하여 화면에 시각화하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "위치 기반 서비스(LBS)와 실시간 멀티플레이어 게임 개발을 공부하기에 매우 좋은 사례입니다. 다만, 서버 인프라 구축 경험이 없다면 난도가 높을 수 있습니다.",
+        "source_limitations_ko": "위치 데이터 처리 방식, 서버 통신 프로토콜, GPS 오차 보정 알고리즘 등 구체적인 기술적 구현 방법은 알 수 없습니다.",
+        "name": "SCRAM: Hide and Seek",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/scram-hide-and-seek/id6817314923?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 78,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-13"
     }
   }
 }

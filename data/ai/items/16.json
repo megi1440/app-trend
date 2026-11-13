@@ -12608,6 +12608,272 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-12"
+    },
+    "itch:06506b1c9f191604c011": {
+      "app_key": "itch:06506b1c9f191604c011",
+      "name": "Don’t Kill Cube Jack [R$1.00] [Platformer] [Windows] [Android]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://eulokismt.itch.io/dont-kill-cube-jack",
+      "data_date": "2026-11-13",
+      "analysed_at": "2026-11-13T07:00:06+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "20 fases de plataforma. Desconfie até do chão.",
+      "analysis": {
+        "app_key": "itch:06506b1c9f191604c011",
+        "summary_ko": "20개의 스테이지로 구성된 플랫폼 게임입니다. 플레이어는 함정이 숨겨진 지형을 주의하며 이동해야 합니다. 단순한 플랫폼 액션에 불신이라는 심리적 요소를 결합한 경험을 제공합니다.",
+        "features_ko": [
+          "총 20개의 플랫폼 스테이지를 제공합니다.",
+          "지형지물에 함정이 숨겨져 있어 플레이어의 주의를 요구합니다."
+        ],
+        "noteworthy_ko": "플랫폼 게임에서 '지면'을 신뢰할 수 없게 만든 점이 흥미롭습니다. 이는 플레이어의 학습과 기억을 방해하는 레벨 디자인적 장치로 작용할 것으로 추정됩니다.",
+        "development_ko": "핵심 구현 기술은 타일 기반의 충돌 판정과 함정 트리거 시스템입니다. 콘텐츠 제작은 20개 스테이지의 난이도 곡선을 설계하는 데 집중해야 하며, 테스트 시 플레이어가 불합리함을 느끼지 않도록 시각적 힌트를 배치하는 밸런스 작업이 중요합니다.",
+        "idea_ko": "지형의 안전 여부를 짧은 시간 동안만 보여주는 '기억력 기반 플랫폼' 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "20단계의 짧고 굵은 플랫폼 구성.",
+          "지형을 신뢰할 수 없는 심리적 압박 요소."
+        ],
+        "systems_ko": [
+          "플레이어 이동 및 물리 엔진",
+          "타일맵 기반 레벨 시스템",
+          "함정 트리거 및 상태 관리",
+          "UI 및 스테이지 진행 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "플랫폼 게임의 기본 메커니즘은 구현하기 쉬우나, 함정의 배치와 난이도 조절을 통해 플레이어의 경험을 설계하는 과정에 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "플레이어 이동 및 점프",
+            "함정 타일 로직",
+            "스테이지 전환 시스템"
+          ],
+          "defer": [
+            "화려한 이펙트",
+            "세이브/로드 시스템"
+          ],
+          "risks": [
+            "함정의 불합리함으로 인한 플레이어 이탈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "기억의 발판",
+            "concept": "스테이지 시작 시 모든 지형을 잠시 보여주고 사라지게 합니다. 플레이어는 기억을 더듬어 안전한 길로만 이동해야 합니다.",
+            "first_step": "타일의 가시성(Visible/Invisible)을 제어하는 간단한 스크립트 작성."
+          },
+          {
+            "title": "박자 맞춤 플랫폼",
+            "concept": "함정이 일정한 리듬에 맞춰 나타나고 사라집니다. 리듬 게임처럼 타이밍에 맞춰 이동하는 규칙을 추가합니다.",
+            "first_step": "시간 기반의 타일 활성화/비활성화 루프 구현."
+          }
+        ],
+        "recommendation_ko": "플랫폼 게임의 레벨 디자인 기초를 다지기에 좋습니다. 함정 배치에 따른 플레이어의 반응을 관찰하며 레벨 설계 능력을 키울 수 있습니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 함정의 종류, 플레이어의 조작 방식, 그래픽 스타일 등 구체적인 게임 규칙은 확인되지 않습니다.",
+        "name": "Don’t Kill Cube Jack [R$1.00] [Platformer] [Windows] [Android]",
+        "source": "itch",
+        "detail_url": "https://eulokismt.itch.io/dont-kill-cube-jack",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 326,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 18,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-13"
+    },
+    "apple:6755833223": {
+      "app_key": "apple:6755833223",
+      "name": "SpinQuest Casino",
+      "developer": "SpinQuest",
+      "source": "apple",
+      "country": "US",
+      "category": "game_card",
+      "detail_url": "https://apps.apple.com/us/app/spinquest-casino/id6755833223?uo=2",
+      "data_date": "2026-11-13",
+      "analysed_at": "2026-11-13T07:02:59+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Get the thrill of Vegas on the fastest growing US-owned Social Casino for players, by players SpinQuest is the premier social casino designed for players who love high-stakes excitement and daily free coins. 1,000+ FREE CASINO GAMES - Vegas-style slots and mega jackpots - Exclusive in-house games: Huff House Bonanza, Plinko, Instant Blackjack, and Live Craps - Instant Blackjack, Roulette, Baccarat, Plinko, Craps, and Bubble Craps - Claim Gold coin bonuses and DAILY login rewards - New games and slots added every week LIVE DEALER TABLE GAMES - Live Blackjack, Roulette, Craps, and Bubble Craps with professional dealers - Real Dealers, real-time action - No lines, no waiting. A seat is always open DAILY REWARDS & BONUSES - Log in daily for free coins and bonuses - Compete in site-wide tournaments, blitzes and races - Rapid level-up of rewards and prizes SPINQUEST IS BUILT FOR PLAYERS - Trusted by top creators: Brettski, Bluff, Lady Luck, The Big Jackpot, OMFG_Slots and TheOnTiltBoys - Exclusive fan experiences: Join creator meetups, special live-events and massive community celebrations - 24/7 US-based customer support - Set up your account and play within minutes Follow @PlaySpinQuest for bonuses, live events, rewards, special offers and exclusive content 18+ Terms & Conditions Apply. No Purchase Necessary. Void Where Prohibited By Law. Apple Inc. is not a sponsor of, affiliated with or responsible for this offering.",
+      "analysis": {
+        "app_key": "apple:6755833223",
+        "summary_ko": "SpinQuest Casino는 다양한 슬롯 머신과 테이블 게임을 제공하는 소셜 카지노 게임입니다. 사용자는 매일 제공되는 무료 코인을 통해 게임을 즐기고 토너먼트에 참여할 수 있습니다. 실제 현금 베팅이 아닌 가상 재화를 사용하는 소셜 카지노 경험을 제공합니다.",
+        "features_ko": [
+          "슬롯 머신, 블랙잭, 룰렛, 크랩스 등 1,000개 이상의 카지노 게임을 제공합니다.",
+          "매일 로그인 보너스와 골드 코인을 지급하여 게임을 지속하게 합니다.",
+          "실제 딜러가 진행하는 라이브 테이블 게임을 지원합니다.",
+          "사이트 전체 토너먼트와 레이스를 통해 경쟁 요소를 제공합니다."
+        ],
+        "noteworthy_ko": "소셜 카지노는 사용자 유지(Retention)를 위한 보상 체계와 심리적 몰입감이 핵심입니다. 개발 관점에서는 수많은 게임 모듈을 안정적으로 관리하는 서버 구조와 공정한 확률 알고리즘 구현이 중요합니다.",
+        "development_ko": "핵심 기술은 서버 기반의 확률 엔진과 실시간 멀티플레이어 동기화입니다. 콘텐츠 제작은 다양한 슬롯 테마와 그래픽 에셋 생산이 주를 이룹니다. 밸런스 측면에서는 무료 재화 지급량과 게임 난이도 사이의 정교한 경제 시스템 설계가 필수적입니다.",
+        "idea_ko": "카지노 게임의 확률적 재미를 차용하되, 교육용 퀴즈나 퍼즐을 결합하여 보상을 얻는 방식의 캐주얼 게임이 적합합니다.",
+        "highlights_ko": [
+          "다양한 게임 모드를 한곳에서 즐길 수 있는 통합 플랫폼.",
+          "커뮤니티 이벤트와 크리에이터 협업을 통한 사용자 참여 유도."
+        ],
+        "systems_ko": [
+          "확률 기반 게임 엔진(RNG)",
+          "사용자 재화 및 데이터 관리 시스템",
+          "실시간 멀티플레이어 통신",
+          "보상 및 이벤트 스케줄러",
+          "UI/UX 기반의 게임 로비"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "게임 로직 자체는 확률 기반의 단순 반복 구조이나, 서버 안정성과 보안, 그리고 지속적인 콘텐츠 업데이트를 위한 시스템 구축이 필요합니다. 1인 개발 시에는 게임 종류를 1~2개로 제한하여 구현하는 것이 현실적입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 슬롯 머신 로직",
+            "사용자 계정 및 코인 잔액 관리",
+            "일일 보상 시스템"
+          ],
+          "defer": [
+            "라이브 딜러 스트리밍",
+            "대규모 토너먼트 시스템",
+            "실시간 채팅"
+          ],
+          "risks": [
+            "확률 알고리즘의 공정성 논란",
+            "서버 부하 및 데이터 무결성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지식 슬롯 머신",
+            "concept": "슬롯을 돌려 나온 카테고리의 퀴즈를 맞히면 코인을 획득하는 게임입니다. 운과 지식이 결합된 형태입니다.",
+            "first_step": "슬롯 머신 애니메이션과 퀴즈 데이터베이스를 연결하는 기본 로직 구현."
+          },
+          {
+            "title": "전략적 자원 관리 게임",
+            "concept": "카지노의 경영자가 되어 슬롯 머신을 배치하고 수익을 관리하는 시뮬레이션입니다. 확률을 조절하여 손님을 유치합니다.",
+            "first_step": "건물 배치 시스템과 간단한 수익 계산 로직 구현."
+          }
+        ],
+        "recommendation_ko": "데이터베이스 관리와 확률 기반의 게임 경제 시스템을 설계하는 법을 배우기에 좋습니다. 다만, 실제 도박 관련 법규나 보안 이슈가 민감하므로 학습용으로만 접근하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에 명시된 '라이브 딜러'의 구체적인 구현 방식(영상 스트리밍 연동 등)은 확인되지 않았습니다. 실제 결제 기능이나 법적 규제 준수 여부는 소개문만으로 판단할 수 없습니다.",
+        "name": "SpinQuest Casino",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/spinquest-casino/id6755833223?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-13"
+    },
+    "google:com.mf.coffee": {
+      "app_key": "google:com.mf.coffee",
+      "name": "위스퍼 캐슬: 합성 & 스토리 게임",
+      "developer": "Microfun Limited",
+      "source": "google",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.mf.coffee&hl=ko&gl=KR",
+      "data_date": "2026-11-13",
+      "analysed_at": "2026-11-13T07:04:58+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "🏰 위스퍼 캐슬에 오신 걸 환영합니다 🏰 크리스틴과 그녀의 딸 새미가 산 위의 오래된 성에서 새로운 삶을 시작할 수 있도록 도와주세요! 동화같이 아름다워 보이지만 무너진 성채, 수상한 이웃, 무수한 비밀이 숨겨진 복도 등 성 곳곳에 위험이 도사리고 있습니다. 크리스틴은 이곳에서 다시 삶을 일으켜 세우고 진실을 밝힐 수 있을까요? 성 재건 성을 재건하고 꿈의 집을 만드세요! 가구, 벽지 그리고 장식품을 골라 새로운 분위기를 조성해 주세요! 관계 구축 귀엽고, 이상하고, 심지어는 간사한 주민들과 어울려 가며 그들을 도와 비밀을 파헤치고 그 안에서 진실한 사랑을 찾으세요. 단서 추적 새로운 구역을 해제하고 잊힌 방과 비밀 통로를 탐색하여 성과 크리스틴의 과거를 밝히세요. 수수께끼 해결 성과 마을에는 잊힌 비밀이 숨겨져 있습니다. 합성과 재건을 통해 수수께끼를 해결하고 크리스틴에게 더 나은 미래를 만들어 주세요! 게임 도중에 문제가 발생했나요? cow-service@microfun.com 주소로 메일을 보내주시면 도움을 제공해 드립니다! 개인정보처리방침: https://www.microfun.com/privacy_EN.html 이용약관: https://www.microfun.com/userAgreementEN.html",
+      "analysis": {
+        "app_key": "google:com.mf.coffee",
+        "summary_ko": "무너진 성을 재건하고 주민들과 관계를 맺으며 비밀을 파헤치는 합성 및 스토리 게임입니다. 사용자는 아이템을 합성하여 성을 복구하고, 새로운 구역을 해제하며 이야기를 진행합니다. 동화 같은 분위기 속에서 주인공 크리스틴의 과거와 성의 비밀을 밝히는 것이 목표입니다.",
+        "features_ko": [
+          "아이템을 합성하여 성 재건에 필요한 도구와 자원을 획득합니다.",
+          "가구, 벽지 등을 선택하여 성의 내부를 꾸밀 수 있습니다.",
+          "다양한 주민들과 상호작용하며 퀘스트를 수행하고 비밀을 밝힙니다.",
+          "새로운 구역을 해제하여 성의 숨겨진 방과 통로를 탐색합니다."
+        ],
+        "noteworthy_ko": "합성(Merge) 메커니즘과 스토리텔링을 결합하여 사용자의 지속적인 플레이를 유도하는 구조입니다. 성을 꾸미는 요소가 더해져 수집과 성취감을 동시에 제공하는 점이 흥미롭습니다.",
+        "development_ko": "아이템 합성 규칙과 데이터 구조 설계가 핵심입니다. 스토리 진행에 따른 퀘스트 관리 시스템과 꾸미기 요소의 데이터 저장이 필요합니다. 콘텐츠 제작 부담이 크므로, 지속적인 업데이트를 위한 레벨 디자인과 스토리 작성이 중요합니다.",
+        "idea_ko": "합성한 아이템을 주민들에게 선물하여 호감도를 높이는 시스템.",
+        "highlights_ko": [
+          "합성과 재건이라는 두 가지 핵심 메커니즘을 통해 성의 비밀을 밝히는 스토리 중심 게임입니다.",
+          "주민들과의 관계 구축을 통해 게임 내 세계관을 확장합니다."
+        ],
+        "systems_ko": [
+          "아이템 합성 엔진",
+          "퀘스트 및 스토리 진행 관리 시스템",
+          "인테리어 꾸미기 데이터 관리",
+          "주민 호감도 및 상호작용 시스템",
+          "재화 및 보상 밸런스 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "합성 게임은 로직 자체가 복잡하지 않아 구현이 가능합니다. 다만, 방대한 스토리와 꾸미기 콘텐츠를 지속적으로 제작하는 운영 부담이 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "아이템 합성 보드",
+            "기본 재건 퀘스트",
+            "아이템 인벤토리"
+          ],
+          "defer": [
+            "복잡한 스토리 분기",
+            "다양한 인테리어 커스터마이징",
+            "주민 호감도 시스템"
+          ],
+          "risks": [
+            "콘텐츠 소모 속도가 빨라질 경우의 대처 방안 부족",
+            "합성 규칙의 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "시간 제한 합성 챌린지",
+            "concept": "특정 시간 동안만 나타나는 희귀 아이템을 합성하여 특별한 보상을 얻는 이벤트입니다.",
+            "first_step": "타이머와 연동된 아이템 생성 로직 구현."
+          },
+          {
+            "title": "주민 의뢰 게시판",
+            "concept": "주민들이 필요한 물건을 합성해서 전달하면 성의 특정 구역이 자동으로 복구되는 시스템입니다.",
+            "first_step": "의뢰 목록을 보여주는 UI와 아이템 전달 로직 구현."
+          }
+        ],
+        "recommendation_ko": "캐주얼 게임의 핵심 루프를 설계하고 데이터 기반의 콘텐츠 관리 방식을 배우기에 적합합니다. 합성 게임 장르를 선호하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "구체적인 합성 알고리즘, 스토리 데이터 구조, 수익 모델(BM)에 대한 상세 정보는 확인되지 않습니다.",
+        "name": "위스퍼 캐슬: 합성 & 스토리 게임",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.mf.coffee&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 92,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-13"
     }
   }
 }

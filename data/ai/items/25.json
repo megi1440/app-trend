@@ -12499,6 +12499,275 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-12"
+    },
+    "itch:535a5cc9aed2ca96e077": {
+      "app_key": "itch:535a5cc9aed2ca96e077",
+      "name": "県立掬星台高校簿記部へようこそ ～目指せ日商簿記3級～ [Free] [Educational]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://kobatax-office.itch.io/boki3-club",
+      "data_date": "2026-11-13",
+      "analysed_at": "2026-11-13T07:00:06+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "簿記部の3人と学ぶ、日商簿記3級の独学ノベル。全12章＋演習問題＋CBT模擬試験。",
+      "analysis": {
+        "app_key": "itch:535a5cc9aed2ca96e077",
+        "summary_ko": "고등학교 부기부를 배경으로 일본 상공회의소 부기 검정 3급을 학습하는 교육용 비주얼 노벨입니다. 12개의 챕터와 연습 문제, 모의 시험을 통해 독학을 지원합니다.",
+        "features_ko": [
+          "부기 검정 3급 내용을 다루는 12개의 학습 챕터가 있습니다.",
+          "연습 문제와 CBT 모의 시험 기능을 제공합니다.",
+          "비주얼 노벨 형식으로 캐릭터들과 함께 학습합니다."
+        ],
+        "noteworthy_ko": "교육 콘텐츠와 게임의 결합은 학습 동기를 부여하는 데 효과적입니다. 학습 데이터를 관리하고 문제 은행을 구축하는 시스템 설계가 개발 관점에서 중요합니다.",
+        "development_ko": "핵심 기술은 문제 데이터베이스 관리와 학습 진도 저장입니다. 콘텐츠 제작은 부기 이론을 알기 쉽게 설명하는 텍스트 작성에 집중해야 하며, 테스트 시 문제의 정답 판정과 해설이 정확한지 검증하는 과정이 필수입니다.",
+        "idea_ko": "학습한 내용을 바탕으로 가상의 가게를 운영해보는 경영 시뮬레이션 결합형 학습 게임이 적합합니다.",
+        "highlights_ko": [
+          "부기 검정 3급 대비를 위한 체계적인 구성.",
+          "캐릭터와 함께하는 학습 경험."
+        ],
+        "systems_ko": [
+          "학습 챕터 진행 관리",
+          "문제 은행 및 정답 판정 시스템",
+          "학습 진도 저장(세이브)",
+          "CBT 모의 시험 UI"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "게임 엔진의 기본 기능으로 구현 가능하나, 방대한 학습 데이터를 구조화하고 정확한 문제 풀이 로직을 만드는 데 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "챕터별 텍스트 출력",
+            "객관식 문제 풀이 시스템",
+            "결과 채점 및 해설 기능"
+          ],
+          "defer": [
+            "복잡한 애니메이션",
+            "학습 통계 분석"
+          ],
+          "risks": [
+            "학습 내용의 정확성 검증 부족",
+            "지루한 학습 과정"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "부기 경영 시뮬레이션",
+            "concept": "학습한 부기 지식을 활용해 가상의 가게 장부를 직접 작성합니다. 실무 능력을 간접적으로 체험합니다.",
+            "first_step": "간단한 차변/대변 입력 UI와 합계 검증 로직 구현."
+          },
+          {
+            "title": "부기 퀴즈 배틀",
+            "concept": "캐릭터와 퀴즈 대결을 펼쳐 승리하면 다음 챕터가 해금됩니다. 게임성을 높여 학습 몰입도를 강화합니다.",
+            "first_step": "시간 제한 퀴즈 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "교육용 앱 개발에 관심 있는 분께 추천합니다. 정보 전달과 게임적 재미를 어떻게 조화시킬지 고민해볼 수 있는 좋은 사례입니다.",
+        "source_limitations_ko": "실제 부기 검정 3급의 최신 개정 내용 반영 여부, 문제의 난이도 조절 방식, 학습 데이터의 외부 연동 여부 등은 확인되지 않습니다.",
+        "name": "県立掬星台高校簿記部へようこそ ～目指せ日商簿記3級～ [Free] [Educational]",
+        "source": "itch",
+        "detail_url": "https://kobatax-office.itch.io/boki3-club",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 290,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-13"
+    },
+    "itch:af6dd79eec76b9d89962": {
+      "app_key": "itch:af6dd79eec76b9d89962",
+      "name": "Scrapyard Robot (Mobile) [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://dadddydarko.itch.io/scrapyard-robot-mobile",
+      "data_date": "2026-11-13",
+      "analysed_at": "2026-11-13T07:00:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Haul scrap, rebuild an old friend, and green a dusty yard. Made for phones, played sideways.",
+      "analysis": {
+        "app_key": "itch:af6dd79eec76b9d89962",
+        "summary_ko": "폐기물 처리장을 배경으로 로봇을 수리하고 정원을 가꾸는 방치형 시뮬레이션 게임입니다. 모바일 환경에 최적화되어 가로 모드로 플레이할 수 있습니다. 폐기물을 수집하여 황폐한 공간을 녹지로 바꾸는 과정을 다룹니다.",
+        "features_ko": [
+          "폐기물을 수집하여 자원을 확보합니다.",
+          "수집한 자원으로 오래된 로봇 친구를 수리합니다.",
+          "황폐한 정원을 가꾸어 녹지 공간으로 변화시킵니다."
+        ],
+        "noteworthy_ko": "폐기물 수집과 정원 가꾸기라는 대조적인 테마를 결합한 점이 흥미롭습니다. 방치형 장르 특성상 수집과 성장 주기가 핵심적인 재미 요소로 작용할 것으로 추정됩니다.",
+        "development_ko": "핵심 구현 기술로는 아이템 수집 로직과 정원 상태 관리 시스템이 필요합니다. 콘텐츠 제작은 수집 가능한 폐기물 종류와 로봇 수리 단계별 그래픽 에셋 확보가 주된 부담이 될 것입니다. 밸런스 측면에서는 정원이 변화하는 속도와 자원 수집 효율 간의 조절이 중요합니다.",
+        "idea_ko": "폐기물 종류에 따라 정원의 식물 종류가 달라지는 '환경 맞춤형 정원 가꾸기' 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "가로 모드 전용으로 설계된 모바일 최적화 인터페이스.",
+          "폐기물 처리와 정원 가꾸기를 결합한 독특한 테마."
+        ],
+        "systems_ko": [
+          "자원 수집 및 인벤토리 시스템",
+          "로봇 수리 진행도 관리",
+          "정원 상태 데이터 저장 및 로드",
+          "UI/UX 인터페이스",
+          "방치형 보상 계산 로직"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "방치형 게임의 기본 구조는 단순하지만, 정원 변화에 따른 시각적 연출과 수집 데이터 관리 등 구현해야 할 시스템의 가짓수가 적지 않기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "폐기물 수집 버튼 및 카운터",
+            "로봇 수리 상태 표시 UI",
+            "기본 정원 배경 변화 시스템"
+          ],
+          "defer": [
+            "복잡한 로봇 커스터마이징",
+            "소셜 공유 기능"
+          ],
+          "risks": [
+            "반복적인 수집 과정의 지루함",
+            "데이터 저장 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "폐기물 분류기",
+            "concept": "수집한 폐기물을 종류별로 분류하여 보너스를 얻는 미니게임입니다. 분류 정확도에 따라 정원 가꾸기 속도가 빨라집니다.",
+            "first_step": "폐기물 아이콘을 드래그하여 지정된 구역에 놓는 간단한 분류 로직 구현."
+          },
+          {
+            "title": "로봇의 일기",
+            "concept": "수리된 로봇이 정원을 가꾸며 느끼는 감정을 일기로 기록합니다. 정원의 상태에 따라 일기 내용이 변화합니다.",
+            "first_step": "정원 상태에 따라 텍스트가 변경되는 간단한 로그 시스템 구축."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 핵심 루프를 설계하는 방법을 배우기에 좋습니다. 단순한 수집과 보상 구조를 어떻게 시각적으로 매력 있게 표현할지 고민해 볼 수 있습니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 게임 규칙, 수집 가능한 아이템의 종류, 로봇 수리의 구체적인 메커니즘 등은 확인되지 않습니다.",
+        "name": "Scrapyard Robot (Mobile) [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://dadddydarko.itch.io/scrapyard-robot-mobile",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 275,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 36,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-13"
+    },
+    "google:com.TXStudio.global": {
+      "app_key": "google:com.TXStudio.global",
+      "name": "Survival War",
+      "developer": "Qika Games",
+      "source": "google",
+      "country": "US",
+      "category": "game_strategy",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.TXStudio.global&hl=en&gl=US",
+      "data_date": "2026-11-13",
+      "analysed_at": "2026-11-13T07:01:18+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Survive the Zombie Outbreak. Control the Dead Zone. A secret bioweapon experiment has gone wrong. The zombie virus has consumed Hadforth, a sealed-off industrial town filled with infected streets, ruined shelters, abandoned hospitals, and underground labs. Now three forces fight for control: The National Guard wants to contain the outbreak. Wilmed Biopharma wants to recover samples and erase the evidence. The infected swarm wants to spread, evolve, and consume everything. Build your shelter, recruit heroes, search for resources, and lead your squad through deadly outbreak zones. Every mission is a choice: scavenge deeper, fight harder, or extract before you lose everything. Game Features Build and upgrade your shelter to survive the apocalypse. Search abandoned zones for food, supplies, weapons, and rare resources. Experience search-fight-extract gameplay where every run brings danger and reward. Train and upgrade heroes with unique skills and squad roles. Capture key locations and fight tactical battles for control of the town. Face zombies, mutants, infected nests, and rival factions. Choose how the outbreak ends: cleanse it, control it, or let it spread. In this post-apocalyptic zombie survival strategy game, every resource matters, every hero counts, and every expedition could be your last. Take command, build your shelter, and survive the dead zone.",
+      "analysis": {
+        "app_key": "google:com.TXStudio.global",
+        "summary_ko": "좀비 바이러스로 폐쇄된 산업 도시를 배경으로 하는 전략 생존 게임입니다. 사용자는 대피소를 건설하고 영웅을 모집하여 자원을 탐색하고 좀비 및 적대 세력과 전투를 벌입니다. 매 미션마다 자원 탐색, 전투, 탈출 중 선택을 내려야 하는 전략적 요소가 강조됩니다.",
+        "features_ko": [
+          "대피소를 건설하고 업그레이드하여 생존 기반을 마련합니다.",
+          "폐쇄된 구역을 탐색하여 식량, 무기, 희귀 자원을 수집합니다.",
+          "탐색-전투-탈출로 이어지는 미션 구조를 통해 긴장감을 제공합니다.",
+          "고유 스킬과 역할을 가진 영웅을 훈련하고 강화합니다.",
+          "주요 거점을 점령하고 적대 세력과 전술적 전투를 수행합니다.",
+          "스토리 진행에 따라 좀비 사태를 정화하거나 통제하는 등 결말을 선택합니다."
+        ],
+        "noteworthy_ko": "탐색과 탈출이라는 로그라이크적 요소를 전략 게임에 결합한 점이 흥미롭습니다. 자원 관리와 전투의 긴장감을 어떻게 밸런싱하느냐가 게임의 핵심 재미 요소로 보입니다.",
+        "development_ko": "전략 게임의 복잡한 상태 관리와 자원 경제 시스템 구현이 핵심입니다. 영웅의 스킬 시스템과 전투 로직은 밸런스 조정이 매우 중요하며, 탐색 구역의 절차적 생성이나 맵 구성에 대한 콘텐츠 제작 부담이 큽니다.",
+        "idea_ko": "탐색 중 발견한 무전기를 통해 다른 생존자와 실시간으로 자원을 교환하거나 협력하는 멀티플레이 요소 추가.",
+        "highlights_ko": [
+          "탐색, 전투, 탈출이 결합된 전략적 생존 게임플레이.",
+          "대피소 건설 및 영웅 육성 시스템."
+        ],
+        "systems_ko": [
+          "자원 관리 및 대피소 건설 시스템",
+          "영웅 육성 및 스킬 트리 시스템",
+          "전투 엔진 및 턴제/실시간 전략 로직",
+          "맵 탐색 및 아이템 드롭 시스템",
+          "게임 상태 저장 및 데이터 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "전략 게임은 시스템이 복잡하고 밸런스 조정에 많은 시간이 소요됩니다. 1인 개발 시 콘텐츠 제작(아트, 레벨 디자인)과 시스템 구현의 양이 매우 많아 MVP 범위를 엄격히 제한해야 합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 대피소 건설",
+            "간단한 전투 시스템",
+            "자원 수집 로직"
+          ],
+          "defer": [
+            "복잡한 영웅 스킬 시스템",
+            "적대 세력과의 거점 점령전",
+            "멀티 엔딩 시스템"
+          ],
+          "risks": [
+            "게임 밸런스 붕괴",
+            "콘텐츠 부족으로 인한 짧은 플레이 타임"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "자원 교환소",
+            "concept": "탐색 중 얻은 잉여 자원을 다른 생존자와 교환하여 필요한 물자를 얻는 시스템입니다.",
+            "first_step": "자원 1:1 교환 로직 구현."
+          },
+          {
+            "title": "야간 생존 모드",
+            "concept": "밤이 되면 좀비가 강해지는 환경에서 대피소를 방어하는 디펜스 요소입니다.",
+            "first_step": "시간대별 적 능력치 변화 로직 구현."
+          }
+        ],
+        "recommendation_ko": "전략 게임의 복잡한 시스템을 설계하고 밸런스를 맞추는 과정을 배우기에 좋습니다. 다만 1인 개발 시에는 규모를 대폭 축소하여 핵심 재미에 집중하는 것이 성공의 열쇠입니다.",
+        "source_limitations_ko": "전투의 상세 로직(턴제인지 실시간인지), 자원 경제 시스템의 수치, 영웅 스킬의 구체적인 메커니즘은 확인되지 않습니다.",
+        "name": "Survival War",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.TXStudio.global&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 195,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 15,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-13"
     }
   }
 }

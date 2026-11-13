@@ -11157,6 +11157,183 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-12"
+    },
+    "itch:4a1ad408e1eca3e3150e": {
+      "app_key": "itch:4a1ad408e1eca3e3150e",
+      "name": "Aquanaut [$6.00] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "featured",
+      "detail_url": "https://pixeljam.itch.io/aquanaut",
+      "data_date": "2026-11-13",
+      "analysed_at": "2026-11-13T06:59:17+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Underwater bullet hell roguelike adventure",
+      "analysis": {
+        "app_key": "itch:4a1ad408e1eca3e3150e",
+        "summary_ko": "Aquanaut은 수중을 배경으로 한 탄막 슈팅 로그라이크 게임입니다. 플레이어는 바닷속에서 적의 공격을 피하며 모험을 진행하게 됩니다. 로그라이크 요소가 결합되어 매번 새로운 플레이 경험을 제공할 것으로 보입니다.",
+        "features_ko": [
+          "수중 환경에서 펼쳐지는 탄막 슈팅 전투를 제공합니다.",
+          "로그라이크 방식을 채택하여 매 플레이마다 변화하는 모험을 구성합니다."
+        ],
+        "noteworthy_ko": "수중이라는 독특한 테마와 탄막 슈팅의 결합이 흥미롭습니다. 수중 특유의 부력이나 이동 제약이 탄막 회피와 어떻게 상호작용하는지가 핵심적인 재미 요소로 추정됩니다.",
+        "development_ko": "탄막 패턴 생성 알고리즘과 로그라이크식 맵/아이템 생성 로직이 핵심입니다. 수중 환경을 표현하기 위한 파티클 효과와 물리 연산이 필요하며, 밸런스 조절을 위해 반복적인 테스트가 필수적입니다.",
+        "idea_ko": "수중 환경의 물리적 특성을 활용한 탄막 회피 메커니즘을 시제품으로 구현하는 것이 가장 적합합니다.",
+        "highlights_ko": [
+          "수중 테마와 탄막 슈팅 장르의 결합.",
+          "로그라이크 구조를 통한 반복 플레이 유도."
+        ],
+        "systems_ko": [
+          "탄막 생성 및 패턴 관리 시스템",
+          "로그라이크 맵 생성기",
+          "플레이어 이동 및 물리 제어",
+          "충돌 판정 시스템",
+          "UI 및 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "탄막 슈팅은 정교한 충돌 판정과 패턴 밸런싱이 매우 중요합니다. 로그라이크 요소까지 더해지면 데이터 관리와 난이도 곡선 설계에 상당한 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이동 및 사격",
+            "적 탄막 패턴 1종",
+            "충돌 판정"
+          ],
+          "defer": [
+            "다양한 아이템 시스템",
+            "복잡한 맵 생성 로직"
+          ],
+          "risks": [
+            "탄막 패턴의 단조로움",
+            "난이도 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "수중 부력 슈터",
+            "concept": "부력에 의해 캐릭터가 위로 떠오르는 특성을 활용한 슈팅 게임입니다. 떠오르는 힘을 제어하며 탄막을 피하는 독특한 조작감을 제공합니다.",
+            "first_step": "부력 물리 엔진을 적용한 캐릭터 이동 프로토타입 제작."
+          },
+          {
+            "title": "심해 탐사 로그라이크",
+            "concept": "깊이 내려갈수록 빛이 줄어드는 환경을 구현합니다. 제한된 시야 속에서 적을 탐지하고 회피하는 긴장감을 강조합니다.",
+            "first_step": "플레이어 주변의 시야 가리기(Fog of War) 효과 구현."
+          }
+        ],
+        "recommendation_ko": "탄막 슈팅의 기본 구조와 로그라이크의 무작위 생성 로직을 학습하기에 좋습니다. 다만, 장르 특성상 밸런스 테스트에 많은 시간이 소요될 수 있습니다.",
+        "source_limitations_ko": "게임의 구체적인 조작 방식, 탄막의 종류, 로그라이크 요소의 깊이(아이템, 스킬 등)에 대한 정보가 부족하여 실제 구현 시 추가적인 기획이 필요합니다.",
+        "name": "Aquanaut [$6.00] [Action]",
+        "source": "itch",
+        "detail_url": "https://pixeljam.itch.io/aquanaut",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 374,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-13"
+    },
+    "itch:bda3352b1f124d1e08b8": {
+      "app_key": "itch:bda3352b1f124d1e08b8",
+      "name": "FredagsSpelet - Rymdfrakt [Free] [Simulation] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://matspower.itch.io/fredagsspelet-rymdfrakt",
+      "data_date": "2026-11-13",
+      "analysed_at": "2026-11-13T06:59:17+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Co-op space freight for 1–5 friends. Fly, trade, fight the fire – and keep the crew in a good mood.",
+      "analysis": {
+        "app_key": "itch:bda3352b1f124d1e08b8",
+        "summary_ko": "FredagsSpelet - Rymdfrakt는 1~5명의 친구와 함께 즐기는 협동 우주 화물 운송 게임입니다. 우주선을 조종하고 무역을 하며 화재를 진압하고 승무원의 기분을 관리해야 합니다.",
+        "features_ko": [
+          "1~5인 협동 플레이를 지원합니다.",
+          "우주선 조종 및 화물 무역 활동을 수행합니다.",
+          "화재 진압 및 승무원 상태 관리 시스템이 포함됩니다."
+        ],
+        "noteworthy_ko": "협동 게임에서 역할 분담과 위기 관리 요소가 매우 중요합니다. 여러 명의 플레이어가 동시에 우주선 내부의 다양한 문제를 해결해야 하는 구조가 긴박한 재미를 줄 것으로 추정됩니다.",
+        "development_ko": "멀티플레이어 네트워크 동기화가 가장 큰 기술적 도전입니다. 우주선 내부의 다양한 상호작용 객체 관리와 승무원 상태 시스템, 화재와 같은 이벤트 발생 로직 구현이 필요합니다.",
+        "idea_ko": "협동의 재미를 극대화하기 위해 각 플레이어에게 고유한 특수 능력을 부여하는 시스템을 시제품으로 구현하는 것이 적합합니다.",
+        "highlights_ko": [
+          "다인 협동을 통한 위기 관리 및 역할 분담.",
+          "우주선 운영이라는 시뮬레이션 요소."
+        ],
+        "systems_ko": [
+          "네트워크 멀티플레이어 동기화",
+          "우주선 내부 상호작용 시스템",
+          "이벤트 발생기(화재 등)",
+          "승무원 상태 관리",
+          "무역 및 경제 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "멀티플레이어 네트워크 구현은 개인 개발자에게 매우 높은 난이도입니다. 또한 여러 시스템이 동시에 돌아가는 협동 게임은 밸런스 잡기가 매우 까다롭습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 네트워크 연결",
+            "플레이어 이동 및 상호작용",
+            "우주선 조종 기능"
+          ],
+          "defer": [
+            "복잡한 무역 경제 시스템",
+            "다양한 화재/사고 이벤트"
+          ],
+          "risks": [
+            "네트워크 지연(Lag) 문제",
+            "협동 플레이의 재미 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "역할 특화 우주선",
+            "concept": "각 플레이어가 조종사, 엔지니어, 보안관 등 고유 역할을 맡습니다. 특정 문제는 특정 역할만 해결할 수 있어 협동이 필수적입니다.",
+            "first_step": "플레이어 역할별 상호작용 권한 시스템 구현."
+          },
+          {
+            "title": "긴급 상황 시뮬레이터",
+            "concept": "화물 운송보다는 우주선 내 발생하는 사고를 해결하는 데 집중합니다. 짧은 시간 내에 얼마나 효율적으로 대처하는지 측정합니다.",
+            "first_step": "화재 발생 및 진압 메커니즘 프로토타입."
+          }
+        ],
+        "recommendation_ko": "네트워크 프로그래밍과 다인 협동 게임의 시스템 설계를 배우고 싶은 개발자에게 도전적인 과제가 될 것입니다. 다만, 규모가 크므로 MVP를 매우 작게 잡아야 합니다.",
+        "source_limitations_ko": "네트워크 방식(P2P, 서버 등), 승무원 기분 관리의 구체적인 수치화 방식, 무역 시스템의 상세 규칙은 확인되지 않았습니다.",
+        "name": "FredagsSpelet - Rymdfrakt [Free] [Simulation] [Windows]",
+        "source": "itch",
+        "detail_url": "https://matspower.itch.io/fredagsspelet-rymdfrakt",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 356,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 8,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-13"
     }
   }
 }

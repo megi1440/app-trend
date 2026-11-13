@@ -10462,6 +10462,186 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-11"
+    },
+    "itch:7701280ab8d146b72c9d": {
+      "app_key": "itch:7701280ab8d146b72c9d",
+      "name": "Lumen [Free] [Puzzle] [Android]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://rosso61.itch.io/lumen",
+      "data_date": "2026-11-13",
+      "analysed_at": "2026-11-13T06:59:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Collect the glowing shards and find the exit in this atmospheric dark maze puzzle.",
+      "analysis": {
+        "app_key": "itch:7701280ab8d146b72c9d",
+        "summary_ko": "어두운 미로 속에서 빛나는 파편을 수집하고 출구를 찾아 탈출하는 퍼즐 게임입니다. 분위기 있는 환경 속에서 길을 찾는 탐험 경험을 제공합니다.",
+        "features_ko": [
+          "어두운 미로 환경을 탐색하는 퍼즐 규칙을 가집니다.",
+          "맵 곳곳에 배치된 빛나는 파편을 수집해야 합니다.",
+          "미로의 출구를 찾는 것이 최종 목표입니다."
+        ],
+        "noteworthy_ko": "빛과 어둠을 활용한 시각적 연출이 게임의 핵심입니다. 1인 개발 시 조명 효과와 시야 제한 시스템을 어떻게 최적화할지가 흥미로운 지점입니다.",
+        "development_ko": "핵심 기술은 2D/3D 조명 처리와 미로 생성 알고리즘입니다. 콘텐츠 제작은 레벨 디자인에 집중되며, 퍼즐 난이도 조절을 위한 반복 테스트가 필요합니다.",
+        "idea_ko": "빛의 범위를 제한하여 플레이어가 이동할 때마다 시야가 좁아지는 공포 퍼즐 요소가 적합합니다.",
+        "highlights_ko": [
+          "분위기 중심의 몰입감 있는 퍼즐 구성입니다.",
+          "수집 요소와 탈출이라는 명확한 목표를 제시합니다."
+        ],
+        "systems_ko": [
+          "미로 생성 알고리즘",
+          "조명 및 시야 시스템",
+          "아이템 수집 및 인벤토리",
+          "레벨 전환 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "미로 퍼즐은 알고리즘을 통해 자동 생성할 수 있어 레벨 디자인 부담이 적습니다. 조명 효과는 엔진의 기본 기능을 활용하면 구현 난이도가 낮습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "플레이어 이동 및 조명 제어",
+            "파편 수집 로직",
+            "출구 도달 판정"
+          ],
+          "defer": [
+            "복잡한 스토리 연출",
+            "다양한 적 캐릭터"
+          ],
+          "risks": [
+            "단조로운 레벨 디자인",
+            "조명 최적화 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "그림자 추격자",
+            "concept": "빛을 따라오지 못하는 그림자 괴물을 피해 파편을 모으는 퍼즐입니다.",
+            "first_step": "플레이어의 빛 범위에 따라 괴물이 움직이는 AI 구현."
+          },
+          {
+            "title": "색깔 파편 퍼즐",
+            "concept": "특정 색깔의 파편을 모아야만 해당 색깔의 문을 통과할 수 있는 퍼즐입니다.",
+            "first_step": "파편 색상과 문 상태를 연동하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "조명과 환경 연출을 통해 분위기를 조성하는 방법을 배우기 좋습니다. 퍼즐 게임을 처음 만드는 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문만으로는 미로의 생성 방식(절차적 생성 여부), 퍼즐의 난이도 구성, 플랫폼별 최적화 수준을 확인할 수 없습니다.",
+        "name": "Lumen [Free] [Puzzle] [Android]",
+        "source": "itch",
+        "detail_url": "https://rosso61.itch.io/lumen",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 344,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 12,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-13"
+    },
+    "google:com.nimbussoft.pdfreader.pdfeditor": {
+      "app_key": "google:com.nimbussoft.pdfreader.pdfeditor",
+      "name": "PDF 리더: 편집 및 스캔",
+      "developer": "NimbusSoft Technologies",
+      "source": "google",
+      "country": "KR",
+      "category": "app_productivity",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.nimbussoft.pdfreader.pdfeditor&hl=ko&gl=KR",
+      "data_date": "2026-11-13",
+      "analysed_at": "2026-11-13T07:04:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "여러 앱을 오가지 않고 PDF 문서를 더 간단하게 처리할 방법이 필요하신가요? PDF 리더: 편집 및 스캔은 읽기, 주석, 스캔, 변환, 비밀번호 보호, 파일 관리 기능을 한곳에 모은 적합한 솔루션입니다. 📄 PDF 열기 및 탐색 보고서, 계약서, 양식, 전자책, 학습 문서 및 기타 PDF 파일을 선명한 페이지 표시로 확인하세요. 연속 스크롤 또는 페이지별 탐색을 선택하고, 확대/축소 수준을 변경하고, 전체 화면 모드로 전환하고, 선택한 페이지로 바로 이동하고, 텍스트를 검색하고, 밝은 보기 모드 또는 어두운 보기 모드를 선택할 수 있습니다. 📝 PDF 주석 추가 메모와 시각적 표시를 추가하는 도구로 문서를 검토하세요. • 내용을 강조 표시하고, 밑줄을 긋고, 취소선을 그으세요. • 표시하고 메모하세요. • PDF 페이지에 그리세요. 📸 페이지를 PDF로 스캔 기기 카메라로 영수증, 메모, 양식, 책 및 기타 인쇄물을 PDF로 스캔하세요. 페이지 경계를 감지하고, 스캔을 자르고, 완성된 문서를 다른 PDF 파일과 함께 저장하세요. 🔄 파일 변환 및 만들기 이미지와 지원되는 사무용 파일에서 PDF 문서를 만드세요. • 이미지를 PDF 파일로 변환하세요. • 지원되는 워드 및 엑셀 문서를 PDF로 변환하세요. • PDF 페이지를 이미지로 변환하세요. 🛡️ 비밀번호 보호 추가 선택한 PDF 파일을 비밀번호로 잠가 문서 내용에 대한 접근을 제한하는 데 도움을 줍니다. 🗃️ 파일 정리 유지 파일 이름, 크기 또는 최근 활동별로 PDF를 정렬하세요. 문서 이름을 변경하고, 파일을 삭제하고, 사무용 문서, 스캔, 전자책 및 학습 자료를 정리하세요. 🧩 결합, 분할 및 공유 여러 PDF를 하나의 문서로 병합하고, PDF를 별도 파일로 분할하고, 이메일, 메시지 앱 또는 클라우드 저장소 서비스를 통해 콘텐츠를 공유하세요. 문서를 검토하든, 종이 페이지를 디지털화하든, 파일을 변환하든, PDF를 정리하든, 이 앱은 이러한 일상 작업을 하나의 실용적인 작업 공간으로 가져옵니다.",
+      "analysis": {
+        "app_key": "google:com.nimbussoft.pdfreader.pdfeditor",
+        "summary_ko": "PDF 리더: 편집 및 스캔은 문서 읽기, 주석 작성, 스캔, 변환 및 파일 관리를 통합한 생산성 도구입니다. 사용자는 다양한 PDF 문서를 열람하고 메모를 남기거나, 카메라를 이용해 종이 문서를 디지털화할 수 있습니다. 또한 파일 병합, 분할, 비밀번호 보호 기능을 통해 효율적인 문서 작업 환경을 제공합니다.",
+        "features_ko": [
+          "연속 스크롤 및 페이지별 탐색 모드를 지원하며 텍스트 검색과 확대/축소 기능을 제공합니다.",
+          "문서 내 텍스트 강조, 밑줄, 취소선, 메모 작성 및 직접 그리기 도구를 지원합니다.",
+          "기기 카메라를 사용하여 인쇄물을 스캔하고 페이지 경계를 감지하여 PDF로 저장합니다.",
+          "이미지, 워드, 엑셀 파일을 PDF로 변환하거나 PDF 페이지를 이미지로 추출할 수 있습니다.",
+          "파일별 비밀번호 설정을 통해 문서 접근을 제한하고 보안을 강화합니다.",
+          "여러 PDF 파일을 하나로 병합하거나 분할하고, 클라우드 및 메시지 앱으로 공유할 수 있습니다."
+        ],
+        "noteworthy_ko": "문서 관리의 파편화된 기능을 하나의 앱으로 통합한 점이 특징입니다. 개발 관점에서는 PDF 렌더링 엔진과 파일 시스템 접근 권한, 그리고 이미지 처리 라이브러리 간의 안정적인 연동이 핵심일 것으로 추정됩니다.",
+        "development_ko": "PDF 렌더링 및 편집을 위한 오픈소스 라이브러리 활용이 필수적입니다. 카메라 스캔 기능은 이미지 보정 알고리즘 구현이 중요하며, 파일 변환 기능은 다양한 포맷 호환성 테스트가 필요합니다. 사용자 경험을 위해 직관적인 파일 탐색기 UI 구성이 제작 부담의 큰 비중을 차지할 것입니다.",
+        "idea_ko": "특정 문서 유형(예: 영수증)을 스캔하면 자동으로 텍스트를 추출하여 파일명을 날짜와 금액으로 자동 변경해주는 스마트 정리 기능.",
+        "highlights_ko": [
+          "읽기부터 편집, 스캔, 변환까지 PDF 관련 작업을 한곳에서 처리하는 올인원 솔루션입니다.",
+          "다양한 파일 관리 도구(병합, 분할, 정렬)를 통해 체계적인 문서 정리를 지원합니다."
+        ],
+        "systems_ko": [
+          "PDF 렌더링 엔진",
+          "이미지 처리 및 스캔 모듈",
+          "파일 시스템 관리자",
+          "문서 변환 엔진",
+          "사용자 인터페이스(UI) 및 파일 탐색기"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "PDF 포맷의 복잡성과 다양한 기기 환경에서의 렌더링 호환성 확보가 매우 어렵습니다. 또한 이미지 처리 및 파일 변환 알고리즘의 정확도를 높이는 데 상당한 기술적 숙련도가 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "PDF 뷰어(렌더링)",
+            "기본 주석 도구(하이라이트)",
+            "파일 목록 및 관리 기능"
+          ],
+          "defer": [
+            "OCR(광학 문자 인식)",
+            "고급 파일 변환(Excel/Word)",
+            "클라우드 동기화"
+          ],
+          "risks": [
+            "PDF 라이브러리 라이선스 문제",
+            "다양한 PDF 규격에 따른 렌더링 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "영수증 자동 분류기",
+            "concept": "스캔한 PDF의 텍스트를 분석하여 영수증 여부를 판단하고, 날짜와 금액을 추출하여 폴더별로 자동 분류합니다.",
+            "first_step": "OCR 라이브러리를 연동하여 PDF 내 특정 텍스트 패턴을 추출하는 프로토타입 제작."
+          },
+          {
+            "title": "학습용 PDF 요약 노트",
+            "concept": "PDF 내 하이라이트한 문장들만 모아서 별도의 요약본을 생성하고, 이를 퀴즈 형식으로 변환해주는 기능입니다.",
+            "first_step": "PDF 내 주석 데이터(Annotation)를 추출하여 텍스트 파일로 저장하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "파일 입출력과 데이터 구조화에 관심 있는 개발자에게 추천합니다. 다만, PDF 관련 기술은 라이브러리 의존도가 높으므로 라이브러리 활용 능력을 기르는 데 적합합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 외부 클라우드 서비스 연동 방식, 보안 암호화 알고리즘의 구체적인 사양, OCR 기능의 유무 등은 확인되지 않았습니다.",
+        "name": "PDF 리더: 편집 및 스캔",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.nimbussoft.pdfreader.pdfeditor&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-13"
     }
   }
 }

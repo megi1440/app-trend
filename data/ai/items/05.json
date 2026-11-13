@@ -10537,6 +10537,94 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-12"
+    },
+    "itch:0f9417996f26782d5f46": {
+      "app_key": "itch:0f9417996f26782d5f46",
+      "name": "the chamber [Free] [Puzzle] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://manly-monroe.itch.io/the-chamber",
+      "data_date": "2026-11-13",
+      "analysed_at": "2026-11-13T06:59:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Trapped in an alien workshop. Decipher unfamiliar machinery, manufacture fuel, and find your way out.",
+      "analysis": {
+        "app_key": "itch:0f9417996f26782d5f46",
+        "summary_ko": "외계의 작업장에 갇힌 주인공이 되어 탈출하는 퍼즐 게임입니다. 낯선 기계를 해독하고 연료를 제조하며 탈출구를 찾아야 합니다.",
+        "features_ko": [
+          "외계 기계를 조작하는 퍼즐 규칙을 가집니다.",
+          "연료 제조를 위한 자원 수집 및 조합 과정이 있습니다.",
+          "탈출을 목표로 하는 탐험형 퍼즐 구조입니다."
+        ],
+        "noteworthy_ko": "낯선 기계를 해독하는 과정이 플레이어에게 성취감을 줍니다. 1인 개발 시 기계 조작 인터페이스의 직관성을 높이는 것이 중요할 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 상호작용 가능한 UI 시스템과 상태 관리입니다. 콘텐츠 제작은 기계별 퍼즐 로직과 탈출을 위한 단계별 퀘스트 설계에 집중됩니다.",
+        "idea_ko": "기계의 부품을 수집하여 자신만의 탈출 도구를 만드는 '조합형 퍼즐'이 적합합니다.",
+        "highlights_ko": [
+          "외계 환경이라는 독특한 배경 설정입니다.",
+          "기계 해독이라는 구체적인 퍼즐 목표를 제시합니다."
+        ],
+        "systems_ko": [
+          "상호작용 UI 시스템",
+          "아이템 조합 및 인벤토리",
+          "퍼즐 상태 관리",
+          "퀘스트 진행 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "포인트 앤 클릭 방식의 퍼즐은 구현이 비교적 쉽습니다. 다만 각 퍼즐의 논리적 연결성을 설계하는 기획 단계에 시간이 많이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 상호작용 시스템",
+            "아이템 획득 및 조합 로직",
+            "간단한 퍼즐 1~2개"
+          ],
+          "defer": [
+            "복잡한 3D 환경",
+            "다양한 외계 생명체"
+          ],
+          "risks": [
+            "퍼즐 난이도 조절 실패",
+            "플레이어의 길 찾기 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "외계 기계 수리공",
+            "concept": "고장 난 외계 기계를 부품을 조합해 수리하는 퍼즐 게임입니다.",
+            "first_step": "부품을 드래그하여 기계에 장착하는 상호작용 구현."
+          },
+          {
+            "title": "연료 제조 공장",
+            "concept": "여러 재료를 특정 비율로 섞어 연료를 만드는 퍼즐입니다.",
+            "first_step": "재료 혼합 시 결과물이 변하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "상호작용 중심의 퍼즐 게임을 만들고 싶은 개발자에게 추천합니다. UI/UX 설계 능력을 기르기에 좋습니다.",
+        "source_limitations_ko": "소개문만으로는 퍼즐의 종류, 게임의 조작 방식(1인칭/3인칭), 탈출까지의 분량 등을 확인할 수 없습니다.",
+        "name": "the chamber [Free] [Puzzle] [Windows]",
+        "source": "itch",
+        "detail_url": "https://manly-monroe.itch.io/the-chamber",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 329,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 17,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-13"
     }
   }
 }

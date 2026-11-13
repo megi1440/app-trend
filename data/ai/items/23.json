@@ -11146,6 +11146,94 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-12"
+    },
+    "itch:f51f6223bc2a7bd2d2ac": {
+      "app_key": "itch:f51f6223bc2a7bd2d2ac",
+      "name": "CollectAll [Free] [Action] [Windows] [Android]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://parinav.itch.io/collectall",
+      "data_date": "2026-11-13",
+      "analysed_at": "2026-11-13T06:59:17+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Catch falling shapes, beat your high score, collect coins, unlock themes, and climb the leaderboard!",
+      "analysis": {
+        "app_key": "itch:f51f6223bc2a7bd2d2ac",
+        "summary_ko": "CollectAll은 하늘에서 떨어지는 도형을 수집하여 높은 점수를 기록하는 액션 게임입니다. 코인을 모아 테마를 해금하고 리더보드에서 경쟁할 수 있습니다.",
+        "features_ko": [
+          "떨어지는 도형을 받아내는 액션 게임입니다.",
+          "코인을 수집하여 다양한 테마를 해금합니다.",
+          "리더보드 기능을 통해 점수 경쟁을 지원합니다."
+        ],
+        "noteworthy_ko": "단순한 수집 메커니즘에 테마 해금과 리더보드라는 보상 체계를 결합하여 반복 플레이 동기를 부여했습니다. 캐주얼 게임의 전형적인 성공 공식을 잘 따르고 있습니다.",
+        "development_ko": "도형의 낙하 속도와 생성 빈도를 조절하는 난이도 곡선 설계가 중요합니다. 코인 데이터 저장과 리더보드 연동을 위한 백엔드 서비스 활용 능력이 필요합니다.",
+        "idea_ko": "도형을 수집할 때마다 리듬에 맞춰 효과음이 나는 리듬 액션 요소를 결합하는 것이 적합합니다.",
+        "highlights_ko": [
+          "직관적이고 단순한 수집 액션.",
+          "테마 해금 및 리더보드를 통한 보상 체계."
+        ],
+        "systems_ko": [
+          "오브젝트 풀링(도형 생성)",
+          "플레이어 이동 제어",
+          "점수 및 코인 데이터 관리",
+          "리더보드 API 연동"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 매우 단순하여 구현이 쉽습니다. 리더보드나 데이터 저장 등은 외부 API를 활용하면 개발 부담을 크게 줄일 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "도형 낙하 및 수집 로직",
+            "점수 시스템",
+            "기본 UI"
+          ],
+          "defer": [
+            "다양한 테마 해금",
+            "온라인 리더보드"
+          ],
+          "risks": [
+            "게임 플레이의 단조로움",
+            "리더보드 부정행위 방지"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "리듬 수집가",
+            "concept": "배경 음악의 비트에 맞춰 도형이 떨어집니다. 박자에 맞춰 도형을 수집하면 콤보 점수가 추가됩니다.",
+            "first_step": "음악 비트와 도형 생성 타이밍 동기화 구현."
+          },
+          {
+            "title": "도형 변신 수집",
+            "concept": "수집한 도형의 색상에 따라 캐릭터의 능력이 일시적으로 변합니다. 특정 색상을 모아 특수 기술을 발동합니다.",
+            "first_step": "도형 색상별 효과 적용 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "캐주얼 게임의 기초적인 게임 루프와 데이터 저장, 리더보드 연동을 배우기에 가장 적합합니다. 처음 게임을 개발하는 분들에게 추천합니다.",
+        "source_limitations_ko": "리더보드 구현에 사용된 서비스(예: Google Play Games, Steamworks 등), 테마 해금 방식의 상세 로직은 확인되지 않았습니다.",
+        "name": "CollectAll [Free] [Action] [Windows] [Android]",
+        "source": "itch",
+        "detail_url": "https://parinav.itch.io/collectall",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 353,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 9,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-13"
     }
   }
 }

@@ -12260,6 +12260,185 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-12"
+    },
+    "itch:45bd8a6af1a214da84af": {
+      "app_key": "itch:45bd8a6af1a214da84af",
+      "name": "Room to Grow [Free]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://ohge-games.itch.io/room-to-grow",
+      "data_date": "2026-11-13",
+      "analysed_at": "2026-11-13T06:59:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Your salary is a grid. Your life is the pieces.",
+      "analysis": {
+        "app_key": "itch:45bd8a6af1a214da84af",
+        "summary_ko": "급여를 그리드(격자)로 표현하고, 삶을 퍼즐 조각으로 비유한 독특한 컨셉의 게임입니다. 추상적인 메타포를 통해 일상과 경제적 삶을 퍼즐로 풀어냅니다.",
+        "features_ko": [
+          "급여를 격자 형태의 자원으로 활용합니다.",
+          "삶의 요소들을 퍼즐 조각으로 배치합니다.",
+          "추상적인 퍼즐 규칙을 통해 삶의 과정을 시뮬레이션합니다."
+        ],
+        "noteworthy_ko": "추상적인 개념을 게임 메커니즘으로 치환한 점이 매우 흥미롭습니다. 1인 개발 시 시스템의 직관성을 어떻게 확보할지가 성공의 열쇠가 될 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 그리드 기반의 퍼즐 로직과 데이터 관리입니다. 콘텐츠 제작은 퍼즐 조각의 속성과 배치 규칙을 설계하는 데 집중됩니다.",
+        "idea_ko": "시간을 그리드로 나누어 하루의 일과를 배치하는 '시간 관리 퍼즐'이 적합합니다.",
+        "highlights_ko": [
+          "경제적 삶을 퍼즐로 시각화한 독창적인 접근입니다.",
+          "간결한 메타포를 통해 깊은 의미를 전달합니다."
+        ],
+        "systems_ko": [
+          "그리드 기반 배치 시스템",
+          "자원 관리 로직",
+          "퍼즐 규칙 엔진",
+          "데이터 저장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "그리드 기반 퍼즐은 구현 난이도가 낮고 데이터 구조가 명확합니다. 추상적인 개념을 게임 규칙으로 만드는 기획력이 더 중요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "그리드 배치 시스템",
+            "조각 회전 및 배치 로직",
+            "기본 점수/자원 계산"
+          ],
+          "defer": [
+            "복잡한 스토리 모드",
+            "다양한 테마의 퍼즐 팩"
+          ],
+          "risks": [
+            "퍼즐 규칙의 불친절함",
+            "메타포 전달 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "인생 예산안",
+            "concept": "한 달 급여를 그리드에 배치하여 필수 지출과 저축을 조절하는 퍼즐입니다.",
+            "first_step": "그리드에 아이템을 배치하고 합계를 계산하는 로직 구현."
+          },
+          {
+            "title": "우선순위 격자",
+            "concept": "매일 주어지는 할 일을 그리드에 배치하여 효율을 극대화하는 퍼즐입니다.",
+            "first_step": "할 일 조각을 그리드에 드래그 앤 드롭하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "추상적인 아이디어를 게임 메커니즘으로 변환하는 연습을 하기에 좋습니다. 기획 중심의 개발을 선호하는 분께 추천합니다.",
+        "source_limitations_ko": "소개문만으로는 구체적인 퍼즐 규칙, 승리 조건, 게임의 전체적인 흐름을 확인할 수 없습니다.",
+        "name": "Room to Grow [Free]",
+        "source": "itch",
+        "detail_url": "https://ohge-games.itch.io/room-to-grow",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 335,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 15,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-13"
+    },
+    "google:com.pedometer.nogps": {
+      "app_key": "google:com.pedometer.nogps",
+      "name": "만보기 – 1만 보로 건강 습관 만들기 | ZuStep",
+      "developer": "TOO Zulumaniya",
+      "source": "google",
+      "country": "KR",
+      "category": "app_health_fitness",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.pedometer.nogps&hl=ko&gl=KR",
+      "data_date": "2026-11-13",
+      "analysed_at": "2026-11-13T07:04:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ZuStep은 매일의 걸음을 정확하게 기록하고 관리할 수 있도록 설계된 스마트 만보기이자 걸음 수 카운터입니다. 걷기와 달리기 중 자동으로 걸음을 측정하며, 하루의 활동량을 이해하고 건강한 생활 습관을 만드는 데 도움을 줍니다. 이 만보기는 GPS를 사용하지 않고도 정확한 걸음 수를 계산합니다. 한 번 설정하면 백그라운드에서 작동하여 하루 종일 조용히 걸음을 기록합니다. 🚶 핵심 기능 – 일상에 꼭 필요한 걸음 추적 • 걸음 수 카운터 – 하루 동안의 걸음 수 자동 계산 • 거리 계산 – 키, 체중, 성별을 기반으로 실제 이동 거리 추정 • 칼로리 계산 – 걸음 수와 개인 정보를 기반으로 소모 칼로리 측정 • 위젯 지원 – 홈 화면에서 오늘의 걸음 수 바로 확인 • 일일 / 주간 / 월간 통계 – 활동 추세를 한 눈에 확인 • 오프라인 작동 – 인터넷 및 GPS 없이 사용 가능 • 배터리 절약 – 가볍고 에너지 효율적인 설계 하루 1만 보(1만 걸음)는 많은 사람들이 목표로 하는 건강한 하루 활동량입니다. ZuStep 만보기는 이 목표를 향해 꾸준히 걷도록 동기를 제공합니다. 이 걸음 수 추적기는 단순한 숫자 기록이 아니라, 더 많이 움직이고, 더 자주 걷고, 더 건강한 선택을 하도록 도와주는 작은 습관의 시작입니다. 걷기는 가장 쉽고 안전한 운동입니다. ZuStep과 함께 오늘의 걸음 수를 확인하고, 내일의 목표를 세워보세요. ZuStep – 매일 사용하는 당신의 만보기 지금 설치하고 오늘의 걸음부터 시작하세요.",
+      "analysis": {
+        "app_key": "google:com.pedometer.nogps",
+        "summary_ko": "ZuStep은 GPS를 사용하지 않고 기기 센서를 활용하여 사용자의 걸음 수를 측정하는 만보기 앱입니다. 일상적인 걷기와 달리기 활동을 자동으로 기록하며, 이를 바탕으로 거리와 칼로리 소모량을 추정합니다. 사용자는 통계 기능을 통해 자신의 활동 추세를 확인하고 건강한 생활 습관을 형성할 수 있습니다.",
+        "features_ko": [
+          "기기 센서를 활용하여 GPS 없이도 걸음 수를 자동으로 계산합니다.",
+          "사용자의 신체 정보(키, 체중, 성별)를 기반으로 이동 거리와 소모 칼로리를 추정합니다.",
+          "일일, 주간, 월간 통계 데이터를 시각화하여 활동 추세를 제공합니다.",
+          "홈 화면 위젯을 지원하여 앱을 열지 않고도 실시간 걸음 수를 확인할 수 있습니다.",
+          "백그라운드에서 작동하여 배터리 소모를 최소화하며 오프라인 환경에서도 기록이 가능합니다."
+        ],
+        "noteworthy_ko": "GPS를 배제하고 가속도 센서 등 기기 내장 센서만을 활용하여 배터리 효율을 극대화한 점이 핵심입니다. 개발 관점에서는 센서 데이터의 노이즈를 제거하고 실제 걸음과 일상적인 움직임을 구분하는 알고리즘 구현이 흥미로운 지점입니다.",
+        "development_ko": "안드로이드의 Step Counter/Detector 센서 API 활용이 핵심입니다. 센서 데이터의 정확도를 높이기 위한 필터링 로직과 백그라운드 서비스의 지속적인 실행을 위한 배터리 최적화가 필요합니다. 데이터 저장 및 통계 시각화를 위한 로컬 데이터베이스 설계가 수반되어야 합니다.",
+        "idea_ko": "걸음 수에 따라 가상의 캐릭터가 성장하거나, 특정 목표 걸음 달성 시 지역 사회의 환경 정화 활동과 연계하는 동기 부여 시스템.",
+        "highlights_ko": [
+          "GPS를 사용하지 않아 배터리 소모가 적고 개인정보 보호에 유리합니다.",
+          "사용자 신체 정보를 반영한 개인화된 건강 지표(칼로리, 거리)를 제공합니다."
+        ],
+        "systems_ko": [
+          "센서 데이터 수집 모듈",
+          "걸음 수 판정 알고리즘",
+          "로컬 데이터베이스(SQLite 등)",
+          "백그라운드 서비스 관리",
+          "데이터 시각화 UI"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "센서 API 자체는 표준화되어 있어 구현이 어렵지 않으나, 다양한 기기별 센서 감도 차이를 보정하고 백그라운드에서 앱이 종료되지 않도록 유지하는 것이 핵심 과제입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "센서 기반 걸음 수 측정",
+            "일일 걸음 수 저장",
+            "기본 통계 화면"
+          ],
+          "defer": [
+            "위젯 지원",
+            "사용자 신체 정보 상세 설정",
+            "소셜 공유 기능"
+          ],
+          "risks": [
+            "기기별 센서 정확도 편차",
+            "OS의 백그라운드 프로세스 강제 종료"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "걸음 수 기반 식물 키우기",
+            "concept": "사용자가 걸은 만큼 물을 주어 가상의 식물을 키우는 게임형 만보기입니다. 목표 걸음을 달성하지 못하면 식물이 시들 수 있습니다.",
+            "first_step": "걸음 수 데이터를 받아 식물의 상태(이미지)를 변경하는 로직 구현."
+          },
+          {
+            "title": "산책 경로 기록기",
+            "concept": "GPS 대신 걸음 수와 시간을 기반으로 대략적인 산책 경로를 지도 위에 추상적으로 그려주는 기능입니다.",
+            "first_step": "걸음 수와 이동 시간을 계산하여 가상의 이동 거리를 지도 위에 표시하는 기능."
+          }
+        ],
+        "recommendation_ko": "센서 데이터 처리와 백그라운드 서비스 운영을 배우고 싶은 개발자에게 추천합니다. 단순한 기능이지만 사용자 경험을 위해 데이터 정확도를 높이는 과정에서 많은 것을 배울 수 있습니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 센서 데이터 보정 알고리즘의 구체적 방식, 데이터 백업 및 동기화 여부, 외부 광고 SDK 연동 여부는 확인되지 않았습니다.",
+        "name": "만보기 – 1만 보로 건강 습관 만들기 | ZuStep",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.pedometer.nogps&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-13"
     }
   }
 }
