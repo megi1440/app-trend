@@ -11875,6 +11875,96 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-13"
+    },
+    "apple:967040652": {
+      "app_key": "apple:967040652",
+      "name": "Affirm: Buy now, pay over time",
+      "developer": "Affirm, Inc.",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/affirm-buy-now-pay-over-time/id967040652",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T08:55:01+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Pay over time with Affirm online, in-store, and in the app. Plus, eligible customers can get the Affirm Card™ to use anywhere Visa is accepted in the U.S., or pay with Affirm on Apple Pay. Why you’ll love the Affirm app: • See your purchasing power front and center • Shop brands with clear, flexible payment options • Discover deals, 0% APR options, and plans over 12 months • Set up AutoPay or easily make early or one-time payments • Request to pay over time with the Affirm Card online or in-store Take your Affirm Card everywhere: • Get a physical card and use it anywhere Visa is accepted in the U.S. • No credit impact to apply, and no card or annual fees • Discover 0% APR options or flexible plans at top brands, in-store and online • Request a payment plan in the app before or after checkout. Minimum purchase may be required for payment plans. See footer for details. Purchasing power is an estimate and may include a down payment at checkout. Approval and terms aren’t guaranteed. The Affirm Card is a Visa® debit card issued by Evolve Bank & Trust (Evolve) or Stride Bank, N.A. (Stride), Members FDIC, pursuant to licenses from Visa U.S.A. Inc. Affirm is not a bank. FDIC insurance will only cover the failure of Evolve and/or Stride. Learn more at https://www.fdic.gov/resources/deposit-insurance/. Pay-over-time plans must be applied for each purchase in the mobile app, are subject to eligibility checks and are provided by affirm.com/lenders. Minimum purchases are required for pay over time plans; the amount is located in the Card tab of the app. For purchases that are not approved for and matched to a payment plan, you authorize Affirm to initiate an ACH debit from your linked bank account within 1-3 days of the purchase. CA residents: Loans by Affirm Loan Services, LLC are made or arranged pursuant to a California Financing Law license 60DBO-111681. For licenses and disclosures, see affirm.com/licenses. Rates from 0 - 36% APR. For example, an $800 purchase could be split into 12 monthly payments of $77.99 at 30% APR, or 4 interest-free payments of $200 every 2 weeks. Loan options vary, are subject to eligibility, and may depend on whether your loan is applied for before or after your card purchase. There are minimum purchase amounts for loans, a down payment may be required, and may not be available in all states.",
+      "analysis": {
+        "app_key": "apple:967040652",
+        "summary_ko": "Affirm은 사용자가 온라인 및 오프라인 매장에서 구매한 상품의 결제 대금을 분할 납부할 수 있도록 돕는 금융 서비스 앱입니다. 사용자는 자신의 구매력을 확인하고, 다양한 브랜드에서 제공하는 할부 옵션을 탐색하며, 결제 일정을 관리할 수 있습니다. 또한, Affirm 카드를 통해 Visa 가맹점에서 분할 결제 기능을 사용할 수 있습니다.",
+        "features_ko": [
+          "사용자의 구매력을 실시간으로 확인하고 관리할 수 있습니다.",
+          "다양한 브랜드의 상품을 할부 결제 옵션으로 구매할 수 있습니다.",
+          "자동 이체(AutoPay) 설정 및 조기 상환 기능을 제공합니다.",
+          "Affirm 카드를 통해 Visa 가맹점에서 오프라인 결제가 가능합니다.",
+          "결제 계획을 앱 내에서 신청하고 관리할 수 있습니다."
+        ],
+        "noteworthy_ko": "금융 서비스 앱으로서 복잡한 대출 및 할부 로직을 사용자 친화적인 UI로 풀어낸 점이 흥미롭습니다. 특히 신용 평가와 결제 승인 프로세스를 실시간으로 연동하는 백엔드 시스템의 안정성이 매우 중요합니다.",
+        "development_ko": "금융 보안 및 데이터 무결성이 최우선이며, 은행 및 결제망(Visa 등)과의 API 연동이 핵심입니다. 개인 개발자가 구현하기에는 금융 규제 준수와 보안 인증 부담이 매우 큽니다. 테스트 시에는 다양한 결제 시나리오와 예외 처리가 필수적입니다.",
+        "idea_ko": "개인 개발자가 금융 앱을 직접 구현하는 것은 위험하므로, 가계부나 예산 관리 등 개인적인 자산 관리 도구로 범위를 좁히는 것이 좋습니다.",
+        "highlights_ko": [
+          "구매 시점의 유연한 할부 옵션 제공으로 소비자의 결제 부담을 완화합니다.",
+          "실물 카드와 앱을 연동하여 온·오프라인 결제 경험을 통합했습니다."
+        ],
+        "systems_ko": [
+          "사용자 인증 및 보안 시스템",
+          "결제 API 연동 및 트랜잭션 관리",
+          "할부 이자 및 상환 스케줄 계산 엔진",
+          "푸시 알림 및 결제 리마인더 시스템",
+          "금융 데이터 시각화 UI"
+        ],
+        "difficulty_ko": {
+          "level": "판단 어려움",
+          "reason": "단순한 UI 구현은 가능하나, 실제 금융 서비스는 법적 규제, 보안 인증, 은행 연동 등 개인 개발자가 감당하기 어려운 인프라가 필요합니다. 기능의 핵심인 '결제'와 '대출' 로직은 개인 개발 영역을 벗어납니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 프로필 관리",
+            "결제 내역 기록 및 조회"
+          ],
+          "defer": [
+            "실제 결제 연동",
+            "할부 이자 계산 엔진",
+            "은행 API 연동"
+          ],
+          "risks": [
+            "금융 보안 사고 및 개인정보 유출",
+            "관련 금융 법규 위반 가능성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "개인 할부 관리기",
+            "concept": "실제 결제 기능 없이, 사용자가 직접 할부 내역을 입력하여 매달 나가는 고정 지출을 시각화하고 관리하는 앱입니다.",
+            "first_step": "할부 항목을 입력하고 매달 상환액을 계산하여 달력에 표시하는 기능을 구현합니다."
+          },
+          {
+            "title": "소비 습관 분석기",
+            "concept": "사용자의 지출 패턴을 분석하여 할부 구매가 적절한지 판단해 주는 가이드 앱입니다.",
+            "first_step": "지출 카테고리별 통계를 내는 간단한 대시보드를 만듭니다."
+          }
+        ],
+        "recommendation_ko": "금융 앱의 UI/UX 디자인과 데이터 시각화 방식을 배우기에는 좋으나, 실제 금융 서비스 개발은 추천하지 않습니다. 보안과 규제 이슈가 매우 크므로 학습용으로만 접근하는 것이 좋습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 보안 프로토콜, 연동된 은행의 상세 정보, 결제 승인 알고리즘의 세부 사항은 명시되어 있지 않습니다. 또한 실제 금융 규제 준수 여부나 데이터 암호화 방식은 외부에서 검증할 수 없습니다.",
+        "name": "Affirm: Buy now, pay over time",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/affirm-buy-now-pay-over-time/id967040652",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 97,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
     }
   }
 }
