@@ -11204,6 +11204,268 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-13"
+    },
+    "itch:45d46ba16eee838ce39c": {
+      "app_key": "itch:45d46ba16eee838ce39c",
+      "name": "Grind? I Think Not! [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://sansyeet.itch.io/grind-i-think-not",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:34:17+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Cutting corners in the worst possible way",
+      "analysis": {
+        "app_key": "itch:45d46ba16eee838ce39c",
+        "summary_ko": "이 게임은 '최악의 방식으로 요령을 피운다'는 컨셉을 가진 액션 게임입니다. 구체적인 게임 규칙이나 플레이 방식은 설명에 나타나 있지 않습니다.",
+        "features_ko": [
+          "요령을 피우는 행위를 게임의 핵심 메커니즘으로 활용합니다."
+        ],
+        "noteworthy_ko": "게임의 제목과 설명이 반어법을 사용하고 있어, 플레이어에게 유머러스한 경험을 제공하려는 의도가 엿보입니다. 시스템적으로 어떤 '요령'을 구현할지가 개발의 핵심입니다.",
+        "development_ko": "액션 게임의 기본 틀을 갖추되, 일반적인 규칙을 깨는 예외 처리 로직이 중요합니다. 밸런스 조정보다는 플레이어에게 의도적인 허점을 제공하는 설계가 필요합니다.",
+        "idea_ko": "정해진 경로를 벗어나 맵의 버그를 이용해 목적지에 도달하는 퍼즐 액션 게임을 추천합니다.",
+        "highlights_ko": [
+          "요령 피우기라는 독특한 컨셉.",
+          "액션 장르의 변주."
+        ],
+        "systems_ko": [
+          "캐릭터 이동 시스템",
+          "충돌 판정 시스템",
+          "레벨 디자인"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "액션 게임의 기본 구조를 구현해야 하며, '요령'이라는 컨셉을 재미있게 풀어내기 위한 레벨 디자인이 필요하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동",
+            "목표 지점 도달 판정"
+          ],
+          "defer": [
+            "복잡한 적 AI",
+            "멀티플레이어 기능"
+          ],
+          "risks": [
+            "의도한 요령이 플레이어에게 재미있게 느껴지지 않을 위험",
+            "버그와 의도된 기능의 경계 모호"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지름길 찾기 대작전",
+            "concept": "정해진 길을 무시하고 맵의 물리 엔진을 악용하여 점프하거나 벽을 뚫고 지나가는 게임입니다.",
+            "first_step": "캐릭터가 벽을 통과하거나 높이 점프할 수 있는 물리 설정 테스트."
+          },
+          {
+            "title": "업무 태만 시뮬레이터",
+            "concept": "상사가 보지 않을 때만 일을 하는 척하며 요령을 피워 업무를 끝내는 게임입니다.",
+            "first_step": "상사의 시야각을 구현하고 시야 밖에서 행동하는 로직 작성."
+          }
+        ],
+        "recommendation_ko": "기존 게임의 규칙을 비트는 창의적인 기획을 연습하기 좋습니다. 액션 게임의 기본 구현 능력을 키우기에 적합합니다.",
+        "source_limitations_ko": "게임의 장르적 특성(2D/3D), 조작 방식, 구체적인 목표 등이 불분명하여 사실 확인이 어렵습니다.",
+        "name": "Grind? I Think Not! [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://sansyeet.itch.io/grind-i-think-not",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 326,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 18,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "itch:b49afc46ed04d1088bfb": {
+      "app_key": "itch:b49afc46ed04d1088bfb",
+      "name": "Plane Fighter [$5.00] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://missile-22.itch.io/plane-fighter",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:34:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Fast arcade jet dogfighting — blast enemy planes out of the sky!",
+      "analysis": {
+        "app_key": "itch:b49afc46ed04d1088bfb",
+        "summary_ko": "빠른 속도감의 아케이드 제트기 공중전 게임입니다. 적 비행기를 격추하며 즐기는 액션 게임입니다.",
+        "features_ko": [
+          "제트기를 조종하여 적 비행기와 공중전을 펼칩니다.",
+          "적을 격추하는 슈팅 메커니즘을 제공합니다."
+        ],
+        "noteworthy_ko": "아케이드 스타일의 빠른 템포가 특징입니다. 개발 시 비행기의 조작감과 적의 AI 패턴이 게임의 완성도를 결정할 것으로 보입니다.",
+        "development_ko": "핵심 기술은 2D/3D 슈팅 물리 엔진과 적의 이동 패턴 구현입니다. 콘텐츠 제작은 비행기 모델링과 적의 종류를 늘리는 데 집중됩니다. 밸런스는 적의 공격 난이도와 플레이어의 생존력을 맞추는 것이 핵심입니다.",
+        "idea_ko": "적을 격추할 때마다 기체를 강화하거나 특수 무기를 장착하는 로그라이크 요소를 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "빠른 속도의 아케이드 액션 지향.",
+          "공중전이라는 명확한 테마."
+        ],
+        "systems_ko": [
+          "비행기 조작 시스템",
+          "슈팅 및 충돌 판정",
+          "적 AI 패턴",
+          "게임 루프 관리",
+          "UI 및 점수 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "슈팅 게임의 기본 틀을 만드는 것은 어렵지 않으나, 적의 움직임과 조작감을 매끄럽게 다듬는 데 시간이 소요됩니다. 1인 개발 시 적의 종류를 최소화하여 구현해야 합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "플레이어 기체 조작",
+            "기본 슈팅 기능",
+            "적 생성 및 이동 로직"
+          ],
+          "defer": [
+            "다양한 무기 종류",
+            "보스전",
+            "멀티플레이"
+          ],
+          "risks": [
+            "조작감의 불편함",
+            "적 AI의 단조로움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "에너지 관리 비행",
+            "concept": "탄약 대신 에너지를 사용하여 비행과 공격을 동시에 관리해야 합니다. 에너지가 고갈되면 비행 속도가 느려지는 전략적 요소입니다.",
+            "first_step": "에너지 바 UI와 소모/회복 로직 구현."
+          },
+          {
+            "title": "중력 반전 공중전",
+            "concept": "특정 구역에서 중력이 반전되어 비행기의 조작이 반대로 바뀌는 기믹입니다.",
+            "first_step": "입력값을 반전시키는 트리거 영역 구현."
+          }
+        ],
+        "recommendation_ko": "슈팅 게임의 기초적인 물리와 충돌 판정을 배우기에 적합합니다. 빠른 피드백을 주는 게임을 만들고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "게임의 시점(2D/3D), 조작 방식, 적의 종류 등 구체적인 사양은 확인되지 않았습니다.",
+        "name": "Plane Fighter [$5.00] [Action]",
+        "source": "itch",
+        "detail_url": "https://missile-22.itch.io/plane-fighter",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 287,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 31,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "google:com.bigcake.android.solitairedaily": {
+      "app_key": "google:com.bigcake.android.solitairedaily",
+      "name": "ソリティアデイリー",
+      "developer": "Big Cake",
+      "source": "google",
+      "country": "JP",
+      "category": "game_card",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.bigcake.android.solitairedaily&hl=ja&gl=JP",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:38:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "\"ソリティアデイリー\"は楽しいカードゲームです。 「ソリティア」は「クロンダイク」、「キャンフィールド 」などソリティアタイプとしても知られており、世界で最も人気のあるシングルプレイヤーカードゲームです。 あなたは古典的な「ソリティア」が好きなら、この鮮明な明確なソリティアゲームを体験してください。 「デイリーソリティア」をプレイして、脳をリラックスさせましょう。 ソリティアデイリー遊び方 - 1、一番下段（もしくは一番上部）のカードより1少ない数字かや色が違いカードをその下に並べることができる - 2、カードを組札の上に移動します。 AからKまでの同スートのカードが連なったらその13枚を1組として組札に動かす。 - 3、山札からカードを明らかにする。 カードは、簡単なゲームプレイのために一度に1枚を明らかにしたり、より挑戦的なゲームのために3枚目のカードごとに明らかにすることができます。 - これらの3つの方法でカードを移動し続けます。すべてのカードを組札に置くことができれば勝ちとなる、動かせなくなったら失敗となる。 主な特徴（なぜこの「ソリティアデイリー」カードゲームを選択しますか?） 1.楽しさと古典的なソリティアプレイモード 古典的な「クロンダイク」、「キャンフィールド 」ゲームプレイモードに基づいて、\"ソリティアデイリー\"は古典的なインターフェイス、オリジナルの経験を提供します! 2.楽しい毎日挑戦 毎日新しい「ソリティア」体験のために毎日の挑戦しましょう。 3.様々なカードと美しい背景 たくさんのカードとカード背景があります。すべての背景と勝利のアニメーションは完璧に設計されています。 4.いつでもどこでも遊べる 無制限の取引!無制限の元に戻すオプション!無制限のヒント!偉大なボーナス賞! その他の機能: -「クロンダイク」１枚また３枚カードを引きます - 左利きモードの「キャンフィールド 」 - 多国語が設定できます - タップやドラッグでカードを動かす - 自動収集 - いつでも遊べる 今すぐこの古典的な「ソリティア」カードゲームをダウンロードしてください。 この「ソリティアデイリー」カードゲームはあなたに無限の楽しみを与えます。 そして、最も重要なことは、それがシングルプレイヤーカードゲームであり、無料入手がでいます! ここでは、「ソリティア」について簡単に説明します。 「ソリティア」は、一人だけで遊ぶことのできるゲームの総称であるが、代表的であるカード（トランプ）ゲームのそれを指すことも多い。一人で遊ぶゲームのため直接的な対戦は出来ないが、コンペティティブ・ペーシェンスとしてスコアやタイムを他のプレイヤーと比較して間接的に対戦を行う場合がある。",
+      "analysis": {
+        "app_key": "google:com.bigcake.android.solitairedaily",
+        "summary_ko": "클래식 솔리테어 게임으로, 클론다이크와 캔필드 모드를 지원합니다. 사용자는 카드를 정렬하여 모든 카드를 조합판으로 옮기는 것을 목표로 합니다. 매일 새로운 도전 과제를 제공하며 뇌를 이완시키는 싱글 플레이어 경험을 선사합니다.",
+        "features_ko": [
+          "클론다이크 및 캔필드 게임 모드를 제공합니다.",
+          "카드 한 장 또는 세 장을 뽑는 난이도 조절이 가능합니다.",
+          "탭이나 드래그를 통해 카드를 이동할 수 있습니다.",
+          "무제한 실행 취소 및 힌트 기능을 지원합니다.",
+          "자동 카드 수집 기능을 포함합니다."
+        ],
+        "noteworthy_ko": "클래식한 규칙을 유지하면서도 매일 새로운 도전 과제를 제공하는 방식은 사용자 리텐션을 높이는 데 효과적입니다. 다양한 배경과 애니메이션을 통해 시각적 만족도를 높인 점이 특징입니다.",
+        "development_ko": "카드 게임 로직 구현과 카드 이동 애니메이션 처리가 핵심입니다. 다양한 배경과 테마를 관리하는 리소스 관리 시스템이 필요하며, 난이도별 밸런스 조정이 중요합니다.",
+        "idea_ko": "특정 테마의 카드 덱을 수집하고 이를 게임 배경에 적용하는 '카드 수집형 솔리테어'를 제안합니다.",
+        "highlights_ko": [
+          "매일 갱신되는 도전 과제를 통해 지속적인 플레이 동기를 부여합니다.",
+          "왼손잡이 모드 등 사용자 편의성을 고려한 옵션을 제공합니다."
+        ],
+        "systems_ko": [
+          "카드 덱 생성 및 셔플 알고리즘",
+          "게임 상태(Undo/Redo) 관리 시스템",
+          "드래그 앤 드롭 입력 처리",
+          "승리 조건 판정 로직",
+          "UI 테마 및 리소스 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "카드 게임의 규칙은 명확하지만, 카드 이동의 유효성 검사와 승리 판정 로직을 정확하게 구현하는 데 세심한 주의가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 클론다이크 게임 로직",
+            "카드 이동 및 드래그 입력",
+            "승리/패배 판정"
+          ],
+          "defer": [
+            "다양한 배경 테마",
+            "매일 도전 과제 시스템"
+          ],
+          "risks": [
+            "카드 배치 알고리즘의 무결성 검증 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "수집형 솔리테어",
+            "concept": "게임 승리 시 얻는 포인트로 새로운 카드 디자인을 구매하는 시스템입니다. 수집 요소가 플레이의 목적을 강화합니다.",
+            "first_step": "기본 게임 승리 시 포인트가 증가하는 로직을 구현합니다."
+          },
+          {
+            "title": "타임어택 솔리테어",
+            "concept": "제한 시간 내에 보드를 클리어하는 모드입니다. 긴장감을 더해 기존 솔리테어와 차별화합니다.",
+            "first_step": "게임 시작과 동시에 카운트다운 타이머를 화면에 표시합니다."
+          }
+        ],
+        "recommendation_ko": "카드 게임의 기본 로직과 상태 관리 패턴을 익히기에 매우 좋습니다. UI와 게임 로직을 분리하는 구조를 연습하기에 적합합니다.",
+        "source_limitations_ko": "소개문에 언급된 '보너스 상'의 구체적인 획득 조건이나 외부 서비스 연동 여부는 확인되지 않습니다.",
+        "name": "ソリティアデイリー",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.bigcake.android.solitairedaily&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
     }
   }
 }

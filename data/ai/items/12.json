@@ -12510,6 +12510,189 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-13"
+    },
+    "apple:6740521489": {
+      "app_key": "apple:6740521489",
+      "name": "PUBG MOBILE FLASH",
+      "developer": "Tencent Mobile International Limited",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/us/app/pubg-mobile-flash/id6740521489?uo=2",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:34:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "【The Original PUBG MOBILE, Now in a FLASH.】 PUBG MOBILE FLASH is the official lightweight app in the PUBG MOBILE ecosystem. Enjoy the authentic PUBG MOBILE experience with a smaller download and optimized performance. 【Classic Battle Royale, Ready to Play】 Jump straight into Erangel and the original Classic Battle Royale experience. Core gameplay comes pre-installed, with no additional download required before your first match. 【Small Download, More Space】 Get started with under 1.75 GB. Enjoy PUBG MOBILE while leaving more storage space for your photos, videos, and everyday apps. 【Download Only What You Want】 Download additional maps, modes, events, and resources whenever you need them. With download confirmation, you're in control of what gets downloaded, helping prevent unnecessary downloads and save storage space. 【One PUBG MOBILE World】 Stay connected with the same account, friends, and in-game assets across PUBG MOBILE and FLASH. Enjoy synchronized updates, play matches together across both apps, and stay in the same PUBG MOBILE ecosystem. 【A Clean and Simple Lobby】 Enjoy a clean, minimalist Lobby designed to take up less space. Want the full Lobby experience? Simply download the additional resources whenever you choose. 【Smart Resources, Less Storage】 Lightweight visuals help save space, with higher-quality resources available on demand. Smart outfit display automatically shows temporary appearances for outfits you haven't downloaded, without using extra storage. Download the original outfit resources whenever you want to see the full look. 【Optimized for More Devices】 FLASH features dedicated graphics optimizations for entry-level and mid-range phones, reducing performance demands and making the original PUBG MOBILE experience accessible on more devices. 【Smoother Gameplay, Less Waiting】 Enjoy further optimizations designed to improve frame rate, stability, power efficiency, and memory usage. Faster startup and pre-match loading help you spend less time waiting and more time playing. 【Same PUBG MOBILE Security】 FLASH is protected by PUBG MOBILE's Ban Pan security system, with real-time monitoring, violation detection, enforcement, and the Investigator system to help maintain a fair gaming environment. 【Follow Us】 Instagram: https://www.instagram.com/pubgmobile Facebook: https://www.facebook.com/PUBGMOBILE X: https://x.com/PUBGMobile YouTube: https://www.youtube.com/pubgmobile TikTok: https://www.tiktok.com/@pubgmobile Reddit: https://www.reddit.com/r/PUBGMobile/ Discord: https://discord.gg/pubgmobile Please contact customer service if you encounter any problems: service@pubgmobile.com Please read PUBG MOBILE's Privacy Policy and User Agreement. Privacy Policy: http://pubgmobile.proximabeta.com/privacy.html Tencent Games User Agreement: https://www.pubgmobile.com/terms.html",
+      "analysis": {
+        "app_key": "apple:6740521489",
+        "summary_ko": "PUBG MOBILE의 공식 경량화 버전으로, 최적화된 성능과 작은 용량으로 원작의 배틀 로얄 경험을 제공합니다. 사용자가 필요한 리소스만 선택적으로 다운로드할 수 있어 저장 공간을 효율적으로 관리할 수 있습니다. 기존 계정과 연동되어 원작과 동일한 생태계에서 플레이가 가능합니다.",
+        "features_ko": [
+          "원작 대비 작은 용량으로 설치 및 실행이 가능합니다.",
+          "필요한 맵과 리소스를 선택적으로 다운로드하는 기능을 제공합니다.",
+          "기존 PUBG MOBILE 계정 및 친구 목록과 연동됩니다.",
+          "저사양 기기에서도 원활한 플레이를 위해 그래픽이 최적화되어 있습니다.",
+          "Ban Pan 보안 시스템을 통해 실시간 모니터링 및 부정행위 방지를 지원합니다."
+        ],
+        "noteworthy_ko": "대규모 게임을 경량화하여 접근성을 높인 사례로, 리소스 관리 시스템이 매우 정교할 것으로 추정됩니다. 개발 관점에서는 온디맨드(On-demand) 리소스 로딩과 기존 서버와의 데이터 동기화 기술이 핵심입니다.",
+        "development_ko": "핵심 기술은 클라우드 기반의 리소스 관리와 저사양 최적화 렌더링입니다. 콘텐츠 제작은 원작의 방대한 데이터를 경량화하는 과정이 포함되며, 테스트는 다양한 기기에서의 호환성 확보가 필수적입니다. 보안 시스템 구축은 대규모 운영을 위한 필수 요소입니다.",
+        "idea_ko": "사용자의 기기 성능을 실시간으로 분석하여 그래픽 설정을 자동으로 최적화해주는 '스마트 설정' 기능을 더 고도화하는 아이디어가 있습니다.",
+        "highlights_ko": [
+          "선택적 리소스 다운로드를 통한 저장 공간 최적화.",
+          "원작과의 완벽한 계정 및 데이터 연동."
+        ],
+        "systems_ko": [
+          "리소스 관리 및 다운로드 시스템",
+          "계정 동기화 및 서버 통신",
+          "그래픽 최적화 엔진",
+          "부정행위 탐지 시스템",
+          "UI/UX 경량화 설계"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "대규모 멀티플레이어 게임의 경량화 버전은 고도의 최적화 기술과 서버 인프라가 필요합니다. 1인 개발자가 원작 수준의 시스템을 구현하는 것은 불가능하며, 핵심 메커니즘만 축소 구현하는 것도 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 캐릭터 이동 및 사격",
+            "서버 데이터 연동",
+            "기본 맵 로딩"
+          ],
+          "defer": [
+            "실시간 부정행위 탐지 시스템",
+            "고급 그래픽 옵션",
+            "방대한 커스터마이징 리소스"
+          ],
+          "risks": [
+            "서버 부하 및 데이터 동기화 오류",
+            "기기별 호환성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "상황별 리소스 로더",
+            "concept": "플레이어의 현재 위치나 상황에 따라 필요한 텍스처만 우선 로딩하는 지능형 리소스 관리 시스템입니다.",
+            "first_step": "특정 구역 진입 시 에셋 번들을 동적으로 로드하는 기능 구현."
+          },
+          {
+            "title": "저사양 최적화 셰이더",
+            "concept": "연산량을 최소화하면서도 시각적 효과를 유지하는 경량화 셰이더 라이브러리입니다.",
+            "first_step": "기본 셰이더의 연산 과정을 줄여 프레임 변화를 측정하는 테스트."
+          }
+        ],
+        "recommendation_ko": "대규모 게임의 최적화와 리소스 관리 전략을 배우기에 좋습니다. 다만, 1인 개발자가 직접 구현하기에는 규모가 너무 크므로 시스템 설계 관점에서만 참고하는 것을 추천합니다.",
+        "source_limitations_ko": "보안 시스템의 구체적인 작동 방식, 서버 인프라 구조, 리소스 압축 기술 등은 공개되지 않았습니다.",
+        "name": "PUBG MOBILE FLASH",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/pubg-mobile-flash/id6740521489?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 280,
+        "reasons": [
+          "newly_seen",
+          "overseas_interest"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "apple:6476465403": {
+      "app_key": "apple:6476465403",
+      "name": "ROXFIT",
+      "developer": "ROXFIT Limited",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/kr/app/roxfit/id6476465403?uo=2",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:35:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "The app for Hyrox and Hybrid Fitness Racing RoxFit is the ultimate training platform for hybrid athletes. Whether you're preparing for your first Hyrox race, chasing a podium finish, or training for CrossFit, marathons, and obstacle course racing, RoxFit gives you the tools to train smarter and perform better. HYPE - YOUR HYBRID PERFORMANCE ENGINE Meet HYPE, your AI training partner. Simply describe the workout you want, and HYPE creates it instantly. \"Give me a 30-minute Hyrox-focused conditioning workout\" or \"Build me a strength session for sled power\" - HYPE understands and delivers. Create AI-powered workouts through natural conversation. Get intelligent exercise suggestions based on your goals. Receive smart modifications for your fitness level and available equipment. CONNECT WITH THE COMMUNITY Train alongside thousands of hybrid athletes worldwide. Discover workouts from top Hyrox and CrossFit athletes. Follow friends and training partners to stay motivated. Share your race results and achievements. ADVANCED TRAINING TOOLS WORKOUT BUILDER Design custom workouts with our intuitive builder. Choose from thousands of exercises or create your own. Structure complex training sessions with multiple blocks, rounds, and intervals. TRAINING PLANNER Plan your week with ease. Schedule workouts, track completion, and maintain training consistency. Visualize your training load across running, strength, and conditioning. WORKOUT PLAYER Your personal training coach during every session. Real-time guidance through each exercise, set, and rest period. Voice cues and visual timers keep you focused. Seamless integration with heart rate monitors and fitness devices. RACE ANALYTICS & PERFORMANCE Built specifically for Hyrox and hybrid fitness racing. Comprehensive race result tracking and analysis. Detailed station-by-station breakdowns for Hyrox races. Performance comparisons across races and seasons. Beautiful visualizations of your progress. Easy sharing of race achievements. Division rankings and leaderboards. UNIFIED SEARCH Find anything instantly. One search bar for workouts, exercises, events, and athletes. Discover new training ideas, locate specific exercises, find upcoming races, and connect with other athletes. INTEGRATIONS & SYNC Seamlessly connect with your fitness ecosystem. Garmin Connect for automatic workout import. Strava for activity sync and social features. Health Connect for unified health data. Heart rate monitors for real-time training zones. TRACKING & INSIGHTS Multi-modal streak tracking for strength, running, and conditioning. Detailed workout history and analytics. Personal record detection. Training volume and intensity analysis. Heart rate zone analysis. Progress tracking over time. VERSATILE TRAINING RoxFit adapts to your training style and goals. Hyrox-specific workouts and race preparation. CrossFit WODs and functional fitness. Running programs from 5K to marathon. Strength training and powerlifting. HIIT and metabolic conditioning. Mobility and recovery sessions. WHY ATHLETES CHOOSE ROXFIT Purpose-built for hybrid athletes and Hyrox racing. AI-powered workout creation saves time and provides variety. Active community of thousands of athletes. Comprehensive race analytics unavailable anywhere else. Beautiful, intuitive interface that's fast and reliable. GET STARTED TODAY Join thousands of hybrid athletes training smarter with RoxFit. Whether you're training for your first race or competing at the elite level, RoxFit helps you reach your potential. Download now and experience the future of hybrid fitness training. Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "analysis": {
+        "app_key": "apple:6476465403",
+        "summary_ko": "RoxFit은 하이브리드 피트니스 및 Hyrox 레이스를 준비하는 운동선수를 위한 종합 훈련 플랫폼입니다. AI 기반의 운동 생성기 HYPE를 통해 맞춤형 루틴을 제공하며, 커뮤니티 연결 및 성과 분석 기능을 갖추고 있습니다. 심박수 모니터링 및 외부 피트니스 앱과의 연동을 지원합니다.",
+        "features_ko": [
+          "AI가 사용자의 목표에 맞춰 운동 루틴을 즉시 생성합니다.",
+          "운동 빌더를 통해 사용자가 직접 복잡한 훈련 세션을 구성할 수 있습니다.",
+          "Hyrox 레이스 성과를 스테이션별로 상세하게 분석합니다.",
+          "Garmin, Strava 등 외부 피트니스 플랫폼과 데이터를 동기화합니다.",
+          "실시간 음성 안내와 타이머를 제공하는 운동 플레이어를 지원합니다."
+        ],
+        "noteworthy_ko": "AI를 활용한 개인화된 운동 루틴 생성은 최근 피트니스 앱의 핵심 트렌드입니다. 데이터 시각화와 커뮤니티 기능을 결합하여 사용자 유지율을 높이는 구조가 흥미롭습니다.",
+        "development_ko": "LLM(거대언어모델)을 활용한 운동 생성 로직과 건강 데이터 처리 기술이 필요합니다. 복잡한 운동 데이터 구조를 설계하고 이를 시각화하는 프론트엔드 역량이 중요합니다. 외부 API 연동(HealthKit 등)을 위한 보안 및 데이터 동기화 테스트가 필수적입니다.",
+        "idea_ko": "사용자의 운동 기록을 바탕으로 다음 운동 강도를 추천해주는 개인화 엔진이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "AI 기반의 유연한 운동 생성 시스템을 갖추고 있습니다.",
+          "하이브리드 피트니스에 특화된 상세 분석 도구를 제공합니다."
+        ],
+        "systems_ko": [
+          "AI 프롬프트 처리 엔진",
+          "운동 데이터 모델링",
+          "데이터 시각화 대시보드",
+          "외부 API 연동 모듈",
+          "사용자 인증 및 커뮤니티 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "복잡한 데이터 분석, 외부 API 연동, AI 모델 활용 등 구현 범위가 매우 넓습니다. 1인 개발 시 데이터 구조 설계와 안정적인 동기화 구현에 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "운동 루틴 생성 및 저장",
+            "운동 기록 추적",
+            "기본 대시보드"
+          ],
+          "defer": [
+            "커뮤니티 기능",
+            "외부 기기 실시간 연동",
+            "상세 레이스 분석"
+          ],
+          "risks": [
+            "AI 생성 루틴의 안전성 검증 부족",
+            "복잡한 데이터 동기화 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "운동 루틴 공유 게시판",
+            "concept": "사용자가 만든 운동 루틴을 텍스트로 공유하고 다른 사용자가 이를 자신의 루틴으로 가져올 수 있습니다.",
+            "first_step": "운동 루틴 데이터를 JSON 형태로 저장하고 불러오는 기능 구현."
+          },
+          {
+            "title": "간편 운동 타이머",
+            "concept": "Hyrox 등 특정 운동에 최적화된 인터벌 타이머를 제공합니다.",
+            "first_step": "설정된 시간마다 알림을 주는 타이머 로직 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 기반의 앱 설계와 외부 API 연동을 배우기에 매우 좋습니다. 피트니스 분야에 관심이 있다면 도전해 볼 만한 프로젝트입니다.",
+        "source_limitations_ko": "AI 모델의 구체적인 프롬프트 엔지니어링 방식이나 서버 아키텍처는 알 수 없습니다. 결제 및 구독 모델에 대한 정보는 없습니다.",
+        "name": "ROXFIT",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/roxfit/id6476465403?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 180,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 20,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
     }
   }
 }

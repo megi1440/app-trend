@@ -11930,6 +11930,185 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-12"
+    },
+    "apple:6476893083": {
+      "app_key": "apple:6476893083",
+      "name": "Farkle Dice Roll",
+      "developer": "FunCraft, Inc",
+      "source": "apple",
+      "country": "US",
+      "category": "game_board",
+      "detail_url": "https://apps.apple.com/us/app/farkle-dice-roll/id6476893083?uo=2",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:37:42+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Welcome to Farkle Dice Roll – The Ultimate PvP Dice Game! Love the thrill of dice games like Yahtzee or Balut? Farkle Dice Roll is here to take your dice-rolling adventures to the next level! Packed with exciting features, this game combines strategy, risk, and fun for players of all skill levels. Challenge friends, family, or players worldwide in thrilling PvP matches where luck and skill go hand in hand. Why You’ll Love Farkle Dice Roll: - Strategic Gameplay: Decide whether to secure your points or roll again and go for that lucky win! - Duels: Engage in one-on-one battles to prove your dice mastery. - Journey Mode: Embark on exciting challenges and unlock unique rewards as you progress. - Leagues: Compete globally, climb the leaderboards, and show everyone you’ve got what it takes. - Achievements: Hit milestones and show off your skills as a Farkle pro. Play with Buddies: Easily connect with friends and family for hours of fun. Key Features: - Perfect for fans of dice games like Balut and Yhatzee. - Fast, thrilling PvP gameplay with exciting twists. - A mix of skill, strategy, and lucky rolls in every game. - Global leaderboards and leagues to compete with the best. - A sleek, user-friendly interface for smooth gameplay. Do you have what it takes to outsmart your opponent? Play it safe or roll for glory—the choice is yours! Download Farkle Dice Roll now and dive into the ultimate PvP dice game experience. Luck, strategy, and endless fun await!",
+      "analysis": {
+        "app_key": "apple:6476893083",
+        "summary_ko": "전략과 운이 결합된 PvP 주사위 게임입니다. 친구나 전 세계 플레이어와 대결하며 순위표에 이름을 올릴 수 있습니다. 주사위를 굴려 점수를 획득하고 위험을 감수할지 안전하게 멈출지 결정하는 전략적 재미를 제공합니다.",
+        "features_ko": [
+          "주사위를 굴려 점수를 쌓고 전략적으로 멈추거나 다시 굴리는 규칙을 제공합니다.",
+          "전 세계 플레이어와 실시간으로 대결하는 PvP 모드를 지원합니다.",
+          "진행 상황에 따라 보상을 얻는 여정 모드를 포함합니다.",
+          "글로벌 순위표와 리그 시스템을 통해 경쟁 요소를 제공합니다."
+        ],
+        "noteworthy_ko": "단순한 운 게임에 전략적 선택(Risk vs Reward)을 결합하여 몰입감을 높인 점이 흥미롭습니다. PvP 매칭 시스템과 순위표 구현은 게임의 지속적인 플레이를 유도하는 핵심 요소로 보입니다.",
+        "development_ko": "실시간 PvP를 위한 서버-클라이언트 동기화가 가장 중요합니다. 주사위 결과의 무작위성을 보장하는 난수 생성 로직과 게임 상태 관리 시스템이 필요합니다. 순위표와 리그 시스템을 위해 데이터베이스 연동 및 서버 측 검증 로직을 구축하는 것이 큰 부담입니다.",
+        "idea_ko": "주사위 눈에 특수 능력을 부여하는 '카드 시스템'을 추가하여 전략성을 강화하는 아이디어가 실현 가능합니다.",
+        "highlights_ko": [
+          "전략적 판단이 요구되는 주사위 게임 규칙.",
+          "글로벌 경쟁을 유도하는 순위표 및 리그 시스템."
+        ],
+        "systems_ko": [
+          "게임 상태 관리 시스템",
+          "실시간 네트워크 매칭 시스템",
+          "난수 생성 및 결과 판정 엔진",
+          "사용자 프로필 및 순위 데이터 관리",
+          "UI/UX 게임 보드 렌더링"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "게임 규칙 자체는 구현하기 어렵지 않으나, 실시간 PvP를 위한 네트워크 환경 구축이 난도를 높입니다. 로컬 대전부터 시작한다면 개인 개발자도 충분히 구현 가능한 수준입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "주사위 굴리기 및 점수 계산 로직",
+            "턴제 게임 흐름 제어",
+            "로컬 2인 대전 모드"
+          ],
+          "defer": [
+            "글로벌 실시간 매칭 서버",
+            "리그 및 순위표 시스템"
+          ],
+          "risks": [
+            "네트워크 지연으로 인한 PvP 경험 저하",
+            "난수 생성의 공정성 논란"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "주사위 커스텀 스킨",
+            "concept": "게임 내 재화로 다양한 디자인의 주사위를 구매합니다. 시각적 만족감을 제공합니다.",
+            "first_step": "주사위 모델링을 교체할 수 있는 에셋 관리 시스템 구현."
+          },
+          {
+            "title": "싱글 플레이 챌린지",
+            "concept": "제한된 턴 내에 특정 점수를 달성하는 퍼즐 모드입니다. PvP가 부담스러운 사용자를 위한 콘텐츠입니다.",
+            "first_step": "턴 제한과 목표 점수를 설정하는 게임 로직 구현."
+          }
+        ],
+        "recommendation_ko": "턴제 게임의 상태 관리와 네트워크 동기화 기초를 배우기에 좋습니다. PvP보다는 로컬 대전부터 시작하여 점진적으로 확장하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에 언급된 'PvP'가 실시간인지 턴제 비동기 방식인지 명확하지 않습니다. 결제 기능이나 서버 인프라에 대한 정보는 없습니다.",
+        "name": "Farkle Dice Roll",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/farkle-dice-roll/id6476893083?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "google:com.arrowflow.escape.puzzle.game": {
+      "app_key": "google:com.arrowflow.escape.puzzle.game",
+      "name": "MOVLO: Logic Puzzle",
+      "developer": "Adaric Ltd",
+      "source": "google",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.arrowflow.escape.puzzle.game&hl=ko&gl=KR",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:38:58+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "MOVLO: Logic Puzzle에 오신 것을 환영합니다! 한 번의 움직임마다 승리에 가까워지는 짜릿한 논리 퍼즐 게임입니다. 보드를 꼼꼼히 살펴 올바른 순서를 선택하고, 모든 화살표를 제거하며 점점 더 흥미로운 퍼즐에 도전하세요. 잠시 쉬고 싶을 때나 오랫동안 두뇌를 단련하고 싶을 때도 MOVLO: Logic Puzzle을 즐겨보세요. 관찰력, 계획력, 논리적 사고를 필요로 하는 수백 개의 정교한 퍼즐이 준비되어 있습니다. 레벨이 점점 복잡해질수록 공간 지각력과 문제 해결 능력을 키우면서 부드럽고 편안한 게임플레이를 즐길 수 있습니다. 게임 방법 • 첫 번째 움직임을 하기 전에 보드를 꼼꼼히 살펴보세요. • 올바른 순서로 화살표를 탭하여 제거하세요. • 앞쪽의 길이 막혀 있으면 움직일 수 없는 화살표도 있습니다. • 신중하게 계획하세요. 실수할 수 있는 횟수는 제한되어 있습니다. • 막혔을 때는 힌트와 유용한 파워업을 사용하세요. • 보드의 모든 화살표를 제거하여 레벨을 완료하고 새로운 도전을 잠금 해제하세요. 특징 ✔ 점점 난도가 높아지는 수백 개의 정교한 논리 퍼즐 ✔ 배우기는 쉽고, 마스터하기는 어려운 간단한 게임플레이 ✔ 매일 새로운 재미를 선사하는 일일 도전과 수집 가능한 트로피 ✔ 어려운 레벨을 위한 유용한 힌트와 파워업 ✔ 깔끔한 비주얼, 부드러운 애니메이션, 편안한 사운드 효과 ✔ 두뇌 게임, 화살표 퍼즐, 논리 퍼즐, 캐주얼 퍼즐 게임을 좋아하는 분들에게 안성맞춤 두뇌를 단련하고, 모든 움직임을 계획하며, MOVLO: Logic Puzzle에서 각 도전을 클리어하는 짜릿한 성취감을 느껴보세요.",
+      "analysis": {
+        "app_key": "google:com.arrowflow.escape.puzzle.game",
+        "summary_ko": "MOVLO: Logic Puzzle은 보드 위의 화살표를 올바른 순서로 탭하여 모두 제거하는 논리 퍼즐 게임입니다. 앞쪽의 화살표가 길을 막고 있는 경우를 고려하여 신중하게 순서를 계획해야 합니다. 수백 개의 레벨을 통해 공간 지각력과 문제 해결 능력을 시험할 수 있습니다.",
+        "features_ko": [
+          "보드 위의 화살표를 순서대로 탭하여 제거하는 규칙을 가집니다.",
+          "앞쪽 화살표에 의해 움직임이 제한되는 논리적 제약이 존재합니다.",
+          "실수 횟수가 제한되어 있어 신중한 계획이 필요합니다.",
+          "막힌 구간을 해결하기 위한 힌트와 파워업 아이템을 제공합니다."
+        ],
+        "noteworthy_ko": "화살표의 방향과 위치라는 단순한 요소를 통해 복잡한 논리적 제약을 만들어낸 점이 흥미롭습니다. 퍼즐의 난이도를 높이는 방식이 물리적 장애물이 아닌 '순서의 논리'에 집중되어 있어 개발 시 레벨 디자인의 중요성이 큽니다.",
+        "development_ko": "핵심 기술은 2D 그리드 기반의 퍼즐 상태 관리와 화살표 간의 상호작용 로직입니다. 콘텐츠 제작은 레벨별 화살표 배치 알고리즘이나 수동 레벨 디자인이 필요하며, 밸런스 조절을 위해 난이도별 테스트가 필수적입니다. 부드러운 애니메이션 구현은 사용자 경험에 큰 영향을 미칩니다.",
+        "idea_ko": "화살표가 특정 조건에서 회전하거나 색상이 변하는 기믹을 추가하여, 단순히 제거하는 것을 넘어 퍼즐의 깊이를 더하는 방식이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "배우기 쉽지만 마스터하기 어려운 직관적인 게임 규칙을 가지고 있습니다.",
+          "일일 도전과 트로피 시스템을 통해 지속적인 플레이를 유도합니다."
+        ],
+        "systems_ko": [
+          "그리드 기반 보드 상태 관리 시스템",
+          "화살표 상호작용 및 제거 로직",
+          "레벨 데이터 관리 및 난이도 조절 시스템",
+          "힌트 및 파워업 아이템 시스템",
+          "애니메이션 및 사운드 매니저"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기본적인 퍼즐 메커니즘은 구현하기 어렵지 않으나, 수백 개의 레벨을 설계하고 난이도 곡선을 유지하는 것이 핵심입니다. 1인 개발 시 레벨 생성기를 만들거나 효율적인 레벨 디자인 툴을 구축하는 것이 관건입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "그리드 보드 생성 및 화살표 배치",
+            "화살표 탭 시 제거 로직",
+            "레벨 클리어 판정 시스템"
+          ],
+          "defer": [
+            "일일 도전 시스템",
+            "트로피 수집 시스템",
+            "파워업 아이템"
+          ],
+          "risks": [
+            "레벨 디자인의 단조로움",
+            "퍼즐 난이도 밸런스 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "색상 매칭 화살표 퍼즐",
+            "concept": "화살표에 색상을 부여하고, 같은 색상의 화살표를 연속으로 제거하면 보너스 점수를 얻는 규칙을 추가합니다. 색상 조합을 고려해야 하므로 전략성이 강화됩니다.",
+            "first_step": "화살표 객체에 색상 속성을 추가하고, 제거 시 색상 일치 여부를 판별하는 로직을 구현합니다."
+          },
+          {
+            "title": "이동 가능한 화살표 퍼즐",
+            "concept": "화살표를 제거하는 대신 빈 공간으로 밀어서 위치를 바꿀 수 있는 기능을 추가합니다. 화살표를 정렬하여 특정 패턴을 만들어야 제거되는 방식으로 확장합니다.",
+            "first_step": "화살표의 위치 이동 로직과 빈 공간 체크 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 핵심 메커니즘을 설계하고 레벨 디자인을 연습하기에 매우 좋은 모델입니다. 간단한 규칙에서 복잡한 재미를 끌어내는 방법을 배우고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에 언급된 '앱 내 보상'의 구체적인 구현 방식이나 광고 연동 SDK에 대한 정보는 없습니다. 실제 게임의 레벨 생성 알고리즘이나 데이터 구조는 확인되지 않았습니다.",
+        "name": "MOVLO: Logic Puzzle",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.arrowflow.escape.puzzle.game&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 100,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
     }
   }
 }

@@ -11334,6 +11334,364 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-13"
+    },
+    "itch:2152fe03eb2d14327837": {
+      "app_key": "itch:2152fe03eb2d14327837",
+      "name": "Cardsauce Pocket Edition [Free] [Card Game] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://countgate.itch.io/cardsauce-pocket-edition",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:34:17+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Card game featuring Vinesauce characters and memes",
+      "analysis": {
+        "app_key": "itch:2152fe03eb2d14327837",
+        "summary_ko": "Vinesauce 캐릭터와 밈을 활용한 카드 게임입니다. 특정 커뮤니티의 요소를 카드 게임이라는 장르에 녹여낸 팬 게임 성격의 작품입니다.",
+        "features_ko": [
+          "Vinesauce 캐릭터가 카드 게임의 요소로 등장합니다.",
+          "밈(meme)을 활용한 카드 디자인과 효과가 포함됩니다.",
+          "카드 게임 규칙을 기반으로 한 플레이를 제공합니다."
+        ],
+        "noteworthy_ko": "기존의 IP(Vinesauce)를 활용하여 팬들에게 친숙한 경험을 제공하는 방식이 흥미롭습니다. 카드 게임의 규칙을 어떻게 밈과 연결했는지가 핵심입니다.",
+        "development_ko": "카드 게임의 규칙 엔진과 카드 데이터를 관리하는 시스템이 필요합니다. 캐릭터와 밈을 활용한 아트워크 제작이 콘텐츠의 큰 비중을 차지합니다.",
+        "idea_ko": "Vinesauce의 밈을 카드 효과로 구현하여, 상대방의 덱을 방해하는 전략 카드 게임을 추천합니다.",
+        "highlights_ko": [
+          "Vinesauce IP 활용.",
+          "밈 기반의 카드 게임 구성."
+        ],
+        "systems_ko": [
+          "카드 덱 관리 시스템",
+          "턴제 게임 로직",
+          "카드 효과 처리 엔진",
+          "UI(카드 배치 및 사용)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "카드 게임은 물리 엔진보다 로직 중심의 구현이 필요하며, 규칙만 명확하다면 1인 개발이 가능하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카드 드로우 및 사용 로직",
+            "턴 종료 시스템"
+          ],
+          "defer": [
+            "온라인 대전",
+            "복잡한 카드 콤보 시스템"
+          ],
+          "risks": [
+            "카드 간 밸런스 불균형",
+            "IP 사용에 따른 저작권 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "밈 카드 배틀",
+            "concept": "각 밈마다 고유한 공격력과 방어력을 부여하여 턴제로 대결하는 카드 게임입니다.",
+            "first_step": "카드 데이터 구조 설계 및 화면에 카드 출력하기."
+          },
+          {
+            "title": "Vinesauce 덱 빌딩",
+            "concept": "게임을 진행하며 새로운 밈 카드를 수집하여 자신만의 덱을 구성하는 싱글 플레이 카드 게임입니다.",
+            "first_step": "카드 획득 및 덱 편집 UI 구현."
+          }
+        ],
+        "recommendation_ko": "카드 게임의 로직 구현을 배우고 싶은 개발자에게 추천합니다. 특정 테마를 게임에 녹여내는 기획력을 연습하기 좋습니다.",
+        "source_limitations_ko": "구체적인 카드 게임의 규칙(예: 하스스톤 방식인지, 포커 방식인지 등), 승리 조건, 카드 종류 등은 확인되지 않았습니다.",
+        "name": "Cardsauce Pocket Edition [Free] [Card Game] [Windows]",
+        "source": "itch",
+        "detail_url": "https://countgate.itch.io/cardsauce-pocket-edition",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 311,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 23,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "apple:6823622575": {
+      "app_key": "apple:6823622575",
+      "name": "RPM Memory",
+      "developer": "NAOFUMI NOMOTO",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/jp/app/rpm-memory/id6823622575",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:35:13+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "RPM Memoryは、ミニ四駆モーターの音から回転数を計測し、記録・比較するためのアプリです。 モーターを回してマイクに音を聞かせるだけで、回転数（RPM）と、ギヤ比・タイヤ径から換算した速度を表示します。計測結果はその場で保存でき、あとから履歴で見返したり、並べて比べたりできます。 ■ できること ・音からの回転数計測（MAX / MIN / AVG、目標回転数の設定） ・計測の保存と履歴（モーター、個体、マシン設定ごとの記録） ・慣らしの前後など、2つの状態を比べる A/B 比較 ・タイヤを付けた状態との差から見る駆動ロス（タイヤ付） ・モーター別のグラフ、2件の並列比較 ・逆算（必要トルク、ジャンプ飛距離の目安計算など） ・外観テーマの切り替え、ダークモード、英語表示 ■ 使い方 1.「計測開始」を押して、マイクの使用を許可します 2. モーターを回し、音をスマートフォンのマイクに近づけます 3. 回転数が表示されたら「ロック」で固定し、「保存」で記録します ■ 音声とプライバシーについて マイクの音声は、回転数を算出するために端末の中だけで解析します。録音・保存・外部への送信はしません。計測履歴などのデータも端末の中にだけ保存されます。 ■ ご注意 ・計測値は、部屋の騒音やマイクとの距離など、計測環境によって変動します。目安としてご利用ください ・本アプリは個人が開発した非公式ツールです。ミニ四駆は株式会社タミヤの登録商標であり、本アプリは株式会社タミヤとは関係ありません",
+      "analysis": {
+        "app_key": "apple:6823622575",
+        "summary_ko": "미니카 모터의 소리를 분석하여 회전수(RPM)를 측정하는 도구 앱입니다. 마이크를 통해 모터 소리를 입력받아 RPM과 속도를 계산하고 기록합니다. 측정 데이터의 저장, 비교, 그래프 시각화 기능을 제공합니다.",
+        "features_ko": [
+          "마이크 입력을 통해 모터의 회전수를 실시간으로 측정합니다.",
+          "기어비와 타이어 직경을 기반으로 실제 속도를 환산합니다.",
+          "측정 데이터를 저장하고 이력을 관리합니다.",
+          "두 측정 결과를 비교하는 A/B 테스트 기능을 제공합니다.",
+          "측정 결과를 그래프로 시각화하여 보여줍니다."
+        ],
+        "noteworthy_ko": "소리라는 비정형 데이터를 분석하여 정량적인 수치로 변환하는 기술이 핵심입니다. 특정 취미(미니카)에 특화된 도구로서 사용자의 니즈를 정확히 타겟팅한 점이 흥미롭습니다.",
+        "development_ko": "오디오 신호 처리(FFT 등) 기술이 필수적입니다. 주변 소음 제거 알고리즘과 정확한 RPM 산출을 위한 수학적 모델링이 중요하며, 사용자 경험을 위한 직관적인 UI 설계가 필요합니다.",
+        "idea_ko": "다양한 모터 소리를 데이터베이스화하여 모터 상태를 진단하는 AI 분석 기능.",
+        "highlights_ko": [
+          "오디오 신호 처리를 통한 RPM 측정.",
+          "미니카 취미에 특화된 데이터 관리 및 비교 기능."
+        ],
+        "systems_ko": [
+          "오디오 입력 및 신호 처리(FFT)",
+          "RPM 계산 알고리즘",
+          "데이터 저장 및 이력 관리",
+          "그래프 시각화 모듈"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "오디오 신호 처리 알고리즘을 직접 구현하고 주변 소음 환경에서 정확도를 확보하는 것은 매우 높은 기술적 난이도를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "마이크 입력 및 기본 RPM 계산",
+            "결과값 화면 표시"
+          ],
+          "defer": [
+            "데이터 저장 및 이력 관리",
+            "그래프 시각화"
+          ],
+          "risks": [
+            "주변 소음으로 인한 측정 오차",
+            "기기별 마이크 성능 차이"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "악기 튜너 앱",
+            "concept": "악기 소리를 분석하여 음정을 맞추는 간단한 튜너 앱입니다.",
+            "first_step": "마이크 입력 주파수 분석 및 음계 매칭 구현."
+          },
+          {
+            "title": "소음 측정기",
+            "concept": "주변 소음의 데시벨을 측정하고 기록하는 앱입니다.",
+            "first_step": "마이크 입력값의 데시벨 변환 함수 구현."
+          }
+        ],
+        "recommendation_ko": "오디오 신호 처리와 수학적 모델링을 활용한 도구 앱 개발에 관심 있는 개발자에게 추천합니다. 특정 분야의 문제를 기술로 해결하는 과정을 배우기에 좋습니다.",
+        "source_limitations_ko": "소개문에 명시된 측정 정확도와 환경 변수에 대한 구체적인 데이터는 확인되지 않습니다. 실제 사용 시 환경에 따른 오차 범위를 검증해야 합니다.",
+        "name": "RPM Memory",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/rpm-memory/id6823622575",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 201,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 13,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "google:com.dena.a12026418": {
+      "app_key": "google:com.dena.a12026418",
+      "name": "Pokémon Masters EX",
+      "developer": "DeNA Co., Ltd.",
+      "source": "google",
+      "country": "US",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.dena.a12026418&hl=en&gl=US",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:37:00+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "THE NEXT CHAPTER OF POKÉMON UNFOLDS Trainer tales continue—and new relationships that span beyond regions begin! Experience Pokémon stories unique to Pokémon Masters EX! TEAM UP WITH SYNC PAIRS FROM EVERY REGION! Team up and interact with Trainers from the Paldea region, the Hisui region, and everywhere in between! TAKE ON THREE-ON-THREE BATTLES Engage in Pokémon battles with your favorite Trainers and emerge victorious through the bonds between Pokémon and Trainer! TRAINERS FROM ALL OVER COME TOGETHER! Champions, Elite Four members, Gym Leaders, and visitors from the past! Enjoy adventures together with your favorite Trainers and their Pokémon! TRAINERS DON SPECIAL OUTFITS! Trainers appear wearing outfits exclusive to Pokémon Masters EX! Enjoy original stories connected to those outfits, too! GET TO KNOW YOUR FAVORITE TRAINERS! Interact with Trainers in the Trainer Lodge to deepen your bond and get special photos and stories! TAKE PHOTOS OF YOUR FAVES! Select the Trainers, background, frame, and effects to take a photo worthy of Pokéstar Studios! You can include up to three Trainers in a photo! HATCH EGGS & TEAM UP! Hatch Eggs to get new Pokémon! Add hatched Pokémon to your team, and battle your way to the top! Note: ・We recommend a device with at least 2GB of RAM. ・We do not guarantee functionality on all devices listed above. ・There may be cases where the app does not function properly due to your device’s capabilities, specifications, or particular conditions for using apps. ・It may take time to become compatible with the latest OS.",
+      "analysis": {
+        "app_key": "google:com.dena.a12026418",
+        "summary_ko": "포켓몬 트레이너들과 함께 팀을 구성하여 3대3 배틀을 즐기는 RPG입니다. 다양한 지역의 트레이너와 포켓몬을 수집하고, 그들 사이의 유대감을 쌓는 스토리를 경험할 수 있습니다. 트레이너 라운지, 사진 촬영, 알 부화 등 다양한 콘텐츠를 제공합니다.",
+        "features_ko": [
+          "트레이너와 포켓몬을 조합하여 3대3 실시간 배틀을 진행합니다.",
+          "다양한 지역의 트레이너들과 유대감을 쌓고 특별한 스토리를 감상할 수 있습니다.",
+          "트레이너에게 특별한 의상을 입히고 관련 스토리를 즐길 수 있습니다.",
+          "트레이너 라운지에서 트레이너와 교류하며 사진을 촬영할 수 있습니다.",
+          "알을 부화시켜 새로운 포켓몬을 팀에 추가할 수 있습니다."
+        ],
+        "noteworthy_ko": "포켓몬 IP를 활용하여 트레이너와 포켓몬의 '유대'를 게임의 핵심 메커니즘으로 삼은 점이 특징입니다. 수집형 RPG 요소에 캐릭터와의 교감 콘텐츠를 결합하여 팬덤의 몰입도를 높인 점이 개발 관점에서 흥미롭습니다.",
+        "development_ko": "방대한 캐릭터와 포켓몬 데이터를 관리하는 시스템이 필수적입니다. 3D 배틀 연출과 애니메이션 구현은 높은 기술력을 요구하며, 지속적인 캐릭터 업데이트를 위한 효율적인 데이터 파이프라인 구축이 중요합니다. 서버 안정성과 대규모 트래픽 처리가 핵심입니다.",
+        "idea_ko": "캐릭터 유대감 중심의 수집형 RPG.",
+        "highlights_ko": [
+          "트레이너와 포켓몬의 유대감을 강조한 3대3 배틀.",
+          "트레이너 라운지 및 사진 촬영 등 풍부한 교감 콘텐츠."
+        ],
+        "systems_ko": [
+          "캐릭터 및 포켓몬 수집 데이터베이스",
+          "3대3 턴제 배틀 엔진",
+          "유대감 및 호감도 시스템",
+          "3D 모델링 및 애니메이션 연출 시스템",
+          "이벤트 및 업데이트 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "IP 기반의 대규모 프로젝트는 리소스 제작량과 시스템 복잡도가 매우 높습니다. 1인 개발자가 전체를 복제하는 것은 불가능하며, 핵심 배틀 시스템만 구현하더라도 높은 수준의 프로그래밍과 아트 역량이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 3대3 배틀 로직",
+            "캐릭터 수집 데이터 구조",
+            "기본 UI/UX"
+          ],
+          "defer": [
+            "트레이너 라운지",
+            "사진 촬영 기능",
+            "복잡한 스토리 모드"
+          ],
+          "risks": [
+            "IP 저작권 문제",
+            "캐릭터 밸런스 붕괴",
+            "서버 비용 및 유지보수 부담"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "트레이너 유대감 시뮬레이터",
+            "concept": "배틀보다는 트레이너와 포켓몬의 일상 교감에 집중한 시뮬레이션 게임입니다.",
+            "first_step": "트레이너와 포켓몬이 상호작용하는 간단한 애니메이션 구현."
+          },
+          {
+            "title": "포켓몬 팀 빌딩 전략 게임",
+            "concept": "배틀 없이 포켓몬의 능력치를 조합하여 최적의 팀을 구성하는 퍼즐형 전략 게임입니다.",
+            "first_step": "포켓몬 능력치 데이터베이스와 팀 구성 UI 구현."
+          }
+        ],
+        "recommendation_ko": "수집형 RPG의 데이터 구조와 캐릭터 중심의 게임 디자인을 배우기에 좋습니다. 다만, 대규모 프로젝트이므로 1인 개발자는 핵심 메커니즘을 극도로 단순화하여 시도하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 배틀의 구체적인 수치 계산식이나 서버 아키텍처에 대한 정보가 없습니다. 또한 포켓몬 IP 사용에 대한 라이선스 계약이나 결제 시스템의 보안 구현 방식은 확인되지 않습니다.",
+        "name": "Pokémon Masters EX",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.dena.a12026418&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "apple:6759306715": {
+      "app_key": "apple:6759306715",
+      "name": "Ball of Ages",
+      "developer": "Rollic Games",
+      "source": "apple",
+      "country": "US",
+      "category": "game_rpg",
+      "detail_url": "https://apps.apple.com/us/app/ball-of-ages/id6759306715?uo=2",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:38:01+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Ball of Ages is a pixel-art auto-battle RPG. Your ball fights on its own: it bounces around the arena, spins its weapon and knocks out wave after wave of enemies. You do the fun part: open chests, equip better loot and build a ball that keeps getting stronger. ARM YOUR BALL, WATCH IT FIGHT • Equip a new weapon and your ball swings it right away • Go melee or ranged, from swords to blasters • Clear stages and take on bigger and bigger enemy waves OPEN CHESTS, EQUIP LOOT • Open chests for weapons, armor and more • Spot upgrades at a glance: a green arrow means stronger, so tap Equip • Raise your Chest Level for better drops • Smash the Lucky Chest with hammer taps to upgrade its rarity CLIMB 10 GEAR TIERS Common, Uncommon, Rare, Epic, Legendary, Galactic, Dimensional, Celestial, Mythic and Eternal. How far can your ball go? 4 CLASSES, 12 SKILLS • Warrior: Blade Dance, Rage and Aura Blade turn one sword into a spinning storm of blades • Marksman: fill the arena with arrows from a distance • Assassin: Shadow Clone, Poison Cloud and Vanish let you strike from the shadows • Mage: Mana Sphere, Gravity Well and Arcane Orbs pull enemies in and blast them with magic • Tap to cast a skill, or set your skills to Auto • Level up each class to unlock new passive bonuses COMPETE AND TEAM UP • Rise through the PvP leagues: Challenge rivals, earn stars and climb before the season ends • Join a guild: level up the Temple together, shop in the Guild Shop, win Guild Wars and take on The Watcher COUNTLESS UPGRADES • Fans: collect fans and seat your favorites for big passive bonuses • Gems: crack stones and equip your strongest gems • Tech Tree: research chest, power and skill upgrades • Wings: equip wings for even more power • Dungeons: four daily dungeons (Key Vault, Fan Arena, Gem Mine and Potion Lab) with fresh tickets every day Arm your ball, watch it fight, and become a legend of the ages!",
+      "analysis": {
+        "app_key": "apple:6759306715",
+        "summary_ko": "공이 자동으로 경기장을 누비며 적을 물리치는 픽셀 아트 기반의 자동 전투 RPG입니다. 플레이어는 상자를 열어 전리품을 획득하고, 장비를 강화하여 공을 더욱 강력하게 성장시킵니다. 다양한 클래스와 스킬을 조합하여 끝없는 적의 파도를 돌파하는 것이 목표입니다.",
+        "features_ko": [
+          "공이 자동으로 이동하며 무기를 휘둘러 적을 공격하는 자동 전투 시스템을 제공합니다.",
+          "상자를 열어 무기, 방어구 등 다양한 전리품을 획득하고 장착할 수 있습니다.",
+          "전사, 명사수, 암살자, 마법사 등 4가지 클래스와 각기 다른 스킬을 지원합니다.",
+          "PvP 리그, 길드 시스템 등 다른 플레이어와 경쟁하거나 협력할 수 있는 콘텐츠가 있습니다.",
+          "던전, 기술 트리, 펫(팬) 등 다양한 성장 및 강화 요소를 포함하고 있습니다."
+        ],
+        "noteworthy_ko": "자동 전투라는 단순한 메커니즘에 장비 파밍과 클래스 성장이라는 RPG 요소를 결합하여 중독성을 높였습니다. 1인 개발자가 구현하기에 적합한 규모이면서도, 다양한 성장 시스템을 통해 깊이 있는 플레이를 유도한 점이 흥미롭습니다.",
+        "development_ko": "자동 전투 로직과 충돌 판정 시스템이 핵심입니다. 아이템 등급과 강화 수치에 따른 밸런스 설계가 중요하며, 다양한 클래스별 스킬 효과를 구현하는 데 리소스가 많이 필요합니다. 1인 개발 시에는 시스템의 확장성을 고려한 모듈화 설계가 필수적입니다.",
+        "idea_ko": "공의 물리적 특성(탄성, 무게 등)을 장비에 따라 변화시켜, 전투 방식뿐만 아니라 이동 방식까지 달라지게 하는 물리 기반 성장 시스템을 도입하면 차별화될 것입니다.",
+        "highlights_ko": [
+          "자동 전투와 RPG 파밍 요소를 결합하여 간편하면서도 깊이 있는 성장을 제공합니다.",
+          "10단계의 장비 등급과 다양한 클래스 스킬을 통해 끊임없는 도전 목표를 제시합니다."
+        ],
+        "systems_ko": [
+          "자동 전투 및 물리 엔진",
+          "아이템 파밍 및 강화 시스템",
+          "클래스 및 스킬 트리 시스템",
+          "데이터베이스 관리(장비, 레벨)",
+          "PvP 및 길드 매칭 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "자동 전투 메커니즘은 구현 난이도가 높지 않으며, 픽셀 아트는 리소스 제작 부담을 줄여줍니다. 다만, 다양한 성장 시스템의 밸런스를 맞추는 데는 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "자동 전투 로직",
+            "기본 장비 파밍 및 장착",
+            "레벨업 및 스탯 시스템"
+          ],
+          "defer": [
+            "PvP 리그 및 길드 시스템",
+            "복잡한 기술 트리",
+            "일일 던전 콘텐츠"
+          ],
+          "risks": [
+            "전투 밸런스 불균형",
+            "단조로운 게임 플레이"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "물리 속성 공 시스템",
+            "concept": "공의 재질(고무, 금속, 얼음 등)에 따라 적과의 충돌 시 효과가 달라지는 시스템입니다. 얼음 공은 적을 얼리고, 금속 공은 더 큰 피해를 줍니다.",
+            "first_step": "충돌 시 속성에 따른 상태 이상 효과 적용 로직 구현."
+          },
+          {
+            "title": "커스텀 스킬 콤보",
+            "concept": "획득한 스킬들을 순서대로 배치하여 나만의 콤보를 만드는 시스템입니다. 특정 순서로 스킬이 발동되면 추가 보너스를 얻습니다.",
+            "first_step": "스킬 발동 순서 관리 및 콤보 보너스 계산 로직 구현."
+          }
+        ],
+        "recommendation_ko": "자동 전투 RPG의 기본 구조를 익히기에 매우 좋은 프로젝트입니다. 핵심 메커니즘을 먼저 구현하고 성장 요소를 단계적으로 추가하는 방식을 추천합니다.",
+        "source_limitations_ko": "소개문에는 PvP 매칭 알고리즘이나 서버 동기화 방식에 대한 정보는 없습니다. 온라인 경쟁 요소는 구현 난이도가 높으므로 초기 개발 시 제외하는 것이 좋습니다.",
+        "name": "Ball of Ages",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/ball-of-ages/id6759306715?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
     }
   }
 }

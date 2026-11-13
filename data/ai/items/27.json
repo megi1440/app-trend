@@ -12079,6 +12079,280 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-13"
+    },
+    "google:com.newstar.aitranslate.photo.pdf": {
+      "app_key": "google:com.newstar.aitranslate.photo.pdf",
+      "name": "AI 번역기: 사진, 채팅, PDF",
+      "developer": "NEWSTAR CORPORATION JOINT STOCK  COMPANY",
+      "source": "google",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.newstar.aitranslate.photo.pdf&hl=ko&gl=KR",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:35:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "🌍 AI 번역기: 사진, 채팅, PDF로 사진, 메시지, 문서 속 텍스트와 일상 대화를 이해해 보세요. 카메라로 촬영하거나 이미지를 업로드하고, PDF를 번역하거나 음성 번역기에 말해 보세요. 100개 이상의 언어를 지원하며, 여행과 학습, 업무, 일상에 필요한 번역을 AI가 도와줍니다. 📸 사진 번역 및 카메라 번역 다른 언어로 된 표지판, 메뉴, 라벨과 인쇄물을 읽어 보세요. 사진을 찍거나 휴대폰에서 이미지를 선택하면 OCR이 텍스트를 인식해 번역 전에 확인하고 수정할 수 있습니다. 손글씨도 인식하고 번역할 수 있습니다. 📄 PDF 번역 및 문서 번역 PDF, 스캔 파일과 문서 페이지의 텍스트를 번역하세요. 문서 번역기로 다른 언어로 작성된 학습 자료, 업무 문서와 정보를 이해해 보세요. 🎙️ 음성 번역 말한 내용을 원하는 언어로 번역하세요. 길을 묻거나 일상적인 주제로 대화할 때, 여행 중 의사소통이 필요할 때 음성 번역을 활용할 수 있습니다. 💬 채팅 및 메시지 번역 메시지와 대화 내용을 번역해 상대방의 말을 이해하고 다른 언어로 답장을 준비하세요. 개인 채팅, 스터디 그룹과 업무 소통에 활용할 수 있습니다. 🫧 화면 번역 및 번역 버블 플로팅 번역 버블을 켜면 사용 중인 앱을 벗어나지 않고 화면에서 선택한 텍스트를 번역할 수 있습니다. 메시지나 다른 콘텐츠를 읽으면서 버블을 이동해 화면 번역 기능을 이용하세요. 🤖 AI 번역 도우미 AI 도우미와 채팅하며 텍스트를 번역하고, 뜻을 확인하고, 같은 생각을 여러 방식으로 표현하는 방법을 알아보세요. 모르는 단어의 설명을 요청하거나 다른 언어로 대화를 연습할 수도 있습니다. 🎨 텍스트 편집 및 맞춤 설정 번역 전에 인식된 텍스트를 확인하고 수정하세요. 번역 후에는 번역된 이미지의 글꼴 스타일, 글자색과 배경을 원하는 대로 바꿀 수 있습니다. 💾 저장 및 정리 번역된 이미지를 저장해 나중에 다시 확인하세요. 시간순으로 살펴보거나 즐겨찾기에 추가해 유용한 번역을 다시 찾아볼 수 있습니다. ✈️ 일상에서 활용하는 번역 여행 중에는 사진을 번역하고, 학습이나 업무에 필요한 문서를 읽고, 다른 언어로 소통할 때는 채팅을 번역하세요. 카메라 번역과 PDF 번역부터 음성 번역, AI 채팅까지 상황에 맞는 도구를 선택할 수 있습니다. 🔒 접근성 서비스 이 앱은 사용자가 화면 번역을 활성화한 경우에만 접근성 서비스를 사용하여 화면에서 선택한 텍스트를 가져와 번역합니다. 선택한 텍스트는 당사의 번역 서비스에서 처리될 수 있습니다.",
+      "analysis": {
+        "app_key": "google:com.newstar.aitranslate.photo.pdf",
+        "summary_ko": "AI 번역기는 사진, 문서, 음성, 채팅 등 다양한 형태의 텍스트를 번역하는 다목적 도구입니다. 100개 이상의 언어를 지원하며 OCR 기술을 통해 이미지 속 텍스트를 인식합니다. 화면 번역 버블 기능을 통해 앱 전환 없이 실시간 번역을 제공합니다.",
+        "features_ko": [
+          "카메라로 촬영하거나 이미지를 업로드하여 텍스트를 번역합니다.",
+          "PDF 및 스캔된 문서의 텍스트를 추출하여 번역합니다.",
+          "음성 입력을 통해 실시간 대화 번역을 지원합니다.",
+          "플로팅 버블을 통해 다른 앱 사용 중에도 화면 번역이 가능합니다.",
+          "AI 도우미와 대화하며 언어 학습 및 문장 교정을 할 수 있습니다."
+        ],
+        "noteworthy_ko": "OCR과 번역 API를 결합한 복합적인 서비스입니다. 특히 접근성 서비스를 활용한 화면 번역 기능은 안드로이드 시스템 권한을 깊게 활용하는 흥미로운 사례입니다.",
+        "development_ko": "Google ML Kit 또는 외부 번역 API 연동이 핵심입니다. OCR 정확도와 번역 품질을 유지하기 위한 API 비용 관리가 중요합니다. UI/UX 측면에서는 플로팅 윈도우 구현과 접근성 서비스의 안정적인 동작이 핵심 과제입니다.",
+        "idea_ko": "특정 언어 학습을 위한 단어장 자동 생성 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "다양한 입력 방식(사진, 음성, 문서)을 통합한 번역 환경을 제공합니다.",
+          "사용자 편의를 위한 플로팅 인터페이스를 지원합니다."
+        ],
+        "systems_ko": [
+          "OCR 엔진 연동",
+          "번역 API 통신 모듈",
+          "플로팅 UI 서비스",
+          "접근성 서비스 관리",
+          "데이터 로컬 저장소"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "OCR 및 번역 API 연동은 기술적으로는 가능하나, 플로팅 윈도우와 접근성 서비스는 안드로이드 시스템 정책에 민감하여 구현 및 유지보수가 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "이미지 텍스트 인식(OCR)",
+            "번역 API 연동",
+            "기본 텍스트 번역 UI"
+          ],
+          "defer": [
+            "플로팅 번역 버블",
+            "음성 번역",
+            "AI 대화 도우미"
+          ],
+          "risks": [
+            "외부 API 사용 비용 발생",
+            "접근성 서비스 권한 승인 거부 가능성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "언어 학습용 단어장",
+            "concept": "번역한 단어를 자동으로 저장하고, 나중에 퀴즈 형태로 복습할 수 있게 합니다.",
+            "first_step": "번역 결과 텍스트를 로컬 데이터베이스에 저장하고 조회하는 기능 구현."
+          },
+          {
+            "title": "메뉴판 전용 번역기",
+            "concept": "음식점 메뉴판 사진을 찍으면 음식 이름과 설명을 직관적으로 번역해줍니다.",
+            "first_step": "이미지 내 텍스트 영역을 감지하여 번역 결과를 오버레이로 표시하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "OCR과 API 연동을 배우기에 좋습니다. 다만, 시스템 권한을 많이 요구하므로 보안 및 정책 준수에 주의해야 합니다.",
+        "source_limitations_ko": "사용된 번역 엔진의 종류나 OCR 모델의 상세 정보는 알 수 없습니다. 결제 기능이나 서버 측 데이터 처리 방식은 명시되지 않았습니다.",
+        "name": "AI 번역기: 사진, 채팅, PDF",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.newstar.aitranslate.photo.pdf&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 183,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "apple:6451399876": {
+      "app_key": "apple:6451399876",
+      "name": "Delta Force",
+      "developer": "Level Infinite",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_action",
+      "detail_url": "https://apps.apple.com/jp/app/delta-force/id6451399876?uo=2",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:36:15+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "『Delta Force』新シーズン「オーロラ」好評開催中！ 戦術オペレーター、ハードコアな撤収 G.T.I.に加入し、個性豊かなエリートオペレーターたちを集結。偵察矢で敵を探知、磁気爆弾で爆破、パワードスーツで強行突破――多彩な戦術アイテムを駆使し、チームメイトと連携して危険な撤収ミッションを遂行せよ。 いまだかつてない探索体験 戦利品への渇望、ここに再燃せよ。ダイナミックなマップを探索し、暗号を解け。天を目指して鳥の巣に手を伸ばせ、海に潜って秘蔵の貝を漁れ。 毎回の出撃が、未知のトレジャーハント。ただの探索など終わりだ――アドレナリン全開の冒険へ、突入せよ。 頭脳でボスを制し、銃火で勝利をつかむ 重武装の傭兵や凶悪なボスに立ち向かい、高価値物資を奪取せよ。ただし油断は禁物――最も危険な敵は、同じく戦利品を狙う他のプレイヤー。最後まで生き残った者だけが富を手にできる。ノーリスク、ノーリターン。 多種多様な撤収ルート、どれにするかあなた次第 撤収は芸術だ。退屈な定点撤収はもう終わり。巨大ロケットで空へ舞い上がるもよし、ウイングスーツで滑空するもよし、地下トンネルを潜ってステルスで消えるもよし。混沌とした戦場で柔軟に対応し、誰も予想できない方法で生還せよ。 戦利品を持ち帰り、ブラック・サイトをレベルアップ 生き残ることはゴールではない。持ち帰った物資でブラック・サイトをレベルアップせよ。兵器庫を拡張、身体能力を強化、先端装備をアンロック――積み重ねた成果がアドバンテージとなり、さらに強く、さらに優れた装備で戦場へと復帰できる。 陸・海・空でウォーフェアを支配せよ 壮大な48人対戦が繰り広げられるウォーフェアへ。タンクやヘリを操縦して、都市、山岳、広大な島々を駆け巡れ。破壊可能なマップで、シームレスな戦闘を体感せよ。 豊富なウェポン、究極の改造 熟練の軍事アドバイザー監修のもと、数十種類の銃器を収録。10か所以上のカスタム部位、1000通りを超える組み合わせで自分だけのウェポンを改造・シェアできる。さらに、陸・海・空の乗り物も自由に改造可能。自分だけの兵器庫を築き、思うままに戦場を支配せよ。 【必要最低動作環境】 iOS 12以上、2GB以上のRAM、A10プロセッサ以降（iPhone 7以降、iPad 第6世代以降） 【推奨動作環境】 iOS 14以上、4GB以上のRAM、A13プロセッサ以降（iPhone 11以降、iPad 第9世代以降） ▼PC版好評配信中！ https://bit.ly/425hJLJ ▼公式アカウントはこちら！ X(旧Twitter)：https://x.com/DeltaForceG_JP Discord：http://discord.gg/deltaforcejp YouTube：https://www.youtube.com/@DeltaForceGameJP 『Delta Force』のプライバシーポリシーおよび利用規約をご確認ください。 ▼プライバシーポリシー https://www.playdeltaforce.com/privacy-policy.html ▼Tencent Games 利用規約 https://www.playdeltaforce.com/en/terms-of-use.html",
+      "analysis": {
+        "app_key": "apple:6451399876",
+        "summary_ko": "Delta Force는 전술적인 팀 협력과 생존을 강조하는 슈팅 게임입니다. 플레이어는 다양한 전술 아이템과 무기를 활용해 미션을 수행하고 전리품을 확보해야 합니다. 48인 대규모 전투와 차량 전투를 포함한 다채로운 전장을 경험할 수 있습니다.",
+        "features_ko": [
+          "다양한 전술 아이템을 사용하여 적을 탐지하거나 파괴할 수 있습니다.",
+          "전리품을 확보하고 안전하게 탈출하는 미션 중심의 게임플레이를 제공합니다.",
+          "육상, 해상, 공중을 아우르는 대규모 48인 전투를 지원합니다.",
+          "다양한 총기와 차량을 세밀하게 커스터마이징할 수 있습니다.",
+          "파괴 가능한 환경을 통해 전략적인 전투를 수행할 수 있습니다."
+        ],
+        "noteworthy_ko": "탈출(Extraction) 장르와 대규모 전장 전투를 결합한 점이 흥미롭습니다. 다양한 탈출 경로와 전리품 기반의 성장 시스템은 플레이어에게 지속적인 동기를 부여할 것으로 추정됩니다.",
+        "development_ko": "다양한 무기 커스터마이징과 파괴 가능한 맵 구현은 높은 기술적 난이도를 요구합니다. 48인 멀티플레이어 환경을 위한 네트워크 최적화와 서버 안정성 확보가 핵심입니다. 콘텐츠 제작 측면에서는 맵의 다양성과 밸런스 조정에 상당한 리소스가 필요할 것으로 보입니다.",
+        "idea_ko": "특정 구역에서만 작동하는 제한된 전술 아이템을 활용한 소규모 탈출 게임.",
+        "highlights_ko": [
+          "전술적 선택에 따라 달라지는 다양한 탈출 경로와 방식.",
+          "수집한 전리품으로 기지를 업그레이드하고 장비를 강화하는 성장 요소."
+        ],
+        "systems_ko": [
+          "네트워크 동기화 시스템",
+          "아이템 인벤토리 및 전리품 관리",
+          "무기 커스터마이징 데이터 구조",
+          "맵 오브젝트 파괴 판정",
+          "플레이어 매칭 및 세션 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "대규모 멀티플레이어 네트워크 구현과 물리 기반의 파괴 시스템은 1인 개발자가 구현하기에 매우 복잡합니다. 방대한 양의 에셋 제작과 밸런스 조정 또한 1인 개발의 범위를 크게 벗어납니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 캐릭터 이동 및 사격",
+            "아이템 획득 및 인벤토리 시스템",
+            "단일 맵에서의 탈출 목표 설정"
+          ],
+          "defer": [
+            "차량 탑승 및 조종",
+            "복잡한 무기 커스터마이징",
+            "48인 멀티플레이어 환경"
+          ],
+          "risks": [
+            "네트워크 지연(Lag) 문제",
+            "게임 밸런스 붕괴",
+            "콘텐츠 부족으로 인한 조기 이탈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "미니 탈출 시뮬레이터",
+            "concept": "제한된 공간에서 제한 시간 내에 특정 물건을 찾아 탈출하는 1인칭 게임. 적은 수의 AI를 배치하여 긴장감을 조성합니다.",
+            "first_step": "캐릭터 이동과 아이템 획득/탈출 로직 구현."
+          },
+          {
+            "title": "전술 장비 퍼즐",
+            "concept": "전술 아이템의 조합을 통해 복잡한 지형을 돌파하는 퍼즐 게임. 슈팅보다는 전략적 도구 활용에 집중합니다.",
+            "first_step": "아이템 사용에 따른 환경 변화 프로토타입 제작."
+          }
+        ],
+        "recommendation_ko": "멀티플레이어 슈팅 게임의 네트워크 구조와 아이템 시스템을 연구하기에 좋습니다. 다만, 1인 개발자에게는 규모가 너무 크므로 핵심 메커니즘만 분리하여 학습하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 결제 시스템, 서버 인프라, 구체적인 네트워크 기술 스택에 대한 정보가 없습니다. 실제 게임의 물리 엔진이나 AI 알고리즘은 확인되지 않았습니다.",
+        "name": "Delta Force",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/delta-force/id6451399876?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 174,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "google:com.gl.candycannon": {
+      "app_key": "google:com.gl.candycannon",
+      "name": "Candy Cannon Sort",
+      "developer": "Loyalty Gaming",
+      "source": "google",
+      "country": "US",
+      "category": "game_arcade",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.gl.candycannon&hl=en&gl=US",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:37:00+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Aim. Fling. Watch the tubes ERUPT! Candy Cannon Sort mixes ball sort with a bubble shooter. Instead of moving balls from tube to tube, you fire glossy candy balls from a cannon straight into glass tubes. Fill a tube with 4 balls of one color and it erupts in a geyser of rainbow confetti and clears. HOW TO PLAY • Drag back and let go (or just tap a tube) to fling the loaded candy. • Watch the chute: you can see the next balls coming, so plan ahead. • 4 of one color in a tube = SWEET! The tube erupts and empties. • Every eruption shakes the wrong balls off the neighboring tubes. They fly home into a matching tube or back into your cannon. • Clear every color to win. Run out of room and the level is over. WHY YOU'LL KEEP PLAYING • Chain reactions: one good shot can set off SWEET, GREAT, AMAZING and SUGAR RUSH combos in a row, each one louder and bigger than the last. • Big payoffs: rainbow confetti, candy rain and a LEVEL CLEAR party on every win. • Quick levels: most take under a minute, and the next one starts right away. • Over 1000 levels across five candy worlds: Lollipop Lane, Gumdrop Grove, Caramel Canyon, Bubblegum Bay and Minty Peaks. • New twists keep coming: purple \"?\" Mystery Candy that only shows its color when it reaches the top, rainbow Jawbreakers, Tricky levels and Sweet Shot bonus levels that pay triple coins. • Handy boosters: Undo, Hammer and Shuffle help you out of a tight spot. • Juicy toy look: bright rainbow candy, shiny glass tubes and playful sounds. GOOD TO KNOW • Free to play. The game shows ads, and some rewards are unlocked by watching an optional ad. • No in-app purchases. • Play offline, no Wi-Fi needed for the puzzles. • One finger is all you need. Load the cannon, sort the candy and chase your sweetest chain in Candy Cannon Sort!",
+      "analysis": {
+        "app_key": "google:com.gl.candycannon",
+        "summary_ko": "캔디 대포를 쏘아 유리관에 같은 색깔의 캔디를 채워 터뜨리는 퍼즐 게임입니다. 4개의 같은 색 캔디를 모으면 터지며 주변 캔디에 영향을 주는 연쇄 반응이 특징입니다. 1000개 이상의 레벨과 다양한 특수 캔디가 포함되어 있습니다.",
+        "features_ko": [
+          "대포를 조준하고 발사하여 유리관에 캔디를 채우는 방식을 사용합니다.",
+          "한 유리관에 같은 색 캔디 4개를 채우면 터지며 주변에 영향을 줍니다.",
+          "연쇄 반응을 통해 콤보를 쌓아 높은 점수를 얻을 수 있습니다.",
+          "다음 발사할 캔디를 미리 확인하여 전략적으로 배치할 수 있습니다.",
+          "특수 캔디와 부스터 아이템을 사용하여 어려운 레벨을 돌파할 수 있습니다."
+        ],
+        "noteworthy_ko": "볼 소트(Ball Sort) 퍼즐과 버블 슈터의 메커니즘을 결합한 점이 독창적입니다. 연쇄 반응을 통해 시각적 쾌감을 극대화한 점이 사용자 유지율을 높이는 핵심 요소로 보입니다.",
+        "development_ko": "물리 엔진을 활용한 캔디의 이동과 충돌 처리가 중요합니다. 레벨 디자인이 게임의 핵심이므로 1000개 이상의 레벨을 효율적으로 생성할 수 있는 에디터 도구가 필요합니다. 연쇄 반응의 연출과 사운드 효과가 사용자 경험에 큰 영향을 미칩니다.",
+        "idea_ko": "물리 기반의 캔디 발사 퍼즐.",
+        "highlights_ko": [
+          "연쇄 반응을 통한 시각적 쾌감과 콤보 시스템.",
+          "1000개 이상의 방대한 레벨 구성."
+        ],
+        "systems_ko": [
+          "물리 기반 발사 및 충돌 처리",
+          "캔디 색상 및 유리관 상태 관리",
+          "연쇄 반응 및 콤보 계산 로직",
+          "레벨 데이터 관리 및 생성 시스템",
+          "부스터 아이템 로직"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진을 활용한 퍼즐 로직은 구현이 가능하지만, 레벨 디자인의 난이도 조절과 연쇄 반응의 버그 방지가 중요합니다. 1인 개발자가 핵심 메커니즘을 구현하기에 적절한 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캔디 발사 및 유리관 적재 로직",
+            "색상 일치 판정 및 제거 시스템",
+            "기본 레벨 10개"
+          ],
+          "defer": [
+            "1000개 레벨 전체",
+            "다양한 특수 캔디",
+            "부스터 아이템"
+          ],
+          "risks": [
+            "물리 엔진의 불안정성으로 인한 캔디 겹침 현상",
+            "레벨 디자인의 반복성으로 인한 재미 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중력 조절 캔디 퍼즐",
+            "concept": "유리관의 중력을 조절하여 캔디의 위치를 바꾸는 퍼즐입니다. 캔디를 쏘는 대신 중력을 활용해 정렬합니다.",
+            "first_step": "중력 방향에 따라 캔디가 이동하는 물리 로직 구현."
+          },
+          {
+            "title": "캔디 색상 혼합 퍼즐",
+            "concept": "두 가지 색상의 캔디를 섞어 새로운 색을 만드는 퍼즐입니다. 특정 색을 만들어 유리관을 채워야 합니다.",
+            "first_step": "캔디 충돌 시 색상이 변하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "물리 엔진을 활용한 퍼즐 게임 개발을 배우기에 좋습니다. 특히 연쇄 반응을 통한 시각적 피드백 구현은 게임의 재미를 높이는 중요한 학습 포인트입니다.",
+        "source_limitations_ko": "소개문에는 광고 수익 모델의 구체적인 연동 방식이나 오프라인 모드에서의 데이터 저장 방식이 명시되어 있지 않습니다. 또한 물리 엔진의 종류나 레벨 생성 알고리즘은 확인되지 않습니다.",
+        "name": "Candy Cannon Sort",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.gl.candycannon&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
     }
   }
 }

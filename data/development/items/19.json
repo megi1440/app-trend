@@ -18252,6 +18252,95 @@
         ],
         "thoughtsTokenCount": 3650,
         "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.underdogsports.fantasy",
+        "product_kind": "game",
+        "selected_concept_title_ko": "콜로세움 매니저: 투기장 예측 (Colosseum Pick'em)",
+        "project_goal_and_audience_ko": "스포츠 지식이 없거나 외부 API/현금 결제 규제 없이 순수한 판타지 예측 및 구단 경영의 재미를 즐기고 싶은 모바일 게이머를 대상으로 합니다. 매주 중세 판타지 투기장에 출전하는 검투사와 마법사들의 스탯과 컨디션을 분석해 최적의 로스터를 짜고 보상을 모으는 싱글 플레이어 중심의 시뮬레이션 게임입니다.",
+        "source_relation_and_difference_ko": "Underdog 원본의 '다수의 선수 중 성적이 높을/낮을 이를 선택하는 Pick'em 시스템'과 직관적인 선택 인터페이스, 그리고 '시즌 단위의 드래프트 및 조합 재미'라는 핵심 경험은 그대로 계승했습니다. 차별점으로는 실제 외부 스포츠 데이터 API와 현금 결제 시스템을 완전히 배제하고, 게임 내부의 판타지 시뮬레이션 엔진을 도입해 1인 개발자가 외부 리스크 없이 완벽히 통제할 수 있도록 구조를 변경했습니다.",
+        "core_user_experience_ko": "사용자는 게임에 접속하여 매주 갱신되는 투기장 대진표와 투기사들의 스탯(근력, 마력, 회복력 등) 및 컨디션 지표를 확인합니다. 각 대진에서 두 투기사의 예상 성적(예: 킬 수, 방어 성공 횟수)을 비교하여 '더 높을 것(Higher)' 혹은 '더 낮을 것(Lower)'을 스와이프나 터치로 선택하여 2~8인의 Pick'em 로스터를 구성합니다. 주말 시뮬레이션 결과가 실행되면 투기사의 활약상에 따라 포인트를 획득하고, 이를 통해 구단을 확장하거나 새로운 투기사를 영입합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "판타지 투기사 주간 스탯 및 경기 시뮬레이션 엔진",
+            "user_action_and_behavior_ko": "주간 갱신 시점에 내부 알고리즘이 각 투기사의 고유 능력치, 컨디션 난수, 상성 가중치를 계산해 경기 결과 스탯을 생성합니다. 유저는 텍스트 및 로그로 경기 과정을 열람하며 몰입감을 느낍니다.",
+            "practical_implementation_ko": "Kotlin/Swift 기반의 로컬 랜덤 로직 및 가중치 계산 함수 작성. 서버 통신 없이 클라이언트 내 JSON 구조체와 로컬 알고리즘으로 처리하여 구현 복잡도 최소화."
+          },
+          {
+            "feature_ko": "2~8인 Pick'em 및 스와이프/토글 인터페이스",
+            "user_action_and_behavior_ko": "투기사 목록에서 카드 형태의 UI를 통해 'Higher/Lower'를 직관적으로 선택합니다. 2~8인의 선택이 완료되면 '로스터 제출' 버튼이 활성화됩니다.",
+            "practical_implementation_ko": "RecyclerView 또는 Jetpack Compose의 LazyColumn을 활용하여 리스트 UI 구현. 카드 컴포넌트에 제스처 리스너 또는 명확한 토글 버튼 부착."
+          },
+          {
+            "feature_ko": "구단 경영 및 자원 관리 시스템",
+            "user_action_and_behavior_ko": "예측 적중 결과에 따라 골드와 명성치를 획득하고, 이를 사용해 구단 시설을 업그레이드하거나 새로운 투기사를 영입하여 다음 시즌에 대비합니다.",
+            "practical_implementation_ko": "로컬 SQLite/Room(Android) 또는 CoreData(iOS)를 활용하여 구단 자원, 투기사 인벤토리, 시즌 주차 정보를 영구 저장."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 홈 대시보드",
+            "contents_and_actions_ko": "현재 시즌 주차(Week), 구단 보유 골드 및 명성치, 이번 주 Pick'em 진행 상태와 마감 타이머 표시. 경기 결과 확인 및 다음 주차 진행으로 이동."
+          },
+          {
+            "screen_ko": "Pick'em 로스터 구성 화면",
+            "contents_and_actions_ko": "이번 주 출전하는 투기사들의 목록, 스탯 비교, 컨디션 아이콘 표시. 유저가 각 투기사의 예상 성적에 대해 'Higher' 또는 'Lower'를 터치/스마트 선택하여 2~8인 로스터 완성 후 제출."
+          },
+          {
+            "screen_ko": "주말 경기 시뮬레이션 뷰어",
+            "contents_and_actions_ko": "제출된 Pick'em 결과에 맞춰 투기장 경기 진행 상황을 텍스트 로그와 간이 애니메이션으로 재생. 적중 여부 확인 및 보상 정산 화면으로 전환."
+          },
+          {
+            "screen_ko": "구단 관리 및 영입 화면",
+            "contents_and_actions_ko": "보유한 투기사들의 상태 확인 및 새로운 투기사 영입(가챠 또는 상점 구매), 구단 시설 강화."
+          }
+        ],
+        "implementation_approach_ko": "Android 네이티브 환경에서 Kotlin과 Jetpack Compose를 활용합니다. UI 생산성이 높고 선언형 UI로 상태 관리가 용이합니다. 외부 서버 통신이 전혀 필요 없는 'Local-First' 아키텍처로 설계하여, 네트워크 오류나 서버 비용 부담 없이 1인이 오프라인 환경에서도 완벽히 테스트하고 빌드할 수 있습니다.",
+        "data_and_storage_ko": [
+          "GladiatorEntity: id, name, class, stats(strength, magic, stamina), current_condition. 로컬 DB에 저장되며 매주 시뮬레이션에 따라 stats 일부 변동.",
+          "PickemEntryEntity: user_id, week_number, selected_gladiators_json, prediction_results, earned_rewards. 유저가 제출한 예측 조합 저장.",
+          "PlayerStashEntity: 구단 자원(골드, 명성치), 현재 시즌 진행 주차(week) 관리. 앱 실행 시 로컬 저장소(Room/SharedPreferences)에서 로드."
+        ],
+        "mvp_scope_ko": "외부 서버 및 멀티플레이 기능은 전면 제외합니다. 단일 플레이어 구단에서 매주 주어지는 대진 중 2~8명을 골라 Pick'em을 제출하고, 내부 시뮬레이션을 통해 결과를 받아 구단 자원을 모으는 최소 코어 루프(Core Loop)만 구현합니다. 복잡한 드래프트 모드나 장비 시스템은 MVP 이후로 연기하여 개발 리스크를 최소화합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 데이터 모델 및 로컬 DB 구축",
+            "deliverable_and_check_ko": "투기사 스탯 구조 정의 및 Room DB 연동 확인. 앱 구동 시 기본 투기사 데이터가 로컬에 정상 적재되는지 로컬 로그로 확인."
+          },
+          {
+            "stage_ko": "2단계: 시뮬레이션 엔진 구현",
+            "deliverable_and_check_ko": "투기사 능력치와 컨디션 난수를 기반으로 주간 경기 스탯을 산출하는 로직 작성. 유닛 테스트를 통해 결과값이 정상적으로 생성되는지 검증."
+          },
+          {
+            "stage_ko": "3단계: Pick'em 선택 및 입력 UI 구현",
+            "deliverable_and_check_ko": "Jetpack Compose를 이용해 투기사 카드 리스트와 Higher/Lower 선택 인터페이스 구현. 2~8인 선택 조건 충족 시 제출 버튼 활성화 동작 확인."
+          },
+          {
+            "stage_ko": "4단계: 메인 홈, 결과 정산 및 구단 자원 연동",
+            "deliverable_and_check_ko": "주말 경기 시뮬레이션 실행 뷰어, 보상 정산 및 구단 골드 증가 로직 연결. 전체 게임 루프가 끊김 없이 작동하는지 확인."
+          }
+        ],
+        "possible_extensions_ko": "시즌 전체를 아우르는 Best Ball 드래프트 모드 추가, 투기사 장비 장착 및 특성 트리 시스템, 다양한 투기장 환경(사막, 설원 등)에 따른 상성 시스템 도입, 로컬 리더보드 구현.",
+        "risks_and_open_decisions_ko": [
+          "위험: 내부 시뮬레이션의 가중치가 너무 단순하여 유저가 쉽게 필승법을 찾거나 게임이 단조로워질 수 있음. 해결: 난수 범위에 컨디션 변수와 돌발 이벤트를 랜덤하게 부여하여 예측의 불확실성 확보.",
+          "기정 과제: 텍스트 위주의 경기 시뮬레이션이 유저에게 충분한 몰입감을 주는지 여부, 향후 간단한 2D 픽셀 애니메이션이나 효과음 추가 검토."
+        ],
+        "draft_status_ko": "본 문서는 '콜로세움 매니저: 투기장 예측'의 1인 모바일 개발을 위한 기획 및 기술 설계 초안입니다. 실제 구현, 플레이테스트 및 밸런스 검증은 완료되지 않았으며, 프로토타입 제작 과정에서 조정될 수 있습니다."
+      },
+      "plan_at": "2026-11-14T06:41:36+09:00",
+      "plan_quota_day": "2026-11-14",
+      "plan_usage": {
+        "promptTokenCount": 2797,
+        "candidatesTokenCount": 2195,
+        "totalTokenCount": 7147,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2797
+          }
+        ],
+        "thoughtsTokenCount": 2155,
+        "serviceTier": "standard"
       }
     },
     "apple:6809392871": {
@@ -18613,6 +18702,189 @@
           }
         ],
         "thoughtsTokenCount": 1759,
+        "serviceTier": "standard"
+      }
+    },
+    "google:com.whfplus.location.ker": {
+      "app_key": "google:com.whfplus.location.ker",
+      "name": "GPS Location Tracker Plus",
+      "developer": "Anuoluwapo Product Limited",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.whfplus.location.ker&hl=ja&gl=JP",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.whfplus.location.ker",
+        "product_kind": "app",
+        "original_experience_ko": "GPS Location Tracker Plus는 사용자의 현재 위치를 실시간으로 확인하고, 가족 및 지인 간에 위치를 공유하며, 과거 이동 궤적을 기록하고 특정 구역 출입 시 알림(지오펜싱)을 받을 수 있는 위치 기반 모니터링 도구입니다. 공개된 스토어 정보와 AI 해석을 통해 확인된 사실은 실시간 위치 지도 표시, 상호 동의 기반 위치 공유, 이동 이력 저장, 지오펜싱 알림 기능이 존재한다는 점이며, 구체적인 서버 아키텍처, 암호화 방식, 배터리 최적화 알고리즘 등은 명시되지 않은 한계가 있습니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 확인 사실: 실시간 현재 위치 표시, 상호 동의 기반 가족 위치 공유, 과거 위치 이력 기록, 지오펜싱(영역 출입 알림), 주변 시설 검색 기능을 제공한다.",
+          "스토어 확인 사실: 프라이버시 보호를 위해 상호 명시적 동의가 있을 때만 위치를 공유한다고 명시되어 있다.",
+          "미확인 사항 및 한계: 백그라운드 상태에서의 정확한 위치 수집 주기, 배터리 소모 관리 전략, 데이터 암호화 및 서버 인프라의 구체적 구현 방식은 스토어 설명에 나타나지 않는다."
+        ],
+        "valuable_elements_ko": [
+          "실시간 위치 동기화 및 지도 시각화: 현재 위치를 직관적으로 파악할 수 있는 지도 인터페이스와 상태 표시 기능은 위치 기반 앱의 핵심 가치입니다.",
+          "지오펜싱(영역 출입 알림) 규칙: 특정 공간의 진입과 이탈을 감지하여 알림을 트리거하는 로직은 안전 관리와 자동화에 매우 유용합니다.",
+          "이동 경로 이력 아카이빙: 과거 방문 장소와 이동 궤적을 데이터베이스로 남기는 기능은 사용자에게 유용한 기록 정보를 제공합니다."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "펫파스 가디언 (PetPath Guardian)",
+            "core_idea_ko": "인간 중심의 상호 위치 공유에서 벗어나, 반려동물의 실시간 위치 추적, 전용 산책 안심 구역(지오펜싱) 이탈 경보, 산책 궤적 및 활동량 기록을 제공하는 반려동물 전용 위치 안심 도구입니다.",
+            "what_to_keep_ko": "실시간 지도 기반 위치 표시, 과거 이동 경로(산책 궤적) 저장, 지정 구역 이탈 시 푸시 알림(지오펜싱) 핵심 기능을 그대로 계승하여 안전 모니터링 목적에 활용합니다.",
+            "what_to_change_ko": "상호 프라이버시 동의 기반의 다중 사용자 메신저 구조 대신, 1인 사용자와 반려동물 웨어러블/스마트 태그 간의 연동 구조로 전환하고 산책 거리·시간 측정 기능을 추가합니다.",
+            "mobile_use_or_play_ko": "사용자가 반려견에게 위치 태그를 부착하고 산책을 시작하면, 앱이 백그라운드에서 실시간 이동 경로를 그리며, 설정된 산책 울타리를 벗어날 경우 즉시 경보 푸시 알림을 발생시킵니다.",
+            "key_features_ko": [
+              "반려동물 전용 가상 안심 울타리(지오펜싱) 이탈 실시간 경보",
+              "산책 경로 궤적 히트맵 및 일일 운동량 통계 아카이빙",
+              "정지 상태 감지를 통한 배터리 절전형 스마트 폴링 로직"
+            ],
+            "solo_mvp_and_effort_ko": "Google Maps SDK와 백그라운드 위치 플러그인을 활용해 로컬 DB(Room)에 좌표를 기록하고 단일 기기 연동을 테스트하는 MVP 구현. 난이도는 중급이며 안드로이드 배터리 최적화 예외 처리 구현에 공수가 소요됨.",
+            "strengths_limits_ko": "반려인이라는 명확한 타겟층과 실용적 가치를 가지나, 실제 하드웨어 태그(BLE/GPS) 연동이나 실내 위치 오차 문제를 해결해야 하는 과제가 있습니다."
+          },
+          {
+            "title_ko": "미트패스 노드 (MeetPath Node)",
+            "core_idea_ko": "등산, 야외 축제, 단체 여행 등에서 일행이 실시간으로 서로의 위치와 이동 경로를 공유하고, 지정된 집결 구역을 이탈하거나 낙오될 경우 경고를 주는 임시 그룹 위치 공유 도구입니다.",
+            "what_to_keep_ko": "지도 위 다중 사용자 실시간 위치 표시, 과거 경로 추적, 특정 구역 출입 알림(지오펜싱) 기능을 유지하여 야외 활동 중 안전과 길찾기를 지원합니다.",
+            "what_to_change_ko": "상시 가족 모니터링 구조에서 QR코드 기반의 일회성 임시 세션 생성, 모임 종료 후 데이터 자동 파기, 일행 간 거리 측정 및 미팅 포인트 네비게이션 기능으로 전환합니다.",
+            "mobile_use_or_play_ko": "방장이 QR코드로 임시 모임을 개설하고 일행이 접속하면, 지도상에서 서로의 거리를 확인하고, 지정된 축제 구역이나 등산 코스를 벗어날 경우 경고 알림을 받습니다.",
+            "key_features_ko": [
+              "QR코드 기반의 회원가입 없는 일회성 임시 위치 공유 세션",
+              "단체 야외 활동 중 낙오 방지를 위한 구역 이탈 실시간 경보",
+              "일행 간 상대 거리 측정 및 지정 미팅 포인트 길찾기"
+            ],
+            "solo_mvp_and_effort_ko": "Firebase Realtime Database나 가벼운 소켓 서버를 활용해 다중 사용자 좌표를 실시간 동기화하고 클라이언트 측 기하학적 거리 계산으로 지오펜싱을 구현. 1인 개발 가능하나 네트워크 끊김 예외 처리가 필요함.",
+            "strengths_limits_ko": "상시 가족 추적 앱의 프라이버시 부담을 해소하고 단기 이벤트 수요를 공략할 수 있으나, 단기 서버 세션 관리와 네트워크 불안정 대응이 주요 과제입니다."
+          },
+          {
+            "title_ko": "지오로그 트레일 (GeoLog Trail)",
+            "core_idea_ko": "타인과의 위치 공유 기능을 완전히 배제하고, 사용자가 일상과 여행에서 이동한 경로와 방문한 장소를 백그라운드에서 자동으로 기록하여 지도 기반의 프라이버시 보호형 개인 다이어리로 만드는 앱입니다.",
+            "what_to_keep_ko": "과거 이동 경로 기록, 위치 이력 데이터베이스 관리, 방문 위치 기반의 장소 정보 저장 기능을 계승하여 개인 아카이빙 도구로 발전시킵니다.",
+            "what_to_change_ko": "타인과의 '공유' 및 실시간 네트워크 동기화 구조를 제거하고, 오프라인 로컬 DB 중심의 온디바이스 장소 체류(Dwell time) 자동 감지 및 개인 기억 아카이빙 시스템으로 전환합니다.",
+            "mobile_use_or_play_ko": "사용자가 평소처럼 스마트폰을 소지하고 이동하면, 앱이 특정 장소의 체류를 감지해 방문 기록을 자동 생성하고, 사용자가 사진과 메모를 더해 나만의 발자취 타임라인을 완성합니다.",
+            "key_features_ko": [
+              "백그라운드 위치 기반 방문 장소 자동 감지 및 체류 시간 분석",
+              "지도 위에 시각화되는 개인 일일 이동 궤적 타임라인",
+              "외부 서버 전송 없는 온디바이스 로컬 DB 중심 프라이버시 보호"
+            ],
+            "solo_mvp_and_effort_ko": "Flutter 또는 Native Android에서 Background Location API와 Room DB를 연동해 로컬에만 좌표와 체류 시간을 기록하는 1인 MVP 구현. 서버 비용이 들지 않아 개발 부담이 가장 낮음.",
+            "strengths_limits_ko": "서버 구축이 필요 없고 프라이버시 이슈를 원천 차단할 수 있는 강점이 있으나, 상시 백그라운드 수집 시 안드로이드 OS의 배터리 절전 모드(Doze mode)로 인한 기록 누락 문제를 해결해야 합니다."
+          }
+        ],
+        "concept_comparison_ko": "제안된 세 아이디어는 원본의 핵심인 '위치 추적, 이력 기록, 지오펜싱(구역 알림)'을 각각 반려동물 안전(펫파스 가디언), 단기 야외 단체 활동(미트패스 노드), 개인 일상 아카이빙(지오로그 트레일)으로 발전시켰습니다. 펫 가디언은 명확한 타겟 니즈가 있으나 하드웨어 연동이 필요하고, 미트패스 노드는 실시간 서버 동기화가 필수적입니다. 반면 지오로그 트레일은 타인 공유와 서버 인프라 부담을 없애고 온디바이스 기록에 집중하여 1인 개발 실현 가능성과 프라이버시 측면에서 가장 유리합니다.",
+        "recommended_concept_number": 3,
+        "why_recommended_ko": "'지오로그 트레일'은 원본의 핵심 기능인 위치 이력 기록과 지오펜싱/장소 인식을 타인 공유가 아닌 철저한 개인 다이어리 용도로 전환하여, 복잡한 서버 인프라나 법적 프라이버시 규제(상호 동의 관리 등)의 부담을 대폭 낮추었습니다. 모바일 환경에서 백그라운드 위치 수집과 로컬 DB 조합만으로 완성도 높은 MVP를 구현할 수 있어 1인 개발에 가장 적합합니다. 다만 안드로이드 OS의 공격적인 백그라운드 프로세스 제한 속에서 위치 수집 안정성을 확보하는 과제가 남아 있습니다.",
+        "next_questions_ko": [
+          "안드로이드 백그라운드 위치 수집 시, OS의 배터리 최적화(Doze Mode) 환경에서 위치 유실을 최소화하기 위한 최소 폴링 주기와 Foreground Service 구현 전략은 무엇인가?",
+          "외부 서버 없이 온디바이스 로컬 DB(Room 또는 SQLite)만으로 수개월치의 위치 이력을 저장할 때 발생하는 데이터 용량과 성능 저하를 어떻게 방지할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-14T08:12:16+09:00",
+      "brief_quota_day": "2026-11-14",
+      "brief_usage": {
+        "promptTokenCount": 1473,
+        "candidatesTokenCount": 2450,
+        "totalTokenCount": 7025,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1473
+          }
+        ],
+        "thoughtsTokenCount": 3102,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.whfplus.location.ker",
+        "product_kind": "app",
+        "selected_concept_title_ko": "지오로그 트레일 (GeoLog Trail)",
+        "project_goal_and_audience_ko": "타인에게 위치를 공유하는 프라이버시 부담 없이, 사용자가 일상과 여행에서 이동한 경로와 방문한 장소를 백그라운드에서 자동으로 기록하여 지도 기반의 감성적인 개인 다이어리로 완성하고자 하는 스마트폰 사용자 대상의 프라이버시 중심 로깅 앱.",
+        "source_relation_and_difference_ko": "원본 앱의 핵심 기능인 '위치 추적, 이동 궤적 기록, 장소 감지'를 계승하되, 원본의 핵심인 '타인과의 실시간 위치 공유' 및 '외부 서버 연동 지오펜싱'은 완전히 배제함. 대신 온디바이스 로컬 데이터베이스 중심의 프라이버시 보호, 체류 시간 자동 감지, 사진 및 메모 결합형 개인 다이어리 아카이빙 시스템으로 차별화함.",
+        "core_user_experience_ko": "사용자가 평소처럼 스마트폰을 소지하고 이동하면, 앱이 백그라운드에서 위치를 수집하고 일정 시간 이상 머문 장소를 '방문지'로 자동 클러스터링함. 사용자는 지도와 타임라인을 통해 그날의 이동 경로를 직관적으로 확인하고, 특정 방문지에 사진이나 메모를 덧붙여 나만의 발자취 기록을 완성함.",
+        "features_ko": [
+          {
+            "feature_ko": "백그라운드 위치 자동 로깅 및 체류 시간 감지",
+            "user_action_and_behavior_ko": "앱을 실행해 두지 않아도 사용자의 이동을 추적하여 주기적으로 좌표를 수집하고, 특정 반경 내에 일정 시간(예: 15분 이상) 머무를 경우 이를 '방문 장소'로 자동 인식하여 기록함. 사용자에게 별도의 수동 입력 부담을 주지 않고 자연스러운 일상 기록 가치를 제공.",
+            "practical_implementation_ko": "Android Foreground Service와 Fused Location Provider API를 활용하여 OS의 백그라운드 제한 속에서도 안정적으로 위치를 수집하고, 수집된 좌표를 로컬 알고리즘으로 판정."
+          },
+          {
+            "feature_ko": "온디바이스 지도 타임라인 시각화",
+            "user_action_and_behavior_ko": "수집된 이동 궤적과 방문 장소를 날짜별로 정리하여 지도 위에 Polyline 및 마커 형태로 시각화함. 사용자는 타임라인 리스트를 스크롤하며 특정 날짜의 동선을 되짚어 볼 수 있음.",
+            "practical_implementation_ko": "OpenStreetMap(osmdroid) 또는 Google Maps SDK를 활용하여 로컬 DB의 좌표 데이터를 지도 위에 렌더링하고 일자별 필터링 쿼리 적용."
+          },
+          {
+            "feature_ko": "방문지 다이어리 및 미디어 아카이빙",
+            "user_action_and_behavior_ko": "자동 감지된 방문 장소에 사용자가 직접 텍스트 메모나 현장 사진을 추가할 수 있으며, 이를 통해 단순한 위치 로그를 넘어선 개인 공간 기록물로 발전시킴.",
+            "practical_implementation_ko": "로컬 파일 스토리지에 사진을 저장하고, Room DB의 방문지 레코드와 파일 경로(URI)를 1대다 관계로 매핑하여 관리."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 지도 및 금일 타임라인 화면",
+            "contents_and_actions_ko": "현재 지도 위에 오늘 이동한 궤적과 방문지 마커 표시. 하단 시트를 위로 올리면 시간순 방문 리스트(타임라인)가 나타나며, 마커나 리스트 항목 터치 시 상세 정보로 이동."
+          },
+          {
+            "screen_ko": "방문지 상세 및 편집 화면",
+            "contents_and_actions_ko": "선택한 장소의 체류 시간, 주소, 방문 기록 조회. 사용자가 메모를 입력하거나 기기 갤러리에서 사진을 첨부·저장할 수 있는 편집 폼 제공."
+          },
+          {
+            "screen_ko": "과거 기록 캘린더/아카이브 화면",
+            "contents_and_actions_ko": "달력 뷰를 통해 과거 날짜별 방문 기록 유무를 확인하고, 특정 날짜 선택 시 해당일의 이동 경로 요약 화면으로 진입."
+          },
+          {
+            "screen_ko": "설정 및 프라이버시 관리 화면",
+            "contents_and_actions_ko": "위치 수집 권한 상태 확인, 배터리 최적화 예외 설정 안내, 로컬 데이터 백업(JSON 내보내기) 및 전체 데이터 초기화 기능 제공."
+          }
+        ],
+        "implementation_approach_ko": "Flutter 프레임워크를 활용해 크로스플랫폼으로 개발하거나 Native Android(Kotlin) 단독으로 개발. 백그라운드 위치 수집의 안정성을 최우선으로 고려할 때 Native Android 또는 위치 수집 전용 백그라운드 플러그인이 포함된 Flutter 구조가 적합함. 데이터 저장은 외부 서버 없이 기기 내부의 Room DB(SQLite)를 사용하여 프라이버시를 완벽히 보장함. 대안으로는 완전한 오프라인 웹앱(PWA) 형태를 고려할 수 있으나 모바일 백그라운드 제약상 네이티브 앱 구조가 필수적임.",
+        "data_and_storage_ko": [
+          "LocationLog 객체: id (PK), latitude (Double), longitude (Double), timestamp (Long), accuracy (Float). 수집 주기에 따라 로컬 Room DB에 대량 적재.",
+          "VisitPlace 객체: id (PK), title (String), category (String), startTime (Long), endTime (Long), latitude (Double), longitude (Double), memo (String), photoPath (String). 체류 판정 시 생성 및 업데이트.",
+          "저장 및 관리 시점: 위치 수집 즉시 또는 메모리 버퍼링 후 배치(Batch) 방식으로 Room DB에 쓰기 작업 수행. 외부 서버 통신은 전무하며 사용자가 원할 때 로컬 DB를 JSON 파일로 백업/복원하는 기능 제공."
+        ],
+        "mvp_scope_ko": "첫 번째 프로토타입은 포그라운드/백그라운드 위치 수집, 로컬 Room DB 저장, 지도 위 이동 궤적(Polyline) 및 기본 마커 표시, 간단한 일별 타임라인 리스트업까지만 포함함. 사진 첨부나 복잡한 장소 카테고리 자동 분류, 클라우드 백업 등의 부가 기능은 제외하여 서버 비용과 개발 복잡도를 최소화하고 핵심 로깅 안정성을 빠르게 검증함.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 권한 및 백그라운드 위치 수집 구현",
+            "deliverable_and_check_ko": "위치 권한 요청 로직과 포그라운드 서비스(Foreground Service)를 구현하여, 앱이 백그라운드에 진입하거나 화면이 꺼진 상태에서도 주기적으로 위경도 좌표가 로그에 찍히는지 디버그 콘솔로 확인."
+          },
+          {
+            "stage_ko": "2단계: 로컬 DB 연동 및 클러스터링 로직",
+            "deliverable_and_check_ko": "수집된 좌표를 Room DB에 안전하게 저장하고, 일정 시간 반경 내에 머무를 때 '방문지' 데이터로 변환되는 판정 로직이 정상 작동하는지 유닛 테스트 및 로그로 검증."
+          },
+          {
+            "stage_ko": "3단계: 지도 UI 렌더링 및 타임라인 구현",
+            "deliverable_and_check_ko": "지도 SDK를 연동하여 DB에 쌓인 좌표를 Polyline으로 그리고, 방문지 마커와 하단 타임라인 리스트 UI를 연결하여 하루 동안의 동선이 화면에 올바르게 시각화되는지 확인."
+          },
+          {
+            "stage_ko": "4단계: 다이어리 메모 및 설정 화면 추가",
+            "deliverable_and_check_ko": "방문지에 사진과 메모를 추가하고 수정하는 기능, 로컬 JSON 백업 기능을 붙여 전체적인 사용자 흐름 완성."
+          }
+        ],
+        "possible_extensions_ko": "방문 장소의 카테고리 자동 태깅(예: 카페, 공원, 음식점), 월간 이동 거리 및 방문 횟수 통계 차트 제공, 기기 변경 시 백업을 위한 개인 구글 드라이브(Google Drive) 연동 암호화 백업 기능.",
+        "risks_and_open_decisions_ko": [
+          "안드로이드 OS의 강력한 배터리 절전 모드(Doze mode) 및 제조사별 백그라운드 킬러 정책으로 인한 위치 수집 누락 리스크 존재. (지속적인 포그라운드 알림 표시 및 배터리 최적화 예외 요청 유도로 완화 시험 필요)",
+          "상시 위치 수집으로 인한 배터리 소모량 증가 문제에 대해 수집 주기(예: 시간 간격 또는 이동 거리 간격)의 최적값 결정 필요.",
+          "프라이버시 보호를 위해 서버에 저장하지 않는 대신, 기기 분실 시 로컬 데이터 유출에 대비한 앱 잠금(생체 인증) 기능의 MVP 포함 여부 결정."
+        ],
+        "draft_status_ko": "본 문서는 실제 구현 및 장기 필드 테스트, 배터리 소모량 정밀 측정이 완료되지 않은 1인 모바일 개발 설계 초안입니다."
+      },
+      "plan_at": "2026-11-14T08:12:39+09:00",
+      "plan_quota_day": "2026-11-14",
+      "plan_usage": {
+        "promptTokenCount": 2270,
+        "candidatesTokenCount": 2267,
+        "totalTokenCount": 6153,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2270
+          }
+        ],
+        "thoughtsTokenCount": 1616,
         "serviceTier": "standard"
       }
     }

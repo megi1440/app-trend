@@ -12519,6 +12519,183 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-13"
+    },
+    "apple:1553722130": {
+      "app_key": "apple:1553722130",
+      "name": "おうちでフィットネスbyカーブス",
+      "developer": "株式会社カーブスジャパン",
+      "source": "apple",
+      "country": "JP",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%81%8A%E3%81%86%E3%81%A1%E3%81%A7%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%83%8D%E3%82%B9by%E3%82%AB%E3%83%BC%E3%83%96%E3%82%B9/id1553722130?uo=2",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:35:13+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "1日6分でがんこな脂肪がみるみる燃える! 50歳からのおうちフィットネス! 「満足度96%」「とにかく楽しい96%」「効果が出そう98%」 (2万人に調査) 理学療法士推薦!女性のことを知り尽くしたカーブスが提供します。",
+      "analysis": {
+        "app_key": "apple:1553722130",
+        "summary_ko": "50대 이상 여성을 대상으로 한 6분 분량의 홈 피트니스 앱입니다. 이학요법사의 추천을 받은 운동 프로그램을 제공하며, 집에서 간편하게 체지방 연소를 돕습니다. 높은 만족도와 재미를 강조하는 사용자 경험을 지향합니다.",
+        "features_ko": [
+          "하루 6분 투자로 수행 가능한 홈 피트니스 프로그램을 제공합니다.",
+          "이학요법사가 추천하는 운동 루틴을 포함합니다.",
+          "여성 사용자의 신체 특성을 고려한 운동 콘텐츠를 구성합니다."
+        ],
+        "noteworthy_ko": "특정 연령대와 성별을 타겟팅하여 짧은 시간 내에 효과를 내는 전략이 돋보입니다. 사용자층의 니즈를 정확히 파악하여 콘텐츠를 구성하는 방식은 피트니스 앱 개발의 좋은 사례입니다.",
+        "development_ko": "영상 콘텐츠의 안정적인 스트리밍과 사용자 운동 기록 관리 시스템이 필요합니다. 운동 루틴의 난이도 조절과 사용자 피드백을 반영한 콘텐츠 업데이트 체계가 중요합니다.",
+        "idea_ko": "사용자의 운동 데이터를 분석하여 매일 최적의 6분 루틴을 추천하는 알고리즘.",
+        "highlights_ko": [
+          "타겟층(50대 여성)에 최적화된 짧은 운동 시간.",
+          "전문가(이학요법사)의 검수를 통한 신뢰성 확보."
+        ],
+        "systems_ko": [
+          "영상 스트리밍 시스템",
+          "사용자 운동 기록 관리",
+          "운동 루틴 추천 알고리즘",
+          "사용자 프로필 및 건강 데이터 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "영상 콘텐츠 관리와 기본적인 사용자 데이터 저장 기능은 구현 난이도가 높지 않으나, 타겟층에 맞는 콘텐츠의 질을 유지하는 것이 중요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "운동 영상 재생 기능",
+            "일일 운동 체크리스트"
+          ],
+          "defer": [
+            "실시간 운동 분석",
+            "커뮤니티 기능"
+          ],
+          "risks": [
+            "콘텐츠 제작의 지속성",
+            "사용자 이탈률 관리"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "시니어 맞춤형 스트레칭 앱",
+            "concept": "관절 건강을 고려한 5분 스트레칭 루틴을 매일 제공하는 앱입니다.",
+            "first_step": "5분 분량의 스트레칭 영상 3개 제작 및 재생 기능 구현."
+          },
+          {
+            "title": "홈트 기록 챌린지",
+            "concept": "매일 운동을 완료하면 도장을 찍어주는 단순한 기록형 피트니스 앱입니다.",
+            "first_step": "운동 완료 버튼과 날짜별 기록 저장 기능 구현."
+          }
+        ],
+        "recommendation_ko": "특정 타겟을 위한 콘텐츠 기반 앱을 만들고 싶은 개발자에게 추천합니다. 영상 기반 서비스의 구조를 익히기에 적합합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 실제 앱 내의 구체적인 운동 프로그램 구성이나 데이터 분석 방식은 알 수 없습니다. 의료적 조언을 포함하는 경우 관련 법적 검토가 필요합니다.",
+        "name": "おうちでフィットネスbyカーブス",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%81%8A%E3%81%86%E3%81%A1%E3%81%A7%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%83%8D%E3%82%B9by%E3%82%AB%E3%83%BC%E3%83%96%E3%82%B9/id1553722130?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 228,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 4,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "google:com.vedasky.ai.astrology": {
+      "app_key": "google:com.vedasky.ai.astrology",
+      "name": "VedaSky: AI Astrology",
+      "developer": "LeafMotion Software",
+      "source": "google",
+      "country": "US",
+      "category": "app_lifestyle",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.vedasky.ai.astrology&hl=en&gl=US",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:37:00+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Meet VedaSky: AI Astrology, your personal space to explore daily horoscopes, Tarot readings, Vedic astrology and soulmate insights through an AI-guided experience. Discover new perspectives on love, relationships and everyday life. From understanding your birth chart to exploring where you might meet your future soulmate, VedaSky makes astrology more accessible and engaging. 🔮 CHAT WITH AN AI ASTROLOGER Have questions about love, career or your daily horoscope? Start a conversation with an AI astrologer and explore astrology-inspired insights in a simple, interactive format. Ask follow-up questions, reflect on personal experiences and discover different ways to interpret the cosmic themes presented in the app. 💖 DISCOVER YOUR SOULMATE LOCATION Wondering where your future soulmate could be? Explore an astrology-inspired Soulmate Location experience that suggests potential places or regions connected to your romantic journey. Discover location-based insights about where meaningful connections might begin, and explore new possibilities for meeting someone special. Soulmate Location provides imaginative, AI-generated interpretations rather than actual location tracking or guaranteed predictions. 🎴DRAW TAROT CARDS Choose Tarot cards and view their messages inside the app. Tarot reading is designed as an intuitive way to explore a question, mood or theme. 💬ASK AI ABOUT YOUR TAROT After drawing cards, continue the experience through astrology chat. Ask the AI astrologer about the Tarot message you received and explore a clearer interpretation of the selected cards. ✨EXPLORE YOUR VEDIC BIRTH CHART View your Vedic birth chart and explore the astrology information presented in the app. VedaSky brings Vedic astrology into a modern mobile experience that is easier for younger users to navigate. 💫TODAY’S HOROSCOPE IN A CHAT EXPERIENCE Instead of only reading static horoscope text, use AI chat to explore the daily astrology message available in the app and ask follow-up questions where supported. VedaSky is designed for astrology, Tarot and self-reflection. AI-generated astrology and Tarot content is interpretive and intended for informational and entertainment purposes. It should not be treated as guaranteed predictions or professional medical, legal or financial advice. 🔽Explore Tarot, ask the AI astrologer about today and discover your Vedic birth chart with VedaSky: AI Astrology.",
+      "analysis": {
+        "app_key": "google:com.vedasky.ai.astrology",
+        "summary_ko": "AI를 활용하여 점성술, 타로, 별자리 운세를 제공하는 라이프스타일 앱입니다. 사용자는 AI 점성술사와 대화하며 자신의 출생 차트를 분석하고 미래의 소울메이트 위치 등을 탐색할 수 있습니다. 개인적인 성찰과 엔터테인먼트 목적으로 설계되었습니다.",
+        "features_ko": [
+          "AI 점성술사와 대화하며 일일 운세와 점성술 정보를 얻을 수 있습니다.",
+          "타로 카드를 뽑고 그 의미를 AI를 통해 해석받을 수 있습니다.",
+          "베다 점성술에 기반한 개인 출생 차트를 확인할 수 있습니다.",
+          "소울메이트 위치 탐색 기능을 통해 점성술 기반의 장소 추천을 받을 수 있습니다.",
+          "질의응답 형식으로 점성술 테마에 대해 깊이 있는 대화가 가능합니다."
+        ],
+        "noteworthy_ko": "전통적인 점성술 콘텐츠를 AI 챗봇과 결합하여 상호작용성을 높인 점이 흥미롭습니다. 정적인 텍스트 제공에서 벗어나 사용자의 질문에 따라 해석이 달라지는 대화형 인터페이스가 사용자 경험의 핵심입니다.",
+        "development_ko": "LLM(거대언어모델) API 연동이 핵심이며, 점성술 데이터베이스를 프롬프트에 어떻게 주입하느냐가 중요합니다. 사용자 데이터(출생 정보)를 안전하게 관리하는 보안 시스템이 필요하며, AI 응답의 일관성을 유지하는 프롬프트 엔지니어링이 필수적입니다.",
+        "idea_ko": "AI 기반의 대화형 점성술 상담 서비스.",
+        "highlights_ko": [
+          "AI 점성술사와의 대화형 운세 상담.",
+          "베다 점성술 기반의 개인화된 출생 차트 분석."
+        ],
+        "systems_ko": [
+          "LLM API 연동 및 프롬프트 관리",
+          "사용자 프로필 및 출생 데이터 저장소",
+          "점성술 데이터베이스 및 해석 로직",
+          "대화 기록 관리 시스템",
+          "보안 및 개인정보 보호 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "AI API를 연동하는 것은 비교적 간단하지만, 점성술의 전문적인 데이터를 AI가 정확하게 해석하도록 프롬프트를 최적화하는 과정은 정교한 작업이 필요합니다. 보안과 개인정보 보호가 가장 큰 도전 과제입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "AI 챗봇 연동",
+            "사용자 출생 정보 입력 폼",
+            "기본 점성술 해석 프롬프트"
+          ],
+          "defer": [
+            "소울메이트 위치 탐색",
+            "타로 카드 시각화",
+            "고급 베다 차트 분석"
+          ],
+          "risks": [
+            "AI의 환각(Hallucination) 현상으로 인한 잘못된 정보 제공",
+            "사용자 개인정보 유출 위험"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "AI 꿈 해석가",
+            "concept": "사용자가 꾼 꿈을 입력하면 점성술과 심리학적 관점에서 해석해주는 AI 서비스입니다.",
+            "first_step": "꿈 내용을 입력받아 해석을 출력하는 간단한 챗봇 구현."
+          },
+          {
+            "title": "오늘의 운세 맞춤형 명상",
+            "concept": "일일 운세를 분석하여 그날의 기운에 맞는 명상 가이드를 AI가 생성해줍니다.",
+            "first_step": "운세 데이터를 기반으로 명상 텍스트를 생성하는 프롬프트 설계."
+          }
+        ],
+        "recommendation_ko": "최신 AI API를 활용한 서비스 개발을 경험하기에 좋습니다. 다만, 의료나 법률 등 민감한 분야로 확장되지 않도록 주의해야 하며, 사용자 데이터 보안을 최우선으로 고려해야 합니다.",
+        "source_limitations_ko": "소개문에는 사용되는 AI 모델의 종류나 데이터 처리 방식이 명시되어 있지 않습니다. 또한 점성술 해석의 정확도에 대한 근거가 없으며, 실제 의료나 금융 조언을 제공하지 않는다는 면책 조항의 법적 효력은 검증이 필요합니다.",
+        "name": "VedaSky: AI Astrology",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.vedasky.ai.astrology&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
     }
   }
 }

@@ -11810,6 +11810,95 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-13"
+    },
+    "itch:98a4143d00371b0559ef": {
+      "app_key": "itch:98a4143d00371b0559ef",
+      "name": "Gravity Speed [Free] [Platformer]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://bsdevelopmentent.itch.io/gravity-speed",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:33:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A one-touch gravity-flipping arcade runner with a worldwide leaderboard.",
+      "analysis": {
+        "app_key": "itch:98a4143d00371b0559ef",
+        "summary_ko": "Gravity Speed는 원터치 조작으로 중력을 반전시키며 달리는 아케이드 러너 게임입니다. 플레이어는 장애물을 피하며 최대한 멀리 나아가는 것을 목표로 합니다. 전 세계 리더보드를 통해 다른 플레이어와 기록을 경쟁할 수 있습니다.",
+        "features_ko": [
+          "화면을 터치하여 캐릭터의 중력 방향을 즉시 반전시킵니다.",
+          "끊임없이 전진하는 캐릭터를 조작하여 장애물을 회피합니다.",
+          "전 세계 플레이어와 기록을 비교할 수 있는 리더보드 시스템을 제공합니다."
+        ],
+        "noteworthy_ko": "원터치 메커니즘을 통해 단순하면서도 높은 몰입감을 주는 아케이드 게임의 전형을 보여줍니다. 중력 반전이라는 핵심 기믹이 레벨 디자인과 결합될 때 발생하는 난이도 곡선이 개발의 핵심일 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 중력 상태를 전환하는 물리 엔진 처리와 무한 맵 생성 알고리즘입니다. 콘텐츠 제작은 장애물 배치 패턴을 다양화하는 데 집중해야 하며, 리더보드 연동을 위한 서버 통신 구현이 필요합니다. 1인 개발 시 물리 판정의 정밀도가 게임의 재미를 결정짓는 중요한 요소가 됩니다.",
+        "idea_ko": "중력 반전 시 캐릭터의 속도가 일시적으로 변하는 '가속 구간'을 추가하여 리듬감을 높이는 아이디어를 추천합니다.",
+        "highlights_ko": [
+          "중력 반전이라는 직관적인 조작 체계가 게임의 핵심입니다.",
+          "전 세계 리더보드를 통해 경쟁 요소를 강화했습니다."
+        ],
+        "systems_ko": [
+          "입력 판정 시스템",
+          "중력 물리 엔진",
+          "무한 맵 생성기",
+          "리더보드 데이터 관리",
+          "UI 및 점수 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "핵심 메커니즘은 단순하지만, 중력 반전 시의 물리 판정과 장애물 배치의 밸런스를 맞추는 과정에서 세밀한 조정이 필요합니다. 리더보드 서버 연동을 제외하면 1인 개발로 충분히 구현 가능한 범위입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "중력 반전 캐릭터 컨트롤러",
+            "장애물 생성 및 충돌 판정",
+            "기본 점수 기록 시스템"
+          ],
+          "defer": [
+            "전 세계 리더보드",
+            "다양한 캐릭터 스킨"
+          ],
+          "risks": [
+            "중력 전환 시의 물리적 어색함",
+            "단조로운 게임 플레이의 반복성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중력 궤도 러너",
+            "concept": "직선이 아닌 원형 궤도를 따라 중력을 반전시키며 달리는 방식입니다. 안쪽과 바깥쪽 궤도를 오가며 장애물을 피해야 합니다.",
+            "first_step": "원형 경로를 따라 움직이는 캐릭터와 중력 반전 시 궤도 이동 구현."
+          },
+          {
+            "title": "색상 매칭 중력",
+            "concept": "중력 반전 시 캐릭터의 색상이 변하며, 같은 색상의 장애물만 통과할 수 있는 규칙을 추가합니다.",
+            "first_step": "캐릭터 색상 변경과 장애물 통과 판정 로직 작성."
+          }
+        ],
+        "recommendation_ko": "단순한 조작으로 재미를 극대화하는 아케이드 게임의 기본기를 배우기에 적합합니다. 물리 엔진의 기초와 리더보드 연동 경험을 쌓고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "리더보드 구현 방식(자체 서버 vs 외부 API), 중력 반전의 구체적인 물리적 제약 조건, 맵 생성 방식에 대한 정보가 부족하여 검증이 필요합니다.",
+        "name": "Gravity Speed [Free] [Platformer]",
+        "source": "itch",
+        "detail_url": "https://bsdevelopmentent.itch.io/gravity-speed",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 375,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
     }
   }
 }

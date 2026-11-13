@@ -17908,6 +17908,106 @@
         ],
         "thoughtsTokenCount": 2188,
         "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.uxlayer.wipoint",
+        "product_kind": "app",
+        "selected_concept_title_ko": "펫소소: 동네 펫숍 실시간 재고 기반 반려동물 소모품 O2O",
+        "project_goal_and_audience_ko": "반려동물을 키우는 1인 가구 및 바쁜 직장인 집사를 위한 하이퍼로컬 반려동물 소모품 O2O 앱입니다. 대형 온라인 쇼핑몰의 배송 지연이나 대량 구매 부담을 해소하고, 집 근처 동네 펫숍 및 무인 용품점의 실시간 재고를 확인해 즉시 픽업하거나 당일 수령할 수 있도록 하여 반려생활의 편의성을 높이고 동네 소상공인과의 상생을 돕는 것을 목표로 합니다.",
+        "source_relation_and_difference_ko": "원본(다이소몰)의 '초가성비 소모품 실시간 랭킹'과 '오프라인 매장 픽업 중심의 O2O 수령 모델'이라는 핵심 경험을 계승합니다. 차별점으로는 종합 생활용품 카테고리 대신 반려동물 소모품(배변패드, 간식 등)에 특화하고, 대형 물류센터가 아닌 동네 영세 펫숍들의 실시간 재고 연동 및 반려동물 소비 주기에 맞춘 맞춤형 자동 재구매(정기 구독) 모델을 결합했습니다.",
+        "core_user_experience_ko": "사용자는 앱 실행 후 실시간 랭킹이나 반려동물 맞춤 추천을 통해 필요한 소모품을 탐색합니다. 상품 상세 페이지에서 '내 위치 기준 1km 이내 매장의 실시간 잔여 재고'를 지도로 확인한 뒤, '매장 픽업'을 선택하여 간편 결제를 완료합니다. 시스템은 주문 즉시 해당 제휴 펫숍 사장님 앱으로 푸시 알림과 함께 재고를 자동 차감하며, 사용자는 매장에 방문하여 QR/바코드를 제시하고 상품을 즉시 수령합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "동네 상점별 실시간 반려동물 소모품 재고 연동 지도",
+            "user_action_and_behavior_ko": "위치 권한 동의 후, 지도 상에서 인근 제휴 펫숍 위치와 특정 상품의 실시간 재고 유무(예: '재고 3개 남음')를 시각적으로 확인하고 선택합니다. 사용자는 품절 허탕을 방지하고 빠르게 구매할 수 있습니다.",
+            "practical_implementation_ko": "Google Maps SDK 또는 Naver Maps SDK 활용. 백엔드(Node.js + PostgreSQL/PostGIS)에서 위치 기반(LBS) 반경 필터링 쿼리를 처리하며, 제휴 점주는 초간단 웹 대시보드에서 재고 수량을 실시간으로 조절합니다."
+          },
+          {
+            "feature_ko": "반려동물 맞춤형 소모품 소진 주기 예측 알림",
+            "user_action_and_behavior_ko": "등록된 반려동물 정보(종, 몸무게, 다견 여부)를 바탕으로 배변패드나 사료의 예상 소진 시점을 계산하여 푸시 알림으로 재구매 타이밍을 안내하고 원클릭 장바구니로 연결합니다.",
+            "practical_implementation_ko": "서버 기반 FCM(Firebase Cloud Messaging)을 활용하여 소비 주기가 도래한 시점에 알림을 예약 발송하고, 사용자 데이터 테이블의 소모품 주기 계산 로직과 연동합니다."
+          },
+          {
+            "feature_ko": "집사 커뮤니티 리뷰 기반 실사용 랭킹 시스템",
+            "user_action_and_behavior_ko": "실제 구매 인증을 거친 사용자들이 남긴 별점과 후기를 바탕으로 카테고리별 인기 상품 순위를 확인하여 실패 없는 쇼핑을 돕습니다.",
+            "practical_implementation_ko": "주문 완료 및 수령 확정 데이터와 연동된 리뷰 작성 테이블을 구현하고, 평점 평균 및 최근 구매 건수를 가중치로 한 정렬 쿼리를 적용합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "스플래시 및 온보딩/위치 설정 화면",
+            "contents_and_actions_ko": "앱 실행 시 로고 노출, 위치 권한 요청 및 대표 반려동물 프로필(종/이름) 간편 설정 후 홈 화면으로 진입합니다."
+          },
+          {
+            "screen_ko": "홈 및 실시간 랭킹 탭",
+            "contents_and_actions_ko": "맞춤형 소모품 추천 배너, 카테고리별 실시간 인기 랭킹 리스트 제공, 검색 바를 통한 상품 탐색 및 필터 조작이 가능합니다."
+          },
+          {
+            "screen_ko": "상품 상세 및 동네 매장 재고 확인 화면",
+            "contents_and_actions_ko": "상품 정보, 실사용 리뷰, '내 주변 픽업 가능한 매장 리스트 및 재고 수량'을 확인하고 픽업 버튼을 눌러 결제 화면으로 이동합니다."
+          },
+          {
+            "screen_ko": "주문/결제 및 수령 바코드 화면",
+            "contents_and_actions_ko": "결제 수단 선택 및 최종 결제 완료 시, 매장 방문용 수령 바코드/QR 코드가 생성되며 점주 앱과 상태가 동기화됩니다."
+          },
+          {
+            "screen_ko": "마이페이지 및 반려동물 관리 탭",
+            "contents_and_actions_ko": "등록된 반려동물 정보 수정, 주문 내역 및 픽업 상태 확인, 멤버십 포인트 조회를 수행합니다."
+          }
+        ],
+        "implementation_approach_ko": "1인 개발의 생산성을 극대화하기 위해 크로스플랫폼 프레임워크인 Flutter를 채택하여 안드로이드 앱 개발에 집중합니다. 백엔드는 빠른 프로토타이핑을 위해 Node.js(Express)와 Firebase(Auth, Firestore, FCM)를 조합하여 실시간 재고 연동(Firestore Realtime Listener)과 푸시 알림을 안정적으로 구현합니다.",
+        "data_and_storage_ko": [
+          "User 객체: user_id, nickname, default_location(lat, lng), saved_pets(Array). 로컬 SharedPreferences 및 서버 DB에 저장.",
+          "Pet 객체: pet_id, user_id, type(dog/cat), weight, consumption_cycle_data. 앱 로컬 및 서버 동기화.",
+          "Store 객체: store_id, name, address, coordinates(lat, lng), owner_id. 서버 DB에 저장되며 지도 조회 시 읽어옴.",
+          "Product 객체: product_id, store_id, name, category, price, stock_quantity. 점주가 대시보드에서 수정하거나 주문 시 감소.",
+          "Order 객체: order_id, user_id, store_id, items, total_amount, status(주문완료/픽업대기/수령완료), pickup_code. 주문 생성 시 생성 및 실시간 상태 변경."
+        ],
+        "mvp_scope_ko": "첫 번째 MVP는 테스트베드로 삼을 특정 동네의 제휴 펫숍 3~5곳을 대상으로 하며, 핵심 기능인 '실시간 랭킹 탐색 -> 동네 매장 재고 확인 -> 1시간 내 픽업 결제 -> 매장 바코드 수령' 플로우에 집중합니다. 정기 구독 자동 결제, 대규모 커뮤니티, 복잡한 멤버십 고도화 등은 제외하여 1인 개발이 현실적으로 완수할 수 있도록 범위를 제한합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 데이터베이스 스키마 및 API 설계",
+            "deliverable_and_check_ko": "User, Pet, Store, Product, Order 객체 모델 정의 및 가맹점주용 웹 대시보드/사용자 앱 간 API 명세서 작성. (주요 객체 간 관계 확인)"
+          },
+          {
+            "stage_ko": "2단계: 백엔드 및 실시간 재고 연동 모듈 구현",
+            "deliverable_and_check_ko": "Node.js/Firebase 기반 상품, 매장, 재고 CRUD 및 실시간 업데이트 로직 구현. (재고 변동 시 클라이언트 반영 테스트)"
+          },
+          {
+            "stage_ko": "3단계: 사용자 앱 핵심 UI 및 지도 연동",
+            "deliverable_and_check_ko": "Flutter를 활용해 홈, 랭킹, 상품 상세, 지도 기반 매장 선택 화면 구현. (위치 권한 및 지도 렌더링 확인)"
+          },
+          {
+            "stage_ko": "4단계: 주문/결제 및 수령 바코드 플로우 연동",
+            "deliverable_and_check_ko": "장바구니, 테스트 결제 연동, 픽업 바코드 생성 및 점주용 재고 차감 테스트. (결제 후 재고 실시간 차감 검증)"
+          },
+          {
+            "stage_ko": "5단계: 통합 시뮬레이션 및 예외 처리 점검",
+            "deliverable_and_check_ko": "가상의 점주 계정과 사용자 계정으로 전체 주문-픽업 흐름 시뮬레이션. (에러 로그 및 예외 처리 점검)"
+          }
+        ],
+        "possible_extensions_ko": "MVP 안정화 이후, 반려동물 소모품 정기 구독 자동 결제 시스템, 다견/다묘 집사 커뮤니티 및 수의사 Q&A 게시판, 오프라인 방문이 어려운 경우를 위한 동네 퀵배송(라이더 연동) 기능으로 확장할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "초기 오프라인 제휴 매장 확보의 어려움: 동네 펫숍의 참여를 유도하기 위한 가맹점 수수료 혜택 및 간편 재고 관리 툴의 사용성 검증 필요.",
+          "재고 데이터의 실시간 정확도 유지 문제: 점주가 수동으로 재고를 입력하거나 갱신할 때 누락될 경우 품절 상품 주문 오류 발생 가능성, 이에 대한 예외 처리 UI 디자인 필요.",
+          "위치 기반 서비스(LBS) 정확도 한계: GPS 음영 지역이나 실내에서 사용자 위치 오차 발생 시 인근 매장 추천 정확도 저하 문제에 대한 수동 주소 입력 대안 검토."
+        ],
+        "draft_status_ko": "본 문서는 원본 앱의 핵심 가치를 반려동물 O2O 영역으로 발전시키기 위해 작성된 1인 모바일 개발 설계 초안이며, 실제 구현, 현장 테스트, 성능 측정이 완료되지 않은 가상의 기획 및 설계 단계의 자료입니다."
+      },
+      "plan_at": "2026-11-14T06:42:18+09:00",
+      "plan_quota_day": "2026-11-14",
+      "plan_usage": {
+        "promptTokenCount": 2848,
+        "candidatesTokenCount": 2532,
+        "totalTokenCount": 8520,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2848
+          }
+        ],
+        "thoughtsTokenCount": 3140,
+        "serviceTier": "standard"
       }
     },
     "google:com.viewer.filepdf.read": {
@@ -18088,6 +18188,719 @@
           }
         ],
         "thoughtsTokenCount": 3036,
+        "serviceTier": "standard"
+      }
+    },
+    "google:com.watchfacestudio.per32": {
+      "app_key": "google:com.watchfacestudio.per32",
+      "name": "PER32 Ultra Hybrid Watch Face",
+      "developer": "Persona Watch Face",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.watchfacestudio.per32&hl=en&gl=US",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.watchfacestudio.per32",
+        "product_kind": "app",
+        "original_experience_ko": "Wear OS 스마트워치 환경에서 사용자가 시계 바늘, 배경, LCD 색상, LED 라이트, 그리고 날씨·심박수·걸음 수 등 다양한 컴플리케이션을 자신의 취향에 맞게 조합하여 개성 있는 워치페이스를 만들고 한눈에 정보를 확인하는 시각적 커스터마이제이션 경험을 제공합니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 소개문에서 6가지 시계 바늘, 10가지 배경, 10가지 LCD 색상, 20가지 색상 조합, 컴플리케이션 기능이 명시되어 있음을 확인했습니다.",
+          "날씨 정보와 배터리 잔량 표기를 위해 외부 컴패니언 앱('Simple Weather', 'Phone Battery Complication') 연동 가이드가 포함되어 있는 점을 확인했습니다.",
+          "실제 Wear OS 기기에서의 렌더링 성능, 배터리 소모량, 그리고 사용자가 커스텀한 설정이 기기와 어떻게 동기화되는지에 대한 내부 소스 코드는 확인할 수 없습니다."
+        ],
+        "valuable_elements_ko": [
+          "다양한 시각적 요소(바늘, 배경, 색상)를 조합하여 무한대에 가까운 테마를 만드는 직관적인 개인화 메커니즘",
+          "날씨, 건강, 배터리 등 방대한 데이터를 제한된 공간(시계 화면)에 효율적으로 압축 배치하는 고밀도 컴플리케이션 구조",
+          "Always-On 디스플레이(AOD) 모드 지원을 통한 시인성과 전력 효율의 균형 유지"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "컴팩트 인포 하이브리드 홈 위젯",
+            "core_idea_ko": "스마트워치 워치페이스의 고밀도 메트릭 배치와 하이브리드 테마 조합 경험을 스마트폰 홈 화면용 모듈형 위젯 시스템으로 확장하여, 사용자가 폰에서도 직관적이고 개성 있는 정보 허브를 구축할 수 있게 하는 앱입니다.",
+            "what_to_keep_ko": "다양한 데이터 메트릭(날씨, 배터리, 일정 등)을 하나의 컴팩트한 화면에 집약해 보여주는 레이아웃 구조와 사용자가 직접 색상 및 스타일을 조합하는 테마 커스텀 방식을 계승합니다.",
+            "what_to_change_ko": "Wear OS의 물리적 화면 한계를 벗어나 스마트폰의 넓은 화면을 활용한 멀티 위젯 스택 레이아웃, 터치 제스처를 통한 상세 정보 확장 뷰, 그리고 폰 시스템 설정과의 실시간 동기화 규칙으로 개선합니다.",
+            "mobile_use_or_play_ko": "사용자가 스마트폰 홈 화면의 하이브리드 위젯을 탭하면, 날씨 및 일정 상세 정보가 부드러운 애니메이션과 함께 팝업으로 펼쳐지고, 편집 모드 진입 시 배경 테마와 디지털 폰트 색상을 즉시 변경할 수 있습니다.",
+            "key_features_ko": [
+              "Android Glance API 기반의 멀티 레이어 위젯 렌더링",
+              "실시간 시스템 배터리 및 날씨 데이터 바인딩",
+              "원클릭 테마 프리셋 저장 및 공유 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "Android Jetpack Glance와 SharedPreferences를 활용하여 2~3종의 기본 하이브리드 위젯 레이아웃과 색상 커스텀 에디터를 구현하는 수준입니다. 중간 난이도이며 UI 렌더링 최적화에 집중합니다.",
+            "strengths_limits_ko": "폰 홈 화면에서 워치페이스의 유니크한 감성과 고밀도 정보를 누릴 수 있으나, 기존 안드로이드 기본 위젯과의 명확한 차별성과 배터리 최적화 검증이 필요합니다."
+          },
+          {
+            "title_ko": "워치페이스 커스텀 스튜디오 & 크리에이터 마켓",
+            "core_idea_ko": "사용자가 모바일 앱에서 직접 워치페이스의 디자인 요소를 조합하고 레이아웃을 편집하여 나만의 디자인을 만들고, 이를 커뮤니티에 공유하거나 가볍게 패키징할 수 있는 창작 지원 플랫폼 앱입니다.",
+            "what_to_keep_ko": "시계 바늘, 배경, LED 라이트, 컴플리케이션 배치를 자유롭게 조합하는 직관적인 커스터마이제이션 모드와 UI 설정 인터페이스를 계승합니다.",
+            "what_to_change_ko": "단순 소비형 설정 기능을 넘어, 사용자가 직접 디자인 메타데이터를 편집하고 타인과 공유하며 다운로드할 수 있는 크리에이터 생태계 기능과 실시간 기기 프리뷰 시뮬레이터를 도입합니다.",
+            "mobile_use_or_play_ko": "모바일 앱 내 에디터에서 배경과 바늘 스타일을 조합한 뒤 가상 시뮬레이터로 확인하고, 마켓에 업로드하거나 연동된 웨어러블 기기로 원클릭 전송하여 적용합니다.",
+            "key_features_ko": [
+              "비주얼 컴플리케이션 레이아웃 에디터",
+              "실시간 가상 기기 프리뷰 시뮬레이터",
+              "클라우드 기반 테마 저장소 및 공유 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "로컬 Canvas 기반 테마 에디터와 Firebase를 연동한 기본 테마 공유 기능 구현. 상급 난이도로 UI 렌더링과 데이터 스키마 설계에 상당한 공수가 듭니다.",
+            "strengths_limits_ko": "사용자 참여를 유도하는 확장성이 높지만, 실제 웨어러블 기기와의 패키징 및 호환성 검증 프로세스가 복잡하다는 한계가 있습니다."
+          },
+          {
+            "title_ko": "스마트 메트릭스 웨어러블 펄스",
+            "core_idea_ko": "워치페이스가 요약해서 보여주던 방대한 건강 및 환경 지표(심박수, 걸음 수, UV, 기압 등)를 스마트폰에서 심층적으로 모니터링하고 시각적 리포트로 분석해주는 헬스케어 대시보드 앱입니다.",
+            "what_to_keep_ko": "날씨, 배터리, 심박수, 걸음 수 등 다양한 백그라운드 센서 데이터를 한눈에 요약해 보여주는 정보 집약적 카드 UI 디자인을 계승합니다.",
+            "what_to_change_ko": "단순 실시간 표시를 넘어서 시계열 데이터 분석, 주간/월간 트렌드 그래프, 그리고 외부 헬스케어 API와의 연동을 통한 건강 상태 심층 진단 기능으로 확장합니다.",
+            "mobile_use_or_play_ko": "사용자가 앱을 실행하면 워치페이스 스타일의 대시보드 카드가 최신 생체 데이터를 보여주고, 특정 카드를 터치하면 상세 트렌드 그래프와 AI 기반 맞춤형 코칭 팁을 확인합니다.",
+            "key_features_ko": [
+              "Android Health Connect 연동 모듈",
+              "워치페이스 스타일의 고밀도 대시보드 카드",
+              "맞춤형 생체 지표 알림 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "Health Connect API 연동과 기본 차트 라이브러리를 활용한 단일 화면 대시보드 및 알림 구현. 보통 난이도이며 데이터 연동 안정성이 핵심입니다.",
+            "strengths_limits_ko": "실용성과 확장성이 뛰어나지만 기존 대기업 피트니스 앱들과의 경쟁이 치열하여 차별화된 인사이트 제공이 과제입니다."
+          }
+        ],
+        "concept_comparison_ko": "1번 아이디어는 워치페이스의 '시각적 테마 조합과 컴팩트한 정보 배치'라는 핵심 경험을 스마트폰 홈 위젯으로 가장 직관적으로 확장하여 일상적인 유용성을 높입니다. 2번은 창작과 공유에 초점을 맞추어 확장성이 높지만 구현 복잡도가 크고, 3번은 건강 데이터 분석에 집중하여 기존 피트니스 앱과 유사해질 위험이 있습니다. 따라서 1번이 원본의 시각적·구조적 매력을 가장 가볍고 명확하게 살릴 수 있습니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "원본 PER32 워치페이스의 가장 큰 매력은 '다양한 시각적 테마 조합'과 '제한된 공간 속의 고밀도 정보 집약'입니다. 1번 '컴팩트 인포 하이브리드 홈 위젯'은 이 경험을 스마트폰 홈 화면으로 그대로 옮겨와 모바일 환경에서도 사용자가 매일 시각적 즐거움과 실용성을 동시에 누릴 수 있도록 합니다. Android Glance API를 활용해 1인 개발자가 현실적인 MVP를 구축하기에 가장 적합합니다.",
+        "next_questions_ko": [
+          "Android Glance API를 사용했을 때 홈 위젯의 실시간 데이터 갱신 주기와 배터리 소모량의 균형을 어떻게 맞출 것인가?",
+          "사용자가 선택하는 다양한 테마 조합(색상, 바늘 스타일 등)을 위젯에 동적으로 반영할 때 렌더링 성능 저하를 방지할 최적화 방안은 무엇인가?"
+        ]
+      },
+      "brief_at": "2026-11-14T07:52:33+09:00",
+      "brief_quota_day": "2026-11-14",
+      "brief_usage": {
+        "promptTokenCount": 2006,
+        "candidatesTokenCount": 2217,
+        "totalTokenCount": 6127,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2006
+          }
+        ],
+        "thoughtsTokenCount": 1904,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.watchfacestudio.per32",
+        "product_kind": "app",
+        "selected_concept_title_ko": "컴팩트 인포 하이브리드 홈 위젯",
+        "project_goal_and_audience_ko": "스마트워치 워치페이스의 고밀도 메트릭 배치와 하이브리드 테마 조합 경험을 안드로이드 스마트폰 홈 화면용 모듈형 위젯 시스템으로 확장하여, 사용자가 앱을 여는 번거로움 없이 한눈에 주요 지표를 확인하고 개성 있는 정보 허브를 구축할 수 있도록 합니다. 스마트폰 홈 화면을 자신만의 스타일로 꾸미고 배터리·날씨·일정 등 핵심 데이터를 직관적으로 파악하길 원하는 안드로이드 유저를 타겟으로 합니다.",
+        "source_relation_and_difference_ko": "원본의 날씨, 배터리, 일정 등 다양한 데이터 메트릭을 컴팩트하게 압축 배치하는 고밀도 컴플리케이션 레이아웃과, 배경·LCD 컬러·포인트 색상을 다채롭게 조합하는 테마 커스텀 감성을 유지합니다. 차별점으로는 Wear OS의 물리적 제한을 벗어나 스마트폰의 넓은 화면을 활용한 멀티 위젯 스택 레이아웃, 위젯 터치 시 확장되는 상세 정보 뷰, 모바일 시스템 설정과의 실시간 연동 규칙을 도입합니다.",
+        "core_user_experience_ko": "사용자는 스마트폰 홈 화면에 배치된 '컴팩트 인포 하이브리드 위젯'을 통해 시계, 배터리 잔량, 날씨 아이콘, 다음 일정 등을 직관적으로 확인합니다. 위젯의 특정 영역(예: 날씨)을 탭하면 부드러운 애니메이션과 함께 상세 날씨 정보 팝업이 나타나며, 설정 아이콘을 눌러 에디터 모드로 진입하면 배경 패턴, LED 라이트 효과, 컬러 조합을 실시간으로 변경하고 프리셋으로 저장할 수 있습니다.",
+        "features_ko": [
+          {
+            "feature_ko": "Android Glance 기반 멀티 레이어 위젯 렌더링",
+            "user_action_and_behavior_ko": "사용자가 홈 화면에 위젯을 추가하면, 지정된 테마 스타일에 따라 배경, 텍스트, 바늘/아이콘 레이어가 겹쳐져 고밀도 정보 화면이 렌더링됨. 가벼운 배터리 소모로 실시간 시인성 제공.",
+            "practical_implementation_ko": "Android Jetpack Glance 라이브러리를 활용하여 컴포저블(Composable) 기반의 위젯 UI 구성. WorkManager를 활용한 주기적 데이터 갱신(예: 30분~1시간 간격 날씨 업데이트)."
+          },
+          {
+            "feature_ko": "하이브리드 테마 조합 및 커스텀 에디터",
+            "user_action_and_behavior_ko": "위젯 설정 버튼을 통해 커스텀 에디터 화면으로 진입. 10가지 배경, 20가지 컬러 팔레트, LCD 색상을 선택하면 실시간으로 미리보기가 갱신되며, '내 프리셋으로 저장' 시 홈 화면 위젯에 즉시 반영됨.",
+            "practical_implementation_ko": "로컬 SharedPreferences 또는 DataStore를 활용하여 사용자가 선택한 테마 설정값(JSON 형태)을 저장하고, GlanceAppWidgetManager를 통해 위젯 업데이트 트리거 호출."
+          },
+          {
+            "feature_ko": "인포메이션 컴플리케이션 및 터치 액션 팝업",
+            "user_action_and_behavior_ko": "배터리, 날씨, 일정 등 메트릭 영역을 터치할 때, 시스템 브로드캐스트나 딥링크를 통해 세부 정보(예: 상세 날씨 예보, 배터리 사용량 분석)를 담은 액티비티 팝업 호출.",
+            "practical_implementation_ko": "Glance의 actionRunCallback 또는 actionStartActivity를 활용하여 터치 이벤트 핸들링 및 인텐트 전달 구현."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "홈 화면 위젯 (메인 뷰)",
+            "contents_and_actions_ko": "현재 시간, 배터리 잔량, 날씨, 온도가 고밀도로 표시됨. 날씨 영역 터치 시 상세 날씨 액티비티로 이동, 설정 아이콘 터치 시 테마 에디터로 진입."
+          },
+          {
+            "screen_ko": "테마 커스텀 에디터 (설정 뷰)",
+            "contents_and_actions_ko": "상단에 위젯 미리보기, 하단에 배경 테마(10종), LCD 색상(10종), 포인트 컬러(20종) 선택 슬라이더/그리드 제공. '저장 및 적용' 버튼으로 홈 화면 위젯 갱신."
+          },
+          {
+            "screen_ko": "상세 메트릭 팝업 뷰",
+            "contents_and_actions_ko": "선택한 메트릭(날씨 상세, 주간 예보, 배터리 상태 등)의 확장된 정보를 보여주는 다이얼로그 형태의 액티비티."
+          }
+        ],
+        "implementation_approach_ko": "기술 스택: Kotlin, Android Jetpack Glance (위젯 UI), Jetpack Compose (컨피규레이션/에디터 앱 UI), DataStore (테마 설정 저장), WorkManager (백그라운드 데이터 동기화). 최신 안드로이드 권장 스택인 Compose와 Glance를 활용하면 선언형 UI의 장점을 살려 복잡한 레이아웃과 커스텀 테마 반영을 효율적으로 구현할 수 있음.",
+        "data_and_storage_ko": [
+          "ThemeConfig 데이터 객체: backgroundId(int), lcdColor(int), primaryColor(int), aodMode(boolean), customComplications(List<String>) 필드를 포함하며, 사용자가 에디터에서 변경하는 즉시 DataStore에 직렬화되어 저장됨.",
+          "MetricCache 데이터 객체: temperature, weatherCondition, batteryLevel, nextAppointment 등 시스템 및 외부 API로부터 수신한 최신 메트릭 값을 저장하며, WorkManager의 주기적 갱신 주기에 따라 읽고 쓰임."
+        ],
+        "mvp_scope_ko": "첫 번째 프로토타입(MVP)에서는 복잡한 외부 API 연동이나 소셜 공유 기능은 제외하고, 시스템 기본 제공 데이터(배터리, 시간)와 가상 날씨 데이터를 활용하는 2종의 핵심 위젯 레이아웃, 그리고 5가지 주요 컬러 테마를 조합할 수 있는 커스텀 에디터와 Glance 위젯 렌더링 기능에 집중합니다. 이를 통해 핵심 가치인 '고밀도 정보 레이아웃과 커스텀 감성'을 빠르게 검증할 수 있습니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "프로젝트 환경 설정 및 기본 위젯 레이아웃 구현",
+            "deliverable_and_check_ko": "Jetpack Glance 기반의 기본 위젯 프로바이더 생성 및 홈 화면 추가 테스트. 정적 데이터로 시계와 배터리가 정상 표시되는지 확인."
+          },
+          {
+            "stage_ko": "데이터 바인딩 및 백그라운드 갱신 로직 구현",
+            "deliverable_and_check_ko": "WorkManager를 통한 시스템 배터리 및 날씨 데이터 연동. 데이터 변경 시 위젯이 자동으로 갱신되는지 확인."
+          },
+          {
+            "stage_ko": "테마 커스텀 에디터 앱 UI 및 설정 저장 구현",
+            "deliverable_and_check_ko": "Jetpack Compose로 에디터 화면 작성. 사용자가 선택한 컬러/배경 설정이 DataStore에 저장되고 위젯에 실시간 반영되는지 확인."
+          },
+          {
+            "stage_ko": "인터랙션 및 상세 팝업 뷰 연결",
+            "deliverable_and_check_ko": "위젯 터치 시 액티비티 팝업이 호출되는지 확인 및 UI 폴리싱."
+          }
+        ],
+        "possible_extensions_ko": "추후 사용자가 직접 커스텀 컴플리케이션을 추가할 수 있는 마켓플레이스 형태의 '테마 공유 및 다운로드 커뮤니티', 사용자의 수면 패턴이나 걸음 수(Google Fit / Health Connect API 연동)를 포함하는 고도화된 건강 메트릭 팩 확장.",
+        "risks_and_open_decisions_ko": [
+          "Android Glance 라이브러리의 버전별 위젯 갱신 주기 제약 및 단말기 제조사별 백그라운드 제한(절전 모드 등)으로 인한 데이터 동기화 지연 가능성 확인 필요.",
+          "스마트폰 화면 크기 다양성(태블릿 포함)에 대응하기 위해 위젯 레이아웃의 반응형 축소/확장 규칙을 어느 선까지 강제할 것인가에 대한 결정 과제."
+        ],
+        "draft_status_ko": "본 개발 설계 초안은 원본 워치페이스의 핵심 경험을 스마트폰 홈 위젯으로 재해석한 기획 단계의 문서이며, 실제 구현·플레이테스트 및 배터리 최적화 성능 측정이 완료되지 않은 초안입니다."
+      },
+      "plan_at": "2026-11-14T07:53:09+09:00",
+      "plan_quota_day": "2026-11-14",
+      "plan_usage": {
+        "promptTokenCount": 2794,
+        "candidatesTokenCount": 2157,
+        "totalTokenCount": 7812,
+        "cachedContentTokenCount": 1323,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2794
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1323
+          }
+        ],
+        "thoughtsTokenCount": 2861,
+        "serviceTier": "standard"
+      }
+    },
+    "google:com.watchfacestudio.samwatch_simple_e_2024": {
+      "app_key": "google:com.watchfacestudio.samwatch_simple_e_2024",
+      "name": "SamWatch Simple E 2024",
+      "developer": "Samtree",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.watchfacestudio.samwatch_simple_e_2024&hl=ko&gl=KR",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.watchfacestudio.samwatch_simple_e_2024",
+        "product_kind": "app",
+        "original_experience_ko": "관측 사실: Wear OS 스마트워치용 디지털 워치 페이스 앱으로, 시각 정보 외에 문페이즈, 걸음 수, 심박수, 배터리 잔량 등의 개인화 및 건강·기기 상태 데이터를 한 화면에 직관적으로 보여주는 UI를 제공함. 스마트폰용 동반 앱을 통해 설치 가이드와 브랜드 정보도 제공함.\nAI 해석: 제한된 스마트워치 디스플레이 공간에서 가독성과 미적 완성도를 동시에 만족시키는 UI 디자인 구조와, 시스템 API 및 센서 데이터 연동 기술이 핵심 경험임.",
+        "source_facts_and_limitations_ko": [
+          "스토어 확인 사실: Wear OS 전용(One UI 6.0 이상 권장), 문페이즈·걸음 수·심박수·배터리 등 표시 기능, 스마트폰용 설치 가이드 앱 동봉.",
+          "확인되지 않은 한계: 실제 워치 페이스의 배터리 최적화 소모량, 사용자 커스텀 색상의 UI 가독성 세부 수치, 센서 측정 지연 오차 등에 대한 직접 검증은 불가함."
+        ],
+        "valuable_elements_ko": [
+          "한 화면(글랜스 뷰)에서 시간과 신체·기기 상태 정보를 동시에 파악할 수 있는 고밀도 직관적 UI 구성.",
+          "사용자의 취향에 맞춘 색상 및 컴플리케이션(정보 요소) 커스터마이징 구조.",
+          "스마트폰과 스마트기기 간의 보조 연동 경험 (컴패니언 앱 구조)."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "포켓 글랜스 대시보드 (Pocket Glance Dashboard)",
+            "core_idea_ko": "스마트워치가 없는 일반 스마트폰 사용자도 시계 화면처럼 홈 화면이나 잠금 화면에서 배터리, 걸음 수, 날씨, 달의 주기(문페이즈) 등 핵심 상태를 한눈에 볼 수 있도록 설계된 안드로이드 미니멀 위젯 및 대시보드 앱.",
+            "what_to_keep_ko": "스마트워치 화면의 핵심인 '한눈에 들어오는 멀티 데이터(시각, 건강, 기기 상태) 시각화'와 '미니멀한 디자인 구조'를 계승함.",
+            "what_to_change_ko": "웨어러블 OS 종속성을 벗어나, 안드로이드 Jetpack Glance 라이브러리를 활용해 스마트폰 홈/잠금화면 위젯 형태로 확장하여 범용성을 높임.",
+            "mobile_use_or_play_ko": "사용자가 스마트폰 화면을 켤 때 잠금화면 위젯을 통해 현재 시간, 걸음 수 진행률, 배터리 잔량을 즉시 확인하고, 위젯 터치 시 상세 대시보드 앱으로 진입해 색상 테마를 변경함.",
+            "key_features_ko": [
+              "안드로이드 Jetpack Glance 기반 실시간 홈/잠금화면 위젯",
+              "문페이즈 및 배터리/걸음 수 통합 컴플리케이션 시스템",
+              "사용자 맞춤형 미니멀 컬러 테마 팔레트 프리셋"
+            ],
+            "solo_mvp_and_effort_ko": "Android Studio와 Kotlin을 활용하며, 기본 위젯 1종과 3가지 색상 테마, 시스템 센서(걸음 수, 배터리) 연동 기능만 구현하는 미니멀 MVP로 2~3주 내 개발 가능.",
+            "strengths_limits_ko": "스마트워치 사용자층에만 국한되지 않고 전체 안드로이드 사용자로 타겟을 넓힐 수 있으나, 기존 OS 기본 위젯과의 차별화된 미적 매력을 어필해야 하는 과제가 있음."
+          },
+          {
+            "title_ko": "리듬 바이탈 아트는 (Rhythm Vital Art)",
+            "core_idea_ko": "사용자의 일일 활동량, 걸음 수, 배터리 패턴, 시간 흐름을 시각적 아트로 변환하여 스마트폰 배경화면이나 라이브 위젯으로 보여주는 감성형 헬스/기기 상태 모니터링 앱.",
+            "what_to_keep_ko": "걸음 수 및 기기 상태 등 일일 상태 데이터를 시각화하는 정보 연동 요소를 계승함.",
+            "what_to_change_ko": "단순한 디지털 숫자 나열에서 벗어나, 데이터 수치에 따라 실시간으로 형태와 색감이 변하는 제너러티브 아트 및 라이브 배경화면 형태로 진화시킴.",
+            "mobile_use_or_play_ko": "사용자가 스마트폰 배경화면을 볼 때마다 오늘의 걸음 수와 활동 리듬에 따라 추상적인 아트 패턴이 서서히 변화하며 시각적 피드백을 제공함.",
+            "key_features_ko": [
+              "걸음 수 및 활동량 연동 제너러티브 아트 엔진",
+              "안드로이드 라이브 Wallpaper / Interactive Widget API 연동",
+              "실시간 배터리 및 시간 변화에 따른 팔레트 자동 전환"
+            ],
+            "solo_mvp_and_effort_ko": "Canvas API 및 2D 그래픽 렌더링을 활용해 단일 라이브 배경화면과 2가지 패턴 변형 알고리즘을 구현, 약 3~4주의 개발 소요.",
+            "strengths_limits_ko": "시각적 독창성이 높아 차별화가 쉽지만, 라이브 배경화면 특유의 배터리 소모 이슈를 최소화하도록 최적화 로직 검증이 필요함."
+          },
+          {
+            "title_ko": "워치페이스 크리에이터 스튜디오 (WatchFace Creator Studio)",
+            "core_idea_ko": "개발자나 디자이너가 아니더라도 일반 사용자가 스마트폰에서 자신만의 커스텀 워치 페이스나 위젯 레이아웃을 직접 조립하고, Wear OS 기기로 간편하게 전송하거나 공유할 수 있는 모바일 전용 제작/관리 허브 앱.",
+            "what_to_keep_ko": "시계 화면의 레이아웃 디자인, 색상 커스텀, 컴플리케이션 배치 구조를 계승함.",
+            "what_to_change_ko": "원본이 완성된 워치페이스를 단순히 제공하는 것에 그치지 않고, 사용자가 직접 요소를 배치하고 커스텀하는 '에디터 및 공유 플랫폼' 기능으로 확장함.",
+            "mobile_use_or_play_ko": "사용자가 모바일 앱 내 드래그 앤 드롭 에디터로 시계/위젯 화면에 걸음 수, 배터리, 문페이즈 위치를 배치하고 색상을 커스텀한 뒤, 원클릭으로 기기에 적용하거나 커뮤니티에 업로드함.",
+            "key_features_ko": [
+              "드래그 앤 드롭 방식의 모바일 UI 컴포넌트 에디터",
+              "컴플리케이션(날씨, 걸음 수, 심박수) 모듈 라이브러리",
+              "사용자 창작물 공유 및 프리셋 다운로드 커뮤니티 피드"
+            ],
+            "solo_mvp_and_effort_ko": "로컬 저장소 기반의 에디터 UI와 템플릿 내보내기 기능을 먼저 구현하며, 서버 커뮤니티 기능은 파일 공유(JSON) 형태로 대체하여 4주 내 MVP 제작 가능.",
+            "strengths_limits_ko": "사용자 참여와 확장성이 높으나 Wear OS 연동 SDK 테스트와 복잡한 에디터 UI 구현 난이도가 높음."
+          }
+        ],
+        "concept_comparison_ko": "세 아이디어는 원본의 '정보 집약적 미니멀 UI와 커스텀 성향'을 각각 안드로이드 스마트폰 홈 화면 위젯(1안), 감성적 라이브 아트 배경화면(2안), 그리고 직접 만드는 에디터 플랫폼(3안)으로 발전시킴. 1안은 범용성과 접근성이 가장 높고, 2안은 감성적 차별화에 집중하며, 3안은 사용자 참여 확장성이 높음. 1안이 가장 가볍고 빠르게 실현 가능함.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "스마트워치 전용이라는 원본 앱의 물리적 제약을 스마트폰의 홈/잠금화면 위젯(Jetpack Glance)으로 확장하여 타겟 유저풀을 대폭 넓히면서도, 한눈에 정보를 파악하는 글랜스 대시보드의 핵심 경험을 가장 충실하고 완성도 있게 구현할 수 있음. 1인 개발 관점에서 위젯 API와 시스템 센서(배터리, 걸음 수) 연동만으로 명확한 MVP를 빠르게 만들 수 있어 현실적임.",
+        "next_questions_ko": [
+          "안드로이드 Jetpack Glance를 활용할 때 배터리 소모를 최소화하면서 위젯 갱신 주기를 최적화하는 방법은 무엇인가?",
+          "문페이즈(달의 주기) 계산 알고리즘을 모바일 위젯 환경에서 가볍게 구현할 수 있는 라이브러리는 어떤 것이 적합한가?"
+        ]
+      },
+      "brief_at": "2026-11-14T07:57:09+09:00",
+      "brief_quota_day": "2026-11-14",
+      "brief_usage": {
+        "promptTokenCount": 1960,
+        "candidatesTokenCount": 2169,
+        "totalTokenCount": 7312,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1960
+          }
+        ],
+        "thoughtsTokenCount": 3183,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.watchfacestudio.samwatch_simple_e_2024",
+        "product_kind": "app",
+        "selected_concept_title_ko": "포켓 글랜스 대시보드 (Pocket Glance Dashboard)",
+        "project_goal_and_audience_ko": "스마트워치를 소유하지 않은 일반 안드로이드 스마트폰 사용자들을 대상으로 하며, 스마트워치의 시계 화면(Watch Face)이 주는 한눈에 들어오는 데이터 시각화의 즐거움과 미니멀한 디자인 감성을 스마트폰 홈 화면과 잠금 화면에서 그대로 경험할 수 있도록 하는 미니멀 대시보드 및 위젯 앱입니다. 사용자는 앱을 통해 배터리, 걸음 수, 달의 주기(문페이즈) 등의 핵심 정보를 별도로 앱을 실행하지 않고도 홈 화면에서 즉시 파악하고 직관적인 조작으로 취향에 맞는 테마를 꾸밀 수 있습니다.",
+        "source_relation_and_difference_ko": "원본(SamWatch Simple E 2024)에서 계승한 핵심 경험은 제한된 공간 안에 시각, 건강 상태, 기기 상태를 밀도 높고 우아하게 배치하는 '글랜스(Glance) 디자인 구조'와 '색상 커스터마이징'입니다. 차별화된 개선점은 웨어러블 운영체제(Wear OS)라는 물리적 제약을 과감히 탈피하여, 안드로이드 스마트폰 환경에서 Jetpack Glance 라이브러리를 활용해 홈/잠금화면 위젯 형태로 확장함으로써 모든 안드로이드 사용자가 접근할 수 있는 범용 서비스로 발전시켰다는 점입니다.",
+        "core_user_experience_ko": "사용자는 스마트폰 홈 화면에 '포켓 글랜스 위젯'을 추가합니다. 위젯은 현재 시각, 일일 걸음 수 진행률 바, 스마트폰 배터리 잔량, 오늘의 문페이즈(달의 주기) 아이콘을 미니멀한 폰트와 레이아웃으로 실시간 표시합니다. 사용자가 위젯을 탭하면 컴패니언 앱(메인 대시보드)으로 전환되어 위젯의 색상 테마 팔레트를 변경하거나 상세 건강 데이터를 확인할 수 있습니다. 시스템은 백그라운드에서 센서 변화(걸음 수, 배터리)를 감지하고 위젯 뷰를 효율적으로 갱신합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "Jetpack Glance 기반 미니멀 홈 위젯",
+            "user_action_and_behavior_ko": "사용자가 홈 화면에서 시간, 배터리, 걸음 수, 문페이즈를 한눈에 확인할 수 있는 경량 위젯을 배치하고 시각적 피드백을 얻음. 시스템은 GlanceAppWidget을 통해 가볍고 빠른 렌더링을 제공.",
+            "practical_implementation_ko": "Jetpack Glance 라이브러리를 활용하여 선언적 위젯 레이아웃을 구현하고, WorkManager를 연동하여 주기적인 데이터 갱신 및 배터리 효율 최적화 수행."
+          },
+          {
+            "feature_ko": "센서 및 시스템 데이터 컴플리케이션",
+            "user_action_and_behavior_ko": "사용자의 일일 걸음 수와 스마트폰 배터리 상태가 실시간으로 위젯에 반영되어 별도의 앱 실행 없이도 활동량을 직관적으로 모니터링.",
+            "practical_implementation_ko": "안드로이드 SensorManager(걸음 수 센서)와 BatteryManager API를 비동기식 Coroutines로 연동하여 데이터를 수집하고 DataStore에 캐싱."
+          },
+          {
+            "feature_ko": "컬러 테마 팔레트 커스터마이징",
+            "user_action_and_behavior_ko": "컴패니언 앱 설정 화면에서 사용자가 선호하는 미니멀 색상 테마(클래식 모노크롬, 딥 블루, 에메랄드 그린 등)를 선택하면 즉시 위젯 디자인에 반영.",
+            "practical_implementation_ko": "Jetpack Compose로 설정 UI를 구축하고, 선택된 테마 값을 Jetpack DataStore에 저장하여 상태 변경 시 위젯 강제 리프레시(updateAll) 트리거 호출."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "홈 화면 위젯 뷰",
+            "contents_and_actions_ko": "시각, 걸음 수 프로그레스 바, 배터리 잔량, 문페이즈 아이콘 표시. 위젯 영역 터치 시 컴패니언 앱 실행."
+          },
+          {
+            "screen_ko": "컴패니언 설정 앱 (메인 대시보드)",
+            "contents_and_actions_ko": "색상 테마 프리셋 선택 리스트, 센서 권한(걸음 수 등) 상태 확인 및 가이드, 위젯 추가 안내 화면 제공."
+          }
+        ],
+        "implementation_approach_ko": "안드로이드 네이티브(Kotlin) 환경을 기본으로 채택합니다. 최신 UI 렌더링을 위해 컴패니언 앱은 Jetpack Compose를, 홈 화면 위젯은 공식 권장 사항인 Jetpack Glance를 사용하여 선언적 UI 구조의 일관성을 유지합니다. 데이터 저장소로는 경량 Key-Value 저장이 가능한 Jetpack DataStore를 사용하며, 복잡한 외부 서버 연동 없이 로컬 데이터와 시스템 API만으로 동작하여 1인 개발 시 인프라 비용과 유지보수 부담을 최소화합니다.",
+        "data_and_storage_ko": [
+          "UserPreferences: 선택된 컬러 테마 ID, 위젯 투명도 설정 값 등을 저장. (Jetpack DataStore로 실시간 저장 및 위젯 강제 갱신 트리거)",
+          "ActivityCache: 직전 측정된 걸음 수와 최종 동기화 시간을 로컬에 임시 캐싱하여 앱 재시작 시 빠른 렌더링 지원.",
+          "결정 과제: 문페이즈 계산은 복잡한 천문학적 알고리즘 대신 기하학적 근사 함수(Lunar Phase Approximation Formula)를 Kotlin 유틸리티 클래스로 구현하여 오프라인에서 가볍게 연산."
+        ],
+        "mvp_scope_ko": "첫 번째 MVP 버전에서는 1종의 미니멀 사각 위젯 템플릿, 3가지 기본 컬러 테마(모노, 블루, 골드), 배터리 및 기본 걸음 수 시스템 데이터 연동, 그리고 테마를 변경할 수 있는 간단한 단일 화면 컴패니언 앱만 포함합니다. 날씨 API 연동이나 복잡한 사용자 정의 컴플리케이션 배열 기능은 후속 단계로 미루어 2~3주 내에 1인 개발자가 안정적으로 빌드하고 테스트할 수 있도록 범위를 제한합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 환경 설정 및 시스템 센서 연동",
+            "deliverable_and_check_ko": "Kotlin 및 Jetpack Compose 기본 구조 세팅, BatteryManager 및 SensorManager 권한 처리 및 데이터 수집 로직 검증."
+          },
+          {
+            "stage_ko": "2단계: Jetpack Glance 위젯 UI 구현",
+            "deliverable_and_check_ko": "위젯 레이아웃 디자인 및 데이터 바인딩, 터치 시 Intent를 통한 컴패니언 앱 연동 처리 확인."
+          },
+          {
+            "stage_ko": "3단계: 컴패니언 설정 화면 및 테마 시스템 구축",
+            "deliverable_and_check_ko": "색상 테마 선택 UI 구현 및 DataStore를 통한 테마 상태 영구 저장 및 위젯 리프레시 로직 연결 확인."
+          },
+          {
+            "stage_ko": "4단계: UI/UX 정교화 및 에뮬레이터 테스트",
+            "deliverable_and_check_ko": "다양한 화면 비율에서의 위젯 렌더링 확인, 배터리 최적화 환경에서의 위젯 갱신 주기 테스트."
+          }
+        ],
+        "possible_extensions_ko": "추후 확장 기능으로는 오픈웨더맵(OpenWeatherMap) API 연동을 통한 실시간 날씨 컴플리케이션 추가, 사용자가 원하는 정보를 자유롭게 배치할 수 있는 모듈형 위젯 커스텀 빌더, 잠금화면 전용 Lockscreen Glance 위젯 지원 등이 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "안드로이드 OS의 백그라운드 제한 정책으로 인해 센서 데이터(걸음 수) 갱신 주기가 지연되거나 제한될 수 있는 기술적 리스크가 존재하며, 이는 WorkManager의 적절한 주기 설정을 통해 해결해야 함.",
+          "위젯 갱신 빈도가 과도할 경우 배터리 소모 이슈가 발생할 수 있으므로, 최적의 위젯 업데이트 주기(예: 30분 간격 또는 시스템 이벤트 기반)를 실기기 테스트를 통해 확정해야 함."
+        ],
+        "draft_status_ko": "본 문서는 '포켓 글랜스 대시보드' 기획을 바탕으로 작성된 모바일 개발 설계 초안이며, 실제 기기에서의 장기적인 배터리 소모량 측정, 다양한 런처 환경에서의 위젯 호환성 테스트, 사용성 평가는 아직 수행되지 않은 상태입니다."
+      },
+      "plan_at": "2026-11-14T07:57:27+09:00",
+      "plan_quota_day": "2026-11-14",
+      "plan_usage": {
+        "promptTokenCount": 2707,
+        "candidatesTokenCount": 2152,
+        "totalTokenCount": 7599,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2707
+          }
+        ],
+        "thoughtsTokenCount": 2740,
+        "serviceTier": "standard"
+      }
+    },
+    "apple:6813545317": {
+      "app_key": "apple:6813545317",
+      "name": "Mimic Party !",
+      "developer": "FoliesAPP",
+      "source": "apple",
+      "kind": "game",
+      "detail_url": "https://apps.apple.com/jp/app/mimic-party/id6813545317?uo=2",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:6813545317",
+        "product_kind": "game",
+        "original_experience_ko": "스토어 설명과 AI 해석에 따르면, 'Mimic Party !'는 1~5명이 참여해 제시된 소리를 동시에 흉내 내고 음정과 리듬으로 채점받는 온라인 음성 파티 게임입니다. 턴제 없이 전원이 동시에 소리를 내는 동시성(Simultaneity)과, 휠을 통해 보너스나 벌칙이 결정되는 무작위성이 결합된 파티 경험을 제공합니다. 다만 이는 공개된 스토어 문구와 해석에 기반한 것이며, 인게임의 구체적인 UI 구성이나 네트워크 아키텍처는 관측되지 않았습니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 사실: 1~5인 온라인 음성 파티 게임이며, 제시된 소리를 동시에 모방하고 음정/리듬을 채점받은 뒤 휠로 보너스/벌칙을 결정합니다.",
+          "미확인 사항: 실제 사용된 오디오 처리 라이브러리, 실시간 음성 동기화 지연 해결 방식, 휠 연출의 상세 규칙 및 서버 인프라 구성은 스토어 정보에 드러나지 않습니다."
+        ],
+        "valuable_elements_ko": [
+          "동시 참여 방식: 턴을 기다리지 않고 모든 플레이어가 한 번에 소리를 내어 소란스럽고 유쾌한 파티 분위기를 조성하는 점",
+          "소리 모방과 채점의 결합: 단순한 마이크 대화가 아니라 음정과 리듬이라는 객관적/반객관적 기준을 두어 승패와 웃음을 유발하는 기획 구조",
+          "무작위성(휠 시스템): 실력뿐만 아니라 휠의 운에 따라 결과가 뒤집히는 파티 게임 특유의 불확실성과 반전 요소"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "EchoChallenger: 비동기 밈 음성 릴레이",
+            "core_idea_ko": "실시간 멀티플레이의 서버 부담을 없애고, 친구들이 남긴 소리 모방 클립을 비동기식으로 받아 챌린지 형태로 대결하는 모바일 파티 게임입니다.",
+            "what_to_keep_ko": "제시된 소리를 마이크로 흉내 내고 음정/리듬을 판정받는 핵심 재미와, 예상치 못한 결과로 웃음을 유발하는 파티 요소를 계승합니다.",
+            "what_to_change_ko": "실시간 동시 스트리밍 구조를 걷어내고, 오디오 파일을 녹음·업로드하여 주고받는 비동기 턴/챌린지 방식으로 변경해 서버 구축과 지연(Latency) 문제를 원천 차단합니다.",
+            "mobile_use_or_play_ko": "사용자가 앱을 켜고 오늘의 '동물 울음소리'나 '영화 대사' 챌린지를 선택해 마이크로 녹음하면, 앱이 즉시 피치와 리듬을 분석해 점수를 매기고 친구에게 공유 링크나 챌린지 코드를 보냅니다.",
+            "key_features_ko": [
+              "오디오 피치/리듬 로컬 분석 엔진",
+              "비동기 챌린지 공유 및 피드 뷰",
+              "점수 변동형 무작위 '벌칙 룰렛' 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "1인 개발을 위해 실시간 서버 대신 BaaS(예: Firebase)를 활용해 오디오 파일 저장 및 점수 데이터만 관리합니다. 로컬 오디오 라이브러리를 통해 기본 피치 분석을 구현하며, 서버 구축 난이도를 낮춰 빠른 출시가 가능합니다.",
+            "strengths_limits_ko": "실시간 네트워크 구현의 기술적 벽을 낮춰 1인 개발이 용이하지만, 동시에 소리를 내며 놀던 원작의 '즉흥적 실시간 파티' 느낌이 약해질 수 있습니다."
+          },
+          {
+            "title_ko": "SoundMimic: 오디오 클리닉 아케이드",
+            "core_idea_ko": "멀티플레이 요소를 완전히 배제하고, 다양한 환경음, 악기 소리, 목소리를 따라 하며 자신의 음감과 리듬감을 단련하는 싱글 플레이어 오디오 아케이드 게임입니다.",
+            "what_to_keep_ko": "소리를 듣고 마이크를 통해 즉각적으로 소리를 모방하며 음정과 리듬을 정밀하게 채점받는 핵심 조작 방식을 유지합니다.",
+            "what_to_change_ko": "다른 사람과의 경쟁이나 파티 요소를 걷어내고, 스테이지 클리어형 싱글 플레이, 레벨 디자인, 성장 요소를 결합하여 혼자서도 몰입할 수 있는 게임으로 개편합니다.",
+            "mobile_use_or_play_ko": "스테이지에 진입하면 목표 사운드가 재생되고, 플레이어가 마이크에 대고 소리를 내면 실시간 파형과 일치율이 게이지로 채워지며 별 3개 판정을 받고 다음 단계로 넘어갑니다.",
+            "key_features_ko": [
+              "실시간 오디오 파형 매칭 및 채점 시스템",
+              "난이도별 사운드 스테이지 및 챌린지 모드",
+              "플레이어 음역대 분석 및 맞춤형 트레이닝 프로필"
+            ],
+            "solo_mvp_and_effort_ko": "완전한 싱글 플레이 앱이므로 백엔드 서버가 거의 필요 없습니다. 오디오 입력 처리와 FFT(고속 푸리에 변환) 기반의 간단한 피치 추출 알고리즘만 모바일 로컬 코드로 구현하면 되므로 1인 개발 난이도가 가장 낮습니다.",
+            "strengths_limits_ko": "서버 비용이 들지 않고 구현이 안정적이지만, 원작이 가진 '여러 명이 함께 놀며 웃는 파티 게임'의 정체성과는 거리가 멀어집니다."
+          },
+          {
+            "title_ko": "TableMimic: 로컬 패스앤플레이 보이스 파티",
+            "core_idea_ko": "인터넷 서버 연결 없이, 하나의 스마트폰을 오고 가며(Pass-and-Play) 또는 동일한 블루투스/로컬 와이파이 공간에서 턴제로 소리를 흉내 내고 웃고 떠드는 로컬 파티 게임입니다.",
+            "what_to_keep_ko": "소리 모방, 음정/리듬 채점, 그리고 게임 결과를 뒤집는 무작위 벌칙/보너스 휠 시스템 등 파티 게임의 핵심 재미를 유지합니다.",
+            "what_to_change_ko": "복잡한 온라인 매칭과 실시간 음성 스트리밍 서버 대신, 기기 하나를 돌려쓰거나 로컬 네트워크를 활용하여 개발 및 운영 비용을 최소화합니다.",
+            "mobile_use_or_play_ko": "오프라인 모임에서 스마트폰을 테이블 위에 올려두고, 화면에서 제시하는 이상한 소리를 한 명씩 돌아가며 따라 부른 뒤, 판정 결과에 따라 폰에 등장하는 벌칙 룰렛을 돌려 벌칙 수행자를 정합니다.",
+            "key_features_ko": [
+              "로컬 기기 공유(Pass-and-Play) 인터페이스",
+              "즉석 음성 분석 및 시각적 피드백",
+              "자체 제작 가능한 커스텀 사운드 및 벌칙 덱"
+            ],
+            "solo_mvp_and_effort_ko": "오프라인 로컬 플레이 중심이므로 네트워크 인프라 설계가 불필요합니다. 로컬 마이크 입력과 간단한 UI 전환, 룰렛 애니메이션 구현에 집중하면 되어 1인 개발 스코프가 적절합니다.",
+            "strengths_limits_ko": "원작의 파티 감성과 웃음 포인트를 가장 잘 계승하면서도 서버 구축 비용과 지연 문제를 회피할 수 있습니다. 단, 대면 모임 상황이 전제되어야 하므로 사용자 풀이 제한될 수 있습니다."
+          }
+        ],
+        "concept_comparison_ko": "아이디어 1(EchoChallenger)은 비동기 소셜 챌린지로 확장해 서버 부담을 줄였으나 실시간성이 떨어지고, 아이디어 2(SoundMimic)는 싱글 플레이 아케이드로 전환해 구현 안정성이 가장 높지만 파티 성격이 희석됩니다. 반면 아이디어 3(TableMimic)은 로컬 패스앤플레이 방식을 도입하여 원작의 '함께 노는 파티' 감성을 온전히 살리면서도, 복잡한 실시간 멀티플레이어 서버와 음성 스트리밍의 기술적 장벽을 깔끔하게 우회합니다.",
+        "recommended_concept_number": 3,
+        "why_recommended_ko": "아이디어 3(TableMimic)은 원작 'Mimic Party !'의 가장 큰 매력인 '여럿이 모여 소리를 흉내 내며 웃는 파티 게임'의 본질을 가장 충실히 계승합니다. 동시에, 1인 개발자에게 치명적인 병목인 '실시간 음성 스트리밍 및 동시 멀티플레이어 동기화 서버' 문제를 로컬 기기 공유(Pass-and-Play) 방식으로 해결하여 현실적인 구현 가능성을 높였습니다. 서버 유지 비용 걱정 없이 오프라인 파티나 모임에서 즉각적인 재미를 검증할 수 있는 최적의 타협안입니다.",
+        "next_questions_ko": [
+          "모바일 기기의 마이크 입력 감도와 주변 소음(노이즈)을 필터링하면서 음정과 리듬을 정확히 판정할 수 있는 가벼운 오디오 분석 라이브러리(또는 알고리즘)는 무엇이 있는가?",
+          "오프라인 패스앤플레이 환경에서 플레이어들이 기기를 주고받을 때의 UX 마찰을 줄이기 위해 어떤 애니메이션과 타이머 디자인이 필요한가?"
+        ]
+      },
+      "brief_at": "2026-11-14T07:59:57+09:00",
+      "brief_quota_day": "2026-11-14",
+      "brief_usage": {
+        "promptTokenCount": 1305,
+        "candidatesTokenCount": 2332,
+        "totalTokenCount": 6971,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1305
+          }
+        ],
+        "thoughtsTokenCount": 3334,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:6813545317",
+        "product_kind": "game",
+        "selected_concept_title_ko": "TableMimic: 로컬 패스앤플레이 보이스 파티",
+        "project_goal_and_audience_ko": "오프라인 모임이나 친구들과의 술자리에서 스마트폰 하나로 간편하게 소리를 흉내 내고 웃고 즐길 수 있는 로컬 파티 게임을 찾는 사용자들을 위한 모바일 게임. 복잡한 서버 연결이나 회원가입 없이, 하나의 기기를 돌려쓰며 즉석에서 아이스브레이킹과 웃음을 유발하는 것이 목표입니다.",
+        "source_relation_and_difference_ko": "원본 'Mimic Party !'의 핵심 재미인 '소리 모방, 음정 및 리듬 분석 채점, 무작위 휠(룰렛)을 통한 반전'이라는 오디오 파티의 본질은 충실히 유지합니다. 차이점으로는 1인 개발자에게 큰 부담이 되는 실시간 멀티플레이어 서버와 동시 음성 스트리밍 구조를 배제하고, 하나의 기기를 순서대로 사용하는 패스앤플레이(Pass-and-Play) 방식으로 전환하여 구현 복잡도와 인프라 비용을 대폭 낮췄습니다.",
+        "core_user_experience_ko": "사용자는 게임 시작 전 플레이어들의 이름을 등록하고, 앱이 제시하는 무작위 샘플 사운드(동물 울음소리, 기계음, 독특한 효과음 등)를 다 함께 청취합니다. 차례가 된 플레이어가 스마트폰 마이크를 향해 해당 소리를 흉내 내어 내뱉으면, 앱이 실시간으로 오디오를 분석하여 음정(Pitch)과 리듬(Rhythm)을 수치화합니다. 모든 참가자의 턴이 끝나면 점수 순위가 집계되고, 결과에 따라 무작위 벌칙 휠(Wheel)을 돌려 당첨된 사람이 벌칙을 수행하며 유쾌한 긴장감을 즐깁니다.",
+        "features_ko": [
+          {
+            "feature_ko": "로컬 패스앤플레이 턴 관리 시스템",
+            "user_action_and_behavior_ko": "플레이어 목록 등록 후, 스마트폰을 순서대로 넘겨받으며 자신의 턴에만 녹음 버튼이 활성화되는 흐름. 다음 플레이어에게 기기를 넘기라는 직관적인 UI 가이드를 제공하여 오프라인 모임의 원활한 진행을 지원합니다.",
+            "practical_implementation_ko": "로컬 상태 관리(State Machine)를 활용해 현재 턴의 플레이어 인덱스를 추적하고, 라운드별 점수 데이터를 배열에 누적 저장."
+          },
+          {
+            "feature_ko": "온디바이스 오디오 분석 및 채점 모듈",
+            "user_action_and_behavior_ko": "마이크로 입력된 사용자의 목소리 주파수와 타이밍을 제시된 소리와 비교하여 음정 일치도와 리듬 정확도를 점수로 환산하고, 화면에 게이지와 시각적 그래프 피드백을 제공합니다.",
+            "practical_implementation_ko": "크로스플랫폼 오디오 플러그인(예: Flutter sound 또는 네이티브 AudioRecord API)을 활용해 PCM 오디오 버퍼를 획득하고, 간단한 FFT 기반 피치 추출 및 타임스탬프 기반 리듬 매칭 알고리즘을 연동."
+          },
+          {
+            "feature_ko": "파티 룰렛 및 벌칙 휠 시스템",
+            "user_action_and_behavior_ko": "라운드 종료 후 점수 결과를 바탕으로 긴장감 넘치는 효과음과 함께 휠이 회전하며 보너스 획득자나 벌칙 수행자를 극적으로 결정합니다.",
+            "practical_implementation_ko": "UI 캔버스 또는 애니메이션 컨트롤러를 이용해 휠 회전 각도와 감속 물리 효과(Easing)를 구현하고, 커스텀 벌칙 텍스트 리스트와 동적으로 연결."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "1. 메인 및 플레이어 설정 화면",
+            "contents_and_actions_ko": "게임 타이틀 로고, 참가자 이름 입력 및 추가/삭제 인터페이스, 사운드 팩 선택(기본, 동물, 엽기 등), '게임 시작' 버튼."
+          },
+          {
+            "screen_ko": "2. 사운드 제시 및 녹음 턴 화면",
+            "contents_and_actions_ko": "현재 턴 플레이어 이름 배너, '제시된 소리 다시 듣기' 버튼, '내 목소리 녹음하기' 버튼(누르는 동안 또는 타이머 기반 녹음), 녹음 완료 후 분석 로딩 표시."
+          },
+          {
+            "screen_ko": "3. 라운드 결과 및 채점 화면",
+            "contents_and_actions_ko": "플레이어별 음정/리듬 점수 바 차트, 순위 표시, '벌칙 휠 돌리기' 버튼 활성화."
+          },
+          {
+            "screen_ko": "4. 무작위 벌칙 휠 화면",
+            "contents_and_actions_ko": "휠 회전 애니메이션, 당첨된 벌칙 내용 팝업, '다음 라운드 진행' 또는 '게임 종료 및 최종 우승자 발표' 선택."
+          }
+        ],
+        "implementation_approach_ko": "크로스플랫폼 프레임워크(예: Flutter) 또는 게임 엔진(예: Unity)을 활용하여 모바일 앱으로 구현합니다. 오디오 입력 처리와 캔버스 애니메이션의 성능을 고려할 때, 1인 개발 시 Flutter + 로컬 상태 관리 조합이 가볍고 빠른 UI 구현에 유리합니다. 별도의 백엔드 서버나 데이터베이스가 필요 없으며, 모든 데이터는 온디바이스에서 처리되어 서버 유지 비용과 네트워크 지연 리스크가 원천 차단됩니다.",
+        "data_and_storage_ko": [
+          "플레이어 세션 데이터: 참여자 이름, 라운드별 점수 목록 (메모리 내 Local State로 관리, 앱 종료 시 초기화)",
+          "사운드 메타데이터 및 샘플: 앱 내장 JSON 파일 및 로컬 오디오 에셋 (사운드 ID, 타이틀, 기준 주파수 패턴 데이터, 파일 경로)",
+          "커스텀 벌칙 덱 데이터: 사용자가 직접 추가/수정 가능한 벌칙 문구 목록 (SharedPreferences 또는 로컬 JSON 파일에 영구 저장)"
+        ],
+        "mvp_scope_ko": "2~5명의 플레이어가 참여할 수 있는 단일/멀티 라운드 챌린지 모드. 기본 사운드 샘플 5종 제공, 마이크 녹음 후 간단한 음정·리듬 비교 채점, 그리고 룰렛을 통한 벌칙 선정 기능까지만 구현합니다. 온라인 멀티플레이어 매칭, 계정 로그인, 글로벌 리더보드, 복잡한 사운드 팩 다운로드 기능은 MVP 범위에서 제외하여 1인 개발 스코프를 최소화합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 셋업 및 패스앤플레이 UI 흐름 구축",
+            "deliverable_and_check_ko": "플레이어 이름 입력 화면부터 턴 교대, 라운드 종료 화면까지 이어지는 UI 네비게이션 구조 완성. (실행 후 턴 전환 및 입력값이 정상 반영되는지 수동 확인)"
+          },
+          {
+            "stage_ko": "2단계: 마이크 오디오 입력 및 기본 채점 로직 구현",
+            "deliverable_and_check_ko": "마이크 권한 요청, 사운드 녹음, 버퍼 데이터 획득 후 대략적인 피치/시간 분석을 거쳐 점수를 반환하는 모듈 구현. (목소리 크기와 높낮이에 따라 점수가 유의미하게 변동되는지 테스트)"
+          },
+          {
+            "stage_ko": "3단계: 룰렛 애니메이션 및 전체 게임 루프 완성",
+            "deliverable_and_check_ko": "점수 산정 결과와 연동되는 휠 애니메이션 구현, 벌칙 팝업 출력, 최종 게임 리셋 기능 결합. (한 세트를 처음부터 끝까지 끊김 없이 플레이할 수 있는지 검증)"
+          }
+        ],
+        "possible_extensions_ko": "사용자가 직접 스마트폰으로 새로운 소리를 녹음하여 커스텀 사운드 퀴즈를 만드는 '커스텀 사운드 팩 메이커' 기능, 다양한 테마(공포, 파티 등)의 오디오 확장 팩 추가, 오프라인 블루투스 통신을 활용한 멀티 기기 연동 플레이.",
+        "risks_and_open_decisions_ko": [
+          "기기 간 마이크 성능 차이로 인한 채점 공정성 문제: 전문적인 음성 인식 AI가 아니므로 1인 개발 수준의 오디오 분석 정확도 한계가 존재함. 이를 엄격한 채점보다는 '웃음을 유발하는 유머러스한 오차'로 브랜딩할 필요가 있음.",
+          "오프라인 모임 장소의 주변 소음 간섭: 카페나 시끄러운 술자리에서 마이크가 주변 소음을 수음할 경우 분석 오류 발생 가능성. 녹음 전 주변 정숙을 유도하는 가이드 UI나 노이즈 게이트(Noise Gate) 임계값 설정 로직 도입 여부 결정 필요.",
+          "원작의 온라인 동시 참여 경험과 패스앤플레이 방식 간의 몰입감 차이: 동시 왁자지껄함 대신 턴제로 집중도가 분산될 수 있으므로, 제한 시간 타이머와 시각적 카운트다운 효과를 강화하여 긴장감을 유지할 수 있는지 추후 플레이테스트를 통해 검증해야 함."
+        ],
+        "draft_status_ko": "본 개발 설계 초안은 실제 제품 구현, 오디오 분석 알고리즘 성능 최적화, 오프라인 플레이테스트가 완료되지 않은 개념 설계 단계의 문서입니다."
+      },
+      "plan_at": "2026-11-14T08:00:16+09:00",
+      "plan_quota_day": "2026-11-14",
+      "plan_usage": {
+        "promptTokenCount": 2101,
+        "candidatesTokenCount": 2328,
+        "totalTokenCount": 7451,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2101
+          }
+        ],
+        "thoughtsTokenCount": 3022,
+        "serviceTier": "standard"
+      }
+    },
+    "google:com.wood.bolt.wordle.screw.nuts.puzzle": {
+      "app_key": "google:com.wood.bolt.wordle.screw.nuts.puzzle",
+      "name": "ネジパズル: 脳トレ ウッド パズル - 人気 ネジ ゲーム",
+      "developer": "LifePulse Puzzle Game Studio",
+      "source": "google",
+      "kind": "game",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.wood.bolt.wordle.screw.nuts.puzzle&hl=ja&gl=JP",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.wood.bolt.wordle.screw.nuts.puzzle",
+        "product_kind": "game",
+        "original_experience_ko": "스토어 소개문을 통해 확인된 원본의 사실은 목재 판(Wood Plate)에 박힌 볼트와 너트를 순서에 맞게 제거하여 판을 떨어뜨리는 퍼즐 메커니즘을 제공하고, 퍼즐 클리어 시 황폐화된 도시의 건물과 공원이 복구되는 시각적 보상이 주어진다는 점입니다. 또한 ASMR 사운드와 오프라인 플레이를 지원합니다. AI 해석에 따르면, 이는 물리 기반 객체 충돌 시스템과 논리적 사고(수순 파악)를 결합하여 플레이어에게 높은 몰입감과 성취감을 유도하는 퍼즐 및 메타 게임의 결합 형태로 분석됩니다.",
+        "source_facts_and_limitations_ko": [
+          "확인된 사실: 볼트와 너트를 해제하여 나무 판을 떨어뜨리는 퍼즐 방식, 퍼즐 해결을 통한 도시 재건(City Building) 메타 요소, ASMR 사운드, 오프라인 플레이 및 데이터 동기화 기능.",
+          "확인되지 않은 한계: 실제 적용된 물리 엔진의 종류, 레벨 생성 알고리즘의 구체적인 구현 방식, 도시 복구 데이터의 세부 저장 구조 및 난이도 밸런싱 수치."
+        ],
+        "valuable_elements_ko": [
+          "어떤 볼트를 먼저 빼야 판이 떨어질지 고민하게 만드는 논리적 순서 배치와 전략적 재미.",
+          "퍼즐 플레이의 성과가 시각적인 도시 성장(메타 게임)으로 직각 연결되는 명확한 보상 루프.",
+          "나무와 금속이 부딪히는 조작음과 타격음을 활용한 정서적 만족감(ASMR)."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "기계 복원 공방: 시계탑의 비밀",
+            "core_idea_ko": "볼트 해제 퍼즐에 '기어 회전 및 동력 전달'이라는 2차원 위상 규칙을 결합하여, 부품을 해제하고 얻은 태엽 동력으로 거대한 고대 기계와 시계탑을 수리하는 퍼즐 게임.",
+            "what_to_keep_ko": "볼트를 하나씩 제거하며 부품이 분리되는 손맛과, 퍼즐 성과가 메타 게임(기계 복원)의 시각적 성취로 이어지는 보상 구조를 계승합니다.",
+            "what_to_change_ko": "단순 중력 낙하 퍼즐에서 벗어나, 특정 볼트가 '회전축 기어' 역할을 하여 판을 회전시켜야만 다른 볼트에 접근할 수 있는 동력 전달 규칙을 추가합니다.",
+            "mobile_use_or_play_ko": "사용자가 스테이지에서 볼트를 터치해 빼내되, 회전축 볼트를 조작해 인접 패널을 돌려가며 모든 판을 분리하고, 보상으로 받은 태엽 부품을 이용해 시계탑의 기어를 수리하여 움직이게 만듭니다.",
+            "key_features_ko": [
+              "회전축 볼트 및 기어 동력 전달 퍼즐 규칙",
+              "부품 해체 기반 스팀펑크 기계 3D 뷰어 수리 메타",
+              "기계 작동음 중심의 금속성 ASMR 사운드"
+            ],
+            "solo_mvp_and_effort_ko": "2D/2.5D 그리드 기반의 타일 및 회전 로직 구현, Unity/Godot의 기본 2D 시스템을 활용해 1인 개발자가 스테이지 데이터를 JSON으로 관리하며 구현 가능합니다.",
+            "strengths_limits_ko": "퍼즐의 두뇌 플레이 깊이가 깊어지나, 규칙이 복잡해져 캐주얼 유저의 진입 장벽이 높아질 수 있습니다."
+          },
+          {
+            "title_ko": "아키텍트 펜실: 도면 해체와 룸메이크",
+            "core_idea_ko": "건축 설계 도면 형태의 판에 박힌 결합 핀(볼트)을 해체하여 도면을 전개하고, 획득한 인테리어 에셋으로 가상의 방을 꾸미는 샌드박스 메타 퍼즐 게임.",
+            "what_to_keep_ko": "요소를 순서대로 해제하는 퍼즐 코어와 공간을 채워나가는 메타 게임 보상 구조를 계승합니다.",
+            "what_to_change_ko": "고정된 나무 블록 대신 2D 건축 도면의 레이어 구조를 해체하는 방식을 도입하고, 메타 게임을 도시 복구가 아닌 실내 인테리어 커스텀마이징으로 변경합니다.",
+            "mobile_use_or_play_ko": "도면 스테이지에서 핀을 올바른 순서로 제거해 레이어를 분해한 뒤, 획득한 가구 에셋으로 빈 방을 꾸미고 스크린샷을 찍어 공유하는 흐름입니다.",
+            "key_features_ko": [
+              "레이어 기반 도면 전개 퍼즐 규칙",
+              "가구 배치 및 인테리어 샌드박스 메타 게임",
+              "연필 스케치풍의 UI 및 종이 찢는 ASMR 사운드"
+            ],
+            "solo_mvp_and_effort_ko": "2D 스프라이트 레이어링과 간단한 가구 배치 그리드 시스템으로 구현이 용이하며, 1인 개발 시 그래픽 에셋 소싱이 핵심 과제입니다.",
+            "strengths_limits_ko": "시각적 커스텀의 재미가 크나, 인테리어 메타 게임의 콘텐츠 유지 비용(가구 종류 추가 등)이 높을 수 있습니다."
+          },
+          {
+            "title_ko": "에코 디펜더: 정크 가든 리사이클",
+            "core_idea_ko": "오염된 폐기물과 고철 구조물에 박힌 볼트와 나사를 풀어 재활용 부품을 수집하고, 이를 활용해 시들어가는 정원과 동식물을 되살리는 생태 복원 퍼즐 게임.",
+            "what_to_keep_ko": "부품을 제거해 구조물을 무너뜨리거나 해체하는 상호작용과, 단계적 환경 개선 보상 구조를 계승합니다.",
+            "what_to_change_ko": "도시 건설 대신 식물 생장 시뮬레이션 및 동물 입양 메타를 결합하고, 시간 경과에 따른 생태계 유지 관리 요소를 추가합니다.",
+            "mobile_use_or_play_ko": "쓰레기 구조물 퍼즐을 풀어 자원을 모은 뒤 정원에 나무를 심고 물을 주며 동물이 찾아오는 과정을 반복하는 흐름입니다.",
+            "key_features_ko": [
+              "재활용 자원 루프형 퍼즐 메커니즘",
+              "식물 생장 및 동물 수집 에코 메타 게임",
+              "자연 친화적 나무/흙 ASMR 사운드"
+            ],
+            "solo_mvp_and_effort_ko": "2D 타일맵과 간단한 자원 관리/타이쿤 로직으로 구현 가능하며, 1인 개발 범위 내에서 밸런스 조정이 비교적 수월합니다.",
+            "strengths_limits_ko": "대중적인 힐링 테마와 잘 어울리나, 타이쿤 요소가 퍼즐의 몰입을 방해하거나 단순 반복으로 느껴질 수 있습니다."
+          }
+        ],
+        "concept_comparison_ko": "세 아이디어는 모두 '볼트/너트 해체 퍼즐'이라는 원본의 코어를 유지하면서 메타 게임과 확장 규칙에서 차별화를 가집니다. '기계 복원 공방'은 기어 회전 규칙을 통해 퍼즐의 전략적 깊이를 강화했고, '아키텍트 펜실'은 도면 해체와 인테리어 커스텀으로 미적 변주를 꾀했으며, '에코 디펜더'는 힐링 및 생태 복원이라는 대중적 타이쿤 메타를 결합했습니다. 제작 부담 면에서는 2D 레이어 기반의 아키텍트 펜실과 에코 디펜더가 1인 개발에 상대적으로 유리하며, 기계 복원은 로직 구현 난이도가 다소 높습니다.",
+        "recommended_concept_number": 3,
+        "why_recommended_ko": "3번 아이디어('에코 디펜더: 정크 가든 리사이클')는 원본의 도시 복구 메타를 대중적인 '생태 정원 복원 및 동식물 수집'으로 자연스럽게 진화시켰으며, 퍼즐의 해체 행위가 재활용 자원 획득으로 직결되는 당위성을 부여합니다. 2D 기반으로 1인 개발자가 MVP를 구현하기에 기술적 부담이 적고, 힐링 ASMR 요소와도 잘 어울려 원본의 매력을 가장 효과적으로 확장할 수 있습니다.",
+        "next_questions_ko": [
+          "퍼즐 스테이지의 난이도 곡선을 자동 생성할 것인가, 수동으로 디자인할 것인가?",
+          "메타 게임(정원 성장)의 성취감이 퍼즐 플레이의 동기부여로 충분히 작용하는지 테스트할 방법은 무엇인가?",
+          "물리 엔진 기반의 충돌 처리 대신 격자 기반의 논리 규칙으로 전환했을 때 손맛(ASMR 및 조작 쾌감)이 유지되는가?"
+        ]
+      },
+      "brief_at": "2026-11-14T08:27:16+09:00",
+      "brief_quota_day": "2026-11-14",
+      "brief_usage": {
+        "promptTokenCount": 2069,
+        "candidatesTokenCount": 2230,
+        "totalTokenCount": 7385,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2069
+          }
+        ],
+        "thoughtsTokenCount": 3086,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.wood.bolt.wordle.screw.nuts.puzzle",
+        "product_kind": "game",
+        "selected_concept_title_ko": "에코 디펜더: 정크 가든 리사이클",
+        "project_goal_and_audience_ko": "오염된 고철 구조물과 폐기물에 박힌 볼트와 나사를 풀어 재활용 부품을 수집하고, 이를 활용해 시들어가는 정원과 동식물을 되살리는 모바일 힐링 퍼즐 게임. 퍼즐의 논리적 재미와 정원 키우기(타이쿤/수집)의 성취감을 동시에 원하는 대중적 유저를 타겟으로 합니다.",
+        "source_relation_and_difference_ko": "원본의 볼트/너트 해체 퍼즐과 메타 성장 보상(도시 건설)이라는 핵심 경험을 계승하되, 도시 건설 대신 '생태 정원 복원 및 동식물 수집'이라는 힐링·환경 테마로 차별화합니다. 해체 행위가 단순한 클리어를 넘어 '재활용 자원 획득'이라는 명확한 당위성을 갖도록 설계했습니다.",
+        "core_user_experience_ko": "사용자는 화면에 표시된 고철/폐기물 구조물에 박힌 다양한 방향의 볼트와 나사를 터치하여 논리적 순서에 맞게 제거합니다. 모든 볼트가 빠지면 구조물이 무너져내리며 철재, 목재 등 재활용 부품이 수집됩니다. 이 자원을 소모해 시든 정원에 새로운 식물을 심고 구역을 정화하며, 시간이 지나며 동물이 찾아오는 시각적·청각적 보상을 체감합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "재활용 자원 루프형 퍼즐 메커니즘",
+            "user_action_and_behavior_ko": "볼트를 터치해 빈 홀더로 이동시키고, 판을 지지하는 볼트가 모두 제거되면 구조물이 붕괴하며 재활용 자원을 획득합니다. 논리적 순서 고민과 해체의 쾌감을 제공합니다.",
+            "practical_implementation_ko": "2D 레이캐스트 및 충돌 판정을 활용한 터치 이벤트 처리, 구조물별 계층 구조(Hierarchy) 배열 데이터로 구현."
+          },
+          {
+            "feature_ko": "에코 정원 메타 성장 시스템",
+            "user_action_and_behavior_ko": "퍼즐에서 얻은 재활용 자원으로 정원의 오염된 구역을 정화하고 나무를 심어 생태계를 복원합니다. 일정 조건 달성 시 새로운 동물이 찾아와 정원에 상주합니다.",
+            "practical_implementation_ko": "정원 그리드 또는 고정 배치 슬롯 기반의 데이터 관리, 자원 소모 및 해금 조건 체크 로직 구현."
+          },
+          {
+            "feature_ko": "에코 ASMR 및 햅틱 피드백",
+            "user_action_and_behavior_ko": "볼트를 돌릴 때의 금속음, 판이 떨어질 때의 나무/철재 부딪힘 소리와 가벼운 진동을 통해 정서적 몰입감과 힐링 효과를 제공합니다.",
+            "practical_implementation_ko": "오디오 매니저를 통한 사운드 풀링 및 터치/붕괴 시점의 동적 사운드 트리거, 모바일 햅틱 API 연동."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 정원 화면",
+            "contents_and_actions_ko": "정원 전체 뷰(정화된 구역, 식물, 동물), 보유 자원 현황 표시, 퍼즐 스테이지 진입 버튼 및 도감 메뉴로 이동."
+          },
+          {
+            "screen_ko": "퍼즐 플레이 화면",
+            "contents_and_actions_ko": "고철 구조물 및 볼트 배치 뷰, 볼트 홀더, 남은 이동 횟수 또는 제한 시간, 설정/사운드 토글 버튼."
+          },
+          {
+            "screen_ko": "도감 및 리사이클 센터 화면",
+            "contents_and_actions_ko": "지금까지 복원한 식물 및 방문한 동물 리스트 확인, 자원 변환 및 업그레이드 내역 관리."
+          }
+        ],
+        "implementation_approach_ko": "Unity Engine (2D 중심 설계). 2D 스프라이트와 가벼운 물리/레이캐스트 처리를 활용하여 1인 개발 시 구현 난이도를 낮추고 모바일 최적화를 확보합니다. 데이터 관리는 로컬 JSON 파일 및 ScriptableObject 기반으로 처리합니다.",
+        "data_and_storage_ko": [
+          "UserCurrency: 철재, 목재 등 재활용 자원 보유량을 저장하는 로컬 정수 데이터 (PlayerPrefs 또는 JSON)",
+          "StageData: 스테이지별 볼트 위치, 판 구성, 구멍 좌표를 담은 직렬화된 데이터 객체",
+          "GardenState: 정원의 각 구역 정화 여부, 심어진 식물 ID, 해금된 동물 리스트를 담은 상태 객체"
+        ],
+        "mvp_scope_ko": "10개의 기본 퍼즐 스테이지, 재활용 자원 2종(철재, 목재), 식물 3종과 동물 2종을 해금할 수 있는 기본 정원 메타 구현. 복잡한 소셜 기능이나 다중 자원 시스템은 제외하고 핵심 퍼즐-정원 루프의 검증에 집중합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 퍼즐 코어 로직 구현",
+            "deliverable_and_check_ko": "볼트 터치 시 빈 홀더로 이동하는 기능, 볼트가 모두 제거되었을 때 판이 떨어지는 2D 판정 로직 프로토타입 제작."
+          },
+          {
+            "stage_ko": "2단계: 메타 정원 및 자원 연동",
+            "deliverable_and_check_ko": "퍼즐 클리어 시 자원이 지급되고, 메인 정원 화면에서 해당 자원으로 식물을 심거나 구역을 정화할 수 있는 UI 흐름 구현."
+          },
+          {
+            "stage_ko": "3단계: ASMR 사운드 및 피드백 추가",
+            "deliverable_and_check_ko": "조작 및 파괴 시점에 사운드와 햅틱 효과를 연결하여 감각적 피드백 검증."
+          },
+          {
+            "stage_ko": "4단계: 스테이지 확장 및 빌드 안정화",
+            "deliverable_and_check_ko": "추가 스테이지 데이터 구성 및 안드로이드 로컬 빌드 테스트, 예외 상황(강제 종료 시 데이터 유실 방지) 점검."
+          }
+        ],
+        "possible_extensions_ko": "계절별 테마 정원 이벤트, 희귀 동물 사진 촬영 및 앨범 공유 기능, 커스텀 정원 배치 편집 모드.",
+        "risks_and_open_decisions_ko": [
+          "물리/레이캐스트 기반 볼트 터치 시 겹침 현상(블록 낌) 예방을 위한 예외 처리 로직 검토 필요.",
+          "퍼즐 난이도 곡선과 정원 확장 재화 소모량 간의 밸런스 조정 방식은 플레이테스트를 통해 확정 필요."
+        ],
+        "draft_status_ko": "본 문서는 실제 구현, 플레이테스트, 성능 측정이 완료되지 않은 개발 설계 초안입니다."
+      },
+      "plan_at": "2026-11-14T08:27:30+09:00",
+      "plan_quota_day": "2026-11-14",
+      "plan_usage": {
+        "promptTokenCount": 2737,
+        "candidatesTokenCount": 1785,
+        "totalTokenCount": 5767,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2737
+          }
+        ],
+        "thoughtsTokenCount": 1245,
         "serviceTier": "standard"
       }
     }

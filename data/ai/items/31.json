@@ -12767,6 +12767,449 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-13"
+    },
+    "itch:6bf61ea4b27e401f1933": {
+      "app_key": "itch:6bf61ea4b27e401f1933",
+      "name": "Shooter Wild Royale [Free] [Shooter] [Windows] [Android]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://lemartinie.itch.io/shooter-wild-royale",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:34:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Juego de disparos todos contra todos, vista top down.",
+      "analysis": {
+        "app_key": "itch:6bf61ea4b27e401f1933",
+        "summary_ko": "탑다운 시점에서 진행되는 모두가 적이 되는 슈팅 게임입니다. 윈도우와 안드로이드를 지원합니다.",
+        "features_ko": [
+          "탑다운 뷰를 통해 전장을 내려다보며 플레이합니다.",
+          "모든 플레이어가 서로를 공격하는 배틀 로얄 규칙을 따릅니다."
+        ],
+        "noteworthy_ko": "탑다운 슈팅은 시야 확보와 조작이 직관적이라 개발하기에 좋은 장르입니다. 배틀 로얄 형식을 1인 개발로 구현할 때는 봇(Bot)을 활용한 싱글 플레이 환경 구축이 선행되어야 합니다.",
+        "development_ko": "핵심 기술은 탑다운 카메라 제어와 사격 판정입니다. 콘텐츠 제작은 맵 디자인과 캐릭터별 능력치 밸런스에 집중해야 합니다. 테스트 시 다수의 적이 동시에 등장할 때의 성능 최적화가 중요합니다.",
+        "idea_ko": "좁아지는 전장 안에서 아이템을 파밍하여 생존하는 서바이벌 모드를 구현하는 것이 적합합니다.",
+        "highlights_ko": [
+          "탑다운 시점의 직관적인 슈팅.",
+          "모두가 적이 되는 배틀 로얄 방식."
+        ],
+        "systems_ko": [
+          "탑다운 카메라 시스템",
+          "사격 및 투사체 판정",
+          "캐릭터 이동 및 조작",
+          "적 AI(봇) 로직",
+          "맵 데이터 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "배틀 로얄 장르는 다수의 개체가 상호작용해야 하므로 AI 구현과 성능 최적화가 까다롭습니다. 1인 개발 시에는 맵 크기를 줄이고 적의 수를 제한하여 구현해야 합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "플레이어 이동 및 사격",
+            "적 AI 기본 행동",
+            "맵 경계 처리"
+          ],
+          "defer": [
+            "온라인 멀티플레이",
+            "다양한 무기 및 장비",
+            "랭킹 시스템"
+          ],
+          "risks": [
+            "AI의 지능 부족",
+            "성능 최적화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "그림자 숨기",
+            "concept": "탑다운 시점에서 그림자 영역에 들어가면 적에게 보이지 않는 은신 메커니즘입니다.",
+            "first_step": "플레이어와 적의 시야각(FOV)을 구현하고 그림자 영역 판정 로직 작성."
+          },
+          {
+            "title": "탄약 공유 전장",
+            "concept": "맵에 떨어진 탄약을 모두가 공유하여, 먼저 먹는 사람이 유리해지는 경쟁 요소입니다.",
+            "first_step": "아이템 생성 및 획득 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "탑다운 슈팅의 기본기와 AI 행동 패턴을 공부하기 좋습니다. 멀티플레이 없이도 재미있는 싱글 배틀 로얄을 만들고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "온라인 멀티플레이 지원 여부, 무기 종류, 맵의 크기 등 상세 사양은 알 수 없습니다.",
+        "name": "Shooter Wild Royale [Free] [Shooter] [Windows] [Android]",
+        "source": "itch",
+        "detail_url": "https://lemartinie.itch.io/shooter-wild-royale",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 284,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 32,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "apple:6815487073": {
+      "app_key": "apple:6815487073",
+      "name": "유니플 Uniple: 둘이 직접 만드는 커플앱",
+      "developer": "UNIPLE Inc.",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_lifestyle",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%9C%A0%EB%8B%88%ED%94%8C-uniple-%EB%91%98%EC%9D%B4-%EC%A7%81%EC%A0%91-%EB%A7%8C%EB%93%9C%EB%8A%94-%EC%BB%A4%ED%94%8C%EC%95%B1/id6815487073?uo=2",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:35:13+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "둘이 직접 만드는 커플앱, 유니플. 커플 디데이, 커플 캘린더, 데이트 지도, 커플 다이어리, 버킷리스트까지. 쓰고 싶은 블록만 골라 우리만의 커플앱을 만들어보세요. ■ 원하는 것만 골라 담기 - 연애하는 모습이 커플마다 다르듯, 필요한 기능도 다 달라요. - 12가지 블록 중 우리에게 필요한 것만 골라 담아요. - 디데이 · 캘린더 · 버킷리스트 · 데이트 지도 · 세계지도 · 공유앨범 · 일기장 · 문화기록장 · 습관 체크 · 맛집 기록장 · 가계부 · 자유 블록 ■ 우리 취향대로 고르는 테마 - 귀여운 테마만 고집하지 않아요. - 시크하게, 미니멀하게. 테마 6종 중에서 골라요. - 블록 배치도, 블록 이름도 둘이 정하고, 바뀐 모습을 실시간으로 확인해요. ■ 데이트한 날엔 하트가 생기는 커플 캘린더 - 각자의 일정과 데이트 약속을 하나의 공유 캘린더에서 함께 봐요. - 날짜마다 사진을 넣어 그날의 우리를 남겨요. 데이트한 날엔 작은 하트가 생겨요. - 한 달을 넘겨보면, 하트로 채워진 우리의 한 달이 보여요. ■ 사진으로 채우는 데이트 지도 - 함께 간 곳에 사진을 남겨 전국 지도를 한 칸씩 채워요. - 해외여행은 세계지도에 채울 수 있어요. - 우리가 어디어디 다녔는지 한눈에 보여요. ■ 문화 기록, 맛집 기록까지 - 같이 본 영화, 드라마, 전시는 문화기록장에 평점과 함께 남겨요. - 또 가고 싶은 맛집은 맛집 기록장에. 링크와 짧은 메모까지 담아요. - 사소한 것까지 남겨두면, 그게 우리 연애의 기록이 돼요. ■ 필요한 블록은 만들어드려요 - \"꽃 선물을 기록하는 블록이 있으면 좋겠어요.\" 이런 요청이 오면, 새 블록으로 만들어요. - 유니플은 커플들의 이야기를 들으며 업데이트돼요. ■ 이런 커플에게 추천해요 - 커플 디데이와 기념일을 한눈에 챙기고 싶은 커플 - 공유 캘린더로 서로의 일정과 데이트 약속을 맞추고 싶은 커플 - 데이트 기록, 여행 기록을 사진으로 남기고 싶은 커플 - 커플 다이어리와 커플 가계부를 한 앱에서 쓰고 싶은 커플 - 장거리 연애 중인 커플, 결혼을 앞둔 커플과 부부 세상에 똑같은 사랑은 없으니까, 똑같은 앱도 없어야죠. 유니플로 둘만의 사랑을 둘만의 방식으로 기록해보세요. 궁금한 점이나 바라는 기능이 있다면 아래로 편하게 연락주세요. 보내주신 의견은 하나하나 읽고 있어요. [문의 및 소통] - 이용 문의: info@uniple.app - 홈페이지: https://uniple.app - 인스타그램: https://instagram.com/uniple.app [구독 및 약관] - 플러스와 유니크는 월간·연간 자동 갱신 구독이에요. - 이용약관(EULA): https://uniple.app/terms - 개인정보처리방침: https://uniple.app/privacy",
+      "analysis": {
+        "app_key": "apple:6815487073",
+        "summary_ko": "사용자가 원하는 기능 블록을 선택하여 커플만의 앱을 구성하는 커스터마이징 서비스입니다. 디데이, 캘린더, 지도, 다이어리 등 12가지 블록을 제공하여 연애 기록을 관리합니다. 테마 변경과 블록 배치를 통해 개인화된 사용자 경험을 제공합니다.",
+        "features_ko": [
+          "12가지 기능 블록 중 필요한 항목만 선택하여 앱을 구성합니다.",
+          "공유 캘린더를 통해 일정과 데이트 약속을 관리하고 사진을 기록합니다.",
+          "데이트 장소를 지도에 표시하여 방문 기록을 시각화합니다.",
+          "문화 기록장과 맛집 기록장을 통해 취향을 공유합니다.",
+          "6종의 테마를 제공하여 앱의 디자인을 변경합니다."
+        ],
+        "noteworthy_ko": "사용자가 직접 앱의 구성을 선택하는 모듈형 아키텍처가 인상적입니다. 이는 다양한 사용자 요구사항을 하나의 앱으로 수용하면서도 복잡도를 낮추는 좋은 전략으로 보입니다.",
+        "development_ko": "모듈형 UI 구성과 실시간 데이터 동기화가 핵심입니다. 사용자별로 다른 앱 구성을 저장하기 위한 유연한 데이터베이스 설계가 필요하며, 커플 간 데이터 공유를 위한 실시간 서버 통신 구현이 중요합니다.",
+        "idea_ko": "커플뿐만 아니라 친구나 가족 단위로 확장 가능한 모듈형 기록 앱.",
+        "highlights_ko": [
+          "사용자가 직접 기능을 선택하는 모듈형 커스터마이징.",
+          "데이트 기록을 지도와 캘린더로 시각화하는 기능."
+        ],
+        "systems_ko": [
+          "사용자 계정 및 커플 매칭 시스템",
+          "모듈형 UI 렌더링 엔진",
+          "실시간 데이터 동기화(서버)",
+          "위치 기반 지도 데이터 관리",
+          "이미지 업로드 및 저장소 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 데이터 동기화와 모듈형 UI 구성은 높은 수준의 백엔드 및 프론트엔드 설계 능력을 요구합니다. 특히 커플 간의 데이터 일관성을 유지하는 것이 핵심 난관입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "커플 매칭 기능",
+            "공유 캘린더",
+            "기본 기록 블록 2종"
+          ],
+          "defer": [
+            "지도 시각화",
+            "가계부",
+            "다양한 테마 옵션"
+          ],
+          "risks": [
+            "서버 비용 및 데이터 동기화 오류",
+            "사용자 간 데이터 충돌"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "취미 공유 모듈형 앱",
+            "concept": "커플 대신 특정 취미(독서, 운동 등)를 가진 사람들이 필요한 기록 블록만 골라 쓰는 앱입니다.",
+            "first_step": "독서 기록과 운동 기록 블록 2가지를 먼저 구현."
+          },
+          {
+            "title": "가족 일정 공유기",
+            "concept": "가족 구성원이 필요한 일정과 가계부 블록만 선택하여 사용하는 가족 전용 앱입니다.",
+            "first_step": "가족 그룹 생성 및 캘린더 공유 기능 구현."
+          }
+        ],
+        "recommendation_ko": "모듈형 앱 설계와 실시간 데이터 동기화 기술을 배우고 싶은 개발자에게 추천합니다. 다만, 서버 운영과 보안에 대한 높은 이해도가 필요하므로 초보자에게는 다소 도전적일 수 있습니다.",
+        "source_limitations_ko": "구독 결제 시스템의 구체적인 구현 방식과 서버 인프라 정보는 확인되지 않습니다. 개인정보 보호를 위한 데이터 암호화 수준은 검증이 필요합니다.",
+        "name": "유니플 Uniple: 둘이 직접 만드는 커플앱",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%9C%A0%EB%8B%88%ED%94%8C-uniple-%EB%91%98%EC%9D%B4-%EC%A7%81%EC%A0%91-%EB%A7%8C%EB%93%9C%EB%8A%94-%EC%BB%A4%ED%94%8C%EC%95%B1/id6815487073?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 235,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "google:psremoteplay.gamecontroller.playstream.pro": {
+      "app_key": "google:psremoteplay.gamecontroller.playstream.pro",
+      "name": "PS Remote Play Controller Pro",
+      "developer": "FunPeak",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=psremoteplay.gamecontroller.playstream.pro&hl=en&gl=US",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:37:42+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Transform your Android phone or tablet into an on-screen game remote play PS4/PS5 Pro controller to play and stream your favorite PS4 & PS5 games. With our PS remote play game controller Pro app, you can easily play together with friends, no extra physical PS controller required. Switch between Screen mode to stream directly to your phone, and remote gamepad mode to control the game on your TV. Our PS4 remote play & PS5 remote play Pro controller makes it simple to enjoy all your games remotely. 🎮 Core Features of PS Remote Play Pro Controller • Complete Virtual Game Remote Controller Pro: Our PS5 controller app / PS4 controller app provides a full on-screen remote game controller experience. • Dual Modes: Use gamepad mode to control on your TV for a traditional console feel, or switch to screen mode to stream and play directly on your phone. • Seamless Streaming & Low-Latency Performance: Experience smooth connection with responsive controls and stable streaming. Our app supports 1080p @ 60 FPS streaming where applicable. • Custom Button Mapping: Our custom button mapping allows you to remap buttons and save unique control profiles. • Easy Import/Export Settings: Use import/export settings to back up your custom layouts or restore on other devices. • Easy Pairing & Quick Setup: Connect instantly via auto detect or manual PIN. No PS account login is required, ensuring a secure and private connection. • Full PS4 & PS5 Compatibility: Designed to work with official PS4 remote play and PS5 remote play setups. ⚡️ Quick Setup — Get Playing in Minutes 1. First, enable remote play in your PS4/PS5 settings. 2. Open the app and enter your PS username to fetch your unique account ID. 3. Connect your android device and your console to the same high speed Wi-Fi network (5 GHz is recommended). 4. Enter the PIN shown on your PS4 console or PS5 (follow tutorial). 5. Once paired, choose your preferred mode and start playing! 🚀 Transform your phone into a low latency PS4/PS5 Pro controller and enjoy remote gaming freedom! ⚠️ Disclaimer This is an independent third-party app and is not affiliated with Sony Interactive Entertainment. It works only with official PS remote play feature enabled on the console. Performance may vary depending on device and network conditions. 🔒 Privacy Policy: https://sites.google.com/view/psremoteplay-privacypolicy/home 📧 Support: toolhubapps@gmail.com",
+      "analysis": {
+        "app_key": "google:psremoteplay.gamecontroller.playstream.pro",
+        "summary_ko": "안드로이드 기기를 PS4 및 PS5 콘솔의 가상 컨트롤러로 변환하는 앱입니다. 화면 스트리밍 모드와 게임패드 모드를 지원하여 원격으로 게임을 즐길 수 있습니다. 별도의 물리 컨트롤러 없이도 스마트폰을 통해 콘솔을 제어할 수 있습니다.",
+        "features_ko": [
+          "화면상에 가상 컨트롤러를 표시하여 PS4/PS5를 원격으로 조작합니다.",
+          "TV 화면을 보며 조작하는 게임패드 모드와 폰으로 직접 스트리밍하는 화면 모드를 지원합니다.",
+          "사용자 정의 버튼 매핑을 통해 컨트롤러 레이아웃을 저장하고 불러올 수 있습니다.",
+          "PIN 번호 입력을 통해 콘솔과 기기를 간편하게 페어링합니다."
+        ],
+        "noteworthy_ko": "공식 리모트 플레이 기능을 활용하여 서드파티 컨트롤러 인터페이스를 제공하는 방식이 흥미롭습니다. 네트워크 지연 시간을 최소화하기 위한 스트리밍 최적화 기술이 개발의 핵심일 것으로 추정됩니다.",
+        "development_ko": "네트워크 소켓 통신을 통한 저지연 데이터 전송 기술이 필수적입니다. 가상 컨트롤러의 터치 입력 이벤트를 콘솔이 이해하는 프로토콜로 변환하는 과정이 복잡합니다. 1080p 60fps 스트리밍을 유지하기 위한 네트워크 대역폭 관리와 하드웨어 가속 디코딩 구현이 큰 부담입니다.",
+        "idea_ko": "특정 게임에 최적화된 매크로 버튼을 가상 컨트롤러에 추가하는 기능이 실현 가능합니다.",
+        "highlights_ko": [
+          "PS4/PS5 기기와 호환되는 가상 컨트롤러 인터페이스 제공.",
+          "사용자 설정 프로필을 내보내고 가져올 수 있는 데이터 관리 기능."
+        ],
+        "systems_ko": [
+          "네트워크 스트리밍 엔진",
+          "가상 컨트롤러 입력 처리 시스템",
+          "버튼 매핑 및 설정 관리 시스템",
+          "콘솔 페어링 및 인증 시스템",
+          "UI/UX 레이아웃 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "콘솔 제조사의 비공개 프로토콜을 분석하거나 공식 API를 연동해야 하므로 기술적 장벽이 매우 높습니다. 실시간 스트리밍의 지연 시간을 제어하는 것은 개인 개발자가 구현하기에 매우 도전적인 과제입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "가상 버튼 입력 이벤트 처리",
+            "기본적인 네트워크 연결 및 페어링"
+          ],
+          "defer": [
+            "고해상도 스트리밍 최적화",
+            "복잡한 버튼 매핑 프로필 공유"
+          ],
+          "risks": [
+            "콘솔 제조사의 보안 업데이트로 인한 연결 차단",
+            "네트워크 환경에 따른 극심한 지연 시간 발생"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "커스텀 입력 매크로",
+            "concept": "자주 사용하는 복잡한 버튼 조합을 하나의 버튼으로 등록합니다. 게임 내 반복 작업을 효율화합니다.",
+            "first_step": "터치 입력 시 미리 정의된 버튼 시퀀스를 순차적으로 전송하는 로직 구현."
+          },
+          {
+            "title": "컨트롤러 레이아웃 공유 플랫폼",
+            "concept": "사용자들이 만든 최적의 버튼 배치 레이아웃을 공유합니다. 게임별로 가장 편한 배치를 다운로드할 수 있습니다.",
+            "first_step": "JSON 형식으로 버튼 좌표를 저장하고 불러오는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "네트워크 프로그래밍과 실시간 데이터 처리에 관심 있는 개발자에게 추천합니다. 다만, 콘솔 연동은 플랫폼 정책에 따라 위험 요소가 크므로 학습용으로만 접근하십시오.",
+        "source_limitations_ko": "소개문에 명시된 '공식 리모트 플레이 기능'을 어떻게 활용하는지에 대한 기술적 상세 내용은 없습니다. 실제 콘솔과의 통신 프로토콜은 공개되지 않았으므로 검증이 필요합니다.",
+        "name": "PS Remote Play Controller Pro",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=psremoteplay.gamecontroller.playstream.pro&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "google:com.gl.mahjong": {
+      "app_key": "google:com.gl.mahjong",
+      "name": "Mahjong Smart",
+      "developer": "Loyalty Gaming",
+      "source": "google",
+      "country": "US",
+      "category": "game_casual",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.gl.mahjong&hl=en&gl=US",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:38:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "🀄 Relax and sharpen your mind with **Mahjong Smart**, a satisfying choice for fans of Mahjong puzzle games, classic puzzles, matching games and relaxing brain challenges. Enjoy a calm Mahjong puzzle experience built around simple tile matching, thoughtful decisions and rewarding layouts. Match identical tiles, clear the board step by step and solve every puzzle at your own pace. Whether you enjoy puzzle match games, traditional Mahjong solitaire or relaxing puzzle games for adults, Mahjong Smart offers an easy-to-learn experience without stressful timers or fast reflexes. Play a quick puzzle during a short break or settle in for a longer Mahjong session whenever you want to unwind. 🧠 **SMART MAHJONG TILE-MATCHING PUZZLES** Mahjong Smart follows the familiar rules of classic Mahjong solitaire. Find two matching free tiles, remove the pair and continue until the entire board is cleared. Simple rules make every Mahjong puzzle easy to understand, while carefully arranged layouts give you plenty of opportunities to think ahead. Look for available pairs, uncover hidden tiles and make smart matching choices to avoid blocking important moves. Fans of logic puzzle games, matching games and brain puzzles can enjoy a relaxing challenge where observation and planning matter more than speed. 🎮 **HUNDREDS OF MAHJONG PUZZLE LEVELS** Explore a large collection of Mahjong layouts designed for both quick games and longer puzzle sessions. Every level gives you a new board to solve, with different tile positions, patterns and matching possibilities. Start with approachable puzzles and continue through increasingly interesting layouts as you improve your Mahjong skills. For players looking for puzzle games for adults with levels, Mahjong Smart combines simple tile matching with satisfying progression. Complete boards, discover new puzzles and become more confident with every Mahjong match. 📅 **DAILY MAHJONG PUZZLES & BRAIN TRAINING** Make Mahjong part of your daily routine with fresh puzzles to solve whenever you return. Daily Mahjong challenges are a relaxing way to practice pattern recognition, attention and strategic thinking. Search for matching tiles, remember useful positions and plan several moves ahead while working toward a clear goal. Regular Mahjong practice can turn a few quiet minutes into an enjoyable brain-training routine without pressure. 👴 **MAHJONG FOR ADULTS & SENIORS** Mahjong Smart offers simple controls, recognizable tiles and relaxed gameplay that can be enjoyed by players of different ages. For adults looking for a casual brain puzzle, every board provides a satisfying combination of matching, observation and planning. For seniors who enjoy Mahjong games, classic puzzles or matching games, the straightforward rules and comfortable pace make it easy to play without fast reactions or complicated mechanics. Enjoy Mahjong for seniors and adults with thoughtful puzzles that can be completed one pair at a time. 💡 **TRAIN YOUR OBSERVATION & LOGIC** Mahjong is more than simply finding identical tiles. Every layout encourages you to examine the board carefully and consider which pair should be removed first. Matching the wrong tiles too early can make later moves harder, so smart decisions can help create new opportunities. Mahjong Smart gives fans of logic puzzle games a relaxing way to practice: 🧠 Pattern recognition. 👀 Visual attention. 🀄 Tile matching. 💭 Planning ahead. 🎯 Strategic decision-making. There is no need for complicated rules. Just observe the board, think about your options and make the smartest Mahjong match.",
+      "analysis": {
+        "app_key": "google:com.gl.mahjong",
+        "summary_ko": "마작 솔리테어 방식의 타일 매칭 퍼즐 게임입니다. 동일한 타일을 찾아 제거하며 보드를 비우는 방식으로 진행됩니다. 시간 제한 없이 차분하게 즐길 수 있는 뇌 훈련용 게임입니다.",
+        "features_ko": [
+          "동일한 타일 두 개를 찾아 매칭하여 제거합니다.",
+          "다양한 레이아웃의 퍼즐 보드를 제공합니다.",
+          "매일 새로운 퍼즐 도전 과제를 제공합니다.",
+          "시간 제한 없이 자신의 속도에 맞춰 플레이합니다."
+        ],
+        "noteworthy_ko": "복잡한 규칙 없이 관찰력과 전략적 사고를 강조한 점이 특징입니다. 타일 배치에 따라 난이도가 달라지므로 레벨 디자인이 핵심입니다.",
+        "development_ko": "타일의 배치와 계층 구조를 관리하는 데이터 구조 설계가 중요합니다. 타일 매칭 가능 여부를 판별하는 알고리즘과 시각적 피드백 구현이 필요합니다.",
+        "idea_ko": "특정 테마의 타일 세트를 선택하여 플레이하는 커스텀 마작 게임을 제안합니다.",
+        "highlights_ko": [
+          "시간 제한이 없어 성인 및 시니어 층에게 적합한 환경을 제공합니다.",
+          "패턴 인식과 전략적 사고를 돕는 뇌 훈련 요소가 포함되어 있습니다."
+        ],
+        "systems_ko": [
+          "타일 배치 데이터 구조(레이아웃)",
+          "매칭 가능 타일 판별 알고리즘",
+          "게임 보드 상태 관리",
+          "UI/UX 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "타일의 계층 구조를 구현하고 매칭 가능한 타일을 실시간으로 계산하는 로직이 다소 복잡할 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 타일 매칭 로직",
+            "보드 레이아웃 로더",
+            "타일 선택 및 제거 UI"
+          ],
+          "defer": [
+            "매일 도전 과제 시스템",
+            "다양한 타일 테마"
+          ],
+          "risks": [
+            "매칭 불가능한 보드 생성 방지 로직의 복잡성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "테마별 타일 팩",
+            "concept": "전통적인 마작 타일 대신 동물, 음식 등 다양한 테마의 타일을 선택할 수 있게 합니다.",
+            "first_step": "타일 이미지를 교체할 수 있는 리소스 관리 구조를 만듭니다."
+          },
+          {
+            "title": "힌트 시스템 강화",
+            "concept": "매칭 가능한 타일을 시각적으로 강조해주는 힌트 기능을 추가합니다.",
+            "first_step": "현재 보드에서 매칭 가능한 타일 쌍을 찾는 함수를 작성합니다."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 레벨 디자인과 데이터 기반 게임 개발을 배우기에 좋습니다. 복잡한 물리 엔진 없이도 완성도 높은 게임을 만들 수 있습니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 구체적인 힌트 시스템의 작동 방식이나 보상 체계는 알 수 없습니다.",
+        "name": "Mahjong Smart",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.gl.mahjong&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "google:com.linecorp.LGSBJ22": {
+      "app_key": "google:com.linecorp.LGSBJ22",
+      "name": "LINE：ブロックジャム",
+      "developer": "LINE (LY Corporation)",
+      "source": "google",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.linecorp.LGSBJ22&hl=ja&gl=JP",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:38:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ブロックをスライドして同じ色のゲートに運ぼう！ 気軽に遊べるカラーブロックパズル タイムリミットがくる前に全てのブロックをゲートに運ぼう ステージクリアで獲得したブロックは、街を作る大事なアイテム たくさんプレイして、コインとブロックを集めよう！ 【フリーモード】 ステージをクリアしてコインを集めよう！ ステージを一定数クリアするとボーナスステージに挑戦できるよ ボーナスステージでは大量コインの獲得チャンス さらに、ステージクリアで獲得したブロックで街を作ることができるよ！ 【デイリーモード】 デイリーステージをクリアすると、通常よりも沢山のコインを獲得！ 当月のデイリーをクリアすると、ボーナスコインがもらえるよ ひと月コンプリートすると、コンプリートボーナスコインをプレゼント 【イベントモード】 定期的に開催されるイベントに挑戦しよう！ イベントでは一定のステージをクリアするとボーナスコインがもらえるよ 【コレクションタウン】 ステージクリアで獲得したブロックで街を作ろう！ 街ができあがるとボーナスコインをプレゼント 街をどんどん作ってコレクションしていこう！ 【コイン】 パズルをクリアするとコインをゲット！ ゲットしたコインはアイテムと交換できるよ 【お宝ハント】 放置するだけでコインをゲット！ 毎日お宝探しに挑戦しよう ■こんな人におすすめ！ ・LINE FRIENDSが好きな人 ・通勤・通学の隙間時間に ・カジュアルゲームが好きな人 ・パズルゲームが好きな人 ・簡単操作のゲームを探している人 ・ゲームをやり込みたい人 ・暇つぶしがしたい人",
+      "analysis": {
+        "app_key": "google:com.linecorp.LGSBJ22",
+        "summary_ko": "블록을 슬라이드하여 같은 색상의 게이트로 운반하는 퍼즐 게임입니다. 스테이지를 클리어하여 코인을 모으고, 이를 통해 마을을 꾸미는 수집 요소가 포함되어 있습니다. 데일리 모드, 이벤트 모드 등 다양한 플레이 방식을 제공합니다.",
+        "features_ko": [
+          "블록을 슬라이드하여 같은 색상의 게이트로 이동시킵니다.",
+          "스테이지 클리어 보상으로 마을을 꾸미는 아이템을 획득합니다.",
+          "데일리 모드와 이벤트 모드를 통해 추가 보상을 얻을 수 있습니다.",
+          "코인을 사용하여 아이템을 구매하거나 교환할 수 있습니다.",
+          "방치형 요소인 '보물 찾기'를 통해 코인을 획득할 수 있습니다."
+        ],
+        "noteworthy_ko": "퍼즐 게임에 마을 꾸미기라는 수집형 요소를 결합하여 리텐션을 높인 구조가 인상적입니다. 퍼즐의 난이도와 보상 체계 간의 밸런스가 게임의 지속성을 결정합니다.",
+        "development_ko": "퍼즐 이동 로직과 마을 꾸미기 UI 시스템을 분리하여 개발해야 합니다. 서버와의 데이터 동기화가 중요하며, 다양한 이벤트 모드를 지원하기 위한 유연한 콘텐츠 관리 시스템이 필요합니다.",
+        "idea_ko": "마을의 특정 건물을 완성하면 퍼즐 플레이 시 사용할 수 있는 특수 능력이 해금되는 시스템입니다.",
+        "highlights_ko": [
+          "퍼즐과 마을 꾸미기라는 두 장르의 결합.",
+          "데일리/이벤트 모드를 통한 지속적인 플레이 동기 부여."
+        ],
+        "systems_ko": [
+          "퍼즐 이동 및 충돌 판정 시스템",
+          "마을 꾸미기 및 오브젝트 배치 시스템",
+          "재화(코인) 관리 및 상점 시스템",
+          "이벤트 및 데일리 미션 스케줄링 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "퍼즐 로직뿐만 아니라 마을 꾸미기 시스템, 재화 관리, 이벤트 시스템 등 구현해야 할 기능의 범위가 넓어 1인 개발 시 부담이 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 퍼즐 이동 로직",
+            "스테이지 클리어 판정"
+          ],
+          "defer": [
+            "마을 꾸미기 시스템",
+            "이벤트 모드 및 방치형 보상"
+          ],
+          "risks": [
+            "퍼즐과 마을 시스템 간의 밸런스 붕괴",
+            "방대한 콘텐츠 제작 부담"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "블록 배달 경로 최적화",
+            "concept": "최소한의 이동 횟수로 모든 블록을 게이트에 넣는 퍼즐 규칙입니다.",
+            "first_step": "이동 횟수 카운트 및 최소 이동 경로 계산 로직."
+          },
+          {
+            "title": "마을 주민 상호작용",
+            "concept": "퍼즐을 클리어하면 마을 주민들이 반응하거나 새로운 대사가 추가됩니다.",
+            "first_step": "주민 캐릭터 상태 관리 및 대사 출력 시스템."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임에 메타 게임(마을 꾸미기)을 얹는 방식을 배우기에 좋습니다. 다만, 처음부터 모든 기능을 구현하기보다 퍼즐 핵심 재미를 먼저 완성하는 것을 추천합니다.",
+        "source_limitations_ko": "서버 연동 방식, 데이터 저장 구조, 이벤트 모드의 구체적인 구현 방식은 알 수 없습니다.",
+        "name": "LINE：ブロックジャム",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.linecorp.LGSBJ22&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 91,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
     }
   }
 }

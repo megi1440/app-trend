@@ -12874,6 +12874,90 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-13"
+    },
+    "itch:00fb015be82ed93d2231": {
+      "app_key": "itch:00fb015be82ed93d2231",
+      "name": "glancing at another's phone on the long ride home [Free] [Windows] [macOS]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://xflorora.itch.io/glancing",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:34:17+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ִֶָ་༘.࣪ ִֶ. .. a game poem𓂃 ࣪ ִֶָ་༘࿐ ִֶָ",
+      "analysis": {
+        "app_key": "itch:00fb015be82ed93d2231",
+        "summary_ko": "이 게임은 '게임 시(game poem)'라는 독특한 장르를 표방하는 작품입니다. 긴 귀갓길에 타인의 휴대폰을 훔쳐보는 상황을 다루며, 서사적인 경험을 제공할 것으로 보입니다. 구체적인 게임 플레이 방식은 설명되지 않았습니다.",
+        "features_ko": [
+          "게임 시(game poem) 형식을 통해 서사적 경험을 전달합니다."
+        ],
+        "noteworthy_ko": "게임의 메커니즘보다 분위기와 서사 전달에 집중하는 실험적인 접근 방식이 흥미롭습니다. 텍스트와 시각적 연출이 어떻게 상호작용하는지가 핵심일 것으로 추정됩니다.",
+        "development_ko": "서사 중심의 게임이므로 텍스트 출력 시스템과 연출을 위한 스크립트 엔진이 필요합니다. 콘텐츠 제작 부담은 낮으나, 플레이어에게 전달하고자 하는 감정적 경험을 설계하는 기획력이 중요합니다.",
+        "idea_ko": "특정 장소에서 타인의 화면을 엿보는 듯한 1인칭 시점의 텍스트 어드벤처를 구현하는 것을 추천합니다.",
+        "highlights_ko": [
+          "게임 시라는 장르적 정체성.",
+          "일상적인 상황을 소재로 한 몰입형 서사."
+        ],
+        "systems_ko": [
+          "텍스트 출력 시스템",
+          "장면 전환 관리자",
+          "이벤트 트리거 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "복잡한 물리 엔진이나 게임 규칙이 필요 없으며, 서사 구조와 연출에 집중하면 되기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "텍스트 출력 기능",
+            "배경 이미지 전환"
+          ],
+          "defer": [
+            "복잡한 분기 시스템",
+            "사운드 효과"
+          ],
+          "risks": [
+            "서사의 지루함",
+            "플레이어의 몰입 유도 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지하철의 엿보기",
+            "concept": "지하철에서 옆 사람의 휴대폰 화면에 뜨는 알림을 보고 그 사람의 사연을 추측하는 게임입니다.",
+            "first_step": "텍스트 박스에 랜덤한 알림 메시지를 띄우는 프로토타입 제작."
+          },
+          {
+            "title": "디지털 일기장",
+            "concept": "타인의 휴대폰을 습득한 상황을 가정하여, 잠금 화면을 풀며 개인적인 기록을 읽어 나가는 방식입니다.",
+            "first_step": "비밀번호 입력 UI와 텍스트 뷰어 구현."
+          }
+        ],
+        "recommendation_ko": "서사 중심의 짧은 게임을 만들고 싶은 개발자에게 적합합니다. 게임의 분위기를 조성하는 연출력을 배우기에 좋습니다.",
+        "source_limitations_ko": "게임의 구체적인 플레이 방식, 조작법, 시각적 스타일 등이 전혀 명시되지 않아 실제 구현을 위해서는 추가적인 기획이 필수적입니다.",
+        "name": "glancing at another's phone on the long ride home [Free] [Windows] [macOS]",
+        "source": "itch",
+        "detail_url": "https://xflorora.itch.io/glancing",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 329,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 17,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
     }
   }
 }

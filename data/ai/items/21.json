@@ -11564,6 +11564,542 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-13"
+    },
+    "itch:26015261c1e55e35c40a": {
+      "app_key": "itch:26015261c1e55e35c40a",
+      "name": "Nymble 2 Demo [Free] [Puzzle] [Android]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "puzzle",
+      "detail_url": "https://xalezar.itch.io/nymble-2",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:33:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Jack reaches new heights in this turn-based puzzle-platformer sequel!",
+      "analysis": {
+        "app_key": "itch:26015261c1e55e35c40a",
+        "summary_ko": "Nymble 2 Demo는 턴제 방식으로 진행되는 퍼즐 플랫폼 게임입니다. 주인공 Jack을 조작하여 새로운 높이에 도달하는 것이 목표입니다. 데모 버전으로 게임의 핵심 메커니즘을 체험할 수 있습니다.",
+        "features_ko": [
+          "턴제 방식으로 이동과 행동을 결정하는 퍼즐 시스템을 제공합니다.",
+          "플랫폼을 이동하며 목표 지점에 도달하는 레벨 구조를 가집니다."
+        ],
+        "noteworthy_ko": "실시간 액션이 아닌 턴제 퍼즐과 플랫폼 요소를 결합한 점이 흥미롭습니다. 플레이어의 매 턴마다의 선택이 결과에 큰 영향을 미치는 전략적 레벨 디자인이 핵심일 것으로 추정됩니다.",
+        "development_ko": "턴제 로직을 처리하는 상태 머신 구현이 핵심입니다. 플랫폼 이동과 퍼즐 기믹 간의 상호작용을 설계하는 콘텐츠 제작 부담이 큽니다. 턴제 게임 특성상 버그 테스트보다는 레벨 밸런스 테스트에 많은 시간이 소요됩니다.",
+        "idea_ko": "턴마다 이동할 수 있는 거리가 제한되는 '에너지 시스템'을 도입하여 퍼즐의 난이도를 조절하는 아이디어를 추천합니다.",
+        "highlights_ko": [
+          "턴제 기반의 신중한 플랫폼 이동 방식.",
+          "퍼즐과 플랫폼 장르의 결합."
+        ],
+        "systems_ko": [
+          "턴 관리 시스템",
+          "그리드 기반 이동 로직",
+          "레벨 데이터 관리",
+          "퍼즐 기믹 상호작용",
+          "UI 상태 표시"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "턴제 시스템은 실시간 물리 엔진보다 구현 난이도가 낮지만, 퍼즐의 논리적 구조를 설계하는 기획적 역량이 중요합니다. 1인 개발 시 레벨 디자인의 완성도가 게임의 재미를 좌우합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "턴제 이동 시스템",
+            "기본 플랫폼 및 장애물",
+            "레벨 클리어 판정"
+          ],
+          "defer": [
+            "복잡한 스토리 연출",
+            "다양한 특수 아이템"
+          ],
+          "risks": [
+            "퍼즐의 난이도 조절 실패",
+            "턴제 방식의 지루함 유발"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "턴제 그림자 퍼즐",
+            "concept": "플레이어의 이동에 따라 그림자가 생성되며, 그림자를 밟고 지나가야 하는 퍼즐입니다.",
+            "first_step": "이동 경로에 따라 그림자 오브젝트를 생성하는 로직 구현."
+          },
+          {
+            "title": "시간 역행 퍼즐",
+            "concept": "턴을 되돌릴 수 있는 기능을 제공하여, 실수한 턴을 복구하며 퍼즐을 푸는 방식입니다.",
+            "first_step": "이전 턴의 위치 정보를 저장하고 복구하는 스택 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "턴제 게임의 로직 설계와 퍼즐 레벨 디자인을 공부하기에 좋은 프로젝트입니다. 논리적인 게임 구조를 선호하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "턴제 이동의 구체적인 규칙, 퍼즐 기믹의 종류, 데모 이후의 전체 콘텐츠 규모에 대한 정보가 부족합니다.",
+        "name": "Nymble 2 Demo [Free] [Puzzle] [Android]",
+        "source": "itch",
+        "detail_url": "https://xalezar.itch.io/nymble-2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 371,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 3,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "apple:6829598542": {
+      "app_key": "apple:6829598542",
+      "name": "블랙박스 시뮬레이터",
+      "developer": "Groundcode",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_simulation",
+      "detail_url": "https://apps.apple.com/kr/app/%EB%B8%94%EB%9E%99%EB%B0%95%EC%8A%A4-%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%ED%84%B0/id6829598542?uo=2",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:35:36+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "가상 3D 도시의 운전석에 앉아 갑자기 벌어지는 도로 위 사건을 만나보세요. 끼어드는 차, 주차된 트럭 뒤에서 나오는 사람, 앞차에서 떨어지는 물건. 무슨 일이 일어날지는 그 순간이 와야 알 수 있어요. 그 순간, 당신이라면? • 무작위 사건 어떤 사건이 나올지 모른 채 주행을 시작해요. • 자유 주행 평범한 도로를 달리는 동안 여러 사건이 차례로 이어져요. 부딪히거나 도로를 벗어나면 그 주행은 끝나요. • 사건 연습 이름·장소·유형으로 사건을 찾아 골라서 반복할 수 있어요. • 제동 거리 연습 연습 코스에서 속도·노면·날씨·경사를 바꿔 가며 게임 속 멈추는 거리를 비교해요. • 조작 화면의 핸들로 방향을 바꾸고, 아날로그 가속·브레이크 페달로 속도를 조절해요. 경적과 상향등을 쓸 수 있고, 룸미러와 사이드미러로 주변을 확인하거나 도로 화면을 끌어 옆을 둘러볼 수 있어요. • 다시 보기와 영상 주행이 끝나면 지나간 장면과 내 조작을 다시 확인해요. 최대 20초 구간을 이 기기에서 영상으로 만들어 직접 저장하거나 공유할 수 있어요. 저장·공유 방식은 기기가 지원하는 기능에 따라 달라요. - 주행 기록은 이 기기에만 저장돼요. 로그인, 광고, 결제, 랭킹, 댓글, 서버 저장이 없어요. - 사건은 가상의 도로와 차량으로 게임에서 만든 상황이에요. 실제 운전 능력, 반응 시간, 정지 거리, 과실을 측정하거나 판단하지 않아요. - 세로와 가로 화면 모두에서 즐길 수 있어요. - 15개 언어를 지원해요.",
+      "analysis": {
+        "app_key": "apple:6829598542",
+        "summary_ko": "가상 3D 도시에서 운전하며 갑작스러운 도로 위 돌발 상황에 대처하는 시뮬레이션 게임입니다. 끼어드는 차량이나 보행자 등 무작위 사건을 경험하며 안전한 제동과 조작을 연습할 수 있습니다. 주행 후에는 다시 보기 기능을 통해 자신의 조작을 복기할 수 있습니다.",
+        "features_ko": [
+          "무작위로 발생하는 도로 위 돌발 사건을 실시간으로 대응하며 주행합니다.",
+          "사건 연습 모드를 통해 특정 상황과 장소를 선택하여 반복 학습할 수 있습니다.",
+          "제동 거리 연습 모드에서 속도, 노면, 날씨 등 환경 변수를 조절하며 정지 거리를 비교합니다.",
+          "화면 내 핸들, 아날로그 페달, 경적, 상향등 등 실제 운전과 유사한 조작계를 제공합니다.",
+          "주행 종료 후 최대 20초 구간을 영상으로 저장하거나 공유할 수 있습니다."
+        ],
+        "noteworthy_ko": "운전 교육용 시뮬레이터가 아닌 '게임'으로서 돌발 상황에 대한 반응을 연습한다는 점이 흥미롭습니다. 실제 운전 능력을 측정하지 않는다는 점을 명시하여 법적 책임을 회피하고 오락성을 강조한 설계가 돋보입니다.",
+        "development_ko": "3D 환경에서의 물리 엔진 구현과 차량 조작 시스템이 핵심입니다. 무작위 사건 발생을 위한 이벤트 트리거 시스템과 주행 기록을 영상으로 변환하는 렌더링 최적화가 필요합니다. 1인 개발 시 다양한 도로 환경과 차량 모델링 제작에 많은 시간이 소요될 것으로 보입니다.",
+        "idea_ko": "특정 상황을 반복 학습하는 '사건 연습' 모드를 확장하여, 사용자가 직접 위험 상황을 배치하는 에디터 기능을 추가하는 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "오프라인 전용으로 설계되어 로그인이나 서버 연결 없이 즉시 플레이 가능합니다.",
+          "세로와 가로 화면을 모두 지원하여 사용자 편의성을 높였습니다."
+        ],
+        "systems_ko": [
+          "차량 물리 및 충돌 판정 시스템",
+          "무작위 이벤트 생성기",
+          "주행 데이터 기록 및 영상 렌더링 시스템",
+          "UI/UX 조작 인터페이스",
+          "환경 변수(날씨, 노면) 제어 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "3D 물리 엔진을 활용한 차량 조작과 다양한 돌발 상황을 구현하는 것은 1인 개발자에게 높은 기술적 난이도를 요구합니다. 특히 영상 저장 및 공유 기능은 플랫폼별 API 대응이 복잡합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 차량 주행 및 조작",
+            "충돌 판정 및 게임 오버 로직",
+            "단일 돌발 이벤트 생성"
+          ],
+          "defer": [
+            "영상 저장 및 공유 기능",
+            "다양한 환경 변수 설정"
+          ],
+          "risks": [
+            "물리 엔진의 불안정성으로 인한 버그",
+            "3D 에셋 제작에 따른 개발 기간 지연"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "위험 상황 에디터",
+            "concept": "사용자가 도로 위에 장애물과 보행자를 직접 배치하여 자신만의 위험 시나리오를 만드는 기능입니다. 다른 사용자와 시나리오를 공유할 수 있습니다.",
+            "first_step": "도로 위에 특정 위치에 장애물을 생성하는 배치 모드 구현."
+          },
+          {
+            "title": "반응 속도 챌린지",
+            "concept": "돌발 상황 발생 시 브레이크를 밟기까지 걸리는 시간을 측정하여 랭킹을 매기는 미니게임입니다.",
+            "first_step": "이벤트 발생 시점부터 브레이크 입력까지의 시간차 측정 로직 구현."
+          }
+        ],
+        "recommendation_ko": "3D 물리 엔진을 활용한 게임 개발의 기초를 다지기에 좋습니다. 다만, 영상 처리와 같은 고난도 기능은 MVP 이후로 미루는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에 명시된 '영상 저장' 기능의 구체적인 구현 방식(네이티브 API 사용 여부 등)은 확인되지 않습니다. 실제 물리 엔진의 정밀도나 최적화 수준은 알 수 없습니다.",
+        "name": "블랙박스 시뮬레이터",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EB%B8%94%EB%9E%99%EB%B0%95%EC%8A%A4-%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%ED%84%B0/id6829598542?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 201,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 13,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "google:com.cleanertool.box": {
+      "app_key": "google:com.cleanertool.box",
+      "name": "Cleaner Toolbox",
+      "developer": "SELBY TEAM",
+      "source": "google",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.cleanertool.box&hl=en&gl=US",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:35:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Cleaner Toolbox is an Android cleaning tool. Main features: Junk Cleaner: Clean cache files, temporary files and residual files in the phone. Battery Information: Display basic battery information to help you understand the battery status. Uninstall Apps: Select and uninstall apps you no longer need. Background Processes: View and manage apps running in the background of your phone. Come and download Cleaner Toolbox!",
+      "analysis": {
+        "app_key": "google:com.cleanertool.box",
+        "summary_ko": "Cleaner Toolbox는 안드로이드 기기 최적화를 위한 도구 앱입니다. 캐시 및 임시 파일을 정리하여 저장 공간을 확보하고, 배터리 상태 정보를 제공합니다. 또한 불필요한 앱을 삭제하거나 백그라운드 프로세스를 관리하는 기능을 포함합니다.",
+        "features_ko": [
+          "캐시, 임시 파일 및 잔여 파일을 정리합니다.",
+          "배터리 상태 정보를 확인하여 관리할 수 있습니다.",
+          "사용하지 않는 앱을 선택하여 삭제할 수 있습니다.",
+          "백그라운드에서 실행 중인 앱을 관리하여 리소스를 확보합니다."
+        ],
+        "noteworthy_ko": "기기 관리 유틸리티의 필수 기능들을 모아놓은 앱입니다. 시스템 리소스 관리와 사용자 편의성을 결합한 전형적인 구조를 가지고 있습니다.",
+        "development_ko": "안드로이드 시스템 API를 활용한 프로세스 관리 및 저장소 접근이 핵심입니다. 사용자에게 직관적인 정보를 제공하기 위한 UI 설계가 중요합니다. 시스템 권한을 다루므로 앱의 안정성과 보안 관리가 개발의 핵심입니다.",
+        "idea_ko": "배터리 소모가 큰 앱을 순위별로 보여주고 최적화를 제안하는 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "기기 최적화에 필요한 핵심 기능을 한곳에 모았습니다.",
+          "사용자가 직접 리소스를 관리할 수 있는 도구를 제공합니다."
+        ],
+        "systems_ko": [
+          "파일 시스템 관리자",
+          "프로세스 관리자",
+          "배터리 정보 모니터링",
+          "앱 관리자(삭제/조회)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "시스템 API 활용이 필요하지만, 파일 관리와 프로세스 관리는 안드로이드 개발의 기초적인 영역에 속합니다. 다만 권한 설정과 예외 처리가 중요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐시 파일 스캔 및 삭제",
+            "앱 목록 조회 및 삭제",
+            "기본 UI"
+          ],
+          "defer": [
+            "배터리 정보 상세 분석",
+            "백그라운드 프로세스 강제 종료"
+          ],
+          "risks": [
+            "시스템 앱 삭제로 인한 오류",
+            "최신 안드로이드 버전의 권한 제한"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "앱 용량 분석기",
+            "concept": "기기에 설치된 앱들의 용량을 순위별로 보여주어 큰 용량을 차지하는 앱을 쉽게 찾게 합니다.",
+            "first_step": "설치된 앱 목록과 각 앱의 용량 정보를 가져오는 기능 구현."
+          },
+          {
+            "title": "배터리 절약 알림이",
+            "concept": "배터리 소모가 급격히 늘어날 때 사용자에게 알림을 보내 관리하게 합니다.",
+            "first_step": "배터리 상태 변화를 감지하는 브로드캐스트 리시버 구현."
+          }
+        ],
+        "recommendation_ko": "안드로이드 시스템 관리 앱을 처음 개발해 보기에 적합합니다. 시스템 권한과 리소스 관리에 대한 이해도를 높일 수 있습니다.",
+        "source_limitations_ko": "백그라운드 프로세스 관리의 구체적인 구현 방식은 확인되지 않습니다. 결제 기능이나 외부 서버 연동 여부는 알 수 없습니다.",
+        "name": "Cleaner Toolbox",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.cleanertool.box&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 177,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "apple:6799906854": {
+      "app_key": "apple:6799906854",
+      "name": "17-0 Football Manager",
+      "developer": "FunCraft, Inc",
+      "source": "apple",
+      "country": "US",
+      "category": "game_simulation",
+      "detail_url": "https://apps.apple.com/us/app/17-0-football-manager/id6799906854?uo=2",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:36:39+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Can you construct an undefeated roster and go 17-0? Test your gridiron knowledge in the ultimate football draft strategy game! Combine legendary pro football icons from the 1960s with today's elite superstars, out-draft real managers online, and lead your franchise to championship glory. BUILD YOUR DREAM SQUAD Draft a high-octane offense across eras to fill out your starting lineup: * 1 Quarterback (QB) * 2 Running Backs (RB) * 2 Wide Receivers (WR) * 1 Tight End (TE) * 1 FLEX Position SIX DECADES OF FOOTBALL HISTORY * 1960 to Today: Draft all-time greats and active stars from every single franchise. * Test Your Football IQ: Pair vintage power-backs with modern gunslingers to create unstoppable synergies. * Infinite Replay Value: Experiment with endless draft combinations, rediscover forgotten legends, and sharpen your roster strategy. TAKE THE FIELD & WIN IT ALL * Flexible Gameplay: Watch every drive play out step-by-step or use fast-simulation to get instant results. * The Road to the Title: Fight through the regular season, claim your Division, dominate the Conference Championship, and hoist the trophy! ONLINE LEAGUES & CHALLENGES * Compete Worldwide: Join Leagues to test your drafting skills against real human managers. * In-Game Achievements: Complete tough draft constraints and unique scenarios designed to test even the most dedicated fans. 100% FREE TO PLAY No pay-to-win mechanics standing between you and a ring. Whether you are a die-hard film-room junkie or a casual fantasy football fan, 17-0 Football Manager delivers pure, challenging strategy. Are you ready to make draft history? Download now and start your perfect season!",
+      "analysis": {
+        "app_key": "apple:6799906854",
+        "summary_ko": "17-0 Football Manager는 1960년대부터 현재까지의 미식축구 선수들을 드래프트하여 자신만의 팀을 구성하는 전략 게임입니다. 온라인 리그에서 다른 매니저들과 경쟁하며 시즌 우승을 목표로 합니다. 실제 경기 시뮬레이션과 드래프트 전략을 통해 미식축구 지식을 테스트할 수 있습니다.",
+        "features_ko": [
+          "1960년대부터 현재까지의 미식축구 선수들을 드래프트하여 팀을 구성합니다.",
+          "온라인 리그를 통해 전 세계 매니저들과 드래프트 실력을 겨룹니다.",
+          "경기 과정을 단계별로 확인하거나 빠른 시뮬레이션 결과를 확인할 수 있습니다.",
+          "다양한 드래프트 제약 조건과 시나리오를 제공합니다."
+        ],
+        "noteworthy_ko": "시대별 선수를 조합하는 '드래프트 전략'이 게임의 핵심 재미 요소입니다. 데이터 기반의 시뮬레이션 로직이 얼마나 정교하게 구현되었는지가 게임의 깊이를 결정할 것으로 추정됩니다.",
+        "development_ko": "선수 데이터베이스 구축과 경기 시뮬레이션 엔진 개발이 핵심입니다. 선수별 능력치에 따른 승률 계산 로직이 필요하며, 온라인 대전을 위한 서버 통신 및 실시간 데이터 동기화가 중요합니다. 밸런스 조정을 위해 수많은 시뮬레이션 테스트가 요구됩니다.",
+        "idea_ko": "선수들의 조합에 따른 '케미스트리(시너지)' 효과를 시각화하여 전략적 깊이를 더하는 아이디어가 좋습니다.",
+        "highlights_ko": [
+          "60년 역사의 미식축구 데이터를 활용한 방대한 선수 풀을 제공합니다.",
+          "드래프트 전략과 시뮬레이션이 결합된 전략적 게임플레이를 지향합니다."
+        ],
+        "systems_ko": [
+          "선수 데이터베이스 및 능력치 시스템",
+          "드래프트 로직 및 매칭 시스템",
+          "경기 시뮬레이션 엔진",
+          "온라인 리그 및 순위 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "방대한 선수 데이터를 관리하고, 이를 기반으로 한 시뮬레이션 엔진을 설계하는 것은 매우 복잡합니다. 또한 온라인 멀티플레이어 환경을 구축하고 밸런스를 맞추는 과정은 1인 개발자에게 상당한 도전입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "선수 드래프트 시스템",
+            "기본 경기 시뮬레이션 로직",
+            "팀 구성 UI"
+          ],
+          "defer": [
+            "실시간 온라인 대전",
+            "리그 시스템",
+            "상세 통계 분석"
+          ],
+          "risks": [
+            "데이터 밸런스 붕괴",
+            "서버 비용 및 관리"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "드래프트 시뮬레이터",
+            "concept": "특정 예산 내에서 최고의 팀을 구성하는 챌린지 모드. 온라인 경쟁 없이 혼자서 전략을 테스트함.",
+            "first_step": "선수 리스트에서 선택하여 팀 능력치 합계를 계산하는 로직 구현."
+          },
+          {
+            "title": "레전드 매치업",
+            "concept": "특정 시대의 팀과 현재 팀을 가상으로 맞붙여 결과를 확인하는 시뮬레이션 모드.",
+            "first_step": "두 팀의 능력치를 비교하여 승률을 계산하는 간단한 알고리즘 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 기반의 게임 밸런싱과 시뮬레이션 로직을 배우기에 좋습니다. 전략 게임 개발에 관심이 있다면 좋은 참고 사례가 될 것입니다.",
+        "source_limitations_ko": "선수 데이터의 라이선스 확보 여부, 시뮬레이션 알고리즘의 구체적 로직, 서버 아키텍처 등은 소개문에 명시되지 않았습니다.",
+        "name": "17-0 Football Manager",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/17-0-football-manager/id6799906854?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "google:com.pdf.reader.document.viewer.file.pro": {
+      "app_key": "google:com.pdf.reader.document.viewer.file.pro",
+      "name": "PDF Reader: Smart AI Assistant",
+      "developer": "Dien Tu Teach",
+      "source": "google",
+      "country": "KR",
+      "category": "app_productivity",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.pdf.reader.document.viewer.file.pro&hl=ko&gl=KR",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:36:39+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "PDF 리더: 스마트 AI 어시스턴트는 PDF 문서를 읽고, 편집하고, 스캔하고, 변환하고, 정리할 수 있는 사용하기 쉬운 앱입니다. 매일 사용하는 PDF 관련 작업을 한 곳에서 편리하게 처리하고 필요할 때 언제든지 파일을 활용하세요. 📖 PDF 문서 읽기 간편하고 편리한 리더로 PDF 파일을 빠르게 열어보세요. ⚡︎ PDF 문서 열기 및 보기 ⚡︎ PDF 파일 내 텍스트 검색 ⚡︎ PDF 파일 탐색 및 정리 ✏️ PDF 편집 및 도구 여러 앱을 전환하지 않고도 매일 사용하는 PDF 작업을 처리하세요. ⚡︎ PDF 문서 편집 및 주석 달기 ⚡︎ 중요 내용 강조 표시 ⚡︎ 여러 PDF 파일을 하나의 파일로 병합 ⚡︎ 큰 PDF 파일을 작은 문서로 분할 ⚡︎ PDF 페이지를 이미지로 변환 ⚡︎ 이미지에서 PDF 파일 생성 ⚡︎ PDF 파일에 서명 추가 📷 문서 스캔 휴대폰으로 종이 문서를 디지털 파일로 변환하세요. 영수증, 메모, 양식, 계약서 등 다양한 문서를 카메라로 스캔할 수 있습니다. 스캔한 파일을 PDF 파일로 만들고 필요할 때 간편하게 저장, 정리, 공유하세요. 🤖 스마트 AI 어시스턴트 스마트 AI 기능으로 문서 작업을 더욱 편리하게 만드세요. ⚡︎ 문서 내용 요약 보기 ⚡︎ PDF 콘텐츠를 다른 언어로 번역 ⚡︎ 긴 문서를 효율적으로 작업 📂 파일 관리 파일을 쉽게 찾고 관리하세요. ⚡︎ 한 곳에서 문서 보기 ⚡︎ 파일을 빠르게 검색 ⚡︎ 필요할 때 파일 공유 ⚡︎ 중요한 데이터를 보호하기 위해 파일 잠금/해제 ⚡ 일상 속 PDF 도구 모음 공부, 업무, 서류 스캔, 이동 중 파일 관리 등 어떤 상황에서든 PDF Reader: Smart AI Assistant는 일상적인 PDF 작업에 필요한 도구를 제공합니다. PDF 읽기, 문서 편집 및 주석 달기, 종이 파일 스캔, 이미지 변환, 스마트 AI 기능 활용 등 모든 기능을 하나의 편리한 PDF 앱에서 이용하세요. 사용자 여러분의 피드백과 제안에 감사드립니다. 여러분의 성원에 힘입어 앱을 지속적으로 개선하고 더 나은 PDF 경험을 제공할 수 있습니다. ❤️",
+      "analysis": {
+        "app_key": "google:com.pdf.reader.document.viewer.file.pro",
+        "summary_ko": "PDF 리더: 스마트 AI 어시스턴트는 PDF 문서의 읽기, 편집, 스캔, 변환 및 정리를 지원하는 통합 생산성 앱입니다. AI 기능을 통해 문서 요약 및 번역을 제공하여 효율적인 문서 작업을 돕습니다. 일상적인 PDF 관련 작업을 하나의 앱에서 편리하게 처리할 수 있습니다.",
+        "features_ko": [
+          "PDF 파일 열기, 보기, 텍스트 검색 및 탐색 기능을 제공합니다.",
+          "문서 편집, 주석 달기, 강조 표시, 병합 및 분할 기능을 지원합니다.",
+          "카메라를 이용한 종이 문서 스캔 및 PDF 변환 기능을 제공합니다.",
+          "AI를 활용한 문서 내용 요약 및 다국어 번역 기능을 지원합니다.",
+          "파일 잠금 및 해제를 통한 데이터 보호 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "단순 리더를 넘어 AI 어시스턴트를 결합하여 생산성을 극대화한 점이 특징입니다. 문서 처리 로직과 AI API 연동의 안정성이 앱의 핵심 경쟁력으로 추정됩니다.",
+        "development_ko": "PDF 렌더링 엔진과 문서 처리(병합/분할/변환) 라이브러리 활용이 핵심입니다. AI 기능은 외부 LLM API를 연동하여 구현할 것으로 보이며, 스캔 기능은 이미지 처리 라이브러리(OCR 등)가 필요합니다. 파일 관리 시스템의 안정성과 보안 기능 구현이 중요합니다.",
+        "idea_ko": "문서 내 특정 키워드를 자동으로 추출하여 태그를 달아주는 '스마트 태깅' 기능을 추가하면 파일 정리가 훨씬 쉬워질 것입니다.",
+        "highlights_ko": [
+          "읽기부터 편집, 스캔까지 PDF 관련 작업을 통합한 올인원 도구입니다.",
+          "AI 기술을 도입하여 문서 요약 및 번역 등 고도화된 기능을 제공합니다."
+        ],
+        "systems_ko": [
+          "PDF 렌더링 및 뷰어 엔진",
+          "문서 편집 및 변환 로직",
+          "이미지 스캔 및 OCR 처리 시스템",
+          "AI API 연동 및 프롬프트 관리",
+          "파일 시스템 및 보안(암호화) 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "PDF 처리 라이브러리는 복잡도가 높고, 스캔 및 OCR 기능은 높은 수준의 이미지 처리 기술을 요구합니다. 또한 AI 연동 시 비용 관리와 응답 속도 최적화가 필요하여 개인 개발자가 구현하기에 난이도가 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "PDF 뷰어",
+            "기본 편집(주석/강조)",
+            "파일 관리"
+          ],
+          "defer": [
+            "AI 요약/번역",
+            "OCR 스캔",
+            "파일 암호화"
+          ],
+          "risks": [
+            "PDF 라이브러리 호환성 문제",
+            "AI API 비용 관리"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스마트 태깅",
+            "concept": "문서 내용을 분석하여 자동으로 카테고리 태그를 생성하고 분류하는 기능.",
+            "first_step": "문서 내 텍스트를 추출하여 키워드를 뽑아내는 간단한 로직 구현."
+          },
+          {
+            "title": "문서 템플릿 관리",
+            "concept": "자주 사용하는 양식을 템플릿으로 저장하고 빠르게 불러와 편집하는 기능.",
+            "first_step": "PDF 파일을 템플릿으로 저장하고 복사하여 새 파일로 만드는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "문서 처리 라이브러리 활용법과 API 연동을 배우기에 좋습니다. 생산성 앱 개발에 관심이 있다면 좋은 학습 대상입니다.",
+        "source_limitations_ko": "사용된 PDF 엔진의 종류, AI 모델의 정보, OCR 정확도, 파일 저장 위치(로컬/클라우드) 등은 소개문에 명시되지 않았습니다.",
+        "name": "PDF Reader: Smart AI Assistant",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.pdf.reader.document.viewer.file.pro&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "google:com.sudokucat.master": {
+      "app_key": "google:com.sudokucat.master",
+      "name": "Sudoku Cats Master",
+      "developer": "Hesapplication",
+      "source": "google",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.sudokucat.master&hl=ja&gl=JP",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:38:58+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "数独キャッツマスターは、色付きのマス目を使った論理パズルゲームです。各色の領域に猫を 1 匹ずつ配置し、同じ行、列、または隣接するマスに猫が 2 匹以上入らないようにしましょう。 遊び方 • 各色の領域には猫が 1 匹ずつしか入れられません。 • 行または列には猫を 1 匹しか入れられません。 • 猫同士は、斜め方向も含め、触れ合うことはできません。 • マス目をダブルタップして猫を配置します。空のマス目をタップまたはスワイプすると、配置候補から除外されます。 • 行き詰まったらヒントを使うか、「猫を探す」機能で安全な配置場所を確認できます。 ボード上のすべてのマス目をクリアするとレベルクリアとなり、次のレベルに進むと新しいレイアウトが表示されます。 アプリ内報酬 一部のレベルでは、ゲーム内報酬を獲得できます。報酬の金額、獲得条件、引き出し方法は、ゲームの進行状況、地域、アカウントチェック、およびアプリ内利用規約によって異なります。報酬は保証されるものではなく、収入源ではありません。 このゲームには、オプションの報酬型広告が含まれています。広告を見なくてもプレイを続けることができます。",
+      "analysis": {
+        "app_key": "google:com.sudokucat.master",
+        "summary_ko": "Sudoku Cats Master는 색상 영역 내에 고양이를 배치하는 논리 퍼즐 게임입니다. 행, 열, 또는 인접한 칸에 고양이가 겹치지 않도록 배치해야 하며, 모든 칸을 채우면 레벨이 완료됩니다. 고양이를 찾기 어려운 경우 힌트 기능을 사용하여 안전한 위치를 확인할 수 있습니다.",
+        "features_ko": [
+          "각 색상 영역에는 오직 한 마리의 고양이만 배치할 수 있습니다.",
+          "행과 열에는 고양이가 한 마리만 존재해야 합니다.",
+          "고양이는 대각선을 포함하여 서로 인접할 수 없습니다.",
+          "더블 탭으로 고양이를 배치하고, 스와이프로 후보에서 제외할 수 있습니다."
+        ],
+        "noteworthy_ko": "기존 수독쿠(스도쿠)의 규칙을 고양이 배치라는 테마로 재해석하여 친숙함을 높였습니다. 인접 칸 제한이라는 규칙이 추가되어 일반적인 숫자 퍼즐보다 공간적 제약이 더 까다로운 점이 개발 관점에서 흥미로운 도전 과제입니다.",
+        "development_ko": "핵심 기술은 제약 조건 만족 문제(CSP)를 해결하는 알고리즘과 그리드 상태 관리입니다. 고양이 배치 규칙을 검증하는 로직이 중요하며, 사용자 입력(탭/스와이프)에 따른 상태 변화를 매끄럽게 처리해야 합니다. 레벨 데이터는 정적 파일로 관리하거나 알고리즘으로 생성할 수 있습니다.",
+        "idea_ko": "고양이마다 고유한 성격이나 능력을 부여하여, 특정 고양이는 특정 색상 영역에서만 배치 가능하게 하는 등 규칙을 확장하는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "고양이라는 귀여운 테마를 사용하여 퍼즐의 진입 장벽을 낮췄습니다.",
+          "힌트와 '고양이 찾기' 기능을 통해 초보자도 쉽게 즐길 수 있습니다."
+        ],
+        "systems_ko": [
+          "그리드 기반 퍼즐 보드 시스템",
+          "배치 규칙 검증 엔진",
+          "사용자 입력 처리(탭/스와이프)",
+          "힌트 및 도움말 시스템",
+          "레벨 진행도 저장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "퍼즐 규칙 자체는 명확하여 구현이 가능하지만, 모든 레벨이 논리적으로 풀릴 수 있도록 보장하는 레벨 생성 및 검증 로직이 필요합니다. 1인 개발 시 레벨 디자인에 많은 시간을 할애해야 합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "그리드 보드 및 색상 영역 표시",
+            "고양이 배치 및 제거 로직",
+            "규칙 위반 시 시각적 피드백"
+          ],
+          "defer": [
+            "앱 내 보상 시스템",
+            "광고 연동",
+            "고급 힌트 기능"
+          ],
+          "risks": [
+            "레벨 생성 시 풀 수 없는 문제 발생 가능성",
+            "사용자 입력 인터페이스의 직관성 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "고양이 종류별 배치 규칙",
+            "concept": "고양이마다 배치 가능한 인접 범위가 다른 규칙을 추가합니다. 예를 들어, 어떤 고양이는 가로로만 인접할 수 없는 등 복잡한 제약을 도입합니다.",
+            "first_step": "고양이 객체에 인접 제한 범위를 설정하는 속성을 추가하고 규칙 검증 로직을 수정합니다."
+          },
+          {
+            "title": "시간 제한 모드",
+            "concept": "제한 시간 내에 보드를 완성해야 하는 모드를 추가합니다. 고양이를 배치할 때마다 시간이 추가되거나 줄어드는 요소를 넣어 긴장감을 높입니다.",
+            "first_step": "타이머 시스템을 구현하고 보드 완성 시 남은 시간을 계산하는 로직을 추가합니다."
+          }
+        ],
+        "recommendation_ko": "논리 퍼즐 게임의 기본기를 다지고 싶은 개발자에게 추천합니다. 규칙 기반의 게임 로직을 설계하고, 이를 사용자 인터페이스와 어떻게 연결할지 배우기에 적합한 프로젝트입니다.",
+        "source_limitations_ko": "소개문에 언급된 '앱 내 보상' 및 '광고' 관련 기능은 실제 구현 방식이 명시되지 않았으며, 수익 모델과 관련된 부분은 검증이 필요합니다. 고양이 배치 알고리즘의 구체적인 로직은 확인되지 않았습니다.",
+        "name": "Sudoku Cats Master",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.sudokucat.master&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 73,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
     }
   }
 }

@@ -19063,6 +19063,1088 @@
         "thoughtsTokenCount": 3016,
         "serviceTier": "standard"
       }
+    },
+    "google:com.cleanertool.box": {
+      "app_key": "google:com.cleanertool.box",
+      "name": "Cleaner Toolbox",
+      "developer": "SELBY TEAM",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.cleanertool.box&hl=en&gl=US",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.cleanertool.box",
+        "product_kind": "app",
+        "original_experience_ko": "안드로이드 기기의 저장 공간 정리(캐시 및 임시 파일), 배터리 상태 모니터링, 불필요한 앱 삭제, 백그라운드 프로세스 관리 등 기기 최적화 유틸리티 기능들을 하나의 인터페이스에서 간편하게 처리하도록 돕는 도구 앱 경험입니다. (근거: 스토어 설명 및 AI 해석)",
+        "source_facts_and_limitations_ko": [
+          "스토어 설명에 명시된 주요 기능은 Junk Cleaner, Battery Information, Uninstall Apps, Background Processes입니다.",
+          "한계: 백그라운드 프로세스 제어의 구체적인 기술적 구현 방식, 광고 및 결제 모델 여부, 외부 서버 연동 여부는 스토어 정보만으로는 확인되지 않습니다."
+        ],
+        "valuable_elements_ko": [
+          "여러 개로 나뉘기 쉬운 기기 관리 기능(저장소, 배터리, 프로세스, 앱)을 하나의 '툴박스' 형태로 모아 접근성을 높인 통합 유틸리티 구조",
+          "사용자가 기기의 성능 저하 요인(용량 부족, 백그라운드 부하)을 직관적으로 확인하고 조치하도록 유도하는 문제 해결 흐름"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "미니멀 스토리지 큐레이터",
+            "core_idea_ko": "무조건적인 캐시 일괄 삭제에서 벗어나, 사용자의 파일 소비 패턴(장기간 미사용 대용량 파일, 중복 미디어)을 분석하고 시각적 타임라인을 통해 능동적으로 정리하도록 돕는 스마트 저장소 관리 앱입니다.",
+            "what_to_keep_ko": "원본의 'Junk Cleaner' 및 'Uninstall Apps'가 제공하는 저장 공간 확보와 불필요한 데이터 제거라는 핵심 목적을 계승합니다.",
+            "what_to_change_ko": "단순 기계적 삭제 방식을 탈피하여 미사용 기간별 파일 분류, 중복 파일 그룹화, 삭제 전 안전 보관(휴지통) 연동 규칙을 도입하여 데이터 유실 불안감을 없애고 체계적인 정리를 유도합니다.",
+            "mobile_use_or_play_ko": "앱 실행 시 기기 전체 용량 중 큰 비중을 차지하는 카테고리(예: 동영상, 대용량 문서)가 시각적으로 표시되며, 사용자가 항목을 터치해 상세 파일을 확인하고 스와이프 제스처로 보관 또는 삭제를 결정합니다.",
+            "key_features_ko": [
+              "미사용 기간 및 카테고리별 스마트 저장소 분석 리포트",
+              "중복 파일 및 잔여 데이터 시각적 그룹화 및 비교",
+              "원터치 삭제 전 안전 보관함(Recycle Bin) 연동 기능"
+            ],
+            "solo_mvp_and_effort_ko": "안드로이드 `StorageStatsManager` 및 `MediaStore` API를 활용하여 로컬 파일 시스템을 읽고 분류하는 UI 구현. Scoped Storage 제약에 따른 예외 처리에 집중하면 3~4주 내 1인 개발 MVP 구축 가능.",
+            "strengths_limits_ko": "장점은 사용자가 무엇을 지우는지 명확히 인지하게 하여 만족도가 높다는 점이며, 약점은 안드로이드 OS 버전에 따른 파일 접근 권한 제약이 까다로울 수 있다는 점입니다."
+          },
+          {
+            "title_ko": "포커스 백그라운드 리소스 가디언",
+            "core_idea_ko": "백그라운드 프로세스와 배터리 정보를 단순 모니터링하는 데 그치지 않고, 사용자 생활 패턴(수면, 업무, 휴식)에 맞춰 배터리 소모 앱을 자동 제어하는 스마트 리소스 관리 앱입니다.",
+            "what_to_keep_ko": "원본의 'Battery Information'과 'Background Processes' 모니터링 기능을 유지하여 기기 상태의 가시성을 높이는 구조를 계승합니다.",
+            "what_to_change_ko": "무차별적인 프로세스 강제 종료 방식 대신, 앱별 리소스 소모 통계를 기반으로 '수면 모드(자동 절전)'와 '화이트리스트'를 설정할 수 있는 프로필 기반 자동 제어 규칙을 도입합니다.",
+            "mobile_use_or_play_ko": "대시보드에서 현재 배터리 소모율이 높은 상위 앱을 확인하고, 사용자가 해당 앱을 '상시 허용', '수면 모드', '절전 대상' 중 하나로 드래그 앤 드롭하여 규칙을 지정합니다.",
+            "key_features_ko": [
+              "앱별 실시간 백그라운드 리소스 소모 히트맵 제공",
+              "시간대별/상황별(업무/수면) 자동 절전 프로필 설정",
+              "핵심 알림 누락 방지를 위한 예외 처리(화이트리스트) 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "`BatteryManager` 및 `ActivityManager`를 이용한 프로세스/배터리 상태 수집. 백그라운드 서비스 및 알림 권한 처리가 핵심이며, MVP는 기본 대시보드와 수동 규칙 설정 위주로 3주 소요.",
+            "strengths_limits_ko": "장점은 배터리 절감 효과가 실질적이고 사용자 커스텀이 유연하다는 점이며, 약점은 최신 안드로이드 OS의 강력한 백그라운드 제한 정책으로 인해 서드파티 앱이 제어할 수 있는 범위가 제한적일 수 있다는 점입니다."
+          },
+          {
+            "title_ko": "앱 루틴 & 프라이버시 오딧",
+            "core_idea_ko": "단순한 앱 삭제 기능을 넘어, 장기간 사용하지 않은 앱과 위험한 권한(위치, 연락처 등)을 가진 앱을 통합 감사(Audit)하여 개인정보 보호와 용량 확보를 동시에 해결하는 앱 관리 도구입니다.",
+            "what_to_keep_ko": "원본의 'Uninstall Apps' 및 앱 관리 중심의 유틸리티 구조와 직관적인 리스트 정리 방식을 계승합니다.",
+            "what_to_change_ko": "단순 목록 나열 후 삭제 방식에서 벗어나, '최근 3개월간 미사용 앱', '과도한 권한 요구 앱', '백그라운드 상주 앱' 등 보안 및 활용도 관점의 종합 리포트를 제공하고 원클릭 정리 가이드를 제시합니다.",
+            "mobile_use_or_play_ko": "앱 실행 시 보안 지수와 함께 '정리가 필요한 앱 0개' 형태의 메인 카드가 표시되며, 터치 시 권한별·사용 빈도별로 분류된 앱 리스트를 보면서 안전하게 일괄 정리 또는 권한 회수를 수행합니다.",
+            "key_features_ko": [
+              "설치된 앱의 런타임 권한(위치, 카메라 등) 종합 감사",
+              "사용 빈도 기반(3개월 이상 미사용) 스마트 추천 삭제",
+              "앱별 데이터 Footprint(캐시+저장소 용량) 통합 표시"
+            ],
+            "solo_mvp_and_effort_ko": "`PackageManager`를 통한 패키지 정보 및 권한 조회 구현. UI는 깔끔한 카드 형태로 구성하며, 1인 개발 시 2~3주 내 핵심 기능 구현 가능.",
+            "strengths_limits_ko": "장점은 사용자가 평소 인지하지 못했던 보안 위험과 불필요한 앱을 동시에 정리할 수 있어 유용성이 높다는 점이며, 약점은 OS 보안 정책 변화에 따라 권한 조회 범위가 제한될 수 있다는 점입니다."
+          }
+        ],
+        "concept_comparison_ko": "세 아이디어는 원본의 도구적 유틸리티 성격을 각각 '저장소 큐레이션(1안)', '리소스/배터리 자동화(2안)', '앱 수명 주기 및 보안 감사(3안)'라는 서로 다른 실질적 가치로 확장했습니다. 1안은 직관적인 파일 정리와 안전성에 집중하고, 2안은 프로필 기반 자동 제어로 배터리 효율을 높이며, 3안은 프라이버시와 미사용 앱 관리에 초점을 둡니다. 제작 난이도는 세 아이디어 모두 안드로이드 표준 API를 활용하므로 유사하나, 최신 OS의 백그라운드 정책 제약 측면에서 2안이 상대적으로 구현 리스크가 높고, 1안과 3안은 사용자 체감 피드백이 명확하여 1인 개발에 유리합니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "'미니멀 스토리지 큐레이터'는 원본의 'Junk Cleaner' 및 'Uninstall Apps'가 제공하던 핵심 경험을 가장 직관적이고 거부감 없는 방식으로 발전시켰습니다. 안드로이드 최신 버전의 백그라운드 제약에 상대적으로 덜 구애받으면서, `MediaStore`와 `StorageStatsManager`를 통해 사용자가 직접 체감하는 저장 공간 확보 가치를 명확히 전달할 수 있습니다. 1인 개발자가 MVP를 구현하기에 API 안정성이 높고, 사용자에게 명확한 피드백을 줄 수 있어 실효성이 가장 높습니다.",
+        "next_questions_ko": [
+          "안드로이드 Scoped Storage 정책에 따른 외부 디렉토리 파일 접근 범위의 한계를 어떻게 우아하게 처리할 것인가?",
+          "사용자가 실수로 중요한 파일을 삭제하는 것을 방지하기 위해 자체 '휴지통(Recycle Bin)' 기능을 어느 수준까지 가볍게 구현할 것인가?",
+          "캐시 및 임시 파일 스캔 시 사용자 기기의 부하(CPU/메모리 스파이크)를 최소화하는 스레딩 구조는 어떻게 설계할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-14T06:59:45+09:00",
+      "brief_quota_day": "2026-11-14",
+      "brief_usage": {
+        "promptTokenCount": 1234,
+        "candidatesTokenCount": 2297,
+        "totalTokenCount": 6759,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1234
+          }
+        ],
+        "thoughtsTokenCount": 3228,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.cleanertool.box",
+        "product_kind": "app",
+        "selected_concept_title_ko": "미니멀 스토리지 큐레이터",
+        "project_goal_and_audience_ko": "스마트폰 용량 부족에 시달리지만 중요 데이터의 실수 삭제가 두려운 안드로이드 스마트폰 사용자들을 위한 지능형 저장소 관리 앱입니다. 무작정 파일을 지우는 방식에서 벗어나 시각적인 분석과 안전 보관함을 통해 안심하고 기기 용량을 최적화하는 효용을 제공합니다.",
+        "source_relation_and_difference_ko": "원본 앱('Cleaner Toolbox')의 핵심 목적인 '저장 공간 확보' 및 '불필요한 데이터 제거'라는 가치를 계승하면서도, 맹목적인 일괄 캐시 삭제 방식 대신 미사용 기간별 분류, 중복 파일 그룹화, 안전 보관함(Recycle Bin) 시스템을 도입하여 데이터 유실 불안감을 근본적으로 해결했습니다.",
+        "core_user_experience_ko": "앱을 실행하면 기기 전체 저장소의 카테고리별 사용량이 직관적인 대시보드 형태로 표시됩니다. 사용자가 대용량 파일이나 장기간 미사용 파일 카테고리를 터치해 상세 목록을 확인하고, 카드 형태의 리스트를 스와이프하여 '안전 보관함 이동' 또는 '즉시 삭제'를 결정하면 상단의 가용 용량 게이지가 실시간으로 갱신되며 쾌적한 피드백을 받게 됩니다.",
+        "features_ko": [
+          {
+            "feature_ko": "미사용 기간 및 카테고리별 저장소 분석 리포트",
+            "user_action_and_behavior_ko": "사용자가 기기 내부의 대용량 동영상, 문서, 미사용 파일을 기간별(예: 6개월 이상 미접속)로 정렬하여 조회하고 상태를 파악할 수 있어, 어떤 데이터를 정리해야 할지 명확한 판단이 가능해집니다.",
+            "practical_implementation_ko": "안드로이드 StorageStatsManager 및 MediaStore API를 코루틴 백그라운드 스레드에서 호출하여 기기 내 미디어와 파일 메타데이터를 비동기 수집하고, 날짜순/크기순으로 정렬하는 로직을 구현합니다."
+          },
+          {
+            "feature_ko": "중복 파일 및 잔여 데이터 시각적 그룹화",
+            "user_action_and_behavior_ko": "동일한 이름이나 유사한 해시값을 가진 미디어/문서 파일들을 그룹 단위로 묶어 보여주며, 사용자가 원클릭으로 비교 후 불필요한 중복본을 골라낼 수 있습니다.",
+            "practical_implementation_ko": "파일 이름, 크기, 수정 일자 기반의 가벼운 그룹화 알고리즘을 적용하여 리스트 형태로 UI에 바인딩하고, Jetpack Compose의 LazyColumn으로 부드러운 스크롤을 보장합니다."
+          },
+          {
+            "feature_ko": "원터치 안전 보관함(Recycle Bin) 연동 기능",
+            "user_action_and_behavior_ko": "파일을 곧바로 영구 삭제하지 않고 임시 보관함으로 이동시켜, 실수로 삭제한 파일이 있더라도 일정 기간 내에 간편하게 원위치로 복원할 수 있는 심리적 안정감을 제공합니다.",
+            "practical_implementation_ko": "앱 내부 전용 캐시 디렉토리 또는 Room DB에 파일 메타데이터 및 원본 경로를 기록하고, 지정된 유예 기간(예: 30일)이 지나면 백그라운드 워커(WorkManager)를 통해 최종 삭제를 수행합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 대시보드 화면",
+            "contents_and_actions_ko": "전체 용량 대비 사용 중인 공간의 비율을 원형/바 차트로 시각화. 주요 대용량 카테고리 요약 카드와 '스마트 스캔 시작' 버튼 제공. 터치 시 상세 큐레이션 리스트로 이동."
+          },
+          {
+            "screen_ko": "상세 큐레이션 리스트 화면",
+            "contents_and_actions_ko": "미사용 기간 또는 파일 크기별로 정렬된 개별 파일 목록 표시. 각 항목을 좌우로 스와이프하여 '보관함 이동' 또는 '삭제' 선택. 상단에 즉시 확보 가능한 예상 용량 표시."
+          },
+          {
+            "screen_ko": "안전 보관함(휴지통) 화면",
+            "contents_and_actions_ko": "삭제 대기 중인 파일 목록과 만료 잔여일 표시. 개별 파일 선택 후 '복원' 또는 '영구 삭제' 버튼 조작 가능."
+          }
+        ],
+        "implementation_approach_ko": "Android 플랫폼 표준에 맞추어 Kotlin 및 Jetpack Compose를 활용해 현대적이고 반응 빠른 UI를 구성합니다. 파일 시스템 접근은 StorageStatsManager와 MediaStore API를 기반으로 하며, 무거운 스캔 작업은 Kotlin Coroutine과 Dispatchers.IO를 사용하여 UI 멈춤(ANR)을 방지합니다. 로컬 메타데이터 저장을 위해 Room DB를 채택하며, 대안으로 SAF(Storage Access Framework)를 일부 활용하여 최신 안드로이드 버의 Scoped Storage 정책에 유연하게 대응합니다.",
+        "data_and_storage_ko": [
+          "FileItemEntity (Room DB): fileUri(String), fileName(String), fileSize(Long), lastModifiedDate(Long), category(String), isArchived(Boolean). 파일 시스템 스캔 결과 및 보관함 상태를 로컬에 영구 저장합니다.",
+          "ScanConfiguration (DataStore): 사용자의 정렬 선호도, 알림 설정, 보관함 보존 기간(예: 30일) 등의 가벼운 설정을 비동기로 읽고 저장합니다."
+        ],
+        "mvp_scope_ko": "기기 저장소 총용량 및 카테고리별 사용량 파악, 6개월 이상 미사용 대용량 파일 리스트업, 스와이프 제스처를 통한 안전 보관함 이동 및 삭제 기능만 포함합니다. 클라우드 연동, 실시간 백그라운드 프로세스 관리, 배터리 통계 등 부가 기능은 초기 MVP에서 제외하여 개발 복잡도를 낮춥니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 권한 처리 및 파일 시스템 스캔 모듈",
+            "deliverable_and_check_ko": "MANAGE_EXTERNAL_STORAGE 또는 MediaStore 권한 요청 플로우 구축. 코루틴을 이용해 로컬 저장소의 대용량 파일 목록을 로그로 정상 출력하는지 확인."
+          },
+          {
+            "stage_ko": "2단계: Jetpack Compose 대시보드 및 리스트 UI",
+            "deliverable_and_check_ko": "저장소 사용량 시각화 차트와 카테고리별 파일 리스트 화면 구현. 스와이프 제스처를 통한 상태 변경 인터랙션 테스트."
+          },
+          {
+            "stage_ko": "3단계: Room DB 기반 안전 보관함 및 복원 로직",
+            "deliverable_and_check_ko": "삭제된 파일이 안전 보관함 DB에 등록되고, 복원 시 원래 경로로 되돌려지는지 데이터 흐름 검증."
+          },
+          {
+            "stage_ko": "4단계: 예외 처리 및 최종 안정화",
+            "deliverable_and_check_ko": "권한 거부 시 대체 안내 화면 표시 여부 및 빈 저장소 상태에서의 UI 예외 처리 점검."
+          }
+        ],
+        "possible_extensions_ko": "앱별 캐시 정밀 분석 기능 추가(App Usage Stats 활용), 기기 내 중복 이미지 유사도 비교 알고리즘 고도화, 정기 스캔 알림 기능.",
+        "risks_and_open_decisions_ko": [
+          "안드로이드 OS 버전에 따른 Scoped Storage 정책 강화로 인해 일부 시스템 잔여 파일 접근에 제한이 있을 수 있으며, 이는 공식 API 범위 내에서만 정리를 지원하도록 정책적 타협점을 유지해야 합니다.",
+          "파일 개수가 수만 개에 달하는 기기에서 스캔 시 메모리 소비량이 증가할 수 있으므로, 페이징 또는 스트리밍 방식의 스캔 로직 최적화 여부를 개발 과정에서 지속적으로 테스트하고 결정해야 합니다."
+        ],
+        "draft_status_ko": "본 개발 설계 초안은 실제 앱 구현, 기기 파일 시스템 테스트, 성능 프로파일링이 완료되지 않은 기획 및 아키텍처 설계 단계의 초안입니다."
+      },
+      "plan_at": "2026-11-14T07:00:01+09:00",
+      "plan_quota_day": "2026-11-14",
+      "plan_usage": {
+        "promptTokenCount": 1993,
+        "candidatesTokenCount": 2025,
+        "totalTokenCount": 5806,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1993
+          }
+        ],
+        "thoughtsTokenCount": 1788,
+        "serviceTier": "standard"
+      }
+    },
+    "itch:26015261c1e55e35c40a": {
+      "app_key": "itch:26015261c1e55e35c40a",
+      "name": "Nymble 2 Demo [Free] [Puzzle] [Android]",
+      "developer": "",
+      "source": "itch",
+      "kind": "game",
+      "detail_url": "https://xalezar.itch.io/nymble-2",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:26015261c1e55e35c40a",
+        "product_kind": "game",
+        "original_experience_ko": "원본 게임 'Nymble 2 Demo'는 스토어 소개에 따르면 턴제 방식으로 진행되는 퍼즐 플랫폼 게임으로, 주인공 Jack을 조작하여 새로운 높이에 도달하는 것을 목표로 합니다. 공개된 사실은 턴제 규칙과 플랫폼 등반 장르의 결합이며, AI 해석에 따르면 실시간 액션 대신 플레이어가 매 턴마다의 선택을 고민하는 전략적 레벨 디자인이 핵심 경험일 것으로 추정됩니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 사실: 'Jack reaches new heights in this turn-based puzzle-platformer sequel!'이라는 문구로 턴제 퍼즐 플랫폼 장르의 속편임을 확인했습니다.",
+          "스토어 사실: 주인공 이름이 Jack이며 수직 등반(reach new heights)을 지향합니다.",
+          "한계점: 턴제 이동의 구체적인 입력 방식(그리드, 스와이프 등), 장애물 및 기믹의 종류, 데모 이후의 전체 콘텐츠 볼륨에 대한 정보는 명시되지 않아 알 수 없습니다."
+        ],
+        "valuable_elements_ko": [
+          "실시간 조작의 압박감 없이 한 턴씩 신중하게 경로를 계산하는 턴제 플랫폼 메커니즘은 모바일 환경에서 호흡을 조절하기에 매우 유리합니다.",
+          "수직 등반이라는 명확한 진행 목표는 플레이어에게 시각적인 성취감과 다음 스테이지로의 동기를 부여합니다."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "크로노 클라임 (Chrono Climb)",
+            "core_idea_ko": "턴제 플랫폼 등반에 '과거의 내 잔상(타임 루프)과 협력하는 시공간 퍼즐' 요소를 결합한 모바일 턴제 퍼즐 게임입니다.",
+            "what_to_keep_ko": "원작의 핵심인 턴제 기반의 플랫폼 이동과 수직으로 올라가는 등반 목표를 계승합니다.",
+            "what_to_change_ko": "단순히 한 캐릭터를 움직이는 데서 벗어나, 매 루프마다 기록된 과거 '잔상'이 동시에 움직이는 규칙을 추가하여 퍼즐의 복잡도와 논리적 깊이를 높입니다.",
+            "mobile_use_or_play_ko": "플레이어가 화면 하단의 스와이프 버튼으로 잭을 한 칸 이동(1턴)시키면, 저장된 이전 턴의 잔상들이 동시에 동일한 행동을 반복 재현하며 문을 열거나 발판을 누르는 피드백을 제공합니다.",
+            "key_features_ko": [
+              "타임 루프 및 잔상 동기화 턴 로직",
+              "과거 행동을 되돌릴 수 있는 '턴 역행(Rewind)' UI",
+              "잔상의 상호작용(발판 누르기, 방패 역할 등)을 활용하는 레벨 기믹"
+            ],
+            "solo_mvp_and_effort_ko": "2D 그리드 기반의 타일맵을 활용하며, 1인 개발 시 턴 로그 배열(History Log) 관리 구조만 안정적으로 설계하면 물리 엔진 없이 가벼운 로직으로 구현 가능하여 개발 난이도가 보통 수준입니다.",
+            "strengths_limits_ko": "머리를 쓰는 깊은 재미를 주지만, 루프 횟수가 늘어날수록 플레이어가 머릿속으로 계산해야 할 부하가 커져 초반 학습 곡선 설계를 세심하게 해야 합니다."
+          },
+          {
+            "title_ko": "패스파인더: 버티컬 릴레이 (Pathfinder: Vertical Relay)",
+            "core_idea_ko": "혼자 오르는 원작의 구조를 확장하여, 앞서 플레이한 다른 유저들의 성공/실패 경로(발자국)를 비동기 데이터로 공유받아 상호작용하는 소셜 턴제 퍼즐 게임입니다.",
+            "what_to_keep_ko": "턴 단위의 신중한 이동 규칙과 상층부를 향해 전진하는 수직 플랫폼 레벨 구조를 계승합니다.",
+            "what_to_change_ko": "싱글 플레이 고립감에서 벗어나, 타인의 잔존 기록(발판 생성 또는 함정 위치 공유)을 활용해 퍼즐을 돌파하거나 새로운 루트를 개척하는 비동기 협력 요소로 확장합니다.",
+            "mobile_use_or_play_ko": "스테이지 진입 시 다른 유저가 통과했던 흔적(지나간 턴의 궤적)이 반투명하게 표시되며, 유저는 그 위에 임시 발판을 설치하거나 타인의 동선을 우회하여 자신만의 최적 경로를 완성합니다.",
+            "key_features_ko": [
+              "비동기 턴 경로 데이터 업로드/다운로드 시스템",
+              "타인의 기록을 활용한 임시 발판 생성 기믹",
+              "커뮤니티 기반 '최적 루트 추천' 투표 기능"
+            ],
+            "solo_mvp_and_effort_ko": "간단한 클라우드 데이터베이스(예: Firebase) 연동이 필요하며, 1인 개발 시 네트워크 예외 처리와 데이터 구조 설계로 인해 MVP 구현 난이도가 다소 높습니다.",
+            "strengths_limits_ko": "유저 간 상호작용으로 리플레이성과 확장성이 높지만, 초기 유저 풀이 부족할 경우 핵심 재미 요소가 작동하지 않는 치명적인 약점이 있습니다."
+          },
+          {
+            "title_ko": "배낭 든 등반가: 팩 앤 피크 (Pack & Peak)",
+            "core_idea_ko": "턴제 플랫폼 등반에 '제한된 인벤토리와 무게/자원 관리'라는 로그라이트 요소를 결합하여 매번 다른 선택을 강제하는 생존 퍼즐 게임입니다.",
+            "what_to_keep_ko": "그리드 기반의 턴제 이동 방식과 위로 올라갈수록 좁아지는 등반 스테이지 구조를 계승합니다.",
+            "what_to_change_ko": "무한정 이동하던 원작과 달리, 매 턴마다 체력과 장비(로프, 피켈)의 내구도가 소모되는 자원 관리 규칙을 도입하여 전략적 완급 조절을 추가합니다.",
+            "mobile_use_or_play_ko": "이동할 칸을 선택하기 전에 배낭에서 소모품을 배치하거나 장비를 교체하는 준비 턴을 거친 뒤, 등반 턴을 실행하여 지형 변화와 자원 소모 결과를 한눈에 확인합니다.",
+            "key_features_ko": [
+              "인벤토리 그리드 및 무게 제어 시스템",
+              "장비 내구도와 자원 소모를 반영하는 턴 엔진",
+              "절차적 생성(Procedural)을 통한 무작위 등반 지형"
+            ],
+            "solo_mvp_and_effort_ko": "UI 중심의 인벤토리와 고정 맵 기반의 소규모 캠페인으로 MVP를 축소하면 1인 개발로 충분히 달성 가능하며, 난이도는 보통입니다.",
+            "strengths_limits_ko": "반복 플레이 가치가 높고 중독성이 강하지만, 퍼즐의 논리적 해법과 자원 밸런스(난이도 곡선)를 맞추는 기획적 검증 작업이 매우 까다롭습니다."
+          }
+        ],
+        "concept_comparison_ko": "1번 '크로노 클라임'은 서버 없이 순수 싱글 플레이 퍼즐의 깊이를 극대화하며 모바일 환경에 가장 최적화되어 있습니다. 2번 '패스파인더'는 소셜성을 강조했으나 서버 유지 및 초기 유저 확보의 리스크가 큽니다. 3번 '팩 앤 피크'는 로그라이트 재미를 주지만 퍼즐의 정교함과 자원 밸런싱 부담이 큽니다. 따라서 순수 퍼즐 완성도와 1인 개발 안정성 측면에서 1번이 가장 균형 잡혀 있습니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "원작의 턴제 플랫폼이 가진 '전략적 사고'라는 핵심 유산을 타임 루프 잔상 시스템이라는 명확하고 신선한 메커니즘으로 발전시켰습니다. 멀티플레이 인프라가 불필요하여 1인 모바일 개발자가 기획 완성도와 버그 컨트롤을 오롯이 통제할 수 있으며, 직관적인 터치 인터페이스와 잘 어울려 모바일 플레이 경험이 우수합니다.",
+        "next_questions_ko": [
+          "모바일 화면에서 수직 스크롤과 턴 제어(이동/역행) UI가 손가락 터치 동선에 방해되지 않도록 어떻게 배치할 것인가?",
+          "잔상이 3개 이상 늘어났을 때 플레이어가 인지할 수 있는 시각적 가독성(색상, 애니메이션)을 어떻게 확보할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-14T07:04:52+09:00",
+      "brief_quota_day": "2026-11-14",
+      "brief_usage": {
+        "promptTokenCount": 1180,
+        "candidatesTokenCount": 2130,
+        "totalTokenCount": 5291,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1180
+          }
+        ],
+        "thoughtsTokenCount": 1981,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "itch:26015261c1e55e35c40a",
+        "product_kind": "game",
+        "selected_concept_title_ko": "크로노 클라임 (Chrono Climb)",
+        "project_goal_and_audience_ko": "모바일 환경에서 신중한 수싸움과 퍼즐 풀이를 선호하는 게이머를 위한 턴제 시공간 협력 퍼즐 게임입니다. 원작의 수직 등반 구조에 '타임 루프와 잔상 협력'이라는 새로운 차원을 결합하여, 플레이어가 자신과 협력하며 머리를 쓰는 깊은 전략적 재미를 느끼게 하는 것이 목표입니다.",
+        "source_relation_and_difference_ko": "원작의 핵심 경험인 턴제 기반의 플랫폼 이동과 수직 등반 목표는 충실히 계승합니다. 차별점으로는 단순 단일 캐릭터 조작에서 벗어나, 매 루프마다 기록된 과거의 내 행동('잔상')들이 현재의 플레이어와 동시에 움직이며 상호작용하는 시공간 루프 퍼즐 메커니즘을 새롭게 도입했습니다.",
+        "core_user_experience_ko": "플레이어는 화면 하단의 턴 조작 패널(상하좌우 이동, 대기)을 터치하여 잭을 한 칸씩 움직입니다. 한 턴이 끝날 때마다 위치와 행동이 로그에 기록되며, '루프 리셋'을 누르면 잭은 출발점으로 돌아오고 이전 루프의 행동을 그대로 반복하는 '잔상'이 생성됩니다. 플레이어는 잔상이 압력판을 누르고 있는 타이밍에 맞춰 문을 통과하는 방식으로 더 높은 곳에 도달하며 짜릿한 성취감을 얻습니다.",
+        "features_ko": [
+          {
+            "feature_ko": "타임 루프 및 잔상 동기화 턴 로직",
+            "user_action_and_behavior_ko": "사용자가 이동을 마친 뒤 루프를 종료하면, 이전 루프의 기록이 재생되면서 현재 캐릭터와 잔상들이 동시에 턴을 소모하며 이동합니다. 이를 통해 복잡한 지형과 스위치 기믹을 해결합니다.",
+            "practical_implementation_ko": "Vector2Int 기반의 그리드 좌표계를 사용하고, 각 턴의 행동을 객체 배열(TurnLog List)에 순차 기록한 뒤 루프 재생 시 각 인덱스의 로그를 일괄 시뮬레이션하는 방식으로 가볍게 구현합니다."
+          },
+          {
+            "feature_ko": "턴 역행(Rewind) 및 로그 수정 UI",
+            "user_action_and_behavior_ko": "현재 루프 내에서 실수했을 때, 즉시 직전 턴 상태로 되돌아가 다른 경로를 선택할 수 있어 시행착오의 피로도를 낮춥니다.",
+            "practical_implementation_ko": "현재 루프의 상태 스택(State Stack)을 관리하여 Undo 기능 구현 시 이전 플레이어 좌표와 기믹 상태를 즉시 복원합니다."
+          },
+          {
+            "feature_ko": "잔상 상호작용 기믹 시스템",
+            "user_action_and_behavior_ko": "압력판, 타이머 문, 일회용 발판 등 잔상이나 플레이어의 무게/위치로 작동하는 기믹을 통해 퍼즐의 난이도와 논리적 다양성을 제공합니다.",
+            "practical_implementation_ko": "그리드 매니저에서 매 턴 종료 시 모든 유닛(플레이어 + 잔상)의 최종 위치를 수집하여 트리거(압력판 등)의 활성화 여부를 판정하는 중앙 제어 로직을 작성합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "타이틀 및 레벨 선택 화면",
+            "contents_and_actions_ko": "심플한 UI로 스테이지 목록을 표시하며, 각 스테이지의 클리어 여부와 최소 루프 횟수 기록을 확인하고 진입합니다."
+          },
+          {
+            "screen_ko": "메인 게임 플레이 화면",
+            "contents_and_actions_ko": "상단에 수직 등반 맵(타일맵)과 잔상/플레이어 캐릭터, 하단에 방향 조작 버튼, 루프 리셋 버튼, 턴 역행 버튼이 배치되어 터치 조작에 최적화된 피드백을 제공합니다."
+          },
+          {
+            "screen_ko": "스테이지 클리어 팝업",
+            "contents_and_actions_ko": "목표 지점 도달 시 노출되며, 소요된 루프 횟수 요약과 함께 다음 스테이지로 이동하거나 재시도하는 선택지를 제공합니다."
+          }
+        ],
+        "implementation_approach_ko": "가벼운 2D 모바일 구현에 적합한 Unity(C#) 또는 Godot(GDScript) 엔진을 채택합니다. 복잡한 물리 엔진(Rigidbody) 없이 2D 타일맵(Tilemap)과 그리드 좌표(Vector2Int) 연산만으로 턴을 처리하므로 모바일 기기에서 배터리 소모가 적고 프레임 드롭이나 물리 버그 없는 안정적인 구현이 가능합니다.",
+        "data_and_storage_ko": [
+          "GameLevelData: 레벨 크기, 벽 및 기믹(압력판, 문)의 초기 위치를 담은 JSON 구조체.",
+          "TurnLog: `turnIndex`, `actorId`, `actionType` 필드를 포함하여 각 루프의 행동 흐름을 기록하는 배열, 메모리 및 세이브 파일 관리.",
+          "PlayerProgress: 클리어한 스테이지 번호와 최고 기록을 로컬 저장소(SharedPreferences/JSON)에 저장 및 불러오기."
+        ],
+        "mvp_scope_ko": "잔상 1개와의 협력이 가능한 루프 시스템, 4방향 이동 및 대기 조작, 압력판과 문 기믹이 포함된 초반 5개의 핵심 스테이지로 구성합니다. 화려한 그래픽 효과나 사운드는 제외하고 코어 퍼즐 로직과 터치 반응성을 검증하는 데 집중합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 그리드 이동 및 맵 렌더링",
+            "deliverable_and_check_ko": "타일맵 기반의 2D 맵 출력 및 터치 패널을 통한 캐릭터 4방향 그리드 이동 프로토타입 확인."
+          },
+          {
+            "stage_ko": "2단계: 턴 로그 및 잔상 동기화 구현",
+            "deliverable_and_check_ko": "루프 종료 시 기록된 로그를 바탕으로 잔상이 정확히 동일한 경로를 재현하며 움직이는지 테스트."
+          },
+          {
+            "stage_ko": "3단계: 기믹 연동 및 UI 완성",
+            "deliverable_and_check_ko": "압력판과 문 상호작용 로직을 결합하고, 턴 역행(Undo) 및 루프 리셋 버튼의 정상 작동 여부 확인."
+          },
+          {
+            "stage_ko": "4단계: 레벨 데이터 구조화 및 MVP 빌드",
+            "deliverable_and_check_ko": "5개의 샘플 스테이지 데이터 적용 및 모바일 화면 터치 반응 테스트."
+          }
+        ],
+        "possible_extensions_ko": "서로 다른 특성을 가진 잔상(예: 이동 속도가 느리지만 무거운 잔상), 방향을 반대로 복사하는 거울 기믹, 유저가 직접 레벨을 만들고 공유하는 간단한 레벨 에디터 기능.",
+        "risks_and_open_decisions_ko": [
+          "동일한 그리드 좌표에 플레이어와 잔상이 동시에 진입할 때의 충돌 처리 규칙 명확화 필요.",
+          "루프 횟수가 3회 이상 늘어났을 때 플레이어가 머릿속으로 계산해야 하는 인지 부하를 줄이기 위해, 잔상의 예상 이동 경로를 미리 시각화(Ghost Trail Preview)해 줄지 여부 기획 결정 필요.",
+          "모바일 화면 크기에 따른 UI 배치 최적화 방안."
+        ],
+        "draft_status_ko": "본 문서는 실제 모바일 빌드 배포나 대규모 유저 테스트가 완료되지 않은 개발 설계 초안입니다."
+      },
+      "plan_at": "2026-11-14T07:06:20+09:00",
+      "plan_quota_day": "2026-11-14",
+      "plan_usage": {
+        "promptTokenCount": 1863,
+        "candidatesTokenCount": 1942,
+        "totalTokenCount": 5994,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1863
+          }
+        ],
+        "thoughtsTokenCount": 2189,
+        "serviceTier": "standard"
+      }
+    },
+    "google:com.pdf.reader.document.viewer.file.pro": {
+      "app_key": "google:com.pdf.reader.document.viewer.file.pro",
+      "name": "PDF Reader: Smart AI Assistant",
+      "developer": "Dien Tu Teach",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.pdf.reader.document.viewer.file.pro&hl=ko&gl=KR",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.pdf.reader.document.viewer.file.pro",
+        "product_kind": "app",
+        "original_experience_ko": "본 앱은 PDF 문서를 읽고, 편집하고, 스캔 및 변환하며, AI를 통해 요약 및 번역 기능을 제공하는 통합 생산성 앱입니다. 공개된 스토어 소개문 기반의 사실은 문서 리딩, 기본 편집, 카메라 스캔, AI 요약/번역, 파일 잠금 기능을 제공한다는 점이며, AI 모델의 종류나 PDF 렌더링 엔진의 구체적 성능은 명시되지 않은 한계가 있습니다. AI 해석에 따르면 문서 작업의 효율성을 높이기 위한 다기능 유틸리티 성격이 강합니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 사실: PDF 파일 열기/검색, 문서 편집/주석/병합/분할, 카메라 스캔 및 PDF 변환, AI 요약 및 번역, 파일 잠금/관리 기능 제공.",
+          "미확인 사항 및 한계: 사용된 구체적인 PDF 렌더링 엔진, AI API의 종류 및 응답 속도, OCR 인식률의 정확도, 로컬 및 클라우드 저장 구조 등은 스토어 설명만으로는 확인 불가."
+        ],
+        "valuable_elements_ko": [
+          "모바일 환경에서 다양한 문서 작업(스캔, 리딩, 변환, 요약)을 하나의 앱 안에서 끊김 없이 처리하는 통합 워크플로우 경험.",
+          "카메라를 통한 물리적 종이 문서의 디지털화(스캔)와 AI 기반의 텍스트 분석(요약/번역)을 결합하여 정보 접근성을 극대화한 점."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "스마트 논문 독서·토론 어시스턴트 (Socratic PDF Reader)",
+            "core_idea_ko": "대학생 및 연구자를 대상으로 단순 텍스트 요약을 넘어, PDF 논문 내의 가설과 데이터에 대해 AI와 소크라테스식 문답을 나누며 비판적으로 읽는 학술 문서 전문 리서치 앱.",
+            "what_to_keep_ko": "PDF 파일 열기, 텍스트 검색, AI 요약 및 번역 기능.",
+            "what_to_change_ko": "단방향 수동 요약에서 벗어나, 사용자가 문단을 드래그하면 AI가 추가 검토가 필요한 연구적 맹점이나 반박 근거를 질문 형태로 제시하는 양방향 인터랙티브 토론 루프로 전환.",
+            "mobile_use_or_play_ko": "사용자가 논문 PDF를 불러와 특정 연구 방법론 문단을 선택하면, 하단 시트에 해당 가설의 취약점을 묻는 AI의 질문이 나타나고 음성/텍스트로 대화하며 주석을 자동 생성.",
+            "key_features_ko": [
+              "학술 문단 양방향 소크라테스식 질의응답 및 토론 루프",
+              "선택 영역 기반 비판적 반박 근거 및 연관 연구 탐색",
+              "대화 내용 및 인사이트를 구조화된 마크다운 노트로 추출"
+            ],
+            "solo_mvp_and_effort_ko": "오픈소스 PDF 텍스트 파싱 라이브러리와 LLM API를 연동하여, 선택 영역 전송 및 프롬프트 기반 질의응답 창을 구현. UI는 가벼운 텍스트 뷰와 대화형 채팅 UI 중심으로 구성하여 1인 개발 가능.",
+            "strengths_limits_ko": "학술적 생산성에 특화된 명확한 타겟팅이 장점이나, 복잡한 수식이나 다단 레이아웃을 가진 PDF의 텍스트 추출 정확도에 한계가 있을 수 있음."
+          },
+          {
+            "title_ko": "현장 실무 계약서 & 영수증 퀵 인스펙터 (FieldDoc Inspector)",
+            "core_idea_ko": "중소상공인이나 프리랜서가 현장에서 카메라로 종이 계약서나 영수증을 스캔했을 때, 법적 독소조항을 즉시 경고하고 지출 데이터를 회계 포맷으로 자동 변환해 주는 실무형 문서 검토 앱.",
+            "what_to_keep_ko": "모바일 카메라 문서 스캔, PDF/이미지 변환, 파일 잠금 및 보안 관리 기능.",
+            "what_to_change_ko": "단순 이미지 보관 및 수동 서명에서 탈피하여, 스캔 직후 OCR과 계약 분석 AI 엔진을 통해 위험 조항 하이라이트 및 회계 항목 자동 분류 기능 추가.",
+            "mobile_use_or_play_ko": "사용자가 계약서를 현장에서 촬영하면, 앱이 즉시 문서를 스캔·정제하고 붉은색 테두리로 독소조항(과도한 위약금 등)을 마킹한 요약 리포트를 제공.",
+            "key_features_ko": [
+              "카메라 스캔 기반 실시간 계약서 위험 조항 감지 및 경고",
+              "영수증/인보이스 자동 OCR 및 항목별(세무/지출) 분류",
+              "생체 인식을 통한 기밀 문서 보안 잠금 및 암호화 관리"
+            ],
+            "solo_mvp_and_effort_ko": "모바일 카메라 라이브러리와 OCR/LLM API 조합. UI는 직관적인 대시보드와 경고 하이라이트 뷰 중심. 법적 책임 고지 문구를 포함하여 MVP 구축 부담을 낮춤.",
+            "strengths_limits_ko": "비즈니스 현장에서의 실용성과 가치가 매우 높으나, 계약서 분석의 법적 정확도 한계 및 복잡한 양식 변동성에 대응하는 파싱 안정성 확보가 과제."
+          },
+          {
+            "title_ko": "구조화된 지식 맵 PDF 뷰어 (Mindmap PDF Explorer)",
+            "core_idea_ko": "긴 PDF 문서의 목차와 핵심 개념 간의 관계를 분석하여, 텍스트 문서와 실시간 연동되는 인터랙티브 마인드맵(지식 그래프) 화면을 함께 제공하는 시각적 독서 앱.",
+            "what_to_keep_ko": "PDF 파일 탐색, 정리, 텍스트 검색 및 문서 보기 기능.",
+            "what_to_change_ko": "전통적인 수직 스크롤형 PDF 뷰어 방식에서 벗어나, 문서의 구조를 시각화한 노드 그래프를 터치하면 해당 페이지로 즉시 이동하는 양방향 시각 네비게이션 제공.",
+            "mobile_use_or_play_ko": "사용자가 보고서 PDF를 열면, 화면 분할 뷰에 문서 전체의 키워드 마인드맵이 생성되며 특정 노드를 탭할 때 원본 PDF의 해당 문단이 하이라이트되며 스크롤됨.",
+            "key_features_ko": [
+              "PDF 텍스트 구조 분석 및 자동 마인드맵(노드) 생성",
+              "마인드맵 노드와 PDF 본문 간 양방향 싱크 네비게이션",
+              "키워드별 문서 클러스터링 및 시각적 아카이빙"
+            ],
+            "solo_mvp_and_effort_ko": "PDF 파싱 후 엔티티 추출, 가벼운 캔버스 기반 노드 그래프 렌더링 라이브러리 활용. 모바일 소형 화면에서 복잡한 그래프 인터랙션을 최적화하는 것이 주된 개발 공수.",
+            "strengths_limits_ko": "시각적 직관성과 문서 구조 파악 능력이 뛰어난 반면, 비구조화된 산문 형태의 일반 텍스트가 많은 PDF에서는 마인드맵 노드 추출 품질이 떨어질 수 있음."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어(학술 토론 어시스턴트)는 연구자와 학생의 지적 분석 과정을 보조하는 데 집중하고, 두 번째 아이디어(현장 계약서/영수증 인스펙터)는 자영업자와 프리랜서의 실무 리스크 방지 및 행정 자동화에 초점을 맞추며, 세 번째 아이디어(지식 맵 뷰어)는 복잡한 문서 구조를 시각적으로 조망하는 독서 경험 개선을 지향합니다. 세 가지 모두 원본의 'PDF 읽기·스캔·AI 분석'이라는 뼈대를 공유하되, 타겟 사용자의 구체적 페인포인트에 맞춰 기능의 결합 방식을 다르게 설계했습니다.",
+        "recommended_concept_number": 2,
+        "why_recommended_ko": "원본이 제공하는 '카메라 스캔'과 'AI 어시스턴트' 기능을 가장 실용적이고 부가가치가 높은 비즈니스 현장(계약 리스크 검토 및 세무 데이터 추출)으로 확장했기 때문입니다. 단순 문서 보관용 리더를 넘어 실사용자의 시간과 금전적 손실을 방지하는 명확한 효용을 제공하므로 모바일 앱으로서의 전환율과 잔존율 측면에서 경쟁력이 높습니다.",
+        "next_questions_ko": [
+          "모바일 환경에서 카메라로 촬영한 비정형 계약서 및 영수증의 OCR 인식 오류를 최소화하기 위한 전처리 파이프라인은 어떻게 구성할 것인가?",
+          "계약서 독소조항 감지 기능 제공 시 발생할 수 있는 법적 책임 면책 조항 및 UI 안내 디자인은 어떻게 처리할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-14T07:23:09+09:00",
+      "brief_quota_day": "2026-11-14",
+      "brief_usage": {
+        "promptTokenCount": 1764,
+        "candidatesTokenCount": 2208,
+        "totalTokenCount": 6620,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1764
+          }
+        ],
+        "thoughtsTokenCount": 2648,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.pdf.reader.document.viewer.file.pro",
+        "product_kind": "app",
+        "selected_concept_title_ko": "현장 실무 계약서 & 영수증 퀵 인스펙터 (FieldDoc Inspector)",
+        "project_goal_and_audience_ko": "중소상공인, 프리랜서, 1인 사업가, 현장 영업 담당자를 위한 실무형 문서 검토 및 지출 관리 모바일 앱입니다. 현장에서 갑작스럽게 마주하는 종이 계약서의 독소조항(과도한 위약금, 일방적 해지 조항 등)을 빠르게 스캔하여 위험을 경고하고, 영수증/인보이스를 자동 OCR하여 세무 회계 포맷으로 즉시 분류해 주는 효용을 제공합니다. 복잡한 법률 용어와 세무 처리로 인한 시간적·금전적 손실을 방지하는 것이 주된 목적입니다.",
+        "source_relation_and_difference_ko": "원본 앱(PDF Reader: Smart AI Assistant)의 핵심 자산인 '모바일 카메라 문서 스캔 및 디지털화', 'PDF/이미지 변환', 'AI 기반 문서 내용 분석 및 요약', '파일 보안/잠금' 워크플로우를 그대로 계승합니다. 차별점으로는 단순 파일 보관 및 열람 목적의 리더기에서 벗어나, 현장 실무에 특화된 '계약서 리스크 자동 하이라이트(독소조항 감지)'와 '영수증 세무 회계 포맷 자동 추출' 기능을 전면에 배치하여 실사용자의 비즈니스 안전망 역할을 수행하도록 고도화했습니다.",
+        "core_user_experience_ko": "사용자가 현장에서 스마트폰 카메라로 종이 계약서나 영수증을 촬영하면, 앱이 내부 이미지 전처리(원근 교정, 흑백 대비 최적화)를 수행한 뒤 실시간으로 OCR 텍스트를 추출합니다. 계약서의 경우 AI 분석 엔진이 텍스트를 검토하여 위약금 과다 등 위험 조항을 붉은색 경고 카드로 시각화한 요약 리포트를 3초 내에 제공합니다. 영수증은 품목, 공급가액, 부가세를 파싱하여 지출 카테고리별로 자동 분류해 주며, 사용자는 버튼 하나로 회계 장부용 데이터(CSV/PDF)로 내보낼 수 있습니다.",
+        "features_ko": [
+          {
+            "feature_ko": "현장 스마트 카메라 문서 스캔 및 정제",
+            "user_action_and_behavior_ko": "사용자가 문서를 촬영 가이드에 맞추면 앱이 테두리를 자동 인식하여 왜곡을 펴고 고품질 스캔 이미지 및 PDF로 변환합니다. 사용자는 즉시 다음 분석 단계로 진행할 수 있습니다.",
+            "practical_implementation_ko": "Android CameraX API와 오픈소스 문서 윤곽선 검출 알고리즘(또는 OpenCV 라이브러리)을 결합하여 가벼운 이미지 전처리 파이프라인을 구축합니다."
+          },
+          {
+            "feature_ko": "AI 계약서 독소조항 실시간 인스펙터",
+            "user_action_and_behavior_ko": "스캔된 계약서 텍스트를 바탕으로 AI가 핵심 조항을 분석하여 위험 요소(예: 불리한 계약 해지 조건, 과도한 위약금)를 경고 카드로 사용자에게 직관적으로 시각화합니다.",
+            "practical_implementation_ko": "경량 온디바이스 OCR(Google ML Kit)로 텍스트를 추출한 후, 프롬프트 엔지니어링이 적용된 LLM API(예: 외부 LLM API 연동 또는 로컬 룰 기반 패턴 매칭)를 통해 키워드 분석 및 요약을 수행합니다."
+          },
+          {
+            "feature_ko": "영수증/인보이스 자동 세무 회계 분류",
+            "user_action_and_behavior_ko": "지출 영수증을 촬영하면 상호명, 날짜, 공급가액, 부가세가 자동으로 입력되며 식대, 소모품 등 지출 카테고리별로 분류되어 리스트에 누적됩니다.",
+            "practical_implementation_ko": "정규식 패턴 매칭 및 텍스트 파싱 로직을 구현하여 날짜/금액 필드를 추출하고, 내부 SQLite(Room DB)에 구조화하여 저장합니다."
+          },
+          {
+            "feature_ko": "생체 인식 기반 기밀 문서 보안 잠금",
+            "user_action_and_behavior_ko": "앱 실행 시 또는 민감한 계약서 폴더 진입 시 지문 또는 안면 인식(BiometricPrompt)을 요구하여 외부 유출을 방지합니다.",
+            "practical_implementation_ko": "Android Jetpack Biometric 라이브러리와 EncryptedSharedPreferences 및 EncryptedFile을 활용하여 로컬 민감 데이터를 안전하게 암호화 저장합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "홈 대시보드 (문서함)",
+            "contents_and_actions_ko": "최근 스캔한 계약서 및 영수증 목록 표시, 위험 조항 감지 건수 배지 노출, 하단 중앙 '빠른 스캔' 촬영 버튼 제공."
+          },
+          {
+            "screen_ko": "카메라 스캔 및 뷰어 화면",
+            "contents_and_actions_ko": "실시간 카메라 프리뷰, 자동 테두리 감지 펜스, 수동 조절 슬라이더, 스캔 완료 및 AI 분석 요청 버튼."
+          },
+          {
+            "screen_ko": "인스펙션 리포트 화면 (결과)",
+            "contents_and_actions_ko": "계약서 원본 축소 뷰와 함께 AI가 분석한 '위험 조항 경고 카드(빨간색)', '안전 조항 요약(초록색)', 수정 및 공유 버튼 제공."
+          },
+          {
+            "screen_ko": "지출 장부 및 관리 화면",
+            "contents_and_actions_ko": "영수증 항목별 지출 합계 통계, 카테고리별 필터링, CSV/PDF 내보내기 버튼 및 폴더 잠금 설정 메뉴 제공."
+          }
+        ],
+        "implementation_approach_ko": "Kotlin과 Jetpack Compose를 기반으로 한 네이티브 Android 앱으로 구현합니다. Jetpack Compose는 현장 중심의 빠른 UI 반응과 직관적인 대시보드 구성을 위해 적합합니다. 카메라 제어는 CameraX, 텍스트 인식은 Google ML Kit, 로컬 데이터는 Room DB를 활용하여 1인 개발 환경에서도 안정적인 모듈 구조를 확보합니다. 크로스플랫폼 대비 네이티브 카메라 및 생체 인식 API 연동 안정성이 높다는 장점이 있습니다.",
+        "data_and_storage_ko": [
+          "DocumentEntity: id (PK), title, type (contract/receipt), imagePath, pdfPath, summaryJson, riskLevel, createdAt. (저장 시점: 스캔 및 AI 분석 완료 후 Room DB에 메타데이터 저장, 실제 파일은 내부 전용 저장소에 암호화 저장)",
+          "CategoryEntity: categoryId (PK), name, taxType. (영수증 회계 분류용 카테고리 관리)",
+          "결정 과제: 대용량 PDF 및 이미지 파일 누적에 따른 로컬 저장소 용량 관리 정책(예: 30일 이상 경과된 파일 압축 또는 수동 삭제 유도 로직은 추후 고도화 단계에서 결정)"
+        ],
+        "mvp_scope_ko": "첫 번째 MVP는 1) 카메라 문서 스캔 및 PDF/이미지 변환, 2) ML Kit 기반 기본 OCR 및 핵심 키워드/위험 조항 매칭 분석, 3) Room DB를 활용한 로컬 저장 및 리스트 뷰 기능에 집중합니다. 클라우드 자동 동기화, 복잡한 세무서 시스템 연동, 다국어 번역 등 부가 기능은 제외하여 1인 개발자가 핵심 가치(스캔 -> AI 실무 검토 -> 결과 확인)를 가장 빠르게 구현하고 시장 반응을 검증할 수 있도록 합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 셋업 및 카메라 스캔 모듈",
+            "deliverable_and_check_ko": "Android Studio 프로젝트 구성, CameraX를 이용한 실시간 프리뷰 및 테두리 검출/이미지 크롭 기능 구현 확인."
+          },
+          {
+            "stage_ko": "2단계: OCR 및 AI 분석 파이프라인 구현",
+            "deliverable_and_check_ko": "Google ML Kit 텍스트 인식 연동 및 추출된 텍스트를 기반으로 한 위험 키워드 탐지/요약 로직 작동 여부 확인."
+          },
+          {
+            "stage_ko": "3단계: 로컬 DB 저장 및 보안 잠금 구현",
+            "deliverable_and_check_ko": "Room DB 스키마 정의, 파일 암호화 저장 로직 적용, Jetpack Biometric을 통한 생체 인증 접근 제어 테스트."
+          },
+          {
+            "stage_ko": "4단계: Compose UI 통합 및 MVP 빌드",
+            "deliverable_and_check_ko": "홈 대시보드, 스캔 뷰어, 리포트 결과 화면의 UI 흐름 연결 및 전체 문서 처리 루프 테스트."
+          }
+        ],
+        "possible_extensions_ko": "향후 확장 기능으로 구글 드라이브 및 원드라이브 등 클라우드 저장소 백업 연동, 세무사나 동료에게 카카오톡/이메일로 검토 리포트 원클릭 공유 기능, 해외 출장용 다국어 영수증 환율 자동 계산 기능을 고려할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "리스크 1: LLM 계약서 분석의 법적 정확성 한계로 인한 사용자 오인 가능성 -> 해결책: '본 앱의 분석 결과는 참고용이며 법적 효력이 없습니다'라는 면책 조항 및 UI 내 고지 문구 명시",
+          "리스크 2: 비정형 계약서 양식에서 OCR 파싱 오류 발생 확률 -> 해결책: 사용자가 직접 텍스트 영역을 수정하거나 위험 키워드를 수동으로 편집할 수 있는 백업 편집 기능 도입 검토 (결정 과제)",
+          "리스크 3: AI API 호출 비용 및 네트워크 지연 문제 -> 해결책: 전문 대신 핵심 요약 파트만 발췌하여 토큰 비용 최소화 및 온디바이스 경량 룰 기반 키워드 필터링 병행 검토"
+        ],
+        "draft_status_ko": "본 개발 설계 초안은 실제 구현, 사용자 테스트, 성능 측정이 완료되지 않은 기획 및 아키텍처 설계 단계의 문서입니다."
+      },
+      "plan_at": "2026-11-14T07:23:45+09:00",
+      "plan_quota_day": "2026-11-14",
+      "plan_usage": {
+        "promptTokenCount": 2463,
+        "candidatesTokenCount": 2517,
+        "totalTokenCount": 7802,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2463
+          }
+        ],
+        "thoughtsTokenCount": 2822,
+        "serviceTier": "standard"
+      }
+    },
+    "google:com.sudokucat.master": {
+      "app_key": "google:com.sudokucat.master",
+      "name": "Sudoku Cats Master",
+      "developer": "Hesapplication",
+      "source": "google",
+      "kind": "game",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.sudokucat.master&hl=ja&gl=JP",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.sudokucat.master",
+        "product_kind": "game",
+        "original_experience_ko": "Sudoku Cats Master는 스도쿠와 스타 배틀(Star Battle) 유형의 규칙을 차용한 그리드 기반 논리 퍼즐 게임입니다. 플레이어는 색상 영역, 행, 열의 제약을 지키면서 고양이를 배치해야 하며, 특히 고양이가 대각선을 포함하여 서로 인접할 수 없다는 엄격한 공간적 제약 속에서 논리적 추리를 경험합니다. (사실: 색상/행/열 제약, 8방향 인접 금지, 더블탭 배치 및 스와이프 후보 제외 기능, 힌트 기능 존재. 해석: 고양이 테마를 활용해 전통적 숫자 퍼즐의 진입 장벽을 낮추고 친숙함을 유도함.)",
+        "source_facts_and_limitations_ko": [
+          "스토어 확인 사실: 색상 영역당 고양이 1마리, 행/열당 고양이 1마리, 대각선 포함 인접 불가 규칙이 명시되어 있습니다.",
+          "스토어 확인 사실: 더블탭으로 고양이 배치, 스와이프로 후보 제외(X 표시) 등 모바일 터치 최적화 조작계가 언급되어 있습니다.",
+          "한계점: 자동 레벨 생성 알고리즘의 내부 구조나 난이도 곡선 설계 방식, 인앱 보상/광고의 구체적 구현 방식은 스토어 설명만으로 확인할 수 없습니다."
+        ],
+        "valuable_elements_ko": [
+          "다중 제약 조건(색상, 행, 열, 8방향 인접 금지)이 맞물려 발생하는 고도의 논리적 추리 재미",
+          "모바일 화면에서 한 손으로 조작하기 용이한 더블탭 및 스와이프 기반의 직관적인 입력 시스템",
+          "딱딱한 논리 퍼즐에 귀여운 캐릭터 테마를 접목하여 심리적 진입 장벽을 낮춘 접근성"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "식물원 정원사: 비밀의 화분 배치",
+            "core_idea_ko": "온실 구역 그리드 안에서 각 구역, 행, 열에 특정 희귀 식물을 한 그루씩 배치하되, 서로 해를 끼치는 식물(인접 8방향 금지)을 피해 배치하는 정원 경영 결합형 논리 퍼즐 게임.",
+            "what_to_keep_ko": "다중 제약 그리드 퍼즐 규칙(색상 영역+행/열+8방향 인접 금지)과 더블탭 배치 및 스와이프 후보 지우기 인터페이스를 그대로 계승합니다.",
+            "what_to_change_ko": "단순한 스테이지 클리어 방식에서 벗어나, 퍼즐을 풀 때 얻는 재화로 온실을 꾸미고 식물이 성장하는 메타 프로그레션(정원 꾸미기) 요소를 결합합니다.",
+            "mobile_use_or_play_ko": "플레이어는 온실 그리드의 빈 칸을 스와이프로 쓸어 불가능한 식물 후보(X)를 지우고, 확실한 칸을 더블탭하여 식물을 심습니다. 규칙 위반 시 즉시 시각적 경고가 주어지며, 클리어 시 정원이 한 단계 성장합니다.",
+            "key_features_ko": [
+              "실시간 유효성 검증 엔진 (규칙 위반 즉시 피드백)",
+              "후보 메모 및 지우기 제스처 시스템",
+              "정원 성장 및 수집 메타 프로그레션 루프"
+            ],
+            "solo_mvp_and_effort_ko": "고정 크기(5x5 ~ 7x7) 그리드와 수동 제작된 40여 개의 레벨, 기본 2D 타일맵 스프라이트를 활용해 1인 개발자가 유니티 등으로 3~4주 내에 MVP 구현 가능.",
+            "strengths_limits_ko": "퍼즐에 시각적 성취감을 더해 리플레이성이 높지만, 퍼즐의 재미와 정원 꾸미기 메타 요소 간의 밸런스를 맞추는 기획적 조정이 필요합니다."
+          },
+          {
+            "title_ko": "야간 경비원의 순찰 구역",
+            "core_idea_ko": "야간 빌딩의 층(행), 구역(색상 블록), 부서(열)에 경비원들을 배치하여 사각지대가 없도록 하되, 경비원끼리 시야나 동선이 겹치지 않게(대각선 포함 인접 배치 금지) 배치하는 잠입 테마 논리 퍼즐 게임.",
+            "what_to_keep_ko": "8방향 인접 금지 및 다중 축(행/열/영역) 제약이라는 핵심 퍼즐 규칙과 오답 후보 제외 기능을 유지합니다.",
+            "what_to_change_ko": "고양이 테마를 도심 빌딩 야간 경비 테마로 바꾸고, 제한 시간 내에 순찰 배치를 완료해야 하는 '타임어택 모드'를 도입해 긴장감을 높입니다.",
+            "mobile_use_or_play_ko": "스마트폰 화면에서 빌딩 단면도 그리드를 확인하고, 의심스러운 칸은 스와이프로 배제하며 확실한 칸을 탭해 경비원을 배치합니다. 모든 구역이 안전해지면 다음 층으로 승진합니다.",
+            "key_features_ko": [
+              "제한 시간 및 실수 횟수 제약 모드",
+              "야간 빌딩 컨셉의 몰입감 있는 2D UI/UX",
+              "막힌 구간을 뚫어주는 스마트 힌트 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "JSON 기반 레벨 데이터 로드 구조와 2D UI만으로 구현할 수 있어 개발 공수가 적고 1인 개발에 최적화됨.",
+            "strengths_limits_ko": "직관적이고 긴장감 있는 테마이나, 퍼즐 난이도가 높아질수록 소형 모바일 화면에서의 가독성 확보가 중요한 과제입니다."
+          },
+          {
+            "title_ko": "별이 빛나는 밤의 우주 정거장",
+            "core_idea_ko": "우주 정거장의 구역별, 모듈별 전력 중계기를 배치하는 SF 공학 논리 퍼즐로, 중계기들이 서로 간섭(인접/대각선 전자파 충돌)하지 않도록 안정적인 전력망을 구축하는 게임.",
+            "what_to_keep_ko": "원작의 다중 제약 그리드 배치 논리와 힌트 기능을 계승합니다.",
+            "what_to_change_ko": "정적 그리드에서 벗어나 레벨 진행에 따라 모듈이 회전하거나 연결 라인이 동적으로 변하는 '가변형 제약 조건' 스테이징을 도입합니다.",
+            "mobile_use_or_play_ko": "우주 정거장 설계도 화면에서 두 번 탭하여 전력 중계기를 설치하고, 스와이프로 전파 간섭 예상 구역을 차단하며, 전체 정거장에 에너지가 공급되면 클리어 연출이 재생됩니다.",
+            "key_features_ko": [
+              "가변형 모듈 및 동적 제약 조건 스테이지",
+              "SF 분위기의 사운드 및 인터페이스 디자인",
+              "자동 세이브 및 진행도 관리 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "기본 타일 시스템 위에 회전 및 동적 링크 로직을 추가해야 하므로 앞선 두 아이디어보다 개발 난이도가 약간 높음.",
+            "strengths_limits_ko": "SF 테마로 독창성을 확보할 수 있으나, 가변 규칙이 추가될 때 퍼즐 유효성 검증 알고리즘이 복잡해질 수 있습니다."
+          }
+        ],
+        "concept_comparison_ko": "아이디어 1(식물원)은 퍼즐과 메타 프로그레션을 결합해 장기 체류 유도에 유리하고, 아이디어 2(야간 경비원)는 직관적인 테마와 긴장감으로 퍼즐 본연의 몰입감을 극대화하며, 아이디어 3(우주 정거장)은 SF 테마와 동적 제약으로 확장성을 지향합니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "식물원 정원사 기획은 원본의 우수한 8방향 인접 금지 및 영역 제약 퍼즐 규칙을 고스란히 살리면서도, 퍼즐 클리어가 '식물 성장 및 정원 꾸미기'라는 명확한 보상으로 이어져 모바일 유저의 지속 플레이 동기를 크게 높여줍니다. 1인 개발자가 2D 타일맵과 간단한 재화 루프를 통해 현실적으로 완성도 있게 구현할 수 있는 가장 균형 잡힌 안입니다.",
+        "next_questions_ko": [
+          "8방향 인접 금지와 행/열/영역 제약을 동시에 만족하는 레벨 데이터를 1인 개발자가 효율적으로 생성하거나 수동 빌드하는 최적의 파이프라인은 무엇인가?",
+          "모바일 소형 화면에서 7x7 이상의 그리드를 플레이할 때, 더블탭과 스와이프 조작의 오인식을 방지하기 위한 UI 터치 영역 최적화 기준은 어떻게 설정할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-14T07:30:13+09:00",
+      "brief_quota_day": "2026-11-14",
+      "brief_usage": {
+        "promptTokenCount": 1545,
+        "candidatesTokenCount": 2222,
+        "totalTokenCount": 6638,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1545
+          }
+        ],
+        "thoughtsTokenCount": 2871,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.sudokucat.master",
+        "product_kind": "game",
+        "selected_concept_title_ko": "식물원 정원사: 비밀의 화분 배치",
+        "project_goal_and_audience_ko": "논리적 두뇌 풀이의 깊이를 즐기면서도, 캐주얼한 성취감과 시각적인 보상을 원하는 모바일 게이머를 위한 힐링 정원 경영 결합형 퍼즐 게임입니다. 기존 숫자/스도쿠 계열의 딱딱한 퍼즐에 지루함을 느끼거나, 퍼즐 해결의 결과가 눈에 보이는 성장 보상으로 이어지기를 원하는 유저를 타겟으로 합니다.",
+        "source_relation_and_difference_ko": "원본의 핵심 경험인 다중 제약 조건(구역 영역, 행, 열, 대각선 포함 8방향 인접 금지)과 더블탭 배치 및 스와이프 후보 지우기(X) 인터페이스를 그대로 계승합니다. 차별점으로는 단순한 스테이지 클리어 방식에서 벗어나, 퍼즐을 풀 때 얻는 자원(물방울, 정원 포인트)으로 온실을 꾸미고 희귀 식물을 성장시키는 메타 프로그레션(정원 경영) 루프를 결합하여 장기적인 몰입 동기를 제공합니다.",
+        "core_user_experience_ko": "플레이어는 온실 그리드 화면에서 빈 셀을 탭하거나 스와이프하여 불가능한 식물 후보(X 마크)를 지우며 논리적 추리를 진행합니다. 정답이 확실해진 셀을 더블탭하면 귀여운 희귀 식물이 심어집니다. 시스템은 사용자가 조작할 때마다 실시간으로 행·열·구역 및 8방향 인접 규칙 위반 여부를 계산하여, 위반 시 해당 셀에 시각적 경고(붉은 하이라이트)를 즉시 피드백합니다. 모든 제약 조건을 만족하여 그리드를 채우면 레벨 클리어 연출과 함께 온실 정원 자원이 지급됩니다.",
+        "features_ko": [
+          {
+            "feature_ko": "실시간 유효성 검증 및 경고 엔진",
+            "user_action_and_behavior_ko": "사용자가 식물을 심거나 후보를 지울 때마다 백그라운드 알고리즘이 행, 열, 구역, 8방향 인접 조건을 실시간 검사합니다. 규칙 위반 시 즉시 해당 셀에 시각적 경고를 표시해 플레이어의 시행착오를 줄이고 논리적 추리를 돕습니다.",
+            "practical_implementation_ko": "2차원 배열 그리드 데이터 구조를 기반으로 한 규칙 검증 함수를 구현합니다. 유니티 C#(또는 플러터 상태 관리) 내에서 값 변경 시 이벤트 트리거 방식으로 O(1) 또는 O(N) 검사를 수행합니다."
+          },
+          {
+            "feature_ko": "제스처 기반 후보 메모 및 더블탭 배치 시스템",
+            "user_action_and_behavior_ko": "한 손으로 조작 가능한 모바일 최적화 인터페이스를 제공합니다. 단일 탭 및 스와이프로 빈 셀에 X(후보 제외) 마크를 토글하고, 확실한 위치는 더블탭으로 식물 심기를 완료합니다.",
+            "practical_implementation_ko": "터치 이벤트 리스너를 활용해 싱글 탭, 더블 탭, 드래그(스와이프) 제스처를 판정하는 입력 매니저 모듈을 작성하여 터치 정확도를 높입니다."
+          },
+          {
+            "feature_ko": "온실 메타 프로그레션 및 자원 루프",
+            "user_action_and_behavior_ko": "퍼즐 클리어 시 획득한 자원으로 온실 내 가구 및 신규 식물을 해금하고 성장시키며, 나만의 정원을 꾸미는 수집 재미를 느낍니다.",
+            "practical_implementation_ko": "로컬 저장소(SQLite 또는 JSON 직렬화)를 활용해 유저의 자원 잔액, 해금된 식물 리스트, 온실 배치 상태를 안전하게 저장하는 데이터 매니저를 구현합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 온실(정원) 화면",
+            "contents_and_actions_ko": "유저가 꾸민 온실 전경 표시, 보유 자원(물방울, 포인트) 현황, 상점/도감 진입 버튼, '퍼즐 시작' 버튼. 퍼즐 시작 시 스테이지 맵으로 이동."
+          },
+          {
+            "screen_ko": "스테이지 선택 맵",
+            "contents_and_actions_ko": "난이도별(초급 4x4, 중급 5x5 등) 퍼즐 스테이지 리스트. 클리어 여부 및 별점 표시. 스테이지 선택 시 퍼즐 플레이 화면으로 진입."
+          },
+          {
+            "screen_ko": "퍼즐 플레이 화면",
+            "contents_and_actions_ko": "상단 타이머 및 잔여 힌트, 중앙의 다중 제약 그리드 보드, 하단 툴바(힌트, 리셋). 더블탭 및 스와이프 조작 수행. 클리어 시 보상 팝업 후 메인 온실 복귀."
+          }
+        ],
+        "implementation_approach_ko": "크로스플랫폼 모바일 앱 및 게임 개발에 적합한 유니티(Unity, C#) 엔진 또는 플러터(Flutter, Dart) 프레임워크를 검토합니다. 2D 그리드 UI 렌더링, 타일 스프라이트 애니메이션, 제스처 인식(더블탭/스와이프) 및 로컬 데이터 관리가 용이하므로 1인 개발 시 유니티(2D URP)를 채택하는 것이 시각적 연출과 퍼즐 엔진 구현에 가장 유리합니다.",
+        "data_and_storage_ko": [
+          "LevelData 객체: level_id(정수), grid_size, zone_map(구역 ID 2차원 배열), initial_clues(초기 힌트 정보). JSON 파일로 앱 로컬 패키지에 포함되어 읽기 전용으로 로드.",
+          "UserSaveData 객체: user_gold, water_drops, cleared_levels(리스트), unlocked_plants(배열), garden_layout(오브젝트 좌표 및 종류). 앱 종료 시점이나 주요 액션 발생 시 JSON 직렬화를 통해 Application.persistentDataPath에 로컬 저장.",
+          "PuzzleSessionState 객체: 현재 진행 중인 퍼즐의 셀 상태(비어있음, 식물 배치, X 표시), 경과 시간. 백그라운드 전환 시 일시 저장하여 이탈 복구 지원."
+        ],
+        "mvp_scope_ko": "첫 번째 프로토타입(MVP)에서는 복잡한 커스텀 온실 요소를 최소화하고, 그리드 4x4 및 5x5 기준의 수동 제작 퍼즐 스테이지 20개, 기본 식물 배치/지우기 제스처, 실시간 규칙 검증 엔진, 그리고 간단한 클리어 보상(물방울 획득) 및 기본 온실 배경 1종 제공에 집중합니다. 상점의 방대한 꾸미기 아이템이나 소셜 공유 기능 등 부가 기능은 제외하여, 핵심 퍼즐 루프와 보상 획득의 재미가 맞물리는지 검증합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "프로젝트 환경 세팅 및 퍼즐 그리드 UI 구현",
+            "deliverable_and_check_ko": "유니티 2D 프로젝트 생성, 그리드 타일맵 동적 생성 로직 구현, 셀 터치 및 더블탭/스와이프 입력 감지 프로토타입 확인. (개발 환경 내 에뮬레이터 검증 기준)"
+          },
+          {
+            "stage_ko": "다중 제약 검증 엔진(Validator) 개발",
+            "deliverable_and_check_ko": "행, 열, 구역, 8방향 인접 제약을 체크하는 C# 알고리즘 작성 및 유닛 테스트 적용. 잘못된 배치 시 즉시 경고 플래그가 반환되는지 확인."
+          },
+          {
+            "stage_ko": "퍼즐 스테이지 데이터 구조 및 플레이 루프 완성",
+            "deliverable_and_check_ko": "JSON 기반 레벨 데이터 로더 구현, 클리어 조건(모든 셀 올바르게 채움) 달성 시 승리 팝업 및 보상 지급 흐름 연결."
+          },
+          {
+            "stage_ko": "온실 메타 프로그레션 및 세이브/로드 연동",
+            "deliverable_and_check_ko": "퍼즐 클리어로 얻은 재화로 식물을 성장시키거나 온실을 꾸미는 메인 화면 구현, persistentDataPath를 통한 로컬 세이브/로드 안정성 확인."
+          }
+        ],
+        "possible_extensions_ko": "MVP 검증 이후, 요일별 특별 희귀 식물 수집 이벤트, 일일 랜덤 퍼즐 챌린지, 온실 인테리어 커스터마이징 확장, 친구 온실 방문 및 물주기 협동 시스템, 그리고 선택적 보상형 광고 시청을 통한 힌트 리필 시스템 등을 확장할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "레벨 생성의 난이도 및 유일 해(Unique Solution) 보장 리스크: 수동 제작 레벨이 부족할 경우 유저 소모 속도가 빠를 수 있으므로, 향후 절차적 레벨 생성(PCG) 알고리즘 도입 여부를 결정 과제로 둔다.",
+          "8방향 인접 금지 규칙이 그리드가 커질수록(6x6 이상) 퍼즐 난이도를 급격히 높여 피로감을 줄 수 있으므로, 난이도 곡선과 힌트 시스템 밸런스를 플레이테스트를 통해 지속 조정해야 한다.",
+          "메타 프로그레션과 순수 퍼즐 몰입감 간의 디커플링 리스크: 퍼즐을 풀기 위해 정원을 강제로 꾸미거나, 정원을 위해 무리하게 퍼즐을 강요당하는 느낌이 들지 않도록 보상 밸런스를 설계해야 한다."
+        ],
+        "draft_status_ko": "본 문서는 '식물원 정원사: 비밀의 화분 배치' 기획을 바탕으로 작성된 모바일 게임 개발 설계 초안이며, 실제 코드 구현, 플레이테스트, UI/UX 사용성 검증, 성능 최적화가 완료되지 않은 기획 및 아키텍처 가이드입니다."
+      },
+      "plan_at": "2026-11-14T07:30:41+09:00",
+      "plan_quota_day": "2026-11-14",
+      "plan_usage": {
+        "promptTokenCount": 2317,
+        "candidatesTokenCount": 2476,
+        "totalTokenCount": 8319,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2317
+          }
+        ],
+        "thoughtsTokenCount": 3526,
+        "serviceTier": "standard"
+      }
+    },
+    "apple:6799906854": {
+      "app_key": "apple:6799906854",
+      "name": "17-0 Football Manager",
+      "developer": "FunCraft, Inc",
+      "source": "apple",
+      "kind": "game",
+      "detail_url": "https://apps.apple.com/us/app/17-0-football-manager/id6799906854?uo=2",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:6799906854",
+        "product_kind": "game",
+        "original_experience_ko": "스토어 소개문에 따르면 원작 '17-0 Football Manager'는 1960년대부터 현재까지의 미식축구 선수들을 드래프트하여 자신만의 로스터를 구성하고, 온라인 리그에서 전 세계 매니저들과 경쟁하여 시즌 무패 우승(17-0)을 달성하는 것을 목표로 하는 전략 시뮬레이션 게임입니다. AI 해석에 따르면 시대별 선수를 조합하는 '드래프트 전략과 시너지'가 핵심 재미 요소이나, 실제 시뮬레이션 알고리즘이나 라이선스 확보 여부는 명시되지 않은 한계가 있습니다.",
+        "source_facts_and_limitations_ko": [
+          "확인된 사실: 1960년대~현재의 선수 데이터 활용, 포지션별(QB, RB, WR, TE, FLEX) 로스터 드래프트 구성, 온라인 리그 및 제약 조건 시나리오 제공, 무료 플레이 구조.",
+          "미확인 및 한계: 실제 선수 초상권/이름 라이선스 해결 여부, 시뮬레이션 엔진의 세부 연산 방식, 서버 네트워크 아키텍처 및 매칭 로직은 스토어 설명만으로는 검증 불가."
+        ],
+        "valuable_elements_ko": [
+          "시대별 아이콘(레전드와 현역)을 한 팀에 모으는 수집형 드래프트의 재미",
+          "제한된 포지션 예산 안에서 최적의 시너지를 찾는 로스터 퍼즐 구조",
+          "복잡한 실시간 조작 없이 단계별 또는 빠른 시뮬레이션으로 결과를 확인하는 매니지먼트 템포"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "타임라인 메카닉스: 드래프트 택틱스",
+            "core_idea_ko": "미식축구 대신 1950년대 레트로 과학기술부터 미래 SF 시대까지의 시대별 메카닉 파일럿과 기체 부품을 드래프트하여 전술 방어선을 구축하고, 비동기 시뮬레이션 리그를 치르는 SF 전략 매니지먼트 게임.",
+            "what_to_keep_ko": "시대별 인물/유닛 조합을 통한 시너지 효과, 드래프트 단계의 심리전과 제약 조건, 턴 기반 또는 단계별 자동 전투 시뮬레이션 흐름.",
+            "what_to_change_ko": "실제 스포츠 라이선스 리스크를 원천 차단하기 위해 SF/메카닉 세계관으로 전환하고, 미식축구 포지션 대신 전술적 병과(탱커, 스나이퍼, 엔지니어 등) 조합 규칙으로 개편.",
+            "mobile_use_or_play_ko": "사용자는 드래프트 화면에서 매 라운드 무작위로 등장하는 시대별 파일럿/기체를 확인하고, 포지션 시너지를 고려해 5인 로스터를 드래프트한 뒤 '시뮬레이션 시작'을 눌러 각 페이즈별 전투 로그와 승패 결과를 모바일 화면에서 확인합니다.",
+            "key_features_ko": [
+              "시대 교차 시너지 엔진: 50년대 레트로 기체와 미래형 인공지능 파일럿을 조합할 때 발동하는 특수 버프 시스템.",
+              "비동기 드래프트 리그: 실시간 동시 접속 없이 다른 유저가 구성한 방어 로스터 데이터를 가져와 매칭 테스트를 거치는 리그 구조.",
+              "제약 조건 챌린지: 특정 시대 유닛만 사용하거나 예산 한도 내에서 팀을 짜야 하는 퍼즐형 시나리오 모드."
+            ],
+            "solo_mvp_and_effort_ko": "1인 개발 시 2D UI 중심의 텍스트/카드 드래프트 화면과 간단한 수치 비교 전투 시뮬레이터로 MVP를 구축합니다. 스프라이트 그래픽과 JSON 데이터 기반의 유닛 관리 구조로 개발 공수를 최소화합니다.",
+            "strengths_limits_ko": "장점은 라이선스 문제에서 자유로우며 SF 팬층에게 소구할 수 있는 독창적 조합의 재미입니다. 약점은 미식축구 원작이 주는 실제 스포츠 팬덤의 몰입감을 대체하기 위해 매력적인 세계관 설정과 시너지 텍스트가 뒷받침되어야 한다는 점입니다."
+          },
+          {
+            "title_ko": "역사 대전: 영웅 드래프트 매니저",
+            "core_idea_ko": "고대 로마 장군부터 현대 전략가, 판타지/신화 속 영웅까지 다양한 시대의 인물을 드래프트하여 군단을 편성하고, 지형 상성에 따른 자동 전투 시뮬레이션으로 대륙 패권을 겨루는 게임.",
+            "what_to_keep_ko": "다양한 시대의 유명 인물을 한 자리에 모으는 컬렉션의 재미, 제한된 픽 속에서 최적의 조합을 찾아내는 드래프트 루프.",
+            "what_to_change_ko": "선수 능력치 합산 위주의 단순 비교를 넘어, 전장 지형(평원, 설원, 성벽 등)과 병종 간 상성(보병-기병-궁병)이라는 지휘 전략 요소를 추가하여 깊이 강화.",
+            "mobile_use_or_play_ko": "유저는 매칭 전 단계에서 밴/픽 드래프트를 거쳐 영웅 5명을 선발하고, 전투 전 전장 환경에 맞춘 포진을 설정한 뒤 전투 시작 버튼을 눌러 시뮬레이션 애니메이션과 결과 리포트를 확인합니다.",
+            "key_features_ko": [
+              "시대별 영웅 데이터베이스: 역사와 신화를 아우르는 고유 특성 보유 캐릭터 풀.",
+              "지형 및 병종 상성 시스템: 단순 스펙을 뒤집을 수 있는 전술적 변수.",
+              "시즌제 랭크 리그: 주간 단위로 초기화되는 순위와 승급전 시스템."
+            ],
+            "solo_mvp_and_effort_ko": "UI 인터페이스와 유닛 스탯 연산 로직 구현에 집중하며, 전투 화면은 2D 아이콘의 이동 또는 텍스트 로그 형태로 간소화하여 1인 개발 기간을 3~4개월 내로 압축합니다.",
+            "strengths_limits_ko": "장점은 역사/신화라는 대중적 소재로 광범위한 유저 어필이 가능하다는 점이며, 약점은 이미 수많은 역사 카드 게임과의 차별화 포인트를 드래프트 전략 자체에서 증명해야 한다는 점입니다."
+          },
+          {
+            "title_ko": "인디 게임버스 드래프트 리그",
+            "core_idea_ko": "1980년대 픽셀 아트 인디 게임부터 최신 화제작까지, 시대별 유명 인디 게임 주인공들을 드래프트하여 '드림 프로젝트 개발팀'을 꾸리고 가상 게임 시장에서 매출 경쟁을 벌이는 매니지먼트 게임.",
+            "what_to_keep_ko": "서로 다른 배경과 특징을 가진 인물들을 조합해 시너지를 내는 드래프트 시스템, 시즌 단위의 리그 경쟁 구조.",
+            "what_to_change_ko": "스포츠 경기나 전투 대신 '게임 출시 및 장르 트렌드 적합도'를 시뮬레이션의 축으로 삼아, 개발 조합의 상성과 시장 반응을 피드백받는 독특한 비즈니스 매니지먼트로 재해석.",
+            "mobile_use_or_play_ko": "유저는 개발자 드래프트 풀에서 프로그래머, 아티스트, 디렉터 역할을 하는 인디 캐릭터들을 조합해 팀을 만들고, 매 시즌 변화하는 시장 트렌드(예: 로그라이크 인기)에 맞춰 게임을 출시한 뒤 성과를 확인합니다.",
+            "key_features_ko": [
+              "인디 캐릭터 시너지: 개발 장르(RPG, 액션, 퍼즐)와 시대별 스타일 조합에 따른 메타 버프.",
+              "시장 트렌드 시뮬레이션: 매 시즌 무작위로 변동하는 유저 선호도와 경쟁작 등장.",
+              "스튜디오 경영 및 업적: 드래프트 제약을 극복하며 스튜디오 등급을 올리는 성장 루프."
+            ],
+            "solo_mvp_and_effort_ko": "텍스트와 심플한 도트 그래픽 UI 위주로 구현하며, 복잡한 물리 엔진 없이 확률 및 수치 계산식 중심으로 서버/클라이언트 로직을 설계하여 혼자서도 안정적으로 MVP 테스트가 가능합니다.",
+            "strengths_limits_ko": "장점은 게임 개발 문화에 친숙한 유저층에게 강한 공감대와 신선함을 줄 수 있다는 점이며, 약점은 인디 캐릭터들의 패러디 또는 공식 컬래버레이션 허락 등 IP 관련 허들을 우회해야 하는 기획적 검토가 필요합니다."
+          }
+        ],
+        "concept_comparison_ko": "1안(타임라인 메카닉스)은 SF 세계관을 통해 라이선스 리스크를 없애고 드래프트의 본질에 집중할 수 있는 가장 안정적인 구조입니다. 2안(역사 대전)은 대중적이나 상성 변수가 많아 밸런싱 부담이 큽니다. 3안(인디 게임버스)은 독창성이 높으나 타겟층이 다소 좁을 수 있습니다. 세 안 모두 '시대별 조합 드래프트와 시뮬레이션'이라는 원작의 뼈대를 다채로운 장르로 확장합니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "'타임라인 메카닉스: 드래프트 택틱스'는 원작의 핵심인 '시대별 유닛 조합을 통한 시너지 극대화'와 '빠른 시뮬레이션 템포'를 가장 잘 계승하면서도, 스포츠 라이선스 제약에서 완전히 벗어날 수 있습니다. 1인 모바일 개발 관점에서 그래픽 리소스 제작 부담을 줄이고 드래프트 UI와 수치 연산 로직 검증에 집중할 수 있어 MVP 개발 성공 가능성이 높습니다.",
+        "next_questions_ko": [
+          "유저가 드래프트 화면에서 직관적으로 시너지 효과를 인지할 수 있도록 UI를 어떻게 배치할 것인가?",
+          "비동기 리그 매칭에서 서버 비용을 최소화하기 위해 클라이언트 로컬 데이터 기반 매칭 방식을 어디까지 적용할 것인가?",
+          "드래프트 제약 시나리오(챌린지 모드)의 난이도 곡선을 1인 개발 환경에서 효율적으로 테스트할 방안은 무엇인가?"
+        ]
+      },
+      "brief_at": "2026-11-14T07:34:06+09:00",
+      "brief_quota_day": "2026-11-14",
+      "brief_usage": {
+        "promptTokenCount": 1623,
+        "candidatesTokenCount": 2482,
+        "totalTokenCount": 6158,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1623
+          }
+        ],
+        "thoughtsTokenCount": 2053,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:6799906854",
+        "product_kind": "game",
+        "selected_concept_title_ko": "타임라인 메카닉스: 드래프트 택틱스",
+        "project_goal_and_audience_ko": "본 게임은 복잡한 실시간 조작이나 피지컬 경쟁 대신, 두뇌 전략과 로스터 최적화의 묘미를 즐기는 모바일 전략 게임 유저를 타깃으로 합니다. 1950년대 레트로 과학기술부터 미래 SF 시대까지의 시대별 메카닉 파일럿과 기체 부품을 드래프트하여 자신만의 최정예 5인 전술 방어선을 구축하고, 비동기 시뮬레이션 리그를 통해 시즌 우승을 달성하는 재미를 제공합니다.",
+        "source_relation_and_difference_ko": "원작 '17-0 Football Manager'의 핵심 경험인 '시대별 스타 아이콘 조합을 통한 시너지 극대화', '제한된 예산 및 조건 속의 드래프트 심리전', '빠른 템포의 자동 시뮬레이션'을 고스란히 계승합니다. 차이점으로는 실제 스포츠 라이선스 리스크를 원천 차단하기 위해 세계관을 SF/메카닉 장르로 전환하고, 미식축구 포지션 체계를 범용 SF 전술 병과(커맨더, 스트라이커, 엔지니어 등)로 개편하여 조합의 다양성을 확장했습니다.",
+        "core_user_experience_ko": "사용자는 메인 화면에서 리그 시즌을 시작하고, 매 라운드 무작위로 풀(Pool)에서 제시되는 시대별 메카닉 유닛 카드들을 확인합니다. 정해진 자원과 밸런스 제약 안에서 5인의 로스터를 선택(드래프트)하며, 서로 다른 시대의 유닛이 조합될 때 발동하는 '시대 교차 시너지'를 고려해 배치를 완료합니다. '시뮬레이션 가동' 버튼을 누르면 시스템이 유닛 능력치와 시너지 계수를 연산하여 턴 기반 전투 로그를 생성하고, 단계별 교전 과정과 최종 승패 및 시즌 랭킹 결과를 직관적인 UI로 제공받습니다.",
+        "features_ko": [
+          {
+            "feature_ko": "시대 교차 드래프트 시스템",
+            "user_action_and_behavior_ko": "사용자는 라운드별 제시된 3장의 후보 유닛 중 1장을 선택하여 5개의 슬롯을 채웁니다. 선택 시 실시간으로 유닛 간 시대 조합 시너지(예: 1950년대 아날로그 기체 + 2100년대 AI 파일럿)가 계산되어 UI에 버프 수치로 표시되며, 유저는 이를 바탕으로 다음 라운드 선택에 영향을 받습니다.",
+            "practical_implementation_ko": "JSON 기반의 유닛 데이터베이스(ID, 시대, 병과, 기본 능력치, 시너지 태그)를 구축하고, 뷰 상태 관리(Provider 또는 BLoC)를 통해 카드 선택 시 유효성 검증과 실시간 시너지 계산 함수가 즉각 반응하도록 구현합니다."
+          },
+          {
+            "feature_ko": "턴 기반 전투 시뮬레이터 및 로그 출력",
+            "user_action_and_behavior_ko": "드래프트 완료 후 '시뮬레이션'을 누르면 로컬에 저장된 상대 로스터(또는 비동기 AI 방어 덱)와 교전이 시작됩니다. 시스템은 턴 순서에 따라 공격력, 방어력, 시너지 버프를 반영한 수치 연산을 수행하고, '스트라이커가 적 커맨더에게 150 대미지!'와 같은 텍스트 전투 로그와 체력 바 변화를 단계별로 시각화하여 보여줍니다.",
+            "practical_implementation_ko": "복잡한 실시간 애니메이션 대신 코루틴 또는 비동기 딜레이(Timer/Future.delayed)를 활용한 턴 순차 처리 루프를 구현합니다. 전투 공식은 공격력, 방어력, 시너지 계수를 곱하는 간단한 수치 비교 알고리즘으로 처리하여 성능 부하를 최소화합니다."
+          },
+          {
+            "feature_ko": "제약 조건 챌린지 및 리그 모드",
+            "user_action_and_behavior_ko": "사용자는 일반 시즌 리그 외에도 '특정 시대 유닛만 사용', '저예산 부품으로만 구성' 같은 특수 규칙이 걸린 챌린지 스테이지에 도전하여 성취감을 얻고 보상을 획득합니다.",
+            "practical_implementation_ko": "규칙 검증 모듈을 두어 드래프트 시작 전 유저가 선택한 덱이 제약 조건(Rule Validator)을 충족하는지 검사하고, 통과 시에만 시뮬레이션 진입을 허용하는 필터 로직으로 구현합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "리그 대시보드 / 메인 로비",
+            "contents_and_actions_ko": "현재 시즌 진행 상황(전적, 순위), 다음 경기 일정, 챌린지 모드 진입 버튼, '드래프트 시작' 주요 CTA 버튼 제공."
+          },
+          {
+            "screen_ko": "드래프트 전장 화면",
+            "contents_and_actions_ko": "상단에 현재 5인 로스터 슬롯(비어 있거나 채워진 상태), 중앙에 매 라운드 선택 가능한 3장의 유닛 카드 표시. 유닛 터치 시 상세 능력치와 시너지 효과 미리보기 가능. 선택 시 슬롯으로 애니메이션 이동."
+          },
+          {
+            "screen_ko": "로스터 시너지 검토 화면",
+            "contents_and_actions_ko": "완성된 5인 로스터의 최종 능력치 합계, 활성화된 시대 교차 시너지 목록 확인. '시뮬레이션 가동' 버튼을 통해 전투 페이즈로 진입."
+          },
+          {
+            "screen_ko": "전투 시뮬레이션 및 결과 화면",
+            "contents_and_actions_ko": "양측 5인 유닛의 일러스트/아이콘과 체력 바, 하단 스크롤 영역에 턴별 텍스트 전투 로그 출력. 경기 종료 후 승패 여부, 획득 보상, 다음 경기 이동 버튼 표시."
+          }
+        ],
+        "implementation_approach_ko": "크로스플랫폼 모바일 앱 구현에 적합한 Flutter (Dart) 또는 Unity 2D 엔진을 고려합니다. 본 기획은 화려한 3D 그래픽보다 2D 카드 UI, 텍스트 로그, 수치 연산이 중심이므로 UI 컴포넌트 재사용이 용이하고 가벼운 Flutter 기반으로 개발하는 것이 1인 개발 관점에서 가장 효율적입니다. 핵심 로직 모듈은 [드래프트 매니저], [시너지 계산기], [전투 시뮬레이션 엔진]으로 분리하여 유지보수성을 높입니다. 대안으로는 웹 기술 기반의 React Native를 활용할 수 있습니다.",
+        "data_and_storage_ko": [
+          "UnitData 객체: id(문자열), name(이름), era(시대구분), class_type(병과), base_stats(기본 능력치 맵). 앱 내장 static JSON 파일로 관리.",
+          "SynergyRule 객체: era_combination(시대 조합 조건), stat_bonus_rate(적용 버프율). JSON 파일로 관리.",
+          "UserRoster 객체: user_id, drafted_unit_ids(배열), current_season_wins, current_season_losses. 로컬 SharedPreferences 또는 SQLite(sqflite)에 저장하여 앱 종료 후에도 시즌 진행 상황 복구.",
+          "비동기 리그 데이터: 초기 MVP 단계에서는 서버 구축 부담을 줄이기 위해 사전 제작된 가상의 AI 매니저 로스터 데이터 셋을 로컬에 포함하여 매칭 테스트."
+        ],
+        "mvp_scope_ko": "첫 번째 프로토타입(MVP)에서는 실시간 멀티플레이어 서버 연동과 복잡한 커스텀 파츠 장착 시스템을 완전히 배제합니다. 오직 로컬 환경에서 진행되는 '단일 시즌 솔로 드래프트 모드', 기본 5인 로스터 드래프트 UI, 그리고 텍스트 기반의 자동 전투 시뮬레이터 구현에만 집중합니다. 이를 통해 핵심 재미 요소인 '조합의 즐거움과 시뮬레이션 결과 확인' 루프가 정상적으로 작동하는지 빠르게 검증할 수 있습니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 데이터 모델링 및 기본 UI 뼈대 구축",
+            "deliverable_and_check_ko": "유닛 데이터 JSON 파일 정의, 메인 로비 및 드래프트 화면 UI 레이아웃 구현. 화면 간 이동이 원활한지 프로토타입 실행을 통해 확인."
+          },
+          {
+            "stage_ko": "2단계: 드래프트 및 시대 교차 시너지 로직 구현",
+            "deliverable_and_check_ko": "라운드별 무작위 카드 풀 생성, 카드 선택 시 슬롯 장착 및 실시간 시너지 계산 함수 연산 검증. 디버그 콘솔을 통한 수치 변화 확인."
+          },
+          {
+            "stage_ko": "3단계: 전투 시뮬레이션 엔진 및 로그 연동",
+            "deliverable_and_check_ko": "완성된 로스터와 적 AI 로스터 간의 턴 기반 연산 로직 작성, 시뮬레이션 화면에 텍스트 로그 순차 출력 기능 구현. 승패 판정 및 결과 화면 전환 확인."
+          },
+          {
+            "stage_ko": "4단계: 로컬 저장소 연동 및 시즌 루프 완성",
+            "deliverable_and_check_ko": "시즌 경기 일정 관리 및 전적 저장 기능(SQLite/SharedPreferences) 적용. 앱 재시작 시 이전 시즌 상태가 올바르게 복구되는지 테스트."
+          }
+        ],
+        "possible_extensions_ko": "핵심 경험이 안정화된 이후, 유저가 직접 파일럿의 세부 전술 지시서를 설정하는 커스텀 택틱스 기능, 레전드 유닛의 서사형 이벤트 스토리 모드, 실제 다른 유저의 방어 덱과 겨루는 비동기 리그 랭킹 서버 연동, 메카닉 외형 커스텀 부츠/파츠 장착 시스템을 확장할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "시대별 시너지 수치 설계가 복잡해질 경우 밸런스가 쉽게 무너질 수 있으므로, 초기에는 단순한 고정 합산/곱산 보너스 공식으로 시작하여 플레이테스트를 통해 보정해야 합니다.",
+          "비동기 리그에서 AI 덱의 구성이 단조로우면 반복 플레이 시 지루함을 느낄 수 있으므로, AI 드래프트 알고리즘에 약간의 무작위 성향 패턴(예: 공격형, 방어형, 균형형)을 도입하는 방안을 추후 결정 과제로 남겨 둡니다."
+        ],
+        "draft_status_ko": "본 문서는 실제 모바일 앱 구현, 실기기 플레이테스트, 대규모 유저 대상 수치 밸런스 검증이 완료되지 않은 1인 개발용 개발 설계 초안입니다."
+      },
+      "plan_at": "2026-11-14T07:34:35+09:00",
+      "plan_quota_day": "2026-11-14",
+      "plan_usage": {
+        "promptTokenCount": 2472,
+        "candidatesTokenCount": 2638,
+        "totalTokenCount": 7178,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2472
+          }
+        ],
+        "thoughtsTokenCount": 2068,
+        "serviceTier": "standard"
+      }
+    },
+    "apple:6817994753": {
+      "app_key": "apple:6817994753",
+      "name": "VS BOAT－3D競艇オンライン対戦ゲーム",
+      "developer": "soma anraku",
+      "source": "apple",
+      "kind": "game",
+      "detail_url": "https://apps.apple.com/jp/app/vs-boat-3d%E7%AB%B6%E8%89%87%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E5%AF%BE%E6%88%A6%E3%82%B2%E3%83%BC%E3%83%A0/id6817994753?uo=2",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:6817994753",
+        "product_kind": "game",
+        "original_experience_ko": "스토어 소개문에 따르면, 본 제품은 3D 그래픽으로 구현된 경정(보트 레이싱) 게임으로, 최대 6인의 실시간 온라인 대전과 좌측 레버·우측 핸들의 조작계를 특징으로 합니다. AI 해석 영역에서는 이를 물리 시뮬레이션과 실시간 네트워크 동기화가 결합된 아케이드 레이싱 게임으로 추정하고 있으나, 실제 플레이 검증은 이루어지지 않았습니다.",
+        "source_facts_and_limitations_ko": [
+          "팩트: 최대 6인의 실시간 온라인 대전 및 CPU 대전, 타임어택 모드를 지원함.",
+          "팩트: 좌측 레버(스타트/속도)와 우측 핸들(턴)의 독특한 조작 방식을 채택함.",
+          "팩트: 시간대에 따라 변화하는 3D 경기장 환경과 가챠를 통한 승부복·선체 커스터마이징 기능 제공.",
+          "한계: 실제 네트워킹 아키텍처, 3D 물리 엔진의 종류, 가챠 확률의 공정성 검증 여부는 스토어 상에서 확인할 수 없음."
+        ],
+        "valuable_elements_ko": [
+          "대형 시계(오오도케이)가 0초가 되는 순간 출발하는 '대시 스타트'와 플라잉 타이밍의 극적인 긴장감",
+          "안쪽을 파고들거나 바깥에서 감아 돌리는(마쿠리) 코너링 과정의 전술적 수싸움",
+          "보트와 승부복을 수집하고 강화하는 지속적인 성장 및 커스터마이징 동기"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "택틱컬 레인: 턴 & 스타트 경정",
+            "core_idea_ko": "실시간 3D 물리 조작의 기술적 부담을 제거하고, 출발 타이밍 선택과 코너별 전술(인코스 찌르기/아웃코스 마쿠리) 카드를 조합하는 비동기 턴제 전략 경정 게임.",
+            "what_to_keep_ko": "0초 대시 스타트가 주는 순간의 긴장감, 코너에서의 전술적 수싸움, 보트 및 승부복 커스터마이징.",
+            "what_to_change_ko": "실시간 레버/핸들 조작을 비동기 턴 선택 및 타이밍 게이지 입력 방식으로 변경하여 서버 부담을 없애고 전략성 강화.",
+            "mobile_use_or_play_ko": "경기가 시작되면 출발 타이밍에 맞춰 게이지를 터치한 뒤, 1·2·3 코너 진입 시 상대의 주행 경로를 예측하여 '안쪽 파기', '전력 가속', '외곽 우회' 중 하나의 전술 카드를 선택하고 결과를 확인합니다.",
+            "key_features_ko": [
+              "서버 비용을 최소화하는 비동기 1v1 매치메이킹 시스템",
+              "스타트 타이밍 리듬 게이지 및 코너별 전술 카드 선택 메커니즘",
+              "부품 조합형 보트 커스터마이징 및 성능 강화 루프"
+            ],
+            "solo_mvp_and_effort_ko": "2D/2.5D 탑뷰 시점이나 심플한 UI 기반으로 제작하여 3D 물리 엔진 개발 부담을 최소화. 로컬/비동기 저장 구조를 활용해 1인 개발자가 2~3개월 내 MVP 완성 가능.",
+            "strengths_limits_ko": "장점: 1인 개발이 용이하며 심리전의 재미를 극대화할 수 있음. 단점: 실시간 조작의 손맛이 사라져 직접적인 액션성은 다소 저하됨."
+          },
+          {
+            "title_ko": "스트리트 스프린트: 0초 스타트 배틀",
+            "core_idea_ko": "복잡한 전체 레이싱 트랙 주행을 생략하고, '0초 대시 스타트'와 단 한 번의 '결정적 코너링' 승부에 집중한 1대1 단거리 타이밍 액션 게임.",
+            "what_to_keep_ko": "시계가 0초가 되는 순간의 극적인 스타트 타이밍, 순간적인 조작에서 오는 아케이드적 쾌감.",
+            "what_to_change_ko": "전체 레이스 주행 구조를 탈피하여, 단 15초 안에 승부가 결정되는 초단기 스프린트 구조로 대폭 개편.",
+            "mobile_use_or_play_ko": "화면을 누르고 있다가 시계 바늘이 0초가 되는 순간 손을 떼어 완벽한 스타트를 기록한 뒤, 코너 진입 시점에 맞춰 화면을 스와이프하여 상대보다 안쪽 라인을 선점합니다.",
+            "key_features_ko": [
+              "15초 내외로 빠르게 끝나는 초단기 매치 플레이",
+              "정밀한 타이밍 판정 및 스와이프 코너링 컨트롤",
+              "글로벌 타임어택 랭킹 및 고스트 레이스 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "간결한 2D/3D 연출로 단일 트랙과 두 가지 조작 인터페이스만 구현하면 되므로 리소스 제작 부담이 적고 빠른 프로토타이핑 가능.",
+            "strengths_limits_ko": "장점: 직관적인 조작과 빠른 호흡으로 캐주얼 유저 유치에 유리함. 단점: 콘텐츠 깊이가 얕아 장기 체류 유도가 어려울 수 있음."
+          },
+          {
+            "title_ko": "비트 웨이브: 리듬 경정 아레나",
+            "core_idea_ko": "음악의 비트에 맞춰 좌우 레버와 핸들 인터페이스를 조작하여 보트를 가속하고 장애물을 회피하며 골인하는 리듬 액션 기반 보트 레이싱 게임.",
+            "what_to_keep_ko": "좌측 레버와 우측 핸들의 독립된 조작 모티브, 박진감 넘치는 속도감과 경쟁 요소.",
+            "what_to_change_ko": "물리 시뮬레이션 레이싱을 리듬 노트 입력 방식으로 전환하여, 조작의 정확도와 타이밍이 곧 보트의 주행 성능으로 직결되도록 변경.",
+            "mobile_use_or_play_ko": "음악이 흘러나오는 동안 좌측 화면은 리듬에 맞춰 탭하여 가속/스타트를 맞추고, 우측 화면은 코너 노트에 맞춰 스와이프하여 방향을 전환합니다.",
+            "key_features_ko": [
+              "음악 비트와 연동되는 보트 가속 및 턴 메커니즘",
+              "다양한 곡과 난이도의 스테이지 및 타임어택 모드",
+              "리듬 게임 스타일의 판정 및 콤보 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "기존 리듬 게임 오픈소스나 엔진 템플릿을 활용할 수 있어 개발 효율이 높으나, 곡 제작 및 채보 작업에 별도 리소스가 소요됨.",
+            "strengths_limits_ko": "장점: 명확한 조작 피드백과 중독성 있는 플레이 루프. 단점: 경정 고유의 '눈치 싸움'이나 '라인 선점'이라는 전략적 재미는 약화됨."
+          }
+        ],
+        "concept_comparison_ko": "제안된 세 아이디어는 원본의 핵심 재미인 '스타트 타이밍'과 '코너링(수싸움)'을 각각 다른 방향으로 재해석했습니다. 아이디어 1(택틱컬 레인)은 물리 조작 대신 전략과 심리전에 집중하여 1인 개발의 기술적 한계를 극복했고, 아이디어 2(스트리트 스프린트)는 플레이 호흡을 극단적으로 줄여 캐주얼 접근성을 높였으며, 아이디어 3(비트 웨이브)은 리듬 액션 결합을 통해 조작의 쾌감을 극대화했습니다. 1번과 2번이 원본의 경쟁적 성격을 잘 계승하나, 1번이 경정 특유의 '전술과 수싸움'을 가장 잘 보존합니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "1번 아이디어(택틱컬 레인)는 3D 물리 엔진과 실시간 멀티플레이 네트워크 동기화라는 1인 개발의 가장 큰 기술적 장벽을 비동기 턴제와 전술 카드 시스템으로 우회하면서도, 원본이 주는 '스타트 타이밍의 긴장감'과 '인코스/아웃코스 턴 공방'이라는 핵심 경험을 충실히 살려내기 때문입니다. 개발 리스크를 낮추면서도 기획의 깊이를 유지할 수 있는 가장 현실적인 대안입니다.",
+        "next_questions_ko": [
+          "비동기 턴제 방식으로 변경했을 때, 실시간 대전의 짜릿함이 얼마나 감소하는지 소규모 테스트를 통해 유저 반응을 확인할 것인가?",
+          "전술 카드 조합 방식이 복잡하게 느껴지지 않도록 UI/UX를 얼마나 직관적으로 설계할 것인가?",
+          "1인 개발 환경에서 보트 커스터마이징 및 성장 데이터베이스를 안전하게 구축할 서버/DB 아키텍처는 무엇으로 할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-14T08:42:02+09:00",
+      "brief_quota_day": "2026-11-14",
+      "brief_usage": {
+        "promptTokenCount": 1767,
+        "candidatesTokenCount": 2248,
+        "totalTokenCount": 7621,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1767
+          }
+        ],
+        "thoughtsTokenCount": 3606,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:6817994753",
+        "product_kind": "game",
+        "selected_concept_title_ko": "택틱컬 레인: 턴 & 스타트 경정",
+        "project_goal_and_audience_ko": "복잡한 3D 실시간 물리 조작의 진입 장벽을 낮추고, 모바일 환경에서 누구나 손쉽게 스타트 타이밍의 긴장감과 코너 전술의 심리전을 즐길 수 있는 비동기 전략 경정(보트 레이싱) 게임입니다. 캐주얼 전략 게임 선호 유저와 짧은 호흡으로 몰입감 있는 승부를 즐기는 유저를 타겟으로 합니다.",
+        "source_relation_and_difference_ko": "원본 'VS BOAT'가 제공하는 0초 대시 스타트의 긴장감, 코너에서의 전술적 수싸움, 보트 및 승부복 커스터마이징이라는 핵심 경험을 충실히 계승합니다. 차이점으로는 실시간 3D 물리 조작 및 멀티플레이 서버 동기화 방식 대신, 비동기 턴 선택 및 타이밍 게이지 입력 방식을 채택하여 1인 개발자가 안정적으로 구현할 수 있도록 구조를 재설계했습니다.",
+        "core_user_experience_ko": "레이스가 시작되면 0초 대시 스타트 타이밍에 맞춰 리듬 게이지를 탭하여 초기 순위를 선점합니다. 이후 1, 2, 3 코너에 진입할 때마다 '안쪽 찌르기', '전력 가속', '외곽 마쿠리' 등 보트의 스탯과 상황에 맞는 전술 카드를 선택하고, 상대방의 비동기 고스트 데이터와 비교하여 순위 변동 애니메이션과 해설 텍스트를 통해 결과를 확인합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "대시 스타트 리듬 게이지",
+            "user_action_and_behavior_ko": "대형 시계가 0초가 되는 순간을 노려 타이밍 바를 터치하여 출발 순위 결정. 퍼펙트/굿/플라잉(파울) 판정에 따라 초기 어드밴티지 제공.",
+            "practical_implementation_ko": "Unity 또는 유사 2D 엔진의 UI 애니메이션 및 코루틴 기반 타임라인 판정 모듈을 활용하여 가볍게 구현."
+          },
+          {
+            "feature_ko": "코너별 전술 카드 선택 시스템",
+            "user_action_and_behavior_ko": "3개의 코너 구간마다 보트의 특성과 상대 상태를 고려해 전술 카드 선택. 코너 통과 성공 여부에 따라 순위 역전 및 가속 효과 획득.",
+            "practical_implementation_ko": "턴 기반 상태 머신(State Machine)과 간단한 스탯 비교 연산(가속, 안정성 vs 전술 상성) 모듈 설계."
+          },
+          {
+            "feature_ko": "보트 커스터마이징 및 성장 루프",
+            "user_action_and_behavior_ko": "레이스 보상으로 획득한 재화로 엔진, 프로펠러, 승부복 파츠를 업그레이드하여 보트 성능을 강화하고 상위 리그 진출.",
+            "practical_implementation_ko": "JSON 기반 로컬 데이터 저장소 구조를 활용한 인벤토리 및 스탯 관리 시스템 구축."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 로비 (Main Lobby)",
+            "contents_and_actions_ko": "현재 보유 보트 상태, 랭킹 요약, '레이스 시작' 버튼, 부품 상점 및 강화 메뉴로 이동하는 UI 제공."
+          },
+          {
+            "screen_ko": "레이스 및 전술 선택 화면 (Race Scene)",
+            "contents_and_actions_ko": "2.5D 탑뷰 트랙 비주얼, 상단 스타트 게이지, 코너 진입 시 전술 카드 선택 팝업 및 결과 연출."
+          },
+          {
+            "screen_ko": "결과 및 보상 화면 (Result Screen)",
+            "contents_and_actions_ko": "최종 순위 및 획득 코인/부품 표시, 로비 복귀 또는 재도전 버튼 제공."
+          }
+        ],
+        "implementation_approach_ko": "크로스 플랫폼 2D 게임 개발에 적합한 Unity(C#) 엔진을 활용합니다. 1인 개발 시 3D 물리 연산 대신 2D 스프라이트와 UI 인터랙션 중심의 설계가 효율적입니다. 핵심 로직은 턴별 승수 계산 알고리즘과 비동기 고스트 매칭 모듈로 구성하며, 초기 단계에서는 서버 통신 없이 로컬 AI 데이터 기반의 비동기 레이스로 구현합니다.",
+        "data_and_storage_ko": [
+          "PlayerProfile 객체: 닉네임, 보유 코인, 총 레이스 횟수, 승률 정보 저장. 앱 로컬 저장소(SharedPreferences/JSON)에 저장 및 변경 시점마다 자동 갱신.",
+          "BoatPart 객체: 장착된 엔진, 프로펠러, 승부복의 레벨 및 스탯 보정치 데이터 저장. 인벤토리 화면에서 변경 시 즉시 반영.",
+          "RaceRecord 객체: 최근 레이스 전적 및 타임 어택 기록 관리. 레이스 종료 직후 결과 화면에서 기록 반영 및 저장."
+        ],
+        "mvp_scope_ko": "1개의 기본 트랙, 대시 스타트 리듬 게이지, 3개 코너 전술 카드 선택 시스템, CPU 및 비동기 고스트와의 1v1 레이스, 간단한 보트 부품 강화 루프까지만 포함합니다. 실시간 멀티플레이어 소켓 통신 및 복잡한 네트워크 구조는 MVP 단계에서 제외하여 1인 개발 완성도를 높입니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 셋업 및 기본 UI 레이아웃",
+            "deliverable_and_check_ko": "메인 로비 화면과 레이스 화면의 2D 와이어프레임 배치 및 씬 전환 확인."
+          },
+          {
+            "stage_ko": "2단계: 대시 스타트 및 전술 턴 로직 구현",
+            "deliverable_and_check_ko": "스타트 게이지 터치 판정 로직과 코너별 전술 카드 선택에 따른 순위 변동 연산 확인."
+          },
+          {
+            "stage_ko": "3단계: 보트 성장 루프 및 데이터 저장 연동",
+            "deliverable_and_check_ko": "레이스 결과에 따른 코인 획득 및 부품 강화, 로컬 저장/로드 정상 작동 여부 확인."
+          },
+          {
+            "stage_ko": "4단계: UI 폴리싱 및 프로토타입 플레이 테스트",
+            "deliverable_and_check_ko": "전체적인 플레이 흐름 점검 및 밸런스 조정."
+          }
+        ],
+        "possible_extensions_ko": "추후 클라우드 저장 기능, 실시간 멀티플레이어 매치메이킹, 날씨 및 바람 변수 시스템, 다양한 트랙 테마 및 토너먼트 모드 추가 확장 가능.",
+        "risks_and_open_decisions_ko": [
+          "턴제 전술 선택 방식만으로 원본의 역동적인 쾌감이 충분히 전달되는지 실제 플레이 테스트를 통한 검증이 필요합니다.",
+          "전술 카드 간 상성과 보트 스탯의 영향력 비율(밸런스)은 초기 기획 후 반복적인 테스트를 통해 확정해야 합니다."
+        ],
+        "draft_status_ko": "본 문서는 실제 구현 및 플레이테스트/성능 측정이 완료되지 않은 1인 모바일 개발을 위한 설계 초안입니다."
+      },
+      "plan_at": "2026-11-14T08:42:31+09:00",
+      "plan_quota_day": "2026-11-14",
+      "plan_usage": {
+        "promptTokenCount": 2520,
+        "candidatesTokenCount": 1838,
+        "totalTokenCount": 6744,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2520
+          }
+        ],
+        "thoughtsTokenCount": 2386,
+        "serviceTier": "standard"
+      }
     }
   }
 }

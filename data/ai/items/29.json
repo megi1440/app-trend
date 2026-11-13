@@ -10877,6 +10877,456 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-13"
+    },
+    "itch:afc7640bd1c2efded9d2": {
+      "app_key": "itch:afc7640bd1c2efded9d2",
+      "name": "ESCAPE FROM LITTLE SAINT JAMES [Free] [Adventure]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://redactedpixels.itch.io/escape-from-little-saint-james",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:34:32+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "An 8-bit escape from the most infamous island on Earth",
+      "analysis": {
+        "app_key": "itch:afc7640bd1c2efded9d2",
+        "summary_ko": "8비트 스타일의 그래픽으로 구현된 탈출 어드벤처 게임입니다. 특정 섬을 배경으로 하며, 탈출을 위한 단서를 찾는 경험을 제공합니다.",
+        "features_ko": [
+          "8비트 레트로 스타일의 시각적 요소를 제공합니다.",
+          "섬 곳곳을 탐험하며 탈출 단서를 수집합니다.",
+          "어드벤처 장르 특유의 퍼즐 요소를 포함합니다."
+        ],
+        "noteworthy_ko": "특정 실존 장소를 모티브로 한 설정이 흥미롭습니다. 8비트 스타일은 리소스 제작 부담을 줄이면서도 분위기를 조성하는 데 효과적입니다.",
+        "development_ko": "맵 이동 시스템과 상호작용 가능한 오브젝트 관리가 핵심입니다. 8비트 그래픽은 도트 아트 제작 부담이 있으나 일관된 스타일 유지가 중요합니다. 퍼즐의 논리적 흐름을 설계하는 기획력이 필요합니다.",
+        "idea_ko": "탈출 과정에서 수집한 단서들을 조합하여 새로운 아이템을 만드는 제작 시스템을 추가해 보세요.",
+        "highlights_ko": [
+          "레트로 감성을 자극하는 8비트 그래픽.",
+          "탈출이라는 명확한 목표를 가진 어드벤처."
+        ],
+        "systems_ko": [
+          "인벤토리 시스템",
+          "대화 및 상호작용 시스템",
+          "맵 이동 및 씬 관리",
+          "퍼즐 트리거 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기술적 난이도는 낮으나, 퍼즐의 논리적 완성도와 맵 구성 등 기획적 요소가 게임의 재미를 좌우합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동",
+            "오브젝트 상호작용",
+            "기본적인 퍼즐 1개"
+          ],
+          "defer": [
+            "복잡한 스토리 컷신",
+            "다양한 엔딩"
+          ],
+          "risks": [
+            "퍼즐의 난이도 조절 실패",
+            "플레이어의 길 찾기 피로도"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "시간 제한 탈출",
+            "concept": "섬이 가라앉는 설정을 추가하여 시간 제한 내에 탈출해야 합니다. 긴박감을 더합니다.",
+            "first_step": "타이머 UI를 추가하고 0이 되면 게임 오버되는 로직을 구현합니다."
+          },
+          {
+            "title": "기억 조각 수집",
+            "concept": "섬 곳곳에 흩어진 기억 조각을 모아 주인공의 과거를 밝힙니다. 스토리텔링을 강화합니다.",
+            "first_step": "수집 가능한 아이템 오브젝트를 배치하고 UI에 표시합니다."
+          }
+        ],
+        "recommendation_ko": "스토리텔링과 퍼즐 기획을 연습하고 싶은 개발자에게 적합합니다. 레트로 스타일 구현법을 익히기 좋습니다.",
+        "source_limitations_ko": "퍼즐의 구체적인 방식, 맵의 규모, 스토리의 상세 내용은 확인되지 않습니다.",
+        "name": "ESCAPE FROM LITTLE SAINT JAMES [Free] [Adventure]",
+        "source": "itch",
+        "detail_url": "https://redactedpixels.itch.io/escape-from-little-saint-james",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 296,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "apple:6472879198": {
+      "app_key": "apple:6472879198",
+      "name": "삼성닷컴",
+      "developer": "Samsung Electronics Co., Ltd.",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%82%BC%EC%84%B1%EB%8B%B7%EC%BB%B4/id6472879198",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:35:36+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "삼성닷컴 앱에서 갤럭시 Z 폴드8 울트라 | Z 폴드8 | Z 플립8을 만나보세요 갤럭시 Z 폴드 8 울트라 | Z 폴드8 | Z 플립8 그리고 갤럭시 워치 울트라2 | 워치9을 선사하는 새로운 경험, 삼성닷컴 앱에서 새로운 갤럭시 폴더블 제품을 확인해보세요. 새로워진 갤럭시 폴더블을 펼칠 시간입니다. 새로운 갤럭시 Z 폴드 8 울트라 | Z 폴드8 | Z 플립8 그리고 갤럭시 워치 울트라2 | 워치9을 만나보세요. 삼성닷컴 앱에서 간편 보상 프로그램 혜택과 다양한 맞춤형 프로모션을 누릴 수 있습니다. [FAQ] 삼성의 최신 스마트폰 모델은 무엇인가요? 최신 폴더블 갤럭시 기기는 갤럭시 Z 폴드8 울트라 | 폴드8 | 플립8입니다. 듀얼 디스플레이, 몰입감 넘치는 광각 시야, 밝은 카메라, 그리고 생산성을 향상시키는 Galaxy AI 기능을 갖춘 차세대 폴더블을 경험해 보세요. 삼성 스마트폰을 구매하기 가장 좋은 시기는 언제인가요? 새롭게 출시된 갤럭시 Z 폴드8 울트라 | Z 폴드8 | Z 플립8 을 삼성닷컴 앱에서 만나보세요. 일상 속 생산성을 한 단계 높여주는 Galaxy AI와 놀라운 대화면을 지금 바로 경험할 수 있습니다. 삼성의 최신 워치 모델은 무엇인가요? 갤럭시 웨어러블 최신 제품으로 갤럭시 워치 울트라2 | 워치9이 출시되었습니다. 삼성닷컴 앱에서 갤럭시 워치 구매 혜택을 확인하고, 새로운 폴더블 기기를 통해 연결되는 놀라운 갤럭시 경험을 시작해 보세요. [선택적 접근 권한] - 위치: 매장찾기, 서비스센터 찾기 - 카메라 : 상품평 등록, 나의 제품 등록 - 알림 : 쇼핑혜택, 상품정보, 이벤트 안내 선택적 접근권한의 허용에는 동의하지 않아도 서비스 이용이 가능합니다.",
+      "analysis": {
+        "app_key": "apple:6472879198",
+        "summary_ko": "삼성전자의 최신 폴더블 스마트폰과 웨어러블 기기를 확인하고 구매할 수 있는 공식 쇼핑 앱입니다. 제품 정보 확인, 맞춤형 프로모션, 보상 프로그램 혜택 등을 제공합니다. 매장 찾기 및 서비스 센터 위치 확인 기능을 포함합니다.",
+        "features_ko": [
+          "최신 갤럭시 폴더블 및 워치 제품군에 대한 상세 정보를 제공합니다.",
+          "간편 보상 프로그램 및 맞춤형 프로모션 혜택을 안내합니다.",
+          "위치 기반 서비스를 통해 가까운 매장 및 서비스 센터를 검색합니다.",
+          "상품평 등록 및 나의 제품 등록을 위한 카메라 접근 기능을 지원합니다.",
+          "쇼핑 혜택 및 이벤트 알림을 푸시 메시지로 제공합니다."
+        ],
+        "noteworthy_ko": "대기업의 커머스 앱으로, 제품 홍보와 고객 서비스(AS)를 통합한 전형적인 브랜드 앱입니다. 사용자 경험보다는 정보 전달과 구매 전환에 최적화된 구조를 가지고 있습니다.",
+        "development_ko": "대규모 트래픽을 처리할 수 있는 안정적인 서버와 결제 시스템 연동이 핵심입니다. 다양한 기기 해상도에 대응하는 반응형 UI 설계와 푸시 알림 시스템이 필요합니다. 1인 개발자가 구현하기에는 규모가 매우 크며, 보안 및 결제 인증이 매우 중요합니다.",
+        "idea_ko": "구매 전 제품을 가상으로 배치해보는 AR(증강현실) 미리보기 기능을 추가하여 구매 결정에 도움을 주는 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "삼성 브랜드의 신제품 정보를 가장 빠르게 확인할 수 있는 공식 채널입니다.",
+          "위치 정보와 카메라 등 기기 기능을 활용한 사용자 편의 기능을 제공합니다."
+        ],
+        "systems_ko": [
+          "상품 카탈로그 및 데이터 관리 시스템",
+          "결제 및 주문 처리 시스템",
+          "위치 기반 매장 검색 시스템",
+          "푸시 알림 및 이벤트 관리 시스템",
+          "사용자 인증 및 프로필 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "커머스 앱은 결제 보안, 개인정보 보호, 서버 안정성 등 고려해야 할 요소가 매우 많습니다. 1인 개발로 전체 기능을 구현하는 것은 현실적으로 불가능하며, 유지보수 부담이 매우 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 목록 조회",
+            "상품 상세 페이지",
+            "매장 위치 정보 표시"
+          ],
+          "defer": [
+            "결제 시스템",
+            "보상 프로그램 연동",
+            "사용자 리뷰 시스템"
+          ],
+          "risks": [
+            "보안 취약점 노출",
+            "서버 인프라 구축 및 운영 비용"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "AR 제품 배치",
+            "concept": "카메라를 통해 현재 공간에 갤럭시 제품을 가상으로 배치하여 크기와 디자인을 미리 확인합니다.",
+            "first_step": "ARKit 또는 ARCore를 활용한 3D 모델 렌더링 구현."
+          },
+          {
+            "title": "제품 비교 도구",
+            "concept": "여러 모델의 사양을 표 형태로 비교하여 사용자에게 최적의 제품을 추천합니다.",
+            "first_step": "제품 사양 데이터베이스 구축 및 비교 UI 구현."
+          }
+        ],
+        "recommendation_ko": "커머스 앱의 구조를 공부하기에는 좋으나, 실제 결제나 보안 기능을 포함한 앱을 1인이 개발하는 것은 추천하지 않습니다. 정보 전달 위주의 앱 개발 연습으로 활용하세요.",
+        "source_limitations_ko": "실제 결제 시스템의 연동 방식이나 보안 프로토콜은 공개되지 않았습니다. 앱 내에서 제공하는 'Galaxy AI' 기능의 구체적인 동작 원리는 확인되지 않습니다.",
+        "name": "삼성닷컴",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%82%BC%EC%84%B1%EB%8B%B7%EC%BB%B4/id6472879198",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 189,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 17,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "apple:6746632522": {
+      "app_key": "apple:6746632522",
+      "name": "Halo: GPS Dog Fence",
+      "developer": "Protect Animals With Satellites, LLC",
+      "source": "apple",
+      "country": "US",
+      "category": "app_lifestyle",
+      "detail_url": "https://apps.apple.com/us/app/halo-gps-dog-fence/id6746632522?uo=2",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:35:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "More freedom. More protection. Give your dog the freedom to safely enjoy your backyard and the places you go together. Create GPS fences around your home or virtually anywhere you go, know where your dog is, and stay connected wherever life takes you. Smarter GPS Fences No wires. No digging. No complicated installation. Create and manage GPS fences in just a few taps, virtually anywhere. Step-by-step guidance makes it easier to create your first fence and get your dog safely set up. As your dog approaches a boundary, Halo provides feedback to help them understand where it’s safe to roam. Fences are stored directly on the Halo Collar, so they continue working even without Wi-Fi or cellular connectivity. Your Dog, at a Glance Your dog’s safety is always front and center. See tracking, fence feedback, collar connectivity, and battery status together in one clear view, so you can quickly understand what’s happening and know when something needs your attention. Faster Real-Time Tracking Follow your dog with smooth, responsive location updates up to four times per second. Clear tracking and satellite visibility statuses make it easier to understand location quality and know when conditions may affect tracking. More Ways to Stay in Control Beacons and the Remote Control give you more ways to make Halo work for everyday life. Create Keep Away areas within a fence, or use a Beacon to override a fence boundary where your dog is free to go. With the Remote Control, send feedback or start a Walk without opening the app. Feedback That Fits Your Dog Every dog learns differently. Customize sound, vibration, and supported static feedback to find what works for yours. Halo provides feedback at the right moments to help your dog recognize boundaries, while Manual Feedback lets you communicate directly whenever you need it. Expert Training, Built In A great GPS dog fence starts with great training. Follow step-by-step lessons in the Halo app designed by renowned dog behavior expert, Cesar Millan, to help your dog understand their boundaries and respond confidently to their Halo Collar. A Better Way to Walk See every walk in a new way. Follow your dog’s movement in real time and track speed, distance, and time as you explore together. Afterward, see a detailed summary with insights into how your dog explored and responded along the way. Everything Halo. One Simple Experience. Manage your dogs, fences, Collars, Beacons, Remotes, notifications, training, devices, support, and account all in one place. Simpler navigation, improved connectivity, clearer device status, and expanded accessibility make it easier to manage Halo every day. Learn more at halocollar.com.",
+      "analysis": {
+        "app_key": "apple:6746632522",
+        "summary_ko": "Halo: GPS Dog Fence는 반려견의 안전한 활동 범위를 설정하고 실시간으로 위치를 추적하는 라이프스타일 앱입니다. GPS 울타리를 생성하여 반려견이 안전 구역을 벗어날 때 알림을 제공합니다. 훈련 전문가의 가이드를 포함하며, 반려견의 산책 경로와 활동량을 기록합니다.",
+        "features_ko": [
+          "GPS를 사용하여 가상의 안전 울타리를 생성합니다.",
+          "반려견의 위치를 실시간으로 추적하고 상태를 확인합니다.",
+          "반려견의 행동에 따라 소리, 진동 등 맞춤형 피드백을 제공합니다.",
+          "전문가 설계 훈련 가이드를 앱 내에서 제공합니다.",
+          "산책 경로, 거리, 속도 등 활동 데이터를 상세히 기록합니다."
+        ],
+        "noteworthy_ko": "하드웨어(칼라)와 소프트웨어(앱)가 결합된 IoT 서비스입니다. 위치 데이터의 정확도와 실시간 동기화가 핵심이며, 반려견 행동 교정이라는 특수 목적을 가진 점이 흥미롭습니다.",
+        "development_ko": "실시간 GPS 데이터 처리와 지도 API 연동이 핵심입니다. 하드웨어와의 통신 프로토콜 설계가 필요하며, 위치 데이터의 오차를 줄이는 알고리즘이 중요합니다. 반려견의 안전과 직결되므로 매우 높은 수준의 안정성 테스트가 요구됩니다.",
+        "idea_ko": "반려견의 산책 경로를 지도에 예쁘게 기록하고 공유하는 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "가상 울타리 기능을 통해 물리적 울타리 없이 안전 구역을 관리합니다.",
+          "반려견의 활동 데이터를 통합적으로 관리하는 대시보드를 제공합니다."
+        ],
+        "systems_ko": [
+          "GPS 위치 추적 엔진",
+          "지도 API 연동",
+          "데이터 동기화 서비스",
+          "알림 및 피드백 시스템",
+          "사용자 데이터 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 위치 추적과 지도 API 연동은 기술적 난도가 높습니다. 특히 하드웨어 연동이 포함된 경우 1인 개발자가 구현하기에는 매우 복잡합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "지도 기반 위치 표시",
+            "산책 경로 기록",
+            "기본 사용자 설정"
+          ],
+          "defer": [
+            "가상 울타리 제어",
+            "하드웨어 연동",
+            "전문가 훈련 가이드"
+          ],
+          "risks": [
+            "GPS 데이터 오차로 인한 신뢰성 문제",
+            "배터리 소모 최적화 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "반려견 산책 일기",
+            "concept": "산책 경로와 함께 반려견의 사진을 기록하여 일기장처럼 관리합니다.",
+            "first_step": "지도 위에 경로를 그리고 사진을 첨부하는 기능 구현."
+          },
+          {
+            "title": "반려견 활동량 분석기",
+            "concept": "하루 동안 반려견이 얼마나 움직였는지 데이터를 분석하여 건강 상태를 추정합니다.",
+            "first_step": "위치 변화량을 계산하여 이동 거리를 산출하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "위치 기반 서비스(LBS)와 데이터 시각화에 관심이 있다면 좋은 학습 주제입니다. 다만 하드웨어 연동은 매우 어려우므로 소프트웨어 중심의 기능으로 시작하세요.",
+        "source_limitations_ko": "하드웨어 칼라와의 통신 방식이나 GPS 데이터의 정밀도에 대한 정보는 없습니다. 결제 및 보안 기능은 명시되지 않았습니다.",
+        "name": "Halo: GPS Dog Fence",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/halo-gps-dog-fence/id6746632522?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 177,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "google:com.quick.recovery.file.photo.rev": {
+      "app_key": "google:com.quick.recovery.file.photo.rev",
+      "name": "QuickRecovery - Video & Photo",
+      "developer": "Phoenix Nirvana",
+      "source": "google",
+      "country": "JP",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.quick.recovery.file.photo.rev&hl=ja&gl=JP",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:37:42+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "削除した写真や大切なファイルを簡単に復元する方法をお探しですか？ QuickRecoveryは、スマートフォンのストレージから削除された写真、動画、音声ファイル、ドキュメントを復元できる写真・データ復元アプリです。 スキャン技術により、最近削除されたファイルを素早く検索し、復元可能なコンテンツをプレビューしてファイルを復元できます。 大切なものを復元 📷 削除された写真の復元 スキャン機能を使って、デバイスストレージから削除された写真を復元します。誤って削除してしまった写真も復元でき、復元前にプレビューすることも可能です。 🎬 動画の復元 デバイスに保存されている削除された動画を見つけて復元します。簡単な手順で大切な思い出を簡単に取り戻せます。 🎵 音声ファイルの復元 アクセス可能なストレージから、削除された録音、音楽、その他の音声ファイルを復元します。 📄 ドキュメントの復元 PDFやその他の一般的なドキュメント形式を含む、削除されたドキュメントを復元します。 スマートな復元機能 ✔ スマートなファイルスキャン ✔ 複数のファイル形式に対応 ✔ シンプルで使いやすいインターフェース ✔ 高速かつ軽量なパフォーマンス ✔ 写真のバックアップ機能内蔵 QuickRecoveryを使う理由 削除した写真、動画、またはファイル全体の復元が必要な場合でも、QuickRecoveryは複雑な操作なしで大切なファイルを復元するのに役立ちます。 QuickRecoveryでできること： • 削除した写真の復元 • 古い写真の復元 • 削除した動画の復元 • 音声録音の復元 • ドキュメントの復元 • 写真バックアップで重要な写真をバックアップ QuickRecoveryは、安全なデータ復元と日常的なファイル保護のために設計されています。すべてのスキャンはデバイス上で行われるため、個人ファイルのプライバシーが保護されます。 復元の成功は、デバイスのストレージの状態と、削除されたファイルが既に上書きされているかどうかによって異なりますのでご注意ください。",
+      "analysis": {
+        "app_key": "google:com.quick.recovery.file.photo.rev",
+        "summary_ko": "스마트폰 저장소에서 삭제된 사진, 동영상, 오디오, 문서 파일을 복구하는 도구 앱입니다. 스캔 기술을 통해 삭제된 데이터를 검색하고 복구 전 미리보기를 제공합니다. 사용자는 복잡한 과정 없이 간단한 인터페이스로 데이터를 관리할 수 있습니다.",
+        "features_ko": [
+          "기기 저장소 내 삭제된 사진 및 동영상 파일을 스캔하여 복구합니다.",
+          "음성 녹음 및 음악 파일을 검색하여 복구 가능한 상태로 표시합니다.",
+          "PDF 등 일반적인 문서 형식의 삭제된 파일을 복구합니다.",
+          "복구 전 파일을 미리 확인하여 필요한 데이터만 선택할 수 있습니다."
+        ],
+        "noteworthy_ko": "기기 내부에서 직접 스캔을 수행하여 개인정보 보호를 강조하는 점이 흥미롭습니다. 실제 복구 성공 여부가 저장소의 상태와 데이터 덮어쓰기 여부에 따라 크게 달라진다는 점을 명시한 것은 기술적 한계를 솔직하게 드러낸 사례입니다.",
+        "development_ko": "파일 시스템 접근 권한을 활용한 데이터 스캔 알고리즘 구현이 핵심입니다. 삭제된 파일의 메타데이터를 추적하는 로직이 필요하며, 다양한 파일 포맷을 지원하기 위한 파서 제작이 요구됩니다. 데이터 복구는 기기 환경에 따라 결과가 달라지므로 테스트 시 다양한 기기 환경에서의 안정성 확보가 중요합니다.",
+        "idea_ko": "특정 파일 형식을 전문적으로 복구하거나, 복구된 파일의 무결성을 검증하는 '데이터 복구 검증기' 아이디어가 실현 가능합니다.",
+        "highlights_ko": [
+          "별도의 외부 서버 전송 없이 기기 내에서만 스캔이 이루어지는 프라이버시 중심 설계.",
+          "사진, 영상, 문서 등 다양한 미디어 타입을 통합 관리하는 직관적인 인터페이스."
+        ],
+        "systems_ko": [
+          "파일 시스템 스캔 엔진",
+          "데이터 미리보기 뷰어",
+          "파일 복구 알고리즘",
+          "사용자 인터페이스(UI)",
+          "기기 저장소 권한 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "안드로이드의 파일 시스템 구조와 권한 정책에 대한 깊은 이해가 필요합니다. 삭제된 파일의 데이터 블록을 찾아내는 로직은 구현 난도가 높으며, 기기마다 다른 저장소 환경을 대응하는 것이 매우 까다롭습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "저장소 읽기 권한 획득",
+            "특정 확장자 파일 스캔 기능",
+            "복구 파일 목록 UI"
+          ],
+          "defer": [
+            "클라우드 백업 연동",
+            "고급 파일 복구 알고리즘(데이터 복구율 최적화)"
+          ],
+          "risks": [
+            "OS 보안 정책 변화로 인한 접근 제한",
+            "데이터 덮어쓰기로 인한 복구 실패 시 사용자 불만"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중복 파일 정리기",
+            "concept": "저장소 내 중복된 사진과 파일을 찾아 삭제를 제안합니다. 용량 확보를 목적으로 하며, 파일 해시값을 비교하여 중복을 판별합니다.",
+            "first_step": "특정 폴더 내 파일들의 해시값을 계산하여 중복 목록을 출력하는 콘솔 앱 제작."
+          },
+          {
+            "title": "임시 파일 자동 삭제기",
+            "concept": "앱들이 생성한 캐시나 임시 파일을 주기적으로 정리합니다. 사용자가 설정한 기간이 지난 파일을 자동으로 식별합니다.",
+            "first_step": "파일의 수정 날짜를 기준으로 특정 기간이 지난 파일을 리스트업하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "안드로이드 파일 시스템과 권한 관리 체계를 학습하기에 적합합니다. 다만, 실제 데이터 복구는 OS 수준의 제약이 많으므로 학습용 프로젝트로 접근하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 스캔 알고리즘이나 파일 시스템 접근 방식이 명시되지 않았습니다. 외부 클라우드 연동이나 결제 기능은 언급되지 않았으므로 구현 대상에서 제외해야 합니다.",
+        "name": "QuickRecovery - Video & Photo",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.quick.recovery.file.photo.rev&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "apple:443904275": {
+      "app_key": "apple:443904275",
+      "name": "라인 LINE",
+      "developer": "LINE Corporation",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/%EB%9D%BC%EC%9D%B8-line/id443904275",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:38:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "LINE은 언제, 어디서나 메시지와 영상통화, 음성통화를 무료로 즐길 수 있는 커뮤니케이션 메신저입니다. 지금 모바일, PC, 애플워치에 앱을 다운로드하고, 소중한 사이를 LINE으로 이어보세요. [주요 특징] ◆ 언제, 어디서나 무료 음성·영상 통화! 이펙트와 필터로 더욱 재미있게! 언제, 어디서나 무료 통화를 깨끗한 음질로 즐겨보세요. 최대 500명까지 동시에!! 페이스 이펙트와 매직필터를 사용하면 영상통화를 더욱 더 즐겁게 이용할 수 있어요. (iPhone 6S 이상) 메시지와 사진은 물론 동영상, 스티커, 음성 메시지, 위치 정보를 친구들과 빠르고 간편하게 공유해 보세요. ◆ 전 세계 인기 캐릭터들을 만나볼 수 있는 '스티커샵' 수백여 종의 귀여운 무료 스티커와 다양한 인기 캐릭터를 만날 수 있는 유료 스티커가 한자리에! 사랑스러운 캐릭터 스티커와 다양한 표정이 담긴 개성 만점 스티커로 감정까지 생생하게 전달해 보세요. ◆ 모바일 – 애플워치 – PC 자동 연동 언제, 어디서나 자유롭게 대화를! 이동 중에는 아이폰이나 애플워치로, 집이나 직장에서는 PC로 LINE을 이용해 보세요. ◆나만의 개인 대화방 'Keep 메모' 나만 볼 수 있는 Keep 메모에 메시지, 사진, 동영상 등을 간편하게 보관해 보세요. ◆ 소중한 대화를 안전하게 보호하는 'Letter Sealing' 메시지 내용, 통화 기록, 위치 정보를 모두 암호화해주는 Letter Sealing! LINE에서는 언제든지 안심하고 대화하세요. ※ 접근 권한 상세 [선택 접근 권한] ○ 마이크 : 음성/화상 대화 시 그리고 QR코드 인식 시 초음파 수신에 사용합니다. ○ 저장 공간 : 대화 중 사진/동영상 등의 파일을 전송하거나 저장하기 위하여 사용합니다. ○ 전화 : 사용자의 인증을 위하여 사용될 수 있습니다. ○ 주소록 : 친구 추가 시 친구 등록을 위하여 사용합니다. 그리고 음성/영상통화 시 상대방의 정보를 표시하기 위하여 사용합니다. ○ 카메라 : 대화 중 사진/동영상을 촬영하여 전송 시 사용합니다. 이외 QR코드 인식 시 사용합니다. ○ 위치정보 : 위치정보를 수집, 이용하는 경우 이용자로부터 동의를 받을 예정입니다. ○ FaceID/TouchID: 단말기 소유 여부 확인을 위하여 사용될 수 있습니다. ○ 다른 회사의 앱 및 웹사이트에 걸친 사용자의 활동: 허용 시 관심사에 기반한 광고가 표시됩니다. ※ 선택 접근 권한을 동의하지 않는 경우 일부 기능의 정상적인 이용이 어려울 수 있습니다. ■ Wi-Fi에 연결되지 않은 경우 데이터 요금이 발생하므로 데이터 전용 요금제 가입 후 이용하는 것을 권장합니다. ■ 원활한 서비스 이용을 위해 iOS의 최신 버전 업데이트 후 사용하세요. ********** 네트워크 속도가 느리거나 기기의 메모리가 부족할 경우 앱이 제대로 설치되지 않을 수 있습니다. 이 경우 네트워크나 기기 상태를 확인하고 다시 시도하세요. **********",
+      "analysis": {
+        "app_key": "apple:443904275",
+        "summary_ko": "LINE은 메시지, 음성 및 영상 통화를 무료로 제공하는 커뮤니케이션 메신저입니다. 모바일, PC, 애플워치 간의 자동 연동을 지원하며 스티커샵과 같은 다양한 부가 기능을 포함합니다. 대화 내용 암호화 등 보안 기능을 강조합니다.",
+        "features_ko": [
+          "최대 500명까지 참여 가능한 무료 음성 및 영상 통화를 지원합니다.",
+          "다양한 스티커와 이펙트, 필터를 사용하여 대화할 수 있습니다.",
+          "모바일, PC, 애플워치 간 대화 내용이 자동 연동됩니다.",
+          "나만의 대화방인 'Keep 메모' 기능을 제공합니다.",
+          "메시지 및 통화 기록을 암호화하는 'Letter Sealing'을 지원합니다."
+        ],
+        "noteworthy_ko": "다양한 플랫폼 간의 실시간 데이터 동기화와 보안 통신이 핵심 기술입니다. 사용자 경험을 위한 스티커와 필터 등 부가 콘텐츠 생태계가 잘 구축되어 있습니다.",
+        "development_ko": "실시간 메시징 서버, 대규모 동시 접속 처리를 위한 인프라, 플랫폼 간 데이터 동기화 기술이 필수적입니다. 보안을 위한 암호화 기술과 다양한 기기 대응을 위한 UI 최적화가 중요합니다.",
+        "idea_ko": "특정 커뮤니티나 소규모 그룹을 위한 폐쇄형 메신저 기능을 특화하는 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "다양한 기기 환경에서 끊김 없는 커뮤니케이션 경험을 제공합니다.",
+          "보안 기능을 강화하여 사용자의 대화 프라이버시를 보호합니다."
+        ],
+        "systems_ko": [
+          "실시간 메시징 서버(WebSocket 등)",
+          "데이터 동기화 및 클라우드 저장소",
+          "종단간 암호화(E2EE) 시스템",
+          "멀티 플랫폼 UI 프레임워크",
+          "푸시 알림 서비스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 통신, 데이터 동기화, 보안 암호화 등 고도의 인프라와 기술력이 요구되는 대규모 서비스입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "1:1 메시지 전송",
+            "사용자 인증",
+            "기본 대화방 UI"
+          ],
+          "defer": [
+            "영상 통화",
+            "멀티 플랫폼 연동",
+            "스티커샵"
+          ],
+          "risks": [
+            "서버 인프라 구축 및 유지 비용",
+            "보안 취약점 관리"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "주제별 익명 메신저",
+            "concept": "특정 관심사 기반으로 익명 대화방을 생성하고 일정 시간 후 대화가 삭제되는 메신저입니다.",
+            "first_step": "익명 대화방 생성 및 메시지 전송 기능을 구현합니다."
+          },
+          {
+            "title": "가족 전용 메신저",
+            "concept": "가족 간의 위치 공유와 일정 관리에 특화된 단순한 메신저입니다.",
+            "first_step": "위치 정보 공유 기능을 포함한 대화방을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "메신저 앱은 개인 개발자가 전체를 구현하기에는 규모가 너무 큽니다. 특정 기능(예: 실시간 채팅)만 추출하여 학습하는 용도로는 적합합니다.",
+        "source_limitations_ko": "소개문에 명시된 기능 외의 서버 아키텍처, 데이터베이스 구조, 구체적인 암호화 알고리즘은 알 수 없습니다.",
+        "name": "라인 LINE",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EB%9D%BC%EC%9D%B8-line/id443904275",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 63,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
     }
   }
 }

@@ -10642,6 +10642,272 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-13"
+    },
+    "itch:8299411683b246084af4": {
+      "app_key": "itch:8299411683b246084af4",
+      "name": "Two Balls, One Goal: Matchday [Free] [Sports] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://hosein81.itch.io/two-balls-one-goal-matchday",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:33:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Catch two balls, fire a split shot, and take your club from the training ground to the Cup final.",
+      "analysis": {
+        "app_key": "itch:8299411683b246084af4",
+        "summary_ko": "Two Balls, One Goal: Matchday는 두 개의 공을 활용하는 스포츠 게임입니다. 플레이어는 공을 캐치하고 분할 슛을 쏘아 경기를 진행합니다. 훈련장에서 시작하여 컵 결승까지 나아가는 여정을 담고 있습니다.",
+        "features_ko": [
+          "두 개의 공을 동시에 제어하거나 활용하는 독특한 스포츠 메커니즘을 제공합니다.",
+          "분할 슛 기술을 통해 득점 기회를 창출합니다.",
+          "훈련장에서 결승전까지 이어지는 캠페인 모드를 포함합니다."
+        ],
+        "noteworthy_ko": "일반적인 축구 게임과 달리 두 개의 공을 다룬다는 점이 매우 독창적입니다. 스포츠 장르에 퍼즐적인 요소를 가미하여 새로운 조작 경험을 제공하려는 시도로 보입니다.",
+        "development_ko": "두 개의 공을 동시에 처리하는 물리 연산과 AI 골키퍼/상대방의 행동 패턴 구현이 핵심입니다. 스포츠 게임 특성상 애니메이션과 물리 충돌의 자연스러움이 중요하며, 캠페인 모드를 위한 데이터 관리 시스템이 필요합니다.",
+        "idea_ko": "두 공이 서로 부딪힐 때 발생하는 특수 효과(폭발, 가속 등)를 활용한 콤보 시스템을 추가하는 아이디어를 추천합니다.",
+        "highlights_ko": [
+          "두 개의 공을 활용한 차별화된 스포츠 규칙.",
+          "훈련부터 결승까지 이어지는 성장형 캠페인."
+        ],
+        "systems_ko": [
+          "다중 물리 객체 제어",
+          "스포츠 AI 로직",
+          "슛 궤적 계산",
+          "캠페인 진행 관리",
+          "충돌 및 득점 판정"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "스포츠 게임은 물리 엔진의 정밀도와 AI의 행동 패턴 구현이 매우 까다롭습니다. 특히 두 개의 공을 동시에 다루는 물리적 충돌 처리는 1인 개발자에게 높은 기술적 난이도를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "공 캐치 및 슛 메커니즘",
+            "기본 경기장 환경",
+            "득점 판정 시스템"
+          ],
+          "defer": [
+            "복잡한 AI 팀원",
+            "다양한 리그 시스템"
+          ],
+          "risks": [
+            "물리 엔진의 불안정성",
+            "조작의 복잡함으로 인한 피로도"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "듀얼 볼 전략 축구",
+            "concept": "두 공을 각각 다른 색상으로 구분하고, 특정 색상 골대에만 넣을 수 있는 규칙을 추가합니다.",
+            "first_step": "공의 색상 속성 부여 및 골대 충돌 판정 로직 구현."
+          },
+          {
+            "title": "협동 듀얼 볼",
+            "concept": "두 명의 플레이어가 각자 하나의 공을 맡아 협동하여 골을 넣는 로컬 멀티플레이 모드입니다.",
+            "first_step": "두 개의 입력 소스를 구분하여 공을 제어하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "물리 기반 스포츠 게임의 복잡한 메커니즘을 구현해보고 싶은 개발자에게 도전적인 과제가 될 것입니다. 물리 엔진 활용 능력을 키우기에 좋습니다.",
+        "source_limitations_ko": "공의 물리적 상호작용 방식, AI의 수준, 캠페인 모드의 구체적인 구성 요소에 대한 정보가 부족합니다.",
+        "name": "Two Balls, One Goal: Matchday [Free] [Sports] [Windows]",
+        "source": "itch",
+        "detail_url": "https://hosein81.itch.io/two-balls-one-goal-matchday",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 371,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 3,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "google:com.turnpoint.neighborhood": {
+      "app_key": "google:com.turnpoint.neighborhood",
+      "name": "동네달인",
+      "developer": "턴포인트",
+      "source": "google",
+      "country": "KR",
+      "category": "app_lifestyle",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.turnpoint.neighborhood&hl=ko&gl=KR",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:36:39+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "동네달인은 각 분야별 전문가들을 위치기반으로 소개해서 고객과 직접 연결해주는 플랫폼이며 소상공인들이 답답해하는 마케팅 서비스를 지원합니다. 또한 지역에서 숨은맛집으로 홍보가 필요한 요식업 업체들을 소개합니다 단 공정한 경쟁을 위해서 대형 프렌차이즈 식당은 제외합니다.",
+      "analysis": {
+        "app_key": "google:com.turnpoint.neighborhood",
+        "summary_ko": "동네달인은 위치 기반으로 지역 전문가와 고객을 연결하고 소상공인을 위한 마케팅 서비스를 제공하는 플랫폼입니다. 지역 내 숨은 맛집을 홍보하며, 공정한 경쟁을 위해 대형 프랜차이즈 식당은 서비스 대상에서 제외합니다. 소상공인과 지역 주민 간의 연결을 돕는 생활 밀착형 앱입니다.",
+        "features_ko": [
+          "사용자의 위치를 기반으로 주변의 분야별 전문가를 검색하고 연결합니다.",
+          "지역 내 소상공인을 위한 마케팅 지원 서비스를 제공합니다.",
+          "대형 프랜차이즈를 제외한 지역 숨은 맛집 정보를 소개합니다."
+        ],
+        "noteworthy_ko": "지역 기반의 폐쇄적 마케팅 플랫폼으로서, 대형 프랜차이즈를 배제하는 정책이 소상공인에게 어떤 실질적 유입 효과를 주는지 확인하는 것이 흥미롭습니다. 플랫폼의 신뢰도를 유지하기 위한 업체 검증 프로세스가 개발의 핵심이 될 것으로 추정됩니다.",
+        "development_ko": "위치 기반 서비스(LBS) 구현을 위한 지도 API 연동과 업체 데이터베이스 구축이 핵심입니다. 사용자 리뷰나 평점 시스템을 통한 신뢰도 관리 기능이 필요하며, 소상공인 마케팅 툴은 관리자 페이지와 연동되어야 합니다. 초기에는 지역 범위를 좁게 설정하여 데이터 정합성을 테스트하는 것이 중요합니다.",
+        "idea_ko": "지역 소상공인과 주민을 잇는 '동네 챌린지' 기능을 통해 지역 상권 활성화를 유도하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "대형 프랜차이즈를 배제하고 지역 소상공인 중심의 생태계를 지향합니다.",
+          "위치 기반 기술을 활용하여 지역 밀착형 정보 제공에 집중합니다."
+        ],
+        "systems_ko": [
+          "위치 기반 검색 및 필터링 시스템",
+          "업체 정보 관리 및 데이터베이스",
+          "사용자-업체 간 연결(메시지/전화) 시스템",
+          "관리자용 마케팅 대시보드"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "단순 정보 제공을 넘어 업체 검증, 위치 기반 데이터의 정확성, 그리고 마케팅 툴까지 포함해야 하므로 개인 개발자가 운영하기에 관리 부담이 큽니다. 특히 지역 상권 데이터를 지속적으로 확보하고 업데이트하는 과정에 많은 리소스가 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "위치 기반 업체 리스트 조회",
+            "업체 상세 정보 페이지",
+            "전화 연결 기능"
+          ],
+          "defer": [
+            "실시간 채팅",
+            "마케팅 대시보드",
+            "결제 시스템"
+          ],
+          "risks": [
+            "초기 업체 데이터 확보의 어려움",
+            "위치 정보 정확도 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "동네 챌린지",
+            "concept": "지역 맛집 방문 시 스탬프를 찍어주는 게임화 요소 도입. 지역 상권 이용을 독려하고 커뮤니티를 형성함.",
+            "first_step": "특정 지역 내 업체 리스트와 방문 인증 버튼을 구현한 프로토타입 제작."
+          },
+          {
+            "title": "사장님 소식통",
+            "concept": "소상공인이 직접 오늘의 메뉴나 할인 정보를 올리는 게시판. 실시간 소통을 강화함.",
+            "first_step": "업체별 게시글 작성 및 피드 조회 기능 구현."
+          }
+        ],
+        "recommendation_ko": "위치 기반 서비스의 기본 구조와 데이터베이스 설계 방식을 배우기에 좋습니다. 다만, 서비스 운영을 위한 데이터 확보 전략이 선행되지 않으면 비추천합니다.",
+        "source_limitations_ko": "업체 검증 방식, 수익 모델, 지도 API의 종류, 소상공인 마케팅 툴의 구체적인 기능은 소개문에 명시되지 않아 확인이 불가능합니다.",
+        "name": "동네달인",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.turnpoint.neighborhood&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 168,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
+    },
+    "google:com.linecorp.LGSPS20": {
+      "app_key": "google:com.linecorp.LGSPS20",
+      "name": "LINE ポイ活チョッキンズ",
+      "developer": "LINE (LY Corporation)",
+      "source": "google",
+      "country": "JP",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.linecorp.LGSPS20&hl=ja&gl=JP",
+      "data_date": "2026-11-14",
+      "analysed_at": "2026-11-14T06:37:42+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ようこそ！LINE ポイ活チョッキンズへ！ 「ポイ活はしたい。でも正直、がんばりたくない…」 そんなあなたのための、 【完全放置 × 育成 × ポイ活】ゲームです LINE ポイ活チョッキンズでは ・放置するだけでチョッキンズがコインを集めてくれる ・集めたコインはLINEポイントに交換OK ・育成すると、もっと効率よくコインが貯まる！ やることは超かんたん！ まずはチョッキンズを育てて、あとは放置でOK！ 仕事中も、寝ている間も、 チョッキンズはあなたの代わりに働きます 移動なし／ノルマなし／面倒な操作なし 【がんばらないポイ活】を、今日から始めましょう！ それでは、ゆる〜いポイ活ライフをお楽しみください！",
+      "analysis": {
+        "app_key": "google:com.linecorp.LGSPS20",
+        "summary_ko": "방치형 육성 게임과 포인트 적립(포이카츠)을 결합한 서비스입니다. 캐릭터를 육성하면 자동으로 코인을 모아주며, 이를 포인트로 교환할 수 있습니다. 별도의 조작 없이도 게임이 진행되는 방치형 구조를 채택했습니다.",
+        "features_ko": [
+          "캐릭터를 육성하여 코인 수집 효율을 높입니다.",
+          "앱을 켜두지 않아도 캐릭터가 자동으로 코인을 수집합니다.",
+          "수집된 코인을 포인트로 교환하는 기능을 제공합니다.",
+          "복잡한 조작 없이 방치만으로 게임이 진행됩니다."
+        ],
+        "noteworthy_ko": "게임 플레이와 실제 보상을 연결하여 사용자의 리텐션을 높이는 모델이 흥미롭습니다. '노력하지 않는 포이카츠'라는 컨셉은 사용자의 심리적 진입장벽을 낮추는 영리한 전략입니다.",
+        "development_ko": "방치형 게임의 핵심인 시간 기반 보상 계산 로직이 중요합니다. 서버와 클라이언트 간의 데이터 동기화를 통해 부정 행위를 방지하는 것이 가장 큰 부담입니다. 포인트 교환을 위한 외부 API 연동과 보안 검증 시스템 구축이 필수적입니다.",
+        "idea_ko": "캐릭터의 외형을 꾸미는 '코스튬 시스템'을 추가하여 수집 욕구를 자극하는 아이디어가 실현 가능합니다.",
+        "highlights_ko": [
+          "방치형 게임과 보상 시스템의 결합.",
+          "사용자 노력을 최소화한 간편한 게임 플레이 구조."
+        ],
+        "systems_ko": [
+          "시간 기반 보상 계산 엔진",
+          "캐릭터 육성 및 레벨업 시스템",
+          "포인트 교환 및 데이터 관리 시스템",
+          "데이터 보안 및 부정 방지 시스템",
+          "UI/UX 방치형 대시보드"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "방치형 게임 로직은 구현이 비교적 간단하지만, 포인트 교환과 관련된 보안 및 서버 연동은 난도가 있습니다. 게임 자체만 구현한다면 개인 개발자에게 적합한 수준입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 자동 코인 수집 로직",
+            "레벨업 시스템",
+            "코인 잔액 표시 UI"
+          ],
+          "defer": [
+            "실제 포인트 교환 API 연동",
+            "서버 기반 부정 방지 시스템"
+          ],
+          "risks": [
+            "포인트 교환 시스템의 보안 취약점",
+            "방치형 게임 특유의 짧은 콘텐츠 수명"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "캐릭터 도감",
+            "concept": "다양한 캐릭터를 수집하고 도감을 채웁니다. 수집 요소가 게임의 재미를 더합니다.",
+            "first_step": "캐릭터 데이터 구조 설계 및 도감 UI 구현."
+          },
+          {
+            "title": "자동 수집 부스터",
+            "concept": "특정 아이템을 사용하여 일시적으로 코인 수집 속도를 높입니다.",
+            "first_step": "시간 배율을 적용하는 보상 계산 로직 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 데이터 구조와 보상 로직을 배우기에 좋습니다. 포인트 연동은 매우 민감한 영역이므로, 학습 시에는 가상의 포인트로 대체하여 개발하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에 포인트 교환의 구체적인 방식이나 보안 정책은 명시되지 않았습니다. 실제 서비스 시에는 법적 규제와 보안 검증이 필수적입니다.",
+        "name": "LINE ポイ活チョッキンズ",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.linecorp.LGSPS20&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-14"
     }
   }
 }
