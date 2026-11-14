@@ -12454,6 +12454,95 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-15"
+    },
+    "apple:1116186798": {
+      "app_key": "apple:1116186798",
+      "name": "NFHS Network",
+      "developer": "NFHS Network",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/nfhs-network/id1116186798",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T07:46:57+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Watch high school sports live on the NFHS Network Live App. Stream Live, Follow Your High School, and Watch Regular Season and Postseason Games. STREAM GAMES LIVE Watch high school games in over 30 different sports from all 50 states. In addition to regular season games, the NFHS Network allows fans to watch state playoff and championship games for 44+ State High School Associations in the United States. FOLLOW YOUR FAVORITE SCHOOL Find and follow your favorite high schools so you never miss a game. Get notified when the school(s) you follow have a game. WATCH REGULAR SEASON GAMES Schools that are part of the NFHS Network School Broadcast Program produce their own broadcasts of regular season games so their fans can keep up with their team even when they can’t be at the game. Other top regular season games are also featured throughout each season. WATCH POSTSEASON COMPETITIONS The NFHS Network produces and streams playoff and state championship games for over 44 National Federation of State High Schools member state associations. Watch state championships live for fall, winter, and spring competitions. WHAT SPORTS CAN YOU WATCH? · Basketball · Football · Wrestling · Volleyball · Soccer · Cheerleading and Dance · Ice Hockey · Baseball · And more – 30+ different competition events WHAT STATE PLAYOFFS CAN YOU WATCH? · UIL (TX) · IHSA (IL) · NYSPHSAA (NY) · GHSA (GA) · MHSAA (MI) · MPA (ME) · AHSAA (AL) · CIF Sections (CA) · And more – over 44 state associations & sections NFHS NETWORK SUBSCRIPTIONS Access to watch unlimited NFHS Network events live requires a subscription. Your subscription will automatically renew each Month/Year for its listed price. In-app purchases will be charged to your iTunes Account at confirmation of purchase. Subscriptions can be managed by the user by going to the Account Settings after purchase. Cancellations will take effect at the end of the current subscription period. ABOUT THE NFHS NETWORK High school sports wherever, whenever. The NFHS Network is the leader in streaming Live and On Demand high school sports. The NFHS Network covers over 27 different regular season and postseason sports, as well as other high school activities, celebrating the accomplishments of student-athletes, student broadcasters, and high schools across the country. Partnered with the National Federation of State High School Associations (NFHS.org), 44+ high school state athletic/activities associations, and PlayOn! Sports, the NFHS Network is a joint venture created to provide fans with the ability to stream high school sports on any device, from wherever they are. NFHS Network events are available to watch online and through the NFHS Network Live App. Watching high school sports has never been easier. Privacy Policy – https://www.nfhsnetwork.com/privacypolicy Terms of Use – https://www.nfhsnetwork.com/termsofuse",
+      "analysis": {
+        "app_key": "apple:1116186798",
+        "summary_ko": "미국 전역의 고등학교 스포츠 경기를 실시간으로 스트리밍하고 다시 볼 수 있는 서비스입니다. 사용자는 자신이 응원하는 학교를 팔로우하여 경기 알림을 받을 수 있습니다. 다양한 종목의 정규 시즌 및 포스트시즌 경기를 지원합니다.",
+        "features_ko": [
+          "30개 이상의 종목에 대한 고등학교 스포츠 경기 실시간 스트리밍을 제공합니다.",
+          "사용자가 특정 학교를 팔로우하여 경기 시작 시 알림을 받을 수 있습니다.",
+          "정규 시즌 및 주 단위 챔피언십 경기를 시청할 수 있습니다.",
+          "구독을 통해 무제한으로 라이브 이벤트를 시청할 수 있습니다."
+        ],
+        "noteworthy_ko": "학교 단위의 방송 프로그램과 연계하여 콘텐츠를 생산하는 구조가 특징입니다. 다양한 주별 체육 협회와 파트너십을 맺어 방대한 지역 스포츠 데이터를 확보한 점이 개발 관점에서 흥미롭습니다.",
+        "development_ko": "고화질 영상 스트리밍을 위한 CDN 인프라 구축이 핵심입니다. 다수의 사용자가 동시 접속하는 환경에서의 안정적인 영상 송출과 구독 결제 시스템의 연동이 중요합니다.",
+        "idea_ko": "지역별 소규모 아마추어 리그를 위한 간편 스트리밍 및 경기 기록 관리 도구가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "미국 전역의 고등학교 스포츠 경기 라이브 스트리밍.",
+          "학교 팔로우 및 경기 알림 기능."
+        ],
+        "systems_ko": [
+          "영상 스트리밍 및 VOD 관리 시스템",
+          "사용자 팔로우 및 푸시 알림 시스템",
+          "구독 및 결제 관리 시스템",
+          "경기 일정 데이터베이스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "영상 스트리밍 인프라 구축과 대규모 트래픽 처리는 개인 개발자가 구현하기에 매우 높은 비용과 기술적 난이도를 가집니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "영상 재생 플레이어",
+            "경기 일정 목록 표시",
+            "구독 결제 연동"
+          ],
+          "defer": [
+            "실시간 채팅 기능",
+            "다양한 주별 협회 데이터 연동",
+            "사용자 맞춤형 하이라이트 편집"
+          ],
+          "risks": [
+            "스트리밍 서버 비용 부담",
+            "저작권 및 방송 권한 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "동네 체육대회 중계기",
+            "concept": "지역 내 소규모 체육 행사나 동호회 경기를 누구나 쉽게 스트리밍하고 공유하는 플랫폼입니다.",
+            "first_step": "모바일 카메라를 활용한 실시간 스트리밍 송출 기능 구현."
+          },
+          {
+            "title": "경기 기록 공유 보드",
+            "concept": "영상 없이 경기 결과와 주요 기록만을 실시간으로 업데이트하여 공유하는 커뮤니티입니다.",
+            "first_step": "경기 결과 입력 및 실시간 업데이트를 위한 데이터베이스 설계."
+          }
+        ],
+        "recommendation_ko": "영상 스트리밍 서비스의 아키텍처를 이해하는 데 도움이 되지만, 인프라 비용 문제로 인해 실제 서비스화는 신중해야 합니다. 비추천합니다.",
+        "source_limitations_ko": "영상 스트리밍 기술의 구체적인 사양이나 파트너십을 맺은 협회와의 데이터 연동 방식은 알 수 없습니다. 결제 시스템의 보안 및 처리 로직은 검증이 필요합니다.",
+        "name": "NFHS Network",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/nfhs-network/id1116186798",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 53,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
     }
   }
 }

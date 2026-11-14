@@ -10867,6 +10867,96 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-15"
+    },
+    "apple:382698565": {
+      "app_key": "apple:382698565",
+      "name": "American Airlines",
+      "developer": "American Airlines",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/american-airlines/id382698565",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T07:46:57+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "With the American Airlines app, you’re covered with the information you need exactly when you need it. Curious about traffic to the airport? Need a mobile boarding pass? Wondering where the closest Admirals Club® lounge is? All of this info and more is available at your fingertips. - Live Activities: Track your flight in real-time right from your Lock Screen, Dynamic Island and your Apple Watch's Smart Stack. - Lock Screen & Home Screen widgets: See your next trip's details with our dynamic widgets. - Personalized home screen: See your next trip, AAdvantage® status, miles and Loyalty Points. - Booking: Book your next trip along with our hotel, car, cruise and vacation partners right from the app. - Mobile boarding pass: Check in for your trip and retrieve your mobile boarding pass. No need to print, and it’s updated along the way. - Interactive terminal maps: Navigating airports is a breeze with our interactive terminal maps. Find the closest Admirals Club® lounge or get directions to your connecting gate. - AAdvantage® account details: Review all the details of your AAdvantage® account right from your account dashboard. Not an AAdvantage® member? Sign up today. - Seat selection: Choose or change your seat within the app. Just pick the one you’d like and change it on the spot. - Track your bag: Know exactly where your bag is from the time it leaves your hands to when you extend the handle at your destination. - Save your trip: Your recently viewed trips are automatically saved in the app so you can easily grab the details for your next flight in seconds. - Quick interactions: The American app utilizes Haptic Touch and is Apple watch compatible, giving you quick access to the most important info. - Wi-Fi access in the air: Don’t forget, on flights with Wi-Fi you can use the American app and aa.com at no cost. There’s a new group of flyers out there – The World’s Greatest Flyers. They know that having the right travel tools makes for a great experience. The sky’s the limit with the American Airlines sticker pack! Let friends and family know that you’re traveling, headed to the Admirals Club® lounge to take it easy before taking off, snapping photos at 30,000 feet or that you’ve arrived. Contact Us: 800-222-2377",
+      "analysis": {
+        "app_key": "apple:382698565",
+        "summary_ko": "아메리칸 항공의 여행 관리 앱으로 항공권 예약, 모바일 탑승권 발급, 수하물 추적 기능을 제공합니다. 실시간 비행 상태 알림과 공항 터미널 지도 등 여행 전반의 정보를 지원합니다. 위젯과 라이브 활동 기능을 통해 여행 정보를 빠르게 확인할 수 있습니다.",
+        "features_ko": [
+          "실시간 비행 상태를 잠금 화면과 다이내믹 아일랜드에서 추적합니다.",
+          "모바일 탑승권을 앱 내에서 발급하고 관리합니다.",
+          "공항 터미널 지도를 통해 라운지나 게이트 위치를 안내합니다.",
+          "수하물의 위치를 실시간으로 추적하여 확인할 수 있습니다.",
+          "좌석 선택 및 변경 기능을 앱 내에서 직접 수행합니다."
+        ],
+        "noteworthy_ko": "Apple의 최신 기능(라이브 활동, 다이내믹 아일랜드)을 적극적으로 활용하여 사용자 편의성을 극대화한 점이 흥미롭습니다. 여행의 전 과정을 앱 하나로 통합하려는 시도가 돋보입니다.",
+        "development_ko": "항공사 예약 시스템(GDS)과의 안정적인 데이터 연동이 가장 중요합니다. 실시간 알림 서비스와 위치 기반 서비스의 정확도 확보가 필요하며, 다양한 기기(Apple Watch 등)와의 연동성 고려가 필수적입니다.",
+        "idea_ko": "여행 중 발생하는 모든 예약(항공, 숙박, 교통)을 한곳에서 관리하고 일정을 자동으로 최적화해주는 여행 비서 앱이 적합합니다.",
+        "highlights_ko": [
+          "라이브 활동을 통한 실시간 비행 추적.",
+          "수하물 실시간 위치 추적 기능."
+        ],
+        "systems_ko": [
+          "항공 예약 데이터 연동 시스템",
+          "실시간 푸시 알림 및 라이브 활동 관리",
+          "인터랙티브 지도 렌더링 시스템",
+          "사용자 인증 및 마일리지 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "항공사 시스템과의 복잡한 데이터 연동이 필요하며, 실시간성 및 보안 요구사항이 매우 높습니다. 개인 개발자가 항공사 수준의 인프라를 구축하는 것은 불가능에 가깝습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "항공권 예약 정보 입력 및 표시",
+            "모바일 탑승권 UI",
+            "기본 비행 상태 알림"
+          ],
+          "defer": [
+            "수하물 실시간 추적",
+            "공항 터미널 인터랙티브 지도",
+            "Apple Watch 연동"
+          ],
+          "risks": [
+            "항공사 데이터 접근 권한 문제",
+            "실시간 정보 동기화 실패 시 사용자 혼란"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "여행 일정 통합 관리자",
+            "concept": "이메일로 받은 항공권, 호텔 예약 정보를 자동으로 파싱하여 하나의 타임라인으로 보여줍니다.",
+            "first_step": "이메일 파싱 라이브러리를 활용한 예약 정보 추출 기능 구현."
+          },
+          {
+            "title": "공항 대기 시간 최적화",
+            "concept": "공항 혼잡도를 분석하여 최적의 도착 시간을 제안하고 게이트까지의 경로를 안내합니다.",
+            "first_step": "공항 혼잡도 데이터 수집 및 경로 안내 UI 구현."
+          }
+        ],
+        "recommendation_ko": "복잡한 데이터 연동과 사용자 경험(UX) 최적화 사례를 공부하기에 좋습니다. 다만 실제 항공사 앱 개발은 기업 단위의 프로젝트이므로 학습용으로만 접근하세요.",
+        "source_limitations_ko": "항공사 내부 예약 시스템과의 연동 방식이나 보안 프로토콜은 공개되지 않았습니다. 결제 및 개인정보 처리 로직은 검증이 필요합니다.",
+        "name": "American Airlines",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/american-airlines/id382698565",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 82,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
     }
   }
 }

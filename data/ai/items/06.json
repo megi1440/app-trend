@@ -13231,6 +13231,97 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-15"
+    },
+    "apple:561311442": {
+      "app_key": "apple:561311442",
+      "name": "Dollar General-Digital Coupons",
+      "developer": "Dolgencorp, LLC",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/dollar-general-digital-coupons/id561311442",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T07:47:12+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Download the DG App and join myDG® to earn deals, rewards and bonuses! Explore all the benefits of myDG® for additional savings today. Shop in the app and find everything that you need at the lowest prices! . myDG® Wallet – See your exclusive offers, filter and search your clipped Coupons and Cash Back, access your myDG® ID, scan DG Cash to spend in store, and more. . Digital Coupons – Save on hundreds of items every week. . Cart Calculator – In-store budgeting that helps you save as you shop. . Shopping List – Keep your checklist and add coupons to your myDG® Wallet. . Weekly Ads – See what’s on sale at your store. Your favorite ways to save - All in one place! Shop the Dollar General app to plan your next shopping trip, or order online. Our stores are full of great stuff! You will never know what you might find, but our stores always include: Groceries: -Food -Drinks -Milk -Eggs -Soda -Pantry -Coffee -Tea Party Supplies: -Holiday Decorations -Paper Plates & Cups -Plastic Forks & Knives -Festive Paper Napkins -Balloons Cleaning Supplies: -Paper Towels -Sponges & Scrubbers -Mops & Brooms -Window & Floor Cleaning School & Office Supplies: -Pens & Pencils -Folders & Filing -Paper & Notebooks -Backpacks & Lunch Boxes Pet Supplies: -Cat & Dog Food -Cat & Dog Toys Home & Garden: -Pots & Planters -Lawn Decorations -Home Decor -Pillows -Candles -Rugs & Mats -Blankets & Throws Find the Dollar General App in the App Store, log in and start shopping and saving today!",
+      "analysis": {
+        "app_key": "apple:561311442",
+        "summary_ko": "Dollar General의 공식 쇼핑 앱으로, 디지털 쿠폰 사용과 매장 내 예산 관리를 지원합니다. 사용자는 앱을 통해 주간 광고를 확인하고 쇼핑 리스트를 작성하며, 매장에서 사용할 수 있는 디지털 쿠폰을 관리할 수 있습니다. 식료품부터 생활용품까지 다양한 상품 정보를 제공하여 효율적인 쇼핑 경험을 돕습니다.",
+        "features_ko": [
+          "디지털 쿠폰을 검색하고 클립하여 myDG 지갑에 저장할 수 있습니다.",
+          "매장 내 쇼핑 시 예산을 계산할 수 있는 카트 계산기 기능을 제공합니다.",
+          "구매할 상품을 체크리스트로 관리하는 쇼핑 리스트 기능을 지원합니다.",
+          "현재 매장에서 진행 중인 주간 할인 광고를 확인할 수 있습니다.",
+          "myDG ID를 통해 매장에서 결제 시 사용할 수 있는 바코드를 생성합니다."
+        ],
+        "noteworthy_ko": "오프라인 소매점의 경험을 디지털로 확장하여 고객의 구매 여정을 통합 관리하는 점이 흥미롭습니다. 특히 카트 계산기 기능은 오프라인 매장 내의 사용자 경험을 개선하려는 의도가 돋보입니다. 이는 데이터 기반의 개인화된 혜택 제공을 위한 플랫폼으로 보입니다.",
+        "development_ko": "핵심 기술로는 쿠폰 데이터베이스 연동 및 실시간 재고/할인 정보 동기화가 필요합니다. 사용자 위치 기반 매장 찾기 및 개인화된 쿠폰 추천 알고리즘 구현이 콘텐츠 제작의 핵심입니다. 오프라인 매장 결제 시스템과의 연동 안정성 테스트가 가장 큰 부담이 될 것으로 추정됩니다.",
+        "idea_ko": "사용자의 쇼핑 리스트를 기반으로 구매 주기를 예측하여 필요한 상품을 미리 알림으로 제안하는 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "오프라인 매장 쇼핑을 보조하는 실용적인 도구(계산기, 리스트) 중심의 구성입니다.",
+          "쿠폰과 결제 ID를 통합한 myDG 지갑 시스템을 통해 사용자 편의성을 높였습니다."
+        ],
+        "systems_ko": [
+          "사용자 계정 및 쿠폰 데이터 관리 시스템",
+          "매장 위치 및 상품 정보 데이터베이스",
+          "실시간 할인 정보 동기화 모듈",
+          "UI/UX 기반의 쇼핑 리스트 및 계산기 로직",
+          "바코드 생성 및 스캔 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "단순 앱 구현을 넘어 실제 소매점의 방대한 상품 데이터와 쿠폰 시스템을 연동해야 하므로 백엔드 인프라 구축이 매우 복잡합니다. 또한 결제 및 보안 관련 데이터 처리가 필수적이어서 개인 개발자가 단독으로 수행하기에는 리스크가 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 카테고리별 리스트 관리",
+            "간이 카트 계산기",
+            "주간 할인 정보 수동 입력 및 조회"
+          ],
+          "defer": [
+            "실시간 결제 연동",
+            "개인화된 쿠폰 추천 알고리즘",
+            "매장 위치 기반 서비스"
+          ],
+          "risks": [
+            "데이터 업데이트의 지속성 유지",
+            "사용자 개인정보 보호 및 보안 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스마트 장바구니 예산 관리자",
+            "concept": "사용자가 예산을 설정하고 상품을 담을 때마다 실시간으로 잔액을 보여주며, 예산 초과 시 저렴한 대체 상품을 추천합니다.",
+            "first_step": "상품명과 가격을 입력하면 합계를 계산하고 예산 대비 잔액을 표시하는 간단한 UI 구현."
+          },
+          {
+            "title": "가계부 연동 쇼핑 리스트",
+            "concept": "쇼핑 리스트에 담긴 상품이 구매 완료되면 자동으로 가계부 앱의 지출 항목으로 기록되는 자동화 도구입니다.",
+            "first_step": "쇼핑 리스트 항목을 체크하면 로컬 데이터베이스에 지출 내역으로 저장하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "오프라인 매장과 연동되는 O2O 서비스의 기본 구조를 학습하기에 좋습니다. 다만, 실제 결제나 대규모 데이터 연동이 포함된 앱을 개발하려는 경우 보안 및 서버 운영에 대한 깊은 이해가 선행되어야 합니다.",
+        "source_limitations_ko": "소개문에는 실제 결제 시스템의 기술적 구현 방식이나 외부 API 연동 여부가 명시되어 있지 않습니다. 또한 사용자 위치 정보나 개인화 추천 알고리즘의 구체적인 작동 원리는 확인할 수 없습니다.",
+        "name": "Dollar General-Digital Coupons",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/dollar-general-digital-coupons/id561311442",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 94,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
     }
   }
 }

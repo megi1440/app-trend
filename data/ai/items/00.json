@@ -10820,6 +10820,97 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-15"
+    },
+    "apple:344542975": {
+      "app_key": "apple:344542975",
+      "name": "Southwest Airlines: Travel App",
+      "developer": "Southwest Airlines Co.",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/southwest-airlines-travel-app/id344542975",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T07:47:12+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "The Southwest® app makes travel easy. - Book flights, cars, hotels, cruises, and vacations all in one place - Use the app for easy booking, check-ins, flight status updates, seat upgrade options, and boarding passes. - Rapid Rewards® Members can also earn points1 on qualifying Southwest purchases, including flights, car rentals, hotel bookings, and vacations - Plan your next trip to Las Vegas, Orlando, Cancun, and more with the Southwest travel booking app Southwest app features: Flight booking and day-of travel - Compare available fares for your flight - Manage your travel details in the “My Trips” tab, including seat upgrade options, gate information, boarding position, flight status, and more Book hotels with Southwest - Explore more travel experiences with each hotel booking - View and manage your reservation and find hotel deals Flight status and boarding passes on the go - Mobile boarding passes for all Passengers on your trip 24 hours in advance - Flight status, flight number, confirmation number, boarding time, and TSA PreCheck® details found in one place - Save your mobile boarding passes to Wallet for convenience Visit the top travel destinations with Getaways by Southwest® - Book your entire vacation package—flight, hotel and rental car booking—all in one place. It’s our most flexible way to vacation - It’s never been easier to get away for a vacation. Cancel or make changes to your package up to 10 minutes prior to your first departure2 - Use the in-app booking widget to search 30+ popular vacation packages and book flights to Cancun, Orlando, Las Vegas, Hawaii, and more Access inflight entertainment - Use the app to take you to our Inflight Entertainment Portal, where you can watch free live TV, access free on-demand TV episodes, and view free movies3 Earn Rapid Rewards points when you travel - Sign up for Rapid Rewards and earn points on your flights. Forget to add your Rapid Rewards number during booking? No worries, add it after booking your flight and earn points1 Purchase seats for your flight, check flight status, find a seat upgrade, schedule pickups and drop-offs, enjoy fast and easy hotel booking, reserve car rentals, and embrace last-minute flights for your next spontaneous vacation—all with Southwest. Disclaimers: 1 All Rapid Rewards® rules and regulations apply and can be found at https://www.southwest.com/rrterms. 2 Bookings canceled or changed 72 hours before your first flight’s scheduled departure will be refunded in the form of vacation travel credits less any optional travel charges and travel insurance. Bookings changed or canceled 72 hours–10 minutes before your first flight’s scheduled departure may be subject to supplier penalties. Bookings must be canceled or changed at least 10 minutes before your first flight’s scheduled departure time or funds will be forfeited. Any eligible credits will be less nonrefundable air travel charges and travel insurance. Subject to Getaways by Southwest® Terms & Conditions: https://www.southwest.com/vacations/terms-and-conditions/. 3 Where available. Available only on WiFi-enabled, designated aircraft. Due to licensing and other restrictions on select WiFi-enabled flights, free movies, TV series, and live TV may not be available. Customers will need to access content downloaded to their devices prior to such flights or connect to Free WiFi to access their own entertainment options.",
+      "analysis": {
+        "app_key": "apple:344542975",
+        "summary_ko": "Southwest Airlines의 공식 앱으로 항공권 예약부터 체크인, 탑승권 관리까지 여행의 전 과정을 지원합니다. 호텔, 렌터카, 휴가 패키지 예약 기능을 통합하여 여행 계획을 한곳에서 관리할 수 있습니다. 또한 Rapid Rewards 멤버십을 통해 여행 시 포인트를 적립하고 기내 엔터테인먼트를 이용할 수 있습니다.",
+        "features_ko": [
+          "항공권, 호텔, 렌터카, 휴가 패키지를 통합 예약할 수 있습니다.",
+          "출발 24시간 전부터 모바일 탑승권을 발급받아 지갑에 저장할 수 있습니다.",
+          "항공편 상태, 게이트 정보, 탑승 순서 등을 실시간으로 확인합니다.",
+          "Rapid Rewards 포인트를 적립하고 예약 시 사용할 수 있습니다.",
+          "기내 엔터테인먼트 포털에 접속하여 영화나 TV 프로그램을 시청할 수 있습니다."
+        ],
+        "noteworthy_ko": "여행의 시작부터 끝까지 필요한 모든 기능을 하나의 앱에 담은 '슈퍼 앱' 전략이 돋보입니다. 특히 항공권과 호텔, 렌터카를 묶은 패키지 예약 시스템은 사용자에게 편의성을 제공하는 동시에 기업의 수익 모델을 강화합니다. 기내 서비스와 앱을 연동한 점은 사용자 경험의 연속성을 잘 보여줍니다.",
+        "development_ko": "항공사 예약 시스템(GDS)과의 실시간 데이터 연동이 가장 핵심적인 기술입니다. 모바일 탑승권의 보안 및 QR 코드 생성, 실시간 푸시 알림 시스템 구축이 필요합니다. 항공 보안 규정과 관련된 데이터 처리 및 예외 상황(결항, 지연) 대응 로직 구현이 매우 복잡합니다.",
+        "idea_ko": "여행 중 발생하는 예상치 못한 상황(지연, 게이트 변경)을 사용자의 캘린더와 연동하여 자동으로 일정을 수정해 주는 비서 기능이 적합합니다.",
+        "highlights_ko": [
+          "항공권 예약부터 기내 엔터테인먼트까지 여행 전체를 아우르는 통합 플랫폼입니다.",
+          "모바일 탑승권과 실시간 상태 업데이트를 통해 공항에서의 대기 시간을 줄여줍니다."
+        ],
+        "systems_ko": [
+          "항공권 및 여행 상품 예약 엔진",
+          "실시간 항공편 상태 및 게이트 정보 동기화",
+          "모바일 탑승권 생성 및 검증 시스템",
+          "멤버십 포인트 적립 및 관리 시스템",
+          "기내 엔터테인먼트 스트리밍 연동 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "항공사 시스템은 매우 높은 수준의 보안과 실시간성을 요구합니다. 개인 개발자가 항공사 데이터베이스와 직접 연동하는 것은 불가능에 가까우며, 예약 및 결제 시스템의 복잡도 또한 매우 높아 개인 프로젝트로 구현하기에는 무리가 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "항공권 예약 정보 수동 입력 및 조회",
+            "모바일 탑승권 이미지 생성",
+            "여행 일정 리스트 관리"
+          ],
+          "defer": [
+            "실시간 항공편 상태 연동",
+            "기내 엔터테인먼트 스트리밍",
+            "포인트 결제 시스템"
+          ],
+          "risks": [
+            "개인정보 및 항공권 데이터 보안",
+            "예약 시스템 연동 오류로 인한 데이터 불일치"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "여행 일정 통합 관리자",
+            "concept": "항공권, 숙소, 투어 예약 확인서를 이메일에서 자동으로 추출하여 하나의 타임라인으로 보여주는 여행 관리 앱입니다.",
+            "first_step": "이메일 파싱을 통해 예약 날짜와 장소를 추출하여 캘린더에 표시하는 기능 구현."
+          },
+          {
+            "title": "공항 대기 시간 최적화 도구",
+            "concept": "공항 내 게이트 위치와 현재 위치를 기반으로 이동 경로와 예상 소요 시간을 알려주는 가이드 앱입니다.",
+            "first_step": "공항 지도 데이터를 기반으로 출발지와 목적지 간의 최단 경로를 계산하는 알고리즘 구현."
+          }
+        ],
+        "recommendation_ko": "복잡한 예약 시스템의 흐름을 이해하는 데는 도움이 되지만, 실제 항공사 앱 수준의 구현은 개인 개발 범위를 벗어납니다. 여행 관련 앱을 만들고 싶다면 특정 기능을 좁혀서(예: 일정 관리) 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 항공사 내부 예약 시스템(GDS)과의 연동 방식이나 기내 WiFi 환경에서의 스트리밍 기술적 세부 사항은 언급되지 않았습니다. 또한 결제 처리 시의 보안 표준에 대한 정보도 없습니다.",
+        "name": "Southwest Airlines: Travel App",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/southwest-airlines-travel-app/id344542975",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 99,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
     }
   }
 }
