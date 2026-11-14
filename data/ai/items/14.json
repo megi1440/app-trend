@@ -11965,6 +11965,97 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-14"
+    },
+    "google:com.epic.docnimbus.pdf": {
+      "app_key": "google:com.epic.docnimbus.pdf",
+      "name": "PDF 뷰어 - PDF 리더, 서명, 합치기",
+      "developer": "AlexadraJocely",
+      "source": "google",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.epic.docnimbus.pdf&hl=ko&gl=KR",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:07:33+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "PDF 뷰어 - PDF 리더, 서명, 합치기는 휴대폰에서 PDF 파일을 열고, 읽고, 서명하고, 합칠 수 있는 PDF 뷰어 앱입니다. PDF 텍스트 검색, 문서 스캔, 사진 PDF 변환까지 필요한 PDF 도구를 하나로 모았습니다. 계약서와 신청서 서명, 보고서 확인, 학교와 회사 문서 정리에 편리하게 사용하세요. 📖 PDF 뷰어 & PDF 리더 빠르고 편하게 PDF 파일을 보세요. - 부드러운 스크롤과 확대/축소로 PDF 열기 - PDF 텍스트 검색, 검색 결과 하이라이트 - 페이지 썸네일과 페이지 이동으로 빠른 탐색 - 페이지 회전 및 읽기 모드 - 지원되는 비밀번호 보호 PDF 열기 - 인쇄, 공유, 파일 정보 확인 - 기본 PDF 뷰어로 설정 🗂️ 문서 뷰어 & 파일 관리 휴대폰에 저장된 문서를 한 곳에서 찾고 정리하세요. - PDF, DOCX, XLSX, PPT 파일을 한 곳에서 보기 - 최근 파일 보기 및 즐겨찾기 저장 - 파일 이름으로 문서 검색 - 날짜, 이름, 크기순 정렬 - 파일 이름 변경, 공유, 삭제 - 지원되는 DOCX, XLSX 문서 미리 보기 ✍️ PDF 서명 & 전자 서명 인쇄하지 않고 휴대폰에서 바로 PDF에 서명하세요. - 서명을 직접 그리거나, 입력하거나, 사진으로 가져오기 - 서명 색상과 펜 두께 설정 - PDF 페이지에서 서명 위치 이동 및 크기 조절 - 서명을 기기에 저장해 다시 사용 🖼️ 사진 PDF 변환 & 문서 스캐너 사진과 종이 문서를 PDF로 만드세요. - 자동 모서리 인식으로 문서 스캔 - 갤러리 사진과 JPG 이미지를 PDF로 변환 - 여러 장의 사진을 하나의 PDF로 만들기 - 자르기, 회전, 문서 필터 적용 - 저장 전 페이지 순서 변경 또는 삭제 - 파일 이름을 정하고 PDF로 저장 🔗 PDF 합치기 여러 PDF 파일을 하나로 합치세요. - 합칠 PDF 파일 선택 - 원하는 순서대로 정렬 - 하나의 깔끔한 PDF로 합치기 ✨ 더 많은 PDF 도구 - PDF 문서 공유 및 인쇄 - 최근 문서와 즐겨찾기 관리 - 지원되는 읽기 도구는 오프라인에서도 사용 - 라이트 또는 다크 테마 - 한국어를 포함한 다양한 언어 지원 PDF 열기부터 PDF 서명, PDF 합치기, 문서 스캔, 사진 PDF 변환까지 하나의 PDF 뷰어 앱에서 해결하세요.",
+      "analysis": {
+        "app_key": "google:com.epic.docnimbus.pdf",
+        "summary_ko": "PDF 파일을 열람하고 서명, 합치기, 스캔 등 다양한 문서 작업을 수행할 수 있는 도구 앱입니다. 텍스트 검색, 페이지 관리, 사진 변환 등 PDF 관련 기능을 하나로 통합하여 제공합니다. 계약서 서명이나 문서 정리 등 실무적인 용도로 활용하기 편리합니다.",
+        "features_ko": [
+          "PDF 파일을 부드럽게 스크롤하고 확대/축소하여 열람할 수 있습니다.",
+          "PDF 내 텍스트를 검색하고 하이라이트 표시를 할 수 있습니다.",
+          "직접 그리거나 입력한 서명을 PDF 문서에 추가할 수 있습니다.",
+          "여러 장의 사진을 스캔하여 하나의 PDF로 변환할 수 있습니다.",
+          "여러 개의 PDF 파일을 원하는 순서대로 합칠 수 있습니다.",
+          "DOCX, XLSX 등 다양한 문서 형식을 미리 볼 수 있습니다."
+        ],
+        "noteworthy_ko": "PDF 관련 기능을 하나의 앱으로 통합하여 사용자 편의성을 높인 점이 돋보입니다. 특히 모바일 환경에서 서명과 스캔 기능을 제공하여 업무 효율성을 극대화했습니다.",
+        "development_ko": "PDF 라이브러리를 활용한 문서 렌더링과 편집 기능 구현이 핵심입니다. 이미지 스캔 및 변환을 위한 OCR 또는 이미지 처리 기술이 필요하며, 파일 시스템 접근 권한 관리가 중요합니다. UI는 문서 관리와 편집 도구를 직관적으로 배치해야 합니다.",
+        "idea_ko": "서명한 문서를 클라우드에 자동으로 저장하고 공유 링크를 생성하는 기능을 추가하면 업무용으로 더욱 강력해질 것입니다.",
+        "highlights_ko": [
+          "PDF 열람부터 편집, 스캔까지 통합된 문서 관리 기능.",
+          "모바일 환경에 최적화된 전자 서명 및 파일 합치기."
+        ],
+        "systems_ko": [
+          "PDF 렌더링 엔진",
+          "파일 관리 및 정렬 시스템",
+          "이미지 스캔 및 변환 모듈",
+          "전자 서명 편집 도구"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "PDF 파일의 구조를 다루는 것은 전문적인 라이브러리 지식이 필요하며, 파일 처리 및 보안 관련 이슈를 해결하는 것이 까다롭습니다. 안정적인 문서 렌더링을 구현하는 데 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "PDF 열람 및 스크롤",
+            "파일 목록 관리",
+            "PDF 합치기 기능"
+          ],
+          "defer": [
+            "전자 서명",
+            "문서 스캔",
+            "다양한 문서 형식 지원"
+          ],
+          "risks": [
+            "PDF 라이브러리 호환성 문제",
+            "파일 처리 성능 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "문서 주석 달기",
+            "concept": "PDF 위에 형광펜을 칠하거나 메모를 남기는 규칙입니다.",
+            "first_step": "PDF 좌표 기반 드로잉 레이어 구현."
+          },
+          {
+            "title": "문서 암호화",
+            "concept": "중요한 PDF 파일에 비밀번호를 걸어 보호하는 규칙입니다.",
+            "first_step": "파일 암호화/복호화 라이브러리 연동."
+          }
+        ],
+        "recommendation_ko": "문서 처리 관련 라이브러리 활용법과 파일 시스템 관리 능력을 배우기에 좋습니다. 실용적인 유틸리티 앱 개발을 원하는 분께 추천합니다.",
+        "source_limitations_ko": "사용된 PDF 처리 라이브러리나 보안 관련 구체적인 구현 방식은 확인되지 않았습니다.",
+        "name": "PDF 뷰어 - PDF 리더, 서명, 합치기",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.epic.docnimbus.pdf&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 183,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
     }
   }
 }

@@ -11899,6 +11899,370 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-14"
+    },
+    "google:com.wanda.transformers.gg.am": {
+      "app_key": "google:com.wanda.transformers.gg.am",
+      "name": "Transformers: Eternal War",
+      "developer": "Wanda Cinemas Games",
+      "source": "google",
+      "country": "US",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.wanda.transformers.gg.am&hl=en&gl=US",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:06:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Autobots and Decepticons stand united against the Chaos Legion! Experience an all-new Transformers Strategy Idle RPG featuring an original story by Simon Furman! The Earth has been consumed by a mysterious force born from pure chaos energy—an unstoppable corruption now spreading toward humanity’s final line of defense. For generations, Autobots and Decepticons have waged an unrelenting war. But in the face of the Chaos Legion—as heroes and villains fight against the chaos—old enmities must be set aside. The fight for Earth is no longer about victory. It is about survival. ◆ Forge an Original Transformers Epic with Simon Furman ◆ Transformers: Eternal War features an original story written by Simon Furman, the legendary writer who helped define the Transformers universe for generations of fans. In this all-new chapter, players will uncover the rise of the Chaos Legion, an apocalyptic faction empowered by unstable chaos energy. As its influence spreads, iconic Autobots and Decepticons must unite against a corruption threatening Earth, Cybertron, and the future of the universe. Faced with a threat unlike anything they have ever encountered, Autobots and Decepticons must confront an impossible choice: continue their endless war—or stand together to protect Earth, Cybertron, and the future of all they fight for. ◆ Lead the Combat Through Strategic Command ◆ Transformers: Eternal War evolves the character-collector experience with a streamlined system focused on tactical squad-building and strategic progression over constant micromanagement. Whether online or away from the battlefield, your forces continue fighting, gathering resources, and advancing the war effort around the clock. Recruit, upgrade, and command an ever-expanding roster of iconic Transformers while assembling powerful team synergies capable of turning the tide of battle. Every squad composition matters. Every commander shapes the future of the conflict. ◆ Build the Ark. Sustain the Battle. ◆ Beyond the battlefield, players can expand and manage support facilities surrounding the Ark, creating a steady flow of resources that keeps their forces combat-ready at all times. By upgrading automated production systems and optimizing resource operations, commanders can continuously strengthen their squads. Even while offline, your facilities remain active—gathering supplies, supporting troop growth, and preparing your forces for the next conflict. Designed around a seamless hands-off experience, Transformers: Eternal War allows players to focus less on repetitive maintenance and more on assembling powerful teams, developing strategy, and pushing back against the growing Chaos Legion threat. ◆ A New Era of Transformers Warfare Begins ◆ Combining legendary characters, an original story crafted by one of the franchise’s most iconic writers, and a modern strategic gameplay experience built for mobile, Transformers: Eternal War delivers both a celebration of Transformers history and a bold new evolution for the franchise. ——The universe is changing. ——The signal has been broadcast. ——Now the fate of Earth depends on who answers the call！ ◆ Official channels：◆ FaceBook：https://www.facebook.com/profile.php?id=61566948995743 X：https://x.com/TFEternalWar INS: https://www.instagram.com/transformerseternalwar/ TikTok：https://www.tiktok.com/@transformerseternalwar Discord：https://discord.gg/aQSsSfURn TRANSFORMERS and HASBRO and all related trademarks and logos are trademarks of Hasbro, Inc. ©2026 Hasbro ©WANDA CINEMAS GAMES",
+      "analysis": {
+        "app_key": "google:com.wanda.transformers.gg.am",
+        "summary_ko": "트랜스포머 세계관을 바탕으로 한 전략 방치형 RPG입니다. 오토봇과 디셉티콘이 협력하여 혼돈의 군단에 맞서는 오리지널 스토리를 담고 있습니다. 전략적인 팀 구성과 방치형 성장을 결합한 모바일 게임입니다.",
+        "features_ko": [
+          "사이먼 퍼먼이 집필한 오리지널 스토리 제공.",
+          "전략적 팀 구성과 시너지를 강조한 전투 시스템.",
+          "오프라인 상태에서도 자원을 수집하는 방치형 성장 시스템.",
+          "기지(아크) 건설 및 자원 생산 시설 관리.",
+          "전략적 판단에 집중할 수 있는 간소화된 전투 조작."
+        ],
+        "noteworthy_ko": "방치형 장르에 전략적 요소를 결합하고, 유명 작가의 스토리를 입혀 IP의 가치를 극대화한 점이 흥미롭습니다. 사용자의 시간을 효율적으로 사용하게 만드는 시스템 설계가 돋보입니다.",
+        "development_ko": "방치형 게임의 핵심인 성장 밸런스와 자원 생산 로직 구현이 중요합니다. 다양한 캐릭터의 시너지 효과를 계산하는 데이터 구조와 오프라인 보상 계산 로직이 필요하며, 지속적인 콘텐츠 업데이트가 부담이 될 수 있습니다.",
+        "idea_ko": "캐릭터 시너지를 강조한 방치형 전략 게임이 적합합니다.",
+        "highlights_ko": [
+          "유명 작가 참여를 통한 스토리의 깊이.",
+          "방치형과 전략의 조화로운 결합."
+        ],
+        "systems_ko": [
+          "방치형 자원 수집 및 보상 시스템",
+          "캐릭터 수집 및 성장 시스템",
+          "팀 시너지 계산 로직",
+          "기지 건설 및 업그레이드 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "방치형 게임은 밸런스 설계가 매우 중요하며, 캐릭터 간의 시너지와 성장 곡선을 정교하게 조정해야 합니다. 1인 개발 시 방대한 캐릭터 데이터와 밸런스 테스트에 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 방치형 보상 로직",
+            "캐릭터 성장 및 팀 구성",
+            "자동 전투 시스템"
+          ],
+          "defer": [
+            "복잡한 기지 건설 시스템",
+            "방대한 스토리 연출",
+            "실시간 멀티플레이어 기능"
+          ],
+          "risks": [
+            "성장 밸런스 붕괴",
+            "콘텐츠 부족으로 인한 빠른 이탈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "방치형 전략 팀",
+            "concept": "캐릭터들의 시너지를 조합하여 자동으로 전투를 수행하는 방치형 게임입니다.",
+            "first_step": "캐릭터 능력치와 시너지 효과를 계산하는 기본 로직 구현."
+          },
+          {
+            "title": "기지 경영 시뮬레이터",
+            "concept": "자원을 생산하고 기지를 업그레이드하여 더 강력한 유닛을 생산하는 경영 게임입니다.",
+            "first_step": "자원 생산 속도와 업그레이드 비용 계산 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 밸런스 설계와 데이터 관리 방법을 배우기에 좋습니다. 전략적 요소가 가미된 방치형 게임을 기획하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "전투의 구체적인 연출 방식, 캐릭터 시너지의 상세 데이터, 기지 건설의 세부 규칙에 대한 정보가 부족합니다.",
+        "name": "Transformers: Eternal War",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.wanda.transformers.gg.am&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 235,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
+    },
+    "google:com.bohan.bohanadventure": {
+      "app_key": "google:com.bohan.bohanadventure",
+      "name": "ボーハンの冒険",
+      "developer": "bo-han",
+      "source": "google",
+      "country": "JP",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.bohan.bohanadventure&hl=ja&gl=JP",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:07:33+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "◆ 装備を集めて、厳選する 倒した敵は装備をドロップします。 同じ名前の武器でも、レア度やオプションの組み合わせは一つひとつ異なります。 ・攻撃力、攻撃間隔、会心ダメージ ・HP吸収、連撃、貫通、跳弾 ・そのほか、多数のオプション 素材を集めて装備を強化し、さらに培養強化で限界を超えていく。 自分に合った理想の装備を求めて、厳選を楽しめます。 ◆ ペットを育てる 冒険にはペットが同行します。 ペットを集めて育てることで、戦力をさらに高めることができます。 ◆ アーティファクトを集める 探索中に手に入るアーティファクトは、所持しているだけで効果を発揮します。 ドロップ率を高めるもの、攻撃を強化するもの、生存力を高めるものなど、さまざまな効果があります。 エリアごとに異なるアーティファクトが存在するので、探索しながら集めていきましょう。 ◆ 転生 冒険を重ねた先では、転生というさらなるやり込み要素が解放されます。 それまでに集めたものを手放す代わりに、転生後も残る力を得ることができます。 転生を重ねながら、自分だけの育成を追求していきましょう。 ◆ 遊び方 片手で簡単に操作できます。 画面をなぞって移動するだけで、攻撃は自動で行われます。 細かな操作は必要ありません。 放置しながら、自分のペースで楽しめます。 ◆ こんな方におすすめ ・放置しながら少しずつ強くなるゲームが好き ・装備を集めて厳選するのが好き ・短時間でも長時間でも遊べるゲームを探している ・やり込み要素のあるRPGを探している ◆ ご利用にあたって ・本アプリは広告を表示します ・任意でアプリ内課金をご利用いただけます ・広告の表示、課金、クラウドバックアップにはインターネット接続が必要です ・Android 8.0以上に対応しています ◆ セーブデータについて セーブデータは端末内に保存されます。 クラウドバックアップ機能は初期状態で有効になっています。 Google Play ゲームのアカウントでサインインすると、進行状況が自動的にクラウドへ保存され、端末の故障や再インストールの際に復元できます。 クラウドバックアップは設定画面からいつでもオフにでき、保存済みのバックアップを削除することもできます。 機種変更の際は、設定画面から引き継ぎIDとパスワードを発行してお使いください。 ◆ お問い合わせ ご意見・不具合のご報告はこちらまで。 boh11269@gmail.com",
+      "analysis": {
+        "app_key": "google:com.bohan.bohanadventure",
+        "summary_ko": "적을 처치하고 획득한 장비를 엄선하여 캐릭터를 강화하는 방치형 RPG입니다. 펫 육성, 아티팩트 수집, 환생 시스템을 통해 지속적으로 성장할 수 있습니다. 한 손으로 조작 가능한 자동 전투 방식을 채택하여 누구나 쉽게 즐길 수 있습니다.",
+        "features_ko": [
+          "적 처치 시 무작위 옵션과 희귀도가 부여된 장비가 드롭됩니다.",
+          "수집한 소재를 사용하여 장비를 강화하거나 한계 돌파를 시도할 수 있습니다.",
+          "전투를 보조하는 펫을 수집하고 육성하여 전력을 높일 수 있습니다.",
+          "탐험 중 획득한 아티팩트는 소지하는 것만으로 다양한 능력치 보너스를 제공합니다.",
+          "환생을 통해 현재의 자산을 초기화하는 대신 영구적인 강화 효과를 얻을 수 있습니다.",
+          "화면을 이동하는 것 외의 전투는 자동으로 진행되는 간편한 조작 방식을 지원합니다."
+        ],
+        "noteworthy_ko": "장비마다 옵션이 무작위로 생성되는 파밍 시스템은 플레이어에게 끊임없는 목표를 제공합니다. 환생 시스템과 결합하여 점진적인 성장을 유도하는 구조가 방치형 게임의 핵심 재미를 잘 구현하고 있습니다.",
+        "development_ko": "장비의 무작위 옵션 생성 로직과 데이터 저장 구조 설계가 핵심입니다. 펫과 아티팩트의 효과를 관리하는 데이터베이스 구축이 필요하며, 밸런스 조정 시 환생 효율을 고려해야 합니다. 광고 및 인앱 결제 연동을 위한 네트워크 처리가 추가로 요구됩니다.",
+        "idea_ko": "장비 옵션 조합을 활용한 '장비 도감 및 세트 효과 시스템'을 도입하여 수집의 재미를 극대화하는 것이 좋습니다.",
+        "highlights_ko": [
+          "장비의 무작위 옵션과 희귀도 시스템을 통한 파밍의 깊이.",
+          "환생을 통한 반복 플레이의 동기 부여와 성장 체감."
+        ],
+        "systems_ko": [
+          "무작위 장비 생성 엔진",
+          "환생 및 데이터 초기화 로직",
+          "자동 전투 및 적 스폰 관리",
+          "인벤토리 및 장비 강화 시스템",
+          "클라우드 세이브 연동"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "방치형 게임의 기본 구조는 구현하기 어렵지 않으나, 무작위 장비 옵션과 밸런스 조정은 세심한 설계가 필요합니다. 데이터 저장 및 복구 시스템의 안정성 확보가 개발의 관건입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "자동 전투 루프",
+            "장비 드롭 및 인벤토리",
+            "기본 능력치 강화 시스템"
+          ],
+          "defer": [
+            "펫 시스템",
+            "클라우드 백업",
+            "인앱 결제"
+          ],
+          "risks": [
+            "장비 옵션 밸런스 붕괴",
+            "데이터 저장 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "장비 합성 시스템",
+            "concept": "동일한 장비를 합성하여 상위 등급으로 올리는 규칙입니다. 낮은 등급의 장비도 버리지 않고 활용하게 합니다.",
+            "first_step": "두 개의 아이템을 선택해 하나로 합치는 UI와 로직 구현."
+          },
+          {
+            "title": "속성 상성 전투",
+            "concept": "적과 장비에 속성을 부여하여 상성에 따라 데미지가 변하는 규칙입니다. 전략적인 장비 선택을 유도합니다.",
+            "first_step": "속성 데이터 구조 정의 및 데미지 계산식 수정."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 데이터 구조와 성장 곡선을 설계하는 법을 배우기에 적합합니다. 파밍의 재미를 극대화하는 시스템을 고민하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 전투 공식이나 장비 옵션의 종류, 환생 시 획득하는 재화의 계산 방식이 명시되어 있지 않습니다.",
+        "name": "ボーハンの冒険",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.bohan.bohanadventure&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 195,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 15,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
+    },
+    "apple:6799794493": {
+      "app_key": "apple:6799794493",
+      "name": "INZEUM 인지엄",
+      "developer": "내면소통연구소",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/kr/app/inzeum-%EC%9D%B8%EC%A7%80%EC%97%84/id6799794493?uo=2",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:09:28+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "INZEUM(인지엄)은 김주환 교수의 내면소통명상을 일상에서 실천하는 명상 앱입니다. 명상 가이드를 따라 수련하고, 궁금한 점은 내면AI에 질문하세요. 나에게 필요한 명상을 직접 만들고, 일상과 수련에서 경험한 것을 기록할 수 있습니다. ■ 김주환 교수의 명상 가이드 호흡과 몸의 감각을 살피는 명상부터 잠들기 전 듣는 수면 명상까지. 상황에 맞는 가이드를 선택해 명상을 시작하세요. ■ 책과 강의에 기반한 내면AI 김주환 교수의 책과 강의를 바탕으로 명상의 원리와 수행법을 알아보세요. 명상하며 궁금했던 점을 질문하고, 원하는 주제의 명상 대본을 요청할 수 있습니다. ■ 내 목소리로 만드는 명상 명상 대본을 확인하고 수정한 뒤 직접 읽어 녹음하세요. 내가 만든 명상을 내 목소리로 들으며 수련할 수 있습니다. ■ 나만의 보관함과 플레이리스트 좋아하는 명상과 직접 만든 명상을 모아두고, 원하는 순서로 플레이리스트를 구성하세요. 저장한 오디오는 인터넷 연결 없이도 들을 수 있습니다. ■ 감사일기와 감정기록 감사한 일, 오늘의 감정, 명상 중 경험한 것을 기록하세요. 달력에서 날짜별 기록을 찾아보고 명상한 시간을 확인할 수 있습니다. ■ 일상에 맞춘 듣기 화면이 잠긴 상태에서도 명상을 이어 듣고, 취침 타이머로 재생을 마칠 시간을 설정하세요. 한국어와 영어 인터페이스를 지원합니다. 김주환 교수의 명상 안내 음성은 한국어로 제공됩니다. 내면AI의 답변은 AI가 생성하며, 전문가 상담을 대신하지 않습니다. 앱 안내 및 문의: https://inzeum.com/app 이용약관: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ 개인정보처리방침: https://inzeum.com/privacy",
+      "analysis": {
+        "app_key": "apple:6799794493",
+        "summary_ko": "INZEUM(인지엄)은 김주환 교수의 내면소통명상 이론을 기반으로 한 명상 가이드 앱입니다. 사용자는 상황별 명상 가이드를 따라 수련하고, 내면AI를 통해 명상 원리에 대한 질의응답을 할 수 있습니다. 또한 자신의 목소리로 명상 대본을 녹음하거나 감사일기를 기록하며 일상적인 마음 챙김을 실천할 수 있습니다.",
+        "features_ko": [
+          "상황별로 선택 가능한 다양한 명상 가이드 음성을 제공합니다.",
+          "내면AI를 통해 명상 원리 학습 및 맞춤형 명상 대본을 생성할 수 있습니다.",
+          "사용자가 직접 명상 대본을 읽고 녹음하여 자신만의 명상 콘텐츠를 만들 수 있습니다.",
+          "좋아하는 명상 콘텐츠를 모아 플레이리스트를 구성하고 오프라인 재생을 지원합니다.",
+          "감사일기 및 감정 기록 기능을 통해 명상 경험과 일상을 기록할 수 있습니다."
+        ],
+        "noteworthy_ko": "사용자의 목소리를 직접 활용하는 개인화된 명상 콘텐츠 제작 기능이 돋보입니다. 이는 단순한 음원 재생을 넘어 사용자가 수련 과정에 능동적으로 참여하게 만드는 흥미로운 설계로 추정됩니다.",
+        "development_ko": "핵심 기술로는 오디오 녹음 및 재생 관리, AI 텍스트 생성 API 연동, 로컬 데이터베이스를 활용한 기록 관리 시스템이 필요합니다. 콘텐츠 제작 측면에서는 명상 가이드 음성 데이터 확보가 중요하며, 사용자 경험을 위해 직관적인 플레이리스트 UI 구현이 핵심입니다.",
+        "idea_ko": "사용자의 감정 기록 데이터를 분석하여 그날의 기분에 맞는 명상 대본을 AI가 자동으로 추천하고 생성해 주는 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "사용자 참여형 콘텐츠 제작: 직접 녹음한 음성으로 명상 수련 가능.",
+          "AI 기반 질의응답: 명상 이론에 특화된 AI 챗봇 연동."
+        ],
+        "systems_ko": [
+          "오디오 녹음 및 재생 엔진",
+          "AI 챗봇 연동 API",
+          "사용자 데이터(일기/기록) 저장소",
+          "플레이리스트 관리 시스템",
+          "로컬 오디오 캐싱 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "오디오 녹음과 재생, 그리고 간단한 텍스트 기반 AI 연동은 구현 가능하나, 안정적인 오디오 파일 관리와 사용자 경험을 고려한 UI 설계에 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "명상 가이드 음성 재생 기능",
+            "사용자 녹음 및 저장 기능",
+            "기본적인 일기 기록 기능"
+          ],
+          "defer": [
+            "AI 챗봇 연동",
+            "오프라인 재생을 위한 복잡한 캐싱 시스템"
+          ],
+          "risks": [
+            "오디오 파일 저장 용량 관리 문제",
+            "사용자 녹음 품질의 편차"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "감정 기반 명상 큐레이션",
+            "concept": "사용자가 입력한 감정 키워드를 분석하여 그에 맞는 명상 대본을 AI가 즉석에서 작성해 주는 서비스입니다.",
+            "first_step": "감정 키워드 입력 시 미리 정의된 텍스트 템플릿을 조합하여 대본을 보여주는 프로토타입 구현."
+          },
+          {
+            "title": "명상 습관 챌린지",
+            "concept": "매일 정해진 시간에 명상을 수행하고 기록하면 시각적인 성장 그래프를 제공하여 동기를 부여합니다.",
+            "first_step": "날짜별 명상 기록을 저장하고 달력 형태로 시각화하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "오디오 콘텐츠를 다루는 앱의 기본 구조와 사용자 기록 데이터를 관리하는 방법을 배우기에 적합합니다. 다만, AI 연동이나 고도화된 음성 처리 기능은 초기 단계에서 범위를 좁히는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 AI 모델의 구체적인 종류나 오디오 파일의 저장 방식, 보안 정책에 대한 상세 정보가 없습니다. 외부 결제 시스템이나 전문가 상담 연동 여부는 확인되지 않았으므로 구현 시 제외해야 합니다.",
+        "name": "INZEUM 인지엄",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/inzeum-%EC%9D%B8%EC%A7%80%EC%97%84/id6799794493?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
+    },
+    "apple:395672275": {
+      "app_key": "apple:395672275",
+      "name": "번개장터",
+      "developer": "Pic&Go",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/%EB%B2%88%EA%B0%9C%EC%9E%A5%ED%84%B0/id395672275",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:10:45+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "전국에 있는 내 취향의 브랜드 상품을 스트레스 없이 거래하고 싶다면? 브랜드 중고거래 앱 번개장터에서 만나요! ■ 국내 대표 패션 중고거래 [전국구 중고거래] 동네엔 없는 내 취향의 패션 브랜드 중고 상품을 전국에서 찾아보세요. [브랜드 팔로잉] 명품부터 신진 디자이너 브랜드까지 1,000여개가 넘는 브랜드관에서 좋아하는 브랜드 상품만 모아보세요. ■ 스트레스 없는 중고거래 [번개케어]로 명품, 스니커즈, IT기기를 거래하고 스트레스 없는 중고거래를 경험해 보세요. 전문 검수팀의 정품/기능 검수부터 클리닝/폴리싱 할인, 그리고 안전결제 수수료와 배송비 무료 혜택까지! 다양한 구매 혜택은 기본. 더 많은 상품 노출과 더 빠른 입금, 불필요한 문의 감소와 모든 배송비 무료 등 다양한 판매 혜택까지! ■ 사기 걱정 없는 중고거래 [번개페이]로 거래가 완료될 때까지 안전하게 결제 금액을 지켜드려요. [안전거래 시스템]으로 사기 계좌 조회는 물론 판매자 본인 인증까지. 더욱 안심하고 거래할 수 있어요. ■ 막힘없이 편리한 중고거래 [번개톡]으로 개인 정보 노출 없이 안전하게 거래할 수 있어요. [편의점 택배부터 방문 택배까지] 번개장터 앱에서 손쉽게 신청하고 관리해 보세요. ■ 번개장터를 이용을 위해 다음 선택 권한들이 필요해요. 카메라/앨범 : 상품 및 후기 등록, 번개톡에서 사진 전송 마이크 : 번개톡에서 동영상 촬영 시, 음성 녹음 연락처 : 캐시 센터에서 광고 포인트 획득 위치 정보 : 지역별 상품 검색, 지역인증 저장소: 사진 편집 및 저장 ■ 번개장터가 더 궁금하다면? bgzt.co.kr에서 확인해 주세요! ■ 번개장터에 문의하기 앱 내 고객센터 - 1:1 문의 이용 대표 번호: 1670-2910 운영시간: 9시-18시 (점심시간 12시-13시) E-mail: help@bunjang.co.kr",
+      "analysis": {
+        "app_key": "apple:395672275",
+        "summary_ko": "번개장터는 패션, 명품, IT 기기 등 다양한 브랜드 상품을 개인 간 거래할 수 있는 중고거래 플랫폼입니다. 전국 단위의 상품 검색과 브랜드 팔로잉 기능을 제공하며, 안전한 거래를 위한 자체 결제 및 검수 시스템을 갖추고 있습니다. 사용자는 번개톡을 통해 개인정보 노출 없이 판매자와 소통하며 편리하게 거래를 진행할 수 있습니다.",
+        "features_ko": [
+          "전국 단위의 중고 상품 검색 및 브랜드별 상품 모아보기 기능을 제공합니다.",
+          "번개케어를 통해 명품 및 IT 기기의 전문 검수와 클리닝 서비스를 지원합니다.",
+          "번개페이를 통해 거래 완료 시까지 결제 금액을 안전하게 보호합니다.",
+          "번개톡을 통해 개인정보 노출 없이 판매자와 실시간으로 대화할 수 있습니다.",
+          "편의점 및 방문 택배 신청 기능을 앱 내에서 직접 관리할 수 있습니다."
+        ],
+        "noteworthy_ko": "중고거래의 신뢰성 문제를 해결하기 위해 전문 검수와 안전 결제를 결합한 모델이 흥미롭습니다. 단순한 플랫폼을 넘어 물류와 검수라는 오프라인 가치를 디지털 서비스에 통합한 점이 주목할 만합니다.",
+        "development_ko": "사용자 간 실시간 채팅 시스템과 대규모 상품 데이터베이스 관리가 핵심입니다. 안전 결제 및 배송 연동을 위한 외부 API 통합이 필요하며, 지역 기반 검색을 위한 위치 서비스 구현이 중요합니다. 대규모 트래픽을 견디기 위한 서버 인프라와 사기 방지를 위한 본인 인증 시스템 구축에 큰 노력이 필요할 것으로 추정됩니다.",
+        "idea_ko": "특정 카테고리(예: 빈티지 카메라)에 특화된 검수 및 커뮤니티 기반 거래 플랫폼.",
+        "highlights_ko": [
+          "전문 검수팀이 개입하는 '번개케어' 시스템을 통해 거래 신뢰도를 높였습니다.",
+          "브랜드관을 별도로 운영하여 사용자의 취향에 맞는 상품 탐색을 최적화했습니다."
+        ],
+        "systems_ko": [
+          "실시간 채팅 시스템",
+          "상품 검색 및 필터링 엔진",
+          "결제 게이트웨이 연동",
+          "사용자 본인 인증 시스템",
+          "위치 기반 서비스(LBS)",
+          "택배 예약 및 추적 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다수의 사용자가 동시에 접속하는 마켓플레이스 특성상 데이터 일관성과 보안이 매우 중요합니다. 결제 및 배송 시스템 연동은 개인 개발자가 구현하기에 복잡도가 높고 운영 리스크가 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 등록 및 조회 기능",
+            "사용자 간 1:1 채팅",
+            "사용자 프로필 및 인증"
+          ],
+          "defer": [
+            "전문 검수 서비스",
+            "자체 안전 결제 시스템",
+            "방문 택배 연동"
+          ],
+          "risks": [
+            "사용자 간 분쟁 발생 시 중재 책임",
+            "개인정보 보호 및 보안 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "니치 취미 거래소",
+            "concept": "특정 취미(예: 레고, LP)에 집중하여 매니아층을 타겟팅합니다. 커뮤니티 기능을 강화하여 거래뿐만 아니라 정보 공유가 가능하게 합니다.",
+            "first_step": "특정 카테고리 상품만 등록 가능한 게시판 형태의 웹 앱 구현."
+          },
+          {
+            "title": "지역 기반 물물교환 앱",
+            "concept": "금전 거래 대신 물건과 물건을 교환하는 방식에 집중합니다. 지역 내 신뢰를 바탕으로 한 소규모 교환 네트워크를 형성합니다.",
+            "first_step": "사용자 위치 기반으로 주변의 교환 가능한 물품을 보여주는 리스트 구현."
+          }
+        ],
+        "recommendation_ko": "마켓플레이스 앱의 기본 구조와 데이터베이스 설계 방식을 배우기에 좋습니다. 다만, 결제와 검수 같은 고도화된 기능은 초기 단계에서 제외하고 핵심 거래 흐름에 집중하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 결제 수수료율, 검수 프로세스의 구체적인 기술적 구현 방식, 서버 아키텍처에 대한 정보가 없습니다. 외부 결제 연동 및 보안 인증의 상세 내용은 확인되지 않습니다.",
+        "name": "번개장터",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EB%B2%88%EA%B0%9C%EC%9E%A5%ED%84%B0/id395672275",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 72,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
     }
   }
 }

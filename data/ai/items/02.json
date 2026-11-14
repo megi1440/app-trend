@@ -10621,6 +10621,181 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-14"
+    },
+    "itch:6aa9feb4bf8dcf3cccd1": {
+      "app_key": "itch:6aa9feb4bf8dcf3cccd1",
+      "name": "Blockera [PUBLIC TESTING] [$1.00] [Adventure]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://tac4o.itch.io/blockera-public-testing",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:05:35+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "terraria but really bad not even like terraria",
+      "analysis": {
+        "app_key": "itch:6aa9feb4bf8dcf3cccd1",
+        "summary_ko": "Blockera는 테라리아와 유사한 장르를 지향하지만, 개발자 스스로가 매우 부족한 품질임을 명시한 어드벤처 게임입니다. 현재 공개 테스트 단계에 있습니다.",
+        "features_ko": [
+          "블록 기반의 월드 탐험을 제공합니다.",
+          "테라리아와 유사한 샌드박스형 게임플레이를 시도합니다."
+        ],
+        "noteworthy_ko": "개발자가 스스로 품질을 낮게 평가하는 점이 흥미롭습니다. 이는 미완성 프로젝트를 공개하고 피드백을 받는 과정의 중요성을 보여줍니다.",
+        "development_ko": "블록 기반 월드 생성과 타일 맵 데이터 관리 기술이 필요합니다. 물리 엔진과 충돌 판정 구현이 복잡할 수 있으며, 최적화가 큰 과제가 될 것입니다.",
+        "idea_ko": "블록을 쌓아 자신만의 작은 요새를 만드는 미니 샌드박스 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "블록 기반의 자유로운 월드 구성.",
+          "공개 테스트를 통한 개발 과정 공유."
+        ],
+        "systems_ko": [
+          "타일 맵 데이터 관리",
+          "블록 배치 및 파괴 시스템",
+          "플레이어 이동 및 물리 판정",
+          "기본 UI 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "샌드박스 장르는 데이터 관리와 물리 엔진 구현이 매우 복잡하여 1인이 완성하기에는 난도가 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "블록 배치 및 파괴 로직",
+            "기본 캐릭터 이동"
+          ],
+          "defer": [
+            "복잡한 크래프팅 시스템",
+            "적 AI 및 전투"
+          ],
+          "risks": [
+            "데이터 저장 및 불러오기 오류",
+            "성능 최적화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "블록 퍼즐 타워",
+            "concept": "주어진 블록을 사용하여 제한 시간 내에 특정 높이의 타워를 쌓는 퍼즐 게임입니다.",
+            "first_step": "블록 배치 시스템과 높이 측정 로직 구현."
+          },
+          {
+            "title": "미니 샌드박스 생존",
+            "concept": "매우 작은 맵에서 최소한의 자원으로 생존하는 샌드박스 게임입니다.",
+            "first_step": "자원 채집과 블록 배치 시스템의 최소화 구현."
+          }
+        ],
+        "recommendation_ko": "샌드박스 게임의 기초적인 데이터 구조를 배우기에 좋습니다. 다만, 장르 특성상 개발 범위가 넓어지기 쉬우니 주의가 필요합니다.",
+        "source_limitations_ko": "현재 구현된 기능의 범위, 테라리아와의 구체적인 차이점, 테스트 목적 등이 명확하지 않습니다.",
+        "name": "Blockera [PUBLIC TESTING] [$1.00] [Adventure]",
+        "source": "itch",
+        "detail_url": "https://tac4o.itch.io/blockera-public-testing",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 359,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 7,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
+    },
+    "itch:61978141c1718a1d1da2": {
+      "app_key": "itch:61978141c1718a1d1da2",
+      "name": "Lucy – erlebte Evolution [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://browsergame-lucy.itch.io/lucy-erlebte-evolution",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:06:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Gemeinnütziges Browserspiel: von der Altsteinzeit bis in die Zukunft – kostenlos, ohne Pay-to-Win.",
+      "analysis": {
+        "app_key": "itch:61978141c1718a1d1da2",
+        "summary_ko": "석기 시대부터 미래까지 인류의 진화를 다루는 비영리 브라우저 시뮬레이션 게임입니다. 무료로 제공되며 과금 유도 요소가 없는 것이 특징입니다. 교육적 가치를 담은 시뮬레이션 경험을 제공합니다.",
+        "features_ko": [
+          "석기 시대부터 미래까지 이어지는 시대별 진화 과정 구현.",
+          "웹 브라우저에서 바로 실행 가능한 접근성 제공.",
+          "과금 요소가 배제된 공익적 게임 플레이."
+        ],
+        "noteworthy_ko": "비영리 목적으로 제작된 교육용 시뮬레이션이라는 점이 개발 관점에서 흥미롭습니다. 수익 모델 없이 공익적 가치를 전달하기 위해 어떤 사용자 경험을 설계했는지 분석할 가치가 있습니다.",
+        "development_ko": "시대별로 변화하는 환경과 자원 관리 시스템을 구현하는 것이 핵심입니다. 방대한 시대적 배경을 다루므로 데이터 관리와 시대별 밸런스 조정이 중요하며, 브라우저 최적화가 필수적입니다.",
+        "idea_ko": "특정 시대의 생존을 다루는 미니 시뮬레이션이 적합합니다.",
+        "highlights_ko": [
+          "방대한 시간대를 아우르는 서사적 구조.",
+          "비영리 및 무과금 정책을 통한 순수한 교육적 접근."
+        ],
+        "systems_ko": [
+          "시대별 자원 관리 시스템",
+          "이벤트 발생 및 분기 시스템",
+          "데이터 저장 및 불러오기",
+          "웹 기반 UI/UX"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "방대한 시대적 배경을 게임 시스템으로 녹여내는 것은 많은 콘텐츠 제작 부담을 동반합니다. 1인 개발 시 모든 시대의 데이터를 구축하고 밸런스를 맞추는 과정이 매우 도전적입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 자원 수집 및 소비 로직",
+            "시대 전환 시스템",
+            "핵심 UI"
+          ],
+          "defer": [
+            "모든 시대의 상세 구현",
+            "복잡한 그래픽 애니메이션",
+            "멀티플레이어 기능"
+          ],
+          "risks": [
+            "콘텐츠 양의 방대함으로 인한 개발 지연",
+            "시대별 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "시대별 생존 일지",
+            "concept": "특정 시대 하나를 집중적으로 다루어 생존을 목표로 하는 시뮬레이션입니다. 시대별로 다른 생존 규칙을 적용합니다.",
+            "first_step": "석기 시대의 자원 채집과 도구 제작 시스템 구현."
+          },
+          {
+            "title": "진화의 선택",
+            "concept": "인류의 진화 과정에서 중요한 선택을 내려 문명의 발전을 결정하는 텍스트 기반 시뮬레이션입니다.",
+            "first_step": "선택지에 따른 결과값 변화와 문명 수치 변화 로직 구현."
+          }
+        ],
+        "recommendation_ko": "방대한 데이터를 관리하고 시스템화하는 방법을 배우기에 좋습니다. 비영리 프로젝트를 통해 게임의 교육적 가치를 탐구하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 플레이 방식이나 시대별 상세 콘텐츠, 기술적 구현 방식에 대한 정보가 부족합니다.",
+        "name": "Lucy – erlebte Evolution [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://browsergame-lucy.itch.io/lucy-erlebte-evolution",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 275,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 35,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
     }
   }
 }

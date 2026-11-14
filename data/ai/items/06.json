@@ -13050,6 +13050,187 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-14"
+    },
+    "google:com.quanticbit.deepkeeptactics": {
+      "app_key": "google:com.quanticbit.deepkeeptactics",
+      "name": "Deepkeep Tactics",
+      "developer": "Quantic Bit",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.quanticbit.deepkeeptactics&hl=en&gl=US",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:08:46+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Every step is a turn. Every floor brings a new decision. Deepkeep Tactics is a portrait dungeon crawler where you move across a grid, fight monsters and search for the stairs down. PLAN EACH MOVE Tap a nearby tile to move or an enemy in range to attack. After your action, monsters take their turns. Check the damage preview and watch for enemy attacks. FIND GEAR Search each floor for weapons, armour, food and potions. Collect gold and improve your hero between runs. DESCEND DEEPER Reach a boss every five floors. Use the warning tiles to prepare for its heavy attack, then continue down if you survive. Your deepest floor contributes to your score. Pause, save your run and continue later. No ads or in-app purchases. English, Brazilian Portuguese and Spanish.",
+      "analysis": {
+        "app_key": "google:com.quanticbit.deepkeeptactics",
+        "summary_ko": "그리드 기반의 맵을 이동하며 몬스터와 전투하고 던전을 탐험하는 턴제 던전 크롤러 게임입니다. 매 턴마다 이동과 공격을 결정하며, 던전에서 획득한 장비로 영웅을 강화하여 더 깊은 층으로 내려가는 것이 목표입니다. 5층마다 보스가 등장하며, 전략적인 위치 선정과 자원 관리가 중요합니다.",
+        "features_ko": [
+          "그리드 기반의 맵에서 턴제로 이동하고 공격하는 전략적 전투 시스템을 제공합니다.",
+          "던전 내에서 무기, 방어구, 음식, 물약 등 다양한 아이템을 수집합니다.",
+          "5층마다 보스전이 발생하며, 경고 타일을 통해 적의 공격을 예측하고 대응합니다.",
+          "획득한 골드로 다음 탐험을 위해 영웅의 능력을 강화할 수 있습니다.",
+          "진행 상황을 저장하고 나중에 이어서 플레이할 수 있는 세이브 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "턴제 전략 게임의 핵심인 '예측 가능한 전투'와 '자원 관리'가 잘 구현되어 있습니다. 1인 개발 시 그리드 시스템과 턴 로직을 어떻게 효율적으로 설계하는지가 관건입니다.",
+        "development_ko": "핵심 기술은 턴제 게임 엔진과 그리드 기반의 경로 탐색 알고리즘입니다. 콘텐츠 제작 부담은 몬스터 패턴과 아이템 데이터 설계에 있으며, 밸런스 부담은 전투 난이도 조절에 집중됩니다. UI는 턴제 게임 특유의 정보 전달력을 높이는 데 주력해야 합니다.",
+        "idea_ko": "매 층마다 무작위로 생성되는 '던전 이벤트' 카드를 도입하여 매번 다른 전략을 요구하는 로그라이크 요소를 강화하면 좋습니다.",
+        "highlights_ko": [
+          "적의 공격을 미리 보여주는 경고 타일을 통한 전략적 전투.",
+          "던전 탐험과 영웅 성장이 결합된 로그라이크 구조."
+        ],
+        "systems_ko": [
+          "그리드 기반 맵 생성 및 이동 시스템",
+          "턴제 전투 로직(플레이어/몬스터)",
+          "아이템 및 인벤토리 관리 시스템",
+          "영웅 스탯 및 성장 데이터 관리",
+          "게임 상태 저장 및 불러오기 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "턴제 게임은 실시간 게임보다 물리 엔진 의존도가 낮아 구현이 상대적으로 명확합니다. 다만, 몬스터 AI와 밸런스 조정은 반복적인 테스트가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "그리드 이동 및 공격 로직",
+            "기본 몬스터 AI",
+            "아이템 획득 시스템"
+          ],
+          "defer": [
+            "보스전 특수 패턴",
+            "다양한 장비 종류",
+            "세이브/로드 기능"
+          ],
+          "risks": [
+            "전투 밸런스 붕괴",
+            "맵 생성 알고리즘의 단조로움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "던전 이벤트 카드",
+            "concept": "탐험 중 무작위로 발생하는 이벤트 카드를 통해 긍정적/부정적 효과를 선택하게 합니다. 전략적 선택의 폭을 넓힙니다.",
+            "first_step": "이벤트 발생 시 선택지를 보여주고 결과에 따라 스탯을 변경하는 로직을 구현합니다."
+          },
+          {
+            "title": "영웅 클래스 시스템",
+            "concept": "전사, 마법사, 도적 등 서로 다른 스킬을 가진 클래스를 선택하여 던전에 도전합니다. 클래스별로 공략법이 달라집니다.",
+            "first_step": "클래스별로 기본 스탯과 고유 스킬을 정의하는 데이터 구조를 만듭니다."
+          }
+        ],
+        "recommendation_ko": "턴제 게임의 기본 구조와 데이터 기반의 게임 디자인을 배우기에 최적입니다. 복잡한 그래픽보다 시스템 설계에 집중하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 멀티플레이어 기능, 온라인 랭킹 시스템, 인앱 결제 기능은 구현 범위에서 제외해야 합니다.",
+        "name": "Deepkeep Tactics",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.quanticbit.deepkeeptactics&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
+    },
+    "google:com.direwolfdigital.munchkin": {
+      "app_key": "google:com.direwolfdigital.munchkin",
+      "name": "Munchkin",
+      "developer": "Dire Wolf Digital",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.direwolfdigital.munchkin&hl=en&gl=US",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:09:52+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Kill the monsters! Steal the treasure! Stab your buddy! In partnership with Steve Jackson Games, the iconic tabletop card game Munchkin brings its murderous mischief to digital devices! Go down to the dungeon. Kick in the door. Kill everything you find. Backstab your friends. Steal the treasure and run. With millions of copies sold around the world, Munchkin is the mega-hit card game about dungeon adventure...with none of that stupid roleplaying stuff. You and your friends compete to kill monsters and grab magic items. Don the Horny Helmet and the Boots of Butt-Kicking. Wield the Staff of Napalm...or maybe the Chainsaw of Bloody Dismemberment. Start by slaughtering the Potted Plant and the Drooling Slime, and work your way up to the Plutonium Dragon! Shuffle Up an Adventure! You're a Munchkin...and Munchkins love treasure! But a stack of pesky monster and Curse cards are between you and your hard-earned loot! Munchkin is played in a series of rounds using Door cards and Treasure cards to explore a dungeon. Build a character by combining Race and Class cards, then gear up to face the lurking monsters! Kill monsters and collect Treasure to level up! The first Munchkin to reach Level 10 wins! But wait...there's more! Cross-platform, online multiplayer shenanigans! Learn the tricks of the adventuring trade in a dungeon-delving tutorial! Sharpen your blade in Solo Challenges with special rules! Go looking for trouble in Munchkin. Hey, we're all going to get roasted and eaten sometime.",
+      "analysis": {
+        "app_key": "google:com.direwolfdigital.munchkin",
+        "summary_ko": "테이블탑 카드 게임 '먼치킨'을 디지털로 옮긴 던전 탐험 게임입니다. 친구들과 경쟁하며 몬스터를 처치하고 보물을 훔쳐 10레벨에 먼저 도달하는 것이 목표입니다. 던전 탐험의 재미와 배신, 방해 공작이 어우러진 카드 전략 게임입니다.",
+        "features_ko": [
+          "몬스터 카드와 보물 카드를 사용하여 던전을 탐험합니다.",
+          "캐릭터의 종족과 직업 카드를 조합하여 능력을 강화합니다.",
+          "온라인 멀티플레이를 통해 다른 플레이어와 경쟁합니다.",
+          "싱글 플레이어 챌린지를 통해 특수 규칙으로 연습할 수 있습니다.",
+          "튜토리얼을 통해 게임의 규칙과 전략을 학습합니다."
+        ],
+        "noteworthy_ko": "보드게임의 복잡한 규칙을 디지털 환경에서 자동화하여 접근성을 높인 점이 돋보입니다. 특히 카드 간의 상호작용과 밸런스 유지가 디지털 구현의 핵심으로 보입니다.",
+        "development_ko": "카드 게임의 복잡한 규칙 엔진과 상태 관리 시스템 구축이 핵심입니다. 멀티플레이를 위한 네트워크 동기화와 데이터 검증이 필요하며, 다양한 카드 조합에 따른 밸런스 테스트가 매우 중요합니다. UI는 카드 정보를 명확히 전달하는 데 집중해야 합니다.",
+        "idea_ko": "카드 조합에 따라 실시간으로 몬스터의 외형이나 공격 방식이 변하는 '진화형 카드 배틀' 시스템을 제안합니다.",
+        "highlights_ko": [
+          "종족과 직업 조합을 통한 캐릭터 빌딩의 다양성.",
+          "친구를 방해하고 보물을 훔치는 경쟁 중심의 게임 플레이."
+        ],
+        "systems_ko": [
+          "카드 덱 관리 시스템",
+          "턴제 게임 로직",
+          "멀티플레이 네트워크 동기화",
+          "데이터베이스 기반 카드 정보 관리",
+          "UI/UX(카드 시각화)"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 카드 간의 상호작용을 처리하는 규칙 엔진 구현이 복잡하며, 멀티플레이 환경에서의 데이터 동기화가 기술적 난이도를 높입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 턴제 카드 배틀 로직",
+            "카드 덱 시스템",
+            "승리 조건 판정(10레벨 도달)"
+          ],
+          "defer": [
+            "온라인 멀티플레이",
+            "복잡한 애니메이션 효과"
+          ],
+          "risks": [
+            "카드 간의 밸런스 붕괴",
+            "규칙 엔진의 버그로 인한 게임 진행 불가"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "던전 제작자 모드",
+            "concept": "플레이어가 직접 몬스터와 보물을 배치하여 다른 플레이어를 방해하는 던전을 만드는 모드입니다. 공격과 방어의 비대칭 전략을 강조합니다.",
+            "first_step": "그리드 기반의 던전 배치 UI 구현."
+          },
+          {
+            "title": "카드 합성 시스템",
+            "concept": "두 장의 카드를 합성하여 새로운 효과를 가진 카드를 만드는 시스템입니다. 수집과 조합의 재미를 극대화합니다.",
+            "first_step": "카드 데이터 구조에 합성 로직 추가."
+          }
+        ],
+        "recommendation_ko": "복잡한 규칙을 가진 보드게임을 디지털화하는 과정에서 필요한 데이터 구조 설계와 규칙 엔진 구현을 배우기에 좋습니다. 비추천하는 이유는 멀티플레이 구현의 기술적 난이도가 높기 때문입니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 결제 시스템, 보안 기능, 서버 인프라에 대한 정보는 없습니다.",
+        "name": "Munchkin",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.direwolfdigital.munchkin&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
     }
   }
 }

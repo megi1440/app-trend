@@ -11689,6 +11689,94 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-14"
+    },
+    "itch:45a4db0fc568c4cbc22d": {
+      "app_key": "itch:45a4db0fc568c4cbc22d",
+      "name": "LumiBlock: Block & Adventure [Free] [Puzzle] [Android]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://yulastudios.itch.io/lumiblock",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:05:53+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "An 8×8 block puzzle adventure with 50 magical themes, daily puzzles, and four boosters.",
+      "analysis": {
+        "app_key": "itch:45a4db0fc568c4cbc22d",
+        "summary_ko": "LumiBlock은 8x8 격자에서 진행되는 블록 퍼즐 어드벤처 게임입니다. 50개의 테마와 일일 퍼즐, 4가지 부스터 아이템을 제공하여 다양한 퍼즐 경험을 선사합니다.",
+        "features_ko": [
+          "8x8 격자 기반의 블록 퍼즐 규칙을 따릅니다.",
+          "50개의 다양한 테마를 제공합니다.",
+          "매일 새로운 퍼즐을 즐길 수 있습니다.",
+          "4가지 부스터 아이템을 사용하여 전략적인 플레이가 가능합니다."
+        ],
+        "noteworthy_ko": "단순한 블록 퍼즐에 테마와 부스터라는 요소를 더해 확장성을 확보한 점이 흥미롭습니다. 퍼즐 게임의 핵심인 반복적인 재미를 어떻게 유지하는지가 개발 관점에서 중요합니다.",
+        "development_ko": "핵심 기술은 블록 배치 알고리즘과 격자 상태 관리입니다. 50개의 테마를 구현하기 위한 리소스 관리 시스템과 부스터 아이템의 밸런스 조정이 필요합니다. 일일 퍼즐을 위한 데이터 생성 로직이 중요합니다.",
+        "idea_ko": "부스터 아이템을 조합하여 새로운 효과를 만드는 시스템을 추가하는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "8x8 격자라는 명확한 규칙을 가진 퍼즐 게임입니다.",
+          "다양한 테마와 부스터로 콘텐츠의 깊이를 더했습니다."
+        ],
+        "systems_ko": [
+          "격자 상태 관리 시스템",
+          "블록 배치 및 제거 알고리즘",
+          "부스터 아이템 효과 시스템",
+          "일일 퍼즐 데이터 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "블록 퍼즐은 구현 난이도가 높지 않으나, 50개의 테마와 부스터 시스템을 체계적으로 관리하는 것은 꼼꼼한 기획력을 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "8x8 격자 구현",
+            "블록 배치 및 제거 로직"
+          ],
+          "defer": [
+            "50개 전체 테마",
+            "일일 퍼즐 서버 연동"
+          ],
+          "risks": [
+            "퍼즐의 난이도 밸런스 실패",
+            "콘텐츠 부족으로 인한 짧은 플레이 타임"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "테마별 특수 블록",
+            "concept": "테마마다 고유한 효과를 가진 특수 블록을 추가하여 전략성을 높입니다.",
+            "first_step": "특수 블록이 격자에서 제거될 때 주변 블록에 영향을 주는 로직 구현."
+          },
+          {
+            "title": "무한 모드",
+            "concept": "블록을 계속 배치하며 점수를 쌓는 무한 모드입니다.",
+            "first_step": "블록이 가득 찼을 때 게임 오버 판정 로직 구현."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 기본 메커니즘을 익히고, 콘텐츠를 확장하는 방법을 배우기에 아주 좋습니다. 개인 개발자가 완성하기에 적합한 규모입니다.",
+        "source_limitations_ko": "블록 배치 방식(테트리스형, 1010형 등)이 명시되지 않았으며, 부스터 아이템의 구체적인 효과와 획득 방식이 확인되지 않았습니다.",
+        "name": "LumiBlock: Block & Adventure [Free] [Puzzle] [Android]",
+        "source": "itch",
+        "detail_url": "https://yulastudios.itch.io/lumiblock",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 320,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 20,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
     }
   }
 }

@@ -12353,6 +12353,276 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-14"
+    },
+    "google:com.CaoxGames.CatSpoon": {
+      "app_key": "google:com.CaoxGames.CatSpoon",
+      "name": "Life: 인생 관리 시뮬레이션",
+      "developer": "CAOX_GAMES",
+      "source": "google",
+      "country": "KR",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.CaoxGames.CatSpoon&hl=ko&gl=KR",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:07:33+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "선택 하나가 직업을 바꾸고, 하루의 일과가 한 사람의 생애를 만듭니다. Life는 캐릭터의 일과, 능력, 직업, 자산, 관계와 건강을 직접 선택하며 자신만의 삶을 완성하는 인생 육성 시뮬레이션 게임입니다. 같은 출발점에서도 누구는 성공한 전문가가 되고, 누구는 행복을 우선하며, 누구는 투자와 부동산으로 부를 쌓습니다. 정해진 정답 없이 당신만의 인생을 설계하세요. 인생을 직접 선택하는 육성 공부, 운동, 일, 휴식 등 캐릭터의 일과를 정하고 원하는 능력치를 키울 수 있습니다. 삶의 전환점마다 내린 선택은 성장 방향과 최종 인생 점수에 영향을 줍니다. 다양한 직업과 현실적인 커리어 교육, 의료, 법률, 금융, 정치, 기술, 예술, 스포츠 등 다양한 직업에 도전하세요. 자격과 능력을 준비해 취업하고, 직업 경험을 쌓아 더 높은 직급으로 진급할 수 있습니다. 돈만으로 완성되지 않는 삶 급여와 세금을 관리하고 투자와 부동산으로 자산을 키워 보세요. 건강, 스트레스, 행복과 인간관계도 함께 관리해야 더 좋은 생애를 만들 수 있습니다. 캐릭터 성장과 수집의 재미 DNA와 잠재력을 바탕으로 캐릭터를 성장시키고, 방을 꾸미고, 다양한 직업과 아이템 컬렉션을 완성하세요. 쌓아 둔 성장 요소는 더 많은 선택과 도전으로 이어집니다. 전투, 성장 던전, 랭킹 육성한 캐릭터로 덱을 구성해 전투와 성장 던전에 도전하세요. 친구와 소통하고 랭킹에서 성장의 결과도 확인할 수 있습니다. 당신의 삶을 보여 주는 인생 성적표 커리어, 건강, 자산, 행복, 인간관계의 기록을 종합해 캐릭터의 인생을 평가합니다. 어떤 선택이 가장 큰 영향을 남겼는지 돌아보고 다음 인생을 더 멋지게 설계해 보세요. 평범한 시작도 선택에 따라 특별한 유산이 됩니다. 당신이라면 어떤 인생을 만들겠습니까? ---- 개발자 연락처 : 서지웅 대덕대로512번길 20 (도룡동, 대전정보문화산업진흥원) B동 2층 204-6호(도룡동, 대전정보문화산업진흥원) 유성구, 대전광역시 34126 South Korea 1172401962 1721694141790174 대전광역시 동구청",
+      "analysis": {
+        "app_key": "google:com.CaoxGames.CatSpoon",
+        "summary_ko": "캐릭터의 일과, 능력, 직업, 자산 등을 선택하며 인생을 설계하는 육성 시뮬레이션 게임입니다. 공부, 운동, 일 등 다양한 활동을 통해 캐릭터를 성장시키고, 그 결과에 따라 인생 점수가 결정됩니다. 전투와 던전 콘텐츠를 포함하여 육성한 캐릭터를 활용한 추가적인 재미를 제공합니다.",
+        "features_ko": [
+          "캐릭터의 일과를 직접 선택하여 능력치를 키울 수 있습니다.",
+          "다양한 직업에 도전하고 경력을 쌓아 진급할 수 있습니다.",
+          "급여, 세금, 투자, 부동산 등 자산 관리 시스템이 포함되어 있습니다.",
+          "건강, 스트레스, 인간관계 등 캐릭터의 상태를 관리해야 합니다.",
+          "육성한 캐릭터로 전투와 던전에 도전할 수 있습니다.",
+          "인생 성적표를 통해 선택의 결과를 종합적으로 평가받습니다."
+        ],
+        "noteworthy_ko": "인생 육성이라는 테마에 자산 관리와 전투 콘텐츠를 결합한 점이 독특합니다. 캐릭터의 성장이 단순히 능력치 상승에 그치지 않고 인생 점수로 이어지는 구조가 플레이어에게 성취감을 줍니다.",
+        "development_ko": "캐릭터의 상태와 자산을 관리하는 복잡한 데이터 구조가 핵심입니다. 다양한 직업과 이벤트에 따른 능력치 변화를 처리하는 로직이 필요하며, 전투 시스템을 위한 별도의 덱 구성 및 연산이 요구됩니다. 방대한 콘텐츠를 관리하기 위한 모듈화된 설계가 필수적입니다.",
+        "idea_ko": "캐릭터의 선택에 따라 인생의 분기점이 생기는 '멀티 엔딩 시스템'을 도입하면 다회차 플레이의 재미가 커질 것입니다.",
+        "highlights_ko": [
+          "인생 육성과 자산 관리, 전투가 결합된 복합 장르.",
+          "선택에 따른 다양한 성장 경로와 인생 평가 시스템."
+        ],
+        "systems_ko": [
+          "캐릭터 상태 및 능력치 관리",
+          "직업 및 커리어 시스템",
+          "자산 및 투자 관리 로직",
+          "전투 및 던전 시스템",
+          "인생 평가 및 기록 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "관리해야 할 데이터의 양이 많고, 육성 시스템과 전투 시스템을 조화롭게 연결하는 것이 어렵습니다. 1인 개발 시 콘텐츠 제작 부담이 매우 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 능력치 육성 시스템",
+            "직업 선택 및 급여 시스템",
+            "인생 점수 계산 로직"
+          ],
+          "defer": [
+            "전투 및 던전 시스템",
+            "부동산 투자 시스템"
+          ],
+          "risks": [
+            "콘텐츠 제작의 방대함",
+            "밸런스 조절의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "랜덤 이벤트 카드",
+            "concept": "매 턴마다 랜덤한 인생 이벤트를 카드로 뽑아 선택하는 규칙입니다.",
+            "first_step": "이벤트 카드 데이터베이스와 선택 UI 구현."
+          },
+          {
+            "title": "가족 구성 시스템",
+            "concept": "캐릭터가 결혼하고 자녀를 키우며 유산을 물려주는 규칙입니다.",
+            "first_step": "가족 데이터 구조와 유산 상속 로직 구현."
+          }
+        ],
+        "recommendation_ko": "복합적인 시스템을 설계하고 관리하는 능력을 키우기에 좋습니다. 방대한 데이터를 다루는 시뮬레이션 게임 개발에 관심 있는 분께 추천합니다.",
+        "source_limitations_ko": "전투 시스템의 구체적인 규칙이나 자산 관리의 세부 수식은 확인되지 않았습니다.",
+        "name": "Life: 인생 관리 시뮬레이션",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.CaoxGames.CatSpoon&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 183,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
+    },
+    "google:com.lingoffice.docapp.documentreader.pdfeditor": {
+      "app_key": "google:com.lingoffice.docapp.documentreader.pdfeditor",
+      "name": "Document Reader & PDF Editor",
+      "developer": "AymanA",
+      "source": "google",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.lingoffice.docapp.documentreader.pdfeditor&hl=en&gl=US",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:08:46+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Discover a smarter way to manage your documents with Document Reader & PDF Editor — the all-in-one file viewer designed for work, study, and everyday use. Easily open, read, organize, and manage all your files in one convenient app. Support for PDF, Word, Excel, PowerPoint, and more means you no longer need multiple apps to handle different file formats. Whether you’re reviewing reports, reading notes, or managing presentations, Document Reader & PDF Editor makes everything simple and efficient. 📂 Smart File Organizer • Automatically scans and organizes files on your device • Browse documents by category: PDF, DOC, XLS, PPT, and more • Quickly access recent and favorite files • Fast search to find documents instantly 📕 Powerful PDF Reader • Open and read PDF files smoothly • Zoom in/out for comfortable reading • Jump directly to specific pages • Share PDF files anytime 📝 Word Document Viewer • Supports DOC and DOCX files • Clean and easy-to-read interface • Automatically detects all Word documents on your device 📊 Excel Spreadsheet Viewer • Open XLS and XLSX files quickly • View tables, charts, and data clearly • Great for reports, budgets, and office work 📽️ PPT Viewer • Smooth presentation viewing experience • Supports PPT and PPTX formats • Perfect for meetings, classes, and quick reviews 🔧 Useful PDF Tools • Convert images to PDF • Export PDF pages as images • Merge PDF files easily • Add annotations and drawings • Full-text document search ⚡ Why You’ll Love It ✔ Lightweight and fast performance ✔ Simple and user-friendly design ✔ Sort files by name, date, or size ✔ Rename, delete, and share documents easily ✔ Works offline anytime, anywhere 🚀 More Features Coming Soon • Support for ZIP, RAR, HTML, XML, and more • Advanced document editing • Dark mode support Document Reader & PDF Editor helps you keep all your files organized and accessible in one place. No more switching between apps or dealing with unsupported formats — just a smooth and reliable document experience on your phone. 📥 Download Document Reader & PDF Editor today and turn your device into a portable office! 💬 Feedback & Support We’re always working to improve your experience. Contact us anytime: ayman.ahmad19000@gmail.com",
+      "analysis": {
+        "app_key": "google:com.lingoffice.docapp.documentreader.pdfeditor",
+        "summary_ko": "다양한 문서 형식을 통합적으로 관리하고 열람할 수 있는 올인원 문서 뷰어 앱입니다. PDF, Word, Excel, PPT 등 여러 확장자를 하나의 앱에서 처리하여 업무와 학습 효율을 높입니다. 파일 정리, 검색, 간단한 PDF 편집 기능을 제공하여 휴대용 사무실 환경을 구현합니다.",
+        "features_ko": [
+          "기기 내 문서를 자동으로 스캔하여 PDF, DOC, XLS, PPT 등 유형별로 분류합니다.",
+          "PDF 파일을 열람하고 특정 페이지로 이동하거나 줌 기능을 활용할 수 있습니다.",
+          "이미지를 PDF로 변환하거나 PDF 페이지를 이미지로 내보내는 기능을 지원합니다.",
+          "PDF 파일 병합 및 문서 내 텍스트 검색 기능을 제공합니다.",
+          "최근 파일 및 즐겨찾기 기능을 통해 자주 사용하는 문서에 빠르게 접근합니다."
+        ],
+        "noteworthy_ko": "다양한 오피스 포맷을 하나의 뷰어로 통합하는 방식은 사용자 편의성을 극대화합니다. 개발 관점에서는 각 파일 형식별 파싱 라이브러리 통합과 파일 시스템 접근 권한 관리가 핵심적인 기술적 도전 과제가 될 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 각 문서 포맷(PDF, DOCX, XLSX 등)을 렌더링하는 오픈소스 라이브러리 연동입니다. 콘텐츠 제작 부담은 낮으나, 다양한 기기 환경에서의 파일 호환성 테스트와 렌더링 성능 최적화에 많은 노력이 필요합니다. UI는 파일 탐색기 구조를 기반으로 직관적인 목록형 인터페이스를 구현해야 합니다.",
+        "idea_ko": "특정 문서 내 중요 키워드를 추출하여 자동으로 태그를 달아주는 '스마트 문서 태깅' 기능이 개인 개발자에게 적합합니다.",
+        "highlights_ko": [
+          "다양한 오피스 파일 형식을 단일 앱에서 통합 관리하는 범용성.",
+          "파일 스캔부터 편집, 공유까지 이어지는 문서 관리의 전 과정 지원."
+        ],
+        "systems_ko": [
+          "파일 시스템 스캔 및 인덱싱 시스템",
+          "문서 렌더링 엔진(PDF/Office)",
+          "파일 관리(이름 변경, 삭제, 공유) 로직",
+          "검색 및 필터링 시스템",
+          "사용자 설정 및 즐겨찾기 데이터 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 문서 포맷을 안정적으로 렌더링하는 것은 고도의 기술적 숙련도를 요구합니다. 특히 오피스 파일의 레이아웃 깨짐 방지와 대용량 파일 처리 시의 성능 최적화가 매우 까다롭습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "파일 탐색 및 목록 표시",
+            "PDF 뷰어 기능",
+            "기본 파일 관리(삭제, 이름 변경)"
+          ],
+          "defer": [
+            "이미지-PDF 변환",
+            "PDF 병합",
+            "고급 편집 기능"
+          ],
+          "risks": [
+            "파일 형식별 라이브러리 호환성 문제",
+            "안드로이드 저장소 접근 권한 정책 변경 대응"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "문서 요약 도우미",
+            "concept": "문서를 열람할 때 AI를 활용해 핵심 내용을 3줄로 요약해주는 기능입니다. 긴 보고서를 빠르게 파악해야 하는 사용자에게 유용합니다.",
+            "first_step": "PDF 텍스트 추출 라이브러리를 사용하여 텍스트를 읽어온 뒤, 간단한 요약 API와 연동하는 프로토타입을 만듭니다."
+          },
+          {
+            "title": "문서 위치 기억",
+            "concept": "여러 문서를 읽을 때 마지막으로 읽었던 페이지와 스크롤 위치를 자동으로 저장합니다. 여러 논문이나 책을 동시에 읽는 사용자에게 최적화되어 있습니다.",
+            "first_step": "파일 경로와 페이지 번호를 매핑하여 로컬 데이터베이스에 저장하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "파일 시스템과 데이터 렌더링에 대한 깊은 이해를 얻을 수 있어 추천합니다. 다만, 문서 포맷별 라이브러리 의존도가 높으므로 라이브러리 생태계 조사가 선행되어야 합니다.",
+        "source_limitations_ko": "소개문에 명시된 '고급 문서 편집'의 구체적인 범위가 불분명하며, 외부 클라우드 연동이나 보안 암호화 기능에 대한 언급이 없어 해당 기능은 구현 범위에서 제외해야 합니다.",
+        "name": "Document Reader & PDF Editor",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.lingoffice.docapp.documentreader.pdfeditor&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 168,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
+    },
+    "apple:1340841589": {
+      "app_key": "apple:1340841589",
+      "name": "ナンバーパズル - 数字ジグソーパズルゲーム 人気",
+      "developer": "Wuhan Dobest Information Technology Co, Ltd.",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_board",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E3%83%91%E3%82%BA%E3%83%AB-%E6%95%B0%E5%AD%97%E3%82%B8%E3%82%B0%E3%82%BD%E3%83%BC%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0-%E4%BA%BA%E6%B0%97/id1340841589?uo=2",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:09:06+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ナンバーパズルにチャレンジしましょう！数字ブロックスライドで数字のマジックを体験しましょう！ゲームルールは分かりやすいですか、ステージクリアはそんな簡単ではないですよ！眼力、頭脳の敏感度と観察力は全部不可欠なものです！テクニック、ペースと手速さが全部大切なものです！頭脳王のチャレンジを今直ぐ始めましょうか？ 遊び方： ブロックスライドで、ボードにあるブロックを順番に並べます。並び方は左から右へ、上から下への方法です。最少のステップ数にチャレンジ！ボードにあるブロックを順番に並べると、ステージクリアになります！ロジック能力と頭脳にチャレンジしましょう！ ゲーム特徴： -操作が簡単で、数分間で上手になれるゲーム、時間制限なし、いつでも楽しめる数字並びゲーム -クラシックゲームに基づき、クリエイティブデザインもあるゲーム！脳力と眼力の二重挑戦ゲーム -簡潔で、目に優しい画面スタイル、一旦入って、すぐ夢中になる -ゲームの進行状況が自動的に保存されるゲーム -3*3、4*4、5*5のボードがあって、6つのゲームモードを自由に選ぶ -移動の数字ブロックゲームで多種なアイテムを使って、ちょっとリラックス -ネットがいらない脳トレのレジャーゲーム。老若男女問わず、楽しめるゲーム -頭をよく働かせて脳細胞を十分に燃やすステージデザイン、知力をテストしながらリラックス 初心者だけでなく、マスターにも楽しめるゲーム——ナンバーパズルが登場しました！知力をテストしながら、リラックスもできます！とりあえず気分転換しましょう！いつでもどこでも楽しめるゲーム！従来の紙面ゲームと比べて、スマホのナンバーパズルがもっと気楽ですよ！ 頭をよく働かせて脳細胞を十分に燃やす数字挑戦ゲームで数字対戦をしましょう！初心者から数字マスターになりましょう！ステージクリアにつれて難易度もアップします！ゲームをしながら、ロジック能力もトレーニングします。ナンバーパズルに入って数字の魅力を体験しましょう！ ナンバーパズルはあなたを待っています！今直ぐチャレンジしましょう！",
+      "analysis": {
+        "app_key": "apple:1340841589",
+        "summary_ko": "숫자 블록을 슬라이드하여 순서대로 정렬하는 퍼즐 게임입니다. 3x3부터 5x5까지 다양한 보드 크기를 제공하며, 최소 이동 횟수로 스테이지를 클리어하는 것이 목표입니다. 논리적 사고와 관찰력을 요구하는 두뇌 트레이닝 게임입니다.",
+        "features_ko": [
+          "블록을 슬라이드하여 숫자를 왼쪽에서 오른쪽, 위에서 아래 순서로 정렬합니다.",
+          "3x3, 4x4, 5x5 등 6가지 게임 모드를 선택할 수 있습니다.",
+          "게임 진행 상황이 자동으로 저장되어 언제든 이어서 플레이할 수 있습니다.",
+          "인터넷 연결 없이 오프라인에서 즐길 수 있습니다."
+        ],
+        "noteworthy_ko": "고전적인 슬라이딩 퍼즐 메커니즘을 모바일 환경에 맞게 최적화했습니다. 난이도 조절을 위해 보드 크기를 다양화한 점이 개발 관점에서 확장성을 고려한 좋은 설계로 보입니다.",
+        "development_ko": "핵심 기술은 2차원 배열을 활용한 블록 위치 관리와 슬라이드 입력 판정입니다. 콘텐츠 제작 부담은 낮으나, 난이도별 최적 해법을 검증하는 밸런스 작업이 필요합니다. 1인 개발 시 UI의 직관성을 높이는 데 집중하는 것이 좋습니다.",
+        "idea_ko": "특정 패턴을 완성하면 블록이 사라지거나 색상이 변하는 '매치-3' 요소를 결합한 슬라이딩 퍼즐을 제안합니다.",
+        "highlights_ko": [
+          "시간 제한이 없어 사용자가 자신의 속도에 맞춰 여유롭게 플레이할 수 있습니다.",
+          "간결한 화면 구성으로 시각적 피로도를 낮추고 게임 몰입도를 높였습니다."
+        ],
+        "systems_ko": [
+          "보드 상태 관리 시스템",
+          "슬라이드 입력 및 블록 이동 판정",
+          "스테이지 데이터 및 진행 상황 저장",
+          "난이도별 보드 생성 알고리즘"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "슬라이딩 퍼즐은 기본적인 알고리즘 구현이 명확하며, 복잡한 그래픽이나 서버 연동이 필요하지 않습니다. 핵심 로직만 구현하면 되므로 1인 개발에 매우 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "블록 이동 로직",
+            "승리 조건 판정",
+            "보드 초기화 기능"
+          ],
+          "defer": [
+            "다양한 테마 및 스킨",
+            "온라인 랭킹 시스템"
+          ],
+          "risks": [
+            "풀 수 없는 보드 상태가 생성될 가능성",
+            "입력 지연으로 인한 조작감 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "컬러 매칭 슬라이드",
+            "concept": "숫자 대신 색상 블록을 사용하여 특정 색상끼리 인접하게 배치하면 점수를 얻는 방식입니다.",
+            "first_step": "3x3 보드에서 색상 블록을 이동시키는 기본 프로토타입 구현."
+          },
+          {
+            "title": "타임 어택 모드",
+            "concept": "제한 시간 내에 정해진 횟수만큼 블록을 정렬해야 하는 긴박한 모드입니다.",
+            "first_step": "타이머 UI와 시간 종료 시 게임 오버 로직 추가."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 기본 로직과 상태 관리 시스템을 학습하기에 매우 좋습니다. 복잡한 기능 없이도 완성도 높은 게임을 만들 수 있어 개인 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 알고리즘이나 데이터 구조가 명시되어 있지 않습니다. 또한, 언급된 '아이템'의 구체적인 기능과 효과는 확인되지 않았습니다.",
+        "name": "ナンバーパズル - 数字ジグソーパズルゲーム 人気",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E3%83%91%E3%82%BA%E3%83%AB-%E6%95%B0%E5%AD%97%E3%82%B8%E3%82%B0%E3%82%BD%E3%83%BC%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0-%E4%BA%BA%E6%B0%97/id1340841589?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
     }
   }
 }

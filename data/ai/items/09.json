@@ -11466,6 +11466,93 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-14"
+    },
+    "itch:a1bb35b53c1a030c734c": {
+      "app_key": "itch:a1bb35b53c1a030c734c",
+      "name": "Stronkie's Baseball Enhanced Amiga 500 [1.00€] [Sports]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://stronkie.itch.io/stronkies-baseball-enhanced-amiga-500",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:06:31+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Arcade 3D baseball for an Amiga 500 with 1 MB chip RAM and the Fat Agnus",
+      "analysis": {
+        "app_key": "itch:a1bb35b53c1a030c734c",
+        "summary_ko": "Stronkie's Baseball Enhanced Amiga 500은 1MB 칩 RAM을 갖춘 Amiga 500 환경을 위한 아케이드 3D 야구 게임입니다.",
+        "features_ko": [
+          "Amiga 500 하드웨어 환경에 최적화된 3D 야구 게임입니다.",
+          "아케이드 스타일의 빠른 야구 경기 진행을 지원합니다."
+        ],
+        "noteworthy_ko": "레트로 하드웨어인 Amiga 500을 타겟으로 한 점이 매우 독특합니다. 제한된 하드웨어 자원에서 3D 그래픽을 구현하는 기술적 도전이 흥미롭습니다.",
+        "development_ko": "레트로 하드웨어의 제약 사항(메모리, CPU)을 고려한 최적화가 필수적입니다. 3D 투영 연산과 스프라이트/폴리곤 처리 기술이 핵심이며, 하드웨어 특성에 맞는 어셈블리나 C 언어 활용이 필요합니다.",
+        "idea_ko": "제한된 자원을 활용한 레트로 스타일의 스포츠 게임 구현은 최적화 기술을 익히는 데 매우 효과적입니다.",
+        "highlights_ko": [
+          "Amiga 500이라는 특정 레트로 플랫폼을 위한 전용 게임.",
+          "제한된 하드웨어에서 구현된 3D 야구 아케이드 경험."
+        ],
+        "systems_ko": [
+          "3D 투영 및 렌더링 엔진",
+          "야구 규칙 엔진(투구, 타격, 수비)",
+          "하드웨어 자원 관리 시스템",
+          "입력 처리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "현대적인 엔진이 아닌 레트로 하드웨어의 제약을 이해하고 최적화하는 과정은 매우 높은 수준의 기술적 지식을 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 야구 투구 및 타격 로직",
+            "3D 화면 렌더링 루프",
+            "입력 반응 처리"
+          ],
+          "defer": [
+            "복잡한 리그 모드",
+            "다양한 팀 및 선수 데이터"
+          ],
+          "risks": [
+            "하드웨어 메모리 부족으로 인한 성능 저하",
+            "레트로 플랫폼 개발 환경 구축의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "픽셀 야구 챌린지",
+            "concept": "현대 엔진을 사용하되 레트로한 3D 그래픽 스타일을 적용한 야구 게임입니다. 최소한의 폴리곤으로 야구의 재미를 구현합니다.",
+            "first_step": "간단한 3D 큐브를 활용해 투구와 타격이 가능한 프로토타입 제작."
+          },
+          {
+            "title": "미니 야구 매니저",
+            "concept": "그래픽보다는 수치와 텍스트 중심의 야구 시뮬레이션입니다. 3D 연출은 최소화하고 전략에 집중합니다.",
+            "first_step": "야구 경기 데이터를 관리하고 결과를 계산하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "레트로 게임 개발이나 하드웨어 최적화에 관심 있는 개발자에게 추천합니다. 현대적인 엔진의 편리함 없이 게임을 만드는 과정을 통해 깊이 있는 기술적 이해를 얻을 수 있습니다.",
+        "source_limitations_ko": "게임의 구체적인 3D 구현 방식, 조작법, 경기 규칙의 상세 범위는 설명문에 명시되지 않았습니다.",
+        "name": "Stronkie's Baseball Enhanced Amiga 500 [1.00€] [Sports]",
+        "source": "itch",
+        "detail_url": "https://stronkie.itch.io/stronkies-baseball-enhanced-amiga-500",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 293,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
     }
   }
 }

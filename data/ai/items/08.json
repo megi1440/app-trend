@@ -12696,6 +12696,185 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-14"
+    },
+    "itch:c6199d7743e594928d33": {
+      "app_key": "itch:c6199d7743e594928d33",
+      "name": "Knock It Off [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://vitaliykorzhenko.itch.io/knock-it-off",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:06:08+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "You're the cat. Knock everything off the shelves — just don't get caught",
+      "analysis": {
+        "app_key": "itch:c6199d7743e594928d33",
+        "summary_ko": "Knock It Off는 고양이가 되어 선반 위의 물건들을 떨어뜨리는 액션 게임입니다. 들키지 않고 모든 물건을 떨어뜨리는 것이 목표입니다. 고양이의 행동을 모사하는 재미를 제공합니다.",
+        "features_ko": [
+          "고양이가 되어 물건을 떨어뜨리는 액션 메커니즘을 제공합니다.",
+          "들키지 않아야 하는 잠입 요소가 포함되어 있습니다.",
+          "다양한 선반과 물건들을 상호작용 대상으로 합니다."
+        ],
+        "noteworthy_ko": "고양이의 습성을 게임화한 점이 대중적이고 흥미롭습니다. 잠입과 파괴라는 상반된 요소를 결합하여 긴장감과 재미를 동시에 잡으려는 시도가 돋보입니다.",
+        "development_ko": "물리 엔진을 활용한 물건 떨어뜨리기 구현이 핵심입니다. 고양이의 움직임과 들키지 않기 위한 감지 시스템(시야각 등)을 정교하게 구현해야 합니다.",
+        "idea_ko": "물건을 떨어뜨릴 때 발생하는 소음을 관리하는 잠입 액션 게임입니다.",
+        "highlights_ko": [
+          "고양이의 습성을 활용한 독특한 액션 게임입니다.",
+          "잠입과 파괴를 결합하여 긴장감 있는 플레이를 제공합니다."
+        ],
+        "systems_ko": [
+          "물리 기반 물건 상호작용",
+          "고양이 캐릭터 이동 및 조작",
+          "적(주인)의 시야 및 감지 시스템",
+          "소음 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진을 활용한 상호작용은 구현이 재미있으나, 적의 AI와 잠입 시스템을 자연스럽게 연결하는 데 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "고양이 조작 및 점프",
+            "물건 물리 상호작용",
+            "적의 시야 감지 로직"
+          ],
+          "defer": [
+            "다양한 고양이 스킨",
+            "복잡한 레벨 디자인"
+          ],
+          "risks": [
+            "물리 엔진의 불안정성",
+            "잠입 난이도 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "고양이 소음 마스터",
+            "concept": "물건을 떨어뜨릴 때 발생하는 소음의 크기를 조절하여 들키지 않는 게임입니다.",
+            "first_step": "물건의 무게와 높이에 따른 소음 발생 로직을 구현합니다."
+          },
+          {
+            "title": "고양이 파괴왕",
+            "concept": "제한 시간 내에 최대한 많은 물건을 떨어뜨리는 액션 게임입니다.",
+            "first_step": "물건 파괴 점수 합산 시스템을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "물리 엔진을 활용한 게임을 만들고 싶은 개발자에게 추천합니다. 고양이의 움직임을 구현하는 과정에서 캐릭터 컨트롤러 제작 능력을 키울 수 있습니다.",
+        "source_limitations_ko": "게임의 구체적인 조작 방식, 적의 종류, 레벨 구성에 대한 정보가 없습니다.",
+        "name": "Knock It Off [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://vitaliykorzhenko.itch.io/knock-it-off",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 302,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
+    },
+    "apple:793232740": {
+      "app_key": "apple:793232740",
+      "name": "Cadrage Director's Viewfinder",
+      "developer": "Cadrage GmbH",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/cadrage-directors-viewfinder/id793232740",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:09:28+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Cadrage 디렉터의 뷰파인더 – 당신의 생각대로 창작하세요. Cadrage는 어떤 프로페셔널 카메라/ 렌즈의 조합이든지 당신의 샷을 정확한 프레이밍 프리뷰와 함께 제공하여 사전제작 과정에서 모두를 만족 시키도록 합니다. ◈◈◈ 촬영 계획이 이렇게 쉬울수도 없습니다. Cadrage를 다운로드하고 당신의 작업과정이 어떻게 변하는지 보세요. ◈◈◈ 기능 ● 수천가지의 카메라와 렌즈들에 대한 정확한 프리뷰 ● 사진 저장과 영상 촬영 ● 원하는 비율에 따른 커스텀 프레임라인 추가 ● 원하는 날짜에 여러분의 위치에서 태양의 궤적을 확인해 보세요 ● 빌트인 갤러리 & 프로젝트 매니저 ● 깔끔한 PDF 샷리스트 제작과 Dropbox나 이메일을 통한 전송 ● 수동 노출, 초점 & 화이트 밸런스 ● 최종 결과물을 시각화한 프로페셔널 3-웨이 컬러 보정 ● 듀얼 및 트리플 카메라 장치 지원 ◈◈◈ 당신의 비전을 당신의 팀과 소통하며 이루세요. 지금 당장 Cadrage를 다운받고 수월해진 촬영과정을 느껴보세요. ◈◈◈ ◆ 씨네 카메라 ◆ ARRI Alexa 265, Alexa 35, Alexa 35 Xtreme, Alexa 65, Alexa Classic, Alexa LF, Alexa Mini, Alexa Mini LF, Alexa SXT, Alexa XT, Amira, D-21 Blackmagic Cinema Camera, Cinema Camera 6K, Micro Cinema Camera, Micro Studio Camera 4K, Pocket Cinema Camera, Pocket Cinema Camera 4K, Pocket Cinema Camera 6K, Pocket Cinema Camera 6K Pro, Production Camera 4K, PYXIS 12K, PYXIS 6K, Studio Camera 4K, Studio Camera 4K Plus, Studio Camera 4K Pro, Studio Camera HD, URSA, URSA (Broadcast), URSA 4.6K, URSA Cine 12K LF, URSA Cine 17K 65, URSA Mini 4.6K, URSA Mini 4K, URSA Mini Pro, URSA Mini Pro 12K, URSA Mini Pro 4.6K G2 Canon C100, C100 Mark II, C200, C300, C300 Mark II, C300 Mark III, C400, C50, C500, C500 Mark II, C70, C700, C80 DJI Ronin 4D (6K), Ronin 4D (8K), Zenmuse X7 Film 16mm, 35mm, 65mm/70mm, 8mm Freefly Systems Ember S2.5K, Ember S5K, Wave Fujifilm GFX Eterna 55 Generic Broadcast Kinefinity KineMAX, KineMini, Mavo, Mavo Edge, Mavo LF, TERRA Panasonic AF101, DC-BGH1, EVA1, HDX 900, VariCam 35, VariCam LT Panavision DXL, DXL2 Phantom 65, Flex, Flex4K, HD GOLD, Miro LC321S, v2640 ONYX, VEO4K-PL RED Dragon-X, Epic Dragon, Epic-W (Helium), Epic-X, Gemini, Komodo, Komodo-X, Monstro-VV, One, Ranger (Gemini), Ranger (Helium), Ranger (Monstro), Raven, Scarlet-W (Dragon), Scarlet-X, V-Raptor S35, V-Raptor VV, V-Raptor XE VV, V-Raptor XL S35, V-Raptor XL VV, Weapon (Dragon-VV), Weapon (Helium) Sony Burano, F23, F3, F35, F5, F55, F65, F900, FS100, FS5, FS5 Mark II, FS7, FS7 Mark II, FS700, FX2, FX3, FX30, FX6, FX9, HDC-1500R, Venice, Venice 2 (6K), Venice 2 (8K) Z CAM E2, E2-F6, E2-F8, E2-M4, E2-S6, E2-S6G, E2C, E2G ◆ 포토 카메라 ◆ Canon 1000D/XS, 100D, 10D, 1100D/T3, 1200D/T5, 1300D/T6, 1D, 1D C, 1D Mark II, 1D Mark III, 1D Mark IV, 1D X, 1D X Mark II, 1D X Mark III, 1Ds, 1Ds Mark II, 1Ds Mark III, 200D/SL2, 20D, 30D, 350D/XT, 400D/XTi, 40D, 450D/XSi, 500D/T1i, 50D, 550D/T2i, 5D, 5D Mark II, 5D Mark III, 5D Mark IV, 5DS, 600D/T3i, 60D, 650D/T4i, 6D, 6D Mark II, 700D/T5i, 70D, 750D/T6i, 760D/T6s, 77D, 7D, 7D Mark II, 800D/T7i, 80D, 850D/T8i, 90D, M50, R, R5, R6, Ra, RP Film (Still) 35mm (135), APS, Large Format, Medium Format, XPan Fujifilm GFX 100, GFX 100S, GFX 50R, GFX 50S, X-A7, X-H1, X-Pro2, X-Pro3, X-S10, X-T2, X-T200, X-T3, X-T4, X100V Hasselblad Digital Medium Format Leica CL, M10/M10-R, M8/M8.2, M9/M9-P, S, S2, SL, SL2, SL2-S Mamiya Leaf Credo Series Nikon D1, D100, D1H, D1x, D200, D2H, D2Hs, D2x, D3, D300, D3000, D300s, D3100, D3200, D3300, D3400, D3s, D3x, D4, D40, D40X, D4s, D50, D500, D5000, D5100, D5300, D5500, D5600, D60, D600, D610, D70, D700, D7000, D70s, D7100, D7200, D750, D7500, D80, D800, D810, D850, D90, DF, Z50, Z6, Z7 Olympus E Series Panasonic GH1, GH2, GH3, GH4, GH5, GH5S, S1, S1H, S1R, S5 Pentax 645D, 645Z, K Series Phase One Achromatic+, IQ Series, P 30+, P 40+, P 45+, P 65+ Sigma fp, fp L, SD1, SD15 Sony A290, A390, A450, A580, A6000, A6300, A6500, A6600, A7 III, A7C, A7r II, A7r III, A7r IV, A7s, A7s II, A7s III, A850, A9, A9 II, A900, A99, SLT-A37K, SLT-A57, SLT-A65, SLT-A77 앱 언어: 영어",
+      "analysis": {
+        "app_key": "apple:793232740",
+        "summary_ko": "Cadrage는 영화 및 영상 제작자를 위한 디지털 뷰파인더 앱입니다. 다양한 프로페셔널 카메라와 렌즈 조합을 시뮬레이션하여 촬영 전 프레이밍을 미리 확인할 수 있습니다. 촬영 계획을 위한 샷리스트 제작과 컬러 보정 프리뷰 기능을 제공합니다.",
+        "features_ko": [
+          "다양한 브랜드의 카메라와 렌즈 조합에 따른 정확한 프레이밍 프리뷰를 제공합니다.",
+          "사진 저장 및 영상 촬영 기능을 통해 현장 구도를 기록할 수 있습니다.",
+          "사용자 정의 프레임라인을 추가하여 원하는 화면 비율을 설정할 수 있습니다.",
+          "촬영 위치와 날짜에 따른 태양의 궤적을 확인하여 조명 계획을 돕습니다.",
+          "PDF 샷리스트를 생성하여 이메일이나 클라우드로 전송할 수 있습니다."
+        ],
+        "noteworthy_ko": "수많은 카메라 기종의 센서 크기와 렌즈 화각 데이터를 데이터베이스화하여 시뮬레이션하는 점이 매우 흥미롭습니다. 이는 정밀한 수학적 계산과 카메라 기기 사양에 대한 깊은 이해가 필요한 작업으로 추정됩니다.",
+        "development_ko": "카메라 센서 크기 및 렌즈 화각에 따른 FOV(시야각) 계산 알고리즘 구현이 핵심입니다. 또한, 방대한 카메라 기기 데이터를 효율적으로 관리하는 구조가 필요하며, 카메라 하드웨어 연동을 위한 네이티브 API 활용 능력이 요구됩니다.",
+        "idea_ko": "특정 카메라 기종을 선택하면 해당 기종의 센서 특성을 반영한 노이즈나 색감을 실시간으로 필터링해 보여주는 시뮬레이션 기능이 유용할 것입니다.",
+        "highlights_ko": [
+          "정밀한 시뮬레이션: 수천 가지 카메라/렌즈 조합 지원.",
+          "워크플로우 통합: 샷리스트 제작부터 공유까지 원스톱 지원."
+        ],
+        "systems_ko": [
+          "카메라/렌즈 사양 데이터베이스",
+          "FOV 계산 및 렌더링 엔진",
+          "태양 위치 계산 알고리즘",
+          "PDF 생성 및 파일 관리 시스템",
+          "카메라 하드웨어 제어 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 카메라 기종의 사양을 정확히 반영해야 하며, 실시간 카메라 프리뷰와 수학적 계산이 결합되어야 하므로 높은 기술적 난이도가 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 카메라/렌즈 화각 시뮬레이션",
+            "사진 촬영 및 저장 기능",
+            "프레임라인 오버레이 기능"
+          ],
+          "defer": [
+            "태양 궤적 계산",
+            "PDF 샷리스트 자동 생성",
+            "고급 컬러 보정 기능"
+          ],
+          "risks": [
+            "카메라 기종별 사양 데이터 수집의 어려움",
+            "기기별 카메라 API 호환성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "조명 시뮬레이터",
+            "concept": "가상의 조명기기를 배치하여 피사체에 생기는 그림자를 미리 확인하는 기능입니다.",
+            "first_step": "화면에 가상의 광원을 배치하고 간단한 그림자 투영을 구현하는 시제품 제작."
+          },
+          {
+            "title": "로케이션 헌팅 메모",
+            "concept": "촬영 장소의 사진을 찍고 그 위에 직접 그림을 그리거나 메모를 남겨 팀과 공유하는 기능입니다.",
+            "first_step": "사진 위에 레이어를 얹어 드로잉을 할 수 있는 간단한 에디터 구현."
+          }
+        ],
+        "recommendation_ko": "카메라 하드웨어와 소프트웨어의 결합을 이해하고 싶은 개발자에게 추천합니다. 다만, 방대한 데이터 관리와 정밀한 계산이 필요하므로 초기에는 특정 브랜드나 기종으로 범위를 좁혀 시작하는 것이 좋습니다.",
+        "source_limitations_ko": "소개문에는 카메라 데이터의 업데이트 방식이나 외부 클라우드 연동의 구체적인 보안 방식이 명시되어 있지 않습니다. 실제 카메라 하드웨어와의 직접적인 통신 기능은 확인되지 않았습니다.",
+        "name": "Cadrage Director's Viewfinder",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/cadrage-directors-viewfinder/id793232740",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
     }
   }
 }

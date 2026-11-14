@@ -12991,6 +12991,275 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-14"
+    },
+    "itch:7327d8aa467e576c265b": {
+      "app_key": "itch:7327d8aa467e576c265b",
+      "name": "Cosmo Goose [Free] [Educational]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://dal-b.itch.io/cosmo-goose",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:06:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "You are a cosmo goose. You are learning how to program in Java. Go learn how to code!",
+      "analysis": {
+        "app_key": "itch:7327d8aa467e576c265b",
+        "summary_ko": "우주 오리가 되어 Java 프로그래밍을 배우는 교육용 게임입니다. 사용자는 게임 플레이를 통해 코딩의 기초를 학습하게 됩니다. 짧은 설명으로 보아 학습과 게임이 결합된 형태의 단순한 인터랙티브 콘텐츠로 추정됩니다.",
+        "features_ko": [
+          "우주 오리 캐릭터를 조종하여 게임을 진행합니다.",
+          "Java 프로그래밍 언어의 기초 개념을 학습합니다."
+        ],
+        "noteworthy_ko": "교육적 목적과 게임을 결합한 시도가 흥미롭습니다. 프로그래밍 학습이라는 딱딱한 주제를 '우주 오리'라는 가벼운 테마로 풀어내어 진입 장벽을 낮추려는 의도로 보입니다.",
+        "development_ko": "학습 콘텐츠와 게임 로직을 분리하는 구조가 핵심입니다. 교육용 텍스트나 퀴즈 시스템을 관리하는 데이터 구조가 필요하며, 게임 엔진 내에서 코드를 실행하거나 검증하는 로직 구현이 관건입니다.",
+        "idea_ko": "코딩 학습과 퍼즐 게임을 결합한 방식이 가장 적합합니다.",
+        "highlights_ko": [
+          "우주 오리라는 독특한 캐릭터 설정.",
+          "Java 프로그래밍 학습이라는 명확한 교육적 목표."
+        ],
+        "systems_ko": [
+          "학습 진도 관리 시스템",
+          "코드 입력 및 검증 인터페이스",
+          "캐릭터 이동 및 상호작용 로직",
+          "UI/UX 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "게임 자체의 메커니즘은 단순하지만, 프로그래밍 학습 내용을 게임 내에서 어떻게 효과적으로 전달할지 설계하는 과정이 필요합니다. 교육 콘텐츠의 정확성과 게임의 재미 사이의 균형을 잡는 것이 중요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 캐릭터 이동",
+            "학습 텍스트 출력 시스템",
+            "간단한 퀴즈/코드 입력창"
+          ],
+          "defer": [
+            "복잡한 그래픽 효과",
+            "온라인 리더보드",
+            "다양한 스테이지"
+          ],
+          "risks": [
+            "학습 내용의 지루함",
+            "코드 검증 로직의 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "오리의 코딩 모험",
+            "concept": "오리가 장애물을 피하기 위해 특정 코드를 입력해야 하는 퍼즐 게임입니다. 코드를 입력하면 오리가 그에 따라 움직입니다.",
+            "first_step": "캐릭터가 특정 명령(앞으로, 회전)에 따라 움직이는 기본 프로토타입 제작."
+          },
+          {
+            "title": "코드 디버깅 오리",
+            "concept": "오류가 있는 코드를 수정하여 오리를 목적지까지 이동시키는 게임입니다. 프로그래밍의 디버깅 과정을 게임화합니다.",
+            "first_step": "잘못된 코드 블록을 수정하면 캐릭터의 경로가 바뀌는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "교육용 게임의 기획과 구현 방식을 배우기에 좋습니다. 단순한 게임 메커니즘에 교육적 가치를 더하는 방법을 고민해볼 수 있습니다.",
+        "source_limitations_ko": "Java 학습 내용이 실제 게임 내에서 어떻게 구현되는지, 어떤 수준의 프로그래밍을 다루는지에 대한 구체적인 정보가 부족합니다.",
+        "name": "Cosmo Goose [Free] [Educational]",
+        "source": "itch",
+        "detail_url": "https://dal-b.itch.io/cosmo-goose",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 278,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 34,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
+    },
+    "google:com.quanticbit.neonvalleyvoid": {
+      "app_key": "google:com.quanticbit.neonvalleyvoid",
+      "name": "Neon Valley VOID",
+      "developer": "Quantic Bit",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.quanticbit.neonvalleyvoid&hl=en&gl=US",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:07:13+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "The system is collapsing and you are the last sign of light in the void. Get ready for a frantic journey where gravity is your greatest enemy and your best ally. Feel the pulse of the music as you cut through the scenery looking for lost fragments. 🌌 Immerse yourself in a world of vibrant colors and relentless hordes that will stop at nothing to see you fall. Control is in the palm of your hand: hold to enter Zen Mode, aim with surgical precision and release to fire like lightning. Speed ​​is your shield and your attack. ⚡ Each fragment collected is a step towards definitive evolution. Unlock power cores and legendary skins that change not only the look, but the soul of your ship. Choose between the precision of the Shuriken or the stealth of the Phantom to dominate the void. 💎 The vacuum is unpredictable and full of biomechanical traps. Brave zero-gravity zones, treacherous ice shelves, and inversion fields that will turn your world upside down. It's not just about surviving, it's about keeping up. 🌀 Master the combo multiplier and watch the scene explode in chain reactions. The faster you go, the more intense the atmospheric soundtrack becomes that reacts to your every move. Feel the adrenaline of a system that evolves along with your skill. 🔥 System failure is imminent, but you won't go down without a fight. Restart the engine, choose your upgrades and return to the chaos to beat your previous record. Neon Valley awaits you, ready to be conquered or to consume you. 🚀",
+      "analysis": {
+        "app_key": "google:com.quanticbit.neonvalleyvoid",
+        "summary_ko": "Neon Valley VOID는 중력과 음악의 리듬을 활용해 장애물을 피하며 파편을 수집하는 아케이드 게임입니다. 유저는 속도를 제어하며 적의 공격을 회피하고, 기체를 진화시켜 더 높은 기록에 도전합니다. 강렬한 비주얼과 반응형 사운드트랙이 특징입니다.",
+        "features_ko": [
+          "홀드(Hold)와 릴리즈(Release)를 활용한 직관적인 원터치 조작 방식을 제공합니다.",
+          "음악의 리듬에 반응하여 변화하는 환경과 사운드트랙을 경험할 수 있습니다.",
+          "파편을 수집하여 기체의 성능과 외형을 업그레이드할 수 있습니다.",
+          "중력 반전, 얼음 지대 등 다양한 환경적 장애물이 등장합니다.",
+          "콤보 배율 시스템을 통해 높은 점수를 획득하는 도전 과제를 제공합니다."
+        ],
+        "noteworthy_ko": "음악과 게임 플레이의 동기화는 몰입감을 극대화하는 훌륭한 기법입니다. 속도가 빨라질수록 음악이 강렬해지는 반응형 시스템은 개인 개발자가 구현하기에 매우 효과적인 연출입니다.",
+        "development_ko": "리듬에 맞춘 장애물 생성 알고리즘과 부드러운 카메라 연출이 핵심입니다. 빠른 속도감 속에서도 조작의 정확성을 보장하는 입력 판정 로직이 중요합니다. 그래픽은 단순하지만 강렬한 네온 효과를 위해 셰이더 최적화가 필요합니다.",
+        "idea_ko": "음악의 비트에 맞춰 장애물이 생성되는 리듬 액션 기반의 회피 게임을 추천합니다.",
+        "highlights_ko": [
+          "중력을 활용한 독특한 이동 방식이 게임의 핵심 난이도 요소입니다.",
+          "기체별로 다른 성능과 외형을 제공하여 수집과 성장의 재미를 더했습니다."
+        ],
+        "systems_ko": [
+          "리듬 기반의 장애물 생성 시스템",
+          "원터치 입력 및 물리 제어 시스템",
+          "기체 업그레이드 및 데이터 저장 시스템",
+          "반응형 사운드트랙 관리 시스템",
+          "점수 및 콤보 계산 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "핵심 메커니즘이 명확하고 물리 엔진을 활용한 이동 로직은 비교적 구현이 용이합니다. 다만, 리듬과 게임 플레이의 정교한 동기화는 세심한 테스트가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이동 및 장애물 회피 로직",
+            "원터치 조작 시스템",
+            "점수 기록 및 갱신 기능"
+          ],
+          "defer": [
+            "다양한 기체 스킨 및 진화 시스템",
+            "복잡한 환경 장애물(중력 반전 등)"
+          ],
+          "risks": [
+            "단조로운 플레이 패턴으로 인한 지루함",
+            "입력 지연(Input Lag)으로 인한 조작감 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "비트 서퍼",
+            "concept": "음악의 비트에 맞춰 화면을 터치하여 장애물을 피하는 리듬 회피 게임입니다. 음악의 장르에 따라 장애물의 패턴이 달라지도록 설계합니다.",
+            "first_step": "음악의 특정 비트 구간에 장애물을 생성하는 기본 스크립트 작성."
+          },
+          {
+            "title": "네온 궤도",
+            "concept": "중력을 이용해 원형 궤도를 돌며 다가오는 적을 피하는 게임입니다. 터치 시 궤도를 변경하여 적의 공격을 회피합니다.",
+            "first_step": "원형 궤도 이동 로직과 터치 시 궤도 전환 기능 구현."
+          }
+        ],
+        "recommendation_ko": "단순한 조작으로 강렬한 경험을 주는 아케이드 게임의 정석을 배울 수 있습니다. 시각적 효과와 사운드 연출이 게임의 완성도를 어떻게 높이는지 실험하기 좋습니다.",
+        "source_limitations_ko": "소개문에 언급된 '시스템 진화'나 '생체역학적 함정'의 구체적인 구현 방식은 알 수 없습니다. 외부 서비스 연동이나 결제 기능은 명시되지 않았으므로 구현하지 마세요.",
+        "name": "Neon Valley VOID",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.quanticbit.neonvalleyvoid&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 219,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 7,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
+    },
+    "apple:415597317": {
+      "app_key": "apple:415597317",
+      "name": "멜론(Melon)",
+      "developer": "Kakao M Corp.",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/%EB%A9%9C%EB%A1%A0-melon/id415597317",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:10:22+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "No.1 뮤직플랫폼 멜론! 다양한 멜론 차트부터 나를 아는 똑똑한 음악추천까지! [홈] 요즘 인기있는 트렌디한 음악과 멜론 오리지널 콘텐츠를 만나볼 수 있습니다. [ForYou] 고민없이 빠르게 재생할 수 있는 DJ말랑이와 나를 위한 맞춤음악을 감상할 수 있습니다. [탐색] 나에게 맞는 추천 태그 기반으로 손쉽게 검색할 수 있고, 장르와 무드별 추천 음악을 감상할 수 있습니다. [음악서랍] 시간이 지나면서 점차 희미해지는 음악기록을 선명하게 간직할 수 있도록, 새롭게 달라진 음악서랍을 지금 바로 만나보세요. [플레이어] 스와이프 동작으로 이전/다음 음악을 쉽게 재생할 수 있고, 미니플레이어 모드로 음악 재생 중에도 콘텐츠 탐색이 가능합니다. [멜론차트] 멜론에서는 TOP100 / HOT100 / 장르별 / 테마별 등 다양한 차트를 제공합니다. [핫트랙] 차트 밖에서 사랑받는 다양한 최신 음악 트렌드를 쉽게 발견하고 감상할 수 있습니다. [멜론TV] 뮤직비디오, 방송은 물론 아티스트의 모든 영상을 생생한 고화질로 만나볼 수 있습니다. [아티스트채널] 앨범, 비디오, 포토, 스토리 등 아티스트의 모든 음악 활동을 전해 드립니다. [음악검색] 음악을 들려주기만 하면 스마트한 음악 검색이 바로 바로 찾아드립니다. [주요 특징] - 이통사, 기기 제한 없이 프리(DCF) 상품가입 시 무제한 다운로드 - 스트리밍플러스 이용시, 오프라인 음악 감상 지원 - 고성능 EQ 및 자동 음향 효과 솔루션 AI Master 제공 - 음질별 다운로드 및 스트리밍 제공 및 가사지원 - 저장한 콘텐츠의 손쉬운 저장/관리, 플레이리스트 폴더별 재생 지원 - 뮤직비디오 연속 재생 및 HD고화질 스트리밍 서비스 - 카카오 로그인 및 기본 이모티콘 지원 [서비스 접근 권한 안내] * 필수적 접근권한 - 없음 * 선택적 권한권한 - Apple Music : Apple Music에 저장된 음악을 불러오기 및 다운로드를 위해 사용합니다. - 로컬 네트워크 : 크롬캐스트, DLNA 장치와 연결하기 위해 로컬 네트워크 접근 권한을 사용합니다. - 블루투스 : 외부기기 검색 및 연결을 위해 권한을 사용합니다. - 마이크 : 음악 검색을 사용하기 위해 마이크를 권한을 사용합니다. - 연락처 : SMS로 친구 초대를 하기 위해 연락처를 사용합니다. - 카메라/앨범 : 프로필, 댓글 등에 사진첨부를 하기 위해 카메라 및 앨범을 사용합니다. - 위치정보 : 위치 정보를 통한 개인화 추천 서비스를 제공하기 위해 사용합니다. ※ 선택 접근 권한은 동의하지 않아도 서비스를 이용할 수 있지만, 동의하지 않은 권한이 필요한 기능 이용이 제한될 수 있습니다. ※ 멜론에서는 마케팅 목적으로 광고식별자를 수집하고 있습니다. 수집을 원치 않으실 경우, 아래 방법으로 수집을 중지할 수 있습니다. - 디바이스 내 [설정 > 개인 정보 보호> 광고 > 광고 추적 제한 or 광고 식별자 재설정] ※ 사용 중 문의 및 건의사항은 멜론앱 > 고객센터 내 모바일 1:1문의하기를 이용해주세요! - 문의전화(평일 09:00~18:00) : 1566-7727 (유료) - 이메일 : melon.ihelp@kakaoent.com",
+      "analysis": {
+        "app_key": "apple:415597317",
+        "summary_ko": "음악 스트리밍, 차트 확인, 아티스트 콘텐츠 감상 등을 제공하는 종합 뮤직 플랫폼입니다. 개인 맞춤형 음악 추천, 고음질 스트리밍, 오프라인 감상 기능을 지원합니다. 카카오 계정 연동을 통해 편리하게 로그인하고 다양한 음악 활동을 관리할 수 있습니다.",
+        "features_ko": [
+          "TOP100, 장르별, 테마별 등 다양한 음악 차트를 제공합니다.",
+          "사용자 취향을 분석하여 맞춤형 음악을 추천합니다.",
+          "음악을 들려주면 곡을 찾아주는 음악 검색 기능을 지원합니다.",
+          "오프라인 감상을 위한 음악 다운로드 기능을 제공합니다.",
+          "아티스트의 앨범, 비디오, 포토 등 다양한 콘텐츠를 감상합니다."
+        ],
+        "noteworthy_ko": "대규모 스트리밍 서비스로, 방대한 콘텐츠 관리와 실시간 데이터 처리가 핵심입니다. 개인화 추천 알고리즘과 고성능 오디오 처리 기술이 서비스의 경쟁력입니다.",
+        "development_ko": "대규모 트래픽을 견디는 서버 인프라와 콘텐츠 전송 네트워크(CDN) 구축이 필수적입니다. 저작권 보호를 위한 DRM 기술과 고음질 오디오 스트리밍 기술이 요구되며, 복잡한 UI/UX를 효율적으로 관리해야 합니다.",
+        "idea_ko": "사용자가 직접 DJ가 되어 플레이리스트를 공유하고 소통하는 커뮤니티 기능을 제안합니다.",
+        "highlights_ko": [
+          "다양한 차트와 오리지널 콘텐츠를 통해 최신 음악 트렌드를 제공합니다.",
+          "개인화된 추천 시스템을 통해 사용자의 취향을 반영합니다."
+        ],
+        "systems_ko": [
+          "음악 스트리밍 및 재생 엔진",
+          "콘텐츠 관리 시스템(CMS)",
+          "개인화 추천 알고리즘",
+          "사용자 계정 및 플레이리스트 관리",
+          "오디오 처리 및 EQ 솔루션"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "음악 스트리밍 서비스는 저작권 문제, 서버 비용, 고도의 스트리밍 기술이 필요합니다. 1인 개발로 전체 기능을 구현하는 것은 불가능에 가까우며, 핵심 기능 위주로 축소 구현해야 합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "음악 재생 플레이어",
+            "플레이리스트 생성 및 관리",
+            "로컬 음악 파일 재생"
+          ],
+          "defer": [
+            "실시간 스트리밍 서버",
+            "음악 검색 AI",
+            "아티스트 채널 관리"
+          ],
+          "risks": [
+            "저작권 침해 위험",
+            "서버 및 대역폭 비용 부담"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "나만의 음악 일기",
+            "concept": "오늘 들은 음악과 함께 짧은 감상을 기록하여 음악 일기를 작성합니다.",
+            "first_step": "재생 중인 곡 정보와 텍스트를 함께 저장하는 기능을 구현합니다."
+          },
+          {
+            "title": "랜덤 플레이리스트 생성기",
+            "concept": "특정 무드나 키워드를 입력하면 그에 맞는 곡들을 랜덤으로 섞어 플레이리스트를 만듭니다.",
+            "first_step": "곡 태그 기반의 랜덤 필터링 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "음악 재생 앱의 기본 구조와 플레이리스트 관리 로직을 배우기에 좋습니다. 다만, 상용 서비스 수준의 스트리밍 구현은 매우 어렵다는 점을 인지해야 합니다.",
+        "source_limitations_ko": "저작권 관리 시스템, 서버 인프라, 결제 연동 등에 대한 구체적인 정보는 없습니다. 소개문에 명시되지 않은 의료, 금융 기능은 만들지 마세요.",
+        "name": "멜론(Melon)",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EB%A9%9C%EB%A1%A0-melon/id415597317",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 51,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
     }
   }
 }

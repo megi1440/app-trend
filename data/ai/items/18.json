@@ -10207,6 +10207,186 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-13"
+    },
+    "google:com.quanticbit.pocketrpg": {
+      "app_key": "google:com.quanticbit.pocketrpg",
+      "name": "Pocket RPG Auto Idle",
+      "developer": "Quantic Bit",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.quanticbit.pocketrpg&hl=en&gl=US",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:07:33+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Pocket RPG Auto Idle is an idle RPG where your hero battles automatically while you make the strategic choices. It is for players who enjoy steady progression, upgrades and boss fights without needing constant taps. How it plays Your hero fights waves of enemies on their own. You spend gold to upgrade attack, health, regeneration and gold multipliers, then push deeper. Every 10 stages a boss with unique abilities blocks the way. Features • Automatic, dynamic battles • Epic bosses every 10 stages • Gold and upgrade system with real strategic choices • Endless progression with smart scaling • Achievements, medals and rewards • Supports multiple languages Who it is for Fans of idle games, auto battlers, incremental RPGs and short play sessions. FAQ Do I need to tap all the time? No. Battles are automatic; you decide the upgrades. Is there an end? Progression is endless, and enemies scale as you grow stronger. How far can your hero climb?",
+      "analysis": {
+        "app_key": "google:com.quanticbit.pocketrpg",
+        "summary_ko": "전투가 자동으로 진행되는 방치형 RPG로, 플레이어는 골드를 사용하여 캐릭터의 능력치를 전략적으로 업그레이드합니다. 10단계마다 등장하는 보스를 공략하며 끊임없이 성장하는 경험을 제공합니다. 복잡한 조작 없이 성장의 재미에 집중할 수 있도록 설계되었습니다.",
+        "features_ko": [
+          "캐릭터가 자동으로 적의 웨이브와 전투를 수행합니다.",
+          "골드를 소비하여 공격력, 체력, 재생력 등을 업그레이드할 수 있습니다.",
+          "10단계마다 고유한 능력을 가진 보스가 등장하여 도전을 제공합니다.",
+          "적의 능력치가 플레이어의 성장에 맞춰 자동으로 조정됩니다.",
+          "업적 및 메달 시스템을 통해 보상을 획득할 수 있습니다."
+        ],
+        "noteworthy_ko": "전투를 자동화하고 업그레이드 선택에만 집중하게 함으로써 방치형 게임의 본질을 잘 살렸습니다. 적의 스케일링 시스템을 통해 무한한 성장이 가능하도록 설계한 점이 흥미롭습니다.",
+        "development_ko": "자동 전투 루프와 적의 스케일링 알고리즘 구현이 핵심입니다. 업그레이드 비용과 능력치 상승 폭의 밸런스를 맞추는 것이 중요하며, 보스전의 난이도 조절이 필요합니다. UI는 업그레이드 버튼과 상태창 위주로 간결하게 구성해야 합니다.",
+        "idea_ko": "보스 처치 시 얻는 특수 재화로 캐릭터의 외형이나 스킬 이펙트를 변경하는 시스템을 추가하면 좋습니다.",
+        "highlights_ko": [
+          "전략적 업그레이드 선택에 집중한 자동 전투 시스템.",
+          "10단계마다 배치된 보스전으로 인한 긴장감 유지."
+        ],
+        "systems_ko": [
+          "자동 전투 및 웨이브 관리",
+          "골드 및 업그레이드 경제 시스템",
+          "적 스케일링 알고리즘",
+          "보스전 트리거 및 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "게임의 메커니즘이 매우 단순하여 1인 개발로 구현하기에 적합합니다. 복잡한 그래픽보다는 수치 밸런스에 집중하면 완성도 있는 결과물을 낼 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "자동 전투 루프",
+            "능력치 업그레이드 UI",
+            "보스전 로직"
+          ],
+          "defer": [
+            "업적 시스템",
+            "다국어 지원"
+          ],
+          "risks": [
+            "성장 곡선의 지루함",
+            "밸런스 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스킬 쿨타임 관리",
+            "concept": "자동 전투 중 특정 스킬을 수동으로 발동하여 보스전의 변수를 만드는 규칙입니다.",
+            "first_step": "스킬 쿨타임 변수와 버튼 클릭 이벤트 구현."
+          },
+          {
+            "title": "랜덤 버프 선택",
+            "concept": "웨이브 클리어 시 세 가지 버프 중 하나를 선택하여 이번 회차의 성장을 다르게 가져가는 규칙입니다.",
+            "first_step": "버프 데이터 리스트와 선택 UI 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 기초적인 경제 시스템과 성장 루프를 학습하기에 매우 좋습니다. 단순한 구조에서 재미를 찾는 연습을 하기에 적합합니다.",
+        "source_limitations_ko": "적의 스케일링 수식이나 구체적인 업그레이드 비용 공식은 공개되지 않았습니다.",
+        "name": "Pocket RPG Auto Idle",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.quanticbit.pocketrpg&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 195,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 15,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
+    },
+    "apple:6778380721": {
+      "app_key": "apple:6778380721",
+      "name": "Thrifty Business",
+      "developer": "Spellgarden Games UK Limited",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/us/app/thrifty-business/id6778380721?uo=2",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:08:13+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "There’s a brand new thrift store in town, and guess what? You’re in charge! In Thrifty Business, you’ll set up and manage your very own 90’s-inspired vintage thrift shop. Search through boxes filled with pre-loved gems and use them to create gorgeous displays. Unlock furniture, decorations, wallpaper & floors to create a beautiful community space that brings everybody together! Adjust your layout and organize your shelves and racks to the finest detail. Group your wares by colour, theme, purpose, or whatever you like. The more organized your store is, the more community points you’ll get to unlock new goodies! Customize the furniture, wallpaper, flooring and decor to make your store as welcoming and cozy as possible. As business grows, you might even need to expand into the adjacent rooms! This is so much more than just a store. Listen to customer’s stories and try to fulfill their requests. You can also unlock and host hobbyist events, turning your business into a treasured third space for locals! What Thrifty Business has in store for you: - laid-back management sim - colorful 90s-inspired graphics - 500+ different items to add to your shelves - precision placing so you can organize exactly how you want - customization options: furniture, decorations, wallpaper & flooring - a quirky and unique cast of customers What you won’t find on our shelves: - stressful min-maxing to get the best possible profit - setting item prices or haggling - impatient customers that leave your store in anger",
+      "analysis": {
+        "app_key": "apple:6778380721",
+        "summary_ko": "Thrifty Business는 90년대 감성의 빈티지 중고 가게를 운영하는 경영 시뮬레이션 게임입니다. 물건을 배치하고 가게를 꾸미며 고객의 이야기를 듣는 힐링 중심의 게임입니다. 수익 극대화보다는 공간 구성과 정리에 집중하는 느긋한 게임 플레이를 지향합니다.",
+        "features_ko": [
+          "500개 이상의 다양한 아이템을 활용하여 가게 내부를 자유롭게 배치할 수 있습니다.",
+          "가구, 벽지, 바닥재 등 다양한 커스터마이징 옵션을 제공합니다.",
+          "고객의 이야기를 듣고 요청을 수행하여 커뮤니티 포인트를 획득합니다.",
+          "가게를 확장하고 취미 관련 이벤트를 개최하여 지역 커뮤니티 공간으로 발전시킵니다.",
+          "스트레스 없는 경영을 위해 가격 설정이나 흥정 요소를 배제했습니다."
+        ],
+        "noteworthy_ko": "경영 시뮬레이션의 전형적인 '수익 극대화' 목표를 제거하고 '공간 꾸미기'와 '커뮤니티'에 집중한 점이 독특합니다. 90년대 감성을 살린 그래픽과 정밀한 배치 시스템은 플레이어에게 높은 자유도와 심리적 안정감을 제공합니다.",
+        "development_ko": "아이템 배치 시스템(그리드 또는 자유 배치)과 커스터마이징 데이터 관리 구조가 핵심입니다. 500개 이상의 아이템을 효율적으로 관리하기 위한 에셋 관리 시스템이 필요합니다. 고객 대화 시스템과 이벤트 트리거 로직 구현이 중요합니다.",
+        "idea_ko": "사용자가 꾸민 가게를 사진으로 찍어 공유하고, 다른 유저가 방문하여 '좋아요'를 누를 수 있는 소셜 기능을 추가하면 좋습니다.",
+        "highlights_ko": [
+          "수익 압박 없는 힐링 중심의 경영 시뮬레이션.",
+          "높은 자유도의 인테리어 및 배치 시스템."
+        ],
+        "systems_ko": [
+          "아이템 배치 및 그리드 시스템",
+          "인테리어 커스터마이징 데이터",
+          "고객 대화 및 퀘스트 시스템",
+          "이벤트 관리 시스템",
+          "에셋 로딩 및 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "게임의 핵심이 경영보다는 배치와 꾸미기에 있어 밸런스 조정 부담이 적습니다. 다만, 많은 수의 아이템을 관리하고 배치하는 시스템 구현에는 꼼꼼한 설계가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 배치 시스템",
+            "아이템 10~20종",
+            "가게 공간 구현"
+          ],
+          "defer": [
+            "500개 이상의 아이템",
+            "가게 확장 기능",
+            "고급 이벤트 시스템"
+          ],
+          "risks": [
+            "배치 시스템의 조작 편의성 문제",
+            "콘텐츠 양 부족으로 인한 조기 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "아이템 복원 미니게임",
+            "concept": "중고 물품을 가져와 닦고 수리하는 미니게임을 통해 아이템의 가치를 높입니다.",
+            "first_step": "간단한 터치/드래그로 아이템을 닦는 효과를 구현합니다."
+          },
+          {
+            "title": "테마별 팝업 스토어",
+            "concept": "특정 기간 동안 특정 테마의 아이템만으로 가게를 꾸미는 챌린지 모드입니다.",
+            "first_step": "아이템에 태그를 부여하고 특정 태그만 필터링하는 기능을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "시뮬레이션 게임의 데이터 구조와 배치 시스템을 구현해보고 싶은 개발자에게 추천합니다. 스트레스 없는 게임 디자인 철학을 배우기에 좋은 사례입니다.",
+        "source_limitations_ko": "소개문에 명시된 '고객의 이야기'가 정적인 텍스트인지 동적인 이벤트인지 알 수 없으며, 배치 시스템의 정밀도(스냅 기능 등)는 확인되지 않았습니다.",
+        "name": "Thrifty Business",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/thrifty-business/id6778380721?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 168,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
     }
   }
 }

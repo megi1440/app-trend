@@ -12614,6 +12614,191 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-14"
+    },
+    "google:com.tempogames.thebazaar": {
+      "app_key": "google:com.tempogames.thebazaar",
+      "name": "The Bazaar",
+      "developer": "Tempo Games Studio",
+      "source": "google",
+      "country": "US",
+      "category": "game_strategy",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.tempogames.thebazaar&hl=ko&gl=KR",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:05:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Welcome to The Bazaar, a hero-building strategy game set in a vibrant, ever-changing galactic marketplace. Collect exotic tools and weapons and strategically assemble them on your board, then unleash your arsenal against fantastical creatures and rival players! Hundreds of fully-voiced, unique encounters await adventurers looking to find fortune in The Bazaar. Choose from an expanding roster of heroes, each with their own distinct play-style, over 100 unique items, and an ever-growing catalog of content. Equip weapons, skills, tools, potions, dinosaurs, and more to construct the ultimate strategy–then watch it destroy your enemies! With hundreds of items and combinations to discover, every run is a unique puzzle to be solved. Whether you're building your board around one powerful item to crush your opponents in a single blow, or orchestrating elaborate combos, The Bazaar rewards creativity and risk-taking. No two runs are the same, and mastery comes from learning to adapt on the fly.",
+      "analysis": {
+        "app_key": "google:com.tempogames.thebazaar",
+        "summary_ko": "The Bazaar는 은하계 시장을 배경으로 한 영웅 육성 전략 게임입니다. 플레이어는 다양한 도구와 무기를 수집하여 보드 위에 배치하고, 이를 통해 적과 경쟁하며 전략을 완성해 나갑니다. 매번 변화하는 환경 속에서 아이템 조합을 통해 자신만의 독특한 전술을 구축하는 경험을 제공합니다.",
+        "features_ko": [
+          "다양한 플레이 스타일을 가진 영웅들을 선택하여 게임을 시작할 수 있습니다.",
+          "100개 이상의 고유한 아이템을 보드 위에 전략적으로 배치하여 시너지를 창출합니다.",
+          "무기, 기술, 도구, 물약, 공룡 등 다채로운 장비를 활용해 전력을 강화합니다.",
+          "매번 달라지는 조우와 상황에 맞춰 즉각적으로 전략을 수정하며 적을 공략합니다."
+        ],
+        "noteworthy_ko": "보드 위에 아이템을 배치하여 자동 전투를 유도하는 오토 배틀러 장르의 변주로 보입니다. 아이템 간의 조합(콤보)이 승패의 핵심이 되는 구조는 데이터 기반의 밸런스 설계가 매우 중요할 것으로 추정됩니다.",
+        "development_ko": "아이템 데이터베이스와 조합 규칙을 관리하는 시스템 구현이 핵심입니다. 다양한 영웅과 아이템의 밸런스를 맞추는 작업이 가장 큰 부담이 될 것이며, 각 아이템의 효과가 전투 결과에 미치는 영향을 테스트하는 과정이 필수적입니다.",
+        "idea_ko": "특정 테마의 아이템만으로 보드를 구성할 때 발동하는 '세트 효과' 시스템을 도입하여 전략의 깊이를 더하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "은하계 시장이라는 독특한 테마를 통해 수집과 전략의 재미를 결합했습니다.",
+          "매번 새로운 조합을 시도해야 하는 로그라이크적 요소가 강점입니다."
+        ],
+        "systems_ko": [
+          "아이템 배치 및 조합 엔진",
+          "영웅별 스탯 및 스킬 관리 시스템",
+          "전투 시뮬레이션 로직",
+          "로그라이크식 무작위 보상 생성기",
+          "UI/UX 보드 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "수많은 아이템 간의 상호작용을 구현하고 밸런스를 잡는 것은 1인 개발자에게 매우 높은 난이도입니다. 특히 다양한 영웅과 아이템의 데이터를 체계적으로 관리하는 구조 설계가 복잡합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "아이템 배치 보드 시스템",
+            "기본 전투 로직",
+            "아이템 데이터 구조화"
+          ],
+          "defer": [
+            "멀티플레이어 대전",
+            "풀 보이스 더빙",
+            "방대한 영웅 로스터"
+          ],
+          "risks": [
+            "아이템 조합 간의 밸런스 붕괴",
+            "반복적인 전투의 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "속성 연쇄 반응 시스템",
+            "concept": "아이템에 속성을 부여하고, 인접한 아이템끼리 속성이 일치할 때 추가 효과가 발생하는 규칙입니다.",
+            "first_step": "두 개의 아이템을 배치했을 때 인접 여부를 판별하고 스탯을 합산하는 로직 구현."
+          },
+          {
+            "title": "시장 경매 모드",
+            "concept": "매 턴마다 제한된 자원으로 아이템을 경매하는 방식으로, 희귀 아이템을 선점하는 심리전을 추가합니다.",
+            "first_step": "아이템 목록을 무작위로 생성하고 가격을 책정하는 상점 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 기반의 게임 설계와 시스템 간의 상호작용을 배우기에 좋습니다. 다만, 콘텐츠 양이 방대하므로 핵심 메커니즘 하나에 집중하는 것을 추천합니다.",
+        "source_limitations_ko": "멀티플레이어 구현 방식, 서버 통신 여부, 구체적인 전투 계산식은 설명만으로 확인할 수 없습니다.",
+        "name": "The Bazaar",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.tempogames.thebazaar&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 385,
+        "reasons": [
+          "multi_country",
+          "newly_seen"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "JP",
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
+    },
+    "google:com.nebula.ropesort": {
+      "app_key": "google:com.nebula.ropesort",
+      "name": "Rope Sort!",
+      "developer": "Nebula  Studio",
+      "source": "google",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.nebula.ropesort&hl=ja&gl=JP",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:11:00+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "『Rope Sort』は、毛糸玉を色ごとにそろえる、心がほっと温まる仕分けパズル。カラフルな毛糸玉をスイスイ動かして、同じ色の毛糸を糸巻きにまとめていく――そんな心地よい手ざわりで、頭をリフレッシュしませんか？ ウォーターソートやボールソートが好きな方も、ハンドクラフトのほっこりした世界観が好きな方も、ついハマってしまうストレスフリーの頭脳パズルです。年齢を問わず楽しめます。 かんたん＆気持ちいい遊び方： 🧵 タップしてスライド：毛糸玉（同じ色でつながっているものはまとめて）をドラッグして、別のロープへ移動。 🧶 色をそろえよう：空の糸巻きに置くか、ロープの端にある同じ色の毛糸玉の上に重ねます。 🧺 そろったら収納：糸巻きが同じ色でいっぱいになると、毛糸の束がかごにきれいにしまわれます。この瞬間がたまらない！ 💡 先を読んで置こう：ロープの空きは限られています。置き場がなくなる前に、一手先、二手先を考えて。 ひとクセあるギミックも： ❓ ミステリー毛糸玉：外側の毛糸を動かすと、隠れていた色が登場。思わぬ作戦が見えてきます。 🔒 ロックされた糸巻き＆障害物：指定の色をそろえて、からまった毛糸を解放。新しいルートが開けます。 ✨ 頼れるブースター：詰まったときは「元に戻す」、ヒント、ロープの追加でサポート。 『Rope Sort』が選ばれる理由： 🌈 やさしい手ざわり：なめらかなアニメーション、ふんわり毛糸の質感、スライドするたび心地よい効果音。 🧠 マイペースで脳トレ：制限時間も手数制限もなし。論理的思考力や空間認識力をじっくり鍛えられます。 📴 オフラインOK：Wi-Fiも通信もいらないから、通勤中やすきま時間にもサクッと遊べます。 ほっとひと息つきたいときに。カラフルな毛糸玉をきれいに整えて、仕分け名人をめざしましょう！",
+      "analysis": {
+        "app_key": "google:com.nebula.ropesort",
+        "summary_ko": "『Rope Sort』은 색깔별로 털실 뭉치를 분류하여 정리하는 퍼즐 게임입니다. 같은 색의 털실을 엮어 실타래에 모으는 과정을 통해 심리적 안정감과 두뇌 회전을 경험할 수 있습니다. 남녀노소 누구나 즐길 수 있는 스트레스 프리 형태의 퍼즐 게임입니다.",
+        "features_ko": [
+          "드래그 앤 드롭 방식으로 털실 뭉치를 다른 로프로 이동시킬 수 있습니다.",
+          "같은 색상의 털실을 빈 실타래나 동일 색상 털실 위에 쌓아 정리합니다.",
+          "실타래가 같은 색으로 가득 차면 털실 뭉치가 바구니로 수납됩니다.",
+          "제한된 로프 공간을 고려하여 미리 다음 수를 생각하며 배치해야 합니다.",
+          "미스터리 털실, 잠긴 실타래, 장애물 등의 기믹이 존재합니다.",
+          "막혔을 때 되돌리기, 힌트, 로프 추가 등의 부스터 기능을 사용할 수 있습니다."
+        ],
+        "noteworthy_ko": "핸드크래프트 감성을 살린 시각적 연출과 부드러운 애니메이션이 핵심입니다. 퍼즐의 논리적 구조와 정서적 만족감을 결합한 디자인이 돋보이며, 이는 사용자에게 반복적인 플레이 동기를 부여하는 요소로 추정됩니다.",
+        "development_ko": "핵심 기술은 드래그 앤 드롭 인터랙션과 털실의 이동 경로를 제어하는 로직입니다. 콘텐츠 제작 측면에서는 다양한 난이도의 퍼즐 레벨 디자인이 가장 큰 부담이 될 것입니다. 테스트 단계에서는 막힘 없는 퍼즐 배치를 검증하는 밸런스 조정이 중요합니다.",
+        "idea_ko": "시간 제한 없이 논리적 사고를 즐기는 '퍼즐 레벨 디자인' 아이디어가 개인 개발에 가장 적합합니다.",
+        "highlights_ko": [
+          "제한 시간이나 횟수 제한이 없어 사용자가 자신의 속도에 맞춰 플레이할 수 있습니다.",
+          "오프라인 환경에서도 플레이가 가능하여 접근성이 높습니다."
+        ],
+        "systems_ko": [
+          "드래그 앤 드롭 입력 판정 시스템",
+          "털실 뭉치 및 로프 상태 관리 시스템",
+          "레벨 데이터 로딩 및 저장 시스템",
+          "애니메이션 및 효과음 재생 관리자",
+          "퍼즐 해결 여부 판정 로직"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "핵심 메커니즘인 분류 퍼즐은 구현이 명확하지만, 다양한 기믹과 레벨 디자인을 체계적으로 구성하는 데는 상당한 시간이 소요됩니다. 1인 개발 시 퍼즐의 난이도 곡선을 설계하는 것이 가장 큰 도전 과제입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 드래그 앤 드롭 이동 로직",
+            "색상 일치 판정 및 수납 시스템",
+            "기본 레벨 10개 구성"
+          ],
+          "defer": [
+            "미스터리 털실 기믹",
+            "부스터 아이템 시스템",
+            "클라우드 저장"
+          ],
+          "risks": [
+            "퍼즐이 풀리지 않는 배치 생성 가능성",
+            "모바일 기기별 터치 감도 차이"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "계절별 털실 테마",
+            "concept": "계절마다 다른 색감과 질감의 털실을 제공합니다. 특정 계절에만 등장하는 특수 기믹을 추가하여 시각적 재미를 높입니다.",
+            "first_step": "기본 털실 에셋을 계절 테마로 교체하는 그래픽 리소스 제작."
+          },
+          {
+            "title": "협동 분류 모드",
+            "concept": "두 명의 플레이어가 각자의 로프를 관리하며 하나의 실타래를 완성합니다. 서로의 털실을 교환하는 규칙을 추가합니다.",
+            "first_step": "네트워크 통신 없이 화면 분할을 통한 2인 플레이 로직 구현."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 핵심인 '규칙의 단순함'과 '시각적 만족감'의 조화를 배우기에 좋습니다. 게임의 복잡도를 낮추고 핵심 재미에 집중하는 방식을 연습하기에 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 레벨 생성 알고리즘이나 데이터 구조가 명시되어 있지 않습니다. 또한, 부스터 아이템의 구체적인 동작 방식이나 인앱 결제 여부는 확인되지 않았습니다.",
+        "name": "Rope Sort!",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.nebula.ropesort&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 99,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
     }
   }
 }

@@ -12100,6 +12100,360 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-14"
+    },
+    "itch:ca546033210613d74e9c": {
+      "app_key": "itch:ca546033210613d74e9c",
+      "name": "La Frontera Azul: Los guerreros de Liangshan Po [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://lacolmenadigital.itch.io/la-frontera-azul",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:05:35+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Arcade de lanza y plataformas 16 bits inspirado en La Frontera Azul (1973)",
+      "analysis": {
+        "app_key": "itch:ca546033210613d74e9c",
+        "summary_ko": "La Frontera Azul: Los guerreros de Liangshan Po는 1973년 작품에서 영감을 받은 16비트 아케이드 창 던지기 플랫폼 게임입니다. 고전적인 아케이드 스타일의 액션을 경험할 수 있습니다.",
+        "features_ko": [
+          "창을 던지는 공격 메커니즘을 제공합니다.",
+          "플랫폼 게임 특유의 점프와 이동 액션을 포함합니다.",
+          "16비트 스타일의 그래픽과 아케이드 게임 규칙을 따릅니다."
+        ],
+        "noteworthy_ko": "고전 작품의 재해석이라는 점이 흥미롭습니다. 16비트 스타일의 시각적 완성도와 창 던지기라는 단일 공격 메커니즘의 깊이를 어떻게 구현했는지가 관건입니다.",
+        "development_ko": "투사체 물리 연산과 플랫폼 이동 로직이 핵심입니다. 16비트 스타일의 아트워크 제작과 고전적인 난이도 밸런스 조절이 필요합니다.",
+        "idea_ko": "창을 던져 벽에 박고 이를 발판으로 삼아 이동하는 플랫폼 액션 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "16비트 스타일의 고전 아케이드 감성.",
+          "창 던지기 중심의 집중된 액션."
+        ],
+        "systems_ko": [
+          "투사체 물리 시스템",
+          "플랫폼 이동 및 점프 로직",
+          "적 AI 및 패턴 관리",
+          "충돌 판정 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "플랫폼 게임은 구현 사례가 많고 메커니즘이 정형화되어 있어 1인이 학습하며 제작하기에 적절합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 점프",
+            "창 던지기 공격",
+            "기본 적 캐릭터"
+          ],
+          "defer": [
+            "다양한 보스 패턴",
+            "복잡한 레벨 디자인"
+          ],
+          "risks": [
+            "투사체 판정의 어색함",
+            "단조로운 게임플레이"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "창 타기 플랫폼",
+            "concept": "던진 창이 벽에 박히면 그 위로 올라가 더 높은 곳으로 이동하는 플랫폼 게임입니다.",
+            "first_step": "창이 벽에 박히는 로직과 캐릭터가 창 위에 서는 판정 구현."
+          },
+          {
+            "title": "창 던지기 디펜스",
+            "concept": "고정된 위치에서 다가오는 적들을 창으로 막아내는 아케이드 디펜스 게임입니다.",
+            "first_step": "투사체 발사 및 적 제거 로직 구현."
+          }
+        ],
+        "recommendation_ko": "고전 아케이드 게임의 핵심 메커니즘을 구현하는 법을 배우기에 좋습니다. 플랫폼 게임의 물리와 충돌 판정을 익히기에 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 레벨 수, 창 던지기 외의 추가 능력, 1973년 원작과의 구체적인 연관성 등은 확인되지 않습니다.",
+        "name": "La Frontera Azul: Los guerreros de Liangshan Po [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://lacolmenadigital.itch.io/la-frontera-azul",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 353,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 9,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
+    },
+    "itch:b7b19519787dfd09b1dc": {
+      "app_key": "itch:b7b19519787dfd09b1dc",
+      "name": "InQuiziTriv AI [Free] [Educational] [Android]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://quizlegend.itch.io/inquizitriv-ai",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:05:53+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Trivia on any topic you can think of: earn XP, unlock achievements, climb the leaderboard.",
+      "analysis": {
+        "app_key": "itch:b7b19519787dfd09b1dc",
+        "summary_ko": "InQuiziTriv AI는 사용자가 원하는 모든 주제에 대해 퀴즈를 풀 수 있는 교육용 앱입니다. 퀴즈를 통해 경험치(XP)를 얻고, 업적을 달성하며 리더보드에서 경쟁할 수 있습니다.",
+        "features_ko": [
+          "사용자가 원하는 주제로 퀴즈를 생성합니다.",
+          "퀴즈 풀이를 통해 경험치를 획득합니다.",
+          "업적 시스템을 통해 성취감을 제공합니다.",
+          "리더보드를 통해 다른 사용자와 경쟁합니다."
+        ],
+        "noteworthy_ko": "AI를 활용한 동적 퀴즈 생성이 핵심입니다. 사용자의 입력에 따라 퀴즈를 실시간으로 생성하는 백엔드 연동이 개발 관점에서 흥미로운 부분입니다.",
+        "development_ko": "핵심 기술은 AI API 연동과 퀴즈 데이터 처리입니다. 사용자 경험을 위해 퀴즈의 난이도 조절과 결과 분석이 필요하며, 리더보드와 같은 네트워크 기능 구현이 필수적입니다. 데이터베이스 관리와 보안이 중요합니다.",
+        "idea_ko": "특정 분야(예: 역사, 과학)에 특화된 퀴즈 챌린지 모드를 추가하는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "AI를 활용하여 주제 제한 없는 퀴즈를 제공합니다.",
+          "경험치와 리더보드를 통한 게임화 요소가 포함되어 있습니다."
+        ],
+        "systems_ko": [
+          "AI API 연동 시스템",
+          "사용자 데이터 관리 시스템",
+          "리더보드 네트워크 시스템",
+          "업적 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "AI API 연동은 비교적 구현이 용이하나, 리더보드와 같은 서버 연동 기능은 네트워크 프로그래밍 지식이 필요합니다. 개인 개발자가 충분히 도전할 만한 수준입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "AI 퀴즈 생성 기능",
+            "퀴즈 UI 및 정답 판정 로직"
+          ],
+          "defer": [
+            "실시간 글로벌 리더보드",
+            "복잡한 업적 시스템"
+          ],
+          "risks": [
+            "AI API 사용 비용 발생",
+            "퀴즈 답변의 정확성 검증 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "퀴즈 듀얼 모드",
+            "concept": "두 명의 사용자가 같은 주제로 퀴즈를 풀어 점수를 겨루는 실시간 대전 모드입니다.",
+            "first_step": "두 명의 점수를 비교하는 로직 구현."
+          },
+          {
+            "title": "오답 노트 시스템",
+            "concept": "틀린 문제를 저장하고 나중에 다시 풀어볼 수 있는 학습 보조 기능입니다.",
+            "first_step": "틀린 문제 데이터를 로컬에 저장하고 불러오는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "AI API를 활용한 앱 개발을 경험하고 싶다면 추천합니다. 데이터 관리와 네트워크 통신을 배우기에 좋은 프로젝트입니다.",
+        "source_limitations_ko": "어떤 AI 모델을 사용하는지, 리더보드 데이터가 어떻게 저장되는지, 오프라인 모드 지원 여부 등이 명시되지 않았습니다.",
+        "name": "InQuiziTriv AI [Free] [Educational] [Android]",
+        "source": "itch",
+        "detail_url": "https://quizlegend.itch.io/inquizitriv-ai",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 332,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 16,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
+    },
+    "itch:723711fc23bc2cd18cbb": {
+      "app_key": "itch:723711fc23bc2cd18cbb",
+      "name": "The Continuum [Free] [Strategy]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://nhianomalous.itch.io/the-continuum",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:06:08+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Run the secret UFO program while alien factions fight and Russia and China race you.",
+      "analysis": {
+        "app_key": "itch:723711fc23bc2cd18cbb",
+        "summary_ko": "The Continuum은 비밀 UFO 프로그램을 운영하는 전략 게임입니다. 외계 세력의 갈등과 러시아, 중국과의 경쟁 속에서 프로그램을 성공적으로 이끌어야 합니다. 국가 간의 긴장감과 자원 관리가 핵심입니다.",
+        "features_ko": [
+          "비밀 UFO 프로그램을 관리하는 경영 시뮬레이션 요소를 포함합니다.",
+          "외계 세력 간의 갈등 상황을 전략적으로 이용해야 합니다.",
+          "러시아와 중국 등 국가 간의 경쟁 시스템이 존재합니다."
+        ],
+        "noteworthy_ko": "국가 간의 경쟁과 외계 세력이라는 두 가지 축을 동시에 관리해야 하는 점이 전략적 깊이를 더합니다. 복합적인 변수를 제어하는 시뮬레이션 설계가 흥미롭습니다.",
+        "development_ko": "다양한 세력의 상태를 관리하는 데이터 구조 설계가 핵심입니다. 각 세력의 행동을 결정하는 AI 로직과 자원 관리 밸런스 조정이 중요합니다.",
+        "idea_ko": "국가 간의 경쟁을 실시간 데이터로 시각화하는 전략 시뮬레이션입니다.",
+        "highlights_ko": [
+          "외계 세력과 국가 간의 경쟁이라는 독특한 전략적 구도를 가집니다.",
+          "비밀 프로그램 운영이라는 테마를 통해 긴장감 있는 경영 경험을 제공합니다."
+        ],
+        "systems_ko": [
+          "자원 관리 및 할당 시스템",
+          "세력 간 관계도 데이터 관리",
+          "이벤트 발생 및 확률 엔진",
+          "국가별 경쟁 AI 로직"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "여러 세력의 상호작용을 밸런스 있게 조정하는 것은 복잡한 로직을 요구하며, 전략 게임 특성상 테스트와 밸런스 작업에 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "자원 관리 UI",
+            "세력별 상태 변화 로직",
+            "기본적인 턴제 또는 실시간 진행 시스템"
+          ],
+          "defer": [
+            "복잡한 외계 세력 전투 애니메이션",
+            "멀티플레이어 경쟁 기능"
+          ],
+          "risks": [
+            "세력 간 밸런스 붕괴",
+            "플레이어에게 제공되는 정보의 과부하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "외계 기술 역설계",
+            "concept": "외계 기술을 획득하여 국가별로 기술 격차를 벌리는 전략 게임입니다.",
+            "first_step": "기술 트리 시스템과 연구 자원 관리 기능을 구현합니다."
+          },
+          {
+            "title": "비밀 기지 방어전",
+            "concept": "국가들의 침입으로부터 UFO 기지를 방어하는 전략 게임입니다.",
+            "first_step": "기지 방어 시설 배치 및 적 유닛 이동 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "복잡한 시스템을 가진 전략 게임의 데이터 구조를 설계하는 법을 배우기에 좋습니다. 다만, 게임의 구체적인 승리 조건이나 세부 규칙이 명시되지 않아 기획 단계에서 많은 고민이 필요합니다.",
+        "source_limitations_ko": "게임의 진행 방식(턴제/실시간), 구체적인 자원 종류, 외계 세력과의 상호작용 방식에 대한 정보가 없습니다.",
+        "name": "The Continuum [Free] [Strategy]",
+        "source": "itch",
+        "detail_url": "https://nhianomalous.itch.io/the-continuum",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 314,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
+    },
+    "google:com.tencent.igfit": {
+      "app_key": "google:com.tencent.igfit",
+      "name": "PUBG MOBILE FLASH",
+      "developer": "Level Infinite",
+      "source": "google",
+      "country": "US",
+      "category": "game_action",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.tencent.igfit&hl=en&gl=US",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:06:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "【The Original PUBG MOBILE, Now in a FLASH】 PUBG MOBILE FLASH is the official lightweight app in the PUBG MOBILE ecosystem. Enjoy the authentic PUBG MOBILE experience with a smaller download and optimized performance. 【Classic Battle Royale, Ready to Play】 Jump straight into Erangel and the original Classic Battle Royale experience. Core gameplay comes pre-installed, with no additional download required before your first match. 【Small Download, More Space】 Get started with under 0.96 GB on Android or under 1.75 GB on iOS. Enjoy PUBG MOBILE while leaving more storage space for your photos, videos, and everyday apps. 【Download Only What You Want】 Download additional maps, modes, events, and resources whenever you need them. With download confirmation, you're in control of what gets downloaded, helping prevent unnecessary downloads and save storage space. 【One PUBG MOBILE World】 Stay connected with the same account, friends, and in-game assets across PUBG MOBILE and FLASH. Enjoy synchronized updates, play matches together across both apps, and stay in the same PUBG MOBILE ecosystem. 【A Clean and Simple Lobby】 Enjoy a clean, minimalist Lobby designed to take up less space. Want the full Lobby experience? Simply download the additional resources whenever you choose. 【Smart Resources, Less Storage】 Lightweight visuals help save space, with higher-quality resources available on demand. Smart outfit display automatically shows temporary appearances for outfits you haven't downloaded, without using extra storage. Download the original outfit resources whenever you want to see the full look. 【Optimized for More Devices】 FLASH features dedicated graphics optimizations for entry-level and mid-range phones, reducing performance demands and making the original PUBG MOBILE experience accessible on more devices. 【Smoother Gameplay, Less Waiting】 Enjoy further optimizations designed to improve frame rate, stability, power efficiency, and memory usage. Faster startup and pre-match loading help you spend less time waiting and more time playing. 【Same PUBG MOBILE Security】 FLASH is protected by PUBG MOBILE's Ban Pan security system, with real-time monitoring, violation detection, enforcement, and the Investigator system to help maintain a fair gaming environment. 【Follow Us】 Instagram: https://www.instagram.com/pubgmobile Facebook: https://www.facebook.com/PUBGMOBILE X: https://x.com/PUBGMobile YouTube: https://www.youtube.com/pubgmobile TikTok: https://www.tiktok.com/@pubgmobile Reddit: https://www.reddit.com/r/PUBGMobile/ Discord: https://discord.gg/pubgmobile Please contact customer service if you encounter any problems: service@pubgmobile.com Please read PUBG MOBILE's Privacy Policy and User Agreement. Privacy Policy: http://pubgmobile.proximabeta.com/privacy.html Tencent Games User Agreement: https://www.pubgmobile.com/terms.html",
+      "analysis": {
+        "app_key": "google:com.tencent.igfit",
+        "summary_ko": "PUBG MOBILE의 경량화 버전으로, 최적화된 성능과 작은 용량을 제공합니다. 기존 PUBG MOBILE과 계정 및 자산을 공유하며 동일한 생태계 내에서 플레이할 수 있습니다. 저사양 기기에서도 원활한 배틀로얄 경험을 제공하는 데 중점을 둡니다.",
+        "features_ko": [
+          "기존 PUBG MOBILE 대비 작은 용량으로 설치 가능.",
+          "저사양 및 중급 기기에 최적화된 그래픽과 성능.",
+          "기존 계정 및 친구 목록과 연동되는 통합 생태계.",
+          "필요한 맵과 리소스를 선택적으로 다운로드하는 기능.",
+          "Ban Pan 보안 시스템을 통한 공정한 게임 환경 유지."
+        ],
+        "noteworthy_ko": "대규모 게임을 경량화하여 더 넓은 기기 환경을 지원하는 전략이 흥미롭습니다. 리소스 선택적 다운로드와 같은 기술적 최적화는 모바일 게임 개발에서 용량 관리의 모범 사례로 볼 수 있습니다.",
+        "development_ko": "기존 게임의 핵심 로직을 유지하면서 리소스를 최적화하는 것이 핵심입니다. 네트워크 동기화와 보안 시스템을 유지하면서 성능을 개선하는 고도의 기술력이 요구되며, 지속적인 업데이트와 최적화 테스트가 필수적입니다.",
+        "idea_ko": "특정 장르의 핵심 기능만 추출한 경량화 모듈 개발이 적합합니다.",
+        "highlights_ko": [
+          "기존 생태계와의 완벽한 연동.",
+          "사용자 중심의 선택적 리소스 다운로드 시스템."
+        ],
+        "systems_ko": [
+          "리소스 관리 및 다운로드 시스템",
+          "네트워크 동기화 및 최적화",
+          "보안 및 부정행위 탐지 시스템",
+          "기기별 그래픽 최적화 설정"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "대규모 멀티플레이어 게임의 경량화는 매우 높은 수준의 기술적 이해와 최적화 노하우를 필요로 합니다. 1인 개발자가 이 정도 규모의 시스템을 구현하는 것은 사실상 불가능하며, 핵심 메커니즘을 축소 구현하는 것만으로도 큰 도전입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 캐릭터 이동 및 사격",
+            "네트워크 동기화",
+            "기본 맵 환경"
+          ],
+          "defer": [
+            "고급 그래픽 설정",
+            "복잡한 리소스 관리 시스템",
+            "대규모 보안 시스템"
+          ],
+          "risks": [
+            "네트워크 지연 및 동기화 오류",
+            "기기별 성능 최적화 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "미니 배틀로얄",
+            "concept": "배틀로얄의 핵심 규칙(자기장, 파밍, 생존)만 남긴 초경량 게임입니다.",
+            "first_step": "자기장 로직과 아이템 획득 시스템 구현."
+          },
+          {
+            "title": "리소스 매니저",
+            "concept": "게임 내 리소스를 사용자가 필요할 때만 다운로드하게 만드는 범용 모듈입니다.",
+            "first_step": "파일 다운로드 및 로컬 저장소 관리 로직 구현."
+          }
+        ],
+        "recommendation_ko": "게임 최적화와 리소스 관리 기술을 배우고 싶은 개발자에게 추천합니다. 대규모 프로젝트의 구조를 이해하는 데 도움이 됩니다.",
+        "source_limitations_ko": "내부 최적화 알고리즘, 보안 시스템의 구체적인 작동 방식, 서버 인프라 구성에 대한 정보는 확인할 수 없습니다.",
+        "name": "PUBG MOBILE FLASH",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.tencent.igfit&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 235,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
     }
   }
 }

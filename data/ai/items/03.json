@@ -12515,6 +12515,352 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-14"
+    },
+    "itch:5d2f7974bbfbecfbd45d": {
+      "app_key": "itch:5d2f7974bbfbecfbd45d",
+      "name": "Bottomless [Free] [Strategy]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://dragon-slayer-27.itch.io/bottomless",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:05:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A bag-building feast for one very hungry toad. Fill your belly, but not one bite more.",
+      "analysis": {
+        "app_key": "itch:5d2f7974bbfbecfbd45d",
+        "summary_ko": "배고픈 두꺼비를 위해 가방을 채우는 전략 게임입니다. 적절한 양의 음식을 먹여야 하며, 과도하게 먹이지 않도록 주의해야 합니다.",
+        "features_ko": [
+          "가방을 구성하여 두꺼비에게 먹이를 제공하는 규칙을 가집니다.",
+          "적정량을 맞추기 위한 전략적 선택이 필요합니다."
+        ],
+        "noteworthy_ko": "가방 빌딩(Bag-building)이라는 장르적 특성을 활용한 점이 흥미롭습니다. 가방 내부의 구성이 결과에 직접적인 영향을 미치는 확률적 요소를 어떻게 제어할지가 핵심입니다.",
+        "development_ko": "가방 내 아이템의 확률적 추출 시스템과 두꺼비의 포만도 상태 관리 로직이 필요합니다. 밸런스 조절을 위해 아이템별 가치와 포만도 수치를 정교하게 설계해야 합니다.",
+        "idea_ko": "두꺼비의 종류에 따라 선호하는 음식 조합이 달라지는 시스템을 추가하여 전략성을 높이는 것이 좋습니다.",
+        "highlights_ko": [
+          "가방 빌딩이라는 독특한 메커니즘을 사용합니다.",
+          "과식 방지라는 직관적인 목표를 제시합니다."
+        ],
+        "systems_ko": [
+          "가방 인벤토리 시스템",
+          "확률 기반 아이템 추출 로직",
+          "포만도 상태 관리 시스템",
+          "UI 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "가방 빌딩 메커니즘은 구현 난이도가 적당하며, 상태 관리 로직도 복잡하지 않습니다. 다만, 재미를 위한 밸런스 조정에 시간이 소요될 것입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "가방 아이템 리스트",
+            "랜덤 추출 로직",
+            "포만도 계산기"
+          ],
+          "defer": [
+            "화려한 애니메이션",
+            "다양한 두꺼비 캐릭터"
+          ],
+          "risks": [
+            "단조로운 게임 플레이",
+            "확률에 의존한 불공정한 결과"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "두꺼비 요리사",
+            "concept": "음식을 단순히 먹이는 것이 아니라, 특정 조합으로 요리하여 두꺼비의 만족도를 높이는 게임입니다.",
+            "first_step": "두 가지 아이템을 조합하여 새로운 결과물을 만드는 레시피 시스템 구현."
+          },
+          {
+            "title": "가방 무게 제한",
+            "concept": "가방에 담을 수 있는 무게 제한을 두어, 고칼로리 음식과 저칼로리 음식 사이의 선택을 강제합니다.",
+            "first_step": "아이템마다 무게와 포만도 수치를 부여하고 합계를 계산하는 UI 구현."
+          }
+        ],
+        "recommendation_ko": "가방 빌딩 장르의 기초를 익히기에 매우 좋은 예시입니다. 간단한 규칙으로 깊은 전략을 만드는 방법을 배우길 추천합니다.",
+        "source_limitations_ko": "가방 내 아이템의 종류, 두꺼비의 상태 변화 로직, 게임의 승패 조건은 상세히 알 수 없습니다.",
+        "name": "Bottomless [Free] [Strategy]",
+        "source": "itch",
+        "detail_url": "https://dragon-slayer-27.itch.io/bottomless",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 374,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
+    },
+    "itch:79c4a2708501b0eb14c5": {
+      "app_key": "itch:79c4a2708501b0eb14c5",
+      "name": "Stellar Fury [$15.00] [Shooter] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "featured",
+      "detail_url": "https://figamesllc.itch.io/stellar-fury",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:05:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "An danmaku style shoot 'em up with gritty 90s PC pixel art. The first DOSmaku",
+      "analysis": {
+        "app_key": "itch:79c4a2708501b0eb14c5",
+        "summary_ko": "90년대 PC 픽셀 아트를 활용한 탄막 슈팅 게임입니다. DOS 스타일의 감성을 살린 'DOSmaku' 장르를 표방합니다.",
+        "features_ko": [
+          "탄막 슈팅 게임의 규칙을 따르며 적의 공격을 피하고 반격합니다.",
+          "90년대 PC 스타일의 픽셀 아트 그래픽을 제공합니다."
+        ],
+        "noteworthy_ko": "특정 시대의 기술적 제약(DOS)을 미학적 요소로 승화시킨 점이 개발 관점에서 매우 흥미롭습니다. 탄막 슈팅은 정교한 충돌 판정과 패턴 설계가 핵심입니다.",
+        "development_ko": "탄막 패턴을 생성하는 스크립트 엔진과 정밀한 충돌 판정 시스템이 필요합니다. 픽셀 아트 제작과 더불어 탄막의 밀도를 조절하는 밸런스 테스트가 중요합니다.",
+        "idea_ko": "DOS 시절의 시스템 오류 메시지를 탄막 패턴으로 활용하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "90년대 DOS 감성을 재현한 독특한 비주얼 스타일입니다.",
+          "탄막 슈팅 장르의 정통성을 따르고 있습니다."
+        ],
+        "systems_ko": [
+          "탄막 패턴 생성 엔진",
+          "충돌 판정 시스템",
+          "플레이어 이동 및 사격 로직",
+          "레벨/웨이브 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "탄막 슈팅은 핵심 메커니즘 구현은 명확하지만, 수많은 탄막을 효율적으로 처리하는 최적화와 패턴 설계에 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "플레이어 이동 및 사격",
+            "기본 탄막 패턴",
+            "충돌 판정"
+          ],
+          "defer": [
+            "다양한 보스전",
+            "복잡한 스토리 모드"
+          ],
+          "risks": [
+            "탄막 밀도에 따른 성능 저하",
+            "패턴 설계의 단조로움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "시스템 오류 탄막",
+            "concept": "화면에 팝업창이 뜨면서 탄막을 쏘는 방식으로, 실제 PC 오류를 연상시키는 패턴입니다.",
+            "first_step": "화면에 텍스트 박스를 생성하고 특정 방향으로 탄을 발사하는 로직 구현."
+          },
+          {
+            "title": "색상 반전 모드",
+            "concept": "특정 아이템을 먹으면 화면 색상이 반전되며 탄막의 색상도 변해 피하기 어려워지는 규칙입니다.",
+            "first_step": "화면 전체의 컬러 팔레트를 실시간으로 변경하는 셰이더 적용."
+          }
+        ],
+        "recommendation_ko": "슈팅 게임의 기본기인 충돌 판정과 패턴 설계를 배우기에 좋습니다. 레트로 스타일을 선호한다면 시각적 완성도를 높이는 연습으로 추천합니다.",
+        "source_limitations_ko": "구체적인 탄막 패턴의 종류, 보스전의 유무, 사운드 시스템에 대한 정보는 없습니다.",
+        "name": "Stellar Fury [$15.00] [Shooter] [Windows]",
+        "source": "itch",
+        "detail_url": "https://figamesllc.itch.io/stellar-fury",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 374,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
+    },
+    "itch:04d3a7976c43e73a7149": {
+      "app_key": "itch:04d3a7976c43e73a7149",
+      "name": "POLTERKEYS [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://avrdevstudio.itch.io/polterkeys",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:05:35+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Your keyboard is haunted. You're the ghost.",
+      "analysis": {
+        "app_key": "itch:04d3a7976c43e73a7149",
+        "summary_ko": "POLTERKEYS는 키보드가 유령에 들렸다는 설정의 액션 게임입니다. 플레이어는 유령이 되어 키보드를 조종하는 독특한 경험을 하게 됩니다.",
+        "features_ko": [
+          "키보드 입력을 게임의 핵심 메커니즘으로 활용합니다.",
+          "유령이 되어 키보드를 조종하는 액션 플레이를 제공합니다."
+        ],
+        "noteworthy_ko": "입력 장치 자체를 게임의 소재로 삼은 점이 매우 창의적입니다. 키보드 입력 이벤트와 게임 내 액션의 동기화를 어떻게 구현했는지가 개발 관점에서 핵심입니다.",
+        "development_ko": "키보드 입력 이벤트를 가로채거나 특정 키 조합을 감지하는 로직이 필요합니다. 입력에 따른 즉각적인 피드백과 유령 테마의 시각 효과 구현이 중요합니다.",
+        "idea_ko": "특정 키를 누를 때마다 유령의 능력이 바뀌는 키보드 기반 퍼즐 액션 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "키보드와 유령 테마의 결합.",
+          "입력 장치를 활용한 메타적 게임플레이."
+        ],
+        "systems_ko": [
+          "키보드 입력 이벤트 리스너",
+          "입력 기반 액션 트리거",
+          "유령 상태 관리 시스템",
+          "UI 피드백 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "게임의 규모가 작고 핵심 메커니즘이 입력 장치에 집중되어 있어 1인이 구현하기에 부담이 적습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "키보드 입력 감지 시스템",
+            "입력에 따른 기본 액션 구현"
+          ],
+          "defer": [
+            "복잡한 스토리라인",
+            "다양한 유령 스킨"
+          ],
+          "risks": [
+            "입력 지연 문제",
+            "사용자 경험의 단조로움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "키보드 타이핑 배틀",
+            "concept": "화면에 나타나는 키를 정확히 입력하여 유령의 공격을 방어합니다. 속도와 정확도가 중요한 요소입니다.",
+            "first_step": "화면에 키를 표시하고 입력값과 비교하는 로직 구현."
+          },
+          {
+            "title": "유령의 키보드 점령",
+            "concept": "특정 키를 누르면 해당 키가 고장 나거나 다른 기능을 수행하게 하여 플레이를 방해합니다.",
+            "first_step": "키 입력 매핑을 동적으로 변경하는 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "입력 장치를 활용한 창의적인 게임 디자인을 배우기에 좋습니다. 간단한 아이디어를 게임화하는 과정을 경험하기에 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 장르(퍼즐, 리듬, 액션 등)와 키보드 입력이 어떻게 게임 내 액션으로 변환되는지 상세 정보가 부족합니다.",
+        "name": "POLTERKEYS [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://avrdevstudio.itch.io/polterkeys",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 362,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 6,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
+    },
+    "itch:4bcc3e108b222072a682": {
+      "app_key": "itch:4bcc3e108b222072a682",
+      "name": "chapter 3 production [Free] [Other] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://snuffiewittie-studio.itch.io/chapter3production",
+      "data_date": "2026-11-15",
+      "analysed_at": "2026-11-15T05:05:53+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "chapter 3 production, horror, poppy playtime ,fangame",
+      "analysis": {
+        "app_key": "itch:4bcc3e108b222072a682",
+        "summary_ko": "이 앱은 특정 공포 게임 시리즈의 팬 게임으로 제작된 프로젝트입니다. 구체적인 게임 플레이 방식은 명시되지 않았으나, 공포 장르의 분위기를 구현하는 데 집중하고 있습니다.",
+        "features_ko": [
+          "공포 장르를 기반으로 한 팬 게임입니다.",
+          "특정 게임 시리즈의 세계관을 차용하고 있습니다."
+        ],
+        "noteworthy_ko": "기존 IP를 활용한 팬 게임 제작 사례입니다. 원작의 분위기를 재현하는 기술적 구현과 팬들의 기대치를 충족시키는 콘텐츠 구성이 개발 관점에서 핵심입니다.",
+        "development_ko": "원작의 분위기를 재현하기 위한 3D 환경 구축과 공포 연출이 핵심입니다. 팬 게임 특성상 원작의 에셋을 활용하거나 유사한 스타일을 구현해야 하는 부담이 있습니다. 테스트 시 원작 팬들의 피드백을 반영하는 과정이 중요합니다.",
+        "idea_ko": "원작의 특정 공간을 재해석하여 새로운 퍼즐을 추가하는 방식이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "공포 게임 장르의 팬 게임으로 제작되었습니다.",
+          "특정 시리즈의 세계관을 기반으로 합니다."
+        ],
+        "systems_ko": [
+          "1인칭 시점 제어 시스템",
+          "공포 연출 트리거 시스템",
+          "상호작용 가능한 오브젝트 관리",
+          "환경 사운드 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "판단 어려움",
+          "reason": "공포 게임은 연출과 분위기가 핵심인데, 설명문에 구체적인 게임 메커니즘이 언급되지 않아 구현 난이도를 객관적으로 평가하기 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "플레이어 이동 및 시점 제어",
+            "기본적인 상호작용 시스템"
+          ],
+          "defer": [
+            "복잡한 AI 추격 시스템",
+            "고품질 3D 모델링"
+          ],
+          "risks": [
+            "저작권 관련 이슈",
+            "원작 팬들의 높은 기대치 충족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "공간 탈출 퍼즐",
+            "concept": "원작의 특정 방을 배경으로, 제한된 도구를 사용하여 탈출하는 짧은 퍼즐 게임입니다.",
+            "first_step": "방 하나를 모델링하고 문을 여는 상호작용 구현."
+          },
+          {
+            "title": "사운드 공포 체험",
+            "concept": "시각적 요소보다 청각적 요소에 집중하여, 소리만으로 공포감을 조성하는 짧은 체험형 게임입니다.",
+            "first_step": "공간 내에서 특정 위치에 다가가면 소리가 재생되는 트리거 구현."
+          }
+        ],
+        "recommendation_ko": "공포 게임의 분위기 조성과 연출 기법을 연습하기에 좋습니다. 다만, 팬 게임은 저작권 문제가 발생할 수 있으므로 학습용으로만 활용하는 것을 권장합니다.",
+        "source_limitations_ko": "게임의 장르적 특성(퍼즐, 액션, 워킹 시뮬레이터 등)이 명시되지 않았으며, 구체적인 게임 플레이 규칙을 확인할 수 없습니다.",
+        "name": "chapter 3 production [Free] [Other] [Windows]",
+        "source": "itch",
+        "detail_url": "https://snuffiewittie-studio.itch.io/chapter3production",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 335,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 15,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-15"
     }
   }
 }
