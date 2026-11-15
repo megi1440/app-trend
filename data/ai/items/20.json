@@ -12960,6 +12960,450 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-15"
+    },
+    "itch:5a854a45d0707220bbd3": {
+      "app_key": "itch:5a854a45d0707220bbd3",
+      "name": "FÁBRICA CÓSMICA 2.0 [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://seiladev.itch.io/fbrica-csmica-20",
+      "data_date": "2026-11-16",
+      "analysed_at": "2026-11-16T05:33:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Construa um império industrial interdimensional em 3D. Idle viciante, offline, com chefes, pets e prestígio.",
+      "analysis": {
+        "app_key": "itch:5a854a45d0707220bbd3",
+        "summary_ko": "3D 환경에서 자신만의 산업 제국을 건설하는 방치형 시뮬레이션 게임입니다. 오프라인 상태에서도 진행이 가능하며, 보스전과 펫 시스템 등 다양한 콘텐츠를 포함합니다. prestiges(환생) 시스템을 통해 반복적인 성장의 재미를 제공합니다.",
+        "features_ko": [
+          "3D 공간에서 산업 시설을 건설하고 관리합니다.",
+          "오프라인 상태에서도 자원이 자동으로 생산됩니다.",
+          "강력한 보스와 전투를 벌이는 시스템이 있습니다.",
+          "펫 시스템을 통해 생산 효율을 높일 수 있습니다.",
+          "환생(prestiges)을 통해 더 높은 단계로 성장합니다."
+        ],
+        "noteworthy_ko": "방치형 게임의 핵심인 '성장 루프'가 잘 설계되어 있을 것으로 추정됩니다. 3D 환경을 도입하여 시각적 만족도를 높인 점이 차별점입니다.",
+        "development_ko": "데이터 관리와 수치 밸런싱이 개발의 핵심입니다. 3D 모델링과 최적화가 필요하며, 오프라인 보상 계산 로직을 정확히 구현해야 합니다. 방치형 게임 특성상 지속적인 콘텐츠 업데이트 부담이 큽니다.",
+        "idea_ko": "산업 제국을 건설하는 과정에서 환경 오염도와 같은 부작용을 관리하는 전략 요소를 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "방치형 게임의 전형적인 성장 시스템을 3D로 구현했습니다.",
+          "보스, 펫, 환생 등 풍부한 콘텐츠를 갖추고 있습니다."
+        ],
+        "systems_ko": [
+          "자원 생산 및 관리 시스템",
+          "데이터 저장 및 오프라인 계산",
+          "3D 렌더링 및 UI",
+          "밸런스 수치 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "방치형 게임의 로직은 명확하지만, 3D 환경 구현과 수치 밸런싱을 맞추는 데 시간이 많이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "자원 자동 생산 로직",
+            "건물 건설 및 업그레이드 UI"
+          ],
+          "defer": [
+            "3D 보스 전투 애니메이션",
+            "복잡한 펫 스킬 시스템"
+          ],
+          "risks": [
+            "수치 밸런스 실패로 인한 재미 반감",
+            "3D 최적화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "자동화 라인 시각화",
+            "concept": "생산 시설을 연결하는 컨베이어 벨트를 시각적으로 배치하여 효율을 극대화하는 퍼즐 요소입니다.",
+            "first_step": "시설 간 연결선 그리기 기능."
+          },
+          {
+            "title": "행성 간 무역",
+            "concept": "다른 행성으로 자원을 수출하여 더 희귀한 자원을 얻는 확장 시스템입니다.",
+            "first_step": "행성 선택 UI 및 자원 교환 로직."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 데이터 구조와 밸런싱을 공부하기에 최적입니다. 시뮬레이션 게임을 좋아하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "구체적인 수치 밸런스나 보스전의 상세 규칙은 확인되지 않습니다.",
+        "name": "FÁBRICA CÓSMICA 2.0 [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://seiladev.itch.io/fbrica-csmica-20",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 350,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 10,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-16"
+    },
+    "itch:bab31b94ac0680b821a8": {
+      "app_key": "itch:bab31b94ac0680b821a8",
+      "name": "DIRECTOR'S CUT: Scope Creep [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://getboros.itch.io/directors-cut-scope-creep",
+      "data_date": "2026-11-16",
+      "analysed_at": "2026-11-16T05:34:52+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Cut bloated features at 60 FPS before your engine overheats! (UE 5.9 WebGPU)",
+      "analysis": {
+        "app_key": "itch:bab31b94ac0680b821a8",
+        "summary_ko": "이 게임은 엔진 과열을 막기 위해 불필요한 기능을 제거하는 시뮬레이션 게임입니다. 60 FPS를 유지하며 효율적으로 개발 요소를 쳐내는 긴박한 경험을 제공합니다. UE 5.9 WebGPU 환경에서 구동되는 것이 특징입니다.",
+        "features_ko": [
+          "엔진 과열을 방지하기 위해 비대해진 기능을 제거합니다.",
+          "60 FPS 프레임 속도를 유지하며 게임을 플레이합니다."
+        ],
+        "noteworthy_ko": "개발자가 겪는 '기능 팽창(Scope Creep)'이라는 고통스러운 과정을 게임 메커니즘으로 승화시킨 점이 흥미롭습니다. 실제 개발 현장의 압박감을 시뮬레이션 요소로 잘 녹여냈을 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 실시간 프레임 측정 및 객체 제거 로직입니다. 콘텐츠 제작은 단순한 UI 요소 위주로 구성될 것으로 보이며, 밸런스 조절이 게임의 재미를 결정짓는 핵심 요소가 될 것입니다.",
+        "idea_ko": "제한 시간 내에 불필요한 코드를 삭제하여 시스템 안정성을 확보하는 '코드 클리너' 모드.",
+        "highlights_ko": [
+          "개발자의 현실적인 고충을 게임화한 독특한 테마.",
+          "60 FPS 유지라는 명확한 성능 목표 제시."
+        ],
+        "systems_ko": [
+          "프레임 측정 시스템",
+          "객체 제거 및 메모리 관리 로직",
+          "게임 상태 관리(과열 게이지)",
+          "UI 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "핵심 메커니즘은 단순하지만, 프레임 유지와 게임 밸런스를 맞추는 과정에서 정밀한 수치 조정이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기능 제거 버튼",
+            "과열 게이지 UI",
+            "프레임 카운터"
+          ],
+          "defer": [
+            "복잡한 그래픽 효과",
+            "다양한 스테이지 구성"
+          ],
+          "risks": [
+            "단순 반복 플레이로 인한 지루함",
+            "프레임 측정 로직의 정확도 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "버그 헌터 모드",
+            "concept": "화면에 나타나는 버그 아이콘을 클릭하여 제거하고 시스템 안정도를 높이는 방식입니다.",
+            "first_step": "화면에 무작위로 생성되는 오브젝트를 클릭하여 삭제하는 프로토타입 구현."
+          },
+          {
+            "title": "최적화 퍼즐",
+            "concept": "제한된 메모리 용량 내에서 기능을 배치하여 시스템이 멈추지 않게 하는 퍼즐 게임입니다.",
+            "first_step": "메모리 점유율을 시각화하는 간단한 UI 구현."
+          }
+        ],
+        "recommendation_ko": "개발 과정의 고충을 게임으로 풀어내는 아이디어 발상법을 배우기에 좋습니다. 게임 개발의 본질적인 최적화 과정을 재미있게 경험하고 싶은 분들에게 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 게임 플레이 방식이나 승리 조건, 엔진의 실제 구현 방식은 확인되지 않습니다.",
+        "name": "DIRECTOR'S CUT: Scope Creep [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://getboros.itch.io/directors-cut-scope-creep",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 290,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-16"
+    },
+    "apple:6523431445": {
+      "app_key": "apple:6523431445",
+      "name": "SPCT Sports Timing",
+      "developer": "Namgoo Lee",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_lifestyle",
+      "detail_url": "https://apps.apple.com/kr/app/spct-sports-timing/id6523431445?uo=2",
+      "data_date": "2026-11-16",
+      "analysed_at": "2026-11-16T05:35:36+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "SPCT Timing System App - SPCT 계측 기록을 한곳에서 확인 - 실시간으로 자신의 기록 확인 - 기록증, 사진 기록증, 그리고 도착영상 - 러닝사진 : 대회 도착사진 또는 자신만의 사진으로 기록 사진 만들기 - 친구 위치 확인(추후 업데이트 예정) - 크루와 함께 기록 경쟁을 한번에 확인 하세요(추후 업데이트 예정) - 자신의 기록을 다양한 SNS으로 친구와 공유 - 아직 뛰고 있는 친구의 위치 확인",
+      "analysis": {
+        "app_key": "apple:6523431445",
+        "summary_ko": "SPCT Sports Timing은 스포츠 대회 참가자의 기록을 실시간으로 계측하고 관리하는 시스템 앱입니다. 자신의 기록을 확인하고 기록증이나 사진 기록증을 생성할 수 있습니다. 향후 친구 위치 확인 및 크루 경쟁 기능이 업데이트될 예정입니다.",
+        "features_ko": [
+          "대회 참가자의 실시간 기록을 확인하고 관리할 수 있습니다.",
+          "기록증 및 사진 기록증을 생성하여 개인화된 기록을 남길 수 있습니다.",
+          "자신의 기록을 SNS를 통해 친구들과 공유할 수 있습니다."
+        ],
+        "noteworthy_ko": "대회 운영과 기록 관리를 디지털화하여 참가자에게 즉각적인 피드백을 제공하는 점이 흥미롭습니다. 기록증 생성 기능은 사용자 경험 측면에서 만족도가 높을 것으로 보입니다.",
+        "development_ko": "실시간 데이터 동기화를 위한 서버 통신이 가장 중요합니다. 대량의 기록 데이터를 안정적으로 처리하는 데이터베이스 설계와 사용자별 기록증 이미지 생성 로직이 필요합니다. SNS 공유를 위한 외부 API 연동도 필수적입니다.",
+        "idea_ko": "기록을 기반으로 사용자의 성장 그래프를 시각화해주거나, 비슷한 기록을 가진 사용자들과의 랭킹을 제공하는 기능이 유용할 것입니다.",
+        "highlights_ko": [
+          "실시간 계측: 대회 중 자신의 기록을 즉시 확인 가능.",
+          "기록 시각화: 사진과 결합된 기록증 생성 기능."
+        ],
+        "systems_ko": [
+          "실시간 데이터 수신 및 동기화 시스템",
+          "사용자 기록 데이터베이스 관리",
+          "이미지 합성 및 기록증 생성 엔진",
+          "SNS 공유 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "데이터 관리와 이미지 생성은 표준적인 기술로 구현 가능합니다. 다만, 실시간 데이터 처리를 위한 서버 인프라 구축이 필요하며, 대회 규모에 따른 트래픽 관리가 변수입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 기록 조회 기능",
+            "기본 기록증 텍스트 생성 기능"
+          ],
+          "defer": [
+            "실시간 친구 위치 확인",
+            "크루 경쟁 시스템",
+            "사진 기록증 생성"
+          ],
+          "risks": [
+            "데이터베이스 서버의 안정성 문제",
+            "대회 현장 네트워크 환경에 따른 데이터 지연"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "개인 기록 다이어리",
+            "concept": "대회 기록뿐만 아니라 평소 훈련 기록을 누적하여 자신의 성장 과정을 기록하는 앱입니다.",
+            "first_step": "사용자별 기록을 저장하고 날짜별로 조회하는 기능을 구현합니다."
+          },
+          {
+            "title": "기록 예측기",
+            "concept": "과거 기록 데이터를 분석하여 다음 대회에서의 예상 완주 시간을 계산해 주는 기능입니다.",
+            "first_step": "기존 기록의 평균과 추세를 계산하는 간단한 통계 로직을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "데이터베이스와 서버 통신을 활용한 앱 개발을 연습하기에 적합합니다. 기록 관리라는 명확한 목적이 있어 기능 구현의 우선순위를 정하기 좋습니다.",
+        "source_limitations_ko": "실시간 계측을 위한 하드웨어(센서 등)와의 연동 방식은 소개문에 없습니다. 또한 향후 업데이트 예정인 기능들의 구체적인 구현 범위는 알 수 없습니다.",
+        "name": "SPCT Sports Timing",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/spct-sports-timing/id6523431445?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 201,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 13,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-16"
+    },
+    "apple:6759358968": {
+      "app_key": "apple:6759358968",
+      "name": "PadLab - Live Pads",
+      "developer": "DANIEL TIMOTEO ALBANO PRODUCOES LTDA",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/padlab-live-pads/id6759358968",
+      "data_date": "2026-11-16",
+      "analysed_at": "2026-11-16T05:38:10+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "PadLab reúne pads de ambiência, bateria e instrumentos para ensaios, criação musical e apresentações ao vivo. Toque pela tela do iPhone ou iPad ou conecte um controlador MIDI compatível. • Pads contínuos em diferentes tonalidades, com transições e controles de volume. • Drum Pads com kits, escolha individual de peças e importação de vários samples de uma vez. • Live Loops, por compra única avulsa ou incluído no PadLab Full App, para criar patterns e gravar batidas quantizadas em uma volta ou overdub. Organize cenas, monte seus kits e explore presets Gospel/worship. • Mixer do Live Loops com volume, panorama, mute, solo e reverb com IR e envio individual por peça. • Metrônomo com ajuste de BPM, compasso, som e volume. • MIDI Learn para mapear pads, peças, transporte, volume e seleção de sets. • Sets completos que reúnem pads, bateria, Live Loops e os instrumentos e ajustes do StageLab, quando utilizados. Organize-os na Set List para acesso rápido. • Importação e exportação de sets e Live Loops, incluindo os arquivos pessoais utilizados. Pacotes de performance podem incluir seus samples e SF2. • Guias na própria tela para conhecer os controles e consultar novamente quando precisar. StageLab é uma expansão opcional, desbloqueada por compra dentro do app. Combine até oito timbres, use instrumentos da biblioteca ou importe SoundFonts SF2. Ajuste volumes, regiões do teclado, canais MIDI, envelopes, equalização, compressão e reverb. Os efeitos por timbre incluem chorus, tremolo, auto pan, drive e Leslie. O Master oferece volume, ganho independente de até +9 dB e MIDI Learn. Dentro do StageLab, o sintetizador WAVE 3 oferece edição de osciladores, filtros, envelopes e efeitos, além de arpejador e sequenciador integrados. Explore o banco de 24 timbres ARP/SEQ, crie seus próprios sons e salve seus presets. No aplicativo independente, WAVE 3 e Live Loops acompanham o metrônomo compartilhado. A extensão AUv3 permite usar instrumentos em hosts compatíveis; Live Loops é reproduzido apenas no aplicativo independente. No AUv3, WAVE 3 mantém as opções de clock Local/Host. O PadLab Full App inclui Live Loops e StageLab, inclusive para quem já comprou o Full anteriormente. O arpejador e o sequenciador do WAVE 3 estão incluídos no StageLab, sem compra adicional. Compradores antigos dos recursos avulsos ARP/SEQ mantêm acesso às ferramentas antigas. Live Loops avulso não desbloqueia StageLab nem todos os kits premium. Outros timbres, kits e recursos opcionais são oferecidos por compras dentro do app. Conteúdos de fábrica dos sets dependem da biblioteca e das compras disponíveis no aparelho de destino.",
+      "analysis": {
+        "app_key": "apple:6759358968",
+        "summary_ko": "PadLab은 앰비언트 패드, 드럼, 악기 사운드를 결합하여 라이브 공연과 음악 제작을 돕는 앱입니다. MIDI 컨트롤러를 연결하거나 화면을 직접 터치하여 연주할 수 있으며, 다양한 샘플과 사운드 폰트를 지원합니다. 라이브 루프와 메트로놈 기능을 통해 체계적인 음악 작업을 가능하게 합니다.",
+        "features_ko": [
+          "다양한 톤의 앰비언트 패드를 제공하며 볼륨과 전환을 제어합니다.",
+          "드럼 패드 키트를 구성하고 샘플을 가져와 연주할 수 있습니다.",
+          "라이브 루프 기능을 통해 패턴을 만들고 퀀타이즈된 비트를 녹음합니다.",
+          "MIDI Learn 기능을 통해 외부 컨트롤러를 매핑할 수 있습니다.",
+          "메트로놈과 BPM 조절 기능을 통해 박자를 맞춘 연주를 지원합니다."
+        ],
+        "noteworthy_ko": "라이브 공연과 스튜디오 작업을 동시에 지원하는 확장성이 흥미롭습니다. 특히 MIDI Learn 기능을 통해 범용성을 확보한 점은 음악 앱으로서 매우 중요한 설계입니다.",
+        "development_ko": "저지연 오디오 엔진 구현이 가장 중요합니다. MIDI 데이터 처리와 샘플 기반 악기의 실시간 렌더링, 그리고 AUv3 확장 기능을 지원하기 위한 애플의 오디오 프레임워크 활용 능력이 필수적입니다.",
+        "idea_ko": "사용자가 만든 루프를 클라우드에 공유하여 다른 사용자와 협업할 수 있는 '루프 마켓플레이스' 기능을 추가하면 좋습니다.",
+        "highlights_ko": [
+          "라이브 공연에 최적화된 직관적인 인터페이스와 MIDI 지원.",
+          "StageLab을 통한 심도 있는 사운드 디자인 및 악기 확장성."
+        ],
+        "systems_ko": [
+          "저지연 오디오 엔진",
+          "MIDI 입력 및 매핑 시스템",
+          "샘플 로딩 및 관리 시스템",
+          "오디오 믹서 및 이펙트 처리",
+          "AUv3 확장 호환성"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "전문적인 오디오 앱은 매우 높은 수준의 기술적 완성도를 요구합니다. 특히 실시간 오디오 처리와 MIDI 동기화는 1인 개발자에게 큰 도전입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 패드 재생 및 볼륨 조절",
+            "메트로놈 기능",
+            "기본 MIDI 입력 지원"
+          ],
+          "defer": [
+            "AUv3 확장 기능",
+            "복잡한 사운드 폰트 편집기"
+          ],
+          "risks": [
+            "오디오 지연(Latency) 문제",
+            "다양한 MIDI 기기와의 호환성 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "AI 자동 반주기",
+            "concept": "사용자가 연주하는 코드에 맞춰 AI가 실시간으로 어울리는 앰비언트 패드를 생성합니다.",
+            "first_step": "코드 진행을 분석하여 화성학적으로 어울리는 사운드를 선택하는 로직 구현."
+          },
+          {
+            "title": "공연 셋리스트 매니저",
+            "concept": "공연 순서에 맞춰 패드와 악기 설정을 자동으로 변경해 주는 셋리스트 관리 도구입니다.",
+            "first_step": "설정값(Preset)을 저장하고 순서대로 불러오는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "전문적인 오디오 소프트웨어 개발에 관심 있는 개발자에게 추천합니다. 오디오 프레임워크와 MIDI 프로토콜을 깊이 있게 다룰 수 있는 좋은 기회입니다.",
+        "source_limitations_ko": "StageLab의 구체적인 합성 엔진 방식이나 사운드 폰트 처리 알고리즘은 공개되지 않았습니다. 앱 내 결제 시스템의 세부 구성이나 외부 라이브러리 의존성에 대한 정보는 없습니다.",
+        "name": "PadLab - Live Pads",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/padlab-live-pads/id6759358968",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-16"
+    },
+    "apple:6751336870": {
+      "app_key": "apple:6751336870",
+      "name": "CardiCare - Heart Rate&Health",
+      "developer": "VitalZcan AI",
+      "source": "apple",
+      "country": "US",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/us/app/cardicare-heart-rate-health/id6751336870?uo=2",
+      "data_date": "2026-11-16",
+      "analysed_at": "2026-11-16T05:39:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Track your heartbeat, monitor wellness trends, and stay mindful — powered by AI. CardiCare combines instant heart rate measurements with AI health insights, motivating you to build healthier habits — all from your smartphone. Key Features Heart Rate Monitor & HRV Check – Measure your pulse (BPM) and heart rate variability in seconds using your iPhone camera. Blood Sugar Tracker – Log and track blood glucose levels with easy manual input, perfect for diabetes management and health monitoring. AI Health Insights – Get personalized wellness tips, stress management suggestions, and lifestyle recommendations tailored to your health data. Blood Pressure & Oxygen Monitor – Track blood pressure readings and SpO2 levels in one convenient health app. (manual input) Health Trends & Analytics – Visualize patterns with daily, weekly, and monthly charts to monitor your fitness progress over time. Smart Reminders & Goals – Stay consistent with customizable notifications and achievement tracking for your health journey. Apple Health Integration – Seamlessly sync with Apple Health to centralize all your fitness tracker and wellness data. Why CardiCare? - No wearable devices needed — just your iPhone - Comprehensive health tracking: heart rate, blood sugar, blood pressure all in one - User-friendly interface with clear graphs and organized health records - Regular updates with new features and improvements - Perfect for fitness enthusiasts and health-conscious users Important Notice CardiCare is for general wellness and fitness purposes only.It is not a medical device, and should not be used for medical diagnosis, treatment, or emergencies. Always consult a qualified healthcare professional for health concerns. Privacy Policy: https://sites.google.com/view/aihealth-privacy Terms of Use: https://sites.google.com/view/aihealth-terms Support Email: info.heart2025@gmail.com",
+      "analysis": {
+        "app_key": "apple:6751336870",
+        "summary_ko": "CardiCare는 스마트폰 카메라를 활용해 심박수와 심박변이도(HRV)를 측정하고 건강 데이터를 관리하는 앱입니다. 혈당, 혈압, 산소포화도 등 다양한 건강 지표를 수동으로 기록할 수 있습니다. AI를 통해 개인화된 웰니스 팁과 생활 습관 개선 제안을 제공합니다. Apple Health와 연동하여 건강 데이터를 통합 관리할 수 있습니다.",
+        "features_ko": [
+          "아이폰 카메라를 이용해 심박수(BPM)와 심박변이도를 측정합니다.",
+          "혈당, 혈압, 산소포화도 수치를 사용자가 직접 입력하여 기록합니다.",
+          "수집된 데이터를 바탕으로 AI가 맞춤형 웰니스 및 생활 습관 조언을 제공합니다.",
+          "일간, 주간, 월간 차트를 통해 건강 상태의 변화 추이를 시각화합니다.",
+          "Apple Health 앱과 데이터를 동기화하여 통합 관리합니다."
+        ],
+        "noteworthy_ko": "카메라 센서를 활용한 광혈류측정(PPG) 기술을 모바일 앱에 구현한 점이 흥미롭습니다. 다만, 의료 기기가 아님을 명시하고 있어 실제 측정 정확도와 사용자 신뢰도 확보가 개발의 핵심 과제로 보입니다.",
+        "development_ko": "카메라 프레임 분석을 통한 심박수 추출 알고리즘 구현이 핵심 기술입니다. 수동 입력 데이터의 데이터베이스 설계와 시각화 차트 구현이 필요합니다. 의료 기기가 아니라는 점을 명확히 고지하는 법적 면책 조항과 사용자 데이터 보안 관리가 중요합니다.",
+        "idea_ko": "특정 시간대별 심박수와 사용자가 입력한 감정 상태를 매칭하여 스트레스 패턴을 분석하는 '감정-심박수 상관관계 리포트' 기능.",
+        "highlights_ko": [
+          "별도의 웨어러블 기기 없이 스마트폰 카메라만으로 심박수 측정이 가능합니다.",
+          "다양한 건강 지표를 한곳에 모아 시각화하는 통합 대시보드를 제공합니다."
+        ],
+        "systems_ko": [
+          "카메라 영상 처리 및 심박수 추출 모듈",
+          "사용자 데이터 로컬/클라우드 저장소",
+          "데이터 시각화 차트 엔진",
+          "Apple Health 연동 API",
+          "AI 기반 조언 생성 로직"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "카메라를 통한 생체 신호 추출은 조명과 손가락 위치 등 환경 변수에 매우 민감하여 높은 수준의 신호 처리 기술이 필요합니다. 또한 건강 데이터의 정확성과 보안은 개인 개발자가 다루기에 매우 높은 책임이 따릅니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카메라 기반 심박수 측정 기능",
+            "수동 데이터 입력 및 저장 기능",
+            "기본 차트 시각화"
+          ],
+          "defer": [
+            "AI 맞춤형 조언",
+            "Apple Health 연동",
+            "혈압/혈당 자동 분석"
+          ],
+          "risks": [
+            "측정 정확도 부족으로 인한 사용자 불만",
+            "개인 건강 정보 유출 위험"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "심박수 기반 집중력 타이머",
+            "concept": "공부나 업무 중 심박수를 측정하여 사용자의 집중 상태를 파악하고, 휴식이 필요할 때 알림을 주는 기능입니다.",
+            "first_step": "심박수 측정 모듈과 타이머 기능을 결합하여 특정 심박수 이상일 때 휴식 알림을 띄우는 프로토타입 제작."
+          },
+          {
+            "title": "건강 습관 챌린지 기록기",
+            "concept": "심박수 데이터와 연동하여 운동 전후의 변화를 기록하고, 목표 달성 시 배지를 부여하는 게이미피케이션 요소 도입.",
+            "first_step": "운동 전후 심박수 기록을 저장하고 간단한 달성률 그래프를 보여주는 앱 구현."
+          }
+        ],
+        "recommendation_ko": "생체 신호 처리와 데이터 시각화에 관심 있는 개발자에게 추천합니다. 다만, 의료 관련 앱은 규제와 책임이 크므로 학습용으로만 접근하는 것이 좋습니다.",
+        "source_limitations_ko": "소개문에 명시된 AI 알고리즘의 구체적인 작동 방식이나 데이터 처리 과정은 확인되지 않습니다. 외부 의료 기기 연동 여부나 결제 시스템에 대한 정보는 없습니다.",
+        "name": "CardiCare - Heart Rate&Health",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/cardicare-heart-rate-health/id6751336870?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-16"
     }
   }
 }

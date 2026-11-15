@@ -12031,6 +12031,94 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-15"
+    },
+    "itch:dce589b3703359fa2d56": {
+      "app_key": "itch:dce589b3703359fa2d56",
+      "name": "DICERUNNER [Free] [Strategy]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://expertesche.itch.io/dicerunner",
+      "data_date": "2026-11-16",
+      "analysed_at": "2026-11-16T05:34:33+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Cyberpunk-Roguelike: Hack Netzwerke mit Würfelpoker. / Cyberpunk roguelike: hack networks with dice poker.",
+      "analysis": {
+        "app_key": "itch:dce589b3703359fa2d56",
+        "summary_ko": "DICERUNNER는 주사위 포커를 활용하여 네트워크를 해킹하는 사이버펑크 로그라이크 게임입니다. 전략적인 주사위 운용을 통해 네트워크를 돌파하는 경험을 제공합니다.",
+        "features_ko": [
+          "주사위 포커 규칙을 기반으로 한 해킹 메커니즘을 사용합니다.",
+          "사이버펑크 세계관을 배경으로 한 로그라이크 구조입니다.",
+          "네트워크를 해킹하며 점진적으로 난이도가 상승합니다."
+        ],
+        "noteworthy_ko": "주사위 포커와 해킹이라는 테마를 결합한 점이 독창적입니다. 운과 전략이 공존하는 로그라이크 시스템을 구축하는 것은 개발자에게 매우 도전적이고 흥미로운 과제입니다.",
+        "development_ko": "주사위 조합에 따른 결과 처리 로직과 로그라이크 특유의 무작위 생성 시스템이 핵심입니다. 사이버펑크 분위기를 살리기 위한 UI/UX 디자인과 효과적인 연출이 중요합니다.",
+        "idea_ko": "주사위의 눈을 변경하거나 고정하는 '해킹 툴' 아이템을 추가하여 전략성을 높이는 것을 제안합니다.",
+        "highlights_ko": [
+          "주사위 포커라는 익숙한 규칙을 해킹이라는 테마로 재해석했습니다.",
+          "사이버펑크 로그라이크 특유의 긴장감 넘치는 게임 플레이를 제공합니다."
+        ],
+        "systems_ko": [
+          "주사위 굴리기 및 판정 로직",
+          "로그라이크 맵 생성",
+          "해킹 성공/실패 판정 시스템",
+          "상태 관리 및 밸런스 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "로그라이크의 무작위성 제어와 주사위 포커 규칙의 밸런스를 맞추는 것이 매우 까다롭습니다. 복합적인 시스템 설계 능력이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "주사위 굴리기 로직",
+            "포커 족보 판정 시스템",
+            "기본 해킹 성공/실패 로직"
+          ],
+          "defer": [
+            "복잡한 사이버펑크 스토리",
+            "다양한 해킹 스킬 트리"
+          ],
+          "risks": [
+            "밸런스 붕괴",
+            "운에만 의존하는 게임 플레이"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "해킹 툴 커스터마이징",
+            "concept": "주사위의 눈을 조작할 수 있는 해킹 툴을 수집하여 자신만의 주사위 덱을 구성합니다.",
+            "first_step": "주사위 눈을 강제로 바꾸는 아이템 효과 구현."
+          },
+          {
+            "title": "네트워크 방어전",
+            "concept": "해킹을 하는 동시에 적의 추적을 피하는 방어전 모드를 추가합니다.",
+            "first_step": "턴마다 적의 공격이 들어오는 간단한 턴제 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "전략적인 게임 시스템을 설계하고 싶은 개발자에게 추천합니다. 로그라이크의 핵심인 '무작위성'과 '전략'의 균형을 배우기에 좋습니다.",
+        "source_limitations_ko": "주사위 포커의 구체적인 규칙, 네트워크 해킹의 시각적 표현 방식, 로그라이크 요소의 깊이는 상세히 확인되지 않았습니다.",
+        "name": "DICERUNNER [Free] [Strategy]",
+        "source": "itch",
+        "detail_url": "https://expertesche.itch.io/dicerunner",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 293,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-16"
     }
   }
 }

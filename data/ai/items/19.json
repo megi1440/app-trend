@@ -11112,6 +11112,180 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-13"
+    },
+    "itch:c5a59a0b176a1d5d9c69": {
+      "app_key": "itch:c5a59a0b176a1d5d9c69",
+      "name": "Jingle Express [Free] [Simulation] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://craftingpanda.itch.io/jingle-express",
+      "data_date": "2026-11-16",
+      "analysed_at": "2026-11-16T05:33:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Build roads, deliver Christmas presents, connect railway networks",
+      "analysis": {
+        "app_key": "itch:c5a59a0b176a1d5d9c69",
+        "summary_ko": "도로를 건설하고 철도 네트워크를 연결하여 크리스마스 선물을 배달하는 시뮬레이션 게임입니다. 물류 네트워크를 효율적으로 구축하는 것이 게임의 핵심입니다.",
+        "features_ko": [
+          "도로 건설 및 철도 네트워크 연결 기능.",
+          "크리스마스 선물을 목적지까지 배달하는 물류 시스템.",
+          "네트워크 효율을 고려한 경로 설계."
+        ],
+        "noteworthy_ko": "물류 최적화와 네트워크 연결은 시뮬레이션 장르에서 매우 인기 있는 요소입니다. 경로 탐색 알고리즘(A* 등)을 직접 구현해 볼 수 있는 좋은 기회입니다.",
+        "development_ko": "그리드 기반의 건설 시스템과 경로 탐색 알고리즘 구현이 핵심입니다. 배달 물량과 네트워크 부하를 관리하는 밸런스 조정이 필요합니다.",
+        "idea_ko": "배달 시간에 따라 보상이 달라지는 시스템을 추가하여 긴박감을 더하는 것이 좋습니다.",
+        "highlights_ko": [
+          "물류 네트워크 구축의 재미.",
+          "크리스마스 테마의 시각적 구성."
+        ],
+        "systems_ko": [
+          "그리드 기반 건설 시스템",
+          "경로 탐색 알고리즘",
+          "물류 배달 및 자원 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "건설 시스템과 경로 탐색은 구현 난이도가 있지만, 시뮬레이션 장르의 표준적인 기능입니다. 1인 개발 시 범위를 제한하면 충분히 구현 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "도로 건설 기능",
+            "기본 배달 로직"
+          ],
+          "defer": [
+            "복잡한 철도 시스템",
+            "다양한 선물 종류"
+          ],
+          "risks": [
+            "경로 탐색 알고리즘의 성능 문제",
+            "건설 UI의 불편함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "택배 대란",
+            "concept": "선물 배달량이 급증하는 상황에서 네트워크를 유지하는 타워 디펜스 스타일의 게임입니다.",
+            "first_step": "배달 물량 증가에 따른 난이도 상승 로직."
+          },
+          {
+            "title": "친환경 배달",
+            "concept": "도로 대신 친환경 운송 수단을 사용하여 탄소 배출을 줄이는 물류 게임입니다.",
+            "first_step": "운송 수단별 효율성 계산 시스템."
+          }
+        ],
+        "recommendation_ko": "시뮬레이션 게임의 핵심인 시스템 설계와 알고리즘을 배우기에 좋습니다. 물류 게임을 좋아한다면 도전해 볼 만합니다.",
+        "source_limitations_ko": "네트워크 연결의 복잡도, 물리 엔진 사용 여부, 배달 로직의 상세 사양은 알 수 없습니다.",
+        "name": "Jingle Express [Free] [Simulation] [Windows]",
+        "source": "itch",
+        "detail_url": "https://craftingpanda.itch.io/jingle-express",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 320,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 20,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-16"
+    },
+    "itch:e2077058d5cc89a1e84f": {
+      "app_key": "itch:e2077058d5cc89a1e84f",
+      "name": "The Part We Skip [Free] [Puzzle]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://kelvin0721.itch.io/the-part-we-skip",
+      "data_date": "2026-11-16",
+      "analysed_at": "2026-11-16T05:34:52+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A first-person puzzle adventure where you cut seconds from the world's future to slip past impossible obstacles.",
+      "analysis": {
+        "app_key": "itch:e2077058d5cc89a1e84f",
+        "summary_ko": "미래의 시간을 잘라내어 불가능한 장애물을 통과하는 1인칭 퍼즐 어드벤처 게임입니다. 시간을 조작하여 공간적 제약을 극복하는 독특한 메커니즘을 제공합니다.",
+        "features_ko": [
+          "1인칭 시점으로 세계를 탐험합니다.",
+          "미래의 시간을 잘라내어 장애물을 통과합니다.",
+          "시간 조작을 통해 퍼즐을 해결합니다."
+        ],
+        "noteworthy_ko": "시간을 자원처럼 사용하여 공간적 제약을 해결한다는 개념이 매우 창의적입니다. 퍼즐 설계 시 시간 조작이 공간에 미치는 영향을 논리적으로 구현하는 것이 핵심입니다.",
+        "development_ko": "시간 조작을 위한 데이터 기록 및 재생 시스템이 필요합니다. 1인칭 시점의 퍼즐 레벨 디자인이 중요하며, 시간 조작이 환경에 미치는 시각적 효과 구현이 큰 비중을 차지합니다.",
+        "idea_ko": "시간을 잘라내어 특정 구간을 건너뛰는 '타임 컷' 퍼즐.",
+        "highlights_ko": [
+          "시간 조작을 통한 공간 퍼즐 해결.",
+          "1인칭 시점의 몰입감 있는 탐험."
+        ],
+        "systems_ko": [
+          "시간 기록 및 되감기 시스템",
+          "1인칭 캐릭터 컨트롤러",
+          "퍼즐 트리거 및 이벤트 관리",
+          "공간 변형 로직"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "시간 조작 로직은 구현 난이도가 높으며, 퍼즐의 논리적 구조를 설계하는 데 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "시간 조작 기능(시간 자르기)",
+            "기본적인 1인칭 이동",
+            "장애물 통과 로직"
+          ],
+          "defer": [
+            "복잡한 스토리라인",
+            "고품질 그래픽 에셋"
+          ],
+          "risks": [
+            "시간 조작으로 인한 버그 발생",
+            "퍼즐의 난이도 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "타임 컷 탈출",
+            "concept": "시간을 잘라내어 닫힌 문을 통과하거나 함정을 피하는 퍼즐 게임입니다.",
+            "first_step": "특정 구역의 시간을 정지하거나 건너뛰는 간단한 스크립트 구현."
+          },
+          {
+            "title": "과거의 흔적",
+            "concept": "시간을 잘라내어 과거의 내 행동을 현재로 불러와 퍼즐을 푸는 방식입니다.",
+            "first_step": "플레이어의 위치를 기록하고 재생하는 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "시간 조작 메커니즘을 활용한 퍼즐 설계에 관심 있는 개발자에게 추천합니다. 논리적 사고와 시스템 구현 능력을 동시에 기를 수 있습니다.",
+        "source_limitations_ko": "시간 조작의 구체적인 규칙이나 퍼즐의 난이도, 게임의 전체적인 볼륨 등은 확인되지 않습니다.",
+        "name": "The Part We Skip [Free] [Puzzle]",
+        "source": "itch",
+        "detail_url": "https://kelvin0721.itch.io/the-part-we-skip",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 284,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 32,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-16"
     }
   }
 }

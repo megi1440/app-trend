@@ -11504,6 +11504,175 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-15"
+    },
+    "itch:b6c1aeb325b45933f48b": {
+      "app_key": "itch:b6c1aeb325b45933f48b",
+      "name": "Forest Knight (ZX Spectrum Next) [Free]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://shrek128.itch.io/forest-knight",
+      "data_date": "2026-11-16",
+      "analysed_at": "2026-11-16T05:33:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Forest Knight is an action platformer for the ZX Spectrum Next.",
+      "analysis": {
+        "app_key": "itch:b6c1aeb325b45933f48b",
+        "summary_ko": "ZX Spectrum Next 플랫폼을 위해 개발된 액션 플랫포머 게임입니다. 숲을 배경으로 기사가 되어 모험을 떠나는 고전적인 구성을 가집니다. 레트로 하드웨어의 특성을 살린 게임 플레이를 제공합니다.",
+        "features_ko": [
+          "플랫포머 장르의 기본 이동 및 점프 기능을 제공합니다.",
+          "ZX Spectrum Next 플랫폼에 최적화된 그래픽과 사운드를 지원합니다.",
+          "적을 피하거나 물리치는 액션 요소를 포함합니다."
+        ],
+        "noteworthy_ko": "특정 레트로 하드웨어를 타겟팅한 점이 개발 관점에서 매우 흥미롭습니다. 하드웨어 제약 조건을 극복하는 최적화 과정이 핵심일 것으로 추정됩니다.",
+        "development_ko": "레트로 하드웨어의 메모리 및 처리 성능 제약 내에서 최적화하는 기술이 필요합니다. 픽셀 아트와 8비트 사운드 제작 부담이 있습니다. 하드웨어 에뮬레이터를 통한 테스트가 필수적입니다.",
+        "idea_ko": "레트로 하드웨어의 제약을 활용하여 화면 전환 시마다 난이도가 급변하는 기믹을 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "ZX Spectrum Next라는 특정 레트로 플랫폼을 지원합니다.",
+          "전통적인 액션 플랫포머의 규칙을 따릅니다."
+        ],
+        "systems_ko": [
+          "플랫포머 물리 엔진",
+          "타일맵 렌더링",
+          "충돌 판정 시스템",
+          "입력 처리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "플랫포머 장르의 기본 구현은 정형화되어 있으나, 특정 하드웨어 제약을 맞추는 과정에서 난이도가 발생합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 점프",
+            "기본 타일맵 충돌 처리"
+          ],
+          "defer": [
+            "복잡한 적 AI",
+            "다양한 아이템 시스템"
+          ],
+          "risks": [
+            "하드웨어 성능 한계로 인한 프레임 드랍",
+            "개발 환경 구축의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "색상 제한 기믹",
+            "concept": "화면에 표시할 수 있는 색상이 제한된 점을 이용해, 특정 색상만 밟을 수 있는 퍼즐을 구현합니다.",
+            "first_step": "색상별 충돌 판정 로직 구현."
+          },
+          {
+            "title": "스피드런 모드",
+            "concept": "레트로 게임의 특성을 살려 최단 시간 클리어를 목표로 하는 경쟁 모드입니다.",
+            "first_step": "타이머 및 기록 저장 시스템."
+          }
+        ],
+        "recommendation_ko": "레트로 게임 개발의 기초와 최적화의 중요성을 배우기에 좋습니다. 고전 게임의 감성을 재현하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 레벨 디자인이나 적의 종류 등 상세 콘텐츠 정보가 부족합니다.",
+        "name": "Forest Knight (ZX Spectrum Next) [Free]",
+        "source": "itch",
+        "detail_url": "https://shrek128.itch.io/forest-knight",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 353,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 9,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-16"
+    },
+    "itch:542b4c0aad3716a351f8": {
+      "app_key": "itch:542b4c0aad3716a351f8",
+      "name": "The Last Portal [Free] [Platformer] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://pedro545.itch.io/the-last-portal",
+      "data_date": "2026-11-16",
+      "analysed_at": "2026-11-16T05:34:12+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A stranded astronaut, a broken emitter and a hooded hermit who once directed the facility. Rewrite the final cut.",
+      "analysis": {
+        "app_key": "itch:542b4c0aad3716a351f8",
+        "summary_ko": "좌초된 우주비행사와 고장 난 송신기, 그리고 시설을 관리하던 은둔자를 중심으로 펼쳐지는 플랫폼 게임입니다. 플레이어는 이야기를 재구성하며 마지막 장면을 완성해야 합니다.",
+        "features_ko": [
+          "플랫폼 게임의 기본 이동 및 점프 메커니즘을 제공합니다.",
+          "고장 난 송신기를 수리하는 목표가 있습니다.",
+          "이야기를 재구성하는 서사적 요소가 포함되어 있습니다.",
+          "은둔자와의 상호작용을 통해 정보를 얻습니다."
+        ],
+        "noteworthy_ko": "플랫폼 게임에 서사 재구성이라는 메커니즘을 결합한 점이 흥미롭습니다. 단순히 점프하는 것을 넘어, 이야기가 어떻게 게임 플레이와 연결되는지가 핵심입니다.",
+        "development_ko": "플랫폼 게임의 정밀한 조작감 구현이 가장 중요합니다. 서사적 단서를 수집하고 이를 통해 게임의 결말을 바꾸는 분기 시스템 설계가 필요합니다.",
+        "idea_ko": "이야기 재구성이 가능한 플랫폼 게임.",
+        "highlights_ko": [
+          "우주비행사와 은둔자라는 캐릭터 설정이 독특합니다.",
+          "이야기를 재구성한다는 독특한 게임 목표를 가지고 있습니다."
+        ],
+        "systems_ko": [
+          "캐릭터 이동 및 물리 시스템",
+          "서사 분기 관리 시스템",
+          "상호작용 시스템",
+          "레벨 디자인"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "플랫폼 게임의 조작감은 구현이 어렵고, 서사 분기 시스템은 복잡한 데이터 관리가 필요하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이동 및 점프",
+            "대화 시스템"
+          ],
+          "defer": [
+            "다양한 적 캐릭터",
+            "복잡한 물리 퍼즐"
+          ],
+          "risks": [
+            "조작감의 불쾌함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "기억의 파편",
+            "concept": "플랫폼을 이동하며 기억의 파편을 수집합니다. 수집한 파편을 조합하여 과거의 사건을 재구성하고, 그 결과에 따라 현재의 맵 구조가 변합니다.",
+            "first_step": "캐릭터 이동과 아이템 획득 시 텍스트가 출력되는 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "플랫폼 게임의 기본기와 서사 중심의 게임 설계를 배우고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "이야기 재구성 메커니즘이 구체적으로 어떻게 게임 플레이에 반영되는지 확인되지 않았습니다.",
+        "name": "The Last Portal [Free] [Platformer] [Windows]",
+        "source": "itch",
+        "detail_url": "https://pedro545.itch.io/the-last-portal",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 302,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-16"
     }
   }
 }

@@ -12146,6 +12146,93 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-15"
+    },
+    "itch:ae9c1304749160d82559": {
+      "app_key": "itch:ae9c1304749160d82559",
+      "name": "Voice Legion — Director's Cut [Free] [Strategy] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://sadcrawler.itch.io/voice-legion",
+      "data_date": "2026-11-16",
+      "analysed_at": "2026-11-16T05:33:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "You direct. Your AI cast improvises. Hold the tower with nothing but your voice.",
+      "analysis": {
+        "app_key": "itch:ae9c1304749160d82559",
+        "summary_ko": "플레이어가 직접 지시를 내리고 AI가 즉흥적으로 연기하는 독특한 전략 게임입니다. 목소리를 사용하여 타워를 방어하는 것이 핵심 경험입니다. 감독의 관점에서 상황을 통제하는 전략적 재미를 제공합니다.",
+        "features_ko": [
+          "플레이어의 지시에 따라 AI가 즉흥적으로 반응합니다.",
+          "목소리를 활용한 타워 방어 메커니즘을 제공합니다.",
+          "감독의 관점에서 게임 상황을 지휘합니다."
+        ],
+        "noteworthy_ko": "AI의 즉흥적 연기와 플레이어의 지시가 결합된 점이 매우 혁신적입니다. 실제 AI 모델 연동 여부는 불분명하며, 스크립트 기반의 확률적 반응일 가능성도 있습니다.",
+        "development_ko": "음성 인식 기술 또는 텍스트 입력 처리 시스템이 핵심입니다. AI의 행동 패턴을 정의하는 상태 머신 구현이 중요합니다. 타워 방어 밸런스와 AI의 즉흥적 반응 사이의 조화가 제작의 난관입니다.",
+        "idea_ko": "음성 명령의 뉘앙스에 따라 AI의 방어 전략이 달라지는 시스템을 구축하는 것이 좋습니다.",
+        "highlights_ko": [
+          "AI와 플레이어의 상호작용을 게임의 핵심으로 삼았습니다.",
+          "목소리라는 독특한 입력 방식을 채택했습니다."
+        ],
+        "systems_ko": [
+          "음성/텍스트 입력 처리",
+          "AI 행동 제어 시스템",
+          "타워 방어 게임 로직",
+          "상태 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "AI의 행동을 제어하고 플레이어의 의도를 정확히 반영하는 시스템은 구현 난이도가 매우 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 타워 방어 로직",
+            "명령어 입력 및 AI 반응 시스템"
+          ],
+          "defer": [
+            "고도화된 음성 인식",
+            "복잡한 AI 성격 시스템"
+          ],
+          "risks": [
+            "AI 반응의 예측 불가능성으로 인한 밸런스 붕괴",
+            "입력 인식 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지휘관의 톤",
+            "concept": "플레이어의 목소리 톤(크기, 속도)에 따라 AI의 공격성이 변하는 시스템입니다.",
+            "first_step": "마이크 입력 볼륨 감지 기능 구현."
+          },
+          {
+            "title": "AI 연기 로그",
+            "concept": "AI가 수행한 즉흥 연기를 기록하여 나중에 다시 볼 수 있는 리플레이 기능입니다.",
+            "first_step": "게임 내 이벤트 로그 저장 시스템."
+          }
+        ],
+        "recommendation_ko": "AI와 게임의 결합을 연구하기에 매우 좋은 사례입니다. 다만 기술적 구현 난이도가 높아 초보자에게는 추천하지 않습니다.",
+        "source_limitations_ko": "AI가 실제로 어떤 방식으로 작동하는지(LLM 연동 여부 등)에 대한 기술적 설명이 없습니다.",
+        "name": "Voice Legion — Director's Cut [Free] [Strategy] [Windows]",
+        "source": "itch",
+        "detail_url": "https://sadcrawler.itch.io/voice-legion",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 359,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 7,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-16"
     }
   }
 }

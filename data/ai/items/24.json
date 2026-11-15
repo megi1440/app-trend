@@ -11085,6 +11085,185 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-15"
+    },
+    "apple:6823156660": {
+      "app_key": "apple:6823156660",
+      "name": "WalkFish｜魚と歩く毎日",
+      "developer": "HARUKI AKIBA",
+      "source": "apple",
+      "country": "JP",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/jp/app/walkfish-%E9%AD%9A%E3%81%A8%E6%AD%A9%E3%81%8F%E6%AF%8E%E6%97%A5/id6823156660?uo=2",
+      "data_date": "2026-11-16",
+      "analysed_at": "2026-11-16T05:35:11+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "いつもの一歩が、小さな魚の成長に。 WalkFish（ウォークフィッシュ）は、毎日の歩数で魚を育てるアプリです。 通勤の道も、買い物の帰りも、いつもの散歩も。 あなたが歩いた分だけ、小さな魚が育ち、少しずつ色づいていきます。 透明な鉢を泳ぐ姿を眺めながら、毎日に小さな楽しみを。 ・歩いて育てる、色とりどりの魚 グッピー、ベタ、金魚など、5種類の魚たち。小さな稚魚から成魚になるまで、変わっていく姿と色を楽しめます。 ・育てた魚が、コレクションに 名前を付けた魚たちは、成長してからもそばに。お気に入りの3匹を「よりみちの水槽」で一緒に泳がせることもできます。 ・大切な人と、一匹を育てる 家族や友達と、同じ鉢で共同育成。それぞれが歩いた割合が、尾びれの色になります。誰と、どれだけ歩いたかも、魚と一緒に思い出として残ります。 ・この子の居場所も、あなたらしく 澄んだ透明な鉢から、色や模様がきらめくガラスの鉢まで。お気に入りの魚に似合う居場所を選べます。 ・歩いた日々を振り返る 毎日の歩数を記録で確認。数字と魚の成長が、次の一歩の楽しみになります。 たくさん歩く日も、少しだけ歩く日も。 あなたのペースで、小さな水族館を育ててみませんか。 基本無料。一部の魚のカラーや鉢は、月額プランで利用できます。 月額プランは680円／月の自動更新です。 歩数の利用には、iPhoneのヘルスケアとの連携が必要です。 【使用許諾契約】 Apple標準EULA https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "analysis": {
+        "app_key": "apple:6823156660",
+        "summary_ko": "매일 걷는 걸음 수로 물고기를 키우는 건강 관리 앱입니다. 걷기를 통해 물고기를 성장시키고 수집하며, 다른 사람과 함께 물고기를 키우는 경험을 제공합니다.",
+        "features_ko": [
+          "사용자의 걸음 수를 측정하여 물고기를 성장시킵니다.",
+          "구피, 베타 등 5종의 물고기를稚魚에서 성어로 키웁니다.",
+          "성장한 물고기를 수집하고 전용 수조에 배치합니다.",
+          "가족이나 친구와 함께 한 마리의 물고기를 공동 육성합니다.",
+          "수조의 디자인을 변경하여 나만의 수족관을 꾸밉니다.",
+          "iPhone의 '건강' 앱과 연동하여 걸음 수를 기록합니다."
+        ],
+        "noteworthy_ko": "걷기라는 일상적인 활동을 물고기 육성이라는 감성적인 경험과 연결한 점이 흥미롭습니다. 공동 육성 기능은 사용자 간의 유대감을 높이는 좋은 장치로 추정됩니다.",
+        "development_ko": "핵심 기술은 Apple HealthKit 연동과 걸음 수 데이터 처리입니다. 콘텐츠 제작은 물고기 성장 단계별 그래픽 에셋과 수조 커스터마이징 요소가 핵심입니다.",
+        "idea_ko": "걷기 목표를 달성할 때마다 물고기에게 줄 수 있는 특별한 먹이나 수조 장식 아이템을 보상으로 주는 시스템이 적합합니다.",
+        "highlights_ko": [
+          "걷기와 육성 게임의 결합.",
+          "공동 육성이라는 소셜 요소."
+        ],
+        "systems_ko": [
+          "HealthKit 연동 시스템",
+          "걸음 수 기반 성장 로직",
+          "수조 커스터마이징 UI",
+          "데이터 동기화 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "HealthKit 연동, 실시간 데이터 동기화, 소셜 공동 육성 기능 등 기술적 난이도가 높고 지속적인 데이터 관리가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "걸음 수 측정 및 연동",
+            "물고기 성장 단계별 이미지 표시",
+            "수조 기본 UI"
+          ],
+          "defer": [
+            "공동 육성 기능",
+            "다양한 수조 커스터마이징"
+          ],
+          "risks": [
+            "HealthKit 연동 오류",
+            "사용자 동기 부여 유지 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "산책 경로 기록",
+            "concept": "물고기가 성장하는 동안 사용자가 걸었던 경로를 지도에 기록하여 추억으로 남기는 기능입니다.",
+            "first_step": "위치 정보(GPS)를 활용한 경로 기록 기능 구현."
+          },
+          {
+            "title": "물고기 도감",
+            "concept": "성장시킨 물고기의 종류와 성장 기록을 도감 형태로 관리하여 수집 욕구를 자극합니다.",
+            "first_step": "물고기 데이터베이스 및 도감 UI 구현."
+          }
+        ],
+        "recommendation_ko": "건강 데이터 연동과 감성적인 UI/UX 디자인을 배우기에 좋습니다. 사용자의 일상에 자연스럽게 녹아드는 앱을 만들고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "월간 구독 모델의 구체적인 구현 방식, 서버 동기화 방식, 공동 육성 시 데이터 충돌 방지 로직 등은 확인되지 않습니다.",
+        "name": "WalkFish｜魚と歩く毎日",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/walkfish-%E9%AD%9A%E3%81%A8%E6%AD%A9%E3%81%8F%E6%AF%8E%E6%97%A5/id6823156660?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 213,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 9,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-16"
+    },
+    "google:com.appslab.nothing.widgetspro": {
+      "app_key": "google:com.appslab.nothing.widgetspro",
+      "name": "NewThing Widgets Pro",
+      "developer": "AppsLab Co.",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.appslab.nothing.widgetspro&hl=en&gl=US",
+      "data_date": "2026-11-16",
+      "analysed_at": "2026-11-16T05:37:01+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "NewThing Widgets PRO – Works on all Android devices Make your home screen stand out with NewThing Widgets Pro! Enjoy a variety of widgets, including Clocks, Weather, Games, Quick Settings, Photos, Compass, Pedometer,Watch, Quotes & Facts, Google, Contact, Earbuds, Battery, Location, Search, and more. 500+ widgets, with new widgets continuously added through updates. No additional apps needed—just install and start using the widgets. Widgets support dark mode, light mode, and Material You mode. Key Features ✦ Works without KWGT or any other app – Just install and use. ✦ 500+ Stunning Widgets – Beautifully designed for a seamless experience. ✦ Material You Support – Instantly match widgets with your theme. ✦ A Wide Range of Widgets – Clocks, Weather, Games, Quick Settings, Photos, Compass, Pedometer, Quotes & Facts, Google, Contact, Earbuds, Battery, Location, Search, and more. ✦ Theme-Matching Wallpapers – Easily set a wallpaper that blends perfectly with your home screen. ✦ Battery-Friendly & Smooth – Optimized for performance. ✦ Regular Updates – More widgets coming soon! Why Choose NewThing Widgets Pro? ✦ 500+ Widgets – Designed for efficiency & style. ✦ Enjoy these widgets without KWGT or additional apps. ✦ Works flawlessly with Material You. ✦ Minimal, Clean, and Elegant Designs. ✦ Customizable & Adaptive Widgets with ease. ✦ Smart and Functional Widgets for Everyday Use. ✦ Simple, Fast, and Intuitive Customization. ✦ Optimized for Performance & Battery Efficiency. Upgrade your home screen with NewThing Widgets Pro and experience a new level of customization and convenience! Not sure yet? NewThing Widgets Pro is designed for those who love the sleek style of Nothing Widgets and OS. We're so confident you'll love your new home screen that we back it with a hassle-free refund policy. Why We Use Exact Alarms Our app uses the USE_EXACT_ALARM permission to ensure timely and accurate updates for your home screen widgets. This helps deliver a reliable experience across various widget types: • Weather Widgets – Update the weather precisely at the scheduled time • Photo Widgets – Change photos exactly when the user sets • Screen Time Widgets – Refresh usage stats right on time • Calendar Widget – Updates events and schedules exactly at the specified time • Event Widget – Notifies and updates upcoming events exactly when needed Without this permission, widget updates might be delayed or inconsistent. We request it only when it's essential for maintaining accurate and real-time functionality. Why Foreground Service is Needed The app uses a foreground service to ensure real-time updates. This keeps your widget looking fresh, accurate, and fully responsive throughout the day. If you’re not satisfied, you can request a refund through Google Play’s policy or reach out to us within 24 hours of purchase for support. Connect With Us: X (Twitter): https://x.com/AppsLab_Co Telegram: https://t.me/AppsLab_Co Gmail: support@appslab.co Refund Policy We follow Google Play Store’s official refund policy: • Within 48 Hours: Request a refund directly via Google Play. • After 48 Hours: Contact us with your order details for further assistance. Support & Refund Requests: support@appslab.co",
+      "analysis": {
+        "app_key": "google:com.appslab.nothing.widgetspro",
+        "summary_ko": "안드로이드 홈 화면을 꾸밀 수 있는 500개 이상의 다양한 위젯을 제공하는 앱입니다. 별도의 런처 앱 없이 설치만으로 즉시 사용 가능하며, Material You 테마를 지원하여 시스템과 조화로운 디자인을 제공합니다.",
+        "features_ko": [
+          "시계, 날씨, 게임, 사진, 배터리 등 500개 이상의 다양한 위젯을 제공합니다.",
+          "별도의 앱(KWGT 등) 없이 단독으로 설치 및 실행이 가능합니다.",
+          "Material You 모드를 지원하여 시스템 테마와 위젯 디자인을 자동으로 맞춥니다.",
+          "정확한 업데이트를 위해 USE_EXACT_ALARM 권한을 사용합니다.",
+          "배터리 효율을 고려한 최적화된 성능을 제공합니다."
+        ],
+        "noteworthy_ko": "사용자 커스터마이징 니즈를 정확히 파악하여 별도 앱 의존성을 제거한 점이 시장 경쟁력의 핵심입니다. 정확한 위젯 업데이트를 위해 안드로이드 시스템 권한을 적극적으로 활용한 점이 개발 관점에서 흥미롭습니다.",
+        "development_ko": "안드로이드 위젯 프레임워크에 대한 깊은 이해와 다양한 디자인 리소스 관리 능력이 필요합니다. 시스템 권한을 활용한 백그라운드 작업 관리와 배터리 소모 최소화가 기술적 핵심입니다.",
+        "idea_ko": "사용자가 직접 위젯의 레이아웃을 드래그 앤 드롭으로 구성할 수 있는 '위젯 빌더' 기능을 추가하여 자유도를 극대화하는 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "500개 이상의 방대한 위젯 라이브러리.",
+          "Material You 테마 지원을 통한 일체감 있는 UI."
+        ],
+        "systems_ko": [
+          "안드로이드 위젯 관리 시스템",
+          "시스템 테마 동기화 엔진",
+          "백그라운드 업데이트 스케줄러",
+          "리소스 관리 및 최적화 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "위젯 API 자체는 표준화되어 있으나, 500개 이상의 디자인을 유지보수하고 시스템 테마와 완벽히 연동하는 과정에서 많은 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 위젯 템플릿 5종",
+            "위젯 설정 및 적용 UI",
+            "시스템 테마 연동 로직"
+          ],
+          "defer": [
+            "500개 이상의 방대한 위젯 라이브러리",
+            "고급 커스터마이징 빌더"
+          ],
+          "risks": [
+            "안드로이드 버전별 위젯 동작 차이",
+            "백그라운드 작업으로 인한 배터리 소모 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "위젯 테마 공유",
+            "concept": "사용자가 만든 위젯 조합을 커뮤니티에 공유하고 다른 사용자가 바로 적용할 수 있는 기능입니다.",
+            "first_step": "위젯 설정값을 JSON 형태로 내보내고 불러오는 기능을 구현합니다."
+          },
+          {
+            "title": "상황별 위젯 자동 전환",
+            "concept": "사용자의 위치나 시간에 따라 홈 화면의 위젯 구성을 자동으로 변경합니다.",
+            "first_step": "시간대별로 다른 위젯을 표시하는 간단한 스케줄러를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "안드로이드 위젯 시스템과 시스템 테마 연동 기술을 배우기에 좋습니다. 디자인 리소스 관리와 성능 최적화의 중요성을 경험할 수 있습니다.",
+        "source_limitations_ko": "정확한 업데이트를 위한 권한 사용 외에 개인정보 수집 여부나 외부 서버 통신 상세 내용은 확인되지 않았습니다.",
+        "name": "NewThing Widgets Pro",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.appslab.nothing.widgetspro&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 168,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-16"
     }
   }
 }

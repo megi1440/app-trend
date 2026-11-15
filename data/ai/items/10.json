@@ -12799,6 +12799,713 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-15"
+    },
+    "itch:c3de3c46101bc0425c1f": {
+      "app_key": "itch:c3de3c46101bc0425c1f",
+      "name": "Broken, Repair! [Free] [Simulation] [Windows] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "featured",
+      "detail_url": "https://eduardscarpato.itch.io/broken-repair",
+      "data_date": "2026-11-16",
+      "analysed_at": "2026-11-16T05:33:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Repair old and worn-out GameToys from your local neighborhood!",
+      "analysis": {
+        "app_key": "itch:c3de3c46101bc0425c1f",
+        "summary_ko": "이 게임은 동네의 낡고 망가진 게임 장난감들을 수리하는 시뮬레이션 게임입니다. 플레이어는 수리공이 되어 고장 난 물건을 고치는 과정을 경험하게 됩니다. 구체적인 게임 플레이 방식은 설명이 부족하여 확인이 어렵습니다.",
+        "features_ko": [
+          "낡은 게임 장난감을 수리하는 시뮬레이션 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "수리라는 일상적인 행위를 게임화한 점이 흥미롭습니다. 구체적인 수리 메커니즘이 명시되지 않아, 퍼즐 요소나 물리 엔진 활용 여부는 추정의 영역입니다.",
+        "development_ko": "핵심 구현 기술로는 마우스 클릭 기반의 상호작용 시스템이 필요합니다. 콘텐츠 제작은 다양한 장난감 모델링과 수리 단계별 애니메이션 구성이 핵심입니다. 밸런스 측면에서는 수리 난이도 조절이 중요할 것으로 보입니다.",
+        "idea_ko": "수리한 장난감을 다시 가지고 노는 미니게임을 추가하여 성취감을 높이는 방식이 적합합니다.",
+        "highlights_ko": [
+          "동네 수리공이라는 친근한 테마를 다루고 있습니다.",
+          "수리 대상이 '게임 장난감'으로 한정되어 있어 명확한 컨셉을 가집니다."
+        ],
+        "systems_ko": [
+          "아이템 상호작용 시스템",
+          "수리 단계 관리 시스템",
+          "인벤토리 및 도구 관리",
+          "UI/UX 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "수리 메커니즘을 어떻게 구현하느냐에 따라 난이도가 크게 달라집니다. 단순 클릭형이라면 쉽지만, 물리 기반 조립이라면 복잡도가 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "장난감 모델링 및 배치",
+            "수리 도구 선택 및 사용 기능"
+          ],
+          "defer": [
+            "복잡한 물리 엔진 적용",
+            "다양한 수리 퀘스트 라인"
+          ],
+          "risks": [
+            "반복적인 수리 과정의 지루함",
+            "조작감의 불편함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "수리 후 테스트",
+            "concept": "수리한 장난감을 직접 작동시켜 보는 미니게임 모드입니다. 수리 상태에 따라 장난감의 성능이 달라집니다.",
+            "first_step": "간단한 장난감 작동 애니메이션 구현."
+          },
+          {
+            "title": "부품 수집가",
+            "concept": "고장 난 장난감을 고치기 위해 다른 물건에서 부품을 추출하는 수집 요소입니다.",
+            "first_step": "부품 분해 및 인벤토리 시스템 구축."
+          }
+        ],
+        "recommendation_ko": "간단한 상호작용 게임의 기본기를 익히기에 좋습니다. 다만 정보가 부족하여 실제 구현 시 기획을 대폭 보강해야 합니다.",
+        "source_limitations_ko": "수리 방식, 게임의 승리 조건, 장난감의 종류 등 핵심 게임 플레이 정보가 전혀 명시되어 있지 않습니다.",
+        "name": "Broken, Repair! [Free] [Simulation] [Windows] [Linux]",
+        "source": "itch",
+        "detail_url": "https://eduardscarpato.itch.io/broken-repair",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 375,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-16"
+    },
+    "itch:c63a9b91303b75b5f168": {
+      "app_key": "itch:c63a9b91303b75b5f168",
+      "name": "91 Peaks [Free] [Sports]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://greyzep.itch.io/91-peaks",
+      "data_date": "2026-11-16",
+      "analysed_at": "2026-11-16T05:33:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A calm ski descent down one huge mountain, until it isn't. You're the director: every run is a take.",
+      "analysis": {
+        "app_key": "itch:c63a9b91303b75b5f168",
+        "summary_ko": "거대한 산을 내려오는 스키 게임으로, 평온한 하강으로 시작해 점차 변화하는 환경을 경험합니다. 플레이어는 감독이 되어 매번 새로운 하강을 연출하는 독특한 방식을 취합니다.",
+        "features_ko": [
+          "거대한 산을 배경으로 한 스키 하강 게임입니다.",
+          "플레이어가 감독이 되어 각 하강을 '테이크'로 기록합니다.",
+          "평온한 분위기에서 점차 변화하는 환경을 제공합니다."
+        ],
+        "noteworthy_ko": "단순한 스포츠 게임을 넘어 '감독'이라는 메타적 요소를 도입한 점이 흥미롭습니다. 하강 경로의 변화가 절차적 생성인지 수동 설계인지에 따라 개발 난이도가 크게 달라질 것으로 추정됩니다.",
+        "development_ko": "스키 물리 엔진과 지형 생성 기술이 핵심입니다. 하강 경로의 변화를 연출하기 위한 카메라 워킹과 환경 변화 시스템 구현이 필요합니다.",
+        "idea_ko": "하강 중 촬영한 영상을 편집하여 영화처럼 만드는 리플레이 편집 모드를 추가하면 좋을 것입니다.",
+        "highlights_ko": [
+          "평온함과 긴장감이 공존하는 환경 변화.",
+          "플레이어를 감독으로 설정한 독특한 게임 컨셉."
+        ],
+        "systems_ko": [
+          "스키 물리 및 조작 시스템",
+          "지형 생성 및 환경 변화 시스템",
+          "카메라 연출 및 리플레이 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "스키 물리 구현과 지형 생성은 높은 기술적 숙련도를 요구합니다. 1인 개발 시 물리 엔진의 안정성을 확보하는 것이 큰 도전입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 스키 조작",
+            "하강 지형 구현"
+          ],
+          "defer": [
+            "복잡한 환경 변화 시스템",
+            "고급 카메라 연출"
+          ],
+          "risks": [
+            "물리 엔진의 버그",
+            "단조로운 게임 플레이"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "슬로프 디자이너",
+            "concept": "직접 산의 지형을 설계하고 다른 사람이 하강하게 합니다. 사용자 생성 콘텐츠 중심의 게임입니다.",
+            "first_step": "지형 편집 툴과 하강 모드 연동."
+          },
+          {
+            "title": "스키 레이싱",
+            "concept": "감독 모드 대신 속도와 기술 점수를 겨루는 경쟁 모드를 추가합니다.",
+            "first_step": "시간 측정 및 점수 계산 시스템."
+          }
+        ],
+        "recommendation_ko": "물리 기반 게임 개발과 환경 연출을 배우기에 좋습니다. 물리 엔진 구현이 처음이라면 매우 어려운 도전이 될 수 있습니다.",
+        "source_limitations_ko": "환경 변화의 구체적인 메커니즘과 물리 엔진의 상세 사양은 알 수 없습니다.",
+        "name": "91 Peaks [Free] [Sports]",
+        "source": "itch",
+        "detail_url": "https://greyzep.itch.io/91-peaks",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 329,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 17,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-16"
+    },
+    "apple:6822738484": {
+      "app_key": "apple:6822738484",
+      "name": "Face Witness",
+      "developer": "Denis Michkarev",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/face-witness/id6822738484",
+      "data_date": "2026-11-16",
+      "analysed_at": "2026-11-16T05:35:36+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "FaceWitness lets you create a face by putting together individual features. Pick eyes, a nose, a mouth, hair, and other details, then move and resize them on the canvas. You can adjust each part, undo changes, and save the finished image to Files or share it. Your project stays on your iPhone, so you can come back to it later. No account is needed.",
+      "analysis": {
+        "app_key": "apple:6822738484",
+        "summary_ko": "Face Witness는 얼굴의 각 부위(눈, 코, 입, 머리카락 등)를 조합하여 얼굴 이미지를 생성하는 앱입니다. 사용자는 각 부위를 자유롭게 배치하고 크기를 조절할 수 있습니다. 생성된 이미지는 파일로 저장하거나 공유할 수 있으며, 별도의 계정 없이 기기 내에서 작업이 가능합니다.",
+        "features_ko": [
+          "눈, 코, 입, 머리카락 등 다양한 얼굴 부위 요소를 선택하여 조합할 수 있습니다.",
+          "캔버스 위에서 각 부위의 위치를 이동하고 크기를 조절할 수 있습니다.",
+          "작업 내용을 취소하거나 다시 실행할 수 있는 기능을 제공합니다.",
+          "완성된 이미지를 파일로 저장하거나 외부로 공유할 수 있습니다."
+        ],
+        "noteworthy_ko": "단순한 조합형 캐릭터 생성 도구로서, 사용자가 직관적으로 얼굴을 구성할 수 있는 인터페이스가 핵심입니다. 계정 없이 기기 내에서 모든 작업이 이루어지는 점은 개인정보 보호 측면에서 장점입니다.",
+        "development_ko": "이미지 레이어 관리와 캔버스 내 객체 조작(드래그 앤 드롭, 리사이징) 구현이 핵심입니다. 각 부위별 이미지 에셋을 효율적으로 관리하고 합성하는 로직이 필요합니다. 상태 관리(Undo/Redo) 시스템을 안정적으로 구축하는 것이 중요합니다.",
+        "idea_ko": "생성된 얼굴을 바탕으로 간단한 프로필 아바타를 만들거나, 랜덤으로 얼굴을 생성해 주는 기능을 추가하면 재미 요소가 강화될 것입니다.",
+        "highlights_ko": [
+          "간편한 조작: 별도의 계정 없이 즉시 사용 가능.",
+          "자유로운 커스터마이징: 부위별 위치와 크기 조절로 다양한 얼굴 생성."
+        ],
+        "systems_ko": [
+          "이미지 레이어 관리 시스템",
+          "캔버스 객체 조작(이동, 크기 조절) 엔진",
+          "상태 관리(Undo/Redo) 시스템",
+          "이미지 저장 및 공유 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "이미지 합성 및 객체 조작은 기본적인 UI 프레임워크로 구현 가능합니다. 복잡한 서버 연동이나 알고리즘이 필요 없어 1인 개발자가 시도하기에 매우 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "얼굴 부위 선택 및 캔버스 배치",
+            "기본적인 위치 이동 및 크기 조절",
+            "이미지 저장 기능"
+          ],
+          "defer": [
+            "Undo/Redo 기능",
+            "다양한 부위 에셋 추가",
+            "공유 기능"
+          ],
+          "risks": [
+            "이미지 에셋의 저작권 문제",
+            "다양한 화면 크기에 따른 UI 대응"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "랜덤 얼굴 생성기",
+            "concept": "버튼을 누를 때마다 부위들이 무작위로 조합되어 재미있는 얼굴을 만들어주는 기능입니다.",
+            "first_step": "부위별 이미지 리스트를 배열로 관리하고 랜덤 인덱스를 선택하는 로직을 구현합니다."
+          },
+          {
+            "title": "아바타 스티커 제작",
+            "concept": "생성한 얼굴을 투명 배경의 스티커 형태로 저장하여 메신저 등에서 사용할 수 있게 합니다.",
+            "first_step": "이미지 저장 시 배경을 투명하게 처리하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "UI/UX 설계와 이미지 조작 기초를 배우기에 최적의 앱입니다. 간단한 도구 앱을 만들고 싶은 초보 개발자에게 강력히 추천합니다.",
+        "source_limitations_ko": "사용되는 이미지 에셋의 출처나 생성 방식은 확인되지 않습니다. 또한 레이어 간의 우선순위(Z-index) 조절 기능이 있는지 명시되지 않았습니다.",
+        "name": "Face Witness",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/face-witness/id6822738484",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 186,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 18,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-16"
+    },
+    "apple:6766557247": {
+      "app_key": "apple:6766557247",
+      "name": "Sky Routes: 항공사 경영",
+      "developer": "Yves Flueckiger",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/kr/app/sky-routes-%ED%95%AD%EA%B3%B5%EC%82%AC-%EA%B2%BD%EC%98%81/id6766557247?uo=2",
+      "data_date": "2026-11-16",
+      "analysed_at": "2026-11-16T05:35:59+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "조용한 항공사 경영 게임. 한 번만 구매하세요. 광고도, 타이머도, 인앱 결제도, 계정도 없습니다. 게임은 온전히 당신의 것입니다. 시작 시대, 거점 공항, 회사 이름을 정하고 나아가세요. 197개국 696개 공항, 각자의 경제를 굴리는 218개 경쟁 항공사, 그리고 당신의 움직임에 반응하는 시장이 기다립니다. 항공의 한 세기 1925년 8인승 복엽기와 우편 계약으로, 대양이 열리는 1952년에, 첫 제트기가 뜨는 1965년에, 또는 모든 것이 열린 현재에 시작하세요. 공항은 역사가 지어 가는 대로 지도에 나타납니다. 기종은 하나씩 형식 인증을 받으며, 1922년부터 미래의 설계까지 모두 46개이고, 각 기종은 항공기 상점에서 그려집니다. 이름은 가상이지만 항속 거리, 좌석, 연료 소모는 실제와 같습니다. 돈의 가치는 시대에 따라 변합니다. 그대로 둔 운임은 어느새 할인이 됩니다. 노선망을 만드세요 노선을 열고, 항공기를 배정하고, 탑승률이 그 노선의 수익을 결정하는 것을 지켜보세요. 허브는 집중에 보상하고, 대형 허브를 잇는 간선 노선은 점보기를 가득 채웁니다. 10년 앞을 내다보고 기단을 계획하고, 모든 노선을 해마다 추적하고, 나만의 터미널을 지으세요. 회사를 경영하세요 리스할지 살지, 새 기체일지 중고일지. 힘든 겨울에는 신용 한도를 쓰고, 가격이 뛰기 전에 연료를 헤지하고, 연구에 투자하세요. 게임 후반에는 다섯 가지 대형 사업이 부를 우위로 바꿔 줍니다. 증권거래소 모든 항공사가 상장되어 있고 주가는 매주 움직입니다. 5%는 배당을, 10%는 이사회 의석과 휴전을, 25%는 거부권 지분을, 50%는 경영권을 가져다줍니다. 라이벌끼리도 서로 지분을 사들이고, 당신의 지분도 사들입니다. 경쟁하거나, 삼키거나 세계마다 경쟁사가 새로 정해지며, 저마다의 전략을 따릅니다. 그들은 내 노선에 들어오고, 운임을 조정하고, 인수를 제안합니다. 5년 동안 선두를 내주면 그중 하나가 세기의 승자가 될 수도 있습니다. 어려운 항공사를 인수해 브랜드를 유지하거나, 노선을 통합하세요. 동맹을 직접 설립해 누구를 받을지 결정하세요. 난이도는 네 단계, 최고는 보스: 상장된 상태로 시작하며, 당신이 약해질 때마다 라이벌이 지분을 사들입니다. 세계를 견뎌 내세요 역사는 달력대로 찾아옵니다. 대공황, 전쟁, 석유 파동, 2001년, 2008년, 2020년이 실제 그 해에 닥칩니다. 여기에 연료비 급등, 파업, 휴가철 성수기가 더해집니다. 기단을 세울지, 운임을 내릴지, 버틸지는 당신이 정합니다. 원할 때는 목표를 10년 계약은 10년마다 큰 목표를 줍니다. 세 가지 캠페인에는 마지막 날과 메달이 있습니다: 항공의 한 세기, 저가 항공사, 화물 항공사. 또는 끝없는 샌드박스, Game Center에서 모두에게 같은 세계가 주어지는 주간 컵과 친구와의 도전, 실시간 모드를 즐기세요. 실시간에서는 오늘 시작해 현실의 하루가 지날 때마다 게임의 하루가 흐릅니다. 함께 플레이 최대 8명까지: 서로의 지분을 사들이는 경쟁자로, 파트너로, 또는 함께 하나의 항공사로. 같은 Wi-Fi에서, 또는 Game Center로 인터넷을 통해, 모든 언어로 쓰는 빠른 채팅과 함께 즐기세요. iPhone, iPad, Mac 한 번 구매로 세 기기 모두. Apple의 디자인 언어를 따르며, iOS 26과 macOS 26에서는 지도 위에 Liquid Glass 패널이 놓입니다. 라이트 모드와 다크 모드를 모두 지원합니다. 게임은 iCloud를 통해 어디서나 이어집니다. Mac에서는 게임 메뉴, 키보드 속도 조절, 트랙패드 이동. iPhone과 iPad에서는 현금, 순위, 현재 목표를 보여 주는 홈 화면 위젯. 21개 언어를 지원하며 게임 안에서 바꿀 수 있습니다. 계정 없음. 서버 없음. 게임은 기기에, iCloud를 사용한다면 당신의 iCloud에 저장됩니다. 우리는 그것을 볼 수 없습니다.",
+      "analysis": {
+        "app_key": "apple:6766557247",
+        "summary_ko": "항공사 경영 시뮬레이션 게임으로, 1925년부터 현재까지의 시대적 배경 속에서 항공사를 운영합니다. 플레이어는 노선 개설, 기단 관리, 주식 투자 등을 통해 경쟁 항공사와 겨루며 세계적인 항공 제국을 건설해야 합니다. 광고나 인앱 결제 없이 온전히 게임 플레이에 집중할 수 있는 환경을 제공합니다.",
+        "features_ko": [
+          "197개국 696개 공항과 218개의 경쟁 항공사가 실시간으로 반응하는 경제 시스템을 제공합니다.",
+          "1922년부터 미래 설계까지 총 46개의 항공기 기종을 선택하고 운영할 수 있습니다.",
+          "노선망을 구축하고 항공기를 배정하여 탑승률과 수익을 관리하는 경영 전략을 실행합니다.",
+          "주식 시장을 통해 경쟁사의 지분을 매입하거나 경영권을 확보하는 기업 인수합병이 가능합니다.",
+          "대공황, 전쟁, 석유 파동 등 역사적 사건이 게임 내 경제 상황에 직접적인 영향을 미칩니다."
+        ],
+        "noteworthy_ko": "역사적 타임라인과 연동된 경제 이벤트가 게임의 난이도를 결정하는 핵심 요소로 작용하는 점이 흥미롭습니다. 경쟁사들이 플레이어의 행동에 반응하여 지분을 매입하는 등 능동적인 AI 전략을 구사하는 점이 개발 관점에서 매우 도전적인 구현 요소로 보입니다.",
+        "development_ko": "핵심 기술로는 방대한 공항 및 항공기 데이터를 처리하는 데이터베이스 구조와 시대별 경제 변동을 계산하는 시뮬레이션 엔진이 필요합니다. 콘텐츠 제작 측면에서는 46개 기종의 성능 밸런스와 역사적 사건별 경제 파라미터 설정에 많은 시간이 소요될 것입니다. 테스트 단계에서는 경쟁 AI의 전략적 판단이 게임의 재미를 해치지 않도록 밸런스를 조정하는 것이 가장 큰 과제입니다.",
+        "idea_ko": "특정 지역의 기후나 지형적 특성을 반영하여 항공기 운항 효율이 달라지는 '지역 특화 경영 모드'를 제안합니다.",
+        "highlights_ko": [
+          "실제 역사적 사건이 게임 내 경제에 반영되는 타임라인 시스템이 구현되어 있습니다.",
+          "최대 8명까지 참여 가능한 멀티플레이 모드를 통해 경쟁 및 협력 플레이를 지원합니다."
+        ],
+        "systems_ko": [
+          "시대별 경제 시뮬레이션 엔진",
+          "항공기 성능 및 노선 수익 계산 로직",
+          "경쟁사 AI 의사결정 시스템",
+          "주식 및 지분 거래 관리 시스템",
+          "데이터 저장 및 iCloud 동기화 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "방대한 데이터 관리와 복잡한 경제 시뮬레이션 로직을 1인이 구현하기에는 기술적 난도가 매우 높습니다. 특히 경쟁 AI의 전략적 행동과 역사적 사건의 연동은 정교한 밸런스 설계가 필수적입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 노선 개설 및 항공기 배정 로직",
+            "시대별 항공기 데이터 관리",
+            "수익 및 비용 계산 시스템"
+          ],
+          "defer": [
+            "주식 거래 및 기업 인수합병",
+            "실시간 멀티플레이어 모드",
+            "역사적 사건별 경제 이벤트"
+          ],
+          "risks": [
+            "데이터 구조 설계 오류로 인한 확장성 부족",
+            "경제 밸런스 붕괴로 인한 게임성 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "기후 변화 항공 경영",
+            "concept": "기후 변화로 인해 특정 공항이 폐쇄되거나 항로가 변경되는 상황을 추가합니다. 환경 규제에 따른 탄소 배출권 거래 시스템을 도입하여 경영 전략을 다변화합니다.",
+            "first_step": "특정 기상 조건에서 항공기 운항이 취소되는 확률 로직을 구현합니다."
+          },
+          {
+            "title": "지역 특화 허브 전략",
+            "concept": "특정 지역의 지형적 이점을 활용해 물류 허브를 구축하는 모드입니다. 화물 운송 비중을 높여 여객과는 다른 수익 모델을 창출합니다.",
+            "first_step": "여객 노선과 화물 노선의 수익 계산식을 분리하여 시뮬레이션합니다."
+          }
+        ],
+        "recommendation_ko": "복잡한 데이터 기반의 시뮬레이션 게임을 설계하고 싶은 개발자에게 추천합니다. 방대한 데이터를 어떻게 효율적으로 관리하고 게임 로직에 녹여내는지 배울 수 있는 좋은 사례입니다.",
+        "source_limitations_ko": "소개문에는 구체적인 데이터 처리 방식이나 AI의 알고리즘 구조가 명시되어 있지 않습니다. 또한, 언급된 'Liquid Glass 패널' 등 특정 UI 기술의 구현 방식은 확인되지 않았으며, 실제 게임 내 경제 수치 계산식은 추정치입니다.",
+        "name": "Sky Routes: 항공사 경영",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/sky-routes-%ED%95%AD%EA%B3%B5%EC%82%AC-%EA%B2%BD%EC%98%81/id6766557247?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 183,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-16"
+    },
+    "apple:1667427095": {
+      "app_key": "apple:1667427095",
+      "name": "My Honda",
+      "developer": "Honda Motor Co.,Ltd.",
+      "source": "apple",
+      "country": "JP",
+      "category": "app_lifestyle",
+      "detail_url": "https://apps.apple.com/jp/app/my-honda/id1667427095?uo=2",
+      "data_date": "2026-11-16",
+      "analysed_at": "2026-11-16T05:37:35+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "『My Honda』はクルマをお持ちの方も、お持ちでない方も、 様々なHondaのサービスをご利用いただけるアプリです。 お客様がお持ちのスマートフォンやパソコンから、 ひとつのHonda IDでもっと便利に、Hondaのサービスをご利用ください。 ※ご利用にはHonda IDが必要です。 ◆My Hondaアプリを通じてできること ・遊びと仲間作りを楽しむ ・クルマの購入を検討する ・購入後の確認をする ・Honda ID連携サービスを使う ◆ご注意 上記サービスのご利用には、別途規約への同意・登録が必要になる場合がございます。",
+      "analysis": {
+        "app_key": "apple:1667427095",
+        "summary_ko": "My Honda는 차량 소유 여부와 관계없이 혼다의 다양한 서비스를 이용할 수 있는 통합 플랫폼입니다. 사용자는 하나의 혼다 ID를 통해 차량 구매 검토, 구매 후 관리, 커뮤니티 활동 등 혼다의 서비스를 편리하게 관리할 수 있습니다. 스마트폰과 PC를 통해 접근 가능한 사용자 경험을 제공합니다.",
+        "features_ko": [
+          "혼다 ID를 통한 통합 서비스 접근 기능을 제공합니다.",
+          "사용자 간의 교류를 위한 커뮤니티 기능을 지원합니다.",
+          "신규 차량 구매를 위한 검토 및 상담 기능을 포함합니다.",
+          "차량 구매 후 관리 및 확인 서비스를 제공합니다."
+        ],
+        "noteworthy_ko": "브랜드 중심의 통합 ID 시스템을 통해 고객 생애 주기 전반을 관리하는 점이 흥미롭습니다. 이는 단순한 앱을 넘어 브랜드 충성도를 높이는 CRM 도구로서의 성격이 강합니다.",
+        "development_ko": "핵심 기술은 보안이 보장된 사용자 인증 시스템과 데이터베이스 연동입니다. 콘텐츠 제작보다는 서비스 운영 및 고객 데이터 관리의 비중이 큽니다. 외부 API 연동이 필수적이므로 안정적인 서버 인프라 구축이 중요합니다.",
+        "idea_ko": "특정 브랜드의 차량 관리와 커뮤니티를 결합한 로열티 프로그램 구축 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "하나의 ID로 차량 구매부터 사후 관리까지 통합 관리하는 구조입니다.",
+          "브랜드 서비스와 커뮤니티 기능을 결합하여 사용자 참여를 유도합니다."
+        ],
+        "systems_ko": [
+          "사용자 인증 및 권한 관리 시스템",
+          "차량 정보 및 서비스 데이터베이스",
+          "사용자 간 커뮤니티 게시판 시스템",
+          "푸시 알림 및 공지사항 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "단순 앱 구현보다 보안이 중요한 사용자 인증 시스템과 방대한 백엔드 데이터 연동이 필수적입니다. 개인 개발자가 혼자서 서비스의 안정성과 보안을 모두 책임지기에는 운영 부담이 매우 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 로그인 및 프로필 관리",
+            "차량 정보 조회 페이지"
+          ],
+          "defer": [
+            "실시간 커뮤니티 채팅",
+            "복잡한 결제 연동"
+          ],
+          "risks": [
+            "사용자 개인정보 보호 및 보안 사고",
+            "서버 유지 비용 및 데이터 관리 부담"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "브랜드 팬 커뮤니티 앱",
+            "concept": "특정 브랜드의 제품을 사용하는 사람들이 모여 정보를 공유하고 관리하는 앱입니다. 제품 등록 시 매뉴얼을 제공하고 정기 점검 알림을 보냅니다.",
+            "first_step": "제품 등록 기능과 간단한 공지사항 게시판을 구현합니다."
+          },
+          {
+            "title": "차량 유지보수 기록기",
+            "concept": "사용자가 직접 차량 정비 이력을 기록하고 관리하는 개인용 앱입니다. 정비 주기를 계산하여 알림을 보내는 기능을 포함합니다.",
+            "first_step": "정비 항목 입력 폼과 날짜별 기록 리스트를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "브랜드 통합 플랫폼의 구조를 이해하는 데 도움이 됩니다. 다만, 보안과 데이터 관리가 핵심이므로 개인 개발자에게는 운영 난이도가 높을 수 있습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 API 연동 방식이나 보안 프로토콜, 결제 시스템의 유무가 명시되어 있지 않습니다. 실제 서비스의 데이터 동기화 방식은 확인이 불가능합니다.",
+        "name": "My Honda",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/my-honda/id1667427095?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-16"
+    },
+    "apple:920098546": {
+      "app_key": "apple:920098546",
+      "name": "lululemon",
+      "developer": "lululemon athletica canada inc.",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/lululemon/id920098546",
+      "data_date": "2026-11-16",
+      "analysed_at": "2026-11-16T05:39:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Browse and shop for lululemon gear from anywhere! Be ready for all your sweaty pursuits with technical athletic clothing and accessories for running, cross-training, and yoga. Get the gear: • Shop instantly. Our app is built from the ground up to feel as snappy as your personal bests. • You’ll find high-quality photos of products taken from every angle and a zoom-in feature that lets you nerd out hard on every technical detail. • Inventory-check your local store and find out right from your phone if your size and color are in stock. • Favorites: So many products to love, so little time! Add products to your Favorites list so you can easily come back to them later. • eGift Cards: Buy electronic gift cards for your family and friends through the app and send them directly to their email. • Store Locator: Find store hours and locations right on your phone. • Pay with ApplePay Connect with the community: • Join our global yoga ambassadors for 20, 45 or 60-minute yoga classes • Find local events tailored to your favorite sweaty pursuits. • Get inspired by real and authentic stories posted by our own ambassadors and stores. • Curious about what goes into our gear? Get an insider look through exclusive behind-the-scenes videos. Manage your account: • Use Touch ID or Face ID to make sign-in easy; rest assured, your biometric data is protected and safe. • My Account: Update your profile and subscribe to product emails in the improved Account settings. • Store your preferences and purchase information to make checkout a breeze. And of course, standard shipping is always complimentary. Founded in Vancouver British Columbia in 1998, the first lululemon athletica store shared space with a yoga studio. We’ve grown quite a bit since then and our technical athletic apparel for men and women is now available online, in stores, and in showrooms all over the world. Have an idea, problem, or feedback? Get in touch at gec@lululemon.com",
+      "analysis": {
+        "app_key": "apple:920098546",
+        "summary_ko": "lululemon 앱은 운동복과 액세서리를 쇼핑하고 커뮤니티 이벤트에 참여할 수 있는 통합 플랫폼입니다. 제품 상세 확인, 재고 조회, 매장 찾기 등 쇼핑 편의 기능을 제공합니다. 또한 요가 클래스 참여와 같은 커뮤니티 활동과 브랜드 스토리를 확인할 수 있습니다.",
+        "features_ko": [
+          "운동복 및 액세서리 제품을 검색하고 즉시 구매할 수 있습니다.",
+          "제품의 상세 사진을 확대하여 기술적인 디테일을 확인할 수 있습니다.",
+          "매장별 재고 상태를 실시간으로 조회할 수 있습니다.",
+          "요가 클래스 참여 및 지역 이벤트 정보를 확인하고 신청할 수 있습니다.",
+          "Apple Pay를 통한 간편 결제를 지원합니다."
+        ],
+        "noteworthy_ko": "단순 쇼핑몰을 넘어 브랜드 경험과 커뮤니티를 결합한 점이 특징입니다. 재고 관리 시스템과 온-오프라인 연동(O2O)이 개발의 핵심입니다.",
+        "development_ko": "대규모 제품 카탈로그를 처리하는 데이터베이스와 빠른 검색 엔진이 필요합니다. 매장 재고와 실시간으로 연동되는 재고 관리 시스템(IMS) 구축이 중요합니다. 사용자 개인화 추천과 결제 보안 시스템을 안정적으로 구현해야 합니다.",
+        "idea_ko": "사용자의 운동 기록과 연동하여 적절한 운동복을 추천해 주는 '운동 맞춤형 코디' 기능.",
+        "highlights_ko": [
+          "제품 상세 확인부터 구매까지 매끄러운 쇼핑 경험을 제공합니다.",
+          "글로벌 요가 클래스 및 이벤트 정보를 통해 브랜드 커뮤니티를 강화합니다."
+        ],
+        "systems_ko": [
+          "제품 카탈로그 및 검색 엔진",
+          "실시간 재고 관리 시스템",
+          "결제 게이트웨이 연동",
+          "이벤트 예약 및 관리 시스템",
+          "사용자 계정 및 구매 이력 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "재고 관리 시스템과 결제 시스템은 높은 신뢰성과 안정성이 요구됩니다. 또한 대규모 트래픽을 처리하기 위한 서버 인프라 구축은 개인 개발자가 단독으로 수행하기에 매우 큰 규모입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "제품 목록 및 상세 페이지",
+            "장바구니 및 결제 기능",
+            "매장 찾기"
+          ],
+          "defer": [
+            "요가 클래스 예약 시스템",
+            "실시간 재고 조회",
+            "생체 인식 로그인"
+          ],
+          "risks": [
+            "결제 시스템 보안 취약점",
+            "재고 데이터 불일치 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "가상 피팅룸",
+            "concept": "사용자의 신체 치수를 입력하면 제품이 어떻게 맞을지 시뮬레이션해 주는 기능입니다.",
+            "first_step": "신체 치수 데이터와 제품 사이즈 데이터를 비교하여 추천 사이즈를 알려주는 로직 구현."
+          },
+          {
+            "title": "운동 루틴 기록기",
+            "concept": "사용자가 수행한 운동 종류를 기록하고, 그에 맞는 제품을 추천받는 기능입니다.",
+            "first_step": "운동 종류별로 필요한 제품군을 매칭하는 데이터베이스 설계."
+          }
+        ],
+        "recommendation_ko": "이커머스 앱의 전체적인 흐름과 O2O 서비스의 구조를 이해하고 싶은 개발자에게 추천합니다. 다만, 실제 상용 서비스 수준의 구현은 매우 복잡함을 인지해야 합니다.",
+        "source_limitations_ko": "재고 관리 시스템의 연동 방식이나 결제 보안 아키텍처는 확인되지 않습니다. 개인정보 보호 정책의 구체적인 이행 방식은 알 수 없습니다.",
+        "name": "lululemon",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/lululemon/id920098546",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 74,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-16"
+    },
+    "apple:6737542739": {
+      "app_key": "apple:6737542739",
+      "name": "Bus Rush: パーキングゲーム",
+      "developer": "Longwind Studio",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/jp/app/bus-rush-%E3%83%91%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B2%E3%83%BC%E3%83%A0/id6737542739?uo=2",
+      "data_date": "2026-11-16",
+      "analysed_at": "2026-11-16T05:40:10+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "カラフルな駐車チャレンジの世界へようこそ！「Car Escape：駐車場 パーキングジャム」で遊ぼう！超刺激的なゲームでは、さまざまな車と同じ色の乗客をマッチングする。駐車ゲームのスリルと面白い分類メカニズムが融合している！ 特徴： 魅力的なゲームプレイ：駐車と分類のユニークな組み合わせを体験してください！混雑した駐車場で車を操作し、乗客たちに合う座席を探してみよう！この革新的な方法で、どのチャレンジも楽しくてスリリングバスゲーム！ 様々な難易度レベル：レベルごとにだんだん複雑になるパズルが登場！あなたの戦略的思考と協調能力を試しましょう！簡単なタスクから複雑な交通シーンまで、常に新しい挑戦が待っています！ 豊富な車種選択：カラフルな車のコレクションを解除して集めましょう！それぞれの車には特定の乗客が対応しています。あなたの並べ替えのコツを駆使して効率的にマッチングして、ゲーム体験をアップグレード！ 豪華なグラフィック：鮮やかな色彩とスムーズなアニメーション効果で満ちた、視覚的に魅力的な環境に浸れる！一つ一つの動きがあなたの駐車の冒険を生き生きと感じれる！ オフラインプレイ：インターネット接続なしで、「Car Escape：駐車場 パーキングジャム」をいつでもどこでも楽しめる！通勤中や仕事の後の家で遊ぶのにぴったり！ 遊び方： 車のアンロックと収集：ゲームを進める中で新しい車を発見し、駐車の冒険をより面白くさせよう！ 車と乗客の色をマッチング：乗客たちを同じ色の車に乗せて、車の配車を膝下っり決めって、待っている人数とマッチングしよう！ 戦略的な計画：あなたの問題解決スキルを駆使して各レベルを攻略し、交通渋滞を解消して、すべての乗客を正しい車に乗れるようにしよう! さぁ、「Car Escape：駐車場 パーキングジャム」を今すぐダウンロードして、カラフルな駐車アドベンチャーを始めよう！常にプレイヤーのゲーム体験を向上させるため、ゲームの改善に努めている。お問合せやフィードバックなどがあれば、いつでもメールにて連絡してください。",
+      "analysis": {
+        "app_key": "apple:6737542739",
+        "summary_ko": "이 게임은 주차장 내의 차들을 조작하여 승객을 태우고 주차 문제를 해결하는 퍼즐 게임입니다. 같은 색상의 차와 승객을 매칭하는 분류 메커니즘을 핵심으로 합니다. 다양한 난이도의 레벨을 제공하며 오프라인 플레이를 지원합니다.",
+        "features_ko": [
+          "주차된 차를 이동시켜 승객을 태우는 퍼즐 규칙을 제공합니다.",
+          "레벨이 올라갈수록 복잡해지는 교통 상황과 퍼즐을 제시합니다.",
+          "다양한 색상의 차량을 수집하고 해제할 수 있습니다.",
+          "인터넷 연결 없이 오프라인에서 게임을 즐길 수 있습니다."
+        ],
+        "noteworthy_ko": "주차 퍼즐과 색상 매칭(분류) 메커니즘을 결합한 점이 특징입니다. 단순한 주차 게임보다 전략적 사고를 요구하는 구조로, 레벨 디자인의 난이도 곡선 설계가 중요할 것으로 추정됩니다.",
+        "development_ko": "그리드 기반의 차량 이동 로직과 충돌 판정 시스템이 핵심입니다. 승객과 차량의 매칭 상태를 관리하는 게임 상태 시스템이 필요합니다. 시각적 피드백을 위한 애니메이션 구현과 레벨 데이터의 확장성이 제작 부담의 주요 요소입니다.",
+        "idea_ko": "승객을 태운 후 목적지까지 최단 경로로 이동하는 '택시 운행 모드'를 추가하여 퍼즐 이후의 액션 요소를 결합하는 아이디어가 좋습니다.",
+        "highlights_ko": [
+          "주차와 분류 퍼즐이 결합된 독특한 게임 플레이를 제공합니다.",
+          "다양한 차량 수집 요소로 플레이 동기를 부여합니다."
+        ],
+        "systems_ko": [
+          "그리드 기반 이동 및 충돌 판정",
+          "색상 매칭 로직",
+          "레벨 데이터 관리 시스템",
+          "UI/UX 및 애니메이션 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "퍼즐 로직 자체는 구현 가능하나, 레벨이 높아질수록 복잡해지는 퍼즐의 밸런스를 맞추는 것이 어렵습니다. 1인 개발 시 레벨 에디터 도구를 만드는 것이 효율적입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "차량 이동 및 배치 기능",
+            "색상 매칭 판정 로직",
+            "기본 레벨 5~10개"
+          ],
+          "defer": [
+            "차량 수집 및 해제 시스템",
+            "화려한 그래픽 효과"
+          ],
+          "risks": [
+            "퍼즐의 재미를 보장하는 레벨 디자인의 어려움",
+            "이동 로직의 버그 발생 가능성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "시간 제한 모드",
+            "concept": "제한 시간 내에 모든 승객을 태워야 하는 모드입니다. 긴박감을 주어 퍼즐의 난이도를 높입니다.",
+            "first_step": "타이머 UI를 추가하고 시간 종료 시 게임 오버 로직을 구현합니다."
+          },
+          {
+            "title": "장애물 추가",
+            "concept": "주차장에 움직이지 않는 장애물을 배치하여 경로를 제한합니다. 더 복잡한 전략적 사고가 필요합니다.",
+            "first_step": "장애물 오브젝트를 추가하고 이동 판정 로직에 충돌 체크를 넣습니다."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 핵심인 '규칙과 레벨 디자인'의 관계를 배우기에 매우 좋습니다. 1인 개발자가 게임의 재미를 검증하기 위한 프로토타입 제작 연습으로 추천합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 구체적인 차량 이동 방식(슬라이드, 탭 등)과 레벨 데이터 저장 방식은 확인되지 않습니다.",
+        "name": "Bus Rush: パーキングゲーム",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/bus-rush-%E3%83%91%E3%83%BC%E3%82%AD%E3%83%B3%E3%82%B0%E3%82%B2%E3%83%BC%E3%83%A0/id6737542739?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 93,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-16"
+    },
+    "google:com.google.android.apps.walletnfcrel": {
+      "app_key": "google:com.google.android.apps.walletnfcrel",
+      "name": "Google ウォレット",
+      "developer": "Google LLC",
+      "source": "google",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.walletnfcrel&hl=ja&gl=JP",
+      "data_date": "2026-11-16",
+      "analysed_at": "2026-11-16T05:40:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ただの財布じゃない、Google ウォレット です。毎日の必需品を 1 か所にまとめて安全に持ち歩きましょう Google ウォレット を使うと、毎日の生活に必要なものが簡単かつ安全に利用できるようになります。店舗でかざして支払う、電車に乗る、マイナンバーカードで本人確認や手続きをする*、イベントに入場するなど、Android スマートフォン 1 つであなたの日常がもっと便利になります。 【お支払い】速くて簡単、しかも安全なお支払い方法 + 電子マネー、クレジットカード、デビットカードを Google ウォレット に登録すれば、対応する店舗やオンラインで簡単かつ安全にお支払いができます。 + タッチ決済ではデバイス固有のアカウント番号を使用し、実際のカード番号が店舗に共有されないよう保護されます。 【交通機関】あらゆる目的地へスムーズに + Suica や PASMO などの交通系 ICカードや定期券、航空会社の搭乗券をスマートフォンに入れて持ち歩けます。 + フライトの出発時刻やゲートに変更がある場合は、リアルタイムの通知で最新情報を把握できます。 【マイナンバーカード】本人確認も行政手続きもスマートフォンで* + デジタル庁の「Android のマイナンバーカード」に対応。マイナアプリ（旧マイナポータルアプリ）と連携し、マイナンバーカードを Google ウォレット に追加できます。 + 対応する店舗やオンラインサービスでの本人確認・年齢確認、マイナアプリへのログインや行政手続きに利用できます。何を開示するかは提示のたびに画面で確認でき、生体認証とセキュリティチップで安全に保護されます。 【ポイント＆チケット】お得なチャンスも大切な瞬間も見逃さない + dポイントや Ponta などのポイントカードを Google ウォレット に追加しておけば、店舗でのお買い物でポイントを貯めたり使ったりするチャンスを逃しません。 + コンサートやテーマパーク、スポーツ観戦のチケットもすばやく画面に提示でき、当日はスマートに入場できます。 【アクセス＆スマートウォッチ】毎日の移動をもっと身軽に + 対応車種の自動車用デジタルキーを登録すれば、スマートフォンをドアハンドルにかざすだけでロックを解除できます*。 + Wear OS スマートウォッチにも対応し、手元からすばやくウォレットを利用できます*。 【セキュリティ】Google ウォレット で、データを安全に管理 + Android デバイスには生体認証、2 段階認証プロセス、「Find Hub」でデバイスを探す機能、およびリモートによるデータ消去機能が搭載されており、万が一の紛失時も安心です。 + Google の各サービスに提供する個人情報の内容や範囲は、お客様ご自身でカスタマイズして設定できます。 Google ウォレット について詳しくは、wallet.google/intl/ja_jp/ または support.google.com/wallet にアクセスしてご確認ください。 – *免責事項: 時期やプラットフォーム、デバイス、地域、対応サービスによって、ご利用いただける機能が異なる場合があります。「Android のマイナンバーカード」のご利用には、対応機種およびマイナアプリ（旧マイナポータルアプリ）での事前設定が必要です。",
+      "analysis": {
+        "app_key": "google:com.google.android.apps.walletnfcrel",
+        "summary_ko": "Google ウォレット은 결제 카드, 교통카드, 포인트 카드, 티켓 등을 스마트폰 하나로 관리하는 디지털 지갑 서비스입니다. NFC 기술을 활용해 오프라인 매장 결제, 대중교통 이용, 디지털 신분증 확인 등을 지원합니다. 사용자는 보안이 강화된 환경에서 일상적인 인증 및 결제 수단을 통합적으로 관리할 수 있습니다.",
+        "features_ko": [
+          "NFC를 활용한 비접촉식 결제 기능을 통해 매장에서 안전하게 결제할 수 있습니다.",
+          "교통카드 및 항공권 정보를 앱에 등록하여 대중교통 이용과 탑승 수속을 간편하게 처리합니다.",
+          "디지털 신분증(마이넘버카드 등)을 연동하여 본인 확인 및 행정 절차를 수행합니다.",
+          "포인트 카드와 각종 이벤트 티켓을 앱 내에 저장하여 필요할 때 즉시 제시할 수 있습니다.",
+          "디지털 키 기능을 통해 지원되는 차량의 잠금을 스마트폰으로 해제할 수 있습니다."
+        ],
+        "noteworthy_ko": "이 앱은 하드웨어 수준의 보안 칩과 생체 인증을 결합하여 민감한 개인 정보를 보호하는 구조를 갖추고 있습니다. 개발 관점에서는 외부 금융/행정 시스템과의 강력한 API 연동 및 데이터 암호화 처리가 핵심이며, 이는 개인 개발자가 구현하기 매우 어려운 고도의 보안 인프라를 요구합니다.",
+        "development_ko": "핵심 구현 기술로는 NFC 통신 프로토콜, 보안 요소(Secure Element) 접근, 그리고 외부 인증 서버와의 안전한 통신이 필요합니다. 콘텐츠 제작 부담은 낮으나, 금융 및 신분증 데이터와 관련된 보안 테스트와 법적 규제 준수 부담이 매우 큽니다. 개인 개발자가 단독으로 구현하기에는 보안 인증 및 인프라 구축 비용이 현실적으로 불가능에 가깝습니다.",
+        "idea_ko": "개인 개발자에게는 복잡한 결제 시스템 대신, 특정 커뮤니티나 소규모 모임에서 사용할 수 있는 '디지털 멤버십/쿠폰 관리 도구'를 만드는 것이 적합합니다.",
+        "highlights_ko": [
+          "기기 고유 번호를 사용하는 토큰화 기술을 통해 실제 카드 번호 노출을 방지합니다.",
+          "생체 인증 및 원격 데이터 삭제 기능을 통해 분실 시 보안 사고를 예방합니다."
+        ],
+        "systems_ko": [
+          "NFC 태그 읽기/쓰기 모듈",
+          "사용자 인증 및 생체 인식 시스템",
+          "로컬 데이터 암호화 저장소",
+          "외부 API 연동 인터페이스",
+          "실시간 알림 서비스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "금융 및 신분증 관련 데이터는 최고 수준의 보안 표준을 요구하며, 개인 개발자가 이를 검증하고 유지보수하는 것은 불가능합니다. 또한, 외부 인프라와의 연동 없이는 핵심 기능을 구현할 수 없습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 인증 시스템",
+            "바코드/QR 코드 생성 및 표시 기능"
+          ],
+          "defer": [
+            "NFC 결제 연동",
+            "정부 행정 시스템 연동",
+            "디지털 키 기능"
+          ],
+          "risks": [
+            "개인 정보 유출에 따른 법적 책임",
+            "보안 취약점 노출 위험"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "로컬 소상공인 스탬프 지갑",
+            "concept": "특정 매장 전용으로 종이 쿠폰을 대체하는 디지털 스탬프 앱입니다. QR 코드를 통해 방문 기록을 남기고 보상을 관리합니다.",
+            "first_step": "QR 코드를 스캔하여 로컬 데이터베이스에 방문 횟수를 기록하는 기능을 구현합니다."
+          },
+          {
+            "title": "개인 자산 관리 메모장",
+            "concept": "결제 기능 없이 사용자가 직접 지출 내역을 입력하고 카테고리별로 분류하는 오프라인 가계부입니다.",
+            "first_step": "지출 항목을 입력하고 날짜별로 리스트를 보여주는 UI를 제작합니다."
+          }
+        ],
+        "recommendation_ko": "이 앱은 복잡한 보안 시스템의 구조를 이해하는 데 참고가 될 수 있으나, 개인 개발자가 직접 구현하기에는 적합하지 않습니다. 보안과 신뢰성이 핵심인 앱보다는, 데이터 연동이 필요 없는 단순 유틸리티 개발을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 API 명세, 보안 프로토콜의 상세 구현 방식, 서버 아키텍처가 명시되어 있지 않습니다. 또한, 실제 결제 처리 과정이나 정부 시스템과의 데이터 교환 방식은 외부 서비스 연동이 필수적이므로 이를 직접 구현하는 것은 불가능합니다.",
+        "name": "Google ウォレット",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.google.android.apps.walletnfcrel&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 85,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-16"
     }
   }
 }

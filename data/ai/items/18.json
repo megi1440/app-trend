@@ -10387,6 +10387,182 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-15"
+    },
+    "itch:11f2534dfd8b9dff35b7": {
+      "app_key": "itch:11f2534dfd8b9dff35b7",
+      "name": "PS2 CD Player [Free] [Other] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://leviathantfm.itch.io/ps2-cd-player",
+      "data_date": "2026-11-16",
+      "analysed_at": "2026-11-16T05:33:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "The Iconic PS2 CD Player remade for PC in Godot",
+      "analysis": {
+        "app_key": "itch:11f2534dfd8b9dff35b7",
+        "summary_ko": "과거의 상징적인 PS2 CD 플레이어 인터페이스를 PC용 Godot 엔진으로 재현한 프로그램입니다. 추억을 자극하는 디자인과 인터페이스를 그대로 옮겨온 것이 특징입니다.",
+        "features_ko": [
+          "PS2 CD 플레이어의 인터페이스를 PC 환경에서 재현합니다.",
+          "Godot 엔진을 사용하여 개발되었습니다.",
+          "음악 재생 등 CD 플레이어의 기본 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "특정 하드웨어의 UI/UX를 완벽하게 복제하는 것은 레트로 감성을 자극하는 좋은 프로젝트입니다. 엔진의 UI 시스템을 깊이 있게 활용하는 방법을 익히기에 매우 좋습니다.",
+        "development_ko": "UI 레이아웃 구성과 애니메이션 구현이 핵심입니다. 실제 CD 재생 기능을 위한 오디오 라이브러리 연동이 필요하며, 원본의 느낌을 살리는 그래픽 에셋 제작이 중요합니다.",
+        "idea_ko": "사용자가 자신의 음악 파일을 불러와 PS2 인터페이스로 재생할 수 있는 커스텀 스킨 기능을 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "PS2의 상징적인 UI 디자인 재현.",
+          "Godot 엔진을 활용한 UI 중심의 개발."
+        ],
+        "systems_ko": [
+          "UI 레이아웃 및 애니메이션 시스템",
+          "오디오 재생 및 제어 시스템",
+          "파일 시스템 연동(음악 파일 불러오기)"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "복잡한 게임 로직보다는 UI와 오디오 재생 기능이 중심이므로 구현 난이도가 낮습니다. 디자인 에셋만 준비된다면 빠르게 개발 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 UI 인터페이스",
+            "음악 재생 기능"
+          ],
+          "defer": [
+            "다양한 스킨 지원",
+            "고급 오디오 시각화"
+          ],
+          "risks": [
+            "저작권 관련 에셋 사용 주의",
+            "오디오 포맷 호환성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "레트로 기기 컬렉션",
+            "concept": "PS2 외에도 다양한 과거 기기(워크맨, 카세트 등)의 UI를 모아놓은 재생기입니다.",
+            "first_step": "기기별 UI 스킨 교체 시스템 구현."
+          },
+          {
+            "title": "가상 방 꾸미기",
+            "concept": "플레이어의 가상 방에 이 CD 플레이어를 배치하고 음악을 듣는 공간을 만듭니다.",
+            "first_step": "3D 공간 내 UI 상호작용 구현."
+          }
+        ],
+        "recommendation_ko": "UI 디자인과 엔진의 UI 시스템을 익히기에 최적입니다. 레트로 감성을 좋아하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "지원하는 오디오 포맷, 실제 CD 인식 여부, 저작권 관련 에셋 사용 범위는 확인되지 않았습니다.",
+        "name": "PS2 CD Player [Free] [Other] [Windows]",
+        "source": "itch",
+        "detail_url": "https://leviathantfm.itch.io/ps2-cd-player",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 326,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 18,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-16"
+    },
+    "apple:318698524": {
+      "app_key": "apple:318698524",
+      "name": "Google Voice",
+      "developer": "Google",
+      "source": "apple",
+      "country": "US",
+      "category": "app_productivity",
+      "detail_url": "https://apps.apple.com/us/app/google-voice/id318698524?uo=2",
+      "data_date": "2026-11-16",
+      "analysed_at": "2026-11-16T05:35:59+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Google Voice gives you a phone number for calling, text messaging, and voicemail. It works on smartphones and computers, and syncs across your devices so you can use the app in the office, at home, or on the go. NOTE: Google Voice only works for personal Google Accounts in the US and Google Workspace accounts in select markets. Text messaging is not supported in all markets. You’re in control Get spam filtered automatically and block numbers you don’t want to hear from. Manage your time with personalized settings for forwarding calls, text messages, and voicemail. Backed up and searchable Calls, text messages, and voicemails are stored and backed up to make it easy for you to search your history. Manage messages across devices Send and receive individual and group SMS messages from all your devices Your voicemail, transcribed Google Voice provides advanced voicemail transcriptions that you can read in the app and/or have sent to your email. Save on international calling Make international calls at competitive rates without paying extra for international minutes with your mobile carrier Keep in mind: • Google Voice is currently only available in the US. Google Voice for Google Workspace users is available in select countries. Check with your administrator for access. • Calls made using Google Voice for iPhone can be placed through a Google Voice access number. All access number based calls use the standard minutes from your cell phone plan and may incur costs (e.g. when traveling internationally).",
+      "analysis": {
+        "app_key": "apple:318698524",
+        "summary_ko": "Google에서 제공하는 전화, 문자, 음성 메일 관리 서비스입니다. 하나의 전화번호로 스마트폰과 컴퓨터 등 여러 기기에서 통신을 관리할 수 있습니다. 스팸 차단, 음성 메일 텍스트 변환, 국제 전화 저렴한 이용 등의 기능을 제공합니다.",
+        "features_ko": [
+          "하나의 전화번호로 여러 기기에서 통화, 문자, 음성 메일을 관리할 수 있습니다.",
+          "스팸 전화를 자동으로 필터링하고 원치 않는 번호를 차단합니다.",
+          "음성 메일을 텍스트로 변환하여 앱 내에서 읽거나 이메일로 받을 수 있습니다.",
+          "통화, 문자, 음성 메일 기록을 검색하고 백업할 수 있습니다.",
+          "국제 전화를 저렴한 요금으로 이용할 수 있는 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "통신 서비스를 클라우드 기반으로 통합하여 기기 간 경계를 허문 점이 핵심입니다. 음성 메일을 텍스트로 변환하는 기술은 자연어 처리(NLP) 분야의 응용 사례로 매우 흥미롭습니다.",
+        "development_ko": "통신망과의 연동을 위한 복잡한 백엔드 인프라와 실시간 데이터 동기화 기술이 필수적입니다. 음성 인식 및 텍스트 변환을 위한 AI 모델링과 대규모 사용자 데이터를 처리할 수 있는 안정적인 서버 운영이 요구됩니다. 개인 개발자가 구현하기에는 통신사 인프라 접근 권한 등 현실적인 제약이 많습니다.",
+        "idea_ko": "통화 내용을 요약하여 중요한 일정이나 할 일을 자동으로 캘린더에 등록해 주는 '통화 비서 기능'을 제안합니다.",
+        "highlights_ko": [
+          "기기 간 동기화를 통해 어디서나 동일한 통신 환경을 제공합니다.",
+          "음성 메일의 텍스트 변환 기능을 통해 효율적인 정보 확인이 가능합니다."
+        ],
+        "systems_ko": [
+          "통신망 연동 API",
+          "음성-텍스트 변환(STT) 엔진",
+          "실시간 데이터 동기화 서버",
+          "스팸 필터링 알고리즘",
+          "사용자 데이터 백업 및 검색 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "판단 어려움",
+          "reason": "이 앱은 통신사 인프라와 직접 연동되어야 하는 서비스로, 개인 개발자가 구현하는 것은 사실상 불가능합니다. 기술적 난이도보다는 인프라 접근 권한과 법적 규제가 가장 큰 장벽입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 메시지 저장 및 관리 기능",
+            "사용자 계정 관리"
+          ],
+          "defer": [
+            "통화 및 문자 발신 기능",
+            "음성 메일 텍스트 변환",
+            "실시간 동기화"
+          ],
+          "risks": [
+            "통신 관련 법적 규제 위반",
+            "개인정보 보호 및 보안 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "통화 요약 비서",
+            "concept": "통화 내용을 텍스트로 변환하고, 그 안에서 중요한 약속이나 할 일을 추출하여 메모해 줍니다.",
+            "first_step": "녹음된 음성 파일을 텍스트로 변환하는 오픈소스 API를 연동합니다."
+          },
+          {
+            "title": "스마트 연락처 관리",
+            "concept": "연락처별로 통화 빈도와 중요도를 분석하여 우선순위를 자동으로 정해줍니다.",
+            "first_step": "통화 기록 데이터를 분석하여 빈도를 계산하는 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "통신 서비스의 데이터 동기화와 클라우드 기반 서비스의 아키텍처를 이해하는 데 참고할 만합니다. 다만, 실제 서비스 구현보다는 기술적 개념을 학습하는 용도로만 활용하세요.",
+        "source_limitations_ko": "소개문에는 통신사 인프라와의 구체적인 연동 방식이나 보안 아키텍처에 대한 정보가 없습니다. 또한, 음성 변환 기술의 정확도나 처리 방식은 알 수 없습니다.",
+        "name": "Google Voice",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/google-voice/id318698524?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 177,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-16"
     }
   }
 }
