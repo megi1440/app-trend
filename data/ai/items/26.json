@@ -12474,6 +12474,94 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-16"
+    },
+    "apple:971023427": {
+      "app_key": "apple:971023427",
+      "name": "Sweatcoin Walking Step Counter",
+      "developer": "Sweatco Ltd",
+      "source": "apple",
+      "country": "US",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/us/app/sweatcoin-walking-step-counter/id971023427?uo=2",
+      "data_date": "2026-11-17",
+      "analysed_at": "2026-11-17T08:52:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Step up your fitness game with Sweatcoin! Looking for a fun way to boost your fitness & get rewarded? Sweatcoin, the viral walking app, is here to transform your steps into real-world rewards! Earn Sweatcoins with every step you take and redeem them for exclusive gadgets, sports gear, and amazing experiences in our marketplace! The more you walk, the more you earn! And the more you earn, the more you walk! Discover the benefits: - Effortless step tracking: Sweatcoin’s pedometer runs smoothly in the background, tracking your steps accurately without draining your battery. It’s your perfect fitness companion, whether you’re walking, running, or working out at home. - Unlock rewards: Use your sweatcoins to access incredible offers and discounts that you won’t find anywhere else. Your fitness journey has never been so rewarding! - Get moving, get badges: Hit your daily step goals and collect unique badges for each milestone achieved. - Calling all streak masters: Compete with friends to see who can maintain the longest step streak. Fitness is more fun with a little friendly competition! Features Privacy first: We use a secure, proprietary algorithm to count your steps. Your location and personal data stay private—only you have access to your information. Pedometer: Accurate step tracking with minimal battery usage. Device compatibility: Available on iOS devices. Apple Watch users can also enjoy Sweatcoin.",
+      "analysis": {
+        "app_key": "apple:971023427",
+        "summary_ko": "Sweatcoin은 사용자의 걸음 수를 측정하여 보상으로 교환할 수 있는 피트니스 앱입니다. 걷기, 달리기 등 일상적인 활동을 통해 포인트를 적립하고 이를 마켓플레이스에서 상품으로 교환할 수 있습니다. 사용자는 일일 목표를 달성하고 배지를 획득하며 친구들과 경쟁할 수 있습니다.",
+        "features_ko": [
+          "백그라운드에서 배터리 소모를 최소화하며 걸음 수를 정확하게 측정합니다.",
+          "적립한 포인트로 마켓플레이스에서 다양한 상품과 할인 혜택을 교환할 수 있습니다.",
+          "일일 걸음 목표를 달성하여 성취 배지를 수집할 수 있습니다.",
+          "친구들과 걸음 수 기록을 비교하며 경쟁할 수 있습니다."
+        ],
+        "noteworthy_ko": "사용자의 활동을 보상과 연결하여 지속적인 동기를 부여하는 모델이 흥미롭습니다. 개인정보 보호를 위해 독자적인 알고리즘을 사용한다고 명시하고 있는데, 이는 건강 데이터의 민감성을 고려한 설계로 보입니다.",
+        "development_ko": "핵심 구현 기술로는 모바일 기기의 가속도 센서 및 GPS 데이터를 활용한 보행 감지 알고리즘이 필요합니다. 콘텐츠 제작 부담은 보상 시스템과 마켓플레이스 연동에 집중될 것으로 보이며, 테스트 시 다양한 기기 환경에서의 배터리 효율 최적화가 중요합니다.",
+        "idea_ko": "특정 지역의 환경 정화 활동과 연계하여 걸음 수에 따라 지역 사회에 기부하는 '환경 보상형 걷기' 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "사용자의 일상적인 움직임을 실질적인 보상으로 전환하는 경제 시스템을 갖추고 있습니다.",
+          "개인정보 보호를 강조하며 보안 알고리즘을 통한 데이터 처리를 지향합니다."
+        ],
+        "systems_ko": [
+          "센서 데이터 수집 및 보행 판정 알고리즘",
+          "사용자 활동 데이터베이스 및 포인트 관리 시스템",
+          "보상 교환을 위한 마켓플레이스 인터페이스",
+          "사용자 성취도 및 랭킹 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "단순 걸음 측정은 구현이 가능하나, 부정 행위 방지 알고리즘과 지속 가능한 보상 경제 시스템을 구축하는 것은 매우 복잡합니다. 또한 사용자 데이터의 보안과 서버 안정성 확보에 높은 기술적 역량이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "가속도 센서 기반 걸음 수 측정 기능",
+            "사용자별 포인트 적립 데이터베이스",
+            "기본적인 성취 배지 시스템"
+          ],
+          "defer": [
+            "외부 마켓플레이스 연동",
+            "실시간 친구 경쟁 기능"
+          ],
+          "risks": [
+            "센서 데이터의 정확도 및 부정 사용 방지",
+            "백그라운드 실행 시 배터리 소모 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "로컬 커뮤니티 챌린지",
+            "concept": "특정 동네나 공원을 산책하면 지역 상점의 쿠폰을 얻는 지역 기반 걷기 앱입니다. 지역 소상공인과 사용자를 연결하는 것이 핵심입니다.",
+            "first_step": "특정 GPS 좌표 범위 내에 진입했는지 확인하는 지오펜싱 기능 구현."
+          },
+          {
+            "title": "환경 정화 걷기",
+            "concept": "걷는 동안 쓰레기를 줍는 사진을 인증하면 포인트가 더 많이 쌓이는 환경 보호 앱입니다. 사회적 가치와 건강을 동시에 챙깁니다.",
+            "first_step": "걸음 수 데이터와 사진 업로드 기능을 결합한 기본 프로토타입 제작."
+          }
+        ],
+        "recommendation_ko": "센서 데이터 처리와 보상 시스템의 결합을 배우기에 좋습니다. 다만, 실제 보상 시스템은 법적·경제적 검토가 필요하므로 개인 개발 시에는 가상의 포인트 시스템으로 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 실제 보상 지급 방식, 외부 마켓플레이스 연동 기술, 부정 행위 방지 알고리즘의 구체적인 작동 원리가 명시되어 있지 않습니다.",
+        "name": "Sweatcoin Walking Step Counter",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/sweatcoin-walking-step-counter/id971023427?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 198,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 14,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-17"
     }
   }
 }

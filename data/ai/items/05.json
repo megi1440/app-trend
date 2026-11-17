@@ -11071,6 +11071,359 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-16"
+    },
+    "itch:be0ecc1b31ccf305184b": {
+      "app_key": "itch:be0ecc1b31ccf305184b",
+      "name": "Ghost Movers [Free] [Survival]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://paulrizzoli.itch.io/ghost-movers",
+      "data_date": "2026-11-17",
+      "analysed_at": "2026-11-17T08:51:29+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Moving company working in haunted houses",
+      "analysis": {
+        "app_key": "itch:be0ecc1b31ccf305184b",
+        "summary_ko": "유령이 나오는 집에서 이사를 돕는 생존 게임입니다. 플레이어는 유령의 방해를 피해 물건을 옮겨야 합니다. 긴장감 넘치는 환경에서 생존과 임무 수행을 동시에 해결해야 합니다.",
+        "features_ko": [
+          "유령이 출몰하는 집이라는 테마를 사용합니다.",
+          "물건을 옮기는 이사 업무를 수행합니다.",
+          "유령의 방해를 피하는 생존 규칙이 포함됩니다."
+        ],
+        "noteworthy_ko": "일상적인 이사 업무와 공포 요소를 결합한 점이 흥미롭습니다. 유령의 AI 패턴과 물건 운반 물리 엔진의 상호작용이 게임의 재미를 결정할 것으로 추정됩니다.",
+        "development_ko": "유령의 이동 경로 AI와 물건 운반 물리 시스템 구현이 핵심입니다. 공포 분위기 조성을 위한 사운드와 조명 연출이 필요합니다. 난이도 밸런스를 위해 유령의 공격 패턴을 세밀하게 조정해야 합니다.",
+        "idea_ko": "유령을 퇴치하는 것이 아니라, 유령의 성향을 파악해 그들이 싫어하는 물건을 먼저 옮기는 전략적 요소를 추천합니다.",
+        "highlights_ko": [
+          "이사라는 일상적 소재와 유령이라는 공포 소재의 결합.",
+          "물건 운반과 생존이라는 복합적인 게임 플레이."
+        ],
+        "systems_ko": [
+          "물리 기반 운반 시스템",
+          "유령 AI 경로 탐색",
+          "스테이지 관리 시스템",
+          "공포 연출 트리거"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "물리 엔진과 AI를 동시에 다뤄야 하며, 공포 분위기를 유지하면서 게임성을 확보하는 것이 까다롭습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "물건 들기 및 놓기 물리",
+            "기본 유령 추적 AI"
+          ],
+          "defer": [
+            "다양한 유령 종류",
+            "복잡한 집 구조"
+          ],
+          "risks": [
+            "물리 엔진의 버그(물건 끼임 등)",
+            "공포 요소와 게임 플레이의 부조화"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "유령 이사 센터",
+            "concept": "유령의 성격에 맞춰 가구를 배치해 주는 인테리어 게임. 유령이 만족하면 팁을 얻고 다음 집으로 이동합니다.",
+            "first_step": "유령의 선호도를 나타내는 간단한 UI를 구현합니다."
+          },
+          {
+            "title": "고스트 헌터 이사",
+            "concept": "이사 도중 발견한 유령의 유품을 찾아 성불시켜 주는 탐색 게임. 물건을 옮기며 단서를 수집합니다.",
+            "first_step": "물건 조사 시 텍스트가 출력되는 상호작용을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "물리 기반의 상호작용과 AI를 활용한 게임을 만들고 싶은 개발자에게 추천합니다. 공포 게임의 연출 기법을 익히기에 좋은 소재입니다.",
+        "source_limitations_ko": "유령의 구체적인 공격 방식, 이사 업무의 상세 규칙, 게임의 승리 조건 등은 설명문에 명시되지 않았습니다.",
+        "name": "Ghost Movers [Free] [Survival]",
+        "source": "itch",
+        "detail_url": "https://paulrizzoli.itch.io/ghost-movers",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 308,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-17"
+    },
+    "apple:6474930108": {
+      "app_key": "apple:6474930108",
+      "name": "마라마스터 : 왁뿌볼, 키캡, 마라탕, 포카포장",
+      "developer": "Supa Inc.",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_simulation",
+      "detail_url": "https://apps.apple.com/kr/app/%EB%A7%88%EB%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0-%EC%99%81%EB%BF%8C%EB%B3%BC-%ED%82%A4%EC%BA%A1-%EB%A7%88%EB%9D%BC%ED%83%95-%ED%8F%AC%EC%B9%B4%ED%8F%AC%EC%9E%A5/id6474930108?uo=2",
+      "data_date": "2026-11-17",
+      "analysed_at": "2026-11-17T08:53:10+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "\"포카 포장하고, 마라탕 만들고, 인형이랑 놀아줘!\" 오늘은 뭐 하고 놀까? 한때 마라탕집 사장님이 꿈이었던 나, 요즘은 포카 포장에도 푹 빠졌고, 예쁜 인형이랑 하루를 보내는 것도 좋아요. 조금 바쁘지만, 다 귀엽고 소중한 일상이에요. [포토카드 포장] 포카에 슬리브 씌우고, 스티커로 꾸며봐요. SNS에서 본 그 감성 그대로! [마라탕 가게 운영] 내가 고른 재료로 마라탕 만들고 손님한테 서빙! 사운드까지 찰져서 듣는 재미도 있어요. [인형 놀이] 밥 먹이고, 씻기고, 재워주기까지! 하루 종일 인형이랑 놀다 보면 시간 가는 줄 몰라요. 귀여운 걸 좋아한다면? 가볍게 힐링하고 싶다면? 지금 바로 시작해보세요!",
+      "analysis": {
+        "app_key": "apple:6474930108",
+        "summary_ko": "포토카드 포장, 마라탕 만들기, 인형 놀이 등 다양한 일상 속 소소한 활동을 게임으로 즐기는 시뮬레이션 앱입니다. 귀여운 그래픽과 사운드를 통해 힐링 경험을 제공합니다.",
+        "features_ko": [
+          "포토카드에 슬리브를 씌우고 스티커로 꾸미는 포장 시뮬레이션을 제공합니다.",
+          "원하는 재료를 선택하여 마라탕을 만들고 손님에게 서빙하는 요리 게임을 즐길 수 있습니다.",
+          "인형에게 밥을 먹이고 씻기고 재우는 육성 콘텐츠가 포함되어 있습니다.",
+          "각 활동마다 찰진 사운드 효과를 적용하여 몰입감을 높였습니다."
+        ],
+        "noteworthy_ko": "여러 가지 미니게임을 하나의 앱에 담은 구성이 특징입니다. 각 게임의 조작 방식이 다르므로, 일관된 UI/UX를 유지하면서도 각 활동의 개성을 살리는 설계가 중요합니다.",
+        "development_ko": "핵심 기술은 드래그 앤 드롭 인터랙션과 상태 관리입니다. 콘텐츠 제작 부담은 각 미니게임의 리소스(이미지, 사운드) 양에 비례하며, 테스트 시 각 게임의 조작이 직관적인지 확인하는 것이 중요합니다.",
+        "idea_ko": "사용자가 만든 포토카드나 마라탕 레시피를 공유하거나, 다른 사용자의 결과물을 구경하는 소셜 기능을 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "일상적인 취미를 게임화하여 가벼운 힐링을 제공합니다.",
+          "다양한 활동을 한곳에서 즐길 수 있는 종합 시뮬레이션 구성입니다."
+        ],
+        "systems_ko": [
+          "드래그 앤 드롭 인터랙션",
+          "아이템 데이터 관리",
+          "미니게임 상태 관리",
+          "사운드 매니저",
+          "UI 레이아웃 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "각 미니게임의 로직은 복잡하지 않으나, 여러 개의 게임을 하나의 앱으로 통합하고 리소스를 관리하는 과정에서 체계적인 구조 설계가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "포토카드 포장 미니게임",
+            "기본 UI 및 메뉴 시스템"
+          ],
+          "defer": [
+            "마라탕 가게 운영",
+            "인형 놀이",
+            "소셜 공유 기능"
+          ],
+          "risks": [
+            "콘텐츠 부족으로 인한 짧은 플레이 타임",
+            "리소스 제작 비용",
+            "UI 일관성 유지 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "나만의 레시피 북",
+            "concept": "만든 마라탕이나 포장한 포카를 기록하고 나만의 레시피 북으로 관리합니다.",
+            "first_step": "결과물을 이미지로 저장하고 갤러리 형태로 보여주는 기능 구현."
+          },
+          {
+            "title": "일일 퀘스트 시스템",
+            "concept": "매일 다른 미니게임을 수행하도록 유도하여 꾸준한 접속을 유도합니다.",
+            "first_step": "날짜별로 다른 미니게임을 활성화하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "다양한 장르의 미니게임을 구현하며 범용적인 게임 개발 기술을 익히고 싶은 개발자에게 추천합니다. 가벼운 캐주얼 게임을 만들기에 적합합니다.",
+        "source_limitations_ko": "게임 내 데이터 저장 방식이나 소셜 기능 연동 여부, 수익 모델에 대한 정보는 없습니다.",
+        "name": "마라마스터 : 왁뿌볼, 키캡, 마라탕, 포카포장",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EB%A7%88%EB%9D%BC%EB%A7%88%EC%8A%A4%ED%84%B0-%EC%99%81%EB%BF%8C%EB%B3%BC-%ED%82%A4%EC%BA%A1-%EB%A7%88%EB%9D%BC%ED%83%95-%ED%8F%AC%EC%B9%B4%ED%8F%AC%EC%9E%A5/id6474930108?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 171,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 23,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-17"
+    },
+    "google:com.peace.NfcReader": {
+      "app_key": "google:com.peace.NfcReader",
+      "name": "ICカード残高確認",
+      "developer": "Peace",
+      "source": "google",
+      "country": "JP",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.peace.NfcReader&hl=ja&gl=JP",
+      "data_date": "2026-11-17",
+      "analysed_at": "2026-11-17T08:53:34+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Suicaの残高を確認できるアプリです。Suica以外にもPASMO, Edy, WAONなど国内の全てのICカードの残高確認に対応しています。スマホの背面にICカードをタッチするだけで簡単にSuicaの残高を確認できます。 安全・高品質の日本製、スマホに必ずインストールしたい無料のICカード残高確認アプリです。 SuicaやPASMOなど交通系ICカードの残高確認に、ぜひICカード残高確認アプリをご利用ください。 またWAONやnanacoなど電子マネーICカードの残高確認にも、ICカード残高確認アプリが便利です。 ICカード残高確認アプリの対応ICカード ・ Suica ・ PASMO ・ ICOCA ・ PiTaPa ・ TOICA ・ Kitaca ・ SUGOCA ・ WAON ・ nanaco ・ Edy ICカード残高確認アプリの権限 本アプリのご利用に特別な権限は必要ございません。どうぞ安心してSuicaの残高確認にご利用ください。 ICカード残高確認アプリのセキュリティ 本アプリはアップデートごとに、ベンダーが異なる全６種類のセキュリティソフトにおいて安全性に問題がないかを確認したうえでリリースされています。どうぞ安心してSuicaの残高確認にご利用ください。 本アプリはPeace株式会社が提供しております。 カード発行元が提供しているサービスではございません。 本サイトに掲載されている商品またはサービスなどの名称は、各社の商標または登録商標です。 本アプリではより良いアプリ体験のために定期購入をご提供しています。 デジタルコンテンツという商品の性質上、お客様のご都合による返金はいかなる場合もお受けできません。ご購入前に、必ずサービス内容や課金条件をご確認ください。",
+      "analysis": {
+        "app_key": "google:com.peace.NfcReader",
+        "summary_ko": "스마트폰의 NFC 기능을 활용하여 Suica, PASMO 등 다양한 교통계 IC 카드와 전자화폐의 잔액을 간편하게 확인하는 도구 앱입니다. 별도의 회원가입이나 복잡한 설정 없이 카드 터치만으로 잔액을 조회할 수 있습니다. 일본 내 주요 IC 카드를 폭넓게 지원합니다.",
+        "features_ko": [
+          "스마트폰 뒷면에 IC 카드를 터치하여 즉시 잔액을 조회합니다.",
+          "Suica, PASMO, WAON, nanaco, Edy 등 다양한 국내 IC 카드를 지원합니다.",
+          "별도의 권한 설정 없이 간편하게 사용할 수 있습니다.",
+          "보안 소프트웨어 검증을 통해 안전성을 확보했습니다."
+        ],
+        "noteworthy_ko": "NFC 기술을 활용한 실용적인 유틸리티 앱으로, 사용자 편의성에 집중한 설계가 돋보입니다. 복잡한 기능 없이 단일 목적을 완벽히 수행하는 미니멀리즘 개발의 좋은 예시입니다.",
+        "development_ko": "NFC 태그 읽기 기술(Android NFC API)이 핵심이며, 각 카드사별 데이터 포맷을 해석하는 파싱 로직이 중요합니다. 보안이 중요한 앱이므로 데이터 처리 과정에서의 안전성 확보가 필수적입니다. UI는 매우 단순하게 구성하여 사용성을 높이는 것이 좋습니다.",
+        "idea_ko": "잔액이 일정 금액 이하로 떨어지면 알림을 보내거나, 사용 내역을 캘린더에 자동으로 기록하여 지출을 관리하는 기능을 추가하는 것이 적합합니다.",
+        "highlights_ko": [
+          "NFC 기술을 활용한 빠르고 직관적인 잔액 조회 서비스입니다.",
+          "다양한 카드 규격을 지원하여 범용성이 높습니다."
+        ],
+        "systems_ko": [
+          "NFC 태그 감지 및 데이터 읽기 시스템",
+          "IC 카드 데이터 파싱 및 해석 로직",
+          "사용자 인터페이스(UI) 및 결과 표시 시스템",
+          "보안 검증 및 데이터 무결성 관리"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "NFC API 활용은 비교적 표준화되어 있어 구현 난이도가 낮습니다. 다만, 각 카드사의 데이터 규격 정보를 확보하는 것이 개발의 핵심입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "NFC 태그 읽기 기능",
+            "기본적인 카드 데이터 파싱",
+            "잔액 표시 UI"
+          ],
+          "defer": [
+            "사용 내역 기록 및 통계",
+            "잔액 부족 알림"
+          ],
+          "risks": [
+            "카드사 데이터 규격 변경 시 대응",
+            "특정 기기에서의 NFC 인식률 차이"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지출 자동 기록기",
+            "concept": "잔액 변화를 감지하여 사용 금액을 자동으로 가계부에 기록합니다.",
+            "first_step": "이전 잔액과 현재 잔액을 비교하여 차액을 계산하는 로직 구현."
+          },
+          {
+            "title": "카드 관리 위젯",
+            "concept": "홈 화면에서 바로 잔액을 확인할 수 있는 위젯 기능을 제공합니다.",
+            "first_step": "안드로이드 위젯 기본 구조 구현."
+          }
+        ],
+        "recommendation_ko": "NFC 기술을 처음 접하는 개발자에게 추천합니다. 실생활에 유용한 도구 앱을 만드는 과정에서 하드웨어 연동의 기초를 배울 수 있습니다.",
+        "source_limitations_ko": "카드사별 데이터 암호화 방식, 보안 검증의 구체적인 절차, 정기 구독 결제 시스템의 상세 구현은 설명문에서 확인할 수 없습니다.",
+        "name": "ICカード残高確認",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.peace.NfcReader&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-17"
+    },
+    "google:com.smartnews.wander": {
+      "app_key": "google:com.smartnews.wander",
+      "name": "Wanderland / ワンダーランド - 街を探検しよう",
+      "developer": "SmartNews, Inc.",
+      "source": "google",
+      "country": "JP",
+      "category": "app_lifestyle",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.smartnews.wander&hl=ja&gl=JP",
+      "data_date": "2026-11-17",
+      "analysed_at": "2026-11-17T08:53:34+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Wanderland（ワンダーランド）は、飲食店から公園、博物館まで、日本全国のさまざまなスポットの中から、あなたの「行きたい」が見つかる地図アプリです。 □ 地図で街を探検しよう ジオラマのように立ち上がる街並みを、アプリの中で散策しましょう。近くの見どころや話題のスポットが、どんどん目の前に現れます。眺めているだけで、次の行き先が自然と見つかります。 □ 「行きたい」を集めよう 気になった場所は、ワンタップでコレクションに保存。まるで切り抜き帳のように、あとから見返せる、あなただけのコレクションが育っていきます。 □ スポットの写真や動画を撮ろう スポットを実際に訪れたら、簡単操作で、写真や動画に記録。レポートを残せば残すほど、エリアの「足あとポイント」がたまっていきます。レベルを上げて、エリアマスターを目指しましょう！",
+      "analysis": {
+        "app_key": "google:com.smartnews.wander",
+        "summary_ko": "지도 위에서 주변의 맛집, 공원, 박물관 등 다양한 명소를 탐색하고 기록하는 라이프스타일 앱입니다. 지오라마처럼 입체적인 지도 인터페이스를 통해 직관적으로 장소를 찾을 수 있습니다. 방문한 장소를 기록하고 포인트를 쌓아 지역 마스터가 되는 게임적 요소가 포함되어 있습니다.",
+        "features_ko": [
+          "지오라마 스타일의 입체적인 지도를 통해 주변 명소를 탐색합니다.",
+          "관심 있는 장소를 원탭으로 수집하여 나만의 컬렉션을 만듭니다.",
+          "방문한 장소의 사진과 영상을 기록하여 보고서를 남길 수 있습니다.",
+          "기록 활동을 통해 '발자국 포인트'를 획득하고 레벨을 올릴 수 있습니다."
+        ],
+        "noteworthy_ko": "지도 서비스에 수집과 레벨업이라는 게임적 요소를 결합하여 사용자의 자발적인 기록을 유도하는 점이 흥미롭습니다. 위치 기반 서비스(LBS)와 게이미피케이션의 결합을 잘 보여줍니다.",
+        "development_ko": "지도 API(Google Maps 등) 연동과 위치 기반 데이터 처리가 핵심입니다. 사용자 데이터를 저장하고 관리할 백엔드 서버가 필수적이며, 사진/영상 업로드를 위한 스토리지 관리도 필요합니다. 1인 개발 시에는 지도 데이터의 최신성을 유지하는 것이 가장 큰 운영 부담입니다.",
+        "idea_ko": "사용자가 직접 새로운 명소를 등록하고, 다른 사용자가 그 명소를 방문했을 때 보상을 주는 커뮤니티형 지도 기능을 추가하는 것이 적합합니다.",
+        "highlights_ko": [
+          "지오라마 스타일의 독특한 지도 인터페이스를 제공합니다.",
+          "기록 활동에 게임적 요소를 도입하여 사용자 참여를 독려합니다."
+        ],
+        "systems_ko": [
+          "지도 API 연동 및 위치 기반 데이터 관리",
+          "사용자 데이터(컬렉션, 기록) 저장 시스템",
+          "사진 및 영상 업로드/관리 시스템",
+          "포인트 및 레벨업 게이미피케이션 로직"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "지도 API 연동 자체는 어렵지 않으나, 위치 기반 데이터의 안정적인 관리와 사용자 간의 상호작용을 구현하는 서버 인프라 구축이 복잡합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "지도 표시 및 위치 탐색",
+            "장소 저장(컬렉션) 기능",
+            "사진 기록 기능"
+          ],
+          "defer": [
+            "포인트 및 레벨업 시스템",
+            "영상 업로드 및 공유 기능"
+          ],
+          "risks": [
+            "지도 API 사용 비용",
+            "사용자 데이터 관리 및 보안"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "테마별 지도 투어",
+            "concept": "특정 테마(예: 카페 투어, 역사 탐방)에 맞는 장소들을 묶어 경로를 추천합니다.",
+            "first_step": "장소 데이터에 태그를 달아 분류하는 데이터 구조 설계."
+          },
+          {
+            "title": "발자국 공유 지도",
+            "concept": "친구들과 함께 방문한 장소를 공유하고 서로의 발자국을 확인합니다.",
+            "first_step": "사용자 간 데이터 공유를 위한 기본 DB 설계."
+          }
+        ],
+        "recommendation_ko": "위치 기반 서비스와 게이미피케이션을 결합한 앱을 기획 중이라면 좋은 참고가 됩니다. 지도 API 활용법과 사용자 참여 유도 전략을 배우기에 적합합니다.",
+        "source_limitations_ko": "지도 데이터의 출처, 서버 인프라의 상세 구성, 사용자 간 데이터 공유의 보안 방식은 설명문에서 확인할 수 없습니다.",
+        "name": "Wanderland / ワンダーランド - 街を探検しよう",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.smartnews.wander&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-17"
     }
   }
 }

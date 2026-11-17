@@ -10886,6 +10886,275 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-15"
+    },
+    "google:com.arcshoot.arena": {
+      "app_key": "google:com.arcshoot.arena",
+      "name": "Archery Duel 3D",
+      "developer": "GreenTTeaGame",
+      "source": "google",
+      "country": "US",
+      "category": "game_casual",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.arcshoot.arena&hl=ko&gl=KR",
+      "data_date": "2026-11-17",
+      "analysed_at": "2026-11-17T08:50:54+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "This is a one-on-one fair archery competition game where victory or defeat depends entirely on shooting accuracy. You will take turns to fight head-to-head against different enemy archers, relying on steady and accurate shots to eliminate opponents and win every duel. The game follows real projectile motion physics. You can freely adjust the shooting angle and plan the arrow’s flight path to hit targets precisely. Meanwhile, opponents keep shooting arrows back. The fast-paced offense and defense test your aiming judgement and on-the-spot adaptability. It features many battle scenes with complex terrain and diverse styles. While aiming, you need to calculate environmental variables such as wind speed and shooting distance, and adapt to unique terrain features of each map. Repeatedly predict ballistic trajectories and calibrate aiming points to deliver a decisive killing blow and quickly finish off enemies. As battles go on, you unlock new maps, various weapons and rare skins to boost your combat power. Earn gold coins by defeating waves of foes, collect powerful gear to hone your archery skills, and finally become an unbeatable archery master.",
+      "analysis": {
+        "app_key": "google:com.arcshoot.arena",
+        "summary_ko": "물리 법칙을 적용한 1대1 양궁 대결 게임입니다. 정확한 조준과 바람, 거리 계산을 통해 상대를 제압하는 것이 목표입니다. 다양한 맵과 장비를 수집하며 실력을 겨루는 경쟁 중심의 게임입니다.",
+        "features_ko": [
+          "실제 투사체 물리 법칙을 적용하여 화살의 궤적을 계산합니다.",
+          "바람의 세기와 사격 거리를 고려한 정밀한 조준이 필요합니다.",
+          "다양한 지형과 스타일을 가진 여러 배틀 맵을 제공합니다.",
+          "승리 시 획득한 골드로 새로운 장비와 스킨을 구매할 수 있습니다.",
+          "상대와 번갈아 사격하는 턴제 방식의 대결을 진행합니다."
+        ],
+        "noteworthy_ko": "물리 기반의 탄도학을 게임의 핵심 재미로 삼은 점이 인상적입니다. 환경 변수(바람, 거리)를 도입하여 단순한 조준을 넘어선 전략적 판단을 요구하는 설계가 돋보입니다.",
+        "development_ko": "탄도학 물리 계산 로직 구현이 가장 중요하며, 다양한 환경 변수를 적용하는 밸런스 작업이 필요합니다. 맵별 지형 특성에 따른 난이도 조절과 장비 데이터 관리 시스템이 핵심입니다.",
+        "idea_ko": "화살에 특수 효과(폭발, 분열 등)를 부여하는 스킬 시스템을 추가하여 전략성을 높이는 것이 좋습니다.",
+        "highlights_ko": [
+          "물리 법칙 기반의 정밀한 사격 시스템.",
+          "환경 변수를 고려한 전략적 조준."
+        ],
+        "systems_ko": [
+          "탄도학 물리 엔진",
+          "턴제 대결 관리 시스템",
+          "환경 변수(바람, 거리) 계산기",
+          "장비 및 스킨 데이터 관리",
+          "UI/UX(조준 인터페이스)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 계산 로직은 표준적인 수학 공식을 활용할 수 있어 구현 난이도가 적절합니다. 다만, 턴제 대결의 밸런스와 다양한 맵의 완성도를 높이는 데 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 사격 물리 시스템",
+            "턴제 대결 로직",
+            "바람 및 거리 변수 적용"
+          ],
+          "defer": [
+            "다양한 스킨 및 장비 시스템",
+            "복잡한 랭킹 시스템"
+          ],
+          "risks": [
+            "사격 판정의 정확도 문제",
+            "단조로운 게임 플레이 반복"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "트릭샷 아레나",
+            "concept": "직접 사격이 불가능한 지형에서 벽에 튕겨 목표를 맞추는 방식의 모드. 물리 반사각을 이용한 고난도 사격.",
+            "first_step": "화살의 충돌 반사(Bounce) 물리 설정 구현."
+          },
+          {
+            "title": "바람의 마법사",
+            "concept": "사격 전 바람의 방향을 일시적으로 바꿀 수 있는 아이템 사용. 환경 변수를 역으로 이용하는 전략.",
+            "first_step": "바람의 방향과 세기를 실시간으로 변경하는 UI 및 로직 구현."
+          }
+        ],
+        "recommendation_ko": "물리 기반 게임의 기초를 다지기에 매우 좋은 예시입니다. 탄도학 계산과 턴제 시스템을 결합하는 방법을 배우고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "온라인 대전의 구체적인 통신 방식, 결제 시스템, 서버 연동 여부는 확인되지 않습니다. 소개문에 명시되지 않은 외부 서비스 연동은 구현하지 마세요.",
+        "name": "Archery Duel 3D",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.arcshoot.arena&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 348,
+        "reasons": [
+          "multi_country",
+          "newly_seen"
+        ],
+        "best_rank": 14,
+        "countries": [
+          "JP",
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-17"
+    },
+    "itch:98e7fc0c8b1e925b7679": {
+      "app_key": "itch:98e7fc0c8b1e925b7679",
+      "name": "to heaven [Free] [Adventure] [Windows] [macOS]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://neonprecinct.itch.io/to-heaven",
+      "data_date": "2026-11-17",
+      "analysed_at": "2026-11-17T08:51:10+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A wordless journey through deserts, sky paths and a sea of light. Play it slowly, like a film.",
+      "analysis": {
+        "app_key": "itch:98e7fc0c8b1e925b7679",
+        "summary_ko": "to heaven은 사막, 하늘길, 빛의 바다를 여행하는 서사 중심의 어드벤처 게임입니다. 대사 없이 시각적 연출을 통해 영화 같은 경험을 전달하는 데 집중합니다.",
+        "features_ko": [
+          "대사 없이 환경과 연출로만 이야기를 전달합니다.",
+          "사막, 하늘길, 빛의 바다 등 다양한 환경을 탐험합니다."
+        ],
+        "noteworthy_ko": "텍스트를 배제하고 시각적 연출만으로 서사를 이끌어가는 방식은 개발자의 연출 역량이 매우 중요합니다. 플레이어의 몰입감을 극대화하기 위한 카메라 워킹과 환경 디자인이 핵심입니다.",
+        "development_ko": "환경 디자인과 조명 효과를 통한 분위기 조성에 집중해야 합니다. 대사가 없으므로 플레이어의 이동 경로와 시각적 단서 배치가 서사를 대신합니다. 1인 개발 시 리소스 제작보다 연출의 일관성을 유지하는 것이 중요합니다.",
+        "idea_ko": "플레이어의 이동 경로에 따라 환경이 변화하는 인터랙티브 연출을 강화하는 아이디어를 추천합니다.",
+        "highlights_ko": [
+          "대사를 배제한 미니멀리즘 서사.",
+          "환경 변화를 통한 감정 전달."
+        ],
+        "systems_ko": [
+          "캐릭터 이동 및 카메라 제어",
+          "환경 트리거 시스템",
+          "포스트 프로세싱 효과",
+          "배경 음악 및 사운드 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "복잡한 게임 로직보다는 연출과 분위기 조성에 집중하므로 기술적 난이도는 낮으나, 예술적 감각과 연출력이 크게 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 시스템",
+            "카메라 연출 시스템",
+            "환경 에셋"
+          ],
+          "defer": [
+            "복잡한 상호작용",
+            "다양한 분기점"
+          ],
+          "risks": [
+            "플레이어의 지루함 유발",
+            "연출의 의도 전달 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "기억의 조각",
+            "concept": "특정 장소에 도달하면 과거의 잔상이 나타나 이야기를 완성하는 방식입니다.",
+            "first_step": "특정 위치 도달 시 오브젝트 활성화 구현."
+          },
+          {
+            "title": "색채의 여정",
+            "concept": "플레이어의 감정 상태에 따라 주변 환경의 색감이 변하는 연출을 도입합니다.",
+            "first_step": "카메라 포스트 프로세싱 색상 변경 구현."
+          }
+        ],
+        "recommendation_ko": "연출 중심의 게임을 만들고 싶은 개발자에게 추천합니다. 기술적 복잡함보다 분위기 전달을 위한 에셋 활용법을 배우기 좋습니다.",
+        "source_limitations_ko": "게임의 구체적인 조작 방식, 서사의 길이, 상호작용의 범위 등은 설명문에 명시되지 않아 확인이 불가능합니다.",
+        "name": "to heaven [Free] [Adventure] [Windows] [macOS]",
+        "source": "itch",
+        "detail_url": "https://neonprecinct.itch.io/to-heaven",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 332,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 16,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-17"
+    },
+    "apple:6817345425": {
+      "app_key": "apple:6817345425",
+      "name": "ReLevel",
+      "developer": "PONIX LLC",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_rpg",
+      "detail_url": "https://apps.apple.com/jp/app/relevel/id6817345425?uo=2",
+      "data_date": "2026-11-17",
+      "analysed_at": "2026-11-17T08:52:27+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ReLevel ― 十日間の冒険を、何度でも。 主人公に与えられた旅の時間は、わずか10日。 敵と戦い、装備を集め、仲間を育てながら、限られた時間でどこまで進めるかに挑みましょう。 旅が終わっても、冒険のすべてが失われるわけではありません。 手に入れた力や仲間を次の人生へ受け継ぎ、かつて倒せなかった強敵へ再び挑む。 ReLevelは、探索・育成・装備集めと転生を繰り返すドット絵RPGです。 ■ 10日間をどう使う？ フィールドを歩き、モンスターやボスに挑み、旅の行き先を選びましょう。 勝利を重ねて先へ進むか、今の場所で力を蓄えるか。 残り日数を意識した選択が、次の冒険につながります。 ■ 戦闘はオート。勝負を決めるのは準備 主人公と最大3体のペットが、自動で敵と戦います。 装備、ステータスの振り分け、ペットの組み合わせを工夫して、強敵に立ち向かいましょう。 連撃、回復、能力強化など、さまざまな効果を組み合わせる楽しさが待っています。 ■ 数値だけでは選べない装備 武器・防具・装飾品には、それぞれ異なる個性があります。 高い基礎能力で戦う装備もあれば、熟練度を上げて得られる効果が魅力の装備も。 使い込んで新たな力を引き出し、自分の戦い方に合う組み合わせを見つけましょう。 ■ 戦ったモンスターが仲間に 敵を倒すと、ペットとして仲間になることがあります。 仲間にしたペットを育て、絆を深め、スキルを活かして冒険を有利に進めましょう。 攻撃力だけでは測れない、それぞれの得意分野がパーティーづくりの鍵になります。 ■ 転生を重ねて、さらに先へ アーティファクトや受け継いだ力が、次の旅を支えます。 一度の人生では届かなかった場所へ、少しずつ手を伸ばしていきましょう。 草原から始まる冒険の先には、新たなマップや特別なステージ、手強いボスが待っています。 ■ こんな方におすすめ ・ドット絵のファンタジーRPGが好き ・装備集めや育成をじっくり楽しみたい ・スキルや仲間の組み合わせを考えるのが好き ・転生を繰り返して強くなるゲームが好き ・短い時間でも少しずつ冒険を進めたい ■ アカウント連携 アカウントを連携すると、セーブデータのバックアップや端末間の引き継ぎを利用できます。 ※広告およびアプリ内課金を含みます。 次の10日間は、きっと前より遠くへ。 あなたの新たな人生を、ReLevelで始めましょう。",
+      "analysis": {
+        "app_key": "apple:6817345425",
+        "summary_ko": "ReLevel은 10일이라는 제한된 시간 동안 모험을 떠나며 캐릭터를 육성하고 장비를 수집하는 도트 그래픽 RPG입니다. 전투는 자동으로 진행되며, 플레이어는 장비 조합과 펫 육성 등 전략적인 준비에 집중해야 합니다. 모험이 끝나면 획득한 힘과 동료를 다음 생으로 계승하여 더 강한 적에게 도전하는 전생 시스템이 특징입니다. 짧은 시간 동안 반복적인 성장을 즐기는 사용자에게 적합합니다.",
+        "features_ko": [
+          "10일이라는 제한된 시간 내에 모험을 진행하는 시간 관리 시스템이 있습니다.",
+          "전투는 자동으로 진행되며, 플레이어는 장비와 펫 조합을 통해 전략을 세웁니다.",
+          "다양한 능력치를 가진 장비를 수집하고 숙련도를 높여 새로운 힘을 끌어낼 수 있습니다.",
+          "전투에서 승리한 몬스터를 펫으로 영입하여 파티를 구성할 수 있습니다.",
+          "전생 시스템을 통해 이전 모험의 성과를 다음 생으로 계승하여 더 멀리 나아갈 수 있습니다."
+        ],
+        "noteworthy_ko": "10일이라는 짧은 루프를 통해 성취감을 반복적으로 제공하는 게임 디자인이 흥미롭습니다. 자동 전투를 채택하여 전략적 준비 과정에 집중하게 만든 점이 모바일 환경에 적합합니다.",
+        "development_ko": "도트 그래픽 리소스 제작과 턴제 자동 전투 로직 구현이 핵심입니다. 데이터 기반의 장비 및 펫 밸런스 설계가 게임의 재미를 결정하며, 전생 시 데이터 계승 및 저장 시스템이 중요합니다. 1인 개발 시 리소스 제작 부담이 크므로 에셋을 활용하거나 단순한 도트 스타일을 유지하는 것이 좋습니다.",
+        "idea_ko": "10일이 아닌 '특정 상황(예: 던전 탈출)'을 목표로 하는 짧은 로그라이크 RPG가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "10일간의 짧은 모험과 전생을 반복하는 중독성 있는 루프 구조입니다.",
+          "자동 전투와 전략적 파티 구성의 조화가 돋보입니다."
+        ],
+        "systems_ko": [
+          "턴제 자동 전투 엔진",
+          "아이템 및 펫 데이터베이스 관리",
+          "캐릭터 성장 및 전생 데이터 저장 시스템",
+          "시간 흐름 및 이벤트 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "핵심 메커니즘인 자동 전투와 데이터 계승은 1인 개발로 충분히 구현 가능합니다. 다만, 게임의 재미를 위한 밸런스 조정과 다양한 아이템/펫 데이터 구축에 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "자동 전투 로직",
+            "장비 및 펫 데이터 구조",
+            "전생 시 능력치 계승 기능"
+          ],
+          "defer": [
+            "복잡한 애니메이션 연출",
+            "클라우드 세이브 및 계정 연동"
+          ],
+          "risks": [
+            "반복 플레이의 지루함 발생",
+            "밸런스 붕괴로 인한 게임성 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "10분 던전 탈출기",
+            "concept": "10분 안에 던전을 탈출해야 하는 짧은 RPG로, 실패 시 장비만 계승됩니다.",
+            "first_step": "10분 타이머와 전투 로직을 결합한 프로토타입을 만듭니다."
+          },
+          {
+            "title": "펫 수집가 RPG",
+            "concept": "전투보다는 몬스터를 펫으로 수집하고 조합하는 데 집중한 게임입니다.",
+            "first_step": "몬스터 포획 확률과 펫 도감 시스템을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "로그라이크 요소와 성장 시스템을 결합하는 게임 디자인을 배우기에 매우 좋습니다. 1인 개발자에게 적합한 규모의 프로젝트이며, 데이터 구조 설계 능력을 기를 수 있습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 전투 공식이나 펫의 스킬 시스템, 밸런스 수치는 명시되지 않았습니다. 앱 내 결제나 광고 수익 모델의 상세 구현 방식은 확인되지 않았습니다.",
+        "name": "ReLevel",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/relevel/id6817345425?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 210,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 10,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-17"
     }
   }
 }

@@ -11673,6 +11673,184 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-16"
+    },
+    "google:com.pwstudio.omegaseamaster": {
+      "app_key": "google:com.pwstudio.omegaseamaster",
+      "name": "Omega Seamaster Watch Face",
+      "developer": "Prestige Watch Faces Studio",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.pwstudio.omegaseamaster&hl=en&gl=US",
+      "data_date": "2026-11-17",
+      "analysed_at": "2026-11-17T08:52:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "⌚ Watch face for WearOS Watch face information: - Stylish modern design - Customization in watch face settings - Date display - 5 custom complications - AOD mode Supported devices: All Wear OS devices with API level 33+ Note: - This watch face does not support square devices.",
+      "analysis": {
+        "app_key": "google:com.pwstudio.omegaseamaster",
+        "summary_ko": "이 앱은 Wear OS 기기를 위한 시계 화면(Watch Face) 앱입니다. 현대적인 디자인을 제공하며 날짜 표시와 5개의 사용자 지정 컴플리케이션을 지원합니다. 상시 표시 모드(AOD)를 지원하여 편의성을 높였습니다.",
+        "features_ko": [
+          "현대적이고 세련된 시계 화면 디자인을 제공합니다.",
+          "설정 메뉴를 통해 사용자가 원하는 대로 시계 화면을 커스터마이징할 수 있습니다.",
+          "날짜 표시 기능을 포함하고 있습니다.",
+          "5개의 사용자 지정 컴플리케이션을 배치할 수 있습니다.",
+          "상시 표시 모드(AOD)를 지원하여 배터리 효율과 가독성을 고려했습니다."
+        ],
+        "noteworthy_ko": "Wear OS의 컴플리케이션 시스템을 활용하여 사용자가 원하는 정보를 시계 화면에 배치할 수 있게 한 점이 실용적입니다. 디자인과 기능의 균형을 맞춘 전형적인 워치페이스 개발 사례입니다.",
+        "development_ko": "Wear OS 전용 개발 환경(Android Studio)과 Watch Face API에 대한 이해가 필요합니다. 디자인 리소스 최적화와 AOD 모드에서의 배터리 소모 방지가 핵심이며, 다양한 기기 해상도에 대응하는 레이아웃 작업이 필요합니다.",
+        "idea_ko": "사용자의 현재 위치 날씨나 특정 주식 정보를 실시간으로 보여주는 '정보 특화형 워치페이스'가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "Wear OS 기기에 최적화된 맞춤형 시계 화면을 제공합니다.",
+          "사용자 지정 컴플리케이션을 통해 개인화된 정보 확인이 가능합니다."
+        ],
+        "systems_ko": [
+          "Watch Face API 연동",
+          "사용자 설정 저장 및 관리",
+          "컴플리케이션 데이터 바인딩",
+          "AOD 모드 렌더링 최적화"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "Wear OS 개발 도구가 잘 갖춰져 있고, 기존 API를 활용하면 비교적 적은 노력으로 완성도 높은 앱을 만들 수 있습니다. 복잡한 서버 로직이 필요하지 않아 개인 개발에 매우 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 시계 화면 렌더링",
+            "날짜 표시 기능",
+            "AOD 모드 지원"
+          ],
+          "defer": [
+            "5개의 복잡한 컴플리케이션 설정",
+            "고급 커스터마이징 옵션"
+          ],
+          "risks": [
+            "다양한 Wear OS 기기별 해상도 대응",
+            "배터리 소모 최적화 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "미니멀리스트 생산성 워치페이스",
+            "concept": "할 일 목록의 다음 항목을 시계 화면에 바로 보여주는 워치페이스입니다. 복잡한 정보 대신 핵심 일정만 표시합니다.",
+            "first_step": "캘린더 API를 연동하여 다음 일정을 텍스트로 출력하는 기능 구현."
+          },
+          {
+            "title": "건강 요약 워치페이스",
+            "concept": "걸음 수, 심박수, 수면 시간 등 건강 데이터를 한눈에 볼 수 있는 워치페이스입니다. 건강 관리에 관심 있는 사용자를 타겟으로 합니다.",
+            "first_step": "Health Connect API를 사용하여 걸음 수 데이터를 가져와 화면에 표시하기."
+          }
+        ],
+        "recommendation_ko": "Wear OS 개발 입문자에게 강력히 추천합니다. UI/UX 디자인과 시스템 API 활용 능력을 기르기에 좋으며, 결과물을 즉시 기기에서 확인할 수 있어 성취감이 높습니다.",
+        "source_limitations_ko": "사용자 지정 컴플리케이션의 구체적인 데이터 소스 연동 방식이나 디자인 에셋의 저작권 여부는 확인되지 않습니다.",
+        "name": "Omega Seamaster Watch Face",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.pwstudio.omegaseamaster&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 189,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 17,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-17"
+    },
+    "google:com.heally.mobileApp": {
+      "app_key": "google:com.heally.mobileApp",
+      "name": "힐리 - 마사지 최저가 예약, 내주변 마사지샵 가격비교",
+      "developer": "WITHCARES Corp.",
+      "source": "google",
+      "country": "KR",
+      "category": "app_health_fitness",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.heally.mobileApp&hl=ko&gl=KR",
+      "data_date": "2026-11-17",
+      "analysed_at": "2026-11-17T08:54:47+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "▶ 고객혜택 1등 마사지 어플 ‘힐리’ 마사지 매장을 찾기 위해 시간 낭비는 이제 그만!! 힐리만의 차별화된 할인혜택으로 내가 원하는 마사지를 쉽고 빠르게 국내 최저가로 이용해 보세요. ▶ 예약부터 결제까지 손쉬운 예약 힐리에서는 예약과 결제를 한 번에 할 수 있는 ‘바로 결제’ 서비스를 제공하고 있어요 방문하고 싶은 매장을 확인하고 전화 통화 없이 24시간 결제부터 예약까지 한 번에! 실시간 예약은 물론 미리 예약도 OK ▶ 매일 쏟아지는 힐리의 ‘할인 혜택’ 프로모션 힐리가 처음이라면 즉시 ‘100,000원 할인 쿠폰팩’ 증정! 매일 제공되는 앱 공통 쿠폰과 출석 체크 혜택, 매장별 선착순 할인까지 한곳에서 확인하고 합리적인 가격으로 예약하세요. 마사지 매장 이용 완료 시마다 제공되는 포인트 혜택과 추가 이벤트는 덤!! ▶ 쉽고 편리한 검색 기능 내 주변에서 가장 가까운 마사지 매장 검색과 힐리만의 정교한 필터 검색으로 원하는 테마, 취향, 혜택, 가격대를 한 번에 찾아볼 수가 있어요 ▶ 전국 3,000여 곳 이상의 검증된 마사지 매장 한국·중국·태국·베트남 마사지, 왁싱, 스파, 에스테틱, 아로마, 타이, 스포츠, 경락/경혈, 발 마사지 등 다양한 카테고리의 마사지 매장 정보를 기준에 따라 선별하여 제공하고 있습니다. ▶ 믿고 보는 힐리의 ‘이용 완료 기준 리뷰’ 실제 매장 방문 후 이용이 완료된 경우에만 리뷰를 작성할 수 있어, 신뢰할 수 있는 이용 후기 기반으로 매장을 선택할 수 있습니다. ▶힐리를 공식사이트 및 SNS에서도 만나보세요! 홈페이지: https://heally.co.kr ※ 힐리 홈페이지에서도 바로결제부터 이벤트까지 모두 동일하게 이용하실 수 있어요!! 광고입점문의 : https://ad.heally.co.kr 네이버 블로그 : https://blog.naver.com/heally1004 인스타그램 : https://www.instagram.com/heally_official 카카오톡 채널을 추가해 주세요. ‘힐리채널 추가시 5,000원 할인쿠폰 지급 이벤트’ 진행중 ▶ 힐리가 궁금하세요? 힐리 행복고객센터 : 1899-9733 (평일 오전 9시 ~ 오후 6시 / 주말 및 공휴일 휴무 / 오전 11시30분 ~ 오후 12시 30분 점심시간) 카카오톡 : \"힐리 고객센터\" 검색 이메일 : help@heally.co.kr 앱: 더보기>고객문의>1:1문의 ▶ 힐리에선 이용할 수 없어요 홈타이 출장 등 매장이 확인되지 않는 업체나 마사지 문화를 해칠 수 있는 매장 등은 이용 및 제휴가 제한됩니다 힐리에서는 개인 간 만남이나 관리사 선택을 제공하지 않으며, 모든 예약은 매장 단위의 시술 프로그램 기준으로 운영됩니다. ▶ 힐리에서 사용하는 접근권한 안내 [선택] 위치: 사용자의 현재 위치 정보를 이용하여 주변 제휴점을 검색 [선택] 근처기기: 위치기능 기술활용에 따른 기본활용 권한 [선택] 카메라: QR코드인증 등을 통해 제휴점 방문 및 포인트 획득 [선택] 알림: 예약 등의 주요 메세지 수신을 위해 필요합니다. *선택 접근권한은 동의하지 않아도 서비스 이용이 가능합니다. 다만, 선택 접근권한 미동의시 서비스 일부 기능의 정상적인 이용이 어려울 수 있습니다. ※접근권한 변경방법 -휴대폰설정 > 힐리 앱에서 접근권한 변경이 가능합니다. 힐리에서는 사용자의 개인정보와 위치정보사용에 관한 정책은 힐리 어플 하단에 공지하고 있으며, 변경시에는 회원가입시 등록한 이메일 주소로 안내 해드리고 있습니다.",
+      "analysis": {
+        "app_key": "google:com.heally.mobileApp",
+        "summary_ko": "전국 마사지샵의 가격 비교 및 예약 서비스를 제공하는 플랫폼입니다. 사용자는 내 주변 매장을 검색하고 실시간으로 예약 및 결제를 진행할 수 있습니다. 이용 완료 리뷰를 통해 신뢰할 수 있는 매장 정보를 제공합니다.",
+        "features_ko": [
+          "위치 기반으로 내 주변 마사지샵을 검색하고 가격을 비교합니다.",
+          "앱 내에서 예약과 결제를 한 번에 처리하는 '바로 결제' 서비스를 제공합니다.",
+          "실제 이용 완료자만 작성 가능한 리뷰 시스템으로 신뢰도를 확보합니다.",
+          "다양한 필터 기능을 통해 테마, 가격대, 혜택별로 매장을 검색합니다."
+        ],
+        "noteworthy_ko": "O2O(Online to Offline) 서비스로서 예약 시스템과 결제 연동이 핵심입니다. 리뷰의 신뢰성을 확보하기 위해 이용 완료 여부를 검증하는 로직이 서비스의 핵심 경쟁력으로 보입니다.",
+        "development_ko": "위치 기반 서비스(LBS) 구현과 실시간 예약 데이터 동기화가 핵심입니다. 결제 게이트웨이 연동 및 보안 관리가 필수적이며, 매장 관리자와의 데이터 연동을 위한 백엔드 인프라가 필요합니다. 1인 개발자가 구현하기에는 서비스 운영 및 제휴 관리 부담이 매우 큽니다.",
+        "idea_ko": "마사지샵 방문 후 개인별 맞춤형 스트레칭 루틴을 추천해주는 '사후 관리 가이드' 기능이 서비스 차별화에 도움이 될 것입니다.",
+        "highlights_ko": [
+          "이용 완료 기준 리뷰 시스템을 통해 허위 리뷰를 방지합니다.",
+          "예약부터 결제까지의 과정을 단일 앱 내에서 완결하여 사용자 편의성을 높였습니다."
+        ],
+        "systems_ko": [
+          "위치 기반 매장 검색 시스템",
+          "실시간 예약 및 결제 관리 시스템",
+          "사용자 리뷰 및 평점 관리 시스템",
+          "매장 정보 데이터베이스 및 필터링 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "단순 앱 구현을 넘어 결제 연동, 매장 데이터 관리, 서버 인프라 등 운영적인 요소가 매우 커서 1인 개발로 유지하기 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "매장 리스트 조회 및 상세 페이지",
+            "위치 기반 검색 기능",
+            "기본 예약 요청 폼"
+          ],
+          "defer": [
+            "앱 내 결제 시스템",
+            "실시간 채팅/메시지",
+            "포인트 및 쿠폰 시스템"
+          ],
+          "risks": [
+            "매장 데이터 확보 및 관리의 어려움",
+            "개인정보 보호 및 보안 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "사후 관리 스트레칭 가이드",
+            "concept": "마사지 종류에 따라 집에서 할 수 있는 스트레칭 영상을 추천합니다.",
+            "first_step": "마사지 유형별 스트레칭 영상 링크를 매칭하는 데이터베이스를 구축합니다."
+          },
+          {
+            "title": "마사지 기록 다이어리",
+            "concept": "사용자가 받은 마사지 기록을 저장하고 몸의 변화를 기록하는 기능입니다.",
+            "first_step": "사용자별 마사지 방문 기록 저장 및 메모 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "O2O 서비스의 구조와 데이터 관리 방식을 배우기에 좋으나, 실제 서비스 운영은 제휴와 보안 문제로 인해 비추천합니다. 학습용으로만 접근하는 것이 좋습니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 결제 보안 정책, 서버 인프라 구성, 매장 제휴 계약 방식 등은 알 수 없으며, 실제 구현 시 법적 검토가 반드시 필요합니다.",
+        "name": "힐리 - 마사지 최저가 예약, 내주변 마사지샵 가격비교",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.heally.mobileApp&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-17"
     }
   }
 }

@@ -12119,6 +12119,362 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-16"
+    },
+    "itch:35c2e2bb8d6cea529831": {
+      "app_key": "itch:35c2e2bb8d6cea529831",
+      "name": "Candy Fairy Glade Mega Pack: 50 Low Poly 3D Models [Free] [Adventure]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://oturanproject.itch.io/candy-fairy-glade-mega-pack-50-low-poly-3d-models",
+      "data_date": "2026-11-17",
+      "analysed_at": "2026-11-17T08:50:54+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Low poly 3D models for a candy-themed fairy glade scene.",
+      "analysis": {
+        "app_key": "itch:35c2e2bb8d6cea529831",
+        "summary_ko": "사탕 테마의 요정 숲 장면을 구성하기 위한 50개의 로우 폴리(Low Poly) 3D 모델 팩입니다. 어드벤처 게임이나 관련 테마의 프로젝트를 위한 에셋 모음입니다.",
+        "features_ko": [
+          "사탕 테마의 3D 모델 50종을 포함합니다.",
+          "로우 폴리 스타일로 제작되어 최적화에 유리합니다.",
+          "요정 숲 장면을 구성하는 데 특화되어 있습니다."
+        ],
+        "noteworthy_ko": "특정 테마에 집중된 에셋 팩은 인디 개발자들에게 매우 유용합니다. 로우 폴리 스타일은 모바일이나 저사양 환경에서도 원활하게 작동하므로 범용성이 높습니다.",
+        "development_ko": "3D 모델링 제작 기술이 핵심이며, 일관된 스타일을 유지하는 것이 중요합니다. 에셋의 폴리곤 수를 최적화하고 텍스처 아틀라스를 활용하여 성능을 고려해야 합니다.",
+        "idea_ko": "이 에셋들을 활용하여 짧은 걷기 시뮬레이터나 간단한 퍼즐 게임을 제작하는 것이 좋습니다.",
+        "highlights_ko": [
+          "사탕 테마의 독특한 비주얼.",
+          "50종의 다양한 로우 폴리 모델."
+        ],
+        "systems_ko": [
+          "3D 에셋 관리",
+          "씬(Scene) 구성 및 배치",
+          "라이팅 및 포스트 프로세싱"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "이미 제작된 에셋을 활용하는 것이므로 게임 시스템 구현에만 집중할 수 있습니다. 3D 환경을 구성하고 배치하는 기초적인 작업 위주입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "에셋을 활용한 맵 배치",
+            "플레이어 캐릭터 이동"
+          ],
+          "defer": [
+            "복잡한 게임 로직",
+            "애니메이션 시스템"
+          ],
+          "risks": [
+            "에셋 간의 스타일 불일치",
+            "단순한 맵 구성으로 인한 재미 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "사탕 숲 탐험가",
+            "concept": "사탕 숲을 돌아다니며 숨겨진 사탕 조각을 모으는 힐링 게임. 전투 없이 탐험과 수집에 집중.",
+            "first_step": "에셋을 배치한 맵에서 캐릭터가 이동하고 아이템을 획득하는 로직 구현."
+          },
+          {
+            "title": "요정의 정원 관리",
+            "concept": "사탕 식물을 심고 가꾸어 정원을 꾸미는 시뮬레이션. 성장 단계에 따라 모델을 교체하는 방식.",
+            "first_step": "특정 위치에 오브젝트를 배치하고 시간 경과에 따라 모델을 변경하는 스크립트 작성."
+          }
+        ],
+        "recommendation_ko": "3D 게임 개발의 기초인 씬 구성과 에셋 활용법을 배우기에 좋습니다. 아트 리소스가 준비되어 있으므로 시스템 구현 연습용으로 추천합니다.",
+        "source_limitations_ko": "모델의 파일 형식(FBX, OBJ 등), 텍스처 포함 여부, 라이선스 범위 등은 설명에 명시되어 있지 않습니다. 실제 사용 전 파일 구성을 확인해야 합니다.",
+        "name": "Candy Fairy Glade Mega Pack: 50 Low Poly 3D Models [Free] [Adventure]",
+        "source": "itch",
+        "detail_url": "https://oturanproject.itch.io/candy-fairy-glade-mega-pack-50-low-poly-3d-models",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 347,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 11,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-17"
+    },
+    "apple:6805769847": {
+      "app_key": "apple:6805769847",
+      "name": "팀빨협동전 : 협동 영웅 디펜스",
+      "developer": "Standegg",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_casual",
+      "detail_url": "https://apps.apple.com/kr/app/%ED%8C%80%EB%B9%A8%ED%98%91%EB%8F%99%EC%A0%84-%ED%98%91%EB%8F%99-%EC%98%81%EC%9B%85-%EB%94%94%ED%8E%9C%EC%8A%A4/id6805769847?uo=2",
+      "data_date": "2026-11-17",
+      "analysed_at": "2026-11-17T08:52:04+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "같이 막고, 함께 강해지는 2인 협동 디펜스! 쏟아지는 몬스터와 강력한 보스에 맞서 팀원과 함께 성벽을 지키세요. 팀빨협동전은 두 플레이어가 함께 싸우는 실시간 협동 디펜스 게임입니다. 영웅을 직접 움직이고, 무기와 스킬 카드를 조합해 매 전투마다 새로운 공략을 만들어 보세요. ■ 친구와 함께, 새로운 팀원과 함께 친구를 초대하거나 빠른 시작으로 팀원을 만나세요. 서로의 무기와 스킬을 확인하고, 부족한 부분을 채워 주며 마지막 웨이브에 도전하세요. ■ 카드 한 장으로 달라지는 전투 웨이브를 클리어하고 스킬 카드를 선택하세요. 무기를 강화하고 다양한 효과를 조합하며 나만의 전투 스타일을 완성할 수 있습니다. 어떤 카드를 고르느냐에 따라 이번 판의 전략이 달라집니다. ■ 직접 움직이며 만드는 팀플레이 영웅을 조작해 보스의 공격에 대응하고, 기절한 팀원에게 다가가 구해 주세요. 속성 상성과 상태이상 효과를 활용해 몰려오는 적을 함께 막아 내세요. ■ 보스도 함께, 유물 선택도 함께 팀원과 보스전 난이도를 정하고 강력한 적에게 도전하세요. 보스를 쓰러뜨리면 전투를 강화할 유물을 선택할 수 있습니다. 둘 다 같은 유물을 골랐다면? 가위바위보로 주인이 결정됩니다! 이번 판, 당신이 든든한 팀원이 되어 주세요. 팀빨협동전에서 함께 지키는 즐거움을 만나 보세요!",
+      "analysis": {
+        "app_key": "apple:6805769847",
+        "summary_ko": "두 명의 플레이어가 협동하여 몬스터와 보스로부터 성벽을 지키는 실시간 디펜스 게임입니다. 영웅을 직접 조작하고 무기와 스킬 카드를 조합하여 전략적인 전투를 수행합니다. 친구와 함께하거나 빠른 시작을 통해 팀원을 만날 수 있습니다.",
+        "features_ko": [
+          "2인 실시간 협동 디펜스 시스템을 제공합니다.",
+          "영웅 직접 조작 및 무기/스킬 카드 조합이 가능합니다.",
+          "보스전 난이도 선택 및 유물 선택 시스템이 있습니다.",
+          "팀원 구출 및 속성 상성 활용 전략을 지원합니다.",
+          "가위바위보를 통한 유물 분배 시스템이 포함되어 있습니다."
+        ],
+        "noteworthy_ko": "협동 디펜스에 영웅 조작과 카드 조합을 결합하여 전략성을 높인 점이 흥미롭습니다. 특히 유물 분배 시 가위바위보를 도입한 것은 협동 게임에서의 갈등을 재미있게 해결하려는 시도로 보입니다.",
+        "development_ko": "실시간 네트워크 동기화가 가장 큰 기술적 도전 과제입니다. 영웅 조작과 스킬 시스템의 밸런스, 그리고 다양한 카드 조합에 따른 데이터 관리가 필요합니다.",
+        "idea_ko": "협동 디펜스에 '역할 분담'을 강화하여, 한 명은 방어, 한 명은 지원에 특화된 시스템을 제안합니다.",
+        "highlights_ko": [
+          "실시간 협동을 통한 전략적 디펜스 경험.",
+          "유물 분배 시 가위바위보 시스템 도입으로 재미 요소 강화."
+        ],
+        "systems_ko": [
+          "실시간 네트워크 동기화",
+          "영웅 이동 및 스킬 시스템",
+          "카드 조합 및 데이터 관리",
+          "웨이브 및 보스전 로직",
+          "UI 및 매칭 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 멀티플레이어 동기화는 1인 개발자에게 매우 높은 난이도이며, 디펜스 게임의 밸런스 조정 또한 복잡하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 디펜스 로직",
+            "영웅 이동 및 공격",
+            "웨이브 시스템"
+          ],
+          "defer": [
+            "실시간 멀티플레이어 동기화",
+            "복잡한 카드 조합 시스템"
+          ],
+          "risks": [
+            "네트워크 지연 문제",
+            "밸런스 불균형"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "비대칭 협동 디펜스",
+            "concept": "한 명은 타워를 설치하고, 한 명은 영웅을 조작하여 서로 다른 방식으로 방어하는 게임입니다.",
+            "first_step": "타워 설치와 영웅 이동의 기본 상호작용 구현."
+          },
+          {
+            "title": "카드 덱 빌딩 디펜스",
+            "concept": "협동 대신 혼자서 카드를 조합하여 매번 다른 덱으로 디펜스를 수행하는 게임입니다.",
+            "first_step": "카드 선택에 따른 타워 능력치 변화 로직 구현."
+          }
+        ],
+        "recommendation_ko": "실시간 게임의 구조와 밸런스 설계에 대해 배울 점이 많습니다. 멀티플레이어 구현의 어려움을 간접적으로 체험해 볼 수 있습니다.",
+        "source_limitations_ko": "네트워크 통신 방식, 서버 구조, 카드 밸런스 수치, 결제 시스템의 상세 내용은 설명만으로 확인이 불가능합니다.",
+        "name": "팀빨협동전 : 협동 영웅 디펜스",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%ED%8C%80%EB%B9%A8%ED%98%91%EB%8F%99%EC%A0%84-%ED%98%91%EB%8F%99-%EC%98%81%EC%9B%85-%EB%94%94%ED%8E%9C%EC%8A%A4/id6805769847?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 235,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-17"
+    },
+    "apple:1423538627": {
+      "app_key": "apple:1423538627",
+      "name": "1.1.1.1: Faster Internet",
+      "developer": "Cloudflare",
+      "source": "apple",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://apps.apple.com/us/app/1-1-1-1-faster-internet/id1423538627?uo=2",
+      "data_date": "2026-11-17",
+      "analysed_at": "2026-11-17T08:52:27+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "1.1.1.1 w/ WARP – the free app that makes your Internet more private. 1.1.1.1 w/ WARP makes your Internet more private and safer. No one should be able to snoop on what you do on the Internet. We’ve created 1.1.1.1 so that you can connect to the Internet securely anytime, anywhere. • A better way to connect 1.1.1.1 with WARP replaces the connection between your phone and the Internet with a modern, optimized, protocol. • Greater privacy 1.1.1.1 with WARP prevents anyone from snooping on you by encrypting more of the traffic leaving your phone. We believe privacy is a right. We won't sell your data. • Better security 1.1.1.1 with WARP protects your phone from security threats like malware, phishing, crypto-mining and other security threats when you enable 1.1.1.1 for Families option from the DNS settings inside the app. • Easy to use One-touch setup to make your Internet more safe and private. Install it today, get a more private Internet, it’s that simple. • The only way to get WARP+ In addition to the full WARP service, WARP+ subscribers get access to a larger network. More cities to connect to means you’re likely to be closer to a Cloudflare data center – which can reduce the latency between your device and Cloudflare and improve your browsing speed. --- Subscription Information for WARP+ • 1.1.1.1 with WARP is free, but WARP+ is a paid feature which can be enabled at any time. • You can get free WARP+ data by sharing 1.1.1.1 with friends. • Subscribe on a monthly basis to receive unlimited WARP+ data for the duration of the subscription. • Your subscription will automatically renew for the same package length at the same price until you cancel in settings in the iTunes Store at least 24 hours prior to the end of the current period. • Any unused portion of a free trial period and/or WARP+ data transfer credits, if offered, will be forfeited when you purchase a subscription, where applicable. Privacy Policy: https://www.cloudflare.com/application/privacypolicy/ Terms of Service: https://www.cloudflare.com/application/terms/",
+      "analysis": {
+        "app_key": "apple:1423538627",
+        "summary_ko": "1.1.1.1 w/ WARP는 인터넷 연결을 더 안전하고 비공개적으로 만들어주는 네트워크 도구입니다. 기기와 인터넷 사이의 연결을 최적화된 프로토콜로 대체하여 보안을 강화합니다. 사용자의 트래픽을 암호화하여 외부의 감시를 방지하고, 보안 위협으로부터 기기를 보호합니다. 원터치 설정으로 간편하게 사용할 수 있으며, 유료 구독을 통해 더 넓은 네트워크망을 이용할 수 있습니다.",
+        "features_ko": [
+          "기기와 인터넷 사이의 연결을 최적화된 프로토콜로 대체합니다.",
+          "트래픽을 암호화하여 사용자의 인터넷 활동을 비공개로 유지합니다.",
+          "멀웨어, 피싱 등 보안 위협으로부터 기기를 보호하는 기능을 제공합니다.",
+          "원터치 설정으로 누구나 쉽게 보안 연결을 활성화할 수 있습니다.",
+          "WARP+ 구독을 통해 더 많은 데이터 센터를 활용하여 지연 시간을 줄입니다."
+        ],
+        "noteworthy_ko": "네트워크 계층에서 트래픽을 암호화하고 최적화하는 기술적 접근이 핵심입니다. 사용자에게 복잡한 설정 없이 보안을 제공하는 UX 설계가 매우 뛰어납니다.",
+        "development_ko": "VPN 프로토콜(WireGuard 등)에 대한 깊은 이해와 네트워크 패킷 처리 기술이 필요합니다. 전 세계에 분산된 서버 인프라 구축과 유지보수가 핵심이며, 플랫폼별 네트워크 설정 권한을 다루는 난도가 높습니다. 개인 개발자가 전체 인프라를 구현하는 것은 사실상 불가능하며, 기존 프로토콜을 활용한 클라이언트 개발에 집중해야 합니다.",
+        "idea_ko": "특정 앱이나 사이트 접속 시에만 자동으로 보안 연결을 활성화하는 '선택적 보안 연결 관리자'가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "사용자의 인터넷 트래픽을 암호화하여 프라이버시를 보호합니다.",
+          "원터치 방식으로 복잡한 네트워크 설정을 자동화했습니다."
+        ],
+        "systems_ko": [
+          "VPN/네트워크 터널링 프로토콜 구현",
+          "트래픽 암호화 및 복호화 엔진",
+          "DNS 설정 관리 시스템",
+          "구독 결제 및 사용자 인증 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "네트워크 프로토콜과 보안 기술은 매우 전문적인 영역입니다. 안정적인 연결을 보장하기 위한 서버 인프라 운영은 개인 개발자가 감당하기에 매우 큰 부담입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 DNS 변경 기능",
+            "연결 상태 표시 UI",
+            "연결 활성화/비활성화 스위치"
+          ],
+          "defer": [
+            "전 세계 데이터 센터 네트워크망 구축",
+            "트래픽 암호화 엔진 직접 개발"
+          ],
+          "risks": [
+            "네트워크 연결 불안정으로 인한 사용자 불만",
+            "보안 취약점 발생 시 책임 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "네트워크 상태 모니터링기",
+            "concept": "현재 연결된 네트워크의 보안 상태와 DNS 정보를 시각적으로 보여주는 도구입니다.",
+            "first_step": "현재 사용 중인 DNS 서버 주소를 확인하여 화면에 표시하는 앱을 만듭니다."
+          },
+          {
+            "title": "앱별 연결 관리자",
+            "concept": "특정 앱 실행 시에만 보안 연결을 켜거나 끄는 자동화 도구입니다.",
+            "first_step": "앱 실행 이벤트를 감지하여 알림을 띄우는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "네트워크 프로토콜과 보안 통신에 관심이 있다면 좋은 학습 사례입니다. 다만, 실제 보안 서비스를 직접 구축하기보다는 기존 오픈소스 라이브러리를 활용한 클라이언트 개발을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 암호화 알고리즘이나 서버 인프라의 상세 구성은 언급되지 않았습니다. 결제 시스템의 연동 방식이나 보안 정책의 세부 사항은 검증이 필요합니다.",
+        "name": "1.1.1.1: Faster Internet",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/1-1-1-1-faster-internet/id1423538627?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 210,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 10,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-17"
+    },
+    "apple:6499306806": {
+      "app_key": "apple:6499306806",
+      "name": "Goods Puzzle: 3D Sorting Games",
+      "developer": "Guru Smart Holding Limited",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/us/app/goods-puzzle-3d-sorting-games/id6499306806?uo=2",
+      "data_date": "2026-11-17",
+      "analysed_at": "2026-11-17T08:55:30+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Get ready for an exciting matching adventure like never before in Goods Puzzle: 3D Sorting Games! Sort multiple goods, organize the shelves, and enjoy your leisure time to become a 3D sorting game master! Looking for relaxing sorting games where you can sort, match, and explore? Curious about your skills in turning chaos into order within a time limit? Then this FREE and addictive triple sorting game is sure to provide you with a perfect experience. It combines triple-match gameplay, strategic sorting games, 3D matching, and engaging puzzle elements. It's time to match, solve challenging puzzles, and enjoy the fun of sorting goods! In the classic triple match and sorting games, your task is to help sellers sort and classify a wide range of goods on the shelves. Match 3 identical goods to eliminate them and make room for new challenges. But remember, time is ticking! Perfectly organize everything before time runs out and win the sorting games for free. Sort goods, test your speed, and clear your mind now! Cool Features of Goods Matching Games: - FREE to play captivating sorting puzzle games - Engaging 3D graphics and intuitive triple-match gameplay - Tons of challenging levels with varied difficulty - 300 types of 3D goods in visually appealing categories for sorting games - Enjoy endless sorting fun with dozens of unique shelving arrangements - Super boosters to help you overcome obstacles & clear levels - Simple tap-and-drag controls for a smooth experience in match 3D sorting games - Time-based sorting games that enhance quick-thinking skills - Play Goods Puzzle: 3D Sorting Games anywhere, anytime - Stress-relieving and mind-healing sorting games for adults - A great way to improve your memory, attention, and problem-solving skills How to Play Sorting Games: - Drag and drop 3D items to several shelves for triple-match - Collect 3 identical items to clear them - Use powerful boosters strategically to manage more difficult sorting games or to freeze time - Sort all goods before time expires to earn rewards and unlock new sorting games Goods Puzzle: 3D Sorting Games offers countless levels with vivid 3D object designs, from delicious snacks and refreshing drinks to adorable figurines and everyday essentials. With intuitive 3D gameplay, simple but stunning graphics, and abundant rewards in match 3 games, you can not only experience the joy in the shopping mall but also step into a world of triple tile sorting games with brain challenges and mind relaxation. Are you up for the fun and enjoyable match 3D and sorting games? Unlock a wide variety of goods and challenge your brainpower in this delightful mix of 3D matching and sorting games journey! Privacy Policy: https://goods.gurugame.ai/policy.html Terms of Service: https://goods.gurugame.ai/termsofservice.html",
+      "analysis": {
+        "app_key": "apple:6499306806",
+        "summary_ko": "Goods Puzzle은 3D 환경에서 동일한 물건 3개를 찾아 정리하는 퍼즐 게임입니다. 제한 시간 내에 선반 위의 물건들을 분류하여 제거하는 방식으로 진행됩니다. 다양한 3D 아이템과 레벨을 통해 두뇌 회전과 스트레스 해소를 돕는 게임입니다.",
+        "features_ko": [
+          "3D 그래픽으로 구현된 다양한 물건을 3개씩 매칭하여 제거합니다.",
+          "제한 시간 내에 선반을 정리해야 하는 퍼즐 규칙을 가집니다.",
+          "300종 이상의 다양한 3D 물건이 카테고리별로 등장합니다.",
+          "게임 진행을 돕는 다양한 부스터 아이템을 사용할 수 있습니다.",
+          "간단한 터치 및 드래그 조작으로 누구나 쉽게 즐길 수 있습니다."
+        ],
+        "noteworthy_ko": "단순한 매칭 퍼즐에 3D 공간과 시간 제한을 결합하여 긴장감을 높인 점이 특징입니다. 물건을 정리한다는 일상적인 행위를 게임화하여 대중적인 재미를 확보한 점이 개발 관점에서 흥미롭습니다.",
+        "development_ko": "3D 모델링 리소스 제작과 최적화가 가장 큰 부담입니다. 퍼즐 로직은 선반의 상태를 관리하는 배열 기반 알고리즘이 핵심이며, 시간 제한과 부스터 효과를 구현하는 게임 엔진(Unity 등) 활용이 필요합니다. 밸런스 조절을 위해 레벨별 난이도 곡선을 세밀하게 설계해야 합니다.",
+        "idea_ko": "정리된 물건들을 사용하여 나만의 상점을 꾸미거나, 특정 테마(예: 캠핑, 주방)에 맞춰 선반을 커스터마이징하는 기능을 추가하면 좋습니다.",
+        "highlights_ko": [
+          "3D 물건을 분류하는 시각적 즐거움과 퍼즐의 재미를 동시에 제공합니다.",
+          "시간 제한을 통해 빠른 판단력과 집중력을 요구하는 게임 구조를 갖추고 있습니다."
+        ],
+        "systems_ko": [
+          "3D 오브젝트 매칭 및 물리 처리 시스템",
+          "레벨 데이터 관리 및 난이도 조절 시스템",
+          "시간 제한 및 게임 상태 관리 시스템",
+          "부스터 아이템 로직",
+          "UI 및 보상 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "퍼즐 로직 자체는 구현 가능하지만, 3D 리소스 제작과 최적화, 그리고 수많은 레벨을 설계하는 과정에서 많은 시간이 소요되기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "3D 물건 매칭 로직",
+            "선반 UI 및 드래그 조작",
+            "기본 레벨 10개"
+          ],
+          "defer": [
+            "300종 이상의 아이템",
+            "다양한 부스터 아이템",
+            "온라인 랭킹 시스템"
+          ],
+          "risks": [
+            "3D 리소스 제작의 높은 노동 강도",
+            "퍼즐 밸런스 설계의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "정리 릴레이",
+            "concept": "한 선반을 정리하면 다음 선반으로 물건이 자동으로 넘어오는 릴레이 방식의 퍼즐입니다.",
+            "first_step": "선반이 가득 차면 다음 선반으로 전환되는 로직 구현."
+          },
+          {
+            "title": "물건 분류 퀴즈",
+            "concept": "제한 시간 내에 특정 카테고리(예: 과일만)의 물건만 골라내어 정리하는 미션 모드입니다.",
+            "first_step": "특정 태그를 가진 물건만 매칭 가능하도록 필터링 로직 구현."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 핵심 로직인 매칭 알고리즘과 3D 게임 개발의 기초를 배우기에 매우 좋습니다. 리소스 제작 부담이 크므로 에셋 스토어를 활용하는 것을 추천합니다.",
+        "source_limitations_ko": "게임 엔진의 종류나 구체적인 물리 엔진 설정은 확인되지 않습니다. 광고 수익 모델이나 인앱 결제 시스템의 상세 구조는 알 수 없습니다.",
+        "name": "Goods Puzzle: 3D Sorting Games",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/goods-puzzle-3d-sorting-games/id6499306806?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 96,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-17"
     }
   }
 }

@@ -12543,6 +12543,366 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-15"
+    },
+    "itch:e31e87ad7af8c4855bbd": {
+      "app_key": "itch:e31e87ad7af8c4855bbd",
+      "name": "desk-spider [$3.99] [Simulation] [Windows] [macOS]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://lsq03.itch.io/desk-spider",
+      "data_date": "2026-11-17",
+      "analysed_at": "2026-11-17T08:51:46+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A realistic little spider that lives on your desktop, hunts the bugs your screen time attracts, and grows with you.",
+      "analysis": {
+        "app_key": "itch:e31e87ad7af8c4855bbd",
+        "summary_ko": "desk-spider는 바탕화면에서 살아가는 가상의 거미를 다루는 시뮬레이션 게임입니다. 사용자의 화면 사용 시간에 따라 거미가 벌레를 사냥하고 성장하는 방치형 요소가 포함되어 있습니다.",
+        "features_ko": [
+          "바탕화면 위에서 거미가 실시간으로 움직이며 상호작용합니다.",
+          "사용자의 화면 사용 시간을 기반으로 먹이(벌레)가 생성됩니다.",
+          "거미가 먹이를 사냥하고 시간이 지남에 따라 성장합니다."
+        ],
+        "noteworthy_ko": "바탕화면을 게임 공간으로 활용하는 방식이 매우 독특합니다. 운영체제의 창 관리와 오버레이 기술을 활용한 상호작용이 개발 관점에서 매우 흥미로운 도전 과제입니다.",
+        "development_ko": "바탕화면 최상단에 렌더링하는 오버레이 기술과 사용자의 활동 시간을 추적하는 로직이 핵심입니다. 거미의 AI 움직임과 성장 데이터 관리 등 콘텐츠 제작 부담이 있습니다.",
+        "idea_ko": "사용자가 특정 앱을 사용할 때 거미가 반응하거나, 바탕화면의 아이콘 위치를 거미집의 거점으로 활용하는 기능을 제안합니다.",
+        "highlights_ko": [
+          "바탕화면과의 통합: 게임이 별도의 창에 갇히지 않고 바탕화면 위에서 동작합니다.",
+          "방치형 성장 모델: 사용자의 일상적인 컴퓨터 사용 패턴이 게임의 진행 요소가 됩니다."
+        ],
+        "systems_ko": [
+          "바탕화면 오버레이 렌더링 시스템",
+          "사용자 활동 시간 추적 로직",
+          "거미 AI 이동 및 사냥 로직",
+          "데이터 저장 및 성장 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "일반적인 게임 엔진 환경을 넘어 운영체제 수준의 오버레이 구현이 필요하며, 다양한 사용자 환경에서의 호환성 확보가 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "바탕화면 투명 창 구현",
+            "거미의 기본 이동 AI",
+            "시간 기반 성장 로직"
+          ],
+          "defer": [
+            "다양한 거미 종 추가",
+            "복잡한 사냥 애니메이션"
+          ],
+          "risks": [
+            "운영체제별 권한 및 보안 정책 문제",
+            "다른 프로그램과의 렌더링 충돌"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "데스크탑 가드너",
+            "concept": "거미 대신 바탕화면에서 식물을 키우는 게임입니다. 사용자가 마우스를 움직일 때마다 물을 주는 효과를 줍니다.",
+            "first_step": "바탕화면 위에서 마우스 위치를 추적하는 간단한 스크립트 작성."
+          },
+          {
+            "title": "아이콘 헌터",
+            "concept": "바탕화면 아이콘을 먹이로 인식하여 이동하는 거미입니다. 아이콘을 정리해주는 기능을 추가할 수 있습니다.",
+            "first_step": "바탕화면 아이콘의 좌표를 읽어오는 기능 테스트."
+          }
+        ],
+        "recommendation_ko": "데스크탑 환경과의 상호작용을 다루는 고급 기술을 배우고 싶은 개발자에게 추천합니다. 일반적인 게임 개발과는 다른 접근 방식이 필요합니다.",
+        "source_limitations_ko": "사용하는 렌더링 기술(예: Transparent Window), 운영체제 호환성 범위, 데이터 저장 방식에 대한 정보가 없습니다.",
+        "name": "desk-spider [$3.99] [Simulation] [Windows] [macOS]",
+        "source": "itch",
+        "detail_url": "https://lsq03.itch.io/desk-spider",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 287,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 31,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-17"
+    },
+    "google:ipnossoft.rma.free": {
+      "app_key": "google:ipnossoft.rma.free",
+      "name": "BetterSleep: Sleep Sounds",
+      "developer": "BetterSleep Health",
+      "source": "google",
+      "country": "US",
+      "category": "app_health_fitness",
+      "detail_url": "https://play.google.com/store/apps/details?id=ipnossoft.rma.free&hl=en&gl=US",
+      "data_date": "2026-11-17",
+      "analysed_at": "2026-11-17T08:53:34+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "→ “Best app for sleep” – Reviewed.com → Named Apple’s \"App of the Day\" over 65 times → “The most positively reviewed app in the history of the Apple Store” – Business Insider Enjoy full access to BetterSleep during your free trial. Afterward, continue your journey toward deep rest with an auto-renewable, paid subscription. Cancel anytime. BetterSleep helps you understand and improve your sleep with its easy-to-use sleep tracker, sleep recorder, premium sleep sounds, amazing stories and soothing guided meditations. Doesn't that sound dreamy? Leading doctors, neuropsychologists, and sleep experts recommend BetterSleep . . . and 91% of our listeners say they slept better after using the app for just one week. Premium Audio Content Fall asleep easily, sleep soundly, and develop lasting sleep habits, with dreamy soundscapes, narrated sleep stories, hypnosis and meditations that really work, all perfectly tuned to your needs. Sleep Tracker Track your sleep, understand how it works and let us propose actionable ways to improve it. Sleep Recorder Record the sounds you make while you sleep and listen to them when you wake up. BetterSleep identifies when you snore, move around, sleep talk and make other common sounds at night. Sleep Science Learn about the science behind your unique sleep needs and discover your personal chronotype. More than 300 sleep sounds & music tracks: Nature sounds ASMR sounds White noise Water sounds Meditation music Isochronic brainwaves Solfeggio frequencies Binaural beats Healing music 3D sounds More than 250 meditations & hypnosis: Restful sleep Military method Stress and anxiety relief Tinnitus relief Yoga Nidra Gratitude Better sleep Deep sleep Napping Dreams Kids Heart coherence Couples exercises Travel Cooldown Morning More than 100 SleepTales & stories: Fairy Tales Mystery Sci-fi Fantasy History Kids Journey Myths and legends Non-fiction Also featuring: Bedtime reminders: Set one every night for more restful sleep Timers: Stop the app after a set amount of time Favorites: A section to add your favorite mixes Playlist: Select your favorite content and create your sleep-inducing playlist Smart Mix: Make distracting audio loops disappear and enjoy seamless sound mixes ...and lots more! Need help with the app? Message our support team via the Help & Support section in the app or by visiting https://support.bettersleep.com Read more about our terms and conditions here : Privacy policy: https://www.bettersleep.com/legal/privacy-policy/ Terms of service: https://www.bettersleep.com/legal/terms-of-service/",
+      "analysis": {
+        "app_key": "google:ipnossoft.rma.free",
+        "summary_ko": "수면 추적, 수면 기록, 명상, 수면 이야기 등 다양한 기능을 통해 사용자의 수면 질 향상을 돕는 앱입니다. 300개 이상의 수면 소리와 음악, 가이드 명상 콘텐츠를 제공합니다. 수면 과학에 기반하여 사용자의 수면 패턴을 분석하고 개선 방법을 제안합니다.",
+        "features_ko": [
+          "수면 중 발생하는 소리(코골이, 뒤척임 등)를 감지하고 기록합니다.",
+          "자연 소리, ASMR, 백색 소음 등 300개 이상의 수면용 오디오를 제공합니다.",
+          "수면 유도 이야기, 명상, 최면 등 250개 이상의 가이드 콘텐츠를 포함합니다.",
+          "사용자의 수면 패턴을 추적하고 개선을 위한 실행 가능한 방법을 제안합니다.",
+          "취침 시간 알림 및 재생 타이머 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "단순한 소리 재생을 넘어 수면 기록과 과학적 분석을 결합한 점이 특징입니다. 사용자의 수면 데이터를 수집하여 개인화된 경험을 제공하는 데이터 기반 서비스 모델로 보입니다.",
+        "development_ko": "오디오 재생 엔진과 마이크를 활용한 소리 감지 알고리즘이 핵심 기술입니다. 방대한 오디오 및 텍스트 콘텐츠를 관리하기 위한 데이터베이스 설계가 필요하며, 사용자 경험을 위한 UI/UX 최적화가 중요합니다. 테스트 시 다양한 환경에서의 소리 감지 정확도를 검증해야 합니다.",
+        "idea_ko": "사용자의 수면 소리 데이터를 기반으로, 수면 방해 요소를 분석하여 이를 해결하기 위한 맞춤형 명상 세션을 자동으로 추천하는 기능이 적합합니다.",
+        "highlights_ko": [
+          "수면 과학과 개인화된 데이터를 결합한 종합 수면 관리 솔루션입니다.",
+          "다양한 카테고리의 오디오 콘텐츠를 통해 사용자의 취향에 맞는 수면 환경을 조성합니다."
+        ],
+        "systems_ko": [
+          "오디오 스트리밍 및 재생 관리 시스템",
+          "마이크 입력 기반 소리 감지 및 분석 알고리즘",
+          "사용자 수면 데이터 저장 및 시각화 시스템",
+          "콘텐츠 카테고리화 및 검색 시스템",
+          "알림 및 타이머 스케줄링 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "소리 감지 알고리즘의 정확도를 확보하는 것이 기술적으로 까다롭습니다. 또한, 방대한 콘텐츠를 안정적으로 서비스하기 위한 서버 인프라와 데이터 관리 능력이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 수면 소리 재생 플레이어",
+            "취침 타이머",
+            "수면 기록 일지(수동 입력)"
+          ],
+          "defer": [
+            "자동 소리 감지 및 분석",
+            "수면 과학 분석 리포트"
+          ],
+          "risks": [
+            "마이크 권한 및 프라이버시 관련 이슈",
+            "오디오 콘텐츠 저작권 확보"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "수면 환경 일기",
+            "concept": "수면 전 온도, 습도, 조명 등 환경 요소를 기록하고 수면 질과의 상관관계를 분석합니다.",
+            "first_step": "환경 요소 입력 폼과 수면 시간 기록 기능 구현."
+          },
+          {
+            "title": "맞춤형 수면 루틴 생성기",
+            "concept": "사용자의 기상 시간과 목표 수면 시간에 맞춰 최적의 취침 전 루틴을 제안합니다.",
+            "first_step": "시간 기반의 루틴 추천 알고리즘 설계."
+          }
+        ],
+        "recommendation_ko": "데이터 기반의 건강 관리 앱을 개발하고자 할 때 좋은 참고 사례입니다. 오디오 콘텐츠 관리와 사용자 데이터 분석의 기초를 배우기에 적합합니다.",
+        "source_limitations_ko": "구독 결제 시스템의 상세 구현, 서버 측 데이터 분석 알고리즘, 오디오 콘텐츠의 저작권 및 라이선스 정보는 확인할 수 없습니다.",
+        "name": "BetterSleep: Sleep Sounds",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=ipnossoft.rma.free&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 168,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-17"
+    },
+    "google:com.document.reader.documentviewer.pdfviewer": {
+      "app_key": "google:com.document.reader.documentviewer.pdfviewer",
+      "name": "All Document Reader PDF Viewer",
+      "developer": "All Office Tools",
+      "source": "google",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.document.reader.documentviewer.pdfviewer&hl=ko&gl=KR",
+      "data_date": "2026-11-17",
+      "analysed_at": "2026-11-17T08:53:57+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "All Document Reader – 간편한 PDF 및 오피스 파일 뷰어 All Document Reader는 간단하고 가벼운 앱으로, 다양한 파일 형식을 한 곳에서 편리하게 보고 관리할 수 있도록 설계되었습니다. PDF, Word 문서, 스프레드시트, 프레젠테이션, 텍스트 파일 등 어떤 파일이든 All Document Reader를 사용하면 언제든지 간편하게 접근할 수 있습니다. 📄 지원 파일 형식 • PDF 리더 • Word 문서(DOC, DOCX) • Excel 파일(XLS, XLSX) • PowerPoint 파일(PPT, PPTX) • 텍스트 파일(TXT) • 기타 일반 문서 형식 📂 스마트 파일 관리 • 기기에서 문서 자동 스캔 • 정리된 한 곳에서 파일 탐색 • 문서 검색 및 빠른 열기 • 최근 파일 보기로 빠른 접근 ⚡ 빠르고 간편함 • 가볍고 사용하기 쉬움 • 빠른 문서 열기 • 깔끔하고 사용자 친화적인 인터페이스 • 부드러운 읽기 환경을 위한 설계 🔒 개인 정보 보호 내 파일은 기기에 안전하게 보관됩니다. All Document Reader는 로컬에서 문서를 쉽게 열고 볼 수 있도록 설계된 프로그램입니다. All Document Reader를 다운로드하고 매일 사용하는 문서를 간편하게 열고 관리해 보세요.",
+      "analysis": {
+        "app_key": "google:com.document.reader.documentviewer.pdfviewer",
+        "summary_ko": "All Document Reader는 PDF, Word, Excel, PowerPoint 등 다양한 오피스 파일을 한곳에서 열람하고 관리할 수 있는 가벼운 문서 뷰어 앱입니다. 기기 내 문서를 자동으로 스캔하여 정리하며, 빠르고 간편하게 파일을 탐색하고 열 수 있는 사용자 친화적인 인터페이스를 제공합니다.",
+        "features_ko": [
+          "PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX, TXT 등 다양한 문서 형식을 지원합니다.",
+          "기기 내 저장된 문서를 자동으로 스캔하여 목록화합니다.",
+          "문서 검색 기능을 통해 원하는 파일을 빠르게 찾고 열 수 있습니다.",
+          "최근 열람한 파일 목록을 제공하여 접근성을 높였습니다.",
+          "로컬 저장소 기반으로 작동하여 개인 정보를 안전하게 보호합니다."
+        ],
+        "noteworthy_ko": "다양한 파일 포맷을 하나의 앱에서 통합 관리하는 범용성이 특징입니다. 로컬 파일 시스템 접근 권한을 활용한 효율적인 데이터 관리 구조가 개발 관점에서 핵심입니다.",
+        "development_ko": "각 문서 형식별 렌더링 라이브러리 연동이 기술적 핵심입니다. 사용자 인터페이스는 파일 목록을 효율적으로 보여주는 리스트 뷰 구현이 중요합니다. 파일 시스템 접근 권한 관리와 보안 정책 준수가 필수적입니다.",
+        "idea_ko": "문서 내 텍스트를 추출하여 요약해주는 AI 기반 요약 기능을 추가하는 것을 제안합니다.",
+        "highlights_ko": [
+          "가볍고 직관적인 인터페이스를 통해 문서 열람 속도를 최적화했습니다.",
+          "로컬 환경에서만 작동하도록 설계되어 외부 서버로의 데이터 유출 우려가 없습니다."
+        ],
+        "systems_ko": [
+          "파일 시스템 탐색 및 스캔 시스템",
+          "문서 렌더링 엔진(PDF/Office)",
+          "파일 인덱싱 및 검색 시스템",
+          "사용자 설정 및 최근 기록 관리",
+          "권한 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 오피스 파일 형식을 깨짐 없이 렌더링하는 것은 매우 높은 기술적 난이도를 요구합니다. 오픈소스 라이브러리를 활용하더라도 각 포맷의 호환성을 유지하는 것은 상당한 유지보수 비용이 발생합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "PDF 뷰어 기능",
+            "파일 탐색기 UI",
+            "파일 열기 및 읽기 권한 처리"
+          ],
+          "defer": [
+            "Office 파일 편집 기능",
+            "클라우드 연동",
+            "문서 변환 기능"
+          ],
+          "risks": [
+            "특정 파일 형식의 렌더링 오류",
+            "OS 업데이트에 따른 권한 정책 변경 대응"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "문서 태그 관리자",
+            "concept": "파일을 폴더가 아닌 태그 기반으로 분류하여 관리하는 시스템입니다. 여러 카테고리에 파일을 동시에 할당할 수 있습니다.",
+            "first_step": "파일에 태그를 부여하고 태그별로 목록을 필터링하는 기능 구현."
+          },
+          {
+            "title": "문서 텍스트 스캐너",
+            "concept": "카메라로 문서를 촬영하면 즉시 PDF로 변환하고 텍스트를 추출하는 기능입니다.",
+            "first_step": "카메라 연동 및 이미지 텍스트 추출(OCR) 라이브러리 테스트."
+          }
+        ],
+        "recommendation_ko": "파일 시스템 접근과 UI/UX 최적화를 배우기에 적합합니다. 다만, 문서 렌더링 엔진은 직접 개발하기보다 검증된 오픈소스 라이브러리 활용을 강력히 추천합니다.",
+        "source_limitations_ko": "소개문에는 렌더링 엔진의 종류나 구체적인 보안 기술에 대한 언급이 없습니다. 클라우드 연동 기능의 부재가 명시되어 있으나, 실제 구현 시 보안 취약점 점검이 필요합니다.",
+        "name": "All Document Reader PDF Viewer",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.document.reader.documentviewer.pdfviewer&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-17"
+    },
+    "apple:702653088": {
+      "app_key": "apple:702653088",
+      "name": "현대카드",
+      "developer": "HyundaiCard Co., Ltd.",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/%ED%98%84%EB%8C%80%EC%B9%B4%EB%93%9C/id702653088",
+      "data_date": "2026-11-17",
+      "analysed_at": "2026-11-17T08:55:30+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "카드 생활을 넘어 자산 관리까지 하나의 앱으로! 카드 신청, 조회, 결제뿐 아니라 예적금, 증권, 대출 계좌 정보까지 현대카드 앱에서 모두 확인할 수 있어요. ■ 이제 한국에서도 Apple Pay - 현대카드 앱만 있으면 지갑 앱에 카드를 쉽게 추가할 수 있어요. - Apple Pay로 쉽고 안전하고 재빠르게 결제하세요. ■ 내 관심사가 반영된 맞춤 콘텐츠 추천 - 나에게 꼭 맞는 카드 혜택을 추천해 드려요. - 내가 좋아할 만한 M몰 상품을 추천받고, 간편하게 쇼핑할 수 있어요. - 소비케어로 내 카드 이용내역을 분석해 눈여겨봐야 할 결제 이력과 소비패턴을 알려 드려요. ■ 카드 이용에 필요한 정보를 한눈에 - 이번 달 결제금액과 최근 카드 이용내역을 한눈에 확인할 수 있어요. - 24시간 언제 어디서나 3분 안에 카드를 발급받을 수 있어요. ■ 세상 편한 자산 관리 서비스 - 계좌, 대출, 카드, 보험, 자동차, 부동산 등 내 모든 자산을 한눈에 확인할 수 있어요. - 부동산 시세 변동, 적금/대출/보험 상품 만기 등 꼭 알아야 할 소식을 알림으로 챙겨 드려요. ■ 언제 어디서든 쉽고 빠르게 결제하세요 - 온 • 오프라인 매장에서 실물 카드 없이 빠르게 결제할 수 있고, 국내는 물론 해외 가맹점에서도 편리하게 이용할 수 있습니다. ■ 애플워치 앱을 통한 두근 결제, 카드 잠금 - 두근 결제 : 현대카드를 결제할 때 애플워치 앱으로 심박수를 확인할 수 있어요. - 매달 심박수 TOP3 결제 건을 보여줘요. - 최근 4주간 결제 심박수의 주차별 평균을 비교해 추이를 알 수 있어요. - 카드 잠금 : 카드를 분실했을 때 Lock&Limit이 가능한 카드를 터치 한 번으로 잠그고, 쉽게 풀 수 있어요. ■ Experience Hyundai Card in English - Check your transaction history at a glance - Add a Hyundai card to Apple Wallet - Make payments at offline stores such as convenience stores, Costco with App Card - Enjoy the newly offered features in English - Expect more English-supported features soon [기타 이용 안내] • iOS 15.4 버전 이상에서 이용할 수 있습니다. • Watch OS 8.5 버전 이상에서 이용할 수 있습니다. • 현대카드 애플워치 앱 서비스는 Apple 건강 앱에서 심박수 데이터를 활용합니다. • 안전한 서비스 이용을 위해 임의로 구조 변경된 스마트폰에서는 앱을 이용할 수 없습니다. • 공인인증서 사용 안내 - 공인인증서를 통한 본인인증 시에는 공인인증서 등록이 필요합니다. - 공인인증서는 현대카드 홈페이지(PC)에서만 등록할 수 있습니다. 최초 1회 등록 후 홈페이지, 모바일 웹, 앱 서비스를 편리하게 이용할 수 있습니다. (Home>고객센터>공인인증서 안내>공인인증서 등록/삭제) • 일부 기능 이용을 위해 선택적 접근권한을 요청할 수 있으며, 동의하지 않아도 앱 이용에는 제한이 없습니다. • 고객센터 : 1577-6000",
+      "analysis": {
+        "app_key": "apple:702653088",
+        "summary_ko": "현대카드 앱은 카드 이용, 결제, 자산 관리 기능을 통합한 금융 서비스 앱입니다. 카드 신청 및 이용 내역 조회는 물론, 예적금·증권·대출 등 자산 현황을 한눈에 파악할 수 있습니다. Apple Pay 연동 및 애플워치를 활용한 결제 관리 등 다양한 편의 기능을 제공합니다.",
+        "features_ko": [
+          "Apple Pay에 카드를 쉽게 추가하고 오프라인 결제를 이용할 수 있습니다.",
+          "소비케어 기능을 통해 카드 이용 내역을 분석하고 소비 패턴을 알려줍니다.",
+          "계좌, 대출, 보험 등 모든 자산을 한곳에서 조회할 수 있습니다.",
+          "애플워치를 통해 결제 시 심박수를 확인하거나 카드를 잠글 수 있습니다.",
+          "24시간 내에 카드를 발급받을 수 있는 신청 프로세스를 제공합니다."
+        ],
+        "noteworthy_ko": "금융 앱은 보안과 데이터 정확성이 핵심입니다. 특히 애플워치와 같은 웨어러블 기기와의 연동을 통해 사용자 경험을 확장하고, 소비 패턴 분석이라는 데이터 기반 서비스를 제공하는 점이 매우 흥미롭습니다.",
+        "development_ko": "금융 데이터 연동을 위한 API 보안 및 암호화 기술이 필수적입니다. 애플워치 연동을 위해 HealthKit 등 관련 프레임워크 활용이 필요하며, 대규모 금융 데이터를 실시간으로 처리하는 백엔드 성능이 중요합니다. 보안 인증 및 구조 변경된 기기 차단 등 강력한 보안 정책 구현이 요구됩니다.",
+        "idea_ko": "가족이나 친구와 함께 공동 자산을 관리하고, 공동 소비 목표를 설정하여 달성 시 보상을 주는 소셜 금융 기능을 추가하면 좋습니다.",
+        "highlights_ko": [
+          "카드 결제와 자산 관리를 통합하여 금융 생활의 편의성을 극대화했습니다.",
+          "애플워치 연동을 통해 결제 데이터와 건강 데이터를 결합한 독특한 사용자 경험을 제공합니다."
+        ],
+        "systems_ko": [
+          "금융 데이터 통합 API 연동 시스템",
+          "사용자 인증 및 보안 인증 시스템",
+          "소비 패턴 분석 및 시각화 엔진",
+          "웨어러블 기기 연동 모듈",
+          "실시간 알림 및 푸시 서비스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "금융 앱은 높은 수준의 보안 인증과 데이터 무결성이 요구됩니다. 1인 개발자가 금융권 수준의 보안 인프라를 구축하고 유지하는 것은 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 인증",
+            "카드 이용 내역 조회",
+            "소비 패턴 요약 UI"
+          ],
+          "defer": [
+            "타 금융기관 자산 연동",
+            "애플워치 심박수 연동",
+            "실시간 카드 발급 시스템"
+          ],
+          "risks": [
+            "금융 데이터 보안 및 개인정보 유출",
+            "금융 규제 준수 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "소비 습관 챌린지",
+            "concept": "사용자가 설정한 소비 목표를 달성하면 가상의 뱃지를 부여하고, 절약한 금액을 시각적으로 보여주는 기능입니다.",
+            "first_step": "목표 금액을 설정하고 실제 지출을 입력하여 잔액을 계산하는 기능 구현."
+          },
+          {
+            "title": "구독 서비스 관리자",
+            "concept": "매달 나가는 구독료를 한눈에 정리하고, 결제일을 알려주어 불필요한 지출을 막아주는 도구입니다.",
+            "first_step": "구독 서비스 리스트를 만들고 결제일을 등록하여 알림을 보내는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "금융 데이터 시각화와 보안 설계의 중요성을 배우기에 좋습니다. 하지만 실제 금융 앱 개발은 규제와 보안 문제로 인해 개인 개발보다는 학습용 프로젝트로 접근하는 것을 추천합니다.",
+        "source_limitations_ko": "공인인증서 등록 방식이나 금융 데이터 연동을 위한 구체적인 기술 스택은 확인되지 않습니다. 보안 정책의 상세 내용이나 서버 인프라 구성은 알 수 없습니다.",
+        "name": "현대카드",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%ED%98%84%EB%8C%80%EC%B9%B4%EB%93%9C/id702653088",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 95,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-17"
     }
   }
 }

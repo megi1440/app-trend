@@ -13131,6 +13131,94 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-16"
+    },
+    "apple:6800060365": {
+      "app_key": "apple:6800060365",
+      "name": "Apple Health AI Study App",
+      "developer": "Apple",
+      "source": "apple",
+      "country": "US",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/us/app/apple-health-ai-study-app/id6800060365?uo=2",
+      "data_date": "2026-11-17",
+      "analysed_at": "2026-11-17T08:52:27+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Help Apple build better health AI products. Join the Apple Health AI Usage Study and help us explore how AI can support you in understanding your health. When you join the study, you’ll get access to a custom app built on technology from OpenEvidence, an AI platform trained on peer-reviewed medical research and clinical guidelines. Ask the app all your health questions and get answers personalized to you based on Apple Health data you choose to share. Any time you have a health question, ask the app. You can use it to: • Understand symptoms or conditions • Put your personal Health data in context • Prepare for a medical visit • Build a personalized exercise or meal plan Questions you ask support research that can help Apple make health AI smarter for everyone. Neither the app nor the research study provides medical advice, diagnosis, or treatment. Consult a medical professional to address health concerns or verify information.",
+      "analysis": {
+        "app_key": "apple:6800060365",
+        "summary_ko": "Apple Health AI Study App은 사용자의 건강 데이터를 바탕으로 AI가 건강 관련 질문에 답변하고 분석을 돕는 연구용 애플리케이션입니다. 사용자는 자신의 건강 데이터를 공유하여 개인화된 건강 관리 정보를 얻을 수 있습니다. 이 앱은 증상 이해, 의료 방문 준비, 식단 및 운동 계획 수립 등을 지원합니다. 본 앱과 연구는 의료적 진단이나 치료를 제공하지 않으며, 연구 참여를 통해 Apple의 건강 AI 기술 발전에 기여합니다.",
+        "features_ko": [
+          "사용자가 선택한 Apple Health 데이터를 기반으로 개인화된 건강 정보를 제공합니다.",
+          "증상이나 건강 상태에 대한 궁금증을 AI에게 질문하고 답변을 받을 수 있습니다.",
+          "의료 기관 방문을 준비하기 위한 건강 데이터 정리 기능을 제공합니다.",
+          "사용자의 데이터를 바탕으로 맞춤형 운동 및 식단 계획을 수립할 수 있습니다."
+        ],
+        "noteworthy_ko": "의학적 근거가 있는 AI 플랫폼(OpenEvidence)을 활용하여 개인화된 건강 데이터를 해석한다는 점이 흥미롭습니다. 연구 목적의 앱으로서 사용자의 데이터 공유가 AI 모델의 지능을 높이는 선순환 구조를 설계한 점이 주목할 만합니다.",
+        "development_ko": "핵심 기술은 Apple HealthKit API 연동과 신뢰성 있는 의료 데이터 기반의 LLM(거대언어모델) 통합입니다. 개인정보 보호를 위한 데이터 익명화 및 보안 처리가 가장 중요하며, 의료적 조언이 아님을 명시하는 법적 고지 구현이 필수적입니다. 콘텐츠 제작보다는 데이터 처리의 정확성과 보안성 검증에 큰 부담이 있습니다.",
+        "idea_ko": "사용자의 건강 데이터를 시각화하여 특정 건강 지표의 변화 추이를 AI가 요약해 주는 '건강 리포트 생성기'가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "의학적 가이드라인에 기반한 AI 답변 시스템을 탑재했습니다.",
+          "사용자의 실제 건강 데이터를 AI 분석의 입력값으로 활용합니다."
+        ],
+        "systems_ko": [
+          "HealthKit 데이터 연동 시스템",
+          "AI 프롬프트 엔지니어링 및 답변 처리",
+          "데이터 보안 및 개인정보 암호화",
+          "사용자 동의 및 연구 참여 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "HealthKit 데이터의 정교한 처리와 민감한 의료 정보 보안을 다루어야 하므로 높은 수준의 기술적 숙련도가 필요합니다. 또한, AI 답변의 정확성과 법적 책임 문제로 인해 개인 개발자가 구현하기에는 리스크가 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "HealthKit 데이터 읽기 권한 설정",
+            "기본적인 AI 질문-답변 인터페이스",
+            "의료적 조언 면책 고지 팝업"
+          ],
+          "defer": [
+            "복잡한 식단/운동 계획 자동 생성 알고리즘",
+            "연구 데이터 전송 및 서버 동기화"
+          ],
+          "risks": [
+            "의료 정보 오인으로 인한 사용자 피해",
+            "개인정보 보호법 위반 가능성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "건강 데이터 요약기",
+            "concept": "지난 일주일간의 걸음 수, 수면 시간 등을 요약하여 건강 상태를 친절하게 설명해 주는 앱입니다.",
+            "first_step": "HealthKit에서 주간 걸음 수 데이터를 가져와 텍스트로 출력하는 기능을 구현합니다."
+          },
+          {
+            "title": "병원 방문 체크리스트",
+            "concept": "사용자가 겪은 증상을 기록하고, 의사에게 질문할 내용을 정리해 주는 도구입니다.",
+            "first_step": "증상 입력 폼과 질문 리스트 저장 기능을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "HealthKit API를 활용한 데이터 시각화와 API 연동 방식을 배우기에 좋습니다. 다만, 의료 관련 앱은 법적 책임이 따르므로 실제 서비스보다는 학습용 프로젝트로 접근하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 AI의 구체적인 모델명이나 데이터 처리 방식, 서버 보안 구조가 명시되어 있지 않습니다. 실제 의료 데이터 연동 시 필요한 보안 인증 절차나 규제 준수 여부는 확인되지 않았습니다.",
+        "name": "Apple Health AI Study App",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/apple-health-ai-study-app/id6800060365?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 222,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 6,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-17"
     }
   }
 }

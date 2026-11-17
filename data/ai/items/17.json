@@ -13349,6 +13349,272 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-16"
+    },
+    "itch:b0ac438580ca39efe2da": {
+      "app_key": "itch:b0ac438580ca39efe2da",
+      "name": "Gory Slopes [Free] [Racing]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://fairlyfun.itch.io/gory-slopes",
+      "data_date": "2026-11-17",
+      "analysed_at": "2026-11-17T08:52:04+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Beautiful mountain, deadly slopes. Free gory downhill racing",
+      "analysis": {
+        "app_key": "itch:b0ac438580ca39efe2da",
+        "summary_ko": "아름다운 산을 배경으로 펼쳐지는 고어(Gore) 테마의 다운힐 레이싱 게임입니다. 플레이어는 위험한 경사면을 질주하며 레이싱을 즐길 수 있습니다. 무료로 제공되는 인디 게임입니다.",
+        "features_ko": [
+          "산악 지형을 배경으로 한 다운힐 레이싱을 제공합니다.",
+          "고어(Gore) 요소가 포함된 시각적 연출이 특징입니다."
+        ],
+        "noteworthy_ko": "고어라는 자극적인 테마와 레이싱 장르를 결합한 점이 독특합니다. 물리 엔진을 활용한 경사면 주행의 긴장감이 핵심 재미 요소로 추정됩니다.",
+        "development_ko": "지형 생성과 차량 물리 엔진 구현이 핵심입니다. 고어 연출을 위한 파티클 및 이펙트 제작이 필요하며, 레이싱의 속도감을 유지하는 최적화가 중요합니다.",
+        "idea_ko": "지형의 경사도에 따라 캐릭터의 물리적 상태가 변하는 '물리 기반 생존 레이싱'을 제안합니다.",
+        "highlights_ko": [
+          "위험한 경사면을 질주하는 속도감 있는 게임플레이.",
+          "고어 테마를 적용한 독특한 비주얼 스타일."
+        ],
+        "systems_ko": [
+          "차량/캐릭터 물리 제어 시스템",
+          "지형 충돌 및 레이캐스팅 시스템",
+          "게임 상태 관리(승패/진행)",
+          "UI 및 HUD 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진을 활용한 기본적인 레이싱 구현은 가능하나, 고어 연출과 지형 최적화에 추가적인 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 캐릭터 이동 및 물리 제어",
+            "지형 충돌 처리",
+            "레이싱 완주 판정"
+          ],
+          "defer": [
+            "복잡한 고어 이펙트",
+            "멀티플레이어 모드"
+          ],
+          "risks": [
+            "물리 엔진의 불안정성",
+            "지형 최적화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "산악 구조 레이싱",
+            "concept": "고어 대신 구조를 테마로 하여, 경사면에서 부상자를 구출하며 내려오는 레이싱 게임입니다.",
+            "first_step": "캐릭터가 경사면을 미끄러지듯 이동하는 기본 물리 이동 구현."
+          },
+          {
+            "title": "지형 변형 레이싱",
+            "concept": "주행 중 지형이 실시간으로 무너지는 환경에서 살아남는 레이싱 게임입니다.",
+            "first_step": "지형의 일부가 파괴되는 간단한 충돌 로직 구현."
+          }
+        ],
+        "recommendation_ko": "물리 기반의 이동 시스템을 학습하기에 적합합니다. 단순한 레이싱에 테마를 입히는 기획 과정을 연습해 볼 수 있습니다.",
+        "source_limitations_ko": "게임의 구체적인 조작 방식, 물리 엔진의 종류, 고어 연출의 수위 등은 설명만으로 확인이 불가능합니다.",
+        "name": "Gory Slopes [Free] [Racing]",
+        "source": "itch",
+        "detail_url": "https://fairlyfun.itch.io/gory-slopes",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 275,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 35,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-17"
+    },
+    "google:com.heli.monsters": {
+      "app_key": "google:com.heli.monsters",
+      "name": "へリ・モンスター (Heli Monsters)",
+      "developer": "SayGames Ltd",
+      "source": "google",
+      "country": "JP",
+      "category": "game_action",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.heli.monsters&hl=ja&gl=JP",
+      "data_date": "2026-11-17",
+      "analysed_at": "2026-11-17T08:53:34+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "🔥翼を回し続けろ。弾幕を絶やすな この街にはモンスター😈👹👽🤖という巨大な問題が渦巻いている。君と、君の頼れる相棒であるヘリコプターが、唯一の頼みの綱なのだ。恐ろしい巨人のモンスターの大群を薙ぎ払い、アクション映画のヒーローのように、乙女の危険な脱出を手伝おう🚁 🏃‍♀️。銃や装備をアップグレードしたら、終わらないアクションの世界に舞い戻ろう。このワイルドかつユニークなシューティングゲームでサバイバルするには、鷹のように鋭い目と瞬時の判断力、そして鋼の神経が必要だ。 空から弾丸の雨を降らせよう 🚁リアルなアクションに飛び込もう：このクレイジーなシューティングゲームには、各レベルでボスが待ち構えている！生き残るのはそう簡単にはいかないだろうが、スリルとワクワクが始めた瞬間からお出迎えしてくれる。 🚁仕事に最適な道具選び：このスナイパーゲームを始めた時、最初の銃はピストルだが、そんな武器で撃って破壊することができるジャイアンツなモンスターはそう多くない。レベルでお金を稼いで、目の前に迫ったモンスターを退治するのにより適した銃にアップグレードしよう。それから、武器庫に保管されている武器に切り替えていき、それぞれのレベルに最適な銃を見つけ出そう。 🚁素敵な服に着替えよう：集めなくてはいけないのは銃だけではない。多岐にわたる服も獲得することができるのだ。防御用に盾やボディアーマーを使うもよし、君が操作する空挺団のヒーローに服やアクセサリーを与え、街で最高にイケてるモンスターハンターにするもよし。 🚁環境を利用せよ：理論的には、あらゆるモンスターは射撃だけで倒すことが可能だ。だがゾンビの大群が人質を取り囲んだり、とてつもなくしぶといボスが君のライフを奪っている時などは、辺りを見回して他に利用できるものを探そう…たとえば、爆薬ダルやクレーンを顔面に直撃させるなんていいだろう。 🚁屋上の大乱闘：モンスターたちは摩天楼を超えて積み重なっていく。このスナイパーゲームのアクションの舞台となる場所が屋上なのも、それが理由だ。巨人のボスモンスターが街をメチャクチャにする前に倒したり、ミュータントの大群を射撃して抑えたりして、人質が君のヘリコプターまで脱出して自由を掴めるよう、時間を稼ごう。 🚁すべての角度から迎え撃て：屋上のレベルとタワーのレベルが交互にやって来る。君のヘリコプターはそびえ立つ高層建築の階層を飛び回り、窓越しに大量の敵を葬っていかなくてはならない。進撃してくる敵にトリックショットを決めたり、二度撃ちをお見舞いしたり、時には反撃を抑えるために爆発を起こし、最下層まで生き残れ。 🚁モンスターには仲間がいる：ジャイアンツな変質者が一人では寂しいのか、ほとんどのボスには追随する手下がいる。常に目を見開いて空にいる敵を探し、サバイバルするために素早く撃ち続けろ。 🤯終末のその先を知っているか？ もし知らないのなら、今こそ知るべき時だ。このゲームでは途切れることのない無数のジャイアンツなモンスターの荒波が、猛スピードで世界を終わらせようとしているからだ。モンスターたちを破壊できるのは君しかいない。今すぐこの狂気の面白さがほとばしるシューターをダウンロードし、何度も何度も世界を救おう。 プライバシーポリシー：https://say.games/privacy-policy 利用規約：https://say.games/terms-of-use",
+      "analysis": {
+        "app_key": "google:com.heli.monsters",
+        "summary_ko": "헬리콥터를 조종하며 거대 몬스터를 물리치고 인질을 구출하는 액션 슈팅 게임입니다. 다양한 무기와 장비를 업그레이드하며 끊임없이 몰려오는 적들을 처치해야 합니다. 환경 요소를 활용한 전략적 사격과 보스전이 게임의 핵심입니다.",
+        "features_ko": [
+          "헬리콥터에서 지상의 적을 향해 사격하는 슈팅 액션을 제공합니다.",
+          "레벨을 클리어하며 획득한 재화로 무기와 장비를 업그레이드할 수 있습니다.",
+          "폭발물이나 크레인 등 주변 환경을 활용하여 적을 처치할 수 있습니다.",
+          "다양한 의상과 액세서리로 캐릭터를 꾸밀 수 있습니다.",
+          "층별로 구성된 건물에서 적을 소탕하며 인질을 구출하는 미션을 수행합니다."
+        ],
+        "noteworthy_ko": "단순한 슈팅을 넘어 환경 요소를 활용한 퍼즐적 요소가 결합된 점이 흥미롭습니다. 고층 건물이라는 수직적 공간을 활용한 레벨 디자인이 게임의 몰입감을 높이는 핵심 요소로 보입니다.",
+        "development_ko": "물리 엔진을 활용한 환경 상호작용 구현과 슈팅 판정 시스템이 핵심입니다. 다양한 몬스터와 보스 패턴을 제작하는 콘텐츠 부담이 크며, 난이도 조절을 위한 밸런스 테스트가 필수적입니다. 1인 개발 시에는 반복적인 레벨 구조를 효율적으로 생성하는 도구가 필요합니다.",
+        "idea_ko": "헬리콥터의 비행 경로를 플레이어가 직접 드래그하여 설정하고, 그 경로에 따라 사격이 자동으로 이루어지는 전략 슈팅 방식이 적합합니다.",
+        "highlights_ko": [
+          "수직적 공간을 활용한 다이내믹한 슈팅 액션과 보스전 구성입니다.",
+          "주변 환경을 전략적으로 활용하여 적을 처치하는 창의적인 전투 방식입니다."
+        ],
+        "systems_ko": [
+          "물리 기반 슈팅 및 충돌 판정 시스템",
+          "환경 상호작용(폭발물 등) 로직",
+          "레벨 생성 및 관리 시스템",
+          "무기 및 캐릭터 업그레이드 데이터 관리",
+          "보스 AI 및 패턴 제어 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "슈팅 게임의 기본 메커니즘은 구현 가능하나, 물리 엔진을 활용한 환경 상호작용과 다양한 보스 패턴을 구현하는 데 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 슈팅 및 조준 시스템",
+            "적 AI 및 체력 시스템",
+            "레벨 클리어 로직"
+          ],
+          "defer": [
+            "다양한 의상 커스터마이징",
+            "복잡한 보스 패턴"
+          ],
+          "risks": [
+            "물리 연산 최적화 문제",
+            "단조로운 게임 플레이의 반복성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "환경 퍼즐 슈팅",
+            "concept": "적을 직접 쏘는 대신, 주변 사물을 쏴서 연쇄 반응으로 적을 물리치는 퍼즐 중심의 슈팅 게임입니다.",
+            "first_step": "폭발물과 주변 사물 간의 연쇄 반응 물리 로직 구현."
+          },
+          {
+            "title": "헬기 구조 작전",
+            "concept": "사격보다는 인질을 안전하게 헬기에 태우는 구조 과정에 집중한 정밀 조종 게임입니다.",
+            "first_step": "헬기 이동 및 인질 구출 판정 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "물리 엔진을 활용한 게임 개발을 배우고 싶다면 추천합니다. 슈팅 게임의 기본기와 레벨 디자인의 중요성을 체감하기 좋은 프로젝트입니다.",
+        "source_limitations_ko": "물리 엔진의 구체적인 설정, 보스 AI의 상세 로직, 인앱 결제 시스템의 구현 방식은 설명문에서 확인할 수 없습니다.",
+        "name": "へリ・モンスター (Heli Monsters)",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.heli.monsters&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-17"
+    },
+    "google:com.sugarcontrol.health.tracker.smart.life": {
+      "app_key": "google:com.sugarcontrol.health.tracker.smart.life",
+      "name": "BP Tracker & Glucose Monitor",
+      "developer": "MomenHaz998",
+      "source": "google",
+      "country": "US",
+      "category": "app_health_fitness",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.sugarcontrol.health.tracker.smart.life&hl=en&gl=US",
+      "data_date": "2026-11-17",
+      "analysed_at": "2026-11-17T08:54:47+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "BP Tracker & Glucose Monitor ❤️📊 BP Tracker & Glucose Monitor is a smart and easy-to-use health companion designed to help you track and manage your daily wellness with confidence. With a clean interface and intuitive design, the app makes monitoring your essential body metrics simple, clear, and accessible anytime. With BP Tracker & Glucose Monitor, you can log and track blood pressure with AHA-based classification, monitor blood sugar and glucose levels, and measure heart rate using camera-based PPG technology. By bringing these key health metrics together, the app helps you better understand your body and make informed lifestyle decisions. Build healthier habits with helpful tools designed for daily consistency. ⏰ Set medication reminders to stay on track and never miss an important routine. Stay motivated with 📈 interactive charts and visual reports that clearly show your progress over time. Track trends, review your history, and gain useful insights into your health. 🌍 Multi-language support ensures a smooth experience for users around the world. ⚠️ Disclaimer: This app is intended for general wellness purposes only and is not a medical device. All data and measurements are estimates and should not be used for diagnosis or medical decisions. Take control of your health today 💙 with BP Tracker & Glucose Monitor, your reliable partner for daily tracking and healthier living. We’d very much appreciate if you have any recommendations or suggestions for us to improve this diabetes tracker log app. Your kind words encourage us a lot, thank you",
+      "analysis": {
+        "app_key": "google:com.sugarcontrol.health.tracker.smart.life",
+        "summary_ko": "혈압, 혈당, 심박수 등 건강 지표를 기록하고 관리하는 건강 관리 앱입니다. 카메라 기반의 PPG 기술을 활용하여 심박수를 측정하고, 기록된 데이터를 차트로 시각화합니다. 사용자의 건강한 습관 형성을 돕기 위한 알림 및 리포트 기능을 제공합니다.",
+        "features_ko": [
+          "혈압 및 혈당 수치를 기록하고 추세를 관리합니다.",
+          "카메라 기반 PPG 기술을 사용하여 심박수를 측정합니다.",
+          "인터랙티브 차트와 리포트를 통해 건강 지표의 변화를 시각적으로 확인합니다.",
+          "약 복용 알림 기능을 통해 규칙적인 건강 관리를 지원합니다."
+        ],
+        "noteworthy_ko": "카메라를 이용한 생체 신호 측정은 기술적으로 흥미로운 시도입니다. 다만, 의료 기기가 아니라는 점을 명시해야 하는 등 건강 관련 앱으로서의 법적/윤리적 책임이 강조되는 구조입니다.",
+        "development_ko": "PPG 기술 구현을 위한 이미지 처리 알고리즘과 데이터 시각화 라이브러리 활용이 핵심입니다. 사용자 건강 데이터의 보안과 로컬/클라우드 저장 방식 설계가 중요합니다. 의료 기기가 아님을 명시하는 면책 조항과 데이터 정확도에 대한 사용자 기대치 관리가 필요합니다.",
+        "idea_ko": "기록된 데이터를 바탕으로 사용자의 건강 상태를 분석하여 간단한 식단 제안을 해주는 '건강 식단 추천' 기능이 유용할 것입니다.",
+        "highlights_ko": [
+          "다양한 건강 지표를 한곳에서 통합 관리할 수 있습니다.",
+          "시각적 리포트를 통해 사용자의 건강 변화를 직관적으로 보여줍니다."
+        ],
+        "systems_ko": [
+          "생체 데이터 기록 및 관리 시스템",
+          "카메라 기반 PPG 심박수 측정 알고리즘",
+          "데이터 시각화(차트) 시스템",
+          "알림 및 스케줄링 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "PPG 기술 구현의 난이도가 높고, 건강 데이터의 정확성과 보안 문제로 인해 개인 개발자가 다루기에 책임이 막중합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "혈압/혈당 수치 입력 및 저장 기능",
+            "기본 차트 시각화",
+            "데이터 로컬 저장 기능"
+          ],
+          "defer": [
+            "카메라 기반 심박수 측정",
+            "클라우드 데이터 동기화",
+            "전문가 상담 연동"
+          ],
+          "risks": [
+            "의료 데이터 오용에 따른 법적 책임",
+            "측정 데이터의 정확성 신뢰 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "건강 식단 추천",
+            "concept": "기록된 혈당 수치를 바탕으로 적절한 식단을 추천해주는 기능입니다.",
+            "first_step": "혈당 수치 범위에 따른 식단 데이터베이스를 구축합니다."
+          },
+          {
+            "title": "건강 습관 챌린지",
+            "concept": "매일 물 마시기, 산책하기 등 건강 습관을 기록하고 달성도를 확인합니다.",
+            "first_step": "습관 체크리스트 UI와 달성률 계산 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "데이터 시각화와 사용자 건강 관리 로직을 배우기에 좋습니다. 다만, 의료 관련 앱은 법적 규제가 엄격하므로 실제 배포 시에는 주의가 필요합니다.",
+        "source_limitations_ko": "소개문에 명시된 PPG 기술의 정확도나 데이터 처리 방식은 알 수 없으며, 의료 기기 인증 여부 등은 확인되지 않습니다.",
+        "name": "BP Tracker & Glucose Monitor",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.sugarcontrol.health.tracker.smart.life&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-17"
     }
   }
 }
