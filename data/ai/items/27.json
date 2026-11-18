@@ -13335,6 +13335,362 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-17"
+    },
+    "google:com.studioadept.engine": {
+      "app_key": "google:com.studioadept.engine",
+      "name": "Idle Engine Simulator",
+      "developer": "Mamboo Entertainment",
+      "source": "google",
+      "country": "US",
+      "category": "game_casual",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.studioadept.engine&hl=en&gl=US",
+      "data_date": "2026-11-18",
+      "analysed_at": "2026-11-18T08:08:36+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Start with a worn 50cc lawn mower engine and build your way up to a roaring 28-cylinder radial. Idle Engine Simulator is a relaxing engine tycoon game: rev your engine, bolt on better parts, tune it on the dyno and keep earning cash even while you are away. Every engine has a power target and an efficiency target. Upgrade it part by part, find what is holding it back, and certify it at the redline to unlock the next build. Mopeds, dirt bikes, V-twins, inline-4s, flat-4s, straight-6s, V8s, V12s, W16s and giant radials: 24 engines, each one animated piston by piston, with an engine note to match. BUILD • Tap and hold to rev your engine all the way to the redline • Upgrade intake, exhaust, ignition, fuel, cooling and boost parts • Badges show what holds you back: bottleneck, overheating, knock or misfire • Certify each engine for power and efficiency, then build the next one TUNE • Dial in air/fuel, spark advance and cam timing by hand • Choose piston crowns, engine shapes and firing orders • Race rival engines up the dyno league, from Rookie to Legend COLLECT AND RESEARCH • Open toolbox chests and collect 56 part cards in 5 rarities • Research lasting upgrades in the R&D Lab, even while you are offline • Daily goals and free daily chests • Rebuild as Mk II, Mk III and beyond, and keep your cards and research • Offline earnings while you are away • Calm, clean visuals and satisfying engine sounds • No account needed. Your progress is saved on your device. • Perfect for fans of idle games, tycoon games, car games and engine simulators Idle Engine Simulator is free to play. It shows ads and offers optional in-app purchases.",
+      "analysis": {
+        "app_key": "google:com.studioadept.engine",
+        "summary_ko": "엔진을 조립하고 튜닝하여 성능을 높이는 방치형 타이쿤 게임입니다. 작은 엔진에서 시작해 거대한 엔진으로 발전시키며, 부품을 업그레이드하고 다이노 테스트를 통해 효율을 최적화합니다. 오프라인 상태에서도 보상을 획득할 수 있습니다.",
+        "features_ko": [
+          "24종의 다양한 엔진을 조립하고 애니메이션으로 확인할 수 있습니다.",
+          "흡기, 배기, 점화 등 부품을 업그레이드하여 엔진 성능을 개선합니다.",
+          "다이노 리그에서 다른 엔진과 성능을 겨루며 튜닝 실력을 증명합니다.",
+          "오프라인 상태에서도 연구 및 수익 창출이 가능한 방치형 시스템을 지원합니다."
+        ],
+        "noteworthy_ko": "엔진 튜닝이라는 전문적인 소재를 방치형 게임과 결합한 점이 독특합니다. 부품 조합에 따른 성능 변화 로직이 게임의 깊이를 결정할 것으로 보입니다.",
+        "development_ko": "엔진 성능 계산을 위한 수치 모델링이 핵심입니다. 부품 데이터베이스와 업그레이드 로직을 관리하는 시스템이 필요합니다. 시각적 만족감을 위한 엔진 애니메이션과 사운드 구현이 중요하며, 밸런스 조정이 매우 까다로운 작업입니다.",
+        "idea_ko": "엔진의 소리를 사용자가 직접 믹싱하거나, 특정 부품 조합 시 발생하는 고유한 엔진음을 커스터마이징하는 기능을 제안합니다.",
+        "highlights_ko": [
+          "엔진 튜닝의 디테일한 요소를 방치형 게임으로 구현했습니다.",
+          "다양한 엔진 종류와 부품 수집 요소를 통해 성취감을 제공합니다."
+        ],
+        "systems_ko": [
+          "엔진 성능 시뮬레이션 로직",
+          "부품 데이터 및 인벤토리 관리",
+          "방치형 보상 및 연구 시스템",
+          "다이노 테스트 및 리그 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 부품 조합에 따른 성능 변화를 수치화하는 밸런싱 작업이 매우 복잡합니다. 방치형 게임 특유의 지속적인 콘텐츠 업데이트와 데이터 관리가 1인 개발자에게 큰 부담이 될 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 엔진 성능 계산 로직",
+            "부품 업그레이드 시스템",
+            "방치형 수익 시스템"
+          ],
+          "defer": [
+            "복잡한 다이노 리그 시스템",
+            "56종의 부품 카드 수집"
+          ],
+          "risks": [
+            "수치 밸런스 붕괴",
+            "콘텐츠 부족으로 인한 빠른 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "엔진 사운드 믹서",
+            "concept": "튜닝한 엔진의 배기음을 사용자가 직접 조절하여 나만의 엔진음을 만듭니다.",
+            "first_step": "오디오 파라미터를 조절하여 소리 변화를 확인하는 테스트 환경 구축."
+          },
+          {
+            "title": "엔진 전시실",
+            "concept": "완성된 엔진을 전시하고 다른 사용자의 엔진과 비교하는 소셜 기능입니다.",
+            "first_step": "엔진 데이터를 서버에 저장하고 불러오는 기본 기능 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 데이터 구조와 밸런싱을 배우기에 적합합니다. 복잡한 시스템을 설계하고 관리하는 능력을 기르고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 성능 계산 공식, 광고 및 인앱 결제 상세 구조, 데이터 저장 방식은 확인되지 않습니다.",
+        "name": "Idle Engine Simulator",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.studioadept.engine&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 168,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-18"
+    },
+    "apple:6505095025": {
+      "app_key": "apple:6505095025",
+      "name": "Fujii Kaze Goods",
+      "developer": "HEHN RECORDS inc.",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/jp/app/fujii-kaze-goods/id6505095025",
+      "data_date": "2026-11-18",
+      "analysed_at": "2026-11-18T08:09:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "藤井風 グッズオーダーアプリです。 グッズを事前に購入し、イベント会場で受取をすることができます。 【お問い合わせ】 不具合報告、その他お問い合わせは下記ページよりお問い合わせください。 https://pages-goods.hehnrecords.com/contact/ プライバシーポリシー: https://pages-goods.hehnrecords.com/policy/ 利用規約: https://pages-goods.hehnrecords.com/terms/ 特定商取引法に基づく表示: https://pages-goods.hehnrecords.com/law/",
+      "analysis": {
+        "app_key": "apple:6505095025",
+        "summary_ko": "이 앱은 특정 아티스트의 굿즈를 사전에 주문하고 이벤트 현장에서 수령할 수 있는 전용 서비스입니다. 사용자는 앱을 통해 상품을 미리 구매하여 현장 대기 시간을 줄일 수 있습니다. 이벤트 운영을 위한 효율적인 물류 및 수령 관리 도구입니다.",
+        "features_ko": [
+          "이벤트 굿즈를 사전에 앱에서 주문하고 결제할 수 있습니다.",
+          "현장에서 줄을 서지 않고 상품을 수령할 수 있는 시스템을 제공합니다.",
+          "이벤트 관련 공지 및 문의 사항을 확인할 수 있습니다."
+        ],
+        "noteworthy_ko": "이벤트 현장의 혼잡도를 줄이기 위한 O2O(Online to Offline) 서비스로, 재고 관리와 현장 수령 인증 시스템의 연동이 핵심입니다. 특정 이벤트에 특화된 폐쇄형 커머스 모델로 볼 수 있습니다.",
+        "development_ko": "실시간 재고 관리와 결제 시스템 연동이 가장 중요합니다. 현장 수령을 위한 QR 코드 생성 및 스캔 시스템 구현이 필요하며, 이벤트 당일 트래픽을 견딜 수 있는 안정적인 서버 구축이 필수적입니다.",
+        "idea_ko": "현장 수령 대기 시간을 실시간으로 알려주는 알림 시스템 도입.",
+        "highlights_ko": [
+          "현장 구매의 번거로움을 줄여 사용자 경험을 개선합니다.",
+          "이벤트 운영 측면에서 재고와 주문을 사전에 파악할 수 있습니다."
+        ],
+        "systems_ko": [
+          "상품 카탈로그 및 주문 시스템",
+          "결제 게이트웨이 연동",
+          "현장 수령 인증(QR/바코드) 시스템",
+          "이벤트 공지 및 푸시 알림"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "일반적인 커머스 앱의 구조와 유사하지만, 현장 수령이라는 특수 상황에 맞춘 인증 로직이 필요합니다. 결제 시스템 연동이 개발의 가장 큰 비중을 차지합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 목록 및 장바구니",
+            "주문 내역 확인",
+            "수령용 QR 코드 생성"
+          ],
+          "defer": [
+            "실시간 재고 연동",
+            "복잡한 결제 수단 다변화"
+          ],
+          "risks": [
+            "현장 수령 시 인증 오류",
+            "결제 데이터 보안 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "수령 시간 예약제",
+            "concept": "사용자가 원하는 수령 시간대를 선택하여 현장 혼잡을 분산시킵니다.",
+            "first_step": "시간대별 주문 가능 수량을 설정하는 데이터 구조를 설계합니다."
+          },
+          {
+            "title": "굿즈 알림 구독",
+            "concept": "관심 있는 굿즈가 재입고되거나 판매가 시작될 때 알림을 보냅니다.",
+            "first_step": "푸시 알림 구독 리스트를 관리하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "커머스 앱의 기본 흐름과 현장 인증 시스템을 공부하기 좋습니다. 결제 연동은 복잡하므로 외부 결제 API를 활용하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에 결제 방식이나 재고 관리의 구체적인 로직은 언급되지 않았습니다. 외부 결제 서비스 연동은 명시된 범위 내에서만 고려해야 합니다.",
+        "name": "Fujii Kaze Goods",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/fujii-kaze-goods/id6505095025",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 64,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-18"
+    },
+    "google:com.www.phonemystery": {
+      "app_key": "google:com.www.phonemystery",
+      "name": "타인의 폰 - 방탈출 추리 게임, 범인 찾기",
+      "developer": "BeomCoading",
+      "source": "google",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.www.phonemystery&hl=ko&gl=KR",
+      "data_date": "2026-11-18",
+      "analysed_at": "2026-11-18T08:10:26+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "누군가의 휴대폰이 당신 손에 들어왔다. 잠금을 풀고, 문자와 톡을 읽고, 사진과 메모를 뒤지고, 걸려 오는 전화를 받으세요. 그 안에 숨겨진 사건의 진실을 찾는 건 당신뿐입니다. 〈타인의 폰〉은 진짜 남의 스마트폰을 손에 쥔 것처럼 플레이하는 몰입형 방탈출 추리 게임입니다. 화면 속 휴대폰의 모든 앱이 단서가 됩니다. 메시지, 메신저, 사진, 메모, 메일, 캘린더, 지도, 클라우드, 은행, 음성 메모, 통화 기록까지. 단서를 이어 붙여 비밀번호를 풀고, 그 사람인 척 답장하고, 범인을 추리하세요. 살인사건, 실종, 미제사건, 괴담까지 사건마다 다른 폰이 기다립니다. ■ 사건 파일 · 서른셋 (공포 · 신작) — 철거 전날 밤, 폐쇄된 정신요양원 위로 드론을 띄웠다. 할 일은 하나. 창마다 들여다보고 안에 몇 명이 있는지 센다. · 실제 상황 (재난 · 스릴러 · 프리미엄) — 목요일 저녁 8시 41분, 경계경보 재난문자. 가족 단톡은 \"또 오발령이네 ㅋㅋ\". 2분 뒤 두 번째 문자에 네 글자가 있다. · 눈 떼지 마 (공포 · 프리미엄) — 대근 첫날 밤, 전임 경비가 남긴 업무폰. 모니터 옆 포스트잇에는 \"CH7 눈 떼지 마.\" · 수신 대기 (피처폰 · 스릴러 · 공포) — 2007년, 닷새째 실종된 고3의 슬라이드폰. 받은 메시지함은 꽉 찼고, 받지 못한 문자가 41통 남아 있다. · 원본 (스릴러 · 구출) — 팔로워 186만, '혼자서도 완벽한 삶'의 레아가 폰을 두고 사라졌다. 오늘 12시 협찬 게시물은 대행사 신입인 당신이 레아인 척 올려야 한다. · 특정 (공포 · 추리 · 일본 · 프리미엄) — 밤마다 같은 창밖 사진에 「誰か見つけて」를 올리는 계정. 옆집 친구는 그 창을 찾아냈다며 폰을 맡기고 갔다. \"0시까지 안 오면, 이거 보고 경찰에.\" · 하객 (추리 · 코미디 · 프리미엄) — 친구 결혼식에서 축의대를 맡았다. 원판 사진 한 장 찍고 내려왔더니, 축의금 가방이 없다. · 어젯밤 (코미디 · 추리) — 아침 7시, 을지로 24시 해장국집 구석에서 눈을 떴다. 손엔 모르는 아저씨의 폰. 내 폰은 없고, 계산은 끝나 있다. · 할머니의 보물찾기 (퍼즐 · 가족 코미디) — 할아버지 49재가 끝난 오후, 할아버지 폰에서 가족 단톡방으로 문자가 갔다. · 청평호 (스릴러 · 실종) — 호숫가에서 사라진 디자이너의 폰이 택배로 도착했다. 쪽지에는 단 한 줄, \"경찰은 믿지 마.\" · 406호 (공포) — 한 달 전 세상을 떠난 세입자의 폰. 매일 밤 11시 11분, 죽은 사람에게서 문자가 온다. · 두 번째 폰 (외도 · 드라마) — 남편 차 트렁크 스페어타이어 밑에서 나온 낯선 휴대폰. 잠금화면에는 모르는 여자. · 중고폰 (스릴러 · 추적) — 중고거래로 산 폰이 초기화되지 않았다. 전 주인에게서 메시지가 온다. \"그 폰, 제발 돌려주세요.\" · 60분 (스릴러 · 유괴) — 길에서 주운 폰에 문자가 왔다. \"아이는 우리가 데리고 있다.\" · 폭풍의 섬 (추리 · 클로즈드 서클) — 태풍으로 고립된 섬의 펜션. 죽은 손님의 폰이 당신 손에 있다. 범인은 아직 단톡방에 있다. · 숨바꼭질 (일본 공포) — 막차가 끊긴 무인역 선반에서 울리던 폰. 주인은 20년 전 사라진 아이를 찾고 있었다. · 미리보기 (스릴러) — 새벽 1시 52분, 택시 뒷좌석에 손님이 두고 내린 폰. 잠금은 풀리지 않고, 볼 수 있는 건 두 줄에서 잘리는 알림뿐이다. 새 사건이 계속 추가됩니다. ■ 이런 점이 다릅니다 · 사건마다 손에 쥐는 폰이 다르다 — 2007년 슬라이드폰, 실시간 CCTV 앱, 팔로워 186만 인스타그램까지. · 진짜 휴대폰 같은 화면 — 잠금화면, 알림, 홈 화면, 제어 센터까지. 정말 남의 폰을 몰래 보는 긴장감. · 실시간으로 흐르는 시간 — 게임 속 시각에 맞춰 문자가 오고 전화가 걸려 옵니다. · 그 사람인 척 답장하기 — 상대는 당신을 폰 주인으로 압니다. 말투 하나 틀리면 들킵니다. · 진짜 추리 — 사진 속 날짜, 메모 한 줄, 통화 기록을 엮어야 풀리는 퍼즐. 방탈출 카페처럼 단계마다 잠금이 열립니다. · 반전과 여러 엔딩 — 진엔딩 하나와 다시 도전할 수 있는 배드엔딩들. · 목소리로 듣는 통화와 음성 메시지. · 막히면 힌트, 그래도 막히면 '답 보기'. 엔딩을 본 뒤엔 놓친 단서마다 힌트도 볼 수 있습니다. · 막히면 새벽 거리로 — 다른 탐정들이 걷고 있는 3D 거리. ■ 이런 분께 추천합니다 · 방탈출, 추리 게임, 미스터리 게임, 탐정 게임, 범인 찾기를 좋아하는 분 · 공포 게임, 호러, 괴담, 귀신 이야기, 오컬트, 반전 있는 서스펜스 스릴러를 즐기는 분 · 텍스트 어드벤처, 인터랙티브 스토리, 메신저 게임, 휴대폰을 뒤지는 '폰 게임'에 빠져 본 분 · 혼자서 조용히, 한 편의 드라마처럼 1~2시간 몰입할 스토리 게임을 찾는 분 이어폰을 끼고, 불을 끄고 시작하세요. 지금 당신 손에 있는 건, 타인의 폰입니다. ■ 타인의 폰 프리미엄 (자동 갱신 구독) · 구독하면 「실제 상황」「하객」「특정」「눈 떼지 마」 같은 구독 전용 프리미엄 사건이 열리고, 모든 사건에서 힌트와 '답 보기'를 광고 없이 바로 볼 수 있습니다. 나머지 사건은 구독하지 않아도 끝까지 플레이할 수 있으며, 무료 사용자는 중간에 짧은 광고를 봅니다. · 결제는 Google Play 계정으로 청구되며, 해지하기 전까지 매 기간 자동으로 갱신됩니다. · 구독은 Google Play 스토어 앱 > 프로필 > 결제 및 정기 결제 > 정기 결제에서 관리하고 해지할 수 있습니다. · 개인정보처리방침: https://phone-mystery-site.vercel.app/privacy/ ※ 이 게임의 모든 인물·장소·사건·브랜드는 허구입니다. ---- 개발자 연락처 : 인범진 국회대로 56길 4 A동 901호 영등포구, 서울특별시 07247 South Korea 8741302938",
+      "analysis": {
+        "app_key": "google:com.www.phonemystery",
+        "summary_ko": "타인의 폰은 타인의 스마트폰을 습득했다는 설정으로 진행되는 몰입형 방탈출 추리 게임입니다. 메시지, 사진, 메모 등 휴대폰 속 앱을 뒤져 단서를 찾고 사건의 진실을 밝혀야 합니다. 실시간으로 흐르는 시간과 실제 휴대폰 같은 인터페이스가 특징입니다.",
+        "features_ko": [
+          "메시지, 사진, 통화 기록 등 실제 스마트폰 기능을 모방한 인터페이스를 제공합니다.",
+          "게임 속 시간에 맞춰 실시간으로 문자나 전화가 오는 연출을 사용합니다.",
+          "단서를 조합하여 잠금을 해제하고 범인을 추리하는 방탈출 방식을 채택합니다.",
+          "선택에 따라 달라지는 멀티 엔딩 시스템을 갖추고 있습니다."
+        ],
+        "noteworthy_ko": "스마트폰이라는 익숙한 도구를 게임의 인터페이스로 활용하여 몰입감을 극대화한 점이 매우 창의적입니다. 텍스트 어드벤처와 방탈출 장르를 결합하여 개발 효율성을 높이면서도 높은 완성도를 보여줍니다.",
+        "development_ko": "핵심 기술은 스마트폰 UI를 모방한 화면 구성과 이벤트 트리거 시스템입니다. 콘텐츠 제작은 사건별 시나리오와 단서 배치가 중요합니다. 테스트 시 사용자의 선택에 따른 분기점과 엔딩의 논리적 오류를 검증하는 것이 핵심입니다.",
+        "idea_ko": "사용자가 직접 사건을 설계하고 단서를 배치하여 다른 사람에게 플레이하게 하는 '사건 제작 모드'가 적합합니다.",
+        "highlights_ko": [
+          "실제 스마트폰을 사용하는 듯한 UI를 통해 게임과 현실의 경계를 허뭅니다.",
+          "사건마다 다른 폰의 기종과 환경을 설정하여 매번 새로운 경험을 제공합니다."
+        ],
+        "systems_ko": [
+          "스마트폰 UI 모방 시스템",
+          "이벤트 트리거 및 시나리오 관리",
+          "단서 데이터베이스 및 잠금 해제 로직",
+          "멀티 엔딩 분기 시스템",
+          "실시간 알림 및 통화 연출 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "UI 구현은 비교적 명확하며, 시나리오 중심의 게임이므로 복잡한 물리 엔진보다는 논리적인 데이터 구조 설계가 중요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 잠금 화면 및 홈 화면 UI",
+            "메시지 앱 기능",
+            "단서 조합 및 잠금 해제 로직"
+          ],
+          "defer": [
+            "실시간 통화 연출",
+            "다양한 사건 파일",
+            "3D 거리 탐색 기능"
+          ],
+          "risks": [
+            "시나리오의 논리적 허점",
+            "UI의 실제 스마트폰과 유사성 확보"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "사건 제작자",
+            "concept": "사용자가 직접 폰 속의 메시지와 사진을 구성하여 자신만의 추리 사건을 만드는 도구입니다.",
+            "first_step": "텍스트와 이미지를 특정 순서로 보여주는 시나리오 에디터를 구현합니다."
+          },
+          {
+            "title": "디지털 유품 정리",
+            "concept": "고인의 폰을 정리하며 그 사람의 삶을 추적하는 감성적인 추리 게임입니다.",
+            "first_step": "메모와 사진을 통해 인물의 서사를 전달하는 스토리텔링 구조를 설계합니다."
+          }
+        ],
+        "recommendation_ko": "텍스트 기반의 인터랙티브 스토리 게임을 만들고 싶은 개발자에게 강력히 추천합니다. UI 디자인과 시나리오 설계 능력을 기르기에 최적입니다.",
+        "source_limitations_ko": "구독 결제 시스템의 상세 구현, 서버 기반의 실시간 이벤트 처리 방식, 시나리오 데이터의 암호화 방식은 확인되지 않았습니다.",
+        "name": "타인의 폰 - 방탈출 추리 게임, 범인 찾기",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.www.phonemystery&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 96,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-18"
+    },
+    "google:net.fidgetpop.malang": {
+      "app_key": "google:net.fidgetpop.malang",
+      "name": "말랑꾹 - 잠금화면 말랑이, 왁뿌볼, 키캡 도파민 충전",
+      "developer": "Yessi · WellBit",
+      "source": "google",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=net.fidgetpop.malang&hl=ko&gl=KR",
+      "data_date": "2026-11-18",
+      "analysed_at": "2026-11-18T08:10:47+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "스트레스가 쌓일 때, 손이 심심할 때 잠금화면에서 바로 만져 보세요. ✦ 폰만 켜면 바로 시작 잠금화면을 켤 때마다 한 번씩 꾹! 쌓인 스트레스를 재밌게 풀어 보세요. ✦ 내 맘대로 쭈우욱~ 말랑이 좌우로 쭉쭉 늘리는 쫀득한 재미! 아무 생각 없이 만지며 기분 전환! ✦ 톡톡톡! 도파민 충전 키캡 귀여운 키캡을 마음껏 연타! 딸깍딸깍~ 중독성 있는 ASMR! ✦ 콰사삭! 깨부수는 왁뿌볼 왁뿌볼을 무제한으로 깨부술 수 있다고?! 바삭바삭~ 깨는 순간 짜릿한 쾌감! ✦ 이런 순간에 꺼내 보세요 • 스트레스가 쌓여 뭔가 꾹 누르고 싶을 때 • 버스나 지하철을 기다리며 손이 심심할 때 • 공부나 업무 사이에 잠깐 쉬고 싶을 때 • 말랑하고 바삭한 ASMR 소리가 듣고 싶을 때 폰 켤 때마다 도파민 충전 완료! ⚡ 잠금화면에서 나만의 힐링을 즐겨 보세요. 🍏🥔💗",
+      "analysis": {
+        "app_key": "google:net.fidgetpop.malang",
+        "summary_ko": "말랑꾹은 잠금화면에서 바로 즐길 수 있는 스트레스 해소용 앱입니다. 말랑이를 늘리거나 키캡을 연타하고, 왁뿌볼을 깨부수는 등 다양한 촉각적·청각적 피드백을 제공합니다. 일상 속에서 짧은 휴식과 도파민 충전을 원하는 사용자를 타겟으로 합니다.",
+        "features_ko": [
+          "잠금화면에서 즉시 실행되어 스트레스를 해소할 수 있습니다.",
+          "말랑이를 좌우로 늘리는 쫀득한 인터랙션을 제공합니다.",
+          "키캡을 연타하며 ASMR 효과를 즐길 수 있습니다.",
+          "왁뿌볼을 깨부수는 시각적·청각적 쾌감을 제공합니다.",
+          "간단한 조작으로 언제 어디서나 기분 전환이 가능합니다."
+        ],
+        "noteworthy_ko": "잠금화면이라는 접근성 높은 위치를 활용하여 사용자의 짧은 휴식 시간을 공략한 점이 매우 영리합니다. 촉각적 피드백(햅틱)과 ASMR을 결합하여 사용자 경험을 극대화한 점이 개발 관점에서 흥미롭습니다.",
+        "development_ko": "잠금화면 위젯 또는 오버레이 구현 기술이 핵심입니다. 햅틱 피드백의 정교한 제어와 ASMR 사운드의 최적화가 중요하며, 사용자가 질리지 않도록 다양한 인터랙션 요소를 지속적으로 추가하는 콘텐츠 제작 부담이 있습니다.",
+        "idea_ko": "개인 개발자에게는 햅틱 피드백을 활용한 다양한 미니 게임 형태의 스트레스 해소 앱이 적합합니다.",
+        "highlights_ko": [
+          "잠금화면을 활용한 높은 접근성과 즉각적인 피드백.",
+          "햅틱과 ASMR을 결합한 감각적인 스트레스 해소 경험."
+        ],
+        "systems_ko": [
+          "잠금화면 오버레이 시스템",
+          "햅틱 피드백 제어 시스템",
+          "오디오 재생 및 믹싱 시스템",
+          "사용자 인터랙션 이벤트 처리",
+          "데이터 저장 및 설정 관리"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 기능이 단순한 인터랙션과 사운드 재생에 집중되어 있어 기술적 난이도가 낮습니다. 1인 개발자가 기획부터 구현까지 빠르게 진행할 수 있는 규모입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "잠금화면 인터랙션 UI",
+            "햅틱 피드백 구현",
+            "사운드 재생 로직"
+          ],
+          "defer": [
+            "다양한 테마의 말랑이/키캡",
+            "사용자 커스텀 설정",
+            "소셜 공유 기능"
+          ],
+          "risks": [
+            "잠금화면 권한 및 OS 정책 제한",
+            "단조로운 콘텐츠로 인한 사용자 이탈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "디지털 뽁뽁이",
+            "concept": "화면 가득한 뽁뽁이를 터뜨리는 앱입니다. 터뜨릴 때마다 햅틱과 함께 경쾌한 소리가 납니다.",
+            "first_step": "터치 이벤트 기반의 뽁뽁이 터뜨리기 로직 구현."
+          },
+          {
+            "title": "감정 조각 맞추기",
+            "concept": "오늘의 기분을 나타내는 조각을 화면에 배치하고, 이를 다시 흩뜨리며 스트레스를 해소하는 앱입니다.",
+            "first_step": "물리 엔진을 활용한 조각 배치 및 흩뜨리기 구현."
+          }
+        ],
+        "recommendation_ko": "사용자의 감각을 자극하는 인터랙션과 햅틱 피드백을 학습하기에 매우 좋습니다. 가볍고 재미있는 앱을 만들고 싶은 개인 개발자에게 강력히 추천합니다.",
+        "source_limitations_ko": "소개문에는 잠금화면 구현을 위한 구체적인 OS 권한 처리 방식이나 햅틱 라이브러리에 대한 정보가 없습니다. 안드로이드의 잠금화면 정책 변화에 따른 대응 방안은 검증이 필요합니다.",
+        "name": "말랑꾹 - 잠금화면 말랑이, 왁뿌볼, 키캡 도파민 충전",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=net.fidgetpop.malang&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 59,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-18"
     }
   }
 }

@@ -13219,6 +13219,95 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-17"
+    },
+    "apple:1173222289": {
+      "app_key": "apple:1173222289",
+      "name": "iFont: find, install any font",
+      "developer": "VINCI APPS",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://apps.apple.com/kr/app/ifont-find-install-any-font/id1173222289?uo=2",
+      "data_date": "2026-11-18",
+      "analysed_at": "2026-11-18T08:08:15+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "What can iFont do? iFont lets you install new fonts for use in apps which support creating content using custom fonts, such as Pages, Keynote or Numbers. What can't iFont do? iFont can't change the system font; work with the keyboard; or force apps to let you customise the font. iFont also can't make Comic Sans look good. *** “Without iFont, writing my new book, ‘Ten Seconds To Consider’, would be an impossible task, given that I'm designing as I write. For my Pages documents to be consistent between macOS and iOS now is a game changer. Thank you for iFont!” — Daniel Klein, former Apple employee *** iFont includes a wide range of features which let you install, compare, and view typefaces, including individual glyphs and technical details. These include: CUSTOM FONTS Install your own fonts (.ttf, .ttc, .otf formats supported, as well as these formats compressed in a .zip) for use in other apps. Simply download a font in a web browser, open in iFont and follow the simple instructions to install it on your device. You can also export a copy of the font, or send the profile to a friend to let them install it, too. iFont can also open archives containing multiple fonts. FONT DOWNLOADS iFont lets you download and install a range of fonts from the Google Fonts library, Dafont and more (including custom sources) within the app. It couldn’t be easier to find a suitable typeface for your next leaflet, poster or financial report. *** After discovering iFont a couple of years ago it has slotted happily into my professional workflow on the iPad Pro. It has a number of standout features which set it apart from the competition, and has been a great help in my client project work. There’s also an appreciation of type heritage and design, with biographical information and rich technical detail on hand. Choosing the right type is made easier with the Notepad and Compare features. The ability to install multiple fonts at once is essential, saving time and allowing better management of your font library. Imported fonts are viewed as families allowing you to easily compare different weights and make the right choices. There’s also easy access to online type resources such as Google Fonts, which makes finding and installing them a breeze. Great if you’re in a hurry, or have no access to your own font library. — Martin Cleave, creative professional *** COMPARE Compare many different typefaces to see which will suit your intended use. Arial or Helvetica? Zapfino, Snell Roundhand or Savoye LET? Georgia, Iowan Old Style or Times New Roman? With Compare, you can be the judge! NOTEPAD The Notepad you find under each font lets you test it out and type a message, and then export it as an image to send in apps such as Messages. Add some character to your texts by using a font which stands out from the crowd! WATERFALL See how a font looks at very small or very large point sizes easily using the Waterfall view. This lets you judge which size would be suitable for your use. ZOOM Zoom into a font up to 500%, allowing you to see the minute details in each character. TECHNICAL DETAILS See information about each font, from the designer and trademark information to the spacing of the ascents and descents. *** “Missing fonts on iOS is an issue of the past, thanks to apps like iFont… I hope you saw how easy it is to install fonts on iPhone or iPad and I suggest you give iFont a try.” — Michael Kummer, blogger *** NOTE: iFont does not currently support .suit or .dfont files. iFont is also fully optimised for iPad with a beautiful split view experience and a range of keyboard shortcuts. Terms of Service: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ Privacy Policy: https://bit.ly/ifont_pp",
+      "analysis": {
+        "app_key": "apple:1173222289",
+        "summary_ko": "iFont는 iOS 기기에서 사용자 정의 폰트를 설치하고 관리할 수 있게 해주는 도구 앱입니다. Pages, Keynote 등 폰트 변경을 지원하는 앱에서 사용할 수 있도록 폰트 프로파일을 설치합니다. 폰트 비교, 미리보기, 기술 정보 확인 기능을 통해 디자인 작업을 돕습니다.",
+        "features_ko": [
+          ".ttf, .ttc, .otf 및 .zip 형식의 폰트 파일을 설치할 수 있습니다.",
+          "Google Fonts 등 외부 소스에서 폰트를 검색하고 다운로드할 수 있습니다.",
+          "설치된 폰트를 비교하고 메모장 기능을 통해 미리보기 할 수 있습니다.",
+          "폰트의 글리프 정보와 제작자 등 기술적 세부 사항을 확인할 수 있습니다."
+        ],
+        "noteworthy_ko": "iOS의 폐쇄적인 폰트 관리 환경을 프로파일 설치 방식으로 해결한 점이 핵심입니다. 디자인 전문가를 위한 비교 및 미리보기 도구를 포함하여 단순 설치 앱 이상의 가치를 제공합니다.",
+        "development_ko": "iOS의 구성 프로파일(Configuration Profile) 생성 및 설치 메커니즘을 이해해야 합니다. 파일 시스템 접근과 폰트 렌더링 엔진 활용이 중요하며, 사용자 경험을 위한 UI 디자인이 필수적입니다.",
+        "idea_ko": "설치된 폰트를 활용하여 간단한 로고를 제작하는 '폰트 로고 메이커' 기능이 적합합니다.",
+        "highlights_ko": [
+          "iOS 시스템 환경에서 사용자 정의 폰트를 설치할 수 있는 프로파일 관리 기능을 제공합니다.",
+          "폰트 비교 및 미리보기 도구를 통해 디자인 워크플로우를 효율화합니다."
+        ],
+        "systems_ko": [
+          "파일 다운로드 및 압축 해제 시스템",
+          "구성 프로파일 생성 및 설치 인터페이스",
+          "폰트 렌더링 및 미리보기 엔진",
+          "외부 폰트 라이브러리 연동"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "iOS의 프로파일 설치 규격만 준수한다면 구현 자체는 어렵지 않으나, OS 업데이트에 따른 보안 정책 변화를 지속적으로 모니터링해야 합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "폰트 파일 불러오기",
+            "프로파일 생성 및 설치 안내",
+            "설치된 폰트 목록 보기"
+          ],
+          "defer": [
+            "폰트 비교 도구",
+            "외부 폰트 라이브러리 검색",
+            "글리프 상세 정보"
+          ],
+          "risks": [
+            "iOS 보안 정책 변경으로 인한 설치 제한",
+            "지원하지 않는 폰트 형식 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "폰트 로고 메이커",
+            "concept": "설치된 폰트를 사용하여 간단한 텍스트 로고를 만들고 이미지로 저장합니다.",
+            "first_step": "텍스트 입력 및 폰트 적용, 이미지 저장 기능 구현."
+          },
+          {
+            "title": "폰트 페어링 추천",
+            "concept": "선택한 폰트와 잘 어울리는 폰트 조합을 추천해 주는 도구입니다.",
+            "first_step": "폰트 속성(세리프/산세리프 등) 기반의 간단한 매칭 로직 구현."
+          }
+        ],
+        "recommendation_ko": "iOS의 시스템 설정과 파일 관리 방식을 깊이 있게 이해할 수 있습니다. 유틸리티 앱 개발을 희망하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "Apple의 최신 보안 정책에 따른 프로파일 설치 제한 범위와 폰트 렌더링 라이브러리의 상세 정보는 확인되지 않습니다.",
+        "name": "iFont: find, install any font",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/ifont-find-install-any-font/id1173222289?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 171,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 23,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-18"
     }
   }
 }

@@ -12304,6 +12304,273 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-17"
+    },
+    "itch:b8ef420ff2743ef44bb8": {
+      "app_key": "itch:b8ef420ff2743ef44bb8",
+      "name": "Snake Rush [Free] [Puzzle]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://rozensov.itch.io/snake-rush",
+      "data_date": "2026-11-18",
+      "analysed_at": "2026-11-18T08:06:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Classic snake, but every level adds faster speed and new walls. How far can you get?",
+      "analysis": {
+        "app_key": "itch:b8ef420ff2743ef44bb8",
+        "summary_ko": "Snake Rush는 고전 스네이크 게임을 현대적으로 재해석한 퍼즐 게임입니다. 레벨이 올라갈수록 속도가 빨라지고 새로운 벽이 추가되는 것이 특징입니다. 플레이어는 제한된 공간에서 최대한 길게 생존하는 것을 목표로 합니다.",
+        "features_ko": [
+          "고전 스네이크 게임의 이동 규칙을 따릅니다.",
+          "레벨업에 따라 이동 속도가 점진적으로 증가합니다.",
+          "스테이지마다 새로운 벽이 배치되어 난이도를 높입니다."
+        ],
+        "noteworthy_ko": "단순한 규칙에 속도와 장애물이라는 변수를 추가하여 난이도를 조절하는 방식이 효율적입니다. 1인 개발자가 핵심 메커니즘을 완성하고 콘텐츠를 확장하기에 매우 적합한 구조입니다.",
+        "development_ko": "핵심 기술은 그리드 기반의 이동 로직과 충돌 판정입니다. 속도 조절은 델타 타임(Delta Time)을 활용하여 구현하며, 레벨 디자인은 벽의 배치 패턴을 데이터화하여 관리합니다.",
+        "idea_ko": "특정 아이템을 먹으면 벽을 일시적으로 통과하는 기능을 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "고전 게임의 직관적인 규칙을 유지합니다.",
+          "점진적 난이도 상승을 통해 몰입감을 제공합니다."
+        ],
+        "systems_ko": [
+          "그리드 기반 이동 시스템",
+          "충돌 판정 엔진",
+          "레벨 데이터 관리",
+          "점수 및 속도 제어 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "게임의 규칙이 매우 명확하고 구현해야 할 시스템의 범위가 좁습니다. 기본적인 프로그래밍 실력만 있다면 충분히 완성할 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "뱀 이동 및 성장 로직",
+            "벽 충돌 판정",
+            "레벨업 시스템"
+          ],
+          "defer": [
+            "화려한 그래픽 효과",
+            "온라인 랭킹 시스템"
+          ],
+          "risks": [
+            "단조로운 게임 플레이",
+            "조작감의 불편함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "통과 아이템",
+            "concept": "일정 시간 동안 벽을 통과할 수 있는 아이템을 배치합니다. 위기 상황을 탈출하는 전략적 재미를 줍니다.",
+            "first_step": "아이템 획득 시 충돌 판정을 무시하는 플래그 변수 구현."
+          },
+          {
+            "title": "다양한 뱀 형태",
+            "concept": "뱀의 길이나 이동 방식이 다른 여러 모드를 제공합니다. 게임의 다양성을 확보합니다.",
+            "first_step": "뱀의 길이를 변수로 설정하여 난이도별로 적용."
+          }
+        ],
+        "recommendation_ko": "게임 개발의 기초인 그리드 시스템과 충돌 판정을 배우기에 최적입니다. 포트폴리오용으로 빠르게 완성하기 좋습니다.",
+        "source_limitations_ko": "벽의 배치 방식이 절차적 생성인지 수동 디자인인지 확인되지 않았습니다.",
+        "name": "Snake Rush [Free] [Puzzle]",
+        "source": "itch",
+        "detail_url": "https://rozensov.itch.io/snake-rush",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 323,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-18"
+    },
+    "itch:f71fecb0b0eff9844ee2": {
+      "app_key": "itch:f71fecb0b0eff9844ee2",
+      "name": "A Good Turn [Free]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://kara-reads.itch.io/a-good-turn",
+      "data_date": "2026-11-18",
+      "analysed_at": "2026-11-18T08:06:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Eight linked stories, one village, and one rule: a good turn is a thing done for someone who cannot pay it back",
+      "analysis": {
+        "app_key": "itch:f71fecb0b0eff9844ee2",
+        "summary_ko": "A Good Turn은 한 마을을 배경으로 한 8개의 연결된 이야기를 다루는 게임입니다. '갚을 수 없는 사람에게 베푸는 친절'이라는 규칙을 중심으로 이야기가 전개됩니다. 서사 중심의 경험을 제공할 것으로 보입니다.",
+        "features_ko": [
+          "8개의 서로 연결된 에피소드로 구성된 서사를 제공합니다.",
+          "친절과 보답이라는 철학적 주제를 게임 규칙으로 활용합니다."
+        ],
+        "noteworthy_ko": "서사 중심의 게임은 플레이어의 선택이 이야기에 미치는 영향력을 설계하는 것이 중요합니다. 각 에피소드가 어떻게 연결되는지 구조화하는 것이 개발의 핵심입니다.",
+        "development_ko": "핵심 기술은 대화 시스템과 분기 처리입니다. 콘텐츠 제작은 시나리오 작성이 대부분을 차지하며, 테스트는 이야기의 흐름이 논리적으로 어긋나지 않는지 확인하는 데 집중해야 합니다.",
+        "idea_ko": "플레이어의 선택에 따라 마을의 분위기가 변하는 시각적 변화를 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "연결된 8개의 이야기라는 명확한 서사 구조를 가집니다.",
+          "친절이라는 주제를 게임의 핵심 규칙으로 설정했습니다."
+        ],
+        "systems_ko": [
+          "대화 및 선택지 시스템",
+          "스토리 분기 관리",
+          "씬 전환 시스템",
+          "데이터 저장(진행 상황)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기술적인 구현보다는 시나리오의 완성도와 연출력이 중요합니다. 1인 개발 시 방대한 텍스트를 관리하는 것이 가장 큰 도전입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "텍스트 출력 시스템",
+            "선택지 분기 로직",
+            "기본적인 씬 관리"
+          ],
+          "defer": [
+            "복잡한 캐릭터 애니메이션",
+            "음성 더빙"
+          ],
+          "risks": [
+            "스토리의 개연성 부족",
+            "플레이어의 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "마을 평판 지도",
+            "concept": "친절을 베푼 대상에 따라 마을 사람들의 태도가 변하는 시스템입니다. 선택의 결과를 시각적으로 보여줍니다.",
+            "first_step": "NPC의 호감도 변수를 저장하고 대화문을 변경하는 로직 구현."
+          },
+          {
+            "title": "회상 앨범",
+            "concept": "이야기를 진행하며 얻은 아이템이나 사진을 앨범에 저장합니다. 서사를 정리하는 재미를 줍니다.",
+            "first_step": "아이템 획득 시 UI에 아이콘을 추가하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "서사 중심의 게임을 만들고 싶은 개발자에게 추천합니다. 대화 시스템과 스토리텔링 기법을 익히기에 좋습니다.",
+        "source_limitations_ko": "게임의 장르(비주얼 노벨, 어드벤처 등)와 구체적인 상호작용 방식은 명시되지 않았습니다.",
+        "name": "A Good Turn [Free]",
+        "source": "itch",
+        "detail_url": "https://kara-reads.itch.io/a-good-turn",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 320,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 20,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-18"
+    },
+    "google:com.love.moviebox": {
+      "app_key": "google:com.love.moviebox",
+      "name": "DramaLoop: Short Drama Reels",
+      "developer": "Beat Labs",
+      "source": "google",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.love.moviebox&hl=ko&gl=KR",
+      "data_date": "2026-11-18",
+      "analysed_at": "2026-11-18T08:07:15+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Drama Movies에 오신 것을 환영합니다 - 단편 영화 감상을 위한 최고의 앱 Drama Movies와 함께 매혹적인 단편 영화의 세계를 만나보세요. 가슴 따뜻한 드라마부터 스릴 넘치는 모험까지, 저희 앱은 어디에서도 찾아볼 수 없는 다채로운 오리지널 콘텐츠를 제공합니다. 지금 바로 Google Play에서 만나보세요! Drama Movies를 선택해야 하는 이유 무궁무진한 선택 드라마, 로맨스, 스릴러 등 다양한 장르의 단편 영화를 둘러보세요. 새로운 영화가 정기적으로 추가되어 항상 새로운 볼거리를 제공합니다. 감성 넘치는 스토리텔링 웃음, 눈물, 흥분 등 어떤 감정이든, 모든 영화는 당신의 마음을 울리도록 제작되었습니다. 진정으로 공감할 수 있는 이야기를 경험해 보세요. 독점 콘텐츠 Drama Movies에서만 만나보실 수 있는 특별하고 독창적인 영화들을 만나보세요. 모든 영화의 핵심은 신선한 관점과 혁신적인 스토리텔링입니다. 언제 어디서나 시청하세요 출퇴근 중이든 집에서 휴식 중이든, 이동 중에도 좋아하는 영화를 스트리밍하세요. Drama Movies를 사용하면 언제든지 고품질 엔터테인먼트를 간편하게 즐길 수 있습니다. 정기 업데이트 새로운 콘텐츠가 자주 추가되니 기대해 주세요. 저희 라이브러리는 꾸준히 성장하고 있으며, 방문할 때마다 새로운 영화를 즐길 수 있습니다. 지금 바로 Drama Movies를 다운로드하세요. 단편 영화 엔터테인먼트의 완벽한 동반자입니다!",
+      "analysis": {
+        "app_key": "google:com.love.moviebox",
+        "summary_ko": "DramaLoop은 다양한 장르의 단편 영화를 감상할 수 있는 스트리밍 서비스입니다. 드라마, 로맨스, 스릴러 등 다채로운 오리지널 콘텐츠를 제공합니다. 사용자는 언제 어디서나 고품질의 단편 영화를 시청할 수 있습니다.",
+        "features_ko": [
+          "드라마, 로맨스, 스릴러 등 다양한 장르의 단편 영화를 제공합니다.",
+          "정기적인 업데이트를 통해 새로운 콘텐츠를 지속적으로 추가합니다.",
+          "모바일 환경에서 언제 어디서나 스트리밍 시청이 가능합니다.",
+          "독점 오리지널 콘텐츠를 통해 차별화된 이야기를 제공합니다."
+        ],
+        "noteworthy_ko": "단편 영화라는 틈새시장을 공략한 콘텐츠 플랫폼입니다. 콘텐츠의 지속적인 수급과 사용자 경험을 유지하는 것이 운영의 핵심으로 보입니다.",
+        "development_ko": "영상 스트리밍을 위한 서버 인프라와 CDN 구축이 필수적입니다. 사용자 맞춤형 추천 알고리즘과 원활한 재생을 위한 플레이어 최적화가 중요합니다. 콘텐츠 저작권 관리 및 보안 시스템 구축에 많은 노력이 필요합니다.",
+        "idea_ko": "사용자가 직접 짧은 영상을 올리고 평가하는 단편 영화 커뮤니티 플랫폼으로의 확장이 적합합니다.",
+        "highlights_ko": [
+          "단편 영화에 특화된 큐레이션 서비스를 제공합니다.",
+          "정기적인 콘텐츠 업데이트로 지속적인 방문을 유도합니다."
+        ],
+        "systems_ko": [
+          "영상 스트리밍 및 재생 관리 시스템",
+          "콘텐츠 카테고리 분류 및 검색 시스템",
+          "사용자 프로필 및 시청 기록 관리",
+          "콘텐츠 업데이트 알림 시스템",
+          "영상 보안 및 저작권 보호 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "영상 스트리밍 서비스는 서버 비용과 대역폭 관리, 저작권 이슈 등 개발 외적인 운영 부담이 매우 큽니다. 1인 개발자가 독자적인 스트리밍 플랫폼을 구축하는 것은 기술적, 법적 난이도가 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "영상 재생 플레이어",
+            "콘텐츠 리스트 화면",
+            "기본적인 카테고리 필터링"
+          ],
+          "defer": [
+            "사용자 댓글 및 커뮤니티 기능",
+            "개인화된 추천 알고리즘",
+            "오프라인 저장 기능"
+          ],
+          "risks": [
+            "서버 유지 비용 급증",
+            "콘텐츠 수급의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "단편 영화 챌린지 앱",
+            "concept": "사용자가 특정 주제로 1분 내외의 단편 영화를 제작해 공유하는 챌린지 플랫폼입니다. 투표를 통해 우수작을 선정하는 커뮤니티 기능을 강조합니다.",
+            "first_step": "영상 업로드 및 게시판 형태의 리스트 구현."
+          },
+          {
+            "title": "랜덤 단편 영화 셔플",
+            "concept": "사용자의 취향을 분석하여 매일 1편의 단편 영화를 랜덤으로 추천해 주는 서비스입니다. 긴 고민 없이 바로 시청할 수 있는 경험을 제공합니다.",
+            "first_step": "영상 데이터베이스 구축 및 랜덤 재생 로직 구현."
+          }
+        ],
+        "recommendation_ko": "영상 플랫폼의 기본 구조를 이해하는 데 도움이 되지만, 실제 서비스 운영은 막대한 자본과 관리가 필요하므로 비추천합니다. 학습용으로만 접근하는 것이 좋습니다.",
+        "source_limitations_ko": "결제 시스템, 영상 업로드 방식, 저작권 확보 경로, 서버 인프라 구성 등에 대한 정보가 전혀 없습니다.",
+        "name": "DramaLoop: Short Drama Reels",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.love.moviebox&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 285,
+        "reasons": [
+          "multi_country",
+          "newly_seen"
+        ],
+        "best_rank": 67,
+        "countries": [
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-18"
     }
   }
 }

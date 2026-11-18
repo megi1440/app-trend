@@ -12356,6 +12356,181 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-17"
+    },
+    "itch:44141c256e4edf216e44": {
+      "app_key": "itch:44141c256e4edf216e44",
+      "name": "Belvedere [Free] [Puzzle] [Windows] [macOS]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://puzzaholics.itch.io/belvedere",
+      "data_date": "2026-11-18",
+      "analysed_at": "2026-11-18T08:06:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A first-person sliding tile puzzle. Shift rooms, discover secrets, and make yourself at home.",
+      "analysis": {
+        "app_key": "itch:44141c256e4edf216e44",
+        "summary_ko": "Belvedere는 1인칭 시점으로 진행되는 슬라이딩 타일 퍼즐 게임입니다. 플레이어는 방을 이동시키며 비밀을 발견하고 공간을 탐험합니다. 3D 공간에서의 퍼즐 해결 경험을 제공합니다.",
+        "features_ko": [
+          "1인칭 시점의 퍼즐 탐험을 제공합니다.",
+          "방을 슬라이딩하여 공간 구조를 변경합니다.",
+          "공간 내에 숨겨진 비밀을 발견하는 요소가 포함되어 있습니다."
+        ],
+        "noteworthy_ko": "공간을 재구성하는 퍼즐 메커니즘은 3D 환경에서 매우 흥미로운 경험을 제공합니다. 방의 이동과 카메라 시점의 조화가 개발의 핵심이며, 공간 지각력을 활용한 퍼즐 설계가 중요합니다.",
+        "development_ko": "핵심 기술은 3D 공간의 타일 이동 로직과 카메라 제어입니다. 콘텐츠 제작은 각 방의 레이아웃 디자인이 중요하며, 테스트는 퍼즐의 난이도와 이동의 직관성을 확인하는 데 집중해야 합니다.",
+        "idea_ko": "방을 이동할 때마다 시간대가 바뀌는 기믹을 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "1인칭 시점의 몰입감 있는 퍼즐 경험을 제공합니다.",
+          "슬라이딩 타일이라는 고전적 퍼즐을 3D 공간으로 확장했습니다."
+        ],
+        "systems_ko": [
+          "3D 타일 이동 시스템",
+          "1인칭 카메라 컨트롤러",
+          "퍼즐 상태 관리",
+          "환경 상호작용 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "3D 공간에서의 퍼즐 설계와 타일 이동 로직은 구현 난이도가 높습니다. 특히 카메라 시점과 이동 간의 충돌 처리가 까다로울 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 3D 이동 및 타일 슬라이딩",
+            "카메라 시점 전환",
+            "퍼즐 해결 판정"
+          ],
+          "defer": [
+            "복잡한 그래픽 셰이더",
+            "다양한 환경 에셋"
+          ],
+          "risks": [
+            "3D 멀미 유발",
+            "퍼즐의 논리적 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "시간대 전환 기믹",
+            "concept": "방을 옮길 때마다 낮과 밤이 바뀝니다. 특정 시간대에만 보이는 길을 찾아 퍼즐을 해결합니다.",
+            "first_step": "방 이동 시 환경 조명과 오브젝트를 교체하는 로직 구현."
+          },
+          {
+            "title": "방 회전 퍼즐",
+            "concept": "슬라이딩뿐만 아니라 방을 90도 회전시켜 새로운 통로를 만듭니다. 공간 활용도를 높입니다.",
+            "first_step": "오브젝트 회전 로직과 이동 경로 재계산 구현."
+          }
+        ],
+        "recommendation_ko": "3D 퍼즐 게임의 공간 설계와 로직 구현을 배우고 싶은 개발자에게 추천합니다. 공간 지각력을 활용한 게임 디자인을 연습하기 좋습니다.",
+        "source_limitations_ko": "퍼즐의 구체적인 해결 방식과 방의 이동 제한 조건 등은 확인되지 않았습니다.",
+        "name": "Belvedere [Free] [Puzzle] [Windows] [macOS]",
+        "source": "itch",
+        "detail_url": "https://puzzaholics.itch.io/belvedere",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 317,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-18"
+    },
+    "itch:0e43d3c5e86970fd21e8": {
+      "app_key": "itch:0e43d3c5e86970fd21e8",
+      "name": "Horizon of Steel [Free] [Role Playing]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://odyssos.itch.io/horizon-of-steel",
+      "data_date": "2026-11-18",
+      "analysed_at": "2026-11-18T08:06:39+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "An idle ARPG where you build the character and it does the fighting.",
+      "analysis": {
+        "app_key": "itch:0e43d3c5e86970fd21e8",
+        "summary_ko": "Horizon of Steel은 캐릭터를 육성하면 자동으로 전투가 진행되는 방치형 ARPG입니다. 플레이어는 직접적인 조작보다는 캐릭터 빌드와 성장에 집중하는 경험을 제공합니다.",
+        "features_ko": [
+          "캐릭터의 능력치와 장비를 설정하여 육성합니다.",
+          "전투는 자동으로 진행되어 플레이어의 개입 없이 결과가 산출됩니다."
+        ],
+        "noteworthy_ko": "방치형 메커니즘과 ARPG의 성장 요소를 결합한 점이 흥미롭습니다. 자동 전투 시스템의 밸런스를 어떻게 설계하느냐에 따라 게임의 깊이가 결정될 것으로 보입니다.",
+        "development_ko": "핵심 기술은 자동 전투 로직과 데이터 기반의 캐릭터 성장 시스템입니다. 콘텐츠 제작은 아이템과 스킬 데이터베이스 구축에 집중되며, 밸런스 조정이 가장 큰 부담이 될 것입니다.",
+        "idea_ko": "자동 전투의 결과를 시각적으로 화려하게 연출하는 '전투 리플레이 뷰어' 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "직접 조작이 배제된 자동 전투 중심의 게임 플레이.",
+          "캐릭터 빌드 전략이 승패를 결정하는 구조."
+        ],
+        "systems_ko": [
+          "캐릭터 데이터 관리 시스템",
+          "자동 전투 연산 엔진",
+          "아이템 및 스킬 데이터베이스",
+          "UI/UX 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "복잡한 실시간 물리 엔진이나 조작이 필요 없으나, 자동 전투의 수치 밸런스를 맞추는 과정에서 많은 테스트가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 능력치 시스템",
+            "자동 전투 로직",
+            "기본 장비 인벤토리"
+          ],
+          "defer": [
+            "화려한 이펙트",
+            "멀티플레이어 요소"
+          ],
+          "risks": [
+            "전투 밸런스 붕괴",
+            "단조로운 게임 플레이로 인한 흥미 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "전투 로그 시각화",
+            "concept": "자동 전투의 과정을 텍스트 로그가 아닌 간단한 애니메이션으로 보여줍니다. 전투의 흐름을 파악하기 쉽게 만듭니다.",
+            "first_step": "간단한 2D 스프라이트가 서로 공격을 주고받는 애니메이션 구현."
+          },
+          {
+            "title": "빌드 공유 시스템",
+            "concept": "플레이어가 설정한 캐릭터 빌드를 텍스트 코드로 추출하여 공유합니다. 다른 플레이어의 빌드를 불러와 테스트할 수 있습니다.",
+            "first_step": "캐릭터 데이터를 JSON 형식으로 내보내고 불러오는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 핵심인 데이터 구조 설계와 밸런스 조절을 배우기에 적합합니다. 자동 전투 로직의 효율성을 고민해보고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 전투 방식, 그래픽 스타일, 성장 요소의 깊이를 확인할 수 없습니다. 실제 구현된 기능에 대한 정보가 부족합니다.",
+        "name": "Horizon of Steel [Free] [Role Playing]",
+        "source": "itch",
+        "detail_url": "https://odyssos.itch.io/horizon-of-steel",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 314,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-18"
     }
   }
 }

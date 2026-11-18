@@ -13404,6 +13404,270 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-16"
+    },
+    "itch:3790c064650684152758": {
+      "app_key": "itch:3790c064650684152758",
+      "name": "D.O.R.A: Department of Rockety Affairs [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://solobandidos.itch.io/dora",
+      "data_date": "2026-11-18",
+      "analysed_at": "2026-11-18T08:06:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A pixel-art space agency sim run by a Department that means well.",
+      "analysis": {
+        "app_key": "itch:3790c064650684152758",
+        "summary_ko": "D.O.R.A는 픽셀 아트 스타일의 우주 항공국 운영 시뮬레이션 게임입니다. 플레이어는 선의를 가진 부서의 관리자가 되어 우주 개발과 관련된 업무를 수행합니다. 구체적인 게임 플레이 방식은 설명되지 않았으나, 경영 시뮬레이션의 형식을 띱니다.",
+        "features_ko": [
+          "픽셀 아트로 구현된 우주 항공국 관리 환경을 제공합니다."
+        ],
+        "noteworthy_ko": "픽셀 아트라는 시각적 스타일을 통해 시뮬레이션 장르의 복잡함을 단순화하고 친근하게 접근하려는 시도가 돋보입니다. 경영 시뮬레이션 특유의 데이터 관리와 시각적 피드백의 조화가 개발의 핵심이 될 것으로 추정됩니다.",
+        "development_ko": "핵심 구현 기술로는 자원 관리 시스템과 UI 레이아웃 구성이 필요합니다. 콘텐츠 제작은 픽셀 아트 에셋의 일관성 유지가 중요하며, 밸런스 조정은 시뮬레이션의 난이도를 결정하는 핵심 요소가 될 것입니다.",
+        "idea_ko": "우주선 부품을 조합하여 발사 성공률을 높이는 미니 게임을 추가하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "픽셀 아트 기반의 우주 항공국 테마를 채택하고 있습니다.",
+          "선의를 가진 부서라는 독특한 설정이 게임의 분위기를 형성합니다."
+        ],
+        "systems_ko": [
+          "자원 관리 시스템",
+          "이벤트 발생 및 처리 엔진",
+          "UI/UX 인터페이스",
+          "데이터 저장 및 불러오기"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "시뮬레이션 장르는 시스템 간의 상호작용 설계가 복잡하지만, 1인 개발 시 범위를 좁히면 구현 가능한 수준입니다. 데이터 구조 설계와 UI 연동이 개발의 주요 난관이 될 것입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 자원 관리 루프",
+            "메인 화면 UI",
+            "이벤트 텍스트 출력 시스템"
+          ],
+          "defer": [
+            "복잡한 물리 엔진",
+            "멀티플레이어 기능"
+          ],
+          "risks": [
+            "시스템 간 밸런스 붕괴",
+            "콘텐츠 부족으로 인한 반복성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "부품 업그레이드 트리",
+            "concept": "우주선 부품을 연구하여 성능을 개선하는 트리 구조입니다. 자원을 투자해 성공 확률을 높이는 전략적 선택을 강조합니다.",
+            "first_step": "간단한 버튼 클릭으로 수치가 변하는 프로토타입 구현."
+          },
+          {
+            "title": "부서 예산 관리",
+            "concept": "매 턴마다 주어지는 예산을 인력과 연구에 배분합니다. 예산 부족 시 발생하는 돌발 상황을 해결하는 재미를 줍니다.",
+            "first_step": "예산 변수와 턴 넘기기 로직 구현."
+          }
+        ],
+        "recommendation_ko": "경영 시뮬레이션의 기초적인 데이터 흐름을 배우기에 적합합니다. 시스템 설계의 논리적 구조를 연습하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 메커니즘, 승리 조건, 자원 종류 등이 명시되지 않아 실제 플레이 방식은 검증이 필요합니다.",
+        "name": "D.O.R.A: Department of Rockety Affairs [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://solobandidos.itch.io/dora",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 347,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 11,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-18"
+    },
+    "itch:5754a731bea8799810f3": {
+      "app_key": "itch:5754a731bea8799810f3",
+      "name": "will's adventure [Free]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://bluepeeps2468.itch.io/wills-adventure",
+      "data_date": "2026-11-18",
+      "analysed_at": "2026-11-18T08:06:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "this is my first game controls are arrow keys to walk space to attack you can also walljump",
+      "analysis": {
+        "app_key": "itch:5754a731bea8799810f3",
+        "summary_ko": "방향키로 이동하고 스페이스바로 공격하며 벽 점프를 활용하는 2D 어드벤처 게임입니다. 개발자의 첫 번째 게임으로 기본적인 플랫폼 게임의 요소를 갖추고 있습니다.",
+        "features_ko": [
+          "방향키를 사용하여 캐릭터를 이동시킵니다.",
+          "스페이스바를 눌러 적이나 장애물을 공격합니다.",
+          "벽 점프 기능을 사용하여 높은 곳으로 이동할 수 있습니다."
+        ],
+        "noteworthy_ko": "플랫폼 게임의 가장 기초적인 메커니즘을 구현한 사례입니다. 벽 점프와 같은 물리 기반 이동은 게임의 재미를 결정짓는 중요한 요소입니다.",
+        "development_ko": "캐릭터의 물리 엔진 설정과 충돌 판정이 핵심입니다. 벽 점프의 타이밍과 조작감을 조정하는 데 많은 테스트가 필요합니다. 콘텐츠 제작보다는 기본적인 조작의 완성도를 높이는 것이 중요합니다.",
+        "idea_ko": "벽 점프를 활용한 퍼즐 요소를 추가하여 단순한 이동을 넘어선 레벨 디자인을 시도해 볼 수 있습니다.",
+        "highlights_ko": [
+          "플랫폼 게임의 필수 요소인 이동, 공격, 벽 점프를 포함합니다.",
+          "개발자의 첫 게임으로서 기본적인 게임 구조를 보여줍니다."
+        ],
+        "systems_ko": [
+          "캐릭터 물리 이동 시스템",
+          "입력 처리 시스템",
+          "충돌 판정 및 벽 점프 로직",
+          "레벨 디자인 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "플랫폼 게임의 기초적인 메커니즘은 많은 튜토리얼이 존재하여 구현하기 쉽습니다. 규모가 작아 개인 개발자가 완성하기에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 점프",
+            "벽 점프 메커니즘",
+            "기본 공격 로직"
+          ],
+          "defer": [
+            "복잡한 적 AI",
+            "다양한 레벨 디자인"
+          ],
+          "risks": [
+            "조작감이 어색할 가능성",
+            "충돌 판정 오류로 인한 끼임 현상"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "벽 점프 타임어택",
+            "concept": "벽 점프만을 사용하여 최대한 빠르게 특정 지점까지 도달하는 챌린지 모드입니다.",
+            "first_step": "벽 점프가 가능한 지형을 배치하고 타이머를 추가합니다."
+          },
+          {
+            "title": "중력 반전 어드벤처",
+            "concept": "특정 아이템을 먹으면 중력이 반전되어 벽 점프의 방향이 바뀌는 퍼즐 게임입니다.",
+            "first_step": "중력 값을 반전시키는 간단한 함수를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "플랫폼 게임 개발의 입문용으로 매우 좋습니다. 기본적인 물리 조작과 레벨 디자인의 기초를 배우기에 적합합니다.",
+        "source_limitations_ko": "게임의 구체적인 레벨 구성, 적의 종류, 승리 조건 등에 대한 정보가 부족합니다.",
+        "name": "will's adventure [Free]",
+        "source": "itch",
+        "detail_url": "https://bluepeeps2468.itch.io/wills-adventure",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 293,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-18"
+    },
+    "google:com.trusted.gpstracker": {
+      "app_key": "google:com.trusted.gpstracker",
+      "name": "폰 트래커 - GPS 위치",
+      "developer": "Trusted Mobile Utilities",
+      "source": "google",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.trusted.gpstracker&hl=ko&gl=KR",
+      "data_date": "2026-11-18",
+      "analysed_at": "2026-11-18T08:09:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "폰 트래커 - GPS 위치는 간단하고 투명한 위치 공유를 통해 가족과 친구들과 연결 상태를 유지하도록 도와줍니다. 위치 공유는 양쪽 모두가 연결을 승인한 후에만 시작되므로, 누구와 공유할지와 언제 공유를 활성화할지 스스로 결정할 수 있습니다. 연결이 완료되면, 지도의 실시간 화면에서 서로 공유한 위치를 확인할 수 있습니다. 이를 통해 친구와의 만남을 더 쉽게 조율하고, 일정 조정을 하거나 신뢰하는 사람의 안부를 확인할 수 있습니다. 언제든지 공유를 일시중지하거나 중단할 수 있으며, 공유가 활성화된 동안에는 명확한 안내와 상시 알림이 표시됩니다. 🏙 지도에서 실시간 위치 보기 • 승인된 연락처의 현재 위치를 지도에서 실시간으로 확인하세요. 업데이트를 통해 위치 공유가 활성화된 동안 가족이나 친구가 어디에 있는지 파악할 수 있습니다. 👪 신뢰할 수 있는 연락처와 연결 연락처追加은 간단합니다. 다음 방법으로 연결할 수 있습니다: • QR 코드 스캔 • 초대 수락 • 사용자 ID 입력 연결 후에는 원할 때 언제든지 위치 공유를 시작할 수 있습니다. ✅ 중요한 장소에 존 만들기 • 집, 직장, 학교 등 중요한 장소에 존을 설정하세요. 선택적 알림을 통해 공유한 연락처가 설정한 존에 들어오거나 나갈 때 알려줍니다. 🏞 주변 장소 탐색 • 지도에서 카페, ATM, 호텔 등 주변 장소를 검색하세요. 지원 지역에서는 스트리트 뷰도 제공되어 거리와 주변을 둘러볼 수 있습니다. 🔒 개인정보 보호와 투명성 • 사용자의 프라이버시는 중요합니다. • 위치는 본인이 승인한 연락처와만 공유됩니다. • 연락처를 제거하면 즉시 접근 권한이 종료됩니다. • 공유는 언제든지 일시중지하거나 중단할 수 있습니다. • 공유 활성화 중임을 명확히 보여주는 안내가 제공됩니다. 👉 권한 안내 • 앱은 다음 권한을 요청할 수 있습니다: • 위치(포그라운드): 앱이 열려 있을 때 지도를 업데이트 • 백그라운드 위치(선택): 앱이 닫혀 있어도 공유와 존 알림 유지 • 카메라(선택): QR 코드를 스캔해 연락처 추가 • 알림: 경고 및 업데이트 수신 • 네트워크: 지도 데이터 로드 및 연결 지원 폰 트래커 - GPS 위치는 명확하고 동의에 기반한 위치 공유를 통해 사람들이 함께 조율하고 연결을 유지하도록 설계되었습니다.",
+      "analysis": {
+        "app_key": "google:com.trusted.gpstracker",
+        "summary_ko": "폰 트래커는 가족이나 친구 간의 위치를 실시간으로 공유하여 안부를 확인하고 만남을 조율하는 앱입니다. 사용자는 승인된 연락처와만 위치를 공유하며, 언제든지 공유를 중단할 수 있습니다. 특정 장소에 존을 설정하여 출입 알림을 받을 수 있는 기능도 제공합니다.",
+        "features_ko": [
+          "승인된 연락처와 실시간 위치를 지도에서 공유합니다.",
+          "QR 코드 스캔 등을 통해 신뢰할 수 있는 연락처를 추가합니다.",
+          "집, 직장 등 특정 장소에 존을 설정하고 출입 알림을 받습니다.",
+          "지도에서 카페, ATM 등 주변 장소를 검색할 수 있습니다.",
+          "위치 공유를 언제든지 일시 중지하거나 중단할 수 있습니다."
+        ],
+        "noteworthy_ko": "위치 기반 서비스(LBS)에서 가장 중요한 개인정보 보호와 투명성을 강조한 점이 특징입니다. 사용자가 자신의 위치를 제어할 수 있는 권한을 명확히 제공하는 것이 개발의 핵심입니다.",
+        "development_ko": "GPS 위치 정보 수집 및 지도 API(Google Maps 등) 연동이 핵심입니다. 백그라운드 위치 추적을 위한 권한 관리와 배터리 최적화가 중요합니다. 서버와의 실시간 데이터 동기화와 보안을 고려한 데이터 전송이 필수적입니다.",
+        "idea_ko": "위치 공유와 함께 이동 경로를 기록하여 나중에 되돌아볼 수 있는 '추억의 경로 지도' 기능을 추가하는 것이 적합합니다.",
+        "highlights_ko": [
+          "동의 기반의 투명한 위치 공유 시스템을 갖추고 있습니다.",
+          "특정 장소 출입 알림(지오펜싱) 기능을 제공합니다."
+        ],
+        "systems_ko": [
+          "GPS 위치 수집 및 관리 시스템",
+          "지도 API 연동 및 마커 관리",
+          "지오펜싱(Geofencing) 알림 시스템",
+          "사용자 관계 및 권한 관리 시스템",
+          "실시간 데이터 동기화 서버"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "위치 정보의 정확도 유지, 백그라운드에서의 배터리 소모 관리, 그리고 개인정보 보호를 위한 보안 설계가 매우 복잡합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "실시간 위치 공유 기능",
+            "연락처 추가 및 승인 시스템",
+            "지도 표시 기능"
+          ],
+          "defer": [
+            "스트리트 뷰 연동",
+            "주변 장소 검색"
+          ],
+          "risks": [
+            "위치 정보 오차에 따른 신뢰도 저하",
+            "개인정보 유출 보안 리스크"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "안전 귀가 알림",
+            "concept": "사용자가 목적지에 도착하면 자동으로 보호자에게 알림을 보내는 기능입니다.",
+            "first_step": "목적지 좌표를 설정하고 현재 위치가 해당 좌표에 도달했는지 확인하는 로직 구현."
+          },
+          {
+            "title": "위치 기반 미팅 포인트",
+            "concept": "친구들과 만날 때 중간 지점을 자동으로 계산하여 추천해 주는 기능입니다.",
+            "first_step": "여러 사용자의 위치 좌표 평균을 계산하여 지도에 표시하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "위치 기반 서비스의 기초와 보안의 중요성을 배우기에 좋습니다. 다만 개인정보 보호와 관련된 법적/기술적 책임이 크므로 신중한 접근이 필요합니다.",
+        "source_limitations_ko": "구체적인 서버 인프라나 보안 알고리즘은 확인되지 않았습니다. 의료, 금융 등 민감한 개인정보를 다루는 기능은 소개문에 없으므로 구현하지 마십시오.",
+        "name": "폰 트래커 - GPS 위치",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.trusted.gpstracker&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-18"
     }
   }
 }

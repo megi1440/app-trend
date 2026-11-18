@@ -25713,6 +25713,1188 @@
         "thoughtsTokenCount": 2062,
         "serviceTier": "standard"
       }
+    },
+    "google:jp.goodsmile.revenge": {
+      "app_key": "google:jp.goodsmile.revenge",
+      "name": "東京リベンジャーズ UNLIMITED（アンリベ）",
+      "developer": "GOOD SMILE COMPANY, Inc",
+      "source": "google",
+      "kind": "game",
+      "detail_url": "https://play.google.com/store/apps/details?id=jp.goodsmile.revenge&hl=ja&gl=JP",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:jp.goodsmile.revenge",
+        "product_kind": "game",
+        "original_experience_ko": "스토어 소개문에 따르면, 본 제품은 인기 애니메이션 '도쿄 리벤져스' IP를 기반으로 한 캐릭터 수집형 모바일 RPG입니다. 원작의 주요 에피소드(항쟁 편 등)를 따라가는 스토리 체험, 실시간 불량배 싸움 배틀, 캐릭터 육성 및 친밀도 시스템이 핵심 경험으로 제시되어 있습니다. (AI 해석상, 팬덤 중심의 서사 소비와 캐릭터 수집·조합의 재미가 결합된 구조이나, 실제 조작감이나 상세 전투 메커니즘은 직접 검증되지 않았습니다.)",
+        "source_facts_and_limitations_ko": [
+          "스토어 사실: 애니메이션 '도쿄 리벤져스'를 원작으로 한 공식 게임이며, f4samurai가 개발/운영하고 굿스마일컴퍼니가 기획/배급함.",
+          "스토어 사실: 8·3 항쟁, 혈의 할로윈, 성야 결전, 천축 편 등 원작 에피소드와 100화 이상의 오리지널 스토리가 포함됨.",
+          "한계점: 실시간 전투 시스템의 구체적인 입력 방식, 3D/2D 그래픽 렌더링 방식, 구체적인 경제 시스템 및 과금 구조는 스토어 텍스트만으로 파악할 수 없음."
+        ],
+        "valuable_elements_ko": [
+          "청소년 불량배 집단 간의 거친 대립과 그 안에서 피어나는 동료애 및 강렬한 서사적 유대감",
+          "캐릭터 간의 관계와 성장을 입체적으로 보여주는 친밀도 및 에피소드 연계 구조"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "거리의 주도권: 구역 점령 전략",
+            "core_idea_ko": "원작의 대규모 불량배 항쟁과 세력 다투기라는 세계관을 계승하되, 복잡한 3D 액션 대신 2D 타일 맵 기반의 턴제 구역 점령 및 방어 시뮬레이션으로 재해석한 전략 게임.",
+            "what_to_keep_ko": "다양한 세력(도쿄만지가키, 발할라 등)의 대립 구조와 캐릭터별 상성 및 개성을 활용한 팀 편성·배치 시스템.",
+            "what_to_change_ko": "실시간 액션 조작을 과감히 배제하고, 구역별 자원 관리와 턴제 전술 배치를 통한 두뇌 싸움 중심의 플레이로 전환.",
+            "mobile_use_or_play_ko": "세로 화면의 구역 맵에서 각 거점의 적대 세력 침공 정보를 확인하고, 보유한 캐릭터 카드를 구역에 전략적으로 배치한 뒤 턴 종료 시 전투 결과와 자원 획득을 텍스트와 애니메이션 로그로 확인합니다.",
+            "key_features_ko": [
+              "구역별 턴제 전술 배치 및 세력 확장 시스템",
+              "캐릭터 성향(공격, 방어, 리더십)에 따른 상성 보정",
+              "간결한 텍스트 및 2D 연출 기반의 항쟁 결과 리포트"
+            ],
+            "solo_mvp_and_effort_ko": "2D 스프라이트와 정적 UI 중심이므로 유니티/고도 엔진을 활용해 1인 개발이 가능합니다. 복잡한 실시간 네트워크 대전 대신 오프라인 싱글 플레이 중심의 스테이지 클리어 구조로 스코프를 축소합니다.",
+            "strengths_limits_ko": "장점은 개발 공수가 낮고 전략적 깊이를 주기 쉽다는 점입니다. 약점은 액션성이 부족해 원작의 폭발적인 타격감을 기대한 유저에게는 소극적으로 보일 수 있다는 것입니다."
+          },
+          {
+            "title_ko": "타임라인 딜레마: 반복되는 분기점",
+            "core_idea_ko": "원작의 핵심 설정인 '과거로의 타임리프를 통한 비극 방지'에 집중하여, 로그라이트 구조와 비주얼 노벨 선택지를 결합한 내러티브 생존 게임.",
+            "what_to_keep_ko": "반복되는 위기 상황 속에서 동료를 구하기 위해 운명을 바꾸려는 절박한 서사와 인물 간의 관계성.",
+            "what_to_change_ko": "캐릭터 수집 RPG 구조를 버리고, 단일 주인공의 시점에서 텍스트 선택지와 확률 기반 설득, 타임리프 회차 계승 요소에 집중.",
+            "mobile_use_or_play_ko": "주요 사건 발생 전 시점으로 돌아가 대화 선택지를 고르고, 수집한 단서나 캐릭터 친밀도를 활용해 특정 인물의 이탈이나 폭주를 막는 설득 미니게임을 진행합니다. 실패 시 배드엔딩을 맞고 다음 회차에 보너스 스탯을 얻어 재도전합니다.",
+            "key_features_ko": [
+              "회차 반복형 타임리프 및 분기 선택 내러티브 엔진",
+              "인물 설득력 및 단서 조합 시스템",
+              "선택에 따른 인물 생사 및 스토리 분기 도감"
+            ],
+            "solo_mvp_and_effort_ko": "텍스트 데이터베이스와 UI 레이아웃 위주로 개발하여 리소스 부담을 최소화합니다. 스크립트 작성과 분기 관리 로직 구현에 집중하면 1인이 충분히 완성도 있는 인디 게임을 제작할 수 있습니다.",
+            "strengths_limits_ko": "장점은 강력한 스토리 몰입감과 독창적인 타임리프 루프의 재미입니다. 약점은 비주얼 노벨 장르 특성상 반복 플레이 시 피로감이 누적될 수 있어 텍스트의 흡입력이 절대적으로 요구된다는 점입니다."
+          },
+          {
+            "title_ko": "스트리트 콤보: 펀치 백 레전드",
+            "core_idea_ko": "원작의 일대다 길거리 싸움이 주는 쾌감에 집중하여, 모바일 한 손 조작으로 즐기는 캐주얼 리듬 및 타이밍 콤보 액션 아케이드 게임.",
+            "what_to_keep_ko": "다수의 적을 상대로 연속 공격을 퍼붓는 호쾌한 타격감과 캐릭터별 고유 필살기 연출.",
+            "what_to_change_ko": "방대한 오픈월드와 복잡한 RPG 육성 요소를 제거하고, 타이밍에 맞춰 화면을 탭하거나 스와이프하는 아케이드형 스테이지 클리어 방식으로 단순화.",
+            "mobile_use_or_play_ko": "세로 화면 하단에서 몰려오는 적들에 맞춰 좌우 터치나 스와이프를 입력해 콤보를 이어가고, 게이지가 차면 캐릭터의 시그니처 필살기 연출을 발동하여 스테이지를 클리어합니다.",
+            "key_features_ko": [
+              "한 손 조작 기반의 타이밍 콤보 액션 메커니즘",
+              "캐릭터별 고유 필살기 컷씬 및 타격 효과",
+              "단기 스테이지 클리어 및 장비/스킨 간단 업그레이드"
+            ],
+            "solo_mvp_and_effort_ko": "단일 씬에서의 입력 판정과 이펙트 연출 제어에 집중하므로 개발 파이프라인이 단순합니다. 애니메이션 에셋이나 이펙트 리소스를 절제하면 1인 개발이 가능합니다.",
+            "strengths_limits_ko": "장점은 직관적인 조작과 높은 중독성입니다. 약점은 플레이 패턴이 단순해 장기적인 리텐션을 유지하기 어렵고 컨텐츠 소모 속도가 빠르다는 점입니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 '구역 점령 전략'은 전략적 두뇌 싸움과 세력 확장 재미를 제공하나 액션성이 다소 떨어집니다. 두 번째 '타임라인 딜레마'는 원작의 타임리프 정체성과 서사적 몰입감을 극대화하지만 액션 요소를 배제합니다. 세 번째 '스트리트 콤보'는 직관적 타격 쾌감을 주지만 깊이 있는 스토리 전달에는 한계가 있습니다. 세 안 모두 원고의 핵심 요소(항쟁, 타임리프, 싸움)를 각각 다르게 재해석했습니다.",
+        "recommended_concept_number": 2,
+        "why_recommended_ko": "'타임라인 딜레마'는 원작의 독창적인 설정(과거 회귀와 비극 방지)을 모바일 환경에서 텍스트와 로그라이트 구조로 가장 가볍고 효율적으로 구현할 수 있습니다. 1인 개발자가 방대한 3D 액션이나 서버 연동형 전투 없이도 탄탄한 스토리텔링과 반복 플레이의 재미를 담아낼 수 있어 현실성과 완성도 측면에서 가장 유리합니다.",
+        "next_questions_ko": [
+          "텍스트 분량과 분기 처리를 효율적으로 관리하기 위해 어떤 스크립트 구조(예: Ink, Yarn Spinner 등)를 도입할 것인가?",
+          "로그라이트 회차 요소(아이템 계승, 해금 요소)가 플레이어에게 충분한 동기부여를 제공하는가?"
+        ]
+      },
+      "brief_at": "2026-11-18T09:02:57+09:00",
+      "brief_quota_day": "2026-11-18",
+      "brief_usage": {
+        "promptTokenCount": 2198,
+        "candidatesTokenCount": 2222,
+        "totalTokenCount": 6601,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2198
+          }
+        ],
+        "thoughtsTokenCount": 2181,
+        "serviceTier": "standard"
+      }
+    },
+    "google:jp.hamitv.hamiand1": {
+      "app_key": "google:jp.hamitv.hamiand1",
+      "name": "TVer(ティーバー) 民放公式テレビ配信サービス",
+      "developer": "TVer INC.",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=jp.hamitv.hamiand1&hl=ja&gl=JP",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:jp.hamitv.hamiand1",
+        "product_kind": "app",
+        "original_experience_ko": "일본 민방의 TV 프로그램 및 라이브 방송을 언제 어디서나 무료로 시청하고, VOD 다시보기와 프로그램 편성표를 통해 관심 콘텐츠를 탐색하는 비디오 스트리밍 서비스 경험을 제공합니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 소개문을 통해 민방 TV사의 공식 프로그램 콘텐츠 무료 제공, 실시간 라이브 배포, 지상파/BS 프로그램 편성표, 검색 및 즐겨찾기 기능이 존재함을 확인할 수 있습니다.",
+          "대규모 동영상 스트리밍을 위한 CDN 인프라, 비디오 코덱, 방송사와의 구체적인 제휴 및 저작권 계약 조건은 스토어 정보에 명시되어 있지 않습니다.",
+          "개인 개발자가 대형 방송사의 저작권 콘텐츠를 직접 수급하여 스트리밍 서비스를 구현하는 것은 현실적으로 불가능합니다."
+        ],
+        "valuable_elements_ko": [
+          "시청하고 싶은 방송이나 라이브 일정을 놓치지 않도록 돕는 직관적인 '프로그램 편성표 및 장르별 탐색' 구조.",
+          "놓친 콘텐츠를 다시 찾고 알림을 받을 수 있는 'VOD 및 즐겨찾기 타임라인' 흐름.",
+          "실시간 스트리밍과 다시보기 VOD를 매끄럽게 연결하는 모바일 중심의 미디어 유틸리티 UX."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "타임팟(TimePod) - 인디 크리에이터 & 로컬 미디어 큐레이션 앱",
+            "core_idea_ko": "대형 방송사 대신 독립 크리에이터, 로컬 미디어, 대학 방송국의 VOD 및 라이브 일정을 모아 맞춤형 가상 편성표로 제공하는 큐레이션 스트리밍 앱.",
+            "what_to_keep_ko": "프로그램 편성표 형태의 타임라인 UI, 즐겨찾기 채널 알림, 장르별 VOD 탐색 흐름을 계승합니다.",
+            "what_to_change_ko": "지상파 저작권 대신 RSS 및 공개 API를 활용한 인디 미디어 콘텐츠 수집, 자체 가상 편성표 생성 기능으로 대체합니다.",
+            "mobile_use_or_play_ko": "앱 실행 시 오늘의 인디 미디어 라이브/VOD 편성표를 확인하고, 관심 프로그램을 즐겨찾기하면 방송 시작 또는 업로드 시 푸시 알림을 받고 바로 시청합니다.",
+            "key_features_ko": [
+              "오픈 미디어 기반 가상 미디어 편성표",
+              "크리에이터 북마크 및 업데이트 알림 시스템",
+              "외부 퍼블릭 링크 연동형 미디어 플레이어"
+            ],
+            "solo_mvp_and_effort_ko": "Firebase와 오픈소스 비디오 플레이어(ExoPlayer)를 활용해 퍼블릭 비디오 링크를 JSON 데이터로 관리하고 커스텀 편성표 형태로 구현합니다. 서버 부담이 적어 1인 개발이 가능합니다.",
+            "strengths_limits_ko": "장점은 저작권 이슈를 우회하여 독자적 미디어를 구축할 수 있으나, 단점은 초기 인디 콘텐츠 풀 확보와 사용자 유인이 어렵습니다."
+          },
+          {
+            "title_ko": "캐치커넥트(CatchConnect) - 퍼블릭 라이브 & 팟캐스트 통합 가이드 앱",
+            "core_idea_ko": "유튜브, 트위치 등 다양한 외부 플랫폼의 라이브 방송과 팟캐스트 일정을 모아 자신만의 '방송 가이드'를 만드는 큐레이션 앱.",
+            "what_to_keep_ko": "실시간 방송(라이브) 일정 안내, 즐겨찾기한 채널의 업데이트 추적 및 알림 기능을 계승합니다.",
+            "what_to_change_ko": "영상을 직접 송출하는 대신 외부 라이브 방송의 일정(API)을 수집해 한눈에 보여주는 가이드 및 일정표 역할에 집중합니다.",
+            "mobile_use_or_play_ko": "즐겨찾기한 크리에이터들의 방송 예정 시간을 타임라인 편성표로 확인하고, 방송 시작 시 앱 내에서 바로 외부 라이브로 연결되는 흐름입니다.",
+            "key_features_ko": [
+              "멀티 플랫폼 라이브 통합 편성표",
+              "관심 채널 방송 시작 알림 설정",
+              "시청 일정 메모 및 북마크 아카이브"
+            ],
+            "solo_mvp_and_effort_ko": "외부 퍼블릭 API를 연동하여 일정 정보를 파싱하고 로컬 DB에 저장하는 가벼운 앱 구조입니다. 안드로이드 RecyclerView 기반 타임라인으로 구현하여 1인 개발 난이도가 낮습니다.",
+            "strengths_limits_ko": "장점은 직관적인 스케줄러 유틸리티로서 실용성이 높고, 단점은 외부 플랫폼 정책 변화나 API 제한에 의존적입니다."
+          },
+          {
+            "title_ko": "쉐어캐치(ShareCatch) - 소셜 미디어 비디오 큐레이션 & 피드 앱",
+            "core_idea_ko": "친구들이나 팔로우하는 큐레이터가 추천하는 퍼블릭 비디오 링크, 하이라이트 타임라인을 모아보고 함께 이야기를 나누는 소셜 스트리밍 피드 앱.",
+            "what_to_keep_ko": "친구 및 타인과 프로그램을 공유하는 기능, 레코메드(추천) 기반 피드 탐색 경험을 계승합니다.",
+            "what_to_change_ko": "방송사 중심의 수직적 콘텐츠 공급에서 벗어나, 사용자들이 직접 유용한 영상 클립과 타임라인 코멘트를 공유하는 수평적 소셜 큐레이션 구조로 전환합니다.",
+            "mobile_use_or_play_ko": "홈 피드에서 친구들이 추천한 영상 클립과 감상 평을 확인하고, 터치 한 번으로 내 피드에 스크랩하거나 댓글로 토론합니다.",
+            "key_features_ko": [
+              "사용자 참여형 소셜 큐레이션 피드",
+              "타임라인 특정 구간 코멘트(댓글) 시스템",
+              "비디오 링크 스크랩 및 공유 허브"
+            ],
+            "solo_mvp_and_effort_ko": "Firebase Auth와 Firestore를 백엔드로 활용하여 사용자 간 링크 공유 및 타임라인 댓글 기능을 구현합니다. 비디오 재생은 웹뷰나 시스템 인텐트를 활용하여 서버 비용을 절감합니다.",
+            "strengths_limits_ko": "장점은 높은 사용자 참여와 커뮤니티 확장성이 있으나, 단점은 초기 활성 사용자가 부족할 경우 콘텐츠가 비어 보일 수 있습니다."
+          }
+        ],
+        "concept_comparison_ko": "1번(타임팟)은 인디 미디어와 가상 편성표를 중심으로 미디어 발견의 재미를 주나 콘텐츠 수급이 과제입니다. 2번(캐치커넥트)은 기존 퍼블릭 라이브 방송의 스케줄 관리에 집중해 실용성이 높으나 외부 API 의존도가 큽니다. 3번(쉐어캐치)은 소셜 큐레이션과 타임라인 코멘트를 통해 커뮤니티성을 강조하나 초기 활성화가 어렵습니다. 이 중 2번은 복잡한 서버 인프라 없이도 TVer의 핵심 효용(편하게 방송과 일정 찾기)을 가장 현실적으로 모바일 환경에 재해석할 수 있습니다.",
+        "recommended_concept_number": 2,
+        "why_recommended_ko": "TVer의 가장 핵심적인 사용자 경험은 '원하는 방송과 라이브 일정을 놓치지 않고 편성표를 통해 쉽게 찾아내는 것'입니다. 2번 기획(캐치커넥트)은 대형 방송 저작권이라는 비현실적 장애물을 피해 가면서, 퍼블릭 라이브 및 팟캐스트의 일정을 모아주는 '통합 편성표 가이드' 유틸리티로 원본의 가치를 가장 깔끔하게 계승합니다. 모바일 환경에서 푸시 알림과 타임라인 UI 구현이 비교적 명확하며, 1인 개발자가 MVP를 완성하기에 가장 적합합니다.",
+        "next_questions_ko": [
+          "대상 외부 플랫폼(YouTube Live 등)의 API 할당량과 이용 약관이 앱 내 일정 수집 및 링크 연결 방식에 저촉되지 않는가?",
+          "사용자가 선호하는 라이브 채널과 알림 설정을 로컬 저장소와 서버 동기화 중 어디에 중점을 둘 것인가?",
+          "라이브 방송 시작 시각과 실제 방송 송출 시각 간의 미세한 오차를 사용자가 수동으로 보정할 수 있게 할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-18T09:04:51+09:00",
+      "brief_quota_day": "2026-11-18",
+      "brief_usage": {
+        "promptTokenCount": 1925,
+        "candidatesTokenCount": 2045,
+        "totalTokenCount": 7217,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1925
+          }
+        ],
+        "thoughtsTokenCount": 3247,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:jp.hamitv.hamiand1",
+        "product_kind": "app",
+        "selected_concept_title_ko": "캐치커넥트(CatchConnect) - 퍼블릭 라이브 & 팟캐스트 통합 가이드 앱",
+        "project_goal_and_audience_ko": "유튜브, 트위치, 각종 팟캐스트 플랫폼 등 여러 곳에 흩어져 진행되는 좋아하는 크리에이터나 방송의 일정을 매번 일일이 확인하기 번거로운 모바일 사용자들을 위한 통합 가이드 앱입니다. 사용자는 관심 있는 채널들의 방송 스케줄을 한눈에 확인하고, 방송 시작 전 푸시 알림을 통해 중요한 라이브 일정을 놓치지 않고 시청할 수 있는 효율과 편리함을 얻습니다.",
+        "source_relation_and_difference_ko": "원본 TVer의 핵심 경험인 '실시간 라이브 방송 일정 확인', '즐겨찾는 채널의 업데이트 추적 및 알림'이라는 가치를 그대로 계승합니다. 차이점은 대형 방송국의 VOD 직접 스트리밍과 저작권 문제를 완전히 배제하고, 퍼블릭 API 기반의 방송 일정 안내 및 외부 링크 연결에 집중하는 유틸리티 구조로 전환하여 1인 개발이 가능하도록 설계했다는 점입니다.",
+        "core_user_experience_ko": "사용자는 앱을 실행하여 홈 화면이나 타임라인 편성표에서 오늘 예정된 라이브 방송 및 팟캐스트 목록을 시간순으로 확인합니다. 마음에 드는 채널이나 방송을 '즐겨찾기' 및 '알림 설정'하면, 방송 시작 시간에 맞춰 스마트폰으로 푸시 알림이 전달됩니다. 알림이나 목록의 아이템을 터치하면 해당 방송이 진행되는 원본 외부 플랫폼(유튜브, 트위치 등)의 링크나 앱으로 바로 이동하여 시청을 시작할 수 있습니다.",
+        "features_ko": [
+          {
+            "feature_ko": "멀티 플랫폼 라이브 통합 편성표",
+            "user_action_and_behavior_ko": "사용자가 날짜별, 플랫폼별(유튜브, 트위치, 팟캐스트 등)로 필터링하여 여러 외부 플랫폼의 라이브/팟캐스트 스케줄을 시간순 타임라인으로 조회합니다. 로컬 캐시된 데이터를 기반으로 빠르게 렌더링되어 대기 시간 없이 일정을 파악할 수 있는 가치를 제공합니다.",
+            "practical_implementation_ko": "안드로이드 Jetpack Compose를 활용해 가벼운 LazyColumn 기반의 타임라인 UI를 구현하고, 간단한 공개 JSON 파일이나 RSS를 파싱하여 스케줄 데이터를 리스트로 구성합니다."
+          },
+          {
+            "feature_ko": "관심 채널 방송 시작 알림 설정",
+            "user_action_and_behavior_ko": "특정 채널이나 방송의 종 모양 아이콘을 터치하여 알림을 활성화합니다. 지정된 시간(예: 방송 시작 10분 전)에 로컬 푸시 알림이 발생해 사용자가 방송을 놓치지 않도록 돕습니다.",
+            "practical_implementation_ko": "Android WorkManager와 AlarmManager를 활용해 백그라운드에서 알림 트리거를 예약하고, Room DB에 저장된 방송 스케줄과 대조하여 정확한 시간에 로컬 푸시를 발송합니다."
+          },
+          {
+            "feature_ko": "북마크 및 아카이브 관리",
+            "user_action_and_behavior_ko": "나중에 다시 확인하고 싶은 방송이나 팟캐스트를 북마크하여 별도의 보관함에서 모아볼 수 있습니다. 관심 있는 콘텐츠를 체계적으로 관리하는 유틸리티 경험을 제공합니다.",
+            "practical_implementation_ko": "Room DB에 북마크 플래그(is_bookmarked) 필드를 추가하여 로컬 토글 상태를 유지하고, 북마크 전용 탭에서 쿼리 기반으로 리스트를 출력합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "홈/타임라인 편성표 화면",
+            "contents_and_actions_ko": "오늘 및 향후 3일간의 라이브/팟캐스트 방송 일정 타임라인, 플랫폼별 필터 칩, 채널 검색 바. 아이템 터치 시 상세 모달 표시 및 외부 플랫폼 링크 연결 버튼 제공."
+          },
+          {
+            "screen_ko": "즐겨찾기 및 알림 관리 화면",
+            "contents_and_actions_ko": "구독 중인 채널 리스트, 알림 On/Off 토글 스위치, 최근 즐겨찾기한 방송 아카이브 목록 조회 및 관리."
+          },
+          {
+            "screen_ko": "설정 및 정보 화면",
+            "contents_and_actions_ko": "데이터 동기화 주기 설정, 시스템 알림 권한 상태 확인, 앱 버전 및 오픈소스 라이선스 정보 확인."
+          }
+        ],
+        "implementation_approach_ko": "Android 네이티브 개발을 위해 Kotlin과 Jetpack Compose를 채택합니다. 선언형 UI 구조를 통해 복잡한 타임라인과 리스트 갱신을 효율적으로 처리할 수 있으며, 로컬 데이터 저장 및 상태 관리가 용이합니다. 네트워크 비동기 처리를 위해 Ktor 또는 Retrofit을 사용하며, Coroutines를 통해 백그라운드 스케줄링을 관리합니다. Android 로컬 알림 및 WorkManager 제어의 안정성을 위해 네이티브 Kotlin이 1인 개발에 가장 직관적이고 유리합니다.",
+        "data_and_storage_ko": [
+          "BroadcastItem 객체: id(String), channelName(String), title(String), platform(String), startTime(Long), externalUrl(String), isBookmarked(Boolean). 매일 주기적으로 외부 공개 소스나 JSON 데이터셋에서 파싱하여 Room DB에 캐시하고, 오프라인에서도 타임라인을 조회할 수 있도록 함.",
+          "NotificationConfig 객체: broadcastId(String), reminderTime(Long), isEnabled(Boolean). AlarmManager와 연동하여 로컬 푸시 알림 스케줄링에 활용."
+        ],
+        "mvp_scope_ko": "첫 번째 MVP 버전에서는 외부 API 복잡성 대신 로컬에 미리 정의된 샘플 JSON 스케줄 데이터 또는 간단한 공개 RSS 파싱 기능을 활용하여 타임라인 화면과 로컬 푸시 알림, 북마크 기능까지만 구현합니다. 회원가입이나 서버 로그인 없이 완전한 온디바이스 유틸리티로 동작하게 하여 1인 개발의 복잡도를 최소화합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "단계 1: UI 레이아웃 및 디자인 시스템 구축",
+            "deliverable_and_check_ko": "Jetpack Compose 기반의 홈 타임라인 및 상세 모달 뼈대 구현. 레이아웃이 다양한 화면 크기에서 자연스럽게 렌더링되는지 확인."
+          },
+          {
+            "stage_ko": "단계 2: 로컬 데이터베이스(Room) 설계 및 샘플 스케줄 연동",
+            "deliverable_and_check_ko": "타임라인 리스트에 가상 데이터 바인딩 및 날짜/플랫폼 필터링 기능이 정상 작동하는지 테스트."
+          },
+          {
+            "stage_ko": "단계 3: 알림 및 북마크 기능 구현",
+            "deliverable_and_check_ko": "WorkManager를 이용한 로컬 알림 트리거 설정 및 북마크 토글 상태가 Room DB에 정확히 저장되는지 확인."
+          },
+          {
+            "stage_ko": "단계 4: 외부 링크 연동 및 예외 처리 검증",
+            "deliverable_and_check_ko": "아이템 터치 시 외부 브라우저 또는 앱 인텐트가 정상 작동하는지 확인하고 UI 디테일 다듬기."
+          }
+        ],
+        "possible_extensions_ko": "향후 사용자가 직접 커스텀 채널 일정을 등록하는 기능, 사용자 메모 기능, 홈 화면에서 다음 방송 일정을 바로 확인할 수 있는 미니멀 홈 스크린 위젯(Widget) 추가 등을 확장할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "외부 플랫폼의 방송 일정 API가 변경되거나 폐쇄될 경우 데이터 수동 갱신이나 대체 소스 확보가 필요함.",
+          "Android 기기 제조사의 배터리 최적화 정책으로 인해 백그라운드 알림(WorkManager)이 지연되거나 누락될 가능성에 대한 예외 처리 검토 필요.",
+          "스트리밍 직접 송출이 아닌 링크 연결 방식이 사용자에게 충분한 편의를 제공하는지 실제 사용성 검증 필요."
+        ],
+        "draft_status_ko": "본 문서는 TVer 앱의 핵심 가치를 발전시킨 '캐치커넥트' 앱의 1인 모바일 개발 설계 초안이며, 실제 구현 및 플레이테스트, 성능 측정이 완료되지 않은 상태입니다."
+      },
+      "plan_at": "2026-11-18T09:05:28+09:00",
+      "plan_quota_day": "2026-11-18",
+      "plan_usage": {
+        "promptTokenCount": 2600,
+        "candidatesTokenCount": 2064,
+        "totalTokenCount": 6974,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2600
+          }
+        ],
+        "thoughtsTokenCount": 2310,
+        "serviceTier": "standard"
+      }
+    },
+    "google:jp.lg.hokkaido.pref.pocketsign": {
+      "app_key": "google:jp.lg.hokkaido.pref.pocketsign",
+      "name": "北海道アプリ",
+      "developer": "北海道庁",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=jp.lg.hokkaido.pref.pocketsign&hl=ja&gl=JP",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:jp.lg.hokkaido.pref.pocketsign",
+        "product_kind": "app",
+        "original_experience_ko": "스토어 소개문에 따르면, 홋카이도 공식 앱은 마이넘버카드 NFC 태그를 통한 자동 본인 확인, 지역 포인트('도민 포인트') 적립 및 가맹점 사용, 지자체 정보 수신 기능을 통합 제공하는 공공 라이프스타일 앱입니다. AI 해석에 따르면 이는 공공 서비스의 디지털 전환을 이루는 지역 플랫폼입니다. 공개된 사실은 지자체 공식 정보 수신과 포인트 시스템의 존재이며, 실제 백엔드 보안 아키텍처나 공공 인증 API 연동 방식 등은 확인되지 않은 해석과 한계에 해당합니다.",
+        "source_facts_and_limitations_ko": [
+          "확인된 사실: 마이넘버카드를 스마트폰에 태그하여 이름/주소 자동 입력 및 계정 생성 가능, 도민 포인트 수령 및 도내 가맹점 사용 가능, 홋카이도 지역 행정 및 유용한 정보 수신 가능.",
+          "미확인 사항 및 한계: 실제 공공 마이넘버카드 연동을 위한 보안 API 규격, 서버 인프라, 결제 및 포인트 정산 시스템의 구체적 구현 방식은 스토어 설명에 드러나지 않음."
+        ],
+        "valuable_elements_ko": [
+          "공공 신분증과 결합한 신뢰성 높은 가입 플로우: 물리적 신분증을 NFC로 태그하여 입력 오류를 없애고 가입 장벽을 낮춘 사용자 경험.",
+          "지역 경제와 직접 연동되는 로컬 포인트 시스템: 지역 가맹점 소비를 유도하여 실질적 효용을 주는 리워드 구조."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "마을잇다: 골목상권 스마트 패스",
+            "core_idea_ko": "지자체 공식 앱의 신분증 연동 및 리워드 구조를 일반 중소도시나 골목상권 소상공인 연합회 단위로 가볍게 적용하여, 오프라인 매장 방문 체크인과 지역 소비에 대해 포인트를 지급하는 로컬 커머스 리워드 앱.",
+            "what_to_keep_ko": "NFC 또는 QR 태깅을 통한 오프라인 매장 방문/결제 연동, 지역 경제 활성화 목적의 포인트 적립 및 사용 구조.",
+            "what_to_change_ko": "복잡하고 엄격한 공공 마이넘버카드 인증 대신, 가벼운 휴대폰 본인인증 또는 지역 주민 인증으로 진입 장벽을 낮추고, 소상공인이 직접 쿠폰과 이벤트를 등록할 수 있는 오픈형 관리자 툴 결합.",
+            "mobile_use_or_play_ko": "앱을 켜고 동네 제휴 상점에 방문하여 계산대에 비치된 NFC 칩에 스마트폰을 태그하면, 방문 인증과 함께 즉시 '동네 포인트'가 적립되고 마이페이지에서 사용 가능한 쿠폰 목록을 확인하는 흐름.",
+            "key_features_ko": [
+              "NFC/QR 기반 오프라인 매장 간편 체크인 및 방문 리워드",
+              "소상공인 직접 참여형 로컬 쿠폰 및 혜택 발행 시스템",
+              "주민 거주지 인증 기반 지역 맞춤형 소식 푸시 알림"
+            ],
+            "solo_mvp_and_effort_ko": "1인 개발 시 백엔드는 Firebase 및 Node.js로 가볍게 구축하고, NFC 태그 인식(Web NFC 또는 네이티브 플러그인)과 로컬 푸시 알림 기능을 중심으로 구현. 복잡한 공공 결제 정산 대신 수동 바코드/쿠폰 교환 방식으로 MVP를 축소하여 개발 난이도를 낮춤.",
+            "strengths_limits_ko": "장점은 소상공인이 쉽게 도입할 수 있어 확장성이 높다는 점이며, 약점은 초기 제휴 가맹점 모집 영업이 필수적이라는 점과 대기업 페이 서비스와의 차별화 과제임."
+          },
+          {
+            "title_ko": "노마드 로컬 패스: 체류형 여행자 디지털 ID",
+            "core_idea_ko": "원본 앱의 신원 인증 및 지역 정보 수신 기능을 타지역 체류형 여행자(워케이션족, 한 달 살기 참여자)를 위한 맞춤형 디지털 패스포트로 발전시킨 앱.",
+            "what_to_keep_ko": "신분증 인증 기반의 신뢰성 높은 계정 생성, 지역 고유의 행정/관광 정보 수신, 체류 지역 내 이용 가능한 리워드 시스템.",
+            "what_to_change_ko": "영구 거주민 대상의 행정 업무 대신, 단기 체류자의 지역 적응, 로컬 커뮤니티 가입, 친환경 관광 미션 수행 시 포인트를 지급하는 방식으로 목적 전환.",
+            "mobile_use_or_play_ko": "앱 최초 실행 시 신분증 사진 인증을 통해 체류 인증을 거치고, 지역 내 공유 오피스나 로컬 체험 프로그램 예약 시 포인트를 받아 지역 식당에서 사용하는 흐름.",
+            "key_features_ko": [
+              "단기 체류자 신원 인증 및 디지털 로컬 패스 발급",
+              "지역 체험 프로그램 예약 및 미션 수행 리워드",
+              "지자체/로컬 크리에이터가 제공하는 체류 가이드 푸시"
+            ],
+            "solo_mvp_and_effort_ko": "OCR 기반 간편 신분증 인증 API 활용, 크로스플랫폼(React Native) 기반 개발로 안드로이드/iOS 동시 타겟팅, 포인트 관리는 단순 DB 연산으로 처리해 1인 개발 공수 최소화.",
+            "strengths_limits_ko": "최근 증가하는 워케이션/체류형 관광 트렌드에 부합하지만, 지자체나 지역 기관 협력 없이 단독 서비스로 운영 시 콘텐츠 확보의 한계가 존재함."
+          },
+          {
+            "title_ko": "그린 클럽: 시민 참여형 에코 리워드",
+            "core_idea_ko": "원본 앱의 정보 전달과 포인트 환원 시스템을 '친환경 행동 실천(재활용, 대중교통, 텀블러 사용)' 인증 플랫폼으로 진화시킨 앱.",
+            "what_to_keep_ko": "공식적인 사용자 인증을 통한 신뢰성 확보, 특정 행동에 따른 포인트 지급 및 지역 상점 연계 소비.",
+            "what_to_change_ko": "행정 정보 수신을 환경 캠페인 및 로컬 에코 미션으로 바꾸고, NFC나 QR을 통해 재활용 거점 방문이나 텀블러 할인 인증을 자동으로 처리.",
+            "mobile_use_or_play_ko": "카페나 재활용 센터에 비치된 스마트 QR을 앱으로 스캔하여 에코 활동을 인증하면, 포인트가 쌓이고 이를 지역 친환경 마켓에서 현금처럼 쓰는 흐름.",
+            "key_features_ko": [
+              "QR/위치 기반 친환경 행동 인증 시스템",
+              "에코 활동 통계 및 마이페이지 대시보드",
+              "지역 친환경 가맹점 연계 리워드 마켓"
+            ],
+            "solo_mvp_and_effort_ko": "GPS 위치 인증과 QR 스캔 기능, 그리고 간단한 포인트 누적/사용 테이블 설계로 구현 가능. 외부 결제 연동은 배제하고 가맹점주용 승인 웹 페이지를 가볍게 만들어 MVP 완성.",
+            "strengths_limits_ko": "환경에 대한 높은 관심사와 공공 정책 방향성과 일치하여 확장성이 높으나, 사용자의 허위 인증 방지 및 지속적인 동기부여 방안 마련이 과제임."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어는 소상공인 중심의 골목상권 리워드에 집중하여 자영업자와의 협력을 이끌어내는 상업적 실용성이 높고, 두 번째 아이디어는 워케이션/체류형 여행객이라는 틈새 타겟을 공략하여 지자체 관광 마케팅과 결합하기 좋습니다. 세 번째 아이디어는 탄소중립과 친환경이라는 범사회적 가치를 내세워 공공 및 민간 협업을 이끌어내기 유리합니다. 세 아이디어 모두 원본의 '인증 기반 신뢰성'과 '지역 포인트 경제'라는 핵심 뼈대를 유지하면서, 적용 대상을 소상공인, 관광객, 환경 실천가로 차별화했습니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "첫 번째 아이디어('마을잇다: 골목상권 스마트 패스')는 원본의 지역 경제 활성화 및 포인트 시스템이라는 핵심 가치를 가장 직관적으로 소상공인 영역에 이식할 수 있어 1인 개발자가 오프라인 제휴 및 MVP 검증을 빠르게 시도하기에 가장 현실적입니다. 공공 마이넘버카드와 같은 고도의 보안 인프라 없이도 휴대폰 인증 등으로 진입 장벽을 낮추어 모바일 구현 부담을 대폭 줄이면서도 실용성을 확보할 수 있습니다.",
+        "next_questions_ko": [
+          "오프라인 가맹점주들이 별도의 앱이나 관리자 페이지를 사용하도록 설득할 수 있는 가장 단순한 인터페이스 형태는 무엇인가?",
+          "복잡한 결제 연동을 피하고 포인트 사용 및 정산을 수동 바코드로 처리할 때, 가맹점과 사용자 간의 신뢰를 담보할 최소한의 보안 장치는 무엇인가?",
+          "초기 지역 제휴처를 확보하기 위해 1인 개발자가 활용할 수 있는 로컬 커뮤니티 침투 전략은 무엇인가?"
+        ]
+      },
+      "brief_at": "2026-11-18T09:18:09+09:00",
+      "brief_quota_day": "2026-11-18",
+      "brief_usage": {
+        "promptTokenCount": 1423,
+        "candidatesTokenCount": 2272,
+        "totalTokenCount": 6901,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1423
+          }
+        ],
+        "thoughtsTokenCount": 3206,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:jp.lg.hokkaido.pref.pocketsign",
+        "product_kind": "app",
+        "selected_concept_title_ko": "마을잇다: 골목상권 스마트 패스",
+        "project_goal_and_audience_ko": "골목상권 소상공인과 지역 주민을 연결하여 오프라인 소비를 활성화하는 로컬 커머스 리워드 앱. 대도시 프랜차이즈로 유출되는 소비를 동네 상점으로 돌리고, 주민은 일상적인 방문과 소비를 통해 실질적인 혜택을 얻는 것을 목표로 합니다.",
+        "source_relation_and_difference_ko": "원본(홋카이도 공식 앱)의 핵심 경험인 '지역 경제 활성화 목적의 포인트 시스템'과 '오프라인 공간 연동(신분증/태그)'이라는 뼈대를 유지했습니다. 차별점으로는 공공기관의 고비용·엄격한 마이넘버카드 인증 대신 가벼운 휴대폰 본인인증과 지역 거주지 인증을 채택하여 진입 장벽을 낮추고, 소상공인이 직접 쿠폰과 이벤트를 등록할 수 있는 오픈 관리자 툴을 결합했습니다.",
+        "core_user_experience_ko": "사용자가 동네 제휴 상점에 방문하여 계산대에 비치된 NFC 칩에 스마트폰을 가볍게 태그하거나 QR 코드를 스캔합니다. 시스템은 즉시 방문을 인증하고 '동네 포인트'를 적립해주며, 사용자는 마이페이지에서 적립된 포인트로 교환 가능한 주변 상점의 할인 쿠폰 목록을 실시간으로 확인하고 사용할 수 있습니다.",
+        "features_ko": [
+          {
+            "feature_ko": "NFC/QR 기반 오프라인 매장 체크인 및 리워드",
+            "user_action_and_behavior_ko": "사용자가 매장 방문 시 스마트폰을 NFC 태그에 접촉 -> 앱이 백그라운드 또는 포그라운드에서 태그 ID를 인식해 서버로 전송 -> 서버에서 중복 체크인 방지 검증 후 즉시 포인트 지급 애니메이션과 함께 적립 완료 화면 출력.",
+            "practical_implementation_ko": "React Native의 'react-native-nfc-manager' 라이브러리 활용. 매장마다 고유 고정형 NFC 스티커(또는 QR 코드)를 배포하고, 태그 시 포함된 상점 고유 ID(Store ID)를 파싱하여 백엔드로 API 요청."
+          },
+          {
+            "feature_ko": "소상공인 직접 참여형 쿠폰 및 혜택 발행 시스템",
+            "user_action_and_behavior_ko": "점주가 관리자 웹/앱에서 쿠폰 내용(예: '아메리카노 500원 할인')과 소모 포인트를 설정해 등록 -> 사용자가 앱에서 해당 쿠폰을 포인트로 교환 -> 결제 시 점주에게 바코드를 제시하여 할인 적용.",
+            "practical_implementation_ko": "Node.js (Express) 백엔드와 Firestore를 활용해 점주 계정 권한(Owner Role)을 부여하고, 쿠폰 생성/조회/사용 처리(Scan & Redeem) API를 가볍게 구현."
+          },
+          {
+            "feature_ko": "지역 거주지 인증 및 맞춤형 소식 푸시",
+            "user_action_and_behavior_ko": "최초 가입 시 휴대폰 본인인증 및 대략적인 동(Neighborhood) 단위 거주지 설정 -> 해당 동네의 신규 상점 오픈 소식이나 타임세일 푸시 알림 수신.",
+            "practical_implementation_ko": "Firebase Cloud Messaging(FCM)과 토픽(Topic) 구독 기능을 결합하여 특정 지역 거주 사용자 그룹에게만 타겟팅 푸시 알림 발송."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "시작 및 거주지 설정 화면",
+            "contents_and_actions_ko": "앱 최초 실행 시 휴대폰 간편 본인인증 진행 후, 활동할 동네(예: 망원동, 연남동 등)를 선택하고 메인 홈으로 진입."
+          },
+          {
+            "screen_ko": "메인 홈 대시보드",
+            "contents_and_actions_ko": "사용자의 보유 포인트 잔액, 내 동네 단골 가게 목록, 주변 제휴 상점 리스트, 실시간 인기 쿠폰 배너 표시."
+          },
+          {
+            "screen_ko": "NFC/QR 태그 스캔 리워드 화면",
+            "contents_and_actions_ko": "매장 태그 인식 시 팝업 형태로 'OO상점 방문 완료! +100P 적립되었습니다'라는 성공 피드백과 함께 현재 포인트 잔액 갱신."
+          },
+          {
+            "screen_ko": "쿠폰 지갑 및 교환 화면",
+            "contents_and_actions_ko": "보유 포인트로 교환 가능한 상점별 할인 쿠폰 조회, 쿠폰 교환 버튼 클릭 시 즉시 쿠폰함에 저장 및 점주 확인용 바코드 생성."
+          }
+        ],
+        "implementation_approach_ko": "프론트엔드는 크로스플랫폼 개발이 용이한 React Native(또는 Flutter)를 선택하여 안드로이드 기기에서의 NFC 제어와 UI 구현 공수를 최소화합니다. 백엔드는 빠른 프로토타이핑을 위해 Node.js(Express)와 서버less 환경인 Firebase(Firestore, Auth, FCM)를 조합합니다. 데이터베이스는 NoSQL 구조로 유저, 상점, 포인트 로그, 쿠폰 데이터를 유연하게 관리합니다.",
+        "data_and_storage_ko": [
+          "User 객체: uid, phone_number, region_code, total_points, created_at. (Firestore 'users' 컬렉션)",
+          "Store 객체: store_id, owner_uid, name, category, nfc_tag_id, address, lat/lng. (Firestore 'stores' 컬렉션)",
+          "PointLog 객체: log_id, uid, store_id, points_earned, timestamp. (중복 적립 방지 및 이력 관리)",
+          "Coupon 객체: coupon_id, store_id, title, discount_value, point_cost, is_active. (Firestore 'coupons' 컬렉션)"
+        ],
+        "mvp_scope_ko": "복잡한 전자결제(PG) 연동이나 지자체 예산 정산 시스템은 MVP 단계에서 완전히 제외합니다. 오직 'NFC 태그를 통한 방문 포인트 적립'과 '적립된 포인트로 쿠폰 교환 후 점주에게 바코드를 보여주고 할인받는 수동 확인 방식'까지만 구현하여, 1인 개발자가 핵심 루프(방문->적립->혜택)를 빠르게 검증할 수 있도록 범위를 최소화합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 환경 설정 및 데이터 모델 정의",
+            "deliverable_and_check_ko": "React Native 프로젝트 초기화, Firebase 연동 설정, Firestore 컬렉션 구조 설계 및 기본 유저 인증 플로우 구현."
+          },
+          {
+            "stage_ko": "2단계: NFC 태그 인식 및 포인트 적립 로직 구현",
+            "deliverable_and_check_ko": "react-native-nfc-manager를 이용해 특정 NFC 태그 ID를 읽어오고, 백엔드 서버에서 해당 상점과 유저를 매칭하여 포인트를 가산하는 API 및 UI 피드백 구현."
+          },
+          {
+            "stage_ko": "3단계: 쿠폰 발행 및 사용(바코드) 화면 개발",
+            "deliverable_and_check_ko": "점주용 간이 관리자 화면(또는 웹뷰)에서 쿠폰을 등록하고, 사용자 앱에서 포인트로 쿠폰을 교환하여 바코드를 생성하는 플로우 구축."
+          },
+          {
+            "stage_ko": "4단계: 푸시 알림 및 프로토타입 통합 테스트",
+            "deliverable_and_check_ko": "FCM을 통한 동네별 푸시 알림 전송 테스트 및 전체 사용자 여정(가입->태그->적립->쿠폰 교환) 시뮬레이션 검증."
+          }
+        ],
+        "possible_extensions_ko": "핵심 경험이 안정화된 후, 지역화폐 결제 API 연동, 사용자 간 포인트 선물하기 기능, 동네 소상공인과 주민이 소통할 수 있는 간단한 소식 게시판 기능을 순차적으로 확장할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "기술 리스크: 일부 보급형 안드로이드 기기나 케이스 두께에 따른 NFC 인식률 저하 문제 -> QR 코드 스캔 방식을 백업 수단으로 반드시 동시 제공해야 함.",
+          "기획/운영 리스크: 사용자가 매장을 방문하지 않고 NFC 태그 정보를 유출하여 부정 적립(어뷰징)할 가능성 -> 위치 기반(GPS) 검증을 보조 수단으로 추가할지 여부는 추후 필드 테스트를 통해 결정.",
+          "미확정 규칙: 하루에 동일 매장에서 적립 가능한 횟수 제한(예: 1일 1회) 및 포인트 유효기간 설정에 대한 구체적 정책은 론칭 전 확정 과제로 남김."
+        ],
+        "draft_status_ko": "본 개발 설계 초안은 실제 제품 구현, 오프라인 제휴 테스트, 성능 및 보안 측정이 완료되지 않은 아이디어 단계의 설계 문서입니다."
+      },
+      "plan_at": "2026-11-18T09:18:28+09:00",
+      "plan_quota_day": "2026-11-18",
+      "plan_usage": {
+        "promptTokenCount": 2205,
+        "candidatesTokenCount": 2229,
+        "totalTokenCount": 6325,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2205
+          }
+        ],
+        "thoughtsTokenCount": 1891,
+        "serviceTier": "standard"
+      }
+    },
+    "google:jp.unext.mediaplayer": {
+      "app_key": "google:jp.unext.mediaplayer",
+      "name": "U-NEXT／ユーネクスト：映画、ドラマ、アニメなどが見放題",
+      "developer": "U-NEXT",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=jp.unext.mediaplayer&hl=ja&gl=JP",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:jp.unext.mediaplayer",
+        "product_kind": "app",
+        "original_experience_ko": "U-NEXT는 영화, 드라마, 애니메이션 등 방대한 영상 콘텐츠와 만화, 라노베, 잡지 등의 전자책을 하나의 플랫폼에서 동시에 소비할 수 있는 종합 엔터테인먼트 서비스입니다. 매월 제공되는 포인트 제도를 통한 유연한 콘텐츠 소비와 가족 계정 공유, 오프라인 다운로드 기능을 통해 사용자는 시공간 제약 없이 몰입형 미디어 라이프를 경험합니다.",
+        "source_facts_and_limitations_ko": [
+          "확인된 사실: 42만 본 이상의 영상, 133만 권 이상의 전자책, 210지 이상의 잡지를 제공하며, 월정액 2,400엔에 매월 1,200엔 상당의 포인트를 지급합니다. 최대 4인의 패밀리 계정 공유와 다운로드/오프라인 재생을 지원합니다.",
+          "미확인 사항: 대규모 영상 스트리밍 및 전자책 보안(DRM) 인프라의 아키텍처 상세 설계, 복잡한 라이선스 정산 로직, 포인트 환원 시스템의 실제 백엔드 구현 방식은 스토어 소개문만으로는 알 수 없습니다."
+        ],
+        "valuable_elements_ko": [
+          "영상(VOD)과 텍스트(도서)를 단일 앱 안에서 유기적으로 연결하여 '관람'과 '독서'의 시너지를 내는 크로스미디어 UX",
+          "다양한 미디어 포맷을 효율적으로 탐색하고 관리하는 카테고리 및 라이브러리 구조",
+          "오프라인 환경에서도 콘텐츠를 끊김 없이 즐길 수 있는 로컬 캐싱 및 다운로드 관리 방식"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "IndieVerse (인디 창작물 크로스미디어 플랫폼)",
+            "core_idea_ko": "대형 판권 중심의 VOD 서비스에서 벗어나, 독립 영화/애니메이션 크리에이터와 웹툰/독립 만화 작가들의 작품을 하나로 묶어 서포트하고 감상하는 크로스미디어 플랫폼 앱입니다.",
+            "what_to_keep_ko": "영상 감상 직후 원작 만화나 세계관 설정집을 같은 화면 흐름에서 바로 이어서 볼 수 있는 '관람-독서 융합 유저 플로우'와 오프라인 임시 저장 기능을 계승합니다.",
+            "what_to_change_ko": "거대 자본의 월정액 시스템 대신, 에피소드 단위의 마이크로 크레딧과 작가 직접 후원형 포인트 구조로 단순화하고, 타겟을 인디 창작자로 좁혀 콘텐츠 공급의 현실성을 높입니다.",
+            "mobile_use_or_play_ko": "앱 실행 -> 홈 피드에서 인디 단편 애니메이션 선택 및 시청 -> 영상 종료 직후 하단 탭을 통해 세계관이 이어지는 스핀오프 웹툰으로 자연스럽게 전환하여 독서 -> 마음에 드는 작가에게 후원 크레딧 전송.",
+            "key_features_ko": [
+              "듀얼 미디어 플레이어: 동영상 스트리밍 뷰어와 웹스크롤 텍스트 뷰어의 심리스한 전환",
+              "크리에이터 다이렉트 크레딧 시스템: 간편 결제를 통한 에피소드 해금 및 작가 후원",
+              "오프라인 캐싱 매니저: 외부 네트워크가 불안정한 환경을 위한 로컬 미디어 임시 저장 기능"
+            ],
+            "solo_mvp_and_effort_ko": "ExoPlayer 기반의 기본 비디오 스트리밍과 오픈소스 기반 스크롤 뷰어를 결합하고, Firebase Firestore를 활용해 메타데이터와 간단한 크레딧 잔액을 관리합니다. 대규모 DRM 대신 기본 로컬 파일 암호화만 적용하여 개발 부담을 낮춥니다.",
+            "strengths_limits_ko": "틈새 창작자 생태계에 소유감을 줄 수 있으나, 초기 독립 콘텐츠 공급자를 확보하는 것이 서비스 성패를 좌우하는 리스크입니다."
+          },
+          {
+            "title_ko": "CineLingo (영화·애니 기반 외국어 크로스 학습기)",
+            "core_idea_ko": "영화, 애니메이션 클립 영상과 대본(전자책 형태의 스크립트)을 동시에 연동하여 감상하며 외국어를 학습하는 실용적 크로스미디어 유틸리티 앱입니다.",
+            "what_to_keep_ko": "영상 콘텐츠와 텍스트(책)를 결합하여 깊이 있는 몰입을 유도하는 복합 미디어 탐색 및 라이브러리 구조를 계승합니다.",
+            "what_to_change_ko": "단순 오락용 종합 엔터테인먼트 소비에서 '외국어 학습'이라는 구체적 목적용 유틸리티로 전환하고, 자막-스크립트 동기화, 단어장 저장, 구간 반복 기능을 메인으로 내세웁니다.",
+            "mobile_use_or_play_ko": "외국어 영화 클립 재생 -> 모르는 대사 구간에서 일시정지 -> 화면 옆 전자책 형태의 멀티 언어 대본 스크립트에서 해당 문장을 터치하여 뜻 확인 및 단어장에 즉시 추가.",
+            "key_features_ko": [
+              "싱크 스크립트 뷰어: 동영상 타임스탬프와 전자책 대본의 실시간 매칭 및 하이라이트",
+              "개인 학습 단어장 및 노트: 영상 시청 중 수집한 텍스트와 스크린샷 자동 정리",
+              "학습용 오프라인 다운로드: 이동 중 데이터 소모 없이 반복 학습 가능한 로컬 캐시"
+            ],
+            "solo_mvp_and_effort_ko": "로컬 미디어 파일과 사전에 파싱된 JSON/EPUB 대본 데이터를 매칭하는 방식으로 서버 스트리밍 인프라 비용을 최소화합니다. Jetpack Compose를 활용해 가벼운 UI를 빠르게 구성합니다.",
+            "strengths_limits_ko": "명확한 학습 목적이 있어 타겟 유저층의 체류 시간이 길지만, 영상과 텍스트 간의 정교한 타임스탬프 동기화 데이터를 수급하거나 가공하는 작업이 까다롭습니다."
+          },
+          {
+            "title_ko": "MediaShelf (미디어 리뷰어 큐레이션 커뮤니티)",
+            "core_idea_ko": "사용자가 감상한 애니메이션/영화와 읽은 만화/도서를 하나의 '미디어 세트'로 묶어 자신만의 책장을 만들고, 짧은 코멘터리 영상과 텍스트 리뷰를 함께 공유하는 크로스미디어 큐레이션 앱입니다.",
+            "what_to_keep_ko": "영상과 도서를 아우르는 멀티 미디어 메타데이터 관리 구조 및 사용자의 취향을 반영하는 라이브러리 시스템을 계승합니다.",
+            "what_to_change_ko": "직접 스트리밍 서비스를 제공하는 대신 외부 링크나 오픈 API 기반의 작품 정보를 활용한 '리뷰 및 큐레이션' 중심의 UGC 플랫폼으로 피벗하여 대규모 서버 및 라이선스 비용 문제를 해소합니다.",
+            "mobile_use_or_play_ko": "작품 검색 -> 본인 라이브러리에 '영상'과 '원작 도서'를 세트로 등록 -> 1분 미만의 숏클립 리뷰 영상과 텍스트 한 줄평을 작성하여 커뮤니티 피드에 공유.",
+            "key_features_ko": [
+              "멀티미디어 세트 등록기: 영상과 도서를 하나의 항목으로 묶어 관리하는 데이터 구조",
+              "복합 리뷰 피드: 텍스트 후기와 숏폼 영상을 동시에 지원하는 멀티미디어 피드",
+              "나만의 큐레이션 셸프: 개인 취향에 따라 책장을 꾸미고 공유하는 프로필 기능"
+            ],
+            "solo_mvp_and_effort_ko": "오픈 API(예: TMDB, Google Books)를 활용해 작품 메타데이터를 불러오고, 로컬 카메라로 촬영한 숏클립과 텍스트를 Firebase에 저장하는 방식으로 백엔드 부담을 대폭 줄입니다.",
+            "strengths_limits_ko": "고가의 영상 스트리밍 서버 유지비가 들지 않아 1인 개발에 가장 현실적이나, 초기 사용자들의 활발한 리뷰 생성(UGC)을 유도할 동기부여 방안이 필수적입니다."
+          }
+        ],
+        "concept_comparison_ko": "1번(IndieVerse)은 창작자 생태계 구축에 초점을 맞춰 원본의 콘텐츠 소비 경험을 소규모로 재현하지만 공급 확보가 과제입니다. 2번(CineLingo)은 '영상+텍스트'의 융합을 언어 학습이라는 강력한 유틸리티로 승화시켜 실용성이 높으나 싱크 데이터 가공 부담이 큽니다. 3번(MediaShelf)은 직접 스트리밍을 배제하고 큐레이션 및 커뮤니티에 집중하여 1인 개발 난이도가 가장 낮지만 UGC 활성화 전략이 필요합니다.",
+        "recommended_concept_number": 2,
+        "why_recommended_ko": "U-NEXT의 가장 매력적인 핵심 경험인 '영상과 도서의 유기적 결합'이라는 장점을 가장 실용적이고 명확한 목적(외국어 학습)으로 재해석했기 때문입니다. 고비용의 대형 VOD 스트리밍 인프라 대신 학습용 클립과 텍스트 스크립트 조합으로 1인 모바일 개발자가 구현 가능한 현실적인 MVP 범위를 설정할 수 있으면서도, 원작 앱과의 차별화된 유용성을 확보할 수 있습니다.",
+        "next_questions_ko": [
+          "영상과 전자책 대본의 타임스탬프 싱크 데이터를 수동 또는 반자동으로 가공할 효율적인 파이프라인이 있는가?",
+          "학습 목적의 유틸리티 앱으로서 사용자가 정기적으로 앱을 찾게 만드는 리텐션 장치(예: 일일 학습 목표, 퀴즈)를 어떻게 설계할 것인가?",
+          "모바일 환경에서 동영상 재생과 텍스트 뷰어를 동시 구동할 때의 메모리 및 배터리 소모 문제를 어떻게 최적화할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-18T09:35:49+09:00",
+      "brief_quota_day": "2026-11-18",
+      "brief_usage": {
+        "promptTokenCount": 3364,
+        "candidatesTokenCount": 2429,
+        "totalTokenCount": 8181,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3364
+          }
+        ],
+        "thoughtsTokenCount": 2388,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:jp.unext.mediaplayer",
+        "product_kind": "app",
+        "selected_concept_title_ko": "CineLingo (영화·애니 기반 외국어 크로스 학습기)",
+        "project_goal_and_audience_ko": "영화를 통해 살아있는 현지 외국어를 학습하고 싶어 하는 어학 학습자와 콘텐츠 덕후 유저를 위한 모바일 앱입니다. 영상의 시청각 자극과 전자책 형식의 상세 스크립트·단어장을 동시에 활용하여, 지루한 교재 학습에서 벗어나 맥락에 맞는 표현을 효과적으로 익히는 효용을 제공합니다.",
+        "source_relation_and_difference_ko": "원본 U-NEXT의 핵심 특징인 영상과 텍스트(책)의 유기적 결합(Cross-media UX) 및 카테고리별 라이브러리 탐색 구조를 그대로 계승합니다. 차이점은 대규모 엔터테인먼트 VOD 소비 모델에서 '외국어 학습 특화 유틸리티'로 목적을 좁히고, 타임스탬프 기반 동기화 스크립트와 터치 한 번으로 이루어지는 단어장 수집 기능을 결합한 점입니다.",
+        "core_user_experience_ko": "사용자가 학습용 영상 클립을 재생하면, 화면 하단이나 측면에 배치된 전자책 형태의 다국어 스크립트가 영상 타임스탬프와 실시간으로 연동되어 하이라이트됩니다. 모르는 대사나 단어를 터치하는 순간 영상이 일시정지되거나 해당 구간이 반복되며, 단어 뜻 팝업 확인과 함께 개인 단어장에 즉시 저장됩니다.",
+        "features_ko": [
+          {
+            "feature_ko": "싱크 스크립트 뷰어",
+            "user_action_and_behavior_ko": "사용자가 영상을 시청할 때 타임스탬프와 매칭된 전자책 대본이 실시간으로 스크롤 및 하이라이트되며, 텍스트를 터치하면 해당 영상 구간으로 즉시 점프합니다.",
+            "practical_implementation_ko": "ExoPlayer(Media3)의 currentPosition을 주기적으로 감지하여, JSON으로 파싱된 대본 배열에서 일치하는 구간의 index를 찾아 UI 상태를 갱신합니다."
+          },
+          {
+            "feature_ko": "학습용 단어장 및 노트",
+            "user_action_and_behavior_ko": "영상 시청 중 수집한 문장과 단어가 정리되어 언제든 복습할 수 있으며, 문맥(컨텍스트) 정보가 함께 저장되어 기억하기 쉽습니다.",
+            "practical_implementation_ko": "Room Database를 활용해 단어, 뜻, 예문(대사), 타임스탬프, 클립 ID를 구조화하여 로컬에 안전하게 저장하고 리스트 형태로 출력합니다."
+          },
+          {
+            "feature_ko": "오프라인 로컬 캐시 재생",
+            "user_action_and_behavior_ko": "데이터 소모 걱정 없이 이동 중에도 클립과 대본을 오프라인에서 불러와 연속으로 학습할 수 있습니다.",
+            "practical_implementation_ko": "앱 내부 저장소나 앱 전용 외부 캐시 디렉토리에 샘플 MP4 파일과 대본 JSON을 다운로드하여 로컬 파일 경로로 플레이어를 초기화합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "홈 및 라이브러리 화면",
+            "contents_and_actions_ko": "학습 가능한 영화/애니메이션 클립 카드 목록을 표시하고, 사용자가 클립을 선택하면 상세 학습 화면으로 이동합니다."
+          },
+          {
+            "screen_ko": "듀얼 뷰 학습 플레이어 화면",
+            "contents_and_actions_ko": "상단에 영상 플레이어가 위치하고, 하단에 싱크 스크립트 뷰어가 배치됩니다. 텍스트 터치 시 단어장 추가 버튼 및 구간 반복 제어가 가능합니다."
+          },
+          {
+            "screen_ko": "개인 단어장 화면",
+            "contents_and_actions_ko": "저장된 단어와 예문 리스트를 확인하고, 특정 항목을 삭제하거나 상세 문맥을 다시 확인할 수 있습니다."
+          }
+        ],
+        "implementation_approach_ko": "Android 플랫폼에서 UI는 Jetpack Compose로 간결하고 반응성 있게 구축합니다. 미디어 재생은 안정적인 Jetpack Media3 (ExoPlayer)를 사용하고, 로컬 데이터 관리는 Room DB를 활용합니다. 대본 데이터는 가벼운 로컬 JSON 파일 파싱 방식을 채택하여 복잡한 서버 스트리밍 인프라 없이도 독립적인 프로토타입 구현이 가능하도록 설계합니다.",
+        "data_and_storage_ko": [
+          "ClipMetadata 객체: clip_id, title, thumbnail_url, video_file_path, script_file_path (로컬 파일 또는 에셋 참조)",
+          "ScriptLine 객체: line_id, clip_id, start_ms, end_ms, text_foreign, text_native",
+          "VocabularyItem 객체: word_id, word, meaning, context_sentence, clip_id, timestamp_ms, created_at",
+          "저장 시점 및 방법: 사용자가 단어 추가 버튼을 누르는 순간 Room DB에 Insert 쿼리를 실행하며, 앱 시작 시 클립 목록과 대본 JSON을 파싱하여 메모리에 로드."
+        ],
+        "mvp_scope_ko": "단일 또는 2~3개의 샘플 로컬 영상 파일과 사전에 작성된 타임스탬프 JSON 대본을 연동하여, 영상 재생에 따른 스크립트 하이라이트 동기화, 터치 시 단어장 저장 기능이 완결되게 작동하는 프로토타입. 실시간 스트리밍 서버나 소셜 기능 등 부가 요소는 MVP 단계에서 제외하여 1인 개발의 실현 가능성을 높입니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 환경 구축 및 듀얼 뷰 레이아웃 작성",
+            "deliverable_and_check_ko": "Jetpack Compose를 이용해 상단 영상 영역과 하단 스크립트 리스트 영역의 기본 UI 뼈대를 완성하고 레이아웃 정합성을 확인합니다."
+          },
+          {
+            "stage_ko": "2단계: 미디어 재생 및 타임스탬프 동기화 로직 구현",
+            "deliverable_and_check_ko": "ExoPlayer를 통해 로컬 영상을 재생하고, 재생 시간에 맞춰 하단 스크립트의 특정 줄이 하이라이트되는지 테스트합니다."
+          },
+          {
+            "stage_ko": "3단계: 터치 인터랙션 및 단어장 Room DB 연동",
+            "deliverable_and_check_ko": "스크립트 텍스트 터치 시 팝업이 뜨고 Room DB에 데이터가 정상적으로 저장되며, 단어장 화면에서 리스트가 표시되는지 검증합니다."
+          }
+        ],
+        "possible_extensions_ko": "추후 구간 무한 반복 모드, 발음 녹음 및 원어민 발음 비교 기능, 단어장 플래시카드(퀴즈) 복습 모드, 클라우드 기반 단어장 백업 기능 등으로 확장할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "영상 타임스탬프와 텍스트 대본의 미세한 오차 발생 가능성 (초기 단계에서는 수동 제작된 정밀 샘플 데이터로 검증 후 추후 에디터 툴 도입 검토)",
+          "상업용 영화 콘텐츠 확보의 저작권적 한계 (초기 MVP는 오픈소스 영상 및 교육용 퍼블릭 도메인 클립을 활용하여 법적 리스크 회피)",
+          "장시간 시청 시 메모리 관리 이슈 (ExoPlayer 생명주기 관리 및 리소스 해제 로직 철저히 구현 필요)"
+        ],
+        "draft_status_ko": "본 개발 설계 초안은 U-NEXT의 크로스미디어 구조를 외국어 학습용 유틸리티 앱으로 재해석한 제안이며, 실제 구현·플레이테스트 및 성능 측정이 완료되지 않은 상태입니다."
+      },
+      "plan_at": "2026-11-18T09:36:05+09:00",
+      "plan_quota_day": "2026-11-18",
+      "plan_usage": {
+        "promptTokenCount": 4137,
+        "candidatesTokenCount": 1930,
+        "totalTokenCount": 8013,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4137
+          }
+        ],
+        "thoughtsTokenCount": 1946,
+        "serviceTier": "standard"
+      }
+    },
+    "google:jp.yugi.lunalabyrinth.prod": {
+      "app_key": "google:jp.yugi.lunalabyrinth.prod",
+      "name": "ルナと忘却の迷宮",
+      "developer": "YUGI GAMES",
+      "source": "google",
+      "kind": "game",
+      "detail_url": "https://play.google.com/store/apps/details?id=jp.yugi.lunalabyrinth.prod&hl=ja&gl=JP",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:jp.yugi.lunalabyrinth.prod",
+        "product_kind": "game",
+        "original_experience_ko": "원작 '루나와 망각의 미궁'은 카드 기반 자원 관리와 그리드 이동형 턴제 전투가 결합된 정통 던전 탐험 로그라이크 RPG입니다. 플레이어는 마법사 루나가 되어 매번 무작위로 생성되는 미궁을 탐험하며, 마법·도구·장비 등 모든 상호작용이 '카드'라는 단일 인터페이스로 이루어지는 높은 전략적 긴장감을 경험합니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 확인 사실: 150종 이상의 카드, 60종 이상의 몬스터(Lv1~5 상위종 존재), 99층 규모의 미궁, 턴제 그리드 이동, 사망 시 아이템 전면 소실(로스) 규칙, 귀환 및 창고 보관 시스템, 분신 파견 및 랭킹 기능이 존재함.",
+          "미확인 사항 및 한계: 구체적인 맵 생성 알고리즘(RNG), 카드 밸런싱 수치, 실시간 서버 연동 구조, 구체적인 인앱 결제(IAP) 상품 구성 등은 스토어 텍스트만으로는 검증할 수 없음."
+        ],
+        "valuable_elements_ko": [
+          "모든 행동과 아이템을 '카드'로 통일하여 모바일 UI에서 복잡도를 낮추고 직관적인 자원 관리의 재미를 확보한 점.",
+          "플레이어의 한 걸음 이동에 맞춰 적도 한 걸음 움직이는 턴제 그리드 구조로 깊이 있는 사고와 전술적 판단을 유도하는 점.",
+          "'지금 안전하게 귀환할 것인가, 위험을 무릅쓰고 더 깊이 내려갈 것인가'의 이진 선택이 주는 강렬한 리스크/리턴 루프."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "타임라인 카드 택틱스: 크로노 그리드",
+            "core_idea_ko": "전통적인 1:1 순차 턴제 이동 방식에서 벗어나, 적의 이동 경로와 공격 범위가 시각화되는 타임라인 위에서 여러 장의 카드를 조합해 한 번에 액션을 예약·실행하는 전술적 카드 로그라이크.",
+            "what_to_keep_ko": "미궁 탐험의 구조, 마법·도구의 소모성 카드 시스템, 층별 보스 및 위험 마스 사전 경고 구조를 그대로 계승합니다.",
+            "what_to_change_ko": "단순 순차 턴제를 타임라인 예약 시스템으로 변경하여, 적의 예고된 궤도를 읽고 내 카드들의 실행 순서(우선순위)를 배치하는 프로그래밍형 턴제 전투로 규칙을 실질적으로 개선합니다.",
+            "mobile_use_or_play_ko": "플레이어가 화면 하단의 카드 3장을 상단 타임라인 슬롯에 드래그하여 배치한 뒤 '턴 실행' 버튼을 누르면, 캐릭터와 적의 액션이 시퀀스대로 동시 재생되며 결과를 피드백받습니다.",
+            "key_features_ko": [
+              "타임라인 카드 시퀀스 예약 시스템",
+              "적의 공격 범위 예고 및 회피 기동 퍼즐",
+              "소모성 카드를 분해해 재활용하는 현장 벤치"
+            ],
+            "solo_mvp_and_effort_ko": "2D 그리드 렌더러와 JSON 기반 카드 데이터 구조를 활용하며, 복잡한 실시간 물리 엔진 대신 턴 단위 배열 연산으로 구현하여 1인 개발 시 로직 부하를 낮추고 완성도를 높입니다.",
+            "strengths_limits_ko": "전략적 깊이가 높아 로그라이크 팬에게 강한 몰입감을 주나, 카드 예약 규칙이 직관성을 해칠 수 있어 초기 진입 장벽 관리가 필수적입니다."
+          },
+          {
+            "title_ko": "유령 릴레이 미궁: 遗物の残響 (유물의 잔향)",
+            "core_idea_ko": "사망 시 모든 것을 잃는 가혹한 페널티를 완화하는 대신, 사망 지점에 남겨진 유령 상자와 잔여 덱 데이터가 다른 플레이어의 미궁에 무작위로 등장하여 상호작용하는 비동기 소셜 로그라이크.",
+            "what_to_keep_ko": "무작위 생성되는 미궁 구조, 카드 소모형 자원 관리, 위험을 감수하고 깊이 내려가는 파밍 루프를 계승합니다.",
+            "what_to_change_ko": "완전 고립된 싱글 플레이에서 벗어나, 타인의 실패 데이터(유령)를 발견해 강력한 보상이나 특수 카드를 획득하는 비동기 소셜 레이어를 도입합니다.",
+            "mobile_use_or_play_ko": "미궁 탐험 중 다른 유저가 사망한 타일에 도달하면, 해당 유저의 잔여 덱을 활용한 미니 보스 전투가 발생하며 승리 시 희귀 카드를 획득합니다.",
+            "key_features_ko": [
+              "비동기 유령 탐사 및 묘비 상호작용",
+              "타인의 덱 데이터 기반 미니 보스 생성",
+              "귀환 시 공유 창고 네트워크"
+            ],
+            "solo_mvp_and_effort_ko": "대규모 멀티플레이 서버 없이, 가벼운 REST API 또는 BaaS(파이어베이스 등)를 활용해 사망 유저의 카드 구성 데이터만 JSON으로 주고받는 방식으로 MVP 구현이 가능합니다.",
+            "strengths_limits_ko": "플레이어 간 연결 고리가 생겨 리플레이성이 높아지나, 초기 유저 풀이 적을 때 비동기 콘텐츠가 작동하지 않는 공백기 문제가 존재합니다."
+          },
+          {
+            "title_ko": "에너지 회수형 미궁: 디스먼틀 그리드",
+            "core_idea_ko": "카드가 일회용으로 소모되어 사라지는 스트레스를 줄이고, 사용한 카드의 파편을 모아 새로운 카드를 현장에서 즉석 제작(조립)하는 크래프팅 중심의 카드 로그라이크.",
+            "what_to_keep_ko": "그리드 미궁, 턴제 이동, 미식별 카드의 두근거림, 만복도 및 상태 이상 시스템을 계승합니다.",
+            "what_to_change_ko": "카드의 영구 소모로 인한 고갈 스트레스를 해소하고, 자원을 분해하고 조합하는 '필드 현장 제작' 메커니즘을 도입하여 덱 운영의 유연성을 높입니다.",
+            "mobile_use_or_play_ko": "소모된 카드가 '폐기물 슬롯'에 누적되며, 이를 일정 수 이상 모아 현장 제작 테이블에서 새로운 무작위 카드로 변환한 뒤 다음 층으로 진행합니다.",
+            "key_features_ko": [
+              "카드 분해 및 현장 실시간 제작 벤치",
+              "미식별 카드 역설계 시스템",
+              "소모품 관리와 제작의 밸런스 루프"
+            ],
+            "solo_mvp_and_effort_ko": "로컬 상태 관리만으로 완결되므로 서버 비용이 들지 않으며, 카드 조합식 데이터 테이블 관리만 철저히 하면 1인 개발자가 안정적으로 완성할 수 있습니다.",
+            "strengths_limits_ko": "파밍과 조합의 재미가 확실하지만, 조합 공식 암기나 인벤토리 관리 복잡도가 높아져 모바일 UI/UX 설계가 다소 까다로워집니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 기획(타임라인 카드 택틱스)은 액션의 전술적 깊이를 극대화한 반면 직관성이 다소 떨어질 수 있고, 두 번째 기획(유령 릴레이)은 소셜 재미를 더하지만 서버 연동 및 초기 유저 데이터 확보의 리스크가 있습니다. 세 번째 기획(에너지 회수 및 카드 제작)은 싱글플레이 완성도를 유지하면서 자원 고갈 스트레스를 완화하는 가장 현실적이고 안정적인 구조를 제공합니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "'타임라인 카드 택틱스: 크로노 그리드'는 원본의 핵심인 '턴제 그리드 이동'과 '카드 소모 전략'의 뼈대를 고스란히 유지하면서도, 단순한 1:1 순차 턴제에서 벗어나 '예약 시퀀스'라는 참신한 규칙을 결합했습니다. 모바일 환경에서 터치 한 번으로 복잡한 수를 두는 재미를 주며, 멀티플레이 서버 구축의 부담 없이 완벽한 싱글플레이 모바일 게임으로 1인 개발자가 구현하기에 구조가 가장 명확합니다.",
+        "next_questions_ko": [
+          "카드 예약 시각화 UI가 모바일의 작은 화면에서 3장 이상의 시퀀스를 직관적으로 보여주기에 충분한 공간을 확보할 수 있는가?",
+          "적의 공격 범위 예고 시스템이 턴제 퍼즐의 긴장감을 높이는지, 아니면 연산의 피로감을 가중시키는지 프로토타입을 통해 검증해야 함.",
+          "카드가 소모될 때의 시각적 타격감과 카드 파괴 연출이 모바일 사용자에게 충분한 보상감과 도파민을 제공하는가?"
+        ]
+      },
+      "brief_at": "2026-11-18T09:36:27+09:00",
+      "brief_quota_day": "2026-11-18",
+      "brief_usage": {
+        "promptTokenCount": 2232,
+        "candidatesTokenCount": 2231,
+        "totalTokenCount": 8072,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2232
+          }
+        ],
+        "thoughtsTokenCount": 3609,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:jp.yugi.lunalabyrinth.prod",
+        "product_kind": "game",
+        "selected_concept_title_ko": "타임라인 카드 택틱스: 크로노 그리드",
+        "project_goal_and_audience_ko": "전통적인 턴제 로그라이크의 깊이 있는 자원 관리와 카드 전술에 매력을 느끼면서도, 한 턴씩 주고받는 단조로움에서 벗어나 입체적인 '행동 예약'과 '시퀀스 설계'의 재미를 추구하는 모바일 RPG 게이머를 위한 싱글플레이 던전 탐험 게임입니다.",
+        "source_relation_and_difference_ko": "유지한 핵심 경험: 매번 무작위로 생성되는 그리드 미궁 구조, 마법·장비·회복 수단을 모두 '소모성 카드'로 통일하여 자원 압박을 주는 시스템, 그리고 위험 마스 사전 경고 및 하이리스크·하이리턴의 귀환 구조. 새로운 개선 요소: 기존의 1:1 순차 턴제 이동을 탈피하고, 적의 이동 궤도와 공격 범위 예고를 바탕으로 플레이어가 여러 장의 카드를 타임라인 슬롯에 순서대로 예약하여 동시 처리하는 프로그래밍형 전술 전투 시스템 도입.",
+        "core_user_experience_ko": "플레이어는 미궁의 그리드 위에서 적의 다음 행동 예측선을 확인합니다. 화면 하단에 주어진 핸드(카드) 중 이동, 공격, 방어 카드를 골라 상단의 타임라인 슬롯(예: 3칸)에 순서대로 드래그하여 배치합니다. '턴 실행' 버튼을 누르면 타임라인 순서에 따라 플레이어의 예약 행동과 적의 행동이 맞물려 애니메이션으로 시퀀스 재생되며, 적의 공격을 회피하면서 카드로 제압하거나 방어에 성공했을 때 강한 쾌감을 얻습니다.",
+        "features_ko": [
+          {
+            "feature_ko": "타임라인 카드 시퀀스 예약 시스템",
+            "user_action_and_behavior_ko": "플레이어가 핸드 카드를 턴 내 순서별 타임라인 슬롯에 배치해 행동 순서를 프로그래밍하듯 결정하고 실행합니다.",
+            "practical_implementation_ko": "배열(Array) 기반의 액션 스택 구조를 활용해 플레이어 입력 순서를 저장하고, 턴 실행 시 인덱스 순서대로 순회하며 캐릭터 상태를 갱신하는 턴 처리 매니저 스크립트를 작성합니다."
+          },
+          {
+            "feature_ko": "적 공격 범위 예고 및 회피 퍼즐",
+            "user_action_and_behavior_ko": "몬스터가 다음 턴에 공격할 그리드 칸이 미리 빨간색 영역으로 표시되어, 이동 카드를 타임라인 중간에 섞어 적의 공격을 회피합니다.",
+            "practical_implementation_ko": "몬스터 AI가 다음 턴 이동 좌표를 계산해 전파하고, 렌더러가 해당 타일 색상을 변경하는 데이터 바인딩 로직을 구현합니다."
+          },
+          {
+            "feature_ko": "현장 벤치 및 카드 분해·재활용 시스템",
+            "user_action_and_behavior_ko": "탐험 중 소모된 카드를 보충하기 위해 불필요한 카드를 분해해 자원으로 바꾸거나 새로운 카드로 조합합니다.",
+            "practical_implementation_ko": "인벤토리 내 카드 ID 목록을 기반으로 수치 계산 후 자원 재화로 변환하는 간단한 UI 창과 메서드를 구현합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "미궁 탐험 및 전술 전투 메인 화면",
+            "contents_and_actions_ko": "상단에 층수 정보와 미니맵, 중앙에 2D 그리드 던전 맵 및 몬스터/플레이어 스프라이트, 하단에 보유 핸드 카드 및 타임라인 슬롯, '턴 실행' 버튼 배치. 카드를 타임라인에 드래그 앤 드롭하고 턴 실행."
+          },
+          {
+            "screen_ko": "카드 인벤토리 및 덱 관리 화면",
+            "contents_and_actions_ko": "현재 보유한 소모성 카드 목록 조회, 덱 구성 확인, 사용하지 않는 카드 분해 작업 수행."
+          },
+          {
+            "screen_ko": "귀환 및 결과 정산 화면",
+            "contents_and_actions_ko": "미궁 탈출(귀환 카드 사용) 시 획득한 카드와 재화 정산, 사망 시 모든 카드 소실 안내 및 로비 복귀."
+          }
+        ],
+        "implementation_approach_ko": "모바일 환경에서의 가벼운 구동과 2D 그리드/카드 UI 최적화를 위해 Unity 엔진(C#)을 채택합니다. 턴제 로직과 카드 데이터는 JSON 구조로 파싱하여 관리하고, 복잡한 실시간 물리 연산 없이 그리드 좌표 기반의 정수 계산으로 처리하여 발열과 배터리 소모를 최소화합니다.",
+        "data_and_storage_ko": [
+          "PlayerStats 객체: 현재 체력, 최대 체력, 층수, 보유 자원, 장착 덱 목록 (JSON 파일로 매 층 이동 시 자동 저장).",
+          "CardData 객체: 카드 고유 ID, 이름, 타입(공격/이동/방어/특수), 소모값, 효과 수치, 설명 텍스트 (정적 JSON 데이터베이스로 관리).",
+          "DungeonMap 객체: 현재 층의 그리드 크기, 벽/통로/아이템/몬스터 배치 좌표 정보를 담은 2차원 배열 데이터.",
+          "저장 및 복구 시점: 플레이어가 방을 이동하거나 턴을 종료할 때, 그리고 앱이 백그라운드 진입 시 자동 저장(Auto-Save)하며, 사망 시 세이브 파일을 삭제하여 로그라이크의 영구 사망 규칙을 강제함."
+        ],
+        "mvp_scope_ko": "총 5층으로 구성된 짧은 미궁 던전, 기본 카드 15종(이동 3종, 공격 5종, 방어 4종, 특수/귀환 3종), 3종의 몬스터와 단순한 타임라인 3슬롯 시스템만 구현합니다. 랭킹 시스템, 분신 파견, 99층 확장 및 복잡한 상태 이상은 MVP에서 제외합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 코어 그리드 및 이동 로직",
+            "deliverable_and_check_ko": "2D 그리드 맵 생성 및 플레이어의 터치 이동 기본 처리. 에뮬레이터에서 캐릭터가 그리드 칸을 정확히 이동하는지 확인."
+          },
+          {
+            "stage_ko": "2단계: 타임라인 카드 예약 시스템 구현",
+            "deliverable_and_check_ko": "하단 핸드 카드를 상단 타임라인 슬롯으로 드래그 앤 드롭하고, '턴 실행' 시 순서대로 액션이 처리되는지 디버그 로그 및 애니메이션으로 확인."
+          },
+          {
+            "stage_ko": "3단계: 몬스터 AI 및 예고 범위 표시",
+            "deliverable_and_check_ko": "몬스터가 플레이어 위치를 향해 이동하고 다음 턴 공격 범위를 타일에 표시하는 로직 구현. 플레이어 카드로 회피 및 반격이 정상 작동하는지 테스트."
+          },
+          {
+            "stage_ko": "4단계: 로그라이크 세이브/로드 및 귀환/사망 루프",
+            "deliverable_and_check_ko": "층 클리어 시 저장, 사망 시 데이터 초기화 및 귀환 카드 사용 시 로비 정산 기능 완성. 전체 플레이 사이클 검증."
+          }
+        ],
+        "possible_extensions_ko": "99층 확장 및 층별 특수 환경(어둠, 독 마스 등), 다양한 상태 이상 카드의 추가, 몬스터 상위 종(Lv1~5) 도입, 주간 챌린지 랭킹 보드 등.",
+        "risks_and_open_decisions_ko": [
+          "타임라인 예약 시스템이 플레이어에게 너무 복잡하게 느껴질 수 있으므로, 초기 튜토리얼 단계에서 1슬롯부터 점진적으로 해제하는 방안을 결정 과제로 둔다.",
+          "원작의 방대한 카드 수(150종 이상)를 1인 개발 시 모두 구현하기 어려우므로, 핵심 카드 20여 종의 상호작용 조합 검증을 우선시한다.",
+          "본 설계는 실제 플레이테스트나 성능 측정이 완료되지 않은 개발 설계 초안이다."
+        ],
+        "draft_status_ko": "본 문서는 '타임라인 카드 택틱스: 크로노 그리드' 기획을 바탕으로 작성된 1인 모바일 개발 설계 초안이며, 실제 구현 및 플레이테스트, 최적화 과정은 추후 개발 단계에서 검증되어야 합니다."
+      },
+      "plan_at": "2026-11-18T09:36:44+09:00",
+      "plan_quota_day": "2026-11-18",
+      "plan_usage": {
+        "promptTokenCount": 3002,
+        "candidatesTokenCount": 2124,
+        "totalTokenCount": 7951,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3002
+          }
+        ],
+        "thoughtsTokenCount": 2825,
+        "serviceTier": "standard"
+      }
+    },
+    "google:kr.go.nts.android": {
+      "app_key": "google:kr.go.nts.android",
+      "name": "국세청 홈택스 [손택스]",
+      "developer": "National Tax Service, Korea",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=kr.go.nts.android&hl=ko&gl=KR",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:kr.go.nts.android",
+        "product_kind": "app",
+        "original_experience_ko": "국세청 홈택스 [손택스]는 모바일 환경에서 사용자가 세무 조회, 민원 증명 발급, 세금 신고·납부, 장려금 신청 등 공공 세무 행정 업무를 처리할 수 있도록 지원하는 공공 서비스 앱입니다. (근거: 스토어 소개문 / 해석: 복잡하고 방대한 공공 세무 데이터를 모바일 화면과 지문 로그인 등의 간편 인터페이스로 가공하여 국민의 행정 접근성을 대폭 높였습니다.)",
+        "source_facts_and_limitations_ko": [
+          "스토어 사실: 사업자등록 상태 조회, 전자세금계산서 발급, 연말정산간소화 자료 조회, 민원증명 즉시 발급, 근로·자녀장려금 신청, 부가가치세 및 종합소득세 간편 신고·납부 기능이 제공됨.",
+          "스토어 사실: 지문 인증 간편 로그인, My메뉴 커스텀, 글자크기 조절 등 모바일 맞춤형 접근성 기능이 포함됨.",
+          "한계: 공공 API 연동 규격, 보안 아키텍처, 백엔드 서버 구조, 실제 민감 데이터 처리 방식은 스토어 소개문만으로 파악할 수 없음."
+        ],
+        "valuable_elements_ko": [
+          "복잡하고 어려운 공공/세무 데이터를 사용자가 목적별(조회, 발급, 신고, 납부)로 쉽게 찾을 수 있는 직관적인 정보 아키텍처(IA)",
+          "지문 인증 및 개인화(My메뉴)를 통해 모바일 환경에서 반복적인 인증 피로도를 줄인 편의성",
+          "장려금 신청, 연말정산 등 시기에 맞춰 사용자가 세무 일정을 놓치지 않도록 이끄는 유도 흐름"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "프리랜서·N잡러를 위한 실시간 세금 방어구 'TaxGuard'",
+            "core_idea_ko": "프리랜서와 1인 크리에이터가 수입이 발생할 때마다 예상 종합소득세와 부가세를 자동 계산하고, 세금 납부용 계좌로 분리 저축을 유도하여 연말 '세금 폭탄'을 사전에 방지하는 모바일 세무 코칭 앱.",
+            "what_to_keep_ko": "손택스의 '예상세액 계산하기' 및 세무 신고 안내 흐름을 계승하여, 세금 계산의 진입 장벽을 낮추고 개인이 자신의 세액을 직관적으로 파악할 수 있게 함.",
+            "what_to_change_ko": "정부 신고에만 머무르지 않고, 수입 정산 시점에 실시간으로 세액을 시뮬레이션하고 자동 저축 가이드를 연결하는 능동적 자금 방어 기능으로 확장.",
+            "mobile_use_or_play_ko": "사용자가 플랫폼 정산 내역이나 수기 입력을 통해 수입을 입력하면, 앱이 간이세액을 즉시 산출해 '종소세 대비용으로 X원을 별도 저축하세요'라는 푸시 알림을 보내고 저축 목표액을 갱신함.",
+            "key_features_ko": [
+              "실시간 예상 종합소득세 및 3.3% 환급 시뮬레이터",
+              "세금 납부용 자동 분리 저축 가이드 및 목표 관리",
+              "종소세 신고 기간 리마인더 및 가설계서 리포트 생성"
+            ],
+            "solo_mvp_and_effort_ko": "오프라인 세무 계산 로직(단순경비율·기준경비율 계산식)을 탑재한 로컬 앱 형태로 MVP를 구현하며, 실제 은행 계좌 오픈뱅킹 연동 대신 수동 입력 및 로컬 푸시 알림 위주로 개발해 서버 및 보안 부담을 최소화.",
+            "strengths_limits_ko": "장점은 프리랜서들의 고충을 정확히 파고드는 높은 실용성이지만, 약점은 실제 국세청 API를 연동하지 못하므로 세법 개정이나 경비율 변경 시 앱 내 로직을 수동으로 업데이트해야 하는 유지보수 부담이 있음."
+          },
+          {
+            "title_ko": "소상공인 매출·매입 원클릭 대사 및 세무사 협업 'BizSync'",
+            "core_idea_ko": "소상공인이 배달앱, 카드 매출, 현금영수증 내역을 한눈에 모아보고, 매입 부가가치세를 자동 집계한 뒤 제휴 세무사에게 원클릭으로 자료를 전달하는 소상공인 장부-세무 협업 앱.",
+            "what_to_keep_ko": "손택스의 '사업자등록 상태 조회', '전자세금계산서 발급', '부가가치세 간편신고' 경험을 계승하여 소상공인의 세무 증빙 및 관리 흐름을 유지.",
+            "what_to_change_ko": "정부 사이트 접속 없이 민간 오픈스크래핑 등을 활용해 흩어진 매출/매입 데이터를 실시간 통합 대시보드로 구성하고, 세무 대리인과의 소통 창구를 앱 내에 내장.",
+            "mobile_use_or_play_ko": "앱 실행 시 인증서 연동을 통해 전날 발생한 카드 매출과 세금계산서 매입 내역이 대시보드에 자동 갱신되며, '이번 주 예상 부가세' 카드를 터치해 세무사에게 검토 요청을 전송.",
+            "key_features_ko": [
+              "매출/매입 데이터 자동 스크래핑 대시보드",
+              "부가가치세 및 예상 납부액 실시간 집계",
+              "세무 대리인 원클릭 자료 전송 및 코멘트 챗"
+            ],
+            "solo_mvp_and_effort_ko": "오픈스크래핑 라이브러리 연동과 보안 인증 이슈가 크므로, 초기 MVP는 사용자가 엑셀이나 수기로 입력한 데이터를 기반으로 부가세를 시뮬레이션하고 간편 장부를 제공하는 형태로 제한.",
+            "strengths_limits_ko": "장점은 소상공인의 세무 피로도를 대폭 낮추지만, 약점은 스크래핑 API 연동을 위한 법적/기술적 허들과 보안 인증 유지 비용이 1인 개발하기에 매우 높음."
+          },
+          {
+            "title_ko": "직장인 스마트 연말정산 코치 'Deduct-Up'",
+            "core_idea_ko": "직장인이 매월 지출하는 신용카드, 대출이자, 청약저축 등 소득공제 항목을 기록하고 시뮬레이션하여, 연말정산 환급금을 극대화하기 위한 맞춤형 소비 전략을 제안하는 앱.",
+            "what_to_keep_ko": "손택스의 '연말정산간소화 자료조회' 및 '공제신고서' 작성 흐름을 계승하여, 공제 항목과 계산 구조를 일반 사용자가 이해하기 쉽게 시각화.",
+            "what_to_change_ko": "연말에 몰아서 확인하는 연말정산 구조를 뒤집어, 일 년 내내 월별 소비 패턴을 분석하고 '지금 주택청약에 추가 납입하면 소득공제 구간이 바뀝니다' 같은 실시간 코칭을 제공.",
+            "mobile_use_or_play_ko": "사용자가 연봉과 월별 지출액을 입력하면, 현재 예상 환급금과 함께 부족한 공제 한도 항목을 그래프로 확인하고 추천 금융 상품(연금저축 등) 가이드를 탐색.",
+            "key_features_ko": [
+              "월별 소득공제 누적 시뮬레이터",
+              "공제 한도 부족 항목 실시간 경고 및 알림",
+              "연말정산 시나리오 비교 리포트"
+            ],
+            "solo_mvp_and_effort_ko": "마이데이터 연동 대신 매년 초 국세청 연말정산간소화 PDF를 사용자가 업로드하면 텍스트를 파싱하여 분석해주는 로컬 파싱 엔진 기반 MVP로 구현하여 외부 API 연동 부담을 회피.",
+            "strengths_limits_ko": "장점은 직장인들의 연말정산 관심 시기에 폭발적인 유입을 기대할 수 있으나, 약점은 연말정산 시즌(1~2월) 외에는 사용 빈도가 급감한다는 리텐션의 한계가 있음."
+          }
+        ],
+        "concept_comparison_ko": "제안된 세 가지 아이디어는 모두 세무/행정이라는 원본의 뼈대를 공유하지만 타겟층과 해결 과제가 다릅니다. 1번(TaxGuard)은 프리랜서를 타겟으로 '예상 세액 저축'에 집중하여 개발 난이도를 낮춘 반면, 2번(BizSync)은 소상공인 장부 연동으로 실용성이 높으나 스크래핑 보안 부담이 큽니다. 3번(Deduct-Up)은 직장인 연말정산에 특화하여 시즌성이 강하지만 PDF 파싱을 통해 1인 개발 가능성을 높였습니다. 세 앱 모두 원본의 복잡한 세무 계산을 친화적인 모바일 경험으로 바꾼다는 공통점을 가집니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "1번('프리랜서·N잡러를 위한 실시간 세금 방어구 TaxGuard')을 추천합니다. 원본 손택스의 '예상세액 계산' 및 '신고 안내' 경험을 가장 잘 계승하면서도, 복잡한 공공 API 연동이나 민간 스크래핑 보안 이슈를 우회하여 1인 개발자가 오프라인 계산 로직과 로컬 알림만으로 MVP를 구축할 수 있는 현실적인 타협점이 있습니다. 프리랜서 및 N잡러 인구의 증가라는 시장 흐름과도 잘 맞닿아 있습니다.",
+        "next_questions_ko": [
+          "프리랜서 종합소득세 단순경비율 및 기준경비율 계산 로직을 정확히 구현하기 위해 세무 데이터 규칙을 어디까지 자동화할 것인가?",
+          "오픈뱅킹이나 마이데이터 API 없이 수동 입력 위주의 앱이 사용자에게 지속적인 리텐션을 제공할 수 있는 핵심 동기는 무엇인가?",
+          "세법 개정에 따른 세율 및 경비율 변경 사항을 앱 내 하드코딩이 아닌 서버리스 방식으로 유연하게 업데이트할 수 있는 구조인가?"
+        ]
+      },
+      "brief_at": "2026-11-18T09:48:27+09:00",
+      "brief_quota_day": "2026-11-18",
+      "brief_usage": {
+        "promptTokenCount": 1935,
+        "candidatesTokenCount": 2491,
+        "totalTokenCount": 7383,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1935
+          }
+        ],
+        "thoughtsTokenCount": 2957,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:kr.go.nts.android",
+        "product_kind": "app",
+        "selected_concept_title_ko": "프리랜서·N잡러를 위한 실시간 세금 방어구 'TaxGuard'",
+        "project_goal_and_audience_ko": "소득이 불규칙하여 매년 5월 종합소득세 신고 시기마다 '세금 폭탄'을 맞거나 납부 재원마련에 어려움을 겪는 프리랜서, 유튜버, N잡러를 위한 모바일 세무 코칭 및 자금 방어 앱. 수입이 발생할 때마다 예상 세액을 자동으로 시뮬레이션하고 세금 납부용 계좌로의 분리 저축을 유도하여 재무적 안정성을 제공합니다.",
+        "source_relation_and_difference_ko": "원본 손택스의 '예상세액 계산하기' 및 세무 일정 안내 흐름을 계승하여 복잡한 세무 계산의 진입 장벽을 낮추었으나, 정부에 신고하는 사후 처리 기능에 머무르지 않고 '수입 발생 즉시 예상 세액을 계산하고 저축을 코칭하는 능동적 자금 방어 기능'으로 발전시켰습니다.",
+        "core_user_experience_ko": "사용자가 앱을 통해 건별 또는 월별 수입 금액과 프리랜서 유형(3.3% 원천징수 등)을 입력하면, 앱 내 탑재된 간이 세율 및 경비율 로직을 통해 즉시 예상 종합소득세와 지방소득세가 산출됩니다. 이어 '이번 수입 중 10%인 O원을 세금 전용 계좌에 저축하세요'라는 실시간 가이드와 함께 전체 방어율 게이지가 갱신되어 직관적인 자금 관리가 가능합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "실시간 예상 종합소득세 및 환급/납부 시뮬레이터",
+            "user_action_and_behavior_ko": "사용자가 수입 발생 시 금액과 카테고리를 입력하면, 시스템이 연간 누적 소득을 추정하여 소득세율 구간별 예상 세액과 3.3% 기납부 세액과의 차액을 즉시 계산하여 화면에 표시합니다.",
+            "practical_implementation_ko": "오프라인에서 작동하는 Dart/Kotlin 기반의 간이세율 계산 모듈을 구현하여, 서버 통신 없이도 즉각적인 연산 결과와 소득 구간별 가이드를 제공합니다."
+          },
+          {
+            "feature_ko": "세금 납부용 자동 분리 저축 가이드 및 목표 관리",
+            "user_action_and_behavior_ko": "예상 세액을 바탕으로 수입 건당 일정 비율(예: 8~10%)을 세금 저축 목표액으로 설정하고, 사용자가 수동으로 저축 완료 여부를 체크하거나 로컬 알림을 통해 저축을 유도받습니다.",
+            "practical_implementation_ko": "로컬 SQLite/Room DB에 저축 목표와 누적 저축액 데이터를 저장하고, 목표 달성률에 따른 시각적 UI(방어구 게이지) 변화를 구현합니다."
+          },
+          {
+            "feature_ko": "종소세 신고 기간 리마인더 및 요약 리포트",
+            "user_action_and_behavior_ko": "다가오는 종합소득세 및 부가가치세 신고 일정을 D-Day 카운트다운으로 보여주고, 연간 수입 내역을 5월 신고용 데이터 포맷으로 요약해 줍니다.",
+            "practical_implementation_ko": "로컬 푸시 알림(Local Notifications) 스케줄러를 활용해 주요 세무 일정에 맞춰 리마인더를 발송하고, 누적 데이터를 CSV 또는 텍스트 형태로 클립보드에 복사하는 기능을 제공합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "홈 대시보드",
+            "contents_and_actions_ko": "현재까지의 연간 누적 수입, 예상 종합소득세, 세금 방어율 게이지, '수입 추가' 및 '저축하기' 빠른 실행 버튼 제공."
+          },
+          {
+            "screen_ko": "수입 입력 모달/화면",
+            "contents_and_actions_ko": "수입 금액, 발생 일자, 카테고리(디자인, 개발, 콘텐츠 등), 메모를 입력하고 저장하면 대시보드 수치와 예상 세액이 즉시 재계산됨."
+          },
+          {
+            "screen_ko": "세무 시뮬레이션 상세 뷰",
+            "contents_and_actions_ko": "단순경비율 적용 시 예상 세액, 필요경비 추정치, 3.3% 원천징수 환급/추가 납부 예상액을 상세 내역으로 확인."
+          },
+          {
+            "screen_ko": "세무 일정 및 리마인더 설정",
+            "contents_and_actions_ko": "주요 세무 신고 일정(5월 종소세 등) 확인 및 알림 수신 여부 토글 설정."
+          }
+        ],
+        "implementation_approach_ko": "크로스플랫폼 프레임워크인 Flutter를 활용해 Android 환경을 우선 타겟팅하여 개발합니다. 복잡한 공공 API 연동이나 민간 스크래핑 보안 이슈를 완전히 배제하고, 모든 세무 계산 로직을 클라이언트 내부에 독립된 순수 함수 클래스로 구현하여 안정성과 즉답성을 높입니다. 로컬 데이터 영속성을 위해 Sqflite를 사용합니다.",
+        "data_and_storage_ko": [
+          "IncomeRecord 객체: id(PK), date, amount, category, memo (사용자가 수입을 추가할 때마다 생성 및 로컬 DB 저장)",
+          "TaxProfile 객체: user_type(프리랜서 등), default_saving_rate(기본 저축 비율, 예: 10%), target_year (사용자 설정값 저장)",
+          "SavingsLog 객체: id, date, saved_amount, linked_income_id (분리 저축 기록 관리)"
+        ],
+        "mvp_scope_ko": "오픈뱅킹 연동이나 자동 수입 수집 같은 복잡한 기능은 전면 배제하고, 1) 수동 수입 입력 및 CRUD, 2) 3.3% 프리랜서 기준 단순경비율 간이 세액 계산기, 3) 로컬 저축 목표 관리 대시보드까지만 구현하여 1인 개발자가 핵심 가치를 빠르게 검증할 수 있도록 합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 환경 설정 및 로컬 DB 구축",
+            "deliverable_and_check_ko": "Flutter 프로젝트 초기화 및 Sqflite를 이용한 수입 내역(IncomeRecord) CRUD 기능 구현 및 테스트."
+          },
+          {
+            "stage_ko": "2단계: 세무 계산 로직 및 대시보드 UI 구현",
+            "deliverable_and_check_ko": "단순경비율 기반 예상 종소세 계산 알고리즘 작성 후, 대시보드에서 입력된 수입에 따라 세액과 방어율 게이지가 실시간으로 렌더링되는지 확인."
+          },
+          {
+            "stage_ko": "3단계: 저축 목표 관리 및 로컬 푸시 알림 연동",
+            "deliverable_and_check_ko": "세금 저축 기록 기능 추가 및 세무 일정 D-Day 로컬 푸시 알림 스케줄링 작동 검증."
+          },
+          {
+            "stage_ko": "4단계: UI/UX 다듬기 및 MVP 안정화",
+            "deliverable_and_check_ko": "예외 입력 처리(음수, 빈 값 등) 방어 코드 작성 및 모바일 기기에서의 레이아웃 최종 점검."
+          }
+        ],
+        "possible_extensions_ko": "향후 마이데이터 및 오픈뱅킹 API를 연동하여 카드 매출이나 통장 입금 내역을 자동으로 수집하고, 제휴 세무사 매칭 또는 간편 전자신고 가이드 웹뷰 연동으로 확장 가능.",
+        "risks_and_open_decisions_ko": [
+          "매년 개정되는 세법 및 소득세율/경비율 변동을 앱 업데이트 없이 어떻게 동적으로 반영할지 결정 필요 (원격 Config 서버 도입 검토)",
+          "사용자가 수입을 수기 입력해야 하므로 지속적인 앱 체류 및 기록 유인(사용자 리텐션)을 높이는 게이미피케이션 요소 보완 필요",
+          "본 설계는 실제 세무 법적 자문이나 국세청 공식 인증을 거치지 않은 시뮬레이션 목적의 초안임"
+        ],
+        "draft_status_ko": "본 개발 설계 초안은 실제 구현, 법적 검증, 사용자 테스트가 완료되지 않은 기획 단계의 문서입니다."
+      },
+      "plan_at": "2026-11-18T09:48:44+09:00",
+      "plan_quota_day": "2026-11-18",
+      "plan_usage": {
+        "promptTokenCount": 2770,
+        "candidatesTokenCount": 2093,
+        "totalTokenCount": 6753,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2770
+          }
+        ],
+        "thoughtsTokenCount": 1890,
+        "serviceTier": "standard"
+      }
+    },
+    "google:leyi.ageofspirits": {
+      "app_key": "google:leyi.ageofspirits",
+      "name": "Age of Spirits",
+      "developer": "LeyiGames",
+      "source": "google",
+      "kind": "game",
+      "detail_url": "https://play.google.com/store/apps/details?id=leyi.ageofspirits&hl=en&gl=US",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:leyi.ageofspirits",
+        "product_kind": "game",
+        "original_experience_ko": "스토어 소개문에 근거할 때, 원작은 원시 시대 부족의 최고 지도자가 되어 중앙의 '화로'를 중심으로 생존, 자원 생산, 부족민 업무 할당, 영웅 탐험(턴제 전투), 그리고 월드 맵 확장과 동맹 플레이를 수행하는 전략 게임입니다. AI 해석에 따르면 화로를 중심에 둔 상징적 테마가 특징이나, 대규모 MMORTS 구조는 1인 개발 시 구현 난이도가 매우 높을 것으로 추정됩니다.",
+        "source_facts_and_limitations_ko": [
+          "팩트: 화로 중심의 정착지 건설, 야생 야만인을 영입해 마을 주민으로 각성시키는 업무 할당 시스템, 영웅 소환 및 턴제 전투 기반 탐험, 월드 맵 자원지 점령 및 동맹 시스템이 명시되어 있습니다.",
+          "한계: 구체적인 전투 로직, 자원 수급 공식, 멀티플레이어 서버 구조나 결제 시스템의 상세 내용은 스토어 정보만으로는 확인할 수 없습니다."
+        ],
+        "valuable_elements_ko": [
+          "중앙 '화로'라는 물리적·상징적 거점을 통해 부족의 생존과 성장을 직관적으로 체감하게 하는 테마적 몰입감.",
+          "생존자(야만인)를 영입해 생산과 의식에 배치하고 자원 루프를 굴리는 자원 관리의 재미.",
+          "정착지 건설과 영웅을 파견하는 탐험/전투 루프의 결합 구조."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "화로의 파수꾼: 잿더미 왕국",
+            "core_idea_ko": "대규모 MMO 월드 맵과 동맹 시스템을 과감히 배제하고, 혹독한 기후와 야생의 위협 속에서 단 하나의 화로와 부족을 지켜내는 싱글플레이어 기반의 로그라이크 생존·전략 게임으로 재해석합니다.",
+            "what_to_keep_ko": "중앙 화로를 중심으로 한 생존 테마, 부족민의 노동력 할당 루프, 그리고 영웅을 파견하는 탐험·전투 시스템을 계승합니다.",
+            "what_to_change_ko": "실시간 MMORTS의 복잡한 서버/동맹 구조를 제거하고, 매 세션마다 무작위로 발생하는 재난(혹한, 괴물 습격)을 막아내는 절차적 생성 기반의 로그라이크 생존 루프와 단기 세션 구조로 개편합니다.",
+            "mobile_use_or_play_ko": "앱 실행 후 부족민의 피로도와 화로의 연료 상태를 확인하고 당일 업무(채집, 사냥, 의식)를 배정한 뒤, 영웅 파티를 3분 가량의 짧은 전술 탐험 스테이지에 보내 자원을 획득하고 밤이 오기 전 화로를 업그레이드합니다.",
+            "key_features_ko": [
+              "화로 온도 및 연료(자원) 관리 시스템",
+              "무작위 위기 및 선택지 카드 이벤트",
+              "부족민 자동 업무 배정 및 효율 최적화",
+              "턴제 전술 전투가 포함된 단기 탐험 스테이지"
+            ],
+            "solo_mvp_and_effort_ko": "2D 탑뷰 또는 격자형 UI 기반의 매니지먼트 구조로 구현하며, 별도의 MMORPG 서버 없이 로컬 세이브 및 클라우드 백업만으로 개발 가능해 1인 개발자에게 현실적인 범위입니다.",
+            "strengths_limits_ko": "장점은 명확한 게임 루프와 1인 개발 가능성입니다. 약점은 멀티플레이어 요소가 없어 장기적인 커뮤니티 바이럴 효과가 떨어진다는 점입니다."
+          },
+          {
+            "title_ko": "태고의 속삭임: 의식과 선택",
+            "core_idea_ko": "시각적 3D/2D 대형 애니메이션 대신, 카드 덱 빌딩과 텍스트/이벤트 기반의 내러티브 선택지를 결합하여 부족의 신(영혼)의 시점에서 정착지를 운영하는 전략 시뮬레이션 게임입니다.",
+            "what_to_keep_ko": "플레이어가 직접 창을 들지 않고 '위에서 지시하고 의식을 주관하는 영적 지도자'라는 독창적인 시점과 테마를 계승합니다.",
+            "what_to_change_ko": "복잡한 실시간 필드 행군과 턴제 전투 엔진을 걷어내고, 자원 관리와 위기 대처를 카드 드로우 및 분기형 내러티브 이벤트 체인으로 대체하여 개발 리소스를 대폭 절감합니다.",
+            "mobile_use_or_play_ko": "부족의 상태 창을 확인한 후 의식 카드와 노동 카드를 드래그하여 부족민에게 부여하고, 야생에서 발생한 돌발 사건(예: 굶주린 맹수 조우)에 대응할 영웅 카드를 배치해 판정 결과를 확인합니다.",
+            "key_features_ko": [
+              "의식 및 노동 자원 할당 카드 시스템",
+              "부족의 운명을 결정하는 분기형 내러티브 이벤트",
+              "영웅 장비와 특성을 조합하는 미니 덱 빌딩",
+              "정착지 영토 확장형 타일 배치"
+            ],
+            "solo_mvp_and_effort_ko": "UI와 2D 일러스트, 텍스트 데이터 중심의 구조이므로 그래픽 제작 부담이 적고 유니티나 고도 엔진으로 1인이 충분히 완성할 수 있습니다.",
+            "strengths_limits_ko": "장점은 강력한 몰입형 분위기와 낮은 개발 비용입니다. 약점은 텍스트 반복성이 높을 경우 유저 피로도가 쉽게 쌓일 수 있다는 점입니다."
+          },
+          {
+            "title_ko": "토템의 길: 야생의 개척자",
+            "core_idea_ko": "대규모 실시간 MMO의 부담을 피하면서도 협동과 경쟁의 재미를 살리기 위해, 비동기식 멀티플레이어 레이드와 지역 토템 방어를 결합한 격자 기반의 타일 전략 게임입니다.",
+            "what_to_keep_ko": "정착지 건설, 영역 확장, 그리고 다른 세력과의 상호작용이라는 원작의 거시적 확장 재미를 계승합니다.",
+            "what_to_change_ko": "실시간 대규모 행군과 동맹 전투 대신, 친구나 타인의 '유령 부족 기지'를 비동기식으로 약탈하거나 공유된 월드 토템을 함께 방어하는 협동 디펜스 규칙으로 변경합니다.",
+            "mobile_use_or_play_ko": "접속 시 오프라인 동안 토템에서 생산된 자원을 회수하고, 방어 시설 배치나 영웅 장비를 정비한 뒤, 다른 유저의 기지 배치 데이터를 불러와 비동기 약탈 전투를 수행하고 결과를 공유합니다.",
+            "key_features_ko": [
+              "원소 토템 중심의 그리드 기반 방어 배치",
+              "비동기식 유저 기지 약탈 및 방어 시스템",
+              "시즌제 부족 기술 연구 트리",
+              "공유 지역 방어를 위한 비동기 협동 레이드"
+            ],
+            "solo_mvp_and_effort_ko": "Firebase 등 BaaS를 활용해 비동기 데이터만 동기화하므로 풀 리얼타임 서버 개발보다 난이도가 낮지만, 밸런스 조정과 데이터 검증에 일정 수준의 공수가 필요합니다.",
+            "strengths_limits_ko": "장점은 MMO의 재미 요소를 가볍게 구현하면서 소셜 요소를 남긴 점입니다. 약점은 비동기 매칭 시스템의 백엔드 연동 오류 및 악용 방지 처리가 까다롭다는 점입니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어(화로의 파수꾼)는 싱글 로그라이크 생존에 집중해 1인 개발 완성도가 가장 높고 코어 루프가 명확합니다. 두 번째 아이디어(태고의 속삭임)는 카드·텍스트 기반으로 그래픽 리소스를 최소화하여 인디 개발에 최적화되어 있으나 텍스트 볼륨 확보가 과제입니다. 세 번째 아이디어(토템의 길)는 비동기 소셜 요소를 제공하지만 백엔드 연동으로 인해 앞선 두 안보다 개발 공수가 큽니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "'화로의 파수꾼: 잿더미 왕국'은 원작의 핵심인 '화로 중심의 생존'과 '부족민 노동 할당'이라는 매력적인 테마를 온전히 살리면서도, 1인 개발의 최대 장벽인 대규모 MMORTS 서버 구조와 복잡한 월드 맵 시스템을 걷어냈습니다. 모바일 환경에서 직관적인 숏폼 루프로 소화하기 가장 적합하며, 현실적인 1인 개발 MVP 범위를 만족합니다.",
+        "next_questions_ko": [
+          "화로 연료 소모와 부족민 생존이라는 수치가 유저에게 압박감 대신 전략적 재미로 작용하도록 밸런스를 어떻게 설계할 것인가?",
+          "단기 탐험 전투(턴제)의 조작 단계를 모바일 화면에서 얼마나 간소화할 것인가?",
+          "로컬 저장 외에 클라우드 세이브(Firebase 등) 도입 시 어느 정도의 범위를 초기 MVP에 포함할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-18T09:53:47+09:00",
+      "brief_quota_day": "2026-11-18",
+      "brief_usage": {
+        "promptTokenCount": 1990,
+        "candidatesTokenCount": 2276,
+        "totalTokenCount": 6313,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1990
+          }
+        ],
+        "thoughtsTokenCount": 2047,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:leyi.ageofspirits",
+        "product_kind": "game",
+        "selected_concept_title_ko": "화로의 파수꾼: 잿더미 왕국",
+        "project_goal_and_audience_ko": "혹독한 원시 생존 테마와 경영 전략을 모바일 환경에서 직관적이고 몰입감 있게 즐기고 싶은 싱글플레이어 게임 유저를 대상으로 합니다. 대규모 멀티플레이의 피로감 없이, 단 하나의 중앙 화로를 지키며 부족민을 관리하고 짧은 탐험과 위기 관리의 재미를 느끼는 것을 목표로 합니다.",
+        "source_relation_and_difference_ko": "원작의 핵심 경험인 '중앙 화로를 거점으로 한 생존 테마', '부족민 노동력 할당 루프', '영웅 파견 탐험 시스템'은 온전히 계승합니다. 반면, 복잡하고 진입장벽이 높은 실시간 MMORTS 월드맵과 서버 기반 동맹 시스템을 과감히 제거하여 싱글플레이어 로그라이크 생존 루프로 압축·개선했습니다.",
+        "core_user_experience_ko": "사용자는 아침마다 부족민의 피로도와 화로의 연료(나무/뼈) 잔량을 확인하고 채집, 사냥, 의식 등의 업무에 인력을 배치합니다. 낮에는 영웅 파티를 짧은 전술 탐험 스테이지로 보내 자원을 확보하고, 해가 지기 전 화로에 연료를 보충해 밤의 혹한과 괴물 습격을 방어하며 생존 일수를 늘려나갑니다.",
+        "features_ko": [
+          {
+            "feature_ko": "화로 온도 및 연료 관리 시스템",
+            "user_action_and_behavior_ko": "사용자는 자원을 소모해 화로에 연료를 투입합니다. 화로 온도가 유지되면 부족민 생존과 사기가 유지되지만, 연료가 바닥나면 혹한으로 인해 부족민이 이탈하거나 사망하는 위기 상태가 발생합니다.",
+            "practical_implementation_ko": "실시간 타이머 또는 턴 경과에 따라 화로 연료 수치가 감소하는 로직을 구현하고, UI 프로그레스바로 시각화합니다."
+          },
+          {
+            "feature_ko": "부족민 업무 할당 매니지먼트",
+            "user_action_and_behavior_ko": "미지의 야만인을 영입해 부족민으로 각성시키고, 목재 채집, 식량 사냥, 화로 수호 등의 일터에 드래그 앤 드롭 또는 터치로 배치하여 자원 생산 루프를 돌립니다.",
+            "practical_implementation_ko": "부족민 객체에 숙련도와 피로도 스탯을 부여하고, 매 영업 주기(Day 종료 시점)마다 배치된 업무에 따라 자원이 가감되는 데이터 구조를 설계합니다."
+          },
+          {
+            "feature_ko": "단기 턴제 전술 탐험 스테이지",
+            "user_action_and_behavior_ko": "소수의 영웅 파티를 구성해 미지의 야생 지역으로 탐험을 떠납니다. 턴제 방식으로 적과 조우해 전투를 치르고 승리 시 희귀 자원과 장비 재화를 획득합니다.",
+            "practical_implementation_ko": "2D 타일 기반의 간소화된 턴제 전투 루프를 구현하며, 행동력(AP)과 기본 스킬 사용 구조로 모바일 터치 조작에 맞게 최적화합니다."
+          },
+          {
+            "feature_ko": "무작위 위기 및 선택지 카드 이벤트",
+            "user_action_and_behavior_ko": "매일 아침 또는 탐험 중 불확실한 날씨 변화, 방랑자 방문, 야생 괴물 습격 등의 이벤트 카드가 등장하며, 사용자의 선택에 따라 자원이 소모되거나 이득을 얻습니다.",
+            "practical_implementation_ko": "JSON 기반의 이벤트 데이터 테이블을 구축하고, 조건에 따라 무작위로 카드가 드로우되도록 구현합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 정착지 화면",
+            "contents_and_actions_ko": "화면 중앙에 불타는 화로가 표시되며, 주변에 부족민들의 일터와 정착지 건물이 배치됩니다. 화로 연료 잔량, 식량, 자원 수량, 현재 생존 일수가 상단에 고정 표시되며, 각 건물과 부족민을 터치해 상세 상태를 확인하고 업무를 변경할 수 있습니다."
+          },
+          {
+            "screen_ko": "탐험 파견 및 전투 화면",
+            "contents_and_actions_ko": "탐험할 지역을 선택한 뒤 영웅 파티(최대 3명)를 편성합니다. 진입 시 탑뷰 또는 2D 그리드 환경에서 턴제 방식으로 적과의 전투가 진행되며, 공격/방어/스킬 버튼을 조작하여 적을 제압합니다."
+          },
+          {
+            "screen_ko": "야간 결산 및 이벤트 화면",
+            "contents_and_actions_ko": "하루의 활동이 끝나고 밤이 찾아오면 화로 연료 소모량 결산, 부족민 생존 여부 확인, 무작위 위기 이벤트 카드가 팝업되어 다음 날의 생존 방향을 결정합니다."
+          }
+        ],
+        "implementation_approach_ko": "모바일 크로스플랫폼과 2D UI/전투 구현에 유리한 Unity(C#) 또는 Godot Engine을 활용합니다. 싱글플레이어 구조이므로 복잡한 멀티플레이어 서버 구축 없이 로컬 데이터 저장 위주로 개발하여 1인 개발의 기술적 부담을 대폭 낮춥니다.",
+        "data_and_storage_ko": [
+          "GameState 객체: 현재 생존 일수, 화로 연료 잔량, 보유 식량 및 자재 수량.",
+          "Villager 객체 목록: 부족민 ID, 이름, 상태(휴식/노동), 숙련도, 피로도, 배치된 일터 정보.",
+          "Hero 객체 목록: 영웅 ID, 레벨, 체력, 장착 중인 장비 정보.",
+          "저장 및 복구 방식: 앱 일시 정지(OnApplicationPause) 시점 및 야간 결산 완료 시점에 전체 게임 상태를 JSON 포맷으로 직렬화하여 모바일 로컬 경로(Application.persistentDataPath)에 안전하게 저장."
+        ],
+        "mvp_scope_ko": "첫 번째 MVP는 화로 연료 관리 시스템, 3종의 기본 업무(채집/사냥/의식)에 대한 부족민 배치, 텍스트 기반 위기 이벤트 카드 10종, 그리고 1개 지역의 단순 턴제 전투 탐험 스테이지만 포함합니다. 복잡한 영웅 전직이나 대규모 건물 트리는 제외하여 1인 개발자가 핵심 루프를 빠르게 검증할 수 있도록 합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 코어 루프 및 UI 프로토타입",
+            "deliverable_and_check_ko": "메인 정착지 UI 제작, 화로 연료 감소 타이머 및 기본 자원(식량, 목재) 수급 루프 구현. 프로토타입 실행 시 시간이 지남에 따라 연료가 줄어들고 자원이 증감하는지 확인."
+          },
+          {
+            "stage_ko": "2단계: 부족민 매니지먼트 시스템",
+            "deliverable_and_check_ko": "부족민 영입 및 일터 배치 UI 구현. 프로토타입에서 부족민을 일터에 배치했을 때 자원 생산량이 달라지고 야간 결산 시 화로 연료가 소모되는지 확인."
+          },
+          {
+            "stage_ko": "3단계: 턴제 탐험 및 전투 구현",
+            "deliverable_and_check_ko": "영웅 파견 및 2D 턴제 전투 스테이지 구현. 프로토타입에서 영웅을 보내 전투를 승리하고 보상 자원을 획득하여 정착지로 돌아오는 흐름 확인."
+          },
+          {
+            "stage_ko": "4단계: 로그라이크 이벤트 및 로컬 세이브",
+            "deliverable_and_check_ko": "무작위 위기 이벤트 카드 시스템 및 JSON 로컬 세이브/로드 기능 구현. 앱을 껐다 켰을 때 게임 상태가 정상적으로 복구되는지 확인."
+          }
+        ],
+        "possible_extensions_ko": "핵심 생존 루프가 안정화된 이후, 영웅 장비 제작 및 강화 시스템, 계절 변화에 따른 특수 기후 재난, 다양한 특성을 지닌 특수 부족민 영입 이벤트, 로컬 하이스코어 및 업적 시스템을 확장할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "모바일 화면에서 다수의 부족민을 배치하고 관리하는 UI가 복잡해질 위험이 있어, 간소화된 슬롯형 배치 UI로 개선 방안 검토 필요.",
+          "턴제 전투의 피로도가 생존 경영의 템포를 해칠 수 있으므로 전투 진행 속도 조절 기능(배속 등) 검토.",
+          "자원 수급과 화로 연료 소모량 간의 밸런스는 플레이테스트를 통해 추후 확정 필요."
+        ],
+        "draft_status_ko": "본 문서는 실제 구현 및 플레이테스트, 성능 측정이 완료되지 않은 1인 모바일 게임 개발 설계 초안입니다."
+      },
+      "plan_at": "2026-11-18T09:54:03+09:00",
+      "plan_quota_day": "2026-11-18",
+      "plan_usage": {
+        "promptTokenCount": 2771,
+        "candidatesTokenCount": 2226,
+        "totalTokenCount": 6927,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2771
+          }
+        ],
+        "thoughtsTokenCount": 1930,
+        "serviceTier": "standard"
+      }
     }
   }
 }

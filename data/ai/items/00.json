@@ -11428,6 +11428,187 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-17"
+    },
+    "google:com.kubaru.mikkelive": {
+      "app_key": "google:com.kubaru.mikkelive",
+      "name": "mikke LIVE ミッケライブ-ライブ配信・生配信",
+      "developer": "KUBARU Japan CO.,LTD",
+      "source": "google",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.kubaru.mikkelive&hl=ja&gl=JP",
+      "data_date": "2026-11-18",
+      "analysed_at": "2026-11-18T08:09:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ライブ配信アプリ！24時間配信中 3秒で今日の推しが見つかる！ mikke LIVE（ミッケライブ）は、推しのライバーを応援できる基本無料のライブ配信・生配信アプリです。お気に入りの配信者（ライバー）を見つけて、配信の外でも深くつながろう！ 雑談配信から本格的なパフォーマンスまで、たくさんの配信者があなたを待っています。 ◆ mikke LIVE（ミッケライブ）の特徴 【豪華なギフト演出】 投げ銭で推しを応援！ 画面いっぱいに広がる豪華なギフト演出。投げ銭ギフトで推しを応援すれば、配信が最高に盛り上がり、ライバーとの距離もぐっと近づきます。 【ガチ対戦バトル】 ハラハラ痛快のリアルタイム対戦！ 複数の配信者が同時に競い合う熱い対戦バトル。あなたの応援が勝ち負けを左右する、白熱のリアルタイム対戦を一緒に楽しめます。 【ファンクラブ】推しとファンの限定グループチャット 配信者のファンクラブに参加して、超近距離の交流！配信者とはもちろん、同じ推しを持つファン（リスナー）仲間とも、いつでも楽しく話せます。 【広場でつながる】配信の外でも日常をシェア ライブ配信の時間外でも、広場の投稿やタイムラインで近況をシェア。共通の趣味や、同じ「推し」を持つ大切な仲間と出会える場所です。 【あなたもライバーに】スマホ1つで匿名配信スタート！ 面倒な機材は一切不要、スマホ1つで今すぐ配信を始められます。実名は不要で、匿名のまま安心して利用可能。ファンとつながって、応援される喜びを体験しよう！ ◆ 公式SNSアカウント ■ TikTok https://www.tiktok.com/@mikkelive_official ■ X（旧Twitter） https://x.com/mikkeLIVE ■ Instagram https://www.instagram.com/mikke__live/ ■ LINE公式アカウント https://lin.ee/qK9TcCW",
+      "analysis": {
+        "app_key": "google:com.kubaru.mikkelive",
+        "summary_ko": "이 앱은 실시간 라이브 방송을 시청하고 라이버와 소통할 수 있는 플랫폼입니다. 사용자는 좋아하는 라이버에게 선물을 보내 응원하거나, 팬클럽에 가입하여 더 깊은 교류를 할 수 있습니다. 또한 누구나 스마트폰 하나로 쉽게 라이브 방송을 시작할 수 있습니다.",
+        "features_ko": [
+          "24시간 실시간 라이브 방송을 시청하고 소통할 수 있습니다.",
+          "라이버에게 가상 선물을 보내 응원하는 기능을 제공합니다.",
+          "라이버와 팬들이 교류하는 팬클럽 그룹 채팅을 지원합니다.",
+          "라이버 간의 실시간 대결 배틀 기능을 통해 재미를 더합니다.",
+          "스마트폰만으로 누구나 쉽게 익명으로 방송을 시작할 수 있습니다."
+        ],
+        "noteworthy_ko": "실시간 스트리밍 기술과 인터랙티브한 선물 시스템의 결합이 핵심입니다. 라이버와 팬 사이의 커뮤니티 기능을 강화하여 플랫폼 체류 시간을 늘리는 전략이 돋보입니다.",
+        "development_ko": "저지연 스트리밍 기술(WebRTC 등) 구현이 가장 큰 난관입니다. 실시간 채팅과 선물 데이터 동기화, 그리고 대규모 트래픽을 처리할 수 있는 서버 인프라 구축이 필수적입니다.",
+        "idea_ko": "방송 중 시청자가 참여할 수 있는 실시간 미니 게임 기능.",
+        "highlights_ko": [
+          "라이브 방송과 팬 커뮤니티 기능을 통합하여 소통을 극대화합니다.",
+          "실시간 대결 배틀 시스템으로 시청자의 참여를 유도합니다."
+        ],
+        "systems_ko": [
+          "실시간 스트리밍(WebRTC) 모듈",
+          "실시간 채팅 및 메시지 시스템",
+          "가상 선물 및 결제 시스템",
+          "사용자 프로필 및 팬클럽 관리",
+          "실시간 대결 매칭 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 영상 전송은 매우 높은 기술적 난도를 요구하며, 서버 비용과 트래픽 관리 부담이 큽니다. 또한 실시간 인터랙션의 동기화는 개인 개발자가 구현하기에 매우 복잡합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "방송 시청 기능",
+            "채팅 기능",
+            "기본 프로필 관리"
+          ],
+          "defer": [
+            "실시간 선물 결제 시스템",
+            "라이버 대결 배틀"
+          ],
+          "risks": [
+            "스트리밍 서버 비용 부담",
+            "부적절한 방송 콘텐츠 관리"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "방송 테마 투표",
+            "concept": "시청자들이 다음 방송 주제를 투표로 결정하여 라이버와 소통합니다.",
+            "first_step": "간단한 투표 기능을 채팅창에 구현합니다."
+          },
+          {
+            "title": "라이버 응원 메시지 보드",
+            "concept": "방송이 종료된 후에도 시청자가 응원 메시지를 남길 수 있는 게시판입니다.",
+            "first_step": "게시글 작성 및 조회 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "실시간 통신 기술과 대규모 데이터 처리에 관심 있는 개발자에게 추천합니다. 다만, 스트리밍 서비스는 인프라 비용이 크므로 소규모 테스트부터 시작하세요.",
+        "source_limitations_ko": "스트리밍 서버의 구체적인 구현 방식이나 결제 시스템의 보안은 확인되지 않았습니다. 의료나 금융 기능은 없으나, 결제 및 콘텐츠 관리 정책은 반드시 검토해야 합니다.",
+        "name": "mikke LIVE ミッケライブ-ライブ配信・生配信",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.kubaru.mikkelive&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 76,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-18"
+    },
+    "apple:1475514684": {
+      "app_key": "apple:1475514684",
+      "name": "Bubble Cash",
+      "developer": "Papaya Gaming",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/us/app/bubble-cash/id1475514684?uo=2",
+      "data_date": "2026-11-18",
+      "analysed_at": "2026-11-18T08:10:47+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Forget the ordinary games. Here you play for something bigger, where winning the game actually matters. Are you ready to play for real? Are you ready to take your Bubble Shooter skills to the next level and get a chance to win real money? Bubble Cash® is the top classic bubble shooter game for your iPhone and iPad, giving you an exciting and rewarding experience. With colorful graphics and intuitive controls, you can put your bubble shooting skills to the test while competing with others against the clock in order to maximize your score. The more bubbles you pop, the higher your chances of winning! As you progress through levels, prizes become bigger and better - up to $500! So don’t miss out on this amazing opportunity - download Bubble Cash® today and start shooting for real money! Compete Against Other Players and Win Big with Bubble Cash®! Are you a puzzle enthusiast? Do you have a competitive spirit? If so, then Bubble Cash® is the perfect game for you. In this fun bubble game, players compete against each other in popping and blasting all the bubbles on the board. With a modern look that mixes perfectly into the retro classic bubble shooter feel, Bubble Cash® provides hours of entertainment and gives players a chance to win big! Let’s take a closer look at what makes this game so enjoyable. Bubble Cash® is an exciting multiplayer game that brings out everyone’s skills. All users receive the same layout, and it's up to the players to figure out how to pop all their bubbles in the quickest time. The excitement doesn't stop there; all players compete for a chance to be among the top-3 rankings, where they will win big prizes! It's a fun, challenging way to prove your strategic and tactical abilities as you aim, match, and pop away all of your balls. Join Bubble Cash® today for an exciting multiplayer game experience. How To Play - Match 3 Bubbles from the same color to pop & blast them away and clear the board. - Tap on the screen to drag & aim the laser-aim and lift your finger to release the ball - simple as that! EXPLORE THIS FUN FEATURES - Real-money tournaments - No Ads - Secure deposit using PayPal & Apple Pay - Cash-out securely using PayPal - Collect awesome daily bonuses - Classic Bubble Shooter game - When you finish color, it won't appear again. - Multiplayer tournaments with trophies and real cash prizes - Addictive gameplay you’ll want to play for hours! - Leaderboard & challenging achievements - Play for free as long as you want without any disturbing ads - Play anytime and anywhere, an internet connection is required. So get ready, clear the board quickly before others do and win Real-Money Prizes! Bubble Cash® is FREE to download and play. Note that in IA Cash tournaments are not available, and in AZ, LA and ME, all tournaments are played solely for Bonus Cash LIKE us on Facebook https://www.facebook.com/bubblecash If you have any questions don’t hesitate to reach us at support@papayagaming.com Download and play the best and most exciting Bubble Cash® game on iOS NOW",
+      "analysis": {
+        "app_key": "apple:1475514684",
+        "summary_ko": "Bubble Cash는 클래식 버블 슈터 게임에 멀티플레이어 토너먼트 요소를 결합한 게임입니다. 사용자는 같은 색상의 버블을 3개 이상 맞춰 제거하며 제한 시간 내에 높은 점수를 획득해야 합니다. 상위 랭킹에 진입하여 보상을 얻는 경쟁적인 게임 경험을 제공합니다.",
+        "features_ko": [
+          "같은 색상의 버블 3개를 맞춰 터뜨리는 클래식 버블 슈터 규칙을 따릅니다.",
+          "화면을 터치하여 조준하고 발사하는 직관적인 조작 방식을 제공합니다.",
+          "멀티플레이어 토너먼트를 통해 다른 플레이어와 실력을 겨룰 수 있습니다.",
+          "모든 플레이어에게 동일한 게임 레이아웃이 제공되어 공정한 경쟁을 유도합니다.",
+          "리더보드와 업적 시스템을 통해 성취감을 제공합니다."
+        ],
+        "noteworthy_ko": "단순한 퍼즐 게임에 멀티플레이어 경쟁과 보상 시스템을 결합하여 몰입도를 높인 점이 흥미롭습니다. 동일한 레이아웃을 제공하여 실력 기반의 경쟁을 유도하는 설계는 공정성 측면에서 주목할 만합니다.",
+        "development_ko": "버블의 물리적 배치와 충돌 판정, 그리고 실시간 점수 계산 로직이 핵심입니다. 멀티플레이어 환경을 위한 서버 동기화와 공정한 매칭 시스템 구현이 필요하며, 다양한 기기에서의 최적화가 중요합니다.",
+        "idea_ko": "개인 개발자에게는 보상 시스템을 제외한 순수 실력 기반의 버블 슈터 게임 구현이 적합합니다.",
+        "highlights_ko": [
+          "클래식한 버블 슈터와 멀티플레이어 경쟁의 결합.",
+          "공정한 경쟁을 위한 동일 레이아웃 제공 시스템."
+        ],
+        "systems_ko": [
+          "버블 물리 엔진 및 충돌 판정",
+          "게임 상태 관리 시스템",
+          "멀티플레이어 매칭 시스템",
+          "점수 계산 및 리더보드 시스템",
+          "UI/UX 애니메이션 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "버블 슈터의 핵심 메커니즘은 구현이 명확하지만, 멀티플레이어 동기화와 공정한 매칭 시스템은 기술적 난이도가 있습니다. 보상 시스템을 제외하면 1인 개발로 충분히 구현 가능한 범위입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "버블 발사 및 매칭 로직",
+            "게임 보드 생성 알고리즘",
+            "점수 시스템"
+          ],
+          "defer": [
+            "실시간 멀티플레이어 매칭",
+            "현금 보상 시스템",
+            "서버 기반 리더보드"
+          ],
+          "risks": [
+            "물리 엔진의 버그 발생",
+            "게임 밸런스 조정의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "타임어택 버블 팝",
+            "concept": "제한 시간 내에 최대한 많은 버블을 터뜨리는 싱글 플레이어 게임입니다. 콤보를 쌓을수록 점수가 배가됩니다.",
+            "first_step": "버블 매칭 로직 및 타이머 기능 구현."
+          },
+          {
+            "title": "퍼즐 모드 버블 슈터",
+            "concept": "제한된 발사 횟수로 특정 모양의 버블을 모두 제거하는 퍼즐 중심의 게임입니다.",
+            "first_step": "레벨 디자인 및 발사 횟수 제한 로직 구현."
+          }
+        ],
+        "recommendation_ko": "게임의 핵심 메커니즘인 물리 엔진과 충돌 판정을 학습하기에 매우 좋습니다. 멀티플레이어 기능은 복잡하므로 싱글 플레이어 모드부터 완성하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 현금 보상 시스템의 구체적인 운영 방식이나 보안 처리에 대한 정보가 없습니다. 실제 개발 시에는 도박 관련 법규와 앱 스토어 정책을 반드시 확인해야 합니다.",
+        "name": "Bubble Cash",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/bubble-cash/id1475514684?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 99,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-18"
     }
   }
 }

@@ -11493,6 +11493,182 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-17"
+    },
+    "itch:8747cc6892db29f5ca45": {
+      "app_key": "itch:8747cc6892db29f5ca45",
+      "name": "Il Pulcino Libero [Free] [Platformer]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://ricky807.itch.io/il-pulcino-libero",
+      "data_date": "2026-11-18",
+      "analysed_at": "2026-11-18T08:06:39+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "The Free Chick: a little chick escapes the henhouse to discover the world. A gentle, goofy platformer for phone and PC.",
+      "analysis": {
+        "app_key": "itch:8747cc6892db29f5ca45",
+        "summary_ko": "Il Pulcino Libero는 양계장을 탈출하여 세상을 탐험하는 병아리의 모험을 다룬 플랫폼 게임입니다. 모바일과 PC 모두에서 즐길 수 있는 가볍고 유쾌한 분위기의 게임입니다.",
+        "features_ko": [
+          "병아리를 조작하여 다양한 지형을 이동합니다.",
+          "양계장을 탈출하여 새로운 장소를 탐험합니다.",
+          "모바일과 PC 환경을 모두 지원하는 플랫폼 게임입니다."
+        ],
+        "noteworthy_ko": "가볍고 유쾌한 분위기를 플랫폼 게임으로 구현한 점이 흥미롭습니다. 다양한 플랫폼을 지원하기 위한 입력 처리와 해상도 대응 방식이 개발 관점에서 중요합니다.",
+        "development_ko": "핵심 기술은 2D 캐릭터 이동 및 충돌 처리입니다. 레벨 디자인과 캐릭터 애니메이션 제작에 많은 시간이 소요되며, 다양한 기기에서의 입력 최적화가 필요합니다.",
+        "idea_ko": "병아리가 주변 환경의 사물을 이용해 이동하는 퍼즐 요소를 추가하는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "병아리라는 귀여운 캐릭터를 활용한 탐험.",
+          "모바일과 PC를 아우르는 범용적인 플랫폼 게임."
+        ],
+        "systems_ko": [
+          "캐릭터 이동 및 물리 엔진",
+          "레벨 맵 로딩 시스템",
+          "입력 처리(터치/키보드)",
+          "카메라 팔로우 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "플랫폼 게임의 기본 물리 구현은 어렵지 않으나, 레벨 디자인과 다양한 기기 대응을 위한 최적화 과정이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 점프",
+            "기본 타일맵 레벨",
+            "충돌 감지"
+          ],
+          "defer": [
+            "복잡한 적 AI",
+            "다양한 캐릭터 스킨"
+          ],
+          "risks": [
+            "조작감의 불일치",
+            "레벨 디자인의 단조로움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "환경 상호작용",
+            "concept": "병아리가 특정 사물을 밀거나 밟고 올라가서 이동합니다. 단순 점프를 넘어선 퍼즐적 요소를 가미합니다.",
+            "first_step": "물리 오브젝트를 밀 수 있는 상호작용 로직 구현."
+          },
+          {
+            "title": "계절별 테마",
+            "concept": "탈출 과정에서 계절이 바뀌며 배경과 장애물이 변합니다. 시각적인 변화를 통해 탐험의 재미를 높입니다.",
+            "first_step": "배경 이미지와 타일셋을 교체하는 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "플랫폼 게임의 기초를 다지기에 좋습니다. 다양한 플랫폼 지원을 위한 입력 시스템 설계 경험을 쌓고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 조작 방식, 레벨의 규모, 퍼즐 요소의 유무가 확인되지 않았습니다. 모바일과 PC의 입력 방식 차이를 어떻게 극복했는지에 대한 정보가 부족합니다.",
+        "name": "Il Pulcino Libero [Free] [Platformer]",
+        "source": "itch",
+        "detail_url": "https://ricky807.itch.io/il-pulcino-libero",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 311,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 23,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-18"
+    },
+    "apple:6827901499": {
+      "app_key": "apple:6827901499",
+      "name": "PolyBuzz AI Character Chat",
+      "developer": "Evert Pfannenstiel",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/polybuzz-ai-character-chat/id6827901499",
+      "data_date": "2026-11-18",
+      "analysed_at": "2026-11-18T08:09:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Your question. Your direction. A conversation with AI characters. Explore an idea or follow your curiosity with PolyBuzz AI Chat with Characters. Start with whatever is on your mind. Bring a question, try a conversation starter, or take the chat somewhere unexpected. Enjoy character-driven conversations at your own pace, with you choosing what comes next. - Chat with AI characters - Explore ideas through back-and-forth conversation - Bring your own questions and conversation starters - Choose the direction of each chat For curious minds and fans of character-based conversation, PolyBuzz offers a place to explore ideas one exchange at a time. You're chatting with AI, not real people. If you subscribe, your subscription renews automatically unless canceled. You can cancel anytime in Settings. Be thoughtful about what you share in a chat. Avoid entering sensitive personal information, and review the app's privacy information to understand its data practices. Bring your curiosity. Start your next conversation with PolyBuzz AI Chat with Characters. Privacy policy: https://tryzovari.xyz/privacy.html. Terms of service: https://tryzovari.xyz/terms.html",
+      "analysis": {
+        "app_key": "apple:6827901499",
+        "summary_ko": "이 앱은 인공지능 캐릭터와 자유롭게 대화를 나눌 수 있는 챗봇 서비스입니다. 사용자는 자신의 질문이나 주제를 바탕으로 AI와 상호작용하며 대화의 방향을 직접 결정할 수 있습니다. 캐릭터 기반의 대화를 통해 창의적인 아이디어를 탐색하거나 궁금증을 해소할 수 있습니다.",
+        "features_ko": [
+          "다양한 성격의 AI 캐릭터와 대화를 나눌 수 있습니다.",
+          "사용자가 대화의 주제와 방향을 주도적으로 설정할 수 있습니다.",
+          "질문이나 대화 시작 문구를 통해 AI와 상호작용합니다.",
+          "대화의 흐름을 사용자가 선택하여 예상치 못한 방향으로 전개할 수 있습니다."
+        ],
+        "noteworthy_ko": "사용자 주도형 대화 흐름을 강조하는 점이 흥미롭습니다. 이는 고정된 시나리오가 아닌 LLM(거대언어모델)의 유연성을 활용한 서비스로, 캐릭터 페르소나 설정이 핵심입니다.",
+        "development_ko": "LLM API 연동이 핵심이며, 캐릭터별 프롬프트 엔지니어링을 통해 개성을 부여하는 것이 중요합니다. 대화 맥락을 유지하기 위한 세션 관리와 사용자 입력에 대한 안전성 검토가 필요합니다.",
+        "idea_ko": "특정 상황(예: 면접 연습, 외국어 회화)에 특화된 캐릭터 모드 추가.",
+        "highlights_ko": [
+          "사용자의 질문에 따라 대화의 방향이 실시간으로 변화합니다.",
+          "캐릭터 기반의 대화를 통해 몰입감 있는 사용자 경험을 제공합니다."
+        ],
+        "systems_ko": [
+          "LLM API 연동 모듈",
+          "캐릭터 페르소나 관리 시스템",
+          "대화 세션 및 히스토리 관리",
+          "사용자 입력 필터링 및 보안"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "API를 활용한 대화 구현은 비교적 간단하지만, 캐릭터의 일관성을 유지하고 안전한 대화 환경을 만드는 것은 지속적인 관리가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "AI 대화 인터페이스",
+            "캐릭터 선택 화면",
+            "대화 기록 저장"
+          ],
+          "defer": [
+            "사용자 맞춤형 캐릭터 생성",
+            "음성 대화 기능"
+          ],
+          "risks": [
+            "부적절한 AI 답변 생성",
+            "API 사용 비용 관리"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "역할극 시나리오 모드",
+            "concept": "특정 상황(예: 판타지 모험)을 설정하고 AI와 함께 이야기를 만들어가는 모드입니다.",
+            "first_step": "상황 설정을 위한 시스템 프롬프트를 작성하고 테스트합니다."
+          },
+          {
+            "title": "대화 요약 카드",
+            "concept": "긴 대화 내용을 AI가 요약하여 핵심 아이디어만 카드로 저장해 줍니다.",
+            "first_step": "대화 종료 시 요약을 요청하는 API 호출 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "최신 생성형 AI 기술을 활용한 앱 개발을 경험하기에 최적입니다. 프롬프트 엔지니어링의 중요성을 배우고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "사용되는 AI 모델의 종류나 데이터 처리 방식은 명시되지 않았습니다. 개인정보 보호 정책을 반드시 확인하고 구현해야 합니다.",
+        "name": "PolyBuzz AI Character Chat",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/polybuzz-ai-character-chat/id6827901499",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 69,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-18"
     }
   }
 }
