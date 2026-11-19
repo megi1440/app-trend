@@ -12040,6 +12040,279 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-18"
+    },
+    "apple:6747752407": {
+      "app_key": "apple:6747752407",
+      "name": "Gambonanza",
+      "developer": "Stray Fawn Studio",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/us/app/gambonanza/id6747752407?uo=2",
+      "data_date": "2026-11-19",
+      "analysed_at": "2026-11-19T07:44:58+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Gambonanza is a turn-based chess roguelike set on a tiny board with huge stakes. Master tactical twists, invest your winnings, and discover rule-bending Gambits plus wild tile and piece combinations. Face off against challenging bosses and get lost in all the ways you can break traditional chess! But be careful, if you waste too many moves the board will crumble around you… FEATURES • Snackable, high-impact runs Play fast, punchy chess battles on smaller starting boards where every decision counts. • 150+ rule-bending Gambits Combine your chess pieces with Gambits to unlock devastating combos and strategic surprises. • Dynamic reserve system Store extra pieces off-board and deploy them at the perfect moment to swing the game. • Strategic board upgrades Enhance your chessboard with golden squares, blessing tiles, protective surfaces, and more! • Fight epic boss battles Take on big encounters that reward smart builds and punish strategic mistakes. • Retro aesthetic and quirky ambiance Immerse yourself in vibrant pixel art and the playful excitement of a fairground. • Mini-games for power boosts Test your luck and skill in challenges inspired by pachinko, slot machines, and Gachapon. WHY PLAY GAMBONANZA? Gambonanza takes the tactical clarity of chess and turns it into a roguelike playground: stack Gambits, sculpt the board, manage your reserves, and discover ridiculous combos that “shouldn’t work”… until they do. If you love smart strategy, replayable runs, and the thrill of breaking the rules (legally), this one’s for you. JOIN THE CHESS REVOLUTION! Download Gambonanza and start rewriting chess. ABOUT THE TEAM Gambonanza is developed by Blukulélé and published by Sidekick Publishing and Stray Fawn Publishing. Mobile Port by Ateo",
+      "analysis": {
+        "app_key": "apple:6747752407",
+        "summary_ko": "체스 규칙을 기반으로 한 턴제 로그라이크 게임입니다. 작은 보드 위에서 체스 기물과 '갬빗'을 조합하여 전략적인 전투를 펼칩니다. 보드 업그레이드와 미니 게임을 통해 기물을 강화하며 보스를 공략하는 것이 목표입니다.",
+        "features_ko": [
+          "체스 기물과 150개 이상의 갬빗을 조합하여 독특한 전략을 구사합니다.",
+          "보드 밖에서 기물을 보관하고 적절한 타이밍에 배치하는 리저브 시스템을 사용합니다.",
+          "황금 타일, 축복 타일 등 보드를 전략적으로 업그레이드할 수 있습니다.",
+          "파친코, 슬롯머신 등 미니 게임을 통해 추가 보상을 획득합니다.",
+          "턴을 낭비하면 보드가 무너지는 제한 요소가 있어 빠른 판단이 필요합니다."
+        ],
+        "noteworthy_ko": "전통적인 체스 규칙을 비틀어 로그라이크 장르와 결합한 점이 매우 창의적입니다. '보드가 무너진다'는 시간 제한 메커니즘은 플레이어에게 긴장감을 부여하는 훌륭한 게임 디자인 요소입니다.",
+        "development_ko": "체스 기물의 이동 규칙을 기반으로 한 턴제 전투 시스템 구현이 핵심입니다. 150개 이상의 갬빗 효과를 관리하기 위한 데이터 구조 설계와 밸런싱이 중요합니다. 보드 업그레이드와 미니 게임 등 다양한 부가 시스템을 통합하는 모듈화 설계가 필요합니다.",
+        "idea_ko": "체스 기물마다 고유한 성격과 대사를 부여하여, 전투 중 기물 간의 상호작용이 발생하는 '기물 인격 시스템'을 추가하면 몰입감이 높아질 것입니다.",
+        "highlights_ko": [
+          "작은 보드에서 펼쳐지는 고밀도 전략 전투로 짧고 강렬한 플레이 경험을 제공합니다.",
+          "픽셀 아트 스타일과 페어그라운드 분위기를 결합하여 독특한 시각적 재미를 줍니다."
+        ],
+        "systems_ko": [
+          "턴제 체스 전투 엔진",
+          "로그라이크 무작위 생성 시스템",
+          "기물 및 갬빗 데이터 관리",
+          "보드 타일 상태 관리 시스템",
+          "미니 게임 로직"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "체스 규칙을 기반으로 하므로 로직 구현이 명확합니다. 로그라이크 특유의 무작위성과 밸런싱이 관건이지만, 핵심 메커니즘만 구현한다면 1인 개발로 충분히 도전 가능한 범위입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 체스 이동 및 공격 로직",
+            "턴제 전투 시스템",
+            "기물 보관 리저브 시스템"
+          ],
+          "defer": [
+            "150개 이상의 갬빗 구현",
+            "다양한 미니 게임",
+            "복잡한 보스 패턴"
+          ],
+          "risks": [
+            "체스 규칙과 로그라이크 요소 간의 밸런스 불균형",
+            "기물 조합의 복잡성으로 인한 버그 발생"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "기물 인격 시스템",
+            "concept": "기물들이 전투 상황에 따라 서로 대화하거나 특정 기물 옆에 있을 때 버프를 받는 시스템입니다. 기물 간의 관계를 설정하여 전략적 배치를 유도합니다.",
+            "first_step": "기물 간 인접 시 버프를 주는 간단한 로직을 구현합니다."
+          },
+          {
+            "title": "보드 지형 변화",
+            "concept": "전투 중 타일이 무작위로 파괴되거나 속성이 변하는 시스템입니다. 지형 변화에 따라 기물의 이동 경로를 실시간으로 재계산해야 합니다.",
+            "first_step": "타일 상태를 변경하고 이동 가능 여부를 체크하는 로직을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "기존 규칙을 변형하여 새로운 게임성을 창출하는 기획력을 배우기에 최적입니다. 로그라이크 장르의 데이터 기반 설계와 밸런싱을 연습하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 기물 이동 알고리즘의 구체적인 구현 방식이나 보드 업그레이드 데이터의 저장 방식이 명시되지 않았습니다. 미니 게임의 확률 로직에 대한 정보도 확인되지 않습니다.",
+        "name": "Gambonanza",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/gambonanza/id6747752407?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 174,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-19"
+    },
+    "google:arrow.puzzle.maze.renovation.game": {
+      "app_key": "google:arrow.puzzle.maze.renovation.game",
+      "name": "Arrow Story: Home Design",
+      "developer": "Wahoo Info",
+      "source": "google",
+      "country": "JP",
+      "category": "game_casual",
+      "detail_url": "https://play.google.com/store/apps/details?id=arrow.puzzle.maze.renovation.game&hl=ja&gl=JP",
+      "data_date": "2026-11-19",
+      "analysed_at": "2026-11-19T07:44:58+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "「アローストーリー：ホームデザイン」へようこそ！脳トレにもなる、リラックスできる矢印パズルゲームです。 SOS！火事で家を失った女性と愛犬、そして吹雪に巻き込まれた家族。彼らはあなたの助けを必要としています。 「アローストーリー：ホームデザイン」で、矢印パズルを解き、星を集め、困っている人々の家を再建し、幸せな生活を取り戻しましょう。 心温まる矢印パズルゲームで、レベルが上がるごとに変化を実感できます。獲得した星を使って、壊れた家を修復し、まるで新築のように蘇らせましょう。一つずつ修復していくことで、彼らの生活を立て直していくのです。 ➡️ 矢印パズルゲームプレイ グリッドには矢印が配置され、それぞれの矢印は指し示す方向にしか進むことができません。つまり、矢印同士が交差して障害となる場合があるということです。レイアウトをよく見て、障害となっている矢印を見つけ、ボードをクリアする順番を見つけましょう。 矢印は、進路が開けると消えます。障害となっている矢印をタップするとミスとなります。各レベルで 1 ～ 3 個の星を獲得でき、ミスが少ないほど多くの星を獲得できます。星はあなたのスコアであり、建築予算でもあります。星を集めるほどストーリーが進み、星が多いほど建築スピードが上がります。レベルに失敗するとハートが 1 つ減ります。序盤のレベルではルールを学び、後半のレベルでは思考力が試されます。難易度の高いレベルや超難易度の高いレベルでは、あなたの計画性が試されます。 💡 難しいグリッドを攻略するヘルパー グリッドが狭くても諦める必要はありません。ヒント、消しゴム、魔法の杖、フルグリッドズームの 4 つのヘルパーがあなたを待っています。 ✨ Arrow Story: Home Design を選ぶ理由 • ⭐ やりがいのある矢印パズル：グリッドをクリアするたびに星がもらえます • 🔨 目に見える建築：修理するたびに家が新しくなり、困っている人を助けることができます • ☕ 時間に追われることなく：タイマーがないので、好きなだけ時間をかけてプレイできます • 📴 オフラインプレイ：Wi-Fi やモバイルデータ通信がなくてもプレイできます Arrow Story: Home Design で、ゆったりとした時間を過ごしましょう。落ち着かない心を癒し、ちょっとした空き時間を埋め、日々のストレスを解消し、ストレスフリーなパズルを楽しみましょう。パズルを解く過程で、あなたは人々を助け、彼らの物語に触れ、ちょっとした手助けがどれほど大きな力になるかを実感するでしょう。 矢印パズル、矢印脱出ゲーム、そして人助けをテーマにした物語が好きなら、このゲームはあなたにぴったりです。 誰かがあなたを待っています。今すぐ「Arrow Story: Home Design」をダウンロードして、困っている人々を助け始めましょう。",
+      "analysis": {
+        "app_key": "google:arrow.puzzle.maze.renovation.game",
+        "summary_ko": "그리드 위의 화살표를 조작하여 퍼즐을 해결하고, 획득한 별로 집을 수리하는 게임입니다. 화살표는 지정된 방향으로만 이동할 수 있어 장애물을 피하는 전략적 사고가 필요합니다. 따뜻한 스토리와 함께 집을 복구하는 힐링 경험을 제공합니다.",
+        "features_ko": [
+          "화살표를 순서대로 눌러 그리드 위의 모든 화살표를 제거합니다.",
+          "퍼즐 해결 시 획득한 별을 사용하여 파손된 집을 수리합니다.",
+          "미스 없이 퍼즐을 해결할수록 더 많은 별을 획득합니다.",
+          "힌트, 지우개, 마법의 지팡이 등 퍼즐 해결을 돕는 아이템을 제공합니다.",
+          "타이머가 없어 여유롭게 퍼즐을 즐길 수 있으며 오프라인 플레이를 지원합니다."
+        ],
+        "noteworthy_ko": "화살표 이동이라는 단순한 규칙에 '집 수리'라는 보상 체계를 결합하여 퍼즐의 동기를 부여했습니다. 난이도가 높아질수록 계획적인 사고를 요구하는 퍼즐 디자인이 흥미롭습니다.",
+        "development_ko": "그리드 기반의 화살표 이동 로직과 충돌 판정 시스템 구현이 핵심입니다. 수리 단계별로 집의 외형이 변하는 리소스 관리 시스템이 필요합니다. 퍼즐 난이도 곡선을 설계하여 유저가 점진적으로 학습하도록 밸런싱하는 작업이 중요합니다.",
+        "idea_ko": "수리한 집을 유저가 직접 꾸밀 수 있는 인테리어 요소를 추가하여, 퍼즐 해결의 보상을 더욱 개인화하면 좋을 것입니다.",
+        "highlights_ko": [
+          "화살표 퍼즐과 홈 디자인을 결합하여 성취감과 힐링을 동시에 제공합니다.",
+          "타이머 없는 플레이 환경으로 스트레스 없이 퍼즐에 집중할 수 있습니다."
+        ],
+        "systems_ko": [
+          "그리드 퍼즐 엔진",
+          "화살표 이동 및 충돌 판정 로직",
+          "홈 디자인 및 수리 상태 관리",
+          "아이템 시스템",
+          "레벨 밸런싱 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "퍼즐의 규칙이 명확하고 물리 엔진이 필요 없는 그리드 기반 게임이라 1인 개발로 구현하기에 적합합니다. 홈 디자인 요소도 정적인 이미지 교체 위주로 구성하면 제작 부담이 적습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "화살표 이동 및 제거 로직",
+            "레벨 데이터 관리 시스템",
+            "기본 홈 수리 UI"
+          ],
+          "defer": [
+            "복잡한 아이템 시스템",
+            "다양한 스토리 컷신",
+            "고급 그래픽 효과"
+          ],
+          "risks": [
+            "퍼즐 레벨 디자인의 단조로움",
+            "수리 콘텐츠의 반복성으로 인한 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "인테리어 커스텀",
+            "concept": "수리한 집의 가구를 유저 취향대로 배치하는 기능입니다. 퍼즐을 풀 때마다 새로운 가구를 해금할 수 있습니다.",
+            "first_step": "가구 배치 UI와 드래그 앤 드롭 기능을 구현합니다."
+          },
+          {
+            "title": "반려견 상호작용",
+            "concept": "수리된 집에서 반려견과 놀아주는 미니 게임입니다. 반려견의 기분이 좋으면 퍼즐 힌트를 제공합니다.",
+            "first_step": "반려견 애니메이션과 간단한 상호작용 트리거를 만듭니다."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 기본 로직과 보상 시스템의 결합 방식을 배우기에 매우 좋습니다. 1인 개발자가 시제품을 완성하고 출시하기에 가장 적합한 장르입니다.",
+        "source_limitations_ko": "소개문에는 퍼즐 레벨 생성 알고리즘이나 홈 디자인의 구체적인 데이터 구조에 대한 정보가 없습니다. 오프라인 플레이 시 데이터 저장 방식은 확인되지 않습니다.",
+        "name": "Arrow Story: Home Design",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=arrow.puzzle.maze.renovation.game&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 174,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-19"
+    },
+    "apple:1601194499": {
+      "app_key": "apple:1601194499",
+      "name": "ドラゴンクエストビルダーズ　アレフガルドを復活せよ",
+      "developer": "SQUARE ENIX",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%83%93%E3%83%AB%E3%83%80%E3%83%BC%E3%82%BA-%E3%82%A2%E3%83%AC%E3%83%95%E3%82%AC%E3%83%AB%E3%83%89%E3%82%92%E5%BE%A9%E6%B4%BB%E3%81%9B%E3%82%88/id1601194499?uo=2",
+      "data_date": "2026-11-19",
+      "analysed_at": "2026-11-19T07:45:48+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "『ドラゴンクエストビルダーズ アレフガルドを復活せよ』がスマートフォンで登場！ 「ドラゴンクエストビルダーズ」は、無数のブロックで表現された広大な「アレフガルド」の世界を自由に創り、物語を紡いでいく”ブロックメイクRPG”。 この世界では、目に映るあらゆるモノが素材となり、様々なアイテムや、人々の生活に不可欠な拠点を造ることができます！ スマートフォン版ならではの新たな機能を駆使して、キミだけの建物や町を作りながら、アレフガルドを復活させよう！ ◆物語の世界 本作の舞台は「ブロック」でできた初代『ドラゴンクエスト』の世界「アレフガルド」。 闇の王「りゅうおう」によって光を失い、荒廃した世界に、物を作り出す不思議な力を持った一人の若者が現れたことから物語は始まる。 闇に覆われてしまったアレフガルドを、モノづくりの力で復活させていく、壮大な物語が幕をあける！ ◆スマートフォン版ならではの楽しみ方！ ・ワンタッチで離れた場所にブロックを置いたり、ロングタッチで出てくる専用カーソルでブロックやアイテムを壊したりできる！ ・置いたものを元に戻したりする便利機能Undo(アンドゥ)ボタンを搭載！ ・『ドラゴンクエストビルダーズ２』で登場した一定の範囲の物を一気に壊せる便利機能「ドッカンハンマー」が登場！ ・自由に建物を作って遊べる「知られざる島」のステージも大幅に進化！ ・住民フィギュアやモンスターフィギュアといった新しいアイテムの収録や、ドットを集めて様々な便利アイテムと交換できるお楽しみ要素も！ ・建物をビルドカードにして友達に見てもらったり、もらった画像を読み込んで友達の建物を自分の島に表示することもできる！ ◆追加コンテンツ 自由に建物を作って遊べる「知られざる島」で使用できる追加コンテンツが登場！ 「魔法のじゅうたん」「ボスフィギュアパック」「天体パック」「ドットのゆびわ」 ※追加コンテンツはシナリオ本編では影響しません。 ◆動作環境 iOS13.0以降 システムメモリ3GB以上の端末 ※設定で描画クオリティを変更することで動作を快適にすることができます。 ※推奨端末以外の場合、メモリ不足等による強制終了など予期せぬ不具合が発生する可能性があります。また、推奨端末以外でのサポートなどは致しかねますので予めご了承ください。",
+      "analysis": {
+        "app_key": "apple:1601194499",
+        "summary_ko": "블록으로 이루어진 세계를 탐험하고 재료를 수집하여 자신만의 건물과 마을을 건설하는 블록 메이킹 RPG입니다. 플레이어는 황폐해진 알레프가르드 세계를 모험하며 다양한 아이템을 제작하고 거점을 재건합니다. 스마트폰 환경에 최적화된 조작과 편의 기능을 통해 직관적인 건축 경험을 제공합니다.",
+        "features_ko": [
+          "블록을 배치하거나 파괴하여 자유롭게 지형과 건물을 생성할 수 있습니다.",
+          "원터치 배치 및 롱터치 커서를 통한 파괴 등 모바일 최적화 조작을 지원합니다.",
+          "실수를 되돌릴 수 있는 실행 취소(Undo) 기능을 제공합니다.",
+          "범위 내의 블록을 한 번에 파괴하는 도칸 해머 기능을 사용할 수 있습니다.",
+          "빌드 카드를 통해 친구와 자신의 건축물을 공유하고 불러올 수 있습니다."
+        ],
+        "noteworthy_ko": "블록 기반의 샌드박스 요소와 RPG의 서사 구조를 결합한 점이 흥미롭습니다. 특히 모바일 환경에서 복잡한 3D 건축을 어떻게 직관적으로 제어하는지에 대한 UI/UX 설계가 핵심적인 연구 대상이 될 것으로 추정됩니다.",
+        "development_ko": "복셀 기반의 지형 데이터 관리와 실시간 물리 연산이 핵심 기술입니다. 콘텐츠 제작 측면에서는 다양한 블록 타입과 건축물 에셋의 밸런스 조정이 큰 비중을 차지합니다. 모바일 최적화를 위해 렌더링 품질 조절과 메모리 관리 테스트가 필수적입니다.",
+        "idea_ko": "특정 테마의 건축물을 제한된 시간 내에 완성하는 '건축 챌린지 모드'를 구현하는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "원작의 세계관을 블록으로 재해석하여 탐험과 건설의 재미를 동시에 제공합니다.",
+          "사용자 간 건축물을 공유할 수 있는 빌드 카드 시스템이 커뮤니티 확장을 돕습니다."
+        ],
+        "systems_ko": [
+          "복셀 데이터 관리 시스템",
+          "건축물 배치 및 충돌 판정",
+          "인벤토리 및 아이템 제작 시스템",
+          "UI/UX 조작 인터페이스",
+          "세이브/로드 데이터 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "3D 복셀 엔진의 기초부터 건축 시스템, 데이터 저장까지 구현할 요소가 매우 많습니다. 특히 모바일 환경에서의 최적화와 직관적인 조작감 구현은 1인 개발자에게 높은 기술적 난이도를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "블록 배치 및 파괴 기능",
+            "기본 카메라 시점 제어",
+            "데이터 저장 시스템"
+          ],
+          "defer": [
+            "멀티플레이 공유 기능",
+            "복잡한 NPC AI",
+            "추가 콘텐츠 팩"
+          ],
+          "risks": [
+            "복셀 데이터 처리로 인한 성능 저하",
+            "복잡한 조작 체계의 사용자 경험 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "미니멀 건축 챌린지",
+            "concept": "제한된 블록 개수와 시간 내에 특정 모양의 건축물을 완성하는 퍼즐 게임입니다. 물리 엔진을 활용해 건축물의 안정성을 테스트하는 요소를 추가합니다.",
+            "first_step": "블록 배치와 간단한 물리 충돌 판정 프로토타입 구현."
+          },
+          {
+            "title": "지형 변형 디펜스",
+            "concept": "적의 침입을 막기 위해 실시간으로 지형을 파괴하거나 블록을 쌓아 길을 만드는 디펜스 게임입니다.",
+            "first_step": "그리드 기반의 블록 생성 및 삭제 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "복셀 기반 게임의 기초 구조와 모바일 UI/UX 최적화를 배우기에 매우 좋습니다. 다만, 방대한 콘텐츠를 모두 구현하려 하기보다 핵심 메커니즘 하나에 집중하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 서버 통신 방식, 구체적인 렌더링 엔진 정보, 멀티플레이어 데이터 동기화 방식에 대한 기술적 세부 사항이 명시되어 있지 않습니다.",
+        "name": "ドラゴンクエストビルダーズ　アレフガルドを復活せよ",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%83%93%E3%83%AB%E3%83%80%E3%83%BC%E3%82%BA-%E3%82%A2%E3%83%AC%E3%83%95%E3%82%AC%E3%83%AB%E3%83%89%E3%82%92%E5%BE%A9%E6%B4%BB%E3%81%9B%E3%82%88/id1601194499?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-19"
     }
   }
 }

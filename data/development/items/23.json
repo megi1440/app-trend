@@ -24071,6 +24071,97 @@
         ],
         "thoughtsTokenCount": 3552,
         "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "itch:d2abeb9cfc7b7fbfcb31",
+        "product_kind": "game",
+        "selected_concept_title_ko": "포켓 지정학: 12시간 턴제 세계 대전",
+        "project_goal_and_audience_ko": "본 기획은 원작의 거시적 국가 경영 및 전 세계 플레이어 간의 지정학적 경쟁이라는 핵심 재미를 모바일 환경에 맞게 재해석한 비동기 턴제 전략 게임입니다. 하루 종일 화면을 붙잡고 실시간 교전을 벌여야 하는 기존 MMO 전략 게임의 피로감과 1인 개발자의 거대 서버 유지 부담을 동시에 해결하고자 합니다. 주요 타겟은 역사, 지정학, 보드게임(리스크 등)을 사랑하며 하루에 1~2번 짧고 깊이 있는 전략적 의사결정을 즐기고 싶은 직장인 및 학생층입니다.",
+        "source_relation_and_difference_ko": "원작(World War Online)의 '전 세계 플레이어가 실제 국가를 맡아 영토를 확장하고 경쟁하는 거시적 지정학 구조'라는 핵심 경험은 그대로 계승합니다. 반면, 실시간 네트워크 동기화와 즉각적인 교전이라는 원작의 방식(개인 개발자에게 구현 난이도가 극도로 높은 부분)을 과감히 들어내고, 하루 두 번(12시간 주기) 일괄적으로 명령이 처리되는 '비동기 턴 마감(Turn Phase)' 시스템으로 전면 개선한 것이 가장 큰 차별점입니다.",
+        "core_user_experience_ko": "사용자는 출근길이나 점심시간 등 하루 중 여유로운 시간에 스마트폰 앱을 엽니다. 메인 화면의 세계 지도(헥사곤 맵)에서 지난 12시간 동안 자신의 영토에서 벌어진 전투 결과와 경제 성장 보고서를 확인합니다. 이후 다음 12시간 동안 자국 군대를 어느 영토로 이동시키거나 공격할지, 공장을 지어 자원을 확보할지 등의 명령을 예약(Queue)하고 '턴 명령 확정' 버튼을 누릅니다. 사용자가 앱을 끄고 일상생활을 하는 동안, 백엔드 서버는 정해진 시각(예: 오전 12시, 오후 12시)에 전 세계 플레이어들의 명령을 모아서 일괄 처리하고 결과를 시뮬레이션합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "12시간 비동기 턴 처리 엔진",
+            "user_action_and_behavior_ko": "사용자가 설정한 명령(이동, 공격, 생산)을 클라이언트에서 서버로 전송하여 예약합니다. 지정된 시각이 되면 서버의 스케줄러가 작동하여 전 세계 모든 유저의 명령을 동시에 해석하고 교전 판정 및 영토 소유권을 갱신합니다. 사용자는 접속 시 갱신된 결과를 피드 뉴스 형태로 받아봅니다.",
+            "practical_implementation_ko": "BaaS(Supabase 또는 Firebase)의 데이터베이스에 명령(Orders) 테이블을 두고, 클라우드 함수(Cloud Functions / Supabase Edge Functions)를 cron job 형태로 주기 실행하여 턴 마감 시점에 일괄 데이터 정합성을 맞추는 방식으로 구현합니다."
+          },
+          {
+            "feature_ko": "국가별 자원 및 경제 대시보드",
+            "user_action_and_behavior_ko": "식량, 철, 자본 등 3가지 핵심 자원을 관리합니다. 턴 마감 시마다 영토 보유량에 비례해 자원이 수급되며, 이를 소모해 군사 유닛을 징집하거나 경제 시설(공장, 농지)을 업그레이드하여 국력을 키웁니다.",
+            "practical_implementation_ko": "유저별/영토별 자원 수치 데이터 모델을 정의하고, 턴 정산 로직이 실행될 때 SQL 트랜잭션을 통해 일괄 가산/차감 연산을 수행하여 동시성 문제를 방지합니다."
+          },
+          {
+            "feature_ko": "간소화된 헥사곤 전선 지정 시스템",
+            "user_action_and_behavior_ko": "세계 지도를 헥사곤(육각형) 타일 기반으로 나누어 표현합니다. 플레이어는 자신의 영토 타일을 터치하고, 인접한 적대/중립 타일을 터치하여 '공격' 또는 '이동' 명령을 직관적으로 내릴 수 있습니다.",
+            "practical_implementation_ko": "Flutter의 CustomPainter 또는 가벼운 2D 캔버스 라이브러리를 활용해 모바일 화면에서 부드럽게 핀치 투 줌(Pinch-to-Zoom)이 가능한 미니멀한 헥사곤 맵 UI를 렌더링합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "1. 국가 선택 및 로그인 화면",
+            "contents_and_actions_ko": "게임 시작 시 세계 지도 상에서 플레이 가능한 국가(예: 한국, 일본, 영국 등)를 선택합니다. 각 국가의 고유 보너스(자원 생산량, 방어력 등)를 확인하고 확정하면 계정이 생성됩니다."
+          },
+          {
+            "screen_ko": "2. 메인 월드맵 및 턴 현황판 (핵심 화면)",
+            "contents_and_actions_ko": "전 세계 헥사곤 지도가 표시됩니다. 상단에는 현재 자원 현황과 다음 턴 마감까지 남은 카운트다운 타이머가 표시됩니다. 영토를 터치하면 상세 정보와 함께 이번 턴에 내릴 수 있는 명령 메뉴(공격, 이동, 생산)가 팝업됩니다."
+          },
+          {
+            "screen_ko": "3. 명령 예약 및 관리 화면",
+            "contents_and_actions_ko": "이번 턴에 예약한 명령 목록을 리스트 형태로 확인하고 취소하거나 수정할 수 있습니다. '턴 명령 확정'을 누르면 서버에 잠금 처리됩니다."
+          },
+          {
+            "screen_ko": "4. 턴 정산 리포트 (인박스)",
+            "contents_and_actions_ko": "접속 시 지난 12시간 동안 처리된 전투 승패, 영토 획득/상실, 경제 변동 사항을 타임라인 형식의 뉴스 피드로 요약하여 보여줍니다."
+          }
+        ],
+        "implementation_approach_ko": "프론트엔드는 크로스플랫폼 개발과 UI 컴포넌트 구성이 유리한 Flutter를 채택합니다. 백엔드는 개인 개발자의 인프라 관리 부담을 최소화하기 위해 Supabase(PostgreSQL + Edge Functions)를 활용하여 관계형 데이터 관리와 비동기 턴 정산 스크립트를 서버리스 환경에서 구현합니다. 실시간 소켓 통신 대신 REST API와 폴링 방식을 사용하여 서버 아키텍처를 단순화합니다.",
+        "data_and_storage_ko": [
+          "Users(유저 객체): id, nickname, country_id, food, steel, capital, last_active_turn",
+          "Territories(영토 객체): id, map_x, map_y, owner_id, defense_level, adjacent_ids (JSON)",
+          "Orders(명령 객체): id, user_id, turn_number, order_type(attack/move/build), source_territory_id, target_territory_id, status(pending/executed)",
+          "저장 및 반영 방식: 클라이언트에서 입력된 명령은 즉시 Supabase Orders 테이블에 INSERT되며, 매일 00:00/12:00 UTC에 실행되는 Edge Function이 Pending 상태의 명령들을 일괄 읽어와서 전투 및 자원 공식을 계산한 뒤 Territories와 Users 테이블을 UPDATE합니다."
+        ],
+        "mvp_scope_ko": "첫 번째 프로토타입(MVP)은 전 세계가 아닌 약 40~50개의 주요 국가/지역으로 이루어진 축소된 단일 대륙 헥사곤 맵으로 한정합니다. 외교 조약(동맹, 불가침)이나 복잡한 기술 연구 트리는 제외하고, 오직 '자원 수급 -> 유닛 생산 -> 인접 영토 공격/이동 -> 12시간 마감 정산'의 기본 순환 루프만 구현합니다. 이 범위만으로도 비동기 전략 게임의 핵심 재미와 서버 정산 로직의 타당성을 완벽하게 검증할 수 있습니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 데이터베이스 설계 및 헥사곤 맵 UI 프로토타입",
+            "deliverable_and_check_ko": "Supabase 스키마 구축 및 Flutter를 이용한 헥사곤 맵 렌더링, 터치 시 영토 선택 및 정보 표시 확인."
+          },
+          {
+            "stage_ko": "2단계: 명령 예약 및 로컬 UI 흐름 구현",
+            "deliverable_and_check_ko": "유저가 특정 영토에 이동/공격 명령을 입력하고 로컬 상태나 임시 DB에 큐잉되는 UI 흐름 구현."
+          },
+          {
+            "stage_ko": "3단계: 서버리스 턴 정산 로직(Edge Function) 구현",
+            "deliverable_and_check_ko": "정해진 시간에 DB의 명령을 읽어 간단한 전투 확률(공격력 vs 방어력)에 따라 영토 소유권을 변경하는 백엔드 스크립트 작성 및 테스트."
+          },
+          {
+            "stage_ko": "4단계: 정산 리포트 UI 및 전체 루프 연동",
+            "deliverable_and_check_ko": "턴 마감 후 유저가 앱에 접속했을 때 변경된 영토 지도와 전투 결과 리포트를 원활하게 조회하는지 확인."
+          }
+        ],
+        "possible_extensions_ko": "핵심 비동기 턴 루프가 안정화된 이후, 플레이어 간의 외교적 결속을 강화할 수 있는 '국가 간 연합(Alliance) 및 실시간 채팅', 세부 병과(보병, 기갑, 포병) 상성 시스템, 그리고 전략적 변수를 더하는 '비밀 공작 및 기술 연구 시스템'을 점진적으로 확장할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "리스크: 12시간이라는 턴 마감 주기가 유저에게 너무 길게 느껴져 플레이 리텐션이 떨어질 수 있음. (확인 방법: 프로토타입 테스트 단계에서 유저 피드백을 통해 6시간 또는 12시간 주기의 적정성 검토)",
+          "미확정 규칙: 동시 공격 시 방어측 유불리 계산 공식 및 유닛 소모율 수치는 밸런스 테스트를 거쳐야 하므로 초기에는 단순 수치(단순 전투력 비교)로 가정하고 추후 조정",
+          "리스크: 장기간 접속하지 않는 유휴 유저(Ghost User)의 영토 처리 방안 (결정 과제: 3턴 이상 미접속 시 AI가 방어만 수행하는 방치 국가로 전환하는 규칙 도입 검토)"
+        ],
+        "draft_status_ko": "본 문서는 실제 모바일 앱 출시나 라이브 서비스 테스트, 서버 부하 측정이 완료되지 않은 아이디어 구상 및 개발 설계 초안입니다."
+      },
+      "plan_at": "2026-11-19T07:49:52+09:00",
+      "plan_quota_day": "2026-11-19",
+      "plan_usage": {
+        "promptTokenCount": 1852,
+        "candidatesTokenCount": 2621,
+        "totalTokenCount": 6271,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1852
+          }
+        ],
+        "thoughtsTokenCount": 1798,
+        "serviceTier": "standard"
       }
     },
     "itch:fffe1537c8046124d833": {
@@ -24426,6 +24517,554 @@
           }
         ],
         "thoughtsTokenCount": 1826,
+        "serviceTier": "standard"
+      }
+    },
+    "apple:493390354": {
+      "app_key": "apple:493390354",
+      "name": "Kaiser Permanente",
+      "developer": "Kaiser Permanente",
+      "source": "apple",
+      "kind": "app",
+      "detail_url": "https://apps.apple.com/us/app/kaiser-permanente/id493390354?uo=2",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:493390354",
+        "product_kind": "app",
+        "original_experience_ko": "Kaiser Permanente 앱은 대형 의료 기관의 환자들을 위한 통합 디지털 헬스케어 플랫폼입니다. 사용자는 이 앱을 통해 진료 예약, 처방전 관리, 의료 기록(알레르기, 검사 결과) 조회, 의료진과의 비대면 소통, 그리고 Apple Health 앱과의 데이터 연동을 수행할 수 있습니다. 핵심 경험은 '오프라인 의료 서비스와 모바일 개인정보의 심리스한 연결 및 관리'입니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 확인 사실: 진료 예약 및 취소, 처방전 리필 및 상태 확인, 알레르기/예방접종/검사 결과 등의 의료 기록 조회, 의사 및 약국 검색, 디지털 회원증 발급, Apple Health 연동 기능이 명시되어 있습니다.",
+          "미확인 사항 및 한계: 백엔드 보안 아키텍처, 의료 데이터 표준(예: FHIR) 준수 여부, 실제 병원 전자의무기록(EMR) 시스템과의 연동 방식은 스토어 설명만으로는 알 수 없습니다.",
+          "개발적 한계: 실제 의료 기관의 데이터베이스와 직접 연동하는 것은 엄격한 법적 규제와 보안 인증이 필요하므로 개인 개발자가 구현하기에는 매우 어렵습니다."
+        ],
+        "valuable_elements_ko": [
+          "분산되기 쉬운 개인 건강 기록(처방, 검사 결과, 복약 정보)을 한 곳에서 직관적으로 모아보는 대시보드 구조",
+          "Android의 Health Connect 등 OS 레벨의 건강 플랫폼 API와 연동하여 생체 데이터를 가져오고 공유하는 접근 방식",
+          "일상적인 복약 및 진료 일정을 놓치지 않도록 돕는 개인화된 리마인더 시스템"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "클리닉 커넥트 (소규모 의원/클리닉 전용 환자 관리 앱)",
+            "core_idea_ko": "거대 의료 재단 플랫폼 대신, 동네 소규모 의원이나 1인 원장이 가볍게 도입할 수 있는 독립형 환자 예약·문진 및 비대면 소통 보조 앱입니다.",
+            "what_to_keep_ko": "병원 예약 관리, 처방 주의사항 안내, 의료진과의 안전한 1:1 메시징, 디지털 진료 카드 기능을 계승합니다.",
+            "what_to_change_ko": "복잡한 대형 병원 EMR 시스템 연동을 배제하고, 기성 클라우드 DB(Firebase)와 로컬 푸시를 활용해 소규모 의원도 SaaS처럼 가볍게 도입할 수 있는 구조로 경량화하며 간이 전자문진표 기능을 추가합니다.",
+            "mobile_use_or_play_ko": "사용자가 앱을 켜서 단골 의원을 등록하고, 방문 전 문진표를 모바일로 작성·제출한 뒤 예약 완료 알림을 받으며, 진료 후 주의사항을 푸시로 확인합니다.",
+            "key_features_ko": [
+              "소규모 의원 맞춤형 간이 예약 슬롯 및 대기열 관리",
+              "마크다운 기반의 모바일 전자문진표 사전 작성 및 제출",
+              "환자와 의료진 간의 암호화된 1:1 질의응답 비대면 챗",
+              "디지털 진료 카드 및 방문 이력 타임라인"
+            ],
+            "solo_mvp_and_effort_ko": "Firebase Auth와 Firestore를 이용해 백엔드를 구축합니다. 민감한 의료 데이터 처리를 위해 AES-256 암호화를 적용해야 하며, 의료법 관련 규제로 인해 실제 진단보다는 '예약 및 건강 상담 보조'로 범위를 제한하여 1인 개발 시 법적 부담을 낮춥니다.",
+            "strengths_limits_ko": "장점은 소상공인 병의원을 타겟으로 하여 B2B2C 확장성이 높다는 점입니다. 약점은 의료 정보 보호 규정 준수(개인정보보호법 등)가 까다롭고 병원 영업이 선행되어야 한다는 한계가 있습니다."
+          },
+          {
+            "title_ko": "헬스케어 바인드 (만성질환자 자가 기록 및 리포트 앱)",
+            "core_idea_ko": "병원 시스템과의 직접 연동을 포기하는 대신, 개인이 일상에서 측정하는 생체 데이터(혈당, 혈압, 복약)를 스스로 기록하고 주치의나 보호자에게 보여줄 요약 리포트를 생성하는 앱입니다.",
+            "what_to_keep_ko": "처방 약물 목록 관리, 복약/검사 리마인더, OS 건강 플랫폼(Health Connect)과의 데이터 동기화 기능을 계승합니다.",
+            "what_to_change_ko": "병원 창구 중심의 서비스에서 벗어나 '환자 주도의 기록 및 병원 방문 준비 도구'로 전환하고, 의사와의 실시간 메시징 대신 직관적인 주간/월간 트렌드 차트 및 원클릭 PDF 리포트 생성 기능에 집중합니다.",
+            "mobile_use_or_play_ko": "기상 후 혈당과 혈압을 측정·입력하고 아침 약 복용을 체크한 뒤, 앱이 분석한 주간 평균 수치를 확인하고, 병원 방문 시 의사에게 제시할 요약 리포트(PDF/QR)를 생성합니다.",
+            "key_features_ko": [
+              "Android Health Connect 연동을 통한 생체 데이터 자동 수집",
+              "복약 시간 알람 및 잔여 처방 약품 수량 추적",
+              "MPAndroidChart를 활용한 시각적 주간/월간 트렌드 리포트",
+              "병원 진료 시 즉시 공유 가능한 요약 리포트(PDF) 내보내기"
+            ],
+            "solo_mvp_and_effort_ko": "로컬 SQLite(Room)를 주 데이터베이스로 사용하고 클라우드 백업은 선택 사항으로 두어, 복잡한 서버 연동 없이 1인 개발로 완성이 가능합니다. 단, 사용자의 수동 입력 동기 부여가 필요합니다.",
+            "strengths_limits_ko": "장점은 병원 API 연동이 필요 없어 법적 리스크가 낮고 개발 난이도가 합리적이라는 점입니다. 약점은 단순 수동 기록 앱과의 차별화를 위해 데이터 시각화와 분석 유용성을 높여야 합니다."
+          },
+          {
+            "title_ko": "패밀리 메디케어 패스 (고령층 가족 통합 건강 관리 앱)",
+            "core_idea_ko": "디지털 취약계층인 부모님(고령층)의 병원 예약, 복약 시간, 처방전 정보를 자녀(보호자)가 원격으로 대행하고 관리할 수 있는 패밀리 셰어링 건강 비서 앱입니다.",
+            "what_to_keep_ko": "예약 조회 및 취소, 처방전 관리, 의료 기록(예방접종, 알레르기) 관리, 디지털 회원증 기능을 계승합니다.",
+            "what_to_change_ko": "본인 중심의 단일 계정 구조를 '가족 그룹(보호자-피보호자)' 관계형 구조로 확장하여, 자녀가 부모의 병원 일정을 대리 등록하고 복약 누락 시 원격으로 알림을 받는 양방향 관리 체계로 변경합니다.",
+            "mobile_use_or_play_ko": "앱 내에서 가족 그룹을 생성하고 부모님 계정을 연동한 뒤, 부모님의 병원 예약일 도래 시 자녀에게 동시 알림이 가며, 부모님이 복약 완료 버튼을 누르면 자녀 화면에 상태가 업데이트됩니다.",
+            "key_features_ko": [
+              "멀티 프로필 기반 가족 구성원별 건강 데이터 탭 분리",
+              "FCM 기반 복약 상호 확인 및 누락 알림 시스템",
+              "가족 공유 병원 방문 일정 캘린더",
+              "응급 시 활용 가능한 디지털 비상 연락처 및 핵심 의료 이력 카드"
+            ],
+            "solo_mvp_and_effort_ko": "멀티 유저 관계형 데이터베이스 설계(Firestore 보안 규칙 설정)가 필요하며, 알림 시스템(FCM) 구현 공수가 듭니다. UI는 고령층과 보호자 모두 쓰기 편하도록 큰 글씨와 단순한 구조를 지향해야 합니다.",
+            "strengths_limits_ko": "장점은 고령화 사회의 가족 돌봄 니즈를 정조준하여 명확한 실용성을 제공한다는 점입니다. 약점은 두 명 이상의 사용자를 묶는 관계형 아키텍처 구현이 복잡하며 사용자 초대 흐름이 매끄러워야 합니다."
+          }
+        ],
+        "concept_comparison_ko": "1안('클리닉 커넥트')은 소규모 병의원이라는 B2B2C 영역을 개척하지만 의료 규제와 영업 부담이 큽니다. 2안('헬스케어 바인드')은 병원 연동을 배제하고 개인 자가 기록 및 리포트 생성에 집중하여 1인 개발 완성도가 가장 높습니다. 3안('패밀리 메디케어 패스')은 가족 돌봄이라는 명확한 타겟이 있으나 멀티 유저 관계형 구조 설계가 다소 복잡합니다.",
+        "recommended_concept_number": 2,
+        "why_recommended_ko": "2안('헬스케어 바인드')은 원본 앱의 핵심 가치인 '개인 건강 기록 관리, 복약 리마인더, OS 건강 플랫폼 연동'을 완벽하게 계승하면서도, 개인이 감당하기 힘든 '대형 병원 서버 직접 연동'이라는 기술적·법적 장벽을 깔끔하게 우회합니다. 순수 모바일 앱 기능만으로 1인 개발자가 MVP를 완성하고 검증하기 가장 현실적인 구조입니다.",
+        "next_questions_ko": [
+          "Android Health Connect API를 활용할 때 사용자의 권한 거부율을 낮추기 위한 온보딩 UI는 어떻게 설계할 것인가?",
+          "생체 데이터(혈당/혈압) 입력의 번거로움을 줄이기 위해 위젯(Widget)이나 빠른 알림창 입력 기능을 MVP 단계에서 포함할 것인가?",
+          "의료 리포트 PDF 생성 시 법적 오인(진단서로 오인되는 것)을 방지하기 위해 어떤 면책 조항 문구를 배치해야 하는가?"
+        ]
+      },
+      "brief_at": "2026-11-19T08:13:07+09:00",
+      "brief_quota_day": "2026-11-19",
+      "brief_usage": {
+        "promptTokenCount": 1519,
+        "candidatesTokenCount": 2457,
+        "totalTokenCount": 5883,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1519
+          }
+        ],
+        "thoughtsTokenCount": 1907,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:493390354",
+        "product_kind": "app",
+        "selected_concept_title_ko": "헬스케어 바인드 (만성질환자 자가 기록 및 리포트 앱)",
+        "project_goal_and_audience_ko": "만성질환(당뇨, 고혈압 등)을 앓고 있으며 정기적인 병원 방문을 앞둔 환자들을 위한 모바일 자가 건강 관리 및 리포트 생성 앱입니다. 매일 혈당, 혈압, 복약 여부를 스스로 기록하고 관리해야 하지만 기존 건강 앱은 단순 수치 나열에 그치고, 대형 병원 앱은 국내/개인 환경에서 구현하기 어렵다는 문제를 해결합니다. 사용자는 본인의 일상 데이터를 간편하게 모으고, 의사 상담 시 즉시 보여줄 수 있는 구조화된 요약 리포트를 얻어 진료 효율을 높일 수 있습니다.",
+        "source_relation_and_difference_ko": "원본 앱의 핵심인 '분산된 건강 기록의 통합 관리', '복약 및 검사 리마인더', 'OS 건강 플랫폼(Health Connect) 연동'이라는 장점을 그대로 계승합니다. 반면, 복잡하고 구현이 불가능한 대형 병원 서버 직접 연동 구조를 과감히 배제하고, 환자 본인이 주도하는 로컬 기록 중심 구조로 전환했습니다. 의사와의 실시간 메시징 대신 '직관적인 트렌드 시각화 및 원클릭 PDF 진료 리포트 내보내기'라는 실용적이고 독립적인 기능으로 개선했습니다.",
+        "core_user_experience_ko": "사용자는 아침에 기상하여 앱을 실행하고, 푸시 알림이나 대시보드를 통해 오늘 먹어야 할 약과 측정해야 할 혈당·혈압 항목을 확인합니다. 수동 입력 또는 Android Health Connect 연동을 통해 측정값이 입력되며, 복약 완료 버튼을 터치하면 즉시 기록이 반영됩니다. 주간/월간 탭으로 이동하면 앱이 시각적 차트로 수치 변화 추이를 보여주며, '병원 방문 리포트 생성' 버튼을 누르면 최근 2주일간의 기록이 깔끔한 PDF 형태로 요약되어 화면에 나타나고 공유(또는 QR코드 표시)할 수 있습니다.",
+        "features_ko": [
+          {
+            "feature_ko": "Android Health Connect 연동 및 수동 입력",
+            "user_action_and_behavior_ko": "사용자가 기기 권한을 허용하면 Health Connect를 통해 혈당, 혈압 데이터를 자동으로 동기화하거나, 사용자가 직접 수치 입력 다이얼로그를 통해 기록합니다. 입력 즉시 로컬 DB에 저장되고 메인 대시보드 그래프가 갱신됩니다.",
+            "practical_implementation_ko": "Jetpack Health Connect SDK를 활용하여 권한 요청 및 데이터 Read/Write 구현. 비동기 Coroutine을 사용해 백그라운드 데이터 동기화 처리."
+          },
+          {
+            "feature_ko": "복약 리마인더 및 처방 약품 관리",
+            "user_action_and_behavior_ko": "처방받은 약의 이름, 복용 주기, 잔여 수량을 등록하면 지정된 시간에 알람이 울립니다. 알람 창에서 '복용 완료'를 누르면 잔여 수량이 자동으로 차감되고 복약 이력이 기록됩니다.",
+            "practical_implementation_ko": "AlarmManager 및 WorkManager를 활용하여 정확한 시간에 로컬 푸시 알림(Notification) 발생. 알람 액션 버튼으로 앱 실행 없이 복약 체크 가능."
+          },
+          {
+            "feature_ko": "시각적 트렌드 분석 및 PDF 리포트 생성",
+            "user_action_and_behavior_ko": "수집된 혈당·혈압 데이터를 주간/월간 단위의 꺾은선 그래프로 시각화하여 변동 폭을 직관적으로 파악합니다. '진료용 리포트 출력'을 선택하면 요약 통계와 최근 수치가 담긴 PDF 문서가 생성되어 미리보기 및 공유가 가능합니다.",
+            "practical_implementation_ko": "MPAndroidChart 또는 Jetpack Compose Canvas 기반 커스텀 차트 구현. Android PdfDocument API를 활용하여 캔버스 드로잉 방식으로 깔끔한 A4 단면 PDF 문서 동적 생성."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 대시보드 화면",
+            "contents_and_actions_ko": "오늘의 복약 체크리스트, 최근 측정된 혈당/혈압 요약 카드, 빠른 입력 버튼(+), 하단 내비게이션 바(대시보드, 기록, 리포트, 설정)."
+          },
+          {
+            "screen_ko": "생체 데이터 및 복약 입력 화면",
+            "contents_and_actions_ko": "혈당, 혈압 등 수치 입력 폼 또는 Health Connect 연동 상태 확인, 약품 추가 및 수정 모달 다이얼로그."
+          },
+          {
+            "screen_ko": "트렌드 및 진료 리포트 화면",
+            "contents_and_actions_ko": "기간별(주/월) 혈당/혈압 그래프, 평균 수치 요약, 'PDF 리포트 생성 및 공유' 버튼."
+          }
+        ],
+        "implementation_approach_ko": "Kotlin과 Jetpack Compose를 주력으로 사용하는 모바일 네이티브 Android 아키텍처(MVVM)를 채택합니다. UI 구성이 직관적이고 상태 관리가 용이하며, 1인 개발 시 보일러플레이트 코드를 줄일 수 있습니다. 데이터베이스는 가볍고 빠른 로컬 저장소인 Room DB를 사용하며, 서버 비용과 보안 리스크를 원천 차단합니다. 대안으로는 크로스플랫폼(Flutter)을 고려할 수 있으나, Android Health Connect 및 PDF 생성 네이티브 API 연동의 안정성을 위해 네이티브(Android) 개발을 우선합니다.",
+        "data_and_storage_ko": [
+          "MedicationEntity: id(Long), name(String), dosage(String), totalCount(Int), remainingCount(Int), alarmTime(String). 약품 정보와 잔여량을 관리하며 복약 체크 시 remainingCount가 1씩 감소하고 Room DB에 실시간 업데이트됩니다.",
+          "HealthRecordEntity: id(Long), type(String: 'GLUCOSE'/'BP'), value1(Float), value2(Float), timestamp(Long). 혈당 및 혈압 측정 데이터를 저장하며, Health Connect 동기화 또는 수동 입력 시 추가되고 주간 리포트 쿼리에 사용됩니다.",
+          "MedicationLogEntity: id(Long), medicationId(Long), takenTimestamp(Long), status(String: 'TAKEN'/'MISSED'). 복약 이력을 기록하여 순응도 분석에 활용됩니다."
+        ],
+        "mvp_scope_ko": "MVP(최소 유효 제품)에서는 서버 연동, 클라우드 백업, 복잡한 커뮤니티 기능을 모두 제외합니다. 오직 '로컬 Room DB 기반의 혈당/혈압/복약 수동 기록', '기본 복약 알람', 그리고 '텍스트/간단한 표 형식의 PDF 진료 리포트 생성' 기능에만 집중합니다. 이 범위만으로도 만성질환자가 병원 방문 전 스스로 데이터를 정리하고 의사에게 보여주는 핵심 효용을 완벽하게 검증할 수 있습니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "단계 1: 프로젝트 셋업 및 로컬 DB 설계",
+            "deliverable_and_check_ko": "Room DB 엔티티 및 DAO 정의, 기본 대시보드 UI 레이아웃 구현. 앱 실행 시 로컬 데이터가 정상적으로 저장 및 조회되는지 로컬 단위 테스트로 확인."
+          },
+          {
+            "stage_ko": "단계 2: 생체 데이터 입력 및 알람 기능 구현",
+            "deliverable_and_check_ko": "혈당/혈압 입력 화면 및 AlarmManager 기반 복약 리마인더 구현. 지정된 시간에 푸시 알림이 오고 알람 확인 시 DB에 복약 로그가 기록되는지 확인."
+          },
+          {
+            "stage_ko": "단계 3: 트렌드 차트 및 PDF 리포트 기능 구현",
+            "deliverable_and_check_ko": "MPAndroidChart 또는 Canvas를 이용한 주간 트렌드 그래프 렌더링 및 PdfDocument를 활용한 요약 PDF 생성 기능 개발. 기기 내에서 PDF 파일이 정상 생성되고 외부 앱으로 공유되는지 확인."
+          }
+        ],
+        "possible_extensions_ko": "MVP 검증 이후, 사용자가 원할 경우 선택적으로 활용할 수 있는 클라우드 백업(Firebase Auth 및 Firestore 연동), 보호자(가족)에게 카카오톡 등으로 요약 리포트를 간편 전송하는 기능, 웨어러블(Galaxy Watch 등)을 통한 간편 복약 체크 및 심박수 연동 기능을 확장할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "기술적 위험: Android Health Connect API의 파편화 및 권한 거부율에 대한 예외 처리 방안 필요. (해결: 권한 거부 시 수동 입력 모드로 자연스럽게 전환)",
+          "기획적 위험: 만성질환자의 특성상 매일 수동으로 데이터를 입력하는 귀찮음으로 인해 이탈률이 높을 수 있음. (해결: 리마인더 알람의 직관성과 알림 내 원터치 복약 체크로 마찰 최소화)",
+          "결정 과제: PDF 리포트 양식이 실제 의사들이 진료 시 직관적으로 파악하기에 충분한 항목(평균치, 변동폭, 복약 순응도)을 담고 있는지 추후 실제 사용자 피드백을 통해 개선해야 함."
+        ],
+        "draft_status_ko": "본 문서는 원본 앱의 분석을 바탕으로 기획된 모바일 앱 개발 설계 초안이며, 실제 구현, 코드 작성, 사용자 플레이테스트 및 성능 측정이 완료되지 않은 상태입니다."
+      },
+      "plan_at": "2026-11-19T08:13:25+09:00",
+      "plan_quota_day": "2026-11-19",
+      "plan_usage": {
+        "promptTokenCount": 2293,
+        "candidatesTokenCount": 2320,
+        "totalTokenCount": 7623,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2293
+          }
+        ],
+        "thoughtsTokenCount": 3010,
+        "serviceTier": "standard"
+      }
+    },
+    "google:pdfreader.pdfviewer.free.officetool": {
+      "app_key": "google:pdfreader.pdfviewer.free.officetool",
+      "name": "PDFビューアー - PDFリーダー、ワード、エクセル",
+      "developer": "Efficient Tools",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=pdfreader.pdfviewer.free.officetool&hl=ja&gl=JP",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:pdfreader.pdfviewer.free.officetool",
+        "product_kind": "app",
+        "original_experience_ko": "다양한 오피스 포맷(PDF, Word, Excel, PPT, TXT 등)의 문서 파일을 기기 내에서 자동으로 스캔하고, 하나의 앱에서 중앙화하여 오프라인 환경에서도 빠르게 열람·관리할 수 있는 통합 문서 뷰어 경험.",
+        "source_facts_and_limitations_ko": [
+          "스토어 사실: PDF, Word, Excel, PPT, TXT 등 멀티 포맷 지원, 썸네일 미리보기, 오프라인 읽기, 즐겨찾기, 비밀번호 보호 PDF 지원, 안드로이드 11 이상 MANAGE_EXTERNAL_STORAGE 권한 필요.",
+          "해석 및 한계: 향후 예정 기능(스캔, 포맷 변환, E-서명 등)은 현재 구현되지 않았으며, 실제 문서 렌더링 성능이나 클라우드 동기화 여부 등 상세 기술 스택은 명시되지 않음."
+        ],
+        "valuable_elements_ko": [
+          "기기 내 파편화된 문서들을 수동으로 찾을 필요 없이 자동으로 스캔하고 하나의 목록으로 중앙화하는 파일 관리 구조.",
+          "무거운 전용 오피스 앱들을 각각 실행하지 않고 하나의 가벼운 뷰어에서 여러 포맷을 빠르게 훑어볼 수 있는 접근성.",
+          "인터넷 연결 없이 로컬에서 즉시 문서를 열람할 수 있는 오프라인 최적화 특성."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "오프라인 현장 문서 퀵 인스펙터",
+            "core_idea_ko": "건설, 물류, 현장 작업자들이 도면이나 매뉴얼(PDF/문서)을 보면서 문서 위에 직접 마킹을 하고 음성 메모와 현장 사진을 결합하여 실시간으로 검토 내용을 남길 수 있는 현장 맞춤형 문서 뷰어.",
+            "what_to_keep_ko": "기기 내 로컬 파일 자동 스캔 구조와 다양한 문서 포맷을 대용량에서도 빠르게 열람하는 오프라인 렌더링 기반을 계승.",
+            "what_to_change_ko": "단순히 읽고 끝내는 수동적 뷰어에서 벗어나, 문서 레이어 위에 직접 하이라이트 제스처, 음성 핀 메모, 현장 촬영 캡처를 결합한 액션 중심의 검토 기능으로 개선.",
+            "mobile_use_or_play_ko": "사용자가 앱을 실행해 현장 매뉴얼 PDF를 열고, 특정 페이지에 손가락으로 하이라이트를 친 뒤 '부품 누락 확인'이라는 음성 메모를 녹음하여 로컬에 저장하고 압축 패키지로 공유하는 흐름.",
+            "key_features_ko": [
+              "문서 페이지 레이어 기반의 하이라이트 및 음성 핀 메모",
+              "현장 촬영 사진을 특정 문서 페이지에 바로 앵커링하여 첨부",
+              "주석이 포함된 문서 패키지를 원클릭으로 압축하여 내보내기"
+            ],
+            "solo_mvp_and_effort_ko": "오픈소스 PDF 렌더링 라이브러리와 안드로이드 Canvas API를 활용해 기본 주석 레이어를 구현. 클라우드 연동을 배제하고 로컬 SQLite(Room)에 메타데이터를 저장해 1인 개발 난이도를 낮춤.",
+            "strengths_limits_ko": "현장 작업자의 명확한 페인포인트를 해결하지만, 복잡한 Word나 Excel 파일의 직접 편집 기능까지 구현하는 것은 리소스상 불가능하므로 PDF와 이미지 중심으로 범위를 좁혀야 함."
+          },
+          {
+            "title_ko": "논문 및 텍스트 딥 리더 & 지식 맵",
+            "core_idea_ko": "대학생과 연구원이 대형 PDF 논문이나 리포트를 읽으면서 핵심 문장을 드래그하여 추출하고, 이를 시각적인 키워드 마인드맵 노드로 자동 연결하여 관리할 수 있는 스마트 독서/학습 도구.",
+            "what_to_keep_ko": "로컬 저장소 연동, 오프라인 문서 리딩, 연속 스크롤 및 썸네일 점프 같은 안정적인 기본 독서 경험.",
+            "what_to_change_ko": "수동적인 페이지 넘기기 중심에서 벗어나, 읽은 내용을 드래그하여 '요약 카드'로 만들고 문서 내 위치와 상호 연결되는 미니 마인드맵 구조를 결합.",
+            "mobile_use_or_play_ko": "사용자가 논문 PDF를 불러와 읽다가 중요한 개념을 블록 지정해 '요약 카드'로 등록하면, 앱이 문서 페이지와 연결된 미니 마인드맵 노드를 생성하여 한눈에 구조를 파악하는 흐름.",
+            "key_features_ko": [
+              "텍스트 블록 드래그 기반의 스마트 요약 카드 생성",
+              "문서 페이지 위치와 연동되는 미니 마인드맵 노드 시각화",
+              "키워드 기반 로컬 문서 내 통합 검색 및 인덱스 관리"
+            ],
+            "solo_mvp_and_effort_ko": "텍스트 추출 기능이 포함된 리더 라이브러리를 활용하고, 노드 간 연결은 가벼운 커스텀 뷰나 Canvas로 구현. AI 자동 요약 대신 로컬 키워드 추출과 수동 맵핑으로 MVP 범위 설정.",
+            "strengths_limits_ko": "학업 생산성을 크게 높여주지만, 모바일의 작은 화면에서 마인드맵과 문서를 동시에 조작하는 UI/UX 설계의 복잡성이 높음."
+          },
+          {
+            "title_ko": "오피스 파일 라이프 아카이브 (만기/계약 관리)",
+            "core_idea_ko": "스마트폰에 산재된 계약서, 영수증, 이력서, 자격증 등 다양한 포맷의 문서 파일들을 자동 분류 태그와 만기일 감지 알림 시스템을 통해 체계적으로 관리해 주는 개인 문서 자산 관리 앱.",
+            "what_to_keep_ko": "PDF, Word, Excel, TXT 등 다양한 오피스 포맷 파일의 기기 내 자동 스캔 및 통합 관리 능력.",
+            "what_to_change_ko": "단순한 폴더별 파일 나열을 넘어, 파일명과 메타데이터를 분석해 '계약서', '영수증', '증명서' 등으로 자동 분류하고, 계약 만기일이나 중요 일정에 맞춰 D-day 알림을 제공하는 능동적 관리 기능 추가.",
+            "mobile_use_or_play_ko": "앱을 실행하면 기기 내 문서들을 스캔하여 '금융/계약서', '업무/이력서' 등으로 자동 분류해 보여주고, 사용자가 특정 계약서의 만기 날짜를 지정하면 D-day 푸시 알림을 설정하는 흐름.",
+            "key_features_ko": [
+              "파일 형식 및 확장자/메타데이터 기반 자동 카테고리 태깅",
+              "문서 내 날짜 감지 및 만기일/D-day 알림 설정",
+              "중요 문서 보호를 위한 로컬 비밀번호 및 생체 잠금 볼트"
+            ],
+            "solo_mvp_and_effort_ko": "안드로이드 파일 스캐너와 정규식(Regex)을 이용한 날짜 감지 로직을 결합. 암호화는 안드로이드 Keystore의 기본 암호화 API를 활용하여 1인 개발 범위 내에서 구현.",
+            "strengths_limits_ko": "일상생활의 실질적인 문서 관리 페인포인트를 해결하지만, 다양한 포맷 파일의 내부 텍스트 파싱 정확도가 떨어질 수 있는 기술적 한계가 존재함."
+          }
+        ],
+        "concept_comparison_ko": "아이디어 1(현장 퀵 인스펙터)은 액션 지향적 주석으로 현업 생산성을 극대화하나 복잡한 오피스 파싱 한계가 있음. 아이디어 2(딥 리더 & 지식 맵)는 학업 연구에 특화되어 지식 구조화가 뛰어나나 모바일 UI 공간 제약이 큼. 아이디어 3(라이프 아카이브)은 일상 속 문서 파편화 문제를 자동 태깅과 만기일 알림으로 해결하여 범용성과 실용성이 가장 높음.",
+        "recommended_concept_number": 3,
+        "why_recommended_ko": "원본 앱이 가진 '기기 내 문서 통합 관리 및 열람'이라는 핵심 장점을 가장 자연스럽게 확장하면서도, 단순 뷰어에서 '관리 및 만기 알림'이라는 명확한 차별적 유용성을 제공하기 때문. 복잡한 편집 엔진 대신 메타데이터, 태그, 알림 시스템 중심이므로 1인 개발자가 현실적으로 완성하기에 리스크가 가장 적음.",
+        "next_questions_ko": [
+          "안드로이드 11 이상 기기에서 MANAGE_EXTERNAL_STORAGE 권한 승인을 플레이 스토어 심사 과정에서 원활히 통과할 수 있는가?",
+          "다양한 오피스 포맷(Word, Excel 등)을 외부 무거운 서버 없이 로컬에서 파싱할 때 1인 개발자가 감당할 수 있는 안정적인 오픈소스나 라이브러리의 가용성은 어떠한가?",
+          "문서 내 날짜 및 키워드 자동 추출(정규식 기반)의 정확도가 실제 사용자 만족도를 높일 만큼 충분히 실용적인가?"
+        ]
+      },
+      "brief_at": "2026-11-19T09:08:28+09:00",
+      "brief_quota_day": "2026-11-19",
+      "brief_usage": {
+        "promptTokenCount": 2106,
+        "candidatesTokenCount": 2238,
+        "totalTokenCount": 6704,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2106
+          }
+        ],
+        "thoughtsTokenCount": 2360,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:pdfreader.pdfviewer.free.officetool",
+        "product_kind": "app",
+        "selected_concept_title_ko": "오피스 파일 라이프 아카이브 (만기/계약 관리)",
+        "project_goal_and_audience_ko": "스마트폰 내부에 흩어져 있는 계약서, 영수증, 이력서, 자격증 등 다양한 오피스/PDF 문서들을 수동으로 찾을 필요 없이 한곳에 모으고, 계약 만기일이나 갱신 일정을 놓치지 않도록 D-day 알림을 제공하는 개인 문서 자산 관리 앱. 자취생, 직장인, 프리랜서 등 일상에서 다양한 문서 관리와 일정 추적이 필요한 모바일 사용자를 타겟으로 함.",
+        "source_relation_and_difference_ko": "원본 앱의 핵심 경험인 '기기 내 파편화된 문서 파일(PDF, Word, Excel 등)의 자동 스캔 및 통합 관리, 오프라인 열람' 구조를 충실히 계승함. 차별점으로는 단순한 폴더별 파일 나열 방식에서 벗어나, 파일명 및 메타데이터 기반의 자동 카테고리 태깅과 사용자가 가장 필요로 하는 '계약 만기일/일정 D-day 알림 및 보안 볼트' 기능을 결합하여 능동적인 문서 라이프사이클 관리를 제공함.",
+        "core_user_experience_ko": "사용자가 앱을 실행하면 기기 저장소를 스캔하여 문서들을 자동으로 수집하고, 대시보드 화면에 '계약서(만기 14일 전)', '영수증', '증명서' 등으로 분류해 보여줌. 사용자가 특정 부동산 계약서 파일을 탭하여 상세 내용을 확인하고 만기일(예: 2026-11-30)을 설정하면, 시스템이 이를 기억하고 만기 도래 시점에 로컬 푸시 알림을 발송하여 중요한 일정을 놓치지 않도록 돕는 흐름.",
+        "features_ko": [
+          {
+            "feature_ko": "로컬 문서 자동 스캔 및 포맷별 통합 분류",
+            "user_action_and_behavior_ko": "앱 최초 실행 시 기기 내부 및 외부 저장소의 PDF, Word(DOCX), Excel(XLSX), TXT 파일을 탐색하여 목록화하고, 파일 확장자 및 키워드 기반으로 카테고리를 자동 분류하여 사용자에게 직관적인 대시보드 제공.",
+            "practical_implementation_ko": "Android의 `MediaStore` API 및 Storage Access Framework를 활용하여 문서 파일을 필터링하고, Room DB에 파일 메타데이터(경로, 이름, 확장자, 수정일)를 인덱싱하여 빠른 로딩 구현."
+          },
+          {
+            "feature_ko": "만기일 감지 및 D-day 알림 관리",
+            "user_action_and_behavior_ko": "문서 상세 화면에서 사용자가 계약 만기일이나 갱신 일정을 확인·수정하면, 시스템이 남은 일수를 계산하여 D-day 배지를 표시하고 지정된 시점에 푸시 알림 발송.",
+            "practical_implementation_ko": "Android `WorkManager` 백그라운드 Worker를 활용해 하루에 한 번 로컬 DB의 만기일을 체크하고, 조건 충족 시 Local Notification API를 통해 사용자에게 알림 트리거."
+          },
+          {
+            "feature_ko": "보안 볼트 (생체 인식 잠금)",
+            "user_action_and_behavior_ko": "사용자가 민감한 계약서나 개인정보가 담긴 문서를 보호하기 위해 '보안 문서'로 지정하면, 이후 해당 문서 접근 시 지문 또는 얼굴 인식 등의 생체 인증을 거치도록 강제.",
+            "practical_implementation_ko": "AndroidX `BiometricPrompt` API를 연동하여 시스템 생체 인증을 호출하고, 인증 성공 시에만 해당 문서의 상세 뷰 및 열람 권한을 허용."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 대시보드 및 카테고리 탭",
+            "contents_and_actions_ko": "상단에 전체/계약서/영수증/증명서 카테고리 탭 배치. 중앙에 스캔된 문서 리스트(파일명, 미리보기 썸네일, D-day 뱃지) 표시. 검색바를 통한 빠른 파일 검색 및 우측 하단 수동 파일 추가/새로고침 버튼."
+          },
+          {
+            "screen_ko": "문서 상세 및 만기 설정 뷰",
+            "contents_and_actions_ko": "선택한 문서의 파일 정보(용량, 최종 수정일, 경로)와 함께 만기일 설정 캘린더 피커 제공. '오프라인 열람' 버튼을 통해 내장 뷰어로 진입하거나, '보안 문서 지정' 토글 조작 가능."
+          },
+          {
+            "screen_ko": "내장 문서 뷰어",
+            "contents_and_actions_ko": "PDF, 이미지, TXT 등의 포맷을 앱 내에서 곧바로 렌더링하여 스크롤 및 확대/축소 기능 제공. 인터넷 연결 없이 오프라인 상에서 원활하게 열람 가능."
+          },
+          {
+            "screen_ko": "보안 볼트 잠금 화면",
+            "contents_and_actions_ko": "보안 지정된 문서 그룹 또는 앱 실행 시 진입하는 잠금 화면. '생체 인증으로 잠금 해제' 버튼 제공 및 실패 시 안내 팝업."
+          }
+        ],
+        "implementation_approach_ko": "생산성과 크로스 플랫폼 호환성이 우수한 Flutter 프레임워크 또는 Android Native(Kotlin)를 활용. 1인 개발 환경에서 PDF 렌더링 라이브러리(`pdfx` 또는 Android `PdfRenderer`)와 로컬 DB(`SQLite/Room`) 연동이 용이하며, 네이티브 기기 파일 접근 권한 및 알림 관리 모듈을 안정적으로 결합할 수 있는 아키텍처 구성. 대안으로 Jetpack Compose 기반의 안드로이드 네이티브 구현 고려.",
+        "data_and_storage_ko": [
+          "DocumentEntity (Room DB): id (PK), file_path (String), file_name (String), file_type (String), category_tag (String), expiry_date (Long? - Unix Timestamp), is_secured (Boolean), last_modified (Long).",
+          "데이터 저장 시점: 앱 실행 시 및 사용자가 '스캔 새로고침' 버튼을 누를 때 `MediaStore` 쿼리를 실행하여 기기 내 실제 파일 상태와 로컬 DB를 동기화 (존재하지 않는 파일 삭제, 신규 파일 추가).",
+          "만기일 및 사용자 설정 변경 시 즉시 Room DB에 업데이트 트랜잭션 수행."
+        ],
+        "mvp_scope_ko": "기기 내 PDF 및 오프라인 문서 파일 자동 스캔, 리스트업 및 카테고리 태깅, 수동으로 문서에 만기일을 지정하고 로컬 푸시 알림을 받는 핵심 기능까지를 MVP 범위로 설정. 복잡한 OCR 자동 인식, 클라우드 스토리지 연동, 다중 기기 동기화 등의 부가 기능은 1인 개발 초기 단계에서 제외하여 개발 공수를 최소화함.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 파일 시스템 권한 및 로컬 스캔 모듈 구현",
+            "deliverable_and_check_ko": "안드로이드 저장소 권한 획득 처리 및 `MediaStore`를 통한 기기 내 PDF/오피스 파일 목록 수집 로직 구현. 프로토타입 실행 후 로그 및 화면에서 실제 기기 파일들이 누락 없이 로드되는지 확인."
+          },
+          {
+            "stage_ko": "2단계: 로컬 DB 설계 및 대시보드 UI 구현",
+            "deliverable_and_check_ko": "Room DB 스키마 작성 및 스캔된 파일 데이터를 리스트 UI에 렌더링. 카테고리 탭 필터링 및 검색 기능 동작 여부 점검."
+          },
+          {
+            "stage_ko": "3단계: 만기일 설정 및 로컬 알림(WorkManager) 연동",
+            "deliverable_and_check_ko": "문서 상세 화면에서 만기일 지정 캘린더 피커 구현 및 백그라운드 Worker를 통한 D-day 계산 알림 테스트 구현."
+          },
+          {
+            "stage_ko": "4단계: 보안 볼트 및 내장 뷰어 결합",
+            "deliverable_and_check_ko": "생체 인증 모듈 연동 및 PDF 뷰어 컴포넌트 통합. 최종 예외 처리(권한 거부, 손상된 파일) 점검."
+          }
+        ],
+        "possible_extensions_ko": "추후 사용자가 스마트폰 카메라로 계약서나 영수증을 직접 촬영하면 자동으로 텍스트를 추출하고 날짜를 인식하는 OCR 스캐너 기능, Google Drive 등 클라우드 스토리지 백업 연동, 문서 내 전자 서명(E-Signature) 기능 추가 검토.",
+        "risks_and_open_decisions_ko": [
+          "Android 11 이상 기기에서 `MANAGE_EXTERNAL_STORAGE` 권한 획득 시 구글 플레이 스토어 정책 심사에서의 승인 리스크 존재 (필수 소명 자료 준비 필요).",
+          "파일명만으로는 정확한 계약 만기일을 자동으로 유추하기 어려운 기술적 한계가 있으므로, 사용자가 간편하게 수동으로 만기일을 보정할 수 있는 UI/UX의 직관성을 지속 개선해야 함."
+        ],
+        "draft_status_ko": "본 문서는 실제 상용 서비스 출시, 정밀 플레이테스트 및 스토어 심사가 완료되지 않은 1인 모바일 앱 개발 설계 초안입니다."
+      },
+      "plan_at": "2026-11-19T09:08:45+09:00",
+      "plan_quota_day": "2026-11-19",
+      "plan_usage": {
+        "promptTokenCount": 2828,
+        "candidatesTokenCount": 2288,
+        "totalTokenCount": 7044,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2828
+          }
+        ],
+        "thoughtsTokenCount": 1928,
+        "serviceTier": "standard"
+      }
+    },
+    "google:pics.karaage.sokutaiho": {
+      "app_key": "google:pics.karaage.sokutaiho",
+      "name": "巡回中！即タイホ！",
+      "developer": "KARAAGE GAMES LLC.",
+      "source": "google",
+      "kind": "game",
+      "detail_url": "https://play.google.com/store/apps/details?id=pics.karaage.sokutaiho&hl=ja&gl=JP",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:pics.karaage.sokutaiho",
+        "product_kind": "game",
+        "original_experience_ko": "원본은 마을의 순경이 되어 순찰을 돌며 일반인 속에 숨어 있는 범죄자를 관찰하고, 불심검문을 통해 진위를 파악해 체포하는 캐주얼 시뮬레이션 게임입니다. 스토어 설명과 AI 해석에 따르면, 군중 속에서 수상한 인물을 골라내어 검거하고 실적에 따라 승진하는 직관적인 루프가 핵심 경험입니다. 다만 구체적인 판별 알고리즘이나 스테이지 구성 방식은 스토어 텍스트만으로 확인할 수 없는 한계가 있습니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 확인 사실: 마을 작은 교반의 순사, 순회 및 주민과의 접촉, 불심검문과 관찰을 통한 체포, 체포 시 감옥으로 이동하는 연출, 승진 시스템 존재.",
+          "미확인 사항과 한계: 구체적인 범죄자 판별 로직(어떤 특징이 범인을 결정하는지), 랜덤 캐릭터 생성 규칙, 승진에 필요한 수치적 데이터 등은 스토어 설명에 명시되지 않아 알 수 없음."
+        ],
+        "valuable_elements_ko": [
+          "군중 속에서 미세한 징후나 이질감을 포착하는 관찰의 재미: 플레이어가 스스로 의심스러운 대상을 고르는 능동적 참여를 유도하므로 유지해야 함.",
+          "간결하고 템포 빠른 판정 루프 (만남 -> 검문 -> 체포 -> 승진): 모바일 환경에서 짧은 호흡으로 즐기기 적합한 구조이므로 계승해야 함."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "비밀 요원의 잠입 관찰 일지",
+            "core_idea_ko": "플레이어가 위장 근무 요원이 되어 번화가나 파티장에 잠입한 뒤, 방문자들의 대사 모순과 소지품 상태를 관찰하고 거짓말을 간파해 체포하는 템포 빠른 관찰 추리 게임.",
+            "what_to_keep_ko": "군중 속 인물을 관찰하고 대화/조사를 통해 범죄 징후를 판별한 뒤 즉시 제압하는 핵심 루프를 계승합니다.",
+            "what_to_change_ko": "단순한 길거리 순찰에서 벗어나, 장소별 페르소나 위장과 '문맥 속 거짓말 탐지' 퍼즐 요소를 강화하여 추리 깊이를 더합니다.",
+            "mobile_use_or_play_ko": "스테이지 진입 시 무작위 생성된 6명의 인물 중 한 명을 탭해 대화를 열고, 진술의 모순점이나 불법 소지품을 발견한 뒤 [체포] 버튼을 눌러 승진 포인트를 획득합니다.",
+            "key_features_ko": [
+              "인물별 진술 데이터 및 소지품 무작위 조합 시스템",
+              "문맥의 모순을 짚어내는 거짓말 탐지 대화 인터페이스",
+              "잠입 장소에 따른 페르소나 및 수사 장비 업그레이드"
+            ],
+            "solo_mvp_and_effort_ko": "2D 캔버스 기반 UI와 스프라이트 조합. 텍스트 데이터베이스와 간단한 조건문으로 판별 로직을 구현하여 1인 개발 난이도를 낮춥니다.",
+            "strengths_limits_ko": "장점은 개발 공수가 낮고 추리 재미가 명확하다는 점이며, 약점은 텍스트 분량이 부족할 경우 반복 플레이가 지루해질 수 있다는 점입니다."
+          },
+          {
+            "title_ko": "우주 정거장 검문소 수석 관제관",
+            "core_idea_ko": "근미래 우주 정거장의 검문관이 되어 입국하는 외계인과 개조 인간들 사이에서 매주 변하는 규정을 대조해 테러범과 감염자를 격리하는 SF 시뮬레이션.",
+            "what_to_keep_ko": "수많은 방문자 데이터를 검토하고 질문과 단서를 조합해 위험 인물을 걸러내는 판별 시스템을 계승합니다.",
+            "what_to_change_ko": "현실적인 길거리 대신 SF 배경을 도입하고, 매 판마다 달라지는 동적 법령(랜덤 룰셋)을 적용해 리플레이성과 전략성을 높입니다.",
+            "mobile_use_or_play_ko": "검문소에 도착한 방문자의 신분증과 생체 스캔 화면을 비교하고, 질문을 통해 규정 위반 여부를 확인한 후 [격리] 또는 [통과]를 선택합니다.",
+            "key_features_ko": [
+              "매일 변경되는 무작위 입국 심사 규정 및 법령 룰렛",
+              "생체 데이터 및 위조 신분증 검증 미니 게임",
+              "정거장 시설 확장 및 검사 장비 강화 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "텍스트, 표, UI 위주의 2D 레이아웃 구성. 복잡한 애니메이션 없이 이미지와 수치 조작 중심으로 구현하여 1인 개발이 용이합니다.",
+            "strengths_limits_ko": "장점은 룰 변동으로 높은 몰입감을 준다는 것이며, 약점은 직관적인 시각적 타격감보다 텍스트 독해 피로도가 높을 수 있다는 점입니다."
+          },
+          {
+            "title_ko": "스쿠터 라이더의 골목 제압 작전",
+            "core_idea_ko": "배달 라이더로 위장해 도시를 누비며, 도중에 목격되는 돌발 범죄 현장을 쫓아가 신속하게 제압하고 치안을 지키는 아케이드 시뮬레이션.",
+            "what_to_keep_ko": "도시 속에서 범죄자를 발견하고 즉시 제압하여 성장해 나가는 템포 빠른 세계관과 진행 방식을 계승합니다.",
+            "what_to_change_ko": "정적인 불심검문에서 벗어나 이동과 추격 아케이드 요소를 결합하고, 현장 상황에 맞는 제압 도구를 고르는 순발력 테스트를 도입합니다.",
+            "mobile_use_or_play_ko": "도시 맵에서 스쿠터를 몰고 이동 중 돌발 이벤트 발생 시 해당 지점으로 진입, 범인의 도주 경로를 예측하여 알맞은 터치 액션으로 제압합니다.",
+            "key_features_ko": [
+              "도시 맵 상의 동적 돌발 사건 발생 트리거",
+              "순발력을 요구하는 터치 퀵타임 액션(QTE) 제압",
+              "배달 구역 확장 및 라이더 호신 장비 커스텀"
+            ],
+            "solo_mvp_and_effort_ko": "2D 탑뷰 타일맵과 간단한 이동 물리 연산 구현. 이벤트 스폰 로직과 미니게임 중심의 가벼운 프로토타입으로 제작합니다.",
+            "strengths_limits_ko": "장점은 동적인 액션으로 지루함이 적다는 점이며, 약점은 시뮬레이션 본래의 깊이 있는 관찰 재미가 액션에 묻힐 수 있다는 점입니다."
+          }
+        ],
+        "concept_comparison_ko": "아이디어 1(비밀 요원 잠입)은 원본의 관찰·대화 판별 루프를 가장 충실히 계승하면서 퍼즐 재미를 살렸고, 아이디어 2(우주 정거장 검문관)는 룰 변동을 통한 로그라이크적 리플레이성을 강조했으며, 아이디어 3(스쿠터 라이더)은 액션과 이동 요소를 결합해 동적인 재미를 추구했습니다. 세 안 모두 1인 개발이 가능하나, 원본의 핵심 재미인 '관찰과 판별'을 가장 밀접하게 발전시킨 것은 아이디어 1입니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "‘비밀 요원의 잠입 관찰 일지’는 원본이 가진 '군중 속 이상자 색출'이라는 핵심 경험을 가장 직관적이고 완성도 높게 확장할 수 있습니다. 텍스트와 UI 중심 설계로 1인 개발의 기술적 부담이 적으면서도, 거짓말 탐지라는 새로운 규칙을 더해 원본보다 추리적 재미를 실질적으로 개선할 수 있기 때문입니다.",
+        "next_questions_ko": [
+          "인물의 진술 모순을 플레이어가 직관적으로 알아차리게 하는 UI 텍스트 구조는 어떻게 설계할 것인가?",
+          "캐릭터 외형과 대사의 무작위 조합 수가 반복 플레이를 지루하지 않게 만들 만큼 충분한가?",
+          "체포 실패 시 패널티와 성공 시 보상의 밸런스를 어떻게 맞출 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-19T09:10:57+09:00",
+      "brief_quota_day": "2026-11-19",
+      "brief_usage": {
+        "promptTokenCount": 1381,
+        "candidatesTokenCount": 2096,
+        "totalTokenCount": 5946,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1381
+          }
+        ],
+        "thoughtsTokenCount": 2469,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:pics.karaage.sokutaiho",
+        "product_kind": "game",
+        "selected_concept_title_ko": "비밀 요원의 잠입 관찰 일지",
+        "project_goal_and_audience_ko": "이 제품은 출퇴근 시간이나 휴식 시간에 가볍게 즐기면서도 두뇌 회전의 재미를 느낄 수 있는 캐주얼 관찰 추리 모바일 게임입니다. 타겟 사용자는 단순한 방치형 게임에서 벗어나 텍스트와 대화 속의 논리적 모순을 파악하고 범죄자를 색출하는 몰입감 있는 추리 요소를 선호하는 게이머입니다. 위장 근무 요원이 되어 군중 속 거짓말쟁이를 찾아내는 직관적인 재미를 제공합니다.",
+        "source_relation_and_difference_ko": "원본 게임이 가진 '군중 속에서 이상 징후를 감지하고, 대상과 상호작용 후 즉시 제압하여 승진하는 기본 루프'라는 핵심 경험은 그대로 계승합니다. 차별점으로는 단순한 길거리 순찰에서 벗어나, 파티장이나 번화가 같은 '잠입 장소'라는 무대를 도입하고, 신분증 확인을 넘어선 '대화 속 모순점(거짓말) 탐지'와 '소지품 대조'라는 논리적 추리 퍼즐 요소를 강화하여 게임의 깊이와 템포를 개선했습니다.",
+        "core_user_experience_ko": "플레이어가 잠입 장소(예: VIP 갈라쇼)에 입장하면, 화면에 무작위로 생성된 6명의 용의자(NPC) 프로필 카드와 일러스트가 표시됩니다. 플레이어는 특정 인물을 터치해 대화 창을 열고, 그들의 진술(예: '저는 평범한 사업가입니다', '초대장을 소지하고 있습니다')과 소지품 상태를 확인합니다. 진술 내용 중 직업군이나 알리바이와 배치되는 모순(예: 거친 손과 비싼 수트의 부조화, 위조된 초대장 번호)을 발견하고 [거짓말 지적] 또는 [체포] 버튼을 눌러 범죄자를 검거합니다. 정답일 경우 승진 포인트와 보상을 얻고, 오답일 경우 페널티를 받으며 템포 빠르게 다음 수사로 넘어갑니다.",
+        "features_ko": [
+          {
+            "feature_ko": "무작위 용의자 및 진술 조합 생성기",
+            "user_action_and_behavior_ko": "스테이지 진입 시 직업, 알리바이 텍스트, 소지품 아이템, 모순 단서가 조합된 6명의 캐릭터를 동적으로 생성합니다. 플레이어는 각 인물의 프로필을 비교하며 이질감을 탐색하고, 관찰력을 발휘하는 재미를 느낍니다.",
+            "practical_implementation_ko": "C# 기반의 스크립트로 직업 풀(Pool), 진술 템플릿 데이터베이스(JSON), 소지품 리스트를 무작위로 매칭하는 팩토리 클래스를 구현하여 가벼운 연산으로 다양한 조합을출력합니다."
+          },
+          {
+            "feature_ko": "문맥 기반 거짓말 탐지 대화 인터페이스",
+            "user_action_and_behavior_ko": "용의자의 대사 중 특정 키워드(예: '손에 굳은살이 없다', '출입증 위조')를 터치하거나 소지품과 대조하여 모순을 증명합니다. 정확한 모순점을 짚어내면 체포 성공 확률이 급증합니다.",
+            "practical_implementation_ko": "UI 대화 팝업창 내에 선택지 버튼 및 텍스트 하이라이트 기능을 구현하고, 선택한 클루(Clue ID)와 캐릭터의 설정된 약점(Weakness ID)이 일치하는지 판정하는 조건문 로직을 적용합니다."
+          },
+          {
+            "feature_ko": "요원 계급 승진 및 장비 업그레이드 시스템",
+            "user_action_and_behavior_ko": "범죄자를 체포하여 획득한 승진 포인트로 '초급 요원'에서 '수석 국장'으로 승급하며, 새로운 잠입 장소와 수사 보조 도구(예: 미세 스캐너)를 해제하여 플레이의 동기부여를 높입니다.",
+            "practical_implementation_ko": "플레이어의 누적 점수를 로컬 스토리지에 저장하고, 특정 점수 도달 시 다음 스테이지 락(Lock) 해제 및 패시브 버프를 적용하는 매니저 싱글톤 구조로 관리합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 대기실 (아지트)",
+            "contents_and_actions_ko": "현재 요원 계급, 누적 승진 포인트 표시. [작전 시작] 버튼으로 잠입 장소 선택 맵으로 이동하며, 상점에서 수사 보조 장비를 구매할 수 있습니다."
+          },
+          {
+            "screen_ko": "잠입 현장 (수사 캔버스)",
+            "contents_and_actions_ko": "배경 일러스트 위에 배치된 6명의 용의자 캐릭터 카드 표시. 잔여 시간 타이머, 현재 찾아야 할 범인 수 표시. 카드를 탭하면 대화 및 검문 팝업 호출."
+          },
+          {
+            "screen_ko": "대화 및 검문 팝업",
+            "contents_and_actions_ko": "선택된 용의자의 초상화, 자기소개 대사, 소지품 아이콘 리스트 출력. 플레이어는 [진술 검증], [소지품 조사], [체포하기] 또는 [돌아가기] 중 선택 가능."
+          },
+          {
+            "screen_ko": "작전 결과 정산 화면",
+            "contents_and_actions_ko": "제한 시간 내 검거한 범인 수, 오답 횟수, 최종 획득 승진 포인트 정산. 승진 조건 충족 시 계급 상승 연출 노출 후 대기실로 복귀."
+          }
+        ],
+        "implementation_approach_ko": "크로스 플랫폼 모바일 환경에 최적화된 Unity 엔진(C#)과 Universal Render Pipeline(2D)을 채택합니다. 1인 개발 환경에서 UI 레이아웃 관리, 팝업 상태 머신 구현, JSON 데이터 파싱이 직관적이기 때문입니다. 대안으로는 가벼운 웹 기반 하이브리드 앱이나 Flutter Canvas를 고려할 수 있으나, 풍부한 2D 애니메이션과 터치 반응성을 고려할 때 Unity가 가장 안정적입니다.",
+        "data_and_storage_ko": [
+          "PlayerProfile 객체: user_id, rank_level, promotion_points, unlocked_stage_list, equipment_list를 포함하며, 앱 종료 시 JSON 형식으로 직렬화하여 로컬 저장소(PlayerPrefs 또는 암호화된 파일 시스템)에 저장합니다.",
+          "StageTemplate 데이터: stage_id, location_name, required_points, suspect_count, time_limit을 정의하는 정적 JSON 설정 파일로 관리합니다.",
+          "CharacterInstance 데이터: 런타임 중에 스테이지 진입 시 무작위로 생성되는 동적 객체로, char_id, job, statement_list, inventory_item, is_criminal, contradiction_id 속성을 지닙니다.",
+          "데이터 저장 시점: 스테이지 클리어 직후 및 상점 아이템 구매 완료 시 즉시 로컬 파일 I/O를 수행하여 데이터 유실을 방지합니다."
+        ],
+        "mvp_scope_ko": "첫 번째 프로토타입(MVP)은 1개의 잠입 장소(VIP 파티장), 무작위 생성되는 6명의 용의자 캐릭터, 기본 대화 및 모순 검증 판정, 체포 및 승진 점수 정산 루프까지만 구현합니다. 멀티플레이어 기능, 복잡한 사운드 트랙, 다양한 의상 커스터마이징, 고급 애니메이션 효과는 제외하여 1인 개발 공수를 최소화하고 핵심 추리 루프의 재미를 빠르게 검증합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 환경 구축 및 데이터 스키마 정의",
+            "deliverable_and_check_ko": "Unity 프로젝트 기본 설정, UI 캔버스 해상도 대응 설정, 스테이지 및 용의자 진술 데이터가 담긴 JSON 스키마 구조 작성. (실행 확인: JSON 파일 정상 파싱 여부 로그 출력 점검)"
+          },
+          {
+            "stage_ko": "2단계: 메인 대기실 및 잠입 장소 UI 레이아웃 구현",
+            "deliverable_and_check_ko": "대기실 화면, 장소 선택 맵, 6명의 용의자 카드가 배치되는 수사 캔버스 UI 프리팹 제작. (실행 확인: 버튼 터치 시 화면 전환 및 팝업 오픈 정상 작동 점검)"
+          },
+          {
+            "stage_ko": "3단계: 대화, 소지품 검사 및 거짓말 탐지 코어 로직 구현",
+            "deliverable_and_check_ko": "용의자별 진술 대사 출력, 소지품 아이콘 툴팁, 모순점 판정 시스템(거짓말 탐지 알고리즘) 구현. (실행 확인: 올바른 모순 선택 시 체포 성공 판정 및 오답 시 페널티 적용 점검)"
+          },
+          {
+            "stage_ko": "4단계: 체포 연출, 승진 시스템 및 로컬 저장 기능 통합",
+            "deliverable_and_check_ko": "체포 성공/실패 시각적 피드백, 승진 포인트 정산, 로컬 파일 저장/로드 모듈 연동. (실행 확인: 앱 재시작 시 플레이어 승진 포인트 및 계급 유지 점검)"
+          },
+          {
+            "stage_ko": "5단계: 밸런싱 및 빌드 테스트",
+            "deliverable_and_check_ko": "진술 텍스트 템플릿 다양화, 타이머 제한 시간 조정, Android APK 빌드 생성. (실행 확인: 모바일 기기에서의 터치 반응 속도 및 레이아웃 깨짐 여부 점검)"
+          }
+        ],
+        "possible_extensions_ko": "핵심 추리 루프가 안정화된 이후, 요원 특수 스킬(예: 3초 동안 진짜 범인의 오라를 미세하게 보여주는 스캐너 아이템), 제한 시간 내 폭탄 테러범을 찾아내는 긴급 돌발 이벤트 미션, 수사 성과로 얻은 자금으로 아지트를 꾸미는 하우징 시스템 등을 확장 콘텐츠로 고려할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "기술/기획 리스크: 텍스트 템플릿과 모순 조합이 단순할 경우 플레이어가 패턴을 쉽게 파악하여 반복 플레이 시 지루함을 느낄 수 있음.",
+          "미확정 새 규칙과 확인 방법: 진술 모순을 절차적 알고리즘으로 완전 자동 생성할 것인가, 수동으로 큐레이션된 시나리오 팩을 사용할 것인가? 초기 MVP 단계에서는 수동 큐레이션된 30개의 핵심 시나리오 조합을 기본으로 삼고, 이후 절차적 생성 알고리즘을 점진적으로 도입하여 테스트할 예정입니다.",
+          "원작 정보의 한계: 원작의 구체적인 판별 로직 수치를 알 수 없으므로, 자체 제작한 난이도 곡선과 타이머 제한을 플레이테스트를 통해 직접 조율해야 합니다."
+        ],
+        "draft_status_ko": "본 문서는 '비밀 요원의 잠입 관찰 일지' 기획을 바탕으로 모바일 게임 프로토타입을 제작하기 위한 개발 설계 초안이며, 실제 플레이테스트나 성능 최적화, 수치 밸런싱 검증은 아직 완료되지 않았습니다."
+      },
+      "plan_at": "2026-11-19T09:11:17+09:00",
+      "plan_quota_day": "2026-11-19",
+      "plan_usage": {
+        "promptTokenCount": 2076,
+        "candidatesTokenCount": 2791,
+        "totalTokenCount": 7200,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2076
+          }
+        ],
+        "thoughtsTokenCount": 2333,
         "serviceTier": "standard"
       }
     }

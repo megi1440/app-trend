@@ -14041,6 +14041,185 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-18"
+    },
+    "apple:6761386270": {
+      "app_key": "apple:6761386270",
+      "name": "Google Wallet",
+      "developer": "Google",
+      "source": "apple",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://apps.apple.com/us/app/google-wallet/id6761386270?uo=2",
+      "data_date": "2026-11-19",
+      "analysed_at": "2026-11-19T07:44:34+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Google Wallet is a secure, private app that connects with Gmail and your other Google apps to bring your orders, receipts, boarding passes, tickets, and loyalty cards together. It automatically tracks delivery and travel updates, saving you time and keeping everything organized in one place. Saved payment methods let you breeze through checkout online and across Google. In-store tap-to-pay is not supported on iOS at this time. Key Features: Always in Sync • Pull up delivery statuses and travel details on any device where you're signed in to your Google Account. Find Orders in Seconds • Wallet gathers receipts and shipping updates from Gmail, so you can check any delivery without opening the retailer's app. Scan Physical Cards and Barcodes • Easily digitize physical loyalty cards, gym memberships, and barcode passes using your iPhone camera. Tickets and Loyalty Cards, Ready When You Need Them • Boarding passes, concert tickets, and loyalty cards from your inbox are organized and ready to show. Safe and Private • Your order history, personal data, and payment details are protected by Google's security and privacy controls. You choose what Wallet imports from Gmail. Faster Online Checkout • Securely manage your saved payment methods in one place, so you can breeze through purchases online and across Google. (Note: In-store tap-to-pay is not supported on iOS. Google Wallet on iPhone is designed for automated package tracking, managing passes, tickets, and loyalty cards, and fast online checkout.)",
+      "analysis": {
+        "app_key": "apple:6761386270",
+        "summary_ko": "Google Wallet은 Gmail 및 기타 Google 앱과 연동하여 주문 내역, 영수증, 탑승권, 티켓 등을 한곳에서 관리하는 앱입니다. 배송 상태를 자동으로 추적하고 온라인 결제 정보를 안전하게 관리합니다. iOS 환경에서는 오프라인 탭 결제를 지원하지 않으며, 정보 관리 및 온라인 결제 최적화에 집중합니다.",
+        "features_ko": [
+          "Gmail과 연동하여 주문 내역과 영수증을 자동으로 수집합니다.",
+          "배송 상태 및 여행 정보를 실시간으로 추적하여 동기화합니다.",
+          "물리적 카드나 바코드를 스캔하여 디지털 패스로 저장할 수 있습니다.",
+          "Google 계정으로 로그인된 모든 기기에서 정보를 동기화합니다.",
+          "저장된 결제 수단을 통해 온라인에서 빠른 결제를 지원합니다."
+        ],
+        "noteworthy_ko": "사용자의 이메일 데이터를 파싱하여 구조화된 정보로 변환하는 데이터 처리 능력이 핵심입니다. 보안이 중요한 금융/개인정보를 다루므로 Google의 보안 컨트롤을 활용한 데이터 보호 설계가 매우 흥미롭습니다.",
+        "development_ko": "이메일 파싱 엔진과 데이터 구조화 기술이 필요합니다. 보안을 위한 암호화 저장소 구현과 Google 계정 연동 API 활용이 필수적입니다. 다양한 티켓/바코드 포맷을 지원하기 위한 렌더링 엔진 설계가 중요합니다.",
+        "idea_ko": "사용자가 직접 수동으로 영수증을 촬영하여 가계부 앱과 연동하는 기능을 추가할 수 있습니다.",
+        "highlights_ko": [
+          "Gmail과의 강력한 연동을 통해 정보 관리의 자동화를 구현했습니다.",
+          "온라인 결제 시 보안과 편의성을 동시에 고려한 설계를 갖추고 있습니다."
+        ],
+        "systems_ko": [
+          "이메일 데이터 파싱 시스템",
+          "보안 데이터 저장소",
+          "바코드/QR 코드 렌더링",
+          "계정 동기화 관리자",
+          "결제 정보 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "개인정보와 결제 정보를 다루는 앱은 매우 높은 수준의 보안 구현이 필요합니다. 또한, 외부 서비스(Gmail)와의 연동은 API 제한 및 데이터 프라이버시 정책 준수가 까다로워 1인 개발자가 구현하기에는 위험 요소가 많습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "수동 카드/티켓 정보 입력",
+            "데이터 로컬 저장 기능"
+          ],
+          "defer": [
+            "Gmail 자동 연동",
+            "온라인 결제 연동"
+          ],
+          "risks": [
+            "개인정보 보안 사고",
+            "외부 API 연동 정책 위반"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "개인 자산 관리 대시보드",
+            "concept": "저장된 영수증 데이터를 기반으로 월별 소비 패턴을 시각화해 주는 대시보드를 제공합니다.",
+            "first_step": "영수증 데이터의 카테고리 분류 및 차트 구현."
+          },
+          {
+            "title": "디지털 멤버십 지갑",
+            "concept": "결제 기능 없이 순수하게 멤버십 카드와 바코드만을 관리하는 단순 지갑 앱입니다.",
+            "first_step": "바코드 생성 및 이미지 저장 기능 구현."
+          }
+        ],
+        "recommendation_ko": "보안이 중요한 앱의 데이터 구조 설계와 API 연동 방식을 학습하기에 좋습니다. 다만, 실제 결제나 민감한 개인정보를 다루는 앱은 1인 개발 시 매우 신중해야 합니다.",
+        "source_limitations_ko": "Google의 내부 보안 알고리즘이나 Gmail 연동을 위한 구체적인 API 권한 범위는 공개되지 않았습니다. iOS에서의 오프라인 결제 미지원 등 플랫폼 제약 사항을 명확히 인지해야 합니다.",
+        "name": "Google Wallet",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/google-wallet/id6761386270?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 183,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-19"
+    },
+    "google:com.pdfile.reader.lite": {
+      "app_key": "google:com.pdfile.reader.lite",
+      "name": "Lite PDFビューア＆管理・共有",
+      "developer": "Asian Aesthetic Alliance",
+      "source": "google",
+      "country": "JP",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.pdfile.reader.lite&hl=ja&gl=JP",
+      "data_date": "2026-11-19",
+      "analysed_at": "2026-11-19T07:45:48+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Lite PDF Reader - PDF Viewer – 仕事と学習のためのオールインワンドキュメントアプリ。 使いやすいPDFリーダーとドキュメント管理ツールをお探しですか？Lite PDF Reader - PDF Viewerは、すべてのPDF文書やファイルを一つの場所で読んだり、管理したり、整理したりするのに役立ちます。マルチフォーマットに対応した真のファイルリーダーとして、PDF、Word、Excel、PPTまで、あらゆるファイルをスムーズに開くことができます。Excel表示機能により、スプレッドシートの確認も簡単です。 Android向けのPDFビューアや一般的なPDFビューアアプリであるだけでなく、画像をPDFに変換、写真をPDFに、PNGをPDFに、無料で画像をPDFに変換するなどの便利なPDFツールも搭載。無料のPDFメーカーやPDFページメーカーが必要ですか？写真をPDFに変換したり、フォトPDFコンバーターとしても使えます。内蔵のドキュメントスキャナーでスキャンしてPDFに変換することも可能（デバイス上のファイルをスキャン済みPDFとして整理）。ファイルを管理し、すべてのドキュメントを整理整頓しましょう。 🚀 主な機能 ✨ ドキュメントリーダー＆ファイルリーダー PDF、Word、Excel、PPTを開いて表示 – 真のマルチフォーマット対応 ページ単位または連続スクロールのスムーズな操作 – PDFビューア＆リーダーとしての快適な体験 拡大・縮小で読みやすく – 無料PDFリーダーアプリとしても最適 ✨ PDFツール＆ファイル管理 画像をPDFに変換 / 写真をPDF / PNGをPDF / 無料で画像をPDFに スキャンしてPDF化＆ドキュメントスキャン – ドキュメントスキャナーとして機能 名前変更、削除、共有、またはお気に入りPDFファイルとしてマーク – すぐにアクセス可能 💡 Lite PDF Reader - PDF Viewerを選ぶ理由 Excel表示などを含むマルチフォーマットに対応 – 日常作業における真のPDFエキスパート 軽量なPDFアプリ – Android向けPDFビューア、PDFビューアアプリ、PDFリーダービューアが一つに統合 PDFビジネス、学習、個人向けPDF文書管理に最適 無料で使えるコアPDF機能 – 有料のPDFelementやPDF Gearは不要；無料でPDFエキスパートレベルの体験を ファイルリーダー、ドキュメントビューア、PDFスキャナーとしても機能 カメラスキャナー風の整理・変換機能 PDFを読む、ファイルを管理する、ドキュメントをスキャンする、写真をPDFに変換する、信頼できるPDFメーカーを使う – どんなニーズにも、このPDFビューア＆リーダーがあれば、すべてのドキュメントを簡単に処理できます。 👉 今すぐLite PDF Reader - PDF Viewerをダウンロード – PDFをExcelに（表示、ツールで変換）、PDFコンバーター、日常の生産性をすべて一つにまとめたスマートなファイルアプリです。",
+      "analysis": {
+        "app_key": "google:com.pdfile.reader.lite",
+        "summary_ko": "PDF, Word, Excel, PPT 등 다양한 문서 형식을 열람하고 관리할 수 있는 통합 문서 뷰어 앱입니다. 이미지 파일을 PDF로 변환하거나 내장 스캐너를 통해 문서를 디지털화하는 기능을 제공합니다. 일상적인 문서 작업과 정리를 위한 생산성 도구입니다.",
+        "features_ko": [
+          "PDF, Word, Excel, PPT 등 다중 포맷 문서 열람을 지원합니다.",
+          "문서 페이지 단위 또는 연속 스크롤 보기 기능을 제공합니다.",
+          "이미지 파일을 PDF로 변환하는 기능을 포함합니다.",
+          "내장 카메라를 활용한 문서 스캔 및 PDF 저장 기능을 제공합니다.",
+          "파일 이름 변경, 삭제, 즐겨찾기 등 파일 관리 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "다양한 파일 형식을 하나의 앱에서 처리하는 통합 환경을 제공하는 점이 특징입니다. 여러 라이브러리를 조합하여 파일 변환과 뷰어 기능을 구현하는 방식이 개발 관점에서 흥미롭습니다.",
+        "development_ko": "각 문서 포맷을 렌더링하기 위한 오픈소스 라이브러리 활용이 핵심입니다. 이미지 처리 및 PDF 변환 알고리즘 구현이 필요하며, 파일 시스템 접근 권한 관리가 중요합니다. UI는 문서 가독성을 높이는 방향으로 설계해야 합니다.",
+        "idea_ko": "특정 문서 내의 텍스트를 추출하여 요약해주는 'AI 문서 요약 도우미' 기능을 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "다양한 문서 형식을 지원하여 여러 앱을 설치할 필요 없는 통합 경험을 제공합니다.",
+          "스캔부터 변환, 관리까지 문서 처리의 전 과정을 지원합니다."
+        ],
+        "systems_ko": [
+          "파일 시스템 접근 및 관리",
+          "문서 렌더링 엔진",
+          "이미지-PDF 변환 모듈",
+          "카메라 스캔 인터페이스",
+          "검색 및 필터링 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "문서 렌더링과 변환은 기존의 검증된 라이브러리를 활용하면 구현 가능합니다. 다만, 다양한 파일 포맷의 호환성을 유지하고 안정적인 파일 관리 시스템을 구축하는 데 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "PDF 뷰어 기능",
+            "파일 탐색기 UI",
+            "이미지 스캔 및 PDF 변환"
+          ],
+          "defer": [
+            "Word/Excel 편집 기능",
+            "클라우드 연동 기능"
+          ],
+          "risks": [
+            "파일 포맷 호환성 문제",
+            "OS별 파일 접근 권한 정책 변화"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "문서 자동 분류기",
+            "concept": "스캔한 문서의 내용을 분석하여 자동으로 폴더를 분류하고 이름을 지정해주는 도구입니다.",
+            "first_step": "이미지에서 텍스트를 추출하는 OCR 라이브러리 연동."
+          },
+          {
+            "title": "공유용 문서 워터마크 도구",
+            "concept": "PDF 문서에 사용자 지정 워터마크를 삽입하여 공유하는 기능입니다.",
+            "first_step": "PDF 파일에 이미지 레이어를 겹치는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "파일 입출력과 외부 라이브러리 연동을 통한 생산성 앱 개발 경험을 쌓기에 적합합니다. 다만, 보안과 관련된 문서 처리 앱이므로 권한 관리 학습이 필수적입니다.",
+        "source_limitations_ko": "소개문에는 사용된 특정 라이브러리 정보나 보안 암호화 방식, 클라우드 저장소 연동 여부에 대한 구체적인 정보가 없습니다.",
+        "name": "Lite PDFビューア＆管理・共有",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.pdfile.reader.lite&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-19"
     }
   }
 }

@@ -11711,6 +11711,180 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-18"
+    },
+    "itch:d2da3506d6024104a210": {
+      "app_key": "itch:d2da3506d6024104a210",
+      "name": "Terra Cresta - Amiga AGA Port (Beta) [Free] [Shooter]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://caiusarcade.itch.io/terra-cresta-amiga-aga-port-beta",
+      "data_date": "2026-11-19",
+      "analysed_at": "2026-11-19T07:42:54+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "The 1985 arcade shooter on AGA Amigas: native 68000 arcade code, original FM music, DIP switches on screen.",
+      "analysis": {
+        "app_key": "itch:d2da3506d6024104a210",
+        "summary_ko": "1985년 아케이드 슈팅 게임 'Terra Cresta'의 Amiga AGA 버전 포트입니다. 원작의 아케이드 코드와 FM 음악을 유지하며, 화면 내 DIP 스위치 설정 기능을 포함하고 있습니다.",
+        "features_ko": [
+          "원작 아케이드 게임의 68000 코드를 네이티브로 실행합니다.",
+          "오리지널 FM 사운드를 그대로 재현합니다.",
+          "화면상에서 DIP 스위치를 조작하여 게임 설정을 변경할 수 있습니다."
+        ],
+        "noteworthy_ko": "이 앱은 새로운 게임이 아니라 기존 게임의 이식(Porting) 프로젝트입니다. 하드웨어 에뮬레이션이나 고전 코드 이식에 관심이 있는 개발자에게는 기술적 참고 자료가 될 수 있습니다.",
+        "development_ko": "고전 하드웨어 아키텍처에 대한 이해가 필수적입니다. 기존 코드를 현대 환경에서 실행하기 위한 에뮬레이션 레이어 구축이 핵심입니다. 테스트 시에는 원작과의 동작 일치성을 확인하는 것이 가장 중요합니다.",
+        "idea_ko": "고전 게임의 DIP 스위치 설정을 현대적인 UI로 시각화하여 초보자도 쉽게 난이도를 조절할 수 있게 만드는 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "고전 아케이드 게임의 원형 보존.",
+          "DIP 스위치 설정을 통한 사용자 편의성 제공."
+        ],
+        "systems_ko": [
+          "68000 CPU 에뮬레이션 레이어",
+          "FM 사운드 재생 엔진",
+          "DIP 스위치 설정 인터페이스",
+          "입력 매핑 시스템",
+          "비디오 출력 처리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "하드웨어 수준의 코드 이식과 에뮬레이션은 매우 높은 수준의 프로그래밍 지식을 요구합니다. 일반적인 게임 개발과는 다른 영역의 기술이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 에뮬레이션 환경",
+            "입력 처리",
+            "화면 출력"
+          ],
+          "defer": [
+            "추가적인 편의 기능",
+            "그래픽 필터링"
+          ],
+          "risks": [
+            "원작 코드와의 호환성 문제",
+            "저작권 및 라이선스 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "설정 시각화 대시보드",
+            "concept": "복잡한 DIP 스위치 설정을 그래픽 UI로 변환하여 게임 시작 전 난이도와 생명 수를 직관적으로 설정하게 합니다.",
+            "first_step": "DIP 스위치 값과 UI 슬라이더를 연결하는 기능 구현."
+          },
+          {
+            "title": "리플레이 저장 기능",
+            "concept": "고전 게임의 입력 데이터를 기록하여 리플레이를 저장하고 공유하는 시스템입니다.",
+            "first_step": "입력 키 값을 시간대별로 기록하고 재생하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "고전 게임의 구조와 에뮬레이션 기술에 관심이 있는 개발자에게 추천합니다. 일반적인 게임 개발과는 다른 하드웨어 레벨의 접근 방식을 배울 수 있습니다.",
+        "source_limitations_ko": "이 앱은 포트 프로젝트이므로 원작의 저작권 상태나 이식 과정에서의 구체적인 기술적 난관은 알 수 없습니다.",
+        "name": "Terra Cresta - Amiga AGA Port (Beta) [Free] [Shooter]",
+        "source": "itch",
+        "detail_url": "https://caiusarcade.itch.io/terra-cresta-amiga-aga-port-beta",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 335,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 15,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-19"
+    },
+    "apple:6757301677": {
+      "app_key": "apple:6757301677",
+      "name": "경찰민원24",
+      "developer": "경찰청",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://apps.apple.com/kr/app/%EA%B2%BD%EC%B0%B0%EB%AF%BC%EC%9B%9024/id6757301677?uo=2",
+      "data_date": "2026-11-19",
+      "analysed_at": "2026-11-19T07:44:58+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "경찰청 민원 업무 서비스 통합 플랫폼 \"경찰민원24\" 입니다. 경찰청 민원 업무를 편리하게 신청하실 수 있도록 하나로 통합되는 민원업무 통합 플랫폼을 이용해보세요.",
+      "analysis": {
+        "app_key": "apple:6757301677",
+        "summary_ko": "경찰청 민원 업무를 통합하여 제공하는 서비스 플랫폼입니다. 다양한 경찰 관련 민원을 하나의 앱에서 편리하게 신청할 수 있도록 지원합니다.",
+        "features_ko": [
+          "경찰청 민원 업무를 통합하여 제공합니다.",
+          "민원 신청 과정을 간소화하여 편의성을 높였습니다."
+        ],
+        "noteworthy_ko": "공공 서비스의 통합 플랫폼으로서 사용자 접근성을 높이는 것이 목적입니다. 기능보다는 공공 데이터 연동과 보안성이 핵심인 앱입니다.",
+        "development_ko": "공공 API 연동을 위한 보안 통신 구현이 필수적입니다. 사용자 인증 및 개인정보 보호를 위한 강력한 보안 체계가 요구됩니다. 민원 처리 상태를 실시간으로 확인하기 위한 서버 연동이 중요합니다.",
+        "idea_ko": "민원 처리 진행 상황을 푸시 알림으로 상세히 안내하고, 자주 묻는 질문을 챗봇으로 해결하는 기능을 추가하면 사용자 편의성이 크게 향상될 것입니다.",
+        "highlights_ko": [
+          "경찰청 민원 업무를 단일 플랫폼으로 통합하여 접근성을 개선했습니다.",
+          "사용자 중심의 민원 신청 프로세스를 제공합니다."
+        ],
+        "systems_ko": [
+          "공공 API 연동 시스템",
+          "사용자 인증 및 보안 시스템",
+          "민원 데이터 관리 시스템",
+          "알림 서비스 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "공공 서비스 앱은 높은 수준의 보안과 데이터 무결성이 요구됩니다. 개인 개발자가 공공 기관의 API를 연동하고 보안 규정을 준수하며 운영하는 것은 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "본인 인증 시스템",
+            "민원 신청 폼 UI"
+          ],
+          "defer": [
+            "실시간 챗봇",
+            "복잡한 민원 처리 상태 추적"
+          ],
+          "risks": [
+            "개인정보 유출 및 보안 사고",
+            "공공 API 연동 권한 획득의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "민원 진행 알림 챗봇",
+            "concept": "민원 신청 후 처리 단계를 챗봇이 친절하게 설명해 주는 기능입니다. 사용자가 궁금해하는 내용을 즉시 답변합니다.",
+            "first_step": "간단한 FAQ 챗봇 UI를 구현합니다."
+          },
+          {
+            "title": "민원 서류 미리보기",
+            "concept": "신청 서류를 작성하기 전 미리보기 기능을 통해 오류를 방지합니다.",
+            "first_step": "입력된 데이터를 기반으로 서류 양식을 생성하는 로직을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "공공 서비스 앱의 UI/UX 설계와 보안의 중요성을 이해하는 데 도움이 됩니다. 다만, 실제 서비스 개발은 법적/기술적 장벽이 높으므로 학습용으로만 접근하는 것을 권장합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 민원 종류나 연동되는 공공 API의 상세 정보가 없습니다. 보안 인증 방식이나 데이터 처리 과정은 전혀 확인되지 않습니다.",
+        "name": "경찰민원24",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EA%B2%BD%EC%B0%B0%EB%AF%BC%EC%9B%9024/id6757301677?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 174,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-19"
     }
   }
 }

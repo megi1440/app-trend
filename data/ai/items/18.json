@@ -11014,6 +11014,450 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-18"
+    },
+    "itch:597f699e075d1ebb05cd": {
+      "app_key": "itch:597f699e075d1ebb05cd",
+      "name": "Under The Blue Skies of Spain [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://willybel.itch.io/blue-skies-spain",
+      "data_date": "2026-11-19",
+      "analysed_at": "2026-11-19T07:43:13+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Free fast-paced air combat in the Spanish Civil War. Choose a side and fight through intense dogfights.",
+      "analysis": {
+        "app_key": "itch:597f699e075d1ebb05cd",
+        "summary_ko": "Under The Blue Skies of Spain은 스페인 내전을 배경으로 한 빠른 속도의 공중전 게임입니다. 플레이어는 진영을 선택하여 치열한 도그파이트를 경험할 수 있습니다.",
+        "features_ko": [
+          "스페인 내전을 배경으로 한 공중전 액션을 제공합니다.",
+          "두 진영 중 하나를 선택하여 전투에 참여할 수 있습니다.",
+          "빠른 속도의 도그파이트 전투 메커니즘을 포함합니다."
+        ],
+        "noteworthy_ko": "역사적 배경을 활용한 공중전 게임으로, 비행 물리와 사격 시스템의 조화가 핵심일 것으로 추정됩니다. 1인 개발 시 비행기 조작감 구현이 가장 큰 도전 과제입니다.",
+        "development_ko": "비행 물리 엔진 구현과 적기 AI 제작이 핵심입니다. 공중전의 속도감을 살리기 위한 최적화와 탄도학 계산이 필요합니다.",
+        "idea_ko": "비행기 커스터마이징을 통해 성능을 강화하는 공중전 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "스페인 내전이라는 구체적인 역사적 배경을 채택했습니다.",
+          "빠른 속도의 도그파이트를 지향하는 액션 게임입니다."
+        ],
+        "systems_ko": [
+          "비행 물리 제어 시스템",
+          "공중 사격 및 탄도학",
+          "적기 AI 및 비행 패턴",
+          "전투 상태 및 UI 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "비행 물리 구현과 공중전 AI는 1인 개발 시 난이도가 높습니다. 특히 3D 공간에서의 전투 판정은 정교한 작업이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 비행 조작",
+            "사격 시스템",
+            "적기와의 기본 전투"
+          ],
+          "defer": [
+            "다양한 기체 종류",
+            "캠페인 모드",
+            "고급 그래픽 효과"
+          ],
+          "risks": [
+            "비행 조작감의 불쾌함",
+            "적기 AI의 부자연스러운 움직임"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "에이스 파일럿",
+            "concept": "적기를 격추할수록 기체를 업그레이드하는 공중전 게임입니다. 기동성, 화력, 방어력 중 하나를 선택하여 성장시킵니다.",
+            "first_step": "기체 능력치 시스템과 업그레이드 UI 구현."
+          },
+          {
+            "title": "공중 방어전",
+            "concept": "밀려오는 적기들로부터 아군 폭격기를 보호하는 미션 중심의 공중전입니다. 방어 대상과의 거리 유지가 핵심입니다.",
+            "first_step": "아군 보호 대상 AI와 적기 타겟팅 로직 구현."
+          }
+        ],
+        "recommendation_ko": "비행 물리와 3D 액션 게임 개발에 관심 있는 개발자에게 추천합니다. 물리 엔진을 활용한 조작감 구현을 배우기에 좋은 주제입니다.",
+        "source_limitations_ko": "게임의 시점(1인칭/3인칭), 구체적인 조작 방식, 전투의 규모, 역사적 고증 수준 등에 대한 정보가 부족합니다.",
+        "name": "Under The Blue Skies of Spain [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://willybel.itch.io/blue-skies-spain",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 314,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-19"
+    },
+    "itch:28a98fa5f407c494faa3": {
+      "app_key": "itch:28a98fa5f407c494faa3",
+      "name": "Crush It! [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://bolodev.itch.io/crush-it",
+      "data_date": "2026-11-19",
+      "analysed_at": "2026-11-19T07:43:32+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Things land in the arena. You turn them into rubble.",
+      "analysis": {
+        "app_key": "itch:28a98fa5f407c494faa3",
+        "summary_ko": "하늘에서 떨어지는 물체들을 파괴하여 잔해로 만드는 시뮬레이션 게임입니다. 방치형(idle) 요소가 포함된 단순한 파괴 경험을 제공합니다.",
+        "features_ko": [
+          "경기장으로 떨어지는 물체를 관찰합니다.",
+          "물체를 파괴하여 잔해로 변환합니다."
+        ],
+        "noteworthy_ko": "물리 기반의 파괴 효과와 반복적인 보상 루프가 핵심입니다. 시각적인 만족감을 주는 파괴 메커니즘 구현이 개발의 관건입니다.",
+        "development_ko": "핵심 기술은 물리 엔진을 활용한 오브젝트 파괴 및 생성입니다. 콘텐츠 제작은 다양한 물체 모델링과 파괴 효과 구현에 집중됩니다. 밸런스 조정 시 물체 낙하 속도와 파괴 보상의 적절한 비율을 맞추는 것이 중요합니다.",
+        "idea_ko": "물리 엔진을 활용한 파괴 시뮬레이션의 기본기를 익히는 데 적합합니다.",
+        "highlights_ko": [
+          "물체 낙하 및 파괴라는 직관적인 게임 규칙.",
+          "방치형 게임 특유의 반복적인 파괴 루프."
+        ],
+        "systems_ko": [
+          "오브젝트 생성 및 물리 처리",
+          "파괴 효과(Particle) 시스템",
+          "점수 및 보상 관리",
+          "게임 루프 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진의 설정과 파괴 효과 구현에 기술적 숙련도가 필요합니다. 최적화를 고려하지 않으면 다수의 오브젝트 처리 시 성능 문제가 발생할 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "물체 낙하 물리 시스템",
+            "클릭 시 파괴 로직",
+            "기본 점수 시스템"
+          ],
+          "defer": [
+            "다양한 파괴 도구",
+            "자동 파괴 업그레이드"
+          ],
+          "risks": [
+            "물리 연산 부하",
+            "단조로운 게임 플레이"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "운석 파괴자",
+            "concept": "우주에서 떨어지는 운석을 클릭해 파괴하는 게임입니다. 파괴 시 얻는 자원으로 방어막을 강화합니다.",
+            "first_step": "화면 상단에서 하단으로 이동하는 오브젝트를 클릭 시 삭제하는 기능을 구현합니다."
+          },
+          {
+            "title": "재활용 분쇄기",
+            "concept": "컨베이어 벨트에서 오는 쓰레기를 종류별로 분쇄하는 시뮬레이션입니다.",
+            "first_step": "컨베이어 벨트 이동 로직과 클릭 시 오브젝트가 사라지는 효과를 만듭니다."
+          }
+        ],
+        "recommendation_ko": "물리 엔진과 파티클 시스템을 활용한 시각적 효과를 공부하기 좋습니다. 단순한 반복 작업이 지루하지 않도록 보상 체계를 설계하는 연습을 추천합니다.",
+        "source_limitations_ko": "소개문이 짧아 파괴 방식(클릭, 자동 등)이나 구체적인 게임 모드, 업그레이드 요소의 유무는 알 수 없습니다. 명시되지 않은 결제나 광고 기능은 구현하지 마십시오.",
+        "name": "Crush It! [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://bolodev.itch.io/crush-it",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 302,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-19"
+    },
+    "apple:6835037795": {
+      "app_key": "apple:6835037795",
+      "name": "RUB A DUB & CYPHER PLAYER",
+      "developer": "MASAHARU KOBAYASHI",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/jp/app/rub-a-dub-cypher-player/id6835037795",
+      "data_date": "2026-11-19",
+      "analysed_at": "2026-11-19T07:44:12+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "RUB A DUB & CYPHER PLAYER レゲエディージェイ＆ラッパーのための練習用ミュージックプレイヤー！ 好きなリディムやビートを読み込んで、いつでもどこでもラバダブやサイファーの練習ができるiPhoneアプリです。 【主な機能】 ・ワンタッチMUTEでリディムやビートを瞬時に消音 ・ピッチ調整＆KEY LOCKでテンポを自由にコントロール ・ターンテーブル操作によるスクラッチ ・CUEポイントの設定 ・BPMの自動解析と手動設定 ・リディムやビートのライブラリ管理 ・練習音声の録音 ・効果音サンプラー ・オフラインでの使用に対応 レゲエのラバダブからヒップホップのサイファーまで。 自分のスタイルで、自由に練習しよう！",
+      "analysis": {
+        "app_key": "apple:6835037795",
+        "summary_ko": "레게 및 힙합 아티스트를 위한 연습용 뮤직 플레이어입니다. 사용자가 보유한 비트나 리듬을 불러와 즉석에서 연습할 수 있는 환경을 제공합니다. 오프라인 환경에서도 동작하며, 음악 연습에 특화된 다양한 제어 기능을 포함하고 있습니다.",
+        "features_ko": [
+          "원터치 음소거 기능을 통해 비트나 리듬을 즉시 제거할 수 있습니다.",
+          "피치 조정 및 키 잠금 기능을 통해 음악의 템포와 음정을 자유롭게 제어합니다.",
+          "가상 턴테이블 조작으로 스크래치 효과를 낼 수 있습니다.",
+          "연습을 위한 큐 포인트 설정 및 BPM 자동/수동 분석 기능을 제공합니다.",
+          "연습 세션을 직접 녹음하여 자신의 스타일을 점검할 수 있습니다.",
+          "효과음 샘플러를 내장하여 연습 중 다양한 사운드를 추가할 수 있습니다."
+        ],
+        "noteworthy_ko": "음악 재생과 동시에 실시간 오디오 처리를 수행하는 점이 개발 관점에서 흥미롭습니다. 특히 피치와 템포를 독립적으로 제어하는 기능은 고도의 오디오 엔진 구현이 필요할 것으로 추정됩니다.",
+        "development_ko": "오디오 엔진 구현이 핵심이며, 실시간 피치 시프팅과 타임 스트레칭 기술이 필요합니다. 녹음 및 파일 관리 시스템 구축이 동반되어야 하며, 오디오 레이턴시를 최소화하는 것이 성능의 핵심입니다.",
+        "idea_ko": "사용자의 녹음 파일과 비트를 자동으로 믹싱하여 공유 가능한 짧은 클립으로 내보내는 기능을 추천합니다.",
+        "highlights_ko": [
+          "레게와 힙합 장르의 연습 환경에 최적화된 도구입니다.",
+          "오프라인 사용을 지원하여 장소에 구애받지 않는 연습이 가능합니다."
+        ],
+        "systems_ko": [
+          "오디오 재생 및 실시간 처리 엔진",
+          "파일 시스템 및 라이브러리 관리",
+          "오디오 녹음 및 저장 시스템",
+          "사용자 인터페이스(UI) 및 턴테이블 제어",
+          "BPM 분석 알고리즘"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 오디오 처리와 피치/템포 제어는 높은 수준의 프로그래밍 지식을 요구합니다. 또한, 다양한 오디오 포맷을 안정적으로 재생하고 녹음하는 과정에서 복잡한 예외 처리가 발생할 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "음악 파일 불러오기 및 재생",
+            "피치 및 템포 제어",
+            "음성 녹음 기능"
+          ],
+          "defer": [
+            "효과음 샘플러",
+            "자동 BPM 분석"
+          ],
+          "risks": [
+            "오디오 레이턴시 문제",
+            "다양한 기기에서의 오디오 코덱 호환성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "비트 챌린지 공유",
+            "concept": "사용자가 연습한 녹음본을 특정 비트와 결합하여 짧은 영상으로 생성합니다. SNS 공유 기능을 통해 다른 사용자와 연습 결과를 공유할 수 있습니다.",
+            "first_step": "녹음 파일과 배경 음악을 합성하는 오디오 믹싱 로직 구현."
+          },
+          {
+            "title": "자동 가사 메모장",
+            "concept": "연습 중 떠오르는 가사를 실시간으로 기록할 수 있는 메모장을 플레이어와 통합합니다. 특정 구간에 가사를 매칭하여 저장할 수 있습니다.",
+            "first_step": "재생 시간과 텍스트를 매칭하여 저장하는 데이터베이스 구조 설계."
+          }
+        ],
+        "recommendation_ko": "오디오 처리 기술과 실시간 데이터 제어에 관심 있는 개발자에게 추천합니다. 다만, 복잡한 오디오 라이브러리 사용이 필수적이므로 초보자에게는 다소 도전적일 수 있습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 오디오 엔진 기술이나 지원하는 파일 포맷, 외부 클라우드 연동 여부가 명시되어 있지 않습니다. 실제 구현 시 오디오 라이브러리의 라이선스 확인이 필요합니다.",
+        "name": "RUB A DUB & CYPHER PLAYER",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/rub-a-dub-cypher-player/id6835037795",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 222,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 6,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-19"
+    },
+    "google:com.watchfacestudio.d355": {
+      "app_key": "google:com.watchfacestudio.d355",
+      "name": "D355 프리미엄 워치 페이스",
+      "developer": "Yosash",
+      "source": "google",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.watchfacestudio.d355&hl=ko&gl=KR",
+      "data_date": "2026-11-19",
+      "analysed_at": "2026-11-19T07:44:34+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "D355는 삼성 갤럭시 워치와 구글 픽셀 워치를 위한 프리미엄 아날로그 워치 페이스입니다. 세련된 디자인, 다양한 컬러 테마, 실시간 건강 데이터, Always-On Display(AOD) 지원으로 시계를 특별하게 만드세요. 💎 스페셜 혜택: 1개 구매 → 1개 무료 제공! 👉 플레이스토어에 리뷰를 남기고 이메일을 보내면 추가 워치 페이스를 드립니다. 🔑 주요 기능 • 럭셔리한 아날로그 다이얼 디자인 • 20+ 컬러 테마 & 10종 핸드 스타일 • 사용자 지정 합병증 & 앱 바로가기 • 실시간 걸음수, 심박수, 배터리, 날짜 표시 • Always-On Display(AOD) 최적화 • Wear OS 3.5+ 스마트워치에 최적화된 부드러운 성능 📲 호환 기기 삼성 갤럭시 워치 4, 5, 6, 7, 8, Ultra 구글 픽셀 워치 (1 & 2) Fossil, TicWatch 등 Wear OS 3.5+ 기기 ⚙️ 설치 및 커스터마이징 방법 워치에서 Google Play 스토어 열기 → 바로 설치 워치 페이스 길게 누르기 → 사용자 지정(Customize) → 색상·핸드·합병증 설정 🌐 팔로우 & 소식 받기 📸 Instagram: https://instagram.com/yosash.watch 🐦 Twitter/X: https://x.com/yosash2 ▶️ YouTube: https://www.youtube.com/@yosash6013 📘 Facebook: https://facebook.com/yosash.watch 💬 Telegram: https://t.me/yosash_watch 🌍 Website: https://yosash.watch 💬 Support 📧 yosash.group@gmail.com",
+      "analysis": {
+        "app_key": "google:com.watchfacestudio.d355",
+        "summary_ko": "D355는 삼성 갤럭시 워치 및 구글 픽셀 워치용 아날로그 워치 페이스입니다. 다양한 컬러 테마와 핸드 스타일을 제공하며 실시간 건강 데이터와 배터리 상태를 표시합니다. Wear OS 3.5 이상 기기에 최적화되어 부드러운 사용자 경험을 제공합니다.",
+        "features_ko": [
+          "럭셔리한 아날로그 다이얼 디자인을 제공합니다.",
+          "20개 이상의 컬러 테마와 10종의 핸드 스타일을 선택할 수 있습니다.",
+          "사용자 지정 합병증(Complication)과 앱 바로가기 기능을 지원합니다.",
+          "걸음수, 심박수, 배터리, 날짜 등 실시간 데이터를 표시합니다.",
+          "Always-On Display(AOD) 모드를 지원하여 화면이 꺼져도 정보를 유지합니다."
+        ],
+        "noteworthy_ko": "Wear OS 환경에서 커스텀 합병증을 활용해 개인화된 정보를 제공하는 방식이 핵심입니다. 다양한 시각적 옵션을 제공하면서도 AOD 최적화를 통해 배터리 효율을 고려한 점이 개발 관점에서 흥미롭습니다.",
+        "development_ko": "Watch Face Format 또는 Jetpack Watch Face 라이브러리를 활용한 UI 구현이 핵심입니다. 다양한 기기 해상도에 대응하는 레이아웃 설계와 실시간 센서 데이터 연동이 필요합니다. AOD 모드에서의 픽셀 번인 방지 및 전력 소모 최적화가 주요 테스트 항목입니다.",
+        "idea_ko": "특정 테마(예: 우주, 자연)에 맞춰 합병증 디자인이 동적으로 변하는 인터랙티브 워치 페이스를 제안합니다.",
+        "highlights_ko": [
+          "다양한 커스터마이징 옵션을 통해 사용자 취향에 맞춘 디자인 변경이 가능합니다.",
+          "Wear OS 3.5 이상 기기에 최적화된 성능을 제공합니다."
+        ],
+        "systems_ko": [
+          "워치 페이스 렌더링 엔진",
+          "데이터 바인딩 시스템(건강 센서 연동)",
+          "사용자 설정 저장 및 관리 시스템",
+          "AOD 전력 최적화 로직"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "Wear OS 개발 가이드를 준수해야 하며, 다양한 기기 화면 크기에 대응하는 반응형 디자인 구현이 필요합니다. 센서 데이터 연동 자체는 API가 제공되나, 최적화 과정에서 세심한 관리가 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 아날로그 시계 UI",
+            "시간/날짜 표시 기능",
+            "AOD 모드 지원"
+          ],
+          "defer": [
+            "20개 이상의 컬러 테마",
+            "사용자 지정 합병증 설정"
+          ],
+          "risks": [
+            "기기별 호환성 문제",
+            "배터리 소모 최적화 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "감정 기반 컬러 워치 페이스",
+            "concept": "사용자가 설정한 오늘의 기분에 따라 워치 페이스의 색상 톤이 자동으로 변경됩니다.",
+            "first_step": "사용자 입력에 따라 테마 색상을 변경하는 기본 로직 구현."
+          },
+          {
+            "title": "미니멀리즘 목표 달성 페이스",
+            "concept": "걸음수 목표 달성률에 따라 시계 바늘의 형태가 점진적으로 변하는 시각적 피드백을 제공합니다.",
+            "first_step": "걸음수 데이터를 받아 시계 바늘의 길이나 두께를 조절하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "Wear OS 플랫폼의 UI/UX 가이드라인을 학습하기에 좋습니다. 디자인과 시스템 최적화의 균형을 맞추는 경험을 쌓을 수 있어 추천합니다.",
+        "source_limitations_ko": "제공된 정보 외의 결제 시스템 연동 방식이나 구체적인 데이터 처리 라이브러리는 확인되지 않습니다. 리뷰 이벤트 등 외부 마케팅 활동은 앱 내부 기능이 아니므로 구현 범위에서 제외해야 합니다.",
+        "name": "D355 프리미엄 워치 페이스",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.watchfacestudio.d355&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 204,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 12,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-19"
+    },
+    "google:com.jndapp.i.widgets.pack": {
+      "app_key": "google:com.jndapp.i.widgets.pack",
+      "name": "iWidgets",
+      "developer": "JustNewDesigns",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.jndapp.i.widgets.pack&hl=en&gl=US",
+      "data_date": "2026-11-19",
+      "analysed_at": "2026-11-19T07:46:12+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Transform your Android home screen with iWidgets Pro, a premium collection of elegantly designed widgets built for customization and productivity. iWidgets Pro offers a standalone experience—no additional apps like KWGT are required. With over 500 custom widgets, you can instantly give your device a clean, modern, and minimalist look inspired by top-tier design standards. Why Choose iWidgets Pro? 📱 Native & Standalone Enjoy a seamless experience with widgets that work natively on your device. No Complex Setup: Simply \"Tap to Add\" to your home screen. No Third-Party Apps: Works independently without needing KWGT or Zooper. 🎨 500+ High-Quality Widgets Our massive library includes over 350 responsive and 150 fixed widgets, ensuring a perfect fit for any screen size. Whether you want a minimal look or a data-rich layout, iWidgets Pro adapts to your style. Features & Categories: • Clock & Calendar Widgets Choose from clean digital displays, analog faces, and organized calendar layouts. • Battery Widgets Sleek battery indicators that blend perfectly with your wallpaper. • Weather Widgets Detailed forecasts, moon phases, and sunrise/sunset trackers. • Lifestyle & Health Step counters, screen time trackers, and daily activity monitors. • Productivity Widgets Keep track of tasks with To-Do lists, Notes, and Reminder widgets. • Photo Widgets Showcase your favorite memories directly on your home screen. • Utility Tools Quick access to Wi-Fi, Bluetooth, Flashlight, Calculator, and more. • Fun & Games Play Tic-Tac-Toe or roll Dice right from your home screen. Try It With Confidence If iWidgets Pro doesn’t meet your expectations, you can request a refund according to Google Play’s refund policy. You can also contact us within 24 hours of purchase if you need help. Support X (Twitter): x.com/JustNewDesigns Email: justnewdesigns@gmail.com Have a widget idea or feedback? Feel free to reach out. Designed to look good. Built to be useful. Download iWidgets Pro and customize your Android home screen with a clean,",
+      "analysis": {
+        "app_key": "google:com.jndapp.i.widgets.pack",
+        "summary_ko": "안드로이드 홈 화면을 꾸밀 수 있는 500개 이상의 위젯 컬렉션을 제공하는 앱입니다. 별도의 서드파티 앱 없이 독립적으로 작동하며, 시계, 날씨, 배터리 등 다양한 카테고리의 위젯을 지원합니다.",
+        "features_ko": [
+          "500개 이상의 다양한 디자인 위젯을 제공합니다.",
+          "별도의 추가 앱 설치 없이 독립적으로 실행됩니다.",
+          "시계, 달력, 날씨, 배터리 등 다양한 카테고리를 지원합니다.",
+          "간편한 '탭하여 추가' 방식으로 홈 화면에 배치합니다."
+        ],
+        "noteworthy_ko": "사용자 편의성을 위해 별도의 위젯 엔진(KWGT 등) 의존성을 제거한 점이 특징입니다. 이는 기술적으로 안드로이드 네이티브 위젯 API를 직접 구현했음을 시사합니다.",
+        "development_ko": "안드로이드 AppWidgetProvider API를 활용한 UI 구현이 핵심입니다. 다양한 화면 크기에 대응하는 반응형 레이아웃 설계와 리소스 최적화가 중요하며, 위젯 업데이트 주기에 따른 배터리 소모 관리도 고려해야 합니다.",
+        "idea_ko": "사용자의 위치나 시간에 따라 위젯의 테마가 자동으로 변경되는 '스마트 테마 전환' 기능을 추가하면 차별화가 가능합니다.",
+        "highlights_ko": [
+          "350개의 반응형 위젯과 150개의 고정형 위젯 구성.",
+          "생산성 도구부터 미니게임까지 폭넓은 기능 제공."
+        ],
+        "systems_ko": [
+          "안드로이드 위젯 API 연동",
+          "데이터 업데이트 주기 관리",
+          "UI 리소스 관리 시스템",
+          "사용자 설정 저장 및 불러오기"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "위젯 API 자체는 표준화되어 있으나, 500개 이상의 다양한 디자인을 일관성 있게 관리하고 최적화하는 작업은 상당한 공수가 듭니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 위젯 템플릿 5종",
+            "홈 화면 배치 기능",
+            "데이터 업데이트 로직"
+          ],
+          "defer": [
+            "500개 이상의 방대한 라이브러리",
+            "미니게임 위젯"
+          ],
+          "risks": [
+            "안드로이드 버전별 위젯 API 호환성 문제",
+            "배터리 소모 최적화 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "위젯 자동화 규칙",
+            "concept": "특정 시간이나 장소에 따라 위젯이 자동으로 바뀌는 규칙 설정 기능.",
+            "first_step": "시간에 따라 위젯의 배경색을 바꾸는 로직 구현."
+          },
+          {
+            "title": "사용자 커스텀 위젯 빌더",
+            "concept": "기존 템플릿을 기반으로 색상과 폰트를 사용자가 직접 수정하는 기능.",
+            "first_step": "위젯의 텍스트 색상을 변경하는 설정 화면 구현."
+          }
+        ],
+        "recommendation_ko": "안드로이드 시스템 API를 깊이 있게 다루고 싶은 개발자에게 추천합니다. UI 디자인과 시스템 최적화의 균형을 배울 수 있습니다.",
+        "source_limitations_ko": "소개문에 명시된 환불 정책 외에 실제 데이터 소스(날씨 API 등)의 출처나 보안 관련 정보는 확인되지 않습니다.",
+        "name": "iWidgets",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.jndapp.i.widgets.pack&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-19"
     }
   }
 }

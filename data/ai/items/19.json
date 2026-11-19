@@ -11916,6 +11916,95 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-18"
+    },
+    "itch:7540334853fe9355534c": {
+      "app_key": "itch:7540334853fe9355534c",
+      "name": "In Vesta's Wake Beta 2.0 [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://dcnamedia.itch.io/in-vestas-wake-beta-20",
+      "data_date": "2026-11-19",
+      "analysed_at": "2026-11-19T07:43:13+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Fly, fight and fix your ship, all by yourself.",
+      "analysis": {
+        "app_key": "itch:7540334853fe9355534c",
+        "summary_ko": "In Vesta's Wake Beta 2.0은 우주선을 조종하고 전투하며 수리하는 액션 게임입니다. 플레이어는 혼자서 우주선의 모든 기능을 관리하며 생존해야 합니다.",
+        "features_ko": [
+          "우주선 비행 및 조종 시스템을 제공합니다.",
+          "적과의 전투 액션을 포함합니다.",
+          "손상된 우주선을 수리하는 관리 메커니즘을 제공합니다."
+        ],
+        "noteworthy_ko": "우주선 조종과 수리라는 멀티태스킹 요소가 결합된 점이 흥미롭습니다. 전투 중 수리라는 긴박한 상황을 어떻게 구현했는지가 핵심일 것으로 추정됩니다.",
+        "development_ko": "우주선 시스템 관리 로직과 전투 시스템의 통합이 필요합니다. 다양한 부품의 상태를 관리하는 데이터 구조 설계가 중요합니다.",
+        "idea_ko": "우주선 내부를 돌아다니며 직접 수리하는 1인칭 관리 액션 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "비행, 전투, 수리라는 세 가지 핵심 액션을 결합했습니다.",
+          "1인 우주선 관리라는 생존형 컨셉을 가지고 있습니다."
+        ],
+        "systems_ko": [
+          "우주선 물리 조종",
+          "전투 시스템",
+          "부품 수리 및 상태 관리",
+          "UI(우주선 상태 표시)"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "여러 시스템(비행, 전투, 수리)이 유기적으로 연결되어야 하므로 코드 구조 설계가 복잡합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 비행",
+            "무기 발사",
+            "부품 수리 상호작용"
+          ],
+          "defer": [
+            "복잡한 우주선 내부 인테리어",
+            "다양한 적 유형",
+            "스토리 모드"
+          ],
+          "risks": [
+            "멀티태스킹으로 인한 조작 피로도",
+            "시스템 간의 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "우주선 엔지니어",
+            "concept": "전투 중 고장 난 부품을 즉시 수리해야 하는 긴박한 게임입니다. 수리하는 동안 조종이 불가능해지는 리스크를 가집니다.",
+            "first_step": "부품 고장 이벤트 발생 및 수리 미니게임 구현."
+          },
+          {
+            "title": "우주선 커스텀",
+            "concept": "전투에서 얻은 자원으로 우주선의 부품을 교체하고 성능을 최적화합니다. 수리 효율을 높이는 부품을 우선적으로 장착합니다.",
+            "first_step": "부품별 능력치 데이터 관리 및 장착 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "복합적인 시스템을 가진 게임을 설계하고 싶은 개발자에게 추천합니다. 여러 기능을 통합하여 하나의 게임 루프를 만드는 과정을 배우기에 좋습니다.",
+        "source_limitations_ko": "우주선의 수리 방식, 전투의 구체적인 메커니즘, 게임의 목표(생존 시간, 미션 등)에 대한 정보가 부족합니다.",
+        "name": "In Vesta's Wake Beta 2.0 [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://dcnamedia.itch.io/in-vestas-wake-beta-20",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 311,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 23,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-19"
     }
   }
 }
