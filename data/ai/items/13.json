@@ -11669,6 +11669,268 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-18"
+    },
+    "itch:046239dd9dd71f20e123": {
+      "app_key": "itch:046239dd9dd71f20e123",
+      "name": "Hot Dog Cannibal Contest [Free] [Other]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://thumbs-up-studios.itch.io/hot-dog-cannibal-contest",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:48:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Eat as many hot dogs as you can in 20 seconds",
+      "analysis": {
+        "app_key": "itch:046239dd9dd71f20e123",
+        "summary_ko": "20초 동안 최대한 많은 핫도그를 먹는 기록 도전 게임입니다.",
+        "features_ko": [
+          "20초라는 제한 시간 내에 핫도그를 먹는 단순한 규칙을 제공합니다.",
+          "최대한 많은 양을 먹는 기록 도전 모드를 지원합니다."
+        ],
+        "noteworthy_ko": "매우 짧은 시간 내에 승부를 보는 초단기 게임으로, 단순한 조작과 빠른 피드백이 특징입니다. 기록 갱신이라는 명확한 목표가 플레이어의 도전 욕구를 자극합니다.",
+        "development_ko": "입력 판정 시스템과 타이머 로직이 핵심입니다. 콘텐츠 제작 부담은 매우 낮으나, 짧은 시간 내에 재미를 극대화할 수 있는 연출(애니메이션, 효과음)이 중요합니다.",
+        "idea_ko": "단순 먹기 게임에서 벗어나, 먹는 속도에 따라 캐릭터가 변신하거나 특수 효과가 발생하는 '변신형 먹기 게임'을 추천합니다.",
+        "highlights_ko": [
+          "20초라는 짧은 시간으로 구성된 강렬한 게임 루프.",
+          "기록 갱신을 위한 단순하고 명확한 목표."
+        ],
+        "systems_ko": [
+          "타이머 관리 시스템",
+          "입력 판정 및 카운트 시스템",
+          "기록 저장 및 UI 표시"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "게임의 규칙이 매우 단순하고 구현해야 할 시스템의 수가 적어 1인 개발자가 완성하기에 매우 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "타이머 로직",
+            "입력 카운트 시스템"
+          ],
+          "defer": [
+            "온라인 랭킹 시스템"
+          ],
+          "risks": [
+            "단순함으로 인한 짧은 플레이 타임"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "속도 조절 먹기 게임",
+            "concept": "단순 클릭이 아니라 리듬에 맞춰 클릭해야 더 빨리 먹을 수 있는 규칙을 추가합니다.",
+            "first_step": "배경 음악에 맞춘 입력 판정 로직을 구현합니다."
+          },
+          {
+            "title": "장애물 회피 먹기 게임",
+            "concept": "핫도그를 먹는 도중 방해하는 장애물을 피해야 하는 규칙을 추가합니다.",
+            "first_step": "먹기 로직에 장애물 충돌 판정을 추가합니다."
+          }
+        ],
+        "recommendation_ko": "게임 개발의 기초인 입력 처리와 타이머 로직을 익히기에 좋습니다. 짧은 시간 안에 완성할 수 있는 프로젝트를 찾는 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문만으로는 조작 방식(클릭, 키보드 등)과 기록 저장 방식 등을 확인할 수 없습니다.",
+        "name": "Hot Dog Cannibal Contest [Free] [Other]",
+        "source": "itch",
+        "detail_url": "https://thumbs-up-studios.itch.io/hot-dog-cannibal-contest",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 365,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 5,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "apple:6830531773": {
+      "app_key": "apple:6830531773",
+      "name": "Minou - 미누와 뜨개질",
+      "developer": "Naroworks Inc.",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_simulation",
+      "detail_url": "https://apps.apple.com/kr/app/minou-%EB%AF%B8%EB%88%84%EC%99%80-%EB%9C%A8%EA%B0%9C%EC%A7%88/id6830531773?uo=2",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:51:11+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "바늘을 쥔 것처럼, 한 코씩 떠 보세요. 미누(Minou)는 검정 고양이 미누를 위해 목도리, 모자, 양말, 작은 소품을 뜨는 뜨개질 게임이에요. iPhone이나 iPad를 가로로 쥐고 두 엄지로 바늘을 밀고 당기면 실이 바늘에 감기고, 코가 하나씩 늘어나요. ■ 진짜처럼 뜨는 손맛 · 실은 한 가닥으로 이어져 바늘에 감겨요. 당기면 팽팽해지고, 놓으면 늘어져요. · 세게 당긴 자리는 늘어난 채 남아서, 같은 도안이라도 내가 뜬 것만의 모양이 돼요. · 바늘 끝이 다닐 길은 정해져 있어서 길을 잃지 않아요. 어려운 건 앱이 맡고 손맛만 남겼어요. ■ 뜬 것은 미누가 입어요 · 다 뜬 목도리와 모자는 미누가 직접 입어요. · 진열장에 하나씩 모이고, 고른 실 색과 늘인 자국이 그대로 보여요. · 자랑하기로 카드를 만들어 사진첩에 저장하거나 친구에게 보낼 수 있어요. ■ 실수해도 괜찮아요 · 풀기를 누르는 동안 뜬 동작이 거꾸로 풀려요. 하루 300코까지는 무료예요. · '자동으로 뜨기'를 켜면 앱을 나가도 계속 이어져요. 도움이 필요해지면 알려드려요. ■ 포근한 공간 · 창가 책상, 거실 소파, 다락방, 비 오는 카페, 겨울 오두막, 미누 정원 등 꾸러미에 어울리는 장소에서 떠요. · 기기를 살짝 돌리면 보는 쪽이 따라 움직여요. ■ 손뜨기는 언제나 무료 · 손으로 뜨는 동안에는 광고가 나오지 않아요. · 꾸러미를 열면 새 도안이 생겨요. 단추는 뜨면서 모으고, 실뭉치는 상점에서 살 수 있어요. 문의: minou@naroworks.com 이용약관(EULA): https://minou.naroworks.com/ko/terms/ 개인정보 처리방침: https://minou.naroworks.com/ko/privacy/",
+      "analysis": {
+        "app_key": "apple:6830531773",
+        "summary_ko": "Minou는 고양이 미누를 위해 뜨개질을 하는 힐링 시뮬레이션 게임입니다. 화면을 가로로 잡고 두 엄지로 바늘을 조작하여 실을 감고 코를 늘리는 뜨개질 과정을 구현했습니다. 완성된 소품은 미누가 직접 착용하며, 다양한 장소에서 뜨개질을 즐길 수 있습니다.",
+        "features_ko": [
+          "두 엄지를 사용하여 실을 감고 코를 늘리는 뜨개질 동작을 구현합니다.",
+          "완성된 목도리, 모자 등을 고양이 미누가 착용합니다.",
+          "실의 색상과 늘어난 자국이 반영된 결과물을 진열장에 모읍니다.",
+          "뜨개질 동작을 거꾸로 수행하여 실수를 수정할 수 있습니다.",
+          "다양한 배경 장소에서 뜨개질을 진행할 수 있습니다."
+        ],
+        "noteworthy_ko": "뜨개질이라는 아날로그 행위를 모바일 터치 인터페이스로 독창적으로 해석했습니다. 물리적인 손맛을 시각적 피드백으로 구현한 점이 매우 흥미로우며, 힐링 게임으로서의 정체성이 뚜렷합니다.",
+        "development_ko": "실의 움직임을 구현하는 물리 엔진 혹은 커스텀 애니메이션 로직이 핵심입니다. 뜨개질의 코를 데이터로 관리하고 이를 시각화하는 과정이 복잡할 수 있습니다. 사용자의 조작에 따른 실의 팽팽함과 늘어짐을 자연스럽게 표현하는 것이 기술적 난관입니다.",
+        "idea_ko": "뜨개질뿐만 아니라 자수, 바느질 등 다양한 수공예를 테마로 한 힐링 제작 게임 시리즈.",
+        "highlights_ko": [
+          "뜨개질의 손맛을 살린 독창적인 조작 방식을 제공합니다.",
+          "완성품을 고양이가 착용하는 시각적 보상을 통해 성취감을 줍니다."
+        ],
+        "systems_ko": [
+          "뜨개질 코 관리 및 데이터 구조",
+          "실 물리 시뮬레이션 및 애니메이션",
+          "아이템 착용 및 렌더링 시스템",
+          "배경 및 환경 관리 시스템",
+          "사용자 조작 판정 및 피드백 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "뜨개질의 물리적 느낌을 구현하는 것은 일반적인 게임 로직보다 훨씬 높은 수준의 그래픽/물리 구현 능력을 요구합니다. 1인이 구현하기에는 애니메이션과 물리 연산의 부담이 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 뜨개질 동작 구현",
+            "코 늘리기 로직"
+          ],
+          "defer": [
+            "다양한 배경 장소",
+            "자랑하기 카드 기능"
+          ],
+          "risks": [
+            "조작감의 이질감",
+            "물리 연산 최적화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "자수 놓기 힐링",
+            "concept": "천 위에 바늘을 찔러 실을 꿰는 자수 과정을 구현합니다. 도안을 따라 수를 놓으며 완성된 작품을 감상합니다.",
+            "first_step": "화면 터치 좌표를 따라 선이 그려지는 로직을 구현합니다."
+          },
+          {
+            "title": "뜨개질 도안 제작자",
+            "concept": "플레이어가 직접 뜨개질 도안을 설계하고, 이를 다른 유저와 공유하는 커뮤니티형 게임입니다.",
+            "first_step": "도안을 저장하고 불러오는 데이터 구조를 설계합니다."
+          }
+        ],
+        "recommendation_ko": "독창적인 인터페이스를 구현하고 싶은 개발자에게 추천합니다. 물리 기반의 상호작용을 어떻게 게임화하는지 연구하기에 매우 좋은 사례입니다.",
+        "source_limitations_ko": "소개문에 명시된 '자동으로 뜨기' 기능의 로직이나 물리 엔진 사용 여부는 알 수 없습니다. 인앱 결제(실뭉치 구매)의 구체적인 구현 방식은 확인되지 않습니다.",
+        "name": "Minou - 미누와 뜨개질",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/minou-%EB%AF%B8%EB%88%84%EC%99%80-%EB%9C%A8%EA%B0%9C%EC%A7%88/id6830531773?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 174,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "apple:6451412538": {
+      "app_key": "apple:6451412538",
+      "name": "Homebody: Better Renting",
+      "developer": "Entrata, Inc.",
+      "source": "apple",
+      "country": "US",
+      "category": "app_lifestyle",
+      "detail_url": "https://apps.apple.com/us/app/homebody-better-renting/id6451412538?uo=2",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:52:16+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "The future of resident experiences is here with the Homebody app. Residents no longer have to juggle between multiple apps just to perform basic, everyday functions. Homebody gives renters quick and easy access to everything they need, all in one place. One-Stop-Shop Resident Hub: Manage rent payments, submit maintenance requests, book amenities, handle lease documents, stay on top of required move-in tasks, and more. Essential Services Integrated: Easily enroll and manage renters insurance policies, explore ID theft protection, and report on-time rent payments with rent reporting. Exclusive Offers & Savings: Discover even more personalized deals on everyday services. Homebody Rewards: Start earning points for things like signing a new lease, paying rent on time, renewing a lease early, and more. Redeem those points on gift cards, travel, or even rent! Discover the future of resident living with Homebody, a modern app for the modern renter.",
+      "analysis": {
+        "app_key": "apple:6451412538",
+        "summary_ko": "임대 주택 거주자를 위한 통합 관리 플랫폼입니다. 임대료 납부, 유지보수 요청, 시설 예약, 임대 계약 문서 관리 등을 하나의 앱에서 처리할 수 있습니다. 거주자에게 필요한 필수 서비스와 보상 프로그램을 제공합니다.",
+        "features_ko": [
+          "앱 내에서 임대료를 직접 납부하고 관리합니다.",
+          "주거 시설에 대한 유지보수 요청을 제출하고 상태를 확인합니다.",
+          "공용 시설 예약 및 임대 계약 문서를 관리합니다.",
+          "임대료 납부 기록을 보고하여 신용 관리에 활용할 수 있습니다.",
+          "임대료 납부나 계약 갱신 시 포인트를 적립하고 보상으로 교환합니다."
+        ],
+        "noteworthy_ko": "거주자의 일상적인 불편을 하나의 플랫폼으로 통합한 점이 서비스의 핵심입니다. 금융(납부)과 생활 서비스(유지보수)를 결합하여 사용자 유지율을 높이는 전략이 돋보입니다.",
+        "development_ko": "금융 결제 시스템 연동과 보안이 가장 중요한 기술적 요소입니다. 거주자 데이터와 시설 관리 데이터를 안전하게 처리하는 백엔드 구축이 필수적입니다. 다양한 서비스 연동을 위한 API 관리와 사용자 인증 시스템이 제작 부담의 핵심입니다.",
+        "idea_ko": "거주자 간의 커뮤니티 게시판이나 중고 거래 기능을 추가하여 주거 환경 내 소셜 기능을 강화하는 것이 적합합니다.",
+        "highlights_ko": [
+          "임대 주택 관련 업무의 원스톱 통합 관리.",
+          "임대료 납부와 연계된 보상 프로그램."
+        ],
+        "systems_ko": [
+          "사용자 인증 및 보안 시스템",
+          "결제 게이트웨이 연동 시스템",
+          "유지보수 티켓 관리 시스템",
+          "포인트 및 보상 관리 시스템",
+          "문서 저장 및 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "금융 결제와 개인정보를 다루므로 높은 수준의 보안과 안정성이 요구됩니다. 1인 개발자가 모든 보안 요구사항을 충족하며 서비스하기에는 리스크가 매우 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 로그인 및 프로필 관리",
+            "유지보수 요청 제출 기능",
+            "공지사항 게시판"
+          ],
+          "defer": [
+            "금융 결제 연동",
+            "포인트 보상 시스템"
+          ],
+          "risks": [
+            "보안 사고 발생 시 책임 문제",
+            "금융 규제 준수 및 결제 연동 난도"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "이웃 소통 게시판",
+            "concept": "같은 건물 거주자들끼리 정보를 공유하거나 물건을 나눔하는 폐쇄형 게시판입니다.",
+            "first_step": "게시글 작성, 조회, 댓글 기능을 포함한 간단한 게시판 모듈을 구현합니다."
+          },
+          {
+            "title": "시설 이용 가이드",
+            "concept": "건물 내 시설 사용법을 영상이나 이미지로 정리하여 제공하는 가이드북입니다.",
+            "first_step": "카테고리별로 콘텐츠를 분류하고 보여주는 간단한 뷰어 UI를 만듭니다."
+          }
+        ],
+        "recommendation_ko": "플랫폼 서비스의 구조와 데이터 관리 방식을 배우기에 좋으나, 실제 금융 서비스 구현은 매우 높은 난도를 요구하므로 주의가 필요합니다. 비금융 기능부터 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문은 서비스의 기능적 이점만 강조하고 있으며, 실제 보안 아키텍처나 결제 연동 방식에 대한 정보는 없습니다. 금융 및 개인정보 관련 기능은 실제 구현 시 법적 검토와 보안 인증이 필수적입니다.",
+        "name": "Homebody: Better Renting",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/homebody-better-renting/id6451412538?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
     }
   }
 }

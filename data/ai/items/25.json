@@ -14100,6 +14100,358 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-19"
+    },
+    "itch:3976f198085702be7f51": {
+      "app_key": "itch:3976f198085702be7f51",
+      "name": "Cardcosine [Free] [Card Game]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://polynomical.itch.io/cardcosine",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:49:01+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Loot gear, build your deck, crawl the dungeon.",
+      "analysis": {
+        "app_key": "itch:3976f198085702be7f51",
+        "summary_ko": "Cardcosine은 카드 게임과 던전 탐험을 결합한 게임입니다. 플레이어는 장비를 획득하고 덱을 구성하여 던전을 공략해 나갑니다.",
+        "features_ko": [
+          "장비를 획득하여 캐릭터를 강화할 수 있습니다.",
+          "자신만의 덱을 구성하여 전략적인 전투를 수행합니다.",
+          "던전을 탐험하며 적들과 조우하고 공략하는 과정을 담고 있습니다."
+        ],
+        "noteworthy_ko": "덱 빌딩과 던전 크롤러의 결합은 전략적 깊이를 더하는 흥미로운 조합입니다. 카드 간의 시너지와 던전의 무작위성이 게임의 핵심 재미 요소가 될 것으로 보입니다.",
+        "development_ko": "카드 효과와 장비 능력치를 관리하는 데이터 구조 설계가 필수적입니다. 던전 생성 알고리즘과 카드 전투 로직을 분리하여 구현해야 합니다. 밸런스 테스트를 위해 다양한 덱 조합을 시뮬레이션하는 도구가 필요합니다.",
+        "idea_ko": "카드 효과를 환경과 상호작용하게 만드는 퍼즐형 덱 빌딩 게임으로 발전시키는 것이 좋습니다.",
+        "highlights_ko": [
+          "덱 빌딩의 전략성과 던전 탐험의 긴장감을 동시에 제공합니다.",
+          "장비 획득을 통한 캐릭터 성장의 재미를 느낄 수 있습니다."
+        ],
+        "systems_ko": [
+          "카드 및 덱 관리 시스템",
+          "던전 생성 알고리즘",
+          "전투 엔진(턴제)",
+          "아이템 및 장비 데이터베이스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "카드 간의 시너지 밸런스 조정과 던전의 무작위성 구현은 1인 개발자에게 상당한 설계 능력을 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 카드 전투 시스템",
+            "덱 구성 UI",
+            "단순 던전 맵 생성"
+          ],
+          "defer": [
+            "복잡한 장비 강화 시스템",
+            "화려한 시각 효과"
+          ],
+          "risks": [
+            "카드 간 밸런스 불균형",
+            "던전 탐험의 반복성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지형 활용 카드 게임",
+            "concept": "카드의 효과가 던전의 지형(불, 물, 얼음 등)에 따라 다르게 발동되는 전략 게임입니다.",
+            "first_step": "지형 타일 하나와 그에 반응하는 카드 2종을 구현합니다."
+          },
+          {
+            "title": "카드 조합 제작 시스템",
+            "concept": "전투에서 얻은 재료로 카드를 합성하여 새로운 효과를 가진 카드를 만드는 시스템입니다.",
+            "first_step": "두 장의 카드를 합쳐 새로운 카드를 생성하는 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "턴제 전투 시스템과 덱 빌딩 로직을 구현해보고 싶은 개발자에게 추천합니다. 복잡한 시스템을 모듈화하여 설계하는 연습을 하기에 좋습니다.",
+        "source_limitations_ko": "전투의 상세 규칙이나 던전의 규모, 카드 종류의 다양성 등은 설명에 나타나 있지 않습니다.",
+        "name": "Cardcosine [Free] [Card Game]",
+        "source": "itch",
+        "detail_url": "https://polynomical.itch.io/cardcosine",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 308,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "itch:a7e8d7b615d9e3a3b9b3": {
+      "app_key": "itch:a7e8d7b615d9e3a3b9b3",
+      "name": "Clutch Club [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://amiru1.itch.io/clutch-club",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:49:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Car party battles with your friends. Steal the tag, ram the crowd, play a pile of modes.",
+      "analysis": {
+        "app_key": "itch:a7e8d7b615d9e3a3b9b3",
+        "summary_ko": "Clutch Club은 친구들과 함께 즐기는 자동차 파티 배틀 게임입니다. 술래잡기, 차량 충돌 등 다양한 모드를 통해 경쟁할 수 있습니다.",
+        "features_ko": [
+          "차량을 이용한 파티 배틀 게임플레이를 제공합니다.",
+          "술래잡기(Tag) 모드를 포함한 다양한 게임 모드를 지원합니다.",
+          "차량으로 상대방을 밀어내는 물리 기반 충돌 액션을 제공합니다."
+        ],
+        "noteworthy_ko": "차량 물리 엔진을 활용한 캐주얼한 파티 게임이라는 점이 매력적입니다. 물리 연산의 일관성을 유지하면서 다인원 멀티플레이를 구현하는 것이 개발의 핵심입니다.",
+        "development_ko": "차량 물리 제어와 충돌 판정 구현이 핵심입니다. 다양한 모드를 지원하기 위한 게임 규칙 관리 시스템이 필요합니다. 물리 엔진의 특성상 네트워크 동기화 시 위치 보정 기술이 중요합니다.",
+        "idea_ko": "물리 기반의 차량 조작감을 살린 미니게임 모음집 형태의 개발을 추천합니다.",
+        "highlights_ko": [
+          "차량을 활용한 파티 배틀 장르입니다.",
+          "다양한 게임 모드를 통한 경쟁 요소가 있습니다."
+        ],
+        "systems_ko": [
+          "차량 물리 제어 시스템",
+          "충돌 판정 및 물리 반응",
+          "게임 모드 관리자",
+          "네트워크 동기화"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "차량 물리 엔진의 조작감을 다듬는 것과 멀티플레이 환경에서의 물리 동기화는 1인 개발자에게 매우 까다로운 작업입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "차량 이동 및 조작",
+            "충돌 물리 시스템",
+            "기본 술래잡기 규칙"
+          ],
+          "defer": [
+            "온라인 멀티플레이",
+            "다양한 차량 커스터마이징"
+          ],
+          "risks": [
+            "물리 엔진의 불안정성",
+            "네트워크 환경에서의 위치 동기화 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "물리 기반 차량 축구",
+            "concept": "차량으로 공을 밀어 골대에 넣는 단순한 규칙입니다. 물리 엔진의 재미를 극대화할 수 있습니다.",
+            "first_step": "차량 조작과 공의 물리 반응 구현."
+          },
+          {
+            "title": "차량 서바이벌 아레나",
+            "concept": "좁은 원형 경기장에서 서로를 밀어 떨어뜨리는 최후의 1인 게임입니다.",
+            "first_step": "경기장 밖으로 나가는 판정 로직 구현."
+          }
+        ],
+        "recommendation_ko": "물리 기반 게임의 조작감과 재미를 연구하기 좋습니다. 멀티플레이보다는 로컬 2인 플레이나 싱글 모드부터 구현하는 것을 권장합니다.",
+        "source_limitations_ko": "사용된 물리 엔진의 종류, 멀티플레이 방식, 구체적인 게임 모드의 개수 등 상세 정보가 확인되지 않습니다.",
+        "name": "Clutch Club [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://amiru1.itch.io/clutch-club",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 296,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "itch:b1acf02be987ed525c4b": {
+      "app_key": "itch:b1acf02be987ed525c4b",
+      "name": "Legends of Dragaea: Idle Dungeons [30% Off] [$6.99] [Role Playing] [Windows] [Linux] [Android]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://renoki.itch.io/dragaea-idle",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:49:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "An Idle Dungeon Crawling Autobattling RPG",
+      "analysis": {
+        "app_key": "itch:b1acf02be987ed525c4b",
+        "summary_ko": "Legends of Dragaea: Idle Dungeons는 던전 탐험을 테마로 한 방치형 자동 전투 RPG입니다. 플레이어는 직접 조작하지 않아도 자동으로 진행되는 던전 크롤링을 경험할 수 있습니다.",
+        "features_ko": [
+          "자동으로 전투가 진행되는 방치형 RPG 시스템을 제공합니다.",
+          "던전을 탐험하며 캐릭터를 성장시키는 크롤링 메커니즘이 있습니다.",
+          "다양한 플랫폼(Windows, Linux, Android)을 지원합니다."
+        ],
+        "noteworthy_ko": "방치형 게임은 데이터 관리와 자동화 로직이 핵심입니다. 오프라인 상태에서도 보상이 쌓이는 시스템을 구현하는 것이 개발 관점에서 도전적이고 흥미롭습니다.",
+        "development_ko": "캐릭터 능력치와 아이템 데이터 관리 시스템이 핵심입니다. 전투 로직은 자동화되어야 하며, 보상 계산 알고리즘이 중요합니다. 다양한 플랫폼 지원을 위해 크로스 플랫폼 개발 환경을 고려해야 합니다.",
+        "idea_ko": "방치형 전투에 아이템 조합 및 강화 시스템을 결합하여 성장의 재미를 높이는 것을 추천합니다.",
+        "highlights_ko": [
+          "던전 탐험 기반의 방치형 RPG입니다.",
+          "자동 전투 시스템을 통해 성장을 지원합니다."
+        ],
+        "systems_ko": [
+          "캐릭터 성장 및 능력치 시스템",
+          "자동 전투 로직",
+          "아이템 파밍 및 인벤토리",
+          "오프라인 보상 계산 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "데이터 관리와 UI 구현이 주를 이루며, 물리 엔진이 필요 없어 1인 개발자가 구현하기에 적절한 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "자동 전투 루프",
+            "캐릭터 레벨업 시스템",
+            "기본 아이템 드롭 로직"
+          ],
+          "defer": [
+            "복잡한 스토리 퀘스트",
+            "멀티플레이 요소"
+          ],
+          "risks": [
+            "성장 곡선의 지루함",
+            "데이터 저장 및 불러오기 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "방치형 던전 탐험대",
+            "concept": "여러 명의 영웅을 조합하여 던전에 보냅니다. 영웅마다 고유 스킬이 있어 조합에 따라 탐험 효율이 달라집니다.",
+            "first_step": "영웅 3종과 자동 전투 로직 구현."
+          },
+          {
+            "title": "아이템 합성 방치형 RPG",
+            "concept": "던전에서 얻은 아이템을 합성하여 더 강력한 장비를 만드는 시스템입니다. 장비 강화가 성장의 주축이 됩니다.",
+            "first_step": "아이템 데이터 구조와 합성 로직 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 중심의 게임 개발과 방치형 게임의 보상 루프를 설계하는 법을 배우기 좋습니다. 1인 개발자에게 추천하는 장르입니다.",
+        "source_limitations_ko": "전투의 구체적인 방식, 아이템의 종류, 던전의 구성 등 게임의 핵심 콘텐츠에 대한 정보가 부족합니다.",
+        "name": "Legends of Dragaea: Idle Dungeons [30% Off] [$6.99] [Role Playing] [Windows] [Linux] [Android]",
+        "source": "itch",
+        "detail_url": "https://renoki.itch.io/dragaea-idle",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 287,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 31,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "google:com.pdfreader.pdfscantool": {
+      "app_key": "google:com.pdfreader.pdfscantool",
+      "name": "PDF Master Pro",
+      "developer": "Apex Store",
+      "source": "google",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.pdfreader.pdfscantool&hl=ko&gl=KR",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:51:11+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "PDF Master Pro는 일상적인 문서를 위한 간단하고 사용하기 쉬운 PDF 앱입니다. 휴대폰으로 종이 문서를 스캔하고, PDF 파일을 읽고, 이미지를 PDF로 변환하고, 몇 단계만으로 파일을 관리할 수 있습니다. 주요 기능 ✓ 문서를 PDF로 스캔 ✓ PDF 파일 읽기 ✓ 이미지를 PDF로 변환 ✓ 여러 PDF 파일 병합 ✓ PDF 페이지 분할 ✓ PDF 파일 잠금 및 잠금 해제 ✓ 파일 이름 변경, 공유 또는 삭제 PDF Master Pro는 PDF 도구를 간단하고 쉽게 찾을 수 있도록 구성하여 복잡한 단계 없이 문서를 관리할 수 있도록 합니다. PDF Master Pro로 PDF 파일을 간편하게 스캔하고, 읽고, 변환하고, 관리하세요.",
+      "analysis": {
+        "app_key": "google:com.pdfreader.pdfscantool",
+        "summary_ko": "PDF Master Pro는 문서 관리와 변환을 위한 도구 앱입니다. 스마트폰 카메라로 문서를 스캔하고 PDF로 변환하거나 기존 파일을 관리할 수 있습니다. 파일 병합, 분할, 잠금 등 기본적인 문서 처리 기능을 제공합니다.",
+        "features_ko": [
+          "카메라를 사용하여 종이 문서를 PDF로 스캔합니다.",
+          "이미지 파일을 PDF 형식으로 변환합니다.",
+          "여러 PDF 파일을 하나로 병합하거나 페이지를 분할합니다.",
+          "PDF 파일에 잠금을 설정하거나 해제합니다.",
+          "파일 이름 변경, 공유, 삭제 등 파일 관리 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "문서 처리의 핵심 기능을 한곳에 모은 유틸리티 앱입니다. 사용자가 자주 사용하는 기능을 직관적으로 배치하여 복잡한 과정 없이 문서를 관리하게 하는 것이 개발의 핵심입니다.",
+        "development_ko": "이미지 처리 라이브러리(OCR 등)와 PDF 생성/편집 라이브러리 활용이 핵심입니다. 파일 시스템 접근 권한 관리와 사용자 인터페이스의 직관성이 중요합니다. 테스트 시 다양한 문서 규격과 이미지 품질에 따른 변환 정확도를 검증해야 합니다.",
+        "idea_ko": "특정 문서 양식(영수증, 명함 등)을 자동으로 분류하고 정리해주는 스마트 문서함.",
+        "highlights_ko": [
+          "스캔부터 변환, 관리까지 문서 관련 작업을 통합적으로 수행합니다.",
+          "파일 잠금 기능을 통해 기본적인 보안을 지원합니다."
+        ],
+        "systems_ko": [
+          "파일 시스템 접근 및 관리 시스템",
+          "이미지 캡처 및 처리 시스템",
+          "PDF 생성 및 편집 엔진",
+          "사용자 인증 및 파일 암호화 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "PDF 처리 라이브러리를 활용하면 구현 자체는 가능하지만, 다양한 기기에서의 카메라 성능 차이와 파일 처리 안정성을 확보하는 데 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "문서 스캔 및 PDF 변환",
+            "파일 목록 보기 및 관리"
+          ],
+          "defer": [
+            "OCR(문자 인식)",
+            "클라우드 연동"
+          ],
+          "risks": [
+            "파일 처리 중 데이터 손실",
+            "OS별 파일 접근 권한 정책 변화"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "영수증 자동 분류기",
+            "concept": "스캔한 문서가 영수증인지 판단하여 날짜와 금액을 추출하고 폴더별로 자동 분류합니다.",
+            "first_step": "이미지에서 텍스트를 추출하는 간단한 OCR 기능을 연동합니다."
+          },
+          {
+            "title": "개인 문서 보안함",
+            "concept": "중요 문서를 생체 인증을 통해서만 열람할 수 있도록 암호화하여 저장하는 앱입니다.",
+            "first_step": "생체 인증 API와 파일 암호화 라이브러리를 결합합니다."
+          }
+        ],
+        "recommendation_ko": "파일 입출력과 라이브러리 활용 능력을 기르기에 좋습니다. 다만, 보안과 관련된 기능은 전문적인 지식이 필요하므로 주의가 필요합니다.",
+        "source_limitations_ko": "소개문에 명시된 '잠금' 기능의 암호화 수준이나 보안 방식은 알 수 없습니다. 외부 클라우드 연동 여부도 확인되지 않습니다.",
+        "name": "PDF Master Pro",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.pdfreader.pdfscantool&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 177,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
     }
   }
 }

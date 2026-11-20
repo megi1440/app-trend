@@ -11511,6 +11511,367 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-19"
+    },
+    "google:com.pdfviewer.scanner": {
+      "app_key": "google:com.pdfviewer.scanner",
+      "name": "PDF ビューア＆スキャナー",
+      "developer": "Emily Yu",
+      "source": "google",
+      "country": "JP",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.pdfviewer.scanner&hl=ja&gl=JP",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:50:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "PDF ビューア＆スキャナーは、ドキュメントの読み取り、編集、管理のニーズをワンストップで解決します。 主な機能: 📄 マルチフォーマット読み取り: PDF、Word、PPT、Excel などの複数のドキュメント形式を完全にサポートし、いつでもどこでも簡単に読むことができます。 📝 PDFにタグを付ける: コメントの追加、テキスト編集、画像や署名の挿入など、包括的な PDF 編集ツールを提供します。 📷 写真を PDF に変換: 携帯電話のカメラを使用して、紙のドキュメントを PDF ファイルにすばやく変換します。 ✂ PDF の結合と分割: 複数の PDF ファイルを 1 つに簡単に結合したり、大きな PDF ファイルを複数の部分に分割したりできます。 🔑 PDF 暗号化: パスワードを設定して、ドキュメントのセキュリティを保護し、PDF ファイルを暗号化します。 今すぐ PDF ビューア＆スキャナーをダウンロードして、ドキュメント処理をシンプル、効率的、安全にしましょう!",
+      "analysis": {
+        "app_key": "google:com.pdfviewer.scanner",
+        "summary_ko": "PDF 뷰어 및 스캐너는 문서 읽기, 편집, 관리 기능을 통합한 도구입니다. 카메라를 이용한 스캔과 PDF 파일의 병합, 분할, 암호화 기능을 제공합니다.",
+        "features_ko": [
+          "PDF, Word, PPT, Excel 등 다양한 문서 형식을 지원합니다.",
+          "주석 추가, 텍스트 편집, 서명 삽입 등 PDF 편집 도구를 제공합니다.",
+          "카메라를 사용하여 종이 문서를 PDF로 변환합니다.",
+          "여러 PDF 파일을 하나로 합치거나 분할할 수 있습니다.",
+          "비밀번호 설정을 통해 PDF 파일의 보안을 강화합니다."
+        ],
+        "noteworthy_ko": "문서 처리의 전 과정을 하나의 앱에서 해결하려는 통합형 도구입니다. 다양한 파일 포맷을 처리하는 라이브러리 활용 능력이 개발의 핵심입니다.",
+        "development_ko": "PDF 처리 라이브러리(예: PDFKit 등)의 활용이 핵심입니다. 카메라 스캔 시 이미지 보정 알고리즘 구현이 기술적 난이도가 높습니다. 다양한 포맷 지원을 위한 호환성 테스트가 필수적입니다.",
+        "idea_ko": "특정 문서 양식에 맞춰 자동으로 서명을 배치해주는 간편 서명 도구.",
+        "highlights_ko": [
+          "문서 읽기부터 편집, 보안까지 원스톱 솔루션을 지향합니다.",
+          "카메라 스캔 기능을 통해 아날로그 문서를 디지털화합니다."
+        ],
+        "systems_ko": [
+          "파일 시스템 접근 및 관리",
+          "PDF 렌더링 및 편집 엔진",
+          "카메라 이미지 처리 및 OCR(추정)",
+          "암호화 및 보안 모듈"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "PDF 포맷의 복잡성과 다양한 문서 호환성 유지, 이미지 처리 알고리즘 구현은 1인 개발자에게 기술적 부담이 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "PDF 뷰어 기능",
+            "파일 병합 기능",
+            "기본적인 파일 관리 시스템"
+          ],
+          "defer": [
+            "OCR(문자 인식) 기능",
+            "고급 문서 편집 도구",
+            "클라우드 연동"
+          ],
+          "risks": [
+            "다양한 PDF 파일 규격에 따른 렌더링 오류",
+            "보안 기능 구현의 복잡성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "간편 서명 스캐너",
+            "concept": "서명란에 서명을 스캔하여 PDF에 자동으로 위치시키는 앱입니다. 복잡한 편집 기능 대신 서명에 집중합니다.",
+            "first_step": "이미지 오버레이를 통해 PDF 위에 서명 이미지를 배치하는 기능 구현."
+          },
+          {
+            "title": "문서 정리 도우미",
+            "concept": "스캔한 문서의 이름을 날짜와 내용에 따라 자동으로 분류해주는 도구입니다. 파일 관리 효율을 높입니다.",
+            "first_step": "파일 메타데이터를 읽어 폴더를 자동 생성하는 스크립트 작성."
+          }
+        ],
+        "recommendation_ko": "파일 입출력 및 데이터 처리 기술을 배우기에 좋습니다. 실용적인 도구 앱 개발을 원하는 경우 추천합니다.",
+        "source_limitations_ko": "소개문에 명시된 기능 외의 보안 수준이나 구체적인 파일 처리 알고리즘은 알 수 없습니다. 결제나 클라우드 연동 여부는 확인되지 않았습니다.",
+        "name": "PDF ビューア＆スキャナー",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.pdfviewer.scanner&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 198,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 14,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "apple:6757518944": {
+      "app_key": "apple:6757518944",
+      "name": "퍼플영 - 성형 모델부터 이벤트까지 한곳에서",
+      "developer": "Purple Turf",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/kr/app/%ED%8D%BC%ED%94%8C%EC%98%81-%EC%84%B1%ED%98%95-%EB%AA%A8%EB%8D%B8%EB%B6%80%ED%84%B0-%EC%9D%B4%EB%B2%A4%ED%8A%B8%EA%B9%8C%EC%A7%80-%ED%95%9C%EA%B3%B3%EC%97%90%EC%84%9C/id6757518944?uo=2",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:53:01+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "나를 담은 프로필 하나로, 나에게 맞는 기회를 찾아보세요. 성형·시술 정보 탐색부터 모델 지원까지, 퍼플영에서 시작됩니다. 어떤 병원과 공고가 있는지, 어떤 조건을 살펴봐야 할지 고민되나요? 퍼플영에서 병원 정보와 모델 모집 공고를 둘러보고, 다른 사람들의 경험도 함께 확인해 보세요. 관심 있는 공고를 발견했다면 미리 작성한 프로필로 간편하게 지원할 수 있어요. ■ 프로필 | 지원할 때마다 반복하던 입력은 이제 간편하게 나의 정보와 고민 부위를 프로필에 담아보세요. 미리 등록한 프로필을 활용해 관심 있는 퍼플모델 공고에 지원할 수 있어요. 매번 같은 내용을 작성하는 번거로움을 줄이고, 관심 있는 공고를 살펴보는 데 집중하세요. ■ 퍼플모델 | 여러 병원의 모델 모집 공고를 한곳에서 병원마다 흩어져 있는 성형·시술 모델 모집 공고를 모아보세요. 관심 부위와 모집 조건을 살펴보고, 여러 공고의 조건을 비교할 수 있어요. 지원 전 병원 정보와 상세 조건까지 꼼꼼하게 확인해 보세요. ■ 퍼플리뷰 | 선택에 참고할 다양한 경험 시·수술 전후 사진부터 병원·의료진·금액 정보까지, 리뷰에 담긴 경험을 살펴보세요. 궁금했던 내용을 확인하고, 나의 경험도 공유할 수 있어요. 다시 보고 싶은 리뷰는 북마크로 저장해 마이페이지에서 편하게 찾아보세요. 이런 분들께 퍼플영을 추천해요 • 여러 병원의 성형·시술 모델 모집 공고를 한곳에서 보고 싶은 분 • 모집 조건을 비교하고 나에게 맞는 공고에 지원하고 싶은 분 • 지원할 때마다 같은 정보를 입력하는 번거로움을 줄이고 싶은 분 • 실제 이용 후기와 신뢰할 수 있는 병원 정보를 함께 살피고 싶은 분 [수수료 안내] - 퍼플영은 이용자에게 별도의 서비스 이용 수수료를 받지 않습니다. - 병원(파트너)으로부터 상담 또는 시술 성사에 따른 건별 수수료를 받지 않습니다. [의료정보 이용 안내] - 퍼플영은 병원 정보, 모델 모집 공고 및 이용 후기를 확인하고 모델 지원을 할 수 있는 플랫폼으로, 의료행위(진단·치료·처방)를 직접 제공하지 않습니다. - 의료 상담 및 시·수술은 각 병원과 의료진의 책임 하에 진행됩니다. - 앱에서 제공하는 정보는 참고용이며, 의료진의 진단이나 치료를 대체하지 않습니다. [선택 접근 권한 안내] - 알림: 공지사항 및 서비스 관련 소식 수신 - 카메라: 프로필 및 리뷰 등에 사용할 사진 촬영 - 사진: 프로필 및 리뷰 등에 사용할 사진 등록·저장 - 생체 인증: 생체 정보를 활용한 로그인 ※ 선택 접근 권한에 동의하지 않아도 서비스를 이용할 수 있으나, 해당 권한이 필요한 기능은 제한될 수 있습니다. ※ 접근 권한은 휴대폰 설정에서 변경할 수 있습니다.",
+      "analysis": {
+        "app_key": "apple:6757518944",
+        "summary_ko": "성형 및 시술 모델 모집 공고를 확인하고 지원할 수 있는 플랫폼입니다. 병원 정보와 다른 사용자의 리뷰를 비교하여 자신에게 맞는 기회를 찾을 수 있습니다. 프로필을 미리 등록하여 간편하게 모델 지원을 진행할 수 있습니다.",
+        "features_ko": [
+          "사용자의 고민 부위와 정보를 담은 프로필을 등록하여 간편하게 지원할 수 있습니다.",
+          "여러 병원의 성형 및 시술 모델 모집 공고를 한곳에서 모아볼 수 있습니다.",
+          "시술 전후 사진과 병원 정보를 포함한 리뷰를 통해 경험을 공유할 수 있습니다.",
+          "관심 있는 리뷰를 북마크하여 마이페이지에서 다시 확인할 수 있습니다."
+        ],
+        "noteworthy_ko": "특정 니치 마켓(성형 모델)을 타겟팅하여 정보 비대칭을 해소하려는 플랫폼 모델이 흥미롭습니다. 사용자 경험 측면에서 프로필 재사용을 통해 지원 과정을 간소화한 점이 효율적입니다.",
+        "development_ko": "사용자 프로필 데이터 관리와 병원 공고 데이터를 연결하는 백엔드 시스템이 핵심입니다. 리뷰와 사진을 안정적으로 업로드하고 관리하는 기능이 필요합니다. 개인 개발 시에는 데이터베이스 설계와 사용자 인증 보안에 집중해야 합니다.",
+        "idea_ko": "특정 분야의 모델 모집을 넘어, 다양한 재능 기부나 체험단 모집으로 확장 가능한 플랫폼 구조를 설계하는 것이 좋습니다.",
+        "highlights_ko": [
+          "성형·시술 모델 모집이라는 특정 분야에 집중한 정보 플랫폼입니다.",
+          "프로필 등록을 통한 간편 지원 시스템으로 사용자 편의성을 높였습니다."
+        ],
+        "systems_ko": [
+          "사용자 프로필 관리 시스템",
+          "공고 게시판 및 필터링 시스템",
+          "리뷰 및 이미지 업로드 시스템",
+          "북마크 및 마이페이지 관리",
+          "알림 푸시 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "데이터베이스와 연동된 CRUD(생성, 읽기, 수정, 삭제) 기능이 핵심이며, 복잡한 물리 엔진이나 그래픽 작업이 필요하지 않습니다. 다만, 사용자 개인정보와 의료 관련 정보가 포함되므로 보안 설계에 주의가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 프로필 등록 기능",
+            "공고 리스트 조회 및 상세 페이지",
+            "간편 지원 버튼"
+          ],
+          "defer": [
+            "생체 인증 로그인",
+            "실시간 채팅 기능",
+            "고급 리뷰 필터링"
+          ],
+          "risks": [
+            "개인정보 보호 및 보안 이슈",
+            "병원 파트너십 확보의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지역 기반 소규모 체험단 플랫폼",
+            "concept": "성형이 아닌 지역 내 소상공인 가게의 체험단을 모집하는 플랫폼입니다. 동네 기반으로 신뢰도를 높입니다.",
+            "first_step": "가게 위치와 체험단 모집 공고를 리스트로 보여주는 앱 구현."
+          },
+          {
+            "title": "포트폴리오 매칭 서비스",
+            "concept": "모델이 자신의 포트폴리오를 올리면 업체가 제안을 보내는 역방향 매칭 서비스입니다.",
+            "first_step": "사용자가 사진과 경력을 올릴 수 있는 프로필 페이지 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 기반의 매칭 플랫폼을 개발하고 싶은 개발자에게 적합합니다. 정보의 구조화와 사용자 경험을 설계하는 법을 배우기에 좋습니다.",
+        "source_limitations_ko": "의료 행위와 직접적인 관련이 없음을 명시하고 있으나, 실제 병원과의 데이터 연동 방식이나 결제 시스템 유무는 확인되지 않습니다. 보안 및 의료법 관련 규제 준수 여부는 별도 검증이 필요합니다.",
+        "name": "퍼플영 - 성형 모델부터 이벤트까지 한곳에서",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%ED%8D%BC%ED%94%8C%EC%98%81-%EC%84%B1%ED%98%95-%EB%AA%A8%EB%8D%B8%EB%B6%80%ED%84%B0-%EC%9D%B4%EB%B2%A4%ED%8A%B8%EA%B9%8C%EC%A7%80-%ED%95%9C%EA%B3%B3%EC%97%90%EC%84%9C/id6757518944?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "apple:600626116": {
+      "app_key": "apple:600626116",
+      "name": "Papa's Burgeria To Go!",
+      "developer": "Flipline Studios",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/us/app/papas-burgeria-to-go/id600626116?uo=2",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:53:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Papa's Burgeria is now available to play on the go, with gameplay and controls reimagined for iPhone and iPod Touch. Grill, stack, and serve burgers in a brand-new way! You're left in charge of Papa Louie's famous Burgeria, where you'll learn to take orders, grill patties, add toppings, and serve burgers to all of your crazy customers. You need to multitask between each area of the restaurant, with new controls that feel just right in the palm of your hand: Head to the Order Station to keep an eye out for customers waiting in the lobby. Switch to the Grill Station to drag patties onto the grill and flip burgers to cook them evenly. Jump to the Build Station to carefully craft your sandwiches with toppings and sauces exactly how they ordered, and deliver the finished burger to earn points and tips! Each Station is a hands-on experience, where you'll need to drag, swipe, and tap your way through the burger-building process. With full multi-touch support, the process is more fun than ever before! Tap many burgers at once to flip them all on the grill, or keep one finger on the Build Station's bin slider for even better precision when building. Keep your customers happy to earn more points and level up. As your level rises, you'll unlock new toppings in the shop, and new customers will start visiting the Burgeria! Papa's Burgeria To Go also features unlockable toppings that aren't available in previous versions! **NEW FOR PAPA'S BURGERIA TO GO** Papa's Burgeria To Go is redesigned and reimagined for smaller screens, so your fingers won't get in the way of the action! CONTROL WITH YOUR THUMBS - You'll switch stations using buttons in the corners of the screen, perfect for your thumbs. Use buttons in the top corners to switch Order Tickets without having to drag them back and forth. You can also view all of your Order Tickets in a zoomed-in mode for easy reading. GRILL STATION - We've made keeping track of your burgers easier than ever, with Timers stuck in each burger patty that you can read at a glance, showing the cooking time and how each side is cooked. You can also buy Alarms in the Shop to add onto each Timer, so you'll get an alert when it's time to flip or remove a burger. With multi-touch support, you can quickly flip and remove burgers by using multiple fingers. Try a triple-tap to flip three patties in a row! BUILD STATION - With a traditional drag-and-drop system, your finger would block your view, so we've completely changed the Build Station to work on smaller screens. You'll swipe a carousel of Topping Bins across the top of the screen, and slide it carefully to line up toppings with the burger below. Simply tap on the bottom of the screen to drop a topping from the bin above! You can also tap a button to swap your Topping Bins with Burger Bins, which hold all of the patties you've cooked on the grill. And with full multi-touch support, you can keep one finger sliding the bins and another tapping on the bottom of the screen, so stacking burgers is a breeze! **GAME FEATURES** - Hands-on burger shop game in the Papa Louie universe - All new controls and gameplay designed for smaller screens - Multi-task between grilling, stacking, and serving - Shop to buy upgrades using your in-game tips - Over 60 customers to unlock with unique orders - Challenging Closers and Food Critic - Over 50 in-game achievements to earn **NOTE FOR iPAD USERS** Papa's Burgeria To Go is designed especially for smaller screens. If you're looking for large-screen gameplay, check out the original \"Papa's Burgeria\" for iPad!",
+      "analysis": {
+        "app_key": "apple:600626116",
+        "summary_ko": "Papa's Burgeria To Go!는 햄버거 가게를 운영하며 주문을 받고, 패티를 굽고, 토핑을 쌓아 손님에게 서빙하는 요리 시뮬레이션 게임입니다. 모바일 화면에 최적화된 컨트롤을 통해 멀티태스킹의 재미를 제공합니다. 레벨이 오를수록 새로운 토핑과 손님이 추가되어 도전 과제가 늘어납니다.",
+        "features_ko": [
+          "주문 접수, 그릴 조리, 토핑 쌓기 등 3단계 요리 과정을 수행합니다.",
+          "모바일 환경에 맞춘 썸네일 버튼과 제스처 컨트롤을 지원합니다.",
+          "멀티터치 기능을 활용해 여러 패티를 동시에 뒤집거나 토핑을 배치합니다.",
+          "게임 내 팁을 사용하여 가게 업그레이드 및 아이템을 구매합니다.",
+          "60명 이상의 손님과 50개 이상의 도전 과제를 제공합니다."
+        ],
+        "noteworthy_ko": "제한된 화면 공간에서 복잡한 요리 과정을 어떻게 직관적으로 처리할지가 핵심입니다. 스테이션 전환 방식과 멀티터치 활용은 모바일 게임 UI/UX 설계의 좋은 사례입니다.",
+        "development_ko": "각 스테이션별 상태 관리와 드래그 앤 드롭 인터페이스 구현이 중요합니다. 요리 과정의 타이밍과 정확도를 판정하는 로직이 필요하며, 다양한 손님과 레시피 데이터를 관리하는 시스템이 요구됩니다. 모바일 기기별 화면 비율 대응이 필수적입니다.",
+        "idea_ko": "모바일 환경에 최적화된 멀티태스킹 요리 시뮬레이션.",
+        "highlights_ko": [
+          "모바일 화면에 최적화된 스테이션 전환 및 제스처 컨트롤.",
+          "멀티터치를 활용한 효율적인 조리 및 서빙 프로세스."
+        ],
+        "systems_ko": [
+          "스테이션 상태 관리 시스템",
+          "드래그 앤 드롭 및 제스처 입력 처리",
+          "요리 판정 및 타이머 시스템",
+          "상점 및 업그레이드 데이터 관리",
+          "손님 및 주문 생성 로직"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "게임의 핵심 메커니즘은 명확하며, 1인이 구현하기에 적절한 규모입니다. 다만, 다양한 인터랙션과 UI/UX 최적화에 많은 시간이 소요될 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "그릴 조리 시스템",
+            "토핑 쌓기 시스템",
+            "주문 접수 및 서빙 루프"
+          ],
+          "defer": [
+            "가게 업그레이드 상점",
+            "다양한 도전 과제 시스템"
+          ],
+          "risks": [
+            "터치 입력의 정밀도 문제",
+            "스테이션 간 전환의 직관성 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "푸드트럭 경영 게임",
+            "concept": "고정된 가게가 아닌 이동하는 푸드트럭에서 지역별로 다른 재료를 사용하여 요리하는 게임입니다.",
+            "first_step": "한 가지 메뉴를 조리하고 서빙하는 기본 루프 구현."
+          },
+          {
+            "title": "커스텀 샌드위치 메이커",
+            "concept": "요리 과정보다는 사용자가 원하는 재료를 자유롭게 조합하여 나만의 레시피를 만들고 공유하는 샌드위치 제작 앱입니다.",
+            "first_step": "재료를 드래그하여 빵 위에 쌓는 레이어링 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "모바일 게임의 UI/UX 설계와 인터랙션 구현을 배우기에 최적입니다. 요리 게임 장르를 선호하는 개발자에게 강력히 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 물리 엔진 사용 여부나 데이터 저장 방식은 알 수 없습니다. 인앱 결제나 광고 시스템에 대한 정보는 없습니다.",
+        "name": "Papa's Burgeria To Go!",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/papas-burgeria-to-go/id600626116?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "apple:996325726": {
+      "app_key": "apple:996325726",
+      "name": "알바천국 - 모든 생애 모든 알바",
+      "developer": "Mediawill Networks, Inc.",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%95%8C%EB%B0%94%EC%B2%9C%EA%B5%AD-%EB%AA%A8%EB%93%A0-%EC%83%9D%EC%95%A0-%EB%AA%A8%EB%93%A0-%EC%95%8C%EB%B0%94/id996325726",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:54:26+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "알바천국 모바일 앱에서 지역·동네알바, 직종별알바, 단기알바, 맞춤알바, 브랜드알바, 동네알바맵 등 다양한 알바정보를 확인하세요! [알바천국앱 주요기능] 1. 알바천국 홈 - 홈에서 지역설정 가능 - 맞춤알바 확인 가능 2. 채용정보 - 각 카테고리별 그룹핑된 메뉴구성 - 지역·동네알바부터 맞춤알바까지 다양한 채용정보 제공 3. 인재정보 - 사장님들도 모바일에서 인재를 확인하여 채용할 수 있도록 인재정보 메뉴 제공 4. 천국스토리 - 알바생끼리 공감도 나누고! 친구도 찾고! 고민상담도 할 수 있는 모바일 커뮤니티 서비스 - 알바하고 싶은 곳의 평판을 확인할 수 있는 알바천국만의 기업평판스토리 서비스 5. 회원서비스 - 개인정보부터 지원현황, 스크랩, 이력서 정보를 한눈에 - 기업정보부터 공고관리, 지원자관리, 이력서열람 현황을 한눈에 6. 이력서등록 - 모바일에 최적화되어 더 편리해진 이력서 등록 7. 공고등록 - 모바일에 최적화되어 더 편리해진 공고 등록 8. 회원가입 - 아이디가입부터 간편가입까지 개인회원부터 기업회원까지 - 누구나 알바천국 회원이 될 수 있습니다. [참고사항] 1. 잠깐! 알바천국앱은 설치 시 '무료'로 제공되는 앱입니다. - 혹시 1달러가 결제되었나요? 이는 애플측의 테스트 결제이므로 자동으로 결제취소 또는 환불됩니다. - 사용하는 카드마다 환불 시점이 다를 수 있습니다. - iTunes Store의 결제 카드 승인 예약금에 관하여 : https://support.apple.com/ko-kr/HT201292 2. 구매내역 삭제는 앱제공자인 알바천국에게 권한이 없어, 이용자가 직접 아이튠즈에서 삭제해야 합니다. [수상내역] 2022.01 2022 대한민국 퍼스트브랜드 대상 2021.01 고용서비스 우수기관 인증(2021년~2023년) 2020.05 제28회 국민이 선택한 좋은 광고상 2019.12 이데일리 좋은 일자리 대상 2019.10 2019 올해의 브랜드상 2019.09 2019 서울영상광고제 TV부문, 비TV부문 종합 은상 2019.07 2019 올해의 브랜드 대상(7년 연속) 2019.03 2019 한국산업의 브랜드파워(K-BPI) 1위(2년 연속) 2019.01 2019 소비자가 뽑은 가장 신뢰하는 브랜드 대상(8년 연속) 2019.01 2018 유튜브 애드 리더보드 TOP20 2018.07 2018 올해의 브랜드 대상(6년 연속) 2018.07 2018 대한민국 소비자신뢰 대표브랜드 대상(8년 연속) 2018.03 2018 한국산업의 브랜드파워(K-BPI) 1위 2018.02 2018 행복더함 사회공헌대상(6년 연속) 2018.01 2018 소비자가 뽑은 가장 신뢰하는 브랜드 대상(7년 연속) 2018 고객감동경영대상(5년 연속) 2018.01 고용서비스 우수기관 인증(2018년~2020년) ※ 앱 접근 권한 안내 알바천국 앱에서 요청하는 모든 권한은 선택적 접근 권한으로, 동의하지 않아도 서비스 이용이 가능합니다. 1. 위치 (선택) : 지역 선택 시 현위치 선택 및 동네알바맵 사용 시 필요한 권한 입니다. 2. 저장공간 (선택) : 사진 등록, 파일 등록 시 필요한 권한 입니다. 3. 카메라 (선택) : 사진 촬영 업로드 시 필요한 권한 입니다. 4. 마이크 (선택) : 화상면접, 음성을 이용한 검색 서비스 사용 시 필요한 권한입니다 5. 캘린더 (선택) : 캘린더에 일정공유를 위해 필요한 권한입니다. 6. 블루투스(선택) : 알바매니저 출퇴근 확인 시 블루투스 기기 연동을 사용하는 경우 필요한 권한입니다. * 설정 > 알바천국 앱 > 알바천국 접근 허용에서 권한설정을 변경하실 수 있습니다.",
+      "analysis": {
+        "app_key": "apple:996325726",
+        "summary_ko": "알바천국은 지역별, 직종별 알바 정보를 제공하는 채용 플랫폼입니다. 구직자와 사장님을 연결하며, 커뮤니티와 기업 평판 확인 등 다양한 부가 서비스를 제공합니다.",
+        "features_ko": [
+          "지역 및 직종별로 맞춤형 채용 정보를 검색할 수 있습니다.",
+          "사장님은 모바일에서 인재 정보를 확인하고 채용할 수 있습니다.",
+          "천국스토리를 통해 알바생 간 고민 상담 및 커뮤니티 활동이 가능합니다.",
+          "기업 평판 스토리를 통해 알바할 곳의 정보를 미리 확인할 수 있습니다.",
+          "모바일에 최적화된 이력서 및 공고 등록 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "구인구직 플랫폼은 방대한 데이터베이스와 검색 알고리즘이 핵심입니다. 사용자 간의 커뮤니티와 기업 평판이라는 신뢰 기반 시스템을 구축한 점이 플랫폼 개발 관점에서 매우 중요합니다.",
+        "development_ko": "대규모 채용 공고 데이터를 효율적으로 검색하고 필터링하는 검색 엔진 최적화가 필요합니다. 사용자 위치 기반 서비스와 실시간 알림 시스템이 필수적이며, 커뮤니티 운영을 위한 게시판 시스템과 사용자 신고/관리 기능이 요구됩니다.",
+        "idea_ko": "특정 분야(예: IT 프리랜서, 예술가 등)에 특화된 소규모 구인구직 플랫폼을 만드는 것이 적합합니다.",
+        "highlights_ko": [
+          "지역 기반의 맞춤형 알바 채용 정보를 제공합니다.",
+          "커뮤니티와 기업 평판 기능을 통해 신뢰도를 높였습니다."
+        ],
+        "systems_ko": [
+          "검색 및 필터링 시스템",
+          "사용자 위치 기반 서비스",
+          "게시판 및 커뮤니티 시스템",
+          "이력서 및 공고 관리 데이터베이스",
+          "사용자 인증 및 권한 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "플랫폼 서비스는 데이터의 양이 많고 검색 정확도와 사용자 간의 상호작용 관리가 매우 복잡하여 개인 개발자가 전체를 구현하기에는 규모가 너무 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "공고 목록 조회",
+            "간단한 검색 기능",
+            "사용자 프로필 관리"
+          ],
+          "defer": [
+            "기업 평판 시스템",
+            "커뮤니티 게시판",
+            "실시간 위치 기반 매칭"
+          ],
+          "risks": [
+            "데이터 관리의 복잡성",
+            "사용자 간 분쟁 관리"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "동네 재능 마켓",
+            "concept": "동네 이웃끼리 간단한 재능(청소, 과외 등)을 공유하는 소규모 플랫폼입니다.",
+            "first_step": "재능 등록 및 검색 기능 구현."
+          },
+          {
+            "title": "스터디원 모집 앱",
+            "concept": "특정 공부를 함께할 사람을 지역별로 모집하는 간단한 게시판 앱입니다.",
+            "first_step": "스터디 공고 작성 및 댓글 기능 구현."
+          }
+        ],
+        "recommendation_ko": "플랫폼 서비스의 기본 구조를 이해하는 데 좋지만, 개인 개발자에게는 너무 큰 규모입니다. 특정 분야에 집중한 마이크로 플랫폼 개발을 추천합니다.",
+        "source_limitations_ko": "소개문에는 검색 알고리즘, 데이터 보안, 결제 시스템, 서버 인프라 등에 대한 구체적인 정보가 없습니다.",
+        "name": "알바천국 - 모든 생애 모든 알바",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%95%8C%EB%B0%94%EC%B2%9C%EA%B5%AD-%EB%AA%A8%EB%93%A0-%EC%83%9D%EC%95%A0-%EB%AA%A8%EB%93%A0-%EC%95%8C%EB%B0%94/id996325726",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 91,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
     }
   }
 }

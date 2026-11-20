@@ -13574,6 +13574,449 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-19"
+    },
+    "itch:d45f8bb57cab7cb824c5": {
+      "app_key": "itch:d45f8bb57cab7cb824c5",
+      "name": "Inbox Zero [Free] [Simulation] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://evolovedev.itch.io/inbox-zero",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:49:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "You have 99,999 unread emails. Delete them all. A short incremental game about the worst inbox in the world.",
+      "analysis": {
+        "app_key": "itch:d45f8bb57cab7cb824c5",
+        "summary_ko": "99,999개의 읽지 않은 이메일을 모두 삭제하는 짧은 인크리멘탈 게임입니다. 세상에서 가장 엉망인 받은 편지함을 정리하는 경험을 제공합니다. 단순한 반복 작업을 통해 목표를 달성하는 과정을 담고 있습니다.",
+        "features_ko": [
+          "이메일 삭제 버튼을 통해 수치화된 이메일 개수를 줄입니다.",
+          "인크리멘탈 장르 특유의 반복적인 클릭 및 정리 메커니즘을 제공합니다."
+        ],
+        "noteworthy_ko": "현대인의 스트레스 요소인 '이메일 정리'를 게임화한 점이 흥미롭습니다. 극단적인 수치를 설정하여 플레이어에게 즉각적인 성취감을 주는 구조로 보입니다.",
+        "development_ko": "핵심은 카운터 변수 관리와 UI 반응성입니다. 콘텐츠 제작 부담은 매우 낮으나, 반복 작업이 지루하지 않도록 시각적 피드백을 강화하는 것이 중요합니다.",
+        "idea_ko": "이메일 대신 '쌓인 알림'이나 '디지털 쓰레기'를 테마로 한 미니멀한 정리 게임을 제안합니다.",
+        "highlights_ko": [
+          "99,999개라는 압도적인 수치를 통해 즉각적인 목표를 제시합니다.",
+          "짧고 강렬한 경험을 지향하는 인크리멘탈 장르의 특징을 잘 보여줍니다."
+        ],
+        "systems_ko": [
+          "데이터 관리(카운터)",
+          "UI 이벤트 처리",
+          "시각적 피드백 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 단순한 카운터 감소에 집중되어 있어 구현 난이도가 매우 낮습니다. 복잡한 물리 엔진이나 네트워크 통신이 필요 없습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "이메일 카운터 UI",
+            "삭제 버튼 및 로직"
+          ],
+          "defer": [
+            "스토리 요소",
+            "다양한 이메일 종류"
+          ],
+          "risks": [
+            "반복 작업의 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "알림 지우개",
+            "concept": "스마트폰 화면에 쌓인 알림을 스와이프하여 지우는 게임입니다. 알림 종류에 따라 지우는 방식이 다릅니다.",
+            "first_step": "스와이프 제스처로 오브젝트를 제거하는 프로토타입 구현."
+          },
+          {
+            "title": "파일 정리 마스터",
+            "concept": "바탕화면에 흩어진 아이콘을 폴더별로 분류하는 시간 제한 게임입니다.",
+            "first_step": "드래그 앤 드롭으로 아이콘을 특정 영역에 넣는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "인크리멘탈 게임의 기초적인 데이터 흐름을 익히기에 좋습니다. 단순한 기획이 어떻게 게임성을 갖추는지 연구하기 적합합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 게임 내 구체적인 보상 체계나 시각적 연출 방식은 확인되지 않습니다.",
+        "name": "Inbox Zero [Free] [Simulation] [Windows]",
+        "source": "itch",
+        "detail_url": "https://evolovedev.itch.io/inbox-zero",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 281,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 33,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "google:com.junkcleaner.filemanager": {
+      "app_key": "google:com.junkcleaner.filemanager",
+      "name": "不要ファイル削除＆ファイル管理",
+      "developer": "Hars Beauty Apps",
+      "source": "google",
+      "country": "JP",
+      "category": "app_productivity",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.junkcleaner.filemanager&hl=ja&gl=JP",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:50:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "このアプリは、脅威スキャン、ストレージの確認、ファイルの閲覧、ネットワークツールを、2つのタブにまとめています。 🛡️ セキュリティスキャン クイックスキャンでインストール済みアプリを既知のマルウェアについて確認するか、ディープスキャンでより広範囲を確認できます。スキャンのたびに、見つかった項目の概要が表示され、その後の対応は常にご自身で決められます。 🗑️ 不要ファイル システムキャッシュ、削除されたアプリが残した残留ファイル、その他の一時データを見つけます。項目は種類別に並べられサイズも表示されるため、削除するものを選び、残りはそのままにできます。選択した項目が占める容量の合計も随時表示されます。 💬 メッセージアプリのメディア メッセージアプリが保存したキャッシュファイル、画像、動画は別々のグループに表示され、削除する前にチャットのメディアを簡単に確認できます。 📂 ファイルマネージャー 動画、画像、音声、ドキュメント、大容量ファイル、ダウンロードをカテゴリ別に閲覧できます。類似写真は比較しやすいよう並べて表示され、埋め込まれた位置情報を含む写真の詳細も各画像で確認できます。 🔧 ツールボックス - 電源状態：充電レベル、電圧、温度、推定残り時間 - ハードウェア詳細：プロセッサ、ストレージ、画面、センサー情報 - アプリ使用状況：各アプリの使用時間と起動回数をランキング表示 - データ通信量：各アプリが使用したモバイルデータとWi-Fiデータ - Wi-Fiチェック：接続中のネットワークのARP、DNS、SSL評価 - 速度テスト：ダウンロードとアップロードの速度をリアルタイム表示 ⚙️ 設定 権限の管理、温度単位の切り替え、プライバシー設定の確認を、どちらのタブからも開ける設定ページで行えます。 注意事項 - ファイルは確認後にのみ削除され、削除したファイルは復元できない場合があります。 - スキャン結果は、スキャン時点で利用可能な検出データに基づいています。 - ツールボックスの数値はシステムが報告する値で、参考情報です。",
+      "analysis": {
+        "app_key": "google:com.junkcleaner.filemanager",
+        "summary_ko": "이 앱은 기기 내 불필요한 파일을 정리하고 시스템 상태를 관리하는 유틸리티 도구입니다. 보안 스캔, 파일 관리, 네트워크 상태 확인 기능을 제공하여 사용자가 기기 성능을 최적화할 수 있도록 돕습니다. 직관적인 탭 구성을 통해 저장 공간 확보와 하드웨어 정보 확인을 지원합니다.",
+        "features_ko": [
+          "설치된 앱의 악성코드 여부를 확인하는 보안 스캔 기능을 제공합니다.",
+          "시스템 캐시 및 잔여 파일을 분류하여 용량 확보를 돕습니다.",
+          "메시지 앱의 미디어 파일을 그룹화하여 관리할 수 있습니다.",
+          "파일 유형별 카테고리 분류 및 대용량 파일 탐색 기능을 지원합니다.",
+          "CPU, 배터리, 네트워크 등 하드웨어 상태를 실시간으로 모니터링합니다."
+        ],
+        "noteworthy_ko": "파일 관리와 시스템 모니터링을 결합한 다목적 유틸리티라는 점이 흥미롭습니다. 특히 메시지 앱 미디어 관리와 같은 사용자 중심의 세분화된 분류 기능은 실용적인 개발 접근 방식입니다.",
+        "development_ko": "파일 시스템 접근 권한 제어와 실시간 하드웨어 데이터 수집이 핵심 기술입니다. 데이터 분류 알고리즘의 정확도가 중요하며, 사용자에게 삭제 결과를 명확히 보여주는 UI 설계가 필요합니다. 시스템 리소스 모니터링 시 배터리 소모를 최소화하는 최적화가 필수적입니다.",
+        "idea_ko": "특정 앱의 캐시만 집중적으로 관리하는 '메신저 전용 다이어트 도구'가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "보안 스캔과 파일 정리를 통합하여 사용자 편의성을 높였습니다.",
+          "하드웨어 및 네트워크 상태를 상세히 확인할 수 있는 툴박스를 제공합니다."
+        ],
+        "systems_ko": [
+          "파일 시스템 접근 및 스캔 엔진",
+          "데이터 분류 및 용량 계산 로직",
+          "하드웨어 정보 수집 API 연동",
+          "사용자 설정 및 권한 관리 시스템",
+          "실시간 데이터 시각화 UI"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "파일 시스템 권한 관리와 OS별 API 제약 사항을 다루는 것이 까다롭습니다. 보안 및 데이터 삭제 기능은 오작동 시 사용자 데이터 손실 위험이 있어 신중한 설계가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "파일 스캔 및 목록 표시",
+            "파일 삭제 기능",
+            "저장 공간 용량 표시"
+          ],
+          "defer": [
+            "실시간 네트워크 속도 테스트",
+            "악성코드 정밀 스캔"
+          ],
+          "risks": [
+            "OS 보안 정책에 따른 파일 접근 제한",
+            "중요 데이터 삭제로 인한 사용자 불만"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "미디어 정리 비서",
+            "concept": "메신저에서 받은 사진 중 중복되거나 오래된 파일을 자동으로 찾아 삭제를 제안합니다. 사용자의 선택을 돕기 위해 미리보기 기능을 강화합니다.",
+            "first_step": "특정 폴더 내 이미지 파일의 생성 날짜와 크기를 추출하는 프로토타입 제작."
+          },
+          {
+            "title": "배터리 소모 분석기",
+            "concept": "앱별 배터리 사용량을 추적하여 특정 시간대에 배터리를 많이 소모하는 앱을 리포트로 제공합니다.",
+            "first_step": "안드로이드 배터리 통계 API를 활용해 앱별 사용 시간 데이터를 가져오는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "OS의 파일 시스템 접근 권한과 하드웨어 API 활용법을 배우기에 적합합니다. 다만, 시스템 최적화 앱은 OS 업데이트에 따른 권한 정책 변화가 잦으므로 유지보수 난이도가 높습니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 외부 클라우드 연동, 결제 시스템, 보안 알고리즘의 구체적인 구현 방식은 확인되지 않습니다.",
+        "name": "不要ファイル削除＆ファイル管理",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.junkcleaner.filemanager&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 189,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 17,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "google:app.boostplay": {
+      "app_key": "google:app.boostplay",
+      "name": "BoostPlay: Real Money Games",
+      "developer": "BoostPlay",
+      "source": "google",
+      "country": "US",
+      "category": "app_lifestyle",
+      "detail_url": "https://play.google.com/store/apps/details?id=app.boostplay&hl=en&gl=US",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:51:54+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Love casual gaming and want to get something back for the time you spend playing? BoostPlay is a rewards hub that gives you coins for discovering and playing great mobile titles. Browse a hand-picked catalog of puzzle games, match-3, block puzzles, solitaire and 2048. Install a game straight from the Play Store, start playing, and watch your rewards add up. What you can do with BoostPlay: - Discover new games added to the catalog every week. - Play puzzle games, block puzzles, solitaire and 2048. - Try card games and other online games you will love. - Collect coins as you reach play milestones. - Redeem for gift cards from popular brands. - Earn coins across a variety of games, not just one. - Complete surveys and featured offers for extra coins. - Enjoy free games with no purchase required. - Get daily offers and fresh rewards. - Boost your balance the more you play. BoostPlay is completely free to play, and no money is required to get started. You browse the catalog, pick a puzzle game or card game that looks fun, and install it from the Play Store. As you play, you earn coins for reaching in-game milestones. The coins are a loyalty balance, not cash, and they grow the more titles you try. New games and a wide variety of games are added on an ongoing basis, so there is always something fresh to boost your collection. You can also complete surveys and featured offers to get rewarded even faster. Win a round, clear a level, and start earning coins toward your next reward. When your balance is high enough, redeem for gift cards from popular brands. Here is how the rewards system works. Every install, play session and completed milestone adds loyalty coins to your BoostPlay balance, and featured offer bundles grant bonus coins on top. Once your coin balance passes the minimum threshold, you can redeem it. Payout options include gift cards from popular global and local brands, plus payout via PayPal or bank transfer, with availability depending on your country. You invest only your time, and there is never a fee to play. About rewards and money, a few common questions. Looking for money games or real money games? BoostPlay works differently from typical money making apps and real money games. Instead of asking you to make money by putting down a deposit, it simply gives coins for playing, a play-to-earn model with no entry fee. Can you earn money with BoostPlay? Any value you build comes from coins tied to your activity and milestones, redeemable for gift cards or a PayPal payout. Earnings depend on how much you play and are never guaranteed. There is no true money involved and no purchase needed for free cash-style bonuses. The coins simply grow as you play. Players moving over from win money games, cash games and win real money games often just play at their own pace here, since coins accrue from ordinary gameplay. The leaderboard and milestone system decides how bonus coins are shared. The best play is simply to try more titles and get paid in coins for the time you already spend.",
+      "analysis": {
+        "app_key": "google:app.boostplay",
+        "summary_ko": "BoostPlay는 다양한 모바일 게임을 발견하고 플레이하며 보상을 얻을 수 있는 리워드 허브 앱입니다. 퍼즐, 카드 게임 등 여러 장르의 게임을 설치하고 미션을 달성하면 코인을 획득할 수 있습니다. 획득한 코인은 기프트 카드나 현금성 보상으로 교환이 가능합니다.",
+        "features_ko": [
+          "매주 새로운 퍼즐, 카드, 블록 게임 등을 추천받아 설치할 수 있습니다.",
+          "게임 내 특정 미션이나 레벨을 달성하면 보상으로 코인을 지급합니다.",
+          "설문조사나 특별 제안을 완료하여 추가 코인을 획득할 수 있습니다.",
+          "모은 코인을 인기 브랜드의 기프트 카드나 PayPal 등으로 교환할 수 있습니다.",
+          "별도의 입금이나 구매 없이 무료로 게임을 즐기며 보상을 쌓을 수 있습니다."
+        ],
+        "noteworthy_ko": "사용자의 플레이 시간을 수익화하는 리워드 모델을 구축한 점이 특징입니다. 외부 게임들과의 연동을 통해 사용자에게 지속적인 동기를 부여하는 생태계 구성이 핵심입니다.",
+        "development_ko": "사용자의 게임 플레이 이력을 추적하고 미션 달성 여부를 검증하는 서버 시스템이 필수적입니다. 보상 지급을 위한 포인트 관리 시스템과 보안이 중요합니다. 다양한 게임과의 제휴를 위한 API 연동 기술이 필요합니다.",
+        "idea_ko": "특정 장르(예: 퍼즐 게임)에만 집중하여 해당 장르의 고수들에게 보상을 주는 커뮤니티형 리워드 앱을 고려해볼 수 있습니다.",
+        "highlights_ko": [
+          "게임 플레이라는 일상적인 활동을 통해 보상을 얻는 구조를 제공합니다.",
+          "다양한 게임을 한곳에서 모아보고 보상을 관리할 수 있는 허브 역할을 합니다."
+        ],
+        "systems_ko": [
+          "사용자 계정 및 포인트 데이터베이스",
+          "게임 미션 추적 및 검증 시스템",
+          "보상 교환 및 결제 연동 시스템",
+          "설문조사 및 광고 제휴 API",
+          "사용자 활동 로그 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "사용자의 게임 플레이 데이터를 정확히 추적하고 부정 행위를 방지하는 시스템은 매우 높은 수준의 보안과 서버 기술을 요구합니다. 또한 보상 지급을 위한 금융 서비스 연동은 개인 개발자가 구현하기에 매우 복잡하고 위험 부담이 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "게임 목록 표시",
+            "포인트 적립 및 확인 UI",
+            "기본적인 보상 교환 신청 기능"
+          ],
+          "defer": [
+            "실시간 게임 데이터 연동",
+            "자동 부정 행위 탐지 시스템",
+            "다양한 글로벌 결제 수단"
+          ],
+          "risks": [
+            "부정 적립 시도에 대한 보안 취약점",
+            "보상 지급을 위한 자금 확보 및 운영 리스크"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "게임 챌린지 기록장",
+            "concept": "사용자가 게임 기록을 스크린샷으로 인증하면 커뮤니티 내에서 랭킹을 매기는 앱입니다.",
+            "first_step": "사용자가 사진을 업로드하고 관리자가 승인하는 기능을 구현합니다."
+          },
+          {
+            "title": "퍼즐 게임 큐레이터",
+            "concept": "매일 새로운 퍼즐 게임을 추천하고 사용자들이 리뷰를 남기는 큐레이션 앱입니다.",
+            "first_step": "게임 정보를 표시하고 리뷰를 작성할 수 있는 게시판을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "리워드 앱의 비즈니스 모델을 이해하는 데 도움이 되지만, 실제 구현은 보안과 운영 측면에서 매우 어렵습니다. 서비스 기획 공부용으로만 참고하는 것을 추천합니다.",
+        "source_limitations_ko": "보상 지급을 위한 구체적인 서버 로직이나 외부 게임사와의 데이터 연동 방식은 확인되지 않습니다. 보안 및 부정 방지 기술에 대한 정보는 없습니다.",
+        "name": "BoostPlay: Real Money Games",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=app.boostplay&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "google:com.kayac.BolaCapture": {
+      "app_key": "google:com.kayac.BolaCapture",
+      "name": "Bola Capture",
+      "developer": "KAYAC Inc.",
+      "source": "google",
+      "country": "US",
+      "category": "game_action",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.kayac.BolaCapture&hl=en&gl=US",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:53:22+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Draw a line. Fling the bola. Watch it wrap. Bola Capture is a physics playground built around one irresistible move: throwing a weighted cord and watching it coil around whatever it touches. Your targets stagger and flail on fully simulated ragdoll bodies — and one well-aimed throw turns that wobbling mess into a neatly bound bundle. ■ ONE SIMPLE MOVE Drag anywhere on the screen to draw your throw. - The direction you draw is the direction the cord spins. - The longer the line, the longer the rope. - Let go, and the bola whips away, spinning and trailing, in cinematic slow motion. Long strokes reach farther and sweep up more targets at once. Short ones snap in fast and close. Keep up to three bolas in the air at the same time. ■ CHAOS, THEN COLLAPSE Nothing here is a canned animation. Every stumble, tangle and tumble falls out of live physics. - Wrap a single leg and they lose their footing all on their own. - Catch a whole crowd in one throw and cinch them into a single struggling bundle. - Rope them to lampposts, girders and steel trusses to pin them down for good. - Sunglasses pop off. Eyes go wide. They squirm, they glare right back at you. - Whatever they were carrying slips out of their hands and clatters to the floor. Because it all runs on real simulation, the same throw never plays out twice. ■ TEN SHORT STAGES, BUILT BY HAND Among them: - A skyscraper rooftop, high above the city - An office floor, desks and all - A boxing ring wrapped in a giant steel truss - A street chase between a cop and a thief - Trash cans that burst open, lids and litter flying ■ MADE FOR ONE HAND Portrait. One thumb. No timers, no game over, no pressure — if a throw misses, just throw again. Stages are short enough for a spare minute on the train, and the chaos keeps rolling as long as you feel like playing. Grab the cord and start wrapping. How much can you catch in a single throw?",
+      "analysis": {
+        "app_key": "google:com.kayac.BolaCapture",
+        "summary_ko": "화면에 선을 그려 올가미(Bola)를 던지고, 물리 시뮬레이션을 통해 대상을 포획하는 액션 게임입니다. 래그돌 물리 효과를 사용하여 대상이 엉키고 넘어지는 과정을 사실적으로 묘사합니다. 한 손으로 조작 가능한 간단한 규칙으로 다양한 스테이지를 즐길 수 있습니다.",
+        "features_ko": [
+          "화면 드래그로 선을 그려 올가미의 방향과 길이를 조절합니다.",
+          "물리 엔진을 통해 올가미가 대상에 감기는 과정을 실시간으로 시뮬레이션합니다.",
+          "포획된 대상은 래그돌 물리 효과에 의해 넘어지거나 엉키는 반응을 보입니다.",
+          "한 번에 최대 3개의 올가미를 공중에 띄울 수 있습니다.",
+          "다양한 환경의 스테이지에서 대상들을 포획하여 목표를 달성합니다."
+        ],
+        "noteworthy_ko": "물리 엔진을 활용한 상호작용이 게임의 핵심 재미 요소입니다. 정해진 애니메이션이 아닌 실시간 물리 연산으로 매번 다른 결과가 나오는 점이 개발 관점에서 매우 흥미롭습니다.",
+        "development_ko": "핵심 기술은 2D/3D 물리 엔진(래그돌 및 로프 물리) 구현입니다. 콘텐츠 제작 부담은 각 스테이지의 환경 구성에 있으며, 물리 연산의 최적화가 가장 큰 테스트 부담이 될 것으로 추정됩니다.",
+        "idea_ko": "물리 기반의 포획 메커니즘을 활용하여, 협동 퍼즐이나 장애물 회피 게임으로 확장하는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "실시간 물리 시뮬레이션 기반의 래그돌 반응.",
+          "한 손 조작에 최적화된 직관적인 인터페이스."
+        ],
+        "systems_ko": [
+          "물리 엔진(로프 및 래그돌)",
+          "입력 제스처 인식 시스템",
+          "스테이지 관리 시스템",
+          "오브젝트 상호작용 로직"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "로프의 물리적 움직임과 래그돌의 충돌 처리를 자연스럽게 구현하는 것은 고도의 물리 엔진 활용 능력을 요구하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "로프 드래그 및 발사 로직",
+            "기본 물리 충돌 처리",
+            "래그돌 캐릭터 모델"
+          ],
+          "defer": [
+            "다양한 스테이지 환경",
+            "복잡한 오브젝트 상호작용"
+          ],
+          "risks": [
+            "물리 연산 부하로 인한 성능 저하",
+            "로프가 꼬이거나 뚫리는 물리 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "물리 로프 구조대",
+            "concept": "추락하는 캐릭터를 로프로 감아 안전하게 착지시키는 게임입니다. 로프의 탄성과 길이를 조절하여 무게를 버티는 것이 핵심입니다.",
+            "first_step": "캐릭터와 로프 간의 연결 및 장력 물리 구현을 시작합니다."
+          },
+          {
+            "title": "로프 낚시꾼",
+            "concept": "움직이는 물체들을 로프로 낚아채어 점수를 얻는 게임입니다. 물체의 속도와 이동 경로를 예측하여 던지는 타이밍이 중요합니다.",
+            "first_step": "이동하는 타겟을 향해 로프를 던지는 기본 메커니즘을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "물리 엔진을 활용한 게임 개발의 기초를 다지기에 매우 좋습니다. 물리 기반 상호작용이 게임의 재미를 어떻게 극대화하는지 학습할 수 있습니다.",
+        "source_limitations_ko": "사용된 물리 엔진의 종류나 구체적인 구현 기술은 알 수 없습니다. 인앱 결제나 광고 시스템의 존재 여부는 소개문에서 확인되지 않습니다.",
+        "name": "Bola Capture",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.kayac.BolaCapture&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "apple:6747090524": {
+      "app_key": "apple:6747090524",
+      "name": "Wall바둑",
+      "developer": "Gyutak Hahn",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_board",
+      "detail_url": "https://apps.apple.com/kr/app/wall%EB%B0%94%EB%91%91/id6747090524?uo=2",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:53:22+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "벽을 세워 더 넓은 영역을 확보하는 2인 전략 보드게임입니다. • 같은 기기에서 즐기는 오프라인 2인 대결 • Easy, Normal, Expert, Sedol의 네 단계 AI 대결 • 온라인 자동 매칭과 방 코드로 친구와 대결 • 온라인 점수와 랭킹 • 말 이동과 벽 설치를 합해 60초의 턴 제한시간 • 대국 중 연결이 끊기거나 앱을 다시 열어도 기존 온라인 대국 복귀 • 세 가지 무료 테마 초기 배치 후 말을 상하좌우로 이동하고 벽을 설치하세요. 말과 벽으로 영역이 분리되면 확보한 영역을 비교해 승자를 정합니다. 이번 버전에서는 광고와 인앱 결제를 제공하지 않습니다.",
+      "analysis": {
+        "app_key": "apple:6747090524",
+        "summary_ko": "벽을 세워 영역을 확보하는 2인 전략 보드게임입니다. 오프라인 대결과 AI 대결, 온라인 매칭 기능을 모두 지원합니다. 턴 제한 시간과 랭킹 시스템을 통해 긴장감 있는 대국 환경을 제공합니다.",
+        "features_ko": [
+          "말 이동과 벽 설치를 조합하여 영역을 확보하는 규칙을 가집니다.",
+          "Easy부터 Sedol까지 4단계의 AI 대결을 지원합니다.",
+          "온라인 자동 매칭 및 방 코드를 통한 친구 대결이 가능합니다.",
+          "60초의 턴 제한 시간으로 빠른 진행을 유도합니다.",
+          "대국 중 연결이 끊겨도 기존 대국으로 복귀할 수 있습니다."
+        ],
+        "noteworthy_ko": "바둑과 유사한 영역 확보 규칙을 보드게임으로 재해석한 점이 흥미롭습니다. 특히 AI 난이도 설정과 온라인 복귀 시스템은 사용자 편의성을 높이는 중요한 요소입니다.",
+        "development_ko": "핵심 기술은 보드 상태 관리와 AI 알고리즘입니다. 콘텐츠 제작 부담은 낮으나, 온라인 매칭을 위한 서버 통신과 상태 동기화가 테스트의 핵심 부담입니다.",
+        "idea_ko": "벽 설치 규칙을 변형하여 매 턴마다 지형이 바뀌는 '변칙 보드게임' 모드를 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "영역 확보 중심의 전략적 규칙.",
+          "온라인 대국 복귀 및 랭킹 시스템."
+        ],
+        "systems_ko": [
+          "보드 상태 관리 시스템",
+          "AI 난이도 조절 알고리즘",
+          "온라인 매칭 및 네트워크 동기화",
+          "턴 제한 시간 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "보드게임 규칙 구현은 비교적 명확하나, 온라인 매칭과 AI 알고리즘 구현이 개인 개발자에게는 도전적인 과제이기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "보드판 및 말 이동 로직",
+            "벽 설치 규칙 구현",
+            "오프라인 2인 대결 모드"
+          ],
+          "defer": [
+            "온라인 매칭 시스템",
+            "고도화된 AI"
+          ],
+          "risks": [
+            "온라인 대국 시 네트워크 지연 문제",
+            "AI 알고리즘의 최적화 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지형 변형 보드게임",
+            "concept": "특정 턴마다 벽이 무너지거나 이동하는 규칙을 추가합니다. 고정된 전략이 아닌 유연한 대응이 필요합니다.",
+            "first_step": "턴마다 보드 상태를 변경하는 로직을 구현합니다."
+          },
+          {
+            "title": "벽 쌓기 퍼즐",
+            "concept": "주어진 말 위치에서 최소한의 벽으로 최대 영역을 확보하는 퍼즐 모드입니다. 싱글 플레이어 콘텐츠를 강화합니다.",
+            "first_step": "영역 계산 알고리즘을 퍼즐 모드에 맞게 수정합니다."
+          }
+        ],
+        "recommendation_ko": "보드게임의 규칙을 시스템화하고 AI와 대결하는 구조를 배우기에 좋습니다. 온라인 매칭 시스템을 구현해 보고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "AI의 구체적인 알고리즘(미니맥스 등)이나 온라인 매칭 서버의 구성 방식은 확인되지 않습니다. 광고와 인앱 결제가 없다고 명시되어 있으나 향후 수익 모델은 알 수 없습니다.",
+        "name": "Wall바둑",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/wall%EB%B0%94%EB%91%91/id6747090524?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
     }
   }
 }

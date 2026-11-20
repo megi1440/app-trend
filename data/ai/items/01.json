@@ -12625,6 +12625,186 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-19"
+    },
+    "itch:58fcad16f93e4e9e1e34": {
+      "app_key": "itch:58fcad16f93e4e9e1e34",
+      "name": "Tesseract [Free] [Other]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://manaos-chan.itch.io/tesseract",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:49:01+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A techno-styled Flappy Bird game with single-player and local two-player modes.",
+      "analysis": {
+        "app_key": "itch:58fcad16f93e4e9e1e34",
+        "summary_ko": "Tesseract는 Flappy Bird의 메커니즘을 테크노 스타일의 비주얼로 재해석한 게임입니다. 싱글 플레이 모드와 로컬 2인용 모드를 지원하여 경쟁적인 재미를 제공합니다.",
+        "features_ko": [
+          "장애물을 피하며 비행하는 Flappy Bird 방식의 조작을 제공합니다.",
+          "테크노 스타일의 시각적 테마를 적용했습니다.",
+          "로컬 환경에서 2명이 동시에 플레이할 수 있는 모드를 지원합니다."
+        ],
+        "noteworthy_ko": "단순한 원버튼 조작 게임에 로컬 멀티플레이를 추가하여 경쟁 요소를 강화한 점이 흥미롭습니다. 시각적 스타일을 통해 기존 게임과 차별화를 시도한 것으로 보입니다.",
+        "development_ko": "핵심 메커니즘인 물리 엔진과 충돌 판정 구현이 중요합니다. 2인용 모드를 위해 화면 분할 또는 동일 화면 내 조작 처리가 필요합니다. 시각적 효과를 위한 셰이더 활용이 개발의 핵심이 될 것입니다.",
+        "idea_ko": "로컬 멀티플레이의 경쟁성을 극대화한 대전형 장애물 회피 게임으로 발전시키는 것이 좋습니다.",
+        "highlights_ko": [
+          "직관적인 조작법과 빠른 게임 템포를 갖추고 있습니다.",
+          "로컬 2인 플레이를 통해 친구와 함께 즐길 수 있는 경쟁 요소를 제공합니다."
+        ],
+        "systems_ko": [
+          "물리 및 충돌 판정 시스템",
+          "입력 처리(키보드/패드)",
+          "게임 상태 관리(시작/종료/점수)",
+          "로컬 멀티플레이 동기화"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "Flappy Bird류의 게임은 메커니즘이 단순하여 1인 개발자가 핵심 기능을 구현하기에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 비행 및 장애물 생성 로직",
+            "충돌 판정",
+            "로컬 2인 입력 처리"
+          ],
+          "defer": [
+            "온라인 멀티플레이",
+            "다양한 캐릭터 스킨"
+          ],
+          "risks": [
+            "단조로운 게임 플레이의 지루함",
+            "2인 플레이 시 화면 가독성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "방해 공작 모드",
+            "concept": "상대방의 화면에 장애물을 생성하거나 시야를 가리는 방해 아이템을 추가하여 경쟁을 심화합니다.",
+            "first_step": "아이템 획득 시 상대방의 장애물 속도를 일시적으로 높이는 기능을 구현합니다."
+          },
+          {
+            "title": "협동 비행 모드",
+            "concept": "두 플레이어가 줄로 연결되어 서로의 거리를 유지하며 장애물을 통과해야 하는 협동 모드입니다.",
+            "first_step": "두 캐릭터 사이의 거리를 계산하여 일정 거리 이상 멀어지면 게임 오버되는 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "물리 기반의 간단한 게임 메커니즘과 로컬 멀티플레이 구현을 학습하기에 매우 좋습니다. 게임의 핵심 재미를 유지하면서 변주를 주는 연습을 하기에 적합합니다.",
+        "source_limitations_ko": "테크노 스타일의 구체적인 시각 효과 구현 방식이나 2인용 모드의 상세 규칙은 설명만으로 알 수 없습니다.",
+        "name": "Tesseract [Free] [Other]",
+        "source": "itch",
+        "detail_url": "https://manaos-chan.itch.io/tesseract",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 314,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "apple:6748948029": {
+      "app_key": "apple:6748948029",
+      "name": "Sin Streets: Open World RPG",
+      "developer": "Pixelvoid Games Ltd",
+      "source": "apple",
+      "country": "US",
+      "category": "game_rpg",
+      "detail_url": "https://apps.apple.com/us/app/sin-streets-open-world-rpg/id6748948029?uo=2",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:49:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A new life begins the moment you step into a city where every choice matters. Your character arrives with nothing but determination. Follow a young newcomer learning to survive among rival groups, unexpected dangers, and fast-changing situations. Your own hero, your own path Choose one of six characters and decide who you want to become. Explore the city, take on missions, and make a name for yourself as you drive and fight your way through this fictional city. City atmosphere Explore a warm coastal metropolis with the feel of LA and Las Vegas. Drive past palm trees and feel the ocean breeze as you head for the industrial district, the busy port, or the growing construction site. Each area has its own atmosphere and dangers. Use the minimap and full city map to plan your next move. Danger can strike anytime Rival groups are watching. They move fast, strike without warning, and won’t hesitate to challenge you. Stay alert for ambushes and pick the right moment to fight back. Weapons and survival tools Take on enemies that make smarter decisions and react accordingly. Use a machine gun or grenade launcher, or take a heavy bat into close combat. Keep medkits and body armor handy for tougher fights. Vehicles and customization Get behind the wheel of anything from a passenger car to a heavy-duty truck hauler. Customize your vehicle with spoilers, rims, flags, and paint colors. Hit the nitro for a burst of speed through the city streets. Progression and achievements Take on side quests to earn experience and level up your character. Climb the player ranks and unlock bonuses by building your reputation with the city’s rival groups. Unlock achievements as you grow stronger, faster, and more skilled. Third-person view Play from a cinematic third-person perspective. Expressive animations and immersive visuals put you in the middle of every chase, jump, and gunfight. The open world evolves as you play. Start exploring the city. SUBSCRIPTION Subscribe now to get: 1. More quest rewards 2. Daily gold 3. Discount on all purchases 4. Faster reputation growth 5. Exclusive car skins 6. Golden pistol Premium subscription details: - Start with a free three-day trial. When the trial ends, a paid weekly subscription will begin automatically. - Subscriptions are available in weekly and annual plans. - A weekly subscription costs $9.99, and an annual subscription costs $39.99. - Payment will be charged to your Apple Account upon confirmation of purchase. - You can cancel your subscription or free trial at any time. To prevent automatic renewal, cancel at least 24 hours before the end of the current billing period. - Your account will be charged for renewal within 24 hours before the end of the current billing period. - You can manage your subscription and turn off auto-renewal in your Account Settings after purchase. - Any unused portion of the free trial will be forfeited when you purchase a subscription. - Read our Privacy Policy and Terms of Use: https://pixelvoidgames.com/privacy.html https://pixelvoidgames.com/terms_of_use.html",
+      "analysis": {
+        "app_key": "apple:6748948029",
+        "summary_ko": "도시를 배경으로 한 오픈 월드 RPG입니다. 플레이어는 6명의 캐릭터 중 하나를 선택하여 미션을 수행하고 도시 내에서 명성을 쌓으며 성장합니다. 차량 운전, 전투, 무기 커스터마이징 등 다양한 활동이 가능하며 오픈 월드 환경에서 자유로운 탐험을 제공합니다.",
+        "features_ko": [
+          "6명의 캐릭터 중 하나를 선택하여 고유한 경로로 게임을 진행합니다.",
+          "차량 운전 및 커스터마이징(스포일러, 림, 페인트 등) 기능을 제공합니다.",
+          "다양한 무기(기관총, 유탄 발사기, 근접 무기)를 사용하여 적과 전투합니다.",
+          "미니맵과 전체 지도를 활용하여 도시를 탐색하고 미션을 수행합니다.",
+          "사이드 퀘스트를 통해 경험치를 획득하고 캐릭터 레벨을 올립니다.",
+          "3인칭 시점의 영화적 연출을 통해 도시 생활과 전투를 경험합니다."
+        ],
+        "noteworthy_ko": "오픈 월드 RPG는 개인 개발자에게 매우 도전적인 장르입니다. 도시 환경 구축과 AI 적들의 반응성, 차량 물리 엔진 등 구현해야 할 시스템의 범위가 매우 넓습니다.",
+        "development_ko": "3D 환경 구축, 물리 엔진, AI 로직, UI/UX 등 종합적인 기술력이 필요합니다. 콘텐츠 제작 부담이 매우 크므로, 초기에는 특정 구역으로 범위를 제한하는 것이 좋습니다. 밸런스 조절을 위한 반복적인 테스트가 필수적입니다.",
+        "idea_ko": "오픈 월드 전체가 아닌, 특정 구역 내에서의 '배달 및 추격' 미션에 집중한 게임을 제안합니다.",
+        "highlights_ko": [
+          "차량 커스터마이징과 오픈 월드 탐험의 결합.",
+          "3인칭 시점의 몰입감 있는 전투 및 이동 시스템."
+        ],
+        "systems_ko": [
+          "3D 오픈 월드 환경 시스템",
+          "차량 물리 및 제어 시스템",
+          "AI 적 행동 트리",
+          "퀘스트 및 레벨업 시스템",
+          "인벤토리 및 무기 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "오픈 월드 구조는 방대한 리소스와 복잡한 시스템 연동을 요구합니다. 1인 개발 시 최적화와 콘텐츠 양을 감당하기 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 카메라 제어",
+            "기본 차량 운전 시스템",
+            "간단한 적 AI 및 전투"
+          ],
+          "defer": [
+            "전체 도시 오픈 월드",
+            "복잡한 커스터마이징 시스템",
+            "구독형 서비스 모델"
+          ],
+          "risks": [
+            "개발 범위 확장으로 인한 프로젝트 중단",
+            "3D 리소스 제작 및 최적화 부담"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "도시 배달부",
+            "concept": "오픈 월드 도시에서 제한 시간 내에 물건을 배달하는 게임입니다. 차량 운전 실력이 핵심입니다.",
+            "first_step": "차량 운전 및 체크포인트 도달 로직 구현."
+          },
+          {
+            "title": "스트리트 파이터즈",
+            "concept": "도시의 특정 구역에서 적들과 1:1 전투를 벌이는 아레나 방식의 게임입니다.",
+            "first_step": "캐릭터 공격 애니메이션 및 적 AI 반응 구현."
+          }
+        ],
+        "recommendation_ko": "대규모 프로젝트의 구조를 이해하고 싶다면 참고할 만합니다. 다만, 개인 개발자에게는 구현 범위가 너무 넓어 비추천하며, 핵심 메커니즘을 축소하여 시도하는 것을 권장합니다.",
+        "source_limitations_ko": "소개문에 명시된 구독 서비스 및 결제 로직은 외부 연동이 필요하며, 실제 구현 시 보안 및 결제 정책 준수가 필수적입니다.",
+        "name": "Sin Streets: Open World RPG",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/sin-streets-open-world-rpg/id6748948029?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 231,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 3,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
     }
   }
 }

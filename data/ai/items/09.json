@@ -12707,6 +12707,274 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-19"
+    },
+    "apple:6468845173": {
+      "app_key": "apple:6468845173",
+      "name": "GTA: Vice City – Definitive",
+      "developer": "Rockstar Games",
+      "source": "apple",
+      "country": "US",
+      "category": "game_action",
+      "detail_url": "https://apps.apple.com/us/app/gta-vice-city-definitive/id6468845173?uo=2",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:50:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Download and play GTA: Vice City - Definitive for up to thirty minutes as a free trial. Purchase the full game as a one-time, in-app purchase to play without any time limits. GTA+ Members can enjoy unlimited access while subscribed for as long as it is included in GTA+. Welcome to the 1980s. From the decade of big hair and pastel suits comes the story of one man's rise to the top of the criminal pile. Grand Theft Auto returns with Tommy Vercetti’s tale of betrayal and revenge in a neon-soaked tropical town full of excess and brimming with possibilities. Rockstar Games, Inc. 622 Broadway, New York, NY, 10012. © 2001–2023. Rockstar Games, Grand Theft Auto, Grand Theft Auto: Vice City and R* Logo are marks/logos/copyrights of Take-Two Interactive. Unreal® Engine, Copyright 1998–2023, Epic Games, Inc. All rights reserved. Uses Oodle. Copyright © 2008–2023 by Epic Games Tools, Inc. The ratings icon is a trademark of the Entertainment Software Association. All other marks and trademarks are properties of their respective owners. All rights reserved.",
+      "analysis": {
+        "app_key": "apple:6468845173",
+        "summary_ko": "GTA: Vice City – Definitive는 1980년대 배경의 범죄 액션 게임입니다. 주인공 토미 버세티의 복수와 성공 이야기를 다루며, 오픈 월드 환경에서 다양한 활동이 가능합니다. 무료 체험판을 제공하며 인앱 결제를 통해 전체 게임을 구매할 수 있습니다.",
+        "features_ko": [
+          "1980년대 배경의 오픈 월드에서 자유로운 탐험이 가능합니다.",
+          "주인공의 범죄와 복수를 다루는 서사 중심의 미션을 수행합니다.",
+          "무료 체험판을 통해 30분간 게임을 미리 경험할 수 있습니다.",
+          "인앱 결제를 통해 전체 게임을 영구적으로 소유할 수 있습니다."
+        ],
+        "noteworthy_ko": "오픈 월드 액션 게임의 고전으로, 방대한 맵과 상호작용이 특징입니다. 1인 개발자가 구현하기에는 규모가 매우 크며, 엔진의 최적화와 콘텐츠 밀도가 핵심입니다.",
+        "development_ko": "대규모 오픈 월드 구현을 위한 엔진 최적화와 물리 연산이 핵심입니다. 방대한 맵 데이터와 AI 캐릭터의 행동 로직 제작에 엄청난 리소스가 소요됩니다. 밸런스 테스트와 버그 수정이 매우 어렵습니다.",
+        "idea_ko": "특정 구역 내에서만 제한적으로 활동하는 소규모 오픈 월드 액션 게임.",
+        "highlights_ko": [
+          "1980년대의 화려한 분위기를 재현한 오픈 월드 게임입니다.",
+          "무료 체험판을 통해 접근성을 높였습니다."
+        ],
+        "systems_ko": [
+          "오픈 월드 렌더링 엔진",
+          "캐릭터 AI 및 행동 트리",
+          "차량 물리 및 조작 시스템",
+          "미션 관리 및 이벤트 트리거"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "오픈 월드 게임은 1인 개발자가 구현하기에 규모가 너무 크며, 물리, AI, 그래픽 등 모든 분야에서 높은 기술력이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 조작",
+            "기본적인 맵 탐색",
+            "간단한 미션 시스템"
+          ],
+          "defer": [
+            "방대한 오픈 월드 맵",
+            "복잡한 AI 시스템",
+            "차량 및 무기 커스터마이징"
+          ],
+          "risks": [
+            "개발 규모 과다로 인한 프로젝트 중단",
+            "최적화 문제로 인한 성능 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "단일 구역 액션 게임",
+            "concept": "도시 전체가 아닌 건물 한 채나 특정 구역 안에서만 벌어지는 액션 게임입니다. 규모를 줄여 완성도를 높입니다.",
+            "first_step": "작은 맵에서 캐릭터 이동과 상호작용 구현."
+          },
+          {
+            "title": "추격전 중심 게임",
+            "concept": "오픈 월드 탐험 대신, 특정 목표를 추격하거나 도망치는 액션에 집중한 게임입니다.",
+            "first_step": "차량 조작과 추격 AI 로직 구현."
+          }
+        ],
+        "recommendation_ko": "오픈 월드 게임의 구조를 공부하기엔 좋으나, 1인 개발자에게는 규모가 너무 큽니다. 핵심 메커니즘을 축소하여 프로토타입을 만드는 연습을 추천합니다.",
+        "source_limitations_ko": "소개문에는 게임의 구체적인 엔진 정보나 내부 구현 방식이 명시되어 있지 않습니다. 결제 및 보안 기능은 명시된 범위 내에서만 이해해야 합니다.",
+        "name": "GTA: Vice City – Definitive",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/gta-vice-city-definitive/id6468845173?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 192,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 16,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "apple:6475033368": {
+      "app_key": "apple:6475033368",
+      "name": "명조:워더링 웨이브",
+      "developer": "KURO GAMES",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_rpg",
+      "detail_url": "https://apps.apple.com/kr/app/%EB%AA%85%EC%A1%B0-%EC%9B%8C%EB%8D%94%EB%A7%81-%EC%9B%A8%EC%9D%B4%EB%B8%8C/id6475033368?uo=2",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:52:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "오픈월드 액션 RPG 『명조:워더링 웨이브』에서는 높은 자유도의 액션과 다양한 오픈월드 어드벤처를 즐길 수 있으며, 플레이어는 오랜 잠에서 깨어난 '방랑자'가 되어, 스스로의 기억과 이야기를 찾는 여정에 올라 다양한 파트너들과 함께 이 세상을 바꾸기 위한 여정을 떠나게 됩니다. ◆The Game Awards 2025 Players' Voice 수상 ◆ ◆The Game Awards 2025 Best Mobile Game 노미네이션◆ ◆The Game Awards 2024 Players' Voice 노미네이션◆ ◆The Game Awards 2024 Best Mobile Game 노미네이션◆ ◆게임 소개◆ 방랑자님! 이곳에서 깨어나신 것을 환영합니다. 소리 없는 조수가 우리 세계의 많은 것을 휩쓸고 갔습니다. 비명의 강림 앞에 인류는 과거의 법칙만을 남겼으며, 문명은 비명의 발아래 묻혔습니다. 그러나 침묵의 정적이 끝난 지금, 인류는 새로운 시작을 위해 나아가고자 합니다. 파멸과 함께 나타난 이상 현상은 새로운 삶을 가져왔고, 인류는 그들과 함께 새로운 시대를 열어가고 있습니다. 그리고…… 방랑자의 여행도 이제 막 시작되려 합니다. 함께 싸워 줄 친구를 만나 상상을 뛰어넘는 적과 마주할 수도 있고, 자신을 변화시키는 힘을 받아들여 모든 것을 뒤엎는 진실을 파헤칠 수도 있고, 미처 보지 못한 기묘한 광경을 탐험하게 될 수도 있습니다. 물론 모든 길은 방랑자의 선택에 달려 있습니다. 방랑자가 어떤 선택을 하게 될지는 알 수 없으나, 자신만의 답을 찾고 이 재난의 아픔을 이겨 나갈 수 있을 것이라 믿습니다. 어쩌면, 정체된 문명이라는 배를 출항시킬 수 있는 사람은 방랑자 뿐일지도 모릅니다. 조수의 흐름이 순환되듯, 인류의 문명도 끊임없이 순환됩니다. 이제, 자신의 답을 찾기 위한 여행길에 오르세요. ◆게임 특색◆ ——세계의 질서: 「비명」과 함께 시작된 문명 / 탐색 자유도 높은 오픈월드 『명조:워더링 웨이브』는 오픈월드 게임으로, 높은 자유도를 가지고 있습니다. 스태미나 제한 감소, 파쿠르 액션, 자유로운 활공, 민첩한 탐사 바이크 등을 활용해 가며 구속받지 않는 오픈 월드를 맘껏 탐색합니다. 솔라리스 세계에서 깨어난 방랑자로서, 당신은 기억과 자아를 되찾기 위해 여정을 떠나게 됩니다. ——자연스러운 액션: 빠르고 부드러운 전투를 느껴라 / 극한의 액션 경험 액션 게임으로서 『명조:워더링 웨이브』는 시원하고 짜릿한 전투 체험을 가지고 있고, 전투에서 저스트 회피, 패링, 에코, QTE 등 플레이로 극한의 컨트롤을 체험할 수 있습니다. ——섬세한 디테일: 모두에게 주어진 감동적인 서사 / 몰입감 넘치는 스토리 연출 『명조:워더링 웨이브』는 유저에게 최상의 시청각적 체험을 선사하는 것을 목표로 삼아, 훌륭한 스토리와 음악, 애니메이션 연출 등을 통해 모든 방랑자 여러분께서 『명조:워더링 웨이브』의 솔라리스 속 감동적인 이야기들에 깊이 몰입할 수 있도록 합니다. ——공명 각성 : 공명자들과 함께하는 여정 / 공명자들과의 만남 『명조:워더링 웨이브』 세계에서 잔상을 격파하면 에코를 획득할 수 있고, 획득한 에코는 전투에서 활용됩니다. 방랑자여, 광활한 오픈 월드에서 에코를 수집하여 다양한 어빌리티를 해제해 보세요! ◆공식 커뮤니티◆ 공식 홈페이지: https://wutheringwaves.kurogames.com/kr/ 공식 트위터: https://twitter.com/WW_KR_Official 공식 유튜브: https://www.youtube.com/@WW_KR_Official 공식 라운지: https://game.naver.com/lounge/WutheringWaves/home 공식 디스코드: https://discord.com/invite/wutheringwaves 【앱 접근 권한 관련】 앱을 사용하는 동안 다음과 같은 서비스를 제공하기 위해 앱 접근 권한을 요청합니다. 【선택적 접근 권한】 - 사진첩: 사진 업로드, 다운로드 또는 공유(예: 사진을 기기 앨범에 저장)에 사용됩니다. - 마이크: 음성 메시지 전송 및 동영상 녹화 등의 방식으로 문제를 신고하는 데 사용됩니다. - 카메라: 사진 촬영, 녹화 등의 방식으로 문제를 신고하거나 QR 코드를 스캔하는 데 사용됩니다. * 선택적 접근 권한은 동의하지 않아도 앱을 정상적으로 이용할 수 있습니다. 【접근 권한 철회 방법】 설정→개인정보보호→해당 앱 선택→접근권한 동의 또는 철회 선택",
+      "analysis": {
+        "app_key": "apple:6475033368",
+        "summary_ko": "『명조:워더링 웨이브』는 높은 자유도를 가진 오픈월드 액션 RPG입니다. 플레이어는 '방랑자'가 되어 기억을 찾는 여정을 떠나며, 다양한 파트너와 함께 세계의 진실을 파헤칩니다. 저스트 회피, 패링, 에코 시스템 등 액션성이 강조된 전투와 몰입감 있는 스토리 연출이 특징입니다.",
+        "features_ko": [
+          "스태미나 제한 감소, 파쿠르, 활공 등 높은 자유도의 오픈월드 탐색을 지원합니다.",
+          "저스트 회피, 패링, QTE 등 액션성이 강조된 전투 시스템을 제공합니다.",
+          "잔상을 격파하여 획득한 '에코'를 통해 다양한 어빌리티를 해제할 수 있습니다.",
+          "스토리 연출과 음악을 통해 몰입감 있는 서사를 전달합니다.",
+          "다양한 캐릭터(공명자)들과 함께 여정을 떠나는 파티 시스템을 갖추고 있습니다."
+        ],
+        "noteworthy_ko": "고품질의 그래픽과 액션성을 강조한 오픈월드 RPG입니다. 개발 관점에서는 방대한 오픈월드 맵 데이터 관리, 실시간 액션 동기화, 그리고 에코 시스템과 같은 복합적인 성장 구조가 매우 흥미롭습니다.",
+        "development_ko": "최상급의 그래픽 리소스 제작과 최적화가 핵심입니다. 오픈월드 맵 스트리밍 기술, 복잡한 전투 로직, 그리고 방대한 스토리 콘텐츠 제작 부담이 매우 큽니다. 1인이 구현하기에는 불가능에 가까운 규모입니다.",
+        "idea_ko": "특정 지역의 환경을 활용한 '환경 상호작용 퍼즐'이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "자유로운 이동과 액션이 결합된 오픈월드 탐색입니다.",
+          "에코 시스템을 통한 독창적인 능력 강화 방식입니다."
+        ],
+        "systems_ko": [
+          "오픈월드 맵 스트리밍 및 관리",
+          "실시간 액션 전투 엔진(회피/패링)",
+          "캐릭터 및 에코 성장 시스템",
+          "스토리 연출 및 컷신 시스템",
+          "데이터베이스 기반의 아이템 및 퀘스트 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "오픈월드 RPG는 게임 개발의 모든 분야(그래픽, 물리, AI, 서버, 스토리)가 집약된 장르입니다. 1인이 핵심 메커니즘을 축소 구현하더라도 물리 엔진과 최적화 문제로 인해 매우 높은 난이도를 가집니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 파쿠르",
+            "기본 전투 시스템(공격/회피)",
+            "작은 규모의 오픈월드 맵"
+          ],
+          "defer": [
+            "에코 시스템",
+            "복잡한 스토리 연출",
+            "멀티플레이어 요소"
+          ],
+          "risks": [
+            "최적화 실패로 인한 성능 저하",
+            "콘텐츠 제작의 방대함으로 인한 개발 중단"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "미니 오픈월드 탐험기",
+            "concept": "작은 섬 하나를 배경으로 이동과 간단한 전투만 구현합니다. 오픈월드의 핵심인 '탐색의 재미'를 작은 규모로 압축합니다.",
+            "first_step": "캐릭터 이동 및 지형 충돌 처리, 간단한 몬스터 조우 시스템 구현."
+          },
+          {
+            "title": "액션 전투 챌린지",
+            "concept": "탐색을 제외하고, 다양한 적을 상대로 패링과 회피를 연습하는 전투 전용 게임입니다.",
+            "first_step": "패링 판정 로직과 적의 공격 패턴 구현."
+          }
+        ],
+        "recommendation_ko": "액션 RPG의 전투 시스템과 오픈월드 구조를 배우고 싶은 개발자에게 추천합니다. 다만, 전체 복제보다는 특정 메커니즘(예: 패링 시스템) 하나를 깊게 파고드는 방식으로 접근하는 것이 좋습니다.",
+        "source_limitations_ko": "소개문에는 서버 인프라, 구체적인 물리 엔진 설정, 최적화 기술에 대한 정보가 없습니다. 실제 게임의 복잡한 내부 로직은 스토어 설명만으로는 파악이 불가능합니다.",
+        "name": "명조:워더링 웨이브",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EB%AA%85%EC%A1%B0-%EC%9B%8C%EB%8D%94%EB%A7%81-%EC%9B%A8%EC%9D%B4%EB%B8%8C/id6475033368?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "apple:6484505984": {
+      "app_key": "apple:6484505984",
+      "name": "Whee - TikTok Chat",
+      "developer": "TikTok Ltd.",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/whee-tiktok-chat/id6484505984",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:54:05+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Whee - TikTok Chat is TikTok’s social chat app, made for closer connections and everyday sharing. Built as a more social side of TikTok, Whee brings together chatting, social interaction and stories in one place. It helps you connect with people through conversation and shared moments, not just public posts. Whee works with your existing TikTok account, so there’s no need to start from scratch. Your connections carry over, making it easy to jump into conversations and stay connected with people you already know. Key features: • Simple and smooth chat for daily conversations • Lightweight, natural social interactions • Easy ways to share personal moments and stories • A clean interface that keeps the focus on connection With a focus on relationships and communication, Whee is built for people who want to stay connected, chat more freely and share life as it happens, all within the TikTok experience.",
+      "analysis": {
+        "app_key": "apple:6484505984",
+        "summary_ko": "Whee는 TikTok 계정과 연동하여 친구들과 일상을 공유하고 소통하는 소셜 채팅 앱입니다. 기존 TikTok의 소셜 기능을 확장하여 개인적인 대화와 스토리 공유에 집중할 수 있도록 설계되었습니다. 복잡한 설정 없이 기존 계정을 그대로 사용하여 지인들과 자연스럽게 연결될 수 있습니다.",
+        "features_ko": [
+          "기존 TikTok 계정을 사용하여 별도의 가입 절차 없이 즉시 대화를 시작할 수 있습니다.",
+          "일상적인 대화를 위한 간결하고 부드러운 채팅 인터페이스를 제공합니다.",
+          "개인적인 순간과 스토리를 쉽게 공유할 수 있는 기능을 포함합니다.",
+          "공개 게시물 중심이 아닌, 개인 간의 관계와 소통에 집중한 환경을 제공합니다."
+        ],
+        "noteworthy_ko": "기존 대형 플랫폼의 계정을 활용하여 사용자 기반을 빠르게 확보하려는 전략이 돋보입니다. 소셜 미디어의 공개적인 피로감을 줄이고 사적인 소통 공간을 제공함으로써 사용자 체류 시간을 늘리려는 의도로 보입니다.",
+        "development_ko": "실시간 채팅을 위한 소켓 통신 기술과 대규모 사용자 데이터를 처리할 수 있는 서버 아키텍처가 핵심입니다. 기존 플랫폼과의 계정 연동(OAuth 등)을 위한 API 연동이 필요하며, 개인정보 보호와 데이터 보안이 매우 중요합니다. 1인 개발 시에는 실시간 통신 서버의 안정성 확보가 가장 큰 기술적 도전 과제입니다.",
+        "idea_ko": "특정 관심사를 가진 소규모 그룹이 일시적으로 모여 대화하고, 시간이 지나면 대화 내용이 사라지는 '휘발성 관심사 채팅방' 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "기존 플랫폼 계정 연동을 통한 간편한 사용자 경험.",
+          "공개 게시물보다 개인적인 소통에 집중한 인터페이스."
+        ],
+        "systems_ko": [
+          "실시간 채팅 및 메시지 전송 시스템",
+          "사용자 인증 및 계정 연동(OAuth)",
+          "스토리 및 미디어 공유 시스템",
+          "사용자 관계 관리(친구 목록) 데이터베이스",
+          "푸시 알림 서비스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 채팅 시스템은 서버 부하 관리와 데이터 동기화가 매우 까다롭습니다. 또한 기존 플랫폼과의 연동은 API 정책에 따라 제약이 많아 개인 개발자가 구현하기에 기술적, 정책적 장벽이 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "1:1 채팅 기능",
+            "사용자 프로필 관리"
+          ],
+          "defer": [
+            "스토리 공유 기능",
+            "대규모 그룹 채팅"
+          ],
+          "risks": [
+            "서버 인프라 비용 및 확장성 문제",
+            "사용자 데이터 보안 및 개인정보 보호"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "휘발성 관심사 채팅",
+            "concept": "특정 주제로 방을 만들고, 방이 닫히면 모든 대화 기록이 삭제되어 부담 없이 소통할 수 있는 공간입니다.",
+            "first_step": "데이터베이스에 저장하지 않고 메모리 상에서만 메시지를 전달하는 실시간 채팅 기능을 구현합니다."
+          },
+          {
+            "title": "공유 일기장",
+            "concept": "친구와 함께 하나의 일기장을 공유하며 매일 사진과 짧은 글을 남기는 소셜 일기 서비스입니다.",
+            "first_step": "두 명의 사용자가 하나의 데이터를 공유하고 수정할 수 있는 권한 관리 시스템을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "실시간 통신 기술을 배우고 싶다면 추천하지만, 실제 서비스 운영은 매우 어렵습니다. 소셜 앱의 기획 의도와 사용자 경험 설계 측면에서 참고할 점이 많습니다.",
+        "source_limitations_ko": "소개문에는 서버 아키텍처, 데이터 암호화 방식, 기존 플랫폼과의 구체적인 연동 API에 대한 정보가 없습니다. 보안 및 개인정보 보호 기능은 명시된 바 없으므로 구현 시 별도의 전문적인 설계가 필요합니다.",
+        "name": "Whee - TikTok Chat",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/whee-tiktok-chat/id6484505984",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 42,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
     }
   }
 }

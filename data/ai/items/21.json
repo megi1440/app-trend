@@ -13255,6 +13255,345 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-19"
+    },
+    "itch:91358df5aa415248f645": {
+      "app_key": "itch:91358df5aa415248f645",
+      "name": "My Brother's TinyMoJS Example Game [Free] [Platformer]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://poog-t-pig.itch.io/tinymojs-example",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:48:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A wildly insane example game for TinyMoJS",
+      "analysis": {
+        "app_key": "itch:91358df5aa415248f645",
+        "summary_ko": "TinyMoJS를 활용한 플랫폼 게임 예제입니다.",
+        "features_ko": [
+          "TinyMoJS 엔진을 사용한 플랫폼 게임 구현 예시를 제공합니다."
+        ],
+        "noteworthy_ko": "특정 엔진의 사용법을 익히기 위한 기술적 예제입니다. 엔진의 성능과 기능을 확인하는 용도로 적합합니다.",
+        "development_ko": "엔진의 API를 활용한 캐릭터 이동 및 충돌 처리가 핵심입니다. 예제 수준이므로 복잡한 콘텐츠보다는 엔진의 기본 기능을 파악하는 데 집중되어 있습니다.",
+        "idea_ko": "TinyMoJS를 활용한 간단한 미니 게임 제작을 추천합니다.",
+        "highlights_ko": [
+          "TinyMoJS 엔진의 기능을 보여주는 샘플 프로젝트입니다."
+        ],
+        "systems_ko": [
+          "캐릭터 이동 로직",
+          "충돌 판정 시스템",
+          "기본 게임 루프"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "예제 게임이므로 구현 범위가 작고 엔진의 기능을 학습하는 용도로 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동",
+            "플랫폼 충돌"
+          ],
+          "defer": [],
+          "risks": [
+            "엔진 문서 부족 시 학습 비용 발생"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "TinyMoJS 튜토리얼 확장",
+            "concept": "제공된 예제에 새로운 장애물이나 아이템을 추가하여 엔진의 확장성을 테스트합니다.",
+            "first_step": "기존 코드에 새로운 오브젝트를 추가하는 로직을 작성합니다."
+          }
+        ],
+        "recommendation_ko": "특정 엔진(TinyMoJS)을 처음 접할 때 구조를 파악하기 좋습니다. 엔진의 문서를 함께 참고하여 학습하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 게임의 구체적인 규칙이나 기능 범위를 확인할 수 없습니다.",
+        "name": "My Brother's TinyMoJS Example Game [Free] [Platformer]",
+        "source": "itch",
+        "detail_url": "https://poog-t-pig.itch.io/tinymojs-example",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 374,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "itch:54f6b7750c5c25a85851": {
+      "app_key": "itch:54f6b7750c5c25a85851",
+      "name": "Doubling Every Second [Free] [Puzzle]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://happysalada.itch.io/doubling-every-second",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:48:42+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "What if your speed doubled every second? Guess, then race.",
+      "analysis": {
+        "app_key": "itch:54f6b7750c5c25a85851",
+        "summary_ko": "매초 속도가 두 배로 증가하는 상황에서 레이스를 펼치는 퍼즐 게임입니다.",
+        "features_ko": [
+          "시간이 지날수록 이동 속도가 기하급수적으로 빨라지는 규칙이 있습니다.",
+          "속도 변화를 예측하고 레이스에 참여하는 퍼즐 요소가 포함되어 있습니다."
+        ],
+        "noteworthy_ko": "시간에 따른 속도 변화라는 단순한 규칙이 게임의 난이도를 급격히 높이는 점이 흥미롭습니다. 플레이어의 예측 능력을 시험하는 설계입니다.",
+        "development_ko": "시간 경과에 따른 속도 변수(Time.deltaTime * 2^n) 처리가 핵심입니다. 속도가 빨라질수록 충돌 판정이 빗나갈 수 있으므로 연속적인 충돌 검사(Continuous Collision Detection)가 필요합니다.",
+        "idea_ko": "속도가 빨라지는 상황에서 장애물을 피하는 리듬 액션 게임입니다.",
+        "highlights_ko": [
+          "기하급수적 속도 증가 메커니즘.",
+          "예측과 반응을 요구하는 레이스 퍼즐."
+        ],
+        "systems_ko": [
+          "시간 기반 속도 가속 시스템",
+          "충돌 판정 및 물리 처리",
+          "레이스 기록 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진의 충돌 판정 이슈만 해결한다면 로직 자체는 단순합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "속도 가속 로직",
+            "장애물 회피 시스템"
+          ],
+          "defer": [
+            "다양한 캐릭터 커스터마이징",
+            "온라인 랭킹 시스템"
+          ],
+          "risks": [
+            "고속 이동 시 충돌 판정 누락",
+            "조작감의 급격한 변화로 인한 피로감"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "가속 탈출기",
+            "concept": "속도가 빨라지는 상황에서 좁은 미로를 통과하는 게임입니다.",
+            "first_step": "속도 증가에 따른 캐릭터 이동 속도 보간 구현."
+          },
+          {
+            "title": "속도 조절 레이스",
+            "concept": "속도를 높이거나 낮추는 아이템을 먹으며 목표 지점에 도달하는 게임입니다.",
+            "first_step": "속도 배율 변경 아이템 로직 구현."
+          }
+        ],
+        "recommendation_ko": "물리 엔진의 한계를 경험하고 이를 보완하는 기술을 배우기에 적합합니다. 단순한 규칙으로 긴장감을 만드는 법을 익힐 수 있습니다.",
+        "source_limitations_ko": "레이스의 구체적인 규칙, 장애물 종류, 승리 조건에 대한 정보가 부족합니다.",
+        "name": "Doubling Every Second [Free] [Puzzle]",
+        "source": "itch",
+        "detail_url": "https://happysalada.itch.io/doubling-every-second",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 338,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 14,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "apple:6743944297": {
+      "app_key": "apple:6743944297",
+      "name": "Red Dead Redemption NETFLIX",
+      "developer": "Netflix, Inc.",
+      "source": "apple",
+      "country": "US",
+      "category": "game_action",
+      "detail_url": "https://apps.apple.com/us/app/red-dead-redemption-netflix/id6743944297?uo=2",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:53:01+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "NETFLIX MEMBERSHIP REQUIRED. When federal agents threaten his family, former outlaw John Marston is forced to hunt down the gang of criminals he once called friends. Experience Marston's journey across the sprawling expanses of the American West and Mexico as he fights to bury his blood-stained past in the critically acclaimed predecessor to the 2018 blockbuster \"\"Red Dead Redemption 2.\"\" Also included is \"\"Undead Nightmare,\"\" the iconic horror story that transforms the world of \"\"Red Dead Redemption\"\" into an apocalyptic fight for survival against a zombie horde. Available on mobile for the first time, this version features the complete single-player experiences of both games, plus bonus content from the Game of the Year Edition and more.* *\"\"Red Dead Redemption\"\" does not feature multiplayer content. Supported devices include iPhone 11 and later, iPad (9th generation) and later, iPad mini (6th generation) and later, iPad Air (4th generation) and later, and iPad Pro (5th generation) and later. - Created by Rockstar Games.",
+      "analysis": {
+        "app_key": "apple:6743944297",
+        "summary_ko": "연방 요원들의 협박으로 가족을 지키기 위해 과거의 동료들을 추적해야 하는 존 마스턴의 여정을 다룬 액션 게임입니다. 미국 서부와 멕시코를 배경으로 펼쳐지는 방대한 오픈 월드 경험을 제공합니다. 좀비 떼로부터 살아남는 호러 모드인 '언데드 나이트메어'가 포함되어 있습니다.",
+        "features_ko": [
+          "싱글 플레이어 캠페인을 통해 존 마스턴의 서사를 경험할 수 있습니다.",
+          "미국 서부와 멕시코를 아우르는 광활한 맵을 탐험할 수 있습니다.",
+          "언데드 나이트메어 모드를 통해 좀비 아포칼립스 생존 게임을 즐길 수 있습니다.",
+          "Game of the Year 에디션의 보너스 콘텐츠가 포함되어 있습니다."
+        ],
+        "noteworthy_ko": "콘솔 명작 게임의 모바일 이식 사례로, 방대한 오픈 월드 데이터를 모바일 환경에 최적화한 기술적 구현이 흥미롭습니다. 멀티플레이어 콘텐츠 없이 싱글 플레이 경험에만 집중한 구성이 특징입니다.",
+        "development_ko": "기존 콘솔 게임의 에셋과 로직을 모바일 환경으로 포팅하는 고도의 최적화 기술이 필요합니다. 방대한 맵과 물리 엔진을 모바일 기기 사양에 맞게 조정하는 작업이 핵심입니다. 테스트 과정에서는 다양한 기기별 성능 격차를 해결하는 것이 큰 부담이 될 것으로 보입니다.",
+        "idea_ko": "특정 지역을 배경으로 한 단편적인 생존 시나리오를 구현하여 오픈 월드의 핵심 재미를 압축하는 방식이 적합합니다.",
+        "highlights_ko": [
+          "서부극과 좀비 호러라는 상반된 두 가지 장르를 하나의 패키지로 제공합니다.",
+          "멀티플레이어 없이 순수 싱글 플레이어 경험에 집중한 구성입니다."
+        ],
+        "systems_ko": [
+          "오픈 월드 맵 스트리밍 시스템",
+          "캐릭터 이동 및 사격 물리 엔진",
+          "NPC AI 및 스크립트 이벤트 관리",
+          "데이터 저장 및 로드 시스템",
+          "UI/UX 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "방대한 오픈 월드와 복잡한 물리 엔진을 1인이 구현하는 것은 사실상 불가능에 가깝습니다. 게임의 핵심 메커니즘인 사격과 이동 시스템만 구현하더라도 높은 수준의 프로그래밍 역량이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 카메라 제어",
+            "간단한 사격 메커니즘",
+            "기본적인 맵 환경"
+          ],
+          "defer": [
+            "방대한 오픈 월드 맵",
+            "복잡한 NPC AI",
+            "좀비 모드"
+          ],
+          "risks": [
+            "모바일 기기 성능 최적화 실패",
+            "방대한 콘텐츠 제작에 따른 개발 기간 지연"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "서부극 결투 시뮬레이터",
+            "concept": "광활한 맵 대신 1:1 결투 상황에 집중한 게임입니다. 타이밍에 맞춰 버튼을 누르는 반응 속도 게임으로 구성합니다.",
+            "first_step": "캐릭터가 서로 마주 보고 서 있는 2D/3D 화면과 터치 입력 타이밍 판정 구현."
+          },
+          {
+            "title": "좀비 생존 타워 디펜스",
+            "concept": "몰려오는 좀비를 막아내는 디펜스 게임입니다. 제한된 자원으로 방어선을 구축하고 생존 시간을 기록합니다.",
+            "first_step": "좀비가 일정한 경로로 이동하고 플레이어가 이를 저지하는 기본 로직 구현."
+          }
+        ],
+        "recommendation_ko": "대규모 오픈 월드 게임의 구조를 분석하고, 핵심 재미 요소만 추출하여 소규모로 구현하는 연습을 하기에 좋습니다. 다만, 원작의 방대한 규모를 그대로 따라 하려는 시도는 지양해야 합니다.",
+        "source_limitations_ko": "멀티플레이어 기능의 부재 외에 구체적인 게임 엔진 정보나 내부 시스템 구조는 확인되지 않습니다. 결제 및 기기 호환성 정보는 스토어 설명에 명시된 내용에 한정됩니다.",
+        "name": "Red Dead Redemption NETFLIX",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/red-dead-redemption-netflix/id6743944297?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "google:valsar.dungeonwarfare": {
+      "app_key": "google:valsar.dungeonwarfare",
+      "name": "ダンジョン・ウォーフェア",
+      "developer": "Valsar",
+      "source": "google",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=valsar.dungeonwarfare&hl=ja&gl=JP",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:54:05+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ダンジョン・ウォーフェア（Dungeon Warfare）は挑戦的なタワーディフェンスゲームです。このゲームではあなたはダンジョンの王になって冒険家から守ってみせなきゃなりません。あなたがこのダンジョンを守り抜くたび得た経験値とジェムなどで、もっと強力なトラップと道具を使えます。強化されたトラップで難攻不落の要塞を作りましょう！ ゲーム特徴 * 26個のユニークなトラップがさらにレベルアップ！ * トラップのレベルを配分可能 * 22種の多彩な敵 * 挑戦的なユーザー向けの難易度設定を支援するルーン組合 * 無限モード（無限ルーンを得た後可能） * 巨大な大石を使って敵を攻撃可能 * 鉱山カートを使って敵の移動経路の変更 * 敵を穴に押しての攻撃 * 召喚したユニットを使って戦術的対応 * 30以上の業績達成可能 * 魅力的なピクセルアート * 魅力的なサウンドエフェクト * 魅力的な敵！",
+      "analysis": {
+        "app_key": "google:valsar.dungeonwarfare",
+        "summary_ko": "던전 워페어는 플레이어가 던전의 주인이 되어 침입하는 모험가들을 막아내는 도전적인 타워 디페스 게임입니다. 다양한 함정을 배치하고 강화하여 난공불락의 요세를 구축하는 것이 목표입니다. 픽셀 아트 스타일의 그래픽과 함께 적을 함정에 빠뜨리거나 지형을 활용하는 전술적 재미를 제공합니다.",
+        "features_ko": [
+          "26개의 고유한 함정을 배치하고 레벨을 올려 더욱 강력하게 강화할 수 있습니다.",
+          "22종의 다양한 적들이 등장하며 각기 다른 특성을 가지고 있습니다.",
+          "루ーン 조합을 통해 플레이어의 취향에 맞는 난이도 설정이 가능합니다.",
+          "대형 바위나 광산 카트 등 지형지물을 활용하여 적을 공격하거나 경로를 변경할 수 있습니다.",
+          "적을 구덩이로 밀어 넣거나 유닛을 소환하여 전술적으로 대응할 수 있습니다."
+        ],
+        "noteworthy_ko": "함정 중심의 타워 디펜스에서 지형지물 활용과 적의 경로 제어라는 요소를 결합한 점이 돋보입니다. 함정 레벨 배분 시스템은 플레이어에게 전략적 자유도를 부여하며, 이는 반복적인 플레이를 유도하는 핵심 요소로 보입니다.",
+        "development_ko": "타일 기반의 맵 시스템과 함정 배치 로직, 적의 경로 탐색(Pathfinding) 알고리즘 구현이 핵심입니다. 다양한 함정과 적의 상호작용을 처리하기 위한 데이터 구조 설계가 필요하며, 밸런스 조정에 많은 시간이 소요될 것입니다. 1인 개발 시에는 함정의 종류를 줄여 초기 프로토타입을 완성한 뒤 점진적으로 확장하는 방식을 권장합니다.",
+        "idea_ko": "함정을 배치하는 대신, 던전의 지형 자체를 실시간으로 변형시켜 적을 가두는 '지형 조작형 디펜스' 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "함정 레벨 배분 및 강화 시스템을 통한 전략적 성장.",
+          "지형지물을 활용한 물리 기반의 적 제어 및 경로 변경."
+        ],
+        "systems_ko": [
+          "타일 기반 맵 및 그리드 시스템",
+          "적 AI 경로 탐색(A* 알고리즘 등)",
+          "함정 배치 및 트리거 시스템",
+          "물리 엔진을 활용한 오브젝트 상호작용",
+          "게임 상태 및 웨이브 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 함정과 적의 상호작용, 경로 탐색 알고리즘은 구현 난이도가 높습니다. 특히 물리 엔진을 활용한 지형지물 상호작용은 버그 발생 가능성이 커 1인 개발 시 세심한 관리가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 타워 디펜스 루프",
+            "적 이동 및 경로 탐색",
+            "함정 배치 및 공격 로직"
+          ],
+          "defer": [
+            "무한 모드",
+            "복잡한 루ーン 조합 시스템"
+          ],
+          "risks": [
+            "경로 탐색 알고리즘의 성능 최적화 문제",
+            "함정 간 밸런스 불균형"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지형 변형 디펜스",
+            "concept": "함정을 설치하는 대신, 던전의 벽을 밀거나 바닥을 꺼뜨려 적의 경로를 실시간으로 차단하는 방식입니다.",
+            "first_step": "타일의 상태(통과 가능/불가능)를 실시간으로 변경하고 적의 경로를 재계산하는 로직을 구현합니다."
+          },
+          {
+            "title": "함정 연쇄 반응",
+            "concept": "함정들이 서로 상호작용하여 연쇄 반응을 일으키는 시스템입니다. 예를 들어, 불 함정이 기름 함정과 만나면 광범위한 폭발을 일으킵니다.",
+            "first_step": "함정 간의 속성 상호작용을 정의하는 데이터 테이블을 만들고 이를 전투 로직에 적용합니다."
+          }
+        ],
+        "recommendation_ko": "타워 디펜스 장르의 정석적인 시스템과 물리 기반 상호작용을 구현해보고 싶은 개발자에게 추천합니다. 다만, 시스템의 복잡도가 높으므로 핵심 메커니즘을 먼저 완성하는 것이 중요합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 물리 엔진의 종류, 적의 AI 세부 로직, 함정의 데이터 구조에 대한 정보가 없습니다. 외부 결제나 온라인 멀티플레이어 기능은 명시되지 않았으므로 구현 대상에서 제외합니다.",
+        "name": "ダンジョン・ウォーフェア",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=valsar.dungeonwarfare&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
     }
   }
 }

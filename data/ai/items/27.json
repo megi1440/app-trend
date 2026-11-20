@@ -13955,6 +13955,361 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-19"
+    },
+    "apple:6657982308": {
+      "app_key": "apple:6657982308",
+      "name": "Rise of Gangsters : Crime City",
+      "developer": "Hamad Tanveer",
+      "source": "apple",
+      "country": "US",
+      "category": "game_rpg",
+      "detail_url": "https://apps.apple.com/us/app/rise-of-gangsters-crime-city/id6657982308?uo=2",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:50:04+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Welcome to Rise of Gangsters: Crime City and explore the vast feature of this game like: - 40+ Missions - 20+ Weapons - 20+ Sports cars to choose - 50+ Car Customization parts - Taxi Missions - Ambulance Missions - Firefighter Missions - Police Escape Missions - Story Mode - Open world gameplay Step into the criminal underworld with Rise of Gangsters: Crime City, an open-world action game packed with thrilling missions and endless opportunities. With over 40+ exciting missions, you'll navigate a city of chaos, facing challenges from high-speed police chases to life-saving ambulance runs. Choose from 20+ powerful sports cars and customize them with 50+ unique parts to suit your style. Arm yourself with 20+ weapons and dominate the streets. Take on various missions as a taxi driver, firefighter, or escape from the law in police pursuit missions. Engage in a gripping story mode that immerses you in a world of crime, betrayal and survival. Explore a massive city filled with action at every corner, where your decisions shape your rise to power. Will you become the ultimate crime lord? Dive into Gangster City and create your own legacy in the streets. Terms and Conditions: https://braincord.org/terms-and-condition/",
+      "analysis": {
+        "app_key": "apple:6657982308",
+        "summary_ko": "Rise of Gangsters: Crime City는 범죄 도시를 배경으로 한 오픈 월드 액션 게임입니다. 40개 이상의 미션과 다양한 무기, 스포츠카를 활용하여 범죄 세계에서 살아남는 과정을 다룹니다. 택시, 구급차, 소방차 등 다양한 직업 미션을 통해 도시의 삶을 경험할 수 있습니다.",
+        "features_ko": [
+          "40개 이상의 다양한 미션을 통해 범죄 세계의 이야기를 경험합니다.",
+          "20종 이상의 무기를 사용하여 도시를 지배할 수 있습니다.",
+          "20종 이상의 스포츠카를 선택하고 50개 이상의 부품으로 커스터마이징합니다.",
+          "택시, 구급차, 소방차 등 다양한 직업 미션을 수행합니다.",
+          "경찰의 추격을 따돌리는 탈출 미션이 포함되어 있습니다."
+        ],
+        "noteworthy_ko": "다양한 직업 미션을 오픈 월드에 녹여내어 단순한 범죄 액션을 넘어 도시 생활 시뮬레이션의 요소를 결합한 점이 특징입니다. 이는 플레이어에게 반복적인 전투 외에도 다양한 즐길 거리를 제공하는 전략으로 보입니다.",
+        "development_ko": "핵심 기술은 차량 커스터마이징 시스템, 미션 분기 처리, 경찰 추격 AI입니다. 콘텐츠 제작 측면에서는 차량 모델링과 다양한 직업 미션 스크립트 작성이 필요합니다. 테스트는 미션 수행 중 발생하는 물리적 충돌과 AI의 경로 탐색 오류를 수정하는 데 집중해야 합니다.",
+        "idea_ko": "다양한 직업 미션을 수행하며 얻은 수익으로 자신만의 범죄 조직 본부를 꾸미는 경영 요소를 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "50개 이상의 부품을 활용한 상세한 차량 커스터마이징 기능을 제공합니다.",
+          "경찰 추격부터 구급차 운행까지 다양한 상황의 미션을 수행할 수 있습니다."
+        ],
+        "systems_ko": [
+          "차량 물리 및 커스터마이징 시스템",
+          "미션 트리 및 이벤트 관리 시스템",
+          "경찰 추격 AI 시스템",
+          "무기 및 인벤토리 시스템",
+          "직업별 미션 로직"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 직업 미션과 차량 커스터마이징 시스템을 모두 구현하는 것은 1인 개발자에게 상당한 리소스 부담을 줍니다. 특히 차량 물리와 AI의 조화는 높은 기술적 숙련도를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "차량 운전 및 물리 시스템",
+            "기본적인 미션 트리거 시스템",
+            "무기 장착 및 발사 기능"
+          ],
+          "defer": [
+            "50개 이상의 차량 부품 커스터마이징",
+            "40개 이상의 모든 미션",
+            "복잡한 경찰 AI"
+          ],
+          "risks": [
+            "미션 수행 중 발생하는 물리 버그",
+            "차량 커스터마이징 데이터 관리의 복잡성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "커스텀 카 레이서",
+            "concept": "범죄 미션 대신 차량 커스터마이징과 레이싱에 집중한 게임입니다. 도시를 배경으로 한 타임 어택 레이싱이 핵심입니다.",
+            "first_step": "차량 부품 교체에 따른 속도 변화 로직 구현."
+          },
+          {
+            "title": "긴급 출동 시뮬레이터",
+            "concept": "경찰, 구급차, 소방차 등 긴급 차량을 운전하여 사고 현장에 빠르게 도착하는 미션 중심의 게임입니다.",
+            "first_step": "긴급 차량 사이렌 및 경로 탐색 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "다양한 미션 시스템을 설계하고 구현하는 방법을 배우기에 좋습니다. 차량 커스터마이징과 같은 데이터 기반 시스템을 구축하는 경험을 쌓을 수 있습니다.",
+        "source_limitations_ko": "소개문에는 차량 물리 엔진의 상세 설정, 미션 데이터의 저장 방식, 경찰 AI의 구체적인 행동 로직은 명시되어 있지 않습니다.",
+        "name": "Rise of Gangsters : Crime City",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/rise-of-gangsters-crime-city/id6657982308?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 207,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 11,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "apple:6793855532": {
+      "app_key": "apple:6793855532",
+      "name": "魔法使いの夜",
+      "developer": "Aniplex Inc.",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/jp/app/%E9%AD%94%E6%B3%95%E4%BD%BF%E3%81%84%E3%81%AE%E5%A4%9C/id6793855532?uo=2",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:50:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "―――坂の上のお屋敷には、二人の魔女が住んでいる――― 『Fate/Grand Order』や『月姫』を手がける「TYPE-MOON」が贈る長編ビジュアルノベル『魔法使いの夜』がスマートフォンアプリに登場。 【作品の特徴】 彩（いろ）鮮やかに、 声（おと）豊かに、 TYPE-MOON正統派ビジュアルノベルが紡がれる 【物語（STORY）】 1980年代後半。華やかさと活力に満ちた時代の黄昏時。 都会におりてきた少年は、現代に生きる二人の魔女とすれ違う。 少年はごく自然に暮らしてきて、 彼女は凛々しく胸を張って、 少女は眠るように隠れ住んで。 三者三様の星の巡り。 交わることなんてもってのほか。 何もかも違う三人の共同生活が始まるのは、あと、もうちょっと先の話―――",
+      "analysis": {
+        "app_key": "apple:6793855532",
+        "summary_ko": "TYPE-MOON이 제작한 장편 비주얼 노벨 '마법사의 밤'의 스마트폰 이식 버전입니다. 1980년대 후반을 배경으로 세 명의 주인공이 엮어가는 이야기를 다룹니다. 풍부한 사운드와 시각적 연출을 통해 정통 비주얼 노벨의 경험을 제공합니다.",
+        "features_ko": [
+          "1980년대 후반을 배경으로 한 서사 중심의 비주얼 노벨입니다.",
+          "세 명의 주인공이 겪는 공동생활과 사건을 다룹니다.",
+          "시각적 연출과 사운드를 강조한 스토리텔링을 제공합니다."
+        ],
+        "noteworthy_ko": "TYPE-MOON의 정통 비주얼 노벨로서, 텍스트와 연출의 조화가 핵심입니다. 개발 관점에서는 방대한 시나리오를 안정적으로 관리하고 연출하는 엔진 구조가 흥미롭습니다.",
+        "development_ko": "텍스트 엔진과 스크립트 시스템 구현이 핵심입니다. 콘텐츠 제작 측면에서는 방대한 분량의 시나리오와 연출 리소스 관리가 큰 부담이 될 것으로 보입니다. 밸런스보다는 연출의 일관성을 유지하는 테스트가 중요합니다.",
+        "idea_ko": "특정 선택지에 따라 배경음악과 연출이 실시간으로 변하는 단편 비주얼 노벨 제작.",
+        "highlights_ko": [
+          "TYPE-MOON 특유의 정통 비주얼 노벨 스타일을 계승합니다.",
+          "1980년대 후반의 시대적 분위기를 반영한 서사를 제공합니다."
+        ],
+        "systems_ko": [
+          "텍스트 렌더링 시스템",
+          "스크립트 제어 엔진",
+          "세이브/로드 데이터 관리",
+          "사운드 및 연출 동기화 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기본적인 텍스트 출력과 선택지 시스템은 구현이 어렵지 않으나, 연출의 완성도를 높이는 데 많은 시간이 소요됩니다. 1인 개발 시 시나리오 분량 조절이 핵심입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "텍스트 출력 시스템",
+            "선택지 분기 로직",
+            "이미지 및 사운드 리소스 로더"
+          ],
+          "defer": [
+            "자동 재생 기능",
+            "로그 확인 기능",
+            "고급 연출 효과"
+          ],
+          "risks": [
+            "시나리오 분량에 따른 제작 기간 지연",
+            "연출 리소스 관리의 복잡성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "단편 미스터리 노벨",
+            "concept": "짧은 시간 내에 끝나는 미스터리물로, 선택지에 따라 결말이 3개로 나뉩니다. 텍스트 중심의 몰입감을 강조합니다.",
+            "first_step": "간단한 텍스트 출력과 선택지 분기 로직을 포함한 프로토타입 제작."
+          },
+          {
+            "title": "사운드 중심 노벨",
+            "concept": "배경음악과 효과음이 텍스트의 분위기를 결정하는 실험적 노벨입니다. 청각적 요소가 서사를 주도합니다.",
+            "first_step": "특정 텍스트 구간에서 음악이 전환되는 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "비주얼 노벨의 기본 구조를 배우기에 적합합니다. 텍스트와 연출의 결합 방식을 연구하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 게임 엔진 정보나 연출 방식이 명시되어 있지 않습니다. 결제 및 외부 연동 기능은 확인되지 않았습니다.",
+        "name": "魔法使いの夜",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E9%AD%94%E6%B3%95%E4%BD%BF%E3%81%84%E3%81%AE%E5%A4%9C/id6793855532?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 201,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 13,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "google:com.square_enix.FFIXjp.android_googleplay": {
+      "app_key": "google:com.square_enix.FFIXjp.android_googleplay",
+      "name": "FINAL FANTASY IX",
+      "developer": "SQUARE ENIX Co.,Ltd.",
+      "source": "google",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.square_enix.FFIXjp.android_googleplay&hl=ja&gl=JP",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:51:32+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "***ブラックフライデーセール実施中！*********** スクウェア・エニックスのアプリが11/17 から11/24 まで期間限定で値下げ！ FINAL FANTASY IXが 2,600円から1,200円の53% OFF！ ※セール終了時間は予告なく多少前後する可能性が御座いますのでご注意ください。 ************************************************** 最新OS対応のアップデートを行いました。 うまく動作していなかった機種の方はアップデートをお願いいたします。 なお、先だってお知らせしておりました通り、本アプリは開発環境移行のため、今回のアップデート以降、下記の非推奨端末にて、アプリの起動等が行えなくなります。 該当機種をご利用のお客様にはご迷惑をおかけいたしますが、何卒ご理解くださいますようお願いいたします。 ■「Android OS6.0」より前のOSバージョンを搭載の端末 ※一部の端末に関しては、上記バージョン以上であっても動作しない可能性がございます。 （上記OS搭載の端末で、現在プレイ可能の端末では、今回のアップデートを行わない限り、引き続きプレイ可能です） ---------------------------------------------- 容量の大きいアプリのため、ダウンロードに時間がかかります。 本アプリの容量は約3.2GBございます。初回ダウンロードの際には4GB以上の空き容量に必要になります。 またバージョンアップ時にも4GB以上必要になります。 余裕を持ってお試しいただけますよう、よろしくお願いいたします。 ----------------------------------------------- ■説明 2000年に発売され、全世界で累計出荷本数600万本以上を誇る 名作RPG「FINAL FANTASY IX」がAndroidに登場！ ジタンやビビの物語がどこでもプレイできます！ アプリは完全落とし切りです。 ダウンロード後は一切の追加課金はありません。 「FINAL FANTASY IX」の壮大な物語を、エンディングまで全てお楽しみいただけます。 ■物語 旅芸人一座「タンタラス」団はアレクサンドリア王国の王女ガーネットの誘拐を企てる。 偶然にもガーネットは自ら国を出ようとしており、結果タンタラス団の団員ジタンは、 ガーネットや彼女の護衛の騎士スタイナーと共に行動するようになる。 黒魔導士の少年ビビや、ク族のクイナらを加えた一行は、旅の中で、自らの出生の秘密や、 命の根源たるクリスタルの存在を知る。 そして、この星を狙う敵との戦いに関わることになるのだった。 ■FINAL FANTASY IXの特徴 ・アビリティ 武器防具を装備することで使えるアビリティは、使い込むことで装備を外しても使用可能になります。 様々なアビリティの組み合わせで、キャラクターをカスタマイズできます。 ・トランス 戦闘中ダメージを受けるとトランスゲージが増加します。 ゲージが一杯になると、キャラクターはトランス状態になり、キャラクター専用のコマンドが強力なものに変化します！ ・合成 二つのアイテムを合成して、別のアイテムを作成できます。 合成するアイテムによって、強力な装備品を作り出すことができます。 ・多くのミニゲーム 世界中の宝を探す「ここほれ！チョコボ」、ナワトビ、カードゲームなど、ミニゲームが豊富に用意されています。 中には強力なアイテムが入手できる場合もあります。 ■追加要素 ・アチーブメント ・高速モード、エンカウント無しなどの７種類のブースト機能 ・オートセーブ機能 ・キャラクターやムービーの高解像度化 ーーーーーーー 【対応OS】 Android 6.0以上",
+      "analysis": {
+        "app_key": "google:com.square_enix.FFIXjp.android_googleplay",
+        "summary_ko": "명작 RPG 'FINAL FANTASY IX'의 모바일 이식 버전입니다. 원작의 방대한 스토리와 캐릭터 육성 시스템을 모바일 환경에서 즐길 수 있습니다. 추가 결제 없이 엔딩까지 플레이 가능한 완전판 게임입니다.",
+        "features_ko": [
+          "장비를 통해 아비리티를 습득하고 캐릭터를 커스터마이징합니다.",
+          "전투 중 게이지가 차면 강력한 기술을 사용하는 트랜스 시스템을 제공합니다.",
+          "아이템을 합성하여 더 강력한 장비를 제작할 수 있습니다.",
+          "고속 모드, 인카운트 없음 등 7가지 부스트 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "고전 게임의 모바일 이식 시 최신 OS 대응과 고해상도 리마스터링이 핵심입니다. 특히 부스트 기능을 추가하여 현대 모바일 유저의 편의성을 고려한 점이 흥미롭습니다.",
+        "development_ko": "기존 게임 엔진을 모바일 환경으로 포팅하는 고도의 기술력이 필요합니다. 대용량 리소스 관리와 터치 인터페이스 최적화가 제작의 핵심 과제입니다.",
+        "idea_ko": "고전 RPG의 핵심 시스템을 차용한 모바일 전용 로그라이크 게임.",
+        "highlights_ko": [
+          "자동 저장 기능을 지원하여 모바일 환경에서의 플레이 편의성을 높였습니다.",
+          "캐릭터와 무비 영상을 고해상도로 리마스터링하였습니다."
+        ],
+        "systems_ko": [
+          "턴제 전투 시스템",
+          "캐릭터 성장 및 아비리티 관리",
+          "아이템 합성 및 인벤토리",
+          "게임 상태 저장 및 로드",
+          "부스트 모드 제어"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "방대한 서사와 복잡한 시스템을 포함한 RPG는 1인 개발 시 콘텐츠 제작 부담이 매우 큽니다. 리소스 최적화와 밸런스 조정에 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "턴제 전투 엔진",
+            "캐릭터 능력치 시스템",
+            "기본 UI 및 메뉴"
+          ],
+          "defer": [
+            "고해상도 영상 리마스터링",
+            "복잡한 미니게임"
+          ],
+          "risks": [
+            "대용량 리소스 관리 실패",
+            "다양한 기기에서의 호환성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "아비리티 조합형 던전 탐험",
+            "concept": "장비에 따른 아비리티 조합이 핵심인 짧은 던전 탐험 게임입니다. 매번 다른 장비를 얻어 전략을 수정합니다.",
+            "first_step": "장비 장착 시 스킬이 변경되는 기본 전투 로직 구현."
+          },
+          {
+            "title": "미니게임 모음집",
+            "concept": "원작 속 카드 게임이나 나와토비 같은 미니게임만을 독립시킨 캐주얼 게임입니다.",
+            "first_step": "카드 게임의 기본 규칙과 승패 판정 로직 구현."
+          }
+        ],
+        "recommendation_ko": "RPG의 구조와 시스템 설계를 배우고 싶은 개발자에게 추천합니다. 다만, 1인 개발 시에는 규모를 대폭 축소해야 합니다.",
+        "source_limitations_ko": "내부 게임 엔진 정보나 구체적인 데이터 관리 방식은 알 수 없습니다. 특정 기기 호환성 문제는 소개문 외의 기술적 검증이 필요합니다.",
+        "name": "FINAL FANTASY IX",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.square_enix.FFIXjp.android_googleplay&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 171,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 23,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "google:com.hfx.mbti.korea": {
+      "app_key": "google:com.hfx.mbti.korea",
+      "name": "MBTI 성격유형 검사",
+      "developer": "HFX Lab",
+      "source": "google",
+      "country": "KR",
+      "category": "app_lifestyle",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.hfx.mbti.korea&hl=ko&gl=KR",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:53:22+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "'MBTI 성격 검사 - 성격 테스트 - 성격유형검사 알아보기'는 요즘 유행하는 16가지 MBTI 성향 테스트로 당신의 MBTI를 찾아 주는 서비스입니다. - 사키노바(Sakinorva) 인지 기능 검사이며 어떤 MBTI 검사보다 더 정확합니다. - 2026년 기준 가장 정확한 성격 유형 검사를 통해 당신의 MBTI 유형과 유형 키워드, 성향, 궁합이 좋은 MBTI 유형을 확인하십시오. - 로그인 필요없이, 간단하고 정확하게 MBTI 유형과 16가지 성향 키워드를 확인할 수 있습니다. ---- 개발자 연락처 : 에이치에프엑스랩 대한민국 17136 경기도 용인시 처인구 이동읍 경기동로705번길 28, 112동 1102호 (송전리, 세광엔리치타워아파트) 3071253681 제2025-용인처인-0114호 용인시 처인구청",
+      "analysis": {
+        "app_key": "google:com.hfx.mbti.korea",
+        "summary_ko": "사용자의 성격 유형을 16가지 MBTI 분류로 진단해 주는 서비스입니다. 사키노바(Sakinorva) 인지 기능 검사 방식을 채택하여 정확도를 높였습니다. 로그인 없이 간편하게 자신의 성향 키워드와 궁합이 좋은 유형을 확인할 수 있습니다.",
+        "features_ko": [
+          "16가지 MBTI 성격 유형을 진단하는 테스트를 제공합니다.",
+          "사키노바 인지 기능 검사 모델을 기반으로 결과를 산출합니다.",
+          "진단 결과와 함께 성향 키워드 및 궁합 정보를 제공합니다.",
+          "로그인 절차 없이 즉시 테스트를 시작할 수 있습니다."
+        ],
+        "noteworthy_ko": "로그인 없이 즉시 결과를 제공하는 사용자 경험이 핵심입니다. 특정 검사 모델(사키노바)을 명시하여 신뢰도를 확보하려는 전략이 돋보입니다.",
+        "development_ko": "핵심 기술은 설문 로직과 결과 산출 알고리즘입니다. 콘텐츠 제작 부담은 질문지 구성에 집중되며, 밸런스 부담은 결과값의 논리적 타당성을 검증하는 데 있습니다.",
+        "idea_ko": "사용자의 성향 변화를 기록하는 다이어리 기능과 결합하여 장기적인 사용자 리텐션을 확보하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "로그인 없는 간편한 접근성.",
+          "인지 기능 검사 모델 기반의 결과 제공."
+        ],
+        "systems_ko": [
+          "설문 데이터 관리 시스템",
+          "결과 산출 알고리즘",
+          "사용자 결과 저장 및 조회 UI"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "복잡한 물리 엔진이나 실시간 네트워크가 필요 없으며, 정적인 데이터 처리와 UI 구현이 핵심이기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "질문지 데이터 구조",
+            "결과 계산 로직",
+            "결과 출력 화면"
+          ],
+          "defer": [
+            "사용자 계정 연동",
+            "결과 공유 기능"
+          ],
+          "risks": [
+            "검사 결과의 논리적 정확성 부족",
+            "사용자 데이터의 개인정보 보호 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "MBTI 일기장",
+            "concept": "매일의 기분을 기록하면 MBTI 성향에 따른 감정 변화를 분석해 줍니다. 성격 유형별로 자주 느끼는 감정을 시각화합니다.",
+            "first_step": "간단한 감정 선택 버튼과 텍스트 입력창을 구현합니다."
+          },
+          {
+            "title": "성격 유형별 추천 챌린지",
+            "concept": "사용자의 MBTI에 맞춰 매일 작은 도전 과제를 추천합니다. 유형별로 부족한 부분을 보완할 수 있는 활동을 제안합니다.",
+            "first_step": "유형별 추천 과제 리스트를 데이터베이스화합니다."
+          }
+        ],
+        "recommendation_ko": "데이터 기반의 UI 구성과 설문 로직 구현을 연습하기에 좋습니다. 단순한 정보 제공 앱에서 사용자 경험을 어떻게 확장할지 고민해 볼 수 있습니다.",
+        "source_limitations_ko": "소개문에 명시된 '사키노바 검사'의 실제 구현 방식이나 데이터 처리 과정은 확인되지 않습니다. 외부 API 연동 여부나 보안 정책은 명시되지 않았습니다.",
+        "name": "MBTI 성격유형 검사",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.hfx.mbti.korea&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
     }
   }
 }

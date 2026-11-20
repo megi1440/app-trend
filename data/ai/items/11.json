@@ -12930,6 +12930,451 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-19"
+    },
+    "itch:502e4ffa48d108e166eb": {
+      "app_key": "itch:502e4ffa48d108e166eb",
+      "name": "CIDADE AS ESCURAS [Free] [Educational]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://bruno-tiago-game-dev.itch.io/cidade-as-escuras",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:48:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Teste sua habilidade para projetar as sinalizações na cidade",
+      "analysis": {
+        "app_key": "itch:502e4ffa48d108e166eb",
+        "summary_ko": "도시의 신호 체계를 설계하는 교육용 게임입니다.",
+        "features_ko": [
+          "도시 내 신호등 및 표지판을 설계하는 시뮬레이션 기능을 제공합니다.",
+          "사용자의 설계 능력을 테스트하는 교육적 요소를 포함하고 있습니다."
+        ],
+        "noteworthy_ko": "도시 계획이라는 교육적 주제를 게임화하여 사용자가 논리적인 설계를 경험하게 합니다. 시뮬레이션 결과에 따라 도시의 흐름이 바뀌는 피드백 구조가 핵심입니다.",
+        "development_ko": "도시의 교통 흐름을 시뮬레이션하는 로직과 사용자의 입력을 반영하는 UI 시스템이 핵심입니다. 교육용이므로 설계 결과에 대한 명확한 평가 로직이 필요합니다.",
+        "idea_ko": "신호 체계뿐만 아니라 도로의 구조를 직접 변경하여 교통 체증을 해결하는 '교통 최적화 퍼즐 게임'을 추천합니다.",
+        "highlights_ko": [
+          "도시 설계라는 교육적 주제를 게임으로 구현.",
+          "사용자의 논리적 사고를 요구하는 시뮬레이션 구성."
+        ],
+        "systems_ko": [
+          "교통 흐름 시뮬레이션 로직",
+          "신호등 및 표지판 배치 UI",
+          "설계 결과 평가 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "교통 시뮬레이션 로직은 복잡할 수 있으나, 교육용 목적에 맞춰 범위를 제한하면 1인 개발이 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "신호등 배치 시스템",
+            "기본 교통 흐름 시뮬레이션"
+          ],
+          "defer": [
+            "복잡한 도시 환경 구현",
+            "다양한 교통 수단 추가"
+          ],
+          "risks": [
+            "시뮬레이션 로직의 정확성 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "교통 체증 해결 퍼즐",
+            "concept": "주어진 예산 내에서 신호등을 배치하여 교통 체증을 최소화하는 퍼즐 게임입니다.",
+            "first_step": "도로와 차량의 기본 이동 로직을 구현합니다."
+          },
+          {
+            "title": "신호등 타이밍 최적화",
+            "concept": "신호등의 초록불 시간을 조절하여 사고 없이 차량을 통과시키는 게임입니다.",
+            "first_step": "신호등 상태 변경 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "시뮬레이션 게임의 기초 로직과 데이터 기반의 평가 시스템을 배우기에 좋습니다. 교육용 게임 제작에 관심 있는 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문만으로는 시뮬레이션의 구체적인 규칙이나 평가 기준을 확인할 수 없습니다.",
+        "name": "CIDADE AS ESCURAS [Free] [Educational]",
+        "source": "itch",
+        "detail_url": "https://bruno-tiago-game-dev.itch.io/cidade-as-escuras",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 362,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 6,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "apple:6832176911": {
+      "app_key": "apple:6832176911",
+      "name": "AfterRoom",
+      "developer": "Kawamata Koichiro",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_simulation",
+      "detail_url": "https://apps.apple.com/jp/app/afterroom/id6832176911?uo=2",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:49:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "退去後のお部屋、片付けます。 あなたは片付け会社「アフタールーム」の新人作業員。 担当はマンション「メゾン白百合」。住人が出ていったあとの部屋には、たくさんの物が残されています。 服は衣装ケースへ、本は本棚へ、食器は棚へ。 散らかった物をひとつずつ元の場所へ戻していくと、部屋が少しずつ整っていきます。 そして片付けの途中で目に入る、請求書、写真、メモ、カレンダー。 この部屋の住人に、何があったのか……。 【遊び方】 ・物をタップして拾い、正しい収納へ運ぶだけ ・同じ種類の物はまとめて片付けると気持ちいい ・棚の奥やベッドの下を探すと、住人の「私物」が見つかることも ・鍵のかかった金庫やスマホは、部屋の手がかりから暗証番号を推理 【特徴】 ・10の部屋、10の物語。部屋ごとに違う住人の人生 ・物語は前に出しすぎない。気づいた人だけが分かる「後味」 ・作業手帳に記録が残り、私物を全部見つけると金のスタンプ ・片付けの速さを競って、何度でも挑戦できる 片付けるほど、見えてくる。",
+      "analysis": {
+        "app_key": "apple:6832176911",
+        "summary_ko": "퇴거 후의 방을 정리하는 시뮬레이션 게임입니다. 플레이어는 정리 회사의 신입 사원이 되어 물건을 제자리에 배치하며 방을 정돈합니다. 정리 과정에서 발견하는 단서들을 통해 이전 거주자의 이야기를 추리하는 경험을 제공합니다.",
+        "features_ko": [
+          "물건을 탭하여 집어 올리고 지정된 위치로 이동시키는 정리 메커니즘을 제공합니다.",
+          "같은 종류의 물건을 모아서 정리하는 수집 및 배치 기능을 포함합니다.",
+          "방 곳곳을 탐색하여 숨겨진 개인 물품을 찾는 탐색 요소를 제공합니다.",
+          "단서를 조합하여 금고나 스마트폰의 암호를 풀어내는 추리 퍼즐이 포함됩니다.",
+          "정리 완료 후 작업 수첩에 기록이 남으며 수집률을 확인할 수 있습니다."
+        ],
+        "noteworthy_ko": "정리라는 일상적인 행위에 서사적 단서를 결합한 점이 독특합니다. 플레이어의 관찰력을 자극하여 자연스럽게 스토리에 몰입하게 만드는 구조가 인상적입니다.",
+        "development_ko": "물건의 배치 데이터와 상호작용 로직이 핵심입니다. 10개의 방마다 고유한 스토리와 오브젝트를 배치해야 하므로 콘텐츠 제작 부담이 다소 있습니다. 퍼즐의 논리적 연결성을 검증하는 테스트가 중요합니다.",
+        "idea_ko": "특정 직업군의 일상을 테마로 한 '정리 및 단서 찾기' 시리즈를 제안합니다.",
+        "highlights_ko": [
+          "정리라는 행위를 통해 서사를 전달하는 감성적인 게임 구성.",
+          "작업 수첩과 수집 요소로 반복 플레이 동기 부여."
+        ],
+        "systems_ko": [
+          "오브젝트 배치 및 드래그 시스템",
+          "인벤토리 및 수집 데이터 관리",
+          "퍼즐 논리 엔진",
+          "스토리 텍스트 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "오브젝트 상호작용 구현은 어렵지 않으나, 다수의 방과 스토리 단서를 논리적으로 연결하는 기획 및 데이터 관리에 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "물건 선택 및 배치 로직",
+            "방 1개 분량의 오브젝트 데이터",
+            "간단한 스토리 텍스트 출력"
+          ],
+          "defer": [
+            "10개의 방 전체 구현",
+            "복잡한 암호 해독 퍼즐"
+          ],
+          "risks": [
+            "오브젝트 배치 시의 물리적 충돌 처리",
+            "스토리와 게임 플레이의 조화"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "유품 정리사",
+            "concept": "고인의 방을 정리하며 남겨진 물건의 의미를 되새기는 감성 게임입니다. 물건을 만질 때마다 짧은 회상 텍스트가 출력됩니다.",
+            "first_step": "오브젝트 클릭 시 텍스트 박스가 나타나는 기능 구현."
+          },
+          {
+            "title": "이사 도우미",
+            "concept": "제한된 박스 크기에 물건을 효율적으로 배치하는 테트리스 방식의 정리 게임입니다.",
+            "first_step": "그리드 시스템 기반의 물건 배치 프로토타입 구현."
+          }
+        ],
+        "recommendation_ko": "오브젝트 기반의 상호작용 게임을 만들고 싶은 개발자에게 추천합니다. UI/UX와 스토리텔링의 결합 방식을 배우기에 좋은 사례입니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 외부 서비스 연동이나 결제 기능은 확인되지 않습니다.",
+        "name": "AfterRoom",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/afterroom/id6832176911?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 234,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "google:com.vazmgm.crazy.screw.hole.nail": {
+      "app_key": "google:com.vazmgm.crazy.screw.hole.nail",
+      "name": "Crazy Screw: Hole n’ Nail",
+      "developer": "Vicapp Game",
+      "source": "google",
+      "country": "JP",
+      "category": "game_arcade",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.vazmgm.crazy.screw.hole.nail&hl=ja&gl=JP",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:50:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "頭をひねる準備はできていますか？ Crazy Screw: Hole n’ Nailは、ネジを抜くたびに盤面が変わる、癒やし系の本格ネジ外しパズルです！ 🔩 遊び方 ネジをタップして抜き、空いている穴に移動させよう 正しい順番でネジを外して、板を落とそう すべての板を落とせばステージクリア 先を読んで動かそう。間違えると詰まってしまうかも！ ✨ ゲームの特徴 かんたんな序盤から超難問まで、数百のステージを収録 リアルな物理演算と気持ちいいネジ外しの手ごたえ 困ったときは穴追加・元に戻す・ヒントなどの便利アイテムで解決 タップだけのシンプル操作で、誰でもすぐ遊べて奥が深い 時間制限なしで、自分のペースでじっくり楽しめる オフラインでもいつでもどこでもプレイ可能 すきま時間にも、じっくり遊びたいときにもぴったり。 今すぐダウンロードして、すべてのネジを攻略しよう！🛠️",
+      "analysis": {
+        "app_key": "google:com.vazmgm.crazy.screw.hole.nail",
+        "summary_ko": "Crazy Screw: Hole n’ Nail은 나사를 순서대로 제거하여 판을 떨어뜨리는 퍼즐 게임입니다. 물리 연산을 기반으로 하며, 올바른 순서를 찾는 것이 핵심입니다. 시간 제한 없이 자신의 속도에 맞춰 즐길 수 있습니다.",
+        "features_ko": [
+          "나사를 탭하여 제거하고 빈 구멍으로 이동시키는 규칙을 가집니다.",
+          "올바른 순서로 나사를 제거하여 모든 판을 떨어뜨려야 합니다.",
+          "물리 연산을 적용하여 나사 제거 시 판의 움직임을 구현합니다.",
+          "힌트, 구멍 추가, 되돌리기 등 보조 아이템을 제공합니다.",
+          "오프라인 환경에서도 플레이가 가능합니다."
+        ],
+        "noteworthy_ko": "물리 엔진을 활용한 퍼즐 게임으로, 나사 제거라는 단순한 동작이 복잡한 퍼즐로 확장되는 구조가 흥미롭습니다. 레벨 디자인의 난이도 곡선 설계가 게임의 성패를 결정합니다.",
+        "development_ko": "2D 물리 엔진(예: Box2D) 활용이 핵심입니다. 나사 제거 시 발생하는 판의 충돌 판정과 상태 관리가 중요합니다. 수백 개의 스테이지를 효율적으로 관리하기 위한 레벨 데이터 구조화가 필요합니다.",
+        "idea_ko": "나사를 제거할 때마다 판이 회전하는 물리 퍼즐.",
+        "highlights_ko": [
+          "물리 연산을 통한 현실적인 나사 제거 손맛을 제공합니다.",
+          "시간 제한 없는 퍼즐로 누구나 쉽게 접근 가능합니다."
+        ],
+        "systems_ko": [
+          "2D 물리 엔진",
+          "스테이지 데이터 관리 시스템",
+          "입력 판정 및 터치 이벤트",
+          "게임 상태 관리(Undo/Redo)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진을 활용한 기본적인 퍼즐 구현은 가능하나, 다양한 스테이지를 설계하고 밸런스를 맞추는 과정에 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "나사 제거 및 판 낙하 물리 로직",
+            "기본 스테이지 10개",
+            "터치 입력 시스템"
+          ],
+          "defer": [
+            "다양한 보조 아이템",
+            "수백 개의 스테이지",
+            "온라인 리더보드"
+          ],
+          "risks": [
+            "물리 엔진의 불안정한 충돌 판정",
+            "레벨 디자인의 난이도 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "회전하는 나사 퍼즐",
+            "concept": "나사를 제거하면 판이 회전하여 새로운 구멍이 나타나는 퍼즐입니다. 공간 지각 능력이 중요합니다.",
+            "first_step": "판을 회전시키는 물리 로직과 나사 제거 로직 결합."
+          },
+          {
+            "title": "자석 나사 퍼즐",
+            "concept": "자석 성질을 가진 나사를 배치하여, 특정 나사를 제거하면 주변 나사가 함께 움직이는 퍼즐입니다.",
+            "first_step": "나사 간의 인력/척력 물리 효과 구현."
+          }
+        ],
+        "recommendation_ko": "물리 엔진을 활용한 게임 개발을 배우기에 아주 좋습니다. 퍼즐 게임의 레벨 디자인을 경험하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 구체적인 물리 엔진 종류나 스테이지 생성 방식은 알 수 없습니다. 결제 기능은 명시되지 않았습니다.",
+        "name": "Crazy Screw: Hole n’ Nail",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.vazmgm.crazy.screw.hole.nail&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 198,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 14,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "google:com.gameoverflow.seaplayground": {
+      "app_key": "google:com.gameoverflow.seaplayground",
+      "name": "Sea Playground: Ship Sandbox",
+      "developer": "Freeplay Inc",
+      "source": "google",
+      "country": "US",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.gameoverflow.seaplayground&hl=en&gl=US",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:53:01+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Nothing is unsinkable — and Sea Playground is here to prove it. This ship sandbox game is a mobile simulation built on real physics. A bomb, a lightning strike, a giant wave or the tentacles of a kraken — you choose how the ship goes down, and no two wrecks are ever the same. 🎮 How it works 1. Pick any unlocked vessel. 2. Tap a tool — from a bomb to the kraken. 3. Watch the hull crack, water pour through every breach, fire break out and the wreck sink all the way to the seabed. 💥 Wrecks you can't look away from A single wave can snap a lake freighter in half, the kraken can drag a vessel into the deep, and one lightning strike can set off a chain reaction on an LNG tanker. Bombs, lasers and even antimatter reveal the full scale of destruction — from the first crack to the last bubble on the surface. That's the thrill of a true sinking ship simulator. 🚢 A fleet for every taste With twelve vessels — from an old galleon to the legendary Titanic, from a humble crab boat to a towering cruise liner — this boat sandbox has a ship for every idea. Four are ready to sink from day one; the rest are waiting for their moment. 🌊 An ocean with character Calm water or rolling waves, day or night — the sea shows every mood. Call a storm and watch the ocean rage. And when the deck lights come on at night, every explosion makes the dark water glow. 🔁 Play your way No levels, no time limits — just open-ended sandbox gameplay, real physics and your experiments. Sink a ship, restart the scene with a single tap or patch the holes with the repair tool. This sandbox playground is just as good for a quick session on your phone as it is for hours of experimenting. Sea Playground is a ship sandbox and sinking ship simulator for fans of sandbox games, simulation games and boat games. Unleash a kraken, call a storm, sink the Titanic — and send your first ship to the bottom today. Links to our Terms of Use and Privacy Policy can be found below: https://freeplay.io/games/android/terms-of-use/ https://freeplay.io/games/android/privacy-policy/",
+      "analysis": {
+        "app_key": "google:com.gameoverflow.seaplayground",
+        "summary_ko": "다양한 도구를 사용하여 선박을 파괴하고 침몰시키는 물리 기반 시뮬레이션 게임입니다. 폭탄, 번개, 크라켄 등 여러 가지 방법으로 배가 부서지고 침몰하는 과정을 관찰할 수 있습니다. 정해진 레벨이나 시간 제한 없이 자유롭게 실험할 수 있는 샌드박스 환경을 제공합니다.",
+        "features_ko": [
+          "폭탄, 레이저, 크라켄 등 다양한 도구를 사용하여 선박을 파괴할 수 있습니다.",
+          "선박의 파손부터 침몰까지의 과정을 실시간 물리 엔진으로 구현합니다.",
+          "갈레온선부터 타이타닉호까지 다양한 종류의 선박을 선택할 수 있습니다.",
+          "폭풍우, 낮과 밤 등 다양한 환경 설정을 변경할 수 있습니다.",
+          "수리 도구를 사용하여 파손된 부분을 복구하고 다시 실험할 수 있습니다."
+        ],
+        "noteworthy_ko": "파괴라는 행위 자체를 물리 시뮬레이션으로 풀어낸 샌드박스 게임입니다. 정해진 목표 없이 사용자의 실험을 유도하는 방식이 모바일 환경에서 짧은 세션으로 즐기기에 적합합니다.",
+        "development_ko": "물리 엔진을 활용한 선박 파괴 로직이 핵심입니다. 선박의 구조적 파손과 물의 흐름을 시각화하는 기술이 필요합니다. 다양한 도구와 환경에 따른 물리 반응을 최적화하는 작업이 중요합니다.",
+        "idea_ko": "파괴된 선박의 잔해를 수집하거나, 특정 조건에서만 발생하는 특수 파괴 이벤트를 추가하면 재미를 더할 수 있습니다.",
+        "highlights_ko": [
+          "물리 엔진을 기반으로 한 자유로운 파괴 샌드박스 경험을 제공합니다.",
+          "다양한 선박과 파괴 도구를 통해 매번 다른 침몰 상황을 연출할 수 있습니다."
+        ],
+        "systems_ko": [
+          "물리 엔진 기반 파괴 시스템",
+          "선박 모델링 및 파손 데이터 관리",
+          "환경 설정(날씨, 시간) 시스템",
+          "도구 선택 및 상호작용 UI",
+          "씬 초기화 및 복구 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 물리 시뮬레이션은 높은 연산 능력을 요구하며, 선박의 파손을 자연스럽게 구현하는 것은 고도의 기술력이 필요합니다. 1인 개발자가 물리 엔진을 직접 최적화하는 것은 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 물리 엔진 설정",
+            "선박 모델의 파손 로직",
+            "도구 선택 UI"
+          ],
+          "defer": [
+            "다양한 선박 종류",
+            "복잡한 환경 변화(폭풍우 등)",
+            "고급 그래픽 효과"
+          ],
+          "risks": [
+            "물리 연산으로 인한 성능 저하",
+            "파손 로직의 부자연스러움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "건축 및 파괴 샌드박스",
+            "concept": "배를 직접 조립하고 파괴하는 게임입니다. 창의적인 구조물을 만들어 파괴 테스트를 진행합니다.",
+            "first_step": "블록을 쌓아 배 모양을 만드는 빌딩 시스템 구현."
+          },
+          {
+            "title": "해양 구조 시뮬레이터",
+            "concept": "파괴가 아닌 구조에 집중합니다. 침몰하는 배에서 승객을 구출하는 미션을 수행합니다.",
+            "first_step": "침몰하는 배에서 탈출하는 캐릭터 이동 로직 구현."
+          }
+        ],
+        "recommendation_ko": "물리 엔진을 활용한 게임 개발에 관심 있는 개발자에게 추천합니다. 샌드박스 게임의 자유도를 어떻게 구현하는지 배우기에 좋습니다.",
+        "source_limitations_ko": "사용된 물리 엔진의 종류나 구체적인 파괴 로직은 확인되지 않습니다. 외부 서비스 연동이나 결제 기능에 대한 정보는 없습니다.",
+        "name": "Sea Playground: Ship Sandbox",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.gameoverflow.seaplayground&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "apple:466682252": {
+      "app_key": "apple:466682252",
+      "name": "스타벅스",
+      "developer": "스타벅스 코리아",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4/id466682252",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:54:26+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "스타벅스 코리아를 운영하는 주식회사 에스씨케이컴퍼니의 공식 애플리케이션입니다. 회원이 아니더라도 애플리케이션을 이용하는 누구나 사이렌 오더를 통해 음료, 푸드 및 원두 등 다양한 메뉴를 비대면으로 주문할 수 있으며, 스타벅스 카드를 등록하고 충전하여 바코드를 통해 결제할 수 있습니다. 또한 온라인스토어에서는 매장을 방문하지 않고 언제 어디서나 스타벅스의 상품을 구매하실 수 있으며, 나만의 레시피를 더한 스타벅스 모바일 상품권 및 금액형 상품권인 스타벅스 모바일 카드를 선물할 수 있는 스마트한 서비스를 제공합니다. - Home : 나를 반겨주는 Live Greeting, 새로운 소식을 알려주는 Feed, 빠르게 주문할 수 있는 Quick Order - Pay : 스타벅스 카드와 계좌, 신용카드를 등록 및 관리하고 바코드로 바로 결제, Coupon 과 모바일 상품권도 함께 불러오는 Wallet - Order : 메뉴 주문을 비대면으로 편리하게! 사이렌 오더. 모든 스타벅스 이용 고객이 음료, 푸드 및 원두 등 다양한 상품을 매장별 주문 가능 메뉴 및 수량을 실시간으로 확인하여, 쉽고 빠르게 주문 - Shop : 매장 방문없이 온라인에서 손쉽게 스타벅스의 상품을 구매, 선물 가능한 스타벅스 공식 온라인 스토어 - 리워드 : Starbucks Rewards 등급 및 별 적립/사용을 조회하며, 등급별 혜택을 안내 - What’s New : 스타벅스의 다양한 이벤트&뉴스 및 공지를 확인 - Coupon : 다양한 유형의 쿠폰과 모바일 상품권을 등록하고, 온/오프라인 결제 시 사용 및 히스토리를 확인 - 홀케이크 예약 : 앱에서 스타벅스 홀케이크를 간편하게 예약하고 매장에서 수령 - 히스토리 / 전자영수증 : 등록된 스타벅스 카드 또는 사이렌 오더로 결제한 내역을 확인, 전자영수증 다운로드 - 매장 정보 : 근처 매장 찾기 및 원하는 매장을 검색 - 프리퀀시 : 시즌에 따라 프리퀀시 바코드 발급 및 스티커 적립 현황을 볼 수 있음 - Delivers / 배달 : 앱을 통해 스타벅스 음료, 푸드 및 MD 제품 배달 가능 ※ 접근권한 안내 서비스 이용을 위해 권한 허용이 필요합니다. 허용하지 않으셔도 앱 이용은 가능하나 일부 서비스 이용에 제한이 있을 수 있습니다. [필수적 접근 권한] - 없음 [선택적 접근 권한] - 알림 : 이벤트 및 공지, 주문 알림 시 사용 - 위치 : 주변 매장 검색 시 사용 - 블루투스 : 방문 매장 자동 식별 시 사용 - 동작 및 피트니스 : 사용자의 움직임을 측정 - 카메라 : 바코드/QR 코드/이미지 인식 및 이미지 첨부 시 사용 - 사진 : 페이지 공유 및 이미지 저장/첨부 시 사용 - 주소록 : 선물하기 연락처 검색 시 사용 * Wi-Fi와 데이터 네트워크 환경에서 모두 이용하실 수 있으나, 무제한 요금제가 아닐 경우 데이터 요금이 발생할 수 있습니다. * 애플리케이션의 안정된 사용을 위해 업데이트 버전 등록 시, 고객님의 지속적인 업데이트를 부탁드립니다. * iOS 13 이상 버전에서 사용하실 수 있습니다. * 애플리케이션 사용 시 불편 및 개선사항 등이 있으실 경우, 리뷰에 의견을 남기시면 답변을 드릴 수 없으므로 고객센터 및 앱/홈페이지 ‘고객의 소리’를 통해 내용을 보내주시기 바랍니다. * 고객센터 : 1522-3232 (평일 09:00- 18:00 운영, 주말 및 공휴일 제외) * 홈페이지 : http://www.starbucks.co.kr",
+      "analysis": {
+        "app_key": "apple:466682252",
+        "summary_ko": "스타벅스 코리아 공식 앱으로 비대면 주문인 사이렌 오더와 결제, 리워드 적립 기능을 제공합니다. 온라인 스토어 쇼핑, 모바일 상품권 선물 등 다양한 스마트 서비스를 이용할 수 있습니다.",
+        "features_ko": [
+          "사이렌 오더를 통해 매장 방문 전 음료와 푸드를 주문할 수 있습니다.",
+          "스타벅스 카드를 등록하여 바코드로 간편하게 결제할 수 있습니다.",
+          "리워드 등급 확인 및 별 적립 현황을 조회할 수 있습니다.",
+          "온라인 스토어를 통해 상품을 구매하고 선물할 수 있습니다.",
+          "전자영수증 및 결제 히스토리를 관리할 수 있습니다."
+        ],
+        "noteworthy_ko": "온라인과 오프라인 매장을 연결하는 O2O(Online to Offline) 서비스의 대표적인 사례입니다. 결제와 재고 관리, 위치 기반 서비스가 유기적으로 연결된 점이 개발적으로 매우 복잡하고 흥미롭습니다.",
+        "development_ko": "결제 보안 및 금융 데이터 처리가 핵심이며, 매장별 실시간 재고 연동을 위한 고도화된 백엔드 시스템이 필요합니다. 위치 기반 매장 찾기 및 블루투스 자동 식별 등 하드웨어 연동 기술이 요구되며, 대규모 사용자를 위한 안정적인 트래픽 분산 처리가 필수적입니다.",
+        "idea_ko": "개인 개발자라면 특정 소규모 카페를 위한 간편 주문 및 대기열 관리 시스템을 만들어보는 것이 적합합니다.",
+        "highlights_ko": [
+          "비대면 주문 및 결제 시스템인 사이렌 오더를 제공합니다.",
+          "리워드 프로그램과 연동된 멤버십 관리 기능을 갖추고 있습니다."
+        ],
+        "systems_ko": [
+          "결제 및 보안 인증 시스템",
+          "위치 기반 매장 검색 시스템",
+          "실시간 주문 및 재고 관리 시스템",
+          "사용자 리워드 데이터베이스",
+          "푸시 알림 및 쿠폰 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "결제 시스템과 실시간 재고 연동은 보안과 정확성이 매우 중요하여 개인 개발자가 구현하기에는 기술적 난이도와 책임 범위가 매우 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "메뉴 목록 조회",
+            "장바구니 기능",
+            "주문 내역 확인"
+          ],
+          "defer": [
+            "결제 연동",
+            "위치 기반 매장 찾기",
+            "실시간 재고 동기화"
+          ],
+          "risks": [
+            "보안 사고 위험",
+            "결제 데이터 처리 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "개인 카페 주문 관리기",
+            "concept": "소규모 카페에서 사용할 수 있는 간단한 주문 접수 및 대기 번호 생성 앱입니다.",
+            "first_step": "메뉴판을 보여주고 주문 버튼을 누르면 대기 번호가 생성되는 로직 구현."
+          },
+          {
+            "title": "나만의 커피 기록장",
+            "concept": "마신 커피의 종류와 맛을 기록하고 별점을 매기는 개인용 기록 앱입니다.",
+            "first_step": "커피 정보를 입력하고 로컬 DB에 저장하여 리스트로 보여주는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "O2O 서비스의 전체적인 흐름을 이해하는 데 도움이 되지만, 결제와 같은 민감한 기능은 개인 개발 시 제외하는 것을 강력히 권장합니다.",
+        "source_limitations_ko": "소개문에는 결제 시스템의 구체적인 구현 방식이나 보안 프로토콜, 서버 인프라 구성에 대한 정보가 없습니다.",
+        "name": "스타벅스",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4/id466682252",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 81,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
     }
   }
 }

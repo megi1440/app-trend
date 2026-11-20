@@ -25067,6 +25067,362 @@
         "thoughtsTokenCount": 2333,
         "serviceTier": "standard"
       }
+    },
+    "apple:1592397814": {
+      "app_key": "apple:1592397814",
+      "name": "Circle K",
+      "developer": "CircleK",
+      "source": "apple",
+      "kind": "app",
+      "detail_url": "https://apps.apple.com/us/app/circle-k/id1592397814",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:1592397814",
+        "product_kind": "app",
+        "original_experience_ko": "Circle K 앱은 편의점 및 주유소 방문과 결제를 연동하여 'Inner Circle'이라는 로열티 프로그램을 통해 방문 횟수(Visit)에 따른 리워드(할인, 무료 상품)를 제공하는 O2O(Online to Offline) 서비스입니다. 관측된 사실에 따르면 사용자 위치 기반 매장 찾기, 실시간 유가 확인, 앱 전용 할인 및 간편 결제 연동 기능을 제공합니다. AI 해석의 한계로 실제 결제 게이트웨이 보안 인증이나 대규모 오프라인 매장 POS 데이터 연동 구조는 명확히 확인되지 않습니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 소개문을 통해 확인된 사실: 매장 방문 및 주유 시 'Visit' 적립, 연료 할인 및 무료 상품 보상, 실시간 유가 정보 및 매장 위치 찾기(세차, ATM, EV 충전 필터), 앱 전용 할인 제공.",
+          "확인되지 않은 한계: 실제 백엔드 데이터베이스 구조, 대형 유통망 POS와의 실시간 API 동기화 메커니즘, 법적 보안 인증 및 결제 시스템의 세부 구현 방식."
+        ],
+        "valuable_elements_ko": [
+          "오프라인 공간(매장/주유소) 방문 행위 자체를 디지털 리워드로 전환하여 반복 방문을 유도하는 로열티 루프.",
+          "사용자의 현재 위치를 기반으로 주변의 실용적인 편의 시설(세차, ATM, 충전소 등)을 빠르게 필터링하고 안내하는 위치 기반 서비스(LBS) 흐름."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "로컬 히든 스팟 로열티 (Local Hidden Spot Rewards)",
+            "core_idea_ko": "대기업 프랜차이즈 대신 동네 소상공인(로컬 카페, 독립 서점, 동네 빵집 등)들을 네트워크로 묶어, 골목 상권 전용 통합 방문 스탬프와 리워드를 제공하는 O2O 로열티 앱입니다.",
+            "what_to_keep_ko": "오프라인 매장 방문 횟수 누적에 따른 리워드 교환 구조와, 위치 기반 주변 상점 탐색 및 필터링 기능을 그대로 계승합니다.",
+            "what_to_change_ko": "대기업의 대규모 주유/편의점 POS 연동 대신, 소상공인이 스마트폰이나 태블릿으로 간편하게 QR 코드를 스캔해 방문을 인증할 수 있는 가벼운 인증 시스템으로 전환합니다.",
+            "mobile_use_or_play_ko": "사용자가 앱을 켜서 주변 동네 상점 지도를 확인하고, 매장에 방문해 점주가 제시하는 QR 코드를 스캔하여 '방문 횟수'를 적립한 뒤, 누적 횟수에 따라 할인 쿠폰으로 교환합니다.",
+            "key_features_ko": [
+              "QR 코드 기반의 초간편 오프라인 방문 인증 시스템",
+              "동네 상점 카테고리별 맞춤 필터링이 포함된 로컬 지도 뷰어",
+              "여러 소상공인 매장을 아우르는 통합 스탬프 및 리워드 지갑"
+            ],
+            "solo_mvp_and_effort_ko": "오픈소스 지도 API와 로컬 스토리지 기반의 간단한 사용자 인증 및 QR 스캔 기능을 결합하여 1인이 구현 가능합니다. 상점주용 인증 모드는 별도의 복잡한 웹 대시보드 없이 앱 내 관리자 토글로 구현해 개발 부담을 낮춥니다.",
+            "strengths_limits_ko": "대기업 인프라 없이도 골목 상권 활성화라는 명확한 소셜 임팩트와 실용성을 가집니다. 단, 초기 제휴 상점을 확보하는 영업적 한계가 존재합니다."
+          },
+          {
+            "title_ko": "에코 드라이브 & 유가/충전소 비교 로그 (Eco-Route & Fuel Log)",
+            "core_idea_ko": "복잡한 자체 리워드 적립 대신, 운전자의 이동 경로에 따른 실시간 주유소·전기차 충전소 가격 비교와 개인 연비/지출 관리를 결합한 실용적 드라이빙 유틸리티 앱입니다.",
+            "what_to_keep_ko": "주변 주유소 및 충전소의 실시간 가격 비교, 위치 기반 길찾기 및 서비스 필터 기능을 핵심 기능으로 유지합니다.",
+            "what_to_change_ko": "현금성 리워드와 결제 시스템 구축의 복잡성을 제거하고, 공공 데이터를 활용한 유가 정보 조회와 개인의 차량 지출/연비 통계 기록에 집중합니다.",
+            "mobile_use_or_play_ko": "사용자가 출퇴근 경로를 설정하면 경로 상의 최저가 주유소/충전소를 추천받고, 주유 후 영수증이나 금액을 입력하여 개인 연비 및 월별 유류비 통계를 자동으로 시각화합니다.",
+            "key_features_ko": [
+              "공공 오픈 API 연동 실시간 전국 유가 및 충전 비용 비교",
+              "개인 주행 거리 및 주유 기록 기반 연비 효율 계산 대시보드",
+              "세차, 정비소 등 차량 관리 서비스별 주변 매장 필터 검색"
+            ],
+            "solo_mvp_and_effort_ko": "외부 결제 시스템이나 서버 연동 없이 공공 데이터 API 호출과 클라이언트 사이드 데이터 관리만으로 구현할 수 있어 1인 개발 난이도가 낮습니다.",
+            "strengths_limits_ko": "구현이 쉽고 유틸리티성이 높아 진입장벽이 낮지만, 리워드 앱 특유의 지속적인 사용자 체류 동기(보상 시스템)가 약할 수 있습니다."
+          },
+          {
+            "title_ko": "오피스 모닝 패스 & 스마트 픽업 (Office Habit Pass)",
+            "core_idea_ko": "직장인 밀집 지역의 제휴 식음료 매장을 대상으로, 출근길 사전 주문(픽업)과 누적 방문 횟수에 따른 구독형 리워드 혜택을 결합한 타겟형 O2O 앱입니다.",
+            "what_to_keep_ko": "매장 방문과 구매에 따른 리워드(Visit) 누적 방식과 인근 매장 검색 및 필터 기능을 계승합니다.",
+            "what_to_change_ko": "주유소와 대형 편의점이라는 광범위한 대상에서 벗어나, 직장인들의 '출근길 아침 식사 및 커피'라는 특정 시간대와 니즈에 집중하여 모바일 사전 주문/결제 단계를 추가합니다.",
+            "mobile_use_or_play_ko": "사용자가 출근길 동선의 제휴 카페에서 메뉴를 미리 주문하고 결제한 뒤, 매장에 도착해 대기 없이 픽업을 완료함과 동시에 자동으로 방문 리워드가 적립됩니다.",
+            "key_features_ko": [
+              "출근길 동선 기반 제휴 매장 빠른 검색 및 위치 안내",
+              "앱 내 모바일 사전 주문 및 대기 시간 최소화 시스템",
+              "단골 매장 집중 이용 시 제공되는 스탬프 및 구독 리워드"
+            ],
+            "solo_mvp_and_effort_ko": "소규모 테스트 지역(예: 특정 오피스 빌딩 주변 3~4개 매장)을 가정하고, 가상 결제와 로컬 푸시 알림을 활용해 소규모 서버로 구현할 수 있습니다.",
+            "strengths_limits_ko": "타겟층의 생활 패턴에 정확히 부합하여 리텐션이 높을 수 있으나, 실제 매장과의 실시간 주문 연동을 테스트하기 위한 오프라인 제휴 허들이 존재합니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 '로컬 히든 스팟 로열티'는 동네 상권을 중심으로 원본의 방문 리워드 구조를 가장 충실하게 계승하며 소상공인 연합이라는 차별점을 가집니다. 두 번째 '에코 드라이브 로그'는 리워드를 배제하고 공공 API 기반의 유틸리티성에 집중해 제작 부담을 크게 낮추었습니다. 세 번째 '오피스 모닝 패스'는 출근길 타겟층의 사전 주문과 리워드를 결합해 높은 실용성을 제공하지만 오프라인 연동 부담이 있습니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "'로컬 히든 스팟 로열티'는 원본 Circle K의 핵심 매력인 '방문 적립과 위치 기반 혜택'이라는 O2O 로직을 가장 순수하게 계승하면서도, 대기업 프랜차이즈 서버 인프라의 한계를 벗어나 소상공인 대상 QR 인증이라는 가벼운 방식으로 1인 개발이 가능하도록 재설계되었습니다. 제작 난이도와 독창성, 실현 가능성의 균형이 가장 좋습니다.",
+        "next_questions_ko": [
+          "소상공인이 별도의 앱 설치 없이 웹 브라우저나 스마트폰 화면만으로 QR 방문 인증을 완결할 수 있는 가장 단순한 인터페이스 방식은 무엇인가?",
+          "공공 API나 로컬 지도 외에 상점 위치 데이터를 1인 개발자가 초기 구축할 때 최소 몇 개의 샘플 데이터로 테스트를 시작할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-20T08:08:24+09:00",
+      "brief_quota_day": "2026-11-20",
+      "brief_usage": {
+        "promptTokenCount": 1687,
+        "candidatesTokenCount": 2205,
+        "totalTokenCount": 5606,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1687
+          }
+        ],
+        "thoughtsTokenCount": 1714,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:1592397814",
+        "product_kind": "app",
+        "selected_concept_title_ko": "로컬 히든 스팟 로열티 (Local Hidden Spot Rewards)",
+        "project_goal_and_audience_ko": "대기업 프랜차이즈 중심의 리워드 앱에서 벗어나, 동네 소상공인(로컬 카페, 독립 서점, 동네 빵집 등)과 지역 소비자를 연결하는 O2O 로열티 앱입니다. 동네 상권을 자주 방문하는 지역 주민들이 소상공인 매장을 발굴하고 방문 횟수에 따른 실질적인 할인 및 보상을 얻을 수 있도록 돕습니다.",
+        "source_relation_and_difference_ko": "원본 Circle K 앱의 핵심 구조인 '오프라인 매장 방문 누적에 따른 리워드 교환'과 '위치 기반 주변 상점 탐색 및 카테고리 필터링' 경험을 그대로 계승합니다. 차이점으로는 대기업의 복잡한 주유/편의점 POS 연동 및 대규모 서버 인프라 대신, 소상공인이 스마트폰으로 간편하게 QR 코드를 활용해 방문을 인증할 수 있는 가벼운 인증 시스템으로 전환하여 1인 개발이 가능하도록 재설계했습니다.",
+        "core_user_experience_ko": "사용자는 앱을 실행해 지도 화면에서 주변 동네 상점들의 위치와 카테고리를 확인합니다. 관심 있는 상점에 직접 방문하여, 점주가 제시하는 스마트폰 화면의 QR 코드를 앱 내 스캐너로 스캔합니다. 시스템은 즉시 '방문 횟수(스탬프)'를 적립하고, 일정 횟수 도달 시 사용자가 원하는 리워드(할인 쿠폰, 무료 음료 등)로 교환할 수 있는 루프를 제공합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "QR 코드 기반 오프라인 방문 인증",
+            "user_action_and_behavior_ko": "사용자가 매장 방문 후 점주의 QR 코드를 스캔하면, 앱이 고유 매장 ID를 인식하여 방문 횟수(스탬프)를 즉시 적립하고 애니메이션 피드백을 제공합니다.",
+            "practical_implementation_ko": "Android CameraX API와 ZXing 또는 ML Kit Barcode Scanning 라이브러리를 활용해 클라이언트 단에서 빠르고 안정적으로 QR 코드를 인식하도록 구현합니다."
+          },
+          {
+            "feature_ko": "위치 기반 로컬 상점 지도 및 필터",
+            "user_action_and_behavior_ko": "사용자의 현재 GPS 위치를 중심으로 주변 2km 내의 동네 상점을 지도에 마커로 표시하고, 카페·서점·베이커리 등의 카테고리별로 필터링하여 원하는 상점을 쉽게 찾습니다.",
+            "practical_implementation_ko": "OSMDroid(OpenStreetMap) 또는 Google Maps SDK를 활용하고, 로컬 메모리에 저장된 상점 목록을 Haversine 공식 또는 간단한 위경도 연산으로 필터링합니다."
+          },
+          {
+            "feature_ko": "통합 스탬프 지갑 및 리워드 교환",
+            "user_action_and_behavior_ko": "방문한 여러 소상공인 매장의 스탬프 현황을 카드 형태로 한눈에 관리하고, 목표 달성 시 쿠폰으로 교환하여 매장에서 사용할 수 있습니다.",
+            "practical_implementation_ko": "Room DB를 활용해 매장별 스탬프 카운트와 쿠폰 상태를 로컬에 영구 저장하고, 상태 변경에 따라 UI가 즉각 갱신되도록 LiveData 또는 StateFlow를 적용합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 홈 / 지도 화면",
+            "contents_and_actions_ko": "사용자 위치 중심의 지도 뷰, 주변 상점 마커 표시, 상단 카테고리 필터 칩, 하단 내비게이션 바(지도 / 스탬프 지갑 / 설정)."
+          },
+          {
+            "screen_ko": "상점 상세 정보 시트",
+            "contents_and_actions_ko": "선택한 상점의 이름, 사진, 주소, 대표 리워드 안내, 현재 보유 스탬프 현황 및 '방문 인증(QR 스캔)' 진입 버튼."
+          },
+          {
+            "screen_ko": "QR 스캔 화면",
+            "contents_and_actions_ko": "카메라 프리뷰 화면, 스캔 가이드 라인, 인식 성공 시 성공 팝업 및 스탬프 지갑으로 자동 이동."
+          },
+          {
+            "screen_ko": "스탬프 지갑 화면",
+            "contents_and_actions_ko": "사용자가 방문한 상점들의 스탬프 카드 리스트(예: 3/10 스탬프), 교환 가능한 쿠폰 목록 및 사용 완료 처리 기능."
+          }
+        ],
+        "implementation_approach_ko": "Android 네이티브(Kotlin)와 Jetpack Compose를 사용하여 현대적이고 반응성 높은 UI를 구축합니다. 오프라인 우선(Offline-first) 아키텍처를 채택하여 서버 연결 없이도 로컬 DB(Room)만으로 완벽하게 동작하도록 설계하고, 향후 백엔드 확장 시 Retrofit을 통한 API 연동이 가능하도록 구조를 분리합니다. 지도 표시는 가볍고 무료인 OSMDroid를 대안으로 검토합니다.",
+        "data_and_storage_ko": [
+          "StoreEntity (상점 정보): id(Long), name(String), category(String), latitude(Double), longitude(Double), qrCodeIdentifier(String). 앱 내 초기 더미 데이터로 하드코딩 또는 로컬 JSON 파일로 로드.",
+          "VisitRecordEntity (방문 및 스탬프 정보): storeId(Long), visitCount(Int), lastVisitDate(Long), availableCoupons(Int). Room DB를 통해 앱 내부 SQLite 파일로 관리하며, 스캔 성공 시 트랜잭션으로 visitCount를 1 증가시킴."
+        ],
+        "mvp_scope_ko": "첫 번째 프로토타입(MVP)은 복잡한 사용자 로그인이나 원격 서버 통신을 제외하고, 단일 기기 내에서 동작하는 로컬 앱으로 구현합니다. 핵심 기능인 '지도 상점 조회', '카메라 QR 스캔을 통한 스탬프 적립', '스탬프 지갑 관리'에 집중하며, 점주용 별도 대시보드는 앱 내 '점주 모드 토글'을 통해 테스트용 QR을 생성하는 방식으로 대체합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "단계 1: 프로젝트 셋업 및 로컬 DB 설계",
+            "deliverable_and_check_ko": "Jetpack Compose 기본 레이아웃 구성 및 Room DB(Store, VisitRecord) 스키마 정의. 앱 실행 시 더미 상점 데이터가 정상 로드되는지 확인."
+          },
+          {
+            "stage_ko": "단계 2: 지도 뷰 및 상점 필터 구현",
+            "deliverable_and_check_ko": "지도 라이브러리 연동 및 마커 표시, 카테고리 필터 클릭 시 마커가 필터링되는지 UI 테스트."
+          },
+          {
+            "stage_ko": "단계 3: 카메라 QR 스캔 및 적립 로직 구현",
+            "deliverable_and_check_ko": "CameraX 및 바코드 스캔 라이브러리 연동. 특정 QR 코드 인식 시 Room DB의 스탬프 카운트가 증가하고 스탬프 지갑 화면에 반영되는지 확인."
+          },
+          {
+            "stage_ko": "단계 4: 스탬프 지갑 및 쿠폰 교환 UI 완성",
+            "deliverable_and_check_ko": "스탬프 카드 시각화 및 쿠폰 교환 동작 검증. 전체 사용자 흐름(지도 -> 상점 선택 -> QR 스캔 -> 적립 -> 지갑 확인)의 정합성 점검."
+          }
+        ],
+        "possible_extensions_ko": "추후 확장 기능으로는 소상공인이 직접 가맹점을 등록하고 관리할 수 있는 점주용 웹/모바일 대시보드 연동, 여러 상점이 연계된 '골목 투어 스탬프 랠리' 이벤트 기능, 그리고 단골 매장의 신규 혜택 푸시 알림 기능이 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "QR 코드 스캔 방식의 특성상, 사용자가 매장에 실제로 방문하지 않고 사진 등으로 우회 적립할 수 있는 허위 적립 리스크가 존재합니다. 향후 GPS 반경(예: 매장 반경 50m 이내) 검증 로직 추가를 검토해야 합니다.",
+          "소상공인들이 직접 QR 코드를 관리하고 앱의 취지에 공감하여 참여하도록 유도하는 온보딩 프로세스는 실제 서비스 론칭 시 주요 기획 과제로 남겨 둡니다."
+        ],
+        "draft_status_ko": "본 문서는 '로컬 히든 스팟 로열티' 기획을 바탕으로 안드로이드 1인 개발 환경에서 첫 번째 프로토타입을 제작하기 위해 작성된 개발 설계 초안이며, 실제 구현 및 성능 측정이 완료되지 않았습니다."
+      },
+      "plan_at": "2026-11-20T08:08:40+09:00",
+      "plan_quota_day": "2026-11-20",
+      "plan_usage": {
+        "promptTokenCount": 2433,
+        "candidatesTokenCount": 2155,
+        "totalTokenCount": 6165,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2433
+          }
+        ],
+        "thoughtsTokenCount": 1577,
+        "serviceTier": "standard"
+      }
+    },
+    "apple:6820854853": {
+      "app_key": "apple:6820854853",
+      "name": "응앱2 - 잠금화면 원클릭 수유 수면 기록",
+      "developer": "Hanung Lee",
+      "source": "apple",
+      "kind": "app",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%9D%91%EC%95%B12-%EC%9E%A0%EA%B8%88%ED%99%94%EB%A9%B4-%EC%9B%90%ED%81%B4%EB%A6%AD-%EC%88%98%EC%9C%A0-%EC%88%98%EB%A9%B4-%EA%B8%B0%EB%A1%9D/id6820854853",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:6820854853",
+        "product_kind": "app",
+        "original_experience_ko": "스토어 소개문에 따르면, '응앱2'는 신생아 부모가 수유, 수면, 기저귀, 이유식 등의 육아 일상을 앱 실행 없이 잠금화면이나 다이나믹 아일랜드에서 원클릭으로 기록하고 가족 간 실시간으로 동기화할 수 있는 미니멀 유틸리티 앱이다. AI 해석에 따르면, 이는 바쁘고 정신없는 육아 환경에서 앱 진입 장벽을 최소화하기 위해 OS 네이티브 위젯과 실시간 데이터베이스 연동 기술을 결합하여 '입력의 마찰(Friction)'을 극단적으로 줄이는 데 핵심 경험이 맞춰져 있다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 사실: 잠금화면 원클릭 기록, 아기 사진 자동 크롭 및 다이나믹 아일랜드 표시, 이유식 캘린더, 가족 간 실시간 데이터 동기화, 구독 및 평생 이용권 인앱 결제 제공.",
+          "한계: 실시간 동기화에 사용된 백엔드 인프라(예: Firebase, Supabase 등)의 구체적 명세나 보안 처리 방식, 오프라인 모드에서의 충돌 해결 메커니즘 등은 소개문에 드러나지 않음."
+        ],
+        "valuable_elements_ko": [
+          "잠금화면/홈화면 위젯을 통한 원클릭 인풋 구조: 사용자가 앱을 켜는 단계(잠금 해제 -> 앱 아이콘 찾기 -> 로딩)를 생략하여 데이터 기록 누락을 방지하는 탁월한 모바일 UX 패턴.",
+          "공동 관리자(가족) 실시간 싱크: 복수의 사용자가 현재 대상의 상태를 실시간으로 공유하고 중복 기록을 방지하는 협업 데이터 구조.",
+          "미니멀한 정보 설계: 복잡한 대시보드 대신 타임라인과 직관적 그래프 위주로 꼭 필요한 기능만 남긴 미니멀리즘 인터페이스."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "펫위젯 - 잠금화면 1초 펫케어",
+            "core_idea_ko": "반려동물(강아지/고양이)의 사료 급여, 산책, 배변, 투약 주기를 스마트폰 잠금화면 위젯에서 터치 한 번으로 기록하고, 온가족이나 펫시터와 실시간으로 동기화하는 반려동물 케어 앱.",
+            "what_to_keep_ko": "잠금화면 원클릭 인풋 방식과 가족(공동 보호자) 간 실시간 데이터 동기화 구조를 그대로 계승하여, 바쁜 일상 속에서 반려동물 케어 기록의 번거로움을 최소화한다.",
+            "what_to_change_ko": "육아 기록 항목(수유, 기저귀)을 반려동물 전용 항목(사료 그램 수, 배변 상태, 산책 시간, 투약 및 병원 일정)으로 전면 개편하고, 펫시터 공유 전용 임시 권한 기능을 추가한다.",
+            "mobile_use_or_play_ko": "외출 후 집에 돌아와 강아지에게 사료를 주고 잠금화면 위젯의 '사료 급여' 버튼을 누르면, 햅틱 피드백과 함께 현재 시간이 즉시 기록되고 다른 가족의 스마트폰 화면에도 실시간으로 업데이트된다.",
+            "key_features_ko": [
+              "잠금화면 원클릭 펫케어 위젯",
+              "공동 보호자 및 펫시터 실시간 권한 공유",
+              "주간 산책 및 식사 패턴 그래프 통계",
+              "투약 및 예방접종 주기 푸시 알림"
+            ],
+            "solo_mvp_and_effort_ko": "Flutter 기반 크로스 플랫폼 개발. 로컬 SQLite와 Firebase Firestore를 연동하여 오프라인 캐싱 및 실시간 동기화 구현. 난이도는 보통이며, iOS WidgetKit / Android AppWidget 구현에 개발 공수의 40% 이상을 집중.",
+            "strengths_limits_ko": "장점은 명확한 타겟(반려인)과 높은 실용성. 약점은 기존 범용 육아 앱이나 종합 펫 커뮤니티 앱과의 차별화 필요성. 미확인 사항은 단기 펫시터 공유 시 보안 및 권한 제어의 복잡도."
+          },
+          {
+            "title_ko": "실버케어스탬프 - 잠금화면 원클릭 복약·혈압 기록",
+            "core_idea_ko": "만성질환을 앓는 부모님의 복약 여부와 혈압·혈당 수치를 자녀가 원격에서 모니터링하고, 부모 또는 동거 보호자가 잠금화면에서 터치 한 번으로 간편하게 기록할 수 있는 시니어 건강 관리 앱.",
+            "what_to_keep_ko": "앱 실행 단계를 없앤 위젯 중심의 즉시 기록 경험과, 멀리 떨어진 가족 구성원이 실시간으로 상태를 확인할 수 있는 동기화 모델을 계승.",
+            "what_to_change_ko": "아기 기록의 모바일 접근성을 고령층 가족 케어로 확장하여, 기록 누락이 건강 직결로 이어지는 복약 및 생체 신호 관리에 특화된 알림 및 안심 리포트 구조로 재설계.",
+            "mobile_use_or_play_ko": "아침 식사 후 부모님이 스마트폰 잠금화면의 '혈압 측정 완료' 위젯을 누르면, 자녀의 스마트폰에 '부모님 혈압 기록 완료' 푸시 알림이 전달되고 대시보드 그래프가 갱신됨.",
+            "key_features_ko": [
+              "시니어 맞춤형 대형 잠금화면 복약 위젯",
+              "원격 자녀-부모 간 실시간 안심 동기화",
+              "복약 누락 시 자동 경고 알림 시스템",
+              "주간/월간 혈압 및 혈당 변화 리포트"
+            ],
+            "solo_mvp_and_effort_ko": "React Native와 Node.js 백엔드로 구축. 고령층 부모가 직접 조작하기보다는 동거인이 주로 기록하거나 시니어가 터치하기 쉬운 고대비 UI/UX 적용에 집중. 난이도는 보통.",
+            "strengths_limits_ko": "장점은 고령화 사회의 높은 사회적 수요와 명확한 목적성. 약점은 IT 기기에 익숙하지 않은 고령층 부모의 직접 사용률이 낮을 수 있어 대리 기록자(보호자) 중심의 UX가 강요됨."
+          },
+          {
+            "title_ko": "자취스탬프 - 잠금화면 원클릭 소모품·집안일 기록",
+            "core_idea_ko": "1인 가구 및 자취생이 깜빡하기 쉬운 정수기 필터 교체, 에어컨 필터 청소, 분리수거, 생필품 주기 구매를 잠금화면 위젯에서 원터치로 갱신하고 다음 교체일을 계산해 주는 생활 유틸리티 앱.",
+            "what_to_keep_ko": "반복되는 일상을 번거로운 앱 구동 없이 홈/잠금화면에서 바로 기록하고 누적 데이터를 타임라인으로 관리하는 핵심 패턴 계승.",
+            "what_to_change_ko": "일 단위의 육아 기록 대신 '주/월 단위의 주기적 가전 소모품 및 집안일 관리'로 초점을 전환하여, 디폴트 알림 주기를 자동 산정하는 로직 추가.",
+            "mobile_use_or_play_ko": "분리수거를 마치고 스마트폰을 켜자마자 나타나는 잠금화면 위젯의 '분리수거 완료' 버튼을 누르면, 다음 예정일이 7일 뒤로 자동 갱신되며 기록 스트레스가 사라짐.",
+            "key_features_ko": [
+              "잠금화면 소모품 주기 갱신 위젯",
+              "가전별 맞춤형 교체 주기 푸시 알림",
+              "자취 하우스메이트 간 공동 집안일 분담 싱크",
+              "지출 및 소모품 이력 타임라인"
+            ],
+            "solo_mvp_and_effort_ko": "네이티브 또는 크로스플랫폼(Flutter)으로 가볍게 제작. 로컬 DB 중심으로 시작하여 룸메이트 동기화는 선택적 기능으로 분리. 구현 난이도는 낮음.",
+            "strengths_limits_ko": "장점은 개발 범위가 작고 1인 가구 타겟 진입장벽이 낮음. 약점은 주기적 기록에 대한 사용자의 지속적인 동기 부여(리텐션)가 상대적으로 약할 수 있음."
+          }
+        ],
+        "concept_comparison_ko": "세 아이디어 모두 원본의 핵심인 '잠금화면 원클릭 기록'과 '실시간 동기화'를 공유하지만 타겟과 목적이 다르다. 1번(펫위젯)은 반려동물 시장의 높은 성장성과 활발한 기록 주기에 부합하며 원본의 사용 주기와 가장 유사하다. 2번(실버케어)은 사회적 가치가 크나 시니어 타겟의 UX 진입 장벽이 존재한다. 3번(자취스탬프)은 1인 가구의 소모품 관리라는 틈새를 공략하나 기록 주기가 길어 앱 체류 시간이 짧을 수 있다. 제작 난이도는 세 아이디어 모두 유사하게 보통 수준이다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "반려동물 케어 기록 앱인 '펫위젯'은 원본 '응앱2'가 가진 '빈번한 일상 기록', '가족 간 실시간 공유', '미니멀 위젯 UI'라는 장점과 가장 완벽하게 부합하면서도, 시장 규모가 큰 반려동물 카테고리로 확장성이 뛰어나다. 모바일 플랫폼의 WidgetKit/AppWidget 기술을 검증하고 1인이 완성도 있는 MVP를 구현하기에 가장 현실적이고 매력적인 방향이다.",
+        "next_questions_ko": [
+          "잠금화면 위젯에서 터치했을 때 앱을 백그라운드에서 깨우지 않고 데이터를 서버에 싱크하는 최신 OS(iOS/Android)의 기술적 제약 사항은 무엇인가?",
+          "공동 보호자 간 실시간 동기화 시 데이터 충돌(동시 수정 등)을 방지하기 위한 최소한의 전략은 어떻게 세울 것인가?",
+          "인앱 광고 또는 구독 모델 도입 전, 사용자가 매일 앱을 열게 만드는 핵심 리텐션 루프(예: 통계 리포트, 커뮤니티 등)를 어떻게 설계할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-20T08:54:54+09:00",
+      "brief_quota_day": "2026-11-20",
+      "brief_usage": {
+        "promptTokenCount": 2111,
+        "candidatesTokenCount": 2542,
+        "totalTokenCount": 7964,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2111
+          }
+        ],
+        "thoughtsTokenCount": 3311,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:6820854853",
+        "product_kind": "app",
+        "selected_concept_title_ko": "펫위젯 - 잠금화면 1초 펫케어",
+        "project_goal_and_audience_ko": "반려동물(강아지·고양이)을 키우는 바쁜 보호자와 펫시터를 위한 모바일 앱입니다. 스마트폰 잠금화면에서 터치 한 번으로 사료 급여, 산책, 배변, 투약 등을 기록하고, 온 가족이 실시간으로 상태를 공유하여 번거로움 없이 완벽한 반려동물 일상 관리를 할 수 있도록 돕는 효용을 제공합니다.",
+        "source_relation_and_difference_ko": "원본 '응앱2'가 지닌 '잠금화면 원클릭 인풋'과 '가족 간 실시간 데이터 동기화'라는 핵심 UX를 그대로 계승합니다. 차별점으로는 기록 대상을 육아에서 반려동물 케어로 전환하고, 사료 그램 수(g) 입력, 산책 시간 측정, 펫시터 전용 임시 권한 공유 등의 반려동물 맞춤형 기능을 결합했습니다.",
+        "core_user_experience_ko": "외출 후 집에 돌아와 반려견에게 사료를 챙겨준 직후, 스마트폰 화면을 켜거나 앱을 실행할 필요 없이 잠금화면 위젯의 '사료 급여' 버튼을 누릅니다. 즉각적인 햅틱 피드백과 함께 현재 시간이 기록되며, 백그라운드 처리를 통해 다른 가족의 스마트폰 위젯과 타임라인에도 실시간으로 업데이트됩니다.",
+        "features_ko": [
+          {
+            "feature_ko": "잠금화면 원클릭 펫케어 위젯",
+            "user_action_and_behavior_ko": "잠금화면에서 위젯 버튼(사료, 산책, 배변 등)을 터치하면 앱을 열지 않고도 백그라운드에서 데이터가 기록되고 위젯 상태가 갱신됩니다. 사용자에게 즉각적인 입력 편의성을 제공합니다.",
+            "practical_implementation_ko": "Flutter 기반 개발 시, iOS WidgetKit 및 Android AppWidget을 활용해 네이티브 위젯 UI를 구현하고, App Group / Shared Preferences를 통해 백그라운드 액션 데이터를 메인 앱과 안전하게 공유."
+          },
+          {
+            "feature_ko": "공동 보호자 및 펫시터 실시간 동기화",
+            "user_action_and_behavior_ko": "가족 구성원 누구나 기록을 추가하면 다른 참여자의 기기에 실시간 반영되어 중복 급여나 누락 사고를 방지합니다. 또한 펫시터에게는 특정 기간 동안만 유효한 임시 권한을 부여할 수 있습니다.",
+            "practical_implementation_ko": "Firebase Firestore의 실시간 리스너(Snapshot Listener)를 활용하여 데이터 변경 사항을 즉시 수신하고, 사용자별 권한(Owner, Co-owner, Sitter)에 따른 문서 접근 제어 규칙(Security Rules) 적용."
+          },
+          {
+            "feature_ko": "반려동물 일상 타임라인 및 패턴 통계",
+            "user_action_and_behavior_ko": "당일 수행된 케어 항목을 타임라인 형태로 한눈에 확인하고, 주간 산책 시간 및 식사량 변화를 그래프로 조회하여 반려동물의 건강 상태를 직관적으로 파악합니다.",
+            "practical_implementation_ko": "로컬 SQLite에 저장된 기록 데이터를 날짜별로 쿼리하여 가벼운 차트 라이브러리(예: fl_chart)를 통해 시각화 렌더링."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "반려동물 프로필 설정 화면",
+            "contents_and_actions_ko": "반려동물 이름, 종, 품종, 하루 권장 사료량 등을 입력하고 등록합니다. 완료 시 메인 대시보드로 이동합니다."
+          },
+          {
+            "screen_ko": "메인 대시보드 및 타임라인 화면",
+            "contents_and_actions_ko": "오늘의 주요 케어 요약 정보, 실시간 타임라인 리스트, 빠른 수정을 위한 입력 모달 호출 버튼이 표시됩니다."
+          },
+          {
+            "screen_ko": "공유 및 설정 화면",
+            "contents_and_actions_ko": "초대 코드 생성 및 공유, 가족 멤버 리스트 관리, 펫시터 임시 권한 설정 및 만료일 관리."
+          }
+        ],
+        "implementation_approach_ko": "크로스 플랫폼 프레임워크(Flutter)를 사용하여 iOS와 Android 동시 빌드의 효율성을 확보합니다. 로컬 우선(Local-first) 아키텍처를 적용하여 네트워크가 불안정한 환경에서도 SQLite를 통해 즉시 기록하고, 이후 클라우드(Firebase Firestore)와 동기화하는 방식을 채택합니다. 위젯 연동부만 네이티브 브릿지 코드를 작성합니다.",
+        "data_and_storage_ko": [
+          "PetRecord 객체: id(UUID), pet_id(String), category(Enum: feed, walk, poop, pill), value(String/Number), timestamp(DateTime), user_id(String), memo(String). 로컬 SQLite에 즉시 기록 후 백그라운드에서 Firestore로 업로드.",
+          "PetProfile 객체: id(String), name(String), species(String), target_feed_amount(Number), updated_at(DateTime). 앱 실행 시 로컬 캐시에서 로드.",
+          "AuthToken/Session 데이터: 로컬 보안 저장소(Flutter Secure Storage)에 저장하여 자동 로그인 및 권한 유지."
+        ],
+        "mvp_scope_ko": "잠금화면 위젯을 통한 사료/산책 원클릭 기록, 기본 타임라인 리스트, Firebase 기반 2인 실시간 동기화 기능까지만 구현합니다. 푸시 알림, 상세 통계 그래프, 펫시터 임시 권한 관리 등의 부가 기능은 MVP 단계에서 제외하여 개발 공수를 최소화합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 로컬 데이터 모델 및 기본 UI 구축",
+            "deliverable_and_check_ko": "SQLite 연동, 반려동물 프로필 등록, 타임라인 리스트 화면 구현. 로컬 환경에서 CRUD가 정상 동작하는지 유닛 테스트 및 에뮬레이터 검증."
+          },
+          {
+            "stage_ko": "2단계: 잠금화면 위젯(WidgetKit/AppWidget) 연동",
+            "deliverable_and_check_ko": "iOS 및 Android 잠금화면 위젯 UI 배치 및 위젯 터치 시 로컬 DB에 데이터가 쌓이는 브릿지 로직 구현. 기기 테스트를 통한 위젯 반응 속도 확인."
+          },
+          {
+            "stage_ko": "3단계: Firebase 실시간 동기화 통합",
+            "deliverable_and_check_ko": "Firestore 연동 및 공동 보호자 초대/싱크 로직 구현. 두 대의 기기(또는 에뮬레이터와 실기기)에서 한쪽이 위젯을 눌렀을 때 다른 쪽 타임라인에 실시간 반영되는지 확인."
+          }
+        ],
+        "possible_extensions_ko": "예방접종 및 병원 방문 주기 캘린더 알림, AI 기반 배변 상태(변 사진) 분석 건강 리포트, 다중 반려동물(다견·다묘 가정) 프로필 전환 기능.",
+        "risks_and_open_decisions_ko": [
+          "잠금화면 위젯에서 앱 프로세스가 종료된 상태로 백그라운드 API 통신을 수행할 때의 OS별 배터리 최적화 및 실행 제약 리스크 -> 로컬 DB에 먼저 기록한 뒤 동기화하는 큐(Queue) 방식으로 해결 검토.",
+          "동일 시간에 여러 보호자가 동시 기록할 경우 발생하는 데이터 충돌(Conflict) 처리 정책은 추후 테스트를 통해 결정 필요."
+        ],
+        "draft_status_ko": "본 문서는 실제 모바일 앱 빌드, 기기 간 실시간 동기화 테스트, 사용자 플레이테스트가 완료되지 않은 1인 개발용 기획 설계 초안입니다."
+      },
+      "plan_at": "2026-11-20T08:55:16+09:00",
+      "plan_quota_day": "2026-11-20",
+      "plan_usage": {
+        "promptTokenCount": 2964,
+        "candidatesTokenCount": 1926,
+        "totalTokenCount": 6893,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2964
+          }
+        ],
+        "thoughtsTokenCount": 2003,
+        "serviceTier": "standard"
+      }
     }
   }
 }

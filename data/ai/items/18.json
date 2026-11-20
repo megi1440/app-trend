@@ -11458,6 +11458,183 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-19"
+    },
+    "apple:760006888": {
+      "app_key": "apple:760006888",
+      "name": "KollusPlayer",
+      "developer": "Catenoid, Inc.",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://apps.apple.com/kr/app/kollusplayer/id760006888?uo=2",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:53:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "KollusPlayer는 Kollus 서비스의 암호화된 컨텐츠를 재생하기 위한 전용 동영상 플레이어입니다. [부가기능] 배속조절: x0.5~x2.0 (iPhone4 x1.2배속) 이어보기 [지원단말] iPhone4s, iPhone5, iPhone5c, iPhone5s, iPhone6, iPhone6 Plus, iPhone6s, iPhone6s Plus, iPhoneSE, iPhone7, iPhone7 Plus, iPhone 8, iPhone 8 Plus, iPhone X iPad2, iPad3, iPad Retina, iPad Air, iPad Air 2, iPad mini, iPad mini 2, iPad mini 3, iPad mini 4, iPad Pro",
+      "analysis": {
+        "app_key": "apple:760006888",
+        "summary_ko": "KollusPlayer는 Kollus 서비스에서 제공하는 암호화된 동영상 콘텐츠를 재생하기 위한 전용 플레이어입니다. 사용자는 이 앱을 통해 보안이 적용된 강의나 영상을 시청할 수 있습니다. 배속 재생 및 이어보기 기능을 지원하여 학습 효율을 높여줍니다.",
+        "features_ko": [
+          "암호화된 Kollus 서비스 콘텐츠를 재생할 수 있습니다.",
+          "0.5배속에서 2.0배속까지 영상 재생 속도를 조절할 수 있습니다.",
+          "이전에 시청하던 지점부터 영상을 다시 재생하는 이어보기 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "특정 서비스의 DRM(디지털 저작권 관리) 콘텐츠를 재생하기 위한 전용 뷰어라는 점이 특징입니다. 범용 플레이어와 달리 보안 환경에 특화된 구조를 갖추고 있을 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 암호화된 스트리밍 데이터를 복호화하여 재생하는 미디어 엔진 구현입니다. 다양한 iOS 기기별 하드웨어 가속 지원이 필요하며, 보안 라이브러리 연동이 개발의 핵심입니다. 콘텐츠 보호를 위한 화면 캡처 방지 등의 보안 정책 적용이 중요합니다.",
+        "idea_ko": "특정 플랫폼에 종속되지 않는 범용적인 학습용 영상 플레이어 개발.",
+        "highlights_ko": [
+          "다양한 iOS 기기 환경을 지원하는 호환성 중심의 설계.",
+          "학습 목적에 최적화된 배속 및 이어보기 기능 제공."
+        ],
+        "systems_ko": [
+          "미디어 재생 엔진",
+          "DRM 복호화 모듈",
+          "재생 상태 저장 및 동기화 시스템",
+          "사용자 인터페이스(UI)"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "DRM 기술은 보안 표준을 준수해야 하며, 개인 개발자가 상용 서비스 수준의 암호화된 콘텐츠 재생 환경을 구축하는 것은 매우 복잡합니다. 단순 플레이어와 달리 보안 인증 및 라이선스 처리가 필수적이기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 동영상 재생 기능",
+            "배속 조절 UI",
+            "재생 지점 저장 기능"
+          ],
+          "defer": [
+            "DRM 암호화 처리",
+            "서버 연동 인증 시스템"
+          ],
+          "risks": [
+            "코덱 호환성 문제",
+            "OS 업데이트에 따른 재생 엔진 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "학습 기록 관리 플레이어",
+            "concept": "영상 시청 시간과 구간별 메모를 연동하여 학습 효율을 분석하는 플레이어입니다. 특정 구간을 반복 재생하거나 질문을 남길 수 있습니다.",
+            "first_step": "로컬 영상 파일을 불러와 재생하고, 특정 타임스탬프에 텍스트 메모를 저장하는 기능 구현."
+          },
+          {
+            "title": "집중력 향상 플레이어",
+            "concept": "시청 중 사용자의 시선을 추적하거나 일정 시간마다 퀴즈를 제시하여 집중도를 유지하게 합니다.",
+            "first_step": "전면 카메라를 활용해 사용자의 얼굴 인식 여부를 확인하는 간단한 프로토타입 제작."
+          }
+        ],
+        "recommendation_ko": "미디어 프레임워크와 보안 데이터 처리에 관심이 있다면 학습 가치가 있습니다. 다만, 상용 DRM 연동은 개인 개발 범위를 벗어나므로 일반적인 영상 처리 기술 습득을 목적으로 하는 것이 좋습니다.",
+        "source_limitations_ko": "Kollus 서비스와의 구체적인 통신 프로토콜이나 암호화 알고리즘은 공개되지 않았습니다. 외부 서비스 연동을 위한 API 정보가 부족하여 실제 구현은 불가능합니다.",
+        "name": "KollusPlayer",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/kollusplayer/id760006888?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "apple:6808981771": {
+      "app_key": "apple:6808981771",
+      "name": "창술사 키우기X : 방치형RPG",
+      "developer": "Changgon Woo",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_rpg",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%B0%BD%EC%88%A0%EC%82%AC-%ED%82%A4%EC%9A%B0%EA%B8%B0x-%EB%B0%A9%EC%B9%98%ED%98%95rpg/id6808981771?uo=2",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:53:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "창 한 자루 든 견습 창술사가 전설이 되기까지, 번개처럼 빠릅니다. ■ 역대급 성장 속도 - 켜 두기만 해도 레벨이 쭉쭉, 스테이지가 쭉쭉. - 방치형 RPG 중에서도 손꼽히게 빠른 성장감을 직접 느껴 보세요. - 접속하지 않은 동안에도 최대 12시간까지 보상이 쌓입니다. ■ 승급과 코스튬으로 완성하는 나만의 창술사 - 승급할 때마다 새로운 모습과 무기로 거듭납니다. - 다양한 코스튬으로 개성을 뽐내 보세요. ■ 화려한 스킬과 장비 - 창술사 전용 스킬을 익히고 조합해 최강의 세트를 만드세요. - 장비 소환과 강화로 전투력을 끌어올리세요. ■ 도전할 거리가 가득 - 가넷·에메랄드·사파이어 코어, 스타더스트 등 성장 재료 던전 - 월드 보스와 마왕군 토벌에서 강력한 적에 맞서세요. - 길드원과 함께 성장하고, 랭킹에서 실력을 겨뤄 보세요. ■ 손이 가볍게 - 짧게 접속해도, 오래 켜 두어도 즐거운 픽셀 아트 방치형 RPG - 출석, 시즌 패스, 이벤트 보상으로 매일 새로운 성장 ※ 이 게임은 유료 아이템(확률형 아이템 포함)을 구매할 수 있습니다.",
+      "analysis": {
+        "app_key": "apple:6808981771",
+        "summary_ko": "창술사 키우기X는 창을 사용하는 견습 창술사가 전설이 되어가는 과정을 다룬 방치형 RPG입니다. 켜두기만 해도 빠른 성장이 가능하며, 오프라인 보상 시스템을 지원합니다. 다양한 코스튬, 스킬 조합, 던전 도전 등을 통해 캐릭터를 육성할 수 있습니다.",
+        "features_ko": [
+          "방치형 게임 구조로 접속하지 않아도 최대 12시간까지 보상이 쌓입니다.",
+          "승급 시스템을 통해 캐릭터의 외형과 무기가 변화합니다.",
+          "다양한 전용 스킬을 조합하여 최적의 전투 세트를 구성합니다.",
+          "장비 소환 및 강화를 통해 전투력을 높일 수 있습니다.",
+          "던전, 월드 보스, 길드 대전 등 다양한 도전 콘텐츠를 제공합니다."
+        ],
+        "noteworthy_ko": "방치형 RPG의 핵심인 '빠른 성장감'을 어떻게 시각적으로 구현했는지가 중요합니다. 픽셀 아트 스타일과 다양한 성장 재료 던전의 구성은 방치형 장르의 표준적인 성공 요소를 잘 따르고 있습니다.",
+        "development_ko": "방치형 게임의 핵심은 오프라인 시간 계산과 보상 지급 로직입니다. 캐릭터의 능력치 계산과 장비 강화 시스템의 밸런스가 중요하며, 픽셀 아트 리소스 제작 부담이 있습니다. 서버 연동을 통한 랭킹 시스템 구현이 필요합니다.",
+        "idea_ko": "빠른 성장과 시각적 변화를 강조한 방치형 RPG.",
+        "highlights_ko": [
+          "최대 12시간 오프라인 보상 시스템.",
+          "승급에 따른 외형 변화와 다양한 스킬 조합의 재미."
+        ],
+        "systems_ko": [
+          "캐릭터 성장 및 승급 시스템",
+          "오프라인 보상 계산 로직",
+          "장비 강화 및 소환 시스템",
+          "던전 및 보스 전투 로직",
+          "랭킹 및 길드 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "방치형 RPG는 핵심 메커니즘이 정형화되어 있어 1인 개발이 가능합니다. 다만, 많은 양의 아이템과 스킬 데이터를 관리하고 밸런스를 잡는 데 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "자동 전투 시스템",
+            "캐릭터 레벨업 및 장비 강화",
+            "오프라인 보상 로직"
+          ],
+          "defer": [
+            "길드 및 랭킹 시스템",
+            "월드 보스 콘텐츠"
+          ],
+          "risks": [
+            "성장 밸런스 붕괴",
+            "콘텐츠 부족으로 인한 빠른 이탈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "방치형 대장간 키우기",
+            "concept": "캐릭터가 아닌 대장간을 키우는 방치형 게임으로, 자동으로 무기를 제작하고 판매하여 대장간을 확장합니다.",
+            "first_step": "자동으로 무기가 제작되고 골드가 쌓이는 기본 루프 구현."
+          },
+          {
+            "title": "스킬 조합 전략 RPG",
+            "concept": "성장보다는 다양한 스킬을 조합하여 강력한 적을 물리치는 퍼즐형 방치 게임입니다.",
+            "first_step": "스킬 슬롯에 스킬을 장착하고 전투에 적용하는 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 데이터 구조와 자동화 로직을 배우기에 좋습니다. RPG 장르를 선호하고 시스템 설계에 관심 있는 개발자에게 추천합니다.",
+        "source_limitations_ko": "확률형 아이템의 구체적인 로직이나 서버 측 데이터 검증 방식은 알 수 없습니다. 유료 아이템 결제 시스템에 대한 정보는 없습니다.",
+        "name": "창술사 키우기X : 방치형RPG",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%B0%BD%EC%88%A0%EC%82%AC-%ED%82%A4%EC%9A%B0%EA%B8%B0x-%EB%B0%A9%EC%B9%98%ED%98%95rpg/id6808981771?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
     }
   }
 }

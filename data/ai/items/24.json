@@ -11885,6 +11885,186 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-19"
+    },
+    "apple:430234732": {
+      "app_key": "apple:430234732",
+      "name": "Site Audit Pro",
+      "developer": "Veam Studios Ltd",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/site-audit-pro/id430234732",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:51:54+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "‘The fastest way to audit on the go’ Site Audit Pro helps thousands of businesses worldwide improve their productivity by making audits and inspections quicker to carry out and easier to manage. Whether performing a safety inspection, snagging issues, creating a punch list, or providing a quotation, Site Audit Pro will help you collate and share your findings on the go with customised Reports to add a personal and professional touch. --- FEATURES - Record Issues: Add a title, assignee, and comments to document each Issue. - Add and Annotate Images: Highlight and draw important information directly on Images to emphasise key points. - Organise Issues into Projects: Add Site and Client details specific to each Project for better organisation and clarity. - Image Details: Optionally show timestamps and GPS locations on each Image in the Report for precise documentation of when and where Issues were recorded. - Share Professional Audit Reports: Eliminate the need to return to the office by sharing a PDF or CSV via email, Dropbox, device file sharing, and more. --- CUSTOMISATIONS - Add personal details to your Reports; include Company Name, Logo, Auditor Name and Signature. - Change the content to reflect your industry. Instead of ‘Identified 12 Issues’, why not use ‘Found 12 Problems’ or ‘Examined 12 Properties’? - Choose from and customise a range of 8 professional Report designs. --- GREAT FOR - Audits - Inspections - Punch Lists - Snag Lists - Documenting various items Site Audit Pro is adaptable to a number of industries. Whenever you need to capture and report important data, choose Site Audit Pro. Download Site Audit Pro today to save time, improve productivity and make audits and inspections organised and hassle-free. --- SUBSCRIPTION Site Audit Pro Cloud is our subscription service that allows you to store your projects in the cloud and access them from the web. Whilst the subscription does give you access to some of the more advanced features and access, it is not required to use and generate Reports. The features below are what you would gain access to by subscribing, whereas the features above are what are already included in the base app. SUBSCRIPTION FEATURES 1. ACCESS PROJECTS FROM THE WEB Create, edit and share Reports from our web app. Using the website allows you to quickly type up comments using your computer keyboard as well as accessing your Projects from any browser. 2. MULTIPLE IMAGES You can show more than one Image for each Issue. This is useful for showing several angles of the same Issue, or to compare before and after Images. 3. SYNCING Sync your projects between devices. Start your project with your iPhone, type it up on an iPad, and do final editing on your PC or laptop. Reports can be generated from any location. 4. FOLDERS Organise your Projects into Folders. Name your Folders after the property, area, client, group, site or anything you want to keep organised! 5. MORE PROJECT INFORMATION Add a site address for each Project, as well as a Project photo to give the finishing touch to your Report’s cover. 6. ISSUE DUE DATES Give Issues a Due Date so your Assignees know exactly how long they have to complete any tasks required. 7. COMPLETE ISSUES Mark your Issues as completed. If all your Issues are completed, you can even mark the whole Project as completed. 8. REPORT COLOURS In addition to more themes, you can set up your own colour scheme! Use this to match your company branding or specific report types. --- *** Subscription Information *** Subscriptions will automatically renew unless cancelled within 24-hours before the end of the current period. You can cancel anytime with your Apple account settings. Any unused portion of a free trial will be forfeited if you purchase a subscription. *** Subscription Terms *** You can find the terms and conditions of the subscription here: https://www.siteauditpro.com/terms",
+      "analysis": {
+        "app_key": "apple:430234732",
+        "summary_ko": "Site Audit Pro는 현장 점검 및 감사 업무를 효율화하기 위한 비즈니스 생산성 앱입니다. 사진 촬영, 주석 달기, 보고서 생성 및 공유 기능을 통해 현장에서 즉시 업무를 처리할 수 있습니다. 다양한 산업군에 맞게 보고서 양식을 커스터마이징할 수 있는 것이 특징입니다.",
+        "features_ko": [
+          "현장 문제점을 사진으로 기록하고 제목과 담당자를 지정할 수 있습니다.",
+          "사진 위에 직접 그림을 그리거나 주석을 달아 핵심 내용을 강조할 수 있습니다.",
+          "프로젝트별로 현장 및 고객 정보를 관리하여 체계적인 정리가 가능합니다.",
+          "보고서에 타임스탬프와 GPS 위치 정보를 포함하여 정확한 기록을 남길 수 있습니다.",
+          "완성된 보고서를 PDF나 CSV 형식으로 이메일 등을 통해 즉시 공유할 수 있습니다."
+        ],
+        "noteworthy_ko": "현장 업무의 디지털 전환을 돕는 B2B 성격의 앱으로, 보고서 생성 자동화가 핵심 가치입니다. 사용자가 직접 보고서 디자인을 선택하고 기업 로고 등을 삽입할 수 있게 한 점이 사용자 경험 측면에서 매우 효과적입니다.",
+        "development_ko": "카메라 연동 및 이미지 편집 기능의 안정적인 구현이 중요합니다. 보고서 생성 시 다양한 템플릿을 지원하기 위한 데이터 구조 설계와 PDF 변환 기술이 필요합니다. 오프라인 작업 후 동기화하는 로직이 핵심입니다.",
+        "idea_ko": "특정 산업군(예: 인테리어, 시설 관리)에 특화된 점검 체크리스트 앱으로 변형하는 것이 좋습니다.",
+        "highlights_ko": [
+          "현장에서 즉시 보고서를 생성하여 사무실 복귀 없이 업무를 완료할 수 있습니다.",
+          "기업 로고, 서명 등 개인화된 보고서 양식을 지원하여 전문성을 높입니다."
+        ],
+        "systems_ko": [
+          "이미지 캡처 및 주석 편집 시스템",
+          "프로젝트 및 이슈 관리 데이터베이스",
+          "PDF 보고서 생성 엔진",
+          "데이터 동기화 및 클라우드 저장 시스템",
+          "사용자 설정 및 템플릿 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "이미지 위에 주석을 다는 기능과 이를 포함한 전문적인 PDF 보고서를 생성하는 과정은 복잡한 라이브러리 연동이 필요합니다. 또한 프로젝트 데이터의 구조적 관리와 동기화 시스템은 개인 개발자가 구현하기에 규모가 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사진 촬영 및 주석 기능",
+            "기본 PDF 보고서 생성",
+            "이메일 공유 기능"
+          ],
+          "defer": [
+            "클라우드 동기화",
+            "웹 앱 연동",
+            "다양한 보고서 테마"
+          ],
+          "risks": [
+            "이미지 처리 시 메모리 부족 문제",
+            "다양한 기기에서의 PDF 레이아웃 깨짐"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "가정용 시설 점검기",
+            "concept": "가정 내 가전이나 시설의 상태를 사진으로 기록하고 정기 점검 알림을 주는 앱입니다.",
+            "first_step": "시설별 사진을 찍고 상태를 메모로 저장하는 기능을 구현합니다."
+          },
+          {
+            "title": "현장 안전 기록장",
+            "concept": "건설 현장 등에서 안전 수칙 준수 여부를 사진으로 찍어 즉시 보고하는 앱입니다.",
+            "first_step": "사진에 날짜와 위치 정보를 자동으로 워터마크로 찍는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "현장 업무를 효율화하는 비즈니스 앱의 데이터 구조와 보고서 생성 로직을 배우기에 좋습니다. B2B 앱 개발을 고려하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "구독 서비스의 상세 결제 로직이나 클라우드 서버의 구조는 확인되지 않습니다. 웹 앱과의 연동 방식에 대한 구체적인 기술 정보는 없습니다.",
+        "name": "Site Audit Pro",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/site-audit-pro/id430234732",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "apple:6443577184": {
+      "app_key": "apple:6443577184",
+      "name": "ヴァイキングライズ",
+      "developer": "IGG SINGAPORE PTE. LTD.",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_strategy",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%83%B4%E3%82%A1%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%A9%E3%82%A4%E3%82%BA/id6443577184?uo=2",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:53:22+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "海を制し、覇者となれ。 ヴァイキング（ゔぁいきんぐ：ゔぁいらい）のリーダーとして、あなたはどのように部族を率いてミッドガルドを探索し、略奪し、征服しますか？ 北欧神話やヴァイキングの歴史に登場する有名なヒーローたちが、あなたの助けを待っています。戦略を立てて、知恵を振り絞り、彼らと協力して探索を有利に進めましょう。 この競争の激しい世界同時対戦ゲームで、あなたはどんな敵と遭遇するのでしょうか？そして、どんな友情を育むことができるでしょうか？ ヴァイライは、リアルタイムバトル戦略ゲームです。あなたはヴァイキングのリーダーとして、未知の世界「ミッドガルド」で部隊を導きます。探検、略奪、開発、狩猟、そして戦闘で、危険と希望に溢れた未開の地を駆け抜けましょう。ヴァイキングを率いて、巨万の富、名声、権力を手に入れ、この新世界でトップを目指しましょう。世界中のプレイヤーと同盟を結び、侵略してくる敵からお互いを守り、すべての敵を倒してミッドガルドを征服しましょう！ 【ゲーム紹介】ヴァイキング戦略RPG！RPGと戦略ゲームの完全融合！ ■視覚・聴覚の両方で楽しめる ヴァイライの世界へ足を踏み入れよう！広大な海やそびえ立つ山々、リアルな季節の移り変わりを体験しよう！北欧の美しい風景を背景に、英雄たちの物語に深く入り込み、ミコライ・ストロインスキー氏作曲のオリジナルサウンドトラックと共にミッドガルドの世界観に浸ろう！ ■世界同時対戦 世界中のプレイヤーに挑んだり、味方と協力して戦ったりして、強さを証明しよう！戦略・外交・戦争を用いてミッドガルドを支配し、ヴァイキング帝国を築き上げよう！ ■領地を拡大 成長する部隊を支えるため、領地を拡大しよう！周辺地域を征服して人口を増やし、土地を更に発展させよう！ 近隣の村や都市をあなたの支配下に！商業・貿易の中心地、豊富な資源に恵まれた土地、強力な軍事要塞など、どのように発展させるかはすべてあなた次第！ ヴァイキング形式の様々な建造物を用いて、あなたの領地を自由にカスタマイズしよう！ ■手に汗握る海戦 ヴァイキングを率いて未知の海を渡り、新天地を征服しよう！戦略がカギ！海を舞台に、敵に奇襲をかけて資源を略奪しよう！ 戦略的な領土をめぐる戦闘、陸を移動する敵に勝つために海を渡り、不利な状況から撤退するために船を使い、海から敵を待ち伏せよう！ 航海術と海戦術を組み合わせて、ユニークな戦略を立てて戦いに挑め！ ■リアルタイムバトル 巨大なワールドマップで、リアルタイムに敵と戦え！同盟を組み、巨大な敵軍を撃破せよ！ 陸でも海でも、リアルタイムで戦況を把握し、指揮をとらなければならない。戦略を練って、敵を壊滅させよう！ ■ヴァイキングの英雄たちと共に戦え 伝説のヴァイライヒーローを召喚して、共にバトル！ ヴァイライ・北欧神話の有名な英雄を仲間にしよう。魂の祭壇を築き、英雄を召喚して共に戦い、真のヴァイキングの支配者になろう！ ■ドラゴンを手懐けよう 北欧神話に登場する猛獣が、この地に大混乱を引き起こしている。ヒーローを派遣して猛獣を追い詰め、伝説の装備を作り、神秘的な遺跡や洞窟を探検し、隠された宝物を発見しよう！強力なドラゴンを手なずけて、戦場で強力なブーストを手に入れよう！ミッドガルドの偉大な伝説の1人となり、その名を轟かせよう！ 『ヴァイキング（ゔぁいきんぐ：ゔぁいらい）』はこんな方へおすすめ ▼戦争ゲーム（war games）を楽しみたい方 ・MMORPGやストラテジーゲーム、サバイバル、RTSが好き ・無料の戦争ゲームや戦争シミュレーションを探している ・城崩しや陣取りゲーム、三国志などの戦略を立てて戦うゲームが好き ・マルチプレイでエピックな大戦争を繰り広げたい ・WW2（World War II）などの戦争がテーマのバトルゲームが好き ・戦闘ゲームで相手の城をクラッシュ（clash）させたい ・世界中のユーザーとバトルロワイヤルがしたい ▼王（king）として振舞いたい方 ・王様になって自分だけのキングダムを作りたい ・王国（kingdom）の王者や英雄（hero）になりたい ・戦争ゲームでキングやレジェンドとして名を馳せたい ・戦うゲームでクラン（clans）やトップ、頂点を手にしたい ・戦闘で軍を集めて文明（civilization）を発展させたい ▼頭脳系ゲームが好きな方 ・戦略を武器にした防衛ゲームやディフェンスゲームが好き ・タワーディフェンスゲーム（tower defense）で戦いたい ・シミュレーションゲームで面白いゲームを探している ・TOWERやARENAを配置する建築ゲームやクラフト（craft）が好き ・剣や弓矢、大砲など兵種を駆使して戦うことが好き ・バトルシュミレーターが出来るオンラインゲームを探している ▼バトルが派手なゲームがしたい方 ・ドラゴンやモンスター、魔獣をヒーローが討伐する対戦ゲームが好き ・格闘ゲームやMMO、PVPなどド派手なバトルが見られるゲームが好き ・レベル上げが楽しい戦闘ゲームが好き ▼無料（free）の人気のゲームで遊びたい方 ・App storeでおすすめのゲームがしたい ・モバイルゲームで面白い無料ゲームを探している ===情報=== X：https://x.com/Vikingrise_jp Discord：https://discord.gg/vikingrise お問い合わせ：help.vikingrise.apple@igg.com --サブスクリプション-- ［祝福の特権］ 定期購読の商品（月間）で、価格は1600円、1か月間継続します。IGGアカウントで初めて購入する場合は1ヶ月のトライアル期間が適用されます。 このサブスクを購入すると、以下の特典を受けることができます。 1.専用装飾物。 2.[遠洋への旅]ですべての報酬を受け取ることができます。 3.専用バフ：行動力回復上限+500、研究速度+10%、建設速度+10%、訓練速度+10%、治療加速+20%、罠ポイント回復速度+30%。 4.農民探検にかかる時間が10%短縮されます。 5.魔物討伐クエストの無料更新回数が1回増えます。 6.チャットメッセージの自動翻訳 ===注意事項=== 1.サブスクの費用が確定してから、iTunesアカウントに費用が請求されます。 2.現在のサブスク期間が終了する24時間前までに、自動更新を停止しない限り、サブスクは自動で更新されます。 3.現在のサブスク期間が終了する24時間以内に、あなたのアカウントは次回のサブスクの購入と価格の確認が届きます。 4.購読後、AppleIDの設定から自動更新を停止できます。 利用規約：https://www.igg.com/member/agreement.php?lang=jp",
+      "analysis": {
+        "app_key": "apple:6443577184",
+        "summary_ko": "북유럽 신화와 바이킹 역사를 배경으로 한 실시간 전략 RPG입니다. 플레이어는 부족의 리더가 되어 영지를 확장하고, 영웅을 소환하며, 세계관 속에서 다른 플레이어와 경쟁하거나 협력합니다. 해전과 육전을 아우르는 전략적 전투와 영지 경영 요소가 결합되어 있습니다.",
+        "features_ko": [
+          "실시간으로 월드맵에서 적과 전투를 벌이는 전략 시스템을 제공합니다.",
+          "영지를 건설하고 자원을 관리하여 군사력을 강화합니다.",
+          "북유럽 신화 속 영웅들을 소환하여 부대를 지휘합니다.",
+          "해상과 육상을 넘나드는 전략적 이동 및 전투가 가능합니다.",
+          "다른 플레이어와 동맹을 맺고 대규모 전쟁에 참여할 수 있습니다."
+        ],
+        "noteworthy_ko": "RPG와 전략 시뮬레이션의 결합은 콘텐츠의 깊이를 더하지만, 개인 개발자가 구현하기에는 매우 방대한 규모입니다. 실시간 멀티플레이어 환경에서의 동기화 기술이 핵심으로 추정됩니다.",
+        "development_ko": "핵심 기술은 서버-클라이언트 간 실시간 동기화 및 대규모 데이터 관리입니다. 콘텐츠 제작 부담은 영웅, 건물, 맵 등 방대한 에셋이며, 밸런스 조정은 다수의 유닛과 스킬 간의 상성 관계를 맞추는 데 있습니다.",
+        "idea_ko": "전체 게임을 복제하기보다, 특정 영웅의 스킬을 활용한 소규모 턴제 전략 전투를 구현하는 것이 실현 가능합니다.",
+        "highlights_ko": [
+          "RPG와 전략 시뮬레이션의 융합.",
+          "해전과 육전을 포함한 다양한 전략적 전투 환경."
+        ],
+        "systems_ko": [
+          "실시간 멀티플레이어 네트워크",
+          "영지 건설 및 자원 관리 시스템",
+          "영웅 성장 및 스킬 트리",
+          "월드맵 탐색 및 전투 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "서버 기반의 실시간 멀티플레이어 전략 게임은 개인 개발자가 감당하기에 인프라와 콘텐츠 규모가 너무 크기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 영지 건설 UI",
+            "유닛 이동 및 전투 로직",
+            "데이터 저장 시스템"
+          ],
+          "defer": [
+            "실시간 멀티플레이어",
+            "방대한 영웅 및 아이템 데이터"
+          ],
+          "risks": [
+            "서버 비용 및 관리 부담",
+            "복잡한 게임 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "바이킹 영지 방어전",
+            "concept": "밀려오는 적을 막아내는 타워 디펜스 형식의 게임입니다. 영웅을 배치하여 특정 구역을 방어하는 전략에 집중합니다.",
+            "first_step": "영웅 배치 시스템과 적의 이동 경로 알고리즘을 구현합니다."
+          },
+          {
+            "title": "미드가르드 탐험가",
+            "concept": "로그라이크 방식으로 맵을 탐험하며 자원을 획득하는 게임입니다. 매번 바뀌는 맵에서 최적의 경로를 찾는 전략이 필요합니다.",
+            "first_step": "절차적 맵 생성 알고리즘을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "대규모 전략 게임의 시스템 구조를 분석하고, 그중 핵심 메커니즘을 어떻게 축소하여 구현할지 배우기에 적합합니다. 비추천 이유는 개인 개발자가 감당하기엔 규모가 너무 크기 때문입니다.",
+        "source_limitations_ko": "서버 아키텍처, 인앱 결제 시스템의 상세 구현, 실시간 동기화 방식은 확인되지 않습니다. 구독 서비스의 상세 운영 방식은 외부 링크를 통해야만 확인 가능합니다.",
+        "name": "ヴァイキングライズ",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%83%B4%E3%82%A1%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%A9%E3%82%A4%E3%82%BA/id6443577184?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
     }
   }
 }

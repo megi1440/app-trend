@@ -12150,6 +12150,452 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-19"
+    },
+    "itch:3e2ab0c77ba7f92a5c05": {
+      "app_key": "itch:3e2ab0c77ba7f92a5c05",
+      "name": "Nomad Idle 2 [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://thefoxknocks.itch.io/nomad-idle-2",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:49:01+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Idle game auto-battler where you create builds and have your party kill hordes of enemies.",
+      "analysis": {
+        "app_key": "itch:3e2ab0c77ba7f92a5c05",
+        "summary_ko": "Nomad Idle 2는 자동 전투 시스템을 기반으로 하는 방치형 게임입니다. 플레이어는 파티를 구성하고 빌드를 최적화하여 몰려오는 적들을 처치하며 성장합니다.",
+        "features_ko": [
+          "자동 전투 시스템을 통해 플레이어의 직접적인 조작 없이도 게임이 진행됩니다.",
+          "다양한 캐릭터 조합과 빌드 구성이 가능합니다.",
+          "적들의 무리를 처치하며 파티를 강화하는 성장 요소를 포함합니다."
+        ],
+        "noteworthy_ko": "빌드 구성과 자동 전투의 조합은 방치형 게임의 핵심 재미 요소입니다. 수치 밸런싱이 게임의 성패를 결정짓는 중요한 요소로 작용할 것으로 추정됩니다.",
+        "development_ko": "데이터 기반의 캐릭터 능력치 관리와 전투 시뮬레이션 로직이 핵심입니다. 방치형 게임 특성상 오프라인 보상 계산과 수치 밸런스 조정에 많은 시간이 소요됩니다. UI를 통해 복잡한 빌드 정보를 직관적으로 보여주는 것이 중요합니다.",
+        "idea_ko": "빌드 구성의 전략성을 강조한 로그라이크 방치형 게임으로 확장하는 것이 좋습니다.",
+        "highlights_ko": [
+          "전략적인 파티 빌드 구성이 게임의 핵심입니다.",
+          "방치형 게임 특유의 지속적인 성장과 보상 체계를 갖추고 있습니다."
+        ],
+        "systems_ko": [
+          "전투 시뮬레이션 엔진",
+          "데이터 관리(캐릭터/아이템)",
+          "성장 및 보상 시스템",
+          "UI/UX 대시보드"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "전투 로직 자체는 구현 가능하나, 게임의 재미를 유지하기 위한 수치 밸런싱과 데이터 설계가 까다롭습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "자동 전투 루프",
+            "캐릭터 능력치 시스템",
+            "기본 보상 획득 로직"
+          ],
+          "defer": [
+            "복잡한 스킬 트리",
+            "온라인 랭킹 시스템"
+          ],
+          "risks": [
+            "수치 밸런스 붕괴",
+            "콘텐츠 부족으로 인한 빠른 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "속성 상성 방치형",
+            "concept": "적의 속성에 따라 파티의 속성을 실시간으로 교체해야 하는 전략적 방치형 게임입니다.",
+            "first_step": "가위바위보 상성 시스템을 적용한 자동 전투를 구현합니다."
+          },
+          {
+            "title": "파티원 영입 로그라이크",
+            "concept": "전투 중 무작위로 등장하는 파티원을 영입하여 빌드를 즉석에서 완성해 나가는 방식입니다.",
+            "first_step": "전투 승리 후 3명의 캐릭터 중 하나를 선택해 파티에 추가하는 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "데이터 관리와 밸런싱의 중요성을 배우기에 최적입니다. 방치형 게임의 구조를 이해하고 수치 설계 능력을 기르고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "전투의 구체적인 계산 방식이나 캐릭터 성장 시스템의 깊이는 설명만으로 파악하기 어렵습니다.",
+        "name": "Nomad Idle 2 [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://thefoxknocks.itch.io/nomad-idle-2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 311,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 23,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "itch:8443354ad95b01a84a35": {
+      "app_key": "itch:8443354ad95b01a84a35",
+      "name": "[RELEASE] Build a AI data center! by Itsjustaskibidi and [Free]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://mewingtree.itch.io/ai-data-center-67",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:49:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Start small, Buy better GPU's, rule the world!",
+      "analysis": {
+        "app_key": "itch:8443354ad95b01a84a35",
+        "summary_ko": "Build a AI data center!는 AI 데이터 센터를 구축하고 운영하는 시뮬레이션 게임입니다. 작은 규모로 시작하여 더 좋은 GPU를 구매하며 사업을 확장해 나갑니다.",
+        "features_ko": [
+          "데이터 센터를 구축하고 운영하는 경영 시뮬레이션 요소가 있습니다.",
+          "더 나은 성능의 GPU를 구매하여 효율을 높이는 업그레이드 시스템이 있습니다."
+        ],
+        "noteworthy_ko": "최근 AI 트렌드를 반영한 경영 시뮬레이션으로, 자원 관리와 수익 모델의 밸런스가 핵심입니다. 점진적인 성장 곡선을 설계하는 것이 개발의 재미 요소입니다.",
+        "development_ko": "데이터 관리와 UI 중심의 게임으로, 수치 계산 로직이 중요합니다. GPU 성능과 수익 간의 밸런스를 맞추는 것이 핵심입니다. 복잡한 그래픽보다는 직관적인 인터페이스 구현에 집중해야 합니다.",
+        "idea_ko": "데이터 센터의 전력 소모와 냉각 시스템을 추가한 경영 시뮬레이션 구현을 추천합니다.",
+        "highlights_ko": [
+          "데이터 센터 운영 경영 시뮬레이션입니다.",
+          "GPU 업그레이드를 통한 점진적 성장을 다룹니다."
+        ],
+        "systems_ko": [
+          "자원 및 수익 관리 시스템",
+          "상점 및 업그레이드 시스템",
+          "데이터 센터 상태 UI",
+          "성장 곡선 밸런스"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "복잡한 물리나 네트워크가 필요 없으며, UI와 수치 데이터 관리 위주로 구현 가능하여 1인 개발에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 수익 발생 로직",
+            "GPU 구매 및 장착 UI",
+            "데이터 센터 현황판"
+          ],
+          "defer": [
+            "복잡한 그래픽 연출",
+            "글로벌 랭킹 시스템"
+          ],
+          "risks": [
+            "게임의 반복성으로 인한 지루함",
+            "밸런스 붕괴(수익 과다/과소)"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "데이터 센터 전력 관리",
+            "concept": "GPU 성능이 좋아질수록 전력 소모가 늘어납니다. 전력 공급과 냉각 장치를 관리하지 않으면 서버가 다운되는 전략적 요소를 추가합니다.",
+            "first_step": "전력 수치와 서버 상태 변수 구현."
+          },
+          {
+            "title": "AI 모델 학습 시뮬레이터",
+            "concept": "데이터 센터에서 특정 AI 모델을 학습시켜 수익을 얻습니다. 모델의 난이도에 따라 필요한 GPU 사양이 달라집니다.",
+            "first_step": "학습 진행도와 보상 로직 구현."
+          }
+        ],
+        "recommendation_ko": "경영 시뮬레이션의 데이터 구조와 UI 연동을 배우기에 매우 좋습니다. 1인 개발자가 시작하기에 가장 적합한 난이도입니다.",
+        "source_limitations_ko": "게임의 구체적인 수익 모델, GPU의 종류, 데이터 센터의 확장 범위 등 상세한 게임 규칙이 명시되어 있지 않습니다.",
+        "name": "[RELEASE] Build a AI data center! by Itsjustaskibidi and [Free]",
+        "source": "itch",
+        "detail_url": "https://mewingtree.itch.io/ai-data-center-67",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 290,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "google:com.blprpe.bloodpressure.peek": {
+      "app_key": "google:com.blprpe.bloodpressure.peek",
+      "name": "Blood Pressure Peek",
+      "developer": "​​Code Weaver​​",
+      "source": "google",
+      "country": "JP",
+      "category": "app_health_fitness",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.blprpe.bloodpressure.peek&hl=ja&gl=JP",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:49:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Blood Pressure Peek は、血圧の測定値を手動で記録し、保存した値が時間とともにどのように変化しているかを確認できるシンプルなツールを提供します。毎日のリマインダー作成、睡眠記録、リラックス音声の再生、歩数アクティビティの確認も1つのアプリで行えます。 主な機能 ✍ 血圧の手動記録 別の血圧計で測定した収縮期血圧と拡張期血圧を入力します。各記録に日付と時刻を保存して、後から確認できます。 📈 履歴と推移グラフ 過去のデータを確認し、分かりやすいグラフで異なる期間の記録値を比較できます。 ⏰ 毎日のリマインダー 自分のスケジュールに合わせて、服薬や水分補給のリマインダーを作成できます。 😴 睡眠記録とリラックス音声 睡眠時間を記録し、利用可能な睡眠サマリーを確認できます。就寝前の習慣として、穏やかな音楽を再生できます。 🚶 歩数記録 端末が対応するアクティビティ機能から提供される毎日の歩数を表示し、日々の移動履歴を確認できます。 重要な健康上の注意 Blood Pressure Peek は、個人の記録および一般的な参考情報のためのアプリです。血圧、血糖値、睡眠段階、その他の生理データを独自に測定する機能はなく、医療上の緊急事態には対応していません。 アプリ内に表示されるグラフ、リマインダー、睡眠情報、歩数記録、その他の内容は、医療診断や治療の推奨を意味するものではなく、資格を持つ医療専門家の助言に代わるものではありません。 測定値、症状、薬、睡眠の問題、治療計画について不安がある場合は、資格を持つ医療提供者に相談してください。緊急または生命に関わる状況では、お住まいの地域で利用できる緊急サービスに連絡してください。",
+      "analysis": {
+        "app_key": "google:com.blprpe.bloodpressure.peek",
+        "summary_ko": "혈압 수치를 수동으로 기록하고 변화를 추적하는 건강 관리 도구입니다. 혈압 외에도 수면 기록, 리듬 음악 재생, 걸음 수 확인 등 일상적인 건강 데이터를 통합 관리합니다. 의료 진단 기능은 없으며 개인의 기록 및 참고용으로 설계되었습니다.",
+        "features_ko": [
+          "수축기 및 확장기 혈압 수치를 날짜와 시간별로 수동 입력하고 저장합니다.",
+          "저장된 혈압 데이터를 기간별 그래프로 시각화하여 변화 추이를 보여줍니다.",
+          "복약 및 수분 섭취를 위한 일일 리마인더 설정 기능을 제공합니다.",
+          "수면 시간을 기록하고 요약 정보를 확인하는 기능을 포함합니다.",
+          "기기 연동을 통해 일일 걸음 수를 표시합니다.",
+          "취침 전 휴식을 돕는 음악 재생 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "다양한 건강 데이터를 한곳에 모으는 대시보드 형태의 앱입니다. 데이터 시각화와 사용자 알림 설정이 핵심이며, 의료 앱이 아님을 명시하는 면책 조항 관리가 중요합니다.",
+        "development_ko": "데이터베이스 설계와 차트 라이브러리 활용이 핵심입니다. 건강 데이터는 민감하므로 로컬 저장소 보안에 신경 써야 합니다. 다양한 기능이 포함되어 있어 각 모듈의 독립적인 테스트가 필요합니다.",
+        "idea_ko": "특정 건강 목표(예: 수분 섭취)에 집중한 미니멀한 기록 앱을 제안합니다.",
+        "highlights_ko": [
+          "혈압, 수면, 걸음 수 등 다각적인 건강 데이터 통합 관리.",
+          "의료적 진단이 아닌 개인 기록용임을 명확히 한 투명한 앱 설계."
+        ],
+        "systems_ko": [
+          "로컬 데이터베이스(SQLite 등)",
+          "데이터 시각화(차트 라이브러리)",
+          "알림 스케줄러",
+          "기기 센서 연동(걸음 수)",
+          "오디오 재생 모듈"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기능 자체는 구현 가능하나, 데이터의 정확한 시각화와 사용자 알림 시스템의 안정적인 운영이 필요합니다. 의료 관련 앱이므로 정보 제공 시 주의가 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "혈압 수치 입력 및 저장",
+            "데이터 그래프 시각화",
+            "기본 리마인더 기능"
+          ],
+          "defer": [
+            "수면 기록 및 분석",
+            "오디오 재생 기능"
+          ],
+          "risks": [
+            "데이터 보안 및 개인정보 보호",
+            "의료 정보 오인 가능성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "물 마시기 기록기",
+            "concept": "매일 마시는 물의 양을 기록하고 목표 달성 시 알림을 주는 단순한 앱입니다.",
+            "first_step": "버튼 클릭 시 수치 증가 및 로컬 저장 기능 구현."
+          },
+          {
+            "title": "건강 습관 체크리스트",
+            "concept": "운동, 식단, 수면 등 건강 습관을 체크하고 주간 리포트를 생성합니다.",
+            "first_step": "체크박스 상태 저장 및 주간 통계 계산 로직 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 관리와 시각화 기술을 배우기에 적합합니다. 실용적인 유틸리티 앱 개발을 희망하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 외부 서버 연동, 클라우드 백업, 결제 기능은 포함하지 않습니다.",
+        "name": "Blood Pressure Peek",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.blprpe.bloodpressure.peek&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 234,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "google:com.beamdog.nwnandroid": {
+      "app_key": "google:com.beamdog.nwnandroid",
+      "name": "Neverwinter Nights: Enhanced",
+      "developer": "Beamdog",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.beamdog.nwnandroid&hl=en&gl=US",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:50:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Neverwinter Nights is a classic Dungeons & Dragons RPG— enhanced for Android! Explore 100+ hours of gameplay including the original campaign, plus six free DLC adventures. Play solo or team up with friends for a grand adventure across the Forgotten Realms. Check out details on the latest update here: https://www.beamdog.com/news/android-patch-nwnee-google-play/ DEVICE RECOMMENDATION Optimized for Tablets Recommended for phones with screen sizes of 7 inches or larger CONTENT Neverwinter Nights (Classic Campaign) Shadows of Undrentide (Free DLC) Hordes of the Underdark (Free DLC) Kingmaker (Free DLC) ShadowGuard (Free DLC) Witch’s Wake (Free DLC) Adventure Pack (Free DLC) FEATURES Re-engineered UI Virtual joystick and context sensitive button makes gameplay easy UI Scales automatically or can be set to your liking Cross-Platform Multiplayer Adventure with friends! Cross-play support includes compatibility with mobile, tablets, computers and consoles Join persistent worlds, with community-run campaigns and up to 250 players Improved Graphics Pixel shaders and post-processing effects make for cleaner graphics and visuals Adjustable contrast, vibrance, and depth of field options STORY CONTENT: Neverwinter Nights (Original Campaign) You find yourself at the center of intrigue, betrayal, and dark magic in Neverwinter Nights. Journey through dangerous cities, monster filled dungeons and deep into uncharted wilderness in search of the cure for a cursed plague ravaging the city of Neverwinter. Shadows of Undrentide (Free DLC Expansion) Another adventure begins in the updated expansion, Shadows of Undrentide! Charged by your master to recover four ancient artifacts, travel from the Silver Marches to unravel mysteries of a long-dead magical civilization. Hordes of the Underdark (Free DLC Expansion) This expansion continues the adventure started in Shadows of Undrentide. Journey into the ever-more bizarre and hostile depths of Undermountain to challenge a gathering evil. Three Premium Modules (Free DLC) Discover over 40 hours of new Dungeons & Dragons adventures across the Forgotten Realms in these premium modules for Neverwinter Nights: - Kingmaker - ShadowGuard - Witch’s Wake - Adventure Pack LANGUAGES English",
+      "analysis": {
+        "app_key": "google:com.beamdog.nwnandroid",
+        "summary_ko": "이 게임은 고전 Dungeons & Dragons RPG인 Neverwinter Nights를 안드로이드 환경에 맞게 최적화한 작품입니다. 원작 캠페인과 다수의 무료 DLC를 포함하여 방대한 플레이 시간을 제공합니다. 터치 인터페이스에 최적화된 UI와 크로스 플랫폼 멀티플레이를 지원합니다.",
+        "features_ko": [
+          "원작 캠페인과 6개의 무료 DLC를 포함한 방대한 콘텐츠를 제공합니다.",
+          "가상 조이스틱과 상황별 버튼을 통해 모바일 환경에 최적화된 조작을 지원합니다.",
+          "PC, 콘솔 등 다양한 플랫폼과 크로스 플레이가 가능합니다.",
+          "커뮤니티가 운영하는 퍼시스턴트 월드에서 최대 250명과 함께 플레이할 수 있습니다.",
+          "그래픽 셰이더와 포스트 프로세싱 효과를 통해 향상된 비주얼을 제공합니다."
+        ],
+        "noteworthy_ko": "고전 PC 게임을 모바일로 이식하면서 UI와 조작 체계를 완전히 재설계한 점이 매우 흥미롭습니다. 특히 크로스 플랫폼 멀티플레이 지원은 기술적으로 높은 수준의 네트워크 동기화 구현을 시사합니다.",
+        "development_ko": "기존 엔진의 모바일 포팅과 터치 인터페이스 최적화가 핵심입니다. 방대한 텍스트와 퀘스트 데이터를 관리하는 시스템이 필요하며, 멀티플레이를 위한 서버 안정성 확보가 중요합니다. 그래픽 최적화와 다양한 화면 크기에 대응하는 UI 스케일링 기술이 필수적입니다.",
+        "idea_ko": "모바일 환경에 특화된 15분 내외의 짧은 던전 탐험 캠페인을 제작하는 것이 적합합니다.",
+        "highlights_ko": [
+          "고전 RPG의 깊이 있는 경험을 모바일에서 그대로 재현.",
+          "플랫폼을 넘나드는 크로스 플레이 지원."
+        ],
+        "systems_ko": [
+          "RPG 규칙 엔진 (D&D 기반)",
+          "터치 기반 조작 및 UI 시스템",
+          "멀티플레이 네트워크 동기화",
+          "퀘스트 및 대화 데이터 관리",
+          "그래픽 렌더링 최적화"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "방대한 RPG 시스템과 멀티플레이 동기화는 1인 개발자가 구현하기에 매우 높은 난이도입니다. 기존 엔진을 활용하지 않는다면 시스템 설계만으로도 상당한 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 캐릭터 이동 및 상호작용",
+            "간단한 전투 시스템",
+            "대화 및 퀘스트 UI"
+          ],
+          "defer": [
+            "크로스 플랫폼 멀티플레이",
+            "복잡한 그래픽 셰이더 효과"
+          ],
+          "risks": [
+            "방대한 콘텐츠 제작에 따른 개발 기간 지연",
+            "모바일 환경에서의 성능 최적화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "던전 마스터의 일기",
+            "concept": "전투보다는 대화와 선택지에 집중한 텍스트 기반 RPG입니다. 플레이어의 선택에 따라 던전의 구조와 결말이 바뀝니다.",
+            "first_step": "선택지 기반의 분기형 대화 시스템 구현."
+          },
+          {
+            "title": "모바일 턴제 전투기",
+            "concept": "복잡한 탐험을 배제하고, 턴제 전투의 전략성에만 집중한 게임입니다.",
+            "first_step": "턴제 전투 로직과 캐릭터 스킬 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "복잡한 RPG 시스템을 어떻게 모바일로 옮기는지 연구하기에 좋습니다. 다만, 1인 개발자에게는 규모가 너무 크므로 핵심 메커니즘만 추출하여 구현하는 것을 추천합니다.",
+        "source_limitations_ko": "멀티플레이 서버의 구체적인 아키텍처나 엔진의 상세 구현 방식은 소개문에서 확인할 수 없습니다.",
+        "name": "Neverwinter Nights: Enhanced",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.beamdog.nwnandroid&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 183,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "apple:6446891577": {
+      "app_key": "apple:6446891577",
+      "name": "Merge Blasters",
+      "developer": "Gimica GmbH",
+      "source": "apple",
+      "country": "US",
+      "category": "game_action",
+      "detail_url": "https://apps.apple.com/us/app/merge-blasters/id6446891577?uo=2",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:51:54+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Are you ready for the most addictive merging game around? With Merge Blasters you'll need a quick wit and an even quicker finger! Come and join the blast and see how far you can go! HOW TO PLAY • Tap the screen and shoot blocks • Merge blocks in a line with the same number • Get higher number and challenge high score",
+      "analysis": {
+        "app_key": "apple:6446891577",
+        "summary_ko": "Merge Blasters는 화면을 탭하여 블록을 쏘고 같은 숫자의 블록을 병합하여 높은 점수를 얻는 액션 퍼즐 게임입니다. 빠른 판단력과 손놀림이 요구되는 중독성 있는 게임 플레이를 제공합니다. 블록을 병합할수록 숫자가 커지며 더 높은 기록에 도전할 수 있습니다.",
+        "features_ko": [
+          "화면을 탭하여 블록을 발사하는 간단한 조작 방식을 제공합니다.",
+          "같은 숫자의 블록이 일렬로 만나면 병합되어 더 큰 숫자가 됩니다.",
+          "병합을 통해 숫자를 키우며 최고 점수를 갱신하는 것이 목표입니다.",
+          "빠른 반응 속도를 요구하는 액션 요소가 포함되어 있습니다."
+        ],
+        "noteworthy_ko": "단순한 병합 메커니즘에 슈팅 요소를 결합하여 긴장감을 높인 점이 흥미롭습니다. 물리 엔진을 활용한 블록의 움직임과 충돌 판정이 게임의 재미를 결정짓는 핵심 요소로 보입니다.",
+        "development_ko": "2D 물리 엔진을 활용한 블록의 충돌 및 병합 로직 구현이 핵심입니다. 게임의 속도감을 유지하기 위한 최적화와 점수 계산 시스템이 필요합니다. 반복적인 플레이를 유도하는 난이도 곡선 설계가 중요합니다.",
+        "idea_ko": "블록 병합에 특정 물리적 제약(중력 방향 변경 등)을 추가한 퍼즐 게임으로 발전시키는 것이 좋습니다.",
+        "highlights_ko": [
+          "탭 한 번으로 즐길 수 있는 직관적이고 빠른 게임 플레이를 제공합니다.",
+          "숫자가 커질수록 더 높은 점수를 얻는 명확한 목표를 제시합니다."
+        ],
+        "systems_ko": [
+          "2D 물리 충돌 시스템",
+          "블록 생성 및 발사 로직",
+          "병합 판정 및 점수 계산 시스템",
+          "게임 상태 관리(시작, 종료, 최고 기록)",
+          "UI 및 효과음 재생 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기본적인 물리 엔진과 충돌 판정은 게임 개발 프레임워크에서 제공하는 기능을 활용하면 구현 가능합니다. 다만, 병합 로직의 예외 처리와 게임의 밸런스를 맞추는 과정에서 세심한 테스트가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "블록 발사 및 이동 로직",
+            "충돌 시 숫자 병합 로직",
+            "점수 표시 UI"
+          ],
+          "defer": [
+            "다양한 테마 및 스킨",
+            "온라인 리더보드",
+            "복잡한 특수 효과"
+          ],
+          "risks": [
+            "블록이 겹치거나 튕겨 나가는 물리 엔진 오류",
+            "게임 후반부의 연산 부하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중력 반전 병합",
+            "concept": "화면을 탭할 때마다 중력 방향이 바뀌어 블록이 이동하는 퍼즐 게임입니다.",
+            "first_step": "블록이 중력에 따라 아래로 떨어지는 기본 물리 환경을 구현합니다."
+          },
+          {
+            "title": "색상 매칭 블래스터",
+            "concept": "숫자 대신 색상을 맞추어 블록을 제거하고 화면을 비우는 게임입니다.",
+            "first_step": "같은 색상 블록이 닿았을 때 사라지는 충돌 이벤트를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "간단한 물리 기반 게임의 프로토타입을 만들고 싶은 개발자에게 추천합니다. 충돌 판정과 객체 관리의 기초를 배우기에 적합합니다.",
+        "source_limitations_ko": "게임의 구체적인 물리 엔진 설정값이나 블록 생성 알고리즘은 확인되지 않습니다. 광고나 인앱 결제 시스템에 대한 정보는 없습니다.",
+        "name": "Merge Blasters",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/merge-blasters/id6446891577?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
     }
   }
 }

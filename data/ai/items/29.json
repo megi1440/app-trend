@@ -12313,6 +12313,188 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-19"
+    },
+    "google:com.photo.restore.scan": {
+      "app_key": "google:com.photo.restore.scan",
+      "name": "Photo Restore Scan",
+      "developer": "VIP SIGNALS",
+      "source": "google",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.photo.restore.scan&hl=en&gl=US",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:52:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Photo Restore Scan brings a home screen launcher and file management tools together on your Android device. MAKE YOUR HOME SCREEN YOUR STARTING POINT Choose Photo Restore Scan as your default home app to browse your apps, search your app list, arrange shortcuts in folders and use widgets. Swipe right from the launcher to open the file tools dashboard. FIND AND REVIEW ACCESSIBLE FILES Scan accessible shared storage for photos, videos, audio and documents. Browse results by file type, preview supported media, and use sorting and date filters to review what you find. ORGANIZE SELECTED FILES Use the recovery action to move selected, readable files into categorized folders in the Recovered directory. Open Recovered Files to review files stored there, or delete selected files you no longer need. REVIEW SCREENSHOTS AND CLEANABLE FILES Browse detected screenshots and select items to remove. Review accessible temporary files, logs and other detected cleanup items before cleaning. Available results depend on your Android version, storage permissions and accessible folders. VIEW DEVICE INFORMATION Open Device Status to review device and storage information alongside your file tools. PERMISSIONS AND LIMITATIONS File scanning and management require storage access. On supported Android versions, these features request All files access to work across accessible shared-storage folders. The home screen experience requires selecting Photo Restore Scan as your default launcher. The recovery feature works with files that still exist and can be read on your device. It does not reconstruct files that have been permanently deleted or overwritten. Moving a file changes its original location. Results depend on the files available on your device and the access Android allows. The app contains ads. An internet connection is used for advertising, app configuration and analytics services.",
+      "analysis": {
+        "app_key": "google:com.photo.restore.scan",
+        "summary_ko": "이 앱은 안드로이드 기기에서 홈 화면 런처 기능과 파일 관리 도구를 결합한 유틸리티입니다. 사용자는 기본 런처로 설정하여 앱을 관리하거나 위젯을 배치할 수 있습니다. 또한 기기 내 저장소의 사진, 영상, 문서 등을 스캔하고 정리하거나 불필요한 파일을 삭제하는 기능을 제공합니다.",
+        "features_ko": [
+          "기본 홈 화면 런처로 설정하여 앱 목록 검색 및 바로가기 폴더 구성이 가능합니다.",
+          "공유 저장소 내 사진, 영상, 오디오, 문서 파일을 스캔하여 유형별로 분류합니다.",
+          "선택한 파일을 특정 폴더로 이동하거나 삭제하는 파일 정리 기능을 제공합니다.",
+          "기기 내 스크린샷이나 임시 파일, 로그 등 정리 가능한 항목을 탐색합니다.",
+          "기기 상태 및 저장소 정보를 확인할 수 있는 대시보드를 제공합니다."
+        ],
+        "noteworthy_ko": "런처와 파일 관리라는 이질적인 기능을 결합한 점이 독특합니다. 개발 관점에서는 안드로이드의 '모든 파일 접근 권한'을 활용한 파일 시스템 탐색 로직과 런처의 기본 앱 전환 로직을 동시에 구현해야 하는 복합적인 구조로 추정됩니다.",
+        "development_ko": "핵심 기술은 안드로이드 저장소 접근 권한 관리와 파일 시스템 스캔 알고리즘입니다. 런처 구현 시 시스템 기본 앱으로 등록되는 과정과 UI 안정성 확보가 중요합니다. 파일 삭제 및 이동 시 발생할 수 있는 예외 처리와 권한 부족 상황에 대한 테스트 부담이 큽니다.",
+        "idea_ko": "특정 폴더의 파일을 자동으로 분류하여 정리해주는 '스마트 폴더 정리기'가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "런처와 파일 관리 도구의 통합 인터페이스를 제공합니다.",
+          "파일 유형 및 날짜별 필터를 통한 직관적인 파일 검토가 가능합니다."
+        ],
+        "systems_ko": [
+          "파일 시스템 스캔 및 인덱싱 엔진",
+          "안드로이드 런처 인터페이스(홈 화면)",
+          "파일 관리(이동/삭제) 로직",
+          "기기 상태 모니터링 시스템",
+          "권한 관리 및 예외 처리 모듈"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "안드로이드 버전별로 파일 접근 권한 정책이 매우 엄격하여 호환성 확보가 어렵습니다. 또한 런처 앱은 시스템 안정성과 직결되므로 예외 상황 처리에 높은 수준의 개발 숙련도가 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "저장소 파일 스캔 기능",
+            "파일 목록 표시 및 필터링 UI",
+            "파일 삭제 및 이동 기능"
+          ],
+          "defer": [
+            "홈 화면 런처 기능",
+            "위젯 지원",
+            "기기 상태 대시보드"
+          ],
+          "risks": [
+            "안드로이드 OS 버전별 권한 정책 차이",
+            "파일 삭제 시 데이터 손실 위험"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중복 파일 클리너",
+            "concept": "기기 내 동일한 해시값을 가진 사진과 파일을 찾아 삭제를 제안합니다. 용량 확보를 목적으로 사용자에게 시각적인 정리 경험을 제공합니다.",
+            "first_step": "특정 디렉토리의 파일 해시값을 계산하여 중복 여부를 리스트로 출력하는 프로토타입 제작."
+          },
+          {
+            "title": "임시 파일 자동 삭제기",
+            "concept": "캐시나 로그 파일 등 불필요한 임시 파일을 주기적으로 감지하여 알림을 보냅니다. 사용자가 버튼 하나로 간편하게 정리할 수 있게 합니다.",
+            "first_step": "안드로이드 캐시 디렉토리 접근 및 파일 크기 합산 기능 구현."
+          }
+        ],
+        "recommendation_ko": "안드로이드 파일 시스템과 권한 관리 체계를 깊이 있게 학습하고 싶은 개발자에게 추천합니다. 다만, 시스템 수준의 권한을 다루므로 보안 및 안정성 측면에서 신중한 접근이 필요합니다.",
+        "source_limitations_ko": "소개문에는 외부 서비스 연동이나 보안 기능에 대한 구체적인 기술 사양이 명시되어 있지 않습니다. 실제 파일 스캔 속도나 특정 안드로이드 버전에서의 동작 제약 사항은 확인되지 않았습니다.",
+        "name": "Photo Restore Scan",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.photo.restore.scan&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
+    },
+    "google:net.toybee.poikatsusolitaire": {
+      "app_key": "google:net.toybee.poikatsusolitaire",
+      "name": "ソリティアでポイ活！定番カードゲームでポイント獲得",
+      "developer": "Toybee Inc.",
+      "source": "google",
+      "country": "JP",
+      "category": "game_card",
+      "detail_url": "https://play.google.com/store/apps/details?id=net.toybee.poikatsusolitaire&hl=ja&gl=JP",
+      "data_date": "2026-11-20",
+      "analysed_at": "2026-11-20T07:52:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "トランプのカードを数字と色のルールに従って並べ替え、すべてのカードを揃えたらクリア！ 「ソリティアでポイ活！」は、定番のトランプゲーム「ソリティア（クロンダイク）」とポイ活を組み合わせた無料カードゲームです。 シンプルなルールで誰でも気軽に楽しめるのに、奥深い戦略性が魅力！ カードを順番に並べていく楽しさと、すべてのカードを揃えたときの爽快感がクセになります。 スキマ時間の暇つぶしはもちろん、毎日の脳トレや頭の体操にもおすすめです。 🃏【遊び方】 1．赤と黒のカードを交互に、数字が小さくなる順番で並べます 2．カードを移動させながら、隠れたカードをめくっていきます 3．同じマークのカードをAからKまで順番に揃えるとクリアです ルールは簡単でも、どのカードを動かすかが攻略のカギ！ じっくり考えてクリアを目指す、定番のクロンダイクソリティアを楽しめます。 🌟【ゲームの特徴】 ・定番のソリティア（クロンダイク）を無料で楽しめる ・シンプルな操作で誰でも気軽にプレイ ・カードを揃える爽快感と達成感 ・スキマ時間の暇つぶしや気分転換にぴったり ・頭を使いながら楽しめる脳トレカードゲーム ・遊びながらポイントを貯められる 🧠【ソリティアで楽しく脳トレ】 ソリティアは、カードの数字や色を確認しながら、次の一手を考えるトランプゲームです。 先を読んでカードを動かすことで、集中力や思考力を使いながら楽しく遊べます。 毎日のちょっとした空き時間に、気軽に頭の体操を楽しみましょう！ 🎁【ポイントについて】 獲得したアプリ内ポイントは、所定の条件を満たすことでPayPayポイント、dポイント、Pontaポイント、楽天Edy、WAON POINT、nanacoギフトなどへの交換を申請できます。 交換先、交換レート、最低交換額、受取方法はアプリ内でご確認ください。 🎮【こんな方におすすめ】 ・ソリティアやクロンダイクが好き ・トランプやカードゲームを無料で楽しみたい ・ゲームを楽しみながらポイ活を続けたい ・暇つぶしにぴったりなゲームを探している ・毎日のスキマ時間を有効に使いたい ・脳トレや頭の体操になるゲームが好き 定番のソリティアで、楽しく脳トレしながらポイ活！ カードを揃えて、毎日ちょっとお得な時間を楽しもう✨ ■注意事項 ・PayPayポイントは出金、譲渡不可です。PayPay／PayPayカード公式ストアでも利用可能です。 ・dポイントは、NTTカードソリューション株式会社が発行する電子マネーギフトサービス「ポイント@ギフト （dポイント） 」で進呈いたします。 ・「Ponta」 は、 株式会社ロイヤリティマーケティングの登録商標です。 「Pontaポイント コード」は、株式会社ロイヤリティマーケティングとの発行許諾契約により、NTTカードソリューション株式会社が発行するサービスです。 ・「EdyギフトID」は、楽天Edy株式会社との発行許諾契約により、NTTカードソリューション株式会社が発行する電子マネーギフトサービスです。 「楽天Edy（ラクテンエディ）」は、楽天グループのプリペイド型電子マネーサービスです。 「EdyギフトID」を登録することで、楽天Edyとして受け取ることができます。 ・「WAON POINT eギフト」は、イオンマーケティング株式会社が発行許諾するサービスであり、NTTカードソリューション株式会社は、その許諾に基づきサービスを提供しています。 WAON POINT eギフトは、WAON POINTへ交換することができるギフトサービスです。 詳しくはWAON POINT eギフトについて（リンク先URL：https://atgift.jp/user/item/waonpoint/）をご覧ください。 ・「nanaco（ナナコ）」と「nanacoギフト」は株式会社セブン・カードサービスの登録商標です。 「nanacoギフト」は、株式会社セブン・カードサービスとの発行許諾契約により、NTTカードソリューション株式会社が発行する電子マネーギフトサービスです。 本プログラムについてのお問い合わせは株式会社セブン・カードサービスではお受けしておりません。【カラーラインでポイ活！のサポート】までお願いいたします。 ・交換期限が過ぎたアイテムは履歴に表示されなくなります。",
+      "analysis": {
+        "app_key": "google:net.toybee.poikatsusolitaire",
+        "summary_ko": "이 게임은 고전 카드 게임인 '솔리테어(클론다이크)'를 즐기면서 포인트를 적립할 수 있는 앱입니다. 게임을 클리어하면 포인트를 획득할 수 있으며, 이를 다양한 전자 화폐나 포인트로 교환할 수 있습니다. 단순한 게임 플레이를 통해 일상 속에서 소소한 혜택을 얻는 경험을 제공합니다.",
+        "features_ko": [
+          "전통적인 클론다이크 솔리테어 규칙을 그대로 적용했습니다.",
+          "카드 이동 및 정렬을 통해 게임을 클리어하는 뇌 트레이닝 요소를 포함합니다.",
+          "게임 플레이 결과에 따라 앱 내 포인트를 지급합니다.",
+          "획득한 포인트를 외부 전자 화폐나 포인트로 교환 신청할 수 있습니다.",
+          "간단한 조작으로 스키마 시간 동안 가볍게 즐길 수 있습니다."
+        ],
+        "noteworthy_ko": "게임 플레이와 보상 시스템을 결합한 '앱테크' 모델입니다. 게임 자체의 재미보다는 보상을 얻기 위한 반복 플레이를 유도하는 구조가 개발 관점에서 흥미롭습니다.",
+        "development_ko": "솔리테어 게임 로직 구현은 비교적 명확하지만, 포인트 적립 및 교환 시스템의 부정 방지 로직이 중요합니다. 광고 수익 모델과 포인트 지급 밸런스를 맞추는 것이 핵심이며, 사용자 데이터 관리와 보안이 필요합니다.",
+        "idea_ko": "특정 미션을 달성하면 보상을 주는 '일일 퀘스트 기반 포인트 시스템'이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "고전 게임과 포인트 보상 시스템의 결합입니다.",
+          "다양한 외부 포인트 서비스와의 연동을 지원합니다."
+        ],
+        "systems_ko": [
+          "솔리테어 게임 엔진",
+          "포인트 적립 및 관리 시스템",
+          "외부 포인트 교환 API 연동",
+          "광고 노출 시스템",
+          "사용자 활동 로그 및 부정 방지 모듈"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "솔리테어 게임 로직은 구현 난이도가 낮으나, 포인트 지급과 관련된 서버 측 로직과 부정 사용 방지 시스템을 구축하는 데는 추가적인 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "솔리테어 게임 로직",
+            "포인트 적립 로직",
+            "포인트 확인 UI"
+          ],
+          "defer": [
+            "외부 포인트 교환 연동",
+            "부정 방지 시스템",
+            "고급 통계 기능"
+          ],
+          "risks": [
+            "포인트 지급 밸런스 붕괴",
+            "사용자 부정 행위(매크로 등)"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "집중력 훈련 게임",
+            "concept": "솔리테어 클리어 시간을 기록하여 사용자의 집중력을 측정합니다. 포인트 대신 랭킹 시스템을 도입하여 경쟁을 유도합니다.",
+            "first_step": "게임 클리어 시간 측정 및 로컬 데이터베이스에 기록 저장 기능 구현."
+          },
+          {
+            "title": "테마별 솔리테어",
+            "concept": "카드 디자인이나 배경을 테마별로 변경할 수 있게 합니다. 게임 플레이를 통해 테마를 해금하는 수집 요소를 추가합니다.",
+            "first_step": "카드 이미지 리소스 교체 기능 및 해금 조건 로직 구현."
+          }
+        ],
+        "recommendation_ko": "게임 로직 구현과 보상 시스템의 연동 방식을 배우고 싶은 개발자에게 추천합니다. 다만, 포인트 교환 시스템은 운영 부담이 크므로 초기에는 게임성 자체에 집중하는 것을 권장합니다.",
+        "source_limitations_ko": "소개문에는 포인트 교환의 구체적인 API 연동 방식이나 부정 방지 로직에 대한 언급이 없습니다. 실제 포인트 지급이 어떤 서버 환경에서 이루어지는지 확인되지 않았습니다.",
+        "name": "ソリティアでポイ活！定番カードゲームでポイント獲得",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=net.toybee.poikatsusolitaire&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-20"
     }
   }
 }
