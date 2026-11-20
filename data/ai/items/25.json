@@ -14452,6 +14452,453 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-20"
+    },
+    "itch:3e96d778997c2735905b": {
+      "app_key": "itch:3e96d778997c2735905b",
+      "name": "A Wizard-Chess Tournament (Demo) [Free] [Strategy] [Windows] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://maudrid.itch.io/a-wizard-chess-tournament",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:21:46+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A Wizard-Chess Tournament starts as the chess you know. Then spells start flying.",
+      "analysis": {
+        "app_key": "itch:3e96d778997c2735905b",
+        "summary_ko": "기존 체스 규칙에 마법 주문이라는 변수를 더한 전략 게임입니다. 일반적인 체스 대국 중에 마법이 발동되어 전황이 급변하는 경험을 제공합니다.",
+        "features_ko": [
+          "기본적인 체스 규칙을 기반으로 플레이합니다.",
+          "게임 중 마법 주문을 사용하여 전술을 변경합니다."
+        ],
+        "noteworthy_ko": "체스라는 고전적인 규칙에 새로운 시스템을 덧붙이는 방식은 게임 디자인적으로 매우 흥미롭습니다. 마법이 체스의 기물 이동이나 규칙을 어떻게 변형시키는지에 따라 게임의 독창성이 결정됩니다.",
+        "development_ko": "체스 엔진 구현과 마법 효과를 적용하는 이벤트 시스템의 결합이 핵심입니다. 마법 효과가 체스 규칙과 충돌하지 않도록 예외 처리를 꼼꼼히 해야 합니다. 밸런스 테스트는 마법이 체스의 전략성을 해치지 않는지 확인하는 데 집중해야 합니다.",
+        "idea_ko": "마법 주문을 카드 형태로 수집하여 대국 중에 사용하는 '마법 체스 덱 빌딩' 시스템을 추천합니다.",
+        "highlights_ko": [
+          "체스와 마법의 결합을 통한 새로운 전략성.",
+          "예측 불가능한 전황 변화."
+        ],
+        "systems_ko": [
+          "체스 규칙 엔진",
+          "마법 효과 처리 시스템",
+          "턴제 게임 상태 관리",
+          "AI 대전 로직"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "체스 엔진 자체의 구현도 복잡하며, 마법 효과가 체스 규칙에 미치는 영향을 모두 고려하여 예외 처리를 하는 것은 매우 까다롭습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 체스 이동 로직",
+            "마법 발동 시스템"
+          ],
+          "defer": [
+            "고급 AI 대전",
+            "온라인 멀티플레이어"
+          ],
+          "risks": [
+            "체스 규칙과의 밸런스 불균형",
+            "버그 발생 가능성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "마법 카드 덱 빌딩",
+            "concept": "대국 전 마법 카드를 선택하여 덱을 구성합니다. 대국 중 무작위로 마법을 뽑아 사용합니다.",
+            "first_step": "카드 데이터 구조를 만들고 마법 효과를 발동시키는 함수를 구현합니다."
+          },
+          {
+            "title": "마법 지형 타일",
+            "concept": "체스판의 특정 타일에 마법 효과가 부여됩니다. 해당 타일에 기물이 위치하면 마법이 발동됩니다.",
+            "first_step": "체스판 타일별 속성 데이터를 관리하는 배열을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "턴제 전략 게임의 규칙 설계와 시스템 구현을 배우고 싶은 개발자에게 추천합니다. 체스 엔진을 직접 구현해보는 것은 좋은 학습 경험이 됩니다.",
+        "source_limitations_ko": "마법의 종류, 발동 조건, 체스 규칙의 변형 범위 등 구체적인 게임 메커니즘이 명시되지 않아 검증이 필요합니다.",
+        "name": "A Wizard-Chess Tournament (Demo) [Free] [Strategy] [Windows] [Linux]",
+        "source": "itch",
+        "detail_url": "https://maudrid.itch.io/a-wizard-chess-tournament",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 365,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 5,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "apple:6799831780": {
+      "app_key": "apple:6799831780",
+      "name": "샷다-마운자로기록 위고비기록 에페기록 다이어리",
+      "developer": "Jaekyoung Cho",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%83%B7%EB%8B%A4-%EB%A7%88%EC%9A%B4%EC%9E%90%EB%A1%9C%EA%B8%B0%EB%A1%9D-%EC%9C%84%EA%B3%A0%EB%B9%84%EA%B8%B0%EB%A1%9D-%EC%97%90%ED%8E%98%EA%B8%B0%EB%A1%9D-%EB%8B%A4%EC%9D%B4%EC%96%B4%EB%A6%AC/id6799831780?uo=2",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:23:29+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "샷다는 GLP-1 주사(마운자로, 위고비, 에페, 삭센다)를 맞으며 체중을 관리하는 분들을 위한 기록 다이어리입니다. ■ 주사 기록과 투여일 알림 언제, 어디에, 몇 mg을 맞았는지 기록하면 다음 투여 예정일을 계산해 알림으로 알려드려요. 투여 주기는 기본 7일에서 자유롭게 조정할 수 있어 테이퍼링(감량 유지) 시기처럼 간격이 늘어나도 계속 정확하게 관리됩니다. 마운자로는 펜 사용 순서(몇 펜째)까지 함께 관리됩니다. ■ 체중 변화 한눈에 기록할 때마다 직전 대비 증감이 표시되고, 시작 체중에서 목표까지 얼마나 왔는지 달성률로 보여드려요. ■ 부작용과 컨디션 기록 메스꺼움, 변비, 피로감 같은 부작용을 약물별 항목으로 남기고 심각도를 함께 기록할 수 있어요. 몸상태·정서·식욕조절도 매일 간단히 체크할 수 있습니다. ■ 식단과 운동 음식을 검색해 칼로리와 탄단지를 기록하고, 자주 먹는 조합은 세트로 저장해 다음부터 한 번에 담을 수 있어요. GLP-1은 식욕을 크게 눌러 단백질이 모자라기 쉬운데, 체중에 맞춘 하루 단백질 목표를 함께 보여드립니다. ■ 캘린더로 돌아보기 한 달치 기록이 달력에 쌓입니다. 날짜를 누르면 그날 남긴 모든 기록을 한 카드에서 확인하고 바로 수정할 수 있어요. ■ 커뮤니티 같은 약을 쓰는 사람들과 정보를 나누고 궁금한 점을 물어볼 수 있어요. 신고·차단 기능으로 안전하게 운영됩니다. ■ 내 취향대로 귀여운 손글씨부터 담백한 고딕까지, 14가지 글꼴 중에 골라 앱 전체에 적용할 수 있어요. [중요 안내] 샷다는 이용자가 스스로 건강 정보를 기록하고 돌아보도록 돕는 도구이며, 「의료기기법」상 의료기기가 아닙니다. 앱이 제공하는 통계·그래프·알림은 참고용 정보일 뿐 의사·약사의 진단, 처방, 상담을 대체하지 않습니다. 의약품의 사용 여부와 용법·용량은 반드시 의료 전문가와 상의해 결정하시고, 투여 중 이상이 느껴지면 즉시 의료기관을 방문해주세요.",
+      "analysis": {
+        "app_key": "apple:6799831780",
+        "summary_ko": "샷다는 GLP-1 주사제를 사용하는 사용자를 위한 체중 관리 기록 다이어리 앱입니다. 투여 일정 알림, 체중 변화 기록, 부작용 및 컨디션 체크, 식단과 운동 기록 기능을 제공합니다. 커뮤니티 기능을 통해 정보를 공유할 수 있으며, 사용자의 기록을 돕는 보조 도구입니다.",
+        "features_ko": [
+          "주사 투여 일정을 기록하고 다음 투여 예정일을 알림으로 제공합니다.",
+          "체중 변화를 기록하고 목표 달성률을 시각화합니다.",
+          "약물별 부작용과 컨디션, 식욕 조절 상태를 기록할 수 있습니다.",
+          "음식 검색 및 칼로리, 탄단지 기록 기능을 제공합니다.",
+          "캘린더를 통해 한 달간의 기록을 한눈에 확인하고 수정할 수 있습니다."
+        ],
+        "noteworthy_ko": "특정 의약품 사용자를 타겟팅하여 니즈를 정확히 파악한 기록형 앱입니다. 사용자의 건강 상태를 지속적으로 기록하게 유도하는 UX 설계와 커뮤니티를 통한 리텐션 확보 전략이 흥미롭습니다.",
+        "development_ko": "사용자 데이터의 보안과 정확한 기록 관리가 핵심입니다. 알림 서비스 구현과 음식 데이터베이스 연동이 필요하며, 사용자가 꾸준히 기록할 수 있도록 돕는 직관적인 UI/UX 설계가 중요합니다.",
+        "idea_ko": "기록된 데이터를 바탕으로 체중 변화와 식단 간의 상관관계를 분석해 주는 리포트 기능을 추가하면 좋습니다.",
+        "highlights_ko": [
+          "GLP-1 주사제 사용자에 특화된 맞춤형 기록 기능.",
+          "투여 일정 관리와 부작용 체크를 결합한 건강 관리 도구."
+        ],
+        "systems_ko": [
+          "사용자 데이터 관리 및 로컬 저장소",
+          "푸시 알림 서비스 및 일정 관리",
+          "음식 데이터베이스 연동 및 영양소 계산",
+          "데이터 시각화(그래프, 달력) 시스템",
+          "커뮤니티 게시판 및 사용자 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "데이터 기록과 알림 기능은 구현 난이도가 높지 않으나, 사용자 데이터의 정확성과 보안을 유지하는 것이 중요합니다. 커뮤니티 기능은 운영 및 관리 측면에서 추가적인 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "주사 투여 기록 및 알림 기능",
+            "체중 기록 및 그래프 시각화",
+            "기본적인 식단 기록 기능"
+          ],
+          "defer": [
+            "커뮤니티 기능",
+            "고도화된 음식 데이터베이스 검색"
+          ],
+          "risks": [
+            "의료 정보 기록에 따른 보안 및 법적 책임",
+            "사용자 기록 지속성 확보의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "체중 변화 예측 리포트",
+            "concept": "현재의 체중 감소 추세를 분석하여 목표 체중 도달 예상일을 알려주는 기능입니다.",
+            "first_step": "최근 1주일간의 체중 변화율을 계산하여 예상치를 도출하는 로직을 구현합니다."
+          },
+          {
+            "title": "식단 사진 기록",
+            "concept": "식단 기록 시 사진을 함께 저장하여 시각적으로 식습관을 돌아볼 수 있게 합니다.",
+            "first_step": "카메라 접근 권한을 통해 사진을 찍고 날짜별로 저장하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "사용자의 습관을 형성하는 기록형 앱 개발을 배우기에 적합합니다. 특정 타겟의 페인 포인트를 해결하는 유틸리티 앱의 가능성을 확인하기 좋습니다.",
+        "source_limitations_ko": "소개문은 앱의 기능 위주로 설명되어 있으며, 실제 데이터베이스의 구조나 외부 API 연동 여부, 보안 정책 등에 대한 상세 정보는 없습니다.",
+        "name": "샷다-마운자로기록 위고비기록 에페기록 다이어리",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%83%B7%EB%8B%A4-%EB%A7%88%EC%9A%B4%EC%9E%90%EB%A1%9C%EA%B8%B0%EB%A1%9D-%EC%9C%84%EA%B3%A0%EB%B9%84%EA%B8%B0%EB%A1%9D-%EC%97%90%ED%8E%98%EA%B8%B0%EB%A1%9D-%EB%8B%A4%EC%9D%B4%EC%96%B4%EB%A6%AC/id6799831780?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 204,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 12,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "google:com.pirateadventurecrew.googlelb": {
+      "app_key": "google:com.pirateadventurecrew.googlelb",
+      "name": "해적 모험단",
+      "developer": "Guozhong Internet Technology Co., Ltd",
+      "source": "google",
+      "country": "KR",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.pirateadventurecrew.googlelb&hl=ko&gl=KR",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:27:42+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "차원이 다른 해양 어드벤처 RPG, 전격 출시! ✨ 🏴‍☠️ 자유도 200% 해적 라이프의 시작! 돛을 올리고 바다로! 치열한 함선 전투, 미지의 보물 탐험, 최강 길드 결성까지. 당신이 꿈꾸던 대항해 시대가 눈앞에 펼쳐집니다! 🌊 🔥 아드레날린 폭발! 짜릿한 PVP 배틀 ⚔️ 지금껏 본 적 없는 손맛 있는 PVP! 1vs1 일기토부터 선원 난투, 서버 최강을 가리는 정상결전까지💥. 단순한 전투력 싸움은 그만! 타이밍과 지형지물을 활용한 전략적 컨트롤, 쏟아지는 포격과 백병전의 쾌감을 느껴보세요! 승리자에게 주어지는 한정판 외형과 명예, 바다의 패왕은 바로 당신입니다! 🥳 🎮 지루할 틈이 없다! 방대한 콘텐츠의 향연 🎉 현상금 사냥, 심해 레이드, 경매장, 선박 개조, 동료 영입까지 원터치로 즐기세요🔱. 하드코어한 개척 전투를 원하시나요? 아니면 낚시와 보물찾기, 나만의 섬 꾸미기를 즐기는 힐링을 원하시나요?🎣 랭커를 노리는 빡겜러도, 소소하게 즐기는 '라이트 유저'도 모두 만족하는 갓겜! 매일매일 새로운 즐거움이 기다립니다✨ 🌍 무한 자유 탐험, 바다 전체가 보물창고 🗺️ 탐험가들의 로망 실현! 광활한 오픈 필드, 신비로운 무인도, 난파선 유적, 해저 동굴을 마음껏 누비세요🌴. 정해진 루트는 없습니다. 보물지도 한 장 들고 떠나는 모험, 랜덤 인카운터와 숨겨진 히든 보물상자의 설렘🎁. 맑은 날, 안개, 폭풍우가 시시각각 변하는 리얼한 날씨 속에서 모험의 참맛을 느껴보세요🚢 🤝 함께라서 더 강하다! 끈끈한 길드 시스템 💪 혼자 하는 항해는 외롭잖아요? 길드라는 가족을 만드세요🥰. 동료들과 기지를 건설하고, 자원을 공유하고, 파티 레이드에 도전하세요! 길드전과 서버 대항전의 뜨거운 열기🔥. 협동할수록 강력해지는 버프는 기본, 생사고락을 함께하는 전우애와 영광을 쟁취하세요! 🌟 지금 바로 다운로드하고, 위대한 모험을 시작하세요!~~",
+      "analysis": {
+        "app_key": "google:com.pirateadventurecrew.googlelb",
+        "summary_ko": "해적 모험단은 바다를 배경으로 한 오픈 월드 RPG로, 함선 전투와 보물 탐험, 길드 활동을 즐길 수 있습니다. 플레이어는 자신만의 함선을 개조하고 동료를 영입하여 광활한 바다를 탐험합니다. PVP 배틀과 다양한 해양 콘텐츠를 통해 바다의 패왕이 되는 것을 목표로 합니다.",
+        "features_ko": [
+          "함선 전투, 보물 탐험, 길드 결성 등 다양한 해양 어드벤처 콘텐츠를 제공합니다.",
+          "1vs1 일기토부터 서버 대항전까지 전략적 컨트롤이 필요한 PVP 배틀을 지원합니다.",
+          "현상금 사냥, 심해 레이드, 낚시 등 방대한 부가 콘텐츠를 포함합니다.",
+          "광활한 오픈 필드에서 날씨 변화와 랜덤 인카운터를 경험하며 탐험합니다.",
+          "길드 기지 건설, 자원 공유, 파티 레이드 등 협동 시스템을 지원합니다."
+        ],
+        "noteworthy_ko": "해양 어드벤처와 RPG 요소를 결합하여 자유도 높은 탐험과 전략적 전투를 동시에 제공하는 점이 흥미롭습니다. 날씨 변화와 같은 환경적 요소가 탐험의 몰입감을 높이는 구조로 추정됩니다.",
+        "development_ko": "오픈 월드 항해 시스템과 함선 전투의 물리적 판정이 핵심 기술입니다. 다양한 콘텐츠를 유지하기 위한 데이터 관리와 PVP 밸런스 조정이 큰 부담이 될 것입니다. 길드 시스템과 같은 멀티플레이어 환경 구축을 위해 안정적인 서버 운영이 필수적입니다.",
+        "idea_ko": "플레이어가 직접 보물지도를 제작하여 다른 플레이어에게 공유하고, 이를 찾아가는 탐험 퀘스트 시스템을 도입하는 것이 좋습니다.",
+        "highlights_ko": [
+          "지형지물과 타이밍을 활용한 전략적 PVP 전투 시스템.",
+          "날씨 변화가 반영된 광활한 오픈 월드 탐험 경험."
+        ],
+        "systems_ko": [
+          "함선 항해 및 물리 제어 시스템",
+          "PVP 전투 판정 및 밸런스 시스템",
+          "오픈 월드 맵 데이터 및 날씨 관리 시스템",
+          "길드 및 파티 매칭 시스템",
+          "아이템 및 보상 데이터베이스 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "오픈 월드 RPG는 구현해야 할 콘텐츠의 양이 방대하고, 함선 전투와 같은 복합적인 메커니즘을 1인이 모두 완성하기에는 기술적, 시간적 부담이 매우 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 항해 및 이동 시스템",
+            "함선 전투 메커니즘",
+            "간단한 퀘스트 및 보상 시스템"
+          ],
+          "defer": [
+            "길드전 및 서버 대항전",
+            "복잡한 심해 레이드",
+            "경매장 시스템"
+          ],
+          "risks": [
+            "콘텐츠 개발 속도와 밸런스 유지의 어려움",
+            "멀티플레이어 환경에서의 서버 부하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "보물지도 제작자",
+            "concept": "플레이어가 직접 보물을 숨길 장소를 정하고 힌트를 작성하여 다른 플레이어에게 도전장을 내미는 시스템입니다.",
+            "first_step": "맵 상의 좌표를 저장하고 힌트 텍스트를 공유하는 기능 구현."
+          },
+          {
+            "title": "함선 커스텀 레이스",
+            "concept": "자신만의 함선을 개조하여 정해진 항로를 가장 빠르게 통과하는 레이싱 모드입니다.",
+            "first_step": "함선의 속도와 회전력을 조절하는 파츠 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "방대한 오픈 월드 RPG의 구조를 설계하고 구현하는 경험을 쌓기에 좋습니다. 다만, 1인 개발 시에는 범위를 대폭 축소하여 핵심 재미 요소에 집중하는 전략이 필요합니다.",
+        "source_limitations_ko": "소개문에는 서버 인프라, 구체적인 전투 판정 로직, 결제 시스템, 보안 관련 정보가 명시되어 있지 않습니다. 실제 게임의 날씨 변화가 게임 플레이에 미치는 영향력은 확인이 불가능합니다.",
+        "name": "해적 모험단",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.pirateadventurecrew.googlelb&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "google:com.playgendary.creamaster": {
+      "app_key": "google:com.playgendary.creamaster",
+      "name": "Perfect Cream: Cake Games",
+      "developer": "CASUAL AZUR GAMES",
+      "source": "google",
+      "country": "US",
+      "category": "game_arcade",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.playgendary.creamaster&hl=en&gl=US",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:27:42+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Perfect Cream is a cake game that combines baking cakes, cake decorating, and cake making games with levels. It belongs to the category of baking games and cream games, focusing on timing, precision, and dessert decoration. Gameplay That’s Simple but Addictive – Press & hold to apply smooth cream onto cakes, cupcakes, and pastries. – Release at the correct time to avoid mistakes in cake baking. – Add toppings and decorations to complete the dessert. – Unlock cream nozzles that change the style of decoration in this cake simulator game. – Build combos through accurate streaks in the cake master game format. Features That Keep You Playing – Hundreds of levels designed like cake making games with progressive difficulty. – Smooth and satisfying controls familiar to fans of baking games and cupcake games. – Bright visuals that highlight each dessert, typical of cake cooking games. – A variety of cream nozzles and decorations that expand cake maker games and cake decorating games. – Gameplay balance that works for both short sessions and extended bakery game sessions. Perfect Cream brings together elements of cake baking, cake cooking games, cupcake maker games, dessert games, cake wali game, and cake wala game, offering a complete cake decorating experience. ===================== COMPANY COMMUNITY: ===================== Facebook: https://www.facebook.com/AzurGamesOfficial Instagram: https://www.instagram.com/azur_games YouTube: https://www.youtube.com/AzurInteractiveGames",
+      "analysis": {
+        "app_key": "google:com.playgendary.creamaster",
+        "summary_ko": "Perfect Cream은 케이크와 디저트에 크림을 바르고 장식하는 시뮬레이션 게임입니다. 타이밍과 정밀함이 중요한 게임으로, 화면을 눌러 크림을 바르고 적절한 타이밍에 떼어내어 완성합니다. 다양한 노즐과 장식을 활용하여 케이크를 꾸미는 재미를 제공합니다.",
+        "features_ko": [
+          "화면을 길게 눌러 케이크와 디저트에 크림을 바르는 조작을 수행합니다.",
+          "적절한 타이밍에 손을 떼어 실수 없이 크림을 바르는 정밀함이 요구됩니다.",
+          "다양한 토핑과 장식을 추가하여 디저트를 완성합니다.",
+          "새로운 크림 노즐을 잠금 해제하여 장식 스타일을 변경합니다.",
+          "정확한 동작을 연속으로 수행하여 콤보를 쌓는 시스템을 갖추고 있습니다."
+        ],
+        "noteworthy_ko": "단순한 조작에 타이밍과 정밀함을 결합하여 중독성을 유도하는 구조가 흥미롭습니다. 시각적으로 만족스러운 크림 도포 효과가 게임의 핵심 재미 요소로 작용하는 것으로 추정됩니다.",
+        "development_ko": "크림이 도포되는 물리적 효과와 시각적 연출 구현이 핵심입니다. 난이도가 점진적으로 상승하는 레벨 디자인과 다양한 장식 에셋 제작이 필요합니다. 조작감이 게임의 완성도를 결정하므로 정밀한 입력 판정 구현이 중요합니다.",
+        "idea_ko": "플레이어가 직접 크림의 색상과 모양을 디자인하여 자신만의 시그니처 디저트를 만드는 커스텀 모드를 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "타이밍과 정밀함을 요구하는 중독성 있는 조작 방식.",
+          "다양한 노즐과 장식을 통한 시각적 꾸미기 요소."
+        ],
+        "systems_ko": [
+          "입력 판정 및 타이밍 시스템",
+          "크림 도포 물리 및 시각 효과 시스템",
+          "레벨 디자인 및 난이도 관리 시스템",
+          "아이템 잠금 해제 및 데이터 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 명확하고 구현 범위가 제한적이어서 1인 개발자가 완성도 높은 결과물을 만들기 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "크림 도포 조작 시스템",
+            "기본적인 레벨 구성",
+            "성공/실패 판정 로직"
+          ],
+          "defer": [
+            "복잡한 소셜 공유 기능",
+            "다양한 테마의 대규모 업데이트"
+          ],
+          "risks": [
+            "반복적인 조작으로 인한 지루함 발생",
+            "시각적 효과의 최적화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "디저트 디자인 공모전",
+            "concept": "플레이어가 디자인한 디저트를 다른 플레이어들이 평가하고 순위를 매기는 모드입니다.",
+            "first_step": "완성된 디저트의 스크린샷을 저장하고 공유하는 기능 구현."
+          },
+          {
+            "title": "크림 아트 챌린지",
+            "concept": "특정 모양을 크림으로 그려내는 미션 모드입니다. 정해진 가이드라인에 맞춰 정밀하게 크림을 짜야 합니다.",
+            "first_step": "화면 위에 가이드라인을 표시하고 입력값과 비교하는 판정 로직 구현."
+          }
+        ],
+        "recommendation_ko": "간단한 메커니즘을 활용하여 중독성 있는 게임을 만드는 방법을 배우기에 좋습니다. 조작감과 시각적 피드백의 중요성을 체감할 수 있는 좋은 사례입니다.",
+        "source_limitations_ko": "소개문에는 구체적인 물리 엔진의 종류, 레벨 디자인의 상세 로직, 결제 시스템 여부가 명시되어 있지 않습니다. 실제 게임의 콤보 시스템이 점수에 미치는 영향은 확인이 불가능합니다.",
+        "name": "Perfect Cream: Cake Games",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.playgendary.creamaster&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "apple:644223359": {
+      "app_key": "apple:644223359",
+      "name": "운전면허 PLUS - 운전면허 필기시험(2026최신판)",
+      "developer": "Adrock Advertainment",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%9A%B4%EC%A0%84%EB%A9%B4%ED%97%88-plus-%EC%9A%B4%EC%A0%84%EB%A9%B4%ED%97%88-%ED%95%84%EA%B8%B0%EC%8B%9C%ED%97%98-2026%EC%B5%9C%EC%8B%A0%ED%8C%90/id644223359",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:28:28+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "운전면허 필기시험 공부!! 아직도 책으로 준비하시나요? 이제는 운전면허필기시험 필수앱!! 운전면허 플러스와 함께 하세요. ◆ 2026년 최신 문항 반영! ◆ 도로교통공단 문제 그대로 출제! 운전면허 필기시험 100% 적중! ◆ 동네만 알려줄래? 친절한 운전면허학원 알려줄게!! ◆ 최신 도로교통공단 문제은행 실시간 업데이트 ◆ 언어(한국어/중국어/영어/베트남어)별 문제 제공 ** 적중률 100% · 합격보장 ** 도로교통공단에서 제공하는 운전면허 학과시험 문제은행의 모든 문제를 정확히 반영하였습니다. 즉, 여러분은 운전면허 학과 시험장에서 나오는 문제들을 운전면허 PLUS에서 동일하게 경험하게 될 것입니다. [주요기능안내] 1. 모의고사40제 운전면허필기 합격을 위한 최종 마무리 점검!! - 실제 운전면허 학과시험 시간과 동일하게 40문제를 풀어보고, 모의합격여부를 즉시 확인해볼 수 있는 기능 제공. - 운전면허필기 모의고사를 푸는 중간에 이미 푼 문제에 대해 답안지 기능을 통해 정답을 수정할 수 있는 기능 제공. - 각 학습자별로 유형별 정답률을 계산하여, 개인별 맞춤진단을 해주는 기능 제공. - 운전면허 필기시험 모의고사를 풀 때마다 운전면허 학원 장학금 등 다양한 경품행사에 응모하실 수 있는 기능 제공 2. 유형별 학습하기 운전면허필기시험 유형별로 취약한 부분을 집중 학습하세요. - 문장형, 안전표지형, 사진형, 일러스트형, 동영상형 등 운전면허 학과시험 유형별로 문제를 학습할 수 있는 기능 제공. - 문제풀이MODE와 속성암기MODE 로 나누어 학습할 수 있는 기능 제공. 3. 급할때 200문제 운전면허 필기시험 직전에 보면 합격률 급상승!! 모의고사 결과를 토대로 정오답률을 분석, 정답률이 낮은 문제만 추출하여 운전면허 필기 시험 전 꼭 풀어봐야 하는 200문제를 엄선했습니다. 4. 운전면허 학원 찾기 나에게 딱맞는 운전면허 학원은 어디일까? 친절한 운전면허학원은 어디일까? 운전면허플러스는 모든 운전면허 학원 정보를 상세히 분석, 제공합니다. 전국의 운전면허 학원의 위치, 평점, 기능 및 도로주행코스 등을 꼼꼼히 비교해서 나에게 적합한 운전면허 학원을 선택해보세요. 5. 복습하기 (오답노트/즐겨찾기) - 틀린 문제 위주로 다시 한번 꼼꼼히 체크할 수 있도록 오답노트 기능을 제공 - 헷갈리는 문제는 복습할 수 있도록 즐겨찾기 기능을 제공 6. 면허시험 선택 - 1종 보통/대형/특수, 2종 보통/소형/원동기 등 시험보는 문제들만 골라서 집중학습! 7. 언어 선택 - 한국어 외에도 도로교통공단에서 제공하는 모든 외국어 학과시험문제를 함께 제공 (현재 중국어/영어/베트남어/몽골어 지원) ** 기능/도로주행 가이드 ** 시험전에 이미지 트레이닝을 통해 합격확률 UP!! 전국 운전면허 필기 시험장과 운전면허 전문학원의 기능시험 안내 및 도로주행 코스를 동영상으로 만나보세요!! ** 면허시험 안내 ** 운전면허증 어떻게 취득하는지 궁금하신분 운전면허PLUS가 알려드립니다. 면허취득절차는 물론 응시자격, 시험 응시시 준비물에서 주의사항까지 도로교통공단에서 자료를 그대로 보여드립니다. [비고] '운전면허700'에서 '운전면허 플러스'로 명칭 변경 (2016.2.1) 비교를 거부합니다. 일단 사용해보세요. “운전면허 PLUS” 는 운전면허 학과 시험에 가장 빠르게 합격하는 최선의 선택입니다. [필수적 접근권한 안내] ‧ 위치 : 주변 운전면허 학원/시험장/연습장 정보 검색시 [선택적 접근권한 안내] ‧ 전화 : 운전면허 학원/시험장/연습장 전화 연결시 [고객센터] ‧ 이메일 : developer@adrock.me ‧ 연락처 : 02-599-1408",
+      "analysis": {
+        "app_key": "apple:644223359",
+        "summary_ko": "운전면허 PLUS는 운전면허 필기시험을 준비하는 사용자를 위한 학습 앱입니다. 도로교통공단의 최신 문제은행을 반영하여 모의고사와 유형별 학습 기능을 제공합니다. 오답 노트와 즐겨찾기 기능을 통해 취약점을 보완할 수 있습니다.",
+        "features_ko": [
+          "실제 시험과 동일한 40문항 모의고사를 풀고 합격 여부를 확인합니다.",
+          "문장형, 안전표지형 등 유형별로 문제를 집중 학습합니다.",
+          "정답률이 낮은 문제만 추출한 200문제 모음집을 제공합니다.",
+          "오답 노트와 즐겨찾기 기능을 통해 복습을 지원합니다.",
+          "다양한 언어(한국어, 중국어, 영어, 베트남어 등)로 문제를 제공합니다."
+        ],
+        "noteworthy_ko": "공공 데이터를 활용하여 실용적인 학습 도구를 구축한 사례입니다. 문제은행 데이터를 효율적으로 관리하고 사용자별 학습 데이터를 분석하여 맞춤형 진단을 제공하는 점이 흥미롭습니다.",
+        "development_ko": "대량의 문제 데이터를 구조화하여 저장하고 검색하는 데이터베이스 설계가 핵심입니다. 모의고사 타이머와 채점 로직 구현은 비교적 간단하지만, 다양한 유형의 미디어(이미지, 동영상)를 효율적으로 로딩하는 것이 중요합니다.",
+        "idea_ko": "사용자의 오답 패턴을 분석하여 매일 아침 취약한 유형의 문제를 3개씩 푸시로 보내주는 학습 습관 형성 앱이 적합합니다.",
+        "highlights_ko": [
+          "도로교통공단 문제은행을 100% 반영하여 실전 대비가 가능합니다.",
+          "유형별 학습 및 오답 노트 등 체계적인 학습 기능을 갖추고 있습니다."
+        ],
+        "systems_ko": [
+          "문제 데이터 관리 시스템",
+          "모의고사 타이머 및 채점 엔진",
+          "사용자 학습 진도 및 오답 데이터베이스",
+          "유형별 문제 필터링 시스템",
+          "푸시 알림 서비스"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "데이터베이스 설계와 UI 구현이 핵심이며, 복잡한 서버 로직보다는 로컬 데이터 처리 능력이 중요합니다. 1인 개발자가 충분히 구현 가능한 수준의 기능들로 구성되어 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "문제은행 데이터 로딩 및 표시",
+            "모의고사 기능",
+            "오답 노트 저장 기능"
+          ],
+          "defer": [
+            "운전면허 학원 위치 정보 연동",
+            "다국어 지원",
+            "동영상 학습 가이드"
+          ],
+          "risks": [
+            "문제 데이터의 저작권 및 업데이트 주기 관리",
+            "데이터베이스 검색 속도 최적화"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "오늘의 오답 퀴즈",
+            "concept": "사용자가 틀렸던 문제 중 가장 정답률이 낮은 문제를 매일 퀴즈 형태로 제시합니다.",
+            "first_step": "오답 데이터를 로컬 DB에 저장하고 랜덤으로 추출하여 화면에 표시하는 기능 구현."
+          },
+          {
+            "title": "운전면허 학습 챌린지",
+            "concept": "매일 정해진 분량의 문제를 풀면 포인트를 얻고 학습 현황을 시각화하는 앱입니다.",
+            "first_step": "일일 학습 목표 설정 및 달성률을 그래프로 보여주는 UI 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 기반의 학습 앱을 만들고 싶은 개발자에게 강력히 추천합니다. 데이터 구조 설계와 사용자 경험 최적화를 배우기에 매우 좋은 프로젝트입니다.",
+        "source_limitations_ko": "문제은행 데이터의 구체적인 형식이나 도로교통공단 API 연동 여부는 명시되지 않았습니다. 외부 학원 정보 연동을 위한 데이터 소스 확보 방법은 확인이 필요합니다.",
+        "name": "운전면허 PLUS - 운전면허 필기시험(2026최신판)",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%9A%B4%EC%A0%84%EB%A9%B4%ED%97%88-plus-%EC%9A%B4%EC%A0%84%EB%A9%B4%ED%97%88-%ED%95%84%EA%B8%B0%EC%8B%9C%ED%97%98-2026%EC%B5%9C%EC%8B%A0%ED%8C%90/id644223359",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 50,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
     }
   }
 }

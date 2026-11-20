@@ -12596,6 +12596,183 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-20"
+    },
+    "itch:421cff4ed8a92bbd5664": {
+      "app_key": "itch:421cff4ed8a92bbd5664",
+      "name": "The Primary [Free] [Strategy]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://campaign-margins.itch.io/the-primary",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:21:46+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Easy to second-guess a campaign. Harder to run one.",
+      "analysis": {
+        "app_key": "itch:421cff4ed8a92bbd5664",
+        "summary_ko": "선거 캠페인을 운영하는 전략 게임입니다. 캠페인 운영의 어려움과 그에 따른 의사결정의 무게를 다룹니다.",
+        "features_ko": [
+          "캠페인 운영 전략을 수립하고 실행합니다.",
+          "의사결정에 따른 결과를 확인합니다."
+        ],
+        "noteworthy_ko": "정치적 캠페인이라는 소재는 시뮬레이션 요소가 강하며, 플레이어의 선택이 결과에 미치는 영향력을 설계하는 것이 핵심입니다. 복잡한 변수를 관리하는 전략적 깊이가 중요할 것으로 추정됩니다.",
+        "development_ko": "다양한 변수를 처리하는 이벤트 시스템과 수치 기반의 시뮬레이션 엔진이 필요합니다. 밸런스 조정은 플레이어의 선택이 게임에 미치는 영향을 테스트하는 데 많은 시간이 소요될 것입니다.",
+        "idea_ko": "캠페인 자원 관리와 여론 변화를 시각화하는 대시보드 구현이 가장 효과적입니다.",
+        "highlights_ko": [
+          "캠페인 운영의 난이도를 강조한 전략적 테마.",
+          "선택과 결과의 인과관계를 다루는 게임성."
+        ],
+        "systems_ko": [
+          "이벤트 트리거 시스템",
+          "수치 시뮬레이션 엔진",
+          "자원 관리 시스템",
+          "UI 대시보드"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "전략 시뮬레이션은 수많은 변수 간의 밸런스를 맞추는 것이 매우 어렵고, 논리적 인과관계를 설계하는 데 높은 숙련도가 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "핵심 자원 관리 시스템",
+            "선택지 이벤트 시스템"
+          ],
+          "defer": [
+            "복잡한 그래픽 연출",
+            "멀티플레이어 모드"
+          ],
+          "risks": [
+            "게임의 재미 요소 부족",
+            "밸런스 붕괴로 인한 난이도 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "여론 지표 시각화",
+            "concept": "선택에 따라 실시간으로 변하는 여론 그래프를 보여줍니다. 특정 사건이 여론에 미치는 영향을 즉각적으로 확인합니다.",
+            "first_step": "데이터 변화에 따라 그래프가 갱신되는 UI 컴포넌트를 구현합니다."
+          },
+          {
+            "title": "캠페인 자금 관리",
+            "concept": "한정된 자금을 홍보, 유세, 정책 개발에 배분하는 전략 게임입니다. 자금 고갈 시 캠페인이 종료됩니다.",
+            "first_step": "자원 증감 로직과 자원 부족 시 게임 오버 조건을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "전략 시뮬레이션의 데이터 설계와 밸런스 조정을 배우고 싶은 개발자에게 추천합니다. 다만, 기획의 복잡도가 높으므로 작은 범위부터 시작해야 합니다.",
+        "source_limitations_ko": "게임의 구체적인 규칙, 승리 조건, 이벤트의 종류 등 핵심 메커니즘에 대한 정보가 전혀 없어 추가적인 기획이 필수적입니다.",
+        "name": "The Primary [Free] [Strategy]",
+        "source": "itch",
+        "detail_url": "https://campaign-margins.itch.io/the-primary",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 371,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 3,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "google:com.bestbuy.android": {
+      "app_key": "google:com.bestbuy.android",
+      "name": "Best Buy: Shop tech deals",
+      "developer": "Best Buy Co., Inc",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.bestbuy.android&hl=en&gl=US",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:28:53+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Best Buy is your solution for finding top deals on appliances, electronics and more. We’ve simplified tech shopping, with warp-speed checkout, curbside pickup, limited runs and can't-miss shopping deals. Read product reviews from previous customers, and shop for electronics, appliances, laptops and more. The Best Buy app provides everything you need to purchase your favorite electronics and appliances - all backed by the Price Match Guarantee. Access shopping deals and sales on everything from appliances to electronics. Best Buy is your ultimate place to find tech and gadget deals. Get unbeatable prices with our Price Match Guarantee*. Need assistance with your new gadgets? Shopping for top toys, gadgets, electronics, and appliances is easier with verified user ratings and reviews. Enjoy your shopping experience in-store, or shop easily from home with our app. Pick up gadgets, electronics, appliances, or other technology in-store, or opt for Curbside Pickup. Use the app to let us know you're on the way, and we'll have it ready. Deals on appliances, tech, and electronics are yours to discover with the new Best Buy Marketplace™ - The app can now also show you items sold by third-party sellers on our site and tech app. • Fanatics Fan Shop - Officially licensed sports memorabilia. • Electronics, gadgets and appliances - Top tech from Oster, Crock-Pot, Martha Stewart, Zulay Kitchen, Cuckoo, Tineco, Anker and more gadgets. • Appliances and tech for indoor, outdoor, and office spaces - New furniture like TV stands, office desks, gaming chairs, coffee tables, barstools, gazebos, and patio furniture. • Musical Instruments - Featuring guitars, drums and more. Check product reviews and shop to find the best deals on appliances, tech, and electronics! Best Buy offers the leading solution for shopping cutting-edge tech to essentials, home appliances, and today’s top electronics: • Laptops, smart TVs, gaming consoles, and more • Blenders, coffee makers, and kitchen appliances • Home security systems and smart home gadgets • Headphones, speakers, and soundbars • And much more! Check product reviews and find deals on tech & appliances: • Electronics and appliances - tech deals for anything you could need. • Deal of the Day: Find huge savings on the latest electronics. • Tech deals: Access exclusive tech deals with a My Best Buy Plus™ or My Best Buy Total™ membership. • Shopping deals: Receive real-time notifications about the top sales on appliances, gadgets, and must-have electronics. • Price Match Guarantee: Find a qualified competitor with a lower price? We’ll match it.* An unbeatable tech shopping experience with perks • 24/7 Access: Deals on gadgets, electronics and appliances are found anytime, anywhere when you shop from your device. • Augmented reality: Visualize how products will fit in your space using our AR feature before you buy. • Shopping deals and curbside convenience: Enjoy fast curbside pickup by notifying us when you're on your way and we’ll have your order ready. • Order tracking: Stay informed with real-time tracking for your orders and deliveries. Shop deals on trusted appliances • Shopping deals on major appliances for the kitchen, washers & dryers, vacuums, and more. • Appliance parts and accessories help make updating and maintaining a breeze. • Shopping deals found from popular brands in appliances. Deals on laptops and other electronics • We have the electronics you need at unbeatable prices with our Price Match Guarantee.* • Find sales on the latest tech for home appliances, auto tech, gadgets, and electronics. • Shopping deals found from major brands in electronics. Get all the details. Browse products available at stores near you. Track orders and deliveries. Scan and shop. And find nearby service options and store details — including popular shopping times. Get it all with the gotta-have app for gotta-have tech. *Limitations apply. Excludes Marketplace Products. See BestBuy.com/PMG for details.",
+      "analysis": {
+        "app_key": "google:com.bestbuy.android",
+        "summary_ko": "Best Buy 앱은 가전제품, 전자 기기 및 다양한 기술 제품을 쇼핑할 수 있는 종합 커머스 플랫폼입니다. 제품 리뷰 확인, 가격 매칭 보장, 매장 픽업 등 편리한 쇼핑 기능을 제공합니다. 증강 현실(AR) 기능을 통해 제품을 공간에 배치해 볼 수 있으며, 실시간 주문 추적을 지원합니다.",
+        "features_ko": [
+          "가전, 노트북, 게임기 등 다양한 전자 기기를 검색하고 구매할 수 있습니다.",
+          "증강 현실(AR) 기능을 사용하여 구매 전 제품이 공간에 어울리는지 미리 확인합니다.",
+          "온라인으로 주문하고 매장에서 즉시 수령하는 커브사이드 픽업 서비스를 제공합니다.",
+          "가격 매칭 보장 정책을 통해 경쟁사보다 낮은 가격으로 구매할 수 있습니다.",
+          "사용자 리뷰와 평점을 통해 제품의 신뢰도를 확인하고 구매 결정을 내릴 수 있습니다."
+        ],
+        "noteworthy_ko": "온라인 쇼핑과 오프라인 매장 경험을 결합한 옴니채널 전략이 돋보입니다. AR 기술을 커머스에 도입하여 구매 전환율을 높이려는 시도가 흥미롭습니다.",
+        "development_ko": "핵심 기술은 방대한 상품 데이터베이스 관리, 실시간 재고 연동, 그리고 결제 보안 시스템입니다. AR 기능 구현을 위한 3D 모델링 데이터 관리와 매장 픽업을 위한 위치 기반 서비스 연동이 필요합니다. 대규모 트래픽을 처리하기 위한 서버 안정성과 사용자 데이터 보호가 가장 큰 개발 부담입니다.",
+        "idea_ko": "사용자가 보유한 가전제품의 모델명을 입력하면, 해당 제품과 호환되는 액세서리를 추천하거나 유지보수 시기를 알려주는 관리 도우미 기능을 제안합니다.",
+        "highlights_ko": [
+          "AR 기술을 활용한 공간 배치 시뮬레이션으로 구매 실패를 줄입니다.",
+          "가격 매칭 보장 정책으로 가격 경쟁력을 확보했습니다."
+        ],
+        "systems_ko": [
+          "상품 검색 및 필터링 시스템",
+          "결제 및 주문 관리 시스템",
+          "위치 기반 매장 찾기 및 픽업 관리",
+          "사용자 리뷰 및 평점 관리",
+          "AR 렌더링 엔진 연동"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "커머스 앱은 결제, 보안, 재고 관리, 물류 연동 등 매우 복잡한 시스템이 유기적으로 연결되어야 하므로 1인 개발로 전체를 구현하는 것은 사실상 불가능하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 목록 및 상세 페이지",
+            "장바구니 및 결제 연동",
+            "주문 내역 관리"
+          ],
+          "defer": [
+            "증강 현실(AR) 기능",
+            "가격 매칭 보장 시스템",
+            "제3자 판매자 마켓플레이스"
+          ],
+          "risks": [
+            "결제 보안 및 개인정보 유출 위험",
+            "재고 데이터 동기화 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스마트 가전 관리자",
+            "concept": "구매한 가전제품의 보증 기간과 필터 교체 주기를 자동으로 관리해 주는 기능입니다. 교체 시기가 되면 알림을 보내고 관련 부품 구매 페이지로 연결합니다.",
+            "first_step": "제품 등록 기능과 날짜 기반 알림 로직을 구현합니다."
+          },
+          {
+            "title": "중고 거래 매칭",
+            "concept": "Best Buy에서 구매한 제품을 앱 내에서 간편하게 중고로 판매할 수 있는 기능입니다. 제품 정보를 자동으로 불러와 판매 글 작성을 돕습니다.",
+            "first_step": "구매 이력 기반의 판매 글 자동 생성 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "대규모 커머스 앱의 구조를 이해하고, 사용자 경험을 개선하기 위한 다양한 기능(AR, 픽업 등)이 어떻게 통합되는지 분석하기 좋습니다. 다만, 실제 구현 시에는 보안과 결제 시스템의 복잡성을 충분히 고려해야 합니다.",
+        "source_limitations_ko": "소개문에는 결제 게이트웨이 정보, 보안 인증 방식, 물류 시스템 연동 방식이 명시되지 않았습니다. 제3자 판매자 시스템의 구체적인 운영 방식도 확인이 어렵습니다.",
+        "name": "Best Buy: Shop tech deals",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.bestbuy.android&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 94,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
     }
   }
 }

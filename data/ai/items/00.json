@@ -12059,6 +12059,364 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-20"
+    },
+    "itch:a59bb271d51dd7540a9d": {
+      "app_key": "itch:a59bb271d51dd7540a9d",
+      "name": "DOWNSIZED [$3.00] [Survival]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://fishyyhyper.itch.io/downsized",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:22:43+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Co-op horror comedy for 1 to 4 very small people. Steal from the giants. Pay the rat.",
+      "analysis": {
+        "app_key": "itch:a59bb271d51dd7540a9d",
+        "summary_ko": "거인들의 집에서 물건을 훔치는 1~4인용 협동 공포 코미디 게임입니다. 쥐에게 대가를 지불하며 생존하는 독특한 설정을 가지고 있습니다. 친구들과 협력하여 거인에게 들키지 않고 목표를 달성하는 긴장감을 제공합니다.",
+        "features_ko": [
+          "거인의 집에서 물건을 훔치는 잠입 액션을 수행합니다.",
+          "최대 4인까지 협동 플레이를 지원합니다.",
+          "쥐에게 대가를 지불하는 독특한 상호작용이 존재합니다.",
+          "공포와 코미디가 결합된 독특한 분위기를 연출합니다."
+        ],
+        "noteworthy_ko": "거인과 작은 인간이라는 스케일 차이를 활용한 레벨 디자인이 매우 흥미롭습니다. 멀티플레이어 동기화와 AI 잠입 시스템 구현이 개발 관점에서 도전적인 과제입니다.",
+        "development_ko": "네트워크 동기화 기술과 잠입 AI 로직 구현이 핵심입니다. 맵 디자인과 물리 상호작용 제작 부담이 크며, 다인 플레이 시의 밸런스 테스트가 필수적입니다.",
+        "idea_ko": "거인의 움직임을 소리로 감지하여 시각화하는 장비를 추가하는 시스템을 제안합니다.",
+        "highlights_ko": [
+          "거인과 작은 사람이라는 대비되는 스케일이 주는 긴장감.",
+          "협동 플레이를 통한 전략적 잠입 경험."
+        ],
+        "systems_ko": [
+          "멀티플레이어 네트워크 동기화",
+          "잠입 AI 시스템",
+          "물리 기반 상호작용",
+          "아이템 인벤토리 시스템",
+          "게임 상태 및 퀘스트 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "멀티플레이어 네트워크 구현과 AI 잠입 시스템은 1인 개발자에게 매우 높은 난이도의 기술적 도전입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "플레이어 이동 및 물건 줍기",
+            "거인 AI의 기본 추적 로직",
+            "단일 맵 환경"
+          ],
+          "defer": [
+            "멀티플레이어 네트워크 기능",
+            "다양한 맵 및 아이템"
+          ],
+          "risks": [
+            "네트워크 동기화 오류 및 AI 버그"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "거인 수면 패턴",
+            "concept": "거인이 잠든 시간과 깨어 있는 시간을 구분하여 잠입 난이도를 조절합니다.",
+            "first_step": "거인 AI에 상태 머신을 도입하여 수면/기상 상태를 구현합니다."
+          },
+          {
+            "title": "쥐와의 거래 시스템",
+            "concept": "훔친 물건을 쥐에게 주면 거인의 위치를 알려주는 정보를 얻습니다.",
+            "first_step": "아이템 전달 시 특정 정보를 출력하는 상호작용을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "잠입 게임과 멀티플레이어 시스템을 공부하고 싶은 개발자에게 추천합니다. 다만, 1인 개발 시에는 네트워크 기능을 제외한 싱글 플레이 버전부터 시작하는 것이 좋습니다.",
+        "source_limitations_ko": "소개문만으로는 거인 AI의 구체적인 감지 범위, 쥐와의 거래 방식, 게임의 승리 조건 등을 상세히 알 수 없습니다.",
+        "name": "DOWNSIZED [$3.00] [Survival]",
+        "source": "itch",
+        "detail_url": "https://fishyyhyper.itch.io/downsized",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 284,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 32,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "itch:aca115efdaf9a1fcba9e": {
+      "app_key": "itch:aca115efdaf9a1fcba9e",
+      "name": "TONNAGE [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://manfkl.itch.io/tonnage",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:23:04+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "An incremental game with an industrial aesthetic, in your browser.",
+      "analysis": {
+        "app_key": "itch:aca115efdaf9a1fcba9e",
+        "summary_ko": "산업적인 미학을 담은 브라우저 기반의 점진적(incremental) 게임입니다. 자원을 생산하고 효율을 높여가는 과정을 다룹니다.",
+        "features_ko": [
+          "브라우저에서 직접 실행 가능한 웹 기반 게임입니다.",
+          "산업 테마의 자원 생산 및 자동화 시스템을 제공합니다.",
+          "점진적으로 성장하는 수치와 업그레이드 요소를 포함합니다."
+        ],
+        "noteworthy_ko": "복잡한 그래픽 없이 수치와 시스템만으로 몰입감을 주는 점진적 게임의 특성을 잘 활용하고 있습니다. 산업적 테마를 UI 디자인에 어떻게 녹여냈는지가 개발 관점에서 중요한 포인트입니다.",
+        "development_ko": "수치 계산 로직과 데이터 저장 시스템이 핵심입니다. 웹 환경에 최적화된 UI 구현이 필요하며, 밸런스 조절을 위해 수치 시뮬레이션이 필수적입니다.",
+        "idea_ko": "자원 생산 효율을 극대화하는 자동화 공장 경영.",
+        "highlights_ko": [
+          "산업적 분위기의 미니멀한 UI.",
+          "점진적 성장의 재미를 극대화한 시스템."
+        ],
+        "systems_ko": [
+          "수치 연산 및 데이터 관리",
+          "자동화 생산 로직",
+          "업그레이드 트리 시스템",
+          "웹 저장소(LocalStorage) 연동"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "그래픽 리소스 부담이 적고 로직 중심의 개발이므로 1인 개발자가 시작하기에 매우 좋습니다. 웹 기술을 활용하여 접근성을 높이기 용이합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "자원 클릭 생산",
+            "기본 업그레이드 상점",
+            "수치 저장 기능"
+          ],
+          "defer": [
+            "복잡한 그래픽 애니메이션",
+            "멀티플레이어 요소"
+          ],
+          "risks": [
+            "밸런스 붕괴로 인한 재미 저하",
+            "단순 반복 작업의 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "우주 정거장 건설",
+            "concept": "우주에서 자원을 채굴하여 정거장을 확장하는 게임입니다. 산업적 요소에 SF 테마를 결합합니다.",
+            "first_step": "자원 채굴 버튼과 정거장 모듈 업그레이드 로직 구현."
+          },
+          {
+            "title": "데이터 센터 운영",
+            "concept": "서버를 증설하여 데이터를 처리하는 게임입니다. 냉각 시스템과 전력 관리가 핵심 변수입니다.",
+            "first_step": "데이터 생산량과 전력 소모량의 상관관계 로직 구현."
+          }
+        ],
+        "recommendation_ko": "게임의 핵심 재미를 수치와 시스템으로 구현하는 법을 배우기에 좋습니다. 웹 게임 개발의 기초를 다지고 싶은 분께 추천합니다.",
+        "source_limitations_ko": "구체적인 자원 종류, 업그레이드 항목의 깊이, 게임의 최종 목표나 엔딩 존재 여부는 확인되지 않습니다.",
+        "name": "TONNAGE [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://manfkl.itch.io/tonnage",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 275,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 35,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "apple:6787894841": {
+      "app_key": "apple:6787894841",
+      "name": "Cleaner X: Storage Cleanup",
+      "developer": "SPARK TECH LIMITED",
+      "source": "apple",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://apps.apple.com/us/app/cleaner-x-storage-cleanup/id6787894841?uo=2",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:26:25+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Running out of storage? Cleaner X helps you reclaim space—without uploading your photos to the cloud. All scans run on your device. Your personal media stays on your iPhone. Always. SMART CLEAN — ONE TAP • AI-powered Smart Clean finds duplicates, similar shots, and clutter in one tap • Best Shot keeps your sharpest photo in every group • Deep Scan runs 7 parallel scans across your entire library • Live Activity shows real-time scan progress on your Lock Screen CLEAN YOUR LIBRARY • Duplicates & Similar Photos — powered by on-device Vision AI • Screenshots, Live Photos & Screen Recordings • Short Videos & Large Files • Blurry Photos — spot low-quality shots instantly • Swipe to Clean — swipe left to delete, right to keep ORGANIZE & OPTIMIZE • Merge duplicate contacts • Remove old & duplicate calendar events • Compress videos to HEVC and save storage • Convert Live Photos to still images • Review iCloud-only assets ENCRYPTED PRIVATE VAULT • AES-GCM encrypted photo storage • Unlock with Face ID or PIN • Recovery Log tracks deletions for 30 days • Your vault files never leave this device PRIVACY FIRST • 100% on-device scanning — no cloud upload • No personal media sent to our servers • Revoke permissions anytime in Settings • Full transparency in Privacy Center PREMIUM Upgrade to Premium for: • Unlimited on-device scans • Ad-free experience • Full Vault Pro access • All organize & compress tools Download Cleaner X today and take back your storage—privately. Privacy Policy: https://mdhn.kwebwhahdcaj.com/privacypolicy.html User Terms: https://mdhn.kwebwhahdcaj.com/termsOfService.html",
+      "analysis": {
+        "app_key": "apple:6787894841",
+        "summary_ko": "Cleaner X는 기기 내 저장 공간을 확보하기 위한 사진 및 파일 정리 도구입니다. 클라우드 업로드 없이 모든 스캔과 정리가 기기 내부에서 이루어져 개인정보 보호를 우선합니다. 중복 사진, 스크린샷, 대용량 파일 등을 빠르게 찾아 삭제하여 저장 공간을 최적화합니다.",
+        "features_ko": [
+          "AI를 활용하여 중복되거나 유사한 사진을 한 번에 찾아냅니다.",
+          "가장 선명한 사진을 유지하고 나머지를 정리하는 기능을 제공합니다.",
+          "스크린샷, 라이브 포토, 화면 녹화 영상 등 불필요한 파일을 분류합니다.",
+          "연락처 및 캘린더 이벤트를 병합하거나 정리합니다.",
+          "비디오 압축 및 라이브 포토 변환을 통해 저장 공간을 확보합니다.",
+          "AES-GCM 암호화 기술을 적용한 개인 사진 보관함을 제공합니다."
+        ],
+        "noteworthy_ko": "모든 처리가 기기 내부에서 이루어진다는 점을 강조하여 개인정보 보호를 중요시하는 사용자층을 공략하고 있습니다. AI를 활용한 이미지 분석 기술이 앱의 핵심 경쟁력으로 보입니다.",
+        "development_ko": "기기 내 이미지 분석 및 파일 시스템 접근 권한 처리가 핵심입니다. AI 모델을 기기 내에서 효율적으로 구동하기 위한 최적화가 필요합니다. 사용자 데이터를 다루는 만큼 암호화 및 보안 구현에 각별한 주의가 요구됩니다.",
+        "idea_ko": "특정 파일 유형에 특화된 기기 내 정리 도구 제작이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "클라우드 업로드 없는 100% 기기 내 스캔으로 개인정보 보호.",
+          "AI 기반의 스마트한 중복 사진 및 불필요 파일 식별."
+        ],
+        "systems_ko": [
+          "파일 시스템 접근 및 관리",
+          "이미지 분석 AI 모델",
+          "데이터 암호화 시스템",
+          "사용자 인터페이스 및 스캔 진행률 표시"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "파일 시스템 접근과 기본적인 이미지 분석 로직은 구현 가능하지만, AI 모델의 정확도와 성능 최적화가 중요합니다. 보안 관련 기능 구현 시 주의가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사진 라이브러리 접근 권한",
+            "중복 사진 식별 로직",
+            "파일 삭제 기능"
+          ],
+          "defer": [
+            "암호화된 보관함",
+            "연락처 및 캘린더 정리",
+            "비디오 압축 기능"
+          ],
+          "risks": [
+            "OS 정책 변경에 따른 파일 접근 제한",
+            "AI 분석 속도 및 정확도 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스크린샷 자동 분류기",
+            "concept": "스크린샷을 내용별(메모, 결제, 정보 등)로 자동 분류하여 정리해주는 도구입니다. 필요한 정보를 빠르게 찾을 수 있게 돕습니다.",
+            "first_step": "이미지 내 텍스트 인식(OCR)을 활용한 스크린샷 분류 로직 구현."
+          },
+          {
+            "title": "파일 용량 시각화 도구",
+            "concept": "기기 내 파일 용량을 트리맵 형태로 시각화하여 어떤 파일이 공간을 많이 차지하는지 한눈에 보여줍니다.",
+            "first_step": "파일 시스템을 스캔하여 용량별로 정렬하고 시각화하는 UI 구현."
+          }
+        ],
+        "recommendation_ko": "파일 시스템 접근과 이미지 처리 기술을 배우기에 좋은 프로젝트입니다. 개인정보 보호를 중시하는 앱의 기획 방향성을 참고할 만합니다.",
+        "source_limitations_ko": "소개문에는 AI 모델의 구체적인 학습 방식이나 기기 내 처리 성능에 대한 기술적 상세 내용은 없습니다. 외부 서비스 연동 여부는 명시되지 않았습니다.",
+        "name": "Cleaner X: Storage Cleanup",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/cleaner-x-storage-cleanup/id6787894841?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "apple:6833772634": {
+      "app_key": "apple:6833772634",
+      "name": "로판 아카데미에서 살아남기",
+      "developer": "heeyoung Shin",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/kr/app/%EB%A1%9C%ED%8C%90-%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EC%97%90%EC%84%9C-%EC%82%B4%EC%95%84%EB%82%A8%EA%B8%B0/id6833772634?uo=2",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:28:06+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "평민 특별 입학 전형으로 아스텔리아 아카데미에 들어왔습니다. 낯선 수업과 새로운 친구들. 설레는 학교생활이 시작되지만, 학교 안에서 일어나는 사건들이 일상을 흔듭니다. 친구들과 세 해를 함께하며, 학교에 숨은 진실을 밝혀보세요. 내가 고르는 학교생활 한 주의 시간표를 직접 짜고, 검술과 마법, 연금술 등 여러 과목을 배우세요. 다섯 동아리 중 하나를 골라 활동하고, 쌓은 실력으로 졸업 뒤의 길을 찾아보세요. 함께 웃고 가까워지는 인연 성격이 다른 여섯 주연과 우정을 쌓고, 선택에 따라 사랑도 키워보세요. 평민 친구들과 밥을 먹고 이야기를 나누며 서로를 지켜주는 순간도 만날 수 있습니다. 인연 수첩에는 친해진 사람의 취향과 기록이 쌓입니다. 단서와 증언을 따라가는 수사 기록을 살피고, 알리바이와 증언을 맞춰보세요. 누구를 믿을지, 무엇을 더 확인할지, 누구를 지목할지 직접 결정합니다. 선택에 따라 사건의 결말도 달라집니다. 계절마다 쌓이는 추억 여름에는 바다로, 겨울에는 설원으로 떠나세요. 축제와 무도회에서도 함께한 사람과 새로운 이야기를 만들 수 있습니다. 55가지 엔딩과 12가지 후일담 이야기의 결말부터 인연, 직업, 동아리 엔딩까지. 다른 선택으로 새로운 결말을 만나고, 졸업 뒤에 이어지는 각자의 삶도 확인해보세요. 한 번 본 그림은 추억 앨범에 149장의 일러스트를 모아보세요. 한 번 본 그림은 시작 메뉴의 앨범에서도 다시 볼 수 있습니다. 새 회차를 시작하거나 저장을 덮어써도 감상 기록은 남습니다. 수동 저장 1개와 자동 저장 1개, 글자 크기와 음악·효과음 설정을 지원합니다. 콘텐츠 안내: 살인사건, 학생의 죽음과 추모를 다루는 장면이 있습니다.",
+      "analysis": {
+        "app_key": "apple:6833772634",
+        "summary_ko": "아카데미를 배경으로 한 인터랙티브 스토리 게임입니다. 사용자는 시간표를 짜고 과목을 배우며 동아리 활동을 통해 인연을 쌓고 사건의 진실을 파헤칩니다. 선택에 따라 다양한 엔딩과 일러스트를 수집할 수 있습니다.",
+        "features_ko": [
+          "주간 시간표를 직접 구성하여 다양한 과목을 학습합니다.",
+          "다섯 동아리 중 하나를 선택하여 활동에 참여합니다.",
+          "여섯 주연 캐릭터와 대화를 통해 친밀도를 쌓고 관계를 발전시킵니다.",
+          "수사 기록을 바탕으로 단서와 증언을 맞춰 사건의 진실을 추리합니다.",
+          "선택지에 따라 55가지의 다양한 엔딩과 후일담을 경험합니다."
+        ],
+        "noteworthy_ko": "비주얼 노벨 장르에 시간표 관리와 수사 시스템을 결합하여 플레이어의 개입도를 높였습니다. 선택지가 엔딩에 미치는 영향력이 크다는 점은 서사 구조 설계의 정교함을 보여줍니다.",
+        "development_ko": "방대한 텍스트와 분기점 관리를 위한 스크립트 엔진이 핵심입니다. 일러스트와 음악 등 에셋 관리 시스템이 중요하며, 수사 시스템의 논리 구조를 구현하는 것이 기술적 난이도입니다. 1인 개발 시 시나리오 집필과 연출에 가장 많은 시간이 소요됩니다.",
+        "idea_ko": "플레이어의 선택이 실시간으로 아카데미 내의 평판이나 사건의 난이도에 영향을 주는 동적 서사 시스템을 도입하면 좋습니다.",
+        "highlights_ko": [
+          "시간표 관리와 수사 시스템이 결합된 서사 구조.",
+          "다양한 엔딩과 수집 가능한 일러스트 앨범."
+        ],
+        "systems_ko": [
+          "분기형 스토리 엔진",
+          "캐릭터 친밀도 및 상태 관리",
+          "시간표 및 스케줄링 시스템",
+          "단서 수집 및 추리 로직",
+          "데이터 저장 및 앨범 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기술적인 구현보다는 방대한 시나리오와 분기점 설계, 그리고 그에 따른 연출 데이터 관리가 핵심입니다. 1인 개발 시 콘텐츠의 양을 조절하면 충분히 구현 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 스토리 분기 시스템",
+            "캐릭터 친밀도 시스템",
+            "선택지 UI"
+          ],
+          "defer": [
+            "수사 기록 자동 대조 시스템",
+            "방대한 일러스트 앨범"
+          ],
+          "risks": [
+            "시나리오 분기 관리의 복잡성",
+            "콘텐츠 제작의 장기화"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "아카데미 평판 시스템",
+            "concept": "선택에 따라 학교 내 평판이 변하며, 평판에 따라 특정 이벤트가 해금되는 시스템입니다.",
+            "first_step": "평판 수치 변동 로직과 이벤트 조건문을 작성합니다."
+          },
+          {
+            "title": "시간표 최적화 퍼즐",
+            "concept": "제한된 시간 내에 특정 능력치를 올리기 위해 시간표를 효율적으로 짜야 하는 퍼즐 요소입니다.",
+            "first_step": "시간표 슬롯과 능력치 상승 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "비주얼 노벨의 서사 구조와 데이터 관리 방식을 배우기에 매우 좋습니다. 시나리오 중심의 게임 개발을 희망하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "수사 시스템의 구체적인 로직(단서 대조 방식 등)은 확인되지 않았습니다. 55가지 엔딩의 분기 구조와 데이터 관리 방식은 추정입니다.",
+        "name": "로판 아카데미에서 살아남기",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EB%A1%9C%ED%8C%90-%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EC%97%90%EC%84%9C-%EC%82%B4%EC%95%84%EB%82%A8%EA%B8%B0/id6833772634?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
     }
   }
 }

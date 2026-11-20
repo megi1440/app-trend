@@ -13012,6 +13012,539 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-20"
+    },
+    "itch:8e2ed61125b89982ee22": {
+      "app_key": "itch:8e2ed61125b89982ee22",
+      "name": "DUNGEON DICE [Free] [Strategy]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://jcvdev7.itch.io/dungeon-dice",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:22:43+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "TIRA DADOS, INVOCA MONSTRUOS Y DERROTA AL MONSTER LORD EN TU NAVEGADOR",
+      "analysis": {
+        "app_key": "itch:8e2ed61125b89982ee22",
+        "summary_ko": "웹 브라우저에서 즐길 수 있는 전략 게임으로, 주사위를 굴려 몬스터를 소환하고 몬스터 군주를 물리치는 것이 목표입니다. 운과 전략이 결합된 게임 플레이를 제공합니다.",
+        "features_ko": [
+          "주사위를 던져 행동력을 결정합니다.",
+          "소환된 몬스터를 활용해 전투를 진행합니다.",
+          "최종 목표인 몬스터 군주를 격파합니다."
+        ],
+        "noteworthy_ko": "주사위라는 무작위 요소와 몬스터 소환이라는 전략 요소를 결합한 점이 특징입니다. 웹 기반 게임으로서 접근성이 높다는 점이 개발 관점에서 장점입니다.",
+        "development_ko": "주사위 확률 로직과 턴제 전투 시스템 구현이 핵심입니다. 몬스터별 능력치 밸런스와 전투 시각화 작업이 제작 부담의 대부분을 차지할 것으로 보입니다.",
+        "idea_ko": "주사위 눈의 합에 따라 소환되는 몬스터의 등급이 달라지는 시스템을 제안합니다.",
+        "highlights_ko": [
+          "웹 브라우저 환경에 최적화된 전략 게임입니다.",
+          "주사위 기반의 예측 불가능한 전투 경험을 제공합니다."
+        ],
+        "systems_ko": [
+          "주사위 확률 생성기",
+          "턴제 전투 엔진",
+          "몬스터 데이터 관리 시스템",
+          "게임 상태 관리",
+          "UI 전투 로그 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "턴제 전투는 실시간 게임보다 구현 난이도가 낮으나, 밸런스 조정과 확률 로직의 정교함이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "주사위 굴리기 로직",
+            "기본 몬스터 소환 및 전투 시스템"
+          ],
+          "defer": [
+            "멀티플레이어 모드",
+            "복잡한 스킬 트리"
+          ],
+          "risks": [
+            "확률 요소로 인한 밸런스 붕괴 가능성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "주사위 조합 전략",
+            "concept": "특정 주사위 눈 조합을 맞추면 강력한 필살기를 사용할 수 있는 시스템입니다.",
+            "first_step": "주사위 눈의 조합을 감지하는 조건문 로직을 구현합니다."
+          },
+          {
+            "title": "몬스터 진화 시스템",
+            "concept": "전투에서 승리할 때마다 몬스터가 경험치를 얻어 성장하는 시스템입니다.",
+            "first_step": "몬스터 객체에 경험치와 레벨 변수를 추가합니다."
+          }
+        ],
+        "recommendation_ko": "턴제 전략 게임의 기초를 다지기에 적합합니다. 확률 기반 게임의 밸런스 테스트를 경험해보고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 몬스터의 종류, 전투의 구체적인 규칙, 주사위의 개수 등 핵심 메커니즘을 파악하기 어렵습니다.",
+        "name": "DUNGEON DICE [Free] [Strategy]",
+        "source": "itch",
+        "detail_url": "https://jcvdev7.itch.io/dungeon-dice",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 302,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "google:com.mainquest.sgidle": {
+      "app_key": "google:com.mainquest.sgidle",
+      "name": "실험소녀 키우기 : 방치형 RPG",
+      "developer": "MainQuest",
+      "source": "google",
+      "country": "KR",
+      "category": "game_action",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.mainquest.sgidle&hl=ko&gl=KR",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:23:29+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "수집하는 즐거움, 강해지는 재미, 그리고 새로운 모험! 「실험소녀 키우기」에서 소녀와 함께 판타지 세계를 탐험하세요. ▶ 모을수록 즐거워지는 수집과 육성 다양한 수집 요소를 모으며 성장의 가능성을 넓혀보세요. 하나씩 채워가는 수집의 즐거움과 함께, 더 강해지는 소녀를 만나보세요. ▶ 성장의 힘을 느끼는 시원한 액션 키워온 소녀의 힘을 전투에서 확인하세요. 눈앞의 적을 돌파하고 더 강력한 상대에게 도전하며 액션의 쾌감을 즐겨보세요. ▶ 계속 펼쳐지는 새로운 모험 모험은 하나의 맵에서 끝나지 않습니다. 지속적으로 추가되는 맵에서 새로운 풍경과 적을 만나고, 더 넓어지는 판타지 세계로 나아가세요. ▶ 나만의 속도로 즐기는 방치형 성장 차근차근 쌓이는 성장으로 다음 도전을 준비하세요. 수집과 육성, 전투와 탐험이 이어지는 여정을 즐겨보세요. 지금, 당신과 소녀의 새로운 모험이 시작됩니다. 실험소녀 키우기와 함께하세요! ---- 개발자 연락처 : (주)메인퀘스트 대한민국 대구광역시 동구 동구 동대구로 469, 4층 403호(신천동, 대구콘텐츠비즈니스센서LH창업지원주택) 41260 870-88-03326 제2025-대구동구-0860호 대구광역시동구청",
+      "analysis": {
+        "app_key": "google:com.mainquest.sgidle",
+        "summary_ko": "실험소녀 키우기는 판타지 세계를 배경으로 한 방치형 RPG입니다. 플레이어는 소녀를 육성하고 다양한 수집 요소를 모으며 더 강력한 적에게 도전합니다. 방치형 성장을 통해 바쁜 일상 속에서도 꾸준히 캐릭터를 성장시키는 경험을 제공합니다.",
+        "features_ko": [
+          "다양한 수집 요소를 통해 캐릭터의 성장을 지원합니다.",
+          "전투를 통해 소녀의 성장 결과를 확인하고 액션의 쾌감을 제공합니다.",
+          "지속적으로 추가되는 맵을 통해 새로운 모험과 적을 만날 수 있습니다.",
+          "방치형 시스템을 통해 나만의 속도로 성장을 관리할 수 있습니다."
+        ],
+        "noteworthy_ko": "수집과 방치형 성장을 결합하여 성취감을 지속적으로 자극하는 구조가 흥미롭습니다. 모험의 확장을 통해 콘텐츠의 수명을 늘리는 전략을 취하고 있는 것으로 추정됩니다.",
+        "development_ko": "캐릭터 성장 데이터와 수집 목록을 관리하는 데이터베이스 설계가 핵심입니다. 방치형 보상 로직과 전투 시뮬레이션 구현이 필요하며, 밸런스 조정이 게임의 재미를 결정짓는 중요한 요소가 될 것입니다.",
+        "idea_ko": "수집한 아이템을 조합하여 소녀의 외형이나 스킬 효과를 커스터마이징하는 시스템을 추가하면 좋습니다.",
+        "highlights_ko": [
+          "수집과 육성이 결합된 방치형 성장 메커니즘.",
+          "지속적으로 확장되는 판타지 세계관과 맵 구성."
+        ],
+        "systems_ko": [
+          "캐릭터 능력치 및 성장 데이터 관리 시스템",
+          "방치형 보상 계산 및 오프라인 시간 처리 로직",
+          "수집품 도감 및 인벤토리 관리 시스템",
+          "전투 시뮬레이션 및 스테이지 진행 관리",
+          "UI/UX 기반의 성장 정보 시각화"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "방치형 게임의 핵심 로직은 단순하지만, 수집 요소와 성장 밸런스를 맞추는 작업이 필요합니다. 1인 개발 시 데이터 구조 설계와 UI 구현에 집중하면 충분히 구현 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 기본 능력치 및 레벨업 시스템",
+            "자동 전투 및 보상 획득 로직",
+            "스테이지 진행 및 맵 관리"
+          ],
+          "defer": [
+            "복잡한 실시간 멀티플레이 요소",
+            "고도화된 그래픽 이펙트"
+          ],
+          "risks": [
+            "성장 밸런스 붕괴로 인한 재미 저하",
+            "콘텐츠 부족으로 인한 빠른 이탈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "실험 일지 시스템",
+            "concept": "수집한 아이템을 실험하여 새로운 스킬을 발견하는 도감형 콘텐츠입니다. 아이템 조합에 따라 소녀의 속성이 변화합니다.",
+            "first_step": "아이템 두 개를 조합하여 새로운 결과물을 도출하는 간단한 로직을 구현합니다."
+          },
+          {
+            "title": "소녀의 방 꾸미기",
+            "concept": "전투 보상으로 얻은 가구로 소녀의 공간을 꾸미는 하우징 요소입니다. 가구 배치에 따라 방치 보상이 증가합니다.",
+            "first_step": "그리드 기반의 가구 배치 시스템을 프로토타입으로 제작합니다."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 기본 구조와 데이터 관리 방식을 배우기에 적합합니다. 단순한 시스템에서 시작해 점진적으로 콘텐츠를 확장하는 개발 과정을 경험할 수 있습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 전투 메커니즘, 수집 요소의 종류, 방치 보상 계산 방식 등이 명시되어 있지 않아 실제 게임의 깊이를 파악하기 어렵습니다.",
+        "name": "실험소녀 키우기 : 방치형 RPG",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.mainquest.sgidle&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 235,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "google:train.ride.master": {
+      "app_key": "google:train.ride.master",
+      "name": "Train Ride",
+      "developer": "MTAG PUBLISHING LTD",
+      "source": "google",
+      "country": "KR",
+      "category": "game_arcade",
+      "detail_url": "https://play.google.com/store/apps/details?id=train.ride.master&hl=ko&gl=KR",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:23:54+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "진짜 기차 운전사가 된 기분을 느끼며 흥미진진한 모험을 시작하세요! 기차를 운전하고 승객을 목적지까지 안전하게 배달하며 다양한 미션을 완수하세요. 다양한 노선을 주행하고 예상치 못한 도전에 대비하세요! 가장 어려운 구간에서 성공의 열쇠는 당신의 주의력과 빠른 반응 속도에 달려 있습니다. 새로운 객차를 추가하고 기차를 업그레이드하여 철도 역사상 최고의 기관사가 되어보세요. 예상치 못한 문제를 해결하며 승객의 안전을 지켜내세요. 보상을 획득하고 새로운 노선과 지역을 해금하세요. 철도계의 전설이 되어 모든 노선을 정복할 준비가 되셨나요? 지금 바로 게임을 다운로드하고 여정을 시작하세요! 여러분의 모험이 기다리고 있습니다!",
+      "analysis": {
+        "app_key": "google:train.ride.master",
+        "summary_ko": "Train Ride는 기차 운전사가 되어 승객을 안전하게 목적지까지 수송하는 아케이드 게임입니다. 다양한 노선을 주행하며 예상치 못한 도전을 해결하고 기차를 업그레이드하는 것이 목표입니다. 주의력과 빠른 반응 속도가 성공의 핵심입니다.",
+        "features_ko": [
+          "다양한 노선을 주행하며 승객을 목적지까지 안전하게 배달합니다.",
+          "운행 중 발생하는 예상치 못한 문제를 해결하는 미션을 수행합니다.",
+          "새로운 객차를 추가하고 기차를 업그레이드하여 성능을 향상합니다.",
+          "보상을 획득하여 새로운 노선과 지역을 해금합니다."
+        ],
+        "noteworthy_ko": "단순한 운전 시뮬레이션을 넘어 돌발 상황 해결이라는 아케이드적 요소를 결합한 점이 흥미롭습니다. 플레이어의 반응 속도를 테스트하는 구성은 짧은 시간 동안 몰입감을 주기에 적합합니다.",
+        "development_ko": "기차의 물리 엔진과 선로 이동 로직 구현이 핵심입니다. 돌발 상황 발생을 위한 이벤트 시스템과 보상 기반의 업그레이드 시스템이 필요합니다. 밸런스 테스트는 노선별 난이도 곡선을 설정하고 반응 속도 요구치를 조정하는 데 집중해야 합니다.",
+        "idea_ko": "승객의 요구사항(온도 조절, 음악 선택 등)을 들어주는 기차 내부 관리 요소 추가.",
+        "highlights_ko": [
+          "다양한 노선과 지역을 해금하는 성장형 구조.",
+          "돌발 상황 해결을 통한 긴장감 있는 아케이드 플레이."
+        ],
+        "systems_ko": [
+          "기차 물리 및 선로 이동 시스템",
+          "돌발 상황 이벤트 트리거 시스템",
+          "기차 업그레이드 및 데이터 관리",
+          "보상 및 노선 해금 시스템",
+          "UI/UX 기반의 반응 속도 측정 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "기본적인 이동과 이벤트 발생 구조는 비교적 단순하게 구현 가능합니다. 물리 엔진을 직접 만들기보다 엔진의 기능을 활용하면 1인 개발로도 충분히 완성도 있는 결과물을 낼 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 기차 이동 및 정지",
+            "간단한 노선 시스템",
+            "돌발 상황 이벤트 1종"
+          ],
+          "defer": [
+            "복잡한 기차 업그레이드 트리",
+            "다양한 지역 및 노선 확장",
+            "고급 물리 효과"
+          ],
+          "risks": [
+            "반복적인 플레이로 인한 지루함",
+            "이벤트의 다양성 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "승객 만족도 시스템",
+            "concept": "승객의 상태를 확인하고 적절한 조치를 취해 만족도를 높이는 시스템입니다.",
+            "first_step": "승객의 상태 아이콘을 표시하고 클릭 시 만족도가 오르는 간단한 UI를 만듭니다."
+          },
+          {
+            "title": "날씨 변화 이벤트",
+            "concept": "비나 눈이 올 때 기차의 제동 거리가 변하는 등 환경 변화를 도입합니다.",
+            "first_step": "환경 변수에 따라 기차의 속도와 제동력을 조절하는 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "아케이드 게임의 핵심 루프를 설계하고 물리 기반의 간단한 조작감을 연습하고 싶은 개발자에게 추천합니다. 시스템을 작게 시작하여 점진적으로 확장하기에 좋은 구조입니다.",
+        "source_limitations_ko": "소개문에는 기차의 물리적 구현 방식이나 구체적인 돌발 상황의 종류가 명시되어 있지 않습니다. 또한 보상 시스템의 경제 밸런스에 대한 정보가 부족합니다.",
+        "name": "Train Ride",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=train.ride.master&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 186,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 18,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "google:com.jndapp.material.widgets.pack": {
+      "app_key": "google:com.jndapp.material.widgets.pack",
+      "name": "Material Widgets : Everything",
+      "developer": "JustNewDesigns",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.jndapp.material.widgets.pack&hl=en&gl=US",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:24:44+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "This is the Material Expressive Version of the Everything Widgets. very widget adapts its colors to your wallpaper, and seamlessly adjusts to dark and light mode—making your home screen always feel fresh, dynamic, and uniquely yours. Bring your home screen to life with Material You Widgets, a beautifully crafted widget pack inspired by Google’s Material 3 expressive design. With over 200+ widgets (and more on the way) No Extra Apps Needed – Just Tap & Add! Unlike other widget packs, Material You Widgets works natively. No KWGT or third-party apps required! Simply pick a widget, tap to add it, and enjoy a perfectly styled home screen in seconds. Expressive & Dynamic Design Built on Google’s Material 3 expressive design guideline, each widget features modern shapes, bold typography, and dynamic theming that matches your wallpaper and system colors automatically. Fully Resizable & Adaptive Every widget is designed to scale beautifully, from compact sizes to full-screen layouts, giving you complete control over your setup. Widget Highlights – 200+ Widgets & Growing! ✔ Clock & Calendar Widgets – Dynamic digital & analog clocks, modern calendars that adapt to your wallpaper ✔ Battery Widgets – Clean, minimal indicators that follow your theme colors ✔ Weather Widgets – Current conditions, forecasts, moon phases, and sunrise/sunset in expressive Material style ✔ Quick Settings Widgets – One-tap controls for WiFi, Bluetooth, dark mode, flashlight, and more ✔ Contact Widgets – Keep your favorite people close with adaptive design ✔ Photo Widgets – Showcase your memories in a Material You frame ✔ Google Widgets – Designed for Gmail, Drive, Maps, and more ✔ Productivity Widgets – To-do lists, notes, and quotes with vibrant Material You accents ✔ Pedometer Widget – Track your steps with clean, colorful indicators ✔ Quote Widgets – Motivation that looks as good as it feels ✔ Fun Widgets – Play Snake and more mini-games in future updates ✔ …and many more expressive widgets coming soon! Matching Wallpapers Included Complete your setup with 100+ Material You–inspired wallpapers that pair perfectly with your widgets. Why Choose Material Widgets - Everything? If you love the expressive, colorful, and adaptive design of Google’s Material 3, this widget pack is for you. We’re constantly adding new widgets with a focus on quality, usability, and creativity. Support & Feedback Twitter: x.com/JustNewDesigns Email: justnewdesigns@gmail.com Got a widget idea? Share it with us—we’d love to build it! Your phone deserves a home screen that’s as expressive and dynamic as you are. Download Material Everything Widgets today and let your wallpaper set the mood.",
+      "analysis": {
+        "app_key": "google:com.jndapp.material.widgets.pack",
+        "summary_ko": "Material Widgets는 구글의 Material 3 디자인 가이드라인을 따르는 200개 이상의 위젯 팩입니다. 배경화면 색상에 맞춰 위젯 색상이 자동으로 변하는 다이내믹 테마를 지원합니다. 별도의 서드파티 앱 없이 바로 설치하여 사용할 수 있는 것이 특징입니다.",
+        "features_ko": [
+          "배경화면 색상에 맞춰 위젯의 색상이 자동으로 조정됩니다.",
+          "다크 모드와 라이트 모드를 완벽하게 지원합니다.",
+          "시계, 달력, 배터리, 날씨 등 200개 이상의 다양한 위젯을 제공합니다.",
+          "모든 위젯은 크기 조절이 가능하여 홈 화면에 맞게 배치할 수 있습니다.",
+          "Material 3 디자인 가이드라인을 준수하여 현대적인 UI를 제공합니다."
+        ],
+        "noteworthy_ko": "안드로이드의 위젯 시스템을 활용하여 사용자 개인화 경험을 극대화한 점이 흥미롭습니다. 별도의 앱 없이 네이티브 방식으로 작동하게 하여 사용자 편의성을 높인 전략이 유효합니다.",
+        "development_ko": "안드로이드 위젯 API(AppWidgetProvider)에 대한 깊은 이해가 필요합니다. 색상 추출 및 테마 적용을 위한 시스템 리소스 접근 기술이 핵심이며, 다양한 화면 크기에 대응하는 반응형 레이아웃 설계가 중요합니다. 지속적인 위젯 추가를 위한 확장 가능한 코드 구조가 필요합니다.",
+        "idea_ko": "사용자가 위젯의 레이아웃을 직접 드래그 앤 드롭으로 커스텀할 수 있는 위젯 빌더 기능을 제안합니다.",
+        "highlights_ko": [
+          "배경화면과 동기화되는 다이내믹 테마 시스템.",
+          "별도 앱 설치가 필요 없는 네이티브 위젯 구현."
+        ],
+        "systems_ko": [
+          "안드로이드 위젯 관리 시스템",
+          "색상 추출 및 테마 엔진",
+          "반응형 레이아웃 시스템",
+          "사용자 설정 저장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "안드로이드 위젯 API는 문서화가 잘 되어 있어 구현 난이도는 높지 않으나, 200개 이상의 위젯을 일관된 디자인으로 유지하고 최적화하는 작업에 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 시계 위젯",
+            "배경화면 색상 추출 로직",
+            "위젯 크기 조절 기능"
+          ],
+          "defer": [
+            "200개 이상의 방대한 위젯 라이브러리",
+            "미니 게임 위젯"
+          ],
+          "risks": [
+            "안드로이드 OS 버전별 호환성 문제",
+            "배터리 소모 최적화 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "위젯 테마 마켓",
+            "concept": "사용자들이 직접 만든 위젯 테마를 공유하고 다운로드할 수 있는 커뮤니티 공간을 제공합니다.",
+            "first_step": "테마 데이터를 JSON으로 내보내고 불러오는 기능 구현."
+          },
+          {
+            "title": "상황별 위젯 자동 전환",
+            "concept": "시간대나 위치에 따라 홈 화면의 위젯 세트를 자동으로 변경하여 사용자에게 필요한 정보를 우선 노출합니다.",
+            "first_step": "시간대별 위젯 세트 전환 로직 구현."
+          }
+        ],
+        "recommendation_ko": "안드로이드 UI/UX 디자인과 시스템 리소스 활용법을 배우기에 매우 좋습니다. 디자인 시스템을 체계적으로 관리하는 방법을 익히고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 색상 추출을 위한 구체적인 라이브러리나 API 사용 여부가 명시되지 않았습니다. 위젯 업데이트 주기 및 배터리 최적화 방식에 대한 기술적 세부 사항은 확인되지 않습니다.",
+        "name": "Material Widgets : Everything",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.jndapp.material.widgets.pack&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 174,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "google:com.allcleanfile.utoto.pvance": {
+      "app_key": "google:com.allcleanfile.utoto.pvance",
+      "name": "All Clean Master",
+      "developer": "WEBZE",
+      "source": "google",
+      "country": "JP",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.allcleanfile.utoto.pvance&hl=ja&gl=JP",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:25:40+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "このアプリは、不要ファイルの削除、重複ファイルの整理、アプリの管理を行い、スマートフォンのストレージ容量を解放するのに役立ちます。 機能： 不要ファイル削除 – アプリのキャッシュ、一時ファイル、その他の不要なファイルを削除 重複ファイル削除 – 重複した写真、動画、ドキュメントを検索して削除 空フォルダ削除 – システムを圧迫する空フォルダを検出して削除 アプリ管理 – インストール済みのアプリを表示し、不要なアプリを簡単にアンインストール",
+      "analysis": {
+        "app_key": "google:com.allcleanfile.utoto.pvance",
+        "summary_ko": "All Clean Master는 스마트폰의 저장 공간을 확보하기 위한 파일 관리 도구입니다. 불필요한 캐시, 임시 파일, 중복 파일 및 빈 폴더를 정리하여 기기 성능을 최적화합니다. 설치된 앱을 관리하고 삭제하는 기능도 포함되어 있습니다.",
+        "features_ko": [
+          "앱 캐시와 임시 파일을 찾아 삭제하여 저장 공간을 확보합니다.",
+          "중복된 사진, 영상, 문서를 검색하여 삭제합니다.",
+          "시스템을 점유하는 빈 폴더를 탐색하여 제거합니다.",
+          "설치된 앱 목록을 확인하고 불필요한 앱을 삭제합니다."
+        ],
+        "noteworthy_ko": "시스템 파일 접근 권한을 활용한 유틸리티 앱으로, 사용자 경험보다는 기능적 효율성이 핵심입니다. 안드로이드의 파일 시스템 구조에 대한 깊은 이해가 필요할 것으로 추정됩니다.",
+        "development_ko": "핵심 구현 기술은 안드로이드 파일 시스템 API와 권한 관리입니다. 콘텐츠 제작 부담은 거의 없으나, 기기별 파일 경로 차이와 권한 정책 변화에 따른 테스트 부담이 매우 큽니다.",
+        "idea_ko": "단순 정리를 넘어, 사용자의 파일 사용 패턴을 분석하여 자주 쓰지 않는 파일을 클라우드로 자동 백업해주는 스마트 관리 도구가 적합합니다.",
+        "highlights_ko": [
+          "불필요한 파일과 중복 데이터를 한 번에 정리하는 효율성.",
+          "직관적인 앱 관리 인터페이스 제공."
+        ],
+        "systems_ko": [
+          "파일 시스템 스캐너",
+          "중복 파일 비교 알고리즘",
+          "앱 관리 및 삭제 인터페이스",
+          "시스템 권한 관리 모듈"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "안드로이드의 보안 정책이 강화됨에 따라 파일 접근 권한을 획득하고 유지하는 것이 매우 까다롭고 기기별 파편화 대응이 어렵기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "앱 캐시 삭제 기능",
+            "파일 스캔 및 삭제 인터페이스"
+          ],
+          "defer": [
+            "중복 파일 정밀 검색",
+            "빈 폴더 자동 삭제",
+            "앱 관리 기능"
+          ],
+          "risks": [
+            "중요 시스템 파일 삭제로 인한 앱 오류 발생",
+            "OS 업데이트에 따른 권한 정책 변경"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "파일 사용량 분석기",
+            "concept": "어떤 파일이 저장 공간을 가장 많이 차지하는지 시각화하여 보여줍니다. 사용자가 직접 삭제할 파일을 선택하도록 유도합니다.",
+            "first_step": "기기 내 파일 용량을 스캔하여 트리 맵으로 시각화하는 기능을 구현합니다."
+          },
+          {
+            "title": "임시 파일 자동 정리기",
+            "concept": "특정 기간 이상 사용되지 않은 임시 파일을 자동으로 감지하여 알림을 보냅니다. 사용자의 승인 하에 정리합니다.",
+            "first_step": "파일의 마지막 수정 날짜를 확인하여 특정 기간이 지난 파일을 리스트업합니다."
+          }
+        ],
+        "recommendation_ko": "안드로이드 파일 시스템과 권한 관리를 깊게 공부하고 싶다면 추천합니다. 다만, OS 정책 변화에 민감하므로 유지보수 부담이 큽니다.",
+        "source_limitations_ko": "소개문에는 파일 스캔의 구체적인 범위, 보안 정책 준수 여부, 데이터 삭제 시 복구 가능 여부 등이 명시되어 있지 않습니다.",
+        "name": "All Clean Master",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.allcleanfile.utoto.pvance&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 168,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "apple:1021825736": {
+      "app_key": "apple:1021825736",
+      "name": "티켓링크",
+      "developer": "NHN Link Corporation",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/%ED%8B%B0%EC%BC%93%EB%A7%81%ED%81%AC/id1021825736",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:28:28+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "공연, 전시부터 스포츠까지 언제나 좋은 자리를 편리하게 예매하세요. ● 예매하기 보고 싶은 스포츠/공연을 빠르게 확인하고 ● 좌석 선택 원하는 좌석을 한눈에 찾고 ● 스마트/홈 티켓 발권 없이도 입장을 하며 ● 페이코 포인트 페이코 포인트로 티켓 구매도! [선택적 접근권한 안내] - 주소록 : 스마트티켓 선물하기 연락처 검색해서 선물할 수 있습니다. - 사진 : 서비스 이용 중 고객문의 시 사진을 첨부할 수 있습니다. - 카메라 : 서비스 이용 중 고객문의 및 얼굴 정보 등록 시 사진을 촬영하여 첨부할 수 있습니다. 문의사항은 아래로 번호로 연락을 부탁드립니다. 고객문의 : 1588-4567 전화예매 : 1588-7890 이메일 : dl_app_master@nhnlink.co.kr 더 많은 정보를 원하시면 아래 홈페이지를 방문해주세요. ● 홈페이지: http://www.ticketlink.co.kr/ 티켓링크 앱은 보다 안정적이고 편리한 기능 제공을 위해 지속적인 업데이트를 할 예정입니다. 회원 여러분의 다양한 의견을 들려주세요. 고객을 생각하는 티켓링크가 되겠습니다.",
+      "analysis": {
+        "app_key": "apple:1021825736",
+        "summary_ko": "티켓링크는 공연, 전시, 스포츠 등 다양한 문화 콘텐츠를 예매할 수 있는 플랫폼입니다. 사용자는 원하는 좌석을 한눈에 확인하고 편리하게 예매할 수 있습니다. 스마트 티켓 기능을 통해 별도의 발권 없이 입장이 가능하며 페이코 포인트로 결제할 수 있습니다.",
+        "features_ko": [
+          "스포츠 및 공연 행사 정보를 빠르게 검색하고 조회할 수 있습니다.",
+          "좌석 선택 화면에서 원하는 좌석을 시각적으로 확인하고 선택합니다.",
+          "스마트 티켓 기능을 통해 모바일로 간편하게 입장합니다.",
+          "페이코 포인트를 활용하여 티켓 구매 결제를 지원합니다."
+        ],
+        "noteworthy_ko": "사용자의 위치나 연락처 정보를 활용한 선물하기 및 매장 조회 기능이 포함되어 있습니다. 이는 서비스의 편의성을 높이는 핵심 요소로 보이며, 외부 결제 시스템과의 연동이 중요한 비중을 차지합니다.",
+        "development_ko": "핵심 기술은 실시간 좌석 예약 시스템과 결제 게이트웨이 연동입니다. 대규모 트래픽을 처리하기 위한 서버 안정성과 데이터 무결성 유지가 중요하며, 사용자 경험을 위한 UI/UX 설계 부담이 큽니다.",
+        "idea_ko": "특정 공연의 좌석 잔여 현황을 실시간으로 알림받는 개인화된 알림 서비스가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "스마트 티켓을 통한 비대면 입장 프로세스를 제공합니다.",
+          "페이코 등 외부 간편 결제 수단과의 연동을 지원합니다."
+        ],
+        "systems_ko": [
+          "실시간 좌석 예약 및 상태 관리 시스템",
+          "결제 API 연동 모듈",
+          "사용자 계정 및 티켓 데이터베이스",
+          "푸시 알림 서비스",
+          "좌석 시각화 UI"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 좌석 예약 시스템은 동시성 제어와 데이터 일관성 유지가 매우 까다롭습니다. 또한 외부 결제 시스템 연동 및 보안 요구사항이 높아 1인 개발로 구현하기에는 기술적 장벽이 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "공연 목록 조회 기능",
+            "좌석 선택 및 예약 로직",
+            "기본 결제 연동"
+          ],
+          "defer": [
+            "실시간 GPS 기반 매장 찾기",
+            "스마트 티켓 선물하기",
+            "복잡한 등급별 할인 정책"
+          ],
+          "risks": [
+            "예약 데이터의 동시성 충돌 문제",
+            "결제 보안 및 개인정보 처리 부담"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "공연 좌석 알리미",
+            "concept": "사용자가 원하는 공연의 특정 구역 좌석이 취소될 경우 즉시 알림을 보내주는 서비스입니다.",
+            "first_step": "공연 예매 사이트의 특정 페이지를 주기적으로 크롤링하여 좌석 상태를 감지하는 스크립트 작성."
+          },
+          {
+            "title": "개인 공연 기록장",
+            "concept": "관람한 공연의 티켓 정보를 기록하고 감상을 남기는 개인용 아카이빙 앱입니다.",
+            "first_step": "티켓 사진을 업로드하고 날짜와 공연명을 입력하여 저장하는 로컬 데이터베이스 앱 구현."
+          }
+        ],
+        "recommendation_ko": "예약 시스템의 복잡한 로직을 이해하고 싶은 개발자에게 추천합니다. 다만, 실제 결제 서비스 구현은 보안상 매우 신중해야 하므로 학습용으로만 접근하는 것을 권장합니다.",
+        "source_limitations_ko": "소개문에는 서버 아키텍처, 데이터베이스 구조, 보안 프로토콜에 대한 정보가 없습니다. 실제 결제 연동 방식이나 좌석 데이터의 실시간 동기화 기술은 확인되지 않았습니다.",
+        "name": "티켓링크",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%ED%8B%B0%EC%BC%93%EB%A7%81%ED%81%AC/id1021825736",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 44,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
     }
   }
 }

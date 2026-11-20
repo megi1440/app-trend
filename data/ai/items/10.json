@@ -14662,6 +14662,364 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-20"
+    },
+    "google:app.assistantmanager.am27": {
+      "app_key": "google:app.assistantmanager.am27",
+      "name": "Assistant Manager 27",
+      "developer": "The Small Cat Digital Studio",
+      "source": "google",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=app.assistantmanager.am27&hl=ko&gl=KR",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:23:29+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "AM27로 FMM27 세이브 파일을 살펴보고 다음을 할 수 있습니다: • 선수의 CA와 PA, 숨겨진 능력치와 경력 기록 확인 • 내 클럽 선수들을 상세한 통계와 함께 확인 (FMM에는 없는 통계 포함) • FMM27에 새로 추가된 xG, xA, 선호 플레이 지원 • 다양한 필터로 선수 검색 (자주 쓰는 필터 세트 저장 가능) • 모든 클럽과 플레이 가능한 모든 대회 둘러보기 • 선수를 개별로 또는 검색 결과 전체를 관심 선수 목록에 추가하고 FMM 관심 선수로 내보내기 • 팀의 통계, 기록, 도전 과제를 추적하고 공유 • 전술 테스트: 경기에 태그를 달고 결과 비교 (A/B 테스트) • 스포일러 차단 모드로 CA, PA, 숨겨진 능력치를 숨기고 확장 통계와 기록만 볼 수 있습니다 • 그 밖의 다양한 새 기능 • FMM27의 모든 언어와 중국어 간체 지원 참고 사항: • Sega / SI Games의 Football Manager 27 Mobile (FMM27)이 필요합니다 • AM27은 FMM27 세이브와, FMM27에서 변환된 이전 세이브를 지원합니다 (변환되지 않은 세이브는 사용할 수 없습니다) • AM27에서 보려면 먼저 FMM27에서 세이브를 내보내야 합니다 • 이 앱은 Football Manager, Sega, SI Games와 어떠한 관련도 없습니다 • 이 앱의 사용에 따른 위험은 사용자 본인에게 있으며, 어떠한 보증도 제공하지 않습니다 제한 사항: • 세이브 파일은 편집할 수 없고 데이터 확인만 가능합니다 • 일부 능력치는 0-255 값으로 저장되지만 FMM에서는 0-20으로 표시됩니다. AM27은 0-20 값을 추정하므로 정확하지 않습니다 • 추정 가치는 추정치이며 정확하지 않습니다 • AM27은 확인한 모든 경기를 보관하지만, 통계와 기록을 빠짐없이 남기려면 시즌마다 AM27에서 세이브를 여러 번 불러오세요 • 이전 FMM 버전에서 변환된 세이브에는 지난 경기의 xG는 있지만 xA는 없습니다 • 세이브 파일에 특이한 데이터가 있어 문제가 생길 수 있습니다. 아래 지원 항목을 참고하세요 • 공식 에디터로 편집한 세이브 파일에서는 작동하지 않을 수 있습니다 세이브 열기: • 앱을 처음 열 때 Football Manager 27 Mobile 폴더를 선택하세요 (그 아래의 Saves 폴더가 아닙니다) • Android에서 이 폴더에 대한 앱 접근 권한을 요청합니다 • 커리어 폴더를 고른 다음 불러올 세이브 파일을 선택하세요 • 먼저 커리어를 내보내야 합니다 (아래 참고) FMM27에서 세이브 내보내기: • 처음 내보낼 때 FMM이 저장 위치를 묻습니다 (이 폴더를 AM27에서 선택합니다) • AM27에서 최신 상태를 보고 싶을 때마다 커리어를 내보내세요 • 세이브 내보내는 방법: - FMM 메인 화면으로 이동 - Load Game을 누르고 내보낼 커리어 선택 - Export를 누르고 이름 입력 - 팁: 매번 같은 이름을 쓰면 AM27에서 새로고침만 하면 됩니다 - Export를 누른 다음 OK, Cancel 순서로 누르기 • 참고: FMM은 export_career_1 같은 이름의 폴더를 만들며, FMM에서 세이브를 저장하고 닫았다가 다시 열면 자동으로 내보내지므로 AM27에서 새로고침만 하면 됩니다 AM27에서 FMM27로 관심 선수 내보내기: • 내보내기 옵션은 오른쪽 패널 메뉴에 있으며, FMM의 관심 선수 슬롯 4개 중 어디로든 내보낼 수 있습니다 • FMM으로 관심 선수 목록을 불러오는 기능은 불안정하고 과정이 복잡합니다. 잘 안 되면 FMM에서 선수 한 명을 관심 선수에 추가하고, 그 목록을 4개 슬롯에 각각 저장한 뒤 모두 기기 저장소로 내보내세요 • 그러면 AM27이 그 파일들을 덮어쓸 수 있습니다 • FMM에서 Load Shortlists로 가서 게임에서 저장한 목록을 삭제한 다음 import를 선택하세요 • FMM은 슬롯에 까다롭습니다. fm_shortlist4.lst는 슬롯 4에만 불러올 수 있으니 몇 번 시도해 봐야 할 수 있습니다 • 죄송하지만 이는 FMM 작동 방식의 한계입니다 지원: • 지원이 필요하면 https://assistantmanager.app/support/ 의 지원 옵션을 확인하세요 • 번역 오류를 발견하셨나요? 언어 선택에서 \"번역 문제 신고\"를 이용하세요",
+      "analysis": {
+        "app_key": "google:app.assistantmanager.am27",
+        "summary_ko": "AM27은 Football Manager 27 Mobile(FMM27)의 세이브 파일을 분석하여 선수 능력치, 통계, 전술 테스트 등을 확인할 수 있는 보조 도구입니다. 게임 내에서 직접 볼 수 없는 숨겨진 능력치나 상세 통계를 제공하여 전략적인 게임 플레이를 돕습니다. 세이브 파일을 내보내어 불러오는 방식으로 작동하며 데이터 편집 기능은 제공하지 않습니다.",
+        "features_ko": [
+          "선수의 CA, PA 및 숨겨진 능력치를 상세히 조회할 수 있습니다.",
+          "FMM27에 없는 확장 통계와 xG, xA 등 세부 지표를 제공합니다.",
+          "다양한 필터를 사용하여 원하는 조건의 선수를 검색할 수 있습니다.",
+          "전술 테스트를 위해 경기 데이터를 태그하고 결과를 비교할 수 있습니다.",
+          "관심 선수 목록을 관리하고 FMM27로 내보내는 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "외부 데이터를 파싱하여 게임의 정보를 시각화하는 데이터 분석 앱의 전형적인 사례입니다. 게임 파일 구조에 대한 이해와 사용자 경험을 고려한 데이터 연동 방식이 개발 관점에서 매우 흥미롭습니다.",
+        "development_ko": "파일 시스템 접근 권한 처리와 세이브 파일의 데이터 구조를 파싱하는 기술이 핵심입니다. 사용자 편의를 위한 데이터 동기화 로직과 복잡한 통계 데이터를 직관적으로 보여주는 UI 구현이 중요합니다.",
+        "idea_ko": "선수들의 성장 추이를 그래프로 시각화하여 특정 훈련 방식에 따른 능력치 변화를 한눈에 보여주는 기능을 추천합니다.",
+        "highlights_ko": [
+          "게임 내에서 확인 불가능한 숨겨진 데이터의 시각화.",
+          "전술 테스트를 위한 A/B 테스트 및 통계 비교 기능."
+        ],
+        "systems_ko": [
+          "파일 시스템 접근 및 세이브 파일 파싱 엔진",
+          "데이터베이스 기반의 선수 정보 관리 시스템",
+          "복합 필터링 및 검색 엔진",
+          "데이터 시각화 및 통계 대시보드 UI",
+          "외부 데이터 연동 및 내보내기 기능"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "게임의 세이브 파일 형식을 분석하고 파싱하는 과정에서 높은 기술적 이해도가 요구됩니다. 또한 데이터의 무결성을 유지하며 사용자에게 정확한 정보를 제공하는 것이 까다롭습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "세이브 파일 불러오기 및 파싱 기능",
+            "선수 능력치 조회 대시보드",
+            "기본적인 선수 검색 필터"
+          ],
+          "defer": [
+            "전술 테스트 및 A/B 비교 기능",
+            "관심 선수 목록 내보내기 기능"
+          ],
+          "risks": [
+            "게임 업데이트 시 세이브 파일 구조 변경으로 인한 호환성 문제",
+            "데이터 파싱 오류로 인한 정보 왜곡"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "성장 예측 시뮬레이터",
+            "concept": "현재 선수의 능력치와 나이를 바탕으로 향후 성장 가능성을 예측하는 기능입니다. 훈련 강도에 따른 예상 능력치 변화를 보여줍니다.",
+            "first_step": "기존 선수들의 데이터를 기반으로 간단한 선형 회귀 모델을 적용해 봅니다."
+          },
+          {
+            "title": "스쿼드 밸런스 분석기",
+            "concept": "현재 팀의 포지션별 능력치 합계를 분석하여 부족한 포지션을 추천해 주는 기능입니다.",
+            "first_step": "포지션별 가중치를 설정하여 팀 전체 점수를 계산하는 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "데이터 파싱과 사용자 중심의 정보 시각화 기술을 배우기에 매우 좋은 프로젝트입니다. 특정 게임의 팬덤을 타겟으로 한 유틸리티 앱 개발의 가능성을 확인할 수 있습니다.",
+        "source_limitations_ko": "세이브 파일의 구체적인 바이너리 구조나 데이터 포맷에 대한 정보가 없으며, 게임사와의 API 연동 여부 등은 확인되지 않습니다.",
+        "name": "Assistant Manager 27",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=app.assistantmanager.am27&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 228,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 4,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "apple:6821257259": {
+      "app_key": "apple:6821257259",
+      "name": "ヒョーゴスラビア興亡記",
+      "developer": "SADAYUKI NAGAHORI",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%83%92%E3%83%A7%E3%83%BC%E3%82%B4%E3%82%B9%E3%83%A9%E3%83%93%E3%82%A2%E8%88%88%E4%BA%A1%E8%A8%98/id6821257259?uo=2",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:23:54+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "セッツ、ハリマ、タンバ、タジマ、アワジ… 兵庫県をモチーフにした五つの国を舞台に、迷える王子と仲間たちの旅がはじまる。 中世ヨーロッパ風の世界に、兵庫のご当地ネタをたっぷり詰め込んだファンタジーRPGです。 【ストーリー】 五つの国がそれぞれの思惑を抱えて並び立つ連邦国家、ヒョーゴスラビア。 セッツ国の第二王子タモンは、その立場から国王に雑用を頼まれる日々。 そんな彼が、国の行く末を左右する旅に出ることになってしまう…。 各国で出会う仲間とともに、五国をめぐる物語の結末を見届けてください。 【登場人物】 タモン：セッツ国の第二王子。優しいが優柔不断で、なかなか決められない。 ユラ：アワジの力自慢。いつか水軍を率いることを夢見ている。 ニシキ：タンバの薬師。丁寧な物腰で、薬草の知識に長けている。 ナツメ：タジマの出身。大地の流れを感じ取り、自然と心を通わせる不思議な力を持つ。 キャラクターの名前は、すべて兵庫県内の実在の地名が由来です。 どこの地名か、ぜひ探してみてください。 【ゲームの特徴】 ・兵庫県のかたちをしたワールドマップ 五国を旅するワールドマップは、兵庫県の形そのもの。 見覚えのある地名や名所が、ファンタジー風にアレンジされて登場します。 ・セリフをまるごと神戸弁で「セッツ語モード」 全セリフを、作者自らネイティブの神戸弁に書き下ろしたセッツ語モードを搭載。 標準語（ヒョージュン語）とはひと味違う、セッツの人々の本当の言葉で物語を楽しめます。 ・英語にも対応 タイトル画面で日本語／セッツ語／Englishを切り替えられます。 ・自由に歩いて、調べて、集める探索 宝箱探しや、住民との会話による情報収集など、あちこち歩き回るほど発見があります。 各地に散らばる「しおり」を集めてオオクラヤマ図書館の司書に届けると、ごほうびがもらえることも。 ・選択と結末 物語の結末はひとつではありません。 真のエンディングにたどり着けるかどうかは、あなた次第です。 ・スマホで快適に遊べる オートセーブ対応。画面パッドとタッチ操作を切り替えられるので、すき間時間にも遊べます。 【安心の買い切り】 ・広告なし ・追加課金なし ・オフラインでプレイ可能 【開発】 こゆるぎ工房 https://sites.google.com/view/koyurugi-koubou/",
+      "analysis": {
+        "app_key": "apple:6821257259",
+        "summary_ko": "히ョーゴスラビア興亡記는 효고현의 지명과 문화를 모티브로 한 중세 판타지 RPG입니다. 플레이어는 다섯 나라로 구성된 연방 국가를 여행하며 동료를 모으고 이야기를 진행합니다.神戸弁(고베 사투리) 모드와 같은 독특한 언어 설정을 제공하며, 탐색과 수집 요소가 포함된 1인 개발 게임으로 보입니다.",
+        "features_ko": [
+          "효고현의 지형을 본뜬 월드맵에서 자유롭게 탐색하고 정보를 수집합니다.",
+          "모든 대사를 고베 사투리로 변경할 수 있는 세츠어 모드를 지원합니다.",
+          "주민과의 대화 및 보물 상자 탐색을 통해 아이템과 정보를 획득합니다.",
+          "선택지에 따라 결말이 달라지는 멀티 엔딩 시스템을 갖추고 있습니다.",
+          "자동 저장 및 터치/패드 조작 전환을 통해 모바일 환경에 최적화되어 있습니다."
+        ],
+        "noteworthy_ko": "지역 특색을 판타지 세계관에 녹여낸 점이 매우 흥미롭습니다. 특히 사투리를 게임의 핵심 언어 모드로 채택한 것은 단순한 번역을 넘어선 독특한 사용자 경험을 제공하려는 시도로 보입니다.",
+        "development_ko": "RPG 메이커나 유사한 엔진을 활용하여 맵과 대화 이벤트를 구성하는 것이 핵심입니다. 사투리 텍스트 데이터 관리와 멀티 엔딩을 위한 분기점 설계가 제작 부담의 큰 부분을 차지할 것입니다. 밸런스 테스트는 탐색 요소와 전투 난이도 간의 조화에 집중해야 합니다.",
+        "idea_ko": "특정 지역의 방언이나 문화를 학습할 수 있는 교육용 RPG 요소 결합.",
+        "highlights_ko": [
+          "효고현의 실제 지명을 활용한 판타지 세계관과 월드맵 구성.",
+          "고베 사투리를 전면 지원하는 세츠어 모드 탑재."
+        ],
+        "systems_ko": [
+          "대화 및 이벤트 스크립트 시스템",
+          "월드맵 탐색 및 상호작용 시스템",
+          "데이터 기반의 다국어/방언 관리 시스템",
+          "멀티 엔딩 분기 관리 시스템",
+          "자동 저장 및 세이브 데이터 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기본적인 RPG 구조는 엔진을 활용해 구현 가능하지만, 방대한 텍스트와 분기점 관리, 그리고 지역적 특색을 살린 월드맵 디자인에 많은 시간이 소요됩니다. 1인 개발 시 콘텐츠의 양과 질을 조절하는 것이 관건입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이동 및 대화 시스템",
+            "퀘스트 진행을 위한 이벤트 트리거",
+            "간단한 인벤토리 및 아이템 수집"
+          ],
+          "defer": [
+            "다국어 지원(영어 등)",
+            "복잡한 전투 시스템",
+            "방대한 서브 퀘스트"
+          ],
+          "risks": [
+            "방대한 텍스트 작성으로 인한 개발 지연",
+            "분기점 설계 오류로 인한 스토리 진행 불가"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지역 문화 도감",
+            "concept": "게임 내 등장하는 지명이나 사투리의 실제 유래를 설명해주는 도감 시스템입니다.",
+            "first_step": "아이템 설명창에 유래 정보를 표시하는 간단한 텍스트 팝업을 구현합니다."
+          },
+          {
+            "title": "사투리 퀴즈 이벤트",
+            "concept": "NPC가 사투리로 낸 퀴즈를 맞히면 보상을 주는 미니 게임입니다.",
+            "first_step": "선택지 기반의 간단한 퀴즈 로직을 이벤트 시스템에 추가합니다."
+          }
+        ],
+        "recommendation_ko": "자신만의 세계관을 구축하고 텍스트 중심의 스토리텔링을 연습하고 싶은 개발자에게 추천합니다. 지역적 특색을 게임에 녹여내는 기획 방식을 배울 수 있는 좋은 사례입니다.",
+        "source_limitations_ko": "소개문에는 전투 시스템의 구체적인 방식(턴제, 실시간 등)이 명시되어 있지 않습니다. 또한 게임 엔진의 종류나 데이터 저장 방식에 대한 정보가 부족합니다.",
+        "name": "ヒョーゴスラビア興亡記",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%83%92%E3%83%A7%E3%83%BC%E3%82%B4%E3%82%B9%E3%83%A9%E3%83%93%E3%82%A2%E8%88%88%E4%BA%A1%E8%A8%98/id6821257259?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 198,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 14,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "google:com.all.hd.video.downloader.videodownloader": {
+      "app_key": "google:com.all.hd.video.downloader.videodownloader",
+      "name": "All HD Video Downloader",
+      "developer": "Tool Apps Good",
+      "source": "google",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.all.hd.video.downloader.videodownloader&hl=ko&gl=KR",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:24:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "All HD Video Downloader는 지원되는 온라인 비디오를 기기에 저장하고 오프라인에서 시청할 수 있도록 도와줍니다. 내장 브라우저, 간편한 다운로드 관리자, 오프라인 비디오 플레이어 등 필요한 모든 기능을 한 곳에서 이용할 수 있습니다. 주요 기능 간편한 다운로드 • 몇 번의 탭으로 지원되는 비디오 저장 • 소스 웹사이트에서 제공하는 경우 사용 가능한 화질 및 형식 선택 • 일시 중지 및 재개가 가능한 안정적인 다운로드 내장 브라우저 • 앱 내에서 지원되는 웹사이트 탐색 • 다운로드 가능한 미디어 자동 감지 • 지원되는 비디오 링크를 붙여넣어 다운로드 시작 다운로드 관리자 • 현재 및 완료된 다운로드를 한 곳에서 확인 • 다운로드 일시 중지, 재개 또는 삭제 • 실시간 진행률 및 속도 추적 • 백그라운드에서 다운로드 계속 진행 오프라인 플레이어 • 인터넷 연결 없이 저장된 비디오 시청 • 간편하고 부드러운 재생 • 저장된 파일을 쉽게 정리 및 관리 사용 방법 1. 앱을 열고 지원되는 웹사이트를 탐색하거나 지원되는 비디오 링크를 붙여넣으세요. 2. 다운로드 가능한 미디어가 감지되면 원하는 파일을 선택하세요. 3. 다운로드를 탭하여 기기에 저장하세요. 4. 인터넷 연결 없이도 언제든지 시청할 수 있습니다. 중요 정보 • 이 앱은 독립적인 앱입니다. 어떠한 웹사이트, 플랫폼 또는 콘텐츠 소유자와도 제휴, 보증 또는 후원 관계가 없습니다. • 본인이 소유하거나 다운로드 권한이 있는 콘텐츠만 다운로드하세요. 각 웹사이트의 저작권 및 서비스 약관을 준수해 주시기 바랍니다. • 저작권이 있는 콘텐츠를 허가 없이 다운로드하는 것은 불법일 수 있습니다. • 서비스 약관에서 다운로드를 금지하는 웹사이트의 콘텐츠에서는 다운로드가 불가능합니다. • 다운로드 가능 여부 및 비디오 품질은 출처 웹사이트에 따라 다릅니다. • 웹사이트에서 다운로드를 제한하려는 콘텐츠 소유자는 저희에게 연락해 주시면 신속하게 답변드리겠습니다.",
+      "analysis": {
+        "app_key": "google:com.all.hd.video.downloader.videodownloader",
+        "summary_ko": "All HD Video Downloader는 온라인 비디오를 기기에 저장하여 오프라인에서 시청할 수 있게 돕는 도구 앱입니다. 내장 브라우저를 통해 웹사이트를 탐색하고 미디어를 감지하여 다운로드할 수 있습니다. 다운로드 관리자와 오프라인 플레이어를 포함하여 미디어 관리의 편의성을 제공합니다.",
+        "features_ko": [
+          "내장 브라우저를 통해 지원되는 웹사이트를 탐색하고 미디어를 자동으로 감지합니다.",
+          "다운로드 중인 파일의 진행률과 속도를 실시간으로 확인하고 관리할 수 있습니다.",
+          "다운로드 일시 중지, 재개 및 삭제 기능을 통해 유연한 파일 관리를 지원합니다.",
+          "저장된 비디오를 인터넷 연결 없이 재생할 수 있는 오프라인 플레이어를 제공합니다."
+        ],
+        "noteworthy_ko": "웹 페이지 내 미디어 소스를 동적으로 감지하는 기술이 핵심입니다. 이는 웹뷰 내에서 네트워크 요청을 가로채거나 DOM을 파싱하는 구현이 필요할 것으로 추정됩니다.",
+        "development_ko": "핵심 구현 기술은 웹뷰 기반의 미디어 URL 추출 및 파일 다운로드 스트림 처리입니다. 콘텐츠 제작 부담은 낮으나, 다양한 웹사이트의 구조 변화에 대응하는 유지보수 부담이 큽니다. 테스트 시 다양한 비디오 포맷과 네트워크 환경에서의 안정성 확보가 중요합니다.",
+        "idea_ko": "특정 웹사이트 전용이 아닌, 사용자가 즐겨찾는 미디어 소스를 관리하는 개인용 아카이빙 도구로 발전시키는 것이 적합합니다.",
+        "highlights_ko": [
+          "사용자가 직접 비디오 링크를 붙여넣거나 브라우저를 통해 간편하게 미디어를 확보할 수 있습니다.",
+          "백그라운드 다운로드 기능을 통해 앱을 나간 상태에서도 작업이 지속됩니다."
+        ],
+        "systems_ko": [
+          "웹뷰 미디어 감지 시스템",
+          "파일 다운로드 관리자",
+          "로컬 파일 저장소 관리",
+          "비디오 재생 엔진",
+          "네트워크 상태 모니터링"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "웹사이트마다 다른 미디어 구조를 파싱해야 하며, 저작권 및 서비스 약관 준수 등 법적·기술적 제약 사항이 많아 구현 난이도가 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "웹뷰 구현",
+            "파일 다운로드 및 저장 기능",
+            "로컬 비디오 재생기"
+          ],
+          "defer": [
+            "다양한 화질 선택 기능",
+            "백그라운드 다운로드 최적화"
+          ],
+          "risks": [
+            "웹사이트 구조 변경에 따른 기능 마비",
+            "저작권 관련 정책 위반 위험"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "개인용 미디어 북마크 매니저",
+            "concept": "다운로드 대신 특정 미디어의 메타데이터와 링크를 저장하여 나중에 다시 볼 수 있게 관리하는 도구입니다.",
+            "first_step": "웹 페이지의 URL을 입력받아 제목과 썸네일을 추출하여 리스트로 저장하는 기능을 구현합니다."
+          },
+          {
+            "title": "오프라인 재생 전용 플레이어",
+            "concept": "다운로드 기능은 제외하고, 기기에 이미 저장된 비디오 파일들을 폴더별로 깔끔하게 정리해주는 플레이어입니다.",
+            "first_step": "기기 내 비디오 파일을 스캔하여 리스트로 보여주고 재생하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "웹뷰와 로컬 파일 시스템의 상호작용을 배우기에 좋습니다. 다만, 외부 웹사이트 의존도가 높아 서비스 운영보다는 기술 학습용으로 추천합니다.",
+        "source_limitations_ko": "소개문에 명시된 '지원되는 웹사이트'의 구체적인 목록이나 기술적 사양은 알 수 없습니다. 결제나 외부 API 연동 여부는 확인되지 않습니다.",
+        "name": "All HD Video Downloader",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.all.hd.video.downloader.videodownloader&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 183,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "apple:1630969055": {
+      "app_key": "apple:1630969055",
+      "name": "DREST: Fashion Dress Up Game",
+      "developer": "Drest Limited",
+      "source": "apple",
+      "country": "US",
+      "category": "game_rpg",
+      "detail_url": "https://apps.apple.com/us/app/drest-fashion-dress-up-game/id1630969055?uo=2",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:26:01+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Get DREST - step into the world’s top fashion styling game Learn to style like a fashion editor and create your own luxury fashion, beauty and lifestyle ‘looks’. Style, compete and win using current-season virtual pieces from the world’s most iconic brands, including Gucci, Balmain, Tom Ford, McQueen, Victoria Beckham and more. Take on daily styling challenges inspired by real-time fashion news: new product launches, red-carpet moments and street-style trends. Create head-turning looks like a top fashion stylist, submit your creations, earn rewards and climb the leaderboards. Discover the latest luxury collections, express your creativity and prove your fashion skills in a global community of style lovers. Download DREST now and start styling to win. STYLE WITH THE WORLD’S LEADING DESIGNERS - Discover new season products as they land from luxury brands like Gucci, Prada, Burberry, Stella McCartney, Bottega Veneta, Victoria Beckham, Manolo Blahnik. - Experiment with different trends and aesthetics by styling real runway collections on a diverse selection of models. - Create elevated luxury ‘looks’ with the most iconic fashion, jewellery, accessories, hair and makeup. - Explore your favourite designers and discover the newest brands as their collections drop into stores. - Express your own personal style story, inspired by the most exciting fashion, beauty and lifestyle moments of the season. - Become a fashion insider with live editorial content bringing you the latest fashion news, trends and stories. BRING YOUR STYLING A-GAME TO EARN YOUR PLACE AMONG DREST’S TOP TALENT - Take part in exclusive styling challenges inspired by luxury fashion editorials and global events. - Showcase your creative eye, rise through the stylist ranks and gain credibility within the DREST community. - Earn rewards as you master the art of fashion styling with live, virtual products. PERFECT THE ART OF BEAUTY - Discover the latest beauty must-haves via runway-inspired makeup and hair looks. - Experiment with polished, contemporary or timeless makeup looks. - Get to know the A-list pro hairstylists and their products. - Be inspired by the newest beauty trends and redefine your signature style. IMMERSE YOURSELF IN A WORLD OF STYLE - Style editorial shoots in breathtaking global locations. - Create inspirational looks for luxury campaigns, catwalk moments and red-carpet events. - Reimagine iconic fashion and film moments and add your own creative direction. Download DREST now and begin your journey to becoming one of the world’s most standout stylists.",
+      "analysis": {
+        "app_key": "apple:1630969055",
+        "summary_ko": "DREST는 실제 명품 브랜드의 의상을 활용하여 스타일링을 즐기는 패션 게임입니다. 사용자는 패션 에디터가 되어 다양한 챌린지에 참여하고 자신의 스타일링을 뽐낼 수 있습니다. 최신 패션 트렌드를 반영한 챌린지를 통해 보상을 얻고 리더보드에서 경쟁합니다.",
+        "features_ko": [
+          "구찌, 프라다 등 실제 명품 브랜드의 의상을 활용한 스타일링이 가능합니다.",
+          "실시간 패션 뉴스에 기반한 일일 스타일링 챌린지를 제공합니다.",
+          "모델의 헤어, 메이크업, 액세서리까지 세밀하게 커스터마이징할 수 있습니다.",
+          "글로벌 커뮤니티에서 자신의 스타일링을 공유하고 평가받을 수 있습니다."
+        ],
+        "noteworthy_ko": "실제 브랜드와의 협업을 통해 현실감 있는 패션 경험을 제공하는 점이 특징입니다. 패션 에디터라는 역할을 부여하여 단순한 옷 입히기를 넘어선 전문적인 경험을 강조합니다.",
+        "development_ko": "고품질 3D 모델링과 텍스처 최적화가 필수적입니다. 다양한 의상 조합을 처리하는 데이터 구조와 렌더링 엔진이 중요하며, 글로벌 서비스에 대응하는 서버 인프라가 필요합니다. 밸런스 측면에서는 챌린지 평가 시스템의 공정성을 확보하는 것이 중요합니다.",
+        "idea_ko": "사용자가 직접 패션 화보를 촬영하고 잡지 레이아웃을 구성하는 기능입니다.",
+        "highlights_ko": [
+          "실제 명품 브랜드 의상을 활용한 높은 현실감입니다.",
+          "패션 에디터 경험을 강조한 전문적인 챌린지 시스템입니다."
+        ],
+        "systems_ko": [
+          "3D 캐릭터 및 의상 렌더링 엔진",
+          "스타일링 데이터 관리 시스템",
+          "챌린지 및 평가 시스템",
+          "글로벌 리더보드 및 소셜 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "고품질 3D 그래픽 구현과 방대한 의상 데이터 관리, 그리고 글로벌 서버 운영은 1인 개발자에게 매우 높은 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 스타일링 UI",
+            "의상 데이터베이스",
+            "기본 챌린지 모드"
+          ],
+          "defer": [
+            "실시간 글로벌 리더보드",
+            "복잡한 소셜 커뮤니티 기능"
+          ],
+          "risks": [
+            "브랜드 라이선스 확보",
+            "고사양 그래픽 최적화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "나만의 패션 잡지",
+            "concept": "스타일링한 결과물을 잡지 표지처럼 디자인하여 공유하는 기능입니다.",
+            "first_step": "이미지 편집 및 텍스트 추가 기능을 구현합니다."
+          },
+          {
+            "title": "트렌드 분석기",
+            "concept": "사용자들이 가장 많이 선택한 아이템을 분석하여 트렌드를 보여주는 기능입니다.",
+            "first_step": "아이템 선택 데이터를 집계하는 간단한 통계 기능을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "3D 그래픽 최적화와 데이터 기반의 게임 디자인을 배우기에 좋습니다. 패션이나 디자인 분야에 관심 있는 개발자에게 추천합니다.",
+        "source_limitations_ko": "실제 브랜드와의 계약 방식이나 앱 내 결제 시스템의 상세 구현은 확인되지 않았습니다.",
+        "name": "DREST: Fashion Dress Up Game",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/drest-fashion-dress-up-game/id1630969055?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
     }
   }
 }

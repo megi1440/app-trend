@@ -12065,6 +12065,276 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-20"
+    },
+    "apple:6502263834": {
+      "app_key": "apple:6502263834",
+      "name": "RP Grand: Open World Game",
+      "developer": "GRAND GAMES AV SP. Z O.O.",
+      "source": "apple",
+      "country": "US",
+      "category": "game_rpg",
+      "detail_url": "https://apps.apple.com/us/app/rp-grand-open-world-game/id6502263834?uo=2",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:26:25+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "RP Grand - Open World Game: Create Your Own Destiny! Welcome to RP Grand, a world where you write your own story! Explore a vast open city, choose your path, and rise to the top. Start from nothing and become whoever you want: a successful entrepreneur, a powerful crime boss, a fearless street racer, or a dedicated law enforcer. What Awaits You: A Massive Living World – Explore a dynamic city full of missions, events, and players. Cars & Racing – Buy, customize, upgrade your vehicles, and compete in thrilling races. Economy & Business – Run your own company, own real estate, and build your financial empire. Gangs & Law Enforcement – Choose your side: uphold the law or take over the streets. Challenges & Arena Battles – Engage in shootouts, duels, and intense battles for dominance. Parkour & Quests – Complete exciting challenges and earn valuable rewards. Full Character Customization – Create a unique look and build your reputation. Exclusive Events & Rewards – Participate in special events to unlock rare items. Multiplayer Interaction – Team up with friends, make allies, or compete against rivals in a world full of real players. RP Grand is more than just a game—it’s your second life. Will you rise from the streets to the top? Choose your path and start your adventure now!",
+      "analysis": {
+        "app_key": "apple:6502263834",
+        "summary_ko": "RP Grand는 오픈 월드 환경에서 자신만의 이야기를 써 내려가는 RPG 게임입니다. 사용자는 범죄자, 사업가, 경찰 등 다양한 역할을 선택하여 도시에서 성장할 수 있습니다. 차량 커스터마이징, 경제 활동, 멀티플레이어 상호작용을 통해 가상 세계에서의 삶을 경험합니다.",
+        "features_ko": [
+          "방대한 오픈 월드 도시를 탐험하며 다양한 미션과 이벤트를 수행합니다.",
+          "차량을 구매하고 업그레이드하며 레이싱 경기에 참여합니다.",
+          "회사를 운영하거나 부동산을 소유하여 경제적 제국을 건설합니다.",
+          "범죄 조직이나 법 집행 기관 중 진영을 선택하여 활동합니다.",
+          "다른 플레이어와 협력하거나 경쟁하며 실시간 상호작용을 즐깁니다.",
+          "캐릭터의 외형을 자유롭게 커스터마이징하여 개성을 표현합니다."
+        ],
+        "noteworthy_ko": "다양한 직업군과 경제 활동을 결합하여 플레이어에게 높은 자유도를 제공하는 점이 특징입니다. 멀티플레이어 환경에서의 상호작용이 게임의 핵심 재미 요소로 작용합니다.",
+        "development_ko": "오픈 월드 맵 구현과 멀티플레이어 동기화 기술이 가장 큰 도전 과제입니다. 경제 시스템과 퀘스트 관리 등 복잡한 게임 로직을 안정적으로 운영해야 합니다. 1인 개발 시에는 맵의 크기를 제한하거나 핵심 기능 위주로 구현하는 전략이 필요합니다.",
+        "idea_ko": "특정 지역이나 직업에 특화된 소규모 오픈 월드 RPG 제작이 적합합니다.",
+        "highlights_ko": [
+          "다양한 역할 수행이 가능한 자유도 높은 오픈 월드.",
+          "경제 활동과 차량 커스터마이징 등 풍부한 콘텐츠."
+        ],
+        "systems_ko": [
+          "오픈 월드 맵 및 스트리밍 시스템",
+          "멀티플레이어 네트워크 동기화",
+          "차량 물리 엔진",
+          "경제 및 인벤토리 시스템",
+          "퀘스트 및 이벤트 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "오픈 월드와 멀티플레이어 구현은 기술적 난이도가 매우 높습니다. 방대한 리소스 제작과 네트워크 최적화는 1인 개발자가 감당하기에 매우 큰 부담입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 상호작용",
+            "기본적인 차량 운전",
+            "간단한 퀘스트 시스템"
+          ],
+          "defer": [
+            "대규모 멀티플레이어 서버",
+            "복잡한 경제 시뮬레이션",
+            "고품질 그래픽 리소스"
+          ],
+          "risks": [
+            "네트워크 동기화 문제",
+            "콘텐츠 부족으로 인한 오픈 월드의 공허함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "택배 배달 시뮬레이터",
+            "concept": "작은 마을에서 택배를 배달하며 돈을 벌고 차량을 업그레이드하는 게임입니다. 배달 경로 최적화와 시간 제한이 핵심입니다.",
+            "first_step": "차량 운전 시스템과 간단한 배달 퀘스트 로직 구현."
+          },
+          {
+            "title": "도시 청소부 RPG",
+            "concept": "도시의 쓰레기를 치우고 환경을 개선하는 게임입니다. 청소할수록 도시의 모습이 변하고 주민들의 반응이 달라집니다.",
+            "first_step": "오브젝트 제거 시스템과 환경 변화 트리거 구현."
+          }
+        ],
+        "recommendation_ko": "오픈 월드 게임의 기본 구조와 네트워크 통신을 공부하기에 좋습니다. 하지만 1인 개발로는 완성하기 어려우므로, 맵을 작게 줄인 프로토타입부터 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 멀티플레이어 서버의 구조나 경제 시스템의 밸런스, 구체적인 물리 엔진 구현 방식에 대한 정보가 없습니다.",
+        "name": "RP Grand: Open World Game",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/rp-grand-open-world-game/id6502263834?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "apple:6835619709": {
+      "app_key": "apple:6835619709",
+      "name": "On Pace: Steps vs Average",
+      "developer": "ALEJANDRO LOPEZ ALBERTOS",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/on-pace-steps-vs-average/id6835619709",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:26:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Are you walking more or less than usual today? One glance at your wrist answers it. On Pace draws the comparison you know from the Health app (today so far against your average day) and puts it where you actually look: on your Apple Watch face and on your iPhone Home Screen. THE GRAPH, ON YOUR WATCH FACE An orange line for today, a grey line for your average, and the two numbers that matter. It fits the large rectangular slot of Modular and Infograph Modular, and the Smart Stack. Smaller slots show how far along your usual pace you are. THE SAME NUMBERS AS THE HEALTH APP The day graph averages the previous four weeks, hour by hour, exactly as Health does. What you see on your wrist matches what you see in Health. DAY, WEEK, MONTH AND YEAR This week against your usual week. This month against your usual month. This year against the years before it. LIKE WITH LIKE Mondays are not Saturdays. Compare today with the same day of the week, or this November with your other Novembers. BARS, TOO Hours of today, the last seven days, the last twelve weeks or months, side by side with their average. NOT ONLY STEPS Distance, active energy and flights climbed get the same graphs. If you use a wheelchair, it counts pushes and wheelchair distance instead. WIDGETS ON IPHONE Home Screen and Lock Screen widgets with the same comparison. PRIVATE BY DESIGN On Pace reads your activity from Apple Health, with your permission, and never writes to it. Your data stays on your iPhone and your Apple Watch. No account, no servers, no analytics, no ads. Apple Watch is optional: the iPhone app and widgets work on their own.",
+      "analysis": {
+        "app_key": "apple:6835619709",
+        "summary_ko": "사용자의 활동 데이터를 애플 건강 앱과 비교하여 현재 활동 수준을 실시간으로 보여주는 앱입니다. 걸음 수, 거리, 활동 에너지 등을 평균치와 비교하여 시각화하며, 위젯과 애플 워치 페이스를 통해 간편하게 확인할 수 있습니다. 개인정보 보호를 위해 모든 데이터는 기기 내에서만 처리됩니다.",
+        "features_ko": [
+          "애플 건강 앱의 데이터를 읽어와 평균 활동량과 현재 활동량을 비교합니다.",
+          "애플 워치 페이스와 아이폰 홈 화면 위젯을 통해 데이터를 시각화합니다.",
+          "시간별, 일별, 주별, 월별 등 다양한 단위로 활동 데이터를 비교합니다.",
+          "걸음 수뿐만 아니라 거리, 활동 에너지, 오른 층수 등 다양한 지표를 지원합니다.",
+          "휠체어 사용자를 위한 전용 활동 측정 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "건강 앱의 데이터를 읽어와 사용자가 가장 자주 보는 곳(워치 페이스, 위젯)에 정보를 배치하는 사용자 경험 설계가 매우 뛰어납니다. 복잡한 분석보다 직관적인 비교를 제공하는 점이 흥미롭습니다.",
+        "development_ko": "HealthKit API 연동이 핵심이며, 데이터 권한 요청과 읽기 로직 구현이 필요합니다. 위젯과 워치 페이스의 데이터 업데이트 주기 관리와 배터리 효율을 고려한 최적화가 중요합니다. 테스트 시에는 다양한 활동 데이터가 없는 경우의 예외 처리를 꼼꼼히 해야 합니다.",
+        "idea_ko": "사용자의 활동량이 평균보다 낮을 때, 간단한 스트레칭이나 산책을 제안하는 알림 기능을 추가하여 건강 관리를 독려하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "애플 건강 앱과 연동하여 별도의 데이터 입력 없이 즉시 사용 가능합니다.",
+          "개인정보 보호를 위해 서버를 거치지 않고 기기 내에서만 데이터를 처리합니다."
+        ],
+        "systems_ko": [
+          "HealthKit 데이터 연동 시스템",
+          "데이터 비교 및 통계 처리 시스템",
+          "위젯 및 워치 페이스 UI 시스템",
+          "데이터 시각화(그래프) 시스템",
+          "사용자 설정 및 권한 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "HealthKit API의 사용법을 익히는 것이 관건이지만, 데이터 처리 로직 자체가 복잡하지 않고 UI 중심의 앱이기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "HealthKit 권한 요청 및 데이터 읽기",
+            "오늘의 활동량과 평균 활동량 비교 로직",
+            "기본 위젯 표시 기능"
+          ],
+          "defer": [
+            "휠체어 사용자 전용 모드",
+            "연간 단위 데이터 비교"
+          ],
+          "risks": [
+            "HealthKit 데이터 권한 거부 시 앱 기능 제한",
+            "위젯 업데이트 지연 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "활동 목표 달성 알림",
+            "concept": "평균 활동량을 초과 달성했을 때 사용자에게 축하 알림을 보내 성취감을 제공합니다.",
+            "first_step": "현재 활동량이 평균을 넘는 순간을 감지하는 로직을 구현합니다."
+          },
+          {
+            "title": "활동 리포트 공유",
+            "concept": "주간 활동 요약을 이미지로 생성하여 SNS에 공유할 수 있는 기능을 제공합니다.",
+            "first_step": "통계 데이터를 바탕으로 간단한 요약 텍스트를 생성하는 기능을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "애플의 건강 프레임워크를 활용한 앱 개발을 배우고 싶은 개발자에게 추천합니다. 데이터 시각화와 위젯 구현의 기초를 익히기에 매우 좋습니다.",
+        "source_limitations_ko": "소개문에는 HealthKit 데이터의 구체적인 처리 방식이나 예외 상황에 대한 정보가 없습니다. 서버 연동이나 결제 기능은 없으며, 보안은 기기 내 처리에 의존합니다.",
+        "name": "On Pace: Steps vs Average",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/on-pace-steps-vs-average/id6835619709",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "google:com.mystery.dumpling.diy.squishy.unboxing.asmr": {
+      "app_key": "google:com.mystery.dumpling.diy.squishy.unboxing.asmr",
+      "name": "Mystery Dumpling: DIY ASMR",
+      "developer": "BLACKGEMS GLOBAL JOINT STOCK COMPANY",
+      "source": "google",
+      "country": "KR",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.mystery.dumpling.diy.squishy.unboxing.asmr&hl=ko&gl=KR",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:27:42+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "미스터리 만두: DIY ASMR에 오신 것을 환영합니다! 귀여운 만두와 깜짝 놀랄 만한 요소들, 그리고 편안한 ASMR이 가득한 만족스러운 언박싱 모험을 즐겨보세요! 만두피를 벗기고 대나무 찜기를 열어 안에 숨겨진 비밀 만두를 확인해 보세요! 만두를 발견하고, 모으고, 귀여운 캐릭터들을 완성하며 만족스러운 DIY 언박싱 효과를 경험해 보세요. 🥟 미스터리 만두 언박싱 깜짝 상자를 열고 매번 새로운 만두를 발견해 보세요. 각 상자마다 특별한 무언가를 찾을 수 있는 기회가 기다리고 있답니다! 🎁 희귀 만두 모으기 일반, 희귀, 에픽, 전설 등급의 만두는 물론, 초희귀 무지개 만두와 황금 만두까지 다양한 만두를 만나보세요! ✨ 편안한 DIY & ASMR 경험 잔잔한 언박싱 사운드, 귀여운 애니메이션, 다채로운 색감, 그리고 만족스러운 개봉 효과를 즐겨보세요. 탭할 때마다 작은 기쁨이 기다립니다! 🌈 컬렉션을 완성하세요! 모든 만두를 모으고, 특별한 비밀 만두를 잠금 해제하고, 모든 미스터리 테마를 완료하세요. 모두 찾을 수 있을까요? 게임 특징: 🥟 재미있는 미스터리 만두 언박싱 🎁 귀여운 캐릭터가 들어있는 깜짝 블라인드 박스 🎧 편안한 DIY와 만족스러운 ASMR 사운드 🌈 희귀한 무지개 만두와 황금 만두 ⭐ 일반, 희귀, 에픽, 전설 컬렉션 🏆 특별한 비밀 만두 잠금 해제 ✨ 사랑스러운 애니메이션과 다채로운 서프라이즈 귀엽고 편안한 서프라이즈를 경험할 준비가 되셨나요? 지금 바로 미스터리 만두: DIY ASMR을 플레이하고, 매번 새로운 미스터리 언박싱의 즐거움을 발견하세요!",
+      "analysis": {
+        "app_key": "google:com.mystery.dumpling.diy.squishy.unboxing.asmr",
+        "summary_ko": "미스터리 만두: DIY ASMR은 만두 상자를 열어 다양한 캐릭터를 수집하는 언박싱 시뮬레이션 게임입니다. 만두피를 벗기고 찜기를 여는 과정에서 만족스러운 ASMR 사운드와 시각적 효과를 제공합니다. 희귀도에 따라 만두를 수집하고 컬렉션을 완성하는 재미를 느낄 수 있습니다.",
+        "features_ko": [
+          "만두피를 벗기고 찜기를 여는 언박싱 과정을 시뮬레이션합니다.",
+          "일반부터 전설, 무지개, 황금 만두까지 다양한 등급의 캐릭터를 수집합니다.",
+          "언박싱 과정에서 만족감을 주는 ASMR 사운드와 애니메이션을 제공합니다.",
+          "수집한 만두를 통해 컬렉션을 완성하고 비밀 만두를 잠금 해제합니다."
+        ],
+        "noteworthy_ko": "단순한 언박싱 행위에 ASMR 요소를 결합하여 사용자에게 심리적 만족감을 주는 것이 특징입니다. 수집형 요소와 결합하여 반복적인 플레이를 유도하는 구조가 개발 관점에서 흥미롭습니다.",
+        "development_ko": "만족스러운 촉각과 청각 피드백을 구현하기 위한 사운드 디자인과 애니메이션 연동이 핵심입니다. 수집 데이터 관리와 확률 기반의 보상 시스템 구현이 필요합니다. 비교적 적은 콘텐츠로도 반복 플레이를 유도할 수 있어 1인 개발에 적합한 규모입니다.",
+        "idea_ko": "언박싱한 만두를 활용하여 나만의 만두 가게를 꾸미거나, 만두를 조합하여 새로운 희귀 만두를 만드는 합성 시스템을 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "언박싱 과정의 시각적, 청각적 만족감을 극대화한 ASMR 경험.",
+          "희귀도별 수집욕을 자극하는 다양한 캐릭터 컬렉션."
+        ],
+        "systems_ko": [
+          "확률 기반의 아이템 드롭 시스템",
+          "데이터 저장 및 컬렉션 관리 시스템",
+          "ASMR 사운드 트리거 및 재생 시스템",
+          "UI 애니메이션 및 상호작용 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 단순하고 물리 연산이 복잡하지 않아 1인 개발로 충분히 구현 가능합니다. 그래픽과 사운드의 퀄리티가 게임의 재미를 결정하는 핵심 요소입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "만두 언박싱 애니메이션",
+            "랜덤 아이템 획득 로직",
+            "수집 목록 UI"
+          ],
+          "defer": [
+            "복잡한 소셜 기능",
+            "실시간 서버 연동"
+          ],
+          "risks": [
+            "반복적인 플레이로 인한 콘텐츠 소모 속도 문제",
+            "사운드 피드백의 만족도 조절"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "만두 합성 연구소",
+            "concept": "수집한 만두들을 합성하여 더 높은 등급의 만두를 만드는 시스템입니다. 특정 조합법을 찾아내는 재미를 제공합니다.",
+            "first_step": "두 개의 아이템을 선택하여 새로운 아이템을 생성하는 로직 구현."
+          },
+          {
+            "title": "만두 가게 꾸미기",
+            "concept": "수집한 만두를 전시할 수 있는 나만의 가게를 꾸미는 모드입니다. 가구 배치와 인테리어 요소를 추가합니다.",
+            "first_step": "아이템을 화면에 배치하고 저장하는 간단한 그리드 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "간단한 메커니즘으로 사용자에게 만족감을 주는 게임 디자인을 배우기에 좋습니다. 1인 개발자가 시각적, 청각적 디테일에 집중하여 완성도를 높이는 연습을 하기에 적합합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 확률 데이터, 사운드 리소스의 출처, 결제 시스템 여부가 명시되어 있지 않습니다. 실제 게임 내 수집 요소의 개수나 업데이트 주기는 확인이 불가능합니다.",
+        "name": "Mystery Dumpling: DIY ASMR",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.mystery.dumpling.diy.squishy.unboxing.asmr&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
     }
   }
 }

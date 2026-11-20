@@ -12187,6 +12187,183 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-20"
+    },
+    "itch:532bd44c78ff9df77fee": {
+      "app_key": "itch:532bd44c78ff9df77fee",
+      "name": "Pixel Nuée [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://nevil511.itch.io/pixel-nuee",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:22:43+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "EN : A contemplative incremental game where thousands of pixels clash in swarms.",
+      "analysis": {
+        "app_key": "itch:532bd44c78ff9df77fee",
+        "summary_ko": "수천 개의 픽셀이 무리를 지어 충돌하는 모습을 관찰하는 증분형 게임입니다. 복잡한 조작 없이 픽셀들의 움직임을 감상하는 명상적인 경험을 제공합니다.",
+        "features_ko": [
+          "수천 개의 픽셀이 군집을 이루어 움직입니다.",
+          "픽셀 간의 충돌과 상호작용을 시각화합니다.",
+          "사용자가 개입하여 픽셀의 흐름을 변화시킬 수 있습니다."
+        ],
+        "noteworthy_ko": "대량의 객체를 실시간으로 처리하는 최적화 기술이 핵심입니다. 단순한 시각적 효과를 게임화한 점이 흥미로우며, 1인 개발 시 성능 최적화 공부에 큰 도움이 됩니다.",
+        "development_ko": "대량의 객체 처리를 위한 효율적인 렌더링 기술이 필요합니다. 콘텐츠 제작보다는 물리 연산 최적화와 시각적 효과의 조화가 중요합니다.",
+        "idea_ko": "픽셀의 색상이나 형태가 충돌 횟수에 따라 변하는 시스템을 제안합니다.",
+        "highlights_ko": [
+          "수천 개의 객체를 동시에 처리하는 시각적 장관을 제공합니다.",
+          "명상적이고 정적인 게임 플레이 경험을 강조합니다."
+        ],
+        "systems_ko": [
+          "객체 풀링 시스템",
+          "실시간 물리 충돌 엔진",
+          "렌더링 최적화 시스템",
+          "사용자 입력 처리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "수천 개의 객체를 성능 저하 없이 처리하는 최적화 기술은 초보자에게 높은 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "대량 객체 생성 및 이동 로직",
+            "기본 충돌 감지 시스템"
+          ],
+          "defer": [
+            "복잡한 사용자 상호작용",
+            "다양한 픽셀 형태 변화"
+          ],
+          "risks": [
+            "성능 최적화 실패 시 프레임 드랍 발생"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "픽셀 군집 음악",
+            "concept": "픽셀이 충돌할 때마다 소리가 나며, 군집의 형태에 따라 음악이 변하는 시스템입니다.",
+            "first_step": "충돌 이벤트 발생 시 사운드 재생 기능을 구현합니다."
+          },
+          {
+            "title": "색상 혼합 시뮬레이션",
+            "concept": "서로 다른 색의 픽셀이 충돌하면 색이 섞이는 시스템입니다.",
+            "first_step": "픽셀 객체에 RGB 값을 부여하고 충돌 시 평균값을 계산합니다."
+          }
+        ],
+        "recommendation_ko": "성능 최적화와 그래픽 프로그래밍에 관심 있는 개발자에게 추천합니다. 단순한 시스템으로도 시각적 만족감을 주는 방법을 배울 수 있습니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 상호작용 방식, 승리 조건, 게임의 목적 등을 확인할 수 없습니다.",
+        "name": "Pixel Nuée [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://nevil511.itch.io/pixel-nuee",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 293,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "apple:6836221567": {
+      "app_key": "apple:6836221567",
+      "name": "Kstep: Video & Camera Moves",
+      "developer": "DYLVAN RORRER",
+      "source": "apple",
+      "country": "JP",
+      "category": "app_tools",
+      "detail_url": "https://apps.apple.com/jp/app/kstep-video-camera-moves/id6836221567?uo=2",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:27:16+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Give each camera move a clear plan and each take a careful review. Kstep brings video files, editing tools and phone filmmaking practice together, so you can move from opening a clip to studying the shot and sharing what you noticed. Open and organize your footage Import a video from Files or Photos and work with a separate local copy. Find recently opened videos with real thumbnails and file names. Search your library and browse imports, offline videos, exports and favorites. Open supported video links and save eligible videos for offline playback. Look closely at the movement Play, pause and scrub through your footage. Adjust playback speed, save a named range and loop the section you want to study. Revisit the same moment to examine framing, timing, focus and subject movement. Saved ranges stay with the video and can be used as the starting point for a trim. Compare a shot in three frames Inspect the start, middle and end of a marked range together. With Kstep Plus, export the frames as separate JPEG images or create one comparison image with the range name and timestamps. Share it with a friend or collaborator to discuss exactly where a camera move works and where the next take could improve. Shape the clip Trim a video, change its speed, rotate or mirror the image, and choose an original, portrait, square or landscape frame. Preview your changes before exporting. Kstep Plus includes MP4 video export up to 1080p and M4A audio extraction. Finished video and audio files appear in Exports and can be shared or saved through the system share sheet. Turn a guide into your own practice Explore follow, reveal and parallax examples with clear shooting steps. Plan a camera movement, target duration and focus choice, then film with your camera app. Log takes, outcomes and notes, and import your recording directly into the practice record. Mark a section, loop it and compare its frames while the planned shot is still fresh. Keep useful details for the next take Filter practice records by movement or find sessions still waiting for a video. Export a practice record as CSV, and use Plus shot presets to reuse movement, duration and focus settings. Share an edited clip or comparison image through the apps you choose and bring specific visual details into the conversation. Subscription Information Kstep Plus is an optional auto-renewable subscription that removes daily online viewing and offline download limits and unlocks video and audio exports, JPEG stills, three-frame comparison images and saved shot presets. Plus also skips opening ads. Downloads and exports depend on supported formats and source availability. - Kstep Plus Monthly: $9.99 per month - Kstep Plus Yearly: $99.99 per year Payment is charged to your Apple Account when you confirm your purchase. Your subscription renews automatically unless canceled at least 24 hours before the end of the current billing period. You can manage or cancel your subscription in your Apple Account settings. Prices shown above are in US dollars. Prices may vary by country or region. The actual price and billing period will be displayed before you confirm your purchase. Website https://www.kstep.site Privacy Policy https://www.kstep.site/privacy.html Terms of Service https://www.kstep.site/terms.html Apple Standard EULA https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "analysis": {
+        "app_key": "apple:6836221567",
+        "summary_ko": "Kstep은 영상 촬영 및 편집을 공부하는 사람들을 위한 도구로, 영상 파일을 분석하고 카메라 움직임을 계획하는 데 도움을 줍니다. 영상의 특정 구간을 반복 재생하거나 프레임을 비교하여 촬영 기법을 연구할 수 있습니다. 촬영 계획을 세우고 실제 결과물과 비교하며 연습 기록을 남길 수 있는 기능을 제공합니다.",
+        "features_ko": [
+          "영상 파일을 가져와 로컬에 저장하고 썸네일과 파일명으로 관리할 수 있습니다.",
+          "영상 재생 속도를 조절하거나 특정 구간을 반복 재생하여 세밀하게 분석할 수 있습니다.",
+          "영상의 시작, 중간, 끝 프레임을 비교하여 촬영 기법을 검토할 수 있습니다.",
+          "영상 자르기, 회전, 미러링 등 기본적인 편집 도구를 제공합니다.",
+          "카메라 움직임 계획을 세우고 실제 촬영 결과와 비교하는 연습 기록 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "영상 분석과 촬영 연습을 하나의 워크플로우로 묶은 점이 독특합니다. 단순히 영상을 보는 것을 넘어, 촬영 계획과 결과를 CSV로 내보내는 등 데이터화하려는 시도가 개발자 관점에서 유용해 보입니다. 이는 영상 제작 교육용 도구로서의 가능성을 보여줍니다.",
+        "development_ko": "영상 파일의 프레임 단위 접근과 재생 제어 기술이 핵심입니다. 영상 편집 및 비교를 위한 UI/UX 설계와 파일 시스템 연동이 중요합니다. CSV 내보내기 및 데이터 관리 기능은 비교적 구현 부담이 적으나, 영상 처리 성능 최적화가 필요합니다.",
+        "idea_ko": "사용자가 촬영한 영상의 카메라 흔들림을 분석하여 안정적인 촬영을 위한 가이드를 제공하는 기능을 시제품으로 만들어 볼 수 있습니다.",
+        "highlights_ko": [
+          "영상 분석을 위한 프레임 비교 및 구간 반복 기능을 제공합니다.",
+          "촬영 계획부터 결과 기록까지의 과정을 체계적으로 관리할 수 있습니다."
+        ],
+        "systems_ko": [
+          "영상 파일 입출력 및 관리 시스템",
+          "프레임 단위 영상 재생 및 제어 엔진",
+          "영상 편집 및 변환 처리 모듈",
+          "사용자 데이터 기록 및 CSV 내보내기",
+          "UI 기반의 영상 분석 도구"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "영상 처리 라이브러리를 활용하면 핵심 기능 구현은 가능합니다. 다만, 다양한 영상 포맷 지원과 부드러운 프레임 제어 인터페이스를 만드는 데 세심한 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "영상 불러오기 및 재생",
+            "구간 반복 및 속도 조절",
+            "프레임 캡처 및 비교 기능"
+          ],
+          "defer": [
+            "고급 영상 편집 도구",
+            "클라우드 동기화",
+            "CSV 내보내기 및 복잡한 데이터 관리"
+          ],
+          "risks": [
+            "다양한 영상 코덱 호환성 문제",
+            "대용량 영상 처리 시 메모리 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "촬영 구도 가이드 오버레이",
+            "concept": "카메라 앱 위에 황금비율이나 3분할 선을 오버레이하여 촬영 구도를 잡도록 돕습니다. 사용자가 미리 설정한 구도와 실제 촬영물을 겹쳐서 확인할 수 있습니다.",
+            "first_step": "카메라 프리뷰 위에 투명한 가이드 라인을 그리는 간단한 앱을 구현합니다."
+          },
+          {
+            "title": "영상 분석 노트",
+            "concept": "영상 특정 타임스탬프에 메모를 남기고, 해당 메모를 클릭하면 즉시 그 지점으로 이동하는 도구입니다. 영상 제작 시 피드백을 주고받을 때 유용합니다.",
+            "first_step": "영상 재생기 하단에 타임스탬프와 메모를 저장하는 리스트 뷰를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "영상 처리와 사용자 인터페이스 설계 경험을 쌓기에 매우 좋은 프로젝트입니다. 영상 제작에 관심이 있다면 실용적인 도구를 직접 만들어 보는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 영상 처리 라이브러리의 종류나 데이터 저장 방식에 대한 정보가 없습니다. 또한, 유료 구독 기능의 결제 연동 방식은 명시되지 않았습니다.",
+        "name": "Kstep: Video & Camera Moves",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/kstep-video-camera-moves/id6836221567?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
     }
   }
 }

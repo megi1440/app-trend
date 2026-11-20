@@ -13132,6 +13132,451 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-20"
+    },
+    "itch:c3bc2ec41a50f061c526": {
+      "app_key": "itch:c3bc2ec41a50f061c526",
+      "name": "Volodyacore [Free] [Action] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://samarello.itch.io/volodyacore",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:22:25+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A chaotic roguelike adventure where every room brings new challenges.",
+      "analysis": {
+        "app_key": "itch:c3bc2ec41a50f061c526",
+        "summary_ko": "무작위로 생성되는 방을 탐험하며 도전 과제를 해결하는 로그라이크 액션 게임입니다. 매번 변화하는 환경 속에서 생존하며 모험을 이어가는 경험을 제공합니다.",
+        "features_ko": [
+          "무작위로 생성되는 방을 통해 매번 새로운 게임 환경을 제공합니다.",
+          "로그라이크 규칙에 따라 매번 다른 도전 과제와 적을 마주합니다."
+        ],
+        "noteworthy_ko": "로그라이크 장르 특유의 무작위 생성 시스템이 핵심입니다. 개발 관점에서는 방의 배치와 적의 난이도를 조절하는 알고리즘 설계가 흥미로운 도전 과제가 될 것으로 추정됩니다.",
+        "development_ko": "절차적 맵 생성 알고리즘 구현이 핵심이며, 다양한 적 패턴과 아이템 밸런스를 맞추는 작업이 필요합니다. 1인 개발 시에는 콘텐츠의 다양성 확보가 가장 큰 부담이 될 것입니다.",
+        "idea_ko": "특정 테마의 방을 조합하여 자신만의 던전을 만드는 로그라이크 맵 에디터 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "무작위 생성 방을 통한 높은 반복 플레이 가치.",
+          "로그라이크 장르의 긴장감 넘치는 액션 경험."
+        ],
+        "systems_ko": [
+          "절차적 맵 생성 시스템",
+          "캐릭터 상태 관리",
+          "적 AI 및 행동 패턴",
+          "아이템 및 보상 데이터 관리",
+          "입력 판정 및 액션 처리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "로그라이크의 핵심 메커니즘인 무작위 생성과 전투 시스템을 구현하는 것은 난이도가 있으나, 규모를 작게 시작한다면 1인 개발이 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 캐릭터 이동 및 공격",
+            "무작위 방 생성 시스템",
+            "적 생성 및 기본 AI"
+          ],
+          "defer": [
+            "복잡한 스토리 라인",
+            "다양한 캐릭터 클래스"
+          ],
+          "risks": [
+            "무작위 생성 시 밸런스 붕괴",
+            "콘텐츠 부족으로 인한 짧은 플레이 타임"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "방 조합 로그라이크",
+            "concept": "플레이어가 미리 정해진 방들을 조합하여 던전을 구성하고, 생성된 던전을 직접 공략하는 방식입니다.",
+            "first_step": "두 개의 방을 연결하고 캐릭터가 이동하는 기본 프로토타입 제작."
+          },
+          {
+            "title": "시간 제한 로그라이크",
+            "concept": "각 방을 클리어할 때마다 시간이 줄어들며, 시간 내에 최종 보스까지 도달해야 하는 긴박한 규칙입니다.",
+            "first_step": "타이머 시스템과 방 클리어 판정 로직 구현."
+          }
+        ],
+        "recommendation_ko": "로그라이크 장르의 기초적인 시스템을 학습하기에 좋습니다. 절차적 생성의 기초를 다지고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 전투 방식, 아이템 종류, 성장 시스템 등 상세 기능은 확인되지 않습니다.",
+        "name": "Volodyacore [Free] [Action] [Windows]",
+        "source": "itch",
+        "detail_url": "https://samarello.itch.io/volodyacore",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 329,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 17,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "itch:40d824a7a40fab1920a9": {
+      "app_key": "itch:40d824a7a40fab1920a9",
+      "name": "Pocket Kitten [$3.00] [Simulation] [Windows] [macOS] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://mellowminx.itch.io/pocket-kitten",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:23:04+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Take care of kittens, decorate your space, and get lots of love in this cozy virtual pet sim sandbox game.",
+      "analysis": {
+        "app_key": "itch:40d824a7a40fab1920a9",
+        "summary_ko": "아기 고양이를 돌보고 공간을 꾸미는 아늑한 가상 반려동물 시뮬레이션 게임입니다. 샌드박스 환경에서 고양이와 교감하며 힐링하는 경험을 제공합니다.",
+        "features_ko": [
+          "아기 고양이를 입양하고 돌보는 육성 시스템을 제공합니다.",
+          "자신만의 공간을 자유롭게 꾸밀 수 있는 인테리어 기능을 포함합니다.",
+          "고양이와 상호작용하며 애정도를 쌓는 시뮬레이션 요소가 있습니다."
+        ],
+        "noteworthy_ko": "캐주얼한 샌드박스 환경에서 사용자의 창의적인 공간 구성과 반려동물 육성을 결합한 점이 흥미롭습니다. 감성적인 비주얼과 상호작용의 디테일이 사용자 유지율에 큰 영향을 미칠 것으로 보입니다.",
+        "development_ko": "아이템 배치 시스템과 고양이의 AI 행동 패턴 구현이 핵심입니다. UI/UX의 직관성이 중요하며, 다양한 꾸미기 아이템을 관리하는 데이터 구조 설계가 필요합니다.",
+        "idea_ko": "고양이의 성격에 따라 반응이 달라지는 육성 시스템.",
+        "highlights_ko": [
+          "자유로운 공간 꾸미기 샌드박스.",
+          "아기 고양이와의 감성적인 상호작용."
+        ],
+        "systems_ko": [
+          "아이템 배치 및 그리드 시스템",
+          "반려동물 상태 관리(배고픔, 애정도)",
+          "AI 행동 트리(고양이)",
+          "데이터 저장 및 불러오기"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "복잡한 물리 엔진보다는 UI와 데이터 관리 중심의 개발이므로 1인 개발에 적합합니다. 다만, 고양이의 자연스러운 애니메이션과 상호작용 구현에는 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "고양이 기본 상호작용",
+            "가구 배치 시스템",
+            "기본 상태 UI"
+          ],
+          "defer": [
+            "복잡한 고양이 성장 단계",
+            "온라인 소셜 기능"
+          ],
+          "risks": [
+            "반복적인 상호작용으로 인한 지루함",
+            "아이템 리소스 제작 부담"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "고양이 카페 경영",
+            "concept": "고양이를 돌보면서 카페를 운영하는 시뮬레이션입니다. 손님의 취향에 맞는 고양이를 배치하여 수익을 창출합니다.",
+            "first_step": "고양이 배치와 손님 방문 로직을 결합한 간단한 경영 시스템 구현."
+          },
+          {
+            "title": "고양이 일기장",
+            "concept": "고양이의 하루를 관찰하고 사진을 찍어 일기를 쓰는 게임입니다. 특정 행동을 포착하여 도감을 완성합니다.",
+            "first_step": "고양이의 랜덤 행동 패턴과 카메라 캡처 기능 구현."
+          }
+        ],
+        "recommendation_ko": "시뮬레이션 게임의 데이터 관리와 UI 중심의 개발 흐름을 배우기에 최적입니다. 아기자기한 리소스 제작 능력을 기르고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "고양이의 구체적인 상호작용 종류, 인테리어 아이템의 수량, 게임 내 경제 시스템의 상세 내용은 확인되지 않습니다.",
+        "name": "Pocket Kitten [$3.00] [Simulation] [Windows] [macOS] [Linux]",
+        "source": "itch",
+        "detail_url": "https://mellowminx.itch.io/pocket-kitten",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 275,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 35,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "google:com.rockstargames.gtavc.de": {
+      "app_key": "google:com.rockstargames.gtavc.de",
+      "name": "GTA: Vice City - Definitive",
+      "developer": "Rockstar Games",
+      "source": "google",
+      "country": "US",
+      "category": "game_action",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.rockstargames.gtavc.de&hl=en&gl=US",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:23:29+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Download and play GTA: Vice City - Definitive for up to thirty minutes as a free trial. Purchase the full game as a one-time, in-app purchase to play without any time limits. GTA+ Members can enjoy unlimited access while subscribed for as long as it is included in GTA+. Welcome to the 1980s. From the decade of big hair and pastel suits comes the story of one man's rise to the top of the criminal pile. Grand Theft Auto returns with Tommy Vercetti’s tale of betrayal and revenge in a neon-soaked tropical town full of excess and brimming with possibilities. Rockstar Games, Inc. 622 Broadway, New York, NY, 10012. © 2001–2023. Rockstar Games, Grand Theft Auto, Grand Theft Auto: Vice City and R* Logo are marks/logos/copyrights of Take-Two Interactive. Unreal® Engine, Copyright 1998–2023, Epic Games, Inc. All rights reserved. Uses Oodle. Copyright © 2008–2023 by Epic Games Tools, Inc. The ratings icon is a trademark of the Entertainment Software Association. All other marks and trademarks are properties of their respective owners. All rights reserved.",
+      "analysis": {
+        "app_key": "google:com.rockstargames.gtavc.de",
+        "summary_ko": "GTA: Vice City - Definitive는 1980년대 배경의 범죄 액션 게임으로, 주인공 토미 버세티의 이야기를 다룹니다. 네온 사인이 가득한 열대 도시를 무대로 배신과 복수의 서사를 경험할 수 있습니다. 무료 체험판을 제공하며 인앱 결제를 통해 전체 게임을 구매할 수 있습니다.",
+        "features_ko": [
+          "1980년대 분위기를 재현한 오픈 월드 도시를 탐험할 수 있습니다.",
+          "범죄 조직의 정점에 오르는 주인공의 서사를 따라갑니다.",
+          "다양한 차량과 무기를 사용하여 자유로운 액션을 즐길 수 있습니다.",
+          "무료 체험판을 통해 게임의 핵심 경험을 미리 확인 가능합니다."
+        ],
+        "noteworthy_ko": "오픈 월드 액션 게임의 고전적인 구조를 현대적인 엔진으로 재구성한 사례입니다. 방대한 콘텐츠를 관리하는 방식과 오픈 월드에서의 상호작용 설계가 개발 관점에서 매우 흥미롭습니다.",
+        "development_ko": "방대한 맵 데이터 관리와 물리 엔진 최적화가 핵심입니다. 다양한 NPC AI와 이벤트 트리거 구현이 필요하며, 오픈 월드 특유의 버그를 최소화하기 위한 테스트 부담이 매우 큽니다.",
+        "idea_ko": "특정 지역을 점령하면 해당 구역의 분위기가 바뀌는 동적인 도시 변화 시스템을 추가하면 좋습니다.",
+        "highlights_ko": [
+          "1980년대의 독특한 분위기와 네온 스타일의 비주얼.",
+          "자유도 높은 오픈 월드 액션과 서사 중심의 게임 플레이."
+        ],
+        "systems_ko": [
+          "오픈 월드 맵 스트리밍 및 관리 시스템",
+          "차량 및 캐릭터 물리 엔진",
+          "NPC AI 및 스크립트 이벤트 시스템",
+          "퀘스트 및 미션 관리 시스템",
+          "인앱 결제 및 라이선스 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "오픈 월드 게임은 구현해야 할 시스템의 범위가 매우 넓고 복잡합니다. 물리, AI, 맵 관리 등 다양한 기술이 요구되어 1인 개발로 전체를 복제하는 것은 사실상 불가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 차량 조작",
+            "간단한 미션 수행 로직",
+            "기본적인 도시 환경 구현"
+          ],
+          "defer": [
+            "복잡한 NPC AI 및 도시 전체의 상호작용",
+            "방대한 서사 및 컷신 연출"
+          ],
+          "risks": [
+            "최적화 문제로 인한 성능 저하",
+            "개발 범위 조절 실패로 인한 프로젝트 중단"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "도시 구역 점령전",
+            "concept": "도시의 특정 구역을 점령하여 자신의 세력을 확장하는 미니 게임입니다.",
+            "first_step": "특정 지역에 도달하면 깃발을 꽂고 점령 상태를 저장하는 로직을 구현합니다."
+          },
+          {
+            "title": "차량 커스텀 샵",
+            "concept": "게임 내 차량을 수집하고 외형을 변경하는 수집형 콘텐츠입니다.",
+            "first_step": "차량의 색상을 변경하고 저장하는 간단한 UI를 제작합니다."
+          }
+        ],
+        "recommendation_ko": "오픈 월드 게임의 구조와 시스템 설계를 공부하기에 좋은 참고 자료입니다. 다만, 1인 개발자는 전체 복제보다는 특정 메커니즘을 추출하여 작은 규모로 구현하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문은 게임의 마케팅 정보 위주이며, 실제 구현된 엔진의 상세 기술이나 데이터 구조에 대한 정보는 없습니다.",
+        "name": "GTA: Vice City - Definitive",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.rockstargames.gtavc.de&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 210,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 10,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "google:com.grill.xbxplay": {
+      "app_key": "google:com.grill.xbxplay",
+      "name": "XBXPlay: Remote Play",
+      "developer": "GF Frame Technologies (Streaming Dev)",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.grill.xbxplay&hl=en&gl=US",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:23:54+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Introduction XBXPlay offers you the possibility to remote control your X-Box Series X/ S or your X-Box One (X/ S) without limitations. You can play your favorite games in 1080p remotely while you are away (more information below*). XBXPlay has been optimized to provide streaming experiences with the lowest possible latency. Third-Party controllers and mobile data connections are supported and you can even play X-Box 360 games on your console with XBXPlay. You can even play without a gamepad connected by just using the touch optimized onscreen gamepad layout. Create customized onscreen gamepad layouts that perfectly match the needs of your games. Differences to the official X-Box Remote Play app • 1080p support • Support for X-Box 360 games • Manual Bitrate adjustments • Onscreen gamepad layout (customizable) • Fullscreen support (no black bars) • Supports gamepad button mapping • Native USB-OTG support • You can use XBXPlay as virtual gamepad for your X-Box • Picture-In-Picture mode (requires Android 8.0 or newer) • Multi-Window support (requires Android 7.0 or newer) • Optimized for low latency streaming (Microphone input currently not supported) Hardware recommendations • Dual core CPU highly recommended • 2 GB or more of RAM • 1024 × 768 or higher display resolution • A wired internet connection for your X-Box is strongly recommended • Your device should be connected to a 5GHz WiFi for minimum delays • A stable high-speed internet connection with upload and download speeds of at least 20 Mbps XBXPlay allows you to remote control any X-Box game which supports Remote Play. Play X-Box games and even X-Box 360 backwards compatibility games. Or just use XBXPlay as virtual X-Box gamepad for your console. Community - https://www.reddit.com/r/XBXPlay ❗Support and feedback❗ All information about XBXPlay can be found here: https://streamingdv.github.io/xbxplay/index.html Attention XBXPlay works with the latest X-Box One/ Series firmware. Please do not upgrade to a newer X-Box firmware version if available until it is proven that XBXPlay is still working. However, if you have updated and XBXPlay has stopped working, it will take some time for me to fix the problems. So please keep that in mind. *Please note: if you want to play over the internet, follow these instructions: https://streamingdv.github.io/xbxplay/index#line5 Thanks to the OpenX-box team for their support and for making this project possible. Disclaimer: all mentioned trademarks here are trademarks of Microsoft Corporation. XBXPlay is in no way endorsed by or affiliated with Microsoft, or any associated subsidiaries, logos or trademarks.",
+      "analysis": {
+        "app_key": "google:com.grill.xbxplay",
+        "summary_ko": "XBXPlay는 Xbox Series X/S 및 Xbox One 콘솔을 원격으로 제어하고 게임을 스트리밍할 수 있는 앱입니다. 사용자는 외부 네트워크 환경에서도 1080p 해상도로 게임을 즐길 수 있습니다. 터치 최적화된 가상 게임패드와 사용자 정의 레이아웃을 지원하여 컨트롤러 없이도 플레이가 가능합니다.",
+        "features_ko": [
+          "Xbox 콘솔의 게임을 1080p 해상도로 원격 스트리밍합니다.",
+          "사용자 정의가 가능한 터치 기반 가상 게임패드 레이아웃을 제공합니다.",
+          "Xbox 360 하위 호환 게임을 포함한 모든 리모트 플레이 지원 게임을 실행합니다.",
+          "네트워크 환경에 맞춘 수동 비트레이트 조절 기능을 지원합니다.",
+          "USB-OTG를 통한 외부 컨트롤러 연결 및 매핑을 지원합니다.",
+          "화면 속 화면(PiP) 및 멀티 윈도우 모드를 통해 멀티태스킹을 지원합니다."
+        ],
+        "noteworthy_ko": "공식 앱 대비 1080p 지원 및 세밀한 비트레이트 설정 등 사용자 편의성을 극대화한 점이 흥미롭습니다. 특히 가상 게임패드 레이아웃을 자유롭게 커스터마이징할 수 있는 기능은 다양한 장르의 게임을 모바일에서 플레이하기 위한 필수적인 설계로 추정됩니다.",
+        "development_ko": "핵심 기술은 저지연 비디오 스트리밍 프로토콜 구현과 콘솔 입력 신호의 실시간 패킷 변환입니다. 네트워크 지연을 최소화하기 위한 최적화가 가장 큰 기술적 과제이며, 다양한 기기 환경에서의 입력 호환성 테스트가 중요합니다. 콘텐츠 제작보다는 네트워크 통신 안정성과 입력 반응 속도 튜닝에 개발 자원이 집중될 것으로 보입니다.",
+        "idea_ko": "특정 게임 장르에 최적화된 커스텀 버튼 레이아웃을 공유하고 다운로드할 수 있는 커뮤니티 플랫폼 기능.",
+        "highlights_ko": [
+          "공식 앱의 제한을 넘어선 1080p 스트리밍 및 비트레이트 수동 제어 기능.",
+          "터치 환경에 최적화된 자유로운 가상 게임패드 레이아웃 커스터마이징."
+        ],
+        "systems_ko": [
+          "네트워크 스트리밍 프로토콜(UDP/TCP)",
+          "입력 이벤트 캡처 및 패킷 변환 시스템",
+          "가상 컨트롤러 UI 레이아웃 엔진",
+          "비디오 디코딩 및 렌더링 파이프라인",
+          "설정 데이터 관리 및 프로필 저장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "콘솔과의 안정적인 통신 프로토콜을 리버스 엔지니어링하거나 구현해야 하며, 저지연 스트리밍을 위한 고도의 네트워크 최적화 기술이 필요합니다. 또한 다양한 안드로이드 기기별 하드웨어 가속 호환성을 확보하는 과정이 매우 복잡합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 콘솔 연결 및 스트리밍 기능",
+            "터치 입력 기반의 가상 게임패드",
+            "기본적인 네트워크 지연 최적화"
+          ],
+          "defer": [
+            "화면 속 화면(PiP) 모드",
+            "멀티 윈도우 지원",
+            "고급 비트레이트 수동 설정"
+          ],
+          "risks": [
+            "콘솔 펌웨어 업데이트에 따른 연결 호환성 파손",
+            "네트워크 환경에 따른 심각한 지연 발생"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "레이아웃 공유 마켓",
+            "concept": "사용자가 만든 게임별 최적화 버튼 배치를 클라우드에 공유하고 다른 사용자가 불러올 수 있는 기능입니다.",
+            "first_step": "JSON 형식으로 버튼 좌표와 설정을 내보내고 불러오는 기능을 구현합니다."
+          },
+          {
+            "title": "매크로 입력 자동화",
+            "concept": "반복적인 게임 내 조작을 버튼 하나로 실행할 수 있는 매크로 기능을 제공합니다.",
+            "first_step": "입력 이벤트를 순차적으로 기록하고 재생하는 간단한 매크로 엔진을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "네트워크 프로그래밍과 실시간 스트리밍 기술을 깊이 있게 학습하고 싶은 개발자에게 추천합니다. 다만, 콘솔 제조사의 정책 변화에 따라 서비스 지속성이 위협받을 수 있다는 점은 고려해야 합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 스트리밍 프로토콜이나 콘솔과의 인증 방식이 명시되어 있지 않습니다. 또한 마이크 입력 미지원 이유나 보안 관련 상세 구현 사항은 확인되지 않으므로 추가 검증이 필요합니다.",
+        "name": "XBXPlay: Remote Play",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.grill.xbxplay&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 201,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 13,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "apple:6444816336": {
+      "app_key": "apple:6444816336",
+      "name": "[777Real]新世紀エヴァンゲリオン ～未来への咆哮～",
+      "developer": "Sammy Networks Co., Ltd.",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_simulation",
+      "detail_url": "https://apps.apple.com/jp/app/777real-%E6%96%B0%E4%B8%96%E7%B4%80%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%B2%E3%83%AA%E3%82%AA%E3%83%B3-%E6%9C%AA%E6%9D%A5%E3%81%B8%E3%81%AE%E5%92%86%E5%93%AE/id6444816336?uo=2",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:26:01+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "---------------------------------------- 新世紀エヴァンゲリオン ～未来への咆哮～ 2021年/Bisty ---------------------------------------- 『新世紀エヴァンゲリオン ～未来への咆哮～』が【777Real】に登場！ 巨大な初号機役モノが目を惹く人気シリーズ第15弾。 約81%の継続率を誇るV-STスペック！ 右打ち中は全て「10R」確定！ シン・筐体「BIG IMPACT」 ロンギヌスの槍 前兆アクションや作動で大チャンスを呼び込む タイトルランプ 液晶を取り囲む各話のタイトル 「最後のシ者」が光れば…！？ SPEC 大当り確率 約1/319.7 高確率時 約1/99.4 ST突入率 約70% IMPACT MODE ST163回 ALL1500個 ※特図2 ※出玉は払出し 継続率約81% 特徴 エヴァンゲリオン 最終号機 VS エヴァンゲリオン 量産機 小説エヴァンゲリオン ANIMA「山下いくと著」より初の映像化 『新世紀エヴァンゲリオン ～未来への咆哮～』を【777Real】で楽しもう！ ---------------------------------------- DL前に必ずご確認ください ---------------------------------------- 【必要なデータの容量】 本アプリをダウンロードした後、初回起動時に追加データのダウンロードを行います。 ※端末の容量に十分な空きがあるかご確認ください。 ※ダウンロードの際はWi-Fi等の高速回線をご利用頂くことを強くお勧めいたします。 ---------------------------------------- 個人情報の扱いについて/プライバシーポリシー ---------------------------------------- アプリ内の[メニュー＞ヘルプ＞お問い合わせボタン＞お問い合わせフォーム下部＞利用規約]および[メニュー＞ヘルプ＞お問い合わせボタン＞お問い合わせフォーム下部＞個人情報の取り扱い]をご確認ください。 お客様がダウンロードボタンをタップ、本アプリケーションをダウンロードされた場合には、アプリケーションプライバシーポリシーに同意したものとみなされます。 ---------------------------------------- サポートセンター窓口 ---------------------------------------- アプリ内の[お問い合わせ/FAQ]より、お問い合わせフォームをご利用ください。 ※営業時間：10時～19時 ※返信などの対応は原則翌営業時間になります。予めご了承ください。",
+      "analysis": {
+        "app_key": "apple:6444816336",
+        "summary_ko": "이 앱은 파칭코 기기 '신세기 에반게리온 ~미래로의 포효~'를 모바일 환경에서 시뮬레이션하는 게임입니다. 실제 기기의 연출과 확률, 게임성을 디지털로 재현하여 사용자가 즐길 수 있도록 제작되었습니다. 고해상도 그래픽과 사운드를 통해 실제 파칭코 홀의 경험을 제공합니다.",
+        "features_ko": [
+          "실제 파칭코 기기의 확률과 연출을 그대로 구현한 시뮬레이션 모드입니다.",
+          "ST(스페셜 타임) 모드와 같은 게임 내 특수 규칙을 지원합니다.",
+          "기기 내부의 램프나 액정 연출을 모바일 화면에 최적화하여 보여줍니다.",
+          "초기 실행 시 추가 데이터를 다운로드하여 고품질 리소스를 로드합니다."
+        ],
+        "noteworthy_ko": "실제 물리 기기를 디지털로 완벽하게 이식하는 것이 핵심입니다. 확률 기반의 게임 로직이 실제 기기와 동일하게 작동하는지 검증하는 과정이 매우 중요할 것으로 보입니다.",
+        "development_ko": "고품질 3D 그래픽과 사운드 리소스 최적화가 필수적입니다. 확률 엔진의 정확한 구현과 기기 연출의 동기화가 제작의 핵심입니다. 테스트 시에는 실제 기기의 데이터와 일치하는지 확인하는 밸런스 작업이 가장 큰 부담입니다.",
+        "idea_ko": "파칭코 기기의 연출을 사용자가 직접 커스터마이징하거나, 자신만의 확률 설정을 테스트할 수 있는 샌드박스 모드입니다.",
+        "highlights_ko": [
+          "실제 파칭코 기기의 연출과 스펙을 충실히 재현했습니다.",
+          "대용량 리소스를 활용한 몰입감 높은 시각 효과를 제공합니다."
+        ],
+        "systems_ko": [
+          "확률 기반 난수 생성기(RNG)",
+          "애니메이션 및 연출 엔진",
+          "데이터 다운로드 및 관리 시스템",
+          "사운드 및 효과음 제어 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실제 기기의 복잡한 연출과 확률 로직을 완벽히 재현해야 하며, 고사양 그래픽 최적화가 필요하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 구슬 발사 및 당첨 로직",
+            "핵심 연출 애니메이션",
+            "확률 데이터 관리"
+          ],
+          "defer": [
+            "온라인 랭킹 시스템",
+            "멀티플레이어 기능"
+          ],
+          "risks": [
+            "저작권 및 라이선스 문제",
+            "기기 연출 구현의 복잡성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "확률 시뮬레이터",
+            "concept": "사용자가 당첨 확률을 직접 설정하고 수만 번의 시뮬레이션을 돌려 결과를 확인하는 도구입니다.",
+            "first_step": "확률 변수를 입력받아 결과를 출력하는 간단한 콘솔 프로그램을 만듭니다."
+          },
+          {
+            "title": "연출 갤러리",
+            "concept": "게임 내 특정 연출만 골라서 감상할 수 있는 뷰어 모드입니다.",
+            "first_step": "영상이나 애니메이션을 재생하는 플레이어 UI를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "복잡한 확률 로직과 고품질 리소스 관리 능력을 기르기에 좋습니다. 다만, 상용화 시 라이선스 문제가 매우 크므로 개인 학습용으로 추천합니다.",
+        "source_limitations_ko": "실제 기기의 내부 로직이나 확률 데이터의 상세 수치는 공개되지 않았으며, 앱 내 결제나 네트워크 연동의 구체적인 구현 방식은 알 수 없습니다.",
+        "name": "[777Real]新世紀エヴァンゲリオン ～未来への咆哮～",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/777real-%E6%96%B0%E4%B8%96%E7%B4%80%E3%82%A8%E3%83%B4%E3%82%A1%E3%83%B3%E3%82%B2%E3%83%AA%E3%82%AA%E3%83%B3-%E6%9C%AA%E6%9D%A5%E3%81%B8%E3%81%AE%E5%92%86%E5%93%AE/id6444816336?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
     }
   }
 }

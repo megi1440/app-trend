@@ -12495,6 +12495,93 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-20"
+    },
+    "itch:08c81eb5ece74e39efdd": {
+      "app_key": "itch:08c81eb5ece74e39efdd",
+      "name": "Epochalypse [Free] [Adventure] [macOS] [Android]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://tontonverso90.itch.io/epochalypse",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:22:06+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "corra pela história, da pré-história até a invasão alienígena!",
+      "analysis": {
+        "app_key": "itch:08c81eb5ece74e39efdd",
+        "summary_ko": "Epochalypse는 선사 시대부터 외계인 침공까지 역사의 흐름을 따라 달리는 어드벤처 게임입니다. 플레이어는 다양한 시대적 배경을 통과하며 모험을 즐길 수 있습니다. 구체적인 게임 플레이 방식은 명시되지 않았으나, 시간 여행을 테마로 한 러닝 게임으로 추정됩니다.",
+        "features_ko": [
+          "선사 시대부터 외계인 침공까지 이어지는 시대적 배경을 제공합니다.",
+          "역사적 흐름을 따라 이동하며 진행하는 어드벤처 요소를 포함합니다."
+        ],
+        "noteworthy_ko": "역사라는 방대한 테마를 러닝 게임에 접목한 점이 흥미롭습니다. 시대별로 변화하는 환경 에셋을 어떻게 효율적으로 관리하고 구현했는지가 개발 관점에서 핵심적인 관전 포인트입니다.",
+        "development_ko": "시대별 배경 전환을 위한 레벨 디자인과 에셋 제작 부담이 클 것으로 보입니다. 러닝 게임의 기본 물리 엔진과 시대별 테마를 구분하는 상태 관리 시스템이 필요합니다. 테스트 시 각 시대의 분위기가 잘 전달되는지 확인하는 과정이 중요합니다.",
+        "idea_ko": "시대별로 고유한 장애물과 아이템을 배치하여 난이도를 조절하는 방식이 가장 적합합니다.",
+        "highlights_ko": [
+          "선사 시대부터 미래까지 이어지는 독특한 시간 여행 컨셉을 가지고 있습니다.",
+          "러닝 게임 장르를 통해 역사의 흐름을 빠르게 체험할 수 있습니다."
+        ],
+        "systems_ko": [
+          "캐릭터 이동 및 물리 판정 시스템",
+          "시대별 배경 전환 관리자",
+          "장애물 생성 및 배치 시스템",
+          "게임 상태 관리(시작, 진행, 종료)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "러닝 게임의 기본 메커니즘은 구현하기 어렵지 않으나, 시대별로 다른 배경과 장애물을 제작하는 데 많은 리소스가 소요됩니다. 1인 개발 시 에셋 제작 효율성이 난이도를 결정합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 점프 기능",
+            "장애물 생성 로직",
+            "기본 배경 스크롤 시스템"
+          ],
+          "defer": [
+            "다양한 시대별 특수 효과",
+            "복잡한 스토리 컷신"
+          ],
+          "risks": [
+            "시대별 에셋 제작의 과도한 업무량",
+            "반복적인 게임 플레이의 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "시대별 도구 수집가",
+            "concept": "각 시대의 유물을 수집하여 다음 시대로 넘어가는 열쇠로 사용하는 규칙입니다. 유물마다 고유한 능력을 부여하여 전략적 선택을 유도합니다.",
+            "first_step": "특정 시대의 유물 아이템을 획득하고 점수를 올리는 기본 로직 구현."
+          },
+          {
+            "title": "시간 역행 러너",
+            "concept": "플레이어가 실수를 했을 때 시간을 잠시 되돌리는 기능을 추가합니다. 되돌리기 횟수를 제한하여 긴장감을 유지합니다.",
+            "first_step": "플레이어 위치 정보를 일정 시간 동안 저장하고 되돌리는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "러닝 게임의 기본 구조를 익히고 테마별 레벨 디자인을 연습하기에 좋습니다. 다만, 방대한 시대적 배경을 모두 구현하려 하기보다 하나의 시대에 집중하는 것을 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 조작 방식, 승리 조건, 시대별 차별화 요소가 설명문에 명시되지 않아 검증이 필요합니다.",
+        "name": "Epochalypse [Free] [Adventure] [macOS] [Android]",
+        "source": "itch",
+        "detail_url": "https://tontonverso90.itch.io/epochalypse",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 350,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 10,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
     }
   }
 }

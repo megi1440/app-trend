@@ -14300,6 +14300,185 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-20"
+    },
+    "apple:327963391": {
+      "app_key": "apple:327963391",
+      "name": "Pedi STAT",
+      "developer": "James M Kempema MD PA",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/pedi-stat/id327963391",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:26:25+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Pedi-STAT is a rapid reference for RNs, paramedics, physicians and other healthcare professionals caring for pediatric patients in the emergency or critical care environment. ************************************ Reviews ************************************ Among \"The Best Drug Reference Apps for Emergency Physicians\" - Emergency Physicians Monthly 5 STARS - \"Simple interface provides rapid access to critical data needed when managing a critically ill pediatric patient\" 5 Stars - \"Very useful for treating kids in high pressure situations with precision.\" ***************************** Pedi-STAT features include: - Rapid results for airway interventions including endotracheal tube sizes, depth, intubation medication dosages, ventilator settings, and sedation - Cardiac resuscitation data including weight specific dosages for resuscitation medications, cardioversion, and defibrillation - Access to age and weight specific pediatric equipment including foley catheters, airway management, chest and NG tubes, peripheral and central line sizes, and more - Seizure medication dosages - Management of hypoglycemia including age specific dextrose concentrations - Reference of age specific normal vital signs - Procedural sedation dosages including single dose meds and infusions, as well as reversal agents - Calculated pain management medications - Medical management of allergic reactions and anaphylaxis Users can quickly access critical information accurately, without having to rely on memory or cumbersome textbooks. With just a few taps, users have access to all the necessary data to care for a pediatric patient in the emergent setting, including weight-based and age specific medication dosages and equipment sizes. Since many of the patients present with minimal known information, all the results can be calculated rapidly with only a known age, date-of-birth, weight, length, or height. Simply enter the known variable and the data is instantly calculated. Developed by an Emergency Physician, this app minimizes the risk of medical errors allowing the provider to spend more time caring for the patient, and less time looking up and calculating doses. It is a critical companion for any physician, nurse, paramedic, or medical trainee involved in the care of critically ill pediatric patients.",
+      "analysis": {
+        "app_key": "apple:327963391",
+        "summary_ko": "Pedi-STAT은 응급 및 중환자실에서 소아 환자를 돌보는 의료 전문가를 위한 신속 참조 도구입니다. 환자의 나이, 생년월일, 체중, 키 등 알려진 변수를 입력하면 즉시 필요한 의료 데이터를 계산합니다. 복잡한 기억이나 교과서 없이도 정확한 처방과 장비 규격을 확인할 수 있어 의료 오류를 최소화합니다.",
+        "features_ko": [
+          "기도 관리 및 삽관을 위한 튜브 크기, 깊이, 약물 용량, 인공호흡기 설정을 계산합니다.",
+          "심폐소생술 시 체중 기반의 약물 용량, 심율동전환 및 제세동 데이터를 제공합니다.",
+          "소아용 카테터, 기도 관리 도구, 흉관 등 연령 및 체중별 장비 규격을 안내합니다.",
+          "발작 약물 용량 및 저혈당 관리 시 포도당 농도를 계산합니다.",
+          "절차적 진정 요법을 위한 단일 용량, 주입량 및 길항제 정보를 제공합니다.",
+          "알레르기 반응 및 아나필락시스에 대한 의학적 관리 지침을 참조할 수 있습니다."
+        ],
+        "noteworthy_ko": "의료 현장에서의 신속성과 정확성을 위해 복잡한 계산 과정을 단순화한 점이 핵심입니다. 개발자가 응급의학과 전문의라는 점은 도구의 신뢰성을 높이는 중요한 요소로 추정됩니다.",
+        "development_ko": "입력된 변수에 따라 의학적 수식을 적용하는 계산 로직 구현이 핵심입니다. 데이터의 정확성이 생명이므로 의학적 가이드라인에 따른 엄격한 검증이 필요합니다. UI는 긴박한 상황에서 빠르게 정보를 찾을 수 있도록 직관적이고 단순하게 설계해야 합니다.",
+        "idea_ko": "특정 분야의 복잡한 계산을 단순화하는 전문 도구 제작이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "의료 전문가가 현장에서 즉시 활용할 수 있도록 설계된 신속 참조 인터페이스.",
+          "나이와 체중 등 최소한의 정보만으로도 정밀한 의학적 계산 결과 도출."
+        ],
+        "systems_ko": [
+          "입력값 유효성 검사 시스템",
+          "의학적 수식 계산 엔진",
+          "데이터 참조 및 검색 시스템",
+          "직관적인 정보 표시 UI"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "의학적 데이터의 정확성이 필수적이며, 오류 발생 시 치명적인 결과를 초래할 수 있어 높은 수준의 검증과 책임이 따릅니다. 전문적인 의학 지식 없이는 데이터의 신뢰성을 확보하기 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "체중 기반 약물 용량 계산기",
+            "연령별 장비 규격 데이터베이스",
+            "빠른 검색 및 결과 출력 UI"
+          ],
+          "defer": [
+            "사용자 계정 관리",
+            "데이터 클라우드 동기화",
+            "커뮤니티 공유 기능"
+          ],
+          "risks": [
+            "계산 로직의 오류 가능성",
+            "의학적 가이드라인 변경에 따른 유지보수 부담"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "레시피 단위 변환기",
+            "concept": "요리 시 인원수나 재료 무게에 따라 필요한 양을 즉시 계산해주는 도구입니다. 단위 변환과 인원수 조절을 한 번에 처리합니다.",
+            "first_step": "기본 재료 비율을 입력하면 인원수에 맞춰 재료량을 계산하는 로직 구현."
+          },
+          {
+            "title": "DIY 가구 규격 계산기",
+            "concept": "목재 두께와 가구 크기를 입력하면 필요한 나사 개수와 목재 절단 치수를 계산합니다. 초보 목공인을 위한 가이드 도구입니다.",
+            "first_step": "가구 형태별 필수 부품 수량 산출 로직 설계."
+          }
+        ],
+        "recommendation_ko": "특정 도메인의 문제를 해결하는 전문 앱의 구조를 배울 수 있습니다. 다만, 의료 분야는 전문 지식과 법적 책임이 따르므로 비전문가는 다른 도메인을 선택하는 것이 좋습니다.",
+        "source_limitations_ko": "소개문에는 외부 의료 데이터베이스 연동 여부나 보안 인증, 결제 기능에 대한 언급이 없습니다. 실제 계산 로직의 근거가 되는 의학적 가이드라인의 출처는 확인되지 않습니다.",
+        "name": "Pedi STAT",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/pedi-stat/id327963391",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "google:file.pdfpro.com": {
+      "app_key": "google:file.pdfpro.com",
+      "name": "PDF File Pro",
+      "developer": "Al-Farah Solutions",
+      "source": "google",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=file.pdfpro.com&hl=ja&gl=JP",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:29:18+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "信頼できるPDFリーダーをお探しですか？「PDF File Pro」は、文書を扱うときの頼れるパートナーです。どこにいても、PDFファイルを簡単に閲覧・共有できます。 洗練された直感的な画面でスムーズに操作でき、大切な文書にもすぐにアクセスできます。 「PDF File Pro」の主な機能 - 端末に保存されたPDFにアクセス - DOC、PDF、PPT、XLSなど複数の形式に対応 - ページをスムーズにめくって快適に読書 文書の共有も簡単です。PDF、DOC、プレゼンテーションなどのファイルを数秒で共有できます。今すぐダウンロードして、外出先でも自由に文書を読みましょう！ Android 11以降をご利用の方へ ファイルに十分アクセスできるよう、MANAGE_EXTERNAL_STORAGE権限が必要です。PDFプレビューなどの基本機能はこの権限を使用します。権限は、必要なファイル管理操作にのみ使用します。",
+      "analysis": {
+        "app_key": "google:file.pdfpro.com",
+        "summary_ko": "PDF File Pro는 다양한 문서 형식을 열람하고 공유할 수 있는 PDF 리더 앱입니다. 직관적인 인터페이스를 통해 기기에 저장된 문서를 빠르게 접근하고 관리할 수 있습니다. PDF뿐만 아니라 DOC, PPT, XLS 등 여러 문서 형식을 지원하여 업무나 학습 시 편리하게 사용할 수 있습니다.",
+        "features_ko": [
+          "기기에 저장된 PDF 파일에 접근하여 열람할 수 있습니다.",
+          "DOC, PDF, PPT, XLS 등 다양한 문서 형식을 지원합니다.",
+          "페이지 넘김 기능을 통해 쾌적한 독서 환경을 제공합니다.",
+          "파일 공유 기능을 통해 문서를 즉시 전송할 수 있습니다."
+        ],
+        "noteworthy_ko": "파일 관리와 뷰어 기능을 결합한 전형적인 유틸리티 앱입니다. 안드로이드의 파일 접근 권한(MANAGE_EXTERNAL_STORAGE)을 활용하여 로컬 파일 시스템을 제어하는 방식이 핵심입니다.",
+        "development_ko": "문서 렌더링 엔진을 직접 구현하는 것은 매우 어렵기 때문에, 보통 오픈소스 라이브러리를 활용합니다. 파일 시스템 접근 권한 관리와 다양한 포맷의 파싱이 주요 기술적 과제입니다. UI는 단순하지만 대용량 파일 처리 시의 메모리 최적화가 중요합니다.",
+        "idea_ko": "특정 문서 내 키워드를 자동으로 추출하여 요약해주는 PDF 뷰어.",
+        "highlights_ko": [
+          "다양한 문서 포맷 지원을 통한 범용성.",
+          "직관적인 파일 관리 및 공유 인터페이스."
+        ],
+        "systems_ko": [
+          "파일 시스템 접근 관리",
+          "문서 렌더링 엔진",
+          "파일 공유 인텐트 처리",
+          "UI 레이아웃 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기존의 오픈소스 PDF 라이브러리를 활용하면 뷰어 구현 자체는 어렵지 않습니다. 다만 안드로이드 버전별 파일 접근 권한 정책을 준수하는 것이 구현의 핵심입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "파일 탐색기 연동",
+            "PDF 뷰어 화면",
+            "파일 공유 기능"
+          ],
+          "defer": [
+            "DOC/PPT/XLS 변환 및 편집",
+            "클라우드 스토리지 연동"
+          ],
+          "risks": [
+            "특정 PDF 파일의 렌더링 오류",
+            "OS 권한 정책 변경에 따른 앱 기능 제한"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "PDF 메모 뷰어",
+            "concept": "PDF를 읽으면서 특정 페이지에 간단한 텍스트 메모를 남기고 관리합니다. 메모는 별도 파일로 저장되어 나중에 다시 불러올 수 있습니다.",
+            "first_step": "PDF 페이지 번호와 텍스트를 매핑하여 저장하는 로컬 DB를 구축합니다."
+          },
+          {
+            "title": "문서 큐레이터",
+            "concept": "기기 내의 문서를 카테고리별로 자동 분류하여 보여줍니다. 사용자가 자주 보는 문서를 즐겨찾기로 관리합니다.",
+            "first_step": "파일 확장자별로 파일을 필터링하여 리스트로 보여주는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "파일 시스템 접근과 외부 라이브러리 통합을 배우기에 적합합니다. 단순한 뷰어에서 시작해 점진적으로 기능을 확장하는 연습을 하기에 좋습니다.",
+        "source_limitations_ko": "어떤 PDF 렌더링 엔진을 사용하는지, 문서 보안 기능이 있는지, 클라우드 연동 여부 등은 명시되지 않았습니다.",
+        "name": "PDF File Pro",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=file.pdfpro.com&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 91,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
     }
   }
 }

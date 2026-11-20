@@ -13940,6 +13940,183 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-20"
+    },
+    "itch:88a9e2a919cd7c260906": {
+      "app_key": "itch:88a9e2a919cd7c260906",
+      "name": "The World in a Suitcase [Free] [Puzzle]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://algorys1.itch.io/the-world-in-a-suitcase",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:21:46+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Combine items in a magic suitcase and discover 30 fantastic destinations!",
+      "analysis": {
+        "app_key": "itch:88a9e2a919cd7c260906",
+        "summary_ko": "마법 가방 속 아이템을 조합하여 30개의 환상적인 여행지를 발견하는 퍼즐 게임입니다. 사용자는 가방 안에서 다양한 물건을 결합하며 새로운 장소를 탐험하는 경험을 하게 됩니다. 단순하고 직관적인 퍼즐 메커니즘을 중심으로 구성되어 있습니다.",
+        "features_ko": [
+          "가방 내 아이템을 조합하여 새로운 결과물을 생성합니다.",
+          "총 30개의 다양한 여행지 콘텐츠를 제공합니다."
+        ],
+        "noteworthy_ko": "아이템 조합을 통해 탐험지를 해금하는 방식은 수집형 퍼즐 게임의 전형적인 구조입니다. 조합법의 논리적 연결성을 어떻게 설계하느냐에 따라 게임의 깊이가 결정될 것으로 보입니다.",
+        "development_ko": "아이템 데이터베이스와 조합 레시피 관리 시스템이 핵심입니다. 콘텐츠 제작은 30개의 여행지에 대응하는 리소스 확보가 주된 부담이 될 것입니다. 밸런스 측면에서는 조합의 난이도 곡선을 적절히 조절하는 것이 중요합니다.",
+        "idea_ko": "특정 지역의 특산물을 조합하여 새로운 여행지를 여는 '여행지 도감 완성' 시스템을 추천합니다.",
+        "highlights_ko": [
+          "마법 가방이라는 테마를 활용한 아이템 조합 퍼즐.",
+          "30개의 여행지라는 명확한 목표 지향적 콘텐츠."
+        ],
+        "systems_ko": [
+          "아이템 인벤토리 시스템",
+          "조합 레시피 데이터 관리",
+          "게임 상태 저장 및 로드",
+          "UI/UX 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "조합 시스템은 데이터 기반으로 구현이 용이하며, 30개의 스테이지는 1인 개발자가 관리하기에 적절한 규모입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "아이템 조합 엔진",
+            "여행지 해금 로직"
+          ],
+          "defer": [
+            "복잡한 애니메이션 효과",
+            "다국어 지원"
+          ],
+          "risks": [
+            "조합법의 단조로움",
+            "콘텐츠 소모 속도 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "계절별 조합 레시피",
+            "concept": "계절에 따라 조합 결과가 달라지는 시스템입니다. 특정 계절에만 얻을 수 있는 아이템으로 여행지를 확장합니다.",
+            "first_step": "계절 상태를 변경하는 변수와 그에 따른 조합 결과 분기 로직을 구현합니다."
+          },
+          {
+            "title": "여행지 일기장",
+            "concept": "여행지를 발견할 때마다 짧은 이야기를 수집하는 기능입니다. 수집한 이야기가 모여 하나의 여행기가 완성됩니다.",
+            "first_step": "텍스트 데이터를 출력하는 UI 패널을 제작합니다."
+          }
+        ],
+        "recommendation_ko": "아이템 조합 시스템의 기초를 배우기에 적합합니다. 데이터 구조 설계와 콘텐츠 확장성을 연습하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "아이템 조합의 구체적인 방식, 게임의 시각적 스타일, 추가적인 보상 체계에 대한 정보가 부족하여 검증이 필요합니다.",
+        "name": "The World in a Suitcase [Free] [Puzzle]",
+        "source": "itch",
+        "detail_url": "https://algorys1.itch.io/the-world-in-a-suitcase",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 375,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "google:net.kairosoft.android.bouken_ja": {
+      "app_key": "google:net.kairosoft.android.bouken_ja",
+      "name": "冒険ダンジョン村",
+      "developer": "Kairosoft",
+      "source": "google",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=net.kairosoft.android.bouken_ja&hl=ja&gl=JP",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:26:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "戦士や商人が暮らす、RPGの世界にある村を作るゲームです。 村に立ち寄る冒険者はモンスターを倒してお金を稼いでくれます。 ダンジョン攻略やモンスター軍団討伐のクエストをクリアすれば強い装備品やアイテムを発見してお店で販売することもできます。 村の人気が高くなれば冒険者がマイホーム建築を希望して永住してくれるよ。 「道場」「魔法研究所」などを建築して街の人気を高めれば多くの冒険者で賑わう村になります。 育て上げた冒険者たちは巨大モンスター退治に向かわせましょう。 またゲームが進み「マジックポット」を手に入れると、錬金ができるようになります。 クエストやショップで手に入れたアイテムを投入して魔法ポイントを貯めれば、レアな装備やお店が手に入りますよ。 冒険者の住みたい村No.1をめざして頑張りましょう！ -- 他のゲームは「カイロソフト」で検索してね。 http://kairopark.jp 遊んだことがあるかもしれないような無料ゲームや売り切りアプリが盛りだくさん！ 2Dドット絵のカイロソフトゲームシリーズだよ。 最新情報はツイッターをフォローしてね。 https://twitter.com/kairokun2010",
+      "analysis": {
+        "app_key": "google:net.kairosoft.android.bouken_ja",
+        "summary_ko": "전사나 상인이 거주하는 RPG 세계의 마을을 경영하는 시뮬레이션 게임입니다. 마을에 방문하는 모험가들이 몬스터를 퇴치하고 돈을 벌며, 퀘스트를 통해 강력한 장비를 수집하고 판매할 수 있습니다. 마을의 인기를 높여 모험가들이 정착하게 만들고, 육성한 모험가들로 거대 몬스터를 토벌하는 것이 목표입니다.",
+        "features_ko": [
+          "마을에 방문하는 모험가들이 몬스터를 사냥하여 수익을 창출합니다.",
+          "퀘스트를 완료하여 강력한 장비와 아이템을 획득하고 상점에서 판매합니다.",
+          "도장이나 마법 연구소 같은 시설을 건설하여 마을의 인기를 높입니다.",
+          "마법 항아리를 사용하여 아이템을 연금술로 변환하고 희귀 장비를 얻습니다.",
+          "육성한 모험가들을 파견하여 거대 몬스터를 토벌합니다."
+        ],
+        "noteworthy_ko": "마을 경영과 RPG 육성 요소가 결합된 구조가 흥미롭습니다. 모험가의 정착 여부가 마을의 발전과 직결되는 순환 구조가 핵심 재미 요소로 추정됩니다.",
+        "development_ko": "2D 도트 그래픽 기반의 시뮬레이션 게임으로, 다양한 시설과 모험가 데이터를 관리하는 시스템이 필요합니다. 콘텐츠 제작 측면에서는 아이템과 몬스터의 밸런스 조정이 큰 비중을 차지할 것으로 보입니다. 테스트 시에는 모험가의 AI 행동 패턴과 경제 밸런스를 중점적으로 검증해야 합니다.",
+        "idea_ko": "마을의 특정 직업군 모험가들끼리 파티를 맺어 퀘스트를 수행하는 '파티 조합 시스템'을 도입하여 전략성을 강화하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "모험가가 마을에 정착하여 마이홈을 짓는 성장형 시스템을 갖추고 있습니다.",
+          "연금술 시스템을 통해 획득한 아이템을 재활용하는 경제 순환 구조가 특징입니다."
+        ],
+        "systems_ko": [
+          "건물 배치 및 마을 관리 시스템",
+          "모험가 AI 및 상태 관리 시스템",
+          "아이템 및 상점 경제 시스템",
+          "퀘스트 및 전투 판정 시스템",
+          "연금술 및 아이템 합성 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 시설, 모험가, 아이템 간의 복잡한 상호작용과 경제 밸런스를 1인이 모두 구현하고 조정하는 것은 매우 높은 난이도를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "건물 건설 및 모험가 방문 로직",
+            "기본적인 몬스터 사냥 및 수익 시스템",
+            "상점 아이템 판매 기능"
+          ],
+          "defer": [
+            "연금술 시스템",
+            "거대 몬스터 토벌 이벤트",
+            "복잡한 모험가 정착 조건"
+          ],
+          "risks": [
+            "경제 밸런스 붕괴",
+            "다수의 모험가 객체 관리 시 성능 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "모험가 파티 조합 시스템",
+            "concept": "마을에 방문한 모험가들의 직업을 조합해 파티를 구성하고 퀘스트 성공률을 높이는 시스템입니다.",
+            "first_step": "두 명의 모험가를 선택해 파티를 맺고 퀘스트 성공 확률을 계산하는 로직을 구현합니다."
+          },
+          {
+            "title": "계절별 마을 이벤트",
+            "concept": "계절에 따라 마을에 방문하는 몬스터나 모험가의 종류가 변하는 환경 시스템입니다.",
+            "first_step": "시간 흐름에 따라 배경과 등장 몬스터를 변경하는 간단한 상태 머신을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "시뮬레이션 게임의 경제 시스템과 데이터 관리 구조를 배우기에 매우 좋습니다. 다만, 방대한 콘텐츠 양을 고려하여 핵심 루프부터 점진적으로 개발하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 데이터 구조, 연금술의 상세 공식, 모험가 AI의 세부 알고리즘에 대한 정보가 없습니다. 외부 결제나 서버 연동 여부는 확인되지 않았습니다.",
+        "name": "冒険ダンジョン村",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=net.kairosoft.android.bouken_ja&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
     }
   }
 }

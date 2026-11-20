@@ -15454,6 +15454,451 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-20"
+    },
+    "itch:2406f110585c7804666e": {
+      "app_key": "itch:2406f110585c7804666e",
+      "name": "Invernadero Lunar [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://davidfutbolero.itch.io/invernadero-lunar",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:22:43+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Un idle acogedor: regá, cultivá plantas mágicas y dejá que el invernadero florezca solo, de día y de noche.",
+      "analysis": {
+        "app_key": "itch:2406f110585c7804666e",
+        "summary_ko": "마법 식물을 가꾸는 아늑한 분위기의 방치형 시뮬레이션 게임입니다. 낮과 밤에 상관없이 온실을 관리하며 식물이 스스로 자라나는 과정을 지켜볼 수 있습니다. 평화로운 정원 가꾸기 경험을 제공하는 것이 특징입니다.",
+        "features_ko": [
+          "마법 식물을 심고 가꾸어 온실을 성장시킵니다.",
+          "게임이 꺼져 있어도 식물이 자라는 방치형 시스템을 지원합니다."
+        ],
+        "noteworthy_ko": "방치형 게임의 핵심인 '성장'과 '수집' 요소를 마법이라는 테마와 결합한 점이 흥미롭습니다. 1인 개발 시 식물의 종류에 따른 시각적 변화를 어떻게 구현할지가 관건입니다.",
+        "development_ko": "핵심 기술은 시간 경과에 따른 자원 생성 로직과 데이터 저장입니다. 콘텐츠 제작은 식물 에셋의 다양성 확보가 중요하며, 밸런스는 성장 속도와 보상 체계의 조절이 핵심입니다.",
+        "idea_ko": "식물마다 고유한 마법 효과를 부여하여 온실의 환경을 변화시키는 시스템을 제안합니다.",
+        "highlights_ko": [
+          "낮과 밤의 시간 흐름을 반영한 온실 관리 경험을 제공합니다.",
+          "아늑한 분위기를 강조하여 사용자의 심리적 안정감을 유도합니다."
+        ],
+        "systems_ko": [
+          "시간 기반 자원 생성 엔진",
+          "데이터 저장 및 불러오기 시스템",
+          "식물 성장 상태 관리 시스템",
+          "UI/UX 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "방치형 게임은 복잡한 물리 엔진이나 실시간 조작이 필요 없어 1인 개발자가 구현하기에 적합한 구조입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "식물 심기 및 성장 로직",
+            "시간 경과에 따른 보상 획득 시스템"
+          ],
+          "defer": [
+            "복잡한 날씨 변화 시스템",
+            "소셜 공유 기능"
+          ],
+          "risks": [
+            "콘텐츠 부족으로 인한 짧은 플레이 타임"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "마법 온실 환경 제어",
+            "concept": "온실의 온도나 습도를 조절하여 특정 마법 식물만 자라게 하는 전략적 요소입니다.",
+            "first_step": "온도 수치에 따라 식물 성장 속도가 변하는 로직을 구현합니다."
+          },
+          {
+            "title": "식물 교배 시스템",
+            "concept": "두 식물을 교배하여 새로운 희귀 마법 식물을 발견하는 수집형 요소입니다.",
+            "first_step": "두 식물 데이터를 조합해 새로운 결과물을 도출하는 알고리즘을 작성합니다."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 기본 구조를 익히기에 매우 좋습니다. 단순한 메커니즘을 어떻게 시각적으로 매력 있게 포장할지 고민하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 게임 내 자원 종류, 마법 효과의 상세 내용, 그래픽 스타일 등을 확인할 수 없습니다.",
+        "name": "Invernadero Lunar [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://davidfutbolero.itch.io/invernadero-lunar",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 317,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "apple:6805725616": {
+      "app_key": "apple:6805725616",
+      "name": "Line Tangle - 紐解きひもゲームロープ",
+      "developer": "Shycheese",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/jp/app/line-tangle-%E7%B4%90%E8%A7%A3%E3%81%8D%E3%81%B2%E3%82%82%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%AD%E3%83%BC%E3%83%97/id6805725616?uo=2",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:22:43+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Colorful lines intertwine to form a picture, waiting for you to unravel the design and reveal its true shape. Simply tap the nodes and watch as order is gradually restored. Set against a clean, off-white canvas, vibrant lines and gleaming nodes create patterns just waiting to come to life. Your task is straightforward: drag the nodes to untangle the lines and reveal shapes such as buildings, portraits, flowers, headphones, and maple leaves. Each level is an exercise in observation and organization—perfect for moments when you want to unwind or take a quick, refreshing break. Subtle progress feedback keeps you motivated: limited lives add a strategic rhythm to your moves, while coin-based hints ensure that tricky puzzles don't stall your momentum. The visuals are bright and layered; color-coding and node highlighting make controls intuitive, while the transformation of the pattern upon completion delivers a satisfying sense of achievement. Clever design lies beneath the breezy pace—difficulty ramps up from simple line segments to complex tangles, and unlocking new shapes keeps the spirit of exploration alive. Whether you’re looking for a quick moment of relaxation or a mindful challenge, this game offers the perfect experience. Ready to start untangling your first colorful string art piece?",
+      "analysis": {
+        "app_key": "apple:6805725616",
+        "summary_ko": "엉킨 선을 풀어 그림을 완성하는 퍼즐 게임입니다. 노드를 드래그하여 선을 정리하고 건물, 꽃 등 다양한 형태를 드러내는 것이 목표입니다. 차분한 분위기 속에서 관찰력과 논리력을 발휘하는 경험을 제공합니다.",
+        "features_ko": [
+          "노드를 드래그하여 엉킨 선을 이동시킵니다.",
+          "선이 겹치지 않게 정리하여 숨겨진 그림을 완성합니다.",
+          "제한된 생명 시스템으로 전략적인 플레이를 유도합니다.",
+          "힌트 시스템을 통해 어려운 퍼즐을 해결할 수 있습니다.",
+          "난이도가 점진적으로 상승하는 레벨 디자인을 갖추고 있습니다."
+        ],
+        "noteworthy_ko": "단순한 선 연결 퍼즐을 시각적 완성도와 결합하여 몰입감을 높인 점이 훌륭합니다. 난이도 곡선을 어떻게 설계했는지 분석하는 것이 개발 관점에서 매우 유익합니다.",
+        "development_ko": "그래프 기반의 노드 연결 알고리즘과 드래그 앤 드롭 UI 구현이 핵심입니다. 다양한 퍼즐 패턴 제작과 난이도 밸런스 테스트가 주요 작업입니다.",
+        "idea_ko": "선이 겹칠 때마다 색상이 변하거나 빛나는 효과를 추가하여 시각적 피드백을 강화하는 시스템을 제안합니다.",
+        "highlights_ko": [
+          "깔끔한 디자인과 직관적인 컨트롤을 제공합니다.",
+          "퍼즐 완성 시 나타나는 시각적 변화가 성취감을 줍니다."
+        ],
+        "systems_ko": [
+          "노드 및 선 연결 데이터 구조",
+          "드래그 앤 드롭 입력 처리",
+          "퍼즐 완성도 판정 로직",
+          "레벨 데이터 관리 시스템",
+          "힌트 및 생명 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "퍼즐 로직 자체는 구현 가능하지만, 다양한 레벨 디자인과 시각적 피드백을 정교하게 다듬는 데 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "노드 드래그 이동 기능",
+            "선 연결 상태 판정 로직",
+            "기본 레벨 5개"
+          ],
+          "defer": [
+            "코인 기반 힌트 상점",
+            "복잡한 애니메이션 효과"
+          ],
+          "risks": [
+            "퍼즐 패턴 설계의 반복성으로 인한 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "시간 제한 퍼즐",
+            "concept": "제한 시간 내에 선을 풀어야 하는 긴박한 모드를 추가합니다.",
+            "first_step": "타이머 UI를 추가하고 시간 종료 시 게임 오버 로직을 구현합니다."
+          },
+          {
+            "title": "다색 선 퍼즐",
+            "concept": "특정 색상의 선끼리만 연결해야 하는 제약 조건을 추가합니다.",
+            "first_step": "선 객체에 색상 속성을 추가하고 연결 시 색상 일치 여부를 확인합니다."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 레벨 디자인과 사용자 경험(UX)을 배우기에 최적입니다. 깔끔한 UI와 직관적인 피드백을 구현하고 싶은 개발자에게 강력 추천합니다.",
+        "source_limitations_ko": "소개문에 명시된 힌트 시스템의 구체적인 작동 방식이나 결제 연동 여부는 확인되지 않았습니다.",
+        "name": "Line Tangle - 紐解きひもゲームロープ",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/line-tangle-%E7%B4%90%E8%A7%A3%E3%81%8D%E3%81%B2%E3%82%82%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%AD%E3%83%BC%E3%83%97/id6805725616?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 285,
+        "reasons": [
+          "multi_country",
+          "newly_seen"
+        ],
+        "best_rank": 66,
+        "countries": [
+          "JP",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "apple:6831077166": {
+      "app_key": "apple:6831077166",
+      "name": "VOMIRO",
+      "developer": "DooHyun Jang",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/vomiro/id6831077166",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:24:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "간직하고 싶은 오늘, VOMIRO. 손그림의 따뜻함을 담은 오리지널 프레임으로 나만의 사진을 만들어 보세요. 크리스마스, 해피 2027, 붉은 꽃 디자인에 좋아하는 순간을 담을 수 있어요. 하나의 디자인을 유지하면서 사진 구성을 1cut부터 9cut까지 바꿀 수 있습니다. 사진 장수를 줄였다가 늘려도 편집 중인 사진이 돌아와요. 내 사진을 불러오기 전, 예시 사진으로 편집 기능을 먼저 체험할 수도 있어요. • 직접 그린 오리지널 프레임과 베이직 7개 사진 구성 • 1·2·3·4·6·9cut 전환, 4cut 세로 스트립과 2×2 배열 • 그림을 유지하며 프레임 전체의 배경 컬러와 패턴 변경 • 사각형, 원형, 하트, 라운드 사각형, 돔 사진 모양 • 앨범 사진 불러오기와 3초·5초 타이머 촬영 • 사진별 위치·확대 조절과 빈티지 필터 • 촬영 후 눈·얼굴 윤곽·피부결 뷰티 보정 • 손글씨 텍스트와 이미지 스티커 꾸미기 • 복사한 이미지 스티커 붙여넣기와 직접 이동·크기 조절 • 즐겨찾기와 기기 내 작업 저장 • 고해상도 PNG·JPEG 사진 저장 로그인 없이 이용하며, 사진과 얼굴 보정은 기기 안에서 처리됩니다. 저장한 작업은 현재 기기에 보관됩니다. 한국어·영어·일본어·번체 중국어를 지원합니다. 설정에서 언어를 선택하거나 기기 언어에 맞춰 사용할 수 있어요.",
+      "analysis": {
+        "app_key": "apple:6831077166",
+        "summary_ko": "VOMIRO는 손그림 프레임을 활용하여 사진을 꾸미고 편집하는 사진 편집 앱입니다. 1컷부터 9컷까지 다양한 레이아웃을 지원하며, 프레임 배경과 패턴을 자유롭게 변경할 수 있습니다. 사진 보정, 스티커 꾸미기, 고해상도 저장 기능을 제공하며 로그인 없이 기기 내에서 모든 작업이 처리됩니다.",
+        "features_ko": [
+          "손그림 스타일의 오리지널 프레임을 제공하여 사진을 꾸밀 수 있습니다.",
+          "1컷부터 9컷까지 다양한 사진 구성을 자유롭게 전환할 수 있습니다.",
+          "프레임의 배경 컬러와 패턴을 변경하고 사진 모양을 조절할 수 있습니다.",
+          "사진별 위치, 확대, 빈티지 필터 적용 및 뷰티 보정을 지원합니다.",
+          "텍스트와 이미지 스티커를 활용한 꾸미기 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "사진 레이아웃을 유지하면서 사진 장수를 변경해도 편집 상태가 유지되는 데이터 구조가 흥미롭습니다. 이는 각 사진의 위치와 속성을 별도로 관리하는 객체 지향적 설계가 잘 되어 있음을 시사합니다.",
+        "development_ko": "이미지 처리 라이브러리(Core Image 등) 활용과 캔버스 기반의 편집 UI 구현이 핵심입니다. 다양한 레이아웃 전환 시 데이터 정합성을 유지하는 로직이 중요합니다. 고해상도 이미지 처리 시 메모리 관리와 성능 최적화가 필요합니다.",
+        "idea_ko": "특정 테마의 프레임을 지속적으로 업데이트하는 구독형 모델이나, 사용자가 직접 프레임을 그릴 수 있는 기능을 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "로그인 없이 기기 내에서 모든 편집이 이루어져 개인정보 보호에 유리합니다.",
+          "다양한 사진 모양과 필터로 감성적인 사진 편집이 가능합니다."
+        ],
+        "systems_ko": [
+          "이미지 편집 엔진",
+          "레이아웃 관리 시스템",
+          "스티커 및 텍스트 오버레이 시스템",
+          "이미지 필터 및 보정 모듈",
+          "로컬 파일 저장 및 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "이미지 처리와 UI 구현이 주를 이루며, 복잡한 서버 연동 없이 로컬 기능 위주라 개인 개발자가 구현하기에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사진 불러오기 및 레이아웃 배치",
+            "프레임 배경 변경",
+            "이미지 저장 기능"
+          ],
+          "defer": [
+            "뷰티 보정 기능",
+            "이미지 스티커 붙여넣기"
+          ],
+          "risks": [
+            "다양한 기기에서의 이미지 처리 성능 저하",
+            "메모리 부족 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "계절별 프레임 템플릿 앱",
+            "concept": "계절이나 기념일에 맞는 손그림 프레임을 매달 업데이트하여 사진을 꾸미는 테마 중심 앱입니다.",
+            "first_step": "기본 프레임 3종을 만들고 사진을 합성하여 저장하는 기능을 구현합니다."
+          },
+          {
+            "title": "손글씨 일기장 사진 편집기",
+            "concept": "사진 옆에 손글씨로 일기를 쓸 수 있는 공간을 제공하여 사진과 기록을 함께 남기는 앱입니다.",
+            "first_step": "사진 영역과 텍스트 입력 영역을 나눈 레이아웃을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "이미지 처리와 UI/UX 디자인 역량을 키우기에 매우 좋습니다. 로컬 중심의 앱이라 유지보수 부담이 적어 추천합니다.",
+        "source_limitations_ko": "사용된 이미지 처리 라이브러리의 종류나 뷰티 보정 알고리즘의 상세 내용은 알 수 없습니다.",
+        "name": "VOMIRO",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/vomiro/id6831077166",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 177,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "apple:6756682207": {
+      "app_key": "apple:6756682207",
+      "name": "Stadium Vault: Rip Card Packs",
+      "developer": "Stadium Live Inc.",
+      "source": "apple",
+      "country": "US",
+      "category": "game_card",
+      "detail_url": "https://apps.apple.com/us/app/stadium-vault-rip-card-packs/id6756682207?uo=2",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:28:06+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Rip digital packs. Pull real graded cards. Keep, ship, or cash out instantly. Stadium Vault lets you rip for the hottest grails in Pokémon and sports, anywhere, anytime. PSA 10 LeBrons, Patch Auto Wembys, you name it. Every pack contains a real trading card. No hassle, no waiting, just dubs. Building your collection has never been easier. Download the app and experience a new way of ripping. TRANSPARENT ODDS We publish the probability of hitting cards of every rarity before you buy, so you can pick a pack that matches your level of adventure. RIP REAL CARDS Every pack contains authentic trading cards. Chase your favourites across Pokémon, basketball, baseball, soccer, One Piece, and more. SELL YOUR CARDS INSTANTLY OR SHIP THEM Every pull comes with an instant buyback offer at 90% of fair market value. Don't love the card? Sell it back in one tap and rip again. Love it? Ship it straight to your doorstep. Built by collectors, for collectors. Rip digitally, collect for real. ----- STAY CONNECTED Support: support@stadiumvault.io Web: https://stadiumvault.io Instagram: https://www.instagram.com/stadiumvault.io TikTok: https://www.tiktok.com/@stadiumvault.io Terms of Service: https://stadium-vault.gitbook.io/links/terms-of-service Privacy Policy: https://stadium-vault.gitbook.io/links/privacy-policy FAQ: https://stadium-vault.gitbook.io/links/faq ----- Card condition varies by pack. Every pack contains either a professionally graded slab or an authentic ungraded card. Every card is a real, physical collectible. Card values are based on fair market value and fluctuate with the market. Instant buyback offers are made at 90% of fair market value as determined by Stadium Vault at the time of sale and may vary with market conditions. You must be 18 or older to use Stadium Vault.",
+      "analysis": {
+        "app_key": "apple:6756682207",
+        "summary_ko": "디지털 팩을 개봉하여 실제 트레이딩 카드를 획득하고 관리하는 플랫폼입니다. 획득한 카드는 즉시 판매하거나 실물로 배송받을 수 있습니다. 수집가들을 위해 투명한 확률을 공개하며 다양한 스포츠 및 포켓몬 카드를 제공합니다.",
+        "features_ko": [
+          "디지털 팩을 구매하고 개봉하여 실물 트레이딩 카드를 획득합니다.",
+          "획득한 카드의 시장 가치 90% 수준으로 즉시 판매할 수 있습니다.",
+          "보유한 카드를 실물로 배송 신청할 수 있습니다.",
+          "카드 등급과 희귀도에 따른 획득 확률을 투명하게 공개합니다."
+        ],
+        "noteworthy_ko": "디지털 경험과 실물 자산의 가치를 연결한 하이브리드 모델입니다. 실시간 시장 가치 반영과 즉시 판매 기능은 사용자에게 강력한 동기를 부여하며, 이는 개발 관점에서 매우 정교한 데이터 연동이 필요합니다.",
+        "development_ko": "실시간 시장 데이터 연동 및 카드 등급 데이터베이스 구축이 핵심입니다. 사용자 자산 관리와 배송 물류 시스템 연동이 필요하며, 보안과 정확한 확률 계산이 필수적입니다. 금융 거래가 포함되므로 결제 및 환전 시스템의 안정성 확보가 가장 큰 부담입니다.",
+        "idea_ko": "사용자 간의 카드 교환을 지원하는 커뮤니티 마켓플레이스를 추가하여 플랫폼 내 체류 시간을 늘리는 전략이 유효합니다.",
+        "highlights_ko": [
+          "디지털 팩 개봉과 실물 카드 배송의 결합.",
+          "시장 가치 기반의 즉시 판매 시스템."
+        ],
+        "systems_ko": [
+          "확률 기반의 아이템 뽑기 시스템",
+          "실시간 시장 가격 연동 API",
+          "사용자 인벤토리 및 자산 관리",
+          "배송 및 물류 연동 시스템",
+          "결제 및 환전 보안 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실물 자산과 연동되는 금융 시스템 및 물류 시스템은 1인 개발자가 구현하기에 매우 높은 난이도와 보안 책임을 요구합니다. 법적 규제와 시장 데이터의 정확성 유지가 큰 장벽입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "디지털 팩 개봉 로직",
+            "카드 데이터베이스",
+            "기본적인 사용자 인벤토리"
+          ],
+          "defer": [
+            "실물 배송 시스템",
+            "실시간 시장가 연동"
+          ],
+          "risks": [
+            "금융 거래 관련 법적 규제",
+            "데이터 보안 및 해킹 위험"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "카드 가치 시뮬레이터",
+            "concept": "실제 거래 없이 가상의 카드를 수집하고 시장 가치 변동을 예측해보는 교육용 시뮬레이션입니다.",
+            "first_step": "가상의 카드 데이터와 변동 그래프를 시각화합니다."
+          },
+          {
+            "title": "카드 도감 챌린지",
+            "concept": "특정 테마의 카드를 모두 모으면 보상을 주는 수집형 챌린지 시스템입니다.",
+            "first_step": "카드 도감 UI와 수집 상태 체크 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "데이터 기반의 서비스 운영과 확률형 아이템의 투명한 설계 방식을 배우기에 좋습니다. 다만, 금융 및 물류 연동은 전문적인 인프라가 필요하므로 주의가 필요합니다.",
+        "source_limitations_ko": "실제 시장 데이터 연동 방식과 배송 물류 업체와의 API 연동 상세 내용은 알 수 없습니다. 금융 관련 법적 준수 사항은 소개문에 포함되지 않았습니다.",
+        "name": "Stadium Vault: Rip Card Packs",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/stadium-vault-rip-card-packs/id6756682207?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
+    },
+    "google:com.sixty9design.virtue": {
+      "app_key": "google:com.sixty9design.virtue",
+      "name": "[69D] Virtue Analog Watch",
+      "developer": "69 Design",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.sixty9design.virtue&hl=en&gl=US",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T07:28:06+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "VIRTUE – Elegant Hybrid Analog Watch Face for Wear OS Timeless elegance meets modern functionality. Virtue combines the aesthetics of a classic analog timepiece with smart digital elements, creating a refined watch face suitable for both everyday style and formal occasions. Classic analog design High-quality hands with smooth movement and realistic depth bring the feel of a premium wristwatch. Hybrid data integration Minimal digital indicators display essential stats without disrupting the analog layout. Customizable style Choose from 30 predefined color themes to adjust the accent colors and background according to your watch body or outfit. Key features • Authentic analog hand movement • Hybrid data panel (battery, steps, heart rate, date) • 30 color presets • High contrast for easy readability • Smooth animation and optimized power use • Perfect for classic watch lovers and minimal design enthusiasts Compatibility This Wear OS watch face supports smartwatches running Wear OS 5 or newer (Wear OS API 34+). Virtue – the art of precision and simplicity on your wrist. Thank you. 69 Design Follow us on Instagram: …",
+      "analysis": {
+        "app_key": "google:com.sixty9design.virtue",
+        "summary_ko": "Wear OS를 위한 하이브리드 아날로그 워치 페이스입니다. 클래식한 아날로그 디자인에 배터리, 걸음 수, 심박수 등 디지털 정보를 결합했습니다. 다양한 색상 테마를 제공하여 사용자 취향에 맞게 커스터마이징할 수 있습니다.",
+        "features_ko": [
+          "아날로그 시계 바늘의 부드러운 움직임을 구현합니다.",
+          "배터리, 걸음 수, 심박수, 날짜 등 디지털 데이터를 표시합니다.",
+          "30가지의 사전 설정된 색상 테마를 제공합니다.",
+          "고대비 디자인으로 가독성을 높였습니다.",
+          "전력 효율을 최적화하여 배터리 소모를 줄입니다."
+        ],
+        "noteworthy_ko": "워치 페이스는 제한된 화면 내에서 정보 전달과 디자인을 동시에 고려해야 하는 UI/UX의 정수입니다. 전력 효율을 고려한 최적화와 Wear OS API 활용 능력이 개발 관점에서 핵심입니다.",
+        "development_ko": "Wear OS API를 활용한 시계 바늘 애니메이션 구현이 핵심입니다. 센서 데이터(심박수, 걸음 수)를 실시간으로 받아와 표시하는 로직이 필요하며, 배터리 소모를 최소화하기 위한 저전력 모드 구현이 필수적입니다. 1인 개발 시 다양한 화면 크기와 해상도에 대응하는 레이아웃 설계가 중요합니다.",
+        "idea_ko": "사용자의 활동량에 따라 시계 바늘의 색상이나 디자인이 실시간으로 변하는 다이내믹 워치 페이스를 제안합니다.",
+        "highlights_ko": [
+          "클래식 디자인과 디지털 정보의 조화.",
+          "다양한 색상 테마 및 전력 최적화."
+        ],
+        "systems_ko": [
+          "Wear OS 워치 페이스 API",
+          "센서 데이터 연동 시스템",
+          "애니메이션 및 렌더링 엔진",
+          "설정 및 커스터마이징 관리",
+          "전력 최적화 로직"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "워치 페이스 개발은 정해진 API를 활용하므로 구조가 명확합니다. 1인 개발자가 충분히 완성도 높은 결과물을 만들 수 있는 규모입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 아날로그 시계 바늘 구현",
+            "날짜 및 배터리 표시",
+            "기본 테마 설정"
+          ],
+          "defer": [
+            "심박수 및 걸음 수 센서 연동",
+            "30가지 이상의 색상 테마"
+          ],
+          "risks": [
+            "다양한 기기 호환성 문제",
+            "배터리 소모 최적화 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "활동량 기반 테마",
+            "concept": "걸음 수 목표를 달성할 때마다 시계의 배경이 서서히 밝아지는 테마입니다.",
+            "first_step": "걸음 수 데이터를 받아 배경 투명도를 조절하는 로직을 만듭니다."
+          },
+          {
+            "title": "날씨 연동 워치 페이스",
+            "concept": "현재 날씨에 따라 시계 배경에 비나 눈 효과가 나타나는 워치 페이스입니다.",
+            "first_step": "날씨 API를 연동하여 상태값을 받아오는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "Wear OS 개발의 기초와 저전력 UI 구현 방식을 배우기에 매우 좋습니다. 작은 화면에서 정보를 효율적으로 배치하는 감각을 익히기에 추천합니다.",
+        "source_limitations_ko": "전력 최적화의 구체적인 구현 방식과 센서 데이터 업데이트 주기 설정은 확인되지 않았습니다. Wear OS 5 이상 지원을 위한 세부 API 활용법은 추정입니다.",
+        "name": "[69D] Virtue Analog Watch",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.sixty9design.virtue&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
     }
   }
 }
