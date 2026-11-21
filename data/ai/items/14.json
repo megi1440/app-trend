@@ -13577,6 +13577,99 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-21"
+    },
+    "apple:6760536822": {
+      "app_key": "apple:6760536822",
+      "name": "Health100",
+      "developer": "Health100 LLC",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/health100/id6760536822",
+      "data_date": "2026-11-21",
+      "analysed_at": "2026-11-21T09:17:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Health100: Your trusted front door to health and care Health care should feel connected, not complicated. Health100 brings your eligible health care, pharmacy and benefits together in one modern app so you can stay informed and take action with confidence. Health100 puts essential health needs in one place. No switching between systems. No guessing what to do next. Health100 provides a clear, streamlined experience powered by real-time AI insights to help you focus on what matters most: your health. With Health100, you can: Access and connect health records, including visit summaries and shared records Use AI to get real-time personal health care information Manage eligible prescriptions and pharmacy services in a simple, unified experience Schedule and manage appointments across supported care services View and understand eligible benefits information, including claims and coverage details Stay on track with eligible appointment updates and timely medication reminders Health100 brings your trusted services together. Whether you are preparing for a visit with your provider, reviewing your health information or managing medications, Health100 can help you stay connected and in control. Disclaimer: Not all of your health info may be available in Health100. Availability depends on participating partners and your authorization.",
+      "analysis": {
+        "app_key": "apple:6760536822",
+        "summary_ko": "Health100은 사용자의 건강 기록, 처방전, 보험 혜택 정보를 한곳에서 통합 관리할 수 있도록 돕는 건강 관리 플랫폼입니다. 복잡한 의료 시스템을 연결하여 사용자가 자신의 건강 상태를 쉽게 파악하고 필요한 조치를 취할 수 있게 합니다. 실시간 AI 인사이트를 통해 개인화된 건강 정보를 제공하며, 진료 예약 및 약물 복용 알림 기능을 지원합니다.",
+        "features_ko": [
+          "사용자의 건강 기록과 방문 요약 정보를 연결하여 한곳에서 조회할 수 있습니다.",
+          "AI를 활용하여 실시간으로 개인화된 건강 관리 정보를 제공합니다.",
+          "처방전 및 약국 서비스를 통합된 인터페이스에서 관리할 수 있습니다.",
+          "지원되는 의료 서비스 전반에 걸쳐 진료 예약을 설정하고 관리할 수 있습니다.",
+          "보험 혜택 정보, 청구 내역 및 보장 범위를 확인하고 이해할 수 있습니다.",
+          "진료 일정 업데이트와 약물 복용을 위한 알림 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "다양한 외부 의료 시스템의 데이터를 통합하는 인터페이스 설계가 핵심입니다. 파편화된 의료 정보를 사용자 친화적인 단일 대시보드로 시각화하는 과정에서 높은 수준의 데이터 구조화 능력이 요구될 것으로 추정됩니다.",
+        "development_ko": "핵심 구현 기술로는 다양한 의료 데이터 표준(FHIR 등)을 처리하는 API 연동 기술이 필수적입니다. 콘텐츠 제작보다는 데이터 보안과 개인정보 보호를 위한 백엔드 구축 부담이 매우 큽니다. 실시간 알림 및 AI 인사이트 엔진의 정확성을 검증하는 테스트 과정이 개발의 핵심이 될 것입니다.",
+        "idea_ko": "사용자의 건강 데이터를 기반으로 일상적인 건강 습관을 제안하는 '개인 맞춤형 건강 루틴 생성기' 아이디어가 개인 개발자에게 가장 적합합니다.",
+        "highlights_ko": [
+          "의료 기록, 처방전, 보험 혜택을 하나의 앱으로 통합하여 사용자 경험을 단순화했습니다.",
+          "실시간 AI 분석을 통해 사용자가 자신의 건강 상태를 능동적으로 관리하도록 돕습니다."
+        ],
+        "systems_ko": [
+          "외부 의료 데이터 연동 API 모듈",
+          "사용자 인증 및 데이터 보안 시스템",
+          "실시간 알림 푸시 서비스",
+          "데이터 시각화 대시보드 UI",
+          "개인화된 건강 데이터 저장소"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "의료 데이터는 보안과 규제 준수가 매우 엄격하며, 외부 파트너사와의 API 연동은 개인 개발자가 단독으로 구현하기에 기술적, 법적 장벽이 매우 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 프로필 관리",
+            "건강 기록 수동 입력 및 조회 기능",
+            "복약 알림 설정 기능"
+          ],
+          "defer": [
+            "실시간 AI 분석 엔진",
+            "외부 보험사 및 약국 API 자동 연동",
+            "실시간 진료 예약 시스템"
+          ],
+          "risks": [
+            "민감한 개인 의료 정보 유출 위험",
+            "데이터 연동 파트너십 확보의 어려움",
+            "의료법 및 개인정보 보호법 준수 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "건강 기록 일기",
+            "concept": "사용자가 직접 자신의 증상과 복용 약물을 기록하고 시각화하는 앱입니다. 데이터 연동 없이 수동 입력만으로 건강 변화를 추적합니다.",
+            "first_step": "사용자 입력 폼과 기록을 날짜별로 보여주는 캘린더 뷰를 구현합니다."
+          },
+          {
+            "title": "복약 알림 도우미",
+            "concept": "단순하지만 정확한 복약 시간 알림과 복용 여부 체크 기능을 제공합니다. 복잡한 데이터 연동을 배제하고 알림 기능에 집중합니다.",
+            "first_step": "로컬 알림 스케줄러와 복용 완료 체크 버튼을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "개인 개발자에게는 복잡한 데이터 연동보다는 특정 건강 관리 기능(알림, 기록)에 집중하는 방식의 학습을 추천합니다. 의료 데이터 연동은 법적 책임이 따르므로 개인 프로젝트로는 비추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 데이터 연동 방식, 보안 표준, 파트너사 목록이 명시되어 있지 않습니다. 실제 앱이 어떤 외부 서비스와 연동되는지, 결제 기능이 포함되어 있는지, 의료 기기와 직접 통신하는지 여부는 확인되지 않았습니다.",
+        "name": "Health100",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/health100/id6760536822",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 95,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-21"
     }
   }
 }
