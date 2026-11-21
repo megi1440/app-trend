@@ -12220,6 +12220,367 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-21"
+    },
+    "apple:6831317859": {
+      "app_key": "apple:6831317859",
+      "name": "Tidy Room!",
+      "developer": "Circle Games",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/kr/app/tidy-room/id6831317859?uo=2",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:02:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A bedroom floor full of stray things. A kitchen counter lost under mugs. A study where nothing made it back to the shelf. Tidy Room! hands you the mess and a few baskets, and asks you to put it right. Each basket names what it wants. Hunt through the room, tap the right things, and watch the clutter disappear. Objects hide under other objects, so the fun is in the order: what do you pick up first? Play at your own pace. There is no countdown, just a room that looks better every time you find the thing a basket asked for. What you will do • Explore illustrated rooms, from quiet studies to busy kitchens • Fill baskets by finding the items they ask for • Dig through piles to reach what is hidden underneath • Plan your taps so the tray does not overflow • Clear one level and start the next One room at a time, until the house feels like home again.",
+      "analysis": {
+        "app_key": "apple:6831317859",
+        "summary_ko": "Tidy Room!은 어질러진 방 안에서 특정 물건을 찾아 바구니에 담는 정리 퍼즐 게임입니다. 제한 시간 없이 자유롭게 물건을 찾으며 방을 깔끔하게 정리하는 경험을 제공합니다. 물건 아래 숨겨진 아이템을 찾아내는 탐색의 재미가 핵심입니다.",
+        "features_ko": [
+          "방 안의 어질러진 물건들을 찾아 바구니에 담는 정리 메커니즘을 제공합니다.",
+          "물건 아래 숨겨진 아이템을 찾기 위해 순차적으로 물건을 치우는 탐색 기능을 포함합니다.",
+          "바구니가 요구하는 특정 아이템을 찾아내는 미션 시스템을 제공합니다.",
+          "제한 시간 없이 플레이어의 속도에 맞춰 진행되는 여유로운 게임 플레이를 지원합니다."
+        ],
+        "noteworthy_ko": "단순한 정리 게임이지만, 물건의 겹침(Z-order)을 활용한 퍼즐 요소가 개발 관점에서 흥미롭습니다. 어떤 물건을 먼저 치워야 할지 고민하게 만드는 구조가 게임의 깊이를 더합니다.",
+        "development_ko": "핵심 기술은 2D 레이어 관리와 터치 입력 판정입니다. 콘텐츠 제작은 다양한 방의 일러스트와 그 안에 배치될 수많은 오브젝트 리소스 제작에 큰 부담이 있습니다. 테스트는 오브젝트 간의 겹침 순서가 논리적으로 맞는지 확인하는 밸런스 작업이 중요합니다.",
+        "idea_ko": "정리된 물건을 다시 배치하여 방의 인테리어를 완성하는 '꾸미기' 요소를 추가하는 것이 적합합니다.",
+        "highlights_ko": [
+          "제한 시간 없는 평화로운 게임 플레이 환경을 제공합니다.",
+          "물건을 치우는 순서를 고민하게 만드는 탐색형 퍼즐 구조를 갖췄습니다."
+        ],
+        "systems_ko": [
+          "오브젝트 레이어 및 겹침 관리",
+          "터치 입력 및 오브젝트 선택 판정",
+          "인벤토리(바구니) 관리 시스템",
+          "레벨 데이터 관리(오브젝트 배치)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기술적 구현은 어렵지 않으나, 수많은 오브젝트의 배치와 레이어 순서를 관리하는 데이터 설계가 복잡할 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "오브젝트 터치 및 제거 기능",
+            "바구니 아이템 요구 리스트",
+            "기본적인 2D 레이어 시스템"
+          ],
+          "defer": [
+            "복잡한 방 꾸미기 기능",
+            "다양한 애니메이션 효과"
+          ],
+          "risks": [
+            "아트 리소스 제작의 방대한 양",
+            "오브젝트 배치 데이터 관리의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "정리 후 꾸미기",
+            "concept": "방을 모두 정리한 후, 치운 물건들을 원하는 위치에 다시 배치하여 방을 꾸밉니다. 정리의 성취감과 꾸미기의 재미를 결합합니다.",
+            "first_step": "정리된 아이템을 드래그 앤 드롭으로 배치하는 시스템을 구현합니다."
+          },
+          {
+            "title": "시간 제한 모드",
+            "concept": "빠르게 정리해야 하는 도전 모드를 추가합니다. 기존의 여유로운 플레이와 대비되는 긴박한 경험을 제공합니다.",
+            "first_step": "타이머 UI와 제한 시간 종료 로직을 추가합니다."
+          }
+        ],
+        "recommendation_ko": "2D 레이어 관리와 데이터 기반의 레벨 디자인을 배우기에 매우 좋습니다. 단순한 메커니즘을 어떻게 풍부한 콘텐츠로 확장할지 고민하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문만으로는 구체적인 레벨 수, 아이템의 종류, 데이터 저장 방식 등을 확인할 수 없습니다.",
+        "name": "Tidy Room!",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/tidy-room/id6831317859?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 285,
+        "reasons": [
+          "multi_country",
+          "newly_seen"
+        ],
+        "best_rank": 79,
+        "countries": [
+          "JP",
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
+    },
+    "google:com.playdigious.evoland2": {
+      "app_key": "google:com.playdigious.evoland2",
+      "name": "Evoland 2",
+      "developer": "Playdigious",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.playdigious.evoland2&hl=en&gl=US",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:05:10+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "*Save up to 90%!* Onboard on an epic RPG adventure of more than 20 hours through video games history filled with a ton of funny classical games references. From 2D RPG, through 3D vs fight to a shooter, a trading card game and more you’ll get your fill of jumping from a game genre to another, never bored. Evoland 2 is not only one game but many, backboned with a story that will make you travel through time, discovering different art styles and video gaming technology. Released first on PC with 500.000 copies shipped, we’re proud to share with you this experience carefully adapted for Android devices. Additional information: * One time payment to download (Absolutely NO ads and NO in-app payments). * Support of most bluetooth external controllers * Optimized for NVIDIA Shield and NVIDIA devices. If you experience any issue with Evoland 2, please contact our customer support at hello@playdigious.com and give us as much as possible information on your problem.",
+      "analysis": {
+        "app_key": "google:com.playdigious.evoland2",
+        "summary_ko": "비디오 게임의 역사를 여행하는 RPG 어드벤처 게임입니다. 2D RPG부터 3D 격투, 슈팅, 카드 게임 등 다양한 장르를 넘나드는 경험을 제공합니다. 시간 여행을 테마로 한 스토리와 변화하는 아트 스타일이 특징입니다.",
+        "features_ko": [
+          "20시간 이상의 방대한 플레이 타임을 제공합니다.",
+          "다양한 게임 장르를 혼합하여 지루할 틈 없는 게임 플레이를 구현합니다.",
+          "시간 여행을 중심으로 한 서사 구조를 가지고 있습니다.",
+          "다양한 시대의 비디오 게임 기술과 아트 스타일을 체험할 수 있습니다.",
+          "블루투스 외부 컨트롤러를 지원하여 조작 편의성을 높였습니다."
+        ],
+        "noteworthy_ko": "여러 장르를 하나의 게임 안에 녹여낸 구조가 매우 독특합니다. 각 장르별 메커니즘을 일관된 스토리로 묶어내는 방식은 개발자에게 큰 도전이자 배울 점입니다.",
+        "development_ko": "장르별로 다른 게임 엔진 로직을 통합하는 아키텍처 설계가 핵심입니다. 다양한 아트 스타일을 구현하기 위한 리소스 제작 부담이 크며, 장르 간 밸런스 조정이 매우 중요합니다.",
+        "idea_ko": "특정 장르를 선택하여 그 장르의 역사적 발전 과정을 짧게 체험하는 미니 게임 모음집을 만드는 것이 적합합니다.",
+        "highlights_ko": [
+          "고전 게임에 대한 오마주와 다양한 장르의 결합이 돋보입니다.",
+          "시간 여행을 통해 시각적, 기술적 변화를 체감할 수 있습니다."
+        ],
+        "systems_ko": [
+          "장르 전환 관리 시스템",
+          "시간 여행 서사 관리자",
+          "입력 판정 및 컨트롤러 매핑",
+          "데이터 저장 및 로드 시스템",
+          "장르별 게임 규칙 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "여러 장르의 게임 메커니즘을 하나로 통합하는 것은 매우 높은 기술적 난이도를 요구합니다. 각 장르마다 필요한 물리 엔진이나 규칙이 다르기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 2D RPG 이동 및 상호작용",
+            "장르 전환을 위한 씬 관리 시스템",
+            "간단한 대화 및 퀘스트 시스템"
+          ],
+          "defer": [
+            "복잡한 3D 격투 시스템",
+            "카드 게임 로직",
+            "전체 20시간 분량의 콘텐츠"
+          ],
+          "risks": [
+            "개발 범위의 무분별한 확장",
+            "장르 간 이질감으로 인한 사용자 경험 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "장르 변환 퍼즐",
+            "concept": "퍼즐을 풀 때마다 게임의 장르가 바뀌어 해결 방법이 달라지는 게임입니다.",
+            "first_step": "2D 플랫폼 장르와 3D 퍼즐 장르를 전환하는 간단한 프로토타입을 만듭니다."
+          },
+          {
+            "title": "게임 역사 박물관",
+            "concept": "가상의 게임 역사를 탐험하며 각 시대의 게임을 짧게 플레이하는 시뮬레이션입니다.",
+            "first_step": "시대별로 다른 그래픽 스타일을 적용한 3개의 짧은 스테이지를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "다양한 게임 메커니즘을 구현해보고 싶은 개발자에게 추천합니다. 다만, 1인 개발 시에는 범위를 좁혀 하나의 핵심 장르에 집중하는 것이 성공 가능성을 높입니다.",
+        "source_limitations_ko": "소개문에는 구체적인 게임 엔진 정보나 장르 전환의 기술적 구현 방식이 명시되어 있지 않습니다. NVIDIA 기기 최적화의 구체적인 방법은 알 수 없습니다.",
+        "name": "Evoland 2",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.playdigious.evoland2&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
+    },
+    "apple:1192326768": {
+      "app_key": "apple:1192326768",
+      "name": "Life Time Digital",
+      "developer": "Life Time, Inc.",
+      "source": "apple",
+      "country": "US",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/us/app/life-time-digital/id1192326768?uo=2",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:05:53+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "UNLOCK EVERY MOMENT OF YOUR MEMBERSHIP Download the Life Time app and unlock everything your membership includes. Reserve studio classes, connect with a Dynamic Personal Trainer, order from the LifeCafe, book LifeSpa services, and track your workouts, all from your phone. Your membership, fully realized. L•AI•C — YOUR PERSONAL CONCIERGE Meet L•AI•C (\"lay-see\"), your AI-powered guide to the club, built on Life Time expertise. More than an assistant, L•AI•C is your coach, guide, and concierge, tailored to you. • A concierge that gets you. Find classes, reserve courts, schedule appointments, and discover experiences personalized to your habits and your club. • Personalized plans, real results. Dynamic workouts built for your goals, schedule, and lifestyle. Whether you are training for a race, building strength, or improving sleep, L•AI•C keeps you moving forward. • Expert answers, instantly. Ask anything from \"How do I recover faster?\" to \"What's a high-protein breakfast?\" and get advice grounded in Life Time expertise. NAVIGATE THE CLUB • Check in to the club and manage your day from the app with hours, amenities, and reservations at your fingertips. • Find your perfect group fitness class, with 40-plus formats to choose from, including strength, cardio, yoga, barre, Pilates, and studio cycling. • Reserve sports and courts, kids activities, and recovery appointments in seconds. •Order a meal or protein shake from the LifeCafe after a workout, or head to the Beach Club and order food and beverages poolside. TAKE TRAINING FURTHER • Get matched with a Dynamic Personal Trainer who can help you achieve your goals. Or experience the transformative effects of classical Pilates and Dynamic Stretch sessions. • Follow nutrition plans built by registered dietitians and nutrition coaches. • Get personalized workouts curated by L•AI•C based on your goals, preferences, and lifestyle. • Guided meditations, stretching, and breathwork help you recover intentionally. STAY ACCOUNTABLE TO YOUR PLAN • Follow a training program and track every detail of your workouts within the app. • Track steps, sleep, weight, and body composition in one place. • View your club visits and watch your progress build over time. FOR ATHLETIC EVENTS PARTICIPANTS Training for a race takes more than a training plan. The app supports you from registration to the finish line. • Find and register for Life Time's premier athletic events nationwide, including marathons, cycling races, and triathlons. • Follow expert-designed training and recovery programs built to boost endurance and speed up recovery. • Access your digital event pass and check in seamlessly on race day. FOR GUESTS OF MEMBERS As a guest of a member, you will claim your guest pass right in the app and see what you've been invited to. • Claim your digital guest pass and check in to the club with a simple scan. • Ask L•AI•C anything, from club hours to what to bring, and get answers built for your first visit. • Browse the full class schedule and see what's live in the studios, from studio cycling to strength training to yoga. • Discover club amenities, LifeSpa services, and the cafe menu, and see what a full membership includes. • Loved your visit? Find the nearest club and join the community in a few taps FOR CLUB MEMBERS ENHANCED FEATURES FOR OUR CLUB MEMBERS • Check in to the club and sign up for events. • Reserve classes, camps, and more. • Order from the café, bistro, or book LifeSpa services. • Manage your membership anytime. Manage your membership anytime, right in the app. Download today and start unlocking everything Life Time has to offer. Some features may require a Life Time membership. Consult a physician before starting any fitness program. Privacy Policy: https://my.lifetime.life/policy/privacy-policy.html Terms of Use: http://www.apple.com/legal/itunes/appstore/dev/stdeula",
+      "analysis": {
+        "app_key": "apple:1192326768",
+        "summary_ko": "Life Time 멤버십 회원을 위한 종합 관리 앱으로, 클래스 예약, 개인 트레이너 연결, 시설 이용 등을 지원합니다. AI 가이드 'L•AI•C'가 사용자의 습관에 맞춘 개인화된 운동 계획과 건강 조언을 제공합니다. 운동 기록부터 식단, 시설 이용까지 멤버십의 모든 혜택을 앱 하나로 관리할 수 있습니다.",
+        "features_ko": [
+          "AI 가이드 'L•AI•C'를 통해 개인화된 운동 계획과 건강 조언을 제공합니다.",
+          "스튜디오 클래스, 스포츠 코트, 회복 세션 등을 예약할 수 있습니다.",
+          "개인 트레이너와 연결되어 맞춤형 트레이닝을 받을 수 있습니다.",
+          "운동, 수면, 체성분 등 신체 데이터를 통합적으로 추적합니다.",
+          "클럽 시설 이용, 카페 주문, 이벤트 등록 등 멤버십 관련 기능을 관리합니다."
+        ],
+        "noteworthy_ko": "오프라인 시설과 온라인 앱을 결합한 O2O(Online to Offline) 서비스의 전형입니다. AI 가이드가 단순히 운동뿐만 아니라 시설 이용과 식단까지 아우르는 통합 컨시어지 역할을 한다는 점이 매우 흥미롭습니다.",
+        "development_ko": "핵심 기술은 실시간 예약 시스템과 사용자 데이터 통합 관리입니다. 오프라인 시설과의 데이터 동기화가 필수적이며, AI 가이드 구현을 위한 자연어 처리 및 추천 엔진이 필요합니다. 사용자 경험을 위해 오프라인과 온라인의 매끄러운 연결이 가장 중요합니다.",
+        "idea_ko": "사용자가 클럽에 방문했을 때, 오늘 해야 할 운동을 스마트워치로 바로 알려주는 '방문 알림 및 가이드' 기능을 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "오프라인 클럽 시설과 온라인 앱의 완벽한 통합 관리.",
+          "AI 가이드를 통한 개인화된 건강 관리 및 컨시어지 서비스."
+        ],
+        "systems_ko": [
+          "실시간 예약 및 스케줄링 시스템",
+          "사용자 데이터 통합 관리 시스템",
+          "AI 컨시어지 및 추천 엔진",
+          "오프라인 시설 연동 API",
+          "결제 및 멤버십 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "오프라인 시설과의 연동, 복잡한 예약 시스템, AI 컨시어지 등 대규모 엔터프라이즈급 기능이 포함되어 있습니다. 1인 개발로는 구현이 불가능하며 팀 단위 개발이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 예약 시스템",
+            "사용자 프로필 및 멤버십 관리",
+            "운동 기록 추적"
+          ],
+          "defer": [
+            "AI 컨시어지 기능",
+            "오프라인 시설 실시간 연동",
+            "결제 및 카페 주문 시스템"
+          ],
+          "risks": [
+            "오프라인 시설과의 데이터 동기화 오류",
+            "예약 시스템의 동시성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "시설 혼잡도 알림",
+            "concept": "현재 클럽의 혼잡도를 실시간으로 확인하여 사용자가 덜 붐비는 시간에 방문하도록 유도합니다.",
+            "first_step": "시설 이용 데이터를 기반으로 시간대별 혼잡도를 계산하는 간단한 로직을 구현합니다."
+          },
+          {
+            "title": "운동 파트너 매칭",
+            "concept": "비슷한 운동 목표를 가진 회원끼리 매칭하여 함께 운동할 수 있도록 돕는 기능입니다.",
+            "first_step": "사용자의 운동 목표와 선호 시간을 기반으로 매칭하는 간단한 알고리즘을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "O2O 서비스의 구조와 복잡한 시스템 통합을 배우고 싶은 개발자에게 추천합니다. 다만, 실제 서비스 구현보다는 시스템 아키텍처 설계 연습용으로 적합합니다.",
+        "source_limitations_ko": "소개문에는 AI 가이드의 구체적인 구현 방식이나 오프라인 시설과의 데이터 연동 기술에 대한 정보가 없습니다. 결제 및 보안 정책에 대한 상세 내용은 확인되지 않았습니다.",
+        "name": "Life Time Digital",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/life-time-digital/id1192326768?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
+    },
+    "google:com.poembit.kr": {
+      "app_key": "google:com.poembit.kr",
+      "name": "시심(詩心) - 세계명시 명구절과 아름다운 시 잠금화면",
+      "developer": "Yessi · WellBit",
+      "source": "google",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.poembit.kr&hl=ko&gl=KR",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:06:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "화면을 켤 때마다, 잠금화면에 세계의 명시 한 구절. 시 한 편마다, 오직 그 시를 위해 지은 풍경. 한 구절에서 전문·원문·AI 해설까지, 터치 한 번. 내 삶에 꽂아 두는 가장 아름다운 책갈피, 시심(詩心)입니다. 책을 펼칠 틈이 없는 날에도 휴대폰은 하루에 수십 번 켭니다. 그때마다 셰익스피어와 릴케, 윤동주와 김소월의 한 구절이 먼저 말을 건넵니다. 몇 초면 충분합니다. 어느새, 당신의 하루가 시를 닮아 갑니다. 📜 천 편이 넘는 명시에서 길어 올린, 가장 빛나는 한 구절 • 세계 명시 1,000편과 한국 명시 300편. 계속 더해집니다. • 셰익스피어·괴테·릴케·디킨슨·푸시킨·예이츠·보들레르·헤세부터 윤동주·김소월·한용운·정지용까지 • 구절마다 '추천 이유'가 함께합니다. 왜 이 구절인지, 어떤 날 읽기 좋은지 바로 알 수 있습니다. 🖼️ 시 한 편마다, 오직 그 시를 위한 풍경 • 1,300편의 배경이 모두 다릅니다. 고른 사진이 아니라, 시가 그리는 장면을 한 편씩 새로 지었습니다. • 그림 아이콘을 누르면 '풍경 선정 이유'가 열립니다. 구절과 풍경이 어떻게 이어지는지 읽어 보세요. 📖 한 구절이 마음에 닿았다면, 시 속으로 • 전문 보기: 터치 한 번으로 시 전체를 읽습니다. 세계 명시는 대부분 번역과 원문을 한 줄씩 나란히 볼 수 있습니다. • AI 해설: 어려운 구절도 쉬운 말로 풀어 드립니다. • AI 질문: \"시인이 거듭 부르는 시몬은 누구일까?\"처럼 궁금해질 이야기를 시마다 다섯 가지씩 먼저 물어 옵니다. 누르면 바로 답해 드립니다. • 더 궁금한 것은 AI에게 직접 물어보세요. 🔖 오래 곁에 두는 방법 • 마음에 남은 시는 즐겨찾기에 • 구절을 이미지나 글로 공유 • 검색, 알림, 글꼴 크기 조절, 잠금화면 잠시 끄기 💜 이런 분께 권합니다 • 시를 좋아하지만 시집을 펼칠 시간이 없는 분 • 하루에 잠깐, 마음을 고르는 시간이 필요한 분 • 잠금화면을 아름다운 풍경과 문장으로 채우고 싶은 분 • 좋은 구절을 만나면 전문과 원문, 뒷이야기까지 궁금해지는 분 켜 두기만 하세요. 하루의 갈피마다 명시 한 구절이 끼워집니다. [안내] 시를 잠금화면에 보여 드리기 위해 '다른 앱 위에 표시' 권한이 필요합니다. 이 권한은 잠금화면 기능에만 사용됩니다.",
+      "analysis": {
+        "app_key": "google:com.poembit.kr",
+        "summary_ko": "잠금화면을 통해 세계 명시와 한국 명시를 매일 한 구절씩 감상할 수 있는 앱입니다. 시의 분위기에 맞는 풍경 이미지와 함께 전문, 원문, AI 해설을 제공하여 시를 깊이 있게 이해하도록 돕습니다. 사용자는 마음에 드는 시를 즐겨찾기에 저장하거나 공유할 수 있습니다.",
+        "features_ko": [
+          "잠금화면에서 매일 새로운 명시 한 구절과 풍경 이미지를 제공합니다.",
+          "시 전문과 원문, AI 해설을 터치 한 번으로 확인할 수 있습니다.",
+          "시마다 다섯 가지 질문을 제공하여 AI와 대화하며 시를 탐구합니다.",
+          "마음에 드는 시를 즐겨찾기에 저장하고 이미지나 글로 공유합니다.",
+          "글꼴 크기 조절 및 잠금화면 설정 등 개인화 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "잠금화면이라는 일상적인 공간을 문학적 감상 공간으로 전환한 점이 흥미롭습니다. 단순히 시를 보여주는 것을 넘어 AI 해설과 질문 기능을 통해 사용자와의 상호작용을 강화한 점이 개발 관점에서 주목할 만합니다.",
+        "development_ko": "잠금화면 오버레이 구현과 시 데이터베이스 구축이 핵심입니다. AI 해설 및 질문 기능을 위해 LLM API 연동이 필요하며, 시와 어울리는 풍경 이미지 매칭 데이터 관리가 중요합니다. 사용자 경험을 해치지 않는 가벼운 앱 구동과 배터리 효율 최적화가 제작의 관건입니다.",
+        "idea_ko": "특정 테마(예: 위로, 여행, 철학)를 가진 문구들을 매일 제공하는 '감성 큐레이션 앱'을 개발하는 것이 적합합니다.",
+        "highlights_ko": [
+          "잠금화면을 활용하여 일상 속에서 자연스럽게 문학을 접할 수 있는 환경을 제공합니다.",
+          "AI 해설과 질문 기능을 통해 시에 대한 깊이 있는 이해와 상호작용을 지원합니다."
+        ],
+        "systems_ko": [
+          "잠금화면 오버레이 및 알림 시스템",
+          "시 및 풍경 이미지 데이터베이스",
+          "AI 해설 및 질문 생성 API 연동",
+          "사용자 즐겨찾기 및 공유 시스템",
+          "개인화 설정 및 UI 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "잠금화면 구현과 데이터베이스 구축은 개인 개발자가 충분히 시도할 수 있는 수준입니다. AI API 연동도 비교적 간단하여 전체적인 구현 난이도는 보통입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "잠금화면 시 구절 표시 기능",
+            "시 전문 및 해설 뷰어"
+          ],
+          "defer": [
+            "AI 질문 및 대화 기능",
+            "시별 풍경 이미지 자동 매칭"
+          ],
+          "risks": [
+            "잠금화면 권한 설정 및 OS 정책 준수",
+            "콘텐츠 저작권 관리"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "오늘의 철학 한 문장",
+            "concept": "매일 아침 철학자의 문장을 잠금화면에 보여줍니다. 문장에 대한 짧은 해설과 함께 하루를 생각할 질문을 던집니다.",
+            "first_step": "철학 문장 데이터베이스를 구축하고 잠금화면에 표시하는 기능을 구현합니다."
+          },
+          {
+            "title": "나만의 감성 일기장",
+            "concept": "오늘의 기분에 맞는 시를 추천해주고, 그에 대한 짧은 감상을 기록하는 앱입니다. 기록된 시와 감상은 나만의 시집으로 저장됩니다.",
+            "first_step": "기분 선택 기능과 그에 맞는 시를 보여주는 기능을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "잠금화면 활용법과 데이터베이스 기반의 콘텐츠 앱을 배우기에 좋습니다. AI API를 활용하여 서비스의 가치를 높이는 방법을 익히기에 적합한 프로젝트입니다.",
+        "source_limitations_ko": "시 데이터의 저작권 확보 방식이나 AI 해설의 정확도 검증 방식은 알 수 없습니다. 잠금화면 권한 사용에 따른 배터리 소모 문제는 검증이 필요합니다.",
+        "name": "시심(詩心) - 세계명시 명구절과 아름다운 시 잠금화면",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.poembit.kr&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 89,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
     }
   }
 }

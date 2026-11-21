@@ -24340,6 +24340,354 @@
         "thoughtsTokenCount": 2722,
         "serviceTier": "standard"
       }
+    },
+    "google:com.vj.blackboard": {
+      "app_key": "google:com.vj.blackboard",
+      "name": "VJ-BLACKBOARD WATCH FACE",
+      "developer": "Vesterjil",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.vj.blackboard&hl=ko&gl=KR",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.vj.blackboard",
+        "product_kind": "app",
+        "original_experience_ko": "스마트워치 화면에서 칠판과 분필이라는 아날로그적 시각 감성과 디지털 시계 및 건강, 날씨 등의 일상 정보를 결합하여 제공하는 웨어러블 워치 페이스 앱 경험.",
+        "source_facts_and_limitations_ko": [
+          "스토어 정보에 따르면 30가지 색상 테마와 5가지 칠판 디자인, 날씨 및 심박수 등의 컴플리케이션을 지원합니다.",
+          "AMOLED 최적화 및 AOD 기능을 제공한다는 점은 확인되나, 실제 렌더링 성능이나 배터리 소모량은 명시되어 있지 않습니다."
+        ],
+        "valuable_elements_ko": [
+          "디지털 기기에서 보기 드문 칠판과 손글씨 분필 질감을 활용해 시각적 차별화를 이뤄낸 점.",
+          "다양한 색상 테마와 디자인 스타일을 통해 개인화 요소를 극대화한 점."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "핸드메이드 투두 워치 페이스",
+            "core_idea_ko": "스마트워치 화면에 칠판 디자인과 함께 오늘의 핵심 할 일 목록을 분필 폰트로 표시하고 터치로 완료 처리할 수 있는 웨어러블 생산성 워치 페이스.",
+            "what_to_keep_ko": "칠판 및 분필의 아날로그 감성과 커스터마이징 가능한 컴플리케이션 구조.",
+            "what_to_change_ko": "단순 정보 표시에 그치지 않고 워치 페이스에서 직접 체크리스트 인터랙션을 수행할 수 있도록 기능 확장.",
+            "mobile_use_or_play_ko": "워치 화면 탭 -> 할 일 목록 확인 -> 항목 터치 시 완료 처리 및 취소선 표시 피드백.",
+            "key_features_ko": [
+              "분필 폰트 기반 투두 컴플리케이션",
+              "탭 인터랙션 기반 상태 토글",
+              "수동 테마 변경 및 설정 저장"
+            ],
+            "solo_mvp_and_effort_ko": "Jetpack Compose for Wear OS 기반 기본 레이아웃 구성 및 로컬 저장소 활용. 난이도 보통.",
+            "strengths_limits_ko": "생산성 도구로 확장되나 작은 워치 화면에서의 터치 UX 최적화와 배터리 관리가 과제."
+          },
+          {
+            "title_ko": "아날로그 탁상시계 및 위젯 스튜디오",
+            "core_idea_ko": "스마트워치에 국한하지 않고 스마트폰 홈스크린에서도 칠판 및 분필 감성의 아날로그 위젯과 시계를 배치할 수 있는 커스텀 위젯 앱.",
+            "what_to_keep_ko": "칠판 테마, 다양한 색상 조합, 시간 및 일상 정보 표시 기능.",
+            "what_to_change_ko": "웨어러블 전용에서 스마트폰 홈스크린 위젯으로 확장하고 사용자가 직접 배경과 글씨체를 조합하는 스튜디오 기능 추가.",
+            "mobile_use_or_play_ko": "앱 실행 -> 칠판 배경 및 분필 스타일 선택 -> 스마트폰 홈화면 위젯 추가 및 배치.",
+            "key_features_ko": [
+              "위젯 커스텀 에디터",
+              "다양한 분필 텍스처 패키지",
+              "실시간 날씨 및 시간 연동"
+            ],
+            "solo_mvp_and_effort_ko": "Android AppWidgetProvider 활용 및 기본 위젯 템플릿 제공. 난이도 쉬움.",
+            "strengths_limits_ko": "범용적인 스마트폰 사용자를 타겟으로 확장성이 높으나 기존 위젯 앱들과의 차별화된 시각적 완성도 필요."
+          },
+          {
+            "title_ko": "포커스 분필 타이머 웨어러블",
+            "core_idea_ko": "칠판 감성의 UI를 활용한 집중력 향상용 뽀모도로 타이머 및 시간 관리 스마트워치 앱.",
+            "what_to_keep_ko": "손으로 그린 듯한 칠판 일러스트 스타일과 AMOLED 최적화 다크 모드 감성.",
+            "what_to_change_ko": "시계 화면을 넘어 집중 시간 측정과 휴식 알림이라는 명확한 목적의 타이머 유틸리티로 전환.",
+            "mobile_use_or_play_ko": "워치 앱 실행 -> 칠판에 적힌 타이머 시작 -> 집중 완료 시 진동 피드백 및 휴식 전환.",
+            "key_features_ko": [
+              "분필 애니메이션 타이머",
+              "뽀모도로 사이클 기록",
+              "간이 통계 컴플리케이션"
+            ],
+            "solo_mvp_and_effort_ko": "Foreground Service 및 Wearable Timer API 조합으로 구현. 난이도 보통.",
+            "strengths_limits_ko": "명확한 사용 목적을 제공하여 실용성이 높으나 상시 켜져 있는 AOD 상태에서의 타이머 갱신 최적화 필요."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어는 워치 페이스에 인터랙티브 투두 기능을 결합해 생산성을 높이고, 두 번째는 스마트폰 위젯으로 확장하여 범용성을 확보하며, 세 번째는 뽀모도로 타이머 기능으로 집중력 관리에 특화합니다. 첫 번째는 웨어러블 조작성을 개선하고, 두 번째는 플랫폼 확장, 세 번째는 특정 목적성을 강화합니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "스마트워치 환경에서 단순 정보 확인을 넘어 간단한 상호작용인 체크리스트 기능을 추가함으로써 원본의 아날로그 감성을 살리면서도 실용성을 크게 높일 수 있기 때문입니다.",
+        "next_questions_ko": [
+          "웨어러블 OS 환경에서 워치 페이스 내 터치 인터랙션 구현 시 배터리 소모에 미치는 영향은 어느 정도인가?",
+          "작은 화면에서 분필 폰트의 가독성과 터치 타겟 크기를 최적화하는 기준은 무엇인가?"
+        ]
+      },
+      "brief_at": "2026-11-22T06:13:53+09:00",
+      "brief_quota_day": "2026-11-22",
+      "brief_usage": {
+        "promptTokenCount": 1562,
+        "candidatesTokenCount": 1281,
+        "totalTokenCount": 6965,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1562
+          }
+        ],
+        "thoughtsTokenCount": 4122,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.vj.blackboard",
+        "product_kind": "app",
+        "selected_concept_title_ko": "핸드메이드 투두 워치 페이스",
+        "project_goal_and_audience_ko": "이 앱은 스마트워치를 사용하는 직장인과 학생을 위한 생산성 중심 웨어러블 워치 페이스입니다. 단순한 시간 확인이나 정적 정보 표시에 머무는 기존 워치 페이스와 달리, 손글씨 분필 감성의 칠판 화면 위에서 오늘의 핵심 할 일(Todo)을 직접 확인하고 터치 한 번으로 완료 처리할 수 있는 실용적 효용을 제공합니다.",
+        "source_relation_and_difference_ko": "원본의 '칠판 및 분필 일러스트의 아날로그 감성'과 '다양한 색상 테마 및 스타일 커스터마이징'이라는 핵심 시각 경험은 그대로 계승합니다. 반면, 단순 수동 컴플리케이션 표시를 넘어 터치 인터랙션을 통한 '할 일 체크리스트 토글' 기능을 새롭게 도입하여 생산성 도구로서의 차별화된 가치를 더합니다.",
+        "core_user_experience_ko": "사용자는 스마트워치 화면을 켜는 순간 칠판 배경 위에 분필 폰트로 적힌 시계와 오늘의 할 일 목록을 마주합니다. 화면의 특정 할 일 항목을 손가락으로 탭하면 시스템이 이를 감지하여 해당 항목에 분필 취소선을 긋고 완료 상태로 변경하며, 시각적 피드백과 함께 햅틱 진동을 울려 직관적인 조작감을 전달합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "분필 폰트 기반 투두 컴플리케이션",
+            "user_action_and_behavior_ko": "사용자가 스마트워치 컴플리케이션 영역에서 오늘 등록된 상위 3개의 할 일 목록을 분필 폰트 스타일로 확인합니다. 정보 갱신 시 화면에 즉시 반영되어 빠른 인지가 가능합니다.",
+            "practical_implementation_ko": "Jetpack Compose for Wear OS의 Custom Canvas를 활용해 손글씨 느낌의 텍스트 렌더링을 구현하고, Wearable Data Layer API를 통해 모바일 앱에서 동기화된 할 일 데이터를 안전하게 가져옵니다."
+          },
+          {
+            "feature_ko": "탭 인터랙션 기반 상태 토글",
+            "user_action_and_behavior_ko": "워치 페이스 화면의 특정 할 일 영역을 터치하면, 앱이 터치 좌표를 감지하여 해당 항목의 완료/미완료 상태를 실시간으로 전환하고 취소선을 렌더링합니다.",
+            "practical_implementation_ko": "Canvas의 touch event 리스너를 활용해 터치 영역을 판정하고, 상태 변경 시 로컬 데이터베이스 갱신과 동시에 가벼운 햅틱 피드백(VibrationEffect)을 발생시킵니다."
+          },
+          {
+            "feature_ko": "수동 테마 변경 및 설정 저장",
+            "user_action_and_behavior_ko": "사용자가 컴패니언 앱이나 워치 설정 화면에서 30가지 색상 테마와 5가지 칠판 디자인을 선택하면 즉시 워치 페이스 배경과 분필 색상이 변경됩니다.",
+            "practical_implementation_ko": "SharedPreferences 또는 Jetpack DataStore를 활용해 사용자 선택 테마 및 디자인 인덱스를 로컬에 영구 저장하고, 설정 변경 시 BroadcastReceiver 또는 Flow를 통해 실시간 UI를 갱신합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "워치 페이스 메인 화면 (Active/AOD)",
+            "contents_and_actions_ko": "칠판 배경, 디지털 시계, 배터리, 날씨, 그리고 분필 폰트 투두 목록 표시. 항목 탭 시 완료 토글 및 취소선 표시, 화면 길게 누르기 시 설정 진입."
+          },
+          {
+            "screen_ko": "워치 페이스 설정 화면",
+            "contents_and_actions_ko": "30가지 색상 테마 및 5가지 칠판 디자인 선택 UI 제공. 선택 즉시 프리뷰 반영 및 저장."
+          }
+        ],
+        "implementation_approach_ko": "Android Wear OS 플랫폼을 대상으로 Kotlin 언어와 Jetpack Compose for Wear OS를 적용합니다. 워치 페이스 렌더링의 배터리 소모를 최소화하기 위해 Canvas 기반의 가벼운 드로잉 로직을 채택하며, 데이터 저장은 Jetpack DataStore를 사용합니다. 대안으로는 기존 Android View 기반 WatchFace API를 고려할 수 있으나 선언형 UI의 유지보수성과 애니메이션 처리의 용이성을 위해 Compose 방식을 우선 채택합니다.",
+        "data_and_storage_ko": [
+          "TodoItem 객체 (id: String, text: String, isCompleted: Boolean, order: Int). 로컬 DataStore 또는 Room DB를 통해 상태 변경 시 즉시 저장 및 읽기 수행.",
+          "ThemeConfig 객체 (themeIndex: Int, styleIndex: Int). 사용자 테마 및 칠판 디자인 설정을 저장하며 앱 재시작 및 AOD 전환 시 유지됨.",
+          "배터리 및 날씨 컴플리케이션 데이터는 Wear OS System Providers API를 통해 실시간으로 바인딩 및 캐싱 처리."
+        ],
+        "mvp_scope_ko": "첫 번째 MVP는 1가지 기본 칠판 디자인, 3가지 분필 색상 테마, 그리고 워치 화면에서 직접 탭하여 체크할 수 있는 3개의 투두리스트 컴플리케이션 기능만 포함합니다. 복잡한 컴패니언 앱 연동이나 음성 입력 등은 제외하며, 로컬 데이터 저장과 기본 탭 토글 안정성에 집중하여 웨어러블 기기에서의 작동 가능성을 빠르게 검증합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 환경 구축 및 기본 워치 페이스 렌더링",
+            "deliverable_and_check_ko": "Wear OS Compose 프로젝트 생성, 기본 칠판 배경 및 디지털 시계 화면 출력 확인. 에뮬레이터에서 시계가 정상 갱신되는지 점검."
+          },
+          {
+            "stage_ko": "2단계: 투두 리스트 렌더링 및 탭 토글 구현",
+            "deliverable_and_check_ko": "캔버스 위에 더미 투두 데이터를 분필 폰트로 출력하고, 터치 이벤트 발생 시 취소선이 그려지며 햅틱이 작동하는지 에뮬레이터에서 확인."
+          },
+          {
+            "stage_ko": "3단계: 데이터 저장 및 테마 커스터마이징 연동",
+            "deliverable_and_check_ko": "DataStore를 이용한 상태 유지 기능 구현 및 칠판 디자인/컬러 테마 변경 옵션 추가 후 설정 유지 여부 검증."
+          }
+        ],
+        "possible_extensions_ko": "추후 스마트폰 컴패니언 앱을 통한 자유로운 할 일 입력 및 편집 기능, 음성 인식을 통한 간편 할 일 추가, 주간 달성률 통계 그래프 컴플리케이션 등의 기능을 확장할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "작은 스마트워치 화면에서 터치 컴플리케이션 영역이 너무 작아 오조작이 발생할 수 있는 UI/UX 리스크 (터치 패딩 확장으로 해결 검토 중).",
+          "AOD(Always-On Display) 모드 진입 시 배터리 소모를 줄이기 위해 최소한의 픽셀만 활성화하는 번인 방지 렌더링 최적화 방안 확정 필요.",
+          "원작의 상세한 에셋 구조나 내부 소스 코드를 알 수 없으므로, 디자인 컨셉만 차용하여 독자적인 캔버스 기반 드로잉 에셋으로 구현."
+        ],
+        "draft_status_ko": "본 문서는 실제 기기에서의 장시간 플레이테스트, 배터리 효율 측정, 상용 릴리즈가 완료되지 않은 순수 모바일 앱 개발 설계 초안입니다."
+      },
+      "plan_at": "2026-11-22T06:14:09+09:00",
+      "plan_quota_day": "2026-11-22",
+      "plan_usage": {
+        "promptTokenCount": 2044,
+        "candidatesTokenCount": 1900,
+        "totalTokenCount": 6651,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2044
+          }
+        ],
+        "thoughtsTokenCount": 2707,
+        "serviceTier": "standard"
+      }
+    },
+    "google:find.tidy.house.sort.puzzle.game": {
+      "app_key": "google:find.tidy.house.sort.puzzle.game",
+      "name": "Tidy House: アイテム探しと整理整頓ゲーム",
+      "developer": "Shycheese",
+      "source": "google",
+      "kind": "game",
+      "detail_url": "https://play.google.com/store/apps/details?id=find.tidy.house.sort.puzzle.game&hl=ja&gl=JP",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:find.tidy.house.sort.puzzle.game",
+        "product_kind": "game",
+        "original_experience_ko": "Tidy House는 흩어진 방 안에서 특정 아이템을 찾아내고, 제한된 트레이 공간에 종류별로 분류·수납하는 퍼즐 게임입니다. 아이템 탐색의 시각적 재미와 공간 제약이라는 퍼즐 규칙이 결합된 것이 핵심 경험입니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 상에서 확인된 사실: Tidy House는 숨은물건찾기(hidden object)와 제한된 트레이를 활용한 수납/정리 퍼즐이 결합된 게임이며, 목표 수량을 모으고 트레이가 가득 차면 게임이 종료되는 규칙을 가집니다.",
+          "확인되지 않은 한계: 구체적인 레벨 디자인 알고리즘, 난이도 곡선, 수익화 모델 및 세부 조작의 반응 속도에 대한 정보는 스토어 설명만으로 파악할 수 없습니다."
+        ],
+        "valuable_elements_ko": [
+          "시각적으로 복잡한 환경에서 목표 아이템을 찾아내는 탐색의 재미와 성취감",
+          "제한된 슬롯(트레이) 안에서 어떤 순서로 아이템을 수집해야 할지 고민하게 만드는 공간 제약 규칙",
+          "한 판의 플레이 타임이 짧고 진행 상황(남은 수량)이 직관적으로 드러나는 구조"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "패키지 급행열차: 긴급 물류 정리",
+            "core_idea_ko": "혼란스러운 물류 창고 배경에서 밀려드는 택배 상자와 부품을 찾아 제한된 컨베이어 트레이에 분류·적재하여 배송 목표를 달성하는 퍼즐 게임입니다.",
+            "what_to_keep_ko": "복잡한 화면 속에서 지정된 목표 아이템을 찾아내고, 한정된 슬롯 트레이를 관리해야 하는 핵심 탐색 및 수납 규칙을 계승합니다.",
+            "what_to_change_ko": "가정집 정리 테마를 물류 창고와 시간 압박 요소로 바꾸고, 아이템 포장을 뜯는 다단계 해체 과정을 추가하여 전략적 깊이를 높입니다.",
+            "mobile_use_or_play_ko": "창고 화면에서 주문서에 적힌 부품을 찾아 탭한 뒤, 제한된 컨베이어 트레이 슬롯에 배치하여 공간 초과를 막고 배송을 완료합니다.",
+            "key_features_ko": [
+              "컨베이어 벨트 흐름에 따른 동적 슬롯 압박",
+              "다단계 포장 해체를 통한 숨은 서브 아이템 획득",
+              "주문서 완수에 따른 콤보 및 보너스 점수 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "2D 그리드 슬롯 시스템과 터치 판정 위주로 구현하여 1인 개발자가 유니티 등으로 3~4개월 내에 MVP 제작이 가능합니다.",
+            "strengths_limits_ko": "긴장감과 몰입도가 높은 반면, 원본의 아늑하고 편안한 힐링 감성이 약화될 수 있다는 단점이 있습니다."
+          },
+          {
+            "title_ko": "렐릭 타이드: 유물 발굴과 분류 보관",
+            "core_idea_ko": "발굴 현장에서 흩어진 유물 조각들을 찾아 박물관 전시 케이스의 제한된 슬롯에 정확한 분류대로 배치하는 역사 탐구 퍼즐 게임입니다.",
+            "what_to_keep_ko": "시각적 잡음 속에서 필요한 물품을 정확히 골라내는 탐색 메커니즘과 제한된 수납 공간 활용 규칙을 유지합니다.",
+            "what_to_change_ko": "정리 대상 대신 고고학적 유물 수집 테마를 도입하고, 일부 조각이 파손될 수 있는 '내구도/위험도' 규칙을 결합합니다.",
+            "mobile_use_or_play_ko": "발굴 터치로 유물 파편을 드러낸 후, 복원 목록에 맞춰 제한된 전시 트레이에 담아 온전한 유물 세트를 완성합니다.",
+            "key_features_ko": [
+              "유물 파손 방지를 고려한 배치 순서 제어",
+              "시대별 박물관 전시 관람 및 수집 도감 시스템",
+              "테마에 맞는 정교한 2D 일러스트 연출"
+            ],
+            "solo_mvp_and_effort_ko": "정적 2D 스프라이트와 간단한 인벤토리 슬롯 제어로 구현 난이도가 낮아 1인 개발에 적합합니다.",
+            "strengths_limits_ko": "수집욕을 자극하는 테마가 강점이나, 파손 규칙이 너무 까다로우면 피로감이 가중될 수 있습니다."
+          },
+          {
+            "title_ko": "포션 아카이브: 연금술 재료 분류학",
+            "core_idea_ko": "마법사의 어수선한 공방에서 포션 제조에 필요한 약초와 광물을 찾아 제한된 연금 가마 트레이에 배열해 레시피를 완성하는 코지 퍼즐 게임입니다.",
+            "what_to_keep_ko": "숨은물건찾기의 탐색 재미와 한정된 트레이 슬롯을 채우는 공간 제약 및 목표 수량 수집 루프를 그대로 계승합니다.",
+            "what_to_change_ko": "단순 개수 수집을 넘어, 트레이 안에서 인접한 재료끼리 서로 반응하여 추가 효과나 시너지를 내는 마법적 규칙을 도입합니다.",
+            "mobile_use_or_play_ko": "공방 배경에서 레시피에 필요한 재료를 찾아 탭해 담고, 연금 가마 트레이의 인접 위치를 고려해 최종 배치한 뒤 포션을 브루잉합니다.",
+            "key_features_ko": [
+              "트레이 내 재료 인접 시너지 및 반응 규칙",
+              "레시피 기반의 단계별 목표 달성 체크리스트",
+              "아늑하고 환상적인 판타지 공방 분위기의 시각·청각 피드백"
+            ],
+            "solo_mvp_and_effort_ko": "2D 그리드 상태 관리와 간단한 시너지 계산 로직으로 구성되어 1인 개발자가 완성도 높게 구현 가능합니다.",
+            "strengths_limits_ko": "원본의 아늑함을 살리면서 퍼즐의 전략적 깊이를 더해 대중성과 재미를 모두 잡을 수 있으나 시너지 규칙의 밸런스 조정이 필요합니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 물류 정리는 긴장감을 높이지만 원본의 힐링 요소를 해치고, 두 번째 유물 발굴은 수집욕이 좋으나 파손 규칙으로 스트레스를 줄 수 있습니다. 세 번째 연금술 재료 분류는 원본의 아늑한 분위기를 유지하면서 인접 시너지라는 퍼즐 깊이를 더해 1인 개발 완성도와 대중성 면에서 가장 균형 잡혀 있습니다.",
+        "recommended_concept_number": 3,
+        "why_recommended_ko": "세 번째 '포션 아카이브'는 원본의 숨은물건찾기 및 제한된 트레이 수납 구조라는 핵심 재미를 온전히 계승하면서, 마법 재료라는 테마와 '인접 시너지'라는 새로운 규칙을 더해 퍼즐의 전략적 깊이를 효과적으로 확장합니다. 아울러 1인 개발자가 그래픽 에셋 수급과 2D 그리드 시스템 구현 측면에서 현실적으로 완성할 수 있는 규모이며, 원본의 캐주얼하고 아늑한 플레이 감성을 가장 잘 살릴 수 있습니다.",
+        "next_questions_ko": [
+          "트레이 슬롯의 크기에 따른 최적의 난이도 곡선을 어떻게 설정할 것인가?",
+          "아이템 배치와 인접 시너지 규칙이 플레이어에게 직관적으로 전달되는 UI/UX 피드백 방식은 무엇인가?",
+          "1인 개발 시 스테이지 데이터와 레시피를 효율적으로 관리하기 위한 JSON 구조 설계 방안은 무엇인가?"
+        ]
+      },
+      "brief_at": "2026-11-22T06:15:46+09:00",
+      "brief_quota_day": "2026-11-22",
+      "brief_usage": {
+        "promptTokenCount": 1756,
+        "candidatesTokenCount": 1780,
+        "totalTokenCount": 6035,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1756
+          }
+        ],
+        "thoughtsTokenCount": 2499,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:find.tidy.house.sort.puzzle.game",
+        "product_kind": "game",
+        "selected_concept_title_ko": "포션 아카이브: 연금술 재료 분류학",
+        "project_goal_and_audience_ko": "아늑한 판타지 공방 분위기 속에서 숨은물건 찾기와 공간 배치 퍼즐을 즐기려는 캐주얼 게이머와 퍼즐 게임 애호가를 대상으로 합니다. 복잡한 조작 없이 직관적으로 아이템을 찾아내고, 제한된 트레이 슬롯에 재료를 담아 포션을 완성하는 성취감과 아기자기한 시각적 즐거움을 제공합니다.",
+        "source_relation_and_difference_ko": "원본 Tidy House의 '어수선한 공간에서 목표 아이템 탐색'과 '한정된 트레이 슬롯을 채우는 공간 제약 루프'를 충실히 계승했습니다. 차별점으로 단순 개수 수집을 넘어 트레이 내 인접한 재료 간의 마법적 반응(시너지) 규칙을 도입해 전략적 깊이와 판타지 연금술 테마의 몰입감을 높였습니다.",
+        "core_user_experience_ko": "사용자는 아기자기하게 그려진 마법 공방 배경 화면을 탐색하며 레시피가 요구하는 약초, 광물, 마법 물품을 찾아 탭합니다. 탭한 아이템은 화면 하단의 '연금 가마 트레이' 슬롯에 순서대로 차오릅니다. 이때 트레이 안에서 특정 재료들이 상하좌우로 인접해 배치되면 추가 보너스나 시너지 효과가 발동하며, 가마 슬롯이 가득 차기 전에 목표 수량을 채우고 포션을 브루잉합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "공방 탐색 및 재료 탭 수집",
+            "user_action_and_behavior_ko": "사용자가 복잡한 배경 속에서 목표 아이템을 시각적으로 찾아 탭하면, 해당 아이템이 애니메이션과 함께 트레이로 이동하고 상단 레시피 체크리스트의 남은 수량이 차감됨. 탐색의 직관적 재미 제공.",
+            "practical_implementation_ko": "2D 스프라이트 레이어와 2D Collider를 활용한 터치 영역 설정, 오브젝트 활성화/비활성화 및 카운트 관리 스크립트 작성."
+          },
+          {
+            "feature_ko": "연금 가마 트레이 및 인접 시너지 시스템",
+            "user_action_and_behavior_ko": "고정된 크기의 트레이 슬롯(예: 3x3 그리드)에 수집한 재료를 배치. 인접한 칸에 특정 재료 조합이 오면 추가 점수나 슬롯 여유를 주는 시너지 계산이 실시간으로 발생.",
+            "practical_implementation_ko": "2차원 배열 또는 슬롯 인덱스 기반의 데이터 구조 설계 후, 아이템 추가/삭제 시 인접 인덱스를 순회하며 시너지 조건을 판별하는 간단한 로직 구현."
+          },
+          {
+            "feature_ko": "레시피 브루잉 및 스테이지 클리어",
+            "user_action_and_behavior_ko": "목표 조건을 모두 만족하면 '브루잉 시작' 버튼이 활성화되고, 화려한 이펙트와 함께 포션이 완성되며 스테이지 클리어 연출 제공.",
+            "practical_implementation_ko": "파티클 시스템을 활용한 간단한 이펙트 연출과 씬 전환/데이터 저장 매니저 연결."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "레시피 선택 및 공방 로비 화면",
+            "contents_and_actions_ko": "플레이할 포션 레시피 목록 확인, 난이도 및 목표 아이템 프리뷰 확인, 공방 입장 버튼 제공."
+          },
+          {
+            "screen_ko": "공방 탐색 및 트레이 퍼즐 메인 화면",
+            "contents_and_actions_ko": "배경 일러스트 내 숨겨진 재료 탐색, 하단 연금 가마 트레이 슬롯 상태 표시, 남은 레시피 목표 체크리스트 및 일시정지 메뉴."
+          },
+          {
+            "screen_ko": "브루잉 성공 및 결과 화면",
+            "contents_and_actions_ko": "포션 완성 연출, 획득한 보상 및 시너지 점수 표시, 다음 레시피로 이동 또는 로비 복귀."
+          }
+        ],
+        "implementation_approach_ko": "Unity 또는 Godot Engine의 2D 기능 활용을 권장합니다. 1인 개발 시 2D 스프라이트 관리와 UI 레이아웃 배치가 직관적이기 때문입니다. 핵심 로직은 컴포넌트 기반의 매니저 패턴(GameManager, TrayManager, RecipeManager)으로 분리하여 유지보수성을 높입니다. 대안으로는 웹 기반(HTML5/Canvas) 프로토타입 제작도 가능합니다.",
+        "data_and_storage_ko": [
+          "StageData: 레시피 ID, 목표 아이템 목록(아이템 종류 및 필요 수량), 배경 이미지 경로, 제한 시간 또는 최대 트레이 슬롯 수.",
+          "ItemData: 아이템 고유 ID, 이름, 스프라이트 리소스, 시너지 속성 타입.",
+          "PlayerSaveData: 클리어한 레시피 기록, 해금된 포션 도감 정보, 로컬 PlayerPrefs 또는 JSON 파일을 통한 간단한 저장/복구."
+        ],
+        "mvp_scope_ko": "첫 번째 MVP는 총 5개의 기초 포션 레시피 스테이지, 숨은 재료 탭 수집 기능, 3x3 트레이 슬롯 관리, 기본 인접 시너지 규칙 2종으로 제한합니다. 화려한 애니메이션이나 복잡한 도감 시스템은 제외하며, 핵심 루프(찾기-담기-시너지-클리어)의 재미를 검증하는 데 집중합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "프로젝트 셋업 및 기본 UI 레이아웃",
+            "deliverable_and_check_ko": "엔진 프로젝트 생성, 2D 캔버스 설정, 공방 배경과 트레이 UI 배치. 프로토타입 구동 확인."
+          },
+          {
+            "stage_ko": "숨은물건 찾기 및 트레이 수집 로직 구현",
+            "deliverable_and_check_ko": "배경 오브젝트 터치 시 트레이 슬롯으로 이동하는 애니메이션 및 데이터 갱신 확인."
+          },
+          {
+            "stage_ko": "시너지 판정 및 레시피 클리어 로직 구현",
+            "deliverable_and_check_ko": "트레이 내 인접 아이템 조건 체크 및 브루잉 완료 조건 판정 확인."
+          },
+          {
+            "stage_ko": "스테이지 데이터 연동 및 폴리싱",
+            "deliverable_and_check_ko": "5개 스테이지 데이터 JSON 연동, 사운드 및 기본 이펙트 추가 후 플레이 테스트."
+          }
+        ],
+        "possible_extensions_ko": "추후 확장 요소로는 매일 무작위로 생성되는 일일 연금술 의뢰, 공방 내부 가구 배치 및 커스터마이징 기능, 희귀 재료를 찾는 특별 탐험 모드 등을 고려할 수 있으나 초기 MVP 범위에는 포함하지 않습니다.",
+        "risks_and_open_decisions_ko": [
+          "시너지 규칙이 너무 복잡해지면 캐주얼한 탐색의 재미를 해칠 수 있으므로, 규칙의 가짓수를 최소화하고 직관적으로 시각화해야 함.",
+          "화면 내 아이템 크기와 터치 히트박스 판정의 정밀도 문제가 발생할 수 있어 모바일 기기에서의 사용성 테스트가 필수적임.",
+          "원작의 난이도 곡선 데이터가 부족하므로 자체 테스트를 통해 적정 트레이 슬롯 크기와 아이템 배치 밀도를 결정해야 함."
+        ],
+        "draft_status_ko": "본 문서는 포션 아카이브: 연금술 재료 분류학 기획을 바탕으로 작성된 1인 모바일 개발 설계 초안이며, 실제 구현, 플레이테스트, 성능 측정은 아직 완료되지 않았습니다."
+      },
+      "plan_at": "2026-11-22T06:16:03+09:00",
+      "plan_quota_day": "2026-11-22",
+      "plan_usage": {
+        "promptTokenCount": 2420,
+        "candidatesTokenCount": 1945,
+        "totalTokenCount": 7210,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2420
+          }
+        ],
+        "thoughtsTokenCount": 2845,
+        "serviceTier": "standard"
+      }
     }
   }
 }

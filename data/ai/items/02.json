@@ -12144,6 +12144,272 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-21"
+    },
+    "google:in.filecleanup.tech": {
+      "app_key": "google:in.filecleanup.tech",
+      "name": "FileCleanup",
+      "developer": "hitech",
+      "source": "google",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=in.filecleanup.tech&hl=en&gl=US",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:04:27+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "FileCleanup helps you manage your device storage with simple file cleaning and photo compression tools. Find unnecessary files, organize your documents, and reduce photo sizes with flexible options while keeping your files under your control. Key Features: 🗂️ File Cleaner Scan and manage files on your device. Find unwanted files and organize your storage more efficiently. 📷 Photo Compressor Reduce photo file sizes with flexible compression options. Choose whether to replace the original photo or save a compressed copy. 📁 File Manager Browse, view, and organize different types of files in one convenient place. 🔍 Easy File Management Quickly find and manage files through a simple and clear interface.",
+      "analysis": {
+        "app_key": "google:in.filecleanup.tech",
+        "summary_ko": "FileCleanup은 기기 저장 공간을 효율적으로 관리하기 위한 파일 정리 및 사진 압축 도구입니다. 불필요한 파일을 스캔하고 문서를 정리하며 사진 용량을 줄이는 기능을 제공합니다. 사용자가 직접 파일을 제어할 수 있는 직관적인 인터페이스를 지향합니다.",
+        "features_ko": [
+          "기기 내 불필요한 파일을 스캔하여 저장 공간을 확보합니다.",
+          "사진 파일의 용량을 줄이는 압축 기능을 제공하며 원본 대체 여부를 선택할 수 있습니다.",
+          "다양한 파일 형식을 한곳에서 탐색하고 정리할 수 있는 파일 관리자를 포함합니다.",
+          "사용자가 쉽게 조작할 수 있는 단순하고 명확한 인터페이스를 제공합니다."
+        ],
+        "noteworthy_ko": "파일 관리라는 범용적인 기능을 단순화하여 접근성을 높인 점이 특징입니다. 특히 사진 압축과 파일 정리를 결합하여 저장 공간 부족 문제를 해결하려는 의도가 명확합니다. 개인 개발 관점에서는 파일 시스템 접근 권한 처리와 압축 알고리즘의 효율성이 핵심 과제가 될 것으로 보입니다.",
+        "development_ko": "안드로이드 파일 시스템 접근 권한 및 저장소 관리 API 활용이 핵심입니다. 이미지 압축 라이브러리 연동과 대용량 파일 스캔 시의 성능 최적화가 중요합니다. 사용자 데이터 보호를 위한 로컬 처리 로직과 UI 반응성 테스트가 필요합니다.",
+        "idea_ko": "특정 폴더의 파일을 주기적으로 자동 정리하거나, 중복된 사진을 찾아 삭제를 제안하는 '스마트 정리 비서' 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "파일 정리와 사진 압축을 통합하여 저장 공간 관리 효율 극대화.",
+          "사용자 제어권을 중시하는 직관적인 파일 관리 인터페이스."
+        ],
+        "systems_ko": [
+          "파일 시스템 스캔 및 인덱싱 엔진",
+          "이미지 압축 및 변환 모듈",
+          "파일 관리 UI 및 탐색기",
+          "저장 공간 분석 및 통계 시스템",
+          "권한 관리 및 보안 로직"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "파일 시스템 접근 권한과 기본적인 파일 처리 로직은 구현 가능하지만, 다양한 기기 환경에서의 파일 경로 호환성과 압축 성능 최적화가 변수입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "파일 스캔 및 목록 표시",
+            "사진 압축 기능",
+            "파일 삭제 및 관리 기능"
+          ],
+          "defer": [
+            "클라우드 연동",
+            "자동 정리 스케줄러"
+          ],
+          "risks": [
+            "OS 버전별 파일 접근 권한 제한",
+            "잘못된 파일 삭제로 인한 데이터 손실"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중복 파일 탐색기",
+            "concept": "기기 내 동일한 내용을 가진 파일이나 중복 사진을 찾아내어 삭제를 제안합니다. 파일의 해시값을 비교하여 정확도를 높입니다.",
+            "first_step": "특정 폴더 내 파일들의 해시값을 계산하여 중복 목록을 출력합니다."
+          },
+          {
+            "title": "임시 파일 자동 삭제기",
+            "concept": "캐시 파일이나 다운로드 폴더의 오래된 파일을 감지하여 사용자에게 삭제를 알립니다. 사용자가 설정한 기간이 지난 파일을 자동으로 분류합니다.",
+            "first_step": "파일의 수정 날짜를 기준으로 정렬하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "안드로이드의 파일 시스템 접근 권한과 데이터 처리 방식을 익히기에 적합한 프로젝트입니다. 실용적인 도구 앱을 만들고 싶은 개발자에게 추천하며, 데이터 손실 방지를 위한 예외 처리를 배우는 좋은 기회가 될 것입니다.",
+        "source_limitations_ko": "소개문에는 구체적인 압축 알고리즘, 파일 스캔 속도, 보안 정책, 외부 클라우드 연동 여부에 대한 정보가 없습니다. 실제 구현 시 OS별 권한 정책을 반드시 확인해야 합니다.",
+        "name": "FileCleanup",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=in.filecleanup.tech&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 177,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
+    },
+    "google:com.watchfacestudio.samwatch_digital_harmony_1": {
+      "app_key": "google:com.watchfacestudio.samwatch_digital_harmony_1",
+      "name": "SamWatch Digital Harmony I",
+      "developer": "Samtree",
+      "source": "google",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.watchfacestudio.samwatch_digital_harmony_1&hl=ko&gl=KR",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:04:27+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "SamWatch 디지털 워치 페이스 | Wear OS용 프리미엄 디자인 중요 공지 이 워치 페이스는 One UI 6.0 이상에서만 지원됩니다. 이 앱은 스마트워치 전용으로 설계되었습니다. 호환되는 스마트워치가 없는 사용자는 구매 후 워치 페이스를 사용할 수 없습니다. 시계 화면 기능 • 프리미엄 디지털 디자인 - 전통과 현대적 요소가 결합된 우아한 인터페이스 • 문페이즈 디스플레이 - 정확한 문페이즈 시각화로 달의 주기를 추적합니다. • 걸음 수 카운터 - 일일 활동 수준을 모니터링합니다. • 목표 진행 상황 - 일일 걸음 수 목표에 대한 진행 상황을 추적합니다. • 심박수 모니터 - 시계에서 측정한 심박수 데이터를 표시합니다. • 배터리 상태 - 시계의 배터리 잔량을 추적합니다. • 사용자 정의 가능한 색상 - 다양한 색상 옵션으로 시계 화면을 개인화합니다. SAMWATCH 설치 가이드 'SamWatch 설치 가이드' 앱은 Wear OS 기기에 시계 화면을 다운로드하는 데 도움이 되는 보조 애플리케이션입니다. 가이드 앱의 미리보기 스크린샷은 실제로 다운로드한 시계 화면과 다를 수 있습니다. 대부분의 SamWatch 제품에는 스마트폰 보조 앱이 포함되어 있으며, 'SamWatch 설치 가이드'는 Wear OS 애플리케이션 다운로드만 지원합니다. 추가 정보 이 제품에는 다음과 같은 기능을 제공하는 스마트폰용 추가 애플리케이션이 포함되어 있습니다. • Samtree 공식 웹사이트 접속 • 시계 화면 설치에 대한 자세한 지침 • 시계 화면이 시계에 설치되지 않을 경우 문제 해결 방법 사용 참고 사항 • 기기에 따라 사용자 지정 모드에서 확인 버튼이 나타날 수 있습니다. • 심박수 정보는 시계의 심박수 앱에서 측정한 데이터를 나타냅니다. • 지원되는 언어는 SamWatch 브랜드 이름으로 확인할 수 있습니다. • 이 시계 화면은 SamWatch Digital Harmony 컬렉션에 속합니다. 커뮤니티 및 지원 공식 채널을 통해 저희와 소통하세요. • 공식 웹사이트: https://isamtree.com • X: https://x.com/samtree_watch • Galaxy Watch 커뮤니티: http://cafe.naver.com/facebot • Facebook: www.facebook.com/SamtreePage • Telegram: https://t.me/SamWatch_SamTheme • YouTube: https://www.youtube.com/channel/UCobv0SerfG6C5flEngr_Jow • 블로그: https://samtreehome.blogspot.com/ • 한국어 블로그: https://samtree.tistory.com/ ---- 개발자 연락처 : 샘트리 Rm 1310 201 Daegudae-ro, Jillyang-eup 경산시, 경상북도 38453 South Korea 5022948078 2017-경북경산-0007 경산시장",
+      "analysis": {
+        "app_key": "google:com.watchfacestudio.samwatch_digital_harmony_1",
+        "summary_ko": "SamWatch Digital Harmony I은 Wear OS 스마트워치를 위한 프리미엄 디지털 워치 페이스입니다. 전통과 현대적 디자인을 결합한 인터페이스를 제공하며, 문페이즈, 걸음 수, 심박수 등 다양한 건강 데이터를 추적합니다. 사용자가 색상을 직접 정의하여 개인화할 수 있습니다.",
+        "features_ko": [
+          "전통과 현대적 요소가 조화된 프리미엄 디지털 디자인을 제공합니다.",
+          "달의 주기를 추적하는 문페이즈 디스플레이를 포함합니다.",
+          "일일 걸음 수와 목표 진행 상황을 모니터링합니다.",
+          "심박수 측정 데이터와 배터리 잔량을 실시간으로 표시합니다.",
+          "사용자가 원하는 색상으로 워치 페이스를 개인화할 수 있습니다."
+        ],
+        "noteworthy_ko": "워치 페이스 디자인과 건강 데이터 시각화를 결합하여 사용자의 일상에 밀착된 정보를 제공합니다. Wear OS 환경에서의 효율적인 데이터 업데이트와 배터리 소모 최적화가 개발 관점에서 매우 중요합니다. 디자인의 우아함과 기능적 정보 전달 사이의 균형이 돋보입니다.",
+        "development_ko": "Wear OS 워치 페이스 API 활용과 데이터 소스(센서) 연동이 핵심입니다. 배터리 효율을 고려한 저전력 모드 구현과 다양한 화면 크기에 대응하는 레이아웃 설계가 필요합니다. 사용자 정의 설정 저장 및 동기화 로직 테스트가 중요합니다.",
+        "idea_ko": "사용자의 활동량에 따라 워치 페이스의 색상이나 배경이 점진적으로 변하는 '활동 기반 동적 테마' 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "문페이즈 등 감성적인 정보와 건강 데이터를 결합한 디자인.",
+          "사용자 정의 색상 설정을 통한 높은 수준의 개인화 지원."
+        ],
+        "systems_ko": [
+          "Wear OS 워치 페이스 렌더링 엔진",
+          "건강 데이터(걸음 수, 심박수) 센서 연동",
+          "사용자 설정 데이터 관리 시스템",
+          "배터리 최적화 로직",
+          "색상 및 테마 커스터마이징 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "Wear OS 플랫폼의 API를 이해하고 센서 데이터를 안정적으로 가져오는 것은 구현 가능하지만, 배터리 효율을 고려한 최적화는 세심한 주의가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 시간 표시",
+            "걸음 수 및 배터리 표시",
+            "색상 변경 설정"
+          ],
+          "defer": [
+            "문페이즈 계산 로직",
+            "심박수 실시간 연동"
+          ],
+          "risks": [
+            "Wear OS 버전별 호환성 문제",
+            "배터리 소모 과다로 인한 사용자 불만"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "활동량 기반 동적 테마",
+            "concept": "사용자의 일일 걸음 수 목표 달성률에 따라 워치 페이스의 색상이 차분한 색에서 활기찬 색으로 변합니다.",
+            "first_step": "걸음 수 데이터를 가져와 특정 수치마다 색상을 변경하는 로직을 만듭니다."
+          },
+          {
+            "title": "날씨 연동 워치 페이스",
+            "concept": "현재 날씨 정보에 따라 배경 아이콘이나 색상이 변하여 시계를 보는 것만으로 날씨를 파악할 수 있습니다.",
+            "first_step": "날씨 API를 연동하여 현재 날씨 상태를 텍스트로 표시합니다."
+          }
+        ],
+        "recommendation_ko": "웨어러블 기기용 앱 개발에 관심 있는 개발자에게 추천합니다. 제한된 화면 크기에서 정보를 효율적으로 배치하는 디자인 감각과 배터리 최적화 기술을 배우기에 매우 좋습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 배터리 최적화 기술, 센서 데이터의 정확도 보정 방식, Wear OS 버전별 상세 호환성 정보가 없습니다. 실제 개발 시 구글의 Wear OS 디자인 가이드를 준수해야 합니다.",
+        "name": "SamWatch Digital Harmony I",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.watchfacestudio.samwatch_digital_harmony_1&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 174,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
+    },
+    "google:com.cs.nail.salon.asmr.diy": {
+      "app_key": "google:com.cs.nail.salon.asmr.diy",
+      "name": "Nail Salon: DIY ASMR",
+      "developer": "CAT Studio",
+      "source": "google",
+      "country": "US",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.cs.nail.salon.asmr.diy&hl=en&gl=US",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:05:31+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "\"✨ Welcome to Nail Salon: ASMR Makeover, a relaxing beauty experience where creativity meets satisfying ASMR! Step into your dream nail salon, unleash your imagination, and enjoy transforming ordinary nails into beautiful masterpieces. 💅 Create Stunning Nail Art Enter the nail salon and cut, file, shape, polish, and decorate every nail. Enjoy smooth controls and satisfying effects as you create unique nail art designs. This nail polish game lets you experiment with colors, patterns, and trendy styles. 🎨 Design Your Dream Nails Explore a huge collection of nail polish colors, glitter, matte finishes, stickers, gems, and charms. In this nail polish game, combine different decorations to create amazing nail art. Whether you prefer elegant, cute, colorful, or glamorous styles, your creativity has no limits. 💖 Enjoy Satisfying ASMR Love relaxing beauty games? Nail Salon: ASMR Makeover brings satisfying sounds to every step. File, buff, polish, and decorate while enjoying a calming experience inside your virtual nail salon. ✨ Become a Nail Artist Serve customers and complete different makeover requests in your nail salon. Use your skills to create beautiful nail art, from simple designs to eye-catching fashionable styles. Every customer gives you a new opportunity to show your creativity. 🌈 Features 💅 Realistic nail extension, shaping, and polishing 🎨 Creative nail art with countless colors and designs 💖 Fun nail polish game mechanics 💎 Cute charms, gems, glitter, stickers, and accessories 🔊 Relaxing and satisfying ASMR sound effects 🎮 Easy controls and relaxing nail salon gameplay 🌸 Creative designs for every style Whether you love nail art, beauty games, makeover games, or relaxing ASMR, Nail Salon: ASMR Makeover offers a fun creative escape. Enjoy the satisfying nail polish game, discover new styles, and build your dream nail salon. Create gorgeous nail art, relax with satisfying sounds, and become the ultimate nail artist with Nail Salon: ASMR Makeover! Download Nail Salon: ASMR Makeover and start your relaxing nail journey today! 💅✨\"",
+      "analysis": {
+        "app_key": "google:com.cs.nail.salon.asmr.diy",
+        "summary_ko": "네일 아트를 주제로 한 ASMR 시뮬레이션 게임입니다. 손톱을 다듬고, 색칠하고, 장식하는 과정을 통해 만족스러운 시각적, 청각적 경험을 제공합니다.",
+        "features_ko": [
+          "손톱을 자르고, 다듬고, 모양을 잡는 현실적인 네일 케어 과정을 제공합니다.",
+          "다양한 색상, 글리터, 스티커, 보석 등을 사용하여 네일 아트를 디자인합니다.",
+          "파일링, 버핑 등 각 단계에서 만족스러운 ASMR 사운드 효과를 제공합니다.",
+          "고객의 요청에 따라 다양한 스타일의 네일 아트를 완성하는 미션을 수행합니다."
+        ],
+        "noteworthy_ko": "시각적 만족감과 청각적 자극(ASMR)을 결합하여 사용자에게 심리적 안정감을 주는 것이 핵심입니다. 단순한 조작으로 높은 몰입감을 유도하는 구조입니다.",
+        "development_ko": "다양한 네일 디자인을 구현하기 위한 그래픽 에셋 제작이 중요합니다. ASMR 사운드와 조작의 타이밍을 맞추는 것이 핵심이며, 사용자 인터페이스의 직관성이 중요합니다.",
+        "idea_ko": "사용자가 직접 디자인한 네일 아트를 공유하고 다른 사용자의 디자인을 평가하는 커뮤니티 기능을 추가할 수 있습니다.",
+        "highlights_ko": [
+          "다양한 장식 요소와 색상을 조합하여 창의적인 디자인을 구현할 수 있습니다.",
+          "편안한 분위기의 게임 플레이를 통해 스트레스 해소 경험을 제공합니다."
+        ],
+        "systems_ko": [
+          "네일 아트 렌더링 시스템",
+          "사운드 트리거 및 재생 시스템",
+          "아이템 인벤토리 및 선택 시스템",
+          "미션 및 보상 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 단순한 조작 위주이며, 복잡한 물리 연산이나 AI가 필요하지 않습니다. 에셋 제작에 집중하면 1인 개발이 충분히 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "손톱 다듬기 및 색칠 기본 기능",
+            "ASMR 사운드 재생 시스템"
+          ],
+          "defer": [
+            "다양한 장식 아이템 확장",
+            "고객 요청 미션 시스템"
+          ],
+          "risks": [
+            "콘텐츠 반복으로 인한 지루함",
+            "그래픽 에셋 제작 부담"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "네일 아트 챌린지",
+            "concept": "주어진 테마에 맞춰 제한 시간 내에 가장 어울리는 네일 아트를 완성합니다.",
+            "first_step": "테마별 색상 팔레트와 장식 제한을 설정하는 로직을 구현합니다."
+          },
+          {
+            "title": "나만의 네일 샵 경영",
+            "concept": "고객을 받아 수익을 얻고, 더 많은 디자인 도구와 장식을 구매합니다.",
+            "first_step": "재화 시스템과 상점 UI를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "시뮬레이션 게임의 기초적인 조작과 사운드 연출을 배우기에 매우 좋습니다. 1인 개발자가 시각적 만족감을 극대화하는 방법을 연구하기에 적합합니다.",
+        "source_limitations_ko": "소개문에는 게임 내 재화의 획득 방식이나 광고 삽입 여부, 오프라인 플레이 가능 여부가 명시되어 있지 않습니다.",
+        "name": "Nail Salon: DIY ASMR",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.cs.nail.salon.asmr.diy&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
     }
   }
 }

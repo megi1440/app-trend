@@ -27505,6 +27505,184 @@
         "thoughtsTokenCount": 2629,
         "serviceTier": "standard"
       }
+    },
+    "apple:6814077502": {
+      "app_key": "apple:6814077502",
+      "name": "Auto ScanQR",
+      "developer": "Fuzhou Yuxian Future Technology Co., Ltd",
+      "source": "apple",
+      "kind": "app",
+      "detail_url": "https://apps.apple.com/jp/app/auto-scanqr/id6814077502?uo=2",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:6814077502",
+        "product_kind": "app",
+        "original_experience_ko": "QR 코드 스캔 및 생성, 기록 관리, 패스워드 생성 기능을 제공하는 유틸리티 앱 경험입니다. 스토어 소개에 따르면 카메라로 코드를 읽어 웹 링크, 연락처 등 상황별 작업을 실행하고, 필요한 정보를 QR 코드로 변환할 수 있습니다.",
+        "source_facts_and_limitations_ko": [
+          "카메라 기반 QR 코드 스캔 및 다양한 형식(텍스트, URL, Wi-Fi 등)의 QR 코드 생성 기능이 명시되어 있습니다.",
+          "스캔 기록 저장 및 랜덤 비밀번호 생성 부가 기능이 포함되어 있습니다.",
+          "외부 클라우드 연동 여부, 구체적인 내부 보안 알고리즘, 결제 기능 유무는 소개문에 언급되지 않았습니다."
+        ],
+        "valuable_elements_ko": [
+          "카메라 입력부터 즉각적인 결과 분기 처리까지 이어지는 빠른 단말 내 작업 흐름",
+          "코드 스캔과 생성을 한 곳에서 처리하여 유틸리티로서의 높은 범용성 제공"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "공간 자산 정리 및 AR 태그 QR 허브",
+            "core_idea_ko": "단순 정보 읽기를 넘어, 스캔한 QR 코드를 물리적 자산(이사 박스, 소장품, 매장 재고 등)의 위치 및 상태 메타데이터와 연결하고 관리하는 개인용 자산 관리 유틸리티 앱입니다.",
+            "what_to_keep_ko": "빠른 카메라 스캔 입력 방식과 스캔 결과에 따른 데이터 분류 및 이력 관리 구조를 계승합니다.",
+            "what_to_change_ko": "단순 텍스트/URL 열람에서 벗어나, 스캔 대상 물품의 위치, 카테고리, 메모를 로컬 DB에 매핑하고 오프라인 자산 관리 허브로 확장합니다.",
+            "mobile_use_or_play_ko": "사용자가 박스에 부착된 QR 코드를 카메라로 스캔하면, 앱이 해당 박스에 담긴 물품 목록을 화면에 띄우고 위치 정보를 수정하거나 추가할 수 있습니다.",
+            "key_features_ko": [
+              "물리 자산-QR코드 1:1 매핑 로컬 DB",
+              "카테고리별 태그 및 검색 기능",
+              "스캔 기반 메모 및 상태 업데이트 모듈"
+            ],
+            "solo_mvp_and_effort_ko": "Jetpack Compose와 바코드 스캔 라이브러리를 활용해 로컬 Room DB 기반의 자산 매핑 앱을 1인 개발하며, 복잡한 서버 연동 없이 로컬 우선으로 구현하여 난이도를 낮춥니다.",
+            "strengths_limits_ko": "일상의 실용성을 크게 높이지만, 사용자가 직접 QR 코드를 인쇄하고 부착해야 하는 초기 진입 장벽이 존재합니다."
+          },
+          {
+            "title_ko": "시큐어 볼트 및 오프라인 암호화 QR 세이프티",
+            "core_idea_ko": "임의 패스워드 생성과 QR 유틸리티 기능을 확장하여, 민감한 텍스트나 메모를 암호화된 QR 코드로 변환해 오프라인으로 안전하게 공유하고 로컬 금고에 보관하는 보안 유틸리티 앱입니다.",
+            "what_to_keep_ko": "랜덤 패스워드 생성 기능과 QR 코드 생성/스캔의 핵심 유틸리티 프레임워크를 계승합니다.",
+            "what_to_change_ko": "평문 데이터 처리 방식 대신 클라이언트 사이드 암호화 알고리즘을 적용하고, 대용량 데이터를 위한 멀티파트 QR 시퀀스 생성 기능을 추가합니다.",
+            "mobile_use_or_play_ko": "비밀 텍스트를 입력하고 마스터키를 설정해 암호화된 QR 코드를 생성한 뒤, 상대방 기기 카메라로 스캔하여 복호화된 내용을 안전하게 확인합니다.",
+            "key_features_ko": [
+              "클라이언트 사이드 암호화/복호화 엔진",
+              "생성된 비밀번호 및 암호화 데이터의 로컬 시큐어 스토리지",
+              "멀티파트 QR 코드 분할 및 결합 스캔 기능"
+            ],
+            "solo_mvp_and_effort_ko": "Android Keystore와 암호화 라이브러리를 결합해 로컬 보안 저장소를 구축하고 표준 QR 라이브러리를 활용하므로 1인 개발이 용이합니다.",
+            "strengths_limits_ko": "강력한 프라이버시 보호와 보안 도구로서 차별점이 있으나, 암호 분실 시 데이터 복구가 불가능한 위험성이 있습니다."
+          },
+          {
+            "title_ko": "마이크로 스탬프 및 오프라인 체크인 패스",
+            "core_idea_ko": "현장 이벤트, 세미나, 소모임에서 주최자가 배치한 QR 코드를 스캔하여 디지털 스탬프를 획득하고 방문 기록을 미션 형태로 완수하는 마이크로 이벤트 패스 앱입니다.",
+            "what_to_keep_ko": "카메라 스캔 후 결과를 판별하는 흐름과 과거 히스토리 관리 기능을 계승합니다.",
+            "what_to_change_ko": "수동적인 정보 열람에서 벗어나 스캔 성공 시 리워드 배지나 스탬프가 채워지는 게이미피케이션 요소를 결합합니다.",
+            "mobile_use_or_play_ko": "행사장 내 특정 위치의 QR 코드를 스캔하면 앱 내 스탬프 판에 도장이 찍히고, 모든 스탬프를 모으면 완료 축하 화면이 표시됩니다.",
+            "key_features_ko": [
+              "오프라인 상태 머신 기반 스탬프 북 로직",
+              "스캔 성공 시 피드백 애니메이션 및 사운드",
+              "방문 일시 및 장소 로그 아카이브"
+            ],
+            "solo_mvp_and_effort_ko": "서버 통신 없이 로컬 JSON 구조로 스탬프 템플릿과 달성 기록을 관리하여, 1인이 단기 스프린트로 완성할 수 있습니다.",
+            "strengths_limits_ko": "오프라인 행사나 스터디에서 즉시 활용 가능한 재미를 주지만, 범용 유틸리티라기보다는 특정 목적형 앱으로 활용도가 제한될 수 있습니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어는 자산 관리에 초점을 맞춘 실용성 중심이며, 두 번째는 암호화와 보안에 집중한 프라이버시 중심, 세 번째는 스탬프와 게이미피케이션을 더한 이벤트 중심입니다. 세 가지 모두 QR 스캔/생성이라는 원본의 뼈대를 공유하지만 적용 도메인과 사용자 가치가 완전히 다릅니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "첫 번째 '공간 자산 정리 및 AR 태그 QR 허브'는 단순한 정보 뷰어에 머무는 원본 앱의 한계를 넘어, 물리적 실생활의 불편함(물건 위치 찾기)을 해결하는 실용적인 유틸리티로 크게 발전시킵니다. 로컬 중심의 가벼운 구현이 가능하면서도 사용자에게 명확한 잔존 가치를 제공합니다.",
+        "next_questions_ko": [
+          "로컬 DB에 저장된 자산 데이터의 백업 및 복원 기능을 파일 내보내기/가져오기로 충분히 구현할 수 있는가?",
+          "카메라 스캔 시 복잡한 표면에서도 바코드를 빠르게 인식하는 라이브러리 최적화 수준은 어느 정도인가?"
+        ]
+      },
+      "brief_at": "2026-11-22T06:09:39+09:00",
+      "brief_quota_day": "2026-11-22",
+      "brief_usage": {
+        "promptTokenCount": 1560,
+        "candidatesTokenCount": 1814,
+        "totalTokenCount": 6531,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1560
+          }
+        ],
+        "thoughtsTokenCount": 3157,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:6814077502",
+        "product_kind": "app",
+        "selected_concept_title_ko": "공간 자산 정리 및 AR 태그 QR 허브",
+        "project_goal_and_audience_ko": "이사, 창고 정리, 수납 공간 관리, 소장품 분류 등으로 물건의 위치를 자주 잃어버리는 일반 사용자들을 위한 모바일 공간 자산 관리 유틸리티입니다. 사용자는 카메라로 박스나 물품에 부착된 QR 코드를 스캔하여 그 안에 어떤 물건들이 들어있는지 즉시 파악하고 수정할 수 있으며, 일상 속 물품 탐색 스트레스를 줄이고 효율적인 수납 생활을 누릴 수 있습니다.",
+        "source_relation_and_difference_ko": "원본 앱의 빠른 카메라 스캔 입력 방식과 스캔 결과 분기 처리, 이력 관리 구조라는 핵심 경험은 그대로 계승합니다. 반면, 단순한 텍스트/웹 링크 뷰어에서 벗어나 스캔한 코드를 사용자의 물리적 자산 메타데이터(보관 장소, 수납함 내 물품 목록, 카테고리 메모)와 1:1로 매핑하여 오프라인 자산 관리 허브로 확장한 점이 차별점입니다.",
+        "core_user_experience_ko": "사용자가 앱을 실행하고 카메라 탭에서 수납 박스에 부착된 QR 코드를 비추면, 앱이 즉시 코드를 인식하고 해당 박스의 이름, 보관 위치(예: '안방 드레스룸 2번 상자'), 담긴 물품 목록 리스트를 화면에 표시합니다. 사용자는 새로운 물건을 추가하거나 위치를 변경하고 싶을 때 화면에서 즉시 텍스트를 수정하고 저장할 수 있으며, 반대로 특정 물건의 이름을 검색하면 어떤 QR 상자에 들어있는지 역으로 찾아볼 수 있습니다.",
+        "features_ko": [
+          {
+            "feature_ko": "실시간 QR 코드 스캔 및 자산 매핑",
+            "user_action_and_behavior_ko": "사용자가 카메라로 QR 코드를 스캔하면 바코드 인식 라이브러리가 코드를 디코딩하고, 로컬 DB에서 해당 코드와 매핑된 자산 정보를 즉시 조회하여 화면에 카드 형태로 렌더링합니다.",
+            "practical_implementation_ko": "Android Jetpack CameraX와 ML Kit Barcode Scanning API를 조합하여 높은 인식률과 빠른 스캔 속도를 구현하며, 결과 ID를 Room DB의 Primary Key로 조회합니다."
+          },
+          {
+            "feature_ko": "자산 메타데이터 편집 및 관리 모듈",
+            "user_action_and_behavior_ko": "스캔된 자산의 보관 위치, 수납함 이름, 포함된 물품 세부 목록을 사용자가 직접 입력하고 수정할 수 있으며, 변경 사항은 로컬 DB에 실시간 반영됩니다.",
+            "practical_implementation_ko": "Jetpack Compose의 TextField와 LazyColumn을 활용해 동적으로 물품 리스트를 추가/삭제할 수 있는 직관적인 폼 UI를 구성합니다."
+          },
+          {
+            "feature_ko": "오프라인 자산 검색 및 이력 허브",
+            "user_action_and_behavior_ko": "키워드 검색을 통해 특정 물건이 어느 상자에 있는지 찾을 수 있으며, 최근 스캔 및 수정된 자산 이력을 리스트로 모아볼 수 있습니다.",
+            "practical_implementation_ko": "Room DB의 LIKE 쿼리와 Flow를 이용해 검색어 입력에 따른 실시간 반응형 검색 결과를 구현합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "홈 / 자산 허브 화면",
+            "contents_and_actions_ko": "최근 스캔한 자산 목록, 전체 자산 수 요약, 하단 네비게이션(스캔, 검색, 설정), '새 QR 생성' 진입 버튼 제공."
+          },
+          {
+            "screen_ko": "카메라 스캔 화면",
+            "contents_and_actions_ko": "CameraX 뷰프인더와 스캔 가이드 라인 표시. QR 감지 시 진동 피드백과 함께 해당 자산 상세 화면으로 즉시 전환."
+          },
+          {
+            "screen_ko": "자산 상세 및 편집 화면",
+            "contents_and_actions_ko": "QR 코드 고유 ID, 보관 장소, 물품 목록 리스트(추가/삭제 가능), 수정 저장 버튼 제공."
+          }
+        ],
+        "implementation_approach_ko": "Android 네이티브 개발 환경(Kotlin)을 채택합니다. UI는 최신 선언형 UI인 Jetpack Compose를 사용하여 직관적인 폼과 리스트를 빠르게 구현합니다. 데이터 저장소는 가볍고 안정적인 Room DB(SQLite)를 사용하여 별도의 서버 구축 없이 완전한 오프라인 작동과 빠른 반응 속도를 보장합니다. 대안으로는 Flutter나 React Native 등 크로스플랫폼을 고려할 수 있으나, 카메라 하드웨어 제어 및 ML Kit 연동의 안정성과 성능을 위해 네이티브 방식을 선택했습니다.",
+        "data_and_storage_ko": [
+          "AssetEntity 테이블: id (String, QR 고유값 - PK), title (String, 박스명), location (String, 보관 장소), itemsJson (String, 물품 목록의 JSON 직렬화 혹은 별도 Relation 테이블), updatedAt (Long, 최종 수정 시각).",
+          "ScanHistory 테이블: id (Long - PK), assetId (String), scannedAt (Long), actionType (String, 조회/수정).",
+          "데이터 읽기/쓰기: Room DB를 통해 앱 로컬 저장소에 저장하며, 코루틴(Coroutines)과 Flow를 활용해 비동기로 안전하게 읽고 씁니다."
+        ],
+        "mvp_scope_ko": "MVP 범위는 카메라 스캔, 인식된 QR 코드와 연결된 로컬 DB의 자산(박스명, 위치, 물품 리스트) 조회 및 수정 기능, 그리고 간단한 키워드 검색 기능으로 한정합니다. 클라우드 동기화, 사용자 계정 로그인, AR 오버레이 화면 같은 부가 기능은 초기 버전에서 제외하여 1인 개발 기간을 단축하고 로컬 유틸리티로서의 핵심 가치 검증에 집중합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "프로젝트 기본 구조 및 Room DB 설계",
+            "deliverable_and_check_ko": "Room DB 엔티티 및 DAO 정의, 샘플 데이터 삽입/조회 테스트. 앱 실행 시 로컬 DB가 정상 생성되는지 확인."
+          },
+          {
+            "stage_ko": "CameraX 및 ML Kit QR 스캔 모듈 구현",
+            "deliverable_and_check_ko": "카메라 권한 요청 처리, 실시간 뷰프인더 표시, QR 코드 인식 시 로그 출력 및 바코드 문자열 추출 테스트."
+          },
+          {
+            "stage_ko": "자산 상세 편집 UI 및 DB 연동",
+            "deliverable_and_check_ko": "스캔된 QR 코드 ID를 기반으로 Room DB를 조회하고, Jetpack Compose 기반 폼에서 물품 목록을 수정/저장할 수 있는지 검증."
+          },
+          {
+            "stage_ko": "검색 및 홈 허브 화면 구성, 최종 통합",
+            "deliverable_and_check_ko": "키워드 검색 기능 구현 및 홈 화면의 최근 기록 리스트 연동. 전체 사용자 흐름(스캔 -> 조회 -> 수정 -> 검색) 테스트."
+          }
+        ],
+        "possible_extensions_ko": "추후 기능 확장으로는 앱 내에서 직접 인쇄용 QR 코드를 디자인하고 생성하는 기능, 블루투스 프린터 연동, 자산 이미지 사진 첨부 기능, 그리고 선택적인 클라우드 백업(Firebase 연동)을 고려할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "기술적 위험: 저조도 환경에서 ML Kit의 QR 인식률 저하 문제 (해결 방안: 손전등(Torch) 토글 버튼 제공).",
+          "기획적 위험: 사용자가 직접 물리적 QR 코드를 부착해야 하는 초기 진입 장벽 존재 (해결 방안: 앱 내에서 기본 QR 코드를 대량 생성 및 PDF로 공유하는 기능 제공).",
+          "미확정 규칙: 물품 목록을 하나의 String(JSON)으로 저장할지, 별도의 Item 테이블을 두어 1:N 관계로 관리할지 여부는 개발 초기 단계에서 성능과 확장성을 고려해 최종 결정."
+        ],
+        "draft_status_ko": "본 문서는 원본 앱의 유틸리티 경험을 발전시킨 '공간 자산 정리 및 AR 태그 QR 허브' 기획안을 바탕으로 작성된 1인 모바일 개발 설계 초안이며, 실제 구현·플레이테스트 및 성능 측정이 완료되지 않았습니다."
+      },
+      "plan_at": "2026-11-22T06:09:55+09:00",
+      "plan_quota_day": "2026-11-22",
+      "plan_usage": {
+        "promptTokenCount": 2160,
+        "candidatesTokenCount": 2054,
+        "totalTokenCount": 7003,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2160
+          }
+        ],
+        "thoughtsTokenCount": 2789,
+        "serviceTier": "standard"
+      }
     }
   }
 }

@@ -12086,6 +12086,362 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-21"
+    },
+    "google:com.vj.blackboard": {
+      "app_key": "google:com.vj.blackboard",
+      "name": "VJ-BLACKBOARD WATCH FACE",
+      "developer": "Vesterjil",
+      "source": "google",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.vj.blackboard&hl=ko&gl=KR",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:03:17+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "# 베스터질 블랙보드 – 칠판 워치 페이스 **베스터질 블랙보드**로 클래식한 칠판 감성을 스마트워치에 더해보세요. 손으로 그린 ​​분필 일러스트에서 영감을 받은 독특한 워치 페이스로, 현대적인 정보 표시 기능을 갖추고 있습니다. 🎨 **30가지 색상 테마** 30가지의 다양한 색상 조합 중에서 원하는 스타일을 선택하세요. 🖍️ **5가지 칠판 스타일** 5가지의 다채로운 칠판 디자인 중에서 선택하여 워치에 새로운 분위기를 연출해 보세요. ⚙️ **맞춤 설정 가능한 컴플리케이션** 자주 사용하는 정보와 바로가기를 워치 페이스에 추가하여 나만의 스타일을 완성하세요. ## 주요 기능 • 크고 읽기 쉬운 디지털 시계 • 12/24시간 형식 • 요일 및 날짜 표시 • 배터리 잔량 표시 • 날씨 정보 • 심박수 측정 • 걸음 수 측정 • 일출/일몰 정보 • 알림 표시 • 음악 바로가기 • 전화 바로가기 • 빠른 실행 바로가기 • AMOLED 디스플레이에 최적화된 디자인 • AOD 지원 **베스테르질 블랙보드**는 창의적인 칠판 스타일과 실용적인 일상 정보를 결합했습니다. 손으로 그린 ​​듯한 디테일, 독특한 레이아웃, 그리고 풍부한 맞춤 설정 옵션으로 당신의 스마트워치를 평범한 시계 화면과 차별화합니다. **베스테르질 블랙보드** *나만의 방식으로 시간을 표현하세요.*",
+      "analysis": {
+        "app_key": "google:com.vj.blackboard",
+        "summary_ko": "클래식한 칠판 감성을 담은 스마트워치용 워치 페이스입니다. 30가지 색상 테마와 5가지 칠판 디자인을 제공하여 사용자가 원하는 스타일로 꾸밀 수 있습니다. 날씨, 심박수, 걸음 수 등 다양한 일상 정보를 한눈에 확인할 수 있습니다.",
+        "features_ko": [
+          "30가지의 다양한 색상 테마를 선택할 수 있습니다.",
+          "5가지의 칠판 디자인 스타일을 제공합니다.",
+          "디지털 시계, 날짜, 배터리 등 필수 정보를 표시합니다.",
+          "날씨, 심박수, 걸음 수 등 컴플리케이션을 지원합니다.",
+          "AMOLED 디스플레이 최적화 및 AOD 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "워치 페이스는 제한된 화면 내에서 정보 가독성과 디자인의 조화를 이루는 것이 중요합니다. 칠판이라는 아날로그적 감성을 디지털 정보와 결합한 점이 사용자 경험 측면에서 흥미롭습니다.",
+        "development_ko": "핵심 기술은 스마트워치 OS(Wear OS 등)의 워치 페이스 API 활용입니다. 디자인은 칠판 질감을 살린 그래픽 에셋 제작이 중요하며, 배터리 소모를 최소화하기 위한 AOD 최적화가 필수적입니다.",
+        "idea_ko": "시간이 지날수록 칠판에 분필 가루가 쌓이거나 지우개로 지우는 듯한 애니메이션 효과를 추가하는 아이디어가 좋습니다.",
+        "highlights_ko": [
+          "칠판 감성을 살린 독특한 디자인과 높은 커스터마이징 옵션.",
+          "다양한 일상 정보를 한 화면에 담은 실용적인 레이아웃."
+        ],
+        "systems_ko": [
+          "워치 페이스 렌더링 엔진",
+          "데이터 연동(날씨, 건강 정보)",
+          "사용자 설정 저장 시스템",
+          "배터리 최적화 로직"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "워치 페이스 API를 활용하면 비교적 적은 리소스로 구현 가능하며, 게임에 비해 시스템 복잡도가 낮기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 시계 표시 기능",
+            "배경 이미지 및 색상 변경 기능"
+          ],
+          "defer": [
+            "복잡한 애니메이션",
+            "외부 앱 바로가기 커스텀"
+          ],
+          "risks": [
+            "배터리 소모 과다",
+            "다양한 워치 해상도 대응"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "분필 낙서 메모",
+            "concept": "워치 페이스 한쪽에 짧은 메모를 분필로 쓴 것처럼 표시할 수 있는 기능입니다.",
+            "first_step": "사용자 입력을 받아 텍스트를 화면에 렌더링하는 기능을 구현합니다."
+          },
+          {
+            "title": "칠판 지우개 제스처",
+            "concept": "손목을 흔들면 칠판이 지워지고 새로운 정보가 갱신되는 재미있는 인터랙션입니다.",
+            "first_step": "가속도 센서를 활용하여 특정 움직임을 감지하는 로직을 작성합니다."
+          }
+        ],
+        "recommendation_ko": "스마트워치 앱 개발의 기초를 다지기에 매우 좋습니다. 디자인과 정보 가독성 사이의 균형을 배우는 데 추천합니다.",
+        "source_limitations_ko": "실제 구현된 코드나 API 사용 방식은 알 수 없으며, 특정 워치 OS 버전에서의 호환성은 검증이 필요합니다.",
+        "name": "VJ-BLACKBOARD WATCH FACE",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.vj.blackboard&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 210,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 10,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
+    },
+    "google:com.sleep.cycle.alarm.smart.tracker.pro": {
+      "app_key": "google:com.sleep.cycle.alarm.smart.tracker.pro",
+      "name": "Sleep Tracker - Relax Alarm",
+      "developer": "ONIS HAIR",
+      "source": "google",
+      "country": "US",
+      "category": "app_health_fitness",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.sleep.cycle.alarm.smart.tracker.pro&hl=en&gl=US",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:05:10+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "\"Sleep Tracker - Relax Alarm helps you understand your sleep habits, unwind at bedtime and start your morning with a gentle alarm. Combine sleep tracking features with relaxing audio, bedtime content and helpful insights to build a routine that works for you. 🧠 Sleep Tracking & Sleep Analysis Monitor your sleep patterns and follow your sleep cycle with easy-to-use tracking tools. Review sleep analysis and explore your nightly rest to gain a better understanding of your sleep habits over time. 🔔 Relaxing Alarm & Wake-Up Routine Set an alarm to help organize your morning routine. Enjoy a relaxing wake-up experience and make getting up feel like a smoother part of your day. 🎵 White Noise & Relaxing Sleep Sounds Unwind with a collection of sleep sounds, white noise, rain sounds and nature sounds. Play calming audio before bedtime, enjoy sleep music and combine sounds to create a peaceful atmosphere for rest. 📖 Bedtime Stories & Sleep Meditations Listen to bedtime stories and sleep stories when you're ready to wind down. Explore sleep meditations to help you relax, settle into a quiet evening and prepare for bedtime. 📚 Sleep Tips & Dream Insights Explore articles about sleep stages, sleep quality, nighttime habits and dreams. Find practical sleep tips and learn more about common sleep topics, all in one place. Why You’ll Love Sleep Tracker - Relax Alarm? ✨ Relaxing sleep sounds, white noise, rain sounds and nature sounds ✨ Bedtime stories, sleep stories and sleep meditations for sweet dreams ✨ Sleep cycle tracking with sleep monitor and sleep analysis tools ✨ Gentle smart alarm clock features for natural wake-ups Download Sleep Tracker - Relax Alarm today and enjoy sleep sounds, white noise and simple sleep tracking tools to build a more relaxing bedtime routine.\"",
+      "analysis": {
+        "app_key": "google:com.sleep.cycle.alarm.smart.tracker.pro",
+        "summary_ko": "수면 습관을 이해하고 편안한 아침을 맞이하도록 돕는 수면 추적 및 알람 앱입니다. 수면 패턴 분석, 이완을 위한 오디오, 취침 시간 콘텐츠 등을 제공합니다. 사용자의 수면 루틴을 개선하는 데 목적이 있습니다.",
+        "features_ko": [
+          "수면 패턴을 모니터링하고 수면 주기를 분석하는 도구를 제공합니다.",
+          "아침 루틴을 돕는 스마트 알람 기능을 설정할 수 있습니다.",
+          "백색 소음, 자연의 소리 등 수면을 돕는 오디오 컬렉션을 제공합니다.",
+          "취침 전 들을 수 있는 수면 이야기와 명상 콘텐츠를 포함합니다.",
+          "수면 단계, 수면 질, 꿈 등에 관한 유용한 팁과 기사를 제공합니다."
+        ],
+        "noteworthy_ko": "수면 추적이라는 기능적 요소와 명상/이야기라는 콘텐츠 요소를 결합하여 사용자에게 종합적인 수면 솔루션을 제공하는 점이 흥미롭습니다.",
+        "development_ko": "센서 데이터를 활용한 수면 분석 알고리즘 구현이 핵심입니다. 오디오 재생 및 콘텐츠 관리 시스템이 필요하며, 사용자가 편안함을 느낄 수 있는 UI/UX 설계가 중요합니다.",
+        "idea_ko": "사용자의 수면 데이터를 기반으로 다음 날의 컨디션을 예측하고 최적의 기상 시간을 제안하는 개인화 알람 기능을 구현하는 것이 적합합니다.",
+        "highlights_ko": [
+          "수면 추적과 이완 콘텐츠를 결합한 올인원 솔루션입니다.",
+          "사용자의 수면 습관을 이해하기 쉽게 시각화하여 제공합니다."
+        ],
+        "systems_ko": [
+          "센서 데이터 수집 및 분석 시스템",
+          "오디오 재생 및 관리 시스템",
+          "알람 스케줄링 시스템",
+          "콘텐츠 데이터베이스",
+          "사용자 통계 시각화 UI"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "정확한 수면 분석 알고리즘을 개발하는 것은 전문적인 지식이 필요하며, 센서 데이터의 노이즈를 처리하는 것이 매우 까다롭기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 알람 기능",
+            "수면 소리 재생 기능",
+            "수면 기록 일지"
+          ],
+          "defer": [
+            "정밀한 수면 주기 분석 알고리즘",
+            "방대한 수면 명상 콘텐츠 라이브러리"
+          ],
+          "risks": [
+            "센서 데이터의 정확성 부족",
+            "사용자 건강 데이터 관리의 책임"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "수면 환경 분석기",
+            "concept": "주변 소음이나 조도를 측정하여 수면 환경을 점수로 매겨주는 기능입니다.",
+            "first_step": "마이크와 조도 센서를 사용하여 환경 데이터를 기록하는 앱을 만듭니다."
+          },
+          {
+            "title": "기상 루틴 챌린지",
+            "concept": "매일 정해진 시간에 일어나고 루틴을 수행하면 보상을 주는 게임화 요소입니다.",
+            "first_step": "알람 해제 시 간단한 체크리스트를 완료하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "데이터 분석과 사용자 경험 디자인을 배우고 싶은 개발자에게 추천합니다. 건강 관련 앱이므로 데이터의 정확성과 개인정보 보호에 각별히 주의해야 합니다.",
+        "source_limitations_ko": "수면 분석에 사용되는 구체적인 센서 기술이나 알고리즘의 원리는 소개문에 없습니다. 의료 기기로서의 인증 여부 등은 확인되지 않았습니다.",
+        "name": "Sleep Tracker - Relax Alarm",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.sleep.cycle.alarm.smart.tracker.pro&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
+    },
+    "google:find.tidy.house.sort.puzzle.game": {
+      "app_key": "google:find.tidy.house.sort.puzzle.game",
+      "name": "Tidy House: アイテム探しと整理整頓ゲーム",
+      "developer": "Shycheese",
+      "source": "google",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=find.tidy.house.sort.puzzle.game&hl=ja&gl=JP",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:07:03+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Tidy Houseは、アイテム探しから部屋の片付けまで楽しめる整理整頓ゲームです。散らかった部屋で指定の品を見つけ、種類ごとに必要な数を集めましょう。さがしものゲームの楽しさに、限られたトレーを使う収納ゲームの工夫が加わります。隠しアイテム探しを始める前に、まず画面の目標を確認しましょう。 遊び方 目標の数を確認 片付けの第一歩はリストを見ること。スマホの表示が「2/5」なら、あと3個必要です。さがしものゲームのように部屋をよく見て、目標の品をタップ。隠しアイテム探しで見つけた品がトレーに入ると、数が更新されます。整理整頓ゲームでは、片付けの途中で残りの数を見るのがコツです。 取る順番を考える 収納ゲームでは、空き枠の使い方も大切です。シャツをあと1枚集めれば目標達成でも、スマホはまだ数が足りないことがあります。アイテム探しで候補を見つけたら、片付けが進む方から集めましょう。整理整頓ゲームの途中でトレーがいっぱいになり、次の品を入れられなくなると、その回は終了です。 ゲームの特徴 種類ごとに集める 服のそばにスマホがあったり、お菓子の袋がほかの品に紛れていたり。隠しアイテム探しで必要な品を見つけたら、リストと照らし合わせます。さがしものゲームで見つける楽しさと、収納ゲームで順番を決める楽しさが一つに。どの種類から片付けを進めるか、自分で選べます。 一手ごとの変化が見える タップするたびに品が移動し、片付けの進み具合が目に見えます。整理整頓ゲームを進めながら、あと何個でそろうかを確認しましょう。収納ゲームの空き枠を見てから次の隠しアイテム探しへ。片付けの途中でも、空き枠が少なければ一度手を止めて考えられます。 ひと休みに一部屋 さがしものゲームが好きなら、短い休憩に一部屋の片付けを。収納ゲームのように空き枠をやりくりしながら、隠しアイテム探しで最後の一品を見つけましょう。整理整頓ゲームの目標は、どの種類も指定の数まで集めること。全部そろうと片付けが完了します。 さがしものゲームを一回だけ遊びたいときにも。収納ゲームの要領でトレーを見ながら、片付けを一手ずつ進めましょう。次の整理整頓ゲームでは、どの品から片付けますか？",
+      "analysis": {
+        "app_key": "google:find.tidy.house.sort.puzzle.game",
+        "summary_ko": "Tidy House는 흩어진 아이템을 찾아 정리하는 퍼즐 게임입니다. 제한된 공간인 트레이에 목표한 아이템을 종류별로 분류하여 담는 것이 핵심 규칙입니다. 아이템 찾기의 재미와 효율적인 공간 활용이라는 퍼즐 요소가 결합되어 있습니다.",
+        "features_ko": [
+          "화면 내에서 목표한 개수의 아이템을 찾아 탭하여 수집합니다.",
+          "제한된 트레이 공간을 고려하여 아이템을 전략적으로 배치해야 합니다.",
+          "아이템을 종류별로 분류하여 정리하는 과정을 통해 목표를 달성합니다.",
+          "트레이가 가득 차면 게임이 종료되므로 순서와 선택이 중요합니다."
+        ],
+        "noteworthy_ko": "단순한 아이템 찾기에 '공간 제약'이라는 퍼즐 요소를 더해 난이도를 조절한 점이 흥미롭습니다. 1인 개발자가 구현하기에 적합한 규모의 메커니즘을 가지고 있습니다.",
+        "development_ko": "핵심 기술은 아이템 배치 알고리즘과 터치 이벤트 처리입니다. 콘텐츠 제작 부담은 다양한 아이템 이미지와 레벨 디자인에 집중됩니다. 밸런스 측면에서는 트레이 크기와 아이템 개수의 조합을 통해 난이도를 세밀하게 조정하는 것이 중요합니다.",
+        "idea_ko": "아이템을 정리할 때 특정 테마(예: 주방, 서재)를 부여하여 정리하는 '테마별 정리 챌린지'가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "아이템 찾기와 정리 정돈을 결합한 독특한 퍼즐 메커니즘을 제공합니다.",
+          "제한된 공간을 활용하는 전략적 사고를 요구합니다."
+        ],
+        "systems_ko": [
+          "아이템 배치 및 생성 시스템",
+          "터치 입력 판정 및 드래그 앤 드롭",
+          "게임 상태 관리(목표 달성 여부)",
+          "레벨 데이터 관리",
+          "UI 및 애니메이션 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "게임의 핵심 메커니즘이 명확하고 복잡한 네트워크 연동이 필요 없으며, 1인 개발자가 충분히 구현 가능한 범위이기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "아이템 배치 및 탭 수집 기능",
+            "목표 달성 확인 로직",
+            "기본 레벨 시스템"
+          ],
+          "defer": [
+            "다양한 테마 및 아이템 종류",
+            "온라인 랭킹 시스템"
+          ],
+          "risks": [
+            "레벨 디자인의 단조로움",
+            "아이템 배치 밸런스 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "시간 제한 정리 모드",
+            "concept": "제한 시간 내에 모든 아이템을 정리해야 하는 모드입니다. 긴박감을 더해 게임의 난이도를 높입니다.",
+            "first_step": "타이머 기능을 추가하고 시간이 종료되면 게임 오버가 되는 로직을 구현합니다."
+          },
+          {
+            "title": "아이템 조합 퍼즐",
+            "concept": "단순 정리가 아니라 특정 아이템들을 조합하여 새로운 아이템을 만드는 규칙을 추가합니다.",
+            "first_step": "아이템 간의 조합 테이블을 만들고 조합 성공 시 아이템이 변하는 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 기본 메커니즘 구현과 레벨 디자인의 기초를 배우기에 매우 좋습니다. 1인 개발자가 완성도 높은 결과물을 만들기에 적합한 프로젝트입니다.",
+        "source_limitations_ko": "게임의 구체적인 레벨 설계 방식, 아이템 배치 알고리즘의 세부 사항, 난이도 곡선 설계에 대한 정보는 없습니다.",
+        "name": "Tidy House: アイテム探しと整理整頓ゲーム",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=find.tidy.house.sort.puzzle.game&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 71,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
+    },
+    "google:gs.chaos.sushimatch": {
+      "app_key": "google:gs.chaos.sushimatch",
+      "name": "Sushi Paws：お寿司の仕分けパズル",
+      "developer": "MOBİLEVERSE DİJİTAL HİZMETLER LİMİTED ŞİRKETİ",
+      "source": "google",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=gs.chaos.sushimatch&hl=ja&gl=JP",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:07:22+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ねこのシェフたちと、お寿司の仕分けパズルをはじめましょう！ 「Sushi Paws」は、タップでお寿司を仕分けて、注文を完成させていくカラフルなパズルゲームです。積み重なったお皿からお寿司を選んで、画面上の注文に合わせて出していきましょう。同じお寿司を3つ集めると注文が完成！すべてのお寿司を出しきれば、レベルクリアです。 ▼ トレイの空きに注意 注文に合わないお寿司は、トレイに入ります。トレイがいっぱいになるとレベル失敗です。いま出すお寿司と、あとに回すお寿司を見きわめましょう。お皿を空にすると、新しいお皿が出てきます。 ▼ 新ギミックが続々登場 レベルが進むと、こんなギミックが待っています。 ・ラップ皿：となりのお寿司を取ると、ラップがはがれます ・カギ付き皿：カギのお皿を空にすると開きます ・フタ付き皿：いちばん下に来ると、フタが開きます ・かくれ寿司：取ると正体がわかります ・つながり寿司：1つタップで2つとも取れます ▼ ゲームの特徴 ・タップするだけのかんたん操作 ・同じお寿司を3つそろえて注文を完成 ・トレイの空きを考えて、先を読みながらプレイ ・レベルごとに変わるお皿の並び ・かわいいねこのシェフと、色とりどりのお寿司 ・お寿司を出すたびに流れる、気持ちいいアニメーション ▼ こんな方におすすめ ・仕分けパズルやマッチパズルが好きな方 ・すきま時間に頭の体操をしたい方 ・ねこやお寿司が好きな方 さあ、次の注文を受けて、カウンターをきれいにしましょう！",
+      "analysis": {
+        "app_key": "google:gs.chaos.sushimatch",
+        "summary_ko": "Sushi Paws는 고양이 셰프와 함께 초밥을 분류하여 주문을 완성하는 퍼즐 게임입니다. 쌓여 있는 접시에서 초밥을 선택해 화면의 주문에 맞춰 내보내야 합니다. 같은 종류의 초밥 3개를 모으면 주문이 완료되며, 모든 초밥을 처리하면 레벨을 클리어할 수 있습니다.",
+        "features_ko": [
+          "화면을 탭하여 쌓인 접시에서 초밥을 선택하고 주문에 맞춰 내보냅니다.",
+          "같은 종류의 초밥 3개를 모으면 주문이 완료되는 매칭 규칙을 따릅니다.",
+          "주문에 맞지 않는 초밥은 트레이에 보관하며, 트레이가 가득 차면 게임이 종료됩니다.",
+          "랩, 자물쇠, 뚜껑 등 레벨이 진행됨에 따라 다양한 특수 기믹이 등장합니다."
+        ],
+        "noteworthy_ko": "제한된 트레이 공간을 활용한 자원 관리와 초밥의 순서를 고려하는 전략적 사고가 핵심입니다. 퍼즐의 난이도가 기믹의 추가로 점진적으로 상승하는 구조가 흥미롭습니다.",
+        "development_ko": "핵심 기술은 그리드 기반의 데이터 관리와 큐(Queue) 형태의 트레이 로직입니다. 콘텐츠 제작은 다양한 기믹을 가진 접시 오브젝트 설계에 집중되며, 밸런스 조정은 트레이 용량과 초밥 배치 난이도에 따라 결정됩니다.",
+        "idea_ko": "초밥 대신 재료를 조합해 요리를 완성하는 '요리 레시피 매칭 퍼즐'로 확장하는 것이 가장 적합합니다.",
+        "highlights_ko": [
+          "고양이 셰프와 다채로운 초밥 그래픽을 활용한 귀여운 비주얼.",
+          "초밥을 내보낼 때마다 발생하는 경쾌한 애니메이션 효과."
+        ],
+        "systems_ko": [
+          "게임 상태 관리 시스템",
+          "초밥 배치 및 생성 로직",
+          "트레이 데이터 관리 시스템",
+          "기믹 처리 및 상호작용 로직",
+          "UI 및 애니메이션 제어 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기본적인 매칭 로직은 구현이 용이하나, 다양한 기믹의 상호작용과 레벨 디자인의 밸런스를 맞추는 과정에서 세심한 설계가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "초밥 선택 및 트레이 이동 로직",
+            "3개 매칭 판정 시스템",
+            "레벨 클리어 및 실패 조건 구현"
+          ],
+          "defer": [
+            "복잡한 특수 기믹",
+            "다양한 캐릭터 애니메이션"
+          ],
+          "risks": [
+            "트레이 용량에 따른 난이도 밸런스 붕괴",
+            "매칭 로직의 예외 처리 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "재료 조합 요리 퍼즐",
+            "concept": "초밥을 단순히 모으는 것이 아니라, 특정 레시피에 맞는 재료를 순서대로 조합하여 요리를 완성하는 방식입니다.",
+            "first_step": "재료 3개를 조합해 하나의 요리 결과물을 만드는 프로토타입을 제작합니다."
+          },
+          {
+            "title": "시간 제한 긴급 주문 모드",
+            "concept": "일반 모드와 달리 제한 시간 내에 빠르게 주문을 처리해야 하는 긴박한 모드를 추가합니다.",
+            "first_step": "타이머 UI와 시간 종료 시 게임 오버 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 기본 매커니즘인 '선택과 배치'를 학습하기에 좋습니다. 단순한 규칙을 기믹으로 확장하는 레벨 디자인 방식을 배우고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 레벨 설계 방식, 데이터 저장 방식, 외부 광고 연동 여부 등이 명시되어 있지 않아 검증이 필요합니다.",
+        "name": "Sushi Paws：お寿司の仕分けパズル",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=gs.chaos.sushimatch&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 75,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
     }
   }
 }

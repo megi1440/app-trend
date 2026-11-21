@@ -14649,6 +14649,443 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-21"
+    },
+    "itch:90f9d360d03975e238b3": {
+      "app_key": "itch:90f9d360d03975e238b3",
+      "name": "N WORLD [Free] [Other]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://snovaa.itch.io/n-world",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:01:58+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Click the letter N. That's it. That's the game.",
+      "analysis": {
+        "app_key": "itch:90f9d360d03975e238b3",
+        "summary_ko": "N WORLD는 화면에 나타나는 문자 'N'을 클릭하는 단순한 게임입니다. 그 외의 다른 기능은 없습니다.",
+        "features_ko": [
+          "화면에 표시된 'N'을 클릭하는 상호작용을 제공합니다."
+        ],
+        "noteworthy_ko": "매우 단순한 구조로, 게임의 본질적인 재미가 무엇인지에 대한 철학적 질문을 던집니다. 개발 관점에서는 입력 이벤트 처리의 가장 기초적인 형태를 보여줍니다.",
+        "development_ko": "구현 기술은 마우스 클릭 이벤트 감지 및 UI 표시가 전부입니다. 콘텐츠 제작 부담은 거의 없으며, 테스트 또한 클릭 반응 확인 정도로 매우 간단합니다.",
+        "idea_ko": "단순 클릭에 반응하여 'N'이 점차 변하거나 다른 문자로 진화하는 점진적 클릭 게임을 제안합니다.",
+        "highlights_ko": [
+          "극도로 단순화된 게임 규칙을 가지고 있습니다.",
+          "클릭이라는 단일 입력에 집중합니다."
+        ],
+        "systems_ko": [
+          "입력 이벤트 처리",
+          "UI 렌더링",
+          "게임 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "프로그래밍 입문 수준의 기능만으로 구현 가능하며 복잡한 시스템이 없습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "클릭 감지 시스템",
+            "문자 표시 UI"
+          ],
+          "defer": [],
+          "risks": [
+            "콘텐츠 부족으로 인한 낮은 재방문율"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "N의 진화",
+            "concept": "클릭할 때마다 N이 조금씩 다른 모양으로 변하며, 특정 횟수에 도달하면 새로운 문자가 나타나는 클릭커 게임입니다.",
+            "first_step": "클릭 횟수 카운터와 이미지 교체 로직 구현."
+          },
+          {
+            "title": "N 피하기",
+            "concept": "마우스 커서를 따라다니는 N을 클릭해야 하지만, N이 커서를 피해서 도망가는 게임입니다.",
+            "first_step": "마우스 위치를 추적하여 반대 방향으로 이동하는 N 구현."
+          }
+        ],
+        "recommendation_ko": "게임 개발의 기초적인 입력과 반응 구조를 익히기에 좋습니다. 처음 개발을 시작하는 분들에게 추천합니다.",
+        "source_limitations_ko": "게임의 목적이나 확장성에 대한 정보가 전혀 없습니다.",
+        "name": "N WORLD [Free] [Other]",
+        "source": "itch",
+        "detail_url": "https://snovaa.itch.io/n-world",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 368,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 4,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
+    },
+    "itch:4f9be302df67a066d524": {
+      "app_key": "itch:4f9be302df67a066d524",
+      "name": "BOUNCE BACK: Physics Puzzle [Free] [Strategy]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://priyansh-soni-quant.itch.io/bounce-back",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:02:56+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A minimalist 2D puzzle experience driven by trajectory deduction, kinetic rebounding, and mental mapping.",
+      "analysis": {
+        "app_key": "itch:4f9be302df67a066d524",
+        "summary_ko": "BOUNCE BACK은 궤적 추론과 운동 에너지 반사를 활용하는 미니멀리즘 2D 퍼즐 게임입니다. 플레이어는 물리 법칙을 이용해 퍼즐을 해결하며 공간을 탐색합니다. 단순한 시각적 요소와 물리 기반의 전략적 사고를 결합한 경험을 제공합니다.",
+        "features_ko": [
+          "물리 엔진을 활용한 오브젝트의 반사 및 운동 에너지 계산 기능을 제공합니다.",
+          "플레이어가 궤적을 예측하여 퍼즐을 해결하는 메커니즘을 포함합니다."
+        ],
+        "noteworthy_ko": "물리 기반 퍼즐은 구현 시 충돌 판정과 반사각 계산의 정밀도가 핵심입니다. 2D 환경에서 예측 가능한 물리 법칙을 설계하는 것이 게임의 재미를 결정짓는 중요한 요소로 추정됩니다.",
+        "development_ko": "핵심 구현 기술로는 2D 물리 엔진(Box2D 등) 활용이 필수적입니다. 콘텐츠 제작은 다양한 반사 각도와 장애물 배치를 통한 레벨 디자인에 집중됩니다. 테스트 과정에서 물리 연산의 안정성과 의도치 않은 튕김 현상을 방지하는 밸런스 조정이 중요합니다.",
+        "idea_ko": "중력 방향을 실시간으로 변경하여 반사 궤적을 수정하는 퍼즐 메커니즘이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "미니멀리즘 스타일의 2D 그래픽을 채택하여 시각적 복잡도를 낮췄습니다.",
+          "궤적 추론과 반사라는 물리적 상호작용에 집중한 게임 플레이를 제공합니다."
+        ],
+        "systems_ko": [
+          "2D 물리 엔진 연동",
+          "궤적 시각화 시스템",
+          "레벨 데이터 관리 시스템",
+          "충돌 판정 및 반사 로직"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진을 활용한 기본적인 상호작용 구현은 어렵지 않으나, 퍼즐의 난이도 곡선을 설계하고 물리적 오류를 수정하는 과정에서 세심한 조정이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 물리 반사 로직",
+            "레벨 로딩 시스템",
+            "플레이어 입력 및 궤적 표시"
+          ],
+          "defer": [
+            "복잡한 파티클 효과",
+            "레벨 에디터"
+          ],
+          "risks": [
+            "물리 엔진의 비결정론적 동작",
+            "레벨 디자인의 난이도 밸런스 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중력 반전 퍼즐",
+            "concept": "특정 구역에서 중력 방향을 바꾸어 오브젝트의 반사 경로를 변경합니다. 기존 물리 퍼즐에 공간적 변수를 추가하여 전략성을 높입니다.",
+            "first_step": "중력 방향을 90도 회전시키는 간단한 프로토타입을 구현합니다."
+          },
+          {
+            "title": "색상 매칭 반사",
+            "concept": "오브젝트와 벽의 색상을 일치시켜야만 반사가 성공하는 규칙입니다. 색상 정보가 물리적 상호작용에 제약을 주는 퍼즐입니다.",
+            "first_step": "충돌 시 색상 정보를 확인하여 반사 여부를 결정하는 로직을 작성합니다."
+          }
+        ],
+        "recommendation_ko": "물리 엔진의 기초적인 활용법과 2D 게임의 충돌 처리를 학습하기에 좋습니다. 물리 기반 게임의 핵심인 '예측 가능성'을 어떻게 구현할지 고민해 볼 수 있는 좋은 사례입니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 게임 규칙, 레벨 수, 승리 조건, 물리 엔진의 종류 등 상세 사양을 확인할 수 없습니다.",
+        "name": "BOUNCE BACK: Physics Puzzle [Free] [Strategy]",
+        "source": "itch",
+        "detail_url": "https://priyansh-soni-quant.itch.io/bounce-back",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 299,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
+    },
+    "itch:35643795bf1b46323e20": {
+      "app_key": "itch:35643795bf1b46323e20",
+      "name": "Goblin Lair [Free] [Strategy]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://etsl33py.itch.io/goblin-lair",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:03:17+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "An incremental auto-battle game: build a goblin settlement, raid human villages, unlock upgrades and more goblins",
+      "analysis": {
+        "app_key": "itch:35643795bf1b46323e20",
+        "summary_ko": "고블린 정착지를 건설하고 인간 마을을 습격하는 점진적 자동 전투 게임입니다. 플레이어는 자원을 관리하여 고블린 수를 늘리고 다양한 업그레이드를 잠금 해제합니다. 방치형 요소가 포함된 전략적 운영 경험을 제공합니다.",
+        "features_ko": [
+          "고블린 정착지를 건설하여 세력을 확장합니다.",
+          "인간 마을을 습격하여 자원을 획득합니다.",
+          "다양한 업그레이드를 통해 고블린의 능력을 강화합니다.",
+          "더 많은 고블린을 모집하여 군대를 키웁니다."
+        ],
+        "noteworthy_ko": "점진적 게임(Incremental Game) 장르의 핵심인 '성장과 보상'의 루프를 고블린 테마로 잘 녹여냈습니다. 개발 관점에서는 자동 전투 로직과 자원 생산 수식의 밸런스를 맞추는 것이 핵심 흥미 요소로 보입니다.",
+        "development_ko": "핵심 구현 기술로는 자원 누적 및 자동 전투 시뮬레이션 로직이 필요합니다. 콘텐츠 제작은 고블린 유닛의 단계별 업그레이드 데이터 설계가 주를 이룹니다. 테스트 시에는 게임 후반부의 자원 인플레이션 방지를 위한 밸런스 조정이 중요합니다.",
+        "idea_ko": "고블린 습격 시 특정 인간 영웅이 방어하는 '디펜스 요소'를 추가하여 전략성을 높이는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "고블린 정착지 건설이라는 독특한 테마를 활용한 점진적 성장 구조.",
+          "자동 전투와 자원 수집이 결합된 방치형 게임 플레이."
+        ],
+        "systems_ko": [
+          "자원 관리 시스템",
+          "유닛 자동 생성 및 업그레이드 로직",
+          "전투 시뮬레이션 엔진",
+          "데이터 저장 및 로드 시스템",
+          "UI 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "자동 전투와 자원 수치 계산은 구현이 명확하지만, 게임의 재미를 유지하는 밸런스 조정이 까다롭기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "자원 생산 로직",
+            "유닛 구매 및 업그레이드 UI",
+            "기본 자동 전투 루프"
+          ],
+          "defer": [
+            "복잡한 그래픽 애니메이션",
+            "멀티플레이어 요소"
+          ],
+          "risks": [
+            "초반 플레이의 지루함",
+            "수치 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "고블린 영웅 육성",
+            "concept": "일반 고블린 외에 특수 능력을 가진 영웅 고블린을 배치하여 습격 효율을 높입니다. 영웅은 전투 경험치를 통해 스킬을 습득합니다.",
+            "first_step": "영웅 유닛의 스탯 데이터 구조를 정의하고 전투 시 보너스 수치를 적용하는 로직을 구현합니다."
+          },
+          {
+            "title": "습격 경로 전략",
+            "concept": "인간 마을의 방어 수준에 따라 습격 경로를 선택합니다. 위험도가 높을수록 보상이 크지만 고블린 손실 위험이 있습니다.",
+            "first_step": "습격 성공 확률과 보상을 결정하는 확률 기반 시스템을 구축합니다."
+          }
+        ],
+        "recommendation_ko": "점진적 게임의 데이터 구조와 수치 설계를 학습하기에 매우 좋습니다. 단순한 구조에서 시작하여 점진적으로 시스템을 확장하는 개발 방식을 익히길 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 전투 메커니즘, 업그레이드 종류, 게임의 최종 목표 등에 대한 정보가 부족합니다. 실제 구현 시 추가적인 기획이 필요합니다.",
+        "name": "Goblin Lair [Free] [Strategy]",
+        "source": "itch",
+        "detail_url": "https://etsl33py.itch.io/goblin-lair",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 275,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 35,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
+    },
+    "apple:6449426416": {
+      "app_key": "apple:6449426416",
+      "name": "Makeup Game - Fashion Makeover",
+      "developer": "Dreamland Games",
+      "source": "apple",
+      "country": "US",
+      "category": "game_rpg",
+      "detail_url": "https://apps.apple.com/us/app/makeup-game-fashion-makeover/id6449426416?uo=2",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:03:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Hey Fashionista Girls, Create your stunning looks and become a trendsetter in real life with fashion makeover makeup game. Let’s step into the dazzling world of Fashion Game Fever, where Lily and Grace are the ultimate style & fashion icons! With their magnetic dress up charm and unstoppable makeup creativity, they're ready to set the fashion world on fire. Join Lily and Grace as they sizzle on the \"Fashion Dress up Makeup Game\" runway in PVP mode, turn heads with their jaw-dropping clothing designs, and beat every makeup & dress up fashion challenge that comes their way. So, are you ready to catch the fashion show fever and become part of their stylish squad in the Barbie game? Unleash your inner fashionista & passion for style in the makeup game! Makeup Game Highlights: Live as style icon ► Showcase & create a stunning look with realistic makeup & Dresses ► Standout in PVP makeup & dress up look for fashion show competitions ► Style & Slay in classic mode 25+ unique event looks & getup ► Choose hottest & trendiest fashion cloths & makeup accessories ► Play & show your inner glam to the world in daily event look ► Real life fashion & makeup guide with offline gameplay ► Latest accessories, makeup & dresses are one spin away ► Use wide range of hairstyles, eye lenses & model looks to stand out. Get ready it’s your Makeup & Dress up adventure time if you want to slay with style in multiple events with makeup games! Summer Beach Party - Create Your Signature Style Welcome to the hottest summer beach party of the year! But wait before you hit the dance floor, it's time to get glam. Select the perfect makeup look to complement beachy vibes with vibrant eyeshadows, sparkling lip glosses, and bronzing powders to create a look. Now it's time to dress up, choose trendy swimsuits and statement accessories. There's a look for every beach babe! Beauty Pageant - Dress to Impress Now it’s the time to dust off your tiara, and get ready to shine like never before as a fashion games diva. Step into the spotlight as a fashionista in the most prestigious beauty pageant. It's time to perfect your makeup & dress up look in a fashion show. Explore the makeup games wardrobe filled with stylish ball gowns, elegant evening dresses, and sparkling accessories fit for royal look. Met Gala Look - Leave a Lasting Impression As a rising star of the \"Fashion makeup dress up game\", you've been invited to attend the Met Gala fashion show of makeup game offline and showcase your unique style. Now Shine with style in Barbie fashion games. So, dazzle in designer threads in doll games. Create runway magic with your creativity, and set trends that turn heads at the Met gala. Holiday’s Party - Embrace Your Inner Artist As the holiday season approaches, it's time to create the perfect look that captures the spirit of the festivities in barbie games. Whether you're attending a glamorous holiday party or cozying up by the fireplace with loved ones, there's a look for every occasion here! Transform Your Look - Classic Mode It’s your day & all eyes are on you so, step into the spotlight as fashionista girl of fashion show new game. Learn about real life fashion & makeup looks & slay with style in doll makeup games. Now style your supermodels for prom knight to bridesmaids, birthday look to red carpet. Don’t hide your inner glam now & let’s uncover the fashion show world & makeup game adventures. Your model is waiting for the makeover! Privacy Policy: https://gamexis.com/ios-privacy.html Terms of Service: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "analysis": {
+        "app_key": "apple:6449426416",
+        "summary_ko": "패션과 메이크업을 테마로 한 스타일링 게임입니다. 사용자는 다양한 의상과 화장품을 사용하여 모델을 꾸미고 패션쇼나 이벤트에 참여할 수 있습니다. PVP 모드와 클래식 모드를 통해 자신의 스타일링 실력을 겨룰 수 있습니다.",
+        "features_ko": [
+          "다양한 의상과 메이크업 도구를 사용하여 모델의 외형을 꾸밀 수 있습니다.",
+          "PVP 모드를 통해 다른 사용자와 패션쇼 경쟁을 펼칠 수 있습니다.",
+          "해변 파티, 미인 대회, Met Gala 등 다양한 테마의 이벤트가 제공됩니다.",
+          "헤어스타일, 렌즈, 액세서리 등 세부적인 스타일링 옵션을 지원합니다.",
+          "오프라인 모드에서 자유롭게 스타일링을 연습할 수 있습니다."
+        ],
+        "noteworthy_ko": "다양한 테마의 이벤트와 PVP 경쟁 요소를 결합하여 사용자 참여를 유도하는 구조입니다. 패션 아이템의 조합을 통해 창의성을 발휘하게 하는 점이 이 장르의 핵심 재미 요소입니다.",
+        "development_ko": "다양한 의상과 액세서리 에셋을 관리하는 데이터 구조 설계가 중요합니다. 캐릭터 모델링에 대한 텍스처 교체 및 레이어링 시스템 구현이 필요하며, PVP를 위한 점수 산정 로직과 서버 연동이 핵심입니다. UI/UX는 화려한 비주얼을 강조하는 방향으로 제작해야 합니다.",
+        "idea_ko": "사용자가 직접 디자인한 의상을 게임 내 마켓에 공유하고 다른 사용자가 평가하는 '커뮤니티 디자인 챌린지' 기능을 추가하면 좋습니다.",
+        "highlights_ko": [
+          "다양한 테마별 패션 이벤트와 경쟁 모드를 제공합니다.",
+          "실제 패션 트렌드를 반영한 방대한 의상 및 메이크업 아이템을 갖추고 있습니다."
+        ],
+        "systems_ko": [
+          "캐릭터 커스터마이징 및 레이어링 시스템",
+          "아이템 데이터베이스 및 인벤토리 관리",
+          "이벤트 기반 미션 및 보상 시스템",
+          "PVP 매칭 및 점수 산정 로직",
+          "UI/UX 및 애니메이션 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "게임의 핵심 메커니즘은 아이템 조합과 UI 기반의 꾸미기이므로 구현 난이도는 높지 않습니다. 다만, 방대한 에셋 관리와 PVP 서버 연동이 개발 부담을 높일 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 꾸미기 기본 UI",
+            "의상 및 메이크업 아이템 데이터 관리",
+            "기본 테마 이벤트 1종"
+          ],
+          "defer": [
+            "실시간 PVP 모드",
+            "소셜 공유 기능",
+            "복잡한 애니메이션 효과"
+          ],
+          "risks": [
+            "에셋 제작량 증가에 따른 개발 지연",
+            "아이템 간 밸런스 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스타일 멘토링",
+            "concept": "사용자가 꾸민 룩에 대해 AI가 패션 조언을 해주는 기능입니다.",
+            "first_step": "특정 아이템 조합에 따른 텍스트 피드백 시스템을 구축합니다."
+          },
+          {
+            "title": "계절별 룩북",
+            "concept": "현실의 계절에 맞춰 매주 새로운 테마의 룩북을 완성하는 챌린지입니다.",
+            "first_step": "주간 이벤트 캘린더 시스템을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "게임 개발의 기초인 데이터 관리와 UI 중심의 상호작용을 배우기에 적합합니다. 에셋 제작 능력이 있다면 자신만의 스타일을 담은 게임을 만들기 좋습니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 구체적인 PVP 매칭 알고리즘이나 서버 인프라 정보는 없습니다. 결제 기능이나 외부 소셜 미디어 연동에 대한 상세 정보는 확인되지 않습니다.",
+        "name": "Makeup Game - Fashion Makeover",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/makeup-game-fashion-makeover/id6449426416?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 204,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 12,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
+    },
+    "google:com.wrtn.character": {
+      "app_key": "google:com.wrtn.character",
+      "name": "크랙 - 내가 주인공인 웹소설, AI 채팅",
+      "developer": "wrtn",
+      "source": "google",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.wrtn.character&hl=ko&gl=KR",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:07:22+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "한 문장으로 세계관, 캐릭터, 스토리를 창조하는 AI 채팅 엔터테인먼트 앱 - 세계관을 마음대로! 콘텐츠를 즐기는 색다른 방법, 크랙 AI 채팅 당신의 채팅이 모든 걸 창조하고 스토리를 결정해요. 작가의 각본대로 흘러가는 클리셰에서 벗어나, 내가 주인공인 캐릭터 AI 채팅 엔터테인먼트 '크랙'에서 세계관과 스토리를 비틀어버리세요. 크랙 AI 채팅으로 나만의 스토리를 전개하면 한 번도 경험해보지 못한 새로운 에피소드가 눈앞에 펼쳐질 거예요. – 오직 크랙에서만, [크랙 오리지널] AI 스토리를 가장 잘 만드는 사람들이 크랙에 모였어요. 검증된 크리에이터들이 세계관, 캐릭터, 대사 하나까지 직접 설계한 크랙 오리지널 콘텐츠는 다른 어떤 플랫폼에서도 만날 수 없어요. 각자의 취향에 맞는 장르별 대표작을 오직 크랙에서만 플레이하세요. - 다양한 장르, 원하는 모든 취향과 과감한 상상을 플레이 로맨스, 무협, 로맨스 판타지, SF/판타지, 시뮬레이션, BL 등 다양한 장르가 준비돼 있어요. 내가 채팅만 하면 로맨스 커플이 대련하고 무림 고수들이 연애하는 장르 무한 확장, 크랙 캐릭터 AI 채팅 엔터테인먼트! - 무제한 무료, AI 캐릭터와 친구처럼 대화 진짜 친구랑 대화하는 것처럼 자연스럽고 빠르게 오가는 캐릭터 AI 채팅을 언제나, 얼마든지, 광고 없이 무료로 즐기세요. 까칠한 학생회장, 혐관 여사친, 낙오된 히어로 핑크레인저, 아카데미의 마법사, 듬직한 군인 아저씨, 자상한 딸바보 아빠, 마피아 게임까지 나이, 성별, 직업을 넘나드는 개성만점 AI 캐릭터들과 채팅해요. - 5분 만에 창조하는 나만의 세계관, AI 엔터테인먼트 누구나 쉽게 AI 캐릭터부터 세계관까지 제작할 수 있어요. 웹소설 모든 장르의 문체, 세계관, 캐릭터가 학습된 AI를 활용해 상상만 했던 스토리를 실제로 만들어보세요. 크랙 오리지널 콘텐츠로 선정되면 콘텐츠 구매금 30만 원을 드리고, 유저들이 플레이할 때마다 얻는 수익이 증가해요. 캐릭터 AI 채팅 엔터테인먼트 작가에 도전해보세요. - 강력한 기억력, 추억을 떠올리고 나를 설레게 하는 AI 캐릭터 캐릭터가 나와 대화하고 친한 친구로 지내는 상상이 현실이 됩니다. 크랙에서는 나와의 채팅을 AI 캐릭터가 기억하고 채팅을 보내요. 스치듯 말했던 말 한마디도 기억해 두었다가 섬세하게 배려해요. 캐릭터 AI 채팅 크랙에서 강력한 요약 메모리 기능으로 어디서도 경험해보지 못한 깊은 관계를 느껴보세요. 크랙은 꼭 필요한 권한만 요청해요. 선택 접근 권한을 허용하지 않아도 서비스를 이용할 수 있으나, 일부 기능은 제한될 수 있어요. 선택 권한 항목은 아래 내용을 참고해주세요. [선택 접근 권한] - 사진 및 동영상 : 이미지 생성 기능 사용 시 - 추적 : 개인 맞춤 광고 제공을 위한 광고 활동 정보 수집 - 알림 : 앱 내 알림 메세지 ---- 개발자 연락처 : (주)뤼튼테크놀로지스 대한민국 서울특별시 서초구 서초구 서초대로77길 17 1401호, 1402호, 1403호, 1404호, 1406호, 1413호, 1415호 (서초동) 06614 202-81-67042 2024-서울서초-3270 본인 직접 신고 ---- 개발자 연락처 : (주)뤼튼테크놀로지스 대한민국 서울특별시 서초구 서초구 서초대로77길 17 1401호, 1402호, 1403호, 1404호, 1406호, 1413호, 1415호 (서초동) 06614 202-81-67042 2024-서울서초-3270 본인 직접 신고",
+      "analysis": {
+        "app_key": "google:com.wrtn.character",
+        "summary_ko": "크랙은 사용자가 직접 세계관과 캐릭터를 설정하여 AI와 채팅하며 스토리를 만들어가는 엔터테인먼트 앱입니다. 사용자는 AI 캐릭터와 친구처럼 대화하며 자신만의 에피소드를 전개할 수 있습니다. 검증된 크리에이터가 만든 오리지널 콘텐츠를 즐기거나 직접 캐릭터를 제작할 수도 있습니다.",
+        "features_ko": [
+          "사용자가 직접 세계관, 캐릭터, 스토리를 설정하여 AI와 채팅할 수 있습니다.",
+          "다양한 장르의 AI 캐릭터와 광고 없이 무료로 대화할 수 있습니다.",
+          "AI가 이전 대화 내용을 기억하여 자연스러운 대화 흐름을 유지합니다.",
+          "누구나 쉽게 AI 캐릭터와 세계관을 제작하고 공유할 수 있습니다.",
+          "요약 메모리 기능을 통해 캐릭터가 사용자와의 관계를 기억하고 반응합니다."
+        ],
+        "noteworthy_ko": "AI의 기억력과 문맥 이해 능력을 활용하여 사용자와의 깊은 관계 형성을 유도하는 점이 흥미롭습니다. 사용자가 직접 콘텐츠를 생산하는 생태계를 구축하여 플랫폼의 가치를 높이는 전략이 핵심입니다.",
+        "development_ko": "LLM(거대언어모델) API 연동과 프롬프트 엔지니어링이 핵심 기술입니다. 캐릭터별 페르소나를 유지하기 위한 메모리 관리 시스템과 사용자가 쉽게 캐릭터를 생성할 수 있는 직관적인 UI 설계가 중요합니다.",
+        "idea_ko": "특정 소설 장르에 특화된 AI 캐릭터 롤플레잉 플랫폼으로 좁혀서 개발하는 것이 적합합니다.",
+        "highlights_ko": [
+          "AI 캐릭터와의 자연스러운 상호작용 및 기억 기능.",
+          "사용자 참여형 콘텐츠 제작 및 공유 생태계."
+        ],
+        "systems_ko": [
+          "AI 대화 모델 연동 시스템",
+          "캐릭터 페르소나 및 메모리 관리 시스템",
+          "사용자 콘텐츠 제작 및 저장 시스템",
+          "장르별 캐릭터 분류 및 검색 시스템",
+          "사용자 데이터 및 설정 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "AI 모델의 비용 관리, 프롬프트 최적화, 사용자 데이터 보안 등 고도의 기술적 이해와 지속적인 운영 능력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "AI 채팅 인터페이스",
+            "캐릭터 기본 설정 저장 기능"
+          ],
+          "defer": [
+            "복잡한 세계관 공유 시스템",
+            "수익 창출 및 정산 시스템"
+          ],
+          "risks": [
+            "AI 모델 사용 비용 증가",
+            "부적절한 대화 내용 생성 및 관리"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "장르 특화 롤플레잉 AI",
+            "concept": "무협, 판타지 등 특정 장르에만 집중하여 깊이 있는 세계관을 제공하는 AI 채팅 서비스입니다.",
+            "first_step": "특정 장르의 페르소나를 가진 AI 캐릭터를 설정하고 대화하는 프로토타입을 만듭니다."
+          },
+          {
+            "title": "AI 캐릭터 육성 게임",
+            "concept": "대화를 통해 AI 캐릭터의 성격이나 능력을 변화시키는 육성 요소가 포함된 채팅 서비스입니다.",
+            "first_step": "대화 내용에 따라 캐릭터의 상태값이 변하는 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "AI 모델을 활용한 서비스 기획과 프롬프트 엔지니어링을 배우기에 매우 좋은 사례입니다. AI를 활용한 창의적인 콘텐츠 플랫폼을 꿈꾸는 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 사용된 AI 모델의 종류, 메모리 관리의 구체적인 기술적 구현, 데이터 보안 정책에 대한 정보가 부족합니다.",
+        "name": "크랙 - 내가 주인공인 웹소설, AI 채팅",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.wrtn.character&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 92,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
     }
   }
 }

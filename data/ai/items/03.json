@@ -14281,6 +14281,274 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-21"
+    },
+    "itch:2cb5796654362dd7e7f2": {
+      "app_key": "itch:2cb5796654362dd7e7f2",
+      "name": "Portal Mechanics Prototype [Free] [Puzzle]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://paubofi.itch.io/portal-mechanics-prototype",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:01:58+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A first-person puzzle prototype built in Unity, inspired by Valve's Portal: portals, momentum, physics cubes and lasers.",
+      "analysis": {
+        "app_key": "itch:2cb5796654362dd7e7f2",
+        "summary_ko": "Portal Mechanics Prototype은 Unity로 제작된 1인칭 퍼즐 프로토타입입니다. Valve의 Portal 시리즈에서 영감을 받아 포털, 관성, 물리 큐브, 레이저 기믹을 구현했습니다.",
+        "features_ko": [
+          "공간을 연결하는 포털 생성 및 이동 기능을 제공합니다.",
+          "물리 법칙을 이용한 관성 이동 시스템이 포함되어 있습니다.",
+          "상호작용 가능한 물리 큐브를 배치했습니다.",
+          "레이저를 반사하거나 차단하는 퍼즐 기믹이 있습니다."
+        ],
+        "noteworthy_ko": "1인칭 시점에서 포털을 통한 공간 이동을 구현하는 것은 기술적으로 매우 도전적인 과제입니다. 렌더 텍스처와 카메라 동기화 기술을 학습하기에 매우 흥미로운 사례입니다.",
+        "development_ko": "핵심 기술은 포털 렌더링을 위한 카메라 투영 및 렌더 텍스처 처리입니다. 물리 엔진을 활용한 관성 계산과 레이저 충돌 판정이 필요합니다. 테스트 시 포털 이동 중 발생하는 물리적 오류를 수정하는 것이 가장 큰 부담입니다.",
+        "idea_ko": "포털을 통해 물체를 이동시키는 것이 아니라, 포털을 통해 자신의 시점을 복제하여 다중 시점으로 퍼즐을 푸는 방식을 제안합니다.",
+        "highlights_ko": [
+          "Portal 시리즈의 핵심 메커니즘을 Unity로 재현했습니다.",
+          "물리 기반 퍼즐 요소가 결합된 1인칭 환경입니다."
+        ],
+        "systems_ko": [
+          "포털 렌더링 및 카메라 동기화",
+          "1인칭 캐릭터 컨트롤러",
+          "물리 기반 오브젝트 상호작용",
+          "레이저 및 충돌 판정 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "포털 렌더링은 수학적 이해와 엔진의 렌더링 파이프라인에 대한 깊은 지식이 필요하며, 물리 엔진과의 충돌 처리가 까다롭습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "포털 생성 및 시점 이동",
+            "기본 물리 큐브 상호작용",
+            "1인칭 이동 시스템"
+          ],
+          "defer": [
+            "복잡한 레이저 반사 시스템",
+            "다양한 퍼즐 레벨"
+          ],
+          "risks": [
+            "포털 이동 시 발생하는 멀미 및 물리적 버그"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "시점 교체 퍼즐",
+            "concept": "포털을 통과하는 대신, 포털을 통해 보이는 공간과 자신의 위치를 즉시 맞바꾸는 퍼즐입니다. 공간의 위치를 재배치하여 길을 만듭니다.",
+            "first_step": "두 지점의 위치와 회전값을 즉시 스왑하는 기능 구현."
+          },
+          {
+            "title": "중력 포털",
+            "concept": "포털을 통과할 때마다 중력의 방향이 바뀌는 퍼즐입니다. 벽이나 천장을 바닥처럼 활용하여 이동해야 합니다.",
+            "first_step": "캐릭터의 중력 벡터를 변경하는 스크립트 작성."
+          }
+        ],
+        "recommendation_ko": "고급 렌더링 기술과 물리 엔진 활용 능력을 키우고 싶은 개발자에게 강력 추천합니다. 기술적 난이도가 높지만 구현 시 성취감이 큽니다.",
+        "source_limitations_ko": "프로토타입이므로 실제 게임으로서의 완성도나 레벨 디자인의 깊이는 알 수 없습니다.",
+        "name": "Portal Mechanics Prototype [Free] [Puzzle]",
+        "source": "itch",
+        "detail_url": "https://paubofi.itch.io/portal-mechanics-prototype",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 371,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 3,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
+    },
+    "google:com.atomy.healthcare": {
+      "app_key": "google:com.atomy.healthcare",
+      "name": "Acare - 애터미에이케어",
+      "developer": "ATOMY CO., LTD",
+      "source": "google",
+      "country": "KR",
+      "category": "app_health_fitness",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.atomy.healthcare&hl=ko&gl=KR",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:04:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "건강하고 행복한 삶을 위한 웰니스 헬스케어 Acare - 애터미에이케어를 소개합니다. ⦿ 주요 서비스 1. 노화속도, 건강나이, 기대수명 예측 건강데이터(건강검진 등)를 활용하여 또래 대비 노화속도를 도출합니다. 도출된 노화속도를 기반으로 건강나이, 기대수명 예측을 제공합니다. 2.개인 맞춤형 제품/습관 추천 건강데이터 기반 개인 맞춤형 제품/습관을 추천합니다. 각 항목이 어떻게 추천되었는지 명확한 추천 사유를 제공합니다. 3. 더 건강한 삶을 위한 기능 챌린지 기능을 통해 주변 사람들과 함께 건강습관을 들여보세요. 커뮤니티 기능을 활용하여 나만의 고민을 털어놔보세요. ⦿ 안내사항 본 앱의 건강 분석 및 추천 서비스는 의료 행위가 아닙니다. 결과는 질병 진단, 치료 목적으로 사용할 수 없으며, 필요한 경우 반드시 병원에서 의사와 상담하시기 바랍니다. ⦿ 접근권한 안내 1. [필수권한] - 없음 2. [선택권한] - 알림 : 습관 수행, 건강정보 업데이트 알림 - 신체활동 : 사용자의 움직임 측정(걸음수) - 카메라 : 챌린지 인증샷 촬영 - 파일 : 챌린지 인증샷 업로드 선택 접근권한을 허용하지 않더라도 앱과 서비스를 이용할 수 있습니다. 다만, 선택적 접근권한을 거부하는 경우 일부 앱 기능 사용에 제한이 있을 수 있습니다. ---- 개발자 연락처 : 애터미(주) 대한민국 32543 충청남도 공주시 백제문화로 2148-21(웅진동) 1088188139 제2013-충남공주-0091호 본인 직접 신고",
+      "analysis": {
+        "app_key": "google:com.atomy.healthcare",
+        "summary_ko": "Acare는 건강검진 데이터를 기반으로 노화 속도와 건강 나이를 예측해 주는 웰니스 헬스케어 앱입니다. 개인 맞춤형 건강 습관과 제품을 추천하며, 챌린지 기능을 통해 사용자 간 소통을 지원합니다. 의료 진단 목적이 아닌 건강 관리 보조 도구로 설계되었습니다.",
+        "features_ko": [
+          "건강검진 데이터를 분석하여 노화 속도, 건강 나이, 기대 수명을 예측합니다.",
+          "분석 결과를 바탕으로 사용자에게 적합한 건강 습관과 제품을 추천합니다.",
+          "챌린지 기능을 통해 타인과 함께 건강한 습관을 형성할 수 있습니다.",
+          "커뮤니티 기능을 통해 건강 관련 고민을 공유할 수 있습니다."
+        ],
+        "noteworthy_ko": "의료 데이터 분석을 표방하지만, 법적 책임을 피하기 위해 의료 행위가 아님을 명시하는 것이 중요합니다. 개인화된 추천 알고리즘의 투명성을 위해 추천 사유를 제공하는 점이 사용자 신뢰 확보에 효과적입니다.",
+        "development_ko": "핵심 기술은 건강 데이터 분석 알고리즘과 사용자 맞춤형 추천 엔진입니다. 콘텐츠 제작 부담은 건강 정보 데이터베이스 구축에 있으며, 테스트는 데이터 입력 오류 방지와 개인정보 보안에 집중해야 합니다.",
+        "idea_ko": "사용자의 건강 데이터를 시각화하여 변화 과정을 그래프로 보여주는 대시보드 기능을 제안합니다.",
+        "highlights_ko": [
+          "데이터 기반의 명확한 추천 사유를 제공하여 서비스 신뢰도를 높였습니다.",
+          "챌린지 및 커뮤니티 기능을 통해 사용자의 지속적인 앱 사용을 유도합니다."
+        ],
+        "systems_ko": [
+          "건강 데이터 입력 및 관리 시스템",
+          "데이터 분석 및 예측 알고리즘",
+          "개인 맞춤형 추천 엔진",
+          "챌린지 및 커뮤니티 관리 시스템",
+          "알림 및 푸시 서비스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "개인 건강 데이터의 보안과 정확한 분석 알고리즘 구현은 높은 기술적 난이도를 요구합니다. 또한 의료 관련 법적 규제 준수가 필수적입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 건강 데이터 입력 폼",
+            "기본적인 건강 상태 분석 로직",
+            "습관 기록 및 챌린지 기능"
+          ],
+          "defer": [
+            "커뮤니티 기능",
+            "복잡한 제품 추천 알고리즘"
+          ],
+          "risks": [
+            "개인정보 유출 및 보안 사고",
+            "의료법 위반 가능성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "건강 습관 시각화 대시보드",
+            "concept": "사용자가 입력한 건강 습관을 직관적인 그래프로 보여줍니다. 목표 달성률을 시각화하여 성취감을 극대화합니다.",
+            "first_step": "사용자 습관 데이터를 입력받아 주간 달성률을 그래프로 출력하는 기능 구현."
+          },
+          {
+            "title": "건강 퀴즈 챌린지",
+            "concept": "매일 건강 관련 상식 퀴즈를 제공하여 지식을 쌓게 합니다. 퀴즈 정답률에 따라 보상을 제공합니다.",
+            "first_step": "간단한 퀴즈 DB를 구축하고 정답 여부를 판별하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 기반의 개인화 서비스 설계와 보안 관리를 배우기에 적합합니다. 다만, 의료 관련 앱은 법적 규제가 엄격하므로 신중한 접근이 필요합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 분석 알고리즘의 로직이나 데이터 보안 기술, 외부 의료 기관 연동 여부가 명시되어 있지 않습니다.",
+        "name": "Acare - 애터미에이케어",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.atomy.healthcare&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 171,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 23,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
+    },
+    "google:com.nv.gangster.simulator.mafia.world": {
+      "app_key": "google:com.nv.gangster.simulator.mafia.world",
+      "name": "Miami Gangster Sim Mafia 3D",
+      "developer": "Bisma Apps Hub",
+      "source": "google",
+      "country": "US",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.nv.gangster.simulator.mafia.world&hl=en&gl=US",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:05:31+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Rule the streets, crush rival gangs, and rise as the ultimate Miami Gangster. Step into a dangerous Miami Gangster Sim Mafia 3D where a huge open world is packed with nonstop city crime and ruthless mafia crime. This high-energy gangster game drops you into a Vegas city style criminal underworld where every move you make decides your rise or fall as a true city gangster. Begin your story as a small criminal in this gangster simulator and work your way up to become a powerful boss of the mafia City. Take on intense challenge missions, battle rival gangs, and capture important areas across the open world map. Each mission pushes you deeper into this grand gangster journey driven by real city crime action. How to Start Miami Gangster 3D? Start in the open world, explore freely, and take on missions that match your playstyle. Drive different vehicles, switch weapons during fights, and survive brutal mafia crime situations as police forces and enemy gangs respond to your actions. This gangster game rewards smart decisions, upgrades, and street domination in the heart of Vegas city. From small criminal to feared mafia boss, the open world is waiting. Enter the crime city and start your rise today. Fight through gang wars, eliminate enemy bosses, and expand your power across the mafia city. With complete open world freedom, story based challenge missions, and constant city crime, this grand gangster adventure lets you prove yourself as the ultimate Miami gangster and the most feared city gangster alive. Functionality Explore a massive Miami-style Open world city Drive fast cars, ride bikes, fly helicopters, and use heavy vehicles Use powerful weapons, upgrades, and enjoy intense shootouts Play story missions, gang battles, and criminal challenges Customize your character and vehicles your own way Plan smart heists using strategy and timing Escape police chases, fight rival gangs, and control territories Experience vehicle damage, drift control, and boost systems Discover hidden stunts, jumps, and secret challenge locations Download now and rule a Miami Gangster Sim Mafia 3D world filled with fast cars, action-packed missions, gang wars, police chases, smart heists, and complete city freedoms. 🔥",
+      "analysis": {
+        "app_key": "google:com.nv.gangster.simulator.mafia.world",
+        "summary_ko": "마이애미를 배경으로 한 오픈 월드 범죄 시뮬레이션 게임입니다. 플레이어는 작은 범죄자에서 시작하여 다양한 미션을 수행하며 마피아 보스로 성장하게 됩니다. 차량 운전, 총기 전투, 경찰 추격 등 도시 범죄 액션을 경험할 수 있습니다.",
+        "features_ko": [
+          "마이애미 스타일의 방대한 오픈 월드 도시를 자유롭게 탐험할 수 있습니다.",
+          "자동차, 오토바이, 헬리콥터 등 다양한 이동 수단을 운전할 수 있습니다.",
+          "다양한 총기를 사용하여 적대 조직과 전투를 벌일 수 있습니다.",
+          "스토리 기반의 미션과 범죄 챌린지를 수행하여 세력을 확장합니다.",
+          "차량 손상 시스템과 드리프트 제어 기능을 포함합니다."
+        ],
+        "noteworthy_ko": "오픈 월드 내에서 차량과 보행자 상호작용을 구현하는 것이 핵심입니다. 다양한 이동 수단과 전투 시스템을 결합하여 범죄 액션의 몰입감을 높이는 구조로 보입니다.",
+        "development_ko": "오픈 월드 맵 구성과 차량 물리 엔진 구현이 핵심 기술입니다. 다양한 미션 콘텐츠 제작에 많은 리소스가 소요될 것으로 보이며, AI 적대 세력의 행동 패턴과 밸런스 조정이 중요합니다.",
+        "idea_ko": "특정 구역을 점령하는 전략적 거점 쟁탈전 모드를 추가하여 단순 액션을 넘어선 경영 요소를 도입하는 것이 좋습니다.",
+        "highlights_ko": [
+          "다양한 육상 및 공중 이동 수단을 활용한 자유로운 이동 경험을 제공합니다.",
+          "캐릭터와 차량의 커스터마이징을 통해 자신만의 스타일을 연출할 수 있습니다."
+        ],
+        "systems_ko": [
+          "오픈 월드 맵 스트리밍 시스템",
+          "차량 물리 및 조작 시스템",
+          "NPC AI 및 적대 세력 전투 시스템",
+          "미션 진행 상태 관리 시스템",
+          "UI 및 인벤토리 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "오픈 월드 환경 구축과 차량 물리 엔진, AI 시스템을 1인이 모두 구현하기에는 기술적 난이도가 매우 높습니다. 방대한 콘텐츠 양으로 인해 개발 기간과 최적화 부담이 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 캐릭터 이동 및 카메라 제어",
+            "차량 운전 메커니즘",
+            "간단한 총기 사격 시스템"
+          ],
+          "defer": [
+            "헬리콥터 비행 시스템",
+            "복잡한 스토리 미션 트리",
+            "고급 차량 커스터마이징"
+          ],
+          "risks": [
+            "오픈 월드 최적화 문제",
+            "물리 엔진 충돌 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "범죄 구역 점령 전략",
+            "concept": "도시의 특정 구역을 점령하여 수익을 얻고, 이를 통해 무기를 업그레이드하는 경영 요소입니다.",
+            "first_step": "특정 영역에 진입하면 점령 상태가 변하는 트리거 시스템을 구현합니다."
+          },
+          {
+            "title": "시간 제한 탈출 챌린지",
+            "concept": "경찰의 추격을 피해 제한 시간 내에 특정 지점까지 도달하는 미션입니다.",
+            "first_step": "타이머 UI와 경찰 NPC의 추적 AI를 간단하게 구현합니다."
+          }
+        ],
+        "recommendation_ko": "오픈 월드 게임의 기초적인 시스템 구조를 학습하기에 적합합니다. 다만 1인 개발 시에는 범위를 대폭 축소하여 핵심 메커니즘 위주로 개발하는 것을 권장합니다.",
+        "source_limitations_ko": "소개문에는 멀티플레이어 지원 여부, 세이브 데이터 저장 방식, 구체적인 물리 엔진 종류가 명시되어 있지 않습니다. 결제 및 외부 서비스 연동 기능은 확인되지 않습니다.",
+        "name": "Miami Gangster Sim Mafia 3D",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.nv.gangster.simulator.mafia.world&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 162,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
     }
   }
 }

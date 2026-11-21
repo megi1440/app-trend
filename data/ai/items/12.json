@@ -13945,6 +13945,274 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-20"
+    },
+    "google:com.CircleGames.TidyRoom": {
+      "app_key": "google:com.CircleGames.TidyRoom",
+      "name": "Tidy Room!",
+      "developer": "Circle Games Teknoloji A.Ş.",
+      "source": "google",
+      "country": "US",
+      "category": "game_puzzle",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.CircleGames.TidyRoom&hl=ja&gl=JP",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:02:36+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A bedroom floor full of stray things. A kitchen counter lost under mugs. A study where nothing made it back to the shelf. Tidy Room! hands you the mess and a few baskets, and asks you to put it right. Each basket names what it wants. Hunt through the room, tap the right things, and watch the clutter disappear. Objects hide under other objects, so the fun is in the order: what do you pick up first? Play at your own pace. There is no countdown, just a room that looks better every time you find the thing a basket asked for. What you will do • Explore illustrated rooms, from quiet studies to busy kitchens • Fill baskets by finding the items they ask for • Dig through piles to reach what is hidden underneath • Plan your taps so the tray does not overflow • Clear one level and start the next One room at a time, until the house feels like home again.",
+      "analysis": {
+        "app_key": "google:com.CircleGames.TidyRoom",
+        "summary_ko": "Tidy Room!은 어질러진 방 안의 물건들을 찾아 지정된 바구니에 담아 정리하는 퍼즐 게임입니다. 사용자는 제한 시간 없이 여유롭게 방을 탐색하며 물건을 분류하고 공간을 깨끗하게 만듭니다. 물건 아래 숨겨진 아이템을 찾아내는 순서가 핵심적인 재미 요소입니다.",
+        "features_ko": [
+          "다양한 테마의 방을 탐색하며 흩어진 물건들을 찾습니다.",
+          "바구니가 요구하는 특정 아이템을 찾아내어 담습니다.",
+          "물건 아래 숨겨진 아이템을 찾기 위해 겹쳐진 물건들을 치웁니다.",
+          "바구니가 가득 차지 않도록 물건을 담는 순서를 계획합니다."
+        ],
+        "noteworthy_ko": "물건의 층위(Layer)를 활용한 퍼즐 구조가 흥미롭습니다. 단순히 아이템을 찾는 것을 넘어, 무엇을 먼저 치워야 할지 고민하게 만드는 순서 중심의 게임 디자인이 돋보입니다.",
+        "development_ko": "핵심 기술은 2D 스프라이트의 Z-index 관리와 터치 이벤트 처리입니다. 콘텐츠 제작은 방마다 배치할 오브젝트의 데이터 구조 설계가 중요하며, 밸런스는 아이템 배치 난이도 조절에 집중해야 합니다.",
+        "idea_ko": "물건을 정리하는 순서에 따라 방의 분위기가 바뀌는 '인테리어 변화' 요소를 추가하는 것이 가장 적합합니다.",
+        "highlights_ko": [
+          "제한 시간 없는 평화로운 게임 플레이 경험을 제공합니다.",
+          "일러스트로 구현된 다양한 공간을 탐색하는 시각적 즐거움이 있습니다."
+        ],
+        "systems_ko": [
+          "오브젝트 배치 및 레이어 관리 시스템",
+          "터치 입력 및 드래그 앤 드롭 시스템",
+          "바구니 아이템 요구 조건 검증 시스템",
+          "게임 상태 저장 및 진행도 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "복잡한 물리 엔진이나 실시간 반응이 필요 없으며, 정적인 오브젝트 관리 위주로 구현이 가능합니다. 1인 개발 시 데이터 구조만 잘 설계하면 충분히 완성할 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "오브젝트 배치 및 터치 선택 기능",
+            "바구니 아이템 요구 조건 시스템",
+            "기본적인 레벨 구성"
+          ],
+          "defer": [
+            "복잡한 애니메이션",
+            "다양한 테마의 방 확장"
+          ],
+          "risks": [
+            "오브젝트 간의 레이어 충돌 처리 문제",
+            "단조로워질 수 있는 게임 플레이 루프"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "시간 여행자의 방",
+            "concept": "같은 방을 과거와 미래 버전으로 정리합니다. 과거의 물건을 치워야 미래의 물건이 나타나는 타임라인 퍼즐입니다.",
+            "first_step": "두 개의 레이어를 겹쳐서 상위 레이어 제거 시 하위 레이어가 보이게 구현합니다."
+          },
+          {
+            "title": "정리 정돈의 달인",
+            "concept": "물건을 바구니에 담을 때 테트리스처럼 공간 효율을 고려해야 합니다. 바구니 크기에 맞춰 물건을 배치하는 퍼즐입니다.",
+            "first_step": "바구니 내부의 2D 그리드 시스템을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "UI/UX 기반의 퍼즐 게임을 만들고 싶은 개발자에게 추천합니다. 오브젝트 관리와 데이터 기반의 레벨 디자인을 배우기에 적합합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 데이터 저장 방식, 레벨 생성 알고리즘, 외부 에셋 사용 여부 등이 명시되어 있지 않습니다. 결제나 광고 기능에 대한 언급도 없습니다.",
+        "name": "Tidy Room!",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.CircleGames.TidyRoom&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 330,
+        "reasons": [
+          "multi_country",
+          "newly_seen"
+        ],
+        "best_rank": 20,
+        "countries": [
+          "JP",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
+    },
+    "google:com.pdfconverter.imagetopdf.editpdf.reader": {
+      "app_key": "google:com.pdfconverter.imagetopdf.editpdf.reader",
+      "name": "올인원 PDF 변환기 · PDF 뷰어 · PDF 편집기",
+      "developer": "HD Walls Inc.",
+      "source": "google",
+      "country": "KR",
+      "category": "app_productivity",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.pdfconverter.imagetopdf.editpdf.reader&hl=ko&gl=KR",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:04:02+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "🔄 PDF 변환기 – 손쉽게 다양한 파일을 PDF로 변환하기 PDF 변환기 는 올인원 pdf뷰어 및 pdf 편집기 앱으로, 파일을 변환하고 편집하며 관리할 수 있는 강력한 도구입니다. 사진을 jpg pdf 변환 하거나 텍스트를 pdf로 변환하고, pdf 변환 이미지 기능으로 문서를 처리할 때 이 앱 하나면 충분합니다. 또한 pdf 리더 기능을 통해 모든 pdf 파일 읽기도 가능합니다. 🔄 강력한 변환 도구: • 웹 페이지를 pdf로 변환 – 지원되는 웹페이지(가능한 경우)를 PDF로 저장하여 오프라인으로 열람할 수 있습니다. • 텍스트를 pdf로 – 일반 텍스트 파일을 쉽게 PDF로 변환 • 이미지를 pdf로 – 여러 이미지를 하나의 PDF로 병합 (이미지의 pdf 변환기) • PDF를 이미지로 – PDF 페이지를 고해상도 이미지(JPG, PNG)로 내보내기 (png를 pdf로 변환과 반대 기능 지원) 📄 PDF로 변환 앱 - 손쉬운 PDF 제작기 • 웹에서 PDF로 변환기 원하는 온라인 기사 및 지원되는 웹사이트(가능한 경우)를 깔끔하고 공유 가능한 PDF로 손쉽게 변환하세요. URL만 붙여 넣으면 앱의 PDF 제작기가 페이지를 PDF로 변환해 저장하고, 오프라인 열람을 지원합니다. • 텍스트를 PDF로 변환기 노트나 문서를 텍스트를 pdf로 바로 변환하세요. 문서를 구조화하여 저장하는 스마트 pdf 편집기 역할을 합니다. • 이미지의 pdf 변환기 PNG, JPG 파일을 선택해 사진을 pdf로 변환합니다. 영수증이나 사진, 스캔한 문서도 사진을 pdf로 스캔 하여 안전하게 보관하세요. 필요하다면 jpg에서 pdf로 변환 기능으로도 손쉽게 처리할 수 있습니다. 📄PDF 변환 이미지 PDF 페이지를 한 번에 고화질 이미지로 내보낼 수 있습니다. JPG, PNG 형식을 선택할 수 있으며, 변환 이미지를 pdf로 기능과 함께 사용하면 더욱 유용합니다. ⚙️ 고급 PDF 편집 및 문서 관리 • 스마트 pdf 편집기 PDF를 합치거나 나누는 pdf 병합 및 분할 기능 제공. • PDF 전자 서명 / PDF 서명 계약서, 양식 등에 바로 pdf 파일에 서명 할 수 있어 인쇄가 필요 없습니다. • PDF 검색 원하는 문서를 빠르게 찾아 열람할 수 있는 pdf 리더 기능 제공. • 문서 리더 PDF 파일 읽기와 더불어 Docx, XLSX, PPT, TXT 등 다양한 형식을 열람할 수 있는 강력한 pdf뷰어 앱입니다. 🛠 추가 기능: • PDF로 스캔 – 휴대폰 카메라로 촬영한 문서를 문서를 pdf로 스캔 하여 저장 • PDF 리더 & PDF 뷰어 – 가볍고 직관적인 pdf뷰어 인터페이스 제공 • 파일 공유 – 변환 후 간단하게 pdf를 공유 가능 • 워터마크 없이 안전하게 오프라인에서 사용 • 개인정보: 시스템 파일 선택기를 사용하며 백그라운드에서 저장소를 스캔하지 않습니다. ✅ 지원 포맷 (파일 변환기): 입력: Web URL, text, .jpg, .png, .pdf 출력: .pdf, .jpg, .png 📌 PDF 변환기 앱으로 할 수 있는 것: ✔️ 이미지, 텍스트, 웹페이지를 PDF로 변환 ✔️ jpg pdf 변환, 사진을 pdf로 변환기 ✔️ 병합, 편집, 뷰어, 공유 – 스마트폰에서 모든 기능을 지원 이제 pdf 파일 관리부터 변환, 서명까지 한 번에 해결하세요. PDF 변환기 는 당신의 올인원 pdf 편집기이자 pdf 리더 앱입니다.",
+      "analysis": {
+        "app_key": "google:com.pdfconverter.imagetopdf.editpdf.reader",
+        "summary_ko": "다양한 형식의 파일을 PDF로 변환하고 편집할 수 있는 올인원 도구입니다. 이미지, 텍스트, 웹페이지를 PDF로 변환하거나 PDF를 이미지로 내보낼 수 있습니다. PDF 병합, 분할, 서명 등 문서 관리 기능을 제공합니다.",
+        "features_ko": [
+          "이미지, 텍스트, 웹페이지를 PDF로 변환하는 기능을 제공합니다.",
+          "PDF 페이지를 고해상도 이미지로 내보낼 수 있습니다.",
+          "PDF 병합 및 분할 기능을 통해 문서를 편집할 수 있습니다.",
+          "PDF 파일에 직접 전자 서명을 추가할 수 있습니다.",
+          "다양한 문서 형식(Docx, XLSX, PPT 등)을 열람할 수 있는 뷰어를 포함합니다."
+        ],
+        "noteworthy_ko": "단순 변환을 넘어 편집과 서명까지 지원하는 올인원 문서 도구라는 점이 실용적입니다. 시스템 파일 선택기를 사용하여 개인정보를 보호하려는 접근 방식이 흥미롭습니다.",
+        "development_ko": "PDF 라이브러리 활용 능력이 핵심입니다. 다양한 파일 포맷을 처리하기 위한 파서 구현과 UI/UX 최적화가 중요합니다. 테스트 시 다양한 파일 형식에서의 변환 정확도와 서명 기능의 안정성을 검증해야 합니다.",
+        "idea_ko": "여러 장의 영수증을 촬영하면 자동으로 텍스트를 인식하여 합계 금액을 계산해주는 '영수증 자동 정리' 기능을 제안합니다.",
+        "highlights_ko": [
+          "변환, 편집, 뷰어 기능을 통합하여 문서 작업의 효율성을 높였습니다.",
+          "오프라인 환경에서도 워터마크 없이 안전하게 사용할 수 있습니다."
+        ],
+        "systems_ko": [
+          "파일 변환 엔진(PDF 변환)",
+          "문서 편집 및 병합 시스템",
+          "PDF 뷰어 및 렌더링 엔진",
+          "전자 서명 처리 모듈",
+          "파일 관리 및 공유 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기존 PDF 라이브러리를 활용하면 핵심 기능 구현은 가능하나, 다양한 파일 형식의 호환성을 유지하는 것이 까다롭습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "이미지 to PDF 변환",
+            "PDF 뷰어",
+            "파일 병합 기능"
+          ],
+          "defer": [
+            "웹페이지 변환",
+            "전자 서명 기능",
+            "다양한 문서 형식 지원"
+          ],
+          "risks": [
+            "파일 변환 시 레이아웃 깨짐",
+            "대용량 파일 처리 성능 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "영수증 자동 정리",
+            "concept": "영수증 사진을 찍으면 OCR로 금액을 추출하고 PDF로 저장할 때 자동으로 분류하여 정리합니다. 가계부 기능을 결합하여 효율적인 관리를 돕습니다.",
+            "first_step": "이미지에서 텍스트를 추출하는 OCR 라이브러리를 연동하여 금액을 인식하는 기능을 구현합니다."
+          },
+          {
+            "title": "문서 보안 마스킹",
+            "concept": "PDF 내의 특정 텍스트나 영역을 선택하여 검게 가리는 마스킹 기능을 제공합니다. 개인정보가 포함된 문서를 공유할 때 유용합니다.",
+            "first_step": "PDF 화면 위에서 드래그한 영역을 캡처하여 검은색 사각형으로 덮어쓰는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "파일 처리와 문서 라이브러리 활용을 배우고 싶은 개발자에게 추천합니다. 실용적인 유틸리티 앱을 개발하는 경험을 쌓기에 좋습니다.",
+        "source_limitations_ko": "사용된 PDF 변환 라이브러리, OCR 엔진, 보안 처리 방식에 대한 정보는 없습니다. 외부 클라우드 서비스 연동 여부는 명시되지 않았습니다.",
+        "name": "올인원 PDF 변환기 · PDF 뷰어 · PDF 편집기",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.pdfconverter.imagetopdf.editpdf.reader&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 180,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 20,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
+    },
+    "apple:1607260535": {
+      "app_key": "apple:1607260535",
+      "name": "Surplife",
+      "developer": "明长 周",
+      "source": "apple",
+      "country": "US",
+      "category": "app_lifestyle",
+      "detail_url": "https://apps.apple.com/us/app/surplife/id1607260535?uo=2",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:05:31+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Surplife — Smart Lighting for a Brighter Life Surplife makes it easy to control and personalize your smart LED lights, including compatible Bluetooth, Wi-Fi, and Matter-enabled devices. Create the perfect atmosphere with colorful lighting, creative effects, and smart features — all from your smartphone. Why Surplife? - Smart Lighting Control: Connect and control compatible lights, adjusting brightness, colors, and color temperature with ease. - AI Lighting Control: Discover creative lighting ideas and personalized effects with AI-powered features. - Lighting Effects & Scenes: Explore dynamic effects and create your own lighting scenes for every mood and occasion. - Music & Sound Sync: Sync your lights with music and sounds for an immersive lighting experience. - Group Control: Control multiple compatible lights together with ease. - Timers & Voice Control: Automate your lighting with schedules and enjoy convenient voice control through supported assistants, including Amazon Alexa, Google Assistant, Yandex Alice, and Homey. Light up your life with Surplife — smarter lighting, more colorful moments.",
+      "analysis": {
+        "app_key": "apple:1607260535",
+        "summary_ko": "스마트 조명을 제어하고 개인화할 수 있는 라이프스타일 앱입니다. 블루투스, Wi-Fi, Matter 표준을 지원하는 기기와 연동하여 조명의 밝기, 색상, 효과를 조절합니다.",
+        "features_ko": [
+          "스마트 조명의 밝기, 색상, 색온도를 원격으로 제어합니다.",
+          "음악 및 소리와 조명을 동기화하여 몰입형 환경을 조성합니다.",
+          "여러 조명 기기를 그룹으로 묶어 동시에 제어할 수 있습니다.",
+          "일정 예약 및 음성 인식 비서와 연동하여 자동화 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "다양한 통신 표준(Matter 등)을 통합 관리하는 것이 기술적으로 흥미롭습니다. 사용자 경험 측면에서 조명 효과와 음악의 동기화가 핵심적인 차별점입니다.",
+        "development_ko": "IoT 기기와의 통신 프로토콜 구현이 핵심입니다. 다양한 제조사의 기기를 지원하기 위한 호환성 테스트와 안정적인 네트워크 연결 유지가 중요합니다.",
+        "idea_ko": "사용자의 수면 패턴이나 일과에 맞춰 조명 색상을 자동으로 변경해주는 스마트 루틴 기능을 강화하는 것이 좋습니다.",
+        "highlights_ko": [
+          "다양한 스마트 홈 플랫폼(Alexa, Google Assistant 등)과의 폭넓은 호환성을 제공합니다.",
+          "사용자 정의 조명 장면을 생성하여 상황에 맞는 분위기를 연출할 수 있습니다."
+        ],
+        "systems_ko": [
+          "IoT 기기 통신 인터페이스",
+          "사용자 설정 데이터 관리 시스템",
+          "음악 분석 및 조명 동기화 엔진",
+          "스케줄링 및 자동화 로직"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 하드웨어 프로토콜을 연동하고 안정적인 통신을 유지하는 것은 높은 수준의 네트워크 프로그래밍 지식을 요구합니다. 기기 호환성 테스트에 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "단일 기기 연결 및 제어 기능",
+            "밝기 및 색상 조절 UI"
+          ],
+          "defer": [
+            "음악 동기화 기능",
+            "다양한 외부 음성 비서 연동"
+          ],
+          "risks": [
+            "하드웨어 연결 불안정성",
+            "보안 취약점 관리"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "감정 기반 조명 추천",
+            "concept": "사용자가 현재 기분을 선택하면 그에 맞는 조명 색상과 효과를 자동으로 추천합니다.",
+            "first_step": "기분별 색상 프리셋 데이터를 정의하고 적용하는 기능을 구현합니다."
+          },
+          {
+            "title": "집중력 향상 타이머",
+            "concept": "뽀모도로 타이머와 연동하여 집중 시간과 휴식 시간에 따라 조명 색상을 변경합니다.",
+            "first_step": "타이머 로직과 조명 제어 API를 연동합니다."
+          }
+        ],
+        "recommendation_ko": "IoT 기기 제어 및 네트워크 통신 기술을 배우기에 좋습니다. 다만 하드웨어 의존도가 높으므로 개발 환경 구축에 주의가 필요합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 통신 보안 방식이나 데이터 암호화 수준이 명시되어 있지 않습니다. 실제 지원하는 기기 목록은 앱 내부 확인이 필요합니다.",
+        "name": "Surplife",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/surplife/id1607260535?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
     }
   }
 }

@@ -15899,6 +15899,98 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-21"
+    },
+    "google:com.hp.fidget.clicker.finger3d.toy": {
+      "app_key": "google:com.hp.fidget.clicker.finger3d.toy",
+      "name": "Fidget Clicker: Finger 3D Toy",
+      "developer": "HIGAME LTD.",
+      "source": "google",
+      "country": "US",
+      "category": "game_casual",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.hp.fidget.clicker.finger3d.toy&hl=ko&gl=KR",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:02:18+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Welcome to a fun and creative world where you can design and customize your very own fidget clicker keychains! Feature of the game: - Choose from a variety of keyboards, colorful keycaps, beads, charms, and fun accessories. - Mix and match different colors, styles, and patterns to create your perfect design. - Personalize every key with unique details and adorable decorations. - Complete customer orders, show off your creations, livestream, and collect exciting rewards. - Immerse yourself in relaxing ASMR sounds, from clicking and tapping to unboxing and crafting. Step into your own creative studio, let your imagination run wild, and craft your own fidget clicker keychains. Download now!",
+      "analysis": {
+        "app_key": "google:com.hp.fidget.clicker.finger3d.toy",
+        "summary_ko": "나만의 피젯 클릭커 키체인을 디자인하고 커스터마이징하는 창의적인 게임입니다. 다양한 키캡, 비즈, 장식품을 조합하여 키체인을 만들고 고객 주문을 완료하며 보상을 얻습니다. ASMR 사운드를 통해 제작 과정의 즐거움을 제공합니다.",
+        "features_ko": [
+          "다양한 키보드, 키캡, 비즈, 장식품을 선택하여 키체인을 디자인합니다.",
+          "색상, 스타일, 패턴을 조합하여 나만의 독특한 디자인을 완성합니다.",
+          "고객의 주문을 받아 제작하고 보상을 수집합니다.",
+          "클릭, 탭, 언박싱 등 제작 과정에서 ASMR 사운드를 제공합니다.",
+          "완성된 작품을 라이브 스트리밍하여 전시할 수 있습니다."
+        ],
+        "noteworthy_ko": "커스터마이징과 ASMR 요소를 결합하여 시각적, 청각적 만족감을 동시에 제공하는 점이 흥미롭습니다. 단순한 제작 게임에 소셜 요소(라이브 스트리밍)를 더해 몰입감을 높였습니다.",
+        "development_ko": "다양한 파츠의 조합을 처리하는 데이터 구조와 3D 모델링 렌더링이 핵심입니다. ASMR 사운드 트리거 시스템과 고객 주문 생성 로직이 필요하며, UI/UX 디자인이 게임의 완성도를 결정합니다.",
+        "idea_ko": "사용자가 만든 키체인을 가상 공간에 전시하고 다른 사용자와 공유하는 갤러리 모드 추가가 적합합니다.",
+        "highlights_ko": [
+          "다양한 파츠 조합을 통한 높은 자유도의 커스터마이징.",
+          "제작 과정의 청각적 만족감을 극대화하는 ASMR 사운드."
+        ],
+        "systems_ko": [
+          "파츠 조합 및 렌더링 시스템",
+          "고객 주문 생성 및 보상 시스템",
+          "ASMR 사운드 트리거 시스템",
+          "UI 커스터마이징 인터페이스",
+          "데이터 저장 및 불러오기"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "복잡한 물리 엔진은 필요 없으나, 다양한 파츠의 조합을 관리하는 데이터 구조와 깔끔한 UI 구현이 중요합니다. 1인 개발자가 충분히 도전할 수 있는 규모입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "파츠 선택 및 배치 UI",
+            "키체인 조합 저장 기능",
+            "기본 주문 시스템"
+          ],
+          "defer": [
+            "라이브 스트리밍 기능",
+            "복잡한 소셜 공유 기능"
+          ],
+          "risks": [
+            "파츠 조합의 다양성 부족",
+            "UI 복잡도로 인한 사용자 경험 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "키체인 갤러리 전시",
+            "concept": "사용자가 만든 키체인을 가상 쇼케이스에 전시하고 다른 사람의 작품을 구경하는 모드입니다.",
+            "first_step": "제작한 키체인 데이터를 이미지로 저장하는 기능 구현."
+          },
+          {
+            "title": "테마별 제작 챌린지",
+            "concept": "특정 테마(예: 우주, 바다)에 맞춰 제한된 파츠로 키체인을 만드는 챌린지 모드입니다.",
+            "first_step": "파츠 제한 로직 및 테마 데이터 관리 구현."
+          }
+        ],
+        "recommendation_ko": "UI 중심의 게임 개발과 데이터 기반의 커스터마이징 시스템을 배우기에 좋습니다. 사용자의 창의성을 자극하는 게임 디자인을 연습하기에 적합합니다.",
+        "source_limitations_ko": "소개문에는 라이브 스트리밍의 구체적인 구현 방식이나 외부 서비스 연동 여부가 명시되지 않았습니다. 실제 결제 기능이나 보안 관련 내용은 확인되지 않습니다.",
+        "name": "Fidget Clicker: Finger 3D Toy",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.hp.fidget.clicker.finger3d.toy&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 333,
+        "reasons": [
+          "multi_country",
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "KR",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
     }
   }
 }

@@ -13855,6 +13855,185 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-21"
+    },
+    "itch:2178d8569572f8cfaaf6": {
+      "app_key": "itch:2178d8569572f8cfaaf6",
+      "name": "The Matrix: Sentinel [FAN GAME] [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://gtclabs.itch.io/matrix-sentinel",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:02:18+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Pilot a Sentinel through the ruins of San Francisco. Grab survivors back to the hive too power the next attack.",
+      "analysis": {
+        "app_key": "itch:2178d8569572f8cfaaf6",
+        "summary_ko": "영화 매트릭스의 센티넬을 조종하여 폐허가 된 샌프란시스코에서 생존자를 수집하는 액션 게임입니다. 수집한 생존자를 하이브로 복귀시켜 다음 공격을 준비하는 것이 목표입니다.",
+        "features_ko": [
+          "센티넬 기체를 조종하여 샌프란시스코 폐허를 탐색합니다.",
+          "생존자를 포획하여 하이브로 운반하는 미션을 수행합니다.",
+          "수집한 자원을 활용하여 다음 공격을 준비합니다."
+        ],
+        "noteworthy_ko": "팬 게임으로서 특정 세계관을 활용한 점이 흥미롭습니다. 생존자 수집이라는 단순한 루프를 통해 게임의 핵심 재미를 구현한 것으로 보입니다.",
+        "development_ko": "센티넬의 비행 물리 구현과 샌프란시스코 폐허 환경 제작이 핵심입니다. 생존자 AI의 이동 및 상호작용 로직이 필요하며, 전체적인 게임 루프의 밸런스 조정이 중요합니다.",
+        "idea_ko": "생존자를 수집할 때마다 센티넬의 능력이 강화되는 성장 요소를 추가하는 것이 적합합니다.",
+        "highlights_ko": [
+          "매트릭스 세계관을 활용한 독특한 센티넬 조종 경험.",
+          "생존자 수집과 하이브 복귀라는 명확한 게임 루프."
+        ],
+        "systems_ko": [
+          "비행 및 이동 물리 시스템",
+          "생존자 AI 및 수집 로직",
+          "게임 상태 관리(공격 준비 단계)",
+          "환경 렌더링 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "비행 메커니즘과 간단한 수집 루프는 1인 개발로 구현 가능한 수준입니다. 다만, 매트릭스 세계관의 분위기를 살리는 환경 디자인에 시간이 소요될 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "센티넬 비행 조작",
+            "생존자 수집 및 운반 로직",
+            "기본 맵 환경"
+          ],
+          "defer": [
+            "복잡한 공격 준비 시스템",
+            "다양한 생존자 유형"
+          ],
+          "risks": [
+            "비행 조작감의 어색함",
+            "저작권 관련 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "센티넬 진화 시스템",
+            "concept": "생존자를 많이 수집할수록 센티넬의 속도나 포획 범위가 업그레이드됩니다. 성장을 통해 더 먼 지역을 탐색할 수 있습니다.",
+            "first_step": "수집 카운트에 따른 속도 변수 변경 구현."
+          },
+          {
+            "title": "생존자 구출 방해 요소",
+            "concept": "생존자를 구출하는 동안 방해하는 저항군 유닛을 추가합니다. 센티넬의 공격 기능을 활용한 전투가 필요합니다.",
+            "first_step": "간단한 적 AI와 공격 판정 구현."
+          }
+        ],
+        "recommendation_ko": "특정 세계관을 기반으로 한 액션 게임의 핵심 루프를 설계하는 법을 배우기에 좋습니다. 팬 게임 제작 시 저작권 관련 주의가 필요합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 조작 방식, 게임의 승패 조건, 기술적 구현 상세는 확인되지 않습니다.",
+        "name": "The Matrix: Sentinel [FAN GAME] [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://gtclabs.itch.io/matrix-sentinel",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 341,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 13,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
+    },
+    "google:com.ifit.atlasapp": {
+      "app_key": "google:com.ifit.atlasapp",
+      "name": "iFIT Personal Trainer",
+      "developer": "iFit",
+      "source": "google",
+      "country": "US",
+      "category": "app_health_fitness",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.ifit.atlasapp&hl=en&gl=US",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:05:53+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Your workout should fit your life, not the other way around. iFIT Personal Trainer puts an AI personal trainer in your pocket. Whether you have 20 minutes at home or an hour at the gym, iFIT Tailor, your AI fitness coach, creates personalized workouts and a weekly workout plan built around your goals, fitness level, schedule, health data, and progress. As your needs change, your plan adapts with you. Dive into strength training, HIIT workouts, cardio, Pilates, yoga and more. Whether you want to build muscle, tone your abs, or train for a 5K, Tailor is with you 24/7, adjusting your plan, cheering you on, and helping you unlock your best results. No equipment required. No experience necessary. Tailor is a beginner-friendly online personal trainer that delivers personalized, easy-to-follow, habit-forming fitness plans and workouts built around you. Because the best workout is the one you actually do. Brought to you by iFIT, a leader in immersive fitness experiences. Whether you want to build strength, improve endurance, boost mobility, or simply move more, iFIT Tailor removes the guesswork and delivers a daily fitness plan you can follow. KEY FEATURES WORKOUTS FOR EVERY GOAL: From full body workouts, dumbbell workouts, and strength training to cardio, cycling, Pilates, bodyweight, yoga, meditation, cross-training and more, Tailor creates custom workouts that match your goals, fitness level, and preferences. YOUR AI WORKOUT PLANNER: Tailor builds your plan around your goals, fitness level, schedule, location and available time, then adapts it based on your workout history, sleep, and resting heart rate. It works like a workout generator that keeps learning from you. EASY-TO-FOLLOW GUIDANCE: Follow step-by-step video demonstrations and voice coaching to learn proper form and move with confidence. Every workout is backed by iFIT’s 50+ years of fitness expertise. BUILT TO STICK: Tailor learns what motivates you and helps you follow through. Choose Tailor’s voice and adjust how you like to be coached. Track your achievements in the app and unlock streaks. WORKOUT ANYWHERE: Whether you’re at home, in the hotel gym, or on a nature trail, Tailor adapts your daily workout to the day ahead. Every plan is purpose-built for the equipment and time you have available, from a full home gym to a no equipment workout POWERED BY YOUR DATA: Connect apps like Apple Health and MyFitnessPal to help Tailor understand your activity, sleep, and recovery, then personalize your workouts in real time based on how your body is doing. TRAIN WITH THE BEST: Stay motivated with workouts led by 180 world-class iFIT trainers, professional athletes, and fitness experts pushing you forward. UNLOCK YOUR GOALS: Reach your fitness goals with multi-week training programs, whether you’re building muscle and strength, training for a 5K, or preparing for a marathon. Free iFIT accounts include 2 workouts per month with limited plan edits. Upgrade to an iFIT Membership for unlimited workouts, plan edits, and access to membership-only programs. SUBSCRIPTION OPTIONS iFIT Tailor+: $19.99/month. Enjoy unlimited workouts and plan edits, plus exclusive membership-only programs. iFIT Train: Existing iFIT Train members get unlimited workouts and plan edits, plus access to membership-only programs in the iFIT Personal Trainer app at no additional cost. iFIT Pro: Existing iFIT Pro members get unlimited workouts and plan edits, plus access to membership-only programs in the iFIT Personal Trainer app at no additional cost. Subscriptions automatically renew unless canceled before the end of the billing period. Manage your subscription in your account settings. Membership auto-renews unless canceled in advance. Free iFIT account and agreement to terms required to use mobile application. Free iFIT account and agreement to terms required to use mobile application. Terms of Use: https://www.ifit.com/legal/terms Privacy Policy: https://www.ifit.com/privacy-policy",
+      "analysis": {
+        "app_key": "google:com.ifit.atlasapp",
+        "summary_ko": "AI 개인 트레이너 'Tailor'가 사용자의 목표, 체력 수준, 일정에 맞춰 맞춤형 운동 계획을 생성하는 피트니스 앱입니다. 근력 운동, HIIT, 요가 등 다양한 운동 프로그램을 제공하며 사용자의 데이터에 따라 계획이 실시간으로 조정됩니다. 장비 없이도 집이나 헬스장에서 쉽게 따라 할 수 있는 가이드를 제공합니다.",
+        "features_ko": [
+          "사용자의 목표와 체력에 맞춘 개인화된 주간 운동 계획을 생성합니다.",
+          "근력, 유산소, 요가 등 다양한 운동 카테고리를 지원합니다.",
+          "운동 기록, 수면, 심박수 데이터를 분석하여 계획을 실시간으로 조정합니다.",
+          "영상 가이드와 음성 코칭을 통해 올바른 자세를 안내합니다.",
+          "Apple Health 및 MyFitnessPal과 같은 외부 앱과 데이터를 연동합니다."
+        ],
+        "noteworthy_ko": "사용자의 데이터를 지속적으로 학습하여 계획을 수정하는 AI 모델의 역할이 핵심입니다. 단순한 운동 영상 제공을 넘어, 사용자의 피드백과 신체 데이터를 반영하는 적응형 시스템은 개발 관점에서 매우 고도화된 설계가 필요합니다.",
+        "development_ko": "핵심 기술은 사용자 데이터 분석을 위한 알고리즘과 운동 계획 생성 엔진입니다. 영상 콘텐츠 제작 부담이 매우 크며, 외부 앱 연동을 위한 API 통합이 필요합니다. 사용자 데이터 보안과 정확한 피드백 제공을 위한 밸런스 조정이 중요합니다.",
+        "idea_ko": "사용자의 운동 수행 능력을 실시간으로 측정하여, 운동 중 난이도를 자동으로 조절해 주는 '실시간 난이도 조정' 기능을 제안합니다.",
+        "highlights_ko": [
+          "AI 기반의 개인 맞춤형 운동 계획 생성 및 실시간 조정.",
+          "다양한 외부 데이터 연동을 통한 종합적인 건강 관리 지원."
+        ],
+        "systems_ko": [
+          "사용자 데이터 분석 및 AI 모델",
+          "운동 계획 생성 엔진",
+          "외부 앱 데이터 연동 API",
+          "영상 스트리밍 및 재생 시스템",
+          "사용자 기록 추적 및 대시보드"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "AI 기반의 개인화 로직과 대규모 영상 콘텐츠 관리, 외부 데이터 연동 등 복합적인 기술이 요구됩니다. 1인 개발로 전체 기능을 구현하는 것은 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 운동 계획 생성 로직",
+            "운동 영상 재생 기능",
+            "사용자 운동 기록 저장"
+          ],
+          "defer": [
+            "AI 실시간 계획 조정",
+            "외부 앱 연동",
+            "다양한 전문가 코칭 영상"
+          ],
+          "risks": [
+            "운동 계획 알고리즘의 정확성 부족",
+            "콘텐츠 제작 및 유지보수 비용"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "운동 루틴 공유",
+            "concept": "사용자가 직접 만든 운동 루틴을 커뮤니티에 공유하고 다른 사용자의 루틴을 가져올 수 있는 기능입니다.",
+            "first_step": "운동 루틴 데이터를 JSON 형태로 내보내고 불러오는 기능을 구현합니다."
+          },
+          {
+            "title": "운동 목표 달성 배지",
+            "concept": "특정 운동 횟수나 연속 달성 시 배지를 부여하여 동기를 부여하는 게이미피케이션 요소입니다.",
+            "first_step": "운동 기록을 기반으로 특정 조건을 만족했는지 확인하는 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "데이터 기반의 개인화 서비스 설계와 건강 관리 앱의 구조를 배우고 싶은 개발자에게 추천합니다. 다만, 콘텐츠 제작 부담이 크므로 MVP 범위를 좁게 설정해야 합니다.",
+        "source_limitations_ko": "소개문에는 AI 모델의 구체적인 학습 방식이나 데이터 처리 알고리즘에 대한 정보가 없습니다. 외부 앱 연동 시의 데이터 보안 정책이나 결제 시스템의 상세 구현은 확인되지 않았습니다.",
+        "name": "iFIT Personal Trainer",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.ifit.atlasapp&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
     }
   }
 }

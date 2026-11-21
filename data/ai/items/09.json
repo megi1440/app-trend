@@ -12975,6 +12975,369 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-20"
+    },
+    "google:com.grand.launcher": {
+      "app_key": "google:com.grand.launcher",
+      "name": "Grand Mobile: RP Open World",
+      "developer": "Dynamic Technologies TOO",
+      "source": "google",
+      "country": "US",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.grand.launcher&hl=en&gl=US",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:04:02+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Welcome to Grand Mobile — a massive online RP game with an open world inspired by the atmosphere of gta like city and modern life in Eastern Europe. Here, you start your journey from scratch and decide who you want to become: a law-abiding citizen, a successful businessman, or a dangerous crime boss. Grand Mobile is a true life simulator where players interact with each other in multiplayer mode. Communicate, roleplay, and immerse yourself in the RP experience! Take part in city life and create your own story in a living online world. The game features dozens of different cars for every taste — from budget vehicles to elite supercars. A realistic driving simulator lets you feel what it’s like to sit behind the wheel of your dream car. Street races await you, where skill, tuning, and reputation matter most. The criminal side of the city never sleeps. Gangsters, factions, and the mafia fight for influence. Complete dangerous missions, participate in gang wars, and rise through the ranks of the criminal underworld. Every choice affects your destiny and how other players see you. For players who prefer the legal path, dozens of jobs and career opportunities are available. Work, earn money, open businesses, and help develop the city infrastructure. This is a full-fledged online simulator where the economy and society are shaped by the players themselves. Grand Mobile combines freedom of action, deep rp mechanics, live communication, and a dynamic open world. It’s more than just a game — it’s a virtual life where you can become anyone: a racer, businessman, criminal, or an ordinary citizen of a huge metropolis. Join Grand Mobile right now and dive into the atmosphere of gta city in a Russian setting, where online gameplay, cars, people, and stories come together in one huge world. Our Facebook page https://www.facebook.com/profile.php?id=61564606185542 If you have any questions or issues — we are always ready to help https://support.grnd.gg/ru/ Privacy Policy https://grnd.gg/cis-privacy-policy.pdf User Agreement https://grnd.gg/cis-user-agreement.pdf",
+      "analysis": {
+        "app_key": "google:com.grand.launcher",
+        "summary_ko": "동유럽 배경의 오픈 월드에서 진행되는 멀티플레이어 역할극(RP) 게임입니다. 플레이어는 범죄자, 사업가, 시민 등 다양한 역할을 선택하여 가상 세계에서 삶을 살아갑니다. 경제 활동, 차량 운전, 갱단 활동 등 자유도 높은 온라인 경험을 제공합니다.",
+        "features_ko": [
+          "다양한 직업과 역할을 선택하여 역할극을 수행할 수 있습니다.",
+          "현실적인 차량 운전 시뮬레이션과 튜닝 기능을 제공합니다.",
+          "갱단 및 마피아 활동을 통한 범죄 조직 간의 경쟁이 가능합니다.",
+          "플레이어 간의 상호작용을 통해 경제와 도시 인프라가 형성됩니다.",
+          "다양한 미션과 퀘스트를 통해 캐릭터를 성장시킬 수 있습니다."
+        ],
+        "noteworthy_ko": "플레이어들이 직접 경제와 사회를 형성하는 오픈 월드 RP 시스템이 핵심입니다. 대규모 멀티플레이어 환경에서 각자의 역할을 수행하며 이야기를 만들어가는 구조가 매우 흥미롭습니다.",
+        "development_ko": "서버-클라이언트 간의 동기화가 가장 큰 기술적 난제입니다. 방대한 오픈 월드 콘텐츠 제작과 플레이어 간 상호작용 밸런스 조절에 막대한 리소스가 필요하며, 지속적인 서버 운영과 보안 관리가 필수적입니다.",
+        "idea_ko": "플레이어들이 직접 도시의 법률이나 규칙을 투표로 정하는 '시민 자치 시스템'을 도입하는 것을 제안합니다.",
+        "highlights_ko": [
+          "자유도 높은 오픈 월드에서 타인과 상호작용하는 몰입형 경험을 제공합니다.",
+          "범죄와 합법적인 직업 사이의 선택을 통해 다양한 서사를 생성합니다."
+        ],
+        "systems_ko": [
+          "멀티플레이어 서버 동기화 시스템",
+          "오픈 월드 맵 및 객체 관리",
+          "캐릭터 커스터마이징 및 상태 관리",
+          "경제 시스템 및 아이템 거래",
+          "차량 물리 엔진 및 조작 시스템",
+          "채팅 및 소셜 상호작용 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "멀티플레이어 오픈 월드 게임은 서버 인프라, 데이터 동기화, 보안 등 1인이 감당하기에 매우 방대한 기술적 요구사항을 가집니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 캐릭터 이동 및 상호작용",
+            "멀티플레이어 서버 연결",
+            "간단한 채팅 시스템"
+          ],
+          "defer": [
+            "복잡한 경제 시스템",
+            "차량 튜닝 및 상세 물리 엔진",
+            "대규모 갱단 전쟁 시스템"
+          ],
+          "risks": [
+            "서버 비용 및 운영 부담",
+            "플레이어 간 데이터 동기화 오류",
+            "부정 행위(핵) 방지"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "시민 자치 시스템",
+            "concept": "플레이어들이 도시의 규칙을 투표로 정하고, 이를 위반하는 플레이어를 제재할 수 있는 시스템입니다. 커뮤니티의 자정 작용을 유도합니다.",
+            "first_step": "투표 기능을 구현하고 투표 결과에 따라 게임 내 설정이 변경되는 로직을 만듭니다."
+          },
+          {
+            "title": "배달 퀘스트 체인",
+            "concept": "도시 내에서 물건을 배달하는 단순한 퀘스트를 넘어, 배달 중 발생하는 돌발 상황을 해결하는 미니 게임을 결합합니다.",
+            "first_step": "특정 지점에서 물건을 획득하여 목적지로 이동하는 기본 퀘스트를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "멀티플레이어 게임의 구조와 서버 통신을 배우고 싶은 개발자에게 추천합니다. 다만, 실제 서비스 수준의 구현은 매우 어려우므로 작은 규모의 프로토타입부터 시작하는 것이 좋습니다.",
+        "source_limitations_ko": "서버 아키텍처, 데이터베이스 구조, 부정 행위 방지 기술 등 내부 구현 정보는 전혀 확인되지 않았습니다. 실제 게임의 물리 엔진이나 그래픽 라이브러리에 대한 정보도 없습니다.",
+        "name": "Grand Mobile: RP Open World",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.grand.launcher&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 180,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 20,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
+    },
+    "apple:6828728811": {
+      "app_key": "apple:6828728811",
+      "name": "Little Light: Daily Gospel",
+      "developer": "BRADLEY HOGAN,RIVAS DEVINE",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/little-light-daily-gospel/id6828728811",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:04:27+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A daily pause to recenter your life in Jesus Christ. Life is full of noise and responsibilities. Little Light helps you make a little room for spiritual nourishment, with short gospel lessons that connect scripture to everyday life. Read a clear explanation, reflect on a meaningful question and carry one simple thought into your day. • Choose lessons for grown-ups, teens and young adults, or children. • Explore scripture through relatable insights and practical applications. • Set optional reminders to pause during your routine. • Save favorite lessons and write your own quiet thoughts. • Read along with family and friends, then share what stood out. Each audience has its own daily reading sequence, beginning November 14, 2026. This edition includes 365 lessons for children, 365 for teens and young adults, and 377 for grown-ups. Earlier readings in this edition remain available in Past days. Rooted in the Bible, Book of Mormon, Doctrine and Covenants, and Pearl of Great Price. One purchase includes all three audiences. No subscription or in-app purchases. Created by Brad Devine. Little Light is an independent gospel companion and is not affiliated with, sponsored by or endorsed by The Church of Jesus Christ of Latter-day Saints.",
+      "analysis": {
+        "app_key": "apple:6828728811",
+        "summary_ko": "Little Light는 일상 속에서 예수 그리스도의 가르침을 되새기며 영적인 휴식을 취할 수 있도록 돕는 데일리 복음 앱입니다. 성경과 일상생활을 연결하는 짧은 복음 레슨을 제공하며, 연령대별로 맞춤화된 읽기 시퀀스를 지원합니다. 사용자는 매일의 생각을 기록하고 좋아하는 레슨을 저장할 수 있습니다.",
+        "features_ko": [
+          "어린이, 청소년, 성인 등 연령대별로 맞춤화된 일일 복음 레슨을 제공합니다.",
+          "성경 및 관련 경전의 가르침을 일상생활에 적용하는 통찰을 제시합니다.",
+          "매일의 영적 성장을 위해 짧은 생각과 질문을 제공합니다.",
+          "사용자가 좋아하는 레슨을 저장하고 개인적인 생각을 기록할 수 있습니다.",
+          "가족 및 친구와 레슨 내용을 공유하고 함께 읽을 수 있는 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "종교적 콘텐츠를 일상적인 습관으로 정착시키려는 시도가 돋보입니다. 연령대별 맞춤 콘텐츠 제공은 사용자 경험을 세분화하는 좋은 전략입니다. 개인 개발 관점에서는 콘텐츠 관리 시스템(CMS)과 사용자 데이터의 로컬 저장 및 동기화가 핵심입니다.",
+        "development_ko": "콘텐츠를 효율적으로 관리하고 제공하기 위한 데이터베이스 설계가 핵심입니다. 사용자별 읽기 진행 상황 저장 및 개인 메모 기능을 위한 로컬 저장소 활용이 필요합니다. 사용자 인터페이스는 가독성을 최우선으로 하며, 공유 기능 구현을 위한 플랫폼 연동이 중요합니다.",
+        "idea_ko": "사용자가 기록한 생각을 바탕으로 일주일간의 영적 성장을 요약해주는 '주간 영적 리포트' 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "연령대별 맞춤형 콘텐츠 제공으로 사용자 타겟팅 명확화.",
+          "개인적인 생각 기록 및 공유 기능을 통한 커뮤니티성 강화."
+        ],
+        "systems_ko": [
+          "콘텐츠 관리 및 배포 시스템",
+          "사용자 데이터(메모, 즐겨찾기) 로컬 저장소",
+          "사용자 읽기 진행 상황 추적 시스템",
+          "공유 및 알림 시스템",
+          "가독성 중심의 UI/UX 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "데이터를 읽고 보여주는 기본적인 앱 구조이며, 복잡한 알고리즘이나 외부 연동이 적어 개인 개발자가 구현하기에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "일일 레슨 표시 기능",
+            "연령대별 콘텐츠 선택",
+            "즐겨찾기 및 메모 기능"
+          ],
+          "defer": [
+            "사용자 간 공유 기능",
+            "푸시 알림 스케줄러"
+          ],
+          "risks": [
+            "콘텐츠의 지속적인 업데이트 부담",
+            "사용자 데이터 관리의 개인정보 보호 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "영적 성장 리포트",
+            "concept": "사용자가 기록한 메모를 분석하여 자주 언급되는 키워드나 영적 성장의 흐름을 시각화하여 보여줍니다.",
+            "first_step": "사용자가 작성한 메모에서 키워드를 추출하여 리스트로 보여줍니다."
+          },
+          {
+            "title": "오늘의 말씀 카드",
+            "concept": "매일의 레슨 중 핵심 문구를 예쁜 이미지 카드 형태로 만들어 SNS에 공유할 수 있게 합니다.",
+            "first_step": "텍스트를 이미지 위에 배치하여 저장하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "콘텐츠 중심의 앱을 개발하고 싶은 분들에게 추천합니다. 데이터 구조 설계와 사용자 경험을 고려한 UI 디자인을 연습하기에 좋은 프로젝트입니다.",
+        "source_limitations_ko": "소개문에는 콘텐츠 업데이트 방식, 데이터 백업 및 동기화 정책, 특정 종교 단체와의 공식 연동 여부에 대한 정보가 없습니다. 실제 개발 시 콘텐츠의 저작권과 데이터 보안을 명확히 해야 합니다.",
+        "name": "Little Light: Daily Gospel",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/little-light-daily-gospel/id6828728811",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 171,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 23,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
+    },
+    "apple:1439434588": {
+      "app_key": "apple:1439434588",
+      "name": "サクラスクールシミュレーター",
+      "developer": "Garusoft LLC",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_action",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%82%B5%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/id1439434588?uo=2",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:06:16+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "高校と小さな街で、生徒や住人と交流しながら生活していくシミュレーションゲームです。 バトルなどのミッションもあります。（更新で少しずつ増えていきます。） はちゃめちゃにしたり、恋愛をしたり･･･簡易AIで動く街の人と楽しもう！ 男子、女子高校生をゲーム中にチェンジできます。 また、アンロックで高校生以外のサブキャラクターも操作できます。 ヒント ・好感度を上げるには、お世辞と餌付けが効果的！ ※以下のRAM1GB以下の端末は「非対応」です。 iPhone 6 iPhone 6 Plus iPhone 5s iPod touch (第 6 世代) iPad Air iPad mini 3 iPad mini 2 iPad mini",
+      "analysis": {
+        "app_key": "apple:1439434588",
+        "summary_ko": "고등학교와 작은 마을을 배경으로 학생이나 주민들과 교류하며 일상을 보내는 시뮬레이션 게임입니다. 전투와 같은 미션이 포함되어 있으며, 플레이어는 남녀 고등학생 캐릭터를 자유롭게 변경할 수 있습니다. 간이 AI로 움직이는 NPC들과 상호작용하며 연애나 소동을 일으키는 등 자유로운 플레이가 가능합니다.",
+        "features_ko": [
+          "남녀 고등학생 캐릭터를 게임 도중 자유롭게 전환할 수 있습니다.",
+          "간이 AI가 적용된 마을 주민 및 학생들과 다양한 상호작용이 가능합니다.",
+          "전투 미션을 통해 게임 내에서 액션 요소를 즐길 수 있습니다.",
+          "특정 조건을 만족하면 고등학생 외의 서브 캐릭터를 조작할 수 있습니다.",
+          "NPC의 호감도를 높이기 위해 대화나 먹이 주기 기능을 활용합니다."
+        ],
+        "noteworthy_ko": "고정된 서사 없이 샌드박스형 상호작용에 집중한 점이 흥미롭습니다. NPC의 행동을 제어하는 간이 AI 시스템이 게임의 자유도를 결정짓는 핵심 요소로 추정됩니다.",
+        "development_ko": "캐릭터 전환 및 NPC AI 로직 구현이 핵심 기술입니다. 다양한 상호작용 오브젝트와 미션 콘텐츠 제작에 많은 리소스가 소요될 것으로 보입니다. 샌드박스 환경에서의 물리 충돌 및 AI 버그 테스트가 중요합니다.",
+        "idea_ko": "특정 구역에서 NPC들이 각자의 루틴을 수행하는 '마을 시간표 시스템'을 구현하여 생동감을 높이는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "고등학생이라는 특정 테마를 중심으로 한 자유로운 샌드박스 플레이.",
+          "캐릭터 전환 및 NPC와의 상호작용을 통한 다양한 상황 연출."
+        ],
+        "systems_ko": [
+          "캐릭터 상태 관리 시스템",
+          "NPC AI 행동 트리",
+          "상호작용 오브젝트 관리",
+          "미션 및 퀘스트 트리거",
+          "UI/UX 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "다양한 NPC AI 행동 패턴과 상호작용 가능한 오브젝트를 모두 구현하는 것은 1인 개발자에게 상당한 작업량입니다. 물리 엔진과 캐릭터 애니메이션의 조화가 필수적입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 조작",
+            "NPC 기본 상호작용",
+            "기본 맵 환경"
+          ],
+          "defer": [
+            "캐릭터 커스터마이징",
+            "복잡한 미션 시스템",
+            "다양한 서브 캐릭터"
+          ],
+          "risks": [
+            "AI 로직 복잡도 증가",
+            "물리 엔진 충돌 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "NPC 루틴 시뮬레이터",
+            "concept": "NPC들이 시간대별로 정해진 장소로 이동하며 일과를 보내는 시스템입니다. 플레이어는 이들의 일상을 관찰하거나 방해할 수 있습니다.",
+            "first_step": "특정 경로를 따라 반복 이동하는 NPC 개체 하나를 구현합니다."
+          },
+          {
+            "title": "호감도 기반 상호작용",
+            "concept": "NPC에게 아이템을 주거나 대화하여 호감도를 쌓고, 특정 수치 도달 시 NPC가 플레이어를 따라오게 만드는 시스템입니다.",
+            "first_step": "아이템 전달 시 변수가 변경되는 간단한 호감도 UI를 만듭니다."
+          }
+        ],
+        "recommendation_ko": "샌드박스 게임의 기초가 되는 NPC AI와 상호작용 시스템을 배우기에 좋습니다. 다만, 방대한 콘텐츠를 모두 구현하려 하기보다 핵심 메커니즘 하나에 집중하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 AI 구현 방식이나 미션의 종류가 명시되어 있지 않습니다. 또한, 특정 기기 사양 제한에 대한 언급은 있으나 실제 내부 엔진이나 데이터 구조는 확인할 수 없습니다.",
+        "name": "サクラスクールシミュレーター",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%82%B5%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC/id1439434588?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
+    },
+    "google:com.lastbrand.quince": {
+      "app_key": "google:com.lastbrand.quince",
+      "name": "Quince: Luxury Essentials",
+      "developer": "Quince",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.lastbrand.quince&hl=en&gl=US",
+      "data_date": "2026-11-22",
+      "analysed_at": "2026-11-22T06:07:03+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Shop high-quality apparel, home, beauty, travel, and more at radically low prices. Quince brings thoughtfully crafted essentials directly from world-class manufacturers to your doorstep. By cutting out the traditional retail markup, we deliver exceptional quality at prices within reach. Download the Quince app for early access to new arrivals, free shipping, 365-day returns, and back-in-stock alerts. Discover women’s and men’s clothing, bedding, furniture, luggage, jewellry, beauty, and more—crafted from exceptional materials like Grade-A Mongolian cashmere, European linen, washable silk, Italian leather, and organic cotton.",
+      "analysis": {
+        "app_key": "google:com.lastbrand.quince",
+        "summary_ko": "Quince는 고품질 의류, 가정용품, 뷰티 제품 등을 합리적인 가격에 제공하는 쇼핑 플랫폼입니다. 중간 유통 과정을 생략하여 제조사로부터 소비자에게 직접 제품을 전달하는 방식을 취합니다. 사용자는 앱을 통해 신상품 조기 접근, 무료 배송, 365일 반품 등의 혜택을 누릴 수 있습니다.",
+        "features_ko": [
+          "다양한 카테고리의 고품질 필수품을 합리적인 가격으로 구매할 수 있습니다.",
+          "신상품에 대한 조기 접근 권한을 제공합니다.",
+          "365일 반품 정책을 지원하여 구매 부담을 줄여줍니다.",
+          "재입고 알림 기능을 통해 원하는 상품의 입고 소식을 빠르게 확인할 수 있습니다."
+        ],
+        "noteworthy_ko": "D2C(Direct-to-Consumer) 비즈니스 모델을 기반으로 유통 마진을 제거하여 가격 경쟁력을 확보한 점이 특징입니다. 개발 관점에서는 재고 관리 시스템과 실시간 알림 서비스의 연동이 핵심적인 흥미 요소로 추정됩니다.",
+        "development_ko": "핵심 구현 기술로는 대규모 상품 데이터베이스 관리와 사용자 맞춤형 알림 푸시 시스템이 필요합니다. 콘텐츠 제작 부담은 상품 이미지와 상세 정보의 지속적인 업데이트에 집중될 것입니다. 테스트 및 밸런스 측면에서는 결제 프로세스의 안정성과 재고 동기화의 정확성이 가장 중요합니다.",
+        "idea_ko": "사용자가 선호하는 소재나 스타일을 입력하면 그에 맞는 제품을 추천해 주는 '개인 맞춤형 소재 큐레이션' 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "캐시미어, 리넨, 실크 등 고급 소재를 사용한 제품군을 강조합니다.",
+          "유통 마진을 제거한 가격 정책을 핵심 가치로 내세웁니다."
+        ],
+        "systems_ko": [
+          "상품 카탈로그 데이터베이스",
+          "사용자 계정 및 주문 관리 시스템",
+          "푸시 알림 서비스",
+          "결제 게이트웨이 연동",
+          "재고 실시간 동기화 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "단순한 쇼핑몰 구현을 넘어 재고 관리, 결제 보안, 사용자 데이터 처리 등 복잡한 백엔드 인프라가 필수적이기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 목록 조회",
+            "장바구니 기능",
+            "기본 결제 연동"
+          ],
+          "defer": [
+            "실시간 재고 알림",
+            "복잡한 회원 등급 시스템"
+          ],
+          "risks": [
+            "결제 보안 이슈",
+            "데이터베이스 관리 부하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "소재별 관리 가이드",
+            "concept": "구매한 제품의 소재에 맞는 세탁 및 보관법을 알려주는 기능입니다. 사용자가 제품을 등록하면 소재별 관리 팁을 제공합니다.",
+            "first_step": "소재별 관리 팁 데이터베이스를 구축하고 간단한 검색 기능을 구현합니다."
+          },
+          {
+            "title": "위시리스트 가격 추적",
+            "concept": "관심 상품의 가격 변동을 모니터링하여 알림을 주는 기능입니다. 사용자가 설정한 목표 가격에 도달하면 알림을 보냅니다.",
+            "first_step": "상품 URL을 입력받아 가격 정보를 크롤링하는 간단한 스크립트를 작성합니다."
+          }
+        ],
+        "recommendation_ko": "이커머스 앱의 기본 구조와 데이터 흐름을 이해하는 데 도움이 됩니다. 다만, 보안과 결제 시스템의 복잡성으로 인해 실제 서비스화에는 높은 수준의 기술적 준비가 필요합니다.",
+        "source_limitations_ko": "소개문에는 결제 시스템의 구체적인 구현 방식, 보안 인증 절차, 외부 물류 시스템과의 연동 방식에 대한 정보가 없습니다.",
+        "name": "Quince: Luxury Essentials",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.lastbrand.quince&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 96,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-22"
     }
   }
 }
