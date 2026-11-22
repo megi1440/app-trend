@@ -14574,6 +14574,190 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-22"
+    },
+    "apple:6834473200": {
+      "app_key": "apple:6834473200",
+      "name": "Hamburger Hill",
+      "developer": "Wesley William Moses",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/kr/app/hamburger-hill/id6834473200?uo=2",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:16:34+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Every hill costs men. Take it anyway. Fight through the fictional country of Granovia in a single-player military shooter with digitized soldiers, explosive battles and a campaign that carries on between firefights. Hit the beach, jump from a transport plane, ride in by helicopter or push up the river. Move with your squad, use cover and bring the right weapon for the job. Choose a side on the campaign map, plan your next operation, then fight it on the ground. Or jump straight into Quick Play and learn the controls on the tutorial course. - Three playable factions: Granovia, U.S.A. and W.A.R.L.O.R.D.Z. - Campaign play and standalone quick battles. - Landscape touch controls made for phones. - Offline play with saves stored on your device. - One purchase, with no ads, subscriptions or in-app purchases. Contains strong language, blood and dismemberment.",
+      "analysis": {
+        "app_key": "apple:6834473200",
+        "summary_ko": "Hamburger Hill은 Granovia라는 가상의 국가를 배경으로 하는 1인용 밀리터리 슈팅 게임입니다. 플레이어는 분대와 함께 이동하며 엄폐물을 활용해 전투를 수행합니다. 캠페인 모드와 빠른 전투 모드를 지원하며, 다양한 이동 수단을 이용한 전술적 접근이 가능합니다. 오프라인 플레이를 지원하며 광고나 인앱 결제가 없는 유료 게임입니다.",
+        "features_ko": [
+          "Granovia, U.S.A., W.A.R.L.O.R.D.Z. 등 세 가지 플레이 가능한 진영을 제공합니다.",
+          "캠페인 맵에서 진영을 선택하고 작전을 계획한 뒤 지상 전투를 수행합니다.",
+          "터치스크린 환경에 최적화된 조작 방식을 제공합니다.",
+          "튜토리얼 코스를 통해 기본적인 조작법을 익힐 수 있습니다.",
+          "데이터를 기기에 저장하여 오프라인 상태에서도 게임을 즐길 수 있습니다."
+        ],
+        "noteworthy_ko": "디지털화된 군인과 폭발적인 전투 연출을 통해 고전적인 밀리터리 슈팅의 분위기를 재현하려는 시도가 돋보입니다. 캠페인 진행 상황이 전투 간에 유지되는 구조는 단순한 슈팅을 넘어 전략적 몰입감을 높이는 요소로 추정됩니다.",
+        "development_ko": "3D 환경에서의 슈팅 메커니즘과 분대 AI 구현이 핵심 기술입니다. 다양한 진영과 캠페인 맵을 제작하는 콘텐츠 부담이 크며, 모바일 터치 조작의 정확도를 높이는 밸런스 작업이 필수적입니다. 오프라인 저장 시스템의 안정성 확보가 개발의 주요 과제가 될 것입니다.",
+        "idea_ko": "분대원에게 간단한 명령을 내리는 전술적 지휘 시스템을 추가하여 슈팅과 전략의 비중을 조절하는 방식이 적합합니다.",
+        "highlights_ko": [
+          "캠페인 맵을 통한 전략적 작전 계획과 실제 전투의 유기적 연결.",
+          "광고나 인앱 결제 없이 완성된 경험을 제공하는 비즈니스 모델."
+        ],
+        "systems_ko": [
+          "3D 캐릭터 및 환경 렌더링",
+          "분대 AI 및 경로 탐색 시스템",
+          "무기 및 엄폐물 상호작용 판정",
+          "캠페인 진행 데이터 관리",
+          "터치 기반 가상 조이스틱 입력 처리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "3D 슈팅 게임은 물리 엔진, AI, 최적화 등 구현해야 할 기술적 요소가 매우 많습니다. 1인 개발자가 분대 시스템과 캠페인 구조를 모두 완성도 있게 구현하기에는 상당한 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이동 및 사격 메커니즘",
+            "적 AI의 기초적인 공격 및 엄폐 행동",
+            "단일 맵에서의 전투 루프"
+          ],
+          "defer": [
+            "복잡한 캠페인 맵 시스템",
+            "다양한 진영별 고유 유닛",
+            "고급 그래픽 효과"
+          ],
+          "risks": [
+            "모바일 환경에서의 조작 편의성 부족",
+            "AI 성능 최적화 문제",
+            "전투의 단조로움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "분대 지휘관 모드",
+            "concept": "직접 사격보다는 분대원에게 이동과 공격 명령을 내리는 전략 시뮬레이션 요소 강화. 실시간으로 분대원의 위치를 조정하여 적을 포위하는 재미를 강조함.",
+            "first_step": "터치로 유닛을 선택하고 특정 지점으로 이동시키는 기본 명령 시스템 구현."
+          },
+          {
+            "title": "로그라이크 전장",
+            "concept": "매번 무작위로 생성되는 지형과 적 배치 속에서 살아남는 생존 슈팅. 전투마다 획득하는 자원으로 무기를 업그레이드하는 성장 요소 도입.",
+            "first_step": "절차적 맵 생성 알고리즘과 무기 데이터 구조 설계."
+          }
+        ],
+        "recommendation_ko": "밀리터리 슈팅의 기본 구조를 배우기에 적합합니다. 다만, 1인 개발 시에는 범위를 좁혀 특정 전투 상황에 집중하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 AI 알고리즘, 물리 엔진 종류, 분대원 수, 캠페인 맵의 규모 등이 명시되어 있지 않습니다. 실제 게임의 조작감이나 AI 수준은 직접 플레이하지 않으면 검증이 불가능합니다.",
+        "name": "Hamburger Hill",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/hamburger-hill/id6834473200?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
+    },
+    "apple:457954781": {
+      "app_key": "apple:457954781",
+      "name": "Lowe's Home Improvement",
+      "developer": "Lowe's Companies, Inc.",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/lowes-home-improvement/id457954781",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:17:16+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Lowe’s Knows Home Improvement Whether you’re a Pro or have a DIY project on your mind, our app lets you search and shop thousands of products— anytime, on the go. NEW! EXCLUSIVE PRO EXPERIENCE A new experience just for Pros is here. Simply sign in with your Pro account and get access to all the Lowe’s for Pros features that make running your business easier. AISLE & SHELF INFO See aisle and shelf information right on the list page—so you know where to go in store. Plus, toggle with a switch to shop only at your preferred Lowe’s store. MOBILE CHECK-IN FOR STORE PICKUP Track your pickup order in real time on the home screen. When it’s ready, check in to let the store know you’re on the way so they can have your order waiting. VIEW IN YOUR SPACE See a product in your space before you buy, with augmented reality. Using your phone’s camera, scan the room and drop the product in your space to see it to scale. STORE FINDER Find the store that’s nearest to you along with the phone number, address, directions and drive time estimates. Plus, set your preferred store to get inventory, product locations and pricing*. *Remember to allow location services to get the most accurate information available. INBOX Get messages with special coupons, deals and exclusive promotions sent right to you. WEEKLY DEALS Check the weekly ad for deals at your preferred store. View page by page or by department. CUSTOMER RATINGS & REVIEWS Read what other users are saying about appliances, tools, home décor and beyond! Plus, write your own reviews and easily upload images. COMMUNITY Q & A Ask questions and get answers directly from manufacturers or other customers. QUICK LIST & LISTS Create a Quick List to keep projects organized. Tap the heart on any product page, scan a barcode, or type notes to add to your list—no sign in required. ORDER & PURCHASE HISTORY Keep track of pending and completed orders all in one place.",
+      "analysis": {
+        "app_key": "apple:457954781",
+        "summary_ko": "Lowe's Home Improvement는 주택 개조 및 DIY 프로젝트를 위한 쇼핑 앱입니다. 제품 검색, 구매, 매장 재고 확인 및 증강 현실(AR)을 통한 제품 배치 미리보기 기능을 제공합니다. 전문가를 위한 전용 경험과 매장 픽업 서비스 등 다양한 편의 기능을 갖추고 있습니다.",
+        "features_ko": [
+          "증강 현실(AR) 기능을 사용하여 가구 등 제품을 실제 공간에 배치해 볼 수 있습니다.",
+          "매장 내 제품의 통로와 선반 위치 정보를 제공하여 쇼핑을 돕습니다.",
+          "온라인으로 주문한 상품을 매장에서 픽업할 수 있도록 실시간 상태 추적 및 체크인 기능을 제공합니다.",
+          "제품 바코드 스캔이나 메모를 통해 프로젝트별 목록을 정리할 수 있습니다.",
+          "전문가용 계정을 통해 비즈니스 운영에 필요한 전용 기능을 이용할 수 있습니다.",
+          "고객 리뷰와 커뮤니티 Q&A를 통해 제품에 대한 정보를 얻을 수 있습니다."
+        ],
+        "noteworthy_ko": "AR을 활용한 공간 배치와 매장 내 위치 정보 제공은 오프라인 매장 경험을 디지털로 확장한 좋은 사례입니다. 전문가와 일반 사용자를 구분한 인터페이스 설계가 인상적입니다.",
+        "development_ko": "ARKit 또는 ARCore를 활용한 공간 인식 기술과 매장 재고 데이터베이스 연동이 핵심입니다. 사용자 위치 기반 서비스와 실시간 주문 추적 시스템을 구축해야 합니다. 대규모 상품 데이터를 효율적으로 관리하고 검색하는 성능 최적화가 중요합니다.",
+        "idea_ko": "사용자가 자신의 방 사진을 찍으면 어울리는 가구와 인테리어 소품을 자동으로 추천해 주는 'AI 인테리어 코디네이터' 기능이 유용합니다.",
+        "highlights_ko": [
+          "증강 현실(AR)을 통한 실감 나는 제품 배치 미리보기 기능을 제공합니다.",
+          "매장 내 위치 정보와 픽업 서비스를 통해 온-오프라인 쇼핑 경험을 통합합니다."
+        ],
+        "systems_ko": [
+          "AR 공간 배치 시스템",
+          "위치 기반 매장 검색 및 재고 관리 시스템",
+          "주문 상태 추적 및 알림 시스템",
+          "사용자 리뷰 및 Q&A 데이터베이스",
+          "상품 검색 및 필터링 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "AR 기술 구현과 방대한 상품 데이터베이스 연동 및 관리, 실시간 위치 기반 서비스 등은 개인이 구현하기에 매우 복잡하고 리소스가 많이 듭니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 검색 및 목록 기능",
+            "제품 상세 정보 및 리뷰 조회",
+            "위시리스트(Quick List) 기능"
+          ],
+          "defer": [
+            "AR 제품 배치 기능",
+            "매장 내 위치 정보 안내",
+            "전문가 전용 모드"
+          ],
+          "risks": [
+            "데이터베이스 관리 및 유지보수 부담",
+            "AR 기술 구현의 기술적 난이도"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "AI 인테리어 코디네이터",
+            "concept": "사용자의 방 사진을 분석하여 어울리는 가구와 색상을 추천합니다. 인테리어 고민을 해결해 주는 개인화된 서비스입니다.",
+            "first_step": "이미지 분석 API를 사용하여 방의 주요 색상을 추출하는 기능을 구현합니다."
+          },
+          {
+            "title": "DIY 프로젝트 가이드",
+            "concept": "사용자가 선택한 제품으로 할 수 있는 DIY 프로젝트 단계별 가이드를 제공합니다. 필요한 도구와 재료를 자동으로 목록화합니다.",
+            "first_step": "간단한 DIY 프로젝트 템플릿을 작성하고 재료 목록을 보여주는 UI를 만듭니다."
+          }
+        ],
+        "recommendation_ko": "커머스 앱의 데이터 구조와 사용자 경험 설계 방식을 배우기에 좋습니다. 다만, 대규모 데이터와 AR 기술은 개인 개발 범위를 넘어서므로 핵심 기능 위주로 축소하여 접근하는 것이 좋습니다.",
+        "source_limitations_ko": "결제 시스템의 보안 구현, AR 기술의 구체적인 라이브러리, 매장 재고 데이터 연동 방식 등은 소개문에서 확인할 수 없습니다.",
+        "name": "Lowe's Home Improvement",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/lowes-home-improvement/id457954781",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 82,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
     }
   }
 }

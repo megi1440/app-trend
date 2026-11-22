@@ -14128,6 +14128,372 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-22"
+    },
+    "apple:6831699886": {
+      "app_key": "apple:6831699886",
+      "name": "iTell: Second Phone Bridge",
+      "developer": "Amir AKBARZADEH",
+      "source": "apple",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://apps.apple.com/us/app/itell-second-phone-bridge/id6831699886?uo=2",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:13:52+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Two phones, one hand. Got a second SIM in an Android phone? A work number, a travel SIM, the number your bank knows? Leave that phone in your bag. iTell brings its calls, texts and contacts to the iPhone you're already holding. CALLS THAT RING ON YOUR IPHONE When someone calls the phone in your bag, your iPhone rings with the standard iOS call screen, even on the lock screen. Answer, talk, hang up. You can also call out from your iPhone and the call goes through the other phone's SIM. TEXTS IN ONE PLACE Read and reply to that phone's SMS on your iPhone. Your recent message history comes along, so the conversation you started yesterday is still there. CONTACTS AND CALL HISTORY Contacts with photos and the recent calls list sync from the other phone, so you see names, not numbers. DUAL SIM If the phone in your bag has two SIMs, pick which one to use for each call, each text, or each conversation. PRIVATE BY DESIGN Your two phones talk to each other directly over Bluetooth. No server sits in the middle of your calls or texts, and the iPhone app never goes online. You pair once with a QR code, and everything after that is end-to-end encrypted. Nothing is copied until you say yes, and you can delete the copies from your iPhone any time in Settings. Your messages and contacts stay on your two phones. MADE FOR EVERY DAY Seven languages, dark mode, Dynamic Type, and a design that stays out of the way. WHAT YOU NEED - An iPhone with iOS 17 or later. - An Android phone with Android 13 or later, running the iTell app for Android, within Bluetooth range. The iPhone app is free, needs no account and has nothing to buy. The iTell app for Android has its own free trial and license, managed on the Android phone. Want to look around first? Tap \"Try with a Sample Phone\" on the Connect screen. Call audio depends on the Android phone's hardware. Most phones work two-way. On a few, you can hear the caller but need the Android phone to talk; the iTell app on Android checks this for you. We're a small team. Questions? Write to support@itellapp.com.",
+      "analysis": {
+        "app_key": "apple:6831699886",
+        "summary_ko": "두 대의 스마트폰을 블루투스로 연결하여 한 대의 아이폰에서 다른 기기의 전화와 문자를 관리할 수 있게 해주는 도구 앱입니다. 별도의 서버를 거치지 않고 기기 간 직접 통신을 통해 보안성을 높인 것이 특징입니다. 업무용 번호나 세컨드 SIM을 사용하는 사용자에게 편리한 통합 관리 환경을 제공합니다.",
+        "features_ko": [
+          "블루투스를 통해 아이폰에서 다른 기기의 전화 수신 및 발신을 지원합니다.",
+          "다른 기기의 SMS를 아이폰에서 읽고 답장할 수 있는 통합 메시징 기능을 제공합니다.",
+          "연락처와 최근 통화 기록을 동기화하여 번호 대신 이름으로 식별할 수 있습니다.",
+          "듀얼 SIM 환경에서 각 통화나 메시지에 사용할 번호를 선택할 수 있습니다.",
+          "서버를 거치지 않는 종단간 암호화 통신으로 개인정보 보호를 강화했습니다."
+        ],
+        "noteworthy_ko": "서버를 거치지 않고 블루투스 직접 통신을 활용한다는 점이 기술적으로 매우 흥미롭습니다. 이는 개인정보 보호를 중시하는 사용자에게 강력한 셀링 포인트가 되며, 네트워크 의존도를 낮춘 설계가 돋보입니다.",
+        "development_ko": "핵심 기술은 블루투스 저전력(BLE) 통신을 통한 실시간 데이터 동기화입니다. iOS와 Android 간의 통신 규격 통일이 가장 큰 과제이며, 통화 오디오 라우팅 처리와 같은 하드웨어 제어 기술이 필요합니다. 보안을 위해 암호화 키 관리와 데이터 삭제 로직을 철저히 검증해야 합니다.",
+        "idea_ko": "통화 기록을 바탕으로 특정 시간대에만 업무용 번호를 자동으로 '방해 금지 모드'로 전환하는 스마트 스케줄링 기능을 추가하면 유용할 것입니다.",
+        "highlights_ko": [
+          "서버를 거치지 않는 블루투스 직접 통신으로 데이터 보안을 극대화했습니다.",
+          "아이폰 앱이 온라인 상태가 아니어도 작동하는 오프라인 중심의 설계가 특징입니다."
+        ],
+        "systems_ko": [
+          "블루투스 기기 페어링 및 통신 프로토콜",
+          "통화 및 메시지 데이터 동기화 엔진",
+          "연락처 데이터베이스 관리",
+          "iOS/Android 간 크로스 플랫폼 통신",
+          "종단간 암호화 모듈"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "운영체제 수준의 통화 및 메시지 접근 권한을 다루며, 블루투스 통신 안정성과 기기 간 호환성 확보가 매우 까다롭기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "블루투스 페어링 및 연결 유지",
+            "기본 메시지 수신 및 발신 기능",
+            "연락처 동기화"
+          ],
+          "defer": [
+            "복잡한 통화 기록 분석",
+            "다양한 언어 지원",
+            "다크 모드 외의 커스텀 테마"
+          ],
+          "risks": [
+            "OS 업데이트에 따른 권한 정책 변경",
+            "블루투스 연결 불안정성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스마트 자동 응답",
+            "concept": "특정 번호로부터 온 메시지에 대해 미리 설정된 문구로 자동 답장을 보내는 기능입니다.",
+            "first_step": "수신 메시지 키워드 필터링 및 자동 답장 로직 구현."
+          },
+          {
+            "title": "통화 기록 태깅",
+            "concept": "통화 기록에 '업무', '개인' 등의 태그를 붙여 추후 검색 및 분류를 용이하게 합니다.",
+            "first_step": "통화 기록 데이터에 태그 필드를 추가하는 로컬 DB 설계."
+          }
+        ],
+        "recommendation_ko": "하드웨어 제어와 저수준 통신 기술을 배우고 싶은 개발자에게 추천합니다. 보안 중심의 앱 설계 철학을 배울 수 있는 좋은 사례입니다.",
+        "source_limitations_ko": "소개문에는 통화 오디오 라우팅의 구체적인 구현 방식이나 특정 기기에서의 하드웨어 제약 사항에 대한 상세 기술 정보는 포함되어 있지 않습니다.",
+        "name": "iTell: Second Phone Bridge",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/itell-second-phone-bridge/id6831699886?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 180,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 20,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
+    },
+    "google:com.mnogoteams.triviablocks": {
+      "app_key": "google:com.mnogoteams.triviablocks",
+      "name": "クイズの樹: Trivia Blocks",
+      "developer": "Quiz & Trivia Games by Mno Go Apps",
+      "source": "google",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.mnogoteams.triviablocks&hl=ja&gl=JP",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:17:16+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Trivia Blocks へようこそ！— 冴えた頭脳のための究極のクイズパズル！ クラシックな木製スタイルでデザインされたユニークなクイズゲーム「Trivia Blocks」で、心地よい知識の世界へ足を踏み入れましょう。あなたの知性に挑戦し、魅力的な質問に答え、プレミアムなボードゲームのような満足感のあるゲームプレイで脳を鍛えましょう。 知的な挑戦や論理パズル、ディープなクイズが大好きなら、Trivia Blocksは脳のトレーニングと達成感のあるステップアップが完璧に融合した、まさに理想的なゲームです。 歴史、科学、地理、ポップカルチャー、スポーツなど、多彩なカテゴリーで知識を広げながら、さまざまなゲームモード、挑戦的なレベル、楽しいコンテストをクリアしていきましょう。 Trivia Blocks が脳トレに最適な理由とは？ - ラシックな木製スタイル：美しい木目のテクスチャとリラックスできる雰囲気を備えた、温かみのあるミニマルなインターフェースをお楽しみください。 - 脳を鍛えるクイズ：あなたのIQと記憶力をテストするために設計された、何千もの魅力的な一般常識クイズを解きましょう。 - エキサイティングなモードとコンテスト：クイズ体験を常に新鮮で競争精神あふれる楽しいものにする、多様なゲームモードや特別イベントに飛び込みましょう。 - スマートな実績とミッション：ゲーム内の特別な目標を達成し、新しいレベルの節目に到達して、マスター報酬をアンロックしましょう。 - 賢いヒントとライフシステム：途中で行き詰まっても心配いりません！獲得したコインを使って追加のライフや、難しい質問に役立つヒントを購入できます。 - デイリーチャレンジ：毎日頭をシャープに保ちましょう！毎日のクイズミッションをクリアして連勝記録を維持し、限定ボーナスを獲得して、あなたの知的な成長を記録しましょう。 クイズ＆トリビアのマスターのために！ Trivia Blocksは、単なる手軽なクイズゲームではありません。それは知的なリラクゼーションの空間です。長い一日の終わりにリラックスしたいときも、クイズイベントで競い合いたいときも、認知能力を本格的に鍛えたいときも、温かみのある木製美学と挑戦的な質問が、あなたに最高の知的なエスケープを提供します。 あなたの知識を証明する準備はできていますか？ 脳を刺激しよう。レベルをクリアしよう。Trivia Blocksでクイズのマスターを目指そう！",
+      "analysis": {
+        "app_key": "google:com.mnogoteams.triviablocks",
+        "summary_ko": "Trivia Blocks는 클래식한 목재 스타일의 퀴즈 퍼즐 게임입니다. 역사, 과학, 지리 등 다양한 카테고리의 퀴즈를 풀며 지식을 넓히고 뇌를 훈련할 수 있습니다. 다양한 게임 모드와 일일 도전 과제를 통해 퀴즈 마스터에 도전해 보세요.",
+        "features_ko": [
+          "클래식한 목재 스타일의 미니멀한 인터페이스를 제공합니다.",
+          "역사, 과학, 지리 등 다양한 카테고리의 퀴즈를 풀 수 있습니다.",
+          "다양한 게임 모드와 특별 이벤트를 통해 경쟁적인 재미를 제공합니다.",
+          "게임 내 목표 달성 시 마스터 보상을 획득할 수 있습니다.",
+          "힌트와 라이프 시스템을 통해 어려운 문제를 해결할 수 있습니다.",
+          "매일 새로운 퀴즈 미션을 제공하는 데일리 챌린지 기능이 있습니다."
+        ],
+        "noteworthy_ko": "퀴즈와 퍼즐 요소를 결합하여 지적 만족감과 게임적 재미를 동시에 제공하는 점이 특징입니다. 목재 스타일의 디자인은 사용자에게 심리적 안정감을 주는 독특한 선택입니다.",
+        "development_ko": "퀴즈 데이터베이스 구축과 문제 출제 로직이 핵심입니다. 게임 상태 관리와 점수 시스템, 힌트/라이프 시스템의 밸런스 조절이 필요합니다. UI는 목재 질감을 살린 디자인을 구현해야 하며, 다양한 기기에서의 해상도 대응이 중요합니다. 테스트 시에는 퀴즈의 난이도 분포와 보상 시스템의 적절성을 검증해야 합니다.",
+        "idea_ko": "사용자가 직접 퀴즈를 만들고 다른 사용자와 공유하는 '유저 생성 퀴즈' 모드를 추가하면 콘텐츠 확장성이 매우 높아집니다.",
+        "highlights_ko": [
+          "클래식한 목재 디자인의 퀴즈 퍼즐 게임입니다.",
+          "다양한 카테고리와 게임 모드를 통해 지적 성장을 돕습니다."
+        ],
+        "systems_ko": [
+          "퀴즈 데이터베이스 및 출제 시스템",
+          "게임 상태 관리 및 점수 시스템",
+          "보상 및 아이템 관리 시스템",
+          "사용자 인터페이스 및 애니메이션",
+          "데일리 챌린지 및 미션 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "퀴즈 게임은 핵심 메커니즘이 단순하여 1인이 구현하기에 적합합니다. 데이터베이스 관리와 UI 구현에 집중하면 완성도 높은 결과물을 만들 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "퀴즈 문제 출력 및 정답 판정",
+            "점수 기록 및 표시",
+            "카테고리 선택 기능"
+          ],
+          "defer": [
+            "멀티플레이어 경쟁 모드",
+            "유료 아이템 결제",
+            "복잡한 애니메이션 효과"
+          ],
+          "risks": [
+            "퀴즈 데이터의 양과 질 확보",
+            "문제 난이도 밸런스 조절"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "유저 생성 퀴즈",
+            "concept": "사용자가 직접 퀴즈를 작성하고 다른 사용자가 풀 수 있게 합니다. 커뮤니티 기반의 퀴즈 생태계를 조성합니다.",
+            "first_step": "퀴즈 작성 폼과 저장 기능을 구현합니다."
+          },
+          {
+            "title": "테마별 퀴즈 팩",
+            "concept": "특정 주제(예: 영화, 음악)에 집중한 퀴즈 팩을 주기적으로 업데이트합니다. 사용자의 지속적인 접속을 유도합니다.",
+            "first_step": "카테고리별 퀴즈 데이터를 분리하여 관리하는 구조를 만듭니다."
+          }
+        ],
+        "recommendation_ko": "게임 개발의 기초인 상태 관리와 데이터 처리를 배우기에 매우 좋습니다. 퀴즈 게임은 확장성이 좋아 개인 개발자가 시도하기에 가장 추천하는 장르입니다.",
+        "source_limitations_ko": "퀴즈 데이터의 구체적인 출처, 서버 연동 방식, 결제 시스템의 상세 구현 등은 소개문에서 확인할 수 없습니다.",
+        "name": "クイズの樹: Trivia Blocks",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.mnogoteams.triviablocks&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 90,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
+    },
+    "apple:461703208": {
+      "app_key": "apple:461703208",
+      "name": "AMap Global",
+      "developer": "AutoNavi Information Technology Co. Ltd.",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/amap-global/id461703208",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:17:57+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "중국을 여행하고, 현지인처럼 즐기세요. Amap Global만 열면 됩니다. 여행 전 준비부터 중국 도착 후까지 Amap Global이 도와드립니다. 입국 가이드, 세관 통과 후 안내, 인터넷 연결, 호텔 길찾기, 택시와 대중교통, 이중 언어 도움 카드, 주변 맛집과 명소 랭킹, 긴급 연락처, 현지 문화 팁을 확인하세요.● 고드 스케이팅 랭킹, 더 진실하고 완벽한 순위표고드맵, 어디든 잘 아는 지도먹고 놀고 쇼핑하기, 길잡이 역할 완벽택시 호출은 빠르게, 고드로 하세요호텔 예약 및 티켓 구매, 손쉽게 해결해외 여행도 고드와 함께초격차 기술로 전 지역 커버 【고드 스케이팅 랭킹】고드 스케이팅 랭킹은 사용자의 내비게이션, 검색, 매장 방문 등 실제 행동 데이터를 기반으로 AI 기술과 즈마 신용(Zhima Credit)을 결합하여 구축한 AI 시대의 객관적이고 공정한 온·오프라인 서비스 시스템으로, 세계 최초입니다.사용자의 '직접 발로 뛰는' 실제 행동(예: 일부러 찾아간 횟수를 나타내는 '타이어 마모 랭킹', 재방문율이 높은 '다중 방문 랭킹', 현지인이 선호하는 '현지인 애용 랭킹' 등)과 '말과 행동이 일치하는'(사용자 동의 후의 즈마 신용 기반) 신뢰할 수 있는 평가를 통해, 스케이팅 랭킹은 이미 중국 전역 300개 이상의 도시에서 레스토랑, 호텔, 관광지 등을 포함해 160만 개 이상의 오프라인 가맹점을 커버했습니다.진심을 다해 경영하는 좋은 가게가 더 많은 사용자에게 알려지기를! 초현실적인 순위표로 가장 진정한 삶의 활력을 지켜나갑시다! 【지도 내비게이션】자동차 운전, 택시, 대중교통, 자전거, 도보, 화물차, 오토바이, 신에너지 차량 등 다양한 이동 수단을 지원하는 스마트 내비게이션 제공실시간 교통 상황 제공, 정체 회피 경로 사전 제안, 도착 예상 시간 예측그룹 이동 기능, 실시간으로 동료 위치 파악 가능, 내비게이션 중 대화 기능으로 동료와 연락 두절 방지음성 내비게이션, '안녕하세요 샤오더' 음성 어시스턴트 탑재로 운전 안전 강화특수 음성 패키지, 왕허디(Dylan Wang), 리쉐친(Li Xueqin) 등 다양한 캐릭터 음성 선택 가능 【세계 지도】해외 여행은 고드로, 전 세계를 자유롭게 누비며 걱정 없는 이동, 한국어/중국어 지원 지도로 더 안심 【고드 택시】원클릭으로 여러 플랫폼의 차량 동시 호출, 정말 빠름여러 플랫폼 가격 실시간 비교, 더 저렴하게 이용 【고드 대리운전】술 마시고 운전하지 마세요, 대리운전은 고드로고드 대리운전, 부르면 바로 옵니다 【대중교통】대중교통 모드, 주변 버스 및 지하철 정보 한눈에 확인버스 기다림 없이, 실시간 버스 위치 추적, 어디쯤 왔는지 명확히 알 수 있음 【생활 서비스】수백만 개의 호텔 전 사이트 가격 비교, 7*24시간 고객 서비스 보장전국 관광지 티켓 할인 예약, 구매 즉시 사용 가능하고 환불도 안심가는 길에 꽃 사기, 주유, 커피 픽업 등 시간과 노력을 절약하고 마음까지 편하게충전 지도, 좋은 충전소 찾기 쉬움; 차량 주유소도 매우 많고 가성비 좋음 【주의 사항】고드맵의 자동차 음성 내비게이션, 대중교통 환승 알림, 도보 음성 내비게이션은 위성 측위 서비스(베이두 등)를 지속적으로 사용합니다. 백그라운드 재생으로 전환해도 계속 작동하며, 일부 다른 작업으로 인해 배터리 소모가 증가하여 배터리 지속 시간에 영향을 미칠 수 있습니다. 【문의하기】고드맵을 사용해 주셔서 감사합니다. 사용 중 문제가 발생하면 '내 정보--도움말 및 피드백'에서 신고해 주시면 신속히 처리하겠습니다. 또한 아래 방식으로 문의 가능합니다:공식 위챗 계정: 고드맵/gaodeditu공식 웨이보: @고드맵공식 고객센터 전화: 400-810-0080 【자동 구독 서비스 안내】 ● 구독 서비스: 고드 디지털 자산 월정액 연속 구독 (1개월) ● 구독 가격: 월 9.9위안 ● 결제: 사용자가 구매 확인 및 결제 완료 후 iTunes 계정에 청구됩니다. ● 자동 갱신: Apple iTunes 계정은 만료 24시간 전에 요금이 부과되며, 결제 성공 시 구독 기간이 한 주기 연장됩니다. ● 서비스 해지: iPhone의 '설정' -> 'iTunes Store 및 App Store' -> 'Apple ID' 탭 -> 'Apple ID 보기' 선택 -> '계정 설정' 페이지의 '구독'을 눌러 자동 구독 서비스를 관리합니다. 해지를 원할 경우 각 과금 주기 종료 24시간 전에 취소해야 하며, 만료 24시간 이내에는 요금이 부과되지 않습니다. ● 서비스 약관:《고드 사용자 약관》: https://terms.alicdn.com/legal-agreement/terms/c_platform_service_agreement/20250314165704167/20250314165704167.html 《개인정보 보호 정책》: https://terms.alicdn.com/legal-agreement/terms/privacy_policy_full/20250314145608599/20250314145608599.html 《고드맵 디지털 자산 회원 서비스 약관》: https://terms.alicdn.com/legal-agreement/terms/c_end_product_protocol/20260228025317229/20260228025317229.html 《자동 갱신 약관》: https://terms.alicdn.com/legal-agreement/terms/c_end_product_protocol/20260228015713481/20260228015713481.html",
+      "analysis": {
+        "app_key": "apple:461703208",
+        "summary_ko": "중국 여행자를 위한 종합 내비게이션 및 생활 정보 서비스 앱입니다. 지도 내비게이션, 택시 호출, 대중교통 정보, 호텔 예약 등 여행에 필요한 다양한 기능을 제공합니다. 사용자 행동 데이터를 기반으로 한 순위표를 통해 현지 맛집과 명소를 추천합니다.",
+        "features_ko": [
+          "다양한 이동 수단을 지원하는 실시간 스마트 내비게이션을 제공합니다.",
+          "여러 플랫폼의 택시를 동시에 호출하고 가격을 비교할 수 있습니다.",
+          "실시간 버스 위치 추적 및 지하철 환승 정보를 확인할 수 있습니다.",
+          "사용자 행동 데이터 기반의 오프라인 가맹점 순위표를 제공합니다.",
+          "호텔 예약 및 관광지 티켓 구매 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "사용자의 실제 방문 데이터와 신용 정보를 결합한 '스케이팅 랭킹' 시스템이 독특합니다. 이는 단순 리뷰를 넘어 행동 기반의 신뢰도를 구축하려는 시도로 보이며, 개인 개발자가 구현하기에는 데이터 수집 및 분석 인프라가 매우 방대할 것으로 추정됩니다.",
+        "development_ko": "지도 API 연동과 실시간 위치 추적 시스템이 핵심 기술입니다. 방대한 오프라인 가맹점 데이터베이스 구축과 실시간 교통 정보 처리에 큰 부담이 따릅니다. 사용자 행동 데이터 분석을 위한 서버 인프라와 보안 관리가 필수적입니다.",
+        "idea_ko": "특정 지역의 숨겨진 명소를 사용자의 실제 방문 경로 데이터로 추천하는 소규모 로컬 가이드 서비스.",
+        "highlights_ko": [
+          "실제 행동 데이터를 활용한 객관적인 온·오프라인 서비스 순위 시스템을 운영합니다.",
+          "운전, 대중교통, 도보 등 다양한 이동 수단에 최적화된 내비게이션을 지원합니다."
+        ],
+        "systems_ko": [
+          "지도 API 연동 시스템",
+          "실시간 위치 추적 및 경로 탐색 엔진",
+          "사용자 행동 데이터 수집 및 분석 서버",
+          "다중 플랫폼 API 연동 인터페이스",
+          "사용자 인증 및 보안 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "지도 데이터와 실시간 교통 정보를 처리하는 인프라 구축은 개인 수준에서 불가능에 가깝습니다. 방대한 가맹점 데이터의 유지보수와 신뢰성 있는 순위 알고리즘 개발에 막대한 자원이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "지도 API 기반 위치 표시",
+            "사용자 위치 기반 주변 정보 검색",
+            "기본 경로 안내 기능"
+          ],
+          "defer": [
+            "실시간 교통 정보 처리",
+            "다중 택시 호출 연동",
+            "행동 데이터 기반 순위 알고리즘"
+          ],
+          "risks": [
+            "지도 API 사용료 부담",
+            "데이터 정확성 유지의 어려움",
+            "개인정보 보호 및 보안 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "로컬 히든 스팟 공유기",
+            "concept": "사용자가 직접 방문한 장소의 사진과 경로를 기록하여 나만의 지도를 만드는 서비스입니다. 타인의 경로를 따라가는 '발자취 따라가기' 기능을 제공합니다.",
+            "first_step": "지도 API를 활용하여 사용자의 위치를 기록하고 마커로 표시하는 기능을 구현합니다."
+          },
+          {
+            "title": "여행 동선 최적화 도구",
+            "concept": "방문하고 싶은 장소들을 입력하면 이동 시간을 최소화하는 최적의 경로를 생성합니다. 대중교통 시간표를 수동으로 입력하여 경로를 계산합니다.",
+            "first_step": "입력된 장소 간의 거리를 계산하고 순서를 재배치하는 알고리즘을 작성합니다."
+          }
+        ],
+        "recommendation_ko": "지도 API 활용법과 위치 기반 서비스의 기본 구조를 배우기에 적합합니다. 다만, 대규모 데이터 처리가 필요한 상용 서비스 수준의 구현은 개인 개발자에게 권장하지 않습니다.",
+        "source_limitations_ko": "소개문에 명시된 '즈마 신용' 연동 방식이나 실제 지도 데이터의 출처, 서버 인프라의 구체적인 기술 스택은 확인되지 않습니다. 결제 및 보안 기능의 상세 구현 방식은 알 수 없습니다.",
+        "name": "AMap Global",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/amap-global/id461703208",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 100,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
+    },
+    "google:com.proximabeta.nikke": {
+      "app_key": "google:com.proximabeta.nikke",
+      "name": "勝利の女神：NIKKE",
+      "developer": "Level Infinite",
+      "source": "google",
+      "country": "JP",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.proximabeta.nikke&hl=ja&gl=JP",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:17:57+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "【世界を救う為に、私の指揮官になってください】 人類は敗北した。 「ラプチャー」の侵攻は何の前触れもなく始まり、無慈悲で圧倒的であった。 目的不明。 交渉不可。 ラプチャーはあたかも人類の天敵の如く一瞬にして地上を火の海に変えた。 次から次へと津波のように襲いかかってくる彼らの攻勢を前に、今まで築き上げてきた技術は何の意味も成さなかった。 人類は文字通りただ蹂躙されていた。 最終手段として開発中だった人型兵器に希望を託したが 僅かばかりの効果を発揮しただけで、戦況を逆転させる奇跡を起こすには至らなかった。 まさしく完璧な敗北。 人類は地上をラプチャーに奪われ、地下の奥深くへと住処を移した。 それから数十年が過ぎ、人類の新たな住処である「アーク」で少女たちが目を覚ます。 地下に追いやられた人類があらゆる技術を集約して生み出した「対ラプチャー用決戦人型兵器」。 少女たちは数十年間一度も開けられたことがない、地上へと続くエレベーターに乗りこむ。 人類は祈った。 少女たちが自分たちの矢となってくれることを。 復讐の刀となってくれることを。 そうした痛切な願いが込められた名前とともに少女たちは地上へと向かう。 その名は——ニケ。 人類に勝利をもたらす最後の希望。 ▶ユニークで魅力的なキャラクター達 バトルでは等身大のキャラクターイラストをそのまま使用！ 個性に溢れた魅力的なニケたちと共に戦おう！ ▶ハイクオリティなグラフィック表現 ハイクオリティなイラストと高度な描画技術を使用。 さらに、物理演算エンジンやリップシンクモーションなどの最先進なテクノロジーが採用。 今までと違うモーション及びアニメーションを表現！ ▶最高に楽しめる戦術体験 多種な銃器とキャラクタースキルを活用し 多様な強敵を次々と撃破！ 変化し続ける戦局と戦術を体験しよう！ ▶壮大な世界観とシナリオ 斬新かつインパクトある世界観 感情を躍動させる多彩なシナリオ。",
+      "analysis": {
+        "app_key": "google:com.proximabeta.nikke",
+        "summary_ko": "인류가 패배한 미래를 배경으로 하는 수집형 RPG 게임입니다. 플레이어는 지휘관이 되어 '니케'라 불리는 인형 병기들과 함께 지상을 탈환하기 위해 전투를 벌입니다. 고품질 일러스트와 물리 엔진을 활용한 역동적인 전투 연출이 특징입니다.",
+        "features_ko": [
+          "등신대 캐릭터 일러스트를 활용한 전투 시스템을 제공합니다.",
+          "물리 연산 엔진을 적용하여 캐릭터의 움직임을 생동감 있게 표현합니다.",
+          "다양한 총기와 캐릭터 스킬을 조합하여 전략적인 전투를 수행합니다.",
+          "립싱크 모션 등 최신 기술을 도입하여 애니메이션 연출을 강화했습니다."
+        ],
+        "noteworthy_ko": "2D 캐릭터를 3D처럼 보이게 하는 연출 기술과 물리 엔진의 결합이 매우 흥미롭습니다. 이는 정적인 일러스트에 생동감을 부여하여 몰입감을 극대화하는 전략으로 추정됩니다.",
+        "development_ko": "고품질 아트 리소스 제작과 이를 구현하기 위한 애니메이션 엔진 최적화가 핵심입니다. 다양한 캐릭터 스킬 밸런스 조정과 전투 시스템의 안정성 확보가 큰 부담입니다. 테스트 과정에서 다양한 기기 환경에서의 성능 최적화가 필수적입니다.",
+        "idea_ko": "캐릭터의 특정 부위나 장비에 물리 효과를 극대화한 미니 게임 형태의 전투 시스템.",
+        "highlights_ko": [
+          "고품질 일러스트와 물리 엔진을 결합한 독창적인 전투 연출을 선보입니다.",
+          "포스트 아포칼립스 세계관을 바탕으로 한 몰입감 있는 시나리오를 제공합니다."
+        ],
+        "systems_ko": [
+          "캐릭터 수집 및 성장 시스템",
+          "실시간 전투 판정 시스템",
+          "물리 엔진 기반 애니메이션 시스템",
+          "스킬 쿨타임 및 효과 관리 시스템",
+          "데이터베이스 기반 아이템 및 장비 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "고품질 아트 리소스 제작은 1인 개발자에게 매우 큰 부담입니다. 또한, 물리 엔진을 활용한 전투 연출과 복잡한 스킬 시스템을 안정적으로 구현하고 밸런스를 맞추는 것은 상당한 기술적 숙련도를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 기본 공격 및 스킬 발동",
+            "적 AI의 기본 패턴 구현",
+            "전투 결과 판정 시스템"
+          ],
+          "defer": [
+            "고급 물리 연산 효과",
+            "복잡한 시나리오 연출",
+            "실시간 멀티플레이 기능"
+          ],
+          "risks": [
+            "아트 리소스 제작 시간 부족",
+            "전투 밸런스 붕괴",
+            "모바일 기기 성능 최적화 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "정지 화면 전투 RPG",
+            "concept": "움직이는 캐릭터 대신 고정된 일러스트를 활용하되, 스킬 사용 시의 이펙트와 연출에 집중한 턴제 RPG입니다. 전략적인 스킬 조합에 초점을 맞춥니다.",
+            "first_step": "캐릭터의 스킬 데이터를 정의하고 전투 순서를 관리하는 기본 로직을 구현합니다."
+          },
+          {
+            "title": "총기 커스텀 슈팅 게임",
+            "concept": "다양한 부품을 조합하여 나만의 총기를 만들고 적을 격파하는 슈팅 게임입니다. 총기마다 다른 물리적 반동과 사격감을 구현합니다.",
+            "first_step": "총기 부품별 능력치 시스템과 사격 시의 기본 물리 효과를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "캐릭터 중심의 게임에서 아트와 연출이 어떻게 몰입감을 만드는지 연구하기 좋습니다. 다만, 1인 개발 시에는 리소스 제작 부담이 적은 장르로 축소하여 개발하는 것을 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 서버 구조, 데이터 동기화 방식, 수익 모델의 상세 구현은 소개문에서 확인할 수 없습니다.",
+        "name": "勝利の女神：NIKKE",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.proximabeta.nikke&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
     }
   }
 }

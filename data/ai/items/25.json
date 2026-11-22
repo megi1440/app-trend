@@ -14899,6 +14899,362 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-21"
+    },
+    "itch:fcce68952725f3bd202b": {
+      "app_key": "itch:fcce68952725f3bd202b",
+      "name": "Neon Breakout — Arcane Brick-Breaker [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://neerajrathta.itch.io/neon-breakout",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:12:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Ten acts. Ten bosses. One paddle. Break the grid, dodge the spells, unlock every hull.",
+      "analysis": {
+        "app_key": "itch:fcce68952725f3bd202b",
+        "summary_ko": "네온 스타일의 비주얼이 돋보이는 벽돌 깨기 게임입니다. 10개의 액트와 10개의 보스전으로 구성되어 있으며, 패들을 조종하여 그리드를 파괴합니다. 주문을 피하며 보스를 공략하는 액션 요소가 포함되어 있습니다.",
+        "features_ko": [
+          "패들을 조종하여 공을 튕겨 벽돌을 파괴합니다.",
+          "10개의 액트와 보스전으로 구성된 캠페인을 제공합니다.",
+          "보스의 주문을 피하는 액션 요소가 포함되어 있습니다.",
+          "다양한 선체(hull)를 잠금 해제할 수 있습니다."
+        ],
+        "noteworthy_ko": "고전적인 벽돌 깨기 장르에 보스전과 탄막 회피 요소를 결합한 점이 흥미롭습니다. 단순한 장르에 액션성을 더해 게임의 깊이를 확장한 사례입니다.",
+        "development_ko": "공의 물리 연산과 보스 패턴 구현이 핵심입니다. 네온 스타일의 비주얼을 위한 셰이더 활용이 중요하며, 보스전 밸런스 테스트에 많은 시간이 소요될 것입니다.",
+        "idea_ko": "보스마다 고유한 물리적 특성을 부여하여 공의 움직임이 달라지는 시스템을 도입하면 더욱 재미있을 것입니다.",
+        "highlights_ko": [
+          "네온 스타일의 화려한 비주얼을 제공합니다.",
+          "벽돌 깨기와 보스전의 결합으로 독특한 액션 경험을 선사합니다."
+        ],
+        "systems_ko": [
+          "공 물리 및 충돌 처리 시스템",
+          "패들 조작 및 제어 시스템",
+          "보스 패턴 및 탄막 생성 시스템",
+          "게임 상태 관리(액트/보스)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 기반의 게임은 구현이 명확하지만, 보스전의 패턴 설계와 밸런스 조정은 반복적인 테스트가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "패들 및 공 물리 엔진",
+            "벽돌 파괴 로직",
+            "기본 보스 패턴 1종"
+          ],
+          "defer": [
+            "다양한 선체 잠금 해제 시스템",
+            "10개 이상의 보스 패턴"
+          ],
+          "risks": [
+            "물리 엔진의 버그(공 끼임 등)",
+            "보스전의 난이도 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중력 벽돌 깨기",
+            "concept": "화면의 중력이 실시간으로 변하여 공의 궤적이 바뀌는 벽돌 깨기입니다.",
+            "first_step": "중력 벡터 변경에 따른 공의 물리 변화 구현."
+          },
+          {
+            "title": "협동 벽돌 깨기",
+            "concept": "두 명의 플레이어가 패들을 나누어 조종하며 보스를 공략하는 방식입니다.",
+            "first_step": "로컬 2인 입력 처리 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "물리 기반 게임의 기초를 다지고 싶은 개발자에게 추천합니다. 보스전 설계를 통해 게임의 긴장감을 조절하는 방법을 배우기 좋습니다.",
+        "source_limitations_ko": "선체 잠금 해제 시스템의 구체적인 보상 체계는 확인되지 않았습니다. 보스전의 상세 패턴이나 난이도 곡선에 대한 정보가 부족합니다.",
+        "name": "Neon Breakout — Arcane Brick-Breaker [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://neerajrathta.itch.io/neon-breakout",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 356,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 8,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
+    },
+    "itch:6e5c2af4d8fafd8008ef": {
+      "app_key": "itch:6e5c2af4d8fafd8008ef",
+      "name": "Bananalamma [Free] [Platformer]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://dearmbyrne-cpu.itch.io/bananalamma",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:12:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Find secret tunnels, race your best ghost or challenge a friend in split-screen.",
+      "analysis": {
+        "app_key": "itch:6e5c2af4d8fafd8008ef",
+        "summary_ko": "비밀 통로를 찾고 고스트와 경주하거나 친구와 분할 화면으로 대결하는 플랫폼 게임입니다. 탐험과 경쟁을 동시에 즐길 수 있는 구조를 가지고 있습니다. 친구와 함께 즐길 수 있는 로컬 멀티플레이를 지원합니다.",
+        "features_ko": [
+          "비밀 통로를 찾아 탐험하는 플랫폼 게임입니다.",
+          "자신의 기록과 경쟁하는 고스트 모드를 제공합니다.",
+          "분할 화면을 통한 로컬 2인 대결 모드를 지원합니다."
+        ],
+        "noteworthy_ko": "플랫폼 게임에 타임 어택과 대결 요소를 결합하여 반복 플레이 가치를 높였습니다. 분할 화면 구현은 기술적으로 도전적이지만 사용자 경험 측면에서 큰 장점입니다.",
+        "development_ko": "캐릭터 이동 및 점프 물리 구현이 가장 중요합니다. 분할 화면 처리를 위한 카메라 시스템과 고스트 데이터 기록/재생 시스템 구현이 핵심입니다.",
+        "idea_ko": "고스트 데이터를 온라인으로 공유하여 전 세계 사용자와 기록 경쟁을 할 수 있는 시스템을 추가하면 좋습니다.",
+        "highlights_ko": [
+          "탐험과 경쟁이라는 두 가지 재미 요소를 결합했습니다.",
+          "로컬 분할 화면 지원으로 친구와 함께 즐기기 좋습니다."
+        ],
+        "systems_ko": [
+          "캐릭터 이동 및 물리 시스템",
+          "분할 화면 카메라 시스템",
+          "고스트 데이터 기록 및 재생 시스템",
+          "레벨 디자인 및 비밀 통로 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "분할 화면 구현과 고스트 데이터 동기화는 기술적 난이도가 높습니다. 또한 정교한 플랫폼 액션의 조작감을 만드는 데 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 캐릭터 이동 및 점프",
+            "레벨 구성",
+            "고스트 기록 기능"
+          ],
+          "defer": [
+            "분할 화면 모드",
+            "온라인 리더보드"
+          ],
+          "risks": [
+            "플랫폼 액션의 조작감 불만족",
+            "분할 화면 시 성능 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "고스트 추격전",
+            "concept": "고스트가 단순히 기록을 보여주는 것이 아니라, 실제로 플레이어를 추격하여 방해하는 모드입니다.",
+            "first_step": "고스트 데이터 기반의 적 AI 이동 구현."
+          },
+          {
+            "title": "협동 플랫폼 퍼즐",
+            "concept": "두 플레이어가 서로의 발판이 되어주며 스테이지를 통과하는 협동 모드입니다.",
+            "first_step": "캐릭터 간 충돌 및 상호작용 로직 구현."
+          }
+        ],
+        "recommendation_ko": "플랫폼 게임의 정교한 물리 구현과 멀티플레이어 시스템을 배우고 싶은 개발자에게 추천합니다. 카메라 제어와 데이터 기록 시스템을 연구하기 좋습니다.",
+        "source_limitations_ko": "비밀 통로의 개수나 레벨의 규모는 확인되지 않았습니다. 고스트 데이터의 저장 방식이나 분할 화면 시의 성능 최적화 전략은 알 수 없습니다.",
+        "name": "Bananalamma [Free] [Platformer]",
+        "source": "itch",
+        "detail_url": "https://dearmbyrne-cpu.itch.io/bananalamma",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 353,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 9,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
+    },
+    "google:com.govee.home": {
+      "app_key": "google:com.govee.home",
+      "name": "Govee Home",
+      "developer": "Govee",
+      "source": "google",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.govee.home&hl=en&gl=US",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:13:30+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Govee Home is an app to help you manage your smart devices. -Check the status of your device in real time -Connect new devices in seconds -Enjoy the artistry & magic of lighting effects -Use mobile phone mic for sound pickup to display real-time lighting effects in tune with the beat.（The function supports you to turn on/off the foreground service, after turning on, even if the APP is in the background, it can still pick up the sound normally.） -Get a first look at new tech and share your ideas -Fast and efficient customer service",
+      "analysis": {
+        "app_key": "google:com.govee.home",
+        "summary_ko": "Govee Home은 스마트 조명 및 가전 기기를 관리하고 제어하는 통합 플랫폼입니다. 실시간 기기 상태 확인과 새로운 기기 연결을 지원하며, 음악 비트에 맞춰 조명 효과를 동기화하는 기능을 제공합니다.",
+        "features_ko": [
+          "연결된 스마트 기기의 상태를 실시간으로 모니터링할 수 있습니다.",
+          "새로운 기기를 빠르게 검색하고 연결할 수 있습니다.",
+          "다양한 조명 효과를 설정하여 예술적인 분위기를 연출할 수 있습니다.",
+          "휴대폰 마이크를 통해 주변 소리를 수집하여 비트에 맞춰 조명을 동기화합니다.",
+          "앱이 백그라운드에 있어도 마이크를 통한 소리 수집이 가능합니다."
+        ],
+        "noteworthy_ko": "하드웨어와 소프트웨어를 연결하는 IoT 플랫폼의 전형적인 구조를 보여줍니다. 특히 백그라운드 서비스(Foreground Service)를 활용하여 마이크 입력을 지속적으로 처리하는 기술적 구현이 핵심입니다.",
+        "development_ko": "블루투스 또는 Wi-Fi를 통한 기기 통신 프로토콜 구현이 가장 중요합니다. 마이크 입력 데이터를 실시간으로 분석하여 조명 제어 신호로 변환하는 알고리즘이 필요합니다. 백그라운드 서비스 관리와 기기 연결 안정성 확보가 개발의 핵심 과제입니다.",
+        "idea_ko": "사용자가 직접 조명 효과를 커스텀하여 공유할 수 있는 커뮤니티 기능을 추가하면 사용자 참여도를 크게 높일 수 있습니다.",
+        "highlights_ko": [
+          "음악 비트와 동기화되는 실시간 조명 제어 기능.",
+          "백그라운드 서비스 활용을 통한 지속적인 환경 제어."
+        ],
+        "systems_ko": [
+          "기기 통신(BLE/Wi-Fi) 모듈",
+          "실시간 오디오 분석 엔진",
+          "백그라운드 서비스 관리 시스템",
+          "기기 상태 모니터링 및 제어 UI"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "하드웨어 통신 프로토콜을 다루어야 하며, 실시간 오디오 처리와 백그라운드 서비스의 안정적인 운영은 높은 수준의 기술적 이해를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기기 검색 및 연결",
+            "기본 조명 켜기/끄기 및 색상 변경"
+          ],
+          "defer": [
+            "음악 비트 동기화 기능",
+            "복잡한 조명 효과 커스터마이징"
+          ],
+          "risks": [
+            "다양한 기기와의 호환성 문제",
+            "통신 지연 및 연결 끊김"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "조명 테마 공유 마켓",
+            "concept": "사용자들이 만든 조명 효과 테마를 공유하고 다운로드할 수 있는 플랫폼입니다.",
+            "first_step": "조명 설정 값을 JSON 형태로 저장하고 불러오는 기능 구현."
+          },
+          {
+            "title": "스마트 알람 조명",
+            "concept": "아침 기상 시간에 맞춰 조명이 서서히 밝아지도록 설정하는 기능입니다.",
+            "first_step": "시간 설정에 따라 조명 밝기를 단계적으로 조절하는 스케줄러 구현."
+          }
+        ],
+        "recommendation_ko": "IoT 기기 제어와 하드웨어 연동에 관심 있는 개발자에게 추천합니다. 실제 기기를 다루는 경험은 매우 가치 있지만, 호환성 테스트 부담이 큽니다.",
+        "source_limitations_ko": "지원하는 기기 목록이나 통신 프로토콜의 상세 내용은 확인되지 않았습니다. 보안 및 개인정보 보호 정책에 대한 구체적인 정보는 없습니다.",
+        "name": "Govee Home",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.govee.home&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 189,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 17,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
+    },
+    "google:com.playstrom.boarding.idle": {
+      "app_key": "google:com.playstrom.boarding.idle",
+      "name": "ボーディングタイム: 放置経営シミュレーション",
+      "developer": "SayGames Ltd",
+      "source": "google",
+      "country": "JP",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.playstrom.boarding.idle&hl=ja&gl=JP",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:13:52+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "離陸の準備は完了！🛫 ボーディングタイムへようこそ！空港を建設、運営、拡大していくエキサイティングなシミュレーションの世界へ飛び込みましょう！空港マネージャーとして旅客輸送を整え、小さなターミナルを世界的なハブ空港へと発展させていきます。 ターミナルが活気づき、飛行機が飛び立つたびに利益が生まれる、本格的な放置ゲームならではの爽快な成長を体験してください。人気の経営ゲームや奥深い経営シュミレーションが好きな方にぴったりの空港経営ゲームです。チームを率いて航空会社の支配人としての腕試しをしながら、搭乗オペレーションをスムーズに進めましょう！ ターミナルを建設・拡張しよう🏢 最初は小さな施設からスタートし、賑やかな交通網を築き上げましょう。このシミュレーションゲームでは、施設をアップグレードするたびに新たな収益チャンスが広がります。 チェックインカウンターを設置して搭乗券の確認を素早く行い、待合エリアを広げて行列を解消しましょう。ピーク時の旅客誘導を工夫し、全ゲートの遅延を減らすのがマネージャーの重要な役目です。 ターミナルが発展していく様子を見守りましょう。得られた資金をサービスの高速化やスタッフの育成、最新の保安検査システムに再投資すれば、一流のタイクーンへの道が開けます。 乗客とフライトをしっかり管理✈️ 毎日何千人もの乗客が訪れるロビーをスムーズに運営しましょう。ターミナル間の移動ルートを整え、手荷物受取所を整備し、出発ゲートへと案内していきます。 保安検査レーンを強化して、旅行客を足止めすることなく送り出しましょう。搭乗手続きを効率化し、フライトスケジュールを調整して搭乗業務を完璧にこなすことが求められます。 フロアはいつも多くの人々で活気にあふれています。満足した乗客が増えるほど売上もアップし、やりがい満点のお金ゲームとして楽しめます。 アップグレードと自動化で収入アップ⚙️ 的確な判断を重ねて、よりスマートな空港を作りましょう！カウンターを増やし、保安検査の流れを改善し、ラッシュ時の混雑にも耐えられるようターミナルの収容力を高めます。 稼いだ資金を設備に再投資して自動化を進めれば、混雑を劇的に解消できます。滑走路1本から世界最高峰の空港へと成長していくプロセスは、まさにやりこみ要素満載のタイクーンゲームそのものです。 拡大、収益化、アップグレードを繰り返しながら、自分だけの帝国を築き上げましょう。手軽に遊べる暇つぶしゲームとしても、じっくり遊ぶシミュレーションとしても抜群の面白さです。 あなただけの航空網を世界へ🌍 小さな滑走路を、世界中の人々が行き交う憧れの拠点へと育て上げましょう！最新の航空機を導入し、ショッピングエリアを開発して売上を最大化する本格派の経営が楽しめます。 乗客を案内し、スムーズな搭乗体験を提供してコインゲーム感覚で資金を増やし、最新技術へ再投資するという最高のサイクルを満喫してください。 本格的なアイドルタイクーンのファンにも、王道の経営ゲームが好きな方にもおすすめできる、直感的な操作性と深い戦略性を兼ね備えた作品です。 さらなる拡大を目指して⭐ 滑走路に休息はありません！24時間いつでもフライトが出発し、放置していても継続的に利益が積み上がっていきます。野心あふれる支配人として、理想のフライト拠点を作り上げましょう。 自動チェックイン機を導入して搭乗口までの移動を早め、伝説のマネージャーを目指してください。アップグレードを重ねるごとに、経営の手腕はさらに磨かれていきます。 ターミナルをさらに大きくしてみませんか？今すぐボーディングタイムをダウンロードして、放置ゲームを始めましょう！ プライバシーポリシー：https://say.games/privacy-policy 利用規約：https://say.games/terms-of-use",
+      "analysis": {
+        "app_key": "google:com.playstrom.boarding.idle",
+        "summary_ko": "공항을 건설하고 운영하며 세계적인 허브 공항으로 성장시키는 방치형 경영 시뮬레이션 게임입니다. 플레이어는 공항 매니저가 되어 체크인, 보안 검색, 탑승 등 공항 운영 전반을 관리합니다. 시설을 업그레이드하고 자동화하여 수익을 극대화하는 것이 핵심 목표입니다.",
+        "features_ko": [
+          "작은 터미널에서 시작하여 점진적으로 시설을 확장하고 공항을 발전시킵니다.",
+          "체크인 카운터와 보안 검색대를 효율적으로 배치하여 승객의 대기 시간을 줄입니다.",
+          "수익을 재투자하여 서비스 속도를 높이고 직원을 육성하여 운영 효율을 개선합니다.",
+          "방치 중에도 비행기 운항을 통해 지속적으로 수익이 발생하는 시스템을 갖추고 있습니다.",
+          "자동화 시스템을 도입하여 혼잡한 시간대의 병목 현상을 해결할 수 있습니다."
+        ],
+        "noteworthy_ko": "방치형 게임의 핵심인 '성장과 자동화' 사이클이 공항 운영이라는 테마와 잘 결합되어 있습니다. 시설 업그레이드에 따른 시각적 변화와 수익 증가가 플레이어에게 즉각적인 보상을 제공하는 구조로 보입니다.",
+        "development_ko": "핵심 구현 기술로는 방치형 수익 계산 로직과 객체(승객)의 경로 탐색 및 대기열 관리 시스템이 필요합니다. 콘텐츠 제작 측면에서는 다양한 시설 에셋과 업그레이드 단계별 수치 밸런싱이 중요하며, 테스트 시에는 대규모 승객 발생 시의 성능 최적화가 핵심입니다.",
+        "idea_ko": "특정 항공사의 비행기 기종별로 탑승 속도와 수익률을 다르게 설정하여 전략적 선택지를 늘리는 방식을 추천합니다.",
+        "highlights_ko": [
+          "24시간 운영되는 공항 시스템을 통해 오프라인 상태에서도 수익이 누적되는 방치형 구조를 제공합니다.",
+          "시설 확장과 자동화 투자를 통해 작은 공항을 거대 허브로 키워내는 성취감을 강조합니다."
+        ],
+        "systems_ko": [
+          "재화 누적 및 자동화 로직",
+          "승객 이동 경로 및 대기열 관리 시스템",
+          "시설 업그레이드 데이터 관리",
+          "UI/UX 기반의 경영 대시보드",
+          "시간 기반 이벤트 트리거"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "방치형 게임의 기본 로직은 구현이 명확하지만, 다수의 승객 객체를 동시에 처리하는 경로 탐색과 최적화 과정에서 난이도가 발생할 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 시설 건설 및 업그레이드 시스템",
+            "승객 생성 및 이동 로직",
+            "시간당 수익 자동 계산 시스템"
+          ],
+          "defer": [
+            "복잡한 미니게임",
+            "실시간 멀티플레이 요소",
+            "고도화된 그래픽 효과"
+          ],
+          "risks": [
+            "다수 객체 처리 시 성능 저하",
+            "수익 밸런스 붕괴로 인한 게임성 상실"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "날씨 변수 경영",
+            "concept": "기상 상황에 따라 비행기 이착륙이 제한되는 변수를 추가하여 긴급 상황 대처 능력을 시험합니다.",
+            "first_step": "날씨 상태에 따라 수익률을 변경하는 간단한 확률 변수 로직 구현."
+          },
+          {
+            "title": "항공사 제휴 시스템",
+            "concept": "특정 항공사와 계약을 맺어 전용 게이트를 운영하고 추가 보너스를 받는 경영 전략 요소를 도입합니다.",
+            "first_step": "게이트별로 다른 수익 배율을 적용하는 데이터 구조 설계."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 수익 모델과 데이터 기반의 성장 구조를 학습하기에 적합합니다. 단순한 클릭 게임을 넘어 시스템 간의 유기적인 연결을 고민하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 수익 모델(광고, 인앱 결제)의 상세 구조나 승객 AI의 세부 알고리즘은 명시되어 있지 않습니다.",
+        "name": "ボーディングタイム: 放置経営シミュレーション",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.playstrom.boarding.idle&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 183,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
     }
   }
 }

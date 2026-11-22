@@ -13025,6 +13025,275 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-22"
+    },
+    "itch:7368288271855542dcfd": {
+      "app_key": "itch:7368288271855542dcfd",
+      "name": "Slot It In There - The Beatdown [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://xenbaby.itch.io/slot-it-in-there-the-beatdown",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:12:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "an homage to 90's beat 'em ups from creators of the YouTube channel @slotitinthere",
+      "analysis": {
+        "app_key": "itch:7368288271855542dcfd",
+        "summary_ko": "90년대 벨트스크롤 액션 게임에 대한 오마주를 담은 액션 게임입니다. 유튜브 채널 'Slot It In There' 제작자들이 선보이는 작품입니다. 고전적인 비트업 장르의 향수를 느낄 수 있습니다.",
+        "features_ko": [
+          "90년대 고전 벨트스크롤 액션 게임의 규칙을 따릅니다.",
+          "적들을 물리치며 진행하는 전투 중심의 게임플레이를 제공합니다."
+        ],
+        "noteworthy_ko": "특정 장르의 향수를 재현하는 것이 개발의 핵심입니다. 고전 게임의 조작감과 타격감을 현대적으로 어떻게 해석했는지가 관전 포인트입니다.",
+        "development_ko": "캐릭터 애니메이션과 타격 판정 구현이 가장 큰 비중을 차지합니다. 고전적인 느낌을 살리기 위한 픽셀 아트 제작 부담이 있을 것으로 보입니다.",
+        "idea_ko": "고전적인 액션에 현대적인 콤보 시스템을 결합하여 조작의 재미를 극대화하는 것이 좋습니다.",
+        "highlights_ko": [
+          "90년대 액션 게임의 감성을 충실히 재현했습니다.",
+          "유튜브 채널의 팬덤을 기반으로 한 커뮤니티 지향적 게임입니다."
+        ],
+        "systems_ko": [
+          "캐릭터 이동 및 공격 판정 시스템",
+          "적 AI 및 상태 머신",
+          "카메라 제어 시스템",
+          "입력 처리 및 콤보 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "액션 게임의 기본 메커니즘 구현은 정형화되어 있으나, 타격감과 밸런스를 맞추는 작업에 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이동 및 공격 애니메이션",
+            "적과의 충돌 및 타격 판정",
+            "스테이지 진행 로직"
+          ],
+          "defer": [
+            "다양한 적 캐릭터 종류",
+            "복잡한 콤보 시스템"
+          ],
+          "risks": [
+            "반복적인 전투로 인한 지루함",
+            "타격감 구현의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "리듬 액션 비트업",
+            "concept": "음악의 비트에 맞춰 공격하면 타격감이 배가되는 시스템입니다. 리듬 게임과 액션 게임을 결합합니다.",
+            "first_step": "음악 비트와 공격 판정 동기화 테스트."
+          },
+          {
+            "title": "환경 상호작용 액션",
+            "concept": "주변 사물을 무기로 활용하는 액션입니다. 지형지물을 이용한 전략적 전투를 강조합니다.",
+            "first_step": "물체 집기 및 던지기 물리 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "고전 액션 게임의 메커니즘을 분석하고 구현해보고 싶은 개발자에게 추천합니다. 타격감과 조작감의 미세한 차이를 연구하기 좋습니다.",
+        "source_limitations_ko": "구체적인 전투 시스템의 깊이나 게임의 분량은 확인되지 않았습니다. 멀티플레이어 지원 여부나 캐릭터 성장 요소에 대한 정보가 부족합니다.",
+        "name": "Slot It In There - The Beatdown [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://xenbaby.itch.io/slot-it-in-there-the-beatdown",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 368,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 4,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
+    },
+    "apple:6503262430": {
+      "app_key": "apple:6503262430",
+      "name": "Social Gamebox: Impostor Game",
+      "developer": "Madami UG (haftungsbeschraenkt)",
+      "source": "apple",
+      "country": "US",
+      "category": "game_board",
+      "detail_url": "https://apps.apple.com/us/app/social-gamebox-impostor-game/id6503262430?uo=2",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:15:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "We were tired of having 10+ apps full of ads and mediocre games, Googling rules, and carrying bulky game boxes. That's why we built Social Gamebox: 30+ games in one single app. Whether you're at a game night, house party, or first date - there's a game for you, including Impostor, Truth or Dare, Hot Bomb, and many more. Works offline and multiplayer. We've included explain videos for each game (you might know from social media). Just add players and start playing in seconds: Anywhere, any game. WHAT'S INSIDE SOCIAL DEDUCTION: Impostor, Werewolf (Mafia), Spy, Murder, Fake It, and more PARTY: Truth or Dare, Never Have I Ever, Hot Bomb, Who's Most Likely, Would You Rather, Share or Shot, and more DATE NIGHT: Qupid (1000+ questions for couples), Questions for Love, A or B, and more GAME NIGHT CLASSICS: Charades, Who Am I, Comedy God, Ten Tangle, Wrong Answers Only, and more THE SOCIAL GAMEBOX DIFFERENCE One Phone, Endless Games – Simply pass one device around Also Works as Multiplayer – Join remotely via code when you can't meet in person Works Completely Offline – Perfect for road trips, camping, flights, or anywhere without WiFi Instant Setup – Add players, tap start, and you're playing in seconds PERFECT FOR EVERY OCCASION First dates & long-term relationships Game nights with friends & family House parties & bars Road trips & hangouts Love the app? Get Premium to unlock special game categories, features and all content in all games. Download Social Gamebox and never have a boring hangout again. Terms of Use: https://socialgamebox.app/terms-and-conditions EULA: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "analysis": {
+        "app_key": "apple:6503262430",
+        "summary_ko": "Social Gamebox는 파티나 모임에서 즐길 수 있는 30개 이상의 다양한 게임을 하나의 앱에 담은 종합 게임 플랫폼입니다. 마피아, 진실 혹은 도전, 밸런스 게임 등 다양한 장르를 지원하며 오프라인에서도 플레이가 가능합니다. 하나의 기기를 여러 사람이 돌려가며 사용하거나, 멀티플레이어 모드를 통해 원격으로도 함께 즐길 수 있습니다.",
+        "features_ko": [
+          "마피아, 늑대인간, 스파이 등 다양한 소셜 디덕션 게임을 제공합니다.",
+          "진실 혹은 도전, 밸런스 게임 등 파티 분위기를 띄우는 게임을 포함합니다.",
+          "하나의 기기를 여러 명이 돌려가며 사용하는 오프라인 플레이를 지원합니다.",
+          "초대 코드를 통해 멀티플레이어 모드로 원격 참여가 가능합니다.",
+          "각 게임의 규칙을 설명하는 영상 가이드를 제공하여 쉽게 시작할 수 있습니다.",
+          "인터넷 연결 없이도 오프라인에서 게임을 즐길 수 있습니다."
+        ],
+        "noteworthy_ko": "여러 개의 게임을 하나의 앱으로 통합하여 앱 설치의 번거로움을 줄인 점이 매우 효율적입니다. 오프라인과 멀티플레이를 모두 지원하여 다양한 상황에 대응할 수 있는 범용성이 돋보입니다.",
+        "development_ko": "핵심 기술은 다양한 게임 규칙을 관리하는 상태 머신과 멀티플레이어 간의 데이터 동기화입니다. 게임별로 독립적인 로직을 가지면서도 공통된 UI/UX를 유지하는 모듈화 설계가 중요합니다. 오프라인 모드를 위해 로컬 데이터 저장과 상태 복구 기능을 안정적으로 구현해야 합니다.",
+        "idea_ko": "사용자가 직접 게임 규칙이나 질문을 추가할 수 있는 '커스텀 게임 제작소' 기능을 도입하여 사용자 참여형 콘텐츠를 확장하는 아이디어가 좋습니다.",
+        "highlights_ko": [
+          "30개 이상의 게임을 하나의 앱으로 통합하여 간편하게 즐길 수 있습니다.",
+          "오프라인과 멀티플레이를 모두 지원하여 장소에 구애받지 않습니다."
+        ],
+        "systems_ko": [
+          "게임 상태 관리 시스템",
+          "멀티플레이어 동기화 엔진",
+          "게임 규칙 및 가이드 관리 모듈",
+          "사용자 입력 및 로컬 데이터 저장",
+          "게임 선택 및 메뉴 UI"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "다양한 게임 로직을 구현해야 하지만, 대부분이 텍스트 기반의 규칙이므로 복잡한 그래픽 엔진 없이도 구현이 가능합니다. 멀티플레이어 동기화가 가장 큰 도전 과제입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "게임 선택 메뉴",
+            "기본적인 게임 로직(마피아 등)",
+            "플레이어 관리 기능"
+          ],
+          "defer": [
+            "멀티플레이어 원격 접속",
+            "게임 규칙 영상 가이드",
+            "프리미엄 콘텐츠 결제"
+          ],
+          "risks": [
+            "게임 간의 로직 충돌 및 버그",
+            "멀티플레이어 동기화의 지연 시간 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "커스텀 퀴즈 메이커",
+            "concept": "사용자가 직접 퀴즈나 질문을 작성하여 모임의 성격에 맞는 게임을 만드는 기능입니다. 친구들만의 특별한 추억을 게임으로 만들 수 있습니다.",
+            "first_step": "질문과 답변을 입력받아 리스트로 저장하고 랜덤으로 출력하는 기능 구현."
+          },
+          {
+            "title": "게임 기록장",
+            "concept": "게임의 승패나 재미있었던 순간을 기록하고 공유하는 기능입니다. 모임의 기록을 남겨 추억을 되새길 수 있습니다.",
+            "first_step": "게임 종료 후 승자나 간단한 메모를 저장하고 보여주는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "다양한 게임 로직을 모듈화하여 관리하는 설계 방식을 배우기에 최적입니다. 개인 개발자라면 소규모 게임부터 시작하여 점진적으로 기능을 확장하는 것을 추천합니다.",
+        "source_limitations_ko": "멀티플레이 구현을 위한 구체적인 네트워크 기술이나 프리미엄 콘텐츠의 상세 내용은 확인되지 않습니다.",
+        "name": "Social Gamebox: Impostor Game",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/social-gamebox-impostor-game/id6503262430?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
+    },
+    "apple:6744920106": {
+      "app_key": "apple:6744920106",
+      "name": "Heart Beat: Heart Rate Monitor",
+      "developer": "TAPSUITE YAZILIM HIZMETLERI ANONIM SIRKETI",
+      "source": "apple",
+      "country": "US",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/us/app/heart-beat-heart-rate-monitor/id6744920106?uo=2",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:16:11+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Heart Beat lets you measure your heart rate using your smartphone camera and keep your wellness records in one place. Check your pulse in beats per minute (BPM), save results, and review your measurement history. You can also manually log blood pressure, blood oxygen, stress levels, and heart rate variability (HRV) values. KEEP TRACK OF YOUR WELLNESS Whether you're checking your pulse after exercise or reviewing your previous records, Heart Beat makes it easy to keep your wellness information organized and accessible. WHAT YOU CAN DO WITH HEARTBEAT Heart Rate Measurement Measure your pulse using your smartphone camera and view your heart rate in BPM. Pulse History Save and review previous heart rate measurements. Blood Pressure Log Manually enter systolic and diastolic blood pressure readings taken with a separate monitor. Blood Oxygen Log Manually enter blood oxygen (SpO2) readings from a separate measurement device. Stress Level Log Record your stress levels manually and review previous entries. HRV Log Manually enter heart rate variability (HRV) values obtained from other sources. Heart Health Education Read general educational information about heart health and cardiovascular symptoms. Measurement History Review saved pulse measurements and manually entered wellness records. Multi-Profile Support Organize wellness records for up to three users. YOUR WELLNESS RECORDS IN ONE PLACE Keep a history of your pulse results alongside manually entered blood pressure, blood oxygen, stress, and HRV values. Heart Beat helps you maintain and review a personal record of your wellness information as part of your daily routine. KEY FEATURES Finger-based heart rate measurement using your smartphone camera View your pulse readings for everyday heart rate tracking Multi-profile support for up to 3 users Daily summaries and heart rate measurement history Manual stress level logging and wellness records Blood pressure, blood oxygen (SpO2), and HRV logging for easy record keeping IMPORTANT HEALTH INFORMATION Heart Beat is intended for general wellness and informational purposes only. It is not intended for medical diagnosis, treatment, or emergency use. The app uses your smartphone camera to measure pulse. It does not measure blood pressure, blood oxygen, stress, or HRV; users enter these values manually. Heart Beat does not detect or diagnose heart attacks, arrhythmias, or other cardiovascular conditions. Do not use the app to make medical decisions. Consult a qualified healthcare professional for medical concerns. Seek immediate medical attention if you experience symptoms of a medical emergency. Contact: support@heartbeatapp.co Privacy Policy: https://heartbeatapp.co/privacy Terms: https://heartbeatapp.co/terms SUBSCRIPTION INFORMATION Subscriptions are offered as auto-renewable plans on a weekly, monthly, or yearly basis (pricing may vary by country). Payment will be charged to your Apple ID account at confirmation of purchase. Your subscription will automatically renew unless it is canceled at least 24 hours before the end of the current billing period, and your account will be charged for renewal within 24 hours prior to the end of the current period. You can manage or cancel your subscription at any time through your Apple Account Settings after purchase. If a free trial is offered, any unused portion of the trial period will be forfeited upon purchasing a subscription.",
+      "analysis": {
+        "app_key": "apple:6744920106",
+        "summary_ko": "Heart Beat는 스마트폰 카메라를 활용하여 심박수를 측정하고 건강 기록을 관리하는 앱입니다. 심박수 외에도 혈압, 혈중 산소, 스트레스 수치 등을 수동으로 기록하여 종합적인 건강 정보를 한곳에서 관리할 수 있습니다. 다중 프로필 지원을 통해 최대 3명까지 기록을 관리할 수 있습니다.",
+        "features_ko": [
+          "스마트폰 카메라를 사용하여 손가락 끝의 혈류를 감지하고 심박수를 측정합니다.",
+          "측정된 심박수 기록을 저장하고 과거 데이터를 조회할 수 있습니다.",
+          "혈압, 혈중 산소(SpO2), 스트레스 수치, HRV를 수동으로 입력하여 기록합니다.",
+          "최대 3명까지 다중 프로필을 지원하여 가족 단위의 건강 관리가 가능합니다.",
+          "심장 건강에 관한 일반적인 교육 정보를 제공합니다.",
+          "일일 요약 및 측정 기록을 통해 건강 상태를 추적합니다."
+        ],
+        "noteworthy_ko": "카메라를 이용한 심박수 측정 기술은 매우 흥미로운 접근입니다. 다만, 의료 기기가 아님을 명시하고 수동 기록을 병행하여 사용자의 건강 관리 습관을 유도하는 방식이 인상적입니다.",
+        "development_ko": "카메라 센서를 통한 PPG(광혈류측정) 신호 처리 알고리즘 구현이 핵심입니다. 다양한 기기의 카메라 성능에 따른 측정 오차를 보정하는 것이 중요하며, 건강 데이터의 안전한 저장과 사용자 인터페이스의 직관성이 중요합니다.",
+        "idea_ko": "측정된 심박수와 사용자의 활동 데이터를 연동하여 '활동별 심박수 변화 리포트'를 제공하는 기능을 제안합니다.",
+        "highlights_ko": [
+          "카메라를 활용한 비침습적 심박수 측정 기술.",
+          "다양한 건강 지표를 수동으로 기록하여 종합적인 건강 기록 관리 가능."
+        ],
+        "systems_ko": [
+          "카메라 센서 데이터 처리 및 PPG 알고리즘",
+          "건강 데이터 저장 및 관리 시스템",
+          "다중 프로필 관리 시스템",
+          "데이터 시각화 및 통계 엔진",
+          "사용자 교육 정보 콘텐츠 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "심박수 측정 알고리즘은 공개된 라이브러리나 기술 문서를 통해 구현 가능하며, 나머지 기능은 데이터 관리 위주이므로 1인이 구현하기에 적절한 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카메라 기반 심박수 측정 기능",
+            "기본 기록 저장 및 조회 기능"
+          ],
+          "defer": [
+            "다중 프로필 지원",
+            "다양한 건강 지표 수동 입력 기능"
+          ],
+          "risks": [
+            "기기별 카메라 성능 차이로 인한 측정 정확도 저하",
+            "의료 기기가 아님을 명시하지 않을 경우 발생하는 법적 책임"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "활동 심박수 리포트",
+            "concept": "운동 전후의 심박수를 측정하여 사용자의 회복 속도를 분석합니다. 운동 강도에 따른 심박수 변화를 그래프로 보여주어 효율적인 운동을 돕습니다.",
+            "first_step": "운동 전후 심박수 측정 및 비교 데이터 시각화 구현."
+          },
+          {
+            "title": "스트레스 관리 알림",
+            "concept": "사용자가 수동으로 입력한 스트레스 수치를 바탕으로 특정 시간대에 휴식을 권장하는 알림을 보냅니다. 스트레스가 높을 때 심호흡 가이드를 제공합니다.",
+            "first_step": "스트레스 수치 기반의 푸시 알림 및 심호흡 가이드 화면 구현."
+          }
+        ],
+        "recommendation_ko": "센서 데이터 처리와 데이터 시각화 기술을 학습하기에 좋습니다. 의료 관련 앱이므로 면책 조항을 명확히 하고 사용자에게 정확한 정보를 제공하는 것이 중요합니다.",
+        "source_limitations_ko": "소개문에는 심박수 측정 알고리즘의 정확도나 데이터 보안 방식에 대한 구체적인 정보는 없습니다. 의료용이 아님을 명시하고 있으나, 실제 서비스 시에는 관련 법규 검토가 필수적입니다.",
+        "name": "Heart Beat: Heart Rate Monitor",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/heart-beat-heart-rate-monitor/id6744920106?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
     }
   }
 }

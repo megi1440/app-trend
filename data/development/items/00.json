@@ -24966,6 +24966,187 @@
         "thoughtsTokenCount": 3159,
         "serviceTier": "standard"
       }
+    },
+    "google:kr.co.js.clipdownlite": {
+      "app_key": "google:kr.co.js.clipdownlite",
+      "name": "클립다운 라이트 (ClipDown Lite)",
+      "developer": "제이스퓨처",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=kr.co.js.clipdownlite&hl=ko&gl=KR",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:kr.co.js.clipdownlite",
+        "product_kind": "app",
+        "original_experience_ko": "클립다운 라이트는 광고 없는 동영상 재생 및 PIP 모드를 지원하는 미디어 플레이어에 사용자의 시청 활동 및 미션 참여에 따라 포인트를 적립해 주는 리워드 시스템을 결합한 앱입니다. 스토어 소개에 따르면 영상 시청, 미션, 친구 초대 등을 통해 포인트를 모아 기프티콘으로 교환할 수 있습니다.",
+        "source_facts_and_limitations_ko": [
+          "광고 없는 동영상 시청 및 PIP(팝업 플레이어) 기능 제공",
+          "시청 시간, 미션 참여, 친구 초대(추천인 2000P)를 통한 포인트 적립 시스템",
+          "네이버페이 및 기프티콘 교환 기능",
+          "포인트 적립 알고리즘, 서버 보안, 외부 API 연동 세부 방식은 스토어 소개만으로 확인 불가"
+        ],
+        "valuable_elements_ko": [
+          "멀티태스킹이 용이한 PIP 및 백그라운드 재생 환경",
+          "콘텐츠 소비 행위에 실질적 보상(포인트)을 결합하여 지속적인 앱 체류를 유도하는 리워드 구조"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "스터디플레이",
+            "core_idea_ko": "학습 및 교육 영상을 시청하며 타임스탬프 기반 메모를 작성하고 퀴즈를 풀면 포인트를 적립받아 지식 콘텐츠나 기프티콘으로 교환하는 교육 리워드 앱.",
+            "what_to_keep_ko": "동영상 재생 환경과 활동 기반 포인트 적립 구조",
+            "what_to_change_ko": "단순한 오락용 영상 시청에서 벗어나 타임스탬프 메모와 퀴즈 인증 등 적극적인 학습 참여 기반의 보상 규칙 도입",
+            "mobile_use_or_play_ko": "사용자가 강의 영상을 재생하며 핵심 내용 구간에 타임스탬프 메모를 남기고, 영상 종료 후 간단한 요약 퀴즈를 풀면 학습 포인트가 적립되는 흐름",
+            "key_features_ko": [
+              "구간별 타임스탬프 메모 동기화",
+              "학습 검증용 퀴즈 및 미션 시스템",
+              "지식 콘텐츠 및 기프티콘 교환 상점"
+            ],
+            "solo_mvp_and_effort_ko": "로컬 DB를 활용한 메모 저장 기능과 내장 웹뷰/플레이어 연동을 중심으로 한 1인 개발 MVP 구축. 백엔드 포인트 서버 연동 난이도는 중간 수준.",
+            "strengths_limits_ko": "자기계발 사용자층에게 높은 유용성을 제공하나, 양질의 교육 콘텐츠 수급 및 저작권 문제 해결이 과제임."
+          },
+          {
+            "title_ko": "보이스라운지",
+            "core_idea_ko": "오디오 콘텐츠를 청취하고 한줄 평이나 오디오 요약을 남기면 포인트를 적립받는 소셜 오디오 리워드 앱.",
+            "what_to_keep_ko": "멀티태스킹을 지원하는 백그라운드 재생 및 보상 시스템",
+            "what_to_change_ko": "비디오 재생 중심에서 오디오 중심으로 전환하고, 단순 시청 시간이 아닌 커뮤니티 리뷰 및 청취 참여도 중심의 보상 규칙 적용",
+            "mobile_use_or_play_ko": "사용자가 오디오 팟캐스트나 강연을 백그라운드로 재생하며 청취한 뒤, 핵심 한줄 평을 작성하고 포인트를 획득하는 흐름",
+            "key_features_ko": [
+              "백그라운드 오디오 서비스 컨트롤러",
+              "청취 시간 및 구간 북마크",
+              "한줄 평 작성 및 동료 평가 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "안드로이드 포그라운드 서비스를 활용한 백그라운드 오디오 재생과 간단한 텍스트 리뷰 DB 구축으로 1인 개발 가능. 난이도 낮음~중간.",
+            "strengths_limits_ko": "데이터 소모가 적고 백그라운드 활용도가 높으나, 오디오 콘텐츠 공급망 확보가 필요함."
+          },
+          {
+            "title_ko": "핏비디오 리워드",
+            "core_idea_ko": "홈트레이닝 운동 영상을 시청하고 운동 완료 타이머와 체크인을 인증하면 건강 포인트를 적립받는 피트니스 리워드 앱.",
+            "what_to_keep_ko": "동영상 플레이어 인터페이스와 행동 기반 보상 동기 부여 구조",
+            "what_to_change_ko": "단순 영상 시청이 아닌 실제 운동 세션 완료 및 타이머 인증을 거쳐야만 보상이 지급되도록 규칙 변경",
+            "mobile_use_or_play_ko": "사용자가 홈트레이닝 영상을 선택해 플레이하고, 운동 루틴 타이머가 종료되면 운동 완료 인증을 통해 포인트를 획득하는 흐름",
+            "key_features_ko": [
+              "운동 루틴 플레이리스트 및 타이머",
+              "운동 완료 인증 체크인 시스템",
+              "건강/웰니스 상품 기프티콘 교환"
+            ],
+            "solo_mvp_and_effort_ko": "기본 플레이어와 로컬 타이머/로그인 연동을 통한 MVP 제작. 가벼운 상태 관리로 1인 개발 가능. 난이도 중간.",
+            "strengths_limits_ko": "운동 동기부여 효과가 탁월하지만 실제 운동 수행 여부를 정교하게 검증하기 어려운 한계가 있음."
+          }
+        ],
+        "concept_comparison_ko": "스터디플레이는 교육적 유용성에 초점을 맞춰 학습 습관 형성을 돕고, 보이스라운지는 오디오 중심의 가벼운 멀티태스킹과 커뮤니티 요소를 강화하며, 핏비디오 리워드는 실생활 운동과 연계된 건강 증진 가치를 제공합니다. 세 기획 모두 원본의 리워드 및 재생 시스템을 계승하되 타겟 사용자층과 보상 조건을 차별화했습니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "스터디플레이는 단순한 콘텐츠 소비를 넘어 실질적인 지식 습득과 메모라는 생산적 활동에 보상을 연동하여 원본 앱의 리워드 모델을 가장 교육적이고 유용한 방향으로 확장합니다. 1인 개발 환경에서도 텍스트 메모와 플레이어 제어 중심의 MVP 구현이 현실적입니다.",
+        "next_questions_ko": [
+          "교육 영상 콘텐츠를 안정적으로 수급할 수 있는 퍼블릭 API나 크리에이터 제휴 방안은 무엇인가?",
+          "부정 적립을 방지하기 위한 최소한의 시청 및 메모 검증 로직을 어떻게 설계할 것인가?",
+          "리워드 지급을 위한 외부 기프티콘 API 연동 전 단계에서 수동 정산 MVP로 테스트가 가능한가?"
+        ]
+      },
+      "brief_at": "2026-11-23T07:44:10+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 1781,
+        "candidatesTokenCount": 1447,
+        "totalTokenCount": 6841,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1781
+          }
+        ],
+        "thoughtsTokenCount": 3613,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:kr.co.js.clipdownlite",
+        "product_kind": "app",
+        "selected_concept_title_ko": "스터디플레이",
+        "project_goal_and_audience_ko": "자기계발 및 학습을 원하는 모바일 사용자들을 위해, 교육용 동영상을 시청하며 타임스탬프 메모를 작성하고 퀴즈를 풀면 포인트를 적립해주는 리워드형 학습 지원 앱입니다.",
+        "source_relation_and_difference_ko": "원본 앱의 핵심 경험인 동영상 시청 기반 자동 리워드 적립 구조를 유지하되, 단순 수동 시청 방식에서 벗어나 타임스탬프 메모 작성과 학습 퀴즈 인증이라는 적극적인 생산적 활동을 결합하여 실질적인 지식 습득 보상 모델로 개선했습니다.",
+        "core_user_experience_ko": "사용자는 앱 내에서 학습 영상을 선택해 재생합니다. 영상 시청 중 중요한 순간에 타임스탬프 메모 버튼을 눌러 생각을 기록하고, 영상이 끝난 후 제공되는 핵심 퀴즈를 풀면 시스템이 정답 여부와 시청 완료를 판정하여 학습 포인트를 지급합니다. 사용자는 적립된 포인트로 학습 관련 기프티콘이나 추가 콘텐츠를 구매할 수 있습니다.",
+        "features_ko": [
+          {
+            "feature_ko": "타임스탬프 메모 동기화 플레이어",
+            "user_action_and_behavior_ko": "영상 재생 중 특정 시점에서 메모 작성 버튼을 누르면 현재 재생 시간이 타임스탬프와 함께 로컬 DB에 저장되고, 이후 해당 메모를 터치하면 해당 영상 구간으로 즉시 이동합니다.",
+            "practical_implementation_ko": "Android ExoPlayer를 활용하여 동영상 제어 인터페이스를 구축하고, Room DB를 통해 로컬 타임스탬프 데이터를 관리합니다."
+          },
+          {
+            "feature_ko": "학습 검증용 퀴즈 시스템",
+            "user_action_and_behavior_ko": "영상의 특정 구간 또는 종료 시점에 생성된 퀴즈 모달이 표시되며, 사용자가 정답을 선택하면 학습 성취도와 함께 보상 포인트가 산정됩니다.",
+            "practical_implementation_ko": "JSON 형식의 퀴즈 데이터를 파싱하여 UI로 렌더링하고, 정답 판정 로직을 클라이언트 내에서 구현합니다."
+          },
+          {
+            "feature_ko": "포인트 적립 및 보상 상점",
+            "user_action_and_behavior_ko": "퀴즈 정답 및 메모 작성 활동에 따라 포인트가 누적되며, 상점 화면에서 기프티콘이나 유료 요약 노트로 교환할 수 있습니다.",
+            "practical_implementation_ko": "포인트 변동 내역을 관리하는 로컬 트랜잭션 구조를 설계하고 상점 화면과의 연동을 구현합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "홈 및 강의 탐색 화면",
+            "contents_and_actions_ko": "카테고리별 교육 영상 목록 표시, 영상 선택 시 상세 화면으로 이동."
+          },
+          {
+            "screen_ko": "동영상 재생 및 메모 작성 화면",
+            "contents_and_actions_ko": "동영상 플레이어 영역, 타임스탬프 메모 리스트, 메모 입력 폼."
+          },
+          {
+            "screen_ko": "퀴즈 및 리워드 적립 화면",
+            "contents_and_actions_ko": "학습 완료 후 퀴즈 풀기 인터페이스, 정답 결과 확인 및 포인트 획득 애니메이션."
+          },
+          {
+            "screen_ko": "포인트 상점 화면",
+            "contents_and_actions_ko": "현재 보유 포인트 잔액 확인, 교환 가능한 기프티콘 및 콘텐츠 목록 조회."
+          }
+        ],
+        "implementation_approach_ko": "Android Native(Kotlin) 및 Jetpack Compose를 사용하여 직관적이고 반응 빠른 UI를 구현합니다. 미디어 재생은 ExoPlayer 라이브러리를 활용하고, 로컬 데이터는 Room DB를 사용하여 1인 개발 환경에서 안정적인 구조를 확보합니다.",
+        "data_and_storage_ko": [
+          "UserObject: user_id, total_points, last_login_date - 사용자 식별 및 보유 포인트 상태 관리. SharedPreferences 활용.",
+          "VideoObject: video_id, title, url, duration, category - 교육 영상 메타데이터 저장. 로컬 JSON을 통해 로드.",
+          "MemoObject: memo_id, video_id, timestamp, content, created_at - 사용자가 작성한 타임스탬프 메모 정보. Room DB에 로컬 저장.",
+          "QuizObject: quiz_id, video_id, question, options, correct_answer - 영상별 학습 검증용 퀴즈 데이터."
+        ],
+        "mvp_scope_ko": "외부 기프티콘 실제 연동 및 대규모 백엔드 서버 구축은 제외하고, 로컬 영상 재생, 타임스탬프 메모 저장, 간단한 로컬 퀴즈 풀이 및 가상 포인트 적립 기능까지만 포함하여 1인 개발 프로토타입의 실현 가능성을 높입니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 미디어 재생 및 UI 뼈대 구축",
+            "deliverable_and_check_ko": "ExoPlayer 기반 영상 재생 화면 구현 및 기본 레이아웃 구성. 영상이 정상 재생되는지 에뮬레이터에서 확인."
+          },
+          {
+            "stage_ko": "2단계: 타임스탬프 메모 및 로컬 DB 연동",
+            "deliverable_and_check_ko": "Room DB를 이용한 메모 추가/조회 기능 구현. 버튼 클릭 시 현재 재생 시간이 기록되는지 테스트."
+          },
+          {
+            "stage_ko": "3단계: 퀴즈 시스템 및 포인트 로직 구현",
+            "deliverable_and_check_ko": "퀴즈 풀이 결과에 따른 가상 포인트 적립 및 상점 화면의 포인트 잔액 갱신 확인."
+          }
+        ],
+        "possible_extensions_ko": "클라우드 기반 메모 동기화, 사용자 간 학습 노트 공유 커뮤니티, 실제 제휴처 연동 실시간 기프티콘 교환 시스템, AI 기반 요약 노트 자동 생성 기능.",
+        "risks_and_open_decisions_ko": [
+          "교육 콘텐츠 저작권 문제: 상용 영상 사용 시 법적 문제가 발생할 수 있으므로 초기에는 오픈 소스 교육 영상이나 자체 제작 콘텐츠 중심 검토 필요.",
+          "부정 적립 방지: 사용자가 영상을 고속으로 넘기거나 무단 반복 재생하여 포인트를 어뷰징하는 행위를 막기 위한 재생 속도 제한 및 시청 완료율 검증 로직의 고도화 필요.",
+          "서버 비용 및 수익 모델: 리워드 앱 특성상 광고 수익이나 제휴 모델이 확보되지 않으면 지속 가능성이 떨어지므로 초기 모델은 시뮬레이션 포인트 위주로 설계."
+        ],
+        "draft_status_ko": "본 문서는 스터디플레이 앱의 핵심 기능 구현을 위한 개발 설계 초안이며, 실제 구현 및 사용자 테스트, 성능 최적화가 완료되지 않은 상태입니다."
+      },
+      "plan_at": "2026-11-23T07:44:37+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 2320,
+        "candidatesTokenCount": 1691,
+        "totalTokenCount": 6329,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2320
+          }
+        ],
+        "thoughtsTokenCount": 2318,
+        "serviceTier": "standard"
+      }
     }
   }
 }

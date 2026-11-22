@@ -13173,6 +13173,277 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-22"
+    },
+    "google:com.watchfacestudio.per86": {
+      "app_key": "google:com.watchfacestudio.per86",
+      "name": "PER86 Digital Watch Face",
+      "developer": "Persona Watch Face",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.watchfacestudio.per86&hl=en&gl=US",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:13:10+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "🚀PER86 Digital Watch Face is an advanced digital watch face designed for Wear OS smartwatches. It offers changeable font styles, a realistic 3D background, stunning visuals, and weather forecast data. 🎨 Customize your PER86 Digital Watch Face 10 font styles for time 10 backgrounds 30 colors 7 custom complications 🔹 Key Features of PER86 Digital Watch Face Weather type and temperature (°F / °C) High & Low temperature (°F / °C) Next 2 days' weather type Next 2 days' temperature (°F / °C) Steps, daily goal & distance (KM / Miles) Phone & watch battery level Active burned calories, floors Heart rate monitor UV index, rain possibility Moon phase, sunset/sunrise Time zone, barometer Next appointment reminder Always-On display with adjustable colors 🛠️ Easy Customization Mode Simply touch and hold to personalize what data you see — weather, sunrise/sunset, time zone, and more. 🔋 For extra complications and widgets like phone battery, calories, or floors, please check the setup guide here: 👉 https://persona-wf.com/installation/ ❓ Weather Not Updating? Seeing a “❓” icon? That means your watch can’t get weather data. Check your internet connection and refresh the watch face. 🌙 Always-On Display (AOD) The watch face has an always-active display. You can change the brightness level in the customization menu. There are 10 levels in total. The colors are synchronized with the normal view. With the new option “AOD Dim” in the customization menu, you can now change the AOD layout. 🌐 More Details: https://persona-wf.com/portfolios/galaxy/ 📖 Installation Guide Before leaving a review, make sure to check the installation guide and FAQ for a smooth experience: 👉 https://persona-wf.com/installation/ ⌚ Supported Devices Compatible with all Wear OS watches SAMSUNG Galaxy Watch Ultra 2 - Ultra, Watch 9 - 8 - 7 - 6 - 5 - 4 GOOGLE Pixel Watch 5 - 4 - 3 - 2 - 1 ONEPLUS Watch 4 - 3, OPPO Watch X3 - X2 - X XIAOMI Watch 5, FITBIT Ace LTE 🚀 Exceptional Support Need assistance? We’re here for you 📩 support@persona-wf.com 💜 Join Our Community Get the latest designs & exclusive offers 🌐 https://persona-wf.com 📩 Newsletter https://persona-wf.com/register 👍 Facebook https://www.facebook.com/Persona-Watch-Face 📸 Instagram https://www.instagram.com/persona_watch_face 💬 Telegram https://t.me/persona_watchface ▶️ YouTube https://www.youtube.com/c/PersonaWatchFace 💖💖💖 Thank You for Choosing PERSONA! We hope our design brightens your day and your wrist 😊 Designed with love by Ayla GOKMEN",
+      "analysis": {
+        "app_key": "google:com.watchfacestudio.per86",
+        "summary_ko": "Wear OS 스마트워치를 위한 디지털 워치 페이스입니다. 다양한 폰트, 배경, 색상 커스터마이징과 함께 날씨, 건강 데이터 등 풍부한 정보를 제공합니다.",
+        "features_ko": [
+          "10가지 폰트 스타일과 10가지 배경을 선택할 수 있습니다.",
+          "30가지 색상 테마를 통해 화면을 개인화할 수 있습니다.",
+          "날씨, 걸음 수, 심박수 등 7가지 사용자 지정 컴플리케이션을 지원합니다.",
+          "Always-On 디스플레이 모드에서 밝기와 레이아웃을 조절할 수 있습니다.",
+          "날씨 정보 및 다음 일정 알림을 실시간으로 표시합니다."
+        ],
+        "noteworthy_ko": "사용자에게 높은 수준의 커스터마이징 옵션을 제공하는 것이 특징입니다. 다양한 데이터를 위젯 형태로 배치하는 레이아웃 설계가 개발 관점에서 복잡도가 높을 것으로 추정됩니다.",
+        "development_ko": "Wear OS의 워치 페이스 API 활용이 핵심입니다. 다양한 데이터 소스(날씨, 건강) 연동과 배터리 효율을 고려한 AOD 최적화가 중요합니다.",
+        "idea_ko": "사용자의 활동량에 따라 배경색이 변하는 동적 테마 기능을 추가하여 시각적 재미를 높일 수 있습니다.",
+        "highlights_ko": [
+          "다양한 커스터마이징 옵션(폰트, 색상, 배경).",
+          "실시간 건강 및 날씨 데이터 연동."
+        ],
+        "systems_ko": [
+          "워치 페이스 렌더링 엔진",
+          "데이터 소스 연동(Health, Weather API)",
+          "사용자 설정 저장 및 관리",
+          "AOD 전력 최적화 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "Wear OS 개발 환경에 대한 이해가 필요하며, 다양한 컴플리케이션 연동과 배터리 효율 최적화 작업이 까다롭기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "시간 표시 기능",
+            "기본 배경 설정",
+            "색상 변경 옵션"
+          ],
+          "defer": [
+            "날씨 데이터 연동",
+            "고급 컴플리케이션 위젯"
+          ],
+          "risks": [
+            "배터리 소모 최적화 실패",
+            "다양한 기기 해상도 대응"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "감정 기반 테마",
+            "concept": "사용자의 심박수나 활동량에 따라 워치 페이스의 분위기가 차분하거나 활기차게 변합니다.",
+            "first_step": "심박수 데이터 수신 및 배경색 변경 로직 구현."
+          },
+          {
+            "title": "미니멀 집중 모드",
+            "concept": "업무 중에는 불필요한 정보를 숨기고 시간과 일정만 크게 표시하는 모드를 제공합니다.",
+            "first_step": "표시 정보 토글 스위치 구현."
+          }
+        ],
+        "recommendation_ko": "웨어러블 기기용 UI/UX 디자인과 데이터 연동을 배우기에 좋습니다. 개인 개발자에게는 특정 데이터에 집중한 니치한 워치 페이스 제작을 추천합니다.",
+        "source_limitations_ko": "데이터 연동을 위한 정확한 API 명세나 외부 서비스와의 통신 방식은 소개문만으로 확인이 불가능합니다.",
+        "name": "PER86 Digital Watch Face",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.watchfacestudio.per86&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 231,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 3,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
+    },
+    "google:jp.garud.ssimulator": {
+      "app_key": "google:jp.garud.ssimulator",
+      "name": "サクラスクールシミュレーター",
+      "developer": "GARUSOFT K.K.",
+      "source": "google",
+      "country": "JP",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=jp.garud.ssimulator&hl=ja&gl=JP",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:13:52+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "高校と小さな街で、生徒や住人と交流しながら生活していくシミュレーションゲームです。 バトルなどのミッションもあります。（更新で少しずつ増えていきます。） はちゃめちゃにしたり、恋愛をしたり･･･簡易AIで動く街の人と楽しもう！ 男子、女子高校生をゲーム中にチェンジできます。 また、アンロックで高校生以外のサブキャラクターも操作できます。 ヒント ・好感度を上げるには、お世辞と餌付けが効果的！ ・武器は地面に落ちていません。怪しい事務所から借りてこよう！ ※低スペック機種や古い機種では動作しません。 (Snapdragon4xxシリーズなどの低価格帯端末) スペック上は問題ない場合でも、メーカー側が意図的に性能を抑えている場合（メモリ使用量の上限を設けている場合）も動作しません。 ※端末のスペック自体が低い場合は起動できてもスムーズにプレイできません。 そのような場合は、 ｢MENU｣＞｢システム設定｣＞｢処理軽量化｣において、 ｢生徒数を減らす｣、｢表示距離を短くする｣「車OFF」などの設定をしてください。 発熱で動作が遅くなる仕様の端末の場合は、冷ましてからプレイしてください。 アクセス権限（SDへのアクセス）は拒否しても起動できます。 データの保存に使用しています。 Scrub-chan (C)Bijuu Mike (C)2018 ガルソフト株式会社（旧ガルソフト合同会社,旧ガルソフト開発合資会社）",
+      "analysis": {
+        "app_key": "google:jp.garud.ssimulator",
+        "summary_ko": "고등학교와 작은 마을을 배경으로 학생이나 주민들과 교류하며 일상을 즐기는 시뮬레이션 게임입니다. 전투 미션이나 연애 등 다양한 활동이 가능하며, 샌드박스 형식으로 자유로운 플레이를 지원합니다. 캐릭터를 변경하거나 다양한 서브 캐릭터를 조작할 수 있는 요소가 포함되어 있습니다.",
+        "features_ko": [
+          "고등학교와 마을을 자유롭게 탐험하며 주민들과 상호작용할 수 있습니다.",
+          "전투 미션이 포함되어 있어 다양한 액션을 즐길 수 있습니다.",
+          "남자, 여자 고등학생 캐릭터를 자유롭게 전환하며 플레이할 수 있습니다.",
+          "특정 조건을 달성하여 고등학생 외의 서브 캐릭터를 잠금 해제할 수 있습니다.",
+          "간이 AI로 움직이는 마을 사람들과 연애나 대화 등 다양한 관계를 맺을 수 있습니다."
+        ],
+        "noteworthy_ko": "정해진 목표 없이 자유롭게 행동할 수 있는 샌드박스형 시뮬레이션이라는 점이 흥미롭습니다. NPC의 행동 패턴을 간이 AI로 구현하여 생동감을 주는 방식은 1인 개발자가 참고할 만한 효율적인 접근입니다.",
+        "development_ko": "3D 오픈월드 환경 구현과 캐릭터 컨트롤러, NPC AI 로직이 핵심입니다. 다양한 상호작용을 위한 이벤트 시스템과 아이템/무기 관리 로직이 필요합니다. 저사양 기기 최적화를 위해 학생 수 조절이나 표시 거리 제한 등의 시스템적 배려가 중요합니다.",
+        "idea_ko": "NPC들의 관계도를 시각화하여 플레이어의 행동이 마을 전체의 평판에 어떤 영향을 미치는지 보여주는 시스템을 추가하면 몰입감이 높아질 것입니다.",
+        "highlights_ko": [
+          "자유도 높은 샌드박스 환경에서 다양한 캐릭터와 상호작용할 수 있습니다.",
+          "전투와 일상생활이 공존하는 독특한 게임 플레이를 제공합니다."
+        ],
+        "systems_ko": [
+          "3D 캐릭터 컨트롤러",
+          "NPC 행동 AI 시스템",
+          "상호작용 이벤트 트리거",
+          "오픈월드 렌더링 최적화",
+          "아이템 및 인벤토리 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "3D 오픈월드 환경에서의 물리 엔진 처리와 다수의 NPC AI 관리, 그리고 기기별 최적화 작업이 1인 개발자에게는 매우 높은 난이도이기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 상호작용",
+            "기본 NPC AI",
+            "학교/마을 맵 환경"
+          ],
+          "defer": [
+            "복잡한 전투 시스템",
+            "다양한 캐릭터 커스터마이징",
+            "고도화된 물리 효과"
+          ],
+          "risks": [
+            "저사양 기기에서의 성능 최적화 실패",
+            "NPC AI의 버그 및 비정상적 행동"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "마을 평판 시스템",
+            "concept": "플레이어의 행동에 따라 마을 사람들의 태도가 변하고, 특정 장소의 출입이 제한되는 시스템입니다.",
+            "first_step": "NPC와의 호감도 변수와 이에 따른 대사 변화 로직 구현."
+          },
+          {
+            "title": "시간대별 이벤트",
+            "concept": "시간 흐름에 따라 학교 수업, 방과 후 활동, 야간 순찰 등 마을의 풍경이 변하는 시스템입니다.",
+            "first_step": "게임 내 시간 시스템과 시간대별 NPC 위치 변경 로직 구현."
+          }
+        ],
+        "recommendation_ko": "3D 샌드박스 게임의 기초를 다지고 싶은 개발자에게 추천합니다. 특히 제한된 리소스로 오픈월드 느낌을 내는 최적화 기법을 배우기에 좋습니다.",
+        "source_limitations_ko": "소개문에는 NPC AI의 구체적인 알고리즘이나 전투 시스템의 상세 로직은 명시되어 있지 않습니다.",
+        "name": "サクラスクールシミュレーター",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=jp.garud.ssimulator&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 177,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
+    },
+    "apple:1668755109": {
+      "app_key": "apple:1668755109",
+      "name": "Brotato:Premium",
+      "developer": "Erabit Studios",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/us/app/brotato-premium/id1668755109?uo=2",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:14:13+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A top-down arena shooter roguelite where you play a potato wielding up to 6 weapons at a time to fight off hordes of aliens. Choose from a variety of traits and items to create unique builds and survive until help arrives. The sole survivor: Brotato, the only potato capable of handling 6 weapons at the same time. Waiting to be rescued by his mates, Brotato must survive in this hostile environment. 【Features】 · Auto-firing weapons by default with a manual aiming option Fast runs (under 30 minutes) · Dozens of characters available to customize your runs (one-handed, crazy, lucky, mage and many more) · Hundreds of items and weapons to choose from (flamethrowers, SMGs, rocket launchers or sticks and stones) · Survive waves lasting 20 to 90 seconds each and kill off as many aliens as you can during that time · Collect materials to gain experience and get items from the shop between waves of enemies · Accessibility options: tweak the health, damage and speed of enemies so the difficulty is right for you *Cloud storage is only available while online. You can play offline, but your data will not be saved to the cloud. Please take note of this. 【Contact Us】 YouTube: https://www.youtube.com/channel/UCtaSitbjWjhnlzuX2ZLjtUg Discord：@Erabit or join via https://discord.gg/P6vekfhc46 Twitter：@erabit_studios Tik Tok：https://www.tiktok.com/@brotato_mobile Facebook：@Brotato(facebook.com/brotatomobile) Instagram: https://www.instagram.com/brotato_mobile/ Reddit: https://www.reddit.com/r/brotato_mobile/ Email：support@erabitstudios.com",
+      "analysis": {
+        "app_key": "apple:1668755109",
+        "summary_ko": "다양한 무기를 장착한 감자가 외계인 무리로부터 살아남는 탑다운 아레나 슈터 로그라이트 게임입니다. 짧은 시간 동안 몰려오는 적을 처치하고 재료를 모아 아이템을 구매하며 캐릭터를 성장시킵니다. 다양한 캐릭터와 아이템 조합을 통해 매번 새로운 빌드를 구성하는 것이 핵심입니다.",
+        "features_ko": [
+          "기본적으로 무기가 자동으로 발사되며 수동 조준 옵션을 지원합니다.",
+          "20초에서 90초 사이의 짧은 웨이브 단위로 게임이 진행됩니다.",
+          "수백 가지의 아이템과 무기를 선택하여 캐릭터 빌드를 구성할 수 있습니다.",
+          "웨이브 사이의 상점에서 재료를 사용하여 아이템을 구매하고 성장합니다.",
+          "적의 체력, 피해량, 속도를 조절할 수 있는 접근성 옵션을 제공합니다."
+        ],
+        "noteworthy_ko": "단순한 조작과 짧은 플레이 타임으로 로그라이트의 재미를 극대화한 점이 돋보입니다. 무기 자동 발사 시스템과 다양한 캐릭터 특성을 조합하여 매 판마다 다른 전략을 요구하는 설계가 매우 효과적입니다.",
+        "development_ko": "핵심 기술은 다수의 적을 처리하는 최적화된 객체 관리와 무기 발사 로직입니다. 콘텐츠 제작은 캐릭터와 아이템의 밸런스 조정에 많은 시간이 소요되며, 반복적인 테스트를 통해 빌드의 다양성을 확보해야 합니다.",
+        "idea_ko": "특정 테마(예: 주방 도구)의 무기만 사용하여 생존하는 '챌린지 모드'를 추가하는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "30분 이내의 빠른 플레이 타임으로 높은 몰입감을 제공합니다.",
+          "다양한 캐릭터와 아이템 조합을 통해 높은 리플레이 가치를 확보했습니다."
+        ],
+        "systems_ko": [
+          "적 생성 및 AI 이동 시스템",
+          "무기 자동 발사 및 충돌 판정",
+          "아이템 및 스탯 관리 시스템",
+          "상점 및 재화 경제 시스템",
+          "게임 상태 관리(웨이브/일시정지)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "핵심 메커니즘인 슈팅과 아이템 시스템은 구현이 명확하지만, 다수의 적을 동시에 처리하는 최적화와 캐릭터 간 밸런스를 맞추는 작업이 필요합니다. 1인 개발 시 콘텐츠 양을 조절하면 충분히 구현 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 자동 사격",
+            "적 생성 및 AI",
+            "기본 아이템 상점"
+          ],
+          "defer": [
+            "다양한 캐릭터 클래스",
+            "클라우드 저장 기능",
+            "수동 조준 옵션"
+          ],
+          "risks": [
+            "다수 객체 처리 시 성능 저하",
+            "아이템 간 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "무기 합성 시스템",
+            "concept": "동일한 무기 두 개를 합쳐 상위 등급의 무기를 만드는 시스템입니다. 아이템 파밍의 재미를 강화합니다.",
+            "first_step": "무기 데이터 구조에 등급 필드를 추가하고 합성 로직을 구현합니다."
+          },
+          {
+            "title": "환경 변수 모드",
+            "concept": "매 웨이브마다 맵의 환경(예: 빙판, 용암)이 바뀌어 이동이나 사격에 영향을 줍니다. 전략적 위치 선정을 유도합니다.",
+            "first_step": "맵 타일의 속성을 변경하는 간단한 시스템을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "로그라이트 게임의 핵심 루프인 '성장-전투-보상' 구조를 학습하기에 최적입니다. 게임 밸런스 조정과 최적화 기술을 익히고 싶은 개발자에게 강력히 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 엔진 정보나 내부 최적화 기법이 명시되어 있지 않습니다. 또한 온라인 기능(클라우드 저장)의 구현 방식은 별도의 서버 인프라가 필요할 수 있습니다.",
+        "name": "Brotato:Premium",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/brotato-premium/id1668755109?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 171,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 23,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
     }
   }
 }

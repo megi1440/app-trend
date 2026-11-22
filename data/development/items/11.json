@@ -27354,6 +27354,361 @@
         "thoughtsTokenCount": 2037,
         "serviceTier": "standard"
       }
+    },
+    "google:com.hkbufftechnology.arkorigin": {
+      "app_key": "google:com.hkbufftechnology.arkorigin",
+      "name": "아크：오리진",
+      "developer": "HK BUFF TECHNOLOGY",
+      "source": "google",
+      "kind": "game",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.hkbufftechnology.arkorigin&hl=ko&gl=KR",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.hkbufftechnology.arkorigin",
+        "product_kind": "game",
+        "original_experience_ko": "판타지 세계관을 배경으로 한 오픈월드 MMORPG로, 광활한 대륙 탐험과 다양한 직업별 스킬 전투, 화려한 3D 그래픽 연출을 통한 캐릭터 성장이 핵심 경험입니다. (단, 서버 구조나 세부 콘텐츠는 스토어 상에서 미확인 상태임)",
+        "source_facts_and_limitations_ko": [
+          "스토어 소개문에서 판타지 오픈월드 MMORPG, 3D 그래픽, 다채로운 직업 및 스킬 전투 요소를 확인할 수 있음.",
+          "실제 서버 아키텍처, 구체적인 직업 종류, 인앱 결제 및 퀘스트의 상세 구조 등은 스토어 정보만으로 파악할 수 없음."
+        ],
+        "valuable_elements_ko": [
+          "광활한 판타지 세계를 탐험하는 시각적 몰입감과 오픈월드의 자유도",
+          "직업별 고유 스킬과 화려한 연출을 활용한 전투의 손맛"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "솔로 아크: 타임 루프 던전",
+            "core_idea_ko": "대규모 서버 인프라가 필요한 오픈월드 MMORPG의 한계를 극복하고, 싱글플레이 기반의 타임루프 액션 RPG로 재해석하여 매 반복마다 달라지는 스킬 조합과 전투의 재미를 극대화하는 게임.",
+            "what_to_keep_ko": "다양한 직업별 고유 스킬 조합, 화려한 3D 액션 연출, 미지의 세계를 탐험하는 판타지 경험 계승.",
+            "what_to_change_ko": "복잡한 실시간 멀티플레이 서버 구조를 제거하고 단일 세션 루프형 스테이지 구조로 변경하여 1인 개발 현실화.",
+            "mobile_use_or_play_ko": "모바일 화면에서 가상 패드로 캐릭터를 조작하여 적을 처치하고, 루프마다 새로운 스킬 카드를 획득해 전투 스타일을 빌드업하는 흐름.",
+            "key_features_ko": [
+              "타임루프 기반 로그라이트 스킬 조합",
+              "직업별 액션 스타일 시뮬레이션",
+              "단일 세션 최적화된 3D 액션 연출"
+            ],
+            "solo_mvp_and_effort_ko": "Unity 엔진을 사용하여 1개의 캐릭터 클래스와 5종의 던전 맵, 기본 전투 로직만 구현하는 최소 기능 제품(MVP) 제작.",
+            "strengths_limits_ko": "1인 개발 가능성이 높고 반복 플레이 재미가 있으나, 타격감 튜닝과 클래스 다양성 확보에 많은 시간 소요."
+          },
+          {
+            "title_ko": "에테르 크래프트: 포켓 오픈월드",
+            "core_idea_ko": "무거운 MMORPG의 그래픽 및 서버 요구사항을 낮추고, 로우폴리 3D 기반의 가벼운 포켓 오픈월드에서 자원을 채집하고 거점을 발전시키는 모험 탐험 게임.",
+            "what_to_keep_ko": "광활한 판타지 대륙을 누비는 탐험의 재미와 캐릭터 및 거점 성장 요소 계승.",
+            "what_to_change_ko": "복잡한 실시간 액션 전투 대신 간소화된 턴제 또는 오토배틀 탐험·경영 루프로 전환.",
+            "mobile_use_or_play_ko": "터치 기반으로 지도를 탐색하고 자원을 수집하여 거점을 업그레이드하며 새로운 지역의 안개를 밝히는 흐름.",
+            "key_features_ko": [
+              "로우폴리 3D 미니멀 오픈월드 탐험",
+              "거점 건설 및 자원 순환 시스템",
+              "간소화된 스킬 장착 및 자동 전투"
+            ],
+            "solo_mvp_and_effort_ko": "타일맵 기반 이동 시스템과 핵심 자원 채집 루프를 우선 구현하여 개발 리스크 최소화.",
+            "strengths_limits_ko": "개발 부하가 적고 모바일 최적화가 용이한 반면, 액션성의 손실로 원작의 화려한 전투 재미가 약화될 수 있음."
+          },
+          {
+            "title_ko": "레전드 오브 아크: 태스크 포스",
+            "core_idea_ko": "실시간 동기화가 불가능한 1인 개발 한계를 극복하기 위해, 다양한 직업의 AI 용병을 고용하여 파티를 구성하고 던전을 공략하는 비동기 전략 파티 RPG.",
+            "what_to_keep_ko": "다양한 직업의 역할 분담, 파티 전투의 시너지, 스킬 연출의 재미 계승.",
+            "what_to_change_ko": "실시간 MMORPG를 비동기 파티 전략 택틱스 게임으로 변경하여 네트워크 비용과 동기화 이슈 원천 차단.",
+            "mobile_use_or_play_ko": "던전 진입 전 탱커·딜러·힐러 직업 조합을 편성하고 전투 중 적절한 타이밍에 궁극기 스킬을 지시하는 흐름.",
+            "key_features_ko": [
+              "직업별 시너지 중심의 비동기 파티 전투",
+              "AI 용병 시스템 및 전술 배치",
+              "스테이지 클리어형 성장 구조"
+            ],
+            "solo_mvp_and_effort_ko": "3개 기본 직업의 AI 행동 패턴과 단일 던전 전투 루프를 구현하는 수준으로 MVP 설정.",
+            "strengths_limits_ko": "직업 조합의 전략적 재미가 명확하지만, 실시간 액션 조작의 손맛보다는 전략 게임에 가까워짐."
+          }
+        ],
+        "concept_comparison_ko": "세 아이디어는 원작의 판타지 세계관과 직업/전투 요소를 계승하면서도 1인 개발이 불가능한 대규모 서버 오픈월드 구조의 한계를 각각 타임루프 액션(1), 미니멀 탐험 경영(2), 비동기 파티 전략(3)으로 우회합니다. 1번은 액션성과 빌드업, 2번은 탐험과 자원 관리, 3번은 직업 조합과 전략에 집중합니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "원작이 강조하는 '손맛을 살린 전투 스타일과 스킬 연출'을 가장 잘 살리면서도, MMORPG의 무거운 서버 인프라 문제를 싱글 루프 로그라이트 구조로 해결하여 1인 개발 현실성을 크게 높였기 때문입니다.",
+        "next_questions_ko": [
+          "모바일 환경에서 가상 패드를 통한 액션 조작감이 1인 개발 범위 내에서 충분히 만족스럽게 구현될 수 있는가?",
+          "타임루프 구조 내에서 플레이어가 체감하는 성장의 보람이 반복 플레이 시 지루함 없이 유지되는가?"
+        ]
+      },
+      "brief_at": "2026-11-23T06:46:57+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 1464,
+        "candidatesTokenCount": 1492,
+        "totalTokenCount": 7277,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1464
+          }
+        ],
+        "thoughtsTokenCount": 4321,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.hkbufftechnology.arkorigin",
+        "product_kind": "game",
+        "selected_concept_title_ko": "솔로 아크: 타임 루프 던전",
+        "project_goal_and_audience_ko": "이 게임은 모바일 환경에서 화려한 판타지 액션 RPG의 손맛을 가볍고 직관적으로 즐기고 싶은 유저를 위한 싱글플레이 타임루프 액션 게임입니다. 복잡한 다중 접속이나 대형 서버 인프라 없이도, 매 반복 플레이마다 변화하는 스킬 빌드업과 던전 탐험의 재미를 제공합니다.",
+        "source_relation_and_difference_ko": "원본 오픈월드 MMORPG의 핵심 매력인 직업별 고유 스킬, 화려한 3D 그래픽 연출, 판타지 세계관의 전투 몰입감을 그대로 계승했습니다. 차이점으로는 진입 장벽이 높은 멀티플레이 및 서버 동기화 구조를 제거하고, 오프라인에서도 원활한 싱글 세션 기반의 로그라이트 루프 구조로 개편하여 1인 개발이 가능하도록 현실화했습니다.",
+        "core_user_experience_ko": "유저는 모바일 화면의 가상 조이스틱으로 캐릭터를 이동하고, 우측 액션 버튼으로 회피와 스킬을 사용합니다. 던전 내 적들을 소탕하면서 무작위로 제시되는 스킬 카드 중 하나를 선택해 자신만의 전투 빌드를 강화합니다. 사망 시 타임루프가 발동하여 일부 재화를 가지고 메인 로비로 복귀하며, 새로운 장비나 특성을 해제해 다음 루프를 더 유리하게 진행할 수 있습니다.",
+        "features_ko": [
+          {
+            "feature_ko": "타임루프 로그라이트 스킬 빌드업",
+            "user_action_and_behavior_ko": "웨이브 및 방 클리어 시 3가지 무작위 스킬 카드 중 하나를 선택하면 즉시 캐릭터의 패시브 또는 액티브 스킬이 강화되어 전투 양상이 달라집니다.",
+            "practical_implementation_ko": "C# ScriptableObject로 스킬 데이터 구조를 정의하고, 유니티 인스턴스 내 리스트 매니저를 통해 선택된 스킬 효과를 실시간으로 캐릭터 스탯 및 이벤트 콜백에 연동합니다."
+          },
+          {
+            "feature_ko": "가상 패드 기반 3D 액션 전투 시스템",
+            "user_action_and_behavior_ko": "좌측 조이스틱으로 이동, 우측 버튼으로 기본 공격, 스킬, 회피를 조작하며 적의 공격 패턴을 피하고 타격감을 체감합니다.",
+            "practical_implementation_ko": "Unity CharacterController와 애니메이션 메커니즘을 활용하며, 입력벤더 이벤트를 받아 상태 패턴으로 캐릭터 상태를 관리합니다."
+          },
+          {
+            "feature_ko": "직업별 커스터마이징 로비 시스템",
+            "user_action_and_behavior_ko": "던전에서 획득한 루프 재화를 사용해 전사, 마법사 등의 직업별 영구 능력치를 강화하거나 신규 장비를 해제합니다.",
+            "practical_implementation_ko": "JSON 형식의 로컬 저장소를 활용하여 유저의 성장 데이터와 재화 상태를 안전하게 세이브 및 로드합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 로비 화면",
+            "contents_and_actions_ko": "직업 선택, 영구 특성 강화, 상점, 던전 입장 버튼 표시. 던전 입장 시 전투 화면으로 전환됩니다."
+          },
+          {
+            "screen_ko": "던전 전투 화면",
+            "contents_and_actions_ko": "상단 미니맵 및 체력바, 좌측 가상 조이스틱, 우측 스킬 및 회피/공격 버튼 배치. 몬스터 처치 시 경험치와 재화 드랍."
+          },
+          {
+            "screen_ko": "스킬 선택 카드 팝업 화면",
+            "contents_and_actions_ko": "방 클리어 시 화면 중앙에 3장의 카드 노출. 터치 시 스킬 획득 후 다음 방으로 이동."
+          },
+          {
+            "screen_ko": "결과 및 타임루프 정산 화면",
+            "contents_and_actions_ko": "클리어 또는 사망 시 획득 재화 요약 표시, 로비로 돌아가기 버튼 제공."
+          }
+        ],
+        "implementation_approach_ko": "Unity 엔진을 선택하여 모바일 최적화 3D 액션 구현 및 멀티플랫폼 배포 용이성을 확보합니다. 클라이언트 단독 구동 구조로 설계하여 복잡한 서버 개발 부담을 없애고, Addressable Asset 시스템을 활용해 맵과 리소스를 효율적으로 관리합니다. 대안으로는 2D 탑뷰 액션으로 전환하는 방안이 있으나, 원작의 시각적 매력을 살리기 위해 로우 폴리곤 3D 그래픽 방식을 고수합니다.",
+        "data_and_storage_ko": [
+          "PlayerData: 유저 ID, 보유 재화, 직업별 레벨, 해제된 영구 특성 목록. 로비 진입 시 로드, 특성 변경 또는 로비 아웃 시 로컬 JSON 파일로 즉시 저장.",
+          "DungeonState: 현재 루프 층수, 캐릭터 체력, 현재 장착된 스킬 리스트, 던전 내 획득 재화. 던전 진행 중 실시간 메모리 관리, 사망 또는 클리어 시 정산 후 파기.",
+          "SkillCardData: 스킬 ID, 이름, 아이콘, 등급, 스탯 보정치 계수. ScriptableObject로 에디터 내에서 정의 및 관리."
+        ],
+        "mvp_scope_ko": "1개의 직업과 3종의 몬스터, 5개의 스테이지로 구성된 단일 던전 루프를 구현합니다. 멀티플레이, 복잡한 인벤토리 장비 파밍, 방대한 퀘스트 시스템은 MVP 범위에서 제외하며, 오직 쾌적한 액션 전투와 루프 성장의 재미를 검증하는 데 집중합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 기본 이동 및 액션 프로토타입",
+            "deliverable_and_check_ko": "가상 조이스틱 입력에 따른 3D 캐릭터 이동, 기본 공격, 회피 애니메이션 구현 여부 확인."
+          },
+          {
+            "stage_ko": "2단계: 전투 및 스킬 카드 시스템",
+            "deliverable_and_check_ko": "적 AI 추적 및 피격 판정, 방 클리어 시 무작위 스킬 카드 팝업 등장 및 스펙 반영 확인."
+          },
+          {
+            "stage_ko": "3단계: 루프 흐름 및 로비 연동",
+            "deliverable_and_check_ko": "사망 또는 클리어 시 로비 복귀, 재화 정산 및 로컬 JSON 저장/로드 정상 작동 여부 확인."
+          },
+          {
+            "stage_ko": "4단계: UI/UX 및 모바일 최적화",
+            "deliverable_and_check_ko": "모바일 해상도 대응, 터치 입력 반응 속도 개선 및 프레임 드랍 테스트 수행."
+          }
+        ],
+        "possible_extensions_ko": "정식 출시 이후 신규 직업 추가, 원거리 및 마법사 클래스 확장, 보스 패턴 다양화, 무작위 이벤트 방 및 특수 장비 슬롯 시스템을 순차적으로 도입할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "1인 개발 환경에서 모바일 3D 타격감과 이펙트 최적화를 동시에 달성하기 위한 리소스 경량화 방안 검토 필요.",
+          "타임루프 로그라이트 장르 특유의 반복 피로도를 줄이기 위한 메타 성장 속도 및 밸런스는 프로토타입 테스트를 통해 지속 조정해야 함.",
+          "모바일 가상 패드 조작 시 시점 전환과 스킬 버튼 배치의 직관성에 대한 실제 유저 피드백 수집 필요."
+        ],
+        "draft_status_ko": "본 문서는 원작의 지적 자산과 장르적 장점을 싱글플레이 로그라이트 형식으로 재해석하기 위해 작성된 1인 모바일 개발 설계 초안이며, 실제 구현 및 플레이테스트를 통해 지속적으로 수정될 예정입니다."
+      },
+      "plan_at": "2026-11-23T06:47:14+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 2018,
+        "candidatesTokenCount": 1989,
+        "totalTokenCount": 7310,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2018
+          }
+        ],
+        "thoughtsTokenCount": 3303,
+        "serviceTier": "standard"
+      }
+    },
+    "google:com.localaiapp.scoops": {
+      "app_key": "google:com.localaiapp.scoops",
+      "name": "Scoopz: Real Life, Real Videos",
+      "developer": "Local AI, Inc.",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.localaiapp.scoops&hl=en&gl=US",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.localaiapp.scoops",
+        "product_kind": "app",
+        "original_experience_ko": "사용자가 무작위 글로벌 트렌드 피드에서 벗어나 자신의 관심사나 지역 기반의 마이크로 커뮤니티인 '서클'을 직접 선택하고, 그 안에서 필터링 없는 실생활 중심의 숏폼 영상을 시청하고 공유하는 커뮤니티형 비디오 앱 경험.",
+        "source_facts_and_limitations_ko": [
+          "스토어 확인 사실: '서클(Circles)'이라는 관심사/지역 기반 커뮤니티 중심 피드 구조, 서클 내 직접 게시 기능, 스튜디오 없이 간편한 모바일 촬영, 크리에이터 펀드 수익화 프로그램 존재.",
+          "스토어 미확인 사항: 영상 파일 저장 및 CDN 인프라 구조, 수익화 정산의 구체적 로직, 콘텐츠 검열 및 보안 시스템의 작동 방식은 명시되지 않음."
+        ],
+        "valuable_elements_ko": [
+          "알고리즘 기반의 무작위 추천 혼잡에서 벗어나, 사용자가 직접 선택한 마이크로 커뮤니티(서클) 중심의 밀도 높은 피드 구성.",
+          "꾸밈없는 일상과 실생활 중심의 진정성 있는 콘텐츠를 공유하고 타겟 오디언스와 직접 소통하는 경험."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "동네기록소",
+            "core_idea_ko": "반경 1km 이내의 지리적 위치(GPS) 인증을 거친 주민들만 참여할 수 있는 로컬 밀착형 숏폼 비디오 커뮤니티 앱.",
+            "what_to_keep_ko": "광범위한 트렌드 대신 소그룹(서클) 중심의 피드 구조와 스마트폰으로 간편하게 일상을 찍어 올리는 숏폼 공유 방식을 계승합니다.",
+            "what_to_change_ko": "관심사 위주의 느슨한 모임에서 엄격한 GPS 기반 지역 인증 제도를 도입하여, 동네 소상공인 소식, 동네 풍경, 생활 정보 등 실질적인 지역 밀착 콘텐츠로 차별화합니다.",
+            "mobile_use_or_play_ko": "사용자가 앱을 실행하면 GPS로 현재 동네가 인증되고, 이웃들이 올린 30초 분량의 동네 마켓 세일 정보나 골목 풍경 영상을 시청한 뒤, 자신의 위치에서 직접 골목 소식을 촬영해 업로드합니다.",
+            "key_features_ko": [
+              "GPS 좌표 기반의 엄격한 로컬 서클 자동 가입 및 피드 필터링",
+              "동네 지도와 숏폼 영상 타임라인의 시각적 결합",
+              "이웃 간 중고 나눔 및 생활 정보 태그 부착 기능"
+            ],
+            "solo_mvp_and_effort_ko": "로컬 데이터베이스와 SQLite/Room을 활용한 위치 기반 필터링, 기기 내 영상 압축 후 기본 스토리지 업로드 연동으로 1인 개발 가능. 지도 API 연동 시 API 호출 비용 및 위치 위변조 방지 대책이 현실적 과제.",
+            "strengths_limits_ko": "동네 주민 간의 높은 유대감과 실생활 유용성을 제공하나, 초기 서비스 지역별 사용자 밀도(치킨게임)를 확보하지 못하면 콘텐츠가 비어 보일 수 있는 약점이 있습니다."
+          },
+          {
+            "title_ko": "루틴서클",
+            "core_idea_ko": "목표 달성이나 자기계발을 위해 매일 정해진 미션을 짧은 영상으로 인증하고 상호 피드백하는 습관 형성 커뮤니티 앱.",
+            "what_to_keep_ko": "특정 주제로 묶인 소그룹(서클)에 직접 영상을 게시하고 동질감을 느끼는 핵심 커뮤니티 상호작용 구조를 계승합니다.",
+            "what_to_change_ko": "단순 일상 공유에서 벗어나, 매일의 달성 여부를 증명하는 '스트릭(Streak)' 시스템과 시간 제한이 걸린 인증 영상 업로드 규칙을 결합하여 생산적 성취 도구로 바꿉니다.",
+            "mobile_use_or_play_ko": "사용자가 '오전 6시 기상 서클'에 가입한 뒤, 알람 시간에 맞춰 오늘 일어난 모습을 담은 5초짜리 타임랩스 영상을 촬영해 인증하면 다른 멤버들의 인증 영상 격려 리스트가 해금됩니다.",
+            "key_features_ko": [
+              "매일 반복되는 챌린지 락(Lock) 기능이 포함된 서클 타임라인",
+              "연속 달성일(Streak) 카운터 및 시각적 배지 시스템",
+              "상호 응원을 위한 익스프레스 리액션 스탬프"
+            ],
+            "solo_mvp_and_effort_ko": "복잡한 알고리즘 없이 날짜별 상태 관리와 로컬 파일 저장소 연동만으로 구현 가능하여 1인 개발에 최적화됨. 푸시 알림 서버 설정과 사용자 동기부여 메커니즘 설계가 핵심.",
+            "strengths_limits_ko": "사용자의 잔존율과 재방문율을 높이는 강력한 습관 고리가 장점이지만, 매일 참여해야 하는 피로감으로 인해 중도 이탈률이 발생할 수 있는 한계가 있습니다."
+          },
+          {
+            "title_ko": "프로다이얼로그",
+            "core_idea_ko": "전문가나 숙련된 하비스트들이 특정 실무·취미 질문에 대해 숏폼 영상으로 직관적인 노하우를 답변하고 교류하는 Q&A 커뮤니티 앱.",
+            "what_to_keep_ko": "관심사별로 분화된 마이크로 서클 구조와 영상 제작의 진입장벽을 낮춘 간편한 모바일 업로드 방식을 계승합니다.",
+            "what_to_change_ko": "무작위 일상 공유에서 벗어나 '질문-답변' 형태의 구조적 스레드를 도입하여, 텍스트로 설명하기 어려운 수리, 공예, 코딩 등의 노하우를 영상으로 주고받도록 규칙을 바꿉니다.",
+            "mobile_use_or_play_ko": "사용자가 집수리 중 막히는 부분을 15초 영상으로 찍어 'DIY 홈 서클'에 질문으로 올리면, 서클 내 숙련된 사용자가 해결 방법을 담은 45초 시연 영상을 답글 형태로 게시합니다.",
+            "key_features_ko": [
+              "질문 영상과 답변 영상이 매칭되는 스레드형 비디오 UI",
+              "서클 내 전문 기여자 배지 및 신뢰도 투표 시스템",
+              "핵심 해결 영상 북마크 및 가이드 아카이빙"
+            ],
+            "solo_mvp_and_effort_ko": "관계형 데이터베이스에 질문-답변 비디오 ID 맵핑 구조를 구축하고 기본 비디오 플레이어를 연동하여 구현 가능. 실력 있는 초기 크리에이터(답변자) 유치 방안이 성패를 좌우함.",
+            "strengths_limits_ko": "실용적 가치가 매우 높아 사용자의 목적성이 뚜렷하지만, 초기 콘텐츠 공급자인 전문가 풀을 확보하기 전에는 공백기가 길어질 수 있는 위험이 있습니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 기획(동네기록소)은 지리적 결속력이 강하나 초기 지역 밀도 확보가 어렵고, 두 번째 기획(루틴서클)은 습관 형성으로 잔존율이 높으나 피로도가 존재하며, 세 번째 기획(프로다이얼로그)은 실용적 정보 가치가 높으나 초기 전문가 공급이 과제입니다. 세 아이디어 모두 원본의 '마이크로 커뮤니티 숏폼' 장점을 유지하면서 각각 위치성, 습관 형성, Q&A 실용성으로 목적을 다각화했습니다.",
+        "recommended_concept_number": 2,
+        "why_recommended_ko": "'루틴서클'은 단순 소비형 피드에서 벗어나 매일의 인증과 습관 형성을 결합하여 앱의 핵심 가치와 잔존율을 자연스럽게 끌어올립니다. 1인 개발 관점에서 복잡한 추천 알고리즘 없이 단순 스트릭 관리와 타임라인 구조만으로 탄탄한 MVP를 만들 수 있으며, 원본의 커뮤니티 유대감이라는 장점을 가장 생산적이고 지속 가능한 방식으로 발전시켰습니다.",
+        "next_questions_ko": [
+          "짧은 영상 인증 시 서버 트래픽 비용을 통제하기 위해 클라이언트 측에서 비디오 해상도와 비트레이트를 어느 수준까지 압축해야 하는가?",
+          "그룹 내 동기부여가 끊기지 않도록 강제하는 최소 서클 정원(Critical Mass)은 몇 명으로 설정하는 것이 적절한가?"
+        ]
+      },
+      "brief_at": "2026-11-23T07:01:19+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 1570,
+        "candidatesTokenCount": 2102,
+        "totalTokenCount": 5967,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1570
+          }
+        ],
+        "thoughtsTokenCount": 2295,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.localaiapp.scoops",
+        "product_kind": "app",
+        "selected_concept_title_ko": "루틴서클",
+        "project_goal_and_audience_ko": "자기계발과 목표 달성을 위해 매일 숏폼 영상으로 인증하고 상호 피드백을 주고받는 2030 직장인 및 학생들을 위한 습관 형성 모바일 앱입니다. 무분별한 숏폼 소비에서 벗어나 생산적인 성취감과 커뮤니티 유대감을 제공합니다.",
+        "source_relation_and_difference_ko": "원본 Scoopz의 특정 주제별 마이크로 커뮤니티(서클) 구조와 직접 영상 게시 방식을 계승하면서, 단순한 일상 공유를 넘어선 매일 미션 인증 및 스트릭(Streak) 관리라는 생산적 규칙을 결합하여 실질적인 자기계발 효용을 더했습니다.",
+        "core_user_experience_ko": "사용자는 기상, 운동 등 관심 서클에 가입한 뒤 매일 정해진 시간 제한 내에 5초 미만 인증 영상을 촬영 및 업로드합니다. 업로드 완료 전까지는 다른 사람들의 인증 피드가 블러 처리되어 볼 수 없으며, 업로드 직후에만 전체 멤버의 피드가 해금되어 상호 응원 스탬프를 남길 수 있는 구조로 작동합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "제한 시간 인증 타임라인",
+            "user_action_and_behavior_ko": "사용자가 당일 미션 시간 내에 카메라로 짧은 영상을 촬영해 제출하면 타임라인에 등록되며 미제출 시 피드가 잠겨 성취감을 부여합니다.",
+            "practical_implementation_ko": "CameraX API를 활용한 5초 영상 제한 촬영 모듈, 기기 내 로컬 임시 저장 후 서버 업로드, 타임스탬프 검증 로직을 구현합니다."
+          },
+          {
+            "feature_ko": "스트릭 및 배지 시스템",
+            "user_action_and_behavior_ko": "연속 달성일(Streak)이 홈 화면에 카운트되며 특정 마일스톤 달성 시 시각적 배지를 획득하여 지속적인 동기를 부여받습니다.",
+            "practical_implementation_ko": "로컬 SQLite(Room)를 통한 날짜별 연속 기록 계산 및 상태 업데이트 로직을 구현합니다."
+          },
+          {
+            "feature_ko": "익스프레스 리액션 스탬프",
+            "user_action_and_behavior_ko": "멤버들의 인증 영상에 터치 한 번으로 응원 스탬프를 남겨 가볍고 빠른 상호작용을 유도합니다.",
+            "practical_implementation_ko": "서버 DB에 스탬프 카운트 증가 처리 및 실시간 UI 반영을 위한 가벼운 비동기 HTTP 요청을 연동합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "서클 메인 및 피드 화면",
+            "contents_and_actions_ko": "가입한 서클 목록, 오늘 인증 상태, 멤버들의 인증 숏폼 피드 목록 표시 및 업로드 버튼 제공."
+          },
+          {
+            "screen_ko": "영상 촬영 및 인증 화면",
+            "contents_and_actions_ko": "카메라 프리뷰, 5초 타이머 표시, 촬영 완료 후 재촬영 또는 즉시 제출 선택, 제출 시 스트릭 갱신."
+          },
+          {
+            "screen_ko": "마이페이지 및 스트릭 통계 화면",
+            "contents_and_actions_ko": "현재 연속 달성일수, 획득한 배지 리스트, 지난 인증 히스토리 캘린더 뷰 확인."
+          }
+        ],
+        "implementation_approach_ko": "Flutter를 활용해 안드로이드 크로스플랫폼 개발을 진행하여 UI 및 카메라 모듈 구현 리소스를 절감합니다. 백엔드는 Node.js와 Firebase Firestore를 연동하여 가벼운 실시간 데이터 동기화와 인증 영상 스토리지를 구축합니다.",
+        "data_and_storage_ko": [
+          "User 객체: 사용자 ID, 닉네임, 프로필 이미지 URL, 전체 스트릭 카운트, 읽고 쓰는 시점은 로그인 및 앱 실행 시.",
+          "Circle 객체: 서클 ID, 서클명, 카테고리, 참여 멤버 목록, 미션 마감 시간.",
+          "Post 객체: 포스트 ID, 서클 ID, 유저 ID, 영상 파일 URL, 인증 날짜, 스탬프 카운트.",
+          "저장 및 관리: 로컬 SharedPreferences에 로그인 세션 및 오늘 인증 여부 캐싱, 영상 파일은 클라우드 스토리지에 업로드 후 메타데이터만 DB 저장."
+        ],
+        "mvp_scope_ko": "단 하나의 서클 가입 및 5초 영상 인증, 연속 스트릭 카운트, 기본 피드 조회 기능만 구현합니다. 댓글이나 복잡한 수익화, 다중 서클 관리 등은 제외하여 1인이 4주 내에 프로토타입을 완성할 수 있도록 설정합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 기본 UI 구조 및 로컬 데이터 설계",
+            "deliverable_and_check_ko": "메인 홈, 피드, 마이페이지 레이아웃 구현 및 로컬 스트릭 카운트 로직 검증."
+          },
+          {
+            "stage_ko": "2단계: 카메라 및 숏폼 업로드 연동",
+            "deliverable_and_check_ko": "CameraX 활용 5초 제한 촬영 및 클라우드 스토리지 연동 테스트."
+          },
+          {
+            "stage_ko": "3단계: 서클 및 피드 연동",
+            "deliverable_and_check_ko": "서클 가입 상태에 따른 피드 블러 처리 및 업로드 후 해금 로직 검증."
+          }
+        ],
+        "possible_extensions_ko": "친구 초대 기능, 커스텀 미션 생성 마켓플레이스, 프리미엄 배지 및 테마 커스터마이징, 크리에이터 펀드 연계 리워드 시스템.",
+        "risks_and_open_decisions_ko": [
+          "매일 인증해야 하는 압박감으로 인한 높은 이탈률 위험 (푸시 알림 타이밍 최적화로 완화 필요).",
+          "가짜 영상 업로드 방지를 위한 단순 AI 감지 또는 상호 신고 시스템의 필요성 검토.",
+          "클라우드 스토리지 비용 증가에 따른 영상 용량 및 보존 기간 정책 미확정."
+        ],
+        "draft_status_ko": "본 문서는 루틴서클 앱의 1인 모바일 개발을 위한 설계 초안이며 실제 구현, 플레이테스트 및 성능 측정이 완료되지 않은 기획 단계의 문서입니다."
+      },
+      "plan_at": "2026-11-23T07:01:39+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 2259,
+        "candidatesTokenCount": 1612,
+        "totalTokenCount": 6015,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2259
+          }
+        ],
+        "thoughtsTokenCount": 2144,
+        "serviceTier": "standard"
+      }
     }
   }
 }

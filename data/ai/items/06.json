@@ -14036,6 +14036,190 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-22"
+    },
+    "google:com.outfit7.mytalkingangela2": {
+      "app_key": "google:com.outfit7.mytalkingangela2",
+      "name": "My Talking Angela 2",
+      "developer": "Outfit7 Limited",
+      "source": "google",
+      "country": "US",
+      "category": "game_casual",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.outfit7.mytalkingangela2&hl=en&gl=US",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:16:34+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "My Talking Angela 2 is the ultimate virtual pet game that brings fun, fashion, and creativity to your everyday life. Step into the big city with the stylish Angela and embark on a journey filled with exciting activities and endless entertainment in the Talking Tom & Friends universe! Key Features: - Stylish Hair, Makeup, and Fashion Choices: Transform Angela with various hairstyles, makeup options, and fashionable outfits. Dress her up for fashion shows and personalize her look to make her shine like a star. - Exciting Activities: Engage in a variety of fun activities, including dancing, baking, martial arts, trampoline jumping, jewelry making, and planting flowers on the balcony. - Delicious Food and Snacks: Bake and cook delicious treats for Angela. From cakes to cookies, satisfy her sweet tooth with your culinary skills. - Travel Adventures: Take Angela on jet-setting travel adventures to explore new destinations and cultures. And to shop until she drops! - Mini-Games and Puzzles: Challenge your skills with fun mini-games and puzzles that test your reflexes and strategic thinking. - Sticker Collections: Collect and complete sticker albums to unlock special rewards and new content. Express Your Creativity: Angela inspires you to be creative, bold, and expressive. Design her outfits, experiment with makeup, and decorate her home to reflect your unique style. From Outfit7, creators of the hit games My Talking Tom, My Talking Tom 2 and My Talking Tom Friends. This app contains: - Promotion of Outfit7's products and advertising; - Links that direct customers to Outfit7’s websites and other apps; - Personalization of content to encourage users to play the app again; - The option to make in-app purchases; - Subscriptions, which are auto-renewable, unless cancelled before the end of the current subscription period. You can manage and cancel a subscription in your Google Play Account settings after purchase. - Some features may be subject to different pricing and availability. - Items to purchase (available in different prices) using virtual currency, depending on the player’s progress; - Alternative options to access all functionalities of the app without making any in-app purchases using real money. Terms of use: https://talkingtomandfriends.com/eula/en/ Customer support: support@outfit7.com Privacy policy: https://talkingtomandfriends.com/privacy-policy-games/en",
+      "analysis": {
+        "app_key": "google:com.outfit7.mytalkingangela2",
+        "summary_ko": "My Talking Angela 2는 가상 반려동물과 함께 일상적인 활동을 즐기는 캐주얼 게임입니다. 안젤라를 꾸미고, 요리하고, 여행을 떠나는 등 다양한 상호작용을 제공합니다. 미니 게임과 퍼즐을 통해 전략적 사고와 반사 신경을 테스트할 수 있습니다. 사용자의 창의성을 발휘하여 안젤라의 외모와 집을 꾸밀 수 있습니다.",
+        "features_ko": [
+          "헤어스타일, 메이크업, 의상 등 안젤라의 외모를 자유롭게 꾸밀 수 있습니다.",
+          "춤, 베이킹, 무술, 트램펄린 등 다양한 활동을 수행합니다.",
+          "여행을 통해 새로운 장소를 탐험하고 쇼핑을 즐길 수 있습니다.",
+          "미니 게임과 퍼즐을 통해 보상을 획득하고 기술을 테스트합니다.",
+          "스티커 앨범을 수집하여 특별한 보상과 콘텐츠를 잠금 해제합니다."
+        ],
+        "noteworthy_ko": "사용자와의 지속적인 상호작용을 통해 애착을 형성하는 가상 반려동물 장르의 전형을 보여줍니다. 다양한 미니 게임을 통합하여 단조로움을 피하고 사용자 체류 시간을 늘리는 구성이 흥미롭습니다.",
+        "development_ko": "캐릭터의 상태 관리와 애니메이션 시스템이 핵심입니다. 다양한 아이템과 꾸미기 요소에 대한 데이터 관리 체계가 필요합니다. 미니 게임별로 독립적인 로직을 구현하고 이를 메인 게임과 연결하는 구조가 중요합니다.",
+        "idea_ko": "반려동물의 성격이 사용자의 상호작용 방식에 따라 변화하는 시스템을 도입하면 더 깊은 몰입감을 줄 수 있습니다.",
+        "highlights_ko": [
+          "사용자의 창의성을 자극하는 풍부한 커스터마이징 요소.",
+          "다양한 미니 게임과 수집 요소를 통한 지속적인 재미 제공."
+        ],
+        "systems_ko": [
+          "캐릭터 상태 관리(배고픔, 행복도 등)",
+          "아이템 커스터마이징 및 데이터 저장",
+          "미니 게임 로직 및 점수 시스템",
+          "UI/UX 기반의 상호작용 인터페이스",
+          "보상 및 수집품 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "핵심 메커니즘인 캐릭터 상호작용과 간단한 미니 게임은 1인 개발자가 구현하기에 적절한 난이도입니다. 다만, 방대한 꾸미기 아이템과 콘텐츠를 모두 구현하려면 시간이 많이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 기본 상호작용(터치 반응)",
+            "간단한 꾸미기 기능",
+            "기본 미니 게임 1종"
+          ],
+          "defer": [
+            "복잡한 여행 시스템",
+            "스티커 앨범 전체",
+            "다양한 의상 아이템"
+          ],
+          "risks": [
+            "콘텐츠 부족으로 인한 짧은 플레이 타임",
+            "캐릭터 애니메이션의 부자연스러움",
+            "반복적인 활동의 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "반려동물 성격 시뮬레이터",
+            "concept": "사용자의 행동에 따라 반려동물의 성격이 변화하고, 그에 따라 반응이 달라지는 시스템. 성격에 따라 선호하는 활동이 달라짐.",
+            "first_step": "상호작용에 따른 성격 수치 변화 로직 구현."
+          },
+          {
+            "title": "나만의 가상 정원",
+            "concept": "반려동물과 함께 정원을 가꾸고 식물을 키우는 힐링 게임. 식물의 성장 상태를 실시간으로 확인하고 꾸미는 재미.",
+            "first_step": "식물 성장 시간 관리 및 배치 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "캐릭터 기반의 상호작용 게임을 만들고 싶다면 좋은 참고 자료입니다. UI 구성과 사용자 경험 설계 측면에서 배울 점이 많습니다.",
+        "source_limitations_ko": "소개문에는 인앱 결제와 구독 서비스에 대한 언급이 있으나, 구체적인 결제 연동 방식이나 서버 데이터 저장 구조는 알 수 없습니다. 실제 게임의 애니메이션 엔진이나 물리 처리 방식은 확인이 불가능합니다.",
+        "name": "My Talking Angela 2",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.outfit7.mytalkingangela2&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
+    },
+    "apple:6775732870": {
+      "app_key": "apple:6775732870",
+      "name": "펀네이션 - Funnation",
+      "developer": "funnation inc.",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/%ED%8E%80%EB%84%A4%EC%9D%B4%EC%85%98-funnation/id6775732870",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:17:16+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "펀네이션은 크리에이터와 팬을 잇는 라이브 후원 플랫폼입니다. • 라이브 시청: 지금 방송 중인 크리에이터를 한눈에 보고 바로 시청할 수 있습니다. • 펀캐시 충전과 후원: 앱에서 펀캐시를 충전하고, 좋아하는 크리에이터에게 응원 메시지와 함께 후원할 수 있습니다. • 즐겨찾기: 자주 보는 크리에이터를 즐겨찾기에 추가해 방송 시작을 놓치지 마세요. • 커뮤니티: 크리에이터와 팬이 소식과 이야기를 나누는 공간입니다. • 후원 등급: 후원할수록 등급이 오르고 다음 등급 혜택을 미리 볼 수 있습니다. • 크리에이터 스튜디오: 크리에이터는 방송 준비와 후원 현황을 앱에서 확인할 수 있습니다. 펀네이션과 함께 크리에이터를 응원하고 라이브를 더 재미있게 즐겨 보세요.",
+      "analysis": {
+        "app_key": "apple:6775732870",
+        "summary_ko": "펀네이션은 크리에이터와 팬을 연결하는 라이브 스트리밍 후원 플랫폼입니다. 사용자는 실시간 방송을 시청하고 펀캐시를 통해 크리에이터를 후원할 수 있습니다. 즐겨찾기 및 커뮤니티 기능을 통해 크리에이터와 소통하며 후원 등급에 따른 혜택을 경험할 수 있습니다.",
+        "features_ko": [
+          "현재 방송 중인 크리에이터의 라이브를 실시간으로 시청할 수 있습니다.",
+          "앱 내에서 펀캐시를 충전하여 크리에이터에게 후원 메시지를 보낼 수 있습니다.",
+          "즐겨찾기 기능을 통해 선호하는 크리에이터의 방송 시작 알림을 받을 수 있습니다.",
+          "커뮤니티 공간에서 크리에이터와 팬들이 소식을 공유하고 대화할 수 있습니다.",
+          "후원 누적액에 따라 등급이 상승하며 관련 혜택을 확인할 수 있습니다.",
+          "크리에이터 전용 스튜디오를 통해 방송 준비 및 후원 현황을 관리할 수 있습니다."
+        ],
+        "noteworthy_ko": "후원 등급제와 커뮤니티 기능을 결합하여 팬덤의 충성도를 높이는 구조가 흥미롭습니다. 크리에이터 스튜디오를 앱 내에 통합하여 방송 운영의 편의성을 극대화한 점이 특징입니다.",
+        "development_ko": "실시간 스트리밍 연동을 위한 서버 인프라와 결제 시스템 구현이 핵심입니다. 크리에이터와 팬 간의 실시간 데이터 동기화가 중요하며, 후원 등급 로직과 커뮤니티 게시판 관리가 필요합니다. 테스트 시에는 다수의 사용자가 동시에 후원할 때의 트래픽 처리와 결제 안정성 검증이 필수적입니다.",
+        "idea_ko": "특정 후원 목표 달성 시 크리에이터와 팬이 함께 미션을 수행하는 '공동 목표 챌린지' 기능이 개인 개발자에게 적합합니다.",
+        "highlights_ko": [
+          "크리에이터와 팬을 잇는 라이브 후원 중심의 커뮤니티 플랫폼입니다.",
+          "후원 등급제와 전용 스튜디오 기능을 통해 크리에이터의 활동을 지원합니다."
+        ],
+        "systems_ko": [
+          "실시간 스트리밍 연동 시스템",
+          "인앱 결제 및 펀캐시 관리 시스템",
+          "사용자 등급 및 보상 관리 시스템",
+          "실시간 채팅 및 커뮤니티 게시판 시스템",
+          "푸시 알림 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 스트리밍 기술과 안정적인 결제 시스템을 1인이 구현하기에는 기술적 난이도가 매우 높습니다. 서버 인프라 구축 및 운영 비용 또한 개인 개발자에게 큰 부담이 됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "라이브 방송 목록 조회",
+            "후원하기 기능",
+            "즐겨찾기 기능"
+          ],
+          "defer": [
+            "크리에이터 스튜디오",
+            "후원 등급제",
+            "커뮤니티 게시판"
+          ],
+          "risks": [
+            "실시간 트래픽 처리 문제",
+            "결제 보안 및 정산 관련 법적 리스크"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "공동 목표 챌린지",
+            "concept": "크리에이터와 팬이 특정 후원 목표를 설정하고 달성 시 특별한 리워드를 제공합니다. 팬들의 참여를 유도하여 커뮤니티 활성화를 돕습니다.",
+            "first_step": "목표 금액 설정 및 실시간 달성률을 표시하는 UI를 구현합니다."
+          },
+          {
+            "title": "팬 레터 아카이브",
+            "concept": "후원 시 보낸 메시지를 크리에이터가 별도로 보관하고 나중에 다시 볼 수 있는 기능입니다. 감성적인 소통을 강화합니다.",
+            "first_step": "후원 메시지 저장 및 목록 조회 기능을 데이터베이스에 구축합니다."
+          }
+        ],
+        "recommendation_ko": "플랫폼 서비스의 전체적인 구조와 사용자 경험 설계를 배우기에 적합합니다. 다만, 실시간 스트리밍 기술은 복잡하므로 개인 개발 시에는 외부 API 활용을 권장합니다.",
+        "source_limitations_ko": "결제 시스템의 구체적인 구현 방식, 스트리밍 서버의 기술 스택, 커뮤니티 운영 정책 등은 소개문에서 확인할 수 없습니다.",
+        "name": "펀네이션 - Funnation",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%ED%8E%80%EB%84%A4%EC%9D%B4%EC%85%98-funnation/id6775732870",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 77,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
     }
   }
 }

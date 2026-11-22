@@ -15086,6 +15086,185 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-22"
+    },
+    "google:com.zentrixstudio.pdfeditor.pdfreader": {
+      "app_key": "google:com.zentrixstudio.pdfeditor.pdfreader",
+      "name": "PDF 리더: 변환 및 스캔",
+      "developer": "ZentrixSoft",
+      "source": "google",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.zentrixstudio.pdfeditor.pdfreader&hl=ko&gl=KR",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:13:10+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "PDF 문서를 편리하게 정리하고 관리할 방법을 찾고 계신가요? PDF 리더: 변환 및 스캔은 PDF 파일을 한곳에서 읽고, 주석을 추가하고, 스캔하고, 변환하고, 관리할 수 있는 다양한 도구를 제공합니다. 업무 문서, 학습 자료, 양식, 계약서, 영수증 또는 전자책 등 다양한 문서를 간편하게 관리할 수 있습니다. 📚 PDF 파일 읽기 • 연속 보기 또는 페이지별 탐색으로 문서를 읽을 수 있습니다. • 편안한 읽기를 위해 확대 및 축소할 수 있습니다. • 전체 화면 모드로 읽을 수 있습니다. • 원하는 페이지로 바로 이동할 수 있습니다. • PDF 문서 내에서 텍스트를 검색할 수 있습니다. • 밝은 모드와 어두운 모드로 전환할 수 있습니다. 🖍️ 주석 추가 • 문서의 텍스트를 강조 표시할 수 있습니다. • 메모와 댓글을 추가할 수 있습니다. • PDF 페이지에 직접 그림을 그릴 수 있습니다. 📱 문서를 PDF로 스캔 기기의 카메라를 사용하여 종이 문서를 PDF 파일로 변환하세요. 영수증, 청구서, 메모, 책, 양식 및 기타 인쇄된 문서를 스캔하고, 저장하기 전에 문서의 가장자리를 자동으로 감지하여 스캔 이미지를 원하는 크기로 자를 수 있습니다. 🔃 문서를 PDF로 변환 • 이미지를 PDF로 변환할 수 있습니다. • Word 및 Excel 파일을 PDF로 변환할 수 있습니다. • PDF 페이지를 이미지 파일로 변환할 수 있습니다. 🗄️ 문서 정리 • 이름, 파일 크기 또는 최근 열어본 순서로 문서를 정렬할 수 있습니다. • 문서의 이름을 변경하거나 삭제할 수 있습니다. • 업무 파일, 학습 자료, 스캔 문서 및 전자책을 체계적으로 관리할 수 있습니다. 🔗 PDF 파일 도구 • 여러 PDF 문서를 하나의 파일로 병합하여 더욱 편리하게 정리할 수 있습니다. • 큰 PDF 파일을 여러 개의 작은 문서로 분할할 수 있습니다. • 이메일, 메신저 또는 클라우드 저장소를 통해 PDF 파일을 다른 사람과 공유할 수 있습니다. 문서 보기와 주석 추가부터 종이 문서 스캔, 파일 형식 변환, 문서 라이브러리 정리까지 PDF 리더: 변환 및 스캔은 일상적인 업무, 학습 및 개인 문서 관리를 위한 실용적인 PDF 도구를 제공합니다.",
+      "analysis": {
+        "app_key": "google:com.zentrixstudio.pdfeditor.pdfreader",
+        "summary_ko": "PDF 파일을 읽고, 주석을 달고, 스캔 및 변환할 수 있는 종합 PDF 관리 도구입니다. 문서 정리와 파일 형식 변환 기능을 통해 업무 및 학습 효율을 높여줍니다.",
+        "features_ko": [
+          "PDF 문서를 연속 보기 또는 페이지별로 읽을 수 있습니다.",
+          "텍스트 강조, 메모 추가, 직접 그리기 등 주석 기능을 제공합니다.",
+          "카메라를 이용해 종이 문서를 스캔하고 PDF로 변환합니다.",
+          "이미지, Word, Excel 파일을 PDF로 변환하거나 그 반대로 변환합니다.",
+          "여러 PDF 파일을 병합하거나 분할하는 도구를 제공합니다."
+        ],
+        "noteworthy_ko": "다양한 문서 처리 기능을 하나의 앱에 통합한 것이 특징입니다. 파일 변환 및 편집 엔진의 안정성이 사용자 경험의 핵심일 것으로 추정됩니다.",
+        "development_ko": "PDF 라이브러리 활용이 핵심입니다. 이미지 처리(스캔, 가장자리 감지)와 파일 포맷 변환 로직의 정확도가 중요하며, 대용량 파일 처리 시 성능 최적화가 필요합니다.",
+        "idea_ko": "문서 내의 텍스트를 AI로 요약해주는 기능을 추가하면 학습용 도구로서의 가치가 크게 상승할 것입니다.",
+        "highlights_ko": [
+          "읽기, 편집, 스캔, 변환의 통합 기능.",
+          "다양한 파일 형식 지원."
+        ],
+        "systems_ko": [
+          "PDF 렌더링 엔진",
+          "이미지 처리 및 스캔 알고리즘",
+          "파일 포맷 변환 엔진",
+          "파일 관리 및 정렬 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "PDF 파싱 및 변환 엔진을 직접 구현하는 것은 매우 복잡하며, 다양한 파일 형식에 대한 호환성을 유지하는 것이 어렵기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "PDF 뷰어",
+            "기본 주석 기능"
+          ],
+          "defer": [
+            "파일 변환 엔진",
+            "스캔 가장자리 자동 감지"
+          ],
+          "risks": [
+            "PDF 호환성 문제",
+            "대용량 파일 처리 시 앱 멈춤"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "문서 자동 분류기",
+            "concept": "스캔한 문서의 내용을 분석하여 영수증, 계약서, 학습 자료 등으로 자동 분류합니다.",
+            "first_step": "문서 내 키워드 추출 로직 구현."
+          },
+          {
+            "title": "음성 주석 추가",
+            "concept": "텍스트 대신 음성으로 문서에 메모를 남길 수 있는 기능을 제공합니다.",
+            "first_step": "음성 녹음 및 파일 첨부 기능 구현."
+          }
+        ],
+        "recommendation_ko": "문서 처리 관련 라이브러리 활용법과 파일 시스템 관리를 배우기에 좋습니다. 실용적인 도구 앱 개발을 원하는 분께 추천합니다.",
+        "source_limitations_ko": "사용된 PDF 엔진의 종류나 파일 변환을 위한 서버 측 처리 여부 등은 확인되지 않습니다.",
+        "name": "PDF 리더: 변환 및 스캔",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.zentrixstudio.pdfeditor.pdfreader&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 213,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 9,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
+    },
+    "google:com.hamyd.cleanupstorage": {
+      "app_key": "google:com.hamyd.cleanupstorage",
+      "name": "Storage Cleaner",
+      "developer": "dev-style",
+      "source": "google",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.hamyd.cleanupstorage&hl=ko&gl=KR",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:14:13+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "저장공간 정리 도구를 사용하면 저장공간 사용량, 용량이 큰 파일, 스크린샷 및 중복 사진을 확인할 수 있습니다. 설치된 앱과 앱 크기를 살펴보고 Android에서 제공하는 배터리 및 RAM 정보를 볼 수 있습니다. 영구 삭제를 확인하기 전에 파일을 검토하고 선택할 수 있습니다. 파일 정리 도구를 사용하려면 저장공간 접근 권한이 필요하며, 일부 앱 통계를 보려면 사용량 접근 권한이 필요합니다. 제공되는 정보는 기기에 따라 다를 수 있습니다.",
+      "analysis": {
+        "app_key": "google:com.hamyd.cleanupstorage",
+        "summary_ko": "기기의 저장공간을 효율적으로 관리하기 위한 도구 앱입니다. 용량이 큰 파일, 스크린샷, 중복 사진을 찾아내어 삭제할 수 있도록 돕습니다. 또한 설치된 앱의 크기, 배터리 및 RAM 정보를 확인하여 기기 상태를 파악할 수 있습니다.",
+        "features_ko": [
+          "저장공간 사용량과 용량이 큰 파일을 스캔하여 확인할 수 있습니다.",
+          "스크린샷과 중복 사진을 식별하여 정리할 수 있습니다.",
+          "설치된 앱의 목록과 각 앱이 차지하는 용량을 보여줍니다.",
+          "기기의 배터리 및 RAM 정보를 모니터링할 수 있습니다.",
+          "파일 삭제 전 검토 및 선택 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "사용자의 기기 접근 권한을 활용하여 시스템 정보를 시각화하는 유틸리티 앱입니다. 파일 시스템 접근과 앱 통계 정보를 어떻게 사용자 친화적인 UI로 변환하는지가 개발의 핵심입니다.",
+        "development_ko": "Android 시스템 API를 활용한 파일 스캔 및 앱 정보 추출 기술이 핵심입니다. UI는 직관적인 파일 관리 경험을 제공해야 하며, 권한 관리와 사용자 데이터 삭제 시의 안전성을 보장하는 것이 중요합니다.",
+        "idea_ko": "사용자가 자주 사용하지 않는 앱을 자동으로 감지하여 삭제를 제안하는 '스마트 앱 다이어트' 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "파일 관리와 시스템 모니터링을 하나의 앱에서 통합 제공합니다.",
+          "사용자에게 삭제 전 검토 기회를 제공하여 데이터 손실을 방지합니다."
+        ],
+        "systems_ko": [
+          "파일 시스템 스캔 엔진",
+          "앱 정보 추출 시스템",
+          "시스템 리소스 모니터링",
+          "권한 관리 시스템",
+          "파일 삭제 및 관리 UI"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "Android 시스템 API 사용법을 익히는 것이 관건입니다. 파일 접근 권한과 같은 보안 관련 정책을 준수해야 하며, 다양한 기기 환경에서의 호환성 테스트가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "파일 스캔 기능",
+            "파일 삭제 UI",
+            "저장공간 정보 표시"
+          ],
+          "defer": [
+            "배터리 및 RAM 모니터링",
+            "앱 통계 정보",
+            "자동 스캔 예약"
+          ],
+          "risks": [
+            "권한 정책 변경에 따른 앱 기능 제한",
+            "잘못된 파일 삭제로 인한 시스템 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "파일 분류 자동화",
+            "concept": "파일의 확장자나 생성 날짜를 기준으로 폴더를 자동으로 정리해주는 기능입니다. 사용자의 파일 관리 시간을 단축합니다.",
+            "first_step": "파일 확장자를 읽어 특정 폴더로 이동시키는 스크립트를 작성합니다."
+          },
+          {
+            "title": "용량 다이어트 리포트",
+            "concept": "매주 저장공간이 얼마나 확보되었는지 시각적인 리포트로 제공합니다. 사용자의 정리 습관을 독려합니다.",
+            "first_step": "삭제된 파일의 용량을 기록하고 그래프로 보여주는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "Android 시스템 API와 권한 관리 체계를 배우기에 좋은 프로젝트입니다. 실용적인 도구 앱을 만들고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 파일 스캔의 정확한 알고리즘이나 시스템 리소스 모니터링의 기술적 구현 방식이 명시되어 있지 않습니다. 또한 Android 버전별 권한 정책 차이에 대한 대응 여부는 확인되지 않습니다.",
+        "name": "Storage Cleaner",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.hamyd.cleanupstorage&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 171,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 23,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
     }
   }
 }

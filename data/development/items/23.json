@@ -26118,6 +26118,1048 @@
         "thoughtsTokenCount": 1792,
         "serviceTier": "standard"
       }
+    },
+    "apple:1668755109": {
+      "app_key": "apple:1668755109",
+      "name": "Brotato:Premium",
+      "developer": "Erabit Studios",
+      "source": "apple",
+      "kind": "game",
+      "detail_url": "https://apps.apple.com/us/app/brotato-premium/id1668755109?uo=2",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:1668755109",
+        "product_kind": "game",
+        "original_experience_ko": "탑다운 아레나 슈터 로그라이트 장르로, 감자 캐릭터가 최대 6개의 무기를 동시에 장착하고 몰려오는 적들로부터 제한된 시간 동안 생존하는 게임입니다. 웨이브 단위의 짧은 플레이 타임과 전투 사이의 상점 페이즈를 통한 빌드 구성이 핵심입니다. 단, 스토어 설명과 AI 해석을 통해 확인된 기능은 자동 발사와 웨이브 생존 흐름이며, 내부 코드 구조나 최적화 기법 등은 미확인 상태입니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 설명에서 확인된 사실: 무기 자동 발사 기본 지원, 20~90초 길이의 웨이브, 웨이브 간 상점에서의 재료 기반 아이템 구매, 수백 가지 아이템과 다양한 캐릭터 선택 가능.",
+          "확인되지 않은한계: 구체적인 게임 엔진, 데모 빌드나 내부 밸런스 조정 알고리즘, 클라우드 저장 서버 구현 방식은 스토어 자료만으로 알 수 없음."
+        ],
+        "valuable_elements_ko": [
+          "모바일 환경에서 조작 피로도를 줄여주는 무기 자동 발사 및 간소화된 이동 중심 조작.",
+          "짧은 웨이브와 상점 페이즈가 반복되는 몰입감 높고 빠른 게임 루프.",
+          "다양한 캐릭터 특성과 아이템 조합으로 매 판마다 달라지는 빌드의 재미."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "오피스 서바이벌: 야근 대작전",
+            "core_idea_ko": "야근 중인 직장인이 책상 위에서 쏟아지는 업무 폭탄과 스트레스 요인들을 최대 6개의 오피스 용품(스테이플러, 선풍기, 커피 등) 자동 공격으로 막아내며 살아남는 오피스 생존 로그라이트 게임입니다.",
+            "what_to_keep_ko": "원작의 다중 장비 자동 공격 시스템, 짧은 웨이브 생존 구조, 전투 후 상점(휴게실)에서 아이템을 구매해 빌드를 완성하는 핵심 루프를 계승합니다.",
+            "what_to_change_ko": "판타지/SF 외계인 전투 테마를 직장인의 현실적인 야근 스트레스 소재로 바꾸고, 무기 대신 사무용품의 시너지 조합 규칙을 적용하여 대중성과 몰입감을 높입니다.",
+            "mobile_use_or_play_ko": "플레이어가 한 손으로 캐릭터를 이동시키면 오피스 용품들이 자동으로 업무 서류를 공격하고, 웨이브 종료 후 휴게실에서 자판기 아이템을 구매해 다음 야근 웨이브를 준비합니다.",
+            "key_features_ko": [
+              "자동 작동하는 오피스 용품 6개 슬롯 시스템",
+              "30초 단위의 짧은 야근 웨이브와 휴게실 상점 페이즈",
+              "스트레스 해소용 아이템과 직장인 특성 조합 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "2D 탑다운 탑뷰 타일맵과 간단한 탄환/충돌 판정을 활용해 Unity나 Godot 엔진으로 1인 개발이 가능하며, 캐릭터 및 사무용품 스프라이트 제작에 집중하여 2~3개월 내 MVP 구현이 가능합니다.",
+            "strengths_limits_ko": "직관적인 테마로 폭넓은 공감대를 얻을 수 있으나, 기존 방치형 게임이나 단순 클리커와의 차별점을 명확한 로그라이트 빌드 재미로 증명해야 하는 과제가 있습니다."
+          },
+          {
+            "title_ko": "스페이스 정크 헌터",
+            "core_idea_ko": "우주 쓰레기 수거선이 되어 사방에서 날아오는 우주 파편과 적들을 격파하며 살아남는 아레나 서바이벌 게임으로, 수집한 드론 모듈을 선체 주변 6개 방향에 장착해 자동 방어하는 게임입니다.",
+            "what_to_keep_ko": "제한된 공간에서의 아레나 생존, 자동 공격 웨이브 진행, 재료 수집 후 상점 업그레이드 흐름을 유지합니다.",
+            "what_to_change_ko": "직접 이동하는 캐릭터 조작에 우주 공간의 물리 관성 개념을 더하고, 무기 장착을 선체 주변의 모듈형 그리드 배치 방식으로 변경해 전략적 위치 선정의 재미를 강화합니다.",
+            "mobile_use_or_play_ko": "가상 스틱으로 우주선을 밀어내며 이동하면 장착된 드론들이 적을 향해 자동 발사하고, 파괴된 적의 파편을 모아 다음 웨이브 전 상점에서 새로운 드론 모듈을 구매합니다.",
+            "key_features_ko": [
+              "선체 주변 6방향 모듈 그리드 장착 시스템",
+              "우주 물리 관성이 적용된 아레나 이동 조작",
+              "파편 수집 및 선체 강화 상점 루프"
+            ],
+            "solo_mvp_and_effort_ko": "간단한 2D 벡터 그래픽이나 미니멀한 사이언스 피션 스타일로 구현 난이도를 낮추고, 물리 연산 최적화를 가볍게 처리하여 1인이 충분히 개발할 수 있습니다.",
+            "strengths_limits_ko": "시각적 타격감과 SF풍의 매력이 높지만, 관성 이동 조작이 모바일 터치 환경에서 자칫 피로감을 줄 수 있어 조작감 튜닝이 필수적입니다."
+          },
+          {
+            "title_ko": "연금술사의 공방 방어전",
+            "core_idea_ko": "연금술사가 공방 중앙에 고정된 채, 사방에서 몰려오는 마물들을 상대로 주변에 설치된 6개의 포탑과 투척 포션을 자동으로 발사해 방어하는 고정형 타워 디펜스 로그라이트 게임입니다.",
+            "what_to_keep_ko": "다양한 장비 조합을 통한 빌드 구성, 짧은 웨이브 단위의 전투, 웨이브 간 상점 및 조합 재료 수집 메커니즘을 계승합니다.",
+            "what_to_change_ko": "플레이어가 아레나를 자유롭게 돌아다니는 방식에서 공방 중앙에 고정되어 포탑 위치를 조정하고 원소 재료를 조합하는 타워 디펜스 및 제작 중심 규칙으로 변경합니다.",
+            "mobile_use_or_play_ko": "화면 중앙의 연금술사가 주변에 자동 포션을 던지는 동안, 터치로 포탑의 위치를 재배치하거나 조합 재료를 수집하여 웨이브 사이 공방에서 새로운 연금 도구를 제작합니다.",
+            "key_features_ko": [
+              "중앙 고정형 캐릭터와 주변 6개 포탑 슬롯",
+              "원소 재료 조합 및 크래프팅 상점 시스템",
+              "웨이브별 몰려오는 마물 방어 디펜스 규칙"
+            ],
+            "solo_mvp_and_effort_ko": "이동 처리가 단순화되므로 탄막 회피보다 자원 관리와 포탑 배치 전략에 집중할 수 있어 1인 개발 시 AI 경로 알고리즘 부하를 줄일 수 있습니다.",
+            "strengths_limits_ko": "회피 액션의 손맛보다는 전략적 빌드 구성에 치중되므로, 액션 슈터 팬층에게는 다소 정적으로 느껴질 수 있는 진입 장벽이 있습니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 '오피스 서바이벌'은 직장인이라는 친숙한 소재로 대중성을 확보하며 오피스 용품 조합의 재미를 줍니다. 두 번째 '스페이스 정크 헌터'는 우주 공간의 물리 관성과 모듈 배치로 조작의 깊이를 더합니다. 세 번째 '연금술사의 공방 방어전'은 이동 슈팅에서 정적 포탑 배치 및 크래프팅으로 장르적 변주를 줍니다. 세 기획 모두 원본의 '웨이브 생존과 상점 빌드업'이라는 핵심 장점을 계승하면서 테마와 규칙을 차별화했습니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "오피스 서바이벌은 Brotato의 핵심인 '다중 장비 자동 공격'과 '짧은 웨이브 생존 후 상점 구매' 루프를 직장인의 야근 상황에 가장 직관적으로 녹여낼 수 있습니다. 1인 개발 시 그래픽 리소스 제작 부담이 적고, 대중적인 공감대를 형성하기 쉬우며 모바일 환경에서 가볍게 즐기기 가장 적합합니다. 다만 기존 클리커나 방치형 게임과의 차별점을 명확히 보여주는 레벨 디자인 과제가 남아 있습니다.",
+        "next_questions_ko": [
+          "직장인 야근 테마에서 6개의 오피스 용품이 자동 작동할 때 시각적 혼란을 어떻게 줄일 것인가?",
+          "웨이브 사이의 상점 페이즈에서 직관적인 아이템 시너지를 모바일 화면에 어떻게 배치할 것인가?",
+          "1인 개발 시 2D 스프라이트 애니메이션과 탄막/충돌 판정 최적화를 어떤 엔진으로 구현할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-23T06:32:04+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 1696,
+        "candidatesTokenCount": 2208,
+        "totalTokenCount": 6134,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1696
+          }
+        ],
+        "thoughtsTokenCount": 2230,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:1668755109",
+        "product_kind": "game",
+        "selected_concept_title_ko": "오피스 서바이벌: 야근 대작전",
+        "project_goal_and_audience_ko": "본 게임은 짧은 시간 동안 강렬한 몰입감과 로그라이트의 성장 재미를 즐기고 싶어 하는 직장인 및 캐주얼 게이머를 위한 2D 탑다운 모바일 서바이벌 게임입니다. 플레이어는 야근 중인 직장인이 되어 책상 위에서 밀려오는 업무 폭탄과 스트레스 요인들을 막아내며 생존의 쾌감을 느낍니다.",
+        "source_relation_and_difference_ko": "원작 'Brotato'의 핵심 루프인 '다중 장비 자동 공격', '짧은 웨이브 생존', '전투 후 휴게실 상점에서의 빌드업'을 그대로 유지합니다. 차별점으로는 외계인 전투 대신 현실 공감형 야근 스트레스 테마를 채택하고, 사무용품과 커피 등의 오피스 소품 조합을 통해 직장인 유저층에게 친숙하면서도 유쾌한 몰입감을 제공합니다.",
+        "core_user_experience_ko": "사용자는 가상 조이스틱을 통해 캐릭터를 이동시키며, 장착된 최대 6개의 오피스 용품(예: 스테이플러, 선풍기, 커피잔 등)이 사정거리 내의 업무 서류 및 스트레스 정령들을 자동으로 공격하는 것을 관람하고 조율합니다. 웨이브가 종료되면 획득한 성과급(재화)으로 자판기 상점에서 새로운 사무용품이나 버프 아이템을 구매해 다음 웨이브에 대비합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "자동 공격 오피스 용품 슬롯 시스템",
+            "user_action_and_behavior_ko": "플레이어가 이동에만 집중하면 장착된 최대 6개의 사무용품이 사정거리 내 적을 자동으로 타격합니다. 타격 시 시각적 타격감과 사운드가 발생하여 쾌감을 줍니다.",
+            "practical_implementation_ko": "각 무기/용품 컴포넌트가 일정 주기(Cooldown)마다 주변 적과의 거리를 계산해 가장 가까운 적을 향해 발사체(Projectiles)나 근접 판정을 생성하는 로직을 구현합니다."
+          },
+          {
+            "feature_ko": "30초 야근 웨이브 및 휴게실 상점 페이즈",
+            "user_action_and_behavior_ko": "제한 시간 동안 밀려오는 적을 처치해 재화를 모으고, 시간이 다 되면 자동으로 웨이브가 종료되어 휴게실 상점으로 이동, 아이템을 쇼핑합니다.",
+            "practical_implementation_ko": "게임 상태 관리자(Game State Manager)를 두어 '웨이브 진행 상태'와 '상점 대기 상태'를 전환하며, 타이머가 0이 되면 상점 UI를 활성화합니다."
+          },
+          {
+            "feature_ko": "직장인 특성 및 자판기 아이템 조합",
+            "user_action_and_behavior_ko": "시작 전 다양한 특성(예: 커피 중독자, 칼퇴 기원자 등)을 선택하고, 상점에서 아이템을 구매해 스탯을 조합하여 자신만의 생존 빌드를 완성합니다.",
+            "practical_implementation_ko": "플레이어 스탯(공격력, 공속, 이동속도, 체력 등)을 관리하는 스탯 데이터 구조체와 아이템 적용 시 스탯을 가감하는 모듈을 설계합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 로비 화면",
+            "contents_and_actions_ko": "게임 시작, 캐릭터(직장인 페르소나) 선택, 특성 설정 버튼 제공 및 게임 진입."
+          },
+          {
+            "screen_ko": "인게임 서바이벌 화면",
+            "contents_and_actions_ko": "탑뷰 시점의 책상 배경, 가상 패드 이동, 적 스폰 및 자동 공격, 상단 타이머 및 체력바 표시."
+          },
+          {
+            "screen_ko": "휴게실 상점 화면",
+            "contents_and_actions_ko": "웨이브 종료 시 전환. 자판기 형태의 아이템 리스트 표시, 재화(성과급)를 소모해 장비 및 패시브 구매."
+          }
+        ],
+        "implementation_approach_ko": "Unity 또는 Godot 엔진을 사용하여 2D 탑다운 구조를 구현합니다. 가벼운 2D 스프라이트와 셰이더를 사용하여 모바일 최적화를 도모하며, 오브젝트 풀링(Object Pooling) 기법을 적용해 다수의 적과 탄환 생성 시 프레임 저하를 방지합니다. 대안으로는 웹 기반의 가벼운 프로토타입 제작도 가능합니다.",
+        "data_and_storage_ko": [
+          "PlayerStats: 체력, 이동속도, 공격력, 방어구 등의 수치 데이터 객체.",
+          "ItemData: 아이템 ID, 이름, 가격, 스탯 보정치 정보를 담은 ScriptableObject(또는 JSON).",
+          "WaveConfig: 웨이브 번호별 적 스폰 주기, 등장하는 적의 종류와 체력 배율 데이터.",
+          "저장 방식: 플레이어의 해금 기록과 재화는 로컬 PlayerPrefs 또는 SQLite를 활용해 세션 종료 시 안전하게 저장."
+        ],
+        "mvp_scope_ko": "첫 번째 MVP는 1종의 캐릭터, 4종의 오피스 용품, 3종의 적, 총 5개의 웨이브로 구성된 짧은 루프로 제한합니다. 사운드와 화려한 이펙트는 최소화하고, 이동-자동공격-상점 쇼핑의 코어 루프가 원활하게 맞물리는지 검증하는 데 집중합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 코어 무브먼트 및 자동 공격 프로토타입",
+            "deliverable_and_check_ko": "가상 조이스틱 이동과 지정된 주기로 적을 향해 투사체를 발사하는 기본 기능을 구현하여 조작감을 확인합니다."
+          },
+          {
+            "stage_ko": "2단계: 웨이브 시스템 및 적 AI 구현",
+            "deliverable_and_check_ko": "시간에 따른 적 스폰과 플레이어를 추적하는 이동 AI, 충돌 시 데미지 처리 로직을 구현합니다."
+          },
+          {
+            "stage_ko": "3단계: 상점 페이즈 및 아이템 빌드 연동",
+            "deliverable_and_check_ko": "웨이브 종료 시 상점 UI 호출, 재화 획득 및 아이템 구매 시 플레이어 스탯이 변경되는지 테스트합니다."
+          }
+        ],
+        "possible_extensions_ko": "핵심 경험이 안정화된 이후, 다양한 직업군 캐릭터 추가, 일일 챌린지 모드, 업적 시스템, 클라우드 세이브 연동 등을 확장할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "모바일 화면에서 다수의 적과 투사체가 동시에 렌더링될 때의 성능 저하 위험이 있으므로 오브젝트 풀링 최적화가 필수적입니다.",
+          "기존 방치형 게임과의 차별화를 위해 '로그라이트 빌드업의 재미'가 충분히 체감되는지 플레이테스트를 통한 밸런스 조정이 필요합니다.",
+          "실제 개발 설계 초안 단계이므로 정교한 수치 밸런스와 레벨 디자인은 프로토타입 테스트 이후 확정해야 합니다."
+        ],
+        "draft_status_ko": "본 문서는 오피스 서바이벌: 야근 대작전의 1인 모바일 개발을 위한 설계 초안이며, 실제 구현·플레이테스트 및 성능 측정이 완료되지 않았습니다."
+      },
+      "plan_at": "2026-11-23T06:32:15+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 2435,
+        "candidatesTokenCount": 1876,
+        "totalTokenCount": 4311,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2435
+          }
+        ],
+        "serviceTier": "standard"
+      }
+    },
+    "apple:6738771575": {
+      "app_key": "apple:6738771575",
+      "name": "3D Bolt Master®: Screw Master®",
+      "developer": "Joymaster Puzzle Game Studio",
+      "source": "apple",
+      "kind": "game",
+      "detail_url": "https://apps.apple.com/us/app/3d-bolt-master-screw-master/id6738771575?uo=2",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:6738771575",
+        "product_kind": "game",
+        "original_experience_ko": "원본은 3D 객체에서 나사를 풀어 색상별 상자에 분류하는 퍼즐 게임으로, 3D 모델을 다각도로 회전하고 확대하며 숨겨진 나사를 찾아내는 입체적 공간 탐색과 나사를 풀어내는 촉각적 만족감이 핵심입니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 소개문 확인 정보: 3D 나사 해체 및 색상 상자 분류 메커니즘, 10,000개 이상의 레벨 구성",
+          "색맹 사용자를 위한 도형 패턴(△, □, ○) 아이콘 접근성 기능 탑재",
+          "카드 컬렉션, 큐브 점프 등 다양한 이벤트 및 보상 시스템 운영",
+          "한계점: 사용된 3D 엔진, 구체적인 물리 엔진 설정, 광고 SDK 및 네트워크 아키텍처에 대한 정보는 미공개"
+        ],
+        "valuable_elements_ko": [
+          "3D 오브젝트를 직접 회전·확대하며 숨겨진 요소를 찾아내는 입체적 조작의 재미",
+          "단순한 터치를 넘어선 물리적 해체 과정에서 오는 시각적·촉각적 피드백과 성취감",
+          "색약 사용자 등을 배려하여 시인성을 높인 기본적 접근성 고려 태도"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "스팀펑크 기계 복원가",
+            "core_idea_ko": "단순히 나사를 색상 상자에 담는 것에서 벗어나, 고장 난 3D 스팀펑크 기계의 나사와 부품을 해체하고 내부 기어를 재조립하여 정상 작동시키는 기계 복원 퍼즐 게임입니다.",
+            "what_to_keep_ko": "3D 객체를 회전하고 확대하여 숨겨진 나사를 찾아내어 해체하는 입체적 조작과 몰입감을 그대로 계승합니다.",
+            "what_to_change_ko": "색상 상자 분류 방식 대신 해체된 부품과 기어를 올바른 위치에 재조립하는 논리적 기계 복원 규칙으로 전면 전환합니다.",
+            "mobile_use_or_play_ko": "유저가 3D 시계 모델을 터치해 회전시킨 뒤 고정 나사를 풀고, 분해된 기어 부품을 정해진 축에 맞춰 다시 조립하여 시계가 움직이게 만듭니다.",
+            "key_features_ko": [
+              "3D 부품 해체 및 재조립 양방향 루프",
+              "부품 간 상호 종속성(특정 나사를 풀어야 다른 부품이 분리됨)",
+              "기계 가동 테스트 애니메이션 피드백"
+            ],
+            "solo_mvp_and_effort_ko": "Unity 또는 Godot 환경에서 기본 3D 회전 레이캐스트와 오브젝트 계층 구조를 활용한 프로토타입 구현. 레벨 디자인 자동화 툴 부재로 개발 공수 중간 수준.",
+            "strengths_limits_ko": "장점은 명확한 서사와 높은 성취감이지만, 약점은 레벨 제작 난이도가 높아 콘텐츠 확장 속도가 다소 느릴 수 있다는 점입니다."
+          },
+          {
+            "title_ko": "실시간 폭발물 해체 팀",
+            "core_idea_ko": "제한 시간 내에 복잡한 3D 폭발물 장치의 나사와 모듈을 정해진 순서대로 해체하여 위기를 모면하는 긴장감 넘치는 타임어택 퍼즐 게임입니다.",
+            "what_to_keep_ko": "3D 모델의 다각도 관찰 및 세밀한 터치를 통한 나사 해체 인터랙션을 유지합니다.",
+            "what_to_change_ko": "여유로운 힐링 퍼즐에서 시간 제한과 해체 순서 규칙을 결합한 하드코어 타임어택 규칙으로 변경합니다.",
+            "mobile_use_or_play_ko": "화면에 나타난 3D 폭발 장치를 빠르게 돌려 봉인 나사를 찾고, 회로도 단서를 참고해 올바른 순서로 해체 버튼을 눌러 제한 시간 내에 클리어합니다.",
+            "key_features_ko": [
+              "엄격한 해체 순서 제약 엔진",
+              "실시간 타이머 및 긴장감 유도 사운드",
+              "비동기 랭킹 및 생존 기록 경쟁"
+            ],
+            "solo_mvp_and_effort_ko": "기존 3D 터치 시스템에 타이머와 상태 머신을 붙여 구현 가능. 구현 난이도는 낮으나 밸런스 조정 필요.",
+            "strengths_limits_ko": "장점은 강한 몰입감과 리플레이성이나, 원본의 '힐링 및 스트레스 해소'라는 핵심 경험과는 결이 달라질 수 있습니다."
+          },
+          {
+            "title_ko": "우주 정거장 부품 물류센터",
+            "core_idea_ko": "파손된 우주 정거장 모듈에서 나사와 판자를 해체하고, 불규칙한 형태의 부품들을 제한된 화물 컨테이너에 효율적으로 적재하는 공간 물류 퍼즐 게임입니다.",
+            "what_to_keep_ko": "3D 객체로부터 부품을 분해해내는 기본 조작 경험과 공간 인지 요소를 유지합니다.",
+            "what_to_change_ko": "분류 상자 개념을 테트리스 형태의 3D 적재(Bin Packing) 규칙과 결합하여 전략적 공간 활용 요소를 강화합니다.",
+            "mobile_use_or_play_ko": "파손된 위성 패널을 회전하며 나사를 풀어 패널을 떼어낸 뒤, 모양이 다른 부품들을 제한된 화물 칸에 빈틈없이 배치하여 발사 조건을 채웁니다.",
+            "key_features_ko": [
+              "3D 부품 해체 및 입체 적재 하이브리드 규칙",
+              "화물칸 업그레이드 및 자원 순환 경제",
+              "모듈 확장 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "그리드 기반 3D 배치 알고리즘과 터치 드래그 연동 구현. 적재 판정 로직 구현에 추가 공수 소요.",
+            "strengths_limits_ko": "장점은 깊이 있는 퍼즐 전략성이나, 복잡한 UI와 규칙으로 인해 캐주얼 유저 진입 장벽이 높아질 수 있습니다."
+          }
+        ],
+        "concept_comparison_ko": "기획 1은 기계 복원과 조립이라는 서사적 성취감을 더해 원본의 촉각적 만족감을 확장했고, 기획 2는 시간 제한과 긴장감으로 몰입도를 높였으나 힐링 요소가 다소 희석됩니다. 기획 3은 적재 규칙을 결합해 전략성을 강화했습니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "기획 1(스팀펑크 기계 복원가)은 원본의 핵심인 3D 해체 조작의 재미를 온전히 계승하면서도 단순한 색상 분류를 넘어선 '복원과 조립'이라는 새로운 동기를 부여하여 캐주얼 퍼즐의 깊이를 효과적으로 높입니다. 모바일 1인 개발 관점에서도 3D 오브젝트 계층 관리와 애니메이션 연동을 통해 현실적인 MVP 구현이 가능합니다.",
+        "next_questions_ko": [
+          "3D 해체 과정에서 플레이어가 직관적으로 이해할 수 있는 시각적 가이드(하이라이트 등)를 어떻게 설계할 것인가?",
+          "레벨 당 3D 모델 및 부품 데이터를 수동으로 제작할 것인가, 혹은 조합형 절차적 생성 방식을 도입할 것인가?",
+          "모바일 저사양 기기에서 여러 3D 오브젝트와 파티클 효과가 원활하게 렌더링되는가?"
+        ]
+      },
+      "brief_at": "2026-11-23T06:50:52+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 2052,
+        "candidatesTokenCount": 1907,
+        "totalTokenCount": 7492,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2052
+          }
+        ],
+        "thoughtsTokenCount": 3533,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:6738771575",
+        "product_kind": "game",
+        "selected_concept_title_ko": "스팀펑크 기계 복원가",
+        "project_goal_and_audience_ko": "3D 입체 퍼즐과 기계적 감성을 선호하는 모바일 게이머를 대상으로, 고장 난 스팀펑크 기계를 해체하고 부품을 재조립하여 정상 작동시키는 성취감과 몰입감을 제공하는 퍼즐 게임입니다.",
+        "source_relation_and_difference_ko": "원본의 3D 객체 회전·확대 및 숨겨진 나사 해체라는 입체적 조작의 재미를 온전히 계승하면서, 단순한 색상 상자 매칭 규칙을 해체된 부품의 논리적 재조립과 기계 가동 테스트라는 서사적 복원 루프로 전면 발전시켰습니다.",
+        "core_user_experience_ko": "사용자는 3D 시계나 증기 기관 모델을 터치 및 드래그하여 회전시키고 숨겨진 고정 나사를 찾아 해제합니다. 분해된 톱니바퀴와 기계 부품을 올바른 축과 슬롯에 드래그 앤 드롭으로 재조립하며, 모든 부품이 제자리를 찾으면 기동 버튼을 눌러 기계가 톱니바퀴 소리와 함께 정상 작동하는 시청각적 성취감을 얻습니다.",
+        "features_ko": [
+          {
+            "feature_ko": "3D 입체 회전 및 나사 레이캐스트 해제 모듈",
+            "user_action_and_behavior_ko": "사용자가 화면을 스와이프하여 3D 모델을 회전시키고 나사를 탭하면, 카메라 레이캐스트가 이를 인식해 나사가 풀리는 애니메이션과 함께 인벤토리로 이동합니다.",
+            "practical_implementation_ko": "Unity 엔진의 Input System과 Physics Raycaster를 활용하여 모바일 터치 좌표를 3D 월드 좌표로 변환하고, 오브젝트 콜라이더를 통해 터치된 나사를 판정합니다."
+          },
+          {
+            "feature_ko": "부품 간 종속성 및 재조립 슬롯 시스템",
+            "user_action_and_behavior_ko": "특정 외부 나사나 판을 먼저 제거해야 내부 부품이 해제되며, 해제된 부품은 지정된 축과 기어 홈에 정확히 장착되어야 조립 완료 상태가 됩니다.",
+            "practical_implementation_ko": "부품 간의 부모-자식 트랜스폼 계층 구조(Hierarchy)를 활용하고, 장착 위치와의 거리 오차가 허용 범위 내일 때 스냅(Snap)되는 로직을 구현합니다."
+          },
+          {
+            "feature_ko": "기계 가동 테스트 및 피드백 애니메이션",
+            "user_action_and_behavior_ko": "모든 부품이 조립된 후 가동 버튼을 누르면 기계가 회전하며 효과음과 함께 클리어 화면으로 전환됩니다.",
+            "practical_implementation_ko": "Animator 컴포넌트와 간단한 트윈(Tween) 라이브러리를 연동하여 조립 완료 시 기계 부품들이 맞물려 회전하는 연출을 처리합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "작업대 스테이지 선택 화면",
+            "contents_and_actions_ko": "스팀펑크 공방 배경 위에 복원 가능한 기계 모델 카드 목록을 표시하며, 사용자가 특정 기계를 선택하면 플레이 화면으로 진입합니다."
+          },
+          {
+            "screen_ko": "3D 기계 복원 플레이 화면",
+            "contents_and_actions_ko": "화면 중앙에 3D 기계 모델, 하단에 해체된 부품 보관함과 회전 컨트롤러가 배치되며, 나사 해체와 부품 조립을 수행합니다."
+          },
+          {
+            "screen_ko": "복원 완료 및 가동 연출 화면",
+            "contents_and_actions_ko": "기계가 작동하는 애니메이션 재생 후 보상 코인 획득 및 다음 스테이지 해제 안내 팝업을 표시합니다."
+          }
+        ],
+        "implementation_approach_ko": "모바일 3D 렌더링 최적화와 터치 제스처 처리의 안정성을 고려해 유니티(Unity) 엔진과 C#을 기본 기술 스택으로 채택합니다. 3D 모델의 드로우 콜을 최소화하기 위해 머티리얼 아틀라스를 활용하며, 대안으로는 가벼운 2.5D 방식도 검토할 수 있으나 입체적 몰입감을 위해 3D 중심 구조를 유지합니다.",
+        "data_and_storage_ko": [
+          "MachineModelData (id, name, prefab_path, assembly_hierarchy): 기계 모델 구조와 부품 간 종속 관계를 정의하는 구조체.",
+          "UserProgressData (current_stage, unlocked_machines, currency): 사용자의 레벨 진행도 및 재화 정보를 관리.",
+          "저장 방식: 모바일 로컬 환경에 JSON 직렬화를 통한 PlayerPrefs 또는 SQLite 저장 방식을 적용하여 오프라인 상태에서도 진행도가 유지되도록 함."
+        ],
+        "mvp_scope_ko": "3D 기계 모델 3종, 기본 나사 해체 및 부품 드래그 앤 드롭 재조립 루프, 기동 테스트 애니메이션 피드백을 포함한 첫 번째 프로토타입. 복잡한 이벤트 시스템이나 카드 컬렉션은 초기 범위에서 제외하여 핵심 조작 검증에 집중합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 3D 카메라 회전 및 레이캐스트 나사 선택 프로토타입",
+            "deliverable_and_check_ko": "샘플 3D 모델을 터치해 회전시키고 나사를 탭했을 때 제거되는 기본 상호작용 검증."
+          },
+          {
+            "stage_ko": "2단계: 부품 계층 구조 해체 및 재조립(드래그) 로직 구현",
+            "deliverable_and_check_ko": "나사 해체 후 부품이 분리되고 다시 올바른 위치로 드래그하여 장착되는 규칙 테스트."
+          },
+          {
+            "stage_ko": "3단계: 기계 가동 애니메이션 및 UI 흐름 연결",
+            "deliverable_and_check_ko": "조립 완료 시 가동 연출과 스테이지 클리어 루프가 매끄럽게 연결되는지 확인."
+          }
+        ],
+        "possible_extensions_ko": "부품 외형 커스터마이징 스킨, 타임어택 형식의 기계 긴급 수리 모드, 공방 인테리어 데코레이션 시스템 등.",
+        "risks_and_open_decisions_ko": [
+          "모바일 저사양 기기에서 다수의 3D 오브젝트 렌더링 시 발생하는 성능 저하 리스크 확인 필요.",
+          "작은 스마트폰 화면에서 3D 나사와 부품을 터치할 때의 정밀도와 조작감 피드백 검증 필요.",
+          "레벨 디자인 확장성을 위한 부품 데이터 구조화 방식에 대한 추가 검토 과제."
+        ],
+        "draft_status_ko": "본 문서는 실제 구현, 플레이테스트 및 성능 측정이 완료되지 않은 1인 모바일 개발 설계 초안입니다."
+      },
+      "plan_at": "2026-11-23T06:51:08+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 2717,
+        "candidatesTokenCount": 1760,
+        "totalTokenCount": 6411,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2717
+          }
+        ],
+        "thoughtsTokenCount": 1934,
+        "serviceTier": "standard"
+      }
+    },
+    "itch:b7a625acddef7391d090": {
+      "app_key": "itch:b7a625acddef7391d090",
+      "name": "Iggy Panic! [Free] [Action] [Android]",
+      "developer": "",
+      "source": "itch",
+      "kind": "game",
+      "detail_url": "https://wrethlahain.itch.io/iggy-panic",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:b7a625acddef7391d090",
+        "product_kind": "game",
+        "original_experience_ko": "어두운 우주 정거장을 배경으로 작은 드론을 조종하며 혼란스러운 상황을 헤쳐 나가는 서바이벌 또는 아케이드 액션 게임으로 추정되는 경험을 제공합니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 소개문('One little drone. One dark station. Total mayhem.')에서 확인된 사실은 드론, 어두운 정거장, 혼란(mayhem)이라는 키워드뿐입니다.",
+          "구체적인 게임 장르(슈팅, 플랫포머, 퍼즐 등), 조작 방식, 승리 조건, 레벨 디자인 등은 소개문에 명시되지 않아 AI의 해석과 추정에 불과합니다."
+        ],
+        "valuable_elements_ko": [
+          "어두운 공간에서 소형 기기를 조종하는 고립된 긴장감과 분위기",
+          "짧고 직관적인 문구로 표현된 강렬한 콘셉트 연출",
+          "제한된 환경 속에서 벌어지는 아케이드적 혼란과 몰입감"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "스파크 드론: 다크 스테이션 탈출",
+            "core_idea_ko": "어두운 우주 정거장에서 고장 난 드론을 조종해 전력을 복구하고 장애물을 피해 탈출하는 탑뷰 액션 퍼즐 게임.",
+            "what_to_keep_ko": "어두운 정거장과 작은 드론이라는 시각적 배경 및 고립된 긴장감을 계승합니다.",
+            "what_to_change_ko": "단순한 혼란(mayhem) 유발에서 벗어나, 시야 제한 속에서 에너지 관리와 경로 탐색이라는 전략적 생존 규칙을 추가합니다.",
+            "mobile_use_or_play_ko": "가상 조이스틱으로 드론을 이동시켜 어두운 복도를 밝히며 에너지를 수집하고, 적 드론을 피해 출구에 도달하는 플레이 흐름입니다.",
+            "key_features_ko": [
+              "랜턴 시야 제한 시스템",
+              "에너지 배터리 관리 메커니즘",
+              "환경 오브젝트 활용 회피 요소"
+            ],
+            "solo_mvp_and_effort_ko": "2D 탑뷰 타일맵과 간단한 물리 충돌, 조이스틱 이동 구현. 2주 내 MVP 완성 가능.",
+            "strengths_limits_ko": "직관적이고 몰입감이 높으나, 퍼즐 비중이 높아지면 원작의 액션성이 희석될 수 있는 단점이 있습니다."
+          },
+          {
+            "title_ko": "메이헴 패닉: 드론 방어전",
+            "core_idea_ko": "몰려오는 적의 공격 속에서 방어막을 유지하며 정거장의 코어를 지키는 트윈스틱 슈팅 액션 게임.",
+            "what_to_keep_ko": "'Total mayhem(총체적 난국)'이라는 원작의 혼란스럽고 긴박한 액션 경험을 적극 계승합니다.",
+            "what_to_change_ko": "단순 탐색을 넘어 웨이브 형태의 전투와 탄막 회피, 패시브 업그레이드 요소를 도입하여 리플레이성을 높입니다.",
+            "mobile_use_or_play_ko": "한쪽 손으로 이동하고 다른 쪽 손으로 사격 방향을 조절해 끊임없이 몰려오는 적들을 처치하는 전투 흐름입니다.",
+            "key_features_ko": [
+              "트윈스틱 슈팅 조작계",
+              "적 웨이브 및 난이도 스케일링",
+              "스테이지 클리어 후 패시브 업그레이드"
+            ],
+            "solo_mvp_and_effort_ko": "단일 스테이지와 2종의 적 AI, 탄환 발사 로직 구축. 3주 소요.",
+            "strengths_limits_ko": "시원한 액션성과 빠른 템포가 장점이나, 모바일 화면에서 조작 피로도가 높고 최적화가 까다로울 수 있습니다."
+          },
+          {
+            "title_ko": "섀도우 드론: 은신 정찰 작전",
+            "core_idea_ko": "어두운 정거장 내부를 경비하는 감시 시스템을 피해 자원을 해킹하고 탈출하는 잠입(Stealth) 액션 게임.",
+            "what_to_keep_ko": "어두운 우주 정거장이라는 배경을 활용해 시각적 제약을 긴장감 요소로 사용하는 점을 계승합니다.",
+            "what_to_change_ko": "무차별적인 액션 대신 은신과 타이밍을 강조한 잠입 퍼즐 규칙으로 차별화합니다.",
+            "mobile_use_or_play_ko": "경비 드론의 시야각을 피해 엄폐물 뒤로 이동하며, 터치 인터랙션으로 패스워드를 해킹하는 잠입 흐름입니다.",
+            "key_features_ko": [
+              "부채꼴 경비 시야각(FOV) 시스템",
+              "해킹 미니게임 인터랙션",
+              "은신 상태 유지 은폐물 상호작용"
+            ],
+            "solo_mvp_and_effort_ko": "2D 레이캐스트 기반 시야 판정 및 기본 이동 제어 구현. 3주 소요.",
+            "strengths_limits_ko": "높은 긴장감과 전략적 재미를 제공하지만, 초보 유저에게는 다소 답답하거나 난이도가 높게 느껴질 수 있습니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어(스파크 드론)는 탐색과 생존의 균형을 맞춘 퍼즐 액션이며, 두 번째 아이디어(메이헴 패닉)는 원작의 혼란을 극대화한 트윈스틱 슈팅, 세 번째 아이디어(섀도우 드론)는 어두운 배경을 살린 잠입 액션입니다. 첫 번째는 대중적이고 제작 부담이 적으며, 두 번째는 액션성이 강하지만 조작 난이도가 있고, 세 번째는 정교한 시야 구현이 필요합니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "원작의 어두운 정거장과 드론이라는 모티브를 가장 직관적으로 살리면서도, 모바일 환경에서 터치 조작과 시야 제한 메커니즘을 결합해 1인 개발자가 안정적으로 구현할 수 있는 최적의 MVP 범위를 가집니다.",
+        "next_questions_ko": [
+          "모바일 환경에서 가상 조이스틱과 시야 제한(빛 표현) 렌더링 성능이 원활한가?",
+          "단순 액션에 집중할 것인지, 퍼즐 및 탐색 요소의 비중을 높일 것인지?"
+        ]
+      },
+      "brief_at": "2026-11-23T06:55:22+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 1103,
+        "candidatesTokenCount": 1657,
+        "totalTokenCount": 5033,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1103
+          }
+        ],
+        "thoughtsTokenCount": 2273,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "itch:b7a625acddef7391d090",
+        "product_kind": "game",
+        "selected_concept_title_ko": "스파크 드론: 다크 스테이션 탈출",
+        "project_goal_and_audience_ko": "어두운 우주 정거장을 배경으로 시야가 제한된 상태에서 고장 난 드론을 조종하여 탈출하는 모바일 탑뷰 액션 퍼즐 게임입니다. 짧은 플레이 타임 속에서도 높은 몰입감과 전략적 긴장감을 즐기는 모바일 캐주얼 게이머를 타겟으로 합니다.",
+        "source_relation_and_difference_ko": "원작의 어두운 우주 정거장 분위기와 소형 드론이라는 핵심 시각적 모티브를 그대로 계승합니다. 차별점으로는 단순한 무작위 혼란 유발에서 벗어나, 제한된 시야와 배터리(에너지) 관리라는 전략적 생존 규칙을 도입하여 퍼즐과 액션의 재미를 결합했습니다.",
+        "core_user_experience_ko": "플레이어는 화면 하단의 가상 조이스틱을 드래그하여 드론을 상하좌우로 이동시킵니다. 드론의 전면 조명(랜턴)이 비추는 좁은 시야각 안에서만 맵의 구조와 장애물, 아이템이 시각적으로 드러납니다. 이동할 때마다 배터리가 소모되므로, 맵에 산재한 에너지 셀을 수급하며 적 드론과 장애물을 피해 출구 타일에 도달해야 합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "랜턴 시야 제한 시스템",
+            "user_action_and_behavior_ko": "플레이어가 드론을 회전하거나 이동할 때, 조명 마스크(Light Mask)가 연동되어 어두운 맵의 특정 반경만 밝혀줍니다. 시야 밖의 적이나 함정은 보이지 않아 긴장감을 유발합니다.",
+            "practical_implementation_ko": "2D 엔진의 라이팅 기능(Unity URP 2D Light 또는 Godot Light2D)을 활용하여 플레이어 중심의 2D 점광원과 시야각(Shadow Caster)을 적용합니다."
+          },
+          {
+            "feature_ko": "에너지 배터리 관리 메커니즘",
+            "user_action_and_behavior_ko": "시간 경과 및 이동 거리에 비례하여 배터리 잔량이 감소하며, 0이 되면 조명이 꺼지고 게임 오버가 됩니다. 맵에 배치된 배터리 아이템을 획득해 에너지를 충전할 수 있습니다.",
+            "practical_implementation_ko": "플레이어 스크립트에 배터리 수치 변수를 두고, Update문 또는 코루틴을 통해 일정 주기로 감소 처리 및 UI 바(Slider)와 실시간 동기화합니다."
+          },
+          {
+            "feature_ko": "적 드론 회피 및 타일맵 환경",
+            "user_action_and_behavior_ko": "정해진 패트롤 루틴을 도는 적 드론과 충돌하면 페널티를 받습니다. 장애물 벽 뒤에 숨거나 타이밍에 맞춰 이동하여 적을 회피합니다.",
+            "practical_implementation_ko": "Tilemap 컴포넌트를 이용해 정거장 벽을 구성하고, 간단한 AABB 충돌 판정과 직선 거리 기반의 단순 웨이포인트 패트롤 AI를 구현합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 타이틀 화면",
+            "contents_and_actions_ko": "게임 로고, '게임 시작' 버튼, 사운드 설정 버튼 배치. 터치 시 스테이지 선택 화면으로 전환."
+          },
+          {
+            "screen_ko": "스테이지 플레이 화면",
+            "contents_and_actions_ko": "상단에 배터리 잔량 UI 및 점수, 화면 중앙에 탑뷰 플레이 영역(드론, 장애물, 적, 조명 효과), 하단에 가상 조이스틱 배치. 일시정지 버튼 제공."
+          },
+          {
+            "screen_ko": "결과 팝업 화면",
+            "contents_and_actions_ko": "클리어 시 다음 스테이지 이동 및 점수 표시, 게임 오버 시 재시도 및 메인으로 돌아가기 버튼 제공."
+          }
+        ],
+        "implementation_approach_ko": "크로스플랫폼 2D 게임 개발에 최적화된 Unity 엔진(C#) 또는 Godot 엔진을 채택합니다. 가벼운 2D 물리 연산과 실시간 2D 조명 효과를 모바일 기기 성능 저하 없이 구현하기 위함입니다. 핵심 로직은 플레이어 컨트롤러, 에너지 관리 매니저, 적 AI 스크립트로 모듈화하여 관리합니다.",
+        "data_and_storage_ko": [
+          "플레이어 데이터: 현재 스테이지 진행도, 최고 점수, 설정값 (PlayerPrefs 또는 로컬 JSON 파일로 저장/로드).",
+          "스테이지 데이터: 각 스테이지별 맵 타일 구성, 적 배치 좌표, 배터리 아이템 위치 (ScriptableObject 또는 JSON 파일로 관리)."
+        ],
+        "mvp_scope_ko": "가상 조이스틱 이동, 2D 조명 시야 제한, 배터리 감소 및 충전, 적 회피 규칙을 포함하는 기본 스테이지 3개 규모의 프로토타입. 사운드 효과 및 고도화된 업그레이드 시스템은 MVP에서 제외하여 2주 내 개발 완료를 목표로 합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 환경 구축 및 조작 구현",
+            "deliverable_and_check_ko": "타일맵 기반 배경 배치 및 가상 조이스틱을 통한 드론 2D 이동 확인."
+          },
+          {
+            "stage_ko": "2단계: 조명 시야 및 에너지 시스템 구현",
+            "deliverable_and_check_ko": "드론 중심의 2D 라이트 마스크 적용 및 이동에 따른 배터리 소모/충전 UI 연동 확인."
+          },
+          {
+            "stage_ko": "3단계: 적 AI 및 충돌 판정, 스테이지 루프 완성",
+            "deliverable_and_check_ko": "패트롤 적 드론 배치, 충돌 시 게임 오버 및 출구 도달 시 클리어 조건 처리 확인."
+          }
+        ],
+        "possible_extensions_ko": "특수 능력을 가진 다양한 드론 기체(예: 스캔 범위가 넓은 드론, 배터리 효율이 좋은 드론) 해금 요소, 일시적으로 시야를 넓히는 폭발물 아이템, 무한 생존 모드 등의 확장 콘텐츠.",
+        "risks_and_open_decisions_ko": [
+          "모바일 저사양 기기에서 실시간 2D 라이트 마스크 렌더링 시 프레임 저하 가능성 검토 필요.",
+          "배터리 소모 속도와 맵 크기에 따른 플레이 난이도 밸런스는 플레이테스트를 통해 추후 확정.",
+          "본 설계는 아이디어를 구체화한 개발 설계 초안이며 실제 성능 및 플레이테스트는 완료되지 않음."
+        ],
+        "draft_status_ko": "본 문서는 '스파크 드론: 다크 스테이션 탈출' 기획을 바탕으로 작성된 모바일 개발 설계 초안으로, 실제 구현·플레이테스트 및 성능 최적화가 완료되지 않은 상태입니다."
+      },
+      "plan_at": "2026-11-23T06:55:39+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 1633,
+        "candidatesTokenCount": 1773,
+        "totalTokenCount": 6475,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1633
+          }
+        ],
+        "thoughtsTokenCount": 3069,
+        "serviceTier": "standard"
+      }
+    },
+    "google:com.watchfacestudio.per86": {
+      "app_key": "google:com.watchfacestudio.per86",
+      "name": "PER86 Digital Watch Face",
+      "developer": "Persona Watch Face",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.watchfacestudio.per86&hl=en&gl=US",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.watchfacestudio.per86",
+        "product_kind": "app",
+        "original_experience_ko": "Wear OS 환경에서 다양한 폰트, 배경, 색상 조합을 통해 시각적 개성을 표현하고 날씨, 건강, 일정 등 풍부한 컴플리케이션 정보를 한눈에 확인하는 디지털 워치 페이스 경험.",
+        "source_facts_and_limitations_ko": [
+          "스토어 정보에서 10가지 폰트, 10가지 배경, 30가지 색상, 7개 커스터마이즈 컴플리케이션, AOD 밝기 조절 및 레이아웃 변경 기능이 확인됨.",
+          "정확한 날씨 및 건강 데이터 API 연동 방식이나 배터리 최적화 내부 로직은 스토어 설명만으로는 확인 불가함."
+        ],
+        "valuable_elements_ko": [
+          "미적 커스터마이징(색상, 폰트, 배경)과 실용적 정보(날씨, 일정, 건강)를 동시에 제공하는 레이아웃 구조.",
+          "사용자가 직접 선택할 수 있는 다수의 컴플리케이션 슬롯.",
+          "AOD(Always-On Display) 상태에서의 시인성 확보 및 밝기/레이아웃 최적화 기능."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "시프트페이스: 스마트 컨텍스트 워치",
+            "core_idea_ko": "사용자의 시간대, 위치, 일정에 따라 워치 페이스의 컴플리케이션 레이아웃과 색상 테마가 자동으로 전환되는 Wear OS 컴패니언 워치 페이스 앱.",
+            "what_to_keep_ko": "다양한 시각적 커스터마이징 옵션과 복수의 컴플리케이션 데이터 배치 구조를 계승.",
+            "what_to_change_ko": "사용자가 수동으로 설정해야 했던 기존 방식을 탈피해, 근무 시간/운동 시간/휴식 시간에 맞춰 위젯 구성이 자동으로 바뀌는 스마트 컨텍스트 엔진 도입.",
+            "mobile_use_or_play_ko": "출근길에는 대중교통 및 일정 컴플리케이션이 강조되다가, 퇴근 후 헬스장 도착 시 운동 심박수 및 칼로리 위젯이 자동으로 전면 배치됨.",
+            "key_features_ko": [
+              "컨텍스트 감지 트리거",
+              "자동 레이아웃 프리셋 전환",
+              "사용자 정의 규칙 설정 모바일 컴패니언 앱"
+            ],
+            "solo_mvp_and_effort_ko": "워치 페이스 기본 렌더링 및 2~3가지 프리셋 자동 전환 로직 구현. 배터리 소모 최적화 테스트가 주된 공수.",
+            "strengths_limits_ko": "사용자 편의성이 극대화되나, 백그라운드 위치/활동 감지에 따른 배터리 소모 이슈 관리 필요."
+          },
+          {
+            "title_ko": "해비트링: 미니멀 습관 시계",
+            "core_idea_ko": "단순히 데이터를 보여주는 것을 넘어, 사용자가 설정한 일일 소형 목표(물 마시기, 스트레칭 등)의 달성도를 워치 페이스의 원형 프로그레스 바와 캐릭터 반응으로 직관적으로 시각화하는 앱.",
+            "what_to_keep_ko": "걸음 수, 배터리 등 상태 데이터를 실시간으로 보여주는 컴플리케이션 활용 방식 계승.",
+            "what_to_change_ko": "수동적인 정보 표시에 그치지 않고, 목표 미달성 시 시각적 경고나 달성 시 미니멀한 애니메이션 피드백을 제공하여 행동 변화를 유도하는 게이미피케이션 요소 결합.",
+            "mobile_use_or_play_ko": "메인 화면에서 물 마시기 아이콘 터치 -> 즉시 프로그레스 바가 차오르며 진동 피드백 제공 -> 오늘 목표 달성 시 워치 페이스 배경 테마가 축하 모드로 일시 전환.",
+            "key_features_ko": [
+              "인터랙티브 터치 컴플리케이션",
+              "단계별 프로그레스 링 시스템",
+              "소형 목표 달성 리워드 애니메이션"
+            ],
+            "solo_mvp_and_effort_ko": "워치 페이스 내 터치 이벤트 처리와 상태 저장 구조 구현. UI 애니메이션 리소스 최소화로 개발 공수 조절.",
+            "strengths_limits_ko": "높은 동기부여 효과를 제공하지만, 너무 잦은 인터랙션은 배터리에 부담을 줄 수 있어 최적화 설계 필수."
+          },
+          {
+            "title_ko": "에코픽셀 워치: 배터리 가디언",
+            "core_idea_ko": "배터리 소모를 극단적으로 줄이면서도 필수 정보를 직관적으로 전달하는 모듈형 픽셀 아트 워치 페이스.",
+            "what_to_keep_ko": "다양한 데이터(날씨, 시간, 배터리)를 한눈에 보여주는 컴플리케이션 구조와 AOD 모드 최적화 개념 계승.",
+            "what_to_change_ko": "고화질 3D 그래픽 대신 저전력 픽셀 아트 디자인을 채택하고, 현재 배터리 잔량에 따라 워치 페이스의 갱신 주기와 색상 채도를 동적으로 조절해 배터리 수명을 극대화.",
+            "mobile_use_or_play_ko": "배터리가 20% 이하로 떨어지면 자동으로 모노톤 픽셀 모드로 전환 -> 불필요한 초 단위 갱신을 중단하고 배터리를 절약하며 최소한의 시간/일정 정보만 제공.",
+            "key_features_ko": [
+              "배터리 잔량 연동 동적 전력 절감 모드",
+              "레트로 픽셀 아트 레이아웃",
+              "저전력 AOD 전용 렌더링"
+            ],
+            "solo_mvp_and_effort_ko": "픽셀 아트 리소스 제작 및 배터리 레벨에 따른 조건부 레이아웃 렌더링 구현. 난이도는 보통 수준.",
+            "strengths_limits_ko": "배터리 효율성이 뛰어난 차별점이 있으나, 화려한 시각적 효과를 선호하는 사용자층에게는 매력이 떨어질 수 있음."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어는 상황에 따른 자동 레이아웃 전환으로 편의성을 극대화하며, 두 번째 아이디어는 터치 인터랙션과 게이미피케이션으로 사용자의 행동 변화를 유도하고, 세 번째 아이디어는 배터리 효율과 실용성에 집중합니다. 세 기획 모두 원본의 워치 페이스 커스터마이징 장점을 계승하면서 차별화된 가치를 제공합니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "수동으로 설정을 바꿔야 하는 기존 워치 페이스의 한계를 극복하고, 사용자의 일상 맥락에 맞춰 컴플리케이션이 자동 전환되는 스마트 기능이 원본의 핵심 가치를 가장 발전시킨 형태이기 때문입니다. 모바일/웨어러블 환경에서 실용성과 기술적 차별성을 동시에 확보할 수 있습니다.",
+        "next_questions_ko": [
+          "Wear OS 백그라운드 서비스에서 위치 및 활동 상태를 주기적으로 감지할 때의 배터리 소모 한계선은 어디인가?",
+          "사용자가 정의한 규칙을 모바일 컴패니언 앱과 워치 간에 실시간 동기화하는 가장 안정적인 데이터 통신 구조는 무엇인가?"
+        ]
+      },
+      "brief_at": "2026-11-23T07:30:27+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 1823,
+        "candidatesTokenCount": 1657,
+        "totalTokenCount": 6467,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1823
+          }
+        ],
+        "thoughtsTokenCount": 2987,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.watchfacestudio.per86",
+        "product_kind": "app",
+        "selected_concept_title_ko": "시프트페이스: 스마트 컨텍스트 워치",
+        "project_goal_and_audience_ko": "바쁜 일상 속에서 사용자가 상황(출근, 운동, 휴식)에 따라 워치 페이스의 컴플리케이션을 직접 일일이 변경하는 번거로움을 덜어주고자 기획된 Wear OS용 스마트 컨텍스트 워치 페이스 앱입니다. 스마트워치를 주로 활용하는 직장인, 운동 애호가, 효율적인 시간 관리를 원하는 모바일/웨어러블 유저를 타깃으로 하며, 시간대·위치·일정에 따라 워치 페이스 레이아웃이 자동으로 전환되어 필요한 정보를 적시에 제공하는 편의성과 효용을 누릴 수 있습니다.",
+        "source_relation_and_difference_ko": "원본 'PER86 Digital Watch Face'의 강점인 다채로운 시각적 커스터마이징(폰트, 배경, 색상 테마)과 풍부한 컴플리케이션(날씨, 일정, 건강 데이터) 배치 구조를 그대로 유지합니다. 차별점으로는 사용자가 수동으로만 설정해야 했던 기존 방식에서 벗어나, 시간, 위치, 캘린더 일정에 따라 레이아웃 프리셋이 자동으로 전환되도록 진화시켰습니다.",
+        "core_user_experience_ko": "사용자가 스마트워치를 착용하고 일상생활을 할 때, 시스템이 백그라운드에서 현재 시간, 스마트폰/워치의 위치, 캘린더 일정을 주기적으로 감지합니다. 예를 들어 오전 9시 회사 근처에 도달하면 워치 페이스가 '업무 모드'로 자동 전환되어 대중교통 정보, 다음 미팅 일정, 읽지 않은 메시지 카운트가 전면에 배치됩니다. 퇴근 후 헬스장에 도착하면 '운동 모드'로 바뀌어 실시간 심박수, 소모 칼로리 위젯이 화면의 중심을 차지하며, 사용자는 터치 한 번으로 이를 수동 오버라이드할 수도 있습니다.",
+        "features_ko": [
+          {
+            "feature_ko": "컨텍스트 감지 트리거 모듈",
+            "user_action_and_behavior_ko": "워치 OS 백그라운드 서비스에서 위치 좌표, 현재 시각, 캘린더 API를 주기적으로 체크하여 사용자의 현재 맥락을 판정하고 상태 플래그를 변경합니다.",
+            "practical_implementation_ko": "Wear OS의 Location Services와 AlarmManager를 활용해 배터리 소모를 최소화하도록 15분 단위 또는 위치 변경 시에만 가벼운 쿼리를 실행합니다."
+          },
+          {
+            "feature_ko": "자동 레이아웃 프리셋 전환 엔진",
+            "user_action_and_behavior_ko": "컨텍스트 상태 플래그 변경에 따라 사전에 정의된 위젯 레이아웃과 컬러 테마 데이터를 로드하여 워치 페이스 캔버스를 즉시 리렌더링합니다.",
+            "practical_implementation_ko": "Canvas API 기반의 커스텀 WatchFaceService 구조 내에서 JSON으로 정의된 레이아웃 설정 객체를 동적으로 읽어와 드로잉 로직을 분기 처리합니다."
+          },
+          {
+            "feature_ko": "모바일 컴패니언 설정 및 커스텀 규칙 편집기",
+            "user_action_and_behavior_ko": "스마트폰 연동 앱에서 사용자가 직접 어떤 장소나 시간에 어떤 위젯 레이아웃을 쓸 것인지 규칙을 세부적으로 커스텀하고 블루투스를 통해 워치로 동기화합니다.",
+            "practical_implementation_ko": "안드로이드 Jetpack Compose를 활용해 모바일 대시보드 UI를 구성하고, DataLayer API를 통해 워치와 설정을 안전하게 송수신합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "워치 페이스 메인 화면",
+            "contents_and_actions_ko": "현재 감지된 컨텍스트에 따른 폰트, 배경, 컴플리케이션 레이아웃 표시. 길게 누르기 시 수동 프리셋 선택 및 커스텀 설정 진입 가능."
+          },
+          {
+            "screen_ko": "모바일 컴패니언 앱 - 규칙 설정 화면",
+            "contents_and_actions_ko": "시간대별, 위치별, 일정 키워드별 레이아웃 프리셋 매핑 편집 리스트 제공 및 워치 전송 버튼."
+          }
+        ],
+        "implementation_approach_ko": "Wear OS Jetpack Watch Face 라이브러리(Kotlin)와 Android Jetpack Compose(모바일 컴패니언 앱)를 기술 스택으로 채택합니다. 워치 페이스는 저전력 구동이 필수적이므로 불필요한 메인 스레드 연산을 줄이고 Canvas 기반의 효율적인 렌더링 파이프라인을 구축합니다.",
+        "data_and_storage_ko": [
+          "UserContextPreference: 현재 사용자의 활성 컨텍스트 상태, 수동 오버라이드 여부를 로컬 저장.",
+          "LayoutPresetConfig: 각 컨텍스트별 컴플리케이션 슬롯 ID, 색상 테마, 폰트 스타일을 정의하는 JSON 객체 구조.",
+          "DataLayer API Payload: 모바일 컴패니언 앱에서 수정한 규칙 데이터를 Wear OS 기기로 전송하기 위한 바이트 스트림 객체."
+        ],
+        "mvp_scope_ko": "첫 번째 MVP 버전에서는 시간 기반 및 수동 2가지 컨텍스트 전환과 2종의 컴플리케이션 레이아웃 프리셋 자동 변경 기능에 집중합니다. 위치 기반 지오펜싱이나 복잡한 머신러닝 규칙은 제외하며, 배터리 최적화와 기본 워치 페이스 렌더링 안정성 확보를 최우선 목표로 합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 기본 워치 페이스 렌더링 및 UI 구현",
+            "deliverable_and_check_ko": "Wear OS 프로젝트 셋업 및 기본 시간/날짜 표시, 10가지 색상 테마 적용 확인."
+          },
+          {
+            "stage_ko": "2단계: 시간 및 조건 기반 컨텍스트 전환 로직 구현",
+            "deliverable_and_check_ko": "특정 시각 도달 시 컴플리케이션 레이아웃이 자동으로 바뀌는 내부 상태 머신 검증."
+          },
+          {
+            "stage_ko": "3단계: 모바일 컴패니언 앱 및 DataLayer 연동",
+            "deliverable_and_check_ko": "모바일 앱에서 설정한 프리셋 값이 블루투스를 통해 워치 페이스에 정상 반영되는지 확인."
+          }
+        ],
+        "possible_extensions_ko": "사용자 패턴 학습 기반 AI 컨텍스트 추천, 서드파티 헬스 앱 데이터 심층 연동, 날씨 변화에 따른 동적 배경 애니메이션 효과 추가.",
+        "risks_and_open_decisions_ko": [
+          "백그라운드 위치 감지 및 지오펜싱 사용 시 Wear OS 배터리 소모량 증가 리스크.",
+          "Wear OS 배터리 최적화 정책에 따른 컴플리케이션 갱신 주기 제한 문제 확인.",
+          "사용자 정의 규칙이 너무 복잡할 경우 UI 가독성이 떨어질 수 있으므로 간소화된 템플릿 제공 여부 결정 과제."
+        ],
+        "draft_status_ko": "본 문서는 '시프트페이스: 스마트 컨텍스트 워치' 기획을 바탕으로 한 Wear OS 및 모바일 컴패니언 앱 개발 설계 초안이며, 실제 기기에서의 배터리 소모 테스트나 성능 최적화 수치는 검증되지 않은 상태입니다."
+      },
+      "plan_at": "2026-11-23T07:30:47+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 2410,
+        "candidatesTokenCount": 1825,
+        "totalTokenCount": 9121,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2410
+          }
+        ],
+        "thoughtsTokenCount": 4886,
+        "serviceTier": "standard"
+      }
+    },
+    "google:exo.vpn.app": {
+      "app_key": "google:exo.vpn.app",
+      "name": "Exo VPN for Android",
+      "developer": "Exo VPN",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=exo.vpn.app&hl=en&gl=US",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:exo.vpn.app",
+        "product_kind": "app",
+        "original_experience_ko": "Exo VPN은 안드로이드 VpnService를 활용해 사용자가 간편하게 암호화된 터널을 생성하고 서버 위치를 선택하여 네트워크 연결을 보호하는 기본 도구 앱입니다. 공개된 스토어 정보에 따르면 원탭 연결 및 해제, 상태 표시, 위치 선택 기능을 제공하며, 광고를 포함한 표준적인 VPN 구조를 지니고 있습니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 정보에서 안드로이드 VpnService를 사용해 기기와 서버 간 암호화된 터널을 생성한다는 점이 확인됨.",
+          "메인 화면에서의 연결 및 중지, 연결 상태 표시, 서버 위치 선택 기능이 명시되어 있음.",
+          "앱 내 광고 포함 여부와 지원 및 개인정보 처리방침 링크가 제공됨.",
+          "서버 인프라의 물리적 규모, 실제 사용된 암호화 프로토콜의 구체적 종류, 로그 처리 방식은 스토어 설명만으로는 알 수 없음."
+        ],
+        "valuable_elements_ko": [
+          "복잡한 설정 없이 메인 화면에서 원탭으로 연결과 해제를 제어하는 직관적인 UX",
+          "연결 중, 연결됨, 연결 해제 등 현재 네트워크 상태를 사용자가 명확히 인지할 수 있는 시각적 피드백",
+          "사용 가능한 서버 위치를 리스트 형태로 제공하여 사용자가 직접 선택할 수 있는 유연성"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "앱별 스마트 라우터 및 보안 컨트롤러",
+            "core_idea_ko": "전역 VPN 연결 대신 스마트폰에 설치된 개별 앱별로 보안 터널이나 최적 경로를 다르게 설정할 수 있는 안드로이드 네트워크 관리 도구 앱입니다.",
+            "what_to_keep_ko": "메인 화면에서 원탭으로 터널링 서비스를 켜고 끄는 직관적인 제어 방식과 연결 상태 모니터링 UI를 계승합니다.",
+            "what_to_change_ko": "전체 트래픽을 단일 서버로 우회하던 기존 방식에서 벗어나, 앱별 패킷 라우팅 설정 기능과 실시간 트래픽 분기 규칙 편집 기능을 추가하여 실용성을 높입니다.",
+            "mobile_use_or_play_ko": "사용자가 앱을 실행해 목록에서 특정 금융 앱을 선택한 뒤 보안 터널 경로로 지정하고, 메인 화면의 스위치를 켜면 해당 앱만 암호화된 우회 경로로 안전하게 작동하는 것을 확인합니다.",
+            "key_features_ko": [
+              "앱별 라우팅 규칙 설정 기능",
+              "원탭 마스터 스위치 및 상태 표시 UI",
+              "앱별 실시간 네트워크 트래픽 모니터링"
+            ],
+            "solo_mvp_and_effort_ko": "안드로이드 VpnService의 패킷 가로채기(루프백 인터페이스) 기본 구현을 활용해 특정 패킷을 필터링하는 로컬 VPN 구조를 구축합니다. 1인 개발 시 UI는 간소화하고 패킷 라우팅 제어 로직 검증에 집중합니다.",
+            "strengths_limits_ko": "사용자가 필요한 앱만 골라 보안을 강화하거나 속도를 유지할 수 있는 장점이 있으나, 안드로이드 VpnService의 복잡한 바이트 스트림 처리를 구현해야 하므로 개발 난이도가 높습니다."
+          },
+          {
+            "title_ko": "퍼블릭 와이파이 실시간 방화벽 & 트래픽 가드",
+            "core_idea_ko": "공용 Wi-Fi 환경에서 사용자의 기기를 보호하기 위해 백그라운드에서 트래픽을 검사하고 위험한 도메인이나 트래커를 차단하는 로컬 보안 모니터링 앱입니다.",
+            "what_to_keep_ko": "VpnService를 활용한 네트워크 인터셉트 구조와 연결 상태 및 보호 여부를 한눈에 보여주는 메인 대시보드 구조를 계승합니다.",
+            "what_to_change_ko": "원격 서버 위치 변경 기능 대신 로컬 기반의 트래픽 분석 및 악성 도메인 차단(DNS 필터링) 기능에 집중하여 보안 유틸리티로서의 성격을 강화합니다.",
+            "mobile_use_or_play_ko": "카페 등의 공용 Wi-Fi에 접속한 뒤 앱을 켜고 방화벽 보호 스위치를 활성화하면, 실시간으로 차단된 외부 트래커 수와 위험 요청 로그가 대시보드에 시각화됩니다.",
+            "key_features_ko": [
+              "로컬 DNS 필터링 및 트래커 차단",
+              "실시간 차단 로그 및 위험도 대시보드",
+              "공용 Wi-Fi 감지 시 자동 보호 활성화"
+            ],
+            "solo_mvp_and_effort_ko": "로컬 VpnService와 간단한 DNS 포워딩 및 차단 리스트(블랙리스트) 대조 로직을 구현합니다. 외부 VPN 서버 인프라 구축 비용이 들지 않아 1인 개발에 유리합니다.",
+            "strengths_limits_ko": "서버 운영 비용이 없고 실용적인 보안 가치를 제공하지만, 로컬 DNS 파싱과 패킷 처리 과정에서 배터리 소모나 예기치 않은 앱 충돌을 방지하기 위한 최적화 과제가 있습니다."
+          },
+          {
+            "title_ko": "핑 제로 모바일 네트워크 부스터",
+            "core_idea_ko": "모바일 게임이나 실시간 스트리밍 시 발생하는 지연(핑)을 줄이기 위해 현재 네트워크 상태를 진단하고 가장 빠른 프록시 노드로 자동 연결해주는 유틸리티 앱입니다.",
+            "what_to_keep_ko": "서버 위치 및 노드 선택 리스트, 그리고 빠르게 연결을 맺고 해제하는 핵심 제어 흐름을 계승합니다.",
+            "what_to_change_ko": "정적 위치 선택에서 탈피하여 실시간 지연 시간(Ping) 측정 그래프, 게임/미디어 앱별 맞춤형 노드 자동 추천 및 핑 최적화 알고리즘을 도입합니다.",
+            "mobile_use_or_play_ko": "사용자가 앱을 열어 플레이할 게임을 선택하면 앱이 여러 서버 노드의 실시간 응답 속도를 측정하여 가장 빠른 노드를 자동으로 제안하고, 원탭으로 연결 후 게임을 실행해 지연이 개선된 것을 경험합니다.",
+            "key_features_ko": [
+              "실시간 서버 노드 핑(Ping) 측정 및 테스트",
+              "게임/미디어 최적화 노드 자동 추천",
+              "원탭 저지연 터널 연결 제어"
+            ],
+            "solo_mvp_and_effort_ko": "무료 퍼블릭 프록시 혹은 소규모 테스트 서버 몇 개를 연동하여 핑 테스트 및 간단한 터널링을 구현합니다. UI는 다크 모드와 속도 게이지 중심으로 직관적으로 구성합니다.",
+            "strengths_limits_ko": "모바일 게이머들에게 명확한 소구점을 가지나, 실제 네트워크 지연 개선 폭은 외부 네트워크 환경과 서버 회선 품질에 크게 좌우되므로 기술적 한계가 존재합니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어는 앱별 개별 라우팅으로 맞춤형 제어를 제공하여 유연성이 높지만 패킷 처리가 복잡하고, 두 번째 아이디어는 서버 비용 없이 로컬 트래커 차단에 집중해 MVP 구현이 수월하며, 세 번째 아이디어는 게이머를 타깃으로 핑 최적화 가치를 제공하나 네트워크 환경 변수가 큽니다.",
+        "recommended_concept_number": 2,
+        "why_recommended_ko": "퍼블릭 와이파이 실시간 방화벽 & 트래픽 가드(2번)는 별도의 고비용 VPN 서버 인프라를 구축할 필요 없이 안드로이드 로컬 VpnService와 DNS 필터링 로직만으로 1인 개발자가 MVP를 구현할 수 있습니다. 원본 앱의 터널링 제어 및 상태 모니터링 장점을 보안 강화라는 실용적 목적에 맞춰 잘 발전시켰으며, 서버 유지비 부담이 적어 지속 가능한 개발이 가능합니다.",
+        "next_questions_ko": [
+          "안드로이드 VpnService 구현 시 로컬 DNS 쿼리 가로채기와 차단 성능을 어느 수준까지 안정적으로 유지할 수 있는가?",
+          "배터리 최적화 및 안드로이드 시스템의 백그라운드 프로세스 강제 종료(OEM 정책) 문제를 어떻게 대응할 것인가?",
+          "로컬 필터링 시 오픈소스 차단 리스트를 앱 내에 효율적으로 파싱하고 업데이트하는 구조는 어떻게 설계할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-23T07:36:33+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 1575,
+        "candidatesTokenCount": 1843,
+        "totalTokenCount": 7013,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1575
+          }
+        ],
+        "thoughtsTokenCount": 3595,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:exo.vpn.app",
+        "product_kind": "app",
+        "selected_concept_title_ko": "퍼블릭 와이파이 실시간 방화벽 & 트래픽 가드",
+        "project_goal_and_audience_ko": "공용 Wi-Fi 환경에 접속하는 모바일 사용자들이 원격 서버 비용 부담 없이 기기 내부에서 안전하게 트래커와 악성 도메인을 차단하고 보안 상태를 실시간으로 확인할 수 있는 로컬 방화벽 유틸리티 앱입니다.",
+        "source_relation_and_difference_ko": "원본의 메인 대시보드 구조와 VpnService를 활용한 네트워크 인터셉트 및 연결 제어 방식을 유지하되, 원격 서버 트래픽 중계 기능 대신 로컬 기반의 악성 도메인 차단 및 실시간 트래픽 모니터링 기능으로 차별화했습니다.",
+        "core_user_experience_ko": "사용자는 공용 와이파이 환경에서 앱을 실행하고 원탭으로 방화벽 보호 스위치를 켭니다. 안드로이드 로컬 VpnService가 활성화되어 모든 DNS 요청을 가로채고 차단 리스트와 대조하여 악성 트래커나 광고 도메인인 경우 로컬에서 차단하며, 대시보드 화면에서 실시간 차단 횟수와 위험 요청 로그를 시각적으로 확인합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "로컬 DNS 필터링 및 트래커 차단",
+            "user_action_and_behavior_ko": "사용자가 보호 스위치를 켜면 VpnService가 백그라운드에서 작동하며 DNS 패킷을 가로채 블랙리스트와 대조합니다. 악성 도메인은 로컬에서 즉시 차단하여 개인정보 유출을 방지합니다.",
+            "practical_implementation_ko": "Android VpnService API를 활용하고 가벼운 UDP 패킷 파싱 및 로컬 DNS 포워딩 로직을 구현하여 외부 서버 인프라 없이 1인 개발이 가능하도록 구성합니다."
+          },
+          {
+            "feature_ko": "실시간 차단 로그 및 위험도 대시보드",
+            "user_action_and_behavior_ko": "메인 화면에서 현재 차단된 도메인 수와 최근 차단된 요청 목록을 실시간으로 확인하고 시각적 피드백을 얻습니다.",
+            "practical_implementation_ko": "Room DB를 이용해 로컬에 차단 로그를 기록하고 Jetpack Compose의 StateFlow를 활용해 UI를 실시간으로 갱신합니다."
+          },
+          {
+            "feature_ko": "공용 Wi-Fi 감지 및 자동 보호",
+            "user_action_and_behavior_ko": "안전하지 않은 공용 와이파이 연결 시 앱이 이를 감지하여 사용자에게 방화벽 활성화를 권장하거나 자동으로 보호 모드를 실행합니다.",
+            "practical_implementation_ko": "ConnectivityManager 및 WifiManager를 활용하여 네트워크 상태 변화와 SSID 보안 유형을 모니터링합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 대시보드 화면",
+            "contents_and_actions_ko": "방화벽 ON/OFF 원탭 스위치, 현재 네트워크 보안 상태 표시, 실시간 차단된 트래커 수 요약 카드, 로그 화면으로 이동하는 네비게이션 버튼 제공."
+          },
+          {
+            "screen_ko": "실시간 차단 로그 화면",
+            "contents_and_actions_ko": "최근 차단된 도메인 목록, 차단 시간, 위험도 수준을 리스트로 표시하며 항목 터치 시 상세 차단 정보 다이얼로그 표시."
+          },
+          {
+            "screen_ko": "설정 및 예외 관리 화면",
+            "contents_and_actions_ko": "사용자 지정 예외 도메인(화이트리스트) 추가, 앱 테마 변경 및 개인정보 처리방침 안내 확인."
+          }
+        ],
+        "implementation_approach_ko": "안드로이드 네이티브(Kotlin)와 Jetpack Compose를 사용하여 가볍고 반응성 높은 UI를 구현합니다. 네트워크 처리 모듈은 VpnService와 로컬 DNS 리졸버를 결합하며 서버 유지비가 발생하지 않는 완전한 온디바이스 처리 방식을 채택합니다.",
+        "data_and_storage_ko": [
+          "LogEntity: 차단된 도메인 주소, 타임스탬프, 차단 여부를 기록하는 Room DB 테이블로 로컬 대시보드 및 로그 뷰어에 사용.",
+          "SettingEntity: 방화벽 자동 시작 여부 및 사용자 지정 화이트리스트 설정을 저장하는 Jetpack DataStore."
+        ],
+        "mvp_scope_ko": "원탭 VpnService 활성화 기능, 로컬 DNS 차단 기본 블랙리스트 적용, 메인 화면의 실시간 차단 카운터 표시까지만 구현합니다. 네트워크 자동 감지나 세부 도메인 예외 처리는 후속 버전으로 미루어 1인 개발의 완성도를 높입니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: UI 프로토타입 및 대시보드 구현",
+            "deliverable_and_check_ko": "Jetpack Compose 기반의 메인 대시보드와 ON/OFF 스위치 UI를 구현하고 화면 전환 및 상태 변화 애니메이션을 확인합니다."
+          },
+          {
+            "stage_ko": "2단계: 로컬 VpnService 및 기본 DNS 가로채기 연동",
+            "deliverable_and_check_ko": "VpnService를 상속받은 백그라운드 서비스를 구현하고 시스템의 VPN 권한 요청 흐름과 패킷 버퍼 읽기/쓰기 동작을 테스트합니다."
+          },
+          {
+            "stage_ko": "3단계: DNS 필터링 및 Room DB 로그 연동",
+            "deliverable_and_check_ko": "블랙리스트 대조 로직을 완성하고 차단된 로그를 로컬 DB에 저장하여 대시보드 UI에 정상 반영되는지 확인합니다."
+          }
+        ],
+        "possible_extensions_ko": "사용자 정의 차단 규칙 추가, Wi-Fi 보안 등급별 상세 리포트 제공, 앱별 네트워크 트래픽 사용량 모니터링 기능 추가.",
+        "risks_and_open_decisions_ko": [
+          "안드로이드 VpnService 구현 시 발생할 수 있는 배터리 소모 및 메모리 누수 방지 최적화 필요.",
+          "모든 DNS 패킷을 로컬에서 파싱할 때 발생할 수 있는 네트워크 지연(Latency) 최소화 방안 검토.",
+          "일부 기기에서 백그라운드 프로세스가 강제 종료되는 시스템 정책 제한 대응책 마련 필요."
+        ],
+        "draft_status_ko": "본 문서는 Exo VPN 앱의 구조를 발전시켜 제안한 '퍼블릭 와이파이 실시간 방화벽 & 트래픽 가드'의 1인 개발 설계 초안이며, 실제 성능 측정이나 필드 테스트는 완료되지 않았습니다."
+      },
+      "plan_at": "2026-11-23T07:36:49+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 2269,
+        "candidatesTokenCount": 1668,
+        "totalTokenCount": 5910,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2269
+          }
+        ],
+        "thoughtsTokenCount": 1973,
+        "serviceTier": "standard"
+      }
+    },
+    "google:jp.garud.ssimulator": {
+      "app_key": "google:jp.garud.ssimulator",
+      "name": "サクラスクールシミュレーター",
+      "developer": "GARUSOFT K.K.",
+      "source": "google",
+      "kind": "game",
+      "detail_url": "https://play.google.com/store/apps/details?id=jp.garud.ssimulator&hl=ja&gl=JP",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:jp.garud.ssimulator",
+        "product_kind": "game",
+        "original_experience_ko": "스토어 설명에 따르면 고등학교와 작은 마을을 배경으로 학생 및 주민들과 교류하며 생활하는 샌드박스 시뮬레이션 게임입니다. 전투 미션과 연애 요소가 포함되어 있으며, 캐릭터 전환과 간이 AI 기반의 NPC 상호작용이 특징입니다. AI 해석에 따르면 3D 오픈월드 환경에서의 자유도 높은 탐험과 상호작용이 핵심 경험으로 추정되나, 실제 내부 구현 로직이나 세부 시스템은 확인되지 않습니다.",
+        "source_facts_and_limitations_ko": [
+          "사실: 고등학교와 작은 마을 배경, 학생과 주민 교류, 전투 미션 및 연애 요소, 남녀 고등학생 및 서브 캐릭터 조작 기능, 간이 AI 기반 마을 사람 행동, 최적화 설정(생물 수 조절, 표시 거리 단축 등) 기능이 존재함.",
+          "한계: 간이 AI의 구체적인 작동 알고리즘, 전투 시스템의 상세 로직, 물리 엔진의 종류 등은 스토어 소개문만으로 파악할 수 없음."
+        ],
+        "valuable_elements_ko": [
+          "오픈월드 샌드박스 구조: 정해진 선형 스토리라인에서 벗어나 플레이어가 원하는 대로 일상과 액션을 오가는 높은 자유도.",
+          "간이 AI 기반의 NPC 상호작용: 복잡한 대규모 서버 기반이 아니라 가벼운 NPC 반응을 통해 살아있는 세계 느낌을 주는 효율적 설계.",
+          "멀티 캐릭터 조작: 다양한 시점과 역할을 오가며 게임 플레이의 단조로움을 해소하는 점."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "아르바이트 스트리트: 동네 생활기",
+            "core_idea_ko": "고등학교 생활 대신 '소상공인 및 알바생'의 시선으로 작은 마을을 탐험하며 생계와 소소한 이웃 간의 해프닝을 다루는 샌드박스 시뮬레이션 게임.",
+            "what_to_keep_ko": "작은 마을 오픈월드 탐험, 간이 AI 주민들과의 관계 형성(호감도 시스템)을 계승하여 생활 밀착형 재미 유지.",
+            "what_to_change_ko": "학교와 전투 중심의 과격한 액션에서 탈피해, 아르바이트와 가게 운영, 생활 경제 규칙을 결합하여 실질적인 목표와 성장 체감 제공.",
+            "mobile_use_or_play_ko": "플레이어가 아침에 알바 장소로 이동해 미니게임을 통해 업무를 수행하고, 벌어들인 돈으로 마을 상인들과 교류하거나 아이템을 구매해 관계를 진전시킴.",
+            "key_features_ko": [
+              "직업 및 아르바이트 미니게임",
+              "주민 관계 및 평판 시스템",
+              "마을 공간 커스텀 및 상호작용"
+            ],
+            "solo_mvp_and_effort_ko": "단일 마을 맵과 3종의 직업 미니게임, 10명 내외의 간이 AI NPC만 구현하여 1인 개발 범위 축소 및 최적화 확보.",
+            "strengths_limits_ko": "일상형 시뮬레이션으로 대중성이 높으나, 전투 요소가 빠져 원작 고유의 엉뚱하고 파괴적인 재미를 선호하는 유저에게는 자극이 부족할 수 있음."
+          },
+          {
+            "title_ko": "캠퍼스 클럽 디렉터",
+            "core_idea_ko": "개별 학생을 직접 조작하는 대신 고등학교 내 다양한 동아리를 관리하고 학생들을 지휘하여 학교 축제를 성공시키는 전략적 샌드박스 시뮬레이션.",
+            "what_to_keep_ko": "고등학교 배경, 다양한 개성을 지닌 학생 캐릭터(간이 AI)와의 상호작용 및 관계 구축 경험 계승.",
+            "what_to_change_ko": "직접 무기를 들고 싸우거나 일상 캐릭터를 직접 조작하는 액션 중심에서, 동아리 부원 배치 및 이벤트 기획 등 경영·시뮬레이션 규칙으로 전환.",
+            "mobile_use_or_play_ko": "플레이어가 교장 또는 동아리 부장이 되어 학생들의 스케줄을 관리하고, 돌발 이벤트(학생 간 갈등, 축제 준비 비상)에 대응하여 학교 평판을 높임.",
+            "key_features_ko": [
+              "학생 스케줄 및 관계 매니지먼트",
+              "학교 축제 및 이벤트 기획 시스템",
+              "간이 AI 학생들의 동적 행동 관찰"
+            ],
+            "solo_mvp_and_effort_ko": "텍스트 및 UI 중심의 경영 인터페이스와 간소화된 3D 학교 구역 하나로 MVP를 구성해 그래픽 및 물리 연산 부하를 최소화.",
+            "strengths_limits_ko": "직접 조작의 손맛보다는 전략과 관찰의 재미가 크며, 원작의 액션과 자유 이동을 기대한 유저층과의 괴리가 있을 수 있음."
+          },
+          {
+            "title_ko": "히어로 아카데미 파크",
+            "core_idea_ko": "평화로운 학교와 마을을 배경으로 삼되, 학생들 사이에 숨겨진 초능력(히어로 및 빌런) 설정을 가미하여 가벼운 액션과 미션을 수행하는 오픈월드 샌드박스 게임.",
+            "what_to_keep_ko": "학교와 작은 마을이라는 공간적 배경, 캐릭터 체인지 및 간이 AI 주민들과의 돌발 상호작용, 가벼운 액션 미션 구조 유지.",
+            "what_to_change_ko": "단순한 교복 입은 학생들의 난동에서 벗어나, 초능력 스킬 트리와 히어로 및 빌런 대립 구도를 도입하여 전투와 미션의 몰입감을 체계적으로 개선.",
+            "mobile_use_or_play_ko": "플레이어가 초능력 학생 캐릭터를 조작해 마을을 순찰하고, 주민들의 의뢰를 해결하거나 빌런 NPC와 가벼운 전투를 치르며 명성을 쌓음.",
+            "key_features_ko": [
+              "초능력 기반 스킬 및 액션 시스템",
+              "히어로 및 빌런 진영 선택 및 평판",
+              "마을 구조물 파괴 및 상호작용 피드백"
+            ],
+            "solo_mvp_and_effort_ko": "초능력 이펙트와 전투 판정을 최소한으로 제한하고, 단일 구역 맵에서 2종의 캐릭터 클래스만 구현하여 개발 공수 절감.",
+            "strengths_limits_ko": "원작의 엉뚱한 재미와 액션을 가장 잘 계승하여 매력적이나, 모바일 환경에서 물리 엔진과 다수 캐릭터 전투 최적화라는 기술적 난도가 여전히 높음."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어(아르바이트 스트리트)는 전투를 배제하고 일상 경제와 인간관계에 집중하여 개발 부담을 낮췄으나 원작의 액션성이 사라집니다. 두 번째 아이디어(캠퍼스 클럽 디렉터)는 3D 직접 조작 대신 경영 시뮬레이션으로 전환해 기술적 안정성을 확보하지만 샌드박스의 체감이 약화됩니다. 세 번째 아이디어(히어로 아카데미 파크)는 원작의 공간과 액션·자유도를 가장 직관적으로 확장하나, 최적화와 물리 처리라는 기술적 난제가 남아 있습니다.",
+        "recommended_concept_number": 3,
+        "why_recommended_ko": "사쿠라 스쿨 시뮬레이터의 핵심 매력인 '고등학교 및 마을 배경의 자유로운 이동과 간이 AI와의 상호작용, 돌발적인 액션 미션'의 감성을 가장 직접적으로 확장하면서도, 초능력이라는 명확한 차별적 재미 요소를 더해 단순 복제를 피했기 때문입니다. 다만 모바일 최적화 문제는 단일 구역 제한과 이펙트 간소화로 현실적으로 타협해야 합니다.",
+        "next_questions_ko": [
+          "간이 AI NPC의 이동 및 반응 루틴을 게임 엔진에서 성능 저하 없이 구현할 수 있는 최적화 방안은 무엇인가?",
+          "초능력 액션과 마을 샌드박스 요소 중 1인 개발 MVP 단계에서 어떤 요소를 우선순위로 검증해야 하는가?",
+          "모바일 저사양 기기에서 프레임 저하를 방지하기 위해 NPC 수와 렌더링 거리를 어느 수준으로 제한해야 하는가?"
+        ]
+      },
+      "brief_at": "2026-11-23T07:42:04+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 1576,
+        "candidatesTokenCount": 2045,
+        "totalTokenCount": 7181,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1576
+          }
+        ],
+        "thoughtsTokenCount": 3560,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:jp.garud.ssimulator",
+        "product_kind": "game",
+        "selected_concept_title_ko": "히어로 아카데미 파크",
+        "project_goal_and_audience_ko": "모바일 환경에서 고등학교와 마을 배경의 자유로운 오픈월드 탐험을 즐기면서, 초능력 액션과 히어로/빌런 대립 구도의 미션을 가볍게 즐기고 싶은 서브컬처 및 샌드박스 게임 팬을 위한 모바일 게임입니다. 평화로운 일상 속에서 초능력을 활용해 돌발 상황을 해결하고 자신만의 캐릭터 성장을 이루는 재미를 제공합니다.",
+        "source_relation_and_difference_ko": "원본에서 학교와 작은 마을이라는 공간적 배경, 간이 AI 기반 주민들과의 돌발 상호작용, 캐릭터 체인지 및 자유로운 이동 구조를 그대로 계승했습니다. 반면, 단순한 난동 중심의 플레이에서 벗어나 초능력 스킬 트리, 히어로 및 빌런 진영 선택, 파괴 가능한 오브젝트와 전투 판정을 도입하여 액션과 미션의 몰입감을 체계적으로 개선했습니다.",
+        "core_user_experience_ko": "플레이어는 가상 조이스틱과 스킬 버튼을 조작하여 초능력 학생 캐릭터로 고등학교와 마을을 이동합니다. NPC에게 말을 걸거나 퀘스트를 수락하고, 빌런 NPC나 돌발 위협 요소와 조우했을 때 초능력 스킬을 사용하여 전투를 벌입니다. 시스템은 캐릭터의 입력에 따라 실시간 물리 반응, 스킬 이펙트, 평판 증감 수치를 즉각 화면에 반영합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "초능력 기반 스킬 및 액션 시스템",
+            "user_action_and_behavior_ko": "사용자가 화면 우측의 스킬 버튼을 터치하면 캐릭터가 염동력 또는 에너지 블라스트 등의 초능력 공격을 시전합니다. 대상 적에게 대미지가 들어가고 넉백 효과가 발생하며, 전투의 긴장감과 타격감을 부여합니다.",
+            "practical_implementation_ko": "Unity 엔진의 기본 Raycast 및 간단한 Collider 충돌 판정을 활용하여 스킬 범위 내 적을 탐색하고, 파티클 시스템으로 가벼운 이펙트를 출력합니다."
+          },
+          {
+            "feature_ko": "히어로 및 빌런 진영 선택 및 평판 시스템",
+            "user_action_and_behavior_ko": "게임 초반 진영을 선택하거나 플레이 성향에 따라 마을 내 평판 수치가 변동합니다. 히어로 진영일 경우 주민들의 환호를 받고, 빌런 진영일 경우 경계 대상이 되어 특정 미션 분기가 열립니다.",
+            "practical_implementation_ko": "로컬 저장소에 플로트/인트 형태의 평판 변수를 두고, NPC 상호작용 시 조건문으로 분기 처리합니다."
+          },
+          {
+            "feature_ko": "간이 AI NPC 상호작용 및 돌발 미션",
+            "user_action_and_behavior_ko": "마을을 돌아다니는 간이 AI 주민들과 대화하거나 아이템을 건네며 호감도를 높이고, 무작위로 발생하는 구조 요청 등의 미션을 수락하여 보상을 획득합니다.",
+            "practical_implementation_ko": "유한 상태 머신(FSM)을 간소화한 상태 패턴을 적용하여 NPC가 웨이포인트를 이동하다 플레이어 접근 시 반응하도록 구현합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 오픈월드 화면",
+            "contents_and_actions_ko": "가상 조이스틱(이동), 카메라 시점 조작, 미니맵, 스킬/액션 버튼, 상호작용 프롬프트 표시. 터치 조작으로 캐릭터 이동 및 전투 수행."
+          },
+          {
+            "screen_ko": "캐릭터 및 스킬 관리 메뉴",
+            "contents_and_actions_ko": "현재 장착 중인 초능력 스킬 확인, 진영 상태 확인, 서브 캐릭터 잠금 해제 및 변경."
+          }
+        ],
+        "implementation_approach_ko": "유니티(Unity) 엔진을 활용하여 모바일 3D 오픈월드 환경을 구축합니다. 모바일 최적화를 위해 싱글 존 맵 구조를 채택하고, 오브젝트 풀링을 적용하여 프레임 저하를 방지합니다. 대안으로는 언리얼 엔진이 있으나 모바일 캐주얼풍 그래픽과 1인 개발 효율성을 고려해 유니티를 선정했습니다.",
+        "data_and_storage_ko": [
+          "플레이어 데이터: 캐릭터 ID, 위치 좌표, 체력, 경험치, 소지금. 앱 종료 또는 체크포인트 도달 시 JSON 직렬화하여 로컬 파일(Application.persistentDataPath)에 저장.",
+          "월드 평판 및 퀘스트 상태: 진영 타입, 평판 점수, 완료된 미션 리스트. 상호작용 발생 시 즉시 업데이트 및 로컬 저장.",
+          "NPC 데이터: 간이 AI 상태, 고유 ID, 호감도 수치. 런타임에 메모리상에서 관리하며 씬 로드 시 초기화."
+        ],
+        "mvp_scope_ko": "고등학교 교내 및 인근 소규모 마을 구역 1개, 플레이 가능한 초능력 캐릭터 2종, 기본 이동 및 1가지 초능력 공격 액션, 간이 AI NPC 5명을 포함하는 범위를 MVP로 설정합니다. 대규모 멀티플레이나 복잡한 스킬 트리는 제외하고 핵심 탐험 및 전투 루프 검증에 집중합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계 - 기본 환경 및 캐릭터 컨트롤러 구축",
+            "deliverable_and_check_ko": "3D 지형 프로토타입 씬 생성, 가상 조이스틱을 통한 3차원 캐릭터 이동 및 카메라 시점 회전 기능 구현 여부 확인."
+          },
+          {
+            "stage_ko": "2단계 - 초능력 액션 및 간이 AI 구현",
+            "deliverable_and_check_ko": "스킬 버튼 입력 시 이펙트 출력 및 적 오브젝트 피격 판정 테스트, 웨이포인트를 이동하는 간이 AI NPC와 상호작용 작동 여부 확인."
+          },
+          {
+            "stage_ko": "3단계 - UI 및 로컬 데이터 저장 연동",
+            "deliverable_and_check_ko": "메인 HUD 구성, 캐릭터 체력 및 평판 데이터의 로컬 파일 저장 및 불러오기 정상 작동 확인."
+          }
+        ],
+        "possible_extensions_ko": "추후 개발 단계에서는 다양한 초능력 커스터마이징, 추가 서브 캐릭터 해제 시스템, 비행 및 탈것 탑승 기능, 멀티플레이어 협동/대결 모드 등을 확장할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "기술 리스크: 모바일 기기에서 다수의 간이 AI NPC와 3D 물리 엔진을 동시에 처리할 때 발생하는 프레임 드랍 문제.",
+          "기획 리스크: 초능력 액션의 타격감과 조작 편의성의 균형.",
+          "확인 방법: 타겟 저사양 기기 에뮬레이터 테스트 및 프로토타입 조작성 피드백 수집을 통해 해결책 모색."
+        ],
+        "draft_status_ko": "본 문서는 기획의 실현 가능성을 검토하기 위해 작성된 모바일 개발 설계 초안으로, 실제 구현, 플레이테스트 및 모바일 성능 최적화가 완료되지 않았습니다."
+      },
+      "plan_at": "2026-11-23T07:42:22+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 2249,
+        "candidatesTokenCount": 1794,
+        "totalTokenCount": 6864,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2249
+          }
+        ],
+        "thoughtsTokenCount": 2821,
+        "serviceTier": "standard"
+      }
     }
   }
 }

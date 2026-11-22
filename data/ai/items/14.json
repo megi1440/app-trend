@@ -14120,6 +14120,183 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-22"
+    },
+    "itch:6b180fd9803f2b14e1b9": {
+      "app_key": "itch:6b180fd9803f2b14e1b9",
+      "name": "Space Game CC Test [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://jwtucker04.itch.io/space-game-cc-test",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:12:35+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Test environment for a game's character controller",
+      "analysis": {
+        "app_key": "itch:6b180fd9803f2b14e1b9",
+        "summary_ko": "Space Game CC Test는 게임 내 캐릭터 컨트롤러를 테스트하기 위한 환경입니다. 캐릭터의 움직임과 조작감을 검증하는 데 초점을 맞춘 프로토타입입니다.",
+        "features_ko": [
+          "캐릭터의 이동 및 조작 기능을 테스트합니다.",
+          "기본적인 물리 환경에서 캐릭터의 반응을 확인합니다."
+        ],
+        "noteworthy_ko": "게임의 핵심인 조작감을 최우선으로 개발하는 방식은 매우 효율적입니다. 컨트롤러의 반응성이 게임의 재미를 좌우한다는 점을 잘 인지하고 있습니다.",
+        "development_ko": "캐릭터 컨트롤러의 물리 연산과 입력 반응 속도 최적화가 핵심입니다. 다양한 지형이나 장애물을 배치하여 컨트롤러의 범용성을 테스트해야 합니다.",
+        "idea_ko": "테스트 환경을 단순한 공간이 아닌, 조작 숙련도를 측정할 수 있는 장애물 코스로 발전시키는 것을 제안합니다.",
+        "highlights_ko": [
+          "캐릭터 조작감 검증에 집중된 프로토타입.",
+          "물리 기반의 캐릭터 움직임 테스트."
+        ],
+        "systems_ko": [
+          "입력 처리 시스템",
+          "캐릭터 물리 컨트롤러",
+          "카메라 팔로우 시스템",
+          "디버그 UI"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "게임의 전체적인 콘텐츠보다는 캐릭터 조작이라는 단일 기능에 집중하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 점프",
+            "카메라 시점 제어"
+          ],
+          "defer": [
+            "적 AI",
+            "아이템 시스템"
+          ],
+          "risks": [
+            "물리 엔진의 불안정한 충돌 판정"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "조작 숙련도 타임어택",
+            "concept": "테스트 환경에 장애물을 배치하여 얼마나 빨리 통과하는지 기록을 측정합니다.",
+            "first_step": "단순한 점프 구간을 만들어 통과 시간을 측정하는 타이머 구현."
+          },
+          {
+            "title": "중력 변화 테스트",
+            "concept": "중력 값을 실시간으로 변경하며 캐릭터의 조작감이 어떻게 변하는지 테스트합니다.",
+            "first_step": "슬라이더 UI를 통해 중력 값을 조절하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "캐릭터 컨트롤러의 기초를 다지고 싶은 개발자에게 추천합니다. 조작감의 미세한 차이를 구현하는 법을 배울 수 있습니다.",
+        "source_limitations_ko": "테스트 환경의 구체적인 물리 설정이나 컨트롤러의 상세 기능은 설명되지 않았습니다.",
+        "name": "Space Game CC Test [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://jwtucker04.itch.io/space-game-cc-test",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 341,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 13,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
+    },
+    "apple:6761457348": {
+      "app_key": "apple:6761457348",
+      "name": "Pulseva: Heart Rate Tracker",
+      "developer": "Khac Duy Nguyen",
+      "source": "apple",
+      "country": "US",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/us/app/pulseva-heart-rate-tracker/id6761457348?uo=2",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:15:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Pulseva: Heart Rate Tracker is a powerful yet simple health tracker that helps you monitor health and understand your body through daily data. * Heart Tracking Keep track of your heart health - log your heart rate data and track it anytime, anywhere - Accurate pulse rate monitoring and heart rate variability - Follow stress levels to stay mentally healy everyday - View your heart score with clear charts and health reports * Blood Measurement The app works as a complete blood pressure tracker, helping you log blood pressure and follow long-term changes. Track blood sugar alongside pressure with built-in support for blood sugar tracking and blood glucose records. * Daily Reminder Consistency is key to better health. Set simple reminders for daily blood pressure checks, sugar measurement, or any routine you want to maintain. Stay on track with your health maintenance without extra effort. * Step Counter Your daily movement matters. The built-in step counter helps you stay active and improve energy levels through simple tracking. It’s a lightweight way to support long-term health management and build a more active lifestyle. * AI-included Features Stay on track with simple tools for everyday use. Log water intake, manage hydration goals, and use a smart calories estimator with AI food recognition. - Log water intake and manage daily hydration goals - Estimate calories with AI-powered food recognition - Scan meals instantly for quick nutrition insights - Access features quickly with home screen widgets * Discovery Go beyond tracking with useful insights and guidance. Explore curated health articles, get suggestions from AI health advisors, and better understand potential health risks. This Pulseva: Heart Rate Tracker always needs your recommendation and feedback to be immensely improved. We’d like to receive further suggestions from our beloved users with a deep sincerity. Thank you very much Privacy URL: https://kdn-studio.netlify.app/privacy Term of use: https://kdn-studio.netlify.app/eula",
+      "analysis": {
+        "app_key": "apple:6761457348",
+        "summary_ko": "Pulseva는 심박수, 혈압, 혈당 등 사용자의 건강 데이터를 기록하고 관리하는 종합 건강 추적 앱입니다. 일일 건강 기록을 통해 신체 상태를 파악하고, 걸음 수 측정 및 수분 섭취 관리 등 생활 습관 개선을 돕습니다. AI 기반의 음식 인식 기능을 통해 칼로리를 추정하고, 건강 관련 인사이트와 기사를 제공하여 사용자의 건강한 삶을 지원합니다.",
+        "features_ko": [
+          "심박수와 심박 변이도를 기록하고 추적할 수 있습니다.",
+          "혈압과 혈당 데이터를 기록하여 장기적인 변화를 관리할 수 있습니다.",
+          "내장된 걸음 수 측정기를 통해 일일 활동량을 추적할 수 있습니다.",
+          "AI 음식 인식 기능을 사용하여 식사 칼로리를 추정할 수 있습니다.",
+          "수분 섭취 목표를 설정하고 일일 섭취량을 기록할 수 있습니다.",
+          "건강 관련 기사와 AI 건강 조언을 통해 유용한 정보를 얻을 수 있습니다."
+        ],
+        "noteworthy_ko": "다양한 건강 데이터를 한곳에서 관리하는 통합형 헬스케어 앱입니다. 특히 AI를 활용한 칼로리 추정 기능은 사용자의 입력 번거로움을 줄여주는 혁신적인 접근으로 보입니다.",
+        "development_ko": "핵심 기술은 건강 데이터의 시각화와 AI 모델을 활용한 이미지 분석입니다. 데이터의 정확성과 보안이 매우 중요하며, 사용자가 꾸준히 기록할 수 있도록 알림 시스템과 직관적인 UI를 설계해야 합니다. 외부 건강 데이터 API와의 연동을 고려한 확장성 있는 데이터 구조가 필요합니다.",
+        "idea_ko": "사용자의 건강 데이터를 바탕으로 개인 맞춤형 운동 루틴을 생성하거나, 특정 건강 목표 달성 시 보상을 주는 게이미피케이션 요소를 도입하면 좋습니다.",
+        "highlights_ko": [
+          "심박수, 혈압, 혈당 등 다양한 건강 지표를 통합 관리합니다.",
+          "AI 음식 인식 기능을 통해 식단 관리의 편의성을 높였습니다."
+        ],
+        "systems_ko": [
+          "건강 데이터 기록 및 통계 엔진",
+          "AI 기반 음식 인식 및 칼로리 추정 모듈",
+          "활동량 추적 및 알림 시스템",
+          "건강 정보 콘텐츠 관리 시스템",
+          "데이터 보안 및 개인정보 보호 모듈"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "AI 음식 인식 기술은 높은 수준의 머신러닝 구현 능력을 요구합니다. 또한 건강 데이터는 민감한 정보이므로 보안과 데이터 정확성 확보가 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "심박수 및 혈압 기록 기능",
+            "걸음 수 측정",
+            "일일 건강 기록 UI"
+          ],
+          "defer": [
+            "AI 음식 인식 및 칼로리 추정",
+            "건강 기사 및 AI 조언",
+            "혈당 기록 기능"
+          ],
+          "risks": [
+            "건강 데이터의 정확성 및 보안 문제",
+            "AI 모델의 학습 데이터 확보 및 성능 유지"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "건강 목표 챌린지",
+            "concept": "사용자가 스스로 건강 목표를 설정하고 달성 시 배지를 획득하는 챌린지입니다. 꾸준한 기록을 유도하여 습관 형성을 돕습니다.",
+            "first_step": "목표 설정 기능과 달성 여부를 체크하는 간단한 로직 구현."
+          },
+          {
+            "title": "건강 상태 리포트",
+            "concept": "주간/월간 건강 데이터를 분석하여 사용자의 건강 상태를 요약해 주는 리포트입니다. 변화를 한눈에 파악할 수 있습니다.",
+            "first_step": "기록된 데이터를 기반으로 평균값과 변화 추이를 보여주는 차트 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 시각화와 사용자 습관 형성 설계에 관심 있는 개발자에게 추천합니다. 다만, 의료 관련 기능은 정확성이 생명이므로 전문적인 검증이 필요함을 명심해야 합니다.",
+        "source_limitations_ko": "AI 음식 인식의 정확도나 사용된 데이터 모델에 대한 정보는 없습니다. 의료 기기 연동 여부나 데이터 보안 정책의 상세 내용은 확인되지 않습니다.",
+        "name": "Pulseva: Heart Rate Tracker",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/pulseva-heart-rate-tracker/id6761457348?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
     }
   }
 }

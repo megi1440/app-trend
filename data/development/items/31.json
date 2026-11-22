@@ -29705,6 +29705,629 @@
         "thoughtsTokenCount": 2834,
         "serviceTier": "standard"
       }
+    },
+    "itch:4f9be302df67a066d524": {
+      "app_key": "itch:4f9be302df67a066d524",
+      "name": "BOUNCE BACK: Physics Puzzle [Free] [Strategy]",
+      "developer": "",
+      "source": "itch",
+      "kind": "game",
+      "detail_url": "https://priyansh-soni-quant.itch.io/bounce-back",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:4f9be302df67a066d524",
+        "product_kind": "game",
+        "original_experience_ko": "원본인 'BOUNCE BACK'은 미니멀한 2D 환경에서 궤적 추론과 운동 에너지 반사, 그리고 머릿속으로 경로를 그리는 멘탈 매핑을 핵심으로 하는 물리 퍼즐 게임입니다. 스토어 설명에 근거할 때, 플레이어는 물리적 반사 원리를 활용해 제한된 조건 속에서 목표를 달성하는 전략적 사고 경험을 제공받는 것으로 해석할 수 있습니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 설명에 따르면 미니멀리즘 2D 퍼즐 경험, 궤적 추론, 운동 에너지 반사, 멘탈 매핑이 핵심 요소라는 점은 명확한 사실입니다.",
+          "정확한 조작 방식, 레벨 디자인 구조, 승리 조건, 사용된 물리 엔진의 종류 등은 스토어 문구만으로는 확인할 수 없는 미확인 정보입니다.",
+          "관측된 순위나 데이터는 흥행이나 다운로드, 매출을 직접적으로 증명하지 않으며 개발 완성도의 지표가 아닙니다."
+        ],
+        "valuable_elements_ko": [
+          "직관적인 반사 물리 법칙을 활용해 플레이어가 사전에 경로를 계산하고 성공했을 때 얻는 강한 성취감.",
+          "불필요한 요소를 배제한 미니멀리즘적 접근으로 퍼즐의 핵심 메커니즘에만 집중할 수 있는 구조."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "반사광 레이저 퍼즐: 옵틱 튕기기",
+            "core_idea_ko": "물리적인 공을 튕기는 대신, 거울과 프리즘 오브젝트를 배치하여 레이저 광선이 반사되고 꺾이며 목표 지점에 도달하도록 경로를 설계하는 2D 퍼즐 게임.",
+            "what_to_keep_ko": "궤적 추론과 반사각 계산이라는 원본의 핵심 퍼즐 재미를 계승하면서, 광선이라는 시각적 즉각성을 결합합니다.",
+            "what_to_change_ko": "물리 운동 에너지나 중력 시뮬레이션 대신 광학적 반사 법칙을 적용하고, 플레이어가 실시간으로 오브젝트를 회전·배치하는 인터페이스로 변경합니다.",
+            "mobile_use_or_play_ko": "화면 하단에서 회전 가능한 거울을 터치하여 드래그로 각도를 조절하고, '발사' 버튼을 눌러 레이저의 반사 경로를 실시간으로 확인한 뒤 스테이지를 클리어합니다.",
+            "key_features_ko": [
+              "광선 반사 시뮬레이션 로직",
+              "회전 및 이동 가능한 배치 오브젝트",
+              "경로 실시간 시각화 렌더러"
+            ],
+            "solo_mvp_and_effort_ko": "Unity 또는 Godot의 기본 2D Raycast 기능을 활용하여 레이저 반사 알고리즘을 구현하며, 20개의 고정 스테이지를 목표로 1인 개발이 비교적 수월합니다.",
+            "strengths_limits_ko": "직관적인 시각 피드백이 장점이나, 복잡한 반사 연산에서 발생할 수 있는 무한 루프 예외 처리가 과제입니다."
+          },
+          {
+            "title_ko": "사운드 리바운드: 음파 반사 악단",
+            "core_idea_ko": "벽에 부딪혀 튕기는 파동 오브젝트를 활용해 미로 속의 특정 음향 장치들을 순서대로 활성화하여 곡을 완성하는 리듬 연계형 물리 퍼즐 게임.",
+            "what_to_keep_ko": "운동 에너지 반사와 멘탈 매핑을 통한 경로 예측의 재미를 유지합니다.",
+            "what_to_change_ko": "정적인 퍼즐 해법에 음악적 리듬과 사운드 피드백 요소를 더해, 경로가 성공했을 때 청각적 보상이 주어지도록 규칙을 확장합니다.",
+            "mobile_use_or_play_ko": "화면을 터치해 음파를 발사할 각도와 세기를 정하고, 음파가 벽과 장애물을 튕겨 악기 노드에 명중할 때마다 악기 사운드가 재생되는 과정을 지켜봅니다.",
+            "key_features_ko": [
+              "파동 충돌 및 감쇠 물리 연산",
+              "노드 적중 시 사운드 트리거 시스템",
+              "리듬 싱크로율 기반 별점 평가 구조"
+            ],
+            "solo_mvp_and_effort_ko": "간단한 오디오 매니저와 2D 콜라이더를 연동하여 MVP를 제작할 수 있으며, 사운드 에셋 제작이나 싱크 맞추기에 추가 작업이 필요합니다.",
+            "strengths_limits_ko": "청각적 몰입감이 높아 차별화되지만 퍼즐의 논리성과 사운드 타이밍의 조율이 까다로울 수 있습니다."
+          },
+          {
+            "title_ko": "메모리 핀볼 브레이커: 기억의 궤적",
+            "core_idea_ko": "플레이어가 보이지 않는 숨겨진 장애물 배치를 머릿속으로 기억하고, 공을 튕겨 모든 표적을 맞추는 기억력 결합형 반사 퍼즐 게임.",
+            "what_to_keep_ko": "궤적 추론과 반사 운동을 통한 전략적 사고라는 원본의 본질을 그대로 계승합니다.",
+            "what_to_change_ko": "단순히 눈앞의 퍼즐을 푸는 것을 넘어, 제한된 시간 동안 장애물 위치를 보여준 뒤 화면을 가리고 공을 발사해야 하는 기억력 테스트 규칙을 결합합니다.",
+            "mobile_use_or_play_ko": "스테이지 시작 시 3초간 장애물 위치가 표시된 후 암전되며, 플레이어가 기억에 의존해 발사 각도를 설정하고 공을 튕겨 결과를 확인합니다.",
+            "key_features_ko": [
+              "일시적 시각화 및 페이드아웃 타이머",
+              "기억력 검증형 궤적 계산 규칙",
+              "난이도별 장애물 투명도 조절 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "기존 물리 반사 로직에 간단한 UI 타이머와 가시성 토글 기능만 추가하면 되므로 구현 난이도가 낮고 1인 개발에 적합합니다.",
+            "strengths_limits_ko": "퍼즐에 긴장감을 부여하는 장점이 있으나, 지나치게 기억력에 의존하면 물리 퍼즐 고유의 논리적 탐구 재미가 퇴색될 위험이 있습니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어(광학 반사)는 시각적 직관성과 정밀한 제어에 강점이 있고, 두 번째 아이디어(사운드 리바운드)는 청각적 피드백으로 독창성을 높이지만 사운드 조율 부담이 있습니다. 세 번째 아이디어(기억력 결합)는 원본의 멘탈 매핑 개념을 직관적으로 확장하여 구현 난이도가 가장 낮으나 기억력에 치중될 수 있습니다. 세 기획 모두 원본의 반사 및 궤적 예측 경험을 각기 다른 감각(빛, 소리, 기억)으로 발전시켰습니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "첫 번째 '반사광 레이저 퍼즐: 옵틱 튕기기'는 원본의 궤적 추론과 반사 원리를 가장 명확하고 시각적으로 만족스럽게 구현할 수 있는 방식입니다. 레이저의 반사는 모바일 터치 환경에서 각도 조절과 즉각적인 피드백을 구현하기에 적합하며, 1인 개발자가 물리 엔진의 무거운 연산 부담을 줄이면서도 정교한 퍼즐 레벨을 구성하기에 가장 현실적인 타협점입니다.",
+        "next_questions_ko": [
+          "2D 레이저 반사 계산 시 무한 반사 상황을 방지하기 위한 최대 반사 횟수 제한 로직은 어떻게 설계할 것인가?",
+          "모바일 화면에서 손가락으로 거울 각도를 조절할 때 터치 오차를 보정할 수 있는 UI 인터페이스는 무엇인가?",
+          "스테이지 실패 시 플레이어가 원인을 쉽게 파악하고 수정할 수 있는 시각적 가이드 라인을 어느 정도까지 제공할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-23T06:35:39+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 1199,
+        "candidatesTokenCount": 2027,
+        "totalTokenCount": 6025,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1199
+          }
+        ],
+        "thoughtsTokenCount": 2799,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "itch:4f9be302df67a066d524",
+        "product_kind": "game",
+        "selected_concept_title_ko": "반사광 레이저 퍼즐: 옵틱 튕기기",
+        "project_goal_and_audience_ko": "이 게임은 궤적 추론과 반사각 계산을 좋아하는 퍼즐 게임 유저를 위한 모바일 2D 광학 퍼즐 게임입니다. 플레이어는 거울과 프리즘을 배치 및 회전하여 레이저를 목표 지점으로 유도하며, 직관적인 시각적 피드백과 두뇌 회전의 즐거움을 느낄 수 있습니다.",
+        "source_relation_and_difference_ko": "원작의 궤적 추론과 반사각 계산이라는 핵심 퍼즐 재미를 그대로 계승하면서, 물리 공의 운동 에너지 대신 광선(레이저)의 즉각적인 반사 시각화와 터치 기반의 오브젝트 회전/배치 인터페이스를 도입하여 모바일 조작성과 직관성을 대폭 개선했습니다.",
+        "core_user_experience_ko": "사용자는 스테이지 화면에서 배치된 거울 오브젝트를 터치하여 각도를 조절하고 필요한 위치로 이동시킵니다. 이후 '발사' 버튼을 누르면 레이저 광선이 발사되어 거울에 반사되며 최종 목표 지점에 도달하는지 실시간 경로로 확인하고, 성공 시 스테이지를 클리어합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "레이저 반사 시뮬레이션 로직",
+            "user_action_and_behavior_ko": "발사 버튼 입력 시 시작점에서 레이저 광선을 쏴 거울 오브젝트와의 충돌 지점을 계산하고 반사각에 따라 경로를 연이어 그려 목표물 도달 여부를 즉시 판정합니다.",
+            "practical_implementation_ko": "Unity의 2D RaycastAll 또는 Godot의 intersect_ray를 반복 호출하여 최대 반사 횟수 제한 내에서 선분을 연쇄적으로 그리는 재귀 또는 루프 기반 알고리즘을 구현합니다."
+          },
+          {
+            "feature_ko": "오브젝트 터치 회전 및 배치 인터페이스",
+            "user_action_and_behavior_ko": "유저가 화면 위의 거울을 터치 앤 드래그하여 회전 슬라이더나 직접 터치 각도 조절을 통해 거울의 반사 방향을 정교하게 맞춥니다.",
+            "practical_implementation_ko": "터치 입력 좌표와 오브젝트 중심 간의 각도를 아크탄젠트(atan2)로 계산하여 스프라이트의 회전각(Rotation)을 실시간으로 업데이트합니다."
+          },
+          {
+            "feature_ko": "레벨 데이터 관리 시스템",
+            "user_action_and_behavior_ko": "스테이지별로 거울의 초기 위치, 회전 각도 제한, 목표 지점 위치 등을 불러와 화면에 세팅하고 클리어 상태를 저장합니다.",
+            "practical_implementation_ko": "JSON 형식의 레벨 데이터를 로컬 리소스에 저장하고 파싱하여 동적으로 스테이지 오브젝트를 생성합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 스테이지 선택 화면",
+            "contents_and_actions_ko": "해금된 스테이지 목록을 격자로 표시하며 유저가 특정 스테이지를 터치하면 게임 플레이 화면으로 진입합니다."
+          },
+          {
+            "screen_ko": "퍼즐 플레이 화면",
+            "contents_and_actions_ko": "상단에 레이저 발사 버튼, 중앙에 퍼즐 보드(거울, 장애물, 목표물), 하단에 재시도 및 힌트 버튼을 배치하여 유저가 거울을 조작하고 발사 결과를 확인합니다."
+          },
+          {
+            "screen_ko": "클리어 결과 팝업",
+            "contents_and_actions_ko": "목표 도달 성공 시 축하 메시지와 함께 다음 스테이지로 이동하거나 목록으로 돌아가는 버튼을 제공합니다."
+          }
+        ],
+        "implementation_approach_ko": "크로스플랫폼 2D 개발이 용이하고 가벼운 연산 처리가 가능한 Unity 엔진(C#)을 선택했습니다. 무거운 3D 물리 엔진 없이 2D 레이캐스트와 수학적 반사 공식(입사각과 반사각)만을 사용하므로 모바일 기기에서 배터리 소모가 적고 프레임 드랍 없는 부드러운 반응 속도를 보장합니다.",
+        "data_and_storage_ko": [
+          "StageData 구조체 (stage_id, laser_start_pos, laser_direction, target_pos, mirror_list: 위치 및 회전 제한 정보), PlayerProgress 구조체 (clear_stage_max, settings)",
+          "SharedPreferences 또는 JsonUtility를 이용해 로컬 기기에 플레이어의 스테이지 클리어 진행도를 안전하게 저장하고 앱 재시작 시 불러옴",
+          "레벨 설정 데이터는 외부 JSON 파일로 관리하여 향후 스테이지 추가가 용이하도록 구성"
+        ],
+        "mvp_scope_ko": "첫 번째 MVP는 총 20개의 고정 스테이지와 기본 거울 회전/발사 기능, 클리어 판정만 포함합니다. 사운드, 화려한 파티클 이펙트, 유료 상점 등 부가 기능은 제외하여 핵심 광학 반사 퍼즐 메커니즘의 재미를 빠르게 검증하는 데 집중합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 코어 물리/수학 연산 프로토타입",
+            "deliverable_and_check_ko": "2D 레이캐스트를 이용한 광선 반사 경로 렌더링 스크립트 작성 및 디버그 창에서 거울 각도 변경에 따른 반사 경로 실시간 갱신 확인"
+          },
+          {
+            "stage_ko": "2단계: 조작 인터페이스 및 게임 루프 구현",
+            "deliverable_and_check_ko": "터치 드래그에 따른 거울 회전 기능, 발사 버튼 연동, 목표물 충돌 시 성공 팝업 출력 확인"
+          },
+          {
+            "stage_ko": "3단계: 레벨 데이터 시스템 및 UI 완성",
+            "deliverable_and_check_ko": "JSON 기반 20개 스테이지 로드 기능, 메인 스테이지 선택 화면, 세이브/로드 기능 연동 및 통합 테스트"
+          }
+        ],
+        "possible_extensions_ko": "거울 외에 레이저 색상을 변환하는 프리즘, 광선을 막는 차단 벽, 일회성 반사 횟수 제한, 별 3개 평가 시스템 등 확장 콘텐츠는 핵심 플레이 검증 완료 후 추가합니다.",
+        "risks_and_open_decisions_ko": [
+          "모바일 터치 시 손가락에 가려져 거울의 각도가 정확히 보이지 않는 오클루전(Occlusion) 문제 해결 방법 검토 필요 (터치 오프셋 도입 고려)",
+          "레이저 반사가 무한 루프에 빠질 경우를 대비한 최대 반사 횟수 제한(예: 30회) 설정의 적정성 검증",
+          "원작의 상세 레벨 디자인 가이드가 없으므로 난이도 곡선을 직접 테스트하며 조정해야 하는 기획적 불확실성 존재"
+        ],
+        "draft_status_ko": "본 문서는 '반사광 레이저 퍼즐: 옵틱 튕기기'의 1인 모바일 개발을 위한 기획 및 기술 설계 초안이며, 실제 구현 및 플레이테스트를 통한 수치 검증은 완료되지 않았습니다."
+      },
+      "plan_at": "2026-11-23T06:35:55+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 1848,
+        "candidatesTokenCount": 1802,
+        "totalTokenCount": 6689,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1848
+          }
+        ],
+        "thoughtsTokenCount": 3039,
+        "serviceTier": "standard"
+      }
+    },
+    "google:com.hamyd.cleanupstorage": {
+      "app_key": "google:com.hamyd.cleanupstorage",
+      "name": "Storage Cleaner",
+      "developer": "dev-style",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.hamyd.cleanupstorage&hl=ko&gl=KR",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.hamyd.cleanupstorage",
+        "product_kind": "app",
+        "original_experience_ko": "스토어 정보와 해석에 따르면, 기기의 저장공간 사용량을 시각화하고 용량이 큰 파일, 스크린샷, 중복 사진을 탐색하여 정리하며, 설치된 앱 용량과 RAM/배터리 상태를 모니터링하여 영구 삭제 전 사용자가 직접 검토할 수 있는 유틸리티 경험을 제공합니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 사실: 저장공간 사용량 확인, 대용량 파일 및 스크린샷/중복 사진 식별, 설치 앱 크기 확인, 배터리 및 RAM 정보 모니터링, 삭제 전 검토 및 선택 기능, 저장공간 및 사용량 접근 권한 필요.",
+          "한계점: 구체적인 파일 스캔 알고리즘, 시스템 리소스 모니터링 방식, Android OS 버전별 권한 정책 대응 세부 사항은 명시되지 않았습니다."
+        ],
+        "valuable_elements_ko": [
+          "분산된 기기 관리 정보(저장소, 앱, 배터리, RAM)를 하나의 대시보드로 통합하여 보여주는 직관성",
+          "사용자가 실수로 중요한 데이터를 잃지 않도록 돕는 삭제 전 검토 및 선택 안전 장치",
+          "단순 용량 표기를 넘어 스크린샷이나 중복 사진 등 구체적인 유발 요인을 타겟팅하는 실용성"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "스토리지 타임캡슐 아카이버",
+            "core_idea_ko": "단순 삭제를 넘어, 장기간 사용하지 않은 미디어와 앱을 자동으로 압축·백업하여 보관(타임캡슐화)하고 필요 시 복원하는 지능형 공간 관리 앱입니다.",
+            "what_to_keep_ko": "대용량 파일과 미디어, 설치 앱의 용량 분석 및 사용자가 최종 선택하는 검토 단계를 계승합니다.",
+            "what_to_change_ko": "즉시 영구 삭제 중심의 규칙을 장기 미사용 데이터의 압축 및 아카이빙 방식으로 전환하여 데이터 손실 불안감을 해소합니다.",
+            "mobile_use_or_play_ko": "앱 실행 시 사용 빈도가 낮은 앱과 사진을 분석해 타임캡슐 후보로 제안하고, 사용자가 선택하면 압축 저장소로 이동시켜 즉시 가용 용량을 확보한 뒤 알림을 받습니다.",
+            "key_features_ko": [
+              "장기 미사용 데이터 자동 분류 알고리즘",
+              "로컬 저장소 연동 압축 아카이빙",
+              "원클릭 복원 및 영구 삭제 선택 인터페이스"
+            ],
+            "solo_mvp_and_effort_ko": "안드로이드 Storage Access Framework를 활용해 파일 탐색 및 압축 기능을 구현하며, 클라우드 연동을 제외한 로컬 압축 중심의 1인 MVP 개발은 난이도 보통 수준입니다.",
+            "strengths_limits_ko": "삭제에 대한 심리적 거부감을 줄여주는 강력한 장점이 있으나, 대용량 압축/해제 과정에서의 CPU 부하 및 소요 시간 측정이 과제입니다."
+          },
+          {
+            "title_ko": "게임 & 헤비앱 리소스 퀵 부스터",
+            "core_idea_ko": "일반 파일 정리에 머무르지 않고, 고용량 게임 및 헤비 앱의 캐시 데이터, RAM, 발열·배터리 상태를 실시간으로 연동하여 최적의 퍼포먼스를 유지하는 게이머·크리에이터 전용 관리 도구입니다.",
+            "what_to_keep_ko": "설치된 앱의 용량 확인, RAM 및 배터리 정보 모니터링이라는 시스템 리소스 추적 기능을 계승합니다.",
+            "what_to_change_ko": "범용 파일 정리에서 벗어나 고용량 앱의 잔여 캐시와 백그라운드 프로세스를 게임 실행 전후로 즉시 정리하는 퍼포먼스 중심 규칙으로 바꿉니다.",
+            "mobile_use_or_play_ko": "사용자가 게임 앱 실행을 감지할 때 백그라운드 RAM을 정리하고 현재 기기 배터리/발열 상태를 안내한 뒤, 게임 종료 후 쌓인 캐시 정리를 제안합니다.",
+            "key_features_ko": [
+              "앱별 캐시 용량 실시간 스캔 및 선택적 초기화",
+              "RAM 점유율 기반 백그라운드 프로세스 정리",
+              "게임 실행 감지 및 리소스 최적화 퀵 위젯"
+            ],
+            "solo_mvp_and_effort_ko": "UsageStatsManager와 PackageManager를 활용한 앱 정보 수집 구현이 필요하며, 접근 권한 설정 가이드 UX가 중요하므로 난이도 보통~높음 수준입니다.",
+            "strengths_limits_ko": "특정 타겟에게 명확한 효용을 제공하지만, 최신 안드로이드 OS의 백그라운드 프로세스 제한 정책으로 인해 자동 제어 범위에 기술적 한계가 존재합니다."
+          },
+          {
+            "title_ko": "스토리 메모리 갤러리 정리사",
+            "core_idea_ko": "시간대와 유사성 기준으로 사진과 스크린샷을 자동 묶어주어, 사용자가 추억을 회상하며 불필요한 미디어를 쉽고 감성적으로 정리할 수 있는 갤러리형 클리너입니다.",
+            "what_to_keep_ko": "스크린샷과 중복 사진 식별 기능, 그리고 삭제 전 사용자가 직접 확인하고 선택하는 검토 단계를 계승합니다.",
+            "what_to_change_ko": "기계적인 리스트 형태의 파일 정리를 시간순/이벤트별 스토리 카드 형태의 감성적 인터페이스로 바꾸어 정리 경험 자체를 즐겁게 만듭니다.",
+            "mobile_use_or_play_ko": "앱이 최근 한 달간의 유사 사진과 스크린샷을 이벤트 단위로 카드 그룹화하여 보여주면, 사용자가 스와이프를 통해 보관할 사진과 버릴 사진을 직관적으로 분류합니다.",
+            "key_features_ko": [
+              "촬영 날짜/메타데이터 기반 이벤트 카드 자동 생성",
+              "스와이프 제스처 기반 직관적 미디어 분류 UI",
+              "중복 스크린샷 및 흔들린 사진 자동 감지"
+            ],
+            "solo_mvp_and_effort_ko": "MediaStore API를 이용한 이미지 메타데이터 읽기와 커스텀 카드 UI 구현에 집중하며, 1인 개발 시 이미지 썸네일 캐싱 처리가 핵심 과제로 난이도 보통 수준입니다.",
+            "strengths_limits_ko": "직관적이고 친숙한 UI로 사용자 진입 장벽이 낮지만, 대용량 파일이나 시스템 RAM/배터리 등 종합 유틸리티 기능이 배제되어 확장성이 제한될 수 있습니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어는 데이터 손실 우려를 압축으로 해결해 심리적 안전성을 높이고, 두 번째 아이디어는 게이머를 타겟으로 퍼포먼스 최적화에 집중하며, 세 번째 아이디어는 갤러리 정리를 감성적 스와이프 UI로 풀어냅니다. 세 안 모두 원본의 저장소 및 시스템 관리 경험을 기반으로 하되, 대상 사용자와 인터페이스 규칙을 완전히 차별화했습니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "원본의 삭제 전 검토라는 핵심 장치를 타임캡슐 압축이라는 신선한 대안으로 확장하여 사용자에게 데이터 손실의 부담을 덜어주면서도 실질적인 용량 확보 효과를 줍니다. 안드로이드 로컬 저장소 API를 활용해 1인 개발자가 구현하기에 현실적이면서도 기존 유틸리티 앱들과 명확한 차별점을 가집니다.",
+        "next_questions_ko": [
+          "안드로이드 scoped storage 환경에서 대용량 파일 압축 및 복원 처리가 시스템 성능에 미치는 영향은 어느 정도인가?",
+          "타임캡슐로 압축된 파일들을 사용자가 직관적으로 관리할 수 있는 가벼운 로컬 DB 설계 방식은 무엇인가?"
+        ]
+      },
+      "brief_at": "2026-11-23T06:45:06+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 1337,
+        "candidatesTokenCount": 1791,
+        "totalTokenCount": 6502,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1337
+          }
+        ],
+        "thoughtsTokenCount": 3374,
+        "serviceTier": "standard"
+      }
+    },
+    "google:com.wrtn.character": {
+      "app_key": "google:com.wrtn.character",
+      "name": "크랙 - 내가 주인공인 웹소설, AI 채팅",
+      "developer": "wrtn",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.wrtn.character&hl=ko&gl=KR",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.wrtn.character",
+        "product_kind": "app",
+        "original_experience_ko": "사용자가 AI 캐릭터와 1대1로 대화하며 자신만의 웹소설 세계관을 만들고 분기형 스토리를 전개하는 AI 채팅 엔터테인먼트 경험입니다. 공개된 스토어 정보에 따르면 크리에이터 오리지널 콘텐츠와 강력한 요약 메모리 기능이 특징입니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 소개문을 통해 무제한 무료 AI 채팅, 장르별 오리지널 콘텐츠, 요약 메모리 기능, 유저 제작 캐릭터 생태계가 확인됨.",
+          "사용된 대규모 언어 모델(LLM)의 종류, 메모리 관리 알고리즘의 기술적 구조, 상세한 데이터 보안 정책은 스토어 텍스트만으로 확인할 수 없음."
+        ],
+        "valuable_elements_ko": [
+          "사용자의 대화 입력에 따라 실시간으로 변화하는 유연한 분기형 스토리텔링 구조.",
+          "과거 대화 내용을 요약하고 기억하여 깊은 관계 형성을 유도하는 메모리 시스템.",
+          "누구나 쉽게 세계관과 캐릭터를 창조하고 공유할 수 있는 유저 참여형 콘텐츠 생태계."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "멀티캐스트 앙상블: 군상극 AI 시뮬레이터",
+            "core_idea_ko": "1대1 대화에 국한된 기존 AI 채팅을 넘어, 다수의 AI 캐릭터가 서로 대화하고 갈등하는 그룹 채팅 및 군상극 구조를 도입한 인터랙티브 스토리 앱입니다.",
+            "what_to_keep_ko": "AI 캐릭터를 통한 자유로운 서사 전개와 세계관 구축의 재미, 대화 기억 및 맥락 유지 기능을 계승합니다.",
+            "what_to_change_ko": "단순 1대1 대화에서 벗어나 유저가 디렉터로서 다수의 캐릭터 간 관계망, 발언 순서, 파벌 갈등을 조율하는 군상극 멀티채팅 규칙으로 확장합니다.",
+            "mobile_use_or_play_ko": "유저가 4명의 파티 캐릭터가 참여하는 단체 채팅방에 입장하여 특정 사건에 대한 의견을 묻고, 캐릭터들 간의 자율 토론을 지켜본 뒤 개입하여 다음 전개를 유도합니다.",
+            "key_features_ko": [
+              "다중 AI 캐릭터 간 실시간 상호작용 및 그룹 채팅 엔진",
+              "캐릭터별 관계도 및 신뢰도 매트릭스 시각화",
+              "유저의 개입 여부에 따라 분기되는 군상극 시나리오 흐름"
+            ],
+            "solo_mvp_and_effort_ko": "LLM API 호출 시 프롬프트 엔지니어링을 통해 다중 에이전트 대화 구조를 시뮬레이션하고, 3~4개의 고정 캐릭터 그룹 템플릿을 제공하는 최소 기능 제품(MVP) 구현.",
+            "strengths_limits_ko": "장점은 1대1 채팅의 지루함을 해소하는 역동적인 대화입니다. 약점은 토큰 비용 증가와 다중 AI 응답 지연 문제이며, 기존 챗봇 대비 명확한 차별성을 검증해야 합니다."
+          },
+          {
+            "title_ko": "증거와 거짓말: AI 서스펜스 인터로게이션",
+            "core_idea_ko": "자유로운 로맨스/판타지 채팅을 추리 및 심문 장르로 전환하여, AI 용의자들과 대화하며 숨겨진 진실을 밝혀내는 목적 지향형 인터랙티브 미스터리 앱입니다.",
+            "what_to_keep_ko": "풍부한 페르소나를 가진 캐릭터와의 자연스러운 대화, 과거 발언을 기억하는 메모리 시스템을 계승합니다.",
+            "what_to_change_ko": "단순 감정 교류나 무한정 대화에서 벗어나, 알리바이를 분석하고 증거를 제시하여 AI의 진술 모순을 잡아내는 명확한 승리/패배 규칙을 도입합니다.",
+            "mobile_use_or_play_ko": "유저가 형사가 되어 사건 현장 증거를 수집한 뒤, AI 용의자와 채팅 인터뷰를 진행하며 모순된 진술을 지적하고 심리 압박 게이지를 채워 자백을 유도합니다.",
+            "key_features_ko": [
+              "진술 모순 탐지 및 증거 매칭 대화 시스템",
+              "용의자별 심리 상태 및 방어 게이지 메커니즘",
+              "수사 진척도에 따른 시나리오 해금 구조"
+            ],
+            "solo_mvp_and_effort_ko": "단일 사건 시나리오와 2명의 용의자 AI 페르소나를 설정하고, 키워드 및 증거 아이템 매칭 로직을 결합한 텍스트 기반 MVP 개발.",
+            "strengths_limits_ko": "장점은 명확한 목표와 도전 과제로 몰입도가 높습니다. 약점은 AI가 사용자의 의도와 다른 엉뚱한 답변을 할 때 추리 흐름이 깨질 수 있는 제어력의 한계입니다."
+          },
+          {
+            "title_ko": "스타트업 네고시에이터: 위기탈출 대화록",
+            "core_idea_ko": "가상의 창업자/경영자가 되어 까다로운 투자자, 파트너, 직원들과 대화하며 회사의 생존 지표를 관리하는 비즈니스 협상 시뮬레이션 앱입니다.",
+            "what_to_keep_ko": "개성 있는 인물들과의 대화 흐름, 유저의 선택이 스토리 전개에 직접 영향을 미치는 구조를 계승합니다.",
+            "what_to_change_ko": "감성적 웹소설 서사 대신, 자금·신뢰도·사기 같은 수치적 경영 지표와 대화 내용을 연동하여 실질적인 전략적 판단을 요구합니다.",
+            "mobile_use_or_play_ko": "유저가 투자자 AI와 채팅을 통해 조건 협상을 벌이고, 대화 결과에 따라 자금 잔액과 팀원 신뢰도가 실시간 변동되며 다음 날의 새로운 위기 이벤트가 해금됩니다.",
+            "key_features_ko": [
+              "대화 내용의 키워드 분석을 통한 경영 지표 변동 연동 시스템",
+              "상대방의 성향에 따른 협상 난이도 조절 프롬프트",
+              "주간 결산 및 멀티 엔딩 시나리오 브랜치"
+            ],
+            "solo_mvp_and_effort_ko": "1개의 메인 투자자 AI 페르소나와 3가지 핵심 재무 지표 연동 로직을 구현하여 텍스트 기반 시뮬레이션 루프 완성.",
+            "strengths_limits_ko": "장점은 뚜렷한 게임성 루프와 학습/시뮬레이션적 유용성입니다. 약점은 단순 엔터테인먼트 유저에게는 피로나 진입 장벽으로 작용할 수 있다는 점입니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어인 멀티캐스트 앙상블은 1대1 대화의 한계를 극복하는 군상극 재미를 주나 토큰 비용이 크고, 두 번째 아이디어인 증거와 거짓말은 명확한 목적 지향적 추리 재미로 몰입감이 높으나 AI 통제가 까다롭습니다. 세 번째 아이디어인 스타트업 네고시에이터는 대화와 수치적 시뮬레이션을 결합해 실용성과 게임성을 동시에 챙기지만 대중적 엔터테인먼트성이 다소 낮아질 수 있습니다.",
+        "recommended_concept_number": 2,
+        "why_recommended_ko": "두 번째 아이디어인 증거와 거짓말은 원작의 핵심인 AI 캐릭터 대화 및 메모리 시스템을 가장 잘 살리면서도, 단순 감상용 챗봇에서 벗어나 진술 모순 지적과 증거 매칭이라는 명확한 게임 규칙을 부여하여 사용자의 몰입도와 도전 의식을 크게 높일 수 있기 때문입니다. 1인 개발 시 단일 사건과 소수의 용의자 구조로 MVP 범위를 좁히기 유리합니다.",
+        "next_questions_ko": [
+          "AI 용의자가 유저의 증거 제시와 모순 지적에 대해 일관성 있게 반응하도록 프롬프트를 구조화할 수 있는가?",
+          "LLM API 호출 비용을 고려할 때, 텍스트 기반 추리 게임의 세션당 토큰 소비량을 경제적인 수준으로 유지할 수 있는가?"
+        ]
+      },
+      "brief_at": "2026-11-23T07:33:14+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 2252,
+        "candidatesTokenCount": 2050,
+        "totalTokenCount": 7781,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2252
+          }
+        ],
+        "thoughtsTokenCount": 3479,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.wrtn.character",
+        "product_kind": "app",
+        "selected_concept_title_ko": "증거와 거짓말: AI 서스펜스 인터로게이션",
+        "project_goal_and_audience_ko": "이 앱은 AI 용의자들과의 대화 속에서 진술의 모순을 찾아내고 증거를 제시하여 사건의 진실을 파헤치는 서스펜스 추리 모바일 앱입니다. 웹소설풍의 몰입감 넘치는 스토리와 두뇌 게임을 즐기는 유저를 타겟으로 합니다.",
+        "source_relation_and_difference_ko": "원작의 강력한 AI 페르소나 대화 및 과거 발언 기억 메모리 시스템을 그대로 계승합니다. 차이점으로는 단순 감정 교류나 무한정 대화에서 벗어나, 알리바이 분석, 증거 제시, 심리 압박 게이지라는 명확한 승패 규칙과 목적 지향적 게임플레이 구조를 도입했습니다.",
+        "core_user_experience_ko": "유저는 형사 시점에서 사건 현장 증거를 수집한 뒤 용의자 AI와 채팅 형식으로 인터뷰합니다. 용의자의 대사 중 의심스러운 부분을 터치하거나 특정 증거 아이템을 매칭하여 모순을 지적하면, AI는 당황하며 새로운 진술이나 단서를 제공하고 심리 방어 게이지가 감소합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "진술 모순 탐지 및 증거 매칭 대화 시스템",
+            "user_action_and_behavior_ko": "유저가 채팅창에서 용의자의 답변을 읽고 모순점을 선택하거나 소지 중인 증거 카드를 제시합니다. 시스템은 대화 맥락과 증거 데이터베이스를 대조하여 성공 시 진실에 접근하고 실패 시 신뢰도가 하락합니다.",
+            "practical_implementation_ko": "LLM API 호출 시 시스템 프롬프트에 용의자의 숨겨진 진실, 거짓말 패턴, 현재 방어 상태를 주입하고, 유저가 제시한 증거 ID를 프롬프트에 함께 전달하여 AI가 맥락에 맞는 반응을 출력하도록 구현합니다."
+          },
+          {
+            "feature_ko": "용의자 심리 방어 및 압박 게이지 메커니즘",
+            "user_action_and_behavior_ko": "유저의 심문 성공 여부에 따라 용의자의 방어 게이지가 깎입니다. 게이지가 0이 되면 용의자가 자백 모드로 전환되어 결정적인 비밀을 털어놓습니다.",
+            "practical_implementation_ko": "클라이언트 상태 관리를 통해 각 용의자별 방어 수치를 관리하며, LLM 응답에 특정 태그를 포함시켜 수치를 동적으로 갱신합니다."
+          },
+          {
+            "feature_ko": "사건 수사 보드 및 증거품 인벤토리",
+            "user_action_and_behavior_ko": "채팅 외에 수사 현장에서 획득한 증거품, 용의자 프로필, 타임라인을 확인하여 인터뷰 전략을 세웁니다.",
+            "practical_implementation_ko": "로컬 SQLite 또는 SharedPreferences에 증거 획득 여부와 사건 진행 단계를 저장하는 데이터 모델을 구축합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "사건 개요 및 수사 보드 화면",
+            "contents_and_actions_ko": "사건 브리핑 확인, 용의자 선택, 획득한 증거품 리스트 확인 및 인터뷰 시작 버튼 제공."
+          },
+          {
+            "screen_ko": "AI 용의자 심문 채팅 화면",
+            "contents_and_actions_ko": "캐릭터 프로필, 상단 심리 방어 게이지, 채팅 말풍선 영역, 하단 텍스트 입력창 및 증거 제시 버튼."
+          },
+          {
+            "screen_ko": "증거 및 진술 모순 지적 팝업",
+            "contents_and_actions_ko": "용의자의 특정 발언을 탭했을 때 뜨는 메뉴로, 소지한 증거 중 하나를 선택해 모순을 반박하는 조작 수행."
+          }
+        ],
+        "implementation_approach_ko": "Flutter를 사용하여 크로스플랫폼(Android 우선)으로 개발합니다. 단일 코드베이스로 빠른 UI 구현이 가능하며, REST API를 통해 LLM 서버와 통신합니다. 로컬 데이터 저장은 Hive 또는 SQLite를 활용해 수사 진행 상황을 보존합니다.",
+        "data_and_storage_ko": [
+          "UserProgress: 유저의 클리어한 사건 ID, 해금된 시나리오 상태를 로컬에 JSON 형태로 저장.",
+          "EvidenceItem: 획득한 증거 ID, 이름, 설명, 연관된 용의자 ID 목록을 정의하는 데이터 객체.",
+          "CharacterPersona: 용의자별 성격, 비밀, 방어 게이지, LLM 시스템 프롬프트 설정을 담은 정적 데이터 구조."
+        ],
+        "mvp_scope_ko": "1개의 단일 사건 시나리오, 2명의 AI 용의자, 기본 증거품 5종과 핵심 채팅 심문 루프만 구현합니다. 멀티엔딩이나 복잡한 유저 제작 콘텐츠 기능은 제외하여 핵심 추리 루프의 재미를 빠르게 검증합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "프로젝트 기본 셋팅 및 UI 레이아웃",
+            "deliverable_and_check_ko": "Flutter 프로젝트 생성 및 수사 보드, 채팅 화면의 와이어프레임 UI 구현. 화면 간 이동이 원활한지 확인."
+          },
+          {
+            "stage_ko": "LLM 대화 연동 및 프롬프트 엔지니어링",
+            "deliverable_and_check_ko": "API 연동을 통해 용의자 AI와 기본 텍스트 대화가 가능하도록 구현. 프롬프트에 페르소나가 잘 유지되는지 테스트."
+          },
+          {
+            "stage_ko": "증거 제시 및 방어 게이지 로직 구현",
+            "deliverable_and_check_ko": "증거 아이템 선택 시 AI 응답에 반영되고 방어 게이지가 증감하는 핵심 인터랙션 구현 및 검증."
+          }
+        ],
+        "possible_extensions_ko": "유저가 직접 사건과 용의자를 창조하여 공유하는 커스텀 수사 케이스 제작 기능, 멀티플레이어 협동 수사 모드, 성우 보이스 합성 등.",
+        "risks_and_open_decisions_ko": [
+          "AI가 유저의 증거 제시에 대해 엉뚱하게 반응하거나 거짓말 패턴을 유지하지 못할 경우 추리 흐름이 깨질 수 있음 -> 철저한 프롬프트 제약 및 키워드 매칭 보조 로직 검토 필요.",
+          "LLM API 호출 비용 및 응답 속도 지연 문제 -> 텍스트 토큰 최적화 및 로딩 피드백 UI 설계 검토.",
+          "본 문서는 실제 개발 및 테스트가 완료되지 않은 개발 설계 초안임."
+        ],
+        "draft_status_ko": "본 문서는 원작의 AI 대화 및 메모리 시스템을 추리 장르로 발전시키기 위한 1인 모바일 개발 설계 초안이며, 실제 구현 및 플레이테스트는 아직 완료되지 않았습니다."
+      },
+      "plan_at": "2026-11-23T07:33:32+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 2934,
+        "candidatesTokenCount": 1738,
+        "totalTokenCount": 7291,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2934
+          }
+        ],
+        "thoughtsTokenCount": 2619,
+        "serviceTier": "standard"
+      }
+    },
+    "google:com.zentrixstudio.pdfeditor.pdfreader": {
+      "app_key": "google:com.zentrixstudio.pdfeditor.pdfreader",
+      "name": "PDF 리더: 변환 및 스캔",
+      "developer": "ZentrixSoft",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.zentrixstudio.pdfeditor.pdfreader&hl=ko&gl=KR",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.zentrixstudio.pdfeditor.pdfreader",
+        "product_kind": "app",
+        "original_experience_ko": "원본 앱은 모바일 환경에서 PDF 문서의 열람, 주석 작성, 카메라를 이용한 종이 문서 스캔, 다양한 포맷(이미지, 워드, 엑셀 등)과의 상호 변환, 그리고 파일 정리를 지원하는 종합 문서 도구 경험을 제공합니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 소개를 통해 PDF 읽기, 주석, 스캔, 변환, 병합 및 분할 기능이 포함되어 있음을 확인했습니다.",
+          "사용된 PDF 렌더링 및 변환 엔진의 구체적인 기술 스택이나 서버 처리 여부는 스토어 정보만으로는 알 수 없습니다."
+        ],
+        "valuable_elements_ko": [
+          "모바일 기기에서 종이 문서를 즉시 디지털화하는 카메라 스캔 및 가장자리 자동 감지 기능",
+          "하나의 앱 안에서 다양한 문서 포맷을 통합 관리하고 읽는 핵심 문서 워크플로우"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "스마트 스터디 PDF 노트",
+            "core_idea_ko": "학습용 PDF 교재와 논문을 읽으며 텍스트를 하이라이트하면 자동으로 플래시카드(암기 카드)와 개념 연결망을 생성하여 학습 효율을 극대화하는 교육용 문서 관리 앱입니다.",
+            "what_to_keep_ko": "PDF 문서 뷰어, 텍스트 하이라이트, 메모 추가 등 문서 읽기 및 주석의 기본 사용 흐름을 계승합니다.",
+            "what_to_change_ko": "단순한 시각적 주석 저장을 넘어, 하이라이트된 텍스트를 추출해 자동 퀴즈 및 암기 카드로 변환하고 학습 주기를 관리하는 능동적 학습 시스템으로 진화시킵니다.",
+            "mobile_use_or_play_ko": "수험서 PDF 열람 -> 핵심 정의 부분 하이라이트 -> '플래시카드 생성' 버튼 터치 -> 오답 노트 및 반복 암기 큐에서 카드 학습 진행.",
+            "key_features_ko": [
+              "하이라이트 기반 자동 플래시카드 추출",
+              "간격 반복 학습 알고리즘 기반 복습 큐",
+              "주제별 문서 및 학습 노트 태그 구조화"
+            ],
+            "solo_mvp_and_effort_ko": "로컬 PDF 텍스트 파싱 라이브러리를 활용해 하이라이트 영역의 텍스트를 추출하고, 단순 SQLite 기반의 로컬 플래시카드 데이터베이스와 연동하는 최소 기능을 구현합니다.",
+            "strengths_limits_ko": "학생 및 수험생 타겟에게 명확한 효용을 주나, 복잡한 수식이나 표가 포함된 PDF의 텍스트 추출 정확도 확보가 과제입니다."
+          },
+          {
+            "title_ko": "스마트 계약서 및 영수증 감사 캘린더",
+            "core_idea_ko": "업무용 계약서와 영수증을 카메라로 스캔하거나 PDF로 임포트하면, 문서 내 핵심 날짜와 금액 정보를 자동으로 인식하여 만료일 알림과 지출 통계를 제공하는 비즈니스 관리 앱입니다.",
+            "what_to_keep_ko": "카메라 문서 스캔, 가장자리 자동 자르기, PDF 변환 및 파일 관리 기능을 계승합니다.",
+            "what_to_change_ko": "단순한 폴더별 파일 정리를 벗어나, 문서 내용의 메타데이터(만료일, 금액, 계약 주체)를 자동 파싱하여 캘린더 및 대시보드 형태로 시각화합니다.",
+            "mobile_use_or_play_ko": "종이 임대차 계약서 촬영 -> 자동 스캔 및 PDF 변환 -> OCR이 만료일과 금액 자동 인식 -> 캘린더에 일정 등록 및 D-30 알림 설정.",
+            "key_features_ko": [
+              "문서 메타데이터 자동 OCR 파싱(날짜, 금액)",
+              "계약 만료일 및 갱신 시점 푸시 알림",
+              "월별 및 항목별 지출 및 계약 현황 대시보드"
+            ],
+            "solo_mvp_and_effort_ko": "모바일 온디바이스 OCR 패키지를 연동하여 날짜 및 숫자 패턴을 추출하고, 로컬 알림 기능과 연동하는 수준으로 MVP를 구축합니다.",
+            "strengths_limits_ko": "프리랜서와 소상공인에게 실용성이 높으나, 다양한 서식의 계약서에서 OCR 인식률의 한계를 극복해야 합니다."
+          },
+          {
+            "title_ko": "오디오 문서 스트리밍 리더",
+            "core_idea_ko": "이동 중이거나 화면을 보기 어려운 사용자를 위해 PDF 문서와 리포트를 자연스러운 음성으로 변환하여 재생하고, 음성 메모로 주석을 남길 수 있는 오디오 중심 문서 리더 앱입니다.",
+            "what_to_keep_ko": "여러 PDF 파일의 병합, 파일 관리, 텍스트 검색 등 문서 라이브러리 관리 구조를 계승합니다.",
+            "what_to_change_ko": "시각적 스크롤 및 확대/축소 중심의 독서 방식을 백그라운드 오디오 재생 큐, 재생 속도 조절, 음성 주석 기능으로 전환합니다.",
+            "mobile_use_or_play_ko": "보고서 PDF 여러 개를 재생 목록에 추가 -> 이어폰을 꽂고 백그라운드 재생으로 청취 -> 중요 구간에서 음성 메모 버튼을 눌러 내 목소리로 코멘트 녹음.",
+            "key_features_ko": [
+              "고품질 텍스트 음성 변환 스트리밍 재생",
+              "재생 목록 큐 관리 및 다중 PDF 연속 청취",
+              "타임스탬프 연동 음성 메모 주석"
+            ],
+            "solo_mvp_and_effort_ko": "안드로이드 기본 텍스트 음성 변환 엔진을 연동하여 PDF 텍스트를 오디오 스트림으로 변환하고 백그라운드 서비스로 재생하는 구현에 집중합니다.",
+            "strengths_limits_ko": "멀티태스킹 독서라는 강력한 차별점이 있으나, 긴 문서 청취 시 집중력 유지 및 오디오 네비게이션 UX의 완성도가 중요합니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어는 학습 효율에 초점을 맞춰 하이라이트를 암기 카드로 전환하고, 두 번째 아이디어는 비즈니스 문서의 메타데이터 자동 파싱과 알림에 집중하며, 세 번째 아이디어는 시각 독서를 오디오 청취로 전환하여 멀티태스킹을 지원합니다. 세 안 모두 원본의 파일 관리 및 스캔/읽기 기반을 공유하면서 타겟 사용자의 구체적 목적에 맞춰 확장되었습니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "학습용 PDF 스마트 노트 앱은 수험생 및 대학생이라는 명확한 타겟층에게 하이라이트와 플래시카드 연동이라는 강력한 학습 효용을 제공하며, 모바일 로컬 환경에서 구현 가능한 MVP 범위가 명확합니다. 원본의 읽기 및 주석 기능을 가장 생산적으로 발전시킨 모델입니다.",
+        "next_questions_ko": [
+          "복잡한 레이아웃을 가진 PDF에서 텍스트와 하이라이트 좌표를 정확히 매핑하는 라이브러리의 성능 검증이 필요합니다.",
+          "1인 개발 시 로컬 데이터베이스의 동기화 및 백업 구조를 어떻게 설계할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-23T07:35:35+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 1689,
+        "candidatesTokenCount": 1814,
+        "totalTokenCount": 6828,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1689
+          }
+        ],
+        "thoughtsTokenCount": 3325,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.zentrixstudio.pdfeditor.pdfreader",
+        "product_kind": "app",
+        "selected_concept_title_ko": "스마트 스터디 PDF 노트",
+        "project_goal_and_audience_ko": "대학생, 수험생, 자격증 준비 직장인 등 학습용 PDF 교재나 논문을 자주 다루는 사용자를 위한 모바일 앱입니다. 단순한 문서 열람과 정적인 주석 저장을 넘어, 하이라이트한 핵심 내용을 자동으로 플래시카드(암기 카드)로 변환하고 간격 반복(Spaced Repetition) 알고리즘으로 복습을 유도하여 학습 효율과 암기 성공률을 극대화하는 효용을 제공합니다.",
+        "source_relation_and_difference_ko": "원본 앱의 핵심 경험인 '모바일 환경에서의 PDF 문서 뷰어, 텍스트 하이라이트 및 주석 추가 기능'을 그대로 계승하여 익숙한 문서 독서 환경을 제공합니다. 차별점으로는 단순 시각적 표시나 파일 변환에 머무르지 않고, 하이라이트된 텍스트 데이터를 구조화하여 학습 퀴즈 및 플래시카드 시스템과 직접 연동함으로써 능동적인 암기 주기로 발전시켰다는 점입니다.",
+        "core_user_experience_ko": "사용자는 앱 내 파일함에서 공부할 PDF 교재를 열고 연속 보기나 페이지 탐색으로 학습을 진행합니다. 중요한 개념이나 문장을 만나면 손가락 드래그로 텍스트를 선택하고 '하이라이트 및 플래시카드 생성' 메뉴를 터치합니다. 시스템은 해당 텍스트를 추출해 앞면(질문/개념)과 뒷면(설명/답변) 형태의 암기 카드로 자동 생성하고 로컬 DB에 저장합니다. 이후 메인 화면의 '오늘의 복습 큐'에서 생성된 플래시카드를 넘겨보며 암기 테스트를 수행하고, 정답 여부에 따라 다음 복습 일정이 자동 조절되는 피드백을 받습니다.",
+        "features_ko": [
+          {
+            "feature_ko": "PDF 텍스트 하이라이트 및 자동 카드 추출",
+            "user_action_and_behavior_ko": "사용자가 PDF 뷰어에서 텍스트 영역을 드래그하여 하이라이트를 지정하면 팝업 메뉴가 나타나고, '카드 생성'을 선택하면 선택된 텍스트가 플래시카드의 본문 데이터로 자동 파싱되어 등록됩니다. 사용자는 별도로 노트를 타이핑할 필요 없이 즉시 암기 자산을 확보합니다.",
+            "practical_implementation_ko": "Android PDF 렌더링 라이브러리(예: PdfRenderer)를 활용해 텍스트 좌표와 문자열을 추출하고, 사용자의 터치 좌표와 매핑하여 하이라이트 뷰를 오버레이한 뒤 선택된 텍스트 문자열을 로컬 DB에 저장합니다."
+          },
+          {
+            "feature_ko": "간격 반복(Spaced Repetition) 기반 복습 관리",
+            "user_action_and_behavior_ko": "메인 대시보드에서 당일 복습해야 할 플래시카드 목록을 제공받고, 카드를 열어 앞면을 본 뒤 답을 떠올리고 뒷면을 확인합니다. 이후 '쉬움/보통/어려움' 등의 인지 수준 버튼을 누르면 알고리즘에 따라 다음 복습일이 자동 산정되어 큐가 갱신됩니다.",
+            "practical_implementation_ko": "SuperMemo(SM-2) 알고리즘의 간소화된 버전을 구현하여, 각 카드 객체의 복습 간격, 반복 횟수, 용이성 값을 업데이트하고 날짜 비교를 통해 오늘의 복습 목록을 필터링합니다."
+          },
+          {
+            "feature_ko": "주제별 문서 및 태그 구조화",
+            "user_action_and_behavior_ko": "학습하는 PDF 파일들을 과목별, 시험별 태그나 폴더로 분류하고, 특정 문장에서 생성된 카드가 어떤 원본 문서의 몇 페이지에서 유래했는지 추적하여 원문 바로가기 기능을 통해 맥락을 다시 확인할 수 있습니다.",
+            "practical_implementation_ko": "Room(SQLite) 데이터베이스를 사용하여 Document, Highlight, Flashcard 간의 1대 다 관계를 설정하고, 문서 경로와 페이지 번호를 메타데이터로 함께 저장하여 뷰어 연동 내비게이션을 구현합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "대시보드(홈) 화면",
+            "contents_and_actions_ko": "오늘 복습할 플래시카드 수 요약, 최근 열어본 PDF 문서 목록, 빠른 학습 시작 버튼을 제공하며, 터치 시 각각의 학습 세션이나 문서 뷰어로 이동합니다."
+          },
+          {
+            "screen_ko": "PDF 문서 뷰어 및 하이라이트 화면",
+            "contents_and_actions_ko": "PDF 페이지 렌더링 영역, 상단 검색 및 목차 버튼, 하단 페이지 이동 바를 제공합니다. 텍스트 드래그 시 '하이라이트', '메모', '플래시카드 생성' 퀵 툴팁이 노출됩니다."
+          },
+          {
+            "screen_ko": "플래시카드 학습 세션 화면",
+            "contents_and_actions_ko": "카드의 앞면(개념/질문) 표시, '정답 보기' 버튼 터치 시 뒷면(설명/원문) 전환, 이후 난이도 선택 버튼을 통해 다음 카드로 슬라이드 전환됩니다."
+          },
+          {
+            "screen_ko": "문서 및 카드 관리(서재) 화면",
+            "contents_and_actions_ko": "기기 내 PDF 파일 임포트 및 태그별 목록 조회, 문서별 연동된 플래시카드 개수 확인 및 삭제/이름 변경 관리 기능을 제공합니다."
+          }
+        ],
+        "implementation_approach_ko": "안드로이드 네이티브(Kotlin) 환경을 채택합니다. Jetpack Compose를 활용해 직관적이고 반응성 높은 UI를 구성하며, PDF 렌더링은 안정적인 안드로이드 시스템 내장 PdfRenderer 및 텍스트 선택 처리를 위한 커스텀 뷰 조합을 사용합니다. 로컬 데이터 저장소로는 Room ORM을 사용하여 문서 메타데이터, 하이라이트 좌표, 플래시카드 및 학습 주기를 안정적으로 관리합니다.",
+        "data_and_storage_ko": [
+          "Document 엔티티: document_id(PK), file_path, title, total_pages, last_opened_at 필드를 포함하며, 앱 내 서재에 PDF가 추가될 때 생성되고 마지막 열람 시각이 갱신됩니다.",
+          "Highlight 엔티티: highlight_id(PK), document_id(FK), page_number, text_content, coordinates_json 필드를 통해 특정 페이지의 텍스트 위치와 내용을 저장합니다.",
+          "Flashcard 엔티티: card_id(PK), highlight_id(FK), front_text, back_text, interval_days, repetition_count, easiness_factor, next_review_date 필드를 포함하며 간격 반복 학습 스케줄링에 사용됩니다.",
+          "로컬 파일 저장소: 원본 PDF 파일은 앱 내부 영구 저장소 디렉토리에 복사되어 안전하게 관리되며, DB는 Room SQLite를 통해 로컬 파일로 저장됩니다."
+        ],
+        "mvp_scope_ko": "PDF 파일 로컬 불러오기, 연속 보기 뷰어 및 터치 텍스트 하이라이트, 하이라이트 텍스트 기반 단일 플래시카드 생성, 그리고 단순한 오늘 날짜 기준 플래시카드 복습 큐(앞면/뒷면 확인) 기능까지만 구현합니다. 클라우드 동기화, 복잡한 통계 차트, 고급 문서 변환 기능은 MVP 범위에서 제외하여 핵심 암기 워크플로우 검증에 집중합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 환경 구축 및 PDF 뷰어 기본 구현",
+            "deliverable_and_check_ko": "Kotlin 및 Jetpack Compose 프로젝트 세팅, 파일 선택기를 통한 로컬 PDF 임포트 기능, PdfRenderer를 이용한 기본 페이지 스크롤 및 렌더링 확인."
+          },
+          {
+            "stage_ko": "2단계: 텍스트 하이라이트 및 플래시카드 추출 로직 구현",
+            "deliverable_and_check_ko": "뷰어 내 텍스트 선택 상호작용 구현, 선택된 문자열을 추출하여 Room DB의 Flashcard 테이블에 저장하는 기능 검증."
+          },
+          {
+            "stage_ko": "3단계: 간격 반복 복습 세션 및 대시보드 구현",
+            "deliverable_and_check_ko": "오늘 복습할 카드 필터링 쿼리 작성, 카드 뒤집기 UI 및 난이도별 스케줄 업데이트 로직 구현 후 로컬 데이터 흐름 확인."
+          },
+          {
+            "stage_ko": "4단계: UI 다듬기 및 통합 테스트",
+            "deliverable_and_check_ko": "서재 화면, 뷰어, 학습 세션 간의 내비게이션 연결 및 예외 상황 처리 점검."
+          }
+        ],
+        "possible_extensions_ko": "추후 구글 드라이브 등 클라우드 스토리지 연동을 통한 기기 간 학습 데이터 동기화, OCR 미지원 스캔 PDF를 위한 온디바이스 텍스트 추출 기능, 주간 학습 통계 및 스트릭 시각화 위젯 추가.",
+        "risks_and_open_decisions_ko": [
+          "텍스트 추출 정확도 위험: 복잡한 레이아웃이나 이미지 기반 PDF(스캔본)의 경우 일반 텍스트 선택 및 하이라이트 추출이 실패할 수 있으며, 향후 온디바이스 OCR 도입 여부를 검토해야 합니다.",
+          "학습 알고리즘 최적화 과제: SM-2 알고리즘의 파라미터가 모바일 사용자 경험에 최적화되어 있는지 실제 사용성 테스트를 통해 조정할 필요가 있습니다.",
+          "대용량 PDF 메모리 관리: 페이지 수가 많은 대용량 수험서 뷰어에서 메모리 누수나 렌더링 지연이 발생할 수 있으므로 페이징 캐싱 정책을 세밀하게 결정해야 합니다."
+        ],
+        "draft_status_ko": "본 문서는 '스마트 스터디 PDF 노트' 앱의 1인 모바일 개발을 위한 개념 설계 초안이며, 실제 코드 구현, UI 프로토타입 실행 테스트 및 성능 최적화 측정은 아직 완료되지 않은 상태입니다."
+      },
+      "plan_at": "2026-11-23T07:36:03+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 2282,
+        "candidatesTokenCount": 2481,
+        "totalTokenCount": 10931,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2282
+          }
+        ],
+        "thoughtsTokenCount": 6168,
+        "serviceTier": "standard"
+      }
     }
   }
 }

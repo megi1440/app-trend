@@ -14117,6 +14117,187 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-21"
+    },
+    "apple:1462875428": {
+      "app_key": "apple:1462875428",
+      "name": "Roborock",
+      "developer": "Beijing Roborock Technology Co., Ltd.",
+      "source": "apple",
+      "country": "US",
+      "category": "app_lifestyle",
+      "detail_url": "https://apps.apple.com/us/app/roborock/id1462875428?uo=2",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:15:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Roborock App is a dedicated application designed to control Roborock’s smart hardware devices. It supports network-enabled products in Roborock’s robotic vacuum cleaners, wet and dry vacuum cleaners, and molecular sieve-based washer dryers. You can remotely control smart devices and check their status and cleaning progress through this app anytime, anywhere. Easily unlock more advanced features through the Roborock app. 【Roborock Robotic Vacuum Cleaner】 · Check the cleaning map and path anywhere and anytime you want, and control the cleaning progress in real-time. · Choose from various personalized cleaning methods, including room cleaning, zone cleaning, scheduled cleaning, and spot cleaning routines. · Set up frequently used cleaning tasks as routines for one-tap starts. · Choose multiple cleaning preferences, including Vacuum, Mop, Vac & Mop, SmartPlan (applicable to certain models only), and Customize mode. · Set up a personalized cleaning plan by adjusting suction power, water flow, cleaning frequency, and route (applicable to certain models only). · Enables you to edit a map based on your home and set names for thresholds, carpets, floor types, furniture, and rooms. · Set up invisible walls and no-go zones and your robot will not cross or enter them during cleaning. · Enjoy a variety of fun features, including remote viewing, obstacle photos, pet snapshots, cruise mode, pet search, and custom tones (applicable to select models only). 【Roborock Robotic Lawn Mower】 · Visually edit maps, easily set No-Go Zones and Passages, and support precise multi-area management. · Customize mowing preferences, efficiency, and direction for each area, and set schedules for automatic start and stop. · Features intelligent obstacle avoidance, automatic return to charge when it rains, and a Wildlife-Friendly mode for comprehensive protection. 【Roborock Wet and Dry Vacuum Cleaner】 · Adjust water flow, suction power, roller speed, and detergent level (applicable to select models only) based on the floor and dirt level. · Smart scheduled self-cleaning and drying: automatically initiates self-cleaning and drying based on historical operation records. 【Roborock Washer Dryer】 · Check the washing progress and operating status anywhere and anytime you want. · Choose from over 20 smart washing and drying programs to meet the professional needs of various fabrics and clothing, ensuring optimal washing performance. · Set one program as the App Program for quick access on the control panel. 【Permissions】 To provide certain services, you need to enable the relevant permissions on your mobile device. We will only need the relevant permissions and access your personal information (if relevant) when you use the relevant functions. For the optional permissions, you can refuse or withdraw these permissions at any time, for which you may not be able to use the corresponding services, but this will not affect other functions of the App. The current permissions that the app may need are as follows: · Location (Optional) Accesses location information to connect to WiFi, find nearby devices ready for connection, and retrieve details about the current WiFi connection. · Camera (Optional) Enables the camera to scan QR codes for easier WiFi connection. · Photos (Optional) Allows access to photos for uploading profile pictures and attaching images when providing feedback. If your device supports features like downloading obstacle images, taking screenshots, or recording during remote viewing, photos and videos can be stored. · Microphone (Optional) Used for sound transmission on devices that support remote viewing. · WLAN (Optional) Facilitates connection to WiFi networks emitted by smart devices for communication and connectivity. · Bluetooth (Optional) Enables connection to Bluetooth signals from smart devices for communication and device connecting. · Notifications (Optional) Allows the app to send you device and system notifications.",
+      "analysis": {
+        "app_key": "apple:1462875428",
+        "summary_ko": "Roborock 앱은 로봇 청소기, 세탁 건조기 등 Roborock의 스마트 가전제품을 원격으로 제어하고 상태를 관리하는 통합 플랫폼입니다. 사용자는 언제 어디서나 청소 경로를 확인하고, 맞춤형 청소 계획을 설정하며, 기기의 작동 상태를 실시간으로 모니터링할 수 있습니다. 다양한 모델에 맞춰 세밀한 설정과 자동화된 루틴을 제공하여 사용자 편의를 극대화합니다.",
+        "features_ko": [
+          "로봇 청소기의 청소 경로와 진행 상황을 실시간으로 확인하고 제어할 수 있습니다.",
+          "방별 청소, 구역 청소, 예약 청소 등 맞춤형 청소 방식을 설정할 수 있습니다.",
+          "금지 구역이나 가상 벽을 설정하여 로봇의 이동 범위를 제한할 수 있습니다.",
+          "로봇 청소기의 흡입력, 물 분사량, 청소 횟수 등을 세밀하게 조정할 수 있습니다.",
+          "세탁 건조기의 세탁 진행 상황을 확인하고 20개 이상의 스마트 프로그램을 선택할 수 있습니다.",
+          "기기 상태 알림 및 원격 제어를 통해 언제 어디서나 가전을 관리할 수 있습니다."
+        ],
+        "noteworthy_ko": "하드웨어와 소프트웨어를 긴밀하게 연결하여 사용자 경험을 확장한 사례입니다. 특히 지도 편집과 금지 구역 설정 같은 공간 인식 기능은 IoT 앱 개발에서 매우 중요한 요소입니다.",
+        "development_ko": "핵심 기술은 기기와의 통신을 위한 IoT 프로토콜 구현과 지도 데이터를 시각화하는 그래픽 엔진입니다. 기기 상태를 실시간으로 동기화하는 백엔드 인프라와 사용자 친화적인 설정 UI가 필수적입니다. 다양한 하드웨어 모델을 지원하기 위한 유연한 데이터 구조 설계와 안정적인 네트워크 연결 처리가 개발의 핵심입니다.",
+        "idea_ko": "청소기 센서 데이터를 활용하여 집안의 공기질이나 습도를 분석하고, 다른 가전과 연동하여 최적의 환경을 제안하는 스마트 홈 허브 기능을 추가하면 좋습니다.",
+        "highlights_ko": [
+          "지도 기반의 정밀한 구역 관리와 금지 구역 설정 기능을 제공합니다.",
+          "다양한 스마트 가전 제품을 하나의 앱으로 통합 제어할 수 있습니다."
+        ],
+        "systems_ko": [
+          "IoT 기기 통신 모듈",
+          "지도 데이터 시각화 및 편집 엔진",
+          "사용자 설정 및 루틴 관리 시스템",
+          "실시간 상태 모니터링 및 알림 서비스",
+          "기기 펌웨어 업데이트 및 데이터 동기화"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "하드웨어와의 안정적인 통신, 복잡한 지도 데이터 처리, 그리고 다양한 기기 모델을 지원하는 확장성 있는 구조 설계는 개인 개발자가 구현하기에 매우 높은 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기기 연결 및 원격 제어",
+            "기본 상태 모니터링",
+            "예약 기능"
+          ],
+          "defer": [
+            "지도 편집 및 금지 구역 설정",
+            "다양한 모델별 맞춤 설정",
+            "원격 영상 보기"
+          ],
+          "risks": [
+            "하드웨어 통신 프로토콜의 비공개성",
+            "네트워크 연결 불안정성 및 보안 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스마트 홈 에너지 리포트",
+            "concept": "연동된 가전의 전력 사용량을 분석하여 에너지 절약 팁을 제공하는 기능입니다. 사용자의 생활 패턴에 맞는 효율적인 가전 사용법을 제안합니다.",
+            "first_step": "기기별 전력 사용 데이터를 수집하고 일간/주간 리포트로 시각화하는 UI 구현."
+          },
+          {
+            "title": "가전 유지보수 알림",
+            "concept": "기기의 필터 교체나 청소 주기 등 유지보수가 필요한 시점을 알려주는 기능입니다. 소모품 관리의 번거로움을 줄여줍니다.",
+            "first_step": "기기 사용 시간 기반의 소모품 교체 주기 계산 로직 구현."
+          }
+        ],
+        "recommendation_ko": "IoT 앱의 전반적인 아키텍처와 하드웨어 연동 방식을 이해하는 데 큰 도움이 됩니다. 다만, 실제 하드웨어 없이 앱만 개발하는 것은 한계가 있으므로 시뮬레이터를 활용한 학습을 추천합니다.",
+        "source_limitations_ko": "사용된 통신 프로토콜이나 하드웨어 API에 대한 구체적인 정보는 없습니다. 또한 특정 모델에 한정된 기능들이 많아 범용적인 구현은 어렵습니다.",
+        "name": "Roborock",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/roborock/id1462875428?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
+    },
+    "google:jp.co.resona_gr.oa.OpeningAccount": {
+      "app_key": "google:jp.co.resona_gr.oa.OpeningAccount",
+      "name": "りそな 口座開設アプリ",
+      "developer": "RESONA HOLDINGS,INC.",
+      "source": "google",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=jp.co.resona_gr.oa.OpeningAccount&hl=ja&gl=JP",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:17:57+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "■ご利用方法 1.アプリをダウンロード。 2.メールアドレス入力後、確認番号をメールアドレス宛自動送信。確認番号入力し、申込へ進む。 3.マイナンバーカード読み取りによる本人確認。 4.お客さま情報の入力、送信。 5.キャッシュカード(Visaデビット機能付)のお届け。 ※キャッシュカードのお届けまでの目安は約2～3週間となります。 ■ご利用上のご注意 ・セキュリティ強化のため、2026年11月2日（月）に本人確認書類の券面撮影による本人確認の受付を終了いたしました。 ・本アプリでのお申込みには署名用電子証明書のパスワードが必要です。 ・マイナンバーカードをお持ちでない方、署名用電子証明書のパスワードをお忘れの方・（マイナンバーの保有に関わらず）在留カードをお持ちの外国籍の方は、本アプリではお申込みいただけません。 ・事業を営むためのお取引、屋号・団体名でのお取引目的ではお申込みいただけません。 ・非居住者の方はお申込みいただけません。 ・15歳未満のお客さまは本アプリではお申込みいただけません。",
+      "analysis": {
+        "app_key": "google:jp.co.resona_gr.oa.OpeningAccount",
+        "summary_ko": "리소나 은행의 계좌 개설을 위한 전용 앱입니다. 마이넘버카드를 활용한 본인 확인을 통해 비대면으로 계좌를 개설할 수 있습니다. 신청 후 캐시카드 수령까지의 과정을 안내합니다.",
+        "features_ko": [
+          "마이넘버카드를 활용한 비대면 본인 확인 기능을 제공합니다.",
+          "계좌 개설 신청 정보를 입력하고 전송할 수 있습니다.",
+          "계좌 개설 절차 및 캐시카드 수령 안내를 제공합니다."
+        ],
+        "noteworthy_ko": "금융 기관의 비대면 계좌 개설을 위한 필수적인 보안 절차를 앱 내에 구현한 점이 특징입니다. 마이넘버카드 연동은 일본 금융 환경에서의 신뢰성 확보를 위한 핵심 기술로 추정됩니다.",
+        "development_ko": "금융 보안 표준을 준수하는 데이터 전송 및 본인 확인 시스템 구현이 핵심입니다. 마이넘버카드 읽기 기술 연동과 금융 기관 서버와의 안정적인 통신이 필수적입니다. 엄격한 보안 감사와 테스트가 요구됩니다.",
+        "idea_ko": "개인 정보를 안전하게 관리하고 필요할 때만 인증을 제공하는 디지털 신분증 관리 앱.",
+        "highlights_ko": [
+          "마이넘버카드를 활용한 안전하고 편리한 비대면 계좌 개설을 지원합니다.",
+          "금융 기관의 보안 기준을 준수하는 신청 절차를 제공합니다."
+        ],
+        "systems_ko": [
+          "마이넘버카드 읽기 및 인증 시스템",
+          "금융 데이터 암호화 및 전송 시스템",
+          "사용자 정보 입력 및 검증 시스템",
+          "금융 기관 서버 연동 인터페이스",
+          "보안 로그 및 감사 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "판단 어려움",
+          "reason": "금융 앱은 고도의 보안 기술과 법적 규제 준수가 필수적입니다. 1인 개발자가 금융 기관 수준의 보안과 신뢰성을 확보하는 것은 불가능하며, 이는 전문적인 기업 환경에서만 가능한 영역입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 사용자 정보 입력 폼",
+            "데이터 암호화 전송 기능"
+          ],
+          "defer": [
+            "마이넘버카드 연동",
+            "금융 기관 서버 연동",
+            "고급 보안 인증 시스템"
+          ],
+          "risks": [
+            "보안 사고 발생 시 법적 책임",
+            "금융 규제 준수 실패",
+            "개인정보 유출 위험"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "개인 정보 관리 도구",
+            "concept": "자신의 개인 정보를 안전하게 저장하고 필요한 곳에만 선택적으로 제공하는 앱입니다. 암호화 기술을 활용하여 정보를 보호합니다.",
+            "first_step": "정보를 암호화하여 저장하고 비밀번호로 접근하는 기본 기능을 구현합니다."
+          },
+          {
+            "title": "디지털 서류 보관함",
+            "concept": "중요한 서류를 디지털화하여 안전하게 보관하고 관리하는 앱입니다. 폴더별로 분류하고 검색할 수 있습니다.",
+            "first_step": "파일 업로드와 암호화 저장 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "금융 앱의 보안 구조와 데이터 암호화 기술을 연구하는 것은 좋으나, 실제 금융 서비스를 개발하는 것은 권장하지 않습니다. 보안과 규제에 대한 이해를 높이는 용도로만 참고하세요.",
+        "source_limitations_ko": "금융 기관의 구체적인 보안 프로토콜, 서버 연동 방식, 법적 규제 준수 세부 사항은 소개문에서 확인할 수 없습니다.",
+        "name": "りそな 口座開設アプリ",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=jp.co.resona_gr.oa.OpeningAccount&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 94,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
     }
   }
 }

@@ -27407,6 +27407,1596 @@
         "thoughtsTokenCount": 2351,
         "serviceTier": "standard"
       }
+    },
+    "google:com.mindflowglobal.clickfishmatch.gp": {
+      "app_key": "google:com.mindflowglobal.clickfishmatch.gp",
+      "name": "クリック Fish Match",
+      "developer": "Mindflow Studio",
+      "source": "google",
+      "kind": "game",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.mindflowglobal.clickfishmatch.gp&hl=ja&gl=JP",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.mindflowglobal.clickfishmatch.gp",
+        "product_kind": "game",
+        "original_experience_ko": "스토어 설명에 따르면 원본은 귀여운 물고기를 찾아 탭하여 수집하고 화면을 비우는 캐주얼 매칭 퍼즐 게임입니다. 명확한 색상과 형태, 1손가락 탭 조작을 통해 짧은 휴식 시간에도 가볍게 즐길 수 있는 직관적인 경험을 제공합니다. 이는 관측된 사실이며, 구체적인 보상 체계나 레벨 세부 설계는 AI의 해석 영역으로 아직 확인되지 않았습니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 사실: 물고기 테마의 탭 매칭 퍼즐, 화면 비우기 방식, 1손가락 탭 조작, 짧은 플레이 타임 설계.",
+          "한계점: 레벨 수, 점수 및 보상 시스템, 광고나 인앱 결제 등의 수익화 구조는 스토어 정보만으로 파악 불가."
+        ],
+        "valuable_elements_ko": [
+          "직관적인 1손가락 탭 조작: 복잡한 드래그나 스와이프 없이 즉각적인 반응을 제공하여 진입 장벽이 낮음.",
+          "시각적 청량감: 명확한 색상과 형태의 오브젝트가 화면에서 지워질 때 주는 즉각적인 대리 만족감."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "에코 오션: 바다 정화 탭 퍼즐",
+            "core_idea_ko": "물고기 매칭 요소에 해양 쓰레기 정화와 수족관 복원 메커니즘을 결합하여, 단순한 퍼즐 클리어를 넘어 생태계를 가꾸는 보람을 주는 모바일 퍼즐 게임.",
+            "what_to_keep_ko": "짧은 호흡의 1손가락 탭 수집 조작과 시각적으로 깔끔한 해양 생물 오브젝트 매칭의 직관성을 계승.",
+            "what_to_change_ko": "단순 화면 비우기에서 벗어나, 쓰레기 블록과 물고기 블록을 구분하여 정화 포인트를 모으고 황폐해진 수족관을 꾸미는 메타 프로그레션 추가.",
+            "mobile_use_or_play_ko": "사용자가 앱을 실행해 화면에 등장하는 해양 쓰레기를 먼저 탭해 제거한 뒤, 모인 재화로 물고기를 입양해 수족관을 성장시키는 짧은 루프를 반복.",
+            "key_features_ko": [
+              "해양 정화 및 쓰레기 제거 메커니즘",
+              "수족관 확장 및 물고기 육성 메타 시스템",
+              "간편한 1손가락 탭 인터페이스"
+            ],
+            "solo_mvp_and_effort_ko": "Unity 또는 Godot 엔진 기반 2D 그리드/스캐터 배치 탭 감지 구현. 스프라이트 리소스 제작을 최소화하여 2~3주 내 MVP 완성 가능.",
+            "strengths_limits_ko": "장점은 명확한 동기 부여와 친환경 테마의 대중성, 약점은 메타 시스템 추가로 인한 퍼즐 본연의 가벼움 저해 가능성."
+          },
+          {
+            "title_ko": "키친 스피드: 신속 재료 손질 탭",
+            "core_idea_ko": "요리 재료가 무작위로 흩어져 있는 도마 위에서 주문에 맞는 재료를 빠르게 찾아 탭하여 손질하는 시간 제한형 매칭 퍼즐.",
+            "what_to_keep_ko": "화면에 흩어진 오브젝트 중 특정 조건에 맞는 것을 골라내는 탭 기반 찾기 경험.",
+            "what_to_change_ko": "정적인 휴식용 퍼즐에서 벗어나 시간 제한과 주문 큐 시스템을 도입하여 순발력과 긴장감을 강조.",
+            "mobile_use_or_play_ko": "주문서가 상단에 표시되면 화면에 흩어진 식재료 아이콘들을 순서대로 빠르게 탭하여 요리를 완성하고 점수를 획득.",
+            "key_features_ko": [
+              "주문 큐 및 타이머 시스템",
+              "연속 탭 콤보 보너스",
+              "식재료 업그레이드 상점"
+            ],
+            "solo_mvp_and_effort_ko": "기본 오브젝트 스폰 및 타이머 로직 구현. 2주 내 프로토타입 제작 가능하며 밸런스 조정에 집중.",
+            "strengths_limits_ko": "장점은 강한 몰입감과 리플레이성, 약점은 피로도가 높아져 원본의 휴식이라는 가치와 배치될 수 있음."
+          },
+          {
+            "title_ko": "스텔라 나이트: 별자리 조각 탭 퍼즐",
+            "core_idea_ko": "밤하늘에 무작위로 빛나는 별 조각 중 올바른 패턴이나 색상의 별을 순서대로 탭하여 별자리를 완성하는 힐링 퍼즐 게임.",
+            "what_to_keep_ko": "차분하고 정적인 분위기, 깔끔한 시각 디자인, 힐링 목적의 플레이 경험.",
+            "what_to_change_ko": "단순 무작위 수집에서 순서 연결형 규칙을 적용해 약간의 퍼즐적 깊이를 더함.",
+            "mobile_use_or_play_ko": "밤하늘 화면에서 제시된 별자리 가이드라인에 맞춰 반짝이는 별 조각을 올바른 순서대로 탭하여 완성하고 감성적인 일러스트 해금.",
+            "key_features_ko": [
+              "패턴 순서 탭 검증 시스템",
+              "감성적인 밤하늘 오디오 및 비주얼",
+              "별자리 도감 수집 요소"
+            ],
+            "solo_mvp_and_effort_ko": "기본 UI 페이딩 및 순차적 탭 이벤트 체크 로직 구현. 2주 이내 구현 가능.",
+            "strengths_limits_ko": "장점은 독창적인 감성과 낮은 개발 난이도, 약점은 콘텐츠 소모 속도가 빠르고 반복 재미가 약할 수 있음."
+          }
+        ],
+        "concept_comparison_ko": "1안(에코 오션)은 원본의 바다와 물고기 테마를 발전시켜 보람과 수집 요소를 더했고, 2안(키친 스피드)은 액션성을 강화해 리플레이성을 높였으나 피로도가 생깁니다. 3안(스텔라 나이트)은 힐링 성격을 극대화했으나 콘텐츠 확장성이 다소 제한됩니다. 세 안 모두 1인 개발이 가능하며 구현 난이도는 비슷합니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "1안은 원본의 물고기 및 바다 테마를 자연스럽게 계승하면서도, 단순한 소모성 퍼즐에 수족관 키우기라는 메타 프로그레션을 결합하여 리플레이 동기를 확실히 부여합니다. 1인 개발자가 오버엔지니어링 없이 구현할 수 있는 최적의 균형점을 가집니다.",
+        "next_questions_ko": [
+          "수족관 꾸미기 메타 루프가 퍼즐 플레이의 템포를 방해하지 않는 적절한 보상 주기 설정 방안은 무엇인가?",
+          "쓰레기 블록과 물고기 블록의 배치 비율을 어떻게 설계해야 플레이어가 지루하지 않고 몰입할 수 있는가?"
+        ]
+      },
+      "brief_at": "2026-11-23T06:19:19+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 1402,
+        "candidatesTokenCount": 1816,
+        "totalTokenCount": 6741,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1402
+          }
+        ],
+        "thoughtsTokenCount": 3523,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.mindflowglobal.clickfishmatch.gp",
+        "product_kind": "game",
+        "selected_concept_title_ko": "에코 오션: 바다 정화 탭 퍼즐",
+        "project_goal_and_audience_ko": "본 모바일 게임은 짧은 휴식 시간 동안 직관적인 조작으로 스트레스를 풀고, 가벼운 수집과 성장 재미를 느끼고 싶은 캐주얼 게이머를 타겟으로 합니다. 원본의 가벼운 탭 퍼즐 재미에 바다 정화와 수족관 꾸미기라는 친환경적이고 감성적인 성취감을 결합하여 플레이 동기와 몰입도를 높입니다.",
+        "source_relation_and_difference_ko": "원본 게임의 '짧은 호흡의 1손가락 탭 수집 조작'과 '시각적으로 깔끔한 해양 생물 오브젝트 매칭 직관성'을 철저히 계승합니다. 반면, 단순 화면 비우기에서 탈피해 '해양 쓰레기 블록'을 먼저 제거해야 물고기 매칭이 가능해지는 정화 규칙과, 모은 재화로 황폐해진 수족관을 복원하고 물고기를 입양하는 메타 프로그레션을 새롭게 도입했습니다.",
+        "core_user_experience_ko": "사용자는 앱 실행 후 정화 퍼즐 스테이지에 진입합니다. 화면에 흩어진 쓰레기 오브젝트를 먼저 탭하여 제거하고, 노출된 동일한 물고기 오브젝트를 차례대로 탭하여 수집합니다. 모든 쓰레기와 물고기를 정리하면 정화 포인트와 재화가 지급되며, 이를 사용해 메인 수족관 화면에서 새로운 물고기를 입양하거나 바다 환경을 아름답게 꾸미는 짧은 순환 루프를 경험합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "해양 정화 퍼즐 루프",
+            "user_action_and_behavior_ko": "사용자가 쓰레기 오브젝트와 물고기 오브젝트를 순서대로 탭하여 제거하고, 스테이지 클리어 시 정화 점수와 재화를 획득함.",
+            "practical_implementation_ko": "2D 그리드 또는 랜덤 스캐터 좌표계 기반의 오브젝트 맵핑 구조 설계, 터치 이벤트 감지 및 레이캐스트 충돌 판정 구현."
+          },
+          {
+            "feature_ko": "수족관 복원 메타 시스템",
+            "user_action_and_behavior_ko": "퍼즐에서 얻은 재화로 수족관의 오염도를 낮추고 새로운 물고기와 산호초를 배치하여 시각적 변화를 체감함.",
+            "practical_implementation_ko": "수족관 내 오브젝트 배치 데이터 구조 정의 및 PlayerPrefs 또는 Local JSON을 통한 상태 동기화 처리."
+          },
+          {
+            "feature_ko": "직관적인 1손가락 인터페이스",
+            "user_action_and_behavior_ko": "복잡한 제스처 없이 단순 탭 동작만으로 모든 상호작용이 이루어져 피로도가 낮음.",
+            "practical_implementation_ko": "반응형 UI 레이아웃 구성 및 탭 시각 효과(파티클 및 사운드 트리거) 적용."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 수족관 홈 화면",
+            "contents_and_actions_ko": "현재 복원된 수족관 시각화, 보유 재화 표시, 퍼즐 진입 버튼, 물고기 도감/상점 진입 버튼 제공."
+          },
+          {
+            "screen_ko": "정화 퍼즐 플레이 화면",
+            "contents_and_actions_ko": "쓰레기와 물고기가 배치된 보드, 남은 탭 횟수 또는 진행도 표시, 오브젝트 탭 시 제거 애니메이션 및 피드백."
+          },
+          {
+            "screen_ko": "수족관 상점 및 배치 화면",
+            "contents_and_actions_ko": "획득한 재화로 해금 가능한 물고기 목록 확인 및 수족관 내 원하는 위치에 배치."
+          }
+        ],
+        "implementation_approach_ko": "Unity(C#) 엔진을 사용하여 2D 스프라이트 렌더링 및 UI 배치를 효율적으로 처리합니다. 1인 개발 시 불필요한 서버 통신을 배제하고 로컬 저장소(PlayerPrefs 또는 JSON 파일) 중심의 아키텍처를 구성하여 개발 공수를 최소화합니다. 대안으로는 가벼운 2D 게임 제작에 특화된 Godot 엔진을 활용할 수도 있습니다.",
+        "data_and_storage_ko": [
+          "UserCurrency: 사용자의 골드 및 정화 포인트 보유량 (Int), 앱 종료 시점 및 매 스테이지 클리어 시 로컬 저장",
+          "AquariumState: 해금된 물고기 ID 목록, 배치된 오브젝트 좌표 및 수족관 등급 정보 (JSON 배열 구조로 직렬화)",
+          "StageConfig: 각 퍼즐 스테이지별 쓰레기 및 물고기 스폰 데이터 (정적 JSON 데이터 파일로 관리)"
+        ],
+        "mvp_scope_ko": "기본 수족관 홈 화면, 3개의 테스트 퍼즐 스테이지, 쓰레기 및 물고기 탭 제거 로직, 그리고 물고기 2종 입양 및 배치 기능만 포함합니다. 사운드 효과와 복잡한 상점 시스템은 제외하여 2~3주 내에 핵심 루프를 빠르게 검증할 수 있도록 합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 코어 퍼즐 시스템 구현",
+            "deliverable_and_check_ko": "오브젝트 스폰 및 1손가락 탭 제거 프로토타입 제작. 터치 반응 속도와 오브젝트 소멸 시각적 피드백 확인."
+          },
+          {
+            "stage_ko": "2단계: 메타 프로그레션 및 수족관 연동",
+            "deliverable_and_check_ko": "퍼즐 클리어 재화 획득과 수족관 화면 간의 데이터 연동 구현. 로컬 저장 및 불러오기 정상 작동 검증."
+          },
+          {
+            "stage_ko": "3단계: UI 정리 및 MVP 빌드",
+            "deliverable_and_check_ko": "전체 사용자 흐름 연결, Android 기기 테스트 빌드 생성 및 기본 사용성 점검."
+          }
+        ],
+        "possible_extensions_ko": "다양한 테마의 수족관 구역 확장, 일일 미션 및 특별 해양 생물 수집 이벤트, 커스텀 데코레이션 아이템 추가.",
+        "risks_and_open_decisions_ko": [
+          "퍼즐 스테이지의 난이도 곡선이 너무 급격해질 경우 캐주얼 유저가 이탈할 수 있으므로, 초기 레벨 밸런스는 플레이테스트를 통해 완만하게 조정해야 함.",
+          "로컬 저장소 데이터 손상 방지를 위한 백업 메커니즘은 MVP 이후 단계에서 결정 과제로 남겨둠."
+        ],
+        "draft_status_ko": "본 문서는 원본 게임의 특징과 선정된 기획안을 바탕으로 작성된 1인 모바일 개발 설계 초안이며, 실제 구현, 플레이테스트 및 성능 측정이 완료되지 않은 상태입니다."
+      },
+      "plan_at": "2026-11-23T06:19:43+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 2047,
+        "candidatesTokenCount": 1737,
+        "totalTokenCount": 6632,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2047
+          }
+        ],
+        "thoughtsTokenCount": 2848,
+        "serviceTier": "standard"
+      }
+    },
+    "apple:1506536946": {
+      "app_key": "apple:1506536946",
+      "name": "만세력 천을귀인",
+      "developer": "PyoungKi Jun",
+      "source": "apple",
+      "kind": "app",
+      "detail_url": "https://apps.apple.com/kr/app/%EB%A7%8C%EC%84%B8%EB%A0%A5-%EC%B2%9C%EC%9D%84%EA%B7%80%EC%9D%B8/id1506536946?uo=2",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:1506536946",
+        "product_kind": "app",
+        "original_experience_ko": "정통 명리학 이론을 바탕으로 사주팔자를 정밀하게 계산하고, 썸머타임 및 경도 보정을 거쳐 도출된 데이터를 외부 AI 서비스와 연동할 수 있는 프롬프트로 변환하여 심층적인 사주 상담을 제공하는 라이프스타일 도구 앱입니다.",
+        "source_facts_and_limitations_ko": [
+          "확인된 사실: 썸머타임 및 경도 보정 기능 탑재, 사주팔자 및 신살 등 명리학 데이터 제공, AI 프롬프트 자동 생성 기능 및 궁합 분석 기능 보유, 개인정보 미수집 및 로컬 저장 방식 채택.",
+          "한계점: 내부 계산 알고리즘의 학술적 검증 여부가 불확실하며, 심층 풀이의 품질이 외부 AI 서비스의 성능에 전적으로 의존함."
+        ],
+        "valuable_elements_ko": [
+          "출생 시각의 물리적 오차를 줄이기 위한 정밀 보정 엔진 (경도 및 썸머타임 보정)",
+          "복잡한 동양철학 데이터를 구조화하여 외부 LLM이 이해하기 쉬운 형태로 전환하는 프롬프트 브릿지 구조",
+          "개인정보를 서버에 저장하지 않고 로컬 기기에만 보관하는 보안 중심 설계"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "일상 루틴 오행 코치",
+            "core_idea_ko": "사용자의 일상적인 수면, 일정, 업무 패턴을 사주팔자의 오행 흐름과 실시간으로 매칭하여 오늘 하루의 최적의 행동 지침을 제안하는 라이프스타일 코칭 앱입니다.",
+            "what_to_keep_ko": "정밀한 사주 계산 엔진과 시간 흐름(일진, 월운)에 따른 에너지 변화 분석 구조를 계승합니다.",
+            "what_to_change_ko": "단순히 운세를 조회하거나 외부 AI에 질문을 떠넘기는 방식에서 벗어나, 사용자의 일상 루틴과 일진을 직접 연동하여 실천 가능한 구체적 마이크로 액션을 실시간으로 추천합니다.",
+            "mobile_use_or_play_ko": "사용자가 아침에 앱을 켜면 오늘의 일진 오행과 본인의 사주를 대조한 오늘의 컨디션 및 주의사항이 요약되며, 캘린더 일정에 맞춰 중요한 미팅이나 휴식 타이밍을 알림으로 제안받습니다.",
+            "key_features_ko": [
+              "실시간 일진 및 개인 사주 오행 매칭 엔진",
+              "개인 일정(캘린더) 연동형 에너지 타이밍 알림",
+              "오행 균형에 따른 맞춤형 일상 루틴 제안"
+            ],
+            "solo_mvp_and_effort_ko": "로컬 사주 계산 로직에 오픈소스 캘린더 API를 연동하고, 규칙 기반의 간단한 매칭 알고리즘을 구현하는 수준으로 1인 개발이 가능하며 중간 정도의 난이도입니다.",
+            "strengths_limits_ko": "실생활 유용성이 높지만, 명리학적 조언이 지나치게 주관적이거나 의학·전문 영역으로 오인되지 않도록 서비스 범위를 명확히 한정해야 하는 과제가 있습니다."
+          },
+          {
+            "title_ko": "팀워크 오행 매니저",
+            "core_idea_ko": "직장이나 프로젝트 팀원들이 익명 또는 자발적으로 사주 데이터를 등록하여, 팀 내 오행 분포와 갈등 요소를 분석하고 최적의 협업 및 소통 방식을 도출하는 B2B/협업 유틸리티 앱입니다.",
+            "what_to_keep_ko": "두 사람 이상의 데이터를 정밀하게 대조하고 분석하는 궁합 분석 기능과 구조화된 데이터 비교 방식을 계승합니다.",
+            "what_to_change_ko": "남녀 간의 궁합이나 개인 운세 중심에서 벗어나, 조직 내 팀원 간의 소통 스타일, 갈등 예방 팁, 업무 분담 가이드 등 현대 협업 환경에 맞춘 실용적 데이터로 완전히 재해석합니다.",
+            "mobile_use_or_play_ko": "팀 리더가 프로젝트 그룹을 생성하고 초대 링크를 공유하면, 팀원들이 각자 생년월일을 입력해 합류하고, 앱이 팀원 간 오행 상생·상극 매트릭스와 소통 가이드를 시각화하여 제공합니다.",
+            "key_features_ko": [
+              "다인원 사주 데이터 일괄 분석 및 매트릭스 시각화",
+              "팀원 간 갈등/조화 포인트 도출 알고리즘",
+              "조직 소통 최적화 프롬프트 및 가이드 생성"
+            ],
+            "solo_mvp_and_effort_ko": "웹 기반 링크 공유 기능과 1:N 매칭 계산 로직을 구현하는 MVP로 제작 가능하며, 보안과 로컬 암호화 처리에 신경 써야 하므로 개발 난이도는 중상입니다.",
+            "strengths_limits_ko": "기존 운세 앱과 달리 명확한 타겟(팀, 소모임)을 공략할 수 있으나, 직장 내 프라이버시 우려를 해소하기 위한 철저한 익명화 장치가 필수적입니다."
+          },
+          {
+            "title_ko": "사주 타임라인 시뮬레이터",
+            "core_idea_ko": "추상적인 대운과 세운의 흐름을 시각적인 인터랙티브 그래프로 변환하고, 인생의 주요 선택지(이직, 창업 등)를 타임라인 상에 배치하여 사주 논리에 기반한 시나리오 변화를 시뮬레이션하는 앱입니다.",
+            "what_to_keep_ko": "대운 나이와 세운·월운 흐름 등 시간의 흐름에 따른 전통 운세 분석 구조를 계승합니다.",
+            "what_to_change_ko": "텍스트 위주의 지루한 운세 풀이나 외부 AI 의존형 구조를 탈피하고, 사용자가 직접 인생 주기를 시각적으로 조작하며 장기 계획을 세울 수 있는 샌드박스형 시뮬레이터로 개선합니다.",
+            "mobile_use_or_play_ko": "사용자가 생년월일을 입력해 10년 주기 대운 웨이브 그래프를 확인한 뒤, 특정 시점에 '창업' 카드를 드래그하여 배치하면 해당 시기의 오행적 유리함과 리스크를 시각적 리포트로 확인합니다.",
+            "key_features_ko": [
+              "대운 및 세운 주기 인터랙티브 웨이브 렌더링",
+              "인생 선택지 시나리오 샌드박스 매칭",
+              "주요 마일스톤별 리스크/기회 요인 분석 툴"
+            ],
+            "solo_mvp_and_effort_ko": "캔버스/SVG 기반의 그래프 UI 구현과 시나리오 매칭 규칙 정의가 필요하여 UI/UX 구현 공수가 다소 높지만 1인 개발이 가능합니다.",
+            "strengths_limits_ko": "시각적 몰입감이 뛰어나고 흥미롭지만, 사용자가 미래를 맹신하거나 잘못된 중대 결정을 내리지 않도록 도구적 성격을 명확히 고지해야 합니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어인 '일상 루틴 오행 코치'는 개인의 일상 밀착형 유틸리티로 진입 장벽이 낮고 실용성이 높습니다. 두 번째 아이디어인 '팀워크 오행 매니저'는 궁합 기능을 확장하여 협업과 소통이라는 새로운 시장을 개척하지만 프라이버시 허들이 존재합니다. 세 번째 아이디어인 '사주 타임라인 시뮬레이터'는 시각적 재미와 시뮬레이션 요소를 강화했으나 UI 구현 공수가 큽니다.",
+        "recommended_concept_number": 2,
+        "why_recommended_ko": "'팀워크 오행 매니저'는 원본 앱의 핵심 강점인 '정밀한 다자간 데이터 대조(궁합 분석)'와 '프롬프트/가이드 생성'의 맥락을 가장 신선하게 확장한 기획입니다. 단순한 개인 운세 조회를 넘어 현대 사회의 협업과 소통이라는 실질적인 목적에 연결함으로써, 기존 운세 앱들과 명확히 차별화되면서도 1인 개발로 MVP 검증이 가능합니다.",
+        "next_questions_ko": [
+          "팀원들이 자신의 사주 정보를 입력할 때 거부감을 줄이기 위해 어떤 최소한의 익명화 프로세스를 적용할 것인가?",
+          "다인원 데이터 대조 결과를 한 화면에 직관적으로 보여주기 위한 UI 컴포넌트는 무엇을 사용할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-23T06:27:39+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 2151,
+        "candidatesTokenCount": 2077,
+        "totalTokenCount": 6322,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2151
+          }
+        ],
+        "thoughtsTokenCount": 2094,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:1506536946",
+        "product_kind": "app",
+        "selected_concept_title_ko": "팀워크 오행 매니저",
+        "project_goal_and_audience_ko": "스타트업 팀, 프로젝트 그룹, 스터디 소모임 리더 및 팀원들을 대상으로 하며, 구성원들의 사주 및 오행 데이터를 익명 또는 자발적 입력을 통해 분석해 팀 내 소통 스타일과 협업 시너지, 잠재적 갈등 요소를 시각적으로 파악하고 실용적인 협업 가이드를 얻기 위한 B2B/협업 유틸리티 앱입니다.",
+        "source_relation_and_difference_ko": "원본의 정밀한 다자간 데이터 대조(궁합 분석) 기술과 AI 프롬프트 생성 브릿지 구조를 핵심 경험으로 계승했습니다. 차별점으로는 1:1 남녀 궁합이나 개인 운세 중심에서 벗어나, 다인원(1:N)의 조직 내 상생·상극 매트릭스 분석과 실용적인 업무 소통 가이드 제공으로 완전히 재해석했습니다.",
+        "core_user_experience_ko": "팀 리더가 앱에서 프로젝트 그룹을 생성하고 초대 링크를 공유하면, 팀원들이 각자 생년월일과 출생 시간을 입력해 합류합니다. 시스템은 입력된 데이터를 바탕으로 각 팀원의 오행 성향을 분석하고, 팀 전체의 오행 분포 밸런스와 잠재적 갈등 구간을 매트릭스로 시각화하며, 외부 AI와 연동할 수 있는 팀 맞춤형 소통 프롬프트를 제공합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "다인원 오행 데이터 일괄 분석 및 매트릭스 시각화",
+            "user_action_and_behavior_ko": "팀원들이 각자 생년월일시를 입력하면, 시스템이 사주팔자 및 오행 속성을 계산하여 팀 전체의 분포 비율과 상생·상극 관계를 2차원 매트릭스 화면으로 보여주어 팀의 성향적 특징을 한눈에 파악하게 합니다.",
+            "practical_implementation_ko": "기존 원본의 사주 계산 및 경도·썸머타임 보정 엔진 로직을 참고하여 포팅하고, 다자간 점수 대조 알고리즘은 가중치 매트릭스 연산으로 로컬 구현합니다."
+          },
+          {
+            "feature_ko": "팀 소통 최적화 및 갈등 예방 가이드",
+            "user_action_and_behavior_ko": "팀 내 특정 두 멤버 간 또는 전체 팀원 간의 오행 상극 요소를 분석하여, 업무 분담 시 주의할 점이나 회의 시 소통 팁을 카드 형태의 가이드로 제공합니다.",
+            "practical_implementation_ko": "명리학적 상생상극 데이터를 현대적 비즈니스 커뮤니케이션 팁으로 매핑하는 정적 딕셔너리 데이터베이스를 구축합니다."
+          },
+          {
+            "feature_ko": "AI 협업 진단 프롬프트 자동 생성",
+            "user_action_and_behavior_ko": "분석된 팀 오행 구조와 갈등 요소를 바탕으로 사용자가 버튼을 누르면 ChatGPT나 Gemini 등 외부 AI에 바로 투입할 수 있는 심층 팀워크 진단 프롬프트가 클립보드에 복사됩니다.",
+            "practical_implementation_ko": "원본의 AI 프롬프트 브릿지 기능을 차용하여 팀 데이터 요약 텍스트를 구조화된 템플릿 문자열에 자동 삽입하는 기능을 구현합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "팀 생성 및 대시보드 화면",
+            "contents_and_actions_ko": "현재 생성된 팀 목록 확인, 새 팀 만들기 버튼, 팀원 초대 링크 생성 및 공유 기능 제공."
+          },
+          {
+            "screen_ko": "팀원 데이터 입력 화면",
+            "contents_and_actions_ko": "이름 또는 닉네임과 생년월일, 출생 시간을 입력하고 저장하는 폼 제공."
+          },
+          {
+            "screen_ko": "오행 매트릭스 및 밸런스 분석 화면",
+            "contents_and_actions_ko": "팀 전체 오행 비율 차트, 멤버 간 상생상극 매트릭스 표, 터치 시 세부 소통 가이드 팝업 출력."
+          },
+          {
+            "screen_ko": "AI 프롬프트 생성 화면",
+            "contents_and_actions_ko": "팀 진단 데이터가 요약된 프롬프트 텍스트 확인 및 'AI로 복사하기' 버튼을 통한 외부 연동."
+          }
+        ],
+        "implementation_approach_ko": "크로스플랫폼 앱 개발을 위해 Flutter 또는 React Native를 선택하여 iOS와 안드로이드 동시 지원을 도모합니다. 핵심 로직으로는 경도 보정 및 사주 계산을 담당하는 순수 함수 모듈과, 로컬 암호화 저장소를 결합합니다. 대안으로는 웹 기반의 가벼운 PWA 형태로 구현하여 링크 공유의 편의성을 높이는 방안이 있습니다.",
+        "data_and_storage_ko": [
+          "Team 객체: 팀 ID, 팀 이름, 생성일시 필드를 포함하며 앱 내 로컬 데이터베이스에 저장.",
+          "Member 객체: 멤버 ID, 소속 팀 ID, 닉네임, 생년월일시, 오행 속성 값을 저장하며 개인정보 보호를 위해 기기 내부에만 암호화 보관.",
+          "PromptTemplate 객체: 팀 분석 결과를 AI 프롬프트 형태로 변환하기 위한 템플릿 문자열 구조체."
+        ],
+        "mvp_scope_ko": "첫 번째 MVP는 서버 통신 없이 기기 단독으로 동작하며, 1개 팀 생성, 최대 5명의 팀원 데이터 로컬 입력 및 오행 밸런스 시각화, 그리고 기본 AI 프롬프트 복사 기능까지만 포함하여 1인 개발의 복잡도를 낮춥니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 사주 계산 및 시간 보정 엔진 구현",
+            "deliverable_and_check_ko": "생년월일시를 입력받아 천간지지와 오행 속성을 정확히 산출하는지 단위 테스트 코드로 확인."
+          },
+          {
+            "stage_ko": "2단계: 팀원 데이터 입력 및 오행 매트릭스 UI 구현",
+            "deliverable_and_check_ko": "다수의 멤버를 등록하고 팀 전체 오행 비율 차트 및 1:N 매트릭스 화면이 정상 렌더링되는지 시뮬레이터로 확인."
+          },
+          {
+            "stage_ko": "3단계: AI 프롬프트 브릿지 및 로컬 저장소 연동",
+            "deliverable_and_check_ko": "분석된 팀 데이터를 기반으로 프롬프트가 올바르게 생성되어 클립보드에 복사되는지, 앱 재시작 시 데이터가 로컬에 잘 유지되는지 검증."
+          }
+        ],
+        "possible_extensions_ko": "추후 확장 기능으로는 팀원 간 익명 피드백 기능, 프로젝트 성격에 따른 역할 분담 추천 알고리즘, 클라우드 기반 팀 공간 공유 기능 등이 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "직장 내 프라이버시 및 개인정보 수집 우려에 대응하기 위해 모든 데이터를 서버가 아닌 로컬에만 저장하는 방침을 명확히 고수해야 함.",
+          "출생 시간을 모르는 팀원이 많을 경우의 예외 처리(시주 생략 또는 평균 보정) 규칙에 대한 확정 필요.",
+          "동양철학 기반의 오행 분석이 현대 비즈니스 협업 가이드로서 실효성을 얼마나 가질지에 대한 사용자 피드백 검증 필요."
+        ],
+        "draft_status_ko": "본 개발 설계 초안은 실제 구현, 플레이테스트, 사용자 피드백 수집 및 성능 측정이 완료되지 않은 기획 단계의 문서입니다."
+      },
+      "plan_at": "2026-11-23T06:27:58+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 2855,
+        "candidatesTokenCount": 1901,
+        "totalTokenCount": 8136,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2855
+          }
+        ],
+        "thoughtsTokenCount": 3380,
+        "serviceTier": "standard"
+      }
+    },
+    "apple:6504182653": {
+      "app_key": "apple:6504182653",
+      "name": "UniRemote：Universal TV Remote",
+      "developer": "Kanatom Limited",
+      "source": "apple",
+      "kind": "app",
+      "detail_url": "https://apps.apple.com/us/app/uniremote-universal-tv-remote/id6504182653?uo=2",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:6504182653",
+        "product_kind": "app",
+        "original_experience_ko": "UniRemote는 스마트폰을 범용 TV 리모컨으로 활용하여 와이파이 및 적외선 통신으로 채널, 볼륨, 미디어를 제어하고 캐스팅하는 도구입니다. 스토어 소개문 기반 사실은 멀티 브랜드 지원, 터치패드, 이지 모드, 미디어 캐스팅이며, AI 해석을 통해 네트워크 소켓 통신과 프로토콜 인터페이스 구현의 복잡성을 유추했습니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 확인 사실: 와이파이 자동 감지, 터치패드와 D-패드, 미디어 캐스팅, 구독형 과금 모델 제공.",
+          "확인되지 않은 한계: 구체적인 TV 제어 API나 통신 프로토콜 규격은 공개되지 않아 실제 호환성 범위를 알 수 없음."
+        ],
+        "valuable_elements_ko": [
+          "물리적 리모컨 분실이나 건전지 방전 시 스마트폰으로 즉시 대체할 수 있는 접근성.",
+          "불편한 TV 리모컨 자판 입력을 스마트폰 키보드로 해결하는 편의성."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "스마트홈 미디어 매크로 리모컨",
+            "core_idea_ko": "단순 1:1 TV 제어를 넘어 TV, 사운드바, 스마트 조명을 한 번에 제어하는 원터치 시나리오 매크로 실행 앱입니다.",
+            "what_to_keep_ko": "와이파이 네트워크 자동 탐색과 멀티 디바이스 전환 기능.",
+            "what_to_change_ko": "개별 버튼 제어 방식에서 벗어나 여러 기기의 상태를 동시에 변경하는 복합 매크로 자동화 규칙으로 확장.",
+            "mobile_use_or_play_ko": "사용자가 앱을 열고 영화 시청 모드 버튼을 누르면, 앱이 로컬 네트워크를 통해 TV 전원 켜기, 넷플릭스 실행, 조명 밝기 조절 명령을 순차적으로 전송하여 피드백을 받습니다.",
+            "key_features_ko": [
+              "멀티 디바이스 시나리오 매크로 빌더",
+              "로컬 네트워크 기기 자동 스캔 및 그룹화",
+              "원터치 통합 상태 변경 위젯"
+            ],
+            "solo_mvp_and_effort_ko": "HTTP REST API나 간단한 UPnP 프로토콜을 지원하는 주요 스마트 가전 2~3종을 타겟으로 한 JSON 기반 매크로 편집 기능을 구현하며 중간 난이도입니다.",
+            "strengths_limits_ko": "스마트홈 사용자에게 높은 확장성과 유용성을 제공하나, 제조사별 비공개 API 제약으로 인해 지원 기기 확장이 제한될 수 있습니다."
+          },
+          {
+            "title_ko": "스마트 TV 고속 텍스트 및 제스처 입력 허브",
+            "core_idea_ko": "TV의 불편한 검색창 입력 문제를 해결하기 위해 스마트폰의 음성 인식과 고속 키보드, 제스처 트랙패드에 집중한 컴패니언 앱입니다.",
+            "what_to_keep_ko": "스마트폰 키보드 검색 연동과 터치패드 내비게이션 기능.",
+            "what_to_change_ko": "종합 리모컨 형태를 탈피하고 음성 받아쓰기 전송, 클립보드 동기화, 에지 제스처 스크롤 등 텍스트 입력과 탐색에 특화된 인터페이스로 재구성.",
+            "mobile_use_or_play_ko": "TV에서 유튜브 검색창이 활성화되면 스마트폰 앱을 열고 음성으로 검색어를 말하거나 폰 키보드로 타이핑하여 즉시 TV 화면에 입력하고 제스처로 스크롤합니다.",
+            "key_features_ko": [
+              "음성 인식 실시간 텍스트 브릿지",
+              "플로팅 제스처 트랙패드",
+              "모바일 클립보드 텍스트 원클릭 전송"
+            ],
+            "solo_mvp_and_effort_ko": "안드로이드 네이티브 음성 인식 API와 WebSocket 기반 로컬 텍스트 주입 통신을 결합하여 1인이 단기간에 구현 가능한 낮은 난이도입니다.",
+            "strengths_limits_ko": "TV 검색의 고질적 불편함을 명확하게 해결하지만 전체 리모컨 기능이 빠져 있어 별도의 기본 리모컨이 병행되어야 하는 한계가 있습니다."
+          },
+          {
+            "title_ko": "로컬 파티 미디어 캐스팅 큐",
+            "core_idea_ko": "단순 미디어 캐스팅을 넘어 동일 와이파이망 내의 여러 사용자가 실시간으로 재생 목록에 미디어를 추가하고 투표하는 소셜 캐스팅 앱입니다.",
+            "what_to_keep_ko": "폰에 저장된 사진과 영상을 TV로 전송하는 미디어 캐스팅 기능.",
+            "what_to_change_ko": "개인 단독 조작에서 다인용 협업 재생 큐와 투표 시스템으로 확장하여 공유 경험 강화.",
+            "mobile_use_or_play_ko": "모임 장소에서 여러 명의 사용자가 와이파이망을 통해 앱에 접속한 뒤 각자 스마트폰의 사진과 영상을 공유 큐에 올리고 투표하여 TV 화면에 순서대로 재생합니다.",
+            "key_features_ko": [
+              "다중 사용자 실시간 미디어 큐 공유",
+              "로컬 피어 투 피어 연결 감지",
+              "재생 순서 투표 및 스킵 기능"
+            ],
+            "solo_mvp_and_effort_ko": "호스트 폰에서 로컬 서버를 구동하고 DLNA 또는 Chromecast SDK를 활용하여 멀티 클라이언트 접속을 처리하며 중간 이상 난이도입니다.",
+            "strengths_limits_ko": "소셜 모임에서 차별화된 재미를 주지만 로컬 네트워크 환경에 따라 스트리밍 지연이나 연결 끊김 리스크가 존재합니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어는 스마트홈 자동화로 확장성이 높으나 프로토콜 연동이 복잡하고, 두 번째 아이디어는 TV 입력이라는 명확한 페인 포인트를 저비용으로 해결하며, 세 번째 아이디어는 다인용 캐스팅으로 소셜 재미를 주지만 네트워크 안정성에 의존합니다.",
+        "recommended_concept_number": 2,
+        "why_recommended_ko": "스마트 TV 사용자라면 누구나 겪는 느리고 불편한 자판 입력 문제를 스마트폰의 음성과 키보드로 직관적으로 해결하는 실용성이 높고, 1인 개발자가 복잡한 하드웨어 IR이나 방대한 가전 프로토콜 연동 없이 핵심 가치에 집중하여 빠르게 MVP를 구현할 수 있기 때문입니다.",
+        "next_questions_ko": [
+          "주요 스마트 TV 플랫폼의 로컬 텍스트 입력 프로토콜이나 ADB/웹소켓 연결이 안정적으로 지원되는가?",
+          "음성 인식 텍스트 전송 시 언어별 지연 시간과 정확도가 실제 사용성을 보장할 만큼 빠르며 안정적인가?"
+        ]
+      },
+      "brief_at": "2026-11-23T06:44:27+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 1985,
+        "candidatesTokenCount": 1728,
+        "totalTokenCount": 7203,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1985
+          }
+        ],
+        "thoughtsTokenCount": 3490,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:6504182653",
+        "product_kind": "app",
+        "selected_concept_title_ko": "스마트 TV 고속 텍스트 및 제스처 입력 허브",
+        "project_goal_and_audience_ko": "스마트 TV에서 자판이나 방향키로 긴 검색어와 로그인 정보를 입력할 때 겪는 답답함을 해소하고자, 스마트폰의 음성 인식, 소프트 키보드, 제스처 패드를 활용해 TV 입력을 빠르고 직관적으로 돕는 모바일 컴패니언 앱입니다.",
+        "source_relation_and_difference_ko": "원본 앱의 Wi-Fi 기반 스마트 TV 연동 및 터치패드·키보드 검색 기능을 계승하면서, 복잡하고 방대한 전체 리모컨 UI에서 탈피하여 '텍스트 입력과 탐색'에만 집중하도록 특화·개선함.",
+        "core_user_experience_ko": "사용자가 TV에서 검색창을 띄우고 스마트폰 앱을 실행하면 자동으로 로컬 네트워크의 TV를 감지하여 연결됩니다. 스마트폰의 마이크 버튼을 눌러 음성으로 검색어를 입력하거나 빠른 모바일 키보드로 타이핑하여 원클릭으로 TV에 텍스트를 주입하고, 화면의 제스처 패드를 통해 부드럽게 스크롤하며 콘텐츠를 탐색합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "음성 인식 실시간 텍스트 브릿지",
+            "user_action_and_behavior_ko": "마이크 아이콘 터치 및 음성 발화 후 스마트폰 내장 STT로 텍스트 변환, WebSocket 또는 로컬 HTTP API를 통해 TV 입력 필드로 실시간 전송.",
+            "practical_implementation_ko": "Android SpeechRecognizer API를 활용하여 음성을 텍스트로 변환하고, 로컬 네트워크 상의 HTTP 서버나 WebSocket을 통해 TV 앱으로 문자열을 전송."
+          },
+          {
+            "feature_ko": "플로팅 제스처 트랙패드",
+            "user_action_and_behavior_ko": "화면의 특정 구역을 스와이프하거나 탭하여 마우스 커서 이동 및 방향키(D-Pad) 신호로 변환 송신, TV UI의 빠른 포커스 이동 및 스크롤 제어.",
+            "practical_implementation_ko": "GestureDetector를 이용해 터치 이벤트(Scroll, Fling, Tap)를 감지하고, 상대적 좌표 이동량을 계산하여 TV 제어 프로토콜 패킷으로 변환."
+          },
+          {
+            "feature_ko": "모바일 클립보드 원클릭 전송",
+            "user_action_and_behavior_ko": "스마트폰에서 복사한 긴 URL이나 텍스트를 앱 진입 시 자동 감지하거나 버튼 터치로 TV 검색창에 즉시 붙여넣기.",
+            "practical_implementation_ko": "Android ClipboardManager를 모니터링하여 클립보드 내용을 가져오고, 단축 버튼 클릭 시 즉시 텍스트 주입 페이로드를 구성하여 전송."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "장치 자동 검색 및 연결 화면",
+            "contents_and_actions_ko": "앱 실행 시 동일 Wi-Fi 내 스마트 TV 목록 스캔, 대상 TV 선택 시 즉시 연결 완료 및 메인 패널로 진입."
+          },
+          {
+            "screen_ko": "텍스트 및 제스처 입력 메인 패널",
+            "contents_and_actions_ko": "상단 소프트 키보드 바, 중앙 대형 제스처 트랙패드, 하단 마이크 및 클립보드 전송 버튼 배치. 직관적이고 군더더기 없는 UI."
+          }
+        ],
+        "implementation_approach_ko": "Flutter 또는 안드로이드 네이티브(Kotlin)를 사용하여 로컬 네트워크 스캔(mDNS/NSD)과 WebSocket 통신을 안정적으로 구현. 복잡한 가전 IR 하드웨어 제어를 배제하고 소프트웨어 통신에 집중하여 개발 공수 최소화.",
+        "data_and_storage_ko": [
+          "연결된 TV 디바이스 정보 (IP 주소, MAC 주소, 기기 이름) - SharedPreferences에 저장하여 앱 재실행 시 자동 재연결.",
+          "사용자 입력 히스토리 (최근 검색어/텍스트 5개) - 로컬 캐시에 임시 저장하여 빠른 재전송 지원."
+        ],
+        "mvp_scope_ko": "전체 리모컨 버튼(볼륨, 채널 등)을 과감히 제외하고, 로컬 Wi-Fi TV 자동 연결, 소프트 키보드 텍스트 주입, 그리고 음성 인식 변환 전송 기능만 포함하여 단기간에 핵심 유용성을 검증.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "네트워크 스캔 및 연결 모듈 구현",
+            "deliverable_and_check_ko": "NSD(Network Service Discovery)를 이용해 로컬 네트워크 내 TV 기기를 검색하고 IP를 확정하는 프로토콜 테스트."
+          },
+          {
+            "stage_ko": "텍스트 주입 및 음성/키보드 입력 UI 개발",
+            "deliverable_and_check_ko": "스마트폰 키보드 및 STT 입력값이 네트워크를 통해 로컬 수신부(테스트용 PC 서버 등)로 정상 전달되는지 확인."
+          },
+          {
+            "stage_ko": "제스처 트랙패드 및 MVP 통합",
+            "deliverable_and_check_ko": "트랙패드 제스처와 텍스트 입력을 하나의 화면으로 통합하고 실제 TV 환경에서 응답 지연 확인."
+          }
+        ],
+        "possible_extensions_ko": "자주 사용하는 유튜브/넷플릭스 앱 바로가기 런처 기능, 다국어 음성 인식 지원, 자주 쓰는 검색어 즐겨찾기.",
+        "risks_and_open_decisions_ko": [
+          "TV 제조사별(삼성, LG 등) 비공식/공식 API 규격의 차이로 인한 통신 호환성 리스크 -> 보편적인 WebSocket 및 HTTP REST API 규격을 따르는 리시버 앱 연동 방식으로 대안 검토.",
+          "방화벽이나 라우터 설정에 따른 로컬 네트워크 기기 검색 실패 가능성 -> 수동 IP 입력 기능 제공으로 보완."
+        ],
+        "draft_status_ko": "본 문서는 스마트 TV 고속 입력 허브 앱의 실현 가능성을 검토하기 위해 작성된 개발 설계 초안이며, 실제 기기 테스트 및 프로토콜 최적화 작업은 이후 구현 단계에서 진행되어야 합니다."
+      },
+      "plan_at": "2026-11-23T06:44:47+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 2565,
+        "candidatesTokenCount": 1575,
+        "totalTokenCount": 6411,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2565
+          }
+        ],
+        "thoughtsTokenCount": 2271,
+        "serviceTier": "standard"
+      }
+    },
+    "itch:a1f25fe2936dabcd8f98": {
+      "app_key": "itch:a1f25fe2936dabcd8f98",
+      "name": "Ракета над Дніпром [Free] [Racing]",
+      "developer": "",
+      "source": "itch",
+      "kind": "game",
+      "detail_url": "https://leos-studio.itch.io/raketa-nad-dniprom",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:a1f25fe2936dabcd8f98",
+        "product_kind": "game",
+        "original_experience_ko": "원본은 드니프로 강을 배경으로 수중익선(Raketa)을 조종해 키이우에서 카니우까지 저녁 시간대에 이동하는 레이싱/운항 게임으로 추정된다. (스토어 소개문 'Вечірній рейс Київ — Канів...'에 근거하며, 구체적인 승패 조건이나 조작 방식은 미확인 상태의 해석임)",
+        "source_facts_and_limitations_ko": [
+          "스토어 확인 정보: 키이우-카니우 구간, 수중익선 '라케타', 저녁 시간대 운항, 레이싱 장르라는 점.",
+          "한계: 구체적인 조작 메커니즘, 속도 제어 방식, 장애물 유무, 승리 조건 등은 스토어 텍스트만으로는 알 수 없음."
+        ],
+        "valuable_elements_ko": [
+          "독특한 선박 형태인 '수중익선'의 부력과 속도감 있는 수상 주행 느낌",
+          "실존하는 지리적 경로(키이우-카니우)와 노을이 진 저녁 감성적 배경의 조화"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "드니프로 야간 물류 레이서",
+            "core_idea_ko": "수중익선의 고속 주행감을 살리면서 강을 따라 화물을 정해진 시간 내에 운송하는 타임어택 기반의 배달 액션 게임.",
+            "what_to_keep_ko": "수중익선의 속도감, 강 지형 이동, 저녁/야간 시간대의 시각적 분위기.",
+            "what_to_change_ko": "단순 순위 경쟁 레이싱에서 벗어나 화물 무게에 따른 선박 핸들링 변화와 야간 수로 장애물 회피라는 컨트롤 요소 결합.",
+            "mobile_use_or_play_ko": "화면 좌우 터치로 방향을 조절하고 슬라이더로 스로틀을 제어하며, 야간 부표와 모래톱을 피해 목적지에 제때 도착.",
+            "key_features_ko": [
+              "화물 중량별 물리 변화 시스템",
+              "야간 수로 등대 및 부표 시야 제한 메커니즘",
+              "시간 내 배달에 따른 보상 및 선박 업그레이드"
+            ],
+            "solo_mvp_and_effort_ko": "2D 탑뷰 또는 간단한 로우폴리 3D 환경에서 선박 이동 물리와 3개 스테이지를 구현하는 1인 개발 MVP.",
+            "strengths_limits_ko": "명확한 목표(배달)로 몰입도가 높으나, 반복 플레이 시 수로 지형의 단조로움 극복이 과제."
+          },
+          {
+            "title_ko": "드니프로 에코 크루즈 타이쿤",
+            "core_idea_ko": "속도 위주의 레이싱에서 벗어나, 수중익선 크루즈를 운항하며 승객의 만족도를 관리하고 강 주변의 야생 동물이나 야경 명소를 촬영·기록하는 탐사 게임.",
+            "what_to_keep_ko": "수중익선 탑승 경험, 드니프로 강 루트, 저녁 노을과 야경의 감성적 분위기.",
+            "what_to_change_ko": "긴장감 넘치는 레이싱 대신 속도를 줄이고 안정적 운항, 승객 요구사항 대응, 풍경 채집이라는 힐링 탐사 요소로 전환.",
+            "mobile_use_or_play_ko": "잔잔한 강물 위를 조용히 항해하며 등장하는 야생 동물을 카메라로 포착하고 승객의 편의를 조절하여 평점 관리.",
+            "key_features_ko": [
+              "속도와 연비, 승객 만족도를 저울질하는 운항 제어",
+              "야간 풍경 및 생태계 포토 앨범 수집",
+              "강변 도시 정거장 업그레이드"
+            ],
+            "solo_mvp_and_effort_ko": "유니티 엔진 기반 단일 수로 씬과 기본 조작 UI 구축, 난이도는 낮으나 연출 에셋 제작에 시간 필요.",
+            "strengths_limits_ko": "감성적인 비주얼로 차별화되나, 레이싱의 속도감을 선호하는 유저에게는 지루할 수 있음."
+          },
+          {
+            "title_ko": "급류 탈출 구조 수중익선",
+            "core_idea_ko": "예상치 못한 기상 변화로 불어난 강물과 장애물을 뚫고 고립된 시민들을 구조하는 아케이드형 수중익선 서바이벌 게임.",
+            "what_to_keep_ko": "수중익선의 고속 기동성, 강이라는 한정된 공간에서의 이동 제약.",
+            "what_to_change_ko": "평화로운 강변 레이싱을 기상 악화와 소용돌이, 파도 같은 역동적인 위협을 돌파하는 생존 구조 액션으로 격상.",
+            "mobile_use_or_play_ko": "급류가 몰아치는 강을 거슬러 올라가며 부유물을 피하고, 조준 버튼으로 구명환을 던져 구조 대상에 적중시킴.",
+            "key_features_ko": [
+              "동적 파도 및 소용돌이 물리 효과",
+              "구조 대상 타이밍 맞추기 미니게임",
+              "악천후 극복을 위한 선체 강화 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "2.5차원 탑뷰 시점으로 충돌 판정과 스테이지별 웨이브 스크립팅 위주로 구현, 1인 개발 가능.",
+            "strengths_limits_ko": "높은 스릴과 즉각적인 피드백이 장점이지만, 조작 난도가 높아 모바일 터치 UX 최적화가 중요함."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어는 물류와 타임어택으로 몰입감을 주며, 두 번째는 감성적 힐링과 탐사, 세 번째는 역동적인 구조 액션에 초점을 맞춘다. 각각 속도감, 평화로움, 긴장감이라는 서로 다른 경험을 제공하며 제작 난이는 유사하나 타겟 유저층이 다르다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "원본의 레이싱 및 이동 수단 특성을 가장 직관적으로 계승하면서도, 배달과 타임어택이라는 명확한 동기를 부여하여 모바일 플레이 루프를 탄탄하게 만들기 때문이다.",
+        "next_questions_ko": [
+          "수중익선의 물리적 부력과 속도감을 모바일 터치 스크린에서 얼마나 직관적으로 느낄 수 있게 구현할 것인가?",
+          "야간 강물 환경에서 시각적 단조로움을 피하기 위해 어떤 배경 오브젝트와 조명 연출을 추가할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-23T06:52:04+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 1193,
+        "candidatesTokenCount": 1544,
+        "totalTokenCount": 6913,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1193
+          }
+        ],
+        "thoughtsTokenCount": 4176,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "itch:a1f25fe2936dabcd8f98",
+        "product_kind": "game",
+        "selected_concept_title_ko": "드니프로 야간 물류 레이서",
+        "project_goal_and_audience_ko": "모바일 환경에서 수중익선의 고속 주행감과 긴장감 넘치는 야간 물류 배달 액션을 즐기고 싶은 캐주얼/미드코어 게이머를 위한 타임어택 배달 게임입니다. 속도감과 화물 관리의 전략적 재미를 동시에 제공합니다.",
+        "source_relation_and_difference_ko": "원본 게임의 수중익선 고속 주행감과 저녁 노을/야간 감성을 유지하면서, 단순 순위 경쟁 레이싱에서 탈피해 화물 무게에 따른 핸들링 변화와 야간 수로 장애물 회피라는 배달 액션 메커니즘을 결합했습니다.",
+        "core_user_experience_ko": "플레이어는 화면 좌우의 가상 버튼으로 수중익선의 방향을 조절하고 슬라이더로 스로틀(엔진 출력)을 제어합니다. 야간 수로에서 서치라이트에 의존해 부표, 모래톱, 유목을 피해 제한 시간 내에 화물을 안전하게 목적지까지 운송합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "화물 중량별 물리 변화 시스템",
+            "user_action_and_behavior_ko": "적재한 화물의 무게에 따라 선박의 선회 반경과 제동 거리가 달라집니다. 무거운 화물일수록 고속 주행 시 관성이 커져 정밀한 조작이 요구되며, 성공 시 더 큰 보상을 획득합니다.",
+            "practical_implementation_ko": "강체(Rigidbody) 물리 컴포넌트에 질량과 마찰력 변수를 동적으로 연동하고, 선회 속도 계수에 화물 중량 비례 감쇠 값을 적용하여 구현합니다."
+          },
+          {
+            "feature_ko": "야간 수로 시야 제한 및 장애물 회피",
+            "user_action_and_behavior_ko": "야간 배경에서 선박의 전방 서치라이트 시야 외부는 어둡게 처리되어, 갑자기 나타나는 부표나 모래톱을 빠르게 인지하고 회피해야 합니다.",
+            "practical_implementation_ko": "2D 라이팅 마스크 또는 셰이더 기반의 시야각(FOV) 제한 효과를 적용하고, 수로 전방에 랜덤 생성되는 장애물 오브젝트 풀을 관리합니다."
+          },
+          {
+            "feature_ko": "선박 업그레이드 및 보상 루프",
+            "user_action_and_behavior_ko": "배달 완료 시 획득한 골드로 엔진 출력, 조향 성능, 서치라이트 조사 반경을 업그레이드하여 더 어렵고 보상이 큰 노선에 도전합니다.",
+            "practical_implementation_ko": "로컬 저장소에 플레이어의 재화 및 스펙 수치를 JSON 형태로 저장하고, 상점 UI와 능력치 적용 모듈을 연동합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 로비 및 노선 선택 화면",
+            "contents_and_actions_ko": "키이우에서 카니우까지의 노선 목록 확인, 적재할 화물 종류 선택, 현재 선박 스펙 확인 및 상점 진입, 주행 시작 버튼."
+          },
+          {
+            "screen_ko": "주행 / 배달 플레이 화면",
+            "contents_and_actions_ko": "좌우 조향 버튼, 스로틀 슬라이더, 미니맵, 남은 시간, 화물 상태 게이지 표시. 터치 조작으로 선박을 제어하며 장애물 회피."
+          },
+          {
+            "screen_ko": "결과 정산 화면",
+            "contents_and_actions_ko": "배달 성공/실패 여부, 소요 시간, 화물 손상도에 따른 최종 보상 골드 정산 및 로비 복귀 버튼."
+          }
+        ],
+        "implementation_approach_ko": "유니티(Unity) 엔진을 활용하여 모바일 환경에 최적화된 2D 탑뷰 또는 심플한 로우폴리 3D 환경을 구축합니다. 수중익선의 특유의 미끄러지는 주행감을 표현하기 위해 커스텀 부력 및 항력 스크립트를 적용하며, 대안으로는 가벼운 2D 물리 엔진 기반의 탑뷰 레이싱 프레임을 사용합니다.",
+        "data_and_storage_ko": [
+          "플레이어 재화(골드) 및 선박 업그레이드 스펙 데이터 (PlayerPrefs 또는 로컬 JSON 파일로 저장)",
+          "스테이지별 노선 정보 및 장애물 배치 패턴 데이터 (ScriptableObject 또는 JSON 설정 파일)",
+          "저장 시점: 스테이지 클리어 및 상점 구매 직후 백그라운드에서 비동기 저장 수행"
+        ],
+        "mvp_scope_ko": "1개의 기본 선박, 3개의 난이도별 노선 스테이지, 기본 장애물 회피 및 화물 중량 물리 시스템을 포함한 핵심 플레이 루프 검증용 프로토타입. 사운드 효과와 복잡한 커스텀 마이징은 MVP 범위에서 제외합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 코어 물리 및 조작 구현",
+            "deliverable_and_check_ko": "수중익선 가속, 감속, 선회 물리 구현. 터치 입력에 따른 선박의 움직임과 미끄러짐 감각 테스트."
+          },
+          {
+            "stage_ko": "2단계: 장애물 및 시야 시스템 구현",
+            "deliverable_and_check_ko": "야간 서치라이트 시야 효과와 부표/모래톱 충돌 판정 구현. 장애물 회피 플레이 루프 확인."
+          },
+          {
+            "stage_ko": "3단계: UI 및 스테이지 루프 연결",
+            "deliverable_and_check_ko": "로비, 주행, 결과 정산 화면 간의 전환 및 보상 지급/저장 흐름 연결 테스트."
+          },
+          {
+            "stage_ko": "4단계: 밸런싱 및 폴리싱",
+            "deliverable_and_check_ko": "화물 중량에 따른 핸들링 체감 조정 및 모바일 터치 조작감 최적화."
+          }
+        ],
+        "possible_extensions_ko": "날씨 변화 시스템(안개, 야간 폭우), 깨지기 쉬운 특수 화물 미션, 글로벌 리더보드를 통한 타임어택 경쟁 기능 추가.",
+        "risks_and_open_decisions_ko": [
+          "모바일 터치 스크린에서 수중익선의 관성 제어가 너무 어렵게 느껴질 수 있으므로 조작 감도 설정 및 자동 보정 기능 검토 필요.",
+          "야간 라이팅 및 시야 제한 효과가 모바일 저사양 기기에서 성능 저하를 일으키지 않는지 렌더링 부하 확인 필요."
+        ],
+        "draft_status_ko": "본 개발 설계 초안은 실제 구현, 플레이테스트, 성능 측정이 완료되지 않은 기획 단계의 문서입니다."
+      },
+      "plan_at": "2026-11-23T06:52:24+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 1718,
+        "candidatesTokenCount": 1729,
+        "totalTokenCount": 4808,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1718
+          }
+        ],
+        "thoughtsTokenCount": 1361,
+        "serviceTier": "standard"
+      }
+    },
+    "google:com.larus.wolf": {
+      "app_key": "google:com.larus.wolf",
+      "name": "Dola: 스마트 AI 도우미",
+      "developer": "SPRING (SG) PTE. LTD.",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.larus.wolf&hl=ko&gl=KR",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.larus.wolf",
+        "product_kind": "app",
+        "original_experience_ko": "원본은 글쓰기, 학습, 회의 요약, 이미지 생성 등 다양한 일상 및 업무 작업을 단일 인터페이스에서 처리할 수 있는 범용 AI 도우미 앱입니다. 공개된 스토어 정보와 해석에 따르면 음성 입력과 멀티모달 기능을 제공하며 사용자의 다양한 프롬프트에 대응합니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 정보에서 회의 요약, 언어 학습, AI 아트 생성, 음성 입력 기능을 갖춘 올인원 AI 도우미임을 확인할 수 있습니다.",
+          "사용하는 구체적인 AI 모델, API 연동 방식, 서버 인프라 및 결제 시스템 정보는 공개되지 않아 확인이 어렵습니다."
+        ],
+        "valuable_elements_ko": [
+          "텍스트와 음성 등 다양한 입력 방식을 지원하여 사용자가 편리하게 명령을 내릴 수 있는 접근성.",
+          "방대한 정보나 텍스트를 빠르게 요약하고 시각화 결과물로 전환해 주는 빠른 피드백 경험."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "스터디노트 AI: 문서 기반 자동 퀴즈 및 개념 타임라인 메이커",
+            "core_idea_ko": "사용자가 업로드한 교재나 논문, 강의 노트를 바탕으로 핵심 개념을 요약하고 자동으로 맞춤형 퀴즈 및 복습 타임라인을 생성해주는 학습 특화 AI 앱입니다.",
+            "what_to_keep_ko": "원본의 멀티모달 AI 분석 및 텍스트 요약 기능을 계승하여, 방대한 정보를 빠르고 구조화된 형태로 제공하는 장점을 유지합니다.",
+            "what_to_change_ko": "범용적인 만능 대화창 구조에서 탈피해, 학습 파일 업로드, 핵심 개념 추출, 퀴즈 풀이 및 오답노트 관리라는 학습 특화 루프로 사용 흐름을 재설계합니다.",
+            "mobile_use_or_play_ko": "사용자가 전공 PDF 파일을 앱에 업로드하면 AI가 3분 내에 핵심 개념 5가지를 요약하고 곧바로 '오늘의 5문제 퀴즈'를 출제하여 모바일 화면에서 터치로 풀이하고 해설을 확인합니다.",
+            "key_features_ko": [
+              "문서 파싱 및 핵심 개념 자동 추출 엔진",
+              "학습자 수준별 맞춤 객관식 및 주관식 퀴즈 생성기",
+              "오답 분석 및 망각 곡선 기반 주기적 복습 알림 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "프론트엔드는 플러터로 구현하고 백엔드는 문서 파싱 및 LLM API를 연동하여 PDF 처리 기능을 최소 범위로 구현합니다. 결제 시스템은 제외하고 로컬 저장 중심의 MVP로 개발 난이도를 낮춥니다.",
+            "strengths_limits_ko": "장점은 학생과 취준생이라는 명확한 타겟과 높은 실용성입니다. 약점은 대용량 파일 파싱 시 서버 비용 증가 문제이며, 기존 노트 앱들과의 차별성을 입증해야 합니다."
+          },
+          {
+            "title_ko": "액션미팅: 회의 음성 기록부터 실행 과제 자동 분류 앱",
+            "core_idea_ko": "회의 중 음성 녹음을 실시간으로 텍스트화하고 대화 속에서 실행 과제와 담당자를 자동으로 추출하여 투두 리스트로 배포해주는 업무 생산성 앱입니다.",
+            "what_to_keep_ko": "원본의 음성 입력(STT) 지원과 회의 내용 요약 기능을 계승하여, 사용자가 직접 타이핑하는 수고를 덜어주는 핵심 가치를 유지합니다.",
+            "what_to_change_ko": "단순 대화형 요약에 그치지 않고, 회의록을 실행 가능한 액션 아이템 단위로 쪼개고 외부 캘린더나 메신저로 내보내는 업무 워크플로우를 강화합니다.",
+            "mobile_use_or_play_ko": "사용자가 회의 시작 시 녹음 버튼을 누르고 회의가 끝나면, AI가 핵심 결정 사항과 담당자별 할 일 목록을 정리해 보여주며 '공유' 버튼으로 사내 툴에 등록합니다.",
+            "key_features_ko": [
+              "실시간 음성 인식 및 화자 분리 요약",
+              "회의록 내 액션 아이템 자동 추출 및 담당자 매핑",
+              "외부 캘린더 및 투두 앱 연동 내보내기 기능"
+            ],
+            "solo_mvp_and_effort_ko": "STT API와 LLM API를 조합하여 서버 측에서 텍스트 구조화를 처리하며, 모바일 앱은 녹음 파일 업로드와 결과 조회 UI 위주로 설계하여 1인 개발이 가능하도록 범위를 축소합니다.",
+            "strengths_limits_ko": "장점은 비즈니스 현장에서의 실질적 시간 절감 효과가 크다는 점입니다. 약점은 모바일 환경에서의 장시간 백그라운드 녹음 안정성 확보와 API 호출 비용 관리입니다."
+          },
+          {
+            "title_ko": "스토리보더 AI: 한 줄 아이디어를 멀티컷 콘스로 만드는 웹툰 기획 도구",
+            "core_idea_ko": "한 줄의 스토리 프롬프트를 입력하면 AI가 자동으로 4~8컷의 웹툰 스토리보드 구성안과 각 컷별 밑그림을 연속 생성하여, 1인 창작자가 빠르게 만화 콘셉트를 잡을 수 있도록 돕는 창작 지원 앱입니다.",
+            "what_to_keep_ko": "원본의 다양한 AI 아트 생성 및 텍스트 프롬프트 처리 능력을 계승하여 시각적 창작을 보조하는 재미와 유용성을 유지합니다.",
+            "what_to_change_ko": "단발성 무작위 이미지 생성에서 벗어나 서사의 흐름에 맞는 연속된 컷과 대사 배치를 자동으로 연결해 주는 스토리텔링 중심의 시각화 구조로 변경합니다.",
+            "mobile_use_or_play_ko": "사용자가 시놉시스를 입력하면, 앱이 4컷의 연출 레이아웃과 대사, 각 컷의 러프 스케치 이미지를 순차적으로 생성해 보여주고 사용자가 컷별 이미지를 터치해 수정 요청을 보냅니다.",
+            "key_features_ko": [
+              "서사 기반 멀티컷 스토리보드 자동 분할 알고리즘",
+              "일관성 있는 캐릭터 프롬프트 유지 기능",
+              "컷별 이미지 재생성 및 대사 텍스트 에디터"
+            ],
+            "solo_mvp_and_effort_ko": "텍스트 투 이미지 API와 이미지 간 일관성 유지 프롬프트 기법을 활용하며, 복잡한 드로잉 툴 기능은 배제하고 텍스트 기반 레이아웃 편집 중심으로 MVP를 구현합니다.",
+            "strengths_limits_ko": "장점은 1인 웹툰 작가나 기획자들에게 강력한 시각화 부스터가 된다는 점입니다. 약점은 AI 이미지 간 일관성 유지의 기술적 한계와 고해상도 이미지 생성 비용입니다."
+          }
+        ],
+        "concept_comparison_ko": "1안은 학생과 취준생을 위한 학습 효율성 향상에 초점을 맞추며 텍스트 파싱 중심으로 구현이 안정적입니다. 2안은 직장인을 위한 회의 워크플로우 자동화에 집중하며 백그라운드 오디오 처리가 필요합니다. 3안은 1인 창작자를 위한 웹툰 스토리보드 생성에 특화되어 시각적 매력이 높으나 이미지 일관성 유지라는 기술적 리스크가 존재합니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "1안(스터디노트 AI)은 원본의 문서 요약 및 분석 능력을 가장 실용적으로 발전시켰으며, 학습 및 시험 대비라는 명확한 사용자 니즈를 타겟팅합니다. 텍스트 파싱과 퀴즈 생성 로직은 서버 비용을 통제하기 용이하며 1인 개발 범위 내에서 완성도 높은 프로토타입을 만들 수 있습니다.",
+        "next_questions_ko": [
+          "대용량 PDF나 논문 파싱 시 LLM 토큰 제한 문제를 어떻게 효율적으로 청킹할 것인가?",
+          "사용자가 직접 업로드한 문서의 보안 및 프라이버시 이슈를 어떻게 처리할 것인가?",
+          "오답노트 및 복습 알림 주기를 어떤 로직으로 설계할 때 리텐션이 가장 높을 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-23T06:56:37+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 1663,
+        "candidatesTokenCount": 1822,
+        "totalTokenCount": 7395,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1663
+          }
+        ],
+        "thoughtsTokenCount": 3910,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.larus.wolf",
+        "product_kind": "app",
+        "selected_concept_title_ko": "스터디노트 AI: 문서 기반 자동 퀴즈 및 개념 타임라인 메이커",
+        "project_goal_and_audience_ko": "대학생, 임용/자격증 준비생, 직장인 등 학습 효율을 극대화하고 싶은 이들을 위한 모바일 AI 학습 도우미 앱입니다. 방대한 전공서나 강의 노트 읽기에 지친 사용자가 텍스트나 PDF를 업로드하면 핵심 개념을 요약하고 맞춤형 퀴즈를 제공받아 짧은 시간 안에 지식을 체득하고 복습할 수 있는 효용을 제공합니다.",
+        "source_relation_and_difference_ko": "원본 Dola의 강력한 문서 요약 및 분석 능력을 계승하여 방대한 정보를 빠르게 구조화하는 핵심 경험을 유지했습니다. 차별점으로는 범용 대화형 인터페이스 대신 학습 전용 루프(문서 업로드 -> 핵심 추출 -> 퀴즈 풀이 -> 오답 관리)를 구축하여 실질적인 학습 성과 달성에 초점을 맞추었습니다.",
+        "core_user_experience_ko": "사용자가 스마트폰에서 학습할 PDF 파일이나 텍스트 메모를 업로드하면, 시스템이 문서를 파싱하여 3분 내에 핵심 개념 5가지를 카드 형태로 요약해 줍니다. 이후 사용자는 '퀴즈 풀기' 버튼을 눌러 객관식·주관식 문제를 모바일 환경에서 터치와 키보드로 풀이하고, 실시간 채점과 해설을 확인하며 오답 노트를 자동으로 누적합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "문서 파싱 및 핵심 개념 자동 추출",
+            "user_action_and_behavior_ko": "사용자가 PDF 파일을 선택해 업로드하면 서버에서 텍스트를 추출하고 LLM API를 통해 핵심 개념 5가지를 요약하여 화면에 카드 형태로 시각화합니다.",
+            "practical_implementation_ko": "Flutter 기반 클라이언트에서 파일 선택 후 Multipart 요청으로 백엔드 전송. 백엔드는 PyPDF나 pdfplumber로 텍스트를 추출하고 OpenAI GPT API에 구조화된 프롬프트를 전달하여 JSON 응답을 받아 처리합니다."
+          },
+          {
+            "feature_ko": "맞춤형 객관식/주관식 퀴즈 생성",
+            "user_action_and_behavior_ko": "추출된 핵심 개념을 바탕으로 사용자가 지정한 난이도와 문항 수에 맞춰 퀴즈 세트가 생성되며, 사용자가 모바일 UI에서 선택지를 터치해 풀이하면 즉시 정답 여부와 해설이 표시됩니다.",
+            "practical_implementation_ko": "추출된 핵심 개념 리스트를 백엔드 LLM에 전달하여 문제와 보기, 해설 데이터셋을 생성하고, 로컬 SQLite 또는 상태 관리(Provider/Riverpod)로 현재 퀴즈 세트의 진행 상황을 관리합니다."
+          },
+          {
+            "feature_ko": "오답 노트 및 복습 타임라인 관리",
+            "user_action_and_behavior_ko": "틀린 문제는 오답 노트에 자동 저장되며, 사용자가 망각 곡선 기반 복습 알림을 설정하면 주기적으로 모바일 푸시 알림을 통해 복습 퀴즈를 재응시할 수 있습니다.",
+            "practical_implementation_ko": "기기 내 SQLite DB에 사용자 퀴즈 이력 및 오답 데이터를 저장하고, flutter_local_notifications 패키지를 활용해 정해진 주기에 맞추어 로컬 알림을 트리거합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "홈 및 문서 업로드 화면",
+            "contents_and_actions_ko": "최근 업로드한 학습 노트 목록 표시, '새 파일 업로드' 버튼 제공, 파일 선택 시 파싱 진행 상태바 노출 후 요약 화면으로 이동."
+          },
+          {
+            "screen_ko": "핵심 요약 및 퀴즈 시작 화면",
+            "contents_and_actions_ko": "추출된 핵심 개념 5가지 요약 카드 스와이프 탐색, 하단의 '오늘의 퀴즈 풀기' 버튼을 통해 퀴즈 플레이 화면으로 진입."
+          },
+          {
+            "screen_ko": "퀴즈 풀이 및 결과 화면",
+            "contents_and_actions_ko": "문제 번호, 문항, 객관식 보기 터치 선택 영역, 제출 후 정오답 판정 및 상세 해설 제공, 완료 시 오답 노트 자동 반영."
+          }
+        ],
+        "implementation_approach_ko": "프론트엔드는 단일 코드베이스로 안드로이드 앱 빌드가 용이한 Flutter를 채택합니다. 백엔드는 Python FastAPI를 사용하여 비동기 문서 처리 및 LLM API(OpenAI 등) 연동을 안정적으로 수행합니다. 대안으로는 Firebase 기반 서버리스 구조를 검토할 수 있으나, PDF 파싱 및 무거운 외부 API 통신 제어의 유연성을 위해 FastAPI 서버를 메인으로 채택합니다.",
+        "data_and_storage_ko": [
+          "Document(doc_id, title, raw_text, summary_json, created_at): 업로드된 원본 문서 및 요약 데이터, 로컬 SQLite 및 서버 DB에 이중 저장.",
+          "Quiz(quiz_id, doc_id, question_type, question, options_json, answer, explanation): 생성된 퀴즈 문항 정보, 서버에서 생성 후 클라이언트에 캐싱.",
+          "StudyLog(log_id, quiz_id, user_answer, is_correct, solved_at): 사용자의 퀴즈 풀이 이력 및 오답 관리, 로컬 SQLite에 저장하여 오프라인에서도 확인 가능."
+        ],
+        "mvp_scope_ko": "PDF 파일 1개 업로드 및 텍스트 추출, LLM 기반 핵심 요약 카드 생성, 객관식 퀴즈 5문항 자동 출제 및 채점 기능까지만 구현합니다. 결제 시스템, 다중 파일 폴더링, 클라우드 동기화 및 복잡한 소셜 공유 기능은 MVP 범위에서 제외하여 1인 개발 기간을 단축하고 핵심 학습 루프의 안정성 검증에 집중합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "프로젝트 환경 구축 및 파일 업로드/파싱 모듈 개발",
+            "deliverable_and_check_ko": "Flutter 앱 기본 레이아웃 구성 및 PDF 선택 후 백엔드 FastAPI로 전송하여 텍스트가 정상 추출되는지 로그로 확인."
+          },
+          {
+            "stage_ko": "LLM 연동 핵심 요약 및 퀴즈 생성 로직 구현",
+            "deliverable_and_check_ko": "추출된 텍스트를 바탕으로 요약 카드와 객관식 문제가 화면에 정상 렌더링되는지 UI 프로토타입 실행을 통해 확인."
+          },
+          {
+            "stage_ko": "퀴즈 풀이 UI, 채점 로직 및 로컬 DB 연동",
+            "deliverable_and_check_ko": "사용자가 퀴즈를 풀고 정답/오답 결과가 화면에 피드백되며 SQLite에 풀이 결과가 저장되는지 확인."
+          }
+        ],
+        "possible_extensions_ko": "음성 녹음 파일을 업로드하여 강의 음성을 텍스트로 변환한 뒤 요약하는 기능, 주관식 서술형 채점 모드 추가, 학습자 간 퀴즈 공유 커뮤니티, 학습 통계 대시보드 확장.",
+        "risks_and_open_decisions_ko": [
+          "대용량 PDF 파일 처리 시 파싱 시간 지연 및 LLM 토큰 비용 초과 위험: 문서 길이를 제한하고 핵심 페이지 발췌 로직 추가 검토.",
+          "LLM이 생성하는 퀴즈의 정확도 및 할루시네이션 문제: 프롬프트 엔지니어링을 통한 검증 장치 마련 및 사용자 피드백 수정 기능 고려.",
+          "오프라인 환경에서의 AI 요약 기능 제한: 네트워크 연결 상태에 따른 예외 처리 및 로컬 캐시 데이터 우선 표시 방안 결정 필요."
+        ],
+        "draft_status_ko": "본 문서는 스터디노트 AI 모바일 애플리케이션의 1인 개발을 위한 설계 초안이며, 실제 구현, 디바이스 테스트, API 성능 측정이 완료되지 않은 기획 단계의 문서입니다."
+      },
+      "plan_at": "2026-11-23T06:57:00+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 2328,
+        "candidatesTokenCount": 1968,
+        "totalTokenCount": 7442,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2328
+          }
+        ],
+        "thoughtsTokenCount": 3146,
+        "serviceTier": "standard"
+      }
+    },
+    "apple:6817187484": {
+      "app_key": "apple:6817187484",
+      "name": "Untraced: Find the Suspect",
+      "developer": "XUAN TUNG NGO",
+      "source": "apple",
+      "kind": "app",
+      "detail_url": "https://apps.apple.com/us/app/untraced-find-the-suspect/id6817187484",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:6817187484",
+        "product_kind": "app",
+        "original_experience_ko": "가상의 스마트폰 인터페이스를 탐색하여 메시지, 사진, 금융 기록 등의 디지털 단서를 수집하고, 자유 형식의 텍스트 답변으로 사건의 진상을 추리하며, 목격자 진술을 바탕으로 용의자 스케치를 그려 AI 판정을 받는 몰입형 추리 게임 경험입니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 사실: 가상의 스마트폰 속 22개 앱을 탐색하는 구조이며, 19개의 질문에 텍스트로 답해 사건을 해결합니다. 또한 3개의 증언을 토대로 용의자를 그려 AI 판정을 받는 드로잉 게임 요소를 포함하며 오프라인 실행이 가능합니다.",
+          "해석의 한계: AI 스케치 판정의 구체적인 모델 연동 방식, 텍스트 답변 정오판 판별 알고리즘의 세부 구현 구조는 스토어 정보만으로 파악할 수 없습니다."
+        ],
+        "valuable_elements_ko": [
+          "개인 디지털 기기(스마트폰)의 UI를 그대로 모사하여 현실적인 포렌식 수사 느낌을 주는 몰입형 인터페이스",
+          "객관식 선택지가 아닌 사용자가 직접 문장이나 단어를 입력해 능동적으로 추리하는 방식",
+          "디지털 텍스트 단서 조사와 아날로그적 드로잉/시각적 추리를 결합한 멀티모달 경험"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "트루스 리크: 오피스 포렌식",
+            "core_idea_ko": "기업 내 부정부패와 비리를 파헤치기 위해 비리 연루자의 회사 지급 스마트폰과 클라우드 드라이브, 법인카드 내역을 조사하여 내부 고발 진실을 밝히는 화이트칼라 범죄 포렌식 시뮬레이션 앱입니다.",
+            "what_to_keep_ko": "가상의 모바일 기기 UI를 탐색하며 메신저, 이메일, 금융 기록 등의 파편화된 단서를 조합해 사건의 타임라인을 재구성하는 핵심 수사 루프를 계승합니다.",
+            "what_to_change_ko": "자극적인 살인 사건 대신 현실감 있는 기업 비리 및 횡령 사건으로 배경을 전환하고, 드로잉 판정 대신 회계 장부와 법인카드 사용 내역을 대조하여 모순을 찾아내는 '감사 보고서 작성' 메커니즘을 도입합니다.",
+            "mobile_use_or_play_ko": "사용자가 앱을 실행해 대상자의 사내 메신저 로그를 열람하고, 특정 날짜의 법인카드 영수증과 출입국 기록을 대조하여 거짓말을 찾아낸 뒤 최종 감사 보고서 항목에 정답을 입력해 비리의 증거를 확정합니다.",
+            "key_features_ko": [
+              "사내 메신저 및 이메일 기록 아카이브 검색기",
+              "법인카드 및 출입국 기록 대조 크로스체크 툴",
+              "핵심 증거물 기반 감사 보고서 자동 완성 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "복잡한 그래픽 엔진 없이 리액트 네이티브나 플러터 기반의 모바일 UI 컴포넌트로 구현 가능하며, 시나리오 데이터는 로컬 JSON 파일로 관리하여 1인 개발자가 스토리텔링과 UI 완성도에 집중할 수 있습니다.",
+            "strengths_limits_ko": "성인 오피스물 및 추리 장르 팬층에게 높은 몰입감을 줄 수 있으나, 비즈니스 및 회계 관련 서사 설득력을 높이기 위해 탄탄한 시나리오 작법 역량이 요구됩니다."
+          },
+          {
+            "title_ko": "디지털 트레이스: 흔적의 온도",
+            "core_idea_ko": "실종된 현대 청년의 스마트폰뿐만 아니라 스마트 홈 IoT 기기 로그와 소셜 미디어 위치 기록을 함께 분석해 실종 직전의 행적을 추적하는 인터랙티브 내러티브 앱입니다.",
+            "what_to_keep_ko": "개인 스마트폰 속 갤러리, 음성메시지, 메모 앱을 뒤져 비밀을 파헤치는 디지털 포렌식 탐색 경험을 유지합니다.",
+            "what_to_change_ko": "개인 스마트폰 단일 기기 조사에서 확장하여 스마트 도어록 출입 로그, 스마트 조명 제어 기록 등 IoT 기기 로그를 추가하고, 스케치 판정 대신 공간 지도 위에 시간대별 이동 경로를 맞추는 '타임라인 재구성 퍼즐'을 적용합니다.",
+            "mobile_use_or_play_ko": "사용자가 가상 폰의 사진 앱에서 촬영 위치 메타데이터를 확인하고, 스마트 홈 도어록 로그와 비교하여 피해자의 실제 귀가 시각과 거짓말을 밝혀낸 뒤 시간대별 이동 동선 지도에 단서를 배치합니다.",
+            "key_features_ko": [
+              "스마트 홈 IoT 제어 및 출입 로그 뷰어",
+              "소셜 미디어 사진 메타데이터 및 지오태그 매핑",
+              "사건 발생 24시간 타임라인 재구성 보드"
+            ],
+            "solo_mvp_and_effort_ko": "모바일 웹뷰 또는 표준 UI 프레임워크를 활용해 다중 앱 전환 구조를 구현하며, SVG 지도 컴포넌트와 시나리오 분기 데이터를 연동해 비교적 적은 리소스로 개발할 수 있습니다.",
+            "strengths_limits_ko": "현대적인 소재와 공간 기반 추리로 직관적인 재미를 주지만, 모바일 화면에서 복잡한 지도와 타임라인 인터페이스가 시각적으로 혼잡해질 우려가 있어 UI 간소화가 과제입니다."
+          },
+          {
+            "title_ko": "크로노스 포렌식: 1990 아날로그 폰",
+            "core_idea_ko": "1990년대 아날로그 감성의 삐삐(무선호출기), 초기 휴대폰, 물리적 메모장과 카세트 테이프를 조사해 미제 사건의 단서를 찾는 레트로 미스터리 추리 게임입니다.",
+            "what_to_keep_ko": "제한된 통신 기기와 기록물 속에서 단서를 발굴하고 질문에 답변하며 진실에 다가가는 수사 흐름을 계승합니다.",
+            "what_to_change_ko": "현대 스마트폰 대신 90년대 감성의 흑백 픽셀 UI와 아날로그 기기를 도입하고, AI 드로잉 판정 대신 음성 테이프 잡음 제거 및 암호 해독 퍼즐을 결합하여 레트로 수사물의 차별화된 재미를 제공합니다.",
+            "mobile_use_or_play_ko": "사용자가 레트로한 삐삐 화면을 켜서 숫자 암호 메시지를 확인하고, 오래된 카세트 테이프 오디오 녹음본을 재생해 음성 속 단서를 찾아 노트에 기록한 뒤 정답을 도출합니다.",
+            "key_features_ko": [
+              "1990년대 삐삐 및 초기 모바일 UI 시뮬레이터",
+              "오디오 테이프 잡음 필터링 및 암호 해독 미니게임",
+              "아날로그 수사 노트 및 증거물 아카이브"
+            ],
+            "solo_mvp_and_effort_ko": "유니티 또는 플러터를 활용해 레트로 픽셀아트와 스케우로모픽 UI를 구현하며, 사운드 효과와 텍스트 파싱 로직 중심으로 개발 범위를 압축하여 1인 제작이 가능합니다.",
+            "strengths_limits_ko": "독특한 레트로 미학과 감성으로 차별화가 확실하지만, Z세대 이하 유저들에게는 아날로그 기기 인터페이스가 다소 생소하게 느껴질 수 있습니다."
+          }
+        ],
+        "concept_comparison_ko": "1안(오피스 포렌식)은 현실적인 직장인 공감대와 화이트칼라 범죄라는 명확한 서사적 매력이 있으나 시나리오 집필 부담이 큽니다. 2안(디지털 트레이스)은 IoT와 위치 정보를 결합해 현대적 몰입도가 높지만 모바일 화면 레이아웃 복잡도가 높습니다. 3안(크로노스 포렌식)은 레트로 감성과 독창적인 비주얼 차별성이 돋보이지만 타겟 유저층이 한정될 수 있습니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "1안 '트루스 리크: 오피스 포렌식'은 살인 사건 중심의 자극적인 원작 설정을 대중적인 직장 내 비리 및 감사라는 현실적 소재로 세련되게 전환했습니다. 드로잉 판정이라는 불확실한 AI 연동 요소 대신 논리적인 회계·문서 대조 메커니즘을 택해 1인 개발 시 기술적 리스크를 낮추면서도 원작의 디지털 포렌식 탐색 재미를 가장 탄탄하게 계승할 수 있습니다.",
+        "next_questions_ko": [
+          "텍스트 답변 입력 방식에서 유저가 오타를 냈을 때 이를 유연하게 처리할 키워드 매칭 또는 유사어 허용 알고리즘을 어떻게 구성할 것인가?",
+          "모바일 화면에서 수십 개의 가상 앱 아이콘과 문서 파일을 가독성 있게 배치할 UI/UX 구조는 무엇인가?"
+        ]
+      },
+      "brief_at": "2026-11-23T07:15:46+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 2164,
+        "candidatesTokenCount": 2254,
+        "totalTokenCount": 6776,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2164
+          }
+        ],
+        "thoughtsTokenCount": 2358,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:6817187484",
+        "product_kind": "app",
+        "selected_concept_title_ko": "트루스 리크: 오피스 포렌식",
+        "project_goal_and_audience_ko": "이 앱은 현대 직장인, 미스터리 추리 소설 및 포렌식 시뮬레이션 장르를 선호하는 사용자들을 위한 모바일 오피스 포렌식 수사 앱입니다. 회사의 비리와 횡령을 파헤치는 주인공이 되어 타인의 디지털 자산을 조사하고 모순을 찾아내는 지적 유희와 몰입형 스토리텔링의 재미를 제공합니다.",
+        "source_relation_and_difference_ko": "원본(Untraced)의 가상 스마트폰 UI를 탐색하며 디지털 파편에서 진실을 찾는 핵심 포렌식 수사 루프를 그대로 계승합니다. 차별점으로는 살인 사건이라는 자극적인 소재에서 직장 내 횡령 및 비리 감사라는 현실적인 오피스 시나리오로 전환하고, 불확실한 드로잉 AI 판정 대신 법인카드 내역과 메신저 대화 대조를 통한 감사 보고서 작성이라는 논리적 크로스체크 메커니즘을 도입하여 1인 개발의 기술적 실현 가능성을 높였습니다.",
+        "core_user_experience_ko": "사용자는 가상의 사내 스마트폰 OS 화면을 마주합니다. 메신저 앱, 클라우드 드라이브, 법인카드 결제 내역, 이메일 앱 등의 아이콘을 터치해 앱 간을 이동하며 단서를 수집합니다. 예를 들어 A 팀장이 3월 15일에 재택근무를 했다고 주장한 메신저 대화를 발견한 뒤, 법인카드 내역 앱에서 같은 날 강남의 고급 레스토랑 결제 내역과 출입 기록을 대조하여 거짓말을 입증합니다. 사용자가 직접 감사 보고서의 빈칸에 정답을 입력하면 시스템이 이를 판정하고 다음 스토리 시나리오로 진행됩니다.",
+        "features_ko": [
+          {
+            "feature_ko": "가상 오피스 스마트폰 OS 및 앱 내비게이션",
+            "user_action_and_behavior_ko": "사용자가 메신저, 이메일, 법인카드, 클라우드 앨범 등 10여 종의 사내 앱 아이콘을 터치하여 실행하고 화면을 전환합니다. 현실적인 스마트폰 UI를 통해 강력한 몰입감을 부여합니다.",
+            "practical_implementation_ko": "Flutter의 라우팅 시스템과 컴포넌트 기반 UI를 활용해 가상 OS 인터페이스를 구축합니다. 각 앱의 데이터는 로컬 JSON 파일로 관리하여 가벼운 상태 관리를 구현합니다."
+          },
+          {
+            "feature_ko": "메신저 및 재무 기록 크로스체크 대조 툴",
+            "user_action_and_behavior_ko": "서로 다른 앱의 데이터를 나란히 비교하여 시간과 장소의 모순점을 찾아내고, 이를 바탕으로 질문에 대한 답변을 도출합니다.",
+            "practical_implementation_ko": "화면 분할 또는 팝업 모달 형태로 두 개의 데이터를 동시에 조회할 수 있는 UI 컴포넌트를 설계하고, 사용자 입력 텍스트와 정답 키워드 간의 부분 일치 및 매칭 알고리즘을 로컬에 구현합니다."
+          },
+          {
+            "feature_ko": "감사 보고서 자동 완성 및 스토리 진행 엔진",
+            "user_action_and_behavior_ko": "조사한 단서를 바탕으로 15개 문항의 감사 보고서 질문에 직접 텍스트나 키워드를 입력합니다. 시스템이 피드백을 제공하며 모든 문항을 완료하면 엔딩 시나리오가 해제됩니다.",
+            "practical_implementation_ko": "진행 상황 상태를 로컬 Hive 또는 SharedPreferences에 저장하고, 시나리오 진행도에 따라 다음 챕터의 잠금이 해제되는 상태 관리 스크립트를 작성합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 홈 스크린 (가상 스마트폰 바탕화면)",
+            "contents_and_actions_ko": "시계, 알림 배지, 사내 앱 아이콘이 배치되어 있으며 아이콘 터치 시 해당 앱으로 이동합니다."
+          },
+          {
+            "screen_ko": "개별 앱 화면 (사내 메신저 및 법인카드 내역)",
+            "contents_and_actions_ko": "대화 목록, 메시지 상세 내용, 카드 승인 일시, 가맹점 이름 등이 리스트로 표시되며 스크롤 및 탭을 통해 상세 정보를 확인할 수 있습니다."
+          },
+          {
+            "screen_ko": "감사 보고서 및 답변 입력 화면",
+            "contents_and_actions_ko": "현재 해결해야 할 질문 목록과 입력창이 표시되며, 사용자가 텍스트를 입력하면 즉시 정답 여부와 감사관의 피드백 메시지가 출력됩니다."
+          }
+        ],
+        "implementation_approach_ko": "크로스플랫폼 모바일 앱 개발을 위해 Flutter 프레임워크를 선택합니다. 단일 코드베이스로 iOS와 Android를 모두 지원할 수 있으며, 선언형 UI를 통해 복잡한 가상 스마트폰 OS 및 앱 전환 인터페이스를 효율적으로 구현할 수 있습니다. 로컬 스토리지로는 Hive를 사용하여 오프라인 환경에서도 쾌적하게 세이브 데이터를 관리합니다. 백엔드 서버 없이 클라이언트 단독 실행 구조로 설계하여 서버 유지 비용과 네트워크 지연 리스크를 최소화합니다.",
+        "data_and_storage_ko": [
+          "CaseData: 사건 ID, 제목, 배경 설명, 총 질문 개수 배열을 포함하며 로컬 JSON 파일로 정적 패키징됩니다.",
+          "AppContentData: 앱 종류, 발신자 및 수신자, 타임스탬프, 텍스트 본문, 첨부파일 이미지 경로 필드를 가지며 사건 데이터에 종속됩니다.",
+          "UserProgressData: 현재 클리어한 질문 번호, 입력한 답변 로그, 힌트 사용 여부를 기록하며 로컬 스토리지에 실시간으로 자동 저장됩니다."
+        ],
+        "mvp_scope_ko": "첫 번째 MVP는 하나의 단일 기업 비리 사건 시나리오와 10개의 가상 사내 앱 탐색 기능, 그리고 직접 텍스트 입력 및 정답 피드백 루프로 한정합니다. 드로잉 판정이나 멀티 시나리오 확장, 유료 구독 결제 시스템은 MVP 단계에서 제외하고 디지털 포렌식 탐색과 텍스트 추리의 핵심 재미가 완벽히 작동하는지 검증합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 가상 스마트폰 UI 및 기본 앱 구조 설계",
+            "deliverable_and_check_ko": "바탕화면 홈 뷰와 각 앱 아이콘 터치 시 화면 전환 인터페이스 구현. 에뮬레이터에서 앱 간 이동이 매끄럽게 작동하는지 확인."
+          },
+          {
+            "stage_ko": "2단계: 디지털 증거 데이터 연동 및 조회 화면 구현",
+            "deliverable_and_check_ko": "사내 메신저와 법인카드 내역 데이터를 JSON으로 구조화하고 UI 리스트에 정상 출력되는지 확인."
+          },
+          {
+            "stage_ko": "3단계: 텍스트 답변 입력 및 피드백 엔진 구현",
+            "deliverable_and_check_ko": "감사 보고서 화면에서 사용자 입력값과 정답 데이터의 매칭 로직을 구현하고 정오답 피드백 메시지가 출력되는지 테스트."
+          },
+          {
+            "stage_ko": "4단계: 로컬 데이터 저장 및 세이브 연동",
+            "deliverable_and_check_ko": "앱 재실행 시 사용자의 진행 상황이 유실되지 않고 복구되는지 검증."
+          }
+        ],
+        "possible_extensions_ko": "추후 업데이트를 통해 새로운 시즌의 신규 기업 사건 파일 추가, 유저가 직접 사내 비리 사건을 제작하고 공유할 수 있는 커스텀 시나리오 에디터, 막힌 구간에서 단계별 힌트를 제공하는 리워드형 힌트 시스템 등을 확장할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "시나리오 텍스트의 분량과 추리 난이도 조절이 게임의 재미를 좌우하므로 적절한 단계별 힌트 제공 메커니즘의 정교한 설계가 필요합니다.",
+          "텍스트 입력형 답변 시스템에서 사용자가 유의미한 동의어나 줄임말을 입력했을 때 정답으로 유연하게 처리할 수 있는 매칭 알고리즘의 기준을 결정해야 합니다.",
+          "본 설계 초안은 실제 플레이테스트나 사용자 피드백을 거치지 않은 개발 기획 단계이므로 MVP 프로토타입 제작 후 실사용자 테스트를 통한 난이도 검증이 필수적입니다."
+        ],
+        "draft_status_ko": "본 문서는 트루스 리크 오피스 포렌식 모바일 앱의 1인 개발을 위한 설계 초안이며, 실제 구현 및 플레이테스트, 성능 최적화가 완료되지 않은 기획 단계의 산출물입니다."
+      },
+      "plan_at": "2026-11-23T07:16:04+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 2945,
+        "candidatesTokenCount": 2160,
+        "totalTokenCount": 8207,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2945
+          }
+        ],
+        "thoughtsTokenCount": 3102,
+        "serviceTier": "standard"
+      }
+    },
+    "apple:6833251224": {
+      "app_key": "apple:6833251224",
+      "name": "ソフトテニススタジアム",
+      "developer": "Odenplan Lab",
+      "source": "apple",
+      "kind": "game",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%82%BD%E3%83%95%E3%83%88%E3%83%86%E3%83%8B%E3%82%B9%E3%82%B9%E3%82%BF%E3%82%B8%E3%82%A2%E3%83%A0/id6833251224?uo=2",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:6833251224",
+        "product_kind": "game",
+        "original_experience_ko": "스마트폰 환경에서 싱글스와 더블스, 전위와 후위 포지션의 개념을 살려 소프트테니스를 즐기도록 구성된 스포츠 게임 경험으로 해석됩니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 설명에 따르면 싱글스 및 더블스 경기, 전위/후위 포지션, 6자리 방 번호 친구 대전, 5단계 온라인 랭크 매치, 4단계 난이도 CPU 연습 모드가 존재합니다.",
+          "슬라이드 패드와 길이 조절 가능한 버튼을 통해 드라이브, 컷, 로브, 드롭, 볼레, 스매시 등 다양한 구질을 구사할 수 있습니다.",
+          "무료 의상 해금, 유료 커스터마이징, 스태미나 시스템, 월간 배틀패스(480엔) 및 광고 제거(980엔) 상품이 포함되어 있습니다.",
+          "실제 물리 엔진의 연산 방식, 네트워크 동기화의 기술적 구현(예: 롤백 넷코드 여부), 프레임 레이트 등 세부 시스템은 스토어 정보만으로 확인할 수 없습니다."
+        ],
+        "valuable_elements_ko": [
+          "버튼 입력 유지 시간에 따라 컷, 로브, 드롭 등 다양한 구질을 구분하는 조작 체계: 모바일 환경에서 복잡한 제스처 없이 깊이 있는 샷 선택을 가능하게 하므로 계승할 가치가 높습니다.",
+          "더블스 경기에서 전위와 후위의 역할 분담 개념: 단순 개인 대결을 넘어 팀플레이 전술의 요소를 모바일에 도입한 점이 돋보입니다.",
+          "1개월 단위의 시즌과 5단계 랭크 구조: 유저에게 명확한 목표 의식과 경쟁 동기를 부여하는 긍정적 틀입니다."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "코트 택틱스 소프트테니스",
+            "core_idea_ko": "실시간 액션 조작의 부담을 덜고, 턴 기반 드래그 앤 드롭 궤적 드로잉을 통해 전/후위의 위치 선정과 샷 코스를 설계하는 전략 중심의 소프트테니스 대전 게임.",
+            "what_to_keep_ko": "싱글스/더블스의 포지션 개념(전위, 후위)과 드라이브, 로브, 컷 등 다양한 구질의 존재를 계승합니다.",
+            "what_to_change_ko": "실시간 슬라이드 패드 및 버튼 조작 대신, 상대의 움직임 예측에 맞춰 손가락으로 공의 궤적과 착지점을 미리 드로잉하는 턴 방식 전술 대결로 변경합니다.",
+            "mobile_use_or_play_ko": "턴 시작 시 내 캐릭터의 위치를 조정하고 샷의 궤적을 선으로 그어 입력하면, 양측 입력이 동시에 처리되어 애니메이션으로 공이 오가는 과정을 지켜보고 다음 턴을 준비합니다.",
+            "key_features_ko": [
+              "궤적 드로잉 샷 시스템",
+              "전/후위 포지션 전술 오더",
+              "비동기 온라인 턴 매치"
+            ],
+            "solo_mvp_and_effort_ko": "턴 기반이므로 네트워크 동기화 부담이 적고, 2D 탑뷰 시점으로 개발하여 1인이 물리 엔진 최적화 없이 단기간에 구현 가능합니다.",
+            "strengths_limits_ko": "실시간 조작의 손맛은 줄어들지만 네트워크 지연 문제가 해소되고 진입 장벽이 낮아집니다. 단, 액션성 부족을 전략적 재미로 어떻게 보완할지가 과제입니다."
+          },
+          {
+            "title_ko": "불타는 방과후 테니스 클럽",
+            "core_idea_ko": "직접 선수를 조작하는 액션 대신, 부원들을 스카우트하고 훈련시켜 학교 대항전 우승을 목표로 하는 소프트테니스 클럽 육성 및 시뮬레이션 게임.",
+            "what_to_keep_ko": "소프트테니스의 더블스/싱글스 경기 구조와 전위/후위 선수 육성 개념, 의상 및 장비 커스터마이징 요소를 계승합니다.",
+            "what_to_change_ko": "직접 코트에서 움직이는 스포츠 액션에서 탈피하여, 자동 진행되는 경기를 관전하며 작전 지시와 포메이션 변경을 내리는 매니지먼트 장르로 전환합니다.",
+            "mobile_use_or_play_ko": "평소에는 부원의 체력 관리, 스윙 폼 훈련, 전술 노트를 연구하고, 주말 경기 시뮬레이션에서 전위/후위 배치와 세트별 작전을 선택해 결과를 확인합니다.",
+            "key_features_ko": [
+              "선수 스카우트 및 스탯 육성",
+              "실시간 경기 관전 및 작전 타임",
+              "교복 및 장비 커스터마이징"
+            ],
+            "solo_mvp_and_effort_ko": "텍스트 및 UI 중심의 2D 시뮬레이터로 구현하여 그래픽 리소스 부담을 최소화하고 1인 개발이 용이합니다.",
+            "strengths_limits_ko": "육성과 전략을 좋아하는 유저에게 어필하지만, 직접 플레이하는 조작의 재미가 없어 스포츠 게임 고유의 타격감이 아쉽습니다."
+          },
+          {
+            "title_ko": "원탭 소프트테니스 랠리",
+            "core_idea_ko": "복잡한 이동 조작을 제거하고, 날아오는 공의 타이밍과 구질에 맞춰 화면을 탭하거나 스와이프하여 극한의 랠리 긴장감을 즐기는 캐주얼 아케이드 게임.",
+            "what_to_keep_ko": "소프트테니스의 다양한 샷 구질과 싱글스/더블스의 빠른 공방전 경험을 계승합니다.",
+            "what_to_change_ko": "가상 패드를 이용한 자유 이동을 전면 삭제하고 오직 타이밍 기반 원탭 및 스와이프 입력만으로 랠리를 지속하는 아케이드 규칙으로 단순화합니다.",
+            "mobile_use_or_play_ko": "캐릭터가 자동으로 코트 위치를 잡으며 이동할 때, 공이 히트존에 들어오는 순간 탭하거나 위로 스와이프하여 공을 넘기고 실수 없이 랠리를 이어가며 점수를 겨룹니다.",
+            "key_features_ko": [
+              "자동 이동 기반 원탭 샷",
+              "타이밍 판정 및 콤보 랠리",
+              "단판 승부의 스피디한 랭크전"
+            ],
+            "solo_mvp_and_effort_ko": "복잡한 물리 이동 로직과 네트워크 실시간 위치 동기화를 제거하여, 클라이언트 단독 구현 및 스코어 기반 비동기 대전으로 MVP를 가볍게 완성할 수 있습니다.",
+            "strengths_limits_ko": "진입 장벽이 낮고 모바일에서 가볍게 즐기기 좋으나, 원작의 전/후위 전술적 깊이나 자유로운 코트 이동의 재미가 축소됩니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어는 실시간 조작과 네트워크 지연의 한계를 우회하면서 전술적 재미를 극대화하는 비동기 전략 방식이며, 두 번째 아이디어는 액션을 배제하고 육성과 매니지먼트에 집중한 시뮬레이션 형태입니다. 세 번째 아이디어는 조작을 극도로 단순화하여 캐주얼 아케이드 유저를 타겟으로 합니다. 세 기획 모두 원작의 소프트테니스라는 소재와 더블스/싱글스 규칙의 뼈대를 유지하되, 모바일 환경에서의 개발 난이도와 타겟 유저층에 따라 전혀 다른 플레이 경험을 제공합니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "1번 기획은 원작 게임이 내세운 전위/후위 포지션과 다양한 샷 구질의 깊이를 살리면서도, 1인 개발 시 가장 큰 장애물인 실시간 네트워크 동기화 및 복잡한 물리 엔진 구현 부담을 획기적으로 낮출 수 있습니다. 턴 기반 궤적 드로잉은 모바일 터치 인터페이스와 궁합이 좋으며, 퍼즐 및 전략 게임 유저층까지 흡수할 수 있는 실현 가능한 대안입니다.",
+        "next_questions_ko": [
+          "턴 기반 궤적 드로잉 방식이 액션 스포츠 특유의 즉각적인 타격감과 긴장감을 얼마나 대체할 수 있는가?",
+          "비동기 매칭 환경에서 턴 제한 시간을 두었을 때 유저 체류 시간과 이탈률에 미치는 영향은 무엇인가?",
+          "더블스 모드에서 2명의 캐릭터 궤적을 동시에 입력할 때 UI의 복잡도를 어떻게 직관적으로 해결할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-23T07:27:06+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 1994,
+        "candidatesTokenCount": 2143,
+        "totalTokenCount": 7403,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1994
+          }
+        ],
+        "thoughtsTokenCount": 3266,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:6833251224",
+        "product_kind": "game",
+        "selected_concept_title_ko": "코트 택틱스 소프트테니스",
+        "project_goal_and_audience_ko": "'코트 택틱스 소프트테니스'는 원작 '소프트테니스스타디움'의 핵심 매력인 소프트테니스의 세부 구질(드라이브, 로브, 컷, 드롭)과 포지션 개념(전위, 후위)을 계승하면서, 모바일 환경에서 실시간 조작의 진입 장벽과 네트워크 동기화의 기술적 한계를 극복하기 위해 기획된 턴 기반 전략 스포츠 게임입니다. 빠른 반사 신경과 복잡한 슬라이드 패드 조작 대신, 상대의 허를 찌르는 위치 선정과 샷의 궤적을 전략적으로 설계하며 즐기는 두뇌 싸움을 선호하는 모바일 게이머와 스포츠 전략 마니아를 타겟으로 합니다.",
+        "source_relation_and_difference_ko": "원작 스토어 정보에서 확인되는 소프트테니스의 핵심 요소인 싱글스/더블스 모드, 전위와 후위의 역할 분담, 그리고 드라이브·컷·로브·드롭 등의 다양한 샷 구질과 1개월 단위 시즌 및 5단계 랭크 구조는 그대로 유지합니다. 그러나 원작의 실시간 슬라이드 패드 및 버튼 조작 방식은 모바일 1인 개발 시 정밀한 물리 엔진 구현과 실시간 네트워크 동기화 부하가 크다는 단점이 있습니다. 이를 해결하기 위해 본 기획은 조작 방식을 '턴 기반 드래그 앤 드롭 궤적 드로잉'으로 완전히 변경하여, 플레이어가 실시간 조작 스트레스에서 벗어나 전술 구사에 집중하도록 차별화했습니다.",
+        "core_user_experience_ko": "유저는 경기가 시작되면 탑뷰(Top-view)로 내려다보인 소프트테니스 코트 위에서 자신의 전위와 후위 캐릭터의 위치를 한 턴마다 미세 조정합니다. 이어 화면을 터치하여 공을 타격할 코스와 구질(짧은 드롭, 깊은 로브, 강한 드라이브 등)을 손가락 드래그로 선을 그려 입력합니다. 턴 종료 버튼을 누르면 시스템은 양측 플레이어의 입력(이동 위치와 샷 궤적)을 동시에 판정하여, 공이 네트를 넘어 바운드되고 상대가 받아치는 과정을 2D 애니메이션 리플레이 형태로 보여줍니다. 이 과정을 반복하여 상대 코트에 공을 떨어뜨리거나 상대의 범실을 유도해 득점하는 쾌감을 얻습니다.",
+        "features_ko": [
+          {
+            "feature_ko": "궤적 드로잉 샷 시스템",
+            "user_action_and_behavior_ko": "화면에 손가락을 대고 드래그하여 공이 날아갈 궤적 곡선을 그리고, 팝업 메뉴에서 드라이브, 컷, 로브, 드롭 중 하나를 선택합니다. 시스템은 궤적 길이에 따른 비거리와 구질별 바운드 특성을 반영합니다.",
+            "practical_implementation_ko": "2D 베지에 곡선(Bezier Curve) 알고리즘을 활용해 유저가 그린 선을 곡선 데이터로 변환하고, 궤적의 기울기와 길이에 따른 낙하지점 및 속도 벡터를 수학적으로 계산합니다."
+          },
+          {
+            "feature_ko": "전/후위 포지션 전술 오더",
+            "user_action_and_behavior_ko": "각 턴마다 전위와 후위 캐릭터를 코트 내 유효 구역 내에서 드래그하여 이동시키고, 네트플레이(발리/스매시) 또는 베이스라인 랠리 중 어떤 전술을 수행할지 지시합니다.",
+            "practical_implementation_ko": "캐릭터별 2D 좌표 데이터를 관리하고, 상대방의 샷 낙하지점과 아군 캐릭터의 위치 간 거리를 비교하여 유효 수비 범위 내에 있을 경우 성공 확률 및 리턴 퀄리티 판정을 수행합니다."
+          },
+          {
+            "feature_ko": "비동기 턴 대전 및 AI 매칭",
+            "user_action_and_behavior_ko": "싱글 플레이에서는 4단계 난이도의 AI와 대결하고, 온라인에서는 상대의 실시간 입력을 기다리지 않고 자신의 턴을 먼저 제출하는 비동기 매칭 방식으로 랭크전을 치릅니다.",
+            "practical_implementation_ko": "실시간 소켓 통신 대신 Firebase Firestore 등 가벼운 백엔드를 활용해 각 플레이어의 턴 데이터를 JSON 형태로 주고받는 방식으로 서버 구현 난이도와 유지 비용을 대폭 낮춥니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 로비 화면",
+            "contents_and_actions_ko": "현재 랭크 및 전적 확인, 상점 및 꾸미기 메뉴 진입, 대전 모드 선택(AI 연습전, 온라인 비동기 랭크전, 친구 대전) 버튼 제공."
+          },
+          {
+            "screen_ko": "대전 준비 및 덱(전술 오더) 세팅 화면",
+            "contents_and_actions_ko": "경기 전 선수(전위/후위) 배치 확인, 커스텀 의상 장착 상태 점검, 매칭 검색 시작."
+          },
+          {
+            "screen_ko": "코트 대전 화면 (핵심 플레이)",
+            "contents_and_actions_ko": "2D 탑뷰 코트 시각화, 양측 캐릭터 및 공 위치 표시, 궤적 드로잉 터치 인터페이스, 턴 종료(제출) 버튼, 현재 세트 및 게임 스코어보드."
+          },
+          {
+            "screen_ko": "경기 결과 화면",
+            "contents_and_actions_ko": "승패 결과 표시, 랭크 변동 점수 반영, 경기 승리 시 해금된 커스텀 아이템 알림 및 로비 복귀."
+          }
+        ],
+        "implementation_approach_ko": "본 제품은 1인 개발의 효율성과 크로스플랫폼 호환성을 극대화하기 위해 Unity 엔진(C#) 또는 Flutter(Flame 엔진)를 활용하는 것이 적합합니다. 2D 탑뷰 기반이므로 무거운 3D 물리 엔진 대신 커스텀 2D 벡터 계산 및 충돌 판정 알고리즘을 구현하여 성능을 최적화할 수 있습니다. 백엔드는 실시간 동기화 서버 구축의 복잡성을 피하기 위해 REST API 및 문서 기반 NoSQL 데이터베이스를 활용한 비동기 턴 전송 방식을 채택합니다.",
+        "data_and_storage_ko": [
+          "1. 플레이어 프로필 데이터 (PlayerProfile): 유저 ID, 닉네임, 현재 랭크(비기너~마스터 5단계), 해금된 코스튬 목록, 보유 재화. 로컬 DB 및 클라우드 동기화.",
+          "2. 경기 상태 데이터 (MatchState): 현재 세트 점수, 턴 번호, 양측 캐릭터(전위/후위)의 코트 좌표, 공의 현재 위치 및 궤적 벡터. 메모리 상에서 턴마다 갱신.",
+          "3. 턴 입력 데이터 (TurnInput): 플레이어가 선택한 샷 구질, 드래그 궤적 좌표 배열, 이동 목표 좌표. JSON 형태로 서버에 전송.",
+          "4. 데이터 저장 방법: 로컬 데이터는 SQLite 또는 SharedPreferences로 유지하고, 네트워크 데이터는 경량 백엔드 DB를 통해 관리."
+        ],
+        "mvp_scope_ko": "첫 번째 MVP 버전에서는 복잡한 실시간 멀티플레이어 통신과 유료 결제/배틀패스 기능을 제외합니다. 오직 '4단계 난이도의 CPU를 상대로 한 싱글스/더블스 턴 대전', '기본 4가지 샷 구질과 궤적 드로잉 시스템', 그리고 '기본 캐릭터 꾸미기'만 구현합니다. 이 범위만으로도 본 기획의 핵심 재미인 코트 위 전술 설계와 턴 기반 두뇌 싸움의 유효성을 완벽히 검증할 수 있습니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 2D 코트 렌더링 및 조작계 프로토타입",
+            "deliverable_and_check_ko": "2D 탑뷰 코트 배경 배치, 캐릭터 드래그 이동 및 베지에 곡선 드로잉 입력이 화면에 정상적으로 그려지는지 시각적으로 확인."
+          },
+          {
+            "stage_ko": "2단계: 턴 로직 및 충돌 판정 모듈 개발",
+            "deliverable_and_check_ko": "궤적 벡터와 코트 바운드 영역 간의 교차 판정, 샷 구질별 낙하지점 계산 알고리즘이 정확히 작동하는지 유닛 테스트로 검증."
+          },
+          {
+            "stage_ko": "3단계: AI 대전 모드 및 게임 루프 완성",
+            "deliverable_and_check_ko": "4단계 난이도별 AI의 턴 행동 패턴과 점수 판정/세트 승패 로직을 통합하여 혼자서 한 경기를 온전히 끝까지 플레이할 수 있는지 확인."
+          },
+          {
+            "stage_ko": "4단계: UI 및 로비, 프로필 연동",
+            "deliverable_and_check_ko": "메인 로비 화면, 결과 화면, 로컬 데이터 저장 기능을 통합하여 앱 실행부터 경기 종료까지의 전체 플로우를 단말기에서 점검."
+          }
+        ],
+        "possible_extensions_ko": "핵심 게임플레이가 안정화된 이후, 실시간 비동기 랭크전 매칭 서버 연동, 1개월 단위 시즌 초기화 및 리워드 시스템, 셔츠와 바지 등의 커스텀 의상 아이템 상점, 배틀패스 구독 모델 등을 단계적으로 확장할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "턴 기반 스포츠 게임 특유의 박진감 저하 문제를 어떻게 해결할 것인지에 대한 기획적 위험이 존재하며, 이는 애니메이션 리플레이 연출 속도 조절로 보완해야 합니다.",
+          "비동기 대전 시 상대방의 턴 대기 시간을 유저가 지루하게 느끼지 않도록 AI 대체 또는 빠른 턴 제한 시간(예: 30초) 설정 규칙에 대한 미확정 과제가 있습니다.",
+          "원작 스토어 정보에 명시된 상세 과금 모델(구독형 배틀패스, 광고 제거 등)은 MVP 단계 이후 수익화 검증 단계에서 적용 시기를 결정할 예정입니다."
+        ],
+        "draft_status_ko": "본 개발 설계 초안은 소프트테니스 스토어 정보를 바탕으로 1인 개발 환경에서 실현 가능한 턴 기반 전술 게임으로 재해석한 아이디어 단계의 문서이며, 실제 구현·플레이테스트 및 성능 측정이 완료되지 않았습니다."
+      },
+      "plan_at": "2026-11-23T07:27:30+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 2721,
+        "candidatesTokenCount": 2566,
+        "totalTokenCount": 9381,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2721
+          }
+        ],
+        "thoughtsTokenCount": 4094,
+        "serviceTier": "standard"
+      }
+    },
+    "apple:997683365": {
+      "app_key": "apple:997683365",
+      "name": "마이아큐브",
+      "developer": "Johnson & Johnson Korea LTD",
+      "source": "apple",
+      "kind": "app",
+      "detail_url": "https://apps.apple.com/kr/app/%EB%A7%88%EC%9D%B4%EC%95%84%ED%81%90%EB%B8%8C/id997683365?uo=2",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:997683365",
+        "product_kind": "app",
+        "original_experience_ko": "마이아큐브는 콘택트렌즈 브랜드 아큐브 사용자들을 위한 멤버십 및 혜택 관리 앱으로, 구매 포인트 적립, 할인 쿠폰 제공, 오프라인 안경원 연동 기능을 통해 브랜드 충성도를 높이는 경험을 제공합니다. 스토어 소개문 기반의 사실은 포인트 적립, 할인 쿠폰, 웰컴팩, 카메라 기반 영수증/바코드 적립 및 위치 기반 안경원 찾기이며, 오프라인 매장과의 유기적 연결 및 브랜드 락인 효과는 AI의 해석에 해당합니다.",
+        "source_facts_and_limitations_ko": [
+          "사실: 최대 2% 포인트 적립, 1년 내내 할인 쿠폰, 최대 13,000원 웰컴팩 및 서베이 혜택이 제공됩니다.",
+          "사실: 카메라 권한은 놓친 포인트 적립과 포토 필터에, 위치 권한은 안경원 찾기에 사용됩니다.",
+          "한계: 실제 결제 및 재고 연동 시스템의 백엔드 구조나 오프라인 안경원과의 구체적인 정산 방식은 스토어 설명만으로 파악할 수 없습니다."
+        ],
+        "valuable_elements_ko": [
+          "오프라인 소상공인(안경원) 매장과 모바일 앱을 직접 연결하는 O2O 연계 구조",
+          "단순 알림을 넘어선 실질적 혜택(포인트 적립, 할인 쿠폰) 중심의 사용자 리텐션 유도 방식"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "데일리 스킨케어 로컬 패스",
+            "core_idea_ko": "동네 화장품 로드샵 및 피부관리실과 연동하여 맞춤형 스킨케어 제품 구매 이력을 관리하고 로컬 혜택을 받는 O2O 멤버십 앱.",
+            "what_to_keep_ko": "특정 브랜드/제품군을 중심으로 한 오프라인 매장 연동 멤버십과 포인트 적립, 맞춤형 할인 쿠폰 구조 계승.",
+            "what_to_change_ko": "단순 렌즈 구매를 넘어 사용자의 피부 타입 설문과 주간 상태 변화를 기록하는 뷰티 트래커 기능을 결합하여 범용성을 높임.",
+            "mobile_use_or_play_ko": "앱 실행 후 피부 상태 간단 체크 -> 주변 제휴 뷰티샵 할인 쿠폰 확인 -> 매장 방문 후 바코드 적립 및 포인트 획득.",
+            "key_features_ko": [
+              "피부 상태 주간 기록 및 맞춤 뷰티 팁 제공",
+              "위치 기반 동네 제휴 뷰티샵 찾기 및 단골 등록",
+              "구매 영수증 스캔을 통한 포인트 자동 적립"
+            ],
+            "solo_mvp_and_effort_ko": "로컬 상점 정보 데이터베이스 구축과 바코드 스캔, 기본 회원 관리 시스템 구현. 1인 개발 시 프론트엔드와 간단한 REST API 서버 구축 필요.",
+            "strengths_limits_ko": "장점은 생활 밀착형 뷰티 정보와 실속형 혜택의 결합이며, 약점은 초기 로컬 제휴처 확보의 어려움."
+          },
+          {
+            "title_ko": "아이케어 타임로거 & 멤버십",
+            "core_idea_ko": "콘택트렌즈 착용 시간을 안전하게 관리해 주는 타이머/트래커 기능에 브랜드 멤버십과 주기적 교체알림 혜택을 결합한 앱.",
+            "what_to_keep_ko": "아큐브의 타겟층인 콘택트렌즈 사용자층을 그대로 타겟팅하면서 포인트 적립 및 쿠폰 혜택 구조 유지.",
+            "what_to_change_ko": "단순 구매 혜택 앱에서 탈피해, 일일 렌즈 착용 시간 기록, 눈 피로도 자가 진단, 교체 주기 알림 등 유틸리티 기능을 중심에 둠.",
+            "mobile_use_or_play_ko": "아침에 렌즈 착용 시작 알림 설정 -> 착용 시간 카운트 -> 저녁에 제거 후 눈 피로도 기록 -> 교체 주기에 맞춰 자동으로 발행되는 할인 쿠폰 수령.",
+            "key_features_ko": [
+              "콘택트렌즈 착용 시간 타이머 및 교체 주기 스마트 알림",
+              "자가 진단 기반 눈 피로도 및 시력 관리 리포트",
+              "착용 습관 달성도에 따른 보상형 포인트 및 쿠폰 지급"
+            ],
+            "solo_mvp_and_effort_ko": "로컬 푸시 알림 및 로컬 데이터베이스 중심의 유틸리티 구현으로 서버 비용 절감 가능. 1인 개발 난이도 보통.",
+            "strengths_limits_ko": "장점은 사용자가 매일 앱을 켜야 하는 명확한 이유(유틸리티)를 제공하며, 약점은 실제 커머스/포인트 연동과의 비즈니스 제휴 난이도."
+          },
+          {
+            "title_ko": "오투오 옵틱 큐레이터",
+            "core_idea_ko": "특정 단일 브랜드에 국한되지 않고, 내 주변 안경원들의 안경테/렌즈 재고와 할인 이벤트를 비교하고 예약하는 O2O 큐레이션 앱.",
+            "what_to_keep_ko": "위치 기반 안경원 찾기 기능과 할인 쿠폰 지급이라는 핵심 오프라인 연계 방식을 확대 계승.",
+            "what_to_change_ko": "단일 브랜드 멤버십에서 벗어나 여러 브랜드의 제품을 비교하고, 방문 예약 및 시력 검사 이력 관리 기능을 추가하여 플랫폼화.",
+            "mobile_use_or_play_ko": "원하는 렌즈/안경테 검색 -> 내 위치 주변 최저가 및 서비스 좋은 안경원 비교 -> 방문 예약 및 할인 쿠폰 적용 -> 시력 검사 기록 저장.",
+            "key_features_ko": [
+              "지역별 안경원 가격 비교 및 실시간 방문 예약",
+              "개인 시력 검사 기록 디지털 보관함",
+              "다양한 브랜드 통합 포인트 및 스탬프 적립"
+            ],
+            "solo_mvp_and_effort_ko": "지도 API 연동과 예약 관리 시스템 구현 필요. 초기 가맹점 데이터 수집에 많은 공수 소요.",
+            "strengths_limits_ko": "장점은 소비자와 다수 안경원을 잇는 플랫폼으로 확장 가능성, 약점은 양면 시장 초기 유치 전략 부재 시 실패 위험."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어는 뷰티 분야로 확장하여 대중성을 노리나 제휴가 핵심이며, 두 번째 아이디어는 원본의 타겟층(렌즈 사용자)을 유지하면서 유틸리티적 가치로 매일 방문을 유도하여 리텐션이 가장 높고 1인 개발에 적합합니다. 세 번째 아이디어는 플랫폼으로서 확장성이 크지만 다수 가맹점 확보라는 큰 개발 및 영업 부담이 존재합니다.",
+        "recommended_concept_number": 2,
+        "why_recommended_ko": "두 번째 아이디어는 원작의 핵심 타겟인 콘택트렌즈 사용자를 그대로 타겟팅하면서, 단순 구매 시에만 찾는 앱을 매일 사용하는 헬스케어/유틸리티 앱으로 진화시켰습니다. 푸시 알림과 로컬 저장소 위주로 MVP를 구성할 수 있어 1인 개발자가 백엔드 부담을 줄이면서도 실질적인 사용자 효용을 검증할 수 있는 최적의 안입니다.",
+        "next_questions_ko": [
+          "콘택트렌즈 착용 시간 기록 기능이 실제로 사용자의 리텐션 유지에 유의미한 동기를 부여하는가?",
+          "포인트 적립 및 결제 시스템 연동 없이 순수 유틸리티와 쿠폰 제공 구조만으로도 초기 비즈니스 모델이 성립 가능한가?",
+          "안경원 오프라인 제휴 없이 자사 쿠폰 발행만으로도 초기 사용자를 모을 수 있는가?"
+        ]
+      },
+      "brief_at": "2026-11-23T07:33:58+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 1440,
+        "candidatesTokenCount": 1778,
+        "totalTokenCount": 6498,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1440
+          }
+        ],
+        "thoughtsTokenCount": 3280,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:997683365",
+        "product_kind": "app",
+        "selected_concept_title_ko": "아이케어 타임로거 & 멤버십",
+        "project_goal_and_audience_ko": "콘택트렌즈 착용자들을 위한 건강 관리 타이머 및 스마트 멤버십 앱입니다. 매일 렌즈 착용 시간을 안전하게 관리하고 안구 건강을 챙기면서, 주기적인 교체 알림과 멤버십 포인트 혜택을 얻고자 하는 20~30대 렌즈 사용자층을 타겟으로 합니다.",
+        "source_relation_and_difference_ko": "원본 아큐브 멤버십 앱의 타겟층(콘택트렌즈 사용자)과 포인트·쿠폰 혜택 구조를 유지하되, 단순한 구매 시점 방문용 커머스 앱에서 탈피하여 매일 사용하는 '렌즈 착용 시간 타이머 및 눈 피로도 관리 유틸리티 앱'으로 핵심 경험을 진화시켰습니다.",
+        "core_user_experience_ko": "사용자가 아침에 렌즈를 착용할 때 앱에서 타이머를 시작하고, 저녁에 렌즈를 제거할 때 타이머를 종료하며 오늘의 안구 피로도를 간단히 기록합니다. 시스템은 누적 착용 시간을 계산하여 권장 교체 주기에 도달했을 때 자동으로 할인 쿠폰과 포인트를 지급하여 건강한 착용 습관을 유도합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "렌즈 착용 시간 타이머 및 스마트 교체 주기 알림",
+            "user_action_and_behavior_ko": "사용자가 착용 시작 및 종료 버튼을 터치하여 로컬 타이머를 작동시킵니다. 권장 착용 시간 초과 시 또는 교체 주기가 임박했을 때 푸시 알림을 통해 안전하게 렌즈 교체를 유도합니다.",
+            "practical_implementation_ko": "Flutter 기반 크로스플랫폼 개발 환경에서 로컬 알림(Local Notifications) 패키지를 활용하고, 백그라운드 상태에서도 타이머의 경과 시간을 계산할 수 있도록 로직을 구현합니다."
+          },
+          {
+            "feature_ko": "안구 피로도 자가 진단 및 리포트 시각화",
+            "user_action_and_behavior_ko": "렌즈를 뺄 때 간단한 탭 조작으로 이물감, 충혈 등의 눈 피로도 상태를 기록합니다. 주간 및 월간 단위로 착용 시간과 피로도 변화 추이를 그래프로 확인하여 자신의 눈 건강 상태를 직관적으로 파악합니다.",
+            "practical_implementation_ko": "로컬 SQLite(sqflite) 데이터베이스에 일일 기록 데이터를 저장하고, 가벼운 차트 라이브러리(예: fl_chart)를 연동하여 시각적 리포트 화면을 구현합니다."
+          },
+          {
+            "feature_ko": "착습관 연동 멤버십 포인트 및 쿠폰함",
+            "user_action_and_behavior_ko": "규칙적인 렌즈 착용 및 기록 달성 시 가상의 포인트를 적립받고, 교체 주기 맞춤형 할인 쿠폰을 확인하여 제휴 안경원 방문 시 활용할 수 있습니다.",
+            "practical_implementation_ko": "로컬 저장소(SharedPreferences 또는 SQLite)를 통해 포인트 잔액과 쿠폰 데이터를 관리하며, 추후 서버 연동 확장성을 고려하여 데이터 모델을 객체화합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "홈 및 타이머 화면",
+            "contents_and_actions_ko": "현재 렌즈 착용 상태 표시, 착용 시작/종료 토글 버튼, 남은 교체 주기 프로그레스 바, 오늘의 누적 착용 시간 확인."
+          },
+          {
+            "screen_ko": "기록 및 통계 화면",
+            "contents_and_actions_ko": "주간/월간 착용 시간 및 눈 피로도 통계 꺾은선/막대 그래프, 날짜별 상세 착용 이력 리스트."
+          },
+          {
+            "screen_ko": "혜택 및 쿠폰함 화면",
+            "contents_and_actions_ko": "보유 멤버십 포인트 현황, 교체 주기 맞춤형 할인 쿠폰 목록, 주변 제휴 안경원 안내 리스트."
+          }
+        ],
+        "implementation_approach_ko": "Flutter 프레임워크를 선택하여 안드로이드와 iOS를 동시에 대응합니다. 서버 구축 비용과 복잡도를 줄이기 위해 로컬 퍼시스턴스(SQLite)와 로컬 푸시 알림 중심의 아키텍처를 채택하여 1인 개발자가 빠르고 안정적으로 MVP를 완성할 수 있도록 설계했습니다.",
+        "data_and_storage_ko": [
+          "사용자 설정 데이터: user_id, 렌즈 타입(원데이/한달용), 교체 시작일, 보유 포인트 (SharedPreferences 저장)",
+          "착용 이력 데이터: log_id, start_time, end_time, duration, fatigue_level, date (SQLite 로컬 DB 저장)",
+          "쿠폰 데이터: coupon_id, title, discount_rate, expiry_date, is_used (SQLite 로컬 DB 저장)"
+        ],
+        "mvp_scope_ko": "복잡한 실시간 서버 연동 포인트 결제나 온라인 커머스 기능은 제외하고, 로컬 타이머, 착용 기록 저장, 로컬 푸시 알림, 기본 쿠폰함 기능만 구현하여 1인 개발 환경에서 핵심 유틸리티 효용을 검증합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: UI 레이아웃 및 로컬 타이머 구현",
+            "deliverable_and_check_ko": "홈 화면 UI 구성 및 렌즈 착용 시작·종료에 따른 타이머 상태 변화 및 실시간 시간 카운트 확인."
+          },
+          {
+            "stage_ko": "2단계: 로컬 DB 및 통계 리포트 연동",
+            "deliverable_and_check_ko": "SQLite 연동을 통한 일일 착용 기록 저장 및 통계 화면의 그래프 렌더링 정상 작동 확인."
+          },
+          {
+            "stage_ko": "3단계: 푸시 알림 및 혜택함 구현",
+            "deliverable_and_check_ko": "로컬 알림(교체 주기 및 초과 착용 알림) 테스트 및 쿠폰함 UI 데이터 바인딩 확인."
+          }
+        ],
+        "possible_extensions_ko": "추후 원격 서버 기반의 실제 안경원 예약 및 O2O 결제 연동, 사용자 간 눈 건강 관리 커뮤니티 기능, 전문 안과 상담 챗봇 서비스로 확장할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "백그라운드 상태에서 OS의 배터리 최적화 정책으로 인해 타이머 알림이 지연되거나 종료될 수 있는 기술적 예외 처리 검토 필요.",
+          "자체 유틸리티 앱으로 시작한 후 향후 실제 브랜드 제휴 및 수익화 모델로 전환할 때의 백엔드 마이그레이션 전략 수립 필요.",
+          "사용자가 렌즈 제거 타이머 종료를 잊었을 때의 자동 보정 시간 규칙(예: 최대 착용 시간 초과 시 자동 종료) 정의 필요."
+        ],
+        "draft_status_ko": "본 문서는 콘택트렌즈 착용 관리와 멤버십 혜택을 결합한 유틸리티 앱 '아이케어 타임로거 & 멤버십'의 1인 모바일 개발 설계 초안으로, 실제 구현 및 플레이테스트/성능 측정이 완료되지 않은 기획 상태입니다."
+      },
+      "plan_at": "2026-11-23T07:34:24+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 2075,
+        "candidatesTokenCount": 1808,
+        "totalTokenCount": 6419,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2075
+          }
+        ],
+        "thoughtsTokenCount": 2536,
+        "serviceTier": "standard"
+      }
+    },
+    "google:net.giosis.shopping.jp": {
+      "app_key": "google:net.giosis.shopping.jp",
+      "name": "Qoo10 (キューテン)",
+      "developer": "eBay Japan G.K",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=net.giosis.shopping.jp&hl=ja&gl=JP",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:net.giosis.shopping.jp",
+        "product_kind": "app",
+        "original_experience_ko": "사용자가 단순한 상품 탐색을 넘어 메가 할인, 타임 세일, 라이브 쇼핑 등 다채로운 이벤트를 통해 '놀이'처럼 즐기는 종합 쇼핑 경험.",
+        "source_facts_and_limitations_ko": [
+          "스토어 소개문을 통해 연 4회의 메가 할인, 1일 3회의 타임 세일, 랭킹 및 리뷰 시스템, 라이브 쇼핑 기능이 제공됨을 확인함.",
+          "실제 결제 시스템의 안정성, 라이브 스트리밍의 지연 시간 처리, 대규모 트래픽 분산 아키텍처 등은 스토어 정보만으로는 확인 불가함."
+        ],
+        "valuable_elements_ko": [
+          "시간 제한을 두어 구매 긴급성을 높이는 타임 세일 구조 (사용자 재방문 유도)",
+          "인플루언서와 연동된 라이브 쇼핑을 통한 실시간 소통 및 구매 전환 유도",
+          "트렌드 중심의 랭킹 및 리뷰 공유로 커뮤니티 성격을 가미한 쇼핑 탐색 경험"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "트렌드팟",
+            "core_idea_ko": "친구들이나 취향이 비슷한 사용자들과 실시간으로 소규모 그룹을 형성해 한정판 트렌드 뷰티·패션 아이템을 공동 구매하고 숏폼 리뷰로 소통하는 소셜 커머스 앱.",
+            "what_to_keep_ko": "원본의 트렌드 발견 및 실시간 랭킹과 이벤트성 할인 구조를 계승하여 구매의 재미를 높임.",
+            "what_to_change_ko": "개인 중심의 대형 쇼핑몰 구조에서 벗어나, 지인 또는 실시간 매칭된 유저들과 함께 목표 수량을 채워야 할인이 적용되는 게이미피케이션 공동구매 규칙으로 변경.",
+            "mobile_use_or_play_ko": "앱 접속 후 실시간 진행 중인 트렌드 펀딩을 확인하고 숏폼 리뷰를 시청한 뒤 원탭으로 그룹에 참여해 할인 혜택을 획득하는 흐름.",
+            "key_features_ko": [
+              "실시간 소그룹 공동 펀딩 할인 시스템",
+              "15초 숏폼 형태의 구매 인증 및 리뷰 피드",
+              "취향 기반 실시간 트렌드 매칭 알림"
+            ],
+            "solo_mvp_and_effort_ko": "1인 개발 시 대규모 상품 DB 대신 카테고리별 주간 베스트 상품 몇 가지로 범위를 축소하고 외부 결제 모듈을 연동하여 MVP 구축. 백엔드 매칭 로직 구현에 공수가 소요됨.",
+            "strengths_limits_ko": "장점은 소셜 요소를 통한 높은 바이럴 가능성이며 약점은 초기 유저 풀이 없을 때 그룹 매칭이 성사되지 않을 위험이 있다는 점임."
+          },
+          {
+            "title_ko": "라이브딜 픽",
+            "core_idea_ko": "인플루언서와 소규모 크리에이터가 직접 물품을 소개하며 실시간 미니 경매와 타임 특가를 진행하는 모바일 라이브 커머스 전문 앱.",
+            "what_to_keep_ko": "원본의 LIVE Shopping과 타임세일을 통한 몰입감과 실시간 특가 참여 경험을 계승.",
+            "what_to_change_ko": "대형 종합 쇼핑몰의 방대한 카테고리를 배제하고 소규모 크리에이터의 한정 굿즈 및 아이템 거래로 특화하여 실시간 인터랙션과 가격 변동 게임 요소를 강화.",
+            "mobile_use_or_play_ko": "푸시 알림으로 라이브 시작을 인지하고 방송에 입장해 실시간 채팅으로 가격이 깎이는 역경매 혹은 타임 특가 카운트다운에 맞춰 버튼을 누르는 흐름.",
+            "key_features_ko": [
+              "실시간 시청자 참여형 역경매 할인 알고리즘",
+              "간편 라이브 스트리밍 SDK 연동",
+              "타임어택 형식의 즉시 구매 버튼 인터페이스"
+            ],
+            "solo_mvp_and_effort_ko": "상용 라이브 스트리밍 API를 활용하여 영상 송출 비용을 절감하고 등록 상품 수를 제한한 1인 창작자 중심의 MVP로 개발 난이도를 낮춤.",
+            "strengths_limits_ko": "장점은 실시간 상호작용으로 구매 전환율이 높다는 것이며 약점은 스트리밍 서버 비용 및 트래픽 부하 관리가 까다롭다는 점임."
+          },
+          {
+            "title_ko": "랜덤박스 타임랩",
+            "core_idea_ko": "정해진 시간에만 열리는 플래시 세일과 랜덤 박스 오픈 메커니즘을 결합하여 합리적인 가격에 트렌드 제품을 뽑기 형태의 재미로 구매하는 앱.",
+            "what_to_keep_ko": "원본의 일 3회 타임세일과 매일 설레는 쇼핑 이벤트라는 엔터테인먼트적 요소를 극대화하여 계승.",
+            "what_to_change_ko": "원하는 물품을 직접 검색해 고르는 일반 쇼핑 방식 대신 정해진 시간 동안 제한된 수량의 랜덤 구성품 박스를 게임 같은 연출과 함께 오픈하는 방식으로 전환.",
+            "mobile_use_or_play_ko": "타임세일 시간에 맞춰 앱에 접속해 박스를 선택하고 스와이프 제스처로 상자를 열어 구성품을 확인한 뒤 즉시 결제나 교환을 진행하는 흐름.",
+            "key_features_ko": [
+              "시간 한정 플래시 랜덤박스 오픈 애니메이션",
+              "불필요한 아이템의 유저 간 교환 장터",
+              "재고 연동 실시간 카운트다운 타이머"
+            ],
+            "solo_mvp_and_effort_ko": "복잡한 복수 카테고리 관리 대신 단일 카테고리 위주로 구성하고 애니메이션은 가벼운 라이브러리를 사용하여 프론트엔드 중심의 1인 개발 완성.",
+            "strengths_limits_ko": "장점은 쇼핑에 게임적 재미를 더해 체류 시간이 길다는 점이며 약점은 랜덤 구성에 대한 사용자 신뢰 확보와 법적 규제 검토가 필요하다는 점임."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어는 소셜 공동 구매를 통해 바이럴 확산에 유리하지만 초기 유저 확보가 과제이며, 두 번째 아이디어는 실시간 라이브로 몰입도가 높지만 서버 비용과 스트리밍 연동 부담이 큼. 세 번째 아이디어는 쇼핑에 게임적 재미를 결합해 1인 개발자가 구현하기에 가장 가볍고 직관적이나 사행성 관련 법적 검토가 필요함.",
+        "recommended_concept_number": 3,
+        "why_recommended_ko": "원본 앱이 가진 타임세일과 쇼핑의 즐거움이라는 핵심 엔터테인먼트 가치를 가장 직관적으로 게임적 메커니즘과 결합했기 때문입니다. 1인 개발 관점에서 방대한 상품 DB를 구축하는 대신 제한된 상품과 가벼운 애니메이션 기반의 MVP로 구현 가능성이 높으며, 불확실성은 명확한 이용 약관과 투명한 확률 공개로 대응할 수 있습니다.",
+        "next_questions_ko": [
+          "플래시 랜덤박스 판매 시 전자상거래 및 경품 관련 법규 저촉 여부 확인",
+          "소수의 상품 재고 관리를 위한 경량 백엔드 구조 설계 테스트",
+          "사용자가 박스를 오픈할 때 제공할 몰입감 있는 애니메이션의 프레임워크별 성능 최적화 방안"
+        ]
+      },
+      "brief_at": "2026-11-23T07:45:28+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 2532,
+        "candidatesTokenCount": 1655,
+        "totalTokenCount": 7259,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2532
+          }
+        ],
+        "thoughtsTokenCount": 3072,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:net.giosis.shopping.jp",
+        "product_kind": "app",
+        "selected_concept_title_ko": "랜덤박스 타임랩",
+        "project_goal_and_audience_ko": "트렌디한 뷰티 및 패션 아이템을 합리적인 가격에 구매하면서도 쇼핑 과정 자체에서 게임 같은 재미와 긴장감을 느끼고 싶어 하는 2030 모바일 쇼퍼를 위한 앱. 정해진 시간에 열리는 타임세일과 랜덤박스 오픈 메커니즘을 결합하여 매일 접속할 동기와 쇼핑의 즐거움을 극대화합니다.",
+        "source_relation_and_difference_ko": "원본 Qoo10의 '하루 3회 타임세일'과 '메가 이벤트에서 오는 쇼핑의 설렘'이라는 핵심 엔터테인먼트적 경험을 충실히 계승함. 차별점으로는 사용자가 직접 수많은 상품을 검색하고 필터링하는 피로감 대신, 정해진 시간에 오픈되는 한정판 랜덤박스를 스와이프 제스처와 애니메이션으로 개봉하는 게이미피케이션 요소를 도입함.",
+        "core_user_experience_ko": "사용자는 앱 메인 화면에서 실시간 카운트다운 타이머를 확인하고 타임세일 오픈 시간에 맞춰 접속함. 오픈 시점에 원하는 카테고리의 랜덤박스를 선택하고 화면을 터치하거나 스와이프하여 상자를 열어 구성품을 확인한 뒤, 즉시 할인된 가격으로 결제하거나 다른 유저와 교환을 요청하는 흐름으로 작동함.",
+        "features_ko": [
+          {
+            "feature_ko": "시간 한정 플래시 랜덤박스 오픈",
+            "user_action_and_behavior_ko": "사용자가 카운트다운 종료 후 박스를 선택하고 스와이프 조작을 하면 화려한 이펙트와 함께 구성품이 공개됨. 긴장감과 수집/당첨의 즐거움을 제공.",
+            "practical_implementation_ko": "Flutter 또는 React Native의 애니메이션 라이브러리(Lottie 등)를 활용하여 클라이언트 측에서 부드러운 개봉 연출 구현. 서버 타임아웃과 동기화된 클라이언트 카운트다운 타이머 로직 적용."
+          },
+          {
+            "feature_ko": "실시간 재고 연동 및 타이머 관리",
+            "user_action_and_behavior_ko": "남은 수량과 시간이 실시간으로 줄어드는 것을 보며 구매 긴급성을 느끼고 조기 품절 전 빠른 결제를 유도.",
+            "practical_implementation_ko": "웹소켓(WebSocket) 또는 주기적 폴링 방식을 사용하여 실시간 재고 상태 동기화, 서버 단에서 동시성 제어를 위한 인메모리 큐 또는 간단한 락 메커니즘 활용."
+          },
+          {
+            "feature_ko": "유저 간 구성품 교환 장터",
+            "user_action_and_behavior_ko": "랜덤박스에서 원하지 않거나 중복된 아이템을 획득했을 때 다른 사용자와 목록을 교환하거나 포인트를 전환하여 효용을 높임.",
+            "practical_implementation_ko": "게시판형 리스트와 1:1 매칭 제안 상태 머신 구현. Supabase 또는 Firebase 기반의 실시간 데이터베이스 연동을 통해 교환 요청 및 수락 상태 관리."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 대시보드 및 타임세일 홈",
+            "contents_and_actions_ko": "다음 타임세일 카운트다운 타이머, 진행 중인 랜덤박스 라인업 카드 노출. 카드를 터치하여 상세 세일 페이지로 이동."
+          },
+          {
+            "screen_ko": "랜덤박스 오픈 스테이지",
+            "contents_and_actions_ko": "선택한 박스 UI와 스와이프 가이드 애니메이션 표시. 스와이프 시 박스 개봉 연출과 최종 획득 상품 팝업 출력, '결제하기' 또는 '교환하기' 버튼 제공."
+          },
+          {
+            "screen_ko": "결제 및 주문 완료 화면",
+            "contents_and_actions_ko": "최종 할인 가격, 배송지 입력, 간편결제 연동 영역. 결제 완료 시 마이페이지 주문 내역에 반영."
+          },
+          {
+            "screen_ko": "교환 커뮤니티 장터",
+            "contents_and_actions_ko": "유저들이 보유한 아이템 교환 글 목록 및 신청/수락 인터페이스 제공."
+          }
+        ],
+        "implementation_approach_ko": "React Native 또는 Flutter를 사용하여 크로스플랫폼(Android/iOS)으로 개발하여 UI 컴포넌트 재사용성과 애니메이션 구현 용이성을 확보함. 백엔드는 Node.js(Express)와 Supabase(PostgreSQL) 조합으로 실시간 데이터 및 인증을 빠르게 구축. 대안으로는 Firebase 백엔드 전용 구축 방식이 있으나 관계형 데이터(주문, 재고, 교환) 관리를 위해 PostgreSQL 기반 BaaS가 유리함.",
+        "data_and_storage_ko": [
+          "User 객체: uid, nickname, address, points, created_at. 인증 및 배송 정보 관리를 위해 앱 실행 시 로컬 스토리지 캐싱 및 서버 동기화.",
+          "FlashBox 객체: box_id, category, open_time, total_stock, remaining_stock, items_list. 타임세일 시작 및 잔여 수량 관리를 위해 서버에서 주기적 갱신 및 캐시.",
+          "Order 객체: order_id, user_id, box_id, acquired_item, status, paid_amount. 결제 완료 시 생성되며 마이페이지 주문 내역 조회에 사용.",
+          "TradeItem 객체: trade_id, user_id, offered_item_id, desired_item_id, status. 유저 간 교환 장터 리스트 렌더링 및 상태 변경 시 서버 업데이트."
+        ],
+        "mvp_scope_ko": "단일 카테고리(뷰티/코스메틱) 중심의 하루 2회 타임세일 랜덤박스 오픈 및 결제 기능까지만 포함. 유저 간 교환 장터와 복잡한 PG사 결제 연동은 포인트 차감형 가상 결제로 대체하여 프론트엔드 연출과 핵심 뽑기 루프 검증에 집중.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 환경 설정 및 UI 와이어프레임",
+            "deliverable_and_check_ko": "Flutter/React Native 기반 기본 레이아웃 구성, 메인 대시보드와 타이머 UI 구현. 타이머 작동 및 화면 전환 확인."
+          },
+          {
+            "stage_ko": "2단계: 랜덤박스 오픈 애니메이션 및 인터랙션 구현",
+            "deliverable_and_check_ko": "Lottie 애니메이션을 활용한 스와이프 오픈 연출 및 당첨 아이템 팝업 구현. 로컬 상태로 상자 개봉 및 결과 표시 정상 작동 확인."
+          },
+          {
+            "stage_ko": "3단계: 백엔드 API 및 실시간 재고 연동",
+            "deliverable_and_check_ko": "Node.js/Supabase 백엔드 구축 및 상자 잔여 수량 차감 API 연동. 다수 사용자가 동시 접속 시 재고 정합성 유지 여부 테스트."
+          },
+          {
+            "stage_ko": "4단계: MVP 통합 테스트 및 디버깅",
+            "deliverable_and_check_ko": "메인 화면부터 오픈, 결제 모의 테스트까지 전체 유저 플래시 쇼핑 루프 실행 및 버그 수정."
+          }
+        ],
+        "possible_extensions_ko": "인플루언서 라이브 스트리밍과 연동된 실시간 라이브 랜덤박스 오픈 이벤트, 친구 초대 시 추가 뽑기 기회를 주는 소셜 리워드 시스템, 다양한 카테고리(가전, 푸드 등) 확장.",
+        "risks_and_open_decisions_ko": [
+          "랜덤박스/확률형 상품 판매에 대한 국가별 법적 규제 및 전자상거래법 준수 여부 (오픈 전 정확한 확률 고지 UI 설계 필요)",
+          "타임세일 오픈 직전 대규모 트래픽 몰림 현상에 따른 서버 부하 및 재고 초과 판매 리스크 (Redis 분산 락 적용 검토)",
+          "1인 개발 환경에서 PG사 실제 연동 시 보안 및 인증 절차의 복잡성 (MVP 단계에서는 가상 포인트/모의 결제로 우선 검증)"
+        ],
+        "draft_status_ko": "본 개발 설계 초안은 Qoo10의 타임세일 및 쇼핑 이벤트 경험을 게이미피케이션 관점에서 재해석한 기획의 모바일 앱 구현 방향을 정리한 것으로, 실제 라이브 서비스 배포나 대규모 부하 테스트, 법률 검토가 완료되지 않은 개발 초안 단계의 문서입니다."
+      },
+      "plan_at": "2026-11-23T07:45:45+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 3176,
+        "candidatesTokenCount": 2129,
+        "totalTokenCount": 8211,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3176
+          }
+        ],
+        "thoughtsTokenCount": 2906,
+        "serviceTier": "standard"
+      }
     }
   }
 }

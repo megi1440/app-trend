@@ -13338,6 +13338,95 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-22"
+    },
+    "itch:d8c3b8d97081e32c56b9": {
+      "app_key": "itch:d8c3b8d97081e32c56b9",
+      "name": "Last Rescue Van [Free] [Shooter]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://svzdev.itch.io/last-rescue-van",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-23T06:12:35+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Fight through zombie-infested districts, rescue survivors, and get them back to the van.",
+      "analysis": {
+        "app_key": "itch:d8c3b8d97081e32c56b9",
+        "summary_ko": "Last Rescue Van은 좀비로 가득 찬 구역을 돌파하며 생존자를 구출하고 밴으로 복귀하는 슈팅 게임입니다. 플레이어는 좀비의 위협 속에서 생존자를 안전하게 호송하는 임무를 수행합니다.",
+        "features_ko": [
+          "좀비가 점령한 구역을 탐색하며 적을 처치합니다.",
+          "맵 곳곳에 흩어진 생존자를 찾아 구출합니다.",
+          "구출한 생존자를 밴까지 안전하게 이동시킵니다."
+        ],
+        "noteworthy_ko": "구출과 호송이라는 목표가 슈팅 액션과 결합되어 긴장감을 유발합니다. 생존자의 이동 속도나 보호 메커니즘이 게임의 난이도를 결정하는 핵심 요소로 보입니다.",
+        "development_ko": "좀비 AI의 경로 탐색과 생존자의 추종 로직 구현이 중요합니다. 슈팅 메커니즘과 호송 시스템 간의 밸런스 조정이 콘텐츠 제작의 핵심 부담이 될 것입니다.",
+        "idea_ko": "생존자마다 고유한 능력을 부여하여 전략적인 구출 우선순위를 정하게 하는 시스템을 제안합니다.",
+        "highlights_ko": [
+          "좀비 아포칼립스 테마의 긴박한 구출 미션.",
+          "슈팅과 호송이 결합된 복합적인 게임 플레이."
+        ],
+        "systems_ko": [
+          "적 AI 경로 탐색 시스템",
+          "생존자 추종 및 보호 로직",
+          "슈팅 및 타격 판정",
+          "게임 상태 관리(구출 성공/실패)",
+          "UI 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "슈팅 게임의 기본 메커니즘에 호송 로직이 추가되어 AI 제어와 상태 관리가 필요하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "플레이어 이동 및 슈팅",
+            "좀비 생성 및 공격",
+            "생존자 구출 및 밴 복귀 로직"
+          ],
+          "defer": [
+            "다양한 좀비 종류",
+            "복잡한 맵 디자인"
+          ],
+          "risks": [
+            "AI 경로 탐색 최적화 문제",
+            "생존자 AI의 멍청한 움직임 발생"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "생존자 특수 능력",
+            "concept": "구출한 생존자가 각각 다른 보조 능력을 제공하여 플레이어의 전투를 돕습니다.",
+            "first_step": "생존자 한 명을 구출하면 플레이어의 이동 속도가 빨라지는 간단한 버프 구현."
+          },
+          {
+            "title": "밴 방어 미션",
+            "concept": "생존자를 밴에 태운 후, 밴이 출발할 때까지 몰려오는 좀비를 막아내는 디펜스 모드입니다.",
+            "first_step": "밴 주변에 좀비가 접근하면 밴의 체력이 깎이는 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "AI와 상호작용하는 슈팅 게임을 만들고 싶은 개발자에게 추천합니다. 호송 로직을 통해 AI 제어의 기초를 배울 수 있습니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 조작 방식, 맵의 규모, 생존자 AI의 세부 행동 패턴은 확인되지 않습니다.",
+        "name": "Last Rescue Van [Free] [Shooter]",
+        "source": "itch",
+        "detail_url": "https://svzdev.itch.io/last-rescue-van",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 344,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 12,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-23"
     }
   }
 }

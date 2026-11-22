@@ -27945,6 +27945,538 @@
         ],
         "serviceTier": "standard"
       }
+    },
+    "google:com.hmallapp": {
+      "app_key": "google:com.hmallapp",
+      "name": "현대홈쇼핑",
+      "developer": "(주) 현대홈쇼핑",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.hmallapp&hl=ko&gl=KR",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.hmallapp",
+        "product_kind": "app",
+        "original_experience_ko": "TV 홈쇼핑, 백화점 상품 큐레이션, 모바일 라이브 커머스('쇼라')를 결합하여 실시간 방송 시청과 쇼핑, 다양한 간편결제를 원스톱으로 제공하는 종합 모바일 쇼핑 경험입니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 설명에 따르면 현대홈쇼핑, 현대백화점 상품, 모바일 라이브 쇼핑(쇼라) 기능을 제공하며 삼성페이/네이버페이 등의 간편결제를 지원합니다.",
+          "앱 전용 쿠폰 및 적립 혜택, 보이는 ARS 등의 부가 기능이 명시되어 있습니다.",
+          "실제 백화점 물류 연동 시스템, 대규모 라이브 스트리밍 서버 아키텍처, 결제 게이트웨이의 구체적 연동 방식은 스토어 텍스트만으로 확인할 수 없습니다."
+        ],
+        "valuable_elements_ko": [
+          "실시간 영상(라이브 커머스)을 보면서 상품을 즉시 구매할 수 있는 직관적인 전환 퍼널.",
+          "오프라인 프리미엄 유통 채널(백화점)의 신뢰도를 모바일 환경으로 매끄럽게 이전한 큐레이션.",
+          "앱 전용 혜택과 간편결제를 결합하여 구매 장벽을 낮추는 결제 및 리워드 구조."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "로컬 장인 마켓 '동네방네 라이브'",
+            "core_idea_ko": "대형 백화점 대신 전국의 로컬 소상공인, 전통시장 장인, 소규모 농가의 상품을 조명하고, 생산자가 직접 스마트폰으로 진행하는 마이크로 라이브 커머스와 공동구매를 결합한 하이퍼로컬 쇼핑 앱.",
+            "what_to_keep_ko": "모바일 라이브 방송을 시청하며 실시간으로 소통하고 즉시 구매로 연결되는 핵심 구매 퍼널을 계승합니다.",
+            "what_to_change_ko": "대기업 유통 중심에서 벗어나 소규모 생산자 중심의 '스토리텔링형 미니 라이브' 규칙을 도입하고, 일정 인원이 모여야 성사되는 공동구매 펀딩 요소를 결합하여 차별화합니다.",
+            "mobile_use_or_play_ko": "앱 메인에서 내 동네 또는 관심 지역의 실시간 라이브 방송 알림을 받고 입장 -> 생산자의 제작/수확 과정 시청 및 실시간 채팅 질문 -> 목표 수량이 채워지면 할인이 적용되는 공동구매 주문 버튼 클릭 후 간편결제로 완료.",
+            "key_features_ko": [
+              "소상공인용 간편 라이브 송출 및 실시간 채팅 모듈",
+              "목표 인원/수량 달성 시 혜택이 커지는 소셜 펀딩형 구매 시스템",
+              "지역 기반 상품 추천 및 생산자 스토리 피드"
+            ],
+            "solo_mvp_and_effort_ko": "1인 개발 시 자체 라이브 스트리밍 서버 대신 서드파티 라이브 SDK(Agora, AWS IVS 등)를 연동하고, 결제는 포트원 같은 PG 연동 모듈을 사용하여 백엔드 부담을 최소화. UI는 Flutter 또는 React Native로 크로스플랫폼 구현.",
+            "strengths_limits_ko": "장점은 진정성 있는 로컬 콘텐츠와 차별화된 소셜 펀딩 재미이나, 약점은 영세 소상공인의 온보딩 유도와 방송 품질 안정성 확보의 어려움입니다."
+          },
+          {
+            "title_ko": "업사이클링 & 빈티지 라이브 경매 '리본(Re:Born)'",
+            "core_idea_ko": "신상품 위주의 홈쇼핑 구조를 탈피하여, 개인 창작자의 업사이클링 제품과 빈티지 아이템을 실시간 라이브 경매와 감정 인증 시스템을 통해 거래하는 모바일 커머스 앱.",
+            "what_to_keep_ko": "실시간 영상 스트리밍을 통한 생생한 상품 검증과 앱 내 단독 혜택/결제 흐름을 유지합니다.",
+            "what_to_change_ko": "정형화된 공산품 판매가 아닌, 실시간 역경매 및 최고가 입찰 방식의 라이브 경매 규칙을 도입하고, AI 기반 간이 상태 인증 태그 시스템을 결합합니다.",
+            "mobile_use_or_play_ko": "경매 라이브 방송 입장 -> 판매자가 보여주는 제품의 상태(데미지 등)를 실시간 영상으로 확인 -> 실시간으로 가격을 올리며 입찰 버튼 터치 -> 낙찰 시 즉시 간편결제창으로 이동하여 결제 완료.",
+            "key_features_ko": [
+              "초저지연 실시간 라이브 경매 및 입찰 타이머 시스템",
+              "AI 이미지 분석을 통한 중고/업사이클 제품 상태 자동 진단 가이드",
+              "개인 판매자용 간편 상품 등록 및 정산 관리 대시보드"
+            ],
+            "solo_mvp_and_effort_ko": "실시간 입찰 동기화에 WebSocket 또는 Firebase Realtime Database를 활용해 서버 구축 공수를 줄이고, PG사의 에스크로(안전결제) 연동을 통해 개인 간 거래 신뢰 문제 해결. 프론트엔드는 단일 개발자로 구현 가능.",
+            "strengths_limits_ko": "장점은 독창적인 경매의 재미와 친환경 가치 소비 트렌드 부합이지만, 약점은 중고 거래 특유의 분쟁 관리 및 개인 판매자 풀 확보의 한계입니다."
+          },
+          {
+            "title_ko": "실시간 파티 쇼핑 '쇼핑크루(Shopping Crew)'",
+            "core_idea_ko": "혼자 쇼핑하는 것에서 벗어나 친구나 뜻 맞는 다른 사용자와 임시 파티룸을 개설하고, 함께 홈쇼핑이나 라이브 방송을 보며 공동 할인 혜택을 해제하는 소셜 커머스 앱.",
+            "what_to_keep_ko": "방송 시청과 연동된 특가 혜택, 모바일 푸시 알림, 간편결제 연동 구조를 계승합니다.",
+            "what_to_change_ko": "수동적인 시청에 머무는 기존 쇼핑을, 파티원들과 실시간 음성/채팅으로 토론하며 투표나 미션을 통해 추가 할인율을 깨워나가는 게이미피케이션 소셜 쇼핑 규칙으로 변경합니다.",
+            "mobile_use_or_play_ko": "앱에서 마음에 드는 상품의 '쇼핑 파티'에 참여하거나 방 개설 -> 파티원들과 실시간 채팅으로 상품에 대해 의견을 나눔 -> 파티원 전원이 동의하거나 미션을 달성하면 특가 쿠폰이 활성화됨 -> 일괄 또는 개별 결제로 구매 완료.",
+            "key_features_ko": [
+              "실시간 멀티유저 쇼핑 파티룸(음성/텍스트 채팅 및 동시 시청 동기화)",
+              "파티원 협력형 할인 해제(게이미피케이션 퀘스트) 시스템",
+              "친구 초대 및 선물하기 연동 주소록 기능"
+            ],
+            "solo_mvp_and_effort_ko": "WebRTC 기반 음성 채팅과 실시간 상태 동기화 서버를 구축해야 하므로 1인 개발 시 다소 난이도가 높음. MVP 단계에서는 음성을 제외하고 텍스트 채팅과 그룹 할인 카운터 중심으로 구현 범위를 축소.",
+            "strengths_limits_ko": "장점은 높은 바이럴 효과와 재미 요소이나, 약점은 파티 매칭을 위한 초기 유저 트래픽(유동 인구)이 부족할 경우 핵심 기능이 작동하기 어렵다는 점입니다."
+          }
+        ],
+        "concept_comparison_ko": "제안된 세 아이디어는 원본의 핵심인 '모바일 라이브 커머스와 즉시 구매'를 서로 다른 축으로 확장합니다. 첫 번째 '로컬 장인 마켓'은 공급자를 소상공인으로 바꾸어 펀딩형으로 확장하고, 두 번째 '업사이클링 경매'는 판매 상품을 빈티지로 바꾸어 경매 규칙을 결합하며, 세 번째 '쇼핑크루'는 사용자 경험을 소셜 및 게이미피케이션으로 확장합니다. 1인 개발 관점에서는 외부 SDK를 적극 활용할 때 세 번째(쇼핑크루)의 동기화 및 매칭 서버 구축 부담이 가장 크며, 첫 번째와 두 번째 아이디어가 MVP 구현 난이도 측면에서 상대적으로 현실적입니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "첫 번째 아이디어인 '로컬 장인 마켓(동네방네 라이브)'은 원본 앱의 신뢰성 있는 큐레이션 및 라이브 방송 장점을 가장 잘 계승하면서도, 거대 유통망 대신 소상공인과 지역 특산품이라는 명확한 차별점을 가집니다. AWS IVS나 Agora 같은 검증된 라이브 스트리밍 SDK와 포트원 등의 PG 서비스를 활용하면 1인 개발자도 MVP를 안정적으로 구축할 수 있으며, 공공/지자체 지원 사업 등과 연계 가능성도 높아 확장성이 우수합니다.",
+        "next_questions_ko": [
+          "소상공인 및 지역 생산자들이 스마트폰을 통해 라이브 방송을 원활하게 송출할 수 있도록 UX를 얼마나 단순화할 수 있는가?",
+          "공동구매 펀딩 목표 미달성 시 주문 취소 및 환불 프로세스를 PG사와 연동할 때 발생하는 예외 처리를 어떻게 최소화할 것인가?",
+          "초기 서비스 런칭 시 라이브 콘텐츠 공급자(셀러)를 확보하기 위한 구체적인 영업 및 온보딩 전략은 무엇인가?"
+        ]
+      },
+      "brief_at": "2026-11-23T06:49:24+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 2329,
+        "candidatesTokenCount": 2323,
+        "totalTokenCount": 7943,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2329
+          }
+        ],
+        "thoughtsTokenCount": 3291,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.hmallapp",
+        "product_kind": "app",
+        "selected_concept_title_ko": "로컬 장인 마켓 '동네방네 라이브'",
+        "project_goal_and_audience_ko": "전국의 소상공인, 전통시장 장인, 소규모 농가의 특산품을 조명하고, 마이크로 라이브 커머스와 공동구매 펀딩을 결합하여 소비자에게는 신뢰성 있는 로컬 상품을, 생산자에게는 판로를 제공하는 하이퍼로컬 모바일 쇼핑 앱.",
+        "source_relation_and_difference_ko": "원본 앱의 핵심 경험인 '라이브 방송 시청과 실시간 소통을 연동한 즉시 구매 퍼널'을 계승하면서, 대기업 유통 중심의 구조를 소규모 로컬 생산자 중심의 '스토리텔링형 미니 라이브'와 '소셜 펀딩형 공동구매' 규칙으로 차별화함.",
+        "core_user_experience_ko": "사용자는 앱 메인 홈에서 거주 지역 또는 관심 지역의 로컬 라이브 방송 피드를 확인하고 입장합니다. 생산자가 스마트폰으로 직접 송출하는 수확 및 제작 과정을 시청하며 실시간 채팅으로 소통하고, 목표 수량이 채워지면 할인 혜택이 적용되는 '공동구매 참여' 버튼을 눌러 간편결제로 주문을 완료합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "소상공인용 간편 라이브 송출 및 실시간 채팅 모듈",
+            "user_action_and_behavior_ko": "생산자가 앱 내에서 간단히 버튼을 눌러 방송을 시작하고, 사용자는 채팅을 통해 질문하며 생산자와 즉각 소통하여 신뢰도를 높임.",
+            "practical_implementation_ko": "AWS IVS 또는 Agora 라이브 스트리밍 SDK를 연동하고, 채팅은 Socket.io 또는 Firebase Realtime Database를 활용해 가볍게 구현."
+          },
+          {
+            "feature_ko": "소셜 펀딩형 공동구매 딜 시스템",
+            "user_action_and_behavior_ko": "목표 주문 수량이 달성되어야 할인이 적용되는 펀딩 바를 확인하고 참여하여 저렴하게 구매, 미달성 시 자동 처리되는 구조.",
+            "practical_implementation_ko": "주문 데이터베이스에 펀딩 상태(진행중, 성공, 실패) 컬럼을 두고, 결제 시점과 수량 카운트를 실시간 원자적 연산으로 처리."
+          },
+          {
+            "feature_ko": "지역 기반 로컬 상품 추천 및 스토리 피드",
+            "user_action_and_behavior_ko": "사용자의 위치 또는 설정 동네 기반으로 근처 생산자의 상품과 지난 방송 하이라이트를 피드 형태로 탐색.",
+            "practical_implementation_ko": "PostgreSQL의 지리 정보 함수 또는 단순 위경도 필터를 활용한 동네 필터링 쿼리 구현."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "홈 피드 화면",
+            "contents_and_actions_ko": "상단 동네 설정, 실시간 라이브 중인 방송 배너, 추천 로컬 장인 상품 카드 리스트 표시 및 터치 시 상세 이동."
+          },
+          {
+            "screen_ko": "라이브 방송 및 상품 상세 화면",
+            "contents_and_actions_ko": "실시간 영상 스트리밍 영역, 채팅 오버레이, 공동구매 펀딩 진행률 게이지 바, 하단 '공동구매 참여하기' CTA 버튼 배치."
+          },
+          {
+            "screen_ko": "간편결제 및 주문 완료 화면",
+            "contents_and_actions_ko": "배송지 입력, 포트원 PG 간편결제 위젯 호출, 결제 성공 후 펀딩 참여 완료 상태 및 공유하기 기능 제공."
+          }
+        ],
+        "implementation_approach_ko": "크로스플랫폼 개발을 위해 Flutter를 채택하여 Android 환경에서 일관된 UI와 부드러운 화면 전환을 구현합니다. 서버는 Node.js와 Express 기반으로 구축하고, 라이브 방송은 외부 SDK(Agora 등)를 활용하여 1인 개발자의 인프라 구축 부담을 최소화합니다.",
+        "data_and_storage_ko": [
+          "User 객체: user_id(PK), nickname, phone, address, role(consumer/producer), created_at",
+          "Broadcast 객체: broadcast_id(PK), producer_id(FK), title, status, stream_url, target_count, current_count",
+          "Product 객체: product_id(PK), producer_id(FK), name, price, discount_price, description, stock",
+          "Order 객체: order_id(PK), user_id(FK), product_id(FK), quantity, payment_status, funding_status, created_at"
+        ],
+        "mvp_scope_ko": "초기 MVP는 라이브 시청, 실시간 채팅, 기본 상품 카드 조회, 단일 PG 간편결제 및 공동구매 카운터 기능만 포함합니다. 생산자 자체 송출 툴이나 정산 자동화는 제외하고 수동 관리로 대체합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 구조 및 홈 화면 UI 구현",
+            "deliverable_and_check_ko": "Flutter 기반 프로젝트 셋업, 홈 피드 및 상품 목록 UI 레이아웃 구현. 로컬 목업 데이터로 화면 전환 확인."
+          },
+          {
+            "stage_ko": "2단계: 라이브 스트리밍 및 채팅 연동",
+            "deliverable_and_check_ko": "라이브 SDK 연동을 통한 영상 송수신 테스트, WebSocket 기반 실시간 채팅 메시지 송수신 기능 확인."
+          },
+          {
+            "stage_ko": "3단계: 결제 및 펀딩 로직 통합",
+            "deliverable_and_check_ko": "포트원 PG 연동 및 결제 완료 시 공동구매 수량 카운트 증가 및 주문 데이터베이스 저장 확인."
+          }
+        ],
+        "possible_extensions_ko": "단골 장터 소통 커뮤니티 게시판, 생산자 정산 자동화 어드민 페이지, 신규 라이브 시작 알림 푸시 서비스, 지자체 전통시장 연동 특화 기획전.",
+        "risks_and_open_decisions_ko": [
+          "기술적 리스크: 라이브 스트리밍 트래픽 증가에 따른 호스팅 비용 및 지연 문제 -> 서드파티 SDK 활용 및 비트레이트 최적화로 대응.",
+          "기획적 리스크: 영세 소상공인의 초기 방송 온보딩률 저조 -> 초기 운영진 주도의 콘텐츠 제작 지원 필요.",
+          "미확정 규칙: 공동구매 펀딩 미달성 시 자동 환불 프로세스의 PG API 연동 구체화 검토 필요."
+        ],
+        "draft_status_ko": "본 문서는 실제 구현, 플레이테스트 및 서비스 배포가 완료되지 않은 모바일 앱 개발 설계 초안입니다."
+      },
+      "plan_at": "2026-11-23T06:49:47+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 3106,
+        "candidatesTokenCount": 1666,
+        "totalTokenCount": 8320,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3106
+          }
+        ],
+        "thoughtsTokenCount": 3548,
+        "serviceTier": "standard"
+      }
+    },
+    "apple:6775732870": {
+      "app_key": "apple:6775732870",
+      "name": "펀네이션 - Funnation",
+      "developer": "funnation inc.",
+      "source": "apple",
+      "kind": "app",
+      "detail_url": "https://apps.apple.com/kr/app/%ED%8E%80%EB%84%A4%EC%9D%B4%EC%85%98-funnation/id6775732870",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:6775732870",
+        "product_kind": "app",
+        "original_experience_ko": "크리에이터와 팬을 실시간 라이브 스트리밍으로 연결하고, 인앱 재화(펀캐시)를 통한 후원 메시지 전송, 커뮤니티 소통, 그리고 후원 누적에 따른 등급 혜택을 제공하는 플랫폼 경험.",
+        "source_facts_and_limitations_ko": [
+          "스토어 소개문에서 실시간 라이브 시청, 펀캐시 충전 및 후원, 즐겨찾기 알림, 팬-크리에이터 커뮤니티, 후원 등급, 크리에이터 스튜디오 기능을 확인함.",
+          "스트리밍 서버 아키텍처, 결제 PG 연동 세부 방식, 실시간 채팅 처리 기술 스택은 스토어 정보만으로는 파악할 수 없음."
+        ],
+        "valuable_elements_ko": [
+          "팬덤의 충성도와 참여를 유도하는 후원 누적 등급 및 사전 혜택 시스템",
+          "크리에이터가 방송 준비와 후원 현황을 한곳에서 관리할 수 있는 통합 스튜디오 기능"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "피드백라운지",
+            "core_idea_ko": "전문가와 지망생을 연결하여 실시간 포트폴리오 리뷰 및 코드 피드백을 진행하고, '질문 우선권 후원' 형태로 지식을 거래하는 라이브 플랫폼.",
+            "what_to_keep_ko": "라이브 시청, 실시간 채팅, 크리에이터 후원 시스템을 계승하여 즉각적인 상호작용 구조를 유지.",
+            "what_to_change_ko": "일반적인 응원성 후원에서 벗어나 '질문 우선순위권', '파일/코드 첨부 후원' 등 목적 지향적인 기능으로 개선.",
+            "mobile_use_or_play_ko": "사용자가 전문가의 지식 방송을 시청하던 중 유료 질문권을 결제해 채팅창 상단에 질문을 고정하고 실시간 피드백을 받는 흐름.",
+            "key_features_ko": [
+              "질문권 첨부형 후원 시스템",
+              "실시간 화면 및 코드 첨부 뷰어",
+              "전문가 신뢰도 및 분야별 지식 등급 마크"
+            ],
+            "solo_mvp_and_effort_ko": "WebRTC 기반 오픈소스 스트리밍 라이브러리와 간이 결제 API를 활용해 텍스트/이미지 피드백 중심의 경량화된 MVP 구현.",
+            "strengths_limits_ko": "명확한 실용적 가치로 유료 전환율이 높을 수 있으나, 양질의 전문가 풀을 확보하고 트래픽 비용을 관리하는 것이 과제."
+          },
+          {
+            "title_ko": "인디스테이지",
+            "core_idea_ko": "인디 게임 개발자가 실시간으로 개발 과정을 중계하고, 팬들이 특정 마일스톤(기능 구현)에 소액 펀딩과 투표를 진행하는 개발 후원 플랫폼.",
+            "what_to_keep_ko": "크리에이터 스튜디오와 팬 후원 등급, 커뮤니티의 밀접한 연동 구조를 그대로 계승하여 창작자 생태계를 조성.",
+            "what_to_change_ko": "방송 화면 하단에 개발 로드맵 마일스톤 게이지를 두어 후원금이 특정 기능 개발 진척도와 직접 연동되도록 변경.",
+            "mobile_use_or_play_ko": "인디 개발자의 빌드 테스트 라이브를 시청하며 다음 업데이트 항목에 투표하고, 인앱 재화로 개발 비용을 후원하는 흐름.",
+            "key_features_ko": [
+              "마일스톤 연동형 진척도 후원 게이지",
+              "앱 내 실시간 빌드 투표 및 설문 시스템",
+              "패치노트와 라이브 방송이 연동된 개발자 스튜디오"
+            ],
+            "solo_mvp_and_effort_ko": "텍스트 기반 패치노트 관리 기능과 가벼운 스트리밍 API를 결합하고, 결제는 인앱결제 라이브러리를 활용해 1인 개발 범위 내로 조정.",
+            "strengths_limits_ko": "창작자와 후원자의 목표가 투명해 몰입도가 높지만, 꾸준히 방송하며 개발할 인디 크리에이터 유치가 성공의 열쇠."
+          },
+          {
+            "title_ko": "버스킹온에어",
+            "core_idea_ko": "거리 공연가와 인디 뮤지션이 모바일로 야외 라이브를 송출하고, 실시간으로 곡 요청과 디지털 팁(후원)을 받는 모바일 버스킹 플랫폼.",
+            "what_to_keep_ko": "라이브 시청, 즐겨찾기, 실시간 후원 및 알림 기능을 가져와 아티스트 중심의 팬 연결 강화.",
+            "what_to_change_ko": "채팅 중심 후원에서 벗어나 '실시간 곡 요청 큐(Queue)'와 '지정곡 후원' 시스템으로 음악 특화 상호작용 구현.",
+            "mobile_use_or_play_ko": "주변 버스커의 라이브 알림을 받고 접속하여 원하는 곡을 신청하며 후원금을 보내 아티스트의 세트리스트에 반영하는 흐름.",
+            "key_features_ko": [
+              "실시간 곡 요청 큐 및 경매형 후원",
+              "위치 기반 주변 버스커 라이브 탐색 지도",
+              "아티스트 세트리스트 및 후원 아카이브"
+            ],
+            "solo_mvp_and_effort_ko": "위치 권한 연동 및 외부 스트리밍 SDK를 활용해 모바일 환경에서 끊김 없는 야외 방송 및 결제 MVP 구축.",
+            "strengths_limits_ko": "오프라인 감성과 디지털 후원의 결합이 매력적이나, 야외 네트워크 불안정성과 저작권 관련 검토가 필요함."
+          }
+        ],
+        "concept_comparison_ko": "피드백라운지는 지식/실용적 가치 교환으로 유료 전환율이 높으나 전문가 확보가 관건이며, 인디스테이지는 개발 마일스톤 연동으로 투명성을 높이지만 창작물 공급이 필요하고, 버스킹온에어는 음악과 오프라인 감성을 결합해 친숙하지만 야외 네트워크 환경과 저작권 문제가 변수입니다.",
+        "recommended_concept_number": 2,
+        "why_recommended_ko": "인디스테이지는 원본의 크리에이터 스튜디오와 후원 등급 시스템을 '개발 마일스톤 및 빌드 후원'이라는 구체적이고 생산적인 목표로 발전시켰습니다. 단순 후원을 넘어 창작 결과물에 대한 투명한 가치 분배를 유도하므로 모바일 앱 서비스로서 차별성과 지속 가능성이 가장 높습니다.",
+        "next_questions_ko": [
+          "실시간 스트리밍 트래픽 비용을 1인 개발 단계에서 어떻게 현실적으로 최적화할 것인가?",
+          "인디 개발자 및 창작자 초기 유입을 유도하기 위한 최소한의 인센티브 구조는 무엇인가?"
+        ]
+      },
+      "brief_at": "2026-11-23T07:02:31+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 1547,
+        "candidatesTokenCount": 1722,
+        "totalTokenCount": 5768,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1547
+          }
+        ],
+        "thoughtsTokenCount": 2499,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:6775732870",
+        "product_kind": "app",
+        "selected_concept_title_ko": "인디스테이지",
+        "project_goal_and_audience_ko": "인디 게임 개발자와 팬들을 위한 실시간 개발 중계 및 마일스톤 펀딩 모바일 앱입니다. 팬들은 개발 과정을 지켜보며 응원하고 싶은 기능에 소액 후원과 투표를 진행하며, 개발자는 투명한 자금 조달과 팬덤 소통을 동시에 달성하는 효용을 얻습니다.",
+        "source_relation_and_difference_ko": "원본의 크리에이터 스튜디오, 실시간 라이브 시청, 후원 등급 및 팬 커뮤니티 구조를 그대로 계승하되, 단순한 팬덤 후원을 넘어 '개발 마일스톤 게이지'와 '기능 구현 투표'를 결합하여 창작의 투명성과 목적성을 극대화한 것이 차별점입니다.",
+        "core_user_experience_ko": "사용자는 홈 화면에서 인디 개발자의 라이브 방송과 현재 진행 중인 개발 마일스톤(예: 신규 보스 패턴 구현)을 확인합니다. 방송 시청 중 채팅이나 인앱 재화(스태프 캐시)를 통해 특정 마일스톤에 후원하면, 화면 하단의 진척도 게이지가 실시간으로 상승하며 개발자에게 즉각적인 피드백과 알림이 전달됩니다.",
+        "features_ko": [
+          {
+            "feature_ko": "마일스톤 연동형 진척도 후원 게이지",
+            "user_action_and_behavior_ko": "사용자가 라이브 방송 화면에서 특정 개발 목표(마일스톤)를 선택하고 후원하면, 모금액이 실시간 반영되어 게이지가 차오르고 100% 달성 시 개발 스튜디오 시스템에 완료 예정 항목으로 자동 등록됩니다.",
+            "practical_implementation_ko": "WebSocket 또는 Firebase Realtime Database를 활용해 후원 이벤트 발생 시 각 클라이언트의 UI 게이지 상태를 실시간 동기화합니다."
+          },
+          {
+            "feature_ko": "앱 내 실시간 빌드 투표 및 설문 시스템",
+            "user_action_and_behavior_ko": "개발자가 방송 중 안건(예: 캐릭터 이동 속도 조정)을 던지면 팬들이 앱 내 투표 카드에서 탭하여 실시간 집계 결과를 원형 차트로 확인합니다.",
+            "practical_implementation_ko": "서버 측에 간단한 투표 API 엔드포인트를 두고, 클라이언트에서 선택 값 전송 후 JSON 응답을 받아 UI를 즉시 갱신합니다."
+          },
+          {
+            "feature_ko": "패치노트 연동형 크리에이터 스튜디오",
+            "user_action_and_behavior_ko": "크리에이터가 앱 내 스튜디오 탭에서 방송 시작, 마일스톤 설정, 후원 현황 확인 및 패치노트 작성을 원스톱으로 관리합니다.",
+            "practical_implementation_ko": "REST API 기반의 모바일용 대시보드 UI를 구성하고, 로컬 상태 관리(Provider/Riverpod)로 입력 지연을 최소화합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "홈/라이브 탐색 화면",
+            "contents_and_actions_ko": "현재 방송 중인 인디 개발 라이브 목록, 카테고리별 필터, 즐겨찾기한 개발자 알림 피드 확인 및 방송방 입장."
+          },
+          {
+            "screen_ko": "라이브 시청 및 마일스톤 후원 화면",
+            "contents_and_actions_ko": "실시간 영상 스트리밍 플레이어, 하단 마일스톤 진척도 게이지, 실시간 채팅창, 후원하기 팝업 호출 버튼."
+          },
+          {
+            "screen_ko": "크리에이터 스튜디오 화면",
+            "contents_and_actions_ko": "방송 송출 준비(제목 및 마일스톤 설정), 후원 누적 현황 그래프, 패치노트 작성 및 발행."
+          }
+        ],
+        "implementation_approach_ko": "Flutter 기반 크로스플랫폼 모바일 앱으로 개발하여 iOS와 Android 동시 대응을 도모합니다. 스트리밍은 WebRTC 또는 가벼운 HLS 스트리밍 SDK를 연동하고, 백엔드는 Node.js와 Socket.io를 결합하여 실시간 채팅 및 마일스톤 게이지 동기화를 구현합니다. 대안으로는 Firebase 백엔드 서비스 활용을 검토할 수 있습니다.",
+        "data_and_storage_ko": [
+          "User(사용자 객체): user_id, nickname, sponsor_tier, balance. 로컬 캐시(SharedPreferences)에 인증 토큰 저장.",
+          "Broadcast(방송 객체): broadcast_id, creator_id, title, current_milestone_id, status. 서버 DB에 저장 및 실시간 동기화.",
+          "Milestone(마일스톤 객체): milestone_id, broadcast_id, title, target_amount, current_amount, status. 후원 발생 시 서버에서 즉시 증액 처리.",
+          "미완성 세부 사항은 인앱 결제 정산 주기 및 수수료 정책 수립을 결정 과제로 남김."
+        ],
+        "mvp_scope_ko": "실시간 라이브 영상 시청, 텍스트 채팅, 단일 마일스톤 게이지 후원, 그리고 기본적인 크리에이터 방송 설정 스튜디오만 포함합니다. 복잡한 커뮤니티 게시판이나 등급별 상세 혜택 자동 지급 시스템은 제외하여 1인이 단기간에 핵심 루프를 검증할 수 있도록 합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 환경 구축 및 인증/스튜디오 기본 화면",
+            "deliverable_and_check_ko": "Flutter 프로젝트 세팅, 로그인 모듈 구현, 크리에이터 스튜디오에서 방송 제목과 마일스톤을 입력하고 저장되는지 확인."
+          },
+          {
+            "stage_ko": "2단계: 라이브 시청 및 실시간 마일스톤 게이지 연동",
+            "deliverable_and_check_ko": "스트리밍 뷰어 연동, 후원 버튼 클릭 시 가상의 재화가 차감되고 마일스톤 게이지가 실시간으로 채워지는지 로컬 시뮬레이션으로 확인."
+          },
+          {
+            "stage_ko": "3단계: 백엔드 소켓 연동 및 MVP 통합 테스트",
+            "deliverable_and_check_ko": "Node.js 서버와 Socket.io를 연결하여 다수 사용자의 후원 및 채팅 입력이 실시간으로 동기화되는지 기기 테스트."
+          }
+        ],
+        "possible_extensions_ko": "마일스톤 달성 시 자동 빌드 파일(APK) 다운로드 링크 제공 기능, 팬덤 등급별 배지 및 전용 이모티콘 시스템, 개발 일지 구독형 뉴스레터 연동.",
+        "risks_and_open_decisions_ko": [
+          "기술 위험: 1인 개발 환경에서 고비용의 실시간 스트리밍 서버 인프라 및 트래픽 관리의 부담. (해결: 서드파티 라이브 스트리밍 API 활용)",
+          "기획 위험: 인디 개발자와 후원자 간의 신뢰 문제 및 마일스톤 미달성 시 환불/보상 정책의 모호함. (결정 과제: 플랫폼 표준 환불 규정 수립)",
+          "미확정 규칙: 후원 수수료 분배 비율 및 정산 주기 등 비즈니스 모델 세부 정책."
+        ],
+        "draft_status_ko": "본 문서는 실제 구현, 플레이테스트 및 성능 측정이 완료되지 않은 인디 개발 플랫폼 '인디스테이지'의 모바일 개발 설계 초안입니다."
+      },
+      "plan_at": "2026-11-23T07:02:47+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 2120,
+        "candidatesTokenCount": 1844,
+        "totalTokenCount": 6566,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2120
+          }
+        ],
+        "thoughtsTokenCount": 2602,
+        "serviceTier": "standard"
+      }
+    },
+    "google:com.outfit7.mytalkingangela2": {
+      "app_key": "google:com.outfit7.mytalkingangela2",
+      "name": "My Talking Angela 2",
+      "developer": "Outfit7 Limited",
+      "source": "google",
+      "kind": "game",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.outfit7.mytalkingangela2&hl=en&gl=US",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.outfit7.mytalkingangela2",
+        "product_kind": "game",
+        "original_experience_ko": "가상 반려동물인 안젤라와 함께 패션 스타일링, 메이크업, 요리, 댄스, 여행 등 다양한 일상 활동을 수행하며 캐릭터와 교감하고 수집하는 캐주얼 육성 게임입니다. (스토어 근거: 헤어/메이크업/의상, 미니게임, 요리, 스티커 수집 / 해석: 다양한 소형 미니게임과 커스터마이징 루프를 통해 장기 체류를 유도함)",
+        "source_facts_and_limitations_ko": [
+          "스토어 확인 사실: 의상 및 메이크업 커스터마이징, 댄스·베이킹·무술 등 미니 활동, 여행, 미니게임, 스티커 수집 및 인앱 결제/구독 시스템이 존재함.",
+          "확인 불가 사항: 사용된 렌더링 엔진, 서버 동기화 방식, 정확한 보상 확률 및 애니메이션 구현 구조는 알 수 없음."
+        ],
+        "valuable_elements_ko": [
+          "캐릭터 커스터마이징을 통한 높은 자기 표현력과 애착 형성",
+          "지루함을 방지하는 다양한 미니게임과 단기 활동(요리, 댄스 등)의 유기적 결합",
+          "스티커 수집 및 보상 획득을 통한 명확한 장기 목표 제시"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "스타 인플루언서 반려펫 키우기",
+            "core_idea_ko": "가상 반려동물을 멋지게 스타일링하고 숏폼 영상 제작 미니게임을 통해 인기를 얻어 도시를 확장해 나가는 시뮬레이션 게임입니다.",
+            "what_to_keep_ko": "패션 및 메이크업 커스터마이징을 통한 자기 표현과 캐릭터와의 정서적 교감.",
+            "what_to_change_ko": "단순한 개인 일상 활동에서 벗어나 가상 숏폼 동영상 촬영 및 피드백(팔로워 반응) 수집이라는 소셜 시뮬레이션 루프로 확장.",
+            "mobile_use_or_play_ko": "앱 실행 후 반려동물 의상 및 메이크업 변경 -> 댄스/제조 숏폼 촬영 미니게임 진행 -> 편집 효과 적용 후 업로드 -> 팔로워 증가 및 인게임 재화 획득.",
+            "key_features_ko": [
+              "숏폼 컨텐츠 촬영 및 연출 미니게임",
+              "트렌드 해시태그에 따른 팔로워 증감 시스템",
+              "팬레터 및 한정판 스티커 수집 도감"
+            ],
+            "solo_mvp_and_effort_ko": "2D/3D 하이브리드 구조. 캐릭터 커스텀 장비 데이터와 터치 기반 리듬 촬영 미니게임 위주로 구현하며 로컬 데이터 저장을 우선하여 1인 개발 부담을 낮춤.",
+            "strengths_limits_ko": "현대적 트렌드와 결합해 몰입감이 높으나, 트렌드 변화에 따른 지속적인 아이템 업데이트가 필요함."
+          },
+          {
+            "title_ko": "마법 공방과 신비한 동물 케어",
+            "core_idea_ko": "다양한 마법 동물들이 찾아오는 공방을 운영하며 맞춤형 액세서리를 제작하고 치유하는 경영 및 제작 게임입니다.",
+            "what_to_keep_ko": "베이킹, 보석 만들기, 꾸미기 등 핸드메이드 제작 및 육성 요소.",
+            "what_to_change_ko": "한 마리의 고정된 반려동물 대신 다양한 손님 동물의 요구를 해결하는 공방 경영 규칙으로 전환.",
+            "mobile_use_or_play_ko": "손님 동물 방문 -> 요구 사항(치료, 액세서리) 파악 -> 퍼즐/타이밍 기반 제작 미니게임 수행 -> 완성품 전달 및 골드 획득으로 공방 확장.",
+            "key_features_ko": [
+              "고객 맞춤형 제작 퍼즐 미니게임",
+              "공방 인테리어 배치 및 확장 시스템",
+              "방문한 동물 도감 및 스티커 수집"
+            ],
+            "solo_mvp_and_effort_ko": "2D 탑뷰 기반 그래픽. 기본 제작 미니게임 3종과 고객 캐릭터 5종으로 MVP를 구성해 구현 난이도를 최적화함.",
+            "strengths_limits_ko": "뚜렷한 공방 발전 목표로 리플레이성이 높으나, 반복 제작 루프의 피로감을 줄일 무작위 이벤트 설계가 필수적임."
+          },
+          {
+            "title_ko": "옥상 정원과 동물들의 힐링 아지트",
+            "core_idea_ko": "좁은 옥상 정원을 가꾸고 자연 간식을 만들어 방황하는 동물 친구들을 초대하는 느린 템포의 힐링 육성 게임입니다.",
+            "what_to_keep_ko": "꽃 심기, 요리/베이킹, 탐험과 수집 요소.",
+            "what_to_change_ko": "도시 속 화려한 패션쇼 대신 자연 친화적인 정원 가꾸기와 동물 교감 중심의 편안한 플레이로 변경.",
+            "mobile_use_or_play_ko": "정원에서 작물 수확 -> 레시피 조합하여 간식 제작 -> 방문 동물에게 제공 -> 하트 및 스티커 획득하여 정원 확장.",
+            "key_features_ko": [
+              "실시간 작물 성장 및 정원 배치",
+              "레시피 조합 요리 미니게임",
+              "동물 방문 기록 스티커 북"
+            ],
+            "solo_mvp_and_effort_ko": "2D 그리드 정원 배치와 단순 터치 요리 미니게임으로 리소스를 최소화하여 1인 개발 가능.",
+            "strengths_limits_ko": "편안하고 자극이 적어 진입장벽이 낮으나, 장기적인 동기부여 요소가 부족할 수 있음."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어는 숏폼 트렌드와 결합해 높은 몰입감을 주지만 트렌드 대응 부담이 있고, 두 번째 아이디어는 공방 경영의 뚜렷한 목표를 제공하나 반복 루프 관리가 필요하며, 세 번째 아이디어는 힐링과 낮은 개발 부담을 제공하지만 자극적인 동기부여가 부족합니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "원작의 핵심인 패션 커스텀과 미니게임 재미를 현대적인 '인플루언서 숏폼 제작'이라는 개념으로 확장하여, 모바일 환경에서 친숙하면서도 참신한 경험을 줄 수 있으며 1인 개발 범위 내에서 충분히 구현이 가능합니다.",
+        "next_questions_ko": [
+          "숏폼 제작 미니게임의 플레이 타임이 지루하지 않고 반복 재미를 주기에 충분한가?",
+          "로컬 데이터 저장만으로 충분한가, 아니면 간단한 클라우드 세이브 연동이 필수적인가?"
+        ]
+      },
+      "brief_at": "2026-11-23T07:10:40+09:00",
+      "brief_quota_day": "2026-11-23",
+      "brief_usage": {
+        "promptTokenCount": 1819,
+        "candidatesTokenCount": 1711,
+        "totalTokenCount": 7556,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1819
+          }
+        ],
+        "thoughtsTokenCount": 4026,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.outfit7.mytalkingangela2",
+        "product_kind": "game",
+        "selected_concept_title_ko": "스타 인플루언서 반려펫 키우기",
+        "project_goal_and_audience_ko": "본 게임은 트렌디한 패션과 숏폼 콘텐츠 제작에 흥미를 느끼는 캐주얼 게이머를 대상으로 합니다. 가상 반려동물을 직접 스타일링하고 동영상 촬영 미니게임을 통해 인플루언서로 성장시키는 재미를 제공하여, 모바일 환경에서 친숙한 조작으로 몰입감 있는 성취감을 느낄 수 있도록 합니다.",
+        "source_relation_and_difference_ko": "원작의 핵심인 패션 커스터마이징과 다양한 단기 활동(미니게임) 요소는 적극 계승하면서, 단순한 개인 일상 활동에서 벗어나 '가상 숏폼 동영상 촬영 및 팔로워 반응 수집'이라는 현대적인 소셜 시뮬레이션 루프로 확장 및 개선했습니다.",
+        "core_user_experience_ko": "사용자는 메인 화면에서 반려펫의 헤어, 의상, 메이크업을 터치하여 자유롭게 꾸민 뒤, 트렌드 해시태그를 선택하고 리듬/탭 기반의 숏폼 촬영 미니게임을 플레이합니다. 촬영 완료된 영상의 점수와 트렌드 부합도에 따라 팔로워 수와 인게임 재화가 변동되는 실시간 피드백을 받습니다.",
+        "features_ko": [
+          {
+            "feature_ko": "펫 스타일링 커스텀룸",
+            "user_action_and_behavior_ko": "사용자가 의상, 헤어스타일, 메이크업 아이템을 터치하여 선택하면 캐릭터에 실시간 반영되고 저장됩니다. 개성 있는 외형을 통해 자기 표현의 가치를 제공합니다.",
+            "practical_implementation_ko": "2D 스프라이트 또는 가벼운 3D 모델 교체 구조를 활용하며, 아이템 착용 상태를 데이터 구조체로 관리하여 로컬 저장소에 즉시 반영합니다."
+          },
+          {
+            "feature_ko": "숏폼 콘셉트 촬영 미니게임",
+            "user_action_and_behavior_ko": "음악과 리듬에 맞춰 화면의 노트를 탭하거나 스와이프하여 댄스/제조 숏폼을 촬영합니다. 성공 여부에 따라 영상의 퀄리티 점수가 산출됩니다.",
+            "practical_implementation_ko": "타이밍 체크 로직과 UI 이벤트를 연결한 간단한 리듬 게임 모듈로 구현하며, 1인 개발 시 코루틴이나 타이머 기반의 가벼운 입력 판정 시스템을 적용합니다."
+          },
+          {
+            "feature_ko": "팔로워 및 보상 정산 시스템",
+            "user_action_and_behavior_ko": "촬영된 숏폼의 점수와 선택한 해시태그의 트렌드 적합도에 따라 팔로워 수와 인게임 재화(팬심 코인)가 지급되며, 팬레터나 스티커 아이템을 획득합니다.",
+            "practical_implementation_ko": "점수 산출 알고리즘 함수를 구현하고, 획득한 보상 데이터를 플레이어 프로필 상태에 누적하여 저장합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 룸 화면",
+            "contents_and_actions_ko": "반려펫의 현재 상태 표시, 의상실 진입 버튼, 촬영 스튜디오 진입 버튼, 팔로워 수 및 재화 현황 확인."
+          },
+          {
+            "screen_ko": "스타일링 커스텀 화면",
+            "contents_and_actions_ko": "보유 중인 의상/헤어/메이크업 카테고리별 아이템 리스트 표시 및 터치 시 즉시 캐릭터 반영, 저장 후 메인 복귀."
+          },
+          {
+            "screen_ko": "숏폼 촬영 스튜디오 화면",
+            "contents_and_actions_ko": "트렌드 해시태그 선택 -> 리듬/탭 미니게임 플레이 -> 촬영 결과(점수 및 등급) 연출 확인 후 업로드."
+          },
+          {
+            "screen_ko": "프로필 및 도감 화면",
+            "contents_and_actions_ko": "업로드된 영상 목록, 현재 팔로워 수, 수집한 스티커 도감 및 팬레터 확인."
+          }
+        ],
+        "implementation_approach_ko": "크로스플랫폼 2D/3D 게임 제작에 유리하고 UI 중심의 시뮬레이션 구현이 직관적인 Unity 엔진을 채택합니다. 핵심 로직은 C# 기반의 매니저 싱글톤 구조로 분리하고, 데이터는 로컬 JSON 파일 및 PlayerPrefs를 활용하여 1인 개발의 복잡도를 낮추고 빠른 프로토타이핑을 도모합니다.",
+        "data_and_storage_ko": [
+          "PlayerProfile: 펫 이름, 현재 레벨, 팔로워 수, 보유 재화. 앱 실행 시 로드, 주요 행동 완료 시 로컬 저장.",
+          "WardrobeItem: 아이템 ID, 카테고리, 해제 여부, 착용 상태. 리스트 형태로 로컬 JSON에 직렬화 저장.",
+          "VideoRecord: 영상 ID, 콘셉트 점수, 획득 팔로워, 업로드 시간. 프로필 내역 관리를 위해 리스트 구조로 유지."
+        ],
+        "mvp_scope_ko": "기본 커스텀 아이템 3종 세트, 1가지 핵심 숏폼 촬영 미니게임, 로컬 데이터 저장 및 팔로워 변동 기능만 포함하는 최소 기능 제품(MVP)을 구성합니다. '꾸미기 -> 촬영 -> 보상'으로 이어지는 핵심 코어 루프가 정상 작동하는지 검증하기에 충분합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 셋업 및 기본 화면 구성",
+            "deliverable_and_check_ko": "Unity 프로젝트 생성, 메인 룸과 스타일링, 촬영 스튜디오 간의 UI 씬 전환 흐름 구현 및 확인."
+          },
+          {
+            "stage_ko": "2단계: 캐릭터 커스텀 및 데이터 바인딩",
+            "deliverable_and_check_ko": "아이템 선택 시 캐릭터 외형 변경 기능 구현 및 로컬 저장/로드 정상 작동 여부 확인."
+          },
+          {
+            "stage_ko": "3단계: 숏폼 촬영 미니게임 및 보상 정산 구현",
+            "deliverable_and_check_ko": "터치/탭 기반의 미니게임 플레이 로직, 점수 산출 함수, 팔로워 및 재화 증가 연동 확인."
+          },
+          {
+            "stage_ko": "4단계: UI 폴리싱 및 도감 연동",
+            "deliverable_and_check_ko": "전체 사용자 흐름 점검, 팬레터/스티커 도감 UI 연결 및 예외 상황 테스트."
+          }
+        ],
+        "possible_extensions_ko": "핵심 루프가 안정화된 이후, 친구의 펫과 함께 찍는 '듀엣 콜라보 미니게임', 집 내부 인테리어 커스텀 콘텐츠, 시즌 한정 트렌드 해시태그 이벤트 시스템 등을 순차적으로 확장할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "1인 개발 환경에서 다양한 의상 및 애니메이션 리소스 제작에 소요되는 시간이 길어질 수 있으므로 초기에는 최소한의 2D 스프라이트나 단순 3D 프리미티브 위주로 진행할 것.",
+          "미니게임의 난이도와 팔로워 획득 보상 밸런스는 플레이 테스트 전까지 미확정 상태이며, 프로토타입 단계 이후 조율이 필요함."
+        ],
+        "draft_status_ko": "본 문서는 실제 구현, 플레이테스트, 성능 측정이 완료되지 않은 아이디어 기반의 모바일 개발 설계 초안입니다."
+      },
+      "plan_at": "2026-11-23T07:10:56+09:00",
+      "plan_quota_day": "2026-11-23",
+      "plan_usage": {
+        "promptTokenCount": 2400,
+        "candidatesTokenCount": 1886,
+        "totalTokenCount": 6045,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2400
+          }
+        ],
+        "thoughtsTokenCount": 1759,
+        "serviceTier": "standard"
+      }
     }
   }
 }
