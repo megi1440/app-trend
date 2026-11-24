@@ -27160,6 +27160,180 @@
         "thoughtsTokenCount": 2821,
         "serviceTier": "standard"
       }
+    },
+    "apple:6504572215": {
+      "app_key": "apple:6504572215",
+      "name": "Frogs Kitchen",
+      "developer": "OUTLOUD SOFTWARE DEVELOPMENT LTD",
+      "source": "apple",
+      "kind": "game",
+      "detail_url": "https://apps.apple.com/us/app/frogs-kitchen/id6504572215?uo=2",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:6504572215",
+        "product_kind": "game",
+        "original_experience_ko": "원작은 개구리 요리사와 손님들이 등장하는 방치형 경영 시뮬레이션 게임입니다. 다양한 테마의 식당을 확장하고, 요리사 의상을 꾸며 보너스를 얻으며, 오프라인 중에도 수익이 쌓이는 구조를 제공합니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 소개에 따르면 개구리 요리사 고용, 의상 커스터마이징, 방치형 수익, 스낵 피버(Snack Fever) 이벤트가 존재함.",
+          "오프라인 수익 계산 공식, 서버 연동 방식, 인앱 결제 구조 등 기술적 세부 사항은 스토어 정보에서 확인할 수 없음."
+        ],
+        "valuable_elements_ko": [
+          "귀여운 동물 캐릭터(개구리)를 활용한 친근한 테마와 시각적 매력.",
+          "지속적인 성취감을 주는 방치형 성장 및 식당 확장 루프.",
+          "커스터마이징 요소가 단순 치장이 아니라 수치적 능력치(수익 증가)와 연동되는 구조."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "숲속 동물 요리단: 협동 푸드트럭 연맹",
+            "core_idea_ko": "혼자서 방치하는 기존 방식에서 벗어나, 여러 플레이어의 요리 거점을 비동기 네트워크로 연결해 상호작용하는 협동 경영 게임.",
+            "what_to_keep_ko": "귀여운 동물 셰프 캐릭터와 방치형 기반의 식당 성장 루프를 계승.",
+            "what_to_change_ko": "솔로 플레이 중심의 폐쇄적 방치에서 벗어나, 친구의 식당에 요리사를 파견하거나 재료를 교환하는 비동기 협동 및 소셜 기능을 결합.",
+            "mobile_use_or_play_ko": "접속 시 친구 식당에서 파견 보상을 수령하고, 자신의 푸드트럭 테마를 업그레이드한 뒤 다시 방치 상태로 전환.",
+            "key_features_ko": [
+              "비동기 요리사 파견 시스템",
+              "특산물 교환 마켓",
+              "푸드트럭 테마별 시너지 효과"
+            ],
+            "solo_mvp_and_effort_ko": "로컬 저장 기반의 1인 개발에 간단한 리얼타임 DB를 연동하여 친구 데이터 동기화 구현, 중간 난이도.",
+            "strengths_limits_ko": "소셜 재미로 리텐션이 높아지나 서버 비용 및 동기화 오류 처리 부담이 존재함."
+          },
+          {
+            "title_ko": "개구리 셰프의 타이밍 러시 주방",
+            "core_idea_ko": "평소에는 방치형으로 자원을 모으다 특정 시간대에 몰려오는 손님들을 상대로 순발력 있는 터치 타이밍 미니게임을 수행하는 하이브리드 게임.",
+            "what_to_keep_ko": "요리사 개구리들의 바쁜 주방 분위기와 손님 러시(Snack Fever) 이벤트 경험을 계승.",
+            "what_to_change_ko": "단순 수치 관찰에 그치던 방치형 플레이에 직접 개입하여 조작하는 액션/퍼즐 요소를 결합해 몰입감을 높임.",
+            "mobile_use_or_play_ko": "방치로 재화를 모은 후 알림을 받아 '러시 타임'에 진입, 제한 시간 내에 터치 콤보로 요리를 완성해 보너스 획득.",
+            "key_features_ko": [
+              "수동 조작 기반 러시 타임",
+              "콤보 달성형 특수 보상",
+              "셰프 스킬 쿨타임 관리"
+            ],
+            "solo_mvp_and_effort_ko": "방치 엔진과 간단한 타이밍 미니게임 씬을 분리 구현, 1인 개발로 비교적 단기간 제작 가능.",
+            "strengths_limits_ko": "지루할 수 있는 방치형에 능동적 재미를 주지만 피로도가 높아질 수 있음."
+          },
+          {
+            "title_ko": "미지의 섬 개구리 미식 원정대",
+            "core_idea_ko": "식당 경영을 넘어 개구리 셰프들을 미지의 섬으로 탐험 보내 희귀 식재료를 수집하고 새로운 레시피를 연구하는 탐험 경영 결합 게임.",
+            "what_to_keep_ko": "개구리 요리사 테마와 꾸미기, 점진적 확장이라는 핵심 성장 구조 계승.",
+            "what_to_change_ko": "고정된 장소의 식당 확장이라는 틀을 깨고, 무작위 탐험 노드와 레시피 조합이라는 로그라이크 요소를 도입해 수집의 재미를 강화.",
+            "mobile_use_or_play_ko": "셰프 탐험대 편성 -> 시간 경과 후 귀환 및 신규 식재료 획득 -> 새로운 레시피 개발 및 베이스캠프 레스토랑 업그레이드.",
+            "key_features_ko": [
+              "랜덤 탐험 노드 및 이벤트",
+              "식재료 조합 레시피 연구소",
+              "탐험 장비 커스터마이징"
+            ],
+            "solo_mvp_and_effort_ko": "텍스트 및 카드 기반의 탐험 시스템과 방치 타이머를 결합하여 그래픽 리소스 부담을 줄이면서 1인 개발 가능.",
+            "strengths_limits_ko": "수집과 조합의 재미가 크나 레시피 밸런싱 작업이 까다로울 수 있음."
+          }
+        ],
+        "concept_comparison_ko": "1안은 소셜 협동으로 리텐션을 높이나 서버 연동 부담이 있고, 2안은 능동적 재미를 주나 피로감이 발생할 수 있으며, 3안은 탐험과 레시피 조합을 통해 방치형의 단조로움을 해소하면서도 1인 개발 범위 내에서 높은 몰입감을 제공합니다.",
+        "recommended_concept_number": 3,
+        "why_recommended_ko": "3안(미지의 섬 개구리 미식 원정대)은 원작의 귀여운 개구리 테마와 성장 루프를 유지하면서도, 단순한 건물 업그레이드 반복을 탐험과 레시피 연구라는 참신한 목적성으로 발전시켜 모바일 유저에게 깊은 성취감을 줄 수 있습니다.",
+        "next_questions_ko": [
+          "탐험 중 발생하는 무작위 이벤트가 방치형의 편안함을 해치지 않는 적정 주기는 얼마인가?",
+          "식재료 조합 데이터가 너무 방대해지지 않도록 초기 MVP 단계의 레시피 가짓수를 어떻게 제한할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-24T12:05:18+09:00",
+      "brief_quota_day": "2026-11-24",
+      "brief_usage": {
+        "promptTokenCount": 1582,
+        "candidatesTokenCount": 1657,
+        "totalTokenCount": 6151,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1582
+          }
+        ],
+        "thoughtsTokenCount": 2912,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:6504572215",
+        "product_kind": "game",
+        "selected_concept_title_ko": "미지의 섬 개구리 미식 원정대",
+        "project_goal_and_audience_ko": "귀여운 개구리 셰프들과 함께 미지의 섬을 탐험하고 희귀 식재료를 수집하여 베이스캠프 레스토랑을 발전시키는 방치형 탐험 경영 시뮬레이션 게임입니다. 캐주얼한 방치형 성장의 재미를 선호하면서도, 단순한 건물 업그레이드를 넘어 탐험과 레시피 조합이라는 수집 및 성장 목표를 추구하는 모바일 게이머를 타깃으로 합니다.",
+        "source_relation_and_difference_ko": "원본 프롭 스키친의 귀여운 개구리 셰프 테마, 의상 커스터마이징에 따른 능력치 상승, 방치형 성장 루프라는 핵심 경험을 충실히 계승합니다. 차이점으로는 단일 식당 건물의 단순 확장 구조에서 벗어나, 개구리 셰프들을 미지의 섬으로 파견하여 식재료를 수집하고 새로운 레시피를 연구하는 로그라이크 및 수집형 탐험 요소를 결합하여 몰입감을 높였습니다.",
+        "core_user_experience_ko": "사용자는 앱을 실행하여 개구리 셰프들에게 탐험 장비를 착용시키고 미지의 섬 노드로 파견합니다. 시간이 지나면 셰프들이 귀환하여 희귀 식재료와 보상을 가져옵니다. 획득한 식재료를 연구소에 투입해 새로운 요리 레시피를 해제하고, 이를 베이스캠프 레스토랑에서 판매해 골드를 획득합니다. 획득한 재화로 셰프의 장비를 업그레이드하거나 더 먼 섬으로의 탐험을 준비하는 선순환 루프를 경험합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "개구리 셰프 원정대 파견 시스템",
+            "user_action_and_behavior_ko": "사용자가 셰프와 장비를 선택해 섬 탐험을 시작하면 타이머가 작동하고, 시간이 완료되면 시스템 시간 계산을 통해 식재료와 경험치를 획득합니다.",
+            "practical_implementation_ko": "클라이언트의 로컬 시간과 저장된 종료 시간의 차이를 비교하여 오프라인 보상을 정산하는 타이머 로직을 구현합니다."
+          },
+          {
+            "feature_ko": "식재료 조합 및 레시피 연구소",
+            "user_action_and_behavior_ko": "탐험으로 얻은 재료들을 조합해 새로운 요리를 발견하고, 메뉴 판매 단가를 높이거나 특별한 손님을 유치합니다.",
+            "practical_implementation_ko": "재료 ID 조합을 키로 하는 해시맵 또는 레시피 데이터 테이블을 구성하여 조합 성공 여부를 판정합니다."
+          },
+          {
+            "feature_ko": "능력치 연동 의상 커스터마이징",
+            "user_action_and_behavior_ko": "모자, 앞치마 등 코스튬을 장착하면 탐험 속도 증가나 식재료 획득량 증가 등의 보너스 스탯이 부여됩니다.",
+            "practical_implementation_ko": "장비 데이터 구조체에 스탯 보너스 필드를 추가하고, 셰프 객체의 최종 능력치 계산 시 합산 적용합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "베이스캠프 레스토랑 화면",
+            "contents_and_actions_ko": "요리 판매로 골드가 자동으로 쌓이는 현황판, 탐험대 출발 버튼, 연구소 및 상점 진입 메뉴바 표시."
+          },
+          {
+            "screen_ko": "미지의 섬 탐험 맵 화면",
+            "contents_and_actions_ko": "해제된 섬들의 리스트와 노드 선택, 셰프 파견 상태 및 남은 시간 타이머 확인 및 보상 수령."
+          },
+          {
+            "screen_ko": "셰프 관리 및 커스터마이징 화면",
+            "contents_and_actions_ko": "보유 셰프 목록, 장착 중인 의상 확인, 코스튬 구매 및 능력치 상승 효과 미리보기."
+          }
+        ],
+        "implementation_approach_ko": "UI 중심의 방치형 장르 특성을 살려 크로스플랫폼 개발이 용이한 프레임워크 또는 가벼운 2D UI 엔진을 채택합니다. 상태 관리를 효율적으로 관리하여 타이머와 자원 갱신 주기를 제어하며, 복잡한 물리 엔진 없이 텍스트 및 이미지 기반 인터페이스로 구현하여 1인 개발의 공수 부담을 최소화합니다.",
+        "data_and_storage_ko": [
+          "셰프 데이터 객체(chef_id, name, level, equipped_costume_id, stats) 정의",
+          "탐험 노드 데이터 객체(node_id, region_name, required_level, reward_items, duration_sec) 정의",
+          "레시피 데이터 객체(recipe_id, required_ingredients, sell_price) 정의",
+          "로컬 저장소를 활용하여 앱 종료 시각과 현재 재화 상태를 JSON 형태로 직렬화하여 저장하고 재실행 시 오프라인 경과 시간 산출"
+        ],
+        "mvp_scope_ko": "단일 섬 탐험 파견 기능, 기본 식재료 수집, 레시피 3종 해제, 베이스캠프 골드 수급 및 기본 의상 2종 커스터마이징까지만 구현합니다. 애니메이션이나 사운드, 멀티플레이, 복잡한 랜덤 이벤트는 제외하여 1인이 단기간 내에 프로토타입을 완성할 수 있도록 범위를 제한합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 코어 데이터 모델 및 UI 레이아웃 구축",
+            "deliverable_and_check_ko": "메인 레스토랑 화면과 셰프 데이터 구조를 만들고, 골드가 시간에 따라 증가하는지 기본 루프 확인"
+          },
+          {
+            "stage_ko": "2단계: 탐험 파견 및 방치 타이머 구현",
+            "deliverable_and_check_ko": "셰프를 섬으로 보내고 타이머 종료 후 자원이 들어오는 로직과 앱 재실행 시 오프라인 정산 확인"
+          },
+          {
+            "stage_ko": "3단계: 레시피 조합 및 커스터마이징 연동",
+            "deliverable_and_check_ko": "재료 조합을 통한 레시피 해제 시스템과 장비 착용 시 스탯 변동 적용 여부 테스트"
+          }
+        ],
+        "possible_extensions_ko": "날씨 시스템에 따른 탐험 보너스, 희귀 개구리 셰프 영입 시스템, 시즌별 특별 섬 이벤트 추가.",
+        "risks_and_open_decisions_ko": [
+          "오프라인 타이머 계산 시 기기 시각 조작 어뷰징에 대한 대응책은 프로토타입 단계에서는 유예하되 추후 고려 과제로 둠",
+          "식재료 조합식이 너무 복잡해지면 피로도가 높아질 수 있으므로 적정 조합 가짓수는 밸런스 테스트를 통해 확정 필요"
+        ],
+        "draft_status_ko": "본 문서는 미지의 섬 개구리 미식 원정대 기획을 바탕으로 작성된 모바일 게임 개발 설계 초안으로, 실제 구현, 플레이테스트 및 성능 최적화가 완료되지 않았습니다."
+      },
+      "plan_at": "2026-11-24T12:05:35+09:00",
+      "plan_quota_day": "2026-11-24",
+      "plan_usage": {
+        "promptTokenCount": 2140,
+        "candidatesTokenCount": 1799,
+        "totalTokenCount": 7052,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2140
+          }
+        ],
+        "thoughtsTokenCount": 3113,
+        "serviceTier": "standard"
+      }
     }
   }
 }

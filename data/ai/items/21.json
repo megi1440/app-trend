@@ -14494,6 +14494,271 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-23"
+    },
+    "itch:0b577fe9985ca1482e8c": {
+      "app_key": "itch:0b577fe9985ca1482e8c",
+      "name": "Flower Garden [Free] [Puzzle]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://arcanjo-digital-studios.itch.io/flower-garden",
+      "data_date": "2026-11-24",
+      "analysed_at": "2026-11-24T11:31:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Swap flowers, line up three and bloom through 40 painted levels. A calm match-3.",
+      "analysis": {
+        "app_key": "itch:0b577fe9985ca1482e8c",
+        "summary_ko": "Flower Garden은 꽃을 테마로 한 차분한 분위기의 매치-3 퍼즐 게임입니다. 사용자는 인접한 꽃의 위치를 바꾸어 같은 종류 3개를 일렬로 맞추는 방식으로 게임을 진행합니다. 총 40개의 수채화풍 레벨이 제공되어 시각적인 즐거움을 줍니다.",
+        "features_ko": [
+          "인접한 꽃의 위치를 서로 바꾸는 스왑 메커니즘을 제공합니다.",
+          "가로 또는 세로로 같은 종류의 꽃 3개를 일렬로 배치하여 제거합니다.",
+          "총 40개의 개별 레벨이 순차적으로 제공됩니다."
+        ],
+        "noteworthy_ko": "매치-3 장르의 핵심 메커니즘을 40개의 레벨로 구조화한 점이 흥미롭습니다. 수채화풍의 아트 스타일을 통해 차분한 사용자 경험을 의도한 것으로 보입니다.",
+        "development_ko": "그리드 기반의 데이터 구조와 매칭 알고리즘 구현이 핵심입니다. 레벨 디자인은 데이터 파일로 분리하여 관리하는 것이 효율적입니다. 그래픽 리소스 제작에 시간이 소요될 수 있습니다.",
+        "idea_ko": "특정 꽃을 맞출 때마다 정원이 조금씩 꾸며지는 데코레이션 요소를 결합하는 아이디어를 추천합니다.",
+        "highlights_ko": [
+          "40개의 레벨로 구성된 퍼즐 콘텐츠.",
+          "수채화풍의 시각적 테마를 활용한 차분한 분위기."
+        ],
+        "systems_ko": [
+          "그리드 데이터 관리 시스템",
+          "매치 판정 및 블록 제거 알고리즘",
+          "레벨 데이터 로더",
+          "UI 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "매치-3의 기본 로직은 구현하기 명확하지만, 40개의 레벨을 밸런스 있게 설계하는 과정에서 반복적인 테스트가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "그리드 생성 및 스왑 로직",
+            "3매치 판정 알고리즘",
+            "기본 레벨 1개 구현"
+          ],
+          "defer": [
+            "40개 레벨 전체",
+            "화려한 이펙트"
+          ],
+          "risks": [
+            "매칭 알고리즘의 예외 처리 부족",
+            "레벨 디자인의 난이도 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "정원 가꾸기 모드",
+            "concept": "퍼즐을 풀 때 얻는 점수로 정원의 꽃을 심는 모드입니다. 퍼즐과 꾸미기 요소를 결합하여 동기를 부여합니다.",
+            "first_step": "퍼즐 성공 시 정원 데이터에 꽃 개수를 추가하는 로직 구현."
+          },
+          {
+            "title": "시간 제한 모드",
+            "concept": "제한 시간 내에 특정 점수를 달성해야 하는 긴박한 모드입니다. 기존의 차분한 게임성에 속도감을 더합니다.",
+            "first_step": "타이머 UI와 시간 종료 시 게임 오버 상태 구현."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 기본 로직인 그리드 시스템과 매칭 알고리즘을 학습하기에 좋습니다. 단순한 규칙을 가진 게임을 완성도 있게 다듬는 연습을 하기에 적합합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 40개 레벨의 구체적인 구성 요소나 특수 블록, 아이템 존재 여부를 확인할 수 없습니다.",
+        "name": "Flower Garden [Free] [Puzzle]",
+        "source": "itch",
+        "detail_url": "https://arcanjo-digital-studios.itch.io/flower-garden",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 375,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-24"
+    },
+    "apple:6810654469": {
+      "app_key": "apple:6810654469",
+      "name": "ファミコレ-Famikore",
+      "developer": "合同会社 Merch Digital Plus",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%AC-famikore/id6810654469",
+      "data_date": "2026-11-24",
+      "analysed_at": "2026-11-24T11:33:10+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ファミコレはアーティストのデジタルカードを集めて楽しめるアプリです。 お気に入りのカードを眺めたり、カードに思い出を一緒に紐付けたり、自分だけの楽しみ方が広がります。 ◆デジタルカードを集めよう アーティストの魅力が詰まったカードが、さまざまなテーマで登場します。集めたカードはいつでもアプリで楽しめます。 ◆カードに思い出を残そう カードの裏面に写真を登録し、モーメント（思い出）を作成することができます。一枚一枚が自分だけの特別なカードになっていきます。 ◆フレンドにカードを贈ろう カードにメッセージを添えて、フレンドに贈ることができます。 ※提供されるカードや機能は、時期やイベントによって異なる場合があります。 ※本アプリで提供するカードはデジタルコンテンツです。",
+      "analysis": {
+        "app_key": "apple:6810654469",
+        "summary_ko": "디지털 아티스트 카드를 수집하고 관리하는 앱입니다. 사용자는 카드를 감상하고 뒷면에 사진을 등록하여 개인적인 추억을 기록할 수 있습니다. 또한 친구에게 메시지와 함께 카드를 선물하는 기능을 제공합니다.",
+        "features_ko": [
+          "다양한 테마의 아티스트 디지털 카드를 수집하고 앱 내에서 감상할 수 있습니다.",
+          "카드 뒷면에 사진을 등록하여 특정 순간의 추억을 기록할 수 있습니다.",
+          "메시지를 작성하여 보유한 카드를 친구에게 선물할 수 있습니다."
+        ],
+        "noteworthy_ko": "디지털 수집품에 개인적인 서사를 부여하는 '기억 기록' 기능이 핵심입니다. 단순한 수집을 넘어 사용자만의 개인화된 앨범으로 확장하려는 시도가 흥미롭습니다.",
+        "development_ko": "디지털 카드 이미지 관리와 사용자 간 데이터 전송 시스템이 핵심입니다. 카드 데이터의 무결성 유지와 사용자 간 선물하기 기능 구현 시 서버 동기화가 중요합니다. 테스트 시 다양한 기기에서의 이미지 로딩 속도와 데이터 동기화 안정성을 확보해야 합니다.",
+        "idea_ko": "특정 장소나 이벤트에서만 획득 가능한 위치 기반 디지털 카드 수집 시스템.",
+        "highlights_ko": [
+          "카드 뒷면을 활용한 개인적인 추억 기록 기능.",
+          "사용자 간 카드 선물하기를 통한 커뮤니티 요소."
+        ],
+        "systems_ko": [
+          "사용자 계정 및 데이터베이스 관리",
+          "디지털 카드 이미지 및 메타데이터 관리",
+          "사용자 간 데이터 전송 및 선물하기 로직",
+          "이미지 업로드 및 갤러리 UI"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "이미지 처리와 사용자 간 데이터 통신이 필요하며, 서버 인프라 구축이 필수적입니다. 단순한 UI 구현보다 데이터 보안과 동기화 처리에 기술적 노력이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카드 목록 조회",
+            "카드 뒷면 사진 등록",
+            "기본적인 사용자 프로필"
+          ],
+          "defer": [
+            "실시간 이벤트 알림",
+            "복잡한 카드 거래 시스템"
+          ],
+          "risks": [
+            "서버 비용 및 데이터 저장소 관리",
+            "사용자 간 데이터 전송 시 보안 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "위치 기반 카드 헌팅",
+            "concept": "특정 장소에 방문해야만 디지털 카드를 획득할 수 있는 시스템입니다. 오프라인 활동과 디지털 수집을 결합합니다.",
+            "first_step": "GPS 좌표를 기반으로 특정 반경 내에서 아이템을 획득하는 간단한 프로토타입 구현."
+          },
+          {
+            "title": "카드 앨범 공유 소셜",
+            "concept": "자신이 꾸민 카드 앨범을 타인에게 공개하고 좋아요를 받는 소셜 피드 기능입니다.",
+            "first_step": "사용자가 꾸민 카드 페이지를 이미지로 저장하여 공유하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "데이터베이스와 사용자 간 상호작용이 포함된 앱의 기본 구조를 배우기에 적합합니다. 다만 서버 운영 경험이 없다면 초기 단계에서 난이도가 높을 수 있습니다.",
+        "source_limitations_ko": "외부 서비스 연동, 결제 시스템, 카드 획득 방식의 구체적인 로직은 설명에 명시되지 않아 확인이 불가능합니다.",
+        "name": "ファミコレ-Famikore",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%AC-famikore/id6810654469",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 234,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-24"
+    },
+    "google:com.speedy.sweepphone": {
+      "app_key": "google:com.speedy.sweepphone",
+      "name": "Speedy Sweep",
+      "developer": "dev-style",
+      "source": "google",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.speedy.sweepphone&hl=ko&gl=KR",
+      "data_date": "2026-11-23",
+      "analysed_at": "2026-11-24T11:37:08+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Speedy Sweep은 저장 공간 사용량을 확인하고 원치 않는 파일을 삭제하는 데 도움을 줍니다. 접근 가능한 파일을 탐색하고, 스크린샷, 중복 사진 및 용량이 큰 파일을 검토하고, 설치된 앱과 배터리 정보를 확인할 수 있습니다. 파일 도구를 사용하려면 저장 공간 접근 권한이 필요하며, 제공되는 정보는 기기에 따라 다를 수 있습니다. 영구 삭제를 확인하기 전에 선택 내용을 다시 한번 검토하세요.",
+      "analysis": {
+        "app_key": "google:com.speedy.sweepphone",
+        "summary_ko": "Speedy Sweep은 기기의 저장 공간을 효율적으로 관리하고 최적화하는 도구 앱입니다. 사용자는 저장 공간 사용량을 확인하고 불필요한 파일이나 중복 사진을 정리할 수 있습니다. 또한 설치된 앱 정보와 배터리 상태를 확인하여 기기 성능을 유지하도록 돕습니다.",
+        "features_ko": [
+          "기기 내 저장 공간 사용량을 분석하여 시각적으로 보여줍니다.",
+          "스크린샷, 중복 사진, 대용량 파일을 검색하여 삭제할 수 있습니다.",
+          "현재 설치된 앱 목록을 확인하고 관리할 수 있습니다.",
+          "기기의 배터리 상태 정보를 제공합니다."
+        ],
+        "noteworthy_ko": "파일 시스템 접근 권한을 활용하여 기기 내 데이터를 분석하는 전형적인 유틸리티 앱입니다. 사용자가 직접 파일을 선택하고 삭제하는 과정에서 데이터 손실을 방지하는 UI/UX 설계가 중요합니다.",
+        "development_ko": "안드로이드 파일 시스템 API 활용 능력이 핵심이며, 파일 검색 및 삭제 시 권한 관리와 안전한 파일 처리가 필수입니다. 다양한 기기 환경에서의 파일 경로 호환성 테스트와 배터리 정보 수집을 위한 시스템 API 연동이 필요합니다.",
+        "idea_ko": "사용자의 파일 사용 패턴을 분석하여 자주 사용하지 않는 파일을 자동으로 클라우드에 백업하고 기기에서 삭제하는 스마트 정리 도구.",
+        "highlights_ko": [
+          "저장 공간 분석 및 불필요 파일 정리 기능을 제공합니다.",
+          "앱 관리 및 배터리 정보 확인 등 기기 최적화 도구를 포함합니다."
+        ],
+        "systems_ko": [
+          "파일 시스템 탐색 및 분석 모듈",
+          "파일 삭제 및 권한 관리 시스템",
+          "앱 정보 추출 및 관리 시스템",
+          "배터리 상태 모니터링 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "파일 시스템 접근과 권한 처리는 표준 API를 통해 구현 가능하지만, 기기별로 다른 파일 구조와 권한 정책을 대응하는 과정에서 테스트 부담이 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "저장 공간 용량 표시",
+            "파일 목록 탐색 및 삭제 기능",
+            "필수 권한 요청 로직"
+          ],
+          "defer": [
+            "자동 최적화 스케줄러",
+            "클라우드 연동",
+            "상세 배터리 성능 분석"
+          ],
+          "risks": [
+            "중요 시스템 파일 삭제 위험",
+            "OS 버전별 권한 정책 변화 대응",
+            "사용자 데이터 삭제에 대한 책임"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "파일 유형별 자동 분류기",
+            "concept": "기기 내 파일을 문서, 이미지, 영상 등으로 자동 분류하고, 사용자가 설정한 규칙에 따라 폴더를 정리합니다.",
+            "first_step": "파일 확장자 기반의 분류 로직과 파일 이동 기능 구현."
+          },
+          {
+            "title": "중복 파일 시각화 도구",
+            "concept": "중복된 파일을 단순히 목록으로 보여주는 것이 아니라, 파일 간의 유사도를 시각적으로 보여주어 사용자가 쉽게 선택하도록 돕습니다.",
+            "first_step": "파일 해시값을 이용한 중복 파일 검색 및 리스트 출력."
+          }
+        ],
+        "recommendation_ko": "안드로이드 OS의 파일 시스템과 권한 관리 체계를 배우기에 적합합니다. 유틸리티 앱은 기능이 명확하여 개인 개발자가 완성도 높은 결과물을 만들기 좋습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 파일 삭제 알고리즘, 배터리 정보 수집 방식, OS 버전별 호환성 범위가 명시되어 있지 않습니다. 실제 구현 시 각 OS의 보안 정책을 별도로 확인해야 합니다.",
+        "name": "Speedy Sweep",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.speedy.sweepphone&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-24"
     }
   }
 }

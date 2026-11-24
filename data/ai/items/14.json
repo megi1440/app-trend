@@ -14297,6 +14297,358 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-23"
+    },
+    "itch:dd0392b88404036f7820": {
+      "app_key": "itch:dd0392b88404036f7820",
+      "name": "Seeds That Outlive Us [$15.00] [Adventure] [Windows] [macOS] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://joshuayeh.itch.io/seeds-that-outlive-us",
+      "data_date": "2026-11-24",
+      "analysed_at": "2026-11-24T11:31:59+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A 3D orchard walk: plant seeds of peace that outlive us.",
+      "analysis": {
+        "app_key": "itch:dd0392b88404036f7820",
+        "summary_ko": "Seeds That Outlive Us는 3D 환경에서 과수원을 산책하며 평화의 씨앗을 심는 어드벤처 게임입니다. 사용자는 시간이 흘러도 남을 씨앗을 심는 명상적이고 평화로운 경험을 하게 됩니다. 구체적인 게임 플레이 방식은 설명되지 않았으나, 환경과의 상호작용을 강조합니다.",
+        "features_ko": [
+          "3D 공간을 자유롭게 이동하며 과수원을 탐색할 수 있습니다.",
+          "평화의 씨앗을 심는 상호작용을 통해 게임의 테마를 전달합니다."
+        ],
+        "noteworthy_ko": "3D 환경에서의 정적인 상호작용을 통해 감성적인 경험을 전달하려는 시도가 돋보입니다. 개발 관점에서는 환경 디자인과 상호작용 트리거의 배치가 핵심이 될 것으로 추정됩니다.",
+        "development_ko": "3D 엔진을 활용한 환경 구축이 핵심이며, 정적인 분위기를 유지하기 위한 조명과 사운드 디자인이 중요합니다. 콘텐츠 제작 부담은 낮으나, 사용자에게 전달하고자 하는 감성적 깊이를 구현하는 데 노력이 필요합니다.",
+        "idea_ko": "특정 장소에 씨앗을 심고 시간이 지남에 따라 변화하는 모습을 기록하는 타임캡슐형 정원 가꾸기 게임이 적합합니다.",
+        "highlights_ko": [
+          "평화와 지속성을 주제로 한 3D 탐험 경험을 제공합니다.",
+          "과수원이라는 공간적 배경을 통해 정적인 몰입감을 유도합니다."
+        ],
+        "systems_ko": [
+          "3D 캐릭터 이동 및 카메라 제어",
+          "오브젝트 상호작용 시스템",
+          "환경 데이터 관리",
+          "UI 및 메뉴 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "3D 환경 구현과 상호작용 로직은 기초적이나, 분위기를 조성하는 아트워크와 연출의 완성도가 중요하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "3D 캐릭터 이동",
+            "씨앗 심기 상호작용"
+          ],
+          "defer": [
+            "복잡한 성장 시뮬레이션",
+            "멀티플레이어 기능"
+          ],
+          "risks": [
+            "단조로운 플레이 경험",
+            "3D 최적화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "기억의 정원",
+            "concept": "심은 씨앗에 짧은 텍스트를 남기고, 다른 플레이어가 방문했을 때 이를 읽을 수 있게 합니다. 비동기적 소통을 통해 평화의 의미를 확장합니다.",
+            "first_step": "텍스트 저장 및 불러오기 기능을 포함한 간단한 상호작용 프로토타입 제작."
+          },
+          {
+            "title": "계절의 변화",
+            "concept": "시간 흐름에 따라 과수원의 계절이 바뀌며 식물의 모습이 변합니다. 시각적 변화를 통해 시간의 흐름을 체감하게 합니다.",
+            "first_step": "시간대별 환경 에셋 교체 로직 구현."
+          }
+        ],
+        "recommendation_ko": "감성적인 분위기의 3D 게임을 기획하는 개발자에게 적합합니다. 단순한 상호작용이 어떻게 몰입감을 만드는지 연구하기 좋습니다.",
+        "source_limitations_ko": "게임의 구체적인 규칙, 승리 조건, 상호작용의 깊이 등에 대한 정보가 부족하여 실제 구현 방식을 추정하기 어렵습니다.",
+        "name": "Seeds That Outlive Us [$15.00] [Adventure] [Windows] [macOS] [Linux]",
+        "source": "itch",
+        "detail_url": "https://joshuayeh.itch.io/seeds-that-outlive-us",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 344,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 12,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-24"
+    },
+    "apple:6833103142": {
+      "app_key": "apple:6833103142",
+      "name": "Desky - Desktop Mode Switching",
+      "developer": "Vincent Neo",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/jp/app/desky-desktop-mode-switching/id6833103142",
+      "data_date": "2026-11-24",
+      "analysed_at": "2026-11-24T11:31:59+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Designed for iPhone Duo. Ever felt that the site you were browsing while unfolded in Safari looked too stretched up? With Desky, you can now browse the web on your inner display in desktop mode and automatically switch to mobile layout mode when folded on your outer display, allowing you to browse websites in the most optimal format, based on scenario! Desky works as a Safari Extension. It checks if your device is folded or not, and automatically adjusts changes to desktop or mobile mode of the website, similar to the \"Request Desktop Website\" functionality of the browser. You can also set different page zoom levels depending on whether your device is folded or unfolded, conveniently in the app or in the browser extension. Desky is simple to setup, processes locally, no ads, no analytics and definitely without any tracking. Note: an iPhone Duo is required for the functionality of the Safari extension, as the core purpose of the app is to automatically adapt sites to their most optimal layout depending on the folded or unfolded state.",
+      "analysis": {
+        "app_key": "apple:6833103142",
+        "summary_ko": "Desky는 iPhone Duo 기기에서 웹 브라우징 경험을 최적화하는 Safari 확장 프로그램입니다. 기기가 접혔을 때와 펼쳐졌을 때 자동으로 모바일 및 데스크톱 모드로 전환합니다. 사용자는 기기 상태에 따라 페이지 확대/축소 수준을 개별적으로 설정할 수 있습니다.",
+        "features_ko": [
+          "기기 접힘 상태를 감지하여 웹사이트 레이아웃을 자동 전환합니다.",
+          "Safari 확장 프로그램으로 동작하여 브라우저와 통합됩니다.",
+          "상태별로 페이지 확대/축소 수준을 다르게 설정할 수 있습니다.",
+          "로컬에서 처리되어 광고나 추적 없이 개인정보를 보호합니다."
+        ],
+        "noteworthy_ko": "하드웨어 상태를 소프트웨어 로직과 연결하는 점이 흥미롭습니다. 특정 기기 전용 기능을 활용하여 사용자 경험을 개선하는 실용적인 접근 방식입니다.",
+        "development_ko": "Safari 확장 프로그램 개발 프레임워크와 기기 상태 감지 API 활용이 핵심입니다. 로컬 처리 로직을 통해 성능을 최적화하고 사용자 데이터를 보호하는 것이 중요합니다.",
+        "idea_ko": "기기 상태에 따라 웹사이트뿐만 아니라 특정 앱의 UI 레이아웃을 자동으로 변경해주는 범용 자동화 도구가 적합합니다.",
+        "highlights_ko": [
+          "기기 형태 변화에 따른 최적의 웹 브라우징 환경을 제공합니다.",
+          "개인정보 보호를 위해 로컬 처리 방식을 채택했습니다."
+        ],
+        "systems_ko": [
+          "Safari 확장 프로그램 API",
+          "기기 상태 감지 로직",
+          "설정 저장 및 관리 시스템",
+          "브라우저 렌더링 제어 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "브라우저 확장 프로그램 개발 경험이 있다면 구현 가능하나, 기기 상태 감지 API의 정확한 활용이 필요하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기기 상태 감지 기능",
+            "웹사이트 모드 전환 로직"
+          ],
+          "defer": [
+            "고급 확대/축소 설정",
+            "사용자 설정 동기화"
+          ],
+          "risks": [
+            "OS 업데이트에 따른 API 변경",
+            "특정 웹사이트와의 호환성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "상태 기반 테마 전환기",
+            "concept": "기기가 펼쳐지면 다크 모드, 접히면 라이트 모드로 자동 전환하여 시각적 편의를 제공합니다.",
+            "first_step": "기기 상태에 따른 시스템 테마 변경 로직 구현."
+          },
+          {
+            "title": "웹 콘텐츠 필터",
+            "concept": "기기 상태에 따라 웹페이지의 특정 요소(광고 등)를 숨기거나 보여주는 기능을 제공합니다.",
+            "first_step": "DOM 조작을 통한 특정 요소 숨김 기능 구현."
+          }
+        ],
+        "recommendation_ko": "브라우저 확장 프로그램 개발과 사용자 경험 최적화에 관심 있는 개발자에게 추천합니다. 특정 하드웨어의 제약을 소프트웨어로 해결하는 좋은 사례입니다.",
+        "source_limitations_ko": "iPhone Duo라는 특정 기기에 의존적이므로, 일반적인 환경에서의 범용성은 검증되지 않았습니다.",
+        "name": "Desky - Desktop Mode Switching",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/desky-desktop-mode-switching/id6833103142",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 333,
+        "reasons": [
+          "multi_country",
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "JP",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-24"
+    },
+    "itch:8797a8827b89ba50500c": {
+      "app_key": "itch:8797a8827b89ba50500c",
+      "name": "COSMONIAN [Free] [Shooter]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://zairmontoyauni.itch.io/cosmonian",
+      "data_date": "2026-11-24",
+      "analysed_at": "2026-11-24T11:32:16+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Shooter espacial arcade multidireccional inspirado en los clásicos.",
+      "analysis": {
+        "app_key": "itch:8797a8827b89ba50500c",
+        "summary_ko": "고전 게임에서 영감을 받은 다방향 아케이드 우주 슈팅 게임입니다. 사용자는 우주 공간에서 적을 상대하며 슈팅 액션을 즐길 수 있습니다.",
+        "features_ko": [
+          "다방향으로 이동하며 적을 조준하고 사격하는 슈팅 메커니즘을 제공합니다.",
+          "고전 아케이드 게임의 스타일을 계승한 게임 플레이를 지원합니다."
+        ],
+        "noteworthy_ko": "고전 슈팅 게임의 핵심 메커니즘을 현대적인 환경에서 재현하려는 시도가 돋보입니다. 단순한 조작 체계가 아케이드 특유의 몰입감을 어떻게 유지하는지가 개발 관점에서 흥미로운 지점입니다.",
+        "development_ko": "핵심 구현 기술로는 2D 물리 엔진과 충돌 판정 시스템이 필요합니다. 콘텐츠 제작 부담은 적은 편이나, 적의 패턴과 난이도 밸런스를 맞추는 과정에서 반복적인 테스트가 요구됩니다.",
+        "idea_ko": "중력이나 장애물을 활용한 지형지물 슈팅 요소를 추가하여 단순한 사격 이상의 전략적 재미를 구현하는 것이 적합합니다.",
+        "highlights_ko": [
+          "고전 아케이드 감성을 살린 다방향 슈팅 방식.",
+          "직관적인 조작을 통한 빠른 템포의 게임 플레이."
+        ],
+        "systems_ko": [
+          "플레이어 이동 및 사격 입력 처리",
+          "적 생성 및 AI 패턴 관리",
+          "충돌 판정 및 데미지 계산",
+          "게임 상태 관리(시작, 종료, 점수)",
+          "UI 및 HUD 표시"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "슈팅 게임의 기본 메커니즘 구현은 명확하지만, 적의 AI 패턴과 탄막 밸런스를 조정하는 데 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "플레이어 기체 이동 및 사격",
+            "적 개체 생성 및 이동",
+            "충돌 판정 시스템"
+          ],
+          "defer": [
+            "다양한 무기 업그레이드",
+            "보스전 패턴",
+            "온라인 랭킹 시스템"
+          ],
+          "risks": [
+            "단조로운 게임 플레이로 인한 지루함",
+            "충돌 판정의 정밀도 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중력장 슈팅",
+            "concept": "우주 공간의 중력장을 이용해 탄환의 궤적을 휘게 만드는 슈팅 게임입니다. 적의 공격을 피하거나 탄환을 굴절시켜 적을 맞추는 전략이 필요합니다.",
+            "first_step": "탄환이 특정 좌표의 중력장에 의해 궤적이 변하는 물리 시뮬레이션을 구현합니다."
+          },
+          {
+            "title": "잔상 회피 슈팅",
+            "concept": "플레이어가 이동한 경로에 잔상을 남겨 적의 공격을 방어하는 방식입니다. 잔상을 전략적으로 배치하여 적의 탄막을 차단해야 합니다.",
+            "first_step": "플레이어의 이동 경로를 배열에 저장하고 일정 시간 후 사라지는 잔상 오브젝트를 생성합니다."
+          }
+        ],
+        "recommendation_ko": "아케이드 게임의 기본기를 익히고 싶은 개발자에게 추천합니다. 단순한 메커니즘을 얼마나 세련되게 다듬는지 학습하기 좋습니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 게임 모드, 무기 종류, 적의 다양성 등 상세 사양을 확인할 수 없습니다.",
+        "name": "COSMONIAN [Free] [Shooter]",
+        "source": "itch",
+        "detail_url": "https://zairmontoyauni.itch.io/cosmonian",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 329,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 17,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-24"
+    },
+    "itch:034be8d40643ef3b1c90": {
+      "app_key": "itch:034be8d40643ef3b1c90",
+      "name": "BION-07: Green Protocol [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://alves2a.itch.io/bion-07-green-protocol",
+      "data_date": "2026-11-24",
+      "analysed_at": "2026-11-24T11:32:33+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Neon run-and-gun action with a robot, a mech and giant bosses.",
+      "analysis": {
+        "app_key": "itch:034be8d40643ef3b1c90",
+        "summary_ko": "BION-07: Green Protocol은 로봇과 메카닉이 등장하는 네온 스타일의 런앤건 액션 게임입니다. 플레이어는 거대 보스와 전투를 벌이며 빠른 속도의 액션을 경험하게 됩니다. 구체적인 게임 플레이 방식은 공개된 정보가 부족하여 확인이 어렵습니다.",
+        "features_ko": [
+          "로봇과 메카닉을 조종하여 전투를 수행합니다.",
+          "거대 보스와의 전투가 포함되어 있습니다.",
+          "네온 스타일의 시각적 테마를 사용합니다."
+        ],
+        "noteworthy_ko": "런앤건 장르에서 거대 보스전과 메카닉 요소를 결합한 점이 특징입니다. 네온 스타일의 비주얼이 액션의 몰입감을 어떻게 높이는지 분석할 필요가 있습니다.",
+        "development_ko": "핵심 구현 기술로는 2D 혹은 3D 액션 캐릭터 컨트롤러와 보스 패턴 AI가 필요합니다. 콘텐츠 제작 측면에서는 보스의 다양한 공격 패턴과 메카닉의 움직임을 구현하는 데 많은 리소스가 소요될 것으로 보입니다. 밸런스 조정은 보스의 난이도와 플레이어의 기동성 사이의 균형을 맞추는 것이 핵심입니다.",
+        "idea_ko": "보스의 패턴을 파악하여 회피하고 반격하는 보스 러시 모드 구현이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "로봇과 메카닉이라는 SF 테마를 런앤건 장르에 접목했습니다.",
+          "거대 보스전이라는 명확한 도전 과제를 제시합니다."
+        ],
+        "systems_ko": [
+          "캐릭터 이동 및 사격 입력 시스템",
+          "보스 AI 상태 머신",
+          "충돌 판정 및 히트박스 관리",
+          "게임 상태 관리(진행/일시정지/게임오버)"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "거대 보스의 복잡한 패턴 구현과 액션 게임 특유의 정교한 조작감 및 판정 구현이 1인 개발자에게는 높은 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이동 및 사격 기능",
+            "단순한 보스 패턴 구현",
+            "충돌 처리"
+          ],
+          "defer": [
+            "복잡한 메카닉 커스터마이징",
+            "다양한 스테이지 구성"
+          ],
+          "risks": [
+            "보스 패턴의 단조로움",
+            "조작감의 불만족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "보스 패턴 암기 액션",
+            "concept": "보스의 공격 패턴을 보고 정확한 타이밍에 회피하는 리듬 액션 요소가 가미된 런앤건입니다.",
+            "first_step": "단일 보스의 3가지 공격 패턴을 구현하여 테스트합니다."
+          },
+          {
+            "title": "메카닉 파츠 조합",
+            "concept": "전투 중 파츠를 교체하여 사격 방식이나 이동 속도를 변경하는 전략적 액션입니다.",
+            "first_step": "두 가지 사격 모드를 전환하는 시스템을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "액션 게임의 기본기인 조작감과 보스전 설계 방식을 배우기에 적합합니다. 다만, 정보가 부족하여 구체적인 게임 규칙은 직접 설계해야 합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 게임의 구체적인 조작 방식, 스테이지 구성, 성장 요소 등에 대한 정보가 전혀 없습니다.",
+        "name": "BION-07: Green Protocol [Free] [Action]",
+        "source": "itch",
+        "detail_url": "https://alves2a.itch.io/bion-07-green-protocol",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 299,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-24"
     }
   }
 }

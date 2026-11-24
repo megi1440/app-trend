@@ -30781,6 +30781,351 @@
         "thoughtsTokenCount": 3296,
         "serviceTier": "standard"
       }
+    },
+    "google:com.webyerim.game.word.jam": {
+      "app_key": "google:com.webyerim.game.word.jam",
+      "name": "Word Jam - Screw Puzzle",
+      "developer": "iKame Games - Zego Studio",
+      "source": "google",
+      "kind": "game",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.webyerim.game.word.jam&hl=en&gl=US",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.webyerim.game.word.jam",
+        "product_kind": "game",
+        "original_experience_ko": "나사와 볼트를 제거하여 나무 패널을 중력에 의해 떨어뜨리고, 패널 뒤에 숨겨진 글자를 수집하여 목표 단어를 완성하는 물리 퍼즐과 어휘 조합의 결합 경험입니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 설명에서 나사 및 볼트 해제, 중력 기반 나무 패널 낙하, 숨겨진 글자 수집, 최대 4개의 단어 프레임 확장 기능이 확인됨.",
+          "물리 엔진의 구체적인 설정값, 단어 데이터베이스의 규모, 네트워크 연동 및 저장 메커니즘은 스토어 정보만으로 확인 불가함."
+        ],
+        "valuable_elements_ko": [
+          "물리적 구조물을 해제할 때 발생하는 연쇄 낙하의 시각적·청각적 만족감.",
+          "단순한 오브젝트 제거를 넘어 글자를 모아 단어를 완성하는 지적 목표의 부여."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "연금술 룬 브레이커",
+            "core_idea_ko": "나사와 나무 판자 대신 마법 원판과 봉인 핀을 조작하여, 물리적으로 떨어지는 원판 조각에서 속성 룬 문자를 수집해 포션을 제조하는 퍼즐 게임.",
+            "what_to_keep_ko": "핀을 제거해 패널을 떨어뜨리고 그 뒤의 요소를 수집하는 핵심 물리 퍼즐 및 수집 루프를 계승합니다.",
+            "what_to_change_ko": "단순 알파벳 단어 맞추기 대신 룬의 속성(화염, 냉기, 대지) 상성과 조합 순서에 따라 연쇄 효과가 달라지는 연금술 시스템으로 확장합니다.",
+            "mobile_use_or_play_ko": "플레이어가 화면의 봉인 핀을 터치해 해제하면 원판이 중력에 의해 떨어지고, 낙하하는 원판의 속성 룬을 순서대로 수집하여 목표 포션을 완성합니다.",
+            "key_features_ko": [
+              "룬 속성 상성 및 연쇄 반응 시스템",
+              "2D 물리 엔진 기반의 원판 낙하 시뮬레이션",
+              "연금술 레시피 도감 및 제작 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "가벼운 2D 물리 엔진(Box2D 등)을 활용해 기본 핀 해제와 낙하 로직을 구현하고, 정적 레시피 데이터를 활용하여 1인 개발이 가능합니다.",
+            "strengths_limits_ko": "물리 퍼즐에 전략적 속성 조합을 더해 깊이 있는 플레이를 제공하지만, 속성 밸런스 조정과 직관적인 UI 설계가 과제입니다."
+          },
+          {
+            "title_ko": "기어 매스 캘큘레이터",
+            "core_idea_ko": "맞물린 기어 구조 속의 숫자 볼트를 해제하여, 중력으로 낙하하는 숫자와 연산자 패널을 모아 올바른 수학 등식을 완성하는 퍼즐 게임.",
+            "what_to_keep_ko": "고정 핀 제거 후 낙하하는 오브젝트를 모아 특정 규칙(단어/수식)을 완성하는 흐름을 유지합니다.",
+            "what_to_change_ko": "어휘 조합 대신 수학적 등식 완성을 목표로 삼고, 기어의 회전 방향이라는 물리적 제약을 추가하여 해제 순서의 전략성을 높입니다.",
+            "mobile_use_or_play_ko": "볼트를 풀어 기어를 회전시키고, 이로 인해 제자리를 벗어나 낙하하는 숫자 및 연산자 블록을 하단 수식 칸에 올바른 순서로 투입합니다.",
+            "key_features_ko": [
+              "기어 회전 및 맞물림 물리 제약 기믹",
+              "수식 검증 및 판정 알고리즘",
+              "단계별 난이도 자동 생성 규칙"
+            ],
+            "solo_mvp_and_effort_ko": "회전 조인트와 2D 물리 처리가 필요하며, 수식 검증 로직은 단순하므로 1인 개발 시 구현 난이도는 보통 수준입니다.",
+            "strengths_limits_ko": "교육적 기능과 퍼즐의 재미를 동시에 잡을 수 있으나, 수학에 대한 사용자 진입장벽이 존재할 수 있습니다."
+          },
+          {
+            "title_ko": "메모리 브루프먼트 잼",
+            "core_idea_ko": "제한된 시간 내에 붕괴하는 건축 구조물의 볼트와 철판을 해체하여, 쏟아지는 철판 조각에서 기억의 단어를 조합해 주인공의 스토리를 복원하는 내러티브 퍼즐.",
+            "what_to_keep_ko": "볼트 제거와 패널 낙하를 통한 단어 수집이라는 핵심 메커니즘을 그대로 활용합니다.",
+            "what_to_change_ko": "단순 스테이지 클리어 방식에서 벗어나, 해체 순서에 따라 시나리오 조각이 개방되는 내러티브 브랜치 시스템과 타임어택 요소를 결합합니다.",
+            "mobile_use_or_play_ko": "복잡한 구조물의 볼트를 타이밍에 맞게 제거해 건물을 무너뜨리고, 쏟아지는 철판 속에서 글자를 조합해 스토리 챕터를 해제합니다.",
+            "key_features_ko": [
+              "구조물 붕괴 물리 연출 및 타임어택",
+              "기억 조각 수집형 내러티브 시스템",
+              "챕터별 시나리오 해제 구조"
+            ],
+            "solo_mvp_and_effort_ko": "2D 물리 파괴 연출을 간소화하고 텍스트 기반 시나리오 데이터를 연동하여 1인 개발로 완성도 높은 연출 구현이 가능합니다.",
+            "strengths_limits_ko": "몰입형 스토리텔링으로 리텐션을 높일 수 있으나, 퍼즐 메커니즘과 내러티브 간의 유기적 결합 밸런스가 중요합니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 '연금술 룬 브레이커'는 원본의 단어 수집을 속성 조합으로 확장하여 전략적 깊이를 더했고, 두 번째 '기어 매스 캘큘레이터'는 수학적 수식 완성으로 타겟층을 다변화했으며, 세 번째 '메모리 브루프먼트 잼'은 내러티브와 타임어택을 결합해 몰입감을 높였습니다. 세 기획 모두 2D 물리 엔진 기반의 MVP 구현이 가능합니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "'연금술 룬 브레이커'는 원본이 가진 핀 해제 및 낙하의 물리적 재미를 가장 직관적으로 유지하면서도, 속성 상성이라는 새로운 규칙을 통해 단순 암기나 단순 매칭을 넘어선 전략적 재미를 제공합니다. 1인 개발 환경에서 2D 물리 엔진과 레시피 데이터를 활용해 구현하기에 가장 합리적인 범위와 확장성을 가집니다.",
+        "next_questions_ko": [
+          "2D 물리 엔진(예: Box2D, Matter.js)에서 패널 낙하 시 프레임 간 충돌 및 겹침 현상을 얼마나 안정적으로 제어할 수 있는가?",
+          "플레이어가 핀을 해제하는 순서가 단어(또는 룬) 수집의 난이도에 미치는 영향를 정량화할 수 있는 레벨 디자인 툴링 계획이 있는가?"
+        ]
+      },
+      "brief_at": "2026-11-24T12:21:41+09:00",
+      "brief_quota_day": "2026-11-24",
+      "brief_usage": {
+        "promptTokenCount": 1523,
+        "candidatesTokenCount": 1834,
+        "totalTokenCount": 6024,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1523
+          }
+        ],
+        "thoughtsTokenCount": 2667,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.webyerim.game.word.jam",
+        "product_kind": "game",
+        "selected_concept_title_ko": "연금술 룬 브레이커",
+        "project_goal_and_audience_ko": "물리 퍼즐의 손맛과 전략적 연금술 조합을 결합한 모바일 퍼즐 게임으로, 단순 단어 맞추기에서 벗어나 속성 상성을 활용한 두뇌 트레이닝과 수집의 재미를 즐기는 퍼즐 게이머층을 타겟으로 합니다.",
+        "source_relation_and_difference_ko": "원본 게임인 Word Jam - Screw Puzzle의 핵심 경험인 핀을 제거해 패널을 떨어뜨리고 숨겨진 요소를 수집하는 물리 퍼즐 루프를 계승합니다. 차별점으로는 단순 알파벳 단어 완성 규칙을 제거하고, 낙하하는 원판에서 화염·냉기·대지 등 속성 룬을 수집하여 연금술 포션을 제조하는 전략적 조합 시스템을 도입했습니다.",
+        "core_user_experience_ko": "플레이어는 화면에 배치된 마법 원판과 이를 고정하는 봉인 핀을 관찰하고, 터치 조작으로 핀을 순서대로 해제합니다. 2D 물리 엔진에 의해 원판이 중력 작용으로 낙하하거나 회전하며, 가려져 있던 하층의 원판과 룬 문자가 드러납니다. 낙하하는 룬 문자를 정해진 순서나 상성에 맞게 수집하여 목표로 하는 연금술 포션을 완성하는 성취감을 느낍니다.",
+        "features_ko": [
+          {
+            "feature_ko": "봉인 핀 해제 및 2D 물리 낙하",
+            "user_action_and_behavior_ko": "사용자가 핀 아이콘을 터치하면 핀이 제거되고, 연결된 나무 및 마법 원판이 중력과 충돌 판정에 따라 자연스럽게 흔들리며 떨어집니다. 시각적·물리적 타격감과 연쇄 낙하의 재미를 제공합니다.",
+            "practical_implementation_ko": "가벼운 오픈소스 2D 물리 엔진인 Unity Built-in 2D Physics를 활용하며, 각 원판의 콜라이더와 고정 조인트 설정을 통해 핀 제거 시 동적 연결이 해제되도록 구현합니다."
+          },
+          {
+            "feature_ko": "속성 룬 수집 및 연금술 레시피 조합",
+            "user_action_and_behavior_ko": "원판 낙하 과정에서 노출되는 화염, 냉기, 대지 등의 룬을 획득하고, 하단 슬롯에 순서대로 쌓아 목표 포션 레시피와 일치하는지 판정합니다.",
+            "practical_implementation_ko": "룬 획득 트리거 영역을 설정하고, 충돌 또는 터치 시 룬 데이터를 인벤토리 배열에 추가합니다. 레시피 데이터 매니저가 배열의 속성 순서를 검증하여 포션 제작 성공 여부를 즉시 판정합니다."
+          },
+          {
+            "feature_ko": "다층 마법 원판 및 난이도 확장",
+            "user_action_and_behavior_ko": "스테이지가 진행됨에 따라 원판 레이어가 2개에서 최대 4개로 늘어나며, 색상별 잠금이나 회전 기믹이 추가되어 해제 순서의 깊은 고민을 유도합니다.",
+            "practical_implementation_ko": "JSON 기반의 레벨 구조 데이터를 활용하여 각 레이어의 원판 위치, 부착된 핀 ID, 숨겨진 룬 정보를 계층형 구조로 정의하고 동적 생성합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 로비 및 스테이지 선택 화면",
+            "contents_and_actions_ko": "연금술 공방 콘셉트의 메인 UI. 해금된 스테이지 맵을 확인하고 레벨을 선택하여 게임 플레이 씬으로 진입합니다."
+          },
+          {
+            "screen_ko": "퍼즐 플레이 씬 (메인 게임플레이)",
+            "contents_and_actions_ko": "상단에는 목표 포션 레시피, 중앙에는 핀이 고정된 다층 마법 원판, 하단에는 수집된 룬 슬롯이 표시됩니다. 핀 터치로 낙하를 유도하고 룬을 수집합니다."
+          },
+          {
+            "screen_ko": "연금술 도감 및 결과 화면",
+            "contents_and_actions_ko": "스테이지 클리어 시 제작된 포션이 도감에 등록되며, 실패 시 재시도 또는 힌트 사용 옵션을 제공합니다."
+          }
+        ],
+        "implementation_approach_ko": "크로스플랫폼 모바일 앱 제작에 유리한 Unity 엔진과 C# 언어를 선택합니다. 2D 물리 연산이 안정적이고 UI 연동이 간편하여 1인 개발자가 프로토타입부터 상용화까지 일관되게 다룰 수 있습니다. 핵심 로직은 핀-조인트 관리 시스템과 룬 레시피 검증 모듈로 분리하며, 데이터는 로컬 JSON 파일로 관리합니다.",
+        "data_and_storage_ko": [
+          "LevelData (JSON): 스테이지 번호, 원판 고유 ID, 초기 좌표, 연결된 핀 목록, 하층에 숨겨진 룬 속성 배열. 앱 실행 시 로컬 파일에서 로드.",
+          "PlayerProgress (PlayerPrefs 또는 SQLite): 클리어한 스테이지 기록, 수집한 연금술 도감 해금 리스트, 보유 재화. 앱 종료 시점 및 스테이지 클리어 시 저장.",
+          "RecipeData (JSON): 포션 ID, 요구되는 속성 룬 순서 및 조합식, 보상 점수. 정적 데이터로 게임 패키지에 포함."
+        ],
+        "mvp_scope_ko": "첫 번째 MVP는 2D 물리 엔진을 이용한 기본 핀 해제 및 원판 낙하 기능, 3가지 기본 속성 룬, 5개의 기초 연금술 레시피, 그리고 총 10개의 스테이지로 한정합니다. 복잡한 회전 기믹이나 특수 마법 아이템은 제외하여 핵심 물리 퍼즐 루프가 정상 작동하는지 검증하는 데 집중합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 물리 퍼즐 프로토타입 구현",
+            "deliverable_and_check_ko": "유니티 2D 물리 환경에서 핀 조인트와 원판 프리팹을 배치하고, 터치 시 핀이 제거되며 원판이 중력에 의해 떨어지는지 테스트 빌드에서 직접 확인."
+          },
+          {
+            "stage_ko": "2단계: 룬 수집 및 레시피 판정 로직",
+            "deliverable_and_check_ko": "낙하하는 원판과 충돌 시 룬 데이터가 하단 슬롯에 쌓이고, 레시피 대조군과 일치할 때 포션 완성 판정 트리거가 정상 작동하는지 로그 및 UI로 확인."
+          },
+          {
+            "stage_ko": "3단계: 레벨 데이터 시스템 및 UI 연동",
+            "deliverable_and_check_ko": "JSON 기반 레벨 로더를 구현하여 1~10스테이지 데이터가 정상 파싱되고 화면에 배치되는지, 로비-플레이-결과 화면 간 전환이 매끄러운지 확인."
+          }
+        ],
+        "possible_extensions_ko": "정식 출시 이후 날씨나 시간대에 따른 속성 부스터 효과, 유저가 직접 레벨을 디자인하고 공유하는 연금술 공방 에디터, 그리고 특수 효과를 가진 마법 도구 아이템 시스템을 확장할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "모바일 터치 환경에서 작은 핀 오브젝트를 정확히 터치하기 어려울 수 있으므로 터치 판정 영역을 시각적 크기보다 여유 있게 설정해야 함.",
+          "2D 물리 엔진의 불안정성에 대한 콜라이더 바운더리 및 중력 설정값 조정 필요.",
+          "속성 순서 조합의 난이도가 너무 높으면 피로감이 가중되므로 초반 스테이지의 레시피 제약 조건을 완화할지 여부 결정 과제."
+        ],
+        "draft_status_ko": "본 문서는 연금술 룬 브레이커 기획의 실현 가능성을 검토하기 위한 개발 설계 초안이며, 실제 구현 및 플레이테스트, 성능 최적화가 완료되지 않은 상태입니다."
+      },
+      "plan_at": "2026-11-24T12:22:01+09:00",
+      "plan_quota_day": "2026-11-24",
+      "plan_usage": {
+        "promptTokenCount": 2131,
+        "candidatesTokenCount": 2016,
+        "totalTokenCount": 7842,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2131
+          }
+        ],
+        "thoughtsTokenCount": 3695,
+        "serviceTier": "standard"
+      }
+    },
+    "itch:ffc608f71b89e66b5968": {
+      "app_key": "itch:ffc608f71b89e66b5968",
+      "name": "Job Sight [Free]",
+      "developer": "",
+      "source": "itch",
+      "kind": "game",
+      "detail_url": "https://solus-0.itch.io/job-sight",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:ffc608f71b89e66b5968",
+        "product_kind": "game",
+        "original_experience_ko": "원작은 윈도우 바탕화면이라는 유저의 일상적 디지털 공간 위에서 까칠한 성격의 콘크리트 캐릭터가 집을 조각조각 세워 나가는 과정을 관찰하는 방치형 데스크톱 게임입니다. 스토어 정보에 따르면 콘크리트 캐릭터의 성격과 점진적 건축이 핵심이며, AI 해석은 OS 오버레이 기술과 상호작용 가능성을 추정했으나 실제 구현 방식은 확인되지 않았습니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 확인 사실: 까칠한 콘크리트 캐릭터가 유저의 데스크톱 화면에서 집을 조각별로 지어 나간다.",
+          "미확인 사항: 구체적인 유저 상호작용 방식, 건축 완료 후의 루프, 기술적인 오버레이 구현 세부사항은 알려지지 않음."
+        ],
+        "valuable_elements_ko": [
+          "일상적인 디지털 기기 화면(배경/바탕화면)을 게임의 무대로 활용하는 신선한 공간적 몰입감",
+          "무심하면서도 까칠한 성격을 지닌 독특한 비주얼의 캐릭터와 조각별 점진적 건축이라는 호기심 유발 요소"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "홈 화면 위젯 건축가",
+            "core_idea_ko": "안드로이드 홈 화면 위젯을 적극 활용하여, 까칠한 콘크리트 캐릭터가 스마트폰 배경화면 위에서 실시간으로 집을 짓는 방치형 모바일 게임입니다.",
+            "what_to_keep_ko": "일상적 화면 공간(바탕화면/홈 화면)에 캐릭터가 상주하며 집을 조각별로 완성해 나가는 핵심 감성과 까칠한 캐릭터성을 계승합니다.",
+            "what_to_change_ko": "PC 바탕화면 오버레이 대신 안드로이드 위젯 구조를 활용하고, 스마트폰 화면 켜기 횟수나 사용 패턴에 따라 캐릭터가 반응하고 건축 속도가 변하는 모바일 최적화 상호작용을 도입합니다.",
+            "mobile_use_or_play_ko": "유저가 스마트폰 화면을 켤 때마다 홈 화면 위젯 속에서 콘크리트 가이가 툴툴대며 벽돌 한 장을 추가로 쌓아 올리는 모습을 확인합니다.",
+            "key_features_ko": [
+              "안드로이드 홈 화면 위젯 실시간 건축 렌더링",
+              "스마트폰 사용 패턴 연동형 까칠한 대사 및 반응 시스템",
+              "조각별 점진적 건축 진행 상태 관리 및 완공 보상"
+            ],
+            "solo_mvp_and_effort_ko": "Jetpack Compose 기반의 1x1/2x2 위젯 UI와 AlarmManager 타이머를 조합하여 1인 개발자가 비교적 가볍게 구현 가능한 MVP 범위 설정.",
+            "strengths_limits_ko": "스마트폰을 켤 때마다 자연스럽게 노출되어 몰입도가 높지만, 안드로이드 OS의 백그라운드 프로세스 제한 및 위젯 갱신 주기 제약으로 정교한 실시간 애니메이션에는 한계가 있음."
+          },
+          {
+            "title_ko": "알림창 속 뚝딱공사반장",
+            "core_idea_ko": "스마트폰 알림 패널과 퀵 세팅 영역을 작업장 삼아, 까칠한 소장이 집을 짓는 과정을 알림 메시지와 미니 인터랙션으로 풀어낸 방치형 모바일 게임입니다.",
+            "what_to_keep_ko": "유저의 일상적인 디지털 시야(화면 상단/알림 영역)에 무심하게 자리 잡고 건축을 이어가는 특유의 시점과 캐릭터의 매력을 유지합니다.",
+            "what_to_change_ko": "단순 수동적 관찰에서 벗어나 알림 창의 액션 버튼을 통해 자재를 공급하거나 캐릭터의 잔소리에 터치로 대응하는 능동적 상호작용을 추가합니다.",
+            "mobile_use_or_play_ko": "상단 알림바를 내리면 콘크리트 소장이 '오늘도 폰만 보네'라며 알림창 내부에 집 구조물을 업데이트하는 것을 확인하고 터치로 자재를 투입합니다.",
+            "key_features_ko": [
+              "안드로이드 Custom Notification 스타일 건축 진행바",
+              "알림 액션 버튼을 통한 즉시 자재 공급 및 인터랙션",
+              "시간대별 상황 맞춤형 까칠한 텍스트 대화 엔진"
+            ],
+            "solo_mvp_and_effort_ko": "Foreground Service와 Custom RemoteViews를 활용해 1인 개발자가 프로토타입을 빠르게 구현할 수 있으며 그래픽 리소스 부담이 적음.",
+            "strengths_limits_ko": "앱을 직접 실행하지 않고도 일상적으로 즐길 수 있는 높은 접근성이 장점이나, 안드로이드 정책 변화에 따른 알림 UI 커스텀 제약이 리스크임."
+          },
+          {
+            "title_ko": "데스크톱 다이어리: 콘크리트의 방",
+            "core_idea_ko": "모바일 앱 안에 가상의 레트로 PC 데스크톱 환경을 구현하고, 그 안에서 콘크리트 캐릭터가 집을 짓는 동안 유저가 일상 기록이나 메모를 관리하는 유틸리티 겸용 게임입니다.",
+            "what_to_keep_ko": "데스크톱이라는 무대 콘셉트와 까칠한 캐릭터가 점진적으로 건축물을 완성해 나가는 핵심 테마를 앱 내부에서 안정적으로 재현합니다.",
+            "what_to_change_ko": "단순 방치를 넘어 유저의 실제 생산성 활동(할 일 완료, 메모 작성)이 건축 속도나 자재 수급에 직접 영향을 주도록 게임 루프를 밀접하게 결합합니다.",
+            "mobile_use_or_play_ko": "앱을 실행해 가상 데스크톱 화면에서 콘크리트 캐릭터가 집을 짓는 것을 지켜보며, 유저는 오늘 할 일을 정리하고 메모를 남겨 자재 포인트를 획득합니다.",
+            "key_features_ko": [
+              "가상 레트로 데스크톱 인앱 UI 환경",
+              "유저의 투두리스트 및 메모와 연동되는 자재 수급 시스템",
+              "단계별 건축 완료에 따른 데스크톱 커스터마이징 요소 해제"
+            ],
+            "solo_mvp_and_effort_ko": "OS 오버레이 권한 문제없이 단일 앱 내에서 창 모사 UI와 로컬 DB(Room)를 활용해 구현하므로 1인 개발 완성도가 높음.",
+            "strengths_limits_ko": "기술적 안정성과 유틸리티적 실용성이 높으나, 원작의 '진짜 내 바탕화면 위'라는 물리적 충격과 신선함은 가상 환경으로 인해 다소 희석됨."
+          }
+        ],
+        "concept_comparison_ko": "1안(홈 화면 위젯)은 원작의 '바탕화면 침투'라는 핵심 감성을 모바일에 가장 직관적으로 이식했으나 OS 제약이 크고, 2안(알림창 소장)은 접근성이 극대화되나 알림 UI 제약이 있으며, 3안(가상 데스크톱 다이어리)은 기술적 안정성과 실용성이 높으나 바탕화면이라는 원작의 특색이 인앱으로 한정됩니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "원작이 주는 가장 큰 매력인 '내 화면 위에서 무심하게 진행되는 건축'이라는 경험을 안드로이드 홈 화면 위젯이라는 모바일 최적의 수단으로 가장 가깝게 재현할 수 있기 때문입니다. 기술적 제약(백그라운드 갱신 주기 등)을 완화하는 설계 검토가 동반된다면 가장 독창적인 모바일 경험을 제공할 수 있습니다.",
+        "next_questions_ko": [
+          "안드로이드 홈 화면 위젯의 갱신 주기 제한 속에서 유저에게 시각적 만족감을 줄 수 있는 최적의 애니메이션 주기는 얼마인가?",
+          "콘크리트 캐릭터의 까칠한 성격을 살릴 수 있는 텍스트 대화의 볼륨과 유저 사용 패턴 연동 조건은 어떻게 설계할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-24T12:31:48+09:00",
+      "brief_quota_day": "2026-11-24",
+      "brief_usage": {
+        "promptTokenCount": 1142,
+        "candidatesTokenCount": 2005,
+        "totalTokenCount": 7756,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1142
+          }
+        ],
+        "thoughtsTokenCount": 4609,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "itch:ffc608f71b89e66b5968",
+        "product_kind": "game",
+        "selected_concept_title_ko": "홈 화면 위젯 건축가",
+        "project_goal_and_audience_ko": "스마트폰을 자주 켜는 일반 모바일 사용자층을 대상으로, 홈 화면에서 무심하게 집을 짓는 까칠한 콘크리트 캐릭터를 관찰하며 소소한 재미와 정서적 환기를 얻는 방치형 위젯 게임입니다.",
+        "source_relation_and_difference_ko": "원작의 '데스크톱 바탕화면 위에서 캐릭터가 집을 짓는 독창적인 공간 활용 경험'과 '까칠한 캐릭터성'을 핵심 자산으로 유지합니다. 차이점으로는 PC 창 오버레이 기술 대신 안드로이드 홈 화면 위젯(Jetpack Compose Glance)을 활용하여 모바일 사용 환경에 완벽히 녹아들도록 재설계했습니다.",
+        "core_user_experience_ko": "사용자는 스마트폰 홈 화면에 위젯을 배치합니다. 사용자가 폰을 켜거나 일정 시간이 경과하면, 위젯 안의 콘크리트 캐릭터가 투덜거리며 벽돌 한 장을 추가하거나 지붕을 올리는 등 점진적인 건축 변화를 보여줍니다. 위젯을 터치하면 캐릭터가 퉁명스러운 대사를 뱉으며 사용자와 가벼운 상호작용을 합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "홈 화면 실시간 건축 위젯 렌더링",
+            "user_action_and_behavior_ko": "사용자가 스마트폰 홈 화면에서 위젯을 통해 건물이 지어지는 진행 상황을 시각적으로 확인합니다. 시스템은 백그라운드 타이머에 따라 위젯 이미지를 갱신하여 별도의 앱 실행 없이도 진행 상황을 전달합니다.",
+            "practical_implementation_ko": "Jetpack Compose Glance 라이브러리를 활용하여 가볍고 모던한 위젯 UI를 구성하고, RemoteViews를 통해 비동기 이미지 렌더링을 처리합니다."
+          },
+          {
+            "feature_ko": "까칠한 대사 및 상호작용 시스템",
+            "user_action_and_behavior_ko": "사용자가 위젯을 터치하면 캐릭터가 무심하거나 까칠한 텍스트 대사를 말풍선 형태로 출력합니다. 사용자는 소소한 유머와 캐릭터의 성격을 체감하게 됩니다.",
+            "practical_implementation_ko": "위젯 클릭 시 PendingIntent를 통해 브로드캐스트 리시버나 액티비티를 호출하고, 미리 정의된 대사 배열에서 랜덤 또는 순차적으로 텍스트를 골라 위젯 뷰 상태를 업데이트합니다."
+          },
+          {
+            "feature_ko": "단계별 건설 상태 관리 및 완공 보상",
+            "user_action_and_behavior_ko": "건설은 총 10단계의 공정으로 나뉘며 시간이 흐름에 따라 단계가 올라갑니다. 최종 완공 시 새로운 건물 설계도가 해금됩니다.",
+            "practical_implementation_ko": "Room DB 또는 SharedPreferences를 활용하여 현재 건설 단계, 마지막 업데이트 시각, 누적 접속 횟수 등을 로컬에 안전하게 저장하고 관리합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "홈 화면 위젯 뷰",
+            "contents_and_actions_ko": "현재 건축 중인 건물의 그래픽, 까칠한 캐릭터 모습, 말풍선 대사가 표시됩니다. 터치 시 대사가 변경되거나 앱 상세 화면으로 진입합니다."
+          },
+          {
+            "screen_ko": "앱 메인/설정 화면",
+            "contents_and_actions_ko": "완공된 건물의 갤러리, 현재 공정의 상세 정보, 알림 주기 설정 및 캐릭터 커스텀 옵션을 제공합니다."
+          }
+        ],
+        "implementation_approach_ko": "Kotlin 언어와 Jetpack Compose, Jetpack Glance 조합을 사용하여 최신 안드로이드 표준에 맞춘 가벼운 위젯 중심 앱을 구현합니다. 백그라운드 갱신은 WorkManager를 활용하여 시스템 배터리 최적화 정책을 준수하면서 안정적으로 동작하도록 설계합니다.",
+        "data_and_storage_ko": [
+          "BuildingState 객체: currentStage(현재 공정 단계), totalStage(총 단계), lastUpdateTime(마지막 건축 시각), buildingType(건물 종류).",
+          "CharacterState 객체: currentDialogueIndex(대사 인덱스), moodScore(캐릭터 기분 지수).",
+          "로컬 저장 방식: SharedPreferences 또는 Lightweight Room DB를 사용하여 앱 종료 상태에서도 데이터 유실 없이 위젯을 갱신합니다."
+        ],
+        "mvp_scope_ko": "2x2 크기의 단일 홈 화면 위젯 구현, 10단계로 이루어진 기본 집 짓기 애니메이션, 5종의 까칠한 텍스트 대사 출력, 그리고 1시간 주기의 백그라운드 갱신 기능까지만 포함하여 1인 개발자가 빠르게 검증할 수 있도록 범위를 압축합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 코어 위젯 UI 및 그래픽 에셋 준비",
+            "deliverable_and_check_ko": "Jetpack Glance를 이용한 2x2 위젯 레이아웃 구성 및 단계별 건축 이미지 에셋 적용 테스트."
+          },
+          {
+            "stage_ko": "2단계: 상태 관리 및 백그라운드 타이머 연동",
+            "deliverable_and_check_ko": "WorkManager와 SharedPreferences를 연동하여 일정 시간마다 위젯의 건축 단계가 자동으로 올라가는지 확인."
+          },
+          {
+            "stage_ko": "3단계: 터치 상호작용 및 대사 시스템 구현",
+            "deliverable_and_check_ko": "위젯 터치 시 PendingIntent를 통해 대사가 말풍선에 정상적으로 반영되는지 확인."
+          },
+          {
+            "stage_ko": "4단계: 배터리 최적화 및 최종 폴리싱",
+            "deliverable_and_check_ko": "불필요한 리소스 소모를 점검하고 예외 상황(기기 재부팅 등)에서의 위젯 복구 로직 점검."
+          }
+        ],
+        "possible_extensions_ko": "다양한 형태의 건물(상가, 타워 등) 추가, 까칠한 콘크리트 가이의 스킨 커스터마이징, 시간대별(밤/낮) 배경 변화 및 특수 이벤트 대사 추가.",
+        "risks_and_open_decisions_ko": [
+          "안드로이드 OS의 백그라운드 제한(Doze 모드 등)으로 인해 정확한 실시간 갱신이 지연될 수 있는 기술적 리스크가 존재하며, WorkManager의 제약 사항을 지속 모니터링해야 합니다.",
+          "위젯 갱신 빈도가 너무 높을 경우 배터리 소모 이슈가 발생할 수 있으므로 최적의 갱신 주기(예: 1~2시간)를 테스트를 통해 확정해야 합니다."
+        ],
+        "draft_status_ko": "본 문서는 원작의 감성을 안드로이드 위젯 환경으로 확장하기 위해 작성된 1인 모바일 개발 설계 초안이며, 실제 구현 및 플레이테스트는 아직 완료되지 않았습니다."
+      },
+      "plan_at": "2026-11-24T12:32:03+09:00",
+      "plan_quota_day": "2026-11-24",
+      "plan_usage": {
+        "promptTokenCount": 1794,
+        "candidatesTokenCount": 1737,
+        "totalTokenCount": 5142,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1794
+          }
+        ],
+        "thoughtsTokenCount": 1611,
+        "serviceTier": "standard"
+      }
     }
   }
 }

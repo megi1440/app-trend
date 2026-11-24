@@ -13135,6 +13135,269 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-23"
+    },
+    "itch:979c869271ab638ed211": {
+      "app_key": "itch:979c869271ab638ed211",
+      "name": "BrainF**** Sandbox [Free]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://williamc.itch.io/brainf-sandbox",
+      "data_date": "2026-11-24",
+      "analysed_at": "2026-11-24T11:31:19+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A Small BrainF**** \"IDE\" for the Playdate Console",
+      "analysis": {
+        "app_key": "itch:979c869271ab638ed211",
+        "summary_ko": "BrainF**** Sandbox는 Playdate 콘솔을 위한 소형 Brainfuck IDE입니다. 사용자는 이 샌드박스 환경에서 Brainfuck 코드를 작성하고 실행해 볼 수 있습니다. 프로그래밍 언어의 특성을 휴대용 기기에서 실험하는 도구입니다.",
+        "features_ko": [
+          "Brainfuck 언어 코드를 직접 작성할 수 있는 에디터 기능을 제공합니다.",
+          "작성한 코드를 Playdate 콘솔에서 즉시 실행할 수 있습니다.",
+          "코드 실행 결과를 확인할 수 있는 샌드박스 환경을 지원합니다."
+        ],
+        "noteworthy_ko": "제한된 환경인 Playdate에서 프로그래밍 언어 인터프리터를 구현한 점이 매우 흥미롭습니다. 텍스트 입력과 코드 실행을 위한 UI 최적화가 개발의 핵심일 것으로 추정됩니다.",
+        "development_ko": "Brainfuck 인터프리터 구현과 Playdate의 제한된 입력 환경을 고려한 에디터 UI 설계가 필요합니다. 메모리 관리와 코드 실행 속도 최적화가 중요합니다. 텍스트 입력의 편의성을 높이는 것이 사용자 경험의 핵심입니다.",
+        "idea_ko": "작성한 코드를 공유하거나, 특정 문제를 해결하는 코드 골프 챌린지 모드를 추가하는 아이디어를 추천합니다.",
+        "highlights_ko": [
+          "Playdate 전용 Brainfuck 개발 환경.",
+          "코드 작성 및 실행을 지원하는 샌드박스."
+        ],
+        "systems_ko": [
+          "Brainfuck 인터프리터",
+          "텍스트 에디터 UI",
+          "코드 실행 및 디버깅 시스템",
+          "메모리 상태 시각화"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "인터프리터 구현 자체는 어렵지 않으나, Playdate의 하드웨어 제약을 고려한 최적화와 사용자 친화적인 에디터 UI 구현이 매우 까다롭습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 Brainfuck 인터프리터",
+            "텍스트 입력 에디터",
+            "코드 실행 버튼"
+          ],
+          "defer": [
+            "고급 디버깅 도구",
+            "코드 저장 및 불러오기"
+          ],
+          "risks": [
+            "Playdate 입력 방식의 불편함",
+            "인터프리터의 메모리 오버플로우"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "코드 골프 챌린지",
+            "concept": "주어진 출력을 가장 짧은 코드로 구현하는 챌린지입니다. Brainfuck의 난해함을 게임으로 승화시킵니다.",
+            "first_step": "코드 길이를 측정하고 정답과 비교하는 로직 구현."
+          },
+          {
+            "title": "시각적 디버거",
+            "concept": "코드 실행 시 메모리 셀의 변화를 실시간으로 보여줍니다. 언어 학습을 돕는 시각적 도구입니다.",
+            "first_step": "메모리 배열을 화면에 막대 그래프로 표시하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "인터프리터의 기본 원리를 이해하고, 제한된 하드웨어에서 효율적인 UI를 설계하는 경험을 쌓기에 좋습니다. 프로그래밍 언어 자체에 관심이 많은 개발자에게 추천합니다.",
+        "source_limitations_ko": "에디터의 구체적인 기능, 지원하는 메모리 크기, 입출력 방식 등 기술적 상세 사양은 확인되지 않습니다.",
+        "name": "BrainF**** Sandbox [Free]",
+        "source": "itch",
+        "detail_url": "https://williamc.itch.io/brainf-sandbox",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 368,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 4,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-24"
+    },
+    "itch:220b7323c1df3397f4c4": {
+      "app_key": "itch:220b7323c1df3397f4c4",
+      "name": "Survive inner voices [Free] [Survival] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://chrissty.itch.io/survive-inner-voices",
+      "data_date": "2026-11-24",
+      "analysed_at": "2026-11-24T11:31:43+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Survive as long as you can while wispering enemies try to kill you.",
+      "analysis": {
+        "app_key": "itch:220b7323c1df3397f4c4",
+        "summary_ko": "속삭이는 적들로부터 최대한 오래 살아남아야 하는 생존 게임입니다. 적들이 소리를 내며 다가오는 것이 특징입니다. 단순한 규칙을 가진 서바이벌 장르로 보입니다.",
+        "features_ko": [
+          "적들이 속삭이는 소리를 내며 플레이어를 추격합니다.",
+          "플레이어는 최대한 오래 생존하는 것을 목표로 합니다."
+        ],
+        "noteworthy_ko": "청각적 단서를 통해 적의 접근을 알리는 방식은 긴장감을 높이는 효과적인 장치입니다. 개발 관점에서는 적의 AI와 사운드 우선순위 처리가 중요할 것으로 보입니다.",
+        "development_ko": "적의 생성 및 추적 AI 구현이 핵심입니다. 사운드 볼륨을 거리와 연동하여 긴장감을 극대화하는 기술이 필요합니다. 밸런스 조절을 위해 적의 속도와 생성 빈도를 세밀하게 조정해야 합니다.",
+        "idea_ko": "소리를 내면 적이 몰려오는 환경에서, 소리를 역이용해 적을 함정으로 유인하는 생존 게임 아이디어가 좋습니다.",
+        "highlights_ko": [
+          "속삭이는 소리를 활용한 청각적 긴장감.",
+          "생존을 목표로 하는 단순하고 명확한 게임 규칙."
+        ],
+        "systems_ko": [
+          "적 생성 및 AI 추적 시스템",
+          "거리 기반 사운드 감쇠 시스템",
+          "플레이어 생존 시간 측정",
+          "충돌 판정 및 게임 오버 로직"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 단순하고 생존이라는 명확한 목표를 가지고 있어 1인 개발로 구현하기에 적합한 규모입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "플레이어 이동",
+            "적 AI 추적",
+            "생존 시간 카운터"
+          ],
+          "defer": [
+            "다양한 적 종류",
+            "아이템 파밍 시스템"
+          ],
+          "risks": [
+            "적 AI의 단조로움",
+            "사운드 밸런스 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "침묵의 생존자",
+            "concept": "플레이어가 마이크 입력을 통해 소리를 내면 적이 감지하는 시스템입니다. 실제 소리를 죽여야 하는 긴장감을 제공합니다.",
+            "first_step": "마이크 입력 볼륨을 감지하여 특정 임계값을 넘으면 적이 반응하도록 구현합니다."
+          },
+          {
+            "title": "속삭임의 미로",
+            "concept": "속삭이는 소리의 방향을 듣고 미로를 탈출하는 게임입니다. 적은 소리를 따라오므로 유인책을 써야 합니다.",
+            "first_step": "3D 공간 사운드(Spatial Audio)를 사용하여 소리의 방향성을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "적 AI의 기본 로직과 사운드 기반의 게임 플레이를 구현하는 기초를 다지기에 좋습니다. 생존 게임의 핵심 재미를 만드는 연습으로 추천합니다.",
+        "source_limitations_ko": "적의 종류, 맵의 구성, 구체적인 생존 방식에 대한 정보가 없습니다. 추가적인 게임 플레이 정보가 필요합니다.",
+        "name": "Survive inner voices [Free] [Survival] [Windows]",
+        "source": "itch",
+        "detail_url": "https://chrissty.itch.io/survive-inner-voices",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 359,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 7,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-24"
+    },
+    "itch:afd69a096f563181258b": {
+      "app_key": "itch:afd69a096f563181258b",
+      "name": "Seat Check — A Hidden-Information Playtest Kit [$4.00]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://drewzilla826.itch.io/seat-check",
+      "data_date": "2026-11-24",
+      "analysed_at": "2026-11-24T11:32:16+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Can the wrong seat spot the trap tile? Test your tabletop prototype for physical giveaways.",
+      "analysis": {
+        "app_key": "itch:afd69a096f563181258b",
+        "summary_ko": "숨겨진 정보를 활용하여 함정 타일을 찾아내는 테이블탑 게임 플레이테스트 키트입니다. 물리적인 경품을 제공하는 이벤트나 테스트용으로 설계되었습니다.",
+        "features_ko": [
+          "숨겨진 정보를 기반으로 함정 타일을 추리하는 규칙을 포함합니다.",
+          "테이블탑 게임의 프로토타입 테스트를 위한 도구로 활용됩니다."
+        ],
+        "noteworthy_ko": "디지털 게임이 아닌 물리적인 테이블탑 게임의 테스트를 돕는 도구라는 점이 독특합니다. 정보의 비대칭성을 활용한 게임 디자인의 기초를 다루고 있습니다.",
+        "development_ko": "게임 규칙의 밸런스 설계와 정보 공개 로직 구현이 핵심입니다. 콘텐츠 제작 부담은 낮으나, 테스트 참가자들의 피드백을 수집하고 분석하는 체계가 중요합니다.",
+        "idea_ko": "디지털 버전으로 변환하여 온라인에서도 친구들과 함께 함정을 찾는 비대칭 멀티플레이 게임으로 확장하는 것이 좋습니다.",
+        "highlights_ko": [
+          "테이블탑 게임 테스트를 위한 전문 키트.",
+          "정보 비대칭을 활용한 추리 메커니즘."
+        ],
+        "systems_ko": [
+          "정보 공개 로직(함정 위치)",
+          "게임 규칙 관리",
+          "테스트 데이터 기록 시스템",
+          "사용자 인터페이스(테이블탑용)"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "복잡한 프로그래밍보다는 게임 디자인과 규칙 설계에 집중된 프로젝트입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "함정 위치 무작위 생성 로직",
+            "정보 공개 규칙 문서",
+            "테스트 결과 기록지"
+          ],
+          "defer": [
+            "자동화된 디지털 앱 버전",
+            "온라인 매칭 시스템",
+            "복잡한 그래픽 요소"
+          ],
+          "risks": [
+            "규칙의 불균형으로 인한 재미 저하",
+            "테스트 참가자 모집의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "디지털 함정 추리",
+            "concept": "한 명은 함정을 배치하고 다른 한 명은 정보를 얻어 함정을 피하는 1:1 비대칭 게임입니다. 제한된 정보 안에서 심리전을 펼칩니다.",
+            "first_step": "함정 위치를 숨기고 힌트를 제공하는 기본 UI를 구현합니다."
+          },
+          {
+            "title": "협동 함정 제거",
+            "concept": "여러 명의 플레이어가 각자 다른 정보를 가지고 협력하여 함정을 제거하는 게임입니다. 정보 공유가 필수적입니다.",
+            "first_step": "플레이어별로 다른 정보를 보여주는 네트워크 기반의 기본 화면을 구성합니다."
+          }
+        ],
+        "recommendation_ko": "게임 디자인과 규칙 설계에 관심 있는 개발자에게 추천합니다. 시스템의 밸런스를 맞추는 법을 배우기에 좋습니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 게임 규칙, 함정의 종류, 정보 공개 방식 등에 대한 정보가 없습니다.",
+        "name": "Seat Check — A Hidden-Information Playtest Kit [$4.00]",
+        "source": "itch",
+        "detail_url": "https://drewzilla826.itch.io/seat-check",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 305,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-24"
     }
   }
 }

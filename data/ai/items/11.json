@@ -13828,6 +13828,183 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-23"
+    },
+    "apple:1507917112": {
+      "app_key": "apple:1507917112",
+      "name": "Find Air - My Device Tracker",
+      "developer": "Air Apps Systems",
+      "source": "apple",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://apps.apple.com/us/app/find-air-my-device-tracker/id1507917112?uo=2",
+      "data_date": "2026-11-24",
+      "analysed_at": "2026-11-24T11:34:34+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Easily find Bluetooth devices with Find Air! Never lose track of your valuable devices and gadgets again! Whether you need to find AirPods, earbuds, Bluetooth headphones, or Apple devices, this device finder helps you track them instantly, with an easy-to-use Bluetooth scanner to locate and find your lost Bluetooth device with precision. Key Features of Find Air: - Find my devices, including headphones, earbuds, earphones, smartwatches, fitness trackers, as well as phones, tablets, and speakers. - Find Apple devices, like AirPods, iPhone, iPad, and Apple Watch. - Quickly find your device with our Bluetooth finder to locate nearby devices. - Track all your Bluetooth devices from a single app. - Simple and intuitive interface to find Bluetooth devices without complications. If you're asking yourself, \"How do I find my Bluetooth devices?\", this app is the solution. Download Find Air and always keep your devices within reach. Choose from different subscription options. Our standard subscription options are: 1-week Subscription - USD4.99 1-month Subscription - USD9.99 1-year Subscription - USD69.99 -------- Subscription payments will be charged to your iTunes account at confirmation of your purchase and upon commencement of each renewal term. The free trial period will automatically renew to a paid subscription. You can cancel in the iTunes settings at least 24-hours before the end of each current subscription period. The cancellation will take effect the day after the last day of the current subscription period, and you will be downgraded to the free service. Any unused portion of a free trial period (if offered) will be forfeited when you purchase a premium subscription during the free trial period. Connect with us through: Web: https://airapps.co Linkedin: https://www.linkedin.com/company/airapps Instagram: https://www.instagram.com/airappsco Facebook: https://www.facebook.com/airappsco Privacy Policy: https://airapps.co/privacy Terms Of Use: https://airapps.co/terms Support: Contact us at support@airapps.co",
+      "analysis": {
+        "app_key": "apple:1507917112",
+        "summary_ko": "Bluetooth 기기를 추적하고 찾을 수 있도록 돕는 유틸리티 앱입니다. AirPods, 헤드폰, 스마트워치 등 다양한 Bluetooth 장치를 스캔하여 위치를 찾을 수 있습니다. 직관적인 인터페이스를 통해 분실된 기기를 쉽게 관리할 수 있습니다.",
+        "features_ko": [
+          "Bluetooth 스캔 기능을 통해 주변의 기기를 탐색합니다.",
+          "AirPods, 스마트워치, 피트니스 트래커 등 다양한 기기를 지원합니다.",
+          "단일 앱에서 여러 Bluetooth 기기를 관리할 수 있습니다.",
+          "직관적인 인터페이스를 통해 복잡한 설정 없이 기기를 찾습니다."
+        ],
+        "noteworthy_ko": "Bluetooth 신호 강도(RSSI)를 활용하여 기기와의 거리를 추정하는 기술적 원리가 핵심입니다. 사용자가 직관적으로 기기를 찾을 수 있게 하는 UI/UX 디자인이 앱의 성공 요인으로 추정됩니다.",
+        "development_ko": "iOS의 CoreBluetooth 프레임워크를 활용한 기기 스캔 및 신호 강도 측정 기술이 필수적입니다. 기기별 고유 식별자를 관리하고 연결 상태를 유지하는 로직이 중요합니다. 신호 강도의 변동성을 보정하여 사용자에게 안정적인 거리 정보를 제공하는 알고리즘 구현이 핵심입니다.",
+        "idea_ko": "기기와의 거리가 가까워지면 진동이나 소리로 알려주는 '근접 알림' 기능을 추가하여 사용성을 높이는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "Bluetooth 신호 강도를 활용한 실용적인 기기 추적 기능을 제공합니다.",
+          "다양한 브랜드의 Bluetooth 기기를 통합 관리할 수 있습니다."
+        ],
+        "systems_ko": [
+          "Bluetooth 스캔 및 연결 관리",
+          "신호 강도(RSSI) 분석 알고리즘",
+          "기기 데이터베이스 관리",
+          "사용자 인터페이스 및 알림 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "CoreBluetooth 프레임워크에 대한 이해가 필요하지만, 핵심 기능 자체는 명확합니다. 다만 기기별 신호 특성 차이를 보정하는 작업은 세심한 테스트가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "주변 Bluetooth 기기 스캔 기능",
+            "신호 강도 표시 UI"
+          ],
+          "defer": [
+            "기기별 상세 설정",
+            "클라우드 동기화"
+          ],
+          "risks": [
+            "Bluetooth 권한 정책 변경",
+            "기기별 신호 강도 편차"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "근접 알림 시스템",
+            "concept": "기기와의 거리가 특정 범위 내로 들어오면 앱이 진동이나 소리로 사용자에게 알림을 보내는 기능입니다.",
+            "first_step": "RSSI 값을 임계값과 비교하여 알림을 트리거하는 로직을 구현합니다."
+          },
+          {
+            "title": "기기 위치 기록",
+            "concept": "기기가 마지막으로 감지된 위치를 기록하여, 나중에 기기를 찾을 때 참고할 수 있도록 돕습니다.",
+            "first_step": "기기 감지 시점의 GPS 좌표를 로컬 데이터베이스에 저장하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "하드웨어와 통신하는 앱 개발의 기초를 다지기에 좋습니다. Bluetooth 통신 프로토콜과 권한 관리 방식을 학습하기에 적합합니다.",
+        "source_limitations_ko": "소개문에는 구독 모델에 대한 정보만 있으며, 실제 Bluetooth 신호 처리 알고리즘이나 보안 관련 구현 내용은 없습니다. 의료용 기기 등 특수 기기 지원 여부는 확인되지 않습니다.",
+        "name": "Find Air - My Device Tracker",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/find-air-my-device-tracker/id1507917112?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-24"
+    },
+    "apple:373742138": {
+      "app_key": "apple:373742138",
+      "name": "KB스타뱅킹",
+      "developer": "Kookmin Bank Co., Ltd.",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/kb%EC%8A%A4%ED%83%80%EB%B1%85%ED%82%B9/id373742138",
+      "data_date": "2026-11-24",
+      "analysed_at": "2026-11-24T11:35:52+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "나를 위한 쉽고 편한 생활금융플랫폼, KB스타뱅킹을 이용해보세요. ■ 신분확인이 필요한 모든 순간에 실물 신분증 대신 KB스타뱅킹 '모바일신분증 서비스'로! ■ KB스타뱅킹을 이용하면 혜택을 받을 수 있는 'KB스타뱅킹 전용 통신요금제'도 간편하게 가입할 수 있어요. ■ (만 14세~18세 고객 대상) 본인명의 휴대폰만 있다면 신분증 없이 '포켓'을 개설해서 송금, 결제, 카드 이용이 가능한 'KB스타틴즈 서비스'를 이용해 보세요! ■ 병원에서 신분확인이 필요할 때 KB스타뱅킹 '건강보험 QR 서비스'로 간편하게! ■ 이제 'KB모임통장 서비스'로 KB스타뱅킹에서 모임 관리도 편리하게 가능해요. ■ KB국민인증서로 '자동로그인'을 설정하면 앱을 열자마자 자동으로 로그인이 되어요! ■ 본인명의 휴대폰과 신분증만 있다면, 은행 방문 없이 '입출금 통장 개설과 인터넷뱅킹 가입'까지 한 번에!(만 14세 이상) ■ 입출금 알림과 혜택·투자정보 등 지금 나에게 필요한 실시간 '알림'을 KB스타뱅킹으로 받아보세요. ■ 만기·수익률, 상품정보와 지점에서 보낸 메시지 등 나를 위한 맞춤형 정보와 전문화된 자산관리도 받으실 수 있어요. ■ KB금융그룹 상품조회와 주식매매, KB Pay, 보험설계 등 특화서비스까지 KB스타뱅킹 하나로 이용하세요 ■ 'KB국민인증서'로 더 빠르고 안전하게! · KB국민인증서는 스마트폰의 안전 영역에 KB국민은행 인증서를 발급하고 저장하여 탈취/복제 걱정 없이 KB스타뱅킹을 이용할 수 있는 서비스입니다. (1인 1기기) · 보안카드 또는 OTP 없이도 간편하고 안전하게 거래해보세요. · 해외 직구할 때 개인통관고유부호 발급부터 건강보험료 납부, 연말정산까지! KB국민인증서로 경험할 수 있는 편리함은 점점 늘어납니다. ■ KB 스타뱅킹 고객 소통창구 · 인터넷 채팅상담: KB스타뱅킹 홈 > 챗봇/상담 > 챗봇/상담채팅 (챗봇상담: 24시간) · 네이버 블로그 : https://blog.naver.com/kbebiz_star 클릭 또는 네이버 검색창 內 '네이버 블로그' 검색 > 블로그 검색 입력 창에 'KB스타뱅킹 앱리뷰' 입력 · 부점메일: kbg460003@kbfg.com · 고객센터: 1588-9999, 1599-9999, 1644-9999(0번▶3번) (해외: +82-2-6300-9999) (전화상담: 평일 9-18시) ■ 앱 접근권한에 대한 고지 정보통신망 이용촉진 및 정보보호 등에 관한 법률 제22조의 2(접근권한에 대한 고지) 및 동 시행령 개정에 따라 KB스타뱅킹 서비스 제공을 위하여 필요한 접근권한을 아래와 같이 안내드립니다. · 선택적 접근권한 - 주소록: 연락처이체 수취인 연락처, 이체 후 SMS 전송을 위한 연락처를 불러올 때 사용합니다. - 위치: 번호표 발행과 지점검색 등 가까운 지점과 자동화기기를 찾을 때 사용합니다. - 카메라: QR코드를 이용해 공동인증서를 복사하거나 공과금을 촬영하여 납부할 때 사용합니다. - 마이크: 비대면 실명확인을 위한 영상통화 연결 시 사용합니다. - 사진: 이체 완료 후 특별한 송금메시지 보내기, 일부 예적금 상품의 전용화면에서 프로필 사진 설정, 통장 사본 이미지 저장 등에 사용합니다. - 알림: 실시간 Push알림을 발송할 때 사용합니다. - 동작 및 피트니스: KB매일걷기 서비스를 이용할 때 사용합니다. KB매일걷기 서비스는 애플 건강앱(Healthkit)과 연동하여 걸음수 등의 건강 정보를 공유 받을 수 있습니다. ※ 선택적 접근권한의 허용에 동의하지 않아도 서비스 이용이 가능하나, 필요한 일부 기능 사용에 제한이 있을 수 있습니다. ■ 공지사항 · iOS 13.0 이상의 스마트기기를 사용하는 개인인터넷뱅킹 고객님이시라면 누구든지 KB스타뱅킹을 이용하실 수 있습니다. ※ 베타버전 OS를 사용하시는 경우 KB스타뱅킹이 정상적으로 구동되지 않을 수 있습니다. 정식버전 OS 이용을 권장드립니다. · 이동통신사 3G/LTE/5G, 무선인터넷(Wi-Fi)을 통해 설치할 수 있으며, 3G/LTE/5G에서는 이용하시는 요금제에 따라 정해진 용량이 초과된 경우 데이터 요금이 부과될 수 있습니다. · 금융감독당국의 지침에 따라 전자금융 사고 예방을 위해 임의로 개조(탈옥, 루팅)한 스마트기기에서는 KB스타뱅킹 이용이 불가하며, 특정 앱이 설치되어있는 경우에도 임의 개조한 기기로 인식할 수 있습니다. (A/S센터 문의 및 초기화 권장) · 업데이트 후 공동인증서가 보이지 않는 경우 [전체메뉴 > 인증/보안 > 다른 인증수단 > 공동인증서 > 인증서관리 > 인증서 이용위치설정] 메뉴에서 'Olleh 인증서 이용'으로 변경 후 이용해보시기 바랍니다.",
+      "analysis": {
+        "app_key": "apple:373742138",
+        "summary_ko": "KB스타뱅킹은 계좌 조회, 이체, 모임 관리 등 다양한 금융 서비스를 제공하는 종합 생활금융 플랫폼입니다. 모바일 신분증, 건강보험 QR 서비스 등 비대면 인증 기능을 강화하여 사용자 편의성을 높였습니다. 자산 관리부터 주식 매매, 보험 설계까지 하나의 앱에서 해결할 수 있는 환경을 제공합니다.",
+        "features_ko": [
+          "모바일 신분증 서비스를 통해 실물 신분증 없이 신분 확인이 가능합니다.",
+          "KB국민인증서를 사용하여 보안카드나 OTP 없이 안전한 거래를 지원합니다.",
+          "KB모임통장을 통해 모임 자금을 편리하게 관리할 수 있습니다.",
+          "비대면으로 입출금 통장 개설 및 인터넷 뱅킹 가입이 가능합니다.",
+          "건강보험 QR 서비스를 통해 병원 등에서 간편하게 신분 확인을 할 수 있습니다."
+        ],
+        "noteworthy_ko": "금융 앱으로서 보안과 사용자 인증의 편의성을 극대화한 점이 특징입니다. 특히 모바일 신분증과 같은 공공 서비스와의 연동은 앱의 활용도를 높이는 핵심 요소로 보입니다.",
+        "development_ko": "금융 앱은 높은 수준의 보안 기술과 데이터 암호화가 필수적이며, 외부 공공 API와의 연동이 핵심입니다. 사용자 개인정보 보호를 위한 엄격한 테스트와 금융 당국의 가이드라인 준수가 제작 부담의 큰 부분을 차지합니다.",
+        "idea_ko": "개인 개발자가 금융 앱을 직접 구현하는 것은 보안 및 법적 규제로 인해 매우 어렵습니다. 대신 특정 목적의 '가계부'나 '소모임 회비 관리'와 같은 개인용 자산 기록 앱을 만드는 것이 실현 가능합니다.",
+        "highlights_ko": [
+          "다양한 금융 서비스를 통합한 원스톱 플랫폼입니다.",
+          "공공 서비스와 연동된 비대면 인증 기능을 제공합니다."
+        ],
+        "systems_ko": [
+          "사용자 인증 및 보안 시스템",
+          "금융 데이터 연동 API",
+          "알림 푸시 서비스",
+          "사용자 권한 관리 시스템",
+          "데이터 암호화 및 저장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "판단 어려움",
+          "reason": "금융 앱은 고도의 보안과 법적 규제 준수가 필수적이므로 개인 개발자가 원작과 같은 수준의 서비스를 구현하는 것은 불가능에 가깝습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 로그인",
+            "데이터 기록 및 조회",
+            "기본적인 보안 설정"
+          ],
+          "defer": [
+            "외부 금융 API 연동",
+            "실시간 인증 서비스"
+          ],
+          "risks": [
+            "보안 취약점 발생 가능성",
+            "금융 관련 법적 규제 준수 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "개인 소모임 회비 관리기",
+            "concept": "소규모 모임의 회비를 기록하고 정산하는 앱입니다. 구성원별 입금 현황을 시각화하여 관리합니다.",
+            "first_step": "구성원 명단 관리와 입금 내역 기록 기능 구현."
+          },
+          {
+            "title": "지출 패턴 분석기",
+            "concept": "사용자가 직접 입력한 지출 데이터를 바탕으로 카테고리별 소비 패턴을 분석해 주는 앱입니다.",
+            "first_step": "지출 항목 입력 폼과 카테고리별 통계 시각화 구현."
+          }
+        ],
+        "recommendation_ko": "금융 앱의 복잡한 기능을 그대로 구현하기보다는, 데이터 관리와 보안의 기초를 학습하는 용도로 추천합니다. 실제 금융 서비스는 법적 책임이 따르므로 개인 개발 시 주의가 필요합니다.",
+        "source_limitations_ko": "소개문에는 내부 보안 아키텍처, 서버 인프라, 외부 금융 기관과의 구체적인 연동 방식이 명시되어 있지 않습니다. 금융 앱의 핵심인 보안 및 결제 기능은 외부 서비스 연동이 필수적이므로 검증이 필요합니다.",
+        "name": "KB스타뱅킹",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/kb%EC%8A%A4%ED%83%80%EB%B1%85%ED%82%B9/id373742138",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 86,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-24"
     }
   }
 }

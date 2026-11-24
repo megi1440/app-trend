@@ -12901,6 +12901,280 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-23"
+    },
+    "google:com.rockstargames.gtasa.de": {
+      "app_key": "google:com.rockstargames.gtasa.de",
+      "name": "GTA: San Andreas - Definitive",
+      "developer": "Rockstar Games",
+      "source": "google",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.rockstargames.gtasa.de&hl=en&gl=US",
+      "data_date": "2026-11-24",
+      "analysed_at": "2026-11-24T11:33:55+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Five years ago, Carl ‘CJ’ Johnson escaped the haze of Los Santos, San Andreas...a city tearing itself apart with gang trouble, drugs, and corruption. Now, it's the early 90s. CJ’s got to go home - his mother has been murdered, his family has fallen apart, and his childhood friends are all heading towards disaster. On his return to the neighborhood, a couple of cops frame him for homicide, forcing CJ on a journey that takes him across the entire state of San Andreas, to save his family and to take control of the streets in the next iteration of the series that changed everything. Rockstar Games, Inc. 622 Broadway, New York, NY, 10012. © 2001–2023. Rockstar Games, Grand Theft Auto, Grand Theft Auto: San Andreas and R* Logo are marks/logos/copyrights of Take-Two Interactive. Unreal® Engine, Copyright 1998–2023, Epic Games, Inc. All rights reserved. Uses Oodle. Copyright © 2008–2023 by Epic Games Tools, Inc. The ratings icon is a trademark of the Entertainment Software Association. All other marks and trademarks are properties of their respective owners. All rights reserved.",
+      "analysis": {
+        "app_key": "google:com.rockstargames.gtasa.de",
+        "summary_ko": "90년대 초반을 배경으로 주인공 CJ가 고향으로 돌아와 겪는 범죄와 복수, 가족의 재건을 다룬 오픈 월드 액션 게임입니다. 광활한 산 안드레아스 주를 무대로 다양한 임무를 수행하며 도시의 주도권을 장악해 나가는 서사를 담고 있습니다. 시리즈의 명성을 잇는 리마스터 버전으로 현대적인 그래픽과 시스템을 갖추고 있습니다.",
+        "features_ko": [
+          "광활한 오픈 월드 환경에서 자유로운 탐험과 이동이 가능합니다.",
+          "다양한 범죄 및 액션 임무를 수행하며 스토리를 진행합니다.",
+          "자동차, 오토바이, 비행기 등 다양한 탈것을 조종합니다.",
+          "캐릭터의 능력치를 성장시키고 외형을 커스터마이징합니다.",
+          "도시 내의 갱단과 세력 다툼을 벌이며 영역을 확장합니다."
+        ],
+        "noteworthy_ko": "오픈 월드 장르의 정석이라 할 수 있는 게임으로, 방대한 콘텐츠와 자유도가 결합된 구조가 특징입니다. 1인 개발자가 이 정도 규모의 게임을 복제하는 것은 불가능에 가까우며, 특정 메커니즘을 분리하여 학습하는 접근이 필요합니다.",
+        "development_ko": "오픈 월드 구현을 위한 스트리밍 로딩 시스템과 방대한 데이터 관리가 핵심입니다. 복잡한 물리 엔진과 AI 시스템, 그리고 다양한 탈것의 조작감 구현은 매우 높은 기술적 난도를 요구합니다. 콘텐츠 제작 부담이 극도로 높으므로, 1인 개발 시에는 특정 도시 구역이나 특정 미션 시스템만 구현하는 것이 현실적입니다.",
+        "idea_ko": "오픈 월드 전체가 아닌, 특정 구역 내에서 제한된 시간 동안 임무를 수행하는 '미션 기반 샌드박스' 게임이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "자유도 높은 오픈 월드 탐험과 다양한 상호작용.",
+          "성장 요소와 결합된 범죄 액션 서사."
+        ],
+        "systems_ko": [
+          "오픈 월드 스트리밍 및 로딩 시스템",
+          "차량 물리 및 조작 시스템",
+          "NPC AI 및 스케줄링 시스템",
+          "미션 트리 및 이벤트 관리",
+          "캐릭터 성장 및 인벤토리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "판단 어려움",
+          "reason": "원작은 AAA급 게임으로 1인 개발자가 전체를 구현하는 것은 불가능합니다. 핵심 메커니즘을 추출하여 구현하더라도 오픈 월드 특유의 복잡성 때문에 매우 높은 난도가 예상됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 카메라 제어",
+            "간단한 차량 운전",
+            "기본적인 미션 트리거"
+          ],
+          "defer": [
+            "방대한 오픈 월드 맵",
+            "복잡한 NPC AI 및 도시 시스템"
+          ],
+          "risks": [
+            "개발 범위 조절 실패",
+            "최적화 및 성능 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "택시 드라이버 시뮬레이터",
+            "concept": "오픈 월드 도시를 배경으로 승객을 태우고 목적지까지 안전하게 운전하는 게임입니다. 시간 제한과 운전 기술이 핵심입니다.",
+            "first_step": "차량 조작과 목적지 내비게이션 시스템 구현."
+          },
+          {
+            "title": "도시 배달부",
+            "concept": "복잡한 도시에서 장애물을 피해 물건을 배달하는 게임입니다. 지름길을 찾고 효율적인 경로를 계획하는 것이 중요합니다.",
+            "first_step": "간단한 도시 맵과 배달 미션 로직 구현."
+          }
+        ],
+        "recommendation_ko": "오픈 월드 게임의 구조와 시스템 설계를 공부하고 싶은 개발자에게 추천합니다. 다만, 자신의 역량에 맞춰 아주 작은 부분부터 구현하는 것이 성공의 열쇠입니다.",
+        "source_limitations_ko": "소개문은 게임의 배경과 특징을 설명할 뿐, 구체적인 구현 기술이나 내부 시스템에 대한 정보는 없습니다. 결제나 보안 관련 정보는 확인되지 않습니다.",
+        "name": "GTA: San Andreas - Definitive",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.rockstargames.gtasa.de&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 171,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 23,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-24"
+    },
+    "google:com.makersnoop.sunyurok": {
+      "app_key": "google:com.makersnoop.sunyurok",
+      "name": "선유록: 조선 판타지 도트 RPG",
+      "developer": "MakersNoop Studio",
+      "source": "google",
+      "country": "KR",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.makersnoop.sunyurok&hl=ko&gl=KR",
+      "data_date": "2026-11-24",
+      "analysed_at": "2026-11-24T11:34:34+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "도트로 그린 조선 판타지 RPG, 선유록. 자동사냥으로 편하게 키우고, 파티 레이드와 공성전에서 다른 협객과 함께 싸우세요. 요기(妖氣)가 들끓는 조선. 그 땅에서 한 무인이 눈을 뜬다. 삼백여 년 전 중원, 화산파의 제자는 사파 흑야문(黑夜門)의 음모를 캐다 목숨을 잃었다. 품에 지녔던 옥거울이 깨어난 순간, 그는 낯선 조선 한양의 하늘 아래에서 다시 숨을 쉰다. 기억은 그대로지만 내공은 한 할도 남지 않았다. 짐승마저 요기에 물든 이 땅에서, 그는 다시 검을 든다. ■ 네 갈래의 무공 검객, 살수, 술사, 도인. 직업마다 무공도 싸우는 방식도 다릅니다. 광역 술법으로 요물 무리를 쓸어내고, 은신에서 뛰쳐나와 급소를 노리고, 앞에서 적을 붙잡거나 뒤에서 동료를 치유하세요. ■ 자동사냥과 오프라인 사냥 인왕산 숲길, 원한 맺힌 폐가, 도적산채, 도깨비 골, 공동묘지. 사냥터마다 다른 요물과 우두머리가 기다립니다. 자동사냥으로 편하게 사냥하다가, 중요한 순간에는 직접 무공을 펼치세요. 게임을 끄고 쉬는 동안에도 정해진 시간만큼 사냥이 이어집니다. ■ 파티 레이드 최대 4인 파티로 통곡의 벽, 얼어붙은 계곡, 천벌의 뇌옥에 도전하세요. 화염의 요수 불사조, 빙결의 원령 설녀, 뇌전의 신수 파천황이 저마다 다른 패턴으로 협객을 시험합니다. ■ 평양성 공성전 문파원과 함께 성문을 부수고 거점을 지나 옥좌를 차지하세요. 가장 많은 협객이 한자리에 모이는 싸움입니다. ■ 용맥쟁탈전 정파, 사파, 마교. 세 세력이 한 전장에서 맞붙습니다. 혈자리를 차지하고 용혈을 지나, 이무기의 여의주를 손에 넣는 세력은 어디일까요. ■ 요괴문 요물이 끝없이 쏟아져 나오는 요괴문에서 한계까지 싸우고 보상을 챙기세요. ■ 영물 산군, 구미호, 우치, 란. 네 영물이 저마다 다른 역할로 전투를 돕습니다. 영물을 키우고, 탐험을 보내 재료를 얻어 오세요. ■ 성장과 생산 장비를 강화하고 제련해 등급을 올리고, 장신구에 사상 정기를 각인하세요. 대장술, 조제술, 공예술, 부적술로 장비와 물약을 직접 만들고, 채집으로 재료를 모을 수 있습니다. 도감을 채울수록 캐릭터가 강해집니다. ■ 비무와 문파 비무장에서 다른 협객이 세워 둔 방어와 겨루며 등급을 올리세요. 문파를 세우거나 가입해 함께 기부하고 임무를 수행하며, 다른 문파와 동맹이나 적대를 맺을 수 있습니다. ■ 거래소 사냥과 생산으로 얻은 장비와 재료를 거래소에서 금전으로 사고팔 수 있습니다. ---- 개발자 연락처 : 김성현 사평대로58길 6, 현대썬앤빌강남더인피닛 1022호 서초구, 서울특별시 06611 South Korea 1475701132 2026-서울강남-05725 서울특별시 강남구청",
+      "analysis": {
+        "app_key": "google:com.makersnoop.sunyurok",
+        "summary_ko": "조선 시대를 배경으로 한 판타지 도트 RPG입니다. 자동사냥과 오프라인 사냥 시스템을 통해 편하게 캐릭터를 성장시킬 수 있으며, 파티 레이드와 공성전 등 다양한 협동 콘텐츠를 제공합니다. 무공, 영물, 생산 시스템 등 깊이 있는 성장 요소를 갖추고 있습니다.",
+        "features_ko": [
+          "검객, 살수, 술사, 도인 등 네 가지 직업별 무공을 활용하여 전투합니다.",
+          "자동사냥과 오프라인 사냥을 지원하여 게임을 끄고 있어도 성장이 가능합니다.",
+          "최대 4인 파티 레이드를 통해 강력한 요수와 전투합니다.",
+          "문파원과 함께 성을 차지하는 공성전과 세력 간의 용맥쟁탈전을 즐깁니다.",
+          "장비 강화, 제련, 생산, 채집 등 다양한 성장 및 생산 시스템을 제공합니다.",
+          "거래소를 통해 장비와 재료를 다른 협객과 사고팔 수 있습니다."
+        ],
+        "noteworthy_ko": "조선 판타지라는 독특한 세계관과 도트 그래픽의 조화가 매력적입니다. 자동사냥과 오프라인 보상 시스템을 통해 모바일 환경에 최적화된 RPG 경험을 제공하는 구조로 추정됩니다.",
+        "development_ko": "방대한 RPG 시스템(전투, 성장, 경제, 커뮤니티)을 구현해야 하므로 콘텐츠 제작 부담이 매우 큽니다. 서버-클라이언트 간 데이터 동기화와 거래소 시스템의 안정성이 중요하며, 다양한 전투 패턴과 밸런스 조절이 필수적입니다. 도트 그래픽 리소스 제작과 최적화 또한 중요한 개발 요소입니다.",
+        "idea_ko": "조선 시대의 민담이나 설화를 퀘스트로 구현하여 세계관의 깊이를 더하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "조선 판타지라는 독창적인 세계관과 도트 그래픽의 조화가 돋보입니다.",
+          "자동사냥과 오프라인 성장을 지원하여 바쁜 현대인에게 적합한 RPG입니다."
+        ],
+        "systems_ko": [
+          "전투 및 스킬 시스템",
+          "캐릭터 성장 및 장비 시스템",
+          "파티 및 레이드 매칭 시스템",
+          "경제 및 거래소 시스템",
+          "문파 및 커뮤니티 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "RPG는 구현해야 할 시스템의 범위가 매우 넓습니다. 특히 거래소와 같은 경제 시스템과 멀티플레이어 콘텐츠는 1인 개발자가 구현하고 유지보수하기에 매우 높은 난이도를 가집니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 전투 및 자동사냥",
+            "캐릭터 성장 및 장비 강화",
+            "기본적인 퀘스트 시스템"
+          ],
+          "defer": [
+            "거래소 시스템",
+            "공성전 및 대규모 PvP",
+            "복잡한 파티 레이드"
+          ],
+          "risks": [
+            "콘텐츠 제작의 방대함",
+            "서버 안정성 및 보안 문제",
+            "밸런스 조절의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "민담 퀘스트 시스템",
+            "concept": "조선 시대의 실제 민담이나 설화를 바탕으로 한 퀘스트를 수행하며 세계관을 탐험하는 시스템입니다.",
+            "first_step": "퀘스트 데이터베이스를 설계하고 특정 조건 달성 시 텍스트 이벤트를 출력하는 기능을 구현합니다."
+          },
+          {
+            "title": "영물 탐험 일지",
+            "concept": "영물을 탐험 보내고 얻은 재료를 일지에 기록하여, 도감을 채우는 재미를 강조한 수집형 콘텐츠입니다.",
+            "first_step": "탐험 결과 데이터를 저장하고 도감 UI에 반영하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "RPG 개발의 전반적인 시스템 구조를 배우기에 좋습니다. 다만, 1인 개발 시에는 시스템의 규모를 대폭 축소하여 핵심 재미에 집중하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 서버 아키텍처, 보안 정책, 결제 시스템의 구체적인 구현 방식은 명시되지 않았습니다. 거래소의 경제 밸런스 유지 방식도 확인되지 않습니다.",
+        "name": "선유록: 조선 판타지 도트 RPG",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.makersnoop.sunyurok&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-24"
+    },
+    "apple:6830593726": {
+      "app_key": "apple:6830593726",
+      "name": "エペマップローテ",
+      "developer": "TAKASHI HIRAI",
+      "source": "apple",
+      "country": "JP",
+      "category": "app_tools",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%82%A8%E3%83%9A%E3%83%9E%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%86/id6830593726?uo=2",
+      "data_date": "2026-11-24",
+      "analysed_at": "2026-11-24T11:35:15+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "いまのランクマップと、切り替わるまでの残り時間がひと目でわかるアプリです。 「次のマップは何？」「お気に入りのマップはいつ来る？」をすぐに確認できます。 ■ いまのマップと残り時間 アプリを開くだけで、いまのランクマップ、残り時間、次のマップがわかります。シーズン・スプリットの終了日時も表示します。 ■ この先7日分の予定 7日先までのマップの予定を一覧で確認できます。お気に入りのマップだけに絞り込むこともできます。 ■ お気に入りのマップを通知 お気に入りのマップに切り替わったときに、通知でお知らせします。「18:00〜24:00だけ」のように、通知を受け取る時間帯も指定できます。アプリを閉じていても通知は届きます。 ■ ホーム画面・ロック画面のウィジェット アプリを開かなくても、ホーム画面やロック画面で、いまのマップと残り時間を確認できます。 ■ 電波がなくても表示 最後に受け取った予定をもとに、オフラインでも表示を続けます。 ■ 個人情報を集めません アカウントの登録は不要です。設定はお使いの端末の中だけに保存します。 ※ マップの予定は、公開されている情報をもとに開発者が登録しています。ゲーム側の急な変更などで、実際と異なる場合があります。 ※ このアプリは、Apex Legends のファンが個人で作った非公式のアプリです。Electronic Arts Inc.、Respawn Entertainment とは関係がなく、承認も受けていません。Apex Legends は Electronic Arts Inc. の商標です。 ご要望・不具合のご報告は、X（旧Twitter）の @epeMAProta までお寄せください。",
+      "analysis": {
+        "app_key": "apple:6830593726",
+        "summary_ko": "Apex Legends의 랭크 맵 로테이션 정보를 실시간으로 확인하는 유틸리티 앱입니다. 현재 맵과 남은 시간, 향후 7일간의 맵 일정을 한눈에 볼 수 있습니다. 사용자는 선호하는 맵이 활성화될 때 알림을 받을 수 있으며, 위젯을 통해 앱 실행 없이도 정보를 확인할 수 있습니다.",
+        "features_ko": [
+          "현재 랭크 맵과 다음 맵으로 전환되기까지의 남은 시간을 실시간으로 표시합니다.",
+          "향후 7일간의 맵 로테이션 예정 정보를 목록 형태로 제공합니다.",
+          "특정 맵이 활성화될 때 원하는 시간대에 맞춰 푸시 알림을 보냅니다.",
+          "홈 화면 및 잠금 화면 위젯을 지원하여 앱을 열지 않고도 정보를 확인합니다.",
+          "마지막으로 수신한 데이터를 기반으로 오프라인 상태에서도 정보를 표시합니다."
+        ],
+        "noteworthy_ko": "외부 API나 데이터 소스를 활용하여 특정 게임의 스케줄을 시각화하는 전형적인 팬 메이드 유틸리티입니다. 오프라인 캐싱 기능을 통해 네트워크 불안정 상황을 대비한 점이 사용자 경험 측면에서 흥미롭습니다.",
+        "development_ko": "외부 데이터 소스를 주기적으로 가져와 파싱하는 데이터 연동 기술이 핵심입니다. UI는 맵 정보를 직관적으로 보여주는 리스트와 위젯 구성이 주를 이루며, 알림 스케줄링 기능 구현이 필요합니다. 데이터 업데이트의 정확성을 유지하기 위한 예외 처리와 서버 비용 최적화가 주요 과제입니다.",
+        "idea_ko": "특정 게임의 로테이션 정보를 기반으로 사용자에게 최적의 플레이 시간을 추천해주는 개인화 알림 서비스.",
+        "highlights_ko": [
+          "사용자 맞춤형 맵 알림 시간대 설정 기능이 포함되어 있습니다.",
+          "오프라인 상태에서도 마지막 데이터를 유지하는 데이터 보존 설계가 적용되었습니다."
+        ],
+        "systems_ko": [
+          "데이터 동기화 및 파싱 시스템",
+          "로컬 알림 스케줄러",
+          "위젯 데이터 업데이트 로직",
+          "오프라인 데이터 캐싱 시스템",
+          "사용자 설정 저장 관리"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "복잡한 게임 엔진 로직보다는 데이터 호출과 UI 표시가 중심인 앱입니다. 외부 데이터 소스만 확보된다면 1인 개발로 충분히 구현 가능한 수준입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "현재 맵 정보 표시",
+            "다음 맵 정보 및 남은 시간 계산",
+            "기본적인 맵 로테이션 리스트"
+          ],
+          "defer": [
+            "사용자 맞춤형 시간대 알림",
+            "위젯 기능",
+            "오프라인 캐싱"
+          ],
+          "risks": [
+            "데이터 소스 변경 시 앱 기능 중단",
+            "게임사의 API 정책 변경 가능성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "맵 기반 파티 매칭 알림",
+            "concept": "선호하는 맵이 뜰 때 친구들과 함께 플레이할 수 있도록 파티 모집 알림을 보내는 기능입니다.",
+            "first_step": "특정 맵 활성화 시 푸시 알림을 보내는 기본 로직 구현."
+          },
+          {
+            "title": "플레이 통계 기록기",
+            "concept": "맵별로 사용자의 승률이나 플레이 시간을 기록하여 선호 맵을 분석해주는 기능입니다.",
+            "first_step": "사용자가 직접 맵과 결과를 입력하는 로컬 데이터베이스 구축."
+          }
+        ],
+        "recommendation_ko": "데이터 기반의 유틸리티 앱을 만들고자 하는 초보 개발자에게 추천합니다. API 연동과 데이터 시각화의 기초를 배우기에 적합합니다.",
+        "source_limitations_ko": "소개문에 명시된 데이터 소스의 구체적인 API 주소나 방식은 알 수 없습니다. 실제 게임 데이터의 실시간 반영 여부는 개발자의 데이터 관리 방식에 따라 달라지며, 외부 서비스 연동에 대한 보안 정책은 확인되지 않습니다.",
+        "name": "エペマップローテ",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%82%A8%E3%83%9A%E3%83%9E%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%86/id6830593726?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-24"
     }
   }
 }

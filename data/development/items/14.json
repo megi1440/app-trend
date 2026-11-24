@@ -27716,6 +27716,92 @@
         ],
         "thoughtsTokenCount": 2368,
         "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "itch:bdbc7f8422b8dc92c809",
+        "product_kind": "game",
+        "selected_concept_title_ko": "야간 순찰: 빛의 미로",
+        "project_goal_and_audience_ko": "이 모바일 게임은 전통적인 퍼즐 탈출의 재미에 긴장감 있는 생존 및 탐색 요소를 결합하여 몰입감 있는 경험을 추구하는 모바일 게이머를 타겟으로 합니다. 단순한 미로 탈출을 넘어 시간대 변화와 시야 제한 속에서 전략적인 자원 관리를 즐기는 이용자에게 최적화되어 있습니다.",
+        "source_relation_and_difference_ko": "원본의 3D 공간 미로 구조와 아침에서 밤으로 이어지는 환경 변화라는 시각적 몰입 요소를 그대로 계승했습니다. 반면, 단순한 공간 이동에서 탈피하여 밤이 될수록 시야가 극단적으로 좁아지는 제약과 배터리 자원 관리, 역사적 유물 수집이라는 새로운 게임플레이 메커니즘을 결합하여 긴장감을 대폭 강화했습니다.",
+        "core_user_experience_ko": "사용자는 화면 하단의 가상 조이스틱으로 3D 미로 속 캐릭터를 이동시키고, 화면 드래그를 통해 손전등의 시점을 조작합니다. 시간이 경과할수록 주변 환경이 어두워지고 플래시라이트의 배터리가 소모되므로, 플레이어는 제한된 시야 속에서 벽의 구조를 파악하고 숨겨진 유물을 찾아 탈출구로 향해야 합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "시간대 연동 동적 조명 시스템",
+            "user_action_and_behavior_ko": "레벨 진행 시간에 따라 태양이 지고 밤이 깊어지며, 전역 조명(Ambient Light)이 감소하여 시야가 좁아지는 환경 변화 제공.",
+            "practical_implementation_ko": "Unity URP 환경에서 Light Component의 Intensity와 Color를 레벨 타이머에 연동하여 부드럽게 변화시키는 스크립트 작성."
+          },
+          {
+            "feature_ko": "플래시라이트 및 배터리 자원 관리",
+            "user_action_and_behavior_ko": "손전등을 켜고 쓸 수 있으며, 켜져 있는 동안 배터리가 지속적으로 소모되어 방전 시 완전 암흑 상태가 됨.",
+            "practical_implementation_ko": "Spotlight 셰이더와 커스텀 배터리 UI를 연동하고, 맵 내에 배치된 배터리 아이템 획득 시 잔여량을 충전하는 로직 구현."
+          },
+          {
+            "feature_ko": "유물 수집 및 도감 시스템",
+            "user_action_and_behavior_ko": "미로 구석에 숨겨진 코르도바 역사 유물을 찾아 상호작용하면 획득되며, 메인 메뉴의 도감에서 상세 설명을 열람 가능.",
+            "practical_implementation_ko": "Collider 트리거 기반의 아이템 획득 이벤트와 PlayerPrefs 또는 로컬 세이브 파일을 활용한 수집 여부 데이터 저장소 연결."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 로비 및 레벨 선택",
+            "contents_and_actions_ko": "150개 레벨 리스트 및 별점/클리어 상태 표시, 도감 메뉴 진입 버튼 제공. 레벨 선택 시 게임 플레이 씬으로 전환."
+          },
+          {
+            "screen_ko": "미로 탐색 플레이 화면",
+            "contents_and_actions_ko": "3D 미로 뷰, 가상 조이스틱, 손전등 ON/OFF 버튼, 남은 배터리 잔량 게이지, 남은 시간 표시. 탈출구 도달 시 클리어 팝업 출력."
+          },
+          {
+            "screen_ko": "결과 및 유물 도감",
+            "contents_and_actions_ko": "클리어 소요 시간과 수집한 유물 목록을 표시하고 다음 레벨로 이동하거나 로비로 복귀."
+          }
+        ],
+        "implementation_approach_ko": "Unity 엔진(URP)을 선택하여 모바일 기기에서의 효율적인 광원 렌더링과 커스텀 셰이더 적용을 용이하게 합니다. C#을 이용해 그리드 기반 미로 생성 알고리즘과 입력 매니저를 모듈화하며, 모바일 터치 최적화를 위해 Unity Input System 패키지를 활용합니다. 대안으로는 Godot Engine을 사용하여 가벼운 빌드 용량을 확보할 수 있습니다.",
+        "data_and_storage_ko": [
+          "플레이어 진행 데이터: 레벨별 클리어 여부, 최고 점수/클리어 시간 (PlayerPrefs 또는 로컬 JSON 저장)",
+          "유물 도감 데이터: 발견한 유물 ID 리스트 및 해금 상태 (정적 데이터 파일 + 로컬 세이브 연동)",
+          "레벨 구조 데이터: 150개 미로의 벽 배치 및 유물/배터리 스폰 좌표 정보 (JSON 포맷으로 스트리밍 아셋 관리)"
+        ],
+        "mvp_scope_ko": "10개의 기본 그리드 기반 3D 미로 레벨, 가상 조이스틱 이동, 기본 스포트라이트 조명 및 배터리 소모 메커니즘, 2종의 유물 수집 기능만 포함합니다. 멀티플레이어, 복잡한 스토리 컷씬, 사운드 효과 고도화는 MVP에서 제외하여 1인 개발 리소스를 최소화합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "프로젝트 셋업 및 미로 그리드 생성",
+            "deliverable_and_check_ko": "Unity 프로젝트 생성, 기본 그리드 데이터 기반 3D 벽체 생성 테스트. 콘솔 및 에디터에서 미로 구조 정상 생성 확인."
+          },
+          {
+            "stage_ko": "모바일 조작 및 카메라/조명 구현",
+            "deliverable_and_check_ko": "가상 조이스틱을 통한 이동 구현, URP 스포트라이트 및 시간대별 조명 변화 스크립트 적용. 에디터 프리뷰에서 조작감 및 시야 제한 효과 테스트."
+          },
+          {
+            "stage_ko": "자원 관리 및 유물 상호작용 추가",
+            "deliverable_and_check_ko": "배터리 소모 및 충전 로직, 유물 트리거 상호작용 구현. UI 게이지 연동 상태 확인."
+          },
+          {
+            "stage_ko": "레벨 루프 및 UI 연동",
+            "deliverable_and_check_ko": "로비 화면, 레벨 선택, 클리어/게임오버 팝업 연결 및 데이터 저장 테스트."
+          }
+        ],
+        "possible_extensions_ko": "날씨 효과(안개, 비) 도입을 통한 시야 방해 요소 다양화, 특수 플래시라이트(자외선 라이트 등 숨겨진 발판 탐지), 무한 미로 챌린지 모드 추가.",
+        "risks_and_open_decisions_ko": [
+          "모바일 화면에서 과도한 어둠이 가독성과 피로도를 높일 수 있으므로 최소 조도 한계선 설정 필요",
+          "가상 조이스틱과 손전등 시점 드래그 간의 터치 입력 충돌 여부 플레이테스트를 통해 검증 필요",
+          "150개 레벨의 데이터를 효율적으로 관리하기 위한 JSON 직렬화 구조 확정 필요"
+        ],
+        "draft_status_ko": "본 문서는 야간 순찰: 빛의 미로 기획을 바탕으로 작성된 모바일 개발 설계 초안이며, 실제 구현, 플레이테스트, 성능 최적화가 완료되지 않은 상태입니다."
+      },
+      "plan_at": "2026-11-24T11:38:11+09:00",
+      "plan_quota_day": "2026-11-24",
+      "plan_usage": {
+        "promptTokenCount": 1868,
+        "candidatesTokenCount": 1849,
+        "totalTokenCount": 6936,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1868
+          }
+        ],
+        "thoughtsTokenCount": 3219,
+        "serviceTier": "standard"
       }
     },
     "apple:6761457348": {
@@ -28617,6 +28703,535 @@
           }
         ],
         "thoughtsTokenCount": 1334,
+        "serviceTier": "standard"
+      }
+    },
+    "itch:034be8d40643ef3b1c90": {
+      "app_key": "itch:034be8d40643ef3b1c90",
+      "name": "BION-07: Green Protocol [Free] [Action]",
+      "developer": "",
+      "source": "itch",
+      "kind": "game",
+      "detail_url": "https://alves2a.itch.io/bion-07-green-protocol",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:034be8d40643ef3b1c90",
+        "product_kind": "game",
+        "original_experience_ko": "네온 스타일의 시각적 분위기를 바탕으로 로봇과 메카닉을 조종하며 빠른 사격과 회피를 펼치고, 최종적으로 거대 보스와 대결하는 런앤건 액션 게임 경험을 제공하는 것으로 해석됩니다.",
+        "source_facts_and_limitations_ko": [
+          "확인된 사실: 스토어에 등록된 제목은 'BION-07: Green Protocol [Free] [Action]'이며, 소개문에 'Neon run-and-gun action with a robot, a mech and giant bosses'라는 문구가 명시되어 있습니다.",
+          "확인되지 않은 한계: 실제 조작 체계, 스테이지의 구조, 성장 및 아이템 시스템, 모바일 최적화 여부 등 구체적인 게임플레이 요소는 공개된 정보가 없어 알 수 없습니다."
+        ],
+        "valuable_elements_ko": [
+          "사이버펑크 감성을 자극하는 네온 스타일의 시각적 테마와 강렬한 색감 대조",
+          "일반적인 적 처치 구간과 압도적인 규모의 거대 보스전이 주는 완급 조절된 전투 긴장감",
+          "로봇과 메카닉이라는 SF 메카니멀 콘셉트의 시각적 매력"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "네온 그랜드마스터: 그리드 디펜스",
+            "core_idea_ko": "모바일 화면에서 가상 패드의 조작 피로도를 낮추기 위해 그리드 기반의 스텝 이동과 자동 사격을 결합하고, 거대 보스의 패턴을 회피하며 격파하는 전략적 런앤건 액션 게임입니다.",
+            "what_to_keep_ko": "네온 사이버펑크 비주얼 테마와 단계별로 압박해 오는 거대 보스전의 몰입감 있는 구조를 계승합니다.",
+            "what_to_change_ko": "자유로운 360도 이동 방식 대신 모바일 터치에 최적화된 고정 그리드 스텝 이동 및 자동 사격 시스템으로 변경하여 조작의 직관성을 높입니다.",
+            "mobile_use_or_play_ko": "화면 하단의 좌우 이동 및 대시 버튼을 눌러 보스의 탄막 패턴을 피하고, 게이지가 가득 차면 메카닉으로 변신하여 강력한 일격을 가합니다.",
+            "key_features_ko": [
+              "그리드 기반의 명확한 탄막 회피 시스템",
+              "게이지 충전식 메카닉 변신 및 버스트 모드",
+              "페이즈별로 변화하는 거대 보스의 공격 패턴 관리"
+            ],
+            "solo_mvp_and_effort_ko": "2D 그리드맵과 간단한 셰이더 기반의 네온 효과를 활용해 1인 개발이 가능하며, 보스 2종을 포함하는 프로토타입 제작을 MVP 범위로 설정합니다.",
+            "strengths_limits_ko": "모바일 터치 환경에서 높은 조작 안정성을 제공하지만, 그리드 이동 방식으로 인해 원작의 자유로운 런앤건 속도감이 다소 제한될 수 있습니다."
+          },
+          {
+            "title_ko": "배터리 런: 프로토콜 오버로드",
+            "core_idea_ko": "스테이지를 진행하며 무작위로 획득하는 업그레이드 카드를 조합해 웨이브를 돌파하고 보스를 무찌르는 세로형 로그라이크 런앤건 액션 게임입니다.",
+            "what_to_keep_ko": "로봇과 메카닉 유닛의 조합, 그리고 끊임없이 적을 사격하며 전진하는 빠른 템포의 액션 재미를 유지합니다.",
+            "what_to_change_ko": "단순 스테이지 클리어 방식에서 벗어나 매 판마다 무작위 업그레이드를 선택하는 로그라이크 구조와 한 손 조작이 가능한 세로 화면 레이아웃으로 개편합니다.",
+            "mobile_use_or_play_ko": "한 손으로 캐릭터의 위치를 드래그하여 적의 공격을 피하면서 자동 사격으로 웨이브를 정리하고, 웨이브 클리어 시 무작위 버프 카드를 선택해 캐릭터를 강화합니다.",
+            "key_features_ko": [
+              "한 손 드래그 기반 세로형 조작",
+              "로그라이크 무작위 업그레이드 및 빌드 조합",
+              "소환형 메카닉 지원 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "기본 이동 및 사격 로직, 10종의 업그레이드 아이템, 1종의 보스 스테이지를 구현하는 일정으로 2~3개월 내 개발을 목표로 합니다.",
+            "strengths_limits_ko": "반복 플레이를 유도하는 동기가 강하지만, 세로 화면에서 다수의 탄막이 표시될 때 가독성을 확보하고 밸런스를 맞추는 데 노력이 필요합니다."
+          },
+          {
+            "title_ko": "메카 시퀀스: 리듬 건 액션",
+            "core_idea_ko": "음악의 비트에 맞춰 사격과 회피 타이밍을 입력하여 거대 보스의 공격을 무력화하고 화려한 콤보를 터뜨리는 리듬 기반 런앤건 액션 게임입니다.",
+            "what_to_keep_ko": "로봇 주인공과 거대 보스 간의 시각적으로 화려한 교전 연출과 긴박한 액션의 쾌감을 가져옵니다.",
+            "what_to_change_ko": "복잡한 실시간 가상 패드 조작을 제거하고, 음악 비트에 맞춘 탭과 홀드 입력으로 조작 체계를 완전히 변경하여 리듬감 있는 액션을 제공합니다.",
+            "mobile_use_or_play_ko": "음악의 비트에 맞춰 좌우 화면을 탭하여 사격하고, 길게 눌러 메카닉 방어막을 전개하여 보스의 강력한 광역 공격을 막아냅니다.",
+            "key_features_ko": [
+              "비트 싱크 기반 사격 및 회피 메커니즘",
+              "보스 공격 패턴과 연동된 리듬 노트 시스템",
+              "네온 비주얼과 음악이 어우러지는 연출"
+            ],
+            "solo_mvp_and_effort_ko": "에셋 스토어의 리듬 싱크 모듈과 기본 2D 스프라이트를 활용해 2곡 분량의 보스전 스테이지를 MVP로 구현합니다.",
+            "strengths_limits_ko": "모바일 터치에 최적화된 직관적 조작과 높은 액션 연출력을 자랑하지만, 리듬 게임 장르에 익숙하지 않은 유저에게는 진입 장벽이 될 수 있습니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어는 조작 안정성과 전략적 회피에 중점을 두었으며, 두 번째 아이디어는 반복 플레이와 성장 재미를 강조했고, 세 번째 아이디어는 음악과 연동된 타이밍 액션의 쾌감을 추구합니다. 세 기획 모두 원작의 네온 테마와 보스전 요소를 유지하면서 모바일 환경에 맞는 서로 다른 플레이 루프를 제안합니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "모바일 기기에서 가상 조이스틱의 불편함을 최소화하면서도 그리드 기반의 명확한 회피 규칙과 보스 공략의 재미를 1인 개발 범위 내에서 가장 안정적으로 구현할 수 있기 때문입니다.",
+        "next_questions_ko": [
+          "모바일 화면 비율에서 그리드 크기와 터치 버튼의 배치 공간이 충분히 확보되는가?",
+          "그리드 기반 이동이 원작이 가진 런앤건 고유의 속도감과 액션성을 충분히 담아낼 수 있는가?",
+          "네온 스타일의 시각 효과를 2D 모바일 환경에서 성능 저하 없이 구현할 수 있는 렌더링 방식은 무엇인가?"
+        ]
+      },
+      "brief_at": "2026-11-24T11:52:55+09:00",
+      "brief_quota_day": "2026-11-24",
+      "brief_usage": {
+        "promptTokenCount": 1203,
+        "candidatesTokenCount": 1922,
+        "totalTokenCount": 5363,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1203
+          }
+        ],
+        "thoughtsTokenCount": 2238,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "itch:034be8d40643ef3b1c90",
+        "product_kind": "game",
+        "selected_concept_title_ko": "네온 그랜드마스터: 그리드 디펜스",
+        "project_goal_and_audience_ko": "이 게임은 모바일 환경에서 복잡한 가상 조이스틱 조작의 피로도를 낮추면서도 런앤건 액션과 거대 보스 공략의 긴장감을 즐기고 싶은 액션 게임 유저를 위한 모바일 2D 그리드 액션 게임입니다. 유저는 직관적인 스텝 이동과 자동 사격을 통해 복잡한 탄막을 피하고, 전략적으로 메카닉 변신 타이밍을 조율하며 쾌감 있는 보스 격파의 재미를 느낍니다.",
+        "source_relation_and_difference_ko": "원작의 사이버펑크 네온 비주얼 테마와 압도적인 거대 보스전의 구조라는 핵심 감성을 계승합니다. 차이점으로는 모바일 터치 패드의 물리적 한계를 극복하기 위해 자유 이동 방식 대신 그리드 기반 스텝 이동과 자동 사격 시스템을 도입하여 조작 안정성과 전략적 판단 요소를 강화했습니다.",
+        "core_user_experience_ko": "플레이어는 화면 하단의 좌·우 이동 및 대시 버튼을 터치하여 캐릭터를 지정된 그리드 칸 단위로 빠르게 이동시킵니다. 캐릭터는 사거리에 진입한 보스에게 자동으로 사격을 가하고, 공격을 명중시키거나 회피할 때마다 메카닉 게이지가 충전됩니다. 게이지가 가득 차면 변신 버튼을 눌러 강력한 버스트 메카닉 상태로 전환하여 보스에게 큰 피해를 입히며, 보스의 페이즈별 탄막 패턴을 그리드 칸의 간격을 계산해 회피합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "그리드 기반 스텝 이동 및 회피 시스템",
+            "user_action_and_behavior_ko": "유저가 좌우 이동 버튼을 누르면 캐릭터가 즉시 인접 그리드 칸으로 이동하며 탄막 궤적을 벗어납니다. 직관적인 칸 단위 판정으로 조작 미스를 줄입니다.",
+            "practical_implementation_ko": "2D 배열 기반의 좌표 시스템을 구축하고, 입력 시 트윈 애니메이션(Tweening)을 적용해 부드러운 칸 이동 효과를 구현합니다."
+          },
+          {
+            "feature_ko": "자동 사격 및 게이지 변신 모드",
+            "user_action_and_behavior_ko": "적이 사거리에 있으면 자동으로 투사체를 발사하고, 누적된 공격 횟수에 따라 메카닉 변신 게이지가 차올라 활성화됩니다.",
+            "practical_implementation_ko": "사거리 내 적 탐지 타이머와 투사체 오브젝트 풀링을 구현하고, 게이지 변신 시 공격력과 방어력이 일시적으로 증가하는 상태 플래그를 관리합니다."
+          },
+          {
+            "feature_ko": "페이즈별 거대 보스 패턴 관리",
+            "user_action_and_behavior_ko": "보스의 체력 구간에 따라 탄막 패턴의 밀도와 공격 속도가 단계적으로 변화하여 유저에게 지속적인 긴장감을 제공합니다.",
+            "practical_implementation_ko": "보스 체력 비율에 따른 유한 상태 머신(FSM)을 활용하여 페이즈 전환 트리거와 탄막 발사 코루틴/타이머를 제어합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 타이틀 및 스테이지 선택 화면",
+            "contents_and_actions_ko": "네온 사이버펑크풍 로고와 함께 도전할 보스(보스 A, 보스 B)를 선택하고 전투로 진입합니다."
+          },
+          {
+            "screen_ko": "인게임 전투 화면",
+            "contents_and_actions_ko": "상단에 보스 체력바와 플레이어 상태, 중앙에 그리드 전장과 보스/플레이어 스프라이트, 하단에 좌우 이동, 대시, 변신 버튼이 배치되어 실시간으로 조작합니다."
+          },
+          {
+            "screen_ko": "결산 화면",
+            "contents_and_actions_ko": "보스 격파 성공 또는 실패 시 결과(클리어 타임, 점수)를 표시하고 재도전 또는 메인으로 이동합니다."
+          }
+        ],
+        "implementation_approach_ko": "가벼운 2D 모바일 게임 제작에 최적화된 Unity 엔진을 활용합니다. C# 스크립트를 통해 그리드 좌표 연산 및 보스 FSM을 구현하고, 2D 후처리 셰이더(Bloom, Glow)를 적용해 네온 사이버펑크 비주얼을 효율적으로 완성합니다. 대안으로는 오픈소스 2D 엔진인 Godot을 고려할 수 있으나, 셰이더 커스텀과 모바일 빌드 호환성 측면에서 Unity가 신속한 프로토타이핑에 유리합니다.",
+        "data_and_storage_ko": [
+          "PlayerStats: 플레이어 체력, 누적 점수, 해금된 스테이지 정보를 관리하는 데이터 구조체. 로컬 기기의 PlayerPrefs 또는 JSON 파일로 저장.",
+          "BossPatternData: 각 보스의 페이즈별 체력 임계값, 탄막 발사 간격, 이동 패턴 좌표를 담은 ScriptableObject 기반 설정 파일.",
+          "설정값(사운드 볼륨, 그래픽 옵션 등)은 PlayerPrefs를 통해 앱 종료 시점 직전에 직렬화하여 저장합니다."
+        ],
+        "mvp_scope_ko": "첫 번째 MVP는 1개의 그리드 전장 배경과 2종의 거대 보스전, 그리드 이동, 자동 사격, 메카닉 변신 기능까지만 포함합니다. 복잡한 성장 시스템, 다수의 스테이지, 상점 기능은 제외하며, 오직 모바일 환경에서 그리드 기반 회피와 보스 패턴 공략의 재미가 성립하는지 검증하는 데 집중합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 기본 환경 및 그리드 이동 구현",
+            "deliverable_and_check_ko": "유니티 프로젝트 세팅, 그리드 좌표계 구축, 하단 터치 버튼에 따른 캐릭터 칸 이동 프로토타입 작성 및 작동 확인."
+          },
+          {
+            "stage_ko": "2단계: 자동 사격 및 메카닉 변신 시스템",
+            "deliverable_and_check_ko": "적 대상 자동 투사체 발사 로직, 게이지 충전 및 변신 버스트 모드 상태 전환 구현 및 테스트."
+          },
+          {
+            "stage_ko": "3단계: 거대 보스 AI 및 페이즈 패턴",
+            "deliverable_and_check_ko": "보스 탄막 발사 패턴과 체력에 따른 페이즈 전환 FSM 구현, 피격 판정 및 게임 오버/클리어 흐름 완성."
+          },
+          {
+            "stage_ko": "4단계: 네온 시각 효과 및 UI 연동",
+            "deliverable_and_check_ko": "글로우 셰이더 적용, 타이틀/결산 UI 연결 및 모바일 빌드 후 터치 반응 속도 점검."
+          }
+        ],
+        "possible_extensions_ko": "핵심 경험 검증 후, 다양한 특성을 가진 무기 장비 슬롯, 일일 도전 모드, 리더보드 시스템, 추가 보스 및 미니언 등장 구간을 확장할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "그리드 이동 방식이 원작의 속도감 있는 런앤건 액션의 재미를 저해할 수 있으므로, 대시 쿨타임과 이동 속도 조정을 통해 타협점을 찾아야 합니다.",
+          "모바일 화면 크기 및 해상도에 따라 그리드 칸 크기가 왜곡되지 않도록 반응형 UI 레이아웃 설계가 필요합니다.",
+          "보스의 탄막 밀도가 너무 높을 경우 그리드 칸 회피가 지나치게 어려워질 수 있으므로, 실제 플레이 테스트를 통해 탄막 속도와 간격을 결정해야 합니다."
+        ],
+        "draft_status_ko": "본 문서는 실제 구현 및 플레이테스트/성능 측정이 완료되지 않은 개발 설계 초안입니다."
+      },
+      "plan_at": "2026-11-24T11:53:12+09:00",
+      "plan_quota_day": "2026-11-24",
+      "plan_usage": {
+        "promptTokenCount": 1819,
+        "candidatesTokenCount": 1973,
+        "totalTokenCount": 6793,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1819
+          }
+        ],
+        "thoughtsTokenCount": 3001,
+        "serviceTier": "standard"
+      }
+    },
+    "itch:dd0392b88404036f7820": {
+      "app_key": "itch:dd0392b88404036f7820",
+      "name": "Seeds That Outlive Us [$15.00] [Adventure] [Windows] [macOS] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "kind": "game",
+      "detail_url": "https://joshuayeh.itch.io/seeds-that-outlive-us",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:dd0392b88404036f7820",
+        "product_kind": "game",
+        "original_experience_ko": "3D 환경에서 과수원을 걸으며 평화의 씨앗을 심고, 시간이 흘러 남겨질 유산과 감성적 여운을 느끼는 명상적 어드벤처 경험.",
+        "source_facts_and_limitations_ko": [
+          "스토어 상에서 3D 과수원 산책과 평화의 씨앗 심기를 주된 테마로 하는 15달러 어드벤처 게임으로 확인됨.",
+          "정확한 조작 체계, 구체적인 퍼즐 규칙, 승리 조건 등은 스토어 문구만으로는 알 수 없음."
+        ],
+        "valuable_elements_ko": [
+          "바쁜 일상 속에서 속도를 늦추고 자연과 교감하는 명상적이고 차분한 정서.",
+          "시간의 흐름과 '남겨진 유산'이라는 철학적이고 따뜻한 테마."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "메모리 가든: 기억의 숲",
+            "core_idea_ko": "모바일 환경에 맞춰 간편한 터치로 과수원을 가꾸고, 씨앗을 심을 때마다 다른 사용자들과 따뜻한 메시지나 기억을 비동기식으로 공유하는 힐링 시뮬레이션 게임.",
+            "what_to_keep_ko": "시간의 흐름에 따라 나무가 자라나는 자연 친화적 테마와 여유롭고 명상적인 감성.",
+            "what_to_change_ko": "단순한 3D 1인칭 산책을 넘어, 비동기 소셜 요소와 실제 시간 연동형 육성 규칙을 결합해 지속적인 방문 동기를 부여.",
+            "mobile_use_or_play_ko": "앱을 켜고 터치로 빈 자리에 씨앗을 심으면, 현실 시간 기준으로 싹이 트고 자라나며, 방문한 다른 유저의 흔적을 발견하고 메시지를 남기는 흐름.",
+            "key_features_ko": [
+              "실시간 성장 타이머 및 알림",
+              "비동기 유저 메시지/유산 공유",
+              "저사양 최적화 2.5D 아기자기한 그래픽"
+            ],
+            "solo_mvp_and_effort_ko": "Unity 기반 2.5D 탑뷰 또는 사이드뷰 뷰포트 구현, 로컬 DB 기반 씨앗 육성 상태 관리 및 간단한 Firebase 연동으로 1인 개발 가능.",
+            "strengths_limits_ko": "잔잔한 힐링 요소와 소셜의 결합이 강점이나, 실시간 대기 시간이 길어지면 초기 이탈률이 높아질 수 있음."
+          },
+          {
+            "title_ko": "루츠 오브 타임: 세대를 잇는 길",
+            "core_idea_ko": "황폐화된 대지 위를 걸으며 씨앗을 심어 세대를 거듭해 숲을 복원하고, 씨앗 성장에 따라 숨겨진 역사와 이야기를 해금하는 내러티브 어드벤처.",
+            "what_to_keep_ko": "씨앗을 심고 시간이 흘러 유산으로 남는다는 핵심 모티프와 산책하며 주변을 탐색하는 감성.",
+            "what_to_change_ko": "단순 산책에서 벗어나, 심는 위치와 종류에 따라 지형과 스토리가 변화하는 내러티브 선택 요소를 도입.",
+            "mobile_use_or_play_ko": "화면 스와이프 및 조이스틱으로 캐릭터를 이동시켜 적절한 토양을 찾고, 씨앗을 심어 주변 환경이 푸르게 변하는 시각적 변화와 스토리 조각을 획득.",
+            "key_features_ko": [
+              "지형 변화 및 생태계 복원 연출",
+              "씨앗 조합에 따른 스토리 챕터 해금",
+              "감성적인 로파이 사운드트랙"
+            ],
+            "solo_mvp_and_effort_ko": "단일 챕터 중심의 선형적 구조로 제작하고, 3D 대신 최적화가 용이한 2D/2.5D 일러스트 연출로 개발 리소스를 대폭 축소.",
+            "strengths_limits_ko": "몰입감 있는 스토리텔링이 장점이지만, 다회차 플레이 요소가 부족해 콘텐츠 소모 속도가 빠를 수 있음."
+          },
+          {
+            "title_ko": "씨드 플랜트: 가든 퍼즐 로그",
+            "core_idea_ko": "제한된 공간과 자원 속에서 올바른 순서와 위치에 씨앗을 심어 정원을 완성하는 캐주얼 퍼즐 게임.",
+            "what_to_keep_ko": "과수원과 식물 성장을 다루는 평화로운 소재와 시각적 안정감.",
+            "what_to_change_ko": "산책과 명상 중심의 플레이를 두뇌 회전과 배치 전략이 필요한 퍼즐 규칙으로 완전히 전환.",
+            "mobile_use_or_play_ko": "스테이지별로 주어진 격자판 위에 다양한 특성의 씨앗을 배치하고 수로와 햇빛 조건을 맞춰 모든 식물이 자라나게 만드는 조작 흐름.",
+            "key_features_ko": [
+              "그리드 기반 씨앗 배치 퍼즐 규칙",
+              "식물 시너지 및 성장 연쇄 반응",
+              "스테이지 클리어형 진행 방식"
+            ],
+            "solo_mvp_and_effort_ko": "2D 그리드 시스템과 간단한 룰 엔진으로 구현 난이도가 낮아 1인 개발자가 코어 루프를 빠르게 검증 가능.",
+            "strengths_limits_ko": "명확한 게임 루프와 대중성이 장점이지만, 원작의 '명상적 산책'이라는 감성적 특유의 분위기가 희석될 수 있음."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어는 비동기 소셜과 힐링에 집중하여 장기 체류를 유도하고, 두 번째는 내러티브와 감성적 몰입을 강조하며, 세 번째는 퍼즐 메커니즘을 통해 즉각적인 재미를 추구합니다. 세 번째는 제작 난이도가 낮으나 원작의 감성과 거리가 멀고, 첫 번째는 모바일 특성에 가장 잘 부합합니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "'메모리 가든: 기억의 숲'은 원작의 '시간을 두고 남겨지는 유산과 평화'라는 철학을 모바일의 비동기 소셜 기능과 자연스럽게 결합했습니다. 현실적인 2.5D 개발 난이도와 모바일 유저의 잔류 동기를 모두 충족할 수 있어 가장 실현 가능하고 매력적인 방향입니다.",
+        "next_questions_ko": [
+          "실시간 성장 대기 시간이 모바일 유저에게 지루함으로 작용하지 않도록 어떤 보상 루프를 설계해야 하는가?",
+          "비동기 메시지 공유 기능에서 부적절한 콘텐츠를 필터링하기 위한 최소한의 대책은 무엇인가?"
+        ]
+      },
+      "brief_at": "2026-11-24T12:30:29+09:00",
+      "brief_quota_day": "2026-11-24",
+      "brief_usage": {
+        "promptTokenCount": 1205,
+        "candidatesTokenCount": 1728,
+        "totalTokenCount": 5975,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1205
+          }
+        ],
+        "thoughtsTokenCount": 3042,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "itch:dd0392b88404036f7820",
+        "product_kind": "game",
+        "selected_concept_title_ko": "메모리 가든: 기억의 숲",
+        "project_goal_and_audience_ko": "바쁜 일상에 지친 모바일 유저들을 위한 힐링 육성 시뮬레이션 게임입니다. 여유롭게 정원을 가꾸고 타인의 따뜻한 메시지를 발견하는 과정을 통해 심리적 안정과 소소한 유대감을 제공합니다.",
+        "source_relation_and_difference_ko": "원본의 시간을 초월해 남겨지는 씨앗과 평화로운 과수원 산책이라는 명상적 정서와 철학을 그대로 유지했습니다. 차이점으로 3D 탐색 대신 모바일에 적합한 2.5D 탑뷰 시점과 실시간 성장 타이머, 그리고 다른 유저의 흔적을 발견하는 비동기 소셜 공유 기능을 결합하여 지속적인 방문 동기를 부여했습니다.",
+        "core_user_experience_ko": "사용자는 모바일 화면에서 빈 정원 부지를 터치하여 씨앗을 선택하고 심습니다. 현실 시간이 흐름에 따라 나무가 자라나고, 수확 시기나 성장 단계에서 다른 유저가 남긴 익명의 따뜻한 기억 메시지를 읽거나 자신의 메시지를 남길 수 있습니다. 정원을 아름답게 가꾸는 시각적 성취감과 타인과의 온화한 비동기 교감이 핵심 작동 원리입니다.",
+        "features_ko": [
+          {
+            "feature_ko": "실시간 씨앗 육성 및 타이머 시스템",
+            "user_action_and_behavior_ko": "유저가 씨앗을 심으면 로컬 및 서버 시간에 연동된 타이머가 작동합니다. 시간이 지나면 싹이 트고 나무로 성장하며, 푸시 알림을 통해 수확 가능 상태를 안내하여 재방문을 유도합니다.",
+            "practical_implementation_ko": "Unity의 Coroutine 또는 DateTime 기반 타임스탬프 비교 로직을 활용해 앱이 꺼져 있더라도 접속 시 경과 시간을 계산하여 상태를 갱신합니다."
+          },
+          {
+            "feature_ko": "비동기 기억 공유 시스템",
+            "user_action_and_behavior_ko": "나무를 심거나 수확할 때 자신의 소소한 기억이나 위로의 메시지를 작성해 해당 위치에 남길 수 있습니다. 다른 유저는 이 나무를 방문했을 때 랜덤하게 메시지를 열람하고 하트를 보낼 수 있습니다.",
+            "practical_implementation_ko": "Firebase Firestore 등을 활용해 위치별 데이터와 메시지 텍스트를 가볍게 읽고 쓰는 비동기 API 구조를 구축합니다."
+          },
+          {
+            "feature_ko": "2.5D 정원 커스텀 및 배치",
+            "user_action_and_behavior_ko": "탑뷰 시점에서 격자 기반 정원에 다양한 종류의 나무와 장식품을 배치하고 꾸미며 나만의 평화로운 공간을 시각적으로 구성합니다.",
+            "practical_implementation_ko": "2D 스프라이트와 간단한 투시가 적용된 2.5D 에셋을 활용하고, 2D Grid 시스템을 구현하여 오브젝트 배치와 터치 좌표 인식을 구현합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 정원 화면",
+            "contents_and_actions_ko": "현재 자라나고 있는 나무들과 빈 부지 표시, 날씨 연출, 정원 가꾸기 메뉴 진입 버튼 제공. 빈 부지 터치 시 씨앗 선택 팝업 호출."
+          },
+          {
+            "screen_ko": "씨앗 선택 및 심기 팝업",
+            "contents_and_actions_ko": "보유한 씨앗 목록 확인, 심을 씨앗 선택, 기억 메시지 입력창 제공 후 확인 시 정원에 배치."
+          },
+          {
+            "screen_ko": "나무 상세 및 메시지 열람 화면",
+            "contents_and_actions_ko": "성장 완료된 나무 터치 시 생성된 메시지 확인, 공감 누르기, 수확 후 보상 획득 및 다음 씨앗 준비."
+          }
+        ],
+        "implementation_approach_ko": "Unity 엔진을 활용하여 모바일 중심의 2.5D 게임으로 개발합니다. C# 기반의 가벼운 컴포넌트 구조로 UI와 타이머 로직을 구현하며, 백엔드는 Firebase Auth와 Firestore를 연동하여 비동기 데이터 처리를 최소한의 공수로 구현합니다. 복잡한 3D 물리 엔진 대신 2D 스프라이트와 정렬 레이어를 사용하여 저사양 기기에서도 부드럽게 작동하도록 최적화합니다.",
+        "data_and_storage_ko": [
+          "User 데이터: 유저 고유 ID, 닉네임, 보유 재화 및 씨앗 목록. 로컬 PlayerPrefs 또는 Firestore에 저장하여 세션 유지.",
+          "Garden Plant 데이터: 나무 고유 ID, 심은 Grid 좌표, 씨앗 타입, 심은 시각, 성장 완료 시각, 남긴 메시지 내용. 실시간 비동기 공유를 위해 Firestore에 저장.",
+          "Local Cache: 오프라인 상태에서도 정원 상태를 확인할 수 있도록 로컬 JSON 파일로 캐싱 후 온라인 시 서버와 동기화."
+        ],
+        "mvp_scope_ko": "정원 격자 맵 1개, 기본 씨앗 3종, 실시간 타이머 기반 성장 및 로컬 저장소 중심의 싱글 플레이 경험을 우선 구현합니다. 비동기 메시지 기능은 Firestore 연동 테스트를 거쳐 기본 읽기/쓰기만 포함하며, 복잡한 소셜 친구 시스템이나 대규모 인테리어 아이템은 MVP 범위에서 제외하여 1인 개발 완성도를 높입니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 기본 2.5D 그리드 및 오브젝트 배치 구현",
+            "deliverable_and_check_ko": "Unity 프로젝트 생성, 2D 탑뷰 그리드 맵 구현, 터치를 통한 빈 부지 선택 및 기본 스프라이트 배치 테스트를 확인합니다."
+          },
+          {
+            "stage_ko": "2단계: 실시간 타이머 및 성장 로직 구현",
+            "deliverable_and_check_ko": "씨앗 심기 시 타임스탬프 기록, 앱 재실행 시 경과 시간에 따른 스프라이트 변경 로직을 검증합니다."
+          },
+          {
+            "stage_ko": "3단계: 비동기 메시지 연동 및 UI 마무리",
+            "deliverable_and_check_ko": "Firestore 연동을 통한 메시지 저장 및 불러오기, 메인 정원 UI 및 알림 시스템 적용 후 빌드 테스트를 수행합니다."
+          }
+        ],
+        "possible_extensions_ko": "계절 변화에 따른 배경 테마 추가, ASMR 사운드 오디오 믹서 적용, 친구 정원 방문 및 방명록 기능, 다양한 희귀 씨앗 확장.",
+        "risks_and_open_decisions_ko": [
+          "실시간 대기 시간이 너무 길 경우 유저의 조기 이탈이 발생할 수 있으므로 가속 아이템이나 적절한 성장 밸런스 조정이 필요합니다.",
+          "비동기 메시지 기능 사용 시 부적절한 언어 필터링 및 관리 방안에 대한 정책적 결정이 필요합니다.",
+          "서버 비용 최소화를 위해 클라이언트 중심 타임스탬프 계산과 보안 규칙 설정 방식을 검토해야 합니다."
+        ],
+        "draft_status_ko": "본 문서는 원작의 감성적 가치를 모바일 비동기 육성 시뮬레이션으로 발전시키기 위한 1인 개발 설계 초안이며, 실제 구현 및 플레이테스트를 거치며 조정될 수 있습니다."
+      },
+      "plan_at": "2026-11-24T12:30:46+09:00",
+      "plan_quota_day": "2026-11-24",
+      "plan_usage": {
+        "promptTokenCount": 1803,
+        "candidatesTokenCount": 1825,
+        "totalTokenCount": 6205,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1803
+          }
+        ],
+        "thoughtsTokenCount": 2577,
+        "serviceTier": "standard"
+      }
+    },
+    "apple:6833103142": {
+      "app_key": "apple:6833103142",
+      "name": "Desky - Desktop Mode Switching",
+      "developer": "Vincent Neo",
+      "source": "apple",
+      "kind": "app",
+      "detail_url": "https://apps.apple.com/jp/app/desky-desktop-mode-switching/id6833103142",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:6833103142",
+        "product_kind": "app",
+        "original_experience_ko": "Desky는 폴더블 기기의 물리적 형태 변화(접힘/펼침)를 감지하여 웹 브라우저의 레이아웃(모바일/데스크톱)과 확대/축소 배율을 사용자의 개입 없이 자동으로 최적화해 주는 사용자 경험을 제공합니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 확인 정보: Safari 확장 프로그램 형태로 작동하며, 기기 접힘 상태에 따라 웹사이트 레이아웃을 모바일 또는 데스크톱 모드로 자동 전환하고 줌 레벨을 조정함. 로컬 처리 중심이며 광고와 추적이 없음.",
+          "한계점: 'iPhone Duo'라는 특정 폴더블 하드웨어 환경에 강하게 의존하고 있어, 일반적인 모바일 환경이나 다양한 범용 기기에서의 확장성은 검증되지 않았음."
+        ],
+        "valuable_elements_ko": [
+          "하드웨어 상태(접힘/펼침)와 소프트웨어 UI 상태(뷰포트/레이아웃)의 매끄러운 실시간 연동",
+          "사용자가 수동으로 모드를 바꾸지 않아도 맥락에 맞는 최적의 화면 포맷을 제공하는 자동화 경험"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "플렉스닥스 리더 (FlexDocs Reader)",
+            "core_idea_ko": "폴더블 기기의 접힘 및 펼침 상태에 따라 PDF, 전자책 등 문서 뷰어의 레이아웃(한 페이지 보기 vs 양면 펼쳐보기)과 폰트 크기를 자동으로 전환해 주는 스마트 문서 리더 앱입니다.",
+            "what_to_keep_ko": "디바이스의 물리적 형태 변화(접힘/펼침)를 감지하여 최적의 레이아웃으로 자동 전환하는 핵심 메커니즘을 계승합니다.",
+            "what_to_change_ko": "웹 브라우저 확장 프로그램 형태에서 벗어나 독립적인 문서 뷰어 앱으로 확장하며, 웹 모드 전환 대신 문서 가독성 최적화(양면/단면, 스크롤 모드)에 집중합니다.",
+            "mobile_use_or_play_ko": "사용자가 폴더블폰으로 PDF를 읽는 도중 기기를 접으면 세로형 한 페이지 뷰로 전환되고, 펼치면 태블릿형 양면 펼침 뷰로 자동 전환되어 연속적인 독서가 가능합니다.",
+            "key_features_ko": [
+              "폴더블 하드웨어 상태 감지와 문서 뷰어 모드의 실시간 자동 연동",
+              "접힘/펼침 상태별 폰트 크기 및 여백 개별 설정 및 기억",
+              "로컬 문서 파일 연동 및 페이지 자동 북마크"
+            ],
+            "solo_mvp_and_effort_ko": "Android Jetpack WindowManager API와 기본 PDF 렌더링 라이브러리를 활용하여 폴딩 감지 및 뷰어 전환 기능을 구현합니다. 1인 개발로 약 3~4주 소요됩니다.",
+            "strengths_limits_ko": "폴더블 기기 사용자에게 매우 실용적이나, 타겟 사용자가 폴더블 기기 소유자로 한정되는 점이 약점입니다."
+          },
+          {
+            "title_ko": "스플릿플로우 런치 (SplitFlow Launcher)",
+            "core_idea_ko": "폴더블 기기를 접었을 때는 단일 앱 집중 모드로 작동하고, 펼쳤을 때는 사용자가 미리 지정한 두 개의 연관 앱(예: 노트와 브라우저)을 자동으로 분할 실행해 주는 컨텍스트 기반 런처 앱입니다.",
+            "what_to_keep_ko": "디바이스의 폴딩 상태를 트리거로 사용하여 사용자의 UI 환경을 즉각적이고 맥락에 맞게 바꾸는 자동화 경험을 계승합니다.",
+            "what_to_change_ko": "단일 웹 브라우저의 뷰포트 제어를 넘어, 기기 전체의 앱 실행 상태와 멀티 윈도우 레이아웃을 제어하는 유틸리티/런처 성격으로 확장합니다.",
+            "mobile_use_or_play_ko": "기기를 접은 상태에서 메신저를 단독으로 쓰다가, 기기를 펼치는 순간 화면이 좌우로 나뉘며 한쪽엔 메신저, 다른 쪽엔 메모장이 자동 실행됩니다.",
+            "key_features_ko": [
+              "접힘/펼침 상태에 따른 앱 페어(App Pair) 자동 실행",
+              "펼침 시 화면 분할 비율(스플릿 뷰) 자동 최적화",
+              "백그라운드 배터리 소모를 최소화하는 가벼운 상태 감지 로직"
+            ],
+            "solo_mvp_and_effort_ko": "Accessibility 및 WindowManager를 이용해 폴딩 감지와 앱 실행을 제어하는 MVP 구축. 난이도 중상이며 4~5주 소요됩니다.",
+            "strengths_limits_ko": "모바일 생산성을 극대화하지만, OS 자체의 멀티 윈도우 정책이나 권한 제약으로 인해 구현 복잡도가 높습니다."
+          },
+          {
+            "title_ko": "툰폴드 뷰어 (ToonFold Viewer)",
+            "core_idea_ko": "웹툰이나 만화를 감상할 때 폴더블 기기를 접으면 스마트폰 최적화 세로 스크롤 뷰로, 펼치면 태블릿 최적화 양면 컷 배치 뷰로 자동 변환해 주는 콘텐츠 전용 뷰어 앱입니다.",
+            "what_to_keep_ko": "디바이스의 접힘 상태에 따라 모바일형 UI와 태블릿/데스크톱형 UI를 오가는 자동 레이아웃 전환 메커니즘을 계승합니다.",
+            "what_to_change_ko": "일반 웹 브라우징이 아닌 이미지 및 웹툰 콘텐츠 전용 렌더링에 집중하여 몰입감과 뷰어 특화 기능을 제공합니다.",
+            "mobile_use_or_play_ko": "지하철에서 스마트폰을 접은 채로 세로 스크롤 웹툰을 보다가, 집에 와서 기기를 펼치면 만화책 형식의 양면 뷰로 자동 전환되어 넓은 화면으로 감상합니다.",
+            "key_features_ko": [
+              "접힘 상태 감지 기반 세로 스크롤/양면 컷 레이아웃 자동 전환",
+              "이미지 프리페칭 및 로컬 압축 파일 지원",
+              "눈부심 방지 필터 및 자동 확대 레벨 저장"
+            ],
+            "solo_mvp_and_effort_ko": "이미지 갤러리 뷰어 구조에 폴더블 상태 감지 API를 결합하여 1인 개발로 3주 이내 구현 가능합니다.",
+            "strengths_limits_ko": "콘텐츠 소비 만족도가 높으나, 지원하는 이미지 포맷이나 웹툰 소스 확보 및 연동 측면의 한계가 존재합니다."
+          }
+        ],
+        "concept_comparison_ko": "1안(문서 뷰어)은 실용성과 구현 난이도의 균형이 뛰어나고, 2안(멀티태스킹 런처)은 확장성이 크나 OS 제약이 강하며, 3안(웹툰 뷰어)은 특정 콘텐츠 소비에 특화되어 만족도가 높습니다. 세 아이디어 모두 폴더블 하드웨어 상태와 UI 레이아웃 자동 연동이라는 원본의 장점을 각각 문서, 런처, 웹툰 도메인으로 성공적으로 확장했습니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "웹 브라우저 확장 프로그램이라는 제한된 형태에서 벗어나 독립적인 문서 뷰어로 확장함으로써 범용성과 실용성을 동시에 확보할 수 있으며, Android의 폴더블 관련 API(WindowManager 등)를 활용하여 1인이 안정적인 MVP를 구축하기에 가장 리스크가 적습니다.",
+        "next_questions_ko": [
+          "실제 다양한 제조사의 폴더블 기기(Galaxy Z Fold 등)에서 창 크기 및 접힘 상태 감지 API의 파편화 문제를 어떻게 안정적으로 대응할 것인가?",
+          "자동 전환 시 사용자가 수동으로 조정한 줌 레벨이나 레이아웃 설정을 얼마나 직관적으로 기억하고 복원할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-24T12:34:07+09:00",
+      "brief_quota_day": "2026-11-24",
+      "brief_usage": {
+        "promptTokenCount": 1374,
+        "candidatesTokenCount": 1958,
+        "totalTokenCount": 5969,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1374
+          }
+        ],
+        "thoughtsTokenCount": 2637,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:6833103142",
+        "product_kind": "app",
+        "selected_concept_title_ko": "플렉스닥스 리더 (FlexDocs Reader)",
+        "project_goal_and_audience_ko": "폴더블 스마트폰(예: 갤럭시 Z 폴드 시리즈)을 사용하여 PDF 및 전자책을 자주 읽는 모바일 사용자를 위한 스마트 문서 리더 앱입니다. 사용자가 기기를 접거나 펼칠 때 수동으로 화면 모드를 바꿀 필요 없이, 물리적 형태 변화에 따라 최적의 가독성(단면/양면 뷰, 폰트 및 배율 자동 전환)을 제공하여 매끄럽고 연속적인 독서 경험을 누리도록 하는 것을 목적으로 합니다.",
+        "source_relation_and_difference_ko": "원본 앱(Desky)의 핵심 메커니즘인 '하드웨어 상태(접힘/펼침)를 감지하여 소프트웨어 UI 레이아웃을 자동으로 최적화하는 경험'을 충실히 계승합니다. 차별점으로는 브라우저 확장 프로그램 형태의 웹 모드 전환에서 벗어나, 독립적인 모바일 문서 뷰어 앱으로 확장하여 문서 가독성(단면/양면 스프레드, 스크롤 방식, 확대/축소)에 특화된 기능을 제공합니다.",
+        "core_user_experience_ko": "사용자가 앱을 실행해 PDF 문서를 불러온 뒤 외부 화면(접힌 상태)에서 세로형 한 페이지로 문서를 읽다가, 기기를 펼치면 별도의 조작 없이 즉시 넓은 내부 화면에 최적화된 양면 펼침 뷰와 확장된 배율로 전환되어 자연스럽게 독서를 이어갈 수 있습니다. 시스템은 상시 하드웨어 센서 및 WindowManager를 모니터링하며 상태 변화를 감지 즉시 UI를 재배치합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "폴더블 기기 상태 감지 및 이벤트 연동",
+            "user_action_and_behavior_ko": "사용자가 기기를 접거나 펼칠 때 Android Jetpack WindowManager API가 하드웨어 힌지 상태 변화를 감지하고, 앱 내 레이아웃 매니저에 즉시 상태 변경 시그널을 전달합니다.",
+            "practical_implementation_ko": "Jetpack WindowManager 라이브러리의 FoldingFeature API를 활용하여 DisplayFoldFeature를 구독하고, 반환되는 상태(FLAT, HALF_OPENED 등)에 따라 UI 리렌더링 트리거를 구현합니다."
+          },
+          {
+            "feature_ko": "동적 문서 레이아웃 전환 시스템",
+            "user_action_and_behavior_ko": "접힌 상태에서는 단면 스크롤 뷰를, 펼쳐진 상태에서는 양면 스프레드 뷰를 자동으로 렌더링하여 화면 활용도를 극대화합니다.",
+            "practical_implementation_ko": "Android PdfRenderer 기반의 커스텀 뷰포트를 구현하고, 화면 폭(Width) 및 상태 변화에 따라 ViewPager2 또는 Grid 기반의 페이지 배치 로직을 동적으로 변경합니다."
+          },
+          {
+            "feature_ko": "상태별 맞춤 설정 및 북마크 자동 저장",
+            "user_action_and_behavior_ko": "접힌 상태와 펼쳐진 상태 각각에서 사용자가 설정한 확대 배율, 현재 읽던 페이지 위치를 개별 기억하고 복원합니다.",
+            "practical_implementation_ko": "Room DB 및 SharedPreferences를 활용하여 문서별 고유 ID, 기기 상태(Fold/Unfold), 마지막 페이지 번호, 확대 비율을 매핑하여 저장합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "문서 파일 관리 및 라이브러리 화면",
+            "contents_and_actions_ko": "기기 내 PDF/문서 목록 표시, 최근 읽은 문서 바로가기, 파일 추가 버튼 제공. 문서를 터치하면 리더 화면으로 이동."
+          },
+          {
+            "screen_ko": "스마트 문서 리더 메인 화면",
+            "contents_and_actions_ko": "문서 페이지 렌더링 영역. 기기 접힘/펼침에 따라 단면/양면 뷰로 자동 전환되며, 상단/하단에 간단한 메뉴 바(페이지 이동, 설정) 표시."
+          },
+          {
+            "screen_ko": "상태별 가독성 설정 화면",
+            "contents_and_actions_ko": "접힌 상태에서의 기본 배율과 펼쳐진 상태에서의 양면 보기 여부를 사용자가 취향에 맞게 세부 조정하는 설정 패널."
+          }
+        ],
+        "implementation_approach_ko": "Android 네이티브 환경(Kotlin, Jetpack Compose)을 선택합니다. 이유는 하드웨어 센서 및 WindowManager API와의 긴밀한 연동성 확보와 UI 성능 최적화 때문입니다. 핵심 처리 로직은 Jetpack WindowManager를 이용한 접힘 감지 모듈과 PdfRenderer 기반의 페이지 렌더링 모듈로 분리하며, 상태 변화 시점의 UI 리렌더링 부하를 줄이기 위해 코루틴(Coroutines)을 활용합니다. 대안으로는 크로스플랫폼(Flutter)을 고려할 수 있으나 폴더블 특화 API 접근성 면에서 네이티브가 유리합니다.",
+        "data_and_storage_ko": [
+          "DocumentEntity: 문서 고유 경로(Uri), 파일 이름, 전체 페이지 수, 마지막 읽은 페이지 번호를 관리하는 Room DB 테이블.",
+          "DisplayPreferenceEntity: 문서별·기기 상태별(접힘/펼침) 선호 폰트 크기 및 확대 배율 설정 정보를 저장하는 데이터 객체.",
+          "데이터 읽기/쓰기 시점: 페이지를 넘기거나 기기 상태가 변하는 순간 비동기로 DB에 상태를 저장하고, 앱 실행 시 문서를 불러올 때 즉시 복구합니다."
+        ],
+        "mvp_scope_ko": "첫 번째 MVP는 기기 내 PDF 파일 선택 및 로드, Jetpack WindowManager를 이용한 접힘/펼침 상태 감지, 감지 상태에 따른 단면/양면 자동 뷰 전환, 그리고 마지막 페이지 기억 기능에 집중합니다. 복잡한 주석 작성, 클라우드 연동, EPUB/TXT 파싱 등 부가 기능은 제외하여 1인이 3~4주 내에 안정적으로 구현할 수 있도록 범위를 한정합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 환경 구축 및 기본 PDF 렌더링",
+            "deliverable_and_check_ko": "Android Studio 프로젝트 생성, Jetpack Compose 기반 UI 뼈대 구축, PdfRenderer를 이용한 단일 PDF 페이지 로드 및 터치 페이징 확인."
+          },
+          {
+            "stage_ko": "2단계: WindowManager 폴딩 감지 모듈 연동",
+            "deliverable_and_check_ko": "Jetpack WindowManager 라이브러리 추가, FoldingFeature 리스너 구현 및 로그를 통해 기기 접힘/펼침 상태 변화가 정상 감지되는지 검증."
+          },
+          {
+            "stage_ko": "3단계: 동적 레이아웃 전환 및 상태 저장 구현",
+            "deliverable_and_check_ko": "접힘 상태일 때 단면 뷰, 펼침 상태일 때 양면 뷰로 UI가 실시간 전환되는지 확인하고, Room DB를 통한 북마크 및 설정 저장/복구 기능 연동."
+          },
+          {
+            "stage_ko": "4단계: 문서 관리 화면 통합 및 MVP 안정화",
+            "deliverable_and_check_ko": "파일 탐색기 연동을 통한 PDF 추가 기능 구현, 예외 상황 테스트 및 UI 버그 수정."
+          }
+        ],
+        "possible_extensions_ko": "향후 EPUB, TXT 등 다양한 포맷 지원 추가, 클라우드 스토리지 연동, 문서 내 형광펜 및 손글씨 주석 기능, 그리고 시각 장애인을 위한 텍스트 읽어주기(TTS) 기능을 확장할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "다양한 제조사의 폴더블 기기별 WindowManager API 지원 범위 및 화면 비율 차이에 따른 레이아웃 깨짐 위험이 존재하며, 실기기 테스트를 통해 예외 처리가 필요합니다.",
+          "대용량 PDF 렌더링 시 메모리 사용량 증가 문제를 해결하기 위한 캐싱 전략(Bitmap caching)은 추후 개발 과정에서 최적화가 필요합니다.",
+          "본 설계는 개발 설계 초안 단계이며 실제 디바이스에서의 성능 및 사용성 검증은 추후 프로토타입 테스트를 통해 확정해야 합니다."
+        ],
+        "draft_status_ko": "본 문서는 1인 모바일 개발을 위해 작성된 개발 설계 초안이며, 실제 코드 구현, 기기 플레이테스트 및 성능 측정이 완료되지 않은 가상의 기획 및 설계 문서입니다."
+      },
+      "plan_at": "2026-11-24T12:34:26+09:00",
+      "plan_quota_day": "2026-11-24",
+      "plan_usage": {
+        "promptTokenCount": 2006,
+        "candidatesTokenCount": 2070,
+        "totalTokenCount": 7725,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2006
+          }
+        ],
+        "thoughtsTokenCount": 3649,
         "serviceTier": "standard"
       }
     }

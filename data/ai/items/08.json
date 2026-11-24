@@ -14841,6 +14841,186 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-23"
+    },
+    "google:com.takeofflabs.fontmaker": {
+      "app_key": "google:com.takeofflabs.fontmaker",
+      "name": "Fontmaker - Font Keyboard App",
+      "developer": "Sociaaal LLC",
+      "source": "google",
+      "country": "US",
+      "category": "app_productivity",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.takeofflabs.fontmaker&hl=en&gl=US",
+      "data_date": "2026-11-24",
+      "analysed_at": "2026-11-24T11:33:55+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Turn your handwriting into a font and type with it anywhere. Fontmaker lets you create a custom font from your own handwriting and use it as a keyboard. Write the letters once, and your handwriting becomes a font you can type with every day. MAKE YOUR OWN FONT Write each letter on your phone and Fontmaker turns your handwriting into a working font. Cursive, print, or your everyday scrawl. Your font, your letters, your style. YOUR FONT KEYBOARD Once your font is ready it becomes a keyboard. Switch to it and type with your own handwriting in messages, captions, notes and posts. Your custom font travels with you across the apps you already use. YOUR HANDWRITING AS FONT ART Your font is not limited to plain text. Use your own writing for captions, bios and decorative text, with numbers, symbols and special characters in your own hand. Cursive fonts, fancy text and font art, all written by you. WHAT YOU CAN DO - Font maker: build a font from your own handwriting - Font creator: make more than one font and switch between them - Handwriting keyboard: type in your own writing anywhere you type - Custom fonts: letters, numbers, symbols and special characters - Font art: decorative text in your own handwriting - Cursive fonts: write in cursive, print, or however you write WHY YOUR OWN HANDWRITING Typing in your own writing makes a message feel personal. A note, a caption, a birthday text — the same words land differently when they look like they came from you. SET UP IN MINUTES Write your letters, save your font, turn on the keyboard in your device settings. No account needed to start. PRIVACY AND PERMISSIONS Fontmaker works as a keyboard on your device. Read the permission details in the Data safety section on this page before you enable it. Create your own handwriting font and make what you type look like you. Terms and Conditions: https://www.appfontmaker.com/terms",
+      "analysis": {
+        "app_key": "google:com.takeofflabs.fontmaker",
+        "summary_ko": "사용자의 필체를 직접 디지털 폰트로 변환하여 키보드처럼 사용할 수 있게 해주는 생산성 앱입니다. 작성한 글자를 폰트화하여 메시지, 메모, SNS 등 다양한 앱에서 자신의 개성이 담긴 글씨체로 타이핑할 수 있습니다. 별도의 계정 생성 없이 간단한 설정만으로 나만의 폰트 키보드를 즉시 활용할 수 있습니다.",
+        "features_ko": [
+          "사용자의 필체를 직접 입력하여 디지털 폰트로 변환합니다.",
+          "변환된 폰트를 시스템 키보드로 등록하여 외부 앱에서 사용합니다.",
+          "숫자, 기호, 특수 문자를 포함한 나만의 폰트 세트를 제작합니다.",
+          "여러 개의 폰트를 생성하고 필요에 따라 전환할 수 있습니다.",
+          "필기체, 인쇄체 등 다양한 스타일의 폰트 제작을 지원합니다."
+        ],
+        "noteworthy_ko": "사용자의 고유한 필체를 디지털 자산화하여 키보드라는 범용적인 입력 도구로 연결한 점이 흥미롭습니다. 이는 단순한 폰트 생성기를 넘어 개인화된 커뮤니케이션 도구로 확장하려는 시도로 보입니다.",
+        "development_ko": "이미지 인식 기술을 통해 필기 데이터를 벡터 폰트 데이터로 변환하는 엔진이 핵심입니다. 키보드 확장 프로그램 구현을 위한 OS별 권한 관리와 텍스트 입력 처리 로직이 필요하며, 다양한 글자 모양을 일관되게 렌더링하는 최적화 작업이 중요합니다.",
+        "idea_ko": "사용자의 필체를 학습하여 문맥에 따라 글자 모양을 미세하게 변형하는 '자연스러운 필기체 생성기'가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "자신의 필체를 직접 폰트로 만들어 일상적인 타이핑에 활용할 수 있습니다.",
+          "메시지나 SNS 게시물에 개인적인 감성을 더할 수 있는 독특한 사용자 경험을 제공합니다."
+        ],
+        "systems_ko": [
+          "이미지 캡처 및 필기 인식 모듈",
+          "폰트 파일(TTF/OTF) 생성 엔진",
+          "커스텀 키보드 확장 프로그램",
+          "폰트 데이터 관리 및 저장 시스템",
+          "사용자 설정 UI"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "이미지에서 글자를 추출하여 폰트 파일로 변환하는 과정은 고도의 알고리즘이 필요합니다. 또한, 모바일 OS의 키보드 확장 기능은 보안 정책이 엄격하여 구현 난도가 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "필기 입력 캔버스",
+            "폰트 파일 생성 로직",
+            "키보드 설정 가이드"
+          ],
+          "defer": [
+            "다양한 특수 문자 지원",
+            "클라우드 폰트 동기화"
+          ],
+          "risks": [
+            "OS별 키보드 권한 정책 변경",
+            "필기 인식 정확도 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "감정 기반 폰트 생성기",
+            "concept": "사용자의 현재 기분에 따라 폰트의 굵기나 기울기를 실시간으로 조절하는 기능입니다. 감정 태그를 선택하면 기존 필체에 스타일이 적용됩니다.",
+            "first_step": "기존 폰트 데이터에 CSS 스타일을 적용하여 변형하는 프로토타입 제작."
+          },
+          {
+            "title": "필기체 낙서 공유 플랫폼",
+            "concept": "사용자들이 만든 폰트를 공유하고 서로의 글씨체를 다운로드할 수 있는 커뮤니티입니다. 폰트 제작을 게임처럼 즐길 수 있게 합니다.",
+            "first_step": "폰트 파일을 업로드하고 다운로드할 수 있는 간단한 웹 서버 구축."
+          }
+        ],
+        "recommendation_ko": "폰트 파일 생성 기술과 모바일 OS의 시스템 확장 기능을 깊이 있게 학습하고 싶은 개발자에게 추천합니다. 다만, 보안 및 권한 관련 이슈가 많아 초보자에게는 다소 도전적일 수 있습니다.",
+        "source_limitations_ko": "소개문에는 폰트 변환 알고리즘의 구체적인 방식이나 키보드 보안 처리 방식이 명시되어 있지 않습니다. 결제 기능이나 외부 서버 연동 여부는 확인되지 않습니다.",
+        "name": "Fontmaker - Font Keyboard App",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.takeofflabs.fontmaker&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 174,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-24"
+    },
+    "google:com.joinblob.clash": {
+      "app_key": "google:com.joinblob.clash",
+      "name": "Join Blob Clash 3D: ランナーゲーム",
+      "developer": "CASUAL AZUR GAMES",
+      "source": "google",
+      "country": "JP",
+      "category": "game_arcade",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.joinblob.clash&hl=ja&gl=JP",
+      "data_date": "2026-11-24",
+      "analysed_at": "2026-11-24T11:33:55+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "自分のゼリーの塊をコントロールする 3D ランナー ゲーム、Join Blob Clash で壮大なレースを駆け抜ける準備をしましょう。 ランナーとして、さまざまな障害物を乗り越え、課題を克服し、各レベルの最後にボスと対決します。 このアクション満載のゲームでは、レース、戦闘、激しい衝突がスリル満点に融合しています。 途中でパワーアップを集めて、さらなる力を与えるゼリーマッスルパワーアップや豊富なエネルギー源など、能力を強化します。 ゼリーモブを使って走る技術をマスターしましょう。 ブロブの衝突と覇権をめぐる戦いが、各レースをスリリングなスペクタクルにしています。 究極のランナーの称号を手に入れましょう。 Blob Clash に参加するのは個人の競争だけではありません。 それは、勝利を追求するために団結したランナーの集団を形成することです。 他のランナーと合流して強力なモブを作成します。 ランナー仲間と力を合わせれば、簡単には負けない強力な力になります。 魅力的なゲームプレイと鮮やかなグラフィックを備えた Join Blob Clash では、ゼリー ピープルが集まって爽快なレースに参加する世界にあなたを浸ることができます。 大理石が敷き詰められたアリーナから障害物がたくさんあるコースまで、さまざまな環境を巡る旅に出発する準備をしましょう。 各レベルを全力疾走しながら、疾走感を感じてください。 難しい数字のパズルであっても、障害物の迷路であっても、行く手にあるすべての障害を克服してください。 レベルが進むにつれて、ブロブをクールなコスチュームでカスタマイズするために使用できるコインを獲得します。 群衆を秘密諜報員、忍者、またはその他のユニークなキャラクターのように見せたいですか? 問題ない！ Join Blob Clash では、可能性は無限大です。 Join Blob Clash は、外出先でもアドレナリンが出るようなアクションを求める人向けに設計されたモバイル ゲームです。 ランニングのスリルとモバイルゲームの利便性を融合させたゲームです。 壮大な旅を始めましょう！ 多くの機能、やりがいのあるレベル、中毒性の高いゲームプレイを備えた Join Blob Clash で暴徒をコントロールします。 待つ必要はありません – レースに参加して、トップになるために必要な資質があるかどうかを確認してください。",
+      "analysis": {
+        "app_key": "google:com.joinblob.clash",
+        "summary_ko": "다양한 장애물을 극복하며 젤리 형태의 캐릭터 무리를 조종하여 결승점의 보스와 대결하는 3D 러닝 게임입니다. 경로상에서 파워업을 획득하여 무리의 능력을 강화하고, 더 많은 캐릭터를 모아 강력한 군단을 형성합니다. 레벨을 클리어하며 획득한 코인으로 캐릭터의 외형을 커스터마이징할 수 있습니다.",
+        "features_ko": [
+          "장애물을 피하고 적을 물리치며 결승점까지 달리는 러닝 액션.",
+          "경로상의 아이템을 획득하여 젤리 캐릭터의 능력을 강화합니다.",
+          "다른 캐릭터들과 합류하여 더 큰 무리를 형성하는 군집 시스템.",
+          "레벨 끝에 등장하는 보스와의 전투를 통해 승패를 결정합니다.",
+          "획득한 코인으로 캐릭터의 의상과 외형을 변경합니다."
+        ],
+        "noteworthy_ko": "단순한 러닝 게임에 군집(Crowd) 메커니즘을 결합하여 시각적인 쾌감과 전략적 요소를 더한 점이 흥미롭습니다. 캐릭터의 외형 커스터마이징을 통해 반복적인 플레이에 동기를 부여하는 구조가 잘 설계되어 있습니다.",
+        "development_ko": "다수의 캐릭터가 동시에 움직이는 군집 이동 알고리즘과 물리 엔진을 활용한 충돌 판정이 핵심입니다. 레벨 디자인의 다양성을 확보하기 위한 절차적 생성 기법이나 모듈화된 장애물 배치가 필요합니다. 성능 최적화를 위해 다수의 캐릭터 렌더링 시 드로우 콜을 줄이는 작업이 중요합니다.",
+        "idea_ko": "군집의 형태를 상황에 따라 변형하여 장애물을 통과하는 '형태 변환 퍼즐 러닝' 게임이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "다수의 캐릭터가 하나로 합쳐져 움직이는 역동적인 시각 효과.",
+          "장애물과 보스 전투가 결합된 속도감 있는 게임 플레이."
+        ],
+        "systems_ko": [
+          "군집 이동 및 AI 경로 탐색",
+          "물리 기반 충돌 및 파괴 시스템",
+          "캐릭터 커스터마이징 데이터 관리",
+          "레벨 생성 및 난이도 조절 시스템",
+          "UI 및 보상 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기본적인 러닝 메커니즘은 구현하기 쉬우나, 다수의 캐릭터를 제어하는 물리 연산과 최적화는 주의가 필요합니다. 레벨 디자인을 단순화하면 1인 개발로도 충분히 구현 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 조작",
+            "장애물 충돌 판정",
+            "군집 합류 로직"
+          ],
+          "defer": [
+            "다양한 캐릭터 커스터마이징",
+            "복잡한 보스 패턴"
+          ],
+          "risks": [
+            "다수 캐릭터 렌더링 시 성능 저하",
+            "물리 엔진의 불안정성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "자석 군집 러너",
+            "concept": "캐릭터들이 자석처럼 서로 붙어 장애물을 통과하는 게임입니다. 자성을 이용해 장애물을 밀어내거나 끌어당기는 전략이 필요합니다.",
+            "first_step": "두 캐릭터가 서로 붙어 이동하는 물리 조인트 구현."
+          },
+          {
+            "title": "색깔 맞추기 군집",
+            "concept": "특정 색깔의 장애물을 통과할 때 같은 색깔의 캐릭터만 살아남는 규칙입니다. 색깔을 빠르게 전환하며 무리를 유지해야 합니다.",
+            "first_step": "캐릭터 색상 변경 및 충돌 시 색상 비교 로직 구현."
+          }
+        ],
+        "recommendation_ko": "물리 엔진을 활용한 액션 게임의 기초를 다지고 싶은 개발자에게 추천합니다. 군집 시스템을 구현해보는 것은 게임 개발의 성능 최적화 경험을 쌓기에 매우 좋습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 물리 엔진 종류나 캐릭터 AI 구현 방식이 명시되어 있지 않습니다. 코인 결제나 광고 수익 모델에 대한 구체적인 정보는 없습니다.",
+        "name": "Join Blob Clash 3D: ランナーゲーム",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.joinblob.clash&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 171,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 23,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-24"
     }
   }
 }
