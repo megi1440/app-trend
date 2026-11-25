@@ -12771,6 +12771,95 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-24"
+    },
+    "apple:6831071919": {
+      "app_key": "apple:6831071919",
+      "name": "One Million Coins",
+      "developer": "Miles Trent",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/jp/app/one-million-coins/id6831071919",
+      "data_date": "2026-11-25",
+      "analysed_at": "2026-11-25T11:50:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A short, focused first-person incremental mining game. Dig through a vault of one million coins, bank your haul, buy better tools, and build an ever-faster gold-collecting operation.",
+      "analysis": {
+        "app_key": "apple:6831071919",
+        "summary_ko": "100만 개의 코인을 채굴하는 1인칭 증분형 게임입니다. 코인을 캐고, 수확물을 은행에 예치하며, 더 나은 도구를 구매하여 채굴 효율을 높이는 것이 목표입니다. 짧고 집중력 있는 게임 플레이 경험을 제공합니다.",
+        "features_ko": [
+          "1인칭 시점에서 코인을 직접 클릭하거나 채굴하는 상호작용을 제공합니다.",
+          "채굴한 코인을 은행에 예치하여 자산을 확보하는 시스템이 있습니다.",
+          "획득한 코인을 사용하여 채굴 도구를 업그레이드할 수 있습니다.",
+          "시간이 지남에 따라 채굴 속도가 빨라지는 증분형 메커니즘을 갖추고 있습니다."
+        ],
+        "noteworthy_ko": "단순한 반복 작업에서 오는 성취감을 극대화한 게임 디자인입니다. 증분형 게임 특유의 수치 밸런스 설계가 핵심적인 재미 요소로 보입니다.",
+        "development_ko": "클릭 이벤트 처리와 수치 증가 로직 구현이 핵심입니다. 데이터 저장 시스템을 통해 진행 상황을 유지해야 하며, 업그레이드에 따른 밸런스 조정이 제작 부담의 대부분을 차지합니다.",
+        "idea_ko": "채굴한 코인으로 나만의 금고를 꾸미거나, 특정 목표 달성 시 희귀 아이템을 얻는 수집 요소를 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "1인칭 시점을 활용하여 채굴의 몰입감을 높였습니다.",
+          "도구 업그레이드와 자산 예치라는 명확한 성장 루프를 제공합니다."
+        ],
+        "systems_ko": [
+          "입력 판정 시스템(클릭/터치)",
+          "게임 상태 관리(코인 수, 도구 레벨)",
+          "데이터 저장 및 로드 시스템",
+          "UI 업데이트 시스템",
+          "밸런스 수치 계산 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 단순하고 그래픽 요구사항이 낮아 1인 개발로 구현하기 적합합니다. 수치 밸런스만 잘 조정하면 완성도 높은 결과물을 만들 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "코인 채굴 클릭 기능",
+            "코인 카운터 UI",
+            "도구 업그레이드 상점"
+          ],
+          "defer": [
+            "화려한 시각 효과",
+            "클라우드 저장 기능"
+          ],
+          "risks": [
+            "반복적인 플레이로 인한 지루함",
+            "수치 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "채굴 자동화 로봇",
+            "concept": "코인을 사용하여 채굴 로봇을 고용하고, 로봇이 자동으로 코인을 캐게 하는 시스템입니다. 로봇의 종류에 따라 채굴 효율이 다릅니다.",
+            "first_step": "일정 시간마다 코인이 자동으로 증가하는 타이머 로직을 구현합니다."
+          },
+          {
+            "title": "지하 탐험 모드",
+            "concept": "코인을 사용하여 더 깊은 층으로 내려가며, 층마다 다른 종류의 광물을 채굴하는 모드입니다. 깊은 곳일수록 희귀한 보상이 나옵니다.",
+            "first_step": "층수 개념을 도입하고 층마다 채굴 효율 배수를 다르게 적용하는 로직을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "증분형 게임의 기초적인 데이터 관리와 밸런스 설계 방식을 배우기에 매우 좋습니다. 단순한 메커니즘을 어떻게 확장할지 고민하는 연습으로 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 채굴 도구의 종류나 게임 내 경제 시스템의 상세 수치가 명시되어 있지 않습니다. 외부 결제 기능 포함 여부도 확인되지 않습니다.",
+        "name": "One Million Coins",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/one-million-coins/id6831071919",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 171,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 23,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-25"
     }
   }
 }
