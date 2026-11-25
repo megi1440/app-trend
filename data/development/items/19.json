@@ -26402,6 +26402,364 @@
         "thoughtsTokenCount": 3476,
         "serviceTier": "standard"
       }
+    },
+    "itch:4cdc27237344ff5a2e92": {
+      "app_key": "itch:4cdc27237344ff5a2e92",
+      "name": "Lamma - Classic Games Hub [Free]",
+      "developer": "",
+      "source": "itch",
+      "kind": "game",
+      "detail_url": "https://yousef-amin.itch.io/lamma",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:4cdc27237344ff5a2e92",
+        "product_kind": "game",
+        "original_experience_ko": "체스, 루도, 트릭스, 타르니브, 백개먼 등 중동 및 세계의 다양한 고전 보드·카드 게임을 한곳에 모아 온라인으로 친구들과 무료로 즐기는 멀티플레이어 게임 허브입니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 설명에 체스, 루도, 트릭스, 타르니브, 백개먼 등의 고전 게임이 포함되어 있고 친구들과 온라인 무료 플레이가 가능하다는 점은 확인된 사실입니다.",
+          "그러나 각 게임의 구체적인 세부 규칙, UI/UX 구조, 네트워크 인프라(P2P vs 서버 권한 방식)에 대한 정보는 스토어 텍스트만으로는 알 수 없는 한계가 있습니다."
+        ],
+        "valuable_elements_ko": [
+          "단일 애플리케이션 안에서 여러 종류의 규칙을 가진 게임을 전환하며 즐길 수 있는 허브(Hub) 구조는 사용자 유입과 체류 시간에 유리합니다.",
+          "친구 초대 및 온라인 실시간 매칭을 통해 대면하지 않고도 보드게임을 가볍게 즐길 수 있는 소셜 연결성은 핵심적인 가치입니다."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "고전 룰렛 퍼즐 배틀: 믹스드 아레나",
+            "core_idea_ko": "다양한 고전 보드게임의 규칙 파편을 한 라운드 안에서 무작위 조합하여 실시간으로 경쟁하는 미니게임 허브입니다.",
+            "what_to_keep_ko": "여러 규칙을 하나의 플랫폼에서 다룬다는 허브 구조와 실시간 온라인 대전의 재미를 계승합니다.",
+            "what_to_change_ko": "단순히 게임을 선택해 플레이하는 방식에서 벗어나, 매 판마다 규칙이 섞이는 로그라이크형 파티 보드게임으로 전환합니다.",
+            "mobile_use_or_play_ko": "사용자가 방에 입장하면 매칭 후 무작위로 고전 룰이 합쳐진 미니 스테이지가 배정되고, 터치로 말을 이동해 제한 시간 내 승리 조건을 달성합니다.",
+            "key_features_ko": [
+              "무작위 규칙 조합 엔진",
+              "턴 제한 실시간 타이머",
+              "빠른 매칭 및 방장 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "2~3개의 단순화된 규칙 모듈을 단일 서버 혹은 Firebase 기반 실시간 DB로 연동하여 1인이 구현 가능한 최소 규모로 개발합니다.",
+            "strengths_limits_ko": "신선한 규칙 조합으로 리플레이성이 높지만, 밸런스 조정과 복잡한 규칙 이해 진입장벽이 과제입니다."
+          },
+          {
+            "title_ko": "고전의 재해석: 릴레이 퍼즐 던전",
+            "core_idea_ko": "체스나 백개먼 같은 고전 보드게임의 기물 배치와 이동 규칙을 활용해, 친구와 번갈아가며 스테이지를 클리어하는 협동 퍼즐 게임입니다.",
+            "what_to_keep_ko": "고전 게임들이 가진 독특한 기물 이동 규칙과 상호작용 요소를 유지합니다.",
+            "what_to_change_ko": "경쟁 중심의 실시간 멀티플레이 대신 비동기 턴제 협동 퍼즐 형태로 바꾸어 네트워크 부하를 줄이고 진입장벽을 낮춥니다.",
+            "mobile_use_or_play_ko": "플레이어가 한 턴을 진행해 보드를 풀고 친구에게 비동기로 넘기면, 친구가 이어서 다음 퍼즐을 해결하는 방식으로 캠페인을 진행합니다.",
+            "key_features_ko": [
+              "비동기 턴 교환 시스템",
+              "고전 기물 기반 퍼즐 스테이지",
+              "친구 간 협동 스코어링"
+            ],
+            "solo_mvp_and_effort_ko": "실시간 서버 대신 REST API 및 로컬 DB 기반으로 구현을 단순화하여 1인 개발 부담을 대폭 줄입니다.",
+            "strengths_limits_ko": "서버 비용과 실시간 동기화 개발 부담이 적어 안정적이지만, 실시간 대전의 즉각적인 긴장감이 줄어듭니다."
+          },
+          {
+            "title_ko": "클래식 보드 트레이너: 솔로 & 패스플레이 허브",
+            "core_idea_ko": "온라인 매칭의 복잡성을 걷어내고, 기기 하나로 오프라인에서 친구와 번갈아 즐기거나 강력한 AI와 대결하며 고전 게임을 학습하는 허브 앱입니다.",
+            "what_to_keep_ko": "다양한 고전 게임을 하나의 앱에서 제공하는 접근성을 유지합니다.",
+            "what_to_change_ko": "복잡한 실시간 멀티플레이 네트워크 구축 대신, 로컬 패스플레이와 온디바이스 AI 대전을 중심에 둡니다.",
+            "mobile_use_or_play_ko": "메인 화면에서 원하는 고전 게임을 선택한 뒤, AI 난이도를 고르거나 옆에 있는 친구와 스마트폰을 주고받으며 턴을 진행합니다.",
+            "key_features_ko": [
+              "로컬 패스앤플레이 모드",
+              "가벼운 규칙별 AI 봇",
+              "게임별 규칙 가이드 및 팁"
+            ],
+            "solo_mvp_and_effort_ko": "네트워크 인프라 구축이 전혀 필요 없으므로 규칙 로직과 UI 구현에만 집중해 1인이 빠르게 MVP를 완성할 수 있습니다.",
+            "strengths_limits_ko": "개발 난이도가 낮고 서버 유지비가 들지 않지만, 온라인 소셜 기능이 부족해 장기 체류 유인이 약합니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어는 규칙의 신선함과 파티성을 강조하지만 밸런스 잡기가 어렵고, 두 번째 아이디어는 비동기 협동으로 네트워크 부담을 낮추나 실시간성이 부족합니다. 세 번째 아이디어는 서버 부담이 없어 1인 개발에 가장 유리하지만 온라인 대전의 매력이 빠집니다.",
+        "recommended_concept_number": 3,
+        "why_recommended_ko": "원작이 가진 '다양한 고전 게임의 집합체'라는 장점을 온전히 살리면서도, 1인 개발의 가장 큰 걸림돌인 실시간 네트워크 동기화와 서버 운영 부담을 제거했습니다. 로컬 플레이와 AI 대전을 우선 구현함으로써 안정적인 MVP를 만들 수 있으며, 추후 온라인 기능을 확장할 수 있는 탄탄한 기반이 됩니다.",
+        "next_questions_ko": [
+          "타겟 유저들이 가장 선호하는 고전 게임 2~3가지는 무엇이며, 어떤 게임을 초기 MVP 범위에 포함해야 할까?",
+          "로컬 패스플레이 시 모바일 화면 회전이나 UI 배치가 두 명이 즐기기에 직관적으로 설계되었는가?",
+          "오프라인 AI 대전 구현 시 가벼운 난이도 조절 알고리즘을 어떻게 적용할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-25T09:41:48+09:00",
+      "brief_quota_day": "2026-11-25",
+      "brief_usage": {
+        "promptTokenCount": 1134,
+        "candidatesTokenCount": 1716,
+        "totalTokenCount": 5693,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1134
+          }
+        ],
+        "thoughtsTokenCount": 2843,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "itch:4cdc27237344ff5a2e92",
+        "product_kind": "game",
+        "selected_concept_title_ko": "클래식 보드 트레이너: 솔로 & 패스플레이 허브",
+        "project_goal_and_audience_ko": "본 제품은 복잡한 네트워크 매칭 시스템이나 서버 인프라 없이, 스마트폰 하나로 다양한 고전 보드게임을 즐기거나 혼자서 가벼운 AI와 대결할 수 있는 모바일 게임 허브 앱입니다. 대기 시간 없이 즉시 게임을 시작하고 싶어하는 캐주얼 게이머와 오프라인에서 친구와 기기를 맞대고 즐기는 유저를 타겟으로 합니다.",
+        "source_relation_and_difference_ko": "원본이 가진 '하나의 앱에서 다양한 고전 게임을 전환하며 즐기는 허브 구조'라는 강점을 그대로 계승했습니다. 차별점으로는 원작의 복잡한 실시간 온라인 멀티플레이 네트워크 구축을 과감히 배제하고, 로컬 패스앤플레이와 온디바이스 AI 대전을 중심에 두어 1인 개발자가 서버 비용과 네트워크 동기화의 부담 없이 안정적으로 구현할 수 있도록 재설계했습니다.",
+        "core_user_experience_ko": "사용자는 앱을 실행한 뒤 메인 허브 화면에서 원하는 고전 보드게임(예: 루도, 백개먼 등)을 선택합니다. 게임 진입 전 솔로 플레이(AI 대전) 또는 패스앤플레이(2인 로컬) 모드를 고르며, 플레이 중에는 자신의 턴에 이동 가능한 위치가 시각적으로 안내됩니다. 기물을 터치하고 조작하면 규칙 엔진이 즉시 판정하여 상태를 갱신하고 다음 턴으로 전환됩니다.",
+        "features_ko": [
+          {
+            "feature_ko": "통합 게임 허브 및 선택 화면",
+            "user_action_and_behavior_ko": "앱 실행 시 다양한 고전 게임 아이콘이 격자 형태로 나열되어 있으며, 유저가 원하는 게임을 터치하면 해당 게임의 로비로 즉시 진입하여 빠른 접근성을 제공합니다.",
+            "practical_implementation_ko": "공통 게임 인터페이스 규격을 정의하고 각 게임을 독립된 위젯 및 모듈로 분리하여 허브 라우터에서 동적으로 렌더링합니다."
+          },
+          {
+            "feature_ko": "로컬 패스앤플레이 및 AI 대전 모드",
+            "user_action_and_behavior_ko": "한 기기를 두 명이 번갈아 조작하거나, 싱글 플레이 시 AI 봇과 번갈아 턴을 진행합니다. 턴이 바뀔 때 안내 팝업이나 화면 연출로 조작 주체를 명확히 인지시킵니다.",
+            "practical_implementation_ko": "상태 관리 패턴을 통해 현재 턴의 주체(플레이어1, 플레이어2 또는 AI)를 제어하고, AI는 간단한 휴리스틱 규칙 기반 알고리즘으로 가볍게 구현합니다."
+          },
+          {
+            "feature_ko": "게임별 규칙 가이드 및 팁 제공",
+            "user_action_and_behavior_ko": "처음 접하는 보드게임의 규칙을 쉽게 이해할 수 있도록 요약된 튜토리얼과 핵심 팁을 확인하고 플레이 도중 언제든 규칙을 복기합니다.",
+            "practical_implementation_ko": "정적 텍스트 및 이미지 리소스를 활용한 가이드 팝업 모듈을 구현하여 각 게임 화면의 오버레이로 호출합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 허브 화면",
+            "contents_and_actions_ko": "제공되는 고전 게임 아이콘 목록, 설정 메뉴, 전체 전적 요약 표시. 게임 선택 시 모드 선택 창으로 이동."
+          },
+          {
+            "screen_ko": "게임 모드 및 설정 화면",
+            "contents_and_actions_ko": "AI 대전 vs 패스앤플레이 선택, AI 난이도(초급) 설정, 게임 시작 버튼."
+          },
+          {
+            "screen_ko": "게임 플레이 화면",
+            "contents_and_actions_ko": "보드 판 렌더링, 현재 턴 표시, 유효 이동 위치 하이라이트, 기물 조작, 일시정지 및 규칙 보기 버튼."
+          },
+          {
+            "screen_ko": "결과 및 요약 화면",
+            "contents_and_actions_ko": "승리/패배 메시지 출력, 재시작 및 메인 허브 복귀 버튼."
+          }
+        ],
+        "implementation_approach_ko": "크로스플랫폼 개발이 용이하고 2D UI 및 터치 인터랙션 처리에 적합한 Flutter 또는 Unity(2D)를 채택합니다. 핵심 처리 로직은 게임별 규칙 엔진과 공통 UI 프레임워크를 분리하여 모듈화하며, 웹 하이브리드 방식에 비해 우수한 터치 반응성과 네이티브 성능을 확보합니다.",
+        "data_and_storage_ko": [
+          "유저 전적 데이터: 로컬 저장소(SharedPreferences 또는 Hive)에 게임별 승/패 기록 저장.",
+          "진행 중인 게임 상태: 앱 강제 종료 시 복구를 위한 현재 턴 및 보드 상태 직렬화 저장.",
+          "정적 규칙 데이터: 앱 내 포함된 JSON 설정 파일로 각 게임의 초기 레이아웃 및 규칙 메타데이터 관리."
+        ],
+        "mvp_scope_ko": "네트워크 및 서버 기능을 완전히 제외하고, 대표적인 고전 게임 2종(예: 루도, 체커)만을 탑재합니다. AI는 단순 휴리스틱 기반 1개 레벨만 구현하며, 로컬 패스앤플레이와 기본 전적 저장 기능을 포함한 최소 기능 제품(MVP)을 완성합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 셋업 및 허브 UI 구조 설계",
+            "deliverable_and_check_ko": "메인 허브 화면 레이아웃과 게임 간 라우팅 구조 구현. 터치 시 빈 게임 화면으로 정상 전환되는지 확인."
+          },
+          {
+            "stage_ko": "2단계: 첫 번째 고전 게임 규칙 엔진 및 패스플레이 구현",
+            "deliverable_and_check_ko": "주사위/이동 규칙 로직 작성 및 2인 패스앤플레이가 원활히 작동하는지 확인."
+          },
+          {
+            "stage_ko": "3단계: 두 번째 고전 게임 및 간단한 AI 봇 추가",
+            "deliverable_and_check_ko": "두 번째 게임 룰 구현 및 싱글 플레이 시 AI가 턴을 정상적으로 소모하는지 확인."
+          },
+          {
+            "stage_ko": "4단계: 데이터 저장, 규칙 가이드 및 UI 폴리싱",
+            "deliverable_and_check_ko": "게임 전적 로컬 저장, 규칙 팝업 연동, 전반적인 터치 피드백 점검."
+          }
+        ],
+        "possible_extensions_ko": "추후 확장 가능한 요소로는 새로운 고전 보드게임 추가, 사용자 커스텀 테마(보드판 및 기물 스킨), 오프라인 블루투스 대전 기능, 그리고 장기 체류를 위한 업적 시스템이 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "게임 종류가 늘어날수록 각 게임별 규칙 엔진의 복잡도가 증가하므로, 공통 인터페이스 설계가 미흡하면 유지보수가 어려워질 수 있음.",
+          "단순 AI 봇의 난이도가 너무 낮거나 높을 경우 싱글 플레이어의 재미가 반감될 수 있어, 향후 휴리스틱 가중치 조절이 필요함.",
+          "태블릿 등 다양한 화면 크기에 따른 보드 UI 반응형 레이아웃 최적화 방안에 대한 추가 검토 필요."
+        ],
+        "draft_status_ko": "본 문서는 실제 구현, 플레이테스트 및 성능 측정이 완료되지 않은 1인 모바일 개발 설계 초안입니다."
+      },
+      "plan_at": "2026-11-25T09:42:06+09:00",
+      "plan_quota_day": "2026-11-25",
+      "plan_usage": {
+        "promptTokenCount": 1698,
+        "candidatesTokenCount": 1900,
+        "totalTokenCount": 6982,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1698
+          }
+        ],
+        "thoughtsTokenCount": 3384,
+        "serviceTier": "standard"
+      }
+    },
+    "google:tangle3d.twistedrope.untie.untangle": {
+      "app_key": "google:tangle3d.twistedrope.untie.untangle",
+      "name": "もつれロープ 3D:ほどきマスター",
+      "developer": "Sonat Global",
+      "source": "google",
+      "kind": "game",
+      "detail_url": "https://play.google.com/store/apps/details?id=tangle3d.twistedrope.untie.untangle&hl=ja&gl=JP",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:tangle3d.twistedrope.untie.untangle",
+        "product_kind": "game",
+        "original_experience_ko": "3D 공간에서 엉킨 로프를 올바른 순서와 위치로 이동시켜 매듭을 풀어내는 캐주얼 퍼즐 경험입니다. 시각적인 얽힘을 해소하는 과정에서 오는 공간 지각적 성취감을 제공합니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 상에서 100개 이상의 레벨, 3D 그래픽, 다양한 로프 스킨과 맵 구성이 확인됨.",
+          "로프의 실제 물리 시뮬레이션 방식(스프링, 조인트 등)과 레벨 디자인 알고리즘은 스토어 설명만으로는 확인되지 않음."
+        ],
+        "valuable_elements_ko": [
+          "3D 공간 속 시각적 복잡성을 단계적으로 해소하는 몰입감과 명확한 성공 피드백.",
+          "조작이 직관적(탭 및 이동)이어서 진입 장벽이 낮고 짧은 호흡으로 즐길 수 있는 점."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "사이버 와이어: 3D 회선 정비공",
+            "core_idea_ko": "사이버펑크 세계관의 복잡하게 엉킨 광케이블과 서버 회선을 3D 공간에서 정리하여 데이터 통신을 복구하는 퍼즐 게임입니다.",
+            "what_to_keep_ko": "3D 공간에서 얽힌 선을 올바른 순서로 풀어내는 핵심 공간 퍼즐 구조를 계승합니다.",
+            "what_to_change_ko": "단순한 로프 대신 전류 부하와 포트 색상 매칭 규칙을 도입하고, 케이블 과열 한계치라는 제약을 추가하여 전략성을 높였습니다.",
+            "mobile_use_or_play_ko": "화면을 터치하여 엉킨 광케이블의 교차점을 확인하고, 올바른 단자로 드래그하여 배치를 바꾼 뒤 데이터 흐름이 정상화되는지 확인합니다.",
+            "key_features_ko": [
+              "광케이블 전력 부하 시뮬레이션",
+              "포트 색상 일치 제약 시스템",
+              "서버 룸 배경의 사이버펑크 3D 연출"
+            ],
+            "solo_mvp_and_effort_ko": "기본 3D 라인 렌더링과 교차 판정 알고리즘을 구현하고, 20개의 스테이지를 제작하는 1인 개발자 중심의 경량 MVP로 구축합니다.",
+            "strengths_limits_ko": "기존 엉킴 퍼즐에 명확한 SF 테마와 시각적 몰입감을 더해 차별화되나, 복잡한 회선 물리 계산 시 모바일 성능 최적화가 과제입니다."
+          },
+          {
+            "title_ko": "렐릭 언바운드: 고대 유물 언래핑",
+            "core_idea_ko": "고대 유물을 감싸고 있는 붕대나 의례용 천을 찢어지지 않도록 올바른 순서와 방향으로 풀어내어 유물을 발굴하는 3D 퍼즐 게임입니다.",
+            "what_to_keep_ko": "3D 입체물에 얽혀 있는 요소를 순서대로 해체해 나가는 조작 및 성취 구조를 계승합니다.",
+            "what_to_change_ko": "선형 로프 대신 면 형태의 천을 벗겨내는 표면 레이어 매커니즘과, 당기는 장력에 따른 유물 손상 위험(장력 게이지) 규칙을 도입했습니다.",
+            "mobile_use_or_play_ko": "회전하는 3D 유물을 터치하고 드래그하여 겉면의 천 겹을 한 장씩 올바른 방향으로 벗겨내어 온전한 유물의 모습을 드러냅니다.",
+            "key_features_ko": [
+              "면(Surface) 기반의 레이어 언래핑 퍼즐",
+              "천의 장력 및 손상 방지 게이지",
+              "수집 가능한 고대 유물 도감 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "원기둥/구 형태의 기본 모델에 텍스처 레이어를 덮어씌우는 방식으로 충돌 판정을 간소화하여 1인이 빠르게 구현 가능합니다.",
+            "strengths_limits_ko": "독특한 유물 발굴 테마로 호기심을 자극하지만, 면 형태의 오브젝트 물리 처리와 정교한 렌더링 구현 난이도가 높을 수 있습니다."
+          },
+          {
+            "title_ko": "스텔라 위버: 우주 성좌 복원",
+            "core_idea_ko": "우주 공간에 흩어져 서로 엉킨 별자리 에너지 실을 풀어 원래의 성좌 패턴을 완성하는 천문학 테마의 3D 퍼즐 게임입니다.",
+            "what_to_keep_ko": "다수의 노드와 선으로 이루어진 3D 네트워크 구조에서 얽힌 선을 재배치하는 핵심 재미를 유지합니다.",
+            "what_to_change_ko": "우주 중력 시뮬레이션을 적용하여 고정되지 않은 별들이 미세하게 움직이며, 완성된 성좌에 별빛 에너지가 채워지는 시각적 연출을 결합했습니다.",
+            "mobile_use_or_play_ko": "우주 공간에서 엉킨 빛의 선들을 손가락으로 밀어 교차를 없애고, 모든 별이 정확한 성좌 좌표에 도달하면 별자리가 점등되며 클리어됩니다.",
+            "key_features_ko": [
+              "미세한 중력 드리프트가 있는 동적 3D 노드 시스템",
+              "별자리 완성 시 시각적 일루미네이션 연출",
+              "성간 지도를 탐험하는 스테이지 진행 구조"
+            ],
+            "solo_mvp_and_effort_ko": "노드와 선을 잇는 베이직 그래픽 파이프라인으로 구성하고, 수학적 성좌 좌표 매칭 로직을 적용하여 최소 기능 제품을 구현합니다.",
+            "strengths_limits_ko": "몽환적인 우주 분위기와 감성적 연출로 대중적 어필이 가능하나, 퍼즐의 난이도 곡선 조절이 까다로울 수 있습니다."
+          }
+        ],
+        "concept_comparison_ko": "1안(사이버 와이어)은 전력 부하와 포트 매칭을 통해 퍼즐의 논리적 깊이를 강화한 반면, 2안(렐릭 언바운드)은 면 형태의 레이어 언래핑과 장력 게이지로 수집형 재미를 결합했습니다. 3안(스텔라 위버)은 중력 드리프트와 감성적인 우주 연출을 강조합니다. 1안은 가장 명확한 규칙 확장을 제공하며 구현 리스크가 적습니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "1안 '사이버 와이어: 3D 회선 정비공'은 원본의 핵심인 3D 선 엉킴 해소 메커니즘을 가장 직관적으로 계승하면서도, '전력 부하 및 색상 매칭'이라는 명확한 전략적 규칙을 추가하여 퍼즐의 재미를 한 단계 발전시킵니다. 1인 모바일 개발 환경에서도 3D 라인 렌더링과 교차 판정 로직을 안정적으로 구현할 수 있어 실현 가능성이 높습니다.",
+        "next_questions_ko": [
+          "모바일 화면에서 여러 겹으로 엉킨 선들을 손가락으로 터치할 때, 정확한 오브젝트 선택(Raycast)을 보장할 수 있는 UI/UX 보정 방안은 무엇인가?",
+          "스테이지 수가 증가함에 따라 교차 판정 연산(O(N^2) 복잡도 등)이 모바일 성능에 미치는 영향과 최적화 기준은 무엇인가?"
+        ]
+      },
+      "brief_at": "2026-11-25T10:00:03+09:00",
+      "brief_quota_day": "2026-11-25",
+      "brief_usage": {
+        "promptTokenCount": 1746,
+        "candidatesTokenCount": 1900,
+        "totalTokenCount": 6717,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1746
+          }
+        ],
+        "thoughtsTokenCount": 3071,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:tangle3d.twistedrope.untie.untangle",
+        "product_kind": "game",
+        "selected_concept_title_ko": "사이버 와이어: 3D 회선 정비공",
+        "project_goal_and_audience_ko": "사이버펑크 세계관과 두뇌 회전 퍼즐을 선호하는 모바일 유저를 대상으로, 3D 공간 속 복잡하게 엉킨 광케이블을 올바르게 정비하여 데이터 통신을 복구하는 성취감과 몰입감을 제공하는 캐주얼 퍼즐 게임입니다.",
+        "source_relation_and_difference_ko": "원본의 '3D 공간 속 얽힌 선을 풀어내는' 핵심 공간 퍼즐 구조를 온전히 계승하면서, 단순한 선 해제에서 나아가 '포트 색상 매칭', '전력 부하 제한', '케이블 과열 위험'이라는 전략적 제약 요소를 도입하여 차별화된 긴장감과 전략성을 부여했습니다.",
+        "core_user_experience_ko": "유저는 화면을 터치하고 드래그하여 3D 서버 룸 내부의 꼬인 광케이블 교차점을 파악하고 올바른 단자로 재배치합니다. 연결이 정상화되고 부하 한계치를 넘지 않으면 데이터 통신이 복구되는 시각적/청각적 피드백을 경험합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "광케이블 전력 부하 및 과열 시뮬레이션",
+            "user_action_and_behavior_ko": "잘못된 순서로 꼬여있거나 교차점이 많을 경우 부하가 상승하여 케이블이 붉게 과열되고 경고 상태가 됨. 유저는 이를 해결하기 위해 배치를 최적화해야 함.",
+            "practical_implementation_ko": "케이블의 교차 횟수 및 길이를 기반으로 실시간 부하 수치를 계산하고, 임계값 초과 시 과열 경고 플래그 및 이펙트 활성화."
+          },
+          {
+            "feature_ko": "포트 색상 일치 제약 시스템",
+            "user_action_and_behavior_ko": "광케이블의 양 끝단 색상을 서버의 해당 포트 색상과 정확히 일치시켜야만 데이터 패킷 전송이 성공함.",
+            "practical_implementation_ko": "노드(단자)와 케이블 끝단에 색상 ID 속성을 부여하고, 연결 시 양끝 데이터 일치 여부를 판정하여 클리어 조건 검증."
+          },
+          {
+            "feature_ko": "사이버펑크 3D 서버 룸 환경 연출",
+            "user_action_and_behavior_ko": "어두운 배경 속 빛나는 네온 광케이블과 홀로그램 UI를 통해 시각적 몰입감을 높임.",
+            "practical_implementation_ko": "모바일 성능 최적화를 고려한 경량 3D 셰이더와 간이 글로우(Bloom) 포스트 프로세싱 적용."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 스테이지 선택 화면",
+            "contents_and_actions_ko": "정비소 레벨, 스테이지 그리드 목록 표시. 스테이지 터치 시 해당 퍼즐 씬으로 진입."
+          },
+          {
+            "screen_ko": "회선 정비 퍼즐 플레이 화면",
+            "contents_and_actions_ko": "3D 서버 룸 뷰, 꼬인 광케이블, 상단 부하 게이지 표시. 터치 드래그로 케이블 이동, 핀치로 카메라 줌/회전."
+          },
+          {
+            "screen_ko": "시스템 복구 결과 팝업",
+            "contents_and_actions_ko": "데이터 통신 복구 성공 시 클리어 연출 및 다음 스테이지 버튼 제공, 과열 실패 시 재시도 안내."
+          }
+        ],
+        "implementation_approach_ko": "모바일 크로스 플랫폼 지원과 원활한 3D 렌더링을 위해 Unity 엔진(C#)을 채택합니다. 절차적 라인 메쉬 생성(LineRenderer/Tube)과 기본 레이캐스트 기반 터치 선택 로직을 결합하여 모바일 환경에서 안정적인 60fps를 목표로 경량화 구현합니다.",
+        "data_and_storage_ko": [
+          "StageConfig 구조체: 스테이지별 케이블 노드 3D 좌표, 초기 연결 관계, 포트 색상 배열 정보를 포함한 JSON 데이터",
+          "PlayerProgress 구조체: 클리어한 스테이지 진행도 및 누적 점수를 로컬 PlayerPrefs 또는 경량 SQLite에 저장",
+          "데이터 저장 시점: 스테이지 클리어 직후 또는 앱 백그라운드 진입 시점 직렬화 저장"
+        ],
+        "mvp_scope_ko": "복잡한 특수 스킨이나 확장 커스터마이징을 제외하고, 3D 선 렌더링, 교차 판정, 포트 색상 매칭 및 부하 제약 규칙이 적용된 핵심 스테이지 20개로 구성된 프로토타입 구현 범위로 한정합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 3D 환경 및 카메라 조작 구축",
+            "deliverable_and_check_ko": "빈 3D 공간에서 터치 드래그 및 핀치 줌이 원활하게 작동하는지 프로토타입 실행을 통해 확인."
+          },
+          {
+            "stage_ko": "2단계: 광케이블 렌더링 및 교차/부하 판정 로직",
+            "deliverable_and_check_ko": "임의의 꼬인 선을 화면에 그리고 노드 이동 시 선이 재렌더링되며 부하 수치가 변하는지 검증."
+          },
+          {
+            "stage_ko": "3단계: 퍼즐 규칙(색상 매칭, 클리어 조건) 및 UI 연동",
+            "deliverable_and_check_ko": "색상 일치 시 성공 판정 및 스테이지 전환 루프가 정상 동작하는지 확인."
+          },
+          {
+            "stage_ko": "4단계: 콘텐츠 확장 및 최적화",
+            "deliverable_and_check_ko": "20개 스테이지 데이터 작성 및 모바일 기기에서의 프레임 드랍 여부 테스트."
+          }
+        ],
+        "possible_extensions_ko": "로그라이크형 무작위 긴급 회선 복구 모드, 다양한 네온 스킨 및 커스텀 이펙트, 일일 챌린지 퍼즐 추가.",
+        "risks_and_open_decisions_ko": [
+          "모바일 기기에서 복잡한 3D 곡선 라인 렌더링 및 충돌 계산 시 성능 저하 가능성 검토 필요",
+          "터치 입력 시 3D 공간 상의 선 선택 정확도(Raycast 정밀도)를 높이기 위한 터치 판정 영역 최적화 방안 미확정"
+        ],
+        "draft_status_ko": "본 문서는 1인 모바일 게임 개발을 위한 기획 및 기술 검토를 목적으로 작성된 개발 설계 초안이며, 실제 구현 및 플레이테스트 결과에 따라 변경될 수 있습니다."
+      },
+      "plan_at": "2026-11-25T10:00:42+09:00",
+      "plan_quota_day": "2026-11-25",
+      "plan_usage": {
+        "promptTokenCount": 2378,
+        "candidatesTokenCount": 1715,
+        "totalTokenCount": 7026,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2378
+          }
+        ],
+        "thoughtsTokenCount": 2933,
+        "serviceTier": "standard"
+      }
     }
   }
 }

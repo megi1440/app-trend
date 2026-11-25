@@ -14649,6 +14649,363 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-24"
+    },
+    "itch:7971ef20981852bc0bf6": {
+      "app_key": "itch:7971ef20981852bc0bf6",
+      "name": "Warelings [Free] [Simulation]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://press-for-coffee-tomiwr.itch.io/warelings",
+      "data_date": "2026-11-25",
+      "analysed_at": "2026-11-25T09:04:36+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A tiny 2000s V-pet that lives in the corner of your desktop. Out on Steam, 14 December.",
+      "analysis": {
+        "app_key": "itch:7971ef20981852bc0bf6",
+        "summary_ko": "데스크톱 화면 구석에서 생활하는 2000년대 감성의 가상 반려동물 시뮬레이션 게임입니다. 사용자의 PC 환경에 상주하며 작은 생명체를 돌보는 경험을 제공합니다. 스팀 출시를 앞두고 있는 소규모 프로젝트입니다.",
+        "features_ko": [
+          "데스크톱 화면 구석에 상주하며 사용자와 상호작용합니다.",
+          "2000년대 가상 반려동물(V-pet)의 향수를 자극하는 디자인을 채택했습니다."
+        ],
+        "noteworthy_ko": "데스크톱 상주형 애플리케이션은 사용자의 작업 흐름에 자연스럽게 녹아들 수 있다는 점에서 흥미롭습니다. 2000년대 감성을 현대적인 환경에서 어떻게 재현했는지에 대한 기술적 구현 방식이 주목됩니다.",
+        "development_ko": "데스크톱 오버레이 구현을 위한 운영체제별 API 활용이 핵심입니다. 콘텐츠 제작은 캐릭터 애니메이션과 상태 변화 로직에 집중될 것으로 보이며, 리소스 최적화가 중요합니다.",
+        "idea_ko": "사용자의 작업 상태(집중 모드 등)에 따라 반려동물의 행동이 변화하는 시스템을 도입하여 몰입감을 높이는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "데스크톱 화면 구석이라는 독특한 배치로 사용자 접근성을 높였습니다.",
+          "2000년대 V-pet이라는 명확한 레트로 컨셉을 유지하고 있습니다."
+        ],
+        "systems_ko": [
+          "데스크톱 오버레이 및 투명 윈도우 처리",
+          "반려동물 상태 관리 및 AI 행동 로직",
+          "리소스 관리 및 메모리 최적화",
+          "사용자 입력 이벤트 처리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "데스크톱 상주를 위한 윈도우 API 제어는 난도가 있으나, 게임 자체의 로직은 단순한 상태 머신으로 구현 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "데스크톱 상주 투명 윈도우",
+            "기본 애니메이션 루프",
+            "상태 변화 로직"
+          ],
+          "defer": [
+            "복잡한 상호작용 시스템",
+            "다양한 커스터마이징 옵션"
+          ],
+          "risks": [
+            "운영체제별 권한 및 보안 정책 충돌",
+            "타 프로그램과의 화면 겹침 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "업무 집중 도우미",
+            "concept": "사용자가 특정 시간 동안 마우스를 움직이지 않으면 반려동물이 휴식을 권유합니다. 업무 효율을 높이는 보조 도구로 활용합니다.",
+            "first_step": "마우스 입력 감지 타이머 구현."
+          },
+          {
+            "title": "데스크톱 환경 동기화",
+            "concept": "날씨나 시간에 따라 반려동물의 외형이나 배경이 변합니다. 현실 세계와 동기화된 경험을 제공합니다.",
+            "first_step": "시스템 시간 연동 로직 작성."
+          }
+        ],
+        "recommendation_ko": "데스크톱 상주형 앱의 기초적인 구조와 윈도우 제어 기술을 배우기에 적합합니다. 가벼운 프로젝트를 선호하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "상세한 상호작용 방식, 반려동물의 종류, 구체적인 기술 스택(언어/프레임워크)에 대한 정보가 부족하여 추가 검증이 필요합니다.",
+        "name": "Warelings [Free] [Simulation]",
+        "source": "itch",
+        "detail_url": "https://press-for-coffee-tomiwr.itch.io/warelings",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 302,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 26,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-25"
+    },
+    "apple:1447768809": {
+      "app_key": "apple:1447768809",
+      "name": "Marvis Pro",
+      "developer": "Aditya Rajveer",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/marvis-pro/id1447768809",
+      "data_date": "2026-11-25",
+      "analysed_at": "2026-11-25T09:05:10+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Interact with your music and fall in love with your library all over again. ** Featured on MacStories, 9to5Mac, Cult of Mac, iDownloadBlog, iMore, and more. ** ** App of the Year 2022 - MacStories ** Marvis offers a beautiful presentation of your Music Library with loads of powerful features in a minimalistic yet highly customizable UI. • For Apple Music & iTunes Library. ‣ Supports Apple Music Search, Charts, Listen Now, Radio, and more. ‣ Non-subscribers can search & browse the Apple Music catalog and play 30s preview for all available songs. • Use Drag & Drop to add one or more items to Up Next, Play, or Shuffle. • Advanced Media Details and Artist Info. • List & Grid Layout. Multiple Grid styles to choose from, like Cover Flow. • 40+ App icon choices. • Sort and Group ‣ Sort by Recently Played/Added, Year, Rating, Play Count, and more. ‣ Group Playlists and Genres into Albums, Artists, Composers, etc. • Smart Rules: Filter, Sort, and Limit. • Last.fm support. ‣ The ability to scrobble is included with your purchase. ‣ Advanced features require an additional one-time fee. IMPORTANT: • It is required to have the Music app installed on your device to use Marvis. • Due to iOS restrictions, deleting items from your library or playlists via Marvis is not allowed. Reddit: r/MarvisApp",
+      "analysis": {
+        "app_key": "apple:1447768809",
+        "summary_ko": "사용자의 음악 라이브러리를 커스터마이징하여 감상할 수 있는 고기능 음악 플레이어입니다. Apple Music 및 iTunes 라이브러리와 연동되며, 강력한 정렬, 그룹화, 스마트 규칙 기능을 제공합니다.",
+        "features_ko": [
+          "Apple Music 및 iTunes 라이브러리와 완벽하게 연동됩니다.",
+          "드래그 앤 드롭으로 재생 목록을 관리하고 셔플 기능을 지원합니다.",
+          "재생 횟수, 추가 날짜 등 다양한 기준으로 음악을 정렬하고 그룹화합니다.",
+          "스마트 규칙을 통해 필터링, 정렬, 제한 설정을 할 수 있습니다.",
+          "Last.fm 연동을 통해 스크로블링 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "기존 음악 앱의 데이터를 활용하여 사용자 경험을 극대화하는 UI/UX 설계가 돋보입니다. 사용자가 직접 규칙을 설정하여 라이브러리를 관리하게 하는 방식은 데이터 관리 앱 개발의 좋은 사례입니다.",
+        "development_ko": "iOS의 MusicKit 프레임워크 활용 능력이 핵심입니다. 복잡한 정렬 및 필터링 로직을 효율적으로 처리하는 데이터 처리 알고리즘이 필요하며, 사용자 정의 UI를 위한 커스텀 뷰 구현 능력이 중요합니다.",
+        "idea_ko": "음악 감상 패턴을 분석하여 사용자의 기분에 맞는 플레이리스트를 자동으로 생성하는 AI 추천 기능을 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "강력한 커스터마이징 UI.",
+          "스마트 규칙 기반의 라이브러리 관리."
+        ],
+        "systems_ko": [
+          "MusicKit 데이터 연동",
+          "데이터 필터링 및 정렬 엔진",
+          "커스텀 UI 레이아웃 시스템",
+          "Last.fm API 연동",
+          "사용자 설정 저장 및 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "MusicKit을 활용한 데이터 연동은 표준화되어 있으나, 복잡한 필터링 로직과 사용자 친화적인 UI를 구현하는 데 정교한 설계가 필요하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "음악 라이브러리 불러오기",
+            "기본 재생 및 정렬 기능"
+          ],
+          "defer": [
+            "스마트 규칙 시스템",
+            "Last.fm 연동"
+          ],
+          "risks": [
+            "iOS 업데이트에 따른 API 변경 대응",
+            "데이터 처리 성능 최적화"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "음악 무드 트래커",
+            "concept": "사용자가 음악을 들을 때의 감정을 기록하고, 감정별로 음악을 분류하는 앱입니다. 시간이 지나면 감정 변화에 따른 음악 취향을 분석해줍니다.",
+            "first_step": "음악 재생 시 감정 태그를 입력하는 기능 구현."
+          },
+          {
+            "title": "플레이리스트 챌린지",
+            "concept": "특정 테마에 맞는 음악을 찾아 플레이리스트를 완성하는 챌린지 앱입니다. 다른 사용자와 플레이리스트를 공유하고 평가할 수 있습니다.",
+            "first_step": "플레이리스트 공유 및 평가 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 중심의 앱 개발과 사용자 경험을 개선하는 UI 설계 방식을 배우기에 매우 좋습니다. 기존 플랫폼의 API를 활용하여 가치를 창출하는 방법을 익힐 수 있습니다.",
+        "source_limitations_ko": "앱 내부의 구체적인 데이터 처리 알고리즘이나 Last.fm 연동을 위한 인증 방식 등은 확인되지 않습니다.",
+        "name": "Marvis Pro",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/marvis-pro/id1447768809",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 228,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 4,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-25"
+    },
+    "google:com.funtaptic.spacerockbreaker": {
+      "app_key": "google:com.funtaptic.spacerockbreaker",
+      "name": "Space Rock Breaker",
+      "developer": "Funtaptic",
+      "source": "google",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.funtaptic.spacerockbreaker&hl=ko&gl=KR",
+      "data_date": "2026-11-25",
+      "analysed_at": "2026-11-25T09:05:30+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "소행성에서 캐낸 광석을 다음 강화로 이어 가세요. Space Rock Breaker는 총을 이용한 채굴, 광석 가공, 방대한 스킬 트리를 결합한 짧은 인크리멘털 우주 채굴 게임입니다. 소행성을 채굴하고 재료를 해금하세요 총으로 우주 암석을 부수고 광석을 모으세요. 채굴을 중심으로 게임을 진행하며 새로운 재료를 해금할 수 있어요. 모은 광석을 PLINKO로 가공하세요 채굴한 광석은 Plinko(플링코) 장치에서 가공해요. 소행성 채굴과 플링코가 어우러져, 크레딧을 강화에 사용하기 전에 모은 광석을 가공하는 단계가 더해집니다. 강화로 한 걸음씩 나아가세요 크레딧을 넓은 스킬 트리에 투자하고 다음 강화를 선택하세요. 채굴, 광석 가공, 크레딧을 쓰는 과정이 하나의 게임 사이클로 이어져, 암석을 부수는 것부터 새로운 강화를 해금하는 것까지 경험할 수 있어요. 짧게 즐기는 인크리멘털 경험 Space Rock Breaker는 채굴과 강화를 간결하게 즐길 수 있는 게임이에요. 우주 채굴, 플링코 가공, 스킬 트리 성장이 어우러진 경험을 만나 보세요. 채굴하고, 가공하고, 강화하세요.",
+      "analysis": {
+        "app_key": "google:com.funtaptic.spacerockbreaker",
+        "summary_ko": "Space Rock Breaker는 소행성을 채굴하고 광석을 가공하여 성장하는 인크리멘털 게임입니다. 총으로 암석을 부수고 얻은 재료를 플링코 장치로 가공하여 크레딧을 얻습니다. 획득한 크레딧으로 스킬 트리를 강화하며 더 효율적인 채굴을 목표로 합니다.",
+        "features_ko": [
+          "총을 사용하여 우주 암석을 파괴하고 광석을 수집하는 채굴 시스템을 제공합니다.",
+          "수집한 광석을 플링코(Plinko) 장치에 넣어 가공하고 크레딧으로 변환합니다.",
+          "방대한 스킬 트리를 통해 채굴 효율과 가공 능력을 강화할 수 있습니다.",
+          "채굴, 가공, 강화가 하나의 순환 구조로 이어지는 인크리멘털 게임 플레이를 제공합니다.",
+          "간결한 조작으로 짧은 시간 동안 성장의 재미를 느낄 수 있습니다."
+        ],
+        "noteworthy_ko": "채굴과 플링코라는 두 가지 메커니즘을 결합하여 단순한 클릭커 게임에 재미 요소를 더한 점이 돋보입니다. 성장의 체감이 명확한 인크리멘털 장르의 특성을 잘 활용하고 있습니다.",
+        "development_ko": "핵심 기술은 플링코의 물리 엔진 구현과 스킬 트리 데이터 구조 설계입니다. 콘텐츠 제작 부담은 적은 편이나, 게임의 밸런스를 맞추기 위해 수치 설계(성장 곡선)에 많은 시간을 투자해야 합니다. 테스트 시에는 다양한 강화 단계에서의 게임 속도와 재미를 검증해야 합니다.",
+        "idea_ko": "플링코의 물리적 변수를 조절할 수 있는 아이템을 추가하여 전략적인 가공 시스템을 만드는 것이 좋습니다.",
+        "highlights_ko": [
+          "채굴과 플링코 가공이 결합된 독특한 게임 사이클.",
+          "스킬 트리를 통한 점진적인 성장과 강화의 재미."
+        ],
+        "systems_ko": [
+          "물리 엔진 기반 플링코 시스템",
+          "스킬 트리 및 데이터 관리 시스템",
+          "재화 및 성장 밸런스 엔진",
+          "채굴 인터랙션 및 피드백 시스템",
+          "게임 상태 저장 및 로드 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진 구현이 필요하지만, 인크리멘털 장르의 특성상 시스템 규모가 크지 않아 1인 개발에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 채굴 및 광석 수집 기능",
+            "플링코 가공 시스템",
+            "기본 스킬 강화 로직"
+          ],
+          "defer": [
+            "복잡한 스킬 트리 시각화",
+            "다양한 우주 배경 및 에셋"
+          ],
+          "risks": [
+            "물리 엔진의 성능 최적화 문제",
+            "성장 곡선 설계 실패로 인한 지루함 발생"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "플링코 타워 디펜스",
+            "concept": "플링코 장치를 통과한 광석이 적을 공격하는 타워 디펜스 게임입니다. 광석의 경로를 조절하여 효율을 극대화합니다.",
+            "first_step": "플링코 보드에서 공이 튕겨 적에게 닿으면 데미지를 입히는 기본 로직 구현."
+          },
+          {
+            "title": "우주 농장 플링코",
+            "concept": "광석 대신 작물을 수확하여 플링코 장치로 가공하고 판매하는 힐링 게임입니다.",
+            "first_step": "작물을 수확하고 플링코 장치에 투입하여 재화를 얻는 기본 사이클 구현."
+          }
+        ],
+        "recommendation_ko": "인크리멘털 게임의 핵심인 '성장 곡선'과 '순환 구조'를 배우기에 매우 좋은 사례입니다. 물리 엔진을 활용한 게임 개발을 연습하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 스킬 트리의 구성, 물리 엔진의 상세 설정, 광고 수익 모델의 적용 여부는 확인되지 않습니다.",
+        "name": "Space Rock Breaker",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.funtaptic.spacerockbreaker&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 183,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-25"
+    },
+    "apple:6818054527": {
+      "app_key": "apple:6818054527",
+      "name": "Slice Away! - Physics Puzzle",
+      "developer": "Pickcel Games",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/us/app/slice-away-physics-puzzle/id6818054527?uo=2",
+      "data_date": "2026-11-25",
+      "analysed_at": "2026-11-25T09:08:16+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "In Slice Away! - Physics Puzzle, swipe to cut objects and make the pieces fall into the grinder below. Your goal is to clear the board within the available moves. Plan your cuts, work around obstacles, and make every move count. Features Colorful 3D levels Fruits, shapes, and other objects to slice Physics-based cutting and falling Simple rules, smart decisions Limited moves in each level",
+      "analysis": {
+        "app_key": "apple:6818054527",
+        "summary_ko": "Slice Away!는 화면을 스와이프하여 물체를 자르고 조각들을 아래쪽 분쇄기로 떨어뜨리는 물리 퍼즐 게임입니다. 제한된 횟수 내에 보드 위의 모든 물체를 제거하는 것이 목표입니다. 장애물을 피하고 정확한 절단면을 계산하는 전략적인 플레이가 필요합니다.",
+        "features_ko": [
+          "화면을 스와이프하여 과일, 도형 등 다양한 물체를 자를 수 있습니다.",
+          "물리 엔진을 기반으로 잘린 조각들이 자연스럽게 떨어지도록 설계되었습니다.",
+          "각 레벨마다 정해진 이동 횟수 내에 물체를 모두 제거해야 합니다.",
+          "다양한 장애물을 피하며 전략적으로 절단 위치를 결정해야 합니다."
+        ],
+        "noteworthy_ko": "물리 엔진을 활용한 절단 메커니즘이 게임의 핵심입니다. 물체가 잘리는 방식과 그에 따른 물리적 반응이 얼마나 자연스러운지가 게임의 완성도를 결정합니다.",
+        "development_ko": "핵심 기술은 2D/3D 물리 엔진(예: Box2D, Unity Physics)의 활용입니다. 물체를 자르는 로직(Mesh Slicing) 구현이 가장 큰 기술적 도전 과제입니다. 레벨 디자인은 난이도 곡선을 고려하여 장애물을 배치하는 작업이 필요합니다.",
+        "idea_ko": "자른 조각들을 특정 모양으로 쌓아 올려 목표 높이에 도달하는 물리 퍼즐 모드 추가.",
+        "highlights_ko": [
+          "다채로운 3D 레벨과 다양한 형태의 물체를 제공하여 시각적 즐거움을 줍니다.",
+          "단순한 규칙 속에 전략적인 사고를 요구하는 퍼즐 요소가 잘 결합되어 있습니다."
+        ],
+        "systems_ko": [
+          "물리 엔진 기반 객체 절단 시스템",
+          "레벨 데이터 관리 시스템",
+          "입력 판정 및 스와이프 제스처 처리",
+          "게임 상태(성공/실패) 관리",
+          "UI 및 레벨 진행 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진을 활용한 절단 구현은 난이도가 있지만, 오픈 소스 라이브러리를 활용하면 1인 개발이 가능합니다. 레벨 디자인과 물리 밸런스 조정에 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "물체 절단 메커니즘",
+            "물리 기반 낙하 처리",
+            "기본 레벨 5~10개"
+          ],
+          "defer": [
+            "복잡한 장애물 시스템",
+            "다양한 특수 효과",
+            "레벨 에디터"
+          ],
+          "risks": [
+            "절단 로직의 버그로 인한 물리 오류",
+            "레벨 디자인의 난이도 조절 실패",
+            "기기 성능에 따른 물리 연산 부하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "조각 퍼즐 맞추기",
+            "concept": "잘린 조각들을 다시 원래 모양으로 맞추는 역방향 퍼즐입니다. 조각들이 흩어지기 전에 빠르게 위치를 파악해야 합니다.",
+            "first_step": "물체를 자른 후 조각들의 위치 정보를 저장하고 다시 결합하는 로직 구현."
+          },
+          {
+            "title": "중력 반전 절단",
+            "concept": "중력 방향이 수시로 바뀌는 환경에서 물체를 잘라 목표 지점으로 이동시킵니다. 중력 변화에 따른 물리 반응을 예측해야 합니다.",
+            "first_step": "물리 엔진의 중력 벡터를 실시간으로 변경하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "물리 엔진의 활용법과 기하학적 절단 로직을 배우기에 매우 좋습니다. 퍼즐 게임의 레벨 디자인 원리를 익히고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "사용된 물리 엔진의 종류나 절단 로직의 구체적인 구현 방식은 알 수 없습니다. 레벨 디자인의 자동화 여부나 데이터 저장 방식에 대한 정보도 없습니다.",
+        "name": "Slice Away! - Physics Puzzle",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/slice-away-physics-puzzle/id6818054527?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 97,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-25"
     }
   }
 }

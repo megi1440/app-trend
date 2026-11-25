@@ -12891,6 +12891,94 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-24"
+    },
+    "apple:6755986190": {
+      "app_key": "apple:6755986190",
+      "name": "NJ Gift Card:sell gift cards",
+      "developer": "KANKAN'S COMPASS PTE. LTD.",
+      "source": "apple",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://apps.apple.com/us/app/nj-gift-card-sell-gift-cards/id6755986190?uo=2",
+      "data_date": "2026-11-25",
+      "analysed_at": "2026-11-25T09:05:30+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "NJ Gift Card:sell gift cards was established to standardize gift card transactions, ensure customer safety, and facilitate gift card transactions more quickly. KanKan Card Company focuses on serving gift card transactions, providing high-quality prices, fast payments, and the safest transactions. We will build the platform into a benchmark industry for gift card transactions. If you encounter any problems during use, we are available 24 hours a day to serve you.",
+      "analysis": {
+        "app_key": "apple:6755986190",
+        "summary_ko": "NJ Gift Card는 기프트 카드 거래를 표준화하고 안전하게 처리하기 위한 플랫폼입니다. 빠른 결제와 안전한 거래를 통해 기프트 카드 거래의 효율성을 높이는 것을 목표로 합니다. 24시간 고객 서비스를 제공하여 거래 중 발생하는 문제를 지원합니다.",
+        "features_ko": [
+          "기프트 카드 거래를 표준화하여 안전한 거래 환경을 제공합니다.",
+          "빠른 결제 시스템을 통해 거래 속도를 최적화합니다.",
+          "24시간 고객 지원 서비스를 통해 거래 관련 문제를 해결합니다.",
+          "기프트 카드 거래 산업의 벤치마크를 목표로 하는 플랫폼을 운영합니다."
+        ],
+        "noteworthy_ko": "기프트 카드 거래라는 특정 니치 마켓을 타겟으로 한 플랫폼 앱입니다. 신뢰성과 보안이 핵심이며, 사용자 간 거래를 중개하는 플랫폼의 전형적인 구조를 가집니다.",
+        "development_ko": "핵심 기술은 안전한 결제 게이트웨이 연동과 거래 데이터 관리 시스템입니다. 보안이 최우선이며, 사기 방지를 위한 검증 로직 구현이 필수적입니다. 테스트 시에는 다양한 결제 상황에서의 데이터 무결성과 보안성을 검증해야 합니다.",
+        "idea_ko": "기프트 카드뿐만 아니라 다양한 디지털 쿠폰을 통합 관리하고 교환할 수 있는 플랫폼으로 확장하는 것이 좋습니다.",
+        "highlights_ko": [
+          "기프트 카드 거래의 표준화 및 안전성 확보.",
+          "24시간 고객 지원을 통한 거래 신뢰도 제고."
+        ],
+        "systems_ko": [
+          "결제 게이트웨이 연동 시스템",
+          "거래 데이터베이스 및 상태 관리",
+          "사용자 인증 및 보안 시스템",
+          "고객 지원 채팅 및 티켓 시스템",
+          "거래 사기 방지 및 검증 로직"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "금융 거래와 관련된 앱은 높은 보안 수준과 법적 규제 준수가 필요하여 1인 개발자가 구현하기에는 리스크가 매우 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 계정 및 거래 내역 관리",
+            "기본 결제 연동"
+          ],
+          "defer": [
+            "24시간 실시간 채팅 지원",
+            "자동 사기 탐지 AI"
+          ],
+          "risks": [
+            "금융 보안 사고 발생 시 법적 책임",
+            "거래 사기 및 플랫폼 신뢰도 하락"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "디지털 쿠폰 교환소",
+            "concept": "사용자가 사용하지 않는 쿠폰을 등록하고 다른 사용자와 교환하는 커뮤니티 기반 플랫폼입니다.",
+            "first_step": "쿠폰을 등록하고 목록을 조회하는 게시판 형태의 앱 구현."
+          },
+          {
+            "title": "개인 자산 관리 기록기",
+            "concept": "기프트 카드나 쿠폰의 잔액과 유효기간을 관리하는 개인용 도구입니다.",
+            "first_step": "쿠폰 정보를 입력하고 유효기간 알림을 설정하는 로컬 데이터 앱 구현."
+          }
+        ],
+        "recommendation_ko": "플랫폼 앱의 데이터 관리와 결제 연동 방식을 공부할 수 있으나, 실제 서비스 운영은 높은 보안 지식과 법적 검토가 필요하므로 주의해야 합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 결제 시스템의 기술적 구현, 보안 인증 방식, 사기 방지 알고리즘에 대한 정보가 없습니다.",
+        "name": "NJ Gift Card:sell gift cards",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/nj-gift-card-sell-gift-cards/id6755986190?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 177,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-25"
     }
   }
 }

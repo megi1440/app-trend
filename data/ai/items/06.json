@@ -14581,6 +14581,270 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-24"
+    },
+    "itch:46103cc4da850f591fe4": {
+      "app_key": "itch:46103cc4da850f591fe4",
+      "name": "Game & RUBBERY Collection Demo [Free] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://vbscriptiino.itch.io/game-and-rubbery-demo",
+      "data_date": "2026-11-25",
+      "analysed_at": "2026-11-25T09:04:11+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A demo of a collection of various games recreated for Rubbery.",
+      "analysis": {
+        "app_key": "itch:46103cc4da850f591fe4",
+        "summary_ko": "Rubbery라는 플랫폼을 위해 다양한 게임을 재현한 컬렉션의 데모 버전입니다. 여러 게임을 하나의 환경에서 경험할 수 있도록 구성되어 있습니다. 구체적인 게임 장르나 플레이 방식에 대한 상세 설명은 제공되지 않았습니다.",
+        "features_ko": [
+          "Rubbery 플랫폼 환경에 최적화된 게임 재현 기능을 제공합니다.",
+          "여러 개의 게임을 하나의 컬렉션 형태로 묶어 제공합니다."
+        ],
+        "noteworthy_ko": "기존 게임을 특정 플랫폼 환경으로 이식하거나 재현하는 방식의 개발 사례입니다. 플랫폼의 제약 사항을 어떻게 극복하고 게임성을 유지했는지 분석하는 것이 흥미롭습니다.",
+        "development_ko": "다양한 게임을 재현해야 하므로 각 게임의 핵심 메커니즘을 추출하는 능력이 중요합니다. 플랫폼 호환성을 고려한 코드 구조 설계가 필요하며, 각 게임별로 테스트 및 밸런스 조정이 필요할 것으로 보입니다.",
+        "idea_ko": "특정 플랫폼 전용 미니게임 모음집을 제작하여 플랫폼의 기능을 홍보하는 방식을 추천합니다.",
+        "highlights_ko": [
+          "다양한 게임을 하나의 컬렉션으로 통합한 구성입니다.",
+          "특정 플랫폼(Rubbery)을 타겟으로 한 재현 프로젝트입니다."
+        ],
+        "systems_ko": [
+          "게임 선택 및 전환 시스템",
+          "플랫폼 공통 입력 처리기",
+          "게임 상태 관리자",
+          "리소스 로더"
+        ],
+        "difficulty_ko": {
+          "level": "판단 어려움",
+          "reason": "재현하려는 게임의 종류와 수에 따라 난이도가 크게 달라집니다. 제공된 정보가 너무 적어 구체적인 구현 범위를 파악하기 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "게임 선택 메뉴",
+            "최소 1개의 게임 재현"
+          ],
+          "defer": [
+            "다양한 게임 추가",
+            "플랫폼 전용 고급 기능"
+          ],
+          "risks": [
+            "플랫폼 호환성 문제",
+            "원작 게임의 저작권 및 라이선스 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "플랫폼 테마 미니게임 팩",
+            "concept": "특정 플랫폼의 기능을 활용한 3가지 미니게임을 제작합니다. 각 게임은 플랫폼의 고유한 입력 방식을 사용합니다.",
+            "first_step": "플랫폼 환경에서 작동하는 기본 게임 루프를 구현합니다."
+          },
+          {
+            "title": "고전 게임 리메이크 컬렉션",
+            "concept": "저작권이 만료된 고전 게임들을 현대적인 플랫폼에 맞춰 재구성합니다. 시각적 스타일을 통일하여 일관성을 부여합니다.",
+            "first_step": "가장 단순한 고전 게임 하나를 선정하여 로직을 이식합니다."
+          }
+        ],
+        "recommendation_ko": "다양한 게임의 로직을 하나의 환경에 통합하는 구조를 배우기에 적합합니다. 다만, 원작 게임의 재현 시 저작권 문제를 반드시 확인해야 합니다.",
+        "source_limitations_ko": "Rubbery 플랫폼의 구체적인 기술 사양과 재현된 게임의 목록 및 장르 정보가 전혀 확인되지 않습니다.",
+        "name": "Game & RUBBERY Collection Demo [Free] [Windows]",
+        "source": "itch",
+        "detail_url": "https://vbscriptiino.itch.io/game-and-rubbery-demo",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 344,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 12,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-25"
+    },
+    "itch:a6ea002b66683c9bae72": {
+      "app_key": "itch:a6ea002b66683c9bae72",
+      "name": "Planet Impostor: Mission Home [Free] [Educational]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://vwenger.itch.io/planet-impostor",
+      "data_date": "2026-11-25",
+      "analysed_at": "2026-11-25T09:05:10+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Shift gears, identify real planetary terrain, manage your fuel and find your way home.",
+      "analysis": {
+        "app_key": "itch:a6ea002b66683c9bae72",
+        "summary_ko": "행성 탐사를 테마로 한 교육용 게임입니다. 플레이어는 기어를 조작하고 행성의 지형을 식별하며 연료를 관리하여 집으로 돌아가는 경로를 찾아야 합니다. 우주 탐험과 자원 관리 요소를 결합한 경험을 제공합니다.",
+        "features_ko": [
+          "기어 변속을 통해 탐사선의 이동 상태를 제어합니다.",
+          "행성 지형을 관찰하고 실제 지형인지 식별합니다.",
+          "연료를 효율적으로 관리하여 귀환 경로를 확보합니다."
+        ],
+        "noteworthy_ko": "제한된 자원 관리와 환경 식별이라는 두 가지 핵심 메커니즘이 결합되어 있습니다. 교육용 목적에 맞게 탐사 과정의 논리적 판단을 강조한 점이 흥미롭습니다.",
+        "development_ko": "지형 데이터 생성과 물리 기반의 기어 조작 시스템 구현이 핵심입니다. 자원 관리 로직과 상태 머신을 통한 게임 흐름 제어가 필요하며, 교육적 목표에 따른 난이도 밸런싱이 중요합니다.",
+        "idea_ko": "행성 지형을 스캔하여 자원을 채굴하고 기지를 건설하는 생존 시뮬레이션으로 확장하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "행성 탐사라는 테마를 살린 자원 관리 시스템.",
+          "지형 식별을 통한 탐색의 재미."
+        ],
+        "systems_ko": [
+          "자원 관리 시스템",
+          "지형 탐색 및 식별 로직",
+          "차량 물리 및 기어 제어",
+          "게임 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진과 자원 관리 로직을 동시에 구현해야 하며, 지형 식별 시스템의 데이터 구조 설계가 필요하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "연료 소모 로직",
+            "지형 식별 인터페이스",
+            "기어 변속 제어"
+          ],
+          "defer": [
+            "복잡한 행성 지형 렌더링",
+            "멀티플레이어 기능"
+          ],
+          "risks": [
+            "자원 관리와 조작의 밸런스 붕괴",
+            "지형 식별의 단조로움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "행성 지질학자",
+            "concept": "다양한 행성을 탐사하며 지질 샘플을 수집하고 도감을 완성하는 게임입니다. 지형마다 다른 물리적 특성을 적용하여 탐사 난이도를 조절합니다.",
+            "first_step": "지형별 이동 속도와 연료 소모량을 다르게 설정하는 프로토타입 제작."
+          },
+          {
+            "title": "연료의 한계",
+            "concept": "연료가 극도로 부족한 상황에서 최적의 경로를 찾아야 하는 퍼즐 게임입니다. 지형의 고저차를 이용한 관성 주행이 핵심입니다.",
+            "first_step": "관성 주행 물리 엔진과 연료 소모 시각화 구현."
+          }
+        ],
+        "recommendation_ko": "자원 관리와 물리 기반 조작의 결합을 학습하기 좋습니다. 간단한 메커니즘으로도 긴장감 있는 게임 플레이를 만드는 법을 배우기에 적합합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 게임 엔진, 그래픽 스타일, 승리 조건의 상세 로직은 확인되지 않습니다.",
+        "name": "Planet Impostor: Mission Home [Free] [Educational]",
+        "source": "itch",
+        "detail_url": "https://vwenger.itch.io/planet-impostor",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 278,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 34,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-25"
+    },
+    "apple:6822730153": {
+      "app_key": "apple:6822730153",
+      "name": "GeoShare : GPS Tracker",
+      "developer": "sojitra milan",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/geoshare-gps-tracker/id6822730153",
+      "data_date": "2026-11-25",
+      "analysed_at": "2026-11-25T09:07:57+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "GeoShare keeps the people who matter close, on one live map. SEE YOUR CIRCLE IN REAL TIME • See where family and friends are, whether they're moving, their battery level and when they last updated • Tap anyone for distance, speed and one-tap directions • Switch between Standard, Satellite and Hybrid maps ADD PEOPLE IN SECONDS • Share your invite code or app link, or let a friend scan your QR code • Scan a friend's QR code with the built-in scanner • See who someone is before you send a request. Nobody joins your circle until they accept ORGANISE YOUR CIRCLE • Tag people as Family, Friend, Colleague, Partner, Classmate or Neighbour • Filter your circle by tag in one tap SHARE YOUR LOCATION ON YOUR TERMS • Turn location sharing on or off any time with one switch • Only people you accept can see you • Send your current location to anyone through Messages, WhatsApp or email ZONE ALERTS • Create zones like Home, School or Work with your own radius • Mark a zone as Safe or Danger • Get an alert when you arrive or leave SOS • One tap shares your live location with your whole circle NEARBY PLACES • Restaurants, cafés, fuel, ATMs, hospitals, pharmacies and more around you • Open any place in Maps for directions HISTORY • Your daily route, distance travelled and the places you stayed, stored only on your phone MADE FOR EVERY DAY • Light and Dark mode • No sign-up, no email, no password PRIVACY Your location is shared only with people you approve and is never sold. There are no ads and no tracking. Location is shared in the background only while sharing is switched on, and iOS always shows the location indicator. GeoShare is not an emergency service. In an emergency, call your local emergency number. Privacy Policy: https://sites.google.com/view/gpstrackerprivacy/home Terms of Use: https://sites.google.com/view/gpstrackerterms/home",
+      "analysis": {
+        "app_key": "apple:6822730153",
+        "summary_ko": "GeoShare는 가족과 친구들의 실시간 위치를 지도에서 공유하는 GPS 추적 앱입니다. 서클을 구성하여 서로의 이동 경로, 배터리 상태, 안전 구역 알림 등을 확인할 수 있습니다. 개인정보 보호를 위해 승인된 사용자 간에만 위치가 공유되며 광고나 추적 기능이 없습니다.",
+        "features_ko": [
+          "실시간 지도에서 서클 구성원의 위치와 이동 상태를 확인합니다.",
+          "QR 코드나 초대 코드를 통해 간편하게 서클원을 추가합니다.",
+          "가족, 친구 등 태그별로 서클원을 필터링하여 관리합니다.",
+          "특정 구역 진입 및 이탈 시 알림을 받는 구역 설정 기능을 제공합니다.",
+          "SOS 기능을 통해 서클원에게 실시간 위치를 즉시 공유합니다."
+        ],
+        "noteworthy_ko": "위치 공유 앱은 데이터의 실시간성과 정확한 동기화가 핵심입니다. 개발 관점에서는 백그라운드 위치 업데이트와 배터리 효율 최적화, 그리고 사용자 간의 보안 연결을 구현하는 것이 매우 흥미로운 도전입니다.",
+        "development_ko": "GPS 데이터 수집 및 서버 동기화 기술이 핵심입니다. 콘텐츠 제작 부담은 적으나, 위치 데이터의 보안과 개인정보 보호 정책 준수가 매우 중요합니다. 테스트 시 다양한 네트워크 환경에서의 위치 정확도와 배터리 소모량을 검증해야 합니다.",
+        "idea_ko": "특정 장소에 도착했을 때 자동으로 메시지를 남기는 '디지털 방명록' 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "실시간 위치 공유와 안전 구역 알림을 결합한 실용적인 기능을 제공합니다.",
+          "광고 없는 사용자 중심의 개인정보 보호 정책을 강조합니다."
+        ],
+        "systems_ko": [
+          "GPS 위치 데이터 수집 및 전송",
+          "실시간 지도 API 연동",
+          "사용자 인증 및 서클 관리 시스템",
+          "지오펜싱(구역 설정) 로직",
+          "데이터 보안 및 암호화"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 위치 공유는 서버 인프라와 네트워크 안정성이 필수적입니다. 또한 개인정보 보호와 보안은 1인 개발자가 완벽하게 검증하기 매우 까다로운 영역입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 위치 공유 기능",
+            "지도 표시 기능",
+            "서클 초대 및 승인 시스템"
+          ],
+          "defer": [
+            "SOS 알림 시스템",
+            "주변 장소 검색 기능"
+          ],
+          "risks": [
+            "위치 데이터의 보안 취약점",
+            "백그라운드 위치 업데이트의 배터리 소모 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "디지털 방명록",
+            "concept": "특정 구역에 도착했을 때 해당 위치에 디지털 메시지를 남겨 서클원들이 볼 수 있게 합니다. 위치 기반의 소셜 커뮤니케이션을 강화합니다.",
+            "first_step": "특정 좌표에 메시지를 저장하고 불러오는 데이터베이스 구조를 설계합니다."
+          },
+          {
+            "title": "경로 공유 일기",
+            "concept": "하루 동안 이동한 경로를 지도에 기록하고, 특정 지점에 사진이나 메모를 추가하여 일기처럼 저장합니다.",
+            "first_step": "사용자의 이동 경로를 좌표 리스트로 저장하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "위치 기반 서비스의 기초를 배우고 싶은 개발자에게 추천합니다. 다만 보안과 개인정보 보호에 대한 깊은 이해가 선행되어야 합니다.",
+        "source_limitations_ko": "소개문에는 서버 아키텍처나 데이터 저장 방식에 대한 정보가 없습니다. 의료, 금융, 보안 관련 기능은 명시되지 않았으므로 구현 시 주의가 필요합니다.",
+        "name": "GeoShare : GPS Tracker",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/geoshare-gps-tracker/id6822730153",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 97,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-25"
     }
   }
 }

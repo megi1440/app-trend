@@ -15021,6 +15021,365 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-24"
+    },
+    "itch:735f8d71740f403898c8": {
+      "app_key": "itch:735f8d71740f403898c8",
+      "name": "Girlfriend [Free] [Interactive Fiction]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://vitainteractive.itch.io/girlfriend",
+      "data_date": "2026-11-25",
+      "analysed_at": "2026-11-25T09:04:11+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Keep the peace. Erase what you really mean.",
+      "analysis": {
+        "app_key": "itch:735f8d71740f403898c8",
+        "summary_ko": "평화를 유지하기 위해 자신의 진심을 숨겨야 하는 인터랙티브 픽션 게임입니다. 플레이어는 대화 속에서 선택을 통해 상황을 조절합니다. 자신의 의도를 지우고 상황에 맞게 대응하는 것이 게임의 핵심입니다.",
+        "features_ko": [
+          "텍스트 기반의 인터랙티브 픽션 장르입니다.",
+          "대화 선택지를 통해 평화를 유지하는 것이 목표입니다.",
+          "자신의 진심을 숨기거나 지우는 선택 메커니즘이 존재합니다."
+        ],
+        "noteworthy_ko": "플레이어의 선택이 단순히 결과에 영향을 주는 것을 넘어, '진심을 숨긴다'는 심리적 요소를 게임 규칙으로 구현한 점이 독특합니다. 서사 중심의 게임에서 플레이어의 감정을 어떻게 제어할지 고민하는 개발자에게 좋은 사례입니다.",
+        "development_ko": "스토리텔링과 대화 분기 설계가 핵심입니다. 다양한 선택지에 따른 심리적 변화를 텍스트로 잘 표현해야 하며, 테스트를 통해 대화의 흐름이 자연스러운지 확인해야 합니다.",
+        "idea_ko": "거짓말을 해야만 생존할 수 있는 상황을 설정하여, 플레이어의 죄책감과 생존 본능을 자극하는 게임을 추천합니다.",
+        "highlights_ko": [
+          "심리적 요소를 반영한 독특한 대화 시스템.",
+          "평화 유지를 위한 선택의 딜레마 강조."
+        ],
+        "systems_ko": [
+          "대화 분기 관리 시스템",
+          "심리 상태 변수 관리",
+          "텍스트 출력 및 UI",
+          "선택지 결과 처리기"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기술적인 구현보다는 탄탄한 시나리오와 대화 분기 설계가 중요하며, 1인 개발로 충분히 시도 가능한 규모입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 대화 시스템",
+            "선택지 분기 로직",
+            "엔딩 분기"
+          ],
+          "defer": [
+            "복잡한 그래픽 연출",
+            "사운드 효과"
+          ],
+          "risks": [
+            "스토리의 개연성 부족",
+            "플레이어의 몰입도 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "비밀을 지키는 대화",
+            "concept": "상대방에게 비밀을 들키지 않으면서 대화를 이어가는 게임입니다. 선택지에 따라 의심 수치가 변합니다.",
+            "first_step": "의심 수치를 관리하는 간단한 변수와 대화 분기를 만듭니다."
+          },
+          {
+            "title": "가면 쓴 연기자",
+            "concept": "상황에 맞는 가면(성격)을 선택하여 대화하는 게임입니다. 가면마다 대화 스타일이 다릅니다.",
+            "first_step": "두 가지 성격의 대화 선택지를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "서사 중심의 게임 개발을 희망하는 개발자에게 추천합니다. 대화 분기를 통해 플레이어의 감정을 조절하는 기법을 배우기에 좋습니다.",
+        "source_limitations_ko": "게임의 전체 분량, 대화의 깊이, 그리고 '진심을 지운다'는 메커니즘이 구체적으로 어떤 시스템으로 작동하는지는 확인되지 않습니다.",
+        "name": "Girlfriend [Free] [Interactive Fiction]",
+        "source": "itch",
+        "detail_url": "https://vitainteractive.itch.io/girlfriend",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 314,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-25"
+    },
+    "apple:6796185228": {
+      "app_key": "apple:6796185228",
+      "name": "フィットモ｜AI食事管理",
+      "developer": "Yamasawa Hiroaki",
+      "source": "apple",
+      "country": "JP",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%83%A2-ai%E9%A3%9F%E4%BA%8B%E7%AE%A1%E7%90%86/id6796185228?uo=2",
+      "data_date": "2026-11-25",
+      "analysed_at": "2026-11-25T09:05:30+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "山澤礼明の考え方を学習したAIコーチが、 あなたの毎日に付きっきりで答えます。 ■ 写真を送るだけ。カロリーもPFCも自動で記録 食事の写真を撮るだけで、カロリーとタンパク質・脂質・ 炭水化物を推定して記録します。テキストや音声でも入力できるので、 外食でもコンビニでも、続けやすい方法を選べます。 ■ 「何を食べればいい？」に、その場で答えが返る 残りカロリーと、あなたがすでに食べたものを踏まえて、 昼・トレ前・夜の献立を具体的に提案します。 一般論ではなく、今日のあなたの数字に合わせた答えです。 ■ 冷蔵庫にあるもので、献立が決まる 食材を入力すると、残りカロリーに収まるレシピを提案。 節約・時短・作り置き・コンビニなど、状況に合わせて選べます。 ■ 減量も増量も、除脂肪体重ベースで計算 体重・体脂肪率・目標から、1日の目標カロリーとPFCを算出。 週ごとの落とすペースまで含めて、無理のない数字を出します。 基礎代謝を下回る極端な設定は行いません。 ■ 食事・トレーニング・大会準備、何でも相談できる 減量が停滞したとき、サボってしまったとき、 大会まで日数が迫っているとき。 過去のやり取りを踏まえて、次にやることを具体的に返します。 ■ こんな人に ・自己流の減量で停滞している ・カロリー計算が続かなかった ・パーソナルに通う時間や費用が取れない ・ボディメイクの大会を目指している ・増量期の食事の組み立て方が分からない --- ※ 本アプリのコーチはAIによる応答です。山澤礼明本人が 個別に返信するものではありません。 ※ 医学的な診断・治療・薬の処方は行いません。 持病や服薬中の方、体調に不安のある方は医師にご相談ください。 ※ ご利用には会員登録（メールアドレス）が必要です。 ■ 利用規約・プライバシーポリシー 利用規約（EULA）：https://fittomo.app/terms プライバシーポリシー：https://fittomo.app/privacy",
+      "analysis": {
+        "app_key": "apple:6796185228",
+        "summary_ko": "フィットモ는 AI 코치를 통해 식단과 영양을 관리해주는 건강 관리 앱입니다. 사진 촬영만으로 칼로리와 영양 성분을 추정하며, 사용자의 목표에 맞춘 식단 제안을 제공합니다. 개인의 신체 데이터와 목표를 바탕으로 체계적인 식단 관리를 돕습니다.",
+        "features_ko": [
+          "식사 사진을 촬영하면 AI가 칼로리 및 영양 성분(PFC)을 자동으로 추정합니다.",
+          "텍스트나 음성 입력을 통해 외식이나 편의점 음식도 간편하게 기록할 수 있습니다.",
+          "현재 섭취량과 목표치를 바탕으로 다음 식사 메뉴를 구체적으로 제안합니다.",
+          "냉장고 속 재료를 입력하면 목표 칼로리에 맞는 레시피를 추천합니다.",
+          "체중, 체지방률, 목표를 기반으로 일일 권장 칼로리와 영양 성분을 계산합니다."
+        ],
+        "noteworthy_ko": "AI를 활용해 사용자의 번거로운 기록 과정을 최소화한 점이 핵심입니다. 개인의 데이터를 학습하여 맞춤형 피드백을 제공하는 방식은 건강 관리 앱의 트렌드를 잘 반영하고 있습니다.",
+        "development_ko": "핵심 기술은 이미지 인식 기반의 영양 성분 분석 AI 모델과 사용자 데이터 기반의 추천 알고리즘입니다. 데이터 보안과 개인정보 보호가 매우 중요하며, 정확한 영양 데이터베이스 구축이 필수적입니다. 테스트 단계에서 다양한 식단 데이터에 대한 AI 정확도 검증이 큰 부담이 될 것입니다.",
+        "idea_ko": "특정 식단(예: 비건, 저탄고지)에 특화된 AI 코칭 모델을 구축하여 타겟 사용자를 좁히는 것이 효과적입니다.",
+        "highlights_ko": [
+          "사진 한 장으로 간편하게 영양 성분을 기록하는 AI 기술.",
+          "사용자의 현재 상태를 고려한 실시간 맞춤형 식단 제안."
+        ],
+        "systems_ko": [
+          "이미지 인식 및 영양 분석 AI API 연동",
+          "사용자 신체 데이터 관리 및 계산 엔진",
+          "식단 데이터베이스 및 레시피 추천 로직",
+          "사용자 기록 및 통계 시각화 UI",
+          "데이터 보안 및 사용자 인증 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "AI 모델의 정확도 확보와 방대한 영양 데이터베이스 구축은 1인이 감당하기에 매우 높은 기술적 난이도를 가집니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "사용자 신체 데이터 입력 및 목표 설정",
+            "수동 식단 기록 및 칼로리 계산",
+            "기본 영양 통계 대시보드"
+          ],
+          "defer": [
+            "이미지 인식 기반 자동 분석",
+            "AI 실시간 대화형 코칭"
+          ],
+          "risks": [
+            "영양 데이터의 정확성 부족으로 인한 신뢰도 하락",
+            "개인 건강 정보 관리의 보안 리스크"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "간편 식단 기록 일기",
+            "concept": "AI 분석 대신 사용자가 직접 사진과 간단한 메모를 남기는 식단 일기입니다. 기록의 습관화에 초점을 맞춥니다.",
+            "first_step": "사진 업로드와 텍스트 메모를 저장하는 간단한 게시판 형태의 앱 구현."
+          },
+          {
+            "title": "냉장고 재료 소진 챌린지",
+            "concept": "냉장고에 남은 재료를 입력하면 유통기한이 임박한 순서대로 레시피를 추천해주는 앱입니다.",
+            "first_step": "재료 목록 관리와 레시피 검색 기능을 포함한 데이터베이스 앱 구현."
+          }
+        ],
+        "recommendation_ko": "건강 관리 앱의 데이터 구조와 사용자 경험 설계 방식을 배우기에 좋습니다. 다만, AI 기술 구현은 전문적인 지식이 필요하므로 MVP 단계에서는 수동 입력 방식을 권장합니다.",
+        "source_limitations_ko": "소개문에는 AI 모델의 구체적인 학습 데이터 출처나 의료적 책임 소재에 대한 상세한 면책 조항이 명시되어 있지 않습니다.",
+        "name": "フィットモ｜AI食事管理",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E3%83%A2-ai%E9%A3%9F%E4%BA%8B%E7%AE%A1%E7%90%86/id6796185228?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 216,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 8,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-25"
+    },
+    "apple:6743926262": {
+      "app_key": "apple:6743926262",
+      "name": "하이플러스 - 대한민국 대표 하이패스",
+      "developer": "SM HIPLUS Corporation",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_lifestyle",
+      "detail_url": "https://apps.apple.com/kr/app/%ED%95%98%EC%9D%B4%ED%94%8C%EB%9F%AC%EC%8A%A4-%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-%EB%8C%80%ED%91%9C-%ED%95%98%EC%9D%B4%ED%8C%A8%EC%8A%A4/id6743926262?uo=2",
+      "data_date": "2026-11-25",
+      "analysed_at": "2026-11-25T09:06:10+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "하이플러스가 만든 대한민국의 최초 하이패스 카드 관련 전문 앱! 이제 하이패스도 스마트하게! 하이플러스가 만든 스마트 하이패스카드로 연회비 없이 빠르고 간편하게 신청·등록하세요. 고속도로 통행료는 물론 실생활 운전자를 위한 정기구독, 편의점·주유소·주차 결제까지 하이머니 하나로 연결된 결제 경험을 제공합니다. ● 간편한 하이패스 카드 등록 - 쿠팡, 편의점, 네이버커머스 등에서 구매한 하이패스 자동충전카드를 카드번호 입력 없이 NFC 태그로 등록 할 수 있어요. - 제휴사 발급 하이패스카드도 수령 후 바로 등록 가능해요 (예: 카카오뱅크 내 카드 신청 시) ● 충전은 이제 앱에서 한 번에 - 고속도로 영업소·휴게소 무인충전기, 편의점 줄서기 없이 선불 하이패스카드도 NFC 기능활용하여 원터치 충전 가능! ● 하이머니로 내 차도, 내 일상도 더 편하게 - 스마트 하이패스카드 연동 고속도로 통행료 결제 가능해요. - 실생활 운전자가 선택한 애니웨이케어 정기구독 상품을 가성비 있는 가격으로 이용할 수 있어요. - L.POINT 연동 바코드 결제 시, L.POINT 0.3% 적립 가능! 사용처: 롯데백화점·마트·면세점·롯데리아·세븐일레븐 등 - 향후 다양한 결제 추가 지원 가능해요 - 베이직 하이패스카드 이용 대상, 하이머니 충전하여 NFC로 충전 가능해요 - 하이패스 주차장에서는 바로 통과 후 결제 가능해요. ● 플러스포인트로 통행료를 알뜰하게 - 오늘의 미션, 광고 시청, 하이플러스 Lucky, 게임 등으로 포인트 적립할 수 있어요. - 1,000포인트 이상 시 하이머니로 전환하여 통행료 할인 및 다른 결제에서 더 할인 받을 수 있어요. ● 자동충전카드로 더 편리하게 - 단말기에서 하이패스카드를 꺼낼 필요 없이 사용 중인 선불카드를 자동충전카드로 전환 할 수 있어요. ● 하이패스 이용내역·영수증 관리 - 언제든지 고속도로 하이패스 통행료 이력, 이용내역 조회를 한 눈에 가능해요. ● 선불 하이패스카드 환불도 간편하게 - 재사용을 위해서 영업소에 방문할 필요없어요. APP에서 환불 신청 시 NFC 스캔을 통해 재사용 가능한 환불이 가능해요 - 엘포인트로 환불 시 환불 수수료 면제 ● 내 차를 위한 드라이빙 라이프 지원! - 향후 주유/주차/세차/전기차 충전 등 다양한 모빌리티 가맹점에서 결제가 가능해요. - 자동차번호를 등록하시면 향후 고속도로 스마트톨링, 자동 주차비 결제까지 가능해져요. - 진정한 인카페이먼트(In-Car Payment)를 스마트 하이패스 카드와 함께 누려보세요. ● All About Hipass Card in English - Top-up your prepaid Hipass card via One-Touch Top-up service - Register your prepaid Hipass card - Easy to transfer to auto top-up Hipass card(Basic Hipass Card, only Korean bank account holders) - Expect more English-supported features soon [기타 이용 안내] - iOS 14 버전 이상에서 이용할 수 있습니다. - 안전한 서비스 이용을 위해 임의로 구조 변경된 스마트폰에서는 앱을 이용할 수 없습니다. - 본인인증 사용 안내 하이플러스 앱은 본인인증을 완료한 회원만 이용 가능합니다. - 무기명 선불 하이패스카드를 보유한 회원은 본인인증 가입 후 보유하고 계신 카드를 등록하고 사용이 가능합니다. (홈>내카드>카드등록) - 고객센터 : 1644 - 6500 (평일 09:00 - 18:00) ● 하이플러스는 꼭 필요한 권한만 요청해요 선택 접근 권한은 허용하지 않아도 앱을 사용할 수 있지만 일부 기능이 제한될 수 있어요. 선택 접근이 필요한 경우는 아래 내용을 참고해주세요. [선택 접근 권한] - 알림 : 서비스 이용 시 필수 알림 수신 예) 하이패스 카드 충전, 하이머니 결제 등 정보성 알림 - 생체 인증 : 비밀번호 대체 인증 - 위치 : 현재 위치 확인과 표시 - 추적 : 혜택 내, 리워드 적립 서비스 이용",
+      "analysis": {
+        "app_key": "apple:6743926262",
+        "summary_ko": "대한민국 하이패스 카드 관리 및 결제를 위한 통합 서비스 앱입니다. NFC 기능을 활용하여 하이패스 카드 등록, 충전, 이용 내역 조회를 간편하게 수행할 수 있습니다. 향후 주유, 주차 등 모빌리티 결제 서비스로 확장될 예정입니다.",
+        "features_ko": [
+          "NFC 태그를 통해 하이패스 카드를 즉시 등록하고 충전할 수 있습니다.",
+          "고속도로 통행료 이용 내역 및 영수증을 실시간으로 조회할 수 있습니다.",
+          "포인트 적립 및 하이머니 전환을 통해 통행료 할인 혜택을 제공합니다.",
+          "자동충전카드 전환 기능을 통해 카드 잔액 부족 문제를 해결합니다."
+        ],
+        "noteworthy_ko": "NFC 기술을 활용하여 오프라인 카드와 모바일 앱을 연결하는 실용적인 사례입니다. 운전자의 일상적인 결제 경험을 통합하여 편의성을 극대화한 점이 주목할 만합니다.",
+        "development_ko": "금융 및 결제 데이터 처리를 위한 높은 수준의 보안 기술이 필수적입니다. NFC 통신 규격 준수 및 카드사 API 연동이 핵심이며, 사용자 인증 및 데이터 보호를 위한 엄격한 테스트가 필요합니다.",
+        "idea_ko": "주행 거리와 통행료 데이터를 분석하여 최적의 경로와 예상 비용을 알려주는 운전 리포트 기능을 추천합니다.",
+        "highlights_ko": [
+          "NFC를 활용한 원터치 충전으로 오프라인 영업소 방문의 번거로움을 제거했습니다.",
+          "통행료 결제부터 포인트 관리까지 운전자를 위한 통합 결제 경험을 제공합니다."
+        ],
+        "systems_ko": [
+          "NFC 카드 통신 및 데이터 처리 시스템",
+          "금융 API 연동 및 보안 결제 시스템",
+          "사용자 본인 인증 및 데이터 관리 시스템",
+          "이용 내역 조회 및 영수증 생성 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "금융 및 결제 관련 앱은 보안 요구사항이 매우 높으며, 카드사 및 공공기관 API 연동 과정에서 복잡한 인증 절차와 법적 규제를 준수해야 합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "NFC 카드 정보 읽기 기능",
+            "사용자 본인 인증 시스템",
+            "이용 내역 조회 UI"
+          ],
+          "defer": [
+            "주유/주차 등 외부 모빌리티 결제 연동",
+            "포인트 게임 및 광고 시청 기능"
+          ],
+          "risks": [
+            "보안 취약점으로 인한 개인정보 유출 위험",
+            "카드사 API 연동 실패 및 규제 준수 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "주행 비용 가계부",
+            "concept": "통행료와 주유비를 자동으로 기록하여 월간 운전 비용을 시각화하는 서비스입니다. 예산 설정 기능을 통해 과도한 지출을 방지합니다.",
+            "first_step": "통행료 데이터 수동 입력 및 월간 합계 계산 UI 구현."
+          },
+          {
+            "title": "하이패스 알림 서비스",
+            "concept": "카드 잔액이 일정 금액 이하로 떨어지면 알림을 보내고, 즉시 충전 페이지로 연결하는 서비스입니다.",
+            "first_step": "카드 잔액 조회 및 푸시 알림 연동 테스트."
+          }
+        ],
+        "recommendation_ko": "금융 앱 개발 시 필요한 보안 아키텍처와 API 연동 경험을 쌓기에 좋습니다. 다만, 개인 개발자가 단독으로 금융 서비스를 운영하는 것은 법적/기술적 리스크가 매우 크므로 주의가 필요합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 보안 프로토콜이나 카드사 연동 방식이 명시되어 있지 않습니다. 실제 서비스 구현을 위해서는 관련 금융 규제 및 API 가이드라인 확인이 필수입니다.",
+        "name": "하이플러스 - 대한민국 대표 하이패스",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%ED%95%98%EC%9D%B4%ED%94%8C%EB%9F%AC%EC%8A%A4-%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD-%EB%8C%80%ED%91%9C-%ED%95%98%EC%9D%B4%ED%8C%A8%EC%8A%A4/id6743926262?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-25"
+    },
+    "google:com.lemon.lvoverseas": {
+      "app_key": "google:com.lemon.lvoverseas",
+      "name": "CapCut：動画＆写真エディター",
+      "developer": "Bytedance Pte. Ltd.",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.lemon.lvoverseas&hl=ja&gl=JP",
+      "data_date": "2026-11-25",
+      "analysed_at": "2026-11-25T09:08:16+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "CapCut offers easy-to-use video editing functions, in-APP fonts and effects, advanced features such as keyframe animation, smooth slow-motion, chroma key, and stabilization, to help you capture and snip moments. Create fancy videos with other unique features: auto captions, text-to-speech, motion tracking, and background removal. Show your personality and go viral on TikTok, YouTube, Instagram, WhatsApp, and Facebook! FEATURES Basic video editing • Trim and shorten clips and split or merge videos. • Adjust video speed from 0.1x to 100x, and apply speed curves to clips. • Animate video clips with incredible zoom in/out effects. • Highlight the best moments with the freeze feature. • Explore transition options with awesome effects on and between clips. Advanced video editor • Keyframe video animation is available for all settings. • Edit videos to create smooth slow-motion with the optical flow feature and speed curve tool. • Use the chroma key to remove specific colors from videos. • Easy to arrange and preview clips on multi-track timeline. • The stabilizing feature keeps video footage steady. Intelligent features • Auto captions: automate speech recognition and subtitles in videos. • Text-to-speech: apply text-to-speech in multiple languages and voices. • Background removal: automatically remove backgrounds. Text & Stickers • Add text to videos with different fonts and styles, choose unique text templates. Fonts can be imported locally. • Subtitles can be added to the timeline of video tracks and can be moved and adjusted in one step. Trending Effects & Filters • Match video content with diverse filters that are updated weekly with the latest trends. • Edit videos with hundreds of trending effects, including Glitch, Blur, 3D, etc. • Add movie-style video filters or adjust video brightness, contrast, etc. Music & Sound Effects • Add millions of music clips and sound effects to videos. • Extract audio, clips, and recordings from videos. Easy to Share • Custom video export resolution, HD video editor supports 4K 60fps exports and smart HDR. • Adjust the format and share with your friends on social media platforms. CapCut is an all-in-one video editor and video maker application with everything you need to create stunning, high-quality videos. Beginners can get started with CapCut in a matter of seconds, while advanced users can enjoy all the functions they need to edit videos. Terms of Service — https://www.capcut.com/clause/terms-of-service Privacy Policy — https://www.capcut.net/clause/privacy Contact Us Any questions about CapCut? Please contact us at capcut.support@bytedance.com. Facebook: CapCut Instagram: CapCut YouTube: CapCut TikTok: CapCut on TikTok",
+      "analysis": {
+        "app_key": "google:com.lemon.lvoverseas",
+        "summary_ko": "CapCut은 영상 편집을 위한 올인원 도구로, 초보자부터 숙련자까지 누구나 쉽게 고품질 영상을 제작할 수 있도록 돕습니다. 영상 자르기, 병합, 속도 조절 등 기본적인 편집 기능은 물론 키프레임 애니메이션, 크로마키, 배경 제거와 같은 고급 기능을 제공합니다. 사용자는 다양한 필터와 효과, 음악을 활용해 개성 있는 영상을 만들어 소셜 미디어에 공유할 수 있습니다.",
+        "features_ko": [
+          "영상 클립을 자르거나 병합하고 속도를 0.1배에서 100배까지 조절할 수 있습니다.",
+          "키프레임 애니메이션을 통해 영상의 움직임을 정밀하게 제어할 수 있습니다.",
+          "크로마키 기능을 사용하여 영상의 특정 색상을 제거하고 배경을 합성할 수 있습니다.",
+          "자동 자막 생성 및 텍스트 음성 변환 기능을 통해 영상의 접근성을 높입니다.",
+          "다중 트랙 타임라인을 제공하여 여러 클립을 효율적으로 배치하고 편집할 수 있습니다."
+        ],
+        "noteworthy_ko": "이 앱은 모바일 환경에서 데스크톱 수준의 복잡한 편집 기능을 직관적인 UI로 구현한 점이 흥미롭습니다. 특히 AI 기반의 자동 자막 및 배경 제거 기능은 개인 개발자가 구현하기에 매우 높은 기술적 난이도를 가질 것으로 추정됩니다.",
+        "development_ko": "핵심 기술로는 영상 렌더링 엔진, 실시간 필터 처리, AI 기반 음성 인식 및 이미지 분할 기술이 필요합니다. 콘텐츠 제작 측면에서는 수많은 필터, 효과, 폰트 라이브러리를 지속적으로 업데이트해야 하는 부담이 큽니다. 또한 다양한 기기에서의 성능 최적화와 4K 60fps 내보내기를 위한 렌더링 안정성 확보가 필수적입니다.",
+        "idea_ko": "특정 테마(예: 요리, 여행)에 특화된 템플릿과 자동 편집 기능을 제공하는 마이크로 영상 편집기.",
+        "highlights_ko": [
+          "다양한 트렌디한 효과와 필터를 매주 업데이트하여 사용자에게 최신 편집 경험을 제공합니다.",
+          "4K 60fps 고해상도 내보내기를 지원하여 전문적인 영상 품질을 보장합니다."
+        ],
+        "systems_ko": [
+          "영상 타임라인 관리 시스템",
+          "실시간 영상 렌더링 엔진",
+          "미디어 파일 입출력 및 코덱 관리",
+          "필터 및 효과 적용 레이어 시스템",
+          "사용자 설정 및 프로젝트 데이터 저장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "영상 편집 앱은 고도의 그래픽 처리 성능과 복잡한 타임라인 로직을 요구합니다. 특히 AI 기반 기능과 고해상도 렌더링을 1인이 구현하는 것은 기술적, 시간적으로 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "영상 자르기 및 병합",
+            "기본 필터 적용",
+            "영상 내보내기"
+          ],
+          "defer": [
+            "AI 자동 자막",
+            "배경 제거",
+            "키프레임 애니메이션"
+          ],
+          "risks": [
+            "기기별 호환성 문제",
+            "메모리 부족으로 인한 앱 강제 종료",
+            "렌더링 속도 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "요리 과정 자동 편집기",
+            "concept": "요리 영상을 촬영하면 재료 손질과 조리 과정을 자동으로 감지하여 하이라이트만 추출합니다. 요리 단계별로 텍스트 자막을 자동으로 삽입합니다.",
+            "first_step": "특정 색상이나 움직임 변화를 감지하여 영상 클립을 분할하는 알고리즘 구현."
+          },
+          {
+            "title": "여행 브이로그 템플릿 앱",
+            "concept": "여행지에서 찍은 짧은 영상들을 미리 설정된 음악 비트에 맞춰 자동으로 연결합니다. 위치 정보를 기반으로 장소 이름을 자막으로 자동 생성합니다.",
+            "first_step": "음악의 비트(BPM)를 분석하여 영상 전환 시점을 결정하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "영상 처리의 기초적인 알고리즘과 UI/UX 설계를 배우기에 좋습니다. 다만, 앱 전체를 복제하기보다는 특정 기능 하나를 구현하는 것을 목표로 삼는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 AI 모델의 구체적인 구현 방식이나 서버 인프라에 대한 정보가 없습니다. 결제 시스템이나 외부 클라우드 연동 여부도 명시되지 않았습니다.",
+        "name": "CapCut：動画＆写真エディター",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.lemon.lvoverseas&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "JP",
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-25"
     }
   }
 }
