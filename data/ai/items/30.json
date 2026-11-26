@@ -13398,6 +13398,273 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-24"
+    },
+    "itch:bab33238a947907bae6d": {
+      "app_key": "itch:bab33238a947907bae6d",
+      "name": "Hold the Bucket [Free] [Platformer]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://guja-vladislav.itch.io/hold-the-bucket",
+      "data_date": "2026-11-26",
+      "analysed_at": "2026-11-26T08:47:46+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Deliver a bucket of water on your head through a chaotic neighborhood. The bucket has other plans.",
+      "analysis": {
+        "app_key": "itch:bab33238a947907bae6d",
+        "summary_ko": "머리에 물 양동이를 이고 혼란스러운 동네를 통과하여 배달하는 플랫폼 게임입니다. 양동이가 플레이어의 의도와 다르게 움직이는 것이 게임의 핵심입니다.",
+        "features_ko": [
+          "머리에 얹은 양동이의 물리적 움직임을 제어하며 이동해야 합니다.",
+          "장애물이 가득한 동네 환경을 통과하는 플랫폼 액션이 포함됩니다."
+        ],
+        "noteworthy_ko": "물리 기반의 조작을 통해 의도치 않은 상황을 연출하는 방식이 흥미롭습니다. 단순한 배달 목표를 물리적 제약으로 어렵게 만드는 게임 디자인이 돋보입니다.",
+        "development_ko": "물리 엔진을 활용한 캐릭터와 물체 간의 상호작용 구현이 핵심입니다. 물리적 불안정성을 조절하여 난이도를 맞추는 테스트가 중요하며, 레벨 디자인은 물리적 제약을 고려하여 제작해야 합니다.",
+        "idea_ko": "물리 기반의 조작 난이도를 활용한 코믹한 배달 게임을 만드는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "양동이의 움직임이 플레이어의 의도와 다르게 작동하는 물리적 변수.",
+          "혼란스러운 동네라는 배경을 활용한 장애물 구성."
+        ],
+        "systems_ko": [
+          "물리 엔진 기반 캐릭터 제어",
+          "오브젝트 상호작용 시스템",
+          "레벨 디자인 및 장애물 배치",
+          "게임 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진을 활용한 조작 구현은 비교적 간단하지만, 재미있는 물리적 변수를 만드는 데는 세밀한 튜닝이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 양동이 물리 효과",
+            "기본 장애물 구현"
+          ],
+          "defer": [
+            "복잡한 스토리라인",
+            "다양한 캐릭터 커스터마이징"
+          ],
+          "risks": [
+            "물리 엔진의 예측 불가능한 버그",
+            "조작감의 불편함으로 인한 사용자 이탈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "아슬아슬 배달부",
+            "concept": "물리적으로 흔들리는 물건을 들고 목적지까지 가는 게임입니다. 흔들림을 상쇄하는 조작을 통해 긴장감을 유발합니다.",
+            "first_step": "물리 오브젝트를 머리 위에 고정하고 이동하는 기본 시스템을 구현합니다."
+          },
+          {
+            "title": "중력 반전 배달",
+            "concept": "중력이 수시로 변하는 환경에서 물건을 배달합니다. 중력 변화에 맞춰 물건의 위치를 조정해야 합니다.",
+            "first_step": "중력 방향을 변경하는 간단한 스크립트를 작성합니다."
+          }
+        ],
+        "recommendation_ko": "물리 엔진을 활용한 게임 메커니즘을 연습하고 싶은 개발자에게 추천합니다. 조작감과 물리적 재미 사이의 균형을 배우기에 좋은 프로젝트입니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 게임의 구체적인 조작 방식, 레벨 구성, 물리 엔진의 종류 등을 확인할 수 없습니다.",
+        "name": "Hold the Bucket [Free] [Platformer]",
+        "source": "itch",
+        "detail_url": "https://guja-vladislav.itch.io/hold-the-bucket",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 332,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 16,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-26"
+    },
+    "apple:6754967275": {
+      "app_key": "apple:6754967275",
+      "name": "フィールドデイ",
+      "developer": "BIT ODD",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_action",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E3%83%89%E3%83%87%E3%82%A4/id6754967275?uo=2",
+      "data_date": "2026-11-26",
+      "analysed_at": "2026-11-26T08:50:04+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "モンスター級の大問題。 世界は崩壊寸前。軍の姿も見当たらない。ヴォルテックス社は、この惨状を片づけるフリーランサーを募集中。『フィールドデイ』へようこそ。 非常時こそ、稼ぎどき。 ■ ド派手に登場 モンスターと混乱に満ちた、崩壊寸前の街へ降下。爆発する車も、投げ物も、建物も、罠も。街にあるものすべてを武器に、豪快に暴れ回ろう。街全体を破壊の遊び場に変えて、ライバルの裏をかけ。 ■ 個性派ぞろい！フィールドデイのクルー 日常から飛び出したヒーローたち。君のプレイスタイルに合う一人を選ぼう。 • 一騎当千のマグ • 便利屋のジョー • 精密機械のO.B.O • プログラマーのヒロ • 警察官のレックス • 清掃員のテディ • エアロビ・インストラクターのキム • 謎の元軍人レイヴン ここで紹介したのは、クルーのほんの一部。ゲームで、さらに多彩なオペレーターたちに出会おう。新メンバーも続々加入！ ■ 狩るか、狩られるか モンスターも手強いが、報酬を狙うライバルはもっと厄介だ。稼ぎたいのは、みんな同じ。 先の読めない4人フリーフォーオールに参戦！誰を信じるかは君次第。生き残れるのは、最も強い者だけだ。 ■ リスクも大きい。報酬もデカい。 装備を手に街へ降下。災難を、次の稼ぎに変えよう。 • 実力勝負：課金や放置だけでは勝てない。息つく暇もない戦いで、ものをいうのは君の腕と戦略だ。 • 奥深いカスタマイズ：コアを集めて重複アイテムや設計図に変換。装備を強化し、さらなる戦闘力を手に入れよう。 • 自分だけのクルー育成：クルーをレベルアップさせ、分岐するスキルツリーを解放。独自のビルドを磨き、勝負どころで相手を圧倒しよう。 • 報酬満載のシーズンロード：シーズンロードを進めて、限定ヒーローやハイテクなアップグレードを獲得。限定コスメティックもお見逃しなく。 ■ 生きて帰るまでが仕事です 制限時間内に脱出ヘリへたどり着こう。ただし、その前にもう一仕事。メガボス討伐！ 最後まで戦い、戦利品を確保して脱出。一度のミスですべてを失うこともある。 ■ ひとつの世界。可能性は無限大。フィールドデイ。 これまでの常識は忘れよう。降り立つたびに、新たなチャンスが生まれる。 探索する新たなマップ。狩るべき新たなモンスター。そして、行く先々で待ち受ける新たな脅威。広がり続けるこの世界で、限界を決めるのは君自身だ。 現場に出る準備はいいか？ 今すぐ『フィールドデイ』をダウンロード。生きて帰れる腕前を見せてくれ。 • 最新情報＆プレイヤーコミュニティ：https://discord.gg/DVvA8kSJY2",
+      "analysis": {
+        "app_key": "apple:6754967275",
+        "summary_ko": "필드데이는 몬스터가 가득한 붕괴 직전의 도시에서 벌어지는 4인 프리포올 액션 게임입니다. 사용자는 다양한 능력을 가진 크루를 선택하여 맵의 모든 것을 무기로 활용하며 전투합니다. 제한 시간 내에 메가 보스를 처치하고 탈출하는 것이 목표입니다.",
+        "features_ko": [
+          "도시의 모든 오브젝트를 무기로 활용하는 파괴적인 액션 전투를 제공합니다.",
+          "각기 다른 스킬을 가진 다양한 캐릭터(크루)를 선택할 수 있습니다.",
+          "4인 프리포올 방식의 경쟁적인 멀티플레이어 환경을 지원합니다.",
+          "전투를 통해 획득한 코어로 장비를 강화하고 스킬 트리를 성장시킵니다.",
+          "제한 시간 내에 보스를 처치하고 탈출해야 하는 긴박한 미션을 수행합니다."
+        ],
+        "noteworthy_ko": "환경 오브젝트를 무기로 사용하는 상호작용 시스템이 매우 흥미롭습니다. 개발 관점에서는 물리 기반의 파괴 효과와 멀티플레이어 동기화가 가장 큰 기술적 도전 과제가 될 것으로 추정됩니다.",
+        "development_ko": "실시간 액션 전투를 위한 물리 엔진과 네트워크 동기화 기술이 핵심입니다. 다양한 캐릭터의 스킬 구현과 맵 오브젝트의 파괴 상호작용 제작 부담이 큽니다. 4인 멀티플레이어 환경에서의 지연 시간(Latency) 최적화가 필수적입니다.",
+        "idea_ko": "특정 오브젝트를 던져서 지형을 변화시키는 '지형 파괴 액션' 아이디어가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "주변 환경을 무기로 활용하는 높은 자유도의 액션.",
+          "성장 요소와 탈출 미션이 결합된 긴장감 넘치는 게임 플레이."
+        ],
+        "systems_ko": [
+          "실시간 물리 기반 액션 시스템",
+          "네트워크 멀티플레이어 동기화",
+          "캐릭터 스킬 및 성장 시스템",
+          "오브젝트 파괴 및 상호작용 시스템",
+          "매치메이킹 및 세션 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "실시간 멀티플레이어 액션 게임은 네트워크 동기화와 물리 연산의 복잡성 때문에 1인 개발로 구현하기에 매우 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 캐릭터 이동 및 공격 로직",
+            "오브젝트 상호작용(들기/던지기)",
+            "기본적인 맵 환경"
+          ],
+          "defer": [
+            "실시간 4인 멀티플레이어",
+            "복잡한 스킬 트리 시스템",
+            "시즌 로드 및 코스메틱 아이템"
+          ],
+          "risks": [
+            "네트워크 동기화 문제로 인한 플레이 경험 저하",
+            "물리 연산 부하로 인한 성능 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "오브젝트 투척 액션",
+            "concept": "주변의 모든 물건을 던져 적을 물리치는 싱글 플레이 액션 게임입니다. 물건의 무게와 재질에 따라 투척 궤적이 달라집니다.",
+            "first_step": "오브젝트를 집고 던지는 물리 상호작용을 구현합니다."
+          },
+          {
+            "title": "탈출형 미로 액션",
+            "concept": "몬스터를 피해 미로 같은 도시를 탈출하는 게임입니다. 지형을 파괴하여 새로운 길을 만들 수 있습니다.",
+            "first_step": "지형 파괴 및 길 찾기 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "물리 기반 액션 게임의 기초를 배우고 싶다면 추천하지만, 멀티플레이어 구현은 매우 높은 난이도이므로 싱글 플레이로 시작하는 것을 권장합니다.",
+        "source_limitations_ko": "소개문에는 네트워크 통신 방식이나 물리 엔진의 구체적인 구현 방식이 명시되어 있지 않습니다. 결제 및 외부 연동 기능은 확인되지 않았습니다.",
+        "name": "フィールドデイ",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E3%83%89%E3%83%87%E3%82%A4/id6754967275?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-26"
+    },
+    "apple:1486214495": {
+      "app_key": "apple:1486214495",
+      "name": "Brain Test: Tricky Puzzles",
+      "developer": "UNICO STUDIO",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/us/app/brain-test-tricky-puzzles/id1486214495?uo=2",
+      "data_date": "2026-11-26",
+      "analysed_at": "2026-11-26T08:51:27+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Brain Test: Tricky Puzzles is a collection of clever and surprising puzzles built to entertain through misdirection and playful logic. Each level presents an unexpected challenge, rewarding those who enjoy thinking outside the box. The game doesn’t follow typical puzzle formats. Instead, it encourages experimentation and creativity in a casual, accessible way. Whether you're passing time or sharing the fun with others, each puzzle is designed to entertain with humor and originality. Features: • Unconventional puzzle design with surprising twists • Simple mechanics, engaging content • Suitable for solo play or sharing with friends • A relaxed experience, free from pressure or competition • Clean, light-hearted mechanics and graphics. Brain Test: Tricky Puzzles is made purely for enjoyment. No timers, no stress—just playful challenges to explore at your own pace. Subscription Terms: VIP PACKAGE: Access offers a weekly subscription, you will have a 3-days FREE trial period, after this period you will be charged. After buying this subscription, you will unlock following features: instant 100 lamps, no ads, double daily gift, 50% cheaper skips and 40% cheaper hints. This is an Auto-renewable subscription. The payment is charged to your account after confirmation. The subscription is renewed unless you turn it off 24 hours before the period ends. Your account will be charged for renewal as well. End of trial and subscription renewal: • The payment is charged to your account after a confirmation of purchase. • The subscription is renewed unless you turn it off 24 hour before the end of the current period. • The account will be charged for renewal within 24 hours before the end of the current period at the cost of the weekly subscription. • The user may manage the subscription and auto-renewal have to be turned off by going to the user’s account settings after purchase in the Store. • No cancellation of the current subscription is allowed during the active subscription period. Canceling a trial or a subscription: • If you want to cancel a subscription during its free trial, you have to cancel it through your account in the Store. This must be done at least 24 hours before the end of the free trial period to avoid being charged. For more information, please visit https://support.apple.com/HT207865 for more information If there is questions contact us unico@unicogames.co Privacy Policy and Terms of Use Privacy Policy: https://unicostudio.co/privacy.html Terms of Use: https://unicostudio.co/terms.html",
+      "analysis": {
+        "app_key": "apple:1486214495",
+        "summary_ko": "Brain Test: Tricky Puzzles는 고정관념을 깨는 창의적인 퍼즐 게임입니다. 논리적인 사고보다는 엉뚱한 발상과 실험을 통해 문제를 해결하는 재미를 제공합니다. 압박감 없는 환경에서 누구나 쉽게 즐길 수 있는 캐주얼한 게임 경험을 선사합니다.",
+        "features_ko": [
+          "기존 퍼즐 형식을 벗어난 독창적이고 예상치 못한 문제들을 제공합니다.",
+          "간단한 조작법을 통해 누구나 쉽게 게임에 참여할 수 있습니다.",
+          "시간 제한이나 경쟁 요소가 없어 편안하게 게임을 즐길 수 있습니다.",
+          "힌트 시스템을 통해 어려운 문제를 해결할 수 있도록 돕습니다.",
+          "친구들과 함께 문제를 공유하고 즐길 수 있는 환경을 제공합니다."
+        ],
+        "noteworthy_ko": "사용자의 허를 찌르는 '미스디렉션' 기법이 게임의 핵심입니다. 개발 관점에서는 각 레벨마다 고유한 상호작용을 구현해야 하므로 콘텐츠 제작의 창의성이 매우 중요합니다.",
+        "development_ko": "각 레벨별로 고유한 물리적 상호작용이나 터치 이벤트를 구현하는 것이 핵심입니다. 콘텐츠 제작 부담이 크지만, 시스템 자체는 단순하여 테스트와 밸런스 조절은 상대적으로 용이합니다. 다양한 퍼즐 아이디어를 시각화하고 직관적인 피드백을 주는 것이 중요합니다.",
+        "idea_ko": "일상적인 사물을 활용한 물리 기반 퍼즐 게임을 제작하여 창의적인 문제 해결 경험을 제공하는 것이 좋습니다.",
+        "highlights_ko": [
+          "고정관념을 뒤집는 참신한 퍼즐 설계가 돋보입니다.",
+          "경쟁 없는 힐링 게임 환경을 제공하여 폭넓은 사용자층을 확보합니다."
+        ],
+        "systems_ko": [
+          "레벨별 퍼즐 로직 관리 시스템",
+          "터치 및 드래그 입력 판정 시스템",
+          "힌트 및 보상 관리 시스템",
+          "게임 상태 저장 및 불러오기",
+          "UI 및 애니메이션 연출 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "게임의 핵심 메커니즘은 단순하지만, 매 레벨마다 새로운 퍼즐 아이디어를 기획하고 구현하는 데 창의적인 노력이 필요합니다. 1인 개발자가 소규모로 시작하기에 적합한 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 레벨 로직 시스템",
+            "터치 상호작용 구현",
+            "레벨 클리어 및 다음 레벨 이동 기능"
+          ],
+          "defer": [
+            "힌트 구매 및 광고 제거 구독",
+            "일일 보상 시스템"
+          ],
+          "risks": [
+            "퍼즐 아이디어 고갈",
+            "레벨별 난이도 밸런스 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "사물 관찰 퍼즐",
+            "concept": "화면 속 사물을 확대하거나 회전시켜 숨겨진 단서를 찾는 퍼즐입니다. 일상적인 사물을 활용하여 친숙함을 줍니다.",
+            "first_step": "사물을 터치하여 회전시키고 특정 조건에서 반응하는 기능을 구현합니다."
+          },
+          {
+            "title": "논리 퀴즈 게임",
+            "concept": "상황을 제시하고 선택지를 통해 해결하는 퀴즈 게임입니다. 엉뚱한 선택지가 정답이 되는 반전 요소를 넣습니다.",
+            "first_step": "텍스트 기반의 선택지 시스템과 결과 출력 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 기획력과 창의적인 레벨 디자인을 배우기에 매우 좋은 사례입니다. 복잡한 시스템보다는 아이디어 중심의 개발을 선호하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 퍼즐 구현 기술이나 엔진 정보가 없습니다. 구독 결제 시스템의 상세한 연동 방식은 외부 서비스 정책에 따라 다를 수 있습니다.",
+        "name": "Brain Test: Tricky Puzzles",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/brain-test-tricky-puzzles/id1486214495?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 95,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-26"
     }
   }
 }

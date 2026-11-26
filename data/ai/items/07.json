@@ -13646,6 +13646,96 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-25"
+    },
+    "apple:6689512729": {
+      "app_key": "apple:6689512729",
+      "name": "Colibri - Taiwan Receipt Scan",
+      "developer": "Roland Worz",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://apps.apple.com/kr/app/colibri-taiwan-receipt-scan/id6689512729?uo=2",
+      "data_date": "2026-11-26",
+      "analysed_at": "2026-11-26T08:50:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Key features - Scan any receipt from text (traditional and electronic) or QR code (electronic) QR Codes are sometimes damaged and unreadable - relax, as you can always rely on Text Scanning. - Scan the receipt number AND its valid period If you want to check a big chaotic pile of receipts - no problem for Colibri. It automatically matches the receipt number with its valid period and keeps them grouped together. Don't get confused, just quickly scan and let Colibri do the numbers job. - Save scanned numbers and periods You can scan receipts of upcoming periods and check them later. They will be displayed and sorted for you. - Scanning works completely offline Scanning does not require an active internet connection. However, if you want to check for the Lottery Prizes, initially (and about every 2 months), Colibri will need an internet connection to download the recent official Taiwan invoice lottery numbers. Happy Scanning and GOOD LUCK! Please keep in mind: the performance and accuracy of text recognition also depends on a lot of factors like illumination, print quality, as well as your phone's hardware (e.g., camera). In general, it is suggested to first try and scan the QR code as it is more failure-proof - and even faster.",
+      "analysis": {
+        "app_key": "apple:6689512729",
+        "summary_ko": "Colibri는 대만 영수증 복권 번호를 스캔하고 관리하는 도구입니다. 텍스트 스캔이나 QR 코드 스캔을 통해 영수증 번호를 인식하며, 오프라인에서도 동작합니다. 여러 영수증을 기간별로 자동 분류하여 당첨 확인을 돕습니다.",
+        "features_ko": [
+          "영수증의 텍스트나 QR 코드를 스캔하여 번호를 인식합니다.",
+          "영수증 번호와 유효 기간을 자동으로 매칭하여 그룹화합니다.",
+          "스캔한 영수증 데이터를 기간별로 저장하고 정렬합니다.",
+          "오프라인 환경에서도 스캔 및 데이터 저장이 가능합니다.",
+          "주기적으로 공식 복권 번호를 다운로드하여 당첨을 확인합니다."
+        ],
+        "noteworthy_ko": "OCR(광학 문자 인식) 기술과 데이터 매칭 로직이 결합된 실용적인 앱입니다. 오프라인 우선 설계와 주기적인 데이터 동기화 구조가 개발 관점에서 매우 효율적입니다.",
+        "development_ko": "카메라를 통한 이미지 인식 및 OCR 처리 성능이 가장 중요합니다. 영수증 데이터의 구조화된 저장과 복권 번호 데이터와의 효율적인 비교 알고리즘 구현이 필요합니다.",
+        "idea_ko": "스캔한 영수증의 품목을 분석하여 가계부 데이터로 자동 변환하는 기능을 추가하면 활용도가 높아질 것입니다.",
+        "highlights_ko": [
+          "QR 코드와 텍스트 스캔을 모두 지원하는 높은 유연성.",
+          "오프라인 스캔 지원으로 어디서나 사용 가능."
+        ],
+        "systems_ko": [
+          "카메라 및 OCR 엔진",
+          "데이터 로컬 저장소(CoreData/SQLite)",
+          "복권 번호 동기화 시스템",
+          "데이터 매칭 및 정렬 알고리즘",
+          "사용자 알림 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "OCR의 정확도는 조명이나 인쇄 품질에 따라 크게 달라지며, 이를 보정하고 다양한 영수증 형식을 처리하는 로직을 구현하는 것은 상당한 난이도가 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카메라 스캔 기능",
+            "영수증 번호 저장 및 관리",
+            "복권 번호 수동 입력 기능"
+          ],
+          "defer": [
+            "자동 OCR 인식 엔진 고도화",
+            "복권 번호 자동 다운로드 서버 연동"
+          ],
+          "risks": [
+            "OCR 인식률 저하로 인한 사용자 불만",
+            "영수증 양식 변경에 따른 인식 로직 유지보수"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "지출 분석 리포트",
+            "concept": "스캔한 영수증의 금액을 합산하여 월별 지출 통계를 시각화합니다.",
+            "first_step": "영수증 데이터에서 금액 필드만 추출하여 합산하는 기능 구현."
+          },
+          {
+            "title": "영수증 공유 기능",
+            "concept": "가족이나 친구와 영수증 데이터를 공유하여 공동으로 복권을 확인합니다.",
+            "first_step": "데이터를 JSON 형태로 내보내고 가져오는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "OCR 기술을 활용한 실생활 문제 해결 앱을 만들고 싶다면 좋은 참고 사례입니다. 이미지 처리와 데이터 관리의 기초를 다지기에 적합합니다.",
+        "source_limitations_ko": "OCR 엔진의 종류, 복권 번호 데이터의 소스, 데이터 매칭 알고리즘의 상세 로직은 확인되지 않습니다. 대만 지역 특화 앱이므로 타 국가 적용 시 로직 수정이 필요합니다.",
+        "name": "Colibri - Taiwan Receipt Scan",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/colibri-taiwan-receipt-scan/id6689512729?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-26"
     }
   }
 }

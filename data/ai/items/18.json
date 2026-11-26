@@ -12979,6 +12979,183 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-25"
+    },
+    "google:com0.Company.ProductName1": {
+      "app_key": "google:com0.Company.ProductName1",
+      "name": "3D운전교실",
+      "developer": "John 3:16",
+      "source": "google",
+      "country": "KR",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com0.Company.ProductName1&hl=ko&gl=KR",
+      "data_date": "2026-11-26",
+      "analysed_at": "2026-11-26T08:49:44+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "2021년 12월 22일부터 바뀌는 대한민국 운전면허시험을 게임을 통해서 연습할수 있는 시뮬레이션 앱입니다. 장내기능시험과 도로주행시험을 연습할수 있습니다. 바뀌는 감점내용과 감점항목을 게임에 실제 적용하였습니다. 계속 업데이트하며 더 좋은 앱으로 만들어 가겠습니다. 3D운전교실 제작자가 운영하는 유튜브채널 링크입니다. https://www.youtube.com/c/DriveSchool3D BGM music from Arc North with the track Oceanside 연락처 : 3ddriveclass@gmail.com 개인정보 처리방침: https://john316-privacy-notice.netlify.app",
+      "analysis": {
+        "app_key": "google:com0.Company.ProductName1",
+        "summary_ko": "3D운전교실은 대한민국 운전면허시험을 가상 환경에서 연습할 수 있는 시뮬레이션 게임입니다. 장내기능시험과 도로주행시험의 감점 항목을 실제 규정에 맞춰 적용하여 실전과 유사한 연습 환경을 제공합니다. 지속적인 업데이트를 통해 실제 면허 시험의 변화를 반영합니다.",
+        "features_ko": [
+          "대한민국 운전면허시험의 장내기능시험을 시뮬레이션합니다.",
+          "실제 도로주행시험 코스와 감점 항목을 적용하여 연습합니다.",
+          "바뀌는 면허 시험 규정을 게임에 실시간으로 반영합니다.",
+          "3D 환경에서 운전 조작을 연습할 수 있는 환경을 제공합니다."
+        ],
+        "noteworthy_ko": "운전면허라는 특정 목적을 가진 시뮬레이션 앱으로, 교육적 가치와 게임성을 결합한 점이 흥미롭습니다. 실제 규정을 게임 내 시스템으로 치환하는 과정이 개발의 핵심입니다.",
+        "development_ko": "3D 물리 엔진을 활용한 차량 조작 구현과 실제 도로 환경을 재현하는 맵 제작이 핵심입니다. 면허 시험 규정을 논리적으로 검증하는 시스템과 사용자에게 실시간으로 감점 상황을 알려주는 UI 구현이 중요합니다.",
+        "idea_ko": "초보 운전자를 위한 주차 연습 전용 모드나, 다양한 기상 조건(비, 눈, 야간)에서의 주행 연습 기능을 추가하여 난이도를 조절합니다.",
+        "highlights_ko": [
+          "실제 대한민국 운전면허시험 규정을 기반으로 한 연습 환경을 제공합니다.",
+          "지속적인 업데이트를 통해 최신 시험 규정을 반영합니다."
+        ],
+        "systems_ko": [
+          "차량 물리 엔진",
+          "도로 및 환경 렌더링 시스템",
+          "시험 규정 판정 엔진",
+          "UI 및 감점 알림 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "3D 물리 엔진을 활용한 차량 조작 구현과 실제 도로 환경을 재현하는 작업은 개인 개발자에게 높은 기술적 난이도를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 차량 조작 시스템",
+            "장내기능시험 코스 구현",
+            "기본 감점 판정 로직"
+          ],
+          "defer": [
+            "도로주행시험 전체 코스",
+            "다양한 차량 모델링"
+          ],
+          "risks": [
+            "물리 엔진 구현의 복잡성",
+            "실제 규정과의 오차 발생"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "돌발 상황 대처 훈련",
+            "concept": "주행 중 갑자기 튀어나오는 보행자나 장애물에 대처하는 훈련 모드입니다. 실제 도로에서의 돌발 상황 대응 능력을 키웁니다.",
+            "first_step": "주행 중 랜덤하게 장애물을 생성하고 충돌 시 감점하는 로직을 구현합니다."
+          },
+          {
+            "title": "주차 마스터",
+            "concept": "다양한 주차 상황(평행, 직각, 사선)을 연습할 수 있는 모드입니다. 주차에 어려움을 겪는 초보자를 위한 집중 훈련을 제공합니다.",
+            "first_step": "주차 구역을 설정하고 차량의 위치와 각도를 판정하는 시스템을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "3D 물리 엔진과 시뮬레이션 게임 개발에 관심 있는 개발자에게 추천합니다. 실제 규정을 게임 시스템으로 구현하는 논리적 사고를 배울 수 있습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 물리 엔진의 종류나 맵 제작 방식, 시험 규정 판정 로직의 상세 내용은 명시되어 있지 않습니다.",
+        "name": "3D운전교실",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com0.Company.ProductName1&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-26"
+    },
+    "google:com.yourdaddypranksimulator": {
+      "app_key": "google:com.yourdaddypranksimulator",
+      "name": "Where is Your Daddy",
+      "developer": "StarPlay Game",
+      "source": "google",
+      "country": "US",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.yourdaddypranksimulator&hl=en&gl=US",
+      "data_date": "2026-11-26",
+      "analysed_at": "2026-11-26T08:50:45+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Welcome to Your Daddy Prank Simulator, the ultimate Daddy simulator where fun, laughter, and clever tricks create an unforgettable adventure! Become a smart and mischievous boy who loves pulling hilarious daddy pranks while exploring a lively family home filled with exciting challenges. In this exciting Naughty Boy game, you'll complete entertaining prank missions, avoid getting caught, and discover creative ways to outsmart Daddy. Every level offers new objectives, funny reactions, and exciting surprises that make each prank more enjoyable than the last. If you've ever wondered, \"Where is your daddy?\", it's time to search the house, plan your next trick, and complete your missions before Daddy finds you. Use your creativity, timing, and strategy to become the ultimate Your Daddy Prankster. Enjoy smooth controls, colorful 3D environments, and interactive gameplay designed As prankster, you'll unlock new challenges, explore different rooms, and perform the funniest Boy Pranks in this family-friendly simulator. Whether you're setting up funny traps, hiding from Daddy, or completing exciting objectives, Naughty Boy Prank Simulator delivers endless fun with every mission. Play as a smart kid, think fast, and use your skills to become the funniest prank master in the house. If you love funny family games and exciting simulation adventures, Clever Boy Simulator is the perfect experience for you. Every level is packed with laughter, entertaining challenges, and rewarding gameplay that keeps the fun going. Game Features 😂 Fun and addictive Daddy simulator gameplay 🎯 Complete exciting daddy pranks and funny missions 🏠 Explore a detailed interactive family house 👦 Play as a Naughty Boy game 🤣 Perform hilarious Boy Pranks without getting caught 🎮 Smooth controls and beautiful 3D graphics Download Your Daddy Prank Simulator today and enjoy hilarious family adventures, clever tricks, exciting prank missions, and endless fun as the ultimate prank master!",
+      "analysis": {
+        "app_key": "google:com.yourdaddypranksimulator",
+        "summary_ko": "가정집을 배경으로 장난을 치는 소년이 되어 아빠의 눈을 피해 미션을 수행하는 시뮬레이션 게임입니다. 다양한 방을 탐험하며 함정을 설치하고 아빠를 골탕 먹이는 재미를 경험할 수 있습니다. 3D 환경에서 펼쳐지는 유머러스한 상황과 전략적인 플레이가 핵심입니다.",
+        "features_ko": [
+          "아빠의 눈을 피해 집안 곳곳에서 장난을 치는 미션을 수행합니다.",
+          "상호작용이 가능한 3D 가정집 환경을 탐험합니다.",
+          "다양한 장난 도구와 함정을 설치하여 아빠를 골탕 먹입니다.",
+          "소년 캐릭터를 조작하여 아빠에게 들키지 않고 목표를 달성합니다."
+        ],
+        "noteworthy_ko": "아빠와 소년이라는 대립 구조를 통해 긴장감과 코믹함을 동시에 제공하는 점이 흥미롭습니다. 단순한 잠입 게임에 장난이라는 테마를 결합하여 캐주얼한 재미를 극대화한 것으로 추정됩니다.",
+        "development_ko": "3D 환경에서의 캐릭터 이동 및 상호작용 구현이 핵심입니다. 아빠 캐릭터의 AI 경로 탐색과 플레이어의 위치 감지 로직이 필요하며, 다양한 장난 오브젝트를 배치하는 콘텐츠 제작 부담이 있습니다. 테스트 시 아빠의 인공지능이 너무 어렵거나 쉽지 않도록 밸런스를 조정하는 것이 중요합니다.",
+        "idea_ko": "아빠가 아닌 반려동물이나 다른 가족 구성원을 대상으로 하는 장난 시뮬레이션으로 확장하는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "가족을 테마로 한 유머러스한 잠입 시뮬레이션입니다.",
+          "상호작용 가능한 3D 공간에서 전략적인 장난을 설계합니다."
+        ],
+        "systems_ko": [
+          "캐릭터 이동 및 조작 시스템",
+          "잠입 및 시야 감지 시스템",
+          "오브젝트 상호작용 및 함정 트리거",
+          "레벨별 미션 관리 시스템",
+          "3D 환경 렌더링 및 UI"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "3D 공간에서의 잠입 로직과 AI 행동 패턴을 구현해야 하므로 기초적인 프로그래밍 지식과 레벨 디자인 능력이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 캐릭터 이동 및 카메라 제어",
+            "아빠 캐릭터의 단순 순찰 AI",
+            "장난 상호작용 오브젝트 1~2종"
+          ],
+          "defer": [
+            "복잡한 실내 인테리어 커스터마이징",
+            "다양한 캐릭터 스킨 시스템"
+          ],
+          "risks": [
+            "AI 경로 탐색의 복잡성",
+            "3D 리소스 제작 및 최적화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "반려견 장난 대작전",
+            "concept": "아빠 대신 집안의 반려견을 피해 간식을 훔치거나 장난감을 숨기는 게임입니다. 반려견의 후각과 청각을 활용한 감지 시스템을 도입합니다.",
+            "first_step": "반려견이 특정 구역을 순찰하고 플레이어를 발견하면 짖는 기본 로직 구현."
+          },
+          {
+            "title": "도서관 조용히 장난치기",
+            "concept": "소음 수치를 관리하며 도서관 사서의 눈을 피해 장난을 치는 게임입니다. 물건을 떨어뜨리거나 소리를 내면 사서가 다가옵니다.",
+            "first_step": "소음 게이지 UI와 사서의 반응 범위 구현."
+          }
+        ],
+        "recommendation_ko": "잠입 게임의 기본 메커니즘과 AI 행동 패턴을 학습하기에 좋습니다. 3D 게임 개발의 기초를 다지고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 AI 알고리즘이나 물리 엔진의 상세 정보가 없습니다. 외부 결제 시스템이나 광고 연동 여부는 확인되지 않았습니다.",
+        "name": "Where is Your Daddy",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.yourdaddypranksimulator&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-26"
     }
   }
 }

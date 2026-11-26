@@ -12952,6 +12952,181 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-25"
+    },
+    "itch:b2e19c85ce97d4ffc5bd": {
+      "app_key": "itch:b2e19c85ce97d4ffc5bd",
+      "name": "A Teacher's Journey [Free]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://jonathanmbessette.itch.io/a-teachers-journey",
+      "data_date": "2026-11-26",
+      "analysed_at": "2026-11-26T08:48:28+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "The journey of becoming a professional high school teacher and trying to stay in the profession",
+      "analysis": {
+        "app_key": "itch:b2e19c85ce97d4ffc5bd",
+        "summary_ko": "고등학교 교사로서의 삶을 다루는 시뮬레이션 게임입니다. 전문 교사로 성장하고 그 직업을 유지하기 위해 고군분투하는 과정을 경험합니다. 교직 생활의 현실적인 어려움을 다루는 서사 중심의 게임으로 보입니다.",
+        "features_ko": [
+          "교사로서의 일상을 경험하며 직업적 성장을 도모합니다.",
+          "교직을 유지하기 위한 다양한 선택과 도전을 수행합니다."
+        ],
+        "noteworthy_ko": "교직이라는 특정 직업군을 테마로 한 점이 흥미롭습니다. 플레이어의 선택이 직업 유지에 영향을 미치는 시스템이 구현되어 있다면 몰입감이 높을 것으로 추정됩니다.",
+        "development_ko": "서사 중심의 게임이므로 시나리오 작성과 선택지 분기 처리가 핵심입니다. 콘텐츠 제작 부담은 시나리오 분량에 따라 결정되며, 밸런스 조정은 플레이어의 선택이 결과에 미치는 영향력을 테스트하는 데 집중해야 합니다.",
+        "idea_ko": "교사의 하루 일과 중 발생하는 돌발 상황을 선택지로 해결하는 텍스트 기반 시뮬레이션.",
+        "highlights_ko": [
+          "교사라는 직업적 정체성을 게임의 핵심 테마로 설정했습니다.",
+          "직업 유지라는 현실적인 목표를 통해 긴장감을 조성합니다."
+        ],
+        "systems_ko": [
+          "선택지 기반의 이벤트 시스템",
+          "직업 유지도(스테미나/스트레스) 관리 시스템",
+          "텍스트 출력 및 UI 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "복잡한 물리 엔진보다는 시나리오와 분기 시스템의 논리적 설계가 중요합니다. 1인 개발 시 시나리오의 양을 조절하면 충분히 구현 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이벤트 분기 시스템",
+            "직업 유지도 수치 관리"
+          ],
+          "defer": [
+            "복잡한 그래픽 연출",
+            "다양한 캐릭터 일러스트"
+          ],
+          "risks": [
+            "시나리오의 단조로움",
+            "선택지의 영향력 체감 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "교실의 위기 관리",
+            "concept": "수업 중 발생하는 돌발 상황을 제한 시간 내에 선택하여 해결하는 미니게임입니다. 학생들의 반응에 따라 교사의 평판이 변화합니다.",
+            "first_step": "하나의 돌발 상황과 3개의 선택지를 가진 프로토타입 제작."
+          },
+          {
+            "title": "교무실의 하루",
+            "concept": "교무실 내 동료 교사들과의 상호작용을 통해 업무 효율을 높이는 전략적 요소가 포함된 시뮬레이션입니다.",
+            "first_step": "NPC와의 대화 시스템 및 호감도 변수 구현."
+          }
+        ],
+        "recommendation_ko": "텍스트 기반의 서사 게임을 만들고 싶은 개발자에게 추천합니다. 선택지가 결과에 미치는 영향력을 설계하는 법을 배우기에 적합합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 게임 메커니즘, 그래픽 스타일, 분기 구조 등을 확인할 수 없습니다. 실제 게임의 깊이나 시스템 규모는 알 수 없습니다.",
+        "name": "A Teacher's Journey [Free]",
+        "source": "itch",
+        "detail_url": "https://jonathanmbessette.itch.io/a-teachers-journey",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 287,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 31,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-26"
+    },
+    "apple:1518047412": {
+      "app_key": "apple:1518047412",
+      "name": "IQ Boost: Training Brain Games",
+      "developer": "Brightika, Inc.",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/us/app/iq-boost-training-brain-games/id1518047412?uo=2",
+      "data_date": "2026-11-26",
+      "analysed_at": "2026-11-26T08:51:06+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "IQ Boost is a game with tricky puzzles, tasks and logic tests. All the tasks are original and funny! We said ‘NO’ to boring brain training. Free IQ Boost game features only the best tasks, brainteasers and exercises to train your memory, attention, logic and mindset. Only 10% of all the people have an IQ higher than 120. Are you among them? Play IQ Boost - challenge your brain. Try yourself in solving nontrivial tasks. You will train logical and abstract thinking by solving puzzles and logic tasks. Concentration and memory will be better too. Have a good time while training your brain. Find out your IQ level. Lower than you thought? Play IQ Boost and you’ll see your IQ is growing. Game features: • Easy to play; • Nonstandard colourful gameplay; • Funny answers and solutions; • Nontrivial challenges for any age; • Lots of levels; • Intellectual brain-teaser game. Remember: obvious solutions might not be not always right...think out of the box and train your brain! Play and prove you are the cleverest!",
+      "analysis": {
+        "app_key": "apple:1518047412",
+        "summary_ko": "IQ Boost는 논리력, 기억력, 집중력을 훈련할 수 있는 두뇌 트레이닝 게임입니다. 일반적인 문제 풀이에서 벗어나 창의적이고 비표준적인 사고를 요구하는 다양한 퍼즐과 퀴즈를 제공합니다. 사용자는 게임을 통해 자신의 IQ 수준을 확인하고 두뇌를 자극하는 즐거운 시간을 보낼 수 있습니다.",
+        "features_ko": [
+          "논리력과 추상적 사고를 훈련할 수 있는 다양한 퍼즐과 퀴즈를 제공합니다.",
+          "기존의 상식을 뒤엎는 창의적이고 비표준적인 해결 방법을 요구합니다.",
+          "사용자의 기억력과 집중력을 향상시키는 두뇌 트레이닝 콘텐츠를 포함합니다.",
+          "다양한 난이도의 레벨을 통해 점진적으로 두뇌를 자극합니다.",
+          "게임 플레이를 통해 자신의 IQ 수준을 추정해 볼 수 있습니다."
+        ],
+        "noteworthy_ko": "고정관념을 깨는 퀴즈 구성이 사용자의 흥미를 유발하는 핵심 요소입니다. 정답이 하나로 정해져 있지 않은 비표준적인 문제 설계는 게임 디자인 측면에서 매우 창의적입니다.",
+        "development_ko": "핵심 기술은 퍼즐 로직 설계와 사용자 인터랙션 처리입니다. 콘텐츠 제작 부담은 창의적인 문제 아이디어를 지속적으로 생성하는 데 있으며, 테스트는 문제의 난이도 밸런스를 맞추는 것이 중요합니다.",
+        "idea_ko": "사용자가 직접 퍼즐 문제를 만들고 다른 사용자와 공유할 수 있는 사용자 생성 콘텐츠(UGC) 시스템을 도입하는 것이 좋습니다.",
+        "highlights_ko": [
+          "뻔하지 않은 창의적인 문제 해결 과정을 통해 두뇌를 자극합니다.",
+          "다양한 연령대가 즐길 수 있는 직관적이고 다채로운 게임 플레이를 제공합니다."
+        ],
+        "systems_ko": [
+          "퍼즐 로직 및 상태 관리 시스템",
+          "사용자 인터랙션 및 입력 판정",
+          "레벨 데이터 관리 및 난이도 조절",
+          "IQ 계산 및 결과 분석 알고리즘"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "퍼즐 게임은 복잡한 물리 엔진이나 서버 통신이 필요하지 않아 1인 개발자가 구현하기에 적합합니다. 다만, 창의적인 문제 아이디어를 지속적으로 기획하는 것이 개발의 핵심입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "퍼즐 문제 뷰어 및 입력 시스템",
+            "레벨 선택 및 진행 상황 저장",
+            "정답/오답 판정 로직"
+          ],
+          "defer": [
+            "복잡한 애니메이션 효과",
+            "사용자 간 랭킹 시스템",
+            "다양한 테마의 코스튬"
+          ],
+          "risks": [
+            "문제의 참신함이 떨어질 경우 사용자 이탈",
+            "난이도 조절 실패로 인한 사용자 좌절"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "매일의 두뇌 챌린지",
+            "concept": "매일 새로운 퍼즐 문제를 제공하여 사용자가 꾸준히 앱을 방문하도록 유도합니다.",
+            "first_step": "날짜별로 문제를 불러오는 간단한 스케줄러 구현."
+          },
+          {
+            "title": "퍼즐 제작 도구",
+            "concept": "사용자가 간단한 도구를 사용하여 자신만의 퍼즐을 만들고 공유할 수 있는 기능입니다.",
+            "first_step": "퍼즐 문제의 요소(텍스트, 이미지)를 입력받아 저장하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 로직 설계와 사용자 경험 디자인을 배우고 싶은 개발자에게 추천합니다. 창의적인 아이디어를 게임으로 구현하는 즐거움을 느낄 수 있는 좋은 프로젝트입니다.",
+        "source_limitations_ko": "소개문에는 IQ 계산 알고리즘의 과학적 근거가 명시되어 있지 않으며, 실제 게임 내 문제의 구체적인 유형이나 데이터 구조는 확인되지 않았습니다.",
+        "name": "IQ Boost: Training Brain Games",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/iq-boost-training-brain-games/id1518047412?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 76,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-26"
     }
   }
 }

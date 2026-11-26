@@ -14174,6 +14174,275 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-25"
+    },
+    "apple:6823555205": {
+      "app_key": "apple:6823555205",
+      "name": "편한키보드 - 맞춤법, 클립보드, 상용구, 번역",
+      "developer": "Uncover Lab",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://apps.apple.com/kr/app/%ED%8E%B8%ED%95%9C%ED%82%A4%EB%B3%B4%EB%93%9C-%EB%A7%9E%EC%B6%A4%EB%B2%95-%ED%81%B4%EB%A6%BD%EB%B3%B4%EB%93%9C-%EC%83%81%EC%9A%A9%EA%B5%AC-%EB%B2%88%EC%97%AD/id6823555205?uo=2",
+      "data_date": "2026-11-26",
+      "analysed_at": "2026-11-26T08:50:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "아이폰 키보드는 편하게 이용하셔야죠. 편한키보드는 아이폰의 익숙한 디자인에 편의기능을 더한 한글·영어 키보드예요. 메시지를 보내기 전에 맞춤법을 확인하고, 자주 쓰는 문장을 보내거나 다른 언어로 번역하는 일도 키보드에서 바로 할 수 있어요. ■ 키보드 위에서 바로 쓰는 플러스 · 맞춤법 교정 — 문장을 검사하고 밑줄로 표시된 수정 내용을 확인해요. 고친 문장을 복사하거나 입력창의 원문을 바꿀 수 있어요. · 클립보드 — 복사한 글과 링크를 모아 뒀다가 필요할 때 다시 붙여 넣어요. · 상용구 — 인사말, 주소, 자주 보내는 답장을 저장해 두고 한 번에 입력해요. · 번역 — 원하는 언어를 골라 번역한 뒤 결과를 복사하거나 원문에 적용해요. · 한자 변환 — 입력한 한글에 맞는 한자 후보를 골라 넣어요. ■ 손에 익는 빠른 입력 · 숫자줄과 보조키 — 숫자는 자판 위에서 바로, ㄲ이나 ? 같은 문자는 키를 길게 눌러 입력해요. · 밀어서 삭제와 복원 — 삭제 키를 누른 채 왼쪽으로 밀어 여러 글자를 지우고, 오른쪽으로 밀어 되살려요. · 커서 이동 — 스페이스바를 길게 누른 채 움직여 고칠 곳으로 이동해요. 스페이스바를 두 번 누르면 마침표를 넣을 수 있어요. · 이모지 검색, 입력음, 햅틱도 사용할 수 있어요. ■ 30일 무료 체험과 평생 이용권 플러스를 처음 30일간 무료로 써 볼 수 있어요. 체험이 끝나도 자동으로 결제되지 않아요. 평생 이용권은 한 번 결제하면 계속 이용할 수 있고, 기본 키보드 기능은 체험이 끝난 뒤에도 무료예요. ■ 개인정보와 권한 편한키보드는 일반 입력 내용을 수집하지 않아요. 클립보드 기록과 상용구는 기기에 저장돼요. 맞춤법 교정과 번역에는 Apple의 시스템 기능을 사용해요. 키보드에서 클립보드를 사용하거나 상용구를 편집하려면 iOS의 ‘전체 접근 허용’이 필요해요. ■ 지원 환경 iOS 17.5 이상 · 한국어 두벌식 · 영어 쿼티 맞춤법 교정은 Apple Intelligence를 켠 지원 기기에서, 번역은 iOS 26 이상에서 사용할 수 있어요.",
+      "analysis": {
+        "app_key": "apple:6823555205",
+        "summary_ko": "편한키보드는 아이폰 기본 키보드 디자인을 유지하면서 맞춤법 교정, 클립보드, 상용구, 번역 등 생산성 기능을 추가한 키보드 앱입니다. 사용자는 키보드 내에서 바로 문장을 수정하거나 자주 쓰는 문구를 입력할 수 있습니다. iOS 시스템 기능을 활용하여 개인정보 보호를 강조합니다.",
+        "features_ko": [
+          "입력한 문장의 맞춤법을 검사하고 수정 제안을 표시합니다.",
+          "복사한 텍스트와 링크를 클립보드에 저장하여 관리합니다.",
+          "자주 사용하는 인사말이나 주소를 상용구로 저장하여 빠르게 입력합니다.",
+          "입력한 텍스트를 다른 언어로 번역하여 결과값을 바로 적용합니다.",
+          "한글 입력 후 한자 변환 후보를 제공합니다.",
+          "스페이스바를 이용한 커서 이동 및 밀어서 삭제 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "iOS의 키보드 확장 기능을 활용하여 사용자 경험을 개선한 사례입니다. 시스템 API를 활용한 맞춤법 및 번역 기능 구현이 흥미로우며, 개인정보 수집을 하지 않는다는 신뢰 구축이 핵심입니다.",
+        "development_ko": "iOS의 Custom Keyboard Extension 구현이 핵심이며, 메모리 제한 내에서 원활하게 동작하도록 최적화해야 합니다. 상용구와 클립보드 데이터의 로컬 저장소 관리와 시스템 API 연동이 중요합니다.",
+        "idea_ko": "사용자의 입력 패턴을 분석하여 자주 사용하는 단어를 자동으로 추천하는 개인화된 상용구 생성 기능을 제안합니다.",
+        "highlights_ko": [
+          "기존 iOS 키보드와 유사한 익숙한 디자인과 조작감.",
+          "시스템 기능을 활용한 맞춤법 교정 및 번역 통합."
+        ],
+        "systems_ko": [
+          "키보드 확장(Keyboard Extension) 구현",
+          "로컬 데이터베이스(상용구/클립보드)",
+          "텍스트 처리 및 교정 엔진 연동",
+          "UI/UX 최적화(햅틱, 입력음)",
+          "설정 및 권한 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "키보드 확장 기능은 iOS의 엄격한 메모리 제한과 보안 정책을 준수해야 하며, 입력 지연 없는 빠른 반응 속도를 구현하는 것이 매우 까다롭습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 키보드 레이아웃",
+            "상용구 저장 및 입력 기능",
+            "클립보드 히스토리 관리"
+          ],
+          "defer": [
+            "실시간 번역 기능",
+            "맞춤법 교정 엔진 직접 구현"
+          ],
+          "risks": [
+            "iOS 업데이트에 따른 키보드 확장 기능의 불안정성",
+            "메모리 부족으로 인한 키보드 강제 종료"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "감정 분석 키보드",
+            "concept": "입력하는 문장의 어조를 분석하여 적절한 이모지나 이모티콘을 추천합니다.",
+            "first_step": "입력된 텍스트의 키워드를 기반으로 이모지를 매칭하는 간단한 사전 구현."
+          },
+          {
+            "title": "단축어 자동 완성",
+            "concept": "사용자가 설정한 짧은 단축어를 입력하면 긴 문장으로 자동 변환합니다.",
+            "first_step": "단축어와 문장을 매핑하는 로컬 딕셔너리 관리 기능 구현."
+          }
+        ],
+        "recommendation_ko": "iOS 시스템 프레임워크와 키보드 확장 기능의 한계를 이해하는 데 매우 좋은 학습 자료입니다. 다만, 고도의 최적화가 필요하므로 초보자에게는 난이도가 높습니다.",
+        "source_limitations_ko": "맞춤법 교정 및 번역에 사용된 구체적인 API 호출 방식과 메모리 관리 최적화 기법은 확인되지 않습니다. 보안 관련 데이터 처리의 상세 로직은 검증이 필요합니다.",
+        "name": "편한키보드 - 맞춤법, 클립보드, 상용구, 번역",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%ED%8E%B8%ED%95%9C%ED%82%A4%EB%B3%B4%EB%93%9C-%EB%A7%9E%EC%B6%A4%EB%B2%95-%ED%81%B4%EB%A6%BD%EB%B3%B4%EB%93%9C-%EC%83%81%EC%9A%A9%EA%B5%AC-%EB%B2%88%EC%97%AD/id6823555205?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-26"
+    },
+    "google:com.cleanfiner.phoneclean": {
+      "app_key": "google:com.cleanfiner.phoneclean",
+      "name": "Phone Clean Finder",
+      "developer": "Signorelli Studio",
+      "source": "google",
+      "country": "JP",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.cleanfiner.phoneclean&hl=ja&gl=JP",
+      "data_date": "2026-11-26",
+      "analysed_at": "2026-11-26T08:50:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Phone Clean Finder は、信頼できる電話アシスタントとして機能します。 主な機能: システムジャンクと残りのファイルを削除 不要になった大きなファイルをクリーンアップすることを選択できます いつでもバッテリーの状態を確認して、いつでもバッテリーの状態を把握できます。 不要になったアプリケーションやめったに使用しないアプリケーションを簡単にアンインストールできます。 不要な通知をすばやく削除して、通知バーを整理します。 📱Phone Clean Finder を今すぐダウンロードしてください!",
+      "analysis": {
+        "app_key": "google:com.cleanfiner.phoneclean",
+        "summary_ko": "Phone Clean Finder는 스마트폰의 성능을 최적화하는 관리 도구입니다. 시스템 정크 파일 삭제, 대용량 파일 정리, 배터리 상태 확인, 앱 관리 및 알림 정리를 지원합니다. 사용자가 기기를 효율적으로 관리할 수 있도록 돕는 보조 앱입니다.",
+        "features_ko": [
+          "시스템 정크 파일과 잔여 파일을 스캔하여 삭제합니다.",
+          "불필요한 대용량 파일을 찾아 정리할 수 있습니다.",
+          "현재 배터리 상태를 모니터링하여 정보를 제공합니다.",
+          "사용하지 않는 앱을 간편하게 제거합니다.",
+          "알림 바에 쌓인 불필요한 알림을 빠르게 정리합니다."
+        ],
+        "noteworthy_ko": "안드로이드 시스템의 파일 시스템 접근 권한을 활용한 최적화 도구입니다. 개발 관점에서는 파일 시스템 스캔 알고리즘과 권한 관리, 그리고 사용자에게 직관적인 정리 결과를 보여주는 UI가 중요합니다.",
+        "development_ko": "안드로이드의 저장소 접근 권한 및 접근성 서비스 활용이 핵심입니다. 파일 스캔 시 성능 저하를 방지하기 위한 비동기 처리와 배터리 상태 정보를 가져오는 시스템 API 연동이 필요합니다.",
+        "idea_ko": "사용자의 앱 사용 빈도를 분석하여, 오랫동안 사용하지 않은 앱을 자동으로 정리하도록 제안하는 스마트 알림 기능을 제안합니다.",
+        "highlights_ko": [
+          "다양한 최적화 기능을 하나의 앱으로 통합.",
+          "직관적인 인터페이스를 통한 빠른 시스템 정리."
+        ],
+        "systems_ko": [
+          "파일 시스템 스캔 및 삭제 엔진",
+          "앱 관리자(설치/삭제 제어)",
+          "배터리 상태 모니터링",
+          "알림 접근성 서비스",
+          "데이터 시각화 UI"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기본적인 파일 삭제와 앱 관리는 안드로이드 API로 구현 가능하나, 최신 안드로이드 버전의 엄격한 저장소 권한 정책을 준수하는 것이 관건입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "정크 파일 스캔 및 삭제",
+            "앱 목록 표시 및 삭제 기능"
+          ],
+          "defer": [
+            "배터리 상태 상세 분석",
+            "알림 바 자동 정리"
+          ],
+          "risks": [
+            "중요 시스템 파일 삭제로 인한 기기 오류",
+            "안드로이드 보안 정책 변경에 따른 권한 제한"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "파일 중복 제거기",
+            "concept": "기기 내 중복된 사진이나 파일을 찾아 용량을 확보합니다.",
+            "first_step": "파일의 해시값을 비교하여 중복 여부를 판단하는 로직 구현."
+          },
+          {
+            "title": "앱 사용 시간 리포트",
+            "concept": "앱별 사용 시간을 분석하여 사용자가 가장 많이 사용하는 앱을 알려줍니다.",
+            "first_step": "UsageStatsManager API를 사용하여 앱 사용 시간 데이터를 수집하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "안드로이드 시스템 API와 파일 시스템 관리를 배우기에 적합합니다. 다만, 시스템 최적화 앱은 사용자 신뢰가 중요하므로 보안에 각별히 유의해야 합니다.",
+        "source_limitations_ko": "파일 스캔 알고리즘의 정확도나 배터리 상태 정보의 출처 등 구체적인 구현 방식은 알 수 없습니다. 시스템 권한 관련 정책은 안드로이드 버전에 따라 다를 수 있습니다.",
+        "name": "Phone Clean Finder",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.cleanfiner.phoneclean&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-26"
+    },
+    "apple:6756058501": {
+      "app_key": "apple:6756058501",
+      "name": "Jelly Busters: Puzzle Game",
+      "developer": "Moon Active",
+      "source": "apple",
+      "country": "US",
+      "category": "game_casual",
+      "detail_url": "https://apps.apple.com/us/app/jelly-busters-puzzle-game/id6756058501?uo=2",
+      "data_date": "2026-11-26",
+      "analysed_at": "2026-11-26T08:52:12+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Drop into the smoothest skatepark in town with the Jelly Busters crew, a squad of bouncy jellies who live to skate, color shoot, and bust their way through walls of cubes. Every run starts with a simple push on your board, a quick aim, and a clean shot as you send your jelly flying into a glowing, colorful puzzle blast of cubes hiding a secret picture and image below. Jelly Busters adds a fun, skate-infused twist packed with ASMR pleasure and arcade-style thrills. With every tap, you shoot into stacks of colors, bust the cubes, and slowly keep busting the image underneath until the whole board is clear. The sound and feel are tuned for maximum satisfying chill. Cubes crumble with soft pops, jellies bounce just right, and the whole game wraps you in a relaxing mood that still demands fast reaction and strategic thinking. It’s the perfect combination: a cube shooter that’s as soothing as it is intense, always very satisfying to clear the image at the end of a run. But the park has tricks of its own. From the very first levels, you’ll see that this isn’t just mindless tapping. The game develops and gets more challenging and harder as you play, with clever layouts and sneaky blockers that force you to plan ahead. Each new level adds a fresh twist - more cubes, tougher patterns, and smarter obstacles that you’ll have to avoid if you want to keep your blast streak going. To keep things interesting, you’ll unlock powerful level boosters that turn tight spots into epic comebacks. Trigger a massive blast, shatter whole sections at once, or set off chain reactions that leave nothing behind. As you progress, you’ll constantly win rewards and win prizes, giving your jelly crew more ways to dominate the skatepark and tackle the trickiest levels. Get ready to compete with players everywhere, pushing your skills to the limit as you advance in leaderboards. When you finally join the leaderboard of top busters, every clean run and every perfectly cleared board will feel even sweeter. Jelly Busters is your new go-to for relaxing ASMR cube action: a wildly exciting and deeply satisfying skatepark adventure filled with jellies, cubes, vibrant colors, puzzle challenges, explosive blast moments, and endless chances to win rewards and prizes while riding along with the coolest jelly crew around. In Jelly Busters, every shot is a chance to burst through, and every completed picture feels like a tiny victory. So grab your (skate) board, team up with the jellies, and start busting cubes to enjoy a relaxing yet satisfying yet totally exciting image puzzle blast. Download Jelly Busters today and unleash the sweet, strategic chaos of this awesome jelly adventure. Terms of Service: https://static.moonactive.net/legal/terms.html?lang=en Privacy Notice: https://static.moonactive.net/legal/privacy.html?lang=en",
+      "analysis": {
+        "app_key": "apple:6756058501",
+        "summary_ko": "Jelly Busters는 젤리 캐릭터를 조종하여 큐브 벽을 쏘고 부수는 아케이드 스타일의 퍼즐 게임입니다. 플레이어는 젤리를 발사해 큐브를 제거하고 그 아래 숨겨진 그림을 완성해야 합니다. ASMR 요소와 전략적인 레벨 디자인이 결합되어 시각적, 청각적 만족감을 제공합니다.",
+        "features_ko": [
+          "젤리를 발사하여 큐브 더미를 타격하고 제거하는 슈팅 메커니즘을 제공합니다.",
+          "큐브를 모두 제거하면 숨겨진 그림이 드러나는 퍼즐 방식을 채택했습니다.",
+          "레벨이 진행될수록 복잡해지는 배치와 장애물을 통해 전략적 사고를 요구합니다.",
+          "강력한 부스터를 사용하여 한 번에 많은 큐브를 파괴하거나 연쇄 반응을 일으킬 수 있습니다.",
+          "글로벌 리더보드를 통해 다른 플레이어와 점수를 경쟁할 수 있습니다."
+        ],
+        "noteworthy_ko": "ASMR 요소를 게임의 핵심 경험으로 내세워 시각적 타격감과 청각적 만족을 극대화한 점이 흥미롭습니다. 단순한 슈팅에 그치지 않고 퍼즐과 전략적 장애물을 배치하여 반복적인 플레이에 깊이를 더하려는 시도가 돋보입니다.",
+        "development_ko": "핵심 구현 기술로는 젤리의 물리적 반동과 큐브 파괴 시의 파티클 효과를 처리하는 물리 엔진이 중요합니다. 콘텐츠 제작 측면에서는 다양한 레벨 디자인과 그림 에셋을 지속적으로 추가해야 하는 부담이 있습니다. 밸런스 측면에서는 부스터의 효율과 장애물의 난이도를 조절하여 플레이어의 성취감을 유지하는 것이 핵심입니다.",
+        "idea_ko": "다양한 질감의 젤리를 선택하여 큐브를 깰 때마다 다른 소리와 물리 효과가 발생하는 '젤리 커스터마이징' 시스템이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "ASMR을 강조한 사운드와 시각적 효과로 몰입감 있는 퍼즐 경험을 제공합니다.",
+          "스케이트보드 테마와 젤리 캐릭터를 결합하여 독특한 분위기를 연출합니다."
+        ],
+        "systems_ko": [
+          "물리 기반 슈팅 및 충돌 판정 시스템",
+          "큐브 배치 및 레벨 데이터 관리 시스템",
+          "파티클 및 사운드 이펙트 트리거 시스템",
+          "점수 계산 및 리더보드 연동 시스템",
+          "부스터 아이템 및 보상 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진을 활용한 슈팅 메커니즘은 구현이 가능하지만, 만족스러운 타격감과 ASMR 효과를 연출하는 세밀한 폴리싱 과정에 시간이 소요됩니다. 레벨 디자인의 난이도 곡선을 설계하는 것이 1인 개발자에게는 도전적인 과제입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "젤리 발사 및 큐브 충돌 처리",
+            "큐브 파괴 및 그림 노출 로직",
+            "기본적인 레벨 진행 시스템"
+          ],
+          "defer": [
+            "글로벌 리더보드",
+            "복잡한 부스터 시스템",
+            "온라인 경쟁 모드"
+          ],
+          "risks": [
+            "물리 엔진의 불안정성으로 인한 버그",
+            "타격감 부족으로 인한 게임성 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "젤리 믹스 매치",
+            "concept": "서로 다른 색상의 젤리를 조합하여 큐브의 색상에 따라 특수 효과를 발동시키는 전략 퍼즐입니다.",
+            "first_step": "두 가지 색상의 젤리를 발사하여 큐브를 제거하는 기본 프로토타입 제작."
+          },
+          {
+            "title": "리듬 버스터",
+            "concept": "배경 음악의 비트에 맞춰 젤리를 발사하면 콤보 점수가 배가되는 리듬 액션 퍼즐입니다.",
+            "first_step": "음악 비트와 젤리 발사 타이밍을 동기화하는 간단한 테스트 구현."
+          }
+        ],
+        "recommendation_ko": "물리 기반의 캐주얼 게임에서 타격감과 사운드가 사용자 경험에 미치는 영향을 학습하기 좋습니다. 단순한 메커니즘을 어떻게 다채로운 레벨로 확장하는지 연구하기에 적합한 사례입니다.",
+        "source_limitations_ko": "소개문에는 구체적인 물리 엔진 종류나 리더보드 구현 방식, 수익 모델의 상세 내용이 명시되어 있지 않습니다. 외부 서비스 연동이나 결제 시스템에 대한 기술적 세부 사항은 확인되지 않습니다.",
+        "name": "Jelly Busters: Puzzle Game",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/jelly-busters-puzzle-game/id6756058501?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 75,
+        "reasons": [],
+        "best_rank": 10,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-26"
     }
   }
 }

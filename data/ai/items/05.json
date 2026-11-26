@@ -13295,6 +13295,186 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-25"
+    },
+    "google:app.mavolyn.securecleaner": {
+      "app_key": "google:app.mavolyn.securecleaner",
+      "name": "PDF Reader",
+      "developer": "Sky Rocket Appstudio",
+      "source": "google",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=app.mavolyn.securecleaner&hl=en&gl=US",
+      "data_date": "2026-11-26",
+      "analysed_at": "2026-11-26T08:48:47+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Make reading PDFs easier than ever! PDF Reader gives you a convenient way to open documents, explore your files, and stay organized—all from one easy-to-use app. **PDF READER & VIEWER** - Open PDF files in just a few taps - Enjoy smooth document viewing - Read ebooks, invoices, reports, and guides - Navigate pages with ease - Access PDFs stored on your device **READ MORE DOCUMENTS** Keep important information close. View PDFs and other supported document formats for work, school, or everyday tasks. **FILE MANAGER** Browse folders, find documents, organize files, and manage your device storage without unnecessary hassle. **STORAGE CLEANUP** Discover large files, review cleanup suggestions, and choose what to remove to reclaim storage space. **VPN & SECURITY TOOLS** Access an optional VPN connection and review local file and app security indicators. Download PDF Reader today and enjoy a simpler way to read, find, and manage your documents! Cleaner Mavolyn & VPN is a visible-decision toolkit for people who want to look before they remove, open or connect. RECLAIM PLAN Measure shared storage and receive a selectable plan covering confirmed matching copies, older downloads, very large files and empty folders. Mavolyn does not run an automatic purge. You inspect names, reasons and sizes, mark individual rows and approve the final removal. PRIVATE PASSAGE When you choose Connect, Mavolyn first describes how Android VpnService and the Singapore WireGuard endpoint handle traffic. Android then asks for system consent. The tunnel is free, requires no account, blocks IPv6 bypass while active and can be stopped or deleted from the same panel. ARCHIVE AND DOCUMENT WORKSHOP Use the archive view to search a folder and move through shared-storage directories. PDF pages render inside Mavolyn; readable content can also be opened from common Microsoft Office, OpenDocument and text formats without a cloud upload. Other selected files may be handed to a compatible installed app. SIGNAL REVIEW The on-demand Guard checks accessible file characteristics and app metadata for transparent risk indicators. It can identify a standard antivirus test string, suspicious naming patterns, package attributes and unusual permission combinations. It reports reasons rather than declaring an item malicious, and the inventory remains local. PERMISSION CONTROLS - All files access: archive navigation, document discovery, reclaim planning and local file signals. - Installed-app visibility: the user-requested Guard inventory. - Install unknown apps: only to pass a selected local APK to Android's own confirmation screen. - VpnService: only for the optional encrypted passage after two consent steps. Mavolyn includes no advertising, behavioral analytics, account system or external crash reporter. A clean review is not proof that every item is harmless; continue to rely on trusted sources and Android security protections. Privacy policy: https://mavolyn.com/privacy/",
+      "analysis": {
+        "app_key": "google:app.mavolyn.securecleaner",
+        "summary_ko": "PDF 문서 열람, 파일 관리, 저장 공간 정리 기능을 통합한 도구 앱입니다. VPN 연결 및 로컬 파일 보안 검사 기능을 제공하여 사용자의 문서 관리와 기기 보안을 돕습니다. 광고나 외부 분석 도구 없이 로컬 중심의 관리를 지향합니다.",
+        "features_ko": [
+          "PDF 파일을 간편하게 열람하고 탐색할 수 있습니다.",
+          "기기 내 저장된 문서와 폴더를 체계적으로 관리합니다.",
+          "저장 공간을 분석하여 불필요한 대용량 파일을 정리합니다.",
+          "선택적 VPN 연결을 통해 네트워크 보안을 지원합니다.",
+          "로컬 파일의 보안 상태를 검사하여 위험 요소를 식별합니다."
+        ],
+        "noteworthy_ko": "파일 관리와 보안 도구를 결합한 점이 특징입니다. 특히 외부 서버를 거치지 않고 로컬에서 보안 검사를 수행한다는 점은 개인 정보 보호를 중시하는 사용자에게 매력적인 접근 방식입니다.",
+        "development_ko": "Android의 파일 시스템 접근 권한과 VpnService API 활용이 핵심입니다. 파일 분석 알고리즘과 보안 지표를 시각화하는 UI 구현이 중요하며, 광고나 분석 도구 없이 순수 기능 위주로 개발하는 것이 특징입니다.",
+        "idea_ko": "파일 관리 기능을 강화하여, 특정 키워드가 포함된 문서를 자동으로 분류해주는 '스마트 문서 태깅' 기능을 제안합니다.",
+        "highlights_ko": [
+          "광고 및 외부 데이터 수집이 없는 로컬 중심의 보안 도구.",
+          "파일 관리와 보안 검사를 통합한 올인원 인터페이스."
+        ],
+        "systems_ko": [
+          "파일 시스템 접근 및 관리 시스템",
+          "PDF 렌더링 엔진",
+          "VPN 연결 관리 시스템",
+          "보안 검사 및 분석 로직",
+          "저장 공간 분석 및 정리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "Android 시스템 권한 제어와 VpnService 구현은 높은 수준의 기술적 이해를 요구합니다. 또한 파일 보안 검사 로직의 정확성을 확보하는 것은 상당한 개발 난이도를 가집니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 파일 탐색기",
+            "PDF 뷰어 기능",
+            "저장 공간 분석 및 삭제 기능"
+          ],
+          "defer": [
+            "VPN 연결 기능",
+            "고급 보안 검사 알고리즘"
+          ],
+          "risks": [
+            "Android 버전별 권한 정책 변화",
+            "파일 삭제 시 데이터 손실 위험"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "문서 자동 분류기",
+            "concept": "파일의 메타데이터와 내용을 분석하여 업무, 개인, 영수증 등으로 자동 분류합니다. 사용자가 일일이 정리할 필요를 줄여줍니다.",
+            "first_step": "파일 확장자 및 이름 기반의 기본 분류 로직 구현."
+          },
+          {
+            "title": "개인 정보 마스킹 도구",
+            "concept": "PDF 내의 주민번호나 전화번호 등 민감한 정보를 자동으로 찾아 마스킹 처리합니다. 문서 공유 전 보안을 강화합니다.",
+            "first_step": "PDF 텍스트 추출 및 특정 패턴(숫자 조합) 탐색 기능 구현."
+          }
+        ],
+        "recommendation_ko": "Android 시스템 API 활용 능력을 기르기에 매우 좋은 앱입니다. 보안과 파일 관리라는 실용적인 기능을 구현하는 과정을 배울 수 있습니다.",
+        "source_limitations_ko": "소개문에 명시된 보안 검사 알고리즘의 구체적인 작동 원리나 VPN 연결의 상세 설정 방식은 확인되지 않습니다.",
+        "name": "PDF Reader",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=app.mavolyn.securecleaner&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 234,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 2,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-26"
+    },
+    "apple:420009108": {
+      "app_key": "apple:420009108",
+      "name": "Temple Run: Classic",
+      "developer": "Imangi Studios, LLC",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_action",
+      "detail_url": "https://apps.apple.com/jp/app/temple-run-classic/id420009108?uo=2",
+      "data_date": "2026-11-26",
+      "analysed_at": "2026-11-26T08:52:12+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "元祖エンドレスランニングアドベンチャー！ モバイルゲームの世界的パイオニア「テンプルラン」のスリルを体験しよう！ 古代寺院、ジャングルの遺跡や崩れそうな崖っぷちを通る心臓ドキドキの冒険のなかで、呪われた神像を盗みだし、しつこいデーモンモンキーたちから逃れよう！ 果てない迷路をランニング、ジャングル脱出、寺院でのアドベンチャーで危険から脱出しよう！ スワイプでターン、ジャンプ、スライディングして致命的な障害物を乗り越えよう 寺院、橋、危険な道を駆け抜けよう コインを集め、多彩なキャラクターを解放し、パワーアップしよう スピード感満載で夢中になる体験で反射神経を試そう 友達と競い合ってリーダーボード上位に載ろう \"テンプルランは、スリル満点のアクション映画のよう - ノンストップで駆け抜けろ！\" – SlideToPlay \"過去最高にスリリングで楽しいランニングゲーム！\"- TheAppera \"豪速の熱狂体験\"– IGN \"ハマる...本当に唯一のランニングゲーム！\" – Appolicious 世界中の5,000万人以上のプレイヤーと一緒に、伝説の宝探し脱出ゲームに参加しよう！ 今すぐダウンロードして、どこまで走れるか試してみよう！",
+      "analysis": {
+        "app_key": "apple:420009108",
+        "summary_ko": "Temple Run은 고대 사원과 정글을 배경으로 하는 원조 엔드리스 러닝 게임입니다. 플레이어는 저주받은 신상을 훔쳐 달아나며 뒤쫓아오는 원숭이 무리를 피해 장애물을 피하고 코인을 수집해야 합니다. 스와이프 조작을 통해 점프, 슬라이딩, 방향 전환을 하며 최대한 멀리 달리는 것이 목표입니다.",
+        "features_ko": [
+          "스와이프 조작을 통해 캐릭터의 점프, 슬라이딩, 방향 전환을 제어합니다.",
+          "끊임없이 생성되는 장애물과 지형을 피하며 달리는 엔드리스 러닝 방식을 채택했습니다.",
+          "게임 중 코인을 수집하여 캐릭터 해금 및 능력치 강화에 사용합니다.",
+          "뒤쫓아오는 적을 피해 긴박한 추격전을 경험할 수 있습니다."
+        ],
+        "noteworthy_ko": "엔드리스 러닝 장르의 표준을 정립한 게임으로, 단순한 조작으로 극도의 긴장감을 유발하는 레벨 디자인이 핵심입니다. 1인 개발 시에는 캐릭터의 애니메이션과 지형 생성 알고리즘의 최적화가 매우 중요할 것으로 추정됩니다.",
+        "development_ko": "핵심 기술은 절차적 지형 생성(Procedural Generation)과 캐릭터의 상태 머신 구현입니다. 콘텐츠 제작 부담은 지형 에셋과 장애물 패턴의 다양성을 확보하는 데 집중됩니다. 테스트 측면에서는 조작의 반응성과 장애물 배치 간의 밸런스를 맞추는 것이 가장 큰 과제입니다.",
+        "idea_ko": "지형이 고정된 것이 아니라 플레이어의 조작에 따라 실시간으로 지형이 변형되는 '지형 조작 러닝' 아이디어가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "직관적인 스와이프 조작으로 누구나 쉽게 즐길 수 있는 액션성을 제공합니다.",
+          "긴박한 추격 상황을 통해 높은 몰입감과 반복 플레이 욕구를 자극합니다."
+        ],
+        "systems_ko": [
+          "절차적 지형 생성 시스템",
+          "캐릭터 상태 머신(달리기, 점프, 슬라이딩)",
+          "입력 판정 및 제스처 인식 시스템",
+          "코인 수집 및 데이터 저장 시스템",
+          "난이도 상승 알고리즘"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기본적인 러닝 메커니즘 구현은 가능하나, 지형이 끊기지 않고 자연스럽게 연결되도록 하는 절차적 생성 알고리즘과 캐릭터 애니메이션의 부드러운 전환을 구현하는 데 기술적 숙련도가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 러닝 및 조작 시스템",
+            "장애물 생성 및 충돌 판정",
+            "캐릭터 애니메이션 전환"
+          ],
+          "defer": [
+            "다양한 캐릭터 해금",
+            "온라인 리더보드",
+            "복잡한 파워업 아이템"
+          ],
+          "risks": [
+            "지형 생성 로직의 버그로 인한 끊김 현상",
+            "조작감의 미세한 차이로 인한 플레이 경험 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중력 반전 러너",
+            "concept": "특정 구간에서 중력이 반전되어 천장을 달리는 러닝 게임입니다. 지형의 위아래를 모두 활용해야 하는 복합적인 조작이 필요합니다.",
+            "first_step": "캐릭터의 중력 방향을 전환하는 간단한 물리 테스트 구현."
+          },
+          {
+            "title": "그림자 추격자",
+            "concept": "플레이어의 움직임을 그대로 따라 하는 그림자가 뒤에서 쫓아오며, 그림자와 부딪히면 게임이 종료되는 긴장감 넘치는 러닝 게임입니다.",
+            "first_step": "플레이어의 이동 경로를 기록하고 재생하는 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "엔드리스 러닝 장르의 기초적인 시스템 구조와 절차적 생성의 개념을 배우기에 매우 좋은 교과서 같은 게임입니다. 조작의 반응성이 게임의 재미에 얼마나 큰 영향을 미치는지 체감할 수 있습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 지형 생성 알고리즘이나 데이터 저장 방식, 수익 모델에 대한 상세 정보가 없습니다. 외부 서비스 연동이나 결제 기능은 명시되지 않았습니다.",
+        "name": "Temple Run: Classic",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/temple-run-classic/id420009108?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-26"
     }
   }
 }

@@ -14424,6 +14424,95 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-25"
+    },
+    "google:solitaire.classicgame.sixty.solitaire.freecard": {
+      "app_key": "google:solitaire.classicgame.sixty.solitaire.freecard",
+      "name": "Bliss Solitaire: Daily Cards",
+      "developer": "Sixty Games",
+      "source": "google",
+      "country": "JP",
+      "category": "game_card",
+      "detail_url": "https://play.google.com/store/apps/details?id=solitaire.classicgame.sixty.solitaire.freecard&hl=ja&gl=JP",
+      "data_date": "2026-11-26",
+      "analysed_at": "2026-11-26T08:49:05+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "ブリスソリティア：シニア世代向けカードゲーム シニア世代とカードゲーム愛好家のためにデザインされた、最高のソリティアゲームが登場！ブリスソリティアは、クラシックなゲームプレイと大きなカードデザイン、そして目に優しいインターフェースを組み合わせ、スマートフォンやタブレットで快適にプレイできます。 🎯 シニア世代に最適： • 大きく見やすいカード：大きなフォントと高コントラストのカードで、細部まで鮮明に表示。 • シンプルなインターフェース：簡単なメニューとタップ＆ドラッグ操作で、ストレスなくプレイできます。 • 配慮の行き届いたアクセシビリティ：左利きモードを搭載し、どなたでも快適にプレイできます。 • 落ち着いたビジュアル：すっきりとしたレイアウトと落ち着いた色使いで、リラックスしてプレイできます。 ⭐ 主な機能： • オフラインプレイ：Wi-Fi 不要。どこでもプレイできます。 • 無制限のヒント＆アンドゥ：必要な時にいつでもヒントとやり直し機能。 • 毎月トロフィーを獲得：デイリーチャレンジに挑戦して、毎月ユニークで美しいデザインのトロフィーを集めましょう！ • 脳トレ：リラックスできるゲームプレイで、思考力と問題解決能力を高めましょう。 • カスタマイズ可能：カードの裏面や表のデザインを変更したり、ドロー 1 またはドロー 3 を選択したりできます。 • 進捗状況の追跡：勝利可能なデッキと統計情報を使って、上達を目指しましょう。 遊び方： すべてのカードを、スートごとにエースからキングまで、基礎山札に並べます。交互に色を変えながら、列を縦に積み上げていきます。定番のパズルゲームがさらに進化しました！ Bliss Solitaire は、毎日の脳トレと、心安らぐひとときをお届けします。今すぐダウンロードして、あなたにぴったりのカードゲームを見つけましょう！ Bliss Solitaire を今すぐ無料でダウンロード！ 退職された方、おじい様やおばあ様、そしてシンプルでクラシックなカードゲームがお好きな方に最適です。 サポート：admin@sixtystudio.com プライバシーポリシー：https://www.sixtystudio.com/privacy-policy.html",
+      "analysis": {
+        "app_key": "google:solitaire.classicgame.sixty.solitaire.freecard",
+        "summary_ko": "시니어 세대와 카드 게임 애호가를 위해 설계된 클래식 솔리테어 게임입니다. 큰 카드 디자인과 눈이 편안한 인터페이스를 제공하여 누구나 쉽게 즐길 수 있습니다. 오프라인 환경에서도 플레이 가능하며 매일 새로운 도전을 제공합니다.",
+        "features_ko": [
+          "에이스부터 킹까지 스토어별로 카드를 정렬하는 규칙을 따릅니다.",
+          "큰 폰트와 고대비 디자인으로 가독성을 높였습니다.",
+          "왼손잡이 모드 등 접근성 옵션을 지원합니다.",
+          "무제한 힌트와 실행 취소 기능을 제공합니다.",
+          "매일 새로운 도전 과제를 통해 트로피를 수집할 수 있습니다."
+        ],
+        "noteworthy_ko": "특정 타겟층(시니어)을 명확히 설정하여 UI/UX를 최적화한 점이 돋보입니다. 기능적 복잡함보다는 사용성을 극대화하는 방향으로 개발되었습니다.",
+        "development_ko": "카드 게임의 규칙 엔진과 상태 관리(Undo/Redo)가 핵심입니다. 가독성을 위한 UI 레이아웃 설계와 다양한 화면 크기에 대응하는 반응형 디자인이 중요합니다.",
+        "idea_ko": "시니어 사용자를 위해 음성 안내 기능을 추가하거나, 카드 이동 시 시각적 가이드를 강화하는 기능을 고려해 볼 수 있습니다.",
+        "highlights_ko": [
+          "시니어 친화적인 고대비 및 대형 카드 디자인.",
+          "오프라인 플레이 지원으로 어디서나 접근 가능."
+        ],
+        "systems_ko": [
+          "카드 덱 셔플 및 분배 알고리즘",
+          "게임 상태 관리(Undo/Redo 스택)",
+          "접근성 UI 설정 시스템",
+          "통계 및 기록 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "게임 규칙 자체는 정형화되어 있으나, Undo/Redo 시스템과 다양한 접근성 옵션을 꼼꼼하게 구현하는 데 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 솔리테어 규칙 엔진",
+            "카드 드래그 앤 드롭",
+            "기본 UI"
+          ],
+          "defer": [
+            "온라인 트로피 시스템",
+            "복잡한 커스터마이징"
+          ],
+          "risks": [
+            "기존 솔리테어 게임과의 차별성 부족",
+            "UI 가독성 테스트의 복잡성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "음성 가이드 솔리테어",
+            "concept": "시각적 정보 외에 음성으로 다음 이동 가능한 수를 안내합니다. 시력이 좋지 않은 사용자에게 큰 도움이 됩니다.",
+            "first_step": "이동 가능한 카드 조합을 판별하는 로직을 음성 출력 함수와 연결."
+          },
+          {
+            "title": "기억력 강화 모드",
+            "concept": "일정 시간 동안 카드 뒷면을 보여준 뒤 뒤집어, 위치를 기억하며 플레이하는 모드입니다.",
+            "first_step": "카드 상태(앞면/뒷면)를 관리하는 플래그와 타이머 로직 구현."
+          }
+        ],
+        "recommendation_ko": "전통적인 게임 규칙을 현대적인 UI/UX로 재해석하는 과정을 배우기에 적합합니다. 접근성 디자인의 중요성을 이해하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 데이터 저장 방식이나 서버 연동 여부가 명시되지 않았습니다. 결제나 광고 기능에 대한 정보도 없습니다.",
+        "name": "Bliss Solitaire: Daily Cards",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=solitaire.classicgame.sixty.solitaire.freecard&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 210,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 10,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-26"
     }
   }
 }

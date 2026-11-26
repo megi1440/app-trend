@@ -27523,6 +27523,179 @@
         "thoughtsTokenCount": 3361,
         "serviceTier": "standard"
       }
+    },
+    "apple:6689512729": {
+      "app_key": "apple:6689512729",
+      "name": "Colibri - Taiwan Receipt Scan",
+      "developer": "Roland Worz",
+      "source": "apple",
+      "kind": "app",
+      "detail_url": "https://apps.apple.com/kr/app/colibri-taiwan-receipt-scan/id6689512729?uo=2",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:6689512729",
+        "product_kind": "app",
+        "original_experience_ko": "영수증 및 QR 코드 스캔을 통해 번호와 유효 기간을 인식하고, 오프라인 환경에서 자동으로 분류 및 그룹화하여 주기적인 복권 당첨 여부를 확인하는 유틸리티 경험.",
+        "source_facts_and_limitations_ko": [
+          "스토어 확인 사실: 텍스트 및 QR 코드 스캔 기능, 영수증 번호와 유효 기간 자동 매칭 및 그룹화, 오프라인 동작, 2개월 주기의 공식 복권 번호 동기화.",
+          "한계 및 미확인 사항: 사용된 OCR 엔진의 종류, 데이터 정밀도, 대만 지역 외 타 국가 확장성 및 상세 매칭 알고리즘은 확인되지 않음."
+        ],
+        "valuable_elements_ko": [
+          "카메라를 통한 신속한 문서/영수증 캡처 및 OCR/QR 인식 기능",
+          "추출된 텍스트와 기간 정보를 바탕으로 한 자동 그룹화 및 정렬 로직",
+          "인터넷 연결 없이 로컬 저장소 중심으로 동작하는 오프라인 우선 설계"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "그린리시트: 친환경 소비 및 탄소 포인트 관리",
+            "core_idea_ko": "일상적인 쇼핑 영수증을 스캔하여 친환경 인증 마크나 에코 제품 구매 내역을 OCR로 자동 추출하고, 지자체 탄소중립 포인트 적립 기한과 매칭하여 관리하는 유틸리티 앱.",
+            "what_to_keep_ko": "영수증 촬영 및 OCR/QR 빠른 인식, 기간별 자동 그룹화 및 정렬, 오프라인 저장 기능.",
+            "what_to_change_ko": "복권 번호 추첨 대신 친환경 상품 품목 인식 및 탄소 포인트 유효 기간 산정, 적립 신청 마감일 알림 기능으로 전환.",
+            "mobile_use_or_play_ko": "마트 영수증 촬영 -> OCR이 제품명 및 친환경 마크 인식 -> 탄소 포인트 적립 가능 기간 자동 매칭 -> 마감일 기준 정렬 및 확인.",
+            "key_features_ko": [
+              "친환경 품목 특화 OCR 파서",
+              "탄소 포인트 적립 기한 자동 매칭",
+              "마감 임박 리스트 정렬 및 로컬 알림"
+            ],
+            "solo_mvp_and_effort_ko": "모바일 온디바이스 OCR 라이브러리 연동 및 SQLite 기반 로컬 DB 구축. 1인 개발로 핵심 스캔 및 매칭 로직 구현 가능.",
+            "strengths_limits_ko": "친환경 소비 트렌드 부합. 단, 마트마다 다른 영수증 포맷 대응과 친환경 품목 데이터베이스 구축에 공수가 듦."
+          },
+          {
+            "title_ko": "세이프가드: 영수증 기반 보증 및 교환 기한 관리",
+            "core_idea_ko": "구매 영수증을 스캔하여 상품명, 가격, 교환/환불 가능 기한 및 제조사 보증 기간을 자동 추출하고 만료 전 사용자에게 알려주는 소비자 보호 유틸리티 앱.",
+            "what_to_keep_ko": "오프라인 영수증 스캔, 날짜 정보 추출, 유효 기간 자동 매칭 및 그룹화 구조.",
+            "what_to_change_ko": "복권 당첨 확인 대신 제품별 교환·환불 마감일과 보증 기간 만료일을 추적하는 기간 관리 중심 시스템으로 변경.",
+            "mobile_use_or_play_ko": "물품 구매 후 영수증 촬영 -> OCR이 구매일과 상점별 반품 기한 계산 -> 남은 기간별로 정렬하여 대시보드 표시 -> 만료 전 푸시 알림.",
+            "key_features_ko": [
+              "구매일 및 상점별 반품 규정 자동 산출 로직",
+              "보증 기간 만료 D-Day 카운트다운",
+              "카테고리/제품별 영수증 이미지 아카이빙"
+            ],
+            "solo_mvp_and_effort_ko": "로컬 카메라 제어, 기본 OCR 처리, 날짜 연산 라이브러리를 활용한 단독 앱 구현. 난이도 보통.",
+            "strengths_limits_ko": "실생활에 유용하며 명확한 타겟층 확보 가능. 영수증 텍스트 속 모호한 상호명 및 반품 규정 파악의 정확도 한계 극복 필요."
+          },
+          {
+            "title_ko": "스플릿노트: 영수증 항목별 자동 분할 정산",
+            "core_idea_ko": "단체 모임이나 회식 영수증을 촬영하면 OCR이 전체 메뉴와 가격 항목을 인식하고, 사용자가 각 항목을 참여자에게 할당하여 정확한 더치페이 금액을 산출하는 정산 도구.",
+            "what_to_keep_ko": "복잡하고 긴 텍스트가 담긴 영수증을 오프라인에서 빠르게 스캔하고 인식하는 OCR 기술.",
+            "what_to_change_ko": "날짜 및 복권 번호 매칭 대신, 영수증의 다중 항목 텍스트 분할 및 인물별 매칭 로직으로 기능 확장.",
+            "mobile_use_or_play_ko": "회식 영수증 촬영 -> OCR로 메뉴 및 가격 리스트 자동 추출 -> 각 메뉴를 터치하여 참여자에게 배분 -> 총액 계산 및 정산 요청 텍스트 생성.",
+            "key_features_ko": [
+              "영수증 라인 아이템 자동 분할 OCR",
+              "참여자별 다중 항목 매칭 인터페이스",
+              "정산 금액 계산 및 클립보드 공유"
+            ],
+            "solo_mvp_and_effort_ko": "UI 인터페이스와 OCR 결과 데이터 구조화에 집중. 로컬 저장 및 공유 기능으로 MVP 완성 가능.",
+            "strengths_limits_ko": "모임 정산 시 실용성이 높음. 단, 영수증 인쇄 상태가 좋지 않을 때 품목별 가격 분할 오류 수정 UI의 편의성이 관건."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어(그린리시트)는 친환경 트렌드와 포인트 적립이라는 가치를 결합했으며, 두 번째 아이디어(세이프가드)는 교환·환불 및 보증 기한 관리에 집중해 실용성이 높고, 세 번째 아이디어(스플릿노트)는 영수증 OCR을 더치페이 정산이라는 고빈도 상호작용 문제로 전환합니다. 세 가지 모두 영수증 스캔과 기간/항목 매칭이라는 원본의 핵심 자산을 서로 다른 사용자 목적에 맞게 발전시켰습니다.",
+        "recommended_concept_number": 2,
+        "why_recommended_ko": "세이프가드(영수증 기반 보증 및 교환 기한 관리)는 원본 앱이 가진 영수증 스캔 및 기간 매칭 구조를 가장 범용적인 소비자 문제 해결로 확장합니다. 지역 제한이 없어져 글로벌 확장성이 높고, 1인 개발자가 오프라인 우선 구조로 구현하기에 적합하며 실생활 유용성이 큽니다.",
+        "next_questions_ko": [
+          "모바일 온디바이스 OCR 라이브러리가 다양한 형태의 영수증 폰트와 구겨진 종이를 얼마나 정확히 인식하는지 테스트 필요",
+          "사용자가 수동으로 구매일과 반품 기한을 수정해야 하는 예외 상황을 처리할 직관적인 UI 설계 방향 검토"
+        ]
+      },
+      "brief_at": "2026-11-26T09:14:46+09:00",
+      "brief_quota_day": "2026-11-26",
+      "brief_usage": {
+        "promptTokenCount": 1504,
+        "candidatesTokenCount": 1806,
+        "totalTokenCount": 6781,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1504
+          }
+        ],
+        "thoughtsTokenCount": 3471,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:6689512729",
+        "product_kind": "app",
+        "selected_concept_title_ko": "세이프가드: 영수증 기반 보증 및 교환 기한 관리",
+        "project_goal_and_audience_ko": "물품 구매 후 영수증 분실이나 교환·환불 및 보증 기간 만료를 놓쳐 손해를 보는 일반 소비자를 위한 모바일 유틸리티 앱입니다. 종이 영수증을 간편하게 스캔하여 반품 가능일과 보증 기한을 자동으로 추적하고 관리하여 소비자 권익을 보호합니다.",
+        "source_relation_and_difference_ko": "원본 앱의 핵심인 '오프라인 영수증 스캔 및 날짜 정보 기반 자동 그룹화 구조'를 그대로 계승합니다. 차이점은 대만 복권 당첨 번호 확인이라는 지역 한정 목적을 탈피하여, 전 세계 누구나 일상에서 겪는 쇼핑 반품·보증 기간 관리라는 범용적 소비자 보호 목적의 기능으로 재해석한 것입니다.",
+        "core_user_experience_ko": "사용자가 물건을 구매한 뒤 영수증을 카메라로 촬영하면, 내장된 OCR 엔진이 영수증 텍스트에서 구매일과 상점 정보를 추출하고 상점별 표준 반품 기한을 더해 만료일을 자동 계산합니다. 메인 대시보드에서는 남은 기한에 따라 D-Day 순으로 영수증이 정렬되어 직관적인 시각 피드백을 제공합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "스마트 영수증 스캔 및 OCR 추출",
+            "user_action_and_behavior_ko": "사용자가 카메라 뷰파인더로 영수증을 촬영하면 앱이 로컬 OCR을 실행해 날짜, 상점명, 총액을 텍스트로 변환하고 편집 가능한 초안을 표시합니다. 오프라인에서도 작동하여 네트워크가 없는 매장에서도 즉시 기록할 수 있습니다.",
+            "practical_implementation_ko": "Google ML Kit Text Recognition API를 활용해 온디바이스(On-device) 환경에서 텍스트를 추출하고, 정규식(Regex)을 이용해 날짜 패턴을 파싱합니다."
+          },
+          {
+            "feature_ko": "반품 및 보증 기한 자동 산출",
+            "user_action_and_behavior_ko": "추출된 구매일과 상점 카테고리(예: 대형마트, 백화점, 일반 소매점)에 맞춰 교환·환불 마감일과 보증 만료일을 계산하여 목록에 반영합니다. 사용자는 남은 기간을 색상 경고(초록, 노랑, 빨강)로 직관적으로 확인합니다.",
+            "practical_implementation_ko": "로컬에 저장된 상점별 기본 반품 정책 데이터(JSON 매핑)와 날짜 연산 라이브러리(DateTime)를 결합하여 자동으로 마감일을 산출합니다."
+          },
+          {
+            "feature_ko": "만료 임박 로컬 알림",
+            "user_action_and_behavior_ko": "반품 기한이나 보증 만료일이 임박한 항목(예: D-3, D-1)에 대해 사용자에게 푸시 알림을 발송하여 환불 시기를 놓치지 않도록 돕습니다.",
+            "practical_implementation_ko": "Flutter local_notifications 패키지를 사용하고, 앱 실행 시 로컬 SQLite에 저장된 만료일을 기준으로 알림 스케줄을 갱신합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 대시보드 화면",
+            "contents_and_actions_ko": "현재 유효한 영수증 목록이 남은 기한(D-Day) 순으로 정렬되어 표시되며, 상단에는 임박한 항목 요약, 하단에는 스캔 진입 버튼이 위치합니다."
+          },
+          {
+            "screen_ko": "영수증 스캔 및 편집 화면",
+            "contents_and_actions_ko": "카메라 뷰파인더와 촬영 버튼이 제공되며, 촬영 직후 OCR이 추출한 데이터(상점명, 구매일, 반품일)를 사용자가 수동으로 검증하고 수정할 수 있는 입력 폼을 제공합니다."
+          },
+          {
+            "screen_ko": "영수증 상세 화면",
+            "contents_and_actions_ko": "영수증 원본 이미지, 품목 내역, 보증 만료일, 메모를 전체 화면으로 확인하고, 삭제 또는 수정을 수행할 수 있습니다."
+          }
+        ],
+        "implementation_approach_ko": "크로스플랫폼 개발이 유리하고 카메라 및 로컬 패키지 연동이 안정적인 Flutter 프레임워크를 채택합니다. 오프라인 우선(Offline-First) 설계 원칙에 따라 데이터베이스는 SQLite(sqflite)를 사용하여 외부 서버 의존 없이 빠르고 안전하게 동작하도록 구성합니다.",
+        "data_and_storage_ko": [
+          "Receipt 객체: id (PK), storeName (상점명), purchaseDate (구매일), returnDeadline (반품 마감일), warrantyExpiryDate (보증 만료일), imagePath (영수증 이미지 로컬 경로), status (상태: active, expired)",
+          "StorePolicy 객체: categoryId, defaultReturnDays (기본 반품 일수), defaultWarrantyMonths",
+          "로컬 저장소: sqflite를 이용한 온디바이스 관계형 데이터베이스 저장 및 path_provider를 이용한 앱 문서 디렉토리에 영수증 이미지 파일 저장"
+        ],
+        "mvp_scope_ko": "카메라 촬영 및 온디바이스 OCR 텍스트 추출, 추출된 날짜 기반의 반품 D-Day 자동 계산, SQLite 저장 및 목록 정렬 기능까지만 포함합니다. 클라우드 백업, 복잡한 품목별 세부 항목 파싱, 상점 커스텀 정책 편집 등은 MVP 이후 단계로 미뤄 핵심 검증에 집중합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 환경 세팅 및 로컬 DB 구축",
+            "deliverable_and_check_ko": "Flutter 프로젝트 초기화 및 sqflite 기반 영수증 테이블 스키마 생성 확인."
+          },
+          {
+            "stage_ko": "2단계: 카메라 연동 및 OCR 텍스트 추출 구현",
+            "deliverable_and_check_ko": "ML Kit을 활용해 촬영된 이미지에서 날짜 및 텍스트 데이터 추출 성공 여부 확인."
+          },
+          {
+            "stage_ko": "3단계: 날짜 계산 로직 및 대시보드 UI 구현",
+            "deliverable_and_check_ko": "추출된 날짜를 바탕으로 D-Day 계산 및 목록 정렬 UI가 정상 동작하는지 확인."
+          }
+        ],
+        "possible_extensions_ko": "사용자 맞춤 상점 반품 규정 편집 기능, 영수증 품목별 개별 보증서 등록 기능, 구글 드라이브/아이클라우드 기반의 선택적 백업 기능.",
+        "risks_and_open_decisions_ko": [
+          "다양한 영수증 폰트와 인쇄 상태로 인한 OCR 인식률 저하 문제 (사용자 수동 보정 인터페이스로 보완 예정)",
+          "상점별로 제각각인 반품 규정 데이터를 어떻게 표준화하고 유지보수할 것인지에 대한 설계 결정 필요"
+        ],
+        "draft_status_ko": "본 문서는 '세이프가드' 앱의 개념 검증을 위한 개발 설계 초안이며, 실제 구현, 디바이스별 OCR 테스트 및 성능 측정이 완료되지 않은 상태입니다."
+      },
+      "plan_at": "2026-11-26T09:15:03+09:00",
+      "plan_quota_day": "2026-11-26",
+      "plan_usage": {
+        "promptTokenCount": 2098,
+        "candidatesTokenCount": 1815,
+        "totalTokenCount": 6339,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2098
+          }
+        ],
+        "thoughtsTokenCount": 2426,
+        "serviceTier": "standard"
+      }
     }
   }
 }

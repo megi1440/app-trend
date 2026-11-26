@@ -14272,6 +14272,98 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-25"
+    },
+    "google:com.Yostar.AzurpromiliaJP": {
+      "app_key": "google:com.Yostar.AzurpromiliaJP",
+      "name": "アズールプロミリア",
+      "developer": "Yostar Limited.",
+      "source": "google",
+      "country": "JP",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.Yostar.AzurpromiliaJP&hl=ja&gl=JP",
+      "data_date": "2026-11-26",
+      "analysed_at": "2026-11-26T08:48:47+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Manjuu GamesとYostarが贈る、星霊と旅するファンタジーワールドRPG『アズールプロミリア』。 プレイヤーは予言された「星臨者」としてプロミリア大陸に降り立ち、個性豊かな仲間たちと災厄に立ち向かう旅に出ます。 彩りにあふれた文化と生態系が広がり、さまざまな種族が共生する世界で、プレイヤーは各地に息づく幻想的な生きもの「キボ」と絆を結び、協力して農園を管理し、世界を脅かす敵と戦いながら、この遥かな大地に眠る謎を解き明かす冒険譚を紡いでいきます。",
+      "analysis": {
+        "app_key": "google:com.Yostar.AzurpromiliaJP",
+        "summary_ko": "프로미리아 대륙을 배경으로 하는 판타지 월드 RPG입니다. 플레이어는 '성림자'가 되어 동료들과 함께 모험하며 환상적인 생물 '키보'와 교감합니다. 농원 관리와 전투를 통해 세계의 비밀을 밝혀나가는 서사를 담고 있습니다.",
+        "features_ko": [
+          "다양한 종족과 문화가 공존하는 판타지 세계를 탐험합니다.",
+          "환상적인 생물 '키보'와絆(인연)을 맺고 협력합니다.",
+          "농원을 직접 관리하며 자원을 생산하고 운영합니다.",
+          "세계의 위협에 맞서 다양한 동료들과 전투를 수행합니다.",
+          "대륙 곳곳에 숨겨진 수수께끼를 해결하는 모험을 즐깁니다."
+        ],
+        "noteworthy_ko": "생물과의 교감 시스템과 농원 관리라는 생활형 콘텐츠를 전투 RPG와 결합한 점이 특징입니다. 오픈 월드 형태의 탐험과 수집 요소가 결합되어 있어 개발 규모가 매우 클 것으로 추정됩니다.",
+        "development_ko": "방대한 오픈 월드 맵 제작과 고품질 캐릭터 모델링이 핵심입니다. 생물(키보)의 AI 행동 패턴과 농원 시스템의 데이터 관리, 그리고 실시간 전투 시스템의 밸런스 조정이 매우 큰 부담이 될 것입니다.",
+        "idea_ko": "키보와의 교감 시스템을 확장하여, 특정 키보와 함께해야만 갈 수 있는 퍼즐 던전을 설계하는 아이디어를 제안합니다.",
+        "highlights_ko": [
+          "환상적인 생물 '키보'와의 교감 및 협력 시스템.",
+          "농원 관리와 전투가 결합된 복합적인 게임 플레이."
+        ],
+        "systems_ko": [
+          "오픈 월드 탐험 시스템",
+          "실시간 전투 엔진",
+          "생물 AI 및 교감 시스템",
+          "농원 경영 및 생산 시스템",
+          "퀘스트 및 스토리 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "오픈 월드 RPG는 방대한 콘텐츠와 시스템 복잡도로 인해 1인 개발이 매우 어렵습니다. 특히 생물 AI와 농원 시스템, 전투 밸런스를 모두 구현하는 것은 상당한 기술적 역량을 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 기본 공격 시스템",
+            "키보와의 상호작용 로직",
+            "기본적인 퀘스트 진행 시스템"
+          ],
+          "defer": [
+            "방대한 오픈 월드 맵",
+            "복잡한 농원 경영 시뮬레이션",
+            "멀티플레이어 기능"
+          ],
+          "risks": [
+            "콘텐츠 제작량 과다",
+            "시스템 간 밸런스 붕괴",
+            "최적화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "키보 조련사 모험",
+            "concept": "전투보다는 키보를 수집하고 훈련시키는 것에 집중한 육성 게임입니다. 다양한 환경에서 키보를 발견하고 길들이는 과정을 강조합니다.",
+            "first_step": "키보의 기본 이동 및 플레이어 추종 AI 구현."
+          },
+          {
+            "title": "농원 경영 일기",
+            "concept": "전투를 배제하고 농원을 가꾸며 키보와 함께 자원을 채집하는 힐링 게임입니다. 계절에 따른 작물 변화와 키보의 도움을 중심으로 합니다.",
+            "first_step": "작물 심기 및 수확 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "대규모 RPG의 시스템 구조를 분석하고, 다양한 콘텐츠가 어떻게 유기적으로 연결되는지 학습하기 좋습니다. 다만 1인 개발 시에는 범위를 대폭 축소해야 합니다.",
+        "source_limitations_ko": "소개문에는 전투 방식, 농원 시스템의 구체적인 규칙, 키보의 종류와 능력치 등에 대한 상세 정보가 없습니다.",
+        "name": "アズールプロミリア",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.Yostar.AzurpromiliaJP&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 235,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-26"
     }
   }
 }
