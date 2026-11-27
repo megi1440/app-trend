@@ -13209,6 +13209,96 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-26"
+    },
+    "google:com.amazon.storm.lightning.client.aosp": {
+      "app_key": "google:com.amazon.storm.lightning.client.aosp",
+      "name": "Amazon Fire TV",
+      "developer": "Amazon Mobile LLC",
+      "source": "google",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.amazon.storm.lightning.client.aosp&hl=en&gl=US",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T09:06:45+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Your entertainment sidekick wherever you go. The Fire TV mobile app puts the Fire TV experience at your fingertips—whether you're on the couch or on the move. Discover & personalize your entertainment anywhere: Browse titles and get personalized recommendations. Search for movies, TV shows, and more across all your services. Build and fine-tune your watchlist in the moment. Easy control & setup: Launch it all on your big screen with seamless control. Enjoy fast text entry using your mobile keyboard. Set up new Fire TV devices quickly and easily. Compatibility: Requires an Amazon account and connection to the same Wi-Fi network as your Fire TV to launch content to your TV. Some features require a compatible Fire TV. By using this app, you agree to Amazon's Conditions of Use (www.amazon.com/conditionsofuse) and Privacy Notice (www.amazon.com/privacy).",
+      "analysis": {
+        "app_key": "google:com.amazon.storm.lightning.client.aosp",
+        "summary_ko": "Fire TV 기기를 모바일에서 제어하고 콘텐츠를 탐색하는 보조 앱입니다. 모바일 키보드를 통한 빠른 텍스트 입력과 기기 설정을 지원합니다. 개인화된 추천을 확인하고 시청 목록을 관리할 수 있습니다.",
+        "features_ko": [
+          "모바일 기기를 사용하여 Fire TV를 원격으로 제어합니다.",
+          "모바일 키보드를 통해 TV 화면에 텍스트를 빠르게 입력합니다.",
+          "영화 및 TV 프로그램에 대한 개인화된 추천을 제공합니다.",
+          "시청 목록을 생성하고 관리할 수 있습니다.",
+          "새로운 Fire TV 기기를 간편하게 설정합니다."
+        ],
+        "noteworthy_ko": "로컬 네트워크 내 기기 검색 및 제어 프로토콜이 핵심입니다. 사용자 경험을 위해 모바일과 TV 간의 지연 없는 연결과 직관적인 UI 설계가 중요하며, 리모컨 기능을 앱으로 대체하는 접근이 흥미롭습니다.",
+        "development_ko": "핵심 기술은 로컬 네트워크 통신(mDNS 등)과 기기 제어 프로토콜입니다. 콘텐츠 제작 부담은 적으나, 다양한 기기 환경에서의 연결 안정성 확보가 중요합니다. 테스트는 실제 기기와의 연동 확인이 필수적입니다.",
+        "idea_ko": "로컬 네트워크 내의 스마트 기기들을 하나의 앱에서 통합 제어하는 대시보드 앱을 제안합니다.",
+        "highlights_ko": [
+          "모바일 키보드를 활용한 TV 입력 편의성.",
+          "Fire TV 기기 제어 및 설정 통합."
+        ],
+        "systems_ko": [
+          "로컬 네트워크 기기 검색(Discovery)",
+          "기기 제어 통신 프로토콜",
+          "사용자 계정 및 시청 데이터 관리",
+          "텍스트 입력 동기화 시스템",
+          "기기 설정 및 페어링 로직"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "네트워크 통신에 대한 이해가 필요하지만, 기능 자체가 명확하고 데이터 처리가 단순하여 1인 개발이 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기기 검색 및 연결",
+            "기본 리모컨 제어 버튼",
+            "텍스트 입력 기능"
+          ],
+          "defer": [
+            "개인화된 추천 알고리즘",
+            "복잡한 기기 설정 마법사"
+          ],
+          "risks": [
+            "네트워크 환경에 따른 연결 불안정",
+            "기기별 프로토콜 호환성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스마트 홈 리모컨",
+            "concept": "로컬 네트워크 내의 여러 스마트 기기를 하나의 앱에서 제어하는 통합 리모컨입니다.",
+            "first_step": "기기 검색 및 기본 명령 전송 구현."
+          },
+          {
+            "title": "미디어 큐레이터",
+            "concept": "여러 스트리밍 서비스의 시청 목록을 통합 관리하는 앱입니다.",
+            "first_step": "시청 목록 데이터베이스 설계."
+          }
+        ],
+        "recommendation_ko": "네트워크 통신과 기기 간 연동 앱을 개발하고 싶다면 추천합니다. 사용자 편의성을 위한 UI/UX 설계 능력을 기르기에 좋습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 통신 프로토콜이나 API 사양이 명시되어 있지 않습니다. 외부 서비스 연동 및 보안 기능은 확인되지 않았습니다.",
+        "name": "Amazon Fire TV",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.amazon.storm.lightning.client.aosp&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
     }
   }
 }

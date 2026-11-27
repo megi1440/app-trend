@@ -14228,6 +14228,179 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-26"
+    },
+    "itch:9c94055226ed0f27b703": {
+      "app_key": "itch:9c94055226ed0f27b703",
+      "name": "Kick The Piñata! [Free] [Other] [Windows] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://eduardscarpato.itch.io/kick-the-pinata",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T09:00:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Grab your trusty bat and smash piñatas in this colorful and completely normal incremental game",
+      "analysis": {
+        "app_key": "itch:9c94055226ed0f27b703",
+        "summary_ko": "피냐타를 방망이로 두드려 부수는 단순한 방식의 방치형 게임입니다. 다채로운 비주얼을 제공하며, 피냐타를 파괴하며 진행하는 점진적 성장 경험을 강조합니다.",
+        "features_ko": [
+          "방망이를 사용하여 피냐타를 타격하는 기본 상호작용을 제공합니다.",
+          "피냐타를 파괴하여 점수를 획득하는 방치형 게임 루프를 포함합니다."
+        ],
+        "noteworthy_ko": "매우 단순한 클릭커 메커니즘을 기반으로 하여 개발 초기 단계의 프로토타이핑에 적합합니다. 피냐타가 파괴되는 시각적 피드백이 게임의 핵심 재미 요소로 추정됩니다.",
+        "development_ko": "핵심 기술은 클릭 이벤트 처리와 오브젝트 파괴 애니메이션입니다. 콘텐츠 제작 부담은 낮으나, 반복적인 클릭에 대한 보상 밸런스를 맞추는 것이 중요합니다.",
+        "idea_ko": "피냐타의 종류에 따라 다른 타격 효과음과 파편 효과를 부여하여 수집 요소를 강화하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "다채로운 색감의 비주얼 스타일을 채택하고 있습니다.",
+          "피냐타를 부수는 직관적인 액션 중심의 게임입니다."
+        ],
+        "systems_ko": [
+          "클릭 입력 처리 시스템",
+          "점수 및 재화 관리 시스템",
+          "오브젝트 파괴 애니메이션 시스템",
+          "업그레이드 및 보상 밸런스 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "게임의 메커니즘이 매우 단순하여 1인 개발자가 핵심 기능을 구현하기에 기술적 난도가 낮습니다. 복잡한 물리 엔진 없이도 스프라이트 애니메이션만으로 구현 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "피냐타 클릭 및 타격 애니메이션",
+            "점수 카운터",
+            "기본 업그레이드 상점"
+          ],
+          "defer": [
+            "다양한 피냐타 스킨",
+            "클라우드 저장 기능"
+          ],
+          "risks": [
+            "단조로운 플레이로 인한 빠른 흥미 상실"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "피냐타 커스터마이징",
+            "concept": "플레이어가 직접 피냐타의 외형이나 색상을 변경할 수 있게 합니다. 파괴 시 나오는 아이템의 종류를 다르게 설정하여 수집 욕구를 자극합니다.",
+            "first_step": "이미지 교체 기능을 통해 피냐타 외형을 변경하는 로직 구현."
+          },
+          {
+            "title": "콤보 타격 시스템",
+            "concept": "일정 시간 내에 빠르게 클릭하면 콤보가 쌓여 파괴 속도가 빨라집니다. 콤보 수치에 따라 피냐타가 흔들리는 강도를 다르게 표현합니다.",
+            "first_step": "타이머 기반의 콤보 카운터 변수와 UI 연동."
+          }
+        ],
+        "recommendation_ko": "클릭커 게임의 기본 구조를 익히기에 적합합니다. 단순한 메커니즘에서 어떻게 재미를 확장할지 고민하는 연습용으로 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 업그레이드 항목, 게임 내 재화의 용도, 피냐타의 종류 등 상세 콘텐츠는 확인되지 않습니다.",
+        "name": "Kick The Piñata! [Free] [Other] [Windows] [Linux]",
+        "source": "itch",
+        "detail_url": "https://eduardscarpato.itch.io/kick-the-pinata",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 371,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 3,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
+    },
+    "apple:6504139702": {
+      "app_key": "apple:6504139702",
+      "name": "TempPro",
+      "developer": "iTronics Co., Limited",
+      "source": "apple",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://apps.apple.com/us/app/temppro/id6504139702?uo=2",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T09:05:39+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "The latest TempPro APP is now compatible with TempPro WiFi and Bluetooth remote meat thermometers. formerly known as ThermoPro ，You will now be able to remotely monitor the time and temperature of your food cooking on the grill, smoker, BBQ, or oven.",
+      "analysis": {
+        "app_key": "apple:6504139702",
+        "summary_ko": "TempPro는 그릴, 훈연기, 오븐 등에서 요리하는 음식의 온도와 시간을 원격으로 모니터링할 수 있는 앱입니다. 기존 ThermoPro 브랜드의 최신 버전으로, WiFi 및 Bluetooth 연결을 지원합니다. 사용자는 조리 중인 음식의 상태를 실시간으로 확인하여 요리의 완성도를 높일 수 있습니다.",
+        "features_ko": [
+          "WiFi 및 Bluetooth를 통해 원격으로 온도계와 연결합니다.",
+          "조리 중인 음식의 현재 온도와 남은 시간을 모니터링합니다.",
+          "그릴, 훈연기, BBQ, 오븐 등 다양한 조리 환경을 지원합니다."
+        ],
+        "noteworthy_ko": "하드웨어 온도계와 모바일 앱을 연동하여 실시간 데이터를 시각화하는 전형적인 IoT 도구입니다. 데이터 전송의 안정성과 저전력 통신 유지 관리가 개발의 핵심일 것으로 추정됩니다.",
+        "development_ko": "Bluetooth Low Energy(BLE) 및 WiFi 통신 프로토콜 구현이 핵심입니다. 하드웨어 센서에서 전달되는 데이터를 실시간으로 파싱하여 UI에 반영해야 하며, 연결 끊김 시 재연결 로직이 중요합니다. 테스트 시 다양한 환경에서의 통신 안정성 확보가 큰 부담이 될 것입니다.",
+        "idea_ko": "특정 온도 도달 시 알림을 넘어, 요리 단계별로 최적의 팁을 제공하는 스마트 레시피 가이드 기능을 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "다양한 조리 기구와 호환되는 범용적인 원격 모니터링 기능.",
+          "기존 ThermoPro 사용자 기반을 계승한 안정적인 연결성."
+        ],
+        "systems_ko": [
+          "BLE/WiFi 통신 모듈",
+          "실시간 데이터 파싱 엔진",
+          "상태 알림 시스템",
+          "사용자 설정 및 프로필 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "하드웨어와의 안정적인 통신 프로토콜 구현은 소프트웨어 개발만으로는 해결할 수 없는 물리적 제약이 많습니다. 실시간 데이터 동기화와 예외 처리의 복잡도가 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기기 페어링 및 연결",
+            "실시간 온도 표시",
+            "온도 임계값 알림"
+          ],
+          "defer": [
+            "클라우드 데이터 저장",
+            "사용자 커뮤니티 기능"
+          ],
+          "risks": [
+            "하드웨어 기기와의 호환성 문제",
+            "통신 지연으로 인한 데이터 불일치"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "온도 변화 그래프 분석기",
+            "concept": "조리 시간 동안의 온도 변화를 그래프로 기록하여 나만의 요리 데이터를 축적합니다. 성공적인 요리의 온도 프로필을 저장하고 공유할 수 있습니다.",
+            "first_step": "온도 데이터를 시간 순으로 배열하여 차트로 시각화하는 라이브러리 구현."
+          },
+          {
+            "title": "스마트 타이머 알림",
+            "concept": "단순 온도 알림을 넘어, 고기 두께와 목표 온도에 따른 예상 조리 시간을 계산해주는 예측 시스템입니다.",
+            "first_step": "기본적인 온도-시간 계산 로직을 포함한 타이머 기능 개발."
+          }
+        ],
+        "recommendation_ko": "IoT 기기 연동 앱의 기본 구조를 배우기에 적합합니다. 다만 하드웨어 없이 소프트웨어만으로 개발할 경우 시뮬레이터 구현이 필수적입니다.",
+        "source_limitations_ko": "소개문에는 구체적인 통신 프로토콜이나 데이터 암호화 방식이 명시되어 있지 않습니다. 실제 하드웨어와의 연동 규격은 별도의 문서가 필요합니다.",
+        "name": "TempPro",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/temppro/id6504139702?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 168,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
     }
   }
 }

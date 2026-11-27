@@ -15921,6 +15921,183 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-26"
+    },
+    "google:com.RC58.fashion.arena.dressup.game": {
+      "app_key": "google:com.RC58.fashion.arena.dressup.game",
+      "name": "Fashion Arena: Dress Up Game",
+      "developer": "Sprigame",
+      "source": "google",
+      "country": "US",
+      "category": "game_casual",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.RC58.fashion.arena.dressup.game&hl=en&gl=US",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T09:05:39+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Welcome to Fashion Arena: Dress Up Game – the ultimate style battle and fashion makeover experience! Are you ready to rule the runway and show off your unique fashion taste? Step into the world of glamor, design stunning outfits, and compete against players in exciting dress-up battles to become the ultimate fashion queen! Key Features: Fashion Arena Battles: Compete head-to-head in real-time fashion showdowns. Dress up according to themes like Casual, Glam Beach, Party Night, and Red Carpet! Ultimate Wardrobe Collection: Unlock hundreds of trendy clothes, stylish dresses, Y2K tops, chic skirts, shoes, bags, and luxury accessories. Glamorous Makeup Studio: Complete your look with stunning makeup options—choose hair styles, lipsticks, eye shadows, and accessories. Judge & Win: Score votes, win trophies, earn gems, and climb the global leaderboards to prove your styling prowess. Daily Style Challenges: Join daily events and seasonal fashion shows to unlock exclusive designer outfits. Whether you love fashion design, makeover games, or competitive dress-up challenges, Fashion Arena: Dress Up Game is your personal runway. Express your creativity, master every dress code, and dominate the arena today! Download Fashion Arena: Dress Up Game now and start your glamorous journey!",
+      "analysis": {
+        "app_key": "google:com.RC58.fashion.arena.dressup.game",
+        "summary_ko": "Fashion Arena는 다양한 테마에 맞춰 의상을 선택하고 다른 플레이어와 스타일 대결을 펼치는 캐주얼 드레스업 게임입니다. 사용자는 수백 가지의 의상과 메이크업 아이템을 활용해 자신만의 스타일을 완성할 수 있습니다. 글로벌 리더보드와 일일 챌린지를 통해 경쟁적인 재미를 제공합니다.",
+        "features_ko": [
+          "테마별로 의상을 조합하여 실시간 스타일 대결을 진행합니다.",
+          "다양한 의류, 액세서리, 메이크업 아이템으로 캐릭터를 꾸밉니다.",
+          "다른 플레이어의 투표를 통해 승패가 결정되는 경쟁 시스템입니다.",
+          "일일 챌린지 및 시즌별 패션쇼에 참여하여 보상을 획득합니다."
+        ],
+        "noteworthy_ko": "사용자의 창의성을 경쟁 요소와 결합한 점이 흥미롭습니다. 투표 시스템을 통해 커뮤니티 참여를 유도하고 리텐션을 높이는 구조로 보입니다.",
+        "development_ko": "방대한 의상 에셋 관리와 캐릭터 커스터마이징 시스템이 핵심입니다. 실시간 대결을 위한 매칭 서버와 투표 데이터 처리 로직이 필요합니다. 다양한 의상 조합을 렌더링하기 위한 효율적인 레이어링 시스템 구축이 중요합니다.",
+        "idea_ko": "사용자가 직접 패션 테마를 생성하고 다른 유저들이 그 테마에 맞춰 도전하는 사용자 주도형 챌린지 모드가 적합합니다.",
+        "highlights_ko": [
+          "실시간 경쟁을 통한 패션 배틀 시스템.",
+          "다양한 아이템을 활용한 높은 수준의 커스터마이징."
+        ],
+        "systems_ko": [
+          "캐릭터 커스터마이징 엔진",
+          "아이템 인벤토리 및 데이터베이스",
+          "실시간 매칭 시스템",
+          "투표 및 랭킹 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "게임 로직 자체는 단순하지만, 수많은 의상 에셋을 관리하고 최적화하는 작업이 필요합니다. 서버 연동이 필수적이므로 네트워크 프로그래밍 지식이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 꾸미기 UI",
+            "의상 데이터베이스",
+            "기본적인 투표 시스템"
+          ],
+          "defer": [
+            "실시간 멀티플레이어 대결",
+            "글로벌 리더보드"
+          ],
+          "risks": [
+            "에셋 제작 비용 및 시간",
+            "서버 비용 및 매칭 안정성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스타일 큐레이션 공유",
+            "concept": "사용자가 완성한 룩을 SNS처럼 공유하고 다른 유저가 해당 룩을 그대로 따라 해보는 챌린지 모드입니다.",
+            "first_step": "캐릭터 룩을 이미지로 저장하고 공유하는 기능 구현."
+          },
+          {
+            "title": "테마 제작자 모드",
+            "concept": "사용자가 직접 패션 테마를 만들고 규칙을 설정하여 다른 유저들을 초대하는 커뮤니티 기능입니다.",
+            "first_step": "테마 생성 및 게시판 형태의 리스트 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 기반의 아이템 관리와 UI/UX 디자인 역량을 키우기에 좋습니다. 다만 에셋 제작 부담이 크므로 초기에는 최소한의 아이템으로 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 매칭 알고리즘이나 투표 시스템의 공정성 확보 방안이 명시되어 있지 않습니다.",
+        "name": "Fashion Arena: Dress Up Game",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.RC58.fashion.arena.dressup.game&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 168,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 24,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
+    },
+    "google:com.scatterlab.messenger": {
+      "app_key": "google:com.scatterlab.messenger",
+      "name": "zeta（ゼタ）- AIストーリーチャット",
+      "developer": "Scatter Lab, Inc.",
+      "source": "google",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.scatterlab.messenger&hl=ja&gl=JP",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T09:09:09+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "あなただけの物語が、ここから始まる。 zeta（ゼタ）は、AIキャラクターとの自由な会話やロールプレイを通じて、自分だけの物語を楽しめるAIチャットアプリです。 個性豊かなキャラクターたちとの出会い、まだ見ぬ世界での冒険。SFやファンタジー、冒険RPG、コメディなど、さまざまな物語の主人公になって、あなたの思い描くストーリーを楽しみましょう。 「先が読める物語じゃつまらない。zetaなら、予想外の展開だって自分次第！」 ■ さまざまな物語の世界へ 雨の降る街で事件を追う探偵になったり、駆け出しの魔法使いと冒険の旅に出たり。ライブ直前にボーカルが抜けたバンドで、急遽ステージに立つことだってできます。 気になる物語を見つけたら、その世界に飛び込んでみましょう。あなたのひと言で、物語はどこまでも自由に広がります。 ■ 自分だけのキャラクターや世界を作ろう 「こんなキャラクターがいたら面白そう」「こんな世界で冒険してみたい」 そんなアイデアを、簡単な設定で形にできます。名前や性格、プロフィールなどを自由に設定して、オリジナルキャラクターとの物語を始めましょう。 ■ 返事に迷ったら「マルチリプ（マルチリプライ）」 次に何と返せばいいか迷ったときは、マルチリプを活用しましょう。 返信候補から選んでも、自分の言葉で返してもOK。あなたのペースで会話を楽しみながら、自由に物語を進められます。 ■ プライバシーとセキュリティ zetaでは、ユーザーの皆さまのプライバシーを大切にしています。個人情報やチャットデータを適切かつ安全に管理し、安心してサービスをご利用いただけるよう、日々改善に取り組んでいます。 カスタマーサポート https://support.zeta-ai.io お問い合わせ contact@zeta-ai.io",
+      "analysis": {
+        "app_key": "google:com.scatterlab.messenger",
+        "summary_ko": "zeta는 AI 캐릭터와 자유롭게 대화하고 역할극을 즐길 수 있는 AI 챗봇 서비스입니다. 사용자는 SF, 판타지, 코미디 등 다양한 장르의 이야기 속 주인공이 되어 몰입감 있는 경험을 할 수 있습니다. 또한 자신만의 독창적인 캐릭터와 세계관을 직접 설정하여 공유하거나 대화할 수 있습니다.",
+        "features_ko": [
+          "AI 캐릭터와 자유로운 대화 및 역할극을 수행합니다.",
+          "사용자가 직접 캐릭터의 이름, 성격, 프로필을 설정하여 생성할 수 있습니다.",
+          "대화 중 답변이 고민될 때 선택할 수 있는 멀티 리플라이 기능을 제공합니다.",
+          "다양한 장르의 스토리 세계관에 참여하여 이야기를 전개할 수 있습니다."
+        ],
+        "noteworthy_ko": "사용자가 직접 캐릭터를 생성하고 세계관을 구축하는 UGC(사용자 생성 콘텐츠) 요소가 핵심입니다. AI가 단순히 대화 상대에 머물지 않고 스토리텔링의 주체로 활용된다는 점이 흥미롭습니다.",
+        "development_ko": "LLM 기반의 대화 엔진 연동과 캐릭터 페르소나 유지를 위한 프롬프트 엔지니어링이 핵심입니다. 사용자 데이터를 안전하게 관리하는 백엔드 인프라 구축이 중요하며, 캐릭터 설정값에 따른 대화 일관성 테스트가 필요합니다.",
+        "idea_ko": "사용자가 설정한 캐릭터 간의 상호작용을 통해 자동으로 소설이 작성되는 'AI 자동 소설 생성기' 아이디어가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "사용자 맞춤형 캐릭터 생성 및 세계관 설정 기능.",
+          "선택지 기반의 멀티 리플라이 시스템으로 대화의 편의성 제공."
+        ],
+        "systems_ko": [
+          "LLM API 연동 시스템",
+          "캐릭터 데이터베이스 관리",
+          "대화 세션 상태 관리",
+          "사용자 프로필 및 설정 저장소",
+          "UI/UX 대화 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "단순 챗봇과 달리 캐릭터의 페르소나를 장기간 유지하는 시스템 구현이 복잡합니다. 또한 대규모 사용자 데이터를 처리하기 위한 서버 비용과 보안 관리가 개인 개발자에게 큰 부담이 됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 대화 엔진 연동",
+            "캐릭터 프로필 저장 기능",
+            "대화 기록 저장"
+          ],
+          "defer": [
+            "멀티 리플라이 추천 알고리즘",
+            "사용자 간 캐릭터 공유 커뮤니티"
+          ],
+          "risks": [
+            "API 호출 비용 증가",
+            "캐릭터 페르소나 붕괴 현상"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "AI 캐릭터 일기장",
+            "concept": "사용자가 하루를 기록하면 AI 캐릭터가 그날의 사건에 대해 자신의 성격에 맞춰 감상을 남겨주는 서비스입니다.",
+            "first_step": "사용자 입력과 캐릭터 페르소나를 결합하여 짧은 피드백을 생성하는 프로토타입 제작."
+          },
+          {
+            "title": "AI 자동 소설 생성기",
+            "concept": "두 명의 AI 캐릭터가 특정 상황에서 대화를 나누고, 그 대화 내용을 바탕으로 소설 형식을 자동으로 작성합니다.",
+            "first_step": "두 캐릭터의 성격 정의 후 대화 루프를 생성하여 텍스트 로그를 출력하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "LLM을 활용한 서비스 기획과 프롬프트 엔지니어링을 배우기에 적합합니다. 다만, 서버 운영과 API 비용 최적화에 대한 깊은 고민이 필요합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 AI 모델명이나 대화 기억 유지 방식, 서버 아키텍처에 대한 정보가 없습니다. 보안 및 개인정보 처리의 구체적인 기술적 구현 방식은 확인되지 않습니다.",
+        "name": "zeta（ゼタ）- AIストーリーチャット",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.scatterlab.messenger&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 50,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
     }
   }
 }

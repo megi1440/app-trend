@@ -13475,6 +13475,181 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-26"
+    },
+    "itch:0753ba715b4bca3090cb": {
+      "app_key": "itch:0753ba715b4bca3090cb",
+      "name": "Dish Pit [Free] [Simulation] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://bolodev.itch.io/dish-pit",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T09:00:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Wash dishes by hand, from a dead sponge at a greasy diner to your own plant and the millionth dish.",
+      "analysis": {
+        "app_key": "itch:0753ba715b4bca3090cb",
+        "summary_ko": "낡은 스펀지로 설거지를 시작하여 점차 성장해 나가는 방치형 시뮬레이션 게임입니다. 식당의 설거지 업무를 수행하며 점진적으로 발전하는 과정을 다룹니다.",
+        "features_ko": [
+          "손으로 직접 설거지를 하는 시뮬레이션 요소를 포함합니다.",
+          "초기 단계의 열악한 환경에서 점차 성장하는 방치형 루프를 제공합니다."
+        ],
+        "noteworthy_ko": "일상적인 노동을 게임화하여 성취감을 느끼게 하는 구조가 흥미롭습니다. 설거지라는 단순한 행위를 어떻게 게임적 재미로 치환했는지 분석할 필요가 있습니다.",
+        "development_ko": "클릭 및 드래그 입력 처리와 설거지 진행도 관리 시스템이 핵심입니다. 콘텐츠의 양보다는 성장의 체감을 주는 밸런스 설계가 중요합니다.",
+        "idea_ko": "설거지 도구를 업그레이드하거나, 설거지 속도를 높이는 자동화 기계를 도입하는 방치형 요소를 강화하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "설거지라는 일상적인 소재를 게임의 핵심으로 삼았습니다.",
+          "성장 과정을 시각적으로 보여주는 방치형 구조입니다."
+        ],
+        "systems_ko": [
+          "입력 판정 시스템",
+          "진행도 관리 시스템",
+          "업그레이드 및 보상 시스템",
+          "UI/UX 디자인"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "메커니즘이 단순하고 구현해야 할 시스템의 범위가 좁습니다. 1인 개발자가 핵심 루프를 빠르게 프로토타이핑하기에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "설거지 상호작용 로직",
+            "진행도 바 UI",
+            "기본 업그레이드 상점"
+          ],
+          "defer": [
+            "다양한 설거지 도구",
+            "자동화 기계 시스템"
+          ],
+          "risks": [
+            "반복적인 작업으로 인한 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "설거지 도구 수집가",
+            "concept": "다양한 종류의 스펀지와 세제를 수집하여 설거지 효율을 높입니다. 각 도구마다 설거지 시 발생하는 효과음과 시각 효과가 다릅니다.",
+            "first_step": "도구 아이템 데이터와 효율 수치 연동 구현."
+          },
+          {
+            "title": "식당 경영 시뮬레이션",
+            "concept": "설거지뿐만 아니라 식당의 다른 업무를 추가하여 경영 시뮬레이션으로 확장합니다. 설거지 속도가 식당 운영에 직접적인 영향을 미칩니다.",
+            "first_step": "설거지 완료 시 식당 수익이 증가하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "단순한 행위를 게임화하는 기획 연습에 좋습니다. 방치형 게임의 핵심 루프를 구현하고 밸런스를 조정하는 경험을 쌓기에 추천합니다.",
+        "source_limitations_ko": "설거지 방식의 구체적인 조작법, 업그레이드의 종류, 게임의 최종 목표 등은 소개문만으로 확인되지 않습니다.",
+        "name": "Dish Pit [Free] [Simulation] [Windows]",
+        "source": "itch",
+        "detail_url": "https://bolodev.itch.io/dish-pit",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 287,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 31,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
+    },
+    "google:com.fc.qrcode.barcode.scanner.nutricheck.pricecheck.scanit": {
+      "app_key": "google:com.fc.qrcode.barcode.scanner.nutricheck.pricecheck.scanit",
+      "name": "Scanit: QR 코드 & 바코드 스캐너",
+      "developer": "AI Translator",
+      "source": "google",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.fc.qrcode.barcode.scanner.nutricheck.pricecheck.scanit&hl=ko&gl=KR",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T09:04:51+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "QR 코드와 바코드를 빠르게 스캔할 수 있는 QR 코드 스캐너 & 바코드 스캐너 앱을 찾고 계신가요? 저희 QR & 바코드 스캐너 앱을 사용해 보세요. 필요한 모든 기능을 갖춘 최신 QR 코드 스캐너이자 바코드 스캐너입니다. 이 QR 스캐너 & 바코드 리더 앱으로 QR 코드와 바코드를 정말 간편하게 스캔할 수 있습니다. 기기를 코드에 비추기만 하면 내장된 빠른 스캔 기능이 자동으로 스캔을 시작합니다. 버튼을 누르거나, 사진을 찍거나, 줌을 조절할 필요가 없습니다. QR 코드 스캐너 & 바코드 스캐너 - 다양한 형식 지원: 이 QR & 바코드 스캐너는 텍스트, URL, ISBN, 제품 정보, 연락처, 캘린더 일정, 이메일, 위치, Wi-Fi 접속 정보 등 다양한 QR 코드 및 바코드 형식을 지원합니다. 스캔과 디코딩이 끝나면 코드 내용에 맞는 옵션을 보여 주므로 바로 원하는 작업을 할 수 있습니다. QR 코드 생성기 이 QR 코드 리더 & 바코드 스캐너 앱에는 편리한 QR 코드 생성기도 포함되어 있습니다. QR 코드 만들기는 아주 쉽습니다. 원하는 정보를 입력하고 탭하기만 하면 바로 생성됩니다. 바코드 리더 이 바코드 리더 앱으로 매장에서 제품 바코드를 스캔하고 온라인으로 가격을 비교해 돈을 절약하세요. 이 QR & 바코드 스캐너 앱 하나면 무료 QR 코드 리더와 바코드 스캐너로 충분합니다. 올인원 QR & 바코드 스캐너 앱은 Android 기기를 위한 최고의 솔루션입니다. 단순한 QR 코드 스캐너를 넘어, 언제 어디서나 QR 코드와 바코드를 손쉽게 스캔할 수 있는 종합 도구입니다. 나만의 QR 코드도 만들 수 있어 개인 용도와 업무 용도 모두에 편리합니다. QR & 바코드 스캐너 생성기: QR 코드를 스캔, 디코딩, 생성, 공유하세요. 강력하고 사용하기 쉬운 이 모바일 앱이 QR 코드를 사용하는 방식을 완전히 바꿔 드립니다. 스마트폰 카메라로 QR 코드를 손쉽게 스캔하고 디코딩하여 손끝에서 무한한 가능성을 열어 보세요. QR 코드를 빠르고 정확하게 스캔: 첨단 스캔 기술로 제품 포장, 광고, 웹사이트 등 다양한 곳의 QR 코드를 빠르고 안정적으로 인식합니다. URL 디코딩, 연락처 확인, 숨겨진 프로모션 발견 등 어떤 상황에서도 매끄러운 스캔 경험을 제공합니다. 나만의 QR 코드 만들고 공유하기: 스캔 기능을 넘어 나만의 QR 코드를 손쉽게 만들 수 있습니다. 연락처, 웹사이트 링크 등 어떤 정보든 간단하고 직관적인 QR 코드 생성기로 공유하세요. 디자인을 원하는 대로 꾸미고, 다양한 QR 코드 유형 중에서 선택한 뒤 메신저, SNS, 이메일로 공유할 수 있습니다. 사용하기 쉬운 이 바코드 스캐너 앱은 어떤 바코드든 빠르고 정확하게 읽어 냅니다. QR 코드든 바코드든 첨단 기술로 부드럽고 쾌적한 스캔을 경험해 보세요. 이 무료 QR 코드 스캐너 앱은 모든 Android 사용자가 쉽게 쓸 수 있는 빠르고 간편한 스캔 기능을 제공합니다. 무료 QR 스캐너 앱을 선택해야 하는 이유 모든 QR 코드 & 바코드 형식 지원 갤러리 이미지에서 QR 코드 / 바코드 스캔 프로모션 코드 및 쿠폰 코드 스캔 모든 스캔 기록 저장 저희 QR 스캐너 & 바코드 리더 앱으로 QR 코드를 빠르고 안전하게 스캔하고, 프로모션 코드와 쿠폰 코드를 스캔해 할인을 받거나, 제품 바코드를 스캔해 온라인으로 가격을 비교해 보세요. 또한 나만의 QR 코드도 만들 수 있습니다. QR & 바코드 스캐너 앱은 모든 Android 모바일 기기에 꼭 필요한 QR 코드 스캐너입니다.",
+      "analysis": {
+        "app_key": "google:com.fc.qrcode.barcode.scanner.nutricheck.pricecheck.scanit",
+        "summary_ko": "Scanit은 QR 코드와 바코드를 빠르고 정확하게 스캔하고 생성할 수 있는 올인원 도구입니다. 제품 바코드를 통해 온라인 가격을 비교하거나, 다양한 정보를 담은 QR 코드를 직접 만들 수 있습니다. 일상적인 스캔 작업부터 업무용 공유까지 폭넓게 활용 가능합니다.",
+        "features_ko": [
+          "카메라를 비추는 것만으로 QR 코드와 바코드를 자동으로 인식합니다.",
+          "텍스트, URL, ISBN, 연락처 등 다양한 형식의 코드를 디코딩합니다.",
+          "원하는 정보를 입력하여 나만의 QR 코드를 생성하고 공유합니다.",
+          "스캔 기록을 저장하여 과거에 확인한 정보를 다시 찾아볼 수 있습니다.",
+          "제품 바코드를 스캔하여 온라인 가격을 비교하는 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "스캔과 생성을 하나의 앱에서 처리하는 통합 도구로서의 편의성이 뛰어납니다. 특히 가격 비교 기능은 단순한 유틸리티를 넘어 쇼핑 보조 도구로서의 가치를 더합니다.",
+        "development_ko": "카메라 스트림에서 실시간으로 코드를 인식하는 라이브러리 연동이 핵심입니다. 다양한 바코드 규격에 대응하는 디코딩 로직과 스캔 기록을 관리하는 로컬 데이터베이스 구축이 필요합니다. 사용자 편의를 위한 직관적인 UI 설계가 제작의 주요 과제입니다.",
+        "idea_ko": "스캔한 제품의 가격 변동 추이를 그래프로 보여주어, 지금 구매하는 것이 최적인지 알려주는 '구매 타이밍 알림' 기능을 제안합니다.",
+        "highlights_ko": [
+          "스캔부터 생성까지 가능한 올인원 스캐너입니다.",
+          "다양한 코드 형식을 지원하여 범용성이 높습니다."
+        ],
+        "systems_ko": [
+          "카메라 실시간 인식 엔진",
+          "바코드/QR 디코딩 모듈",
+          "로컬 데이터베이스(스캔 기록 관리)",
+          "QR 코드 생성 및 이미지 저장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "이미 검증된 오픈소스 라이브러리를 활용하면 핵심 기능을 빠르게 구현할 수 있습니다. 복잡한 로직보다는 UI/UX의 완성도가 더 중요한 앱입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카메라 스캔 기능",
+            "결과값 표시 및 URL 연결",
+            "QR 코드 생성 기능"
+          ],
+          "defer": [
+            "온라인 가격 비교 연동",
+            "스캔 기록 클라우드 동기화"
+          ],
+          "risks": [
+            "다양한 바코드 규격에 대한 인식률 저하",
+            "카메라 권한 거부 시 대응"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "스마트 식단 기록기",
+            "concept": "식품 바코드를 스캔하면 영양 성분을 자동으로 분석하여 일일 섭취량을 기록합니다. 건강 관리를 목표로 하는 사용자에게 유용합니다.",
+            "first_step": "바코드 스캔 후 영양 성분 정보를 보여주는 간단한 앱 구현."
+          },
+          {
+            "title": "디지털 명함 QR",
+            "concept": "연락처 정보를 담은 QR 코드를 생성하여 상대방에게 빠르게 전달합니다. 디자인을 커스터마이징하여 개성을 표현할 수 있습니다.",
+            "first_step": "연락처 정보를 QR 코드로 변환하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "카메라 API와 데이터 처리를 처음 접하는 개발자에게 추천합니다. 실생활에서 바로 활용 가능한 유틸리티 앱을 만들며 성취감을 느끼기에 좋습니다.",
+        "source_limitations_ko": "온라인 가격 비교를 위해 어떤 API를 사용하는지, 데이터의 정확도는 어떻게 보장하는지 소개문만으로는 알 수 없습니다. 외부 서비스 연동에 대한 보안 검증이 필요합니다.",
+        "name": "Scanit: QR 코드 & 바코드 스캐너",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.fc.qrcode.barcode.scanner.nutricheck.pricecheck.scanit&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 177,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
     }
   }
 }

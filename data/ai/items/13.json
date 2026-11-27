@@ -12734,6 +12734,184 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-26"
+    },
+    "apple:1621483628": {
+      "app_key": "apple:1621483628",
+      "name": "HITSTER",
+      "developer": "Koninklijke Jumbo B.V",
+      "source": "apple",
+      "country": "US",
+      "category": "game_board",
+      "detail_url": "https://apps.apple.com/us/app/hitster/id1621483628?uo=2",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T09:04:05+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "YOU NEED THE HITSTER CARD GAME TO USE THIS APP. Create an instant party with HITSTER, the music card game of the century! Listen to over 100 years of amazing hits, take turns arranging them in chronological order on your music timeline and create your trip down memory lane. The first player to collect 10 hits is the winner. With more than 300 of the greatest hits from the last 100 years, HITSTER is the perfect game for an evening with lots of laughing, singing, dancing and sharing memories. Simply open the box, scan a song card with this HITSTER app and let the music do the rest to create an instant party. So what are you waiting for? Invite your friends to have fun together and see who is crowned the HITSTER. Game characteristics: - Everybody is invited for the HITSTER party! Super easy rules and no game set-up gets the party started in no-time. Simply scan a card with the free Hitster app and the music starts playing automatically in Spotify, isn't that cool? - HITSTER is the music game in which you don’t have to be a music expert. Simply guess if a song was released before or after other songs in your music timeline. The futher you are in building your timeline the more challenging it becomes. Your chances of winning increases if you can also name the artists and song titles. - Are you craving to show of your music knowledge? Play HITSTER with the Pro rules or even Expert rules in which you have to know the exact year, artist and song title. - Fancy a less competitive trip down memory lane? Then HITSTER can also be played as one team or by yourself. GET THE PARTY STARTED! HITSTER requires a mobile phone with an internet connection. For the best experience, use the free HITSTER app and Spotify. Visit www.hitstergame.com for device compatibility. For the latest Hitster news, updates, and competitions, follow us on Instagram, TikTok, and Facebook @hitsterparty.",
+      "analysis": {
+        "app_key": "apple:1621483628",
+        "summary_ko": "HITSTER는 음악 카드를 연대순으로 배치하여 타임라인을 완성하는 음악 카드 게임입니다. 앱을 통해 음악 카드를 스캔하면 Spotify와 연동되어 음악이 자동으로 재생됩니다. 100년 이상의 히트곡을 활용하여 파티 분위기를 조성하는 것이 목적입니다.",
+        "features_ko": [
+          "음악 카드를 스캔하여 Spotify를 통해 해당 곡을 자동으로 재생합니다.",
+          "곡의 출시 연도를 추측하여 자신의 음악 타임라인에 배치합니다.",
+          "음악 지식 수준에 따라 초급부터 전문가 모드까지 난이도를 선택할 수 있습니다.",
+          "혼자서 연습하거나 팀을 이루어 협동 플레이를 즐길 수 있습니다."
+        ],
+        "noteworthy_ko": "실물 카드 게임과 디지털 앱을 결합한 하이브리드 방식이 매우 흥미롭습니다. Spotify API를 활용하여 음악 재생을 자동화함으로써 게임의 몰입감을 높인 점이 개발 관점에서 주목할 만합니다.",
+        "development_ko": "Spotify API 연동을 통한 음악 재생 제어 기술이 핵심입니다. 카드 스캔을 위한 카메라 인식 기능과 게임 상태(타임라인) 관리 시스템이 필요합니다. 다양한 음악 데이터와 연도 정보를 관리하는 데이터 구조 설계가 중요합니다.",
+        "idea_ko": "음악 대신 영화 명대사나 역사적 사건을 활용하여 타임라인을 구성하는 퀴즈 게임으로 확장하는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "음악 전문가가 아니어도 누구나 쉽게 참여할 수 있는 직관적인 규칙을 가집니다.",
+          "Spotify와의 매끄러운 연동을 통해 별도의 음악 재생 설정 없이 게임을 진행합니다."
+        ],
+        "systems_ko": [
+          "Spotify API 연동 및 재생 제어 시스템",
+          "카드 스캔을 위한 카메라 인식 모듈",
+          "게임 상태 관리 및 승패 판정 로직",
+          "사용자 타임라인 UI"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "외부 음악 스트리밍 서비스 API 연동은 인증 및 권한 관리 측면에서 복잡도가 높으며, 실시간 게임 상태 동기화가 필요하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "음악 데이터베이스 관리",
+            "연도별 정렬 로직",
+            "기본 게임 루프"
+          ],
+          "defer": [
+            "Spotify 자동 연동 기능",
+            "멀티플레이어 실시간 동기화"
+          ],
+          "risks": [
+            "음악 저작권 및 스트리밍 서비스 API 정책 변경",
+            "카드 스캔 인식률의 정확도 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "역사 사건 타임라인",
+            "concept": "음악 대신 역사적 사건 카드를 사용하여 연대순으로 배치하는 교육용 게임입니다. 사건의 배경지식을 함께 학습할 수 있습니다.",
+            "first_step": "역사적 사건 20개를 선정하여 연도 데이터를 포함한 JSON 파일로 구조화하기."
+          },
+          {
+            "title": "영화 개봉일 맞추기",
+            "concept": "영화 포스터 카드를 보고 개봉 연도를 추측하여 타임라인을 완성합니다. 영화 팬들을 위한 퀴즈 모드를 포함합니다.",
+            "first_step": "영화 데이터와 개봉 연도를 매칭하는 간단한 퀴즈 UI 구현."
+          }
+        ],
+        "recommendation_ko": "외부 API를 활용한 앱 개발 경험을 쌓기에 매우 좋은 사례입니다. 게임 규칙을 단순화하고 데이터 중심의 설계를 연습하기에 적합합니다.",
+        "source_limitations_ko": "소개문에는 Spotify 외의 다른 음악 서비스 지원 여부나 오프라인 모드 지원 여부가 명시되어 있지 않습니다. 카드 스캔 방식이 QR 코드인지 이미지 인식인지 확인이 필요합니다.",
+        "name": "HITSTER",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/hitster/id1621483628?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 207,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 11,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
+    },
+    "google:com.deathmatchonline.wtkworks": {
+      "app_key": "google:com.deathmatchonline.wtkworks",
+      "name": "데스매치온라인 - 데블스플랜의 게임들",
+      "developer": "WTK Works",
+      "source": "google",
+      "country": "KR",
+      "category": "game_board",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.deathmatchonline.wtkworks&hl=ko&gl=KR",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T09:08:03+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "더 지니어스 프로그램에서 방영된 데스매치 게임들을 직접 플레이해 보세요! 1. 결합 게임을 타임 어택 방식으로 플레이해 보세요. 2. 십이 장기, 레이저 장기, 기억의 미로, 같은 그림 찾기, 같은 숫자 찾기 게임들을 하나의 모바일 기기로 친구들과 함께 플레이해 보세요. 3. 온라인에 접속하여 20개의 데스매치 게임들을 다른 플레이어들과 대결할 수 있습니다. 플레이가능한 데스매치 게임 목록 흑과백, 흑과백2, 베팅! 흑과백, 인디언 포커, 인디언 홀덤, 양면포커, 십이장기, 숫자장기, 레이저장기, 결합, 모노레일, 콰트로, 전략 윷놀이, 해달별, 암전게임, 베팅! 가위바위보, 연승게임, 같은 그림찾기, 같은 숫자찾기, 기억의 미로, - 데블스플랜의 게임들 - 수식피라미드, 빅스몰, 벽바둑, 하나빼기, 저격홀덤, 시간경매, 트리플다이스, 헥사곤, 무거운 13, 기억포커, 러시안룰렛, - 더 지니어스 메인메치 게임들 - 마이너스 경매, 콩의 딜레마, 사기경마, 풍요와 기근, 좀비게임, 투자와 기부, 자리바꾸기, 왕게임, 정리해고, 시드포커, 123게임, 대선게임, 빅딜게임, 독점게임, 먹이사슬, 도둑잡기, 수식경매, 과일가게, 신분교환, 오픈패스, 배심원, 오늘의 메뉴, 생선가게, 폭풍의 증권시장, 별자리 게임, 가넷도둑, 광부게임, 체인옥션, 검과 방패, 충신과 역적, 호러 레이스, 중간달리기, 엘리베이터,",
+      "analysis": {
+        "app_key": "google:com.deathmatchonline.wtkworks",
+        "summary_ko": "더 지니어스 및 데블스플랜 등 방송 프로그램에 등장한 다양한 두뇌 게임을 모바일로 즐길 수 있는 보드게임 모음집입니다. 친구와 함께 기기 하나로 대결하거나 온라인을 통해 다른 플레이어들과 경쟁할 수 있습니다. 흑과백, 십이장기, 결합 등 다수의 게임을 포함하고 있습니다.",
+        "features_ko": [
+          "방송 프로그램에서 검증된 다양한 두뇌 게임을 모바일 환경에서 플레이할 수 있습니다.",
+          "하나의 기기를 사용하여 친구와 오프라인 대결을 진행할 수 있습니다.",
+          "온라인 접속을 통해 다수의 플레이어와 실시간으로 데스매치 게임을 즐길 수 있습니다.",
+          "결합 게임을 타임 어택 방식으로 플레이하며 기록을 경쟁할 수 있습니다."
+        ],
+        "noteworthy_ko": "다양한 규칙의 보드게임을 하나의 플랫폼에 통합한 점이 흥미롭습니다. 각 게임의 규칙이 상이하므로 게임별 상태 관리와 UI의 범용적 설계가 개발의 핵심일 것으로 추정됩니다.",
+        "development_ko": "핵심 구현 기술로는 다중 게임 규칙을 처리하는 로직 엔진과 실시간 네트워크 통신이 필요합니다. 콘텐츠 제작 부담은 게임 종류가 많아 각 게임의 밸런스 조정과 UI 최적화에 상당한 시간이 소요될 것으로 보입니다. 테스트는 각 게임의 규칙 오류를 검증하는 데 집중해야 합니다.",
+        "idea_ko": "사용자가 직접 커스텀 규칙을 설정하여 방을 만들고 공유하는 '커스텀 룰 메이커' 기능이 개인 개발에 가장 적합합니다.",
+        "highlights_ko": [
+          "더 지니어스 및 데블스플랜 등 유명 프로그램의 게임을 다수 포함하고 있습니다.",
+          "오프라인과 온라인 대결을 모두 지원하여 다양한 플레이 환경을 제공합니다."
+        ],
+        "systems_ko": [
+          "게임 규칙 엔진",
+          "온라인 매칭 시스템",
+          "로컬 멀티플레이어 입력 처리",
+          "게임 데이터 관리 시스템",
+          "사용자 프로필 및 기록 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "단순한 게임 하나가 아니라 수십 개의 게임 규칙을 구현하고 관리해야 하므로 개발 복잡도가 매우 높습니다. 특히 온라인 멀티플레이어 환경에서의 동기화와 각 게임별 밸런스 검증이 1인 개발자에게 큰 부담이 됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 턴제 게임 로직",
+            "로컬 2인 대전 모드",
+            "게임 선택 UI"
+          ],
+          "defer": [
+            "온라인 멀티플레이어",
+            "랭킹 시스템",
+            "사용자 커스터마이징"
+          ],
+          "risks": [
+            "게임별 규칙 구현의 복잡성",
+            "UI/UX 일관성 유지 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "데일리 챌린지 믹스",
+            "concept": "매일 무작위로 선정된 3개의 게임을 연속으로 플레이하여 총점을 겨루는 모드입니다. 짧은 시간 내에 다양한 게임을 경험하게 합니다.",
+            "first_step": "무작위 게임 선택 로직과 점수 합산 시스템을 구현합니다."
+          },
+          {
+            "title": "커스텀 룰 메이커",
+            "concept": "기존 게임의 수치나 규칙을 일부 변경하여 자신만의 변형 게임을 만들 수 있습니다. 생성된 규칙은 공유 코드로 친구와 나눌 수 있습니다.",
+            "first_step": "규칙 파라미터를 외부 파일로 분리하여 로직에 반영하는 구조를 만듭니다."
+          }
+        ],
+        "recommendation_ko": "다양한 장르의 게임 로직을 설계하고 관리하는 경험을 쌓기에 좋습니다. 다만, 게임 수가 너무 많아 초기 개발 시 범위를 좁히는 전략이 필수적입니다.",
+        "source_limitations_ko": "소개문에 명시된 게임들의 구체적인 규칙이나 온라인 서버의 기술적 사양은 확인할 수 없습니다. 결제 시스템이나 보안 기능에 대한 언급이 없으므로 해당 기능은 구현 범위에서 제외해야 합니다.",
+        "name": "데스매치온라인 - 데블스플랜의 게임들",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.deathmatchonline.wtkworks&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 153,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 29,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
     }
   }
 }

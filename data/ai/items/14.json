@@ -15095,6 +15095,366 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-26"
+    },
+    "google:com.qrcodereader": {
+      "app_key": "google:com.qrcodereader",
+      "name": "qrコード読み取りアプリ",
+      "developer": "QR Code Scanner & Barcode Reader",
+      "source": "google",
+      "country": "JP",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.qrcodereader&hl=ja&gl=JP",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T09:04:05+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "QRコードスキャナーをお探しですか？当社の「QRコードアプリ」は、QRコードリーダーとバーコードスキャナーの機能を兼ね備えた、使いやすくて便利なQRスキャナーアプリです。クイックレスポンスコードスキャナーとして高速で正確なQRコード読み取りが可能です。モバイルQRコードスキャナーとして、スマートフォンのカメラで簡単にQRコードを読み取ることができます。 このqrコード読み取りアプリは、バーコードリーダーとしても優れた性能を発揮し、商品のバーコードを瞬時に読み取り、情報を取得できます。バー コード リーダーとして、さまざまな形式のバーコードに対応し、手軽にバー コード 読取ができます。 さらに、当社のQRコードアプリでは、QRコード生成機能もご利用いただけます。独自のQRコードを作成して、友達や家族と連絡先情報を共有したり、ウェブサイトへのリンクを簡単に提供したりできます。qr コード 作り方も簡単で、数回のタップでQRコードが作成できます。 QRコードリーダーとしての機能はもちろん、qr コード アプリとしても優れた性能を発揮します。QRコードやバーコードを読み取った後に、関連情報にすばやくアクセスできるようになっています。qr コード リーダーの使いやすさと高速性を兼ね備えた当社のアプリは、日常生活でのQRコードやバーコードの利用を簡単にします。 また、英語のQRコードやバーコードも問題なく読み取ることができるため、「QR code」と記載されたコードも安心してスキャンできます。どんなQRコードでも、このアプリを使えば簡単に情報が手に入ります。 QRコードスキャナーを使ったショッピングやイベント参加、友達との情報共有など、さまざまなシーンで活躍すること間違いなしのQRスキャナーアプリです。ぜひダウンロードして、便利なQRコードリーダー・バ",
+      "analysis": {
+        "app_key": "google:com.qrcodereader",
+        "summary_ko": "이 앱은 QR 코드와 바코드를 빠르게 읽고 생성할 수 있는 도구입니다. 스마트폰 카메라를 사용하여 정보를 즉시 스캔하며, 연락처나 웹사이트 링크를 공유하기 위한 QR 코드 생성 기능도 제공합니다. 일상적인 정보 접근을 간편하게 돕는 유틸리티 앱입니다.",
+        "features_ko": [
+          "스마트폰 카메라를 이용한 고속 QR 코드 및 바코드 스캔 기능을 제공합니다.",
+          "다양한 형식의 바코드를 인식하여 관련 정보를 즉시 표시합니다.",
+          "연락처나 웹사이트 링크를 포함한 QR 코드를 직접 생성할 수 있습니다.",
+          "스캔한 정보를 바탕으로 관련 웹사이트나 서비스에 빠르게 접근합니다."
+        ],
+        "noteworthy_ko": "카메라 인식 기술과 데이터 인코딩/디코딩 기술을 결합한 전형적인 유틸리티 앱입니다. 사용자가 별도의 설정 없이 즉시 사용할 수 있도록 직관적인 인터페이스를 제공하는 점이 개발 관점에서 중요합니다.",
+        "development_ko": "카메라 라이브러리 연동 및 이미지 처리 기술이 핵심입니다. QR 코드 생성 및 해석을 위한 오픈소스 라이브러리 활용이 필요합니다. 스캔 후 결과값을 처리하는 UI/UX 설계가 중요합니다.",
+        "idea_ko": "스캔한 QR 코드의 기록을 날짜별로 관리하고, 자주 사용하는 코드를 즐겨찾기 하는 'QR 지갑' 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "QR 코드 리더와 생성 기능을 하나의 앱에서 모두 처리합니다.",
+          "빠른 응답 속도를 통해 일상적인 스캔 작업의 효율성을 높입니다."
+        ],
+        "systems_ko": [
+          "카메라 인식 및 이미지 처리 시스템",
+          "QR 코드 생성 및 해석 엔진",
+          "스캔 기록 데이터 관리 시스템",
+          "결과값 연동 UI"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "기존의 오픈소스 라이브러리를 활용하면 핵심 기능을 빠르게 구현할 수 있으며, 복잡한 비즈니스 로직이 적기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카메라 스캔 기능",
+            "QR 코드 생성 기능",
+            "결과 표시 화면"
+          ],
+          "defer": [
+            "스캔 기록 클라우드 동기화",
+            "고급 바코드 형식 지원"
+          ],
+          "risks": [
+            "카메라 권한 설정 및 기기별 호환성 문제",
+            "보안이 검증되지 않은 QR 코드 스캔 시 위험성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "QR 코드 즐겨찾기",
+            "concept": "자주 사용하는 QR 코드를 카테고리별로 분류하여 빠르게 꺼내 쓸 수 있는 기능입니다.",
+            "first_step": "QR 코드 데이터를 로컬 데이터베이스에 저장하고 리스트로 보여주는 기능."
+          },
+          {
+            "title": "스캔 기록 메모",
+            "concept": "스캔한 QR 코드에 간단한 메모를 남겨 어떤 용도였는지 기억할 수 있게 합니다.",
+            "first_step": "스캔 결과와 함께 메모를 입력받아 저장하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "카메라 연동과 데이터 처리의 기초를 배우기에 적합한 프로젝트입니다. 간단한 유틸리티 앱을 완성해 보는 경험을 쌓기에 좋습니다.",
+        "source_limitations_ko": "소개문에는 보안 기능이나 특정 QR 코드 형식에 대한 제한 사항이 명시되어 있지 않습니다. 외부 서비스 연동이나 결제 기능은 포함되어 있지 않습니다.",
+        "name": "qrコード読み取りアプリ",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.qrcodereader&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 201,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 13,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
+    },
+    "apple:6838187792": {
+      "app_key": "apple:6838187792",
+      "name": "이세계 디펜스",
+      "developer": "JUNYONG YOU",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%9D%B4%EC%84%B8%EA%B3%84-%EB%94%94%ED%8E%9C%EC%8A%A4/id6838187792?uo=2",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T09:04:28+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "하늘에 포탈이 열리고 판타지 대군이 쏟아져 나옵니다. 고블린, 오크, 언데드, 마법사, 드래곤, 그리고 마왕까지. 막아설 것은 현대군뿐입니다. • 길 옆에 진지를 놓고, 손잡이를 끌어 사격 구역을 겨눕니다. 멀리 좁게, 또는 가까이 넓게. • 증원 카드 석 장 중 하나를 고르고, 같은 병과 둘을 합쳐 별을 올리며 특기를 더합니다. • 별 다섯에 맞는 특기가 모이면 새로운 무기로 진화합니다. 진화는 모두 서른 가지. • 화면을 가득 메우는 수천 마리의 적. • 전역 여덟, 스테이지 스물넷. 판마다 다른 장치와 우두머리 여덟. • 져도 전공을 받아 연구하고, 더 강해져서 다시 도전합니다. • 본편을 마치면 무한 방어. 광고 없음. 인앱 결제 없음. 인터넷 없이 플레이.",
+      "analysis": {
+        "app_key": "apple:6838187792",
+        "summary_ko": "포탈에서 쏟아지는 판타지 적들을 현대군으로 막아내는 디펜스 게임입니다. 진지를 배치하고 병과를 합쳐 별을 올리며 무기를 진화시키는 전략적 요소가 있습니다. 광고와 인앱 결제 없이 오프라인으로 즐길 수 있습니다.",
+        "features_ko": [
+          "길 옆에 진지를 배치하고 사격 구역을 조절하여 적을 방어합니다.",
+          "같은 병과를 합쳐 별을 올리고 특기를 강화할 수 있습니다.",
+          "특정 조건 달성 시 병과를 새로운 무기로 진화시킬 수 있습니다.",
+          "수천 마리의 적이 등장하는 대규모 전투를 지원합니다.",
+          "전투에서 패배해도 전공을 통해 연구하여 더 강해질 수 있습니다."
+        ],
+        "noteworthy_ko": "병과 합치기(Merge) 메커니즘을 디펜스 게임에 도입한 점이 흥미롭습니다. 진화 시스템을 통해 전략적 깊이를 더한 점이 개발 관점에서 매력적입니다.",
+        "development_ko": "대규모 적을 처리하기 위한 오브젝트 풀링 시스템이 필수적입니다. 병과 합치기 로직과 진화 트리 관리 시스템을 구축해야 합니다. 스테이지별 밸런스 조정과 적의 AI 패턴 설계가 중요합니다.",
+        "idea_ko": "병과 합치기 외에 지형지물을 활용하여 적의 경로를 변경하는 전략 요소를 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "병과 합치기를 통한 전략적 성장.",
+          "30가지 이상의 무기 진화 시스템."
+        ],
+        "systems_ko": [
+          "오브젝트 풀링 시스템",
+          "병과 합치기 및 진화 로직",
+          "디펜스 전투 및 AI 시스템",
+          "스테이지 및 밸런스 관리",
+          "연구 및 성장 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "디펜스 게임은 핵심 로직이 명확하고 1인 개발자가 구현하기에 적절한 규모입니다. 다만, 대규모 적 처리를 위한 최적화 기술이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 진지 배치 및 사격 로직",
+            "병과 합치기 시스템",
+            "기본적인 적 생성 및 이동"
+          ],
+          "defer": [
+            "30가지 이상의 무기 진화",
+            "복잡한 연구 시스템"
+          ],
+          "risks": [
+            "대규모 적 등장 시 프레임 드랍",
+            "스테이지 밸런스 조정의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "현대군 vs 마왕군 전략",
+            "concept": "병과 합치기 대신, 현대군 유닛들의 상성을 활용하여 마왕군을 막아내는 상성 중심의 디펜스입니다.",
+            "first_step": "유닛 간 상성 관계를 정의하고 전투에 적용하는 로직을 구현합니다."
+          },
+          {
+            "title": "진지 건설 디펜스",
+            "concept": "고정된 위치가 아닌, 플레이어가 직접 진지를 건설하여 적의 경로를 차단하는 건설 중심의 디펜스입니다.",
+            "first_step": "타일 위에 진지를 건설하고 적의 경로를 실시간으로 계산하는 로직을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "디펜스 게임의 핵심 메커니즘과 최적화 기술을 배우기에 매우 좋습니다. 1인 개발자가 완성하기에 적절한 난이도와 재미를 갖추고 있습니다.",
+        "source_limitations_ko": "무기 진화의 구체적인 수치나 적의 AI 패턴은 확인되지 않았습니다. 오프라인 게임이므로 서버 연동 기능은 없습니다.",
+        "name": "이세계 디펜스",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%9D%B4%EC%84%B8%EA%B3%84-%EB%94%94%ED%8E%9C%EC%8A%A4/id6838187792?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 183,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
+    },
+    "apple:6787887558": {
+      "app_key": "apple:6787887558",
+      "name": "개구리 말차 카페 - 방치형 타이쿤",
+      "developer": "4th May Games Inc.",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_simulation",
+      "detail_url": "https://apps.apple.com/kr/app/%EA%B0%9C%EA%B5%AC%EB%A6%AC-%EB%A7%90%EC%B0%A8-%EC%B9%B4%ED%8E%98-%EB%B0%A9%EC%B9%98%ED%98%95-%ED%83%80%EC%9D%B4%EC%BF%A4/id6787887558?uo=2",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T09:07:08+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "연못가 숲속에 작은 개구리 말차카페를 열어보세요. 귀여운 개구리 직원들과 손님을 맞이하고, 말차 메뉴를 만들어 골드를 모으고, 자리를 비운 사이에도 수익이 쌓이는 방치형 힐링 타이쿤 게임입니다. 머지 퍼즐로 주문을 완성하며 나만의 카페를 점점 크게 키워보세요. 개구리 직원들과 함께하는 카페 경영 손님의 주문을 받고, 메뉴를 만들고, 서빙하세요. 직원과 설비를 업그레이드하면 자리를 비운 사이에도 골드가 쌓이는 방치 수익으로 작은 말차카페가 점점 커집니다. 말차 메뉴 성장 다양한 말차 음료와 디저트를 해금하고 업그레이드해 더 많은 골드를 벌어보세요. 타이쿤과 연결된 머지 퍼즐 에너지를 사용해 아이템을 만들고, 같은 아이템을 합쳐 주문서를 완성하세요. 머지로 얻은 보상은 다시 카페 성장에 사용됩니다. VIP 미식가 개구리의 특별 주문 가끔 찾아오는 VIP 손님이 원하는 특제 메뉴를 납품하면, 일정 시간 동안 카페 수익이 크게 증가합니다. 코스튬과 펫 수집 개구리 바리스타를 꾸미고, 귀여운 펫을 모아 나만의 말차카페를 완성해보세요. 오늘도 숲속 개구리 말차카페는 영업 중! 말차 향 가득한 작은 카페에서 포근한 하루를 시작해 보세요.",
+      "analysis": {
+        "app_key": "apple:6787887558",
+        "summary_ko": "연못가 숲속에서 개구리 직원들과 함께 말차 카페를 운영하는 방치형 힐링 타이쿤 게임입니다. 머지 퍼즐을 통해 주문을 완성하고 카페를 업그레이드하며 골드를 모으는 방식으로 진행됩니다. 귀여운 캐릭터와 펫을 수집하고 카페를 꾸미는 재미를 느낄 수 있습니다.",
+        "features_ko": [
+          "머지 퍼즐을 통해 아이템을 합쳐 손님의 주문서를 완성합니다.",
+          "카페 설비와 직원을 업그레이드하여 방치 수익을 극대화합니다.",
+          "VIP 손님의 특별 주문을 수행하여 수익을 크게 증가시킵니다.",
+          "다양한 말차 음료와 디저트 메뉴를 해금하고 성장시킵니다.",
+          "개구리 바리스타 코스튬과 펫을 수집하여 카페를 꾸밉니다."
+        ],
+        "noteworthy_ko": "타이쿤 게임과 머지 퍼즐을 결합하여 방치형 게임의 지루함을 해소한 점이 흥미롭습니다. 개발 관점에서 머지 퍼즐의 아이템 생성 로직과 방치형 수익 계산 시스템을 어떻게 조화롭게 설계하는지 연구하기 좋습니다.",
+        "development_ko": "머지 퍼즐의 아이템 데이터 구조 설계와 방치형 수익 알고리즘 구현이 핵심입니다. 귀여운 아트 리소스 제작 부담이 크며, 게임의 밸런스를 맞추기 위한 지속적인 테스트가 필요합니다. 데이터 저장과 서버 연동을 통한 클라우드 세이브 기능이 요구됩니다.",
+        "idea_ko": "계절별로 카페 인테리어를 바꾸고 한정 메뉴를 판매하는 시즌제 이벤트 시스템.",
+        "highlights_ko": [
+          "귀여운 개구리 캐릭터와 힐링되는 분위기가 특징입니다.",
+          "방치형 요소와 머지 퍼즐이 결합되어 지속적인 플레이 동기를 제공합니다."
+        ],
+        "systems_ko": [
+          "머지 퍼즐 엔진",
+          "방치형 수익 계산 시스템",
+          "아이템 및 메뉴 데이터베이스",
+          "캐릭터/펫 수집 시스템",
+          "인테리어 및 꾸미기 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "머지 퍼즐과 타이쿤 시스템을 결합하는 것은 복잡하지만, 각 시스템은 독립적으로 구현 가능합니다. 다만 아트 리소스 제작과 밸런스 조정에 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 머지 퍼즐 보드",
+            "주문 처리 및 골드 획득",
+            "기본 카페 업그레이드"
+          ],
+          "defer": [
+            "코스튬 및 펫 수집",
+            "VIP 손님 시스템",
+            "복잡한 인테리어 꾸미기"
+          ],
+          "risks": [
+            "퍼즐 밸런스 및 수익 곡선 설계 실패",
+            "아트 리소스 제작의 높은 진입장벽"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "숲속 배달 서비스",
+            "concept": "카페를 넘어 숲속 동물들에게 말차를 배달하는 미니 게임을 추가합니다.",
+            "first_step": "배달 경로를 따라 이동하는 간단한 2D 캐릭터 이동 로직을 구현합니다."
+          },
+          {
+            "title": "말차 레시피 도감",
+            "concept": "다양한 재료를 조합하여 새로운 말차 레시피를 발견하는 도감 시스템입니다.",
+            "first_step": "재료 조합에 따른 결과물 데이터베이스를 구축합니다."
+          }
+        ],
+        "recommendation_ko": "방치형 게임과 퍼즐 게임의 결합을 시도해보고 싶은 개발자에게 추천합니다. 아트 리소스가 게임의 핵심이므로, 디자인 역량을 발휘하고 싶은 경우 좋은 프로젝트가 될 것입니다.",
+        "source_limitations_ko": "소개문에는 머지 퍼즐의 구체적인 아이템 생성 규칙이나 방치형 수익 계산 공식이 명시되지 않았습니다. 실제 게임의 밸런스나 수익 모델에 대한 검증은 직접 플레이해봐야 알 수 있습니다.",
+        "name": "개구리 말차 카페 - 방치형 타이쿤",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EA%B0%9C%EA%B5%AC%EB%A6%AC-%EB%A7%90%EC%B0%A8-%EC%B9%B4%ED%8E%98-%EB%B0%A9%EC%B9%98%ED%98%95-%ED%83%80%EC%9D%B4%EC%BF%A4/id6787887558?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
+    },
+    "google:com.Skorax.SheruBhaiGame": {
+      "app_key": "google:com.Skorax.SheruBhaiGame",
+      "name": "Sheru Bhai Life Simulator Game",
+      "developer": "Skorax",
+      "source": "google",
+      "country": "US",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.Skorax.SheruBhaiGame&hl=en&gl=US",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T09:08:03+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Sheru Bhai Game 3D is an open-world action game where you play as Sheru Bhai: a royal white lion in a white-and-gold suit, full of desi Bhai swagger, and the richest lion in the city. Explore a big island, drive luxury supercars, fly jets and a helicopter, live in your own gold mansion, change your royal look and grow your fame with your phone's photo app. Your Royal Mansion • Live in Sheru Bhai's mansion on Royal Hill, with marble floors, gold lion statues, a pool deck and a gold room with a huge pile of gold. • Walk through every room: the master suite, the office, the guest room and more. • Doors swing open as you walk through, and the main gate slides open when you arrive on foot or by car. • Make it rain: throw money with the lion money button. Your Royal Look • Open the wardrobe in the master bedroom and pick your style. • Suits: White Gold, White Classic and Black Premium. • Specs: gold aviators, black shades or diamond specs. • On your head: a gold crown, a diamond crown, or a black or white cap. Supercars, Bikes and Aircraft • 15 luxury cars, from supercars and hypercars to a big luxury SUV and a formula racing car. • Two cars in Sheru Bhai's own designs: a white, black and gold lion hypercar and a diamond-and-gold supercar. • Ride superbikes, and fly fighter jets, a big jet, a propeller plane and a helicopter. • Call any vehicle from your phone and drive anywhere on the island. • Visit the luxury car showroom, where a gold racing car turns on its stand. An Island to Explore • Roam a big open island: highways and hill roads, an airport, sandy beaches and a beach island, a village, a stadium, a police station and more. • Day, night, clouds and rain: let the weather change by itself, or pick the one you like in Settings. • Cause trouble, like blowing up cars, and police cars will come after you. Your Royal Phone A gold-and-ivory phone with your own apps: • Vehicle: call cars, bikes and aircraft. • Weapon: pick your weapons and change their colours. • Bank: see Sheru Bhai's royal fortune. • Camera: take photos and selfies anywhere on the island. Play Your Way • Simple touch controls to walk, run, drive and fly. • Play offline: no internet needed. • No sign-up and no account. Live like a king and drive like a legend. Become Sheru Bhai!",
+      "analysis": {
+        "app_key": "google:com.Skorax.SheruBhaiGame",
+        "summary_ko": "사자 캐릭터인 'Sheru Bhai'가 되어 오픈 월드 섬을 탐험하는 3D 액션 게임입니다. 고급 자동차, 비행기, 헬리콥터 등을 운전하며 자신만의 저택을 꾸미고 자유롭게 활동할 수 있습니다. 오프라인 플레이를 지원하며 다양한 의상과 액세서리로 캐릭터를 커스터마이징할 수 있습니다.",
+        "features_ko": [
+          "오픈 월드 섬을 자유롭게 탐험하며 다양한 이동 수단을 이용할 수 있습니다.",
+          "자신만의 저택을 방문하고 내부를 자유롭게 돌아다닐 수 있습니다.",
+          "다양한 의상, 안경, 모자 등을 사용하여 캐릭터의 외형을 변경할 수 있습니다.",
+          "자동차, 슈퍼카, 비행기 등 15종 이상의 이동 수단을 호출하고 운전할 수 있습니다.",
+          "게임 내 휴대폰을 사용하여 이동 수단 호출, 무기 선택, 사진 촬영 등을 수행합니다."
+        ],
+        "noteworthy_ko": "동물 캐릭터를 주인공으로 한 오픈 월드 시뮬레이션이라는 점이 독특합니다. 캐릭터의 swagger(자신감)를 강조한 컨셉이 게임의 분위기를 결정짓는 핵심 요소로 보입니다.",
+        "development_ko": "핵심 기술은 3D 오픈 월드 환경 구축과 이동 수단 물리 엔진입니다. 콘텐츠 제작 부담은 맵 구성과 다양한 탈것의 모델링 작업이 큽니다. 테스트는 오픈 월드 내의 충돌 판정과 이동 수단 조작감 최적화에 집중해야 합니다.",
+        "idea_ko": "섬 내의 특정 장소에서 사진을 찍어 SNS에 공유하는 '포토 챌린지' 모드가 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "사자 캐릭터를 주인공으로 한 독특한 오픈 월드 시뮬레이션입니다.",
+          "다양한 이동 수단과 커스터마이징 요소를 제공하여 자유도를 높였습니다."
+        ],
+        "systems_ko": [
+          "3D 오픈 월드 맵 시스템",
+          "이동 수단 물리 엔진",
+          "캐릭터 커스터마이징 시스템",
+          "게임 내 UI(휴대폰 인터페이스)",
+          "날씨 및 시간 변화 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "오픈 월드 게임은 맵 최적화, 물리 엔진 구현, 다양한 상호작용 로직 등 개발 범위가 매우 넓습니다. 1인 개발자가 모든 에셋을 제작하고 밸런스를 맞추는 것은 상당한 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "캐릭터 이동 및 조작",
+            "기본 자동차 운전 시스템",
+            "간단한 오픈 월드 맵"
+          ],
+          "defer": [
+            "비행기 및 헬리콥터",
+            "복잡한 저택 인테리어",
+            "날씨 변화 시스템"
+          ],
+          "risks": [
+            "모바일 기기 성능 최적화 실패",
+            "물리 엔진 충돌 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "포토 헌터",
+            "concept": "섬 곳곳에 숨겨진 풍경이나 사물을 찾아 사진을 찍는 미션입니다. 사진을 찍을 때마다 보상을 얻고 새로운 지역을 해금합니다.",
+            "first_step": "카메라 기능과 특정 위치 도달 시 사진 촬영을 판정하는 로직을 구현합니다."
+          },
+          {
+            "title": "배달 레이싱",
+            "concept": "섬의 특정 지점에서 물건을 받아 제한 시간 내에 배달하는 미션입니다. 지형을 활용한 최단 경로 탐색이 중요합니다.",
+            "first_step": "체크포인트 시스템과 타이머 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "3D 게임 개발의 기초와 오픈 월드 환경 구축을 배우기에 좋은 프로젝트입니다. 다만, 범위를 작게 시작하여 핵심 재미 요소에 집중하는 것이 중요합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 물리 엔진의 종류나 맵 최적화 방식은 확인할 수 없습니다. 실제 게임의 조작감과 성능은 직접 구현해 보기 전까지 검증이 어렵습니다.",
+        "name": "Sheru Bhai Life Simulator Game",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.Skorax.SheruBhaiGame&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
     }
   }
 }

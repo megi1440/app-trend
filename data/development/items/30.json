@@ -27526,6 +27526,354 @@
         "thoughtsTokenCount": 3082,
         "serviceTier": "standard"
       }
+    },
+    "apple:1488297209": {
+      "app_key": "apple:1488297209",
+      "name": "e-병무지갑",
+      "developer": "병무청",
+      "source": "apple",
+      "kind": "app",
+      "detail_url": "https://apps.apple.com/kr/app/e-%EB%B3%91%EB%AC%B4%EC%A7%80%EA%B0%91/id1488297209",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:1488297209",
+        "product_kind": "app",
+        "original_experience_ko": "병무청 e-병무지갑은 공공 기관 민원 서비스 이용 시 블록체인과 생체 인증을 활용해 안전하게 로그인하고, 디지털 신분증 및 통지서 같은 전자문서 발급과 장병내일준비적금 등 맞춤형 우대 서비스를 한곳에 모아 관리하는 공공 유틸리티 경험을 제공합니다.",
+        "source_facts_and_limitations_ko": [
+          "사실: 블록체인 및 PKI 기반의 간편 인증(지문, FaceID, 핀번호), QR 및 일회용 번호 인증 기능을 제공합니다.",
+          "사실: 병무청 통지서, 신청서, 디지털 신분증 등의 전자문서 발급 및 장병내일준비적금, 알뜰폰 등 우대 서비스 연동 기능을 포함합니다.",
+          "한계: 정부 공공 시스템 및 제한된 공공 API와의 연동이 필수적이므로, 일반 개인 개발자가 동일한 서비스 형태를 직접 구축하거나 운영하는 것은 현실적으로 불가능합니다."
+        ],
+        "valuable_elements_ko": [
+          "서버에 민감한 생체 정보를 저장하지 않고 단말기 내부에 안전하게 보관하는 보안 설계 구조",
+          "개인의 인증서, 디지털 자격 증명, 관련 혜택 정보를 하나의 지갑 인터페이스로 통합하여 접근성을 높인 점",
+          "특정 생애 주기(병역 이행 등)나 대상자에게 필요한 실질적 혜택과 문서 서비스를 직관적으로 연결하는 유틸리티 접근 방식"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "청년패스 라이프 지갑",
+            "core_idea_ko": "정부 공식 시스템 연동 없이, 대학생 및 사회초년생 청년층이 자취, 대중교통, 문화생활, 지자체 청년 수당 및 지원금 정보를 한곳에 모아 관리하고 로컬 생체 인증으로 보호하는 사립 유틸리티 앱입니다.",
+            "what_to_keep_ko": "단말기 로컬 생체 인증(FaceID/지문)을 통한 강력한 보안 잠금과, 디지털 자격 증명(학생증/청년증) 및 맞춤형 혜택 큐레이션 구조를 계승합니다.",
+            "what_to_change_ko": "병무청이라는 단일 공공기관 제한을 벗어나, 오픈 데이터 및 지자체 공개 API, 크롤링 기반의 청년 정책/할인 정보를 결합하여 민간 영역에서 작동하도록 규칙을 변경합니다.",
+            "mobile_use_or_play_ko": "앱 실행 시 지문 인증으로 잠금이 해제되고, 메인 화면에서 등록된 청년 할인 카드와 마감 임박한 지역 청년 지원금 혜택 카드를 확인한 뒤 제휴처 안내 QR을 생성합니다.",
+            "key_features_ko": [
+              "단말기 보안 저장소를 활용한 청년 자격증명 디지털 카드 홀더",
+              "지자체별 청년 정책 및 할인 혜택 마감일 푸시 알림 시스템",
+              "오프라인 제휴처 확인을 위한 로컬 암호화 QR 생성기"
+            ],
+            "solo_mvp_and_effort_ko": "React Native 또는 Flutter 기반, 로컬 SQLite 및 Biometric 인증 라이브러리 연동, 공공 오픈 API 파싱 기능 구현. 1인 개발로 약 3~4주 소요되며 백엔드 서버 부담이 적어 구현 난이도가 낮습니다.",
+            "strengths_limits_ko": "장점은 타겟층의 실수요가 높고 공공 백엔드 의존성이 없어 빠른 구현이 가능하다는 점이며, 약점은 공식 법적 효력이 있는 신분증이 아닌 단순 편의용 카드에 그쳐 차별화 마케팅이 필요합니다."
+          },
+          {
+            "title_ko": "프리랜서 크리덴셜 볼트",
+            "core_idea_ko": "프리랜서 및 긱 워커들이 계약서, 경력 증명서, 세무 지원 서비스 링크를 로컬 암호화 저장소에 보관하고, 생체 인증으로 간편하게 관리하는 커리어 유틸리티 앱입니다.",
+            "what_to_keep_ko": "문서 및 자격 증명을 디지털 형태로 보관하는 지갑 구조와 간편한 로컬 생체 인증 흐름을 유지합니다.",
+            "what_to_change_ko": "군 복무 대상자 대신 프리랜서와 독립 계약자를 대상으로 전환하며, 계약서 파일 암호화 보관, 세무/지원 사업 알림 등 업무 중심의 기능으로 재편합니다.",
+            "mobile_use_or_play_ko": "앱을 켜고 FaceID로 인증한 후, 저장된 프리랜서 표준 계약서 리스트를 열람하고 클라이언트 검증용 디지털 경력 요약 QR을 제시합니다.",
+            "key_features_ko": [
+              "AES-256 기반 로컬 문서 암호화 저장소",
+              "프리랜서 지원 사업 및 세무 신고 일정 관리 캘린더 연동",
+              "클라이언트 인증용 단말 간 직통 QR 공유 기능"
+            ],
+            "solo_mvp_and_effort_ko": "Android Keystore와 연동한 파일 암호화 모듈, 로컬 PDF 뷰어 구현. 1인 개발 시 보안 암호화 검증에 다소 시간이 걸리며 약 4~5주의 개발 공수가 소요됩니다.",
+            "strengths_limits_ko": "장점은 긱 경제 확장에 따른 확실한 타겟층 니즈가 있다는 점이며, 약점은 사용자가 공식 문서의 법적 신뢰성에 대해 민감할 수 있어 보안 신뢰를 얻기 까다롭다는 점입니다."
+          },
+          {
+            "title_ko": "마을봉사 패스포트 지갑",
+            "core_idea_ko": "지역사회 자원봉사 활동 내역과 봉사 마일리지, 지역 상생 할인 혜택을 로컬 블록체인 혹은 암호화 장부에 기록하고 관리하는 지역 커뮤니티 유틸리티 앱입니다.",
+            "what_to_keep_ko": "인증 정보와 혜택 서비스가 유기적으로 연결되는 지갑 형태의 인터페이스와 간편한 본인 확인 경험을 계승합니다.",
+            "what_to_change_ko": "병무청 행정 문서 대신 자원봉사 실적 인증서와 지역 가맹점 할인 쿠폰 관리로 목적을 바꾸고, P2P 또는 로컬 데이터 기반의 간이 인증 방식을 도입합니다.",
+            "mobile_use_or_play_ko": "봉사 현장에서 주관자 인증 QR을 스캔하여 로컬 봉사 시간을 적립하고, 적립된 시간에 따라 지역 제휴 상점에서 즉시 할인 쿠폰을 발급받아 사용합니다.",
+            "key_features_ko": [
+              "오프라인 QR 기반 자원봉사 시간 로컬 적립 시스템",
+              "봉사 마일리지 연계 지역 상점 할인 쿠폰 지갑",
+              "개인 활동 이력 요약 디지털 인증서 생성기"
+            ],
+            "solo_mvp_and_effort_ko": "로컬 SQLite 기반 데이터 관리, 카메라 QR 스캐너 패키지 활용. 1인 개발 난이도는 낮으나(약 3주) 제휴처 확보가 실질적 운영의 핵심 과제입니다.",
+            "strengths_limits_ko": "장점은 공익성과 로컬 커뮤니티 확산성이 높다는 점이며, 약점은 서비스 초기 제휴처가 부족하면 사용자 유인이 떨어질 수 있다는 점입니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어(청년패스 라이프 지갑)는 청년층이라는 넓은 타겟과 공공 오픈 API 활용 가능성 덕분에 구현 부담이 가장 낮고 범용성이 높습니다. 두 번째 아이디어(프리랜서 크리덴셜 볼트)는 명확한 직업군 니즈를 공략하나 문서 보안 신뢰성 확보가 과제입니다. 세 번째 아이디어(마을봉사 패스포트 지갑)는 공익적 가치가 크나 지역 제휴처 생태계 구축이 필요합니다. 세 안 모두 원본의 지갑 및 보안 인증 경험을 성공적으로 민간화했습니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "청년패스 라이프 지갑은 공공기관 API나 민감한 정부 백엔드 연동 없이도 지자체 open API와 크롤링을 통해 현실적인 MVP를 1인 개발하기에 가장 적합합니다. 원본의 '생체 인증 기반 지갑'과 '생애 주기 맞춤 혜택 큐레이션'이라는 핵심 강점을 가장 자연스럽고 무리 없이 민간 서비스로 발전시켰습니다.",
+        "next_questions_ko": [
+          "지자체 및 공공 청년 정책 데이터를 안정적으로 수집할 수 있는 오픈 API 또는 크롤링 소스의 신뢰성 확보 방안은 무엇인가?",
+          "사용자가 민감한 개인정보를 입력하지 않고도 기기 내에서 안전하게 혜택 맞춤형 필터를 구현할 수 있는 최소 기능 구조는 어떤가?",
+          "법적 신분증이 아닌 사립 자격/할인 카드 형태일 때 사용자가 앱을 지속적으로 실행하게 만드는 핵심 리텐션 유인 요소는 무엇인가?"
+        ]
+      },
+      "brief_at": "2026-11-27T09:15:13+09:00",
+      "brief_quota_day": "2026-11-27",
+      "brief_usage": {
+        "promptTokenCount": 1662,
+        "candidatesTokenCount": 2047,
+        "totalTokenCount": 7918,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1662
+          }
+        ],
+        "thoughtsTokenCount": 4209,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:1488297209",
+        "product_kind": "app",
+        "selected_concept_title_ko": "청년패스 라이프 지갑",
+        "project_goal_and_audience_ko": "대학생 및 사회초년생 청년층을 위한 자취, 대중교통, 문화생활, 지자체 청년 수당 및 지원금 정보를 한곳에 모아 관리하고 로컬 생체 인증으로 안전하게 보호하는 사립 유틸리티 앱입니다.",
+        "source_relation_and_difference_ko": "원본 'e-병무지갑'의 단말기 로컬 생체 인증(FaceID/지문) 보안 구조와 디지털 신분증 및 혜택 카드 큐레이션 경험을 계승하되, 공공기관 서버 연동의 한계를 벗어나 민간 오픈 API 및 지자체 공개 데이터를 활용해 일반 청년층이 일상에서 쓸 수 있도록 유연하게 확장했습니다.",
+        "core_user_experience_ko": "앱 실행 시 스마트폰의 로컬 생체 인증을 통해 즉시 잠금이 해제되며, 메인 대시보드에서 사용자가 등록한 디지털 청년증과 마감 임박한 지역 지원금 혜택 카드를 한눈에 확인합니다. 오프라인 제휴처 방문 시 할인 확인을 위한 로컬 암호화 QR 코드를 생성해 제시할 수 있습니다.",
+        "features_ko": [
+          {
+            "feature_ko": "로컬 생체 인증 잠금 모듈",
+            "user_action_and_behavior_ko": "앱 실행 또는 민감한 정보 열람 시 스마트폰의 생체 인식 API를 호출하여 사용자 신원을 확인하고 잠금을 해제합니다.",
+            "practical_implementation_ko": "React Native의 react-native-biometrics 또는 Flutter의 local_auth 패키지를 활용하여 서버 저장 없이 디바이스 자체 보안 저장소를 이용합니다."
+          },
+          {
+            "feature_ko": "디지털 자격 증명 카드 홀더",
+            "user_action_and_behavior_ko": "사용자가 모바일 학생증, 청년증, 할인 멤버십 카드를 카드 지갑 형태로 직접 등록하고 필요할 때 꺼내봅니다.",
+            "practical_implementation_ko": "입력된 카드 정보를 로컬 SQLite 또는 암호화된 Secure Storage에 저장하고, UI 상에서 캐러셀 형태로 렌더링합니다."
+          },
+          {
+            "feature_ko": "청년 정책 및 할인 혜택 큐레이션",
+            "user_action_and_behavior_ko": "공공 API 및 지자체 공개 데이터를 파싱하여 거주 지역에 맞는 지원금 정보를 보여주고 마감일 푸시 알림을 설정합니다.",
+            "practical_implementation_ko": "주기적으로 공공 데이터 포털 API를 호출하여 JSON 데이터를 파싱하고, 로컬 푸시 알림 라이브러리를 통해 마감 알림을 예약합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "생체 인증 잠금 화면",
+            "contents_and_actions_ko": "앱 실행 시 노출되며 지문 또는 FaceID 인식을 통해 메인 대시보드로 진입합니다."
+          },
+          {
+            "screen_ko": "메인 지갑 및 혜택 대시보드",
+            "contents_and_actions_ko": "등록된 디지털 카드 목록과 마감 임박 청년 지원금 카드를 표시하며, 탭 시 상세 정보로 이동합니다."
+          },
+          {
+            "screen_ko": "혜택 상세 및 QR 생성 화면",
+            "contents_and_actions_ko": "혜택 조건 확인 및 제휴처 할인 적용을 위한 단회성 인증 QR 코드를 생성하여 표시합니다."
+          }
+        ],
+        "implementation_approach_ko": "React Native를 사용하여 iOS와 안드로이드 크로스플랫폼 개발을 진행합니다. 로컬 보안 저장소와 생체 인증은 디바이스 네이티브 기능을 직접 호출하고, 혜택 데이터는 비동기 API 호출과 로컬 캐시를 통해 오프라인 가용성을 확보합니다.",
+        "data_and_storage_ko": [
+          "UserCredential: 사용자 설정 지역, 인증 여부, 등록된 카드 메타데이터를 로컬 Secure Storage에 암호화하여 저장합니다.",
+          "BenefitItem: 공공 API로 수집한 청년 지원금 및 할인 혜택 데이터 목록을 로컬 SQLite에 캐시하여 네트워크가 없는 환경에서도 조회 가능하도록 합니다."
+        ],
+        "mvp_scope_ko": "생체 인증 잠금, 로컬 카드 홀더, 기본 지자체 청년 혜택 조회 기능만 포함하며, 실시간 커뮤니티나 사용자 간 공유 등 부가 기능은 제외하여 1인 개발로 3~4주 안에 구현할 수 있도록 범위를 최소화합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 프로젝트 환경 설정 및 생체 인증 구현",
+            "deliverable_and_check_ko": "기본 앱 셸 생성 및 디바이스 생체 인식 연동 테스트. 앱 재시작 시 잠금 화면 정상 동작 확인."
+          },
+          {
+            "stage_ko": "2단계: 디지털 카드 홀더 및 로컬 스토리지 구현",
+            "deliverable_and_check_ko": "카드 추가 및 삭제 UI와 Secure Storage 연동. 앱 종료 후 데이터 유지 여부 확인."
+          },
+          {
+            "stage_ko": "3단계: 공공 API 연동 및 혜택 리스트업 화면 구현",
+            "deliverable_and_check_ko": "공공 데이터 파싱 및 대시보드 UI 연동. 네트워크 차단 시 로컬 캐시 데이터 정상 출력 확인."
+          }
+        ],
+        "possible_extensions_ko": "사용자 맞춤형 소비 패턴 분석에 따른 할인 추천, 푸시 알림 개인화 세분화, 오프라인 제휴처 위치 기반 지도 연동.",
+        "risks_and_open_decisions_ko": [
+          "공공 API 서버의 안정성 및 데이터 스키마 변경에 따른 파싱 오류 리스크 대응 방안 마련 필요.",
+          "법적 효력이 없는 사립 디지털 카드이므로 제휴처 실제 할인 거절 가능성에 대한 안내 문구 정책 수립.",
+          "생체 인증 실패 시 PIN 번호 대체 입력 로직의 안전한 구현 방식 결정."
+        ],
+        "draft_status_ko": "본 개발 설계 초안은 실제 구현, 플레이테스트 및 성능 측정이 완료되지 않은 기획 단계의 문서입니다."
+      },
+      "plan_at": "2026-11-27T09:15:27+09:00",
+      "plan_quota_day": "2026-11-27",
+      "plan_usage": {
+        "promptTokenCount": 2419,
+        "candidatesTokenCount": 1531,
+        "totalTokenCount": 6388,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2419
+          }
+        ],
+        "thoughtsTokenCount": 2438,
+        "serviceTier": "standard"
+      }
+    },
+    "google:com.zgjxz.gp.jp": {
+      "app_key": "google:com.zgjxz.gp.jp",
+      "name": "戦国将星伝",
+      "developer": "WLSG Games",
+      "source": "google",
+      "kind": "game",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.zgjxz.gp.jp&hl=ja&gl=JP",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.zgjxz.gp.jp",
+        "product_kind": "game",
+        "original_experience_ko": "스토어 소개에 따르면, 이 제품은 일본 전국시대를 배경으로 한 전략 시뮬레이션 게임으로, 무장 육성, 부대 편성, 성 공략, 그리고 6개 세력 간의 211개 성을 둘러싼 대규모 합전과 거점 시설 건설을 핵심 경험으로 제공합니다. 다만 실제 전투의 상세 판정 방식이나 서버 아키텍처는 스토어 정보만으로 확인할 수 없습니다.",
+        "source_facts_and_limitations_ko": [
+          "확인된 사실: 일본 전국시대 배경, 무장 능력 및 전법 조합, 성 공략 및 성하 제압, 6개 세력(아마고, 초소카베, 모리, 우에스기, 다케다, 호조)과 211개 성을 무대로 한 합전, 거점 시설 건설 및 강화 기능 존재.",
+          "한계 및 미확인 사항: 턴제인지 실시간인지에 대한 구체적인 전투 시스템 로직, 멀티플레이어 서버 통신 방식, 구체적인 수익 모델 구조는 스토어 설명에서 확인 불가."
+        ],
+        "valuable_elements_ko": [
+          "역사적 세력 구조와 무장 고유 전법 조합: 플레이어에게 수집 및 조합의 재미를 부여하므로 계승할 가치가 있음.",
+          "거점 제압 및 성 공략의 단계적 정복감: 성 하나를 점령하고 확장해 나가는 성취감이 핵심 재미이므로 이를 간소화하여 활용 가능."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "미니 군략: 전국 노드 택틱스",
+            "core_idea_ko": "방대한 MMO 세력전 구조를 1인 플레이에 맞추어 압축한 노드 기반 로그라이크 턴제 전술 게임입니다.",
+            "what_to_keep_ko": "무장별 고유 능력·전법 조합과 성 공략 중심의 영토 확장 흐름을 계승합니다.",
+            "what_to_change_ko": "실시간 대규모 서버전의 복잡성을 제거하고, 제한된 턴 안에서 루트를 선택하고 무장을 배치해 적 성을 함락하는 싱글플레이어 퍼즐 전술 규칙으로 변경합니다.",
+            "mobile_use_or_play_ko": "스테이지 맵에서 진입할 성(노드)을 선택하고, 보유한 3명의 무장과 병종을 배치한 뒤 전투 개시를 누르면 배치에 따른 상성과 전법이 자동/턴제로 발동하여 승패가 결정됩니다.",
+            "key_features_ko": [
+              "노드 기반의 진격 루트 선택 맵 시스템",
+              "무장 배치 위치와 병종 상성에 따른 자동 전술 판정",
+              "점령한 성에서 자원을 수급하는 거점 경영 루프"
+            ],
+            "solo_mvp_and_effort_ko": "오프라인 싱글플레이 구조로 SQLite/JSON을 활용해 무장 데이터와 노드 맵을 관리합니다. 서버 구축이 불필요하여 1인 개발 난이도가 낮으며 MVP 구현에 적합합니다.",
+            "strengths_limits_ko": "서버 비용 없이 가볍게 즐길 수 있는 장점이 있으나, 원작의 대규모 세력 간 협력 및 외교 같은 멀티플레이어 요소는 배제됩니다."
+          },
+          {
+            "title_ko": "병참과 천하: 군량 한 섬",
+            "core_idea_ko": "직접적인 전투 미세 조작 대신, 영토 간 보급선 관리와 자원 수급에 초점을 맞춘 시뮬레이션 게임입니다.",
+            "what_to_keep_ko": "6개 세력의 대립 구도와 성 관리, 시설 건설·강화를 통한 군비 확충 요소를 계승합니다.",
+            "what_to_change_ko": "무장을 직접 조작하는 전투 대신, 쌀과 군지금속 등 보급 자원의 흐름을 통제하고 적의 보급 차단에 대응하는 전략 경영 시뮬레이션으로 전환합니다.",
+            "mobile_use_or_play_ko": "거점 지도 화면에서 인접 성으로 향하는 보급 마차 부대를 파견하고, 적 세력의 습격 타이밍에 맞춰 방어 시설을 보강하거나 우회로를 설정하여 자원을 안전하게 수송합니다.",
+            "key_features_ko": [
+              "성 간 보급선 및 물류 네트워크 라우팅 시스템",
+              "날씨와 계절에 따른 자원 생산량 변동 규칙",
+              "거점 시설 강화 및 방어 시설 배치 시뮬레이션"
+            ],
+            "solo_mvp_and_effort_ko": "2D UI 중심의 자원 관리 및 수치 계산 로직으로 구성되어 그래픽 리소스 부담이 적습니다. 1인 개발 시 밸런스 조정에 집중하면 완성할 수 있습니다.",
+            "strengths_limits_ko": "기존 전략 게임과 차별화된 재미를 주지만, 직접적인 전투 타격감이 부족하여 자원 시뮬레이션을 선호하는 틈새 유저층을 타겟으로 합니다."
+          },
+          {
+            "title_ko": "성채 방위전: 난세의 동맹",
+            "core_idea_ko": "특정 거점 성을 중심으로 밀려오는 적의 공격을 막아내는 타워 디펜스 및 전술 방어 게임입니다.",
+            "what_to_keep_ko": "성 공략/방어의 긴장감, 무장 고유 전법, 동맹 개념을 비동기 협력 요소로 계승합니다.",
+            "what_to_change_ko": "전체 영토를 정복하는 거대한 맵 대신 하나의 성을 방어하는 웨이브 전투와 액티브 스킬 타이밍 조작에 집중합니다.",
+            "mobile_use_or_play_ko": "방어할 성의 성벽과 성문에 무장을 배치하고 웨이브마다 몰려오는 적 부대에 맞춰 무장의 액티브 전법을 적절한 타이밍에 발동하여 방어에 성공합니다.",
+            "key_features_ko": [
+              "웨이브 기반 성벽 방어 및 타워 디펜스 전투 루프",
+              "전술적 타이밍에 사용하는 무장 액티브 전법 시스템",
+              "다른 유저의 무장을 빌려오는 비동기 동맹 지원 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "기본 디펜스 프레임워크와 JSON 기반 무장 데이터를 활용하며, 비동기 데이터 교환만 구현하면 되므로 1인 개발 난이도가 적당합니다.",
+            "strengths_limits_ko": "전투 피드백이 직관적이고 재미있지만, 타워 디펜스 장르의 포화 상태 속에서 차별화 요소를 강조해야 합니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어는 원작의 무장 조합과 영토 정복의 재미를 로그라이크 퍼즐 전술로 압축하여 개발 부담을 낮추었고, 두 번째 아이디어는 전투 대신 자원 보급과 물류 관리에 집중하여 전략적 깊이를 다르게 해석했습니다. 세 번째 아이디어는 성 방어와 액티브 스킬을 강조하여 직관적인 전투 재미를 추구했습니다. 1번은 밸런스와 구현 난이도 면에서 1인 개발에 가장 균형 잡혀 있습니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "1번 '미니 군략: 전국 노드 택틱스'는 원작의 무장 성장 및 성 공략이라는 핵심 경험을 훼손하지 않으면서도, 대규모 멀티플레이어 서버 구조의 복잡성을 제거하여 1인 모바일 개발자가 현실적으로 완성할 수 있는 최적의 범위를 제시합니다.",
+        "next_questions_ko": [
+          "노드 전투에서 무장 조합에 따른 상성 판정 공식은 어떤 수치 기준으로 설계할 것인가?",
+          "싱글플레이 환경에서 플레이어가 지루함을 느끼지 않도록 제공할 리플레이성(로그라이크 요소)은 무엇인가?",
+          "거점 제압 이후의 자원 순환 루프가 플레이어에게 충분한 성취감을 줄 수 있는가?"
+        ]
+      },
+      "brief_at": "2026-11-27T09:55:07+09:00",
+      "brief_quota_day": "2026-11-27",
+      "brief_usage": {
+        "promptTokenCount": 1572,
+        "candidatesTokenCount": 1959,
+        "totalTokenCount": 7315,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1572
+          }
+        ],
+        "thoughtsTokenCount": 3784,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.zgjxz.gp.jp",
+        "product_kind": "game",
+        "selected_concept_title_ko": "미니 군략: 전국 노드 택틱스",
+        "project_goal_and_audience_ko": "역사 전략 게임을 선호하면서도 복잡한 MMO나 과도한 과금 유도에 피로감을 느끼는 유저를 대상으로 하며, 오프라인 환경에서 가볍고 전략적인 성 공략 재미를 느낄 수 있는 싱글플레이어 노드 턴제 전술 게임입니다.",
+        "source_relation_and_difference_ko": "원본의 무장 고유 전법 조합과 거점 제압 중심의 영토 확장 경험을 계승하되, 실시간 대규모 서버전의 복잡성과 외교·멀티 요소를 배제하고 제한된 턴 안에서 루트를 선택하고 부대를 배치하는 싱글퍼즐 전술 규칙으로 차별화했습니다.",
+        "core_user_experience_ko": "플레이어는 거점 화면에서 자원을 관리하고 맵 화면에 진입하여 진격할 성(노드)을 선택합니다. 보유한 무장과 병종을 배치한 뒤 전투를 시작하면, 배치된 상성과 무장 전법에 따라 자동으로 턴제 전투가 진행되어 승패와 보상이 결정됩니다.",
+        "features_ko": [
+          {
+            "feature_ko": "노드 기반 진격 맵 시스템",
+            "user_action_and_behavior_ko": "연결된 성(노드) 중 하나를 선택하여 진격하고, 전투 승리 시 영토를 넓히며 다음 노드로 이동할 수 있습니다.",
+            "practical_implementation_ko": "그래프 구조 데이터를 JSON/SQLite로 정의하고, UI 상에서 스크롤 및 터치 이벤트로 인접 노드 선택 및 해제 상태를 렌더링합니다."
+          },
+          {
+            "feature_ko": "무장 배치 및 자동 전술 판정",
+            "user_action_and_behavior_ko": "전방, 중방, 후방 슬롯에 무장을 배치하고 상성 및 전법 시너지를 확인한 뒤 전투를 개시하여 결과를 확인합니다.",
+            "practical_implementation_ko": "객체 지향 상태 기계를 활용해 무장 능력치와 병종 상성 계수를 계산하고, 턴별로 스킬 발동 확률과 데미지를 산출하는 로직을 구현합니다."
+          },
+          {
+            "feature_ko": "거점 경영 및 자원 수급 루프",
+            "user_action_and_behavior_ko": "점령한 성에서 획득한 자원으로 거점 시설을 강화하고, 더 강력한 무장을 육성하거나 지원 효과를 얻습니다.",
+            "practical_implementation_ko": "로컬 저장소에 자원량과 시설 레벨 상태를 저장하고, 앱 실행 시점이나 스테이지 클리어 시점에 자원을 정산하여 반영합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 거점 화면",
+            "contents_and_actions_ko": "시설 강화 현황, 자원 보유량 표시 및 '캠페인 시작' 버튼을 통한 노드 맵 진입."
+          },
+          {
+            "screen_ko": "노드 진격 맵 화면",
+            "contents_and_actions_ko": "전체 영토 노드 네트워크 시각화, 인접한 미점령 노드 터치 시 적 정보 확인 및 전투 준비 화면으로 이동."
+          },
+          {
+            "screen_ko": "부대 편성 및 전투 화면",
+            "contents_and_actions_ko": "3개의 슬롯에 무장 드래그 또는 터치 배치, 전투력 프리뷰 확인 후 '전투 개시' 시 자동 전투 로그 및 결과 리워드 표시."
+          }
+        ],
+        "implementation_approach_ko": "1인 개발 환경에 적합한 가벼운 2D 게임 엔진(예: Unity 또는 Godot)을 활용하며, 오프라인 구동을 위해 SQLite 또는 로컬 JSON 파일을 활용해 데이터 영속성을 보장하고 복잡한 서버 통신 비용을 최소화합니다.",
+        "data_and_storage_ko": [
+          "Warlord 객체: id, name, troop_type, stats(attack, defense), skill_id, level.",
+          "NodeMap 객체: node_id, connected_nodes, status(locked, cleared, active), reward_type.",
+          "PlayerState 객체: resources, facility_levels, owned_warlords, stored locally via JSON/SQLite on state changes."
+        ],
+        "mvp_scope_ko": "10개의 노드로 구성된 단일 캠페인 맵, 5명의 기본 수집 무장, 기본 슬롯 배치 및 자동 턴 전투 판정, 간단한 자원 수급 시설 강화 기능까지만 포함하여 서버 없이 완전한 싱글플레이 루프를 검증합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 코어 데이터 및 전투 로직 구현",
+            "deliverable_and_check_ko": "무장 스탯과 노드 맵 구조를 JSON으로 정의하고, 텍스트 기반 시뮬레이션으로 상성과 전법 계산 로직이 정상 작동하는지 유닛 테스트로 확인."
+          },
+          {
+            "stage_ko": "2단계: UI 및 노드 맵 화면 구축",
+            "deliverable_and_check_ko": "메인 거점, 노드 진격 맵, 부대 편성 화면의 레이아웃을 구현하고 터치 입력에 따른 화면 전환과 노드 선택 흐름 검증."
+          },
+          {
+            "stage_ko": "3단계: 전투 연출 및 로컬 저장 연동",
+            "deliverable_and_check_ko": "전투 턴 진행 로그와 보상 정산 연출을 붙이고, SQLite/JSON을 통해 게임 진행 상황이 앱 종료 후에도 정상 유지되는지 확인."
+          }
+        ],
+        "possible_extensions_ko": "추후 캠페인 지역 확장, 무장 소환(가챠) 시스템, 특수 전술 카드 시스템, 무한 공성 모드 등 콘텐츠를 점진적으로 추가할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "유저 테스트 없이 병종 상성과 무장 전법의 밸런스를 맞추기 어려우므로 수치 보정 계수를 유연하게 설계해야 합니다.",
+          "노드 맵의 난이도 곡선 설계가 단조로워지지 않도록 이벤트 노드나 돌발 변수 규칙에 대한 추가 고민이 필요합니다."
+        ],
+        "draft_status_ko": "본 문서는 1인 모바일 개발을 위한 기획 및 구현 방향을 정의한 설계 초안이며, 실제 플레이테스트나 수치 밸런스 검증은 완료되지 않았습니다."
+      },
+      "plan_at": "2026-11-27T09:55:25+09:00",
+      "plan_quota_day": "2026-11-27",
+      "plan_usage": {
+        "promptTokenCount": 2192,
+        "candidatesTokenCount": 1392,
+        "totalTokenCount": 6958,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2192
+          }
+        ],
+        "thoughtsTokenCount": 3374,
+        "serviceTier": "standard"
+      }
     }
   }
 }

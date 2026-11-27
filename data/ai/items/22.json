@@ -17331,6 +17331,365 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-26"
+    },
+    "google:com.amapps.msga": {
+      "app_key": "google:com.amapps.msga",
+      "name": "DayClass",
+      "developer": "AM APPS LTD",
+      "source": "google",
+      "country": "US",
+      "category": "app_health_fitness",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.amapps.msga&hl=en&gl=US",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T09:04:05+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Guided workout plans for your goals — joint-friendly and made for daily life. DayClass gives you a coach-led plan of short daily workouts, so you build strength, balance, and mobility. No equipment. No gym. No pressure. Workout plans that fit your life A clear, finite plan — not an endless feed. Start with a short Welcome Session, then follow one workout a day, with Rest Days built in. Miss a day? No catch-up guilt — pick up right where you are. Guided step by step Low-impact, easy-to-follow workouts you can do at home. Your coach sets the focus, then guides you through every move. Choose your intensity, from Gentle to Intense, and use a chair for steadier balance whenever you like. Nutrition, tracked alongside Log meals and follow daily calorie and macro targets right beside your workouts — so the whole day works toward your goal, not just the session. A coach and a group that show up Real members moving alongside you, and a coach who answers your questions right in the chat. A quiet, encouraging group — never a leaderboard. Send a clap to anyone working out with you. Why it works Movement only sticks when it feels possible. Workouts are kind to knees, backs, and joints — even when other routines aren't — and they build balance, mobility, and everyday energy. DayClass doesn't ask you to transform overnight. One day at a time, the plan becomes a habit that's actually yours. Made for you if you're — Building or rebuilding a daily movement habit — Returning to exercise after a pause, illness, or injury — New to working out — no experience needed Designed with large text, clear audio, and steady pacing — easy from day one. Small daily choices change everything. Welcome home. Privacy: https://dayclass.com/privacy-en.html Terms: https://dayclass.com/tos-en.html Support: support@dayclass.com",
+      "analysis": {
+        "app_key": "google:com.amapps.msga",
+        "summary_ko": "DayClass는 일상 속에서 지속 가능한 운동 습관을 형성하도록 돕는 건강 관리 앱입니다. 코치가 설계한 짧은 데일리 운동 계획을 제공하며, 관절에 무리가 가지 않는 동작 위주로 구성되어 있습니다. 운동뿐만 아니라 식단과 칼로리 섭취를 함께 기록하여 목표를 관리할 수 있습니다.",
+        "features_ko": [
+          "코치가 설계한 단계별 운동 계획을 통해 매일 짧은 시간 동안 운동을 수행합니다.",
+          "운동 강도를 조절할 수 있으며, 의자를 활용한 안정적인 동작을 지원합니다.",
+          "식단과 칼로리, 영양 성분을 기록하여 운동 목표와 연동해 관리합니다.",
+          "사용자 간 서로 응원을 보낼 수 있는 커뮤니티 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "운동을 '끝없는 피드'가 아닌 '유한한 계획'으로 제시하여 사용자의 심리적 부담을 줄인 점이 흥미롭습니다. 운동을 놓쳤을 때 죄책감을 느끼지 않도록 설계한 점은 습관 형성 앱으로서 매우 효과적인 전략으로 추정됩니다.",
+        "development_ko": "사용자 데이터 기록을 위한 로컬 데이터베이스와 식단 영양 성분 계산 로직이 핵심입니다. 운동 영상 재생을 위한 미디어 플레이어 구현과 사용자 간 상호작용을 위한 실시간 채팅 시스템이 필요합니다. 커뮤니티의 긍정적인 분위기를 유지하기 위한 UI/UX 설계가 중요합니다.",
+        "idea_ko": "사용자의 운동 기록을 바탕으로 시각적인 습관 달성 그래프를 제공하여 성취감을 극대화하는 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "리더보드 경쟁을 배제하고 서로 응원하는 따뜻한 커뮤니티 분위기를 조성합니다.",
+          "관절 건강을 고려한 저강도 운동 위주로 구성되어 초보자도 쉽게 접근 가능합니다."
+        ],
+        "systems_ko": [
+          "사용자 프로필 및 운동 기록 데이터 관리 시스템",
+          "식단 영양 성분 계산 및 칼로리 추적 엔진",
+          "운동 영상 재생 및 가이드 UI",
+          "사용자 간 메시지 및 응원 전송 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "운동 영상 콘텐츠 제작과 식단 데이터베이스 연동이 필요하며, 사용자 간 상호작용 시스템을 안정적으로 운영하는 데 기술적 노력이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "데일리 운동 루틴 관리",
+            "운동 및 식단 기록 기능",
+            "사용자 프로필 관리"
+          ],
+          "defer": [
+            "실시간 채팅 시스템",
+            "전문적인 영양 성분 분석 API 연동"
+          ],
+          "risks": [
+            "사용자 운동 기록 데이터의 지속적인 관리 부담",
+            "콘텐츠(운동 영상) 제작의 지속성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "습관 나무 키우기",
+            "concept": "운동을 완료할 때마다 가상의 나무가 성장하는 시각적 보상을 제공합니다. 연속 운동 일수에 따라 나무의 종류가 변합니다.",
+            "first_step": "운동 완료 시 데이터베이스의 카운트를 증가시키고 화면에 나무 이미지를 업데이트하는 로직 구현."
+          },
+          {
+            "title": "맞춤형 운동 추천 봇",
+            "concept": "사용자의 현재 컨디션과 남은 시간을 입력하면 그에 맞는 최적의 운동 루틴을 즉석에서 조합해 줍니다.",
+            "first_step": "운동 동작별 소요 시간과 강도 데이터를 구조화하여 조건에 맞는 리스트를 필터링하는 알고리즘 작성."
+          }
+        ],
+        "recommendation_ko": "사용자의 습관 형성을 돕는 UI/UX 설계와 데이터 관리의 중요성을 배울 수 있습니다. 건강 관련 앱인 만큼 사용자의 기록을 어떻게 직관적으로 보여줄지 고민하는 과정이 큰 공부가 될 것입니다.",
+        "source_limitations_ko": "소개문에는 구체적인 운동 영상의 형식이나 식단 데이터베이스의 출처가 명시되어 있지 않습니다. 외부 API 연동 여부나 결제 시스템에 대한 정보는 확인되지 않습니다.",
+        "name": "DayClass",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.amapps.msga&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 210,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 10,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
+    },
+    "google:com.booster.gfxpro": {
+      "app_key": "google:com.booster.gfxpro",
+      "name": "Game Turbo: Exp. Booster & HUD",
+      "developer": "TOLAN",
+      "source": "google",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.booster.gfxpro&hl=en&gl=US",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T09:07:08+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Organize your game library, monitor real-time device vitals, and minimize distractions with Game Launcher VIP Ping-GFX HUD! Game Launcher VIP Ping-GFX HUD is designed as a centralized gaming utility hub. It brings your installed games together in one launcher and provides essential monitoring tools like an in-game HUD, network latency tracking, and a notification silencer for an uninterrupted gaming session. 🎮 Centralized Game Launcher • Keep all your installed games organized in one clean dashboard. • Quickly find and launch your favorite games directly without browsing through the app drawer. 📊 Real-Time Device & Hardware Monitor • Ping / Network Latency: Track your current network latency to evaluate connection stability. • Memory & Storage Stats: View available vs. total system memory usage. • Battery & Temperature: Keep track of battery percentage, charging state, and battery temperature to prevent unexpected shutdowns. • GFX & Display Benchmark: View device display resolution, refresh rate, and graphics capability benchmarks. 🛡️ In-Game Performance HUD Overlay • Keep an eye on vital statistics while actively playing. • Floating HUD overlay displays your ping, memory metrics, and battery temperature directly on your screen. 🔕 Gamer Mode (Do Not Disturb) • Focus on your gameplay without interruptions. • Automatically silences notifications and calls using system Do Not Disturb (DND) settings when Gamer Mode is enabled. 🌐 Local Game Firewall (On-Device VPN) • Limit background data usage of other apps while you game. • Uses Android's local VpnService to restrict internet access exclusively for unlisted background apps, helping protect your gaming bandwidth. 💡 Real Utility, No False Promises Tired of generic \"game booster\" apps that make unrealistic promises about magic RAM cleaners or instant FPS acceleration? Game Launcher VIP Ping-GFX HUD takes a realistic, transparent approach. We provide genuine utility tools—like background bandwidth restriction, latency tracking, and notification suppression—giving you full control over your device's actual performance without deceptive claims. 🔒 Permissions & Privacy Transparency We value your privacy and only request permissions required for core utility features: • VpnService: Used exclusively to run a local loopback firewall that restricts internet access to unselected background apps. No external VPN server is connected, and no network traffic is logged or sent off your device. • Notification Policy Access (DND): Required to silence incoming notifications and alerts during Gamer Mode. • Special Use Foreground Service: Used solely to monitor active network ping and keep the in-game HUD overlay responsive while playing. • Internet: Used for measuring network latency (ping checks) and serving in-app features. ⚠️ Disclaimer Game Launcher VIP Ping-GFX HUD is a utility and monitoring suite. Unlike misleading \"game booster\" tools, this app does not overclock, alter, or physically boost device hardware (CPU, GPU, or RAM). Actual gaming performance depends entirely on the hardware specifications provided by your device manufacturer.",
+      "analysis": {
+        "app_key": "google:com.booster.gfxpro",
+        "summary_ko": "설치된 게임을 한곳에서 관리하고 기기 상태를 실시간으로 모니터링하는 게임 유틸리티 허브입니다. 게임 중 방해 요소를 차단하는 게이머 모드와 네트워크 지연 시간 추적 기능을 제공합니다. 하드웨어 성능을 물리적으로 향상시키는 대신, 시스템 자원 모니터링과 알림 제어를 통해 쾌적한 게임 환경을 조성하는 데 집중합니다.",
+        "features_ko": [
+          "설치된 모든 게임을 대시보드에서 통합 관리하고 빠르게 실행할 수 있습니다.",
+          "네트워크 지연 시간(Ping), 메모리, 배터리 온도 등 기기 상태를 실시간으로 모니터링합니다.",
+          "게임 화면 위에 실시간 통계를 표시하는 플로팅 HUD 오버레이를 제공합니다.",
+          "시스템 방해 금지 설정을 활용해 게임 중 알림과 전화를 자동으로 차단합니다.",
+          "로컬 VPN 서비스를 사용하여 게임 외 백그라운드 앱의 데이터 사용을 제한합니다."
+        ],
+        "noteworthy_ko": "하드웨어 오버클럭과 같은 허위 광고를 배제하고, 안드로이드의 VpnService와 같은 시스템 API를 활용해 실질적인 네트워크 대역폭 제어를 구현한 점이 흥미롭습니다. 개발 관점에서 시스템 권한을 활용해 사용자 경험을 개선하는 유틸리티 앱의 투명한 접근 방식을 보여줍니다.",
+        "development_ko": "핵심 구현 기술로는 안드로이드 VpnService를 이용한 로컬 방화벽 구축과 Foreground Service를 통한 HUD 오버레이 유지가 필요합니다. 콘텐츠 제작 부담은 낮으나, 다양한 기기 환경에서의 권한 호환성 테스트와 실시간 데이터 모니터링의 정확도를 확보하는 것이 중요합니다.",
+        "idea_ko": "특정 게임 실행 시 자동으로 네트워크 우선순위를 높여주는 '게임 전용 네트워크 최적화 프로필' 관리 기능.",
+        "highlights_ko": [
+          "하드웨어 성능 향상이라는 과장된 광고 대신 투명한 유틸리티 기능을 강조합니다.",
+          "로컬 VPN을 활용해 백그라운드 데이터 사용을 제어하는 실용적인 접근을 취합니다."
+        ],
+        "systems_ko": [
+          "앱 라이브러리 관리 시스템",
+          "실시간 하드웨어 모니터링 엔진",
+          "시스템 오버레이(HUD) 관리",
+          "로컬 VPN 기반 네트워크 제어",
+          "알림 정책(DND) 연동 모듈"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "안드로이드 시스템 API(VpnService, Accessibility 등)에 대한 깊은 이해가 필요하며, 기기별로 다른 권한 정책을 처리해야 하기 때문입니다. 단순 UI 구현을 넘어 시스템 수준의 제어가 동반되어야 합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "게임 통합 런처 대시보드",
+            "기기 상태 모니터링(배터리, 메모리)",
+            "방해 금지 모드 연동"
+          ],
+          "defer": [
+            "네트워크 지연 시간 상세 분석",
+            "GFX 벤치마크 도구"
+          ],
+          "risks": [
+            "안드로이드 버전별 권한 정책 변경",
+            "백그라운드 서비스 강제 종료 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "게임 세션 로그 기록기",
+            "concept": "게임별 플레이 시간과 기기 발열 변화를 기록하여 사용자의 게임 습관을 분석합니다.",
+            "first_step": "특정 앱 실행 시간을 감지하여 로컬 데이터베이스에 저장하는 기능을 구현합니다."
+          },
+          {
+            "title": "맞춤형 게임 환경 프로필",
+            "concept": "게임마다 화면 밝기, 볼륨, 네트워크 설정을 자동으로 변경해주는 프로필 관리 기능입니다.",
+            "first_step": "앱 실행 감지 시 시스템 설정을 변경하는 자동화 스크립트를 작성합니다."
+          }
+        ],
+        "recommendation_ko": "시스템 API를 활용한 앱 개발 경험을 쌓기에 좋습니다. 다만, 하드웨어 제어와 관련된 오해를 사지 않도록 기능의 한계를 명확히 고지하는 투명한 개발 방식을 배울 수 있습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 네트워크 지연 측정 방식이나 로컬 VPN의 상세 구현 로직이 명시되지 않았습니다. 실제 기기별 성능 차이에 따른 HUD의 반응성 검증이 필요합니다.",
+        "name": "Game Turbo: Exp. Booster & HUD",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.booster.gfxpro&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 159,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 27,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
+    },
+    "apple:6451119566": {
+      "app_key": "apple:6451119566",
+      "name": "인증앱 - 2FA 인증기 & 모바일OTP",
+      "developer": "Zozed Company",
+      "source": "apple",
+      "country": "KR",
+      "category": "app_tools",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%9D%B8%EC%A6%9D%EC%95%B1-2fa-%EC%9D%B8%EC%A6%9D%EA%B8%B0-%EB%AA%A8%EB%B0%94%EC%9D%BCotp/id6451119566?uo=2",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T09:07:08+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "2FA: 2단계 인증 – 온라인 계정을 위한 최고의 보안 2단계 인증(2FA)으로 계정을 보호하세요. 모든 2FA 토큰을 하나의 앱에 안전하게 저장하고 온라인 보안을 한층 강화하세요. QR 코드를 스캔하거나 키를 직접 입력하여 몇 초 만에 설정할 수 있어 이메일, 소셜 미디어, 뱅킹 등의 보안에 이상적입니다. 주요 기능: - QR 코드를 스캔하여 즉시 계정 추가 - 필요할 때 비밀 키를 수동으로 간편하게 입력 - 모든 2FA 토큰을 한 곳에 안전하게 저장하고 정리 - 시간 기반 일회용 암호(TOTP)를 간편하게 생성 - 빠르고 직관적이며 원활한 사용자 경험 가장 중요한 것을 보호하세요. 지금 바로 2FA로 온라인 세상을 안전하게 보호하세요. 구독 정보: - 국가별 가격은 다를 수 있으며, 실제 가격은 거주 국가에 따라 현지 통화로 환산될 수 있습니다. - 구매 확인 시 iTunes 계정으로 요금이 청구됩니다. - 구독은 자동으로 갱신됩니다. 현재 구독 기간이 종료되기 최소 24시간 전에 자동 갱신을 해제할 수 있습니다. - 현재 구독 기간이 종료되기 24시간 전에 갱신 가격과 함께 구독 갱신 수수료가 계정에 청구됩니다. - iTunes 계정 설정에서 구독을 관리하고 자동 갱신을 해제할 수 있습니다. - Apple ID 설정에서 언제든지 구독을 취소할 수 있습니다. 모든 가격에는 해당 지역 판매세가 포함되어 있습니다. - 무료 체험 기간이 제공되는 경우, 구독을 구매하면 사용하지 않은 부분은 취소됩니다. - 3일 무료 체험 기간이 종료되면, 3일 무료 체험 기간 종료 전에 취소하지 않으면 구독은 해당 요금에 따라 자동 갱신됩니다. 개인정보처리방침: https://zzetapp.com/policy.html 이용약관: https://zzetapp.com/terms.html",
+      "analysis": {
+        "app_key": "apple:6451119566",
+        "summary_ko": "온라인 계정 보안을 강화하기 위한 2단계 인증(2FA) 앱입니다. QR 코드 스캔이나 수동 키 입력을 통해 TOTP 토큰을 안전하게 저장하고 생성할 수 있습니다. 이메일, 소셜 미디어, 뱅킹 등 다양한 서비스의 보안을 한곳에서 관리할 수 있는 직관적인 도구입니다.",
+        "features_ko": [
+          "QR 코드를 스캔하여 간편하게 2단계 인증 계정을 추가합니다.",
+          "비밀 키를 직접 입력하여 수동으로 계정을 등록할 수 있습니다.",
+          "시간 기반 일회용 암호(TOTP)를 실시간으로 생성합니다.",
+          "모든 인증 토큰을 하나의 앱 내에서 안전하게 정리하고 관리합니다.",
+          "직관적인 인터페이스를 통해 빠르고 원활한 사용자 경험을 제공합니다."
+        ],
+        "noteworthy_ko": "보안 앱은 신뢰성이 가장 중요하며, 토큰 생성 알고리즘(TOTP)의 정확한 구현이 핵심입니다. 개발 관점에서 민감한 데이터를 안전하게 저장하는 로컬 보안 저장소(Keychain 등) 활용법을 익히기에 매우 적합한 프로젝트입니다.",
+        "development_ko": "TOTP 표준 알고리즘(RFC 6238) 구현이 핵심이며, 데이터 암호화 저장 기술이 필수적입니다. 사용자 인터페이스는 복잡하지 않으나, 보안 앱 특성상 앱 잠금 기능이나 생체 인증 연동 등 추가적인 보안 장치가 필요합니다.",
+        "idea_ko": "사용자의 인증 토큰을 클라우드에 암호화하여 백업하고 기기 간 동기화하는 기능.",
+        "highlights_ko": [
+          "QR 코드 스캔으로 복잡한 설정 없이 즉시 계정 보호를 시작할 수 있습니다.",
+          "TOTP 방식을 지원하여 다양한 온라인 서비스와 호환됩니다."
+        ],
+        "systems_ko": [
+          "TOTP 알고리즘 엔진",
+          "QR 코드 스캔 및 파싱",
+          "보안 데이터 저장소(Keychain)",
+          "생체 인증 연동(FaceID/TouchID)",
+          "사용자 인증 관리 UI"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "TOTP 알고리즘은 표준화되어 있어 구현이 명확하며, UI가 단순하여 1인 개발자가 완성하기에 적합합니다. 다만 보안 관련 앱이므로 데이터 암호화에 대한 주의가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "TOTP 코드 생성 로직",
+            "계정 추가 및 삭제 기능",
+            "로컬 데이터 저장"
+          ],
+          "defer": [
+            "클라우드 동기화",
+            "생체 인증 잠금",
+            "다양한 테마 설정"
+          ],
+          "risks": [
+            "데이터 유출 방지 보안 취약점",
+            "시간 동기화 오차로 인한 코드 불일치"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "보안 체크리스트",
+            "concept": "사용자의 계정별 보안 상태를 점검하고 2FA 설정 여부를 관리하는 도구입니다.",
+            "first_step": "계정 목록을 관리하고 각 계정의 보안 등급을 표시하는 UI를 만듭니다."
+          },
+          {
+            "title": "인증 코드 위젯",
+            "concept": "앱을 열지 않고도 홈 화면에서 바로 인증 코드를 확인할 수 있는 위젯 기능입니다.",
+            "first_step": "iOS/Android 위젯 API를 사용하여 앱 내 데이터를 표시하는 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "보안 앱 개발의 기초를 다지기에 매우 좋습니다. 표준 알고리즘을 직접 구현해보며 데이터 암호화와 보안 저장소 활용법을 배우는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 데이터 암호화 방식이나 보안 저장소의 구체적인 구현 기술이 명시되지 않았습니다. 구독 모델에 대한 정보는 있으나, 실제 보안 앱으로서의 신뢰성을 검증할 기술적 상세 정보는 부족합니다.",
+        "name": "인증앱 - 2FA 인증기 & 모바일OTP",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%9D%B8%EC%A6%9D%EC%95%B1-2fa-%EC%9D%B8%EC%A6%9D%EA%B8%B0-%EB%AA%A8%EB%B0%94%EC%9D%BCotp/id6451119566?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
+    },
+    "google:com.susoft.CJONmart": {
+      "app_key": "google:com.susoft.CJONmart",
+      "name": "CJ더마켓",
+      "developer": "CJ CheilJedang",
+      "source": "google",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.susoft.CJONmart&hl=ko&gl=KR",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T09:09:09+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "맛있는 경험을 만나다! CJ제일제당 공식몰 CJ THE MARKET CJ제일제당의 모든 제품을 가장 먼저, 편리하게 만나보세요! 간편한 쇼핑, 합리적인 가격과 혜택, 맛있고 즐거운 경험을 드립니다. □ 매월 1일, ‘더마켓 세일 페스타’ 취향저격 상품들을 초특가로! 매월 1일 시작되는 더마켓 세일 페스타로 최대 할인 혜택을 누리세요. □ 매일 달라지는 마켓핫딜 24시간 한정 초특급 혜택! 마켓핫딜에서 오늘의 특가부터 더 사면 더 할인되는 알짜배기 상품까지, 모두 한 번에 쇼핑 가능! □ CJ더마켓의 특별한 라인업 CJ더마켓에서만 볼 수 있는 특별한 제품들과, CJ제일제당의 신제품을 가장 먼저 만나보고 싶다면? 지금 바로 CJ더마켓에 놀러 오세요! □ 식탁을 더 스마트하게! 큐레이션 서비스 지금 고객님께 필요한 상품, CJ더마켓이 바로 알려드려요! 자주 찾으시는 상품을 스마트하게 보여주는 맞춤 추천으로 더 편하게 구매하세요. ※ CJ더마켓 앱 서비스 접근 권한 안내 CJ THE MARKET 앱 사용을 위해 필요한 접근 권한을 안내합니다. 2017년 3월 23일 시행되는 정보통신망법 제 22조의 2(접근권한에 대한 동의)의 규정에 맞추어 서비스에 꼭 필요한 항목만을 필수 접근하고 있으며, 내용은 아래와 같습니다 [필수 접근권한] - 없음 [선택 접근 권한] 선택 접근 권한은 관련 기능을 사용할 때 허용이 필요하며, 비 허용 시에도 해당 기능 외 서비스는 이용 가능합니다. - 카메라 : 리뷰/ 1:1 문의글, the라운지 게시글, 오늘의 한끼 작성 시 사진 첨부할 수 있습니다. - 마이크 : 음성 첨부 등의 기능을 이용할 수 있습니다. - 기기에 저장된 미디어 파일(사진/동영상 등)을 사용하여 이미지 검색 등의 기능을 이용할 수 있습니다. (단, OS 버전 13.0 이상 단말에서는 사진 및 동영상 접근 권한이 사용되지 않습니다.) - 생체인증 : 지문인증 로그인 시 사용할 수 있습니다. - 알림 : 중요 공지 및 이벤트/프로모션 정보 알림을 받을 수 있어요 (단 OS 버전 13.0 이상 단말에서만 사용) ※ 설치가 원활하지 않을 경우 아래와 같은 방법으로 진행하신 후에, CJ더마켓 앱을 새롭게 설치 부탁드립니다. 1. 기기의 기본 설정 메뉴를 엽니다. 2. 앱 또는 애플리케이션 관리자(기기에 따라 다를 수 있음)를 엽니다. 3. Google Play 스토어 앱 Google Play을 선택합니다. 4. 캐시 지우기를 선택합니다. 5. 데이터 지우기를 선택합니다. (출처 : support.google.com) - 메일 문의: cj.platform.dev@gmail.com - 전화 문의: 1668-1953 ---- 개발자 연락처 : CJ CheilJedang Corporation 대한민국 서울특별시 중구 중구 동호로 330(쌍림동) 04560 1048609535 2007-서울중구-7767 본인 직접 신고",
+      "analysis": {
+        "app_key": "google:com.susoft.CJONmart",
+        "summary_ko": "CJ더마켓은 CJ제일제당의 공식 온라인 쇼핑몰로, 다양한 식품 제품을 편리하게 구매할 수 있는 플랫폼입니다. 매월 진행되는 할인 행사와 핫딜을 통해 합리적인 쇼핑 경험을 제공합니다. 또한 사용자의 구매 패턴을 분석하여 맞춤형 상품을 추천하는 큐레이션 서비스를 운영합니다.",
+        "features_ko": [
+          "매월 1일 진행되는 할인 행사 및 매일 달라지는 핫딜을 제공합니다.",
+          "사용자 구매 이력을 바탕으로 맞춤형 상품을 추천합니다.",
+          "리뷰 작성 및 1:1 문의 기능을 지원합니다.",
+          "지문 인증을 통한 간편 로그인을 지원합니다."
+        ],
+        "noteworthy_ko": "식품 전문 쇼핑몰로서 정기적인 할인 이벤트와 큐레이션 기능을 통해 재방문을 유도하는 전략이 돋보입니다. 사용자 맞춤형 추천 시스템이 쇼핑 경험의 핵심입니다.",
+        "development_ko": "상품 재고 관리와 주문 처리 시스템의 안정성이 가장 중요합니다. 사용자 행동 데이터를 분석하여 추천 알고리즘을 적용하는 것이 핵심이며, 다양한 결제 수단 연동이 필요합니다.",
+        "idea_ko": "냉장고에 있는 재료를 입력하면 CJ더마켓 상품과 조합하여 레시피를 추천해주는 '식재료 조합 레시피' 앱이 유용합니다.",
+        "highlights_ko": [
+          "정기적인 세일 페스타 및 핫딜 운영.",
+          "구매 데이터 기반의 개인화된 상품 추천."
+        ],
+        "systems_ko": [
+          "상품 재고 및 주문 관리 시스템",
+          "사용자 맞춤형 추천 알고리즘",
+          "결제 게이트웨이 연동",
+          "리뷰 및 게시판 관리 시스템",
+          "푸시 알림 서비스"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "쇼핑몰 앱은 결제, 재고, 배송 추적 등 연동해야 할 외부 시스템이 많습니다. 개인 개발자가 이를 모두 구현하고 유지보수하는 것은 매우 높은 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 목록 및 상세 페이지",
+            "장바구니 기능",
+            "상품 검색"
+          ],
+          "defer": [
+            "지문 인증 로그인",
+            "실시간 재고 연동",
+            "복잡한 추천 알고리즘"
+          ],
+          "risks": [
+            "결제 보안 및 개인정보 유출",
+            "서버 트래픽 과부하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "식재료 조합 레시피",
+            "concept": "현재 보유한 식재료를 입력하면 어울리는 요리법과 필요한 추가 재료를 알려주는 앱입니다.",
+            "first_step": "식재료와 레시피 데이터를 매칭하는 간단한 데이터베이스 구축."
+          },
+          {
+            "title": "장보기 리스트 공유",
+            "concept": "가족이나 친구와 함께 장보기 목록을 공유하고 실시간으로 수정할 수 있는 협업 앱입니다.",
+            "first_step": "실시간 데이터 동기화가 가능한 Firebase 등을 활용한 목록 공유 기능 구현."
+          }
+        ],
+        "recommendation_ko": "데이터 기반의 추천 시스템과 커머스 앱의 기본 흐름을 공부하기 좋습니다. 실제 서비스보다는 학습용 프로젝트로 접근하는 것을 권장합니다.",
+        "source_limitations_ko": "소개문에는 결제 시스템의 구체적인 기술 스택이나 재고 관리 시스템의 연동 방식이 명시되지 않았습니다. 보안 관련 상세 정보는 확인이 불가능합니다.",
+        "name": "CJ더마켓",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.susoft.CJONmart&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 87,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
     }
   }
 }

@@ -15439,6 +15439,277 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-25"
+    },
+    "apple:1062022008": {
+      "app_key": "apple:1062022008",
+      "name": "LumaFusion",
+      "developer": "Luma Touch LLC",
+      "source": "apple",
+      "country": "JP",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/lumafusion/id1062022008",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T09:00:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "LumaFusion: ビデオ編集のための究極のストーリーテリング体験 App Store 2021年度「App of the Year」および「Editors' Choice Award」受賞！世界中のクリエイターのゴールドスタンダード。流動的で直感的なタッチスクリーン編集体験。 プロフェッショナル編集 • 6つのビデオ/オーディオまたはグラフィックトラック: 4K ProResとHDRメディアをスムーズに処理 • 6つの追加オーディオトラック: サウンドスケープを構築 • 究極のタイムライン: 世界で最も柔軟なトラックベース＆マグネティックタイムライン • 豊富なトランジション、外部モニタープレビュー • マーカー、タグ、メモで整理整頓 • ナレーション: ムービー再生中に録音可能 レイヤーエフェクトと色補正 • グリーンスクリーン、ルミナンスキー、クロマキー • Lock & Load ビデオスタビライザー • パワフルな色補正、ビデオ波形、ベクタースコープ、ヒストグラム • LUT: .cubeまたは.3dl LUTsをインポート・適用 • 無制限のキーフレーム: エフェクトを正確にアニメーション化 • カスタマイズ可能なテキストとエフェクトプリセット • グリッドとガイド: タイトルセーフ、アクションセーフ、横線 高度なオーディオコントロール • グラフィックEQ、パラメトリックEQ、ボイスアイソレーション • キーフレームオーディオレベル、パンニング、EQ • ステレオ/デュアルモノラルオーディオ対応 • オーディオダッキング、サードパーティプラグイン クリエイティブなタイトルとマルチレイヤーテキスト • マルチレイヤータイトル: 図形、画像、テキストを組み合わせ • カスタムフォント、色、枠線、影 • タイトルプリセットの保存と共有 プロジェクトの柔軟性とメディアライブラリ • あらゆる用途のアスペクト比: シネマからソーシャルメディアまで • 18fps〜240fpsのフレームレート • 写真、Frame.io、USB-Cドライブから直接編集 • クラウドストレージからメディアをインポート 傑作をシェア • 解像度、品質、フォーマットをコントロール • ソーシャルメディア、ローカル/クラウドストレージに共有 • 複数デバイスでシームレスにプロジェクト転送 拡張機能（個別購入またはCreator Passサブスクリプションで全て入手） • スピードランピングと拡張キーフレーミング - スピードランプ、ベジェ曲線、イージングを作成 • XMLエクスポート: Mac用Final Cut Proに送信 • マルチカムスタジオ: 6カメラ/オーディオ同期、タップでアングル切替 Creator Passサブスクリプション • Storyblocks完全アクセス: ロイヤリティフリー音楽、SFX、ビデオ、さらに全拡張機能 サポート • チュートリアル: www.youtube.com/@LumaTouch • 参照ガイド: luma-touch.com/lumafusion-reference-guide • サポート: lumatouch.co/support",
+      "analysis": {
+        "app_key": "apple:1062022008",
+        "summary_ko": "LumaFusion은 모바일 환경에 최적화된 전문적인 비디오 편집 앱입니다. 6개의 비디오/오디오 트랙과 마그네틱 타임라인을 지원하며, 색 보정 및 효과 레이어링 등 고급 편집 기능을 제공합니다.",
+        "features_ko": [
+          "6개의 비디오/오디오 트랙과 6개의 추가 오디오 트랙을 지원합니다.",
+          "마그네틱 타임라인을 통해 유연한 편집 환경을 제공합니다.",
+          "그린스크린, 크로마키 등 다양한 레이어 효과를 지원합니다.",
+          "색 보정을 위한 파형, 히스토그램 등 전문 도구를 포함합니다.",
+          "다양한 프레임 레이트와 해상도의 미디어를 처리할 수 있습니다."
+        ],
+        "noteworthy_ko": "모바일 기기에서 데스크톱 수준의 편집 경험을 제공하는 것이 핵심입니다. 터치 인터페이스에 최적화된 타임라인 설계가 개발 관점에서 매우 흥미로운 사례입니다.",
+        "development_ko": "고해상도 미디어 처리를 위한 하드웨어 가속 기술과 복잡한 타임라인 데이터 구조 설계가 필수적입니다. 1인 개발자가 구현하기에는 매우 방대한 규모의 프로젝트입니다.",
+        "idea_ko": "특정 편집 작업(예: 컷 편집)을 자동화하는 AI 보조 도구를 플러그인 형태로 제안하는 것이 실현 가능합니다.",
+        "highlights_ko": [
+          "전문가 수준의 색 보정 및 오디오 제어 기능을 갖추고 있습니다.",
+          "다양한 클라우드 및 외부 드라이브와의 연동을 지원합니다."
+        ],
+        "systems_ko": [
+          "멀티 트랙 타임라인 엔진",
+          "실시간 비디오 렌더링 시스템",
+          "미디어 파일 관리 및 캐싱 시스템",
+          "터치 기반 제스처 입력 처리",
+          "색 보정 및 효과 적용 파이프라인"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "비디오 편집 앱은 고도의 성능 최적화와 복잡한 데이터 동기화가 필요합니다. 1인 개발자가 전체 기능을 구현하는 것은 사실상 불가능하며, 핵심 기능만 구현하더라도 매우 높은 기술적 난도를 가집니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "단일 트랙 컷 편집 기능",
+            "미디어 불러오기 및 타임라인 배치",
+            "기본 내보내기 기능"
+          ],
+          "defer": [
+            "멀티 트랙 및 마그네틱 타임라인",
+            "고급 색 보정 및 효과",
+            "멀티캠 스튜디오"
+          ],
+          "risks": [
+            "메모리 관리 및 성능 최적화 실패",
+            "복잡한 UI/UX 구현의 어려움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "자동 컷 편집 보조",
+            "concept": "오디오 파형을 분석하여 소리가 없는 구간을 자동으로 감지하고 컷을 제안합니다. 사용자가 승인하면 자동으로 타임라인을 정리합니다.",
+            "first_step": "오디오 데이터의 볼륨 레벨을 분석하는 알고리즘 구현."
+          },
+          {
+            "title": "템플릿 기반 숏폼 편집기",
+            "concept": "사용자가 선택한 템플릿에 맞춰 미디어를 자동으로 배치하고 효과를 적용합니다. 복잡한 편집 없이도 빠르게 영상을 제작할 수 있습니다.",
+            "first_step": "미디어 파일의 순서와 효과를 정의하는 JSON 템플릿 구조 설계."
+          }
+        ],
+        "recommendation_ko": "전문적인 미디어 처리 앱의 구조를 이해하는 데 도움이 됩니다. 다만, 1인 개발자가 직접 구현하기보다는 특정 기능을 모듈화하여 학습하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에 언급된 외부 서비스(Storyblocks, Frame.io)와의 연동 방식이나 내부 렌더링 엔진의 구체적인 기술 스택은 확인되지 않습니다.",
+        "name": "LumaFusion",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/lumafusion/id1062022008",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 339,
+        "reasons": [
+          "multi_country",
+          "newly_seen"
+        ],
+        "best_rank": 17,
+        "countries": [
+          "JP",
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
+    },
+    "google:com.barsstudios.swordplay": {
+      "app_key": "google:com.barsstudios.swordplay",
+      "name": "Sword Play! Ninja Slice Runner",
+      "developer": "CASUAL AZUR GAMES",
+      "source": "google",
+      "country": "US",
+      "category": "game_action",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.barsstudios.swordplay&hl=en&gl=US",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T09:06:01+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Sharpen your blade, sword master! Dive into the world of action games where every slice is a masterpiece of power and precision. Sword Play is not just a game; it’s a duel of fate and glory set against a backdrop of breathtaking landscapes and mysterious enemies. Welcome to Sword Play! - a marriage of cutting games and action games, a universe where each slash is a testament to the skills of the kunai master. With no need for internet, relish in the challenges of games with no wifi and embark on an ninja journey that knows no bounds! Dash through numerous challenging levels, a perfect mix of slicing games and fighting games, where every enemy defeated is another step closer to becoming the slice master. With no wifi games feature, the adventure never stops; it only becomes more intense. Feel the thrill of the sword fight, where ninja slice maneuvers and swift katana strikes rule the battlefield. Face hordes of assassins, ragdoll ninja warriors, and master the arts of ninja game strategies amidst the heat of the battle. HORDES OF ENEMIES In the realm of sword games and samurai games, you’re not just a warrior; you are a ninja, a stealth master navigating through waves of enemies, from formidable samurai jack figures to fearsome samurai shodown warriors. Be the slicer that legends speak of, a true knife game and knife games maestro. DEADLY SWORDS The blade forge 3d awaits, where swords are not just weapons but artifacts of power. Knock em all down with the Lusting Katana or the Sabre of Darkness. In this captivating sword game, every sword fight is a dance of death and destiny. SUPER PERKS Outsmart and outmaneuver every enemy with an array of perks and abilities that turn every ninja slice moment into a masterpiece of slicing game and slicing games artistry. Be the whip master, the sword master where every strike, every slash is a testament to the pinnacle of ninja game mastery. GAME FEATURES - Intuitive slicing gameplay - A myriad of challenging levels - An ninja adventure - Action-packed samurai missions - Waves of ninja assassins - A true offline games experience With sword master prowess and ninja agility, every ragdoll ninja enemy and every samurai shodown warrior will know your name. The fate of the shadowy realms rests in your hands, slice master. Download now, and let the ninja game odyssey begin!",
+      "analysis": {
+        "app_key": "google:com.barsstudios.swordplay",
+        "summary_ko": "검을 휘둘러 적을 베어 넘기는 액션 게임으로, 직관적인 슬라이스 조작이 특징입니다. 다양한 검을 수집하고 강화하며 적들을 물리치는 과정을 담고 있습니다. 오프라인 환경에서도 플레이 가능한 액션 중심의 게임입니다.",
+        "features_ko": [
+          "화면을 슬라이스하여 적을 베는 직관적인 조작 방식을 제공합니다.",
+          "다양한 종류의 검을 수집하고 강화할 수 있는 시스템이 있습니다.",
+          "스테이지마다 등장하는 적들을 물리치며 나아가는 레벨 구조입니다.",
+          "오프라인 환경에서도 제약 없이 플레이할 수 있습니다."
+        ],
+        "noteworthy_ko": "슬라이스 액션의 타격감을 극대화하기 위한 물리 엔진 활용이 핵심으로 보입니다. 적의 반응을 래그돌(ragdoll)로 처리하여 액션의 재미를 높인 점이 흥미롭습니다.",
+        "development_ko": "슬라이스 입력 판정과 물리 엔진의 연동이 가장 중요합니다. 적의 피격 애니메이션과 검의 궤적 효과를 구현하는 데 기술적 노력이 필요하며, 레벨 디자인의 반복성을 줄이는 것이 관건입니다.",
+        "idea_ko": "슬라이스 궤적에 따라 적의 절단면이 달라지는 물리 기반 절단 시스템을 도입하는 것이 좋습니다.",
+        "highlights_ko": [
+          "직관적이고 속도감 있는 슬라이스 액션.",
+          "다양한 검 수집을 통한 성장 요소."
+        ],
+        "systems_ko": [
+          "입력 제스처 인식 시스템",
+          "물리 기반 절단 및 피격 판정",
+          "캐릭터 및 무기 데이터 관리",
+          "레벨 생성 및 적 스폰 로직",
+          "UI 및 게임 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "입력 인식과 물리 효과 구현이 핵심이며, 복잡한 시스템보다는 액션의 타격감 조절이 중요하여 1인 개발 범위 내에 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "슬라이스 입력 인식",
+            "적 피격 및 절단 애니메이션",
+            "기본 스테이지 루프"
+          ],
+          "defer": [
+            "다양한 특수 능력(Perks) 시스템",
+            "복잡한 3D 배경 환경"
+          ],
+          "risks": [
+            "입력 판정의 정확도 문제",
+            "물리 엔진 최적화"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "리듬 슬라이스",
+            "concept": "음악의 비트에 맞춰 적을 베는 리듬 액션 결합형 게임입니다.",
+            "first_step": "음악에 맞춰 타겟이 나타나는 간단한 프로토타입을 만듭니다."
+          },
+          {
+            "title": "슬라이스 퍼즐",
+            "concept": "한 번의 슬라이스로 여러 물체를 특정 각도로 잘라야 하는 퍼즐 게임입니다.",
+            "first_step": "물체를 자르는 물리 판정 테스트를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "액션 게임의 핵심인 타격감과 조작 반응성을 배우기에 좋습니다. 물리 엔진을 활용한 게임 개발을 희망하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에 언급된 '래그돌'의 구체적인 구현 방식이나 '검 강화'의 상세 수치는 알 수 없습니다. 오프라인 게임으로 명시되어 있으나 데이터 저장 방식은 확인되지 않습니다.",
+        "name": "Sword Play! Ninja Slice Runner",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.barsstudios.swordplay&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 165,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
+    },
+    "google:com.tarot.yesno.relationship.destiny.cards": {
+      "app_key": "google:com.tarot.yesno.relationship.destiny.cards",
+      "name": "Daily Tarot & Zodiac Astrology",
+      "developer": "TRULY FLAVIUS GROUP",
+      "source": "google",
+      "country": "US",
+      "category": "app_lifestyle",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.tarot.yesno.relationship.destiny.cards&hl=en&gl=US",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T09:07:41+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "🔮 Daily Tarot, Horoscope & Zodiac Insights Discover Daily Tarot & Zodiac Astrology, your space for daily tarot readings, tarot card meanings, horoscope insights, and zodiac astrology. Explore traditional tarot interpretations and astrological themes related to love, relationships, personal growth, and everyday life. ✨ Explore Your Daily Tarot Draw your Card of the Day and discover its symbolism, meaning, and traditional interpretation. Learn about Major Arcana and Minor Arcana cards while exploring tarot meanings and reflecting on your thoughts, feelings, and daily experiences. ♈ Daily Horoscope & Zodiac Signs Explore daily horoscope readings, zodiac signs, and astrology insights. Discover zodiac meanings and astrological themes related to personality, emotions, relationships, and everyday experiences. ❤️ Love Tarot & Relationships Explore love tarot readings focused on romance, emotions, and personal connections. Discover traditional tarot card meanings and reflect on different perspectives related to love and relationships. 💫 Tarot Readings for Life Explore tarot interpretations related to personal questions, life choices, and self-reflection. Discover Yes or No Tarot readings and different ways to understand card symbolism through traditional interpretations. 🌙 Discover Tarot & Astrology Make daily tarot reading part of your routine. Draw a tarot card, check your daily horoscope, explore zodiac meanings, and learn about astrology at your own pace. Find moments for reflection through tarot cards and horoscope insights. Your feedback and suggestions help us improve Daily Tarot & Zodiac Astrology. We appreciate your support and welcome your ideas for a better experience.",
+      "analysis": {
+        "app_key": "google:com.tarot.yesno.relationship.destiny.cards",
+        "summary_ko": "Daily Tarot & Zodiac Astrology는 타로 카드 해석, 일일 운세, 별자리 정보를 제공하는 라이프스타일 앱입니다. 사용자는 매일 타로 카드를 뽑아 의미를 확인하고, 사랑과 인간관계, 개인적 성장에 대한 통찰을 얻을 수 있습니다. 일상적인 고민에 대해 예/아니오 타로 읽기 등 다양한 방식으로 조언을 제공합니다.",
+        "features_ko": [
+          "매일 타로 카드를 뽑아 상징과 의미를 해석하는 기능을 제공합니다.",
+          "일일 운세와 별자리 정보를 통해 성격 및 관계에 대한 통찰을 제공합니다.",
+          "사랑과 인간관계에 특화된 타로 읽기 기능을 포함합니다.",
+          "예/아니오 타로 읽기를 통해 간단한 질문에 대한 조언을 얻을 수 있습니다.",
+          "메이저 및 마이너 아르카나 카드에 대한 전통적인 해석을 학습할 수 있습니다."
+        ],
+        "noteworthy_ko": "사용자의 일상적인 고민을 타로와 별자리라는 콘텐츠로 풀어낸 점이 흥미롭습니다. 데이터베이스 기반의 정보 제공 앱으로서, 사용자에게 매일 반복적인 방문을 유도하는 콘텐츠 구성 방식이 핵심입니다.",
+        "development_ko": "핵심 구현 기술로는 타로 카드 데이터베이스 관리와 운세 알고리즘 구현이 필요합니다. 콘텐츠 제작 부담은 타로 해석 텍스트와 별자리 데이터의 양에 있으며, 테스트 부담은 다양한 사용자 질문에 대한 결과값의 논리적 일관성을 확인하는 데 있습니다.",
+        "idea_ko": "사용자의 고민을 입력하면 그에 맞는 타로 카드를 추천하고, 과거의 고민과 결과를 기록하는 '고민 일기' 기능을 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "타로와 별자리를 결합하여 일상적인 조언을 제공하는 종합 운세 앱입니다.",
+          "사용자의 성찰을 돕는 다양한 타로 읽기 방식을 지원합니다."
+        ],
+        "systems_ko": [
+          "타로 카드 데이터베이스 시스템",
+          "운세 및 별자리 계산 알고리즘",
+          "사용자 기록 및 히스토리 관리 시스템",
+          "알림 및 푸시 서비스 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "데이터베이스에서 정보를 조회하고 화면에 출력하는 구조가 주를 이루므로, 복잡한 물리 엔진이나 그래픽 처리가 필요 없어 개인 개발자가 구현하기에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "타로 카드 뽑기 및 결과 출력 기능",
+            "기본 운세 정보 데이터베이스",
+            "사용자 질문 입력 및 조언 출력"
+          ],
+          "defer": [
+            "별자리 상세 분석 기능",
+            "사용자 기록 히스토리 기능"
+          ],
+          "risks": [
+            "콘텐츠의 양과 질에 따른 사용자 만족도 차이",
+            "데이터베이스 관리의 번거로움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "고민 일기장",
+            "concept": "타로 결과를 기록하고 나중에 다시 확인하여 고민이 어떻게 해결되었는지 돌아보는 기능입니다. 타로의 조언이 실제로 도움이 되었는지 평가할 수 있습니다.",
+            "first_step": "타로 결과와 사용자의 메모를 함께 저장하는 로컬 데이터베이스를 구현합니다."
+          },
+          {
+            "title": "오늘의 카드 위젯",
+            "concept": "홈 화면에서 바로 오늘의 타로 카드를 확인하고 간단한 조언을 볼 수 있는 위젯입니다.",
+            "first_step": "앱 내 데이터를 위젯으로 전달하는 간단한 위젯 연동 기능을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "데이터 기반의 정보 제공 앱을 만들고 싶은 개발자에게 추천합니다. 데이터베이스 설계와 사용자 경험을 연결하는 기초적인 앱 구조를 익히기에 좋습니다.",
+        "source_limitations_ko": "소개문에는 운세 알고리즘의 구체적인 로직이나 외부 데이터 소스(API 등) 사용 여부에 대한 정보가 없습니다. 의료나 금융 등 전문적인 조언을 제공하는 기능은 포함되어 있지 않습니다.",
+        "name": "Daily Tarot & Zodiac Astrology",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.tarot.yesno.relationship.destiny.cards&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
     }
   }
 }

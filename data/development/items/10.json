@@ -31795,6 +31795,358 @@
         "thoughtsTokenCount": 3499,
         "serviceTier": "standard"
       }
+    },
+    "google:com.RC58.fashion.arena.dressup.game": {
+      "app_key": "google:com.RC58.fashion.arena.dressup.game",
+      "name": "Fashion Arena: Dress Up Game",
+      "developer": "Sprigame",
+      "source": "google",
+      "kind": "game",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.RC58.fashion.arena.dressup.game&hl=en&gl=US",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.RC58.fashion.arena.dressup.game",
+        "product_kind": "game",
+        "original_experience_ko": "원작은 다양한 테마 조건에 맞춰 캐릭터의 의상과 메이크업을 꾸미고, 실시간 매칭과 투표 시스템을 통해 다른 플레이어와 스타일 대결을 벌이는 캐주얼 드레스업 게임 경험을 제공합니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 소개문에서 실시간 패션 대결, 테마별 드레스업, 의상 및 메이크업 컬렉션, 투표 및 리더보드 시스템을 확인할 수 있습니다.",
+          "실제 매칭 알고리즘의 작동 방식, 투표의 공정성 확보 장치, 에셋 데이터 구조는 스토어 정보만으로는 확인할 수 없습니다."
+        ],
+        "valuable_elements_ko": [
+          "캐주얼, 파티 나이트 등 구체적인 테마 제약을 통해 유저에게 창의적 선택의 가이드를 제공하는 규칙.",
+          "투표를 통한 승패 판정 및 랭킹 시스템으로 단순 수집을 넘어선 경쟁적 동기 부여."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "스타일링 타임어택: 3분 런웨이",
+            "core_idea_ko": "제한된 시간 안에 테마 키워드에 맞는 의상과 소품을 빠르게 조합하여 비동기 유저들과 스타일 점수로 경쟁하는 아케이드 드레스업 게임입니다.",
+            "what_to_keep_ko": "원작의 테마별 드레스업 규칙과 다른 유저와의 경쟁 및 비교 요소를 계승합니다.",
+            "what_to_change_ko": "여유로운 꾸미기에서 벗어나 시간 제한과 태그 매칭 압박을 주는 아케이드적 규칙으로 전환합니다.",
+            "mobile_use_or_play_ko": "유저는 3분의 제한 시간 동안 팝업된 테마 키워드에 부합하는 의류 태그를 빠르게 필터링하고 조합해 제출하며, AI와 비동기 고스트 데이터의 점수를 비교해 승패를 결정합니다.",
+            "key_features_ko": [
+              "태그 기반 실시간 필터링 UI",
+              "제한 시간 압박을 주는 타임어택 엔진",
+              "비동기 고스트 데이터 매칭 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "2D 스프라이트 레이어링 구조와 로컬 아이템 데이터베이스를 활용해 1인 개발이 가능하며, 실시간 서버 대신 비동기 점수 비교 방식을 택해 개발 난이도를 낮춥니다.",
+            "strengths_limits_ko": "짧은 플레이 타임으로 몰입감이 높으나, 정교한 의상 에셋 제작 리소스가 많이 소요될 수 있습니다."
+          },
+          {
+            "title_ko": "패션 에디터의 마감일지",
+            "core_idea_ko": "까다로운 의뢰인의 요구사항과 패션 매거진의 테마 에피소드를 해결하며 스토리를 진행하는 싱글 플레이 중심의 드레스업 내러티브 게임입니다.",
+            "what_to_keep_ko": "의상 조합 및 메이크업 스튜디오의 수집 및 꾸미기 재미를 계승합니다.",
+            "what_to_change_ko": "직접적인 PvP 경쟁 대신 싱글 플레이어 중심의 스토리 에피소드와 의뢰인 만족도 평가 시스템을 도입합니다.",
+            "mobile_use_or_play_ko": "유저는 대화형 시나리오 속에서 까다로운 모델의 요구 조건을 파악하고, 그에 맞는 의상과 메이크업을 구성해 제출한 뒤 반응에 따라 스토리 분기를 진행합니다.",
+            "key_features_ko": [
+              "클라이언트 만족도 평가 시스템",
+              "스토리 에피소드 및 대화형 내러티브",
+              "단계별 의상 잠금 해제 진행도"
+            ],
+            "solo_mvp_and_effort_ko": "비주얼 노벨 프레임워크와 2D 드레스업 인터페이스를 결합하여 1인 개발하기에 구조가 단순하고 안정적입니다.",
+            "strengths_limits_ko": "서버 구축 부담이 적고 몰입감이 좋은 반면, 멀티플레이어 경쟁 요소가 없어 리텐션 유도 방안이 추가로 필요합니다."
+          },
+          {
+            "title_ko": "브랜드 토너먼트: 나의 스타일 쇼케이스",
+            "core_idea_ko": "자신만의 가상 패션 브랜드를 설립하고, 매주 열리는 테마별 브랜드 쇼케이스에 출품해 다른 유저들의 블라인드 투표로 우승을 가리는 경쟁형 게임입니다.",
+            "what_to_keep_ko": "글로벌 리더보드, 투표 및 랭킹 시스템, 시즌별 패션쇼 구조를 계승합니다.",
+            "what_to_change_ko": "개별 캐릭터 꾸미기를 넘어 브랜드 콘셉트 설정과 종합적인 쇼케이스 출품 시스템으로 확장합니다.",
+            "mobile_use_or_play_ko": "유저는 자신의 브랜드 로고와 시그니처 룩을 제작하여 주간 토너먼트에 등록하고, 다른 유저들의 출품작을 무작위로 심사한 뒤 결과에 따라 브랜드 명성과 보상을 획득합니다.",
+            "key_features_ko": [
+              "가상 브랜드 로고 및 스타일 빌더",
+              "블라인드 투표 심사 시스템",
+              "주간 토너먼트 및 브랜드 랭킹"
+            ],
+            "solo_mvp_and_effort_ko": "간단한 서버 연동을 통한 주간 자동 매칭과 텍스트 및 이미지 기반 투표 로직으로 MVP를 구현할 수 있습니다.",
+            "strengths_limits_ko": "강력한 커뮤니티 경쟁 재미를 제공하나, 초기 유저 풀이 부족할 경우 투표 시스템 작동에 한계가 있을 수 있습니다."
+          }
+        ],
+        "concept_comparison_ko": "1안은 아케이드성과 속도감에 집중했고, 2안은 싱글 스토리와 의뢰인 만족도를 강조했으며, 3안은 브랜드 운영과 주간 토너먼트 경쟁에 초점을 맞추어 서로 다른 플레이 루프를 제공합니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "원작의 아레나가 주는 경쟁적 긴장감을 모바일 환경에 맞게 비동기 타임어택 형태로 재해석하여 1인 개발 시 서버 부담을 최소화하면서도 높은 몰입감을 확보할 수 있기 때문입니다.",
+        "next_questions_ko": [
+          "비동기 고스트 매칭을 위한 데이터 구조를 얼마나 경량화할 수 있는가?",
+          "태그 기반 필터 UI가 모바일 화면에서 복잡하지 않게 배치될 수 있는가?"
+        ]
+      },
+      "brief_at": "2026-11-27T09:22:12+09:00",
+      "brief_quota_day": "2026-11-27",
+      "brief_usage": {
+        "promptTokenCount": 1482,
+        "candidatesTokenCount": 1433,
+        "totalTokenCount": 8852,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1482
+          }
+        ],
+        "thoughtsTokenCount": 5937,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.RC58.fashion.arena.dressup.game",
+        "product_kind": "game",
+        "selected_concept_title_ko": "스타일링 타임어택: 3분 런웨이",
+        "project_goal_and_audience_ko": "제한된 시간 속에서 패션 감각과 빠른 판단력을 겨루고 싶은 캐주얼 게이머와 패션 장르 팬을 위한 모바일 아케이드 게임입니다. 유저는 긴장감 넘치는 타임어택 속에서 순발력을 발휘해 스타일링을 완성하고 경쟁의 재미를 느낍니다.",
+        "source_relation_and_difference_ko": "원작의 테마별 의상 조합 규칙과 경쟁 시스템을 계승하되, 여유로운 꾸미기 중심의 플레이를 제한 시간 압박과 태그 매칭이 결합된 아케이드 타임어택 규칙으로 과감하게 전환하여 속도감과 몰입감을 높였습니다.",
+        "core_user_experience_ko": "유저는 게임 시작 시 무작위 또는 일일 테마 키워드를 확인하고 3분의 제한 시간 동안 인벤토리에서 태그에 맞는 상하의, 신발, 소품을 빠르게 선택하여 아바타에 레이어링합니다. 시간이 종료되면 시스템이 테마 적합도와 태그 일치율을 계산해 점수를 매기고, 비동기로 저장된 다른 유저의 고스트 데이터 점수와 비교하여 승패를 판정합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "태그 기반 실시간 필터링 UI",
+            "user_action_and_behavior_ko": "유저가 상하의, 액세서리 등의 카테고리를 터치하고 테마 태그를 선택하면 인벤토리 목록이 즉시 필터링되어 화면에 표시되며, 이를 통해 빠른 아이템 탐색 가치를 제공합니다.",
+            "practical_implementation_ko": "로컬 메모리에 로드된 아이템 리스트를 태그 배열 조건으로 필터링하는 함수를 구현하고, 유니티 UI Grid Layout Group을 활용해 렌더링합니다."
+          },
+          {
+            "feature_ko": "3분 타임어택 엔진 및 레이어링 시스템",
+            "user_action_and_behavior_ko": "시작 버튼과 함께 3분 카운트다운 타이머가 작동하며, 유저가 선택한 의상 스프라이트가 아바타 위에 순서대로 겹쳐져 실시간 외형 변화를 보여줍니다.",
+            "practical_implementation_ko": "델타타임 기반의 타이머 로직으로 남은 시간을 관리하고, 2D 스프라이트 렌더러의 정렬 레이어를 조정하여 옷과 액세서리가 올바른 순서로 겹치도록 구현합니다."
+          },
+          {
+            "feature_ko": "비동기 고스트 데이터 매칭 시스템",
+            "user_action_and_behavior_ko": "제한 시간이 끝나고 제출을 누르면 자신의 점수와 미리 저장된 상대방 고스트의 점수가 비교되어 승패 결과와 보상이 즉시 출력됩니다.",
+            "practical_implementation_ko": "서버 구축 부담을 줄이기 위해 미리 정의된 난이도별 가상 유저의 점수 데이터셋을 로컬 JSON에 포함하고, 유저의 최종 태그 매칭 점수와 비교하는 로직을 작성합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "메인 로비 화면",
+            "contents_and_actions_ko": "일일 테마 확인, 플레이 시작 버튼, 내 인벤토리 및 랭킹 진입 메뉴가 표시되며 시작 버튼 터치 시 아레나로 진입합니다."
+          },
+          {
+            "screen_ko": "스타일링 아레나 화면",
+            "contents_and_actions_ko": "상단 타이머와 테마 키워드, 중앙 아바타 프리뷰, 하단 의상 태그 필터 및 아이템 그리드가 표시되며, 아이템 선택 시 아바타에 반영되고 제한 시간 내 제출 버튼을 누릅니다."
+          },
+          {
+            "screen_ko": "결과 판정 화면",
+            "contents_and_actions_ko": "유저의 최종 스타일 점수와 상대 고스트의 점수를 비교하여 승패를 보여주고, 보상 획득 후 로비로 복귀합니다."
+          }
+        ],
+        "implementation_approach_ko": "2D 스프라이트 렌더링과 UI 처리가 직관적인 유니티 엔진을 사용합니다. 아이템 데이터 관리와 빠른 UI 반응 속도를 위해 로컬 JSON 기반 데이터 구조를 채택하며, 추후 확장 시 REST API 서버와 연동할 수 있도록 모듈을 분리합니다.",
+        "data_and_storage_ko": [
+          "아이템 마스터 데이터: 아이템 ID, 이름, 카테고리, 태그 배열, 스프라이트 리소스 경로를 포함하며 JSON 파일로 로컬 저장 및 앱 시작 시 메모리 로드",
+          "유저 인벤토리 및 기록 데이터: 보유 아이템 목록, 누적 승패, 최고 점수를 로컬 SharedPreferences 또는 SQLite에 저장 및 관리",
+          "비동기 매칭 고스트 데이터: 상대방의 테마별 평균 점수 및 태그 가중치 데이터를 로컬 JSON으로 미리 정의하여 사용"
+        ],
+        "mvp_scope_ko": "3개의 핵심 테마, 50종의 기본 의상 아이템, 3분 타이머 및 로컬 비동기 고스트 점수 비교 기능만 포함한 단일 플레이어 모드를 MVP로 설정합니다. 멀티플레이어 서버와 복잡한 상점 과금 시스템은 첫 프로토타입에서 제외하여 핵심 타임어택 재미 검증에 집중합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 스프라이트 레이어링 및 기본 UI 구축",
+            "deliverable_and_check_ko": "아바타 캐릭터에 상하의, 소품 스프라이트가 올바른 순서로 겹쳐지는지 확인하고 메인 로비와 아레나 기본 레이아웃을 구현합니다."
+          },
+          {
+            "stage_ko": "2단계: 타임어택 타이머 및 태그 필터링 구현",
+            "deliverable_and_check_ko": "3분 타이머 동작과 함께 하단 인벤토리에서 태그별로 아이템이 빠르게 필터링되고 선택되는지 테스트합니다."
+          },
+          {
+            "stage_ko": "3단계: 점수 산출 및 비동기 결과 판정 구현",
+            "deliverable_and_check_ko": "테마 키워드와 선택된 아이템 태그를 대조하여 점수를 계산하고, 고스트 점수와 비교하여 승패 화면이 정상 출력되는지 확인합니다."
+          }
+        ],
+        "possible_extensions_ko": "추후 시즌별 신규 테마 업데이트, 친구와의 고스트 데이터 공유 기능, 메이크업 커스터마이징 슬롯 추가, 유저 간 실시간 1대1 매칭 시스템 도입을 고려할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "제한 시간 3분이 너무 촉박하거나 여유롭지 않은지 실제 플레이 테스트를 통한 밸런스 조정 필요",
+          "모바일 기기에서 수십 개의 2D 스프라이트를 다룰 때 발생하는 드로우 콜 최적화 방안 검토",
+          "비동기 매칭의 난이도 곡선이 유저에게 적절한 성취감을 주는지 검증 과제로 남김"
+        ],
+        "draft_status_ko": "본 문서는 기획 아이디어를 구체화한 개발 설계 초안이며, 실제 구현, 플레이테스트 및 성능 측정이 완료되지 않은 상태입니다."
+      },
+      "plan_at": "2026-11-27T09:22:28+09:00",
+      "plan_quota_day": "2026-11-27",
+      "plan_usage": {
+        "promptTokenCount": 2033,
+        "candidatesTokenCount": 1820,
+        "totalTokenCount": 6892,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2033
+          }
+        ],
+        "thoughtsTokenCount": 3039,
+        "serviceTier": "standard"
+      }
+    },
+    "google:com.scatterlab.messenger": {
+      "app_key": "google:com.scatterlab.messenger",
+      "name": "zeta（ゼタ）- AIストーリーチャット",
+      "developer": "Scatter Lab, Inc.",
+      "source": "google",
+      "kind": "app",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.scatterlab.messenger&hl=ja&gl=JP",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "google:com.scatterlab.messenger",
+        "product_kind": "app",
+        "original_experience_ko": "zeta는 AI 캐릭터와의 1대1 대화 및 역할극을 통해 다양한 장르의 이야기를 즐기고, 사용자가 직접 캐릭터와 세계관을 생성하는 AI 챗봇 서비스입니다. 멀티 리플라이 기능을 통해 대화의 흐름을 보조받는 점이 특징입니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 소개문을 통해 AI 캐릭터와의 대화 및 역할극, 멀티 리플라이, 커스텀 캐릭터 및 세계관 생성 기능이 제공됨을 확인했습니다.",
+          "사용된 LLM 모델명, 장기 기억 유지 아키텍처, 서버 및 보안의 구체적인 구현 방식은 스토어 정보만으로는 확인되지 않습니다."
+        ],
+        "valuable_elements_ko": [
+          "AI가 단순한 응답기를 넘어 스토리텔링의 주체이자 파트너로 기능하는 몰입형 역할극 경험",
+          "사용자가 직접 캐릭터와 세계관을 설계하는 UGC 확장성",
+          "초보자도 쉽게 대화를 이어갈 수 있도록 돕는 멀티 리플라이 제안 기능"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "추리 단톡방: AI 협동 미스터리",
+            "core_idea_ko": "1대1 대화 중심의 기존 구조를 벗어나, 용의자인 여러 AI 캐릭터가 동시에 참여하는 단체 채팅방에서 대화를 유도하고 단서를 찾아내는 멀티스레드 추리 앱입니다.",
+            "what_to_keep_ko": "AI 캐릭터의 페르소나를 유지한 채 자유로운 대화와 역할극을 진행하는 핵심 재미를 계승합니다.",
+            "what_to_change_ko": "1대1 단방향 대화에서 벗어나 AI 간의 상호작용(캐릭터 A가 B를 의심하는 등)을 추가하고, 유저의 선택이 단서 해금이나 사건 전개에 직접 영향을 미치는 추리 규칙을 결합합니다.",
+            "mobile_use_or_play_ko": "모바일 단톡방 UI에서 여러 AI 캐릭터가 각자의 알림을 보내며 대화할 때, 유저가 특정 발언을 선택하거나 직접 입력해 용의자의 거짓말을 간파하고 증거를 획득합니다.",
+            "key_features_ko": [
+              "멀티 캐릭터 동시 대화 엔진",
+              "실시간 증거 수집 및 단서 매칭 시스템",
+              "AI 간 관계 및 신뢰도 수치화 기능"
+            ],
+            "solo_mvp_and_effort_ko": "1인 개발 시 API 호출 비용을 줄이기 위해 한 번에 호출하는 AI 프롬프트 구조를 최적화하고, 기본 시나리오 3개를 탑재한 로컬 우선 MVP로 구현합니다.",
+            "strengths_limits_ko": "단순 대화를 넘어선 게임성 부여가 장점이지만, 여러 AI가 동시에 대화할 때 문맥을 유지하고 토큰 비용을 제어하는 기술적 난도가 존재합니다."
+          },
+          {
+            "title_ko": "커리어 캔버스: AI 멘토 다중 상담소",
+            "core_idea_ko": "가상 스토리 대신 현실적인 진로, 커리어, 인간관계 고민을 다양한 전문 페르소나를 가진 AI 멘토들과 함께 시뮬레이션하고 실행 계획을 세우는 목적 지향형 앱입니다.",
+            "what_to_keep_ko": "사용자 맞춤형 페르소나 설정과 자연스러운 대화를 통한 심리적 몰입 및 조언 제공 기능을 계승합니다.",
+            "what_to_change_ko": "판타지/SF 역할극에서 벗어나 실제 삶의 목표 달성, 할 일 관리, 피드백 루프와 대화를 결합하여 유용성을 강화합니다.",
+            "mobile_use_or_play_ko": "사용자가 오늘의 고민을 입력하면 비즈니스, 심리, 창업 등 각기 다른 성향의 AI 멘토들이 패널 토론 형태나 개별 상담으로 조언을 주고, 구체적인 액션 플랜을 캘린더에 연동합니다.",
+            "key_features_ko": [
+              "다각도 AI 패널 상담 인터페이스",
+              "대화 기반 자동 투두리스트 생성",
+              "성장 리포트 및 피드백 타임라인"
+            ],
+            "solo_mvp_and_effort_ko": "UI는 표준 메신저 레이아웃을 재활용하되, 프롬프트 엔지니어링을 통해 멘토들의 전문성을 고정하여 초기 개발 공수를 최소화합니다.",
+            "strengths_limits_ko": "실용성이 높아 리텐션 유도에 유리하나, 전문적인 상담이나 법률/의학적 조언으로 오인될 수 있는 규제적 리스크 관리가 필요합니다."
+          },
+          {
+            "title_ko": "오토소설 스튜디오: AI 공동 연재 플랫폼",
+            "core_idea_ko": "AI와의 대화로 스토리를 만드는 것을 넘어, 대화 로그가 자동으로 웹소설 챕터 형태로 포맷팅되어 다른 유저들과 공유되고 평가받는 창작 플랫폼입니다.",
+            "what_to_keep_ko": "자유로운 세계관 설정, 캐릭터 생성, 사용자 주도의 스토리 분기 확장 기능을 계승합니다.",
+            "what_to_change_ko": "개인만의 일회성 채팅에 머무르지 않고, 대화 내용을 소설 형식으로 변환(문체 정제, 지문/대사 분리)하여 퍼블리싱하는 기능을 추가합니다.",
+            "mobile_use_or_play_ko": "채팅 탭에서 AI와 티키타카하며 장면을 만든 뒤, '소설화' 버튼을 눌러 생성된 챕터를 검토하고 플랫폼 피드에 업로드하여 다른 유저의 반응을 확인합니다.",
+            "key_features_ko": [
+              "대화 투 대본/소설 자동 변환 파이프라인",
+              "유저 커뮤니티 피드 및 구독 시스템",
+              "시나리오 분기 투표 기능"
+            ],
+            "solo_mvp_and_effort_ko": "웹뷰 중심의 하이브리드 앱으로 구성하여 백엔드 소설 저장/조회 기능과 AI 변환 API를 연동하는 방식으로 1인 개발 완성도를 높입니다.",
+            "strengths_limits_ko": "UGC 생태계를 확장할 수 있으나, 저품질 컨텐츠가 대량 양산될 경우 플랫폼 내 큐레이션 및 필터링 시스템 구현이 과제로 남습니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 아이디어는 다중 AI 그룹 채팅과 추리 규칙을 결합해 오락성을 높였고, 두 번째는 실생활 커리어 멘토링으로 유용성을 강화했으며, 세 번째는 대화를 웹소설 플랫폼으로 확장하여 창작 생태계를 노립니다. 첫 번째와 세 번째는 엔터테인먼트 중심이며, 두 번째는 실용 목적에 가깝습니다. 제작 난도 측면에서는 세 가지 모두 LLM 토큰 관리와 비용 최적화가 공통적인 과제입니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "추리 단톡방 아이디어는 기존 1대1 대화의 한계를 넘어 다중 AI 캐릭터 간의 인터랙션을 활용한다는 점에서 원작의 핵심 재미를 가장 신선하게 확장합니다. 모바일 환경에서 친숙한 단체 채팅 UI를 활용하되 게임 규칙(단서, 신뢰도)을 더해 1인 개발로도 높은 몰입감을 구현할 수 있습니다.",
+        "next_questions_ko": [
+          "다중 AI 캐릭터가 동시에 대화할 때 발생하는 LLM API 토큰 비용과 응답 지연 시간을 어떻게 최적화할 것인가?",
+          "유저의 선택이 스토리 분기에 미치는 영향 범위를 어디까지 로직으로 고정하고 어디를 AI 자율성에 맡길 것인가?",
+          "단톡방 형태의 UI에서 유저가 소외되지 않고 적절한 타이밍에 개입할 수 있는 인터랙션 디자인은 무엇인가?"
+        ]
+      },
+      "brief_at": "2026-11-27T09:48:48+09:00",
+      "brief_quota_day": "2026-11-27",
+      "brief_usage": {
+        "promptTokenCount": 1621,
+        "candidatesTokenCount": 1920,
+        "totalTokenCount": 6639,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1621
+          }
+        ],
+        "thoughtsTokenCount": 3098,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "google:com.scatterlab.messenger",
+        "product_kind": "app",
+        "selected_concept_title_ko": "추리 단톡방: AI 협동 미스터리",
+        "project_goal_and_audience_ko": "추리 소설, 인터랙티브 스토리, 역할극(RPG) 요소를 좋아하는 모바일 앱 사용자를 대상으로 합니다. 여러 AI 용의자들과 실시간 단체 채팅방에서 대화를 나누고 거짓말을 간파하여 사건을 해결하는 몰입감 넘치는 경험을 제공합니다.",
+        "source_relation_and_difference_ko": "원본의 AI 페르소나 기반 자유로운 대화와 역할극 경험은 충실히 계승하되, 1대1 대화의 한계를 벗어나 다수의 AI 캐릭터가 서로를 의심하고 상호작용하는 단체 채팅 구조와 추리 미션 규칙을 결합했습니다.",
+        "core_user_experience_ko": "사용자는 모바일 메신저 형태의 단톡방에 입장하여 사건 발생 직후의 긴장감 넘치는 AI 캐릭터들의 대화를 지켜봅니다. 유저가 직접 메시지를 입력하거나 제안된 선택지를 골라 특정 캐릭터에게 질문을 던지면, AI 캐릭터들은 각자의 성격과 알리바이에 맞춰 반응하며, 이 과정에서 획득한 증거를 통해 진범을 밝혀냅니다.",
+        "features_ko": [
+          {
+            "feature_ko": "멀티 캐릭터 동시 대화 엔진",
+            "user_action_and_behavior_ko": "한 번의 유저 입력에 대해 연관된 여러 AI 캐릭터가 순차적 또는 동시 다발적으로 반응하여 단톡방 분위기를 형성하고 자연스러운 토론 유도.",
+            "practical_implementation_ko": "단일 LLM 프롬프트에 여러 캐릭터의 페르소나와 현재 대화 맥락을 주입하고, 시스템 프롬프트로 발화 주체를 제어하여 JSON 형태로 응답을 파싱."
+          },
+          {
+            "feature_ko": "실시간 증거 수집 및 단서 매칭",
+            "user_action_and_behavior_ko": "대화 중 캐릭터의 말에서 모순을 발견하거나 특정 행동을 유도하면 새로운 증거 아이템이 해금되고 보관함에 저장됨.",
+            "practical_implementation_ko": "키워드 매칭 및 LLM의 상태값 태깅을 활용해 대화 결과물에 특정 증거 획득 트리거 조건을 연결."
+          },
+          {
+            "feature_ko": "AI 간 신뢰도 및 관계 수치화",
+            "user_action_and_behavior_ko": "유저의 선택에 따라 용의자들의 서로에 대한 불신과 유저에 대한 호감이 변동하여 대화 내용과 결말에 영향.",
+            "practical_implementation_ko": "캐릭터별 상태 객체에 신뢰도 점수를 유지하고, 대화 턴마다 점수 변동 로직을 처리하여 프롬프트 컨텍스트에 반영."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "사건 선택 및 로비 화면",
+            "contents_and_actions_ko": "플레이 가능한 미스터리 시나리오 목록 확인, 난이도 및 등장인물 소개 확인 후 원하는 사건 선택하여 단톡방 진입."
+          },
+          {
+            "screen_ko": "단체 채팅방 및 대화 화면",
+            "contents_and_actions_ko": "메신저 UI 기반 대화 스트리밍, AI 캐릭터들의 실시간 발화, 하단 입력창 및 멀티 리플라이 선택지 제공."
+          },
+          {
+            "screen_ko": "증거 보관함 및 추리 결말 화면",
+            "contents_and_actions_ko": "수집한 증거 목록 확인, 범인 지목 투표 진행 및 진상 밝히기 엔딩 분기 출력."
+          }
+        ],
+        "implementation_approach_ko": "크로스플랫폼 개발을 위해 Flutter를 채택하여 iOS/Android 단일 소스 관리를 지향합니다. 백엔드는 Node.js 기반으로 구축하여 LLM API와의 통신 및 세션 상태 관리를 처리하며, API 비용 절감을 위해 프롬프트 압축 및 캐싱 모듈을 도입합니다.",
+        "data_and_storage_ko": [
+          "Scenario(시나리오 기본 정보, 초기 대화 로그, 등장 캐릭터 목록) - 로컬 JSON 및 원격 DB 연동",
+          "CharacterState(캐릭터 ID, 페르소나 프롬프트, 신뢰도, 보유 알리바이) - 세션별 실시간 상태 저장",
+          "ClueItem(증거 ID, 이름, 설명, 해금 조건) - 로컬 저장소(SQLite/AsyncStorage) 관리"
+        ],
+        "mvp_scope_ko": "핵심 기능 검증을 위해 3개의 기본 미스터리 시나리오와 단체 채팅 UI, 단일 LLM을 활용한 멀티 캐릭터 응답 처리 기능만 구현합니다. UGC나 음성 기능은 MVP 범위에서 제외하여 개발 복잡도를 낮춥니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: UI 및 기본 시나리오 구조 설계",
+            "deliverable_and_check_ko": "메신저 스타일의 UI 컴포넌트 구현 및 시나리오 JSON 데이터 파싱 확인."
+          },
+          {
+            "stage_ko": "2단계: 멀티 LLM 프롬프트 파이프라인 구현",
+            "deliverable_and_check_ko": "유저 입력에 대해 2~3명의 AI 캐릭터가 순차적으로 응답하는 백엔드 API 연동 테스트."
+          },
+          {
+            "stage_ko": "3단계: 증거 수집 및 신뢰도 시스템 결합",
+            "deliverable_and_check_ko": "특정 키워드 발화 시 증거가 해금되고 캐릭터 대사 톤이 변하는지 로직 검증."
+          },
+          {
+            "stage_ko": "4단계: 엔딩 분기 및 시나리오 밸런싱",
+            "deliverable_and_check_ko": "범인 지목 결과에 따른 엔딩 화면 전환 및 시나리오 완결성 점검."
+          }
+        ],
+        "possible_extensions_ko": "추후 사용자가 직접 AI 용의자와 범행 동기를 설정하여 새로운 미스터리 시나리오를 만들고 공유할 수 있는 UGC 에디터 기능 확장.",
+        "risks_and_open_decisions_ko": [
+          "다수 AI 동시 호출 시 발생하는 토큰 비용 증가 문제 및 응답 지연 시간 제어 방안",
+          "여러 AI 캐릭터가 동시에 대화할 때 문맥이 꼬이거나 페르소나가 붕괴되는 현상을 막기 위한 프롬프트 엔지니어링 최적화 필요성",
+          "실제 플레이어의 자유로운 입력이 의도한 추리 경로를 이탈했을 때 유도하는 가이드라인 규칙 정립"
+        ],
+        "draft_status_ko": "본 문서는 실제 구현, 플레이테스트 및 성능 측정이 완료되지 않은 1인 모바일 앱 개발 설계 초안입니다."
+      },
+      "plan_at": "2026-11-27T09:49:06+09:00",
+      "plan_quota_day": "2026-11-27",
+      "plan_usage": {
+        "promptTokenCount": 2256,
+        "candidatesTokenCount": 1676,
+        "totalTokenCount": 7036,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2256
+          }
+        ],
+        "thoughtsTokenCount": 3104,
+        "serviceTier": "standard"
+      }
     }
   }
 }
