@@ -15455,6 +15455,183 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-27"
+    },
+    "itch:add43068d061c13d9801": {
+      "app_key": "itch:add43068d061c13d9801",
+      "name": "Space Heroes Adventure 3D [Free] [Adventure]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://kausiddgmailcom.itch.io/space-heroes-adventure-3d",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T10:58:42+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Pilot your spaceship, explore exciting space worlds, collect golden stars and avoid dangerous asteroids.",
+      "analysis": {
+        "app_key": "itch:add43068d061c13d9801",
+        "summary_ko": "우주선을 조종하여 다양한 우주 세계를 탐험하는 3D 어드벤처 게임입니다. 황금 별을 수집하고 위험한 소행성을 피하는 것이 목표입니다.",
+        "features_ko": [
+          "우주선을 직접 조종하여 비행합니다.",
+          "다양한 우주 환경을 탐험합니다.",
+          "황금 별을 수집하여 점수를 얻습니다.",
+          "소행성과 같은 장애물을 피해야 합니다."
+        ],
+        "noteworthy_ko": "3D 비행 조작감은 게임의 재미를 결정짓는 핵심 요소입니다. 물리 엔진을 활용한 비행 제어와 장애물 회피 시스템을 구현하는 과정이 개발자에게 큰 도전이 될 것입니다.",
+        "development_ko": "3D 공간에서의 충돌 판정과 카메라 제어가 중요합니다. 다양한 우주 배경을 생성하기 위한 절차적 생성 기법을 도입하면 콘텐츠 제작 부담을 줄일 수 있습니다.",
+        "idea_ko": "수집한 별을 사용하여 우주선을 업그레이드하거나 외형을 변경하는 커스터마이징 요소를 추가하는 것을 추천합니다.",
+        "highlights_ko": [
+          "3D 우주 비행 탐험 경험.",
+          "장애물을 피하는 아케이드적 재미."
+        ],
+        "systems_ko": [
+          "3D 비행 물리 제어",
+          "충돌 판정 시스템",
+          "점수 및 수집품 관리",
+          "카메라 팔로우 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "3D 환경에서의 물리 제어와 충돌 처리가 필요하지만, 기본적인 아케이드 규칙은 1인이 구현하기에 적절합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "우주선 이동 및 회전 제어",
+            "소행성 장애물 배치",
+            "별 수집 판정"
+          ],
+          "defer": [
+            "다양한 우주선 기체",
+            "복잡한 스토리 모드"
+          ],
+          "risks": [
+            "조작감의 불편함",
+            "단조로운 맵 구성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "우주선 튜닝",
+            "concept": "수집한 별로 우주선의 속도나 회전력을 강화하는 시스템. 환경에 따라 필요한 능력치가 달라지게 설계합니다.",
+            "first_step": "우주선 속도 변수 설정 및 UI를 통한 수치 변경 기능 구현."
+          },
+          {
+            "title": "소행성 필드 생성기",
+            "concept": "소행성이 무작위로 생성되어 매번 다른 비행 경로를 제공하는 시스템. 난이도에 따라 소행성 밀도를 조절합니다.",
+            "first_step": "일정 범위 내 소행성 프리팹 무작위 배치 로직 구현."
+          }
+        ],
+        "recommendation_ko": "3D 공간에서의 물리 제어와 충돌 처리를 연습하기 좋습니다. 간단한 아케이드 게임부터 시작해 점진적으로 기능을 확장하는 방식을 추천합니다.",
+        "source_limitations_ko": "우주선의 조작 방식(마우스/키보드/패드)과 게임의 진행 방식(스테이지제/무한 모드)이 명시되지 않았습니다.",
+        "name": "Space Heroes Adventure 3D [Free] [Adventure]",
+        "source": "itch",
+        "detail_url": "https://kausiddgmailcom.itch.io/space-heroes-adventure-3d",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 365,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 5,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
+    },
+    "itch:624cbd7f49884cd20ec6": {
+      "app_key": "itch:624cbd7f49884cd20ec6",
+      "name": "Memento Mori [Free] [Adventure] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://mesferatus.itch.io/memento-mori",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T10:58:57+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A journey between memory, dream and ritual — a gothic pixel-art narrative adventure.",
+      "analysis": {
+        "app_key": "itch:624cbd7f49884cd20ec6",
+        "summary_ko": "기억, 꿈, 의식 사이를 여행하는 고딕 픽셀 아트 내러티브 어드벤처 게임입니다. 플레이어는 신비로운 분위기 속에서 이야기를 탐험하게 됩니다.",
+        "features_ko": [
+          "고딕 스타일의 픽셀 아트 그래픽을 제공합니다.",
+          "기억과 꿈을 테마로 한 서사 중심의 어드벤처 플레이를 제공합니다.",
+          "의식이라는 독특한 소재를 탐험 요소로 활용합니다."
+        ],
+        "noteworthy_ko": "픽셀 아트를 활용한 고딕 분위기 연출이 개발 관점에서 매우 흥미롭습니다. 내러티브 중심의 어드벤처 게임으로서 플레이어에게 어떤 감정적 경험을 제공할지가 핵심입니다.",
+        "development_ko": "핵심 기술은 2D 픽셀 아트 애니메이션과 대화 시스템입니다. 분위기 조성을 위한 조명과 사운드 디자인이 중요합니다. 콘텐츠 제작 부담은 높지만, 서사 중심이므로 시스템보다는 스토리와 연출에 집중해야 합니다.",
+        "idea_ko": "기억의 파편을 수집하여 꿈의 세계를 완성하는 어드벤처 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "고딕 픽셀 아트라는 독특한 시각적 스타일을 갖추고 있습니다.",
+          "기억과 꿈이라는 추상적인 테마를 탐험 요소로 잘 녹여냈습니다."
+        ],
+        "systems_ko": [
+          "2D 캐릭터 이동 및 상호작용",
+          "대화 및 서사 시스템",
+          "인벤토리 및 아이템 관리",
+          "분위기 연출 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "기술적 난이도보다는 아트와 서사라는 콘텐츠 제작의 비중이 큰 게임입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이동 및 상호작용",
+            "대화 시스템",
+            "고딕 분위기 맵"
+          ],
+          "defer": [
+            "복잡한 퍼즐 시스템",
+            "다양한 분기점"
+          ],
+          "risks": [
+            "콘텐츠 제작의 높은 시간 소요",
+            "스토리 몰입도 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "기억의 조각",
+            "concept": "꿈속에서 기억의 조각을 찾아 현실의 진실을 밝히는 어드벤처입니다.",
+            "first_step": "아이템 획득 시 기억 텍스트가 출력되는 시스템 구현."
+          },
+          {
+            "title": "고딕의 밤",
+            "concept": "고딕 저택을 탐험하며 의식을 수행하는 짧은 어드벤처입니다.",
+            "first_step": "저택 내부를 이동하고 특정 장소에서 상호작용하는 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "내러티브 중심의 어드벤처 게임을 만들고 싶은 개발자에게 추천합니다. 분위기 연출과 스토리텔링 기법을 배우기 좋습니다.",
+        "source_limitations_ko": "게임의 구체적인 플레이 방식과 서사 구조가 설명에 명시되어 있지 않아 검증이 필요합니다.",
+        "name": "Memento Mori [Free] [Adventure] [Windows]",
+        "source": "itch",
+        "detail_url": "https://mesferatus.itch.io/memento-mori",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 314,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
     }
   }
 }

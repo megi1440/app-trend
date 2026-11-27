@@ -14245,6 +14245,181 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-27"
+    },
+    "itch:60b9c0ce08b544fe3ed4": {
+      "app_key": "itch:60b9c0ce08b544fe3ed4",
+      "name": "The Ember Omen [Free] [Card Game]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://kripty.itch.io/the-ember-omen",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T10:58:57+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A survival horror card game where poker hands decide how well you act.",
+      "analysis": {
+        "app_key": "itch:60b9c0ce08b544fe3ed4",
+        "summary_ko": "포커 핸드를 사용하여 행동의 성공 여부를 결정하는 서바이벌 호러 카드 게임입니다. 플레이어는 카드를 통해 생존을 위한 전략을 세워야 합니다.",
+        "features_ko": [
+          "포커 핸드 조합을 통해 행동의 성공 확률을 결정합니다.",
+          "서바이벌 호러 장르의 긴장감을 카드 게임으로 구현합니다.",
+          "플레이어의 선택이 생존에 직접적인 영향을 미칩니다."
+        ],
+        "noteworthy_ko": "포커라는 익숙한 규칙을 호러 장르의 메커니즘으로 변환한 점이 매우 창의적입니다. 운과 전략의 균형을 어떻게 맞추느냐가 개발의 핵심 흥미 요소입니다.",
+        "development_ko": "핵심 기술은 포커 핸드 판정 로직과 상태 관리입니다. 호러 분위기를 조성하기 위한 사운드와 시각적 연출이 중요합니다. 밸런스 조정은 난이도 곡선을 설계하여 플레이어가 적절한 긴장감을 느끼도록 해야 합니다.",
+        "idea_ko": "포커 핸드에 따라 호러 상황의 탈출 확률이 달라지는 시스템이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "포커와 호러의 독특한 장르 융합이 특징입니다.",
+          "행동의 성공 여부를 카드로 결정하는 긴장감 있는 규칙입니다."
+        ],
+        "systems_ko": [
+          "포커 핸드 판정 엔진",
+          "생존 상태 관리 시스템",
+          "호러 연출 시스템",
+          "난이도 조절 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "카드 규칙과 호러 분위기를 결합하는 것은 높은 수준의 기획력과 연출력을 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "포커 핸드 판정 로직",
+            "기본 생존 이벤트",
+            "호러 분위기 연출"
+          ],
+          "defer": [
+            "복잡한 스토리라인",
+            "다양한 호러 몬스터"
+          ],
+          "risks": [
+            "포커 규칙이 호러 분위기를 해칠 위험",
+            "난이도 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "공포의 포커",
+            "concept": "귀신과 포커를 하여 이기면 생존하고 지면 공포도가 상승하는 게임입니다.",
+            "first_step": "포커 핸드 판정 후 결과에 따라 공포도 수치 변경 구현."
+          },
+          {
+            "title": "생존의 패",
+            "concept": "제한된 카드로 호러 상황을 돌파하는 퍼즐 카드 게임입니다.",
+            "first_step": "특정 핸드로 장애물을 제거하는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "장르 융합을 통한 새로운 게임 메커니즘을 고민하는 개발자에게 추천합니다. 시스템 설계와 분위기 연출의 조화를 배울 수 있습니다.",
+        "source_limitations_ko": "포커 핸드가 구체적으로 어떤 호러 상황에 적용되는지, 게임의 전체적인 흐름은 어떠한지 정보가 부족합니다.",
+        "name": "The Ember Omen [Free] [Card Game]",
+        "source": "itch",
+        "detail_url": "https://kripty.itch.io/the-ember-omen",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 317,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
+    },
+    "itch:4f355cce08c8ce33c9c3": {
+      "app_key": "itch:4f355cce08c8ce33c9c3",
+      "name": "Hoppydoku: Frog Logic Puzzle [Free] [Puzzle]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://minaico.itch.io/hoppydoku",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T10:59:32+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "One frog per row, column & patch, none touching. Play 20 cozy frog logic puzzles free in browser.",
+      "analysis": {
+        "app_key": "itch:4f355cce08c8ce33c9c3",
+        "summary_ko": "행과 열, 그리고 특정 구역에 개구리를 배치하는 논리 퍼즐 게임입니다. 인접한 칸에 개구리가 닿지 않도록 배치하는 규칙을 따릅니다. 총 20개의 퍼즐이 포함되어 있습니다.",
+        "features_ko": [
+          "행과 열에 개구리를 하나씩 배치하는 규칙을 가집니다.",
+          "인접한 칸에 개구리가 닿지 않도록 배치해야 합니다.",
+          "웹 브라우저에서 바로 플레이 가능한 퍼즐 게임입니다."
+        ],
+        "noteworthy_ko": "Dodoku와 동일한 메커니즘을 공유하는 퍼즐 게임입니다. 테마만 변경하여 다른 경험을 제공하는 방식이 효율적인 콘텐츠 확장 전략임을 보여줍니다.",
+        "development_ko": "기존 퍼즐 로직을 재사용할 수 있어 개발 부담이 매우 낮습니다. 테마에 맞는 그래픽 에셋 제작과 레벨 디자인에 집중할 수 있습니다. 퍼즐의 논리적 무결성을 검증하는 테스트가 필요합니다.",
+        "idea_ko": "개구리가 연잎 위를 점프하여 이동하는 애니메이션을 추가하여 시각적 재미를 더할 수 있습니다.",
+        "highlights_ko": [
+          "간결한 규칙: 논리적 사고를 요구하는 퍼즐입니다.",
+          "테마 중심의 구성: 개구리라는 테마를 활용한 아늑한 퍼즐입니다."
+        ],
+        "systems_ko": [
+          "그리드 기반 퍼즐 보드",
+          "배치 규칙 검증 엔진",
+          "퍼즐 데이터 관리",
+          "사용자 입력 처리 및 UI"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "기존 퍼즐 메커니즘을 활용하므로 구현이 매우 쉽습니다. 논리적 규칙만 정확히 구현하면 됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "그리드 배치 시스템",
+            "규칙 위반 체크 로직"
+          ],
+          "defer": [
+            "퍼즐 자동 생성기",
+            "다양한 테마"
+          ],
+          "risks": [
+            "퍼즐 난이도 밸런스 실패",
+            "단조로운 게임플레이"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "연잎 점프 퍼즐",
+            "concept": "개구리가 연잎을 점프하여 이동합니다. 점프 경로가 겹치지 않게 모든 연잎을 밟아야 합니다.",
+            "first_step": "개구리의 점프 경로를 시각화하는 로직 구현."
+          },
+          {
+            "title": "개구리 합창단",
+            "concept": "개구리들을 배치하여 합창단을 만듭니다. 특정 위치에 배치된 개구리들이 화음을 맞추도록 배치해야 합니다.",
+            "first_step": "배치 위치에 따라 소리가 재생되는 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 메커니즘을 재사용하여 테마를 바꾸는 방식을 배우기에 좋습니다. 단순한 규칙으로도 충분히 재미있는 게임을 만들 수 있음을 보여줍니다.",
+        "source_limitations_ko": "퍼즐의 구체적인 크기, 개구리 배치 외의 추가적인 게임 요소는 확인되지 않았습니다.",
+        "name": "Hoppydoku: Frog Logic Puzzle [Free] [Puzzle]",
+        "source": "itch",
+        "detail_url": "https://minaico.itch.io/hoppydoku",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 275,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 36,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
     }
   }
 }

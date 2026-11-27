@@ -15480,6 +15480,94 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-27"
+    },
+    "itch:3ad76ce9900234b91821": {
+      "app_key": "itch:3ad76ce9900234b91821",
+      "name": "Nekomancia 🐈​ [Free] [Card Game]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://lucas929.itch.io/nekomancia",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T10:58:57+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Gatos místicos, cartas encantadas e batalhas estratégicas em uma arena mágica com estética arcade!",
+      "analysis": {
+        "app_key": "itch:3ad76ce9900234b91821",
+        "summary_ko": "신비로운 고양이들과 마법 카드를 활용한 전략 카드 게임입니다. 아케이드 스타일의 마법 경기장에서 전략적인 전투를 즐길 수 있습니다.",
+        "features_ko": [
+          "마법 카드를 사용하여 전략적인 전투를 수행합니다.",
+          "아케이드 스타일의 시각적 요소를 갖춘 경기장을 제공합니다.",
+          "신비로운 고양이 캐릭터들이 등장합니다."
+        ],
+        "noteworthy_ko": "카드 게임과 아케이드 미학의 결합이 흥미롭습니다. 전략적 깊이와 시각적 화려함을 동시에 구현하는 것이 개발의 핵심 과제로 보입니다.",
+        "development_ko": "핵심 기술은 카드 덱 시스템과 턴제 전투 로직입니다. 아케이드 스타일의 연출을 위해 화려한 이펙트와 UI 구현이 필요합니다. 밸런스 조정은 카드 간의 상성을 고려하여 지속적인 테스트가 요구됩니다.",
+        "idea_ko": "고양이의 특성을 카드 능력치에 반영한 전략 카드 게임이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "고양이와 마법이라는 매력적인 테마를 카드 게임에 적용했습니다.",
+          "아케이드 스타일의 화려한 미학을 강조합니다."
+        ],
+        "systems_ko": [
+          "카드 덱 및 드로우 시스템",
+          "턴제 전투 엔진",
+          "카드 효과 처리 시스템",
+          "UI 및 이펙트 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "카드 게임은 복잡한 규칙과 밸런스 조정이 필수적이며, 시스템 구현 난이도가 높습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카드 덱 구성",
+            "기본 턴제 전투",
+            "카드 효과 구현"
+          ],
+          "defer": [
+            "온라인 멀티플레이",
+            "방대한 카드 컬렉션"
+          ],
+          "risks": [
+            "카드 간 밸런스 붕괴",
+            "복잡한 로직으로 인한 버그 발생"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "냥냥 카드 배틀",
+            "concept": "고양이의 성격에 따라 카드 능력이 변하는 전략 게임입니다.",
+            "first_step": "고양이 카드 2종과 기본 공격 로직 구현."
+          },
+          {
+            "title": "마법 고양이 타워",
+            "concept": "카드를 사용하여 고양이 탑을 방어하는 디펜스 카드 게임입니다.",
+            "first_step": "카드 사용 시 고양이 유닛이 소환되는 시스템 구현."
+          }
+        ],
+        "recommendation_ko": "카드 게임의 로직과 밸런스 설계를 배우고 싶은 개발자에게 추천합니다. 시스템 설계 능력을 기르기에 좋습니다.",
+        "source_limitations_ko": "구체적인 카드 규칙과 전투 메커니즘이 설명에 없어 실제 게임 플레이 방식은 확인이 필요합니다.",
+        "name": "Nekomancia 🐈​ [Free] [Card Game]",
+        "source": "itch",
+        "detail_url": "https://lucas929.itch.io/nekomancia",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 323,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
     }
   }
 }

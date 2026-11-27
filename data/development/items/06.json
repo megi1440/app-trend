@@ -31141,6 +31141,179 @@
         "thoughtsTokenCount": 3597,
         "serviceTier": "standard"
       }
+    },
+    "itch:9ddbcf3c2ffa8f07c81d": {
+      "app_key": "itch:9ddbcf3c2ffa8f07c81d",
+      "name": "GRENADE SHOT! Playtest [Free] [Action] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "kind": "game",
+      "detail_url": "https://polta-gamedev.itch.io/grenade-shot-playtest",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:9ddbcf3c2ffa8f07c81d",
+        "product_kind": "game",
+        "original_experience_ko": "원본은 3D 공간에서 물리 엔진을 활용해 수류탄을 투척하고 목표물이나 오브젝트를 파괴하는 액션 게임으로 추정됩니다. 물리 법칙에 기반한 궤적 예측과 폭발 타격감이 핵심 경험입니다.",
+        "source_facts_and_limitations_ko": [
+          "스토어 텍스트와 관측 정보에서 확인된 사실: 물리 기반 3D 액션 게임이며 수류탄 투척 메커니즘을 사용한다는 점입니다.",
+          "확인되지 않은 한계: 정확한 승리 조건, 목표물의 형태, 레벨 디자인, 세부 규칙 등은 스토어 설명에 명시되어 있지 않아 AI 해석에 의존해야 합니다."
+        ],
+        "valuable_elements_ko": [
+          "물리 기반 투사체 궤적 계산: 플레이어가 직접 각도와 힘을 조절하여 쏘는 몰입감 있는 조작 방식.",
+          "폭발 및 환경 상호작용: 오브젝트가 무너지고 파괴되는 시각적·청각적 타격감."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "밤하늘의 불꽃 폭파단 (Fireworks Demolition)",
+            "core_idea_ko": "제한된 횟수의 폭탄 투척으로 구조물을 무너뜨려 특정 목표를 맞추는 모바일 퍼즐 액션 게임입니다.",
+            "what_to_keep_ko": "물리 엔진 기반의 투척 궤적 예측과 폭발에 따른 연쇄 파괴의 재미를 계승합니다.",
+            "what_to_change_ko": "단순 실시간 액션에서 벗어나, 정교한 각도를 계산하는 퍼즐 요소를 강화하고 모바일 터치 조작에 맞춤화합니다.",
+            "mobile_use_or_play_ko": "화면을 드래그하여 투척 각도와 파워를 조정한 뒤 손을 떼면 수류탄이 날아가 구조물을 타격하고 연쇄 폭발이 일어나는 과정을 지켜봅니다.",
+            "key_features_ko": [
+              "드래그 앤 드롭 궤적 가이드라인 표시",
+              "연쇄 반응을 일으키는 특수 폭탄 아이템",
+              "구조물 파괴 시뮬레이션 물리 효과"
+            ],
+            "solo_mvp_and_effort_ko": "유니티 엔진의 기본 3D 물리 엔진을 활용하여 단순한 박스 구조물 파괴와 기본 터치 드래그 투척만 구현하는 1인 개발 MVP. 난이도는 보통이며 물리 튜닝에 집중합니다.",
+            "strengths_limits_ko": "직관적인 퍼즐 재미가 장점이지만, 유사한 파괴 퍼즐 게임이 많아 차별화된 레벨 디자인이 필수적입니다."
+          },
+          {
+            "title_ko": "수류탄 방어선: 좀비 웨이브 (Grenade Defense Line)",
+            "core_idea_ko": "몰려오는 적들을 향해 끊임없이 수류탄을 투척하여 방어선을 지키는 모바일 디펜스 액션 게임입니다.",
+            "what_to_keep_ko": "투척 액션의 손맛과 폭발 범위 데미지 판정 시스템을 활용합니다.",
+            "what_to_change_ko": "단발성 목표 파괴에서 웨이브 단위의 적 처치와 로그라이크식 스킬 업그레이드를 결합합니다.",
+            "mobile_use_or_play_ko": "화면 하단에서 상단으로 밀어 올리는 제스처로 적 진영에 수류탄을 연속 투척하고, 쿨타임과 탄약 관리를 하며 몰려오는 적을 막아냅니다.",
+            "key_features_ko": [
+              "스와이프 속도와 각도에 따른 실시간 투척",
+              "로그라이크식 폭탄 강화 및 속성 부여",
+              "다양한 이동 패턴을 가진 적 웨이브 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "단일 화면 탑뷰 환경에서 적 오브젝트 스폰과 단순 투사체 충돌 판정을 구현하는 1인 개발 MVP. 밸런스 조정과 조작감 최적화에 노력이 필요합니다.",
+            "strengths_limits_ko": "빠른 템포의 액션성이 강점이나, 모바일 화면에서 손가락으로 가려지는 시야 문제와 조작 피로도를 해결해야 합니다."
+          },
+          {
+            "title_ko": "타겟 스나이퍼: 폭발의 달인 (Target Sniper: Blast Master)",
+            "core_idea_ko": "움직이는 과녁과 제한된 장애물 속에서 제한 시간 내에 가장 정확하고 효율적으로 수류탄을 던져 고득점을 겨루는 비동기 대전 게임입니다.",
+            "what_to_keep_ko": "3D 공간에서의 정교한 조준과 물리 투사체의 궤적 산출 경험을 유지합니다.",
+            "what_to_change_ko": "싱글 플레이 목표 파괴를 넘어, 다른 플레이어의 플레이 기록과 경쟁하는 랭킹 시스템 및 기상 변수를 도입합니다.",
+            "mobile_use_or_play_ko": "화면을 터치해 조준경을 움직이고 파워 게이지를 맞춰 수류탄을 발사한 뒤, 바람의 방향을 고려해 점수를 획득하고 다른 유저의 스코어와 비교합니다.",
+            "key_features_ko": [
+              "풍향 및 중력 변수 적용 물리 시뮬레이션",
+              "비동기 고스트 대전 및 주간 랭킹",
+              "정밀 타격 보상 및 콤보 시스템"
+            ],
+            "solo_mvp_and_effort_ko": "단일 맵 환경에서 텍스처가 단순한 과녁 오브젝트와 점수판 UI를 구현하는 1인 개발 MVP. 서버 연동은 최소화하여 비동기로 처리합니다.",
+            "strengths_limits_ko": "경쟁 요소로 리플레이성이 높지만, 조작의 미세한 차이가 승패를 가르기 때문에 터치 민감도 조절이 까다로울 수 있습니다."
+          }
+        ],
+        "concept_comparison_ko": "첫 번째 기획(밤하늘의 불꽃 폭파단)은 퍼즐 중심의 사려 깊은 물리 파괴 재미를 제공하며 개발 난이도가 안정적입니다. 두 번째 기획(수류탄 방어선)은 액션과 피로도 높은 손맛을 강조하나 조작 피로가 우려됩니다. 세 번째 기획(타겟 스나이퍼)은 경쟁과 정밀 조준의 재미를 주지만 비동기 서버 구현 공수가 듭니다. 전체적으로 퍼즐 액션 결합이 1인 개발에 가장 적합합니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "밤하늘의 불꽃 폭파단은 원본의 핵심인 물리 투척과 파괴 재미를 가장 직관적으로 계승하면서도, 모바일 환경에 적합한 턴제/스테이지 기반 퍼즐 구조로 변형하여 1인 개발자가 완성도 높게 구현하기 가장 유리합니다. 과도한 실시간 액션 조작의 부담을 줄이면서도 물리 엔진의 매력을 온전히 전달할 수 있습니다.",
+        "next_questions_ko": [
+          "모바일 터치 환경에서 드래그 궤적 가이드라인이 플레이어에게 얼마나 직관적으로 다가가는지 프로토타입으로 테스트해야 하는가?",
+          "물리 연산 부하가 모바일 저사양 기기에서 발열이나 프레임 드랍을 유발하지 않는지 최적화 기준을 세워야 하는가?",
+          "구조물 파괴 연출을 2D 스프라이트 파편으로 처리할지, 3D 리지드바디 파편으로 처리할지 공수 산정을 확정해야 하는가?"
+        ]
+      },
+      "brief_at": "2026-11-27T11:10:31+09:00",
+      "brief_quota_day": "2026-11-27",
+      "brief_usage": {
+        "promptTokenCount": 1153,
+        "candidatesTokenCount": 1895,
+        "totalTokenCount": 5801,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1153
+          }
+        ],
+        "thoughtsTokenCount": 2753,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "itch:9ddbcf3c2ffa8f07c81d",
+        "product_kind": "game",
+        "selected_concept_title_ko": "밤하늘의 불꽃 폭파단 (Fireworks Demolition)",
+        "project_goal_and_audience_ko": "물리 엔진 기반의 파괴 재미를 선호하는 퍼즐 및 캐주얼 게이머를 위한 모바일 게임으로, 제한된 폭탄 투척으로 구조물을 무너뜨리는 두뇌 플레이와 시원한 타격감을 동시에 제공합니다.",
+        "source_relation_and_difference_ko": "원본의 물리 기반 투척 메커니즘과 연쇄 폭발의 타격감을 유지하면서, 실시간 액션 조작의 부담을 줄이고 모바일 터치 환경에 최적화된 드래그 궤적 예측 퍼즐 구조로 개선했습니다.",
+        "core_user_experience_ko": "사용자는 화면을 터치하고 드래그하여 폭탄의 투척 궤적 예측선을 확인하고 각도와 세기를 조절합니다. 손가락을 떼면 폭탄이 발사되어 3D 구조물에 충돌하고, 물리 엔진에 의해 오브젝트가 무너지며 연쇄 폭발이 일어나는 시각적, 청각적 피드백을 경험합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "드래그 앤 드롭 궤적 가이드 시스템",
+            "user_action_and_behavior_ko": "사용자가 화면을 터치 후 드래그하면, 터치 벡터에 비례하는 궤적 가이드라인이 화면에 표시되고, 손을 떼는 순간 폭탄이 발사되어 직관적인 조준이 가능합니다.",
+            "practical_implementation_ko": "Unity의 LineRenderer와 Physics.Raycast / Physics.Simulation을 활용하여 예상 비행 궤적을 실시간으로 계산하고 시각화합니다."
+          },
+          {
+            "feature_ko": "물리 기반 구조물 파괴 및 연쇄 반응",
+            "user_action_and_behavior_ko": "폭탄이 구조물에 명중하면 폭발 반경 내 오브젝트에 힘이 가해져 무너지며, 파편들이 서로 부딪쳐 연쇄적인 파괴와 타격감을 제공합니다.",
+            "practical_implementation_ko": "Unity 3D Rigidbody와 Collider를 적용하고, 폭발 지점 기준 AddExplosionForce를 호출하여 자연스러운 물리 파괴 시뮬레이션을 구현합니다."
+          },
+          {
+            "feature_ko": "스테이지 클리어 및 점수 판정",
+            "user_action_and_behavior_ko": "제한된 횟수 내에 특정 목표 오브젝트를 파괴하거나 쓰러뜨리면 스테이지가 클리어되며 남은 폭탄 횟수에 따라 별점을 획득합니다.",
+            "practical_implementation_ko": "목표 오브젝트의 파괴 여부와 남은 폭탄 개수를 관리하는 스테이지 관리 스크립트를 작성하여 게임 상태를 제어합니다."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "스테이지 선택 화면",
+            "contents_and_actions_ko": "해금된 스테이지 목록과 별점 현황을 확인하고 터치하여 특정 스테이지로 진입합니다."
+          },
+          {
+            "screen_ko": "게임 플레이 화면",
+            "contents_and_actions_ko": "3D 구조물과 투척할 폭탄 잔여 횟수가 표시되며, 드래그 조작으로 투척 후 결과를 관전합니다."
+          },
+          {
+            "screen_ko": "결과 팝업 화면",
+            "contents_and_actions_ko": "스테이지 성공 또는 실패 여부에 따라 재시도, 다음 스테이지 이동 버튼이 제공됩니다."
+          }
+        ],
+        "implementation_approach_ko": "Unity 엔진과 C#을 사용하며, 모바일 최적화를 위해 경량화된 3D 물리 설정과 오브젝트 풀링을 적용합니다. 궤적 계산과 물리 연산의 부하를 줄이기 위해 서브스텝 조정을 고려합니다.",
+        "data_and_storage_ko": [
+          "스테이지 클리어 데이터 (별점, 최고 점수, 해금 상태) - 로컬 JSON 파일 및 PlayerPrefs를 통해 저장 및 로드.",
+          "레벨 디자인 데이터 (구조물 오브젝트 타입, 초기 좌표, 회전값, 제한 폭탄 수) - JSON 형식의 스테이지 설정 파일 관리."
+        ],
+        "mvp_scope_ko": "기본 박스 구조물 파괴, 터치 드래그 투척 및 궤적 표시, 기초 5개 스테이지와 승패 판정 로직만 구현하여 핵심 물리 퍼즐 루프를 검증합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 물리 투척 및 궤적 프로토타입",
+            "deliverable_and_check_ko": "터치 드래그로 오브젝트를 발사하고 LineRenderer로 궤적이 표시되는지 확인."
+          },
+          {
+            "stage_ko": "2단계: 구조물 파괴 및 폭발 효과 구현",
+            "deliverable_and_check_ko": "폭탄 폭발 시 주변 3D 박스들이 물리 힘에 의해 무너지고 흩어지는지 확인."
+          },
+          {
+            "stage_ko": "3단계: 스테이지 및 UI 루프 연결",
+            "deliverable_and_check_ko": "스테이지 선택부터 클리어/실패 팝업까지의 전체 흐름이 정상 작동하는지 확인."
+          }
+        ],
+        "possible_extensions_ko": "특수 폭탄(관통형, 분산형), 환경 기믹(움직이는 장애물, 바람), 커스텀 불꽃놀이 연출 및 스킨 시스템 추가.",
+        "risks_and_open_decisions_ko": [
+          "모바일 터치 시 손가락에 의해 궤적 가이드가 가려지는 시인성 문제 (드래그 방향을 반대로 하는 슬링샷 방식 검토).",
+          "물리 엔진 특유의 불안정성으로 인한 스테이지 난이도의 편차 (반복 테스트를 통한 물리 파라미터 고정 필요).",
+          "원작의 상세한 시스템 규칙을 알 수 없어 캐주얼 퍼즐 구조로 독자 재정의함."
+        ],
+        "draft_status_ko": "본 문서는 기획 방향을 구체화한 개발 설계 초안이며, 실제 물리 구현 및 플레이테스트를 통한 성능 측정은 완료되지 않았습니다."
+      },
+      "plan_at": "2026-11-27T11:10:46+09:00",
+      "plan_quota_day": "2026-11-27",
+      "plan_usage": {
+        "promptTokenCount": 1757,
+        "candidatesTokenCount": 1550,
+        "totalTokenCount": 6615,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1757
+          }
+        ],
+        "thoughtsTokenCount": 3308,
+        "serviceTier": "standard"
+      }
     }
   }
 }

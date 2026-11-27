@@ -17690,6 +17690,95 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-27"
+    },
+    "itch:792be9694a38e031fed5": {
+      "app_key": "itch:792be9694a38e031fed5",
+      "name": "Wonderhaggle (free demo, playtest) [Free] [Simulation] [Windows]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://lilarttech.itch.io/wonderhaggle",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T10:59:13+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Haggle, bluff and spot the fakes. Every city plays by its own rules.",
+      "analysis": {
+        "app_key": "itch:792be9694a38e031fed5",
+        "summary_ko": "Wonderhaggle은 흥정과 블러핑을 통해 가짜 물건을 찾아내는 시뮬레이션 게임입니다. 각 도시마다 다른 규칙이 적용되는 것이 특징입니다.",
+        "features_ko": [
+          "상대와 물건 가격을 두고 흥정하는 대화 시스템을 제공합니다.",
+          "상대의 반응을 보고 블러핑 여부를 판단해야 합니다.",
+          "물건의 진위 여부를 판별하여 가짜를 골라내는 추리 요소가 있습니다.",
+          "도시별로 고유한 거래 규칙이 적용되어 전략적인 접근이 필요합니다."
+        ],
+        "noteworthy_ko": "대화와 심리전을 기반으로 한 시뮬레이션으로, 시스템 설계가 게임의 재미를 결정합니다. 도시별 규칙을 데이터화하여 확장성을 고려한 구조 설계가 흥미롭습니다.",
+        "development_ko": "핵심 기술은 대화 트리 관리와 규칙 엔진입니다. 콘텐츠 제작은 다양한 물건 데이터와 도시별 규칙 시나리오 작성에 집중됩니다. 밸런스 조정은 흥정 난이도와 가짜 물건 판별 확률을 조절하는 것이 핵심입니다.",
+        "idea_ko": "도시별 규칙을 플레이어가 직접 커스텀하거나 공유할 수 있는 시스템을 도입하는 것이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "흥정과 블러핑이라는 심리적 요소를 게임 규칙으로 구현했습니다.",
+          "도시마다 다른 규칙을 적용하여 반복 플레이의 재미를 높였습니다."
+        ],
+        "systems_ko": [
+          "대화 및 선택지 시스템",
+          "거래 규칙 엔진",
+          "물건 데이터베이스 관리",
+          "심리전 판정 로직"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "그래픽보다는 시스템과 데이터 설계가 중요합니다. 대화 트리와 규칙 엔진을 구조화하면 구현 가능하지만, 심리전의 밸런스를 맞추는 데 시간이 걸립니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 거래 대화창",
+            "물건 진위 판별 로직",
+            "도시별 규칙 적용 시스템"
+          ],
+          "defer": [
+            "복잡한 그래픽 연출",
+            "다양한 NPC 캐릭터 아트"
+          ],
+          "risks": [
+            "대화 패턴의 단조로움",
+            "규칙 간의 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "상인 연합 시뮬레이터",
+            "concept": "플레이어가 상인이 되어 도시를 이동하며 물건을 사고팝니다. 다른 상인들과의 경쟁을 통해 시장 점유율을 높입니다.",
+            "first_step": "도시 간 이동과 물가 변동 시스템을 구현합니다."
+          },
+          {
+            "title": "가짜 감별사 훈련소",
+            "concept": "물건의 특징을 관찰하여 가짜를 찾아내는 퍼즐 게임입니다. 점점 더 정교해지는 가짜 물건들을 감별해야 합니다.",
+            "first_step": "물건의 외형적 특징을 비교하는 UI를 구현합니다."
+          }
+        ],
+        "recommendation_ko": "시스템 중심의 게임 개발을 배우고 싶은 개발자에게 추천합니다. 데이터 기반의 게임 설계와 대화 시스템 구현 연습에 좋습니다.",
+        "source_limitations_ko": "구체적인 거래 규칙의 종류, 물건의 개수, 게임의 승리 조건 등은 확인되지 않았습니다.",
+        "name": "Wonderhaggle (free demo, playtest) [Free] [Simulation] [Windows]",
+        "source": "itch",
+        "detail_url": "https://lilarttech.itch.io/wonderhaggle",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 305,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 25,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
     }
   }
 }

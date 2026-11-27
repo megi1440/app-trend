@@ -13844,6 +13844,92 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-27"
+    },
+    "itch:beceddebb20468dee2b7": {
+      "app_key": "itch:beceddebb20468dee2b7",
+      "name": "Ultimate Irrigation [Free] [Educational] [Windows] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://gamelabuerj.itch.io/ultimate-irrigation",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-27T10:59:32+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Prepare-se para a missão de programar drones autônomos para cuidar da plantação!",
+      "analysis": {
+        "app_key": "itch:beceddebb20468dee2b7",
+        "summary_ko": "자율 주행 드론을 프로그래밍하여 농장을 관리하는 교육용 게임입니다. 플레이어는 드론이 농작물을 돌볼 수 있도록 명령을 설계해야 합니다.",
+        "features_ko": [
+          "드론의 이동 및 작업을 제어하는 프로그래밍 인터페이스를 제공합니다.",
+          "농장 환경에서 드론을 효율적으로 운용하는 미션을 수행합니다."
+        ],
+        "noteworthy_ko": "코딩 교육과 게임을 결합한 형태입니다. 플레이어가 작성한 코드가 게임 내 물리적 결과로 이어지는 피드백 루프가 교육적 가치를 높입니다.",
+        "development_ko": "코드 실행을 위한 인터프리터나 비주얼 스크립팅 시스템 구현이 핵심입니다. 드론의 이동 경로와 농장 환경 간의 충돌 처리가 중요합니다. 교육용 게임이므로 단계별 난이도 설계가 제작 부담의 큰 비중을 차지합니다.",
+        "idea_ko": "드론의 배터리 효율을 고려한 최단 경로 탐색 퍼즐로 확장하는 것이 좋습니다.",
+        "highlights_ko": [
+          "프로그래밍 기반 게임플레이: 드론의 동작을 코드로 제어합니다.",
+          "교육적 요소: 논리적 사고와 문제 해결 능력을 요구합니다."
+        ],
+        "systems_ko": [
+          "비주얼 스크립팅/코드 입력 UI",
+          "드론 이동 제어 시스템",
+          "농장 환경 데이터 관리",
+          "미션 달성 판정 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "코드 실행 시스템과 게임 월드 간의 연동은 구현 난이도가 높습니다. 또한 교육적 효과를 위한 단계별 레벨 디자인이 매우 까다롭습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "드론 이동 명령 시스템",
+            "간단한 농장 맵"
+          ],
+          "defer": [
+            "복잡한 프로그래밍 언어 지원",
+            "멀티플레이어 모드"
+          ],
+          "risks": [
+            "코드 실행 로직의 버그",
+            "사용자 인터페이스의 복잡성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "드론 물류 센터",
+            "concept": "창고에서 물건을 분류하는 드론을 프로그래밍합니다. 최단 시간 내에 물건을 옮기는 것이 목표입니다.",
+            "first_step": "드론이 특정 좌표로 이동하는 명령 시스템 구현."
+          },
+          {
+            "title": "드론 방역 작전",
+            "concept": "해충이 있는 구역을 드론으로 방역합니다. 제한된 배터리로 모든 구역을 방역하는 최적의 경로를 찾아야 합니다.",
+            "first_step": "드론이 특정 구역을 지나갈 때 방역 효과가 적용되는 로직 구현."
+          }
+        ],
+        "recommendation_ko": "교육용 게임 개발에 관심 있는 개발자에게 추천합니다. 시스템 설계 능력을 기르기에 좋으나, 레벨 디자인에 많은 시간을 투자해야 합니다.",
+        "source_limitations_ko": "사용되는 프로그래밍 방식(블록 코딩, 텍스트 코딩 등)과 구체적인 미션 내용이 확인되지 않았습니다.",
+        "name": "Ultimate Irrigation [Free] [Educational] [Windows] [Linux]",
+        "source": "itch",
+        "detail_url": "https://gamelabuerj.itch.io/ultimate-irrigation",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 290,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-27"
     }
   }
 }
