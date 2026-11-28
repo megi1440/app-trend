@@ -15253,6 +15253,188 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-27"
+    },
+    "apple:1247071705": {
+      "app_key": "apple:1247071705",
+      "name": "Baraja de Loteria Mexicana",
+      "developer": "Alan Salinas",
+      "source": "apple",
+      "country": "US",
+      "category": "game_card",
+      "detail_url": "https://apps.apple.com/us/app/baraja-de-loteria-mexicana/id1247071705?uo=2",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:44:00+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Disfruta al máximo el tiempo en familia con la mejor app de baraja de la Lotería Mexicana. Aprovecha las funciones y características que esta aplicación te ofrece: *¡Barajeo rápido! Ya no mas cartas repetidas, ni el mismo ganador. Cada juego es totalmente diferente gracias al sistema de barajeo de Corre y Se Va. *¡Cartas cantadas! ¡Evita confusiones!, Esta App tiene la opción de cantar las cartas que van saliendo, conecta el altavoz a tu móvil para que todos puedan escuchar la carta. *¡Historial! Justo como si tuvieras las cartas en tus manos, puedes verificar cuales cartas han salido, y el orden. ¡Por si hay en el grupo algún distraído!. *Fondos Elegibles Disfruta de 4 fondos a elegir para tu App *Opciones Puedes personalizar tu App con las diferentes opciones que Corre y Se Va tiene para ti. ¡Muchas gracias por usar nuestra aplicación! Términos de Uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ Juegos de Loteria Tradicional Mexicana Completamente Gratis. Juegos Gratis.",
+      "analysis": {
+        "app_key": "apple:1247071705",
+        "summary_ko": "이 앱은 멕시코 전통 게임인 '로테리아'를 모바일에서 즐길 수 있도록 돕는 도구입니다. 카드 섞기, 카드 부르기, 게임 기록 확인 등 게임 진행에 필요한 기능을 제공합니다. 사용자는 다양한 배경 화면을 선택하여 앱을 개인화할 수 있습니다.",
+        "features_ko": [
+          "빠른 카드 섞기 시스템으로 매번 다른 게임 진행을 보장합니다.",
+          "나온 카드를 자동으로 읽어주는 기능을 지원합니다.",
+          "게임 중 나온 카드들의 순서와 기록을 확인할 수 있습니다.",
+          "4가지의 다양한 배경 화면을 선택하여 설정할 수 있습니다.",
+          "스피커 연결을 통해 다수가 함께 게임을 즐길 수 있습니다."
+        ],
+        "noteworthy_ko": "전통 게임을 디지털화하여 오프라인 모임의 도구로 활용하게 한 점이 흥미롭습니다. 특히 '카드 부르기' 기능은 게임의 몰입감을 높이는 핵심 요소로, 사용자 경험을 잘 고려한 설계입니다.",
+        "development_ko": "카드 데이터의 무작위 추출 로직과 게임 상태 관리 시스템이 핵심입니다. 텍스트 음성 변환(TTS) 기술을 활용하여 카드를 읽어주는 기능을 구현해야 하며, 다수가 함께 즐길 수 있도록 오디오 출력 최적화가 필요합니다. 게임 기록을 저장하고 보여주는 UI 구현이 중요합니다.",
+        "idea_ko": "사용자가 직접 카드를 커스텀하여 자신만의 로테리아 덱을 만드는 기능.",
+        "highlights_ko": [
+          "전통 게임의 디지털 전환을 통한 편의성 증대.",
+          "TTS 기능을 활용한 게임 진행 보조."
+        ],
+        "systems_ko": [
+          "카드 셔플 및 무작위 추출 엔진",
+          "게임 상태 관리 시스템",
+          "TTS(텍스트 음성 변환) 모듈",
+          "게임 기록 로그 시스템",
+          "UI 테마 관리자"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "복잡한 네트워크 통신 없이 로컬에서 동작하는 게임 도구이므로 1인 개발자가 구현하기에 적합한 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카드 셔플 기능",
+            "카드 표시 UI",
+            "카드 부르기(TTS)"
+          ],
+          "defer": [
+            "다양한 배경 화면 선택",
+            "상세 게임 기록 저장"
+          ],
+          "risks": [
+            "TTS 음성 품질 및 언어 지원 문제",
+            "사용자 인터페이스의 직관성 부족"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "커스텀 빙고 메이커",
+            "concept": "사용자가 원하는 단어나 사진을 넣어 자신만의 빙고 게임을 만드는 도구.",
+            "first_step": "사용자 입력 데이터를 기반으로 카드 덱을 생성하는 로직 구현."
+          },
+          {
+            "title": "파티 게임 사회자",
+            "concept": "다양한 파티 게임의 규칙을 설명하고 진행을 돕는 사회자 역할의 앱.",
+            "first_step": "게임 규칙 텍스트를 순차적으로 보여주는 슬라이드 기능 구현."
+          }
+        ],
+        "recommendation_ko": "로컬 게임 로직과 TTS 활용법을 배우기에 좋습니다. 간단한 도구 앱을 통해 사용자 경험을 개선하는 과정을 경험하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문에 명시되지 않은 게임 규칙의 세부 사항이나 다국어 지원 여부는 확인이 필요합니다.",
+        "name": "Baraja de Loteria Mexicana",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/baraja-de-loteria-mexicana/id1247071705?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 192,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 16,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
+    },
+    "google:com.fiogonia.drop": {
+      "app_key": "google:com.fiogonia.drop",
+      "name": "Drop Escape: Color Puzzle",
+      "developer": "FIOGONIA LIMITED",
+      "source": "google",
+      "country": "JP",
+      "category": "all_games",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.fiogonia.drop&hl=ja&gl=JP",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:47:20+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "本格的で頭を使うパズルアドベンチャーを体験しよう！タイマーなし＆完全ノー課金で楽しめる！ 『Drop Escape：カラーマッチパズル』は、自分のペースで戦略・精度・判断力を試せる、新感覚の脳トレパズルゲーム。時間制限も、プレッシャーも、強制課金もなし。あるのは、公平でスマート、そしてスキルベースの謎解きだけ！ カラーパズル、ソートパズル、マーブルドロップ、マッチ系、ロジックや脳トレが好きなあなたにぴったりの一作。カラフルな穴をボード上で移動させ、同じ色のボールと揃えて、正しい場所に落としていこう。すべての穴をクリアして、巧みに設計された何百ものレベルを攻略しよう！ Drop Escapeは、簡単に始められて、奥が深い。 静かにじっくり考えるのが好きなプレイヤーに最適です。 ⭐ 遊び方 • 穴を好きな位置にドラッグ • 穴と同じ色のボールとマッチさせる • 穴をボールの下に移動すると即ドロップ • 同じ色のボールを集めて穴をクリア • すべての穴を消すとステージクリア • 難しい場面ではオプションのブースターを使おう シンプルなのに戦略的。奥深く、やりごたえあり！ ⭐ 特徴 • 新感覚「落としてマッチ」メカニクス 頭を使った位置取り＆計画性がカギとなる新しいパズル体験。 • ロジック系チャレンジ多数 初心者向けから複雑なマルチステップパズルまで、手作りレベルが盛りだくさん！ • タイマーなし —— 焦らずじっくり 自分のペースで正確な手を選び、考えながら進められる。 • 課金不要 —— 完全フェアなゲーム設計 課金しなくてもすべてのレベルがロジックで解ける。課金誘導や不自然な難易度上昇は一切なし！ • 見やすく美しいビジュアル 滑らかなアニメーションと鮮やかな色合いで、視認性も抜群。 • 特殊な穴の種類 アイスホール、ミステリーホール、木箱など、変化に富んだギミック多数。 • 便利な（オプション）ブースター クロー（ボールを持ち上げる）、マグネット（ボールを引き寄せる）、シュリンカー（穴を小さくする）はピンチの時の味方。ただし、スキルの代わりにはならない！ • オフライン対応 ネットがなくてもいつでもどこでも遊べる！ ⭐ 自分のペースで、脳をフル回転！ 今すぐ『Drop Escape：カラーマッチパズル』をダウンロードして、タイマーも課金もない極上のパズル体験を楽しもう！",
+      "analysis": {
+        "app_key": "google:com.fiogonia.drop",
+        "summary_ko": "Drop Escape는 보드 위에서 구멍을 이동시켜 같은 색상의 공을 떨어뜨리는 퍼즐 게임입니다. 시간 제한이나 강제 과금 요소 없이 전략적인 사고를 요구하는 것이 특징입니다. 다양한 기믹이 포함된 수백 개의 레벨을 통해 두뇌 훈련을 즐길 수 있습니다.",
+        "features_ko": [
+          "보드 위의 구멍을 드래그하여 이동시키는 직관적인 조작 방식을 제공합니다.",
+          "구멍과 같은 색상의 공을 매칭하여 떨어뜨리는 핵심 메커니즘을 갖추고 있습니다.",
+          "아이스 홀, 미스터리 홀 등 다양한 기믹을 통해 난이도를 조절합니다.",
+          "클로, 마그넷 등 전략적 사용이 가능한 옵션 부스터를 제공합니다.",
+          "오프라인 환경에서도 플레이가 가능하도록 설계되었습니다."
+        ],
+        "noteworthy_ko": "시간 제한을 제거하여 퍼즐 본연의 논리적 재미에 집중한 점이 흥미롭습니다. 1인 개발 시 레벨 디자인의 난이도 곡선을 어떻게 설계했는지가 게임의 완성도를 결정짓는 핵심 요소로 보입니다.",
+        "development_ko": "핵심 구현 기술로는 그리드 기반의 오브젝트 이동 로직과 충돌 판정 시스템이 필요합니다. 콘텐츠 제작 부담은 레벨 디자인에 집중되며, 밸런스 테스트를 통해 부스터 없이도 모든 스테이지가 클리어 가능한지 검증하는 과정이 필수적입니다.",
+        "idea_ko": "사용자가 직접 레벨을 설계하고 공유하는 '레벨 에디터' 기능을 추가하여 커뮤니티 활성화를 유도하는 것이 좋습니다.",
+        "highlights_ko": [
+          "시간 제한 없는 전략적 퍼즐 플레이.",
+          "다양한 기믹을 활용한 레벨 디자인."
+        ],
+        "systems_ko": [
+          "그리드 기반 이동 시스템",
+          "색상 매칭 판정 로직",
+          "레벨 데이터 관리 시스템",
+          "부스터 효과 처리 로직",
+          "UI/UX 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "핵심 메커니즘인 그리드 이동과 매칭 로직은 구현 난이도가 낮으나, 수백 개의 레벨을 체계적으로 설계하고 밸런스를 맞추는 작업에는 상당한 시간이 소요되기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "그리드 이동 로직",
+            "색상 매칭 및 제거 시스템",
+            "레벨 로딩 시스템"
+          ],
+          "defer": [
+            "다양한 특수 기믹",
+            "부스터 시스템",
+            "레벨 에디터"
+          ],
+          "risks": [
+            "레벨 디자인의 단조로움",
+            "충돌 판정 오류",
+            "밸런스 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "협동 퍼즐 모드",
+            "concept": "두 명의 플레이어가 각자의 보드에서 협력하여 공을 이동시키고 목표를 달성합니다. 서로의 보드에 영향을 주는 기믹을 추가합니다.",
+            "first_step": "로컬 2인 플레이를 위한 화면 분할 및 입력 처리 구현."
+          },
+          {
+            "title": "무한 챌린지 모드",
+            "concept": "자동 생성되는 레벨에서 최대한 오래 살아남는 모드입니다. 난이도가 점진적으로 상승합니다.",
+            "first_step": "랜덤 레벨 생성 알고리즘 개발."
+          }
+        ],
+        "recommendation_ko": "퍼즐 게임의 기본기인 그리드 시스템과 레벨 디자인의 중요성을 배우기에 매우 적합합니다. 1인 개발자가 완성도 높은 게임을 만들기 위한 좋은 벤치마크가 됩니다.",
+        "source_limitations_ko": "소개문에는 레벨 생성 알고리즘의 구체적인 로직이나 데이터 저장 방식이 명시되지 않았습니다. 또한, 오프라인 플레이 시 데이터 동기화 방식에 대한 정보가 부족합니다.",
+        "name": "Drop Escape: Color Puzzle",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.fiogonia.drop&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 94,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
     }
   }
 }

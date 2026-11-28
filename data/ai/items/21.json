@@ -15204,6 +15204,186 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-27"
+    },
+    "itch:493f47e9c69990998552": {
+      "app_key": "itch:493f47e9c69990998552",
+      "name": "STEEL SKY: THE BATTLE OF GRONSKYA [Free] [Shooter] [Windows] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://nextfox-open-sg.itch.io/steel-sky-the-battle-of-gronskya",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:42:46+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Vertical arcade shoot 'em up in Gronskya with bosses, pixel-art interludes, and a secret ending.",
+      "analysis": {
+        "app_key": "itch:493f47e9c69990998552",
+        "summary_ko": "Gronskya를 배경으로 하는 수직형 아케이드 슈팅 게임입니다. 보스전과 픽셀 아트 컷신이 포함되어 있으며 비밀 엔딩이 존재합니다. 고전적인 슈팅 게임의 경험을 제공합니다.",
+        "features_ko": [
+          "수직으로 진행되는 아케이드 슈팅 게임 플레이.",
+          "다양한 보스 캐릭터와의 전투.",
+          "픽셀 아트로 제작된 스토리 컷신.",
+          "특정 조건을 만족하면 도달할 수 있는 비밀 엔딩."
+        ],
+        "noteworthy_ko": "슈팅 게임에 픽셀 아트 컷신을 결합하여 서사성을 높인 점이 돋보입니다. 비밀 엔딩을 통해 다회차 플레이를 유도하는 구조가 흥미롭습니다.",
+        "development_ko": "탄막 슈팅의 패턴 구현과 보스전의 난이도 설계가 핵심입니다. 픽셀 아트 리소스 제작 부담이 크며, 게임의 흐름을 끊지 않는 컷신 연출이 중요합니다. 전체적인 밸런스 테스트를 위해 반복적인 플레이가 필수적입니다.",
+        "idea_ko": "보스전에서 플레이어의 선택에 따라 보스의 패턴이 변하는 분기 시스템을 도입하는 것이 좋습니다.",
+        "highlights_ko": [
+          "고전적인 아케이드 슈팅의 재미.",
+          "스토리를 보완하는 픽셀 아트 컷신."
+        ],
+        "systems_ko": [
+          "탄막 및 적 이동 패턴 시스템",
+          "보스전 상태 관리",
+          "픽셀 아트 컷신 재생기",
+          "엔딩 분기 로직"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "슈팅 게임은 탄막 패턴 설계와 보스전 밸런스 조정이 매우 까다롭기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 슈팅 및 이동 메커니즘",
+            "적 생성 및 탄막 패턴",
+            "보스전 기본 로직"
+          ],
+          "defer": [
+            "복잡한 픽셀 아트 컷신",
+            "다양한 비밀 엔딩 분기"
+          ],
+          "risks": [
+            "탄막 패턴의 단조로움",
+            "보스전 난이도 밸런스 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "무기 커스터마이징",
+            "concept": "스테이지 중간에 무기를 교체하거나 강화하여 상황에 맞는 전략을 선택합니다. 슈팅의 깊이를 더합니다.",
+            "first_step": "두 가지 무기 타입을 구현하고 교체 로직을 만듭니다."
+          },
+          {
+            "title": "보스 패턴 분기",
+            "concept": "보스의 체력에 따라 공격 패턴이 완전히 바뀌는 시스템입니다. 플레이어의 대응 능력을 시험합니다.",
+            "first_step": "보스 체력 구간별로 공격 패턴을 전환하는 스크립트를 작성합니다."
+          }
+        ],
+        "recommendation_ko": "슈팅 게임의 핵심인 패턴 설계와 보스전 연출을 배우기에 적합합니다. 픽셀 아트와 게임 플레이의 조화를 고민하는 개발자에게 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 조작 방식, 무기 시스템, 컷신의 분량 등은 소개문만으로는 알 수 없습니다.",
+        "name": "STEEL SKY: THE BATTLE OF GRONSKYA [Free] [Shooter] [Windows] [Linux]",
+        "source": "itch",
+        "detail_url": "https://nextfox-open-sg.itch.io/steel-sky-the-battle-of-gronskya",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 347,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 11,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
+    },
+    "apple:342527639": {
+      "app_key": "apple:342527639",
+      "name": "The Home Depot",
+      "developer": "The Home Depot, Inc.",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/the-home-depot/id342527639",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:47:01+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "It’s a good time to be a doer. DIY IN THE PALM OF YOUR HAND Save time with The Home Depot app. Shop over one million products and find the info you need most. SNAP A PICTURE, FIND WHAT YOU NEED Don’t know what something’s called? Just snap a picture and let our Image Search feature tell you. A GPS FOR YOUR SHOPPING LIST Use the Product Locator to find what you’re looking for and check store inventory. We'll take you to the exact aisle and bay. MAKE INFORMED BUYING DECISIONS Get Ratings & Reviews in a matter of seconds. Use the barcode reader to scan an item and read what other customers have to say. DO MORE WITH AN ACCOUNT Signing up is quick and free. Get access to real-time order tracking info, view purchase history, enable instant checkout and more. SHOP SPECIAL BUYS & VIEW LOCAL AD Look for a new Special Buy on the app home screen each day. Plus, check out your local ad for all the latest from your Home Depot. Privacy Policy: https://www.homedepot.com/privacy/privacy-and-security-statement Do Not Sell My Personal Information: https://www.homedepot.com/privacy/Exercise_My_Privacy_Rights",
+      "analysis": {
+        "app_key": "apple:342527639",
+        "summary_ko": "The Home Depot 앱은 DIY 프로젝트를 위한 제품 검색, 재고 확인, 구매 결정을 돕는 종합 쇼핑 도구입니다. 이미지 검색과 바코드 스캐너를 통해 매장 내 상품 정보를 쉽게 찾을 수 있습니다. 또한 주문 추적 및 구매 이력 관리 기능을 통해 효율적인 쇼핑을 지원합니다.",
+        "features_ko": [
+          "이미지 검색 기능을 통해 제품의 이름을 몰라도 사진으로 상품을 찾을 수 있습니다.",
+          "매장 내 상품 위치를 알려주는 제품 위치 찾기 기능을 제공합니다.",
+          "바코드 스캐너로 상품을 스캔하여 평점과 리뷰를 즉시 확인할 수 있습니다.",
+          "실시간 주문 추적 및 구매 이력 관리 기능을 제공합니다.",
+          "매일 새로운 특별 할인 상품 정보를 앱 홈 화면에서 확인할 수 있습니다."
+        ],
+        "noteworthy_ko": "오프라인 매장과 온라인 앱을 연결하는 O2O(Online to Offline) 기능이 매우 강력합니다. 특히 매장 내 위치 안내와 이미지 검색은 사용자 편의성을 크게 높이는 요소입니다.",
+        "development_ko": "이미지 인식 및 바코드 스캔 기술 연동이 핵심입니다. 매장 재고 데이터와 실시간으로 연동되는 백엔드 시스템이 필요하며, 위치 기반 서비스(GPS)와 매장 내 지도 데이터 통합이 중요합니다. 대규모 상품 데이터의 효율적인 검색 엔진 구축이 필수적입니다.",
+        "idea_ko": "사용자가 집안의 수리할 부분을 사진으로 찍으면 필요한 도구와 자재를 자동으로 리스트업해주는 'DIY 프로젝트 도우미' 기능을 제안합니다.",
+        "highlights_ko": [
+          "이미지 검색과 바코드 스캔으로 오프라인 쇼핑 경험을 혁신합니다.",
+          "매장 내 위치 안내를 통해 쇼핑 시간을 단축해줍니다."
+        ],
+        "systems_ko": [
+          "이미지 및 바코드 인식 시스템",
+          "매장 재고 및 위치 관리 시스템",
+          "상품 검색 및 리뷰 시스템",
+          "주문 추적 및 결제 시스템",
+          "사용자 계정 및 구매 이력 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "매장 재고 연동, 이미지 인식, 위치 기반 서비스 등 복합적인 기술이 필요하여 1인 개발자가 구현하기에는 규모가 매우 큽니다. 특히 오프라인 인프라와의 연동은 개인 수준에서 불가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 검색 및 상세 정보 페이지",
+            "사용자 계정 및 즐겨찾기",
+            "기본적인 상품 리뷰 기능"
+          ],
+          "defer": [
+            "이미지 검색 및 바코드 스캔",
+            "매장 내 위치 안내 시스템",
+            "실시간 재고 연동"
+          ],
+          "risks": [
+            "데이터 정확성 유지",
+            "오프라인 매장 인프라와의 연동 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "DIY 프로젝트 체크리스트",
+            "concept": "사용자가 진행할 수리 프로젝트를 선택하면 필요한 도구와 자재 목록을 자동으로 생성해주는 앱입니다.",
+            "first_step": "프로젝트별 자재 목록을 저장하고 체크리스트로 보여주는 기능 구현."
+          },
+          {
+            "title": "우리 집 수리 기록장",
+            "concept": "집안의 수리 이력을 사진과 함께 기록하여 유지보수 시기를 관리하는 앱입니다.",
+            "first_step": "수리 항목과 날짜, 사진을 기록하고 리스트로 관리하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "O2O 서비스의 구조와 데이터 연동 방식을 이해하는 데 좋은 참고 자료입니다. 다만, 실제 구현 시에는 이미지 인식과 같은 고난도 기술보다는 데이터 관리와 사용자 경험 설계에 집중하는 것을 추천합니다.",
+        "source_limitations_ko": "매장 재고 데이터의 연동 방식이나 이미지 검색 알고리즘의 구체적인 구현은 소개문에 없습니다. 또한 결제 및 보안 관련 상세 사항은 확인되지 않습니다.",
+        "name": "The Home Depot",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/the-home-depot/id342527639",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 80,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
     }
   }
 }

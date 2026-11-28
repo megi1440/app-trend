@@ -13308,6 +13308,275 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-27"
+    },
+    "google:com.kayac.CosmicEvolution": {
+      "app_key": "google:com.kayac.CosmicEvolution",
+      "name": "Cosmic Evolution",
+      "developer": "KAYAC Inc.",
+      "source": "google",
+      "country": "US",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.kayac.CosmicEvolution&hl=en&gl=US",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:44:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Start small. Grow massive. Become a black hole. Begin your journey as a tiny asteroid drifting through space. Launch planets, moons, rocks, and other celestial objects into your growing body to gain mass and evolve. The more mass you collect, the bigger and more powerful you become. Grow through the universe: Asteroid → Dwarf Planet → Planet → Gas Giant → Star → Black Hole Discover new celestial objects, increase your mass, and watch your world transform on an incredible cosmic scale. How massive can you become? • Grow by absorbing celestial objects • Evolve into planets, stars, and black holes • Discover the scale of the universe • Enjoy satisfying impacts and cosmic destruction • Keep growing to unlock even bigger forms From a tiny rock floating in space to one of the most powerful objects in the universe — your cosmic evolution starts now.",
+      "analysis": {
+        "app_key": "google:com.kayac.CosmicEvolution",
+        "summary_ko": "Cosmic Evolution은 작은 소행성에서 시작해 블랙홀까지 진화하는 우주 시뮬레이션 게임입니다. 행성, 달, 암석 등 천체를 흡수하여 질량을 키우고 더 거대한 형태로 진화하는 과정을 경험합니다. 우주의 방대한 규모를 시각적으로 느끼며 파괴와 성장의 재미를 즐길 수 있습니다.",
+        "features_ko": [
+          "소행성에서 시작해 행성, 별, 블랙홀로 진화하는 과정을 시뮬레이션합니다.",
+          "주변의 천체를 흡수하여 질량을 늘리고 더 큰 형태로 성장합니다.",
+          "다양한 천체를 발견하고 우주의 규모를 체험합니다.",
+          "천체 간의 충돌과 파괴를 시각적으로 구현합니다."
+        ],
+        "noteworthy_ko": "성장이라는 단순한 메커니즘을 우주라는 광활한 배경에 적용하여 직관적인 재미를 줍니다. 천체의 크기 변화에 따른 시각적 연출이 게임의 핵심적인 몰입 요소입니다.",
+        "development_ko": "천체 간의 충돌 판정과 질량 계산 로직이 핵심입니다. 다양한 천체 모델링과 파괴 효과를 위한 그래픽 리소스 제작 부담이 큽니다. 성장에 따른 난이도 곡선과 보상 체계를 설계하는 밸런스 작업이 중요합니다.",
+        "idea_ko": "흡수한 천체의 성분에 따라 진화 방향이 달라지는 '속성 진화 시스템'을 도입하면 전략적인 재미를 더할 수 있습니다.",
+        "highlights_ko": [
+          "작은 소행성에서 블랙홀로 성장하는 성취감을 제공합니다.",
+          "천체 흡수와 파괴의 시각적 연출이 몰입감을 높입니다."
+        ],
+        "systems_ko": [
+          "천체 물리 엔진 및 충돌 판정",
+          "질량 기반 성장 시스템",
+          "천체 생성 및 배치 알고리즘",
+          "시각적 파괴 효과 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 기반의 충돌 판정과 성장 로직은 구현 가능하지만, 다양한 천체 리소스 제작과 시각적 효과를 최적화하는 데 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "천체 이동 및 흡수 로직",
+            "질량 증가에 따른 크기 변화",
+            "기본적인 천체 생성 시스템"
+          ],
+          "defer": [
+            "다양한 진화 경로 분기",
+            "복잡한 우주 배경 환경",
+            "고급 파괴 시각 효과"
+          ],
+          "risks": [
+            "물리 연산의 최적화 문제",
+            "단조로운 게임 플레이의 반복"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "천체 중력장 시스템",
+            "concept": "질량이 커질수록 주변 천체를 끌어당기는 중력장이 형성되어 흡수가 더 쉬워지는 시스템입니다.",
+            "first_step": "질량에 비례하는 반경을 설정하고 해당 반경 내의 객체를 끌어당기는 물리 로직을 구현합니다."
+          },
+          {
+            "title": "우주 탐사 로그",
+            "concept": "진화 과정에서 발견한 천체들을 도감에 기록하고 정보를 확인하는 기능입니다.",
+            "first_step": "천체 데이터를 저장하는 구조를 만들고 발견 시 도감에 추가하는 로직을 작성합니다."
+          }
+        ],
+        "recommendation_ko": "물리 엔진을 활용한 게임 개발을 배우기에 좋습니다. 단순한 규칙으로 깊이 있는 시각적 경험을 만드는 방법을 익힐 수 있습니다.",
+        "source_limitations_ko": "게임 내 물리 엔진의 상세 설정이나 최적화 기법은 확인되지 않습니다. 수익 모델이나 광고 연동 방식에 대한 정보는 없습니다.",
+        "name": "Cosmic Evolution",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.kayac.CosmicEvolution&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 183,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 19,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
+    },
+    "apple:6751412020": {
+      "app_key": "apple:6751412020",
+      "name": "Downhill Skate Race ― 스케보드 레이싱",
+      "developer": "Freeplay LLC",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_action",
+      "detail_url": "https://apps.apple.com/kr/app/downhill-skate-race-%EC%8A%A4%EC%BC%80%EB%B3%B4%EB%93%9C-%EB%A0%88%EC%9D%B4%EC%8B%B1/id6751412020?uo=2",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:46:13+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "언덕도, 점프도, 장애물도 — 이것이 진짜 레이싱이다. 급격한 커브, 거대한 점프, 갑작스러운 장애물이 스케이트보드 실력을 시험하는 고속 도전에 대비하라. 이것은 단순한 스케이트보드 게임이 아니라, 스릴을 추구하는 플레이어를 위한 진정한 레이싱 시뮬레이터다. 코인을 모으고, 스케이트보드를 업그레이드하며, 치열한 다운힐 레이스에서 승리를 노려라. Downhill Race를 좋아할 이유: — 모든 경사로에서 아드레날린 넘치는 스피드 액션 — 레이스에 참가하고 리그 순위표를 올라가라 — 외형을 꾸미고 강력한 업그레이드를 해제 — 위험한 장애물을 부수거나 피해서 살아남아라 — 진정한 레이싱 시뮬레이터에서 가장 빠름을 증명 Downhill Race는 스케이트보드, 아케이드 액션, 끊임없는 경쟁을 하나의 서사적인 경험으로 결합한다. 보드를 잡고, 실력을 연마하며, 리그를 지배하라. 결승선이 기다린다 — 가장 먼저 통과할 사람은 너다!",
+      "analysis": {
+        "app_key": "apple:6751412020",
+        "summary_ko": "급격한 커브와 거대한 점프가 포함된 코스를 질주하는 스케이트보드 레이싱 게임입니다. 장애물을 피하거나 부수며 고속으로 결승선에 도달하는 것이 목표입니다. 코인을 모아 보드를 업그레이드하고 리그 순위표에서 경쟁할 수 있습니다.",
+        "features_ko": [
+          "경사로와 장애물이 배치된 코스에서 고속 레이싱을 즐깁니다.",
+          "장애물을 피하거나 부수며 속도를 유지합니다.",
+          "레이스 중 코인을 수집하여 보드를 업그레이드합니다.",
+          "외형 커스터마이징을 통해 스케이트보드를 꾸밉니다.",
+          "리그 순위표를 통해 다른 플레이어와 경쟁합니다."
+        ],
+        "noteworthy_ko": "단순한 레이싱을 넘어 장애물 파괴와 업그레이드 요소를 결합하여 아케이드성을 강조했습니다. 물리 기반의 움직임과 속도감을 어떻게 구현하느냐가 개발의 핵심입니다.",
+        "development_ko": "물리 엔진을 활용한 캐릭터 이동 및 충돌 처리가 핵심입니다. 코스 생성 알고리즘과 보드 업그레이드 수치 밸런싱이 필요하며, 모바일 환경에서의 최적화가 중요합니다.",
+        "idea_ko": "특정 장애물을 피하는 리듬 액션 요소가 가미된 스케이트보드 레이싱이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "아드레날린 넘치는 고속 액션과 다양한 장애물 코스를 제공합니다.",
+          "업그레이드와 커스터마이징을 통해 성장 요소를 포함하고 있습니다."
+        ],
+        "systems_ko": [
+          "물리 기반 캐릭터 이동 시스템",
+          "장애물 충돌 및 파괴 판정",
+          "코스 생성 및 관리 시스템",
+          "재화 수집 및 업그레이드 시스템",
+          "순위표 연동 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "물리 엔진을 이용한 부드러운 조작감 구현과 다양한 장애물 코스 제작은 1인 개발자에게 높은 기술적 난이도를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 캐릭터 이동 및 점프 물리",
+            "장애물 충돌 판정",
+            "결승선 도달 판정"
+          ],
+          "defer": [
+            "온라인 리그 순위표",
+            "복잡한 커스터마이징 시스템"
+          ],
+          "risks": [
+            "물리 엔진의 불안정한 조작감",
+            "코스 디자인의 단조로움"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "도심 탈출 스케이트",
+            "concept": "복잡한 도심을 배경으로 교통 체증을 피해 빠르게 이동하는 레이싱입니다. 환경 요소와의 상호작용이 강조됩니다.",
+            "first_step": "기본적인 캐릭터 이동과 장애물 피하기 프로토타입을 만듭니다."
+          },
+          {
+            "title": "스케이트보드 트릭 마스터",
+            "concept": "레이싱 대신 특정 구간에서 트릭을 성공시켜 점수를 얻는 방식입니다. 조작의 정교함이 핵심입니다.",
+            "first_step": "입력 방식에 따른 캐릭터 애니메이션 전환을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "물리 엔진을 활용한 게임 개발 경험을 쌓기에 좋습니다. 레이싱 게임의 핵심인 속도감과 조작감을 구현하는 법을 배울 수 있습니다.",
+        "source_limitations_ko": "소개문에 언급된 리그 순위표의 서버 연동 방식이나 물리 엔진의 구체적인 설정은 확인되지 않습니다.",
+        "name": "Downhill Skate Race ― 스케보드 레이싱",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/downhill-skate-race-%EC%8A%A4%EC%BC%80%EB%B3%B4%EB%93%9C-%EB%A0%88%EC%9D%B4%EC%8B%B1/id6751412020?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
+    },
+    "apple:6781333991": {
+      "app_key": "apple:6781333991",
+      "name": "Band Session Note: 손글씨 악보",
+      "developer": "sung ju KIM",
+      "source": "apple",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/kr/app/band-session-note-%EC%86%90%EA%B8%80%EC%94%A8-%EC%95%85%EB%B3%B4/id6781333991",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:46:13+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "밴드 세션 노트는 아이패드와 애플펜슬로 손글씨 악보를 가장 빠르게 만드는 음악 노트 앱입니다. 종이에 쓰듯 자유롭게, 그러나 디지털의 편리함 그대로. ■ 이런 분께 · 합주 중 즉석에서 코드·리듬을 받아 적는 밴드 세션 연주자 · 받은 악보에 바로 메모하고 편집하는 연주자 · 아이에게 계이름을 색과 모양으로 가르치는 부모·교사 ■ 주요 기능 · 드럼팩 — 드럼 그림을 탭하면 표준 위치에 자동 채보. 8·16·32분음표와 점, 서로 다른 리듬도 한 묶음으로. 스네어·킥·하이햇·심벌·R/L 스티킹까지. · 공연 편집악보 — 사진이나 PDF로 받은 악보를 불러와 그 위에 펜·기호·음표를 자유롭게. 페이지를 원하는 순서로 구성. · 음악놀이 — 아이와 함께하는 계이름 스티커. 원·네모·세모·별 모양에 무지개 계이름, 색과 글자색·크기까지 자유롭게. · 세트 저장·공유 — 여러 곡을 하나의 세트 파일로 묶어 밴드 전체에 공유. 순서 변경, 탭 한 번으로 열기. · 섹션 커스텀 — Intro·Verse·Chorus는 물론, 우리 밴드만의 구간 이름을 직접 만들어 반복 사용. ■ 편집 도구 · 음표·쉼표·임시표·마디선·연결음표(빔)·셋잇단음표·코드·리허설 기호 · 애플펜슬 손글씨(필압·손떨림 보정) · 텍스트 · 무지개 색상 · 무한 붙여넣기 · 다중 페이지 · PDF 불러오기 · PNG·JPG·PDF로 저장 및 공유 · 6개 언어 자동 지원 (한국어·영어·일본어·중국어·포르투갈어·독일어) 연습실에서 무대까지, 밴드의 모든 악보를 이 한 권에 담으세요.",
+      "analysis": {
+        "app_key": "apple:6781333991",
+        "summary_ko": "아이패드와 애플펜슬을 활용해 손글씨로 악보를 작성하는 음악 노트 앱입니다. 드럼 채보, 악보 편집, 음악 놀이 등 다양한 기능을 제공합니다. 밴드 세션 연주자나 음악 교육 현장에서 활용하기 적합합니다.",
+        "features_ko": [
+          "애플펜슬을 사용하여 종이에 쓰듯 자유롭게 악보를 작성합니다.",
+          "드럼 그림을 탭하여 표준 위치에 자동으로 채보합니다.",
+          "PDF나 사진으로 된 악보를 불러와 그 위에 메모하고 편집합니다.",
+          "계이름 스티커를 활용하여 아이들에게 음악을 가르칠 수 있습니다.",
+          "여러 곡을 하나의 세트로 묶어 밴드 멤버와 공유합니다."
+        ],
+        "noteworthy_ko": "디지털 도구의 편리함과 아날로그 필기의 직관성을 결합한 점이 돋보입니다. 특정 사용자층(밴드 세션, 교육자)을 명확히 타겟팅하여 필요한 기능을 최적화했습니다.",
+        "development_ko": "애플펜슬의 필압 및 손떨림 보정 기술이 핵심입니다. 악보 데이터 구조 설계와 PDF 렌더링, 그리고 다중 페이지 관리 시스템이 필요하며, 사용자 경험을 고려한 UI 설계가 중요합니다.",
+        "idea_ko": "특정 악기 전용의 빠른 메모 기능을 강화한 악보 앱이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "드럼 채보 자동화와 같은 특정 악기 맞춤형 기능을 제공합니다.",
+          "세트 파일 공유 기능을 통해 밴드 협업을 지원합니다."
+        ],
+        "systems_ko": [
+          "애플펜슬 필기 입력 및 보정 시스템",
+          "악보 데이터 구조 및 렌더링 엔진",
+          "PDF/이미지 불러오기 및 레이어 관리",
+          "파일 공유 및 세트 관리 시스템",
+          "사용자 인터페이스 및 도구 모음"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "정교한 필기 입력 처리와 악보 렌더링 기술은 높은 수준의 개발 역량을 요구하며, 다양한 파일 포맷 지원이 복잡합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "애플펜슬 기본 필기 기능",
+            "악보 템플릿 및 마디 그리기",
+            "PDF 불러오기 및 저장 기능"
+          ],
+          "defer": [
+            "드럼 채보 자동화",
+            "다국어 지원 및 클라우드 공유"
+          ],
+          "risks": [
+            "필기 지연 시간(Latency) 문제",
+            "악보 데이터의 호환성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "코드 진행 메모장",
+            "concept": "복잡한 악보 대신 코드 진행과 리듬 패턴만 빠르게 기록하는 밴드용 메모장입니다. 즉흥 연주에 특화되어 있습니다.",
+            "first_step": "코드 기호를 빠르게 입력하는 UI를 구현합니다."
+          },
+          {
+            "title": "음악 교육용 스티커북",
+            "concept": "계이름과 리듬을 스티커처럼 붙여 악보를 만드는 교육용 앱입니다. 아이들의 흥미 유발에 초점을 맞춥니다.",
+            "first_step": "드래그 앤 드롭으로 객체를 배치하는 기능을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "특정 분야의 생산성 앱을 개발하고자 할 때 좋은 참고 사례입니다. 사용자 경험을 최우선으로 고려한 UI 설계와 도구 구현 방식을 배울 수 있습니다.",
+        "source_limitations_ko": "소개문에 언급된 6개 언어 자동 지원의 구현 방식이나 클라우드 동기화 여부는 확인되지 않습니다.",
+        "name": "Band Session Note: 손글씨 악보",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/band-session-note-%EC%86%90%EA%B8%80%EC%94%A8-%EC%95%85%EB%B3%B4/id6781333991",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
     }
   }
 }

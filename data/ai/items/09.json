@@ -14420,6 +14420,92 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-27"
+    },
+    "itch:fdbb8df4c3125cd4bd67": {
+      "app_key": "itch:fdbb8df4c3125cd4bd67",
+      "name": "Beneath the Stone [Free] [Interactive Fiction]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://sepehrvafshar.itch.io/beneath-the-stone",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:43:40+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Walk through three ages of Mammoth Cave and decide what enters the historical record.",
+      "analysis": {
+        "app_key": "itch:fdbb8df4c3125cd4bd67",
+        "summary_ko": "매머드 동굴의 세 시대를 탐험하며 역사적 기록에 남길 내용을 결정하는 인터랙티브 픽션 게임입니다. 플레이어의 선택에 따라 이야기의 흐름과 기록이 달라지는 경험을 제공합니다.",
+        "features_ko": [
+          "매머드 동굴을 배경으로 한 세 가지 시대적 배경을 탐험합니다.",
+          "플레이어의 선택을 통해 역사적 기록의 내용을 결정합니다."
+        ],
+        "noteworthy_ko": "텍스트 기반의 선택지가 서사에 미치는 영향력을 탐구하는 구조가 흥미롭습니다. 플레이어의 결정이 역사적 기록이라는 결과물로 이어지는 과정이 서사적 몰입감을 높일 것으로 추정됩니다.",
+        "development_ko": "텍스트 분기 처리와 상태 관리 시스템이 핵심입니다. 콘텐츠 제작은 시나리오 작성에 집중되며, 테스트는 모든 분기점의 논리적 오류를 검증하는 데 중점을 둡니다.",
+        "idea_ko": "특정 시대의 유물을 발견하고 그 유물의 가치를 기록하는 '역사 기록관' 시뮬레이션으로 확장하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "세 시대를 넘나드는 서사적 구성이 특징입니다.",
+          "플레이어의 선택이 역사적 기록으로 남는 상호작용을 제공합니다."
+        ],
+        "systems_ko": [
+          "텍스트 분기 관리 시스템",
+          "플레이어 선택 데이터 저장",
+          "UI 텍스트 렌더링 엔진"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "복잡한 그래픽이나 물리 엔진 없이 텍스트와 분기 로직만으로 구현 가능합니다. 1인 개발자가 시나리오에 집중하여 완성하기에 적합한 규모입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "텍스트 출력 시스템",
+            "선택지 분기 로직",
+            "결과 저장 기능"
+          ],
+          "defer": [
+            "사운드 효과",
+            "이미지 리소스"
+          ],
+          "risks": [
+            "서사의 개연성 부족",
+            "분기점 관리의 복잡성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "유물 감정사",
+            "concept": "발굴된 유물의 시대와 가치를 추론하여 기록합니다. 잘못된 기록은 후대 역사에 왜곡을 가져옵니다.",
+            "first_step": "유물 이미지와 텍스트 설명을 매칭하는 간단한 퀴즈 형태 구현."
+          },
+          {
+            "title": "시간 여행자의 일기",
+            "concept": "과거의 사건을 바꾸어 미래의 일기 내용이 실시간으로 변하는 인터랙티브 소설입니다.",
+            "first_step": "두 가지 분기점이 있는 짧은 텍스트 어드벤처 제작."
+          }
+        ],
+        "recommendation_ko": "인터랙티브 픽션의 서사 구조와 분기 로직을 학습하기에 매우 좋습니다. 텍스트 중심의 게임 개발을 시작하려는 초보자에게 추천합니다.",
+        "source_limitations_ko": "게임의 구체적인 분기 수, 시나리오의 길이, 저장 방식 등 기술적 세부 사항은 소개문만으로 확인이 불가능합니다.",
+        "name": "Beneath the Stone [Free] [Interactive Fiction]",
+        "source": "itch",
+        "detail_url": "https://sepehrvafshar.itch.io/beneath-the-stone",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 275,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 36,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
     }
   }
 }

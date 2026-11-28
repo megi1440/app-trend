@@ -15632,6 +15632,182 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-27"
+    },
+    "itch:1e38397e27fe1e21d372": {
+      "app_key": "itch:1e38397e27fe1e21d372",
+      "name": "Blocky3D 0.4 [Free] [Adventure] [Windows] [macOS] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://blocky-3d.itch.io/blocky3d-04",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:43:07+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "An infinite 3D voxel survival & sandbox engine written from scratch in pure C!",
+      "analysis": {
+        "app_key": "itch:1e38397e27fe1e21d372",
+        "summary_ko": "순수 C 언어로 처음부터 직접 작성된 무한 3D 복셀 생존 및 샌드박스 엔진입니다. 사용자는 3D 공간에서 복셀 기반의 환경을 탐험하고 생존하는 경험을 할 수 있습니다. 엔진 자체의 구현에 초점을 맞춘 프로젝트입니다.",
+        "features_ko": [
+          "무한한 3D 복셀 환경을 생성하고 렌더링합니다.",
+          "생존 및 샌드박스 게임 플레이를 지원합니다.",
+          "순수 C 언어로 작성되어 엔진의 기초 구조를 제공합니다."
+        ],
+        "noteworthy_ko": "외부 라이브러리 의존성을 최소화하고 순수 C로 엔진을 구축했다는 점이 개발 관점에서 매우 흥미롭습니다. 복셀 데이터 구조와 렌더링 파이프라인을 직접 구현해야 하므로 고도의 기술적 도전이 예상됩니다.",
+        "development_ko": "핵심 구현 기술은 복셀 데이터 관리와 효율적인 렌더링 알고리즘입니다. 콘텐츠 제작보다는 엔진의 성능 최적화와 메모리 관리에 큰 부담이 따릅니다. 테스트는 무한 지형 생성의 안정성과 충돌 판정의 정확성에 집중해야 합니다.",
+        "idea_ko": "복셀 엔진의 기초를 활용하여 특정 테마의 생존 게임을 만드는 것이 적합합니다.",
+        "highlights_ko": [
+          "순수 C 언어로 구현된 3D 복셀 엔진.",
+          "무한 지형 생성을 통한 샌드박스 환경 제공."
+        ],
+        "systems_ko": [
+          "복셀 데이터 구조 및 청크 관리 시스템",
+          "3D 렌더링 파이프라인",
+          "충돌 판정 및 물리 엔진",
+          "지형 생성 알고리즘"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "엔진을 처음부터 직접 구현하는 것은 복잡한 수학적 지식과 메모리 관리 능력을 요구합니다. 1인 개발자가 무한 지형과 렌더링을 모두 최적화하기에는 매우 높은 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 복셀 생성 및 렌더링",
+            "카메라 이동 및 플레이어 조작",
+            "기본 충돌 판정"
+          ],
+          "defer": [
+            "복잡한 생존 시스템",
+            "멀티플레이어 기능",
+            "고급 셰이더 효과"
+          ],
+          "risks": [
+            "렌더링 성능 최적화 실패",
+            "메모리 누수 및 관리 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "복셀 퍼즐 탐험",
+            "concept": "복셀을 파괴하거나 쌓아 길을 만드는 퍼즐 게임입니다. 특정 지점에 도달하면 다음 단계로 넘어갑니다.",
+            "first_step": "단일 복셀을 배치하고 제거하는 기능을 구현합니다."
+          },
+          {
+            "title": "복셀 미로 탈출",
+            "concept": "무작위로 생성된 복셀 미로에서 탈출하는 게임입니다. 시간 제한 내에 출구를 찾아야 합니다.",
+            "first_step": "미로 생성 알고리즘을 적용하여 복셀 맵을 생성합니다."
+          }
+        ],
+        "recommendation_ko": "로우 레벨 프로그래밍과 엔진 구조를 깊이 있게 배우고 싶은 개발자에게 추천합니다. 다만, 게임 완성보다는 기술적 학습 목적이 강할 때 적합합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 엔진 기능, 지원하는 플랫폼의 상세 사양, 생존 시스템의 세부 규칙 등을 확인할 수 없습니다.",
+        "name": "Blocky3D 0.4 [Free] [Adventure] [Windows] [macOS] [Linux]",
+        "source": "itch",
+        "detail_url": "https://blocky-3d.itch.io/blocky3d-04",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 329,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 17,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
+    },
+    "itch:d43f1ff5583438aa4742": {
+      "app_key": "itch:d43f1ff5583438aa4742",
+      "name": "Brite-Lite! [Free] [Other]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://quadraticgames.itch.io/brite-lite",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:43:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Light up glowing pegs and make pixel pictures right in your browser.",
+      "analysis": {
+        "app_key": "itch:d43f1ff5583438aa4742",
+        "summary_ko": "브라우저에서 직접 실행 가능한 픽셀 아트 제작 도구입니다. 빛나는 핀을 조작하여 픽셀 그림을 그리는 창의적인 경험을 제공합니다.",
+        "features_ko": [
+          "브라우저 기반으로 별도의 설치 없이 즉시 실행 가능합니다.",
+          "빛나는 핀을 배치하여 픽셀 단위의 그림을 그릴 수 있습니다."
+        ],
+        "noteworthy_ko": "사용자 인터페이스와 캔버스 데이터 관리 방식이 핵심입니다. 픽셀 아트의 단순함을 조명 효과와 결합한 점이 흥미롭습니다.",
+        "development_ko": "웹 기술(Canvas API 또는 DOM 조작)을 활용한 픽셀 데이터 관리가 핵심입니다. 사용자 입력에 따른 상태 변경과 렌더링 최적화가 중요합니다.",
+        "idea_ko": "그린 그림을 공유하거나 애니메이션으로 변환하는 기능을 추가하여 커뮤니티 요소를 강화하는 것이 좋습니다.",
+        "highlights_ko": [
+          "브라우저 환경의 접근성.",
+          "빛나는 핀을 활용한 시각적 표현."
+        ],
+        "systems_ko": [
+          "그리드 기반 캔버스 시스템",
+          "사용자 마우스/터치 입력 처리",
+          "데이터 저장 및 불러오기(로컬 스토리지)",
+          "색상 및 조명 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "그리드 기반의 데이터 구조는 구현이 직관적이며, 복잡한 물리 엔진이나 AI가 필요하지 않아 개인 개발에 적합합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "그리드 생성 및 핀 배치 기능",
+            "색상 선택 도구",
+            "그림 저장 기능"
+          ],
+          "defer": [
+            "소셜 공유 기능",
+            "다양한 브러시 크기 및 효과"
+          ],
+          "risks": [
+            "브라우저별 렌더링 성능 차이",
+            "데이터 저장 용량 제한"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "라이트 퍼즐",
+            "concept": "특정 패턴의 빛을 만들어야 하는 퍼즐 게임입니다. 제한된 핀 개수로 주어진 픽셀 그림을 완성해야 합니다.",
+            "first_step": "목표 패턴과 현재 패턴을 비교하여 일치 여부를 판단하는 로직을 작성합니다."
+          },
+          {
+            "title": "픽셀 뮤직 박스",
+            "concept": "핀을 배치할 때마다 특정 음계의 소리가 나도록 하여, 그림을 그리면서 음악을 작곡하는 도구입니다.",
+            "first_step": "그리드 좌표와 오디오 샘플을 매핑하여 클릭 시 소리가 재생되도록 구현합니다."
+          }
+        ],
+        "recommendation_ko": "웹 기반의 인터랙티브 도구를 만들고 싶은 개발자에게 추천합니다. 상태 관리와 UI/UX 설계 능력을 기르기에 매우 좋은 프로젝트입니다.",
+        "source_limitations_ko": "핀의 개수 제한, 저장 방식, 색상 팔레트의 범위 등 구체적인 기술 사양은 확인되지 않습니다.",
+        "name": "Brite-Lite! [Free] [Other]",
+        "source": "itch",
+        "detail_url": "https://quadraticgames.itch.io/brite-lite",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 287,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 31,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
     }
   }
 }

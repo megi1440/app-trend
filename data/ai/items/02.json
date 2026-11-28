@@ -13128,6 +13128,542 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-27"
+    },
+    "apple:6752259371": {
+      "app_key": "apple:6752259371",
+      "name": "칼마의 주사위: 주사위 로그라이크",
+      "developer": "Pepperbox Studios",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_card",
+      "detail_url": "https://apps.apple.com/kr/app/%EC%B9%BC%EB%A7%88%EC%9D%98-%EC%A3%BC%EC%82%AC%EC%9C%84-%EC%A3%BC%EC%82%AC%EC%9C%84-%EB%A1%9C%EA%B7%B8%EB%9D%BC%EC%9D%B4%ED%81%AC/id6752259371?uo=2",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:44:00+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "\"아름답게 심플하고 완전히 몰입되는\" - The Escapist \"발라트로 이후의 갈증을 해소하는 로그라이크\" - Qualbert Dice of Kalma는 지하 세계의 음침한 수호자 칼마를 상대로 주사위를 굴리는 덱 빌딩 로그라이크 게임입니다. 강력한 스컬 덱을 구성하고, 시너지를 찾아 주사위를 유리하게 조작하여 이승 세계로 다시 돌아가세요. 주사위를 굴려보세요: 원하지 않는 주사위를 골라서 리롤을 해서 더욱 가치 있는 패를 노려보세요. 전략적으로 주사위를 굴리거나, 최고의 패를 노려 올인을 하세요! 스컬 덱을 구성하세요: 덱에 추가할 스컬을 선택하고 점수를 높일 새로운 기회를 찾으세요. 실험하고, 시너지를 찾고, 다양한 플레이 스타일을 시도해 보세요. 최악의 주사위 패도 손쉽게 뒤집을 수 있는 스컬 덱을 구성하거나, 모험적인 플레이와 운을 시험하는 데 도움이 되는 스컬을 선택하세요. 주사위 조합 플레이: 매 패마다 최대한 많은 스컬을 활성화하고, 리롤을 통해 최대한의 이점을 얻으세요. 선택한 패를 업그레이드하여 가치를 높이고, 스컬 덱을 보완하여 점점 더 어려워지는 도전에 맞서 싸우세요. 실패하고 다시 시도하세요: 패가 다 떨어지면 게임 오버입니다. 하지만 걱정하지 마세요. 여기에서는 끈기는 보상을 받고, 지하 세계의 수호자는 당신이 돌아와 한 라운드만 더 도전하는 것을 좋아하는 것 같습니다.",
+      "analysis": {
+        "app_key": "apple:6752259371",
+        "summary_ko": "이 게임은 주사위를 굴려 덱을 구성하고 시너지를 찾아 지하 세계를 탈출하는 로그라이크 게임입니다. 주사위를 리롤하여 더 좋은 패를 만들고, 스컬 덱을 전략적으로 구성하여 난관을 극복해야 합니다. 실패하더라도 다시 도전하며 성장하는 반복적인 플레이가 핵심입니다.",
+        "features_ko": [
+          "주사위를 굴려 전략적인 패를 구성하는 덱 빌딩 시스템을 제공합니다.",
+          "원하지 않는 주사위를 리롤하여 더 높은 가치의 패를 노릴 수 있습니다.",
+          "다양한 스컬을 선택하여 자신만의 시너지를 실험할 수 있습니다.",
+          "점점 어려워지는 도전에 맞서 패를 업그레이드하고 전략을 수정합니다.",
+          "게임 오버 시 다시 도전하여 성장을 도모하는 로그라이크 구조입니다."
+        ],
+        "noteworthy_ko": "주사위라는 운의 요소를 리롤과 덱 빌딩으로 전략화한 점이 매우 흥미롭습니다. '발라트로'와 같은 장르적 특성을 주사위라는 소재로 재해석하여 몰입감을 높인 점이 돋보입니다.",
+        "development_ko": "주사위 결과값의 무작위 생성과 덱 빌딩 로직이 핵심입니다. 다양한 스컬의 효과를 관리하는 데이터 구조 설계와 시너지 계산 로직이 복잡할 수 있습니다. 로그라이크 특유의 반복 플레이를 위한 밸런스 조정과 게임 상태 저장 시스템이 중요합니다.",
+        "idea_ko": "주사위 눈의 합이 특정 숫자가 되면 특수 효과가 발동하는 '수학적 시너지' 시스템 도입.",
+        "highlights_ko": [
+          "운과 전략이 결합된 독특한 주사위 덱 빌딩 메커니즘.",
+          "실패를 통해 배우고 다시 도전하는 로그라이크의 재미."
+        ],
+        "systems_ko": [
+          "주사위 굴리기 및 결과 판정 엔진",
+          "덱 빌딩 및 스컬 관리 시스템",
+          "시너지 효과 계산 모듈",
+          "게임 상태 저장 및 로드",
+          "밸런스 조정 및 난이도 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "덱 빌딩 로그라이크는 밸런스 설계가 매우 중요하며, 다양한 카드/스컬 효과를 구현하고 테스트하는 데 많은 시간이 소요됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "주사위 굴리기 기능",
+            "기본 스컬 덱 구성",
+            "게임 오버 및 재시작 로직"
+          ],
+          "defer": [
+            "복잡한 시너지 효과",
+            "다양한 캐릭터 및 스킨"
+          ],
+          "risks": [
+            "게임 밸런스 붕괴",
+            "반복 플레이의 지루함"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "주사위 던전 탐험",
+            "concept": "주사위 눈의 합으로 몬스터를 물리치고 던전을 내려가는 턴제 RPG.",
+            "first_step": "주사위 합계와 몬스터 체력을 비교하는 간단한 전투 로직 구현."
+          },
+          {
+            "title": "주사위 퍼즐 덱",
+            "concept": "주사위를 배치하여 특정 패턴을 완성하면 점수를 얻는 퍼즐형 덱 빌딩 게임.",
+            "first_step": "주사위 배치 그리드와 패턴 인식 로직 구현."
+          }
+        ],
+        "recommendation_ko": "로그라이크 게임의 핵심인 밸런스 설계와 데이터 기반 게임 로직을 배우기에 최적입니다. 게임 기획과 구현의 조화를 연습하고 싶은 개발자에게 강력 추천합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 시너지 효과의 종류나 밸런스 수치가 명시되어 있지 않아 실제 게임의 깊이는 직접 구현하며 검증해야 합니다.",
+        "name": "칼마의 주사위: 주사위 로그라이크",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EC%B9%BC%EB%A7%88%EC%9D%98-%EC%A3%BC%EC%82%AC%EC%9C%84-%EC%A3%BC%EC%82%AC%EC%9C%84-%EB%A1%9C%EA%B7%B8%EB%9D%BC%EC%9D%B4%ED%81%AC/id6752259371?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 192,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 16,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
+    },
+    "apple:6832807561": {
+      "app_key": "apple:6832807561",
+      "name": "별꾹",
+      "developer": "sungmin lee",
+      "source": "apple",
+      "country": "KR",
+      "category": "game_simulation",
+      "detail_url": "https://apps.apple.com/kr/app/%EB%B3%84%EA%BE%B9/id6832807561?uo=2",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:44:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "별꾹은 소중한 반려동물의 사진과 기억을 간직하고, 가상의 공간에서 함께 시간을 보내는 3D 추모 공간입니다 우리 아이의 추모공간 사진과 이름으로 사물함을 꾸미고, 편지와 추억을 남겨보세요. 꽃과 촛불로 마음을 전하고 다른 아이들의 추모공간도 방문할 수 있습니다 다시 함께하는 일상 동물 아바타와 산책하며 마을을 둘러보세요. 집을 꾸미고 정성껏 가꾸며 소중한 순간을 이어갈 수 있습니다 함께 나누는 기억 법당에서 기도하고 마음을 담은 소원을 남겨보세요. 천도재 등 공동 추모 행사는 별도 안내되는 일정에 함께할 수 있습니다 한국어, 영어, 베트남어로 별꾹을 만나보세요. 언어별 공간에서 이용할 수 있는 콘텐츠와 참여 현황은 다를 수 있습니다",
+      "analysis": {
+        "app_key": "apple:6832807561",
+        "summary_ko": "별꾹은 반려동물을 추모하기 위한 3D 가상 공간 서비스입니다. 사용자는 반려동물의 사진과 이름으로 사물함을 꾸미고, 편지를 남기거나 꽃과 촛불로 마음을 전할 수 있습니다. 또한 동물 아바타와 함께 산책하거나 다른 사용자의 추모 공간을 방문하며 기억을 공유합니다.",
+        "features_ko": [
+          "반려동물의 사진과 이름으로 개인화된 3D 추모 공간을 꾸밉니다.",
+          "꽃과 촛불 등 아이템을 배치하여 추모의 마음을 표현합니다.",
+          "동물 아바타와 함께 가상 마을을 산책하며 시간을 보냅니다.",
+          "다른 사용자의 추모 공간을 방문하여 기억을 공유합니다.",
+          "법당 기능을 통해 기도하고 소원을 남길 수 있습니다."
+        ],
+        "noteworthy_ko": "반려동물 상실의 아픔을 디지털 공간에서 위로하는 감성적인 접근이 특징입니다. 3D 공간을 활용한 추모라는 독특한 사용자 경험을 제공합니다.",
+        "development_ko": "3D 공간 구현을 위한 엔진(Unity 등) 활용 능력이 필수적입니다. 아바타 이동 및 상호작용 로직과 사용자 간 공간 공유를 위한 네트워크 시스템이 필요합니다. 감성적인 분위기를 조성하기 위한 조명과 사운드 디자인의 비중이 큽니다.",
+        "idea_ko": "반려동물과의 추억을 타임라인 형태로 기록하고, 특정 날짜에 알림을 주는 '기억 기록장' 기능을 추가하면 더욱 의미 있을 것입니다.",
+        "highlights_ko": [
+          "3D 가상 공간을 통해 반려동물을 추모하는 따뜻한 경험을 제공합니다.",
+          "아바타 산책 및 공간 방문을 통해 정서적 교류를 지원합니다."
+        ],
+        "systems_ko": [
+          "3D 공간 렌더링 및 배치 시스템",
+          "아바타 이동 및 상호작용 시스템",
+          "사용자 데이터 저장 및 동기화 시스템",
+          "아이템 배치 및 꾸미기 시스템",
+          "소셜 방문 및 커뮤니티 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "3D 환경 구축과 아바타 시스템은 구현 난이도가 높습니다. 또한 사용자 간의 공간 공유를 위한 서버 인프라와 데이터 관리가 복잡하여 1인 개발 시 많은 리소스가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "추모 공간 꾸미기 기능",
+            "사진 업로드 및 전시",
+            "방문자 방명록 기능"
+          ],
+          "defer": [
+            "3D 아바타 산책 시스템",
+            "실시간 멀티플레이어 방문",
+            "법당 및 공동 추모 행사"
+          ],
+          "risks": [
+            "3D 리소스 제작 부담",
+            "사용자 간 데이터 동기화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "추억의 편지함",
+            "concept": "반려동물에게 쓴 편지를 특정 날짜에 맞춰 발송하거나, 과거의 편지를 다시 읽어보는 기능입니다.",
+            "first_step": "텍스트 저장 및 날짜별 조회 기능을 구현하고 알림 시스템을 연동합니다."
+          },
+          {
+            "title": "가상 산책로 사진첩",
+            "concept": "아바타와 산책 중 찍은 가상 공간의 사진을 자동으로 앨범에 저장하는 기능입니다.",
+            "first_step": "카메라 뷰를 구현하고 스크린샷을 저장하여 갤러리에 표시하는 기능을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "감성적인 서비스 기획과 3D 공간 구현을 동시에 경험하고 싶은 개발자에게 추천합니다. 사용자에게 정서적 가치를 제공하는 서비스의 중요성을 배울 수 있습니다.",
+        "source_limitations_ko": "공동 추모 행사나 법당 서비스의 구체적인 운영 방식은 확인되지 않습니다. 보안 및 개인정보 보호 정책에 대한 상세 내용은 알 수 없습니다.",
+        "name": "별꾹",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/kr/app/%EB%B3%84%EA%BE%B9/id6832807561?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 186,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 18,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
+    },
+    "google:com.fluiz.fluizgpt": {
+      "app_key": "google:com.fluiz.fluizgpt",
+      "name": "말하면척척",
+      "developer": "서울AI재단",
+      "source": "google",
+      "country": "KR",
+      "category": "app_productivity",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.fluiz.fluizgpt&hl=ko&gl=KR",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:46:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "말하면 척척은 작은 글씨를 읽기 어렵거나 손으로 스마트폰을 조작하기 힘든 고령자·장애인 등 디지털 취약계층을 위한 음성 앱 사용 도우미입니다. 복잡한 여러 단계의 화면 앞에서 막히셨던 분들이, 말씀만 하시면 화면을 읽어 드리고 요청하신 누르기·입력을 도와드려 주문·예매·공공서비스 같은 일상 작업을 스스로 완료할 수 있습니다. 📌 주요 기능 음성으로 부탁하기 \"손목닥터 포인트 확인해줘\"처럼 평소 쓰는 말로 요청하면, 무엇을 도와드릴지 알아듣습니다. 화면 읽어 드리기 지금 보고 계신 앱 화면의 글자와 버튼을 읽어 작업 진행 상태를 확인합니다. 누르기·입력 돕기 요청하신 작업을 미리 준비된 절차에 따라 한 단계씩 수행합니다. 버튼 누르기, 글자 입력, 화면 넘기기를 도와드리며, 진행 과정이 화면에 그대로 표시되고 언제든 중단할 수 있습니다. 지원 앱 서울시 공공앱(손목닥터9988, 서울동행맵, 장애인콜택시, 서울동행맵, 또타지하철 등)을 지원하며, 계속 늘려가고 있습니다. 👥 이런 분들께 도움이 됩니다 작은 글씨와 복잡한 화면 때문에 앱 사용이 어려운 고령층 사용자 저시력 등으로 화면을 읽기 어려운 사용자 손 떨림, 상지 장애 등으로 터치 조작이 불편한 사용자 🔔 접근성 서비스(AccessibilityService) 사용 고지 말하면 척척은 접근성 서비스(AccessibilityService API)를 사용하는 접근성 도구입니다. 사용 목적: 사용자가 음성으로 요청했을 때 화면의 글자·버튼을 읽고, 요청하신 버튼 누르기·스크롤·글자 입력을 수행합니다. 사용자가 요청할 때에만 동작합니다. 동작 방식: AI는 요청이 어떤 지원 작업인지 알아듣는 역할만 하며, 실제 화면 조작은 개발자가 사전에 작성하고 검증한 고정 절차(스크립트)에 따라 수행됩니다. 앱이 스스로 작업을 계획하거나 실행하지 않습니다. 수집·이용 정보: 요청 처리를 위해 음성 명령(글자로 변환된 내용), 화면 정보(화면에 보이는 글자와 화면 이미지), 설치된 앱 목록, 기기 정보가 암호화되어 서버로 전송되며, 요청 수행과 서비스 품질 개선에만 사용됩니다. 비수집·비사용: 비밀번호·결제정보 등 민감 정보를 수집·판매하지 않으며, 키 입력 모니터링 기능을 사용하지 않습니다. 광고·추적 목적의 데이터 활용이 없습니다. 동의와 제어: 접근성 권한은 앱 안에서 용도를 고지하고 동의를 받은 뒤에만 설정으로 안내하며, 설정 > 접근성에서 언제든 끌 수 있습니다. 🔒 개인정보 보호 로그인: 구글·카카오 간편 로그인 수집 항목: 연령대·성별·거주지역(통계 목적), 음성 명령 내용, 앱 화면 정보(글자·이미지), 설치된 앱 목록, 기기 정보, 실행 로그 보호 조치: 전송·저장 시 암호화하며, 개인정보처리방침에 따라 관리합니다. 🚀 앞으로 도와드릴 수 있는 앱과 작업을 계속 늘려갑니다. 공공서비스 앱에 이어 택시 호출·쇼핑·건강 관리 등 일상 앱까지, 디지털 문턱을 낮추는 방향으로 확장합니다. 말하면 척척은 서울AI재단과 함께하는 디지털 포용 프로젝트의 일환으로, 디지털이 어려운 분들도 스마트폰 서비스를 스스로 활용할 수 있도록 돕습니다. 📌 문의: fluiz.kaist@gmail.com 📌 개인정보처리방침: https://fluiz-kaist.notion.site/AI-273a1edee10180c5b665e56593a04d0a",
+      "analysis": {
+        "app_key": "google:com.fluiz.fluizgpt",
+        "summary_ko": "디지털 취약계층을 위해 음성 명령으로 스마트폰 앱 조작을 돕는 접근성 도구입니다. 사용자의 음성 요청을 분석하여 화면의 버튼을 누르거나 글자를 입력하는 등 일상적인 작업을 대신 수행합니다. 서울시 공공앱을 중심으로 지원하며 디지털 문턱을 낮추는 것을 목표로 합니다.",
+        "features_ko": [
+          "음성 명령을 통해 앱 내 특정 작업을 요청할 수 있습니다.",
+          "현재 화면의 글자와 버튼을 읽어 작업 진행 상태를 안내합니다.",
+          "사전에 정의된 절차에 따라 버튼 누르기, 입력, 화면 넘기기를 수행합니다.",
+          "접근성 서비스를 사용하여 사용자의 요청 시에만 동작합니다."
+        ],
+        "noteworthy_ko": "접근성 API를 활용하여 기존 앱의 UI를 제어하는 방식이 매우 독창적입니다. AI가 직접 조작하는 것이 아니라 검증된 스크립트를 실행함으로써 안전성을 확보한 점이 개발 관점에서 인상적입니다.",
+        "development_ko": "안드로이드 접근성 서비스(AccessibilityService)에 대한 깊은 이해가 필수적입니다. 화면 요소 추출 및 스크립트 기반의 자동화 로직 구현이 핵심이며, 다양한 앱 환경에서의 예외 처리가 중요합니다.",
+        "idea_ko": "특정 앱이 아닌, 사용자가 자주 사용하는 웹사이트의 특정 기능을 음성으로 호출하는 개인화된 자동화 도구가 적합합니다.",
+        "highlights_ko": [
+          "접근성 API를 활용한 사용자 보조 기능 제공.",
+          "안전한 스크립트 실행 방식을 통한 자동화 구현."
+        ],
+        "systems_ko": [
+          "접근성 서비스 연동",
+          "음성 인식 및 자연어 처리",
+          "UI 요소 탐색 및 제어",
+          "작업 스크립트 관리",
+          "사용자 권한 관리"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "접근성 서비스는 운영체제의 깊은 권한을 다루며, 다양한 앱의 UI 구조를 분석하고 안정적으로 제어하는 것은 매우 높은 기술적 난이도를 요구합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "접근성 서비스 권한 획득",
+            "화면 텍스트 읽기 기능",
+            "특정 버튼 클릭 자동화"
+          ],
+          "defer": [
+            "복잡한 자연어 처리",
+            "다양한 앱 지원 확장"
+          ],
+          "risks": [
+            "운영체제 업데이트에 따른 접근성 정책 변경",
+            "앱마다 다른 UI 구조로 인한 호환성 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "음성 알람 설정 도우미",
+            "concept": "복잡한 시계 앱 대신 음성으로 알람 시간과 요일을 설정해주는 도구입니다. 고령자도 쉽게 알람을 관리할 수 있습니다.",
+            "first_step": "시스템 알람 앱의 특정 버튼 ID를 찾아 클릭하는 간단한 스크립트 작성."
+          },
+          {
+            "title": "음성 텍스트 복사기",
+            "concept": "복사가 불가능한 앱 화면의 텍스트를 음성 명령으로 추출하여 클립보드에 저장합니다.",
+            "first_step": "화면의 텍스트 노드를 탐색하여 텍스트를 추출하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "안드로이드 시스템의 깊은 기능과 접근성 API를 학습하고 싶은 개발자에게 추천합니다. 다만, 보안과 권한 관리가 매우 엄격하므로 신중한 접근이 필요합니다.",
+        "source_limitations_ko": "지원하는 모든 앱의 상세 목록이나 스크립트 구현 방식은 확인되지 않습니다. 서버와 통신하는 데이터의 구체적인 암호화 방식이나 개인정보 처리의 상세 로직은 알 수 없습니다.",
+        "name": "말하면척척",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.fluiz.fluizgpt&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
+    },
+    "apple:561930308": {
+      "app_key": "apple:561930308",
+      "name": "Ulta Beauty: Makeup & Skincare",
+      "developer": "Ulta Salon, Cosmetics & Fragrance, Inc",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/ulta-beauty-makeup-skincare/id561930308",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:47:01+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Download the Ulta Beauty app today and get everything you love about Ulta Beauty right at your fingertips. Track your Ulta Beauty Rewards™ points progress, activate membership and app-exclusive offers and redeem points anywhere, anytime. Discover the updated GLAMlab® for virtual try-on, Foundation Shade Matcher to find your perfect shade and Skin Analysis for a customized skin care recommendation. • Shop by category and filter by brand, price, rating, bestsellers & new arrivals. Discover brands you’ll find exclusively at Ulta Beauty and celebrate, amplify and support underrepresented voices in the beauty industry. • Discover Conscious Beauty at Ulta Beauty®—choices for you and for your world. Shop the brands that share your values with our five pillars: Clean Ingredients, Vegan, Cruelty Free, Sustainable Packaging and Give Back. • Book a beauty service at The Salon™ at Ulta Beauty. Choose from hair services, waxing & brows, makeup & lashes, skin services and ear piercing. • Opt in for push notifications and be the first to know about app-exclusive offers, upcoming events at your local Ulta Beauty and more.",
+      "analysis": {
+        "app_key": "apple:561930308",
+        "summary_ko": "Ulta Beauty 앱은 화장품 및 스킨케어 제품을 쇼핑하고 뷰티 서비스를 예약할 수 있는 종합 뷰티 플랫폼입니다. 사용자는 가상 메이크업 체험, 피부 분석, 파운데이션 색상 매칭 등 개인화된 뷰티 도구를 활용할 수 있습니다. 또한 멤버십 포인트 관리와 앱 전용 혜택을 통해 쇼핑 경험을 최적화합니다.",
+        "features_ko": [
+          "GLAMlab을 통해 가상으로 메이크업 제품을 체험할 수 있습니다.",
+          "파운데이션 셰이드 매처 기능으로 본인에게 맞는 색상을 찾을 수 있습니다.",
+          "피부 분석 도구를 통해 개인 맞춤형 스킨케어 제품을 추천받습니다.",
+          "카테고리, 브랜드, 가격, 평점별로 제품을 필터링하여 쇼핑할 수 있습니다.",
+          "살롱 서비스를 앱 내에서 직접 예약할 수 있습니다.",
+          "푸시 알림을 통해 앱 전용 할인 및 지역 이벤트 정보를 수신합니다."
+        ],
+        "noteworthy_ko": "가상 체험(AR)과 피부 분석 등 기술적 요소를 커머스와 결합하여 사용자 경험을 고도화한 점이 흥미롭습니다. 이는 단순 쇼핑몰을 넘어 뷰티 컨설팅 도구로서의 가치를 제공하려는 전략으로 추정됩니다.",
+        "development_ko": "핵심 기술로는 AR 기반의 가상 메이크업 엔진과 이미지 분석 알고리즘이 필요합니다. 대규모 상품 데이터베이스 관리와 실시간 재고 연동 시스템이 구축되어야 하며, 사용자 개인화 추천을 위한 데이터 분석 파이프라인이 중요합니다.",
+        "idea_ko": "사용자의 피부 톤을 사진으로 분석하여 어울리는 색조 제품을 추천해주는 '퍼스널 컬러 진단 도구'를 제안합니다.",
+        "highlights_ko": [
+          "가상 메이크업 및 피부 분석 등 인터랙티브한 뷰티 도구를 제공합니다.",
+          "클린 뷰티, 비건 등 가치 소비를 지향하는 브랜드 필터 기능을 갖추고 있습니다."
+        ],
+        "systems_ko": [
+          "상품 데이터베이스 및 필터링 시스템",
+          "AR 가상 체험 엔진",
+          "사용자 멤버십 및 포인트 관리 시스템",
+          "예약 관리 시스템",
+          "개인화 추천 알고리즘"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "AR 가상 체험과 같은 고도화된 기술 구현과 대규모 커머스 백엔드 구축은 1인 개발자가 단기간에 완성하기 매우 어렵습니다. 특히 정확한 피부 분석 알고리즘은 전문적인 데이터셋과 기술력이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 카테고리별 목록 및 상세 페이지",
+            "사용자 계정 및 즐겨찾기 기능",
+            "기본적인 상품 검색 및 필터링"
+          ],
+          "defer": [
+            "AR 가상 메이크업 체험",
+            "실시간 피부 분석 AI",
+            "살롱 예약 시스템"
+          ],
+          "risks": [
+            "상품 데이터 관리의 복잡성",
+            "결제 및 보안 관련 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "나만의 화장품 파우치 기록장",
+            "concept": "사용자가 보유한 화장품을 기록하고 유통기한을 관리하는 앱입니다. 제품 바코드를 스캔하여 정보를 불러오고 만료일 알림을 제공합니다.",
+            "first_step": "제품명과 유통기한을 입력하고 리스트로 보여주는 기본 CRUD 앱 구현."
+          },
+          {
+            "title": "데일리 뷰티 루틴 트래커",
+            "concept": "매일 사용하는 스킨케어 순서와 제품을 기록하고 피부 상태 변화를 사진으로 남기는 앱입니다. 루틴을 수행했는지 체크리스트로 관리합니다.",
+            "first_step": "날짜별 루틴 체크리스트와 사진 업로드 기능 구현."
+          }
+        ],
+        "recommendation_ko": "커머스 앱의 기본적인 UI/UX 구조와 필터링 시스템을 학습하기에 좋습니다. 다만, 복잡한 AR 기능은 전문 라이브러리 없이 구현하기 어려우므로 기초적인 쇼핑몰 기능부터 시작하는 것을 추천합니다.",
+        "source_limitations_ko": "소개문에는 결제 시스템의 상세 구현 방식이나 외부 API 연동 여부가 명시되어 있지 않습니다. 또한 피부 분석 알고리즘의 구체적인 작동 원리나 데이터 처리 방식은 확인되지 않습니다.",
+        "name": "Ulta Beauty: Makeup & Skincare",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/ulta-beauty-makeup-skincare/id561930308",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 55,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
+    },
+    "google:com.beekgames.freshtoday": {
+      "app_key": "google:com.beekgames.freshtoday",
+      "name": "Fresh Today: ほのぼのスーパー",
+      "developer": "Beek Game Studio",
+      "source": "google",
+      "country": "JP",
+      "category": "game_simulation",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.beekgames.freshtoday&hl=ja&gl=JP",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:47:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Fresh Todayへようこそ！ここは町でいちばんかわいい小さなスーパーです。 毎朝シャッターを開けて、自分のペースで街角のお店を切り盛りしましょう。問屋から新鮮な商品を仕入れ、段ボールを開けて、商品をひとつずつ棚に並べます。お客さんが来たら、レジでかごの商品をスキャンして、袋に詰めて、おつりを数えましょう。 🛒 棚はぜんぶ手作業で パスタ、お米、くだもの、牛乳、お菓子などなど。棚を長押しすると、商品がひとつずつきれいに並んでいきます。 💳 本物みたいなレジ タップで商品をスキャンして、ていねいに袋詰め（重いものが先、卵は最後！）。カードでも現金でもOK、おつりもしっかり数えます。 🐱 パムクに会おう お店のねこは戸棚の上でお昼寝したり、おやつをおねだりしたり、ときにはカウンターの上で寝てしまうことも。 🏪 夢のお店をデザイン 棚を動かしたり、冷蔵庫やフルーツ台を買ったり、壁を塗ったり、季節ごとに飾りつけを楽しめます。 🧸 お店を大きくしよう ライセンスをひとつずつ手に入れて新しい売り場を開き、さらにおもちゃ屋さん、カフェ、ホームコーナーの新しいフロアもオープン！ 🌸 にぎやかな小さな通り ご近所さんがお散歩し、常連さんがお気に入りを買いに来て、通り全体が季節とともに移り変わります。 のんびり、ほっこり、短い時間でも楽しく遊べます。せかすタイマーはありません。あなたとお店と、一杯のお茶だけ。",
+      "analysis": {
+        "app_key": "google:com.beekgames.freshtoday",
+        "summary_ko": "Fresh Today는 작은 슈퍼마켓을 운영하며 상품을 진열하고 손님을 응대하는 힐링 시뮬레이션 게임입니다. 플레이어는 매일 아침 가게 문을 열고 상품을 직접 진열하며, 레지에서 계산을 돕는 등 소소한 일상을 경험합니다. 시간에 쫓기지 않고 자신만의 속도로 가게를 꾸미고 확장해 나가는 것이 핵심입니다.",
+        "features_ko": [
+          "상품을 하나씩 선택하여 진열대에 정성스럽게 배치하는 수동 진열 시스템을 제공합니다.",
+          "손님이 가져온 상품을 스캔하고, 무게와 종류에 따라 봉투에 담으며 거스름돈을 계산하는 레지 업무를 수행합니다.",
+          "가게 내 가구 배치 변경, 벽면 도색, 계절별 장식 등을 통해 나만의 매장을 디자인할 수 있습니다.",
+          "라이선스를 획득하여 새로운 매장 구역을 열고 장난감 가게나 카페 등으로 확장할 수 있습니다.",
+          "가게에 상주하는 고양이와 상호작용하며 소소한 즐거움을 느낄 수 있습니다."
+        ],
+        "noteworthy_ko": "단순한 경영 시뮬레이션을 넘어 '수동 진열'과 '봉투 담기' 같은 물리적 상호작용을 강조한 점이 흥미롭습니다. 이는 플레이어에게 노동의 과정을 놀이로 치환하여 정서적 만족감을 주려는 의도로 추정됩니다.",
+        "development_ko": "핵심 기술로는 객체 배치 시스템과 인벤토리 관리, 그리고 간단한 물리 연산이 필요합니다. 콘텐츠 제작 측면에서는 다양한 상품 모델링과 매장 꾸미기 에셋이 지속적으로 요구됩니다. 밸런스 측면에서는 매장 확장 속도와 재화 획득량의 조절이 중요합니다.",
+        "idea_ko": "가게의 특정 시간대에만 방문하는 단골손님의 취향을 기억하고 맞춤형 상품을 추천하는 '단골 관리 시스템'을 구현하는 것이 좋습니다.",
+        "highlights_ko": [
+          "시간 제한이 없는 평화로운 게임 플레이 환경을 제공합니다.",
+          "계절에 따라 변화하는 거리 풍경과 단골손님들의 소소한 일상을 담아냈습니다."
+        ],
+        "systems_ko": [
+          "그리드 기반 배치 시스템",
+          "상품 데이터베이스 및 인벤토리 관리",
+          "레지 계산 및 물리 기반 봉투 담기 로직",
+          "상점 확장 및 커스터마이징 데이터 관리",
+          "NPC 행동 패턴 및 상호작용 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "다양한 상호작용 요소와 매장 확장 시스템을 구현해야 하므로 기초적인 시뮬레이션 로직보다 복잡도가 높습니다. 특히 UI/UX와 물리적 상호작용의 조화가 중요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 진열 및 판매 로직",
+            "기본 레지 계산 시스템",
+            "가게 확장 및 가구 배치 기능"
+          ],
+          "defer": [
+            "계절별 이벤트 시스템",
+            "고양이 AI 상호작용 고도화"
+          ],
+          "risks": [
+            "많은 수의 상품 에셋 관리 부담",
+            "UI 복잡도 증가로 인한 조작성 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "단골손님 맞춤 추천",
+            "concept": "손님마다 선호하는 상품 데이터를 저장하여, 특정 손님이 방문했을 때 추천 상품을 제시하면 보너스를 얻는 시스템입니다.",
+            "first_step": "손님 ID와 선호 상품 리스트를 매칭하는 간단한 데이터 구조를 설계합니다."
+          },
+          {
+            "title": "재고 관리 미니게임",
+            "concept": "창고에서 상품을 가져올 때 테트리스처럼 박스를 효율적으로 쌓아야 하는 미니게임을 추가합니다.",
+            "first_step": "박스 크기와 창고 공간을 정의한 2D 그리드 프로토타입을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "개인 개발자에게는 특정 장르의 핵심 루프를 정교하게 다듬는 법을 배우기에 적합합니다. 특히 '수동 조작'이 주는 재미를 어떻게 극대화할지 고민해보기 좋습니다.",
+        "source_limitations_ko": "소개문에는 구체적인 경제 시스템의 밸런스, 데이터 저장 방식, 외부 API 연동 여부 등이 명시되어 있지 않습니다. 실제 게임 내의 재화 획득 방식이나 확장 콘텐츠의 구체적인 수치는 확인이 불가능합니다.",
+        "name": "Fresh Today: ほのぼのスーパー",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.beekgames.freshtoday&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 87,
+        "reasons": [],
+        "best_rank": 6,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
+    },
+    "itch:da146c96963c06ae3898": {
+      "app_key": "itch:da146c96963c06ae3898",
+      "name": "Incremental RTS [Free] [Strategy] [Windows] [macOS]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "",
+      "detail_url": "https://i-am-happy-to-see-you.itch.io/incremental-rts",
+      "data_date": "2026-11-27",
+      "analysed_at": "2026-11-28T08:47:49+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Fast-paced incremental RTS. Build. Upgrade. Watch them fight",
+      "analysis": {
+        "app_key": "itch:da146c96963c06ae3898",
+        "summary_ko": "Incremental RTS는 유닛을 생산하고 업그레이드하며 전투를 지켜보는 빠른 속도의 전략 게임입니다. 플레이어는 자원을 관리하고 유닛을 강화하여 적과 싸우는 과정을 자동화된 흐름 속에서 즐길 수 있습니다. 복잡한 조작보다는 성장에 집중하는 점진적 게임 구조를 가지고 있습니다.",
+        "features_ko": [
+          "유닛을 생산하고 배치하여 자동으로 전투가 진행되는 RTS 메커니즘을 제공합니다.",
+          "자원을 획득하여 유닛의 능력치를 업그레이드하는 점진적 성장 요소를 포함합니다.",
+          "빠른 게임 속도를 통해 짧은 시간 내에 성장의 재미를 느낄 수 있습니다."
+        ],
+        "noteworthy_ko": "RTS의 복잡한 조작을 제거하고 '점진적(Incremental)' 요소와 결합한 점이 독특합니다. 전략 게임의 핵심인 '성장과 전투'에만 집중하여 1인 개발자가 구현하기에 효율적인 구조입니다.",
+        "development_ko": "유닛의 AI와 전투 판정 로직이 핵심이며, 다수의 객체를 효율적으로 처리하는 최적화가 필요합니다. 점진적 게임 특성상 수치 밸런스 설계가 매우 중요하며, UI는 생산과 업그레이드에 집중되어야 합니다.",
+        "idea_ko": "전투 결과에 따라 유닛의 외형이 변화하거나 특수 스킬이 해금되는 '유닛 진화 시스템'을 도입하는 것이 좋습니다.",
+        "highlights_ko": [
+          "복잡한 컨트롤 없이 전략적 성장에 집중할 수 있는 게임 구조입니다.",
+          "빠른 템포의 전투와 업그레이드 루프를 제공합니다."
+        ],
+        "systems_ko": [
+          "유닛 생산 및 관리 시스템",
+          "전투 판정 및 AI 로직",
+          "자원 획득 및 업그레이드 데이터 관리",
+          "게임 상태 및 루프 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "RTS의 기본 전투 로직과 점진적 게임의 수치 밸런스를 동시에 고려해야 하므로 기획 단계에서 세심한 설계가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 유닛 생산 및 전투 로직",
+            "자원 획득 및 업그레이드 시스템"
+          ],
+          "defer": [
+            "복잡한 유닛 상성 시스템",
+            "멀티플레이어 기능"
+          ],
+          "risks": [
+            "전투 밸런스 붕괴",
+            "유닛 수 증가에 따른 성능 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "유닛 진화 트리",
+            "concept": "특정 전투 횟수를 달성하면 유닛이 더 강력한 형태로 진화하는 시스템입니다.",
+            "first_step": "유닛의 레벨과 진화 조건을 정의하는 데이터 구조를 만듭니다."
+          },
+          {
+            "title": "자동 자원 채집기",
+            "concept": "전투 외에도 자원을 자동으로 생산하는 건물을 배치하여 전략적 선택지를 늘립니다.",
+            "first_step": "시간당 자원 증가 로직을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "전략 게임의 기본 메커니즘과 점진적 게임의 밸런스 설계를 동시에 배우고 싶은 개발자에게 추천합니다. 단순한 시스템으로도 깊이 있는 성장의 재미를 만드는 법을 익힐 수 있습니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 유닛의 종류, 전투 방식, 자원 획득 메커니즘 등 세부 사항을 확인할 수 없습니다. 게임의 플랫폼별 최적화 방식이나 구체적인 업그레이드 항목은 알 수 없습니다.",
+        "name": "Incremental RTS [Free] [Strategy] [Windows] [macOS]",
+        "source": "itch",
+        "detail_url": "https://i-am-happy-to-see-you.itch.io/incremental-rts",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 60,
+        "reasons": [
+          "previously_observed"
+        ],
+        "best_rank": 10000,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
     }
   }
 }

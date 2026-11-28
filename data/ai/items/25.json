@@ -16949,6 +16949,186 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-27"
+    },
+    "apple:6790776425": {
+      "app_key": "apple:6790776425",
+      "name": "BRAVE FRONTIER LEGION",
+      "developer": "ALPSE PTE, LTE.",
+      "source": "apple",
+      "country": "US",
+      "category": "game_rpg",
+      "detail_url": "https://apps.apple.com/us/app/brave-frontier-legion/id6790776425?uo=2",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:43:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "oin Legion Battles to get up to 1,000 Summons!! That power is the ancient art of Summoning. One who awakens the slumbering souls of heroes and gods from otherworldly realms—the \"Summoner\". Inheriting that power, you step into the epic world of \"BRAVE FRONTIER LEGION\". Command countless Units, forge the ultimate Legion, and dive into epic battles in this co-op competitive RPG—beginning now. ◆ Encounters with Units, and a Tale Walked Together Units, each with unique personalities and abilities, will answer your call. The more you train them, the more their power grows, undergoing Evolution into ever more striking and majestic forms. Building your dream Lineup with your favorite Units is an adventure all its own. Whether you're a longtime fan of the series or stepping into this world for the very first time, an enthralling story that everyone can lose themselves in begins right here. ◆Ultra-Flashy Battles at Your Fingertips Simple controls, fast-paced battles. Thrilling Skill animations and your Units' graceful movements bring the battlefield to life. One of the greatest charms of this world is being able to pick up your adventure anytime, anywhere, whenever you have a moment in your day. ◆Take on Legion Battles with Bonds and Tactics! Co-op Battles featuring clashes of up to 10 vs 10 players. Teamwork with your allies, clever strategies, and split-second decisions will lead you to victory. Connect through chat and stickers, and aim for the top together! ◆ Another tale woven alongside your allies Strategize with your Legionmates, unite your strength to take on challenges, and share laughs over casual chat— It's these everyday moments that expand our world and give it greater depth. The stories you weave with the allies you meet in \"BRAVE FRONTIER LEGION\" are sure to add vibrant new color to your adventure.",
+      "analysis": {
+        "app_key": "apple:6790776425",
+        "summary_ko": "BRAVE FRONTIER LEGION은 영웅과 신을 소환하여 팀을 구성하고 전투를 펼치는 협동 경쟁 RPG입니다. 다양한 유닛을 수집하고 훈련시켜 강력한 군단을 구축하는 것이 목표입니다. 10대 10 협동 전투와 실시간 전략을 통해 다른 플레이어와 경쟁할 수 있습니다.",
+        "features_ko": [
+          "다양한 유닛을 소환하고 훈련시켜 진화시키는 수집형 RPG 시스템을 제공합니다.",
+          "간단한 조작으로 화려한 스킬 애니메이션과 빠른 전투를 즐길 수 있습니다.",
+          "최대 10대 10 규모의 협동 전투를 통해 전략적인 팀워크를 강조합니다.",
+          "채팅과 스티커 기능을 통해 군단원들과 소통하며 전략을 공유할 수 있습니다."
+        ],
+        "noteworthy_ko": "수집형 RPG와 대규모 협동 전투를 결합한 구조가 흥미롭습니다. 특히 10대 10 실시간 전투는 서버 동기화와 네트워크 최적화가 필수적인 고난도 구현 영역으로 추정됩니다.",
+        "development_ko": "서버-클라이언트 동기화 기술과 대규모 데이터베이스 관리가 핵심입니다. 유닛 진화 시스템과 같은 복잡한 데이터 구조 설계가 필요하며, 밸런스 조정은 유닛 간 상성과 스킬 효과를 정교하게 설계해야 합니다.",
+        "idea_ko": "소환된 유닛들이 전투 외에 마을을 건설하거나 자원을 생산하는 경영 시뮬레이션 요소를 결합하면 게임의 깊이를 더할 수 있습니다.",
+        "highlights_ko": [
+          "10대 10 실시간 협동 전투 시스템.",
+          "유닛 수집 및 진화 기반의 성장 체계."
+        ],
+        "systems_ko": [
+          "유닛 데이터베이스 및 인벤토리 관리",
+          "실시간 네트워크 동기화(멀티플레이어)",
+          "전투 로직 및 스킬 애니메이션 엔진",
+          "채팅 및 커뮤니티 시스템",
+          "매치메이킹 및 랭킹 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "대규모 멀티플레이어 전투와 복잡한 유닛 성장 시스템은 1인 개발자가 구현하기에 매우 방대하며, 서버 인프라 구축과 네트워크 최적화가 큰 장벽입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "유닛 소환 및 기본 전투 로직",
+            "유닛 성장 및 진화 시스템",
+            "기본적인 UI/UX"
+          ],
+          "defer": [
+            "10대 10 실시간 멀티플레이어 전투",
+            "복잡한 길드 및 커뮤니티 기능"
+          ],
+          "risks": [
+            "서버 비용 및 네트워크 지연 문제",
+            "방대한 콘텐츠 제작에 따른 개발 기간 지연"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "유닛 원정대",
+            "concept": "전투 대신 유닛을 탐험에 보내 자원을 수집하는 비동기식 RPG입니다. 유닛의 능력치에 따라 탐험 성공률이 달라집니다.",
+            "first_step": "유닛 능력치와 탐험 시간, 보상을 계산하는 로직을 구현합니다."
+          },
+          {
+            "title": "전략 카드 배틀",
+            "concept": "유닛을 소환하는 대신 카드를 사용하여 전술을 펼치는 카드 게임입니다. 턴제 방식으로 진행되어 실시간 네트워크 부담을 줄입니다.",
+            "first_step": "카드 덱 구성과 턴제 전투 시스템을 프로토타입으로 제작합니다."
+          }
+        ],
+        "recommendation_ko": "대규모 RPG의 구조를 분석하고 싶은 개발자에게 추천합니다. 다만, 1인 개발 시에는 멀티플레이어 요소를 제외한 싱글 플레이 중심의 시스템부터 설계하는 것이 현실적입니다.",
+        "source_limitations_ko": "소개문에는 구체적인 과금 모델, 서버 아키텍처, 보안 정책, 외부 서비스 연동 여부 등이 명시되어 있지 않습니다.",
+        "name": "BRAVE FRONTIER LEGION",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/brave-frontier-legion/id6790776425?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 280,
+        "reasons": [
+          "newly_seen",
+          "overseas_interest"
+        ],
+        "best_rank": 1,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
+    },
+    "apple:478126039": {
+      "app_key": "apple:478126039",
+      "name": "Giftster: The Family Wish List",
+      "developer": "MyGiftster Corporation",
+      "source": "apple",
+      "country": "US",
+      "category": "app_lifestyle",
+      "detail_url": "https://apps.apple.com/us/app/giftster-the-family-wish-list/id478126039?uo=2",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:45:52+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Turn scattered gifting chaos into a magical family tradition. Giftster is the original family wish list app: free, private, and trusted by 4 million members since 2009. No more guessing, returns, or gifts nobody wanted. Everyone knows what people really want and can see what's already been claimed. Create and share wish lists, add gifts from any store, and keep your whole family organized in one private group. Set it up once and use it year after year for birthdays, Christmas, weddings, baby showers, and every occasion in between. NO DUPLICATE GIFTS. NO SPOILED SURPRISES. When you shop someone's Giftster list, mark an item as reserved or purchased so other family members know it's taken. The person who made the list never sees what's been claimed. ADD GIFTS FROM ANY STORE Giftster is a universal wish list. Add items from any store or website and include the details that make it easy for someone to get exactly what you want. - Automatically fetch item details from web links - Add notes, images, sizes, colors, and other preferences - Share lists with your group, or by link or QR code BUILT FOR FAMILIES Create a private Giftster group and bring every wish list maker's lists together in one place. - Shop lists for family and close friends - Create and manage lists for children - Collaborate on a child's list - Secretly suggest gifts for someone else's list - Track gifts you've purchased or received Giftster works on phones, tablets, and computers, so everyone in the family can join, no matter what device they use. SECRET SANTA MADE EASY Add a Secret Santa drawing to your Giftster group. Set exclusions, privately reveal each person's pick, and keep the entire drawing secret, even from the organizer. USE IT YEAR AFTER YEAR Giftster isn't a one-time registry. Set up your family group once, and your lists are ready for every birthday, holiday, Christmas, and special occasion, year after year. Less anxiety. Less guessing. Fewer returns. More gifts people genuinely want, and the surprise stays a surprise.",
+      "analysis": {
+        "app_key": "apple:478126039",
+        "summary_ko": "가족 및 친구들과 함께 위시리스트를 공유하고 관리하는 서비스입니다. 선물을 예약하거나 구매 표시를 하여 중복 선물을 방지합니다. 생일, 결혼식 등 다양한 기념일에 맞춰 지속적으로 사용할 수 있습니다.",
+        "features_ko": [
+          "웹 링크를 통해 아이템 정보를 자동으로 가져옵니다.",
+          "선물 예약 및 구매 표시 기능을 통해 중복 선물을 방지합니다.",
+          "가족 그룹을 생성하여 위시리스트를 한곳에서 관리합니다.",
+          "비밀 산타 추첨 기능을 통해 익명 선물 교환을 지원합니다.",
+          "QR 코드나 링크를 통해 리스트를 쉽게 공유할 수 있습니다."
+        ],
+        "noteworthy_ko": "사용자 간의 데이터 동기화와 상태 관리가 핵심인 서비스입니다. 선물 예약 상태가 리스트 작성자에게는 보이지 않게 하는 프라이버시 설계가 흥미롭습니다.",
+        "development_ko": "웹 크롤링을 통한 정보 추출 기술과 실시간 데이터 동기화가 핵심입니다. 사용자 그룹 관리와 권한 설정이 중요하며, 다양한 기기에서의 일관된 UI/UX 제공이 필요합니다.",
+        "idea_ko": "특정 예산 범위 내에서 선물을 추천해 주는 AI 큐레이션 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "중복 선물 방지를 위한 예약 시스템이 잘 갖춰져 있습니다.",
+          "다양한 기념일에 반복적으로 사용할 수 있는 범용성을 가집니다."
+        ],
+        "systems_ko": [
+          "사용자 인증 및 그룹 관리",
+          "데이터베이스 기반 위시리스트 관리",
+          "웹 크롤링 및 데이터 파싱",
+          "상태 동기화 및 알림 시스템",
+          "권한 제어 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "데이터 관리와 동기화는 표준적인 웹/앱 개발 기술로 구현 가능하지만, 사용자 간의 복잡한 권한 설정과 보안이 중요하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "위시리스트 생성 및 조회",
+            "선물 예약 상태 표시",
+            "그룹 공유 기능"
+          ],
+          "defer": [
+            "웹 크롤링 자동화",
+            "비밀 산타 추첨 알고리즘"
+          ],
+          "risks": [
+            "데이터 동기화 오류",
+            "사용자 간 권한 설정의 복잡성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "예산 기반 선물 추천",
+            "concept": "사용자의 예산에 맞춰 위시리스트 내 아이템을 추천해 주는 기능입니다.",
+            "first_step": "아이템 가격 데이터 필드를 추가하고 필터링 로직을 구현합니다."
+          },
+          {
+            "title": "기념일 알림 캘린더",
+            "concept": "위시리스트와 연동된 기념일 알림을 제공하는 캘린더입니다.",
+            "first_step": "날짜 데이터와 알림 시스템을 연동합니다."
+          }
+        ],
+        "recommendation_ko": "데이터베이스 설계와 사용자 권한 관리를 배우기에 좋습니다. 실생활 문제를 해결하는 유틸리티 앱 개발을 원하는 분께 추천합니다.",
+        "source_limitations_ko": "서버 인프라, 데이터 보안 정책, 외부 웹사이트 크롤링 시의 법적/기술적 제한 사항은 소개문에서 확인할 수 없습니다.",
+        "name": "Giftster: The Family Wish List",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/giftster-the-family-wish-list/id478126039?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
     }
   }
 }

@@ -13533,6 +13533,366 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-27"
+    },
+    "google:qrcode.barcodescan.aiscan": {
+      "app_key": "google:qrcode.barcodescan.aiscan",
+      "name": "QRコードリーダー、バーコードスキャナー",
+      "developer": "Techverse LTD",
+      "source": "google",
+      "country": "JP",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=qrcode.barcodescan.aiscan&hl=ja&gl=JP",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:44:00+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "💯オールインワン: QRコードリーダー、バーコードスキャナー QRコードリーダー、バーコードスキャナー は、ただのQRコードリーダーではありません。Androidユーザーのために設計された、強力なオールインワンスキャニングアプリです。QRコード、バーコード、商品ラベルなど、あらゆるスキャンニーズをこのアプリひとつで解決できます。 ⚡高速かつ正確なスキャン スマートスキャナー機能により、さまざまなQRコードやバーコードを瞬時に読み取ります。QRコードリーダー、バーコードスキャナー なら、常に迅速かつ正確な結果が得られます。 🛍️商品用バーコードリーダー スマートショッピングアシスタントとして、スマホを活用しましょう。商品バーコードをスキャンして詳細を確認し、価格を比較し、正規品かどうかをチェックできます。購入前に安心して情報を入手できます。 👌すべてのQRデータに対応 このアプリは、URL、連絡先情報、テキスト、メール、電話番号、カレンダーイベント、さらには暗号化されたコードなど、あらゆるQRコンテンツに対応しています。 📸カメラと写真からのスキャン すべてのコードが印刷されているとは限りません。雑誌、PC画面、電子書籍、またはギャラリーに保存された画像からスキャンする必要がある場合もあります。QRコードリーダー、バーコードスキャナー は、カメラでのライブスキャンにも保存画像にも完璧に対応します。 ✨QRコード作成機能 ウェブサイトリンク、連絡先、Wi-Fiネットワーク、テキスト、イベントなど、必要な情報から簡単にオリジナルQRコードを作成できます。作成したQRコードは、保存や共有もワンタップで可能です。 シンプルで使いやすい 🔺 クリーンなインターフェースと直感的な操作性 🔺 QRコードリーダー、バーコードスキャナー は誰でも簡単に使える 🔺 アプリを開き、カメラを向けるだけで完了 ✅ QRコードをスキャンする方法 📌スキャンするには: ✔ アプリを開いて「Scan」をタップ ✔ QRコードやバーコードにカメラを向ける（またはギャラリーから選択） ✔ 結果がすぐに表示されます 📌QRコードを作成するには: ✔ 「Create」をタップ ✔ テキスト、リンク、連絡先、Wi-Fi情報を入力 ✔ すぐにQRコードを保存または共有 QRコードリーダー、バーコードスキャナーでできること 🔹 食品ラベル、衣類タグ、家電製品のスキャン 🔹 チケットやクーポンの確認 🔹 ビジネス情報をカスタムQRコードで共有 🚀 今すぐ QRコードリーダー、バーコードスキャナー をダウンロードして、便利な機能をすべて体験しましょう。スキャンがこれまで以上に簡単に！ 💌 アプリを気に入っていただけたら、ぜひ ⭐⭐⭐⭐⭐ の評価とレビューでサポートしてください。あなたのフィードバックは、私たちの改善に大きく役立ちます。",
+      "analysis": {
+        "app_key": "google:qrcode.barcodescan.aiscan",
+        "summary_ko": "이 앱은 QR 코드와 바코드를 스캔하고 생성할 수 있는 올인원 도구입니다. 카메라를 통한 실시간 스캔뿐만 아니라 갤러리에 저장된 이미지에서도 코드를 읽어낼 수 있습니다. 또한 다양한 정보를 담은 QR 코드를 직접 생성하여 공유하는 기능을 제공합니다.",
+        "features_ko": [
+          "카메라를 사용하여 QR 코드와 바코드를 즉시 스캔합니다.",
+          "갤러리에 저장된 이미지 파일에서 코드를 인식합니다.",
+          "URL, 연락처, Wi-Fi 정보 등을 포함한 QR 코드를 생성합니다.",
+          "스캔한 상품 바코드를 통해 상세 정보를 확인하고 가격을 비교합니다.",
+          "생성된 QR 코드를 원탭으로 저장하거나 공유할 수 있습니다."
+        ],
+        "noteworthy_ko": "스캔과 생성을 하나의 앱에서 처리하여 사용자 편의성을 높인 점이 특징입니다. 이미지 인식 기술을 활용해 실물 코드뿐만 아니라 디지털 이미지까지 대응하는 점은 실용적인 개발 접근 방식입니다.",
+        "development_ko": "카메라 라이브러리(예: CameraX)와 바코드 인식 라이브러리(예: ML Kit)를 활용하는 것이 핵심입니다. 이미지 처리 성능 최적화와 다양한 바코드 포맷 지원이 중요하며, 직관적인 UI/UX 구현이 필수적입니다. 데이터 생성 시 각 포맷별 규격에 맞는 인코딩 로직을 구현해야 합니다.",
+        "idea_ko": "스캔한 바코드의 가격 정보를 기록하여 나만의 장바구니 리스트를 만들고 예산을 관리하는 기능.",
+        "highlights_ko": [
+          "실시간 카메라 스캔과 이미지 파일 스캔을 모두 지원하는 유연성.",
+          "스캔부터 생성까지 아우르는 통합 스캐닝 도구."
+        ],
+        "systems_ko": [
+          "카메라 제어 및 이미지 캡처 시스템",
+          "바코드/QR 인식 엔진",
+          "데이터 인코딩 및 QR 생성기",
+          "스캔 기록 관리 데이터베이스",
+          "UI/UX 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "Google ML Kit과 같은 강력한 오픈소스 라이브러리를 활용하면 구현 자체는 어렵지 않으나, 다양한 환경에서의 인식률을 높이는 최적화 과정이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카메라 스캔 기능",
+            "QR 코드 생성 기능",
+            "결과 표시 화면"
+          ],
+          "defer": [
+            "가격 비교 서비스 연동",
+            "갤러리 이미지 스캔 기능"
+          ],
+          "risks": [
+            "다양한 기기 카메라 호환성 문제",
+            "인식 속도 및 정확도 저하"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "개인 물품 관리 스캐너",
+            "concept": "집안 물건의 바코드를 스캔하여 보관 위치와 구매 날짜를 기록하는 개인 자산 관리 도구.",
+            "first_step": "바코드 번호를 키값으로 하여 텍스트 정보를 저장하는 로컬 DB 구현."
+          },
+          {
+            "title": "방문객 QR 출입증",
+            "concept": "개인 연락처 정보를 담은 QR 코드를 생성하여 명함 대신 간편하게 공유하는 도구.",
+            "first_step": "연락처 데이터를 vCard 형식으로 인코딩하여 QR 코드로 변환하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "카메라 API와 이미지 처리 라이브러리 활용법을 익히기에 매우 좋은 프로젝트입니다. 실생활에 유용한 도구 앱을 만들고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "가격 비교를 위한 외부 데이터베이스 연동 방식이나 보안 처리 여부는 소개문에 명시되지 않아 확인이 불가능합니다.",
+        "name": "QRコードリーダー、バーコードスキャナー",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=qrcode.barcodescan.aiscan&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 201,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 13,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
+    },
+    "apple:1053295462": {
+      "app_key": "apple:1053295462",
+      "name": "歩数計Maipo - 人気の歩数計アプリ",
+      "developer": "urecy",
+      "source": "apple",
+      "country": "JP",
+      "category": "app_health_fitness",
+      "detail_url": "https://apps.apple.com/jp/app/%E6%AD%A9%E6%95%B0%E8%A8%88maipo-%E4%BA%BA%E6%B0%97%E3%81%AE%E6%AD%A9%E6%95%B0%E8%A8%88%E3%82%A2%E3%83%97%E3%83%AA/id1053295462?uo=2",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:44:44+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "■使い方 アプリをインストールしたら、後はカバンやポケットに入れて歩くだけです。 設定不要ですぐに使うことができます。 アプリが自動で歩数、距離、消費カロリー、時間を計測してくれます。 左右にスワイプすることで別の日付の計測結果も確認できます。 ■歩数の計測 アプリをインストールしたら、後は持って歩くだけで歩数を自動計測してくれます。 歩数、距離、時間、消費カロリーを記録します。 また、1時間毎の歩数がグラフに表示されるので、いつ、どのくらい歩いたのかひと目で分かります。 ■カレンダーで分かりやすく カレンダー形式の画面に、歩数と達成度をグラフのように表示します。 ひと月にどのくらい歩いたのか、1週間の歩行リズムがカレンダーで分かりやすく表現されています。 その他にも、月ベストの日付、ひと月の歩数合計と消費カロリー合計も確認できます。 ■ヘルスケア連携 iOSのヘルスケアから歩数を取り込むことができます。 アプリをインストールする前の歩数もヘルスケアに記録されている場合、アプリに取り込むことができます。 また、AppleWatchを使用しているユーザーはAppleWatchで計測された歩数も取り込むことができます。 ■ウィジェット対応 ホーム画面ウィジェット、ロック画面ウィジェット(iOS16以上)に対応しています。 アプリを開かなくても今日の歩数をチェックできるので、ぜひ活用して下さい。 ■メモ機能 日付毎にメモを記入することができます。 運動内容、旅行のこと、食事のこと何を書くかは自由にご利用ください。 ■自己ベストランキング １〜１００位の自己ベストランキングが確認できます。 たまに振り返ってみると楽しいですよ。 ■バックアップ・復元（有料版） もしもの時のバックアップ・復元機能が提供されています。 iCloudにデータを保存するため、機種変更後の引き継ぎがスムーズに行えます。 アプリを気に入ったら、ぜひご検討ください。 ■CSV書出し（有料版） 日別の歩数、歩行距離、カロリー、歩行時間をCSV形式で書き出すことができます。 CSVは他のアプリと連携して使用できます。 ■省電力 最新のiOSに対応して消費電力を抑えるように作られています。 バッテリーの負荷をなるべく小さくなるように工夫されています。 ■テーマカラー ８種類のテーマカラーを用意されています。 気分に合わせてお好みのテーマをお選び下さい。 ■こんな人におすすめ - 無料の歩数計アプリで使いやすいものを探している - 万歩計を持って歩くのが面倒、スマホで済ませたい - 使い方が簡単でシンプルな万歩計アプリを探している - サポートがしっかりしているアプリを選びたい ※無料版には広告が表示されます。 有料版を購入いただけると広告なしにできます。 ※有料版では以下の機能が使用できます。 - 広告の非表示 - バックアップ・復元機能 - CSV書出し",
+      "analysis": {
+        "app_key": "apple:1053295462",
+        "summary_ko": "스마트폰을 소지하고 걷기만 하면 자동으로 걸음 수, 거리, 칼로리를 측정하는 심플한 만보기 앱입니다. 일간/주간/월간 데이터를 그래프와 달력으로 확인할 수 있으며, 메모 기능과 위젯을 지원합니다.",
+        "features_ko": [
+          "스마트폰의 센서를 활용하여 걸음 수와 이동 거리를 자동으로 측정합니다.",
+          "측정된 데이터를 시간별 그래프와 달력 형식으로 시각화합니다.",
+          "iOS 건강 앱 및 Apple Watch와 데이터를 연동합니다.",
+          "날짜별로 운동 내용이나 일상을 기록할 수 있는 메모 기능을 제공합니다."
+        ],
+        "noteworthy_ko": "사용자 경험을 최소화한 '설정 없는 자동 측정'이 강점입니다. 건강 데이터 연동과 위젯 지원을 통해 사용자의 일상에 자연스럽게 녹아드는 설계가 돋보입니다.",
+        "development_ko": "iOS의 Core Motion 프레임워크를 활용한 센서 데이터 수집이 핵심입니다. 건강 앱과의 데이터 동기화 및 백그라운드 측정 시 배터리 효율 최적화가 중요하며, 데이터 시각화를 위한 차트 라이브러리 활용이 필요합니다.",
+        "idea_ko": "걸음 수를 기반으로 가상의 캐릭터를 성장시키거나, 특정 걸음 수 달성 시 지역 정보를 알려주는 '걷기 기반 탐험 게임'이 적합합니다.",
+        "highlights_ko": [
+          "설정이 필요 없는 자동 걸음 측정 시스템.",
+          "건강 앱 및 Apple Watch와의 원활한 연동."
+        ],
+        "systems_ko": [
+          "Core Motion 센서 데이터 수집 시스템",
+          "건강 앱 데이터 동기화 시스템",
+          "데이터 시각화(그래프) 시스템",
+          "로컬 데이터베이스 관리 시스템",
+          "위젯 및 알림 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "iOS의 표준 프레임워크를 활용하므로 구현 난이도가 낮으며, 데이터 시각화와 UI 구성에 집중하면 충분히 완성도 높은 앱을 만들 수 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "걸음 수 측정 및 표시",
+            "일간 데이터 저장",
+            "기본적인 그래프 시각화"
+          ],
+          "defer": [
+            "CSV 내보내기",
+            "백업 및 복원",
+            "다양한 테마 컬러"
+          ],
+          "risks": [
+            "센서 데이터의 정확도 오차",
+            "백그라운드 측정 시 OS의 프로세스 종료 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "걸음 수 기부 챌린지",
+            "concept": "사용자의 걸음 수를 포인트로 환산하여 환경 보호 단체에 기부할 수 있는 사회 공헌 앱입니다.",
+            "first_step": "걸음 수를 포인트로 변환하는 로직과 기부 내역을 보여주는 화면 구현."
+          },
+          {
+            "title": "산책로 추천기",
+            "concept": "사용자의 평소 걸음 수와 이동 경로를 분석하여 적절한 산책 코스를 추천해 주는 앱입니다.",
+            "first_step": "위치 정보와 걸음 수 데이터를 결합하여 산책 경로를 기록하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "iOS 개발 입문자에게 추천합니다. 센서 데이터 활용, 데이터베이스 관리, UI 디자인 등 앱 개발의 기초를 배우기에 매우 적합합니다.",
+        "source_limitations_ko": "소개문에는 구체적인 데이터 저장 방식이나 센서 데이터의 보정 알고리즘, 광고 수익 모델의 상세 내용은 확인되지 않습니다.",
+        "name": "歩数計Maipo - 人気の歩数計アプリ",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E6%AD%A9%E6%95%B0%E8%A8%88maipo-%E4%BA%BA%E6%B0%97%E3%81%AE%E6%AD%A9%E6%95%B0%E8%A8%88%E3%82%A2%E3%83%97%E3%83%AA/id1053295462?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 174,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 22,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
+    },
+    "google:com.pro.pdfreader.core": {
+      "app_key": "google:com.pro.pdfreader.core",
+      "name": "PDF Reader Core-Edit & Convert",
+      "developer": "Red Stave",
+      "source": "google",
+      "country": "JP",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.pro.pdfreader.core&hl=ja&gl=JP",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:46:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "PDF Reader Core-Edit & Convert PDF Reader Core-Edit & Convertは、ファイルの閲覧、編集、変換を簡単に行える実用的なドキュメントツールです。効率的な文書管理のための、シンプルでユーザー操作による安心な体験を提供します。📄 ✨ 主な機能 📂 マルチフォーマットファイルビューア PDF、Word、Excel、PowerPointファイルを1箇所でまとめて閲覧できます。 ✏️ PDF編集ツール 描画やテキストの追加などのシンプルなツールでPDFを編集し、内容のハイライトや注釈付けが可能です。 🖊️ 署名の追加 文書に署名を作成・挿入し、すばやく簡単に署名を行えます。 🖼️ 画像からPDFへの変換 画像をPDFファイルに変換し、コンテンツの整理や共有をスムーズにします。 📷 スキャンしてPDF化 デバイスのカメラを使用して文書をスキャンし、PDFファイルとして保存できます。 ⚙️ ユーザーコントロール型のエクスペリエンス すべてのアクションには、ユーザーの操作と確認が必要です ✅ • ファイルの自動変更は一切行われません 🚫 • パフォーマンスは、デバイスやシステムの状況によって異なる場合があります ⚠️ 権限とプライバシーに関するお知らせ: すべてのファイルのアクセス (All Files Access): デバイス上の散在したドキュメントのスキャン、整理、復元にのみ使用されます。 フォアグラウンドサービス (Foreground Service): ステータスバーのリアルタイム更新により、ファイルの変換やスキャンを安定して維持します。 ファイルのアップロードや共有は一切行いません。すべての処理は100%ローカルで行われます。すべての権限には明示的な同意が必要であり、Google Playのポリシーに完全準拠しています。 🔐 プライバシーと法的情報 プライバシーポリシー https://maxcleanertech.com/pdf/privacy 利用規約 https://maxcleanertech.com/pdf/terms",
+      "analysis": {
+        "app_key": "google:com.pro.pdfreader.core",
+        "summary_ko": "PDF, Word, Excel 등 다양한 문서를 한곳에서 관리하고 편집할 수 있는 도구입니다. 문서 스캔, 서명 추가, 이미지 변환 등 실용적인 기능을 제공합니다. 모든 처리는 로컬에서 수행되어 보안성을 높였습니다.",
+        "features_ko": [
+          "PDF, Word, Excel, PowerPoint 등 다양한 포맷의 파일을 뷰어로 열람할 수 있습니다.",
+          "PDF 내에 직접 그림을 그리거나 텍스트를 추가하여 편집할 수 있습니다.",
+          "문서에 서명을 생성하고 삽입하는 기능을 지원합니다.",
+          "카메라를 사용하여 문서를 스캔하고 PDF로 저장할 수 있습니다.",
+          "이미지 파일을 PDF로 변환하여 관리할 수 있습니다."
+        ],
+        "noteworthy_ko": "다양한 문서 포맷을 하나의 앱에서 통합 관리하는 사용자 경험이 핵심입니다. 모든 처리가 로컬에서 이루어진다는 점을 강조하여 사용자 신뢰를 얻는 전략이 돋보입니다.",
+        "development_ko": "각 문서 포맷을 렌더링하는 라이브러리 활용 능력이 중요합니다. 파일 시스템 접근 권한 관리와 로컬 데이터 처리의 효율성이 핵심이며, 사용자 인터페이스의 직관적인 구성이 필요합니다.",
+        "idea_ko": "특정 문서 포맷을 변환하는 기능에 집중하여, 사용자가 자주 사용하는 양식을 PDF로 빠르게 변환해주는 특화 도구가 적합합니다.",
+        "highlights_ko": [
+          "다양한 문서 포맷을 지원하는 통합 뷰어.",
+          "로컬 환경에서의 안전한 문서 처리 및 편집."
+        ],
+        "systems_ko": [
+          "파일 시스템 접근 및 관리",
+          "문서 렌더링 엔진",
+          "이미지 처리 및 PDF 변환",
+          "사용자 인터페이스(UI)",
+          "로컬 데이터 저장소"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "문서 렌더링 및 변환을 위한 오픈소스 라이브러리가 잘 갖춰져 있어 구현 자체는 가능하나, 다양한 포맷의 호환성을 유지하는 것이 관건입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "PDF 파일 열람 기능",
+            "파일 선택 및 관리 UI",
+            "로컬 저장소 접근"
+          ],
+          "defer": [
+            "Word/Excel 편집 기능",
+            "클라우드 연동"
+          ],
+          "risks": [
+            "대용량 파일 처리 시 성능 저하",
+            "다양한 문서 포맷의 레이아웃 깨짐 현상"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "영수증 PDF 스캐너",
+            "concept": "영수증을 촬영하면 자동으로 PDF로 변환하고 날짜별로 분류해주는 도구입니다.",
+            "first_step": "카메라 촬영 후 이미지를 PDF로 변환하는 라이브러리 연동."
+          },
+          {
+            "title": "간편 서명 도구",
+            "concept": "PDF 문서에 미리 저장된 서명 이미지를 드래그 앤 드롭으로 삽입하는 도구입니다.",
+            "first_step": "PDF 위에 이미지 레이어를 얹어 저장하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "파일 시스템 관리와 문서 처리 기술을 배우고 싶은 개발자에게 추천합니다. 로컬 데이터 처리의 중요성을 경험할 수 있는 좋은 프로젝트입니다.",
+        "source_limitations_ko": "사용하는 문서 렌더링 라이브러리의 종류나 구체적인 변환 알고리즘은 확인되지 않습니다. 클라우드 서비스와의 연동 가능성이나 결제 기능 여부는 명시되지 않았습니다.",
+        "name": "PDF Reader Core-Edit & Convert",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.pro.pdfreader.core&hl=ja&gl=JP",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 150,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
+    },
+    "apple:472014516": {
+      "app_key": "apple:472014516",
+      "name": "Kohl's - Shopping & Discounts",
+      "developer": "Kohl’s",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/kohls-shopping-discounts/id472014516",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:46:38+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Get online shopping deals, discounts and rewards with the Kohl’s app! From fashion to beauty, home furniture, clothing, shoes, electronics and more, you can access amazing shopping deals and manage your Kohl’s account on the go. Discounts, coupons and rewards make the Kohl’s app your go-to online shopping tool. It’s packed with features to help you find the best deals, manage payments easily, and browse online and in store. Here are 5 reasons users love our online shopping app: 1. Kohl’s Wallet - all offers, rewards and coupons in one place! 2. Shop online or in store - use the app as a price scanner, or browse deals on the go. 3. Kohl's Pay - We're giving you a simpler checkout with all your offers & Kohl's Cash loaded into one QR code. 4. Shopping deals on everything - Beauty, home, clothing, shoes, furniture, electronics & more! 5. Kohl’s Cash reminders - We’ll remind you when your rewards are about to expire, so you never miss a deal again. And there’s more! With FREE SHIPPING, amazing shopping deals and FREE STORE PICKUP, the Kohl’s app helps you shop with ease – and save money! Our features include: KOHL’S WALLET Save some serious money with Kohl’s Wallet. It keeps all your rewards, coupons, discounts, and offers in one place – no more paper and no more forgetting! Plus, we’ll remind you to use them before they expire, so you don’t miss out! SHOP ONLINE OR IN STORE Shop your local store’s inventory, or use the app in store as a price scanner. Can’t find what you’re looking for in store? Buy it on the app while you’re in store and get FREE shipping. KOHL'S PAY Kohl's Pay is now quicker and easier. Quickly select all your coupons, discounts, savings offers, rewards and Kohl's Cash to load into a single scan QR code and breeze through checkout. MY KOHL'S CARD Payments just got a lot easier. The app keeps you signed in so you can quickly and easily check your Kohl's Card balance and make payments. SHOP KOHL’S AMAZING RANGE From furniture to beauty, clothing, shoes, home and electronics, you can shop everything and more on the Kohl’s app! KOHL'S REWARDS Track your rewards balance and progress toward your next $5 reward. Download the Kohl’s app today and discover our huge range of fantastic products and amazing deals. From beauty to furniture, fashion and toys, you’ll be sure to find something you love at an awesome price!",
+      "analysis": {
+        "app_key": "apple:472014516",
+        "summary_ko": "Kohl's 백화점의 쇼핑, 할인, 보상 관리를 위한 통합 앱입니다. 지갑 기능을 통해 쿠폰과 보상을 관리하고, 매장 내 가격 스캐너 및 간편 결제 기능을 제공합니다. 온라인 쇼핑과 매장 픽업을 지원하여 편리한 쇼핑 경험을 돕습니다.",
+        "features_ko": [
+          "쿠폰, 보상, 할인 정보를 한곳에서 관리하는 지갑 기능을 제공합니다.",
+          "매장에서 앱을 사용하여 상품 가격을 스캔하고 정보를 확인할 수 있습니다.",
+          "결제 정보를 QR 코드로 통합하여 간편하게 체크아웃할 수 있습니다.",
+          "보상 만료 알림을 통해 혜택을 놓치지 않도록 돕습니다.",
+          "온라인 주문 후 매장에서 상품을 픽업하는 기능을 지원합니다."
+        ],
+        "noteworthy_ko": "온라인과 오프라인 쇼핑 경험을 하나로 통합한 옴니채널 전략이 돋보입니다. 특히 결제와 쿠폰을 QR 코드 하나로 해결하는 사용자 경험 설계가 매우 효율적입니다.",
+        "development_ko": "대규모 상품 데이터베이스 관리와 실시간 재고 연동이 핵심입니다. 보안이 중요한 결제 시스템 구현과 사용자별 맞춤형 쿠폰/보상 로직 설계가 복잡하며, 안정적인 서버 인프라가 필요합니다.",
+        "idea_ko": "동네 소상공인 매장을 위한 간편 쿠폰 관리 및 스탬프 적립 앱이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "온라인과 오프라인을 잇는 통합 쇼핑 경험.",
+          "QR 코드를 활용한 간편 결제 및 쿠폰 사용."
+        ],
+        "systems_ko": [
+          "상품 데이터베이스",
+          "사용자 계정 및 보상 관리",
+          "결제 시스템 연동",
+          "QR 코드 생성 및 스캔",
+          "재고 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "결제 시스템의 보안, 대규모 데이터 처리, 오프라인 매장과의 실시간 연동은 개인 개발자가 구현하기에 매우 높은 난이도입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 리스트 조회",
+            "쿠폰 저장 기능",
+            "사용자 프로필 관리"
+          ],
+          "defer": [
+            "실시간 결제 시스템",
+            "매장 재고 연동"
+          ],
+          "risks": [
+            "개인정보 및 결제 데이터 보안",
+            "서버 부하 및 데이터 동기화 문제"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "동네 가게 스탬프 카드",
+            "concept": "여러 가게의 스탬프를 하나의 앱에서 관리하는 도구입니다. 종이 쿠폰을 잃어버릴 걱정이 없습니다.",
+            "first_step": "가게별 스탬프 개수를 저장하고 보여주는 간단한 데이터베이스 구현."
+          },
+          {
+            "title": "쇼핑 리스트 공유기",
+            "concept": "가족이나 친구와 함께 쇼핑 리스트를 공유하고 구매 여부를 체크하는 도구입니다.",
+            "first_step": "리스트를 생성하고 실시간으로 상태를 업데이트하는 기능 구현."
+          }
+        ],
+        "recommendation_ko": "커머스 앱의 전반적인 구조와 데이터 관리 방식을 배우고 싶은 개발자에게 추천합니다. 다만, 실제 결제 기능은 외부 API를 활용하는 것이 안전합니다.",
+        "source_limitations_ko": "사용하는 결제 API의 종류나 보안 아키텍처는 확인되지 않습니다. 매장 재고 시스템과의 구체적인 연동 방식은 알 수 없습니다.",
+        "name": "Kohl's - Shopping & Discounts",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/kohls-shopping-discounts/id472014516",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 48,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
     }
   }
 }

@@ -14218,6 +14218,273 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-27"
+    },
+    "itch:ee917adf45cae161c235": {
+      "app_key": "itch:ee917adf45cae161c235",
+      "name": "Village vs Rock [Free] [Simulation] [Windows] [Linux]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "idle",
+      "detail_url": "https://househorse.itch.io/village-vs-rock",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:42:46+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Raise an orc village to DESTROY ROCKS in this physics-based village-building incremental game.",
+      "analysis": {
+        "app_key": "itch:ee917adf45cae161c235",
+        "summary_ko": "오크 마을을 건설하고 성장시켜 바위를 파괴하는 물리 기반의 방치형 시뮬레이션 게임입니다. 마을을 운영하며 바위를 부수는 독특한 목표를 가지고 있습니다. 점진적인 성장을 통해 마을의 규모를 키우는 재미를 제공합니다.",
+        "features_ko": [
+          "오크 마을을 건설하여 자원을 확보하고 성장시킵니다.",
+          "물리 엔진을 활용하여 바위를 파괴하는 상호작용을 구현합니다.",
+          "방치형 게임 구조를 통해 시간이 지남에 따라 마을이 자동으로 발전합니다."
+        ],
+        "noteworthy_ko": "방치형 게임에 물리 기반 파괴 요소를 결합한 점이 흥미롭습니다. 단순한 수치 상승을 넘어 물리적 상호작용이 시각적 만족감을 줄 것으로 추정됩니다.",
+        "development_ko": "물리 엔진의 안정적인 구현이 핵심이며, 방치형 게임의 데이터 누적 로직이 필요합니다. 콘텐츠 제작은 마을 건물과 바위의 종류를 늘리는 방식으로 확장 가능합니다. 밸런스 조절을 위해 파괴 효율과 성장 속도의 곡선을 세밀하게 조정해야 합니다.",
+        "idea_ko": "바위의 재질이나 크기에 따라 파괴 시 얻는 자원을 다르게 설정하여 전략적 요소를 강화하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "오크 마을 건설과 바위 파괴라는 이색적인 테마의 결합.",
+          "물리 엔진을 활용한 방치형 게임 플레이."
+        ],
+        "systems_ko": [
+          "물리 엔진 연동",
+          "방치형 자원 누적 시스템",
+          "건물 건설 및 업그레이드 로직",
+          "UI 인터페이스"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "물리 엔진을 다루는 기초적인 지식이 필요하며, 방치형 게임의 데이터 밸런스를 맞추는 과정이 요구되기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본적인 오크 마을 건설 시스템",
+            "바위 생성 및 물리 파괴 로직",
+            "자원 획득 및 업그레이드 UI"
+          ],
+          "defer": [
+            "복잡한 오크 캐릭터 애니메이션",
+            "다양한 바위 종류 및 특수 효과"
+          ],
+          "risks": [
+            "물리 연산으로 인한 성능 저하",
+            "방치형 게임의 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "바위 속성 시스템",
+            "concept": "바위마다 속성을 부여하여 특정 오크 유닛으로만 파괴 가능하게 합니다. 전략적 유닛 배치가 중요해집니다.",
+            "first_step": "두 가지 속성의 바위와 유닛을 구현하여 상성 관계를 테스트합니다."
+          },
+          {
+            "title": "파괴 연쇄 반응",
+            "concept": "바위 파괴 시 주변 바위에 피해를 주는 연쇄 반응 시스템을 도입합니다. 시각적 쾌감을 극대화합니다.",
+            "first_step": "바위 파괴 시 주변에 물리적 충격을 주는 범위를 설정합니다."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 기본 구조와 물리 엔진을 결합하는 방법을 배우기에 좋습니다. 단순한 클릭 게임에서 벗어나 물리적 상호작용을 추가하고 싶은 개발자에게 추천합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 구체적인 게임 규칙, 오크의 역할, 물리 엔진의 상세 구현 방식은 확인되지 않습니다.",
+        "name": "Village vs Rock [Free] [Simulation] [Windows] [Linux]",
+        "source": "itch",
+        "detail_url": "https://househorse.itch.io/village-vs-rock",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 350,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 10,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
+    },
+    "apple:6736345326": {
+      "app_key": "apple:6736345326",
+      "name": "スヌーピー ソリティア&トランプゲーム",
+      "developer": "TV TOKYO Communications Corporation",
+      "source": "apple",
+      "country": "JP",
+      "category": "game_card",
+      "detail_url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%8C%E3%83%BC%E3%83%94%E3%83%BC-%E3%82%BD%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A2-%E3%83%88%E3%83%A9%E3%83%B3%E3%83%97%E3%82%B2%E3%83%BC%E3%83%A0/id6736345326?uo=2",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:43:40+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "「スヌーピー ソリティア&トランプゲーム」にようこそ！ PEANUTSデザインのトランプゲームが楽しめる！ ソリティア・ピラミッド・大富豪・ババ抜き・七並べ・スピード・神経衰弱の7つのトランプゲームを収録！ ◎完全無料でワクワクの機能が充実！ ◎対戦相手はスヌーピーやスヌーピーのなかまたち！※「ソリティア・ピラミッド」を除く ◎ゲームに勝ってかわいいイラストパネルを完成させよう！ さぁ、どのトランプゲームからプレイする？ ◆収録ゲームのご紹介 【ソリティア】 クリアすると気分がスッキリ！ひとり遊びの定番ゲーム！ 【ピラミッド】 足して13でピラミッドを攻略しよう！簡単に遊べて気分爽快なひらめきゲーム！ 【大富豪】 めざせ大富豪！ローカルルールと階級変動で盛り上がるゲーム！ 【ババ抜き】 カードを引くたびにドキドキ！最後の一枚まで楽しいゲーム！ 【七並べ】 出すか止めるか！戦略や駆け引きが楽しいゲーム！ 【スピード】 スリルにハマる！始まったら止まらないノンストップゲーム！ 【神経衰弱】 ルールがとっても簡単！記憶力を養う脳トレゲーム！ ◆お問い合わせ 当アプリに関するお問い合わせは、アプリ内の「お問い合わせ」よりご連絡ください。 TV TOKYO Communications Corporation Powered by P.R.O Inc. © 2026 Peanuts Worldwide LLC TV TOKYO Communications Corporation has been authorized by Peanuts Worldwide LLC to use and distribute the copyrighted contents.",
+      "analysis": {
+        "app_key": "apple:6736345326",
+        "summary_ko": "스누피와 친구들이 등장하는 7가지 트럼프 게임을 즐길 수 있는 앱입니다. 솔리테어, 피라미드, 대부호 등 다양한 게임을 통해 일러스트 패널을 완성하는 재미를 제공합니다. 완전 무료로 제공되며 다양한 난이도의 게임을 포함하고 있습니다.",
+        "features_ko": [
+          "솔리테어, 피라미드, 대부호 등 7가지 트럼프 게임을 수록했습니다.",
+          "게임 승리 시 수집 가능한 일러스트 패널 시스템이 있습니다.",
+          "스누피 캐릭터들과 함께 대전하는 모드를 지원합니다.",
+          "각 게임마다 고유한 규칙과 전략적 요소를 포함합니다."
+        ],
+        "noteworthy_ko": "캐릭터 IP를 활용하여 단순한 카드 게임에 수집 요소를 결합한 점이 특징입니다. 게임 플레이가 보상(일러스트)으로 이어지는 순환 구조가 사용자 유지율을 높이는 데 효과적일 것으로 추정됩니다.",
+        "development_ko": "카드 게임 로직 구현과 캐릭터 리소스 관리, 수집 시스템 개발이 핵심입니다. 각 게임의 규칙을 정확히 구현하는 것이 중요하며, UI/UX가 캐릭터 테마와 잘 어우러지도록 제작해야 합니다.",
+        "idea_ko": "일러스트 패널을 완성하면 해당 캐릭터의 배경 이야기를 볼 수 있는 '캐릭터 도감' 기능을 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "스누피 IP를 활용한 친숙한 디자인과 캐릭터 구성입니다.",
+          "7가지 다양한 게임을 한 앱에서 즐길 수 있는 높은 접근성입니다."
+        ],
+        "systems_ko": [
+          "카드 게임 엔진",
+          "수집 및 보상 시스템",
+          "캐릭터 AI 대전 로직",
+          "UI/UX 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "카드 게임 로직은 정형화되어 있어 구현이 가능하나, 7가지 게임을 모두 완성도 있게 만드는 것은 상당한 시간이 소요됩니다. 캐릭터 리소스 제작 부담이 있습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "카드 게임 핵심 로직(솔리테어 등)",
+            "기본 UI",
+            "승리 판정 시스템"
+          ],
+          "defer": [
+            "7가지 게임 전체 구현",
+            "복잡한 수집 시스템"
+          ],
+          "risks": [
+            "IP 저작권 문제",
+            "게임 간 밸런스 유지"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "카드 게임 챌린지",
+            "concept": "매일 바뀌는 미션을 통해 카드 게임을 클리어하고 포인트를 얻는 시스템입니다.",
+            "first_step": "일일 미션 데이터 구조 설계."
+          },
+          {
+            "title": "카드 커스텀",
+            "concept": "게임에서 얻은 재화로 카드 뒷면이나 캐릭터 테마를 꾸미는 기능입니다.",
+            "first_step": "이미지 리소스 교체 기능 구현."
+          }
+        ],
+        "recommendation_ko": "다양한 미니 게임을 하나의 앱으로 통합하는 구조를 배우기에 좋습니다. 캐릭터 IP를 활용한 게임의 기획 방식을 연구하기에 적합합니다.",
+        "source_limitations_ko": "게임 내 AI의 난이도 조절 방식, 수집 시스템의 구체적인 데이터 구조, 저작권 계약 세부 사항 등은 확인되지 않습니다.",
+        "name": "スヌーピー ソリティア&トランプゲーム",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/jp/app/%E3%82%B9%E3%83%8C%E3%83%BC%E3%83%94%E3%83%BC-%E3%82%BD%E3%83%AA%E3%83%86%E3%82%A3%E3%82%A2-%E3%83%88%E3%83%A9%E3%83%B3%E3%83%97%E3%82%B2%E3%83%BC%E3%83%A0/id6736345326?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 225,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 5,
+        "countries": [
+          "JP"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
+    },
+    "google:com.watchfacestudio.md242": {
+      "app_key": "google:com.watchfacestudio.md242",
+      "name": "MD242 Hybrid watch face",
+      "developer": "Matteo Dini MD ® Watch Faces",
+      "source": "google",
+      "country": "KR",
+      "category": "all_apps",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.watchfacestudio.md242&hl=ko&gl=KR",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:44:00+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "새로운 워치 페이스 형식입니다. 갤럭시 워치 사용자 참고: 삼성 웨어러블 앱의 워치 페이스 편집기에서 이와 같은 복잡한 워치 페이스가 제대로 로드되지 않는 경우가 있습니다. 이는 워치 페이스 자체의 문제가 아닙니다. 삼성에서 이 문제를 해결할 때까지 워치에서 직접 워치 페이스를 설정하는 것을 권장합니다. 워치 화면을 길게 누르고 '사용자 지정'을 선택하세요. 이 워치 페이스에는 3개의 사전 설정 앱 바로가기, 2개의 사용자 지정 바로가기, 걸음 수, 심박수 및 인터벌, 날짜, 기압계, 날씨, 걸음 수 등 원하는 데이터를 표시할 수 있는 3개의 사용자 지정 컴플리케이션, 색상 변경 기능 등이 포함되어 있습니다. 설치 참고 사항: 설치 및 문제 해결 가이드는 다음 링크를 참조하세요. https://www.matteodinimd.com/watchface-installation/ 이 워치 페이스는 API 레벨 33 이상(Wear OS 4 이상 버전)의 모든 Wear OS 기기(예: Samsung Galaxy Watch 4-9, Ultra/Ultra 2, Pixel Watch 등)를 지원합니다. 주요 기능: - 휴대폰 설정에 따른 12/24시간 디지털 시간 표시 - 날짜 - 배터리 잔량 표시 (사용자 지정 컴플리케이션으로 변경 가능) - 심박수 - 걸음 수 - 건강 앱과 연동되는 일일 걸음 수 목표 - 3개의 사전 설정 앱 바로가기 - 2개의 사용자 지정 바로가기 - 날짜 - 연중 주차 - 연중 일 - 달의 위상 - 3개의 사용자 지정 컴플리케이션 - 색상 변경 가능한 Always On Display 지원 - LCD, 시침, 분침, 날짜, 링, 밝기 및 전체 색상 변경 가능 맞춤 설정: 1 - 시계 화면을 길게 터치합니다. 2 - 맞춤 설정 옵션을 탭합니다. 사전 설정 앱 바로가기: - 캘린더 - 배터리 - 심박수 측정 맞춤 설정 가능한 필드/컴플리케이션: 원하는 데이터를 컴플리케이션에 표시할 수 있습니다. 예를 들어 날씨, 걸음 수, 시간대, 일몰/일출, 기압계, 다음 약속, 걸은 거리 등을 선택할 수 있습니다. 추가적인 타사 컴플리케이션을 설치해야 할 수도 있습니다. **일부 기능은 일부 시계에서 사용하지 못할 수 있습니다. 계속 소식을 받아보세요! 뉴스레터: 새로운 워치 페이스와 프로모션 소식을 받아보시려면 가입하세요! http://eepurl.com/hlRcvf 페이스북: https://www.facebook.com/matteodiniwatchfaces 인스타그램: https://www.instagram.com/mdwatchfaces/ 텔레그램: https://t.me/mdwatchfaces 웹사이트: https://www.matteodinimd.com - 감사합니다!",
+      "analysis": {
+        "app_key": "google:com.watchfacestudio.md242",
+        "summary_ko": "이 앱은 Wear OS 기기를 위한 하이브리드 워치 페이스입니다. 디지털 시간 표시와 함께 걸음 수, 심박수, 날씨 등 다양한 건강 데이터를 시각화합니다. 사용자는 색상 테마와 컴플리케이션을 직접 설정하여 개인화된 화면을 구성할 수 있습니다.",
+        "features_ko": [
+          "12/24시간제 디지털 시간 표시를 지원합니다.",
+          "심박수, 걸음 수, 배터리 잔량 등 건강 및 기기 상태를 표시합니다.",
+          "3개의 사전 설정 앱 바로가기와 2개의 사용자 지정 바로가기를 제공합니다.",
+          "3개의 사용자 지정 컴플리케이션 슬롯을 통해 원하는 데이터를 배치할 수 있습니다.",
+          "LCD, 시침, 분침 등 다양한 요소의 색상을 변경할 수 있습니다.",
+          "Always On Display 모드에서 색상 변경을 지원합니다."
+        ],
+        "noteworthy_ko": "다양한 컴플리케이션과 색상 커스터마이징을 통해 사용자에게 높은 자유도를 제공하는 점이 흥미롭습니다. 삼성 웨어러블 앱과의 호환성 문제를 명시하고 기기 직접 설정을 권장하는 방식은 플랫폼 제약 사항을 사용자에게 투명하게 공유하는 좋은 사례로 보입니다.",
+        "development_ko": "Wear OS의 워치 페이스 포맷을 활용하여 다양한 데이터 소스를 UI에 바인딩하는 기술이 핵심입니다. 컴플리케이션 API를 통해 외부 데이터를 가져오고, 사용자 설정값을 저장하는 데이터 관리 로직이 필요합니다. 다양한 화면 크기와 해상도에 대응하는 반응형 레이아웃 설계가 중요하며, 배터리 효율을 고려한 AOD 최적화가 필수적입니다.",
+        "idea_ko": "특정 테마(예: 레트로 게임, 우주)에 맞춰 컴플리케이션 아이콘까지 일관되게 디자인하는 '테마형 컴플리케이션 팩' 개발.",
+        "highlights_ko": [
+          "다양한 건강 데이터와 바로가기를 한 화면에 배치한 하이브리드 구성.",
+          "사용자 취향에 맞춘 세밀한 색상 및 컴플리케이션 커스터마이징."
+        ],
+        "systems_ko": [
+          "워치 페이스 레이아웃 엔진",
+          "컴플리케이션 데이터 연동 시스템",
+          "사용자 설정 저장 및 불러오기",
+          "색상 테마 관리자",
+          "배터리 최적화 모듈"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "Wear OS의 공식 워치 페이스 포맷을 사용하면 구현 난이도는 낮아지지만, 다양한 컴플리케이션과 커스터마이징 옵션을 안정적으로 연동하는 데는 세심한 테스트가 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "시간 표시 기능",
+            "기본 컴플리케이션 슬롯 1개",
+            "색상 변경 설정"
+          ],
+          "defer": [
+            "다양한 사전 설정 바로가기",
+            "복잡한 애니메이션 효과"
+          ],
+          "risks": [
+            "기기별 컴플리케이션 호환성 문제",
+            "배터리 소모 최적화 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "감정 기록 워치 페이스",
+            "concept": "사용자가 매시간 자신의 기분을 선택하면 그에 맞는 색상으로 화면이 변하는 감정 로그형 페이스.",
+            "first_step": "시간별로 색상 값을 저장하고 화면 배경색을 변경하는 기능 구현."
+          },
+          {
+            "title": "미니멀 할 일 워치 페이스",
+            "concept": "복잡한 정보 대신 오늘 가장 중요한 할 일 3가지만 크게 보여주는 생산성 중심 페이스.",
+            "first_step": "사용자가 입력한 텍스트를 화면에 출력하는 간단한 텍스트 컴플리케이션 구현."
+          }
+        ],
+        "recommendation_ko": "Wear OS의 컴플리케이션 API와 사용자 설정 저장 방식을 배우기에 적합합니다. UI 디자인과 데이터 연동의 균형을 맞추는 연습을 하기에 좋은 프로젝트입니다.",
+        "source_limitations_ko": "소개문에는 구체적인 개발 프레임워크나 내부 데이터 처리 로직이 명시되어 있지 않습니다. 외부 컴플리케이션 데이터의 정확한 호출 방식은 별도 검증이 필요합니다.",
+        "name": "MD242 Hybrid watch face",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.watchfacestudio.md242&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 207,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 11,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
     }
   }
 }

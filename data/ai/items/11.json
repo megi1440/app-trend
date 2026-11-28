@@ -14545,6 +14545,272 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-27"
+    },
+    "itch:6df86f1c8e2e34b55cd6": {
+      "app_key": "itch:6df86f1c8e2e34b55cd6",
+      "name": "Enter the Void - Blue [Free] [Shooter]",
+      "developer": "",
+      "source": "itch",
+      "country": "GLOBAL",
+      "category": "new",
+      "detail_url": "https://blueinthevoid.itch.io/enter-the-void-blue",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:43:23+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "A fast-paced pixel art shooter set in deep space.",
+      "analysis": {
+        "app_key": "itch:6df86f1c8e2e34b55cd6",
+        "summary_ko": "심우주를 배경으로 하는 빠른 속도의 픽셀 아트 슈팅 게임입니다. 플레이어는 우주 공간에서 적들과 교전하며 긴박한 액션을 경험하게 됩니다.",
+        "features_ko": [
+          "픽셀 아트 스타일의 그래픽을 통해 우주 공간을 시각적으로 구현합니다.",
+          "빠른 템포의 슈팅 메커니즘을 통해 긴박한 전투를 제공합니다."
+        ],
+        "noteworthy_ko": "제한된 정보로 보아 고전적인 아케이드 슈팅의 핵심 재미에 집중한 것으로 추정됩니다. 픽셀 아트와 빠른 속도감의 조화가 개발의 핵심 포인트가 될 것입니다.",
+        "development_ko": "핵심 구현 기술로는 2D 슈팅 엔진과 탄막 처리 로직이 필요합니다. 콘텐츠 제작은 픽셀 아트 에셋과 적 패턴 설계에 집중되며, 밸런스 조정은 난이도 곡선 설계가 관건입니다.",
+        "idea_ko": "우주 공간의 중력 변화를 활용한 슈팅 메커니즘을 도입하여 차별화된 전략성을 부여하는 아이디어가 적합합니다.",
+        "highlights_ko": [
+          "심우주 배경의 빠른 속도감.",
+          "픽셀 아트 기반의 시각적 스타일."
+        ],
+        "systems_ko": [
+          "플레이어 이동 및 슈팅 입력 처리",
+          "적 생성 및 AI 패턴 관리",
+          "충돌 판정 시스템",
+          "게임 상태 관리(시작/종료/점수)"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "슈팅 게임의 기본 메커니즘은 구현이 명확하지만, 빠른 속도감을 유지하면서 최적화된 충돌 판정을 구현하는 데 기술적 노력이 필요합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "플레이어 기체 이동 및 사격",
+            "적 개체 생성 및 이동",
+            "기본 충돌 판정"
+          ],
+          "defer": [
+            "복잡한 보스 패턴",
+            "다양한 무기 업그레이드 시스템"
+          ],
+          "risks": [
+            "탄막 처리 시 프레임 드랍",
+            "단조로운 게임 플레이 루프"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "중력 슈터",
+            "concept": "우주 공간의 중력장을 활용해 탄환의 궤적을 휘게 만드는 슈팅 게임입니다. 적의 위치에 따라 중력을 조절하여 공격을 회피하거나 적중시킵니다.",
+            "first_step": "중력장 영역 내에서 탄환의 속도 벡터가 변하는 물리 엔진 프로토타입을 제작합니다."
+          },
+          {
+            "title": "픽셀 잔상 슈터",
+            "concept": "플레이어의 이동 경로에 잔상이 남으며, 이 잔상이 일정 시간 동안 공격을 대신 수행합니다. 잔상을 전략적으로 배치하여 적을 포위하는 방식입니다.",
+            "first_step": "플레이어 위치 기록 배열을 사용하여 일정 시간 후 잔상을 생성하는 시스템을 구현합니다."
+          }
+        ],
+        "recommendation_ko": "슈팅 게임의 기초적인 입력 처리와 충돌 로직을 학습하기에 좋습니다. 단순한 구조에서 시작해 점진적으로 시스템을 확장하는 연습을 권장합니다.",
+        "source_limitations_ko": "소개문이 매우 짧아 게임의 구체적인 조작 방식, 레벨 디자인, 적의 종류, 사운드 요소 등에 대한 정보가 전혀 없습니다.",
+        "name": "Enter the Void - Blue [Free] [Shooter]",
+        "source": "itch",
+        "detail_url": "https://blueinthevoid.itch.io/enter-the-void-blue",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 290,
+        "reasons": [
+          "indie_discovery",
+          "newly_seen"
+        ],
+        "best_rank": 30,
+        "countries": [
+          "GLOBAL"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
+    },
+    "google:com.enp.mergezombie.google": {
+      "app_key": "google:com.enp.mergezombie.google",
+      "name": "머지좀비: 엔드리스워",
+      "developer": "ENP GAMES Co., Ltd",
+      "source": "google",
+      "country": "KR",
+      "category": "game_rpg",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.enp.mergezombie.google&hl=ko&gl=KR",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:43:40+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "‘무한 머지’의 ASMR! 좀비와 좀비가 합쳐지면 상상 초월 강력한 좀비 탄생! 끊임없이 진화하는 개성 만점 좀비들을 만나보세요. ◎ 게임 특징 단순 합성은 끝! 대박을 터트려라 '좀비 슬롯머신'합치기만 하는 지루한 머지는 가라! 이벤트 슬롯머신으로 단순 합성의 재미를 짜릿한 '뽑기 대박의 손맛'으로 승화! 무한 한계 돌파! 7,000개에 달하는 스테이지 올클리어에 도전! 끝없이 펼쳐지는 전장에서 한계를 시험하는 짜릿한 돌파의 재미. 손가락 하나 까딱 않고 속전속결! 100% 자동 시스템합성도 자동! 전투도 자동! 스마트하게 즐기는 AI 방치!초고속 돌파 시스템으로 막힘없이 시원하게 전장에 합류하세요. 방치형에 월드보스?! 컨텐츠 대폭발, 이제 레이드와 무한던전도 알아서 척척 방치하는 시대! 쉴 새 없이 몰아치는 다채로운 방치형 컨텐츠를 경험하세요. ---- 개발자 연락처 : (주)이엔피게임즈 계백로 1719, 1320호 (오류동, 센트리아오피스텔) 중구, 대전광역시 34909 South Korea 1138664298 제 2025-대전중구-0379 호 대전광역시 중구청",
+      "analysis": {
+        "app_key": "google:com.enp.mergezombie.google",
+        "summary_ko": "좀비를 합쳐 더 강력한 좀비를 만드는 머지(Merge) 방식의 방치형 RPG입니다. 슬롯머신을 활용한 뽑기 재미와 자동 전투 시스템을 결합하여 속도감 있는 성장을 지원합니다. 레이드와 무한 던전 등 다양한 콘텐츠를 제공합니다.",
+        "features_ko": [
+          "좀비를 합성하여 더 강력한 개체로 진화시킵니다.",
+          "슬롯머신을 통해 좀비를 획득하는 뽑기 시스템을 운영합니다.",
+          "합성과 전투가 100% 자동으로 진행되는 방치형 시스템입니다.",
+          "7,000개 이상의 방대한 스테이지를 제공합니다.",
+          "레이드 및 무한 던전 등 다양한 콘텐츠를 포함합니다."
+        ],
+        "noteworthy_ko": "머지 게임의 단순함을 슬롯머신이라는 도박적 요소로 보완한 점이 흥미롭습니다. 자동화 시스템을 극대화하여 사용자의 피로도를 낮추고 성장의 재미에 집중하게 만든 구조로 추정됩니다.",
+        "development_ko": "자동 전투 로직과 머지 알고리즘, 데이터 기반의 성장 밸런스 설계가 핵심입니다. 방대한 스테이지를 관리하기 위한 데이터 구조화와 서버 동기화가 중요합니다.",
+        "idea_ko": "합성한 좀비들을 배치하여 나만의 좀비 군단을 구성하고 다른 유저와 대결하는 '좀비 아레나' 기능을 추가하는 것이 좋습니다.",
+        "highlights_ko": [
+          "머지와 슬롯머신을 결합한 독특한 뽑기 및 성장 방식입니다.",
+          "자동화 시스템을 통한 쾌적한 방치형 플레이 경험을 제공합니다."
+        ],
+        "systems_ko": [
+          "머지 로직 엔진",
+          "자동 전투 및 AI 시스템",
+          "데이터 기반 성장 밸런스",
+          "스테이지 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "머지 로직과 방치형 시스템은 구현 난도가 높지 않으나, 7,000개 스테이지의 밸런스를 맞추는 것은 상당한 노력이 필요합니다. 1인 개발 시 스테이지 수를 줄여 구현 가능합니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "머지 로직",
+            "자동 전투 시스템",
+            "기본 스테이지 진행"
+          ],
+          "defer": [
+            "슬롯머신 시스템",
+            "레이드 및 무한 던전"
+          ],
+          "risks": [
+            "반복적인 게임 플레이의 지루함",
+            "성장 밸런스 붕괴"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "좀비 연구소",
+            "concept": "합성한 좀비들의 특성을 연구하여 새로운 스킬을 해금하는 시스템입니다.",
+            "first_step": "좀비 등급별 스킬 데이터 테이블 설계."
+          },
+          {
+            "title": "좀비 타워 디펜스",
+            "concept": "합성한 좀비들을 배치하여 몰려오는 적을 막는 디펜스 모드입니다.",
+            "first_step": "기본 타워 디펜스 로직 구현."
+          }
+        ],
+        "recommendation_ko": "방치형 게임의 핵심 루프와 성장 밸런스를 학습하기에 좋습니다. 단순한 메커니즘을 어떻게 확장하는지 연구하기에 적합합니다.",
+        "source_limitations_ko": "슬롯머신 확률 로직, 서버 동기화 방식, 구체적인 밸런스 수치 등은 소개문에서 확인할 수 없습니다.",
+        "name": "머지좀비: 엔드리스워",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.enp.mergezombie.google&hl=ko&gl=KR",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 213,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 9,
+        "countries": [
+          "KR"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
+    },
+    "apple:526641427": {
+      "app_key": "apple:526641427",
+      "name": "Flow Free",
+      "developer": "Big Duck Games LLC",
+      "source": "apple",
+      "country": "US",
+      "category": "game_board",
+      "detail_url": "https://apps.apple.com/us/app/flow-free/id526641427?uo=2",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:45:52+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Flow Free® is a simple yet addictive puzzle game. Connect matching colors with pipe to create a Flow®. Pair all colors, and cover the entire board to solve each puzzle. But watch out, pipes will break if they cross or overlap! Free play through hundreds of levels, or race against the clock in Time Trial mode. Gameplay ranges from simple and relaxed, to challenging and frenetic, and everywhere in between. How you play is up to you. So, give Flow Free a try, and experience \"mind like water\"! *** Flow Free features *** * Content - Over 2,500 free levels available in Free Play mode, and new Daily Puzzles every day! - 10 different board sizes - Free Classic, Bonus, Bridges, Mania, Extreme, and Jumbo level packs - Additional level packs available for purchase * Challenge - Game Center achievements as you solve levels and complete packs - Track your completion of each level in Free Play mode - Strive for accuracy in Free Play using the fewest, most efficient moves - Strive for speed in Time Trial for the most and fastest solves - 20 scored Time Trial variants to choose from by board size and duration * Look & Feel - Smooth, polished touch interaction - Colorful UI - Fun sound effects - Clean vector graphics and animations - Labels available for color impaired players Enjoy.",
+      "analysis": {
+        "app_key": "apple:526641427",
+        "summary_ko": "같은 색상의 점을 선으로 연결하여 보드를 채우는 퍼즐 게임입니다. 선이 겹치지 않게 모든 칸을 채워야 하는 규칙을 가지고 있습니다. 난이도별로 다양한 보드 크기와 레벨을 제공합니다.",
+        "features_ko": [
+          "같은 색상의 점을 선으로 연결하여 보드를 채웁니다.",
+          "선이 겹치거나 교차하면 연결이 끊어지는 규칙이 있습니다.",
+          "2,500개 이상의 무료 레벨을 제공합니다.",
+          "다양한 보드 크기와 레벨 팩을 선택할 수 있습니다.",
+          "시간 제한 모드를 통해 속도감을 즐길 수 있습니다."
+        ],
+        "noteworthy_ko": "간결한 규칙으로 깊은 전략성을 이끌어내는 퍼즐 디자인이 흥미롭습니다. 보드 전체를 채워야 하는 제약 조건이 퍼즐의 난이도를 결정하는 핵심 요소입니다.",
+        "development_ko": "보드 데이터 구조와 경로 탐색 알고리즘이 핵심입니다. 레벨 데이터 생성 도구가 필요하며, 다양한 보드 크기에 대응하는 유연한 UI 설계가 중요합니다.",
+        "idea_ko": "사용자가 직접 퍼즐을 설계하고 친구에게 도전장을 보내는 레벨 에디터 기능이 개인 개발에 적합합니다.",
+        "highlights_ko": [
+          "간결하고 직관적인 규칙으로 누구나 쉽게 접근 가능합니다.",
+          "2,500개 이상의 방대한 콘텐츠를 제공합니다."
+        ],
+        "systems_ko": [
+          "그리드 기반 보드 시스템",
+          "경로 탐색 및 연결 판정 로직",
+          "레벨 데이터 관리",
+          "입력 처리 및 드래그 제스처",
+          "UI 및 애니메이션 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "쉬움",
+          "reason": "핵심 메커니즘이 단순하고 그리드 기반의 데이터 처리가 명확하여 1인 개발로 구현하기에 적합하기 때문입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "그리드 보드 렌더링",
+            "선 연결 및 경로 판정 로직",
+            "레벨 클리어 판정"
+          ],
+          "defer": [
+            "시간 제한 모드",
+            "다양한 레벨 팩"
+          ],
+          "risks": [
+            "경로 탐색 알고리즘의 복잡도",
+            "레벨 디자인의 난이도 조절 실패"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "커스텀 레벨 에디터",
+            "concept": "사용자가 직접 점을 배치하고 퍼즐을 만드는 모드입니다.",
+            "first_step": "그리드에 점을 배치하고 저장하는 기능을 구현합니다."
+          },
+          {
+            "title": "장애물 추가 모드",
+            "concept": "선이 통과할 수 없는 장애물을 배치하여 난이도를 높이는 모드입니다.",
+            "first_step": "그리드 내 장애물 속성을 추가하고 경로 탐색 로직을 수정합니다."
+          }
+        ],
+        "recommendation_ko": "알고리즘 기반의 퍼즐 게임을 만들고 싶다면 강력 추천합니다. 규칙의 단순함이 어떻게 게임의 재미로 이어지는지 배울 수 있습니다.",
+        "source_limitations_ko": "레벨 데이터의 생성 방식(자동 생성 여부), 구체적인 경로 탐색 알고리즘의 최적화 방식은 소개문에서 확인할 수 없습니다.",
+        "name": "Flow Free",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/flow-free/id526641427?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 156,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 28,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
     }
   }
 }

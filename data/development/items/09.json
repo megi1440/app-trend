@@ -29152,6 +29152,187 @@
         "thoughtsTokenCount": 3044,
         "serviceTier": "standard"
       }
+    },
+    "itch:fdbb8df4c3125cd4bd67": {
+      "app_key": "itch:fdbb8df4c3125cd4bd67",
+      "name": "Beneath the Stone [Free] [Interactive Fiction]",
+      "developer": "",
+      "source": "itch",
+      "kind": "game",
+      "detail_url": "https://sepehrvafshar.itch.io/beneath-the-stone",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "itch:fdbb8df4c3125cd4bd67",
+        "product_kind": "game",
+        "original_experience_ko": "매머드 동굴의 세 시대를 탐험하며 역사적 기록으로 남길 내용을 선택하는 인터랙티브 픽션 게임 경험. (사실: 스토어에 매머드 동굴의 세 시대와 역사적 기록 결정이 명시됨. 해석: 텍스트 분기를 통한 서사적 몰입과 역사 재구성의 재미)",
+        "source_facts_and_limitations_ko": [
+          "Beneath the Stone은 매머드 동굴 배경의 인터랙티브 픽션 장르임.",
+          "구체적인 시나리오 볼륨, 분기 트리 구조, 세이브 시스템 등은 스토어 소개문만으로 확인 불가함."
+        ],
+        "valuable_elements_ko": [
+          "시간의 경과(세 시대)에 따른 시점 변화 구조",
+          "플레이어의 선택이 역사적 기록이라는 결과물로 이어지는 메타 서사 메커니즘"
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "타임라인 아카비스트",
+            "core_idea_ko": "우주 기지의 세 시대 사고 기록 중 어떤 데이터를 영구 보존하고 은폐할지 결정하는 SF 인터랙티브 픽션 게임.",
+            "what_to_keep_ko": "시간의 흐름에 따른 복수의 시대적 관점 전환과 역사의 기록을 취사선택하는 핵심 메타 서사 구조 계승.",
+            "what_to_change_ko": "고고학적 동굴 탐험 소재를 SF 우주 기지 테마로 바꾸고 데이터 오염도와 윤리적 평판 수치 시스템을 도입.",
+            "mobile_use_or_play_ko": "모바일 화면에서 로그 텍스트를 읽고 세 가지 선택지 중 하나를 고르면, 기지의 시스템 안정성과 역사적 진실 왜곡도가 실시간 변동됨.",
+            "key_features_ko": [
+              "시대별 로그 데이터 뷰어",
+              "역사 왜곡 및 윤리 지표 시스템",
+              "멀티 엔딩 아카이브 기록실"
+            ],
+            "solo_mvp_and_effort_ko": "JSON 기반 텍스트 스크립트 관리 시스템과 바 형태의 수치 UI로 구현하여 1인 개발자가 시나리오와 기본 로직에 집중 가능.",
+            "strengths_limits_ko": "몰입감 있는 SF 테마와 수치적 긴장감이 장점이나 텍스트 분량 관리와 반복 플레이 유도가 과제임."
+          },
+          {
+            "title_ko": "지하 도시 재건록",
+            "core_idea_ko": "세 시대에 걸쳐 붕괴 위기에 처한 지하 도시의 생존 방침을 결정하고 후대에 전해질 법전과 역사서를 집필하는 시뮬레이션 겸용 텍스트 픽션.",
+            "what_to_keep_ko": "세 시대를 거치며 누적되는 선택의 결과가 전체 세계관의 기록으로 남는 구조 계승.",
+            "what_to_change_ko": "단순 선택지 진행에서 벗어나 자원 관리(식량, 신뢰도) 요소를 결합해 경제적 결과와 기록 내용 양쪽에 영향을 미치도록 변경.",
+            "mobile_use_or_play_ko": "모바일 세로 화면에서 이벤트 카드 형태의 텍스트와 자원 증감 예상치를 확인하고 스와이프하여 선택을 확정.",
+            "key_features_ko": [
+              "자원 연동형 선택지 엔진",
+              "시대별 법전 편찬 시스템",
+              "카드 스와이프 인터페이스"
+            ],
+            "solo_mvp_and_effort_ko": "카드 스와이프 UI와 텍스트 데이터베이스 구조로 MVP를 가볍게 구축 가능하며 리소스 제작 부담이 낮음.",
+            "strengths_limits_ko": "직관적인 조작과 전략적 재미가 장점이나 자원 밸런싱 실패 시 서사 몰입이 깨질 수 있음."
+          },
+          {
+            "title_ko": "에코스 오브 더 케이브",
+            "core_idea_ko": "원작의 동굴 배경을 유지하되 오디오 로그와 파편화된 기억을 조합하여 과거 탐험가들이 남긴 진실을 재구성하고 역사적 평가를 뒤집는 오디오 중심 인터랙티브 픽션.",
+            "what_to_keep_ko": "동굴이라는 폐쇄적 공간 배경과 역사적 기록의 진실성을 다루는 주제 계승.",
+            "what_to_change_ko": "시각적 텍스트 중심에서 벗어나 사운드 클립 단서와 청각적 연출을 메인으로 삼고 단서 조합으로 진실을 아카이빙하도록 변경.",
+            "mobile_use_or_play_ko": "이어폰을 착용한 상태로 오디오 로그를 청취하고 키워드 노트를 드래그하여 진실의 기록을 완성하는 플레이 흐름.",
+            "key_features_ko": [
+              "오디오 로그 재생 및 파형 분석기",
+              "단서 드래그 앤 드롭 조합",
+              "청각적 몰입 연출"
+            ],
+            "solo_mvp_and_effort_ko": "무료 사운드 리소스와 텍스트 노트를 활용해 핵심 로직을 구현할 수 있으며 UI 그래픽 리소스 제작 부담을 줄임.",
+            "strengths_limits_ko": "독창적인 감성과 높은 몰입감이 장점이나 모바일 환경에서의 오디오 플레이 편의성 검증이 필요함."
+          }
+        ],
+        "concept_comparison_ko": "세 기획은 원작의 기록과 선택이라는 본질을 각각 SF 테마와 수치 시스템, 자원 관리 시뮬레이션, 오디오 중심 단서 조합으로 다채롭게 확장함. 1안은 서사와 수치 긴장감, 2안은 캐주얼한 스와이프와 전략성, 3안은 감성적 몰입과 청각적 차별화를 제공하며, 1안이 원작의 메타 서사적 무게감을 가장 잘 살림.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "원작의 역사적 기록 결정이라는 철학적 가치를 SF 우주 기지라는 새로운 장르와 수치 지표 시스템으로 확장하여 모바일 환경에서 텍스트의 재미를 극대화하기 가장 적합함.",
+        "next_questions_ko": [
+          "SF 로그 텍스트의 분량과 수치 시스템 간의 밸런싱 공식을 어떻게 설계할 것인가?",
+          "모바일 화면에서 가독성을 높이기 위한 타이포그래피와 UI 레이아웃의 최적화 방안은 무엇인가?"
+        ]
+      },
+      "brief_at": "2026-11-28T08:59:01+09:00",
+      "brief_quota_day": "2026-11-28",
+      "brief_usage": {
+        "promptTokenCount": 1156,
+        "candidatesTokenCount": 1406,
+        "totalTokenCount": 5411,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1156
+          }
+        ],
+        "thoughtsTokenCount": 2849,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "itch:fdbb8df4c3125cd4bd67",
+        "product_kind": "game",
+        "selected_concept_title_ko": "타임라인 아카비스트",
+        "project_goal_and_audience_ko": "우주 기지의 세 시대 사고 기록 중 어떤 데이터를 영구 보존하고 은폐할지 결정하는 SF 인터랙티브 픽션 게임입니다. 복잡한 컨트롤 대신 텍스트와 선택지를 통해 몰입감 있는 서사를 즐기며, 자신의 선택이 미래 역사에 미치는 영향에 깊은 몰입을 느끼는 스토리 게임 애호가를 타겟으로 합니다.",
+        "source_relation_and_difference_ko": "원작의 시간의 경과에 따른 시점 변화 구조와 플레이어의 선택이 역사적 기록으로 이어지는 메타 서사 메커니즘을 충실히 계승합니다. 차별점으로는 고고학적 동굴 탐험이라는 소재를 SF 우주 기지 생존 및 은폐 테마로 전환하고, 단순 텍스트 분기를 넘어선 데이터 오염도와 윤리적 평판 수치 시스템을 도입하여 선택의 긴장감을 높였다는 점입니다.",
+        "core_user_experience_ko": "플레이어는 모바일 화면 상단에 표시되는 우주 기지 아카이브 단말기를 통해 과거 세 시대의 로그 기록을 순차적으로 읽게 됩니다. 각 로그의 마지막 순간에 제시되는 세 가지 선택지 중 하나를 터치하면, 화면 하단의 시스템 안정성과 역사 왜곡도 바가 즉각적으로 변동합니다. 이 수치 누적에 따라 다음 시대의 로그 내용이 달라지며, 최종적으로 기지의 운명과 아카이브 기록실에 박제되는 역사적 결론이 달라지는 경험을 제공합니다.",
+        "features_ko": [
+          {
+            "feature_ko": "시대별 로그 데이터 뷰어",
+            "user_action_and_behavior_ko": "사용자가 텍스트 스크롤을 내리며 로그를 읽고, 분기점에서 선택지를 터치함. 타자기 효과로 텍스트가 출력되어 몰입감을 높이고, 선택 즉시 다음 스토리 노드로 부드럽게 전환됨.",
+            "practical_implementation_ko": "Kotlin 및 Jetpack Compose 기반으로 구현하며, 텍스트는 구조화된 JSON 파일로부터 비동기 로드. LazyColumn과 Text 컴포저블을 활용해 긴 로그도 버벅임 없이 렌더링."
+          },
+          {
+            "feature_ko": "역사 왜곡 및 윤리 지표 시스템",
+            "user_action_and_behavior_ko": "선택에 따라 시스템 안정성과 역사 왜곡도 수치가 실시간으로 증감함. UI 상단 바의 색상과 경고 애니메이션을 통해 플레이어에게 위기감을 시각적으로 전달함.",
+            "practical_implementation_ko": "전역 상태 관리 객체(ViewModel)를 두어 선택지가 클릭될 때마다 정수형 수치를 연산하고 범위(0~100)를 제한함. 수치 임계점에 도달하면 다음 분기 ID를 동적으로 변경."
+          },
+          {
+            "feature_ko": "멀티 엔딩 아카이브 기록실",
+            "user_action_and_behavior_ko": "세 시대를 모두 클리어한 후, 플레이어가 남긴 최종 기록이 역사 교과서나 기지 아카이브 문서 형태로 요약되어 출력됨. 해금된 엔딩 목록을 확인하고 재플레이 동기를 얻음.",
+            "practical_implementation_ko": "DataStore 또는 Room DB를 활용해 달성한 엔딩 키와 최종 수치 데이터를 영구 저장하고, 아카이브 화면에서 리스트 형태로 동적 바인딩."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "타이틀 및 에피소드 선택 화면",
+            "contents_and_actions_ko": "게임 시작, 이전 플레이 기록 및 아카이브 기록실 진입 버튼 제공."
+          },
+          {
+            "screen_ko": "메인 아카이브 뷰어 화면",
+            "contents_and_actions_ko": "시대별 로그 텍스트 출력, 상단 수치 바(안정성/왜곡도), 하단 3개 선택지 버튼."
+          },
+          {
+            "screen_ko": "시대 전환 및 중간 요약 화면",
+            "contents_and_actions_ko": "한 시대가 끝날 때마다 현재까지의 수치 결과와 역사적 평가 요약문 출력."
+          },
+          {
+            "screen_ko": "최종 엔딩 및 아카이브 기록실",
+            "contents_and_actions_ko": "세 시대 완료 후 최종 역사 기록물 열람 및 수집된 엔딩 갤러리 확인."
+          }
+        ],
+        "implementation_approach_ko": "안드로이드 네이티브(Kotlin + Jetpack Compose) 환경을 선택합니다. 텍스트 중심의 UI 렌더링이 가볍고 빠르며, 로컬 상태 관리와 JSON 파싱이 용이하기 때문입니다. 별도의 무거운 게임 엔진 없이 안드로이드 표준 UI 툴킷만으로 구현하여 앱 용량을 최소화하고 텍스트 가독성을 극대화합니다.",
+        "data_and_storage_ko": [
+          "LogNode 객체: id, era, text, choices(nextId, stabilityDelta, distortionDelta 포함). 에셋 폴더의 JSON 파일로 정적 관리.",
+          "GameState 객체: currentEra, currentLogId, stabilityScore, distortionScore, unlockedEndings. DataStore를 통해 앱 종료 시 자동 저장 및 복구.",
+          "ArchiveRecord 객체: endingId, summaryText, timestamp. Room DB를 통해 플레이어의 역사 기록 백업 보관."
+        ],
+        "mvp_scope_ko": "첫 번째 시대의 로그 분기 전체와 기본 선택지 로직, 2개의 수치 연동, 그리고 3개의 분기 엔딩 중 1개 도출을 MVP 범위로 설정합니다. 화려한 사운드나 멀티 시대 확장 기능은 제외하며, 텍스트 가독성과 선택에 따른 수치 변화 피드백이라는 핵심 루프 검증에 집중합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 기본 UI 및 텍스트 렌더링 구조 설계",
+            "deliverable_and_check_ko": "Jetpack Compose를 이용해 아카이브 뷰어 레이아웃 배치 및 텍스트 타이핑 효과 프로토타입 구현 확인."
+          },
+          {
+            "stage_ko": "2단계: JSON 스크립트 파서 및 분기 네비게이션 구현",
+            "deliverable_and_check_ko": "로컬 JSON 파일에서 로그 데이터를 불러와 선택지 클릭에 따라 다음 노드로 매끄럽게 이동하는지 확인."
+          },
+          {
+            "stage_ko": "3단계: 수치 지표 시스템 및 조건부 분기 연동",
+            "deliverable_and_check_ko": "선택에 따른 안정성/왜곡도 증감 로직과 수치 한계 도달 시 분기 변경 처리 검증."
+          },
+          {
+            "stage_ko": "4단계: 데이터 저장 및 아카이브 화면 구현",
+            "deliverable_and_check_ko": "DataStore를 이용한 진행 상황 저장/로드 기능과 최종 엔딩 요약 화면 출력 확인."
+          }
+        ],
+        "possible_extensions_ko": "핵심 경험인 텍스트 분기와 수치 긴장감을 해치지 않는 선에서, 향후 다국어 지원, 텍스트 타이핑 속도 조절 옵션, 그리고 특정 조건에서만 해금되는 비밀 블랙박스 로그 에피소드를 확장 콘텐츠로 추가할 수 있습니다.",
+        "risks_and_open_decisions_ko": [
+          "모바일 환경에서 긴 텍스트를 읽을 때 발생하는 피로감과 스크롤 이탈 가능성에 대한 UX적 대응 방안 검토 필요.",
+          "선택지 수치 증감 공식이 너무 엄격하면 플레이어가 원하지 않는 강제 배드 엔딩으로 직결될 수 있으므로, 수치 밸런스 테스트가 추후 반드시 필요함.",
+          "원작의 구체적 분기 규모나 내부 시스템은 확인되지 않았으므로, 본 기획은 SF 테마를 결합한 독자적 텍스트 분기 구조로 설계된 초안임."
+        ],
+        "draft_status_ko": "본 문서는 타임라인 아카비스트 기획을 바탕으로 안드로이드 모바일 환경에서의 구현 가능성을 검토하기 위해 작성된 개발 설계 초안이며, 실제 구현 및 플레이테스트를 거치지 않은 가상의 제안입니다."
+      },
+      "plan_at": "2026-11-28T08:59:19+09:00",
+      "plan_quota_day": "2026-11-28",
+      "plan_usage": {
+        "promptTokenCount": 1650,
+        "candidatesTokenCount": 2017,
+        "totalTokenCount": 6874,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1650
+          }
+        ],
+        "thoughtsTokenCount": 3207,
+        "serviceTier": "standard"
+      }
     }
   }
 }

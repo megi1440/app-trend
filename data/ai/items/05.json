@@ -13650,6 +13650,373 @@
       "origin": "daily_v3",
       "ai_generated": true,
       "quota_day": "2026-11-27"
+    },
+    "google:com.meetrixonline.drawnames": {
+      "app_key": "google:com.meetrixonline.drawnames",
+      "name": "drawnames | Secret Santa app",
+      "developer": "drawnames",
+      "source": "google",
+      "country": "US",
+      "category": "app_tools",
+      "detail_url": "https://play.google.com/store/apps/details?id=com.meetrixonline.drawnames&hl=en&gl=US",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:44:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "🎁 Simplify gift exchanges, manage wish lists and start Creating Magic Moments™ together with the drawnames Secret Santa app Planning a Secret Santa gift exchange? Whether it's for Christmas, Hanukkah, Diwali, Kwanzaa, or any other occasion. drawnames makes organising fun and easy. No account needed—just download the app, create your group, and let us handle the rest. From setting exclusions to creating and sharing wish lists and discovering the perfect gift, drawnames makes gift exchanges stress-free. Key features: 🎅 Simple Secret Santa generator Set up your gift exchange in 3 easy steps: create a group, set exclusions, and draw names. It’s quick, simple, and perfect for any size of group. 📋 No account required Start organising without having to sign in. Just download the app and go! Enjoy the full functionality immediately—no account, no hassle. 🔒 Set exclusions Avoid unwanted pairings by setting exclusions—ensure certain people don’t draw each other. Perfect for friends, family, and co-workers. 🎁 Personal wish lists Make gift-giving easier by letting participants create and share personalized wish lists or gift lists. 💬 Share using your favorite apps Invite friends and family to your Secret Santa through most messaging apps, text, or email. Whatever works best for your group, we’ve got you covered. 🌐 Cross-device compatibility No matter what device your group members use—any mobile phone, tablet or computer with a web browser—everyone can join the fun. You can even invite people who prefer not to download the app. 🛍️ Gift inspiration & suggestions Browse thousands of gift ideas directly in the app. Discover trending and popular gifts among our millions of users, and add them to your wish list. Whether it’s for the holiday season, a birthday, or a baby shower, we’ve got perfect gift suggestions for any occasion. 🔄 Manage multiple gift exchanges Keep track of all your gift exchanges in one app. Organise events for different groups—friends, family, or work—straight from your device. Sign in to access your groups from any device. 🎉 Flexible for any occasion drawnames is perfect for Christmas, but did you know it's also great for creating wish lists and organizing gift exchanges all year round? Whether you’re organising for Eid, Diwali, Hanukkah, or even a birthday or Valentine’s Day celebration, we make sure your event goes smoothly and is stress-free. Here's how it works: – Set the budget and gift exchange date – Add participants and exclusions – Invite people to join your group using email, Messenger or WhatsApp. If necessary, set exclusions to avoid unwanted pairings. – Draw names – Once names are drawn, participants can start creating wish lists and choosing gifts for the others in the group.\" Why choose drawnames? Avoid the hassle of drawing names manually or keeping track of everything on paper. drawnames helps you take care of everything, from organizing exclusions to offering gift suggestions and creating wish lists. Plus, with no ads and no account required, you can get started straight away! Perfect for any type of gift exchange, whether during the festive season or for any other occasion. Organize quickly and efficiently, and make sure everyone has a great experience. More than just for Christmas In addition to festive season gift exchanges, the app is ideal for other events like baby showers, weddings, birthdays, and more. Let your group create wish lists, find gifts, and make the celebration extra special with thoughtful presents everyone will love. Download the drawnames app today and start planning your gift exchange in just a few clicks! Support: If you need help, contact us at help@drawnames.com, and our team will be happy to assist you. drawnames can be used free of charge. We may be compensated for affiliate links from our partners.",
+      "analysis": {
+        "app_key": "google:com.meetrixonline.drawnames",
+        "summary_ko": "이 앱은 비밀 산타와 같은 선물 교환 이벤트를 간편하게 조직할 수 있도록 돕는 도구입니다. 그룹을 생성하고 참가자를 초대하여 무작위로 이름을 추첨하며, 제외 규칙을 설정해 원치 않는 매칭을 방지할 수 있습니다. 위시리스트 공유 및 선물 아이디어 탐색 기능을 통해 선물 준비 과정을 효율적으로 관리합니다.",
+        "features_ko": [
+          "그룹을 생성하고 참가자를 초대하여 무작위로 선물 교환 대상을 추첨합니다.",
+          "특정 참가자끼리 매칭되지 않도록 제외 규칙을 설정할 수 있습니다.",
+          "참가자가 직접 위시리스트를 작성하고 공유하여 선물 선택을 돕습니다.",
+          "앱 내에서 다양한 선물 아이디어를 탐색하고 추천받을 수 있습니다.",
+          "메신저나 이메일을 통해 간편하게 그룹 초대장을 공유합니다."
+        ],
+        "noteworthy_ko": "계정 생성 없이 즉시 사용 가능한 점이 사용자 진입 장벽을 크게 낮추는 핵심 요소입니다. 웹 브라우저와 모바일 앱 간의 크로스 플랫폼 호환성을 통해 접근성을 극대화한 점이 흥미롭습니다.",
+        "development_ko": "핵심 기술은 무작위 추첨 알고리즘과 제외 규칙을 처리하는 로직입니다. 데이터는 서버에 저장되어 여러 기기에서 동기화되므로 안정적인 백엔드 구축이 필요합니다. 사용자 초대 및 공유 기능은 각 플랫폼의 공유 API를 활용하여 구현할 수 있습니다.",
+        "idea_ko": "특정 테마(예: 책, 간식)를 지정하여 위시리스트를 자동으로 필터링해주는 '테마 기반 선물 교환' 기능이 유용할 것입니다.",
+        "highlights_ko": [
+          "계정 생성 절차를 생략하여 즉각적인 이벤트 조직이 가능합니다.",
+          "다양한 플랫폼(웹, 모바일)에서 동일한 경험을 제공하는 범용성을 갖췄습니다."
+        ],
+        "systems_ko": [
+          "사용자 그룹 관리 시스템",
+          "무작위 추첨 및 제외 규칙 처리 로직",
+          "위시리스트 데이터베이스 관리",
+          "공유 및 초대 링크 생성 시스템",
+          "알림 및 이벤트 상태 관리"
+        ],
+        "difficulty_ko": {
+          "level": "보통",
+          "reason": "추첨 로직 자체는 간단하지만, 제외 규칙이 복잡해질 경우 모든 참가자가 유효하게 매칭되는지 검증하는 알고리즘 구현이 필요합니다. 또한 다중 기기 동기화를 위한 서버 환경 구축이 요구됩니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "그룹 생성 기능",
+            "참가자 명단 관리",
+            "무작위 추첨 로직",
+            "결과 공유 기능"
+          ],
+          "defer": [
+            "앱 내 선물 쇼핑몰 연동",
+            "사용자 계정 시스템",
+            "상세 위시리스트 이미지 업로드"
+          ],
+          "risks": [
+            "추첨 알고리즘의 예외 처리 미흡",
+            "데이터 동기화 오류"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "테마 선물 교환",
+            "concept": "특정 카테고리(예: 문구류, 친환경 제품)를 설정하고 해당 카테고리 내에서만 선물을 고르도록 유도합니다.",
+            "first_step": "카테고리 선택 옵션을 추가하고 추첨 시 해당 테마를 표시하는 기능을 구현합니다."
+          },
+          {
+            "title": "선물 예산 자동 계산기",
+            "concept": "그룹 내에서 설정한 예산 범위 내의 선물만 위시리스트에 담을 수 있도록 제한합니다.",
+            "first_step": "위시리스트 입력 폼에 가격 필드를 추가하고 예산 초과 시 경고를 띄우는 로직을 작성합니다."
+          }
+        ],
+        "recommendation_ko": "데이터베이스 설계와 상태 관리의 기초를 배우기에 적합합니다. 단순한 로직을 사용자 친화적인 UI로 풀어내는 과정을 경험할 수 있습니다.",
+        "source_limitations_ko": "소개문에 언급된 제휴 마케팅 수익 구조나 서버 인프라에 대한 정보는 없습니다. 외부 결제나 보안 관련 상세 구현 방식은 확인되지 않습니다.",
+        "name": "drawnames | Secret Santa app",
+        "source": "google",
+        "detail_url": "https://play.google.com/store/apps/details?id=com.meetrixonline.drawnames&hl=en&gl=US",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 192,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 16,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
+    },
+    "apple:1563121109": {
+      "app_key": "apple:1563121109",
+      "name": "Shattered Pixel Dungeon",
+      "developer": "Evan Debenham",
+      "source": "apple",
+      "country": "US",
+      "category": "all_games",
+      "detail_url": "https://apps.apple.com/us/app/shattered-pixel-dungeon/id1563121109?uo=2",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:44:24+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Shattered Pixel Dungeon is a traditional roguelike dungeon crawler RPG that's simple to get into but hard to master! Every game is a unique challenge, with six different heroes, randomized levels and enemies, and hundreds of items to collect and use. ShatteredPD is also updated with new content roughly every three months, so there's always something new. ◀ Choose Your Hero ▶ Each of ShatteredPD's six playable heroes has their own unique mechanics and gameplay style. Cut down foes as the durable Warrior or deadly Duelist, fry your enemies as the arcane Mage or divine Cleric, or use terrain to your advantage as the stealthy Rogue or the markswoman Huntress! As you progress through the dungeon you'll earn points to spend on talents, choose a subclass, and gain powerful lategame abilities. You can turn the Duelist into a dual-wielding Champion, the Cleric into a righteous Paladin, the Huntress into a precise Sniper, or explore loads of other possibilities! ◀ Explore the Dungeon ▶ ShatteredPD's dungeon is procedurally generated with random layouts, room types, items, traps, and enemies. In each game you'll find equipment and collect or craft consumable items to power you up or help you out in a pinch. There is a huge variety to what you might see from run to run and region to region. As you progress through the dungeon you'll find equipment that can be enchanted, upgraded, and augmented as you outfit your hero. Set foes ablaze with an enchanted weapon, wade through enemies with upgraded armor, or gain powerful damage, defensive, or utility benefits from one of the many magical wands, rings, artifacts, or trinkets. ◀ Succeed or Die Trying ▶ The Dungeon is filled with enemies, traps, hazards, and bosses intent on ending your run! Battle hostile wildlife in the sewers and caves, mad thieves and guards in the prison, occult servants in the fallen dwarven city, and maybe something even worse further down... All these hazards can make the game quite tough, but don't be discouraged! You probably won't win on your first try, but there are many tricks and strategies to discover and learn on the path to getting your first win. Afterward, there are optional challenges and achivements if you want to put your skills to the test! ◀ Over A Decade in the Making ▶ Shattered Pixel Dungeon is an open source game based on the source code of Pixel Dungeon by Watabou (first released in late 2012). It started in 2014 as a project to rebalance Pixel Dungeon but has steadily grown into its own game over the last 10 years! Features Include: • 6 Heroes, each with 2 subclasses, 3 endgame abilities, and over 25 talents. • Over 300 items including equipment, consumables, and items crafted via alchemy. • 5 dungeon regions, 26 floors, over 100 room types, and trillions of possible floor layouts. • Over 60 regular enemy types, 30 traps, and 10 bosses to test your skills. • An in-game catalog to fill in, with just over 500 entries. • 9 stackable challenges and over 100 achievements for completionists. • Interface modes for large and small screens, and support for multiple input types. • Updates roughly every 3 months with new content, fixes, and improvements. • Support for many languages thanks to the game's dedicated communities.",
+      "analysis": {
+        "app_key": "apple:1563121109",
+        "summary_ko": "Shattered Pixel Dungeon은 전통적인 로그라이크 던전 탐험 게임으로, 무작위로 생성되는 레벨과 다양한 아이템을 활용해 생존하는 것이 목표입니다. 6명의 영웅은 각각 고유한 능력과 전직 시스템을 갖추고 있어 매번 새로운 전략적 플레이를 요구합니다. 10년 이상 업데이트된 방대한 콘텐츠와 도전 과제가 특징입니다.",
+        "features_ko": [
+          "절차적으로 생성되는 던전에서 매번 다른 구조와 적을 마주합니다.",
+          "6명의 영웅이 각각 고유한 재능과 전직 시스템을 통해 성장합니다.",
+          "300개 이상의 아이템을 수집, 강화, 조합하여 캐릭터를 강화합니다.",
+          "연금술 시스템을 통해 소모품을 제작하고 전략적으로 활용합니다.",
+          "9가지 도전 과제와 100개 이상의 업적을 통해 난이도를 조절할 수 있습니다."
+        ],
+        "noteworthy_ko": "오픈 소스 기반으로 10년 넘게 지속적인 업데이트를 이어온 점이 매우 인상적입니다. 로그라이크 특유의 무작위성과 캐릭터 성장 요소가 결합되어 높은 리플레이 가치를 제공합니다.",
+        "development_ko": "절차적 맵 생성 알고리즘과 방대한 아이템 데이터베이스 관리가 핵심입니다. 밸런스 조정은 6명의 영웅과 수많은 아이템 간의 상호작용을 고려해야 하므로 매우 높은 테스트 부담이 예상됩니다. 지속적인 업데이트를 위해 모듈화된 코드 구조가 필수적입니다.",
+        "idea_ko": "특정 아이템 조합 시 발생하는 특수 효과를 도감에 기록하고, 이를 통해 새로운 조합법을 해금하는 '조합 연구 시스템'을 제안합니다.",
+        "highlights_ko": [
+          "매번 변화하는 던전 구조와 적 배치로 높은 몰입감을 제공합니다.",
+          "다양한 영웅과 전직 시스템을 통해 깊이 있는 전략적 선택이 가능합니다."
+        ],
+        "systems_ko": [
+          "절차적 맵 생성 시스템",
+          "턴제 전투 및 행동 판정 시스템",
+          "아이템 인벤토리 및 강화 시스템",
+          "캐릭터 능력치 및 성장 시스템",
+          "데이터 기반 도감 및 업적 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "로그라이크 게임은 밸런스 설계가 매우 까다롭고, 수많은 아이템과 적의 상호작용을 구현하는 데 많은 시간이 소요됩니다. 1인 개발 시 콘텐츠 양을 조절하지 않으면 완성까지 도달하기 어렵습니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "기본 이동 및 턴제 전투",
+            "무작위 맵 생성",
+            "아이템 획득 및 장착",
+            "캐릭터 레벨업"
+          ],
+          "defer": [
+            "6명 이상의 영웅 선택",
+            "연금술 및 복잡한 제작 시스템",
+            "다국어 지원",
+            "온라인 업적 연동"
+          ],
+          "risks": [
+            "밸런스 붕괴로 인한 게임 재미 저하",
+            "방대한 데이터 관리의 복잡성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "환경 상호작용 던전",
+            "concept": "던전 내의 지형지물(물, 불, 얼음)을 활용해 적에게 상태 이상을 거는 전략적 전투 시스템입니다.",
+            "first_step": "타일 속성 시스템을 구현하고 특정 타일 위에서 공격 시 추가 효과가 발생하는 로직을 작성합니다."
+          },
+          {
+            "title": "영웅 기억 회상 모드",
+            "concept": "특정 아이템을 사용하면 해당 아이템의 과거 주인이 겪었던 짧은 미니 던전을 플레이하는 모드입니다.",
+            "first_step": "기존 던전 생성 로직을 재사용하여 짧은 층수의 독립된 던전을 생성하는 기능을 만듭니다."
+          }
+        ],
+        "recommendation_ko": "로그라이크 장르의 정석을 배우고 싶다면 최고의 교재입니다. 시스템의 확장성과 데이터 관리 방식을 공부하기에 매우 좋습니다.",
+        "source_limitations_ko": "오픈 소스 기반의 상세 구현 코드나 밸런스 수치는 공개되지 않았습니다. 특정 플랫폼 최적화 기술이나 멀티플레이어 지원 여부는 확인되지 않습니다.",
+        "name": "Shattered Pixel Dungeon",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/shattered-pixel-dungeon/id1563121109?uo=2",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 189,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 17,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
+    },
+    "apple:6498623389": {
+      "app_key": "apple:6498623389",
+      "name": "Folium",
+      "developer": "Jarrod Norwell",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/folium/id6498623389",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:44:44+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "Folium is a beautifully designed, high performing multi-system emulation app bringing retro console and handheld gaming to Apple devices Supported Systems Bandai - WonderSwan - WonderSwan Color Coleco - ColecoVision Nintendo - 3DS - DS - Game Boy - Game Boy Advance - Game Boy Color - Nintendo Entertainment System - Super Nintendo Entertainment System SEGA - Genesis - Mega Drive Sony - PlayStation 1 Supported Game Controllers Backbone - One Nintendo Switch - Joy-Con - Pro Controller PlayStation - DualSense - DualShock 4 Xbox Series - S - X https://apple.com/legal/internet-services/itunes/dev/stdeula",
+      "analysis": {
+        "app_key": "apple:6498623389",
+        "summary_ko": "다양한 레트로 게임 콘솔과 휴대용 기기를 애플 기기에서 구동할 수 있는 멀티 시스템 에뮬레이터입니다. 닌텐도, 세가, 소니 등 여러 플랫폼의 게임을 지원하며 다양한 게임 컨트롤러와 호환됩니다.",
+        "features_ko": [
+          "닌텐도, 세가, 소니 등 다수의 레트로 게임 플랫폼을 지원합니다.",
+          "Backbone, Joy-Con, DualSense 등 다양한 외부 컨트롤러를 지원합니다.",
+          "고성능 에뮬레이션 엔진을 통해 원활한 게임 플레이를 제공합니다.",
+          "다양한 콘솔 기기의 게임을 하나의 앱에서 통합 관리합니다."
+        ],
+        "noteworthy_ko": "다양한 플랫폼을 통합하는 에뮬레이션 아키텍처가 매우 흥미롭습니다. 각 기기별 하드웨어 특성을 소프트웨어로 재현하는 기술적 난이도가 높으며, 성능 최적화가 핵심입니다.",
+        "development_ko": "각 콘솔별 하드웨어 에뮬레이션 코어 구현이 핵심입니다. 컨트롤러 입력 매핑과 화면 렌더링 최적화가 필수적이며, 플랫폼별로 다른 게임 파일 형식을 처리하는 파서 개발이 필요합니다.",
+        "idea_ko": "에뮬레이터에 게임 플레이 녹화 및 공유 기능을 추가하여 레트로 게임 커뮤니티를 형성하는 기능이 적합합니다.",
+        "highlights_ko": [
+          "다양한 레트로 플랫폼을 지원하는 통합 에뮬레이션 환경.",
+          "폭넓은 외부 컨트롤러 호환성."
+        ],
+        "systems_ko": [
+          "플랫폼별 에뮬레이션 코어",
+          "입력 매핑 및 컨트롤러 관리 시스템",
+          "게임 파일 로더 및 관리 시스템",
+          "화면 렌더링 및 오디오 출력 시스템",
+          "세이브 상태 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "하드웨어 아키텍처에 대한 깊은 이해가 필요하며, 각 플랫폼의 에뮬레이션 코어를 구현하고 최적화하는 것은 1인 개발자에게 매우 높은 기술적 장벽입니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "단일 플랫폼 에뮬레이션 코어",
+            "기본적인 컨트롤러 입력 처리",
+            "게임 파일 로딩 기능"
+          ],
+          "defer": [
+            "다중 플랫폼 지원",
+            "고급 그래픽 필터링",
+            "네트워크 멀티플레이"
+          ],
+          "risks": [
+            "플랫폼별 하드웨어 재현의 정확도 문제",
+            "저작권 및 법적 이슈"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "레트로 게임 챌린지",
+            "concept": "에뮬레이터 내에서 특정 게임의 도전 과제를 설정하고 달성 여부를 기록하는 시스템입니다.",
+            "first_step": "게임 내 특정 메모리 값을 읽어와 도전 과제 달성 여부를 판별하는 로직 구현."
+          },
+          {
+            "title": "에뮬레이터 라이브러리 매니저",
+            "concept": "게임의 메타데이터를 자동으로 수집하여 깔끔한 라이브러리 형태로 보여주는 관리 앱입니다.",
+            "first_step": "게임 파일의 해시값을 기반으로 정보를 검색하는 API 연동."
+          }
+        ],
+        "recommendation_ko": "저수준 프로그래밍과 하드웨어 아키텍처에 관심 있는 개발자에게 추천합니다. 에뮬레이션 기술은 컴퓨터 구조를 이해하는 데 큰 도움이 됩니다.",
+        "source_limitations_ko": "소개문에는 특정 에뮬레이션 코어의 출처나 라이선스 정보, 저작권 관련 대응 방식은 명시되어 있지 않습니다.",
+        "name": "Folium",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/folium/id6498623389",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 177,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 21,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
+    },
+    "apple:6504824477": {
+      "app_key": "apple:6504824477",
+      "name": "Aeropostale: Teen Clothing",
+      "developer": "Aeropostale",
+      "source": "apple",
+      "country": "US",
+      "category": "all_apps",
+      "detail_url": "https://apps.apple.com/us/app/aeropostale-teen-clothing/id6504824477",
+      "data_date": "2026-11-28",
+      "analysed_at": "2026-11-28T08:47:01+09:00",
+      "model": "gemini-3.1-flash-lite",
+      "prompt_version": "v2",
+      "source_description": "**Welcome to the Aeropostale App!* Your go-to destination for trendy teen clothing, stylish accessories, unbeatable deals, and top-rated denim. Dive into a world of fashion where you can express your unique style with confidence and ease!* **Key Features:** **Shop the Latest Trends:* Browse our extensive collection of the newest arrivals in teen fashion, from casual wear to trendy outfits, perfect for any occasion.* **Exclusive App-Only Deals:* Unlock special discounts and exclusive offers available only to our app users. Save big on your favorite styles!* **Personalized Recommendations:* Discover styles picked out just for you* based on your shopping preferences and past purchases. **Easy Checkout:* Enjoy a hassle-free shopping experience with quick and secure checkout options, so you can purchase with confidence every time!* **Stay Updated:* Be the first to know about new arrivals, special offers, and exclusive events. Turn on notifications to never miss a deal!* **Wishlist & Favorites:* Save your favorite items for later. Create a wishlist and easily access it whenever you’re ready to shop!* **User-Friendly Interface:* Enjoy an intuitive design that makes navigating through our collections easy and fun.* **Why Choose Aeropostale?** At Aeropostale, we understand that fashion is a form of self-expression. Our clothing is designed for today’s trendsetters who want to stand out with confidence. Whether you’re looking for comfy loungewear, stylish jeans, or trendy accessories, we’ve got you covered! **Download the Aeropostale App Today!** Join our fashion community and start shopping the latest trends right from your phone. Don’t forget to share your looks on social media with #AeroForAll for a chance to be featured!",
+      "analysis": {
+        "app_key": "apple:6504824477",
+        "summary_ko": "Aeropostale 앱은 십 대를 위한 트렌디한 의류와 액세서리를 쇼핑할 수 있는 모바일 커머스 플랫폼입니다. 사용자는 최신 패션 트렌드를 확인하고 앱 전용 할인 혜택을 누릴 수 있습니다. 개인화된 추천과 간편한 결제 시스템을 통해 편리한 쇼핑 경험을 제공합니다.",
+        "features_ko": [
+          "최신 의류 컬렉션과 트렌디한 신상품을 브라우징할 수 있습니다.",
+          "앱 사용자만을 위한 전용 할인 및 특별 혜택을 제공합니다.",
+          "사용자의 쇼핑 이력을 바탕으로 개인화된 스타일을 추천합니다.",
+          "빠르고 안전한 결제 시스템을 통해 간편하게 구매할 수 있습니다.",
+          "관심 상품을 위시리스트에 저장하여 나중에 확인할 수 있습니다.",
+          "신상품 및 이벤트 정보를 푸시 알림으로 가장 먼저 받아볼 수 있습니다."
+        ],
+        "noteworthy_ko": "십 대라는 타겟층에 맞춘 트렌디한 UI와 개인화 추천 기능이 핵심입니다. 소셜 미디어 공유를 유도하여 브랜드 커뮤니티를 형성하려는 전략이 돋보입니다.",
+        "development_ko": "상품 카탈로그 관리와 실시간 재고 연동이 필수적입니다. 개인화 추천을 위한 사용자 행동 데이터 분석 엔진과 보안이 강화된 결제 모듈 연동이 중요합니다. 직관적인 내비게이션 설계를 위한 UI/UX 최적화가 필요합니다.",
+        "idea_ko": "사용자가 자신의 스타일을 사진으로 올리면 어울리는 Aeropostale 제품을 매칭해주는 'AI 스타일 코디네이터' 기능을 제안합니다.",
+        "highlights_ko": [
+          "십 대 타겟의 트렌디한 패션 아이템을 한곳에서 쇼핑할 수 있습니다.",
+          "위시리스트와 개인화 추천을 통해 쇼핑 편의성을 극대화했습니다."
+        ],
+        "systems_ko": [
+          "상품 카탈로그 및 검색 시스템",
+          "사용자 위시리스트 관리",
+          "결제 및 주문 처리 시스템",
+          "개인화 추천 엔진",
+          "푸시 알림 관리 시스템"
+        ],
+        "difficulty_ko": {
+          "level": "어려움",
+          "reason": "안전한 결제 시스템 구축과 대규모 상품 데이터 관리는 1인 개발자에게 높은 수준의 보안 및 백엔드 지식을 요구합니다. 상용 수준의 커머스 앱은 유지보수 부담이 큽니다."
+        },
+        "solo_mvp_ko": {
+          "must_have": [
+            "상품 목록 및 상세 페이지",
+            "장바구니 및 위시리스트",
+            "사용자 프로필 관리"
+          ],
+          "defer": [
+            "실시간 재고 연동",
+            "AI 기반 개인화 추천",
+            "복잡한 결제 게이트웨이 연동"
+          ],
+          "risks": [
+            "개인정보 보호 및 보안 사고",
+            "상품 데이터 업데이트의 지속성"
+          ]
+        },
+        "ideas_ko": [
+          {
+            "title": "가상 옷장 코디 앱",
+            "concept": "보유한 옷을 사진으로 찍어 등록하고, 날씨나 상황에 맞춰 코디를 제안하는 앱입니다. Aeropostale 제품을 추가하여 조합해볼 수 있습니다.",
+            "first_step": "의류 사진을 등록하고 카테고리별로 분류하는 기능 구현."
+          },
+          {
+            "title": "패션 트렌드 투표 앱",
+            "concept": "두 가지 스타일 중 더 선호하는 것을 투표하여 트렌드를 파악하는 앱입니다. 사용자들의 투표 결과를 바탕으로 인기 순위를 보여줍니다.",
+            "first_step": "두 이미지 중 하나를 선택하는 투표 로직과 결과 화면 구현."
+          }
+        ],
+        "recommendation_ko": "커머스 앱의 데이터 구조와 사용자 경험 설계를 공부하기에 좋습니다. 다만, 실제 결제 기능보다는 상품 정보를 보여주고 관리하는 기능 위주로 프로토타입을 만드는 것을 추천합니다.",
+        "source_limitations_ko": "결제 시스템의 구체적인 구현 방식이나 외부 결제 서비스 연동 여부는 소개문에 명시되지 않았습니다. 또한 개인화 추천 알고리즘의 데이터 수집 범위는 검증이 필요합니다.",
+        "name": "Aeropostale: Teen Clothing",
+        "source": "apple",
+        "detail_url": "https://apps.apple.com/us/app/aeropostale-teen-clothing/id6504824477",
+        "based_on": "store_description",
+        "ai_generated": true
+      },
+      "selection": {
+        "score": 135,
+        "reasons": [
+          "newly_seen"
+        ],
+        "best_rank": 76,
+        "countries": [
+          "US"
+        ]
+      },
+      "origin": "daily_v3",
+      "ai_generated": true,
+      "quota_day": "2026-11-28"
     }
   }
 }
