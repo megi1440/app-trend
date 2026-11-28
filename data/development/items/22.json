@@ -35553,6 +35553,181 @@
         "thoughtsTokenCount": 2997,
         "serviceTier": "standard"
       }
+    },
+    "apple:6751497996": {
+      "app_key": "apple:6751497996",
+      "name": "YouPlay: 광고 차단 비디오 브라우저",
+      "developer": "Simon Zvara",
+      "source": "apple",
+      "kind": "app",
+      "detail_url": "https://apps.apple.com/kr/app/youplay-%EA%B4%91%EA%B3%A0-%EC%B0%A8%EB%8B%A8-%EB%B9%84%EB%94%94%EC%98%A4-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80/id6751497996",
+      "model": "gemini-3.5-flash-lite",
+      "prompt_version": "gemini35_source_linked_brief_and_draft_v8",
+      "thinking_level": "HIGH",
+      "based_on": "store_description_and_gemini_3_1",
+      "brief": {
+        "app_key": "apple:6751497996",
+        "product_kind": "app",
+        "original_experience_ko": "YouPlay는 광고 차단 기능이 포함된 웹 브라우저를 통해 방해 없이 웹 비디오를 시청하고, 백그라운드 재생 및 PiP(화면 속 화면)를 활용해 멀티태스킹 비디오 소비 경험을 제공하는 유틸리티 앱입니다.",
+        "source_facts_and_limitations_ko": [
+          "확인된 사실: 광고 차단 기능 내장, 백그라운드 재생, PiP 모드, AirPlay 스트리밍, 프리미엄 커스텀 기능(배너 제거, 아이콘 변경)을 제공합니다.",
+          "한계점: 광고 차단의 기술적 방식(필터 엔진 종류), 서버 연동 유무, 구체적인 오디오 세션 제어 로직은 스토어 설명만으로는 확인되지 않습니다."
+        ],
+        "valuable_elements_ko": [
+          "웹 브라우징과 미디어 플레이어 기능을 통합하여 별도 앱 전환 없이 비디오를 시청할 수 있는 점.",
+          "백그라운드 및 PiP 재생을 통해 콘텐츠 소비의 공간적·시간적 제약을 줄인 유틸리티 구조."
+        ],
+        "new_concepts_ko": [
+          {
+            "title_ko": "스터디플레이: 강의 집중 비디오 브라우저",
+            "core_idea_ko": "웹상의 교육 강의나 튜토리얼 비디오를 시청할 때 광고 차단은 물론, 타임스탬프 노트 작성, 구간 반복 슬라이더, 자동 요약 기능을 결합하여 학습 효율을 극대화하는 교육용 미디어 브라우저.",
+            "what_to_keep_ko": "웹 비디오 재생 제어 기능과 백그라운드·PiP를 통한 멀티태스킹 시청 구조.",
+            "what_to_change_ko": "단순 시청 유틸리티에서 벗어나 학습 기록, 타임스탬프 동기화 노트, 구간 반복 등 학업 생산성 기능을 핵심으로 도입.",
+            "mobile_use_or_play_ko": "앱 내 브라우저로 학습 영상을 검색해 시청 중, 중요한 설명이 나오는 순간 노트 버튼을 눌러 스크린샷과 타임스탬프가 포함된 메모를 기록하고 나중에 해당 구간으로 바로 이동.",
+            "key_features_ko": [
+              "웹 비디어 타임스탬프 연동 노트 시스템",
+              "세밀한 구간 반복 루프 슬라이더",
+              "로컬 데이터베이스 기반 학습 아카이브 저장소"
+            ],
+            "solo_mvp_and_effort_ko": "Android WebView와 JavaScript Injection을 활용해 비디오 현재 재생 시간을 추출하고, 로컬 Room DB에 노트를 저장하는 방식으로 1인 개발이 가능하며 난이도는 보통 수준입니다.",
+            "strengths_limits_ko": "확실한 학습 목적성으로 유저 락인 효과가 높으나, 대상 웹사이트의 플레이어 구조 변경에 따른 JS 인젝션 로직 유지보수가 필요합니다."
+          },
+          {
+            "title_ko": "인디스트림: 독립 크리에이터 큐레이션 브라우저",
+            "core_idea_ko": "대형 플랫폼의 알고리즘과 과도한 광고에서 벗어나 웹상에 산재한 독립 크리에이터들의 영상 포트폴리오를 모아보고, 광고 없는 깔끔한 웹뷰 환경에서 감상하며 채널별로 아카이빙하는 브라우저.",
+            "what_to_keep_ko": "광고가 차단된 쾌적한 웹 미디어 스트리밍 환경과 백그라운드 재생 기능.",
+            "what_to_change_ko": "무작위 브라우징이 아닌 독립 크리에이터 중심의 큐레이션 피드 및 개인화된 웹 채널 북마크 관리 체계 도입.",
+            "mobile_use_or_play_ko": "큐레이션 홈 화면에서 관심 있는 인디 제작자의 영상 웹페이지를 선택해 광고 없이 시청하고, 채널을 커스텀 폴더에 북마크한 뒤 백그라운드 모드로 라디오처럼 청취.",
+            "key_features_ko": [
+              "독립 크리에이터 웹 미디어 큐레이션 피드",
+              "채널별 커스텀 폴더 북마크 아카이브",
+              "오디오 전용 백그라운드 재생 모드"
+            ],
+            "solo_mvp_and_effort_ko": "RSS 및 웹 크롤링 데이터 구조와 표준 WebView를 조합하여 구현할 수 있으며, 서버 구축 부담을 줄이기 위해 로컬 북마크 위주로 MVP를 구성하면 개발 부담이 적습니다.",
+            "strengths_limits_ko": "차별화된 탐색 경험을 제공하지만 외부 웹사이트의 콘텐츠 저작권 및 플랫폼 정책 변화에 영향을 받을 수 있습니다."
+          },
+          {
+            "title_ko": "포켓클립: 웹 미디어 스크랩북 & 다이어리",
+            "core_idea_ko": "웹 브라우징 중 발견한 영감 넘치는 영상이나 오디오의 특정 구간을 클립 형태로 잘라내어 개인 다이어리에 태그와 함께 기록하고 관리하는 멀티미디어 클리퍼 앱.",
+            "what_to_keep_ko": "웹 기반 미디어를 원활하게 다루는 브라우저 코어 및 미디어 제어 기술.",
+            "what_to_change_ko": "영상의 단순 시청 및 소비 단계를 넘어, 웹 비디오 조각을 개인의 기록 자산으로 가공하고 편집하는 생산성 도구로 전환.",
+            "mobile_use_or_play_ko": "웹을 탐색하다 마음에 드는 영상 파트를 클립 도구로 지정해 저장하고, 일기장 화면에서 해당 클립을 불러와 재생하며 그 아래에 짧은 소감이나 생각을 기록.",
+            "key_features_ko": [
+              "웹 미디어 구간 클립 추출 도구",
+              "개인 스크랩북 태그 및 폴더 구조",
+              "클립 연동 메모 에디터"
+            ],
+            "solo_mvp_and_effort_ko": "WebView 내 미디어 요소 제어와 로컬 파일 시스템을 활용한 클립 메타데이터 관리가 필요하며, 미디어 직접 다운로드 대신 웹 링크와 타임스탬프 범위 저장 방식으로 난이도를 낮출 수 있습니다.",
+            "strengths_limits_ko": "독창적인 개인화 기록 가치를 제공하지만 영상 다운로드 및 저작권 관련 기술적·법적 경계 검토가 필수적입니다."
+          }
+        ],
+        "concept_comparison_ko": "1번(스터디플레이)은 강의 시청이라는 명확한 실용 목적에 집중해 유저 체류 시간이 길고 구현 범위가 안정적입니다. 2번(인디스트림)은 새로운 콘텐츠 탐색 경험을 주나 큐레이션 데이터 확보 부담이 있습니다. 3번(포켓클립)은 크리에이티브한 기록 도구이지만 미디어 클리핑의 기술적 제약이 큽니다.",
+        "recommended_concept_number": 1,
+        "why_recommended_ko": "스터디플레이 기획은 단순한 광고 차단 브라우저라는 원본의 유틸리티 성격을 '학습 생산성 도구'로 확장하여 실질적인 사용자 효용(노트, 구간 반복)을 창출합니다. 1인 개발 환경에서 WebView 제어와 로컬 DB 조합으로 구현 가능성이 높고 불확실성이 상대적으로 적습니다.",
+        "next_questions_ko": [
+          "타겟 웹사이트의 동영상 플레이어 DOM 구조 변화에 대응하기 위해 스크립트 인젝션을 얼마나 유연하게 설계할 것인가?",
+          "타임스탬프 노트와 백그라운드 재생 상태 간의 안정적인 상태 유지 메커니즘을 어떻게 구현할 것인가?"
+        ]
+      },
+      "brief_at": "2026-11-28T12:36:03+09:00",
+      "brief_quota_day": "2026-11-28",
+      "brief_usage": {
+        "promptTokenCount": 1534,
+        "candidatesTokenCount": 1825,
+        "totalTokenCount": 5399,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1534
+          }
+        ],
+        "thoughtsTokenCount": 2040,
+        "serviceTier": "standard"
+      },
+      "plan": {
+        "app_key": "apple:6751497996",
+        "product_kind": "app",
+        "selected_concept_title_ko": "스터디플레이: 강의 집중 비디오 브라우저",
+        "project_goal_and_audience_ko": "온라인 강의, 튜토리얼, 지식 콘텐츠를 주로 시청하는 대학생, 취업준비생, 직장인 학습자를 위한 모바일 학습용 미디어 브라우저 앱입니다. 단순히 영상을 시청하는 것을 넘어 시청 중 핵심 내용을 기록하고 반복 학습할 수 있도록 효용을 제공하여 학습 효율을 극대화합니다.",
+        "source_relation_and_difference_ko": "원본 YouPlay의 핵심 경험인 광고 차단 웹 비디오 브라우징 구조와 백그라운드·PiP 멀티태스킹 재생 기능은 그대로 유지했습니다. 차별점으로는 단순 시청 유틸리티에서 벗어나, 타임스탬프 연동 노트 작성, 세밀한 구간 반복 슬라이더, 학습 아카이브 관리 등 학습 생산성 기능을 핵심으로 도입했습니다.",
+        "core_user_experience_ko": "사용자는 앱 내 브라우저를 통해 학습하고자 하는 웹 비디오 플랫폼에 접속해 강의를 검색하고 시청합니다. 비디오가 재생되는 동안 화면 하단/사이드의 노트 작성 버튼을 누르면 현재 비디오 재생 시간(타임스탬프)과 웹페이지 주소가 캡처와 함께 텍스트 노트로 기록됩니다. 나중에 노트 목록에서 특정 항목을 탭하면 정확히 그 재생 시간으로 영상이 점프하여 복습할 수 있습니다.",
+        "features_ko": [
+          {
+            "feature_ko": "웹 비디오 타임스탬프 연동 노트 시스템",
+            "user_action_and_behavior_ko": "강의 시청 중 노트 버튼 터치 시, JavaScript Injection으로 웹 플레이어의 현재 초(second)를 추출하여 텍스트 입력창과 함께 로컬 DB에 저장. 저장된 노트를 누르면 해당 시간으로 영상 재생 위치가 이동.",
+            "practical_implementation_ko": "Android WebView의 evaluateJavascript 메서드를 활용해 HTML5 video element의 currentTime 속성을 주기적으로 혹은 이벤트 시점에 가져와 데이터 객체로 매핑."
+          },
+          {
+            "feature_ko": "구간 반복 루프 슬라이더",
+            "user_action_and_behavior_ko": "이해하기 어려운 강의 구간에서 시작점과 종료점을 터치로 설정하여 무한 반복 재생함으로써 집중 청취 가능.",
+            "practical_implementation_ko": "WebView 내장 플레이어의 타임라인 이벤트를 가로채어 설정된 A-B 구간 도달 시 currentTime을 시작점으로 강제 이동시키는 커스텀 오버레이 UI 구현."
+          },
+          {
+            "feature_ko": "광고 차단 및 백그라운드/PiP 재생 브라우저",
+            "user_action_and_behavior_ko": "강의 시청 방해 요소를 제거하고 다른 작업을 하면서도 음성 강의를 청취할 수 있는 멀티태스킹 환경 제공.",
+            "practical_implementation_ko": "WebViewClient를 활용한 광고 도메인 네트워크 차단(shouldInterceptRequest) 및 Android MediaSession과 PiP 모드 API 연동."
+          }
+        ],
+        "screens_and_flow_ko": [
+          {
+            "screen_ko": "홈/브라우저 탭",
+            "contents_and_actions_ko": "일반적인 웹 브라우저 인터페이스로 강의 플랫폼 접속, 검색, 비디오 재생 수행. 하단에 노트 패널 열기 버튼 배치."
+          },
+          {
+            "screen_ko": "노트 작성 및 편집 오버레이",
+            "contents_and_actions_ko": "비디오 재생 중 호출되며, 현재 타임스탬프가 자동 입력된 상태에서 텍스트 메모를 작성하고 저장."
+          },
+          {
+            "screen_ko": "학습 아카이브(노트 보관함) 화면",
+            "contents_and_actions_ko": "저장된 모든 강의 노트 목록을 날짜/사이트별로 확인하고, 탭 시 해당 영상 페이지로 이동하며 타임스탬프 재생."
+          }
+        ],
+        "implementation_approach_ko": "Kotlin 기반의 네이티브 Android 앱으로 개발하며, UI는 Jetpack Compose를 사용합니다. 핵심 컴포넌트는 커스텀 WebView와 Room DB, MediaSession입니다. WebView를 통해 웹 콘텐츠를 렌더링하고 JS 인젝션으로 플레이어를 제어하며, 오프라인 퍼시스턴스를 위해 Room을 채택합니다. 대안으로는 하이브리드 프레임워크(Flutter)를 고려할 수 있으나 미디어 제어 및 PiP API 연동의 정밀함을 위해 네이티브 접근을 선택합니다.",
+        "data_and_storage_ko": [
+          "StudyNote Entity: id(PK), videoUrl, videoTitle, timestampSeconds, memoText, createdAt. WebView에서 노트 저장 시점의 location.href, document.title, video.currentTime을 추출하여 Room DB에 저장.",
+          "Bookmark Entity: id(PK), url, title, iconUrl. 자주 찾는 학습 사이트 및 강의 페이지 빠른 접근용으로 로컬 Room DB 저장."
+        ],
+        "mvp_scope_ko": "MVP는 광고 차단 기능이 포함된 WebView 브라우저, HTML5 비디오 플레이어의 현재 시간 추출 및 타임스탬프 노트 작성 기능, Room DB를 이용한 로컬 저장 및 노트 목록에서 타임스탬프 점프 재생 기능으로 한정합니다. 구간 반복이나 부가 클라우드 동기화는 초기 범위에서 제외하여 핵심 학습 루프 검증에 집중합니다.",
+        "development_steps_ko": [
+          {
+            "stage_ko": "1단계: 브라우저 및 광고 차단 기본 구현",
+            "deliverable_and_check_ko": "WebView 기본 네비게이션 구현 및 shouldInterceptRequest를 통한 주요 광고 스크립트 차단 여부 확인."
+          },
+          {
+            "stage_ko": "2단계: 미디어 제어 및 타임스탬프 연동",
+            "deliverable_and_check_ko": "evaluateJavascript를 이용해 비디오 재생 시간 가져오기 성공 여부 확인 및 노트 입력 UI 오버레이 구현."
+          },
+          {
+            "stage_ko": "3단계: 로컬 DB 저장 및 점프 재생 로직",
+            "deliverable_and_check_ko": "Room DB에 노트 데이터가 정상 저장되는지 확인하고, 노트 리스트 탭 시 해당 타임스탬프로 영상이 이동하는지 테스트."
+          },
+          {
+            "stage_ko": "4단계: 백그라운드/PiP 및 UI 다듬기",
+            "deliverable_and_check_ko": "Jetpack Compose 기반 UI 정돈 및 Android PiP 모드 진입/해제 시 비디오 연속 재생 확인."
+          }
+        ],
+        "possible_extensions_ko": "노트 내용 내보내기(PDF/Markdown), AI 기반 자동 스크립트 요약 연동, 학습 시간 통계 및 일일 목표 달성 리포트, 클라우드 백업 및 기기 간 동기화.",
+        "risks_and_open_decisions_ko": [
+          "대상 웹사이트의 비디오 플레이어 DOM 구조 변경이나 자체 프로텍션으로 인해 JavaScript 인젝션(currentTime 추출)이 실패할 리스크가 존재하며, 주기적인 파서 업데이트 체계가 필요함.",
+          "일부 스트리밍 사이트의 DRM 적용 콘텐츠는 표준 HTML5 video 태그와 달라 타임스탬프 추출이 제한될 수 있어 지원 가능한 플랫폼 범위를 명확히 정의해야 함."
+        ],
+        "draft_status_ko": "본 문서는 실제 구현 및 플레이테스트, 성능 측정이 완료되지 않은 모바일 앱 개발 설계 초안입니다."
+      },
+      "plan_at": "2026-11-28T12:36:18+09:00",
+      "plan_quota_day": "2026-11-28",
+      "plan_usage": {
+        "promptTokenCount": 2127,
+        "candidatesTokenCount": 1799,
+        "totalTokenCount": 6571,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 2127
+          }
+        ],
+        "thoughtsTokenCount": 2645,
+        "serviceTier": "standard"
+      }
     }
   }
 }
