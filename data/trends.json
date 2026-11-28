@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T08:40:58+09:00",
+  "generated_at": "2026-11-28T12:34:22+09:00",
   "window_days": 30,
   "candidates": [
     {
@@ -140,6 +140,24 @@
         "before_rank": 78,
         "after_rank": 17,
         "change": 61
+      },
+      "source_data_dates": [
+        "2026-11-21",
+        "2026-11-28"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
+      "app_key": "apple:1003139529",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "apple",
+        "country": "KR",
+        "chart": "top_free",
+        "category": "all_apps",
+        "before_rank": 63,
+        "after_rank": 4,
+        "change": 59
       },
       "source_data_dates": [
         "2026-11-21",
@@ -418,6 +436,24 @@
       "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
     },
     {
+      "app_key": "apple:1513718380",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "apple",
+        "country": "KR",
+        "chart": "top_free",
+        "category": "all_apps",
+        "before_rank": 86,
+        "after_rank": 42,
+        "change": 44
+      },
+      "source_data_dates": [
+        "2026-11-21",
+        "2026-11-28"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
       "app_key": "apple:1064216828",
       "reason_code": "rising_7d",
       "evidence": {
@@ -652,6 +688,24 @@
       "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
     },
     {
+      "app_key": "apple:6752922875",
+      "reason_code": "rising_7d",
+      "evidence": {
+        "source": "apple",
+        "country": "KR",
+        "chart": "top_free",
+        "category": "all_apps",
+        "before_rank": 72,
+        "after_rank": 39,
+        "change": 33
+      },
+      "source_data_dates": [
+        "2026-11-21",
+        "2026-11-28"
+      ],
+      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
+    },
+    {
       "app_key": "google:kr.or.nps.smart",
       "reason_code": "rising_7d",
       "evidence": {
@@ -662,60 +716,6 @@
         "before_rank": 82,
         "after_rank": 49,
         "change": 33
-      },
-      "source_data_dates": [
-        "2026-11-21",
-        "2026-11-28"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "google:jp.co.goodroid.hyper.puzzle.arrows3dcubepuzzle",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "google",
-        "country": "KR",
-        "chart": "top_free",
-        "category": "all_games",
-        "before_rank": 88,
-        "after_rank": 55,
-        "change": 33
-      },
-      "source_data_dates": [
-        "2026-11-21",
-        "2026-11-28"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "google:com.puzzlegames.puzzlebrickslegend",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "google",
-        "country": "US",
-        "chart": "top_free",
-        "category": "all_games",
-        "before_rank": 50,
-        "after_rank": 18,
-        "change": 32
-      },
-      "source_data_dates": [
-        "2026-11-21",
-        "2026-11-28"
-      ],
-      "confidence_note": "같은 국가·스토어·차트의 관측 순위 변화이며 다운로드 증가율이 아닙니다."
-    },
-    {
-      "app_key": "google:com.nebula.tiles",
-      "reason_code": "rising_7d",
-      "evidence": {
-        "source": "google",
-        "country": "JP",
-        "chart": "top_free",
-        "category": "all_games",
-        "before_rank": 70,
-        "after_rank": 38,
-        "change": 32
       },
       "source_data_dates": [
         "2026-11-21",
@@ -1874,6 +1874,17 @@
       "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
     },
     {
+      "app_key": "apple:6751497996",
+      "reason_code": "newly_seen",
+      "evidence": {
+        "first_seen": "2026-11-28"
+      },
+      "source_data_dates": [
+        "2026-11-28"
+      ],
+      "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
+    },
+    {
       "app_key": "apple:6752259371",
       "reason_code": "newly_seen",
       "evidence": {
@@ -2183,17 +2194,6 @@
     },
     {
       "app_key": "google:com.playlinks.ogag.live",
-      "reason_code": "newly_seen",
-      "evidence": {
-        "first_seen": "2026-11-28"
-      },
-      "source_data_dates": [
-        "2026-11-28"
-      ],
-      "confidence_note": "우리 수집 시스템에서 처음 발견한 앱이며 신규 출시를 뜻하지 않습니다."
-    },
-    {
-      "app_key": "google:com.pro.pdfreader.core",
       "reason_code": "newly_seen",
       "evidence": {
         "first_seen": "2026-11-28"

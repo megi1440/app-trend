@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "run_id": "app-trend-2026-11-28-2026-11-28T08:40:58+09:00",
+  "run_id": "app-trend-2026-11-28-2026-11-28T12:34:22+09:00",
   "started_at": "2026-11-28T08:38:31+09:00",
-  "finished_at": "2026-11-28T08:40:58+09:00",
-  "overall_status": "partial",
-  "accepted_groups": 102,
-  "failed_groups": 1,
+  "finished_at": "2026-11-28T12:34:22+09:00",
+  "overall_status": "success",
+  "accepted_groups": 103,
+  "failed_groups": 0,
   "groups": [
     {
       "source": "apple",
@@ -625,17 +625,17 @@
       "chart": "top_free",
       "category": "all_apps",
       "feed": null,
-      "status": "failed",
-      "item_count": 0,
-      "attempted_at": "2026-11-28T08:39:42+09:00",
-      "message": "RuntimeError: NETWORK_ERROR: TimeoutError",
-      "accepted": false,
+      "status": "success",
+      "item_count": 100,
+      "attempted_at": "2026-11-28T12:34:20+09:00",
+      "message": "",
+      "accepted": true,
       "last_checked_date": "2026-11-28",
-      "consecutive_failed_days": 1,
-      "last_success_at": "2026-11-27T08:57:52+09:00",
-      "data_date": "2026-11-27",
+      "consecutive_failed_days": 0,
+      "last_success_at": "2026-11-28T12:34:20+09:00",
+      "data_date": "2026-11-28",
       "needs_attention": false,
-      "error_code": "RuntimeError"
+      "error_code": ""
     },
     {
       "source": "apple",
